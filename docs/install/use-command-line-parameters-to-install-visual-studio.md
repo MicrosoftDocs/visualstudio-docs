@@ -109,7 +109,7 @@ Syntax example: `vs_enterprise.exe [command] <optional parameters>...`
 | `--force`                                          | **Optional**: This parameter forces Visual Studio to close even if any Visual Studio process is in use. Forcing Visual Studio to close might cause loss of work, so use it with caution.  |
 | `--installWhileDownloading`                        | **Optional**: During an install, update, or modify command, this parameter allows Visual Studio to both download and install the product in parallel. It's the default experience.  |
 | `--downloadThenInstall`                            | **Optional**: During an install, update, or modify command, this parameter forces Visual Studio to download all files before installing them. It is mutually exclusive from the `--installWhileDownloading` parameter.   |
-| `--channelURI`                                     | **Optional**: During an update command, you can pass in a new channelURI to change the update settings location.  Recommend to pair with --installPath parameter so that it's very explicit which instance of Visual Studio you're configuring. See [syntax examples of --channelURI](/visualstudio/install/command-line-parameter-examples#using---channelURI) |
+| `--channelUri`                                     | **Optional**: During an update command, you can pass in a new channelUri to change the update settings location.  Recommend to pair with --installPath parameter so that it's very explicit which instance of Visual Studio you're configuring. See [syntax examples of --channelUri](/visualstudio/install/command-line-parameter-examples#using---channelUri) |
 | `--nickname <name>`                                | **Optional**: During an install command, this parameter defines the nickname to assign to an installed product. The nickname can't be longer than 10 characters. |
 | `--productKey`                                     | **Optional**: During an install command, this parameter defines the product key to use for an installed product. It's composed of 25 alphanumeric characters in the format `xxxxxxxxxxxxxxxxxxxxxxxxx`.  |
 | `--removeOos true`                                 | **Optional**: During an install, update, or modify command, this parameter (which must have the word true or false immediately after it) tells the Visual Studio installer to remove (or don't remove) all installed components that have transitioned to an out-of-support state. This behavior is applicable for a single event. If you want to make this behavior persistent, apply this parameter to the modifySettings command which is described below, or [configure the removeOOS global policy](set-defaults-for-enterprise-deployments.md). Useful for helping to keep the machine secure.  |
@@ -137,7 +137,7 @@ All layout management operations are run using the bootstrapper exe and they ass
 | **Advanced layout parameters** | **Description**                                  |
 |--------------------------------|--------------------------------------------------|
 | `--channelId <id>`             | **Optional**: The ID of the channel for the instance to be installed. This is required for the install command, and ignored for other commands if `--installPath` is specified.        |
-| `--channelUri <uri>`           | **Optional**: The URI of the channel manifest. This value governs the [source location of updates](update-visual-studio.md#configure-source-location-of-updates-1) and the initial value is [configured in the layout's response.json file](create-a-network-installation-of-visual-studio.md#configure-initial-client-installation-defaults-for-this-layout). Refer to [syntax examples of --channelURI](/visualstudio/install/command-line-parameter-examples#using---channelURI) for possible values. If updates aren't wanted, `--channelUri` can point to a non-existent file (for example, --channelUri C:\doesntExist.chman). This can be used for the install command; it's ignored for other commands.  |
+| `--channelUri <uri>`           | **Optional**: The URI of the channel manifest. This value governs the [source location of updates](update-visual-studio.md#configure-source-location-of-updates-1) and the initial value is [configured in the layout's response.json file](create-a-network-installation-of-visual-studio.md#configure-initial-client-installation-defaults-for-this-layout). Refer to [syntax examples of --channelUri](/visualstudio/install/command-line-parameter-examples#using---channelUri) for possible values. If updates aren't wanted, `--channelUri` can point to a non-existent file (for example, --channelUri C:\doesntExist.chman). This can be used for the install command; it's ignored for other commands.  |
 | `--installChannelUri <uri>`    | **Optional**: The URI of the channel manifest to use for the installation. The URI specified by `--channelUri` (which must be specified when `--installChannelUri` is specified) is used to detect updates. This can be used for the install command; it's ignored for other commands.  |
 | `--installCatalogUri <uri>`    | **Optional**: The URI of the catalog manifest to use for the installation. If specified, the channel manager attempts to download the catalog manifest from this URI before using the URI in the install channel manifest. This parameter is used to support offline install, where the layout cache will be created with the product catalog already downloaded. This can be used for the install command; it's ignored for other commands.    |
 | `--productId <id>`             | **Optional**: The ID of the product for the instance that will be installed. This is pre-populated in normal installation conditions. The `productID` is something like "Microsoft.VisualStudio.Product.Enterprise". |
@@ -162,7 +162,7 @@ You can modify the update settings and programmatically configure the source loc
 | **modifySettings parameters**                   | **Description**                                        |
 |-------------------------------------------------|----------------------------------------------------------------------|
 | `--installPath <dir>`                           | **Recommended** to use to specify which instance of Visual Studio to act upon.  |
-| `--newChannelUri`                               | **Required**: The URI of the channel manifest. This value specifies where the next [source location of updates](update-visual-studio.md#configure-source-location-of-updates-1) will be. Refer to [syntax examples of --channelURI](/visualstudio/install/command-line-parameter-examples#using---channelURI) for possible values. If updates aren't wanted, `--channelUri` can point to a non-existent file (for example, --channelUri C:\doesntExist.chman). |
+| `--newChannelUri`                               | **Required**: The URI of the channel manifest. This value specifies where the next [source location of updates](update-visual-studio.md#configure-source-location-of-updates-1) will be. Refer to [syntax examples of --channelUri](/visualstudio/install/command-line-parameter-examples#using---channelUri) for possible values. If updates aren't wanted, `--channelUri` can point to a non-existent file (for example, --channelUri C:\doesntExist.chman). |
 | `--channelUri`                               | The URI of the old channel manifest. Can be used if the --installPath is not known. Must be used in conjunction with productID to identify the right instance to act upon. |
 | `--productId <id>`                           | Must be used if --channelUri is specified and is used to identify the right instance to act upon. The `productID` is something like "Microsoft.VisualStudio.Product.Enterprise". |
 | `--quiet, -q`                                   | **Optional**: This parameter prevents any user interface from being displayed while the command is being executed. |
@@ -171,11 +171,11 @@ You can modify the update settings and programmatically configure the source loc
 Syntax examples: 
 
   ```shell
-  C:\>"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modifySettings --installPath "C:\Program Files\Microsoft\Visual Studio\2022\Enterprise" --newChannelURI https://aka.ms/vs/17/release.LTSC.17.0/channel --removeOos true
+  C:\>"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modifySettings --installPath "C:\Program Files\Microsoft\Visual Studio\2022\Enterprise" --newChannelUri https://aka.ms/vs/17/release.LTSC.17.0/channel --removeOos true
   ```
 
   ```shell 
-   C:\>"C:\Program Files\Microsoft\Visual Studio\2022\Enterprise\vs_enterprise.exe" modifySettings --channelURI https://aka.ms/vs/17/release.LTSC.17.0/channel --productID Microsoft.VisualStudio.Product.Enterprise --newChannelURI \\layoutserver\share\path\channelmanifest.json --removeOos true --quiet
+   C:\>"C:\Program Files\Microsoft\Visual Studio\2022\Enterprise\vs_enterprise.exe" modifySettings --channelUri https://aka.ms/vs/17/release.LTSC.17.0/channel --productID Microsoft.VisualStudio.Product.Enterprise --newChannelUri \\layoutserver\share\path\channelmanifest.json --removeOos true --quiet
   ``` 
 
 ## Rollback command and command-line parameters
@@ -194,16 +194,24 @@ Syntax examples:
   ```shell
   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" rollback -–installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise"
   ```
- 
- 
+  
 ## Administrator Update command and command-line parameters
 
 You can download an **Administrator Update** from the [Microsoft Update Catalog](https://catalog.update.microsoft.com) and use it to update either your client installation or your layout. 
 
+### Updating a layout
+
 If you're updating a layout to a particular version of Visual Studio, just download the Administrator Update to the computer that's hosting the layout, open up a command prompt on that computer and run a command like this:
-`visualstudioupdate-17.0.0to17.1.5.exe layout --layoutPath c:\VSLayout`
+
+```shell
+visualstudioupdate-17.0.0to17.1.5.exe layout --layoutPath c:\VSLayout
+```
+
+### Updating a client
 
 On the client, if you download the Administrator Update into your installation directory on your client machine, you can just double-click on the file to apply the update. You can also open a command window and pass some of the parameters below to change the default behavior. 
+
+### Configuring the Administrator Update in SCCM
 
 If you are deploying the administrator update through Microsoft Endpoint Manager (SCCM), you can modify the package to adjust the behavior by using the parameters below. You can also control the parameters via a configuration file on the client machine. For more information, refer to [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update)
 
@@ -214,7 +222,7 @@ Note that all Administrator Update parameters are default run in the "update" co
 | `--installerUpdateArgs [optional parameters]` | This parameter functions as a "pass-through array" of specific parameters that are relevant to administrator update scenarios. Optional parameters that are enabled for this purpose are: <br/><br/> `--quiet`: This is the default experience for administrator updates and is listed here for completeness. <br/> `--passive`: This parameter overrides the `--quiet` parameter.  It causes the UI to appear in a non-interactive manner. <br/>`--norestart`: This parameter must be used in conjunction with either `--quiet` or `--passive` and it causes any necessary reboots to be delayed. <br/>`--noWeb`: This parameter prevents Visual Studio from checking on the internet for updates to the product. <br/>`--force`: This parameter forces Visual Studio to close even if Visual Studio is in use. Use this parameter with caution, as it may cause loss of work. This parameter must only be used when the Administrator update is executed in user context; it is ignored if the Administrator update is executed in system context. <br/>`--installWhileDownloading`: This parameter allows Visual Studio to both download and install the product in parallel. It's the default experience for administrator updates and is listed here for completeness. <br/>`--keepWindowsUpdateOn`: This parameter prevents the installer from turning off the Windows Update agent on the client. You should use this parameter if you're importing an Administrator update from the Catalog into SCCM. You may also need to set the SCCM package timeout to be longer than the default 10 minutes. Changing the SCCM deployment type to be Required makes this parameter unnecessary.<br/>`--downloadThenInstall`: This parameter forces Visual Studio to download all files before installing them. It is mutually exclusive from the `--installWhileDownloading` parameter. |
 | `--checkPendingReboot`                        | The update will be aborted if there is a pending reboot on the machine, regardless of which application may have caused it. The default is to not check for pending reboots.    |
 
-Syntax example:
+Syntax example for passing parameters into an Administrator update:
 
 ```shell
 visualstudioupdate-16.9.0to16.9.4.exe --installerUpdateArgs=--force,--noWeb,--keepWindowsUpdateOn --checkPendingReboot
@@ -230,14 +238,14 @@ Update channels are cached on the client, and over time they can clutter things 
  
 | **removeChannel parameters**                   | **Description**                                                                      |
 |-------------------------------------------|-------------------------------------------------------------------------------------------|
-| `--channelUri`                     | **Required** The URI of the old channel manifest.            |
+| `--channelUri`                | **Required** The URI of the old channel manifest.            |
 | `--quiet`                     | **Optional** This parameter prevents any user interface from being displayed while the command is being executed.            |
-| `--passive`                     | **Optional** This parameter overrides the `--quiet` parameter.  It causes the UI to appear in a non-interactive manner.    |
+| `--passive`                   | **Optional** This parameter overrides the `--quiet` parameter.  It causes the UI to appear in a non-interactive manner.    |
 
 Syntax example: 
 
   ```shell
-  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" removeChannel --channelUri "https://aka.ms/vs/17/pre/channel"
+  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" removeChannel --channelUri "\\\\server\\share\\layoutdirectory\\ChannelManifest.json"
   ```
 
 ## List of workload IDs and component IDs
