@@ -80,7 +80,7 @@ In this procedure, you'll use the same Hello World code snippet that's created i
     "HelloWorldVB"="$PackageFolder$"
     ```
 
-    If you examine this key, you can see how to specify different languages.
+    If you examine this key, you can see how to specify languages other than Visual Basic.
 
 3. Select the *.pkgdef* file in **Solution Explorer**, and in the **Properties** window make sure that:
 
@@ -90,7 +90,15 @@ In this procedure, you'll use the same Hello World code snippet that's created i
 
 4. Add the *.pkgdef* file as an asset in the VSIX manifest. In the *source.extension.vsixmanifest* file, go to the **Assets** tab and click **New**.
 
-5. In the **Add New Asset** dialog, set the **Type** to **Microsoft.VisualStudio.VsPackage**, the **Source** to **File on filesystem**, and the **Path** to **HelloWorldVB.pkgdef** (which should appear in the dropdown).
+5. In the **Add New Asset** dialog, set the **Type** to **Microsoft.VisualStudio.VsPackage**, the **Source** to **File on filesystem**, and the **Path** to **HelloWorldVB.pkgdef** (which should appear in the dropdown). Select **OK** to save this new asset.
+
+### Register the snippet
+
+1. Go to **Tools** > **Code Snippets Manager** and set the **Language** to **Basic**. 
+
+2. Select **Add...**, browse to your solution directory's *HelloWorldVB* folder, and select **Select Folder**.
+
+3. *HelloWorldVB* is now one of the code snippet folders. Expand the folder to see the *HelloWorldVB* snippet. Select **OK** to save this newly added folder.
 
 ### Test the snippet
 
@@ -100,11 +108,9 @@ In this procedure, you'll use the same Hello World code snippet that's created i
 
    A second instance of Visual Studio appears.
 
-3. In the experimental instance, go to **Tools** > **Code Snippets Manager** and set the **Language** to **Basic**. You should see *HelloWorldVB* as one of the folders, and you should be able to expand the folder to see the *HelloWorldVB* snippet.
+3. Test the snippet. In the experimental instance, open a Visual Basic project and open one of the code files. Place your cursor somewhere in the code, right-click, and on the context menu select **Snippet**, then **Insert Snippet**.
 
-4. Test the snippet. In the experimental instance, open a Visual Basic project and open one of the code files. Place your cursor somewhere in the code, right-click, and on the context menu select **Insert Snippet**.
-
-5. You should see *HelloWorldVB* as one of the folders. Double-click it. You should see a pop-up **Insert Snippet: HelloWorldVB >** that has a dropdown **HelloWorldVB**. Click the **HelloWorldVB** dropdown.
+4. Double-click the *HelloWorldVB* folder. You should see a pop-up **Insert Snippet: HelloWorldVB >** that has a dropdown **HelloWorldVB**. Double-click the **HelloWorldVB** dropdown.
 
    The following line is added to the code file:
 
