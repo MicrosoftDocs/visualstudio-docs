@@ -90,7 +90,7 @@ There are three main methods of configuring administrator updates: via policies,
    Here's an example configuration file:
 
   ```json
-  "installerUpdateArgs" : ["--quiet", "--noWeb"], 
+  "installerUpdateArgs" : ["--quiet", "--noWeb", "--keepWindowsUpdateOn"], 
   "checkPendingReboot" :  "true" 
   ```
 
