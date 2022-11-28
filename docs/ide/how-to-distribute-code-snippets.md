@@ -2,7 +2,7 @@
 title: Distribute code snippets as an extension
 description: Learn how to use the Code Snippets Manager to distribute code snippets to other developers.
 ms.custom: SEO-VS-2020
-ms.date: 03/21/2019
+ms.date: 11/11/2022
 ms.topic: how-to
 helpviewer_keywords:
 - code snippets, distributing
@@ -94,7 +94,7 @@ In this procedure, you'll use the same Hello World code snippet that's created i
 
 ### Register the snippet
 
-1. Go to **Tools** > **Code Snippets Manager** and set the **Language** to **Basic**. 
+1. Go to **Tools** > **Code Snippets Manager** and set the **Language** to **Basic**.
 
 2. Select **Add...**, browse to your solution directory's *HelloWorldVB* folder, and select **Select Folder**.
 
