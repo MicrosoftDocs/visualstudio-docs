@@ -1,7 +1,7 @@
 ---
 title: "Accessibility tips and tricks for Visual Studio"
 description: "Learn more about tips and tricks that can help make the Visual Studio integrated development environment (IDE) more accessible for everyone to use, including people with disabilities."
-ms.date: 11/11/2022
+ms.date: 11/28/2022
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
@@ -57,7 +57,16 @@ The Visual Studio IDE has toolbars as do many tool windows. The following keyboa
 |Tool window toolbars|Move focus to the toolbars in a tool window. <br> <br> **NOTE:** This works for most tool windows, but only when the focus is in a tool window. Also, you must choose the SHIFT key before the ALT key. In some tool windows, such as Team Explorer, you must hold the SHIFT key for a moment before choosing the ALT key.|**Shift**+**Alt**|
 |Toolbars|Go to the first item in the next toolbar (when a toolbar has focus).|**Ctrl**+**Tab**|
 
-### Other useful keyboard shortcuts
+## Git Keyboard Shortcuts
+
+The VS status bar shows controls for quick access to various git features. The following keyboard shortcuts help you access them.
+
+|Feature|Description|Keyboard shortcut|
+|-------------|-----------------| - |
+|Branch Picker|View, manage and checkout branches in an active git repository.|**Ctrl**+**Alt**+**F3**|
+|Repository Picker|View, manage and open Git repositories known to VS.|**Ctrl**+**Alt**+**F4**|
+
+## Other useful keyboard shortcuts
 
 Some other useful keyboard shortcuts include the following.
 
