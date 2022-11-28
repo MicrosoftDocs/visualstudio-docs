@@ -17,7 +17,7 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-When Microsoft releases a new Visual Studio update, Microsoft will simultaneously publish a corresponding Visual Studio administrator update package to the Microsoft Update servers. An administrator can then distribute the Visual Studio administrator update package via [Windows Server Update Services (WSUS)](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) by using the [Configuration Manager (SCCM)](/configmgr/core/understand/introduction), or via [Windows Update for Business (WUfB)](/windows/deployment/update/waas-manage-updates-wufb) by using the [Microsoft Endpoint Manager (Intune)](https://endpoint.microsoft.com).
+Every time a new Visual Studio update is released, Microsoft will publish a Visual Studio administrator update package to the Microsoft Update servers. An administrator can then distribute this Visual Studio administrator update package via [Windows Server Update Services (WSUS)](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) by using the [Configuration Manager (SCCM)](/configmgr/core/understand/introduction), or via [Windows Update for Business (WUfB)](/windows/deployment/update/waas-manage-updates-wufb) by using the [Microsoft Endpoint Manager (Intune)](https://endpoint.microsoft.com). The Windows Update agent on the client computers will recognize that the update is available and will initiate the update.
 
 ## Use Microsoft Endpoint Manager (Intune) to update to cloud connected devices using Visual Studio administrator updates
 
@@ -47,13 +47,9 @@ Note that only Visual Studio security Administrator updates are published to WSU
 
 After you perform these steps, you can use the software update management capabilities of Configuration Manager (SCCM) to deploy the Visual Studio administrator updates. The different types and characteristics of Visual Studio administrator updates are described in [Applying administrator updates](./applying-administrator-updates.md), which provides guidance about how and when they should be distributed throughout your organization. For more information about Configuration Manager (SCCM) functionality and options, see [Deploy software updates in Microsoft Endpoint Configuration Manager (SCCM)](/mem/configmgr/sum/deploy-use/deploy-software-updates).
 
-## Enable (or disable) client machines' ability to receive Visual Studio administrator updates from Configuration Manager (SCCM)
+## Enable (or disable) client machines' ability to receive Visual Studio administrator updates
 
-The client machines must be configured properly if they are going to recognize and accept Visual Studio administrator updates. 
-
-### Visual Studio Client Detector Utility
-
-The [Visual Studio Client Detector Utility](https://support.microsoft.com/help/5001148) must be installed on the client machines in order for the Visual Studio administrator updates to be properly recognized and received. This utility was included and installed with all Visual Studio product updates that were released on or after May 12, 2020, it is included as a pre-requisite with all the Visual Studio administrator updates, and it is also available on the [Microsoft Update Catalog](https://catalog.update.microsoft.com) to deploy and install independently. 
+The client machines must be configured properly if they are going to recognize and accept Visual Studio administrator updates via either SCCM or Intune. 
 
 ### Encoding administrator intent on the client machines
 
@@ -68,7 +64,13 @@ The **AdministratorUpdatesEnabled** policy, implemented via a registry key, 
 ### Ensuring the account has the right privileges and permissions
 By default, the client machine's SYSTEM account will be downloading and installing the Visual Studio administrator updates. This means that the SYSTEM account must have administrative privileges to the machine. Additionally, depending on [where the client is configured to obtain the product sources from](/visualstudio/install/update-visual-studio#configure-source-location-of-updates-1), the SYSTEM account must also have access to at least to either the [Visual Studio endpoints](/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server) on the internet or permissions to read from the network layout location in order to download the updated product bits. Note: an easy way to grant permissions to a network share for a collection of client machines' SYSTEM accounts is to grant permissions to the "Domain Computers" AD group.
 
-## Feedback and support
+## Error codes and conditions
+
+Error codes for Visual Studio Administrator updates are defined on the [Applying Administrator Updates](/visualstudio/install/applying-administrator-updates#error-codes-and-conditions) page. 
+
+### Visual Studio Client Detector Utility
+
+The [Visual Studio Client Detector Utility](https://support.microsoft.com/help/5001148) must be installed on the client machines in order for the Visual Studio administrator updates to be properly recognized and received. This utility is used to determine where the Visual Studio instances are located on disk. This utility was included and installed with all Visual Studio product updates that were released on or after May 12, 2020, it is included as a pre-requisite with all the Visual Studio administrator updates, and it is also available on the [Microsoft Update Catalog](https://catalog.update.microsoft.com) to deploy and install independently.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
