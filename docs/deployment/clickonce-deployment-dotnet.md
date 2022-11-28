@@ -1,7 +1,7 @@
 ---
 title: ClickOnce for .NET 5 and later on Windows
 description: "Learn about differences between ClickOnce for .NET Core 3.1, .NET 5 and later versus ClickOnce for .NET Framework."
-ms.date: 09/14/2022
+ms.date: 11/22/2022
 ms.topic: how-to
 helpviewer_keywords:
   - "deployment, ClickOnce for .NET 5+"
@@ -29,7 +29,11 @@ For building from the command line using MSBUILD, you need to specify the *.pubx
 
 ## ApplicationDeployment class
 
-In .NET Core 3.1 and .NET 5 and later, you don't have programmatic access to the <xref:System.Deployment.Application.ApplicationDeployment> class or to other APIs in the <xref:System.Deployment.Application> namespace.
+In .NET Core 3.1, .NET 5, and .NET 6, you don't have programmatic access to the <xref:System.Deployment.Application.ApplicationDeployment> class or to other APIs in the <xref:System.Deployment.Application> namespace.
+
+::: moniker range=">=vs-2022"
+Starting in .NET 7, you can access properties in the `ApplicationDeployment` class using environment variables. For more information, see [Access ClickOnce deployment properties in .NET](../deployment/access-clickonce-deployment-properties-dotnet.md).
+::: moniker-end
 
 ## Mage.exe
 

@@ -2,7 +2,7 @@
 title: Manage Git repos in Visual Studio
 titleSuffix: ""
 description: Manage any Git repository in Visual Studio by using the Git Repository window.
-ms.date: 03/29/2022
+ms.date: 11/18/2022
 ms.topic: how-to
 author: houghj16
 ms.author: tglee
@@ -158,7 +158,7 @@ To learn more about resetting branches, see the [Git webpage for the reset comma
 
 ## Next steps
 
-To continue your journey, see [Resolve merge conflicts in Visual Studio](git-resolve-conflicts.md).
+To continue your journey, see [Work with multiple repos](git-multi-repository-support.md).
 
 ## See also
 

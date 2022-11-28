@@ -3,7 +3,7 @@ title: "Tutorial: Create UWP Apps with Visual Studio & C#"
 description: Create a UWP app in Visual Studio with XAML and C#
 titleSuffix: ""
 ms.custom: "vs-acquisition, get-started, SEO-VS-2020"
-ms.date: "09/14/2021"
+ms.date: "04/26/2022"
 ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.devlang: CSharp
