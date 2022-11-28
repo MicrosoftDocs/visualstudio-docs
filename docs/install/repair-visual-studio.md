@@ -67,7 +67,7 @@ Use repair if you're having issues with:
 
     From the Start menu in Windows, search for "installer", and then select **Visual Studio Installer** from the results.
 
-     ![Screenshot showing the result of a Start menu search for the Visual Studio Installer.](media/vs-2022/vs-installer-search.png "Search for the Visual Studio Installer")
+     ![Screenshot showing the result of a Start menu search for the Visual Studio Installer.](media/vs-2022/vs-installer.png "Search for the Visual Studio Installer")
 
     You can also find the Visual Studio Installer in the following location:
     `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
