@@ -59,12 +59,12 @@ The Visual Studio IDE has toolbars as do many tool windows. The following keyboa
 
 ## Git Keyboard Shortcuts
 
-The VS status bar shows controls for quick access to various git features. The following keyboard shortcuts help you access them.
+The Visual Studio status bar shows controls for quick access to various git features. The following keyboard shortcuts help you access them.
 
 |Feature|Description|Keyboard shortcut|
 |-------------|-----------------| - |
 |Branch Picker|View, manage and checkout branches in an active git repository.|**Ctrl**+**Alt**+**F3**|
-|Repository Picker|View, manage and open Git repositories known to VS.|**Ctrl**+**Alt**+**F4**|
+|Repository Picker|View, manage and open Git repositories known to Visual Studio.|**Ctrl**+**Alt**+**F4**|
 
 ## Other useful keyboard shortcuts
 
