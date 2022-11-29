@@ -1,7 +1,7 @@
 ---
 title: Administrative Templates (ADMX)
 description: Use Visual Studio Administrative Templates to manage group policy.
-ms.date: 12/6/2022
+ms.date: 12/1/2022
 ms.topic: conceptual
 ms.custom: acquisition
 helpviewer_keywords:
@@ -34,7 +34,7 @@ The [Visual Studio Administrative Templates (ADMX)](https://aka.ms/vs/admx/detai
  There are four main categories of Visual Studio policies that are included in the Visual Studio Administrator Templates (ADMX):
  
   - **Feedback** - controls behavior of the send-a-smile feature.
-  - [**Install and Update**](/visualstudio/install/set-defaults-for-enterprise-deployments.md) - controls product acquisition behavior 
+  - [**Install and Update**](/visualstudio/install/set-defaults-for-enterprise-deployments) - controls product acquisition behavior 
   - [**Live Share**](https://aka.ms/vsls-policies) - controls user and hosts settings
   - **Privacy** - controls [Intellicode](/visualstudio/intellicode/intellicode-privacy) and [Customer Experience Improvement Program](https://aka.ms/vs/admx/telemetry) settings
  
