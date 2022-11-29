@@ -73,7 +73,7 @@
         - name: Troubleshoot network errors when you install or use Visual Studio
           href: install/troubleshooting-network-related-errors-in-visual-studio.md
     - name: Deploy Help Viewer
-        items:
+      items:
         - name: Help Viewer Administrator Guide
           href: help-viewer/administrator-guide.md
         - name: Command-Line Arguments for the Help Content Manager
