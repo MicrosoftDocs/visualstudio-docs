@@ -18,11 +18,32 @@ ms.author: ghogen
 
 ## Overview
 
+:::moniker range="<=vs-2019"
+
 If you've installed Azure Tools for Microsoft Visual Studio, you can view blob, queue, and table data from your storage accounts for Azure. The Azure **Storage** node in Server Explorer shows data that’s in your local storage emulator account and your other Azure storage accounts.
 
 To view Server Explorer in Visual Studio, on the menu bar, select **View** > **Server Explorer**. The **Storage** node shows all of the storage accounts that exist under each Azure subscription or certificate that you're connected to. If your storage account doesn't appear, you can add it by following the instructions [later in this article](#add-storage-accounts-by-using-server-explorer).
 
 Starting in Azure SDK 2.7, you can also use Cloud Explorer to view and manage your Azure resources. For more information, see [Managing Azure resources with Cloud Explorer](vs-azure-tools-resources-managing-with-cloud-explorer.md).
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+> [!IMPORTANT]
+> Cloud Explorer has been retired in Visual Studio 2022. Instead, you can use the following alternatives:
+>
+> - To debug Azure App Services or Azure Function apps, you can use the Connected Services or the Publish features available on all projects.
+>   - If you rely on Visual Studio for publishing, you may access this feature under the "Additional Options" in the Hosting section.
+>   - If you don’t use the publishing feature, the [Connected Services](overview-connected-services.md?view=vs-2022&preserve-view=true) node inside each Project in your Solution can help you configure access to Azure resources and invoke  various operations like remote debugging, remote profiling, starting/stopping the application, view streaming logs, and more.
+> - Use [Microsoft Azure Storage Explorer](/azure/vs-azure-tools-storage-manage-with-storage-explorer) is a free, standalone app from Microsoft. You can use it to work visually with Azure Storage data on Windows, macOS, and Linux.
+> - The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives you direct, elevated command-line access to the App Service server and its file system. This is both a valuable debugging tool and allows for CLI operations such as installing packages.
+>
+> If needed, you can use the Azure Portal or continue to use the Azure node of Server Explorer in previous versions of Visual Studio.
+>
+> For more information about Visual Studio 2022, see our [release notes](/visualstudio/releases/2022/release-notes/).
+
+::: moniker-end
 
 ## View and manage storage resources in Visual Studio
 
