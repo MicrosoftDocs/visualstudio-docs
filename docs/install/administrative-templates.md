@@ -23,7 +23,7 @@ ms.technology: vs-installation
 
 [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
  
-IT Administrators in organizations may want to control certain aspects of Visual Studio behavior to achieve consistency, compliance, or compatibility across their client machines. An easy way to accomplish this is to configure group policies using Visual Studio Administrative Templates (ADMX).
+IT Administrators in organizations may want to control certain aspects of Visual Studio behavior to achieve consistency, compliance, or compatibility across their client machines. An easy way to accomplish this control is to configure group policies using Visual Studio Administrative Templates (ADMX).
  
 The [Visual Studio Administrative Templates (ADMX)](https://aka.ms/vs/admx/details) consolidate the various Visual Studio policies into different categories, making them easily discoverable. IT Administrators can learn what policies are available and then configure and deploy the appropriate settings to the client machines. The ADMX templates can be integrated with standard management and deployment tools such as [Group Policy Editor](https://learn.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn265982(v=ws.11)) or [Microsoft Endpoint Manager](https://www.microsoft.com/security/business/microsoft-endpoint-manager).  
  
@@ -40,13 +40,13 @@ The [Visual Studio Administrative Templates (ADMX)](https://aka.ms/vs/admx/detai
  
  ## Acquiring the Visual Studio Administrator Templates (ADMX)
  
- The [Visual Studio Administrator Templates (ADMX)](https://aka.ms/vs/admx/details) can be downloaded from the Microsoft Download Center The default installation path is "C:\Windows\PoliciyDefinitions", a location that makes them instantly visible to the Group Policy Editor (gpedit.exe) tool, but you can install them anywhere. The templates are updated periodically, so if you use this solution we recommend that you check back periodically to get the latest updates. 
+ The [Visual Studio Administrator Templates (ADMX)](https://aka.ms/vs/admx/details) can be downloaded from the Microsoft Download Center. The default installation path is "C:\Windows\PoliciyDefinitions", a location that makes them instantly visible to the Group Policy Editor (gpedit.exe) tool, but you can install them anywhere. The templates are updated periodically, so if you use this solution we recommend that you check back periodically to get the latest updates. 
  
  ## Using Microsoft Endpoint Manager to deploy the policies
  
  You can use the Visual Studio Administrator Templates (ADMX) within enterprise management tools such as [Microsoft Endpoint Manager](https://learn.microsoft.com/mem/configmgr/core/understand/introduction) to configure and control client machines. 
 
-For cloud connected environements that are managed by Intune, you can [import the Visual Studio Administrator Templates (ADMX)](https://learn.microsoft.com/en-us/mem/intune/configuration/administrative-templates-import-custom#add-the-admx-and-adml-files) into your Devices | Configuration profiles space, and then [create a customized configuration profiles](https://learn.microsoft.com/en-us/mem/intune/configuration/administrative-templates-import-custom#create-a-profile-using-your-imported-files) based on the imported ADMX files. Eventually, Visual Studio Administrator Templates will be built natively into the [Microsoft Endpoint Manager enviroment](https://endpoint.microsoft.com), so this additional import step will be unnecessary. 
+For cloud connected environments that are managed by Intune, you can [import the Visual Studio Administrator Templates (ADMX)](https://learn.microsoft.com/en-us/mem/intune/configuration/administrative-templates-import-custom#add-the-admx-and-adml-files) into your Devices | Configuration profiles space, and then [create a customized configuration profiles](https://learn.microsoft.com/en-us/mem/intune/configuration/administrative-templates-import-custom#create-a-profile-using-your-imported-files) based on the imported ADMX files. Eventually, Visual Studio Administrator Templates will be built natively into the [Microsoft Endpoint Manager environment](https://endpoint.microsoft.com), so this manual import step will be unnecessary. 
 
 > [!NOTE]
 > The Visual Studio Administrator Templates (ADMX) depend on the Windows administrator template (Windows.admx), so make sure you manually import that one in too.]
