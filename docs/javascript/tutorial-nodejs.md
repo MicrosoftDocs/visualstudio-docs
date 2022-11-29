@@ -91,9 +91,7 @@ In the dropdown next to the **Start** button, you should see the following start
 - Debug Dev Env
 - Launch Node and Browser
 
-Go ahead and select the **Launch Node and Browser** option. Now, before pressing **F5** or selecting the **Start** button again, set a breakpoint in *index.js* (in the **routes** folder) by selecting the left gutter before the following line of code: 
-
-`res.render('index', { title: 'Express' });`
+Go ahead and select the **Launch Node and Browser** option. Now, before pressing **F5** or selecting the **Start** button again, set a breakpoint in *index.js* (in the **routes** folder) by selecting the left gutter before the following line of code: `res.render('index', { title: 'Express' });`
 
 > [!TIP]
 > You can also put your cursor on a line of code and hit **F9** to toggle the breakpoint for that line. 
