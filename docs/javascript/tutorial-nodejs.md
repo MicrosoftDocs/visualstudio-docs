@@ -91,7 +91,7 @@ In the dropdown next to the **Start** button, you should see the following start
 - Debug Dev Env
 - Launch Node and Browser
 
-Go ahead and select the **Launch Node and Browser** option. Now, before pressing **F5** or selecting the **Start** button again, set a breakpoint in *index.js* by selecting the left gutter before the following line of code: 
+Go ahead and select the **Launch Node and Browser** option. Now, before pressing **F5** or selecting the **Start** button again, set a breakpoint in *index.js* (in the **routes** folder) by selecting the left gutter before the following line of code: 
 
 `res.render('index', { title: 'Express' });`
 
@@ -102,26 +102,86 @@ Then, press **F5** or select **Debug** > **Start Debugging** to debug your app.
 
 You should see the debugger pause at the breakpoint you just set. While it is paused, you can inspect your app state. Hovering over variables will let you examine their properties.
 
-When you're finished inspecting the state, hit f5? to continue, and your app should load as expected. 
+When you're finished inspecting the state, hit **F5** to continue, and your app should load as expected. 
 
-This time, if you hit stop, you will notice that both the browser and the command prompt windows close. To see why, we need to take a closer look at the *launch.json*.
+This time, if you hit stop, you will notice that both the browser and the command prompt windows close. To see why, let us take a closer look at the *launch.json*.
 
 ### Understanding the *launch.json*
 
-Show hidden files, open launch.json. 
+The *launch.json* is currently located in the *.vscode* folder. If you cannot see the *.vscode* folder in **Solution Explorer**, select **Show All Files**. 
 
-[image]
+If you have worked with vscode before, the launch.json file will look familiar. The launch.json here works in much the same way as it does in vscode to denote launch configurations used for debugging. Each entry specifies one or more targets to be debugged. 
 
-If you have worked with vscode, this launch.json file may look familiar. The launch.json here works in much the same way to denote launch configurations used for debugging. Each entry denotes a target to be debugged. 
+The first two entries are browser entries, and they should look something like this:
 
-For browser entries, the Visual Studio debugger is *only* attached to the frontend process, and the node process is spun up without a debugger for the sake of serving the frontend, but the process itself is not debugged. This was why the command prompt lingered earlier in [this](link) section earlier. We intentionally left the node process running when it is not the debugged process. 
+```
+    {
+      "name": "localhost (Edge)",
+      "type": "edge",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}\\public"
+    },
+    {
+      "name": "localhost (Chrome)",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}\\public"
+    }
+```
 
-For the `compound` entry that we selected in [this](link), the entry references two entries, one for the frontend and the backend. Selecting the compound option indicates to the Visual Studio debugger to attach to both the frontend and backend processes. At the current moment, there is no JavaScript running in the frontend process, so we did not set breakpoints. In order to do so, you need to serve static javascript to run in the frontend process [link], which will enable you to debug the frontend and backend together. If you choose to add javascript to the frontend, you will also be able to debug only the browser by selecting a browser-only launch configuration. 
+You can see in the above entries that the `type` is set to a browser type. If you launch with only a browser type as the sole debug target, Visual Studio will debug only the frontend browser process, and the Node process will be started without a debugger attached, meaning that any breakpoints that are set in the Node process **will not** bind. 
 
-If you'd like to only debug the node process, select Debug Dev Env. You'll notice that in this case, there is no browser that gets launched. When selecting this option, you'll need to open up a browser and navigate to the url yourself in order to connect to the Express app. 
+Upon stopping the session, the Node process will also continue to run. It is intentionally left running when a browser is the debug target, because if work is solely being done on the frontend, having the backend process continuously running eases the development workflow.
 
-Tip! See launch options here (link js-debugger options). 
+At the start of [this section](#debug-your-app), we asked you to close the lingering command prompt window in order to set breakpoints in the Node process. In order for the Node process to be debuggable, it must be restarted with the debugger attached. If a non-debuggable Node process is left running, attempting to launch the Node process in debug mode (without reconfiguring the port) **will fail**. 
 
-There are many different ways to configure launches for debugging. Something something runtime arguments etc etc. Additionally, if you'd like to hide an individual launch config, but still reference it, you can do the following (code excerpt). 
+> [!NOTE]
+> Currently, `edge` and `chrome` are the only supported browser types for debugging.
 
-### 
+The third entry in the launch.json specifies `node` as the debug type, and it should look something like this:
+
+```
+    {
+      "name": "Debug Dev Env",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/bin",
+      "program": "${workspaceFolder}/bin/www",
+      "stopOnEntry": true
+    }
+```
+
+This entry will launch only the Node process in debug mode. No browser will be launched.
+
+The fourth entry provided in the launch.json is the following compound launch configuration.
+
+```
+    {
+      "name": "Launch Node and Browser",
+      "configurations": [
+        "Debug Dev Env",
+        "localhost (Edge)"
+      ]
+    }
+```
+
+This compound configuration is the same as a [vscode compound launch configuration](https://code.visualstudio.com/docs/editor/debugging#_compound-launch-configurations), and selecting it will allow you to debug both the frontend and backend. You can see that it simply references the individual launch configurations for the Node and browser processes. 
+
+There are many other attributes you can use in a launch configuration. For example, you can hide a configuration from the dropdown, but still have it be referencable, by setting the `hidden` attribute in the `presentation` object to `true`.
+
+```
+    {
+      "name": "localhost (Chrome)",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}\\public",
+      "presentation": {
+        "hidden": true
+      }
+    }
+```
+
+Click [here](https://github.com/microsoft/vscode-js-debug/blob/main/OPTIONS.md) for a list of attributes you can use to enhance your debugging experience. Please note that at the moment, only **launch** configurations are supported. Any attempt to use an **attach** configuration will result in a deployment failure.
