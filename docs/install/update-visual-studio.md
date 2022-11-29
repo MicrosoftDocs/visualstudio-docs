@@ -297,7 +297,6 @@ You can download an Administrator Update from the [Microsoft Update Catalog](htt
 * [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md)
 * [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
-* [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
 * [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 * [Modify Visual Studio](modify-visual-studio.md)
 * [Uninstall Visual Studio](uninstall-visual-studio.md)
