@@ -31,11 +31,11 @@ You can configure certain aspects of Visual Studio's deployment and update behav
 - How notifications appear or don't appear
 - If unsupported components should be removed from the machine
 
-You can set these global behaviors by using [Administrative Templates ADMX](administrator-templates.md) and then distributing these policies across the organization, or by setting registry values directly on the client machine. You can configure per instance behaviors by using [command-line options](use-command-line-parameters-to-install-visual-studio.md) on the client machine.
+You can set these global behaviors by using [Administrative Templates ADMX](administrative-templates.md) and then distributing these policies across the organization, or by setting registry values directly on the client machine. You can configure per instance behaviors by using [command-line options](use-command-line-parameters-to-install-visual-studio.md) on the client machine.
 
 ## Registry keys
 
-There are several locations where you can set enterprise defaults to enable their control either through Group Policy or directly in the registry. Visual Studio looks sequentially to see if any enterprise policies have been set; as soon as a policy value is discovered in the order below, the remaining keys are ignored. All of these policies are included in the [Visual Studio Administrative Templates ADMX](administrator-templates.md) files which can be downloaded [here](https://aka.ms/vs/admx/details). 
+There are several locations where you can set enterprise defaults to enable their control either through Group Policy or directly in the registry. Visual Studio looks sequentially to see if any enterprise policies have been set; as soon as a policy value is discovered in the order below, the remaining keys are ignored. All of these policies are included in the [Visual Studio Administrative Templates ADMX](administrative-templates.md) files which can be downloaded [here](https://aka.ms/vs/admx/details). 
 
 1. `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\Setup`
 2. `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup`
