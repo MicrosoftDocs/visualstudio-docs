@@ -62,8 +62,8 @@
         href: install/automatically-apply-product-keys-when-deploying-visual-studio.md
       - name: Manage global policies
         items:
-        - name: Administrator Templates (ADMX)
-          href: install/administrator-templates.md
+        - name: Administrative Templates (ADMX)
+          href: install/administrative-templates.md
         - name: Configure policies for enterprise deployments of Visual Studio
           href: install/set-defaults-for-enterprise-deployments.md
       - name: Network considerations
