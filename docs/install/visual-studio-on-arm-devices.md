@@ -39,7 +39,7 @@ To get started with the native Arm64 Visual Studio experience you'll need the fo
 
 ## Installing Arm64 Visual Studio
 
-There is a single installer for both Visual Studio x64 and Arm64 architectures. The Visual Studio 2022 installer detects if the system architecture is ARM and if so, it will download and install the Arm64 version of Visual Studio on your Arm64 device (support is for Windows 11). If you are installing the product via a layout, you'll need to [explicitly configure the layout to include ARM binaries](/visualstudio/install/use-command-line-parameters-to-install-visual-studio?#layout-command-and-command-line-parameters). 
+There is a single installer for both Visual Studio x64 and Arm64 architectures. The Visual Studio 2022 installer detects if the system architecture is ARM and if so, it will download and install the Arm64 version of Visual Studio on your Arm64 device (support is for Windows 11). If you are installing the product via a layout, you'll need to [explicitly configure the layout to include ARM binaries](./use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command-line-parameters). 
 
 > [!NOTE]
 > For Windows 11 Arm64, you must uninstall all previous versions of Visual Studio before installing the Visual Studio 2022 version 17.4.
