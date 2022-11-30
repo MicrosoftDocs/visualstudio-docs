@@ -27,7 +27,7 @@ See [Visual Studio 2019 System Requirements](/visualstudio/releases/2019/system-
 
 ::: moniker range="vs-2022"
 
-[Visual Studio 2022 version 17.4 is now available as a native Arm64 application](https://devblogs.microsoft.com/visualstudio/arm64-visual-studio-is-officially-here/) on Windows 11 Arm64. This will be the first version of Visual Studio that will natively support building and debugging Arm64 apps on Arm-based processors. This latest version of Visual Studio eliminates the dependence on x64 emulation [for most developer workloads](../install/visual-studio-on-arm-devices#supported-workloads#supported-workloads). 
+[Visual Studio 2022 version 17.4 is now available as a native Arm64 application](https://devblogs.microsoft.com/visualstudio/arm64-visual-studio-is-officially-here/) on Windows 11 Arm64. This will be the first version of Visual Studio that will natively support building and debugging Arm64 apps on Arm-based processors. This latest version of Visual Studio eliminates the dependence on x64 emulation [for most developer workloads](#supported-workloads). 
 
 ## Get started with Arm64 Visual Studio
 
