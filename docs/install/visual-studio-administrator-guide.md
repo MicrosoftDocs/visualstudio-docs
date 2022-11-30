@@ -59,7 +59,7 @@ If your company needs to stay on a feature set longer but still wants to get reg
 
    - How are you licensing and [distributing entitlement subscriptions within your organization](/visualstudio/subscriptions/admin-responsibilities)? Does the installation require [product keys](/visualstudio/subscriptions/product-keys)?
 
-   - What [group policy settings](/visualstudio/install/set-defaults-for-enterprise-deployments) need to be configured on your client machines? Can you use the [Administrative Templates (ADMX)](./administrator-templates.md) to configure policies across your organization? 
+   - What [group policy settings](/visualstudio/install/set-defaults-for-enterprise-deployments) need to be configured on your client machines? Can you use the [Administrative Templates (ADMX)](./administrative-templates.md) to configure policies across your organization? 
 
    - Which [workloads and components](workload-and-component-ids.md) does your company need?  
    
