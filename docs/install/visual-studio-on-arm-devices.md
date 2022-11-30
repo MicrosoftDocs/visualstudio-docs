@@ -27,7 +27,7 @@ See [Visual Studio 2019 System Requirements](/visualstudio/releases/2019/system-
 
 ::: moniker range="vs-2022"
 
-[Visual Studio 2022 17.4 GA is now available as a native Arm64 application](https://devblogs.microsoft.com/visualstudio/arm64-visual-studio-is-officially-here/) on Windows 11 Arm64. This will be the first version of Visual Studio that will natively support building and debugging Arm64 apps on Arm-based processors. This latest version of Visual Studio eliminates the dependence on x64 emulation [for most developer workloads](../install/visual-studio-on-arm-devices#supported-workloads#supported-workloads). 
+[Visual Studio 2022 version 17.4 is now available as a native Arm64 application](https://devblogs.microsoft.com/visualstudio/arm64-visual-studio-is-officially-here/) on Windows 11 Arm64. This will be the first version of Visual Studio that will natively support building and debugging Arm64 apps on Arm-based processors. This latest version of Visual Studio eliminates the dependence on x64 emulation [for most developer workloads](../install/visual-studio-on-arm-devices#supported-workloads#supported-workloads). 
 
 ## Get started with Arm64 Visual Studio
 
@@ -39,10 +39,10 @@ To get started with the native Arm64 Visual Studio experience you'll need the fo
 
 ## Installing Arm64 Visual Studio
 
-There is a single installer for both x64 and Arm64 Visual Studio. The installer detects the system architecture and then downloads and installs the Arm64 version of Visual Studio on your Arm64 device (support is for Windows 11). 
+There is a single installer for both Visual Studio x64 and Arm64 architectures. The Visual Studio 2022 installer detects if the system architecture is Arm64 and if so, it will download and install the Arm64 version of Visual Studio on your Arm64 device (support is for Windows 11). If you are installing the product via a layout, you'll need to [explicitly configure the layout to include ARM binaries](./use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command-line-parameters).
 
 > [!NOTE]
-> For Windows 11 Arm64, you must uninstall all previous versions of Visual Studio (x64, x86) before installing Visual Studio 2022 17.4 GA (or later).
+> For Windows 11 Arm64, you must uninstall all previous versions of Visual Studio (x64, x86) before installing Visual Studio 2022 version 17.4 (or later).
 
 ## Supported workloads
 
@@ -66,7 +66,7 @@ Support for Windows App SDK, .NET MAUI, and Universal Windows Platform (UWP) wil
 
 ### Native developers
 
-With the Visual Studio 17.3 Preview 2 release, you can access the new native Arm64 MSVC (Microsoft Visual C++) compiler toolset, including C++ Code Analysis, while still targeting all platforms currently supported by MSVC.
+With the Visual Studio 2022 version 17.4 release, you can access the new native Arm64 MSVC (Microsoft Visual C++) compiler toolset, including C++ Code Analysis, while still targeting all platforms currently supported by MSVC.
 
 | **Host architecture (platform the compiler is running on)** | **Target architecture (platform the compiler is generating binaries for)** | **Installation path** |
 | ----------- | ------ | --------------- |
@@ -79,9 +79,9 @@ Many C++ libraries are already available on Arm64. Vcpkg also runs natively on A
 By installing the C++ Desktop Workload, you can load any desktop C++ projects and solutions using MSBuild to try any of the editing, building, and debugging capabilities you are already familiar with in Visual Studio. 
 Additional C++ Visual Studio workloads (for example, gaming) and build systems (for example, CMake) will be supported in subsequent updates. 
 
-## Visual Studio versions before 17.3 Preview 2
+## Visual Studio versions before 17.4
 
-Visual Studio versions before 17.3 Preview 2 can run on ARM-powered devices via x64 emulation, though some features are not supported on ARM. As such, we don't recommend running these versions of Visual Studio on devices that use ARM-based processors, and instead recommend remotely targeted ARM devices.
+Visual Studio versions prior to 17.4 can run on ARM-powered devices via x64 emulation, though some features are not supported on ARM. As such, we don't recommend running these versions of Visual Studio on devices that use ARM-based processors, and instead recommend remotely targeted ARM devices.
 
 See [Visual Studio 2022 System Requirements](/visualstudio/releases/2022/system-requirements) for supported operating systems, hardware, supported languages, and additional requirements and guidance.
 
@@ -91,11 +91,7 @@ See [Visual Studio 2022 System Requirements](/visualstudio/releases/2022/system-
 
 ## Remote targeting ARM devices
 
-For the best experience, we recommend you use Visual Studio on a separate, x86 powered, computer, and use the remote deployment and debugging features in Visual Studio to target the ARM-based device. To debug Windows Universal Applications already installed on the device, see the [debug installed app package](../debugger/debug-installed-app-package.md) documentation. To deploy a new app, see [running a Windows Store app remotely](../debugger/run-windows-store-apps-on-a-remote-machine.md). For all other application types, see the [remote debugging](../debugger/remote-debugging.md) documentation.
-
-::: moniker-end
-
-::: moniker range="vs-2019"
+For the best experience, we recommend you use Visual Studio on a separate, x64 powered, computer, and use the remote deployment and debugging features in Visual Studio to target the ARM-based device. To debug Windows Universal Applications already installed on the device, see the [debug installed app package](../debugger/debug-installed-app-package.md) documentation. To deploy a new app, see [running a Windows Store app remotely](../debugger/run-windows-store-apps-on-a-remote-machine.md). For all other application types, see the [remote debugging](../debugger/remote-debugging.md) documentation.
 
 ## Tips for running Visual Studio on ARM devices
 
@@ -111,10 +107,6 @@ To debug an app running on a remote device, you'll need to [download and install
 
 ### Start debugging (F5)
 Not all Visual Studio projects are configured to launch projects locally when you start debugging (**F5**) from an ARM device. You may need to configure Visual Studio for remote debugging, even though your app is running locally. For more information, see [remote debugging](../debugger/remote-debugging.md).
-
-::: moniker-end
-
-::: moniker range="vs-2019"
 
 ### Tips for running Visual Studio on ARM devices
 
@@ -133,15 +125,9 @@ Not all Visual Studio projects are configured to launch projects locally when yo
 
 ::: moniker-end
 
-## We need your help!
-
-::: moniker range="vs-2019"
-
-If you'd like Visual Studio to run natively on ARM devices, we'd love to hear about the scenarios and support necessary. You can reach us by posting on the [developer community](https://developercommunity.visualstudio.com/idea/1161018/native-arm-support-for-visual-studio.html).
-
-::: moniker-end
-
 ::: moniker range="vs-2022"
+
+## We need your help!
 
 We’d love to hear from you about the experiences we are bringing online. Let us know what you like and whether you have suggestions for making Visual Studio even better on Arm64. You can share feedback with us via [Developer Community](https://developercommunity.visualstudio.com/home): report any bugs or issues via [report a problem](../ide/how-to-report-a-problem-with-visual-studio.md) and [share your suggestions](https://developercommunity.visualstudio.com/report?space=8&entry=suggestion) for prioritizing more workloads.
 
