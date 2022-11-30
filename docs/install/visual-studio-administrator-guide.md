@@ -114,7 +114,7 @@ The following resources will help you keep your Visual Studio updated, current, 
 
 ## Configure Visual Studio
 
-- **Configure policies that affect the behavior of Visual Studio** Use the [Visual Studio Administrator Templates (ADMX)](/visualstudio/install/administrator-templates) to easily configure Visual Studio policies on client machines across your organization. This includes [configuring policies that govern acquisition behavior](/visualstudio/install/set-defaults-for-enterprise-deployments) such as where some packages shared with other versions or instances are installed, where and whether packages are cached, if administrator updates should be enabled or how they should be applied, which update channels are available and how they're presented to the client, if unsupported components should be removed during an update, and how notifications appear or don't appear. This also includes configuring policies that govern customer feedback, [telemetry](https://aka.ms/vs/admx/telemetry), and [Live Share](https://aka.ms/vsls-policies) behavior.
+- **Configure policies that affect the behavior of Visual Studio** Use the [Visual Studio Administrative Templates (ADMX)](./administrative-templates.md) to easily configure Visual Studio policies on client machines across your organization. This includes [configuring policies that govern acquisition behavior](./set-defaults-for-enterprise-deployments.md) such as where some packages shared with other versions or instances are installed, where and whether packages are cached, if administrator updates should be enabled or how they should be applied, which update channels are available and how they're presented to the client, if unsupported components should be removed during an update, and how notifications appear or don't appear. This also includes configuring policies that govern customer feedback, [telemetry](https://aka.ms/vs/admx/telemetry), and [Live Share](https://aka.ms/vsls-policies) behavior.
 
 - **[Create custom bootstrapper packages](../deployment/creating-bootstrapper-packages.md)**. Learn advanced techniques for how to create custom bootstrapper packages to further control your installation configuration by creating product and package manifests. 
 
@@ -136,6 +136,7 @@ The following resources will help you keep your Visual Studio updated, current, 
 * [Applying administrator updates](applying-administrator-updates.md)
 * [Use command-line parameters to install, update, and manage Visual Studio](/visualstudio/install/use-command-line-parameters-to-install-visual-studio.md)
 * [Configure policies for enterprise deployments of Visual Studio](/visualstudio/install/set-defaults-for-enterprise-deployments.md)
+* [Visual Studio Administrative Templates](./administrative-templates.md)
 * [Install certificates required for Visual Studio offline installation](install-certificates-for-visual-studio-offline.md)
 * [Visual Studio product lifecycle and servicing](/visualstudio/productinfo/vs-servicing.md)
 * [Synchronous autoload settings](../extensibility/synchronously-autoloaded-extensions.md)
