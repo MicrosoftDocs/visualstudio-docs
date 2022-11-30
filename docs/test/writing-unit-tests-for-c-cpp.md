@@ -19,7 +19,7 @@ You can write and run your C++ unit tests by using the **Test Explorer** window.
 > [!NOTE]
 > Some features such as Live Unit Testing, Coded UI Tests and IntelliTest aren't supported for C++.
 
-Visual Studio includes these C++ test frameworks with no additional downloads required:
+Visual Studio includes these C++ test frameworks with no extra downloads required:
 
 - Microsoft Unit Testing Framework for C++
 - Google Test
@@ -87,11 +87,11 @@ To enable access to the functions in the project under test, add a reference to 
 
 ### Link to object or library files
 
-If the test code doesn't export the functions that you want to test, add the output .obj or .lib files to the dependencies of the test project. For more information, see [To link the tests to the object or library files](how-to-use-microsoft-test-framework-for-cpp.md#object_files).
+If the test code doesn't export the functions that you want to test, add the output *.obj* or *.lib* files to the dependencies of the test project. For more information, see [To link the tests to the object or library files](how-to-use-microsoft-test-framework-for-cpp.md#object_files). Don't include object files that have a `main` function or another standard entry point such as `wmain`, `WinMain`, or `DllMain`. When you add new source files to your project, update the test project dependencies to include the corresponding object files.
 
 ### Add #include directives for header files
 
-Next, in your unit test *.cpp* file, add an `#include` directive for any header files that declare the types and functions you want to test. Type `#include "` and then IntelliSense activates to help you choose. Repeat for any more headers.
+Next, in your unit test *.cpp* file, add an `#include` directive for any header files that declare the types and functions you want to test. Type `#include "`, and then IntelliSense activates to help you choose. Repeat for any more headers.
 
 ![Screenshot of the Solution Explorer showing an #include directive being added with IntelliSense highlighting a header file for inclusion.](media/vs-2022/cpp-add-includes-test-project-2022.png)
 
@@ -134,7 +134,7 @@ You can add *traits* to test methods to specify test owners, priority, and other
 
 1. If any of your tests are missing from the window, build the test project by right-clicking its node in **Solution Explorer** and choosing **Build** or **Rebuild**.
 
-1. In **Test Explorer**, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled. After running all the tests, the window shows the tests that passed and the ones that failed.
+1. In **Test Explorer**, choose **Run All**, or select the specific tests you want to run. Right-click on a test for other options, including running it in debug mode with breakpoints enabled. After all the tests run, the window shows the tests that passed and the ones that failed.
 
    ![Test Explorer after tests are run](media/vs-2022/cpp-test-explorer-passed-2022.png)
 
@@ -160,7 +160,7 @@ After it's initialized, you can see the test status icons above each unit test.
 
 ![C++ CodeLens Icons](media/vs-2022/cpp-test-codelens-icons-2022.png)
 
-Click on the icon for more information, or to run or debug the unit test:
+Choose the icon for more information, or to run or debug the unit test:
 
 ![C++ CodeLens Run and Debug](media/vs-2022/cpp-test-codelens-run-debug-2022.png)
 
