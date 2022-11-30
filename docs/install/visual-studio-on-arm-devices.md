@@ -81,7 +81,7 @@ Additional C++ Visual Studio workloads (for example, gaming) and build systems (
 
 ## Visual Studio versions before 17.4
 
-Visual Studio versions prior to 17.4 can run on ARM-powered devices via x64 emulation, though some features are not supported on ARM. As such, we don't recommend running these versions of Visual Studio on devices that use ARM-based processors, and instead recommend remotely targeted ARM devices.
+Visual Studio 2022 versions prior to 17.4 can run on ARM-powered devices via x64 emulation, though some features are not supported on ARM. As such, we don't recommend running these versions of Visual Studio on devices that use ARM-based processors, and instead recommend remotely targeted ARM devices.
 
 See [Visual Studio 2022 System Requirements](/visualstudio/releases/2022/system-requirements) for supported operating systems, hardware, supported languages, and additional requirements and guidance.
 
@@ -91,7 +91,7 @@ See [Visual Studio 2022 System Requirements](/visualstudio/releases/2022/system-
 
 ## Remote targeting ARM devices
 
-For the best experience, we recommend you use Visual Studio on a separate, x64 powered, computer, and use the remote deployment and debugging features in Visual Studio to target the ARM-based device. To debug Windows Universal Applications already installed on the device, see the [debug installed app package](../debugger/debug-installed-app-package.md) documentation. To deploy a new app, see [running a Windows Store app remotely](../debugger/run-windows-store-apps-on-a-remote-machine.md). For all other application types, see the [remote debugging](../debugger/remote-debugging.md) documentation.
+For the best experience, we recommend you use Visual Studio on a separate, x86 powered, computer, and use the remote deployment and debugging features in Visual Studio to target the ARM-based device. To debug Windows Universal Applications already installed on the device, see the [debug installed app package](../debugger/debug-installed-app-package.md) documentation. To deploy a new app, see [running a Windows Store app remotely](../debugger/run-windows-store-apps-on-a-remote-machine.md). For all other application types, see the [remote debugging](../debugger/remote-debugging.md) documentation.
 
 ## Tips for running Visual Studio on ARM devices
 
