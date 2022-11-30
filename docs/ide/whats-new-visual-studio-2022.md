@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2022."
-ms.date: 11/18/2022
+ms.date: 11/30/2022
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -31,7 +31,7 @@ Want to see what's new in each updated release from within Visual Studio itself?
 :::image type="content" source="media/vs-2022/whats-new-visual-studio.png" alt-text="Screenshot of the in-product notification of what's new in each updated release of Visual Studio.":::
 
 > [!TIP]
-> For more news + how-to's, check out our Visual Studio 2022 channels on [YouTube](https://www.youtube.com/visualstudio), [Twitch](https://www.twitch.tv/visualstudio), [Twitter](https://twitter.com/VisualStudio), and [TikTok](https://www.tiktok.com/@visualstudio). And for the latest info on recent releases, current experiments, and what's in Preview, be sure to visit the Visual Studio [Blog](https://devblogs.microsoft.com/visualstudio/).
+> For more news + how-to's, check out our Visual Studio 2022 channels on [LinkedIn](https://www.linkedin.com/showcase/microsoft-visual-studio), [YouTube](https://www.youtube.com/visualstudio), [Twitch](https://www.twitch.tv/visualstudio), [Twitter](https://twitter.com/VisualStudio), and [TikTok](https://www.tiktok.com/@visualstudio). And for the latest info on recent releases, current experiments, and what's in Preview, be sure to visit the Visual Studio [Blog](https://devblogs.microsoft.com/visualstudio/).
 
 ## Performance improvements
 
@@ -81,7 +81,7 @@ From real-time & asynchronous collaboration tools to improved insights and produ
 
 ### Git multi-repo support and line-staging support
 
-**New in [17.4](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-4/)**: If you've worked with projects hosted on different Git repositories, you might have used external tools or multiple instances of Visual Studio to connect to them. Now, you can work with a single solution that has projects in multiple repositories and contribute to them all from a single instance of Visual Studio. To learn more, see the [**Multi-repo support in Visual Studio**](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) and [Multi-repository support released](https://devblogs.microsoft.com/visualstudio/multi-repository-support-released/) blog posts.
+**New in [17.4](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-4/)**: If you've worked with projects hosted on different Git repositories, you might have used external tools or multiple instances of Visual Studio to connect to them. Now, you can work with a single solution that has projects in multiple repositories and contribute to them all from a single instance of Visual Studio. To learn more, see the [**Multi-repo support in Visual Studio**](https://devblogs.microsoft.com/visualstudio/multi-repo-support-in-visual-studio/) and [Multi-repository support released](https://devblogs.microsoft.com/visualstudio/multi-repository-support-released/) blog posts, along with the [Work with multiple repos](../version-control/git-multi-repository-support.md) page.
 
 **New in [17.3](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-3-is-now-available/)**: We added line-staging support, also known as [interactive staging](https://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging). Now, you can stage chunks of changes in your files right from the code editor, or split changes across different commits. For more information, see the [**Stage lines of code in Visual Studio**](../version-control/git-line-staging.md) page.
 
@@ -128,4 +128,3 @@ Review the following blog posts to learn more about the improvements we've made 
 * [Visual Studio 2022 17.3 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-3-is-now-a*vailable/)
 * [Visual Studio 2022 17.2 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-2-is-now-available/)
 * [Visual Studio 2022 17.1 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-1-is-now-available/)
-* [Visual Studio 2022 GA is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-now-available/)
