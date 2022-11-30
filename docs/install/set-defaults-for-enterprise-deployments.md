@@ -35,7 +35,7 @@ You can set these global behaviors by using [Administrative Templates ADMX](admi
 
 ## Registry keys
 
-There are several locations where you can set enterprise defaults to enable their control either through Group Policy or directly in the registry. Visual Studio looks sequentially to see if any enterprise policies have been set; as soon as a policy value is discovered in the order below, the remaining keys are ignored. All of these policies are included in the [Visual Studio Administrative Templates ADMX](administrative-templates.md) files which can be downloaded [here](https://aka.ms/vs/admx/details). 
+There are several locations where you can set enterprise defaults to enable their control either through Group Policy or directly in the registry. Visual Studio looks sequentially to see if any enterprise policies have been set; as soon as a policy value is discovered in the order below, the remaining keys are ignored. All of these policies are included in the [Visual Studio Administrative Templates (ADMX)](administrative-templates.md) which can be downloaded [here](https://aka.ms/vs/admx/details). 
 
 1. `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\Setup`
 2. `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup`
