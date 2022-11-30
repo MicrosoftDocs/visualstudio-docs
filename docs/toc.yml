@@ -52,30 +52,28 @@
         href: install/use-command-line-parameters-to-install-visual-studio.md
       - name: Command-line parameter examples
         href: install/command-line-parameter-examples.md
-    - name: Install on a network
+    - name: Deploy in an enterprise
       items:
       - name: Create a network-based installation of Visual Studio
         href: install/create-a-network-installation-of-visual-studio.md
+      - name: Automate Visual Studio installation with a response file
+        href: install/automated-installation-with-response-file.md
+      - name: Automatically apply product keys when deploying Visual Studio
+        href: install/automatically-apply-product-keys-when-deploying-visual-studio.md
+      - name: Manage global policies
+        items:
+        - name: Administrative Templates (ADMX)
+          href: install/administrative-templates.md
+        - name: Configure policies for enterprise deployments of Visual Studio
+          href: install/set-defaults-for-enterprise-deployments.md
       - name: Network considerations
         items:
         - name: Install and use Visual Studio behind a firewall or proxy server
           href: install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md
         - name: Troubleshoot network errors when you install or use Visual Studio
           href: install/troubleshooting-network-related-errors-in-visual-studio.md
-    - name: Deploy in an enterprise
+    - name: Deploy Help Viewer
       items:
-      - name: Applying administrator updates
-        href: install/applying-administrator-updates.md
-      - name: Enabling administrator updates
-        href: install/enabling-administrator-updates.md
-      - name: Automate Visual Studio installation with a response file
-        href: install/automated-installation-with-response-file.md
-      - name: Automatically apply product keys when deploying Visual Studio
-        href: install/automatically-apply-product-keys-when-deploying-visual-studio.md
-      - name: Configure policies for enterprise deployments of Visual Studio
-        href: install/set-defaults-for-enterprise-deployments.md
-      - name: Deploy Help Viewer
-        items:
         - name: Help Viewer Administrator Guide
           href: help-viewer/administrator-guide.md
         - name: Command-Line Arguments for the Help Content Manager
@@ -84,16 +82,16 @@
           href: help-viewer/behavior-overrides.md
     - name: Manage & update installations
       items:
+      - name: Applying administrator updates
+        href: install/applying-administrator-updates.md
+      - name: Enabling administrator updates
+        href: install/enabling-administrator-updates.md
       - name: Tools for detecting and managing Visual Studio instances
         href: install/tools-for-managing-visual-studio-instances.md
       - name: Update a Visual Studio instance installed from a network
         href: install/update-a-network-installation-of-visual-studio.md
-      - name: Update Visual Studio while on a servicing baseline
-        href: install/update-servicing-baseline.md
       - name: Update Visual Studio using a minimal offline layout
         href: install/update-minimal-layout.md
-      - name: Manage package payload changes
-        href: install/changed-payloads.md
       - name: Disable or move the package cache
         href: install/disable-or-move-the-package-cache.md
     - name: Manage subscriptions
