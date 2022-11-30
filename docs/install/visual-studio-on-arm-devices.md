@@ -27,7 +27,7 @@ See [Visual Studio 2019 System Requirements](/visualstudio/releases/2019/system-
 
 ::: moniker range="vs-2022"
 
-[Visual Studio 2022 version 17.4 is now available as a native Arm64 application](https://devblogs.microsoft.com/visualstudio/arm64-visual-studio-is-officially-here/) on Windows 11 Arm64. This will be the first version of Visual Studio that will natively support building and debugging Arm64 apps on Arm-based processors. This latest version of Visual Studio eliminates the dependence on x64 emulation [for most developer workloads](#supported-workloads). 
+[Visual Studio 2022 version 17.4 is now available as a native Arm64 application](https://aka.ms/vs/arm64) on Windows 11 Arm64. This will be the first version of Visual Studio that will natively support building and debugging Arm64 apps on Arm-based processors. This latest version of Visual Studio eliminates the dependence on x64 emulation [for most developer workloads](#supported-workloads). 
 
 ## Get started with Arm64 Visual Studio
 
@@ -39,14 +39,14 @@ To get started with the native Arm64 Visual Studio experience you'll need the fo
 
 ## Installing Arm64 Visual Studio
 
-There is a single installer for both Visual Studio x64 and Arm64 architectures. The Visual Studio 2022 installer detects if the system architecture is Arm64 and if so, it will download and install the Arm64 version of Visual Studio on your Arm64 device (support is for Windows 11). If you are installing the product via a layout, you'll need to [explicitly configure the layout to include ARM binaries](./use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command-line-parameters).
+There is a single installer for both Visual Studio x64 and Arm64 architectures. The Visual Studio 2022 installer detects if the system architecture is Arm64 and if so, it'll download and install the Arm64 version of Visual Studio on your Arm64 device (support is for Windows 11). If you are installing the product via a layout, you'll need to [explicitly configure the layout to include ARM binaries](./use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command-line-parameters).
 
 > [!NOTE]
 > For Windows 11 Arm64, you must uninstall all previous versions of Visual Studio (x64, x86) before installing Visual Studio 2022 version 17.4 (or later).
 
 ## Supported workloads
 
-The  Arm64 GA supports the following workloads:
+The Arm64 GA supports the following workloads:
 
 - .NET desktop development
 - Desktop development with C++
@@ -106,21 +106,6 @@ Plan for Visual Studio to take longer to install, and expect it to pause for per
 To debug an app running on a remote device, you'll need to [download and install the remote tools](../debugger/remote-debugging.md#download-and-install-the-remote-tools) for ARM.
 
 ### Start debugging (F5)
-Not all Visual Studio projects are configured to launch projects locally when you start debugging (**F5**) from an ARM device. You may need to configure Visual Studio for remote debugging, even though your app is running locally. For more information, see [remote debugging](../debugger/remote-debugging.md).
-
-### Tips for running Visual Studio on ARM devices
-
-#### Use only when needed
-
-Visual Studio can be run on an ARM processor using x64 emulation. Note that some features may not be supported in this emulation and performance may be slower when using emulation for ARM-based processors. You might consider remotely targeting ARM devices.
-
-#### Install time
-Plan for Visual Studio to take longer to install, and expect it to pause for periods of time, or require restarting.
-
-#### Remote tools
-To debug an app running on a remote device, you'll need to [download and install the remote tools](../debugger/remote-debugging.md#download-and-install-the-remote-tools) for ARM.
-
-#### Start debugging (F5)
 Not all Visual Studio projects are configured to launch projects locally when you start debugging (**F5**) from an ARM device. You may need to configure Visual Studio for remote debugging, even though your app is running locally. For more information, see [remote debugging](../debugger/remote-debugging.md).
 
 ::: moniker-end
