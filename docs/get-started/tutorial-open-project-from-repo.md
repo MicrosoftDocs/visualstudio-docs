@@ -2,7 +2,7 @@
 title: "Tutorial: Open a project from a repo in Visual Studio"
 description: "Learn how to open a project in a Git or Azure DevOps repository that you've cloned by using Visual Studio."
 ms.custom: "vs-acquisition, get-started"
-ms.date: 01/31/2022
+ms.date: 11/29/2022
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -311,7 +311,6 @@ Feel free to dive into any of the following language-specific tutorials:
 
 - [The Git experience in Visual Studio](../version-control/git-with-visual-studio.md)
 - [Compare Git and Team Explorer side-by-side](../version-control/git-team-explorer-feature-comparison.md)
-- [Get started with Git and GitHub in Visual Studio](/training/modules/visual-studio-github-push/)
 - [Get started with Azure DevOps](/training/modules/get-started-with-devops/)
 - [Azure DevOps Services: Get started with Azure Repos and Visual Studio](/azure/devops/repos/git/gitquickstart/)
 
