@@ -2,7 +2,7 @@
 title: Visual Studio administrator guide
 titleSuffix: ''
 description: Learn more about how to deploy Visual Studio in an enterprise environment.
-ms.date: 11/3/2022
+ms.date: 12/1/2022
 ms.topic: overview
 helpviewer_keywords:
 - network installation, Visual Studio
@@ -49,7 +49,7 @@ If your company needs to stay on a feature set longer but still wants to get reg
 
 ::: moniker range=">=vs-2022"
 
-If your company needs to stay on a feature set longer but still wants to get regular servicing security updates, you should plan to use a servicing baseline. For more information, see the **Support options for Enterprise and Professional customers** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2022/servicing-vs2022#enterprise-professional-and-build-tools-editions-support) page.  
+If your company needs to stay on a feature set longer but still wants to get regular servicing security updates, you should plan to use a long-term servicing channel (LTSC). For more information, see the **Support options for Enterprise and Professional customers** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2022/servicing-vs2022#enterprise-professional-and-build-tools-editions-support) page.  
   
 ::: moniker-end  
 
@@ -59,7 +59,7 @@ If your company needs to stay on a feature set longer but still wants to get reg
 
    - How are you licensing and [distributing entitlement subscriptions within your organization](/visualstudio/subscriptions/admin-responsibilities)? Does the installation require [product keys](/visualstudio/subscriptions/product-keys)?
 
-   - What [group policy settings](/visualstudio/install/set-defaults-for-enterprise-deployments) need to be configured on your client machines?  
+   - What [group policy settings](/visualstudio/install/set-defaults-for-enterprise-deployments) need to be configured on your client machines? Can you use the [Administrative Templates (ADMX)](./administrative-templates.md) to configure policies across your organization? 
 
    - Which [workloads and components](workload-and-component-ids.md) does your company need?  
    
@@ -88,7 +88,7 @@ The following resources will help you do the initial install of Visual Studio in
 
 - **[Install required certificates for offline installation](/visualstudio/install/install-certificates-for-visual-studio-offline)**. Install necessary certificates if the client machine is completely disconnected from the internet.
 
-- **[Configure the policies that govern machine wide Visual Studio behavior](/visualstudio/install/set-defaults-for-enterprise-deployments)**. Configure and deploy policies, such as opting in to Administrator Updates and removing out-of-support components, across your organization.
+- **[Configure the policies that govern machine wide Visual Studio behavior](/visualstudio/install/set-defaults-for-enterprise-deployments)**. Configure and deploy policies, such as opting in to Administrator Updates and removing out-of-support components, across your organization. The [Visual Studio Administrative Templates (ADMX)](./administrative-templates.md) lists out all the Visual Studio policies that are available for administrators to configure.
 
 - **[Automatically apply product or subscription keys when deploying Visual Studio](automatically-apply-product-keys-when-deploying-visual-studio.md)**. You can programmatically apply a subscription or product key as part of a script that is used to automate the deployment of Visual Studio so that users don't need to activate the software separately. You can set this key either during an installation of Visual Studio or after an installation completes. 
 
@@ -100,9 +100,9 @@ The following resources will help you keep your Visual Studio updated, current, 
 
 - **[Review the Update Visual Studio documentation](update-visual-studio.md)** to get a high level overview of the update options available to end users, and how end users are notified that updates are available.  
 
-- **[Make sure you have configured the servicing baseline properly](/visualstudio/install/update-servicing-baseline)** if you want to tightly control when and where updates come from.
+- **[Make sure you have configured the long-term servicing channel (LTSC) properly](./update-visual-studio.md#configure-source-location-of-updates-1)** if you want to tightly control when and where updates come from.
 
-- **[Enable Administrator Updates using Microsoft Endpoint Configuration Manager (SCCM and Intune)](enabling-administrator-updates.md)**. [Visual Studio administrator updates are available and deployable](applying-administrator-updates.md) through the [Microsoft Endpoint Manager](/mem/configmgr/core/understand/microsoft-endpoint-manager-faq) software collection which includes all Intune and SCCM managed devices that are enrolled in [Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb). This is our recommended approach for how enterprises stay secure.
+- **[Enable Administrator Updates using Microsoft Endpoint Configuration Manager (SCCM and Intune)](enabling-administrator-updates.md)**. [Visual Studio administrator updates are available and deployable](applying-administrator-updates.md) through the [Microsoft Endpoint Manager](/mem/configmgr/core/understand/microsoft-endpoint-manager-faq) software collection which includes all Intune and SCCM managed devices that are enrolled in [Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb). This is our recommended approach for how enterprises stay secure. [Learn more here](https://aka.ms/vs/admin/updates/au/blog).
 
 - **[Keep your layout (network installation) updated](create-a-network-installation-of-visual-studio.md#update-or-modify-your-layout)** on a regular basis so that it remains current and secure with the latest product updates. Layouts are meant to be used as both as an installation point for new client installs of Visual Studio as well as a source of updated product bits for installations that are already deployed to client workstations. Visual Studio releases security updates on patch Tuesday, the second Tuesday of the month, and we strongly recommend that you update your layouts on a monthly cadence immediately afterwards.
 
@@ -114,7 +114,7 @@ The following resources will help you keep your Visual Studio updated, current, 
 
 ## Configure Visual Studio
 
-- **Configure policies that affect the behavior of Visual Studio** This includes [configuring policies that govern acquisition behavior](/visualstudio/install/set-defaults-for-enterprise-deployments) such as where some packages shared with other versions or instances are installed, where and whether packages are cached, if administrator update should be enabled or how they should be applied, which update channels are available and how they're presented to the client, if unsupported components should be removed during an update, and how notifications appear or don't appear. This also includes configuring policies that govern customer feedback, [telemetry](https://aka.ms/vs/admx/telemetry), and [Live Share](https://aka.ms/vsls-policies) behavior.
+- **Configure policies that affect the behavior of Visual Studio** Use the [Visual Studio Administrative Templates (ADMX)](./administrative-templates.md) to easily configure Visual Studio policies on client machines across your organization. This includes [configuring policies that govern acquisition behavior](./set-defaults-for-enterprise-deployments.md) such as where some packages shared with other versions or instances are installed, where and whether packages are cached, if administrator updates should be enabled or how they should be applied, which update channels are available and how they're presented to the client, if unsupported components should be removed during an update, and how notifications appear or don't appear. This also includes configuring policies that govern customer feedback, [telemetry](https://aka.ms/vs/admx/telemetry), and [Live Share](https://aka.ms/vsls-policies) behavior.
 
 - **[Create custom bootstrapper packages](../deployment/creating-bootstrapper-packages.md)**. Learn advanced techniques for how to create custom bootstrapper packages to further control your installation configuration by creating product and package manifests. 
 
@@ -136,6 +136,7 @@ The following resources will help you keep your Visual Studio updated, current, 
 * [Applying administrator updates](applying-administrator-updates.md)
 * [Use command-line parameters to install, update, and manage Visual Studio](/visualstudio/install/use-command-line-parameters-to-install-visual-studio.md)
 * [Configure policies for enterprise deployments of Visual Studio](/visualstudio/install/set-defaults-for-enterprise-deployments.md)
+* [Visual Studio Administrative Templates](./administrative-templates.md)
 * [Install certificates required for Visual Studio offline installation](install-certificates-for-visual-studio-offline.md)
 * [Visual Studio product lifecycle and servicing](/visualstudio/productinfo/vs-servicing.md)
 * [Synchronous autoload settings](../extensibility/synchronously-autoloaded-extensions.md)
