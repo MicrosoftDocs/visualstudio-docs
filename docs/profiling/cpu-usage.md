@@ -76,25 +76,51 @@ Usually, the local machine best replicates installed app execution. To collect d
    ![CPU Usage report](../profiling/media/cpu-use-wt-report.png "CPU Usage report")
     ::: moniker-end
 
-## Analyze the CPU Usage report
-
-The diagnostic report is sorted by **Total CPU**, from highest to lowest. Change the sort order or sort column by selecting the column headers. Use the **Filter** dropdown to select or deselect threads to display, and use the **Search** box to search for a specific thread or node. You can double-click on a function that you are interested in, and you will see the source for the function as well as highlighting that shows where time is spent in that function. The table shows columns with data such as the time spent in the function, including called functions (Total CPU), and a second column that shows the time spent in a function, excluding called functions (Self CPU). 
-
-This data can help you assess whether the function itself is a performance bottleneck. Determine how much data the method is displaying to see if third-party code or runtime libraries are the reason for your endpoints being slow or resource-consumption heavy.
-
-Starting in Visual Studio 2019, you can click the **Expand Hot Path** and **Show Hot Path** buttons to see the function calls that use the highest percentage of the CPU in the call tree view.
-
-### <a name="BKMK_Call_tree_data_columns"></a> CPU Usage data columns
+## <a name="BKMK_Call_tree_data_columns"></a> CPU Usage data columns
 
 |Name|Description|
 |-|-|
 |**Total CPU [unit, %]**|![Total % data equation](../profiling/media/cpu_use_wt_totalpercentequation.png "CPU_USE_WT_TotalPercentEquation")<br /><br /> The milliseconds and CPU percentage used by calls to the function, and functions called by the function, in the selected time range. This is different from the **CPU Utilization** timeline graph, which compares the total CPU activity in a time range to the total available CPU.|
 |**Self CPU [unit, %]**|![Self % equation](../profiling/media/cpu_use_wt_selflpercentequation.png "CPU_USE_WT_SelflPercentEquation")<br /><br /> The milliseconds and CPU percentage used by calls to the function in the selected time range, excluding functions called by the function.|
-|**Module**|The name of the module containing the function.
+|**Module**|In some views, the Module column is shown, which shows the name of the module containing the function.|
+
+::: moniker range=">=vs-2022"
+## Analyze CPU Insights
+
+To analyze top insights, top functions, and the hot path, see [CPU insights](../profiling/cpu-insights.md).
+::: moniker-end
+
+## Analyze the CPU Usage report
+
+::: moniker range=">=vs-2022"
+To analyze the report, click **Open details**, or click one of the top functions to open the **Functions** view.
+
+The report provides different views of the diagnostic data:
+
+- Caller/callee
+- Call tree
+- Modules
+- Functions
+- Flame graph
+
+::: moniker-end
+
+::: moniker range="vs-2019"
+The report provides different views of the diagnostic data:
+
+- Caller/callee
+- Call tree
+::: moniker-end
+
+In all views except Caller/callee, the diagnostic report is sorted by **Total CPU**, from highest to lowest. Change the sort order or sort column by selecting the column headers. Use the **Filter** dropdown to select or deselect threads to display, and use the **Search** box to search for a specific thread or node. You can double-click on a function that you are interested in, and you will see the source for the function as well as highlighting that shows where time is spent in that function. The table shows columns with data such as the time spent in the function, including called functions (Total CPU), and a second column that shows the time spent in a function, excluding called functions (Self CPU). 
+
+This data can help you assess whether the function itself is a performance bottleneck. Determine how much data the method is displaying to see if third-party code or runtime libraries are the reason for your endpoints being slow or resource-consumption heavy.
 
 ### <a name="BKMK_The_CPU_Usage_call_tree"></a> The CPU Usage call tree
 
-To view the call tree, select the parent node in the report. The **CPU Usage** page opens to the **Caller/Callee** view. In the **Current View** dropdown, select **Call Tree**.
+To view the call tree, select the parent node in the report. By default, the **CPU Usage** page opens to the **Caller/Callee** view. In the **Current View** dropdown, select **Call Tree**.
+
+You can click the **Expand Hot Path** and **Show Hot Path** buttons to see the function calls that use the highest percentage of the CPU in the call tree view.
 
 #### <a name="BKMK_Call_tree_structure"></a> Call tree structure
 
@@ -121,7 +147,7 @@ To view the call paths of external code, switch the current view to the **Call T
 
 ![Show Call Tree](../profiling/media/vs-2022/cpu-use-wt-call-tree-view.png "Show Call Tree")
 ::: moniker-end
-::: moniker range="<=vs-2019"
+::: moniker range="vs-2019"
 To view the call paths of external code, on the main diagnostic report page (right pane), select **Show External Code** from the **Filter** dropdown, and then select **Apply**. The **Call Tree** view of the **CPU Usage** page then expands the external code calls. (The **Filter** dropdown is available on the main diagnostic page, not the detailed views.)
 
 ![Show External Code](../profiling/media/cpu-use-wt-filter-view.png "Show External Code")
@@ -132,7 +158,7 @@ Many external code call chains are deeply nested, so the width of the chain can 
 
 ![Nested external code in the call tree](../profiling/media/vs-2022/cpu-use-wt-show-external-code.png "Nested external code in the call tree")
 ::: moniker-end
-::: moniker range="<=vs-2019"
+::: moniker range="vs-2019"
 Many external code call chains are deeply nested, so the width of the chain can exceed the display width of the **Function Name** column. The function names then appear as **...**.
 
 ![Nested external code in the call tree](../profiling/media/cpu-use-wt-show-external-code-too-wide.png "Nested external code in the call tree")
@@ -151,7 +177,7 @@ To find a function name you're looking for, use the search box. Hover over the s
 
 When the compiler encounters an asynchronous method, it creates a hidden class to control the method's execution. Conceptually, the class is a state machine. The class has compiler-generated functions that asynchronously call the original methods, and the callbacks, scheduler, and iterators needed to run them. When a parent method calls the original method, the compiler removes the method from the execution context of the parent, and runs the hidden class methods in the context of the system and framework code that controls app execution. The asynchronous methods are often, but not always, executed on one or more different threads. This code appears in the **CPU Usage** call tree as children of the **[External Code]** node immediately below the top node of the tree.
 
-::: moniker range="<=vs-2019"
+::: moniker range="vs-2019"
 In the following example, the first two nodes under **[External Code]** are the compiler-generated methods of the state machine class. The third node is the call to the original method.
 
 ![Asynchronous node](media/cpu-use-wt-getmaxnumber-async-selected.png "Asynchronous node")
@@ -162,7 +188,7 @@ Expand the generated methods to show what's going on:
 ::: moniker range=">=vs-2022"
 ![Expanded asynchronous node](media/vs-2022/cpu-use-wt-expanded-call-tree.png "Expanded asynchronous node")
 ::: moniker-end
-::: moniker range="<=vs-2019"
+::: moniker range="vs-2019"
 ![Expanded asynchronous node](media/cpu-use-wt-getmaxnumber-async-expanded-call-tree.png "Expanded asynchronous node")
 ::: moniker-end
 
