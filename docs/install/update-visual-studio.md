@@ -2,7 +2,7 @@
 title: Update Visual Studio
 titleSuffix: ''
 description: Learn how to update Visual Studio to the most recent release, step by step.
-ms.date: 11/3/2022
+ms.date: 12/1/2022
 ms.custom: vs-acquisition
 ms.topic: how-to
 ms.prod: visual-studio-windows
@@ -119,7 +119,7 @@ There are several different settings that can be customized to control the updat
 1. Observe the configuration options that are available to set in this dialog. You can choose the **Automatically download updates** setting, which allows updates to download while your machine is idle. There are also two installation modes to choose from: **Install while downloading**, and **Download all, then install**.   Choose the installation mode and the automatic download setting you want for your Visual Studio updates.
 
 ### Configure source location of updates
-If you're in an enterprise environment, then it's possible to configure the location that your client instances looks for updates. This is useful in situations where your client installed from a network layout, but you later want the clients to get updates from a different network layout. The ability to configure update locations requires the presence of the newer Visual Studio 2022 installer, which can be obtained by either installing Visual Studio 2022 on the client machine, or by an administrator pushing it out through a network layout. For more information about how to use this feature, refer to the [Visual Studio 2022 documentation on configuring source location of updates](/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1). Refer also to information on how to configure your Visual Studio 2019 layouts to [use the latest Visual Studio 2022 installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer). 
+If you're in an enterprise environment, then it's possible to configure the location that your client instances look for updates. This is useful in situations where your client installed from a network layout, but you later want the clients to get updates from a different network layout. The ability to configure update locations requires the presence of the newer Visual Studio 2022 installer, which can be obtained by [acquiring the latest installer on the client machine](/install/update-visual-studio.md#install-the-latest-and-greatest-installer), or by an administrator [pushing the latest installer out through a network layout](/install/create-a-network-installation-of-visual-studio?#ensure-your-layout-is-using-the-latest-installer). For more information about how to use this feature, refer to the [Visual Studio 2022 documentation on configuring source location of updates](/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1).  
 
 ## Update on close
 
@@ -214,9 +214,9 @@ There are several different settings that can be customized to control the updat
 1. Observe the configuration options that are available to set in this dialog. You can choose the **Automatically download updates** setting, which allows updates to download while your machine is idle. There are also two installation modes to choose from: **Install while downloading**, and **Download all, then install**.   Choose the installation mode and the automatic download setting you want for your Visual Studio updates.
 
 ### Configure source location of updates
-With Visual Studio 2022, you can now configure where your clients will get their updates from. These update source locations are called "channels", and you can find more information about channel purpose and availability in the [Visual Studio Release Rhythm](/visualstudio/productinfo/release-rhythm) documentation. Microsoft makes both the Current and the Preview channels available to everyone, and the long term servicing channels (LTSCs) are available to Enterprise and Professional customers. IT Administrators can also configure the update source locations, such as network layouts, that the clients should have access to. Refer to the [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide) for additional options and details on how to set this up. 
+With Visual Studio 2022, you can now configure where your clients will get their updates from. These update source locations are called "channels", and you can find more information about channel purpose and availability in the [Visual Studio Release Rhythm](/visualstudio/productinfo/release-rhythm) documentation. Microsoft makes both the Current and the Preview channels available to everyone, and the long term servicing channels (LTSCs) are available to Enterprise and Professional customers. IT Administrators can also configure the update source locations, such as network layouts, that the clients should have access to. Refer to the [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide) for additional approach recommendations, and to the [modifySettings command documentation](/visualstudio/install/use-command-line-parameters-to-install-visual-studio#configure-source-location-of-updates-command-and-command-line-parameters) for how to access this functionality programmatically.  
 
-There are two ways to bring up the Update Settings dialog, which allows you to change the channel that your Visual Studio instance should get its updates from. 
+There are two ways to bring up the Update Settings dialog, which allows you to manually change the channel that your Visual Studio instance should get its updates from. 
 
 1. Open the Visual Studio installer, select the instance you want to configure, choose the **More button** and then choose the **Update settings** menu option. Refer to previous instructions for how to find the Visual Studio Installer.
 
@@ -248,20 +248,21 @@ When an update is available, the update notification UI in the IDE provides a wa
 
 ## Remove out-of-support components
 
-Using the [latest Visual Studio 2022 Installer](#install-the-latest-and-greatest-installer) available with the Visual Studio 2022 version 17.4 release, you can now remove components that have transitioned to an out-of-support state all at once manually by using the installer or [programmatically](./use-command-line-parameters-to-install-visual-studio.md). 
+Using the [latest Visual Studio 2022 installer](#install-the-latest-and-greatest-installer), you can now bulk remove [components that have transitioned to an out-of-support state](/visualstudio/install/out-of-support-components). You can manually remove them by using the installer as described below, you can remove them [programmatically](./use-command-line-parameters-to-install-visual-studio.md), or you can have them removed via machine wide [policy](/visualstudio/install/set-defaults-for-enterprise-deployments). Learn more about [removing out-of-support components](https://aka.ms/vs/removeoos/blog) and how it can help keep your software environment secure.
+
+To bulk remove out-of-support components manually through the UI you can 
 
 1. Open the Visual Studio Installer, and then select **Modify**.
 1. Select **Remove all out-of-support components**.
     
-    :::image type="content" source="media/vs-2022/remove-out-of-support-components.png" alt-text="Screenshot of the Remove out-of-support components option.":::
-
+   :::image type="content" source="media/vs-2022/remove-out-of-support-components.png" alt-text="Screenshot of the Remove out-of-support components option.":::
+   
 All components with an out-of-support label will be deselected and get uninstalled.
 
-You can also configure a specific Visual Studio instance to persistently remove all components that transition to an out-of-support state by selecting the option **More**> **Update Settings**> **Remove all out-of-state components during future updates** in the Visual Studio Installer. Once this setting is configured, any component that transitions to an out-of-support state will be removed during the next Visual Studio update for this instance of Visual Studio.
+You can also configure a specific Visual Studio instance to _persistently_ remove all components that transition to an out-of-support state by selecting the option **More**> **Update Settings**> **Remove all out-of-support components during future updates** in the Visual Studio Installer. Once this setting is configured, any component that transitions to an out-of-support state in the future will be removed during the next Visual Studio update for that instance of Visual Studio.
 
-:::image type="content" source="media/vs-2022/remove-all-out-support-components-during-future-updates.png" alt-text="Screenshot of Remove all out-of-state components during future updates option in the Update Settings dialog.":::
-
-Learn more about [removing out-of-support components](https://aka.ms/vs/removeoos/blog) and how it can help keep your software secure.
+   :::image type="content" source="media/vs-2022/remove-all-out-support-components-during-future-updates.png" alt-text="Screenshot of Remove all out-of-state components during future updates option in the Update Settings dialog.":::
+   
 
 ::: moniker-end
 
@@ -297,7 +298,6 @@ You can download an Administrator Update from the [Microsoft Update Catalog](htt
 * [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md)
 * [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
-* [Update Visual Studio while on a servicing baseline](update-servicing-baseline.md)
 * [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 * [Modify Visual Studio](modify-visual-studio.md)
 * [Uninstall Visual Studio](uninstall-visual-studio.md)
