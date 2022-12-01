@@ -48,7 +48,7 @@ The Microsoft.CodeCoverage.Console tool is extension to the [dotnet-coverage](/d
 ::: moniker range=">=vs-2022"
 ## Instrument command
 
-The instrument command is used to instrument native binary on disk. 
+The instrument command is used to instrument native or managed binary on disk. 
 
 ### Synopsis
 
@@ -64,7 +64,7 @@ Microsoft.CodeCoverage.Console instrument
 
 * **`<input-file>`**
 
-  The input native binary.
+  The input binary.
 
 ### Options
 
@@ -78,7 +78,7 @@ Microsoft.CodeCoverage.Console instrument
 
 * **`-o|--output <output>`**
 
-  Sets the code coverage report output file.
+  Sets the path to output file binary. If not provided, instrumentation will be performed in-place.
 
 * **`-l|--log-file <log-file>`**
 
@@ -162,7 +162,7 @@ D:\ConsoleApplication\x64\Debug>.\ConsoleApplication.exe
 Hello World!
 ```
 > [!NOTE]
-> Instrumented binary contains a reference to `static_covrun64.dll`. Make sure that this file is next to the instrumented binary or the directory where `static_covrun64.dll` is located is listed in the `Path` environment variable. The `collect` and `connect` commands are adding proper directories to `Path` automatically.
+> Instrumented native binary contains a reference to `static_covrun64.dll`. Make sure that this file is next to the instrumented binary or the directory where `static_covrun64.dll` is located is listed in the `Path` environment variable. The `collect` and `connect` commands are adding proper directories to `Path` automatically.
 
 Finally, the collector can be closed as follows:
 
