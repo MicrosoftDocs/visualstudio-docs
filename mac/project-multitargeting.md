@@ -1,8 +1,8 @@
 ---
 title: "Multitargeting projects"
 description: This document provides an overview of how to setup multi-targeted projects in Visual Studio for Mac.
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 12/12/2019
 ms.topic: how-to

@@ -3,8 +3,8 @@ title: "Install and use Visual Studio for Mac with a firewall or proxy server"
 titleSuffix: ""
 description: "This document provides a list of hosts that must be allowed in your firewall to allow Visual Studio for Mac (and its workloads, including Xamarin) to work in a corporate environment."
 ms.assetid: 79C0F1A3-0C13-4E55-A820-1138A4082B77
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.topic: reference
 ms.date: 01/10/2022

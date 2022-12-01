@@ -1,8 +1,8 @@
 ---
 title: "Building and Cleaning Projects and Solutions"
 description: "This article describes how to build a project in Visual Studio for Mac"
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 02/28/2022
 ms.custom: devdivchpfy22
