@@ -1,8 +1,8 @@
 ---
-title: Parameter info, list members, and quick info
+title: Parameter info, list members, and quick info in IntelliSense
 description: "Learn how to use these IntelliSense features:  List Members, Parameter Info, Quick Info, and Complete Word."
 ms.custom: SEO-VS-2020
-ms.date: 05/25/2018
+ms.date: 12/02/2022
 ms.topic: conceptual
 f1_keywords:
 - vc.tools.intellisense
@@ -77,7 +77,10 @@ Complete Word completes the rest of a variable, command, or function name after 
 
 ## IntelliSense options
 
-IntelliSense options are on by default. To turn them off, choose **Tools** > **Options** > **Text Editor** and deselect **Parameter information** or **Auto list members** if you do not want the List Members feature.
+IntelliSense options are on by default. To turn them off, go to **Tools** > **Options** > **Text Editor** > **All Languages** and deselect **Parameter information** or **Auto list members** if you do not want the List Members feature.
+
+> [!TIP]
+> If you want to change the appearance of IntelliSense in the editor, go to **Tools** > **Options** > **Environment** > **Fonts and Colors**. For more information about these settings and how to interact with them, see [Fonts and Colors, Environment, Options dialog box](reference/fonts-and-colors-environment-options-dialog-box.md).
 
 ## IntelliSense icons
 The icons in IntelliSense can convey additional meaning with icon modifiers. These are stars, hearts, and locks layered on top of the object's icon that convey protected, internal, or private, respectively.
@@ -108,9 +111,8 @@ MessageBox( hWnd, "String literal|")
 
 ## See also
 
-- [Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md)
 - [C# IntelliSense](../ide/visual-csharp-intellisense.md)
-- [Python IntelliSense](../python/editing-python-code-in-visual-studio.md#intellisense)
+- [Visual Basic IntelliSense](../ide/visual-basic-specific-intellisense.md)
 - [JavaScript IntelliSense](../ide/javascript-intellisense.md)
 - [Write and refactor code (C++)](/cpp/ide/writing-and-refactoring-code-cpp)
 - [Supply XML code comments](reference/generate-xml-documentation-comments.md)
