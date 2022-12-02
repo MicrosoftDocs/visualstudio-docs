@@ -4,8 +4,6 @@ description: "Learn how to use these IntelliSense features:  List Members, Param
 ms.custom: SEO-VS-2020
 ms.date: 12/02/2022
 ms.topic: conceptual
-f1_keywords:
-- vc.tools.intellisense
 helpviewer_keywords:
 - Quick info
 - Parameter info
@@ -80,7 +78,7 @@ Complete Word completes the rest of a variable, command, or function name after 
 IntelliSense options are on by default. To turn them off, go to **Tools** > **Options** > **Text Editor** > **All Languages** and deselect **Parameter information** or **Auto list members** if you do not want the List Members feature.
 
 > [!TIP]
-> If you want to change the appearance of IntelliSense in the editor, go to **Tools** > **Options** > **Environment** > **Fonts and Colors**. For more information about these settings and how to interact with them, see [Fonts and Colors, Environment, Options dialog box](reference/fonts-and-colors-environment-options-dialog-box.md).
+> If you want to change the appearance of user interface elements in Visual Studio, go to **Tools** > **Options** > **Environment** > **Fonts and Colors**. For more information about these settings and how to interact with them, see [Fonts and Colors, Environment, Options dialog box](reference/fonts-and-colors-environment-options-dialog-box.md).
 
 ## IntelliSense icons
 The icons in IntelliSense can convey additional meaning with icon modifiers. These are stars, hearts, and locks layered on top of the object's icon that convey protected, internal, or private, respectively.
