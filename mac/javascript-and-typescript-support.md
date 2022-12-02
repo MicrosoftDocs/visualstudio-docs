@@ -1,8 +1,8 @@
 ---
 title: "JavaScript and TypeScript"
 description: "Information on the support for JavaScript in Visual Studio for Mac"
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 05/03/2018
 ms.technology: vs-ide-general

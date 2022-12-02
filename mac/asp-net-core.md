@@ -1,8 +1,8 @@
 ---
 title: "Getting Started with ASP.NET Core"
 description: "This article describes how to get started with ASP.NET in Visual Studio for Mac, including installation and creating a new project."
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 08/26/2022
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565

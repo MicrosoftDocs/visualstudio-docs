@@ -1,8 +1,8 @@
 ---
 title: "Getting started building games with Unity"
 description: "Getting started with Unity and Visual Studio for Mac"
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 03/01/2022
 ms.custom: devdivchpfy22

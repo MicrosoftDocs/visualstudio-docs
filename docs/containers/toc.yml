@@ -31,6 +31,8 @@
       href: deploy-app-service.md
     - name: Deploy to Docker Hub
       href: deploy-docker-hub.md
+    - name: Deploy without a Dockerfile
+      href: deploy-containerized.md
     - name: Customize container builds
       href: container-build.md
     expanded: true

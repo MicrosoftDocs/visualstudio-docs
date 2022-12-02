@@ -1,8 +1,8 @@
 ---
 title: "Update Visual Studio for Mac"
 description: "Learn how to update Visual Studio for Mac and to access preview releases."
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 04/24/2022
 ms.custom: devdivchpfy22
