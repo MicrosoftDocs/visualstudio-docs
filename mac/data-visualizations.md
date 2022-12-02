@@ -1,8 +1,8 @@
 ---
 title: Debugging - Data Visualizations
 description: Debugging is a common, and necessary, part of programming. Visual Studio for Mac contains a whole suite of features to make debugging easy. This article looks at the different data visualizations that can be viewed when inspecting objects in the debugger.
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 11/09/2020
 ms.technology: vs-ide-debug
