@@ -2,7 +2,7 @@
 title: "Measure CPU usage in your apps"
 description: "Analyze CPU performance issues in your application using the debugger-integrated diagnostics tools."
 
-ms.date: 04/28/2022
+ms.date: 12/02/2022
 ms.topic: tutorial
 helpviewer_keywords:
   - "Profiling Tools, quick start"
@@ -48,41 +48,70 @@ If **CPU Usage** does not give you the data that you need, other profiling tools
 
 4. You can choose whether to see **CPU Usage**, [Memory Usage](../profiling/Memory-Usage.md), or both, with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can also enable or disable IntelliTrace in **Tools** > **Options** > **IntelliTrace**.
 
-     ![Show Diagnostics Tools](../profiling/media/diag-tools-select-tool.png "DiagToolsSelectTool")
+    ::: moniker range=">=vs-2022"
+    ![Show Diagnostics Tools](../profiling/media/vs-2022/diag-tools-select-tool.png "DiagToolsSelectTool")
+    ::: moniker-end
+    ::: moniker range="vs-2019"
+    ![Show Diagnostics Tools](../profiling/media/diag-tools-select-tool.png "DiagToolsSelectTool")
+    ::: moniker-end
 
      We will mainly be looking at CPU utilization, so make sure that **CPU Usage** is enabled (it is enabled by default).
 
 5. Click **Debug** > **Start Debugging** (or **Start** on the toolbar, or **F5**).
 
-     When the app finishes loading, the Summary view of the Diagnostics Tools appears. If you need to open the window, click **Debug** > **Windows** > **Show Diagnostic Tools**.
+   When the app finishes loading, the Summary view of the Diagnostics Tools appears. If you need to open the window, click **Debug** > **Windows** > **Show Diagnostic Tools**.
+   ::: moniker range=">=vs-2022"
+   ![Diagnostics Tools Summary Tab](../profiling/media/vs-2022/diag-tools-summary-tab.png "DiagToolsSummaryTab")
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   ![Diagnostics Tools Summary Tab](../profiling/media/diag-tools-summary-tab.png "DiagToolsSummaryTab")
+   ::: moniker-end
 
-     ![Diagnostics Tools Summary Tab](../profiling/media/diag-tools-summary-tab.png "DiagToolsSummaryTab")
-
-     For more information on the events, see [Searching and filtering the Events tab of the Diagnostic Tools window](https://devblogs.microsoft.com/devops/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window/).
+   For more information on the events, see [Searching and filtering the Events tab of the Diagnostic Tools window](https://devblogs.microsoft.com/devops/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window/).
 
 6. Run the scenario that will cause your first breakpoint to be hit.
 
 7. While the debugger is paused, enable the collection of the CPU Usage data and then open the **CPU Usage** tab.
 
-     ![Diagnostics Tools enable CPU profiling](../profiling/media/diag-tools-enable-cpu-profiling.png "DiagToolsEnableCPUProfiling")
+   ::: moniker range=">=vs-2022"
+   ![Diagnostics Tools enable CPU profiling](../profiling/media/vs-2022/diag-tools-enable-cpu-profiling.png "DiagToolsEnableCPUProfiling")
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   ![Diagnostics Tools enable CPU profiling](../profiling/media/diag-tools-enable-cpu-profiling.png "DiagToolsEnableCPUProfiling")
+   ::: moniker-end
 
      When you choose **Record CPU Profile**, Visual Studio will begin recording your functions and how much time they take to execute. You can only view this collected data when your application is halted at a breakpoint.
 
 8. Hit F5 to run the app to your second breakpoint.
 
-     Now, you now have performance data for your application specifically for the region of code that runs between the two breakpoints.
+   Now, you now have performance data for your application specifically for the region of code that runs between the two breakpoints.
 
-     The profiler begins preparing thread data. Wait for it to finish.
+   The profiler begins preparing thread data. Wait for it to finish.
 
-     ![Diagnostics Tools Preparing Threads](../profiling/media/diag-tools-preparing-data.png "DiagToolsPreparingThreads")
+   ::: moniker range=">=vs-2022"
+   ![Diagnostics Tools Preparing Threads](../profiling/media/vs-2022/diag-tools-preparing-data.png "DiagToolsPreparingThreads")
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   ![Diagnostics Tools Preparing Threads](../profiling/media/diag-tools-preparing-data.png "DiagToolsPreparingThreads")
+   ::: moniker-end
 
-     The CPU Usage tool displays the report in the **CPU Usage** tab.
+   The CPU Usage tool displays the report in the **CPU Usage** tab.
 
-     ![Diagnostics Tools CPU Usage Tab](../profiling/media/diag-tools-cpu-usage-tab.png "DiagToolsCPUUsageTab")
+   ::: moniker range=">=vs-2022"
+   ![Diagnostics Tools CPU Usage Tab](../profiling/media/vs-2022/diag-tools-cpu-usage-tab.png "DiagToolsCPUUsageTab")
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   ![Diagnostics Tools CPU Usage Tab](../profiling/media/diag-tools-cpu-usage-tab.png "DiagToolsCPUUsageTab")
+   ::: moniker-end
 
 9. If you want to select a more specific region of code to analyze, select a region in the CPU timeline (it must be a region that shows profiling data).
 
-     ![Diagnostics Tools Selecting a Time Segment](../profiling/media/diag-tools-select-time-segment.png "DiagToolsSelectTimeSegment")
+   ::: moniker range=">=vs-2022"
+   ![Diagnostics Tools Selecting a Time Segment](../profiling/media/vs-2022/diag-tools-select-time-segment.png "DiagToolsSelectTimeSegment")
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   ![Diagnostics Tools Selecting a Time Segment](../profiling/media/diag-tools-select-time-segment.png "DiagToolsSelectTimeSegment")
+   ::: moniker-end
 
      At this point, you can begin to analyze the data.
 
@@ -95,21 +124,38 @@ We recommend that you begin analyzing your data by examining the list of functio
 
 1. In the function list, examine the functions that are doing the most work.
 
-    ![Diagnostics Tools CPU Usage Function List](../profiling/media/diag-tools-cpu-usage-function-list.png "DiagToolsCPUUsageFunctionList")
+   ::: moniker range=">=vs-2022"
+   ![Diagnostics Tools CPU Usage Function List](../profiling/media/diag-tools-cpu-usage-function-list.png "DiagToolsCPUUsageFunctionList")
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   ![Diagnostics Tools CPU Usage Function List](../profiling/media/diag-tools-cpu-usage-function-list.png "DiagToolsCPUUsageFunctionList")
+   ::: moniker-end
 
     > [!TIP]
     > Functions are listed in order starting with those doing the most work (they're not in call order). This helps you quickly identify the longest running functions.
 
 2. In the function list, double-click one of your app functions that is doing a lot of work.
 
-    When you double-click a function, the **Caller/Callee** view opens in the left pane.
+   ::: moniker range=">=vs-2022"
 
-    ![Diagnostics Tools Caller Callee View](../profiling/media/diag-tools-caller-callee.png "DiagToolsCallerCallee")
+   When you double-click a function, the **Functions** view opens in the left pane. Select **Caller/Callee** view from the drop-down menu.
 
-    In this view, the selected function shows up in the heading and in the **Current Function** box (GetNumber, in this example). The function that called the current function is shown on the left under **Calling Functions**, and any functions called by the current function are shown in **Called Functions** box on the right. (You can select either box to change the current function.)
+   ![Diagnostics Tools Caller Callee View](../profiling/media/vs-2022/diag-tools-caller-callee.png "DiagToolsCallerCallee")
 
-    This view shows you the total time (ms) and the percentage of the overall app running time that the function has taken to complete.
-    **Function Body** also shows you the total amount of time (and the percentage of time) spent in the function body excluding time spent in calling and called functions. (In this example, 2367 out of 2389 ms were spent in the function body, and the remaining 22 ms were spent in external code called by this function).
+   In this view, the selected function shows up in the heading and in the **Current Function** box (DoWork, in this example). The function that called the current function is shown on the left under **Calling Functions**, and any functions called by the current function are shown in **Called Functions** box on the right. (You can select either box to change the current function.)
+
+   This view shows you the total time (ms) and the percentage of the overall app running time that the function has taken to complete. **Function Body** also shows you the total amount of time (and the percentage of time) spent in the function body excluding time spent in calling and called functions.
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+
+   When you double-click a function, the **Caller/Callee** view opens in the left pane.
+
+   ![Diagnostics Tools Caller Callee View](../profiling/media/diag-tools-caller-callee.png "DiagToolsCallerCallee")
+
+   In this view, the selected function shows up in the heading and in the **Current Function** box (GetNumber, in this example). The function that called the current function is shown on the left under **Calling Functions**, and any functions called by the current function are shown in **Called Functions** box on the right. (You can select either box to change the current function.)
+
+   This view shows you the total time (ms) and the percentage of the overall app running time that the function has taken to complete. **Function Body** also shows you the total amount of time (and the percentage of time) spent in the function body excluding time spent in calling and called functions. (In this example, 2367 out of 2389 ms were spent in the function body, and the remaining 22 ms were spent in external code called by this function).
+   ::: moniker-end
 
     > [!TIP]
     > High values in **Function Body** may indicate a performance bottleneck within the function itself.
@@ -159,7 +205,7 @@ Use the search box to find a node that you are looking for, then use the horizon
 
 ## Next steps
 
-In this tutorial, you've learned how to collect and analyze CPU usage data. If you already completed the [First look at profiling tools](../profiling/profiling-feature-tour.md), you may want to get a quick look at how to analyze memory usage in your apps.
+In this tutorial, you've learned how to collect and analyze CPU usage data while debugging. You may want to find out more about profiling release builds using the Performance Profiler.
 
 > [!div class="nextstepaction"]
-> [Profile memory usage in Visual Studio](../profiling/memory-usage.md)
+> [Analyze CPU usage in the Performance Profiler](../profiling/cpu-usage.md)

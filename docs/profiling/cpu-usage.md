@@ -1,7 +1,7 @@
 ---
 title: Analyze CPU usage in the Performance Profiler
 description: Learn about the CPU Usage performance tool, which shows the CPU time and percentage spent executing code in C++, C#, Visual Basic, and JavaScript apps.
-ms.date: 07/20/2022
+ms.date: 12/02/2022
 ms.topic: how-to
 ms.assetid: 7501a20d-04a1-480f-a69c-201524aa709d
 author: mikejo5000

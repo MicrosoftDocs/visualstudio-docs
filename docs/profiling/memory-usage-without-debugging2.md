@@ -300,7 +300,6 @@ A **Referenced Types** tree in a snapshot diff report has the following columns.
 
 ## See also
 
-- [JavaScript memory](../profiling/javascript-memory.md)
 - [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)
 - [Performance best practices for UWP apps using C++, C#, and Visual Basic](/previous-versions/windows/apps/hh750313\(v\=win.10\))
