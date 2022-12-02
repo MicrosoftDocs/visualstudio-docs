@@ -108,15 +108,21 @@ The report provides different views of the diagnostic data:
 ::: moniker-end
 
 ::: moniker range="vs-2019"
+To analyze the report, click **Create detailed report**.
+
 The report provides different views of the diagnostic data:
 
 - Caller/callee
 - Call tree
 ::: moniker-end
 
-In all views except Caller/callee, the diagnostic report is sorted by **Total CPU**, from highest to lowest. Change the sort order or sort column by selecting the column headers. You can double-click on a function that you are interested in, and you will see the source for the function as well as highlighting that shows where time is spent in that function. The table shows columns with data such as the time spent in the function, including called functions (Total CPU), and a second column that shows the time spent in a function, excluding called functions (Self CPU). 
+In all views except Caller/callee, the diagnostic report is sorted by **Total CPU**, from highest to lowest. Change the sort order or sort column by selecting the column headers. You can double-click on a function that you are interested in, and you will see the source for the function as well as highlighting that shows where time is spent in that function. The table shows columns with data such as the time spent in the function, including called functions (Total CPU), and a second column that shows the time spent in a function, excluding called functions (Self CPU).
 
 This data can help you assess whether the function itself is a performance bottleneck. Determine how much data the method is displaying to see if third-party code or runtime libraries are the reason for your endpoints being slow or resource-consumption heavy.
+
+::: moniker range=">=vs-2022"
+For more information on using the Flame graph, see [Identify hot paths with Flame Graph](../profiling/flame-graph.md).
+::: moniker-end
 
 ### <a name="BKMK_The_CPU_Usage_call_tree"></a> The CPU Usage call tree
 
@@ -192,13 +198,13 @@ Expand the generated methods to show what's going on:
 ::: moniker-end
 ::: moniker range="vs-2019"
 ![Expanded asynchronous node](media/cpu-use-wt-getmaxnumber-async-expanded-call-tree.png "Expanded asynchronous node")
-::: moniker-end
 
 - `MainPage::GetMaxNumberAsyncButton_Click` just manages a list of the task values, computes the maximum of the results, and displays the output.
 
 - `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` shows you the activity required to schedule and launch the 48 tasks that wrap the call to `GetNumberAsync`.
 
 - `MainPage::<GetNumberAsync>b__b` shows the activity of the tasks that call `GetNumber`.
+::: moniker-end
 
 ## See also
 
