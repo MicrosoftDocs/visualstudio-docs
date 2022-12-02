@@ -4,8 +4,6 @@ description: "Learn how to use these IntelliSense features:  List Members, Param
 ms.custom: SEO-VS-2020
 ms.date: 12/02/2022
 ms.topic: conceptual
-f1_keywords:
-- vc.tools.intellisense
 helpviewer_keywords:
 - Quick info
 - Parameter info
