@@ -49,10 +49,10 @@ If **CPU Usage** does not give you the data that you need, other profiling tools
 4. You can choose whether to see **CPU Usage**, [Memory Usage](../profiling/Memory-Usage.md), or both, with the **Select Tools** setting on the toolbar. If you are running Visual Studio Enterprise,  you can also enable or disable IntelliTrace in **Tools** > **Options** > **IntelliTrace**.
 
     ::: moniker range=">=vs-2022"
-    ![Show Diagnostics Tools](../profiling/media/vs-2022/diag-tools-select-tool.png "DiagToolsSelectTool")
+    ![Screenshot that shows Diagnostics Tools](../profiling/media/vs-2022/diag-tools-select-tool.png "DiagToolsSelectTool")
     ::: moniker-end
     ::: moniker range="vs-2019"
-    ![Show Diagnostics Tools](../profiling/media/diag-tools-select-tool.png "DiagToolsSelectTool")
+    ![Screenshot that shows  Diagnostics Tools](../profiling/media/diag-tools-select-tool.png "DiagToolsSelectTool")
     ::: moniker-end
 
      We will mainly be looking at CPU utilization, so make sure that **CPU Usage** is enabled (it is enabled by default).
@@ -61,10 +61,10 @@ If **CPU Usage** does not give you the data that you need, other profiling tools
 
    When the app finishes loading, the Summary view of the Diagnostics Tools appears. If you need to open the window, click **Debug** > **Windows** > **Show Diagnostic Tools**.
    ::: moniker range=">=vs-2022"
-   ![Diagnostics Tools Summary Tab](../profiling/media/vs-2022/diag-tools-summary-tab.png "DiagToolsSummaryTab")
+   ![Screenshot that shows Diagnostics Tools Summary Tab](../profiling/media/vs-2022/diag-tools-summary-tab.png "DiagToolsSummaryTab")
    ::: moniker-end
    ::: moniker range="vs-2019"
-   ![Diagnostics Tools Summary Tab](../profiling/media/diag-tools-summary-tab.png "DiagToolsSummaryTab")
+   ![Screenshot that shows Diagnostics Tools Summary Tab](../profiling/media/diag-tools-summary-tab.png "DiagToolsSummaryTab")
    ::: moniker-end
 
    For more information on the events, see [Searching and filtering the Events tab of the Diagnostic Tools window](https://devblogs.microsoft.com/devops/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window/).
@@ -74,10 +74,10 @@ If **CPU Usage** does not give you the data that you need, other profiling tools
 7. While the debugger is paused, enable the collection of the CPU Usage data and then open the **CPU Usage** tab.
 
    ::: moniker range=">=vs-2022"
-   ![Diagnostics Tools enable CPU profiling](../profiling/media/vs-2022/diag-tools-enable-cpu-profiling.png "DiagToolsEnableCPUProfiling")
+   ![Screenshot that shows Diagnostics Tools enable CPU profiling](../profiling/media/vs-2022/diag-tools-enable-cpu-profiling.png "DiagToolsEnableCPUProfiling")
    ::: moniker-end
    ::: moniker range="vs-2019"
-   ![Diagnostics Tools enable CPU profiling](../profiling/media/diag-tools-enable-cpu-profiling.png "DiagToolsEnableCPUProfiling")
+   ![Screenshot that shows Diagnostics Tools enable CPU profiling](../profiling/media/diag-tools-enable-cpu-profiling.png "DiagToolsEnableCPUProfiling")
    ::: moniker-end
 
      When you choose **Record CPU Profile**, Visual Studio will begin recording your functions and how much time they take to execute. You can only view this collected data when your application is halted at a breakpoint.
@@ -89,28 +89,28 @@ If **CPU Usage** does not give you the data that you need, other profiling tools
    The profiler begins preparing thread data. Wait for it to finish.
 
    ::: moniker range=">=vs-2022"
-   ![Diagnostics Tools Preparing Threads](../profiling/media/vs-2022/diag-tools-preparing-data.png "DiagToolsPreparingThreads")
+   ![Screenshot that shows Diagnostics Tools preparing threads](../profiling/media/vs-2022/diag-tools-preparing-data.png "DiagToolsPreparingThreads")
    ::: moniker-end
    ::: moniker range="vs-2019"
-   ![Diagnostics Tools Preparing Threads](../profiling/media/diag-tools-preparing-data.png "DiagToolsPreparingThreads")
+   ![Screenshot that shows Diagnostics Tools preparing threads](../profiling/media/diag-tools-preparing-data.png "DiagToolsPreparingThreads")
    ::: moniker-end
 
    The CPU Usage tool displays the report in the **CPU Usage** tab.
 
    ::: moniker range=">=vs-2022"
-   ![Diagnostics Tools CPU Usage Tab](../profiling/media/vs-2022/diag-tools-cpu-usage-tab.png "DiagToolsCPUUsageTab")
+   ![Screenshot that shows Diagnostics Tools CPU Usage Tab](../profiling/media/vs-2022/diag-tools-cpu-usage-tab.png "DiagToolsCPUUsageTab")
    ::: moniker-end
    ::: moniker range="vs-2019"
-   ![Diagnostics Tools CPU Usage Tab](../profiling/media/diag-tools-cpu-usage-tab.png "DiagToolsCPUUsageTab")
+   ![Screenshot that shows Diagnostics Tools CPU Usage Tab](../profiling/media/diag-tools-cpu-usage-tab.png "DiagToolsCPUUsageTab")
    ::: moniker-end
 
 9. If you want to select a more specific region of code to analyze, select a region in the CPU timeline (it must be a region that shows profiling data).
 
    ::: moniker range=">=vs-2022"
-   ![Diagnostics Tools Selecting a Time Segment](../profiling/media/vs-2022/diag-tools-select-time-segment.png "DiagToolsSelectTimeSegment")
+   ![Screenshot that shows Diagnostics Tools selecting a time segment](../profiling/media/vs-2022/diag-tools-select-time-segment.png "DiagToolsSelectTimeSegment")
    ::: moniker-end
    ::: moniker range="vs-2019"
-   ![Diagnostics Tools Selecting a Time Segment](../profiling/media/diag-tools-select-time-segment.png "DiagToolsSelectTimeSegment")
+   ![Screenshot that shows Diagnostics Tools selecting a time segment](../profiling/media/diag-tools-select-time-segment.png "DiagToolsSelectTimeSegment")
    ::: moniker-end
 
      At this point, you can begin to analyze the data.
@@ -125,10 +125,10 @@ We recommend that you begin analyzing your data by examining the list of functio
 1. In the function list, examine the functions that are doing the most work.
 
    ::: moniker range=">=vs-2022"
-   ![Diagnostics Tools CPU Usage Function List](../profiling/media/diag-tools-cpu-usage-function-list.png "DiagToolsCPUUsageFunctionList")
+   ![Screenshot that shows Diagnostics Tools CPU Usage Function List](../profiling/media/diag-tools-cpu-usage-function-list.png "DiagToolsCPUUsageFunctionList")
    ::: moniker-end
    ::: moniker range="vs-2019"
-   ![Diagnostics Tools CPU Usage Function List](../profiling/media/diag-tools-cpu-usage-function-list.png "DiagToolsCPUUsageFunctionList")
+   ![Screenshot that shows Diagnostics Tools CPU Usage Function List](../profiling/media/diag-tools-cpu-usage-function-list.png "DiagToolsCPUUsageFunctionList")
    ::: moniker-end
 
     > [!TIP]
@@ -140,7 +140,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 
    When you double-click a function, the **Functions** view opens in the left pane. Select **Caller/Callee** view from the drop-down menu.
 
-   ![Diagnostics Tools Caller Callee View](../profiling/media/vs-2022/diag-tools-caller-callee.png "DiagToolsCallerCallee")
+   ![Screenshot that shows Diagnostics Tools Caller Callee View](../profiling/media/vs-2022/diag-tools-caller-callee.png "DiagToolsCallerCallee")
 
    In this view, the selected function shows up in the heading and in the **Current Function** box (DoWork, in this example). The function that called the current function is shown on the left under **Calling Functions**, and any functions called by the current function are shown in **Called Functions** box on the right. (You can select either box to change the current function.)
 
@@ -150,7 +150,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 
    When you double-click a function, the **Caller/Callee** view opens in the left pane.
 
-   ![Diagnostics Tools Caller Callee View](../profiling/media/diag-tools-caller-callee.png "DiagToolsCallerCallee")
+   ![Screenshot that shows Diagnostics Tools Caller Callee View](../profiling/media/diag-tools-caller-callee.png "DiagToolsCallerCallee")
 
    In this view, the selected function shows up in the heading and in the **Current Function** box (GetNumber, in this example). The function that called the current function is shown on the left under **Calling Functions**, and any functions called by the current function are shown in **Called Functions** box on the right. (You can select either box to change the current function.)
 
@@ -183,7 +183,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 
     To see the function calls that use the highest percentage of the CPU in the call tree view, click **Expand Hot Path**.
 
-    ![Diagnostics Tools Hot Path](../profiling/media/vs-2019/diag-tools-hot-path.png "DiagToolsHotPath")
+    ![Screenshot that shows Diagnostics Tools Hot Path](../profiling/media/vs-2019/diag-tools-hot-path.png "DiagToolsHotPath")
 
     > [!NOTE]
     > If you see code in the call tree marked as "broken" code or "unwalkable stack", this indicates that Event Tracing for Windows (ETW) events were likely dropped. Try collecting the same trace a second time to resolve the issue.
@@ -195,7 +195,7 @@ External code are functions in system and framework components that are executed
 ::: moniker range="vs-2019"
 If you want to view the call paths of external code, choose **Show External Code** from the **Filter view** list and then choose **Apply**.
 
-![Choose Filter View, then Show External Code](../profiling/media/diag-tools-show-external-code.png "DiagToolsShowExternalCode")
+![Screenshot that shows Choose Filter View, then Show External Code](../profiling/media/diag-tools-show-external-code.png "DiagToolsShowExternalCode")
 ::: moniker-end
 
 Be aware that many external code call chains are deeply nested, so that the width of the Function Name column can exceed the display width of all but the largest of computer monitors. When this happens, function names are shown as **[...]**.
