@@ -73,8 +73,10 @@ Usually, the local machine best replicates installed app execution. To collect d
     ![CPU Usage report](../profiling/media/vs-2022/cpu-use-wt-report.png "CPU Usage report")
     ::: moniker-end
     ::: moniker range="<=vs-2019"
-   ![CPU Usage report](../profiling/media/cpu-use-wt-report.png "CPU Usage report")
+    ![CPU Usage report](../profiling/media/cpu-use-wt-report.png "CPU Usage report")
     ::: moniker-end
+
+    Use the **Filter** dropdown to select or deselect threads to display, and use the **Search** box to search for a specific thread or node. 
 
 ## <a name="BKMK_Call_tree_data_columns"></a> CPU Usage data columns
 
@@ -85,7 +87,7 @@ Usually, the local machine best replicates installed app execution. To collect d
 |**Module**|In some views, the Module column is shown, which shows the name of the module containing the function.|
 
 ::: moniker range=">=vs-2022"
-## Analyze CPU Insights
+## Analyze CPU insights
 
 To analyze top insights, top functions, and the hot path, see [CPU insights](../profiling/cpu-insights.md).
 ::: moniker-end
@@ -112,7 +114,7 @@ The report provides different views of the diagnostic data:
 - Call tree
 ::: moniker-end
 
-In all views except Caller/callee, the diagnostic report is sorted by **Total CPU**, from highest to lowest. Change the sort order or sort column by selecting the column headers. Use the **Filter** dropdown to select or deselect threads to display, and use the **Search** box to search for a specific thread or node. You can double-click on a function that you are interested in, and you will see the source for the function as well as highlighting that shows where time is spent in that function. The table shows columns with data such as the time spent in the function, including called functions (Total CPU), and a second column that shows the time spent in a function, excluding called functions (Self CPU). 
+In all views except Caller/callee, the diagnostic report is sorted by **Total CPU**, from highest to lowest. Change the sort order or sort column by selecting the column headers. You can double-click on a function that you are interested in, and you will see the source for the function as well as highlighting that shows where time is spent in that function. The table shows columns with data such as the time spent in the function, including called functions (Total CPU), and a second column that shows the time spent in a function, excluding called functions (Self CPU). 
 
 This data can help you assess whether the function itself is a performance bottleneck. Determine how much data the method is displaying to see if third-party code or runtime libraries are the reason for your endpoints being slow or resource-consumption heavy.
 
