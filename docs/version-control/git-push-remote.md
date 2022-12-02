@@ -31,7 +31,7 @@ Here's how to push to a remote in Visual Studio.
 
    :::image type="content" source="media/vs-2022/git-changes-window-outgoing-incoming.png" alt-text="The Git Changes window with the outgoing / incoming link text highlighted in Visual Studio 2022.":::
 
-   The "outgoing" text represents the number of commits that haven't yet been pushed to the remote, while the "incoming" text represents the commits that've been fetched but not yet pulled from the remote.
+   The "outgoing" text represents the number of commits that haven't yet been pushed to the remote, while the "incoming" text represents the commits that have been fetched but not yet pulled from the remote.
 
 1. To push to your remote, select **Push** button, or select **Push** from the **Git** menu.
 
