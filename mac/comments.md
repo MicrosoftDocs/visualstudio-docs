@@ -1,8 +1,8 @@
 ---
 title: Comment out code
 description: "This article describes using comments in the source editor of Visual Studio for Mac"
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 03/03/2022
 ms.custom: devdivchpfy22
