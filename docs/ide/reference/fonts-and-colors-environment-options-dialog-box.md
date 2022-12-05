@@ -1,8 +1,8 @@
 ---
-title: Fonts and Colors, Environment, Options Dialog Box
+title: Fonts and Colors, Environment, Options dialog box
 description: Learn how to use the Fonts and Colors page in the Environment section to establish a custom font and color scheme for various user interface elements in the IDE.
 ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 12/02/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.FontsAndColors
@@ -29,7 +29,7 @@ ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
-# Fonts and Colors, Environment, Options Dialog Box
+# Fonts and Colors, Environment, Options dialog box
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -45,7 +45,7 @@ Lists all of the user interface elements for which you can change font and color
 
      Changes to font style, size, and color display settings for Text Editor affect the appearance of text in your default text editor. Documents opened in a text editor outside the IDE will not be affected by these settings.
 
-- **Printer**
+- **Printer and Cut/Copy**
 
      Changes to font style, size, and color display settings for Printer affect the appearance of text in printed documents.
 
@@ -60,7 +60,7 @@ Lists all of the user interface elements for which you can change font and color
 
      Changes the font style and size for the text that appears in ToolTips displayed in the editor.
 
-- **Environment Font**
+- **Environment**
 
      Changes the font style and size for all IDE user interface elements that do not already have a separate option in **Show settings for**.
 
