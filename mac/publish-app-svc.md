@@ -5,8 +5,8 @@ ms.date: 04/02/2019
 helpviewer_keywords:
   - "deployment, website"
 ms.assetid: 8524a4c5-97a9-41ac-a2a0-034efb9bfc57
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.prod: visual-studio-mac
 ms.custom: video

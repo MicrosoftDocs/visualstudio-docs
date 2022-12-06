@@ -1,8 +1,8 @@
 ---
 title: "Including a NuGet package in your project"
 description: This document covers how to include a NuGet package in a project using Visual Studio for Mac. It walks through finding and downloading a package, and introducing the IDE integration features.
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 05/02/2022
 ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2

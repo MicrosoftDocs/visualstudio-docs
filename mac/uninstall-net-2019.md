@@ -1,8 +1,8 @@
 ---
 title: Visual Studio for Mac 8.10 and .NET on Apple Silicon machines
 description: Steps for getting supported versions of .NET working in 2019 on Apple Silicon machines.
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 11/08/2021
 ms.topic: how-to

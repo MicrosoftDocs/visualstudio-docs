@@ -1,8 +1,8 @@
 ---
 title: ".NET Core support"
 description: This document covers the .NET Core Versions support in Visual Studio for Mac
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 05/02/2022
 ms.custom: devdivchpfy22

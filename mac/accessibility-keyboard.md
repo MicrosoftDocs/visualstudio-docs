@@ -1,8 +1,8 @@
 ---
 title: "Keyboard navigation in Visual Studio for Mac"
 description: "Using Visual Studio for Mac with keyboard commands"
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 09/23/2019
 ms.assetid: EF574E49-0465-4973-BE67-286DA20B8836
