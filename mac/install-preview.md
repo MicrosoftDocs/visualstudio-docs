@@ -1,8 +1,8 @@
 ---
 title: "Install a preview or update"
 description: "Instructions for updating to the Preview release of Visual Studio for Mac."
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 06/24/2022
 ms.custom: devdivchpfy22

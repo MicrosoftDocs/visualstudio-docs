@@ -1,8 +1,8 @@
 ---
 title: "Set multiple startup projects"
 description: "This article describes how to set multiple projects to start on run or debug."
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 11/09/2020
 ms.topic: how-to

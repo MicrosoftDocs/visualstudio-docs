@@ -1,8 +1,8 @@
 ---
 title: "Uninstall Visual Studio for Mac"
 description: "Learn how to uninstall or remove Visual Studio for Mac and related tools."
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 04/27/2022
 ms.custom: devdivchpfy22

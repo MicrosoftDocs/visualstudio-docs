@@ -1,8 +1,8 @@
 ---
 title: "Set build actions"
 description: "This article describes the various build actions that can be used for C# projects"
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 09/18/2019
 ms.topic: conceptual

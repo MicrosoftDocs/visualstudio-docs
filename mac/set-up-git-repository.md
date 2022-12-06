@@ -1,8 +1,8 @@
 ---
 title: Setting up a Git Repository
 description: Connecting to a Git repository using Visual Studio for Mac.
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 06/30/2022
 ms.assetid: E992FA1D-B2AD-4A28-ADC6-47E4FC471060
