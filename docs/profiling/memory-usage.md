@@ -313,3 +313,8 @@ In this tutorial, you've learned how to collect and analyze memory usage data. I
 
 > [!div class="nextstepaction"]
 > [Analyze CPU usage](../profiling/beginners-guide-to-performance-profiling.md)
+
+In this tutorial, you've learned how to collect and analyze memory usage data while debugging. You may want to find out more about analyzing memory usage in release builds using the Performance Profiler.
+
+> [!div class="nextstepaction"]
+> [Analyze memory usage in the Performance Profiler](../profiling/memory-usage-without-debugging2.md)
