@@ -109,7 +109,7 @@ The environment can be specified in `testEnvironments.json` in the root of your 
 ```json
 {
     "version": "1",
-    "environments" :[
+    "environments": [
         {
             "name": "ssh-remote",
             "type": "ssh",
