@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: d15cd684-042d-445d-8786-98d2c80ea513
-ms.date: 11/21/2022
+ms.date: 12/08/2022
 ms.topic: how-to
 description:  Learn how to get started with your new Visual Studio subscription
 ---
@@ -27,6 +27,11 @@ Learn how to:
 
 There are four pages in the portal, each of which provides you with different capabilities.
 + **Benefits** - This is where you can see which benefits are included in your subscription, and activate them.  You can filter the list of benefits by Tools, Professional Development or Support to make it easy to find the benefits you want to activate.
++ **Downloads** - Depending on which subscription you have, you have access to product updates, patches, and full versions of hundreds of products and versions.
++ **Product keys** - This page provides you with access to the product keys you'll need to install and activate the software you download from the Downloads page. 
++ **Subscriptions** - If you have more than one subscription, you can view and switch between them on this page. You can also view expiration dates, find support information, and even renew certain types of subscriptions. 
++ **Get Help** - The Get Help page is your pathway to support for your subscriptions.  You can view frequently asked questions, submit support cases, and access helpful information such as subscription and admin portal documentation. 
++ **Marketplace** - If you're looking for extensions for Visual Studio, the Marketplace page is the place to find a large collection of the latest and most popular extensions for your IDE.  
 
 ## Get started using benefits
 
