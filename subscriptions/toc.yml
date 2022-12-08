@@ -24,6 +24,8 @@
         href: manage-mpn-subscriptions.md
     - name: Microsoft for Startups
       href: program-startups.md
+  - name: Get started with a new subscription
+    href: new-subscriber.md
   - name: Sign in to subscriber portal
     items:
     - name: Sign in with Microsoft Accounts
