@@ -127,7 +127,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 The following people contributed to Visual Studio content in November. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
 
 - [Applesauce314](https://github.com/Applesauce314) - Andrew Moskevitz (1)
-- [microsoft-github-policy-service](https://github.com/microsoft-github-policy-service) -  (1)
 - [SetTrend](https://github.com/SetTrend) - Axel D. (1)
 - [vovka15](https://github.com/vovka15) - D (1)
 - [Youssef1313](https://github.com/Youssef1313) - Youssef Victor (1)
