@@ -11,7 +11,7 @@ description:  Learn how admins on Volume License agreements can access the Visua
 
 # Accessing the Admin Portal as an admin on a Volume License agreement
 
-If you're the primary or notices contact on your organization’s agreement, you'll be automatically granted access to the portal upon setting up your Volume Licensing agreement. You’ll receive a system-triggered welcome email which will prompt you to sign into the portal. The email will show which email address to use to sign into the portal. 
+If you're the primary or notices contact on your organization’s agreement, you'll be automatically granted access to the portal upon setting up your Volume Licensing agreement. You’ll receive a system-triggered welcome email which will prompt you to sign into the portal. The email will show which email address to use to sign into the portal.  To sign in, visit https://manage.visualstudio.com.
 
    > [!div class="mx-imgBorder"]
    > ![Volume License admin notification](_img/volume-license/super-admin-notice-2020.png "Screenshot of the welcome email that is received by new admins.")
