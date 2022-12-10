@@ -2,7 +2,7 @@
 title: "Troubleshoot breakpoints in the debugger | Microsoft Docs"
 description: If a breakpoint is disabled or couldn't be set, it's displayed as a hollow circle. Look here information on problems that can occur when setting breakpoints.
 
-ms.date: "01/10/2022"
+ms.date: "12/09/2022"
 ms.topic: "troubleshooting" 
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -60,6 +60,7 @@ Here are a few things to check:
 1. If your code runs in more than one process or more than one computer, make sure that you're debugging the right process or computer.
 2. Confirm that your code is running. To test that your code is running, add a call to `System.Diagnostics.Debugger.Break` (C#/VB) or `__debugbreak` (C++) to the line of code where you're trying to set the breakpoint and then rebuild your project.
 3. If you're debugging optimized code, make sure the function where your breakpoint is set isn't being inlined into another function. The `Debugger.Break` test described in the previous check can work to test this issue as well.
+4. For [attach to process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) scenarios, make sure you are debugging the right type of code (for example, script code versus .NET Framework versus .NET 5+). To investigate, check the **Attach to** option in the Attach to Process dialog box, and choose **Select**, if necessary, to change the code type.
 
 ## I deleted a breakpoint, but I continue to hit it when I start debugging again
 
