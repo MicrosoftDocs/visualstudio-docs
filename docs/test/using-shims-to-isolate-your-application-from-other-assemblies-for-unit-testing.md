@@ -528,4 +528,3 @@ Shims cannot be used on all types from the .NET base class library **mscorlib** 
 ## See also
 
 - [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)
-- [Peter Provost's blog: Visual Studio 2012 shims](http://www.peterprovost.org/blog/2012/04/25/visual-studio-11-fakes-part-2)
