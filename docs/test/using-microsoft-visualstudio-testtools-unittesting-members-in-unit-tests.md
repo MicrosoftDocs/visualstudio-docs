@@ -153,6 +153,7 @@ public class TestClass
     [DataRow(1)] // Not valid, count matches but types do not match
     public void TestMethod3(string s) {}
 }
+```
 
 > [!NOTE]
 > Starting with MSTest v3, when you want to pass exactly 2 arrays, you no longer need to wrap the second array in an object array.
