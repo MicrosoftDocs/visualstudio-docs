@@ -19,7 +19,7 @@
       - name: Publish an ASP.NET Core app to Azure >>
         href: /azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app
       - name: Deploy an ASP.NET Core app with Entity Framework to Azure using GitHub Actions
-        href: /visualstudio/deployment/e2e-deployment-ef-core-github-actions
+        href: /visualstudio/deployment/end-toend-deployment-entity-framework-core-github-actions
       - name: Get publish settings from IIS
         href: tutorial-import-publish-settings-iis.md
       - name: Get publish settings from Azure
