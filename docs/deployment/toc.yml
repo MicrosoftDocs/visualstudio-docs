@@ -24,6 +24,8 @@
         href: tutorial-import-publish-settings-azure.md
       - name: Continuous deployment of ASP.NET Core to Azure with Git >>
         href: /azure/app-service/deploy-continuous-deployment
+      - name: Deploy an ASP.NET Core app with Entity Framework using GitHub Actions
+        href: /visualstudio/deployment/e2e-deployment-ef-core-github-actions
     - name: Desktop
       items:
       - name: Deploy a .NET Windows application using ClickOnce
