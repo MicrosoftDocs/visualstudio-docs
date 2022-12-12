@@ -10,6 +10,18 @@ items:
     href: what-s-new-in-msbuild-15-0.md
   - name: Change waves
     href: change-waves.md
+  - name: Tutorials
+    items:
+    - name: 'Use MSBuild'
+      href: walkthrough-using-msbuild.md
+    - name: 'Create an MSBuild project file from scratch'
+      href: walkthrough-creating-an-msbuild-project-file-from-scratch.md
+    - name: Create a custom task for code generation
+      href: tutorial-custom-task-code-generation.md
+    - name: Create a REST API client in a build
+      href: tutorial-rest-api-client-msbuild.md
+    - name: Test a custom task
+      href: tutorial-test-custom-task.md
   - name: MSBuild concepts
     items:
     - name: Overview
@@ -75,12 +87,6 @@ items:
         href: how-to-ignore-errors-in-tasks.md
       - name: Build a project that has resources
         href: how-to-build-a-project-that-has-resources.md
-      - name: Create a custom task for code generation
-        href: tutorial-custom-task-code-generation.md
-      - name: Create a REST API client in a build
-        href: tutorial-rest-api-client-msbuild.md
-      - name: Test a custom task
-        href: tutorial-test-custom-task.md
       - name: Inline tasks
         items:
         - name: MSBuild inline tasks
@@ -199,10 +205,6 @@ items:
       href: writing-multi-processor-aware-loggers.md
     - name: Creating forwarding loggers
       href: creating-forwarding-loggers.md
-  - name: 'Walkthrough: Using MSBuild'
-    href: walkthrough-using-msbuild.md
-  - name: 'Walkthrough: Creating an MSBuild project file from scratch'
-    href: walkthrough-creating-an-msbuild-project-file-from-scratch.md
   - name: MSBuild reference
     items:
     - name: Overview
