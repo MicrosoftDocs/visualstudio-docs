@@ -5,8 +5,8 @@ description: A walkthrough of Django basics in the context of Visual Studio proj
 ms.date: 02/16/2022
 ms.custom: devdivchpfy22
 ms.topic: tutorial
-author: ijoosong
-ms.author: joesong
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -35,7 +35,7 @@ The template also provides basic authentication, which is covered in [Step 5](le
 
 1. In Visual Studio, go to **Solution Explorer**, right-click the **LearningDjango** solution created earlier in this tutorial. Then, select **Add** > **New Project**. (If you want to use a new solution, select **File** > **New** > **Project** instead.)
 
-1. In the **New Project** dialog, search for and select the **Django Web Project** template. Call the project "DjangoWeb", and then select **OK**.
+1. In the **New Project** dialog, search for and select the **Django Web Project** template. Call the project "DjangoWeb", and then select **Create**.
 
 1. As the template includes a *requirements.txt* file, Visual Studio prompts for the location to install the dependencies. When prompted, choose the option, **Install into a virtual environment**, and in the **Add Virtual Environment** dialog select **Create** to accept the defaults.
 
@@ -171,34 +171,30 @@ The Django project's *urls.py* file as created by the "Django Web Project" templ
 
 ```python
 from datetime import datetime
-from django.conf.urls import url
-import django.contrib.auth.views
+from django.urls import path
+from django.contrib import admin
+from django.contrib.auth.views import LoginView, LogoutView
+from app import forms, views
 
-import app.forms
-import app.views
 
 urlpatterns = [
-    url(r'^$', app.views.home, name='home'),
-    url(r'^contact$', app.views.contact, name='contact'),
-    url(r'^about$', app.views.about, name='about'),
-    url(r'^login/$',
-        django.contrib.auth.views.login,
-        {
-            'template_name': 'app/login.html',
-            'authentication_form': app.forms.BootstrapAuthenticationForm,
-            'extra_context':
-            {
-                'title': 'Log in',
-                'year': datetime.now().year,
-            }
-        },
-        name='login'),
-    url(r'^logout$',
-        django.contrib.auth.views.logout,
-        {
-            'next_page': '/',
-        },
-        name='logout'),
+    path('', views.home, name='home'),
+    path('contact/', views.contact, name='contact'),
+    path('about/', views.about, name='about'),
+    path('login/',
+         LoginView.as_view
+         (
+             template_name='app/login.html',
+             authentication_form=forms.BootstrapAuthenticationForm,
+             extra_context=
+             {
+                 'title': 'Log in',
+                 'year' : datetime.now().year,
+             }
+         ),
+         name='login'),
+    path('logout/', LogoutView.as_view(next_page='/'), name='logout'),
+    path('admin/', admin.site.urls),
 ]
 ```
 
