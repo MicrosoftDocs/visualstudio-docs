@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 11/09/2022
+ms.date: 12/08/2022
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -21,33 +21,145 @@ ms.workload:
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
 
+## November 2022
+
+### Azure
+
+**Updated articles**
+
+- [Browse and manage storage resources by using Server Explorer](../azure/vs-azure-tools-storage-resources-server-explorer-browse-manage.md) - Add note for Visual Studio 2022 Cloud Explorer deprecation
+
+### Deployment
+
+**New articles**
+
+- [Access ClickOnce deployment properties for .NET on Windows](../deployment/access-clickonce-deployment-properties-dotnet.md)
+
+### Get started
+
+**Updated articles**
+
+- [Tutorial: Create a simple WPF application with C\#](../get-started/csharp/tutorial-wpf.md) - Integrate 'What Is WPF' article info into tutorial
+
+### IDE
+
+**Updated articles**
+
+- [User permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md) - Update links & add Windows 11 info
+- [How to: Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md) - Add SDK template info
+- [How to: Distribute code snippets](../ide/how-to-distribute-code-snippets.md) - Add snippet
+- [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) - Add new 'Audio Cues in Visual Studio' info
+- [Options dialog box: Text Editor \> General](../ide/reference/options-text-editor-general.md) - Update to include Enable Audio Cues and other new options
+- [Options, Text Editor, C#, Advanced](../ide/reference/options-text-editor-csharp-advanced.md) - Add description for the "Don't put ref or out on custom struct" C# option
+- [Developer Community data privacy](../ide/developer-community-privacy.md) - Update instructions
+
+### Install
+
+**New articles**
+
+- [Administrative Templates (ADMX)](../install/administrative-templates.md)
+- [Visual Studio out-of-support components](../install/out-of-support-components.md)
+
+**Updated articles**
+
+- For 17.4 GA - Update info for removeOos, ADMX, & Arm for layouts, remove svc baseline page, & add additional command-line parameters:
+  - [Applying administrator updates that use Microsoft Endpoint Manager (SCCM or Intune)](../install/applying-administrator-updates.md)
+  - [Enabling administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager](../install/enabling-administrator-updates.md)
+  - [Configure policies for enterprise deployments of Visual Studio](../install/set-defaults-for-enterprise-deployments.md)
+  - [Update Visual Studio](../install/update-visual-studio.md)
+  - [Repair Visual Studio](../install/repair-visual-studio.md)
+  - [Visual Studio on Arm-powered devices](../install/visual-studio-on-arm-devices.md)
+  - [Create, maintain, and deploy a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
+  - [Troubleshoot Visual Studio installation and upgrade issues](../install/troubleshooting-installation-issues.md)
+  - [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md)
+  - [Use command-line parameters to install, update, and manage Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md)
+  - [Command-line parameter examples for Visual Studio installation](../install/command-line-parameter-examples.md)
+
+### JavaScript
+
+**Updated articles**
+
+- Update publish code for ASP.NET Core Angular and React:
+  - [Tutorial: Create an ASP.NET Core app with Angular in Visual Studio](../javascript/tutorial-asp-net-core-with-angular.md)
+  - [Tutorial: Create an ASP.NET Core app with React in Visual Studio](../javascript/tutorial-asp-net-core-with-react.md)
+
+### MSBuild
+
+**Updated articles**
+
+- [MSBuild conditions](../msbuild/msbuild-conditions.md) - Explain evaluation of syntax for properties, item lists, and metadata in MSBuild condition expressions
+- [Csc task](../msbuild/csc-task.md) - Add undocumented parameters
+- [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md) - Add compiler command-line info
+
+### Profiling
+
+**New articles**
+
+- [Collect detailed timing data for a stand-alone application by using the profiler command line](../profiling/collecting-detailed-timing-data-for-a-stand-alone-application.md)
+- [How to: Instrument a stand-alone .NET Framework component and collect timing data with the profiler from the command line](../profiling/instrument-dotnet-framework-component-and-collect-timing-data.md)
+- [How to: Instrument a native stand-alone component and collect timing data with the profiler from the command line](../profiling/instrument-native-component-and-collect-timing-data.md)
+- [Instrumentation in Visual Studio (C#, Visual Basic, C++, F#)](../profiling/instrumentation-overview.md)
+- [Instrument your .NET applications in Visual Studio (C#, Visual Basic, F#)](../profiling/instrumentation.md)
+- [VSInstr](../profiling/vsinstr.md)
+- [VSPerfCmd](../profiling/vsperfcmd.md)
+- [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md)
+
+**Updated articles**
+
+- [First look at profiling tools (C#, Visual Basic, C++, F#)](../profiling/profiling-feature-tour.md):
+  - Update profiling fundamentals
+  - Update command-line profiling
+
+### SharePoint
+
+**Updated articles**
+
+- [Troubleshoot SharePoint solutions](../sharepoint/troubleshooting-sharepoint-solutions.md) - Add App Pool error
+
+### Version control
+
+**New articles**
+
+- [Work with multiple repos](../version-control/git-multi-repository-support.md)
+
+### Community contributors
+
+The following people contributed to Visual Studio content in November. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
+
+- [Applesauce314](https://github.com/Applesauce314) - Andrew Moskevitz (1)
+- [SetTrend](https://github.com/SetTrend) - Axel D. (1)
+- [vovka15](https://github.com/vovka15) - D (1)
+- [Youssef1313](https://github.com/Youssef1313) - Youssef Victor (1)
+- [Z731](https://github.com/Z731) (1)
+
 ## October 2022
 
 ### Data tools
 
 **Updated articles**
 
-- [How to: Save and edit connection strings](../data-tools/how-to-save-and-edit-connection-strings.md) - update for Visual Studio 2022
-- [How to: Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md) - update for Visual Studio 2022
+- Update for Visual Studio 2022:
+  - [How to: Save and edit connection strings](../data-tools/how-to-save-and-edit-connection-strings.md)
+  - [How to: Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md)
 
 ### Designers
 
 **Updated articles**
 
-- [Disable DPI-awareness to fix HDPI / scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md) - remove the Registry Entry section
+- [Disable DPI-awareness to fix HDPI / scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md) - Remove the Registry Entry section
 
 ### Extensibility
 
 **Updated articles**
 
-- [Create an options page](../extensibility/creating-an-options-page.md) - Added step to open custom options page
+- [Create an options page](../extensibility/creating-an-options-page.md) - Add step to open custom options page
 
 ### IDE
 
 **Updated articles**
 
-- [Project migration and upgrade reference for Visual Studio](../porting/port-migrate-and-upgrade-visual-studio-projects.md) - refresh text & links
-- [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md) - refresh text, links, & screenshots
+- [Project migration and upgrade reference for Visual Studio](../porting/port-migrate-and-upgrade-visual-studio-projects.md) - Refresh text & links
+- [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md) - Refresh text, links, & screenshots
 
 ### JavaScript
 
@@ -80,16 +192,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Use the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) - Refresh and complete MSTest documentation
 - [How to: Create a data-driven unit test](../test/how-to-create-a-data-driven-unit-test.md) - Update doc for MSTest data-driven tests
-
-### Community contributors
-
-The following people contributed to Visual Studio content in October. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
-
-- [mikeirvingweb](https://github.com/mikeirvingweb) - Mike Irving (2)
-- [abhinav2605](https://github.com/abhinav2605) - abhinav kumar (1)
-- [RicardoJarree](https://github.com/RicardoJarree) - Richard Jarrett (1)
-- [SIGEER2222](https://github.com/SIGEER2222) - Sigeer (1)
-- [xtqqczze](https://github.com/xtqqczze) - xtqqczze (1)
 
 ## September 2022
 
@@ -179,125 +281,3 @@ The following people contributed to Visual Studio content in October. Thank you!
 **Updated articles**
 
 - [Configure unit tests by using a *.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) - Update blame data collection info
-
-## August 2022
-
-### Azure
-
-**Updated articles**
-
-- [Adding Azure storage by using Visual Studio Connected Services](../azure/vs-azure-tools-connected-services-storage.md) - Update for Visual Studio 2022 17.3
-
-### Containers
-
-**Updated articles**
-
-- [Quickstart: Use Docker with a React Single-page App in Visual Studio](../containers/container-tools-react.md) - Update debug steps for React with container
-- [Deploy an ASP.NET Core container to Azure App Service using Visual Studio](../containers/deploy-app-service.md) - Add steps for Azure App Service Container option
-
-### Debugger
-
-**New articles**
-
-- [How to: Enable debugging and diagnostics with Source Link](../debugger/how-to-improve-diagnostics-debugging-with-sourcelink.md)
-- [Troubleshoot remote debugging](../debugger/troubleshooting-remote-debugging.md)
-
-**Updated articles**
-
-- [Remote Debug ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) - Migrate remote debugging articles from WebPI
-- [Remote Debug ASP.NET Core on a Remote IIS Computer in Visual Studio](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) - Migrate remote debugging articles from WebPI
-- [Remote Debugging a C++ Project in Visual Studio](../debugger/remote-debugging-cpp.md) - Update remote debugging for C++
-- [Tutorial: Learn to debug C++ code using Visual Studio](../debugger/getting-started-with-the-debugger-cpp.md) - Update debugger get started topics for C++
-- [Advanced visualizer scenarios](../debugger/visualizer-advanced-scenarios.md) - Fix issues with code and link to projects in GitHub
-
-### Extensibility
-
-**Updated articles**
-
-- [.NET compiler platform package version reference](../extensibility/roslyn-version-support.md) - Update Roslyn's Visual Studio version mapping table
-- [VSCT XML schema conditional attributes](../extensibility/vsct-xml-schema-conditional-attributes.md) - Added guidance for Defined() usage
-
-### IDE
-
-**Updated articles**
-
-- [What are solutions and projects in Visual Studio?](./solutions-and-projects-in-visual-studio.md) - Update content and add/revise links
-- [Options dialog box: Environment \> Tabs and Windows](./reference/tabs-and-windows-environment-options-dialog-box.md) - Add screenshots to Tabs & Windows options dialog page
-- [Customize window layouts and personalize tabs in Visual Studio](./customizing-window-layouts-in-visual-studio.md) - Add Tabs & Docs Management personalization info
-- [Manage references in a project](./managing-references-in-a-project.md)
-  - Clarify between Add Reference and Add Project Reference
-  - Update the Add Project Reference screenshot
-- [Visual Studio productivity guide for C# developers](./csharp-developer-productivity.md) - Refresh text and screenshots for Visual Studio 2022
-
-### Install
-
-**Updated articles**
-
-- [Create an offline installation package of Visual Studio for local installation](../install/create-an-offline-installation-of-visual-studio.md) - Update for language locale localization issue
-
-### JavaScript
-
-**Updated articles**
-
-- [Tutorial: Create an ASP.NET Core app with Angular in Visual Studio](../javascript/tutorial-asp-net-core-with-angular.md) - Add Publish experience for ASP.NET Core plus React, Angular, Vue
-- [Tutorial: Create an ASP.NET Core app with React in Visual Studio](../javascript/tutorial-asp-net-core-with-react.md) - Add Publish experience for ASP.NET Core plus React, Angular, Vue
-- [Tutorial: Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md) - Add Publish experience for ASP.NET Core plus React, Angular, Vue
-
-### MSBuild
-
-**New articles**
-
-- [MSBuild Error messages: MSB3021](../msbuild/errors/msb3021.md)
-- [MSBuild Error messages: MSB3026](../msbuild/errors/msb3026.md)
-- [MSBuild Error messages: MSB3030](../msbuild/errors/msb3030.md)
-- [MSBuild Error messages: MSB3041](../msbuild/errors/msb3041.md)
-- [MSBuild Error messages: MSB3026](../msbuild/errors/msb3061.md)
-- [MSBuild Error messages: MSB3026](../msbuild/errors/msb3073.md)
-- [MSBuild Error messages: MSB3101](../msbuild/errors/msb3101.md)
-- [MSBuild Error messages: MSB3191](../msbuild/errors/msb3191.md)
-- [MSBuild Error messages: MSB3202](../msbuild/errors/msb3202.md)
-- [MSBuild Error messages: MSB3231](../msbuild/errors/msb3231.md)
-- [MSBuild Error messages: MSB3243](../msbuild/errors/msb3243.md)
-- [MSBuild Error messages: MSB3245](../msbuild/errors/msb3245.md)
-- [MSBuild Error messages: MSB3276](../msbuild/errors/msb3276.md)
-- [MSBuild Error messages: MSB3284](../msbuild/errors/msb3284.md)
-- [MSBuild Error messages: MSB3290](../msbuild/errors/msb3290.md)
-- [MSBuild Error messages: MSB3323](../msbuild/errors/msb3323.md)
-- [MSBuild Error messages: MSB3482](../msbuild/errors/msb3482.md)
-- [MSBuild Error messages: MSB3491](../msbuild/errors/msb3491.md)
-- [MSBuild Error messages: MSB3541](../msbuild/errors/msb3541.md)
-- [MSBuild Error messages: MSB3774](../msbuild/errors/msb3774.md)
-- [MSBuild Error messages: MSB4011](../msbuild/errors/msb4011.md)
-- [MSBuild Error messages: MSB4019](../msbuild/errors/msb4019.md)
-- [MSBuild Error messages: MSB4024](../msbuild/errors/msb4024.md)
-- [MSBuild Error messages: MSB4025](../msbuild/errors/msb4025.md)
-- [MSBuild Error messages: MSB4030](../msbuild/errors/msb4030.md)
-- [MSBuild Error messages: MSB4044](../msbuild/errors/msb4044.md)
-- [MSBuild Error messages: MSB4057](../msbuild/errors/msb4057.md)
-- [MSBuild Error messages: MSB4064](../msbuild/errors/msb4064.md)
-- [MSBuild Error messages: MSB4067](../msbuild/errors/msb4067.md)
-- [MSBuild Error messages: MSB4184](../msbuild/errors/msb4184.md)
-- [MSBuild Error messages: MSB6006](../msbuild/errors/msb6006.md)
-
-**Updated articles**
-
-- [When element (MSBuild)](../msbuild/when-element-msbuild.md) - MSBuild When element: use a more complex example
-- [Tutorial: Create a custom task for code generation](../msbuild/tutorial-custom-task-code-generation.md) - MSBuild Custom task tutorial: add multi-targeting info
-
-### Profiling
-
-**New articles**
-
-- [Excessive LOH allocations triggering Gen2 GCs](../profiling/perf-insights-loh-allocations.md)
-- [Improve regex performance with .NET 5+](../profiling/perf-insights-regex.md)
-- [Use StringBuilder for concatenations](../profiling/perf-insights-string-concatenation.md)
-
-**Updated articles**
-
-- [First look at profiling tools (C#, Visual Basic, C++, F#)](../profiling/profiling-feature-tour.md) - Discoverability update for File I/O tool
-
-### Version control
-
-**New articles**
-
-- [Stage lines of code in Visual Studio](../version-control/git-line-staging.md)
