@@ -11,6 +11,7 @@ items:
   - name: Change waves
     href: change-waves.md
   - name: Tutorials
+    expanded: true
     items:
     - name: 'Use MSBuild'
       href: walkthrough-using-msbuild.md
