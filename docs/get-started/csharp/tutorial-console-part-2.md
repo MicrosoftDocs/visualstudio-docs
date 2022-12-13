@@ -2,7 +2,7 @@
 title: "Tutorial 2: Extend your C# console app"
 description: "Learn how to develop a C# console app in Visual Studio, step-by-step."
 ms.custom: "vs-acquisition, get-started"
-ms.date: 09/14/2021
+ms.date: 12/14/2022
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -28,19 +28,19 @@ In this tutorial, you:
 > [!div class="checklist"]
 > * Add a second project.
 > * Reference libraries and add packages.
-> * Do more debugging.
+> * Debug your code.
 > * Inspect your completed code.
 
 ## Prerequisites
 
-To work through this article, you can use either of these Calculator apps:
+To work through this article, you can use either of these calculator apps:
 
-- The [Calculator console app from part 1 of this tutorial](tutorial-console.md).
-- The C# Calculator app in the [vs-tutorial-samples repo](https://github.com/MicrosoftDocs/vs-tutorial-samples). To get started, [open the app from the repo](../tutorial-open-project-from-repo.md).
+- The [calculator console app from part 1 of this tutorial](tutorial-console.md).
+- The C# calculator app in the [vs-tutorial-samples repo](https://github.com/MicrosoftDocs/vs-tutorial-samples). To get started, [open the app from the repo](../tutorial-open-project-from-repo.md).
 
 ## Add another project
 
-Real-world code involves projects working together in a solution. You can add a class library project to your Calculator app that provides some calculator functions.
+Real-world code involves projects working together in a solution. You can add a class library project to your calculator app that provides some calculator functions.
 
 In Visual Studio, you use the menu command **File** > **Add** > **New Project** to add a new project. You can also right-click on the solution in **Solution Explorer** to add a project from the context menu.
 
@@ -159,7 +159,7 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
 
 1. Rename the *Class1.cs* file to *CalculatorLibrary.cs*. To rename the file, you can right-click the name in **Solution Explorer** and choose **Rename**, select the name and press **F2**, or select the name and click again to type.
 
-   A message might ask whether you want to rename references to `Class1` in the file. It doesn't matter how you answer, because you'll replace the code in a future step.
+   A message might ask whether you want to rename all references to `Class1` in the file. It doesn't matter how you answer, because you'll replace the code in a future step.
 
 1. Now add a project reference, so the first project can use APIs that the new class library exposes. Right-click the **Dependencies** node in the **Calculator** project and choose **Add Project Reference**.
 
@@ -182,8 +182,6 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
    *CalculatorLibrary.cs* should now resemble the following code:
 
    ```csharp
-   using System;
-
     namespace CalculatorLibrary
     {
         public class Calculator
@@ -235,7 +233,7 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
 
    Adding the `using` directive should let you remove the `CalculatorLibrary` namespace from the call site, but now there's an ambiguity. Is `Calculator` the class in `CalculatorLibrary`, or is `Calculator` the namespace?
    
-   To resolve the ambiguity, rename the namespace from `Calculator` to `CalculatorProgram` in both *Program.cs* and *CalculatorLibrary.cs*.
+   To resolve the ambiguity, rename the namespace from `Calculator` to `CalculatorProgram` in *Program.cs*.
 
    ```csharp
    namespace CalculatorProgram
@@ -244,6 +242,7 @@ In Visual Studio, you use the menu command **File** > **Add** > **New Project** 
 
 ## Reference .NET libraries: Write to a log
 
+::: moniker range="vs-2019"
 You can use the .NET [Trace](xref:System.Diagnostics.Trace) class to add a log of all operations, and write it to a text file. The `Trace` class is also useful for basic print debugging techniques. The `Trace` class is in `System.Diagnostics`, and uses `System.IO` classes like `StreamWriter`.
 
 1. Start by adding the `using` directives at the top of *CalculatorLibrary.cs*:
@@ -475,6 +474,238 @@ namespace CalculatorProgram
     }
 }
 ```
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+You can use the .NET [Trace](xref:System.Diagnostics.Trace) class to add a log of all operations, and write it to a text file. The `Trace` class is also useful for basic print debugging techniques. The `Trace` class is in `System.Diagnostics`, and uses `System.IO` classes like `StreamWriter`.
+
+1. Start by adding the `using` directives at the top of *CalculatorLibrary.cs*:
+
+   ```csharp
+   using System.Diagnostics;
+   ```
+
+1. This usage of the `Trace` class must hold onto a reference for the class, which it associates with a filestream. That requirement means the calculator works better as an object, so add a constructor at the beginning of the `Calculator` class in *CalculatorLibrary.cs*.
+
+   Also remove the `static` keyword to change the static `DoOperation` method into a member method.
+
+   ```csharp
+   public Calculator()
+      {
+          StreamWriter logFile = File.CreateText("calculator.log");
+          Trace.Listeners.Add(new TextWriterTraceListener(logFile));
+          Trace.AutoFlush = true;
+          Trace.WriteLine("Starting Calculator Log");
+          Trace.WriteLine(String.Format("Started {0}", System.DateTime.Now.ToString()));
+      }
+
+   public double DoOperation(double num1, double num2, string op)
+      {
+   ```
+
+1. Add log output to each calculation. `DoOperation` should now look like the following code:
+
+   ```csharp
+   public double DoOperation(double num1, double num2, string op)
+   {
+        double result = double.NaN; // Default value is "not-a-number" if an operation, such as division, could result in an error.
+
+        // Use a switch statement to do the math.
+        switch (op)
+        {
+            case "a":
+                result = num1 + num2;
+                Trace.WriteLine(String.Format("{0} + {1} = {2}", num1, num2, result));
+                break;
+            case "s":
+                result = num1 - num2;
+                Trace.WriteLine(String.Format("{0} - {1} = {2}", num1, num2, result));
+                break;
+            case "m":
+                result = num1 * num2;
+                Trace.WriteLine(String.Format("{0} * {1} = {2}", num1, num2, result));
+                break;
+            case "d":
+                // Ask the user to enter a non-zero divisor.
+                if (num2 != 0)
+                {
+                    result = num1 / num2;
+                    Trace.WriteLine(String.Format("{0} / {1} = {2}", num1, num2, result));
+                }
+                    break;
+            // Return text for an incorrect option entry.
+            default:
+                break;
+        }
+        return result;
+    }
+   ```
+
+1. Back in *Program.cs*, a red squiggly underline now flags the static call. To fix the error, create a `calculator` variable by adding the following code line just before the `while (!endApp)` loop:
+
+   ```csharp
+   Calculator calculator = new Calculator();
+   ```
+
+   Also modify the `DoOperation` call site to reference the object named `calculator` in lowercase. The code is now a member invocation, rather than a call to a static method.
+
+   ```csharp
+   result = calculator.DoOperation(cleanNum1, cleanNum2, op);
+   ```
+
+1. Run the app again. When you're done, right-click the **Calculator** project node and choose **Open Folder in File Explorer**.
+
+1. In File Explorer, navigate to the output folder under *bin/Debug/*, and open the *calculator.log* file. The output should look something like this:
+
+    ```output
+    Starting Calculator Log
+    Started 7/9/2020 1:58:19 PM
+    1 + 2 = 3
+    3 * 3 = 9
+    ```
+
+At this point, *CalculatorLibrary.cs* should resemble this code:
+
+```csharp
+using System.Diagnostics;
+
+namespace CalculatorLibrary
+{
+    public class Calculator
+    {
+
+        public Calculator()
+        {
+            StreamWriter logFile = File.CreateText("calculator.log");
+            Trace.Listeners.Add(new TextWriterTraceListener(logFile));
+            Trace.AutoFlush = true;
+            Trace.WriteLine("Starting Calculator Log");
+            Trace.WriteLine(String.Format("Started {0}", System.DateTime.Now.ToString()));
+        }
+
+        public double DoOperation(double num1, double num2, string op)
+        {
+            double result = double.NaN; // Default value is "not-a-number" if an operation, such as division, could result in an error.
+
+            // Use a switch statement to do the math.
+            switch (op)
+            {
+                case "a":
+                    result = num1 + num2;
+                    Trace.WriteLine(String.Format("{0} + {1} = {2}", num1, num2, result));
+                    break;
+                case "s":
+                    result = num1 - num2;
+                    Trace.WriteLine(String.Format("{0} - {1} = {2}", num1, num2, result));
+                    break;
+                case "m":
+                    result = num1 * num2;
+                    Trace.WriteLine(String.Format("{0} * {1} = {2}", num1, num2, result));
+                    break;
+                case "d":
+                    // Ask the user to enter a non-zero divisor.
+                    if (num2 != 0)
+                    {
+                        result = num1 / num2;
+                        Trace.WriteLine(String.Format("{0} / {1} = {2}", num1, num2, result));
+                    }
+                    break;
+                // Return text for an incorrect option entry.
+                default:
+                    break;
+            }
+            return result;
+        }
+    }
+}
+```
+
+*Program.cs* should look like the following code:
+
+```csharp
+using CalculatorLibrary;
+
+namespace CalculatorProgram
+{
+   
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            bool endApp = false;
+            // Display title as the C# console calculator app.
+            Console.WriteLine("Console Calculator in C#\r");
+            Console.WriteLine("------------------------\n");
+
+            Calculator calculator = new Calculator();
+            while (!endApp)
+            {
+                // Declare variables and set to empty.
+                string numInput1 = "";
+                string numInput2 = "";
+                double result = 0;
+
+                // Ask the user to type the first number.
+                Console.Write("Type a number, and then press Enter: ");
+                numInput1 = Console.ReadLine();
+
+                double cleanNum1 = 0;
+                while (!double.TryParse(numInput1, out cleanNum1))
+                {
+                    Console.Write("This is not valid input. Please enter an integer value: ");
+                    numInput1 = Console.ReadLine();
+                }
+
+                // Ask the user to type the second number.
+                Console.Write("Type another number, and then press Enter: ");
+                numInput2 = Console.ReadLine();
+
+                double cleanNum2 = 0;
+                while (!double.TryParse(numInput2, out cleanNum2))
+                {
+                    Console.Write("This is not valid input. Please enter an integer value: ");
+                    numInput2 = Console.ReadLine();
+                }
+
+                // Ask the user to choose an operator.
+                Console.WriteLine("Choose an operator from the following list:");
+                Console.WriteLine("\ta - Add");
+                Console.WriteLine("\ts - Subtract");
+                Console.WriteLine("\tm - Multiply");
+                Console.WriteLine("\td - Divide");
+                Console.Write("Your option? ");
+
+                string op = Console.ReadLine();
+
+                try
+                {
+                    result = calculator.DoOperation(cleanNum1, cleanNum2, op); 
+                    if (double.IsNaN(result))
+                    {
+                        Console.WriteLine("This operation will result in a mathematical error.\n");
+                    }
+                    else Console.WriteLine("Your result: {0:0.##}\n", result);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Oh no! An exception occurred trying to do the math.\n - Details: " + e.Message);
+                }
+
+                Console.WriteLine("------------------------\n");
+
+                // Wait for the user to respond before closing.
+                Console.Write("Press 'n' and Enter to close the app, or press any other key and Enter to continue: ");
+                if (Console.ReadLine() == "n") endApp = true;
+
+                Console.WriteLine("\n"); // Friendly linespacing.
+            }
+            return;
+        }
+    }
+}
+```
+
+::: moniker-end
 
 ## Add a NuGet Package: Write to a JSON file
 
@@ -509,11 +740,14 @@ To output operations in JSON, a popular and portable format for storing object d
    Visual Studio downloads the package and adds it to the project. A new entry appears in a **Packages** node in **Solution Explorer**.
    ::: moniker-end
 
+::: moniker range="vs-2019"
+
 1. Add a `using` directive for `Newtonsoft.Json` at the beginning of *CalculatorLibrary.cs*.
 
    ```csharp
    using Newtonsoft.Json;
    ```
+::: moniker-end
 
 1. Create the `JsonWriter` member object, and replace the `Calculator` constructor with the following code:
 
@@ -731,6 +965,8 @@ Next, execute code in the debugger one statement at a time, which is called *ste
 
 ## Code complete
 
+::: moniker range="vs-2019"
+
 Here's the complete code for the *CalculatorLibrary.cs* file, after you complete all the steps:
 
 ```csharp
@@ -897,15 +1133,183 @@ namespace CalculatorProgram
 }
 ```
 
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+Here's the complete code for the *CalculatorLibrary.cs* file, after you complete all the steps:
+
+```csharp
+using System.Diagnostics;
+
+namespace CalculatorLibrary
+{
+    public class Calculator
+    {
+
+        JsonWriter writer;
+
+        public Calculator()
+        {
+            StreamWriter logFile = File.CreateText("calculatorlog.json");
+            logFile.AutoFlush = true;
+            writer = new JsonTextWriter(logFile);
+            writer.Formatting = Formatting.Indented;
+            writer.WriteStartObject();
+            writer.WritePropertyName("Operations");
+            writer.WriteStartArray();
+        }
+
+        public double DoOperation(double num1, double num2, string op)
+        {
+            double result = double.NaN; // Default value is "not-a-number" if an operation, such as division, could result in an error.
+            writer.WriteStartObject();
+            writer.WritePropertyName("Operand1");
+            writer.WriteValue(num1);
+            writer.WritePropertyName("Operand2");
+            writer.WriteValue(num2);
+            writer.WritePropertyName("Operation");
+            // Use a switch statement to do the math.
+            switch (op)
+            {
+                case "a":
+                    result = num1 + num2;
+                    writer.WriteValue("Add");
+                    break;
+                case "s":
+                    result = num1 - num2;
+                    writer.WriteValue("Subtract");
+                    break;
+                case "m":
+                    result = num1 * num2;
+                    writer.WriteValue("Multiply");
+                    break;
+                case "d":
+                    // Ask the user to enter a non-zero divisor.
+                    if (num2 != 0)
+                    {
+                        result = num1 / num2;
+                    }
+                    writer.WriteValue("Divide");
+                    break;
+                // Return text for an incorrect option entry.
+                default:
+                    break;
+            }
+            writer.WritePropertyName("Result");
+            writer.WriteValue(result);
+            writer.WriteEndObject();
+
+            return result;
+        }
+
+        public void Finish()
+        {
+            writer.WriteEndArray();
+            writer.WriteEndObject();
+            writer.Close();
+        }
+    }
+}
+```
+
+And here's the code for *Program.cs*: 
+
+```csharp
+using CalculatorLibrary;
+
+namespace CalculatorProgram
+{
+   
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            bool endApp = false;
+            // Display title as the C# console calculator app.
+            Console.WriteLine("Console Calculator in C#\r");
+            Console.WriteLine("------------------------\n");
+
+            Calculator calculator = new Calculator();
+            while (!endApp)
+            {
+                // Declare variables and set to empty.
+                string numInput1 = "";
+                string numInput2 = "";
+                double result = 0;
+
+                // Ask the user to type the first number.
+                Console.Write("Type a number, and then press Enter: ");
+                numInput1 = Console.ReadLine();
+
+                double cleanNum1 = 0;
+                while (!double.TryParse(numInput1, out cleanNum1))
+                {
+                    Console.Write("This is not valid input. Please enter an integer value: ");
+                    numInput1 = Console.ReadLine();
+                }
+
+                // Ask the user to type the second number.
+                Console.Write("Type another number, and then press Enter: ");
+                numInput2 = Console.ReadLine();
+
+                double cleanNum2 = 0;
+                while (!double.TryParse(numInput2, out cleanNum2))
+                {
+                    Console.Write("This is not valid input. Please enter an integer value: ");
+                    numInput2 = Console.ReadLine();
+                }
+
+                // Ask the user to choose an operator.
+                Console.WriteLine("Choose an operator from the following list:");
+                Console.WriteLine("\ta - Add");
+                Console.WriteLine("\ts - Subtract");
+                Console.WriteLine("\tm - Multiply");
+                Console.WriteLine("\td - Divide");
+                Console.Write("Your option? ");
+
+                string op = Console.ReadLine();
+
+                try
+                {
+                    result = calculator.DoOperation(cleanNum1, cleanNum2, op); 
+                    if (double.IsNaN(result))
+                    {
+                        Console.WriteLine("This operation will result in a mathematical error.\n");
+                    }
+                    else Console.WriteLine("Your result: {0:0.##}\n", result);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine("Oh no! An exception occurred trying to do the math.\n - Details: " + e.Message);
+                }
+
+                Console.WriteLine("------------------------\n");
+
+                // Wait for the user to respond before closing.
+                Console.Write("Press 'n' and Enter to close the app, or press any other key and Enter to continue: ");
+                if (Console.ReadLine() == "n") endApp = true;
+
+                Console.WriteLine("\n"); // Friendly linespacing.
+            }
+            calculator.Finish();
+            return;
+        }
+    }
+}
+```
+
+::: moniker-end
+
 ## Next steps
 
 Congratulations on completing this tutorial! To learn more, continue with the following content:
 
-- [Continue with more C# tutorials](/dotnet/csharp/tutorials/).
-- [Quickstart: Create an ASP.NET Core web app](../../ide/quickstart-aspnet-core.md).
-- [Learn to debug C# code in Visual Studio](tutorial-debugger.md).
-- [Walk through how to create and run unit tests](../../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md).
-- [Run a C# program](run-program.md).
-- [Learn about C# IntelliSense](../../ide/visual-csharp-intellisense.md).
-- [Continue with the Visual Studio IDE overview](visual-studio-ide.md).
+- [Continue with more C# tutorials](/dotnet/csharp/tutorials/)
+- [Quickstart: Create an ASP.NET Core web app](../../ide/quickstart-aspnet-core.md)
+- [Learn to debug C# code in Visual Studio](tutorial-debugger.md)
+- [Walk through how to create and run unit tests](../../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
+- [Run a C# program](run-program.md)
+- [Learn about C# IntelliSense](../../ide/visual-csharp-intellisense.md)
+- [Continue with the Visual Studio IDE overview](visual-studio-ide.md)
 - [Logging and tracing](/dotnet/core/diagnostics/logging-tracing)
