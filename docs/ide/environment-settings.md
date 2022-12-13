@@ -41,7 +41,7 @@ From the wizard, you can export your own settings or import settings that you've
 
 1. On the **Save Current Settings** page, select either **Yes, save my current settings** or **No, just reset settings, overwriting my current settings**, and then select **Next**.
 
-1. On the **Choose a Default Collection of Settings** page, choose a collection, and then select **Finish**.
+1. On the **Choose a Default Collection of Settings** page, select a collection, and then select **Finish**.
 
     :::image type="content" source="media/settings-collections.png" alt-text="Screenshot of the default collection of settings in Visual Studio.":::
 
