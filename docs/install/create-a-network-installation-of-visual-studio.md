@@ -246,9 +246,9 @@ To change the channel that the layout is based off of, simply acquire the desire
 
 ::: moniker-end
 
-### Modify and add to the contents of a partial layout
+### Modify and add to a partial layout
 
-It is possible to modify a partial layout and add additional workloads, components or languages. In the example below, we'll add the Azure workload and a localized language to the layout we created above. After we've made the modification, both the Managed Desktop and Azure workloads, and the English and German resources are included in this layout. In addition to adding components, the layout is updated to the latest available version.
+It is possible to modify a partial layout and add additional workloads, components, or languages. In the example below, we'll add the Azure workload and a localized language to the layout we created above. After we've made the modification, both the Managed Desktop and Azure workloads, and the English and German resources are included in this layout. In addition to adding components, the layout is updated to the latest available version.
 
 ```shell
 vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --lang de-DE
@@ -269,9 +269,9 @@ vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.Net
  > [!IMPORTANT]
  > It is not possible to reliably remove components from a layout. 
  
-You can also add components to a partial layout by directly editing the `layout.json` configuration file and include the new components you need in the "add" section of this file. Adding components this way or on the command line as illustrated above is equivalent to modifying the layout and adding additional components. 
+You can also add components to a partial layout by directly editing the `layout.json` configuration file and including the new components you need in the "add" section of this file. Adding components this way or on the command line as illustrated above is equivalent to modifying the layout and adding additional components. 
  
-The easiest way to get newly added layout components installed on a client machine is to run the bootstrapper in the layout from the client machine. The `response.json` file in the layout will ensure that all the workloads and components that exist in the layout are selected on by default in the client's installer UI.   
+The easiest way to install the newly added layout components on a client machine is to run the bootstrapper in the layout from the client machine. The `response.json` file in the layout will ensure that all the workloads and components that exist in the layout are selected by default in the client's installer UI.   
 
 ### Configure the layout to always include and provide the latest installer
 
