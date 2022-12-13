@@ -15,7 +15,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-When you first open Visual Studio, you can optimize your development environment for the type of development work you do by using the **Import and Export Settings Wizard**. From this wizard, you can choose a specific collection of settings. Each collection of settings optimizes elements such as keyboard shortcuts, window layouts, project and item templates, and command visibility.
+In Visual Studio, you can optimize your development environment for the type of development work you do by selecting **Tools** > **Import and Export Settings Wizard**. From this wizard, you can choose a specific collection of settings that best matches your development environment. Each collection of settings optimizes elements such as keyboard shortcuts, window layouts, project and item templates, and command visibility.
 
 The following settings collections are available:
 
@@ -29,21 +29,23 @@ The following settings collections are available:
 
 ## Import and export settings
 
-To open the wizard, select **Tools** > **Import and Export Settings** from the Visual Studio menu bar.
-
-:::image type="content" source="media/vs-2022/import-export-settings-wizard.png" alt-text="Screenshot of the 'Import and Export Settings Wizard' in Visual Studio 2022.":::
-
-From the wizard, you can export your own settings or import settings that you've previously saved or received from someone else. You can also reset all settings and then choose a predefined settings collection from Visual Studio.
+You can use the wizard to export your own environment settings or import specific categories of settings. These settings can include those that you've previously saved or received from someone else.
 
 ### Reset all settings
 
+You can also use the wizard to reset the environment to one of the default collections of settings. Here's how.
+
+1. From the menu bar, select **Tools** > **Import and Export Settings**.
+
 1. In the **Import and Export Settings Wizard**, select **Reset all settings**, and then select **Next**.
+
+    :::image type="content" source="media/import-export-settings-wizard.png" alt-text="Screenshot of the 'Import and Export Settings Wizard' in Visual Studio 2022.":::
 
 1. On the **Save Current Settings** page, select either **Yes, save my current settings** or **No, just reset settings, overwriting my current settings**, and then select **Next**.
 
 1. On the **Choose a Default Collection of Settings** page, select a collection, and then select **Finish**.
 
-    :::image type="content" source="media/settings-collections.png" alt-text="Screenshot of the default collection of settings in Visual Studio.":::
+    :::image type="content" source="media/import-export-settings-collections.png" alt-text="Screenshot of the default collection of settings in Visual Studio.":::
 
 1. On the **Reset Complete** page, select **Close**.
 
