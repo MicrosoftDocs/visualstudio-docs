@@ -2,7 +2,7 @@
 title: Environment settings
 description: Learn about Visual Studio environment settings and how to adjust them to be optimal for the type of development that you do.
 ms.custom: SEO-VS-2020
-ms.date: 12/12/2022
+ms.date: 12/13/2022
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -15,7 +15,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-When you first [install Visual Studio](../install/install-visual-studio.md), you choose [workloads](../install/install-visual-studio.md#step-4---choose-workloads) and [components](../install/install-visual-studio.md#step-5---choose-individual-components-optional) to customize your development environment. Then, you can further optimize the development environment for the type of development that you do by using the **Import and Export Settings Wizard**. From this wizard, you can choose a specific collection of settings. Each collection optimizes elements such as keyboard shortcuts, window layouts, project and item templates, and command visibility.
+When you first open Visual Studio, you can optimize your development environment for the type of development work you do by using the **Import and Export Settings Wizard**. From this wizard, you can choose a specific collection of settings. Each collection of settings optimizes elements such as keyboard shortcuts, window layouts, project and item templates, and command visibility.
 
 The following settings collections are available:
 

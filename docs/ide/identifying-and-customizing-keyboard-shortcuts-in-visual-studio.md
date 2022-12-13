@@ -1,7 +1,7 @@
 ---
 title: Identify and customize keyboard shortcuts
 description: Learn how to identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use.
-ms.date: 12/09/2022
+ms.date: 12/13/2022
 ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.Keyboard
@@ -26,11 +26,11 @@ ms.workload:
 
 You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use. Many shortcuts always invoke the same commands, but the behavior of a shortcut can vary based on the following conditions:
 
-- Which default environment settings you choose the first time that you open Visual Studio&mdash;for example, General Development or Visual C#. (For information about changing or resetting your settings, see [Environment settings](environment-settings.md).)
+- Which default environment settings you choose the first time that you open Visual Studio&mdash;for example, General development or Visual C#. (For information about changing or resetting your settings, see [Environment settings](environment-settings.md).)
 
 - Whether you've customized the shortcut's behavior.
 
-- Which context you're in when you choose the shortcut. For example, the **F2** shortcut invokes the `Edit.EditCell` command if you're using the **Settings Designer** and it invokes the `File.Rename` command if you're using **Team Explorer**.
+- Which context you're in when you choose the shortcut. For example, the **F2** shortcut invokes the `Edit.EditCell` command if you're using the **Settings Designer**, and it invokes the `File.Rename` command if you're using **Team Explorer**.
 
 Regardless of settings, customization, and context, you can always find and change a keyboard shortcut in the **Options** dialog box. You can also look up the default keyboard shortcuts for several dozen commands in [Popular keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md#popular). For a complete list of all default shortcuts (based on the **General Development** settings), see [All keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
