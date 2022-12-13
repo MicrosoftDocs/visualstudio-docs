@@ -76,6 +76,8 @@ _CrtSetReportMode( _CRT_WARN, _CRTDBG_MODE_DEBUG );
 The following example shows a simple memory leak and displays memory leak information using `_CrtDumpMemoryLeaks();`.
 
 ```cpp
+// debug_malloc.cpp
+// compile by using: cl /EHsc /W4 /D_DEBUG /MDd debug_malloc.cpp
 #define _CRTDBG_MAP_ALLOC
 #include <stdlib.h>
 #include <crtdbg.h>
