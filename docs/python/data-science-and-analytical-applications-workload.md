@@ -37,6 +37,7 @@ By default, the workload installs the following options, which you can modify in
 - Python:
   - Python language support
   - Python web support
+  - Python native development tools
 
 
 ## SQL Server integration
