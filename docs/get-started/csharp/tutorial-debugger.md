@@ -2,7 +2,7 @@
 title: "Tutorial: Debug C# code"
 description: Learn features of the Visual Studio debugger and how to start the debugger, step through code, and inspect data in a C# application.
 ms.custom: "debug-experiment, vs-acquisition, get-started"
-ms.date: 11/29/2021
+ms.date: 12/13/2022
 ms.technology: "vs-ide-debug"
 ms.topic: tutorial
 dev_langs:
