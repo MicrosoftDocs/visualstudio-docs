@@ -116,6 +116,8 @@ To fix problems while installing or running Python in Visual Studio, try the fol
 
 **Example error**: Failed to start interactive process: System.ComponentModel.Win32Exception (0x80004005): Unknown error (0xc0000135) at Microsoft.PythonTools.Repl.PythonInteractiveEvaluator.d__43.MoveNext().
 
+You may see errors when attempting to install or update Python itself, such as `PackageId:CPython39.Exe.x64;PackageAction:DownloadPackage;ReturnCode:0x80070193`. These errors occur when the download or install of Python from https://python.org fails. This could be due to network timeouts, corporate firewall policy, VPN configuration, anti-virus, or other problems. See if a retry helps, and if not, see if you can download the Python runtime directly from https://python.org and install it manually.
+
 ## Install locations
 
 :::moniker range=">=vs-2022"
