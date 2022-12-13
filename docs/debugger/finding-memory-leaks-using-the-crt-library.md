@@ -1,8 +1,7 @@
 ---
 title: Find memory leaks with the CRT Library | Microsoft Docs
 description: Learn how the C/C++ debugger and C Run-time Library (CRT) can help find memory leaks. The techniques include memory-leak reports and comparing memory snapshots.
-ms.custom: SEO-VS-2020
-ms.date: 10/04/2018
+ms.date: 12/13/2022
 ms.topic: how-to
 dev_langs: 
   - C++
@@ -72,6 +71,36 @@ You can use `_CrtSetReportMode` to redirect the report to another location, or b
 
 ```cpp
 _CrtSetReportMode( _CRT_WARN, _CRTDBG_MODE_DEBUG );
+```
+
+The following example shows a simple memory leak and displays memory leak information using `_CrtDumpMemoryLeaks();`.
+
+```cpp
+#define _CRTDBG_MAP_ALLOC
+#include <stdlib.h>
+#include <crtdbg.h>
+#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!\n";
+
+    int* x = (int*)malloc(sizeof(int));
+
+    *x = 7;
+
+    printf("%d\n", *x);
+
+    x = (int*)calloc(3, sizeof(int));
+    x[0] = 7;
+    x[1] = 77;
+    x[2] = 777;
+
+    printf("%d %d %d\n", x[0], x[1], x[2]);
+
+    _CrtSetReportMode(_CRT_WARN, _CRTDBG_MODE_DEBUG); 
+    _CrtDumpMemoryLeaks();
+}
 ```
 
 ## Interpret the memory-leak report
