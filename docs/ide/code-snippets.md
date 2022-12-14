@@ -44,13 +44,14 @@ In Visual Studio, there are several different ways you can add a code snippet to
 
 - From the keyboard, press **Ctrl**+**K**,**Ctrl**+**X**
 
-## Expansion snippets and SurroundsWith snippets
+## Expansion snippets and surround-with snippets
 
-There are two kinds of code snippets you can add to your code:
+There are two kinds of code snippets you can add to your code.
 
-- **Expansion** snippets, which are added at a specified insertion point and might replace a snippet shortcut
-
-- **SurroundsWith** snippets (C# and C++ only), which are added around a selected block of code
+|Snippet type  | How they're used  |
+|---------|---------|
+|*expansion* | Added at a specified insertion point and might replace a snippet shortcut |
+|*surround-with* | Added around a selected block of code (available for C# and C++ only) |
 
 In the following example of an expansion snippet in C#, the shortcut `tryf` adds a try-finally block:
 
