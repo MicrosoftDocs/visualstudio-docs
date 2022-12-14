@@ -25,18 +25,18 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Code snippets are small blocks of reusable code that you can add to code using the right-click context menu command or a combination of hotkeys. Code snippets typically contain often-used code blocks such as `try-finally` or `if-else` blocks, but you can also use them to add entire classes or methods.
+Code snippets are small blocks of reusable code that you can add to a code file by using the right-click context menu command or a combination of hotkeys. Code snippets typically contain often-used code blocks such as `try-finally` or `if-else` blocks, but you can also use them to add entire classes or methods.
 
 > [!NOTE]
 > This article applies to Visual Studio on Windows. For Visual Studio for Mac, see [Code snippets (Visual Studio for Mac)](/visualstudio/mac/snippets).
 
 Code snippets are available for many languages, including C#, C++, and Visual Basic, to name a few.
 
-To view all the available snippets for a language, select **Tools** > **Code Snippets Manager** from the menu bar (or, press **Ctrl**+**K**, **Ctrl**+**B**) and then select the language you want from the drop-down menu at the top.
+To view all the available snippets for a language, select **Tools** > **Code Snippets Manager** from the menu bar (or, press **Ctrl**+**K**, **Ctrl**+**B**) and then select the language you want from the drop-down menu at the top of the dialog box.
 
 ![Screenshot of the Code Snippets Manager dialog box.](media/code-snippets-manager.png)
 
-There are several different ways you can add a code snippet in Visual Studio:
+In Visual Studio, there are several different ways you can add a code snippet to a code file:
 
 - On the menu bar, choose **Edit** > **IntelliSense** > **Insert Snippet**
 
