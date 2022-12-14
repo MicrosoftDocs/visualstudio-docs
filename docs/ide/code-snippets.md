@@ -48,7 +48,7 @@ In Visual Studio, there are several different ways you can add a code snippet to
 
 There are two kinds of code snippets you can add to your code.
 
-|Snippet type  | How they're used  |
+|Snippet type  | How it's used  |
 |---------|---------|
 |*expansion* | Added at a specified insertion point and might replace a snippet shortcut |
 |*surround-with* | Added around a selected block of code (available for C# and C++ only) |
