@@ -20,7 +20,7 @@ ms.technology: vs-ide-test
 
 To determine what proportion of your project's code is being tested by coded tests such as unit tests, you can use the code coverage feature of Visual Studio. To effectively guard against bugs, your tests should exercise or 'cover' a large proportion of your code.
 
-Code coverage analysis is possible for both managed (CLI) and unmanaged (native) code.
+Code coverage analysis is possible for both managed (CLR) and unmanaged (native) code.
 
 Code coverage option is available under the Test menu when you run test methods using Test Explorer. The results table shows the percentage of the code executed in each assembly, class, and procedure. The source editor highlights the tested code.
 
