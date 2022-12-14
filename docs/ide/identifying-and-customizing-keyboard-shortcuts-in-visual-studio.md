@@ -45,7 +45,7 @@ If a shortcut is assigned to a command in the *Global* context and no other cont
 
 2. Expand **Environment**, and then choose **Keyboard**.
 
-   ![Display keyboard shortcuts in Options dialog box](../ide/media/optionskeyboard.png)
+    :::image type="content" source="media/tools-options-environment-keyboard.png" alt-text="Screenshot of Environment options in Visual Studio with the Keyboard option selected.":::
 
 3. In the **Show commands containing** box, enter all or part of the name of the command without spaces.
 
@@ -57,7 +57,7 @@ If a shortcut is assigned to a command in the *Global* context and no other cont
 
 5. If the command has a keyboard shortcut, it appears in the **Shortcut(s) for selected command** list.
 
-   ![View a shortcut for a specified command](../ide/media/viewshortcut.png)
+    :::image type="content" source="media/view-solution-explorer-command-shortcut.png" alt-text="Screenshot of the keyboard shortcut for the View.SolutionExplorer command.":::
 
 ## Customize a keyboard shortcut
 
@@ -88,9 +88,9 @@ If a shortcut is assigned to a command in the *Global* context and no other cont
     > [!NOTE]
     > You can create a shortcut that combines a letter with the **Alt** key, the **Ctrl** key, or both. You can also create a shortcut that combines the **Shift** key and a letter with the **Alt** key, the **Ctrl** key, or both.
 
-     If a shortcut is already assigned to another command, it appears in the **Shortcut currently used by** box. In that case, choose the **Backspace** key to delete that shortcut before you try a different one.
+     If a shortcut is already assigned to another command, it appears in the **Shortcut currently used by** box. In that case, choose the **Backspace** key to delete that shortcut you entered before you try a different one.
 
-    ![Specify a different shortcut for a command](../ide/media/reassignshortcut.png)
+    ![Screenshot that shows an example of how to specify a different shortcut for a command.](../ide/media/reassign-shortcut.png)
 
 7. Choose the **Assign** button.
 
@@ -111,7 +111,7 @@ You can share your custom keyboard shortcuts by exporting them to a file and the
 
 4. Select the **Keyboard** check box, and then choose **Next**.
 
-   ![Export only customized keyboard shortcuts](../ide/media/exportshortcuts.png)
+   ![Screenshot that shows an example of how to export only customized keyboard shortcuts.](../ide/media/export-shortcuts.png)
 
 5. In the **What do you want to name your settings file** and **Store my settings file in this directory** boxes, either leave the default values or specify different values, and then choose **Finish**.
 
@@ -133,7 +133,7 @@ By default, your shortcuts are saved in a file in the *%USERPROFILE%\Documents\V
 
 7. Select the **Keyboard** check box, and then choose **Finish**.
 
-   ![Import only customized keyboard shortcuts](../ide/media/importshortcuts.png)
+   ![Screenshot that shows an example of how to import only customized keyboard shortcuts.](../ide/media/import-shortcuts.png)
 
 ## See also
 
