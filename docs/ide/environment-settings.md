@@ -2,7 +2,7 @@
 title: Environment settings
 description: Learn about Visual Studio environment settings and how to adjust them to be optimal for the type of development that you do.
 ms.custom: SEO-VS-2020
-ms.date: 12/13/2022
+ms.date: 12/14/2022
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
