@@ -1,6 +1,6 @@
 ---
 title: Code snippets
-description: Learn about code snippets and how they are small blocks of reusable code that can be inserted into a code file.
+description: Learn about code snippets, which are small blocks of reusable code that you can insert into a code file.
 ms.custom: SEO-VS-2020
 ms.date: 12/14/2022
 ms.topic: conceptual
@@ -36,7 +36,7 @@ To view all the available snippets for a language, select **Tools** > **Code Sni
 
 ![Screenshot of the Code Snippets Manager dialog box.](media/code-snippets-manager.png)
 
-To add a code snippet, use one of the following ways:
+There are several different ways you can add a code snippet in Visual Studio:
 
 - On the menu bar, choose **Edit** > **IntelliSense** > **Insert Snippet**
 
@@ -44,9 +44,13 @@ To add a code snippet, use one of the following ways:
 
 - From the keyboard, press **Ctrl**+**K**,**Ctrl**+**X**
 
-## Expansion snippets and surround-with snippets
+## Expansion snippets and SurroundsWith snippets
 
-In Visual Studio there are two kinds of code snippets: *expansion* snippets, which are added at a specified insertion point and may replace a snippet shortcut, and *surround-with* snippets (C# and C++ only), which are added around a selected block of code.
+There are two kinds of code snippets you can add to your code:
+
+- **Expansion** snippets, which are added at a specified insertion point and might replace a snippet shortcut
+
+- **SurroundsWith** snippets (C# and C++ only), which are added around a selected block of code
 
 In the following example of an expansion snippet in C#, the shortcut `tryf` adds a try-finally block:
 
@@ -104,12 +108,12 @@ If you change `newPropertyValue` to `m_property`, then every instance of `newPro
 
 ## Next steps
 
-To learn more about code snippets, see [Walkthrough: Create a code snippet](walkthrough-creating-a-code-snippet.md).
+To learn how to create your own code snippets, see [Walkthrough: Create a code snippet](walkthrough-creating-a-code-snippet.md).
 
 ## See also
 
-- [C# code snippets](../ide/visual-csharp-code-snippets.md)
-- [C++ code snippets](../ide/visual-cpp-code-snippets.md)
-- [Best practices for using code snippets](../ide/best-practices-for-using-code-snippets.md)
-- [Code snippets schema reference](../ide/code-snippets-schema-reference.md)
-- [How to: Distribute code snippets](../ide/how-to-distribute-code-snippets.md)
+- [C# code snippets](visual-csharp-code-snippets.md)
+- [Visual C++ code snippets](visual-cpp-code-snippets.md)
+- [Best practices for using code snippets](best-practices-for-using-code-snippets.md)
+- [Code snippets schema reference](code-snippets-schema-reference.md)
+- [How to: Distribute code snippets](how-to-distribute-code-snippets.md)
