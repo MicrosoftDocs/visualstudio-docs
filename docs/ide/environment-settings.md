@@ -29,7 +29,7 @@ The following settings collections are available:
 
 ## Import and export settings
 
-You can use the wizard to export your own environment settings or import specific categories of settings. These settings can include those that you've previously saved or received from someone else.
+You can use the wizard to export your own environment settings or import specific categories of settings. These settings can include ones that you've previously saved or received from someone else.
 
 ### Reset all settings
 
