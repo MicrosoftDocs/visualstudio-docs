@@ -34,7 +34,7 @@ Code snippets are available for many languages, including C#, C++, and Visual Ba
 
 To view all the available snippets for a language, select **Tools** > **Code Snippets Manager** from the menu bar (or, press **Ctrl**+**K**, **Ctrl**+**B**) and then select the language you want from the drop-down menu at the top.
 
-![Code Snippets Manager dialog box](media/code-snippets-manager.png)
+![Screenshot of the Code Snippets Manager dialog box.](media/code-snippets-manager.png)
 
 To add a code snippet, use one of the following ways:
 
@@ -46,7 +46,7 @@ To add a code snippet, use one of the following ways:
 
 ## Expansion snippets and surround-with snippets
 
-In Visual Studio there are two kinds of code snippets: *expansion snippets*, which are added at a specified insertion point and may replace a snippet shortcut, and *surround-with snippets* (C# and C++ only), which are added around a selected block of code.
+In Visual Studio there are two kinds of code snippets: *expansion* snippets, which are added at a specified insertion point and may replace a snippet shortcut, and *surround-with* snippets (C# and C++ only), which are added around a selected block of code.
 
 In the following example of an expansion snippet in C#, the shortcut `tryf` adds a try-finally block:
 
@@ -84,7 +84,7 @@ Snippets can contain replacement parameters, which are placeholders that you mus
 
 For example, in Visual Basic there's a code snippet that inserts a property. To insert the snippet, select **Snippet** > **Insert Snippet** from the right-click context menu in a Visual Basic code file. Then, select **Code Patterns** > **Properties, Procedures, Events** > **Define a Property**.
 
-![Code snippet menu for Define a Property](media/code-snippets-vb-property.png)
+![Screenshot of the code snippet menu for Define a Property.](media/code-snippets-vb-property.png)
 
 The following code is inserted:
 
@@ -102,13 +102,14 @@ End Property
 
 If you change `newPropertyValue` to `m_property`, then every instance of `newPropertyValue` is changed. If you change `String` to `Int` in the property declaration, then the value in the set method is also changed to `Int`.
 
+## Next steps
+
+To learn more about code snippets, see [Walkthrough: Create a code snippet](walkthrough-creating-a-code-snippet.md).
+
 ## See also
 
-- [Walkthrough: Creating a code snippet](../ide/walkthrough-creating-a-code-snippet.md)
-- [How to: Distribute code snippets](../ide/how-to-distribute-code-snippets.md)
-- [Best practices for using code snippets](../ide/best-practices-for-using-code-snippets.md)
-- [Troubleshooting snippets](../ide/troubleshooting-snippets.md)
 - [C# code snippets](../ide/visual-csharp-code-snippets.md)
 - [C++ code snippets](../ide/visual-cpp-code-snippets.md)
+- [Best practices for using code snippets](../ide/best-practices-for-using-code-snippets.md)
 - [Code snippets schema reference](../ide/code-snippets-schema-reference.md)
-- [Code snippets (Visual Studio for Mac)](/visualstudio/mac/snippets)
+- [How to: Distribute code snippets](../ide/how-to-distribute-code-snippets.md)
