@@ -154,18 +154,15 @@ The following steps exercise the authentication flow and describe the parts of t
 
     1. Install the docutils Python package into your environment. A great way to install is to add "docutils" to your *requirements.txt* file. Then, go to **Solution Explorer**, expand the project, expand the **Python Environments** node, and then right-click the environment you're using and select **Install from requirements.txt**.
 
-    1. Open the Django project's *urls.py* file and remove the default comments from the following entries:
+    1. Open the Django project's *urls.py* file and add the following:
 
         ```python
         from django.conf.urls import include
         from django.contrib import admin
         admin.autodiscover()
 
-        # ...
         urlpatterns = [
-            # ...
-            url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
-            url(r'^admin/', include(admin.site.urls)),
+            path('admin/doc/', include('django.contrib.admindocs.urls'))
         ]
         ```
 
@@ -178,7 +175,7 @@ The following steps exercise the authentication flow and describe the parts of t
 1. The final part to the authentication flow is logging off. As you can see in *loginpartial.html*, the **Log off** link simply does a POST to the relative URL "/login", which is handled by the built-in view `django.contrib.auth.views.logout`. This view doesn't display any UI and just navigates to the home page (as shown in *urls.py* for the "^logout$" pattern). If you want to display a logoff page, first change the URL pattern as follows to add a "template_name" property and remove the "next_page" property:
 
     ```python
-    url(r'^logout$',
+    path('logout/',
         django.contrib.auth.views.logout,
         {
             'template_name': 'app/loggedoff.html',

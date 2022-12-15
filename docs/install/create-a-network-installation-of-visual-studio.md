@@ -1,7 +1,7 @@
 ---
 title: Create a network-based installation
 description: Learn how to create a network install point for deploying Visual Studio within an enterprise.
-ms.date: 11/3/2022
+ms.date: 12/12/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -246,9 +246,9 @@ To change the channel that the layout is based off of, simply acquire the desire
 
 ::: moniker-end
 
-### Modify the contents of the layout
+### Modify and add to a partial layout
 
-It is possible to modify this layout and add or remove additional workloads or components or languages. In the example below, we'll add the Azure workload and a localized language to the layout we created above. After we've made the modification, both the Managed Desktop and Azure workloads, and the English and German resources are included in this layout. Also, the layout is updated to the latest available version.
+It is possible to modify a partial layout and add additional workloads, components, or languages. In the example below, we'll add the Azure workload and a localized language to the layout we created above. After we've made the modification, both the Managed Desktop and Azure workloads, and the English and German resources are included in this layout. In addition to adding components, the layout is updated to the latest available version.
 
 ```shell
 vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --lang de-DE
@@ -267,9 +267,11 @@ vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.Net
 ```
 
  > [!IMPORTANT]
- > An update operation doesn't download or install additional optional components either to the layout or onto the client. If you need to add or change optional components, first remove the old optional components from the `layout.json` configuration file and include the new components you need in the "add" section of `layout.json`. Then, when you run the `--layout` command to update the layout, it will download the newly added components into the layout.
- >
- > To get these new components installed on the client machine, make sure you do these three steps. First, verify that the layout contains the new components as described above. Next, update your client to the latest bits in the layout. Finally, again on the client, run a modify operation which will install the new components (that were added to the layout) onto the client machine.
+ > It is not possible to reliably remove components from a layout. 
+ 
+You can also add components to a partial layout by directly editing the `layout.json` configuration file and including the new components you need in the "add" section of this file. Adding components this way or on the command line as illustrated above is equivalent to modifying the layout and adding additional components. 
+ 
+The easiest way to install the newly added layout components on a client machine is to run the bootstrapper in the layout from the client machine. The `response.json` file in the layout will ensure that all the workloads and components that exist in the layout are selected by default in the client's installer UI.   
 
 ### Configure the layout to always include and provide the latest installer
 
