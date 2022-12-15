@@ -1,7 +1,7 @@
 ---
 title: Manage Python environments and interpreters
 description: Use the Python Environments window to manage global, virtual, and conda environments. Install Python interpreters and packages and assign environments to Visual Studio projects.
-ms.date: 12/11/2021
+ms.date: 12/12/2022
 ms.customL: devdivchpfy22
 ms.topic: how-to
 author: cwebster-99
@@ -296,7 +296,7 @@ To correct an environment you wish to keep, first try using its installer's **Re
 Use the following steps to modify the registry directly. Visual Studio automatically updates the**Python Environments** window when you make changes to the registry.
 
 1. Run *regedit.exe*.
-1. Navigate to **HKEY_LOCAL_MACHINE\SOFTWARE\Python** or **HKEY_CURRENT_USER\SOFTWARE\Python**. For IronPython, look for **IronPython** instead.
+1. Navigate to **HKEY_LOCAL_MACHINE\SOFTWARE\Python** or **HKEY_CURRENT_USER\SOFTWARE\Python**. For 32-bit versions of Python, the registry key can under **HKEY_LOCAL_MACHINE\Software\Wow6432Node\Python**. For IronPython, look for **IronPython** instead.
 1. Expand the node that matches the distribution, such as **Python Core** for CPython or **ContinuumAnalytics** for Anaconda. For IronPython, expand the version number node.
 1. Inspect the values under the **InstallPath** node:
 
