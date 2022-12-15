@@ -1,7 +1,7 @@
 ---
 title: Run unit tests with Test Explorer
 description: Learn how to run tests with Test Explorer in Visual Studio. This topic covers how to enable automatic test runs after build, view test results, group and filter the test list, create playlists, and use test shortcuts.
-ms.date: 12/16/2021
+ms.date: 12/13/2022
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo

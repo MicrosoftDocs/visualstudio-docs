@@ -134,8 +134,8 @@ The following resources will help you keep your Visual Studio updated, current, 
 
 * [Enabling administrator updates](enabling-administrator-updates.md)
 * [Applying administrator updates](applying-administrator-updates.md)
-* [Use command-line parameters to install, update, and manage Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
-* [Configure policies for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md)
+* [Use command-line parameters to install, update, and manage Visual Studio](/visualstudio/install/use-command-line-parameters-to-install-visual-studio)
+* [Configure policies for enterprise deployments of Visual Studio](/visualstudio/install/set-defaults-for-enterprise-deployments)
 * [Visual Studio Administrative Templates](./administrative-templates.md)
 * [Install certificates required for Visual Studio offline installation](install-certificates-for-visual-studio-offline.md)
 * [Visual Studio product lifecycle and servicing](/visualstudio/productinfo/vs-servicing)
