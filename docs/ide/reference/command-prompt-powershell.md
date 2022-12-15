@@ -126,7 +126,7 @@ Usually, the shortcuts for the shells you have installed are placed in the **Sta
 
 ### Developer Command Prompt
 
-Search for the name of the command prompt file, which is *VsDevCmd.bat*, or go to the Tools folder for Visual Studio, such as *%ProgramFiles%\Microsoft Visual Studio\2022\Community\Common7\Tools* (path changes according to your Visual Studio version, edition, and installation location).
+Search for the name of the command prompt file, which is *VsDevCmd.bat*, or go to the Tools folder for Visual Studio, such as *%ProgramFiles%\Microsoft Visual Studio\2022\Community\Common7\Tools* (the path changes according to your Visual Studio version, edition, and installation location).
 
 Once you've located the command prompt file, open it by entering the following command in a regular command prompt window:
 
