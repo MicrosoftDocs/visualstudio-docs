@@ -63,8 +63,8 @@ The Visual Studio status bar shows popup controls for quick access to various Gi
 
 |Feature|Description|Keyboard shortcut|
 |-------------|-----------------| - |
-|Branch Picker|View, manage and checkout branches in an active Git repository.|**Ctrl**+**Alt**+**F3**|
-|Repository Picker|View, manage and open Git repositories known to Visual Studio.|**Ctrl**+**Alt**+**F4**|
+|Branch Picker|View, manage, and checkout branches in an active Git repository.|**Ctrl**+**Alt**+**F3**|
+|Repository Picker|View, manage, and open Git repositories known to Visual Studio.|**Ctrl**+**Alt**+**F4**|
 
 ## Other useful keyboard shortcuts
 
