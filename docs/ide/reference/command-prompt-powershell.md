@@ -158,6 +158,9 @@ Or enter the following command in the Windows **Run** dialog box:
 
 ::: moniker-end
 
+> [!TIP]
+> Make sure to edit the path to match the version or edition of Visual Studio that you're using.
+
 ### Developer PowerShell
 
 Search for a PowerShell script file named *Launch-VsDevShell.ps1*, or go to the Tools folder for Visual Studio, such as *%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\Common7\Tools*. (The path changes according to your Visual Studio version, edition, and installation location.) Once you've located the PowerShell file, run it by entering the following command at a Windows PowerShell or PowerShell 6 prompt:
