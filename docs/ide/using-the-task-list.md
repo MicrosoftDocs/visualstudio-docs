@@ -34,7 +34,7 @@ To open **Task List**, select **View** > **Task List**, or from the keyboard pre
 
 ![Screenshot of the Task List window.](media/task-list-window.png)
 
-To change the sort order of the list, select the header of any column. To further refine your search results, press **Shift** and click a second column header. Alternatively, on the shortcut menu, choose **Sort by**, and then choose a header. To further refine your search results, press **Shift** and choose a second header.
+To change the sort order of the list, select the header of any column. To further refine your search results, press **Shift** and select a second column header. Alternatively, on the shortcut menu, choose **Sort by**, and then choose a header. To further refine your search results, press **Shift** and choose a second header.
 
 To show or hide columns, on the shortcut menu, choose **Show Columns**. Select the columns that you want to show or hide.
 
@@ -58,7 +58,7 @@ Because `TODO` is a predefined token, this comment appears as a `TODO` task in t
 
 ### Custom tokens
 
-By default, Visual Studio includes the following tokens: `HACK`, `TODO`, `UNDONE`, and `UnresolvedMergeConflict`. They are not case-sensitive. You can also create your own custom tokens.
+By default, Visual Studio includes the following tokens: `HACK`, `TODO`, `UNDONE`, and `UnresolvedMergeConflict`. They aren't case-sensitive. You can also create your own custom tokens.
 
 > [!NOTE]
 > Default tokens are available only for the C/C++, C#, and Visual Basic languages. To create your own tokens for other programming languages, use the following steps.
