@@ -32,7 +32,7 @@ When **Task List** is open, it appears at the bottom of the application window.
 
 To open **Task List**, select **View** > **Task List**, or from the keyboard press **Ctrl**+**\\**,**T**.
 
-![Task List window](../ide/media/vs2015_task_list.png)
+![Screenshot of the Task List window.](../ide/media/vs2015_task_list.png)
 
 To change the sort order of the list, select the header of any column. To further refine your search results, press **Shift** and click a second column header. Alternatively, on the shortcut menu, choose **Sort by**, and then choose a header. To further refine your search results, press **Shift** and choose a second header.
 
@@ -61,7 +61,7 @@ Because `TODO` is a predefined token, this comment appears as a `TODO` task in t
 By default, Visual Studio includes the following tokens: `HACK`, `TODO`, `UNDONE`, and `UnresolvedMergeConflict`. They are not case-sensitive. You can also create your own custom tokens.
 
 > [!NOTE]
-> Default tokens are available only for the C/C++, C#, and VB languages. To create your own tokens for other programming languages, use the following steps.
+> Default tokens are available only for the C/C++, C#, and Visual Basic languages. To create your own tokens for other programming languages, use the following steps.
 
 To create a custom token:
 
@@ -69,9 +69,9 @@ To create a custom token:
 
 2. Open the **Environment** folder and then choose **Task List**.
 
-   The [Task List options page](../ide/reference/task-list-environment-options-dialog-box.md) is displayed.
+   The [Task List options page](reference/task-list-environment-options-dialog-box.md) is displayed.
 
-   ![Visual Studio Task List](../ide/media/vs2015_task_list_options.png)
+   ![Screenshot of options available in the Task List dialog box.](media/tools-options-environment-task-list.png)
 
 3. In the **Name** text box, enter your token name, for example **BUG**.
 
