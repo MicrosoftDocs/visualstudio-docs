@@ -2,7 +2,7 @@
 title: "Create a Node.js and React app"
 description: Learn how to create a Node.js web application project from a Visual Studio template.
 ms.custom: vs-acquisition
-ms.date: 09/22/2022
+ms.date: 12/16/2022
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -405,7 +405,7 @@ Visual Studio versions starting with Visual Studio 2019 require a build script. 
 
    ```json
    "scripts": {
-    "build": "webpack-cli ./app.tsx --config webpack-config.js"
+    "build": "webpack-cli --config webpack-config.js"
    }
    ```
 
