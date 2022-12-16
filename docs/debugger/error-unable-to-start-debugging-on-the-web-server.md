@@ -1,7 +1,7 @@
 ---
 description: "When you try to debug an ASP.NET application running on a Web server, you may get this error message: Unable to start debugging on the Web server`."
 title: "Unable to Start Debugging on the Web Server | Microsoft Docs"
-ms.date: "05/23/2018"
+ms.date: "12/16/2022"
 ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.http"
@@ -113,28 +113,28 @@ If you are doing URL rewrites, test a basic web.config with no URL rewrites. See
 
 After taking steps detailed here to resolve the issue, and before trying again to debug, you may also need to reset IIS. You can do that by opening an elevated command prompt and typing `iisreset`.
 
-* Stop and restart your IIS Application Pools, then retry.
+- Stop and restart your IIS Application Pools, then retry.
 
     The Application Pool may have stopped as a result of an error. Or, another configuration change that you made may require that you stop and restart your Application Pool.
 
     > [!NOTE]
-    > If the Application Pool keeps stopping, you may need to uninstall the URL Rewrite Module from the Control Panel. You can reinstall it using the Web Platform Installer (WebPI). This issue may occur after a significant system upgrade.
+    > If the Application Pool keeps stopping, you may need to uninstall the URL Rewrite Module from the Control Panel, and then [reinstall the module](https://www.iis.net/downloads/microsoft/url-rewrite). This issue may occur after a significant system upgrade.
 
-* Check your Application Pool configuration, correct it if needed, and then retry.
+- Check your Application Pool configuration, correct it if needed, and then retry.
 
     The Application Pool may be configured for a version of ASP.NET that does not match your Visual Studio project. Update the ASP.NET version in the Application Pool and restart it. For detailed information, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45).
 
     Also, if password credentials have changed, you may need to update them in your Application Pool or Web site.  In the Application Pool, update credentials in **Advanced Settings > Process Model > Identity**. For the Web site, update credentials in **Basic Settings > Connect as...**. Restart your Application Pool.
 
-* Check that your Web Application folder has the right permissions.
+- Check that your Web Application folder has the right permissions.
 
     Make sure that you give IIS_IUSRS, IUSR, or the specific user associated with the [Application Pool](/iis/manage/configuring-security/application-pool-identities) read and execute rights for the Web Application folder. Fix the issue and restart your Application Pool.
 
-* Make sure that the correct version of ASP.NET is installed on IIS.
+- Make sure that the correct version of ASP.NET is installed on IIS.
 
-    Mismatched versions of ASP.NET on IIS and in your Visual Studio project may cause this issue. You may need to set the framework version in web.config. To install ASP.NET on IIS, use the [Web Platform Installer (WebPI)](https://www.microsoft.com/web/downloads/platform.aspx). Also, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) or, for ASP.NET Core, [Host on Windows with IIS](https://docs.asp.net/en/latest/publishing/iis.html).
+    Mismatched versions of ASP.NET on IIS and in your Visual Studio project may cause this issue. You may need to set the framework version in web.config. To install ASP.NET Core on IIS, see [Install ASP.NET Core on Windows Server](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md#install-aspnet-core-on-windows-server) or, for ASP.NET, [Install ASP.NET on Windows Server](/debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md#BKMK_deploy_asp_net). Also, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) or, for ASP.NET Core, [Host on Windows with IIS](https://docs.asp.net/en/latest/publishing/iis.html).
 
-* Resolve authentication errors if you are using only the IP address
+- Resolve authentication errors if you are using only the IP address
 
      By default, IP addresses are assumed to be part of the Internet, and NTLM authentication is not done over the Internet. If your web site is configured in IIS to require authentication, this authentication fails. To correct this problem, you can specify the name of the remote computer instead of the IP address.
 
@@ -144,7 +144,7 @@ If the IIS configuration is not causing the issue, try these steps:
 
 - Restart Visual Studio with Administrator privileges and try again.
 
-    Some ASP.NET debugging scenarios such as using Web Deploy require elevated privileges for Visual Studio.
+    Some ASP.NET debugging scenarios require elevated privileges for Visual Studio.
 
 - If multiple instances of Visual Studio are running, reopen your project in one instance of Visual Studio (with Administrator privileges), and try again.
 
