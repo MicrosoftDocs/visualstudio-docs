@@ -2,7 +2,7 @@
 title: Tools for detecting and managing Visual Studio instances
 titleSuffix: ''
 description: Learn about the tools that you can use to detect and manage Visual Studio installations on client machines.
-ms.date: 12/16/2022
+ms.date: 12/17/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - vswhere
