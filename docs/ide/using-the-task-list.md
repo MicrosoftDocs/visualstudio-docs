@@ -40,12 +40,6 @@ To show or hide columns, on the shortcut menu, choose **Show Columns**. Select t
 
 To change the order of the columns, drag any column header to the location that you want.
 
-## User tasks
-
-The user task feature was removed in Visual Studio 2015. When you open a solution that has user task data from Visual Studio 2013 and earlier, the user task data in your *.suo* file is not affected, but the user tasks are not displayed in the task list.
-
-If you wish to continue to access and update your user task data, open the project in Visual Studio 2013 and copy the content of any user tasks into your preferred project management tool (such as Team Foundation Server).
-
 ## Tokens and comments
 
 A comment in your code preceded by a comment marker and a predefined token also appears in **Task List**. For example, the following C# comment has three distinct parts:
