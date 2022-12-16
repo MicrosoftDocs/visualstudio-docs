@@ -9,7 +9,7 @@ ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ms.custom: video, devdivchpfy22
 no-loc: [Blazor, "Blazor WebAssembly"]
 ms.topic: how-to
-monikerRange: ">=vsmac-2019"
+monikerRange: ">=vsmac-2022"
 ---
 # Getting Started with ASP.NET Core
 
