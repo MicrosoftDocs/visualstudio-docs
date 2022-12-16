@@ -45,6 +45,7 @@ The `Unable to start debugging on the Web server` message is generic. Usually, a
 - [The web server is not configured correctly](#web_server_config)
 - [Unable to connect to the webserver](#unabletoconnect)
 - [The web server did not respond in a timely manner](#webservertimeout)
+- [The operation has timed out](#webserveroptimeout)
 - [The microsoft visual studio remote debugging monitor(msvsmon.exe) does not appear to be running on the remote computer](#msvsmon)
 - [The remote server returned an error](#server_error)
 - [Could not start ASP.NET debugging](#aspnet)
@@ -69,6 +70,10 @@ The `Unable to start debugging on the Web server` message is generic. Usually, a
 - Otherwise, restart your Application Pool and then reset IIS. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 
 ## <a name="webservertimeout"></a> The web server did not respond in a timely manner
+
+- Reset IIS and retry debugging. Multiple debugger instances may be attached to the IIS process; a reset terminates them. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
+
+## <a name="webserveroptimeout"></a>The operation has timed out
 
 - Reset IIS and retry debugging. Multiple debugger instances may be attached to the IIS process; a reset terminates them. For more information, see [Check your IIS Configuration](#vxtbshttpservererrorsthingstocheck).
 
