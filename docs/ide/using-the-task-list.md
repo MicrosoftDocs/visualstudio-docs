@@ -71,7 +71,7 @@ To create a custom token:
 
    The [Task List options page](reference/task-list-environment-options-dialog-box.md) is displayed.
 
-   ![Screenshot of options available in the Task List dialog box.](media/tools-options-environment-task-list.png)
+   ![Screenshot of the options available in the Task List dialog box.](media/tools-options-environment-task-list.png)
 
 3. In the **Name** text box, enter your token name, for example **BUG**.
 
@@ -79,14 +79,8 @@ To create a custom token:
 
 5. Choose **Add**.
 
-> [!TIP]
-> The **Add** button becomes enabled after you enter a name. You must enter a name before clicking **Add**.
-
-### C++ TODO comments
-
-By default, C++ TODO comments are displayed in **Task List**.
-
-To turn off C++ TODO comments, on the **Tools** menu, choose **Options** > **Text Editor** > **C/C++** > **View** > **Enumerate Comment Tasks**, and set the value to **false**.
+   > [!TIP]
+   > The **Add** button becomes enabled after you enter a name. You must enter a name before you select **Add**.
 
 ## Shortcuts
 
