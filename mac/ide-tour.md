@@ -81,7 +81,7 @@ To open the **Errors** window, choose the **View** menu, and then select **Error
 
 The **Build Output** window shows you output messages from building your project.
 
-Let's build the project to see some build output. From the **Build** menu, choose **Build Solution**. The **Build Output window automatically obtains focus and shows a successful build message.
+Let's build the project to see some build output. From the **Build** menu, choose **Build Solution**. The **Build Output** window automatically obtains focus and shows a successful build message.
 
 ![Build Output window](media/vsmac-2022/ide-tour-build-output-window.png)
 
