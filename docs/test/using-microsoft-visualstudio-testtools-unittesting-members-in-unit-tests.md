@@ -95,7 +95,7 @@ Use the following elements to set up data-driven unit tests. For more informatio
 
 #### DataRow
 
-The `DataRowAttribute` allows to provide inline data used when invoking the test method. It can appear one or multiple times on a test method. It should be combined with `TestMethodAttribute` or `DatTestMethodAttribute`.
+The `DataRowAttribute` allows you to provide inline data used when invoking the test method. It can appear one or multiple times on a test method. It should be combined with `TestMethodAttribute` or `DatTestMethodAttribute`.
 
 The number and types of arguments must exactly match the test method signature.
 
