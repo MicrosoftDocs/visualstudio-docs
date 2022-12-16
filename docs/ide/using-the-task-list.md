@@ -1,7 +1,7 @@
 ---
 title: Use the Task List
 description: Learn how the Task List in Visual Studio can help you track and use code comments more efficiently.
-ms.date: 10/12/2020
+ms.date: 12/16/2022
 ms.topic: how-to
 f1_keywords:
 - TaskListWindow
@@ -21,7 +21,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Use **Task List** to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that take you directly to a predefined location in code. Click on the item in the list to go to its location in the source code.
+Use **Task List** to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that take you directly to a predefined location in code. Select an item in the list to go to its location in the source code.
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Task comments (Visual Studio for Mac)](/visualstudio/mac/task-comments).
