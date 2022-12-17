@@ -19,7 +19,7 @@ monikerRange: ">=vs-2019"
 
    
 >[!IMPORTANT]
-> This content is deprecated because the functionaly it describes is contained on other pages, and the layout troubleshooting tips at the bottom are no longer necessary if you are using the [latest Visual Studio installer](/install/create-a-network-installation-of-visual-studio?#ensure-your-layout-is-using-the-latest-installer) which is also available to all versions of Visual Studio. The page only still exists so that links and browsing don't result in a broken experience. If you land on this page, please file a [Developer Community](https://aka.ms/vs/admin/feedback] bug report and tell us how you got here so that we can clean up the source links.
+> This content is deprecated because the functionaly it describes is contained on other pages, and the layout troubleshooting tips at the bottom are no longer necessary if you are using the [latest Visual Studio installer](create-a-network-installation-of-visual-studio.md#ensure-your-layout-is-using-the-latest-installer) which is also available to all versions of Visual Studio. The page only still exists so that links and browsing don't result in a broken experience. If you land on this page, please file a [Developer Community](https://aka.ms/vs/admin/feedback] bug report and tell us how you got here so that we can clean up the source links.
 
 
 

@@ -21,7 +21,7 @@ Every time a new Visual Studio update is released, Microsoft will publish a Visu
 
 ## Use Microsoft Endpoint Manager (Intune) to update to cloud connected devices using Visual Studio administrator updates
 
-[Microsoft Endpoint Manager](https://endpoint.microsoft.com) can be used to configure device policies across the organization such as enrolling the devices into [Windows Update for Business (WUfB)](/windows/deployment/update/waas-manage-updates-wufb) and enabling the [MUUpdateServicePolicy](/install/windows/client-management/mdm/policy-csp-update#update-allowmuupdateservice). Devices that have been configured in this way will automatically be eligible to receive and install the applicable Visual Studio _security_ administrator updates via the "Receive updates for other Microsoft products" channel in Windows Update. 
+[Microsoft Endpoint Manager](https://endpoint.microsoft.com) can be used to configure device policies across the organization such as enrolling the devices into [Windows Update for Business (WUfB)](/windows/deployment/update/waas-manage-updates-wufb) and enabling the [MUUpdateServicePolicy](/windows/client-management/mdm/policy-csp-update#update-allowmuupdateservice). Devices that have been configured in this way will automatically be eligible to receive and install the applicable Visual Studio _security_ administrator updates via the "Receive updates for other Microsoft products" channel in Windows Update. 
 
 ## Enable Configuration Manager (SCCM) to receive and distribute Visual Studio administrator updates
 
