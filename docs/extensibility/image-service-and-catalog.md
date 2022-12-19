@@ -409,7 +409,7 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
 
 2. The command to open the tool window.
 
-    In the *.vsct* file for the package, edit the tool window's command button:
+   In the *.vsct* file for the package, edit the tool window's command button:
 
    ```xml
    <Button guid="guidPackageCmdSet" id="CommandId" priority="0x0100" type="Button">
@@ -422,6 +422,12 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
        <ButtonText>MyToolWindow</ButtonText>
      </Strings>
    </Button>
+   ```
+
+   Ensure the following also exists at the top of the file, after the `<Extern>` elements:
+   
+   ```xml
+   <Include href="KnownImageIds.vsct"/>
    ```
 
    **How do I use image monikers in an existing tool window?**
