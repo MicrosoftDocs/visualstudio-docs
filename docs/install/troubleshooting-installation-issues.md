@@ -115,9 +115,10 @@ As a last resort, you can remove all Visual Studio installation files and produc
 If none of the previous steps help you successfully upgrade Visual Studio, you can try to rollback to your previously installed version. Learn more about the [rollback feature in Visual Studio](https://aka.ms/vs/rollback) before trying to rollback.
 
 > [!NOTE]
-> With Visual Studio 2022 17.4, you'll be able to rollback to your previously installed version.
-> - For the Release channel, you can rollback to your previously installed version if it was either 17.0.10 or higher, or 17.1.7 or higher.  
-> - For the Preview channel, you can rollback to your previously installed version if it was 17.2 Preview 1 or higher. 
+> Starting with Visual Studio 2022 version 17.4, you'll be able to rollback to your previously installed version if:
+> - you haven't installed from a layout.
+> - your original version was on the Current channel version 17.1.7 or higher, or on the 17.0 Fall 2021 LTSC channel 17.0.10 or higher.  
+
 
 You can rollback to your previously installed version by using the Visual Studio Installer or by using the command line.
 
