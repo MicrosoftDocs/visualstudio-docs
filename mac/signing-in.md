@@ -32,23 +32,6 @@ If you do decide not to log in straight away, you'll be able to use an evaluatio
 
 To sign in to Visual Studio for Mac on first launch, follow these steps:
 
-::: moniker range="vsmac-2019"
-
-1. Select the **Sign in with Microsoft** button on the sign-in window:
-
-    ![Accounts dialog in Visual Studio for Mac](media/ide-tour-2019-start-signin.png)
-
-2. Enter your Microsoft account credentials:
-
-    ![Microsoft credentials dialog](media/signing-in-image13.png)
-
-3. After you've logged in, you'll see an option to select keyboard shortcuts. Choose the option you wish to use and **Continue**. You'll then be prompted with the Visual Studio 2019 for Mac start window. From here, you can open or create a new project:
-
-    ![Sign in successful](media/signing-in-image14.png)
-
-Alternatively, you can use the **Visual Studio > Sign in…** menu item to sign in and out at any time.
-
-::: moniker-end
 
 ::: moniker range="vsmac-2022"
 
@@ -82,11 +65,6 @@ Visual Studio for Mac supports adding multiple accounts to your personalization 
 
 To add additional user accounts, choose the **Visual Studio > Account...** menu from Visual Studio for Mac. Select the **Add...** button to enter additional account credentials.
 
-::: moniker range="vsmac-2019"
-
-![Manage accounts](media/user-accounts-login.png)
-
-::: moniker-end
 
 ::: moniker range="vsmac-2022"
 
