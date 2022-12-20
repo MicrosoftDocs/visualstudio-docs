@@ -3,7 +3,7 @@ title: "Just-In-Time, Debugging, Options Dialog Box | Microsoft Docs"
 description: Just-In-Time debugging lets you debug programs that start outside Visual Studio. Learn how to enable Just-In-Time debugging for various program types.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.JIT"
   - "vs.debug.options.JIT"
