@@ -208,6 +208,9 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
    You may need to respond to a message to enable script debugging.
 
+   > [!NOTE]
+   > Chrome or Edge is required for client-side script debugging.
+
    The application pauses at the breakpoint. Now, you can inspect variables and use debugger features.
 
 ## Add TypeScript support for a third-party library
