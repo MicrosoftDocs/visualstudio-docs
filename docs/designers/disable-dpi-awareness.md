@@ -36,7 +36,7 @@ When you open a form in the **Windows Forms Designer** on an HDPI monitor, Visua
 If you aren't working in the designer and don't need to adjust the layout of your form, you can ignore the information bar and continue working in the code editor or in other types of designers. (You can also [disable notifications](#disable-notifications) so that the information bar doesn't continue to appear.) Only the **Windows Forms Designer** is affected.
 
 > [!TIP]
-> If you've closed the information bar but you still want restart Visual Studio with 100% scaling, you can. [Use the DevEnv.exe tool](#use-the-devenvexe-tool) to do so.
+> If you've closed the information bar but you still want to restart Visual Studio with 100% scaling, you can. [Use the DevEnv.exe tool](#use-the-devenvexe-tool) to do so.
 
 ## Resolve HDPI display problems
 
