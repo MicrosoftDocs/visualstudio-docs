@@ -26,7 +26,7 @@ To debug a production app hosted in:
 
   - Using Visual Studio Enterprise, see [Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md).
 
-  - Using attach to process in Visual Studio, see [Remote debug ASP.NET Core on Azure App Service](/training/modules/dotnet-debug-visual-studio-azure-web-apps/).
+  - Using attach to process in Visual Studio, see [Remote debug ASP.NET Core on Azure](../debugger/remote-debugging-azure-app-service.md).
 
 - Azure App Service or Service Fabric, using Application Insights, see [Debug snapshots on exceptions in .NET apps](/azure/application-insights/app-insights-snapshot-debugger).
 

@@ -204,7 +204,7 @@
       href: ide/visual-studio-multi-targeting-overview.md
     - name: Create templates
       items:
-      - name: Create project and item templates
+      - name: About project and item templates
         href: ide/creating-project-and-item-templates.md
       - name: Add tags to a template
         href: ide/template-tags.md

@@ -21,7 +21,7 @@ This guide explains how to set up and configure a Visual Studio ASP.NET Core app
 
 For IIS scenarios, Linux is not supported.
 
-To debug IIS on an Azure VM, follow steps in this topic. Using this method, you can use a customized configuration of IIS, but the setup and deployment steps are more complicated. If you don't need to customize IIS for your scenario, you might choose simpler methods to host and debug the app in [Azure App Service](/training/modules/dotnet-debug-visual-studio-azure-web-apps/) instead.
+To debug IIS on an Azure VM, follow steps in this topic. Using this method, you can use a customized configuration of IIS, but the setup and deployment steps are more complicated. If you don't need to customize IIS for your scenario, you might choose simpler methods to host and debug the app in [Azure App Service](../debugger/remote-debugging-azure-app-service.md) instead.
 
 For an Azure VM, you must deploy your app from Visual Studio to Azure and you also need to manually install the IIS role and the remote debugger, as shown in the following illustration.
 
