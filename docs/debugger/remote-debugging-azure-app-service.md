@@ -75,6 +75,6 @@ Make sure you have completed the following steps in Visual Studio before debuggi
 
 1) In `Index.cshtml.cs` or a different C# application file, set a breakpoint by clicking in the left margin. (Or, right-click and choose **Breakpoint** > **Insert breakpoint**.)
 
-1) Optionally, you can also verify that Visual Studio has loaded the symbol files for your debugging session. Navigate to **Debug > Windows > Modules** to open the modules window. This window should indicate that the symbol files were successfully loaded for the GitHub browser `.dll` file after the **Just my code** configuration changes you made earlier.
+1) Optionally, you can also verify that Visual Studio has loaded the symbol files for your debugging session. Navigate to **Debug > Windows > Modules** to open the modules window. This window should indicate that the symbol files were successfully loaded after the **Just my code** configuration changes you made earlier.
 
     :::image type="content" source="../debugger/media/vs-2022/visual-studio-symbol-files.png" alt-text="A screenshot of the symbol files window.":::
