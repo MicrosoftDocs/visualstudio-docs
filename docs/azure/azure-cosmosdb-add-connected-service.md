@@ -9,6 +9,8 @@ ms.topic: conceptual
 ms.date: 08/17/2020
 ms.author: angelpe
 monikerRange: ">= vs-2019"
+f1_keywords:
+ - vs.UserNotificationsToolWindowPane
 ---
 # Add Azure Cosmos DB to your app by using Visual Studio Connected Services
 
