@@ -114,7 +114,7 @@ To learn how to create your own code snippets, see [Walkthrough: Create a code s
 ## See also
 
 - [C# code snippets](visual-csharp-code-snippets.md)
-- [Visual C++ code snippets](visual-cpp-code-snippets.md)
+- [C++ code snippets](visual-cpp-code-snippets.md)
 - [Best practices for using code snippets](best-practices-for-using-code-snippets.md)
 - [Code snippets schema reference](code-snippets-schema-reference.md)
 - [How to: Distribute code snippets](how-to-distribute-code-snippets.md)
