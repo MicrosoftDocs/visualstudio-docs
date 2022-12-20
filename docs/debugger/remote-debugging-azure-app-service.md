@@ -35,7 +35,7 @@ Before you can debug this issue with Visual Studio, you must enable the remote d
 
 1. Sign into your own [Azure portal](https://portal.azure.com/).
 
-   Locate your deployed application in the Azure portal. You can find your app by browsing to the **App Services** page and then selecting the App Service instance.  You can also search for the App Service instance directly by name in the search bar at the top.
+   Locate your deployed application in the Azure portal. You can find your app by browsing to the **App Services** page and then selecting the App Service instance.  You can also search for the App Service instance directly by name in the search bar at the top. (In this example, the App Service instance is named **GitHubBrowser123**.)
 
     :::image type="content" source="../debugger/media/vs-2022/visual-studio-remote-debug-azure-search.png"  alt-text="A screenshot of Azure search." :::
 
