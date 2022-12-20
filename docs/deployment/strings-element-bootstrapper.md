@@ -3,7 +3,7 @@ title: "&lt;Strings&gt; Element (Bootstrapper) | Microsoft Docs"
 description: The Strings element defines localized strings for product names, package names, and installation error messages.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords:
   - "MSBuild.GenerateBootstrapper.NoStringsForCulture"
   - "MSBuild.GenerateBootstrapper.ProductCultureNotFound"
