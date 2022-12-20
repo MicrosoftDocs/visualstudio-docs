@@ -93,6 +93,104 @@ Use the following elements to set up data-driven unit tests. For more informatio
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DataSourceAttribute>
 
+#### DataRow
+
+The `DataRowAttribute` allows you to provide inline data used when invoking the test method. It can appear one or multiple times on a test method. It should be combined with `TestMethodAttribute` or `DatTestMethodAttribute`.
+
+The number and types of arguments must exactly match the test method signature.
+
+Examples of valid calls:
+
+```csharp
+[TestClass]
+public class TestClass
+{
+    [TestMethod]
+    [DataRow(1, "message", true, 2.0)]
+    public void TestMethod1(int i, string s, bool b, float f) {}
+    
+    [TestMethod]
+    [DataRow(new string[] { "line1", "line2" })]
+    public void TestMethod2(string[] lines) {}
+
+    [TestMethod]
+    [DataRow(null)]
+    public void TestMethod3(object o) {}
+
+    [TestMethod]
+    [DataRow(new string[] { "line1", "line2" }, new string[] { "line1.", "line2." })]
+    public void TestMethod4(string[] input, string[] expectedOutput) {}
+}
+```
+
+Note that you can also use the `params` feature to capture multiple inputs of the `DataRow`.
+
+```csharp
+[TestClass]
+public class TestClass
+{
+    [TestMethod]
+    [DataRow(1, 2, 3, 4)]
+    public void TestMethod(params int[] values) {}
+}
+```
+
+Examples of invalid combinations:
+
+```csharp
+[TestClass]
+public class TestClass
+{
+    [TestMethod]
+    [DataRow(1, 2)] // Not valid, we are passing 2 inline data but signature expects 1
+    public void TestMethod1(int i) {}
+
+    [TestMethod]
+    [DataRow(1)] // Not valid, we are passing 1 inline data but signature expects 2
+    public void TestMethod2(int i, int j) {}
+
+    [TestMethod]
+    [DataRow(1)] // Not valid, count matches but types do not match
+    public void TestMethod3(string s) {}
+}
+```
+
+> [!NOTE]
+> Starting with MSTest v3, when you want to pass exactly 2 arrays, you no longer need to wrap the second array in an object array.
+> Before:
+> [DataRow(new string[] { "a" }, new object[] { new string[] { "b" } })] 
+> In v3 onward:
+> [DataRow(new string[] { "a" }, new string[] { "b" })] 
+
+You can modify the display name used in Visual Studio and loggers for each instance of `DataRowAttribute` by setting the `DisplayName` property.
+
+```csharp
+[TestClass]
+public class TestClass
+{
+    [TestMethod]
+    [DataRow(1, 2, DisplayName= "Functional Case FC100.1")]
+    public void TestMethod(int i, int j) {}
+}
+```
+
+You can also create your own specialized data row attribute by inheriting the `DataRowAttribute`.
+
+```csharp
+[AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]
+public class MyCustomDataRowAttribute : DataRowAttribute
+{
+}
+
+[TestClass]
+public class TestClass
+{
+    [TestMethod]
+    [MyCustomDataRow(1)]
+    public void TestMethod(int i) {}
+}
+```
+
 ### Attributes used to provide initialization and cleanups
 
 A method decorated with one of the following attributes is called at the moment you specify. For more information, see [Anatomy of a unit test](/previous-versions/ms182517(v=vs.110)).
