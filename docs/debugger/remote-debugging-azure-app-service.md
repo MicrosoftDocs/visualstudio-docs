@@ -27,8 +27,6 @@ This article describes how to attach the Visual Studio debugger to an ASP.NET Co
 
   For training that includes App Service deployment, see [Remote debug ASP.NET Core on Azure](../debugger/remote-debugging-azure-app-service.md).
 
-- Make sure the state of your local code matches what was deployed to Azure. This ensures that the local symbol files and source code line up with the deployed app.
-
 ## Enable remote debugging
 
 Before you can debug this issue with Visual Studio, you must enable the remote debugging feature on the App Service. This setting will allow the Visual Studio debugger to connect to the main App Service web hosting process.
@@ -54,6 +52,9 @@ Your app service instance now supports remote debugging through Visual Studio.
 Make sure you have completed the following steps in Visual Studio before debugging an app in Azure to ensure success.
 
 1) First, make sure you have successfully built your project at least one time. A successful build ensures the source code and any necessary compiled files are ready to go. If your application is running locally, make sure to stop the app.
+
+   > [!NOTE]
+   > Make sure the state of your local code matches what was deployed to Azure. This ensures that the local symbol files and source code line up with the deployed app.
 
 1) Navigate to **Debug -> Options** from the top Visual Studio menu. Make sure that **Enable Just My code** is unchecked, and then select **OK**.
 
