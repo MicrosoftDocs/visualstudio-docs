@@ -10,6 +10,8 @@ ms.topic: conceptual
 ms.date: 08/17/2020
 ms.author: angelpe
 monikerRange: ">= vs-2019"
+f1_keywords:
+ - vs.Default.Online.Query
 ---
 # Add Azure Cache for Redis by using Visual Studio Connected Services
 
