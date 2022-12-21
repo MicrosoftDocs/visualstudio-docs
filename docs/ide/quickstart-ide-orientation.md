@@ -13,6 +13,7 @@ ms.workload:
 - multiple
 f1_keywords:
 - MSDNSTART
+- vs.ViewHelp
 ---
 # Tour the Visual Studio IDE
 
