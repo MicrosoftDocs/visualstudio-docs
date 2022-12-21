@@ -472,7 +472,6 @@
         href: ../xaml-tools/xaml-hot-reload.md
       - name: Debug XAML in Blend
         href: ../xaml-tools/debug-xaml-in-blend.md?toc=/visualstudio/debugger/toc.json
-      - name: HTML and CSS
       - name: How to trigger suspend, resume, and background events
         href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
     - name: Managed code (C#, Visual Basic, F#)
