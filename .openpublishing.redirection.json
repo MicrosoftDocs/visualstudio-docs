@@ -3026,6 +3026,26 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/how-to-display-message-properties.md",
+      "redirect_url": "/visualstudio/debugger/messages-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-display-process-properties.md",
+      "redirect_url": "/visualstudio/debugger/processes-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-display-thread-properties.md",
+      "redirect_url": "/visualstudio/debugger/threads-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-display-window-properties.md",
+      "redirect_url": "/visualstudio/debugger/windows-view",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/remote-debugging-aks-on-linux-with-ssh.md",
       "redirect_url": "/visualstudio/debugger/remote-debugging-dotnet-core-linux-with-ssh",
       "redirect_document_id": false
