@@ -817,8 +817,6 @@
           href: how-to-use-the-finder-tool.md
         - name: Search for a window in Windows View
           href: how-to-search-for-a-window-in-windows-view.md
-        - name: Display window properties
-          href: how-to-display-window-properties.md
       - name: Messages
         items:
         - name: Messages View
@@ -833,24 +831,18 @@
           href: how-to-start-and-stop-the-message-log-display.md
         - name: Message codes
           href: message-codes.md
-        - name: Display message properties
-          href: how-to-display-message-properties.md
       - name: Processes
         items:
         - name: Processes View
           href: processes-view.md
         - name: Search for a process in Processes View
           href: how-to-search-for-a-process-in-processes-view.md
-        - name: Display process properties
-          href: how-to-display-process-properties.md
       - name: Threads
         items:
         - name: Threads View
           href: threads-view.md
         - name: Search for a thread in Threads View
           href: how-to-search-for-a-thread-in-threads-view.md
-        - name: Display thread properties
-          href: how-to-display-thread-properties.md
     - name: Spy++ reference
       items:
       - name: Spy++ reference overview
