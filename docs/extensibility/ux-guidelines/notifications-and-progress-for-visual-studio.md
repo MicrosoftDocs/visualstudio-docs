@@ -11,6 +11,8 @@ manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
+- f1_keywords:
+ - vs.UserNotificationsToolWindowPane
 ---
 # Notifications and Progress for Visual Studio
 
