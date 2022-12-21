@@ -3,7 +3,7 @@ title: Code coverage testing
 description: Learn how to use the code coverage feature of Visual Studio to determine what proportion of your project code is being tested by coded tests.
 
 ms.custom: SEO-VS-2020, devdivchpfy22
-ms.date: 06/26/2022
+ms.date: 12/21/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - code coverage
