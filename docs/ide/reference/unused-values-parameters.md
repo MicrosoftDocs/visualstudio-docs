@@ -41,5 +41,5 @@ This refactoring applies to:
 
 ## See also
 
-- [Refactoring](../refactoring-in-visual-studio.md)
-- [Tips for .NET Developers](../csharp-developer-productivity.md)
+- [Overview of Code Refactoring in Visual Studio](../refactoring-in-visual-studio.md)
+- [The Visual Studio productivity guide for C# developers](../csharp-developer-productivity.md)
