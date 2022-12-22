@@ -101,7 +101,7 @@ public static IEnumerable<object[]> AdditionData
 }
 
 [TestMethod]
-[DynamicData(nameof(ReusableTestDataProperty))]
+[DynamicData(nameof(AdditionData))]
 public void AddIntegers_FromDynamicDataTest(int x, int y, int expected)
 {
     var target = new Maths();

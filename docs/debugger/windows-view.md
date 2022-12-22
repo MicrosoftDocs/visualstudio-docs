@@ -2,7 +2,7 @@
 title: "Windows View | Microsoft Docs"
 description: Windows View shows a tree of all windows and controls. Use it as a starting point to obtain information about windows of interest.
 ms.custom: SEO-VS-2020
-ms.date: "11/04/2016"
+ms.date: "12/21/2022"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.externaltools.spyplus.windowsview"
@@ -30,17 +30,24 @@ Spy++ Windows View
 
  When Windows view has the focus, you can use the Finder tool in the [Window Search Dialog Box](../debugger/window-search-dialog-box.md) to display information from any window open on your system.
 
+## Open properties for a Window
+
+To find out more about a window listed in Windows view, use the [Window Properties Dialog Box](../debugger/window-properties-dialog-box.md).
+
+* Select the item, then choose **Properties** from the **View** menu.
+
+   Properties dialog boxes are not modal. As you click from item to item in a view window, the dialog box is automatically refreshed with information on each item selected.
+
 ## In This Section
+
  [How to: Use the Finder Tool](../debugger/how-to-use-the-finder-tool.md)
  Shows how this tool scans windows for properties or messages.
 
  [How to: Search for a Window in Windows View](../debugger/how-to-search-for-a-window-in-windows-view.md)
  Explains how to find a specific window in Windows view.
 
- [How to: Display Window Properties](../debugger/how-to-display-window-properties.md) m
- Procedures for opening the Window Properties dialog box.
-
 ## Related Sections
+
  [Spy++ Views](../debugger/spy-increment-views.md)
  Explains the Spy++ tree views of windows, messages, processes, and threads.
 

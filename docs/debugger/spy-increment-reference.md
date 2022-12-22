@@ -3,7 +3,7 @@ title: "Spy++ reference overview"
 description: Review a list of reference links to articles that describe each menu command and dialog box in the Spy++ debugging tool.
 ms.custom: SEO-VS-2020
 ms.date: "06/02/2022"
-ms.topic: "conceptual"
+ms.topic: "ui-reference"
 helpviewer_keywords:
   - "reference, Spy++"
   - "Spy++ reference"
