@@ -2,7 +2,7 @@
 title: "Message Options dialog box in Spy++"
 description: Specify in Message Options which messages are listed in Messages View, and what message data to display.
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 helpviewer_keywords:
   - "message options, Spy++"
   - "Spy++, message options"

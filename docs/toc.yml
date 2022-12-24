@@ -204,7 +204,7 @@
       href: ide/visual-studio-multi-targeting-overview.md
     - name: Create templates
       items:
-      - name: Create project and item templates
+      - name: About project and item templates
         href: ide/creating-project-and-item-templates.md
       - name: Add tags to a template
         href: ide/template-tags.md
@@ -615,7 +615,7 @@
         href: /dotnet/framework/winforms/how-to-create-a-simple-bound-control-on-a-windows-form
       - name: Create custom controls >>
         href: /dotnet/framework/winforms/controls/developing-windows-forms-controls-at-design-time
-      - name: Disable DPI awareness for Windows Forms Designer
+      - name: Disable DPI awareness
         href: designers/disable-dpi-awareness.md
       - name: Reference
         items:
