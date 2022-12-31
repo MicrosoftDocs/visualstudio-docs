@@ -40,7 +40,7 @@ Enables optimized code generation. Some controls may not be compatible with this
 ## High-DPI Support
 
 **DPI Scaling Notifications**\
-Show a message in Windows Form Designer that can restart Visual Studio with 100% scaling. For more information, see [Disable DPI-awareness in Visual Studio](/dotnet/framework/winforms/disable-dpi-awareness-visual-studio).
+Show a message in Windows Form Designer that can restart Visual Studio with 100% scaling. 
 
 ## Layout Settings
 

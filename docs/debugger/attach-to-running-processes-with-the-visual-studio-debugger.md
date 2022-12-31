@@ -169,7 +169,7 @@ If neither of those workarounds is possible, a third option is to attach to the 
 ::: moniker range=">= vs-2022"
 ## Attach to a .NET Core process running on Azure App Service (Windows)
 
-If you're publishing to Azure App Service (Windows), see [Remote debug ASP.NET Core on Azure](/training/modules/dotnet-debug-visual-studio-azure-web-apps/) or [Debugging Azure App Services](/azure/vs-azure-tools-debug-cloud-services-virtual-machines#debugging-azure-app-services) for instructions.
+If you're publishing to Azure App Service (Windows), see [Remote debug ASP.NET Core on Azure](../debugger/remote-debugging-azure-app-service.md) or [Debugging Azure App Services](/azure/vs-azure-tools-debug-cloud-services-virtual-machines#debugging-azure-app-services) for instructions.
 ::: moniker-end
 
 ::: moniker range="vs-2019"

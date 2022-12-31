@@ -29,7 +29,7 @@ Using the designer you can:
 
 - Adjust the placement of the selected control by moving it with the mouse or the arrow keys. Similarly, adjust the placement more precisely using the Ctrl and arrow keys. Finally, adjust the size of the control by using the Shift and arrow keys.
 
-- Select multiple controls by selecting either **Shift** or **Ctrl** while you click. When using sing **Shift**+click, the first control selected is the dominant control when aligning or manipulating size. When using **Ctrl**+click, the last control selected is dominant, so the dominant control changes with every new control added. Alternatively, you can select multiple controls by dragging a selection rectangle around the controls that you want to select.
+- Select multiple controls by selecting either **Shift** or **Ctrl** while you click. When using **Shift**+click, the first control selected is the dominant control when aligning or manipulating size. When using **Ctrl**+click, the last control selected is dominant, so the dominant control changes with every new control added. Alternatively, you can select multiple controls by dragging a selection rectangle around the controls that you want to select.
 
 > [!NOTE]
 > Use Windows Forms Designer, and not the Resource Editor, to make changes to a form's resource (*.resx*) file. If you edit a form-based .resx file, you'll see a warning that changes you make in the Resource Editor may be lost. This is because the Windows Forms Designer generates the .resx file.
