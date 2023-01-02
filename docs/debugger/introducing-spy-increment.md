@@ -23,7 +23,7 @@ Spy++ lets you perform the following tasks:
 
 - Search for specified [windows](../debugger/how-to-search-for-a-window-in-windows-view.md), [threads](../debugger/how-to-search-for-a-thread-in-threads-view.md), [processes](../debugger/how-to-search-for-a-process-in-processes-view.md), or [messages](../debugger/how-to-search-for-a-message-in-messages-view.md).
 
-- View the properties of selected [windows](../debugger/how-to-display-window-properties.md), [threads](../debugger/how-to-display-thread-properties.md), [processes](../debugger/how-to-display-process-properties.md), or [messages](../debugger/how-to-display-message-properties.md).
+- View the properties of selected [windows](../debugger/windows-view.md), [threads](../debugger/how-to-display-thread-properties.md), [processes](../debugger/how-to-display-process-properties.md), or [messages](../debugger/how-to-display-message-properties.md).
 
 - Select a window, thread, process, or message directly in the view.
 

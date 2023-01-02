@@ -9,6 +9,7 @@ ms.custom: contperf-fy21q4
 recommendations: false
 robots: noindex,nofollow
 f1_keywords:
+- vs.Default.Online.Query
 - vs.ambient
 - vs.texteditor
 - typescript

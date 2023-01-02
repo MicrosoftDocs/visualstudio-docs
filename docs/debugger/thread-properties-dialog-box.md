@@ -3,7 +3,7 @@ title: "Thread Properties dialog box in Spy++"
 description: Learn about the Thread Properties dialog box in the Spy++ debugging tool. Use this dialog box to find out more about a specific thread.
 ms.custom: SEO-VS-2020
 ms.date: "06/06/2022"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 helpviewer_keywords:
   - "Spy++, thread properties"
   - "thread properties, Spy++"

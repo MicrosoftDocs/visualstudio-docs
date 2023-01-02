@@ -3,7 +3,7 @@ title: "Message Properties dialog box in Spy++"
 description: Consult Message Properties to find more about a message than is shown in Messages View.
 ms.custom: SEO-VS-2020
 ms.date: "06/06/2022"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 helpviewer_keywords:
   - "message options"
   - "message options, General"
