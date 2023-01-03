@@ -73,7 +73,7 @@ You can also have the results displayed for lines by choosing **Add/Remove Colum
 > [!TIP]
 > A line of code can contain more than one code block. If this is the case, and the test run exercises all the code blocks in the line, it is counted as one line. If some but not all code blocks in the line are exercised, it is counted as a partial line.
 
-## Filtering code coverage results
+## Filter code coverage results
 
 The **Code Coverage Results** window usually shows the result for the entire solution. The results can be filtered to show the results for only the files that have been updated in the current branch. 
 
