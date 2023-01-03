@@ -1,8 +1,8 @@
 ---
 title: "Tutorial: Get started with Docker apps in Visual Studio Code"
 description: In this tutorial, learn how to start using Docker with VS Code. Create and deploy apps to Azure.
-author: ucheNkadiCode
-ms.author: uchen
+author: ghogen
+ms.author: ghogen
 ms.prod: vs-code
 ms.topic: tutorial 
 ms.date: 03/04/2022
