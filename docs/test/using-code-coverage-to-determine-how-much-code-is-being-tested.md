@@ -77,7 +77,7 @@ You can also have the results displayed for lines by choosing **Add/Remove Colum
 
 The **Code Coverage Results** window usually shows the result for the entire solution. The results can be filtered to show the results for only the files that have been updated in the current branch. 
 
-- **To view the changeset Report**, select the Configure Code Coverage Views icon in the Code Coverage Results Window. Then select "Changeset Report" from the Report Content drop-down. Update the Active Repository and Base Branch to compare against for it to provide an the comparison report.
+- **To view the changeset Report**, select the **Configure Code Coverage Views** icon in the **Code Coverage Results** window. Then select **Changeset Report** from the **Report Content** drop-down. Update the Active Repository and Base Branch to compare against for it to provide the comparison report.
 
 From the search box in the **Code Coverage Results** window, there are several ways the report can be filtered.
 - To **Search by name** (Show only those which matches search string in the window), enter the search string in the search box.
