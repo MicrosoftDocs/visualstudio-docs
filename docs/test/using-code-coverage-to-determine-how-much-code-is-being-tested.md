@@ -79,7 +79,7 @@ The **Code Coverage Results** window usually shows the result for the entire sol
 
 - **To view the changeset Report**, select the Configure Code Coverage Views icon in the Code Coverage Results Window. Then select "Changeset Report" from the Report Content drop-down. Update the Active Repository and Base Branch to compare against for it to provide an the comparison report.
 
-From the search box in the **Code Coverage Results** window, there are several ways the reprt can be filtered.
+From the search box in the **Code Coverage Results** window, there are several ways the report can be filtered.
 - To **Search by name** (Show only those which matches search string in the window), enter the search string in the search box.
 - To **Filter by type** enter the name of the type in the search box.
 - To **Show all** clear the search box.
