@@ -106,9 +106,12 @@ A summary of MSBuild's general approach is as follows:
 - For any given project, MSBuild finds the first *Directory.Build.props* upward in the solution structure, merges it with defaults, and stops scanning for more.
 - If you want multiple levels to be found and merged, then [`<Import...>`](../msbuild/property-functions.md#msbuild-getpathoffileabove) (shown above) the "outer" file from the "inner" file.
 - If the "outer" file does not itself also import something above it, then scanning stops there.
-- To control the scanning/merging process, use `$(DirectoryBuildPropsPath)` and `$(ImportDirectoryBuildProps)`.
 
 Or more simply: the first *Directory.Build.props* that doesn't import anything is where MSBuild stops.
+
+To control the import process more explicitly, use the properties `$(DirectoryBuildPropsPath)`, `$(ImportDirectoryBuildProps)`, `$(DirectoryBuildTargetsPath)`, and `$(ImportDirectoryBuildTargets)`. The property `$(DirectoryBuildPropsPath)` specifies the path to the `Directory.Build.props` file to use; similarly, `$(DirectoryBuildTargetsPath)` specifies the path to the `Directory.Build.targets` file.
+
+The Boolean properties `$(ImportDirectoryBuildProps)` and `$(ImportDirectoryBuildTargets)` are set to `true` by default, so MSBuild normally searches for these files, but you can set them to `false` to prevent MSBuild from importing them.
 
 ### Choose between adding properties to a .props or .targets file
 
