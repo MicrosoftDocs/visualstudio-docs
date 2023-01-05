@@ -157,10 +157,20 @@ You can use the `net use` command or you can change the **UAC Group Policy** set
 * [Mapped drives aren't available from an elevated prompt when UAC is configured to "Prompt for credentials" in Windows](https://support.microsoft.com/help/3035277/mapped-drives-are-not-available-from-an-elevated-prompt-when-uac-is-co)
 * [Programs may be unable to access some network locations after you turn on User Account Control in Windows operating systems](https://support.microsoft.com/en-us/help/937624/programs-may-be-unable-to-access-some-network-locations-after-you-turn)
 
+## Error: Client machines fail to install the product because they don't have proper access to the network share 
+
+You need to make sure that the account performing the install or update has access to the network shares.
+
+| Issue       | Solution |
+| ----------- | -------- |
+| Users can't access files | If the user is going to be installing our updating from a layout, then you'll need to make sure that the network share permissions (ACLs) are configured to grant users read access *before* the network location is shared. |
+| System account can't access files | Sometimes the installation or update is run using the system account instead of a user account. This typically happens when Administrator updates are used to keep the machine updated and secure. You'll need to make sure that the client machines' system accounts have read permissions to the network file share. You can do this by creating an Active Directory group containing the machine accounts that need access to the share, and then granting that AD group access to the share. | 
+
+
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
 
+* [Troubleshoot network layout or offline installation issues](troubleshooting-installation-issues.md#network-layout-or-offline-installations)
 * [Install and use Visual Studio behind a firewall or proxy server](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
-* [Install Visual Studio](install-visual-studio.md)
