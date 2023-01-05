@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot network or proxy errors
-description: Find solutions for network- or proxy-related errors that you might encounter when you install or use Visual Studio behind a firewall or a proxy server.
+description: Find solutions for network- or proxy-related errors that you might encounter when you install, update, or use Visual Studio behind a firewall or a proxy server.
 ms.date: 1/6/2023
 ms.topic: troubleshooting 
 helpviewer_keywords:
@@ -22,7 +22,7 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-We've got solutions for the most typical network- or proxy-related errors. You might encounter these errors when you install, update or use Visual Studio behind a firewall or a proxy server, or on a client machine that doesn't have access to the internet.
+We've got solutions for the most typical network- or proxy-related errors. You might encounter these errors when you install, update, or use Visual Studio behind a firewall or a proxy server, or on a client machine that doesn't have access to the internet.
 
 ## Error: “Proxy authorization required”
 
@@ -163,7 +163,7 @@ You need to make sure that the account performing the install or update has suff
 
 | Issue       | Solution |
 | ----------- | -------- |
-| User accounts can't access files | If the user has administrator permissions on the machine and is going to be installing our updating from a layout, then you'll need to make sure that the network share permissions (ACLs) are configured to grant users read access *before* the network location is shared. |
+| User account can't access files | If the user has administrator permissions on the machine and is going to be installing or updating from a layout, then you'll need to make sure that the network share permissions (ACLs) are configured to grant users read access *before* the network location is shared. |
 | System account can't access files | Sometimes the installation or update is run using the system account instead of a user account. This typically happens when Administrator updates are used to keep the machine updated and secure. You'll need to make sure that the client machines' system accounts have read permissions to the network file share. You can do this by creating an Active Directory group containing the machine accounts that need access to the share, and then granting that AD group access to the share. | 
 
 
