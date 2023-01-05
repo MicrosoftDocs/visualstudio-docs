@@ -1,11 +1,11 @@
 ---
 title: Manage Python package dependencies
 description: Use pip freeze > requirements.txt and manage python package dependencies in Visual Studio. 
-ms.date: 12/11/2021
+ms.date: 1/5/2023
 ms.custom: devdivchpfy22
 ms.topic: how-to
-author: ijoosong
-ms.author: joesong
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
