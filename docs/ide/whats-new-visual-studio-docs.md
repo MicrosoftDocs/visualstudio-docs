@@ -53,7 +53,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 ### Get started
 
-**Updated articles
+**Updated articles**
 
 - [Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)](../get-started/csharp/tutorial-console-part-2.md) - Review and refresh tutorial
 
