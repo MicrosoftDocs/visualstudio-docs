@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot installation or upgrade issues
 description: Sometimes, things can go wrong. If your Visual Studio installation or upgrade fails, this page can help.
-ms.date: 11/3/2022
+ms.date: 1/4/2023
 ms.custom: vs-acquisition
 ms.topic: troubleshooting
 helpviewer_keywords:
@@ -151,14 +151,6 @@ If none of the previous steps help you successfully install or upgrade Visual St
 ## Network layout or offline installations
 
 To resolve issues with a [network installation](create-a-network-installation-of-visual-studio.md), see [Error Codes](./create-a-network-installation-of-visual-studio.md#error-codes) or [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md).
-
-Other known issues and workarounds that might help you when you create an [network layout](create-a-network-installation-of-visual-studio.md) and install from a network or a local layout.
-
-| Issue       | Solution |
-| ----------- | -------- |
-| Users can't access files | Make sure that the network share permissions (ACLs) are configured to grant users read access *before* the network location is shared. |
-| System account can't access files | Sometimes the installation or update is run using the system account context. This typically happens when Administrator updates are used to keep the machine updated and secure. You'll need to make sure that the client machines' system accounts have read permissions to the network file share. You can do this by creating an Active Directory group containing the machine accounts that need access to the share, and then granting that AD group access to the share. | 
-| New workloads, components, or language packs fail to install | Make sure that you have internet access if you install from a partial layout and if you select workloads, components, or languages that weren't previously downloaded for that partial layout. |
 
 ## Administrator Updates
 
