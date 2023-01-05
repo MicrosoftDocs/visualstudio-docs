@@ -37,11 +37,12 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Messages View](../debugger/messages-view.md) - Refactor properties reference docs for Spy++
-- [Processes View](../debugger/processes-view.md) - Refactor properties reference docs for Spy++
-- [Threads View](../debugger/threads-view.md) - Refactor properties reference docs for Spy++
-- [Windows View](../debugger/windows-view.md) - Refactor properties reference docs for Spy++
-- [Error: Unable to Start Debugging on the Web Server](../debugger/error-unable-to-start-debugging-on-the-web-server.md) - Update remote debugger errors for WebPI end-of-life
+- Refactor properties reference docs for Spy++:
+  - [Messages View](../debugger/messages-view.md)
+  - [Processes View](../debugger/processes-view.md)
+  - [Threads View](../debugger/threads-view.md)
+  - [Windows View](../debugger/windows-view.md)
+- [Error: Unable to Start Debugging on the Web Server](../debugger/error-unable-to-start-debugging-on-the-web-server.md) - Update remote debugger errors for WebPI deprecation
 - [Find memory leaks with the CRT library](../debugger/finding-memory-leaks-using-the-crt-library.md) - Add example showing memory leak for malloc
 
 ### Deployment
@@ -50,56 +51,48 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Tutorial: Deploy an ASP.NET Core app and Database to Azure Container Apps using GitHub Actions](../deployment/end-to-end-deployment-entity-framework-core-github-actions.md)
 
-### Designers**
-
-**Updated articles
-
-- [Disable DPI-awareness to fix HDPI / scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md) - [internal] Removing a source of poor referrals to DPI article
-
 ### Get started
 
 **Updated articles
 
-- [Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)](../get-started/csharp/tutorial-console-part-2.md) - Refresh for content health
+- [Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)](../get-started/csharp/tutorial-console-part-2.md) - Review and refresh tutorial
 
 ### IDE
 
 **Updated articles**
 
-- [Use the Task List](../ide/using-the-task-list.md) - (freshness) update text & screenshots for the Task List page
-- [Visual Studio Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md) - update version location for VsDevCmd.bat
-- [Code snippets](../ide/code-snippets.md) - [freshness] update the Code Snippets article
-- [Environment settings for Visual Studio](../ide/environment-settings.md) - [freshness] update Identify & Customize Keyboard Shortcuts
-- [Identify and customize keyboard shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md) - [freshness] update Identify & Customize Keyboard Shortcuts
-- [What's new in Visual Studio docs](../ide/whats-new-visual-studio-docs.md) - update What's New in Docs w/ November data
-- [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md)
-  - Confirm merge from repo_sync_working_branch to main to sync with https://github.com/MicrosoftDocs/visualstudio-docs (branch main)
-  - Add git shortcuts to accessibility-tips-and-tricks
+- Update text, links, and screenshots:
+  - [Use the Task List](../ide/using-the-task-list.md)
+  - [Code snippets](../ide/code-snippets.md)
+  - [Environment settings for Visual Studio](../ide/environment-settings.md)
+  - [Identify and customize keyboard shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
+- [Visual Studio Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md) - Update version location for VsDevCmd.bat
+- [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) - Add git shortcuts
 
 ### Profiling
 
 **Updated articles**
 
-- [How to: Instrument a stand-alone .NET Framework component and collect timing data with the profiler from the command line](../profiling/instrument-dotnet-framework-component-and-collect-timing-data.md) - Fix broken links - mikejo
-- [How to: Instrument a native stand-alone component and collect timing data with the profiler from the command line](../profiling/instrument-native-component-and-collect-timing-data.md) - Fix broken links - mikejo
-- [VSPerfCmd](../profiling/vsperfcmd.md) - Fix broken links - mikejo
-- [Measure application performance by analyzing CPU usage (C#, Visual Basic, C++, F#)](../profiling/beginners-guide-to-performance-profiling.md) - Update CPU usage articles to match the current UX
-- [Analyze CPU usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)](../profiling/cpu-usage.md) - Update CPU usage articles to match the current UX
+- Update to match the current user interface:
+  - [Measure application performance by analyzing CPU usage (C#, Visual Basic, C++, F#)](../profiling/beginners-guide-to-performance-profiling.md)
+  - [Analyze CPU usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)](../profiling/cpu-usage.md)
+- Fix links:
+  - [How to: Instrument a stand-alone .NET Framework component and collect timing data with the profiler from the command line](../profiling/instrument-dotnet-framework-component-and-collect-timing-data.md)
+  - [How to: Instrument a native stand-alone component and collect timing data with the profiler from the command line](../profiling/instrument-native-component-and-collect-timing-data.md)
+  - [VSPerfCmd](../profiling/vsperfcmd.md)
 
 ### Python
 
 **Updated articles**
 
-- [Step 4: Use the full Django Web Project template](../python/learn-django-in-visual-studio-step-04-full-django-project-template.md) - Python Doc updates from old bugs
+- [Step 4: Use the full Django Web Project template](../python/learn-django-in-visual-studio-step-04-full-django-project-template.md) - Add Python updates
 
 ### Test
 
 **Updated articles**
 
 - [Use the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) - Add DataRowAttribute documentation
-- [Remote Testing (experimental preview)](../test/remote-testing.md)
-  - Confirm merge from repo_sync_working_branch to main to sync with https://github.com/MicrosoftDocs/visualstudio-docs (branch main)
-  - improve code formatting
+- [Remote Testing (experimental preview)](../test/remote-testing.md) - Improve code formatting
 
 ### Community contributors
 
@@ -133,7 +126,7 @@ The following people contributed to Visual Studio content in November. Thank you
 
 **Updated articles**
 
-- [User permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md) - Update links & add Windows 11 info
+- [User permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md) - Update links and add Windows 11 info
 - [How to: Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md) - Add SDK template info
 - [How to: Distribute code snippets](../ide/how-to-distribute-code-snippets.md) - Add snippet
 - [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) - Add new 'Audio Cues in Visual Studio' info
@@ -150,7 +143,7 @@ The following people contributed to Visual Studio content in November. Thank you
 
 **Updated articles**
 
-- For 17.4 GA - Update info for removeOos, ADMX, & Arm for layouts, remove svc baseline page, & add additional command-line parameters:
+- For 17.4 GA - Update info for removeOos, ADMX, and Arm for layouts; remove svc baseline page and add more command-line parameters:
   - [Applying administrator updates that use Microsoft Endpoint Manager (SCCM or Intune)](../install/applying-administrator-updates.md)
   - [Enabling administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager](../install/enabling-administrator-updates.md)
   - [Configure policies for enterprise deployments of Visual Studio](../install/set-defaults-for-enterprise-deployments.md)
@@ -236,8 +229,8 @@ The following people contributed to Visual Studio content in November. Thank you
 
 **Updated articles**
 
-- [Project migration and upgrade reference for Visual Studio](../porting/port-migrate-and-upgrade-visual-studio-projects.md) - Refresh text & links
-- [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md) - Refresh text, links, & screenshots
+- [Project migration and upgrade reference for Visual Studio](../porting/port-migrate-and-upgrade-visual-studio-projects.md) - Refresh text and links
+- [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md) - Refresh text, links, and screenshots
 
 ### JavaScript
 
