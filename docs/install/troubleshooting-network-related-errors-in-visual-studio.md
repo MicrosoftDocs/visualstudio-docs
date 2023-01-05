@@ -22,7 +22,7 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-We've got solutions for the most typical network- or proxy-related errors. You might encounter these errors when you install, update, or use Visual Studio behind a firewall or a proxy server, or on a client machine that doesn't have access to the internet.
+We've got solutions for the most typical network- or proxy-related errors. You might encounter these errors when you install, update, or use Visual Studio behind a firewall, a proxy server, or on a client machine that doesn't have access to the internet.
 
 ## Error: “Proxy authorization required”
 
