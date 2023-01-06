@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 12/08/2022
+ms.date: 01/05/2023
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -20,6 +20,87 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
+
+## December 2022
+
+### Containers
+
+**New articles**
+
+- [Deploy an app into a container in Azure (Preview)](../containers/deploy-containerized.md)
+
+### Debugger
+
+**New articles**
+
+- [Remote Debug ASP.NET Core on Azure App Service](../debugger/remote-debugging-azure-app-service.md)
+
+**Updated articles**
+
+- Refactor properties reference docs for Spy++:
+  - [Messages View](../debugger/messages-view.md)
+  - [Processes View](../debugger/processes-view.md)
+  - [Threads View](../debugger/threads-view.md)
+  - [Windows View](../debugger/windows-view.md)
+- [Error: Unable to Start Debugging on the Web Server](../debugger/error-unable-to-start-debugging-on-the-web-server.md) - Update remote debugger errors for WebPI deprecation
+- [Find memory leaks with the CRT library](../debugger/finding-memory-leaks-using-the-crt-library.md) - Add example showing memory leak for malloc
+
+### Deployment
+
+**New articles**
+
+- [Tutorial: Deploy an ASP.NET Core app and Database to Azure Container Apps using GitHub Actions](../deployment/end-to-end-deployment-entity-framework-core-github-actions.md)
+
+### Get started
+
+**Updated articles**
+
+- [Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)](../get-started/csharp/tutorial-console-part-2.md) - Review and refresh tutorial
+
+### IDE
+
+**Updated articles**
+
+- Update text, links, and screenshots:
+  - [Use the Task List](../ide/using-the-task-list.md)
+  - [Code snippets](../ide/code-snippets.md)
+  - [Environment settings for Visual Studio](../ide/environment-settings.md)
+  - [Identify and customize keyboard shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
+- [Visual Studio Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md) - Update version location for VsDevCmd.bat
+- [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) - Add git shortcuts
+
+### Profiling
+
+**Updated articles**
+
+- Update to match the current user interface:
+  - [Measure application performance by analyzing CPU usage (C#, Visual Basic, C++, F#)](../profiling/beginners-guide-to-performance-profiling.md)
+  - [Analyze CPU usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)](../profiling/cpu-usage.md)
+- Fix links:
+  - [How to: Instrument a stand-alone .NET Framework component and collect timing data with the profiler from the command line](../profiling/instrument-dotnet-framework-component-and-collect-timing-data.md)
+  - [How to: Instrument a native stand-alone component and collect timing data with the profiler from the command line](../profiling/instrument-native-component-and-collect-timing-data.md)
+  - [VSPerfCmd](../profiling/vsperfcmd.md)
+
+### Python
+
+**Updated articles**
+
+- [Step 4: Use the full Django Web Project template](../python/learn-django-in-visual-studio-step-04-full-django-project-template.md) - Add Python updates
+
+### Test
+
+**Updated articles**
+
+- [Use the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) - Add DataRowAttribute documentation
+- [Remote Testing (experimental preview)](../test/remote-testing.md) - Improve code formatting
+
+### Community contributors
+
+The following people contributed to Visual Studio content in November. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
+
+- [simon6502](https://github.com/simon6502) (2)
+- [sid2934](https://github.com/sid2934) - Austin (1)
+- [spottedmahn](https://github.com/spottedmahn) - Michael DePouw (1)
 
 ## November 2022
 
@@ -45,7 +126,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [User permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md) - Update links & add Windows 11 info
+- [User permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md) - Update links and add Windows 11 info
 - [How to: Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md) - Add SDK template info
 - [How to: Distribute code snippets](../ide/how-to-distribute-code-snippets.md) - Add snippet
 - [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) - Add new 'Audio Cues in Visual Studio' info
@@ -62,7 +143,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- For 17.4 GA - Update info for removeOos, ADMX, & Arm for layouts, remove svc baseline page, & add additional command-line parameters:
+- For 17.4 GA - Update info for removeOos, ADMX, and Arm for layouts; remove svc baseline page and add more command-line parameters:
   - [Applying administrator updates that use Microsoft Endpoint Manager (SCCM or Intune)](../install/applying-administrator-updates.md)
   - [Enabling administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager](../install/enabling-administrator-updates.md)
   - [Configure policies for enterprise deployments of Visual Studio](../install/set-defaults-for-enterprise-deployments.md)
@@ -122,16 +203,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Work with multiple repos](../version-control/git-multi-repository-support.md)
 
-### Community contributors
-
-The following people contributed to Visual Studio content in November. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
-
-- [Applesauce314](https://github.com/Applesauce314) - Andrew Moskevitz (1)
-- [SetTrend](https://github.com/SetTrend) - Axel D. (1)
-- [vovka15](https://github.com/vovka15) - D (1)
-- [Youssef1313](https://github.com/Youssef1313) - Youssef Victor (1)
-- [Z731](https://github.com/Z731) (1)
-
 ## October 2022
 
 ### Data tools
@@ -158,8 +229,8 @@ The following people contributed to Visual Studio content in November. Thank you
 
 **Updated articles**
 
-- [Project migration and upgrade reference for Visual Studio](../porting/port-migrate-and-upgrade-visual-studio-projects.md) - Refresh text & links
-- [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md) - Refresh text, links, & screenshots
+- [Project migration and upgrade reference for Visual Studio](../porting/port-migrate-and-upgrade-visual-studio-projects.md) - Refresh text and links
+- [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md) - Refresh text, links, and screenshots
 
 ### JavaScript
 
@@ -192,92 +263,3 @@ The following people contributed to Visual Studio content in November. Thank you
 
 - [Use the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) - Refresh and complete MSTest documentation
 - [How to: Create a data-driven unit test](../test/how-to-create-a-data-driven-unit-test.md) - Update doc for MSTest data-driven tests
-
-## September 2022
-
-### Azure
-
-**Updated articles**
-
-- [Add a connection to Azure SQL Database](../azure/azure-sql-database-add-connected-service.md) - Add content for Entity Framework migrations support in Visual Studio
-
-### Cross platform
-
-**Updated articles**
-
-- [Cross-platform mobile development in Visual Studio](../cross-platform/cross-platform-mobile-development-in-visual-studio.md) - Refresh text and screenshots
-
-### Debugger
-
-**Updated articles**
-
-- [Debugging in Visual Studio](../debugger/index.yml) - Perform search engine optimization (SEO) work for debugger & code analysis documentation
-- [Debug .NET Apps in WSL with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md) - Add attach-to-process content for article on debugging Linux using WSL
-- [Remote Debug ASP.NET on a Remote IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md) - Follow-up to Remote Debugging article updates
-- [Log info to the Output window using tracepoints in Visual Studio](../debugger/using-tracepoints.md) - Refresh text and screenshots
-
-### Deployment
-
-**New articles**
-
-- [ClickOnce for .NET on Windows](../deployment/clickonce-deployment-dotnet.md)
-
-### Extensibility
-
-**New articles**
-
-- [Target Visual Studio 2022 (ARM64) when creating an extension in Visual Studio 2022](../extensibility/arm64/target-arm64-visual-studio-extension.md)
-
-**Updated articles**
-
-- Refresh text, links, and screenshots for the following:
-
-  - [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md)
-  - [Solution (.sln) file](../extensibility/internals/solution-dot-sln-file.md)
-  - [Start developing extensions in Visual Studio](../extensibility/starting-to-develop-visual-studio-extensions.md)
-
-### IDE
-
-**New articles**
-
-- [Paste JSON or XML as classes](../ide/reference/paste-json-xml.md)
-
-**Updated articles**
-
-- [How to: Add or remove references by using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md) - Add screenshots & new Remove References section
-- [How to: Sign application and deployment manifests](../ide/how-to-sign-application-and-deployment-manifests.md) Update & add link for.NET 5+ steps
-- [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md) - Add troubleshooting section
-- [Create portable, custom editor settings with EditorConfig](../ide/create-portable-custom-editor-options.md) - Refresh text, links, and screenshots
-
-### JavaScript
-
-**New articles**
-
-- [Linting JavaScript in Visual Studio](../javascript/linting-javascript.md)
-
-### MSBuild
-
-**Updated articles**
-
-- [Change waves](../msbuild/change-waves.md) - Update with latest change wave info
-- [How to: Use MSBuild project SDKs](../msbuild/how-to-use-project-sdk.md) - Update SDK reference refactoring
-- [Walkthrough: Create an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md) Update articles for Visual Studio 2022
-- [Customize your build](../msbuild/customize-your-build.md) - Add section for handling generated files
-
-### Profiling
-
-**New articles**
-
-- [Excessive induced GCs](../profiling/perf-insights-excessive-induced-gcs.md)
-- [High LOH Fragmentation](../profiling/perf-insights-high-loh-fragmentation.md)
-- [Diagnose high latency with CPU Insights](../profiling/cpu-insights.md)
-
-**Updated articles**
-
-- [Understand profiler performance collection methods](../profiling/understanding-performance-collection-methods-perf-profiler.md) - Enhance intro information for profiling tools
-
-### Test
-
-**Updated articles**
-
-- [Configure unit tests by using a *.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) - Update blame data collection info
