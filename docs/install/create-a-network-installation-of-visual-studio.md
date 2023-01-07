@@ -1,7 +1,7 @@
 ---
 title: Create a network-based installation
 description: Learn how to create a network install point for deploying Visual Studio within an enterprise.
-ms.date: 12/12/2022
+ms.date: 1/6/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -357,7 +357,7 @@ When you execute this command, Setup analyzes your network layout folder to find
 
 ## Install Visual Studio onto a client machine from a network installation
 
-Administrators can deploy Visual Studio onto client workstations as part of an installation script. Or, users who have administrator rights can run setup directly from the share to install Visual Studio on their machine.
+Administrators can deploy Visual Studio onto client workstations as part of an installation script. Or, users who have administrator rights can run setup directly from the share to install Visual Studio on their machine. 
 
 * Users can manually install the product from a network layout by running the following command:
 
@@ -370,6 +370,8 @@ Administrators can deploy Visual Studio onto client workstations as part of an i
     ```shell
     \\server\products\VS\vs_enterprise.exe --quiet --wait --norestart
     ```
+
+Make sure that either the user or system account that's running the installation has proper access to the network share that contains the layout. For more information, refer to [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md).
 
 > [!NOTE] 
 > Be patient. Make sure you `--wait` for both the installer and the product to finish. When installing or updating a client from a layout, the installer is always the first thing to get installed or updated, and then the Visual Studio product itself will get installed or updated. **Both** of these processes need to finish in order to be considered a successful update.   
