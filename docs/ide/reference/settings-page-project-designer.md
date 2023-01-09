@@ -2,7 +2,7 @@
 title: Settings Page, Project Designer
 description: Learn how to use the Settings page of the Project Designer to specify a project's application settings.
 ms.custom: SEO-VS-2020
-ms.date: 04/25/2022
+ms.date: 01/06/2023
 ms.topic: reference
 f1_keywords:
 - ApplicationSettingsOverview
@@ -87,6 +87,9 @@ Enter the name of the application setting in this field.
 **Type**
 
 Use the drop-down list to select a type for the setting. The most frequently used types appear in the drop-down list, for example, **String**, **(Connection string)**, and **System.Drawing.Font**. You can choose another type by selecting **Browse** at the end of the list, and then selecting a type from the **Select a Type** dialog box. After you choose a type, it's added to the common types in the drop-down list (for the current solution only).
+
+> [!IMPORTANT]
+> **Browse** is available only for .NET Framework projects. **Browse** isn't available for .NET or .NET Core projects.
 
 **Scope**
 
