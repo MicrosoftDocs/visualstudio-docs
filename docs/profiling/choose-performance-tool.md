@@ -28,7 +28,7 @@ Visual Studio provides a variety of profiling tools to help you diagnose differe
 |----------------------|---------------------|-------------|-------------|
 |[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|Shows where the CPU is spending time.|- When your server CPU is extremely high and you have no idea why.</br>- DevOps scenarios, such as when orders are not getting through to the retail website.</br>- Optimize CPU usage.</br>- Latency in API calls.|
 |[Flame graph](../profiling/flame-graph.md)|View within the CPU Usage tool that can be used instead of a calltree.|Latency in API calls.|
-|[Hot path](../profiling/cpu-insights,md)|View within the CPU Usage tool, based on an algorithm for digging into a calltree.|Latency in API calls.|
+|[Hot path](../profiling/cpu-insights.md)|View within the CPU Usage tool, based on an algorithm for digging into a calltree.|Latency in API calls.|
 |[PerfTips](../profiling/perftips.md)|||
 |[Memory Usage](../profiling/memory-usage.md)|Shows your app’s memory to find issues such as memory leaks.|- Optimize memory usage.</br>- UI freeze|
 |[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|Shows where .NET Objects are allocated and information about garbage collection||
@@ -60,7 +60,7 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |[Database](../profiling/analyze-database.md)|yes (.NET Core only)|no|yes (ASP.NET Core only)|
 |[GPU Usage](./gpu-usage.md)|yes|yes|no|
 |[Application Timeline](../profiling/application-timeline.md)|yes (XAML)|yes|no|
-|[Performance Explorer](#analyze-performance-legacy-tools)|no|no|no|
+|[Performance Explorer](../profiling/profiling-feature-tour.md#analyze-performance-legacy-tools)|no|no|no|
 |[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
 
 ## See also
