@@ -20,7 +20,7 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
 
 - Creating and manipulating a project file.
 
-- How to use build properties
+- How to use build properties.
 
 - How to use build items.
 
