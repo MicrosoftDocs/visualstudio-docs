@@ -24,23 +24,23 @@ Visual Studio provides a variety of profiling tools to help you diagnose differe
 
 ## Which tool should I use?
 
-|Performance Tool|Description|When to use it|
+|Performance Tool|Description|When to use the tool?|
 |----------------------|---------------------|-------------|-------------|
-|[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|Shows where the CPU is spending time.|- When your server CPU is extremely high and you have no idea why.</br>- DevOps scenarios, such as when orders are not getting through to the retail website.</br>- Optimize CPU usage.</br>- Latency in API calls.|
+|[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|Shows where the CPU is spending time.|- Your server CPU is extremely high and you have no idea why.</br>- DevOps scenarios, such as when orders are not getting through to the retail website.</br>- Optimize CPU usage.</br>- Latency in API calls.|
 |[Flame graph](../profiling/flame-graph.md)|View within the CPU Usage tool that can be used instead of a calltree.|Latency in API calls.|
 |[Hot path](../profiling/cpu-insights.md)|View within the CPU Usage tool, based on an algorithm for digging into a calltree.|Latency in API calls.|
-|[PerfTips](../profiling/perftips.md)|||
+|[PerfTips](../profiling/perftips.md)|Shows a quick measurement of performance information while interacting with your code.|While debugging, you want to see the elapsed time between the previous step operation (or brakpoint) to the current step or breakpoint. (Visual Studio Enterprise)|
 |[Memory Usage](../profiling/memory-usage.md)|Shows your app’s memory to find issues such as memory leaks.|- Optimize memory usage.</br>- UI freeze|
 |[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|Shows where .NET Objects are allocated and information about garbage collection||
 |[Events viewer](../profiling/events-viewer.md)|Shows HTTP requests, log messages, and exceptions.|- Latency in API calls</br>- Slow application running on a remote web server|
-|[.NET Async](../profiling/analyze-async.md)|Shows async/await usage in .NET apps|When you suspect performance issues with asynchronous code.|
-|[.NET Counters](../profiling/dotnet-counters-tool.md)|Visualization for .NET counters|When you want a visualization for .NET counter-based metrics such as exceptions per second, garbage collection, CPU utilization.|
+|[.NET Async](../profiling/analyze-async.md)|Shows async/await usage in .NET apps|You suspect performance issues with asynchronous code.|
+|[.NET Counters](../profiling/dotnet-counters-tool.md)|Visualization for .NET counters|You want a visualization for .NET counter-based metrics such as exceptions per second, garbage collection, and CPU utilization.|
 |[Instrumentation](../profiling/instrumentation-overview.md)|Shows exact call counts and call times.|When you need more precise CPU utilization information than is provided in the CPU usage tool.|
 |[File I/O](../profiling/use-file-io.md)|Shows your File I/O operations and how long they take and how much data they process.|UI freeze|
-|[Database](../profiling/analyze-database.md)|Shows performance of your database queries using either ADO.NET or Entity Framework Core.||
+|[Database](../profiling/analyze-database.md)|Shows performance of your database queries.|You want performance data for database queries that use either ADO.NET or Entity Framework Core.|
 |[GPU Usage](./gpu-usage.md)|Shows high-level hardware usage of your Direct3D app||
-|[Application Timeline](../profiling/application-timeline.md)|Shows UI performance for XAML apps.|When you want to analyze UI performance in XAML apps, such as time spent rendering frames.|
-|[IntelliTrace](../debugger/intellitrace.md)|||
+|[Application Timeline](../profiling/application-timeline.md)|Shows UI performance for XAML apps.|You want to analyze UI performance in XAML apps, such as time spent rendering frames.|
+|[IntelliTrace](../debugger/intellitrace.md)|Debugger tool that lets you record events and examine your application state at various points of execution.|You want a tool to examine application state at various points, not just the current application state.|
 
 ## Which tools are supported for my project?
 
