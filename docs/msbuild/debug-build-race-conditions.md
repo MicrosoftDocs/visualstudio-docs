@@ -16,7 +16,7 @@ ms.workload:
 
 MSBuild supports parallel builds, which improves the performance of your builds by building multiple projects in parallel in different worker node processes running on different CPU cores. The performance benefit of building in parallel can be significant, but under certain circumstances, it can introduce the risk of errors arising from race conditions. By definition, a race condition is an error arising from multiple executing threads or processes trying to use the same resource. Manifested behavior may differ from build to build when there is a race condition, because sometimes one process will be ahead of the other, and sometimes behind it by differing amounts of time. By understanding and addressing the root causes of race conditions, you can fix intermittent build failures that arise from the race conditions, such as file I/O failures.
 
-Error messages resulting from a race conditions always include an operating system file I/O failure, but can have different MSBuild error codes depending on what was happening in the build when the file I/O error occurred. Some examples might look like the following on the Windows platform:
+Error messages that arise from race conditions always include an operating system file I/O failure, but can have different MSBuild error codes, depending on what was happening in the build when the file I/O error occurred. Some examples might look like the following on the Windows platform:
 
 ```output
 error MSB3677: Unable to move file "C:\IntermediatePath\MyAssembly.dll" to "C:\OutputPath\MyAssembly.dll".
@@ -41,7 +41,7 @@ Check the log for the path of the output file mentioned in the error message. If
 
 It could be that the different settings for multiple builds are intentional, but the problem is that the two builds output to the same folder. You can fix that by changing the output folder for the conflicting file in one or both builds.
 
-It could be that the different settings  for multiple builds are unintentional, and the fix is to use the same intended settings for both projects. The use of global properties (those specified on the command-line with the `/p` or `/property` option) need to be examined especially closely. If it is the case that one invocation of a project build overrides a global property, because it's set explicitly for that project's build, but another invocation does not override the same global property (in the exact same way), then two different builds will occur. If building multiple versions of the same outputs isn't expected, then usually the two builds are both using the same output folder and file, thus leading to a race condition.
+It could be that the different settings for multiple builds are unintentional, and the fix is to use the same intended settings for both projects. The use of global properties (those specified on the command-line with the `/p` or `/property` option) need to be examined especially closely. If one invocation of a project build overrides a global property, but another invocation doesn't, then two different builds will occur. If building multiple versions of the same outputs isn't expected, and the two builds are both trying to use the same output folder and file, then you have a race condition.
 
 To detect such cases, look at all the `ProjectReference` elements for the project that is experiencing the problem, and look for any the metadata `RemoveGlobalProperties`, `GlobalPropertiesToRemove`, `SetConfiguration`, `SetPlatform`, `SetTargetFramework`, or`AdditionalProperties`. Check for differences in the values set for these metadata between different ProjectReference elements across the solution.
 
@@ -140,7 +140,7 @@ Global properties, that is, when you set a property on the command line with the
 
 ## Packaging unintentionally triggers project builds
 
-If the primary work of your build is to package the output of projects that have been built previously, you might encounter a race condition when your packaging build logic specifies different property settings than the original project builds. When this is the case, MSBuild normally would trigger a rebuild of those projects because of the mismatch in properties. Depending on the timing of the other build operations, this can lead to race conditions.  In such a case, you might consider setting `BuildProjectReferences` to `false` in the packaging project, so that the projects that are being packaged are never asked to be built. This would mean that the packaging build should only be requested when project builds are previously done and up-to-date.
+If your build packages the output of projects that have been built previously, you might encounter a race condition when your packaging build logic specifies different property settings than the original projects used when they were built. When this is the case, MSBuild normally would trigger a rebuild of those projects because of the mismatch in properties. This situation can lead to race conditions. Consider setting `BuildProjectReferences` to `false` in the packaging project, so that the projects that are being packaged are never asked to be built. This would mean that the packaging build should only be requested when project builds are previously done and up-to-date.
 
 ## Diagnosing and fixing race conditions
 
