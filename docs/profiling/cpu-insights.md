@@ -2,9 +2,8 @@
 title: Diagnose high latency with CPU Insights
 description: Use CPU Insights to diagnose and optimize your code's performance
 ms.custom: SEO-VS-2020
-ms.date: 07/14/2022
+ms.date: 01/10/2023
 ms.topic: how-to
-ms.assetid: 7501a20d-04a1-480f-a69c-201524aa709d
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
@@ -22,6 +21,8 @@ ms.workload:
 The **Top Insights** section in the CPU Usage tool shows quick CPU details, insights, and suggestions in the description so that you can continue diagnosing the issue. The **Learn more** link shows you in-depth documentation that explains your issue. If you need more information, **View source code** shows more details. Once selected, you can see the call tree view, showing the process, functions, and which callers use the most CPU.
 
 ![Screenshot showing Top Insights selected.](./media/vs-2022/top-insights.png "Top Insights selected")
+
+## View top functions
 
 On the summary page under **Top Functions**, you can find the top functions called with the time spent in descending order. **Total CPU** time is the amount of time spent inside a function, including any functions it calls, whereas **Self CPU** is time spent exclusively in the function.
 
