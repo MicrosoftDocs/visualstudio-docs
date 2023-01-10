@@ -27,9 +27,9 @@ Visual Studio provides a variety of profiling tools to help you diagnose differe
 |Performance Tool|Description|When to use the tool?|
 |----------------------|---------------------|-------------|-------------|
 |[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|Shows where the CPU is spending time.|- General starting point for many performance issues.</br>- Your server CPU is extremely high and you have no idea why.</br>- DevOps scenarios, such as when orders are not getting through to the retail website.</br>- Optimize CPU usage</br>- Latency in API calls|
-|[Flame graph](../profiling/flame-graph.md)|Visualization within the CPU Usage tool that can be used instead of a calltree.|Latency in API calls|
-|[Hot path](../profiling/cpu-insights.md)|Visualization within the CPU Usage tool that shows performance data based on an algorithm for digging into a calltree.|Latency in API calls|
-|[PerfTips](../profiling/perftips.md)|Shows a quick measurement of performance information while interacting with your code.|While debugging, you want to see the elapsed time between the previous step operation (or breakpoint) to the current step or breakpoint. (Visual Studio Enterprise)|
+|[Flame graph](../profiling/flame-graph.md)|Visualization within the CPU Usage tool that can be used instead of a call tree.|Latency in API calls|
+|[Hot path](../profiling/cpu-insights.md)|Visualization within the CPU Usage tool that shows performance data based on an algorithm for digging into a call tree.|Latency in API calls|
+|[PerfTips](../profiling/perftips.md)|Shows a quick measurement of performance information while interacting with your code.|While debugging, you want to see the elapsed time between the previous step operation (or breakpoint) to the current step or breakpoint.|
 |[Memory Usage](../profiling/memory-usage.md)|Shows your app’s memory to find issues such as memory leaks.|- Optimize memory usage</br>- UI freeze</br>- You suspect a memory leak (native code)|
 |[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|Shows where .NET Objects are allocated and information about garbage collection.|- Optimize .NET memory usage</br>- Analyze garbage collection|
 |[Events viewer](../profiling/events-viewer.md)|Shows HTTP requests, log messages, and exceptions.|- Latency in API calls</br>- Slow application running on a remote web server|
