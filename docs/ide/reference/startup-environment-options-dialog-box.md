@@ -22,4 +22,4 @@ monikerRange: vs-2019
 Use this page to set a different default action when Visual Studio starts up. In the **On startup, open** list, choose from **Start window** (which lets you open a new or existing project), **Most recent solution**, or **Empty environment**.
 
 > [!IMPORTANT]
-> If you're using Visual Studio 2022, this option is now available from the **Tools** > **Options** > **Environment** > **General** dialog. For more information, see [Options dialog box: Environment /> General](general-environment-options-dialog-box.md?view=vs-2022&preserve-view=true)
+> If you're running Visual Studio 2022, this option is now available from the **Tools** > **Options** > **Environment** > **General** dialog. For more information, see [Options dialog box: Environment /> General](general-environment-options-dialog-box.md?view=vs-2022&preserve-view=true).
