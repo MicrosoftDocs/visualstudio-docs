@@ -65,4 +65,6 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 
 ## See also
 
-- [Debugging in Visual Studio](../debugger/debugger-feature-tour.md)
+- [Profiling feature tour](../profiling/choose-performance-tool.md)
+- [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
+
