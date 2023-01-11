@@ -58,7 +58,6 @@ devenv /ResetSettings [SettingsFile|DefaultCollectionSpecifier]
 
 If no *SettingsFile* is specified, the IDE opens using the existing settings. 
 
-
 ## Example
 
 The first example applies the settings stored in the file `MySettings.vssettings`.

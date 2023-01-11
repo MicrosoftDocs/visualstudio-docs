@@ -1,7 +1,7 @@
 ---
 title: "Accessibility tips and tricks for Visual Studio"
 description: "Learn more about tips and tricks that can help make the Visual Studio integrated development environment (IDE) more accessible for everyone to use, including people with disabilities."
-ms.date: 07/01/2022
+ms.date: 12/06/2022
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
@@ -19,7 +19,7 @@ ms.workload:
 
 Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. Whether you want to use keyboard shortcuts to navigate the IDE, or use high-contrast themes to improve visibility, you'll find several tips & tricks on this page about how to do so.
 
-We also cover how to use annotations to reveal useful information about your code, and how to set sound cues for build and breakpoint events.
+We also cover how to use annotations to reveal useful information about your code, and also how to set audio cues for error, breakpoint, or warning events.
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Accessibility for Visual Studio for Mac](/visualstudio/mac/accessibility).
@@ -57,7 +57,16 @@ The Visual Studio IDE has toolbars as do many tool windows. The following keyboa
 |Tool window toolbars|Move focus to the toolbars in a tool window. <br> <br> **NOTE:** This works for most tool windows, but only when the focus is in a tool window. Also, you must choose the SHIFT key before the ALT key. In some tool windows, such as Team Explorer, you must hold the SHIFT key for a moment before choosing the ALT key.|**Shift**+**Alt**|
 |Toolbars|Go to the first item in the next toolbar (when a toolbar has focus).|**Ctrl**+**Tab**|
 
-### Other useful keyboard shortcuts
+## Git keyboard shortcuts
+
+The Visual Studio status bar shows popup controls for quick access to various Git features. The following keyboard shortcuts help you access them.
+
+|Feature|Description|Keyboard shortcut|
+|-------------|-----------------| - |
+|Branch Picker|View, manage, and checkout branches in an active Git repository.|**Ctrl**+**Alt**+**F3**|
+|Repository Picker|View, manage, and open Git repositories known to Visual Studio.|**Ctrl**+**Alt**+**F4**|
+
+## Other useful keyboard shortcuts
 
 Some other useful keyboard shortcuts include the following.
 
@@ -90,19 +99,27 @@ When a notification appears in the IDE, here's how you can access the Notificati
 
 1. Use either the **Tab** key or the arrow keys to select a notification.
 
-## Use the Sound dialog box to set build and breakpoint cues
+## Assign audio cues to Visual Studio program events
 
-You can use the Sound dialog box in Windows to assign a sound to Visual Studio program events. Specifically, you can assign sounds to the following program events:
+::: moniker range="vs-2022"
+
+Starting with [version 17.3](/visualstudio/releases/2022/release-notes-v17.3) and continuing in [version 17.4](/visualstudio/releases/2022/release-notes-v17.4) & later, you can add audio cues for program events directly within Visual Studio. Specifically, you can toggle a setting so that Visual Studio plays an audio cue when the caret in the editor arrives on a line with an error, breakpoint, or warning. When you view a file in the Diff view, Visual Studio can also play an audio cue when the caret arrives on a line that's been added or removed.
+
+To add the audio cue functionality, go to **Tools** > **Options** > **Text Editor** > **General** and select the **Enable audio cues** setting.
+
+> [!TIP]
+> To learn more about the journey to add audio cues within Visual Studio, see the [**Listen Up, Visual Studio has a new feature you need to hear about!**](https://devblogs.microsoft.com/visualstudio/audio-cues-in-visual-studio-2022-17-3-preview-2/) blog post.
+
+::: moniker-end
+
+In Visual Studio 2022 version 17.2 and earlier, you can use the Sound Control Panel in Windows to assign audio cues to Visual Studio program events. Specifically, you can assign audio cues to the following program events:
 
 * Breakpoint hit
 * Build canceled
 * Build failed
 * Build succeeded
 
-> [!TIP]
-> To learn more about new audio cues available in [Visual Studio 2022 Preview](https://visualstudio.microsoft.com/vs/preview/), see the [**Listen Up, Visual Studio has a new feature you need to hear about!**](https://devblogs.microsoft.com/visualstudio/audio-cues-in-visual-studio-2022-17-3-preview-2/) blog post.
-
-Here's how to add sounds to program events by using either Windows 11 or Windows 10.
+Here's how to add audio cues to program events by using either Windows 11 or Windows 10.
 
 ### Windows 11
 
@@ -141,7 +158,6 @@ Here's how to add sounds to program events by using either Windows 11 or Windows
    ![Sounds tab of the Sound dialog box in Windows 10](media/sound-applet.png "Sounds tab of the Sound dialog box in Windows 10")
 
 1. Click **OK**.
-
 
 ## See also
 

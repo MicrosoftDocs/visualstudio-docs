@@ -4,12 +4,11 @@ description: Troubleshoot problems you encounter when using Visual Studio to cre
 ms.technology: vs-container-tools
 author: ghogen
 manager: jmartens
-
 ms.assetid: 346f70b9-7b52-4688-a8e8-8f53869618d3
 ms.devlang: dotnet
 ms.topic: troubleshooting
 ms.workload: multiple
-ms.date: 11/12/2021
+ms.date: 10/12/2022
 ms.author: ghogen
 ---
 # Troubleshoot Visual Studio development with Docker
@@ -28,7 +27,7 @@ File sharing only needs to be managed if you are using Hyper-V with Docker. If y
     ![Shared drives](media/troubleshooting-docker-errors/docker-settings-image.png)
 
 > [!TIP]
-> Visual Studio versions later than Visual Studio 2017 version 15.6 will prompt when **Shared Drives** aren't configured.
+> Visual Studio prompts you when **Shared Drives** aren't configured.
 
 ## Unable to start debugging
 
@@ -85,23 +84,22 @@ By default, Docker stores images in the *%ProgramData%/Docker/* folder, which is
 
   ![Screenshot of Docker File Sharing](media/troubleshooting-docker-errors/docker-daemon-settings.png)
 
-
 Click **Apply & Restart**. These steps modify the configuration file at *%ProgramData%\docker\config\daemon.json*. Previously built images are not moved.
 
 ## Container type mismatch
 
-When adding Docker support to a project, you choose either a Windows or a Linux container. If the Docker Server host is not configured to run the same container type as the project target, you will likely see an error similar to the one below:
+When adding Docker support to a project, you choose either a Windows or a Linux container. If the Docker Server host is not configured to run the same container type as the project target, you see an error similar to:
 
   ![Screenshot of Docker Host and Project Mismatch](media/troubleshooting-docker-errors/docker-host-config-change-linux-to-windows.png)
 
-To resolve this issue:
+To resolve this issue, right-click the Docker for Windows icon in the System Tray and choose **Switch to Windows containers...** or **Switch to Linux containers...**.
 
-- Right-click the Docker for Windows icon in the System Tray and choose **Switch to Windows containers...** or **Switch to Linux containers...**.
-
-## Microsoft/DockerTools GitHub repo
+## Other issues
 
 For any other issues you encounter, see  [Microsoft/DockerTools](https://github.com/microsoft/dockertools/issues) issues.
 
 ## See also
 
 - [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)
+- [Container Tools error messages](container-tools-error-messages.md)
+

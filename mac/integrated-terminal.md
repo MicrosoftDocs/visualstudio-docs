@@ -1,19 +1,16 @@
 ---
 title: Visual Studio for Mac – Integrated Terminal
 description: "Working with the Integrated Terminal in Visual Studio for Mac."
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
-ms.date: 05/16/2022
+ms.date: 08/15/2022
 ms.topic: how-to
 ms.assetid: EFD53CE9-8174-4FE4-8863-2984D22FD921
 ---
 # Integrated Terminal
 
  [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
-
-> [!NOTE] 
-> The Integrated Terminal is currently not available in Simplified Chinese or Traditional Chinese locales. We're fixing bugs related to Chinese character input and this feature  will be available soon. 
 
 You can open an integrated terminal window in Visual Studio for Mac, starting at the root of your solution. The terminal can be useful for different kinds of situations – running front-end tasks (for example: npm, ng, or vue), managing containers, running advanced git commands, executing Entity Framework commands, viewing dotnet CLI output, adding NuGet packages, and more. 
 
@@ -22,11 +19,6 @@ To open the **Terminal**:
 - Use the **View** > **Terminal** menu command.
 - Use the **terminal** command from the **search** bar.
 
-::: moniker range="vsmac-2019"
-
-![*The Visual Studio for Mac integrated terminal immediately after being launched.*](media/integrated-terminal-intro.png)
-
-::: moniker-end
 
 ::: moniker range="vsmac-2022"
 
@@ -65,11 +57,6 @@ Multiple instances of the Terminal may be running at any time. You can create a 
 
 You can change the font **Family**, **Typeface** and **Size** used for the **Terminal Window Contents** from **Preferences...** > **Environment** > **Fonts**. By default, the font will be the same as that for the **Output Window Contents**, using Menlo Regular 11. You can set it to any font, independent of your **Text Editor** font.
 
-::: moniker range="vsmac-2019"
-
-![*Customizing the font settings for the integrated terminal*](media/integrated-terminal-change-font.png)
-
-::: moniker-end
 
 ::: moniker range="vsmac-2022"
 

@@ -23,13 +23,9 @@ You can use the **Publish** tool to import publish settings and then deploy your
 
 ## Prerequisites
 
-::: moniker range=">=vs-2019"
-
 * You must have Visual Studio 2019 installed and the **ASP.NET and web development** workload.
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
-::: moniker-end
-
 
 * Create an Azure App Service. For detailed instructions, see [Deploy an ASP.NET Core web app to Azure using Visual Studio](/aspnet/core/tutorials/publish-to-azure-webapp-using-vs).
 

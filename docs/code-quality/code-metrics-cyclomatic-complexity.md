@@ -88,4 +88,4 @@ Watson, A. H., & McCabe, T. J. (1996). Structured Testing: A Testing Methodology
 
 ### SATC
 
-Rosenberg, L., Hammer, T., Shaw, J. (1998). Software Metrics and Reliability (Proceedings of IEEE International Symposium on Software Reliability Engineering). Retrieved May 14, 2011, from Penn State University web site: [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.104.4041&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.104.4041&rep=rep1&type=pdf)
+Rosenberg, L., Hammer, T., Shaw, J. (1998). Software Metrics and Reliability (Proceedings of IEEE International Symposium on Software Reliability Engineering). Retrieved May 14, 2011, from Penn State University web site: [https://citeseerx.ist.psu.edu/pdf/31e3f5732a7af3aecd364b6cc2a85d9495b5c159](https://citeseerx.ist.psu.edu/pdf/31e3f5732a7af3aecd364b6cc2a85d9495b5c159)

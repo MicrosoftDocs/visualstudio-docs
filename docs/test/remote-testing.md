@@ -48,31 +48,30 @@ Environments are specified using `testenvironments.json` in the root of your sol
 | wslDistribution | string | Name of the local WSL distribution in which to run the test environment. <br/> This is required if environment `type` is `wsl`. |
 | remoteUri | string | A uri that specifies the connection to the remote machine. For example, ssh://user@hostname:22. <br/> This is required if environment `type` is `ssh`. |
 
-
 ### Local container connections
 
 To connect to a container running locally, you must have [Docker Desktop](https://www.docker.com/products/docker-desktop) on your local machine. Optionally, [enable WSL2 integration](/windows/wsl/install-win10) for better performance.
 
 For a Dockerfile, the environment can be specified in `testEnvironments.json` in the root of your solution. It uses the properties described here.
 ```json
-    {
+{
     "name": "<name>",
     "type": "docker",
     "dockerImage": "<docker image tag>",
-    }
+}
 ```
 
 The following example shows `testenvironments.json` for a local container image named \<mcr.microsoft.com/dotnet/core/sdk\>.
 ```json
 {
-"version": "1",
-"environments": [
-    {
-    "name": "linux dotnet-core-sdk-3.1",
-    "type": "docker",
-    "dockerImage": "mcr.microsoft.com/dotnet/core/sdk"
-    }
-]
+    "version": "1",
+    "environments": [
+        {
+            "name": "linux dotnet-core-sdk-3.1",
+            "type": "docker",
+            "dockerImage": "mcr.microsoft.com/dotnet/core/sdk"
+        }
+    ]
 }
 ```
 
@@ -92,14 +91,14 @@ To remotely run tests on WSL2, you must [enable WSL2 integration](/windows/wsl/i
 The environment can be specified in `testEnvironments.json` in the root of your solution using the following schema and replacing \<Ubuntu\> with whatever WSL2 Distribution you've installed.
 ```json
 {
-"version": "1",
-"environments": [
-    {
-    "name": "WSL-Ubuntu",
-    "type": "wsl",
-    "wslDistribution": "Ubuntu"
-    }
-]
+    "version": "1",
+    "environments": [
+        {
+            "name": "WSL-Ubuntu",
+            "type": "wsl",
+            "wslDistribution": "Ubuntu"
+        }
+    ]
 }
 ```
 
@@ -109,14 +108,14 @@ The environment can be specified in `testEnvironments.json` in the root of your 
 The environment can be specified in `testEnvironments.json` in the root of your solution using the following schema and replacing the `\<ssh://user@hostname:22\>` with your SSH remoteUri.
 ```json
 {
-"version": "1",
-"environments": [
-    {
-    "name": "ssh-remote",
-    "type": "ssh",
-    "remoteUri": "ssh://user@hostname:22"
-    }
-]
+    "version": "1",
+    "environments": [
+        {
+            "name": "ssh-remote",
+            "type": "ssh",
+            "remoteUri": "ssh://user@hostname:22"
+        }
+    ]
 }
 ```
 

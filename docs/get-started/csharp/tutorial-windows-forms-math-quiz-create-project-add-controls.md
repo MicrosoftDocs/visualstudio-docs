@@ -36,7 +36,6 @@ You need Visual Studio to complete this tutorial. Visit the [Visual Studio downl
 
 When you create a math quiz, the first step is to create a Windows Forms App project.
 
-
 ::: moniker range="vs-2019"
 
 1. Open Visual Studio.

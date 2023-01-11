@@ -53,7 +53,6 @@ Save the following example Dockerfile to a new file on your disk. If the file is
 
 1. Save the following content to C:\BuildTools\Dockerfile.
 
-
    ::: moniker range="vs-2019"
 
    ```dockerfile
@@ -103,8 +102,8 @@ Save the following example Dockerfile to a new file on your disk. If the file is
    ```dockerfile
    # escape=`
 
-   # Use the latest Windows Server Core 2019 image.
-   FROM mcr.microsoft.com/windows/servercore:ltsc2019
+   # Use the latest Windows Server Core 2022 image.
+   FROM mcr.microsoft.com/windows/servercore:ltsc2022
 
    # Restore the default Windows shell for correct batch processing.
    SHELL ["cmd", "/S", "/C"]
@@ -146,7 +145,6 @@ Save the following example Dockerfile to a new file on your disk. If the file is
 
 1. Run the following command within that directory.
 
-
    ::: moniker range="vs-2019"
 
    ```shell
@@ -178,7 +176,6 @@ Now that you have created an image, you can run it in a container to do both int
 1. Open a command prompt.
 
 1. Run the container to start a PowerShell environment with all developer environment variables set:
-
 
    ::: moniker range="vs-2019"
 

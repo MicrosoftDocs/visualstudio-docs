@@ -5,8 +5,8 @@ description: In this quickstart, you use Visual Studio and the Flask framework t
 ms.date: 09/14/2021
 ms.technology: vs-python
 ms.topic: quickstart
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.custom: [vs-acquisition]
 ms.workload:
@@ -18,7 +18,6 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this 5-10 minute introduction to Visual Studio as a Python IDE, you create a simple Python web application based on the Flask framework. You create the project through discrete steps that help you learn about Visual Studio's basic features.
-
 
 ::: moniker range="vs-2019"
 
@@ -37,7 +36,6 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 ## Create the project
 
 The following steps create an empty project that serves as a container for the application:
-
 
 ::: moniker range="vs-2019"
 1. Open Visual Studio 2019.

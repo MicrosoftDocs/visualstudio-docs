@@ -47,7 +47,6 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 
 ## Deploy the container to Azure
 
-
 :::moniker range="vs-2019"
 
 1. Right-click your project in **Solution Explorer** and choose **Publish**.

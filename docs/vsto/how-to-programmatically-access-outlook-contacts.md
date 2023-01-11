@@ -32,7 +32,6 @@ ms.workload:
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_OL_AccessContacts/thisaddin.vb" id="Snippet1":::
  ---
 
-
 ## Compile the code
  This example requires:
 

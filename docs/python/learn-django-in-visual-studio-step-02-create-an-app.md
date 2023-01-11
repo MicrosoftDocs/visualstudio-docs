@@ -5,8 +5,8 @@ description: A walkthrough of Django basics in the context of Visual Studio proj
 ms.date: 02/03/2022
 ms.custom: devdivchpfy22
 ms.topic: tutorial
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -52,8 +52,6 @@ Using either method, create an app with the name "HelloDjangoApp". Now, the "Hel
 
 :::image type="content" source="media/django/step02-django-app-in-solution-explorer.png" alt-text="Django app files in Solution Explorer.":::
 
-
-::: moniker range=">=vs-2019"
 | Item | Description |
 | --- | --- |
 | **migrations** | A folder in which Django stores scripts that update the database to align with the changes to the models. Django's migration tools then apply the necessary changes to any previous version of the database to match the current models. Using migrations, you keep your focus on your models and let Django handle the underlying database schema. Migrations are discussed in the [Django documentation](https://docs.djangoproject.com/en/3.2/topics/migrations/). For now, the folder contains an *\_\_init\_\_.py* file (indicating that the folder defines its own Python package). |
@@ -64,7 +62,6 @@ Using either method, create an app with the name "HelloDjangoApp". Now, the "Hel
 | **models.py** | Models are data objects, identified by functions, through which views interact with the app's underlying database. Django provides the database connection layer so that the apps don't concern themselves with the models details. The *models.py* file is a default place where you create your models. Initially, the *models.py* file contains only the statement, `from django.db import models`. |
 | **tests.py** | A Python file that contains the basic structure of unit tests. |
 | **views.py** | Views are similar to web pages, which take an HTTP request and returns an HTTP response. Usually, views render as HTML and the web browsers know how to display, but a view doesn't necessarily have to be visible (like an intermediate form). A view is defined by a Python function whose responsibility is to render the HTML to the browser. The *views.py* file is a default place where you create your views. Initially, the *views.py* file contains only the statement, `from django.shortcuts import render`. |
-::: moniker-end
 
 When you use the name "HelloDjangoApp," the contents of the *apps.py* file appears as:
 

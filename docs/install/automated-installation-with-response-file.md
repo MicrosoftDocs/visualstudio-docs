@@ -1,7 +1,7 @@
 ---
 title: Automate installation with a response file
-description: Learn how to create a JSON response file that helps you automate your Visual Studio installation
-ms.date: 12/7/2021
+description: Learn how to create a response JSON file that helps you automate your Visual Studio installation
+ms.date: 11/3/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - response file
@@ -52,7 +52,6 @@ When Visual Studio setup is run from a layout folder, the setup will _automatica
 
 The base `response.json` file in a layout should look similar to the following example, except that it would include the value for the product and channel that you want to install:
 
-
 ::: moniker range="=vs-2019"
 
 ```Default response.json
@@ -95,10 +94,9 @@ When you create or update a layout, a response.template.json file is also create
 
 ## Example customized layout response file content
 
-
 ::: moniker range="=vs-2019"
 
-The following `response.json` file example will initialize a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to point back to the layout. Note that for Visual Studio 2019, the update location (channelURI) can only be configured during initial installation and cannot be changed after the fact _unless_ you use the functionality in the latest installer. Refer to the [Set defaults for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md#configuring-source-location-for-updates)  and the [Configure your layout to always include and provide the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) for information on how to configure this.
+The following `response.json` file example will initialize a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to look for sources in the layout. Note that for Visual Studio 2019, the update location (channelURI) can only be configured during initial installation and cannot be changed after the fact _unless_ you use the functionality in the latest installer. Refer to the [Set defaults for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md#configuring-source-location-for-updates)  and the [Configure your layout to always include and provide the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) for information on how to configure this.
 
 ```Example response.json
 {
@@ -113,7 +111,7 @@ The following `response.json` file example will initialize a Visual Studio Enter
   "passive": false,
   "includeRecommended": true,
   "norestart": false,
-
+  
   "addProductLang": [
     "en-US",
     "fr-FR"
@@ -135,7 +133,7 @@ The following `response.json` file example will initialize a Visual Studio Enter
 
 ::: moniker range="=vs-2022"
 
-The following `response.json` file example will initialize a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to point back to the layout. 
+The following `response.json` file example will initialize a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, to always remove components that have transitioned to out of support when the client is being updated, and to have the update location configured to look for sources in the layout. See the list of out-of-support components [here](out-of-support-components.md).
 
 ```Example response.json
 {
@@ -150,6 +148,7 @@ The following `response.json` file example will initialize a Visual Studio Enter
   "passive": false,
   "includeRecommended": true,
   "norestart": false,
+  "removeOos": true,
 
   "addProductLang": [
     "en-US",

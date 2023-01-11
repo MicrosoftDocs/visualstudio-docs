@@ -44,11 +44,8 @@ ms.workload:
 
 This article describes how to start a Visual Studio debugging session for a Universal Windows Platform (UWP) app. UWP apps can be written in XAML and C++, XAML and C#/Visual Basic. To start debugging a UWP app, configure the debugging session and choose the way to start the app.
 
-::: moniker range=">=vs-2019"
 > [!NOTE]
 > Starting in Visual Studio 2019, UWP apps for HTML and JavaScript are no longer supported.
-::: moniker-end
-
 
 ## <a name="BKMK_The_easy_way_to_start_debugging"></a>Start debugging from the Visual Studio toolbar
 
@@ -204,7 +201,6 @@ To attach the debugger to a [!INCLUDE[win8_appname_long](../debugger/includes/wi
 1. Select **Attach**.
 
  Visual Studio attaches the debugger to the process. Execution continues until a breakpoint is reached, you manually suspend execution, an unhandled exception occurs, or the app ends.
-
 
 ## See also
 

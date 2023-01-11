@@ -1,7 +1,7 @@
 ---
 title: "Manage npm packages"
 description: Visual Studio helps you to manage packages using the Node.js package manager (npm)
-ms.date: "12/20/2021"
+ms.date: "12/13/2022"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -102,7 +102,6 @@ npm packages are shown in Solution Explorer. The entries under the **npm** node 
 listed in package.json
 * ![Missing package](../javascript/media/missing-npm.png) - Not installed, but listed in package.json
 
-::: moniker range=">=vs-2019"
 Right-click the **npm** node to take one of the following actions:
 
 * **Install New npm Packages** Opens the UI to install new packages.
@@ -114,8 +113,6 @@ Right-click a package node to take one of the following actions:
 * **Install npm Package(s)** Runs the npm install command to install the package version listed in *package.json*. (Runs `npm install`.)
 * **Update npm Package(s)** Updates the package to the latest version, according to the SemVer range specified in *package.json*. (Run `npm update --save`.) SemVer ranges are typically specified using "~" or "^".
 * **Uninstall npm Package(s)** Uninstalls the package and removes it from *package.json* (Runs `npm uninstall --save`.)
-::: moniker-end
-
 
 >[!NOTE]
 > For help resolving issues with npm packages, see [Troubleshooting](#troubleshooting-npm-packages).

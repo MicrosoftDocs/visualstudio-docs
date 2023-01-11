@@ -105,7 +105,6 @@ ms.workload:
  You can use some of the [DocumentProperties](/dotnet/api/microsoft.office.tools.excel.workbook.builtindocumentproperties) like the **Last Save Time** to verify that the save was successful.  
 
 
-
 ## Robust programming
  Interactively canceling any of the methods that save or copy the workbook raises a run-time error in your code. For example, if your procedure calls the <xref:Microsoft.Office.Tools.Excel.Workbook.SaveAs%2A> method but does not disable prompts from Excel, and your user clicks **Cancel** when prompted, Excel raises a run-time error.
 

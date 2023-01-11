@@ -5,8 +5,8 @@ description: A walkthrough of Django basics in the context of Visual Studio proj
 ms.date: 02/16/2022
 ms.custom: devdivchpfy22
 ms.topic: tutorial
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -20,10 +20,7 @@ ms.workload:
 
 **Previous step: [Use the full Django Web Project template](learn-django-in-visual-studio-step-04-full-django-project-template.md)**
 
-
-::: moniker range=">=vs-2019"
 The "Django Web Project" template includes a basic authentication flow, as authentication is a common need for web apps. When you use any of the Django project templates, Visual Studio includes all the necessary modules for authentication in the Django project's *settings.py* file.
-::: moniker-end
 
 In this step, you learn:
 
@@ -157,18 +154,15 @@ The following steps exercise the authentication flow and describe the parts of t
 
     1. Install the docutils Python package into your environment. A great way to install is to add "docutils" to your *requirements.txt* file. Then, go to **Solution Explorer**, expand the project, expand the **Python Environments** node, and then right-click the environment you're using and select **Install from requirements.txt**.
 
-    1. Open the Django project's *urls.py* file and remove the default comments from the following entries:
+    1. Open the Django project's *urls.py* file and add the following:
 
         ```python
         from django.conf.urls import include
         from django.contrib import admin
         admin.autodiscover()
 
-        # ...
         urlpatterns = [
-            # ...
-            url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
-            url(r'^admin/', include(admin.site.urls)),
+            path('admin/doc/', include('django.contrib.admindocs.urls'))
         ]
         ```
 
@@ -181,7 +175,7 @@ The following steps exercise the authentication flow and describe the parts of t
 1. The final part to the authentication flow is logging off. As you can see in *loginpartial.html*, the **Log off** link simply does a POST to the relative URL "/login", which is handled by the built-in view `django.contrib.auth.views.logout`. This view doesn't display any UI and just navigates to the home page (as shown in *urls.py* for the "^logout$" pattern). If you want to display a logoff page, first change the URL pattern as follows to add a "template_name" property and remove the "next_page" property:
 
     ```python
-    url(r'^logout$',
+    path('logout/',
         django.contrib.auth.views.logout,
         {
             'template_name': 'app/loggedoff.html',
@@ -211,8 +205,6 @@ Answer: The `{% csrf_token %}` tag includes Django's built-in [cross-site reques
 
 ## Next steps
 
-
-::: moniker range=">=vs-2019"
 > [!Note]
 > If you've been committing your Visual Studio solution to source control throughout the course of this tutorial, now is a good time to do another commit. Your solution should match the tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-django](https://github.com/Microsoft/python-sample-vs-learning-django).
 
@@ -227,7 +219,7 @@ Running a web app on your development computer is just one step in making the ap
 - Change the app from SQLite to a production-level data store such as PostgreSQL, MySQL, and SQL Server (all of which can be hosted on Azure). As described on [When to use SQLite](https://www.sqlite.org/whentouse.html) (sqlite.org), SQLite works fine for low to medium traffic sites with fewer than 100 K hits/day. However, SQLite isn't recommended for higher volumes. SQLite is also limited to a single computer, so it can't be used in any multi-server scenario such as load-balancing and geo-replication. For information on Django's support for other databases, see [Database setup](https://docs.djangoproject.com/en/2.0/intro/tutorial02/#database-setup). You can also use the [Azure SDK for Python](/azure/python/) to work with Azure storage services like tables and blobs.
 
 - Set up a continuous integration/continuous deployment pipeline on a service like Azure DevOps. In addition to working with source control (via Azure Repos or GitHub, or elsewhere), you can configure an Azure DevOps Project to automatically run your unit tests as a pre-requisite for release. You can also configure the pipeline to deploy to a staging server for more tests before deploying to production. Azure DevOps, furthermore, integrates with monitoring solutions like App Insights and closes the whole cycle with agile planning tools. For more information, see [Create a CI/CD pipeline for Python with the Azure DevOps project](/azure/devops-project/azure-devops-project-python?view=vsts&preserve-view=true) and also the general [Azure DevOps documentation](/azure/devops/?view=vsts&preserve-view=true).
-::: moniker-end
+
 ## Go deeper
 
 - [User authentication in Django](https://docs.djangoproject.com/en/2.0/topics/auth/) (docs.djangoproject.com)

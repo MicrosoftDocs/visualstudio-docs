@@ -77,7 +77,6 @@ Use domain-specific language to:
 Learn more:
 - [Modeling SDK for Visual Studio - Domain-Specific Languages](../modeling/modeling-sdk-for-visual-studio-domain-specific-languages.md)
 
-
 ## <a name="VersionSupport" />Edition support for architecture and modeling tools
 
 Visual Studio is available in several editions. Not all of these provide support for the architecture and modeling tools. The following table shows the availability of each tool.

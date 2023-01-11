@@ -38,10 +38,9 @@ When the debugger breaks on an exception, an exception error icon appears to the
 You can instantly read the exception type and exception message in the Exception Helper, and whether the exception was thrown or unhandled. You can inspect and view properties of the Exception object by clicking the **View Details** link.
 
 ## Analyze null references
-Starting in Visual Studio 2017, for both .Net and C/C++ code, when you hit a `NullReferenceException` or an `AccessViolation`, you see null analysis information in the Exception Helper. The analysis is displayed as text beneath the exception message. In the illustration below, the information is shown as "**s** was null.".
+Starting in Visual Studio 2017, for both .NET and C/C++ code, when you hit a `NullReferenceException` or an `AccessViolation`, you see null analysis information in the Exception Helper. The analysis is displayed as text beneath the exception message. In the illustration below, the information is shown as "**s** was null.".
 
 ![Exception helper null analysis](media/debugger-exception-helper-default.png)
-
 
 > [!NOTE]
 > Null reference analysis in managed code requires .NET version 4.6.2. Null analysis is currently not supported for Universal Windows Platform (UWP) and any other .NET Core applications. It is only available while debugging code that does not have any Just-In-Time (JIT) code optimizations.

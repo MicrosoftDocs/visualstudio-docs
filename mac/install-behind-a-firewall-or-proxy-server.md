@@ -3,8 +3,8 @@ title: "Install and use Visual Studio for Mac with a firewall or proxy server"
 titleSuffix: ""
 description: "This document provides a list of hosts that must be allowed in your firewall to allow Visual Studio for Mac (and its workloads, including Xamarin) to work in a corporate environment."
 ms.assetid: 79C0F1A3-0C13-4E55-A820-1138A4082B77
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.topic: reference
 ms.date: 01/10/2022
@@ -41,6 +41,12 @@ Because the Visual Studio for Mac Installer downloads from various domains and d
 | dl.xamarin.com | Installer Packages|
 | dc.services.visualstudio.com| Crash Reporting |
 
+### NuGet
+
+| Domain | Port(s)|Purpose|
+| ----------------------|------------------|------------------|
+| api.nuget.org | 80/443|NuGet API|
+
 ### Third party domains
 
 | Domain| Purpose |
@@ -63,6 +69,8 @@ To make sure that you have access to every feature that you need in Visual Studi
 | addins.monodevelop.com | 80/443| Extension Services |
 | visualstudio-devdiv-c2s.msedge.net | 80/443| Experimental Feature and Notifications |
 | targetednotifications.azurewebsites.net|  80/443| Used to filter a global list of notifications to a list that is applicable only to specific types of machines/usage scenarios|
+| nw-umwatson.events.data.microsoft.com | Crash and Error Reporting | 
+| vortex.data.microsoft.com | Crash and Error Reporting |
 
 ### Identity
 

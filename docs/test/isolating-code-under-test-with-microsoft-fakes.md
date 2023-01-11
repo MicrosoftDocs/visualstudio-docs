@@ -32,9 +32,7 @@ Fakes come in two flavors:
 
 - Visual Studio Enterprise
 - A .NET Framework project
-::: moniker range=">=vs-2019"
 - .NET Core, .NET 5.0 or later, and SDK-style project support previewed in Visual Studio 2019 Update 6, and is enabled by default in Update 8. For more information, see [Microsoft Fakes for .NET Core and SDK-style projects](/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects).
-::: moniker-end
 
 > [!NOTE]
 > Profiling with Visual Studio isn't available for tests that use Microsoft Fakes.
@@ -89,9 +87,9 @@ For a more detailed description, see [Use stubs to isolate parts of your applica
 
    1. In **Solution Explorer**, 
        - For an older .NET Framework Project (non-SDK style), expand your unit test project's **References** node.
-       ::: moniker range=">=vs-2019"
+
        - For an SDK-style project targeting .NET Framework, .NET Core, or .NET 5.0 or later, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies**, **Projects**, or **Packages**.
-       ::: moniker-end
+
        - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar to see the **References** node.
    2. Select the assembly that contains the class definitions for which you want to create shims. For example, if you want to shim **DateTime**, select **System.dll**.
 
@@ -267,7 +265,6 @@ You can also create shims for specific instances, for constructors, and for prop
 
 Since Microsoft Fakes requires Visual Studio Enterprise, the generation of Fakes Assemblies requires that you build your project using [Visual Studio Build Task](/azure/devops/pipelines/tasks/build/visual-studio-build?view=azure-devops&preserve-view=true).
 
-::: moniker range=">=vs-2019"
 > [!NOTE]
 > An alternative to this is to check your Fakes Assemblies into the CI and use the [MSBuild Task](../msbuild/msbuild-task.md?view=vs-2019&preserve-view=true). When you do this, you need to ensure that you've an assembly reference to the generated Fakes assembly in your test project, similar to the following code snippet :
 
@@ -280,17 +277,12 @@ Since Microsoft Fakes requires Visual Studio Enterprise, the generation of Fakes
 ```
 
 This reference is required to be added manually, specifically to SDK-style projects (.NET Core, .NET 5.0, and .NET Framework) because we've moved to implicitly adding assembly references to your test project. If you follow this method, you need to ensure the fakes assembly is updated when the parent assembly changes.
-::: moniker-end
 
 ### Running Microsoft Fakes tests
 
 As long as Microsoft Fakes assemblies are present in the configured `FakesAssemblies` directory (The default being `$(ProjectDir)FakesAssemblies`), you can run tests using the [vstest task](/azure/devops/pipelines/tasks/test/vstest?view=azure-devops&preserve-view=true).
 
-::: moniker range=">=vs-2019"
 Distributed testing with the [vstest task](/azure/devops/pipelines/tasks/test/vstest?view=azure-devops&preserve-view=true) .NET Core and .NET 5.0 or later projects using Microsoft Fakes requires Visual Studio 2019 Update 9 Preview `20201020-06` and higher.
-::: moniker-end
-
-::: moniker range=">=vs-2019"
 
 ## Transitioning your .NET Framework test projects that use Microsoft Fakes to SDK-style .NET Framework, .NET Core, or .NET 5.0 projects or later projects
 
@@ -306,7 +298,6 @@ You'll need minimal changes in your .NET Framework set up for Microsoft Fakes to
   If this reference is required by your code, you may get compilation errors.
   ```
   This warning is because of necessary changes made in Fakes generation and can be ignored. It can be avoided by removing the assembly reference from the project file, because we now implicitly add them during the build.
-::: moniker-end
 
 ## Microsoft Fakes support 
 ### Microsoft Fakes in older projects targeting .NET Framework (non-SDK style).
@@ -320,7 +311,6 @@ You'll need minimal changes in your .NET Framework set up for Microsoft Fakes to
 - Microsoft Fakes tests for projects that target .NET Core and .NET 5.0 or later can run with Microsoft.TestPlatform NuGet packages with versions [16.9.0-preview-20210106-01](https://www.nuget.org/packages/Microsoft.TestPlatform/16.9.0-preview-20210106-01) and higher.
 - Code coverage is supported for test projects targeting .NET Framework using Microsoft Fakes in Visual Studio Enterprise version 2015 and higher.
 - Code coverage support for test projects targeting .NET Core and .NET 5.0 or later using Microsoft Fakes is available in Visual Studio 2019 update 9 and higher.
-
 
 ## In this section
 

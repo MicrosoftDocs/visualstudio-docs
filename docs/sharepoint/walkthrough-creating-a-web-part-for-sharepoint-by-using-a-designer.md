@@ -50,13 +50,11 @@ First, create a web part project by using the **Visual Web Part** project templa
 
 2. On the menu bar, choose **File** > **New** > **Project**.
 
-::: moniker range=">=vs-2019"
 3. On the **Create a New Project** dialog select the *SharePoint Empty Project** for the particular version of SharePoint you have installed. For example, if you have SharePoint 2019 install select the **SharePoint 2019 - Empty Project** template.
     [!INCLUDE[new-project-dialog-search](../sharepoint/includes/new-project-dialog-search-md.md)]
 
 4. In the **Name** box, enter **TestProject1**, then choose the **Create** button.
 
-::: moniker-end
 5. In the **What is the trust level for this SharePoint solution?** section, choose the **Deploy as a farm solution** option button.
 
 6. Choose the **Finish** button to accept the default local SharePoint site.

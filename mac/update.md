@@ -1,8 +1,8 @@
 ---
 title: "Update Visual Studio for Mac"
 description: "Learn how to update Visual Studio for Mac and to access preview releases."
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 04/24/2022
 ms.custom: devdivchpfy22
@@ -27,11 +27,6 @@ You can use the **Visual Studio Update** box to check for new updates, change ch
 
 To open the **Visual Studio Update**, select **Visual Studio > Check for Updates...**:
 
-::: moniker range="vsmac-2019"
-
-:::image type="content" source="media/update-image1.png" alt-text="Screenshot of the Check for updates option off the Visual Studio menu.":::
-
-::: moniker-end
 
 ::: moniker range="vsmac-2022"
 
@@ -41,11 +36,6 @@ To open the **Visual Studio Update**, select **Visual Studio > Check for Updates
 
 This displays the **Visual Studio Update** box:
 
-::: moniker range="vsmac-2019"
-
-:::image type="content" source="media/update-image2.png" alt-text="Screenshot of Visual Studio Update dialog box.":::
-
-::: moniker-end
 
 ::: moniker range="vsmac-2022"
 
@@ -57,11 +47,6 @@ This displays the **Visual Studio Update** box:
 
 To change the channel, select it from the **Update channel:** drop-down and select **Switch Channel**:
 
-::: moniker range="vsmac-2019"
-
-:::image type="content" source="media/update-image3.png" alt-text="Screenshot showing how to switch the update channel.":::
-
-::: moniker-end
 
 ::: moniker range="vsmac-2022"
 
@@ -77,11 +62,6 @@ If you've selected the option to **Check Automatically**, the **Visual Studio Up
 
 Once the updates are downloaded, select **Restart and Install Updates** to start installing the updates:
 
-::: moniker range="vsmac-2019"
-
-:::image type="content" source="media/update-image4.png" alt-text="Screenshot of restart and install updates after updates are downloaded.":::
-
-::: moniker-end
 
 ::: moniker range="vsmac-2022"
 

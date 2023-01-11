@@ -2,7 +2,7 @@
 title: "Unblock the remote tools download"
 description: Unblock the download of the remote tools on Windows Server, which can be time-consuming because of the default IE security settings.
 ms.custom: SEO-VS-2020
-ms.date: "07/19/2018"
+ms.date: "08/30/2022"
 ms.topic: "troubleshooting"
 helpviewer_keywords:
   - "remote debugging, unblock download"
@@ -17,7 +17,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The default security settings in Internet Explorer on Windows Server can make it time-consuming to download components such as the remote tools.
+For older versions of Windows Server that include Internet Explorer, the default security settings in Internet Explorer on Windows Server can make it time-consuming to download components such as the remote tools.
 
 * Enhanced Security Configuration is enabled on Internet Explorer, which prevents you from opening websites and accessing web resources unless the domain containing the resource is explicitly allowed (that is, trusted). Although you can disable this setting, we don't recommend it because it can present a security risk.
 

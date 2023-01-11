@@ -20,7 +20,6 @@ ms.workload:
 
 By changing these options, you can change the behavior related to IntelliSense and the browsing database when you're programming in C or C++. These features are truly experimental and may be modified or removed from Visual Studio in a future release.
 
-
 To access this property page, press **Ctrl**+**Q** to activate the search box and then type **experimental**. Search finds the page after the first few letters. You can also get to it by choosing **Tools** > **Options** and expanding **Text Editor**, then **C/C++**, and then choosing **Experimental**.
 
 These features are available in a Visual Studio installation.
@@ -31,7 +30,6 @@ These features are available in a Visual Studio installation.
 ## Enable Predictive IntelliSense
 
 Predictive IntelliSense limits the number of results displayed in the IntelliSense dropdown list so that you see only results that are relevant in the context. For example, if you type `int x =` and invoke the IntelliSense dropdown, you will see only integers or functions that return integers. Predictive IntelliSense is turned off by default.
-
 
 ## See also
 

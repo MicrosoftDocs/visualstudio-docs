@@ -33,9 +33,6 @@ Your solution should also include a web performance test that browses through th
 
 ## Create a SQL database
 
-
-::: moniker range=">=vs-2019"
-
 1. If you don’t have Visual Studio Enterprise, you can download it from the [Visual Studio Downloads](https://visualstudio.microsoft.com/downloads) page.
 
 2. Create a SQL database.
@@ -61,8 +58,6 @@ Your solution should also include a web performance test that browses through th
 7. Add data to the fields.
 
      ![Add data to the fields](../test/media/web_test_databinding_sql_addnewfieldsadddata.png)
-
-::: moniker-end
 
 ## Add the data source
 
@@ -195,7 +190,7 @@ Your solution should also include a web performance test that browses through th
 
 6. Select the .NET Framework Data Provider for OLE DB.
 
-     ![Select the .NET framework OLE DB data provider](../test/media/web_test_databinding_adddatasourcecolortext2.png)
+     ![Select the .NET Framework OLE DB data provider](../test/media/web_test_databinding_adddatasourcecolortext2.png)
 
 7. Choose **Advanced**.
 

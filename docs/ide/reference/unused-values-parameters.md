@@ -4,8 +4,8 @@ description: Learn about unused value assignments, variables, and parameters and
 ms.custom: SEO-VS-2020
 ms.date: 02/15/2019
 ms.topic: reference
-author: kendrahavens
-ms.author: kehavens
+author: mikadumont
+ms.author: midumont 
 manager: jmartens
 ms.technology: vs-ide-general
 dev_langs:
@@ -41,5 +41,5 @@ This refactoring applies to:
 
 ## See also
 
-- [Refactoring](../refactoring-in-visual-studio.md)
-- [Tips for .NET Developers](../csharp-developer-productivity.md)
+- [Overview of Code Refactoring in Visual Studio](../refactoring-in-visual-studio.md)
+- [The Visual Studio productivity guide for C# developers](../csharp-developer-productivity.md)

@@ -1,8 +1,8 @@
 ---
 title: "Azure Functions on MacOs"
 description: "Getting started with Azure Functions in Visual Studio for Mac."
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 04/02/2021
 ms.technology: vs-ide-install

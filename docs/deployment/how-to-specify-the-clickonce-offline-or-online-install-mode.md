@@ -38,6 +38,8 @@ The `Install Mode` can be set on the **Publish** page of the **Project Designer*
 
 2. Click the **Publish** tab.
 
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
+
 3. In the **Install Mode and Settings** area, click the **The application is available online only** option button.
 
 ### To make a ClickOnce application available online or offline

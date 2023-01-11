@@ -28,7 +28,7 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
 
 ## Use MSBuild to reproduce .NET Framework ClickOnce application deployments
 
- When you invoke msbuild /target:publish at the command line, it tells the MSBuild system to build the project and create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application in the publish folder. This is equivalent to selecting the **Publish** command in the IDE.
+ When you invoke msbuild /target:publish at the command line, it tells the MSBuild system to build the project and create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application in the publish folder. This command is equivalent to selecting the **Publish** command in the IDE.
 
  This command executes *msbuild.exe*, which is on the path in the Visual Studio command-prompt environment.
 
@@ -79,22 +79,19 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
 > [!NOTE]
 > The MSBuild system uses the **PublishDir** option to specify the location for output, for example `msbuild /t:publish /p:PublishDir="<specific location>"`.
 
-::: moniker range=">=vs-2019"
-
 ## Build .NET ClickOnce applications from the command line
 
-Building .NET ClickOnce applications from the command line is a similar experience except, you need to provide an additional property for the publish profile on the MSBuild command line. The easiest way to create a publish profile is by using Visual Studio.  See [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md) for more information.
+For .NET Core 3.1 and .NET 5 and later, building .NET ClickOnce applications from the command line is a similar experience except, you need to provide an additional property for the publish profile on the MSBuild command line. The easiest way to create a publish profile is by using Visual Studio.  See [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md) for more information.
 
 Once you have the publish profile created, you can provide the pubxml file as a property on the msbuild command line. For example:
 
 ```cmd
     msbuild /t:publish /p:PublishProfile=<pubxml file> /p:PublishDir="<specific location>"
 ```
-::: moniker-end
 
 ## Publish properties
 
- When you publish the application in the above procedures, the following properties are inserted into your project file by the Publish Wizard or in the publish profile file for .NET Core 3.1, or later projects. These properties directly influence how the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is produced.
+ When you publish the application in the above procedures, the following properties are inserted into your project file by the Publish Wizard or in the publish profile file for .NET projects (.NET Core 3.1, .NET 5, and later). These properties directly influence how the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is produced.
 
  In *CmdLineDemo.vbproj* / *CmdLineDemo.csproj*:
 
@@ -124,38 +121,33 @@ Once you have the publish profile created, you can provide the pubxml file as a 
 msbuild /target:publish /property:BootstrapperEnabled=false
  ```
 
-::: moniker range=">=vs-2019"
-For .NET Core 3.1, or later, projects these settings are provided in the pubxml file.
+For .NET projects (.NET Core 3.1, .NET 5, and later), these settings are provided in the pubxml file.
 
  Publishing properties are controlled in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] from the **Publish**, **Security**, and **Signing** property pages of the **Project Designer**. Below is a description of the publishing properties, along with an indication of how each is set in the various property pages of the application designer:
 
 > [!NOTE]
-> For .NET Windows desktop projects, these settings are now found in the Publish Wizard
-::: moniker-end
+> For .NET projects, these settings are now found in the Publish tool.
 
 - `AssemblyOriginatorKeyFile` determines the key file used to sign your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifests. This same key may also be used to assign a strong name to your assemblies. This property is set on the **Signing** page of the **Project Designer**.
-::: moniker range=">=vs-2019"
-For .NET windows applications, this setting remains in the project file
-::: moniker-end
+
+For .NET windows applications, this setting remains in the project file.
 
   The following properties are set on the **Security** page:
 
 - **Enable ClickOnce Security Settings** determines whether [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests are generated. When a project is initially created, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifest generation is off by default. The wizard will automatically turn this flag on when you publish for the first time.
 
 - **TargetZone** determines the level of trust to be emitted into your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. Possible values are "Internet", "LocalIntranet", and "Custom". Internet and LocalIntranet will cause a default permission set to be emitted into your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. LocalIntranet is the default, and it basically means full trust. Custom specifies that only the permissions explicitly specified in the base *app.manifest* file are to be emitted into the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. The *app.manifest* file is a partial manifest file that contains just the trust information definitions. It is a hidden file, automatically added to your project when you configure permissions on the **Security** page.
--
-::: moniker range=">=vs-2019"
+
 > [!NOTE]
-> For .NET Core 3.1, or later, Windows desktop projects, these Security settings are not supported.
-::: moniker-end
+> For .NET projects, these Security settings are not supported.
 
   The following properties are set on the **Publish** page:
 
 - `PublishUrl` is the location where the application will be published to in the IDE. It is inserted into the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest if neither the `InstallUrl` or `UpdateUrl` property is specified.
 
-- `ApplicationVersion` specifies the version of the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. This is a four-digit version number. If the last digit is a "*", then the `ApplicationRevision` is substituted for the value inserted into the manifest at build time.
+- `ApplicationVersion` specifies the version of the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. The version is a four-digit number. If the last digit is a "*", then the `ApplicationRevision` is substituted for the value inserted into the manifest at build time.
 
-- `ApplicationRevision` specifies the revision. This is an integer which increments each time you publish in the IDE. Notice that it is not automatically incremented for builds performed at the command-line.
+- `ApplicationRevision` specifies the revision. This value is an integer which increments each time you publish in the IDE. Notice that it is not automatically incremented for builds performed at the command-line.
 
 - `Install` determines whether the application is an installed application or a run-from-Web application.
 
@@ -168,18 +160,16 @@ For .NET windows applications, this setting remains in the project file
 - `UpdateEnabled` indicates whether the application should check for updates.
 
 - `UpdateMode` specifies either Foreground updates or Background updates.
-::: moniker range=">=vs-2019"
-   For .NET Core 3.1, or later, projects, Background is not supported.  
-::: moniker-end
+
+   For .NET projects (.NET Core 3.1, .NET 5, and later), Background is not supported.  
+
 - `UpdateInterval` specifies how frequently the application should check for updates.
-::: moniker range=">=vs-2019"
-   For .NET Core 3.1, or later, this setting is not supported.
-::: moniker-end
+
+   For .NET projects, this setting is not supported.
 
 - `UpdateIntervalUnits` specifies whether the `UpdateInterval` value is in units of hours, days, or weeks.
-::: moniker range=">=vs-2019"
-   For .NET Core 3.1, or later, this setting is not supported.
-::: moniker-end
+
+   For .NET projects, this setting is not supported.
 
 - `UpdateUrl` (not shown) is the location from which the application will receive updates. If specified, this value is inserted into the application manifest.
 

@@ -24,6 +24,8 @@
         href: manage-mpn-subscriptions.md
     - name: Microsoft for Startups
       href: program-startups.md
+  - name: Get started with a new subscription
+    href: new-subscriber.md
   - name: Sign in to subscriber portal
     items:
     - name: Sign in with Microsoft Accounts
@@ -56,6 +58,8 @@
   href: access-github.md
 - name: Visual Studio IDE
   href: vs-ide-benefit.md
+- name: Sign in to use Visual Studio
+  href: use-visual-studio-without-key.md
 - name: Azure benefits
   items:
   - name: Azure DevTest offer
@@ -90,6 +94,8 @@
       href: vs-windows-dev.md
     - name: Windows Virtual Desktop
       href: vs-windows-virtual-desktop.md  
+    - name: Azure Dev Box
+      href: microsoft-dev-box.md
   - name: Professional development
     items:
     - name: CODE Magazine

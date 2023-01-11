@@ -1,8 +1,8 @@
 ---
 title: "Building ASP.NET Core applications"
 description: "This article walks you through creating and exploring ASP.NET Core applications with Visual Studio for Mac."
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 05/30/2019
 ms.assetid: 771C2F8E-46BC-4280-AFE8-ED9D5C7790CE
@@ -37,7 +37,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 2. Select **File > New Solution**.
 
-3. Select the **.NET Core > App** category and the **ASP.NET Core Web App (C#)** template. Click **Next**.
+3. Select the **.NET Core > App** category and the **ASP.NET Core Web App Model-View-Controller (C#)** template. Click **Next**.
 
     ![Screenshot showing how to select a Web Application template for your new project.](media/netcore-image1.png)
 

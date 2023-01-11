@@ -1,10 +1,10 @@
 ---
 title: Refactor Python code
 description: Visual Studio makes it easy to refactor Python code by renaming identifiers, extracting methods, adding imports, and removing unused imports.
-ms.date: 02/06/2022
+ms.date: 08/26/2022
 ms.topic: how-to
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 ms.custom: devdivchpfy22
@@ -19,7 +19,6 @@ ms.workload:
 Visual Studio provides several commands for automatically transforming and cleaning up your Python source code:
 
 - [Rename](#rename) renames a selected class, method, or variable name.
-- [Extract method](#extract-method) creates a new method from the selected code.
 - [Add import](#add-import) provides a smart tag to add a missing import.
 - [Remove unused imports](#remove-unused-imports) removes unused imports.
 
@@ -42,29 +41,6 @@ Visual Studio provides several commands for automatically transforming and clean
 1. Right-click the identifier you wish to rename and select **Rename**, or place the caret in that identifier and select the **Edit** > **Refactor** > **Rename** menu command (**F2**), or select the identifier and press **Ctrl+R**.
 1. In the **Rename** dialog that appears, enter the new name for the identifier and press **Enter**:
 :::image type="content" source="media/vs-2022/code-refactor-rename-1.png" alt-text="Screenshot of Rename prompt for new identifer name.":::
-::: moniker-end
-
-## Extract method
-
-::: moniker range="<=vs-2019"
-
-1. Select the lines of code or the expression to extract into a separate method.
-1. Select the **Edit** > **Refactor** > **Extract method** menu command or press **Ctrl**+**R** > **M**.
-1. In the dialog that appears, enter a new method name, indicate where to extract it to, and select any closure variables. Variables not selected for closure are turned into method arguments:
-:::image type="content" source="media/code-refactor-extract-method-1.png" alt-text="Screenshot of Extract method dialog.":::
-
-1. Select **OK**, and the code is modified.
-:::image type="content" source="media/code-refactor-extract-method-2.png" alt-text="Screenshot showing the effect of extracting a method.":::
-::: moniker-end
-::: moniker range=">=vs-2022"
-
-1. Select the lines of code or the expression to extract into a separate method.
-1. When you place the caret on code sample, Visual Studio provides a smart tag (the wrench icon to the left of the code).
-1. In the dialog that appears, select **Extract** for closure to be turned into method arguments:
-:::image type="content" source="media/vs-2022/code-refactor-extract-method-1.png" alt-text="Screenshot of Extract method dialog.":::
-
-1. Select **OK** and the code is modified.
-:::image type="content" source="media/vs-2022/code-refactor-extract-method-2.png" alt-text="Screenshot of Effects of extracting a method.":::
 ::: moniker-end
 
 ## Add import

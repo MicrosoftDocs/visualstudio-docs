@@ -107,9 +107,9 @@
       href: microsoft-visualstudio-testtools-cppunittestframework-api-reference.md
   - name: Create and run unit tests for UWP apps
     items:
-    - name: Unit test a C++ UWP DLL
+    - name: Test a C++ UWP app
       href: unit-testing-a-visual-cpp-dll-for-store-apps.md
-    - name: Create & run unit tests for UWP apps
+    - name: Test a .NET UWP app
       href: walkthrough-creating-and-running-unit-tests-for-windows-store-apps.md
   - name: Code coverage
     items:
@@ -396,9 +396,5 @@
   items:
   - name: Use a lab environment
     href: lab-management/using-a-lab-environment-for-your-application-lifecycle.md
-  - name: Use build or release management for automated testing
-    href: lab-management/use-build-or-rm-instead-of-lab-management.md
-  - name: Install test agents and test controllers
-    href: lab-management/install-configure-test-agents.md
 - name: Remote testing in Visual Studio
   href: remote-testing.md

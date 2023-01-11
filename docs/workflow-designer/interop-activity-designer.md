@@ -32,7 +32,7 @@ The [Migration](../workflow-designer/migration-activity-designers.md) category t
 
 The **Interop** activity designer can be dragged from **Toolbox** and dropped onto the Workflow Designer surface wherever activities are usually placed, such as inside a <xref:System.Activities.Statements.Sequence>. Dropping the **Interop** activity designer creates an <xref:System.Activities.Statements.Interop> activity with a default **DisplayName** of Interop. You can edit the <xref:System.Activities.Activity.DisplayName%2A> in the header of the **Interop** activity designer, or in the **DisplayName** box of the property grid.
 
-Click the **Click to browse** text in the **ActivityType** box, either on the **Interop**  activity designer or in the property grid, to open the **Browse and Select a .Net Type** dialog box. Only types for workflow 3.0 or workflow 3.5 activities are shown. That is, only types derived from <xref:System.Workflow.ComponentModel.Activity> are shown. For more information about using this box to specify a type, see [Browse and Select a .NET Type Dialog Box](../workflow-designer/browse-and-select-a-dotnet-type-dialog-box.md).
+Click the **Click to browse** text in the **ActivityType** box, either on the **Interop**  activity designer or in the property grid, to open the **Browse and Select a .NET Type** dialog box. Only types for workflow 3.0 or workflow 3.5 activities are shown. That is, only types derived from <xref:System.Workflow.ComponentModel.Activity> are shown. For more information about using this box to specify a type, see [Browse and Select a .NET Type Dialog Box](../workflow-designer/browse-and-select-a-dotnet-type-dialog-box.md).
 
 ### The Interop Properties
 

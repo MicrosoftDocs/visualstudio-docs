@@ -2,7 +2,7 @@
 title: Devenv command line switches
 description: Learn about devenv command-line switches and how to use them to set IDE options, and also build, debug, and deploy projects, all from the command line.
 ms.custom: SEO-VS-2020
-ms.date: 12/10/2018
+ms.date: 08/31/2022
 ms.topic: reference
 helpviewer_keywords:
 - switches, Devenv
@@ -63,13 +63,14 @@ The following command-line switches display the IDE and do the described task.
 
 |Command line switch|Description|
 | - |-----------------|
-|[/Command](command-devenv-exe.md)|Starts the IDE and executes the specified command.<br /><br /> `devenv /command "nav https://docs.microsoft.com/"`|
+|[/Command](command-devenv-exe.md)|Starts the IDE and executes the specified command.<br /><br /> `devenv /command "nav https://learn.microsoft.com/"`|
 |[/DebugExe](debugexe-devenv-exe.md)|Loads a C++ executable under the control of the debugger. This switch isn't available for Visual Basic or C# executables. For more information, see [Automatically start a process in the debugger](../../debugger/debug-multiple-processes.md#BKMK_Automatically_start_an_process_in_the_debugger).<br /><br /> `devenv /debugexe mysln.exe`|
 |[/Diff](diff.md)|Compares two files. Takes four parameters: *SourceFile*, *TargetFile*, *SourceDisplayName* (optional), and *TargetDisplayName* (optional).<br /><br /> `devenv /diff File1 File2 Alias1 Alias2`|
 |[/DoNotLoadProjects](donotloadprojects-devenv-exe.md)|Opens the specified solution without loading any projects.<br /><br /> `devenv /donotloadprojects mysln.sln`|
 |[/Edit](edit-devenv-exe.md)|Opens the specified files in a running instance of this application. If there are no running instances, it starts a new instance with a simplified window layout.<br /><br /> `devenv /edit File1 File2`|
 |[/LCID or /L](lcid-devenv-exe.md)|Sets the default language for the IDE. If the specified language isn't included in your installation of Visual Studio, this setting is ignored.<br /><br /> `devenv /l 1033`|
 |[/Log](log-devenv-exe.md)|Starts Visual Studio and logs all activity to the log file.<br /><br /> `devenv /log mylogfile.xml`|
+|/NoScale| Opens the IDE in a [DPI-disabled mode](../../designers/disable-dpi-awareness.md) that allows for a more accurate layout in the Windows Forms Designer. |
 |[/NoSplash](nosplash-devenv-exe.md)|Opens the IDE without showing the splash screen.<br /><br /> `devenv /nosplash File1 File2`|
 |[/ResetSettings](resetsettings-devenv-exe.md)|Restores Visual Studio default settings. Optionally resets the settings to the specified `.vssettings` file.<br /><br /> `devenv /resetsettings mysettings.vssettings`|
 |[/Run or /R](run-devenv-exe.md)|Compiles and runs the specified solution.<br /><br /> `devenv /run mysln.sln`|

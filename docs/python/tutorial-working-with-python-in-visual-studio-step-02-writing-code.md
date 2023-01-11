@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Step 2 of a core walkthrough of Python capabilities in Visual Studio, including editing code and running a project.
 ms.date: 02/04/2022
 ms.topic: tutorial
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 

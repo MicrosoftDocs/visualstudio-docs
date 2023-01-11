@@ -58,11 +58,7 @@ Go to the procedure [To add unit tests in the same project](#sameProject).
 
   1. Create a Native Unit Test Project.
 
-      ::: moniker range=">=vs-2019"
-
       1. On the **File** menu, choose **New** > **Project**. In the **Add a New Project** dialog, set **Language** to C++ and type "test" into the search box. Then choose the **Native Unit Test Project**.
-
-      ::: moniker-end
 
 
   1. In **Solution Explorer**, right-click on the test project, then choose **Add** > **Reference**.
@@ -85,11 +81,7 @@ Go to the procedure [To add unit tests in the same project](#sameProject).
 
   1. Create a Native Unit Test Project.
 
-      ::: moniker range=">=vs-2019"
-
       1. On the **File** menu, choose **New** > **Project**. In the **Add a New Project** dialog, set **Language** to C++ and type "test" into the search box. Then choose the **Native Unit Test Project**.
-
-      ::: moniker-end
 
 
   1. In **Solution Explorer**, on the shortcut menu of the test project, choose **Properties**.

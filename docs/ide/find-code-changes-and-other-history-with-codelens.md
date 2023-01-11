@@ -19,12 +19,8 @@ ms.workload:
 
 CodeLens lets you stay focused on your work while you find out what happened to your code&ndash;without leaving the editor. You can find references to a piece of code, changes to your code, linked bugs, work items, code reviews, and unit tests.
 
-::: moniker range=">=vs-2019"
-
 > [!NOTE]
 > CodeLens is available in Visual Studio Community edition, however, the *source control* indicators are not available in this edition.
-
-::: moniker-end
 
 
 See where and how the individual parts of your code are used in your solution:
@@ -265,12 +261,8 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 
 - Unit test indicators don't appear when application code doesn't have unit tests. Test status indicators appear automatically in test projects. If you know that your application code has unit tests, but the test indicators don't appear, try building the solution (**Ctrl**+**Shift**+**B**).
 
-::: moniker range=">=vs-2019"
-
 > [!TIP]
 > CodeLens is available in Visual Studio Community edition, however, the *source control* indicators are not available in this edition.
-
-::: moniker-end
 
 
 ### Q: Why don't I see the work item details for a commit?

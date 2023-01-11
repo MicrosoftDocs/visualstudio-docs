@@ -23,13 +23,10 @@ You can configure the diagnostic data adapter to test your application under var
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
-::: moniker range=">=vs-2019"
 The following procedure describes how to configure network emulation from the configuration editor. These steps apply to the configuration editor in Visual Studio.
-::: moniker-end
 
 > [!NOTE]
 > The network emulation diagnostic data adapter is only applicable to Visual Studio test settings. It is not used for test settings in Microsoft Test Manager (deprecated in Visual Studio 2017).
-
 
 > [!NOTE]
 > The Network Service account, which is the default account for the test agent, is not a member of the administrators group.

@@ -6,7 +6,7 @@ manager: jmartens
 ms.technology: bridge
 ms.custom: "contperf-fy22q1"
 title: Learn how to use Bridge to Kubernetes to run and debug locally with Kubernetes, using a TODO sample app.
-ms.date: 10/20/2020
+ms.date: 08/11/2022
 description: Use a todo sample app to learn how to use Bridge to Kubernetes to develop, debug, and test a Kubernetes application locally in Visual Studio Code
 ---
 # Use Bridge to Kubernetes with a sample
@@ -44,7 +44,7 @@ minikube start --vm-driver hyperv --hyperv-virtual-switch "Primary Virtual Switc
 
 ## Deploy the application
 
-Clone the [mindaro repo](https://github.com/Microsoft/mindaro) and open a command window with the current working folder to *samples/todo-app*.
+Clone the [Bridge to Kubernetes repo](https://github.com/Azure/Bridge-To-Kubernetes) and open a command window with the current working folder to *samples/todo-app*.
 
 Create a namespace for the sample.
 

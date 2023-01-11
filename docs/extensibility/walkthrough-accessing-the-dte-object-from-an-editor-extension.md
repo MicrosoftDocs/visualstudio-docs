@@ -30,8 +30,6 @@ To follow this walkthrough, you must install the Visual Studio SDK. For more inf
 
    For more information, see [Create an extension with an editor item template](../extensibility/creating-an-extension-with-an-editor-item-template.md).
 
-::: moniker range=">=vs-2019"
-
 2. Add the following assembly references to the project:
 
     - Microsoft.VisualStudio.Shell.Framework
@@ -57,8 +55,6 @@ To follow this walkthrough, you must install the Visual Studio SDK. For more inf
    ThreadHelper.ThrowIfNotOnUIThread();
    DTE dte = (DTE)ServiceProvider.GetService(typeof(DTE));
    ```
-
-::: moniker-end
 
 
 ## See also

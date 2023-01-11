@@ -38,21 +38,20 @@ Required. The complete name of a Visual Studio command or its alias, enclosed in
 
 After startup is complete, the IDE executes the named command.
 
-
 If an add-in exposes a command, you can use this switch to launch the add-in from the command line. For more information, see [How to: Control add-ins by using the add-in manager](/previous-versions/xwdatdwh(v=vs.140)).
 
 ## Example
 
 The first example launches Visual Studio and automatically runs the macro Open Favorite Files.
 
-The second example opens a web browsing tab within the IDE and navigates to the Microsoft Docs site.
+The second example opens a web browsing tab within the IDE and navigates to the Microsoft Learn site.
 
 The third example creates a new file called `some_file.cs` and opens it in a code editor.
 
 ```shell
 devenv /command "Macros.MyMacros.Module1.OpenFavoriteFiles"
 
-devenv /command "navigate https://docs.microsoft.com/"
+devenv /command "navigate https://learn.microsoft.com/"
 
 devenv /command "nf some_file.cs"
 ```

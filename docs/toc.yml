@@ -9,6 +9,9 @@
     href: get-started/tutorial-editor.md
   - name: About projects and solutions
     href: get-started/tutorial-projects-solutions.md
+  - name: Tour the Visual Studio IDE
+    displayName: Feature tour
+    href: ide/quickstart-ide-orientation.md
   - name: More Visual Studio features
     href: ide/advanced-feature-overview.md
   expanded: true
@@ -49,30 +52,28 @@
         href: install/use-command-line-parameters-to-install-visual-studio.md
       - name: Command-line parameter examples
         href: install/command-line-parameter-examples.md
-    - name: Install on a network
+    - name: Deploy in an enterprise
       items:
       - name: Create a network-based installation of Visual Studio
         href: install/create-a-network-installation-of-visual-studio.md
+      - name: Automate Visual Studio installation with a response file
+        href: install/automated-installation-with-response-file.md
+      - name: Automatically apply product keys when deploying Visual Studio
+        href: install/automatically-apply-product-keys-when-deploying-visual-studio.md
+      - name: Manage global policies
+        items:
+        - name: Administrative Templates (ADMX)
+          href: install/administrative-templates.md
+        - name: Configure policies for enterprise deployments of Visual Studio
+          href: install/set-defaults-for-enterprise-deployments.md
       - name: Network considerations
         items:
         - name: Install and use Visual Studio behind a firewall or proxy server
           href: install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md
         - name: Troubleshoot network errors when you install or use Visual Studio
           href: install/troubleshooting-network-related-errors-in-visual-studio.md
-    - name: Deploy in an enterprise
+    - name: Deploy Help Viewer
       items:
-      - name: Applying administrator updates
-        href: install/applying-administrator-updates.md
-      - name: Enabling administrator updates
-        href: install/enabling-administrator-updates.md
-      - name: Automate Visual Studio installation with a response file
-        href: install/automated-installation-with-response-file.md
-      - name: Automatically apply product keys when deploying Visual Studio
-        href: install/automatically-apply-product-keys-when-deploying-visual-studio.md
-      - name: Set defaults for enterprise deployments of Visual Studio
-        href: install/set-defaults-for-enterprise-deployments.md
-      - name: Deploy Help Viewer
-        items:
         - name: Help Viewer Administrator Guide
           href: help-viewer/administrator-guide.md
         - name: Command-Line Arguments for the Help Content Manager
@@ -81,16 +82,16 @@
           href: help-viewer/behavior-overrides.md
     - name: Manage & update installations
       items:
+      - name: Applying administrator updates
+        href: install/applying-administrator-updates.md
+      - name: Enabling administrator updates
+        href: install/enabling-administrator-updates.md
       - name: Tools for detecting and managing Visual Studio instances
         href: install/tools-for-managing-visual-studio-instances.md
       - name: Update a Visual Studio instance installed from a network
         href: install/update-a-network-installation-of-visual-studio.md
-      - name: Update Visual Studio while on a servicing baseline
-        href: install/update-servicing-baseline.md
       - name: Update Visual Studio using a minimal offline layout
         href: install/update-minimal-layout.md
-      - name: Manage package payload changes
-        href: install/changed-payloads.md
       - name: Disable or move the package cache
         href: install/disable-or-move-the-package-cache.md
     - name: Manage subscriptions
@@ -136,9 +137,6 @@
     href: help-viewer/installation.md
 - name: Tutorials
   items:
-  - name: Visual Studio IDE
-    displayName: Feature tour
-    href: ide/quickstart-ide-orientation.md
   - name: C++ >>
     href: /cpp/get-started/tutorial-console-cpp
   - name: C#  >>
@@ -206,7 +204,7 @@
       href: ide/visual-studio-multi-targeting-overview.md
     - name: Create templates
       items:
-      - name: Create project and item templates
+      - name: About project and item templates
         href: ide/creating-project-and-item-templates.md
       - name: Add tags to a template
         href: ide/template-tags.md
@@ -617,7 +615,7 @@
         href: /dotnet/framework/winforms/how-to-create-a-simple-bound-control-on-a-windows-form
       - name: Create custom controls >>
         href: /dotnet/framework/winforms/controls/developing-windows-forms-controls-at-design-time
-      - name: Disable DPI awareness for Windows Forms Designer
+      - name: Disable DPI awareness
         href: designers/disable-dpi-awareness.md
       - name: Reference
         items:
@@ -789,7 +787,7 @@
       href: ide/how-to-configure-projects-to-target-multiple-platforms.md
   - name: MSBuild >>
     href: msbuild/msbuild.md
-  - name: Azure Pipelines and TFS >>
+  - name: Azure Pipelines and Azure DevOps Server >>
     displayName: VSTS Azure DevOps CI/CD Continuous integration delivery
     href: /azure/devops/pipelines/index?view=vsts&preserve-view=true
   - name: Specify build events (Visual Basic)
@@ -837,7 +835,7 @@
     href: ide/how-to-change-fonts-and-colors-in-visual-studio.md
   - name: Menus and toolbars
     href: ide/how-to-customize-menus-and-toolbars-in-visual-studio.md
-  - name: Window layouts
+  - name: Window layouts & tabs
     href: ide/customizing-window-layouts-in-visual-studio.md
   - name: File nesting in Solution Explorer
     href: ide/file-nesting-solution-explorer.md
@@ -979,6 +977,8 @@
       href: ide/reference/go-to-line.md
     - name: Immediate window
       href: ide/reference/immediate-window.md
+    - name: Paste JSON or XML as classes
+      href: ide/reference/paste-json-xml.md
     - name: Miscellaneous files
       href: ide/reference/miscellaneous-files.md
     - name: Options
@@ -1267,7 +1267,7 @@
     items:
     - name: Develop secure applications
       href: ide/securing-applications.md
-    - name: Run Visual Studio as normal user or administrator
+    - name: Run Visual Studio as an administrator
       href: ide/user-permissions-and-visual-studio.md
     - name: Windows Information Protection (WIP)
       href: ide/exempt-visual-studio-from-wip.md

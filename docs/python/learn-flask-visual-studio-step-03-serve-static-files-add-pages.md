@@ -5,8 +5,8 @@ description: A walkthrough of Flask basics in the context of Visual Studio proje
 ms.custom: devdivchpfy22
 ms.date: 02/07/2022
 ms.topic: tutorial
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 

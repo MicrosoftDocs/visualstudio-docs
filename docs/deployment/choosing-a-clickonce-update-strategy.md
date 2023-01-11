@@ -71,7 +71,7 @@ ms.workload:
 </subscription>
 ```
 > [!NOTE]
-> For .NET 3.1 and newer applications, checking updates before the application starts is the only update option supported.
+> For .NET Core 3.1 and .NET 5 and newer applications, checking updates before the application starts is the only update option supported.
 
 ## Make updates required
  There may be occasions when you want to require users to run an updated version of your application. For example, you might make a change to an external resource such as a Web service that would prevent the earlier version of your application from working correctly. In this case, you would want to mark your update as required and prevent users from running the earlier version.
@@ -96,8 +96,12 @@ ms.workload:
 
  For example, you may want to check each time the application runs, or one time a week, or one time a month. If a network connection is not present at the specified time, the update check is performed the next time that the application runs.
 
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-feature-unsupported.md)]
+
 ## Provide a user interface for updates
  When using this strategy, the application developer provides a user interface that enables the user to choose when or how often the application will check for updates. For example, you might provide a "Check for Updates Now" command, or an "Update Settings" dialog box that has choices for different update intervals. The [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment APIs provide a framework for programming your own update user interface. For more information, see the <xref:System.Deployment.Application> namespace.
+
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
 
  If your application uses deployment APIs to control its own update logic, you should block update checking as described in "Blocking Update Checking" in the following section.
 

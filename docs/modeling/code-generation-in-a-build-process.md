@@ -60,15 +60,10 @@ In **Solution Explorer**, choose **Unload** from the right-click menu of your pr
 
 ## Import the text transformation targets
 
-In the .vbproj or .csproj file, find a line like this:
+In the .vbproj or .csproj file, find the last `Import Project` line.
 
-`<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />`
+After that line, if it exists, insert the Text Templating import:
 
-\- or -
-
-`<Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />`
-
-After that line, insert the Text Templating import:
 
 ::: moniker range=">=vs-2022"
 
@@ -85,7 +80,6 @@ After that line, insert the Text Templating import:
 ```
 
 ::: moniker-end
-
 
 ## Transform templates in a build
 
@@ -304,11 +298,15 @@ If you update an included file or another file read by the template, Visual Stud
 
 ## See also
 
+::: moniker range=">=vs-2022"
 
-::: moniker range=">=vs-2019"
-
-- There's good guidance in the T4 MSbuild template at `%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Enterprise\msbuild\Microsoft\VisualStudio\v16.0\TextTemplating\Microsoft.TextTemplating.targets`
+- There's good guidance in the T4 MSbuild template at `%ProgramFiles%\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VisualStudio\v17.0\TextTemplating\Microsoft.TextTemplating.targets`
 
 ::: moniker-end
+
+::: moniker range="vs-2019"
+
+- There's good guidance in the T4 MSbuild template at `%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Enterprise\msbuild\Microsoft\VisualStudio\v16.0\TextTemplating\Microsoft.TextTemplating.targets`
+:::moniker-end
 
 - [Write a T4 text template](../modeling/writing-a-t4-text-template.md)

@@ -13,7 +13,7 @@ description: Learn how to get the most out of your Visual Studio subscriptions
 The Visual Studio [Subscriber Portal](https://my.visualstudio.com) gives you the ability to manage all your subscriptions and program memberships in a single place. You can make changes to your profile, use all of the benefits included with your subscriptions, and switch between subscriptions quickly and easily.
 
 > [!NOTE]
-> Visual Studio Subscriptions [subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support [GCC High tenants](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
+> Visual Studio Subscriptions [subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
 
 ## Managing multiple subscriptions
 
@@ -88,7 +88,7 @@ To add an alternate account:
 
 1. Sign in to the [Subscriber Portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) with your Microsoft Account (MSA).
 2. Select the **Subscriptions** tab.
-3. Under **Related Links**, choose **Add alternate account**.
+3. Under **Alternate account**, choose **Add alternate account**.
 4. Enter your work/school account email address and select **Add**.
 
 After you've added an alternate account, you can update or remove it at any time by selecting the **Subscriptions** tab and choosing the appropriate option in the **Related Links** section.

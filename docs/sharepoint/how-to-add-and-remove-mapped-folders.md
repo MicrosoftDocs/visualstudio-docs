@@ -36,13 +36,11 @@ ms.workload:
 
 1. On the menu bar, choose **File** > **New** > **Project**.
 
-::: moniker range=">=vs-2019"
 2. On the **Create a New Project** dialog select the *SharePoint Visual Web Part** for the particular version of SharePoint you have installed. For example, if you have SharePoint 2019 install select the **SharePoint 2019 Visual Web Part** template.
     [!INCLUDE[new-project-dialog-search](../sharepoint/includes/new-project-dialog-search-md.md)]
 
 3. In the **Name** box, enter **TestProject1**
 4. Then choose the **Create** button.
-::: moniker-end
 
 5. In the **SharePoint Customization Wizard**, choose the **Finish** button to retain the default settings.
 

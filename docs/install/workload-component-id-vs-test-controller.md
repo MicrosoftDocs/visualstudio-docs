@@ -6,7 +6,7 @@ keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.date: 05/10/2022
+ms.date: 11/08/2022
 ms.topic: reference
 helpviewer_keywords:
 - workload ID, Visual Studio
@@ -22,7 +22,6 @@ open_to_public_contributors: false
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE[workloads-components-universal-header_md](includes/workloads-components-universal-header_md.md)]
-
 
 ::: moniker range="vs-2019"
 

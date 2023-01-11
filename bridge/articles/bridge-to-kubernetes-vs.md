@@ -8,7 +8,7 @@ manager: jmartens
 ms.technology: bridge
 ms.custom: "contperf-fy22q1"
 ms.topic: tutorial 
-ms.date: 02/22/2022
+ms.date: 08/11/2022
 ---
 
 # Tutorial: Run and debug locally with Bridge to Kubernetes on Visual Studio
@@ -30,9 +30,9 @@ In this tutorial, you learn how to:
 
 - A Kubernetes cluster. You can create one in the [Azure portal](https://azure.microsoft.com/free/).  If you don't have an Azure subscription, you can [create an account for free](https://azure.microsoft.com/free/).
 - The [kubectl](https://kubernetes.io/docs/reference/kubectl/kubectl/) executable installed on your system.
-- [Visual Studio 2019](https://www.visualstudio.com/vs/) version 16.7 or later running on Windows 10 or later.
-- The [Bridge to Kubernetes extension for Visual Studio](https://aka.ms/bridge-to-k8s-vsc-extension).
-- An application to troubleshoot, such as this [TODO App sample application](https://github.com/Microsoft/mindaro).
+- [Visual Studio 2019](https://www.visualstudio.com/vs/) version 16.7 or later running on Windows 10 or later or [Visual Studio 2022](https://www.visualstudio.com/vs/).
+- The [Bridge to Kubernetes extension for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro) or [Bridge to Kubernetes extension for Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro2022).
+- An application to troubleshoot, such as this [TODO App sample application](https://github.com/Azure/Bridge-To-Kubernetes/tree/main/samples/todo-app).
 
 ## Set up a service
 
@@ -51,7 +51,7 @@ The sample application has a frontend to interact and a backend that provides pe
 1. Clone the sample repo.
 
    ```bash
-   git clone https://github.com/Microsoft/mindaro
+   git clone https://github.com/Azure/Bridge-To-Kubernetes
    ```
 
 1. Change directory to *samples/todo-app* and then create a namespace for the sample.
@@ -162,6 +162,16 @@ In this section, you set a breakpoint in your service.
 1. Select **Debug** > **Stop Debugging** to stop debugging.
 
 1. To remove the breakpoint, select that line and then select **Debug** > **Toggle Breakpoint** or select **F9**.
+
+## Edit launch profile
+
+If you need to change how Bridge to Kubernetes connects to your cluster, in this section, you'll edit the launch profile settings.
+
+1. Click on the arrow next to the **Bridge to Kubernetes** button, then click on **databaseApi Debug Properties**.
+ ![Screenshot shows the Bridge to Kubernetes drop down menu.](media/bridge-to-kubernetes-vs/change-bridge-properties.png)
+
+1. Click on the **Edit profile for Bridge to Kubernetes** link in the **Launch Profiles** dialog.
+ ![Screenshot shows Launch Profiles dialog with a link to edit the Bridge to Kubernetes profile](media/bridge-to-kubernetes-vs/bridge-launch-profiles.png)
 
 ## Clean up resources
 

@@ -403,12 +403,7 @@ Make sure to use `Condition ="'$(DesignTimeBuild)' != 'true'"` in all operations
 
 If `GeneratorTarget` metadata is defined for a project item, the target is run automatically both when the project is loaded and when the source file is changed.
 
-
-::: moniker range=">=vs-2019"
-
 For instance, to automatically generate .cpp or .h files from .xaml files, the `$(VSInstallDir)`\\*MSBuild*\\*Microsoft*\\*WindowsXaml*\\*v16.0*\\\*\\*Microsoft.Windows.UI.Xaml.CPP.Targets* files define these entities:
-
-::: moniker-end
 
 ```xml
 <ItemDefinitionGroup>
@@ -572,7 +567,7 @@ To use a custom up-to-date check:
 
 ### Default .vcxproj project upgrader
 
-The default .vcxproj project upgrader changes the `PlatformToolset`, `ApplicationTypeRevision`, MSBuild toolset version and .Net framework. The last two are always changed to the Visual Studio version defaults, but `PlatformToolset` and `ApplicationTypeRevision` can be controlled by special MSBuild properties.
+The default .vcxproj project upgrader changes the `PlatformToolset`, `ApplicationTypeRevision`, MSBuild toolset version and .NET Framework. The last two are always changed to the Visual Studio version defaults, but `PlatformToolset` and `ApplicationTypeRevision` can be controlled by special MSBuild properties.
 
 The upgrader uses these criteria to decide whether a project can be upgraded or not:
 

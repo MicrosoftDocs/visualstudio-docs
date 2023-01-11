@@ -26,4 +26,4 @@ Depending on which Visual Studio subscription or program membership you have, yo
 ## Subscriptions renewal and the Pluralsight benefit
 The Pluralsight benefit in selected Visual Studio subscriptions renews when your subscription renews. For example, if you have an annual subscription that you renew each year, the benefit is available to you each year when you renew. If you have a multi-year subscription, the Pluralsight benefit is available to you once during the term of the subscription. If you renew a multi-year subscription, the benefit will be available again following the renewal. To find your renewal date, visit <https://my.visualstudio.com/subscriptions> and click *Support Information* and locate the "Valid through:" date. 
 
-Read more [information on activation, eligibility, and FAQs about the Pluralsight benefit](https://docs.microsoft.com/visualstudio/subscriptions/vs-pluralsight).  
+Read more [information on activation, eligibility, and FAQs about the Pluralsight benefit](https://learn.microsoft.com/visualstudio/subscriptions/vs-pluralsight).  

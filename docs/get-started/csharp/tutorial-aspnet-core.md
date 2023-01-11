@@ -34,13 +34,8 @@ This tutorial will show you how to:
 
 ## Prerequisites
 
-
-   ::: moniker range=">=vs-2019"
-
    You need Visual Studio to complete this tutorial.
    Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs) for a free version.
-
-   ::: moniker-end
 
 - For more information about upgrading to the latest Visual Studio release, see [Visual Studio updates](../../install/update-visual-studio.md).
 
@@ -49,7 +44,6 @@ This tutorial will show you how to:
 ## Create a project
 
 First, you'll create an ASP.NET Core project. The project type comes with all the template files you'll need to build a fully functional website.
-
 
 ::: moniker range="vs-2019"
 
@@ -136,7 +130,6 @@ First, you'll create an ASP.NET Core project. The project type comes with all th
 ### About your solution
 
 This solution follows the **Razor Page** design pattern. It's different than the [Model-View-Controller (MVC)](/aspnet/core/tutorials/first-mvc-app/start-mvc?view=aspnetcore-2.1&tabs=aspnetcore2x&preserve-view=true) design pattern in that it's streamlined to include the model and controller code within the Razor Page itself.
-
 
 ::: moniker range="=vs-2019"
 

@@ -18,4 +18,4 @@ The way you renew subscriptions depends on how they were originally purchased.
 * Subscriptions purchased through a Volume Licensing agreement are handled through your organization’s primary contact and your reseller. These agreements are typically renewed for 1-3 year periods. Sometimes a super admin is also the primary contact and would likely know the status of the renewal. 
 
 ## More Information
-[Read more about renewing Visual Studio subscriptions](https://docs.microsoft.com/visualstudio/subscriptions/faq/admin/renewal-cancellation/).
+[Read more about renewing Visual Studio subscriptions](https://learn.microsoft.com/visualstudio/subscriptions/faq/admin/renewal-cancellation/).

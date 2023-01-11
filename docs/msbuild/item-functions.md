@@ -51,8 +51,6 @@ The following example shows how to use these string item functions.
 
 The table below lists the intrinsic functions available for items.
 
-:::moniker range=">=vs-2019"
-
 |Function|Example|Description|
 |--------------|-------------|-----------------|
 |`Combine`|`@(MyItems->Combine('path'))`|Returns a new set of items with a given relative path appended to all the input items.|
@@ -71,7 +69,6 @@ The table below lists the intrinsic functions available for items.
 
 > [!NOTE]
 > `Exists` can also be used in other contexts; in [MSBuild conditions](msbuild-conditions.md), for example `Condition="Exists('path')"`; or in [Static property functions](property-functions.md), for example `$([System.IO.File]::Exists("path"))`.
-:::moniker-end
 
 The following example shows how to use intrinsic item functions.
 

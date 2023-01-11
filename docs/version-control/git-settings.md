@@ -2,9 +2,9 @@
 title: Git settings in Visual Studio
 titleSuffix: ""
 description: Learn how Visual Studio uses .gitconfig files and Git settings to manage your preferences
-ms.date: 05/19/2022
+ms.date: 11/29/2022
 ms.topic: conceptual
-author: Taysser-Gherfal
+author: houghj16
 ms.author: tglee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
@@ -240,7 +240,6 @@ The Git Repository window has a list of branches displayed in a tree structure. 
 > [!IMPORTANT]
 > If you have a suggestion for us, please let us know! We appreciate the opportunity to engage with you on design decisions via the [**Developer Community**](https://aka.ms/vsgitsuggestions) portal.
 
-- [Get Started with Git and GitHub in Visual Studio](/learn/modules/visual-studio-github-push/) tutorial on Microsoft Learn
 - [Getting started with Git in Visual Studio](https://www.youtube.com/watch?v=GCZ9x3yqkyc) video on YouTube
 - [Enhanced productivity with Git in Visual Studio](https://devblogs.microsoft.com/visualstudio/enhanced-productivity-with-git-in-visual-studio/) blog post
 - [Options dialog box](../ide/reference/options-dialog-box-visual-studio.md)

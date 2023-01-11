@@ -11,7 +11,7 @@ ms.workload:
   - "dotnet"
 dev_langs:
   - "VB"
-ms.date: 01/07/2022
+ms.date: 10/31/2022
 ms.custom: "vs-acquisition, get-started"
 ---
 # Tutorial: Create a WPF application with Visual Basic
@@ -31,6 +31,12 @@ In this tutorial, you learn how to:
 > - Debug and test the application
 > - Debug with breakpoints
 > - Build a release version
+
+## What is WPF?
+
+WPF, or Windows Presentation Foundation, is a UI (user interface) framework that creates desktop client applications.  The WPF development platform supports a broad set of application development features, including an application model, resources, controls, graphics, layout, data binding, documents, and security.
+
+WPF is part of .NET, so if you have previously built applications with .NET using ASP.NET or Windows Forms, the programming experience should be familiar. WPF uses the Extensible Application Markup Language [XAML](../../xaml-tools/xaml-overview.md) to provide a declarative model for application programming. For more information, see [WPF .NET overview](/dotnet/desktop/wpf/overview/?view=netdesktop-6.0&preserve-view=true).
 
 ## Prerequisites
 
@@ -67,7 +73,7 @@ The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in
 
 ::: moniker range=">=vs-2022"
 1. Open Visual Studio.
- 
+
 1. On the start window, choose **Create a new project**.
 
    :::image type="content" source="media/vs-2022/start-window-create-new-project.png" alt-text="Screenshot of the start window in Visual Studio 2022 with the 'Create a new project' option highlighted.":::
@@ -226,7 +232,6 @@ To see how this process works, the first step deliberately introduces an error i
 1. Change `StartupUri="MainWindow.xaml"` to `StartupUri="Greetings.xaml"`
 
 1. Start the debugger again (press **F5**). You should now see the **Greetings** window of your application.
-
 
    ::: moniker range="vs-2019"
 

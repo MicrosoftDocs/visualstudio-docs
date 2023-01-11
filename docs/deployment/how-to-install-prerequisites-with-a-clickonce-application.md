@@ -39,6 +39,8 @@ All [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applicatio
 
 1. With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.
 
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
+
 2. Select the **Publish** pane.
 
 3. Click the **Prerequisites** button to open the **Prerequisites** dialog box.

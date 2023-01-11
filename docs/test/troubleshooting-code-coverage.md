@@ -21,10 +21,7 @@ The code coverage analysis tool in Visual Studio collects data for native and ma
 
 If you choose an **Analyze Code Coverage** command on the **Test** menu, and if the build and tests run successfully, then you should see a list of results in the **Code Coverage** window. You might have to expand the items to see the detail.
 
-::: moniker range=">=vs-2019"
 ![Code coverage results with coloring](../test/media/vs-2019/codecoverage1.png)
-::: moniker-end
-
 
 For more information, see [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
@@ -33,10 +30,6 @@ For more information, see [Use code coverage to determine how much code is being
 ### Do you have the right edition of Visual Studio?
 
 You need Visual Studio Enterprise.
-
-### Are you running code coverage for native(c++) module on ARM64 version of Visual Studio?
-
-Code coverage for native module is not supported on ARM64 version of Visual Studio.
 
 ### No tests were executed
 
@@ -89,6 +82,10 @@ Analysis&mdash;Verify that you're running some tests on managed or C++ code.
 Explanation&mdash;Code coverage analysis in Visual Studio is available only on managed and native (C++) code. If you're working with third-party tools, some or all of the code might execute on a different platform.
 
 Resolution&mdash;None available.
+
+### Project name includes 'DataCollector'
+
+Projects that use DataCollector in the project name won't be identified by code coverage.
 
 ### Assembly has been installed by NGen
 

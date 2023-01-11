@@ -2,7 +2,7 @@
 title: "Modify Visual Studio workloads, components, & language packs"
 titleSuffix: ''
 description: Learn how to modify Visual Studio, step-by-step.
-ms.date: 09/14/2021
+ms.date: 11/23/2022
 ms.topic: how-to
 ms.custom: vs-acquisition
 helpviewer_keywords:
@@ -23,12 +23,7 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-::: moniker range=">=vs-2019"
-
 It's easy to modify Visual Studio so that it includes only what you want, when you want it. To do so, open the Visual Studio Installer, and then add or remove workloads, components, and language packs.
-
-::: moniker-end
-
 
 ## Prerequisites
 
@@ -41,7 +36,6 @@ It's easy to modify Visual Studio so that it includes only what you want, when y
 ## Launch the installer to modify your installation
 
 To modify your Visual Studio installation, you first need to launch the Visual Studio Installer, and then select a Visual Studio installation to modify.
-
 
 ::: moniker range="vs-2019"
 
@@ -92,7 +86,6 @@ To modify your Visual Studio installation, you first need to launch the Visual S
 ::: moniker-end
 
 ## Change workloads or individual components
-
 
 ::: moniker range="vs-2019"
 

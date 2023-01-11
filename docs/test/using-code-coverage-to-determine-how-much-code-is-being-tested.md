@@ -3,7 +3,7 @@ title: Code coverage testing
 description: Learn how to use the code coverage feature of Visual Studio to determine what proportion of your project code is being tested by coded tests.
 
 ms.custom: SEO-VS-2020, devdivchpfy22
-ms.date: 06/26/2022
+ms.date: 12/21/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - code coverage
@@ -20,7 +20,7 @@ ms.technology: vs-ide-test
 
 To determine what proportion of your project's code is being tested by coded tests such as unit tests, you can use the code coverage feature of Visual Studio. To effectively guard against bugs, your tests should exercise or 'cover' a large proportion of your code.
 
-Code coverage analysis is possible for both managed (CLI) and unmanaged (native) code.
+Code coverage analysis is possible for both managed (CLR) and unmanaged (native) code.
 
 Code coverage option is available under the Test menu when you run test methods using Test Explorer. The results table shows the percentage of the code executed in each assembly, class, and procedure. The source editor highlights the tested code.
 
@@ -72,6 +72,20 @@ Code coverage is counted in *blocks*. Block is a part of code with exactly one e
 You can also have the results displayed for lines by choosing **Add/Remove Columns** in the table header. Some users prefer a count of lines because the percentages correspond more closely to the size of the fragments that you see in the source code. A long block of calculation would count as a single block even if it occupies many lines.
 > [!TIP]
 > A line of code can contain more than one code block. If this is the case, and the test run exercises all the code blocks in the line, it is counted as one line. If some but not all code blocks in the line are exercised, it is counted as a partial line.
+
+## Filter code coverage results
+
+The **Code Coverage Results** window usually shows the result for the entire solution. The results can be filtered to show the results for only the files that have been updated in the current branch. 
+
+- **To view the changeset Report**, select the **Configure Code Coverage Views** icon in the **Code Coverage Results** window. Then select **Changeset Report** from the **Report Content** drop-down. Update the Active Repository and Base Branch to compare against for it to provide the comparison report.
+
+From the search box in the **Code Coverage Results** window, there are several ways the report can be filtered.
+- To **Search by name** (Show only those which matches search string in the window), enter the search string in the search box.
+- To **Filter by type** enter the name of the type in the search box.
+- To **Show all** clear the search box.
+- To **Show 100% fully covered**, enter "Covered (%Lines)":"100" in the search box.
+- To **Show (>0% && < 100%) partially covered**, enter "Partially Covered (%Lines)":"<##" replacing the ## with the percentage covered.
+- To **Show 0% covered**, enter "Not Covered (%Lines)":"0" in the search box.
 
 ## Manage code coverage results
 
@@ -149,7 +163,6 @@ public class ExampleClass1
 [ExcludeFromCodeCoverage]
 class ExampleClass2 { ... }
 ```
-
 
 ### [VB](#tab/vb)
 

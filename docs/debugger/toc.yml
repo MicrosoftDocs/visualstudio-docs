@@ -186,6 +186,8 @@
           href: how-to-write-a-run-time-error-reporting-function.md
     - name: Specify symbol (.pdb) and source files in the debugger
       href: specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md
+    - name: Enable debugging and diagnostics with Source Link
+      href: how-to-improve-diagnostics-debugging-with-sourcelink.md
     - name: Debug user code
       href: just-my-code.md
     - name: Debugger settings
@@ -282,6 +284,8 @@
       href: remote-debugging-aspnet-on-a-remote-iis-computer.md
     - name: Remote debug ASP.NET on an IIS computer
       href: remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md
+    - name: Remote debug ASP.NET Core on Azure App Service
+      href: remote-debugging-azure-app-service.md
     - name: Remote debug ASP.NET Core on Azure
       href: remote-debugging-azure.md
     - name: Remote debug a C# or Visual Basic project
@@ -294,6 +298,8 @@
       href: configure-the-windows-firewall-for-remote-debugging.md
     - name: Unblock the download on Windows Server
       href: remote-debugging-unblock-file-download.md
+    - name: Troubleshoot remote debugging
+      href: troubleshooting-remote-debugging.md
     - name: Remote debugging error reference
       items:
       - name: Remote debugging errors and troubleshooting
@@ -434,6 +440,8 @@
       href: debug-dotnet-core-in-wsl-2.md
     - name: Debug .NET Core on Linux using SSH
       href: remote-debugging-dotnet-core-linux-with-ssh.md
+    - name: Debug .NET Core on AKS >>
+      href: /visualstudio/bridge/bridge-to-kubernetes-vs
     - name: Debug with Container Tools >>
       href: ../containers/edit-and-refresh.md
   - name: Application types
@@ -464,7 +472,6 @@
         href: ../xaml-tools/xaml-hot-reload.md
       - name: Debug XAML in Blend
         href: ../xaml-tools/debug-xaml-in-blend.md?toc=/visualstudio/debugger/toc.json
-      - name: HTML and CSS
       - name: How to trigger suspend, resume, and background events
         href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
     - name: Managed code (C#, Visual Basic, F#)
@@ -809,8 +816,6 @@
           href: how-to-use-the-finder-tool.md
         - name: Search for a window in Windows View
           href: how-to-search-for-a-window-in-windows-view.md
-        - name: Display window properties
-          href: how-to-display-window-properties.md
       - name: Messages
         items:
         - name: Messages View
@@ -825,24 +830,18 @@
           href: how-to-start-and-stop-the-message-log-display.md
         - name: Message codes
           href: message-codes.md
-        - name: Display message properties
-          href: how-to-display-message-properties.md
       - name: Processes
         items:
         - name: Processes View
           href: processes-view.md
         - name: Search for a process in Processes View
           href: how-to-search-for-a-process-in-processes-view.md
-        - name: Display process properties
-          href: how-to-display-process-properties.md
       - name: Threads
         items:
         - name: Threads View
           href: threads-view.md
         - name: Search for a thread in Threads View
           href: how-to-search-for-a-thread-in-threads-view.md
-        - name: Display thread properties
-          href: how-to-display-thread-properties.md
     - name: Spy++ reference
       items:
       - name: Spy++ reference overview

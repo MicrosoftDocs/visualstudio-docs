@@ -3,7 +3,7 @@ title: "Assertion Failed Dialog Box | Microsoft Docs"
 description: Learn about the Assertion Failed dialog box, which is a dialog box that you might encounter in the debugging user interface of Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.assertions"
 dev_langs:
