@@ -89,10 +89,13 @@ Tools available in the Performance Profiler include:
 - [.NET object allocation](../profiling/dotnet-alloc-tool.md)
 - [Memory usage](../profiling/memory-usage-without-debugging2.md)
 - [.NET async tool](../profiling/analyze-async.md)
+- [Instrumentation](../profiling/instrumentation-overview.md)
+- [File I/O](../profiling/use-file-io.md)
+- [.NET Counters](../profiling/dotnet-counters-tool.md)
 - [Database tool](../profiling/analyze-database.md)
 - [GPU usage](../profiling/gpu-usage.md)
 
-To see profiling tool support for different app types, see [Which tool should I use?](#which-tool-should-i-use)
+To see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md).
 
 In some scenarios, the window allows you to select [multiple profiling tools](../profiling/use-multiple-profiler-tools-simultaneously.md). Tools such as CPU Usage may provide complementary data that you can use to help in your analysis. You can also use the [command-line profiler](../profiling/profile-apps-from-command-line.md) to enable scenarios involving multiple profiling tools.
 
