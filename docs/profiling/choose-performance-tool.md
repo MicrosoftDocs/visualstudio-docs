@@ -38,7 +38,7 @@ Visual Studio provides a variety of profiling tools to help you diagnose differe
 |[Instrumentation](../profiling/instrumentation-overview.md)|Shows exact call counts and call times.|When you need more precise CPU utilization information than is provided in the CPU usage tool.|
 |[File I/O](../profiling/use-file-io.md)|Shows your File I/O operations and how long they take and how much data they process.|UI freeze|
 |[Database](../profiling/analyze-database.md)|Shows performance of your database queries.|You want performance data for database queries that use either ADO.NET or Entity Framework Core.|
-|[GPU Usage](./gpu-usage.md)|Shows high-level hardware usage of your Direct3D app.||
+|[GPU Usage](./gpu-usage.md)|Shows high-level hardware usage of your Direct3D app.|You want to see whether the performance of your app is CPU-bound or GPU-bound.|
 |[Application Timeline](../profiling/application-timeline.md)|Shows UI performance for XAML apps.|You want to analyze UI performance in XAML apps, such as time spent rendering frames.|
 |[IntelliTrace](../debugger/intellitrace.md)|Debugger tool that lets you record events and examine your application state at various points of execution.|You want a tool to examine application state at various points, not just the current application state.|
 
