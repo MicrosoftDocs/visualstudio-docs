@@ -38,10 +38,10 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can find and replace text in the Visual Studio editor by using [Find and Replace](#find-and-replace-control) (**Ctrl**+**F** or **Ctrl**+**H**) or [Find/Replace in Files](#find-in-files-and-replace-in-files) (**Ctrl**+**Shift**+**F** or **Ctrl**+**Shift**+**H**). You can also find and replace only *some* instances of a pattern by using *[multi-caret selection](#multi-caret-selection)*.
+You can find and replace text in the Visual Studio editor by using [Find and Replace](#find-and-replace-control) (**Ctrl**+**F** or **Ctrl**+**H**) or [Find/Replace in Files](#find-in-files-and-replace-in-files) (**Ctrl**+**Shift**+**F** or **Ctrl**+**Shift**+**H**). You can also find and replace *some* instances of a pattern by using *[multi-caret selection](#multi-caret-selection)*.
 
 > [!NOTE]
-> The content on this page applies to [Visual Studio](../get-started/visual-studio-ide.md). If you're looking for information that's specific to Visual Studio Code&mdash;also known as **VS Code**&mdash;see the [**Find and Replace**](https://code.visualstudio.com/docs/editor/codebasics#_find-and-replace) section of the [Basic Editing](https://code.visualstudio.com/docs/editor/codebasics) page in the [Visual Studio Code](https://code.visualstudio.com/docs) docs.
+> The content on this page applies to Visual Studio. If you're looking for information that's specific to Visual Studio Code&mdash;also known as **VS Code**&mdash;see the [**Find and Replace**](https://code.visualstudio.com/docs/editor/codebasics#_find-and-replace) section of the [Basic Editing](https://code.visualstudio.com/docs/editor/codebasics) page in the [Visual Studio Code](https://code.visualstudio.com/docs) docs.
 
 > [!TIP]
 > In [Visual Studio](../get-started/visual-studio-ide.md), if you're renaming code symbols such as variables and methods, it's better to *[refactor](../ide/reference/rename.md)* them than to use find-and-replace. Refactoring is intelligent and understands scope, whereas find-and-replace blindly replaces all instances.
