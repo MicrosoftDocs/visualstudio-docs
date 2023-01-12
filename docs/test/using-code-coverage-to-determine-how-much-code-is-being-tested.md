@@ -73,6 +73,7 @@ You can also have the results displayed for lines by choosing **Add/Remove Colum
 > [!TIP]
 > A line of code can contain more than one code block. If this is the case, and the test run exercises all the code blocks in the line, it is counted as one line. If some but not all code blocks in the line are exercised, it is counted as a partial line.
 
+::: moniker range=">=vs-2022"
 ## Filter code coverage results
 
 The **Code Coverage Results** window usually shows the result for the entire solution. The results can be filtered to show the results for only the files that have been updated in the current branch. 
@@ -86,6 +87,7 @@ From the search box in the **Code Coverage Results** window, there are several w
 - To **Show 100% fully covered**, enter "Covered (%Lines)":"100" in the search box.
 - To **Show (>0% && < 100%) partially covered**, enter "Partially Covered (%Lines)":"<##" replacing the ## with the percentage covered.
 - To **Show 0% covered**, enter "Not Covered (%Lines)":"0" in the search box.
+::: moniker-end
 
 ## Manage code coverage results
 
