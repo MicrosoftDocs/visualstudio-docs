@@ -13,15 +13,15 @@ ms.workload:
 
 # Slow Enumerable.Contains lookup
 
-This article describes performance insights for <xref:System.Linq.Enumerable.Contains%2A>.
+This article describes performance insights for <xref:System.Linq.Enumerable.Contains%2A?displayProperty=nameWithType>.
 
 ## Cause
 
-When using the `Enumerable.Contains` extension method, the method attempts to leverage the underlying container's fast lookup mechanism if available, such as <xref:System.Collections.Generic.HashSet%601.Contains>, which has O(1) access. If unavailable, the method evaluates the enumerable starting at the beginning of the connection and enumerate until the element is found or not resulting in O(n) access.
+When using the `Enumerable.Contains` extension method, the method attempts to leverage the underlying container's fast lookup mechanism if available, such as <xref:System.Collections.Generic.HashSet%601.Contains?displayProperty=nameWithType>, which has O(1) access. If unavailable, the method evaluates the enumerable starting at the beginning of the connection and enumerate until the element is found or not resulting in O(n) access.
 
 ## Performance insight description
 
-The `Enumerable.Contains` extension method is setup to try and use the fastest access available to see if the element is contained in the specified collection. For underlying collections like <xref:System.Collections.Generic.HashSet%601>, it can use <xref:System.Collections.Generic.HashSet%601.Contains*> to check if the specified element is in the collection with O(1) access time. If the underlying collection doesn't support direct checking such as <xref:System.Collections.Generic.List%601> or <xref:System.Collections.Generic.IEnumerable%601> from a [yield statement](<xref:System.Collections.Generic.IEnumerable%601>/dotnet/csharp/language-reference/statements/yield), it must start at the beginning of the collection and iterate through until the desired element is found or not, resulting in O(n) lookup time. If this warning fires, utilizing a better collection can result in better performance.
+The `Enumerable.Contains` extension method is setup to try and use the fastest access available to see if the element is contained in the specified collection. For underlying collections like <xref:System.Collections.Generic.HashSet%601>, it can use <xref:System.Collections.Generic.HashSet%601.Contains*> to check if the specified element is in the collection with O(1) access time. If the underlying collection doesn't support direct checking such as <xref:System.Collections.Generic.List%601> or <xref:System.Collections.Generic.IEnumerable%601> from a [yield statement](/dotnet/csharp/language-reference/statements/yield), it must start at the beginning of the collection and iterate through until the desired element is found or not, resulting in O(n) lookup time. If this warning fires, utilizing a better collection can result in better performance.
 
 ## How to investigate a warning
 
