@@ -109,12 +109,7 @@ You specify a project check-in policy rule set as the code analysis rule set of 
 
 4. If necessary, click the appropriate options in the **Configuration** and **Platform** lists.
 
-
-::: moniker range=">=vs-2019"
-
 5. To run code analysis every time that the code project is built using the specified configuration, select **Run on build** in the **Binary analyzers** section.
-
-::: moniker-end
 
 6. In the **Run this rule set** list, click **\<Browse>**.
 

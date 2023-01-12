@@ -37,8 +37,6 @@ You'll first need a multithreaded application project. An example follows.
 
 1. Open Visual Studio and create a new project.
 
-   ::: moniker range=">=vs-2019"
-
    If the start window is not open, choose **File** > **Start Window**.
 
    On the start window, choose **Create a new project**.
@@ -53,8 +51,6 @@ You'll first need a multithreaded application project. An example follows.
    In the **Configure your new project** window, type or enter *MyThreadWalkthroughApp* in the **Project name** box. Then, choose either **Next** or **Create**, whichever option is available.
 
    For a .NET Core project, choose either the recommended target framework or .NET 6, and then choose **Create**.
-
-   ::: moniker-end
 
 
    A new console project appears. After the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called *Program.cs*, *MyThreadWalkthroughApp.cpp*, or *Module1.vb*.

@@ -2,7 +2,7 @@
 title: "General, Debugging, Options Dialog Box | Microsoft Docs"
 description: Set Visual Studio debugger options to meet your debugging needs. You can configure break behavior, debugging levels, display behavior, and much else.
 ms.custom: SEO-VS-2020
-ms.date: "04/26/2022"
+ms.date: "12/09/2022"
 ms.topic: "reference"
 f1_keywords:
   - "vs.debug.options.General"
@@ -153,7 +153,6 @@ Replaces the default debugging engine with a legacy version to enable these scen
 > Choosing Managed Compatibility mode disables some features that are implemented only in the default debugging engine. The legacy debugging engine was replaced in Visual Studio 2012.
 ::: moniker-end
 
-
 **Warn when using custom debugger visualizers against potentially unsafe processes (Managed only)**:
 Visual Studio warns you when you are using a custom debugger visualizer that is running code in the debugged process, because it could be running unsafe code.
 
@@ -248,6 +247,9 @@ Displays a warning dialog box when you debug a program for which the debugger ha
 
 **Warn if script debugging is disabled on launch**:
 Displays a warning dialog box when the debugger is launched with script debugging disabled.
+
+**Use Managed Compatibility Mode**:
+When this option is selected, the debugger uses the Visual Studio 2010 managed debugger, which was required when you debug C++/CLI code.
 
 **Use Native Compatibility Mode**:
 When this option is selected, the debugger uses the Visual Studio 2010 native debugger instead of the new native debugger.

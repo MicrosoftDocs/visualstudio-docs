@@ -4,7 +4,7 @@ description: Get to know the tools available in Visual Studio for working with D
 author: ghogen
 ms.author: ghogen
 ms.topic: overview
-ms.date: 10/27/2021
+ms.date: 10/07/2022
 ms.technology: vs-container-tools
 ---
 # Visual Studio Container Tools for Docker
@@ -12,7 +12,6 @@ ms.technology: vs-container-tools
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The tools included in Visual Studio for developing with Docker containers are easy to use, and greatly simplify building, debugging, and deployment for containerized applications. You can work with a container for a single project, or use container orchestration with Docker Compose or Service Fabric to work with multiple services in containers.
-
 
 ::: moniker range="vs-2019"
 
@@ -32,7 +31,7 @@ The support for Docker in Visual Studio has changed over a number of releases in
 With Visual Studio 2019, you can use Docker Compose, Kubernetes, and Service Fabric as container orchestration services.
 
 > [!NOTE]
-> When creating a .NET Framework or .NET Core console project, there is no option to **Add Docker support**. After a .NET Core console application project is created, the **Add Docker support** option is available. .Net Framework console application projects do not support the **Add Docker support** option after the project is created. After creation both .NET Framework or .NET Core console projects support the **Add Container Orchestrator Support** option using Service Fabric or Docker Compose.
+> When creating a .NET Framework or .NET Core console project, there is no option to **Add Docker support**. After a .NET Core console application project is created, the **Add Docker support** option is available. .NET Framework console application projects do not support the **Add Docker support** option after the project is created. After creation both .NET Framework or .NET Core console projects support the **Add Container Orchestrator Support** option using Service Fabric or Docker Compose.
 
 In Visual Studio 2019 version 16.4 and later, the **Containers** window is available, which lets you view running containers, browse available images, view environment variables, logs, and port mappings, inspect the filesystem, attach a debugger, or open a terminal window inside the container environment. See [Use the Containers window](view-and-diagnose-containers.md).
 
@@ -152,7 +151,6 @@ ENTRYPOINT ["dotnet", "WebApplication-Docker.dll"]
 
 :::moniker-end
 
-
 ## Use the Containers window
 
 The **Containers** window lets you view containers and images on your machine and see what's going on with them. You can view the filesystem, volumes mounted, environment variables, ports used, and examine log files.
@@ -195,9 +193,7 @@ If you work with a large number of services, you can save time and computing res
 
 With Service Fabric tools in Visual Studio, you can develop and debug for Azure Service Fabric, run and debug locally, and deploy to Azure.
 
-::: moniker range=">=vs-2019"
 Visual Studio 2019 and later support developing containerized microservices using Windows containers and Service Fabric orchestration.
-::: moniker-end
 
 For a detailed tutorial, see
 [Tutorial: Deploy a .NET application in a Windows container to Azure Service Fabric](/azure/service-fabric/service-fabric-host-app-in-a-container).

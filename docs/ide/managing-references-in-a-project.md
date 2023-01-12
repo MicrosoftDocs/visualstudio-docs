@@ -2,7 +2,7 @@
 title: Manage references in a project
 description: Learn how to manage references to external components and connected services in a project.
 ms.custom: SEO-VS-2020
-ms.date: 10/26/2021
+ms.date: 08/15/2022
 ms.topic: conceptual
 f1_keywords:
 - vs.ProjectPropertiesReferencePaths
@@ -31,9 +31,17 @@ ms.workload:
 
 Before you write code against an external component or connected service, your project must first contain a reference to it. A reference is essentially an entry in a project file that contains the information that Visual Studio needs to locate the component or the service.
 
-To add a reference, right click on the **References** or **Dependencies** node in **Solution Explorer** and choose **Add Reference**. You can also right-click on the project node and select **Add** > **Reference**. For more information, see [How to: Add or remove references](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md).
+How you add a reference depends on the project type for the code you're working on:
 
-![Add a reference in Visual C&#43;&#43;](../ide/media/vs2015_cpp_add_reference.png)
+- If you see a **Dependencies** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to choose **Add Project Reference**. You can also right-click the project node and select **Add** > **Project Reference**.
+
+  :::image type="content" source="media/add-project-reference.png" alt-text="Screenshot of the Add Project Reference option from the right-click context menu.":::
+
+- If you see a **References** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to choose **Add Reference**. Or, right-click the project node and select **Add** > **Reference**.
+
+  :::image type="content" source="media/add-reference.png" alt-text="Screenshot of the Add Reference option from the right-click context menu.":::
+
+    For more information, see [How to: Add or remove references](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md).
 
 You can add a reference to the following types of components and services:
 
@@ -53,15 +61,15 @@ You can add a reference to the following types of components and services:
 
 ### Project references
 
-Universal Windows Platform (UWP) projects can create references to other UWP projects in the solution, or to Windows 8.1 projects or binaries, provided that these projects do not use APIs that have been deprecated in Windows 10 and later. For more information, see [Move from Windows Runtime 8 to UWP](/windows/uwp/porting/w8x-to-uwp-root).
+Universal Windows Platform (UWP) projects can create references to other UWP projects in the solution, or to Windows 8.1 projects or binaries, provided that these projects don't use APIs that have been deprecated in Windows 10 and later. For more information, see [Move from Windows Runtime 8 to UWP](/windows/uwp/porting/w8x-to-uwp-root).
 
 If you choose to retarget Windows 8.1 projects to Windows 10 and later, see [Port, migrate, and upgrade Visual Studio projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md).
 
 ### Extension SDK references
 
-Visual Basic, C#, C++ and JavaScript Universal Windows Platform (UWP) apps can reference Extension SDKs that target Windows 8.1, as long as these Extension SDKs do not use APIs that have been deprecated in Windows 10 and later. Please check the Extension SDK vendor site to find out whether it can be referenced by UWP apps.
+Visual Basic, C#, C++ and JavaScript Universal Windows Platform (UWP) apps can reference Extension SDKs that target Windows 8.1, as long as these Extension SDKs don't use APIs that have been deprecated in Windows 10 and later. Check the Extension SDK vendor site to find out whether it can be referenced by UWP apps.
 
-If you determine that the Extension SDK being referenced by your app is not supported, then you need to perform the following steps:
+If you determine that the Extension SDK being referenced by your app isn't supported, then you need to perform the following steps:
 
 1. Look at the name of the project that is causing the error. The platform your project is targeting is noted in parentheses next to the project name. For example, **MyProjectName (Windows 8.1)** means that your project **MyProjectName** is targeting platform version Windows 8.1.
 
@@ -96,15 +104,15 @@ When you make a reference to an assembly in your project, Visual Studio searches
 
 ## References to shared components at run time
 
-At run time, components must be either in the output path of the project or in the Global Assembly Cache (GAC). If the project contains a reference to an object that is not in one of these locations, you must copy the reference to the output path of the project when you build the project. The <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> property indicates whether this copy has to be made. If the value is **True**, the reference is copied to the project directory when you build the project. If the value is **False**, the reference is not copied.
+At run time, components must be either in the output path of the project or in the Global Assembly Cache (GAC). If the project contains a reference to an object that isn't in one of these locations, you must copy the reference to the output path of the project when you build the project. The <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> property indicates whether this copy has to be made. If the value is **True**, the reference is copied to the project directory when you build the project. If the value is **False**, the reference isn't copied.
 
-If you deploy an application that contains a reference to a custom component that is registered in the GAC, the component will not be deployed with the application, regardless of the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> setting. In earlier versions of Visual Studio, you could set the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> property on a reference to ensure that the assembly was deployed. Now, you must manually add the assembly to the \Bin folder. This puts all custom code under scrutiny, reducing the risk of publishing custom code with which you are not familiar.
+If you deploy an application that contains a reference to a custom component that is registered in the GAC, the component will not be deployed with the application, regardless of the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> setting. In earlier versions of Visual Studio, you could set the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> property on a reference to ensure that the assembly was deployed. Now, you must manually add the assembly to the \Bin folder. This puts all custom code under scrutiny, reducing the risk of publishing custom code with which you aren't familiar.
 
 By default, the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> property is set to **False** if the assembly or component is in the global assembly cache or is a framework component. Otherwise, the value is set to **True**. Project-to-project references are always set to **True**.
 
 ## Reference a project or assembly that targets a different version of .NET
 
-You can create applications that reference projects or assemblies that target a different version of the .NET. For example, you could create an application that targets .NET Framework 4.6, that references an assembly that targets .NET Framework 4.5. If you create a project that targets an earlier version of .NET, you cannot set a reference in that project to a project or assembly that targets a newer version.
+You can create applications that reference projects or assemblies that target a different version of the .NET. For example, you could create an application that targets .NET Framework 4.6, that references an assembly that targets .NET Framework 4.5. If you create a project that targets an earlier version of .NET, you can't set a reference in that project to a project or assembly that targets a newer version.
 
 For more information, see [Framework targeting overview](../ide/visual-studio-multi-targeting-overview.md).
 
@@ -112,14 +120,14 @@ For more information, see [Framework targeting overview](../ide/visual-studio-mu
 
 Project-to-project references are references to projects that contain assemblies; you add project references by using the **Projects** tab of the Reference Manager dialog box. Visual Studio can find an assembly when given a path to the project.
 
-When you have a project that produces an assembly, you should reference the project and not use a file reference (see below). The advantage of a project-to-project reference is that it creates a dependency between the projects in the build system. The dependent project will be built if it has changed since the last time the referencing project was built. A file reference does not create a build dependency, so it is possible to build the referencing project without building the dependent project, and the reference can become obsolete. (That is, the project can reference a previously built version of the project.) This can result in several versions of a single DLL being required in the *bin* directory, which is not possible. When this conflict occurs, you will see a message such as "Warning: the dependency 'file' in project 'project' cannot be copied to the run directory because it would overwrite the reference 'file.'". For more information, see [Troubleshoot broken references](../ide/troubleshooting-broken-references.md) and [How to: Create and remove project dependencies](../ide/how-to-create-and-remove-project-dependencies.md).
+When you have a project that produces an assembly, you should reference the project and not use a file reference (see below). The advantage of a project-to-project reference is that it creates a dependency between the projects in the build system. The dependent project will be built if it has changed since the last time the referencing project was built. A file reference doesn't create a build dependency, so it's possible to build the referencing project without building the dependent project, and the reference can become obsolete. (That is, the project can reference a previously built version of the project.) This can result in several versions of a single DLL being required in the *bin* directory, which isn't possible. When this conflict occurs, you'll see a message such as "Warning: the dependency 'file' in project 'project' can't be copied to the run directory because it would overwrite the reference 'file.'". For more information, see [Troubleshoot broken references](../ide/troubleshooting-broken-references.md) and [How to: Create and remove project dependencies](../ide/how-to-create-and-remove-project-dependencies.md).
 
 > [!NOTE]
 > A file reference instead of a project-to-project reference is created if the target version of the .NET Framework of one project is version 4.5, and the target version of the other project is version 2, 3, 3.5, or 4.0.
 
 ## Shared project references
 
-Unlike most other project types, a *shared project* does not have any binary output. Instead, the code is compiled into each project that references it. [Shared Projects](/xamarin/cross-platform/app-fundamentals/shared-projects?tabs=windows) let you write common code that's referenced by a number of different application projects. The code is compiled as part of each referencing project and can include compiler directives to help incorporate platform-specific functionality into the shared code base. Add a reference to a shared project on the **Shared Projects** tab of the Reference Manager dialog box.
+Unlike most other project types, a *shared project* doesn't have any binary output. Instead, the code is compiled into each project that references it. [Shared Projects](/xamarin/cross-platform/app-fundamentals/shared-projects?tabs=windows) let you write common code that's referenced by a number of different application projects. The code is compiled as part of each referencing project and can include compiler directives to help incorporate platform-specific functionality into the shared code base. Add a reference to a shared project on the **Shared Projects** tab of the Reference Manager dialog box.
 
 ## File references
 

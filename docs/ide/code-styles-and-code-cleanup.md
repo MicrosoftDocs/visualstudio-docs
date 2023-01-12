@@ -59,7 +59,6 @@ Code style preferences can be set for all of your C# and Visual Basic projects b
 
 Each item in the list shows a preview of the preference when selected:
 
-
 ::: moniker range="vs-2019"
 
 ![Screenshot of code style options.](media/vs-2019/code-style-quick-actions-dialog.png)
@@ -78,16 +77,11 @@ Options set in this window are applicable to your Visual Studio personalization 
 
 For each code style setting on this page, you can set the **Preference** and **Severity** values using the drop-downs on each line. Severity can be set to **Refactoring Only**, **Suggestion**, **Warning**, or **Error**. If you want to enable [Quick Actions](../ide/quick-actions.md) for a code style, ensure that the **Severity** setting is set to something other than **Refactoring Only**. The **Quick Actions** light bulb :::image type="icon" source="media/light-bulb-dropdown.png":::, error light bulb :::image type="icon" source="media/error-bulb.png":::, or screwdriver :::image type="icon" source="media/screwdriver.png"::: icon appears when a non-preferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
 
-::: moniker range=">=vs-2019"
-
 ## Enforce code styles on build
 
 Starting in Visual Studio 2019 version 16.8, which includes the .NET 5.0 RC2 SDK, you can [enforce the .NET coding conventions on build](/dotnet/fundamentals/productivity/code-analysis#code-style-analysis) for all .NET projects. At build time, .NET code style violations will appear as warnings or errors with an "IDE" prefix. This enables you to strictly enforce consistent code styles in your codebase.
 
-::: moniker-end
-
 ## Apply code styles
-
 
 ::: moniker range="vs-2019"
 
@@ -155,7 +149,7 @@ Most of the code cleanup settings map to one or more .NET code styles supported 
 |Apply coalesce expression preferences|[dotnet_style_coalesce_expression](/dotnet/fundamentals/code-analysis/style-rules/ide0029-ide0030#dotnet_style_coalesce_expression)|
 |Apply conditional expression preferences|[dotnet_style_prefer_conditional_expression_over_assignment](/dotnet/fundamentals/code-analysis/style-rules/ide0045#dotnet_style_prefer_conditional_expression_over_assignment)</br>[dotnet_style_prefer_conditional_expression_over_return](/dotnet/fundamentals/code-analysis/style-rules/ide0046#dotnet_style_prefer_conditional_expression_over_return)|
 |Apply tuple name preferences|[dotnet_style_explicit_tuple_names](/dotnet/fundamentals/code-analysis/style-rules/ide0033#dotnet_style_explicit_tuple_names)</br>[dotnet_style_prefer_inferred_tuple_names](/dotnet/fundamentals/code-analysis/style-rules/ide0037#dotnet_style_prefer_inferred_tuple_names)|
-|Apply inferred anonymous type member names preferences|[dotnet_style_prefer_inferred_anonymous_type_member_names](/dotnet/fundamentals/code-analysis/style-rules/ide0003-ide0009#dotnet_style_prefer_inferred_anonymous_type_member_names)|
+|Apply inferred anonymous type member names preferences|[dotnet_style_prefer_inferred_anonymous_type_member_names](/dotnet/fundamentals/code-analysis/style-rules/ide0037#dotnet_style_prefer_inferred_anonymous_type_member_names)|
 |Apply null checking preferences|[dotnet_style_prefer_is_null_check_over_reference_equality_method](/dotnet/fundamentals/code-analysis/style-rules/ide0041#dotnet_style_prefer_is_null_check_over_reference_equality_method)|
 |Apply null propagation preferences|[dotnet_style_null_propagation](/dotnet/fundamentals/code-analysis/style-rules/ide0031#dotnet_style_null_propagation)|
 |Apply 'var' preferences|[IDE0007-IDE0008](/dotnet/fundamentals/code-analysis/style-rules/ide0007-ide0008)|

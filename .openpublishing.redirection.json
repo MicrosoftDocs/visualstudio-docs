@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "docs/msbuild/updating-an-existing-application.md",
+      "redirect_url": "/visualstudio/msbuild/find-and-use-msbuild-versions",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/python/managing-python-on-azure-app-service.md",
+      "redirect_url": "/azure/app-service/quickstart-python",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/how-to-build-to-a-common-output-directory.md",
       "redirect_url": "/visualstudio/ide/how-to-change-the-build-output-directory#build-to-a-common-outputdirectory",
       "redirect_document_id": false
@@ -3016,6 +3026,31 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/how-to-display-message-properties.md",
+      "redirect_url": "/visualstudio/debugger/messages-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-display-process-properties.md",
+      "redirect_url": "/visualstudio/debugger/processes-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-display-thread-properties.md",
+      "redirect_url": "/visualstudio/debugger/threads-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-display-window-properties.md",
+      "redirect_url": "/visualstudio/debugger/windows-view",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/remote-debugging-aks-on-linux-with-ssh.md",
+      "redirect_url": "/visualstudio/debugger/remote-debugging-dotnet-core-linux-with-ssh",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/using-run-time-checks-without-the-c-run-time-library.md",
       "redirect_url": "/visualstudio/debugger/how-to-use-native-run-time-checks",
       "redirect_document_id": false
@@ -3903,6 +3938,11 @@
     {
       "source_path": "docs/designers/creating-a-ui-by-using-xaml-designer-in-visual-studio.md",
       "redirect_url": "/visualstudio/xaml-tools/creating-a-ui-by-using-xaml-designer-in-visual-studio",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/getting-started-with-wpf.md",
+      "redirect_url": "/visualstudio/get-started/csharp/tutorial-wpf",
       "redirect_document_id": true
     },
     {
@@ -6103,6 +6143,16 @@
     {
       "source_path": "docs/sharepoint/requirements-for-developing-sharepoint-solutions.md",
       "redirect_url": "/visualstudio/sharepoint/getting-started-sharepoint-development-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/lab-management/use-build-or-rm-instead-of-lab-management.md",
+      "redirect_url": "/visualstudio/test/lab-management/using-a-lab-environment-for-your-application-lifecycle",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/lab-management/install-configure-test-agents.md",
+      "redirect_url": "/visualstudio/test/lab-management/using-a-lab-environment-for-your-application-lifecycle",
       "redirect_document_id": false
     },
     {

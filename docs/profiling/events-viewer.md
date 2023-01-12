@@ -6,8 +6,8 @@ ms.date: 4/30/2020
 ms.topic: how-to
 helpviewer_keywords: 
   - Profiler, Events Viewer
-author: Sagar-S-S
-ms.author: sashe
+author: MikeJo5000
+ms.author: mikejo 
 manager: AndSter
 ms.workload: 
   - multiple
@@ -15,6 +15,8 @@ ms.workload:
 # Events viewer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+In the Performance Profiler, you can collect diagnostic info while your app is running, and then examine the collected information after the app stops like a post-mortem analysis.
 
 The generic events viewer shows app activity through a list of events like module load, thread start, and system configuration. This view helps you better diagnose how your app is doing within the Visual Studio profiler.
 
@@ -64,7 +66,7 @@ All columns except for the **Text** column are sortable.
 
 ![The event viewer trace](../profiling/media/eventviewertrace.png "The event viewer trace")
 
-The event viewer displays up to 20,000 events at a time. To focus on the events of interest, you can filter the display of events by selecting the event filter. You can also see what percentage of the total number of events occurred for each provider. Hover over a single event filter to see a tooltip that shows the:
+The event viewer displays up to 20,000 events at a time. To focus on the events of interest, you can filter the display of events by selecting the Event filter. You can also see what percentage of the total number of events occurred for each provider, and this information gives you a breakdown of where your time is being spent. Hover over a single event filter to see a tooltip that shows the:
 
 - Event name
 - Provider
@@ -77,3 +79,9 @@ The event viewer displays up to 20,000 events at a time. To focus on the events 
 The provider filter shows what percentage of the total number of events occurred for each provider. Hover over a single provider to see a similar tooltip with provider name, percentage of total events, and event count.
 
 ![The event viewer provider filter](../profiling/media/eventviewerproviderfilter.png "The event viewer provider filter")
+
+## See also
+- [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
+- [Diagnose high latency with CPU Insights](../profiling/cpu-insights.md)
+- [Analyze CPU usage without debugging](../profiling/cpu-usage.md)
+- [Use File IO](../profiling/use-file-io.md)

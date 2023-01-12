@@ -22,7 +22,7 @@ ms.workload:
 
 The **Memory Usage** tool monitors your app's memory use. You can use the tool to study the real-time memory effects of scenarios you're actively developing in Visual Studio. You can take detailed snapshots of the app's memory states, and compare snapshots to find the root causes of memory issues. The Memory Usage tool is supported on .NET, ASP.NET, C++, or mixed mode (.NET and native) apps.
 
-The Memory Usage tool can run [with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). In this article, we show how to use the Memory Usage tool without the debugger in the Visual Studio **Performance Profiler**, which is recommended for release builds. For information on choosing the best memory analysis tool for your needs, see [Choose a memory analysis tool](../profiling/memory-usage.md).
+The Memory Usage tool can run [with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). In this article, we show how to use the Memory Usage tool without the debugger in the Visual Studio **Performance Profiler**, which is recommended for release builds. For information on choosing the best memory analysis tool for your needs, see [Choose a memory analysis tool](../profiling/analyze-memory-usage.md).
 
 ## Memory Usage diagnostic sessions
 
@@ -300,7 +300,6 @@ A **Referenced Types** tree in a snapshot diff report has the following columns.
 
 ## See also
 
-- [JavaScript memory](../profiling/javascript-memory.md)
 - [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)
 - [Performance best practices for UWP apps using C++, C#, and Visual Basic](/previous-versions/windows/apps/hh750313\(v\=win.10\))

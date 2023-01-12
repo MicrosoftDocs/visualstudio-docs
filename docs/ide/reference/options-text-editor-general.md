@@ -2,7 +2,7 @@
 title: Options, Text Editor, General
 description: Learn how to use the General page to change global settings for the Visual Studio code and text editor.
 ms.custom: SEO-VS-2020
-ms.date: 06/09/2022
+ms.date: 11/10/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor
@@ -67,7 +67,11 @@ When selected, this setting enables you to move text by selecting and then dragg
 
 ### Select subword on double click
 
-When you toggle this setting, a double-click selects only a subword instead of a whole word. (This can be helpful when you're using medial capitals, as an example.)
+When you select this setting, a double-click selects only a subword instead of a whole word. (This can be helpful when you're using medial capitals, as an example.)
+
+### Cut or Copy the current line without selection
+
+When you select this setting, you can cut or copy the current line where your cursor is positioned without having to first select the text or code on that line.
 
 ::: moniker-end
 
@@ -90,6 +94,17 @@ When selected, the project's specified [coding conventions](../create-portable-c
 > [!TIP]
 > To learn more about coding conventions and how they are applied, see the [Create portable, custom editor settings with EditorConfig](../create-portable-custom-editor-options.md) page.
 
+::: moniker range="vs-2022"
+
+### Enable audio cues
+
+When selected, Visual Studio plays an audio cue when the caret in the editor arrives on a line with an error, breakpoint, or warning. When you view a file in the Diff view, Visual Studio also plays a cue when the caret arrives on a line that's been added or removed.
+
+> [!NOTE]
+> You can also individually enable or modify these audio cues by using the Sound Control Panel in Windows.
+
+::: moniker-end
+
 ### Enable mouse click to perform Go to Definition
 
 When selected, you can press **Ctrl** and hover over an element while clicking the mouse. Doing so takes you to the definition of the selected element. You can also choose either **Alt** or **Ctrl** + **Alt** from the **Use modifier key** drop-down.
@@ -102,20 +117,78 @@ Select this check box to display the element's definition in a window without na
 
 The Display section of **Tools** > **Options** > **Text Editor** > **General** includes the following options.
 
-::: moniker range=">=vs-2019"
-
 ### View whitespace
 
 When selected, you can visualize spaces and tabs.
 
+::: moniker range="vs-2022"
+
+### View bidirectional text control characters
+
+::: moniker-end
+
+::: moniker range="=vs-2019"
+
 ### Show bidirectional text control characters
 
-When selected, all bidirectional text control characters will be rendered as placeholders in the code editor.
+::: moniker-end
+
+When selected, all bidirectional text control characters are rendered as placeholders in the code editor.
 
 > [!CAUTION]
 > This option is selected by default to prevent a potentially malicious exploit that allows code to be misrepresented.
->
-> First introduced in [Visual Studio 2019 version 16.11.8](/visualstudio/releases/2019/release-notes#release-notes-icon-visual-studio-2019-version-16118), this option makes sure that the Visual Studio editor no longer allows bidirectional text control characters to manipulate the order of characters in the code editor. The bidirectional text control characters are still present in the code.
+
+See the following code snippet for an example of bidirectional control characters:
+
+```csharp
+/// <summary>
+/// Bidirectional control characters can invert text direction,
+/// which can be exploited to craft malicious code that looks benign.
+/// </summary>
+/// <example>
+/// transferBalance(5678,6776, 4321, "USD");
+/// </example>
+internal readonly ImmutableArray<char> BiDiControlCharacters = ImmutableArray.CreateRange(new[] {
+   '\u061c', // ALM: Arabic letter mark
+   '\u200e', // LRM: Left-to-right mark
+   '\u200f', // RLM: Right-to-left mark
+   '\u202a', // LRE: Left-to-right embedding
+   '\u202b', // RLE: Right-to-left embedding
+   '\u202c', // PDF: Pop directional formatting
+   '\u202d', // LRO: Left-to-right override
+   '\u202e', // RLO: Right-to-left override
+   '\u2066', // LRI: Left-to-right isolate
+   '\u2067', // RLI: Right-to-left isolate
+   '\u2068', // FSI: First strong isolate
+   '\u2069', // PDI: Pop directional isolate
+});
+```
+
+::: moniker range="vs-2022"
+
+### View zero-width characters
+
+When selected, zero-width characters are rendered in the code editor.
+
+See the following code snippet for an example of zero-width characters:
+
+```csharp
+/// <summary>
+/// Zero-width characters can be exploited to craft identifiers
+/// that look like other identifiers, but are in fact distinct.
+/// </summary>
+/// <example>
+/// ab‌c‍d⁠e⁯fg
+/// </example>
+internal readonly ImmutableArray<char> ZeroWidthCharacters = ImmutableArray.CreateRange(new[] {
+  '\u200b', // ZWSP: Zero width space
+  '\u200c', // ZWNJ: Zero width non-joiner
+  '\u200d', // ZWJ: Zero width joiner
+  '\u2060', // WJ: Word joiner
+  '\u206f', // Nominal Digit Shapes
+  '\ufeff', // BOM: Zero width no-break space
+});
+```
 
 ::: moniker-end
 
@@ -139,11 +212,17 @@ When selected, displays a gray box around the line of code in which the cursor i
 
 When selected, vertical lines appear in the editor that line up with structured code blocks, which lets you easily identify the individual blocks of code.
 
-::: moniker range=">=vs-2019"
-
 ### Show error squiggles
 
 When selected, different-colored wavy underlines, known as squiggles, appear in your code. (Red squiggles denote syntax errors, blue denotes compiler errors, green denotes warnings, and purple denotes other types of errors.)
+
+::: moniker range="vs-2022"
+
+### Show selection matches
+
+When selected, Visual Studio automatically highlights matching strings after you select text in the editor. Specifically, anytime a single line of text of 100 characters or less is selected, any matches will immediately be highlighted.
+
+::: moniker-end
 
 ### Show file health indicator
 
@@ -162,8 +241,6 @@ Use this control to toggle the editing context settings altogether, or personali
 - Insert/Overwrite
 - Tab/Space
 - Line endings
-
-::: moniker-end
 
 ## See also
 

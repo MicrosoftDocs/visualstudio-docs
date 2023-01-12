@@ -18,7 +18,7 @@ When you purchase Visual Studio monthly subscriptions, as the owner of the Azure
 
 You can purchase monthly subscriptions through the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), or by contacting a Cloud Solution Provider. If you purchase through the Visual Studio Marketplace, at the end of the purchase experience, you'll be provided with an opportunity to manage users. Choosing that option will take you to the Visual Studio Subscriptions Administration Portal - [https://manage.visualstudio.com](https://manage.visualstudio.com).
 
-Once you've purchased subscriptions, you can visit the [Administration Portal](https://manage.visualstudio.com) at any time. Just sign in to the portal, and select the appropriate Azure subscription in the upper left corner.
+Once you've purchased subscriptions, you can visit the [Administration Portal](https://manage.visualstudio.com) at any time. Just sign into the portal and select the appropriate Azure subscription in the upper left corner.
 
 As the owner of the Azure subscription used to purchase the monthly subscriptions, you can also assign additional admins.
 

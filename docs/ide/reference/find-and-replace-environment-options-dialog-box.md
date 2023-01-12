@@ -60,13 +60,9 @@ If you don't want to search only the code that you've selected, clear this optio
 
 Select this option when you want the **Find All References** tool window to use the same background color as the editor. This is helpful if you use the dark theme or a custom theme with a dark background color. For more information about themes, see the [Change fonts, colors, and themes in Visual Studio](../how-to-change-fonts-and-colors-in-visual-studio.md) page.
 
-::: moniker range=">=vs-2019"
-
 **Keep search results by default**
 
 Select this option when you prefer to keep all your search results by default rather than selecting the **Keep Results** button after each search. For more information about this functionality, see the "Keep results" section of the [Find in Files](../find-in-files.md#keep-results) page.
-
-::: moniker-end
 
 ## See also
 

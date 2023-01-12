@@ -3,8 +3,8 @@ title: How Python search paths are applied
 description: Visual Studio provides a more specific means to specify search paths for environments and projects to avoid using system-wide variables.
 ms.date: 01/18/2022
 ms.topic: how-to
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -28,9 +28,7 @@ Visual Studio thus provides a means to specify search paths directly in both env
 
 To add a search path, go to **Solution Explorer**, expand your project node, right-click on **Search Paths**, and select **Add Folder to Search Path**:
 
-::: moniker range=">=vs-2019"
 ![Add Folder to Search Path command on Search Paths in Solution Explorer](media/search-paths-command-2019.png)
-::: moniker-end
 
 This command displays a browser in which you then select the folder to include.
 

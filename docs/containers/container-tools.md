@@ -11,7 +11,6 @@ ms.topic: quickstart
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-
 ::: moniker range="vs-2019"
 
 [!include[Visual Studio Container Tools](includes/vs-2019/container-tools.md)]

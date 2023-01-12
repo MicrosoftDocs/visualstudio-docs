@@ -2,7 +2,7 @@
 title: "Change Log (Visual Studio Tools for Unity, Mac) | Microsoft Docs"
 description: View the change log for Visual Studio Tools for Unity, Mac. See changes from version 1.0.0.0 through 2.7.0.0 and beyond.
 
-ms.date: "6/15/2022"
+ms.date: "12/13/2022"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
 ms.topic: "conceptual"
@@ -16,6 +16,124 @@ ms.workload:
 # Change Log (Visual Studio Tools for Unity, Mac)
 
 Visual Studio Tools for Unity change log.
+
+## 17.5.1.0 
+Released December 13, 2022
+
+### New Features
+
+- **Debugging:**
+
+  - Added an error message when using incorrect conditions in breakpoints.
+
+- **Integration:**
+
+  - Updated [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0006.md) to support all `OnPostprocessAllAssets` overloads.
+
+  - Added [`UNT0031`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0031.md), Asset operations in `LoadAttribute` method.
+
+  - Added [`UNT0032`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0032.md), Inefficient method to set `localPosition` and `localRotation`.
+
+  - Added [`UNT0033`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0033.md), Incorrect message case.
+
+  - Bumped severity to `Warning` for [`UNT0033`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0033.md), [`UNT0015`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0015.md) and [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0006.md) diagnostics.
+
+  - Fixed inline ifs incorrectly processed by [`UNT0026`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0026.md).
+
+### Bug fixes
+
+- **Debugging:**
+
+  - Fixed breakpoint binding before explicit host instruction when using type filters.
+
+## 17.5.0.0
+Released November 8, 2022
+
+### New Features
+
+- **Integration:**
+
+  - Moved to .NET 7.
+
+## 17.4.3.0
+Released October 18, 2022
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed UI issues with UPE.
+
+## 17.4.2.0
+Released October 11, 2022
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed case where async communication completed synchronously.
+
+  - Fixed running the fast build on the the Threadpool. 
+
+## 17.4.1.0
+Released September 14, 2022
+
+### Bug fixes
+
+- **Debugging:**
+
+  - Fixed stability issues when creating breakpoints, preventing unexpected calls to the debugger agent.
+
+## 17.4.0.0
+Released August 9, 2022
+
+### New Features
+
+- **Integration:**
+
+  - Added [`UNT0027`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0027.md), Prevent call to default `PropertyDrawer.OnGUI()` implementation.
+
+  - Added [`UNT0028`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0028.md), Use non-allocating physics APIs.
+
+  - Added [`UNT0029`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0029.md), Pattern matching with `null` on Unity objects.
+
+  - Added [`UNT0030`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0030.md), Calling `Destroy` or `DestroyImmediate` on a `Transform`.
+
+## 17.3.3.0
+Released July 26, 2022
+
+### Bug fixes
+
+- **Integration:**
+
+  - Removed legacy editor extensions.
+
+## 17.3.2.0
+Released July 19, 2022
+
+### Bug fixes
+
+- **Integration:**
+
+  - Removed Gtk usages.
+
+## 17.3.1.0
+Released July 12, 2022
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed UI issues with UPE.
+
+## 17.3.0.0
+Released June 14, 2022
+
+### New Features
+
+- **Evaluation:**
+
+  - Added support for fixed array buffers.
 
 ## 17.1.0.0
 Released April 12, 2022

@@ -22,7 +22,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Starting in Visual Studio 2022 Update 2 Preview 1, you can view IEnumerable collections in a tabular view.
+Starting in Visual Studio 2022 Update 2, you can view IEnumerable collections in a tabular view.
 
 The IEnumerable visualizer helps explore large collection objects in a more streamlined way. The visualizer supports IEnumerable collections where the object type (T) can be simple types or complex types like dictionaries.
 

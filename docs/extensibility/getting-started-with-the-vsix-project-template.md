@@ -64,12 +64,7 @@ You can use the VSIX Project template to create an extension or to package an ex
 
 9. Close Visual Studio and then reopen it.
 
-
-::: moniker range=">=vs-2019"
-
 10. Select **Manage Extensions** (on the **Extensions** menu) and select the **Templates** category. One of the available extensions should be **My Project Template**.
-
-::: moniker-end
 
 11. The new project template appears in the **New Project** dialog in the same place as the original project template. For example, if you created a template named **VB Console** from a Visual Basic console application, **VB Console** appears in the same pane as the Visual Basic **Console Application** template.
 

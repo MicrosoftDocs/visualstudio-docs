@@ -21,20 +21,15 @@ You can use Test Explorer to start a debugging session for your tests. Stepping 
     > [!NOTE]
     > Because test methods can run in any order, set breakpoints in all the test methods that you want to debug.
 
-::: moniker range=">=vs-2019"
 2. In Test Explorer, select the test method(s) and then choose **Debug** on the right-click menu.
 
    ![Test execution details](../test/media/vs-2019/test-explorer-debug.png)
-::: moniker-end
 
    For more information, about the debugger, see [Debug in Visual Studio](../debugger/debugger-feature-tour.md).
 
 ## Diagnose test method performance issues
 
-
-::: moniker range=">=vs-2019"
 To diagnose why a test method is taking too much time, select the method in Test Explorer and then choose **Profile** on the right-click menu. See [Instrumentation profiling report](../profiling/understanding-instrumentation-data-values.md?view=vs-2017&preserve-view=true).
-::: moniker-end
 
 > [!NOTE]
 > This feature is not currently supported for .NET Core.

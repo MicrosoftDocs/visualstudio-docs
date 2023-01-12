@@ -24,16 +24,12 @@ If you have a 64-bit machine, you can run unit tests and capture code coverage i
 
 1. If your code or tests were compiled as 32-bit/x86, but you now want to run them as a 64-bit process, recompile them as **Any CPU**.
 
-
     > [!TIP]
     > For maximum flexibility, compile your test projects with the **Any CPU** configuration. Then you can run on both 32-bit and 64-bit agents. There's no advantage to compiling test projects with the **64-bit** configuration, unless you are calling code that is only supported on 64-bit.
 
 2. Set the unit tests to run as a 64-bit process.
 
-   ::: moniker range=">=vs-2019"
    From the Visual Studio menu, choose **Test**, then choose **Processor Architecture for AnyCPU projects**. Choose **x64** to run the tests as a 64-bit process.
-   ::: moniker-end
-
 
    \- or -
 

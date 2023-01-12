@@ -153,8 +153,6 @@ From the failed test, you can easily debug the product code, make edits, and con
 
 For example, the test failure shown in the previous image was caused by an incorrect assumption in the test method that non-alphabetic characters return `true` when passed to the <xref:System.Char.IsLower%2A?displayProperty=fullName> method. After you correct the test method, all the tests should pass. You don't have to pause or stop Live Unit Testing.
 
-
-::: moniker range=">=vs-2019"
 ## Live Unit Testing window
 
 **Live Unit Testing**, similar to **Test Explorer**, provides an interface that lets you run and debug tests and analyze test results. When Live Unit Testing is enabled, the status of unit tests in **Test Explorer** is updated immediately. You don't need to explicitly run the unit tests. When Live Unit Testing is not enabled or is stopped, **Live Unit Testing** displays the status of unit tests the last time a test was run. After you restart Live Unit Testing, a source code change is required to rerun the tests.
@@ -163,7 +161,7 @@ For example, the test failure shown in the previous image was caused by an incor
 > Start Live Unit Testing by selecting **Test** > **Live Unit Testing** > **Start** from the top-level Visual Studio menu. You can also open the **Live Unit Testing** window using **View** > **Other Windows** > **Live Unit Testing Window**.
 
 You may notice in the **Live Unit Testing** window that some tests are faded out. For example, when you stop and restart Live Unit Testing, the **Live Unit Testing** window fades out all the tests, as the following image shows. Faded-out test results indicate that the test was not a part of the latest Live Unit Test run. Tests only run when a change to the test or the test's dependencies is detected. If there is no change, it avoids unnecessarily running the test. In this case, the grayed out test result is still "up-to-date" though it was not a part of the latest run.
-::: moniker-end
+
 ::: moniker range="vs-2019"
 
 ![Faded out tests in Test Explorer](media/vs-2019/lut-test-explorer.png)
@@ -172,7 +170,7 @@ You may notice in the **Live Unit Testing** window that some tests are faded out
 ![Faded out tests in Test Explorer](media/vs-2022/lut-test-explorer.png)
 
 ::: moniker-end
-::: moniker range=">=vs-2019"
+
 You can rerun any tests that appear faded by making a code change.
 
 There are some differences between Live Unit Testing automatically running and updating test results and explicitly running tests from **Test Explorer**. These differences include:
@@ -180,7 +178,6 @@ There are some differences between Live Unit Testing automatically running and u
 - Running or debugging tests from the Test Explorer window runs regular binaries, whereas Live Unit Testing runs instrumented binaries.
 - Live Unit Testing does not create a new application domain to run tests, but rather runs tests from the default domain. Tests run from the **Test Explorer** window do create a new application domain.
 - Live Unit Testing runs tests in each test assembly sequentially. In the **Test Explorer** window, you can choose to run multiple tests in parallel.
-::: moniker-end
 
 ## Large solutions
 

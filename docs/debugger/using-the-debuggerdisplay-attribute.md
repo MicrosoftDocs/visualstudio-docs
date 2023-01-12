@@ -20,7 +20,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The <xref:System.Diagnostics.DebuggerDisplayAttribute> controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types, delegates, properties, fields, and assemblies. If applied to a base type, the attribute also applies to a subclass.
+The <xref:System.Diagnostics.DebuggerDisplayAttribute> controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types (classes, structs, enums, delegates). If applied to a base type, the attribute also applies to a subclass.
 
 The `DebuggerDisplay` attribute has a single argument, which is a string to be displayed in the value column for instances of the type. This string can contain braces (`{` and `}`). Text within a pair of braces is evaluated as a field, property or method.
 

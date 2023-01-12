@@ -3,7 +3,7 @@ title: 'Command-line shells & prompt for developers'
 description:  Start from the Tools > Command Line menu. Select the Visual Studio Developer Command Prompt, Developer PowerShell, or terminal to use .NET and C++ tools more easily.
 author: TerryGLee
 ms.author: tglee
-ms.date: 02/28/2022
+ms.date: 12/15/2022
 ms.topic: conceptual
 ms.custom: contperf-fy21q4
 helpviewer_keywords:
@@ -38,7 +38,7 @@ Visual Studio includes two command-line shells for developers, a command prompt 
     :::image type="content" source="media/developer-command-prompt-for-vs/developer-powershell-visual-studio-2022.png" alt-text="Screenshot of the Developer PowerShell tool in Visual Studio 2022.":::
     ::: moniker-end
 
-Starting in [Visual Studio 2019 version 16.5](/visualstudio/releases/2019/release-notes-v16.5), Visual Studio includes an integrated **terminal** that can host either of these shells (Developer Command Prompt and Developer PowerShell). You can also open multiple tabs of each shell. The Visual Studio terminal is built on top of [Windows Terminal](/windows/terminal/). To open the terminal in Visual Studio, select **View** > **Terminal**.
+Starting in [Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/say-hello-to-the-new-visual-studio-terminal/), Visual Studio includes an integrated **terminal** that can host either of these shells (Developer Command Prompt and Developer PowerShell). You can also open multiple tabs of each shell. The Visual Studio terminal is built on top of [Windows Terminal](/windows/terminal/). To open the terminal in Visual Studio, select **View** > **Terminal**.
 
 ::: moniker range="vs-2022"
 :::image type="content" source="media/developer-command-prompt-for-vs/visual-studio-2022-terminal-window.png" alt-text="Screenshot of the Visual Studio terminal pane that shows multiple tabs.":::
@@ -126,9 +126,25 @@ Usually, the shortcuts for the shells you have installed are placed in the **Sta
 
 ### Developer Command Prompt
 
-Search for the name of the command prompt file, which is *VsDevCmd.bat*, or go to the Tools folder for Visual Studio, such as *%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\Common7\Tools* (path changes according to your Visual Studio version, edition, and installation location).
+Search for the name of the command prompt file, which is *VsDevCmd.bat*, or go to the Tools folder for Visual Studio, such as *%ProgramFiles%\Microsoft Visual Studio\2022\Community\Common7\Tools* (the path changes according to your Visual Studio version, edition, and installation location).
 
 Once you've located the command prompt file, open it by entering the following command in a regular command prompt window:
+
+::: moniker range="vs-2022"
+
+```cmd
+"%ProgramFiles%\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat"
+```
+
+Or enter the following command in the Windows **Run** dialog box:
+
+```cmd
+%comspec% /k "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat"
+```
+
+::: moniker-end
+
+::: moniker range="vs-2019"
 
 ```cmd
 "%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat"
@@ -140,8 +156,10 @@ Or enter the following command in the Windows **Run** dialog box:
 %comspec% /k "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat"
 ```
 
+::: moniker-end
+
 > [!TIP]
-> Make sure to edit the path to match the version of Visual Studio that you're using.
+> Make sure to edit the path to match the version or edition of Visual Studio that you're using.
 
 ### Developer PowerShell
 

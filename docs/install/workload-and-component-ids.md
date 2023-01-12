@@ -6,7 +6,7 @@ keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.date: 05/10/2022
+ms.date: 12/1/2022
 ms.custom: vs-acquisition
 ms.topic: reference
 helpviewer_keywords:
@@ -24,7 +24,6 @@ open_to_public_contributors: false
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Click the edition names in the following table to see the available workload and component IDs you need to install Visual Studio by using a command line, or to specify as a dependency in a VSIX manifest.
-
 
 ::: moniker range="vs-2019"
 
@@ -49,7 +48,7 @@ For more information about how to use these lists, see the [Use command-line par
 
 ::: moniker range=">=vs-2022"
 
-**Updated for the [17.2 release](/visualstudio/releases/2022/release-notes/)**
+**Updated for the [17.4 release](/visualstudio/releases/2022/release-notes/)**
 
 | **Edition** | **ID** | **Description** |
 | ----------- | ------ | --------------- |
@@ -75,4 +74,5 @@ For more information about how to use these lists, see the [Use command-line par
 * [Visual Studio administrator guide for Visual Studio](visual-studio-administrator-guide.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
   * [Command-line parameter examples](command-line-parameter-examples.md)
+* [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 * [Create an offline installation of Visual Studio](create-an-offline-installation-of-visual-studio.md)

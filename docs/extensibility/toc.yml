@@ -23,8 +23,10 @@
       href: migration/breaking-api-list.md
     - name: Removed API list
       href: migration/removed-api-list.md
-    - name: Migrated PIA
+    - name: Migrated API
       href: migration/migrated-assemblies.md
+    - name: ARM64 support
+      href: arm64/target-arm64-visual-studio-extension.md
     - name: VS SDK messages
       href: vssdk-messages/index.md
   - name: What's New Visual Studio 2019 SDK

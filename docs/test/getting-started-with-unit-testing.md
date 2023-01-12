@@ -1,8 +1,7 @@
 ---
 title: Get started with unit testing
 description: Use Visual Studio to define and run unit tests to maintain code health, and to find errors and faults before your customers do.
-ms.custom: SEO-VS-2020
-ms.date: 12/16/2021
+ms.date: 12/13/2022
 ms.topic: tutorial
 helpviewer_keywords:
 - unit testing, create unit test plans
@@ -58,10 +57,7 @@ This section describes how to create a unit test project.
 
 1. In the new project dialog box, find the unit test project to use.
 
-   ::: moniker range=">=vs-2019"
    Type **test** in the search box to find a unit test project template for the test framework you want to use, such as **MSTest** (C#) or the **Native Unit Test** project (C++), and select it.
-   ::: moniker-end
-
 
    Starting in Visual Studio 2017 version 14.8, the .NET languages include built-in templates for NUnit and xUnit. For C++, in this example select the **Native Unit Test** project, which uses Microsoft Native Unit Test Framework. (To use a different C++ test framework, see [Writing unit tests for C/C++](../test/writing-unit-tests-for-c-cpp.md)). For Python, see [Set up unit testing in Python code](../python/unit-testing-python-in-visual-studio.md) to set up your test project.
 
@@ -84,7 +80,6 @@ This section describes how to create a unit test project.
    Click **Next**, choose a name for the test project, and then click **Create**.
 
    ::: moniker-end
-
 
    The project is added to your solution.
 
@@ -244,10 +239,7 @@ This section describes how to create a unit test project.
 
 1. Open [Test Explorer](../test/run-unit-tests-with-test-explorer.md).
 
-   ::: moniker range=">=vs-2019"
    To open Test Explorer, choose **Test** > **Test Explorer** from the top menu bar (or press **Ctrl** + **E**, **T**).
-   ::: moniker-end
-
 
 1. Run your unit tests by clicking **Run All** (or press **Ctrl** + **R**, **V**).
 
@@ -278,7 +270,6 @@ If you are using the MSTest, xUnit, or NUnit testing framework in Visual Studio 
 > To follow these steps, Visual Studio Enterprise is required, along with .NET code and one of the following test frameworks: MSTest, xUnit, or NUnit.
 
 1. Turn live unit testing from the **Test** menu by choosing **Test** > **Live Unit Testing** > **Start**.
-
 
    ::: moniker range="vs-2019"
 
@@ -341,7 +332,6 @@ To add a unit test project:
 
    Click **Next**, name the project, and then click **Create**.
    ::: moniker-end
-
 
    The project template includes NuGet references to NUnit and NUnit3TestAdapter.
 

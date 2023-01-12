@@ -50,7 +50,7 @@ If it is difficult or time-consuming to recreate a particular state in your app,
 
 #### To create a conditional breakpoint
 
-1. Right-click a breakpoint icon (the red ball) and choose **Conditions**.
+1. Right-click a breakpoint icon (the red sphere) and choose **Conditions**.
 
 2. In the **Breakpoint Settings** window, type an expression.
 
@@ -140,7 +140,6 @@ If you need to debug the kinds of issues that are common to multithreaded apps, 
 3. Hover the pointer over the thread marker. A DataTip appears. The DataTip tells you the name and thread ID number for each stopped thread.
 
     You can also view the location of threads in the [Parallel Stacks window](../debugger/get-started-debugging-multithreaded-apps.md).
-
 
 ## <a name="modules_window"></a> Get more familiar with how the debugger attaches to your app (C#, C++, Visual Basic, F#)
 

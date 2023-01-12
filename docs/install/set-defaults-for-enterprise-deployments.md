@@ -1,7 +1,7 @@
 ---
 title: Set defaults for enterprise deployments
 description: Learn about domain policies and other configuration operations for enterprise deployments of Visual Studio.
-ms.date: 12/7/2021
+ms.date: 12/1/2022
 ms.topic: conceptual
 f1_keywords:
 - gpo
@@ -18,23 +18,24 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-# Set defaults for enterprise deployments of Visual Studio
+# Configure policies for enterprise deployments of Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can set registry policies that affect the deployment and update behavior of Visual Studio. These policies are global on the client machine and affect the following:
+You can configure certain aspects of Visual Studio's deployment and update behavior. Some of these configurations are particular to an installed instance of Visual Studio, and some of the configurations can be global and apply to all instances of Visual Studio on the client machine. The configurable behaviors include:
 
-- Where some packages shared with other versions or instances are installed.
-- Where and whether packages are cached.
-- If administrator updates should be enabled and how they should be applied.
-- Which update channels are available and how they're presented to the client.
-- How notifications appear or don't appear.
+- Where some packages shared with other versions or instances are installed
+- Where and whether packages are cached
+- If administrator updates should be enabled and how they should be applied
+- Which update channels are available and how they're presented to the client
+- How notifications appear or don't appear
+- If unsupported components should be removed from the machine
 
-You can set these policies by using [command-line options](use-command-line-parameters-to-install-visual-studio.md) on the client machine, by setting registry values directly on the client machine, or by distributing them using Group Policy across an organization.
+You can set these global behaviors by using [Administrative Templates ADMX](administrative-templates.md) and then distributing these policies across the organization, or by setting registry values directly on the client machine. You can configure per instance behaviors by using [command-line options](use-command-line-parameters-to-install-visual-studio.md) on the client machine.
 
 ## Registry keys
 
-There are several locations where you can set enterprise defaults to enable their control either through Group Policy or directly in the registry. Visual Studio looks sequentially to see if any enterprise policies have been set; as soon as a policy value is discovered in the order below, the remaining keys are ignored.
+There are several locations where you can set enterprise defaults to enable their control either through Group Policy or directly in the registry. Visual Studio looks sequentially to see if any enterprise policies have been set; as soon as a policy value is discovered in the order below, the remaining keys are ignored. All of these policies are included in the [Visual Studio Administrative Templates (ADMX)](administrative-templates.md) which can be downloaded [here](https://aka.ms/vs/admx/details). 
 
 1. `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\Setup`
 2. `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup`
@@ -44,57 +45,41 @@ Some registry values are set automatically the first time they are used if not s
 
 You can set the following registry values:
 
-## Controlling installation and download behavior
-The registry settings in this section control how and where the Visual Studio product is downloaded onto the client machine.
+## Controlling installation, download, and update behavior
+The registry settings in this section control how and where the Visual Studio product is downloaded and installed onto the client machine.
 
 | **Name**                         | **Type**                    | **Default**                                         | **Description**       |
 |----------------------------------|-----------------------------|-----------------------------------------------------|----------------------------|
-| `CachePath`                      | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%<br>\Microsoft<br>\VisualStudio<br>\Packages       | The directory where package manifests and, optionally, payloads are stored. For more information, see [Disable or move the package cache](disable-or-move-the-package-cache.md) page.   |
-| `KeepDownloadedPayloads`         | `REG_DWORD`                 | 1                                                   | Keep package payloads even after they are installed. You can change the value anytime. Disabling the policy removes any cached package payloads for the instance you repair or modify. For more information, see [Disable or move the package cache](disable-or-move-the-package-cache.md) page.   |
-| `SharedInstallationPath`         | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramFiles(x86)%<br>\Microsoft Visual Studio<br>\Shared  | The directory where some packages shared across versions of instances of Visual Studio are installed. You can change the value anytime, but it will only affect future installs. Any products already installed to the old location must not be moved or they might not function correctly.      |
-| `BackgroundDownloadDisabled`     | `REG_DWORD`                 | 0                                                   | Prevent setup from downloading updates automatically for all installed Visual Studio products. You can change the value anytime.    |
+| `CachePath`                      | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%<br>\Microsoft<br>\VisualStudio<br>\Packages  | **Package manifest and payload cache path**: the Visual Studio Installer enforces a 50 character limit for the path of this storage cache directory. For more information, see [Disable or move the package cache](disable-or-move-the-package-cache.md) page   |
+| `KeepDownloadedPayloads`         | `REG_DWORD`                 | 1                                                   | **Keep package payloads after installation**:  disabling the policy removes any cached package payloads for the instance you repair or modify. You can change the value anytime. For more information, see [Disable or move the package cache](disable-or-move-the-package-cache.md) page.   |
+| `SharedInstallationPath`         | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramFiles(x86)%<br>\Microsoft Visual Studio<br>\Shared  | **Shared installation path**: the directory where some packages shared across versions of instances of Visual Studio are installed. You can change the value anytime, but it will only affect future installs. Any products already installed to the old location must not be moved or they might not function correctly. The Visual Studio Installer enforces a 150 character limit for the path.     |
+| `BackgroundDownloadDisabled`     | `REG_DWORD`                 | 0                                                   | **Disable downloading updates automatically**: if set to 1, then setup will be prevented from downloading updates automatically for all installed Visual Studio products. You can change the value anytime.  |
+| `removeOos`                      | `REG_DWORD`                 | 0                                                   | **Remove out-of-support components during updates**: if set to 1, then the Visual Studio installer will remove all installed components that have transitioned to an out-of-support state during all subsequent updates. If set to 0 or missing entirely, then the `removeOos` behavior will respect other locations where this can be configured, such as commandline parameter or the **Update Settings** dialog. For more information see [Remove out-of-support components blog post](https://aka.ms/vs/removeoos/blog). This functionality requires the Visual Studio 2022 version 17.4 installer to be installed on the client machine. |
+| `DisableRollback`                | `REG_DWORD`                 | 0                                                   | **Disable the ability to rollback or undo a Visual Studio update**: if set to 1, then users will be prevented from accessing the rollback capability, which will prevent Visual Studio from reverting the most recent update which may contain a security fix. If set to 0 or missing entirely, then users will be able to access the rollback feature in Visual Studio, and will be able to undo an update and rollback their Visual Studio instances to the previously installed version. For more information, see the [Rollback blog post](https://aka.ms/vs/rollback).  |
 
 > [!IMPORTANT]
 > If you change the `CachePath` registry policy after any installations, you must move the existing package cache to the new location and make sure it's secured so that `SYSTEM` and `Administrators` have **Full Control** and that `Everyone` has **Read** access.
 > Failure to move the existing cache or securing it might cause problems with future installs.
 
-
 ## Controlling Administrator Updates
 
-
-::: moniker range="vs-2019"
-
 The registry settings in this section control if and how administrator updates are applied to the client machine.
 
 | **Name**                         | **Type**                    | **Default**                                         | **Description**           |
 |----------------------------------|-----------------------------|-----------------------------------------------------|---------------------------|
-| `AdministratorUpdatesEnabled`    | `REG_DWORD`                 | 0                                                   | Allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates will be blocked. This value is for administrative use. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). |
-| `AdministratorUpdatesOptOut`     | `REG_DWORD`                 | 0                                                   | Indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This is for developer user (if they have admin permissions on the client machine). For more information, see [Applying administrator updates](../install/applying-administrator-updates.md#understanding-configuration-options). |
-| `UpdateConfigurationFile`        | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%<br>\Microsoft<br>\VisualStudio<br>\updates.config | The file path for configuring Administrative Updates. For more information, see [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update).   |                        
-| `BaselineStickinessVersions2019` | `REG_SZ` or `REG_EXPAND_SZ` | `16.7.0`                                            | The servicing baseline minor version that the client should remain on. For more information, see [Applying administrator updates](../install/applying-administrator-updates.md#understanding-configuration-options) page. |
+| `AdministratorUpdatesEnabled`| `REG_DWORD`                 | 0                                                   | **Enable administrator updates**: allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates will be blocked. A value of 1 makes the client machine available for updates deployed through the WSUS/SCCM channel. The recommended value of **2** makes the client machine available to receive updates deployed through either the WSUS/SCCM channel or the Windows Update for Business/Intune/Microsoft Endpoint manager channel. This registry key is for the administrator user. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). |
+| `AdministratorUpdatesOptOut` | `REG_DWORD`                 | 0                                                   | **Opt out of administrator updates**: indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This policy is for the developer user to configure if they have admin permissions on the client machine. <br> <br> Note that the AdministratorUpdatesOptOut key for encoding user preference is prioritized over the AdministratorUpdatesEnabled key, which encodes the IT admin intent. If AdministratorUpdatesOptOut is set to 1, the update will be blocked on the client, even if the AdministratorUpdatesEnabled key is also set to 1. This action assumes that IT admins can access and monitor which developers chose to opt out, and that the two parties can then discuss whose needs are more important. IT admins can always change either key whenever they want.|
+| `UpdateConfigurationFile`    | `REG_SZ` or `REG_EXPAND_SZ`  | %ProgramData%<br>\Microsoft<br>\VisualStudio<br>\updates.config | **Custom path to the update configuration file**: the path to the file on the client that can be used to configure Administrative Updates. By default, this file doesn't exist and the policy isn't set. If you choose to add this policy to the client machine and define a custom configuration file location, then the Administrator update will look for this file; if the file doesn’t exist, then an exception will be thrown and the update will fail. For more information, see [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update).   |    
 
-::: moniker-end
-
-::: moniker range=">=vs-2022"
-
-The registry settings in this section control if and how administrator updates are applied to the client machine.
-
-| **Name**                         | **Type**                    | **Default**                                         | **Description**           |
-|----------------------------------|-----------------------------|-----------------------------------------------------|---------------------------|
-| `AdministratorUpdatesEnabled`    | `REG_DWORD`                 | 0                                                   | Allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates will be blocked. This value is for administrative use. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). |
-| `AdministratorUpdatesOptOut`     | `REG_DWORD`                 | 0                                                   | Indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This is for developer user (if they have admin permissions on the client machine). For more information, see [Applying administrator updates](../install/applying-administrator-updates.md#understanding-configuration-options). |
-| `UpdateConfigurationFile`        | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%<br>\Microsoft<br>\VisualStudio<br>\updates.config | The file path for configuring Administrative Updates. For more information, see [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update).   |    
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
+> [!IMPORTANT]
+> Cloud connected client machines that are managed by Intune must be configured for [Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb) and opted into the [AllowMUUpdateServicePolicy](/windows/client-management/mdm/policy-csp-update#update-allowmuupdateservice) in order to receive Visual Studio  administrator updates through the Windows Update for Business Microsoft Update channel.
 
 ## Configuring source location for updates 
 
 The settings in this section allow an administrator to customize and control what update channels are available and how they appear to clients in an enterprise organization. For information about what the update settings even are and how they work, refer to the [configure source location of updates](update-visual-studio.md#configure-source-location-of-updates-1) documentation. 
 This functionality requires the client to be using the Visual Studio 2022 Installer and the layout to be using a version of the 2019 bootstrapper that shipped on or after November 10, 2021. Guidance for how to enable this is available at the [how to get the Visual Studio 2022 installer on your client machines via a Visual Studio 2019 layout](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) documentation.
 
-The keys in this section only apply to the Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup\registry path
+The keys in this section only apply to the Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup registry path
 
 | **Name**                         | **Type**                    | **Description**                                                |
 |----------------------------------|-----------------------------|-----------------------------------------------------|
@@ -103,8 +88,7 @@ The keys in this section only apply to the Computer\HKEY_LOCAL_MACHINE\SOFTWARE\
 | `ChannelURI` | `REG_SZ` |  The channelURI to either add to list of update channel values by adding to the `Channels` hive, or suppress from the list of update channels by adding to the `DisabledChannels` registry hive. For Microsoft hosted channels, the channelURI is "https://aka.ms/vs/16/release/channel" or "https://aka.ms/vs/16/pre/channel".  For layouts, this value needs to point to the layout's ChannelManifest.json. Refer to examples below. |
 | `Description` | `REG_SZ` |  A two-line custom description of the channel. If you've already installed from a layout, then the Update Settings UI defaults to "Private Channel" and you can change it using this Description. |
 
-
-Below are two example registry files that illustrates how an IT Admin may want to customize the [Update Settings UI](/visualstudio/install/update-visual-studio?#configure-source-location-of-updates-1). 
+Below are some registry file examples that illustrate how an IT Admin may want to customize the [Update Settings UI](/visualstudio/install/update-visual-studio?#configure-source-location-of-updates-1). 
 
 The first registry example can be used in a situation where the client has previously installed from a network layout located at `\\vslayoutserver3\vs\2019_Enterprise`. As mentioned previously, Visual Studio defaults the channel name for this layout to "Private Channel". Here's how you would customize the channel name and description for this layout.
 
@@ -117,7 +101,6 @@ Windows Registry Editor Version 5.00
 "channelUri"="\\\\vslayoutserver3\\vs\\2019_Enterprise\\ChannelManifest.json"
 "Description"="Dev Tools based on VS 2019 16.9.Spring.2020 servicing baseline"
 ```
-
 
 Here's how to add a few more layout entries for other custom update channels that are available as a source for updates, and also how to suppress the Preview channel from showing up.
 
@@ -138,21 +121,13 @@ Windows Registry Editor Version 5.00
 "channelUri"="https://aka.ms/vs/16/pre/channel"
 ```
 
-::: moniker-end
-
 ## Controlling notifications in the Visual Studio IDE
-
-
-::: moniker range=">=vs-2019"
 
 As described earlier, Visual Studio checks the location from which it has been installed, such as a network share or the internet, to see whether any updates are available. When an update is available, Visual Studio notifies the user with a notification icon in the lower right-hand corner of the window.
 
    ![The notification icon in the Visual Studio IDE](media/vs-2019/notification-bar.png "The notification icon in the Visual Studio IDE")
 
-::: moniker-end
-
 You can disable the notifications if you don't want end users to be notified of updates. (For example, you might want to disable notifications if you deliver updates through a central software distribution mechanism.)
-
 
 ::: moniker range="vs-2019"
 

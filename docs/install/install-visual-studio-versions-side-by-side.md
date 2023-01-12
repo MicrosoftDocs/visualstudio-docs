@@ -2,7 +2,7 @@
 title: Install Visual Studio versions side-by-side
 description: Learn how to install Visual Studio on a computer that has an earlier or later version of Visual Studio already installed.
 ms.custom: "vs-acquisition, SEO-VS-2020"
-ms.date: 03/29/2021
+ms.date: 11/28/2022
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: conceptual
@@ -19,7 +19,6 @@ manager: jmartens
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can install Visual Studio on a computer that has an earlier or later version of Visual Studio already installed.
-
 
 ::: moniker range="vs-2019"
 
@@ -45,12 +44,11 @@ Before you install versions side-by-side, review the following conditions:
 
 * Visual Studio doesn't automatically upgrade extensions because not all extensions are compatible. You must reinstall the extensions from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) or the software publisher.
 
+::: moniker range="vs-2019"
+
 ## Install minor Visual Studio versions side-by-side
 
 When upgrading from one minor version of Visual Studio to the next, the Visual Studio installer will, by default, update your current install to the latest version in that channel. For example, suppose 16.9.4 was just released. The installer will try to replace your current install of 16.9.3 (or lower) with 16.9.4, since both versions are part of the [Visual Studio 2019 release channel](/visualstudio/productinfo/release-rhythm). Replacing the older release with the newer release during update helps ensure older versions of Visual Studio aren't taking up room on your machine. However, in some specific cases, it might be helpful to install different minor release versions of Visual Studio side-by-side. For example, you may want to have both 16.9.3 and 16.9.4 on the same machine.
-
-
-::: moniker range="vs-2019"
 
 1. Download the Visual Studio 2019 bootstrapper file from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page for the minor version that you would like to install side-by-side with your existing version of Visual Studio.
 
@@ -72,6 +70,10 @@ When upgrading from one minor version of Visual Studio to the next, the Visual S
 
 ::: moniker range=">=vs-2022"
 
+## Install minor Visual Studio versions side-by-side
+
+When upgrading from one minor version of Visual Studio to the next, the Visual Studio installer will, by default, update your current install to the latest version in that channel. For example, suppose 17.3.9 was just released. The installer will try to replace your current install of 17.3.8 (or lower) with 17.3.9, since both versions are part of the [Visual Studio 2022 release channel](/visualstudio/productinfo/release-rhythm). Replacing the older release with the newer release during update helps ensure older versions of Visual Studio aren't taking up room on your machine. However, in some specific cases, it might be helpful to install different minor release versions of Visual Studio side-by-side. For example, you may want to have both 17.3.8 and 17.3.9 on the same machine.
+
 1. Download the Visual Studio 2022 bootstrapper file from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2022 Releases](/visualstudio/releases/2022/release-notes) page for the minor version that you would like to install side-by-side with your existing version of Visual Studio.
 
 1. Open the command prompt in administrator mode. To do this, open the Windows Start menu, type "cmd", right-click on the Command Prompt search result, and select **Run as administrator**. In the command prompt, change the directory to the folder where your Visual Studio bootstrapper file is located.
@@ -92,12 +94,11 @@ When upgrading from one minor version of Visual Studio to the next, the Visual S
 
 ## .NET Framework versions and side-by-side installations
 
-Visual Basic, Visual C#, and Visual F# projects use the **Target Framework** option in the **Project Designer** to specify which version of the .NET Framework that a project uses. For a C++ project, you can manually change the target framework by modifying the .vcxproj file. For more information, see the [Version compatibility in the .NET Framework](/dotnet/framework/migration-guide/version-compatibility) page.
+Visual Basic, Visual C#, and Visual F# projects use the **Target Framework** option in the **Project Designer** to specify the version of the .NET Framework that'll be used. For a C++ project, you can manually change the target framework by modifying the .vcxproj file. For more information, see the [Version compatibility in the .NET Framework](/dotnet/framework/migration-guide/version-compatibility) page.
 
 When you create a project, you can specify which version of the .NET Framework the project targets in the **.NET Framework** list in the **New Project** dialog box.
 
 For language-specific information, see the appropriate topic in the following table.
-
 
 ::: moniker range=">= vs-2019"
 

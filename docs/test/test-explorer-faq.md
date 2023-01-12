@@ -11,10 +11,10 @@ helpviewer_keywords:
   - "summary line"
   - "unit tests"
   - "Test Explorer FAQ"
-ms.author: "kehavens"
+ms.author: mikejo
 ms.workload:
   - "multiple"
-author: kendrahavens
+author: MikeJo5000
 manager: jmartens
 ms.technology: vs-ide-test
 ---
@@ -26,9 +26,7 @@ ms.technology: vs-ide-test
 
 **Test Explorer is not discovering my tests that are dynamically defined. (For example, theories, custom adapters, custom traits, #ifdefs, etc.) How can I discover these tests?**
 
-::: moniker range=">=vs-2019"
 Build your project to run assembly-based discovery.
-::: moniker-end
 
 [Real-time test discovery](https://devblogs.microsoft.com/dotnet/real-time-test-discovery/) is source-based test discovery. It can’t discover tests that use theories, custom adapters, custom traits, `#ifdef` statements, and more because they're defined at run time. A build is required for those tests to be accurately found. In Visual Studio 2017 version 15.6 and later, assembly-based discovery (the traditional discoverer) runs only after builds. This setting means real-time test discovery finds as many tests as it can while you're editing, and assembly-based discovery allows dynamically defined tests to appear after a build. Real-time test discovery improves responsiveness, but still allows you to get complete and precise results after a build.
 
@@ -39,7 +37,6 @@ Build your project to run assembly-based discovery.
 The '+' (plus) symbol indicates that more tests may be discovered after a build when assembly-based discovery runs. This symbol appears if dynamically defined tests are detected in your project.
 
 ![Plus symbol summary line](media/testex-plussymbol.png)
-
 
 ## Real-time test discovery
 
@@ -101,7 +98,6 @@ All test projects must include their .NET test adapter NuGet reference in their 
 
 Instead of using test adapter extensions, projects are required to use test adapter NuGet packages. This requirement greatly improves performance and causes fewer issues with continuous integration. Read more about .NET Test Adapter Extension deprecation in the [release notes](/visualstudio/releasenotes/vs2017-relnotes-v15.8#testadapterextension).
 
-
 ## UWP TestContainer was not found
 
 **My UWP tests are no longer being executed in Visual Studio 2017 version 15.7 and later.**
@@ -123,11 +119,10 @@ To fix this error:
 ```XML
 <SDKReference Include="TestPlatform.Universal, Version=$(UnitTestPlatformVersion)" />
 ```
-::: moniker range=">=vs-2019"
+
 ## Using preview features
 
 In Visual Studio 2019, you can opt into preview features in **Tools > Options > Environment > Preview Features**.
-::: moniker-end
 
 ## See also
 

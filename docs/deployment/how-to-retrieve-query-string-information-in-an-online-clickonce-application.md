@@ -47,13 +47,14 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
 
 1. Place the following code in your project. In order for this code to function, you will have to have a reference to System.Web and add `using` or `Imports` directives for System.Web, System.Collections.Specialized, and System.Deployment.Application.
 
+    [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
+
     ### [C#](#tab/csharp)
     :::code language="csharp" source="../snippets/csharp/VS_Snippets_Winforms/ClickOnceQueryString/CS/Form1.cs" id="Snippet1":::
 
     ### [VB](#tab/vb)
     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_Winforms/ClickOnceQueryString/VB/Form1.vb" id="Snippet1":::
     ---
-
 
 2. Call the function defined previously to retrieve a <xref:System.Collections.DictionaryBase.Dictionary%2A> of the query string parameters, indexed by name.
 
@@ -73,6 +74,8 @@ The *query string* is the portion of a URL beginning with a question mark (?) th
 
 > [!NOTE]
 > Alternately, you can enable query string passing in [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]. Select the **Allow URL parameters to be passed to application** check box, which can be found by opening the **Project Properties**, selecting the **Publish** tab, clicking the **Options** button, and then selecting **Manifests**.
+
+[!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 ## Robust programming
  When you use query string parameters, you must give careful consideration to how your application is installed and activated. If your application is configured to install on the user's computer from the Web or from a network share, it is likely that the user will activate the application only once through the URL. After that, the user will usually activate your application using the shortcut in the **Start** menu. As a result, your application is guaranteed to receive query string arguments only once during its lifetime. If you choose to store these arguments on the user's machine for future use, you are responsible for storing them in a safe and secure manner.

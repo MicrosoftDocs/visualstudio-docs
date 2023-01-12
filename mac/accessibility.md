@@ -1,8 +1,8 @@
 ---
 title: "Accessibility options in Visual Studio for Mac IDE and macOS"
 description: "Introduction of accessibility features in Visual Studio for Mac and how they can be enabled. Also learn about using macOS accessibility options and features, such as high contrast, keyboard navigation, and VoiceOver in Visual Studio for Mac"
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 02/23/2022
 ms.assetid: 2C4AAC2E-3B4A-4496-8BE0-1F5A7F81D1CA
@@ -27,28 +27,6 @@ In this article, learn how to use macOS accessibility features, and to set acces
 > [!NOTE]
 > This guide refers to Visual Studio for Mac. For Visual Studio on Windows, see [Accessibility features of Visual Studio](/visualstudio/ide/reference/accessibility-features-of-visual-studio).
 
-::: moniker range="vsmac-2019"
-## Enable macOS accessibility features in Visual Studio for Mac
-
-In Visual Studio for Mac, support for assistive technologies is turned off by default. To enable accessibility support:
-
-1. Go to **Visual Studio (menu)** > **Preferences** > **Other**, and select **Accessibility**.
-
-1. Select the **Enable Accessibility** check box.
-
-   ![Screenshot of Accessibility Preferences, with Enable Accessibility selected](media/accessibility-preferences.png)
-
-1. Select **Restart Visual Studio** to enable support for the assistive technologies of Apple.
-
-Alternatively, you can use the command line to enable accessibility features. To do this, enter the following command in terminal:
-
-```bash
-defaults write com.microsoft.visual-studio com.monodevelop.AccessibilityEnabled 1
-```
-
-After changing this setting via the command line, you will need to restart Visual Studio.
-
-::: moniker-end
 
 ## Increase the contrast in macOS
 

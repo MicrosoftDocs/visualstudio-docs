@@ -1,7 +1,7 @@
 ---
 title: Create an offline installation
 description: Learn how to install Visual Studio offline when you have an unreliable internet connection or low bandwidth.
-ms.date: 3/3/2022
+ms.date: 11/3/2022
 ms.topic: conceptual
 f1_keywords:
 - offline installation [Visual Studio]
@@ -38,10 +38,9 @@ You can also configure future updates of this instance of Visual Studio to respe
 
 ## Use the command line to create a local layout
 
-Download the bootstrapper for the edition of Visual Studio you want and copy it into the directory that you want to serve as the source location of your local layout. Once the layout is created, you can use it to install Visual Studio. The bootstrapper is the executable that you use to create, update, and perform other Visual Stusio installation operations. You must have an internet connection to complete this.
+Download the bootstrapper for the edition of Visual Studio you want and copy it into the directory that you want to serve as the source location of your local layout. Once the layout is created, you can use it to install Visual Studio. The bootstrapper is the executable that you use to create, update, and perform other Visual Studio installation operations. You must have an internet connection to complete this.
 
 ### Step 1 - Download the Visual Studio bootstrapper
-
 
 ::: moniker range="vs-2019"
 
@@ -125,7 +124,6 @@ Open a command prompt with administrator privileges, navigate to the directory w
     vs_enterprise.exe --layout c:\localVSlayout --lang en-US
     ```
 
-
 ::: moniker range="vs-2019"
 
    > [!NOTE]
@@ -141,7 +139,7 @@ Open a command prompt with administrator privileges, navigate to the directory w
 ::: moniker-end
 
 ### Step 3 - Install Visual Studio from the local layout
-When you install Visual Studio from a local layout, the Visual Studio installer uses the local versions of the files. But, if you select components during installation that aren't in the layout, then the Visual Studio installer will attempt to download them from the internet. To make sure that you install only the files that you've previously downloaded, use the same [command-line options](use-command-line-parameters-to-install-visual-studio.md) that you used to create the local layout. To make sure your installer doesn't try to access the internet, use the `--noweb` switch.
+When you install Visual Studio from a local layout, the Visual Studio installer uses the local versions of the files. But, if you select components during installation that aren't in the layout, then the Visual Studio installer will attempt to download them from the internet. To make sure that you install only the files that you've previously downloaded, use the same [command-line options](use-command-line-parameters-to-install-visual-studio.md) that you used to create the local layout. To make sure your installer doesn't try to access the internet when it's installing the product, use the `--noweb` switch.
 
 For example, if you created a local installation layout with the following command:
 
@@ -174,30 +172,29 @@ c:\localVSlayout\vs_enterprise.exe --noweb --add Microsoft.VisualStudio.Workload
 ::: moniker-end
 
 > [!IMPORTANT]
-> If you're using Visual Studio Community, you must activate it by logging into the product within 30 days of installation. Activation requires an internet connection.
+> If you're using Visual Studio Community, you might be prompted to sign in within 30 days of installation, but it won't impact your ability to use the product.
 
 > [!NOTE]
 > If you get an error that a signature is invalid, you must [install updated certificates](install-certificates-for-visual-studio-offline.md). Open the Certificates folder in your local layout. Double-click each of the certificate files, and then click through the Certificate Manager wizard. If you're asked for a password, leave it blank.
-
 
 ### List of language locales
 
 | **Language-locale** | **Language**          |
 |---------------------|-----------------------|
-| cs-CZ               | Czech                 |
-| de-DE               | German                |
-| en-US               | English               |
-| es-ES               | Spanish               |
-| fr-FR               | French                |
-| it-IT               | Italian               |
-| ja-JP               | Japanese              |
-| ko-KR               | Korean                |
-| pl-PL               | Polish                |
-| pt-BR               | Portuguese - Brazil   |
-| ru-RU               | Russian               |
-| tr-TR               | Turkish               |
-| zh-CN               | Chinese - Simplified  |
-| zh-TW               | Chinese - Traditional |
+|:::no-loc text="cs-CZ":::                | Czech                 |
+|:::no-loc text="de-DE":::                | German                |
+|:::no-loc text="en-US":::                | English               |
+|:::no-loc text="es-ES":::                | Spanish               |
+|:::no-loc text="fr-FR":::                | French                |
+|:::no-loc text="it-IT":::                | Italian               |
+|:::no-loc text="ja-JP":::                | Japanese              |
+|:::no-loc text="ko-KR":::                | Korean                |
+|:::no-loc text="pl-PL":::                | Polish                |
+|:::no-loc text="pt-BR":::                | Portuguese - Brazil   |
+|:::no-loc text="ru-RU":::                | Russian               |
+|:::no-loc text="tr-TR":::                | Turkish               |
+|:::no-loc text="zh-CN":::                | Chinese - Simplified  |
+|:::no-loc text="zh-TW ":::               | Chinese - Traditional |
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

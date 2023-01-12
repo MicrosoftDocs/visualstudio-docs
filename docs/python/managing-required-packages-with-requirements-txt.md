@@ -1,11 +1,11 @@
 ---
 title: Manage Python package dependencies
 description: Use pip freeze > requirements.txt and manage python package dependencies in Visual Studio. 
-ms.date: 12/11/2021
+ms.date: 1/5/2023
 ms.custom: devdivchpfy22
 ms.topic: how-to
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -23,9 +23,7 @@ Technically, any filename may be used to track requirements (by using `-r <full 
 
 - If you've loaded a project that contains *requirements.txt* and wish to install all the packages listed in that file, expand the **Python Environments** node in **Solution Explorer**, then right-click an environment node and select **Install from requirements.txt**:
 
-    :::moniker range=">=vs-2019"
     ![Install from requirements.txt-2019](media/environments/environments-requirements-txt-install.png)
-    :::moniker-end
 
 - If you want to install the dependencies in a virtual environment, create and activate that environment first, then use the **Install from requirements.txt** command. For more information on creating a virtual environment, see [Use virtual environments](selecting-a-python-environment-for-a-project.md#use-virtual-environments).
 

@@ -2,11 +2,12 @@
 title: Tools for detecting and managing Visual Studio instances
 titleSuffix: ''
 description: Learn about the tools that you can use to detect and manage Visual Studio installations on client machines.
-ms.date: 04/06/2021
+ms.date: 12/17/2022
 ms.topic: conceptual
 helpviewer_keywords:
-- '{{PLACEHOLDER}}'
-- '{{PLACEHOLDER}}'
+- vswhere
+- vswhere.exe
+- visual studio instance
 ms.assetid: 85686707-14C0-4860-9B7A-66485D43D241
 author: anandmeg
 ms.author: meghaanand
@@ -20,7 +21,7 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-There are several tools that you can use to detect Visual Studio installations on client machines and to manage the installations.
+There are several tools that you can use to detect and manage Visual Studio installations on client machines.
 
 ## Detecting existing Visual Studio instances
 
@@ -51,12 +52,11 @@ Get-CimInstance MSFT_VSInstance
 
 ## Using Microsoft Endpoint Configuration Manager
 
-[Microsoft Endpoint Configuration Manager software inventory](/mem/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) capabilities can be used to query and collect information about Visual Studio instances on client devices. For example, the following query will return the display name, version and the device name that Visual Studio is installed on for all installed Visual Studio 2017 and 2019 instances:
+[Microsoft Endpoint Configuration Manager software inventory](/mem/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) capabilities can be used to query and collect information about Visual Studio instances on client devices. For example, the following query will return the display name, version, and the device name Visual Studio is installed on for all installed Visual Studio 2017, 2019, and 2022 instances:
 
 ```WQL
 select distinct SMS_G_System_COMPUTER_SYSTEM.Name, SMS_G_System_ADD_REMOVE_PROGRAMS.DisplayName, SMS_G_System_ADD_REMOVE_PROGRAMS.Version from SMS_R_System inner join SMS_G_System_COMPUTER_SYSTEM on SMS_G_System_COMPUTER_SYSTEM.ResourceID = SMS_R_System.ResourceId inner join SMS_G_System_ADD_REMOVE_PROGRAMS on SMS_G_System_ADD_REMOVE_PROGRAMS.ResourceID = SMS_R_System.ResourceId where SMS_G_System_ADD_REMOVE_PROGRAMS.DisplayName like "Visual Studio %[a-z]% 201[7,9]" 
 ```
-
 
 ## Editing the registry for a Visual Studio instance
 
@@ -82,7 +82,7 @@ As these entries are not stored in the global registry, there are special instru
 You will be prompted to provide a hive name, which becomes the name of your isolated hive. After you do so, you should be able to browse the registry under the isolated hive that you created.
 
 > [!IMPORTANT]
-> Before you start Visual Studio again, you must unload the isolated hive that you created. To do this, select **File** > **Unload Hive** from the Regedit main menu. (If you do not do this, then the file remains locked and Visual Studio will not be able to start.)
+> Before you start Visual Studio again, you must unload the isolated hive that you created. To do this, select **File** > **Unload Hive** from the Regedit main menu. (If you don't do this, then the file remains locked and Visual Studio will not be able to start.)
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

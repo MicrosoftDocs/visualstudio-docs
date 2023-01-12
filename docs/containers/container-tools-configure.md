@@ -17,9 +17,6 @@ Using Visual Studio settings, you can control some aspects of how Visual Studio 
 
 From the main menu, choose **Tools > Options**, and expand **Container Tools > Settings**. The container tools settings appear.
 
-
-::: moniker range=">=vs-2019"
-
 Container Tools **General** settings:
 
 ![Visual Studio Container Tools options, showing: Install Docker Desktop if needed, and Trust ASP.NET Core SSL certificate.](./media/configure-container-tools/tools-options-1.png)
@@ -27,12 +24,8 @@ Container Tools **General** settings:
 Container Tools **Single Project** and **Docker Compose** settings:
 
 ![Visual Studio Container Tools options, showing: Kill containers on project close, Pull required Docker images on project open, and Run containers on project open.](./media/configure-container-tools/tools-options-2.png)
-::: moniker-end
 
 The following table might help you decide how to set these options.
-
-
-::: moniker range=">=vs-2019"
 
 The following table describes **General** settings:
 
@@ -56,7 +49,6 @@ The **Containers Tool Window** settings control the settings that apply to the *
 
 The following table describes the **Containers** window settings:
 
-
 | Name | Default Setting | Description |
 | -----|:---------------:| ----------- |
 | Confirm before pruning containers | Always | Controls whether you are prompted when pruning unused containers. |
@@ -65,7 +57,6 @@ The following table describes the **Containers** window settings:
 | Confirm before removing an image | Always | Controls whether you are prompted when removing an image. |
 | Confirm before running large number of images | Always | Controls whether you are prompted before starting containers from more than 10 images at a time. |
 
-::: moniker-end
 > [!WARNING]
 > If the localhost SSL certificate is not trusted, and you check the box to suppress prompting, then HTTPS web requests might fail at run time in your app or service. In that case, uncheck the **Do not prompt** checkbox, run your project, and indicate trust at the prompt.
 

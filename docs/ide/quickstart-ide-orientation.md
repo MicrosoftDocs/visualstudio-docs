@@ -1,30 +1,27 @@
 ---
-title: "Tutorial: Tour of the Visual Studio IDE"
+title: "Tour the Visual Studio IDE"
 description: Learn about some of the windows, menus, and other UI features of the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
 titleSuffix: ''
-ms.date: 09/14/2021
-ms.topic: tutorial
+ms.date: 09/13/2022
+ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
 - multiple
+f1_keywords:
+- MSDNSTART
+- vs.ViewHelp
 ---
-# Tutorial: First look at the Visual Studio IDE
+# Tour the Visual Studio IDE
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of some of the windows, menus, and other UI features.
-
-
-::: moniker range=">=vs-2019"
+In this introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of some of the windows, menus, and other UI features.
 
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
-
-::: moniker-end
-
 
 ::: moniker range="vs-2019"
 
@@ -61,7 +58,6 @@ The **Continue without code** option opens the Visual Studio development environ
 ## Create a project
 
 To continue exploring Visual Studio's features, let's create a new project.
-
 
 ::: moniker range="vs-2019"
 
@@ -149,7 +145,6 @@ The file *Program.cs* opens in the **Editor** window. The **Editor** shows the c
 
 The menu bar along the top of Visual Studio groups commands into categories. For example, the **Project** menu contains commands related to the project you're working in. On the **Tools** menu, you can customize how Visual Studio behaves by selecting **Options**, or add features to your installation by selecting **Get Tools and Features**.
 
-
 ::: moniker range="vs-2019"
 
 ![Screenshot showing the Menu bar in Visual Studio 2019.](media/vs-2019/menu-bar.png)
@@ -202,7 +197,6 @@ Let's build the project to see some build output. From the **Build** menu, choos
 
 The search box is a quick and easy way to find just about anything in Visual Studio. You can enter some text related to what you want to do, and it will show you a list of options that are relevant to the text. For example, imagine you want to increase the verbosity of the build output to display more details about what the build is doing. Here's how you might do that:
 
-
 ::: moniker range="vs-2019"
 
 1. Press **Ctrl**+**Q** to activate the search box in the upper part of the IDE.
@@ -244,7 +238,6 @@ The search box is a quick and easy way to find just about anything in Visual Stu
 ::: moniker-end
 
 ## Send Feedback menu
-
 
 ::: moniker range="vs-2019"
 

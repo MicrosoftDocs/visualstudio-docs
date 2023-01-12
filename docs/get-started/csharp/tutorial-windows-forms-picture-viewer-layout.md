@@ -34,7 +34,6 @@ Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/)
 
 When you create a picture viewer, the first step is to create a Windows Forms App project.
 
-
 ::: moniker range="vs-2019"
 1. Open Visual Studio.
 

@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 3a8f9439-90e7-4a8a-a5a1-d0d6dcd1ba49
-ms.date: 05/27/2022
+ms.date: 07/21/2022
 ms.topic: conceptual
 description:  Learn whether your Visual Studio subscription includes Azure Dev/Test credits
 ---
@@ -12,7 +12,7 @@ description:  Learn whether your Visual Studio subscription includes Azure Dev/T
 
 Many Visual Studio subscriptions include Azure individual Dev/Test credits.  With these credits, you can try various Azure services at no cost. Credit amounts vary by subscription level.  This article explains the credit allotments for each subscription level.  
 
-To get started using the Azure Dev/Test credits included in your subscription, visit the [How to get started with your individual Azure Credit Subscription](https://docs.microsoft.com/azure/devtest/offer/quickstart-individual-credit) article in the Azure documentation.  
+To get started using the Azure Dev/Test credits included in your subscription, visit the [How to get started with your individual Azure Credit Subscription](https://learn.microsoft.com/azure/devtest/offer/quickstart-individual-credit) article in the Azure documentation.  
 
 ## Eligibility
 
@@ -59,5 +59,6 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ## Next steps
 
-+ [Learn more](https://docs.microsoft.com/azure/devtest/offer/overview-what-is-devtest-offer-visual-studio) about Azure Dev/Test credits
-+ [Get started with Azure Dev/Test credits](https://docs.microsoft.com/azure/devtest/offer/quickstart-individual-credit)
++ [Learn more](https://learn.microsoft.com/azure/devtest/offer/overview-what-is-devtest-offer-visual-studio) about Azure Dev/Test credits
++ [Get started with Azure Dev/Test credits](https://learn.microsoft.com/azure/devtest/offer/quickstart-individual-credit)
++ See how you can use Azure Dev/Test credits with [Windows Virtual Desktop](vs-windows-virtual-desktop.md)

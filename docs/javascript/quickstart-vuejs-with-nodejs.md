@@ -13,7 +13,7 @@ dev_langs:
   - JavaScript
 ms.workload:
   - "nodejs"
-monikerRange: '<= vs-2019'
+monikerRange: '= vs-2019'
 ---
 # Quickstart: Use Visual Studio to create your first Vue.js app
 
@@ -22,26 +22,23 @@ monikerRange: '<= vs-2019'
 In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you'll create and run a simple Vue.js web application.
 
 > [!IMPORTANT]
-> This article requires the Vue.js template, which is available starting in Visual Studio 2017 version 15.8.
+> Starting in Visual Studio 2022, you can alternatively [create a Vue project](../javascript/tutorial-create-vue-app.md) using the new [CLI-based project type](https://devblogs.microsoft.com/visualstudio/the-new-javascript-typescript-experience-in-vs-2022-preview-3/). The information in this article applies only to the Node.js project type (.njsproj).
 
 ## Prerequisites
 
 * You must have Visual Studio installed and the Node.js development workload.
 
-    ::: moniker range=">=vs-2019"
-    If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
-    ::: moniker-end
+  If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 
+  If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
 
-    If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
-
-    ![Node.js workload in VS Installer](./media/tutorial-nodejs-workload.png)
+  ![Node.js workload in VS Installer](./media/tutorial-nodejs-workload.png)
 
 * You must have the Node.js runtime installed.
 
-    If you don't have it installed, we recommend you install the LTS version from the [Node.js](https://nodejs.org/en/download/) website for best compatibility with outside frameworks and libraries. Node.js is built for 32-bit and 64-bit architectures. The Node.js tools in Visual Studio, included in the Node.js workload, support both versions. Only one is required and the Node.js installer only supports one being installed at a time.
-    
-    In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node, choose **Properties**, and set the **Node.exe path**). You can use a global installation of Node.js or you can specify the path to a local interpreter in each of your Node.js projects. 
+  If you don't have it installed, we recommend you install the LTS version from the [Node.js](https://nodejs.org/en/download/) website for best compatibility with outside frameworks and libraries. Node.js is built for 32-bit and 64-bit architectures. The Node.js tools in Visual Studio, included in the Node.js workload, support both versions. Only one is required and the Node.js installer only supports one being installed at a time.
+
+  In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page (after you create a project, right-click the project node, choose **Properties**, and set the **Node.exe path**). You can use a global installation of Node.js or you can specify the path to a local interpreter in each of your Node.js projects. 
 
 ## Create a project
 
@@ -55,11 +52,9 @@ First, you'll create a Vue.js web application project.
 
 1. Create a new project.
 
-    ::: moniker range=">=vs-2019"
     Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **Basic Vue.js**, then choose **Basic Vue.js Web application** (either JavaScript or TypeScript). In the dialog box that appears, type the name **basic-vuejs**, and then choose **Create**.
 
     ![Vue.js template](../javascript/media/vs-2019/vuejs-template.png)
-    ::: moniker-end
 
     If you don't see the **Basic Vue.js Web application** project template, you must add the **Node.js development** workload. For detailed instructions, see the [Prerequisites](#prerequisites).
 
@@ -95,12 +90,9 @@ First, you'll create a Vue.js web application project.
 
 ## Build the project
 
-::: moniker range=">=vs-2019"
 1. Next, choose **Build** > **Build Solution** to build the project.
 
 1. Check the **Output** window to see build results, and choose **Build** from the **Show output from** list.
-::: moniker-end
-
 
 The JavaScript Vue.js project template (and older versions of the TypeScript template) use the `build` npm script by configuring a post build event. If you want to modify this setting, open the project file (*\<projectname\>.njsproj*) from Windows Explorer and locate this line of code:
 

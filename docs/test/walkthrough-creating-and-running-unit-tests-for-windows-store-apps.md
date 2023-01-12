@@ -70,7 +70,6 @@ Visual Studio creates the test project and opens it in Visual Studio **Solution 
 
 ::: moniker-end
 
-
 ### Edit the project's application manifest
 
 1. In **Solution Explorer**, right-click the *Package.appxmanifest* file and select **Open**.
@@ -92,7 +91,6 @@ Select only the capabilities you need for the unit test to function correctly.
 :::image type="content" source="media/vs-2019/unit-test.png" alt-text="Screenshot that shows a unit test manifest.":::
 
 ::: moniker-end
-
 
 ### Add code to unit test the UWP app
 
@@ -140,7 +138,6 @@ Also in **Test Explorer**, you can select individual tests and right-click to **
 
 ::: moniker-end
 
-
 ## Unit test a C# class
 
 A stable set of good unit tests increases confidence that you haven't introduced bugs when you change code. The following example walks through one way to create unit tests for a C# class in a UWP app. The example uses *test-driven development* to write tests that verify specific behavior, and then write code that passes the tests.
@@ -167,8 +164,6 @@ Create the unit test project:
 
 The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> class provides several static methods that you can use to verify results in test methods.
 
-::: moniker range=">=vs-2019"
-
 1. In **Solution Explorer**, select the *UnitTest.cs* file in the **RooterTests** project.
 
 1. Insert the following code into `TestMethod1`:
@@ -184,8 +179,6 @@ The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> class provides se
 1. In **Test Explorer**, select **Run All Tests**.
 
 1. The test project builds and runs, and the test appears under **Passed Tests**. The **Group Summary** pane on the right provides details about the test.
-
-::: moniker-end
 
 
 ### Add a class to the app project
@@ -284,7 +277,6 @@ The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> class provides se
    ```
 ::: moniker-end
 
-
 ### Add a test that uses the app function
 
 1. Add the following test method to *UnitTest.cs*:
@@ -315,7 +307,6 @@ In **Test Explorer**, select the **Run All Tests** icon. The solution builds, an
 
 :::image type="content" source="media/vs-2022/test-explorer-uwp-app.png" alt-text="Screenshot that shows Basic Test passed in Test Explorer":::
 
-
 ::: moniker-end
 
 ::: moniker range="vs-2019"
@@ -324,9 +315,7 @@ In **Test Explorer**, select the **Run All Tests** icon. The solution builds, an
 
 :::image type="content" source="media/vs-2019/test-explorer-uwp-app.png" alt-text="Screenshot that shows Basic Test passed in Test Explorer":::
 
-
 ::: moniker-end
-
 
 You've set up the test and app projects and verified that you can run tests that call functions in the app project. Now you can write real tests and code.
 
@@ -428,7 +417,6 @@ It's best not to change tests that have passed. Add new tests instead. Develop c
 
 ::: moniker-end
 
-
 ### Refactor the code
 
 In this section, you refactor both the app and the test code, then rerun the tests to make sure they still pass.
@@ -456,7 +444,7 @@ To add the helper method, in *UnitTest.cs*:
    ```csharp
    private double ToleranceHelper(double expected)
    {
-   return expected / 1000;
+       return expected / 1000;
    }
    ```
 

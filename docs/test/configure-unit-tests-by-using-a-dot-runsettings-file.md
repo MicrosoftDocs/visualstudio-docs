@@ -2,7 +2,7 @@
 title: Configure unit tests with a .runsettings file
 description: Learn how to use the .runsettings file in Visual Studio to configure unit tests that are run from the command line, from the IDE, or in a build workflow.
 ms.custom: SEO-VS-2020
-ms.date: 12/06/2021
+ms.date: 12/13/2022
 ms.topic: conceptual
 ms.author: mikejo
 manager: jmartens
@@ -38,12 +38,7 @@ Run settings files are optional. If you don't require any special configuration,
 
 4. Run the unit tests to use the custom run settings.
 
-
-::: moniker range=">=vs-2019"
-
 If you want to turn the custom settings off and on in the IDE, deselect or select the file on the **Test** menu.
-
-::: moniker-end
 
 > [!TIP]
 > You can create more than one *.runsettings* file in your solution and select one as the active test settings file as needed.
@@ -51,9 +46,6 @@ If you want to turn the custom settings off and on in the IDE, deselect or selec
 ## Specify a run settings file in the IDE
 
 The methods available depend on your version of Visual Studio.
-
-
-::: moniker range=">=vs-2019"
 
 ### Visual Studio 2019 version 16.4 and later
 
@@ -115,7 +107,6 @@ To specify a run settings file in the IDE, select **Test** > **Select Settings F
 ![Select test settings file menu in Visual Studio 2019](media/vs-2019/select-settings-file.png)
 
 The file appears on the Test menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
-::: moniker-end
 
 ## Specify a run settings file from the command line
 
@@ -223,9 +214,39 @@ To customize any other type of diagnostic data adapters, use a [test settings fi
 
 This option can help you isolate a problematic test that causes a test host crash. Running the collector creates an output file (*Sequence.xml*) in *TestResults*, which captures the order of execution of the test before the crash.
 
-```xml
-<DataCollector friendlyName="blame" enabled="True">
-</DataCollector>
+You can run blame in 3 different modes: 
+- Enabling just the sequence file, but not collecting dumps
+- Enabling crash dump, to create a dump when testhost crashes
+- Enabling hang dump, to create a dump when test does not finish before given timeout
+
+The XML configuration should be placed directly into `<RunSettings>` node:
+
+```xml 
+<RunSettings>
+  <RunConfiguration>
+  </RunConfiguration>
+  <LoggerRunSettings>
+    <Loggers>
+      <Logger friendlyName="blame" enabled="True" />
+    </Loggers>
+  </LoggerRunSettings>
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <!-- Enables blame -->
+      <DataCollector friendlyName="blame" enabled="True">
+        <Configuration>
+          <!-- Enables crash dump, with dump type "Full" or "Mini".
+          Requires ProcDump in PATH for .NET Framework. -->
+          <CollectDump DumpType="Full" />
+          <!-- Enables hang dump or testhost and its child processes 
+          when a test hangs for more than 10 minutes. 
+          Dump type "Full", "Mini" or "None" (just kill the processes). -->
+          <CollectDumpOnTestSessionHang TestTimeout="10min" HangDumpType="Full" />
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>
+</RunSettings>
 ```
 
 ## TestRunParameters
@@ -233,7 +254,7 @@ This option can help you isolate a problematic test that causes a test host cras
 ```xml
 <TestRunParameters>
     <Parameter name="webAppUrl" value="http://localhost" />
-    <Parameter name="docsUrl" value="https://docs.microsoft.com" />
+    <Parameter name="docsUrl" value="https://learn.microsoft.com" />
 </TestRunParameters>
 ```
 
@@ -246,7 +267,7 @@ public TestContext TestContext { get; set; }
 [TestMethod] // [Test] for NUnit
 public void HomePageTest()
 {
-    string _appURL = TestContext.Properties["webAppUrl"];
+    string _appUrl = TestContext.Properties["webAppUrl"];
 }
 ```
 

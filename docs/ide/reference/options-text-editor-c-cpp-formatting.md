@@ -13,8 +13,8 @@ helpviewer_keywords:
 - Text Editor Options dialog box, formatting
 - ClangFormat
 ms.assetid: cb6f1cbb-5305-48da-a8e8-33fd70775d46
-author: TerryGLee
-ms.author: tglee
+author: corob-msft
+ms.author: corob
 manager: markl
 ms.workload:
 - cplusplus
@@ -36,11 +36,9 @@ To access this page, in the **Options** dialog box, in the left pane, expand **T
 
 This page has options for formatting statements and blocks as you type them.
 
-
 The page also has options for configuring support for [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html) version 5.0. ClangFormat is a utility that makes it easy to style and format your code based on a set of rules that can be configured in a .clang-format or _clang-format file.
 
 ### Configuring ClangFormat options
-
 
 ClangFormat support is enabled by default. You can choose which of these common formatting conventions to apply to all your projects: LLVM, Google, Chromium, Mozilla, or WebKit. You can also create a custom format definition .clang-format or _clang-format file. If such a file is present in a project folder, Visual Studio uses it to format all source code files in that folder and its subfolders.
 

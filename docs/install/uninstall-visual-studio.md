@@ -25,7 +25,6 @@ This page walks you through uninstalling Visual Studio, our integrated suite of 
 >
 > To change the location for some of your Visual Studio files, it's possible to do so without uninstalling your current instance as described in [Select the installation locations](../install/change-installation-locations.md).
 
-
 ::: moniker range="vs-2019"
 
 1. Find the **Visual Studio Installer** on your computer.
@@ -122,7 +121,7 @@ Here's how to run the `InstallCleanup.exe` tool:
 
    | Switch | Behavior |
    |-----------------|--------------------|
-   |  `-i [version]`   | Default if no other switch is passed. It removes only the main installation directory and product information. Use this switch if you intend to reinstall the same version of Visual Studio. If a `[version]` value is specified, only products with a version that start with this string value will be removed.    For example, use the switch *-i 17* with `InstallCleanup.exe` to remove all 17 versioned products. |
+   |  `-i [version]`   | Default if no other switch is passed. It removes only the main installation directory and product information. Use this switch if you intend to reinstall the same version of Visual Studio. If a `[version]` value is specified, only products with a version that start with this string value will be removed.    For example, use the switch *-i 17* with `InstallCleanup.exe` to remove all products of version 17. |
    |   `-f`           | Removes the main installation directory, product information, and most other features installed outside the installation directory, that might also be shared with other Visual Studio installations or other products. Use this switch if you intend to remove Visual Studio without reinstalling it later.|
 
    ```shell

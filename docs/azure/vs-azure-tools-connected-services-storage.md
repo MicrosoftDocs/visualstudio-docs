@@ -7,7 +7,7 @@ ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: how-to
-ms.date: 08/13/2020
+ms.date: 08/03/2022
 ms.author: ghogen
 ---
 # Adding Azure storage by using Visual Studio Connected Services
@@ -37,8 +37,7 @@ The connected service functionality adds all the needed references and connectio
 
 ## Connect to Azure Storage using Connected Services
 
-
-:::moniker range=">=vs-2019"
+:::moniker range="vs-2019"
 
 1. Open your project in Visual Studio.
 
@@ -79,6 +78,49 @@ The connected service functionality adds all the needed references and connectio
 1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
 
    ![Summary of changes](./media/vs-azure-tools-connected-services-storage/vs-2019/summary-of-changes.png)
+
+1. The storage connected service appears under the **Service References** node of your project.
+:::moniker-end
+
+:::moniker range=">=vs-2022"
+
+1. Open your project in Visual Studio.
+
+1. Press **Ctrl**+**Q** (or use the **Search** button in the Visual Studio IDE to the right of the main menu bar).
+
+1. In **Feature search**, enter `Azure Storage`, and choose **Azure Storage - Project > Connected Services > Add > Azure Storage**.
+
+   ![Screenshot of using Feature Search to search for Azure Storage.](./media/vs-2022/feature-search-azure-storage.png)
+
+1. In the **Connect to Dependency** page, select **Azure Storage**, and then click **Next**.
+
+    ![Screenshot showing connecting to dependency - Azure Storage.](./media/vs-2022/connect-to-dependency-azure-storage.png)
+
+    If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+
+1. In the **Connect to Azure Storage** screen, select an existing storage account, and select **Next**.
+
+    If you need to create a storage account, go to the next step. Otherwise, skip to the following step.
+
+    ![Screenshot showing adding an existing storage account to project.](./media/vs-2022/connect-to-azure-storage.png)
+
+1. To create a storage account:
+
+   1. Select **Create new** by the green plus sign.
+
+   1. Fill out the **Azure Storage: Create new** dialog, and select **Create**.
+
+       ![New Azure storage account](./media/vs-2022/azure-storage-create-account.png).
+
+   1. When the **Azure Storage** dialog is displayed, the new storage account appears in the list. Select the new storage account in the list, and select **Next**.
+
+1. Enter a connection string name, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
+
+   ![Specify connection string](./media/vs-2022/azure-storage-connection-string.png)
+
+1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
+
+   ![Summary of changes](./media/vs-2022/summary-of-changes.png)
 
 1. The storage connected service appears under the **Service References** node of your project.
 :::moniker-end

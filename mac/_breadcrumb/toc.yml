@@ -2,10 +2,6 @@
   tocHref: /
   topicHref: /
   items:
-  - name: Visual Studio
-    tocHref: /visualstudio/products/
-    topicHref: /visualstudio/products
-    items:
-      - name: Mac
-        tocHref: /visualstudio/mac/
-        topicHref: /visualstudio/mac
+  - name: Visual Studio for Mac
+    tocHref: /visualstudio/mac/
+    topicHref: /visualstudio/mac

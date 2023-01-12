@@ -24,4 +24,4 @@ As a Visual Studio subscriber, you receive exclusive discounted hourly rates for
 
 ## More information about Azure Dev/Test Pay-As-You-Go subscriptions
  
-Read more [about Azure Dev/Test Pay-As-You-Go subscriptions](https://docs.microsoft.com/visualstudio/subscriptions/vs-azure-payg).
+Read more [about Azure Dev/Test Pay-As-You-Go subscriptions](https://learn.microsoft.com/visualstudio/subscriptions/vs-azure-payg).

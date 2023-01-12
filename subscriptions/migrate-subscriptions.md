@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 80e3b300-f2fc-40d4-bbb2-c831a2fa5d34
-ms.date: 07/11/2022
+ms.date: 08/19/2022
 ms.topic: how-to
 description:  This article describes how admins can migrate assigned subscriptions from one agreement to another.
 ---
@@ -41,7 +41,7 @@ This information includes:
 + Expiration date.
 + Reference field.
 + Whether downloads are enabled.
-+ Country. 
++ Country/region. 
 + Language.
 + Subscription status.
 + Subscription GUID.
@@ -107,14 +107,14 @@ Take these steps to open your exported subscriptions list and move the relevant 
    | Downloads                  | Downloads          |
    | Country                    | Country            |
    | Language                   | Language           |
-   | Subscription GUID          | Subscription GUID  |
+ 
 
    > [!IMPORTANT] 
-   > Do not copy date from the **Subscription GUID** column into the bulk add template.  Including the GUIDs will cause the upload to fail.
+   > Do not copy data from the **Subscription GUID** column into the bulk add template.  Leave that column blank in the Bulk add template.  Adding the GUIDs will cause the upload to fail.
 
    > [!TIP]
    > If you have a lot of subscribers, you might find it helpful to use keyboard shortcuts when you're copying and pasting data. 
-   > To select all the entries in a column like Subscriber Name, select the first entry in the column (not the column heading), select and hold **Ctrl+Shift**, and then select the Down arrow key. This will select all the data in that column. 
+   > To select all the entries in a column like "Subscriber Name", select the first entry in the column (not the column heading), select and hold **Ctrl+Shift**, and then select the Down arrow key. This will select all the data in that column. 
 
 
 4. When all your data is moved to the bulk add template, save the template and close it. This list is the subscription list that you'll upload to your new agreement.

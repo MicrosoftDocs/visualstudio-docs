@@ -30,12 +30,12 @@ If you have a new Visual Studio subscription and are receiving the error "You ca
 If your subscription has been assigned for a while, here are a few things to check first:
 - Confirm you haven't activated this benefit already by checking the Azure monthly credit tile on the [Benefits page](https://my.visualstudio.com/benefits) of the subscriptions portal. 
 - You can have multiple directories as part of your Azure subscription. Make sure you're using the directory you set up the Azure subscription. You can view and switch directories by clicking on the account icon in the top-right corner in the [Azure portal](https://portal.azure.com/).
-- You can also associate an [alternate account](https://docs.microsoft.com/visualstudio/subscriptions/vs-alternate-identity) with your Visual Studio subscription. if you activated your monthly credit with your alternate account, you must always sign into your Azure subscription with that email. 
+- You can also associate an [alternate account](https://learn.microsoft.com/visualstudio/subscriptions/vs-alternate-identity) with your Visual Studio subscription. if you activated your monthly credit with your alternate account, you must always sign into your Azure subscription with that email. 
 
 ## More information about Azure credits
 
 There's no cost to use your monthly Azure credit and no credit card is required. When you run out of the credit that’s allotted for the month, your Azure resources will be shut off until the credit resets the next month or you remove the spending limit and add a payment method. 
 
-Read more [information on activation, eligibility, and other support resources](https://docs.microsoft.com/visualstudio/subscriptions/vs-azure).  
+Read more [information on activation, eligibility, and other support resources](https://learn.microsoft.com/visualstudio/subscriptions/vs-azure).  
 
 [Learn how to use the Azure credits](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/#azure-credits) that are included in your Visual Studio subscription.  

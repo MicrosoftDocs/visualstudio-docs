@@ -3,8 +3,8 @@ title: Quickstart - Open a Python code folder
 description: In this quickstart, you open and run Python code from a folder without using a Visual Studio project (Visual Studio 2019 only).
 ms.date: 05/12/2022
 ms.topic: quickstart
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 ms.custom: devdivchpfy22

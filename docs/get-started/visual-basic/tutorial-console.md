@@ -20,9 +20,6 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-
-::: moniker range=">=vs-2019"
-
 This article shows how you'll use Visual Studio to create a simple Visual Basic application, a *console app*. In this app, you ask the user for their name, and then display it back with the current time. You'll also explore some features of the [Visual Studio integrated development environment (IDE)](visual-studio-ide.md), including [source control in Git](/visualstudio/version-control). Visual Basic is a type-safe programming language that's designed to be easy to learn. A console app takes input and displays output in a command-line window, also known as a console.
 
 In this tutorial, you learn how to:
@@ -35,16 +32,9 @@ In this tutorial, you learn how to:
 > - Add Git source control
 > - Clean up resources
 
-::: moniker-end
-
 ## Prerequisites
 
-
-::: moniker range=">=vs-2019"
-
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
-
-::: moniker-end
 
 ## Create a project
 
@@ -56,7 +46,6 @@ First, you'll create a Visual Basic app project. The default project template in
 > Some of the screenshots in this tutorial use the dark theme. If you aren't using the dark theme but would like to, see the [Personalize the Visual Studio IDE and Editor](../../ide/quickstart-personalize-the-ide.md) page to learn how.
 
 ::: moniker-end
-
 
 ::: moniker range="vs-2019"
 
@@ -140,7 +129,6 @@ There are two ways to run this code, inside Visual Studio in *debug mode*, and f
 
 ### Run the app in debug mode
 
-
 ::: moniker range="vs-2019"
 
    :::image type="content" source="media/vs-2019/vb-ide-default-code.png" alt-text="Screenshot showing the default 'Hello World!' code.":::
@@ -173,7 +161,6 @@ There are two ways to run this code, inside Visual Studio in *debug mode*, and f
 
 To see the output outside of Visual Studio, in a system console window, build and run the executable (.exe file). 
 
-
 ::: moniker range="vs-2019"
 
 1. In the **Build** menu, choose **Build Solution**.
@@ -201,7 +188,6 @@ To see the output outside of Visual Studio, in a system console window, build an
 ## Add code to ask for user input
 
 Next, you'll add Visual Basic code that prompts you for your name and then displays it along with the current date and time. In addition, you'll add code that pauses the console window until the user presses a key.
-
 
 ::: moniker range="vs-2019"
 

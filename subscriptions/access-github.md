@@ -93,11 +93,11 @@ No.  GitHub Enterprise is currently available to organizations who purchase usin
 
 ## See also
 
-+ [Visual Studio documentation](https://docs.microsoft.com/visualstudio/)
-+ [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/)
-+ [Azure documentation](https://docs.microsoft.com/azure/)
-+ [Microsoft 365 documentation](https://docs.microsoft.com/microsoft-365/)
++ [Visual Studio documentation](/visualstudio/)
++ [Azure DevOps documentation](/azure/devops/)
++ [Azure documentation](/azure/)
++ [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 
-If you're new to GitHub, check out the [GitHub Learning Lab](https://lab.github.com/), which takes you through a series of fun and practical projects, sharing helpful feedback along the way.
+If you're new to GitHub, check out the [GitHub Learning Lab](https://github.com/apps/github-learning-lab), which takes you through a series of fun and practical projects, sharing helpful feedback along the way.

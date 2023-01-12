@@ -2,7 +2,7 @@
 title: "Remote Debug a C# or VB project | Microsoft Docs"
 description: Learn how to debug a Visual Studio C# or Visual Basic application from a remote computer by following these step-by-step instructions.
 ms.custom: ['remotedebugging"=']
-ms.date: "02/23/2022"
+ms.date: "08/22/2022"
 ms.topic: "conceptual"
 dev_langs:
   - "C++"
@@ -34,7 +34,7 @@ For information about remote debugging Universal Windows Apps (UWP), see [Debug 
 The remote debugger is supported on Windows 7 and newer (not phone) and versions of Windows Server starting with Windows Server 2008 Service Pack 2. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
 
 > [!NOTE]
-> Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low bandwidth connection, such as dialup Internet, or over the Internet across countries is not recommended and may fail or be unacceptably slow.
+> Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low bandwidth connection, such as dialup Internet, or over the Internet across countries/regions is not recommended and may fail or be unacceptably slow.
 
 ## Download and Install the remote tools
 
@@ -64,7 +64,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 4. On the **Properties** page, choose the **Debug** tab.
 
     ::: moniker range="vs-2022"
-    For C# projects targeting .NET Core or .NET 5 and later, starting in Visual Studio 2022, choose the **Debug launch profiles UI** from the **Debug** tab to configure settings for remote debugging.
+    For C# projects targeting .NET Core or .NET 5+, starting in Visual Studio 2022, choose the **Debug launch profiles UI** from the **Debug** tab to configure settings for remote debugging.
 
     ![Screenshot of the Debug launch profile UI in the Visual Studio Project Properties for C# and .NET.](../debugger/media/vs-2022/remote-debugger-csharp.png)
 
@@ -84,7 +84,6 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
     ::: moniker range="vs-2019"
     **MJO-DL:4024** on Visual Studio 2019
     ::: moniker-end
-
 
 7. Make sure that **Enable native code debugging** is not selected.
 

@@ -11,7 +11,7 @@ metadata:
   author: mikejo5000
   ms.author: mikejo
   manager: jmartens
-  ms.date: 06/03/2020
+  ms.date: 09/29/2022
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -53,22 +53,22 @@ landingContent:
         links:
           - text: CPU Usage
             url: cpu-usage.md
+          - text: Memory Usage
+            url: memory-usage-without-debugging2.md
+          - text: File I/O
+            url: use-file-io.md
           - text: Database
             url: analyze-database.md
           - text: Events Viewer
             url: events-viewer.md
-          - text: Memory Usage
-            url: memory-usage-without-debugging2.md
           - text: .NET Object Allocation Tracking
             url: dotnet-alloc-tool.md
           - text: .NET Async
             url: analyze-async.md
-          - text: File I/O
-            url: use-file-io.md
           - text: .NET Counters
             url: dotnet-counters-tool.md  
-          - text: GPU Usage (Direct3D)
-            url: gpu-usage.md
+          - text: Instrumentation
+            url: instrumentation-overview.md
           - text: Analyze resource consumption (XAML)
             url: application-timeline.md
 

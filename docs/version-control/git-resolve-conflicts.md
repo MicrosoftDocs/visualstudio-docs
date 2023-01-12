@@ -2,9 +2,9 @@
 title: Resolve merge conflicts in Visual Studio
 titleSuffix: ""
 description: Understanding, preventing, and resolving merge conflicts in Visual Studio.
-ms.date: 11/10/2021
+ms.date: 12/15/2022
 ms.topic: how-to
-author: Taysser-Gherfal
+author: houghj16
 ms.author: tglee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
@@ -35,7 +35,7 @@ Git is good at automatically merging file changes in most circumstances, as long
 
 ## Resolve merge conflicts
 
-- If you're collaborating with others in the same branch, you might get merge conflicts when you push your changes.
+- If you're collaborating with others in the same branch, you might see merge conflicts when you push your changes.
 
     :::image type="content" source="media/vs-2022/git-conflicts-push-link.png" alt-text="Screenshot of merge conflict after a push.":::
 
@@ -82,7 +82,10 @@ Git is good at automatically merging file changes in most circumstances, as long
     > [!NOTE]
     > If you need to keep all of your changes to a file, you can right-click it in the **Unmerged Changes** section and select **Keep Current (Local)** without having to open Merge Editor.
     >
-    > :::image type="content" source="media/vs-2022/git-conflicts-keep-changes.png" alt-text="Screenshot of the Keep Current and Take Incoming menu options.":::
+    > :::image type="content" source="media/vs-2022/git-conflicts-keep-changes.png" alt-text="Screenshot of the Keep Current menu option.":::
+
+> [!TIP]
+> To learn more about the accessibility options available to you, see the [Git keyboard shortcuts](../ide/reference/accessibility-tips-and-tricks.md#git-keyboard-shortcuts) section of the [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) page.
 
 ## Next steps
 

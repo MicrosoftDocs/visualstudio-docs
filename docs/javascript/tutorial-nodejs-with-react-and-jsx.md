@@ -2,7 +2,7 @@
 title: "Create a Node.js and React app"
 description: Learn how to create a Node.js web application project from a Visual Studio template.
 ms.custom: vs-acquisition
-ms.date: 09/14/2021
+ms.date: 12/16/2022
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -156,7 +156,6 @@ First, create a Node.js web app project.
 
     (5) Project files such as *server.js* show up under the project node. *server.js* is the project startup file and that is why it shows up in **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
 ::: moniker-end
-
 
 ## Add npm packages
 
@@ -406,7 +405,7 @@ Visual Studio versions starting with Visual Studio 2019 require a build script. 
 
    ```json
    "scripts": {
-    "build": "webpack-cli ./app.tsx --config webpack-config.js"
+    "build": "webpack-cli --config webpack-config.js"
    }
    ```
 
@@ -422,7 +421,6 @@ Visual Studio versions starting with Visual Studio 2019 require a build script. 
     ::: moniker range="=vs-2019"
     ![Screenshot that shows selecting Chrome as the debug target.](media/vs-2019/tutorial-nodejs-react-debug-target.png)
     ::: moniker-end
-
 
     If you know your preferred debug target is available on your machine, but it doesn't appear as an option, select **Browse With** from the debug target dropdown list. Select your default browser target in the list, and select **Set as Default**.
 
@@ -465,7 +463,6 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 
 ### Enable the browser for debugging
 
-::: moniker range=">=vs-2019"
 You can use either Microsoft Edge or Google Chrome. Close all windows for the target browser. For Microsoft Edge, also shut down all instances of Chrome. Because both browsers share the Chromium code base, shutting down both browsers gives the best results.
 
 Other browser instances can prevent the browser from opening with debugging enabled. Browser extensions might prevent full debug mode. You might need to use Task Manager to find and end all running Chrome instances.
@@ -491,8 +488,6 @@ To start your browser with debugging enabled:
   or
   
   `chrome.exe --remote-debugging-port=9222`
-::: moniker-end
-
 
 The browser starts with debugging enabled. The app isn't running yet, so the browser page is empty.
 
@@ -541,9 +536,7 @@ The browser starts with debugging enabled. The app isn't running yet, so the bro
 
 1. Select your target browser as the debug target in Visual Studio, and then press **Ctrl**+**F5**, or select **Debug** > **Start Without Debugging**, to run the app in the browser.
 
-    ::: moniker range=">=vs-2019"
     If you created a debugging-enabled browser configuration with a friendly name, choose that browser as your debug target.
-    ::: moniker-end
 
     The app opens in a new browser tab.
 
@@ -554,21 +547,15 @@ The browser starts with debugging enabled. The app isn't running yet, so the bro
 
 1. In the **Attach to Process** dialog box, get a filtered list of browser instances that you can attach to.
 
-    ::: moniker range=">=vs-2019"
     Make sure the correct debugger for your target browser, **JavaScript (Chrome)** or **JavaScript (Microsoft Edge - Chromium)**, appears in the **Attach to** field. Type *chrome* or *edge* in the filter box to filter the results.
-    ::: moniker-end
-
 
 1. Select the browser process with the correct host port, **localhost** in this example. The port number **1337** or **localhost** might also appear in the **Title** field to help you select the correct process.
 
 1. Select **Attach**.
 
-    ::: moniker range=">=vs-2019"
     The following example shows an **Attach to Process** window for the Microsoft Edge browser.
 
     ![Screenshot showing the Attach to process dialog box.](../javascript/media/tutorial-nodejs-react-attach-to-process-edge.png)
-    ::: moniker-end
-
 
     > [!TIP]
     > If the debugger doesn't attach and you see the message **Unable to attach to the process. An operation is not legal in the current state.**, use Task Manager to close all instances of the target browser before starting the browser in debugging mode. Browser extensions may be running and preventing full debug mode.

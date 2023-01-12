@@ -28,7 +28,7 @@ To access the **Services** page, select a project node in **Solution Explorer**,
 
 ## Task List
 
-[How to: Configure Client Application Services](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services)
+[How to: Configure Client Application Services](/previous-versions/visualstudio/visual-studio-2010/bb384312\(v=vs.100\))
 
 ## UIElement List
 
@@ -50,7 +50,7 @@ Indicates that the authentication provider will use Windows-based authentication
 
  **Use Forms authentication**
 
-Indicates that the authentication provider will use forms authentication. This means that your application must provide a user interface for login. For more information, see [How to: Implement User Login with Client Application Services](/dotnet/framework/common-client-technologies/how-to-implement-user-login-with-client-application-services).
+Indicates that the authentication provider will use forms authentication. This means that your application must provide a user interface for login. For more information, see [How to: Implement User Login with Client Application Services](/previous-versions/visualstudio/visual-studio-2010/bb384313\(v=vs.100\)).
 
  **Authentication service location**
 
@@ -76,6 +76,6 @@ Opens the [Advanced Settings for Services Dialog Box](../../ide/reference/advanc
 
 - [Client Application Services](/dotnet/framework/common-client-technologies/client-application-services)
 - [Advanced Settings for Services Dialog Box](../../ide/reference/advanced-settings-for-services-dialog-box.md)
-- [How to: Configure Client Application Services](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services)
+- [How to: Configure Client Application Services](/previous-versions/visualstudio/visual-studio-2010/bb384312\(v=vs.100\))
 - [Compile Page, Project Designer (Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md)
 - [Build Page, Project Designer (C#)](../../ide/reference/build-page-project-designer-csharp.md)

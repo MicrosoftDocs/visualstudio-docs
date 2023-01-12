@@ -52,6 +52,8 @@ ms.workload:
 
     For more information, see [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool).
 
+    [!INCLUDE[ndptecclick](../deployment/includes/dotnet-dotnetmage-exe.md)]
+
 ## See also
 - [\<fileAssociation> element](../deployment/fileassociation-element-clickonce-application.md)
 - [ClickOnce application manifest](../deployment/clickonce-application-manifest.md)

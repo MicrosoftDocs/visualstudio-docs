@@ -3,7 +3,7 @@ title: "Tutorial: Create UWP Apps with Visual Studio & C#"
 description: Create a UWP app in Visual Studio with XAML and C#
 titleSuffix: ""
 ms.custom: "vs-acquisition, get-started, SEO-VS-2020"
-ms.date: "09/14/2021"
+ms.date: "04/26/2022"
 ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.devlang: CSharp
@@ -21,14 +21,11 @@ ms.workload:
 
 In this introduction to the Visual Studio integrated development environment (IDE), you'll create a "Hello World" app that runs on any Windows 10 or later device. To do so, you'll use a Universal Windows Platform (UWP) project template, Extensible Application Markup Language (XAML), and the C# programming language.
 
-::: moniker range=">=vs-2019"
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
-::: moniker-end
 
 ## Create a project
 
 First, create a Universal Windows Platform project. The project type comes with all the template files you need, before you've even added anything!
-
 
 ::: moniker range="vs-2019"
 1. Open Visual Studio, and on the start window, choose **Create a new project**.
@@ -78,7 +75,6 @@ First, create a Universal Windows Platform project. The project type comes with 
 It's time to start developing. You'll add a button control, add an action to the button, and then start the "Hello World" app to see what it looks like.
 
 ### Add a button to the Design canvas
-
 
 ::: moniker range="vs-2019"
 

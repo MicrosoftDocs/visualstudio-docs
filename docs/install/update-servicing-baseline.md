@@ -13,9 +13,37 @@ ms.prod: visual-studio-windows
 ms.technology: vs-installation
 monikerRange: ">=vs-2019"
 ---
-# Visual Studio and servicing baselines
+# DEPRECATED CONTENT Visual Studio and servicing baselines
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+   
+>[!IMPORTANT]
+> This content is deprecated because the functionaly it describes is contained on other pages, and the layout troubleshooting tips at the bottom are no longer necessary if you are using the [latest Visual Studio installer](create-a-network-installation-of-visual-studio.md#ensure-your-layout-is-using-the-latest-installer) which is also available to all versions of Visual Studio. The page only still exists so that links and browsing don't result in a broken experience. If you land on this page, please file a [Developer Community](https://aka.ms/vs/admin/feedback] bug report and tell us how you got here so that we can clean up the source links.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Visual Studio is updated frequently during its product lifecycle. There are two main types of updates: feature updates and servicing updates. Feature updates are indicated by a change in the minor version number, such as 16.4 to 16.5, and they contain significant product updates. Servicing updates consist of critical quality or security fixes and they are denoted by a change in the servicing version number, such as 16.7.8 to 16.7.9. 
 

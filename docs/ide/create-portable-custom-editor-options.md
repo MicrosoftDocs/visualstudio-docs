@@ -2,7 +2,7 @@
 title: EditorConfig settings
 description: Learn how to add an EditorConfig file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase.
 ms.custom: SEO-VS-2020, devdivchpfy22
-ms.date: 01/07/2021
+ms.date: 08/26/2022
 ms.topic: how-to
 helpviewer_keywords:
 - editorconfig [Visual Studio]
@@ -19,16 +19,10 @@ You can add an EditorConfig file to your project or codebase to enforce consiste
 
 EditorConfig settings are supported by many code editors and IDEs, including Visual Studio. It's a portable component that travels with your code, and can enforce coding styles even outside of Visual Studio.
 
-::: moniker range=">=vs-2019"
-
 When you add an EditorConfig file to your project in Visual Studio, new lines of code are formatted based on the EditorConfig settings. The formatting of existing code isn't changed unless you run one of the following commands:
 
- - [Code Cleanup](../ide/code-styles-and-code-cleanup.md) (**Ctrl**+**K**, **Ctrl**+**E**), which applies any white-space settings, such as indent style, and selected code style settings, such as how to sort `using` directives.
- - **Edit** > **Advanced** > **Format Document** (or **Ctrl**+**K**, **Ctrl**+**D** in the default profile), which only applies white-space settings, such as indent style.
-
- ::: moniker-end
-
-
+- [Code Cleanup](../ide/code-styles-and-code-cleanup.md) (**Ctrl**+**K**, **Ctrl**+**E**), which applies any white-space settings, such as indent style, and selected code style settings, such as how to sort `using` directives.
+- **Edit** > **Advanced** > **Format Document** (or **Ctrl**+**K**, **Ctrl**+**D** in the default profile), which only applies white-space settings, such as indent style.
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [EditorConfig in Visual Studio for Mac](/visualstudio/mac/editorconfig).
@@ -41,8 +35,10 @@ Coding conventions you use on your personal projects might differ from those use
 
 Because a file in the codebase contains the settings, they travel along with that codebase. As long as you open the code file in an EditorConfig-compliant editor, the text editor settings are activated. For more information about EditorConfig files, see the [EditorConfig.org](https://editorconfig.org/) website.
 
+::: moniker range="<=vs-2019"
 > [!NOTE]
 > Conventions that you set in an EditorConfig file can't currently be enforced in a CI/CD pipeline as build errors or warnings. Any style deviations appear only in the Visual Studio editor and **Error List**.
+::: moniker-end
 
 ## Supported settings
 
@@ -77,13 +73,13 @@ If you remove an EditorConfig file from your project or codebase and you want ne
 
    Two **editorconfig File** item templates are shown in the search results.
 
-   ![EditorConfig file item templates in Visual Studio](media/vs-2022/editorconfig-item-templates-new.png)
+   :::image type="content" source="media/vs-2022/editorconfig-item-templates-new.png" alt-text="Screenshot showing EditorConfig file item templates in Visual Studio.":::
 
 1. Select the **editorconfig File (default)** template to add an EditorConfig file prepopulated with two core EditorConfig options for indent style and size. Or, select the **editorconfig File (.NET)** template to add an EditorConfig file prepopulated with default [.NET code style, formatting, and naming conventions](/dotnet/fundamentals/code-analysis/code-style-rule-options).
 
    An *.editorconfig* file appears in Solution Explorer, and it opens in the editor.
 
-   ![.editorconfig file in Solution Explorer and editor](media/vs-2022/editorconfig-dotnet-new.png)
+   :::image type="content" source="media/vs-2022/editorconfig-dotnet-new.png" alt-text="Screenshot showing the .editorconfig file in Solution Explorer and editor.":::
 
 1. Edit the file as desired.
 
@@ -101,11 +97,11 @@ When you add an *.editorconfig* file to a folder in your file hierarchy, its set
 
 To override some or all of the EditorConfig settings, add an *.editorconfig* file at the level of the file hierarchy you want those overridden settings to apply. The new EditorConfig file settings apply to files at the same level and any subdirectories.
 
-![EditorConfig hierarchy](../ide/media/vside_editorconfig_hierarchy.png)
+:::image type="content" source="../ide/media/vside_editorconfig_hierarchy.png" alt-text="Screenshot showing the EditorConfig hierarchy.":::
 
-If you want to override some but not all of the settings, specify just those settings in the *.editorconfig* file. Only those properties that you explicitly list in the lower-level file are overridden. Other settings from higher-level *.editorconfig* files continue to apply.
+If you want to override some, but not all of the settings, specify just those settings in the *.editorconfig* file. Only those properties that you explicitly list in the lower-level file are overridden. Other settings from higher-level *.editorconfig* files continue to apply.
 
-If you want to ensure that _no_ settings from _any_ higher-level *.editorconfig* files are applied to this part of the codebase, add the ```root=true``` property to the lower-level *.editorconfig* file:
+If you want to ensure that no settings from any higher-level *.editorconfig* files are applied to this part of the codebase, add the ```root=true``` property to the lower-level *.editorconfig* file:
 
 ```ini
 # top-most EditorConfig file
@@ -118,23 +114,23 @@ EditorConfig files are read top to bottom. If there are multiple properties with
 
 Visual Studio helps you edit *.editorconfig* files by providing IntelliSense completion lists.
 
-![IntelliSense in an .editorconfig file](media/vs-2022/editorconfig-intellisense-no-extension-new.png)
+:::image type="content" source="media/vs-2022/editorconfig-intellisense-no-extension-new.png" alt-text="Screenshot showing the IntelliSense in an .editorconfig file.":::
 
 After you've edited your EditorConfig file, you must reload your code files for the new settings to take effect.
 
 If you edit many *.editorconfig* files, you might find the [EditorConfig Language Service extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig) helpful. Some of the features of this extension include syntax highlighting, improved IntelliSense, validation, and code formatting.
 
-![IntelliSense with EditorConfig Language Service extension](media/editorconfig-intellisense.png)
+:::image type="content" source="media/editorconfig-intellisense.png" alt-text="Screenshot showing the IntelliSense with EditorConfig Language Service extension.":::
 
 ## Example
 
 The following example shows the indent state of a C# code snippet before and after adding an *.editorconfig* file to the project. The **Tabs** setting in the **Options** dialog box for the Visual Studio text editor is set to produce space characters when you press the **Tab** key.
 
-![Text Editor tab setting](../ide/media/vs-2022/vside_editorconfig_tabsetting-new.png)
+:::image type="content" source="../ide/media/vs-2022/vside_editorconfig_tabsetting-new.png" alt-text="Screenshot showing the Text Editor tab setting.":::
 
 As expected, pressing the **Tab** key on the next line indents the line by adding four more white-space characters.
 
-![Code before using EditorConfig](../ide/media/vs-2022/vside_editorconfig_before-new.png)
+:::image type="content" source="../ide/media/vs-2022/vside_editorconfig_before-new.png" alt-text="Screenshot showing the Code before using EditorConfig.":::
 
 Add a new file called *.editorconfig* to the project, with the following contents. The `[*.cs]` setting means that this change applies only to C# code files in the project.
 
@@ -149,17 +145,17 @@ indent_style = tab
 
 Now, when you press the **Tab** key, you get tab characters instead of spaces.
 
-![Tab key adds Tab character](../ide/media/vside_editorconfig_tab.png)
+:::image type="content" source="../ide/media/vside_editorconfig_tab.png" alt-text="Screenshot showing the Tab key adds Tab character.":::
 
 ## Troubleshoot EditorConfig settings
 
 If there is an EditorConfig file anywhere in the directory structure at or above your project's location, Visual Studio applies the editor settings in that file to your editor. In this case, you might see the following message in the status bar:
 
-   **"User preferences for this file type are overridden by this project's coding conventions."**
+```User preferences for this file type are overridden by this project's coding conventions.```
 
 This means that if any editor settings in **Tools** > **Options** > **Text Editor** (such as indent size and style, tab size, or coding conventions) are specified in an EditorConfig file at or above the project in the directory structure, the conventions in the EditorConfig file override the settings in **Options**. You can control this behavior by toggling the **Follow project coding conventions** option in **Tools** > **Options** > **Text Editor**. Unchecking the option turns off EditorConfig support for Visual Studio.
 
-![Tools Options - follow project coding conventions](media/vs-2022/coding_conventions_option-new.png)
+:::image type="content" source="media/vs-2022/coding_conventions_option-new.png" alt-text="Screenshot showing the tools options - follow project coding conventions.":::
 
 You can find any *.editorconfig* files in parent directories by opening a command prompt and running the following command from the root of the disk that contains your project:
 

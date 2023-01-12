@@ -2,7 +2,7 @@
 title: Find and replace text, and multi-caret selection
 description: Learn about the Find and Replace feature and how to use it to find and replace instances of a pattern.
 ms.custom: SEO-VS-2020
-ms.date: 02/01/2022
+ms.date: 01/12/2023
 ms.topic: conceptual
 f1_keywords:
 - vs.find
@@ -38,10 +38,13 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can find and replace text in the Visual Studio editor by using [Find and Replace](#find-and-replace-control) (**Ctrl**+**F** or **Ctrl**+**H**) or [Find/Replace in Files](#find-in-files-and-replace-in-files) (**Ctrl**+**Shift**+**F** or **Ctrl**+**Shift**+**H**). You can also find and replace only *some* instances of a pattern by using *[multi-caret selection](#multi-caret-selection)*.
+You can find and replace text in the Visual Studio editor by using [Find and Replace](#find-and-replace-control) (**Ctrl**+**F** or **Ctrl**+**H**) or [Find/Replace in Files](#find-in-files-and-replace-in-files) (**Ctrl**+**Shift**+**F** or **Ctrl**+**Shift**+**H**). You can also find and replace *some* instances of a pattern by using *[multi-caret selection](#multi-caret-selection)*.
+
+> [!NOTE]
+> The content on this page applies to Visual Studio. If you're looking for information that's specific to Visual Studio Code&mdash;also known as **VS Code**&mdash;see the [**Find and Replace**](https://code.visualstudio.com/docs/editor/codebasics#_find-and-replace) section of the [Basic Editing](https://code.visualstudio.com/docs/editor/codebasics) page in the [Visual Studio Code](https://code.visualstudio.com/docs) docs.
 
 > [!TIP]
-> If you're renaming code symbols such as variables and methods, it's better to *[refactor](../ide/reference/rename.md)* them than to use find-and-replace. Refactoring is intelligent and understands scope, whereas find-and-replace blindly replaces all instances.
+> In [Visual Studio](../get-started/visual-studio-ide.md), if you're renaming code symbols such as variables and methods, it's better to *[refactor](../ide/reference/rename.md)* them than to use find-and-replace. Refactoring is intelligent and understands scope, whereas find-and-replace blindly replaces all instances.
 
 Find-and-replace functionality is available in the editor, in certain other text-based windows such as the **Find Results** windows, in designer windows such as the XAML designer and Windows Forms designer, and in tool windows.
 
@@ -105,7 +108,6 @@ For more detailed information, see the [Find in Files](find-in-files.md) and [Re
 
 ::: moniker-end
 
-
 ### Find Results
 
 When you choose **Find All**, a **Find Results** window opens and lists the matches for your search. Selecting a result in the list displays the associated file and highlights the match. If the file is not already open for editing, it is opened in a preview tab in the right side of the tab well. You can use the **Find** control to search through the **Find Results** list.
@@ -125,7 +127,6 @@ You can define component sets as your search scope by choosing the **Edit Custom
 
 > [!NOTE]
 > This section applies to Visual Studio on Windows. For Visual Studio for Mac, see [Block selection](/visualstudio/mac/block-selection).
-
 
 Use *multi-caret selection* to make the same edit in two or more places at the same time. For example, you can insert the same text or modify existing text in multiple locations at the same time.
 

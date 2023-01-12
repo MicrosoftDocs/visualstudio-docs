@@ -2,7 +2,7 @@
 title: "Tutorial: Open a project from a repo in Visual Studio"
 description: "Learn how to open a project in a Git or Azure DevOps repository that you've cloned by using Visual Studio."
 ms.custom: "vs-acquisition, get-started"
-ms.date: 01/31/2022
+ms.date: 11/29/2022
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -161,7 +161,7 @@ Here's how to use Git in Visual Studio 2019 [**version 16.8**](/visualstudio/rel
 
     Next, Visual Studio automatically loads and opens the solution from the repository.
 
-   ![Screenshot of a project in Git that's open in Solution Explorer in Visual Studio 2019 version 16.8 and later.](../ide/media/vs-2019/git-solution-explorer.png )
+   ![Screenshot of a project in Git that's open in Solution Explorer in Visual Studio 2019 version 16.8 and later.](../ide/media/vs-2019/git-solution-explorer.png)
 
 1. If your repository contains multiple solutions, Solution Explorer displays them. For a list view of the solutions, select the **Switch Views** button in Solution Explorer.
 
@@ -295,7 +295,6 @@ But no matter which version you have installed, you can always browse to and clo
 
 ::: moniker-end
 
-
 ## Next steps
 
 Feel free to dive into any of the following language-specific tutorials:
@@ -312,8 +311,7 @@ Feel free to dive into any of the following language-specific tutorials:
 
 - [The Git experience in Visual Studio](../version-control/git-with-visual-studio.md)
 - [Compare Git and Team Explorer side-by-side](../version-control/git-team-explorer-feature-comparison.md)
-- [Microsoft Learn: Get started with Git and GitHub in Visual Studio](/learn/modules/visual-studio-github-push/)
-- [Microsoft Learn: Get started with Azure DevOps](/learn/modules/get-started-with-devops/)
+- [Get started with Azure DevOps](/training/modules/get-started-with-devops/)
 - [Azure DevOps Services: Get started with Azure Repos and Visual Studio](/azure/devops/repos/git/gitquickstart/)
 
 ::: moniker-end

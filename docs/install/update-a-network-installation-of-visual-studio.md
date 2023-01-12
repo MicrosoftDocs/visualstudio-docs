@@ -1,7 +1,7 @@
 ---
 title: Update a network-based installation
 description: Learn how to update a Visual Studio client that was installed from a network layout
-ms.date: 02/04/2022
+ms.date: 1/6/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -32,13 +32,14 @@ If you are going to update your client from Microsoft hosted servers, then the c
 
 If you are going to update your client from a network layout, then the first step is to prepare the network layout with the updated product. You can [update your existing layout with the latest product updates](create-a-network-installation-of-visual-studio.md#update-or-modify-your-layout) so both new installations and updates will receive the updated version. Or, you can [create a whole new layout](create-a-network-installation-of-visual-studio.md) in a different directory that you can use for updating the client machines.
 
+Make sure that either the user or system account that's running the update has proper access to the network share that contains the layout. For more information, refer to [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md).
+
 ## Enable manual user-initiated client-side updates 
 A user on the client machine with sufficient permissions can [manually initiate the Visual Studio update themselves](update-visual-studio.md). The Visual Studio client must be configured properly to look in the right source location for updates so that it can recognize that an update is available. If any files are in use when the update happens, like if Visual Studio is open, then Visual Studio will need to close to complete the update. Occasionally an update will require a reboot.
 
 ### Manually configure where the Visual Studio client looks for updates
 
 When Visual Studio is initially installed on the client machine, it records the location where it should check for updates. If Visual Studio was installed from Microsoft hosted servers, then it will by default look for updates from Microsoft hosted servers. If Visual Studio was installed or updated by invoking a bootstrapper on a network layout, then it will look for updates in the [location specified by the layout](automated-installation-with-response-file.md).  
-
 
 ::: moniker range="vs-2019"
 
@@ -48,11 +49,7 @@ However, if the Visual Studio client uses the latest Visual Studio 2022 Installe
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
-
 To manually view and configure the update location that the client will look for updates from, bring up the [Update Settings](update-visual-studio.md?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1), make sure it's configured correctly. You can then initiate the update from the client.  
-
-::: moniker-end
 
 ### Update notifications
 
@@ -71,9 +68,6 @@ Administrators can programmatically update the client installations of Visual St
 
 ### Programatically update Visual Studio by using the Visual Studio Installer
 
-
-::: moniker range=">=vs-2019"
-
 You can initiate an update to Visual Studio by programmatically invoking the client's installer and issuing the update command. This command will update Visual Studio based on the updated product available in the [source location for updates](update-visual-studio.md#configure-source-location-of-updates-1). If you want to change the update source location on the client, you can do that programatically by passing in the --channelURI parameter. For example:  
 
 You can change the channel to a network layout _and_ execute an update command on the client like this:
@@ -87,19 +81,13 @@ or like this, which sets the source of updates to a Microsoft hosted location:
 c:\program files (x86)\microsoft\visual studio\installer\>setup.exe update --installPath "C:\Program Files\Microsoft Visual Studio\2019\Enterprise" --channelURI "https://aka.ms/vs/16/release/channel"
 ```
 
-::: moniker-end
-
 ### Programatically update Visual studio by using a bootstrapper.
-
-::: moniker range=">=vs-2019"
 
 You can update Visual Studio by programatically calling a bootstrapper from the same location that you originally installed from. All bootstrappers sourced from Microsoft hosted servers are considered from the same location. If your bootstrapper was on a network layout share, then the [network layout must be updated](create-a-network-installation-of-visual-studio.md#update-or-modify-your-layout) to contain the desired product updates.
 
 ```shell
 \\server\share\originalinstallVSdirectory\vs_enterprise.exe update --installPath "C:\clientmachine\installpath" --quiet 
 ```
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -113,14 +101,10 @@ You can also initiate an update to your Visual Studio client by programatically 
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
-
 ```shell
    \\server\share\desiredupdatelayoutdir\vs_enterprise.exe update --installPath "C:\clientmachine\installpath" --quiet 
 ```
 Whatever the value of the channelURI in the new layout's response.json file will be the location where the client looks for future updates.
-
-::: moniker-end
 
 > [!NOTE]
 > Use the [vswhere.exe command](tools-for-managing-visual-studio-instances.md) to identify the install path of an existing instance of Visual Studio on a client machine.
@@ -130,28 +114,26 @@ Whatever the value of the channelURI in the new layout's response.json file will
 If your client machine doesn't have internet access, then it _must_ acquire the updates from a network layout. Remember that there are two parts that need to get updated whenever Visual Studio is updated. The first is the installer and the second is the Visual Studio product itself. You can instruct Visual Studio to _explicitly_ look for _both_ of these components from the network layout by running these commands on the client machine. The first command forces the installer to come from the layout, and the second command prevents any packages from being downloaded from Microsoft hosted servers on the internet.
 
  ```shell
-    \\server\share\VSlayoutdirectory\vs_enterprise.exe --quiet --update
+    \\server\share\VSlayoutdirectory\vs_enterprise.exe --quiet --update --wait --offline
     \\server\share\VSlayoutdirectory\vs_enterprise.exe update --installPath "C:\clientmachine\installpath" --noWeb --wait --quiet --norestart
  ```
     
-Another way to ensure that the client gets its updates from the network layout is to pass in the `--noweb` and `--noUpdateInstaller` options in a single command to the bootstrapper on the network layout. The former prevents downloading updated workloads, components from the internet, and the latter prevents the installer from self-updating. This option, while available, is generally not recommended because you should always be using the latest and greatest installer.
-
 > [!IMPORTANT]
 > The `--noWeb` option does not stop Visual Studio setup on an internet-connected computer from _checking_ for updates. Rather, it prevents the client from downloading the product packages. 
 
 ## Get support for your network layout
 
-If you experience a problem with your network layout, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE. If you're an IT Administrator and don't have Visual Studio installed, you can submit [**IT Admin feedback here**](https://aka.ms/vs/admin/guide). When you use this tool, it would be very helpful if you could send the [logs from the VS Collect tool](https://aka.ms/vscollect) which can help us diagnose and fix the problem.
+If you experience a problem with your network layout, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE. If you're an IT Administrator and don't have Visual Studio installed, you can submit [**IT Admin feedback here**](https://aka.ms/vs/admin/feedback). When you use this tool, it would be very helpful if you could send the [logs from the VS Collect tool](https://aka.ms/vscollect) which can help us diagnose and fix the problem.
 
 We also offer an [**installation chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 
 We have other support options available, too. See our [Visual Studio Developer Community](https://developercommunity.visualstudio.com/home).
 
-
 ## See also
 
 * [Create and maintain a network layout](create-a-network-installation-of-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
+* [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
 * [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)

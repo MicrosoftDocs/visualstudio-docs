@@ -48,3 +48,5 @@ To further investigate a specific task or activity, right-click the row. Then se
 ## See also
 
 - [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md)
+- [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
+- [Analyze CPU usage](../profiling/cpu-usage.md)

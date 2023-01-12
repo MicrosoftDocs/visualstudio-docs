@@ -71,7 +71,6 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 
 10. In the function `button1_Click`., add the following code:
 
-
     ### [C#](#tab/csharp)
     ```csharp
     textBox1.Text = "Button was clicked!";

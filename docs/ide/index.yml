@@ -10,8 +10,9 @@ metadata:
   ms.prod: visual-studio-windows
   ms.technology: vs-ide-general
   ms.topic: landing-page
-  author: j-martens
-  ms.author: jmartens
+  author: TerryGLee
+  ms.author: tglee
+  ms.manager: jmartens
   ms.date: 06/03/2022
   ms.custom: vs-acquisition
 
@@ -27,7 +28,7 @@ landingContent:
       - linkListType: download
         links:
           - text: Download Visual Studio
-            url: https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=navigation+cta&utm_content=download+vs2019
+            url: https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=navigation+cta&utm_content=download+vs2019
       - linkListType: get-started
         links:
           - text: Install Visual Studio

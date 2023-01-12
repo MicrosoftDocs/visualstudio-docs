@@ -31,11 +31,7 @@ Let's get started with a very simple WPF application that has a list view and a 
 
 ### Create the project
 
-::: moniker range=">=vs-2019"
-
 1. Create a new C# WPF application (**File** > **New** > **Project**, type "C# WPF", choose the **WPF Application** project template, name the project **TestXAML**, and then verify that the correct .NET version appears in the **Target Framework** drop-down.
-
-::: moniker-end
 
 
 2. Change MainWindow.xaml to the following:
@@ -85,7 +81,6 @@ Let's get started with a very simple WPF application that has a list view and a 
    ![Main window of the app](../debugger/media/vs-2019/livevisualtree-app.png "LiveVIsualTree-App")
    ::: moniker-end
 
-
 5. Now, click the **Add Item** button a few times to add new items into the list.
 
 ### Inspect XAML properties
@@ -103,7 +98,6 @@ Let's get started with a very simple WPF application that has a list view and a 
    ::: moniker range=">= vs-2019"
    ![ListBoxItems in the Live Visual Tree](../debugger/media/vs-2019/livevisualtree-listboxitems.png "LiveVisualTree-ListBoxItems")
    ::: moniker-end
-
 
 1. Go back to the application window and add a few more items. You should see more list box items appear in the **Live Visual Tree**.
 
@@ -127,7 +121,6 @@ Let's get started with a very simple WPF application that has a list view and a 
 
    **Preview Selection**. You can enable this mode by selecting the third button from the left on the Live Visual Tree toolbar. This mode shows the XAML where the element was declared, if you have access to the source code of the application. Select **Select element** and **Preview selection**, and then you select the button in our test application. The MainWindow.xaml file opens in Visual Studio and the cursor is placed on the line where the button is defined.
    ::: moniker-end
-
 
 ## Use XAML tools with running applications
 

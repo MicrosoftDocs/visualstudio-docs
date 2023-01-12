@@ -19,11 +19,12 @@ ms.workload:
 In this article, you'll learn:
 + [The benefits to account sign in](#benefits)
 + How to [sign in](#sign-in) with an account
-+ How to [add and switch](#add-and-switch) user accounts
++ How to [add & switch accounts](#add-and-switch)
 + How to [access](#access) multiple user accounts
-+ How to [sign out](#sign-out-of-account) of an account
-+ How to [update](#update-your-account-profile) your profile
++ How to [sign out of your account](#sign-out-of-account)
++ How to [update your profile](#profile)
 
+You can also get [subscription support](https://visualstudio.microsoft.com/subscriptions/support/).
 
 <a name="benefits"></a>
 ## Benefits: why sign in? 
@@ -36,11 +37,11 @@ While you don't have to sign in, there are many advantages to doing so.
 |[Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)|Unlock Visual Studio if you use an account that's associated with a [Visual Studio subscription](/visualstudio/subscriptions/using-the-subscriber-portal) or an Azure DevOps organization.|
 |[Synchronize](../ide/synchronized-settings-in-visual-studio.md) your settings|Settings that you customize, such as key bindings, window layout, and color theme, apply immediately when you sign in to Visual Studio on any device.|
 |Auto-connect to Azure services|Connect to services, such as Azure and Azure DevOps Services, in the IDE without prompting again for credentials for the same account.|
-|Continue using our Community edition without interruptions|If the installation prompts you to sign-in periodically, sign in to the IDE to continue using Visual Studio Community without interruptions.|
+|Use Community edition without interruptions|While it's not required to sign in, you might periodically get prompts to sign-in if you haven't done so. Please sign in to the IDE to continue using Visual Studio Community without interruptions.|
 |[Get 'Visual Studio Dev Essentials'](https://visualstudio.microsoft.com/dev-essentials/)|This program includes free software, training, support, and more.|
 
 <a name="sign-in"></a>
-## Sign in with a Microsoft account or an organizational account
+## Sign in with a Microsoft or organizational account
 
 ::: moniker range="<=vs-2019"
 
@@ -79,6 +80,13 @@ While you don't have to sign in, there are many advantages to doing so.
 
 ::: moniker-end
 
+<a name="profile"></a>
+## Update your account profile
+
+1. Go to **File > Account Settings...** and select the **Manage Visual Studio profile** link.
+1. In the browser window, select **Edit profile** and change the settings that you want.
+1. When you're done, select **Save changes**.
+
 <a name="add-and-switch"></a>
 ## Add and switch user accounts
 
@@ -88,8 +96,6 @@ After you add multiple accounts on one machine, that set of accounts roams with 
 
 > [!NOTE]
 > Although the account names roam, the credentials do not. You'll be prompted to enter credentials for those other accounts the first time you attempt to use their resources on a new machine.
-
-::: moniker range=">=vs-2019"
 
 ### Add an additional account to Visual Studio
 
@@ -102,10 +108,7 @@ To add an additional account to Visual Studio:
 1. On the **Sign in to your account** page, select the account or choose **Use another account**. Follow the prompts to enter the new account credentials.
 
 (Optional) Now you can go to **Server Explorer** and see the Azure services associated with the account you just added. In **Server Explorer**, right-click on the **Azure** node and choose **Manage and Filter Subscriptions**. Choose the new account by clicking the drop-down arrow next to the current account, and then choose which subscriptions you want to display in **Server Explorer**. You should see all the services associated with the specified subscription. Even though you're not currently signed into Visual Studio with the second account, you are signed in to that account's services and resources. The same is true for **Project** > **Add Connected Service**.
-::: moniker-end
 
-
-::: moniker range=">=vs-2019"
 
 ### Add a GitHub account to Visual Studio
 
@@ -115,11 +118,7 @@ For detailed instructions, see [Work with GitHub accounts in Visual Studio](work
 
 ### Add a multi-factor authentication (MFA) enabled account to Visual Studio
 
-In the 16.6 release, we added new capabilities to Visual Studio 2019 that streamline how users can access resources secured via CA policies such as MFA. To use this enhanced workflow, you'll need to opt into using your system's default web browser as the mechanism to add and reauthenticate Visual Studio accounts.
-
-For detailed instructions, see [Work with accounts that require multi-factor authentication (MFA)](work-with-multi-factor-authentication.md)
-
-::: moniker-end
+Starting with version 16.6, users can access resources secured via CA policies such as MFA. To use this enhanced workflow, you'll need to opt into using your system's default web browser as the mechanism to add and reauthenticate Visual Studio accounts.  For detailed instructions, see [Work with accounts that require multi-factor authentication (MFA)](work-with-multi-factor-authentication.md)
 
 <a name="access"></a>
 ## Access multiple accounts associated with the Visual Studio sign-in account
@@ -162,7 +161,6 @@ The next time you open **Server Explorer**, the resources for that subscription 
 
 Azure Active Directory (Azure AD) enables support for end-user single sign-in in ASP.NET MVC web apps or AD authentication in web API services. Domain authentication is different from individual user account authentication. Users that have access to your Active Directory domain can use their existing Azure AD accounts to connect to your web applications. Microsoft 365 apps can also use domain authentication.
 
-
 ::: moniker range="vs-2019"
 
 To see this in action, create a new **ASP.NET Core Web App** project. On the **Additional information** page, choose **.NET Core 3.1 (Long-term support)** from the **Target Framework** drop-down, and then choose an authentication type from the **Authentication Type** drop-down.
@@ -189,14 +187,3 @@ Proxy credentials are stored in the Windows Credential Manager and are used as n
 1. Select the icon with your profile name in the upper-right corner of the Visual Studio environment.
 1. Select **Account settings..**.
 1. Select **Sign out**.
-
-## Update your account profile
-
-1. Go to **File > Account Settings...** and select the **Manage Visual Studio profile** link.
-1. In the browser window, select **Edit profile** and change the settings that you want.
-1. When you're done, select **Save changes**.
-
-## See also
-
-- Troubleshooting: [Subscription support](https://visualstudio.microsoft.com/subscriptions/support/)
-- [Compare Visual Studio 2022 Editions](https://visualstudio.microsoft.com/vs/compare/)

@@ -33,6 +33,8 @@ When deploying a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md
 
 2. Click the **Publish** tab.
 
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
+
 3. Click the **Options** button.
 
      The **Publish Options** dialog box appears.

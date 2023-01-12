@@ -2,7 +2,7 @@
 title: 'What are Visual Studio solutions & projects?'
 description: Learn about Visual Studio projects and solutions, how to create new projects from a template, and how to view & manage projects in Solution Explorer.
 ms.custom: "SEO-VS-2020, contperf-fy21q2"
-ms.date: 09/14/2021
+ms.date: 08/26/2022
 ms.topic: conceptual
 f1_keywords:
 - vs.openproject
@@ -25,20 +25,20 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In this article, you'll learn what  a *project* and a *solution* is in Visual Studio. It also briefly covers the Solution Explorer tool window and how to create a new project.
+In this article, you'll learn what  a *project* and a *solution* is in Visual Studio. It also briefly covers the [Solution Explorer](use-solution-explorer.md) tool window and how to create a new project.
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Projects and solutions in Visual Studio for Mac](/visualstudio/mac/projects-and-solutions).
 
 ## Projects
 
-When you create an app or website in Visual Studio, you start with a *project*. In a logical sense, a project contains all files that are compiled into an executable, library, or website. Those files can include source code, icons, images, data files, and so on. A project also contains compiler settings and other configuration files that might be needed by various services or components that your program communicates with.
+When you create an app or website in Visual Studio, you start with a *project*. In a logical sense, a project contains all files that are compiled into an executable, library, or website. Those files can include source code, icons, images, data files, and more. A project also contains compiler settings and other configuration files that might be needed by various services or components that your program communicates with.
 
 ### Project file
 
-Visual Studio uses [MSBuild](../msbuild/msbuild.md) to build each project in a solution, and each project contains an MSBuild project file. The file extension reflects the type of project, for example, a C# project (.csproj), a Visual Basic project (.vbproj), or a database project (.dbproj). The project file is an XML document that contains all the information and instructions that MSBuild needs in order to build your project, including the content, platform requirements, versioning information, web server or database server settings, and the tasks to perform.
+Visual Studio uses [MSBuild](../msbuild/msbuild.md) to build each project in a solution, and each project contains an MSBuild project file. The file extension reflects the type of project, for example, a C# project (.csproj), a Visual Basic project (.vbproj), or a database project (.dbproj). The project file is an XML document that contains all the information and instructions that MSBuild needs to build your project. Such information and instructions include the content, platform requirements, versioning information, web server or database server settings, and the tasks to perform.
 
-Project files are based on the [MSBuild XML schema](../msbuild/msbuild-project-file-schema-reference.md). To look at the contents of newer, [sdk-style project files](../msbuild/how-to-use-project-sdk.md) in Visual Studio, right-click on the project node in **Solution Explorer** and select **Edit \<projectname\>**. To look at the contents of .NET Framework and other projects of that style, first unload the project (right-click on the project node in **Solution Explorer** and select **Unload Project**). Then, right-click on the project and choose **Edit \<projectname\>**.
+Project files are based on the [MSBuild XML schema](../msbuild/msbuild-project-file-schema-reference.md). To look at the contents of newer, [SDK-style project files](../msbuild/how-to-use-project-sdk.md) in Visual Studio, right-click the [project node](use-solution-explorer.md#project-node-context-menu-options) in **Solution Explorer** and select **Edit \<projectname\>**. To look at the contents of .NET projects, first unload the project (right-click the project node in **Solution Explorer** and select **Unload Project**). Then, right-click on the project and choose **Edit \<projectname\>**.
 
 > [!NOTE]
 > You don't have to use solutions or projects in Visual Studio to edit, build, and debug code. You can simply open the folder that contains your source files in Visual Studio and start editing. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
@@ -53,7 +53,7 @@ When you create a new project, Visual Studio saves it to its default location, *
 
 ## Solutions
 
-A project is contained within a *solution*. Despite its name, a solution is not an "answer". It's simply a container for one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project.
+A project is contained within a *solution*. Despite its name, a solution isn't an "answer". It's simply a container for one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project.
 
 ### Solution file
 
@@ -78,18 +78,13 @@ A "solution folder" is a virtual folder that's only in **Solution Explorer**, wh
 
 After you create a new project, you can use **[Solution Explorer](use-solution-explorer.md)** to view and manage the project and solution and their associated items. The following illustration shows **Solution Explorer** with a C# solution that contains two projects:
 
-
-::: moniker range=">=vs-2019"
-
 ![Screenshot of Solution Explorer with two projects in Visual Studio.](../ide/media/solution-explorer.png)
 
-The toolbar across the top of **Solution Explorer** has buttons to switch from a solution view to a folder view, filter pending changes, show all files, collapse all nodes, view [properties](managing-project-and-solution-properties.md) pages, preview code in the [code editor](writing-code-in-the-code-and-text-editor.md), and more.
+The [toolbar](use-solution-explorer.md#solution-explorer-toolbar) across the top of **Solution Explorer** has buttons to switch from a solution view to a folder view, filter pending changes, show all files, collapse all nodes, view [properties](managing-project-and-solution-properties.md) pages, preview code in the [code editor](writing-code-in-the-code-and-text-editor.md), and more.
 
-::: moniker-end
+Many menu commands are available from the [right-click context menu](use-solution-explorer.md#solution-node-context-menu-options) on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few. For more information, see [Learn about Solution Explorer](use-solution-explorer.md).
 
-Many menu commands are available from the right-click context menu on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few. For more information, see [How to use Solution Explorer](use-solution-explorer.md).
-
-For ASP.NET Core projects, you can customize how files are nested in **Solution Explorer**. For more information, see [Customize file nesting in Solution Explorer](file-nesting-solution-explorer.md).
+For ASP.NET Core projects, you can customize how files are nested in **Solution Explorer**. For more information, see [File nesting in Solution Explorer](file-nesting-solution-explorer.md).
 
 > [!TIP]
 > If you've closed Solution Explorer and you want to open it again, choose **View** > **Solution Explorer** from the menu bar, or press **Ctrl**+**Alt**+**L**. And, if you've closed side tabs and you want to restore them to their default locations, choose **Window** > **Reset Window Layout** from the menu bar.
@@ -99,8 +94,6 @@ For ASP.NET Core projects, you can customize how files are nested in **Solution 
 
 ## See also
 
-- [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md)
 - [Manage project and solution properties](managing-project-and-solution-properties.md)
 - [Filtered solutions in Visual Studio](filtered-solutions.md)
-- [Port, migrate, and upgrade projects](../porting/port-migrate-and-upgrade-visual-studio-projects.md)
-- [Projects and solutions (Visual Studio for Mac)](/visualstudio/mac/projects-and-solutions)
+- [Project migration and upgrade reference for Visual Studio](../porting/port-migrate-and-upgrade-visual-studio-projects.md)

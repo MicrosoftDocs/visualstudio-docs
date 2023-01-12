@@ -1,10 +1,10 @@
 ---
 title: Publish a Python app to Azure App Service on Windows
 description: How to publish a Python web application directly to Azure App Service on Windows from Visual Studio, including the necessary content for the web.config file.
-ms.date: 01/07/2019
+ms.date: 12/12/2022
 ms.topic: how-to
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -65,7 +65,7 @@ Create a temporary App Service without needing an Azure subscription as follows:
 
 ## Configure Python on Azure App Service
 
-Once you have an App Service with an empty Web App running (either in your subscription or on a free site), install a chosen version of Python as described [Managing Python on Azure App Service](managing-python-on-azure-app-service.md). For publishing from Visual Studio 2017 and later, record the exact path to the Python interpreter installed with the site extension as described in that article.
+Once you have an App Service with an empty Web App running (either in your subscription or on a free site). For publishing from Visual Studio 2017 and later, record the exact path to the Python interpreter installed with the site extension as described in that article.
 
 If desired, you can also install the `bottle` package using the process in those instructions, as that package is installed as part of other steps in this walkthrough.
 

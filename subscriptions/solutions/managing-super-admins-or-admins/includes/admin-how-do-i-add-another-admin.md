@@ -29,6 +29,6 @@ Note: For the super admin role, be sure to check the box.
 
 To check if you're a super admin, select the agreement details icon on the left in the portal. A flyout panel shows the admin role details. 
 
-The super admin role isn't available for [MPSA agreements](https://docs.microsoft.com/visualstudio/subscriptions/mpsa). Administrator permissions for those agreement types are managed in the Microsoft [Business Center](https://businessaccount.microsoft.com/Customer). 
+The super admin role isn't available for [MPSA agreements](https://learn.microsoft.com/visualstudio/subscriptions/mpsa). Administrator permissions for those agreement types are managed in the Microsoft [Business Center](https://businessaccount.microsoft.com/Customer). 
 
-To [manage admins](https://docs.microsoft.com/visualstudio/subscriptions/cloud-admin) for subscriptions purchased through the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), visit the [Azure portal](https://portal.azure.com/).   
+To [manage admins](https://learn.microsoft.com/visualstudio/subscriptions/cloud-admin) for subscriptions purchased through the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), visit the [Azure portal](https://portal.azure.com/).   

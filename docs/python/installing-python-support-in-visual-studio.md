@@ -1,11 +1,11 @@
 ---
 title: Install Python support
 description: How to install the Python Tools for Visual Studio (PTVS) in Visual Studio 2017, 2015, 2013, 2012, and 2010, including options and installation locations.
-ms.date: 12/11/2021
+ms.date: 1/5/2023
 ms.custom: devdivchpfy22
 ms.topic: how-to
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -27,7 +27,6 @@ To install Python support for Visual Studio (also known as Python Tools for Visu
 - [Visual Studio 2019](#visual-studio-2019)
 :::moniker-end
 
-
 To quickly test Python support after following the installation steps, open the **Python Interactive** window by pressing **Alt**+**I** and entering `2+2`. If you don't see the output of `4`, recheck your steps.
 
 > [!Tip]
@@ -46,7 +45,6 @@ To quickly test Python support after following the installation steps, open the 
 ## Visual Studio 2019
 
 :::moniker-end
-
 
 1. Download and run the latest Visual Studio installer. If you have Visual Studio installed already, run the Visual Studio Installer, select the **Modify** option (see [Modify Visual Studio](../install/modify-visual-studio.md)) and go to step 2.
 
@@ -69,7 +67,6 @@ To quickly test Python support after following the installation steps, open the 
 
     :::moniker-end
 
-
 1. The Visual Studio installer provides you a list of workloads that are groups of related options for specific development areas. For Python, select the **Python development** workload.
 
    Optional: if you're working with data science, also consider the **Data science and analytical applications** workload. This workload includes support for the Python, R, and F# languages. For more information, see [Data science and analytical applications workload](data-science-and-analytical-applications-workload.md).
@@ -88,7 +85,6 @@ To quickly test Python support after following the installation steps, open the 
    ![Python development options in the Visual Studio 2019 installer](media/installation-python-options-2019.png)
 
    :::moniker-end
-
 
  | Option | Description |
    | --- | --- |
@@ -110,7 +106,6 @@ After installation, the installer provides options to modify, launch, repair, or
 
 :::moniker-end
 
-
 ### Troubleshooting
 
 To fix problems while installing or running Python in Visual Studio, try the following steps:
@@ -121,6 +116,7 @@ To fix problems while installing or running Python in Visual Studio, try the fol
 
 **Example error**: Failed to start interactive process: System.ComponentModel.Win32Exception (0x80004005): Unknown error (0xc0000135) at Microsoft.PythonTools.Repl.PythonInteractiveEvaluator.d__43.MoveNext().
 
+You may see errors when attempting to install or update Python itself, such as `PackageId:CPython39.Exe.x64;PackageAction:DownloadPackage;ReturnCode:0x80070193`. These errors occur when the download or install of Python from https://python.org fails. This could be due to network timeouts, corporate firewall policy, VPN configuration, anti-virus, or other problems. See if a retry helps, and if not, see if you can download the Python runtime directly from https://python.org and install it manually.
 
 ## Install locations
 

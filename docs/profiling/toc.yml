@@ -32,22 +32,66 @@
     href: analyze-database.md
   - name: Events Viewer
     href: events-viewer.md
-  - name: CPU usage
-    href: cpu-usage.md
+  - name: CPU Usage
+    items:
+    - name: CPU Usage
+      href: cpu-usage.md
+    - name: Flame Graph 
+      href: flame-graph.md
+    - name: CPU Insights
+      items:
+      - name: CPU Insights  
+        href: cpu-insights.md
+      - name: Performance insights
+        items:
+        - name: String concatenation
+          href: perf-insights-string-concatenation.md
+        - name: Regex
+          href: perf-insights-regex.md
   - name: File IO
-    href: use-file-io.md    
+    href: use-file-io.md
   - name: Memory usage
     items:
     - name: Choose a memory analysis tool
       href: analyze-memory-usage.md
-    - name: Analyze memory usage for .NET objects
-      href: dotnet-alloc-tool.md
+    - name: .NET object allocation
+      items:
+      - name: Analyze memory usage for .NET objects
+        href: dotnet-alloc-tool.md
+      - name: Performance insights
+        items:
+        - name: LOH allocations
+          href: perf-insights-loh-allocations.md
+        - name: Excessive induced GCs
+          href: perf-insights-excessive-induced-gcs.md
+        - name: High LOH fragmentation
+          href: perf-insights-high-loh-fragmentation.md
     - name: Analyze memory usage without the debugger
       href: memory-usage-without-debugging2.md
     - name: Custom native ETW heap events
       href: custom-native-etw-heap-events.md
+  - name: Instrumentation
+    items:
+    - name: Instrumentation
+      href: instrumentation-overview.md
+    - name: Analyze instrumentation data
+      href: instrumentation.md
   - name: Measure performance from the command-line
-    href: profile-apps-from-command-line.md
+    items:
+    - name: Measure performance from the command-line
+      href: profile-apps-from-command-line.md
+    - name: Collect detailed timing data
+      href: collecting-detailed-timing-data-for-a-stand-alone-application.md
+    - name: Instrument a .NET Framework component and collect timing data
+      href: instrument-dotnet-framework-component-and-collect-timing-data.md
+    - name: Instrument a native component and collect timing data
+      href: instrument-native-component-and-collect-timing-data.md
+    - name: Reference
+      items:
+      - name: VSInstr
+        href: vsinstr.md
+      - name: VSPerfCmd
+        href: vsperfcmd.md
   - name: Analyze GPU usage
     href: gpu-usage.md
   - name: Analyze Resource Consumption
@@ -221,4 +265,8 @@
           href: cvwritemessage-function.md
     - name: Concurrency Visualizer Command-Line Utility (CVCollectionCmd)
       href: concurrency-visualizer-command-line-utility-cvcollectioncmd.md
+- name: Reference
+  items:
+  - name: Troubleshoot possible profiler errors
+    href: troubleshoot-profiler-errors.md
 - name: Resources

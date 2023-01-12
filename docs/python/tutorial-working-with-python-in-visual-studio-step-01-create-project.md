@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Overview and step 1 of a core walkthrough of Python capabilities in Visual Studio, including prerequisites and creating a new Python project.
 ms.date: 02/02/2022
 ms.topic: tutorial
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 ms.custom: vs-acquisition, devdivchpfy22
@@ -73,11 +73,14 @@ This tutorial begins with a simple project containing a single, empty code file.
    
 1. To view Python templates, search for *python*. Search is a great way to find a template when you can't remember its location in the languages tree.
    
-   ![Screenshot showing the Create a new project dialog box with Python project templates.](media/vs-2022/getting-started-python-new-project.png)
+   ![Screenshot showing the Create a new project dialog box with Python project templates.](media/vs-2022/working-in-python-01-create-project-2022.png)
    
-   Python support in Visual Studio includes several project templates, such as web applications in the Bottle, Flask, and Django frameworks. For this tutorial, start with an empty project.
+   Python web support in Visual Studio includes several project templates, such as web applications in the Bottle, Flask, and Django frameworks. When installing Python with the Visual Studio Installer, check "Python Web Support" under optional to install these templates. For this tutorial, start with an empty project.
    
-1. Select the **PythonConsoleApp** template, and select **Next**.
+
+1. Select the **Python Application** template, and select **Next**.
+
+
    
 1. On the **Configure your new project** screen, specify a name and file location for the project, and then select **Create**.
    
@@ -99,7 +102,7 @@ This tutorial begins with a simple project containing a single, empty code file.
    
    - Your project, with the name you gave in the **Create a new project** dialog box, displays in bold **(2)**. On disk, the project is a *.pyproj* file in your project folder.
    
-   - Under your project are source files, in this case only a single *.py* file **(3)**. Selecting a file displays its properties in the **Properties** window. Double-clicking a file opens it in whatever way is appropriate for that file.
+   - Under your project are source files, in this case only a single *.py* file **(3)**. Selecting a file displays its properties in the **Properties** window (if you do not see the **Properties** window, click the wrench in the **Solution Explorer** banner). Double-clicking a file opens it in whatever way is appropriate for that file.
    
    - Also under the project is the **Python Environments** node **(4)**. Expand the node to show the available Python interpreters.
    

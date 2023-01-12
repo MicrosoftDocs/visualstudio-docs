@@ -2,8 +2,8 @@
 title: "VS for Mac: Multi-Container App with Docker Compose"
 description: Learn how to manage more than one container and communicate between them in Visual Studio for Mac
 ms.custom: SEO-VS-2020
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 07/03/2020
 ms.topic: how-to
@@ -99,7 +99,7 @@ We now have two ASP.NET projects in our solution and both are configured with Do
 
       <div class="text-center">
           <h1 class="display-4">Welcome</h1>
-          <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+          <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
           <p>@ViewData["Message"]</p>
       </div>
       ```

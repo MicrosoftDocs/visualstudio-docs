@@ -2,7 +2,7 @@
 title: Connect to projects in Team Explorer
 description: Learn how to use Team Explorer in Visual Studio to work with team members to develop and manage projects.
 ms.custom: SEO-VS-2020
-ms.date: 11/11/2021
+ms.date: 11/02/2022
 ms.topic: conceptual
 ms.author: tglee
 author: TerryGLee
@@ -13,10 +13,9 @@ monikerRange: "<=vs-2019"
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-
 ::: moniker range="vs-2019"
 
-Team Explorer connects Visual Studio 2019 and earlier to Team Foundation version control (TFVC) repositories, and to projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops) or an on-premises [Azure DevOps Server](/azure/devops/user-guide/about-azure-devops-services-tfs?view=azure-devops&preserve-view=true) (formerly known as TFS). You can manage source code, work items, and builds.
+Team Explorer connects Visual Studio 2019 and earlier to Team Foundation version control (TFVC) repositories, and to projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops) or an on-premises [Azure DevOps Server](/azure/devops/user-guide/about-azure-devops-services-tfs?view=azure-devops&preserve-view=true) (formerly known as Team Foundation Server, or TFS). You can manage source code, work items, and builds.
 
 > [!IMPORTANT]
 > With the release of Visual Studio 2019 [**version 16.8**](/visualstudio/releases/2019/release-notes-history), the Git version control experience is on by default. If you'd like to learn more about how it compares with Team Explorer, see the [**Side-by-side comparison of Git and Team Explorer**](../version-control/git-team-explorer-feature-comparison.md) page.
@@ -91,11 +90,9 @@ How you use Team Explorer to connect to a project depends on the version of Visu
 
 ::: moniker-end
 
+## Next steps
 
-## See also
+Explore the following resources to continue your learning:
 
-- [Compare Git and Team Explorer side-by-side](../version-control/git-team-explorer-feature-comparison.md)
-- [Visual Studio version control documentation](../version-control/index.yml)
 - [Team Explorer reference](reference/team-explorer-reference.md)
-- [Connect to a project (Azure DevOps)](/azure/devops/organizations/projects/connect-to-projects)
-- [Troubleshoot connecting to a project](/azure/devops/user-guide/troubleshoot-connection?view=azure-devops&preserve-view=true)
+- [Compare Git and Team Explorer side-by-side](../version-control/git-team-explorer-feature-comparison.md)

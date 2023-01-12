@@ -2,7 +2,7 @@
 title: C# unit test tutorial
 description: Learn how to create, run, and customize a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio Test Explorer.
 ms.custom: SEO-VS-2020
-ms.date: 12/01/2021
+ms.date: 12/13/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - unit tests, walkthrough
@@ -25,9 +25,6 @@ This article steps you through creating, running, and customizing a series of un
 
 ## Create a project to test
 
-
-::: moniker range=">=vs-2019"
-
 1. Open Visual Studio.
 
 2. On the start window, choose **Create a new project**.
@@ -45,8 +42,6 @@ This article steps you through creating, running, and customizing a series of un
 
    > [!NOTE]
    > If *Program.cs* is not open in the editor, double-click the file *Program.cs* in **Solution Explorer** to open it.
-
-::: moniker-end
 
 5. Replace the contents of *Program.cs* with the following C# code that defines a class, *BankAccount*:
 
@@ -131,9 +126,6 @@ You now have a project with methods you can test. In this article, the tests foc
    > [!TIP]
    > You can also right-click on the solution in **Solution Explorer** and choose **Add** > **New Project**.
 
-
-::: moniker range=">=vs-2019"
-
 2. Type **test** in the search box, select **C#** as the language, and then select the C# **MSTest Unit Test Project (.NET Core)** for .NET Core template, and then click **Next**.
 
    > [!NOTE]
@@ -144,8 +136,6 @@ You now have a project with methods you can test. In this article, the tests foc
 4. Choose either the recommended target framework or .NET 6, and then choose **Create**.
 
    The **BankTests** project is added to the **Bank** solution.
-
-::: moniker-end
 
 5. In the **BankTests** project, add a reference to the **Bank** project.
 
@@ -163,12 +153,7 @@ Create a test class to verify the `BankAccount` class. You can use the *UnitTest
 
 1. To rename the file, in **Solution Explorer**, select the *UnitTest1.cs* file in the BankTests project. From the right-click menu, choose **Rename** (or press **F2**), and then rename the file to *BankAccountTests.cs*.
 
-
-::: moniker range=">=vs-2019"
-
 2. To rename the class, position the cursor on `UnitTest1` in the code editor, right-click, and then choose **Rename** (or press **F2**). Type in **BankAccountTests** and then press **Enter**.
-
-::: moniker-end
 
 The *BankAccountTests.cs* file now contains the following code:
 
@@ -272,7 +257,7 @@ A test method must meet the following requirements:
 
 ## Fix your code and rerun your tests
 
-The test result contains a message that describes the failure. For the `AreEqual` method, the message displays what was expected and what was actually received. You expected the balance to decrease, but instead it increased by the amount of the withdrawal.
+The test result contains a message that describes the failure. You may need to drill down to see this message. For the `AreEqual` method, the message displays what was expected and what was actually received. You expected the balance to decrease, but instead it increased by the amount of the withdrawal.
 
 The unit test has uncovered a bug: the amount of the withdrawal is *added* to the account balance when it should be *subtracted*.
 

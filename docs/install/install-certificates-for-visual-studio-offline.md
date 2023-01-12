@@ -29,12 +29,7 @@ There are three options for installing or updating certificates in an offline en
 
 ### Option 1 - Manually install certificates from a layout folder
 
-
-::: moniker range=">=vs-2019"
-
 When you create a [network layout](../install/create-a-network-installation-of-visual-studio.md) or a [local offline cache](../install/create-an-offline-installation-of-visual-studio.md), the necessary certificates are downloaded to the Certificates folder. You can manually install the certificates by right-clicking each of the certificate files, selecting Install Certificate, and then clicking through the Certificate Manager wizard. If asked for a password, leave it blank.
-
-::: moniker-end
 
 ### Option 2 - Distribute trusted root certificates in an enterprise environment
 
@@ -88,7 +83,7 @@ One way to check on the installing system is to follow these steps:
 1. Run **mmc.exe**.<br/>
   a. Click **File**, and then select **Add/Remove Snap-in**.<br/>
   b. Double-click **Certificates**, select **Computer account**, and then click **Next**.<br/>
-  c. Select **Local computer**, click **Finish**, and then click **OK**.<br/>
+  c. Select **Local computer**, and then click **Finish**.<br/>
   d. Expand **Certificates (Local Computer)**.<br/>
   e. Expand **Trusted Root Certification Authorities**, and then select **Certificates**.<br/>
     * Check this list for the necessary root certificates.<br/>
@@ -97,7 +92,7 @@ One way to check on the installing system is to follow these steps:
     * Check this list for the required intermediate certificates.<br/>
 
 2. Click **File**, and then select **Add/Remove Snap-in**.<br/>
-  a. Double-click **Certificates**, select **My user account**, click **Finish**, and then click **OK**.<br/>
+  a. Double-click **Certificates**, select **My user account**, and then click **Finish**.<br/>
   b. Expand **Certificates – Current User**.<br/>
   c. Expand **Intermediate Certification Authorities**, and then select **Certificates**.<br/>
     * Check this list for the required intermediate certificates.<br/>
