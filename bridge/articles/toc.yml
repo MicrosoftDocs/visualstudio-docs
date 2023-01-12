@@ -2,6 +2,8 @@
   href: index.yml
 - name: Overview
   href: overview-bridge-to-kubernetes.md
+- name: Changelog
+  href: https://github.com/Azure/Bridge-To-Kubernetes/blob/main/CHANGELOG.md
 - name: Visual Studio
   expanded: true
   items:
