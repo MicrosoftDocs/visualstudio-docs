@@ -24,7 +24,7 @@
   href: configure-bridge-to-kubernetes.md
 - name: Use Azure AD managed identities
   href: managed-identity.md
-  - name: Resources
+- name: Resources
   expanded: true
   items:
   - name: Changelog
