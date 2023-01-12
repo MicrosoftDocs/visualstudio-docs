@@ -2,8 +2,6 @@
   href: index.yml
 - name: Overview
   href: overview-bridge-to-kubernetes.md
-- name: Changelog
-  href: https://github.com/Azure/Bridge-To-Kubernetes/blob/main/CHANGELOG.md
 - name: Visual Studio
   expanded: true
   items:
@@ -26,3 +24,8 @@
   href: configure-bridge-to-kubernetes.md
 - name: Use Azure AD managed identities
   href: managed-identity.md
+  - name: Resources
+  expanded: true
+  items:
+  - name: Changelog
+    href: https://github.com/Azure/Bridge-To-Kubernetes/blob/main/CHANGELOG.md
