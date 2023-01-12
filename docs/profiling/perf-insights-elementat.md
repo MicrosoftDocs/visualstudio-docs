@@ -2,13 +2,13 @@
 title: Perf insights for Enumerable.ElementAt
 description: Learn how to improve performance for Enumerable.ElementAt.
 ms.date: 01/11/2023
-ms.topic: reference<xref:System.Collections.Generic>
+ms.topic: reference
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload: 
-  - multiple<xref:System.Collections.IList>
+  - multiple
 ---
 
 # Slow Enumerable.ElementAt lookup
@@ -17,11 +17,11 @@ This article describes performance insights for <xref:System.Linq.Enumerable.Ele
 
 ## Cause
 
-Using the `Enumerable.ElementAt` extension method will attempt to leverage the underlying containers fast lookup mechanism if available, such as <xref:System.Collections.Generic.List%601.system-collections-ilist-item>, which has O(1) access. If unavailable, the method evaluates the enumerable starting at the beginning of the collection and enumerates to the desired element resulting in O(n) access.
+When using the `Enumerable.ElementAt` extension method, the method attempts to leverage the underlying container's fast lookup mechanism if available, such as <xref:System.Collections.Generic.List%601.system-collections-ilist-item>, which has O(1) access. If unavailable, the method evaluates the enumerable starting at the beginning of the collection and enumerates to the desired element resulting in O(n) access.
 
 ## Performance insight description
 
-The `Enumerable.ElementAt` extension method is designed to try and use the fastest access available to access the specified element. For underlying collections such as <xref:System.Collections.Generic.List%601>, it can use `List.Item[]` direct access, which has O(1) access time. If the underlying collection doesn't support direct access such as <xref:System.Collections.Generic.LinkedList%601> or <xref:System.Collections.Generic.IEnumerable%601>[IEnumerable] from a [yield statement](/dotnet/csharp/language-reference/statements/yield), it must start at the beginning of the collection and iterate through to the desired index resulting in O(n) lookup time. If this warning fires, utilizing a better collection can result in better performance.
+The `Enumerable.ElementAt` extension method is designed to try and use the fastest access available to access the specified element. For underlying collections such as <xref:System.Collections.Generic.List%601>, it can use `List.Item[]` direct access, which has O(1) access time. If the underlying collection doesn't support direct access such as <xref:System.Collections.Generic.LinkedList%601> or <xref:System.Collections.Generic.IEnumerable%601> from a [yield statement](/dotnet/csharp/language-reference/statements/yield), it must start at the beginning of the collection and iterate through to the desired index, resulting in O(n) lookup time. If this warning fires, utilizing a better collection can result in better performance.
 
 ## How to investigate a warning
 
