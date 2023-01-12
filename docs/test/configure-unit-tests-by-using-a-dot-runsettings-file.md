@@ -321,10 +321,10 @@ These settings are specific to the test adapter that runs test methods that have
 |**SettingsFile**||You can specify a test settings file to use with the MSTest adapter here. You can also specify a test settings file [from the settings menu](#specify-a-run-settings-file-in-the-ide).<br /><br />If you specify this value, you must also set the **ForcedLegacyMode** to **true**.<br /><br />`<ForcedLegacyMode>true</ForcedLegacyMode>`|
 |**DeploymentEnabled**|true|If you set the value to **false**, deployment items that you've specified in your test method aren't copied to the deployment directory.|
 |**CaptureTraceOutput**|true|You can write to the debug trace from your test method using <xref:System.Diagnostics.Trace.WriteLine%2A?displayProperty=nameWithType>.|
-|**EnableBaseClassTestMethodsFromOtherAssemblies**|true|a value indicating whether to enable discovery of test methods from base classes in a different assembly from the inheriting test class.|
-|**ClassCleanupLifecycle**|EndOfClass|If you want the class cleanup to occer at the end of assimbly set it to **EndOfAssembly**.|
-|**MapNotRunnableToFailed**|true|A value indicating whether a not runnable result be mapped to failed test.|
-|**Parallelize**||You will need to use it to set the parallelization settings:<br /><br />**Workers**: the number of threads/workers to be used for parallelization and it is by default **the number of processors on the current machine**.<br /><br />**SCOPE**: the scope of parallelization, you can set it to **MethodLevel** and by default it's **ClassLevel**.<br /><br />`<Parallelize><Workers>32</Workers><Scope>MethodLevel</Scope></Parallelize>`|
+|**EnableBaseClassTestMethodsFromOtherAssemblies**|true|A value indicating whether to enable discovery of test methods from base classes in a different assembly from the inheriting test class.|
+|**ClassCleanupLifecycle**|EndOfClass|If you want the class cleanup to occur at the end of assembly, set this to **EndOfAssembly**.|
+|**MapNotRunnableToFailed**|true|A value indicating whether a not runnable result will be mapped to failed test.|
+|**Parallelize**||You will need to use it to set the parallelization settings:<br /><br />**Workers**: The number of threads/workers to be used for parallelization, which is by default **the number of processors on the current machine**.<br /><br />**SCOPE**: The scope of parallelization. You can set it to **MethodLevel**. By default, it's **ClassLevel**.<br /><br />`<Parallelize><Workers>32</Workers><Scope>MethodLevel</Scope></Parallelize>`|
 |**TestTimeout**|0|Gets specified global test case timeout.|
 |**TreatClassAndAssemblyCleanupWarningsAsErrors**|false|To see your failures in class cleanups as errors, set this value to **true**.|
 |**DeployTestSourceDependencies**|true|A value indicating whether the test source references are to deployed.|
