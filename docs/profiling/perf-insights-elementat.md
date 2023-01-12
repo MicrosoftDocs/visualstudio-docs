@@ -17,7 +17,7 @@ This article describes performance insights for <xref:System.Linq.Enumerable.Ele
 
 ## Cause
 
-When using the `Enumerable.ElementAt` extension method, the method attempts to leverage the underlying container's fast lookup mechanism if available, such as <xref:System.Collections.Generic.List%601.System#Collections#IList#Item*?displayProperty=nameWithType>, which has O(1) access. If unavailable, the method evaluates the enumerable starting at the beginning of the collection and enumerates to the desired element resulting in O(n) access.
+When using the `Enumerable.ElementAt` extension method, the method attempts to leverage the underlying container's fast lookup mechanism if available, such as <xref:System.Collections.Generic.List%601.Item*?displayProperty=nameWithType>, which has O(1) access. If unavailable, the method evaluates the enumerable starting at the beginning of the collection and enumerates to the desired element resulting in O(n) access.
 
 ## Performance insight description
 
