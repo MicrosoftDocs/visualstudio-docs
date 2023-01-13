@@ -27,5 +27,5 @@
 - name: Resources
   expanded: true
   items:
-  - name: Changelog
+  - name: Release Notes
     href: https://github.com/Azure/Bridge-To-Kubernetes/blob/main/CHANGELOG.md
