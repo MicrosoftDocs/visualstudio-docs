@@ -26,6 +26,7 @@ Just-In-Time debugging works for Windows desktop apps. It does not work for Univ
 
 ## <a name="BKMK_Enabling"></a> Enable or disable Just-In-Time debugging in Visual Studio
 
+
 >[!NOTE]
 >To enable or disable Just-In-Time debugging, you must be running Visual Studio as an administrator. Enabling or disabling Just-In-Time debugging sets a registry key, and administrator privileges may be required to change that key. To open Visual Studio as an administrator, right-click the Visual Studio app and choose **Run as administrator**.
 
@@ -36,6 +37,10 @@ You can configure Just-In-Time debugging from the Visual Studio **Tools** > **Op
 1. On the **Tools** or **Debug** menu, select **Options** > **Debugging** > **Just-In-Time**.
 
    ![Enable or disable JIT debugging](../debugger/media/dbg-jit-enable-or-disable.png "Enable or disable JIT debugging")
+
+
+>[!NOTE]
+>If the Just-In-Time menu option is not shown ensure the Just-In-Time debugger is installed using the Visual Studio Installer.
 
 1. In the **Enable Just-In-Time debugging for these types of code** box, select the types of code you want Just-In-Time debugging to debug: **Managed**, **Native**, and/or **Script**.
 
