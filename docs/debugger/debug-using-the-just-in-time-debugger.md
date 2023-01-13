@@ -40,7 +40,7 @@ You can configure Just-In-Time debugging from the Visual Studio **Tools** > **Op
 
 
 >[!NOTE]
->If the Just-In-Time menu option is not shown ensure the Just-In-Time debugger is installed using the Visual Studio Installer.
+>If the Just-In-Time menu option is not shown, make sure the Just-In-Time debugger is installed using the Visual Studio Installer.
 
 1. In the **Enable Just-In-Time debugging for these types of code** box, select the types of code you want Just-In-Time debugging to debug: **Managed**, **Native**, and/or **Script**.
 
