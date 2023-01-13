@@ -85,7 +85,7 @@ If **Report a problem** is initiated from Visual Studio, we collect one or more 
 
 ## GDPR Data Subject Request processing
 
-We support [General Data Protection Regulation (GDPR)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) and other data protection regulation requests through the [Developer Community](https://developercommunity.visualstudio.com/) website. You can View, Export, or Delete your feedback data.
+We support [General Data Protection Regulation (GDPR)](https://commission.europa.eu/law/law-topic/data-protection/data-protection-eu_en) and other data protection regulation requests through the [Developer Community](https://developercommunity.visualstudio.com/) website. You can View, Export, or Delete your feedback data.
 
 ### View
 
