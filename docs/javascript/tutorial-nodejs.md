@@ -9,6 +9,7 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-javascript
+monikerRange: '>= vs-2022'
 dev_langs:
   - JavaScript
 ms.workload:
