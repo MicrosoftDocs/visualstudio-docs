@@ -48,6 +48,10 @@
           href: perf-insights-string-concatenation.md
         - name: Regex
           href: perf-insights-regex.md
+        - name: ElementAt
+          href: perf-insights-elementat.md
+        - name: Contains
+          href: perf-insights-contains.md
   - name: File IO
     href: use-file-io.md
   - name: Memory usage
