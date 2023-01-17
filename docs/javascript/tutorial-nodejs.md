@@ -103,17 +103,17 @@ You should see the debugger pause at the breakpoint you just set. While it is pa
 
 When you're finished inspecting the state, hit **F5** to continue, and your app should load as expected. 
 
-This time, if you hit stop, you will notice that both the browser and the command prompt windows close. To see why, let us take a closer look at the *launch.json*.
+This time, if you hit stop, you will notice that both the browser and the command prompt windows close. To see why, take a closer look at the *launch.json*.
 
 ### Understanding the *launch.json*
 
 The *launch.json* is currently located in the *.vscode* folder. If you cannot see the *.vscode* folder in **Solution Explorer**, select **Show All Files**. 
 
-If you have worked with vscode before, the launch.json file will look familiar. The launch.json here works in much the same way as it does in vscode to denote launch configurations used for debugging. Each entry specifies one or more targets to be debugged. 
+If you have worked with Visual Studio Code before, the *launch.json* file will look familiar. The *launch.json* here works in much the same way as it does in Visual Studio Code to denote launch configurations used for debugging. Each entry specifies one or more targets to be debugged. 
 
 The first two entries are browser entries, and they should look something like this:
 
-```
+```json
     {
       "name": "localhost (Edge)",
       "type": "edge",
@@ -134,12 +134,12 @@ You can see in the above entries that the `type` is set to a browser type. If yo
 
 Upon stopping the session, the Node process will also continue to run. It is intentionally left running when a browser is the debug target, because if work is solely being done on the frontend, having the backend process continuously running eases the development workflow.
 
-At the start of [this section](#debug-your-app), we asked you to close the lingering command prompt window in order to set breakpoints in the Node process. In order for the Node process to be debuggable, it must be restarted with the debugger attached. If a non-debuggable Node process is left running, attempting to launch the Node process in debug mode (without reconfiguring the port) **will fail**. 
+At the start of [this section](#debug-your-app), you closed the lingering command prompt window in order to set breakpoints in the Node process. For the Node process to be debuggable, it must be restarted with the debugger attached. If a non-debuggable Node process is left running, attempting to launch the Node process in debug mode (without reconfiguring the port) **will fail**. 
 
 > [!NOTE]
 > Currently, `edge` and `chrome` are the only supported browser types for debugging.
 
-The third entry in the launch.json specifies `node` as the debug type, and it should look something like this:
+The third entry in the *launch.json* specifies `node` as the debug type, and it should look something like this:
 
 ```
     {
@@ -154,7 +154,7 @@ The third entry in the launch.json specifies `node` as the debug type, and it sh
 
 This entry will launch only the Node process in debug mode. No browser will be launched.
 
-The fourth entry provided in the launch.json is the following compound launch configuration.
+The fourth entry provided in the "launch.json* is the following compound launch configuration.
 
 ```
     {
@@ -166,7 +166,7 @@ The fourth entry provided in the launch.json is the following compound launch co
     }
 ```
 
-This compound configuration is the same as a [vscode compound launch configuration](https://code.visualstudio.com/docs/editor/debugging#_compound-launch-configurations), and selecting it will allow you to debug both the frontend and backend. You can see that it simply references the individual launch configurations for the Node and browser processes. 
+This compound configuration is the same as a [vscode compound launch configuration](https://code.visualstudio.com/docs/editor/debugging#_compound-launch-configurations), and selecting it allows you to debug both the frontend and backend. You can see that it simply references the individual launch configurations for the Node and browser processes. 
 
 There are many other attributes you can use in a launch configuration. For example, you can hide a configuration from the dropdown, but still have it be referencable, by setting the `hidden` attribute in the `presentation` object to `true`.
 
@@ -183,4 +183,4 @@ There are many other attributes you can use in a launch configuration. For examp
     }
 ```
 
-Click [here](https://github.com/microsoft/vscode-js-debug/blob/main/OPTIONS.md) for a list of attributes you can use to enhance your debugging experience. Please note that at the moment, only **launch** configurations are supported. Any attempt to use an **attach** configuration will result in a deployment failure.
+Click [Options](https://github.com/microsoft/vscode-js-debug/blob/main/OPTIONS.md) for a list of attributes you can use to enhance your debugging experience. Please note that at the moment, only **launch** configurations are supported. Any attempt to use an **attach** configuration will result in a deployment failure.
