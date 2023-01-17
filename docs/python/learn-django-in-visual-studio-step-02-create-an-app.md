@@ -93,13 +93,13 @@ At this point, if you run the project again in Visual Studio (using the toolbar 
 1. In the *BasicProject* folder (created in step 1), modify the *urls.py* file to match the following code (you can keep the instructive comment, if you like):
 
     ```python
-    from django.conf.urls import include, url
+    from django.urls import include, re_path
     import HelloDjangoApp.views
 
     # Django processes URL patterns in the order they appear in the array
     urlpatterns = [
-        url(r'^$', HelloDjangoApp.views.index, name='index'),
-        url(r'^home$', HelloDjangoApp.views.index, name='home'),
+        re_path(r'^$', HelloDjangoApp.views.index, name='index'),
+        re_path(r'^home$', HelloDjangoApp.views.index, name='home')
     ]
     ```
 
