@@ -2,9 +2,8 @@
 title: Diagnose high latency with CPU Insights
 description: Use CPU Insights to diagnose and optimize your code's performance
 ms.custom: SEO-VS-2020
-ms.date: 07/14/2022
+ms.date: 01/10/2023
 ms.topic: how-to
-ms.assetid: 7501a20d-04a1-480f-a69c-201524aa709d
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
@@ -15,15 +14,19 @@ ms.workload:
 ---
 # Diagnose high latency with CPU Insights
 
-**CPU Insights** is a subfeature of the CPU Usage tool that shows common potential latency issues like concatenating strings inefficiently.
+**CPU Insights** is a sub-feature of the CPU Usage tool that shows common potential latency issues like concatenating strings inefficiently.
 
-## Viewing Top Insights
+## View top insights
 
 The **Top Insights** section in the CPU Usage tool shows quick CPU details, insights, and suggestions in the description so that you can continue diagnosing the issue. The **Learn more** link shows you in-depth documentation that explains your issue. If you need more information, **View source code** shows more details. Once selected, you can see the call tree view, showing the process, functions, and which callers use the most CPU.
 
 ![Screenshot showing Top Insights selected.](./media/vs-2022/top-insights.png "Top Insights selected")
 
+## View top functions
+
 On the summary page under **Top Functions**, you can find the top functions called with the time spent in descending order. **Total CPU** time is the amount of time spent inside a function, including any functions it calls, whereas **Self CPU** is time spent exclusively in the function.
+
+## View the hot path
 
 **Hot Path** shows where most of the CPU time was being spent in your application and helps focus investigation on the area that would have the most impact. Analyzing this code path by using other tools in the Performance Profiler can help identify ways to improve the code as well. For example, it may help identify how to minimize allocations on the hot path to reduce GC frequency and time spent in GC.
 
