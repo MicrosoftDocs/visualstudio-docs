@@ -171,7 +171,7 @@ The following steps add an "About" page to the "HelloDjangoApp" project, and lin
 1. Open the Django project's *urls.py* file and add the following line to the `urlPatterns` array:
 
     ```python
-    url(r'^about$', HelloDjangoApp.views.about, name='about'),
+    re_path(r'^about$', HelloDjangoApp.views.about, name='about'),
     ```
 
 1. Open the *templates/HelloDjangoApp/index.html* file and add the following line below the `<body>` element to link to the About page (you'll again replace this link with a nav bar in step 3-4):
