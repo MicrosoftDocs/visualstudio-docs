@@ -168,7 +168,7 @@ The fourth entry provided in the "launch.json* is the following compound launch 
 
 This compound configuration is the same as a [vscode compound launch configuration](https://code.visualstudio.com/docs/editor/debugging#_compound-launch-configurations), and selecting it allows you to debug both the frontend and backend. You can see that it simply references the individual launch configurations for the Node and browser processes. 
 
-There are many other attributes you can use in a launch configuration. For example, you can hide a configuration from the dropdown, but still have it be referencable, by setting the `hidden` attribute in the `presentation` object to `true`.
+There are many other attributes you can use in a launch configuration. For example, you can hide a configuration from the dropdown, but still have it be referenceable, by setting the `hidden` attribute in the `presentation` object to `true`.
 
 ```
     {
