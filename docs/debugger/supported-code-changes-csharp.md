@@ -1,14 +1,12 @@
 ---
 title: "Supported Code Changes (C# and Visual Basic) | Microsoft Docs"
 description: Understand what code changes are supported when you are using the Edit and Continue feature while debugging a C# or Visual Basic project in Visual Studio.
-ms.custom: SEO-VS-2020
-ms.date: "9/03/2020"
+ms.date: "01/18/2023"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
-  - "C++"
 helpviewer_keywords:
   - "Edit and Continue [C#], supported code changes"
   - "Edit and Continue [Visual Basic], supported code changes"
@@ -41,7 +39,16 @@ The table below shows the changes that may be made to C# and Visual Basic code d
 > [!NOTE]
 > Newer language features such as string interpolation and null-conditional operators are generally supported by Edit and Continue. For the most current information, see the [Enc Supported Edits](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) page.
 
+## .NET 6+ improvements
+
+Improvements in .NET 6+ and Visual Studio 2022 and later versions include support for additional types of edits that go beyond what was originally possible in older versions of Visual Studio. Improvements include:
+
+[!INCLUDE [dotnet-hot-reload-and-edit-continue](../debugger/includes/dotnet-hot-reload-and-edit-continue.md)]
+
+The preceding improvements are available to both Hot Reload and the Edit and Continue experiences.
+
 ## Unsupported changes to code
+
  The following changes cannot be applied to C# and Visual Basic code during a debugging session:
 
 - Changes to the current statement or any other active statement.
