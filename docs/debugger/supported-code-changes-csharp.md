@@ -39,6 +39,8 @@ The table below shows the changes that may be made to C# and Visual Basic code d
 > [!NOTE]
 > Newer language features such as string interpolation and null-conditional operators are generally supported by Edit and Continue. For the most current information, see the [Enc Supported Edits](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md) page.
 
+::: moniker range=">=vs-2022"
+
 ## .NET 6+ improvements
 
 Improvements in .NET 6+ and Visual Studio 2022 and later versions include support for additional types of edits that go beyond what was originally possible in older versions of Visual Studio. Improvements include:
@@ -46,6 +48,7 @@ Improvements in .NET 6+ and Visual Studio 2022 and later versions include suppor
 [!INCLUDE [dotnet-hot-reload-and-edit-continue](../debugger/includes/dotnet-hot-reload-and-edit-continue.md)]
 
 The preceding improvements are available to both Hot Reload and the Edit and Continue experiences.
+::: moniker-end
 
 ## Unsupported changes to code
 
