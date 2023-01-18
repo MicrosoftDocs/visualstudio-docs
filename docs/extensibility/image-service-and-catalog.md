@@ -430,13 +430,13 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
    <Include href="KnownImageIds.vsct"/>
    ```
 
-   **How do I use image monikers in an existing tool window?**
+## How do I use image monikers in an existing tool window?
 
-   Updating an existing tool window to use image monikers is similar to the steps for creating a new tool window.
+Updating an existing tool window to use image monikers is similar to the steps for creating a new tool window.
 
-   These are the key places to use monikers in a tool window. Follow the instructions for each:
+These are the key places to use monikers in a tool window. Follow the instructions for each:
 
-3. The tool window tab when the tabs get small enough (also used in the **Ctrl**+**Tab** window switcher).
+1. The tool window tab when the tabs get small enough (also used in the **Ctrl**+**Tab** window switcher).
 
    1. Remove these lines (if they exist) in the constructor for the class that derives from the **ToolWindowPane** type:
 
@@ -447,7 +447,7 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
 
    2. See step #1 of the "How do I use image monikers in a new tool window?" section above.
 
-4. The command to open the tool window.
+2. The command to open the tool window.
 
    - See step #2 of the "How do I use image monikers in a new tool window?" section above.
 

@@ -27,7 +27,7 @@ To access the **Advanced Settings for Services** dialog box, select a project no
 
 ## Task List
 
-- [How to: Configure Client Application Services](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services)
+- [How to: Configure Client Application Services](/previous-versions/visualstudio/visual-studio-2010/bb384312\(v=vs.100\))
 
 ## UIElement List
 
@@ -43,10 +43,10 @@ Specifies the amount of time the client role provider will use cached role value
 The role provider accesses the cached role values or the roles service when you call the <xref:System.Web.Security.RolePrincipal.IsInRole%2A> method. To programmatically clear the cache and force this method to access the remote service, call the <xref:System.Web.ClientServices.Providers.ClientRoleProvider.ResetCache%2A> method.
 
  **Use custom connection string**
-Specifies whether the client service providers will use a custom data store for the local cache. By default, the service providers will use the local file system for the cache. Selecting this option will automatically populate the text box with a default connection string. You can keep the default connection string to automatically generate and use a SQL Server Compact Edition database, or you can specify a connection string to an existing SQL Server database. For more information, see [How to: Configure Client Application Services](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services). This option is cleared by default.
+Specifies whether the client service providers will use a custom data store for the local cache. By default, the service providers will use the local file system for the cache. Selecting this option will automatically populate the text box with a default connection string. You can keep the default connection string to automatically generate and use a SQL Server Compact Edition database, or you can specify a connection string to an existing SQL Server database. For more information, see [How to: Configure Client Application Services](/previous-versions/visualstudio/visual-studio-2010/bb384312\(v=vs.100\)). This option is cleared by default.
 
 ## See also
 
 - [Client Application Services](/dotnet/framework/common-client-technologies/client-application-services)
 - [Services Page, Project Designer](../../ide/reference/services-page-project-designer.md)
-- [How to: Configure Client Application Services](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services)
+- [How to: Configure Client Application Services](/previous-versions/visualstudio/visual-studio-2010/bb384312\(v=vs.100\))

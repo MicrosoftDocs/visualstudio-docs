@@ -3,7 +3,7 @@ title: "Edit and Continue Dialog Box (C++) | Microsoft Docs"
 description: Edit and Continue may report that it couldn't apply your code changes. Learn why this can happen and what you can do.
 ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.ENC.failed.commit"
   - "vs.debug.ENC.failed.build"

@@ -100,4 +100,4 @@ No.  GitHub Enterprise is currently available to organizations who purchase usin
 
 ## Next steps
 
-If you're new to GitHub, check out the [GitHub Learning Lab](https://lab.github.com/), which takes you through a series of fun and practical projects, sharing helpful feedback along the way.
+If you're new to GitHub, check out the [GitHub Learning Lab](https://github.com/apps/github-learning-lab), which takes you through a series of fun and practical projects, sharing helpful feedback along the way.

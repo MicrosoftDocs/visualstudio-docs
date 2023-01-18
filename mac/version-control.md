@@ -29,14 +29,6 @@ To learn more about the Git tooling in Visual Studio for Mac, the following arti
 * [Working with Git](working-with-git.md)
 ::: moniker-end
 
-::: moniker range="vsmac-2019"
-Visual Studio for Mac provides support for both Git and Subversion version control systems. The following articles explore setting up Git and Subversion repositories through Visual Studio for Mac, as well as simple functionality such as reviewing, committing, and pushing changes.
-
-* [Setting Up a Git Repository](set-up-git-repository.md)
-* [Working with Git](working-with-git.md)
-* [Setting Up a Subversion Repository](set-up-subversion-repository.md)
-* [Working with Subversion](working-with-subversion.md)
-::: moniker-end
 
 ## See also
 

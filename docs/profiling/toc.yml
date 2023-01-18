@@ -4,6 +4,8 @@
   items:
   - name: First look at profiling tools
     href: profiling-feature-tour.md
+  - name: Which tool should I use?
+    href: choose-performance-tool.md
   - name: Run profiling tools with or without the debugger
     href: running-profiling-tools-with-or-without-the-debugger.md
 - name: Tutorials
@@ -48,6 +50,10 @@
           href: perf-insights-string-concatenation.md
         - name: Regex
           href: perf-insights-regex.md
+        - name: ElementAt
+          href: perf-insights-elementat.md
+        - name: Contains
+          href: perf-insights-contains.md
   - name: File IO
     href: use-file-io.md
   - name: Memory usage

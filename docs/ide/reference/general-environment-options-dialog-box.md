@@ -2,7 +2,7 @@
 title: General, Environment, Options Dialog Box
 description: Learn how to use the General page in the Environment section to change color themes, status bar settings, file extension associations, and more for the IDE.
 ms.custom: SEO-VS-2020
-ms.date: 08/24/2022
+ms.date: 01/10/2023
 ms.topic: reference
 f1_keywords:
 - VS.Environment.General
@@ -55,6 +55,10 @@ After you install this tool, additional color themes appear in the **Color Theme
 > [!NOTE]
 > Want even more themes to choose from? Check out the wide range of custom themes on the [**Visual Studio Marketplace**](https://marketplace.visualstudio.com/search?target=VS&category=Tools&vsVersion=&subCategory=Themes&sortBy=Installs). And to see examples of new Visual Studio 2022 custom themes based on VS Code, take a look at the [**Introducing a collection of new Visual Studio themes**](https://devblogs.microsoft.com/visualstudio/custom-themes/) blog post.
 
+**Use Windows High Contrast settings**
+
+By default, Visual Studio uses the [Windows High Contrast](/windows/compatibility/high-contrast-mode/) settings. You can toggle this off but you must then restart your computer.
+
 ::: moniker-end
 
 **Apply title case styling to menu bar**
@@ -102,6 +106,14 @@ Specifies that when the **Close** button is clicked, only the tool window that h
 **Auto Hide button affects active tool window only**
 
 Specifies that when the **Auto Hide** button is clicked, only the tool window that has focus is hidden automatically and not all of the tool windows in the docked set. By default, this option is not selected.
+
+::: moniker range=">=vs-2022"
+
+**On startup, open**
+
+Customizes a different default action when Visual Studio starts up. In the **On startup, open** list, choose from **Start window** (which lets you open a new or existing project), **Most recent solution**, or **Empty environment**.
+
+::: moniker-end
 
 ## See also
 
