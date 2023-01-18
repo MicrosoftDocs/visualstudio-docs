@@ -35,6 +35,7 @@ List of all out-of-support components in Visual Studio.
 - .NET Core 2.2 Runtime
 - .NET Core 3.0 Runtime
 - .NET Core 3.1 Runtime
+- .NET SDK
 - Development Tools plus .NET Core 2.1
 - Web Development Tools plus .NET Core 2.1
 - C++ Windows XP Support for VS 2017 (v141) tools (Deprecated)
@@ -57,3 +58,6 @@ List of all out-of-support components in Visual Studio.
 - Python 3 64-bit (3.6.6)
 - IronPython
 - Cookiecutter template support
+
+## See also
+[.NET and .NET Core Support Policy](https://dotnet.microsoft.com/platform/support/policy/dotnet-core#cadence)
