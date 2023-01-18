@@ -288,7 +288,7 @@ The following steps demonstrate inheritance:
     ```html
     {% extends "HelloDjangoApp/layout.html" %}
     ```
-4. Then using inheritance, implement the template within the body tag to override the content block:
+4. Then, using inheritance, implement the template within the body tag to override the content block:
     ```html
     {% block content %}
     {{ content }}
