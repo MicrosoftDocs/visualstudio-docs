@@ -1,7 +1,7 @@
 ---
 title: "View  data with the Tabular visualizer  | Microsoft Docs"
 description: Use tabular visualizer in Visual Studio debugger.
-ms.date: "04/08/2022"
+ms.date: "01/19/2023"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
