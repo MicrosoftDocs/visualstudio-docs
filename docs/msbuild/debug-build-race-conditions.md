@@ -1,10 +1,10 @@
 ---
-title: 'How to: Debug build race conditions'
+title: 'How to: Diagnose and resolve build race conditions'
 description: Learn how to diagnose and fix race conditions in your MSBuild parallel builds.
-ms.date: 01/31/2022
+ms.date: 01/31/2023
 ms.topic: how-to
 helpviewer_keywords:
-- MSBuild, debug build race conditions
+- MSBuild, solve build race conditions
 author: ghogen
 ms.author: ghogen
 manager: jmartens
@@ -12,9 +12,13 @@ ms.technology: msbuild
 ms.workload:
 - multiple
 ---
-# How to: Debug race conditions in MSBuild project builds
+# How to: Resolve race conditions in MSBuild project builds
 
-MSBuild supports parallel builds, which improves the performance of your builds by building multiple projects in parallel in different worker node processes running on different CPU cores. The performance benefit of building in parallel can be significant, but under certain circumstances, it can introduce the risk of errors arising from race conditions. By definition, a race condition is an error arising from multiple executing threads or processes trying to use the same resource. Manifested behavior may differ from build to build when there is a race condition, because sometimes one process will be ahead of the other, and sometimes behind it by differing amounts of time. By understanding and addressing the root causes of race conditions, you can fix intermittent build failures that arise from the race conditions, such as file I/O failures.
+MSBuild supports parallel builds by running different worker node processes on different CPU cores. While there are often significant performance benefits from building in parallel, doing so can also introduce the risk of errors from race conditions.
+
+A race condition occurs when multiple executing threads or processes try to use the same resource. A race condition can manifest behavior that differs from build to build. For example, one process might be ahead or behind the other by differing amounts of time.
+
+When you understand and address the root cause of a race condition, you can fix intermittent build failures that arise from them, such as file I/O failures.
 
 Error messages that arise from race conditions always include an operating system file I/O failure, but can have different MSBuild error codes, depending on what was happening in the build when the file I/O error occurred. Some examples might look like the following on the Windows platform:
 
