@@ -134,7 +134,7 @@ But, with one small change to one of the middle layer libraries, a build race co
 </Project>
 ```
 
-The change results in two different builds of `Base`, one with `SpecialMode=true` and another without it. The error would reference the Base.dll output, for example, you might sometimes get an error that `Base.dll` could not be written "because it is being used by another process."
+The change results in two different builds of `Base`, one with `SpecialMode=true` and another without it. The error would reference the Base.dll output. For example, you might sometimes get an error that `Base.dll` could not be written "because it is being used by another process."
 
 ### ProjectReference properties conflict with global properties
 
