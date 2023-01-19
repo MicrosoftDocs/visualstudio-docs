@@ -52,7 +52,7 @@ The IEnumerable visualizer helps explore large collection objects in a more stre
 You can use the right-click context menu to customize the view:
 
 - Select **Hide Column** to hide duplicate data.
-- Select **Expand Column** to see more profound items in the complex data.
+- Select **Expand Column** to see more details items in the complex data.
 - Select **Hide Children** to get a more concise view of your data.
 
 ## Filter, sort, and export  visualizer data
