@@ -47,7 +47,7 @@ To detect such cases, look at all the `ProjectReference` elements for the projec
 
 The approach to address the problem depends on the desired outcome. Do you really need two different versions of the built project? If so, make the output folder different for the two different property configurations. If not, you can change the `ProjectReference` elements to ensure that the same properties are set differently for each reference.
 
-For detailed steps for diagnosing and fixing these, see [#diagnose-and-fix-race-conditions].
+For detailed steps for diagnosing and fixing these, see [Diagnose and fix race conditions](#diagnose-and-fix-race-conditions).
 
 #### Example
 
