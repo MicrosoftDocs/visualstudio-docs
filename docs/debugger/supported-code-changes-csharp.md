@@ -43,7 +43,7 @@ The table below shows the changes that may be made to C# and Visual Basic code d
 
 ## .NET 6+ improvements
 
-Improvements in .NET 6+ and Visual Studio 2022 and later versions include support for additional types of edits that go beyond what was originally possible in older versions of Visual Studio. Improvements include:
+Improvements in .NET 6+ and Visual Studio 2022 and later versions include support for more types of edits that go beyond what was originally possible in older versions of Visual Studio. Improvements include:
 
 [!INCLUDE [dotnet-hot-reload-and-edit-continue](../debugger/includes/dotnet-hot-reload-and-edit-continue.md)]
 
@@ -62,7 +62,7 @@ The preceding improvements are available to both Hot Reload and the Edit and Con
 
 - The following table shows unsupported changes to code by language element.
 
-|Language element/feature|Unsupported edit operation|
+|Language element or feature|Unsupported edit operation|
 |-|-|
 |All code elements|Renaming|
 |Namespaces|Add|
@@ -88,16 +88,18 @@ The preceding improvements are available to both Hot Reload and the Edit and Con
 |Iterators|Modify an iterator in a project targeting .NET Framework 4 and lower (see [details](https://github.com/dotnet/roslyn/blob/master/docs/wiki/EnC-Supported-Edits.md))|
 
 ## Unsafe code
+
  Changes to unsafe code have the same limitations as changes to safe code, with one additional restriction: Edit and Continue does not support changes to unsafe code that exits within a method that contains the `stackalloc` operator.
 
 ## Unsupported app scenarios
 
-Unsupported apps and platforms include Silverlight 5 and Windows 8.1. Unsupported scenarios in ASP.NET and ASP.NET Core include editing _.aspx_, _.ascx_, _.cshtml_, and _.razor_ files. Editing _.cshtml_, and _.razor_ files is supported in .NET 6 and later apps.
+Unsupported apps and platforms include Silverlight 5 and Windows 8.1. Unsupported scenarios in ASP.NET and ASP.NET Core include editing *_.aspx_*, *_.ascx_*, *_.cshtml_*, and *_.razor_* files. Editing *_.cshtml_* and *_.razor_* files is supported in .NET 6 and later apps.
 
 > [!NOTE]
 > Apps that are supported include UWP in Windows 10 or Windows 11, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).
 
 ## Unsupported scenarios
+
  Edit and Continue is not available in the following debugging scenarios:
 
 - Mixed-mode (native/managed) debugging.
@@ -115,5 +117,6 @@ Unsupported apps and platforms include Silverlight 5 and Windows 8.1. Unsupporte
 - Debugging an old version of your code after a new version failed to build because of build errors.
 
 ## See also
+
 - [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)
 - [How to: Use Edit and Continue (C#)](../debugger/how-to-use-edit-and-continue-csharp.md)
