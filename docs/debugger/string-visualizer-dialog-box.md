@@ -51,6 +51,16 @@ To open the string visualizer:
 
 The **Text Visualizer** shows plain text. If you need custom formatting for a C++ string, create a [Natvis visualization](../debugger/create-custom-views-of-native-objects.md).
 
+In addition , **Text Visualizer** provides  tooling and string manipulation options and allows you to decode the following text with ease.
+
+- Base64 Encode
+- Base64 Decode
+- URL Encode
+- URL Decode
+- JWT Decode
+
+Click the "String manupulation" dropdown and select the desired option to decode your data.
+
 ![Text string visualizer](../debugger/media/dbg-string-visualizer-text.png "Text string visualizer")
 
 ### JSON string data
