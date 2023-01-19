@@ -124,6 +124,8 @@ Open a command prompt with administrator privileges, navigate to the directory w
     vs_enterprise.exe --layout c:\localVSlayout --lang en-US
     ```
 
+- You can also [verify](create-a-network-installation-of-visual-studio.md?#verify-a-layout) or [fix](create-a-network-installation-of-visual-studio.md?#fix-a-layout) an offline installation.
+
 ::: moniker range="vs-2019"
 
    > [!NOTE]
