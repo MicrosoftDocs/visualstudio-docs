@@ -3,7 +3,7 @@ title: Troubleshooting ClickOnce Deployments | Microsoft Docs
 description: Use this article to help you diagnose and resolve the most common issues with ClickOnce deployments.
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: troubleshooting
+ms.topic: conceptual
 dev_langs: 
   - VB
   - CSharp

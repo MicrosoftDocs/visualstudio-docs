@@ -2,7 +2,7 @@
 description: "The Debugging Services ran out of memory and caused the termination of the debugging session."
 title: "Debugger Services Running Out of Memory | Microsoft Docs"
 ms.date: "07/10/2019"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.debug_no_memory"
 dev_langs:
