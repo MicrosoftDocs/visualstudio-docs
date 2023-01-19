@@ -41,7 +41,7 @@ in a debugger variables window or in a DataTip.
 The DataSet Visualizer allows you to view the contents of a DataSet, DataTable, DataView, or DataViewManager object. 
 
 :::image type="content" source="../debugger/media/dbg-tips-dataset-visualizer.png " alt-text="Diagram of View the visualizer data.":::
-# IEnumerable visualizer 
+## IEnumerable visualizer 
 
 Starting in Visual Studio 2022, you can view IEnumerable collections in a tabular view.
 
