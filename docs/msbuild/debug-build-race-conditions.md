@@ -37,7 +37,7 @@ You can permanently fix most build race conditions by understanding the cause an
 
 ## Types of race conditions
 
-This section describes different types of problems that can occur which lead to race conditions. The next section, [Diagnose and fix race conditions](#diagnose-and-fix-race-conditions) , describes what to do to solve these problems.
+This section describes different types of problems that can occur which lead to race conditions. The next section, [Diagnose and fix race conditions](#diagnose-and-fix-race-conditions), describes what to do to solve these problems.
 
 ### Project references set properties inconsistently
 
