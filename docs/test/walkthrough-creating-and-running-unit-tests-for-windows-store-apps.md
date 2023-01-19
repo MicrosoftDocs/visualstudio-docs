@@ -2,7 +2,7 @@
 title: Create and run unit tests for Universal Windows Platform (UWP) apps
 description: Learn about unit testing UWP apps in Visual Studio, and use test-driven development to create and unit test a C# UWP app.
 ms.custom: SEO-VS-2020
-ms.date: 01/20/2022
+ms.date: 01/17/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - unit tests, creating
@@ -258,6 +258,7 @@ The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> class provides se
    ```csharp
    using Maths;
    ```
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"
@@ -275,6 +276,7 @@ The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> class provides se
    ```csharp
    using Maths;
    ```
+
 ::: moniker-end
 
 ### Add a test that uses the app function
@@ -316,6 +318,8 @@ In **Test Explorer**, select the **Run All Tests** icon. The solution builds, an
 :::image type="content" source="media/vs-2019/test-explorer-uwp-app.png" alt-text="Screenshot that shows Basic Test passed in Test Explorer":::
 
 ::: moniker-end
+
+If you get a Duplicate Entity error when you run the test, delete the runtime directives file, `Properties\Default.rd.xml` from the test project and re-try.
 
 You've set up the test and app projects and verified that you can run tests that call functions in the app project. Now you can write real tests and code.
 

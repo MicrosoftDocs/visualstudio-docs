@@ -23,7 +23,7 @@ ms.workload:
 
 Visual Studio provides a variety of profiling tools to help you diagnose different kinds of app performance issues depending on your app type. In this article, we give a quick look at the most common profiling tools.
 
-To see profiling tool support for different app types, see [Which tool should I use?](#which-tool-should-i-use)
+For help choosing the correct tool, or to see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md)
 
 ## Use a profiler to improve performance
 
@@ -55,7 +55,7 @@ While you are debugging, you can use the **Diagnostic Tools** window to analyze 
 ![Diagnostic Tools Summary view](../profiling/media/prof-tour-cpu-and-memory-graph.gif "Diagnostic Tools Summary")
 ::: moniker-end
 
-The **Diagnostic Tools** window is a common way to profile apps, but for Release builds you can also do a post-mortem analysis of your app instead. For more information on different approaches, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). To see profiling tool support for different app types, see [Which tool should I use?](#which-tool-should-i-use)
+The **Diagnostic Tools** window is a common way to profile apps, but for Release builds you can also do a post-mortem analysis of your app instead. For more information on different approaches, see [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md). To see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md).
 
 Tools available in the Diagnostic Tools window or during a debugging session include:
 - [CPU usage](../profiling/beginners-guide-to-performance-profiling.md)
@@ -89,10 +89,13 @@ Tools available in the Performance Profiler include:
 - [.NET object allocation](../profiling/dotnet-alloc-tool.md)
 - [Memory usage](../profiling/memory-usage-without-debugging2.md)
 - [.NET async tool](../profiling/analyze-async.md)
+- [Instrumentation](../profiling/instrumentation-overview.md)
+- [File I/O](../profiling/use-file-io.md)
+- [.NET Counters](../profiling/dotnet-counters-tool.md)
 - [Database tool](../profiling/analyze-database.md)
 - [GPU usage](../profiling/gpu-usage.md)
 
-To see profiling tool support for different app types, see [Which tool should I use?](#which-tool-should-i-use)
+To see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md).
 
 In some scenarios, the window allows you to select [multiple profiling tools](../profiling/use-multiple-profiler-tools-simultaneously.md). Tools such as CPU Usage may provide complementary data that you can use to help in your analysis. You can also use the [command-line profiler](../profiling/profile-apps-from-command-line.md) to enable scenarios involving multiple profiling tools.
 
@@ -302,27 +305,7 @@ In Visual Studio 2019,  the legacy Performance Explorer and related profiling to
 
 ![Performance Explorer tool](../profiling/media/prof-tour-performance-explorer.png "Performance Explorer")
 
-## Which tool should I use?
-
-Here is a table that lists the different tools Visual Studio offers and the different project types you can use them with:
-
-|Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core|
-|----------------------|---------------------|-------------|-------------|
-|[PerfTips](../profiling/perftips.md)|yes|yes|yes|
-|[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|yes|yes|yes|
-|[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|
-|[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|yes (.NET only)|yes|yes|
-|[Events viewer](../profiling/events-viewer.md)|yes|yes|yes|
-|[.NET Async](../profiling/analyze-async.md)|yes (.NET only)|yes|yes|
-|[.NET Counters](../profiling/dotnet-counters-tool.md)|yes (.NET Core only)|no|yes (ASP.NET Core only)|
-|[Instrumentation](../profiling/instrumentation-overview.md)|yes|yes|yes|
-|[File I/O](../profiling/use-file-io.md)|yes|yes|yes|
-|[Database](../profiling/analyze-database.md)|yes (.NET Core only)|no|yes (ASP.NET Core only)|
-|[GPU Usage](./gpu-usage.md)|yes|yes|no|
-|[Application Timeline](../profiling/application-timeline.md)|yes (XAML)|yes|no|
-|[Performance Explorer](#analyze-performance-legacy-tools)|no|no|no|
-|[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
-
-
 ## See also
-- [Debugging in Visual Studio](../debugger/debugger-feature-tour.md)
+
+- [Which tool should I use?](../profiling/choose-performance-tool.md)
+- [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
