@@ -336,7 +336,7 @@ vs_enterprise.exe --layout <layoutDir> --verify
 > [!NOTE]
 > Some important metadata files that are needed by the `--verify` option must be in the layout folder. If these metadata files are missing, "--verify" cannot run and Setup gives you an error. If you experience this error, try to update the layout again, or re-create a new network layout in a different folder.
 
-Remember that Microsoft ships updates to Visual Studio periodically, so a more recent layout might not contain the same version as the initial layout, unless you use the [fixed link bootstrappers](#download-the-visual-studio-bootstrapper-to create-the-network-layout).
+Remember that Microsoft ships updates to Visual Studio periodically, so a more recent layout might not contain the same version as the initial layout, unless you use the [fixed link bootstrappers](#download-the-visual-studio-bootstrapper-to-create-the-network-layout).
 
 ### Fix a layout
 
