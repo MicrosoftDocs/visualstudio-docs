@@ -16,7 +16,7 @@ ms.workload:
 
 Dealing with build failures that don't happen every time is a frustrating experience. This article will help you identify the root cause, and make changes that will enable you to fix intermittent build failures, so that your builds run consistently every time.
 
-MSBuild supports parallel builds by running different worker node processes on different CPU cores. While there are often significant performance benefits from building in parallel, doing so can also introduce the risk of errors that occur when multiple processes try to use the same resource at the same time, a type of race condition. A race condition can manifest behavior that differs from build to build. For example, one process might be ahead or behind the other by differing amounts of time.
+MSBuild supports parallel builds by running different worker node processes on different CPU cores. While there are often significant performance benefits from building in parallel, doing so can also introduce the risk of errors that occur when multiple processes try to use the same resource at the same time. This situation is a type of race condition. A race condition can manifest behavior that differs from build to build. For example, one process might be ahead or behind the other by differing amounts of time.
 
 Error messages that arise from file I/O contention always include an operating system file I/O failure, but can have different MSBuild error codes, depending on what was happening in the build when the file I/O error occurred. Some examples might look like the following on the Windows platform:
 
@@ -29,7 +29,7 @@ Cannot create a file when that file already exists. [{project file}]
 The process cannot access the file 'file' because it is being used by another process.
 ```
 
-File contention race can occur when a particular project is requested to build with more than one combination of property settings. MSBuild typically does a separate build for a referenced project whenever property settings differ, in case the output might also differ. Depending on the timing of concurrently running builds, move or copy operations can fail if a file is already present at the same location, or they can fail because the destination file is being used by another process, which is actually another instance of MSBuild building another project in your build. Also, file read operations can fail if another MSBuild process is reading or writing the same file.
+File contention race can occur when a particular project is requested to build with more than one combination of property settings. MSBuild typically does a separate build for a referenced project whenever property settings differ, in case the output might also differ. Depending on the timing of concurrently running builds, move or copy operations can fail if a file is already present at the same location, or they can fail because the destination file is being used by another MSBuild process. Also, file read operations can fail if another MSBuild process is reading or writing the same file.
 
 You can permanently fix most build file contention issues by understanding the cause and making appropriate changes in the project files, but only if the cause is in your own code. Race conditions can also be caused by bugs in SDK code, in which case the issue has to be reported to and investigated by the owners of the relevant SDK.
 
@@ -39,9 +39,7 @@ This section describes different types of problems that can occur which lead to 
 
 ### Inconsistent ProjectReference property settings
 
-Different builds of the same project are a normal part of a many build processes; they occur when MSBuild builds output for more than one combination of settings. For example, multiple target frameworks (such as `net472` and `net7`), or multiple target platform architectures (such as `Arm64` and `x64`). This is solved by specifying a different output folder for each combination of outputs. That way, the `Arm64` `net472` version of an assembly is output to a different folder than the other combinations and no conflict occurs. The default SDK settings already handle the examples mentioned here, but sometimes the occurrence of multiple combinations of settings is not as obvious and needs to be investigated.
-
-For detailed steps for diagnosing and fixing these, see [Diagnose and fix race conditions](#diagnose-and-fix-race-conditions).
+Different builds of the same project are a normal part of a many build processes; they occur when MSBuild builds output for more than one combination of settings. For example, a solution may have multiple target frameworks (such as `net472` and `net7`), or multiple target platform architectures (such as `Arm64` and `x64`). This build requirement is satisfied by specifying a different output folder for each combination of outputs. That way, the `Arm64` `net472` version of an assembly is output to a different folder from the other combinations and no conflict occurs. The default SDK settings already handle the examples mentioned here, but sometimes the occurrence of multiple combinations of settings is not as obvious and needs to be investigated.
 
 ### ProjectReference properties conflict with global properties
 
@@ -49,7 +47,7 @@ Global properties, that is, when you set a property on the command line with the
 
 ### Packaging unintentionally triggers project builds
 
-If your build packages the output of projects that have been built previously, you might encounter a race condition when your packaging build logic specifies different property settings than the original projects used when they were built. When this is the case, MSBuild normally would trigger a rebuild of those projects because of the mismatch in properties. This situation can lead to race conditions. Consider setting `BuildProjectReferences` to `false` in the packaging project, so that the projects that are being packaged are never asked to be built. This would mean that the packaging build should only be requested when project builds are previously done and up-to-date.
+If your build packages the output of projects that have been built previously, you might encounter a race condition when your packaging build logic specifies different property settings than the original projects used when they were built. In that case, MSBuild normally would trigger a rebuild of those projects because of the mismatch in properties. This situation can lead to race conditions. Consider setting `BuildProjectReferences` to `false` in the packaging project, so that the projects that are being packaged are never asked to be built. This would mean that the packaging build should only be requested when project builds are previously done and up-to-date.
 
 ## Diagnose and fix race conditions
 
@@ -67,10 +65,10 @@ To diagnose and fix the race condition, follow these steps.
 
 1. Whether that particular run failed or not, open the log (or `.binlog` file) and search for the filename of the file that triggers the failure and find all the places where the file is used.
 
-   The following screenshot shows the Structured Log Viewer viewing the log produced by building the solution in the [Example](#example). What's shown are the search results for the file *net5.0\Base.dll* which was mentioned in an error message. The same output file shows up twice as the `OutputAssembly` for the `Csc` task in the search results, indicating that it's building more than once.
+   The following screenshot shows the Structured Log Viewer viewing the log produced by building the solution in the [Example](#example). What's shown are the search results for the file *net5.0\Base.dll*, which was mentioned in an error message. The same output file shows up twice as the `OutputAssembly` for the `Csc` task in the search results, indicating that it's building more than once.
    ![Screenshot showing search results in the Structured Log Viewer.](./media/vs-2022/race-conditions-structured-log-viewer.png)
 
-1. Note the property settings in effect for each instance of that project's build. The Structured Log Viewer makes this fairly easy, since every individual project build has a **Properties** node listing all the property settings in effect for that project build. If you're using a text log, the properties set for a build are output in text when the verbosity setting is `Normal` or greater. Compare the lists of properties for each build of the project that generates the failed output. You should see a difference, if the problem is actually a race condition.
+1. Note the property settings in effect for each instance of that project's build. The Structured Log Viewer makes this easier, since every individual project build has a **Properties** node listing all the property settings in effect for that project build. If you're using a text log, the properties set for a build are output in text when the verbosity setting is `Normal` or greater. Compare the lists of properties for each build of the project that generates the failed output. You should see a difference, if the problem is actually a race condition.
 
    ![Screenshot of the Structured Log Viewer showing the properties for a project build.](./media/vs-2022/race-conditions-structured-log-viewer-properties.png)
 
@@ -88,7 +86,7 @@ To diagnose and fix the race condition, follow these steps.
 
 A simple case that demonstrates the pattern is presented here. Suppose you have a solution with several projects, one front-end client (`App`), two class libraries (`Middle1` and `Middle2`), and a library (`Base`), which is referenced by the two class libraries.
 
-The projects below are all part of a single solution. This collection of projects results in two different builds of `Base`, one with `SpecialMode=true` and another without it. An intermittent error could occur that would reference the *Base.dll* output. You might sometimes get an error that `Base.dll` could not be written "because it is being used by another process."
+The project files in the following code sections are all part of a single solution. This collection of projects results in two different builds of `Base`, one with `SpecialMode=true` and another without it. An intermittent error could occur that would reference the *Base.dll* output. You might sometimes get an error that `Base.dll` could not be written "because it is being used by another process."
 
 ```xml
 <!-- Base.csproj -->
