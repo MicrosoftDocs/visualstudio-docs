@@ -36,7 +36,7 @@ in a debugger variables window or in a DataTip.
 
 :::image type="content" source="../debugger/media/vs-2022/dbg-ienumerable-debugger-visualizer.png" alt-text="Diagram of Open a IEnumerable visualizer.":::
 
-# DataSet visualizer 
+## DataSet visualizer 
 
 The DataSet Visualizer allows you to view the contents of a DataSet, DataTable, DataView, or DataViewManager object. 
 
