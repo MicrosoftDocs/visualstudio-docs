@@ -43,8 +43,8 @@ A blank **Value** means that the chosen visualizer can't recognize the string. F
 
 ## View Text  visualizer 
 
-The text visualizer  shows  textual data more conveniently. You can also use  **Text Visualizer** to  view strings that the chosen visualizer can't recognize.
-In addition , **Text Visualizer** provides  tooling and string manipulation options and allows you to decode the following text with ease.
+The text visualizer shows textual data more conveniently. You can also use **Text Visualizer** to view strings that the chosen visualizer can't recognize.
+In addition, **Text Visualizer** provides tooling and string manipulation options and allows you to decode the following text with ease.
 
 - Base64 Encode
 - Base64 Decode
@@ -52,7 +52,7 @@ In addition , **Text Visualizer** provides  tooling and string manipulation opti
 - URL Decode
 - JWT Decode
 
-Click the "String manupulation" dropdown and select the desired option to decode your data.
+Select the **String manipulation** dropdown list and choose the desired option to decode your data.
 
 ![Text string visualizer](../debugger/media/dbg-string-visualizer-text.png "Text string visualizer")
 
