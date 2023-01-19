@@ -55,7 +55,7 @@ You will need to make a plan for how you deploy Visual Studio across your organi
 
 - Follow [Windows security baselines](/windows/security/threat-protection/windows-security-baselines). Microsoft is dedicated to providing its customers with secure operating systems, such as Windows 10 and Windows Server, and secure apps, such as Microsoft Edge. In addition to the security assurance of its products, Microsoft also enables you to have fine control over your environments by providing various configuration capabilities.
 
-### Plan for how Visual Studio should be installed and initialized. 
+### Plan for how Visual Studio should be installed and initialized 
 
    - How does Visual Studio get originally installed on the machine? The action of installing Visual Studio requires administrative privileges on the machine. Do users have the ability to install the product themselves or will an IT admin need to facilitate it through an elevated process?
 
