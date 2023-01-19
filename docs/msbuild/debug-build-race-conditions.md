@@ -35,7 +35,7 @@ You can permanently fix most build file contention issues by understanding the c
 
 ## Causes of build race conditions
 
-This section describes different types of problems that can occur which lead to race conditions. The next section, [Diagnose and fix race conditions](#diagnose-and-fix-race-conditions) , describes what to do to solve these problems.
+This section describes different types of problems that can occur which lead to race conditions. The next section, [Diagnose and fix race conditions](#diagnose-and-fix-race-conditions), describes what to do to solve these problems.
 
 ### Inconsistent ProjectReference property settings
 
