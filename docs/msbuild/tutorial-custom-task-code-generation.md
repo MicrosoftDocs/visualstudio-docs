@@ -169,13 +169,13 @@ Build FAILED.
 When you catch exceptions in your task, use the <xref:Microsoft.Build.Utilities.TaskLoggingHelper.LogErrorFromException%2A?displayProperty=nameWithType> method. This will improve the error output, for example by obtaining the call stack where the exception was thrown.
 
 ```csharp
-    catch (Exception ex)
-    {
-		// This logging helper method is designed to capture and display information
-		// from arbitrary exceptions in a standard way.
-		Log.LogErrorFromException(ex, showStackTrace: true);
-		return false;
-	}
+catch (Exception ex)
+{
+	// This logging helper method is designed to capture and display information
+	// from arbitrary exceptions in a standard way.
+	Log.LogErrorFromException(ex, showStackTrace: true);
+	return false;
+}
 ```
 
 The implementation of the other methods that use these inputs to build the text for the generated code file isn't shown here; see [AppSettingStronglyTyped.cs](https://github.com/v-fearam/msbuild-examples/blob/main/custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped/AppSettingStronglyTyped.cs) in the sample repo.
@@ -207,7 +207,7 @@ In this section, you'll create a standard .NET Core Console App that uses the ta
 
 	```xml
 	<Project Sdk="Microsoft.NET.Sdk">
-		<UsingTask TaskName="AppSettingStronglyTyped.AppSettingStronglyTyped" AssemblyFile="..\.   .\AppSettingStronglyTyped\AppSettingStronglyTyped\bin\Debug\netstandard2.0\AppSettingStronglyTyped.dll"/>
+		<UsingTask TaskName="AppSettingStronglyTyped.AppSettingStronglyTyped" AssemblyFile="..\..\AppSettingStronglyTyped\AppSettingStronglyTyped\bin\Debug\netstandard2.0\AppSettingStronglyTyped.dll"/>
 
 		<PropertyGroup>
 			<OutputType>Exe</OutputType>
@@ -216,25 +216,25 @@ In this section, you'll create a standard .NET Core Console App that uses the ta
 			<SettingClass>MySetting</SettingClass>
 			<SettingNamespace>MSBuildConsoleExample</SettingNamespace>
 			<SettingExtensionFile>mysettings</SettingExtensionFile>
-	 </PropertyGroup>
+		</PropertyGroup>
 
-	 <ItemGroup>
-		 <SettingFiles Include="$(RootFolder)\*.mysettings" />
-	 </ItemGroup>`
+		<ItemGroup>
+			<SettingFiles Include="$(RootFolder)\*.mysettings" />
+		</ItemGroup>
 
-	 <Target Name="GenerateSetting" BeforeTargets="CoreCompile" Inputs="@(SettingFiles)" Outputs="$(RootFolder)\$(SettingClass).generated.cs">
-		 <AppSettingStronglyTyped SettingClassName="$(SettingClass)" SettingNamespaceName="$(SettingNamespace)" SettingFiles="@(SettingFiles)">
-			 <Output TaskParameter="ClassNameFile" PropertyName="SettingClassFileName" />
-		 </AppSettingStronglyTyped>
-		 <ItemGroup>
-			 <Compile Remove="$(SettingClassFileName)" />
-			 <Compile Include="$(SettingClassFileName)" />
-		 </ItemGroup>
-	 </Target>
+		<Target Name="GenerateSetting" BeforeTargets="CoreCompile" Inputs="@(SettingFiles)" Outputs="$(RootFolder)\$(SettingClass).generated.cs">
+			<AppSettingStronglyTyped SettingClassName="$(SettingClass)" SettingNamespaceName="$(SettingNamespace)" SettingFiles="@(SettingFiles)">
+			<Output TaskParameter="ClassNameFile" PropertyName="SettingClassFileName" />
+			</AppSettingStronglyTyped>
+			<ItemGroup>
+				<Compile Remove="$(SettingClassFileName)" />
+				<Compile Include="$(SettingClassFileName)" />
+			</ItemGroup>
+		</Target>
 
-	 <Target Name="ForceReGenerateOnRebuild" AfterTargets="CoreClean">
-		 <Delete Files="$(RootFolder)\$(SettingClass).generated.cs" />
-	 </Target>
+		<Target Name="ForceReGenerateOnRebuild" AfterTargets="CoreClean">
+			<Delete Files="$(RootFolder)\$(SettingClass).generated.cs" />
+		</Target>
 	</Project>
 	```
 
@@ -264,10 +264,10 @@ In this section, you'll create a standard .NET Core Console App that uses the ta
 1. Open *Program.cs* and change the hardcoded 'Hello World!!' to the user-defined constant:
 
 	```csharp
-		  static void Main(string[] args)
-		  {
-				Console.WriteLine(MySetting.Greeting);
-		  }
+	static void Main(string[] args)
+	{
+		Console.WriteLine(MySetting.Greeting);
+	}
 	```
 
 Execute the program; it will print the greeting from the generated class.

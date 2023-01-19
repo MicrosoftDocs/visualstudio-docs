@@ -23,19 +23,19 @@ The Visual Studio Image Library Viewer tool can load and search image manifests,
 
 3. Searching for images in the Visual Studio Image Catalog so that a Visual Studio extension can use images that fit the style of Visual Studio
 
-   ![Image Library Viewer Hero](../../extensibility/internals/media/image-library-viewer-hero.png "Image Library Viewer Hero")
+![Image Library Viewer Hero](../../extensibility/internals/media/image-library-viewer-hero.png "Image Library Viewer Hero")
 
-   **Image moniker**
+**Image moniker**
 
-   An image moniker (or moniker for short) is a GUID:ID pair that uniquely identifies an image asset or image list asset in the Image Library.
+An image moniker (or moniker for short) is a GUID:ID pair that uniquely identifies an image asset or image list asset in the Image Library.
 
-   **Image manifest files**
+**Image manifest files**
 
-   Image manifest (.imagemanifest) files are XML files that define a set of image assets, the monikers that represent those assets, and the real image or images that represent each asset. Image manifests can define standalone images or image lists for legacy UI support. Additionally, there are attributes that can be set either on the asset or on the individual images behind each asset to change when and how those assets are displayed.
+Image manifest (.imagemanifest) files are XML files that define a set of image assets, the monikers that represent those assets, and the real image or images that represent each asset. Image manifests can define standalone images or image lists for legacy UI support. Additionally, there are attributes that can be set either on the asset or on the individual images behind each asset to change when and how those assets are displayed.
 
-   **Image manifest schema**
+**Image manifest schema**
 
-   A complete image manifest looks like this:
+A complete image manifest looks like this:
 
 ```xml
 <ImageManifest>
