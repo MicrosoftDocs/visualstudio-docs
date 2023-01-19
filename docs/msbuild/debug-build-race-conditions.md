@@ -72,7 +72,11 @@ To diagnose and fix the race condition, follow these steps.
 
 1. Note the property settings in effect for each instance of that project's build. The Structured Log Viewer makes this fairly easy, since every individual project build has a **Properties** node listing all the property settings in effect for that project build. If you're using a text log, the properties set for a build are output in text when the verbosity setting is `Normal` or greater. Compare the lists of properties for each build of the project that generates the failed output. You should see a difference, if the problem is actually a race condition.
 
-   ![Screenshot of the Structured Log Viewer showing the properties for a project.](./media/vs-2022/race-conditions-structured-log-viewer-properties.png)
+   ![Screenshot of the Structured Log Viewer showing the properties for a project build.](./media/vs-2022/race-conditions-structured-log-viewer-properties.png)
+
+   Compare the list to the other build of the same project, and you can see that `SpecialMode` is missing.
+
+   ![Screenshot showing different set of properties for the same project.](./media/vs-2022/race-conditions-structured-log-viewer-properties-2.png)
 
 1. Search the project files for `ProjectReference` where the `Include` attribute specifies that project. Llook for any the metadata `SetConfiguration`, `SetPlatform`, `SetTargetFramework`, `AdditionalProperties`, `RemoveGlobalProperties`, or `GlobalPropertiesToRemove`. Check for differences in the values set for these metadata between different `ProjectReference` elements across the solution. In the [example](#example), it's the inconsistent `AdditionalProperties` metadata setting (in one place, but not in the other) that is the source of the problem.
 
