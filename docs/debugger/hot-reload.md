@@ -122,15 +122,7 @@ For ASP.NET Core developers who are targeting .NET 6, there are additional capab
 
 The .NET Hot Reload experience is powered by the [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md) mechanism. Improvements include support for additional types of edits that go beyond what was originally possible in older versions of Visual Studio. Improvements include:
 
-* Adding, updating, or deleting Custom Attributes
-* Adding or updating Record structs
-* Adding or updating #line directives
-* Editing Switch expressions
-* Editing files with #line directives, including changes to the directive itself
-* Editing top-level statements
-* Editing code that uses any of the new C# 10 features, such as global using directives, file scoped namespaces, improved lambdas, and parameter-less struct constructors
-* Renaming Lambda parameters
-* Renaming parameters of existing methods
+[!INCLUDE [dotnet-hot-reload-and-edit-continue](../debugger/includes/dotnet-hot-reload-and-edit-continue.md)]
 
 The preceding improvements are available to both Hot Reload and the Edit and Continue experiences.
 
