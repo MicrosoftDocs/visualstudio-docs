@@ -21,7 +21,7 @@ ms.workload:
 # Supported code changes (C# and Visual Basic)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-Edit and Continue handles most types of code changes within method bodies. Most changes outside method bodies, and a few changes within method bodies, cannot be applied during debugging, however. To apply those unsupported changes, you must stop debugging and restart with a fresh version of the code.
+Edit and Continue handles most types of code changes within method bodies. Most changes outside method bodies, and a few changes within method bodies, can't be applied during debugging, however. To apply those unsupported changes, you must stop debugging and restart with a fresh version of the code.
 
 ## Supported changes to code
 
@@ -52,7 +52,7 @@ The preceding improvements are available to both Hot Reload and the Edit and Con
 
 ## Unsupported changes to code
 
- The following changes cannot be applied to C# and Visual Basic code during a debugging session:
+ The following changes can't be applied to C# and Visual Basic code during a debugging session:
 
 - Changes to the current statement or any other active statement.
 
@@ -89,7 +89,7 @@ The preceding improvements are available to both Hot Reload and the Edit and Con
 
 ## Unsafe code
 
- Changes to unsafe code have the same limitations as changes to safe code, with one additional restriction: Edit and Continue does not support changes to unsafe code that exits within a method that contains the `stackalloc` operator.
+ Changes to unsafe code have the same limitations as changes to safe code, with one additional restriction: Edit and Continue doesn't support changes to unsafe code that exits within a method that contains the `stackalloc` operator.
 
 ## Unsupported app scenarios
 
@@ -100,7 +100,7 @@ Unsupported apps and platforms include Silverlight 5 and Windows 8.1. Unsupporte
 
 ## Unsupported scenarios
 
- Edit and Continue is not available in the following debugging scenarios:
+ Edit and Continue isn't available in the following debugging scenarios:
 
 - Mixed-mode (native/managed) debugging.
 
