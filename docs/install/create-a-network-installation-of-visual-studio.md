@@ -1,7 +1,7 @@
 ---
 title: Create a network-based installation
 description: Learn how to create a network install point for deploying Visual Studio within an enterprise.
-ms.date: 1/6/2023
+ms.date: 1/20/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -221,20 +221,27 @@ Sometimes you may want to update your layout to a _particular version of the pro
 
 You can go to the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page and download a particular fixed version bootstrapper, copy it into your layout, and use it to update the layout to that exact version specified in the bootstrapper. You would use the exact same syntax as above.
 
+You can use an **[administrator update](applying-administrator-updates.md)** to update your layout to a specific version. To get the **administrator update**, go to the [Microsoft Update Catalog](https://catalog.update.microsoft.com) and search for your update.  Download the _update.exe_ to the computer that's hosting the layout, open up a command prompt, and run a command as follows:
+
+```shell
+visualstudioupdate-16.0.0to16.11.23.exe layout --layoutPath c:\VSLayout
+```
+Note that administrator updates will not initiate an original layout install; they will only update an existing layout or a client instance. 
+
 ::: moniker-end
 
 ::: moniker range="vs-2022"
 
 You can go to the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page and download a particular fixed version bootstrapper, copy it into your layout, and use it to update the layout to that exact version specified in the bootstrapper. You would use the exact same syntax as above.
 
-::: moniker-end
-
 You can use an **[administrator update](applying-administrator-updates.md)** to update your layout to a specific version. To get the **Administrator Update**, go to the [Microsoft Update Catalog](https://catalog.update.microsoft.com), search for the update you want to update your layout to.  Download the _update.exe_ to the computer that's hosting the layout, open up a command prompt on that computer and run a command like this:
 
 ```shell
-visualstudioupdate-17.0.0to17.0.1.exe layout --layoutPath c:\VSLayout
+visualstudioupdate-17.0.0to17.4.4.exe layout --layoutPath c:\VSLayout
 ```
 Note that administrator updates will not initiate an original layout install; they will only update an existing layout or a client instance. 
+
+::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -329,7 +336,7 @@ vs_enterprise.exe --layout <layoutDir> --verify
 > [!NOTE]
 > Some important metadata files that are needed by the `--verify` option must be in the layout folder. If these metadata files are missing, "--verify" cannot run and Setup gives you an error. If you experience this error, try to update the layout again, or re-create a new network layout in a different folder.
 
-Remember that Microsoft ships updates to Visual Studio periodically, so a more recent layout might not contain the same version as the initial layout, unless you use the [fixed link bootstrappers](#download-the-visual-studio-bootstrapper-to create-the-network-layout).
+Remember that Microsoft ships updates to Visual Studio periodically, so a more recent layout might not contain the same version as the initial layout, unless you use the [fixed link bootstrappers](#download-the-visual-studio-bootstrapper-to-create-the-network-layout).
 
 ### Fix a layout
 
