@@ -38,7 +38,7 @@ MSBuild is now available as part of the [.NET Core SDK](https://dotnet.microsoft
 
 - [Project element](../msbuild/project-element-msbuild.md) has a new `SDK` attribute. Also the `Xmlns` attribute is now optional. For more information on the `SDK` attribute, see [How to: Use MSBuild project SDKs](../msbuild/how-to-use-project-sdk.md), [Packages, metapackages, and frameworks](/dotnet/core/packages) and [Additions to the csproj format for .NET Core](/dotnet/core/tools/csproj).
 - [Item element](../msbuild/item-element-msbuild.md) outside targets has a new `Update` attribute. Also, the restriction on the `Remove` attribute has been eliminated.
-- *Directory.Build.props* is a user-defined file that provides customizations to projects under a directory. This file is automatically imported from *Microsoft.Common.props* unless the property `ImportDirectoryBuildTargets` is set to **false**. *Directory.Build.targets* is imported by *Microsoft.Common.targets*.
+- *Directory.Build.props* and *Directory.Build.targets* are user-defined files that provide customizations to projects under a directory. *Directory.Build.props* is automatically imported from *Microsoft.Common.props* unless the property `ImportDirectoryBuildProps` is set to `false`. *Directory.Build.targets* is automatically imported by *Microsoft.Common.targets* unless the property `ImportDirectoryBuildTargets` is set to `false`.
 - Any metadata with a name that doesn't conflict with the current list of attributes can optionally be expressed as an attribute. For more information, see [Item element](../msbuild/item-element-msbuild.md).
 
 ## New property functions

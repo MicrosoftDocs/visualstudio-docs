@@ -2,7 +2,7 @@
 title: "Building ClickOnce Applications from the Command Line | Microsoft Docs"
 description: Learn how to build Visual Studio projects from the command line, which allows you to reproduce a build using an automated process.
 ms.custom: SEO-VS-2020
-ms.date: "11/04/2016"
+ms.date: "01/19/2022"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -88,6 +88,9 @@ Once you have the publish profile created, you can provide the pubxml file as a 
 ```cmd
     msbuild /t:publish /p:PublishProfile=<pubxml file> /p:PublishDir="<specific location>"
 ```
+
+>[!IMPORTANT]
+> If PublishDir is set to the same location as PublishUrl, duplicate compilation output gets copied to the PublishUrl location. You can avoid this issue in Visual Studio 2022 version 17.4 and later by creating a new profile. The new profile sets PublishDir to a different location than PublishUrl. At the end of the publish operation, the relevant ClickOnce files are copied from PublishDir to PublishUrl location.
 
 ## Publish properties
 

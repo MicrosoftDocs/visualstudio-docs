@@ -72,6 +72,7 @@ In static property functions, you can use any static method or property of these
 - <xref:System.Char?displayProperty=nameWithType>
 - <xref:System.Convert?displayProperty=nameWithType>
 - <xref:System.DateTime?displayProperty=nameWithType>
+- <xref:System.DateTimeOffset?displayProperty=nameWithType> (Available in MSBuild 17.3 and higher)
 - <xref:System.Decimal?displayProperty=nameWithType>
 - <xref:System.Double?displayProperty=nameWithType>
 - <xref:System.Enum?displayProperty=nameWithType>
@@ -104,14 +105,29 @@ In addition, you can use the following static methods and properties:
 - [System.Environment::GetEnvironmentVariables](xref:System.Environment.GetEnvironmentVariables*)
 - [System.Environment::GetFolderPath](xref:System.Environment.GetFolderPath*)
 - [System.Environment::GetLogicalDrives](xref:System.Environment.GetLogicalDrives*)
+- [System.Environment::Is64BitOperatingSystem](xref:System.Environment.Is64BitOperatingSystem*)
+- [System.Environment::Is64BitProcess](xref:System.Environment.Is64BitProcess*)
+- [System.Environment::MachineName](xref:System.Environment.MachineName*)
+- [System.Environment::NewLine](xref:System.Environment.NewLine*) (Available in MSBuild 17.3 and higher)
+- [System.Environment::OSVersion](xref:System.Environment.OSVersion*)
+- [System.Environment::ProcessorCount](xref:System.Environment.ProcessorCount*)
+- [System.Environment::StackTrace](xref:System.Environment.StackTrace*)
+- [System.Environment::SystemDirectory](xref:System.Environment.SystemDirectory*)
+- [System.Environment::SystemPageSize](xref:System.Environment.SystemPageSize*)
+- [System.Environment::TickCount](xref:System.Environment.TickCount*)
+- [System.Environment::UserDomainName](xref:System.Environment.UserDomainName*)
+- [System.Environment::UserInteractive](xref:System.Environment.UserInteractive*)
+- [System.Environment::UserName](xref:System.Environment.UserName*)
+- [System.Environment::Version](xref:System.Environment.UserName*)
+- [System.Environment::WorkingSet](xref:System.Environment.WorkingSet*)
 - [System.IO.Directory::GetDirectories](xref:System.IO.Directory.GetDirectories*)
 - [System.IO.Directory::GetFiles](xref:System.IO.Directory.GetFiles*)
 - [System.IO.Directory::GetLastAccessTime](xref:System.IO.Directory.GetLastAccessTime*)
 - [System.IO.Directory::GetLastWriteTime](xref:System.IO.Directory.GetLastWriteTime*)
 - [System.IO.Directory::GetParent](xref:System.IO.Directory.GetParent*)
 - [System.IO.File::Exists](xref:System.IO.File.Exists*)
-- [System.IO.File::GetCreationTime](xref:System.IO.File.GetCreationTime*)
 - [System.IO.File::GetAttributes](xref:System.IO.File.GetAttributes*)
+- [System.IO.File::GetCreationTime](xref:System.IO.File.GetCreationTime*)
 - [System.IO.File::GetLastAccessTime](xref:System.IO.File.GetLastAccessTime*)
 - [System.IO.File::GetLastWriteTime](xref:System.IO.File.GetLastWriteTime*)
 - [System.IO.File::ReadAllText](xref:System.IO.File.ReadAllText*)
