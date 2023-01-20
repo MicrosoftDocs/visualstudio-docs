@@ -39,11 +39,11 @@ You will need to make a plan for how you deploy Visual Studio across your organi
 
 ::: moniker-end
 
-- Clarify your security and compatibility needs. Microsoft recommends that your organization always uses the latest and most secure software?   
+- Clarify your security and compatibility needs. Microsoft recommends that your organization always uses the latest and most secure software.
 
 ::: moniker range="=vs-2019"
 
- - Make sure you understand the Support options for Enterprise and Professional customers. For more information, refer to the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing-vs2019#support-options-for-enterprise-and-professional-customers) page.  
+ - Make sure you understand the support options for Enterprise and Professional customers. For more information, refer to the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing-vs2019#support-options-for-enterprise-and-professional-customers) page.  
   
 ::: moniker-end
 
@@ -76,7 +76,7 @@ You will need to make a plan for how you deploy Visual Studio across your organi
 
 ## Install Visual Studio
 
-The following resources will help you do the initial install of Visual Studio in common enterprise scenarios. This typically only happens once.
+The following resources will help you do the initial install of Visual Studio in common enterprise scenarios. You'll typically only have to do this once.
 
 - **[Review the Install Visual Studio documentation](install-visual-studio.md)** to get a high level overview of the installation options available to end users. [Select the workloads and components](workload-and-component-ids.md) that you want available for install on your client machines.  
 

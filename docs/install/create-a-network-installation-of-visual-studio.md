@@ -221,7 +221,7 @@ Sometimes you may want to update your layout to a _particular version of the pro
 
 You can go to the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page and download a particular fixed version bootstrapper, copy it into your layout, and use it to update the layout to that exact version specified in the bootstrapper. You would use the exact same syntax as above.
 
-You can use an **[administrator update](applying-administrator-updates.md)** to update your layout to a specific version. To get the **Administrator Update**, go to the [Microsoft Update Catalog](https://catalog.update.microsoft.com), search for the update you want to update your layout to.  Download the _update.exe_ to the computer that's hosting the layout, open up a command prompt on that computer and run a command like this:
+You can use an **[administrator update](applying-administrator-updates.md)** to update your layout to a specific version. To get the **administrator update**, go to the [Microsoft Update Catalog](https://catalog.update.microsoft.com) and search for your update.  Download the _update.exe_ to the computer that's hosting the layout, open up a command prompt, and run a command as follows:
 
 ```shell
 visualstudioupdate-16.0.0to16.11.23.exe layout --layoutPath c:\VSLayout
