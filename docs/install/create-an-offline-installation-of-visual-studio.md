@@ -1,7 +1,7 @@
 ---
 title: Create an offline installation
 description: Learn how to install Visual Studio offline when you have an unreliable internet connection or low bandwidth.
-ms.date: 11/3/2022
+ms.date: 1/20/2023
 ms.topic: conceptual
 f1_keywords:
 - offline installation [Visual Studio]
@@ -123,6 +123,8 @@ Open a command prompt with administrator privileges, navigate to the directory w
    ```shell
     vs_enterprise.exe --layout c:\localVSlayout --lang en-US
     ```
+
+- You can also [verify](create-a-network-installation-of-visual-studio.md?#verify-a-layout) or [fix](create-a-network-installation-of-visual-studio.md?#fix-a-layout) an offline installation.
 
 ::: moniker range="vs-2019"
 
