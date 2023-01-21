@@ -75,7 +75,7 @@
     - name: View string values in a visualizer
       href: view-strings-visualizer.md
     - name: View .NET collections with the IEnumerable visualizer
-      href: view-data-in-ienumerable-visualizer.md
+      href: view-data-in-tabular-visualizer.md
     - name: Disassembly code
       items:
       - name: View disassembly code

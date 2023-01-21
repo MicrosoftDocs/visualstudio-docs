@@ -1,8 +1,7 @@
 ---
 title: Enable debugging for ASP.NET apps | Microsoft Docs
 description: Learn how to enable debugging for ASP.NET and ASP.NET Core apps in Visual Studio. You can run the process on an IIS Express server or a local IIS server. 
-ms.custom: SEO-VS-2020
-ms.date: 01/14/2022
+ms.date: 01/20/2023
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -185,49 +184,13 @@ A website can contain several virtual directories and subdirectories, with *web.
 
 For example, if you specify `debug="true"` in <em>www.microsoft.com/aaa/web.config</em>, any app in the *aaa* folder or in any subfolder of *aaa* inherits that setting, except if one of those apps overrides the setting with its own *web.config* file.
 
-## Publish in debug mode using the file system
-
-There are different ways to publish apps to IIS. These steps show how to create and deploy a debug Publish profile using the file system. To do this, you must be running Visual Studio as an administrator.
-
 > [!IMPORTANT]
-> If you change your code or rebuild, you must repeat these steps to republish.
-
-1. In Visual Studio, right-click the project and choose **Publish**.
-
-3. Choose **IIS, FTP, etc.** and click **Publish**.
-
-    ![Screenshot of the Pick a publish target dialog in Visual Studio. An IIS, FTP, Web Deploy is selected and the Publish button is highlighted.](media/dbg-aspnet-local-iis.png)
-
-4. In the **CustomProfile** dialog, for **Publish method**, choose **File system**.
-
-5. For **Target location**, select **Browse** (**...**).
-
-   - For ASP.NET, select **Local IIS**, select the website you created for the app, and then select **Open**.
-
-     ![Publish to ASP.NET to IIS](media/dbg-aspnet-local-iis1.png "Publish ASP.NET to IIS")
-
-   - For ASP.NET Core, select **File System**, select the folder you set up for the app, and then select **Open**.
-
-1. Select **Next**.
-
-1. Under **Configuration**, select **Debug** from the dropdown.
-
-1. Select **Save**.
-
-1. In the **Publish** dialog, make sure **CustomProfile** (or the name of the profile you just created) appears, and **LastUsedBuildConfiguration** is set to **Debug**.
-
-1. Select **Publish**.
-
-    ![Screenshot of the Publish dialog, with the CustomProfile app selected, the Publish button highlighted, and LastBuildConfiguration set to Debug.](media/dbg-aspnet-local-iis-select-site.png)
-
-> [!IMPORTANT]
-> Debug mode greatly reduces the performance of your app. For best performance, set `debug="false"` in the *web.config* and specify a Release build when you deploy a production app or conduct performance measurements.
+> Debug mode greatly reduces the performance of your app. When you deploy a production app or conduct performance measurements, set `debug="false"` in the *web.config* and specify a Release build.
 
 ## See also
 - [ASP.NET debugging: system requirements](aspnet-debugging-system-requirements.md)
 - [How to: Run the worker process under a user account](how-to-run-the-worker-process-under-a-user-account.md)
 - [How to: Find the name of the ASP.NET process](how-to-find-the-name-of-the-aspnet-process.md)
 - [Debug deployed web applications](debugging-deployed-web-applications.md)
-- [Walkthrough: Debugging a web form](walkthrough-debugging-a-web-form.md)
 - [How to: Debug ASP.NET exceptions](how-to-debug-aspnet-exceptions.md)
 - [Debug web applications: Errors and troubleshooting](debugging-web-applications-errors-and-troubleshooting.md)
