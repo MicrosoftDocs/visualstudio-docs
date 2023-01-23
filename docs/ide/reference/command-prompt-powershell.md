@@ -3,7 +3,7 @@ title: 'Command-line shells & prompt for developers'
 description:  Start from the Tools > Command Line menu. Select the Visual Studio Developer Command Prompt, Developer PowerShell, or terminal to use .NET and C++ tools more easily.
 author: TerryGLee
 ms.author: tglee
-ms.date: 12/15/2022
+ms.date: 01/23/2023
 ms.topic: conceptual
 ms.custom: contperf-fy21q4
 helpviewer_keywords:
@@ -63,6 +63,9 @@ Both shells have specific environment variables set that enable you to use comma
 |[`NMAKE`](/cpp/build/reference/running-nmake)|C/C++ compile tool|
 |[`LIB`](/cpp/build/reference/lib-reference)| C/C++ build tool|
 |[`DUMPBIN`](/cpp/build/reference/dumpbin-reference)| C/C++ build tool|
+
+> [!TIP]
+> This article describes how to use the command-line shells in [Visual Studio](https://visualstudio.microsoft.com/#vs-section). If you're looking for the equivalent in [Visual Studio Code](https://visualstudio.microsoft.com/#vscode-section)&mdash;also known as **VS Code**&mdash;see [Command Line Interface (CLI)](https://code.visualstudio.com/docs/editor/command-line).
 
 ## Start in Visual Studio
 
