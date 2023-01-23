@@ -48,6 +48,9 @@ Starting in [Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/say
 :::image type="content" source="media/developer-command-prompt-for-vs/vs-terminal.png" alt-text="Screenshot of the Visual Studio terminal showing multiple tabs.":::
 ::: moniker-end
 
+> [!TIP]
+> This article describes how to use the command-line shells in [Visual Studio](https://visualstudio.microsoft.com/#vs-section). If you're looking for the equivalent in [Visual Studio Code](https://visualstudio.microsoft.com/#vscode-section)&mdash;also known as **VS Code**&mdash;see [Command Line Interface (CLI)](https://code.visualstudio.com/docs/editor/command-line).
+
 When you open one of the developer shells from Visual Studio, either as a separate app or in the Terminal window, it opens to the directory of your current solution (if you have a solution loaded). This behavior makes it convenient to run commands against the solution or its projects.
 
 Both shells have specific environment variables set that enable you to use command-line developer tools more easily. After opening one of these shells, you can enter the commands for different utilities without having to know where they're located.
@@ -63,9 +66,6 @@ Both shells have specific environment variables set that enable you to use comma
 |[`NMAKE`](/cpp/build/reference/running-nmake)|C/C++ compile tool|
 |[`LIB`](/cpp/build/reference/lib-reference)| C/C++ build tool|
 |[`DUMPBIN`](/cpp/build/reference/dumpbin-reference)| C/C++ build tool|
-
-> [!TIP]
-> This article describes how to use the command-line shells in [Visual Studio](https://visualstudio.microsoft.com/#vs-section). If you're looking for the equivalent in [Visual Studio Code](https://visualstudio.microsoft.com/#vscode-section)&mdash;also known as **VS Code**&mdash;see [Command Line Interface (CLI)](https://code.visualstudio.com/docs/editor/command-line).
 
 ## Start in Visual Studio
 
