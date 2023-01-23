@@ -243,4 +243,3 @@ The Project Location can be adjusted in **Tools** > **Options** > **Projects &am
 - [Windows Terminal](/windows/terminal/)
 - [.NET Framework Tools](/dotnet/framework/tools/index)
 - [Use the Microsoft C++ toolset from the command line](/cpp/build/building-on-the-command-line)
-- [Visual Studio Code users](https://code.visualstudio.com/docs/cpp/config-msvc#:~:text=To%20open%20the%20Developer%20Command,item%20to%20open%20the%20prompt.)
