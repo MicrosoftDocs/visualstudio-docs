@@ -2,7 +2,7 @@
 title: Install Visual Studio
 titleSuffix: ''
 description: Learn how to install Visual Studio, step-by-step.
-ms.date: 09/14/2021
+ms.date: 01/23/2023
 ms.custom: vs-acquisition
 ms.topic: conceptual
 helpviewer_keywords:
@@ -100,16 +100,16 @@ Next, download the Visual Studio bootstrapper file.
 
 ::: moniker range="vs-2019"
 
-To do so, choose the following button, choose the edition of Visual Studio that you want, choose **Save**, and then choose **Open folder**.
+To do so, select the following button, and choose the edition of Visual Studio that you want to download to your **Downloads** folder.
 
  > [!div class="button"]
- > [Download Visual Studio](https://visualstudio.microsoft.com/downloads)
+ > [Download Visual Studio](/visualstudio/releases/2019/release-notes/)
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-To do so, select the following button, choose the edition of Visual Studio that you want, and then save to your **Downloads** folder.
+To do so, select the following button, and choose the edition of Visual Studio that you want to download to your **Downloads** folder.
 
  > [!div class="button"]
  > [Download Visual Studio](https://visualstudio.microsoft.com/downloads)
@@ -120,11 +120,21 @@ To do so, select the following button, choose the edition of Visual Studio that 
 
 Run the bootstrapper file to install the Visual Studio Installer. This new lightweight installer includes everything you need to both install and customize Visual Studio.
 
+::: moniker range="vs-2019"
+
 1. From your **Downloads** folder, double-click the bootstrapper that matches or is similar to one of the following files:
 
    * **vs_community.exe** for Visual Studio Community
    * **vs_professional.exe** for Visual Studio Professional
    * **vs_enterprise.exe** for Visual Studio Enterprise
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+1. From your **Downloads** folder, double-click the bootstrapper **VisualStudioSetup.exe** to start the install.
+
+::: moniker-end
 
    If you receive a User Account Control notice, choose **Yes**.
 
@@ -144,7 +154,7 @@ Run the bootstrapper file to install the Visual Studio Installer. This new light
 
 ## Step 4 - Choose workloads
 
-After the installer is installed, you can use it to customize your installation by selecting the feature sets—or workloads—that you want. Here's how.
+After the Visual Studio Installer is installed, you can use it to customize your installation by selecting the feature sets—or workloads—that you want. Here's how.
 
 ::: moniker range="vs-2019"
 
@@ -164,7 +174,7 @@ After the installer is installed, you can use it to customize your installation 
 
 1. Select the workload you want in the **Visual Studio Installer**.
 
-   ![Screenshot showing the Workloads tab of the Visual Studio Installer.](../install/media/vs-2022/vs-installer-workloads.png "Install Visual Studio workloads")
+   ![Screenshot showing the Workloads tab of the Visual Studio Installer.](media/vs-2022/vs-installer-workloads.png "Install Visual Studio workloads")
 
      Review the workload summaries to decide which workload supports the features you need. For example, choose the **ASP.NET and web development** workload to edit ASP.NET Web pages with Web Live Preview or build responsive web apps with Blazor, or choose from **Desktop & Mobile** workloads to develop cross-platform apps with C#, or C++ projects that target C++20.
 
@@ -213,13 +223,27 @@ By default, the installer program tries to match the language of the operating s
 
 ::: moniker range="<=vs-2019"
 
-Another way that you can change the default language is by running the installer from the command line. For example, you can force the installer to run in English by using the following command: `vs_installer.exe --locale en-US`. The installer will remember this setting when it is run the next time. The installer supports the following language tokens: zh-cn, zh-tw, cs-cz, en-us, es-es, fr-fr, de-de, it-it, ja-jp, ko-kr, pl-pl, pt-br, ru-ru, and tr-tr.
+Another way that you can change the default language is by running the installer from the command line. 
+For example, you can force the installer to run in English by using the following command: 
+
+  ```shell
+  vs_installer.exe --locale en-US
+  ```
+
+The installer will remember this setting when it is run the next time. The installer supports the following language tokens: zh-cn, zh-tw, cs-cz, en-us, es-es, fr-fr, de-de, it-it, ja-jp, ko-kr, pl-pl, pt-br, ru-ru, and tr-tr.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-Another way that you can change the default language is by running the installer from the command line. For example, you can force the installer to run in English by using the following command: `vs_installer.exe --locale en-US`. The installer will remember this setting when it's run the next time. The installer supports these [language locales](/visualstudio/install/use-command-line-parameters-to-install-visual-studio?view=vs-2022&preserve-view=true#list-of-language-locales): zh-cn, zh-tw, cs-cz, en-us, es-es, fr-fr, de-de, it-it, ja-jp, ko-kr, pl-pl, pt-br, ru-ru, and tr-tr.
+Another way that you can change the default language is by running the installer from the command line. 
+For example, you can force the installer to run in English by using the following command: 
+
+  ```shell
+  vs_installer.exe --locale en-US
+  ```
+
+The installer will remember this setting when it's run the next time. The installer supports these [language locales](/visualstudio/install/use-command-line-parameters-to-install-visual-studio?view=vs-2022&preserve-view=true#list-of-language-locales): zh-cn, zh-tw, cs-cz, en-us, es-es, fr-fr, de-de, it-it, ja-jp, ko-kr, pl-pl, pt-br, ru-ru, and tr-tr.
 
 ::: moniker-end
 
@@ -242,7 +266,7 @@ You can reduce the installation footprint of Visual Studio on your system drive.
 ::: moniker-end
 
 > [!IMPORTANT]
-> You can select a different drive for **Visual Studio IDE** or **download cache** only when you first install Visual Studio. If you've already installed it and want to change drives, you must uninstall Visual Studio and then reinstall it.
+> You can select a different drive for **Visual Studio IDE** or **Download cache** only when you first install Visual Studio. If you've already installed it and want to change drives, you must uninstall Visual Studio and then reinstall it.
 >
 > If you've installed Visual Studio on your computer before, you won't be able to change the **Shared components, tools, and SDKs** path and it will appear greyed out. This location is shared by all installations of Visual Studio.
 
