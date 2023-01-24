@@ -133,7 +133,7 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
      1. Select the ![Tools&#47; Options&#47; Debugging&#47;Symbols new server icon](media/dbg_tools_options_foldersicon.png "Tools &#45; Options &#45; Debugging &#45; Symbols new server icon") icon in the toolbar.
      1. In the **Connect to Azure DevOps Symbol Server** dialog, choose one of the available symbol servers, and select **Connect**.
 
-        For additional information, see [Add Azure Artifacts symbol server](/azure/devops/artifacts/symbols/debug-with-symbols-visual-studio?view=azure-devops#add-azure-artifacts-symbol-server).
+        For additional information, see [Add Azure Artifacts symbol server](/azure/devops/artifacts/symbols/debug-with-symbols-visual-studio#add-azure-artifacts-symbol-server).
 
    - To change the loading order for the symbol locations, use **Ctrl**+**Up** and **Ctrl**+**Down**, or the **Up** and **Down** arrow icons.
    - To edit a URL or path, double-click the entry, or select it and press **F2**.
