@@ -2,7 +2,7 @@
 title: Visual Studio administrator guide
 titleSuffix: ''
 description: Learn more about how to deploy Visual Studio in an enterprise environment.
-ms.date: 12/1/2022
+ms.date: 1/20/2023
 ms.topic: overview
 helpviewer_keywords:
 - network installation, Visual Studio
@@ -39,21 +39,23 @@ You will need to make a plan for how you deploy Visual Studio across your organi
 
 ::: moniker-end
 
-- Clarify your security and compatibility needs. Do you need to ensure that your organization is always running the latest and most secure software?   
+- Clarify your security and compatibility needs. Microsoft recommends that your organization always uses the latest and most secure software.
 
 ::: moniker range="=vs-2019"
 
-If your company needs to stay on a feature set longer but still wants to get regular servicing security updates, you should plan to use a servicing baseline. For more information about security baselines, see the **Support options for Enterprise and Professional customers** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing-vs2019#support-options-for-enterprise-and-professional-customers) page.  
+ - Make sure you understand the support options for Enterprise and Professional customers. For more information, refer to the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing-vs2019#support-options-for-enterprise-and-professional-customers) page.  
   
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-If your company needs to stay on a feature set longer but still wants to get regular servicing security updates, you should plan to use a long-term servicing channel (LTSC). For more information, see the **Support options for Enterprise and Professional customers** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2022/servicing-vs2022#enterprise-professional-and-build-tools-editions-support) page.  
+- If your company needs to stay on a feature set longer but still wants to get regular servicing security updates, you should plan to use a long-term servicing channel (LTSC). For more information, see the **Support options for Enterprise and Professional customers** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2022/servicing-vs2022#enterprise-professional-and-build-tools-editions-support) page.  
   
 ::: moniker-end  
 
-- Decide how the product should be installed and initialized
+- Follow [Windows security baselines](/windows/security/threat-protection/windows-security-baselines). Microsoft is dedicated to providing its customers with secure operating systems, such as Windows 10 and Windows Server, and secure apps, such as Microsoft Edge. In addition to the security assurance of its products, Microsoft also enables you to have fine control over your environments by providing various configuration capabilities.
+
+### Plan for how Visual Studio should be installed and initialized 
 
    - How does Visual Studio get originally installed on the machine? The action of installing Visual Studio requires administrative privileges on the machine. Do users have the ability to install the product themselves or will an IT admin need to facilitate it through an elevated process?
 
@@ -63,7 +65,7 @@ If your company needs to stay on a feature set longer but still wants to get reg
 
    - Which [workloads and components](workload-and-component-ids.md) does your company need?  
    
-- Decide on the update model.
+### Plan for how Visual Studio will be regularly updated
 
    - Where should your client machines acquire the product updates from? This often depends on if clients have access to the internet or not. Should they get their updates from an IT managed and maintained [company-wide network layout](update-a-network-installation-of-visual-studio.md), or should they acquire the updates from the internet? 
    - Who is allowed to update the client machines? Currently, the action of updating Visual Studio requires administrative privileges on the machine. Are users allowed to update their machines, or does an admin need to invoke it centrally or programatically via a system context process? 
@@ -72,11 +74,9 @@ If your company needs to stay on a feature set longer but still wants to get reg
 > [!Tip] 
 > We encourage all organizations to [enroll their client machines into Visual Studio Administrator Updates](https://aka.ms/vs/admin/updates/au/blog), a system which delivers security updates on a monthly basis to devices that are enrolled in [Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb).   
 
-- Follow [Windows security baselines](/windows/security/threat-protection/windows-security-baselines). Microsoft is dedicated to providing its customers with secure operating systems, such as Windows 10 and Windows Server, and secure apps, such as Microsoft Edge. In addition to the security assurance of its products, Microsoft also enables you to have fine control over your environments by providing various configuration capabilities.
-
 ## Install Visual Studio
 
-The following resources will help you do the initial install of Visual Studio in common enterprise scenarios.
+The following resources will help you do the initial install of Visual Studio in common enterprise scenarios. You'll typically only have to do this once.
 
 - **[Review the Install Visual Studio documentation](install-visual-studio.md)** to get a high level overview of the installation options available to end users. [Select the workloads and components](workload-and-component-ids.md) that you want available for install on your client machines.  
 
@@ -84,7 +84,7 @@ The following resources will help you do the initial install of Visual Studio in
 
 - **[Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)**. Use a variety of parameters to programmatically control or customize your Visual Studio installation. You can build an installation script that automates the installation process. For more information, see [command line parameter examples](command-line-parameter-examples.md).
 
-- **[Create a layout (network installation) of Visual Studio](create-a-network-installation-of-visual-studio.md)**. A layout is a cache of the Visual Studio files in a folder on your network that you can use for both the initial installation as well as all product updates. A layout can be used if your client machines have limited internet connectivity. You can use a [response file](automated-installation-with-response-file.md), which allows you to set defaults when [installing the product onto client machines using the layout as a source](create-a-network-installation-of-visual-studio.md#install-visual-studio-onto-a-client-machine-from-a-network-installation). After your layout is created, you should [maintain it regularly](create-a-network-installation-of-visual-studio.md#update-or-modify-your-layout). 
+- **[Create a layout (network installation) of Visual Studio](create-a-network-installation-of-visual-studio.md)**. A layout is a cache of the Visual Studio files in a folder on your network that you can use for both the initial installation as well as all product updates. A layout can be used if your client machines have limited internet connectivity. You can use a [response file](automated-installation-with-response-file.md), which allows you to set defaults when [installing the product onto client machines using the layout as a source](create-a-network-installation-of-visual-studio.md#install-visual-studio-onto-a-client-machine-from-a-network-installation). After your layout is created, you should [maintain it regularly](create-a-network-installation-of-visual-studio.md#update-or-modify-your-layout). Remember to make sure that either the user or system account that's running the update has proper access to the network share that contains the layout. For more information, refer to [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md#error-the-product-fails-to-install-or-update-because-network-share-permissions-arent-configured-correctly).
 
 - **[Install required certificates for offline installation](/visualstudio/install/install-certificates-for-visual-studio-offline)**. Install necessary certificates if the client machine is completely disconnected from the internet.
 
@@ -96,7 +96,7 @@ The following resources will help you do the initial install of Visual Studio in
 
 ## Update Visual Studio
 
-The following resources will help you keep your Visual Studio updated, current, and secure.
+The following resources will help you keep your Visual Studio updated, current, and secure. Best practice is to plan for monthly updates.
 
 - **[Review the Update Visual Studio documentation](update-visual-studio.md)** to get a high level overview of the update options available to end users, and how end users are notified that updates are available.  
 

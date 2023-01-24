@@ -16815,8 +16815,8 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/debugger/view-data-ienumerable-table-visualizer.md",
-      "redirect_url": "/visualstudio/debugger/view-data-in-ienumerable-visualizer",
+      "source_path": "docs/debugger/view-data-in-ienumerable-visualizer.md",
+      "redirect_url": "/visualstudio/debugger/view-data-in-tabular-visualizer",
       "redirect_document_id": true
     }
   ]
