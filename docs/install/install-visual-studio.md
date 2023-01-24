@@ -270,11 +270,7 @@ You can reduce the installation footprint of Visual Studio on your system drive.
 >
 > If you've installed Visual Studio on your computer before, you won't be able to change the **Shared components, tools, and SDKs** path and it will appear greyed out. This location is shared by all installations of Visual Studio.
 
-## Step 8 - Start the Visual Studio install
-
-Select **Install** to start installing Visual Studio.
-
-## Step 9 - Start developing
+## Step 8 - Start developing
 
 ::: moniker range="vs-2019"
 
