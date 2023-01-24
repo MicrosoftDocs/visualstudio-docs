@@ -3,7 +3,7 @@ title: 'Command-line shells & prompt for developers'
 description:  Start from the Tools > Command Line menu. Select the Visual Studio Developer Command Prompt, Developer PowerShell, or terminal to use .NET and C++ tools more easily.
 author: TerryGLee
 ms.author: tglee
-ms.date: 12/15/2022
+ms.date: 01/23/2023
 ms.topic: conceptual
 ms.custom: contperf-fy21q4
 helpviewer_keywords:
@@ -47,6 +47,9 @@ Starting in [Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/say
 ::: moniker range="vs-2019"
 :::image type="content" source="media/developer-command-prompt-for-vs/vs-terminal.png" alt-text="Screenshot of the Visual Studio terminal showing multiple tabs.":::
 ::: moniker-end
+
+> [!TIP]
+> This page describes how to use the command-line shells in [Visual Studio](https://visualstudio.microsoft.com/#vs-section). If you're looking for the equivalent in [Visual Studio Code](https://visualstudio.microsoft.com/#vscode-section)&mdash;also known as **VS Code**&mdash;see [Command Line Interface (CLI)](https://code.visualstudio.com/docs/editor/command-line) and [Terminal Basics](https://code.visualstudio.com/docs/terminal/basics).
 
 When you open one of the developer shells from Visual Studio, either as a separate app or in the Terminal window, it opens to the directory of your current solution (if you have a solution loaded). This behavior makes it convenient to run commands against the solution or its projects.
 
@@ -240,4 +243,3 @@ The Project Location can be adjusted in **Tools** > **Options** > **Projects &am
 - [Windows Terminal](/windows/terminal/)
 - [.NET Framework Tools](/dotnet/framework/tools/index)
 - [Use the Microsoft C++ toolset from the command line](/cpp/build/building-on-the-command-line)
-- [Visual Studio Code users](https://code.visualstudio.com/docs/cpp/config-msvc#:~:text=To%20open%20the%20Developer%20Command,item%20to%20open%20the%20prompt.)
