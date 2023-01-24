@@ -1,7 +1,7 @@
 ---
 title: "Symbol / PDB files in the Visual Studio debugger"
 titleSuffix: ""
-description: "Learn how symbol & source files and how do configure them in the Visual Studio debugger."
+description: "Learn how to configure symbol & source files and how to configure them in the Visual Studio debugger."
 ms.date: "01/24/2023"
 ms.custom: "contperf-fy21q4"
 ms.topic: "how-to"
