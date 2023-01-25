@@ -2,7 +2,7 @@
 title: "Create a Windows Forms app with C#"
 description: "Learn how to create a Windows Forms app in Visual Studio with C#, step-by-step."
 ms.custom: "vs-acquisition, get-started"
-ms.date: 11/08/2021
+ms.date: 1/24/2023
 ms.topic: tutorial
 ms.devlang: CSharp
 author: anandmeg
@@ -18,7 +18,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In this short introduction to the Visual Studio integrated development environment (IDE), you'll create a simple C# application that has a Windows-based user interface (UI).
+In this tutorial, you'll create a simple C# application that has a Windows-based user interface (UI).
 
 ::: moniker range="vs-2019"
 
@@ -82,7 +82,7 @@ First, you'll create a C# application project. The project type comes with all t
 
 1. On the **Create a new project** window, select the **Windows Forms App (.NET Framework)** template for C#.
 
-   (If you prefer, you can refine your search to quickly get to the template you want. For example, enter or type *Windows Forms App* in the search box. Next, select **C#** from the Language list, and then select **Windows** from the Platform list.)  
+   (If you prefer, you can refine your search to quickly get to the template you want. For example, enter or type *Windows Forms App* in the search box. Next, select **C#** from the **Language** list, and then select **Windows** from the **Platform** list.)  
 
     :::image type="content" source="media/vs-2022/csharp-winform-create-a-new-project.png" alt-text="Screenshot to select the C# template for the Windows Forms App (.NET Framework).":::
 
@@ -99,7 +99,7 @@ First, you'll create a C# application project. The project type comes with all t
 
 1. In the **Configure your new project** window, type or enter *HelloWorld* in the **Project name** box. Then, select **Create**.
 
-    :::image type="content" source="media/vs-2022/csharp-winform-configure-new-project.png" alt-text="Screenshot to show the 'Configure your new project' window and name your project 'HelloWorld'":::
+    :::image type="content" source="media/vs-2022/csharp-winform-configure-new-project.png" alt-text="Screenshot to show the 'Configure your new project' window and name your project 'HelloWorld'.":::
 
    Visual Studio opens your new project.
 
@@ -115,7 +115,7 @@ After you select your C# project template and name your file, Visual Studio open
 
      (If you don't see the **Toolbox** fly-out option, you can open it from the menu bar. To do so, **View** > **Toolbox**. Or, press **Ctrl**+**Alt**+**X**.)
 
-1. Select the **Pin** icon to dock the **Toolbox** window.
+1. Expand **Common Controls** and select the **Pin** icon to dock the **Toolbox** window.
 
      :::image type="content" source="media/vs-2022/csharp-winform-toolbox-flyout-pin.png" alt-text="Screenshot to select the Pin icon to pin the Toolbox window to the IDE.":::
 
@@ -216,7 +216,7 @@ Now that we've added a button control to create an action, let's add a label con
 
 1. In the **Form1.cs &#91;Design&#93;** window, double-click the **Click this** button to open the **Form1.cs** window.
 
-      (Alternatively, you can expand **Form1.cs** in **Solution Explorer**, and then choose **Form1**.)
+      (Alternatively, you can expand **Form1.cs** in **Solution Explorer**, and then choose **View Code**(or press **F7**) from the right-click menu on  **Form1.cs**.)
 
 1. In the **Form1.cs** window, after the **private void** line, type or enter `lblHelloWorld.Text = "Hello World!";` as shown in the following screenshot:
 
@@ -240,7 +240,7 @@ Now that we've added a button control to create an action, let's add a label con
 
 ## Next steps
 
-To learn more, continue with the following tutorial:
+Congratulations on completing this tutorial. To learn more, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
 > [Tutorial: Create a picture viewer](tutorial-windows-forms-picture-viewer-layout.md)

@@ -3,7 +3,7 @@ title: "Deploy your Visual Studio app to a folder, IIS, Azure, or another destin
 titleSuffix: ""
 description: Learn more about publishing options for your app using the Publish tool.
 ms.custom: [SEO-VS-2020, "contperf-fy21q1"]
-ms.date: 03/29/2022
+ms.date: 01/25/2023
 ms.topic: "ui-reference"
 f1_keywords:
 - vs.publish

@@ -2,7 +2,7 @@
 title: Uninstall or remove Visual Studio
 titleSuffix: ''
 description: Learn how to uninstall or remove Visual Studio, step-by-step.
-ms.date: 01/05/2022
+ms.date: 01/25/2023
 ms.custom: vs-acquisition
 ms.topic: how-to
 f1_keywords:
@@ -14,7 +14,7 @@ manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-# Uninstall or Remove Visual Studio 
+# Uninstall or remove Visual Studio 
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -52,9 +52,9 @@ If you change your mind later and want to reinstall Visual Studio 2019, start th
 
 ## Uninstall Visual Studio
 
-To remove all installations of Visual Studio 2019, and the Visual Studio Installer from your machine, uninstall it from Apps & Features.
+To remove all installations of Visual Studio 2019, and the Visual Studio Installer from your machine, uninstall it from Installed apps.
 
-1. In Windows 10 or later, type **Apps and Features** in the "Type here to search" box.
+1. In Windows 10 or later, type **Add or remove programs** in the "Type here to search" box.
 1. Find **Visual Studio 2019**.
 1. Choose **Uninstall**.
 1. Then, find **Microsoft Visual Studio Installer**.
@@ -89,9 +89,9 @@ If you change your mind later and want to reinstall 2022, start the Visual Studi
 
 ## Uninstall Visual Studio
 
-To remove all installations of Visual Studio 2022, and the Visual Studio Installer from your machine, uninstall it from Apps & Features.
+To remove all installations of Visual Studio 2022, and the Visual Studio Installer from your machine, uninstall it from Installed apps.
 
-1. In Windows 10 or later, type **Apps and Features** in the "Type here to search" box.
+1. In Windows 10 or later, type **Add or remove programs** in the "Type here to search" box.
 1. Find **Visual Studio 2022**.
 1. Choose **Uninstall**.
 1. Then, find **Microsoft Visual Studio Installer**.
