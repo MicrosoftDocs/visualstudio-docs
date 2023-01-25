@@ -221,13 +221,19 @@ Now that the extension is published, install it in Visual Studio and test it the
 
 You can remove the extension from Visual Studio Marketplace and from your computer.
 
-### To remove the extension from Visual Studio Marketplace
+### To remove/unpublish the extension from Visual Studio Marketplace
 
 1. Go to [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs).
 
-2. In the upper-right hand corner, click **Publish** extensions. Pick the publisher that you used to publish **TestPublish**. The listing for **TestPublish** appears.
+2. In the upper-right hand corner, click **Publish** extensions. Pick the publisher that you used to publish (eg: **TestPublish**). The listing for extensions will appear.
 
-3. Right-click on the extension entry and click **Remove**. You are asked to confirm if you want to remove the extension. Click **OK**.
+3. Click on extenion menu button → click **Remove**. You are asked to confirm if you want to remove the extension.
+
+![Remove-extension](media/remove-extension.png)
+
+To prevent accidental unpublishing, you must confirm the remove operation by filling extension name in the warning dialog. Note that remove/unpublish action is non-reversible
+
+![Remove-warning](/remove-warning.png)
 
 ### To remove the extension from your computer
 
