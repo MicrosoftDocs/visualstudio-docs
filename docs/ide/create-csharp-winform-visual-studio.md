@@ -216,7 +216,7 @@ Now that we've added a button control to create an action, let's add a label con
 
 1. In the **Form1.cs &#91;Design&#93;** window, double-click the **Click this** button to open the **Form1.cs** window.
 
-      (Alternatively, you can expand **Form1.cs** in **Solution Explorer**, and then choose **Form1**.)
+      (Alternatively, you can expand **Form1.cs** in **Solution Explorer**, and then choose **View Code**(or press **F7**) from the right-click menu on  **Form1.cs**.)
 
 1. In the **Form1.cs** window, after the **private void** line, type or enter `lblHelloWorld.Text = "Hello World!";` as shown in the following screenshot:
 
