@@ -99,14 +99,15 @@ The following list shows built-in tags that are available in Visual Studio. Corr
 | JavaScript (`javascript`) | macOS (`macos`) | Games (`games`) |
 | Python (`python`) | tvOS (`tvos`) | IoT (`iot`) |
 | Query Languate (`querylanguage`) | Windows (`windows`) | Library (`library`) |
-| TypeScript (`typescript`) | Xbox (`xbox`) | Machine Learning (`machinelearning`) |
-| Visual Basic (`visualbasic`) | | Mobile (`mobile`) |
-| | | Office (`office`) |
+| TypeScript (`typescript`) | Windows App SDK (`windowsappsdk`) | Machine Learning (`machinelearning`) |
+| Visual Basic (`visualbasic`) | Xbox (`xbox`) | Mobile (`mobile`) |
+| XAML (`xaml`) | | Office (`office`) |
 | | | Other (`other`) |
 | | | Service (`service`) |
 | | | Test (`test`) |
 | | | UWP (`uwp`) |
 | | | Web (`web`) |
+| | | WinUI (`winui`) |
 
 ## Example
 
