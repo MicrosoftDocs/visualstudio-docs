@@ -4,6 +4,7 @@
 echo "Uninstalling Visual Studio for Mac..."
 
 sudo rm -rf "/Applications/Visual Studio.app"
+sudo rm -rf "/Applications/Visual\ Studio\ \(Preview\).app"
 rm -rf ~/Library/Caches/VisualStudio
 rm -rf ~/Library/Preferences/VisualStudio
 rm -rf ~/Library/Preferences/Visual\ Studio
