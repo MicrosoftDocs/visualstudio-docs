@@ -1,8 +1,8 @@
 ---
 title: "Symbol / PDB files in the Visual Studio debugger"
 titleSuffix: ""
-description: "Learn how symbol & source files and how do configue them in the Visual Studio debugger."
-ms.date: "12/13/2022"
+description: "Learn how to configure symbol & source files and how to configure them in the Visual Studio debugger."
+ms.date: "01/24/2023"
 ms.custom: "contperf-fy21q4"
 ms.topic: "how-to"
 f1_keywords:
@@ -128,9 +128,12 @@ On the **Tools** > **Options** > **Debugging** > **Symbols** page, you can:
      >[!NOTE]
      >Only the specified folder is searched. You must add entries for any subfolders that you want to search.
 
-   - To add a new VSTS Symbol Server location,
+   - To add a new Azure DevOps Symbol Server location:
+
      1. Select the ![Tools&#47; Options&#47; Debugging&#47;Symbols new server icon](media/dbg_tools_options_foldersicon.png "Tools &#45; Options &#45; Debugging &#45; Symbols new server icon") icon in the toolbar.
-     1. In the **Connect to VSTS Symbol Server** dialog, choose one of the available symbol servers, and select **Connect**.
+     1. In the **Connect to Azure DevOps Symbol Server** dialog, choose one of the available symbol servers, and select **Connect**.
+
+        For additional information, see [Add Azure Artifacts symbol server](/azure/devops/artifacts/symbols/debug-with-symbols-visual-studio#add-azure-artifacts-symbol-server).
 
    - To change the loading order for the symbol locations, use **Ctrl**+**Up** and **Ctrl**+**Down**, or the **Up** and **Down** arrow icons.
    - To edit a URL or path, double-click the entry, or select it and press **F2**.
