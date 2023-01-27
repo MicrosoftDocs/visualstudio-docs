@@ -2,7 +2,7 @@
 title: Publish ClickOnce application using Publish wizard
 description: Learn about using the Publish Wizard to make your ClickOnce application available to users, including which publishing properties to use.
 ms.custom: SEO-VS-2020
-ms.date: 06/16/2022
+ms.date: 01/27/2023
 ms.topic: how-to
 dev_langs: 
   - VB
@@ -38,7 +38,7 @@ Before you run the Publish Wizard, you should set the publishing properties appr
 
 1. In **Solution Explorer**, select the application project.
 
-2. On the **Build** menu, click **Publish** *Projectname*.
+2. On the **Build** menu, choose either **Publish** *Projectname* or **Publish Selection**.
 
     The Publish Wizard appears.
 
