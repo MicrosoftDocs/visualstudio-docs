@@ -390,6 +390,8 @@ Output:
 -->
 ```
 
+Because `KeepDuplicates` attribute considers the metadata of items in addition to the item values, it is important to know what's happening with the metadata for items. For example, see [Detecting duplicates when using the Metadata item function](./item-functions.md#detecting-duplicate-items-when-using-the-metadata-item-function).
+
 ## Updating metadata on items in an ItemGroup outside of a Target
 
 Items outside of targets can have their existing metadata updated via the `Update` attribute. This attribute is **not** available for items under targets.
