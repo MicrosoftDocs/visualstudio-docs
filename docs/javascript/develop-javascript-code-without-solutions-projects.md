@@ -24,7 +24,7 @@ Starting in Visual Studio 2017, you can [develop code without projects or soluti
 To get started, select **File** > **Open** > **Folder** from the toolbar. Solution Explorer displays all the files in the folder, and you can open any of the files to begin editing. In the background, Visual Studio indexes the files to enable npm, build, and debug features.
 
 > [!TIP]
-> Before using an Open Folder project, try creating a solution from existing Node.js code. In some scenarios, this feature provides better feature support in Visual Studio. To create the project, choose **File > New Project > JavaScript > From Existing Node.js code**, and then choose your project folder as the source.
+> Before using an Open Folder project, try creating a solution from existing Node.js code. In some scenarios, this method provides better feature support in Visual Studio. To create the project, choose **File > New Project > JavaScript > From Existing Node.js code**, and then choose your project folder as the source.
 
 ## Prerequisites
 
