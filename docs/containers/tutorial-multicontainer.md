@@ -230,6 +230,8 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
           dockerfile: WebFrontEnd/Dockerfile
    ```
 
+   The `version` specified here is the [Docker Compose file version](https://docs.docker.com/compose/compose-file/#version-top-level-element).
+   
    The *.dockerignore* file contains file types and extensions that you don't want Docker to include in the container. These files are generally associated with the development environment and source control, not part of the app or service you're developing.
 
    Look at the **Container Tools** section of the output pane for details of the commands being run.  You can see the command-line tool docker-compose is used to configure and create the runtime containers.
