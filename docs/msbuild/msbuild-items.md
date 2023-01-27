@@ -390,7 +390,7 @@ Output:
 -->
 ```
 
-Because `KeepDuplicates` attribute considers the metadata of items in addition to the item values, it is important to know what's happening with the metadata for items. For example, see [Detecting duplicates when using the Metadata item function](./item-functions.md#detecting-duplicate-items-when-using-the-metadata-item-function).
+Because the `KeepDuplicates` attribute considers the metadata of items in addition to the item values, it is important to know what's happening with the metadata. For example, see [Detecting duplicates when using the Metadata item function](./item-functions.md#detecting-duplicate-items-when-using-the-metadata-item-function).
 
 ## Updating metadata on items in an ItemGroup outside of a Target
 
