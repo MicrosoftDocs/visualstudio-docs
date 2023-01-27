@@ -2,7 +2,7 @@
 title: "Choosing a ClickOnce Update Strategy | Microsoft Docs"
 description: Learn how a ClickOnce application supports automatic updates and which update strategies you can use.
 ms.custom: SEO-VS-2020
-ms.date: "11/04/2016"
+ms.date: "01/27/2023"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -36,6 +36,7 @@ ms.workload:
 > In .NET Framework 2.0 and .NET Framework 3.0, any time your application checks for updates, before or after startup, or by using the \<xref:System.Deployment.Application> APIs, you must set `deploymentProvider` in the deployment manifest. The `deploymentProvider` element corresponds in Visual Studio to the **Update location** field on the **Updates** dialog box of the **Publish** tab. This rule is relaxed in .NET Framework 3.5. For more information, see [Deploying ClickOnce Applications For Testing and Production Servers without Resigning](../deployment/deploying-clickonce-applications-for-testing-and-production-without-resigning.md).
 
 ## Check for updates after application startup
+
  By using this strategy, the application will attempt to locate and read the deployment manifest file in the background while the application is running. If an update is available, the next time that the user runs the application, he will be prompted to download and install the update.
 
  This strategy works best for low-bandwidth network connections or for larger applications that might require lengthy downloads.
@@ -54,7 +55,8 @@ ms.workload:
 ```
 
 ## Check for updates before application startup
- The default strategy is to try to locate and read the deployment manifest file before the application starts. By using this strategy, the application will attempt to locate and read the deployment manifest file every time that the user starts the application. If an update is available, it will be downloaded and started; otherwise, the existing version of the application will be started.
+
+ The default strategy is to try to locate and read the deployment manifest file before the application starts. By using this strategy, the application will attempt to locate and read the deployment manifest file every time that the user starts the application. If an update is not available, the existing version of the application will be started. If a required update is available, it will be downloaded and started. If an update is available but not required, the user is given a choice whether to upgrade or start the existing version.
 
  This strategy works best for high-bandwidth network connections; the delay in starting the application may be unacceptably long over low-bandwidth connections.
 
@@ -74,6 +76,7 @@ ms.workload:
 > For .NET Core 3.1 and .NET 5 and newer applications, checking updates before the application starts is the only update option supported.
 
 ## Make updates required
+
  There may be occasions when you want to require users to run an updated version of your application. For example, you might make a change to an external resource such as a Web service that would prevent the earlier version of your application from working correctly. In this case, you would want to mark your update as required and prevent users from running the earlier version.
 
 > [!NOTE]
@@ -88,6 +91,7 @@ ms.workload:
 ```
 
 ## Specify update intervals
+
  You can also specify how often the application checks for updates. To do this, specify that the application check for updates after startup as described in "Checking for Updates After Application Startup" earlier in this topic.
 
  To specify the update interval, set the **Specify how frequently the application should check for updates** properties in the **Application Updates** dialog box.
@@ -99,6 +103,7 @@ ms.workload:
  [!INCLUDE[ndptecclick](../deployment/includes/dotnet-feature-unsupported.md)]
 
 ## Provide a user interface for updates
+
  When using this strategy, the application developer provides a user interface that enables the user to choose when or how often the application will check for updates. For example, you might provide a "Check for Updates Now" command, or an "Update Settings" dialog box that has choices for different update intervals. The [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment APIs provide a framework for programming your own update user interface. For more information, see the <xref:System.Deployment.Application> namespace.
 
  [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
@@ -108,6 +113,7 @@ ms.workload:
  This strategy works best when you need different update strategies for different users.
 
 ## Block update checking
+
  It is also possible to prevent your application from ever checking for updates. For example, you might have a simple application that will never be updated, but you want to take advantage of the ease of installation provide by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.
 
  You should also block update checking if your application uses deployment APIs to perform its own updates; see "Provide a user interface for updates" earlier in this topic.
@@ -117,11 +123,13 @@ ms.workload:
  You can also block update checking by removing the `<Subscription>` tag from the deployment manifest.
 
 ## Permission elevation and updates
+
  If a new version of a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application requires a higher level of trust to run than the previous version, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will prompt the user, asking him if he wants the application to be granted this higher level of trust. If the user declines to grant the higher trust level, the update will not install. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will prompt the user to install the application again when it is next restarted. If the user declines to grant the higher level of trust at this point, and the update is not marked as required, the old version of the application will run. However, if the update is required, the application will not run again until the user accepts the higher trust level.
 
  No prompting for trust levels will occur if you use Trusted Application Deployment. For more information, see [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md).
 
 ## See also
+
 - <xref:System.Deployment.Application>
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)
 - [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
