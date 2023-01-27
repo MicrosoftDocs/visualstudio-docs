@@ -107,7 +107,7 @@ The following example shows how to use intrinsic item functions.
 
 ## Detecting duplicates when using the Metadata item function
 
-The `Metadata` item function preserves the original metadata of the source items. This has some implications when considering whether the items returned are duplicates or not. To control how duplicate items are handled, you can use the attribute [KeepDuplicates](./msbuild-items.md#keepduplicates-attribute). You can also remove the metadata, if it's not needed, by adding the [RemoveMetadata](./msbuild-items.md#removemetadata-attribute), in which case it won't prevent matching items from being counted as duplicates.
+The `Metadata` item function preserves the original metadata of the source items. This has some implications when considering whether the items returned are duplicates or not. To control how duplicate items are handled, you can use the attribute [KeepDuplicates](./msbuild-items.md#keepduplicates-attribute). You can also remove the metadata, if it's not needed, by adding the [RemoveMetadata](./msbuild-items.md#removemetadata-attribute), in which case only the values themselves are considered when detecting duplicates.
 
 ```xml
   <Target Name="MetadataToItem">
