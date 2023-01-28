@@ -64,7 +64,7 @@ The table below lists the intrinsic functions available for items.
 |`AnyHaveMetadataValue`|`@(MyItems->AnyHaveMetadataValue("MetadataName", "MetadataValue"))` | Returns a `boolean` to indicate whether any item has the given metadata name and value. The comparison is case insensitive. |
 |`ClearMetadata`|`@(MyItems->ClearMetadata())` |Returns items with their metadata cleared. Only the `itemspec` is retained.|
 |`HasMetadata`|`@(MyItems->HasMetadata("MetadataName"))`|Returns items that have the given metadata name. The comparison is case insensitive.|
-|`Metadata`|`@(MyItems->Metadata("MetadataName"))`|Returns the values of the metadata that have the metadata name.|
+|`Metadata`|`@(MyItems->Metadata("MetadataName"))`|Returns the values of the metadata that have the metadata name. The items returned have the same metadata as the source values.|
 |`WithMetadataValue`|`@(MyItems->WithMetadataValue("MetadataName", "MetadataValue"))`|Returns items that have the given metadata name and value. The comparison is case insensitive.|
 
 > [!NOTE]
@@ -103,6 +103,39 @@ The following example shows how to use intrinsic item functions.
     Count:   3
     Reverse: third;second;first
   -->
+```
+
+## Detecting duplicates when using the Metadata item function
+
+The `Metadata` item function preserves the original metadata of the source items. This has some implications when considering whether the items returned are duplicates or not. To control how duplicate items are handled, you can use the attribute [KeepDuplicates](./msbuild-items.md#keepduplicates-attribute). You can also remove the metadata, if it's not needed, by adding the [RemoveMetadata](./msbuild-items.md#removemetadata-attribute), in which case only the values themselves are considered when detecting duplicates.
+
+```xml
+  <Target Name="MetadataToItem">
+    <ItemGroup>
+      <Sample Include="AAA" SomeItems="1;2;3" />
+      <Sample Include="BBB" SomeItems="3;4;5" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AllSomeItems Include="@(Sample->Metadata('SomeItems'))" KeepDuplicates="false" />
+    </ItemGroup>
+    <Message Text="AllSomeItems is @(AllSomeItems)" />
+  </Target>
+```
+
+The output is as follows:
+
+```output
+MetadataToItem:
+  AllSomeItems is 1;2;3;3;4;5
+```
+
+The following change to the code results in the duplicate item value being successfully detected and removed:
+
+```xml
+    <ItemGroup>
+      <AllSomeItems Include="@(Sample->Metadata('SomeItems'))" KeepDuplicates="false" RemoveMetadata="SomeItems" />
+    </ItemGroup>
 ```
 
 ## MSBuild condition functions
