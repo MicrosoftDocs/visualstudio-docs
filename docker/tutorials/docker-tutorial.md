@@ -44,7 +44,7 @@ In this tutorial, you learn how to:
 - [Docker Desktop](https://docs.docker.com/desktop/).
 - A [Docker Hub](https://hub.docker.com/signup) account. You can create an account for free.
 
-The tutorial works with the Windows 10 or later and Docker set to use Linux containers.
+The tutorial works with Windows 10 or later and Docker Desktop configured to use Linux containers.
 
 ## Create a container
 
