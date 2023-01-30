@@ -114,7 +114,7 @@ To filter tenants that are associated with your Visual Studio account, open the 
 
 The **Filter account** dialog will appear, allowing you to select which tenants you want to use with your account. 
 
-:::image type="content" source="media/vs-2022/select-filter-account.png" alt-text=4"Select account to filter.":::
+:::image type="content" source="media/vs-2022/select-filter-account.png" alt-text="Select account to filter.":::
 
 After you deselect the tenant to filter, the **Account Settings** and the **Filter account** dialogs will show filtered state.
 
