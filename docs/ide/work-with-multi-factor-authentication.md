@@ -69,7 +69,10 @@ Clicking on **Re-enter your credentials** will open your system's default web br
 > [!NOTE] 
 > For the best experience, keep your browser open until all CA/MFA policies are validated for your resources. Closing the browser may result in losing the previously built MFA state, and may prompt additional authorization prompts.
 
-### Troubleshooting CA/MFA sign in issues
+### Troubleshooting sign in issues
+
+#### Dealing with CA/MFA issues
+
 If you're experiencing CA/MFA issues and/or are unable to log in even when using the system web browser, try the following steps to resolve the issue:
 
 1. [Sign out](signing-in-to-visual-studio.md#sign-out-of-account) of the account in Visual Studio.
@@ -79,17 +82,30 @@ If you're experiencing CA/MFA issues and/or are unable to log in even when using
 > [!NOTE]
 > After these steps you'll likely be able to log in, but your account will be put in a filtered state. While in a filtered state, only your account's default tenant and resources will be available. All other Azure Active Directory tenants and resources will become inaccessible, but you can [manually add them back](#how-to-opt-out-of-using-a-specific-azure-active-directory-tenant-in-visual-studio).
 
+#### Dealing with pre-authorization issues
+
+:::image type="content" source="media/vs-2022/pre-auth-general.png" alt-text="Pre-authorization error dialog." border="false":::
+
+Starting with the 17.5 version of Visual Studio 2022, if you see the above error dialog, try the following steps to resolve the issue:
+
+1. [Sign out](signing-in-to-visual-studio.md#sign-out-of-account) of the account in Visual Studio.
+1. Sign in again.
+1. Create a new [Report a Problem](https://developercommunity.visualstudio.com/VisualStudio/report) ticket explaining the activity you were doing and/or resource you were trying to access before encountering the problem.
+
+> [!NOTE]
+> Creating a ticket is important as it will help us identify problematic areas and provide the needed logs to address the issue in a timely manner.
+
 ### Troubleshooting sign in issues with Goverment Clouds
 
 :::image type="content" source="media/vs-2022/pre-auth-gov.png" alt-text="Goverment cloud sign in error." border="false":::
 
-Starting with the 17.5 version of Visual Studio 2022, if you see the above dialog or experience issues during sign in operations, you are likely experiencing a temporary problem with our sign in systems. Try the following steps to resolve the issue:
+Starting with the 17.5 version of Visual Studio 2022, if you see the above dialog or experience issues during sign in operations, try the following steps to resolve the issue:
 
 1. Close Visual Studio.
 1. Open the respective "Developer Command Prompt" for your Visual Studio installation.
-1. Enter 'Set DisableWAMClientIdForVS=true'. Alternatively, you can use 'Setx DisableWAMClientIdForVS=true' to set it system wide (outside the context of the Developer Command Prompt) and skip the next step.
+1. Enter 'Set DisableWAMClientIdForVS=true'. Alternatively, you can use 'Setx DisableWAMClientIdForVS=true' to set it system wide (outside the context of the Developer Command Prompt) and avoid always having to re-launch from the Developer Command Prompt.
 1. While on the same command prompt, open Visual Studio by entering devenv.
-1. Re-aunch Visual Studio and sign in again.
+1. Sign in again.
 
 > [!NOTE]
 > This workaround should only be needed temporarily. We expect future versions to automatically work without any user action.
