@@ -69,7 +69,7 @@ Clicking on **Re-enter your credentials** will open your system's default web br
 > [!NOTE] 
 > For the best experience, keep your browser open until all CA/MFA policies are validated for your resources. Closing the browser may result in losing the previously built MFA state, and may prompt additional authorization prompts.
 
-### Troubleshooting sign in issues
+### Troubleshooting CA/MFA sign in issues
 If you're experiencing CA/MFA issues and/or are unable to log in even when using the system web browser, try the following steps to resolve the issue:
 
 1. [Sign out](signing-in-to-visual-studio.md#sign-out-of-account) of the account in Visual Studio.
@@ -77,7 +77,22 @@ If you're experiencing CA/MFA issues and/or are unable to log in even when using
 1. Sign in again.
 
 > [!NOTE]
-> After these steps you'll likely be able to log in, but your account will be put in a filtered state. While in a filtered state, only your account's default tenant and resources will be available. All other Azure Active Directory tenants and resources will become inaccessible, but you can [manually add them back](#how-to-opt-out-of-using-a-specific-azure-active-directory-tenant-in-visual-studio). 
+> After these steps you'll likely be able to log in, but your account will be put in a filtered state. While in a filtered state, only your account's default tenant and resources will be available. All other Azure Active Directory tenants and resources will become inaccessible, but you can [manually add them back](#how-to-opt-out-of-using-a-specific-azure-active-directory-tenant-in-visual-studio).
+
+### Troubleshooting sign in issues with Goverment Clouds
+
+:::image type="content" source="media/vs-2022/pre-auth-gov.png" alt-text="Goverment cloud sign in error." border="false":::
+
+Starting with the 17.5 version of Visual Studio 2022, if you see the above dialog or experience issues during sign in operations, you are likely experiencing a temporary problem with our sign in systems. Try the following steps to resolve the issue:
+
+1. Close Visual Studio.
+1. Open the respective "Developer Command Prompt" for your Visual Studio installation.
+1. Enter 'Set DisableWAMClientIdForVS=true'. Alternatively, you can use 'Setx DisableWAMClientIdForVS=true' to set it system wide (outside the context of the Developer Command Prompt) and skip the next step.
+1. While on the same command prompt, open Visual Studio by entering devenv.
+1. Re-aunch Visual Studio and sign in again.
+
+> [!NOTE]
+> This workaround should only be needed temporarily. We expect future versions to automatically work without any user action.
 
 ## How to opt out of using a specific Azure Active Directory tenant in Visual Studio
 
@@ -99,7 +114,7 @@ To filter tenants that are associated with your Visual Studio account, open the 
 
 The **Filter account** dialog will appear, allowing you to select which tenants you want to use with your account. 
 
-:::image type="content" source="media/vs-2022/select-filter-account.png" alt-text="Select account to filter.":::
+:::image type="content" source="media/vs-2022/select-filter-account.png" alt-text=4"Select account to filter.":::
 
 After you deselect the tenant to filter, the **Account Settings** and the **Filter account** dialogs will show filtered state.
 
