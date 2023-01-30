@@ -2,7 +2,7 @@
 title: Customize menus and toolbars
 description: Learn how to customize Visual Studio menus and toolbars, and also learn how to customize any commands included in the menus and toolbars.
 ms.custom: SEO-VS-2020
-ms.date: 11/24/2021
+ms.date: 01/27/2023
 ms.topic: how-to
 f1_keywords:
 - vs.renametoolbar
@@ -42,74 +42,72 @@ You can customize Visual Studio not only by adding and removing toolbars and men
 
 ## Add, remove, or move a menu on the menu bar
 
-1. On the menu bar, choose **Tools** > **Customize**.
+1. On the menu bar, select **Tools** > **Customize**.
 
      The **Customize** dialog box opens.
 
 2. On the **Commands** tab, leave the **Menu bar** option button selected, leave **Menu Bar** selected in the list next to that option, and then perform one of the following sets of steps:
 
-    - To add a menu, choose the **Add New Menu** button, choose the **Modify Selection** button, and then name the menu that you want to add.
+    - To add a menu, select the **Add New Menu** button, select the **Modify Selection** button, and then name the menu that you want to add.
 
-    - To remove a menu, choose it in the **Controls** list, and then choose the **Delete** button.
+    - To remove a menu, select it in the **Preview** list, and then select the **Delete** button.
 
-    - To move a menu within the menu bar, choose the menu in the **Controls** list, and then choose the **Move Up** or **Move Down** button.
+    - To move a menu within the menu bar, select the menu in the **Preview** list, and then select the **Move Up** or **Move Down** button.
 
 ## Add, remove, or move a toolbar
 
-1. On the menu bar, choose **Tools** > **Customize**.
+1. On the menu bar, select **Tools** > **Customize**.
 
      The **Customize** dialog box opens.
 
-2. On the **Toolbar** tab, perform one of the following sets of steps:
+2. On the **Toolbars** tab, perform one of the following sets of steps:
 
-    - To add a toolbar, choose the **New** button, specify a name for the toolbar that you want to add, and then choose the **OK** button.
+    - To add a toolbar, select the **New** button, specify a name for the toolbar that you want to add, and then select the **OK** button.
 
-    - To remove a custom toolbar, choose it in the **Toolbars** list, and then choose the **Delete** button.
+    - To remove a custom toolbar, select it in the **Toolbars** list, and then select the **Delete** button.
 
         > [!IMPORTANT]
         > You can delete toolbars that you create but not default toolbars.
 
-    - To move a toolbar to a different docking location, choose it in the **Toolbars** list, choose the **Modify Selection** button, and then choose a location in the list that appears.
-
-        You can also drag a toolbar by its left edge to move it anywhere in the main docking area.
+    - To move a custom toolbar to a different docking location, drag the toolbar by its left edge and move it anywhere in the main docking area.
 
         > [!NOTE]
-        > For more information about how to improve the usability and accessibility of toolbars, see [How to: Set IDE accessibility options](../ide/reference/how-to-set-ide-accessibility-options.md).
+        > For more information about how to improve the usability and accessibility of text, toolbars, and more, see [Set accessibility options](how-to-change-fonts-and-colors-in-visual-studio.md#set-accessibility-options).
 
 ## <a name="customizing_menu">Customize a menu or a toolbar</a>
 
 > [!WARNING]
 > After you customize a toolbar or menu, make sure that its check box remains selected in the **Customize** dialog box. Otherwise, your changes won't persist after you close and reopen Visual Studio.
 
-1. On the menu bar, choose **Tools** > **Customize**.
+1. On the menu bar, select **Tools** > **Customize**.
 
     The **Customize** dialog box opens.
 
-2. On the **Commands** tab, choose the option button for the type of element that you want to customize.
+2. On the **Commands** tab, select the option button for the type of element that you want to customize.
 
-3. In the list for that type of element, choose the menu or toolbar that you want to customize, and then perform one of the following sets of steps:
+3. In the list for that type of element, select the menu or toolbar that you want to customize, and then perform one of the following sets of steps:
 
-    - To add a command, choose the **Add Command** button.
+    - To add a command, select the **Add Command** button.
 
-        In the **Add Command** dialog box, choose an item in the **Categories** list, choose an item in the **Commands** list, and then choose the **OK** button.
+        In the **Add Command** dialog box, select an item in the **Categories** list, select an item in the **Commands** list, and then select the **OK** button.
 
-    - To delete a command, choose it in the **Controls** list, and then choose the **Delete** button.
+    - To delete a command, select it in the **Controls** list, and then select the **Delete** button.
 
-    - To reorder commands, choose a command in the **Controls** list, and then choose the **Move Up** or **Move Down** button.
+    - To reorder commands, select a command in the **Controls** list, and then select the **Move Up** or **Move Down** button.
 
-    - To group commands under a horizontal line, choose the first command in the **Controls** list, choose the **Modify Selection** button, and then choose **Begin a Group** in the menu that appears.
+    - To group commands under a horizontal line, select the first command in the **Preview** list, select the **Modify Selection** button, and then select **Begin a Group**.
 
 ## Reset a menu or a toolbar
 
-1. On the menu bar, choose **Tools** > **Customize**.
+1. On the menu bar, select **Tools** > **Customize**.
 
     The **Customize** dialog box opens.
 
-2. On the **Commands** tab, choose the option button for the type of element that you want to reset.
+2. On the **Commands** tab, select the option button for the type of element that you want to reset.
 
-3. In the list for that type of element, choose the menu or toolbar that you want to reset.
+3. In the list for that type of element, select the menu or toolbar that you want to reset.
 
-4. Choose the **Modify Selection** button, and then choose **Reset** in the menu that appears.
+4. Select the **Modify Selection** button, and then select **Reset** in the menu that appears.
 
     You can also reset all menus and toolbars by choosing the **Reset All** button.
 
