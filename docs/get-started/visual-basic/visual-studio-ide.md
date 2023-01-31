@@ -548,6 +548,14 @@ Set a breakpoint to see the value of the `username` variable while the program i
 
 1. Press **F5** again to finish running the app.
 
+::: moniker range=">=vs-2022"
+
+Once the app is running, you can apply code changes to the running app by clicking the Hot Reload button.
+
+:::image type="content" source="media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022.":::
+
+::: moniker-end
+
 For more information about debugging in Visual Studio, see the [Debugger feature tour](../../debugger/debugger-feature-tour.md).
 
 ## Next steps
