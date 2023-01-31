@@ -1,8 +1,8 @@
 ---
 title: Manage application resources (.NET)
-description: Learn how to manage application resources files that are not part of the compilation process. 
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+description: Learn how to manage application resources files that are not part of the compilation process.
+ms.custom: engagement-fy23
+ms.date: 01/31/2023
 ms.topic: conceptual
 f1_keywords:
 - msvse_resedit.dlg.SetCustomTool
@@ -48,6 +48,11 @@ Resources are managed differently in .NET projects than in other project types. 
 
 - Universal Windows Platform (UWP) apps, see [App resources and the Resource Management System](/windows/uwp/app-resources/)
 - C++ projects, see [Work with resource files](/cpp/windows/working-with-resource-files) and [How to: Create a resource](/cpp/windows/how-to-create-a-resource)
+
+## Troubleshooting
+
+If you're running into an error with resource files, see
+
 
 ## See also
 
