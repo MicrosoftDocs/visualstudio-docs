@@ -4,7 +4,7 @@ description: Learn how you can diagnose build problems in your Visual Studio pro
 ms.custom: SEO-VS-2020
 ms.date: 02/08/2021
 ms.technology: vs-ide-compile
-ms.topic: troubleshooting
+ms.topic: how-to
 helpviewer_keywords:
   - msbuild logs"
 author: corob-msft
