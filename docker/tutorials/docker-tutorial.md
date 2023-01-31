@@ -62,7 +62,7 @@ In addition to context menus in the Docker pane, you can select **Terminal** > *
 You can also run commands in a Bash window.
 Unless specified, any command labeled as **Bash** can run in a Bash window or the VS Code terminal.
 
-1. Set Docker to Linux container mode. To switch to Linux containers, right-click on the Docker icon in the taskbar and choose **Switch to Linux containers**.
+1. Set Docker to Linux container mode. To switch to Linux containers, right-click on the Docker icon in the taskbar, and choose **Switch to Linux containers**.
 
 1. In VS Code, select **Terminal** > **New Terminal**.
 
