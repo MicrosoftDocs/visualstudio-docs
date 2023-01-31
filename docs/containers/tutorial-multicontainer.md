@@ -133,7 +133,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
                }
                catch(RedisConnectionException)
                {
-                   result = $"Redis cache is not found.";
+                   result = "Redis cache is not found.";
                }
                return result;
            }
