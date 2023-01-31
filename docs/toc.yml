@@ -186,6 +186,8 @@
         href: ide/troubleshooting-broken-references.md
     - name: Manage application resources (.NET)
       href: ide/managing-application-resources-dotnet.md
+    - name: Troubleshoot Resource Editor errors
+      href: ide/troubleshoot-resource-editor-errors.md
     - name: Application settings (.NET)
       items:
       - name: Manage application settings (.NET)
