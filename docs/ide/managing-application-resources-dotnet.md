@@ -49,10 +49,27 @@ Resources are managed differently in .NET projects than in other project types. 
 - Universal Windows Platform (UWP) apps, see [App resources and the Resource Management System](/windows/uwp/app-resources/)
 - C++ projects, see [Work with resource files](/cpp/windows/working-with-resource-files) and [How to: Create a resource](/cpp/windows/how-to-create-a-resource)
 
-## Troubleshooting
+## Error message: There is already another resource with the name 'Name'
 
-If you're running into an error with resource files, see
+1. In **Solution Explorer**, right-click the project node, and then select **Properties**.
 
+1. In the **Search properties** dialog, select **Resources**.
+
+1. Delete the duplicate entry or rename it.
+
+## Error message: The resource name cannot be empty
+
+1.
+
+1.
+
+## Support options
+
+If you run into a problem that's not described or addressed on this page, here are more resources that you might find useful:
+
+- Ask a question or find an answer on the [Microsoft Q&A](/answers/tags/176/vs) page for Visual Studio.
+- Report product issues to us via the [Report a Problem](../../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
+- Track product issues and responses in the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8).
 
 ## See also
 
