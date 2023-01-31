@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot
 description: "Common issues and resolutions for Visual Studio for Mac users."
-ms.topic: troubleshooting
+ms.topic: how-to
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
