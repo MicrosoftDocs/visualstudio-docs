@@ -52,7 +52,7 @@ This error occurs when you have a value for a resource that's yet unnamed. Here'
 Here are more support resources that you might find useful:
 
 - Ask a question or find an answer on the [Microsoft Q&A](/answers/tags/176/vs) page for Visual Studio.
-- Report product issues to the engineering team via the [Report a Problem](../../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
+- Report product issues to the engineering team via the [Report a problem](how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE.
 - Track product issues and engineering team responses in the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8).
 
 ## See also
