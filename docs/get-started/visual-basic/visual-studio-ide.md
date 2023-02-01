@@ -199,7 +199,7 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    Hot Reload enables you to edit your application's code files and apply the code changes immediately to the running application.
 
-   :::image type="content" source="media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022.":::
+   :::image type="content" source="../media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022.":::
 
 ::: moniker-end
 
@@ -552,7 +552,7 @@ Set a breakpoint to see the value of the `username` variable while the program i
 
 Once the app is running, you can apply code changes to the running app by clicking the Hot Reload button.
 
-:::image type="content" source="media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022.":::
+:::image type="content" source="../media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022.":::
 
 ::: moniker-end
 
