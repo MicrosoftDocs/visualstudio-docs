@@ -103,7 +103,7 @@ Starting with the 17.5 version of Visual Studio 2022, if you see the above dialo
 
 1. Close Visual Studio.
 1. Open the respective "Developer Command Prompt" for your Visual Studio installation.
-1. Enter 'Set DisableWAMClientIdForVS=true'. Alternatively, you can use 'Setx DisableWAMClientIdForVS=true' to set it system wide (outside the context of the Developer Command Prompt) and avoid always having to re-launch from the Developer Command Prompt.
+1. Enter 'Set DisableWAMClientIdForVS=true'. Alternatively, you can use 'Setx DisableWAMClientIdForVS true' to set a user variable on your system and avoid having to constantly set the variable & launch from the Developer Command Prompt.
 1. While on the same command prompt, open Visual Studio by entering devenv.
 1. Sign in again.
 
