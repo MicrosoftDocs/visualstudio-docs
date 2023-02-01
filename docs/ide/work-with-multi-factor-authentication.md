@@ -107,9 +107,6 @@ Starting with Visual Studio 2022 version 17.5, if you see the previous error dia
 1. After setting the user variable, open Visual Studio from the Developer Command Prompt: ```devenv```.
 1. Sign in again.
 
-> [!NOTE]
-> This workaround should only be needed temporarily. We expect future versions to automatically work without any user action.
-
 ## How to opt out of using a specific Azure Active Directory tenant in Visual Studio
 
 Visual Studio 2019 version 16.6 and above offers the flexibility to filter out tenants individually or globally, effectively hiding them from Visual Studio. Filtering eliminates the need to authenticate with that tenant, but it also means that you won't be able to access any associated resources.
