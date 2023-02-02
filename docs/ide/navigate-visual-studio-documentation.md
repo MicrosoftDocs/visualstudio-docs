@@ -1,12 +1,14 @@
 ---
 title: Navigate the Visual Studio documentation
 description: Find and learn about the resources available in the documentation for the Visual Studio IDE on the Windows platform.
-ms.topic: conceptual
+ms.topic: overview
 ms.author: ghogen
 ms.technology: vs-ide-general
 author: ghogen
 manager: jmartens
-f1_keywords: vs.ViewHelp
+f1_keywords:
+ - vs.ViewHelp
+ - MSDNSTART
 ms.date: 02/14/2023
 ---
 # About Visual Studio documentation

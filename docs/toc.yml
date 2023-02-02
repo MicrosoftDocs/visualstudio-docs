@@ -12,6 +12,8 @@
   - name: Tour the Visual Studio IDE
     displayName: Feature tour
     href: ide/quickstart-ide-orientation.md
+  - name: Navigate the Visual Studio documentation
+    href: ide/navigate-visual-studio-documentation.md
   - name: More Visual Studio features
     href: ide/advanced-feature-overview.md
   expanded: true
