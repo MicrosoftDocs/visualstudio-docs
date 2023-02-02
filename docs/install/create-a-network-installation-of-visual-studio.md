@@ -280,7 +280,7 @@ vs_enterprise.exe --layout c:\VSLayout --config c:\myconfig.vsconfig --useLatest
 Lastly, you can directly edit the `layout.json` configuration file in the layout folder and update the "add" section of this file to include the additional components you want included in your layout. You'll then need to update the layout using --layout as previously described to download the latest components. 
  
  > [!Note]
- > The easiest way to install the newly added layout components on a client machine is to run the bootstrapper in the layout from the client machine. The 'add' section of the `response.json` file in the layout will determine which components are selected by default in the client's installer UI. If you've modified the layout using one of the methods above, you may want to manually double check and possibly adjust the 'add' section in the `response.json` file so that it more appropriately matches the contents in the 'add' section of the `layout.json` file. 
+ > The easiest way to install the newly added layout components onto a client machine is to run the bootstrapper in the layout from the client machine. The 'add' section of the `response.json` file in the layout will determine which components are selected by default in the client's installer UI. If you've modified the layout using one of the methods above, you may want to manually double check and possibly adjust the 'add' section in the `response.json` file so that it more appropriately matches the contents in the 'add' section of the newly modified `layout.json` file. 
 
 ### Configure the layout to always include and provide the latest installer
 
