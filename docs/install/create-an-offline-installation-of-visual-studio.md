@@ -46,7 +46,7 @@ You can also configure future updates of this instance of Visual Studio to respe
 
 ### Step 2 - Create a local layout
 
-Open a command prompt with administrator privileges, navigate to the directory where you downloaded the bootstrapper into, and use the [bootstrapper's parameters](use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command-line-parameters) to create your local layout. Note that you must have an internet connection to complete this step. Common local layout creation examples using the Enterprise bootstrapper are illustrated below and in the [command-line parameter examples](command-line-parameter-examples.md) page. You can install a language other than English by changing `en-US` to a locale from the [list of language locales](#list-of-language-locales), and you can use a config file or the [list of components and workloads](workload-and-component-ids.md) to further customize your local layout.
+Open a command prompt with administrator privileges, navigate to the directory where you downloaded the bootstrapper into, and use the [bootstrapper's parameters](use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command-line-parameters) to create your local layout. Note that you must have an internet connection to complete this step. Common local layout creation examples using the Enterprise bootstrapper are illustrated below and in the [command-line parameter examples](command-line-parameter-examples.md) page. You can install a language other than English by changing `en-US` to a locale from the [list of language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales), and you can use a config file or the [list of components and workloads](workload-and-component-ids.md) to further customize your local layout.
 
 > [!TIP]
 > To prevent an error, make sure that your full installation path is less than 80 characters.
@@ -140,24 +140,6 @@ c:\localVSlayout\vs_enterprise.exe --noWeb --add Microsoft.VisualStudio.Workload
 > [!NOTE]
 > If you get an error that a signature is invalid, you must [install updated certificates](install-certificates-for-visual-studio-offline.md). Open the Certificates folder in your local layout. Double-click each of the certificate files, and then click through the Certificate Manager wizard. If you're asked for a password, leave it blank.
 
-### List of language locales
-
-| **Language-locale** | **Language**          |
-|---------------------|-----------------------|
-|:::no-loc text="cs-CZ":::                | Czech                 |
-|:::no-loc text="de-DE":::                | German                |
-|:::no-loc text="en-US":::                | English               |
-|:::no-loc text="es-ES":::                | Spanish               |
-|:::no-loc text="fr-FR":::                | French                |
-|:::no-loc text="it-IT":::                | Italian               |
-|:::no-loc text="ja-JP":::                | Japanese              |
-|:::no-loc text="ko-KR":::                | Korean                |
-|:::no-loc text="pl-PL":::                | Polish                |
-|:::no-loc text="pt-BR":::                | Portuguese - Brazil   |
-|:::no-loc text="ru-RU":::                | Russian               |
-|:::no-loc text="tr-TR":::                | Turkish               |
-|:::no-loc text="zh-CN":::                | Chinese - Simplified  |
-|:::no-loc text="zh-TW ":::               | Chinese - Traditional |
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
