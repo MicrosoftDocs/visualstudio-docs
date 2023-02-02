@@ -171,7 +171,7 @@ The following steps add an "About" page to the "HelloDjangoApp" project, and lin
 1. Open the Django project's *urls.py* file and add the following line to the `urlPatterns` array:
 
     ```python
-    url(r'^about$', HelloDjangoApp.views.about, name='about'),
+    re_path(r'^about$', HelloDjangoApp.views.about, name='about'),
     ```
 
 1. Open the *templates/HelloDjangoApp/index.html* file and add the following line below the `<body>` element to link to the About page (you'll again replace this link with a nav bar in step 3-4):
@@ -272,29 +272,34 @@ The following steps demonstrate inheritance:
     }
     ```
 
-1. Modify the *templates/HelloDjangoApp/index.html* file to refer to the base template and override the content block. You can see that by using inheritance, this template becomes simple:
-
+1. Modify the *templates/HelloDjangoApp/index.html* file to refer to the base template and make it usable within the page. Add the following line as line 1 in the HTML page (above the html tag):
     ```html
     {% extends "HelloDjangoApp/layout.html" %}
+    ```
+2. You can see that by using inheritance, this template becomes simple to implement within the body tag to override the content block:
+
+    ```html
     {% block content %}
     <span class="message">{{ message }}</span>{{ content }}
     {% endblock %}
     ```
 
-1. Modify the *templates/HelloDjangoApp/about.html* file to refer to the base template and override the content block:
-
+3. Modify the *templates/HelloDjangoApp/about.html* file in the same way to make the layout template available. Add the same line from step 1 in the HTML page (above the html tag):
     ```html
     {% extends "HelloDjangoApp/layout.html" %}
+    ```
+4. Then, using inheritance, implement the template within the body tag to override the content block:
+    ```html
     {% block content %}
     {{ content }}
     {% endblock %}
     ```
 
-1. Run the server to observe the results. When you're done, close the server.
+5. Run the server to observe the results. When you're done, close the server.
 
     :::image type="content" source="media/django/step-03-navigation-bar.png" alt-text="Running app showing the nav bar.":::
 
-1. Because you'd made substantial changes to the app, it's again a good time to [commit your changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control).
+6. Because you'd made substantial changes to the app, it's again a good time to [commit your changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control).
 
 ## Next steps
 

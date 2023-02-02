@@ -4,6 +4,8 @@
   items:
   - name: First look at profiling tools
     href: profiling-feature-tour.md
+  - name: Which tool should I use?
+    href: choose-performance-tool.md
   - name: Run profiling tools with or without the debugger
     href: running-profiling-tools-with-or-without-the-debugger.md
 - name: Tutorials

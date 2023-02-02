@@ -133,7 +133,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
                }
                catch(RedisConnectionException)
                {
-                   result = $"Redis cache is not found.";
+                   result = "Redis cache is not found.";
                }
                return result;
            }
@@ -229,6 +229,8 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
           context: .
           dockerfile: WebFrontEnd/Dockerfile
    ```
+
+   The `version` specified in the first line is the [Docker Compose file version](https://docs.docker.com/compose/compose-file/#version-top-level-element). You normally shouldn't change it, since it's used by the tools to understand how to interpret the file.
 
    The *.dockerignore* file contains file types and extensions that you don't want Docker to include in the container. These files are generally associated with the development environment and source control, not part of the app or service you're developing.
 
@@ -353,6 +355,8 @@ Congratulations, you're running a Docker Compose application with a custom Docke
           context: .
           dockerfile: WebFrontEnd/Dockerfile
    ```
+
+   The `version` specified in the first line is the [Docker Compose file version](https://docs.docker.com/compose/compose-file/#version-top-level-element). You normally shouldn't change it, since it's used by the tools to understand how to interpret the file.
 
    The *.dockerignore* file contains file types and extensions that you don't want Docker to include in the container. These files are generally associated with the development environment and source control, not part of the app or service you're developing.
 

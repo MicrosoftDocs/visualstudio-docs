@@ -1,7 +1,7 @@
 ---
 title: Overview for Visual Basic developers
 description: Learn about using Visual Studio to edit, debug, and build code, and then publish an app as a Visual Basic developer.
-ms.date: 09/14/2021
+ms.date: 01/31/2023
 ms.technology: vs-ide-general
 ms.custom: [vs-acquisition, get-started, SEO-VS-2020]
 ms.topic: conceptual
@@ -192,6 +192,16 @@ Some popular features in Visual Studio that improve your productivity when devel
    :::image type="content" source="media/vs-2022/peek-definition.png" alt-text="Screenshot that shows Peek Definition in Visual Studio." border="false":::
 
    ::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+- [Hot Reload](../../debugger/hot-reload.md)
+
+   Hot Reload enables you to edit your application's code files and apply the code changes immediately to the running application.
+
+   :::image type="content" source="../media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022.":::
+
+::: moniker-end
 
 ## Install Visual Studio
 
@@ -537,6 +547,14 @@ Set a breakpoint to see the value of the `username` variable while the program i
    ::: moniker-end
 
 1. Press **F5** again to finish running the app.
+
+::: moniker range=">=vs-2022"
+
+Once the app is running, you can apply code changes to the running app by clicking the Hot Reload button.
+
+:::image type="content" source="../media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022.":::
+
+::: moniker-end
 
 For more information about debugging in Visual Studio, see the [Debugger feature tour](../../debugger/debugger-feature-tour.md).
 

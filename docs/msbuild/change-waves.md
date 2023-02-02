@@ -46,6 +46,7 @@ The links in the list below go to the GitHub PR for the feature.
 - [Adding accepted SDK name match pattern to SDK manifests](https://github.com/dotnet/msbuild/pull/7597)
 - [Throw warning indicating invalid project types](https://github.com/dotnet/msbuild/pull/7708)
 - [MSBuild server](https://github.com/dotnet/msbuild/pull/7634)
+- [Call new CultureInfo API when validating cultures (.NET Core only)](https://github.com/dotnet/msbuild/pull/7853)
 
 ### 17.0
 

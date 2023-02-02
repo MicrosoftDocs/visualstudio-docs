@@ -3,7 +3,7 @@ title: "Write JavaScript code in Visual Studio without a solution or project"
 titleSuffix: ""
 description: Visual Studio provides support for creating code without a dependence on a project file or solution file
 
-ms.date: "09/24/2018"
+ms.date: "01/23/2023"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -23,8 +23,13 @@ Starting in Visual Studio 2017, you can [develop code without projects or soluti
 
 To get started, select **File** > **Open** > **Folder** from the toolbar. Solution Explorer displays all the files in the folder, and you can open any of the files to begin editing. In the background, Visual Studio indexes the files to enable npm, build, and debug features.
 
-> [!IMPORTANT]
-> Many of the features described in this article, including npm integration, require Visual Studio 2017 version 15.8 or later versions. The Visual Studio **Node.js development** workload must be installed.
+> [!TIP]
+> Before using an Open Folder project, try creating a solution from existing Node.js code. In some scenarios, this method provides better feature support in Visual Studio. To create the project, choose **File > New Project > JavaScript > From Existing Node.js code**, and then choose your project folder as the source.
+
+## Prerequisites
+
+- Visual Studio 2017 version 15.8 or later versions
+- Visual Studio **Node.js development** workload must be installed
 
 ## npm integration
 
@@ -40,13 +45,19 @@ In addition, the menu also allows you to run scripts defined in the `scripts` el
 ## Build and debug
 
 ### package.json
+
 If the *package.json* in the folder specifies a `main` element, the **Debug** command will be available in the right-click shortcut menu for *package.json*.
 Clicking this will start *node.exe* with the specified script as its argument.
 
 ### JavaScript files
+
 You can debug JavaScript files by right-clicking a file and selecting **Debug** from the shortcut menu. This starts *node.exe* with that JavaScript file as its argument.
 
+> [!NOTE]
+> If you don't see the **Debug** menu option, you may need to create the project from existing Node.js code, as described previously.
+
 ### TypeScript files and tsconfig.json
+
 If there is no *tsconfig.json* present in the folder, you can right-click a TypeScript file to see shortcut menu commands to build and debug that file. When you use these commands, you build or debug using *tsc.exe* with default options. (You need to build the file before you can debug.)
 
 > [!NOTE]
@@ -74,6 +85,7 @@ You can enable the unit test integration in Visual Studio by specifying a test r
 The test runner enumerates the locally installed packages to determine which test framework to use.
 If none of the supported frameworks are recognized, the test runner defaults to *ExportRunner*. The other
 supported frameworks are:
+
 * Mocha ([mochajs.org](https://mochajs.org/))
 * Jasmine ([Jasmine.github.io](https://jasmine.github.io/))
 * Tape ([github.com/substack/tape](https://github.com/substack/tape))

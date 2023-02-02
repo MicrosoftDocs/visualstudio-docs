@@ -11,7 +11,7 @@ metadata:
   author: mikejo5000
   ms.author: mikejo
   manager: jmartens
-  ms.date: 10/15/2019
+  ms.date: 01/23/2023
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -45,14 +45,14 @@ landingContent:
             url: tutorial-create-react-app.md
           - text: Create a Vue App
             url: tutorial-create-vue-app.md
-          - text: Create a web app with Node.js and Vue.js
-            url: quickstart-vuejs-with-nodejs.md
       - linkListType: tutorial
         links:
           - text: Create a web app with Angular and ASP.NET Core
             url: tutorial-asp-net-core-with-angular.md
           - text: Create a web app with React and ASP.NET Core
             url: tutorial-asp-net-core-with-react.md
+          - text: Create a web app with Vue and ASP.NET Core
+            url: tutorial-asp-net-core-with-vue.md
           - text: Create a web app with Node.js and Express
             url: tutorial-nodejs.md
           - text: Create a web app with Node.js and React

@@ -84,7 +84,7 @@ If you reuse the same code elsewhere in the cluster, that is fine, because these
 
 ## Set VS Code to use Kubernetes service environment variables
 
-If you're using VS Code with a remote computer or running VS Code as a normal user, you also need to configure VS Code to use the Kubernetes service environment variables. Open tasks.json, find the task with the label `bridge-to-kubernetes.service` and add the property `usekubernetesServiceEnvironmentVariables` with the value `true`, as shown in the following code:
+If you're using VS Code with a remote computer or running VS Code as a non-administrator user, you also need to configure VS Code to use the Kubernetes service environment variables. Open tasks.json, find the task with the label `bridge-to-kubernetes.service` and add the property `usekubernetesServiceEnvironmentVariables` with the value `true`, as shown in the following code:
 
 ```json
     "tasks": [
@@ -100,7 +100,19 @@ If you're using VS Code with a remote computer or running VS Code as a normal us
     ]
 ```
 
-The setting is only needed if you are running VS Code as a normal user, or if you are using a remote session, but if you have modified your code as described in this article, there is no harm in setting this property.
+## Set Visual Studio to use Kubernetes service environment variables
+
+If you're running Visual Studio as a non-administrator user, you also need to configure Visual Studio to use the Kubernetes service environment variables. Open launchSettings.json, find the profile with the label `Bridge to Kubernetes` and add the property `useKubeServiceEnvironmentVariables` with the value `true`, as shown in the following code:
+
+```json
+   "Bridge to Kubernetes": {
+      "commandName": "AzureDevSpacesLocal",
+      "launchBrowser": true,
+      "useKubeServiceEnvironmentVariables": true
+    }
+```
+
+The setting is only needed if you are running VS Code or Visual Studio as a non-administrator user, or if you are using a remote session, but if you have modified your code as described in this article, there is no harm in setting this property.
 
 ## Next steps
 

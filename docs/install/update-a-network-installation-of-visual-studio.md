@@ -1,7 +1,7 @@
 ---
 title: Update a network-based installation
 description: Learn how to update a Visual Studio client that was installed from a network layout
-ms.date: 1/6/2023
+ms.date: 1/20/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -32,7 +32,7 @@ If you are going to update your client from Microsoft hosted servers, then the c
 
 If you are going to update your client from a network layout, then the first step is to prepare the network layout with the updated product. You can [update your existing layout with the latest product updates](create-a-network-installation-of-visual-studio.md#update-or-modify-your-layout) so both new installations and updates will receive the updated version. Or, you can [create a whole new layout](create-a-network-installation-of-visual-studio.md) in a different directory that you can use for updating the client machines.
 
-Make sure that either the user or system account that's running the update has proper access to the network share that contains the layout. For more information, refer to [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md).
+Make sure that either the user or system account that's running the update has proper access to the network share that contains the layout. For more information, refer to [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md#error-the-product-fails-to-install-or-update-because-network-share-permissions-arent-configured-correctly).
 
 ## Enable manual user-initiated client-side updates 
 A user on the client machine with sufficient permissions can [manually initiate the Visual Studio update themselves](update-visual-studio.md). The Visual Studio client must be configured properly to look in the right source location for updates so that it can recognize that an update is available. If any files are in use when the update happens, like if Visual Studio is open, then Visual Studio will need to close to complete the update. Occasionally an update will require a reboot.
@@ -81,7 +81,7 @@ or like this, which sets the source of updates to a Microsoft hosted location:
 c:\program files (x86)\microsoft\visual studio\installer\>setup.exe update --installPath "C:\Program Files\Microsoft Visual Studio\2019\Enterprise" --channelURI "https://aka.ms/vs/16/release/channel"
 ```
 
-### Programatically update Visual studio by using a bootstrapper.
+### Programatically update Visual Studio by using a bootstrapper.
 
 You can update Visual Studio by programatically calling a bootstrapper from the same location that you originally installed from. All bootstrappers sourced from Microsoft hosted servers are considered from the same location. If your bootstrapper was on a network layout share, then the [network layout must be updated](create-a-network-installation-of-visual-studio.md#update-or-modify-your-layout) to contain the desired product updates.
 

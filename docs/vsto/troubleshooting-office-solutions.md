@@ -3,7 +3,7 @@ title: "Troubleshoot Office solutions"
 description: Learn some tips for solving common problems that you might encounter when creating solutions by using the Office development tools in Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: "troubleshooting"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

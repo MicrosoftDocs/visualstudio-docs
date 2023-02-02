@@ -58,6 +58,9 @@ Usually, the local machine best replicates installed app execution. To collect d
     ![Screenshot that shows Select CPU Usage.](../profiling/media/cpu-use-lib-choose-cpu-usage.png "Select CPU Usage")
     ::: moniker-end
 
+    > [!NOTE]
+    > For more information on how to make the tool more efficient, see [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md).
+
 1. After the app starts, the diagnostic session begins and displays CPU usage data. When you're finished collecting data, select **Stop Collection**.
 
     ::: moniker range=">=vs-2022"
