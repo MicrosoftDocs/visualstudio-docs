@@ -156,13 +156,11 @@ Here are a few examples of how to create a custom partial layout.
     
 ### Use a .config file to customize your layout
 
-You can also use an [exported config file](import-export-installation-configurations.md) to customize the contents of a network layout.  
+You can also use an [exported config file](import-export-installation-configurations.md) to customize the contents of a network layout. This functionality is relatively new, so you need to use the latest installer in your layout.
 
     ```shell
-    vs_enterprise.exe --layout C:\VSLayout --config c:\myconfig.config
+    vs_enterprise.exe --layout C:\VSLayout --config c:\myconfig.config --useLatestInstaller
     ```
-
-This functionality is relatively new, so you need to use the latest installer in your layout.
 
 ### Ensure your layout is using the latest installer
 
