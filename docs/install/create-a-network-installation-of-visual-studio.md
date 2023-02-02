@@ -154,12 +154,12 @@ Here are a few examples of how to create a custom partial layout.
     vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Component.Git --lang en-US de-DE ja-JP
     ```
     
-### Use a .config file to customize your layout
+### Use a .vsconfig file to customize your layout
 
-You can also use an [exported config file](import-export-installation-configurations.md) to customize the contents of a network layout. This functionality is relatively new, so you need to use the latest installer in your layout.
+You can also use an [exported vsconfig file](import-export-installation-configurations.md) to customize the contents of a network layout. This functionality is relatively new, so you need to use the latest installer in your layout.
 
     ```shell
-    vs_enterprise.exe --layout C:\VSLayout --config c:\myconfig.config --useLatestInstaller
+    vs_enterprise.exe --layout C:\VSLayout --config c:\myconfig.vsconfig --useLatestInstaller
     ```
 
 ### Ensure your layout is using the latest installer
@@ -271,10 +271,10 @@ If you want to modify an existing partial layout so that it becomes a full layou
 vs_enterprise.exe --layout c:\VSLayout --all
 ```
 
-You can add components to a layout by passing in a config file that contains the additional components you want in your layout. Note that this functionality is new and thus requires the latest installer. 
+You can add components to a layout by passing in a vsconfig file that contains the additional components you want in your layout. Note that this functionality is new and thus requires the latest installer. 
 
 ```shell
-vs_enterprise.exe --layout c:\VSLayout --config c:\myconfig.config --useLatestInstaller
+vs_enterprise.exe --layout c:\VSLayout --config c:\myconfig.vsconfig --useLatestInstaller
 ```
 
 Lastly, you can directly edit the `layout.json` configuration file in the layout folder and update the "add" section of this file to include the additional components you want included in your layout. You'll then need to update the layout as previously described to download the latest components. 
