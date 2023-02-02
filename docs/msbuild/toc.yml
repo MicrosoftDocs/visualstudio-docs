@@ -140,6 +140,8 @@ items:
         href: using-multiple-processors-to-build-projects.md
       - name: Using memory efficiently when you build large projects
         href: using-memory-efficiently-when-you-build-large-projects.md
+      - name: Fix intermittent build failures
+        href: fix-intermittent-build-failures.md
     - name: Multitargeting
       items:
       - name: MSBuild multitargeting overview
