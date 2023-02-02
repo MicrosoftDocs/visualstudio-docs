@@ -41,12 +41,12 @@ You can also configure future updates of this instance of Visual Studio to respe
 
 ### Step 1 - Download the Visual Studio bootstrapper
 
-[Download the correct bootstrapper for the edition of Visual Studio you want](create-a-network-installation-of-visual-studio.md#download-the-visual-studio-bootstrapper-to-create-the-network-layout) and copy it into the directory that you want to serve as the source location of your local layout. The bootstrapper is the executable that you use to create, update, and perform other Visual Studio installation operations. You must have an internet connection to complete this step. 
+[Download the correct bootstrapper for the version and edition of Visual Studio you want](create-a-network-installation-of-visual-studio.md#download-the-visual-studio-bootstrapper-to-create-the-network-layout) and copy it into the directory that you want to serve as the source location of your local layout. The bootstrapper is the executable that you use to create, update, and perform other Visual Studio installation operations. You must have an internet connection to complete this step. 
 
 
 ### Step 2 - Create a local layout
 
-Open a command prompt with administrator privileges, navigate to the directory where you downloaded the bootstrapper into, and use the [bootstrapper's parameters](use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command-line-parameters) to create your local layout. Note that you must have an internet connection to complete this step. Common local layout creation examples using the Enterprise bootstrapper are illustrated below and in the [command-line parameter examples](command-line-parameter-examples.md) page. You can install a language other than English by changing `en-US` to a locale from the [list of language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales), and you can use a config file or the [list of components and workloads](workload-and-component-ids.md) to further customize your local layout.
+Open a command prompt with administrator privileges, navigate to the directory where you downloaded the bootstrapper into, and use the [bootstrapper's parameters](use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command-line-parameters) to create your local layout. Note that you must have an internet connection to complete this step. Common local layout creation examples using the Enterprise bootstrapper are illustrated below and in the [command-line parameter examples](command-line-parameter-examples.md) page. You can install a language other than English by changing `en-US` to a locale from the [list of language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales), and you can use a vsconfig file or the [list of components and workloads](workload-and-component-ids.md) to further customize your local layout.
 
 > [!TIP]
 > To prevent an error, make sure that your full installation path is less than 80 characters.
@@ -79,10 +79,10 @@ Open a command prompt with administrator privileges, navigate to the directory w
     vs_enterprise.exe --layout c:\localVSlayout
     ```
     
-- To create a local layout using an [exported config file](import-export-installation-configurations.md) to customize the layout content, run the code below. Since this functionality is relatively new, you'll need to use the latest installer in your layout.   
+- To create a local layout using an [exported vsconfig file](import-export-installation-configurations.md) to customize the layout content, run the code below. Since this functionality is relatively new, you'll need to use the latest installer in your layout.   
 
    ```shell
-    vs_enterprise.exe --layout c:\localVSlayout --config c:\myconfig.config --useLatestInstaller --lang en-US 
+    vs_enterprise.exe --layout c:\localVSlayout --config c:\myconfig.vsconfig --useLatestInstaller --lang en-US 
     ```
 
 - You can also [verify](create-a-network-installation-of-visual-studio.md?#verify-a-layout) or [fix](create-a-network-installation-of-visual-studio.md?#fix-a-layout) an offline installation.
