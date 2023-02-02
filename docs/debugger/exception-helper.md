@@ -70,7 +70,7 @@ In cases where an exception has been `thrown` the Exception Helper shows the cal
 
 Starting in Visual Studio 2022 version 17.3, you can view exception stack frames inside the Call Stack window. For async exceptions, this adds the ability to quickly load symbols or locate sources and go directly to the site of the exception. Exception stack frames inside the Call Stack window provide standard call stack features such as automatic navigation, quickly switching back and forth between frames, symbol load, and decompile options to get back to the source code where the exception was thrown.
 
-![Exception helper with call stack](media/debugger-exception-helper-call-stack.png)
+![Exception helper with call stack](media/vs-2022/debugger-exception-helper-call-stack.png)
 ::: moniker-end
 
 ## Share a debug session with Live Share
