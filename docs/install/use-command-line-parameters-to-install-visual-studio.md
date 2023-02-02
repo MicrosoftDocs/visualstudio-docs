@@ -2,7 +2,7 @@
 title: Use command-line parameters to install Visual Studio
 titleSuffix: ''
 description: Learn how to use command-line parameters to control or customize your Visual Studio installation.
-ms.date: 12/1/2022
+ms.date: 2/21/2023
 ms.topic: conceptual
 f1_keywords:
 - command-line parameters
@@ -86,7 +86,7 @@ Syntax example: `vs_enterprise.exe [command] <optional parameters>...`
 | `updateall` | Updates all of the installed products in sequential order. Works with `--quiet` and `--passive` parameters.             |
 | `repair`    | Repairs an installed product.                                                                                           |
 | `uninstall` | Uninstalls an installed product.                                                                                        |
-| `export`    | Exports installation selection to an installation configuration file. **Note**: Can only be used with vs_installer.exe or setup.exe. |
+| `export`    | Exports installation selection to an installation configuration file.                                                   |
 
 > [!IMPORTANT]
 > When specifying multiple distinct workloads or components or languages, you must repeat the `--add` or `--remove` command-line switch for each item.
@@ -129,7 +129,7 @@ All layout management operations are run using the bootstrapper exe and they ass
 | `--includeOptional`                             | **Optional**: Includes the recommended *and* optional components for any workloads being included in the layout. The workloads are specified with `--add`.                        |
 | `--wait`                       | **Optional**: The process will wait until the install is completed before returning an exit code. This is useful when automating installations where one needs to wait for the install to finish to handle the return code from that install.      |
 | `--useLatestInstaller`         | **Optional**: If present, the latest version of the Visual Studio Installer will be included in your layout, even if it belongs to a newer version of the product. This can be useful if you want to take advantage of new features or bug fixes that are available in the latest installer. For more information, refer to [Configure the layout to always use the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) documentation. |
-| `--config <*.configfile>`      | **Optional**: If present, Visual Studio will use the [contents of the configuration file](import-export-installation-configurations.md) to configure your layout. |
+| `--config <*.vsconfig>`      | **Optional**: If present, Visual Studio will use the [contents of the configuration file](import-export-installation-configurations.md) to configure your layout. |
 | `--noWeb`                      | **Optional**: If present, Visual Studio setup uses the files in your layout directory to install Visual Studio. If a user tries to install components that aren't in the layout, setup fails.  For more information, see [Deploying from a network installation](create-a-network-installation-of-visual-studio.md). <br/><br/> **Important**: This switch doesn't stop Visual Studio setup from checking for updates. For more information, see [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md). |
 | `--verify`                                      | **Optional**: Verify the contents of a layout. Any corrupt or missing files are listed.            |
 | `--fix`                                         | **Optional**: Verify the contents of a layout. If any files are corrupt or missing, they're redownloaded. Internet access is required to fix a layout.           |
