@@ -247,7 +247,7 @@ Note that administrator updates will not initiate an original layout install; th
 
 ::: moniker range=">=vs-2022"
 
-### Modify the channel of the network layout
+### Ensuring your network layout is based off of a supported version
 
 Occasionally, as channels transition out of support, you will need to ensure that the network layout continues to be based off of a supported channel so that your clients can continue to receive notifications of security updates. If your layout is based off of the VisualStudio.17.Release.LTSC.17.0 channel, then once the 17.0 LTSC channel goes out of support, we will not release any more security updates to it and your layout and clients will become insecure.
 
@@ -257,30 +257,30 @@ To change the channel that the layout is based off of, simply acquire the desire
 
 ### Modify the contents of a layout
 
-It is possible to modify a partial layout and *add* additional workloads, components, or languages. It is **not** possible to reliably remove components from a layout.
+It is possible to modify a partial layout and ***add*** additional workloads, components, or languages. It is **not** possible to reliably remove components from a layout.
 
-In the example below, we'll add the Azure workload and a localized language to the layout we created above. After we've made the modification, both the Managed Desktop and Azure workloads, and the English and German resources are included in this layout. In addition to adding components, the layout is updated to the latest available version.
+In the example below, we'll add the Azure workload and a localized language to the layout that was already created with just the Managed Desktop and English language. After we've made the modification, both the Managed Desktop and Azure workloads, and both the English and German resources will be included in this layout. In addition to adding components, the --layout command will also cause the layout to be updated to the version specified by the bootstrapper. so, if you're using the [evergreen bootstrapper](#download-the-visual-studio-bootstrapper-to-create-the-network-layout), then the resultant layout will have the new component, the new language, and all layout contents will be updated to the latest version on the bootstrapper's channel. 
 
 ```shell
 vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --lang de-DE
 ```
 
-If you want to modify an existing partial layout so that it becomes a full layout, use the --all option, as shown in the following example.
+If you want to modify an existing partial layout so that it becomes a full layout, use the --all option, as shown in the following example. Again, this command will cause the layout contents to be updated to the version specified by the bootstrapper.
 
 ```shell
 vs_enterprise.exe --layout c:\VSLayout --all
 ```
 
-You can add components to a layout by passing in a vsconfig file that contains the additional components you want in your layout. Note that this functionality is new and thus requires the latest installer. 
+You can add components to a layout by passing in a vsconfig file that contains the additional components you want in your layout. Note that this functionality is new and thus requires the latest installer. This command will also cause the layout contents to be updated to the version specified by the bootstrapper.
 
 ```shell
 vs_enterprise.exe --layout c:\VSLayout --config c:\myconfig.vsconfig --useLatestInstaller
 ```
 
-Lastly, you can directly edit the `layout.json` configuration file in the layout folder and update the "add" section of this file to include the additional components you want included in your layout. You'll then need to update the layout as previously described to download the latest components. 
+Lastly, you can directly edit the `layout.json` configuration file in the layout folder and update the "add" section of this file to include the additional components you want included in your layout. You'll then need to update the layout using --layout as previously described to download the latest components. 
  
  > [!Note]
- > The easiest way to install the newly added layout components on a client machine is to run the bootstrapper in the layout from the client machine. The `response.json` file in the layout will ensure that all the workloads and components that exist in the layout are selected by default in the client's installer UI.   
+ > The easiest way to install the newly added layout components on a client machine is to run the bootstrapper in the layout from the client machine. The `response.json` file in the layout will ensure that all the workloads and components that exist in the layout are selected by default in the client's installer UI. If you've modified the layout using one of the methods above, you'll need to double check and possibly manually ensure that the 'add' section in `response.json` matches the corresponding section in the `layout.json` file.   
 
 ### Configure the layout to always include and provide the latest installer
 
@@ -301,7 +301,7 @@ There are two ways to enable your layout to include and provide the latest insta
    vs_enterprise.exe --layout C:\VSLayout --useLatestInstaller
    ```
 
-- You can edit the layout.json file directly to add this setting.
+- You can edit the `layout.json` file directly to add this setting.
 
    ```Example layout.json contents
    {
@@ -317,9 +317,9 @@ There are two ways to enable your layout to include and provide the latest insta
    }
    ```
 
-There is no way to programmatically remove this setting in the layout.json file, so if you want your layout to _stop_ using the latest installer that Microsoft makes available, and instead use the version of the installer that corresponds to the bootstrapper (which is mostly likely older than the most recent installer), simply edit the layout.json file and remove the `"UseLatestInstaller": true` setting. 
+There is no way to programmatically remove this setting in the `layout.json` file, so if you want your layout to _stop_ using the latest installer that Microsoft makes available, and instead use the version of the installer that corresponds to the bootstrapper (which is mostly likely older than the most recent installer), simply edit the `layout.json` file and remove the `"UseLatestInstaller": true` setting. 
 
-Note that you may find this `"UseLatestInstaller": true` setting in the layout's response.json file too, but it is ignored there. The [response.json file is used to set default configuration options on the _client_ when the client installs or updates from a layout](automated-installation-with-response-file.md). This particular `"useLatestInstaller": true` setting is used to ensure that the contents of the _layout_ contain the latest installer, so that the client machines can then acquire the latest installer from the layout.
+Note that you may find this `"UseLatestInstaller": true` setting in the layout's `response.json` file too, but it is ignored there. The [response.json file is used to set default configuration options on the _client_ when the client installs or updates from a layout](automated-installation-with-response-file.md). This particular `"useLatestInstaller": true` setting is used to ensure that the contents of the _layout_ contain the latest installer, so that the client machines can then acquire the latest installer from the layout.
 
 ### Configure the layout to remove out-of-support components on the client machine.
 
