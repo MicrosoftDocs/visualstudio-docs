@@ -69,7 +69,7 @@ Clicking on **Re-enter your credentials** will open your system's default web br
 > [!NOTE] 
 > For the best experience, keep your browser open until all CA/MFA policies are validated for your resources. Closing the browser may result in losing the previously built MFA state, and may prompt additional authorization prompts.
 
-## Troubleshooting sign in issues
+## Troubleshoot sign in issues
 
 ### CA/MFA issues
 
@@ -84,7 +84,7 @@ If you're experiencing CA/MFA issues and/or are unable to log in even when using
 
 ### Pre-authorization issues
 
-:::image type="content" source="media/vs-2022/pre-auth-general.png" alt-text="Pre-authorization error dialog." border="false":::
+:::image type="content" source="media/vs-2022/pre-auth-general.png" alt-text="Screenshot of a pre-authorization error dialog." border="false":::
 
 Starting with Visual Studio 2022 version 17.5, if you see the previous error dialog, try the following steps to resolve the issue:
 
@@ -97,7 +97,7 @@ Starting with Visual Studio 2022 version 17.5, if you see the previous error dia
 
 ### Sign in issues with Goverment Clouds
 
-:::image type="content" source="media/vs-2022/pre-auth-gov.png" alt-text="Goverment cloud sign in error." border="false":::
+:::image type="content" source="media/vs-2022/pre-auth-gov.png" alt-text="Screenshot of a sign in error when trying to access goverment clouds." border="false":::
 
 Starting with Visual Studio 2022 version 17.5, if you see the previous error dialog or experience issues during sign in operations, try the following steps to resolve the issue:
 
