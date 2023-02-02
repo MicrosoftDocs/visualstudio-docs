@@ -154,7 +154,7 @@ Here are a few examples of how to create a custom partial layout.
     vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Component.Git --lang en-US de-DE ja-JP
     ```
     
-### Use a .vsconfig file to customize your layout
+### Use a .vsconfig file to customize the contents of your layout
 
 You can also use an [exported vsconfig file](import-export-installation-configurations.md) to customize the contents of a network layout. This functionality is relatively new, so you need to use the latest installer in your layout.
 
