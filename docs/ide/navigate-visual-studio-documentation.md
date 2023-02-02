@@ -1,5 +1,5 @@
 ---
-title: About Visual Studio documentation
+title: Navigate the Visual Studio documentation
 description: Find and learn about the resources available in the documentation for the Visual Studio IDE on the Windows platform.
 ms.topic: conceptual
 ms.author: ghogen
