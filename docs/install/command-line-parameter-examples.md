@@ -222,7 +222,7 @@ If you choose to use a custom layout as the update channel, then be aware of the
 * Use --config to configure the contents of a layout:
  
    ```shell
-  vs_enterprise.exe --layout c:\layout --config c:\myconfig.config --useLatestInstaller
+  vs_enterprise.exe --layout c:\layout --config c:\myconfig.vsconfig --useLatestInstaller
   ```
    
 
