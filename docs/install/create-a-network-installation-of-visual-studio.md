@@ -26,7 +26,7 @@ There is a lot of information on this webpage, and it's grouped up into the foll
 - [**Before you get started**](#before-you-get-started): highlights tips and other important considerations you should think about when you plan.
 - [**Acquire the correct bootstrapper**](#download-the-visual-studio-bootstrapper-to-create-the-network-layout): guidance on where to find and how to distinguish the various bootstrappers that are available for you to use.
 - [**Create the network layout**](#create-the-network-layout): describes how to create the layout with the correct product content, channel settings, and version of the installer and how to copy it to a network share. 
-- [**Update, modify, and maintain the network layout**](#update-or-modify-your-layout): information on how to best maintain your layout, including how to update the layout's product version, product content, channel settings, installer version, and folder size. 
+- [**Update, modify, and maintain the network layout**](#maintaining-your-layout): information on how to best maintain your layout, including how to update the layout's product version, product content, channel settings, installer version, and folder size. 
 - [**Install the layout onto client machines**](#install-visual-studio-onto-a-client-machine-from-a-network-installation): describes how to configure client default settings such as what workloads and components to install by default and where the client should look for updates from. Also includes how to do the _initial installation_ of the Visual Studio layout onto the client machines. Guidance and information regarding _updating_ client machines that were originally installed from a layout is covered in the separate [update a network based installation of Visual Studio](update-a-network-installation-of-visual-studio.md) page.
 - [**Help and Support**](#get-support-for-your-network-layout): where to ask for help
 
@@ -170,6 +170,7 @@ We recommend that you always use the latest Visual Studio installer in your layo
  > This capability to use the latest installer is only available to Visual Studio 2019 bootstrappers that were built after Visual Studio 2022 originally shipped. So, the vs_enterprise.exe in the example below must be a version that shipped _after_ November 10, 2021. 
 
 * To create a layout of the entire product that uses the latest and greatest installer available, run
+
     ```shell
     vs_enterprise.exe --layout C:\VSLayout --useLatestInstaller
     ```
