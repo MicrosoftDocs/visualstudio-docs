@@ -1,5 +1,5 @@
 ---
-ms.date: 11/04/2021
+ms.date: 01/31/2023
 ms.technology: vs-ide-general
 ms.custom: vs-get-started
 author: anandmeg
@@ -8,7 +8,6 @@ manager: jmartens
 ms.topic: include
 ---
 An *integrated development environment* (IDE) is a feature-rich program that supports many aspects of software development. The Visual Studio IDE is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to enhance the software development process.
-
 
 ::: moniker range="vs-2019"
 
@@ -27,7 +26,6 @@ The preceding image shows Visual Studio with an open project that shows key wind
 - In [Solution Explorer](../../ide/use-solution-explorer.md), at upper right, you can view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](../../ide/solutions-and-projects-in-visual-studio.md).
 
 - The central [editor window](../../ide/writing-code-in-the-code-and-text-editor.md), where you'll probably spend most of your time, displays file contents. In the editor window, you can edit code or design a user interface such as a window with buttons and text boxes.
-
 
 - In [Git Changes](/visualstudio/version-control/) at lower right, you can track work items and share code with others by using version control technologies like [Git](https://git-scm.com/) and [GitHub](https://github.com/).
 
@@ -98,7 +96,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    Visual Studio menus, options, and properties can seem overwhelming at times. Visual Studio search, or **Ctrl**+**Q**, is a great way to rapidly find IDE features and code in one place.
 
-
    ::: moniker range="vs-2019"
 
    ![Screenshot that shows the Quick Launch search box in Visual Studio 2019.](../media/vs-2019/quick-launch-nuget.png)
@@ -163,10 +160,19 @@ Some popular features in Visual Studio that improve your productivity when devel
    ![Screenshot showing a Peek Definition window.](../media/vs-2022/peek-definition.png)
    ::: moniker-end
 
+::: moniker range=">=vs-2022"
+
+- [Hot Reload](../../debugger/hot-reload.md)
+
+   Hot Reload enables you to edit your application's code files and apply the code changes immediately to the running application.
+
+   :::image type="content" source="../media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022.":::
+
+::: moniker-end
+
 ## Install Visual Studio
 
 In this section, you create a simple project to try out some of the things you can do with Visual Studio. You use [IntelliSense](../../ide/using-intellisense.md) as a coding aid, debug an app to see a variable value during app execution, and change the color theme.
-
 
 ::: moniker range="vs-2019"
 
@@ -189,7 +195,6 @@ When you open Visual Studio for the first time, you can [sign in](../../ide/sign
 ## Create a program
 
 Dive in and create a simple program.
-
 
 ::: moniker range="vs-2019"
 
@@ -443,12 +448,19 @@ Set a breakpoint to see the value of the `username` variable while the program i
 
 1. Press **F5** again to finish running the app.
 
+::: moniker range=">=vs-2022"
+
+Once the app is running, you can apply code changes to the running app by clicking the Hot Reload button.
+
+:::image type="content" source="../media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022.":::
+
+::: moniker-end
+
 For more information about debugging in Visual Studio, see the [Debugger feature tour](../../debugger/debugger-feature-tour.md).
 
 ## Customize Visual Studio
 
 You can personalize the Visual Studio user interface, including changing the default color theme. To change the color theme:
-
 
 ::: moniker range="vs-2019"
 
@@ -462,6 +474,7 @@ You can personalize the Visual Studio user interface, including changing the def
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
+
 1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
 
 1. On the **Environment** > **General** options page, change the **Color Theme** selection to **Blue** or **Light**, and then select **OK**.
@@ -469,6 +482,7 @@ You can personalize the Visual Studio user interface, including changing the def
    The color theme for the entire IDE changes accordingly. The following screenshot shows the Blue theme:
 
    ![Screenshot that shows Visual Studio in Blue theme.](../media/vs-2022/blue-theme.png)
+
 ::: moniker-end
 
 To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../../ide/personalizing-the-visual-studio-ide.md).

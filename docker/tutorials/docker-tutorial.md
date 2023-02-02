@@ -44,6 +44,8 @@ In this tutorial, you learn how to:
 - [Docker Desktop](https://docs.docker.com/desktop/).
 - A [Docker Hub](https://hub.docker.com/signup) account. You can create an account for free.
 
+The tutorial works with Windows 10 or later and Docker Desktop configured to use Linux containers.
+
 ## Create a container
 
 A container is a process on your computer.
@@ -59,6 +61,8 @@ After you install the Docker extension for VS Code, you can work with containers
 In addition to context menus in the Docker pane, you can select **Terminal** > **New Terminal** to open a command-line window.
 You can also run commands in a Bash window.
 Unless specified, any command labeled as **Bash** can run in a Bash window or the VS Code terminal.
+
+1. Set Docker to Linux container mode. To switch to Linux containers, right-click on the Docker icon in the taskbar, and choose **Switch to Linux containers**.
 
 1. In VS Code, select **Terminal** > **New Terminal**.
 

@@ -3,7 +3,7 @@ title: Troubleshooting Test Controllers and Test Agents
 description: Learn about some common problems you might encounter when you work with test controllers and test agents in Visual Studio.
 ms.custom: SEO-VS-2020
 ms.date: 10/20/2016
-ms.topic: troubleshooting
+ms.topic: how-to
 helpviewer_keywords:
 - load tests, test controllers
 - load tests, troubleshooting
