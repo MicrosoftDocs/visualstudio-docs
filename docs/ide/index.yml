@@ -38,7 +38,7 @@ landingContent:
           - text: Visual Studio
             url: ../get-started/visual-studio-ide.md
           - text: Visual Studio documentation
-            url: navigate-visual-studio-documentation.md
+            url: about-visual-studio-documentation.md
 
   # Card
   - title: Use Visual Studio

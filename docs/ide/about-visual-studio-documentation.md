@@ -1,5 +1,5 @@
 ---
-title: Navigate the Visual Studio documentation
+title: About the Visual Studio documentation
 description: Find and learn about the resources available in the documentation for the Visual Studio IDE on the Windows platform.
 ms.topic: overview
 ms.author: ghogen
@@ -15,11 +15,13 @@ ms.date: 02/14/2023
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-This page provides information that might help you learn and use Visual Studio IDE for the Windows platform. You can reach this page by using the **Help > View Help** menu item in Visual Studio IDE.
+This page provides information that might help you learn and use the Visual Studio IDE for the Windows platform. You can reach this page by using the **Help > View Help** menu item in the Visual Studio IDE.
 
 By default, the **Help > View Help** menu item takes you to the online documentation on learn.microsoft.com. You can also choose to install and use the documentation locally in the Help Viewer app. See [Install and view documentation locally](#install-and-view-documentation-locally).
 
 Documentation for Visual Studio covers the functionality of the IDE, including [installation](../install/install-visual-studio.md), [settings in the IDE](./personalizing-the-visual-studio-ide.md), organizing code with [projects and solutions](./solutions-and-projects-in-visual-studio.md), [code editing](./writing-code-in-the-code-and-text-editor.md), [debugging](../debugger/debugger-feature-tour.md) and [performance analysis](../profiling/beginners-guide-to-performance-profiling.md) tools, [testing](../test/index.yml) tools, and more.
+
+For Visual Studio for Mac, see [Visual Studio for Mac](/visualstudio/mac).
 
 ## Get started with tutorials
 
