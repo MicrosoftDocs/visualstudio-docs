@@ -274,7 +274,7 @@ vs_enterprise.exe --layout c:\VSLayout --all
 You can add components to a layout by passing in a config file that contains the additional components you want in your layout. Note that this functionality is new and thus requires the latest installer. 
 
 ```shell
-vs_enterprise.exe --layout c:\VSLayout --config c:\myconfig.config
+vs_enterprise.exe --layout c:\VSLayout --config c:\myconfig.config --useLatestInstaller
 ```
 
 Lastly, you can directly edit the `layout.json` configuration file in the layout folder and update the "add" section of this file to include the additional components you want included in your layout. You'll then need to update the layout as previously described to download the latest components. 
