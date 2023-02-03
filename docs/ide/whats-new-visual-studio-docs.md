@@ -72,8 +72,8 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Install Visual Studio](../install/install-visual-studio.md) - Update text, links, and screenshots
 - [Troubleshoot network-related errors when you install, update, or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md) - Add requirement that client machines need to have permissions to network layout shares
+- [Install Visual Studio](../install/install-visual-studio.md) - Update text and links
 - Perform minor doc content fixes to layout and admin documentation:
   - [Create, maintain, and deploy a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
   - [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md)
@@ -83,14 +83,14 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [Develop JavaScript and TypeScript code in Visual Studio without solutions or projects](../javascript/develop-javascript-code-without-solutions-projects.md) - Add updates for importing an existing Node.js project
-- [Tutorial: Create a Node.js and Express app in Visual Studio](../javascript/tutorial-nodejs.md) - Update text, links, and screenshots
+- [Tutorial: Create a Node.js and Express app in Visual Studio](../javascript/tutorial-nodejs.md) - Update text and links
 
 ### MSBuild
 
 **Updated articles**
 
 - [Item functions](../msbuild/item-functions.md) - Clarify metadata item function and KeepDuplicates
-- [Property functions](../msbuild/property-functions.md) - Update text, links, and screenshots
+- [Property functions](../msbuild/property-functions.md) - Update text and links
 - [Tutorial: Create a custom task for code generation](../msbuild/tutorial-custom-task-code-generation.md) - Improve code formatting
 
 ### Profiling
