@@ -89,7 +89,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **New articles**
 
-- [Fix intermittent build failures](../msbuild/fix-intermittent-build-failures.md) - Shows how to identify and fix race conditions
+- [Fix intermittent build failures](../msbuild/fix-intermittent-build-failures.md) - Show how to identify and fix race conditions
 
 **Updated articles**
 
