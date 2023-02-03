@@ -66,7 +66,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [How to: Customize menus and toolbars in Visual Studio](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md) - Update instructional text & links
 - [Options dialog box: Environment \> General](../ide/reference/general-environment-options-dialog-box.md) - Revise Startup settings info
-- [Tour the Visual Studio IDE](../ide/quickstart-ide-orientation.md) - Update text, links, and screenshots
+- [Tour the Visual Studio IDE](../ide/quickstart-ide-orientation.md) - Revise text and update screenshots
 
 ### Install
 
