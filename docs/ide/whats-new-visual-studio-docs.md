@@ -87,6 +87,10 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 ### MSBuild
 
+**New articles**
+
+- [Fix intermittent build failures](../msbuild/fix-intermittent-build-failures.md) - Shows how to identify and fix race conditions
+
 **Updated articles**
 
 - [Item functions](../msbuild/item-functions.md) - Clarify metadata item function and KeepDuplicates
