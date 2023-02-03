@@ -102,7 +102,7 @@ In 2016, we released the next step in evolving the MSTest framework with MSTestV
 *	Tests cannot be included into an "Ordered Test".
 * Changes to the `.testsettings` file:
    * Can no longer be used to configure the adapter.
-   * No longer support the `<LegacySettings>` section, meaning you can't use it to set attributes (e.g. `DeploymentItem`). Use the new [*.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) for test run configuration.
+   * No longer support the `<LegacySettings>` section, meaning you can't use it to set attributes. For example, `DeploymentItem`. Use the new [*.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md) for test run configuration.
 *	The adapter doesn't support test lists specified as a *.vsmdi* file.
 *	The "Coded UI Test Project" and the "Web Performance and Load Test Project" types are not supported. Read more on [Coded UI Test deprecation](https://devblogs.microsoft.com/devops/changes-to-coded-ui-test-in-visual-studio-2019/) and [Web Load Test deprecation](https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol/).
 * Association with a testcase item in TFS is not supported.
