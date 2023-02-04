@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 01/05/2023
+ms.date: 02/03/2023
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -20,6 +20,117 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
+
+## January 2023
+
+### Debugger
+
+**New articles**
+
+- [Tabular visualizers in Visual Studio](../debugger/view-data-in-tabular-visualizer.md)
+
+**Updated articles**
+
+- [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md) - Update Edit and Continue for .NET 6
+- Debugger visualizer updates:
+  - [View Text, XML, HTML, JSON strings in the string visualizer](../debugger/string-visualizer-dialog-box.md)
+  - [View strings in a string visualizer in Visual Studio](../debugger/view-strings-visualizer.md)
+
+### Deployment
+
+**Updated articles**
+
+- Clarify behavior for ClickOnce required and non-required updates:
+  - [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
+  - [Choose a ClickOnce update strategy](../deployment/choosing-a-clickonce-update-strategy.md)
+
+### Extensibility
+
+**Updated articles**
+
+- [Using the Managed Package Framework to Implement a Project Type (C#)](../extensibility/internals/using-the-managed-package-framework-to-implement-a-project-type-csharp.md) - Fix formatting and bullet points
+
+### Get started
+
+**Updated articles**
+
+- [Tutorial: Create a simple C# console app in Visual Studio (part 1 of 2)](../get-started/csharp/tutorial-console.md) - Update text, links, and screenshots
+
+### IDE
+
+**New articles**
+
+- [Troubleshoot errors in the Resource Editor](../ide/troubleshoot-resource-editor-errors.md)
+
+**Updated articles**
+
+- [How to: Customize menus and toolbars in Visual Studio](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md) - Update instructional text & links
+- [Options dialog box: Environment \> General](../ide/reference/general-environment-options-dialog-box.md) - Revise Startup settings info
+- [Tour the Visual Studio IDE](../ide/quickstart-ide-orientation.md) - Revise text and update screenshots
+
+### Install
+
+**Updated articles**
+
+- [Troubleshoot network-related errors when you install, update, or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md) - Add requirement that client machines need to have permissions to network layout shares
+- [Install Visual Studio](../install/install-visual-studio.md) - Update text and links
+- Perform minor doc content fixes to layout and admin documentation:
+  - [Create, maintain, and deploy a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
+  - [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md)
+
+### JavaScript
+
+**Updated articles**
+
+- [Develop JavaScript and TypeScript code in Visual Studio without solutions or projects](../javascript/develop-javascript-code-without-solutions-projects.md) - Add updates for importing an existing Node.js project
+- [Tutorial: Create a Node.js and Express app in Visual Studio](../javascript/tutorial-nodejs.md) - Update text and links
+
+### MSBuild
+
+**New articles**
+
+- [Fix intermittent build failures](../msbuild/fix-intermittent-build-failures.md) - Show how to identify and fix race conditions
+
+**Updated articles**
+
+- [Item functions](../msbuild/item-functions.md) - Clarify metadata item function and KeepDuplicates
+- [Property functions](../msbuild/property-functions.md) - Update text and links
+- [Tutorial: Create a custom task for code generation](../msbuild/tutorial-custom-task-code-generation.md) - Improve code formatting
+
+### Profiling
+
+**New articles**
+
+- [Slow Enumerable.Contains lookup](../profiling/perf-insights-contains.md)
+- [Slow Enumerable.ElementAt lookup](../profiling/perf-insights-elementat.md)
+- [Which performance tool should I use? (C#, Visual Basic, C++, F#)](../profiling/choose-performance-tool.md)
+
+### Python
+
+**Updated articles**
+
+- [Step 3: Serve static files, add pages, and use template inheritance with Django app](../python/learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md) - Update extends tag info
+
+### Test
+
+**Updated articles**
+
+- [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) - Add new code coverage filters info
+
+### Community contributors
+
+The following people contributed to Visual Studio content in January. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
+
+- [MarissaB](https://github.com/MarissaB) - Marissa B (3)
+- [jrdodds](https://github.com/jrdodds) - Jonathan Dodds (2)
+- [AbdulhakimZ](https://github.com/AbdulhakimZ) - Abdulhakim Zeinu (1)
+- [AndrewKeepCoding](https://github.com/AndrewKeepCoding) - Andrew KeepCoding (1)
+- [AWilco](https://github.com/AWilco) - Alex Wilkinson (1)
+- [GitHubPang](https://github.com/GitHubPang) - GitHubPang (1)
+- [glenn-slayden](https://github.com/glenn-slayden) - Glenn Slayden (1)
+- [jozefizso](https://github.com/jozefizso) - Jozef Izso (1)
+- [Kelderro](https://github.com/Kelderro) - Rob op den Kelder (1)
+- [teo-tsirpanis](https://github.com/teo-tsirpanis) - Theodore Tsirpanis (1)
 
 ## December 2022
 
@@ -93,14 +204,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Use the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) - Add DataRowAttribute documentation
 - [Remote Testing (experimental preview)](../test/remote-testing.md) - Improve code formatting
-
-### Community contributors
-
-The following people contributed to Visual Studio content in November. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
-
-- [simon6502](https://github.com/simon6502) (2)
-- [sid2934](https://github.com/sid2934) - Austin (1)
-- [spottedmahn](https://github.com/spottedmahn) - Michael DePouw (1)
 
 ## November 2022
 
@@ -202,64 +305,3 @@ The following people contributed to Visual Studio content in November. Thank you
 **New articles**
 
 - [Work with multiple repos](../version-control/git-multi-repository-support.md)
-
-## October 2022
-
-### Data tools
-
-**Updated articles**
-
-- Update for Visual Studio 2022:
-  - [How to: Save and edit connection strings](../data-tools/how-to-save-and-edit-connection-strings.md)
-  - [How to: Create and configure datasets in Visual Studio](../data-tools/create-and-configure-datasets-in-visual-studio.md)
-
-### Designers
-
-**Updated articles**
-
-- [Disable DPI-awareness to fix HDPI / scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md) - Remove the Registry Entry section
-
-### Extensibility
-
-**Updated articles**
-
-- [Create an options page](../extensibility/creating-an-options-page.md) - Add step to open custom options page
-
-### IDE
-
-**Updated articles**
-
-- [Project migration and upgrade reference for Visual Studio](../porting/port-migrate-and-upgrade-visual-studio-projects.md) - Refresh text and links
-- [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md) - Refresh text, links, and screenshots
-
-### JavaScript
-
-**Updated articles**
-
-- [Tutorial: Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md) - Update publishing steps for article on ASP.NET Core and Vue.js
-
-### MSBuild
-
-**New articles**
-
-- [Find and use a version of MSBuild](../msbuild/find-and-use-msbuild-versions.md)
-- [MSBuild Server](../msbuild/msbuild-server.md)
-
-**Updated articles**
-
-- [MSBuild](../msbuild/msbuild.md) - Review and update text and screenshots
-- [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md) - Review and update text and screenshots
-- [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md) - Add undocumented MSBuild properties
-
-### Profiling
-
-**New articles**
-
-- [Identify hot paths with a visualized call tree](../profiling/flame-graph.md)
-
-### Test
-
-**Updated articles**
-
-- [Use the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) - Refresh and complete MSTest documentation
-- [How to: Create a data-driven unit test](../test/how-to-create-a-data-driven-unit-test.md) - Update doc for MSTest data-driven tests
