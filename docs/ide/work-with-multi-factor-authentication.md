@@ -95,9 +95,9 @@ Starting with Visual Studio 2022 version 17.5, if you see the previous error dia
 > [!NOTE]
 > Creating a ticket will help us identify problematic areas and provide the needed logs to investigate and address the issue.
 
-### Sign in issues with Goverment Clouds
+### Sign in issues with Government Clouds
 
-:::image type="content" source="media/vs-2022/pre-auth-gov.png" alt-text="Screenshot of a sign in error when trying to access goverment clouds." border="false":::
+:::image type="content" source="media/vs-2022/pre-auth-gov.png" alt-text="Screenshot of a sign-in error when trying to access government clouds." border="false":::
 
 Starting with Visual Studio 2022 version 17.5, if you see the previous error dialog or experience issues during sign in operations, try the following steps to resolve the issue:
 
