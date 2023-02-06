@@ -46,7 +46,7 @@ You can also configure future updates of this instance of Visual Studio to respe
 
 ### Step 2 - Create a local layout
 
-Open a command prompt with administrator privileges, navigate to the directory where you downloaded the bootstrapper into, and use the [bootstrapper's parameters](use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command-line-parameters) to create your local layout. Note that you must have an internet connection to complete this step. Common local layout creation examples using the Enterprise bootstrapper are illustrated below and in the [command-line parameter examples](command-line-parameter-examples.md) page. You can install a language other than English by changing `en-US` to a locale from the [list of language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales), and you can use a vsconfig file or the [list of components and workloads](workload-and-component-ids.md) to further customize your local layout.
+Open a command prompt with administrator privileges, navigate to the directory where you downloaded the bootstrapper, and use the [bootstrapper's parameters](use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command-line-parameters) to create your local layout. Note that you must have an internet connection to complete this step. Common local layout creation examples using the Enterprise bootstrapper are illustrated below and on the [command-line parameter examples](command-line-parameter-examples.md) page. You can install a language other than English by changing `en-US` to a locale from the [list of language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales), and you can use a *vsconfig* file or the [list of components and workloads](workload-and-component-ids.md) to further customize your local layout.
 
 > [!TIP]
 > To prevent an error, make sure that your full installation path is less than 80 characters.
@@ -82,7 +82,7 @@ Open a command prompt with administrator privileges, navigate to the directory w
 - To create a local layout using an [exported vsconfig file](import-export-installation-configurations.md) to customize the layout content, run the code below. Since this functionality is relatively new, you'll need to use the latest installer in your layout.   
 
    ```shell
-    vs_enterprise.exe --layout c:\localVSlayout --config c:\myconfig.vsconfig --useLatestInstaller --lang en-US 
+    vs_enterprise.exe --layout C:\localVSlayout --config "C:\myconfig.vsconfig" --useLatestInstaller --lang en-US 
     ```
 
 - You can also [verify](create-a-network-installation-of-visual-studio.md?#verify-a-layout) or [fix](create-a-network-installation-of-visual-studio.md?#fix-a-layout) an offline installation.

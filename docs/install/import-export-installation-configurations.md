@@ -21,7 +21,7 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can use installation configuration files to configure Visual Studio. To do so, export the workload and component information to a .vsconfig file by using the Visual Studio installer. You can then import the configuration into new or existing installations, use them to create or modify a layout or an offline installation, and share them with others.
+You can use installation configuration files to configure Visual Studio. To do so, export the workloads and components information to a *.vsconfig* file by using the Visual Studio Installer. You can then import the configuration into new or existing installations, use them to create or modify a layout or an offline installation, and share them with others.
 
 ## Export a configuration
 
