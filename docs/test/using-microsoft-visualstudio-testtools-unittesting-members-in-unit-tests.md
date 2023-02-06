@@ -341,8 +341,6 @@ The following attributes and the values assigned to them appear in the Visual St
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute>
 
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute>
-
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute>
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.IgnoreAttribute>
@@ -352,6 +350,41 @@ The following attributes and the values assigned to them appear in the Visual St
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.WorkItemAttribute>
+
+## DeploymentItemAttribute
+
+The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute> for copying files or folders specified as deployment items to the deployment directory. Deployment directory is where all the deployment items are present along with TestSource dll.(starting from MSTest v2)
+
+It can be used either on TestClass or on TestMethod.
+
+Users can have multiple instances of the attribute to specify more than one item.
+
+**Constructors**
+
+* public DeploymentItemAttribute (string path)
+   * `path`: The file or directory to deploy. The path is either absolute or relative to build output directory.
+
+
+* public DeploymentItemAttribute (string path, string outputDirectory)
+    * `path`: The file or directory to deploy. The path is relative to the deployment directory. <br/><br/>
+    * `outputDirectory`: The path of the directory inside the deployment directory to which the items are to be copied. All files and directories identified by    `path` will be copied to this directory.
+
+**Example**
+
+```csharp
+[TestClass]
+[DeploymentItem(@"C:\classLevelDepItem.xml")]   //absolute path
+public class UnitTest1
+{
+    [TestMethod]
+    [DeploymentItem(@"..\..\methodLevelDepItem1.xml")]   //relative path
+    [DeploymentItem(@"C:\DataFiles\methodLevelDepItem2.xml", "DataFiles")]   //custom output path
+    public void TestMethod1()
+    {
+        String textFromFile = File.ReadAllText("classLevelDepItem.xml");
+    }
+}
+```
 
 ## Test configuration classes
 
