@@ -15,11 +15,11 @@ ms.date: 02/14/2023
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-This page provides information that might help you learn and use the Visual Studio IDE for the Windows platform. You can reach this page by using the **Help > View Help** menu item in the Visual Studio IDE.
+This page provides information that might help you learn and use the Visual Studio Integrated Development Environment (IDE) for the Windows platform. You can reach this page by using the **Help > View Help** menu item in the Visual Studio IDE.
 
 By default, the **Help > View Help** menu item takes you to the online documentation on learn.microsoft.com. You can also choose to install and use the documentation locally in the Help Viewer app. See [Install and view documentation locally](#install-and-view-documentation-locally).
 
-Documentation for Visual Studio covers the functionality of the IDE, including [installation](../install/install-visual-studio.md), [settings in the IDE](./personalizing-the-visual-studio-ide.md), organizing code with [projects and solutions](./solutions-and-projects-in-visual-studio.md), [code editing](./writing-code-in-the-code-and-text-editor.md), [debugging](../debugger/debugger-feature-tour.md) and [performance analysis](../profiling/beginners-guide-to-performance-profiling.md) tools, [testing](../test/index.yml) tools, and more.
+Documentation for Visual Studio covers the functionality of the IDE. You can start with a [feature tour](quickstart-ide-orientation.md) and [overview of Visual Studio](../get-started/visual-studio-ide.md). The documentation includes [installation](../install/install-visual-studio.md), [settings in the IDE](./personalizing-the-visual-studio-ide.md), organizing code with [projects and solutions](./solutions-and-projects-in-visual-studio.md), [code editing](./writing-code-in-the-code-and-text-editor.md), [debugging](../debugger/debugger-feature-tour.md) and [performance analysis](../profiling/beginners-guide-to-performance-profiling.md) tools, [testing](../test/index.yml) tools, and more.
 
 For Visual Studio for Mac, see [Visual Studio for Mac](/visualstudio/mac).
 
@@ -73,6 +73,17 @@ Not all documentation on the Learn platform is available locally. Available docu
 
 For more information about offline documentation, see [Microsoft Help Viewer](../help-viewer/overview.md).
 
+## Versions
+
+The documentation in this section applies to all quarterly updates of Visual Studio 2019 and Visual Studio 2022. You can use the version selector at the top left, above the TOC, to switch between versions or access documentation for [previous versions](/previous-versions/visualstudio).
+
+Articles or sections that apply to current previews are marked as preview content.
+
 ## Next steps
 
 If you're not finding what you wanted, let us know! If your feedback is about the product, use [Visual Studio Developer Community](https://developercommunity.visualstudio.com/VisualStudio) to report your concern or see what others have suggested. If your feedback is about the documentation, use the feedback link at the bottom of this page. The best feedback includes information about your situation, what you expected or wanted, and if possible, specific suggestions for us to consider improving or changing. See also [Report a problem](./how-to-report-a-problem-with-visual-studio.md).
+
+## See also
+
+For documentation for all products in the Visual Studio family, see [Visual Studio family](../index.yml).
+
