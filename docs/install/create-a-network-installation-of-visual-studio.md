@@ -196,7 +196,7 @@ If you host a layout on a file share, you may want to update a private copy of t
 
 Microsoft frequently releases updated versions of the product to fix functionality or security issues. We strongly recommend that you keep your layout updated with the latest version of the product so that your clients always have access to the latest most secure version of the product. This is extremely important if your clients don't have internet access and can *only* receive product updates from the layout.  
 
-When you create the initial layout, the specified options, such as which workloads and languages to include in the layout, are saved in the layout's configuration file. Later, when you update that layout to a newer version of the product, you don't have to re-specify what parts of the product you want in the layout. A layout update simply updates the existing components to their most current version.  
+When you create the initial layout, the specified options, such as which workloads and languages to include in the layout, are saved in the layout's configuration file. Later, when you update that layout to a newer version of the product, you don't have to re-specify which components of the product you want in the layout. A layout update simply updates the existing components to their most current version.  
 
 Suppose you already created this partial layout using [one of the evergreen bootstrappers in the table above](#download-the-visual-studio-bootstrapper-to-create-the-network-layout).
 
