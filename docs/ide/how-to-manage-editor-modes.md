@@ -32,10 +32,10 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can display the Visual Studio code editor in various display modes.
+In Visual Studio, you can view the code editor in various display modes.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in this article depending on your active settings or edition. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools** > **Import and Export Settings**, and then choose **Reset all settings**.
+> The dialog boxes and menu commands you see might differ from those described in this article depending on your active settings or edition. To change your settings, for example to **General** or **Visual C++** settings, select **Tools** > **Import and Export Settings**, and then select **Reset all settings**.
 
 ## Enable full screen mode
 
@@ -59,7 +59,7 @@ In **Virtual Space** mode, spaces are inserted at the end of each line of code. 
 
 1. Select **Options** from the **Tools** menu.
 
-2. Expand the **Text Editor** folder, and choose **All Languages** to set this option globally, or choose a specific language folder. For example, to turn on line numbers only in Visual Basic, choose the **Basic** > **Text Editor** node.
+2. Expand the **Text Editor** folder, and select **All Languages** to set this option globally, or select a specific language folder. For example, to turn on line numbers only in Visual Basic, select the **Basic** > **Text Editor** node.
 
 3. Select **General** options, and under **Settings**, select **Enable Virtual Space**.
 
