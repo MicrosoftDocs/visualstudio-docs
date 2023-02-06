@@ -2,7 +2,7 @@
 title: Full screen and virtual space mode
 description: Learn how to manage the Visual Studio editor modes to display all of the tools and windows in a way that works best for you.
 ms.custom: SEO-VS-2020
-ms.date: 08/24/2022
+ms.date: 02/06/2023
 ms.topic: how-to
 helpviewer_keywords:
 - word wrap
@@ -46,6 +46,12 @@ You can choose to hide all tool windows and view only document windows by enabli
      -- or --
 
 - Issue the command `View.Fullscreen` in the **Command** window.
+
+To view or change this option, go to **Tools** > **Options** > **Environment** > **Keyboard** and then enter 'View.FullScreen' in the **Show commands containing** section.
+
+:::image type="content" source="media/tools-options-environment-keyboard-view-fullscreen.png" alt-text="Screenshot of the View.FullScreen command from the keyboard mapping scheme available from the Options dialog.":::
+
+To learn more about keyboard shortcuts and their associated commands, see [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md).
 
 ## Enable virtual space mode
 
