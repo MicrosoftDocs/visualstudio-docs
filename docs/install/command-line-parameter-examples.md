@@ -55,7 +55,7 @@ For lists of the workloads and components that you can install by using the comm
    ```
 
   > [!NOTE]
-  > The first command updates the Visual Studio installer and the second command updates the Visual Studio product bits. Running both commands explicitly is advised so that they properly complete in order. To avoid a User Account Control dialog, run the command prompt as an Administrator.
+  > The first command updates the Visual Studio installer and the second command updates the Visual Studio product bits. It is recommended to run and complete both commands in order. To avoid a User Account Control dialog, run the command prompt as an Administrator.
 
 ## Using --wait
 
@@ -222,7 +222,7 @@ If you choose to use a custom layout as the update channel, then be aware of the
 * Use --config to configure the contents of a layout:
  
    ```shell
-  vs_enterprise.exe --layout c:\layout --config c:\myconfig.vsconfig --useLatestInstaller
+  vs_enterprise.exe --layout C:\layout --config "C:\myconfig.vsconfig" --useLatestInstaller
   ```
    
 

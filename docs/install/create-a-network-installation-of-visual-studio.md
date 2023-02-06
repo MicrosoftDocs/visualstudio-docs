@@ -159,7 +159,7 @@ Here are a few examples of how to create a custom partial layout.
 You can also use an [exported vsconfig file](import-export-installation-configurations.md) to customize the contents of a network layout. This functionality is relatively new, so you need to use the latest installer in your layout.
 
 ```shell
-vs_enterprise.exe --layout C:\VSLayout --config c:\myconfig.vsconfig --useLatestInstaller
+vs_enterprise.exe --layout C:\VSLayout --config "C:\myconfig.vsconfig" --useLatestInstaller
 ```
 
 ### Ensure your layout is using the latest installer
@@ -204,13 +204,13 @@ Suppose you already created this partial layout using [one of the evergreen boot
 vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --lang en-US
 ```
 
-Updating this layout to the latest version of the product offered by Microsoft and hosted on Microsoft servers is easy. You just need to use the existing evergreen bootstrapper in the layout, and simply run the `--layout` command to download the latest packages into your layout, like this
+Updating this layout to the latest version of the product offered by Microsoft and hosted on Microsoft servers is easy. You just need to use the existing evergreen bootstrapper in the layout, and simply run the `--layout` command to download the latest packages into your layout, as follows:
 
 ```shell
 vs_enterprise.exe --layout c:\VSLayout
 ```
 
-You can also update your layout to a newer version in an unattended manner. The layout operation runs the setup process in a new console window. The window is left open so that admins can see the final layout update result and a summary of any errors that might have occurred. If you would like to perform a layout update operation in an unattended manner (for example, you have a script that is regularly run to update your layout to the latest version), then use the `--passive` parameter and the process will automatically close the window.
+You can also update your layout to a newer version in an unattended manner. The layout operation runs the setup process in a new console window. The window is left open so that admins can see the final layout update result and a summary of any errors that might have occurred. If you'd like to perform a layout update operation in an unattended manner (for example, you have a script that is regularly run to update your layout to the latest version), then use the `--passive` parameter and the process will automatically close the window.
 
 ```shell
 vs_enterprise.exe --layout c:\VSLayout --passive
