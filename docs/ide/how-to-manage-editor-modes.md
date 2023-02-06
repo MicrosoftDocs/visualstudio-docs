@@ -32,7 +32,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In Visual Studio, you can view the code editor in various display modes.
+With Visual Studio, you can view the code editor in various display modes.
 
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in this article depending on your active settings or edition. To change your settings, for example to **General** or **Visual C++** settings, select **Tools** > **Import and Export Settings**, and then select **Reset all settings**.
