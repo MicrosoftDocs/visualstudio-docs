@@ -359,14 +359,7 @@ It can be used either on test classes (classes marked with `TestClass` attribute
 
 Users can have multiple instances of the attribute to specify more than one item.
 
-**Constructors**
-
-* public DeploymentItemAttribute (string path)
-   * `path`: The file or directory to deploy. The path is either absolute or relative to build output directory.
-
-* public DeploymentItemAttribute (string path, string outputDirectory)
-    * `path`: The file or directory to deploy. The path is relative to the deployment directory. <br/><br/>
-    * `outputDirectory`: The path of the directory inside the deployment directory to which the items are to be copied. All files and directories identified by    `path` will be copied to this directory.
+And here you can see its [constructors](https://learn.microsoft.com/dotnet/api/microsoft.visualstudio.testtools.unittesting.deploymentitemattribute.-ctor).
 
 **Example**
 
