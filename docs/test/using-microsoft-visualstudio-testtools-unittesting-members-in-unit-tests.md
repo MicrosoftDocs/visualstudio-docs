@@ -359,7 +359,7 @@ It can be used either on test classes (classes marked with `TestClass` attribute
 
 Users can have multiple instances of the attribute to specify more than one item.
 
-And here you can see its [constructors](<xref:microsoft.visualstudio.testtools.unittesting.deploymentitemattribute#constructors>).
+And here you can see its [constructors](<xref:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute>).
 
 **Example**
 
