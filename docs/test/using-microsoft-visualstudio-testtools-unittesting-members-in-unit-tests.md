@@ -355,7 +355,7 @@ The following attributes and the values assigned to them appear in the Visual St
 
 The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute> for copying files or folders specified as deployment items to the deployment directory. Deployment directory is where all the deployment items are present along with TestSource dll.(starting from MSTest v2)
 
-It can be used either on TestClass or on TestMethod.
+It can be used either on test classes (classes marked with `TestClass` attribute) or on test methods (methods marked with `TestMethod` attribute).
 
 Users can have multiple instances of the attribute to specify more than one item.
 
