@@ -381,7 +381,7 @@ public class UnitTest1
     [DeploymentItem(@"C:\DataFiles\methodLevelDepItem2.xml", "DataFiles")]   //custom output path
     public void TestMethod1()
     {
-        String textFromFile = File.ReadAllText("classLevelDepItem.xml");
+        string textFromFile = File.ReadAllText("classLevelDepItem.xml");
     }
 }
 ```
