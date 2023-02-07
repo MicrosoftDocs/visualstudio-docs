@@ -2,7 +2,7 @@
 title: Full screen and virtual space mode
 description: Learn how to manage the Visual Studio editor modes to display all of the tools and windows in a way that works best for you.
 ms.custom: SEO-VS-2020
-ms.date: 08/24/2022
+ms.date: 02/06/2023
 ms.topic: how-to
 helpviewer_keywords:
 - word wrap
@@ -32,41 +32,34 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can display the Visual Studio code editor in various display modes.
+With Visual Studio, you can view the code editor in various display modes.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in this article depending on your active settings or edition. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools** > **Import and Export Settings**, and then choose **Reset all settings**.
+> The dialog boxes and menu commands you see might differ from those described in this article depending on your active settings or edition. To change your settings, for example to **General** or **Visual C++** settings, select **Tools** > **Import and Export Settings**, and then select **Reset all settings**.
 
 ## Enable full screen mode
 
 You can choose to hide all tool windows and view only document windows by enabling **Full Screen** mode.
 
-- Press **Alt**+**Shift**+**Enter** to enter or exit **Full Screen** mode.
+- Press **Shift**+**Alt**+**Enter** to enter or exit **Full Screen** mode.
 
      -- or --
 
 - Issue the command `View.Fullscreen` in the **Command** window.
 
+To view or change this option, go to **Tools** > **Options** > **Environment** > **Keyboard** and then enter 'View.FullScreen' in the **Show commands containing** section.
+
+:::image type="content" source="media/tools-options-environment-keyboard-view-fullscreen.png" alt-text="Screenshot of the View.FullScreen command from the keyboard mapping scheme available from the Options dialog.":::
+
+To learn more about keyboard shortcuts and their associated commands, see [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md).
+
 ## Enable virtual space mode
 
 In **Virtual Space** mode, spaces are inserted at the end of each line of code. Select this option to position comments at a consistent point next to your code.
 
-::: moniker range="vs-2022"
-
 1. Select **Options** from the **Tools** menu.
 
-1. Expand the **Text Editor** folder, and choose **All Languages** to set this option globally, or choose a specific language folder. For example, to turn on line numbers only in Visual Basic, choose the **Visual Basic** > **Text Editor** node.
-
-1. Select **General** options, and under **Settings**, select **Enable Virtual Space**.
-
-    > [!NOTE]
-    > **Virtual Space** is enabled in **Column Selection** mode. When **Virtual Space** mode is not enabled, the insertion point moves from the end of one line directly to the first character of the next.
-
-::: moniker-end
-
-1. Select **Options** from the **Tools** menu.
-
-2. Expand the **Text Editor** folder, and choose **All Languages** to set this option globally, or choose a specific language folder. For example, to turn on line numbers only in Visual Basic, choose the **Basic** > **Text Editor** node.
+2. Expand the **Text Editor** folder, and select **All Languages** to set this option globally, or select a specific language folder. For example, to turn on line numbers only in Visual Basic, select the **Basic** > **Text Editor** node.
 
 3. Select **General** options, and under **Settings**, select **Enable Virtual Space**.
 
