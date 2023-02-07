@@ -29,7 +29,7 @@ To get started, [download Visual Studio](https://visualstudio.microsoft.com/down
 
 In the Visual Studio Installer, you'll choose and install *workloads*, which are groups of features you need for the programming languages or platforms you want. To follow along this tutorial, be sure to select the **.NET desktop development** workload during installation. 
 
-:::image type="content" source="/media/vs-2022/dot-net-development-workload.png" alt-text="Screenshot of the .NET desktop development workload selected in the Visual Studio Installer.":::
+:::image type="content" source="media/vs-2022/dot-net-development-workload.png" alt-text="Screenshot of the .NET desktop development workload selected in the Visual Studio Installer.":::
 
 If you already have Visual Studio, you can add the **.NET desktop development** workload as follows:
 * Launch the Visual Studio Installer..
