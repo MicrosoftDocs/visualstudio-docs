@@ -180,7 +180,7 @@ Syntax examples:
   ``` 
 
 ## Rollback command and command-line parameters
-You can rollback the update programmatically by using the installer on the client machine, and passing in the rollback command alongside the installation path instance.  
+You can roll back the update programmatically by using the installer on the client machine, and passing in the rollback command alongside the installation path instance.  
 
 | **Command** | **Description**                                                                                                         |
 |-------------|-------------------------------------------------------------------------------------------------------------------------|
