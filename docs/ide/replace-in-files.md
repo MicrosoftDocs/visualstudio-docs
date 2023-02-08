@@ -1,6 +1,6 @@
 ---
 title: Replace in files
-description: Learn about the Replace in Files feature and how it allows you to search the code of a specified set of files for a string or expression, and change some or all of the matches found.
+description: Learn how to use Replace in Files to search the code of a specified set of files for a string or expression and change some or all of the matches found.
 ms.custom: SEO-VS-2020
 ms.date: 02/07/2023
 ms.topic: conceptual
@@ -60,7 +60,7 @@ You can use any of the following methods to display **Replace in Files** in the 
 > [!NOTE]
 > The **Find and Replace** tool does not search directories with the `Hidden` or `System` attribute.
 
-The **Replace in Files** options are identical to those in the **[Find in Files](find-in-files.md)** dialog, with two exceptions: There are additional replace action buttons at the bottom of the dialog. And, there are the following replace options available in the dialog.
+The **Replace in Files** options are almost identical to the options in the **[Find in Files](find-in-files.md)** dialog. There are, however, extra replace action buttons at the bottom of the dialog. And, depending on the version of Visual Studio you're using, there are more replace options available in the dialog, as follows.
 
 ## Replace textbox
 
