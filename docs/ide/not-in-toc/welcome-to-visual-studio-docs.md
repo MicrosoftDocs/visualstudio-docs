@@ -81,6 +81,10 @@ The documentation in this section applies to all quarterly updates of Visual Stu
 
 Articles or sections that apply to current previews are marked as preview content.
 
+## Switch to dark mode
+
+The learn.microsoft.com site normally uses whatever theme is set as the default for the browser. If you want to change the theme only for the site, scroll all the way to the bottom of any page to find the **Theme** button. You can choose **Light**, **Dark**, or **High Contrast**.
+
 ## Next steps
 
 If you're not finding what you wanted, let us know! If your feedback is about the product, use [Visual Studio Developer Community](https://developercommunity.visualstudio.com/VisualStudio) to report your concern or see what others have suggested. If your feedback is about the documentation, use the feedback link at the bottom of this page. The best feedback includes information about your situation, what you expected or wanted, and if possible, specific suggestions for us to consider improving or changing. See also [Report a problem](~/ide/how-to-report-a-problem-with-visual-studio.md).
