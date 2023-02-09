@@ -1,7 +1,6 @@
 ---
 title: Troubleshoot Resource Editor errors
 description: Learn more about errors that can occur when you use the Resource Editor and how to resolve them.
-ms.custom: engagement-fy23
 ms.date: 01/31/2023
 ms.topic: troubleshooting
 f1_keywords:
