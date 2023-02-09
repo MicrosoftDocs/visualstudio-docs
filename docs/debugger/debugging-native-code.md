@@ -2,7 +2,7 @@
 title: "Debugging Native Code | Microsoft Docs"
 description: Learn about common debugging problems and high-level techniques for native applications in Visual Studio.
 ms.custom: SEO-VS-2020
-ms.date: "04/11/2017"
+ms.date: "02/07/2023"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -43,7 +43,7 @@ The section covers some common debugging problems and techniques for native appl
  [MFC Debugging Techniques](../debugger/mfc-debugging-techniques.md)
  Links you to debugging techniques for MFC programs, including: afxDebugBreak, the TRACE macro, detecting memory leaks in MFC, MFC assertions, and reducing the size of MFC Debug builds.
 
- [CRT Debugging Techniques](../debugger/crt-debugging-techniques.md)
+ [CRT Debugging Techniques](/cpp/c-runtime-library/crt-debugging-techniques.md)
  Links you to debugging techniques for the C Run-Time Library, including using the CRT Debug Library, macros for reporting, differences between malloc and _malloc_dbg, writing debug hook functions, and the CRT debug heap.
 
  [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
@@ -52,7 +52,7 @@ The section covers some common debugging problems and techniques for native appl
  [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)
  Provides information on debugging COM and ActiveX applications, including tools you can use for COM and ActiveX debugging.
 
- [How to: Debug Injected Code](../debugger/how-to-debug-injected-code.md)
+ [How to: Debug Injected Code](/cpp/windows/attributes/cpp-attributes-com-net#debug-injected-code.md)
  Provides guidance on debugging code that uses attributes. Instructions include how to turn on Source Annotation, how to view injected code, and how to view the disassembly code at the current execution point.
 
  [Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md)
