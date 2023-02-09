@@ -16878,6 +16878,11 @@
       "source_path": "docs/debugger/view-data-in-ienumerable-visualizer.md",
       "redirect_url": "/visualstudio/debugger/view-data-in-tabular-visualizer",
       "redirect_document_id": true
-    }
+    },
+    {
+      "source_path": "subscriptions/vs-cloudpilot.md",
+      "redirect_url": "/visualstudio/subscriptions",
+      "redirect_document_id": false
+    },
   ]
 }
