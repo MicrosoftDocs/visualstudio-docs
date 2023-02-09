@@ -9,7 +9,8 @@ manager: jmartens
 f1_keywords:
  - vs.ViewHelp
  - MSDNSTART
-ms.date: 02/14/2023
+ms.date: 02/28/2023
+ROBOTS: NOINDEX,NOFOLLOW
 ---
 # About Visual Studio documentation
 
@@ -20,8 +21,6 @@ This page provides information that might help you learn and use the Visual Stud
 By default, the **Help > View Help** menu item takes you to the online documentation on learn.microsoft.com. You can also choose to install and use the documentation locally in the Help Viewer app. See [Install and view documentation locally](#install-and-view-documentation-locally).
 
 Documentation for Visual Studio covers the functionality of the IDE. You can start with a [feature tour](quickstart-ide-orientation.md) and [overview of Visual Studio](../get-started/visual-studio-ide.md). The documentation includes [installation](../install/install-visual-studio.md), [settings in the IDE](./personalizing-the-visual-studio-ide.md), organizing code with [projects and solutions](./solutions-and-projects-in-visual-studio.md), [code editing](./writing-code-in-the-code-and-text-editor.md), [debugging](../debugger/debugger-feature-tour.md) and [performance analysis](../profiling/beginners-guide-to-performance-profiling.md) tools, [testing](../test/index.yml) tools, and more.
-
-For Visual Studio for Mac, see [Visual Studio for Mac](/visualstudio/mac).
 
 ## Get started with tutorials
 
@@ -47,7 +46,9 @@ Landing pages for the following subareas may be helpful in finding what you're l
 | [Debugger](../debugger/index.yml) | Step through code as it's executing. |
 | [Test](../test/index.yml) | Create and manage tests to validate functionality. |
 
-The table of contents (TOC) is visible to the right on the desktop browser and in the offline Help Viewer. This treeview of links to articles encompasses the Visual Studio IDE content for the Windows platform. Many subareas of the Visual Studio documentation, such as the debugger, are in separate TOCs. Links to those separate TOCs are indicated in the main TOC with a ">>" symbol.  Documentation for related technologies that are used in Visual Studio are available in separate TOCs as well.
+The table of contents (TOC) is visible to the right on the desktop browser and in the offline Help Viewer. This treeview of links to articles encompasses the Visual Studio IDE content for the Windows platform. Many subareas of the Visual Studio documentation, such as the debugger, are in separate TOCs. Links to those separate TOCs are indicated in the main TOC with a ">>" symbol.
+
+![Screenshot showing TOC](../media/toc.png)
 
 ## Search the docs
 
@@ -77,13 +78,10 @@ For more information about offline documentation, see [Microsoft Help Viewer](..
 
 The documentation in this section applies to all quarterly updates of Visual Studio 2019 and Visual Studio 2022. You can use the version selector at the top left, above the TOC, to switch between versions or access documentation for [previous versions](/previous-versions/visualstudio).
 
+![Screenshot of version selector](../media/version-selector.png)
+
 Articles or sections that apply to current previews are marked as preview content.
 
 ## Next steps
 
 If you're not finding what you wanted, let us know! If your feedback is about the product, use [Visual Studio Developer Community](https://developercommunity.visualstudio.com/VisualStudio) to report your concern or see what others have suggested. If your feedback is about the documentation, use the feedback link at the bottom of this page. The best feedback includes information about your situation, what you expected or wanted, and if possible, specific suggestions for us to consider improving or changing. See also [Report a problem](./how-to-report-a-problem-with-visual-studio.md).
-
-## See also
-
-For documentation for all products in the Visual Studio family, see [Visual Studio family](../index.yml).
-

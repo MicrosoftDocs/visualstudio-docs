@@ -5,8 +5,6 @@
   items:
   - name: About Visual Studio
     href: get-started/visual-studio-ide.md
-  - name: About the Visual Studio documentation
-    href: ide/about-visual-studio-documentation.md
   - name: About the code editor
     href: get-started/tutorial-editor.md
   - name: About projects and solutions
