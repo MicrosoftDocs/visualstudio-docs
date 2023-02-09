@@ -2,7 +2,7 @@
 title: MSBuild Command-Line Reference | Microsoft Docs
 description: Learn how to use MSBuild.exe command line to build a project or solution file, and several switches you can include.
 ms.custom: SEO-VS-2020
-ms.date: 11/10/2022
+ms.date: 2/9/2023
 ms.topic: reference
 dev_langs:
 - VB
@@ -48,7 +48,7 @@ MSBuild.exe [Switches] [ProjectFile]
 |-help|/? or -h|Display usage information. The following command is an example:<br /><br /> `msbuild.exe -?`|
 |-ignoreProjectExtensions: `extensions`|-ignore: `extensions`|Ignore the specified extensions when determining which project file to build. Use a semicolon or a comma to separate multiple extensions, as the following example shows:<br /><br /> `-ignoreprojectextensions:.vcproj,.sln`|
 |-interactive[:`True` or `False`]|-|Indicates that actions in the build are allowed to interact with the user.  Do not use this argument in an automated scenario where interactivity is not expected. Specifying -interactive is the same as specifying -interactive:true.  Use the parameter to override a value that comes from a response file.
-|-isolateProjects[:`True` or `False`]|-isolate[:`True` or `False`]|Causes MSBuild to build each project in isolation. This is a more restrictive mode of MSBuild as it requires that the project graph be statically discoverable at evaluation time, but can improve scheduling and reduce memory overhead when building a large set of projects.|
+|-isolateProjects[:`True` or `MessageUponIsolationViolation` or `False`]|-isolate[:`True` or `MessageUponIsolationViolation` or `False`]|Causes MSBuild to build each project in isolation. When set to `MessageUponIsolationViolation` (or its short form `Message`), only the results from top-level targets are serialized if the `-outputResultsCache` switch is supplied. This is to mitigate the chances of an isolation-violating target on a dependency project using incorrect state due to its dependency on a cached target whose side effects would not be taken into account. (For example, the definition of a property.) This is a more restrictive mode of MSBuild as it requires that the project graph be statically discoverable at evaluation time, but can improve scheduling and reduce memory overhead when building a large set of projects.|
 |-maxCpuCount[:`number`]|-m[:`number`]|Specifies the maximum number of concurrent processes to use when building. If you don't include this switch, the default value is 1. If you include this switch without specifying a value, MSBuild will use up to the number of processors in the computer. For more information, see [Building multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md).<br /><br /> The following example instructs MSBuild to build using three MSBuild processes, which allows three projects to build at the same time:<br /><br /> `msbuild myproject.proj -maxcpucount:3`|
 |-noAutoResponse|-noautorsp|Don't include any *MSBuild.rsp* or *Directory.Build.rsp* files automatically.|
 |-nodeReuse:`value`|-nr:`value`|Enable or disable the re-use of MSBuild nodes. You can specify the following values:<br /><br /> -   **True**. Nodes remain after the build finishes so that subsequent builds can use them (default).<br />-   **False**. Nodes don't remain after the build completes.<br /><br /> A node corresponds to a project that's executing. If you include the **-maxcpucount** switch, multiple nodes can execute concurrently.|
