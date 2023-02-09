@@ -539,7 +539,7 @@
       - name: MFC debugging techniques
         href: mfc-debugging-techniques.md
       - name: CRT debugging techniques >>
-        href: /cpp/c-runtime-library/crt-debugging-techniques.md
+        href: /cpp/c-runtime-library/crt-debugging-techniques
       - name: Native code debugging FAQs
         items:
         - name: Debugging native code FAQs
