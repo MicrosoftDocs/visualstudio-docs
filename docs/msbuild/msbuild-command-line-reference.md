@@ -2,7 +2,7 @@
 title: MSBuild Command-Line Reference | Microsoft Docs
 description: Learn how to use MSBuild.exe command line to build a project or solution file, and several switches you can include.
 ms.custom: SEO-VS-2020
-ms.date: 11/10/2022
+ms.date: 2/9/2023
 ms.topic: reference
 dev_langs:
 - VB
@@ -54,6 +54,7 @@ MSBuild.exe [Switches] [ProjectFile]
 |-nodeReuse:`value`|-nr:`value`|Enable or disable the re-use of MSBuild nodes. You can specify the following values:<br /><br /> -   **True**. Nodes remain after the build finishes so that subsequent builds can use them (default).<br />-   **False**. Nodes don't remain after the build completes.<br /><br /> A node corresponds to a project that's executing. If you include the **-maxcpucount** switch, multiple nodes can execute concurrently.|
 |-nologo||Don't display the startup banner or the copyright message.|
 |<a name="preprocess"></a> -preprocess[:`filepath`]|-pp[:`filepath`]|Create a single, aggregated project file by inlining all the files that would be imported during a build, with their boundaries marked. You can use this switch to more easily determine which files are being imported, from where the files are being imported, and which files contribute to the build. When you use this switch, the project isn't built.<br /><br /> If you specify a `filepath`, the aggregated project file is output to the file. Otherwise, the output appears in the console window.<br /><br /> For information about how to use the `Import` element to insert a project file into another project file, see [Import element (MSBuild)](../msbuild/import-element-msbuild.md) and [How to: Use the same target in multiple project files](../msbuild/how-to-use-the-same-target-in-multiple-project-files.md).|
+|-inputResultsCaches[:`cacheFile`[`;cacheFile2`]|-irc[:`cacheFile`[`;cacheFile2`]|Semicolon separated list of input cache files that MSBuild will read build results from. If `-isolateProjects` is set to `False`, this sets it to `True`.|
 |-outputResultsCache[:cacheFile]|-orc[:cacheFile]|Output cache file where MSBuild will write the contents of its build result caches at the end of the build. Setting this also turns on isolated builds (-isolate).|
 |-profileEvaluation:`<file>`|-|Profiles MSBuild evaluation and writes the result to the specified file. If the extension of the specified file is '.md', the result is generated in Markdown format. Otherwise, a tab-separated file is produced.|
 |-property:`name`=`value`|-p:`name`=`value`|Set or override the specified project-level properties, where `name` is the property name and `value` is the property value. Specify each property separately, or use a semicolon or comma to separate multiple properties, as the following example shows:<br /><br /> `-property:WarningLevel=2;OutDir=bin\Debug`|
