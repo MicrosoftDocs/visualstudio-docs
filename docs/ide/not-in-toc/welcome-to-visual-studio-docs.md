@@ -45,7 +45,7 @@ Landing pages for the following subareas may be helpful in finding what you're l
 | [Containers](~/containers/index.yml) | Work with Docker containers. |
 | [Azure development](~/azure/index.yml) | Connect apps to the cloud. |
 
-The table of contents (TOC) is visible to the right on the desktop browser and in the offline Help Viewer. This treeview of links to articles encompasses the Visual Studio IDE content for the Windows platform. Many subareas of the Visual Studio documentation, such as the debugger, are in separate TOCs. Links to those separate TOCs are indicated in the main TOC with a ">>" symbol.
+The table of contents (TOC) is visible to the right on the desktop browser and in the offline Help Viewer. This tree view of links to articles encompasses the Visual Studio IDE content for the Windows platform. Many subareas of the Visual Studio documentation, such as the debugger, are in separate TOCs. Links to those separate TOCs are indicated in the main TOC with a ">>" symbol.
 
 ![Screenshot showing TOC](../media/toc.png)
 
@@ -59,7 +59,7 @@ The TOC also has a search box just above it. It only searches the TOC, not the p
 
 ## Contextual Help (F1)
 
-Anytime you're using the IDE, you can try pressing F1 to get relevant documentation based on your current context, as determined by the window focus and cursor position. For example, when you're writing code, you can press F1 when your cursor is on the name of a type, method, or language keyword in the code editor to get right to the reference page for that program entity. You can click on most erro/r codes in the [Task List](~/ide/using-the-task-list.md) or [Output Window](~/ide/reference/output-window.md) to get to pages with suggestions for how to deal with the errors. You can click on the ? icon or press F1 on most dialog boxes or options pages to jump right to the documentation for that tool or settings page.
+Anytime you're using the IDE, you can try pressing F1 to get relevant documentation based on your current context, as determined by the window focus and cursor position. For example, when you're writing code, you can press F1 when your cursor is on the name of a type, method, or language keyword in the code editor to get right to the reference page for that program entity. You can click on most error codes in the [Task List](~/ide/using-the-task-list.md) or [Output Window](~/ide/reference/output-window.md) to get to pages with suggestions for how to deal with the errors. You can click on the ? icon or press F1 on most dialog boxes or options pages to jump right to the documentation for that tool or settings page.
 
 In some cases, when there isn't enough context to provide meaningful help, nothing happens when you press F1. Try moving the window focus or cursor position to get more specific help.
 
