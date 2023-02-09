@@ -18,7 +18,7 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 You likely arrived here by clicking **View Help** in the Visual Studio IDE. Let's get you where you need to go.
 
-Documentation for Visual Studio covers the functionality of the IDE. You can start with a [feature tour](~/ide/quickstart-ide-orientation.md) and [overview of Visual Studio](~/get-started/visual-studio-ide.md). The documentation includes [settings in the IDE](~/ide/personalizing-the-visual-studio-ide.md), organizing code with [projects and solutions](~/ide/solutions-and-projects-in-visual-studio.md), [code editing](~/ide/writing-code-in-the-code-and-text-editor.md), [debugging](~/debugger/debugger-feature-tour.md) and [performance analysis](~/profiling/beginners-guide-to-performance-profiling.md) tools, [testing](../test/index.yml) tools, and more.
+Documentation for Visual Studio covers the functionality of the IDE. You can start with a [feature tour](~/ide/quickstart-ide-orientation.md) and [overview of Visual Studio](~/get-started/visual-studio-ide.md). The documentation includes [settings in the IDE](~/ide/personalizing-the-visual-studio-ide.md), organizing code with [projects and solutions](~/ide/solutions-and-projects-in-visual-studio.md), [code editing](~/ide/writing-code-in-the-code-and-text-editor.md), [debugging](~/debugger/debugger-feature-tour.md) and [performance analysis](~/profiling/beginners-guide-to-performance-profiling.md) tools, [testing](~/test/index.yml) tools, and more.
 
 ## Get started with tutorials
 
@@ -39,7 +39,7 @@ Landing pages for the following subareas may be helpful in finding what you're l
 
 | Landing page | Description |
 | - | - |
-| [IDE](index.yml) | Learn about the IDE and how to configure and customize it. |
+| [IDE](~/ide/index.yml) | Learn about the IDE and how to configure and customize it. |
 | [Debugger](~/debugger/index.yml) | Step through code as it's executing. |
 | [Test](~/test/index.yml) | Create and manage tests to validate functionality. |
 | [Containers](~/containers/index.yml) | Work with Docker containers. |
