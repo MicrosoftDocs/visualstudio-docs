@@ -59,7 +59,7 @@ The TOC also has a search box just above it. It only searches the TOC, not the p
 
 ## Contextual Help (F1)
 
-Anytime you're using the IDE, you can try pressing F1 to get relevant documentation based on your current context, as determined by the window focus and cursor position. For example, when you're writing code, you can press F1 when your cursor is on the name of a type, method, or language keyword in the code editor to get right to the reference page for that program entity. You can click on most error codes in the Task List or Output Window to get to pages with suggestions for how to deal with the errors. You can click on the ? icon or press F1 on most dialog boxes or options pages to jump right to the documentation for that tool or settings page.
+Anytime you're using the IDE, you can try pressing F1 to get relevant documentation based on your current context, as determined by the window focus and cursor position. For example, when you're writing code, you can press F1 when your cursor is on the name of a type, method, or language keyword in the code editor to get right to the reference page for that program entity. You can click on most erro/r codes in the [Task List](~/ide/using-the-task-list.md) or [Output Window](~/ide/reference/output-window.md) to get to pages with suggestions for how to deal with the errors. You can click on the ? icon or press F1 on most dialog boxes or options pages to jump right to the documentation for that tool or settings page.
 
 In some cases, when there isn't enough context to provide meaningful help, nothing happens when you press F1. Try moving the window focus or cursor position to get more specific help.
 
@@ -69,7 +69,7 @@ You can install a local copy of the documentation. This is helpful for those who
 
 First, you need to install the Help Viewer, which is available in the Visual Studio Installer. Choose **Individual Components** and search for **Help Viewer**.
 
-Not all documentation on the Learn platform is available locally. Available documentation includes Visual Studio, .NET, Windows APIs, SQL Server, and others. To see the full list of what you can install, choose the **View > Manage Help Content** menu item.
+Not all documentation on the Learn platform is available locally. Available documentation includes Visual Studio, .NET, Windows APIs, SQL Server, and more. To see the full list of what you can install, choose the **View > Manage Help Content** menu item.
 
 For more information about offline documentation, see [Microsoft Help Viewer](~/help-viewer/overview.md).
 
