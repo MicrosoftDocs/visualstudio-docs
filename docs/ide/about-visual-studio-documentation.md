@@ -32,7 +32,7 @@ If you're looking to get started with Visual Studio by writing some kind of app,
 | [C# Tutorials](../get-started/csharp/index.yml) | Create C# console, Windows, and web apps. |
 | [Visual Basic tutorials](../get-started/visual-basic/index.yml) | Create Visual Basic console, Windows, and web apps. |
 | [F# tutorial](../get-started/tutorial-fsharp-web-app.md) | Get started with F#, a functional programming language for .NET. |
-| [C++ tutorials](/cpp/build/vscpp-step-1-create?view=msvc-170) | Create "Hello, world" in C++ in Visual Studio. |
+| [C++ tutorials](/cpp/build/vscpp-step-1-create) | Create "Hello, world" in C++ in Visual Studio. |
 
 ## Navigate the documentation
 
@@ -53,7 +53,7 @@ The table of contents (TOC) is visible to the right on the desktop browser and i
 
 You can always use Internet search engines to find content for all Microsoft technologies. Try adding `site:learn.microsoft.com` to your search queries in your favorite search engine if you know you're looking for Microsoft content.
 
-In addition, you can use the search box at the top of the screen to search text just in articles on the Learn platform or scoped to certain Microsoft products and services. After you enter a query, you can narrow the search scope to Visual Studio or other documentation. See [Microsoft Search](https://learn.microsoft.com/search/).
+In addition, you can use the search box at the top of the screen to search text just in articles on the Learn platform or scoped to certain Microsoft products and services. After you enter a query, you can narrow the search scope to Visual Studio or other documentation. See [Microsoft Search](/search/).
 
 The TOC also has a search box just above it. It only searches the TOC, not the pages themselves.
 
