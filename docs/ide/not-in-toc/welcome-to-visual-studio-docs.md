@@ -57,7 +57,7 @@ In addition, you can use the search box at the top of the screen to search text 
 
 The TOC also has a search box just above it. It only searches the TOC, not the pages themselves.
 
-## Contextual Help (F1)
+## Contextual help (F1)
 
 Anytime you're using the IDE, you can try pressing F1 to get relevant documentation based on your current context, as determined by the window focus and cursor position. For example, when you're writing code, you can press F1 when your cursor is on the name of a type, method, or language keyword in the code editor to get right to the reference page for that program entity. You can click on most error codes in the [Task List](~/ide/using-the-task-list.md) or [Output Window](~/ide/reference/output-window.md) to get to pages with suggestions for how to deal with the errors. You can click on the ? icon or press F1 on most dialog boxes or options pages to jump right to the documentation for that tool or settings page.
 
