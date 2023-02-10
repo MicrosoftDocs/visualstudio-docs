@@ -45,7 +45,7 @@ Landing pages for the following subareas may be helpful in finding what you're l
 | [Containers](~/containers/index.yml) | Work with Docker containers. |
 | [Azure development](~/azure/index.yml) | Connect apps to the cloud. |
 
-The table of contents (TOC) is visible to the right on the desktop browser and in the offline Help Viewer. This tree view of links to articles encompasses the Visual Studio IDE content for the Windows platform. Many subareas of the Visual Studio documentation, such as the debugger, are in separate TOCs. Links to those separate TOCs are indicated in the main TOC with a ">>" symbol.
+The table of contents (TOC) is visible to the left on the desktop browser and in the offline Help Viewer. This tree view of links to articles encompasses the Visual Studio IDE content for the Windows platform. Many subareas of the Visual Studio documentation, such as the debugger, are in separate TOCs. Links to those separate TOCs are indicated in the main TOC with a ">>" symbol.
 
 ![Screenshot showing TOC](../media/toc.png)
 
