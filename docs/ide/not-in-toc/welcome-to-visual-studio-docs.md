@@ -67,7 +67,7 @@ In some cases, when there isn't enough context to provide meaningful help, nothi
 
 You can install a local copy of the documentation. This is helpful for those who don't have a fast, high-bandwidth connection to the Internet on their development machines, or work in isolated networks for security or other reasons.
 
-First, you need to install the Help Viewer, which is available in the Visual Studio Installer. Choose **Individual Components** and search for **Help Viewer**.
+First, you need to install the Help Viewer, which is available in the Visual Studio Installer. Choose **Modify** > **Individual Components** and search for **Help Viewer**.
 
 Not all documentation on the Learn platform is available locally. Available documentation includes Visual Studio, .NET, Windows APIs, SQL Server, and more. To see the full list of what you can install, choose the **View > Manage Help Content** menu item.
 
