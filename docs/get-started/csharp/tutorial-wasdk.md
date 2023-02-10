@@ -46,20 +46,9 @@ The Windows App SDK templates are available by installing a Visual Studio extens
 > [!div class="button"]
 > [Download Windows App SDK C# SDK VS2019 Templates](https://aka.ms/windowsappsdk/1.1/1.1.5/WindowsAppSDK.Cs.Extension.Dev16.vsix)
 
-After the templates extension has been installed, you can create your first project.
-
-1. Open Visual Studio, and on the start window, choose **Create a new project**.
-
-1. On the **Create a new project** screen, enter *WinUI* in the search box, choose the C# template for **Blank App, Packaged (WinUI 3 in Desktop)**, and then choose **Next**.
-
-   ![Screenshot of the 'Create a new project' dialog with 'winui' entered in the search box, and the 'Blank App, Packaged (WinUI 3 in Desktop)' project template highlighted.](media/vs-2019/winui-create-new-project.png)
-
-1. Give the project a name, *HelloWorld*, and choose **Create**.
-
-   ![Screenshot of the 'Configure your new project' dialog with 'HelloWorld' entered in the Project name field.](media/vs-2019/winui-configure-your-project.png)
+After the templates extension has been installed, you can create your first project. For more information about Visual Studio 2019 support, see [Install tools for the Windows App SDK](/windows/apps/windows-app-sdk/set-up-your-development-environment). The rest of this tutorial will assume you're using Visual Studio 2022.
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
 1. Open Visual Studio, and on the start window, choose **Create a new project**.
 
 1. On the **Create a new project** screen, enter *WinUI* in the search box, choose the C# template for **Blank App, Packaged (WinUI 3 in Desktop)**, and then choose **Next**.
@@ -72,7 +61,6 @@ After the templates extension has been installed, you can create your first proj
 1. Give the project a name, *HelloWorld*, and choose **Create**.
 
    :::image type="content" source="media/vs-2022/winui-configure-your-project.png" alt-text="Screenshot of the 'Configure your new project' dialog with 'HelloWorld' entered in the Project name field.":::
-::: moniker-end
 
    > [!NOTE]
    > If this is the first time you have used Visual Studio to create a Windows App SDK app, a **Settings** dialog box might appear. Choose **Developer mode**, and then choose **Yes**.<br><br>
@@ -83,24 +71,6 @@ After the templates extension has been installed, you can create your first proj
 It's time to start developing. You'll add a button control, add an action to the button, and then start the "Hello World" app to see what it looks like.
 
 ### Add a button to the Design canvas
-
-::: moniker range="vs-2019"
-
-1. In the **Solution Explorer**, double-click *MainWindow.xaml* to open the XAML markup editor.
-
-   ![Screenshot of the Solution Explorer window showing the properties, references, assets, and files in the HelloWorld project. The file MainWindow.xaml is selected.](media/vs-2019/winui-solution-explorer-mainwindow-xaml.png)
-
-   The **XAML Editor** is where you can add or change markup. Unlike UWP projects, WinUI 3 doesn't have a **Design** view.
-
-   ![Screenshot showing MainWindow.xaml open in the Visual Studio IDE. The XAML Editor pane shows some of the XAML markup for the window.](media/vs-2019/winui-xaml-editor.png)
-
-1. Review the **Button** control nested within the **StackPanel** at the root of the **Window**.
-
-   ![Screenshot showing 'Button' highlighted in the XAML editor.](media/vs-2019/winui-button-control.png)
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
 
 1. In the **Solution Explorer**, double-click *MainWindow.xaml* to open the XAML markup editor.
 
@@ -114,23 +84,7 @@ It's time to start developing. You'll add a button control, add an action to the
 
    :::image type="content" source="media/vs-2022/winui-button-control.png" alt-text="Screenshot showing 'Button' highlighted in the XAML editor.":::
 
-::: moniker-end
-
 ### Change the label on the button
-
-::: moniker range="<=vs-2019"
-
-1. In the **XAML Editor**, change Button Content value from "Click me" to "Hello World!".
-
-   ![Screenshot showing the XAML code for the Button in the XAML editor. The value of the Content property has been changed to 'Hello World!'.](media/vs-2019/winui-change-button-text-in-xaml-code-window.png)
-
-1. Notice that the button has a **Click** event handler named *myButton_Click* specified, too. We'll get to that in the next step.
-
-   ![Screenshot showing the XAML code for the Button in the XAML editor. The click event of the button has been highlighted.](media/vs-2019/winui-button-click-event-highlighted.png)
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
 
 1. In the **XAML Editor**, change Button Content value from "Click me" to "Hello World!".
 
@@ -140,45 +94,9 @@ It's time to start developing. You'll add a button control, add an action to the
 
    :::image type="content" source="media/vs-2022/winui-button-click-event-highlighted.png" alt-text="Screenshot showing the XAML code for the Button in the XAML editor. The click event of the button has been highlighted.":::
 
-::: moniker-end
-
 ### Modify the event handler
 
 An "event handler" sounds complicated, but it's just another name for code that is called when an event happens. In this case, it adds an action triggered by the "Hello World!" button.
-
-::: moniker range="vs-2019"
-
-1. In **Solution Explorer**, double-click *MainPage.xaml.cs*, the code-behind page.
-
-1. Edit the event handler code in the C# editor window that opens.
-
-   Here is where things get interesting. The default event handler looks like this:
-
-   ![Screenshot showing the C# code for the default myButton_Click event handler.](media/vs-2019/winui-button-click-code.png)
-
-   Let's change it, so it looks like this:
-
-   ![Screenshot showing the C# code for the new async myButton_Click event handler.](media/vs-2019/winui-add-hello-world-async-code.png)
-
-   Here's the code to copy and paste:
-
-   ```C#
-   private async void myButton_Click(object sender, RoutedEventArgs e)
-   {
-       var welcomeDialog = new ContentDialog()
-       {
-           Title = "Hello from HelloWorld",
-           Content = "Welcome to your first Windows App SDK app.",
-           CloseButtonText = "Ok",
-           XamlRoot = myButton.XamlRoot
-       };
-       await welcomeDialog.ShowAsync();
-   }
-   ```
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
 
 1. In **Solution Explorer**, double-click *MainPage.xaml.cs*, the code-behind page.
 
@@ -208,36 +126,11 @@ An "event handler" sounds complicated, but it's just another name for code that 
    }
    ```
 
-::: moniker-end
-
 #### What did we just do?
 
 The code uses the **ContentDialog** control to display a welcome message in a modal popup control within the current window. (For more information on using `Microsoft.UI.Xaml.Controls.ContentDialog`, see [ContentDialog Class](/windows/windows-app-sdk/api/winrt/microsoft.ui.xaml.controls.contentdialog).)
 
 ## Run the application
-
-::: moniker range="vs-2019"
-It's time to build, deploy, and launch the "Hello World" Windows App SDK app to see what it looks and sounds like. Here's how.
-
-1. Use the Play button (it has the text **HelloWorld (Package)**) to start the application on the local machine.
-
-   ![Screenshot showing the drop-down box open next to the Play button with 'HelloWorld (Package)' selected.](media/vs-2019/winui-start-or-debug.png)
-
-   (Alternatively, you can choose **Debug** > **Start Debugging** from the menu bar or press **F5** to start your app.)
-
-1. View your app, which appears soon after a splash screen disappears. The app should look similar to this:
-
-   ![Screenshot showing the running Windows App SDK 'Hello World' application.](media/vs-2019/winui-hello-world-app.png)
-
-1. Click the **Hello World** button.
-
-   Your Windows 10 or later device will display a message that says "Welcome to your first Windows App SDK app" with the title "Hello from HelloWorld." Click **Ok** to dismiss the message.
-
-1. To close the app, click the **Stop Debugging** button in the toolbar. (Alternatively, choose **Debug** > **Stop debugging** from the menu bar, or press **Shift+F5**.)
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
 
 It's time to build, deploy, and launch the "Hello World" Windows App SDK app to see what it looks and sounds like. Here's how.
 
@@ -258,8 +151,6 @@ It's time to build, deploy, and launch the "Hello World" Windows App SDK app to 
    :::image type="content" source="media/vs-2022/winui-hello-from-hello-world-app.png" alt-text="Screenshot showing the running 'Hello World' application with a popup titled 'Hello from HelloWorld'.":::
 
 1. To close the app, select the **Stop Debugging** button in the toolbar. (Alternatively, choose **Debug** > **Stop debugging** from the menu bar, or press **Shift+F5**.)
-
-::: moniker-end
 
 ## Next steps
 
