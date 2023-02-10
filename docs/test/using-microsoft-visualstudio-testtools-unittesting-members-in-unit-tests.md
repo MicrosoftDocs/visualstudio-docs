@@ -366,7 +366,7 @@ And here you can see its [constructors](<xref:Microsoft.VisualStudio.TestTools.U
 ```csharp
 // without adding a custom output path the copied files will be in TestResults folder inside the project folder
 [TestClass] 
-[DeploymentItem(@"C:\classLevelDepItem.xml")]   //absolute path
+[DeploymentItem(@"C:\classLevelDepItem.xml")]   // Copy file using some absolute path
 public class UnitTest1
 {
     [TestMethod]
