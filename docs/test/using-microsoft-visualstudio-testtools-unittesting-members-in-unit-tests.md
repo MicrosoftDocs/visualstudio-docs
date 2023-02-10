@@ -370,7 +370,7 @@ And here you can see its [constructors](<xref:Microsoft.VisualStudio.TestTools.U
 public class UnitTest1
 {
     [TestMethod]
-    [DeploymentItem(@"..\..\methodLevelDepItem1.xml")]   //relative path to the dll location
+    [DeploymentItem(@"..\..\methodLevelDepItem1.xml")]   // Copy file using a relative path from the dll output location
     [DeploymentItem(@"C:\DataFiles\methodLevelDepItem2.xml", "SampleDataFiles")]   // File will be added under a SampleDataFiles in the deployment directory
     public void TestMethod1()
     {
