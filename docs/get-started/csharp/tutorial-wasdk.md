@@ -35,12 +35,12 @@ First, create a WinUI 3 project. The project type comes with all the template fi
 > [!IMPORTANT]
 > Visual Studio 2019 only supports Windows App SDK 1.1 and earlier. Visual Studio 2022 is recommended for developing apps with all versions of the Windows App SDK.
 
-The Windows App SDK templates are available by installing a Visual Studio extension (VSIX).
+The Windows App SDK 1.1.x templates are available by installing a Visual Studio extension (VSIX).
 
 > [!NOTE]
-> If you have a Windows App SDK Visual Studio extension (VSIX) already installed, then uninstall it before installing a new version. For directions, see [Manage extensions for Visual Studio](/visualstudio/ide/finding-and-using-visual-studio-extensions).
+> If you have a Windows App SDK Visual Studio extension (VSIX) already installed, then uninstall it before installing another version. For directions, see [Manage extensions for Visual Studio](/visualstudio/ide/finding-and-using-visual-studio-extensions).
 
-- You can install the latest stable release VSIX from Visual Studio. Select **Extensions** > **Manage Extensions**, search for *Windows App SDK*, and download the Windows App SDK extension. Close and reopen Visual Studio, and follow the prompts to install the extension.
+- You can install the latest stable 1.1.x release VSIX from Visual Studio. Select **Extensions** > **Manage Extensions**, search for *Windows App SDK*, and download the Windows App SDK extension. Close and reopen Visual Studio, and follow the prompts to install the extension. Make sure to install the templates for Windows App SDK 1.1.
 - Alternatively, you can download the extension directly from **Visual Studio Marketplace**, and install it:
 
 > [!div class="button"]
