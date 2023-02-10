@@ -371,7 +371,7 @@ public class UnitTest1
 {
     [TestMethod]
     [DeploymentItem(@"..\..\methodLevelDepItem1.xml")]   //relative path to the dll location
-    [DeploymentItem(@"C:\DataFiles\methodLevelDepItem2.xml", "DataFiles")]   //custom output path
+    [DeploymentItem(@"C:\DataFiles\methodLevelDepItem2.xml", "SampleDataFiles")]   // File will be added under a SampleDataFiles in the deployment directory
     public void TestMethod1()
     {
         string textFromFile = File.ReadAllText("classLevelDepItem.xml");
