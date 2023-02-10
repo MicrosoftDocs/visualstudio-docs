@@ -32,7 +32,6 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 First, create a WinUI 3 project. The project type comes with all the template files you need, before you've even added anything!
 
 ::: moniker range="vs-2019"
-
 > [!IMPORTANT]
 > Visual Studio 2019 only supports Windows App SDK 1.1 and earlier. Visual Studio 2022 is recommended for developing apps with all versions of the Windows App SDK.
 
@@ -45,7 +44,9 @@ The Windows App SDK templates are available by installing a Visual Studio extens
 - Alternatively, you can download the extension directly from **Visual Studio Marketplace**, and install it:
 
 > [!div class="button"]
-> [Download latest C# stable release](https://aka.ms/windowsappsdk/stable-vsix-2022-cs)
+> [Download Windows App SDK C# SDK VS2019 Templates](https://aka.ms/windowsappsdk/1.1/1.1.5/WindowsAppSDK.Cs.Extension.Dev16.vsix)
+
+After the templates extension has been installed, you can create your first project.
 
 1. Open Visual Studio, and on the start window, choose **Create a new project**.
 
@@ -253,6 +254,8 @@ It's time to build, deploy, and launch the "Hello World" Windows App SDK app to 
 1. Select the **Hello World** button.
 
    Your Windows 10 or later device will display a message that says "Welcome to your first Windows App SDK app" with the title "Hello from HelloWorld." Click **Ok** to dismiss the message.
+
+   :::image type="content" source="media/vs-2022/winui-hello-from-hello-world-app.png" alt-text="Screenshot showing the running 'Hello World' application with a popup titled 'Hello from HelloWorld'.":::
 
 1. To close the app, select the **Stop Debugging** button in the toolbar. (Alternatively, choose **Debug** > **Stop debugging** from the menu bar, or press **Shift+F5**.)
 
