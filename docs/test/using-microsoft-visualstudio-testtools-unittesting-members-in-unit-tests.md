@@ -364,12 +364,13 @@ And here you can see its [constructors](<xref:Microsoft.VisualStudio.TestTools.U
 **Example**
 
 ```csharp
-[TestClass]
+// without adding a custom output path the copied files will be in TestResults folder inside the project folder
+[TestClass] 
 [DeploymentItem(@"C:\classLevelDepItem.xml")]   //absolute path
 public class UnitTest1
 {
     [TestMethod]
-    [DeploymentItem(@"..\..\methodLevelDepItem1.xml")]   //relative path
+    [DeploymentItem(@"..\..\methodLevelDepItem1.xml")]   //relative path to the dll location
     [DeploymentItem(@"C:\DataFiles\methodLevelDepItem2.xml", "DataFiles")]   //custom output path
     public void TestMethod1()
     {
