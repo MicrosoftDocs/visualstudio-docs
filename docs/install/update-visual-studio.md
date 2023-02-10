@@ -242,9 +242,10 @@ By choosing the correct value in the **Update channel** dropdown, you can contro
 
 ## Update on close
 
-When an update is available, the update notification UI in the IDE provides a way to defer the update until you voluntarily close Visual Studio. The **Update on Close** button appears in the update notification message box, and it also can be selected in the **Notification** hub. The **Update on Close** command is not a permanent setting; it applies only to the current update. In other words, the **Update on Close** deferral must be chosen each time you acknowledge or dismiss the notification that the update is available.
+In Visual Studio 2022, you can configure Visual Studio, to automatically apply previously identified available updates when it closes. This setting is configurable on a per instance basis of Visual Studio. You can, for example, set your Previews to check for updates when you close the Preview, but your regular production Visual Studio instance can continue to be updated on demand. You can find this option in the Tools Options Update Settings dialog.
 
-   ![Screenshot showing the Update on Close option in the update notification message box.](media/vs-2022/update-on-close.png)
+
+   ![Screenshot showing the Update on Close option in the update notification message box.](media/vs-2022/persistentupdateonclose.PNG)
 
 ## Remove out-of-support components
 
