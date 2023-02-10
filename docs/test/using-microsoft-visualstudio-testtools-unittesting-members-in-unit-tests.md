@@ -353,7 +353,7 @@ The following attributes and the values assigned to them appear in the Visual St
 
 ### DeploymentItemAttribute
 
-The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute> for copying files or folders specified as deployment items to the deployment directory. Deployment directory is where all the deployment items are present along with test project dll. (starting from MSTest v2)
+The MSTest V2 framework <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute> for copying files or folders specified as deployment items to the deployment directory(without adding a custom output path the copied files will be in TestResults folder inside the project folder). Deployment directory is where all the deployment items are present along with test project dll. (starting from MSTest v2)
 
 It can be used either on test classes (classes marked with `TestClass` attribute) or on test methods (methods marked with `TestMethod` attribute).
 
@@ -364,7 +364,6 @@ And here you can see its [constructors](<xref:Microsoft.VisualStudio.TestTools.U
 **Example**
 
 ```csharp
-// without adding a custom output path the copied files will be in TestResults folder inside the project folder
 [TestClass] 
 [DeploymentItem(@"C:\classLevelDepItem.xml")]   // Copy file using some absolute path
 public class UnitTest1
