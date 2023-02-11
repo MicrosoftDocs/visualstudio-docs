@@ -1,7 +1,7 @@
 ---
 title: Fix DPI display issues in Windows Form Designer
 description: Disable DPI awareness to fix scaling issues with Windows Forms Designer on HDPI monitors.
-ms.date: 12/31/2022
+ms.date: 02/13/2023
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
@@ -15,13 +15,13 @@ ms.custom: contperf-fy23q2
 
 In this article, you'll learn how to address scaling limitations of the Windows Forms Designer on HDPI monitors by [running Visual Studio as a DPI-unaware process](#restart-visual-studio-as-a-dpi-unaware-process).
 
-## What is DPI-aware vs. DPI-unaware?
+## What is DPI and why does it matter?
 
-To start, DPI stands for dots per inch, where a dot represents a physical device pixel. (The nomenclature comes from printing, where dots are the smallest ink dot that a printing process can produce). HDPI stands for high dots per inch.
+DPI stands for dots per inch, where a dot represents a physical device pixel. (The nomenclature comes from printing, where dots are the smallest ink dot that a printing process can produce). HDPI stands for high dots per inch.
 
-Historically, monitors shipped with 96 pixels per inch, and for that, Windows operating systems drew a bitmap that represented that number as 100%. But as display technology progressed, that threshold was surpassed. In 2017, monitors started shipping with display panels close to 300 DPI or higher.
+Historically, monitors shipped with 96 pixels per inch. The Windows operating systems drew a bitmap that represented 96 DPI as 100%. But as display technology progressed, that DPI threshold was surpassed. In 2017, monitors started shipping with display panels close to 300 DPI or higher.
 
-While higher pixel density produces sharper images, some sort of display scaling is required to size elements on the screen properly. Otherwise, visual elements and text are too tiny to use effectively and can overlap. To help remedy this, the Windows operating system tries to scale the entire UI to match the DPI setting. For example, a DPI setting of 100% represents 96 DPI, where 125% is 120 DPI, and 150% is 144 DPI. This automatic scaling affects text, graphics, controls, and window sizes.
+While higher pixel density produces sharper images, some sort of display scaling is required to size elements on the screen properly. Otherwise, user interface (UI) elements and text are too tiny to use effectively and can overlap. To help remedy this, Windows automatically scales the UI percentile to match the DPI setting. For example, a DPI setting of 100% represents 96 DPI, where 125% is 120 DPI, and 150% is 144 DPI. This automatic scaling affects text, graphics, controls, and window sizes.
 
 Here's where DPI-aware vs. DPI-unaware comes it. When an application declares itself to be DPI-aware, it's a statement specifying that the app behaves well at higher DPI settings and so Windows won't apply auto-scaling. Conversely, DPI-unaware applications render at a fixed DPI value of 96 pixels per inch, or 100%, and so auto-scaling is applied.
 
