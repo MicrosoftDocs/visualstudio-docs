@@ -13,20 +13,34 @@ ms.custom: contperf-fy23q2
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In this article, you'll learn how to address scaling limitations of the Windows Forms Designer on HDPI monitors by [running Visual Studio as a DPI-unaware process](#restart-visual-studio-as-a-dpi-unaware-process). 
+In this article, you'll learn how to address scaling limitations of the Windows Forms Designer on HDPI monitors by [running Visual Studio as a DPI-unaware process](#restart-visual-studio-as-a-dpi-unaware-process).
 
-Visual Studio is a dots per inch (DPI) aware application, which means the display scales automatically. If an application states that it's not DPI-aware, the operating system scales the application as a bitmap. This behavior is also called DPI virtualization. The application still thinks that it's running at 100% scaling, or 96 DPI.  
+## What is DPI-aware vs. DPI-unaware?
 
-Since the **Windows Forms Designer** in Visual Studio doesn't have scaling support, display issues can occur when you open some forms on high dots per inch (HDPI) monitors. For example, controls can appear to overlap as shown in the following image:
+To start, DPI stands for dots per inch, where a dot represents a physical device pixel. (The nomenclature comes from printing, where dots are the smallest ink dot that a printing process can produce). HDPI stands for high dots per inch.
+
+Historically, monitors shipped with 96 pixels per inch, and for that, Windows operating systems drew a bitmap that represented that number as 100%. But as display technology progressed, that threshold was surpassed. In 2017, monitors started shipping with display panels close to 300 DPI or higher.
+
+While higher pixel density produces sharper images, some sort of display scaling is required to size elements on the screen properly. Otherwise, visual elements and text are too tiny to use effectively and can overlap. To help remedy this, the Windows operating system tries to scale the entire UI to match the DPI setting. For example, a DPI setting of 100% represents 96 DPI, where 125% is 120 DPI, and 150% is 144 DPI. This automatic scaling affects text, graphics, controls, and window sizes.
+
+Here's where DPI-aware vs. DPI-unaware comes it. When an application declares itself to be DPI-aware, it's a statement specifying that the app behaves well at higher DPI settings and so Windows won't apply auto-scaling. Conversely, DPI-unaware applications render at a fixed DPI value of 96 pixels per inch, or 100%, and so auto-scaling is applied.
+
+## Visual Studio is DPI-aware
+
+Visual Studio is a dots per inch (DPI)-aware application, which means the display scales automatically.
+
+## Windows Forms is DPI-unaware
+
+If an application states that it's not DPI-aware, the operating system scales the application as a bitmap. The application still thinks that it's running at 100% scaling, or 96 DPI. Because the **Windows Forms Designer** in Visual Studio doesn't have scaling support, display issues can occur when you open some forms on high dots per inch (HDPI) monitors. For example, controls can appear to overlap as shown in the following image:
 
 ![Windows Forms Designer on HDPI monitor](./media/win-forms-designer-hdpi-1.gif)
 
-When you open a form in the **Windows Forms Designer** on an HDPI monitor, Visual Studio displays an information bar.
+When you open a form in the **Windows Forms Designer** on an HDPI monitor, Visual Studio displays an information bar. The information bar states that
 
 :::image type="content" source="media/scaling-gold-bar-message-1.png" alt-text="Screenshot of the information bar in Visual Studio to restart in DPI-unaware mode.":::
 
 > [!TIP]
-> 1. If you've closed the information bar but you still want to restart Visual Studio with 100% scaling, you can. [Use the DevEnv.exe tool](#use-the-devenvexe-tool) to do so.
+> 1. If you've closed the information bar but you still want to restart Visual Studio as DPI-unaware, you can. [Use the DevEnv.exe tool](#use-the-devenvexe-tool) to do so.
 > 2. If you aren't working in the designer and don't need to adjust the layout of your form, you can ignore the information bar and continue working in the code editor or in other types of designers. (You can also [disable notifications](#disable-notifications) so that the information bar doesn't continue to appear.) Only the **Windows Forms Designer** is affected.
 
 ## Restart Visual Studio as a DPI-unaware process
