@@ -85,4 +85,4 @@ You can also generate a .vsconfig file right from Solution Explorer.
 * [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Update a networked-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 * [Control updates to Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
-* [Set defaults for enterprise deployments](set-defaults-for-enterprise-deployments.md)
+* [Configure policies for enterprise deployments](configure-policies-for-enterprise-deployments.md)
