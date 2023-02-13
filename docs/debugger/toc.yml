@@ -538,34 +538,8 @@
         href: how-to-debug-inline-assembly-code.md
       - name: MFC debugging techniques
         href: mfc-debugging-techniques.md
-      - name: CRT debugging
-        items:
-        - name: CRT debugging techniques
-          href: crt-debugging-techniques.md
-        - name: CRT debug library use
-          href: crt-debug-library-use.md
-        - name: Macros for reporting
-          href: macros-for-reporting.md
-        - name: Debug versions of heap allocation functions
-          href: debug-versions-of-heap-allocation-functions.md
-        - name: CRT debug heap details
-          href: crt-debug-heap-details.md
-        - name: Hook functions
-          items:
-          - name: Debug hook function writing
-            href: debug-hook-function-writing.md
-          - name: Client block hook functions
-            href: client-block-hook-functions.md
-          - name: Allocation hook functions
-            items:
-            - name: Debug allocation hook functions
-              href: allocation-hook-functions.md
-            - name: Allocation hooks and C Run-Time memory allocations
-              href: allocation-hooks-and-c-run-time-memory-allocations.md
-          - name: Report hook functions
-            href: report-hook-functions.md
-        - name: Find memory leaks with the CRT library
-          href: finding-memory-leaks-using-the-crt-library.md
+      - name: CRT debugging techniques >>
+        href: /cpp/c-runtime-library/crt-debugging-techniques
       - name: Native code debugging FAQs
         items:
         - name: Debugging native code FAQs

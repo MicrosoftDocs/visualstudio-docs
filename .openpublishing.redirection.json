@@ -3026,6 +3026,66 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/crt-debugging-techniques.md",
+      "redirect_url": "/cpp/c-runtime-library/crt-debugging-techniques",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/crt-debug-library-use.md",
+      "redirect_url": "/cpp/c-runtime-library/crt-debugging-techniques#crt-debug-library-use",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/macros-for-reporting.md",
+      "redirect_url": "/cpp/c-runtime-library/crt-debugging-techniques#macros-for-reporting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debug-versions-of-heap-allocation-functions.md",
+      "redirect_url": "/cpp/c-runtime-library/debug-versions-of-heap-allocation-functions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/crt-debug-heap-details.md",
+      "redirect_url": "/cpp/c-runtime-library/crt-debug-heap-details",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debug-hook-function-writing.md",
+      "redirect_url": "/cpp/c-runtime-library/crt-debugging-techniques#debug-hook-function-writing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/client-block-hook-functions.md",
+      "redirect_url": "/cpp/c-runtime-library/crt-debugging-techniques#client-block-hook-functions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/allocation-hook-functions.md",
+      "redirect_url": "/cpp/c-runtime-library/crt-debugging-techniques#allocation-hook-functions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/allocation-hooks-and-c-run-time-memory-allocations.md",
+      "redirect_url": "/cpp/c-runtime-library/crt-debugging-techniques#allocation-hooks-and-crt-memory-allocations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/report-hook-functions.md",
+      "redirect_url": "/cpp/c-runtime-library/crt-debugging-techniques#report-hook-functions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/finding-memory-leaks-using-the-crt-library.md",
+      "redirect_url": "/cpp/c-runtime-library/find-memory-leaks-using-the-crt-library",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-debug-injected-code.md",
+      "redirect_url": "/cpp/windows/attributes/cpp-attributes-com-net#debug-injected-code",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/how-to-display-message-properties.md",
       "redirect_url": "/visualstudio/debugger/messages-view",
       "redirect_document_id": false
@@ -16818,6 +16878,11 @@
       "source_path": "docs/debugger/view-data-in-ienumerable-visualizer.md",
       "redirect_url": "/visualstudio/debugger/view-data-in-tabular-visualizer",
       "redirect_document_id": true
-    }
+    },
+    {
+      "source_path": "subscriptions/vs-cloudpilot.md",
+      "redirect_url": "/visualstudio/subscriptions",
+      "redirect_document_id": false
+    },
   ]
 }

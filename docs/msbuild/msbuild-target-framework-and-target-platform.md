@@ -72,10 +72,12 @@ The target framework is specified in the `TargetFrameworkVersion` property in th
  A *platform* is combination of hardware and software that defines a particular runtime environment. For example,
 
 - `x86` designates a 32-bit Windows operating system that is running on an Intel 80x86 processor or its equivalent.
-
 - `x64` designates a 64-bit Windows operating system that is running on an Intel x64 processor or its equivalent.
-
+- `anycpu` designates output that is configured to be able to run on any platform. Your application runs as a 64-bit process whenever possible and falls back to 32-bit when only that mode is available.
+- `anycpu32bitpreferred` designates output that runs on any platform. Your application runs in 32-bit mode on systems that support both 64-bit and 32-bit applications.
 - `Xbox` designates the Microsoft Xbox 360 platform.
+- `ARM` compiles your assembly to run on a computer that has an Advanced RISC Machine (ARM) processor.
+- `ARM64` compiles your assembly to run on the 64-bit CLR on a computer that has an Advanced RISC Machine (ARM) processor that supports the A64 instruction set.
 
 A *target platform* is the particular platform that your project is built to run on. The target platform is specified in the `PlatformTarget` build property in a project file. You can change the target platform by using the project property pages or the **Configuration Manager** in the IDE.
 
@@ -85,6 +87,8 @@ A *target platform* is the particular platform that your project is built to run
 </PropertyGroup>
 
 ```
+
+The `PlatformTarget` value is passed to the compiler to determine what output is to be generated. For C# projects, it maps to the C# compiler option `-platform`. The platform options are explained in more detail at [Compiler options: PlatformTarget](/dotnet/csharp/language-reference/compiler-options/output#platformtarget).
 
 A *target configuration* is a subset of a target platform. For example, the `x86` `Debug` configuration does not include most code optimizations. The target configuration is specified in the `Configuration` build property in a project file. You can change the target configuration by using the project property pages or the **Configuration Manager**.
 

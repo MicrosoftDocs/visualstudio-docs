@@ -76,8 +76,6 @@
     href: about-benefits.md
   - name: Tools
     items:
-    - name: CloudPilot
-      href: vs-cloudpilot.md
     - name: Microsoft 365 apps for enterprise
       href: microsoft-365-apps-for-enterprise.md
     - name: Microsoft 365 developer

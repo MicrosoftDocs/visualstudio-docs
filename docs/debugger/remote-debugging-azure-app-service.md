@@ -25,7 +25,7 @@ This article describes how to attach the Visual Studio debugger to an ASP.NET Co
 
 - You must first deploy an ASP.NET Core app to Azure App Service from Visual Studio, and the app must be running.
 
-  For training that includes App Service deployment, see [Remote debug ASP.NET Core on Azure](../debugger/remote-debugging-azure-app-service.md).
+  For hands-on training that includes App Service deployment, see [Remote debug ASP.NET Core on Azure](../debugger/remote-debugging-azure-app-service.md).
 
 ## Enable remote debugging
 
