@@ -22,6 +22,20 @@ Many customizable build operations are controlled by properties. It is important
 
 For a list of properties, see [MSBuild common properties](./common-msbuild-project-properties.md).
 
+## Explore customization options
+
+The following customization options are listed in order of increasing complexity and scope of influence. We recommend using the least complex customization option that will serve your purpose, starting from the top of this list.
+
+| Customization option | Description |
+| - | - |
+| [Add arguments to the MSBuild command line](#add-arguments-to-command-line-msbuild-invocations-for-your-project) | Set global properties that affect the main project build and builds of all dependent projects. |
+| [Customize the build for a single project](#choose-between-adding-properties-to-a-props-or-targets-file) | Add properties to `.props` or `.targets` files to customize build settings. |
+| [Handle generated files in the build process](customize-builds-for-generated-files.md) | How to make sure your generated files are properly included the build output. |
+| [Customize the build for one or more projects](customize-by-directory.md) | Add properties to *Directory.Build.props* or add properties and targets to *Directory.Build.targets* to customize the build for all projects under a folder. This technique is useful for setting properties that are set or used by an SDK, as well as scoping customizations so they affect all projects in a folder or subfolder. |
+| [Customize your local build](customize-your-local-build.md) | Make changes to the build just on your local machine without affecting shared source files. |
+| [Customize all .NET builds](customize-all-net-builds.md)| Customize the build with system-wide scope, for .NET builds. |
+| [Customize C++ builds](customize-cpp-builds.md) | Customize the C++ build, scoped to a project, solution, folder, or all builds governed by an installation of MSBuild on a system. |
+
 ## Add arguments to command-line MSBuild invocations for your project
 
 You can set global properties on the command line. Global properties affect all project builds, including dependencies. Recall that building a project automatically triggers a possible build for all project dependencies. The normal behavior of MSBuild is to build any dependent projects that are out-of-date. Those dependent project builds are launched with the same global property settings from the command line as the original project.
@@ -57,7 +71,6 @@ When deciding where to put the properties, use the following general guidelines:
 - Define targets in `.targets` files. However, if the `.targets` file is imported by an SDK, remember that this scenario makes overriding the target more difficult because the user's project doesn't have a place to override it by default.
 
 - If possible, prefer customizing properties at evaluation time over changing properties inside a target. This guideline makes it easier to load a project and understand what it's doing.
-
 
 ## See also
 

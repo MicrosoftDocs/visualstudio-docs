@@ -1,8 +1,8 @@
 ---
 title: Handle generated files in a build | Microsoft Docs
-description: Learn about several extensibility hooks you can use to customize MSBuild projects that use the standard build process. 
+description: Learn how to modify MSBuild project files so that files that are generated during the build proceed are included in build output.
 ms.date: 02/28/2023
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, transforms
 - transforms [MSBuild]
@@ -39,3 +39,7 @@ Files generated during execution don't exist during the evaluation phase, theref
 ```
 
 Adding your generated file to `None` or `Content` is sufficient for the build process to see it. You also want to ensure it gets added at the right time. Ideally, your target runs before `BeforeBuild`. `AssignTargetPaths` is another possible target, as it is the final opportunity to modify `None` and `Content` items (among others) before they are transformed into new items. See [Common Item Types](common-msbuild-project-items.md).
+
+## Next steps
+
+Explore other possible customization scenarios at [Customize your build](customize-your-build.md).

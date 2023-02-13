@@ -1,6 +1,6 @@
 ---
 title: Customize your local build | Microsoft Docs
-description: Learn about several extensibility hooks you can use to customize MSBuild projects that use the standard build process. 
+description: Learn about how you can modify the build process just for your own local build, without affecting files that you share with a source code repository.
 ms.date: 02/28/2023
 ms.topic: conceptual
 helpviewer_keywords:
@@ -56,3 +56,7 @@ If you need different behaviors depending on the .NET language (C#, Visual Basic
    <!-- Put C#-only property definitions here -->
 </PropertyGroup>
 ```
+
+## Next steps
+
+Explore other possible customization scenarios at [Customize your build](customize-your-build.md).

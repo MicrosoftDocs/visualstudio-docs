@@ -1,6 +1,6 @@
 ---
 title: Customize your build by folder or solution | Microsoft Docs
-description: Learn about several extensibility hooks you can use to customize MSBuild projects that use the standard build process. 
+description: Learn about the special imports Directory.Build.props and Directory.Build.targets that you can use to customize the build system.
 ms.date: 02/28/2023
 ms.topic: how-to
 helpviewer_keywords:
@@ -24,6 +24,8 @@ This article covers customizations applicable to the following scenarios:
 * Customize build settings that may be different for subfolders in a complex structure of folders
 * Override default settings, default build folders, and other behaviors set by an SDK such as `Microsoft.Net.Sdk`
 * Add or customize build targets that apply to any number of projects or solutions
+
+If you're working with C++ projects, the methods described here won't work. Instead, you can use the methods described at [Customize C++ builds](customize-cpp-builds.md).
 
 ## Directory.Build.props and Directory.Build.targets
 

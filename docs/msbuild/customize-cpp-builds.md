@@ -1,6 +1,6 @@
 ---
 title: Customize C++ builds | Microsoft Docs
-description: Learn about several extensibility hooks you can use to customize MSBuild projects that use the standard build process. 
+description: Learn about how you can customize C++ builds done with MSBuild, including how to customize all builds that will be done on a given system, such as a build server.
 ms.date: 02/28/2023
 ms.topic: how-to
 helpviewer_keywords:
@@ -16,11 +16,11 @@ ms.workload:
 ---
 # Customize C++ builds
 
-...
+For C++ projects, the custom `.targets` and `.props` files cannot be used in the same way to override default settings. This articles describes a different way of customizing the build that works for C++ builds.
 
-For C++ projects, the previously mentioned custom `.targets` and `.props` files cannot be used in the same way to override default settings. *Directory.Build.props* is imported by *Microsoft.Common.props*, which is imported in `Microsoft.Cpp.Default.props` while most of the defaults are defined in *Microsoft.Cpp.props* and for a number of properties a "if not yet defined" condition cannot be used, as the property is already defined, but the default needs to be different for particular project properties defined in `PropertyGroup` with `Label="Configuration"` (see [.vcxproj and .props file structure](/cpp/build/reference/vcxproj-file-structure)).
+The file *Directory.Build.props* that is useful for customizing .NET projects is imported by *Microsoft.Common.props*, which is imported in `Microsoft.Cpp.Default.props`, while most of the defaults are defined in *Microsoft.Cpp.props*, and for a number of properties a "if not yet defined" condition cannot be used, as the property is already defined, but the default needs to be different for particular project properties defined in `PropertyGroup` with `Label="Configuration"` (see [.vcxproj and .props file structure](/cpp/build/reference/vcxproj-file-structure)).
 
-But, you can use the following properties to specify `.props` file(s) to be automatically imported before/after *Microsoft.Cpp.\** files:
+For C++ projects, you can use the following properties to specify `.props` file(s) to be automatically imported before/after *Microsoft.Cpp.\** files:
 
 - ForceImportAfterCppDefaultProps
 - ForceImportBeforeCppProps
@@ -73,3 +73,7 @@ msbuild /p:ForceImportBeforeCppTargets="C:\build\config\Custom.Before.Microsoft.
 ```
 
 For a global setting (to affect, say, all C++ builds for a platform on a build server), there are two methods. First, you can set these properties using a system environment variable that is always set. This works because MSBuild always reads the environment and creates (or overrides) properties for all the environment variables.
+
+## Next steps
+
+Explore other possible customization scenarios at [Customize your build](customize-your-build.md).

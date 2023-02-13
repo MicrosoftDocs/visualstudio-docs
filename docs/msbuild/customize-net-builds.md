@@ -14,7 +14,7 @@ ms.technology: msbuild
 ms.workload:
 - multiple
 ---
-## Customize all .NET builds
+# Customize all .NET builds
 
 The techniques in this article are useful when you want to customize all builds run on a specific computer, virtual machine, or container. For example, when you set up a build server, you might need to configure MSBuild settings globally for all builds on the server.  In principle, you could modify the global *Microsoft.Common.Targets* or *Microsoft.Common.Props* files, but there is a better way. You can affect all builds of a certain project type (such as all C# projects) by using certain MSBuild properties and adding certain custom `.targets` and `.props` files.
 
@@ -49,3 +49,7 @@ You can also use the properties `AlternateCommonProps` to specify your own `.pro
 The best approach depends on your scenario. Using Visual Studio Extensibility, you can customize the build system and provide a mechanism for installing and managing the customizations.
 
 If you have a dedicated build server and want to ensure that certain targets always execute on all builds of the appropriate project type that execute on that server, then using a global custom `.targets` or `.props` file makes sense.  If you want the custom targets to only execute when certain conditions apply, then use another file location and set the path to that file by setting the appropriate MSBuild property in the MSBuild command line only when needed.
+
+## Next steps
+
+Explore other possible customization scenarios at [Customize your build](customize-your-build.md).
