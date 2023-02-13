@@ -2,7 +2,7 @@
 title: "Debug .NET Core on Linux"
 description: Debug .NET Core on Linux using Secure Shell (SSH) by attaching to a process. Prepare your app for debugging. Build and deploy the app. Attach the debugger.
 ms.custom: SEO-VS-2020
-ms.date: "10/24/2022"
+ms.date: "02/13/2023"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "remote debugging, linux"
@@ -32,7 +32,13 @@ To prepare your application for debugging:
 
 - Consider using a Debug configuration when you build the application. It is much harder to debug retail-compiled code (a Release configuration) than debug-compiled code. If you need to use a Release configuration, first disable Just My Code. To disable this setting, choose **Tools** > **Options** > **Debugging**, and then deselect **Enable Just My Code**.
 
+::: moniker range=">=vs-2022"
+- Make sure your project is configured to produce [portable PDBs](https://github.com/OmniSharp/omnisharp-vscode/wiki/Portable-PDBs) (which is the default setting), and make sure the PDBs are in the same location as the DLL. To configure this in Visual Studio, right-click the project, then choose **Properties** > **General** > **Debug symbols**.
+::: moniker-end
+
+::: moniker range="vs-2019"
 - Make sure your project is configured to produce [portable PDBs](https://github.com/OmniSharp/omnisharp-vscode/wiki/Portable-PDBs) (which is the default setting), and make sure the PDBs are in the same location as the DLL. To configure this in Visual Studio, right-click the project, then choose **Properties** > **Build** > **Advanced** > **Debugging Information**.
+::: moniker-end
 
 ## Build and deploy the application
 
