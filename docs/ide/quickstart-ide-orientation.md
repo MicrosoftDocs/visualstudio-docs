@@ -29,7 +29,7 @@ In the Visual Studio Installer, you'll choose and install *workloads*, which are
 :::image type="content" source="/media/vs-2022/dot-net-development-workload.png" alt-text="Screenshot of the .NET desktop development workload selected in the Visual Studio Installer.":::
 
 If you already have Visual Studio, you can add the **.NET desktop development** workload as follows:
-* Launch the Visual Studio Installer..
+* Launch the Visual Studio Installer.
 * If prompted, allow the installer to update itself.
 * If an update for Visual Studio is available, an Update button will be shown. Select it to update before modifying the installation.
 * Find your Visual Studio installation and select the Modify button.
