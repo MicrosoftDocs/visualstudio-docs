@@ -1,12 +1,11 @@
 ---
 title: Customize all .NET builds | Microsoft Docs
-description: Learn about several extensibility hooks you can use to customize MSBuild projects that use the standard build process. 
+description: Learn how to customize all .NET builds on a system governed by an installation of MSBuild.
 ms.date: 02/28/2023
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, transforms
 - transforms [MSBuild]
-ms.assetid: d0bceb3b-14fb-455c-805a-63acefa4b3ed
 author: ghogen
 ms.author: ghogen
 manager: jmartens

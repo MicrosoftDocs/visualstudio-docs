@@ -6,7 +6,6 @@ ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, transforms
 - transforms [MSBuild]
-ms.assetid: d0bceb3b-14fb-455c-805a-63acefa4b3ed
 author: ghogen
 ms.author: ghogen
 manager: jmartens
@@ -33,7 +32,7 @@ The following customization options are listed in order of increasing complexity
 | [Handle generated files in the build process](customize-builds-for-generated-files.md) | How to make sure your generated files are properly included the build output. |
 | [Customize the build for one or more projects](customize-by-directory.md) | Add properties to *Directory.Build.props* or add properties and targets to *Directory.Build.targets* to customize the build for all projects under a folder. This technique is useful for setting properties that are set or used by an SDK, as well as scoping customizations so they affect all projects in a folder or subfolder. |
 | [Customize your local build](customize-your-local-build.md) | Make changes to the build just on your local machine without affecting shared source files. |
-| [Customize all .NET builds](customize-all-net-builds.md)| Customize the build with system-wide scope, for .NET builds. |
+| [Customize all .NET builds](customize-net-builds.md)| Customize the build with system-wide scope, for .NET builds. |
 | [Customize C++ builds](customize-cpp-builds.md) | Customize the C++ build, scoped to a project, solution, folder, or all builds governed by an installation of MSBuild on a system. |
 
 ## Add arguments to command-line MSBuild invocations for your project
