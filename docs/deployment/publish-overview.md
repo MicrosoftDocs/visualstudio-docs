@@ -59,5 +59,5 @@ The idea is that you may want to connect to a different SQL database or a differ
 
 For the Publish tool:
 
-- [Publish an ASP.NET web app](../deployment/quickstart-deploy-aspnet-web-app)
+- [Publish an ASP.NET web app](../deployment/quickstart-deploy-aspnet-web-app.md)
 - [Publish your web app](/azure/app-service/quickstart-dotnetcore?tabs=net60&pivots=development-environment-vs#publish-your-web-app)
