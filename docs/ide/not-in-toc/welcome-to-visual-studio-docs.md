@@ -65,13 +65,13 @@ The documentation applies to the most recently generally-available releases of V
 
 ![Screenshot of version selector](../media/version-selector.png)
 
-You can also find the documentation for older versions in our [Documentation archives](~/previous-versions/visualstudio/index.yml).
+You can also find the documentation for older versions in our [Documentation archives](./previous-versions/visualstudio/).
 
 ## Get local, offline documentation
 
 You can install a local copy of the documentation, also called offline documentation. This is helpful for those who don't have a fast, high-bandwidth connection to the Internet on their development machines, or work in isolated networks for security or other reasons.   For more information about offline documentation, see [Microsoft Help Viewer](~/help-viewer/overview.md).
 
-First, you need to [install the Help Viewer](~/help-viewer/install-manage-local-content), which is available in the Visual Studio Installer. Choose **Modify** > **Individual Components** and search for **Help Viewer**.
+First, you need to [install the Help Viewer](~/help-viewer/install-manage-local-content.md), which is available in the Visual Studio Installer. Choose **Modify** > **Individual Components** and search for **Help Viewer**.
 
 Not all documentation on the Learn platform is available locally. Available documentation includes Visual Studio, .NET, Windows APIs, SQL Server, and more. To see the full list of what you can install, choose the **View > Manage Help Content** menu item.
 
@@ -84,4 +84,4 @@ If your feedback is about the documentation, use the feedback link at the bottom
 ## Next steps
 
 + [Main documentation home page](~/windows/index.yml)
-+ [Select a color theme for Visual Studio](../../quickstart-personalize-the-ide.md)
++ [Select a color theme for Visual Studio](~/ide/quickstart-personalize-the-ide.md)
