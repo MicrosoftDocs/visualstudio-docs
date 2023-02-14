@@ -136,6 +136,7 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
+| 16.11.24 | Release | February 14, 2023 | 16.11.33328.57 |
 | 16.11.23 | Release | January 10, 2023 | 16.11.33214.272 |
 | 16.11.22 | Release | December 13, 2022 | 16.11.33130.400 |
 | 16.11.21 | Release | November 8, 2022 | 16.11.33027.164 |
