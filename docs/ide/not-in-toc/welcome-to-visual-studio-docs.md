@@ -33,23 +33,19 @@ If you're looking to get started with Visual Studio by writing some kind of app,
 
 ## Navigate the documentation
 
-You can access major areas of the documentation from the main [Visual Studio hub page](~/windows/index.yml), or by using landing pages for various subareas.
+### Start with our landing pages
+You can access major areas of the documentation from the main [Visual Studio hub page](~/windows/index.yml), or by using landing pages for various subareas, including:
++ [General IDE docs](~/ide/index.yml) 
++ [Debugger docs](~/debugger/index.yml) 
++ [Test & validation docs](~/test/index.yml) 
++ [Containers docs](~/containers/index.yml) 
++ [Azure development docs](~/azure/index.yml) 
 
-Landing pages for the following subareas may be helpful in finding what you're looking for:
-
-| Landing page | Description |
-| - | - |
-| [IDE](~/ide/index.yml) | Learn about the IDE and how to configure and customize it. |
-| [Debugger](~/debugger/index.yml) | Step through code as it's executing. |
-| [Test](~/test/index.yml) | Create and manage tests to validate functionality. |
-| [Containers](~/containers/index.yml) | Work with Docker containers. |
-| [Azure development](~/azure/index.yml) | Connect apps to the cloud. |
-
-The table of contents (TOC) is visible to the left on the desktop browser and in the offline Help Viewer. This tree view of links to articles encompasses the Visual Studio IDE content for the Windows platform. Many subareas of the Visual Studio documentation, such as the debugger, are in separate TOCs. Links to those separate TOCs are indicated in the main TOC with a ">>" symbol.
+Use the table of contents (TOC) on the left to explore the contents. This tree view of links to articles encompasses the Visual Studio IDE content for the Windows platform. Many subareas of the Visual Studio documentation, such as the debugger, are in separate TOCs. Links to those separate TOCs are indicated in the main TOC with a ">>" symbol.
 
 ![Screenshot showing TOC](../media/toc.png)
 
-## Search the docs
+### Find using docs search 
 
 You can always use Internet search engines to find content for all Microsoft technologies. Try adding `site:learn.microsoft.com` to your search queries in your favorite search engine if you know you're looking for Microsoft content.
 
@@ -57,34 +53,35 @@ In addition, you can use the search box at the top of the screen to search text 
 
 The TOC also has a search box just above it. It only searches the TOC, not the pages themselves.
 
-## Contextual help (F1)
+### Find with contextual help (F1)
 
-Anytime you're using the IDE, you can try pressing F1 to get relevant documentation based on your current context, as determined by the window focus and cursor position. For example, when you're writing code, you can press F1 when your cursor is on the name of a type, method, or language keyword in the code editor to get right to the reference page for that program entity. You can click on most error codes in the [Task List](~/ide/using-the-task-list.md) or [Output Window](~/ide/reference/output-window.md) to get to pages with suggestions for how to deal with the errors. You can click on the ? icon or press F1 on most dialog boxes or options pages to jump right to the documentation for that tool or settings page.
+Anytime you're using the IDE, press your F1 key to get relevant documentation based on your current context, as determined by the window focus and cursor position. For example, when you're writing code, you can press F1 when your cursor is on the name of a type, method, or language keyword in the code editor to get right to the reference page for that program entity. You can click on most error codes in the [Task List](~/ide/using-the-task-list.md) or [Output Window](~/ide/reference/output-window.md) to get to pages with suggestions for how to deal with the errors. You can click on the ? icon or press F1 on most dialog boxes or options pages to jump right to the documentation for that tool or settings page.
 
-In some cases, when there isn't enough context to provide meaningful help, nothing happens when you press F1. Try moving the window focus or cursor position to get more specific help.
+In some cases, when there isn't enough context to provide meaningful help, nothing happens when you press F1. Try moving the window focus or cursor position to get more specific help.  For more information about offline documentation, see [Microsoft Help Viewer](~/help-viewer/overview.md).
 
-## Install and view documentation locally
+### Find versioned documentation
 
-You can install a local copy of the documentation. This is helpful for those who don't have a fast, high-bandwidth connection to the Internet on their development machines, or work in isolated networks for security or other reasons.
-
-First, you need to install the Help Viewer, which is available in the Visual Studio Installer. Choose **Modify** > **Individual Components** and search for **Help Viewer**.
-
-Not all documentation on the Learn platform is available locally. Available documentation includes Visual Studio, .NET, Windows APIs, SQL Server, and more. To see the full list of what you can install, choose the **View > Manage Help Content** menu item.
-
-For more information about offline documentation, see [Microsoft Help Viewer](~/help-viewer/overview.md).
-
-## Versions
-
-The documentation in this section applies to all quarterly updates of Visual Studio 2019 and Visual Studio 2022. You can use the version selector at the top left, above the TOC, to switch between versions or access documentation for [previous versions](/previous-versions/visualstudio).
+The documentation applies to the most recently generally-available releases of Visual Studio. You can use the version selector at the top left, above the TOC, to switch between versions or access documentation for [previous versions](/previous-versions/visualstudio).  Articles or sections that apply to current previews are marked as preview content.
 
 ![Screenshot of version selector](../media/version-selector.png)
 
-Articles or sections that apply to current previews are marked as preview content.
+You can also find the documentation for older versions in our [Documentation archives](https://learn.microsoft.com/en-us/previous-versions/visualstudio/).
 
-## Switch to dark mode
+## Get local, offline documentation
 
-The learn.microsoft.com site normally uses whatever theme is set as the default for the browser. If you want to change the theme only for the site, scroll all the way to the bottom of any page to find the **Theme** button. You can choose **Light**, **Dark**, or **High Contrast**.
+You can install a local copy of the documentation, also called offline documentation. This is helpful for those who don't have a fast, high-bandwidth connection to the Internet on their development machines, or work in isolated networks for security or other reasons.
+
+First, you need to [install the Help Viewer](~/help-viewer/install-manage-local-content), which is available in the Visual Studio Installer. Choose **Modify** > **Individual Components** and search for **Help Viewer**.
+
+Not all documentation on the Learn platform is available locally. Available documentation includes Visual Studio, .NET, Windows APIs, SQL Server, and more. To see the full list of what you can install, choose the **View > Manage Help Content** menu item.
+
+## More help & feedback
+
+If you're not finding what you wanted, let us know! If your feedback is about the product, use [Visual Studio Developer Community](https://developercommunity.visualstudio.com/VisualStudio) to report your concern or see what others have suggested. 
+
+If your feedback is about the documentation, use the feedback link at the bottom of this page. The best feedback includes information about your situation, what you expected or wanted, and if possible, specific suggestions for us to consider improving or changing. See also [Report a problem](~/ide/how-to-report-a-problem-with-visual-studio.md).
 
 ## Next steps
 
-If you're not finding what you wanted, let us know! If your feedback is about the product, use [Visual Studio Developer Community](https://developercommunity.visualstudio.com/VisualStudio) to report your concern or see what others have suggested. If your feedback is about the documentation, use the feedback link at the bottom of this page. The best feedback includes information about your situation, what you expected or wanted, and if possible, specific suggestions for us to consider improving or changing. See also [Report a problem](~/ide/how-to-report-a-problem-with-visual-studio.md).
++ [Main documentation home page](~/windows/)
++ [Select a color theme for Visual Studio](../../quickstart-personalize-the-ide.md)
