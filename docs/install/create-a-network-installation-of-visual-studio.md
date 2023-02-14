@@ -407,7 +407,7 @@ For more information about how to customize and configure the default client set
 
 You can also control other enterprise deployment behavior such as installation, update, and download behavior, administrator update behavior, how layouts appear in the **Update Settings** dialog, and notification behavior.  
 
-Refer to [Configure policies for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md) for additional details.
+Refer to [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md) for additional details.
 
 
 ### Error codes
@@ -430,7 +430,7 @@ We have other support options available, too. See our [Visual Studio Developer C
 - [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 - [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
 - [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
-- [Configure policies for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md) 
+- [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md) 
 - [Visual Studio product lifecycle and servicing](/visualstudio/productinfo/vs-servicing/)
 - [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 - [Visual Studio workload and component IDs](workload-and-component-ids.md)

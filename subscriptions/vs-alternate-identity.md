@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 86f2856c-8adf-4085-9962-f4136679e5ed
-ms.date: 07/21/2022
+ms.date: 02/13/2023
 ms.topic: conceptual
 description:  Learn how to add an alternate identity for your Visual Studio subscription to use for Azure DevOps and Azure
 ---
@@ -18,7 +18,7 @@ Because these features are included as a subscriber benefit, it's free to add yo
 In Azure, we check your Visual Studio subscription status when you activate your [monthly Azure DevTest individual credit](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/)
 that is a subscriber benefit.
 
-Within the [Visual Studio subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), you may be able to add an **alternate identity** -- in addition to the identity you used during activation. We allow you to add an alternate identity if you used a Microsoft account to activate your subscription. This way you can also add a work or school account (which you use when logging into Visual Studio, Microsoft 365, or your corporate or school network), allowing you to access Azure DevOps using both your personal account and your work or school account.
+Within the [Visual Studio subscriber portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs), you may be able to add an **alternate identity** -- in addition to the identity you used during activation. This way you can also add a work or school account (which you use when logging into Visual Studio, Microsoft 365, or your corporate or school network), allowing you to access Azure DevOps using both your personal account and your work or school account.
 
 ## Add an alternate account to your subscription
 
