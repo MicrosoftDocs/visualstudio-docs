@@ -7,7 +7,7 @@ ms.author: tglee
 manager: jmartens
 ms.technology: vs-ide-designers
 ms.topic: how-to
-ms.custom: contperf-fy23q2
+ms.custom: contperf-fy23q2; engagement-fy23
 ---
 # Disable DPI-awareness to fix HDPI / scaling issues with Windows Forms Designer in Visual Studio
 
