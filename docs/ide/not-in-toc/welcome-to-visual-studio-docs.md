@@ -18,13 +18,25 @@ ROBOTS: NOINDEX,NOFOLLOW
 
 You likely arrived here by clicking **View Help** in the Visual Studio IDE. Let's get you where you need to go.
 
-Documentation for Visual Studio covers the functionality of the IDE. You can start with a [feature tour](~/ide/quickstart-ide-orientation.md) and [overview of Visual Studio](~/get-started/visual-studio-ide.md). The documentation includes [settings in the IDE](~/ide/personalizing-the-visual-studio-ide.md), organizing code with [projects and solutions](~/ide/solutions-and-projects-in-visual-studio.md), [code editing](~/ide/writing-code-in-the-code-and-text-editor.md), [debugging](~/debugger/debugger-feature-tour.md) and [performance analysis](~/profiling/beginners-guide-to-performance-profiling.md) tools, [testing](~/test/index.yml) tools, and more.
+Documentation for Visual Studio covers the functionality of the IDE. 
 
-## Get started with tutorials
+## Get started with docs
+
+You can start with a [Visual Studio feature tour](~/ide/quickstart-ide-orientation.md) and [overview of Visual Studio](~/get-started/visual-studio-ide.md). 
+
+You can also access major areas of the documentation from the main [Visual Studio hub page](~/windows/index.yml), or by using landing pages for various subareas, including:
++ [General IDE docs](~/ide/index.yml) 
++ [Projects and solutions](~/ide/solutions-and-projects-in-visual-studio.md)
++ [Debugger docs](~/debugger/index.yml) 
++ [Performance analysis](~/profiling/beginners-guide-to-performance-profiling.md) tools
++ [Test & validation docs](~/test/index.yml) 
++ [Containers docs](~/containers/index.yml) 
++ [Azure development docs](~/azure/index.yml) 
++ [Settings in the IDE](~/ide/personalizing-the-visual-studio-ide.md)
 
 If you're looking to get started with Visual Studio by writing some kind of app, such as a console app or web app, try these pages to select an appropriate tutorial:
 
-| Landing page | Description |
+| Tutorial by language | Description |
 | - | - |
 | [C# Tutorials](~/get-started/csharp/index.yml) | Create C# console, Windows, and web apps. |
 | [Visual Basic tutorials](~/get-started/visual-basic/index.yml) | Create Visual Basic console, Windows, and web apps. |
@@ -32,14 +44,6 @@ If you're looking to get started with Visual Studio by writing some kind of app,
 | [C++ tutorials](/cpp/build/vscpp-step-1-create) | Create "Hello, world" in C++ in Visual Studio. |
 
 ## Navigate the documentation
-
-### Start with our landing pages
-You can access major areas of the documentation from the main [Visual Studio hub page](~/windows/index.yml), or by using landing pages for various subareas, including:
-+ [General IDE docs](~/ide/index.yml) 
-+ [Debugger docs](~/debugger/index.yml) 
-+ [Test & validation docs](~/test/index.yml) 
-+ [Containers docs](~/containers/index.yml) 
-+ [Azure development docs](~/azure/index.yml) 
 
 Use the table of contents (TOC) on the left to explore the contents. This tree view of links to articles encompasses the Visual Studio IDE content for the Windows platform. Many subareas of the Visual Studio documentation, such as the debugger, are in separate TOCs. Links to those separate TOCs are indicated in the main TOC with a ">>" symbol.
 
