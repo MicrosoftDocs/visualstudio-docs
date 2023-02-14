@@ -61,11 +61,11 @@ In some cases, when there isn't enough context to provide meaningful help, nothi
 
 ### Find versioned documentation
 
-The documentation applies to the most recently generally-available releases of Visual Studio. You can use the version selector at the top left, above the TOC, to switch between versions or access documentation for [previous versions](/previous-versions/visualstudio).  Articles or sections that apply to current previews are marked as preview content.
+The documentation applies to the most recently generally-available releases of Visual Studio. You can use the version selector at the top left, above the table of contents to switch between versions.  Articles or sections that apply to current previews are marked as preview content.
 
 ![Screenshot of version selector](../media/version-selector.png)
 
-You can also find the documentation for older versions in our [Documentation archives](./previous-versions/visualstudio/).
+You can also access [archived documentation for previous versions](/previous-versions/visualstudio).
 
 ## Get local, offline documentation
 
