@@ -15,7 +15,7 @@ ms.date: 02/14/2023
 
 [!INCLUDE [Error while activating Azure monthly credit](benefit-activation/includes/error-while-activating-azure-monthly-credit.md)]
 
-[!INCLUDE [what-happens-to-azure-credit-when-subscription-expires](subscriptions/solutions/benefit-activation/includes/what-happens-to-azure-credit-when-subscription-expires.md)]
+[!INCLUDE [what-happens-to-azure-credit-when-subscription-expires](benefit-activation/includes/what-happens-to-azure-credit-when-subscription-expires.md)]
 
 [!INCLUDE [How do I activate Azure monthly credit](benefit-activation/includes/how-do-i-activate-azure-monthly-credit.md)]
 
