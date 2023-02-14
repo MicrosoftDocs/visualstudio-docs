@@ -57,7 +57,7 @@ The TOC also has a search box just above it. It only searches the TOC, not the p
 
 Anytime you're using the IDE, press your F1 key to get relevant documentation based on your current context, as determined by the window focus and cursor position. For example, when you're writing code, you can press F1 when your cursor is on the name of a type, method, or language keyword in the code editor to get right to the reference page for that program entity. You can click on most error codes in the [Task List](~/ide/using-the-task-list.md) or [Output Window](~/ide/reference/output-window.md) to get to pages with suggestions for how to deal with the errors. You can click on the ? icon or press F1 on most dialog boxes or options pages to jump right to the documentation for that tool or settings page.
 
-In some cases, when there isn't enough context to provide meaningful help, nothing happens when you press F1. Try moving the window focus or cursor position to get more specific help.  For more information about offline documentation, see [Microsoft Help Viewer](~/help-viewer/overview.md).
+In some cases, when there isn't enough context to provide meaningful help, nothing happens when you press F1. Try moving the window focus or cursor position to get more specific help. 
 
 ### Find versioned documentation
 
@@ -65,11 +65,11 @@ The documentation applies to the most recently generally-available releases of V
 
 ![Screenshot of version selector](../media/version-selector.png)
 
-You can also find the documentation for older versions in our [Documentation archives](https://learn.microsoft.com/en-us/previous-versions/visualstudio/).
+You can also find the documentation for older versions in our [Documentation archives](~/previous-versions/visualstudio/index.yml).
 
 ## Get local, offline documentation
 
-You can install a local copy of the documentation, also called offline documentation. This is helpful for those who don't have a fast, high-bandwidth connection to the Internet on their development machines, or work in isolated networks for security or other reasons.
+You can install a local copy of the documentation, also called offline documentation. This is helpful for those who don't have a fast, high-bandwidth connection to the Internet on their development machines, or work in isolated networks for security or other reasons.   For more information about offline documentation, see [Microsoft Help Viewer](~/help-viewer/overview.md).
 
 First, you need to [install the Help Viewer](~/help-viewer/install-manage-local-content), which is available in the Visual Studio Installer. Choose **Modify** > **Individual Components** and search for **Help Viewer**.
 
@@ -83,5 +83,5 @@ If your feedback is about the documentation, use the feedback link at the bottom
 
 ## Next steps
 
-+ [Main documentation home page](~/windows/)
++ [Main documentation home page](~/windows/index.yml)
 + [Select a color theme for Visual Studio](../../quickstart-personalize-the-ide.md)
