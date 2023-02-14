@@ -5,7 +5,7 @@ description: A list of released versions and build numbers for Visual Studio, so
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
-ms.date: 01/31/2023
+ms.date: 02/14/2023
 ms.custom: vs-acquisition
 ms.topic: reference
 ms.workload:
