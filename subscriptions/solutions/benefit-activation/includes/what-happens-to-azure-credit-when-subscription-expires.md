@@ -2,10 +2,10 @@
 title: What happens to Azure resources when a Visual Studio subscription expires or is removed?
 description: When access to a Visual Studio subscription ends, you're no longer eligible to receive Azure monthly credits and must take action to save your resources.
 ms.topic: include
-ms.assetid: 
+ms.assetid: 91fc4302-f84d-4860-87f5-eb60f06bd60c
 author: larissacrawford
 ms.author: amast
-ms.date: 1/25/2023
+ms.date: 2/14/2023
 user.type: subscriber, admin
 tags: benefit, azure
 subscription.type: vl, cloud, retail, partner
