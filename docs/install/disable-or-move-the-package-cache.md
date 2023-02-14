@@ -51,7 +51,7 @@ before you install, modify, or repair Visual Studio.
 
 A common system configuration is to have Windows installed on an SSD that has a larger hard disk (or more) for development needs, such as source code, program binaries, and more. If you want to work offline, you can move the package cache instead.
 
-Currently, you can do this operation only if you set the `CachePath` [registry policy](set-defaults-for-enterprise-deployments.md) before you
+Currently, you can do this operation only if you set the `CachePath` [registry policy](configure-policies-for-enterprise-deployments.md) before you
 install, modify, or repair Visual Studio.
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
@@ -59,5 +59,5 @@ install, modify, or repair Visual Studio.
 ## See also
 
 * [Install Visual Studio](install-visual-studio.md)
-* [Set defaults for enterprise deployments](set-defaults-for-enterprise-deployments.md)
+* [Configure policies for enterprise deployments](configure-policies-for-enterprise-deployments.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)

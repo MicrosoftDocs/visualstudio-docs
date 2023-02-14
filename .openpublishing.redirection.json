@@ -16,6 +16,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/install/set-defaults-for-enterprise-deployments.md",
+      "redirect_url": "/visualstudio/install/configure-policies-for-enterprise-deployments",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/python/publishing-python-web-applications-to-azure-from-visual-studio.md",
       "redirect_url": "/visualstudio/python",
       "redirect_document_id": false

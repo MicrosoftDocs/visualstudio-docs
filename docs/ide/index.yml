@@ -35,7 +35,7 @@ landingContent:
             url: ../install/install-visual-studio.md
       - linkListType: overview
         links:
-          - text: Overview of Visual Studio
+          - text: Visual Studio
             url: ../get-started/visual-studio-ide.md
 
   # Card

@@ -54,3 +54,10 @@ When you use the Publish tool to deploy your application to Azure, you get the o
 ![dependencies during publish](./media/publish-dependencies.png)
 
 The idea is that you may want to connect to a different SQL database or a different Storage account or a different Key Vault for different environments like testing, QA, pre-prod, and so forth.
+
+## Next steps
+
+For the Publish tool:
+
+- [Publish an ASP.NET web app](../deployment/quickstart-deploy-aspnet-web-app.md)
+- [Publish your web app](/azure/app-service/quickstart-dotnetcore?tabs=net60&pivots=development-environment-vs#publish-your-web-app)
