@@ -73,9 +73,9 @@ When Visual Studio runs as a DPI-unaware process, the designer layout issues are
 
 It's important to restart Visual Studio as a DPI-aware process when you're finished working in the **Windows Forms Designer**. If you close and reopen Visual Studio when it's running in DPI-unaware mode, it becomes DPI-aware again. You can also select the **Restart Visual Studio as a DPI-aware process** option in the information bar.
 
-## Use Windows to set your display scaling setting to 100%
+## Use Windows to set your display scaling to 100%
 
-If you don't want to use Visual Studio to reset your display scaling on an as-needed basis, you can use Windows settings to do so. For example, you can set your display scaling setting to 100% in Windows 11.
+If you don't want to use Visual Studio to reset your display scaling on an as-needed basis, you can use Windows settings to do so. For example, you can set display scaling to 100%, or 96 DPI, in Windows 11.
 
 To do so, type **display settings** in the task bar search box, and then select **Change display settings**. In the **Settings** window, set **Change the size of text, apps, and other items** to **100%**.  However, setting your display scaling to 100% may be undesirable since it can make the user interface too small to be usable.
 
@@ -88,12 +88,14 @@ If you prefer to manage your display settings by using command-line tools instea
 
 ## Other options
 
-In addition to the aforementioned options, you can:
-+ [Automatically scale in Windows Forms](/dotnet/framework/winforms/automatic-scaling-in-windows-forms)
+In addition to the aforementioned options, you can also try the folloing options:
 
-+ Select the option to [Optimize rendering for screens with different pixel densities (requires restart)](../ide/reference/general-environment-options-dialog-box.md#visual-experience)
+- [Automatically scale in Windows Forms](/dotnet/framework/winforms/automatic-scaling-in-windows-forms)
 
-+ <a name="disable-notifications"></a>**Disable scaling notifications** in Visual Studio, for example,  if you aren't working in the designer. To disable notifications:
+- Select the option to [Optimize rendering for screens with different pixel densities (requires restart)](../ide/reference/general-environment-options-dialog-box.md#visual-experience)
+
+- <a name="disable-notifications"></a>**Disable scaling notifications** in Visual Studio, for example,  if you aren't working in the designer. Here's how to disable notifications:
+
   1. Choose **Tools** > **Options** to open the **Options** dialog.
   1. In the **Options** dialog, choose **Windows Forms Designer** > **General**, and set **DPI Scaling Notifications** to **False**.
 
