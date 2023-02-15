@@ -11,7 +11,7 @@ ms.author: tglee
 manager: jmartens
 ms.technology:
 ms.prod: visual-studio-dev17
-ms.topic: conceptual
+ms.topic: whats-new
 ms.workload:
   - "multiple"
 ---
