@@ -31,7 +31,7 @@ The results appear in a tool window named **\<element> references**, where *elem
 
 You can also hover the mouse over any search result to see a preview of the reference.
 
-![Find All References tool window](../ide/media/vside_findallreferences.png)
+![Screenshot of the Find All References tool window.](../ide/media/vside_findallreferences.png)
 
 ## Navigate to references
 
@@ -52,7 +52,7 @@ By default, references are grouped by project, then by definition. However, you 
 
 In C# or Visual Basic, the **Find References** window has a **Kind** column where it lists what type of reference it found. You can use this column to filter by reference type. Select the filter icon that appears when you hover over the column header. You can filter references by Read, Write, Reference, Name, Namespace, and Type.
 
-![Find References Window Kind column ](../ide/media/vside_findallreferencesKind.png)
+![Screenshot of the Find References window that highlights the Kind column.](../ide/media/vside_findallreferencesKind.png)
 
 After you apply a filter or a filter set, you can easily remove it by using the **Clear All Filters** button.
 
