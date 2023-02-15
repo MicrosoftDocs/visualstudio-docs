@@ -1,13 +1,12 @@
 ---
 title: Create a database and add tables
 description: Tutorial that describes how to add tables and foreign keys to a database by using Table Designer in Visual Studio. It also shows how to add data through the graphical interface.
-ms.date: 03/30/2022
+ms.date: 02/28/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - database tables, creating
 - database files, creating
 - table designer
-ms.assetid: 99c2b06f-47aa-414e-8057-a3453712fd23
 author: ghogen
 ms.author: ghogen
 manager: jmartens
@@ -32,7 +31,7 @@ To complete this walkthrough, you'll need the **.NET desktop development** and *
 
 1. Create a new **Windows Forms App (.NET Framework)** project and name it **SampleDatabaseWalkthrough**.
 
-2. On the menu bar, select **Project** > **Add New Item**.
+2. On the menu bar, select **Project** > **Add New Item**. If you see a small dialog box with a box for a filename, choose **Show All Templates**.
 
 3. In the list of item templates, scroll down and select **Service-based Database**.
 
@@ -43,7 +42,7 @@ To complete this walkthrough, you'll need the **.NET desktop development** and *
    ![Add New item > Service-based database](media/raddata-vsitemtemplates.png)
    :::moniker-end
 
-4. Name the database **SampleDatabase**, and then click **Add**.
+4. Name the database **SampleDatabase.mdf**, and then click **Add**.
 
 ### Add a data source
 
@@ -74,7 +73,7 @@ To complete this walkthrough, you'll need the **.NET desktop development** and *
 
 You can view the connection string for the *SampleDatabase.mdf* file by opening the Properties window of the data connection:
 
-- Select **View** > **SQL Server Object Explorer** to open the **SQL Server Object Explorer** window. Expand **(localdb)\MSSQLLocalDB** > **Databases**, and then right-click on *SampleDatabase.mdf* and select **Properties**.
+- Select **View** > **SQL Server Object Explorer** to open the **SQL Server Object Explorer** window. Expand **(localdb)\MSSQLLocalDB** > **Databases**, and then right-click on *SampleDatabase.mdf* (it might be listed as a full path) and select **Properties**.
 
 - Alternatively, you can select **View** > **Server Explorer**, if that window isn't already open. Open the Properties window by expanding the **Data Connections** node, right-clicking on *SampleDatabase.mdf*, and then selecting **Properties**.
 
@@ -87,9 +86,7 @@ In this section, you'll create two tables, a primary key in each table, and a fe
 
 ### Create the Customers table
 
-1. In **Server Explorer**, expand the **Data Connections** node, and then expand the **SampleDatabase.mdf** node.
-
-   If you can't expand the Data Connections node, or the SampleDatabase.mdf connection is not listed, select the **Connect to Database** button in the Server Explorer toolbar. In the **Add Connection** dialog box, make sure that **Microsoft SQL Server Database File** is selected under **Data source**, and then browse to and select the SampleDatabase.mdf file. Finish adding the connection by selecting **OK**.
+1. In **Server Explorer** or **SQL Server Object Browser**, expand the **Data Connections** node, and then expand the **SampleDatabase.mdf** node.
 
 2. Right-click on **Tables** and select **Add New Table**.
 
@@ -164,7 +161,7 @@ In this section, you'll create two tables, a primary key in each table, and a fe
 
 6. In the **Preview Database Updates** dialog box, select **Update Database**.
 
-   The Orders table is created in the local database file. If you expand the **Tables** node in Server Explorer, you see the two tables:
+   The Orders table is created in the local database file. If you expand the **Tables** node in **Server Explorer**, you see the two tables:
 
    :::moniker range=">=vs-2022"
    ![Tables node expanded in Server Explorer](media/vs-2022/server-explorer-tables-node.png)
