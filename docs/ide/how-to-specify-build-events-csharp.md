@@ -23,8 +23,6 @@ ms.workload:
 
 Use build events to specify commands that run before the build starts or after the build finishes.
 
-When a project is built, pre-build events are added to a file named *PreBuildEvent.bat* and post-build events are added to a file named *PostBuildEvent.bat*. If you want to ensure error checking, add your own error-checking commands to the build steps.
-
 ## Specify a build event
 
 :::moniker range="<=vs-2019"
@@ -81,11 +79,9 @@ The build event commands can include any command that is valid at a command prom
 
 You can execute [PowerShell](/powershell/scripting/overview) scripts by entering a command like `PowerShell MyPowerShellScript.ps1`. The path to the PowerShell script may be absolute, or may be relative to the project directory. You would need to make sure that the execution policy for PowerShell scripts on your operating system is set appropriately in order to run the script. See [About execution policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
 
-If you want to use another shell, such as bash, you would generally use the same command syntax as you would use to launch a shell script from the Windows command prompt. However, keep in mind that there are many considerations. The bitness of Visual Studio might need to be considered; how to reference filesystem paths, which might need to modified from the syntax that works on Windows to be understandable to that shell. For example, drives with colons need to changed to a mount point syntax, backslashes need to be forward slashes, and so on. Since the number and variety of third-party shells is endless, it's beyond the scope of what we can describe here. Sites like StackOverflow might be helpful.
+If you want to use another shell, such as bash, you would generally use the same command syntax as you would use to launch a shell script from the Windows command prompt. Using third-party shells is beyond the scope of this documentation, but sites like Stack Overflow might be helpful.
 
 ## In the project file
-
-More advanced users might want to know how setting a build events affects the MSBuild code in the project file.
 
 When you perform the previous steps, Visual Studio modifies your project file by adding the `PreBuild` or `PostBuild` target and the necessary MSBuild code to execute the steps you provided.  You can open the project file and see the steps. Modifying the steps in the project file is fine. You'll see your changes in the **Build > Events** section of the project properties after you save changes.
 
@@ -101,20 +97,20 @@ When you perform the previous steps, Visual Studio modifies your project file by
 
 ## Errors and other output
 
-The output of your build events is written to the **Build** section of the **Output Window**. To open it, choose **View** > **Other Windows**, **Output Window** or press **Ctrl**+**Alt**+**O**.
+The output of your build events is written to the **Build** section of the **Output Window**. To open it, choose **View** > **Other Windows**, **Output Window**, or press **Ctrl**+**Alt**+**O**. In the dropdown next to **Show output from**, choose **Build**.
 
 If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0). A zero exit code indicates a successful action; any other exit code is considered an error.
 
 If your pre-build event fails, you might see an error like this in the **Error List** window:
 
 ```output
-Error	MSB3073	The command "call c:\source\repos\prebuild.bat" exited with code 1.
+MSB3073	The command "call c:\source\repos\prebuild.bat" exited with code 1.
 ```
 
 If there's not enough information in the **Error List** window, you can try using the **Output Window** to view the full build output, including any output from batch files.
 
 > [!TIP] 
-> The **Error List** window is limited to just one line of output, and so it's limited to the first line you entered for the event. If the **Error List** window output is important to you, then avoid putting more than one line in the event. Create a batch file from the Windows command prompt or in the operating system, and then just use `call mybatchfile.bat` for the event. Include the  commands in the batch file itself.
+> The **Error List** window is limited to just one line of output, the first line you entered for the event. If the **Error List** window output is important to you, then avoid putting more than one line in the event. Create a batch file from the Windows command prompt or in the operating system, and then just use `call mybatchfile.bat` for the event. Include the commands in the batch file itself.
 
 For guidance on the commands you can use in batch files, see [Windows commands](/windows-server/administration/windows-commands/windows-commands).
 
