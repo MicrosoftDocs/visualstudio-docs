@@ -6,7 +6,7 @@ ms.topic: include
 ms.assetid: 2c83cd19-2692-4aef-9cd7-b7842639cbce
 author: evanwindom
 ms.author: amast
-ms.date: 01/29/2021
+ms.date: 02/15/2023
 ---
 
 ## How do I cancel monthly and annual subscriptions?
