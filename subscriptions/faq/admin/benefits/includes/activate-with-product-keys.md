@@ -11,4 +11,4 @@ ms.date: 02/15/2023
 
 ## How do my developers activate software using product keys from their Visual Studio subscription?
 
-Depending on what product your subscriber has downloaded it can either be activated by logging in using the email address tied to the subscription, or subscribers can activate it [by claiming a product key](https://learn.microsoft.com/visualstudio/subscriptions/product-keys.md) from the Visual Studio [Subscriber portal](https://my.visualstudio.com).
+Depending on what product your subscriber has downloaded it can either be activated by logging in using the email address tied to the subscription, or subscribers can activate it [by claiming a product key](https://learn.microsoft.com/visualstudio/subscriptions/product-keys) from the Visual Studio [Subscriber portal](https://my.visualstudio.com).
