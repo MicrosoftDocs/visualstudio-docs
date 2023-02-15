@@ -18,11 +18,11 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can use Visual Studio to create and update a local database file in SQL Server Express LocalDB. You can also create a database by executing Transact-SQL statements in the **SQL Server Object Explorer** tool window in Visual Studio. In this topic, we'll create an *.mdf* file and add tables and keys by using the Table Designer.
+You can use Visual Studio to create and update a local database file in SQL Server Express LocalDB. You can also create a database by executing Transact-SQL statements in the **SQL Server Object Explorer** tool window in Visual Studio. In this topic, you create an *.mdf* file and add tables and keys by using the Table Designer.
 
 ## Prerequisites
 
-To complete this walkthrough, you'll need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify.
+To complete this walkthrough, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify.
 
 > [!NOTE]
 > The procedures in this article apply only to .NET Framework Windows Forms projects, not to .NET Core Windows Forms projects.
@@ -67,7 +67,7 @@ To complete this walkthrough, you'll need the **.NET desktop development** and *
 
 1. On the **Save the Connection String to the Application Configuration File** page, choose **Next**.
 
-1. On the **Choose your Database Objects** page, you'll see a message that says the database doesn't contain any objects. Choose **Finish**.
+1. On the **Choose your Database Objects** page, you see a message that says the database doesn't contain any objects. Choose **Finish**.
 
 ### View properties of the data connection
 
@@ -82,7 +82,7 @@ You can view the connection string for the *SampleDatabase.mdf* file by opening 
 
 ## Create tables and keys by using Table Designer
 
-In this section, you'll create two tables, a primary key in each table, and a few rows of sample data. You'll also create a foreign key to specify how records in one table correspond to records in the other table.
+In this section, you create two tables, a primary key in each table, and a few rows of sample data. you also create a foreign key to specify how records in one table correspond to records in the other table.
 
 ### Create the Customers table
 
@@ -90,7 +90,7 @@ In this section, you'll create two tables, a primary key in each table, and a fe
 
 2. Right-click on **Tables** and select **Add New Table**.
 
-   The Table Designer opens and shows a grid with one default row, which represents a single column in the table that you're creating. By adding rows to the grid, you'll add columns in the table.
+   The Table Designer opens and shows a grid with one default row, which represents a single column in the table that you're creating. By adding rows to the grid, you add columns in the table.
 
 3. In the grid, add a row for each of the following entries:
 
@@ -211,7 +211,7 @@ In this section, you'll create two tables, a primary key in each table, and a fe
 
 5. Open the shortcut menu for the Orders table, and then select **Show Table Data** or **View Data**.
 
-6. Add data for some orders. As you enter each row, it is saved in the database.
+6. Add data for some orders. As you enter each row, it's saved in the database.
 
     > [!IMPORTANT]
     > Make sure that all order IDs and order quantities are integers and that each customer ID matches a value that you specified in the **CustomerID** column of the Customers table.
