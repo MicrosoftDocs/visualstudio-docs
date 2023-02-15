@@ -1,8 +1,7 @@
 ---
 title: 'How to: Specify build events (C#)'
 description: Learn how to use build events to specify commands that run before the build starts or after the build finishes.
-ms.custom: SEO-VS-2020
-ms.date: 03/04/2022
+ms.date: 02/15/2023
 ms.technology: vs-ide-compile
 ms.topic: how-to
 helpviewer_keywords:
@@ -44,7 +43,7 @@ When a project is built, pre-build events are added to a file named *PreBuildEve
 5. In the **Post-build event command line** box, specify the syntax of the build event.
 
    > [!NOTE]
-   > Add a `call` statement before all post-build commands that run *.bat* files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.
+   > Add a `call` statement before all post-build commands that run *.bat* files. For example, `call MyFile.bat` or `call MyFile.bat call MyFile2.bat`. Paths can be absolute, or relative to the project folder.
 
 6. In the **Run the post-build event** box, specify under what conditions to run the post-build event.
 
@@ -56,7 +55,7 @@ When a project is built, pre-build events are added to a file named *PreBuildEve
 
 1. In **Solution Explorer**, select the project for which you want to specify the build event.
 
-2. On the **Project** menu, click **Properties** (or from **Solution Explorer**, press **Alt**+**Enter**).
+2. On the **Project** menu, click **{ProjectName} Properties** (or from **Solution Explorer**, press **Alt**+**Enter**).
 
 3. Select **Build > Events**.
 
@@ -70,16 +69,54 @@ When a project is built, pre-build events are added to a file named *PreBuildEve
 5. In the **Post-build event** section, specify the syntax of the build event.
 
    > [!NOTE]
-   > Add a `call` statement before all post-build commands that run *.bat* files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.
+   > Add a `call` statement before all post-build commands that run *.bat* files. For example, `call MyFile.bat` or `call MyFile.bat call MyFile2.bat`. Paths can be absolute, or relative to the project folder.
 
 6. In the **When to run the post-build event** section, specify under what conditions to run the post-build event.
 
 :::moniker-end
 
-The build event syntax can include any command that is valid at a command prompt or in a *.bat* file. The name of a batch file should be preceded by `call` to ensure that all subsequent commands are executed.
+## Create the build event commands
 
-> [!NOTE]
-> If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0), which indicates a successful action.
+The build event commands can include any command that is valid at a command prompt or in a *.bat* file. The name of a batch file should be preceded by `call` to ensure that all subsequent commands are executed.
+
+You can execute [PowerShell](/powershell/scripting/overview) scripts by entering a command like `PowerShell MyPowerShellScript.ps1`. The path to the PowerShell script may be absolute, or may be relative to the project directory. You would need to make sure that the execution policy for PowerShell scripts on your operating system is set appropriately in order to run the script. See [About execution policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies).
+
+If you want to use another shell, such as bash, you would generally use the same command syntax as you would use to launch a shell script from the Windows command prompt. However, keep in mind that there are many considerations. The bitness of Visual Studio might need to be considered; how to reference filesystem paths, which might need to modified from the syntax that works on Windows to be understandable to that shell. For example, drives with colons need to changed to a mount point syntax, backslashes need to be forward slashes, and so on. Since the number and variety of third-party shells is endless, it's beyond the scope of what we can describe here. Sites like StackOverflow might be helpful.
+
+## In the project file
+
+More advanced users might want to know how setting a build events affects the MSBuild code in the project file.
+
+When you perform the previous steps, Visual Studio modifies your project file by adding the `PreBuild` or `PostBuild` target and the necessary MSBuild code to execute the steps you provided.  You can open the project file and see the steps. Modifying the steps in the project file is fine. You'll see your changes in the **Build > Events** section of the project properties after you save changes.
+
+```xml
+<Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+  <Exec Command="call prebuild.bat" />
+</Target>
+
+<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+  <Exec Command="call postbuild.bat" />
+</Target>
+```
+
+## Errors and other output
+
+The output of your build events is written to the **Build** section of the **Output Window**. To open it, choose **View** > **Other Windows**, **Output Window** or press **Ctrl**+**Alt**+**O**.
+
+If your pre-build or post-build event does not complete successfully, you can terminate the build by having your event action exit with a code other than zero (0). A zero exit code indicates a successful action; any other exit code is considered an error.
+
+If your pre-build event fails, you might see an error like this in the **Error List** window:
+
+```output
+Error	MSB3073	The command "call c:\source\repos\prebuild.bat" exited with code 1.
+```
+
+If there's not enough information in the **Error List** window, you can try using the **Output Window** to view the full build output, including any output from batch files.
+
+> [!TIP] 
+> The **Error List** window is limited to just one line of output, and so it's limited to the first line you entered for the event. If the **Error List** window output is important to you, then avoid putting more than one line in the event. Create a batch file from the Windows command prompt or in the operating system, and then just use `call mybatchfile.bat` for the event. Include the  commands in the batch file itself.
+
+For guidance on the commands you can use in batch files, see [Windows commands](/windows-server/administration/windows-commands/windows-commands).
 
 ## Macros
 
@@ -120,129 +157,37 @@ Build started...
 1>BaseIntermediateOutputPath: obj\
 1>CscToolsPath:
 1>Skipping analyzers to speed up the build. You can execute 'Build' or 'Rebuild' command to run analyzers.
-1>ConsoleApp4 -> C:\Users\ghogen\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\net6.0\ConsoleApp4.dll
+1>ConsoleApp4 -> C:\source\repos\ConsoleApp4\ConsoleApp4\bin\Debug\net6.0\ConsoleApp4.dll
 ```
+
+> [!NOTE]
+> Some scenarios require more complex build actions than the build events are capable of. For example, for many common code-generation scenarios, you need to handle clean and rebuild operations, and you might want to enable incremental build for code-generation steps, so that the step only runs if the output is out-of-date with respect to the inputs. MSBuild is designed to intelligently handle all of those scenarios. Consider creating a [custom target](../msbuild/target-build-order.md) that specifies `AfterTargets` or `BeforeTargets` to run during a specific point in the build process, and for further control in advanced scenarios, consider creating a [custom task](../msbuild/task-writing.md), or review the different ways you can [Customize your build](../msbuild/customize-your-build.md).
 
 ## Example
 
-The following procedure shows how to set the minimum operating system version in the application manifest by using an *.exe* command that is called from a post-build event (the *.exe.manifest* file in the project directory). The minimum operating system version is a four-part number such as 4.10.0.0. To set the minimum operating system version, the command will change the `<dependentOS>` section of the manifest:
+1. Create a batch file named `postbuild.bat` in the project folder, with the following contents:
 
-```xml
-<dependentOS>
-   <osVersionInfo>
-      <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
-   </osVersionInfo>
-</dependentOS>
-```
-
-### Create an .exe command to change the application manifest
-
-1. Create a new **Console App** project for the command. Name the project **ChangeOSVersionCS**.
-
-2. In *Program.cs*, add the following line to the other `using` directives at the top of the file:
-
-   ```csharp
-   using System.Xml;
+   ```batch
+   echo Copying output file %1 to %1.copy
+   copy %1 %1.copy
    ```
 
-3. In the `ChangeOSVersionCS` namespace, replace the `Program` class implementation with the following code:
+   Recall that in a batch file, `%1` refers to the first argument passed in.
 
-   ```csharp
-   class Program
-   {
-      /// <summary>
-      /// This function sets the minimum operating system version for a ClickOnce application.
-      /// </summary>
-      /// <param name="args">
-      /// Command Line Arguments:
-      /// 0 - Path to application manifest (.exe.manifest)
-      /// 1 - Version of OS
-      ///</param>
-      static void Main(string[] args)
-      {
-         string applicationManifestPath = args[0];
-         Console.WriteLine("Application Manifest Path: " + applicationManifestPath);
+1. Call the batch file in the **Post-build event** section of the project properties, and pass an argument using the MSBuild property `$(TargetPath)`.
 
-         // Get version name.
-         Version osVersion = null;
-         if (args.Length >=2 ){
-            osVersion = new Version(args[1]);
-         }else{
-            throw new ArgumentException("OS Version not specified.");
-         }
-         Console.WriteLine("Desired OS Version: " + osVersion.ToString());
+    ```cmd
+    call postbuild.bat $(TargetPath)
+    ```
 
-         XmlDocument document;
-         XmlNamespaceManager namespaceManager;
-         namespaceManager = new XmlNamespaceManager(new NameTable());
-         namespaceManager.AddNamespace("asmv1", "urn:schemas-microsoft-com:asm.v1");
-         namespaceManager.AddNamespace("asmv2", "urn:schemas-microsoft-com:asm.v2");
+1. Build your project and check the output folder. You should see the copied file next to the built assembly. In the **Output Window**, in the **Build** section, you should see the batch file output:
 
-         document = new XmlDocument();
-         document.Load(applicationManifestPath);
-
-         string baseXPath;
-         baseXPath = "/asmv1:assembly/asmv2:dependency/asmv2:dependentOS/asmv2:osVersionInfo/asmv2:os";
-
-         // Change minimum required operating system version.
-         XmlNode node;
-         node = document.SelectSingleNode(baseXPath, namespaceManager);
-         node.Attributes["majorVersion"].Value = osVersion.Major.ToString();
-         node.Attributes["minorVersion"].Value = osVersion.Minor.ToString();
-         node.Attributes["buildNumber"].Value = osVersion.Build.ToString();
-         node.Attributes["servicePackMajor"].Value = osVersion.Revision.ToString();
-
-         document.Save(applicationManifestPath);
-      }
-   }
+   ```output
+   1>Output file is C:\source\repos\ConsoleApp-BuildEvents\ConsoleApp-BuildEvents\bin\Debug\net6.0\ConsoleApp-BuildEvents.dll
+   1>        1 file(s) copied.
+   ========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+   ========== Build started at 12:00 PM and took 00.723 seconds ==========
    ```
-
-   The command takes two arguments: the path of the application manifest (that is, the folder in which the build process creates the manifest, typically *Projectname.publish*), and the new operating system version.
-
-4. Build the project.
-
-5. Copy the *.exe* file to a directory such as *C:\TEMP\ChangeOSVersionVB.exe*.
-
-Next, invoke this command in a post-build event to modify the application manifest.
-
-### Invoke a post-build event to modify the application manifest
-
-1. Create a new **Windows Forms App** project and name it **CSWinApp**.
-
-2. With the project selected in **Solution Explorer**, on the **Project** menu, choose **Properties**.
-
-3. In the **Project Designer**, locate the **Publish** page and set **Publishing location** to *C:\TEMP*.
-
-4. Publish the project by clicking **Publish Now**.
-
-   The manifest file is built and saved to *C:\TEMP\CSWinApp_1_0_0_0\CSWinApp.exe.manifest*. To view the manifest, right-click the file, click **Open with**, select **Select the program from a list**, and then click **Notepad**.
-
-   Search in the file for the `<osVersionInfo>` element. For example, the version might be:
-
-   ```xml
-   <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
-   ```
-
-5. Back in the **Project Designer**, click the **Build Events** tab.
-
-6. In the **Post-build event** section, enter the following command:
-
-   `C:\TEMP\ChangeOSVersionCS.exe "$(TargetPath).manifest" 5.1.2600.0`
-
-   When you build the project, this command changes the minimum operating system version in the application manifest to 5.1.2600.0.
-
-   Because the `$(TargetPath)` macro expresses the full path for the executable being created, `$(TargetPath).manifest` specifies the application manifest created in the *bin* directory. Publishing copies this manifest to the publishing location that you set earlier.
-
-7. Publish the project again.
-
-   The manifest version should now read:
-
-   ```xml
-   <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
-   ```
-
-> [!NOTE]
-> Some scenarios may require more intelligent build actions than the build events are capable of. For example, for many common code-generation scenarios, you need to handle clean and rebuild operations, and you might want to enable incremental build for code-generation steps, so that the step only runs if the output is out-of-date with respect to the inputs. For such scenarios, consider creating a [custom target](../msbuild/target-build-order.md) that specifies `AfterTargets` or `BeforeTargets` to run during a specific point in the build process, and for further control in advanced scenarios, consider creating a [custom task](../msbuild/task-writing.md).
 
 ## See also
 
