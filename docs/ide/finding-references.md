@@ -1,7 +1,7 @@
 ---
 title: Finding references in your code
 description: Learn about the Find All References command to find references to particular code elements in your code.
-ms.date: 02/14/2023
+ms.date: 02/15/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - code editor, find all references
