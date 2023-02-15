@@ -14,4 +14,4 @@ ms.date: 02/15/2023
 If you are logged into the [subscription management portal](https://manage.visualstudio.com/) and you don't see one of your agreements:
 1. Verify you’re signed in with the correct email address and tenant in the upper right-hand corner of the portal page header.
 2. Ask a super admin to verify that you're using the right sign-in address, you're shown as an admin, and the agreement is not expired.
-If none of these simple solutions solves the issue, contact support to verify you're an admin on the agreement.
+If none of these simple solutions solve the issue, contact support to verify you're an admin on the agreement.
