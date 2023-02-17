@@ -255,7 +255,7 @@ In Visual Studio 2022, you can configure Visual Studio to automatically apply av
    
 After you configure your settings and close your last running instance of Visual Studio, the Visual Studio update will begin if the following requirements are met:  
 
-1. You have no extensions scheduled for an install or update  
+1. You have no extensions scheduled for an install or update.  
 
 2. All your VS processes for the current installation have been closed  
 
