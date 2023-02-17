@@ -2,7 +2,7 @@
 title: Install Visual Studio
 titleSuffix: ''
 description: Learn how to install Visual Studio, step-by-step.
-ms.date: 01/23/2023
+ms.date: 02/21/2023
 ms.custom: vs-acquisition
 ms.topic: conceptual
 helpviewer_keywords:
@@ -38,7 +38,7 @@ Welcome to Visual Studio 2022! In this version, it's easy to choose and install 
 ::: moniker-end
 
 > [!NOTE]
-> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Install Visual Studio for Mac](/visualstudio/mac/installation/).
+> This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Install Visual Studio for Mac](/visualstudio/mac/installation/). Refer to our [online command line documentation](use-command-line-parameters-to-install-visual-studio.md) if you need to programmatically install Visual Studio. 
 
 ::: moniker range="vs-2019"
 
