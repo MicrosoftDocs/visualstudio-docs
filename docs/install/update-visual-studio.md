@@ -2,7 +2,7 @@
 title: Update Visual Studio
 titleSuffix: ''
 description: Learn how to update Visual Studio to the most recent release, step by step.
-ms.date: 12/1/2022
+ms.date: 02/21/2023
 ms.custom: vs-acquisition
 ms.topic: how-to
 ms.prod: visual-studio-windows
@@ -245,6 +245,15 @@ By choosing the correct value in the **Update channel** dropdown, you can contro
 When an update is available, the update notification UI in the IDE provides a way to defer the update until you voluntarily close Visual Studio. The **Update on Close** button appears in the update notification message box, and it also can be selected in the **Notification** hub. The **Update on Close** command is not a permanent setting; it applies only to the current update. In other words, the **Update on Close** deferral must be chosen each time you acknowledge or dismiss the notification that the update is available.
 
    ![Screenshot showing the Update on Close option in the update notification message box.](media/vs-2022/update-on-close.png)
+   
+### Always update on close
+
+In Visual Studio 2022, you can configure Visual Studio to automatically apply available updates on close. This setting is configurable on a per instance basis of Visual Studio. For example, you can set your Preview instance to apply updates when Visual Studio closes, but your other Visual Studio instances can continue to be updated on demand. You can configure this setting in the **Tools > Options > Product Updates > Update settings** dialog.
+
+
+   ![Screenshot showing the Update on Close option in the update notification message box.](media/vs-2022/persistentupdateonclose.PNG)
+   
+After you configure Visual Studio to always update on close, Visual Studio updates will begin once Visual Studio and all related processes are closed. If any extensions have been scheduled for install or update, the Visual Studio update will not start until the next time Visual Studio closes.```
 
 ## Remove out-of-support components
 
