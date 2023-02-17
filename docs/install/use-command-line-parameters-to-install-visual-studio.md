@@ -30,7 +30,7 @@ When you install Visual Studio programmatically or from a command prompt, you ca
 
 The command-line verbs and parameters described below are designed to be used with the following executables or programs:
   - The setup bootstrapper, which is the small (~1 MB) file (for example, vs_enterprise.exe) that initiates the download process
-  - The Visual Studio installer that may already be installed on the machine and is located in the fixed directory `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`. Note that you can't initiate the installer programmatically from same directory that the installer resides in.  
+  - The Visual Studio installer that may already be installed on the machine and is located in the fixed directory `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.  
   - With a [winget command using winget's --override switch](#use-winget-to-install-visual-studio). 
   - With an Administrator Update package, which is available to download from the [Microsoft Update Catalog](https://catalog.update.microsoft.com), to programatically update your network layout. More information how to do this can be found in the [Update or modify your layout](create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) documentation. 
 
@@ -254,7 +254,7 @@ Syntax example:
 
 ## Use winget to install Visual Studio
 
-You can use the [Windows Package Manager](/windows/package-manager/winget/) "winget" tool to programmatically install or update Visual Studio on your machines along other packages managed by winget. By default, winget just installs Visual Studio core workload. 
+You can use the [Windows Package Manager](/windows/package-manager/winget/) "winget" tool to programmatically install or update Visual Studio on your machines along other packages managed by winget. By default, winget just installs the Visual Studio core workload. 
 
   ```shell
   winget install --id Microsoft.VisualStudio.2022.Community
