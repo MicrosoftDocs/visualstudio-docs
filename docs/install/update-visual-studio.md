@@ -248,7 +248,7 @@ When an update is available, the update notification UI in the IDE provides a wa
    
 ### Persistent update on close
 
-In Visual Studio 2022, you can configure Visual Studio, to automatically apply available updates when it closes. This setting is configurable on a per instance basis of Visual Studio. You can, for example, set your Previews to check for updates when you close the Preview, but your regular production Visual Studio instance can continue to be updated on demand. You can find this option in the Tools Options Update Settings dialog.
+In Visual Studio 2022, you can configure Visual Studio to automatically apply available updates on close. This setting is configurable on a per instance basis of Visual Studio. For example, you can set your Preview instance to apply updates when Visual Studio closes, but your other Visual Studio instances can continue to be updated on demand. You can configure this setting in the **Tools > Options > Product Updates > Update settings** dialog.
 
 
    ![Screenshot showing the Update on Close option in the update notification message box.](media/vs-2022/persistentupdateonclose.PNG)
