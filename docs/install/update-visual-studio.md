@@ -253,11 +253,7 @@ In Visual Studio 2022, you can configure Visual Studio to automatically apply av
 
    ![Screenshot showing the Update on Close option in the update notification message box.](media/vs-2022/persistentupdateonclose.PNG)
    
-After you configure your settings and close your last running instance of Visual Studio, the Visual Studio update will begin if the following requirements are met:  
-
-1. You have no extensions scheduled for an install or update.  
-
-2. All your VS processes for the current installation have been closed  
+After you configure Visual Studio to always update on close, then the Visual Studio update will begin once Visual Studio and all related or dependent processes or extensions are closed.
 
 ## Remove out-of-support components
 
