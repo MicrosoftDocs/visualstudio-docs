@@ -11,13 +11,13 @@ ms.topic: reference
 
  [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
-Multi-caret editing allows you to add _n_ number of insertion points at a single time. When in multi-caret mode, you can add additional carets to your document either via mouse clicks or via keyboard commands. The primary caret is denoted by a red cursor, while the secondary carets present in a light-blue color. Multi-caret edit mode can be disabled via the `ESC` key.
+Multi-caret editing allows you to add _n_ number of insertion points at a single time. When in multi-caret mode, you can add additional carets to your document either with mouse clicks or keyboard commands. The primary caret is denoted by a red cursor, while the secondary carets present in a light-blue color. Multi-caret edit mode can be disabled via the `ESC` key.
 
 ## Enabling multi-caret editing
 
 ### Keyboard
 
-You're able to enable multi-caret mode via the keyboard in several ways. The following table provides the keyboard shortcuts available to enter specific modes of multi-caret editing:
+You're able to enable multi-caret mode via the keyboard in several ways. The following table provides the keyboard shortcuts available to enter specific modes of multi-caret editing. `⌥` is the Option/Alt key, and `⇧` is either Shift key.
 
 | Hotkey  | Action                        | 
 |---------| ------------------------------|
