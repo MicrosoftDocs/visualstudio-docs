@@ -232,6 +232,13 @@ Use the [Windows Package Manager](/windows/package-manager/winget/) "winget" too
   ```shell
   winget install --id Microsoft.VisualStudio.2022.Community --override "--passive --config c:\my.vsconfig"
   ```
+  
+* Use --config to configure the contents of a layout:
+ 
+   ```shell
+  vs_enterprise.exe --layout C:\layout --config "C:\myconfig.vsconfig" --useLatestInstaller
+  ```
+   
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

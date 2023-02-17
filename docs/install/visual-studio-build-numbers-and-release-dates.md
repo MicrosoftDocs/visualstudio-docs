@@ -26,7 +26,8 @@ The following table lists the build numbers and release dates for Visual Studio 
 
 | **Version**| **Channel** | **Release date** | **Build version** |
 | ---------------------- | ----------- | ---------------- | ----------------- |
-| 17.5.0  | Preview 4 | January 31, 2023 | 17.5.33326.253 |
+| 17.5.0  | Preview 6 | February 7, 2023 | 17.5.33402.96 |
+| 17.5.0  | Preview 5 | January 31, 2023 | 17.5.33326.253 |
 | 17.5.0  | Preview 4 | January 24, 2023 | 17.5.33318.248 |
 | 17.5.0  | Preview 3 | January 18, 2023 | 17.5.33312.197 |
 | 17.4.4  | Release | January 10, 2023 | 17.4.33213.308 |
