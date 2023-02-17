@@ -27,9 +27,14 @@ When you install Visual Studio programmatically or from a command prompt, you ca
 - Automate the installation or update process.
 - Create or maintain a network layout of the product files for installing or updating client machines.
 
-The command-line options described below can either be used with the setup bootstrapper, which is the small (~1 MB) file (for example, vs_enterprise.exe) that initiates the download process, or with the installer. All of the commands and parameters listed below are designed to work with the bootstrappers unless it's explicitly specified to be installer only. Note that client machines may only have the installer available for programmatic execution if Visual Studio was installed via a layout. 
 
-It is also possible to use the Administrator Update package, which is available to download from the [Microsoft Update Catalog](https://catalog.update.microsoft.com), to programatically update your network layout. More information how to do this can be found in the [Update or modify your layout](create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) documentation.  
+The command-line verbs and parameters described below are designed to be used with the following executables or programs:
+  - The setup bootstrapper, which is the small (~1 MB) file (for example, vs_enterprise.exe) that initiates the download process
+  - The Visual Studio installer that may already be installed on the machine and is located in the fixed directory `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`. Note that you can't initiate the installer programmatically from same directory that the installer resides in.  
+  - With a [winget command using winget's --override switch](#use-winget-to-install-visual-studio). 
+  - With an Administrator Update package, which is available to download from the [Microsoft Update Catalog](https://catalog.update.microsoft.com), to programatically update your network layout. More information how to do this can be found in the [Update or modify your layout](create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) documentation. 
+
+Not all commands or parameters work in each of these situations, and we've tried to document the exceptions below. Furthermore, not all situations will have access to each of these executables. For example, client machines may only have the installer available for programmatic execution if Visual Studio was installed via a layout.  
 
 ::: moniker range="vs-2019"
 
@@ -69,8 +74,6 @@ To get the latest bootstrappers for Visual Studio 2022 that will always install 
 >If you previously downloaded a bootstrapper file and want to verify what version it will install, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties** and then choose the **Details** tab. The **Product version** field will describe the [channel and version](/visualstudio/releases/2022/vs2022-release-rhythm) that the bootstrapper will install. The version number should always be read as "latest servicing version of what is specified", and the channel is Current unless explicitly specified. So, a bootstrapper with a Product version of LTSC 17.0 will install the latest 17.0.x servicing release that is available on the 17.0 LTSC channel. A bootstrapper with a Product version that simply says Visual Studio 2022 will install the latest version of Visual Studio 2022 on the Current channel.
 
 ::: moniker-end
-
-The Visual Studio Installer can be found here: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`. Note that you can't initiate the installer programmatically from same directory that the installer resides in.   
 
 ## Install, Update, Modify, Repair, Uninstall, and Export commands and command-line parameters
 
@@ -248,6 +251,30 @@ Syntax example:
   ```shell
   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" removeChannel --channelUri "\\\\server\\share\\layoutdirectory\\ChannelManifest.json"
   ```
+
+## Use winget to install Visual Studio
+
+You can use the [Windows Package Manager](/windows/package-manager/winget/) "winget" tool to programmatically install or update Visual Studio on your machines along other packages managed by winget. By default, winget just installs Visual Studio core workload. 
+
+  ```shell
+  winget install --id Microsoft.VisualStudio.2022.Community
+  ```
+  
+However, if you want to customize the installation and specify additional workloads and components, you can use winget's override switch alongside winget's install command, and pass in an [exported vsconfig file](/import-export-installation-configurations.md) like this:
+
+  ```shell
+  winget install --id Microsoft.VisualStudio.2022.Community --override "--passive --config c:\my.vsconfig"
+  ```
+
+You can also of course just include components directly during the initial installation, like this:
+
+ ```shell
+  winget install --id Microsoft.VisualStudio.2022.Community --override "--quiet --add Microsoft.Visualstudio.Workload.Azure"
+  ```
+
+If you already have Visual Studio installed on your machine, then it's not possible to use winget's `--override` switch alongside winget's `upgrade` command. This means that you can't use Visual Studio's `--config` or `--add` parameters to modify an existing installation and add components to it.  
+
+Remember that Visual Studio installations and updates require administrator privileges, so winget will prompt you to elevate if necessary in order to complete the command. Also, it's not currently possible to use winget to install multiple editions (i.e. different SKUs) or multiple instances of the same SKU at the same time on a client machine. 
 
 ## List of workload IDs and component IDs
 
