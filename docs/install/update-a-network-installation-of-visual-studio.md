@@ -55,7 +55,7 @@ To manually view and configure the update location that the client will look for
 
 If there is an update available in the location that the client is looking for updates, then the client will [pop a message or a notification flag](update-visual-studio.md?#use-the-message-box-in-the-ide-1).  
 
-For details on how to control when update notifications are presented to users, see [Control updates to network-based Visual Studio deployments](set-defaults-for-enterprise-deployments.md#controlling-notifications-in-the-visual-studio-ide).
+For details on how to control when update notifications are presented to users, see [Control updates to network-based Visual Studio deployments](configure-policies-for-enterprise-deployments.md#controlling-notifications-in-the-visual-studio-ide).
 
 ### Manually initiate the update
 

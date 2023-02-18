@@ -12,7 +12,7 @@ ms.author: tglee
 manager: jmartens
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
-ms.topic: conceptual
+ms.topic: whats-new
 ms.workload:
   - "multiple"
 ---

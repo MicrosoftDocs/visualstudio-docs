@@ -43,7 +43,7 @@ The section covers some common debugging problems and techniques for native appl
  [MFC Debugging Techniques](../debugger/mfc-debugging-techniques.md)
  Links you to debugging techniques for MFC programs, including: afxDebugBreak, the TRACE macro, detecting memory leaks in MFC, MFC assertions, and reducing the size of MFC Debug builds.
 
- [CRT Debugging Techniques](/cpp/c-runtime-library/crt-debugging-techniques.md)
+ [CRT Debugging Techniques](/cpp/c-runtime-library/crt-debugging-techniques)
  Links you to debugging techniques for the C Run-Time Library, including using the CRT Debug Library, macros for reporting, differences between malloc and _malloc_dbg, writing debug hook functions, and the CRT debug heap.
 
  [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md)
