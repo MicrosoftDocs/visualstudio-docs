@@ -30,11 +30,11 @@ When you install Visual Studio programmatically or from a command prompt, you ca
 
 The command-line verbs and parameters described below are designed to be used with the following executables or programs:
   - The setup bootstrapper, which is the small (~1 MB) file (for example, vs_enterprise.exe) that initiates the download process.
-  - The Visual Studio installer that may already be installed on the machine and is located in the fixed directory `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.  
+  - The Visual Studio installer that may already be installed on the machine and is located in the folder `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.  
   - With a [winget command using winget's --override switch](#use-winget-to-install-visual-studio). 
-  - With an Administrator Update package, which is available to download from the [Microsoft Update Catalog](https://catalog.update.microsoft.com), to programatically update your network layout. More information how to do this can be found in the [Update or modify your layout](create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) documentation. 
+  - With an Administrator Update package, which is available to download from the [Microsoft Update Catalog](https://catalog.update.microsoft.com), to programatically update your network layout. More information describing how to do this can be found in the [Update or modify your layout](create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) article. 
 
-Not all commands or parameters work in each of these situations, and we've tried to document the exceptions below. Furthermore, not all situations will have access to each of these executables. For example, client machines may only have the installer available for programmatic execution if Visual Studio was installed via a layout.  
+Not all commands or parameters work in each of these situations, and we've tried to document the exceptions below. Furthermore, in some scenarios you may not have access to all of these executables. For example, client machines may only have the installer available for programmatic execution if Visual Studio was installed via a layout.  
 
 ::: moniker range="vs-2019"
 
@@ -266,7 +266,7 @@ However, if you want to customize the installation and specify additional worklo
   winget install --id Microsoft.VisualStudio.2022.Community --override "--passive --config c:\my.vsconfig"
   ```
 
-You can also of course just include components directly during the initial installation, like this:
+Of course, you can also just include components directly during the initial installation, like this:
 
  ```shell
   winget install --id Microsoft.VisualStudio.2022.Community --override "--quiet --add Microsoft.Visualstudio.Workload.Azure"
@@ -274,7 +274,7 @@ You can also of course just include components directly during the initial insta
 
 If you already have Visual Studio installed on your machine, then it's not possible to use winget's `--override` switch alongside winget's `upgrade` command. This means that you can't use Visual Studio's `--config` or `--add` parameters to modify an existing installation and add components to it.  
 
-Remember that Visual Studio installations and updates require administrator privileges, so winget will prompt you to elevate if necessary in order to complete the command. Also, it's not currently possible to use winget to install multiple editions (i.e. different SKUs) or multiple instances of the same SKU at the same time on a client machine. 
+Remember that Visual Studio installations and updates require administrator privileges, so winget will prompt you to elevate your privileges if necessary to complete the command. Also, it's not currently possible to use winget to install multiple editions (that is, different SKUs) or multiple instances of the same SKU at the same time on a client machine. 
 
 ## List of workload IDs and component IDs
 
