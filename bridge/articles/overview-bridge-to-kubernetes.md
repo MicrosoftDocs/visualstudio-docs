@@ -40,7 +40,7 @@ In VS Code, Bridge to Kubernetes supports all languages as long as you can run t
 > [!CAUTION]
 > Bridge to Kubernetes is intended for use in development and testing scenarios only. It is not intended or supported for use with production clusters or live services in active use.
 
-For current features and future plans, see the [Bridge to Kubernetes roadmap]([https://github.com/microsoft/mindaro/projects/1](https://github.com/orgs/Azure/projects/284)).
+For current features and future plans, see the [Bridge to Kubernetes roadmap](https://github.com/orgs/Azure/projects/284).
 
 ## Establishing a connection
 
