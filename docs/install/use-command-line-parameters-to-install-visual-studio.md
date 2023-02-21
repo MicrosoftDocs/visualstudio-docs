@@ -2,7 +2,7 @@
 title: Use command-line parameters to install Visual Studio
 titleSuffix: ''
 description: Learn how to use command-line parameters to control or customize your Visual Studio installation.
-ms.date: 12/1/2022
+ms.date: 2/21/2023
 ms.topic: conceptual
 f1_keywords:
 - command-line parameters
@@ -27,9 +27,14 @@ When you install Visual Studio programmatically or from a command prompt, you ca
 - Automate the installation or update process.
 - Create or maintain a network layout of the product files for installing or updating client machines.
 
-The command-line options described below can either be used with the setup bootstrapper, which is the small (~1 MB) file (for example, vs_enterprise.exe) that initiates the download process, or with the installer. All of the commands and parameters listed below are designed to work with the bootstrappers unless it's explicitly specified to be installer only. Note that client machines may only have the installer available for programmatic execution if Visual Studio was installed via a layout. 
 
-It is also possible to use the Administrator Update package, which is available to download from the [Microsoft Update Catalog](https://catalog.update.microsoft.com), to programatically update your network layout. More information how to do this can be found in the [Update or modify your layout](create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) documentation.  
+The command-line verbs and parameters described below are designed to be used with the following executables or programs:
+  - The setup bootstrapper, which is the small (~1 MB) file (for example, vs_enterprise.exe) that initiates the download process.
+  - The Visual Studio installer that may already be installed on the machine and is located in the folder `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.  
+  - With a [winget command using winget's --override switch](#use-winget-to-install-visual-studio). 
+  - With an Administrator Update package, which is available to download from the [Microsoft Update Catalog](https://catalog.update.microsoft.com), to programatically update your network layout. More information describing how to do this can be found in the [Update or modify your layout](create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) article. 
+
+Not all commands or parameters work in each of these situations, and we've tried to document the exceptions below. Furthermore, in some scenarios you may not have access to all of these executables. For example, client machines may only have the installer available for programmatic execution if Visual Studio was installed via a layout.  
 
 ::: moniker range="vs-2019"
 
@@ -70,8 +75,6 @@ To get the latest bootstrappers for Visual Studio 2022 that will always install 
 
 ::: moniker-end
 
-The Visual Studio Installer can be found here: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`. Note that you can't initiate the installer programmatically from same directory that the installer resides in.   
-
 ## Install, Update, Modify, Repair, Uninstall, and Export commands and command-line parameters
 
 When invoking the Visual Studio bootstrapper or the installer programmatically to install the product or to maintain a layout, the first parameter is the command (the verb) that describes the operation to perform. The subsequent optional command line parameters, which are all prefixed by two dashes (--), further define how that operation is supposed to happen. All Visual Studio command-line parameters are case-insensitive, and additional examples can be found on the [Command-line parameter examples](command-line-parameter-examples.md) page.
@@ -86,7 +89,7 @@ Syntax example: `vs_enterprise.exe [command] <optional parameters>...`
 | `updateall` | Updates all of the installed products in sequential order. Works with `--quiet` and `--passive` parameters.             |
 | `repair`    | Repairs an installed product.                                                                                           |
 | `uninstall` | Uninstalls an installed product.                                                                                        |
-| `export`    | Exports installation selection to an installation configuration file. **Note**: Can only be used with vs_installer.exe or setup.exe. |
+| `export`    | Exports installation selection to an installation configuration file.                                                   |
 
 > [!IMPORTANT]
 > When specifying multiple distinct workloads or components or languages, you must repeat the `--add` or `--remove` command-line switch for each item.
@@ -129,6 +132,7 @@ All layout management operations are run using the bootstrapper exe and they ass
 | `--includeOptional`                             | **Optional**: Includes the recommended *and* optional components for any workloads being included in the layout. The workloads are specified with `--add`.                        |
 | `--wait`                       | **Optional**: The process will wait until the install is completed before returning an exit code. This is useful when automating installations where one needs to wait for the install to finish to handle the return code from that install.      |
 | `--useLatestInstaller`         | **Optional**: If present, the latest version of the Visual Studio Installer will be included in your layout, even if it belongs to a newer version of the product. This can be useful if you want to take advantage of new features or bug fixes that are available in the latest installer. For more information, refer to [Configure the layout to always use the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) documentation. |
+| `--config <*.vsconfig>`      | **Optional**: If present, Visual Studio will use the [contents of the configuration file](import-export-installation-configurations.md) to configure your layout. |
 | `--noWeb`                      | **Optional**: If present, Visual Studio setup uses the files in your layout directory to install Visual Studio. If a user tries to install components that aren't in the layout, setup fails.  For more information, see [Deploying from a network installation](create-a-network-installation-of-visual-studio.md). <br/><br/> **Important**: This switch doesn't stop Visual Studio setup from checking for updates. For more information, see [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md). |
 | `--verify`                                      | **Optional**: Verify the contents of a layout. Any corrupt or missing files are listed.            |
 | `--fix`                                         | **Optional**: Verify the contents of a layout. If any files are corrupt or missing, they're redownloaded. Internet access is required to fix a layout.           |
@@ -179,7 +183,7 @@ Syntax examples:
   ``` 
 
 ## Rollback command and command-line parameters
-You can rollback the update programmatically by using the installer on the client machine, and passing in the rollback command alongside the installation path instance.  
+You can roll back the update programmatically by using the installer on the client machine, and passing in the rollback command alongside the installation path instance.  
 
 | **Command** | **Description**                                                                                                         |
 |-------------|-------------------------------------------------------------------------------------------------------------------------|
@@ -229,7 +233,7 @@ visualstudioupdate-16.9.0to16.9.4.exe --installerUpdateArgs=--force,--noWeb,--ke
 ```
 
 ## Remove channel command and command-line parameters
-Update channels are cached on the client, and over time they can clutter things up. You can manually remove channels by bringing up the Visual Studio installer, switching to the Available tab, and clicking on the X in the top right corner of the product card. You can programmatically remove channels, like to older layout locations, using the removeChannel command. Note that this command only works using the installer, not the bootstrapper.
+Channels that are available to update from, are cached on the client, and over time they can clutter things up. You can manually remove [update channels](update-visual-studio.md#configure-source-location-of-updates-1) by bringing up the Visual Studio Installer, switching to the **Available** tab, and clicking on the **X** in the top right corner of the product card. You can programmatically remove channels (for example, older layout locations) using the `removeChannel` command. You can run [vswhere](tools-for-managing-visual-studio-instances.md#using-vswhereexe) programmatically on the client machine to determine which channels are cached on the client machine. 
 
 
 | **Command** | **Description**                                                                                                         |
@@ -247,6 +251,30 @@ Syntax example:
   ```shell
   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" removeChannel --channelUri "\\\\server\\share\\layoutdirectory\\ChannelManifest.json"
   ```
+
+## Use winget to install Visual Studio
+
+You can use the [Windows Package Manager](/windows/package-manager/winget/) "winget" tool to programmatically install or update Visual Studio on your machines along other packages managed by winget. By default, winget just installs the Visual Studio core workload. 
+
+  ```shell
+  winget install --id Microsoft.VisualStudio.2022.Community
+  ```
+  
+However, if you want to customize the installation and specify additional workloads and components, you can use winget's `--override` switch alongside winget's `install` command, and pass in an [exported vsconfig file](/import-export-installation-configurations.md) like this:
+
+  ```shell
+  winget install --id Microsoft.VisualStudio.2022.Community --override "--passive --config c:\my.vsconfig"
+  ```
+
+Of course, you can also just include components directly during the initial installation, like this:
+
+ ```shell
+  winget install --id Microsoft.VisualStudio.2022.Community --override "--quiet --add Microsoft.Visualstudio.Workload.Azure"
+  ```
+
+If you already have Visual Studio installed on your machine, then it's not possible to use winget's `--override` switch alongside winget's `upgrade` command. This means that you can't use Visual Studio's `--config` or `--add` parameters to modify an existing installation and add components to it.  
+
+Remember that Visual Studio installations and updates require administrator privileges, so winget will prompt you to elevate your privileges if necessary to complete the command. Also, it's not currently possible to use winget to install multiple editions (that is, different SKUs) or multiple instances of the same SKU at the same time on a client machine. 
 
 ## List of workload IDs and component IDs
 
