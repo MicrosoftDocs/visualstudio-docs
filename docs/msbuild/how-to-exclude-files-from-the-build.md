@@ -31,7 +31,7 @@ In a project file you can use wildcards to include all the files in one director
 <JPGFile Include="Images\**\*.jpg"/>
 ```
 
- If you have used wildcards to include all the files in one directory or a nested set of directories as inputs for a build, there might be one or more files in the directory or one directory in the a nested set of directories that you do not want to include. To exclude an item from the item list, use the `Exclude` attribute.
+ If you have used wildcards to include all the files in one directory or a nested set of directories as inputs for a build, there might be one or more files in the directory or one directory in the nested set of directories that you do not want to include. To exclude an item from the item list, use the `Exclude` attribute.
 
 #### To include all *.cs* or *.vb* files except *Form2*
 
