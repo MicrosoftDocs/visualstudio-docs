@@ -34,7 +34,7 @@ The [Visual Studio Administrative Templates (ADMX)](https://aka.ms/vs/admx/detai
  There are four main categories of Visual Studio policies that are included in the Visual Studio Administrative Templates (ADMX):
  
   - **Feedback** - controls behavior of the send-a-smile feature.
-  - [**Install and Update**](./set-defaults-for-enterprise-deployments.md) - controls product acquisition behavior.
+  - [**Install and Update**](./configure-policies-for-enterprise-deployments.md) - controls product acquisition behavior.
   - [**Live Share**](https://aka.ms/vsls-policies) - controls user and hosts settings.
   - **Privacy** - controls [Intellicode](/visualstudio/intellicode/intellicode-privacy) and [Customer Experience Improvement Program](https://aka.ms/vs/admx/telemetry) settings.
  

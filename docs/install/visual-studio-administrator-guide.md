@@ -61,7 +61,7 @@ You will need to make a plan for how you deploy Visual Studio across your organi
 
    - How are you licensing and [distributing entitlement subscriptions within your organization](/visualstudio/subscriptions/admin-responsibilities)? Does the installation require [product keys](/visualstudio/subscriptions/product-keys)?
 
-   - What [group policy settings](/visualstudio/install/set-defaults-for-enterprise-deployments) need to be configured on your client machines? Can you use the [Administrative Templates (ADMX)](./administrative-templates.md) to configure policies across your organization? 
+   - What [group policy settings](/visualstudio/install/configure-policies-for-enterprise-deployments) need to be configured on your client machines? Can you use the [Administrative Templates (ADMX)](./administrative-templates.md) to configure policies across your organization? 
 
    - Which [workloads and components](workload-and-component-ids.md) does your company need?  
    
@@ -88,7 +88,7 @@ The following resources will help you do the initial install of Visual Studio in
 
 - **[Install required certificates for offline installation](/visualstudio/install/install-certificates-for-visual-studio-offline)**. Install necessary certificates if the client machine is completely disconnected from the internet.
 
-- **[Configure the policies that govern machine wide Visual Studio behavior](/visualstudio/install/set-defaults-for-enterprise-deployments)**. Configure and deploy policies, such as opting in to Administrator Updates and removing out-of-support components, across your organization. The [Visual Studio Administrative Templates (ADMX)](./administrative-templates.md) lists out all the Visual Studio policies that are available for administrators to configure.
+- **[Configure the policies that govern machine wide Visual Studio behavior](/visualstudio/install/configure-policies-for-enterprise-deployments)**. Configure and deploy policies, such as opting in to Administrator Updates and removing out-of-support components, across your organization. The [Visual Studio Administrative Templates (ADMX)](./administrative-templates.md) lists out all the Visual Studio policies that are available for administrators to configure.
 
 - **[Automatically apply product or subscription keys when deploying Visual Studio](automatically-apply-product-keys-when-deploying-visual-studio.md)**. You can programmatically apply a subscription or product key as part of a script that is used to automate the deployment of Visual Studio so that users don't need to activate the software separately. You can set this key either during an installation of Visual Studio or after an installation completes. 
 
@@ -114,7 +114,7 @@ The following resources will help you keep your Visual Studio updated, current, 
 
 ## Configure Visual Studio
 
-- **Configure policies that affect the behavior of Visual Studio** Use the [Visual Studio Administrative Templates (ADMX)](./administrative-templates.md) to easily configure Visual Studio policies on client machines across your organization. This includes [configuring policies that govern acquisition behavior](./set-defaults-for-enterprise-deployments.md) such as where some packages shared with other versions or instances are installed, where and whether packages are cached, if administrator updates should be enabled or how they should be applied, which update channels are available and how they're presented to the client, if unsupported components should be removed during an update, and how notifications appear or don't appear. This also includes configuring policies that govern customer feedback, [telemetry](https://aka.ms/vs/admx/telemetry), and [Live Share](https://aka.ms/vsls-policies) behavior.
+- **Configure policies that affect the behavior of Visual Studio** Use the [Visual Studio Administrative Templates (ADMX)](./administrative-templates.md) to easily configure Visual Studio policies on client machines across your organization. This includes [configuring policies that govern acquisition behavior](./configure-policies-for-enterprise-deployments.md) such as where some packages shared with other versions or instances are installed, where and whether packages are cached, if administrator updates should be enabled or how they should be applied, which update channels are available and how they're presented to the client, if unsupported components should be removed during an update, and how notifications appear or don't appear. This also includes configuring policies that govern customer feedback, [telemetry](https://aka.ms/vs/admx/telemetry), and [Live Share](https://aka.ms/vsls-policies) behavior.
 
 - **[Create custom bootstrapper packages](../deployment/creating-bootstrapper-packages.md)**. Learn advanced techniques for how to create custom bootstrapper packages to further control your installation configuration by creating product and package manifests. 
 
@@ -135,7 +135,7 @@ The following resources will help you keep your Visual Studio updated, current, 
 * [Enabling administrator updates](enabling-administrator-updates.md)
 * [Applying administrator updates](applying-administrator-updates.md)
 * [Use command-line parameters to install, update, and manage Visual Studio](/visualstudio/install/use-command-line-parameters-to-install-visual-studio)
-* [Configure policies for enterprise deployments of Visual Studio](/visualstudio/install/set-defaults-for-enterprise-deployments)
+* [Configure policies for enterprise deployments of Visual Studio](/visualstudio/install/configure-policies-for-enterprise-deployments)
 * [Visual Studio Administrative Templates](./administrative-templates.md)
 * [Install certificates required for Visual Studio offline installation](install-certificates-for-visual-studio-offline.md)
 * [Visual Studio product lifecycle and servicing](/visualstudio/productinfo/vs-servicing)
