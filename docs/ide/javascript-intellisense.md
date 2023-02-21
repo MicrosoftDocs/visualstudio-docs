@@ -1,8 +1,7 @@
 ---
 title: JavaScript IntelliSense
 description: Learn how Visual Studio delivers richer IntelliSense, support for modern JavaScript features, and improved productivity features.
-ms.custom: SEO-VS-2020
-ms.date: 02/25/2022
+ms.date: 02/21/2023
 ms.topic: conceptual
 ms.technology: vs-javascript
 helpviewer_keywords:
@@ -34,14 +33,9 @@ ms.workload:
 
 Visual Studio provides a powerful JavaScript editing experience right out of the box. Powered by a TypeScript based language service, Visual Studio delivers richer IntelliSense, support for modern JavaScript features, and improved productivity features such as Go to Definition, refactoring, and more.
 
-> [!NOTE]
-> Starting in Visual Studio 2017, the JavaScript language service uses a new engine for the language service (called "Salsa"). Details are included in this article, and you can also read this [blog post](https://devblogs.microsoft.com/visualstudio/previewing-salsa-javascript-language-service-visual-studio-15/). The new editing experience also mostly applies to Visual Studio Code. See the [VS Code docs](https://code.visualstudio.com/docs/languages/javascript) for more info.
-
 For more information about the general IntelliSense functionality of Visual Studio, see [Using IntelliSense](../ide/using-intellisense.md).
 
-## What's new in the JavaScript language service in Visual Studio 2017
-
-Starting in Visual Studio 2017, JavaScript IntelliSense displays a lot more information on parameter and member lists. This new information is provided by the TypeScript language service, which uses static analysis behind the scenes to better understand your code.
+JavaScript IntelliSense displays information on parameter and member lists. This information is provided by the TypeScript language service, which uses static analysis behind the scenes to better understand your code.
 
 TypeScript uses several sources to build up this information:
 
@@ -119,7 +113,7 @@ See [JSDoc support in JavaScript](https://github.com/Microsoft/TypeScript/wiki/J
 <a name="TsDeclFiles"></a>
 ### IntelliSense based on TypeScript declaration files
 
-Because JavaScript and TypeScript are now based on the same language service, they are able to interact in a richer way. For example, JavaScript IntelliSense can be provided for values declared in a *.d.ts* file (see [TypeScript documentation](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html)), and types such as interfaces and classes declared in TypeScript are available for use as types in JsDoc comments.
+Because JavaScript and TypeScript are based on the same language service, they are able to interact in a rich way. For example, JavaScript IntelliSense can be provided for values declared in a *.d.ts* file (see [TypeScript documentation](https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html)), and types such as interfaces and classes declared in TypeScript are available for use as types in JsDoc comments.
 
 Below, we show a simple example of a TypeScript definition file providing such type information (via an interface) to a JavaScript file in the same project (using a `JsDoc` tag).
 
@@ -130,12 +124,12 @@ Below, we show a simple example of a TypeScript definition file providing such t
 
 In the TypeScript world, most popular JavaScript libraries have their APIs described by *.d.ts* files, and the most common repository for such definitions is on [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped).
 
-By default, the Salsa language service will try to detect which JavaScript libraries are in use and automatically download and reference the corresponding *.d.ts* file that describes the library in order to provide richer IntelliSense. The files are downloaded to a cache located under the user folder at *%LOCALAPPDATA%\Microsoft\TypeScript*.
+By default, the language service tries to detect which JavaScript libraries are in use, and then automatically download and reference the corresponding *.d.ts* file that describes the library in order to provide richer IntelliSense. The files are downloaded to a cache located under the user folder at *%LOCALAPPDATA%\Microsoft\TypeScript*.
 
 > [!NOTE]
 > This feature is **disabled** by default if using a *tsconfig.json* configuration file, but may be set to enabled as outlined further below.
 
-Currently auto-detection works for dependencies downloaded from npm (by reading the *package.json* file), Bower (by reading the *bower.json* file), and for loose files in your project that match a list of roughly the top 400 most popular JavaScript libraries. For example, if you have *jquery-1.10.min.js* in your project, the file *jquery.d.ts* will be fetched and loaded in order to provide a better editing experience. This *.d.ts* file will have no impact on your project.
+Currently, auto-detection works for dependencies downloaded from npm (by reading the *package.json* file), Bower (by reading the *bower.json* file), and for loose files in your project that match a list of roughly the top 400 most popular JavaScript libraries. For example, if you have *jquery-1.10.min.js* in your project, the file *jquery.d.ts* will be fetched and loaded in order to provide a better editing experience. This *.d.ts* file will have no impact on your project.
 
 ## See also
 
