@@ -1,7 +1,7 @@
 ---
 title: Command-line parameter examples for installation
 description: Customize these examples to create your own command-line installation of Visual Studio.
-ms.date: 11/3/2022
+ms.date: 2/21/2023
 ms.topic: conceptual
 ms.assetid: 837F31AA-F121-46e9-9996-F8BCE768E579
 author: anandmeg
@@ -55,7 +55,7 @@ For lists of the workloads and components that you can install by using the comm
    ```
 
   > [!NOTE]
-  > Both commands are advised. The first command updates the Visual Studio Installer. The second command updates the Visual Studio instance. To avoid a User Account Control dialog, run the command prompt as an Administrator.
+  > The first command updates the Visual Studio installer and the second command updates the Visual Studio product bits. It is recommended to run and complete both commands in order. To avoid a User Account Control dialog, run the command prompt as an Administrator.
 
 ## Using --wait
 
@@ -175,31 +175,31 @@ If you choose to use a custom layout as the update channel, then be aware of the
 
 ## Using --path
 
-* Using the install, cache, and shared paths:
+* Use the install, cache, and shared paths:
 
   `vs_enterprise.exe --add Microsoft.VisualStudio.Workload.CoreEditor --path install="C:\VS" --path cache="C:\VS\cache" --path shared="C:\VS\shared"`
 
-* Using only the install and cache paths:
+* Use only the install and cache paths:
 
   `vs_enterprise.exe --add Microsoft.VisualStudio.Workload.CoreEditor --path install="C:\VS" --path cache="C:\VS\cache"`
 
-* Using only the install and shared paths:
+* Use only the install and shared paths:
 
   `vs_enterprise.exe --add Microsoft.VisualStudio.Workload.CoreEditor --path install="C:\VS" --path shared="C:\VS\shared"`
 
-* Using only the install path:
+* Use only the install path:
 
   `vs_enterprise.exe --add Microsoft.VisualStudio.Workload.CoreEditor --path install="C:\VS"`
 
 ## Using export
 
-* Using export to save the selection from an installation:
+* Use export to save the selection from an installation:
 
   ```shell
   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" export --installPath "C:\VS" --config "C:\.vsconfig"
   ```
 
-* Using export to save custom selection from scratch:
+* Use export to save custom selection from scratch:
 
   ```shell
   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" export --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --config "C:\.vsconfig"
@@ -207,17 +207,38 @@ If you choose to use a custom layout as the update channel, then be aware of the
 
 ## Using --config
 
-* Using --config to install the workloads and components from a previously saved installation configuration file:
+* Use --config to install the workloads and components from a previously saved installation configuration file:
 
   ```shell
-  vs_enterprise.exe --config "C:\.vsconfig" --installPath "C:\VS"
+  vs_enterprise.exe --config "C:\my.vsconfig" --installPath "C:\VS"
   ```
 
-* Using --config to add workloads and components to an existing installation:
+* Use --config to add workloads and components to an existing installation:
 
   ```shell
-  vs_enterprise.exe modify --installPath "C:\VS" --config "C:\.vsconfig"
+  vs_enterprise.exe modify --installPath "C:\VS" --config "C:\my.vsconfig"
   ```
+  
+* Use --config to configure the contents of a layout:
+ 
+   ```shell
+  vs_enterprise.exe --layout C:\layout --config "C:\my.vsconfig" --useLatestInstaller
+  ```
+
+## Using winget
+
+Use the [Windows Package Manager](/windows/package-manager/winget/) "winget" tool to programmatically install or update Visual Studio on your machines along with other packages managed by winget. To customize the installation and specify additional workloads and components, you can use winget's `--override` switch alongside winget's `install` command, and pass in an [exported vsconfig file](/import-export-installation-configurations.md) like this:
+
+  ```shell
+  winget install --id Microsoft.VisualStudio.2022.Community --override "--passive --config c:\my.vsconfig"
+  ```
+  
+* Use --config to configure the contents of a layout:
+ 
+   ```shell
+  vs_enterprise.exe --layout C:\layout --config "C:\myconfig.vsconfig" --useLatestInstaller
+  ```
+   
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
