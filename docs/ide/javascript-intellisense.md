@@ -104,7 +104,7 @@ function Foo(param1) {
 }
 ```
 
-See [JSDoc support in JavaScript](https://github.com/Microsoft/TypeScript/wiki/JsDoc-support-in-JavaScript) for the JsDoc annotations currently supported.
+See the JsDoc information in [Type Checking JavaScript Files](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html#supported-jsdoc) for the JsDoc annotations currently supported.
 
 ## IntelliSense based on TypeScript declaration files
 
