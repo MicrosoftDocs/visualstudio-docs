@@ -1,7 +1,7 @@
 ---
 title: Create a network-based installation
 description: Learn how to create a network install point for deploying Visual Studio within an enterprise.
-ms.date: 1/20/2023
+ms.date: 2/21/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -26,7 +26,7 @@ There is a lot of information on this webpage, and it's grouped up into the foll
 - [**Before you get started**](#before-you-get-started): highlights tips and other important considerations you should think about when you plan.
 - [**Acquire the correct bootstrapper**](#download-the-visual-studio-bootstrapper-to-create-the-network-layout): guidance on where to find and how to distinguish the various bootstrappers that are available for you to use.
 - [**Create the network layout**](#create-the-network-layout): describes how to create the layout with the correct product content, channel settings, and version of the installer and how to copy it to a network share. 
-- [**Update, modify, and maintain the network layout**](#update-or-modify-your-layout): information on how to best maintain your layout, including how to update the layout's product version, product content, channel settings, installer version, and folder size. 
+- [**Update, modify, and maintain the network layout**](#maintaining-your-layout): information on how to best maintain your layout, including how to update the layout's product version, product content, channel settings, installer version, and folder size. 
 - [**Install the layout onto client machines**](#install-visual-studio-onto-a-client-machine-from-a-network-installation): describes how to configure client default settings such as what workloads and components to install by default and where the client should look for updates from. Also includes how to do the _initial installation_ of the Visual Studio layout onto the client machines. Guidance and information regarding _updating_ client machines that were originally installed from a layout is covered in the separate [update a network based installation of Visual Studio](update-a-network-installation-of-visual-studio.md) page.
 - [**Help and Support**](#get-support-for-your-network-layout): where to ask for help
 
@@ -153,12 +153,14 @@ Here are a few examples of how to create a custom partial layout.
     ```shell
     vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Component.Git --lang en-US de-DE ja-JP
     ```
+    
+### Use a .vsconfig file to customize the contents of your layout
 
-* To create a layout with two workloads and all of their recommended and optional components, run:
+You can also use an [exported vsconfig file](import-export-installation-configurations.md) to customize the contents of a network layout. This functionality is relatively new, so you need to use the latest installer in your layout.
 
-    ```shell
-    vs_enterprise.exe --layout C:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --includeOptional
-    ```
+```shell
+vs_enterprise.exe --layout C:\VSLayout --config "C:\myconfig.vsconfig" --useLatestInstaller
+```
 
 ### Ensure your layout is using the latest installer
 
@@ -168,6 +170,7 @@ We recommend that you always use the latest Visual Studio installer in your layo
  > This capability to use the latest installer is only available to Visual Studio 2019 bootstrappers that were built after Visual Studio 2022 originally shipped. So, the vs_enterprise.exe in the example below must be a version that shipped _after_ November 10, 2021. 
 
 * To create a layout of the entire product that uses the latest and greatest installer available, run
+
     ```shell
     vs_enterprise.exe --layout C:\VSLayout --useLatestInstaller
     ```
@@ -183,17 +186,17 @@ xcopy /e c:\VSLayout \\server\share\layoutdirectory
 > [!IMPORTANT]
 > To prevent an error, make sure that your full layout path on the network share is fewer than 80 characters. Or, some organizations have successfully used [symbolic links](/windows/win32/fileio/symbolic-links) to work around the 80-character limitation.
 
-## Update or modify your layout
+## Maintaining your layout
 
-It is possible to update a network layout of Visual Studio with the latest product updates so that it can be used both as an installation point and an update source for client workstations to receive the latest version of Visual Studio. It is a best practice to periodically update your layout, particularly if you intend for your clients to receive updates from the layout. This section describes the most common or useful layout maintenance operations.
+It is a best practice to periodically update your Visual Studio layout to the latest secure version of the product. This will ensure that the layout can be used both as an installation point as well as an update source for client installations. This section describes the most common or useful layout maintenance operations.
 
-If you host a layout on a file share, you may want to update a private copy of the layout (for example, c:\VSLayout) and then, after all of the updated content is downloaded, copy it to your file share (for example, \\\server\products\VS). If you don't do this, there is a greater chance that any users who happen to run Setup while you are updating the layout might get a mismatch of content from the layout because it was not yet completely updated.
+If you host a layout on a file share, you may want to update a private copy of the layout (for example, c:\VSLayout) and then, after all of the updated content is downloaded, copy it to your file share (for example, \\\server\products\VS). If you don't do this, there is a possibility that any users who happen to run Setup while you are updating the layout might get a mismatch of content from the layout because it was not yet completely updated.
 
 ### Update the layout to the most current version of the product
 
-Microsoft frequently releases updated versions of the product to fix functionality or security issues. We recommend that you keep your layout updated with the latest version of the product, so that new client installs always receive the latest goodness. It's also very important to keep your layout updated if your clients are configured to receive updates from the layout. 
+Microsoft frequently releases updated versions of the product to fix functionality or security issues. We strongly recommend that you keep your layout updated with the latest version of the product so that your clients always have access to the latest most secure version of the product. This is extremely important if your clients don't have internet access and can *only* receive product updates from the layout.  
 
-When you create the initial layout, the specified options, such as which workloads and languages to include in the layout, are saved in the layout's configuration file. Later, when you want to update that layout to a newer version of the product, you don't have to re-specify the options that you used during initial layout creation. The layout update commands automatically use the saved layout settings. 
+When you create the initial layout, the specified options, such as which workloads and languages to include in the layout, are saved in the layout's configuration file. Later, when you update that layout to a newer version of the product, you don't have to re-specify which components of the product you want in the layout. A layout update simply updates the existing components to their most current version.  
 
 Suppose you already created this partial layout using [one of the evergreen bootstrappers in the table above](#download-the-visual-studio-bootstrapper-to-create-the-network-layout).
 
@@ -201,13 +204,13 @@ Suppose you already created this partial layout using [one of the evergreen boot
 vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --lang en-US
 ```
 
-Updating this layout to the latest version of the product offered by Microsoft and hosted on Microsoft servers is easy. You just need to use the same evergreen bootstrapper, and run the `--layout` command again to download the latest packages into your layout.
+Updating this layout to the latest version of the product offered by Microsoft and hosted on Microsoft servers is easy. You just need to use the existing evergreen bootstrapper in the layout, and simply run the `--layout` command to download the latest packages into your layout, as follows:
 
 ```shell
 vs_enterprise.exe --layout c:\VSLayout
 ```
 
-You can also update your layout to a newer version in an unattended manner. The layout operation runs the setup process in a new console window. The window is left open so users can see the final result and a summary of any errors that might have occurred. If you are performing a layout operation in an unattended manner (for example, you have a script that is regularly run to update your layout to the latest version), then use the `--passive` parameter and the process will automatically close the window.
+You can also update your layout to a newer version in an unattended manner. The layout operation runs the setup process in a new console window. The window is left open so that admins can see the final layout update result and a summary of any errors that might have occurred. If you'd like to perform a layout update operation in an unattended manner (for example, you have a script that is regularly run to update your layout to the latest version), then use the `--passive` parameter and the process will automatically close the window.
 
 ```shell
 vs_enterprise.exe --layout c:\VSLayout --passive
@@ -221,7 +224,7 @@ Sometimes you may want to update your layout to a _particular version of the pro
 
 You can go to the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page and download a particular fixed version bootstrapper, copy it into your layout, and use it to update the layout to that exact version specified in the bootstrapper. You would use the exact same syntax as above.
 
-You can use an **[administrator update](applying-administrator-updates.md)** to update your layout to a specific version. To get the **administrator update**, go to the [Microsoft Update Catalog](https://catalog.update.microsoft.com) and search for your update.  Download the _update.exe_ to the computer that's hosting the layout, open up a command prompt, and run a command as follows:
+You can use an **[administrator update](applying-administrator-updates.md)** to update your layout to a specific version. To get the **administrator update**, go to the [Microsoft Update Catalog](https://catalog.update.microsoft.com) and search for the update version that you want.  Download the _update.exe_ to the computer that's hosting the layout, open up a command prompt, and run a command as follows:
 
 ```shell
 visualstudioupdate-16.0.0to16.11.23.exe layout --layoutPath c:\VSLayout
@@ -234,7 +237,7 @@ Note that administrator updates will not initiate an original layout install; th
 
 You can go to the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page and download a particular fixed version bootstrapper, copy it into your layout, and use it to update the layout to that exact version specified in the bootstrapper. You would use the exact same syntax as above.
 
-You can use an **[administrator update](applying-administrator-updates.md)** to update your layout to a specific version. To get the **Administrator Update**, go to the [Microsoft Update Catalog](https://catalog.update.microsoft.com), search for the update you want to update your layout to.  Download the _update.exe_ to the computer that's hosting the layout, open up a command prompt on that computer and run a command like this:
+You can use an **[administrator update](applying-administrator-updates.md)** to update your layout to a specific version. To get the **administrator update**, go to the [Microsoft Update Catalog](https://catalog.update.microsoft.com), search for the update you want to update your layout to.  Download the _update.exe_ to the computer that's hosting the layout, open up a command prompt on that computer and run a command like this:
 
 ```shell
 visualstudioupdate-17.0.0to17.4.4.exe layout --layoutPath c:\VSLayout
@@ -245,7 +248,7 @@ Note that administrator updates will not initiate an original layout install; th
 
 ::: moniker range=">=vs-2022"
 
-### Modify the channel of the network layout
+### Ensuring your network layout is based off of a supported version
 
 Occasionally, as channels transition out of support, you will need to ensure that the network layout continues to be based off of a supported channel so that your clients can continue to receive notifications of security updates. If your layout is based off of the VisualStudio.17.Release.LTSC.17.0 channel, then once the 17.0 LTSC channel goes out of support, we will not release any more security updates to it and your layout and clients will become insecure.
 
@@ -253,32 +256,32 @@ To change the channel that the layout is based off of, simply acquire the desire
 
 ::: moniker-end
 
-### Modify and add to a partial layout
+### Modify the contents of a layout
 
-It is possible to modify a partial layout and add additional workloads, components, or languages. In the example below, we'll add the Azure workload and a localized language to the layout we created above. After we've made the modification, both the Managed Desktop and Azure workloads, and the English and German resources are included in this layout. In addition to adding components, the layout is updated to the latest available version.
+It is possible to modify a partial layout and ***add*** additional workloads, components, or languages. It is **not** possible to reliably remove components from a layout.
+
+In the example below, we'll add the Azure workload and a localized language to the layout that was previously created with just the Managed Desktop workload and English language. After we've made the modification, both the Managed Desktop and Azure workloads, and both the English and German resources will be included in this layout. In addition to adding components, the `--layout` command will also cause the layout to be updated to the version specified by the bootstrapper. So, if you're using the [evergreen bootstrapper](#download-the-visual-studio-bootstrapper-to-create-the-network-layout), then the resultant layout will have the new component, the new language, and all layout contents will be updated to the latest version on the bootstrapper's channel. 
 
 ```shell
 vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --lang de-DE
 ```
 
-If you want to modify an existing partial layout so that it becomes a full layout, use the --all option, as shown in the following example.
+If you want to modify an existing partial layout so that it becomes a full layout, use the --all option, as shown in the following example. Again, this command will cause the layout contents to be updated to the version specified by the bootstrapper.
 
 ```shell
 vs_enterprise.exe --layout c:\VSLayout --all
 ```
 
-Here's how to add an additional workload and localized language _without_ updating the version. (This command adds the ASP.NET and Web Development workload.) Now the Managed Desktop, Azure, and ASP.NET & Web Development workloads are included in this layout. The language resources for English, German, and French are also included for all these workloads. However, the layout is not updated to the latest available version when this command is run. It remains at the existing version.
+You can add components to a layout by passing in a vsconfig file that contains the additional components you want in your layout. Note that this functionality is new and thus requires the latest installer. This command will also cause the layout contents to be updated to the version specified by the bootstrapper.
 
 ```shell
-vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.NetWeb --lang fr-FR --keepLayoutVersion
+vs_enterprise.exe --layout C:\VSLayout --config "C:\myconfig.vsconfig" --useLatestInstaller
 ```
 
- > [!IMPORTANT]
- > It is not possible to reliably remove components from a layout. 
+Lastly, you can directly edit the `layout.json` configuration file in the layout folder and update the "add" section of this file to include the additional components you want included in your layout. You'll then need to update the layout using `--layout` as previously described to download the latest components. 
  
-You can also add components to a partial layout by directly editing the `layout.json` configuration file and including the new components you need in the "add" section of this file. Adding components this way or on the command line as illustrated above is equivalent to modifying the layout and adding additional components. 
- 
-The easiest way to install the newly added layout components on a client machine is to run the bootstrapper in the layout from the client machine. The `response.json` file in the layout will ensure that all the workloads and components that exist in the layout are selected by default in the client's installer UI.   
+ > [!Note]
+ > The easiest way to install the newly added layout components onto a client machine is to run the bootstrapper in the layout from the client machine. The 'add' section of the `response.json` file in the layout will determine which components are selected by default in the client's installer UI. If you've modified the layout using one of the methods above, you may want to manually double check and possibly adjust the 'add' section in the `response.json` file so that it more appropriately matches the contents in the 'add' section of the newly modified `layout.json` file. 
 
 ### Configure the layout to always include and provide the latest installer
 
@@ -299,7 +302,7 @@ There are two ways to enable your layout to include and provide the latest insta
    vs_enterprise.exe --layout C:\VSLayout --useLatestInstaller
    ```
 
-- You can edit the layout.json file directly to add this setting.
+- You can edit the `layout.json` file directly to add this setting.
 
    ```Example layout.json contents
    {
@@ -315,9 +318,9 @@ There are two ways to enable your layout to include and provide the latest insta
    }
    ```
 
-There is no way to programmatically remove this setting in the layout.json file, so if you want your layout to _stop_ using the latest installer that Microsoft makes available, and instead use the version of the installer that corresponds to the bootstrapper (which is mostly likely older than the most recent installer), simply edit the layout.json file and remove the `"UseLatestInstaller": true` setting. 
+There is no way to programmatically remove this setting in the `layout.json` file, so if you want your layout to _stop_ using the latest installer that Microsoft makes available, and instead use the version of the installer that corresponds to the bootstrapper (which is mostly likely older than the most recent installer), simply edit the `layout.json` file and remove the `"UseLatestInstaller": true` setting. 
 
-Note that you may find this `"UseLatestInstaller": true` setting in the layout's response.json file too, but it is ignored there. The [response.json file is used to set default configuration options on the _client_ when the client installs or updates from a layout](automated-installation-with-response-file.md). This particular `"useLatestInstaller": true` setting is used to ensure that the contents of the _layout_ contain the latest installer, so that the client machines can then acquire the latest installer from the layout.
+Note that you may find this `"UseLatestInstaller": true` setting in the layout's `response.json` file too, but it is ignored there. The [response.json file is used to set default configuration options on the _client_ when the client installs or updates from a layout](automated-installation-with-response-file.md). This particular `"useLatestInstaller": true` setting is used to ensure that the contents of the _layout_ contain the latest installer, so that the client machines can then acquire the latest installer from the layout.
 
 ### Configure the layout to remove out-of-support components on the client machine.
 
