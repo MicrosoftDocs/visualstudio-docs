@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramPublisher2::SetDebuggerPresent
 ms.assetid: c88c3ff4-3632-4199-b5de-83c6d21bcf75
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

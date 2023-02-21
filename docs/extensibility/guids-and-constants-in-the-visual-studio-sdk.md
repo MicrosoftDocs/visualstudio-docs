@@ -8,8 +8,8 @@ helpviewer_keywords:
 - constants, Visual Studio SDK
 - GUIDs, Visual Studio SDK
 ms.assetid: 438c1079-0747-4995-ae7a-32aa399c96f5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

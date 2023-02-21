@@ -9,8 +9,8 @@ helpviewer_keywords:
 - source control plug-ins
 - source control [Visual Studio SDK], plug-ins
 ms.assetid: c7e69fa4-150e-469a-a6fc-fa1260bdbb07
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

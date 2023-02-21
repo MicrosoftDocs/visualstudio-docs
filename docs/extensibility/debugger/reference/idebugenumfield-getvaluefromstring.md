@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEnumField::GetValueFromString method
 ms.assetid: 1ef8ac5e-a3e0-4078-b876-7f5615aedcbb
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

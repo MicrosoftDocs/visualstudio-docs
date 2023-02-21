@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - BP_RES_DATA_FLAGS enumeration
 ms.assetid: d97611e2-def6-45a9-ad7d-eedf2ad4c82b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

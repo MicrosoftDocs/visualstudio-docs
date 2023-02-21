@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugPropertyInfo2::GetCount
 ms.assetid: 9b0b3ce6-08cb-46fd-a6d9-92b36e60da19
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

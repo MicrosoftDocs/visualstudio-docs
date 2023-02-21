@@ -4,8 +4,8 @@ description: Learn how to enable diagnostic logging to troubleshoot deploying cu
 ms.custom: SEO-VS-2020
 ms.date: 01/02/2018
 ms.topic: how-to
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

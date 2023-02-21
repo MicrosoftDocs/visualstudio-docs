@@ -10,8 +10,8 @@ f1_keywords:
 helpviewer_keywords:
 - CustomParameters element [Visual Studio project templates]
 ms.assetid: 743c4489-74ac-403a-bbaa-eed7d785a3ac
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.workload:
 - vssdk

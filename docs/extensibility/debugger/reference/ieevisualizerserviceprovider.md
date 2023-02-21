@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IEEVisualizerServiceProvider interface
 ms.assetid: 859d1a51-1c65-4c8b-ae74-3b74b181ebcd
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

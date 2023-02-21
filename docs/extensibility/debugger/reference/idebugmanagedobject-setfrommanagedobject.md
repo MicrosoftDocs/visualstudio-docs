@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugManagedObject::SetFromManagedObject method
 ms.assetid: 8700ee8d-2704-4580-bccc-046837a24edd
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

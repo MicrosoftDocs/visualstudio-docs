@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugProcessSecurity::GetUserName
 ms.assetid: c73c60ac-da6e-45ae-8f04-95353a24ca3e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

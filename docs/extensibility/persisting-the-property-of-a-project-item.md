@@ -8,8 +8,8 @@ helpviewer_keywords:
 - properties, adding to a project item
 - project items, adding properties
 ms.assetid: d7a0f2b0-d427-4d49-9536-54edfb37c0f3
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

@@ -7,8 +7,8 @@ ms.topic: reference
 helpviewer_keywords:
 - source control plug-ins, restrictions on string lengths
 ms.assetid: 877173d2-ca27-43b3-b1f4-8379f7c5e268
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

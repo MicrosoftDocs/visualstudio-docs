@@ -7,8 +7,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - debugging [Debugging SDK], events
 ms.assetid: b3440ac3-80af-40c6-bef4-cbf00fa67885
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

@@ -12,8 +12,8 @@ helpviewer_keywords:
 - session debug manager, debug engine multiplexing
 - session debug manager, delegating
 ms.assetid: fbb1928d-dddc-43d1-98a4-e23b0ecbae09
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

@@ -8,8 +8,8 @@ helpviewer_keywords:
 - debugging [Debugging SDK], local variables
 - expression evaluation, local variables
 ms.assetid: 66a2e00a-f558-4e87-96b8-5ecf5509e04c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

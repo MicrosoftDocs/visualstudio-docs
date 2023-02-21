@@ -8,8 +8,8 @@ helpviewer_keywords:
 - VSCT files, compiling
 - command-table file compilation (VSCT files)
 ms.assetid: 9dc6c33f-e6cf-4cf2-9b05-e8f7bfac1cfb
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

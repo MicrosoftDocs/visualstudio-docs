@@ -11,8 +11,8 @@ helpviewer_keywords:
 - newsgroups, Visual Studio SDK support
 - Web sites, Visual Studio SDK support
 ms.assetid: d9011f5a-cb53-418f-9d8f-74b15b9fc5f5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocumentContext2::GetLanguageInfo
 ms.assetid: 6a212ee5-414c-4eb5-ab11-19db1786943d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

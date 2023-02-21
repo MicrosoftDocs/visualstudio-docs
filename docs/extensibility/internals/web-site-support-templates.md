@@ -7,8 +7,8 @@ ms.topic: reference
 helpviewer_keywords:
 - we site projects, templates
 ms.assetid: 37173c97-486b-4b3c-8ed3-cf5890c4de23
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

@@ -9,8 +9,8 @@ helpviewer_keywords:
 - selection
 - hierarchies
 ms.assetid: cad0a859-7a84-4ce5-b0a9-f7f64e5f8ebb
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

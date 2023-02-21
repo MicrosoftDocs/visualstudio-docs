@@ -8,8 +8,8 @@ helpviewer_keywords:
 - commands, project systems
 - project systems, environment-defined commands
 ms.assetid: 0e33b8e9-16fa-4400-a941-e92d56120e7e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

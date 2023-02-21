@@ -9,8 +9,8 @@ helpviewer_keywords:
 - source control plug-ins, error codes
 - errors [Visual Studio SDK]
 ms.assetid: d9cbd1c4-719b-467a-8100-333c1e146d3b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

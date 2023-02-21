@@ -10,8 +10,8 @@ helpviewer_keywords:
 - toolbars [Visual Studio], best practices
 - menu commands, best practices
 ms.assetid: 3ffc4312-c6db-4759-a946-a4bb85f4a17a
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

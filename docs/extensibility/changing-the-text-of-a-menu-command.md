@@ -9,8 +9,8 @@ helpviewer_keywords:
 - text, menus
 - commands, changing text
 ms.assetid: 5cb676a0-c6e2-47e5-bd2b-133dc8842e46
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

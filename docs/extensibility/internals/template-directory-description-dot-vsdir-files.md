@@ -9,8 +9,8 @@ helpviewer_keywords:
 - VSDIR files
 - template directory description files
 ms.assetid: 9df51800-190e-4662-b685-fdaafcff1400
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

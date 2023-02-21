@@ -9,8 +9,8 @@ helpviewer_keywords:
 - debug engines, AsyncTaskMethodBuilder structure [.NET Framework]
 - AsyncTaskMethodBuilder structure [.NET Framework debug engines]
 ms.assetid: f32f5857-7ef8-45fd-8b5a-7f644eb98b11
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

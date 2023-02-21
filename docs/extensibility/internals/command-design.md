@@ -8,8 +8,8 @@ helpviewer_keywords:
 - commands
 - commands, implementation
 ms.assetid: 097108c3-f758-4b87-89d6-b32d12d9041a
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

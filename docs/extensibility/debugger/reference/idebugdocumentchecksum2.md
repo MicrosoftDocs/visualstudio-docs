@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugDocumentChecksum2 interface
 ms.assetid: 6d22fa94-21aa-46cb-b5b5-32a6399ebb20
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

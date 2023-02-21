@@ -9,8 +9,8 @@ helpviewer_keywords:
 - language services, registry information
 - registry, language services
 ms.assetid: ca312aa3-f9f1-4572-8553-89bf3a724deb
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

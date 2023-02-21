@@ -11,8 +11,8 @@ helpviewer_keywords:
 - testing, source control plug-ins
 - source control plug-ins, test guide
 ms.assetid: 13b74765-0b7c-418e-8cd9-5f2e8db51ae5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

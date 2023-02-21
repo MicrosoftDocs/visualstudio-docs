@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugErrorBreakpoint2::GetPendingBreakpoint
 ms.assetid: 59d0defc-99fd-445c-bdac-8224d5dea3f9
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

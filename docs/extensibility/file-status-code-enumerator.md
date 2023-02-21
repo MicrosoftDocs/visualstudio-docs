@@ -10,8 +10,8 @@ helpviewer_keywords:
 - SccStatus enumerator
 - file status code enumerator
 ms.assetid: 5c37876b-c83c-4ca1-837b-57cd465a879a
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

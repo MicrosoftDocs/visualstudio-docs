@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugAddress2::GetProcessID method
 ms.assetid: 2c18889d-074a-4b95-87b4-bf1a067f44ed
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

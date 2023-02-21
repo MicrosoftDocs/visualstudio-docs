@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Virtualize method
 - IDebugPendingBreakpoint2::Virtualize method
 ms.assetid: 58c8e9a5-4494-47c2-bddb-56f628da6a2d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

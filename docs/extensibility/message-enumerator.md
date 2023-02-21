@@ -8,8 +8,8 @@ helpviewer_keywords:
 - message enumerator
 - source control plug-ins, message enumeration
 ms.assetid: 4a4faa0d-d352-40ea-a21d-c09ea286a8e1
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

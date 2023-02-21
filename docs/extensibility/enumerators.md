@@ -7,8 +7,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control plug-ins, enumerators
 ms.assetid: a60030c5-e1d1-47e1-84bb-cbfe838ab479
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

@@ -7,8 +7,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], startup events
 ms.assetid: 306ea0b4-6d9e-4871-8d8d-a4032d422940
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

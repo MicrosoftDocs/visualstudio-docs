@@ -8,8 +8,8 @@ helpviewer_keywords:
 - Buttons element (VSCT XML schema)
 - VSCT XML schema elements, Buttons
 ms.assetid: 9f2cf94d-dec5-4776-a836-9a89c75f0c87
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

@@ -10,8 +10,8 @@ helpviewer_keywords:
 - tutorials
 - visual studio package
 ms.assetid: f97104c8-2bcb-45c7-a3c9-85abeda8df98
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

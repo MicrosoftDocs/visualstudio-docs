@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - AD_PROCESS_ID_TYPE enumeration
 ms.assetid: 0aab80e9-285a-4697-94ac-c864d42a6aaa
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

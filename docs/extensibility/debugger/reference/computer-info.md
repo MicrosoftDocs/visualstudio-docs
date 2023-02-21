@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - COMPUTER_INFO structure
 ms.assetid: 943085b2-f165-462d-9a4e-2086f0cdfff4
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

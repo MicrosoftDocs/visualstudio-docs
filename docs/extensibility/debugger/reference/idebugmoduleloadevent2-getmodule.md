@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugModuleLoadEvent2::GetModule
 ms.assetid: c86482bb-9ce5-4e63-bbe0-969b50169424
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

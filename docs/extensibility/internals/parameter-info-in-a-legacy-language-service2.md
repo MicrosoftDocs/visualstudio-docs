@@ -9,8 +9,8 @@ helpviewer_keywords:
 - language services [managed package framework], IntelliSense Parameter Info
 - Parameter Info (IntelliSense), supporting in language services [managed package framework]
 ms.assetid: a117365d-320d-4bb5-b61d-3e6457b8f6bc
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

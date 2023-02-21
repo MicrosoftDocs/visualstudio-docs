@@ -7,8 +7,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - vsix msi
 ms.assetid: 5ee2d1ba-478a-4cb7-898f-c3b4b2ee834e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

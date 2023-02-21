@@ -4,8 +4,8 @@ description: Learn about the UI text and terminology used in the Help inf
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: e8747d07-6c90-46cc-b425-55b589f7e9e4
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

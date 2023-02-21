@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugFunctionObject2 interface
 ms.assetid: 56b2fdff-146d-4138-a34c-59a9c65a3ddd
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

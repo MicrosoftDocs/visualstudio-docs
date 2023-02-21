@@ -7,8 +7,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], model
 ms.assetid: 6164b2d3-a622-4de8-bef3-a6de985e9ebd
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

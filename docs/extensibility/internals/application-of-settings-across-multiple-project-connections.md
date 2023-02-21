@@ -7,8 +7,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - source control plug-ins, application of settings
 ms.assetid: 2116d3d0-c46c-4d0a-b482-08a178584f46
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

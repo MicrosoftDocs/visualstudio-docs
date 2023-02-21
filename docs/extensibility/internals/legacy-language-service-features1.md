@@ -7,8 +7,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - language services [managed package framework]
 ms.assetid: a646e4f0-767d-4cd1-8e1a-9a2aa210a1b7
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

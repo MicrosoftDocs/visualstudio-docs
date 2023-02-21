@@ -7,8 +7,8 @@ ms.topic: reference
 helpviewer_keywords:
 - SetNotificationForWaitCompletion method, Task class [.NET Framework debug engines]
 ms.assetid: da149c9a-20f4-4543-a29e-429c8c1d2e19
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

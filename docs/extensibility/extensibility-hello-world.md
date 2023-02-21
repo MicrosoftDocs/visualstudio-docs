@@ -5,8 +5,8 @@ ms.custom: SEO-VS-2020
 ms.date: 03/14/2019
 ms.topic: tutorial
 ms.assetid: f74e1ad1-1ee5-4360-9bd5-d82467b884ca
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

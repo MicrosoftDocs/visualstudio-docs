@@ -7,8 +7,8 @@ ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], contexts
 ms.assetid: b59d739c-7572-427f-a70d-4e5df63d02c1
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

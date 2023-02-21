@@ -8,8 +8,8 @@ helpviewer_keywords:
 - filtering, nested projects
 - nested projects, AddItem dialog box filtering
 ms.assetid: 5b3e352e-7f18-4f66-be16-b0ad55637ce5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

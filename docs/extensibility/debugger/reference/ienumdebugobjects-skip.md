@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugObjects::Skip method
 ms.assetid: 957cead8-0a9c-4403-b190-b9fbadc49d42
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPort2::GetPortName
 ms.assetid: 4478b3d5-aa30-4105-8d05-e3bae2f8917a
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

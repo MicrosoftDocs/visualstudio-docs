@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider::IsHiddenCode
 ms.assetid: 1352c6ab-7b92-4a16-b2d2-6520b628830e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

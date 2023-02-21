@@ -9,8 +9,8 @@ helpviewer_keywords:
 - debugging [Debugging SDK], local properties
 - expression evaluation, local properties
 ms.assetid: 6c3a79e8-1ba1-4863-97c3-0216c3d9f092
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
