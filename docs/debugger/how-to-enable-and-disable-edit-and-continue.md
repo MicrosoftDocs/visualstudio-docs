@@ -80,4 +80,4 @@ For native C++, **Edit and Continue** requires using the `/INCREMENTAL` option. 
       If selected, gives warnings about stale code.
 
 1. Select **OK**.
-1. ::: moniker-end
+::: moniker-end
