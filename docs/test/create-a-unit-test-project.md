@@ -27,7 +27,7 @@ Unit tests often mirror the structure of the code under test. For example, a uni
 2. On the **Create a new project** page, type **unit test** into the search box. Select the project template for the test framework that you want to use, for example **MSTest Test Project** or **NUnit Test Project**, and then select **Next**.
 
    ::: moniker range=">=vs-2022"
-   ![Test project templates in Visual Studio 2019](media/vs-2022/test-project-templates.png)
+   ![Screenshot of test project templates in Visual Studio 2019.](media/vs-2022/test-project-templates.png)
    ::: moniker-end
    ::: moniker range="vs-2019"
    ![Test project templates in Visual Studio 2019](media/vs-2019/test-project-templates.png)
