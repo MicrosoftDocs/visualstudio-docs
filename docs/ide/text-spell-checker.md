@@ -1,6 +1,6 @@
 ---
-title: "About the Text Spell Checker"
-description: Learn how to use the Text Spell Checker feature in Visual Studio.
+title: "Learn about the Text Spell Checker"
+description: Learn how to use the Text Spell Checker to correct misspelled words in multiple languages and to customize it to share with your dev team.
 ms.date: 02/21/2023
 ms.topic: conceptual
 author: TerryGLee
