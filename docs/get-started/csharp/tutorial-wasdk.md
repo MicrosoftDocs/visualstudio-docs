@@ -68,7 +68,7 @@ After the templates extension has been installed, you can create your first proj
 
 ## Create the application
 
-It's time to start developing. You'll add a button control, add an action to the button, and then start the "Hello World" app to see what it looks like.
+It's time to start developing. You'll add a button control, add an action to the button, and then run the "Hello World" app to see what it looks like.
 
 ### Add a button to the Design canvas
 
