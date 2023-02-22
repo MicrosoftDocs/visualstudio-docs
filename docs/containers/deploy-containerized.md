@@ -7,7 +7,7 @@ ms.date: 11/30/2022
 ms.technology: vs-container-tools
 ms.topic: how-to
 ---
-# Deploy an app into a container in Azure
+# Deploy an app into a container in Azure or Docker Hub
 
 You can deploy a .NET 7 app without Docker Desktop or a Dockerfile. Visual Studio provides a deployment option that handles this conveniently for you.
 
