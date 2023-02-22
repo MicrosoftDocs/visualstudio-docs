@@ -1,7 +1,7 @@
 ---
-title: "Learn about the Text Spell Checker"
+title: "Learn about the Text Spell Checker (Preview)"
 description: Learn how to use the Text Spell Checker to correct misspelled words in multiple languages and to customize it to share with your dev team.
-ms.date: 02/21/2023
+ms.date: 02/23/2023
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -11,11 +11,14 @@ ms.workload:
 - multiple
 monikerRange: vs-2022
 ---
-# Learn about the Text Spell Checker in Visual Studio
+# Learn about the Text Spell Checker (Preview)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Many of the features in Visual Studio are designed to help you write the code you want, from making sure that your code compiles to helping you with code styling. Now, with the **Text Spell Checker** feature&mdash;introduced in [version 17.5](/visualstudio/releases/2022/release-notes-v17.5)&mdash;Visual Studio can even make sure your spelling is accurate.
+
+> [!IMPORTANT]
+> This feature is still in development. It's available now in Visual Studio 2022 version 17.5, but it'll be further refined in [version 17.6 Preview](/visualstudio/releases/2022/release-notes-preview). Stay tuned for updates!
 
 :::image type="content" source="media/vs-2022/text-spell-checker.png" alt-text="Screenshot of an example of the Text Spell Checker in action.":::
 
