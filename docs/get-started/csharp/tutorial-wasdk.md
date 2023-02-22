@@ -2,7 +2,7 @@
 title: "Tutorial: Create Windows App SDK Apps with Visual Studio & C#"
 description: Create a Windows App SDK app in Visual Studio with XAML and C#
 titleSuffix: ""
-ms.custom: "vs-acquisition, get-started, SEO-VS-2020"
+ms.custom: "vs-acquisition, get-started"
 ms.date: "02/02/2023"
 ms.technology: vs-ide-general
 ms.topic: tutorial
