@@ -132,7 +132,7 @@ The code uses the **ContentDialog** control to display a welcome message in a mo
 
 ## Run the application
 
-It's time to build, deploy, and launch the "Hello World" Windows App SDK app to see what it looks and sounds like. Here's how.
+It's time to build, deploy, and launch the "Hello World" Windows App SDK app to see what it looks like. Here's how.
 
 1. Use the Play button (it has the text **HelloWorld (Package)**) to start the application on the local machine.
 
