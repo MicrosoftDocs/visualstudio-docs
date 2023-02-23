@@ -17,15 +17,16 @@ monikerRange: vs-2022
 
 Many of the features in Visual Studio are designed to help you write the code you want, from making sure that your code compiles to helping you with code styling. Now, with the **Text Spell Checker** feature&mdash;introduced in [version 17.5](/visualstudio/releases/2022/release-notes-v17.5)&mdash;Visual Studio can even make sure your spelling is accurate.
 
-> [!IMPORTANT]
-> This feature is still in development. It's available now in Visual Studio 2022 version 17.5, but it'll be further refined in [version 17.6 Preview](/visualstudio/releases/2022/release-notes-preview). Stay tuned for updates!
-
 :::image type="content" source="media/vs-2022/text-spell-checker.png" alt-text="Screenshot of an example of the Text Spell Checker in action.":::
 
 Visual Studio automatically toggles on the Text Spell Checker feature with any C#, C++, or Markdown file. Visual Studio marks any words that it detects as misspelled words. Visual Studio also suggests alternate spellings and helps correct them. The feature even does a contextual rename when those misspellings are identifiers so that your code still compiles.
 
-> [!TIP]
-> You can turn the spell checker off or on by using the **Toggle Text Spell Checker** button on the main toolbar, or by selecting **Edit** > **Advanced** > **Toggle Text Spell Checker** from the menu bar.
+> [!IMPORTANT]
+> This feature is still in development. It's available now in Visual Studio 2022 version 17.5, but it'll be further refined in [version 17.6 Preview](/visualstudio/releases/2022/release-notes-preview). Stay tuned for updates!
+
+In version 17.5, you can turn the spell checker off or on by using the **Toggle Text Spell Checker** button on the main toolbar, or by selecting **Edit** > **Advanced** > **Toggle Text Spell Checker** command from the menu bar.
+
+In version 17.6 Preview, you can also use the toggle button and the command menu to turn the spell checker off or on, but you can also use the **Tools** > **Options** > **Preview Features** > **Text spell checker** checkbox to do so, too.
 
 ## How do you use it?
 
@@ -73,7 +74,7 @@ Here are some examples and use-case scenarios of the switches you can configure 
     ```(Example: = en-us,fr-fr)```
 
     > [!NOTE]
-    > Make sure to install the [language packs](../install/install-visual-studio.md) for the languages you're using to prevent Visual Studio from incorrectly flagging words as spelling errors. This example includes both the English and French language packs.
+    > Make sure to install the [language pack](../install/install-visual-studio.md) for any non-fault language you're using to prevent Visual Studio from incorrectly flagging words as spelling errors.
 
 - Control what Visual Studio should check. In this example, Visual Studio would check identifiers and comments for misspelled words but wouldn’t check inside strings.
 
