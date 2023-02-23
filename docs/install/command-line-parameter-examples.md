@@ -105,6 +105,12 @@ For lists of the workloads and components that you can install by using the comm
    --includeRecommended
   ```
 
+* Use --config to configure the contents of a layout:
+ 
+   ```shell
+  vs_enterprise.exe --layout C:\layout --config "C:\myconfig.vsconfig" --useLatestInstaller
+  ```
+
 ## Using --all to acquire the entire product
 
 * Start an interactive installation of all workloads and components that are available in the Visual Studio Enterprise edition:
@@ -233,13 +239,6 @@ Use the [Windows Package Manager](/windows/package-manager/winget/) "winget" too
   winget install --id Microsoft.VisualStudio.2022.Community --override "--passive --config c:\my.vsconfig"
   ```
   
-* Use --config to configure the contents of a layout:
- 
-   ```shell
-  vs_enterprise.exe --layout C:\layout --config "C:\myconfig.vsconfig" --useLatestInstaller
-  ```
-   
-
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
