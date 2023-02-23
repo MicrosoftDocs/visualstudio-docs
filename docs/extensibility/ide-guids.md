@@ -8,8 +8,8 @@ helpviewer_keywords:
 - GUIDs, integrated development environment
 - IDE, GUIDs
 ms.assetid: d31a0f97-b7be-4fb5-a942-8ba4527bc068
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

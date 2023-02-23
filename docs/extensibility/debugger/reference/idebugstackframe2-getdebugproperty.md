@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugStackFrame2::GetDebugProperty
 ms.assetid: 02c2fa04-1424-4bca-9936-feaecd2afab6
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

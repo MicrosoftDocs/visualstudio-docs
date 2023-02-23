@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - SccBackgroundGet function
 ms.assetid: 69817e52-b9ac-4f4d-820b-2cc9c384f0dc
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

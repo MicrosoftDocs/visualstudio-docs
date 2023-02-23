@@ -8,8 +8,8 @@ helpviewer_keywords:
 - VSCT XML schema elements, conditional attributes
 - conditional attributes (VSCT XML schema)
 ms.assetid: 754d4f32-319b-44c9-915f-f7c60e53222e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

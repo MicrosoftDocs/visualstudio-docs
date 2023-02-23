@@ -9,8 +9,8 @@ helpviewer_keywords:
 - IDebugMemoryBytes2::GetSize method
 - GetSize method
 ms.assetid: dae64c5f-5b54-40c3-b32f-ec3b16c093f7
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

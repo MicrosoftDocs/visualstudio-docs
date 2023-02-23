@@ -7,8 +7,8 @@ helpviewer_keywords:
 - GetPointerAddress
 - IDebugPointerObject3::GetPointerAddress
 ms.assetid: 4cc5af04-9e70-420d-8230-ef3108df6d51
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

@@ -9,8 +9,8 @@ f1_keywords:
 helpviewer_keywords:
 - POPLISTFUNC callback function
 ms.assetid: b2199fd5-d707-4628-92dd-e2a01e2f507a
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

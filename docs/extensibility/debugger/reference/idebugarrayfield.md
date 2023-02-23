@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugArrayField interface
 ms.assetid: 9667b0a5-4295-46cc-9388-b75c1350be15
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

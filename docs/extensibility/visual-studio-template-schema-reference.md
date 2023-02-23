@@ -10,8 +10,8 @@ helpviewer_keywords:
 - Visual Studio templates, schema
 - .vstemplate files
 ms.assetid: 6f74a2d5-3811-43d6-8b10-eb5823ad8995
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.workload:
 - vssdk

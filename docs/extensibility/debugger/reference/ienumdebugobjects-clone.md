@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugObjects::Clone method
 ms.assetid: cb7df109-d29a-4218-b900-6809091459dd
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

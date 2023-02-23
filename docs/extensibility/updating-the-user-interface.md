@@ -8,8 +8,8 @@ helpviewer_keywords:
 - user interfaces, updating
 - commands, updating UI
 ms.assetid: 376e2f56-e7bf-4e62-89f5-3dada84a404b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

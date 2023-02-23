@@ -7,8 +7,8 @@ helpviewer_keywords:
 - GetLocalVariablelayout
 - IDebugComPlusSymbolProvider::GetLocalVariablelayout
 ms.assetid: b7328d85-e5e9-4d9f-bcd1-e7711fd33878
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

@@ -7,8 +7,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - project subtypes, initialization sequence
 ms.assetid: f657f8c3-5e68-4308-9971-e81e3099ba29
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

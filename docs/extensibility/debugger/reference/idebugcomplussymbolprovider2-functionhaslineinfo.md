@@ -7,8 +7,8 @@ helpviewer_keywords:
 - FunctionHasLineInfo
 - IDebugComPlusSymbolProvider2::FunctionHasLineInfo
 ms.assetid: e1b508f1-6521-492f-b110-ab957744a037
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

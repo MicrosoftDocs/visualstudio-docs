@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Open File command
 - persistence, supporting Open File command
 ms.assetid: 4fff0576-b2f3-4f17-9769-930f926f273c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

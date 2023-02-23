@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - METADATA_TYPE structure
 ms.assetid: 2d8b78f6-0aef-4d79-809a-cff9b2c24659
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

@@ -9,8 +9,8 @@ helpviewer_keywords:
 - security best practices, VSPackages
 - best practices, security
 ms.assetid: 212a0504-cf6c-4e50-96b0-f2c1c575c0ff
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

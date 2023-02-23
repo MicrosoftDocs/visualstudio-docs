@@ -9,8 +9,8 @@ helpviewer_keywords:
 - GUIDs, VSPackages
 - CATIDs for VSPackages
 ms.assetid: 0c7fdb66-ed96-4b36-89f6-021bca573572
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

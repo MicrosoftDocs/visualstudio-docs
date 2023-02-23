@@ -9,8 +9,8 @@ helpviewer_keywords:
 - IDebugMemoryContext2::Compare method
 - Compare method
 ms.assetid: c51b5128-848e-4d8e-b2e9-1161339763c3
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

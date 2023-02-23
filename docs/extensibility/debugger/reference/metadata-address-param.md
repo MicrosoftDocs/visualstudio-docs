@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - METADATA_ADDRESS_PARAM structure
 ms.assetid: 90904f19-0e71-4cb3-a56e-6a2e92f66dfc
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

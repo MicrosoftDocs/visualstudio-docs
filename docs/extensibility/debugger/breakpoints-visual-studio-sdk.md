@@ -7,8 +7,8 @@ ms.topic: reference
 helpviewer_keywords:
 - breakpoints
 ms.assetid: acfcabed-9f2f-436c-ad18-7ca2f45d631b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

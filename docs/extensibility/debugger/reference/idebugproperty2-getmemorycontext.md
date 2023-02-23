@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProperty2::GetMemoryContext
 ms.assetid: 91793d25-790f-4881-a5c0-d0458e534514
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

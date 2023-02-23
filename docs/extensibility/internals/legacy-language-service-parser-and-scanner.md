@@ -8,8 +8,8 @@ helpviewer_keywords:
 - parsers, language services [managed package framework]
 - language services [managed package framework], Parsers
 ms.assetid: 1ac3de27-a23b-438d-9593-389e45839cfa
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

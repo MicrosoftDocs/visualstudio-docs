@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngine2::EnumPrograms
 ms.assetid: 56bf98eb-beec-4e5f-9ebe-46c922e54c56
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

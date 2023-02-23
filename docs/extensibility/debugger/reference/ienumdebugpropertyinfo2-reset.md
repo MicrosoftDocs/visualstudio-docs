@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugPropertyInfo2::Reset
 ms.assetid: fa4201c1-4633-4596-93aa-bd415c4ed71a
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBreakpointResolution2::GetBreakpointType
 ms.assetid: 2b707fb9-f703-4c78-91bf-7434f57790a0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortEvents2::Event
 ms.assetid: 5cc813f7-04a1-4462-9ea7-fbddcf0e0143
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

@@ -8,8 +8,8 @@ helpviewer_keywords:
 - VSPackages, autoloading
 - VSPackages, loading
 ms.assetid: f4c3dcea-5051-4065-898f-601269649d92
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugSettingsCallback2::GetEELocalObject
 ms.assetid: e69a3469-a049-420c-b918-c48a1e7b9baf
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

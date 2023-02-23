@@ -8,8 +8,8 @@ helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation, interfaces
 ms.assetid: 1cac9aa3-0867-4e12-a16e-1e90abbc0fb6
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

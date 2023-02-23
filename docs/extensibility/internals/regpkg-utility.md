@@ -8,8 +8,8 @@ helpviewer_keywords:
 - regpkg, registration utility
 - registration, regpkg utility
 ms.assetid: 1683ee18-59d1-4bab-a674-dd00dd960de3
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

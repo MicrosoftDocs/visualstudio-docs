@@ -8,8 +8,8 @@ helpviewer_keywords:
 - machine debug manager
 - debugging [Debugging SDK], Machine Debug Manager
 ms.assetid: d0861e0c-b819-490c-9604-5e6d08ac291a
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

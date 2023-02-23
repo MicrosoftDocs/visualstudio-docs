@@ -11,8 +11,8 @@ helpviewer_keywords:
 - VS SDK (see Visual Studio SDK)
 - Visual Studio, SDK
 ms.assetid: 1f7c348a-114c-4243-b392-3531e9c9c6fd
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - SetCorPath
 - IDebugExpressionEvaluator2::SetCorPath
 ms.assetid: 27b614ff-7325-4f9b-8da4-61ee020c9410
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

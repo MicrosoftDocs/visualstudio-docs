@@ -9,8 +9,8 @@ helpviewer_keywords:
 - user settings [Visual Studio SDK], registering persistence support
 - persistence, registering settings
 ms.assetid: ad9beac3-4f8d-4093-ad0e-6fb00444a709
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

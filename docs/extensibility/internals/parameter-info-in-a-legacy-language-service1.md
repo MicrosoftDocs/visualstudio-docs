@@ -11,8 +11,8 @@ helpviewer_keywords:
 - IVsMethodData interface
 - Parameter Info (IntelliSense)
 ms.assetid: f367295e-45b6-45d2-9ec8-77481743beef
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

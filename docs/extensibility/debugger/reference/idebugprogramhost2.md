@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramHost2 interface
 ms.assetid: 2c37b3aa-97a9-4665-8709-edd917f18cb1
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

@@ -8,8 +8,8 @@ helpviewer_keywords:
 - debugging [Debugging SDK], registering port suppliers
 - port suppliers, registering
 ms.assetid: fb057052-ee16-4272-8e16-a4da5dda0ad4
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

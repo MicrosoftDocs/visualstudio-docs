@@ -6,8 +6,8 @@ ms.date: 04/29/2019
 ms.topic: reference
 helpviewer_keywords:
 - roslyn package versions
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

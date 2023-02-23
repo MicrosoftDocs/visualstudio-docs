@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - PROCESS_INFO structure
 ms.assetid: 260c33cc-a05e-4645-84b6-536d0b3b0537
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

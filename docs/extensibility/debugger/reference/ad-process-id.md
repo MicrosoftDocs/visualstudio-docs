@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - AD_PROCESS_ID union
 ms.assetid: 4cb40d12-2e92-4f09-83f4-689928bd65b3
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

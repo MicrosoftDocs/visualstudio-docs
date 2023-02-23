@@ -8,8 +8,8 @@ helpviewer_keywords:
 - publishing extensions
 - extension, publishing
 ms.assetid: 6ff9efc4-919d-4071-a80d-6dbdd2ceb2f8
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

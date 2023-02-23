@@ -8,8 +8,8 @@ helpviewer_keywords:
 - directory status code enumerator
 - source control plug-ins, directory status enumeration
 ms.assetid: 616026b5-f529-40ef-90c1-1836e116d797
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

@@ -9,8 +9,8 @@ helpviewer_keywords:
 - side-by-side installation
 - installation [Visual Studio SDK], side-by-side
 ms.assetid: e3128ac3-2e92-48e9-87ab-3b6c9d80e8c9
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

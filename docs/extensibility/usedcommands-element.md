@@ -10,8 +10,8 @@ helpviewer_keywords:
 - UsedCommands element (VSCT XML schema)
 - VSCT XML schema elements, UsedCommands
 ms.assetid: 5e000ee0-a919-46e9-9277-2a0659f1eb78
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

@@ -8,8 +8,8 @@ helpviewer_keywords:
 - language services [managed package framework], Autos window
 - Autos window, supporting in language services [managed package framework]
 ms.assetid: 47d40aae-7a3c-41e1-a949-34989924aefb
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

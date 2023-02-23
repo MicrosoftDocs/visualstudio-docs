@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - m_taskId field, Task class [.NET Framework debug engines]
 ms.assetid: 9e4b827e-7c41-4fa3-b646-830aba2ec736
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

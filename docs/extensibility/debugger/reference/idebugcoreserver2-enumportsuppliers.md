@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCoreServer2::EnumPortSuppliers
 ms.assetid: ce0c90e4-8e02-4b08-b558-7677fb2c88f7
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

@@ -7,8 +7,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], code development aides
 ms.assetid: 97c38622-ae0b-4ae0-90ed-604072c298d3
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

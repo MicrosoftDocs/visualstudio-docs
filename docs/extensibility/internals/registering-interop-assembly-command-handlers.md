@@ -8,8 +8,8 @@ helpviewer_keywords:
 - interop assemblies, command handlers
 - command handling with interop assemblies, registering
 ms.assetid: 303cd399-e29d-4ea1-8abe-5e0b59c12a0c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

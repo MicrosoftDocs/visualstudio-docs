@@ -8,8 +8,8 @@ helpviewer_keywords:
 - user interface, source control packages
 - source control packages, user interface
 ms.assetid: f35ddb24-53bf-461e-b34f-7414f657c082
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

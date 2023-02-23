@@ -9,8 +9,8 @@ helpviewer_keywords:
 - expression evaluators, architecture
 - debugging [Debugging SDK], expression evaluators
 ms.assetid: aad7c4c6-1dc1-4d32-b975-f1fdf76bdeda
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

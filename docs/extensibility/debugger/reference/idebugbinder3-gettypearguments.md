@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBinder3::GetTypeArguments method
 ms.assetid: fa0c37a7-327f-463e-9a9d-bb3f534584cb
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

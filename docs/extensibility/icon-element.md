@@ -8,8 +8,8 @@ helpviewer_keywords:
 - VSCT XML schema elements, Icon
 - Icon element (VSCT XML schema)
 ms.assetid: 73c58fe3-d53c-4f4e-b025-29567c6cbb7c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

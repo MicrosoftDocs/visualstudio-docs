@@ -8,8 +8,8 @@ helpviewer_keywords:
 - breakpoints, creating
 - debugging [Debugging SDK], creating breakpoints
 ms.assetid: 6f9f87bb-192e-45e0-9a7a-ffe729e87f7d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

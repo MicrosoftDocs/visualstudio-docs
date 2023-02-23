@@ -8,8 +8,8 @@ helpviewer_keywords:
 - nested projects, implementing
 - projects [Visual Studio SDK], nesting
 ms.assetid: d20b8d6a-f0e0-4115-b3a3-edda893ae678
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

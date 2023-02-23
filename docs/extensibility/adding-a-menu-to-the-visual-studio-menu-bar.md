@@ -8,8 +8,8 @@ helpviewer_keywords:
 - menus, creating top level
 - top-level menus
 ms.assetid: 58fc1a31-2aeb-441c-8e48-c7d5cbcfe501
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

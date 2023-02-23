@@ -8,8 +8,8 @@ helpviewer_keywords:
 - breakpoint validation
 - language services [managed package framework], breakpoint validation
 ms.assetid: a7e873cd-dfe1-474f-bda5-fd7532774b15
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

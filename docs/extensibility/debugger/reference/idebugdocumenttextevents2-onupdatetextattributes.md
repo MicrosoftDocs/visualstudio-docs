@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocumentTextEvents2::onUpdateTextAttributes
 ms.assetid: eb68d69a-1ad9-4ce4-84e1-40979ef16634
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

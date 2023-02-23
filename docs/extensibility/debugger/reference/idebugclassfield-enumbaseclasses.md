@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugClassField::EnumBaseClasses method
 ms.assetid: 78749674-ef75-46d3-a1f4-ff33afd90e32
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

@@ -8,8 +8,8 @@ helpviewer_keywords:
 - syntax coloring
 - language services, syntax coloring
 ms.assetid: f65ff67e-8c20-497a-bebf-5e2a5b5b012f
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

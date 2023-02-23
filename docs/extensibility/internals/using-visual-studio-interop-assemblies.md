@@ -9,8 +9,8 @@ helpviewer_keywords:
 - interop assemblies, Visual Studio
 - managed VSPackages, interop assemblies
 ms.assetid: 1043eb95-4f0d-4861-be21-2a25395b3b3c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

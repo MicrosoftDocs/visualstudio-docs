@@ -8,8 +8,8 @@ helpviewer_keywords:
 - events [Visual Studio], exposing
 - automation [Visual Studio SDK], exposing events
 ms.assetid: 70bbc258-c221-44f8-b0d7-94087d83b8fe
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

@@ -5,8 +5,8 @@ ms.custom: SEO-VS-2020
 ms.date: 08/31/2021
 ms.topic: how-to
 ms.assetid: 8496afb4-1573-4585-ac67-c3d58b568a12
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

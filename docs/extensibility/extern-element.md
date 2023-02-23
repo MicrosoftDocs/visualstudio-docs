@@ -10,8 +10,8 @@ helpviewer_keywords:
 - VSCT XML schema elements, Extern
 - Extern element (VSCT XML schema)
 ms.assetid: db6c3ddd-a1ba-450a-897a-bb568a5377fc
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

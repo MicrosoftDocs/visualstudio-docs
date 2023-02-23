@@ -10,8 +10,8 @@ helpviewer_keywords:
 - IVsAppCommandLine::GetOption method
 - command line, switches
 ms.assetid: 8bbbd87e-76fe-4fb5-8ef9-65f5e31967cf
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

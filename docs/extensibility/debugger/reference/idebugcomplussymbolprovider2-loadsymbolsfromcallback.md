@@ -7,8 +7,8 @@ helpviewer_keywords:
 - LoadSymbolsFromCallback
 - IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback
 ms.assetid: 905315ba-8e9b-4889-b9da-98e1441950ad
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
