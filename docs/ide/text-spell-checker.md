@@ -19,14 +19,12 @@ Many of the features in Visual Studio are designed to help you write the code yo
 
 :::image type="content" source="media/vs-2022/text-spell-checker.png" alt-text="Screenshot of an example of the Text Spell Checker in action.":::
 
+> [!IMPORTANT]
+> This feature is still in development. It's available now in Visual Studio 2022 version 17.5, but it'll be refined in future Preview releases.
+
 Visual Studio automatically toggles on the Text Spell Checker feature with any C#, C++, or Markdown file. Visual Studio marks any words that it detects as misspelled words. Visual Studio also suggests alternate spellings and helps correct them. The feature even does a contextual rename when those misspellings are identifiers so that your code still compiles.
 
-> [!IMPORTANT]
-> This feature is still in development. It's available now in Visual Studio 2022 [version 17.5](/visualstudio/releases/2022/release-notes-v17.5), but it'll be further refined in [version 17.6 Preview](/visualstudio/releases/2022/release-notes-preview). Stay tuned for updates!
-
-In version 17.5, you can turn the spell checker off or on by using the **Toggle Text Spell Checker** button on the main toolbar, or by selecting **Edit** > **Advanced** > **Toggle Text Spell Checker** command from the menu bar.
-
-In version 17.6 Preview, you can also use the toggle button and the command menu to turn the spell checker off or on, but you can also use the **Tools** > **Options** > **Preview Features** > **Text spell checker** checkbox to do so, too.
+You can turn the spell checker off or on by using the **Toggle Text Spell Checker** button on the main toolbar, or by selecting **Edit** > **Advanced** > **Toggle Text Spell Checker** command from the menu bar.
 
 ## How do you use it?
 
