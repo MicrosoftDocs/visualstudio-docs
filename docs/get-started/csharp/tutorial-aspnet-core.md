@@ -6,7 +6,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.topic: tutorial
-ms.date: 02/16/2022
+ms.date: 02/23/2023
 ms.prod: visual-studio-windows
 ms.workload:
   - "aspnet"
@@ -319,7 +319,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. Now, let's make a code change. Select **Privacy.cshtml.cs**. Then, clean up the `using` directives at the top of the file by selecting the following shortcut:
 
-   Mouseover or select a greyed out `using` directive. A [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Select the light bulb, and then select **Remove unnecessary usings**.
+   Mouseover or select a greyed out `using` directive. A [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Select the light bulb, and then select the expand arrow next to **Remove unnecessary usings**.
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-remove-unnecessary-usings.png" alt-text="Screenshot shows the Privacy.cshtml file in the Visual Studio code editor with the Quick Actions tooltip open and Preview changes highlighted.":::
 
