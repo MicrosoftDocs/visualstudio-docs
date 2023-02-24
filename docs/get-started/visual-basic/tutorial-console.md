@@ -2,7 +2,7 @@
 title: "Tutorial: Create a simple Visual Basic (VB) console app"
 description: "In this tutorial, you learn how to create a Visual Basic console application in Visual Studio."
 ms.custom: "vs-acquisition, get-started"
-ms.date: 02/09/2022
+ms.date: 02/24/2023
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -153,7 +153,7 @@ There are two ways to run this code, inside Visual Studio in *debug mode*, and f
 
 1. When the app runs in the Microsoft Visual Studio Debug Console, "Hello World!" displays. Press any key to close the debug console window and end the app:
 
-    :::image type="content" source="media/vs-2022/vb-console-hello-world-press-any-key.png" alt-text="Screenshot showing 'Hello World!' and the 'Press any key to close this window' messages.":::
+    :::image type="content" source="media/vs-2022/vb-console-window-hello-world.png" alt-text="Screenshot showing 'Hello World!' and the 'Press any key to close this window' messages.":::
 
 ::: moniker-end
 
@@ -179,7 +179,7 @@ To see the output outside of Visual Studio, in a system console window, build an
 
 1. In **Solution Explorer**, right-click on **WhatIsYourName** and choose **Open File in File Explorer**.
 
-1. In **File Explorer**, navigate to the **bin\Debug\core6.0** directory and run **WhatIsYourName.exe**.
+1. In **File Explorer**, navigate to the **bin\Debug\net6.0** directory and run **WhatIsYourName.exe**.
 
 1. The `Main` procedure terminates after its single statement executes and the console window closes immediately. To keep the console visible until the user presses a key, see the next section.
 
@@ -239,11 +239,11 @@ Next, you'll add Visual Basic code that prompts you for your name and then displ
 
    :::image type="content" source="media/vs-2022/vb-code-window-whatisyourname-dark.png" alt-text="Screenshot showing the code for the 'Program.vb' file in the 'WhatIsYourName' project loaded in the Visual Basic code editor.":::
 
-1. Select the **WhatIsYourName** button or press **F5** to build and run your first app in Debug mode.
+1. Select the **WhatIsYourName** button or press **F5** to build and run your app in Debug mode.
 
 1. When the debug console window opens, enter your name. Your console window should look similar to the following screenshot:
 
-   :::image type="content" source="media/vs-2022/vb-console-enter-your-name.png" alt-text="Screenshot showing the debug console window with 'Please enter your name', the date and time, and 'Press any key to continue' messages.":::
+   :::image type="content" source="media/vs-2022/vb-console-user-input-enter-your-name.png" alt-text="Screenshot showing the debug console window with 'Please enter your name', the date and time, and 'Press any key to continue' messages.":::
 
 1. Press any key to end the app, and then press any key to close the debug console window.
 
