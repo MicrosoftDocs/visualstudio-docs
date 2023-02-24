@@ -1,7 +1,7 @@
 ---
 title: "Create an Angular app"
 description: In this tutorial, learn how to create a simple Angular application in Visual Studio.
-ms.date: 07/26/2022
+ms.date: 02/24/2023
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
