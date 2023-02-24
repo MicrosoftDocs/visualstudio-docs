@@ -46,7 +46,7 @@ Make sure to install the following:
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Create a new project":::
 
-1. Search for Angular in the search bar at the top and then select **Standalone TypeScript Angular Template**.
+1. Search for Angular in the search bar at the top and then select **Angular and ASP.NET Core (Preview)**.
 
    :::image type="content" source="media/vs-2022/angular-choose-template.png" alt-text="Choose a template":::
 
@@ -70,7 +70,7 @@ Make sure to install the following:
 1. In Solution Explorer, right-click the ASP.NET Core project and choose **Properties**.
 
    :::image type="content" source="media/vs-2022/asp-net-core-project-properties.png" alt-text="Open project properties"::: 
- 
+
 1. Go to the Debug menu and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option.
 
    :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser.png" alt-text="Open debug launch profiles UI"::: 
@@ -147,7 +147,7 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 
 You may see the following error:
 
-```
+```cmd
 [HPM] Error occurred while trying to proxy request /weatherforecast from localhost:4200 to https://localhost:5001 (ECONNREFUSED) (https://nodejs.org/api/errors.html#errors_common_system_errors)
 ```
 

@@ -149,7 +149,7 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 
 You may see the following error:
 
-```
+```cmd
 [HPM] Error occurred while trying to proxy request /weatherforecast from localhost:4200 to https://localhost:5001 (ECONNREFUSED) (https://nodejs.org/api/errors.html#errors_common_system_errors)
 ```
 
