@@ -80,7 +80,7 @@ Make sure to install the following:
    This prevents opening the web page with the source weather data.
 
    >[!NOTE]
-   > Currently, *launch.json* must be located under the *.vscode* folder.
+   > *launch.json* stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, *launch.json* must be located under the *.vscode* folder.
 
 ## Start the project
 
