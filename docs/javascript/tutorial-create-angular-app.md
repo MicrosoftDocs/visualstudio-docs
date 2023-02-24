@@ -38,7 +38,7 @@ Make sure to install the following:
 
 1. Search for Angular in the search bar at the top and then select **Standalone TypeScript Angular Template**.
 
-   :::image type="content" source="media/vs-2022/angular-choose-template.png" alt-text="Choose a template":::
+   :::image type="content" source="media/vs-2022/angular-choose-standalone-template.png" alt-text="Choose a template":::
 
 1. Give your project and solution a name.
 

@@ -37,7 +37,7 @@ Make sure to install the following:
 
 1. Search for React in the search bar at the top and then select **Standalone JavaScript React Template** or **Standalone TypeScript React Template**, based on your preference.
 
-   :::image type="content" source="media/vs-2022/react-choose-template.png" alt-text="Choose a template":::
+   :::image type="content" source="media/vs-2022/react-choose-standalone-template.png" alt-text="Choose a template":::
 
 1. Give your project and solution a name. 
 

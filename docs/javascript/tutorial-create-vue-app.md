@@ -38,7 +38,7 @@ Make sure to install the following:
 
 1. Search for Vue in the search bar at the top and then select **Standalone JavaScript Vue Template** or **Standalone TypeScript Vue Template**, based on your preference.
 
-   :::image type="content" source="media/vs-2022/vue-choose-template.png" alt-text="Choose a template":::
+   :::image type="content" source="media/vs-2022/vue-choose-standalone-template.png" alt-text="Choose a template":::
 
 1. Give your project and solution a name.
 
