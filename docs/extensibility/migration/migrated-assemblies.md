@@ -3,8 +3,8 @@ title: VS SDK NuGet packages
 description: Learn about VS SDK metapackage and other NuGet packages that you might need when migrating a Visual Studio extension to Visual Studio 2022.
 ms.date: 06/08/2021
 ms.topic: conceptual
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 monikerRange: "vs-2022"
