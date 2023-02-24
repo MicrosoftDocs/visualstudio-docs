@@ -75,7 +75,7 @@ Make sure to install the following:
 
 1. Go to the Debug menu and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for https.
 
-   :::image type="content" source="media/vs-2022/asp-net-core-with-react-deselect-launch-browser.png" alt-text="Open debug launch profiles UI"::: 
+   :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser.png" alt-text="Open debug launch profiles UI"::: 
 
    This prevents opening the web page with the source weather data.
 
