@@ -334,7 +334,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
    - The first argument for the method specifies how the date should be displayed. This example uses the format specifier (`d`) which indicates the short date format.
    - The second argument is the [CultureInfo](/dotnet/api/system.globalization.cultureinfo) object that specifies the culture or region for the date. The second argument determines, among other things, the language of any words in the date, and the type of separators used.
 
-Change the body of the `OnGet()` method to the following code:
+   Change the body of the `OnGet()` method to the following code:
 
    ```csharp
    public void OnGet()
@@ -350,7 +350,7 @@ Change the body of the `OnGet()` method to the following code:
    using System.Globalization;
    ```
 
-`System.Globalization` contains the [CultureInfo](/dotnet/api/system.globalization.cultureinfo) class.
+   `System.Globalization` contains the [CultureInfo](/dotnet/api/system.globalization.cultureinfo) class.
 
 1. Press **F5** to open your project in the web browser.
 
