@@ -272,7 +272,7 @@ Of course, you can also just include components directly during the initial inst
   winget install --id Microsoft.VisualStudio.2022.Community --override "--quiet --add Microsoft.Visualstudio.Workload.Azure"
   ```
 
-If you already have Visual Studio installed on your machine, then it's not possible to use winget's `--override` switch alongside winget's `upgrade` command. This means that you can't use Visual Studio's `--config` or `--add` parameters to modify an existing installation and add components to it.  
+If you already have Visual Studio installed on your machine, then it's not possible to use winget's `--override` switch alongside winget's `install` or `upgrade` commands. This means that you can't use Visual Studio's `--config` or `--add` parameters to modify an existing installation and add components to it.  
 
 Remember that Visual Studio installations and updates require administrator privileges, so winget will prompt you to elevate your privileges if necessary to complete the command. Also, it's not currently possible to use winget to install multiple editions (that is, different SKUs) or multiple instances of the same SKU at the same time on a client machine. 
 
