@@ -344,7 +344,7 @@ Change the body of the `OnGet()` method to the following code:
    }
    ```
 
-Notice that the following `using` directive automatically gets added to the top of the file:
+1. Notice that the following `using` directive automatically gets added to the top of the file:
 
    ```csharp
    using System.Globalization;
