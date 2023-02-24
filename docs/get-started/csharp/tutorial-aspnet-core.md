@@ -344,17 +344,13 @@ Change the body of the `OnGet()` method to the following code:
    }
    ```
 
-1. Notice that a wavy underline appears under **CultureInfo**. The wavy underline appears because this type isn't in scope.
+Notice that the following `using` directive automatically gets added to the top of the file:
 
-   :::image type="content" source="media/vs-2022/csharp-aspnet-add-new-onget-method.png" alt-text="Screenshot shows an error mark, in the form of a wavy underline, for CultureInfo in the Visual Studio code editor.":::
+   ```csharp
+   using System.Globalization;
+   ```
 
-    Open the **Error List** toolbar to see the same error listed there. If you don't see the **Error List** toolbar, go to **View** > **Error List** from the top menu bar.
-
-   :::image type="content" source="media/vs-2022/csharp-aspnet-error-list.png" alt-text="Screenshot shows the Error List toolbar in Visual Studio with CultureInfo listed, and is missing a using directive.":::
-
-1. Let's fix this error. In the code editor, place your cursor on the line that contains the error, and then select the Quick Actions light bulb in the left margin. Then, from the drop-down menu, select **using System.Globalization;** to add this directive to the top of your file and resolve the errors.
-
-   :::image type="content" source="media/vs-2022/csharp-aspnet-add-usings.png" alt-text="Screenshot shows the Quick Actions options from its drop-down menu with a mouseover on System.Globalization directive.":::
+`System.Globalization` contains the [CultureInfo](/dotnet/api/system.globalization.cultureinfo) class.
 
 1. Press **F5** to open your project in the web browser.
 
