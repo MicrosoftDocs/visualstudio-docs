@@ -6,7 +6,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.topic: tutorial
-ms.date: 02/16/2022
+ms.date: 02/23/2023
 ms.prod: visual-studio-windows
 ms.workload:
   - "aspnet"
@@ -319,7 +319,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
 
 1. Now, let's make a code change. Select **Privacy.cshtml.cs**. Then, clean up the `using` directives at the top of the file by selecting the following shortcut:
 
-   Mouseover or select a greyed out `using` directive. A [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Select the light bulb, and then select **Remove unnecessary usings**.
+   Mouseover or select a greyed out `using` directive. A [Quick Actions](../../ide/quick-actions.md) light bulb will appear just below the caret or in the left margin. Select the light bulb, and then select the expand arrow next to **Remove unnecessary usings**.
 
    :::image type="content" source="media/vs-2022/csharp-aspnet-remove-unnecessary-usings.png" alt-text="Screenshot shows the Privacy.cshtml file in the Visual Studio code editor with the Quick Actions tooltip open and Preview changes highlighted.":::
 
@@ -334,7 +334,7 @@ This solution follows the **Razor Page** design pattern. It's different than the
    - The first argument for the method specifies how the date should be displayed. This example uses the format specifier (`d`) which indicates the short date format.
    - The second argument is the [CultureInfo](/dotnet/api/system.globalization.cultureinfo) object that specifies the culture or region for the date. The second argument determines, among other things, the language of any words in the date, and the type of separators used.
 
-Change the body of the `OnGet()` method to the following code:
+   Change the body of the `OnGet()` method to the following code:
 
    ```csharp
    public void OnGet()
@@ -344,17 +344,13 @@ Change the body of the `OnGet()` method to the following code:
    }
    ```
 
-1. Notice that a wavy underline appears under **CultureInfo**. The wavy underline appears because this type isn't in scope.
+1. Notice that the following `using` directive automatically gets added to the top of the file:
 
-   :::image type="content" source="media/vs-2022/csharp-aspnet-add-new-onget-method.png" alt-text="Screenshot shows an error mark, in the form of a wavy underline, for CultureInfo in the Visual Studio code editor.":::
+   ```csharp
+   using System.Globalization;
+   ```
 
-    Open the **Error List** toolbar to see the same error listed there. If you don't see the **Error List** toolbar, go to **View** > **Error List** from the top menu bar.
-
-   :::image type="content" source="media/vs-2022/csharp-aspnet-error-list.png" alt-text="Screenshot shows the Error List toolbar in Visual Studio with CultureInfo listed, and is missing a using directive.":::
-
-1. Let's fix this error. In the code editor, place your cursor on the line that contains the error, and then select the Quick Actions light bulb in the left margin. Then, from the drop-down menu, select **using System.Globalization;** to add this directive to the top of your file and resolve the errors.
-
-   :::image type="content" source="media/vs-2022/csharp-aspnet-add-usings.png" alt-text="Screenshot shows the Quick Actions options from its drop-down menu with a mouseover on System.Globalization directive.":::
+   `System.Globalization` contains the [CultureInfo](/dotnet/api/system.globalization.cultureinfo) class.
 
 1. Press **F5** to open your project in the web browser.
 
