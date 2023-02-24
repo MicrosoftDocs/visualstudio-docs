@@ -73,7 +73,7 @@ Make sure to install the following:
 
    :::image type="content" source="media/vs-2022/asp-net-core-project-properties.png" alt-text="Open project properties"::: 
 
-1. Go to the Debug menu and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option.
+1. Go to the Debug menu and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for https.
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-react-deselect-launch-browser.png" alt-text="Open debug launch profiles UI"::: 
 
@@ -157,7 +157,9 @@ If you see this issue, most likely the frontend started before the backend. Once
 
 ### Verify ports
 
-1. Before you start the project, make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
+If the weather data does not load correctly, you may also need to verify that your ports are correct.
+
+1. Make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
 
    If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:7049`.
 
