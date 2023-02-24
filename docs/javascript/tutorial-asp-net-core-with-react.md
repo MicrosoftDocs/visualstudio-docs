@@ -145,7 +145,7 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 
 ## Troubleshooting
 
-### Prox error
+### Proxy error
 
 You may see the following error:
 

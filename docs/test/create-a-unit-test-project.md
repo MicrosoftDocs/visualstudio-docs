@@ -28,10 +28,14 @@ Unit tests often mirror the structure of the code under test. For example, a uni
 
    ::: moniker range=">=vs-2022"
 <<<<<<< HEAD
+<<<<<<< HEAD
    ![Test project templates in Visual Studio 2019](media/vs-2022/test-project-templates.png)
 =======
    ![Screenshot of test project templates in Visual Studio 2019.](media/vs-2022/test-project-templates.png)
 >>>>>>> d2ef0bf9d0678644c2f09a773dcf584ccc9728d5
+=======
+   ![Screenshot of test project templates in Visual Studio 2019.](media/vs-2022/test-project-templates.png)
+>>>>>>> 2b4544658c3f4a7c5cbdb69eef03a0a3fafab62c
    ::: moniker-end
    ::: moniker range="vs-2019"
    ![Test project templates in Visual Studio 2019](media/vs-2019/test-project-templates.png)
