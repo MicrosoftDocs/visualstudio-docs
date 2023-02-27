@@ -278,7 +278,7 @@ The *Common* versions of these properties affect both C# and Visual Basic projec
 msbuild /p:CustomBeforeMicrosoftCommonTargets="C:\build\config\Custom.Before.Microsoft.Common.Targets" MyProject.csproj
 ```
 
-You can also use the properties `AlternateCommonProps` to specify a file to use instead of *Microsoft.Common.props*. If you ever felt the need to customize *Microsoft.Common.props* by modifying it directly, you could instead copy the standard version of that file into another file, and then make your changes only in the alternate version.
+You can also use the property `AlternateCommonProps` to specify a file to use instead of *Microsoft.Common.props*. If you ever felt the need to customize *Microsoft.Common.props* by modifying it directly, you could instead copy the standard version of that file into another file, and then make your changes only in the alternate version.
 
 The best approach depends on your scenario. Using Visual Studio Extensibility, you can customize the build system and provide a mechanism for installing and managing the customizations.
 
@@ -347,7 +347,7 @@ For a global setting (to affect, say, all C++ builds for a platform on a build s
 
 ## Example
 
-This examples shows the use the preprocessed output to determine where to set a property.
+This example shows the use of preprocessed MSBuild project file output to determine where to set a property.
 
 To help you analyze the usage of a particular property you want to set, you can run MSBuild with the `/preprocess` or `/pp` argument. The output text is the result of all the imports, including the system imports like *Microsoft.Common.props* that are implicitly imported, and any of your own imports. With this output, you can see where your property needs to be set relative to where it's value is used.
 
