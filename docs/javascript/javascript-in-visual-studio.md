@@ -2,7 +2,7 @@
 title: JavaScript and TypeScript in Visual Studio
 description: Learn how Visual Studio provides rich support for JavaScript development, both using JavaScript directly, and also using the TypeScript programming language.
 titleSuffix: ""
-ms.date: "01/23/2023"
+ms.date: "02/27/2023"
 ms.technology: vs-javascript
 ms.topic: conceptual
 dev_langs:
@@ -43,11 +43,15 @@ The TypeScript SDK has been deprecated in Visual Studio 2022. Existing projects 
 > [!TIP] 
 > For projects developed in Visual Studio 2022, we encourage you to use the TypeScript NuGet or the TypeScript npm package for greater portability across different platforms and environments. For more information, see [Compile TypeScript code using NuGet](../javascript/compile-typescript-code-nuget.md) and [Compile TypeScript code using tsc](../javascript/compile-typescript-code-npm.md).
 
-## Project Templates 
+## Project Templates
 
 Starting in Visual Studio 2022, there is a new JavaScript/TypeScript project type (.esproj) that allows you to create standalone Angular, React, and Vue projects in Visual Studio. These front-end projects are created using the framework CLI tools you have installed on your local machine, so the version of the template is up to you.  
 
 Within these new projects, you can run JavaScript and TypeScript unit tests, easily add and connect ASP.NET Core API projects and download your npm modules using the npm manager. Check out some of the quickstarts and tutorials to get started. For more information, see [Visual Studio tutorials | JavaScript and TypeScript](/visualstudio/javascript).
+
+>[!NOTE]
+> A simplified, updated template is available starting in Visual Studio 2022 version 17.5. Compared to the ASP.NET SPA templates available in Visual Studio, the *.esproj* SPA templates for ASP.NET Core provide better npm dependency management, and better build and publish support.
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"

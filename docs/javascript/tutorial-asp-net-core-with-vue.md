@@ -28,7 +28,7 @@ You can use the method described in this article to create ASP.NET Core Single P
 - Create the client project based on the framework CLI installed on your computer
 
 > [!NOTE]
-> A simplified, updated template is available starting in Visual Studio 2022 version 17.5. This article describes the process using the new template.
+> A simplified, updated template is available starting in Visual Studio 2022 version 17.5. This template creates two projects in the initial solution and eliminates several configuration steps compared to the previous template. This article describes the project creation process using the new template.
 
 ## Prerequisites
 
