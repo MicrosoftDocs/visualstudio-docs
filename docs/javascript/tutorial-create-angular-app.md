@@ -1,7 +1,7 @@
 ---
 title: "Create an Angular app"
 description: In this tutorial, learn how to create a simple Angular application in Visual Studio.
-ms.date: 02/24/2023
+ms.date: 02/28/2023
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
@@ -34,17 +34,17 @@ Make sure to install the following:
 
 1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
 
-   :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Create a new project":::
+   :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project":::
 
 1. Search for Angular in the search bar at the top and then select **Standalone TypeScript Angular Template**.
 
-   :::image type="content" source="media/vs-2022/angular-choose-standalone-template.png" alt-text="Choose a template":::
+   :::image type="content" source="media/vs-2022/angular-choose-standalone-template.png" alt-text="Screenshot showing choosing a template":::
 
 1. Give your project and solution a name.
 
    When you get to the Additional information window, be sure NOT to check the **Add integration for Empty ASP.NET Web API Project** option. This option adds files to your Angular template so that it can be hooked up with the ASP.NET Core project, if an ASP.NET Core project is added.
 
-   :::image type="content" source="media/vs-2022/angular-additional-info-no-integration.png" alt-text="Additional information":::
+   :::image type="content" source="media/vs-2022/angular-additional-info-no-integration.png" alt-text="Screenshot showing Additional information":::
 
 ## View the project properties
 

@@ -1,7 +1,7 @@
 ---
 title: "Create a React app"
 description: In this tutorial, learn how to create a simple React application in Visual Studio.
-ms.date: 02/24/2023
+ms.date: 02/28/2023
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
@@ -33,17 +33,17 @@ Make sure to install the following:
 
 1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
 
-   :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Create a new project":::
+   :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project":::
 
 1. Search for React in the search bar at the top and then select **Standalone JavaScript React Template** or **Standalone TypeScript React Template**, based on your preference.
 
-   :::image type="content" source="media/vs-2022/react-choose-standalone-template.png" alt-text="Choose a template":::
+   :::image type="content" source="media/vs-2022/react-choose-standalone-template.png" alt-text="Screenshot showing choosing a template":::
 
 1. Give your project and solution a name. 
 
    If you previously selected Standalone JavaScript React Template, when you get to the Additional information window be sure NOT to check the **Add integration for Empty ASP.NET Web API Project** option. This option adds files to your React template so that it can be hooked up with the ASP.NET Core project, if an ASP.NET Core project is added.
 
-   :::image type="content" source="media/vs-2022/react-additional-info-no-integration.png" alt-text="Additional information":::
+   :::image type="content" source="media/vs-2022/react-additional-info-no-integration.png" alt-text="Screenshot showing Additional information":::
 
    Please note that creation of the React project takes a moment because the create-react-app command that runs at this time also runs the npm install command
 

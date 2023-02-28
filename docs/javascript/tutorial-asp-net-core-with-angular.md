@@ -44,17 +44,17 @@ Make sure to install the following:
 
 1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
 
-   :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Create a new project":::
+   :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project":::
 
 1. Search for Angular in the search bar at the top and then select **Angular and ASP.NET Core (Preview)**.
 
-   :::image type="content" source="media/vs-2022/angular-choose-template.png" alt-text="Choose a template":::
+   :::image type="content" source="media/vs-2022/angular-choose-template.png" alt-text="Screenshot showing choosing a template":::
 
 1. Give your project and solution a name, and choose **Create**.
 
    Once the project is created, Solution Explorer should look like this:
 
-   :::image type="content" source="media/vs-2022/asp-net-core-with-angular-solution-explorer.png" alt-text="Take a look at Solution Explorer":::
+   :::image type="content" source="media/vs-2022/asp-net-core-with-angular-solution-explorer.png" alt-text="Screenshot showing Solution Explorer":::
 
    Compared to the [standalone Angular template](../javascript/tutorial-create-angular-app.md), you see some new and modified files for integration with ASP.NET Core:
 
@@ -69,11 +69,11 @@ Make sure to install the following:
 
 1. In Solution Explorer, right-click the ASP.NET Core project and choose **Properties**.
 
-   :::image type="content" source="media/vs-2022/asp-net-core-project-properties.png" alt-text="Open project properties"::: 
+   :::image type="content" source="media/vs-2022/asp-net-core-project-properties.png" alt-text="Screenshot showing Open project properties"::: 
 
 1. Go to the Debug menu and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option.
 
-   :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser.png" alt-text="Open debug launch profiles UI"::: 
+   :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser.png" alt-text="Screenshot showing Debug launch profiles UI"::: 
 
    This prevents opening the web page with the source weather data.
 
@@ -82,13 +82,13 @@ Make sure to install the following:
 
 ## Start the project
 
-1. To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
+To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
 
-   - The ASP.NET Core API project running
-   - The Angular CLI running the ng start command
+- The ASP.NET Core API project running
+- The Angular CLI running the ng start command
 
-   >[!NOTE]
-   > Check console output for messages, such as a message instructing you to update your version of Node.js.
+>[!NOTE]
+> Check console output for messages, such as a message instructing you to update your version of Node.js.
 
 You should see an Angular app appear, that is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
 
