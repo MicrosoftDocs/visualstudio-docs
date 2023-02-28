@@ -51,7 +51,7 @@ When you restart Visual Studio at 100% scaling, or 96 DPI, you're restarting Vis
 
 ## Restart Visual Studio as a DPI-unaware process
 
-The recommended solution to resolve UI issues that can occur in **Windows Forms Designer** is to restart Visual Studio as a DPI-unaware process, which means that it restarts at 100% scaling, or 96 DPI. To so so, select the "**Restart Visual Studio with 100% scaling**" option on the yellow information bar that appears when you open a form in **Windows Forms Designer**.
+The recommended solution to resolve UI issues that can occur in **Windows Forms Designer** is to restart Visual Studio as a DPI-unaware process, which means that it restarts at 100% scaling, or 96 DPI. To do so, select the "**Restart Visual Studio with 100% scaling**" option on the yellow information bar that appears when you open a form in **Windows Forms Designer**.
 
 When Visual Studio runs as a DPI-unaware process, the designer layout issues are resolved, but fonts might appear blurry and you might see issues in other designers such as the **XAML Designer**. Visual Studio displays a different yellow informational message when it runs as a DPI-unaware process that says **Visual Studio is running as a DPI-unaware process. WPF and XAML designers might not display correctly.** The information bar also provides an option to **Restart Visual Studio as a DPI-aware process**.
 
