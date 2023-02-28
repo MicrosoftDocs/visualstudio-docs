@@ -210,7 +210,7 @@ Expand the generated methods to show what's going on:
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-### Call counts (.NET)
+### Collect call counts (.NET)
 
 If you want to view call counts in the Functions view, you can enable the setting before you start the profiler. This setting is supported for .NET project types excluding WPF and UWP.
 
@@ -222,7 +222,9 @@ If you want to view call counts in the Functions view, you can enable the settin
 
    ![Screenshot that shows settings for CPU Usage.](media/vs-2022/cpu-usage-enable-call-count.png "Settings for CPU Usage.")
 
-1. In the Functions view, make sure the **Call count** column is set to visible. If you don't see the column, right click a column heading to choose visible columns.
+1. Collect CPU usage data.
+
+1. Open the Functions view, and then make sure the **Call count** column is set to visible. If you don't see the column, right click a column heading to choose visible columns.
 
 ::: moniker-end
 
