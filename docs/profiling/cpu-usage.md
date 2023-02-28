@@ -224,7 +224,11 @@ If you want to view call counts in the Functions view, you can enable the settin
 
 1. Collect CPU usage data.
 
-1. Open the Functions view, and then make sure the **Call count** column is set to visible. If you don't see the column, right click a column heading to choose visible columns.
+1. Open the Functions view, and then make sure the **Call count** column is set to visible.
+
+   If you don't see the column, right click a column heading to choose visible columns.
+
+   ![Screenshot that shows call count data.](media/vs-2022/cpu-usage-call-count-column.png "Settings for CPU Usage.")
 
 ::: moniker-end
 
