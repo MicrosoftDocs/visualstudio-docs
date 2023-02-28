@@ -209,6 +209,23 @@ Expand the generated methods to show what's going on:
 - `MainPage::<GetNumberAsync>b__b` shows the activity of the tasks that call `GetNumber`.
 ::: moniker-end
 
+::: moniker range=">=vs-2022"
+### Call counts (.NET)
+
+If you want to view call counts in the Functions view, you can enable the setting before you start the profiler. This setting is supported for .NET project types excluding WPF and UWP.
+
+1. Select the **Settings** icon for CPU Usage in the Performance Profiler.
+
+   ![Screenshot that shows the settings icon for CPU Usage.](media/vs-2022/cpu-usage-settings-icon.png "Settings icon for CPU Usage.")
+
+1. Enable the **Collect call counts (.NET only)** option.
+
+   ![Screenshot that shows settings for CPU Usage.](media/vs-2022/cpu-usage-enable-call-count.png "Settings for CPU Usage.")
+
+1. In the Functions view, make sure the **Call count** column is set to visible. If you don't see the column, right click a column heading to choose visible columns.
+
+::: moniker-end
+
 ## See also
 
 - [Troubleshoot Profiler errors](../profiling/troubleshoot-profiler-errors.md)
