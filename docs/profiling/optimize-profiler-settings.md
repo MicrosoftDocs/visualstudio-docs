@@ -42,7 +42,7 @@ Profiling smaller durations results in less data, which is faster to analyze. Ty
 Certain tools, such as the [CPU Usage](../profiling/cpu-usage.md) tool and [NET Object Allocation](../profiling/dotnet-alloc-tool.md) tool, allow you to adjust a sampling frequency. Increasing this sampling frequency lets you measure more precisely, but increases the amount of data that's generated. Typically, it's best to leave this setting at the default rate unless a specific issue is being investigated.
 
 ::: moniker range=">=vs-2022"
-![Diag Hub Properties Page](../profiling/media/vs-2022/diaghubpropertiespage.png "Diag Hub Properties Page")
+![Diag Hub Properties Page](../profiling/media/vs-2022/diag-hub-properties-page.png "Diag Hub Properties Page")
 ::: moniker-end
 ::: moniker range="vs-2019"
 ![Diag Hub Properties Page](../profiling/media/diaghubpropertiespage.png "Diag Hub Properties Page")
