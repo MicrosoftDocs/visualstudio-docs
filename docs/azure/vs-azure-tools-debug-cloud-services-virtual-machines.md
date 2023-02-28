@@ -5,16 +5,11 @@ author: mikejo5000
 manager: jmartens
 ms.topic: how-to
 ms.workload: azure-vs
-ms.date: 2/8/2022
+ms.date: 2/28/2023
 ms.author: mikejo
 ms.technology: vs-ide-debug
 ---
-:::moniker range="vs-2019"
-# Debugging an Azure cloud service or virtual machine in Visual Studio
-:::moniker-end
-:::moniker range="vs-2022"
 # Debug an Azure cloud service in Visual Studio
-:::moniker-end
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
