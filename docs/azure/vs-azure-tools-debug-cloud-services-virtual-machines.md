@@ -5,11 +5,11 @@ author: mikejo5000
 manager: jmartens
 ms.topic: how-to
 ms.workload: azure-vs
-ms.date: 2/8/2022
+ms.date: 2/28/2023
 ms.author: mikejo
 ms.technology: vs-ide-debug
 ---
-# Debugging an Azure cloud service or virtual machine in Visual Studio
+# Debug an Azure cloud service in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -265,8 +265,8 @@ You can debug programs that run in Azure App Services by using the Attach to Pro
 
     ![Screenshot of Select Azure App Service Dialog, showing a list of App Services to select.](./media/vs-azure-tools-debug-cloud-services-virtual-machines/select-app-service.png)
 
-> [!NOTE]
-> You need to be logged into a Microsoft Account with access to the subscription that contains your Azure App Service.
+    > [!NOTE]
+    > You need to be logged into a Microsoft Account with access to the subscription that contains your Azure App Service.
 
 4. Filter the view by either Resource Group or Resource Type, or search by name.
 
@@ -279,6 +279,8 @@ You can debug programs that run in Azure App Services by using the Attach to Pro
 6. Select the process you want to attach to and then choose **Attach** to start debugging. 
 
 ::: moniker-end
+
+::: moniker range="vs-2019"
 
 ## Debugging Azure virtual machines
 
@@ -365,6 +367,8 @@ Visual Studio ASP.NET projects offer an option to create a handy virtual machine
     ![Select code type dialog box](./media/vs-azure-tools-debug-cloud-services-virtual-machines/IC718346.png)
 
 10. Choose the processes you want to debug on the virtual machine and then select **Attach**. For example, you might choose the w3wp.exe process if you wanted to debug a web app on the virtual machine. See [Debug One or More Processes in Visual Studio](../debugger/debug-multiple-processes.md) for more information.
+
+:::moniker-end
 
 ## Next steps
 
