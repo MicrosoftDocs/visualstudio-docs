@@ -45,8 +45,8 @@ landingContent:
             url: tutorial-console.md
           - text: Create a web app 
             url: tutorial-aspnet-core.md
-          - text: Create a Universal Windows Platform app 
-            url: tutorial-uwp.md
+          - text: Create a Windows App SDK app 
+            url: tutorial-wasdk.md
           - text: Create a Windows Desktop app
             url: tutorial-wpf.md
           - text: Create a Windows Forms app

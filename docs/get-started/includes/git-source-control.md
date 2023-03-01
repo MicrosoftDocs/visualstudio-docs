@@ -1,5 +1,5 @@
 ---
-ms.date: 02/11/2022
+ms.date: 02/24/2023
 ms.technology: vs-ide-general
 ms.custom: vs-get-started, devdivchpfy22
 ms.author: tglee
@@ -24,7 +24,7 @@ To associate your code with Git, start by creating a new Git repository where yo
 
 1. In the **Create a Git repository** dialog box, sign in to GitHub.
 
-    :::image type="content" source="../media/vs-2022/git-create-repo.png" alt-text="Screenshot of the Create a Git Repository dialog window where you can sign in to GitHub.":::
+    :::image type="content" source="../media/vs-2022/git-create-repo-dialog.png" alt-text="Screenshot of the Create a Git Repository dialog window where you can sign in to GitHub.":::
 
     The repository name auto-populates based on your folder location. Your new repository is private by default, which means you're the only one who can access it.
 
@@ -35,7 +35,7 @@ To associate your code with Git, start by creating a new Git repository where yo
 
     After you create your repository, you see status details in the status bar.
 
-    :::image type="content" source="../media/vs-2022/git-new-private-repo-status-details.png" alt-text="Screenshot of the repo status bar that's below the Solution Explorer pane in Visual Studio.":::
+    :::image type="content" source="../media/vs-2022/git-new-private-repo-status-details-git-changes.png" alt-text="Screenshot of the repo status bar that's below the Solution Explorer pane in Visual Studio.":::
 
     The first icon with the arrows shows how many outgoing/incoming commits are in your current branch. You can use this icon to pull any incoming commits or push any outgoing commits. You can also choose to view these commits first. To do so, select the icon, and then select **View Outgoing/Incoming**.
 
