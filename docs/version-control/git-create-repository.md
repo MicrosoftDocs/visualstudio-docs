@@ -35,9 +35,9 @@ To follow this article, you'll need:
 
 1. In the **Create a Git repository** dialog, under the **Push to a new remote** section, choose **GitHub**.
 
-    :::image type="content" source="../get-started/media/vs-2022/git-create-repo-dialog.png" alt-text="Screenshot of the Create Git Repository dialog in Visual Studio with the GitHub selection highlighted.":::
-
 1. In the **Create a new GitHub repository** section of the **Create a Git repository** dialog, enter the name of the repo you want to create.
+
+    :::image type="content" source="../get-started/media/vs-2022/git-create-repo-dialog.png" alt-text="Screenshot of the Create Git Repository dialog in Visual Studio with the GitHub selection highlighted.":::
 
     > [!TIP]
     > If you haven't yet signed in to your GitHub account, you can do so from this screen, too.
