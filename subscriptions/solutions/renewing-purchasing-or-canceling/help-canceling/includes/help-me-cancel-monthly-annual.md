@@ -14,7 +14,6 @@ sap.id: cf10d424-47bb-7ca2-7d89-113949101f6f
 
 ## Canceling monthly and annual subscriptions
 
-## Canceling monthly and annual subscriptions
 If your company purchased the subscriptions, contact your admin or purchaser.
 
 To cancel subscriptions you purchased yourself from marketplace.visualstudio.com (using an Azure subscription), you need to set the number of subscriptions for your agreement to zero (0). Follow these steps to reduce the number of subscriptions:
