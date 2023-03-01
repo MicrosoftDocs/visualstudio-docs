@@ -2,7 +2,7 @@
 title: Use command-line parameters to install Visual Studio
 titleSuffix: ''
 description: Learn how to use command-line parameters to control or customize your Visual Studio installation.
-ms.date: 2/21/2023
+ms.date: 3/1/2023
 ms.topic: conceptual
 f1_keywords:
 - command-line parameters
@@ -113,7 +113,7 @@ Syntax example: `vs_enterprise.exe [command] <optional parameters>...`
 | `--installWhileDownloading`                        | **Optional**: During an install, update, or modify command, this parameter allows Visual Studio to both download and install the product in parallel. It's the default experience.  |
 | `--downloadThenInstall`                            | **Optional**: During an install, update, or modify command, this parameter forces Visual Studio to download all files before installing them. It is mutually exclusive from the `--installWhileDownloading` parameter.   |
 | `--channelUri`                                     | **Optional**: During an update command, you can pass in a new channelUri to change the update settings location.  Recommend to pair with --installPath parameter so that it's very explicit which instance of Visual Studio you're configuring. See [syntax examples of --channelUri](/visualstudio/install/command-line-parameter-examples#using---channelUri) |
-| `--channelId <id>`                                 | The ID of the channel, represented as something like `VisualStudio.17.Release`, `VisualStudio.17.Release.LTSC.17.0`, or `VisualStudio.17.Preview`. This is required for `modify` operations, alongside either `--productID` or `--installPath`.  |
+| `--channelId <id>`                                 | The ID of the channel, represented like `VisualStudio.17.Release`. See [syntax examples of --channelId](/visualstudio/install/command-line-parameter-examples#using---channelUri). This is required for `modify` operations, alongside either `--productID` or `--installPath`.  |
 | `--productId <id>`                                 | **Optional**: The ID of the product for the instance that will be modified, and used in conjunction with `--channelId`. The `productID` is something like "Microsoft.VisualStudio.Product.Enterprise". |
 | `--nickname <name>`                                | **Optional**: During an install command, this parameter defines the nickname to assign to an installed product. The nickname can't be longer than 10 characters. |
 | `--productKey`                                     | **Optional**: During an install command, this parameter defines the product key to use for an installed product. It's composed of 25 alphanumeric characters in the format `xxxxxxxxxxxxxxxxxxxxxxxxx`.  |
@@ -142,7 +142,7 @@ All layout management operations are run using the bootstrapper exe and they ass
 
 | **Advanced layout parameters** | **Description**                                  |
 |--------------------------------|--------------------------------------------------|
-| `--channelId <id>`             | **Optional**: The ID of the channel for the instance to be installed. This is required for the install command, and ignored for other commands if `--installPath` is specified. The `--channelId` is represented as something like `VisualStudio.17.Release`, `VisualStudio.17.Release.LTSC.17.0`, or `VisualStudio.17.Preview`.       |
+| `--channelId <id>`             | **Optional**: The ID of the channel for the instance to be installed, represented like `VisualStudio.17.Release`. This is required for the install command, and ignored for other commands if `--installPath` is specified. See [syntax examples of --channelId](/visualstudio/install/command-line-parameter-examples#using---channelUri).       |
 | `--channelUri <uri>`           | **Optional**: The URI of the channel manifest. This value governs the [source location of updates](update-visual-studio.md#configure-source-location-of-updates-1) and the initial value is [configured in the layout's response.json file](create-a-network-installation-of-visual-studio.md#configure-initial-client-installation-defaults-for-this-layout). Refer to [syntax examples of --channelUri](/visualstudio/install/command-line-parameter-examples#using---channelUri) for possible values. If updates aren't wanted, `--channelUri` can point to a non-existent file (for example, --channelUri C:\doesntExist.chman). This can be used for the install command; it's ignored for other commands.  |
 | `--installChannelUri <uri>`    | **Optional**: The URI of the channel manifest to use for the installation. The URI specified by `--channelUri` (which must be specified when `--installChannelUri` is specified) is used to detect updates. This can be used for the install command; it's ignored for other commands.  |
 | `--installCatalogUri <uri>`    | **Optional**: The URI of the catalog manifest to use for the installation. If specified, the channel manager attempts to download the catalog manifest from this URI before using the URI in the install channel manifest. This parameter is used to support offline install, where the layout cache will be created with the product catalog already downloaded. This can be used for the install command; it's ignored for other commands.    |
