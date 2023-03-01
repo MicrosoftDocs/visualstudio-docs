@@ -6,7 +6,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.topic: tutorial
-ms.date: 01/07/2022
+ms.date: 02/28/2023
 ms.custom: 
 - vs-acquisition
 ---
@@ -68,6 +68,8 @@ When you create your matching game, the first step is to create a Windows Forms 
    > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Next, select **Continue** to install the workload.
 
 1. In the **Configure your new project** window, name your project *MatchingGame*, then select **Create**.
+
+   ![Screenshot shows the Configure your new project.](../media/tutorial-windows-forms-create-match-game/configure-new-project.png)
 
 Visual Studio creates a solution for your app.
 A solution is a container for all of the projects and files needed by your app.
