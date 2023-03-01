@@ -10,8 +10,8 @@ helpviewer_keywords:
 - project types, items
 - project types, design decisions
 ms.assetid: f68671fe-fd7a-4e56-a0b5-330b0f1fedb1
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

@@ -10,8 +10,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExpressionEvaluationCompleteEvent2::GetExpression
 ms.assetid: faf6b2dd-2afd-4852-b21c-7e8d3130e141
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

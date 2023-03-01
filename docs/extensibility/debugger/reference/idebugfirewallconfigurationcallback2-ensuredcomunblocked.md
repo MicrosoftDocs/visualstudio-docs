@@ -9,8 +9,8 @@ helpviewer_keywords:
 - EnsureDCOMUnblocked
 - IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked
 ms.assetid: acf54d27-32a6-47e7-aba6-3cc0004edc7f
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

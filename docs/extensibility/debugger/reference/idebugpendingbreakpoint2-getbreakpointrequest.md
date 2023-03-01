@@ -9,8 +9,8 @@ helpviewer_keywords:
 - IDebugPendingBreakpoint2::GetBreakpointRequest method
 - GetBreakpointRequest method
 ms.assetid: cb1e36aa-4302-455c-98fb-6638a1ef5c46
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

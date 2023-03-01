@@ -9,8 +9,8 @@ helpviewer_keywords:
 - <MaxFrameworkVersion> Element (Visual Studio Templates)
 - MaxFrameworkVersion Element (Visual Studio Templates)
 ms.assetid: f732a9d3-fc29-405b-9298-01ea83fc58b8
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.workload:
 - vssdk

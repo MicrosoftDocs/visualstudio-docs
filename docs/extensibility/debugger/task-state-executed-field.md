@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - TASK_STATE_EXECUTED field, Task class [.NET Framework debug engines]
 ms.assetid: 75b8f9d0-b908-40d0-b109-70feaed2ab0c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

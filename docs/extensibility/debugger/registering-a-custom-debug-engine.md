@@ -7,8 +7,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - debug engines, registering
 ms.assetid: 9984cd3d-d34f-4662-9ace-31766499abf5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

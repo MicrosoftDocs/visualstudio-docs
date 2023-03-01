@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - ObjectForDebugger property, AsyncTaskMethodBuilder structure [.NET Framework debug engines]
 ms.assetid: 78338537-b451-4655-9f04-a21f6fe197a3
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

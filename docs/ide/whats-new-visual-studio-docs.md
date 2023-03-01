@@ -249,7 +249,7 @@ The following people contributed to Visual Studio content in January. Thank you!
 - For 17.4 GA - Update info for removeOos, ADMX, and Arm for layouts; remove svc baseline page and add more command-line parameters:
   - [Applying administrator updates that use Microsoft Endpoint Manager (SCCM or Intune)](../install/applying-administrator-updates.md)
   - [Enabling administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager](../install/enabling-administrator-updates.md)
-  - [Configure policies for enterprise deployments of Visual Studio](../install/set-defaults-for-enterprise-deployments.md)
+  - [Configure policies for enterprise deployments of Visual Studio](../install/configure-policies-for-enterprise-deployments.md)
   - [Update Visual Studio](../install/update-visual-studio.md)
   - [Repair Visual Studio](../install/repair-visual-studio.md)
   - [Visual Studio on Arm-powered devices](../install/visual-studio-on-arm-devices.md)

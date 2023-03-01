@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "localize package"
   - "localize extension"
 ms.assetid: 2a2932bc-cdbe-4d32-91fa-a3e0474f9098
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ---

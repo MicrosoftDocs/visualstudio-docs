@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramDestroyEvent2::GetExitCode
 ms.assetid: 7f540cf6-e2d1-42b0-913e-a26d654b7659
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

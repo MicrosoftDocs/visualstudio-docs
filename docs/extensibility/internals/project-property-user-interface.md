@@ -9,8 +9,8 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], properties UI
 - project properties UI
 ms.assetid: b6aec634-8533-476c-9ebd-36536a2288e2
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

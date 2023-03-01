@@ -1,7 +1,7 @@
 ---
 title: Update a network-based installation
 description: Learn how to update a Visual Studio client that was installed from a network layout
-ms.date: 1/20/2023
+ms.date: 2/21/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -28,9 +28,9 @@ If the Visual Studio client was originally installed via a network layout, then 
 
 ## Prepare the update source
 
-If you are going to update your client from Microsoft hosted servers, then the client will download and install the latest version available from Microsoft on that [channel](/visualstudio/releases/2022/vs2022-release-rhythm). 
+If you are updating your client from Microsoft hosted servers, then your client will download and install the latest version available from Microsoft on that [channel](/visualstudio/releases/2022/vs2022-release-rhythm). 
 
-If you are going to update your client from a network layout, then the first step is to prepare the network layout with the updated product. You can [update your existing layout with the latest product updates](create-a-network-installation-of-visual-studio.md#update-or-modify-your-layout) so both new installations and updates will receive the updated version. Or, you can [create a whole new layout](create-a-network-installation-of-visual-studio.md) in a different directory that you can use for updating the client machines.
+If you are trying to update your client from a network layout, then the first step is to make sure that the network layout that your instance of Visual Studio is pointing to contains the updated version of Visual Studio. Your IT administrator should either [update the existing layout with the latest product updates](create-a-network-installation-of-visual-studio.md#update-or-modify-your-layout) so both new installations and updates can receive the updated version, or your administrator can [create a whole new layout](create-a-network-installation-of-visual-studio.md) in a different directory that you can use for updating the client machines.
 
 Make sure that either the user or system account that's running the update has proper access to the network share that contains the layout. For more information, refer to [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md#error-the-product-fails-to-install-or-update-because-network-share-permissions-arent-configured-correctly).
 
@@ -55,7 +55,7 @@ To manually view and configure the update location that the client will look for
 
 If there is an update available in the location that the client is looking for updates, then the client will [pop a message or a notification flag](update-visual-studio.md?#use-the-message-box-in-the-ide-1).  
 
-For details on how to control when update notifications are presented to users, see [Control updates to network-based Visual Studio deployments](set-defaults-for-enterprise-deployments.md#controlling-notifications-in-the-visual-studio-ide).
+For details on how to control when update notifications are presented to users, see [Control updates to network-based Visual Studio deployments](configure-policies-for-enterprise-deployments.md#controlling-notifications-in-the-visual-studio-ide).
 
 ### Manually initiate the update
 
@@ -136,5 +136,5 @@ We have other support options available, too. See our [Visual Studio Developer C
 * [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
-* [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
+* [Configure policies for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md)
 * [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)

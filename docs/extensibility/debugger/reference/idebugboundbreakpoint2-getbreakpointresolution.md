@@ -9,8 +9,8 @@ helpviewer_keywords:
 - GetBreakpointResolution method
 - IDebugBoundBreakpoint2::GetBreakpointResolution method
 ms.assetid: 4479ac61-18a9-4a30-b213-9921c5af9a26
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

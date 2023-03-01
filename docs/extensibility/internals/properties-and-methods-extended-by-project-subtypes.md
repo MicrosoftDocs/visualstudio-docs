@@ -8,8 +8,8 @@ helpviewer_keywords:
 - project subtypes, extended methods
 - project subtypes, extended properties
 ms.assetid: 2b9833bf-8551-4ae1-93db-197ba645c65e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

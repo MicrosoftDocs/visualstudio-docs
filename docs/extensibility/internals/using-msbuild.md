@@ -9,8 +9,8 @@ helpviewer_keywords:
 - MSBuild, extensibility
 - packages, compiling with MSBuild
 ms.assetid: 9d38c388-1f64-430e-8f6c-e88bc99a4260
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

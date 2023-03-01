@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IPropertyProxyEESide::InitSourceDataProvider
 ms.assetid: 5156f593-5052-4e3a-9d02-081916fb342d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

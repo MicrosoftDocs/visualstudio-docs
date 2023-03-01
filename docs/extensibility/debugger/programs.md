@@ -8,8 +8,8 @@ helpviewer_keywords:
 - debugging [Debugging SDK], programs
 - programs, debugging
 ms.assetid: e1f955d8-95da-493b-837e-e97741a26d7e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

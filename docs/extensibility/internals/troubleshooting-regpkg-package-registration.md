@@ -7,8 +7,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - RegPkg
 ms.assetid: f33f822f-697a-4bad-9c10-554b4c8f6246
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

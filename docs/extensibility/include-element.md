@@ -10,8 +10,8 @@ helpviewer_keywords:
 - Include element (VSCT XML schema)
 - VSCT XML schema elements, Include
 ms.assetid: c923dfe6-084a-4105-aec1-f0a3f8399c54
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

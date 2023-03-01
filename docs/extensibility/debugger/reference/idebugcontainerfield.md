@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugContainerField interface
 ms.assetid: a8bbe061-c382-4fe9-a193-3f7d12216041
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

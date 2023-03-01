@@ -5,8 +5,8 @@ ms.custom: SEO-VS-2020
 ms.date: 04/26/2017
 ms.topic: reference
 ms.assetid: c3c3df69-83b4-4fd0-b5b1-e18c33f39376
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
