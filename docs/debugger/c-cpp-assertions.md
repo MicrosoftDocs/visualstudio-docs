@@ -152,7 +152,7 @@ _ASSERTE(_CrtIsValidPointer( address, size, TRUE );
 The following example uses [_CrtIsValidHeapPointer](/cpp/c-runtime-library/reference/crtisvalidheappointer) to verify a pointer points to memory in the local heap (the heap created and managed by this instance of the C run-time library — a DLL can have its own instance of the library, and therefore its own heap, outside of the application heap). This assertion catches not only null or out-of-bounds addresses, but also pointers to static variables, stack variables, and any other nonlocal memory.
 
 ```cpp
-_ASSERTE(_CrtIsValidPointer( myData );
+_ASSERTE(_CrtIsValidHeapPointer( myData );
 ```
 
 ### Checking a Memory Block
