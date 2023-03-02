@@ -6,7 +6,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.topic: tutorial
-ms.date: 01/05/2022
+ms.date: 02/24/2023
 ms.custom: 
 - vs-acquisition
 ---
@@ -87,6 +87,8 @@ When you create a picture viewer, the first step is to create a Windows Forms Ap
    > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Next, select **Continue** to install the workload.
 
 1. In the **Configure your new project** window, name your project *PictureViewer*, then select **Create**.
+
+   ![Screenshot shows the Configure your new project dialog box.](../media/tutorial-windows-forms-picture-viewer-layout/configure-new-project.png)
 
 ::: moniker-end
 
@@ -175,7 +177,7 @@ This section shows you how to change the title of your form, resize the form, an
 
 1. Select **Column2** and set it to 85 percent.
 
-   ![Screenshot shows TableLayoutPanel column and row styles.](../media/tutorial-windows-forms-picture-viewer-layout/layout-column-row-styles.png)
+   ![Screenshot shows TableLayoutPanel column and row styles.](../media/tutorial-windows-forms-picture-viewer-layout/layout-column-row-styles-size-percent.png)
 
 1. From **Show** at the top of the **Column and Row Styles** dialog box, select **Rows**. Set **Row1** to 90 percent and **Row2** to 10 percent. Select **OK** to save your changes. 
 
