@@ -8,7 +8,7 @@ ms.topic: how-to
 helpviewer_keywords:
   - msbuild logs"
 author: tylermsft
-ms.author: corob
+ms.author: twhitney
 manager: jmartens
 dev_langs:
  - CSharp

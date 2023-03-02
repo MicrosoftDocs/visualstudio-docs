@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "MSBuild (C++), FXC task"
   - "FXC task (MSBuild (C++))"
 author: tylermsft
-ms.author: corob
+ms.author: twhitney
 ms.workload:
   - "multiple"
 ---

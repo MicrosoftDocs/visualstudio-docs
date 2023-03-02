@@ -14,7 +14,7 @@ helpviewer_keywords:
 - ClangFormat
 ms.assetid: cb6f1cbb-5305-48da-a8e8-33fd70775d46
 author: tylermsft
-ms.author: corob
+ms.author: twhitney
 manager: markl
 ms.workload:
 - cplusplus

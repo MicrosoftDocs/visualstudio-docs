@@ -16,7 +16,7 @@ helpviewer_keywords:
   - "BuildLog.htm"
 ms.assetid: 56420efd-6a95-464e-b890-e2b38c48d66a
 author: tylermsft
-ms.author: corob
+ms.author: twhitney
 manager: markl
 ms.workload:
   - "cplusplus"

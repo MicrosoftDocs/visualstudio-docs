@@ -5,7 +5,7 @@ ms.custom: SEO-VS-2020
 ms.date: 10/08/2018
 ms.topic: conceptual
 author: tylermsft
-ms.author: corob
+ms.author: twhitney
 manager: markl
 ms.workload:
   - "cplusplus"

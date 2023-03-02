@@ -9,7 +9,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.Experimental"
   - "VS.ToolsOptionsPages.Text_Editor.C\\C++.Experimental"
 author: tylermsft
-ms.author: corob
+ms.author: twhitney
 manager: markl
 ms.workload:
   - "cplusplus"

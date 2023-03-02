@@ -4,7 +4,7 @@ description: Learn how to develop a native C++ DLL using test-first methodology.
 ms.custom: SEO-VS-2020
 ms.date: 06/13/2019
 ms.topic: how-to
-ms.author: corob
+ms.author: twhitney
 manager: markl
 ms.workload:
   - "cplusplus"

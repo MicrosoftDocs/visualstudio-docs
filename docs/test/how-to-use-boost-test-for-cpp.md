@@ -4,7 +4,7 @@ description: Use Boost.Test to create unit tests in Visual Studio.
 ms.date: 01/29/2020
 ms.topic: how-to
 author: tylermsft
-ms.author: corob
+ms.author: twhitney
 manager: markl
 ms.workload: 
   - cplusplus

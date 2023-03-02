@@ -4,7 +4,7 @@ description: Learn about the several ways to test DLL code, depending on whether
 ms.custom: SEO-VS-2020
 ms.date: 02/16/2021
 ms.topic: how-to
-ms.author: corob
+ms.author: twhitney
 manager: markl
 ms.workload: 
   - cplusplus

@@ -6,7 +6,7 @@ ms.topic: "conceptual"
 dev_langs:
   - "C++"
 author: "tylermsft"
-ms.author: "corob"
+ms.author: "twhitney"
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload: ["vssdk"]
