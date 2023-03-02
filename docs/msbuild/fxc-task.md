@@ -15,7 +15,7 @@ dev_langs:
 helpviewer_keywords:
   - "MSBuild (C++), FXC task"
   - "FXC task (MSBuild (C++))"
-author: corob-msft
+author: tylermsft
 ms.author: corob
 ms.workload:
   - "multiple"

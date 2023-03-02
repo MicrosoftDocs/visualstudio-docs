@@ -9,7 +9,7 @@ manager: jmartens
 ms.technology: vs-ide-test
 ms.workload: 
   - uwp
-author: corob-msft
+author: tylermsft
 ---
 # How to test a C++ DLL
 

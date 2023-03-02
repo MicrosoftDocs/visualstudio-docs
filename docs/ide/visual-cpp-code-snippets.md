@@ -4,7 +4,7 @@ description: Learn how to use code snippets to add commonly used code to your C+
 ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-author: corob-msft
+author: tylermsft
 ms.author: corob
 manager: markl
 dev_langs:

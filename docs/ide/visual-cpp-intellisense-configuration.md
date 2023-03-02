@@ -4,7 +4,7 @@ description: Learn how to manually configure your C++ project to get IntelliSens
 ms.custom: SEO-VS-2020
 ms.date: 10/08/2018
 ms.topic: conceptual
-author: corob-msft
+author: tylermsft
 ms.author: corob
 manager: markl
 ms.workload:

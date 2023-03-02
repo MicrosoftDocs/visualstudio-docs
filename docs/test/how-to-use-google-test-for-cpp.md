@@ -8,7 +8,7 @@ ms.author: corob
 manager: markl
 ms.workload: 
   - cplusplus
-author: corob-msft
+author: tylermsft
 ---
 # How to use Google Test for C++ in Visual Studio
 

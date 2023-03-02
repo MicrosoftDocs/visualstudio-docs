@@ -9,7 +9,7 @@ manager: jmartens
 ms.technology: vs-ide-test
 ms.workload:
   - "multiple"
-author: corob-msft
+author: tylermsft
 ---
 # Microsoft.VisualStudio.TestTools.CppUnitTestFramework API reference
 

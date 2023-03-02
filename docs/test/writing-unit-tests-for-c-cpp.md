@@ -8,7 +8,7 @@ ms.author: "corob"
 manager: markl
 ms.workload:
   - "cplusplus"
-author: corob-msft
+author: tylermsft
 ---
 # Write unit tests for C/C++ in Visual Studio
 

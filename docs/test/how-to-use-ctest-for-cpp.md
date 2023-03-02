@@ -9,7 +9,7 @@ manager: jmartens
 ms.technology: vs-ide-test
 ms.workload: 
   - cplusplus
-author: corob-msft
+author: tylermsft
 ---
 # How to use CTest for C++ in Visual Studio 2017 and later
 

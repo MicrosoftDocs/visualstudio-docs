@@ -15,7 +15,7 @@ helpviewer_keywords:
   - "extensions, files built by C or C++ compiler"
   - "BuildLog.htm"
 ms.assetid: 56420efd-6a95-464e-b890-e2b38c48d66a
-author: corob-msft
+author: tylermsft
 ms.author: corob
 manager: markl
 ms.workload:

@@ -7,7 +7,7 @@ ms.author: corob
 manager: markl
 ms.workload: 
   - cplusplus
-author: corob-msft
+author: tylermsft
 ---
 # Use the Microsoft Unit Testing Framework for C++ in Visual Studio
 

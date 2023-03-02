@@ -11,7 +11,7 @@ f1_keywords:
 helpviewer_keywords:
   - "Text Editor Options dialog box, advanced"
 ms.assetid: 67c82ae5-fddd-49df-baec-8e7498b156f3
-author: corob-msft
+author: tylermsft
 ms.author: corob
 manager: markl
 ms.workload:

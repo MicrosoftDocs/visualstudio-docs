@@ -15,7 +15,7 @@ dev_langs:
 helpviewer_keywords:
   - "MSBuild (C++), GetOutOfDateItems task"
   - "GetOutOfDateItems task (MSBuild (C++))"
-author: corob-msft
+author: tylermsft
 ms.author: corob
 ms.workload:
   - "multiple"

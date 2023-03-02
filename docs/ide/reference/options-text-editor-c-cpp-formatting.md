@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Text Editor Options dialog box, formatting
 - ClangFormat
 ms.assetid: cb6f1cbb-5305-48da-a8e8-33fd70775d46
-author: corob-msft
+author: tylermsft
 ms.author: corob
 manager: markl
 ms.workload:

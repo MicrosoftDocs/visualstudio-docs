@@ -8,7 +8,7 @@ ms.author: corob
 manager: markl
 ms.workload:
   - "cplusplus"
-author: corob-msft
+author: tylermsft
 ---
 # How to: Write unit tests for C++ DLLs
 
