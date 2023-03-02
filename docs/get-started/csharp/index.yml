@@ -56,9 +56,9 @@ landingContent:
           - text: Windows Forms Match Game
             url: tutorial-windows-forms-create-match-game.md
           - text: "Windows Forms Math Quiz"
-            url: tutorial-windows-forms-math-quiz-add-math-problems.md
+            url: tutorial-windows-forms-math-quiz-create-project-add-controls.md
           - text: Windows Forms Picture Viewer
-            url: tutorial-windows-forms-picture-viewer-code.md              
+            url: tutorial-windows-forms-picture-viewer-layout.md              
        
   # Card
   - title: Learn Visual Studio
