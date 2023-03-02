@@ -100,6 +100,14 @@ You can view the **Add** fly-out menu from either the **Solution** node, the **P
 
 For a tutorial that walks you through how to add items and projects by using the context menu in Solution Explorer, see the [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md#add-an-item-to-the-project) page.
 
+::: moniker range="vs-2022"
+
+## Quick Add
+
+New in the [17.5 release](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-5-released/), you can use the **Quick Add** dialog to quickly create an empty file or a simple C# class, all without having to browse through a list of templates. In Solution Explorer, right-click on a folder or project and then select **Add** > **New Item**. Or, if you prefer, use the **Ctrl**+**Shift**+**A** keyboard shortcut.
+
+::: moniker-end
+
 ## See also
 
 - [What are solutions and projects in Visual Studio?](solutions-and-projects-in-visual-studio.md)
