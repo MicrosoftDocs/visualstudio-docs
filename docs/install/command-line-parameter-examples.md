@@ -1,7 +1,7 @@
 ---
 title: Command-line parameter examples for installation
 description: Customize these examples to create your own command-line installation of Visual Studio.
-ms.date: 2/21/2023
+ms.date: 3/1/2023
 ms.topic: conceptual
 ms.assetid: 837F31AA-F121-46e9-9996-F8BCE768E579
 author: anandmeg
@@ -105,6 +105,12 @@ For lists of the workloads and components that you can install by using the comm
    --includeRecommended
   ```
 
+* Use --config to configure the contents of a layout:
+ 
+   ```shell
+  vs_enterprise.exe --layout C:\layout --config "C:\myconfig.vsconfig" --useLatestInstaller
+  ```
+
 ## Using --all to acquire the entire product
 
 * Start an interactive installation of all workloads and components that are available in the Visual Studio Enterprise edition:
@@ -123,16 +129,16 @@ For lists of the workloads and components that you can install by using the comm
   ```
 
 ## Using --channelURI
-Using the Visual Studio 2022 or later installer, it's possible to [configure where Visual Studio looks for updates](/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1). The `--channelURI` is otherwise known as the update channel or the source location of updates. The following table gives example values for channelURI and what they mean.
+Using the Visual Studio 2022 or later installer, it's possible to [configure where Visual Studio looks for updates](/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1). The `--channelURI` is otherwise known as the update channel or the source location of updates. The following table gives example values for channelId and channelURI and what they mean.
 
-| **Channel Name** | **--channelURI** |
-|------------------|------------------|
-| Visual Studio 2022 Current channel | `https://aka.ms/vs/17/release/channel` |
-| Visual Studio 2022 17.0 LTSC channel | `https://aka.ms/vs/17/release.LTSC.17.0/channel` |
-| Visual Studio 2022 Preview channel | `https://aka.ms/vs/17/pre/channel` |
-| Visual Studio 2019 Release channel | `https://aka.ms/vs/16/release/channel` |
-| Visual Studio 2017 Release channel | `https://aka.ms/vs/15/release/channel` |
-| Custom layout - Private Channel | `\\layoutserver\share\path\channelmanifest.json` |
+| **Channel Name** | **--channelURI** | **--channelId** |
+|------------------|------------------|-----------------|
+| Visual Studio 2022 Current channel | `https://aka.ms/vs/17/release/channel` | `VisualStudio.17.Release` |
+| Visual Studio 2022 17.0 LTSC channel | `https://aka.ms/vs/17/release.LTSC.17.0/channel` | `VisualStudio.17.Release.LTSC.17.0` |
+| Visual Studio 2022 Preview channel | `https://aka.ms/vs/17/pre/channel` | `VisualStudio.17.Preview` |
+| Visual Studio 2019 Release channel | `https://aka.ms/vs/16/release/channel` | `VisualStudio.16.Release` |
+| Visual Studio 2017 Release channel | `https://aka.ms/vs/15/release/channel` | `VisualStudio.15.Release` |
+| Custom layout - Private Channel | `\\layoutserver\share\path\channelmanifest.json` | `VisualStudio.17.Release` (or whatever the layout was based on) |
 
 If you choose to use a custom layout as the update channel, then be aware of the following guidelines:
   * the --channelURI must point to the 'channelmanifest.json' file in the custom layout. 
@@ -202,7 +208,7 @@ If you choose to use a custom layout as the update channel, then be aware of the
 * Use export to save custom selection from scratch:
 
   ```shell
-  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" export --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --config "C:\.vsconfig"
+  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" export --channelId VisualStudio.17.Release --productId Microsoft.VisualStudio.Product.Enterprise --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --config "C:\.vsconfig"
   ```
 
 ## Using --config
@@ -233,13 +239,6 @@ Use the [Windows Package Manager](/windows/package-manager/winget/) "winget" too
   winget install --id Microsoft.VisualStudio.2022.Community --override "--passive --config c:\my.vsconfig"
   ```
   
-* Use --config to configure the contents of a layout:
- 
-   ```shell
-  vs_enterprise.exe --layout C:\layout --config "C:\myconfig.vsconfig" --useLatestInstaller
-  ```
-   
-
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
