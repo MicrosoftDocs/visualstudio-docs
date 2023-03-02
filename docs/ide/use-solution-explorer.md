@@ -104,7 +104,23 @@ For a tutorial that walks you through how to add items and projects by using the
 
 ## Quick Add
 
-New in the [17.5 release](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-5-released/), you can use the **Quick Add** dialog to quickly create an empty file or a simple C# class, all without having to browse through a list of templates. In Solution Explorer, right-click on a folder or project and then select **Add** > **New Item**. Or, if you prefer, use the **Ctrl**+**Shift**+**A** keyboard shortcut.
+New in the [17.5 release](/visualstudio/releases/2022/release-notes-v17.5), you can use the **Quick Add** dialog to quickly create an empty file or a simple C# class, all without having to browse through a list of templates. In Solution Explorer, right-click on a folder or project and then select **Add** > **New Item**. Or, if you prefer, use the **Ctrl**+**Shift**+**A** keyboard shortcut.
+
+With **Quick Add**, you can perform the following tasks:
+
+- Add a new file without browsing through the template list. Example: MyClass.cs
+- Create nested folders in a single operation. Example: Folder1/Folder2/, Folder1/Folder2/MyFile.cs
+- Add files with any extension, or with no extension at all. Example: File.MyExtension, README, .gitignore
+  - Quick Add populates a default extension for you, but you can press **Escape** after opening the dialog to quickly clear the input box.
+- Add multiple files at one time. Example: File1.cs, File2.html or File.(cs, txt). (The first example creates a File1.cs and File2.html. The second example creates a File.cs and a File.txt.)
+
+You can also quickly switch between the **Quick Add** dialog and **New Item** dialog. Visual Studio remembers your choice, so you get the experience that best suits your needs. And if you’d like to return directly to the Quick Add dialog regardless of previous state, enter **Shift**+**F2**.
+
+- Use **Show All Templates** to open the **New Item** dialog
+- Use **Show Compact View** to open the Quick Add dialog
+
+> [!TIP]
+> You can configure the [keyboard shortcuts](default-keyboard-shortcuts-in-visual-studio.md) for the **Project.AddNewItem** command and the **AddQuickFile** command from **Tools** > **Options** > **Environment** > **Keyboard**.
 
 ::: moniker-end
 
