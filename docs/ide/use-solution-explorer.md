@@ -1,6 +1,6 @@
 ---
 title: Learn about Solution Explorer
-description: Learn how you can use the Solution Explorer tool window in Visual Studio to create & manage your files, projects, and solutions.
+description: Learn how you can use Solution Explorer and its context menu to manage the projects and files in a solutions.
 ms.date: 03/03/2023
 ms.topic: conceptual
 ms.custom: contperf-fy22q4
@@ -17,7 +17,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can use Solution Explorer to create & manage your solutions and projects and to view & interact with your code. In this article, we'll cover how to open Solution Explorer if you inadvertently close it. Then, we'll describe the Solution Explorer user interface (UI) in detail.
+You can use Solution Explorer to manage the projects and files within a solution. This article describes the Solution Explorer user interface (UI) in detail, and how to open Solution Explorer if you inadvertently close it. The article also describes how you can use right-click context menu in Solution Explorer to quickly add new files, folders, and code elements to a project.
 
 ## Open Solution Explorer
 
@@ -70,7 +70,7 @@ The toolbar contains the following UI elements, from left to right:
 
 In Solution Explorer, there are several options that you can interact with by using the right-click context menu. The  context-specific options that appear depend on whether you select a **Solution** node or a **Project** node.
 
-### Solution node context menu options
+### Solution node menu options
 
 The following screenshot for a C# console app shows the context menu options that appear when you right-click the **Solution** node.
 
@@ -80,7 +80,7 @@ What you see in the context menu from the **Solution** node also depends on your
 
 :::image type="content" source="media/solution-node-context-menu-extra-items-sml.png" alt-text="Screenshot of the right-click context menu from a solution node in Solution Explorer, which shows extra options." lightbox="media/solution-node-context-menu-extra-items-lrg.png":::
 
-### Project node context menu options
+### Project node menu options
 
 The following screenshot for a C# console app shows the context menu options that appear when you right-click the **Project** node.
 
@@ -90,7 +90,7 @@ What you see in the context menu from the **Project** node also depends on your 
 
 :::image type="content" source="media/project-node-context-menu-extra-items-sml.png" alt-text="Screenshot of the right-click context menu from a project node in Solution Explorer, which shows an extra option." lightbox="media/project-node-context-menu-extra-items-lrg.png":::
 
-## The Add context menu fly-out
+## The Add menu fly-out
 
 In the Solution Explorer context menu, one of the most useful options is the **Add** fly-out menu. From it, you can [add another project](../get-started/csharp/tutorial-console-part-2.md#add-another-project) to a solution. You can also add an item to a project, and more.
 
@@ -100,21 +100,21 @@ You can view the **Add** fly-out menu from either the **Solution** node, the **P
 
 For a tutorial that walks you through how to add items and projects by using the context menu in Solution Explorer, see the [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md#add-an-item-to-the-project) page.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ## Quick Add dialog
 
-New in the [17.5 release](/visualstudio/releases/2022/release-notes-v17.5), you can use the Quick Add dialog to quickly create an empty file or a simple C# class, all without having to browse through a list of templates. In Solution Explorer, right-click on a folder or project and then select **Add** > **New Item**. Or, if you prefer, use the <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd> keyboard shortcut.
+Starting with the Visual Studio 2022 the [17.5 release](/visualstudio/releases/2022/release-notes-v17.5), you can use the Quick Add dialog to quickly create an empty file or a simple C# class, all without having to browse through a list of templates. In Solution Explorer, right-click on a folder or project and then select **Add** > **New Item**. Or, if you prefer, use the <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd> keyboard shortcut.
 
 :::image type="content" source="media/vs-2022/quick-add-new-item.png" alt-text="Screenshot of the new Quick Add dialog in Visual Studio.":::
 
 With Quick Add, you can perform the following tasks:
 
-- Add a new file without browsing through the template list. Example: *MyClass.cs*
-- Create nested folders in a single operation. Example: *Folder1/Folder2/*, *Folder1/Folder2/MyFile.cs*
-- Add files with any extension, or with no extension at all. Example: *File.MyExtension*, *README*, *.gitignore*
+- Add a new file without browsing through the template list. <br> Example: *MyClass.cs*
+- Create nested folders in a single operation. <br> Example: *Folder1/Folder2/*, *Folder1/Folder2/MyFile.cs*
+- Add files with any extension, or with no extension at all. <br> Example: *File.MyExtension*, *README*, *.gitignore*
   - Quick Add populates a default extension for you, but you can select **Escape** after you open the dialog to quickly clear the input box.
-- Add multiple files at one time. Example: *File1.cs*, *File2.html* or *File.cs, File.txt)*.
+- Add multiple files at one time. <br> Example: *File1.cs*, *File2.html* or *File.cs, File.txt)*.
 
 You can also quickly switch between the Quick Add dialog and New Item dialog. Visual Studio remembers your choice, so you get the experience that best suits your needs. And if you’d like to return directly to the Quick Add dialog regardless of previous state, select <kbd>Shift</kbd>+<kbd>F2</kbd>.
 
@@ -122,11 +122,11 @@ Here's how.
 
 - Use **Show All Templates** to open the **New Item** dialog
 
-:::image type="content" source="media/vs-2022/quick-add-show-all-templates.png" alt-text="Screenshot of the Quick Add dialog with the Show All Templates button highlighted for emphasis.":::
+    :::image type="content" source="media/vs-2022/quick-add-show-all-templates.png" alt-text="Screenshot of the Quick Add dialog with the Show All Templates button highlighted for emphasis.":::
 
 - Use **Show Compact View** to open the **Quick Add** dialog
 
-:::image type="content" source="media/vs-2022/quick-add-show-compact-view.png" alt-text="Screenshot of the Quick Add dialog class selection picker with the Show Compact View button highlighted for emphasis.":::
+    :::image type="content" source="media/vs-2022/quick-add-show-compact-view.png" alt-text="Screenshot of the Quick Add dialog class selection picker with the Show Compact View button highlighted for emphasis.":::
 
 > [!TIP]
 > You can configure the [keyboard shortcuts](default-keyboard-shortcuts-in-visual-studio.md) for the **Project.AddNewItem** command and the **AddQuickFile** command from **Tools** > **Options** > **Environment** > **Keyboard**.
