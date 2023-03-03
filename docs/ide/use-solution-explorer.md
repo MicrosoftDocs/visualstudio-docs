@@ -104,7 +104,7 @@ For a tutorial that walks you through how to add items and projects by using the
 
 ## The Quick Add dialog
 
-Starting with the Visual Studio 2022 version [17.5] (/visualstudio/releases/2022/release-notes-v17.5) release, you can use the Quick Add dialog to create an empty file or a simple C# class. In Solution Explorer, right-click on a folder or project and then select **Add** > **New Item**. Or, if you prefer, use the <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd> keyboard shortcut.
+Starting with the Visual Studio 2022 version [17.5](/visualstudio/releases/2022/release-notes-v17.5) release, you can use the Quick Add dialog to create an empty file or a simple C# class. In Solution Explorer, right-click on a folder or project and then select **Add** > **New Item**. Or, if you prefer, use the <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd> keyboard shortcut.
 
 :::image type="content" source="media/vs-2022/quick-add-new-item.png" alt-text="Screenshot of the new Quick Add dialog in Visual Studio.":::
 
