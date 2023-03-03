@@ -38,8 +38,8 @@ The following table is a text-equivalent of the annotated screenshot, but with a
 |[**Toolbar**](#solution-explorer-toolbar) | Control how your files appear |
 |**Search** bar | Search for specific files and file types |
 |**Main** window | View and manage your files, projects, & solutions |
-|[**Solution** node](#solution-node-context-menu-options) | Manage your solution(s) |
-|[**Project** node](#project-node-context-menu-options) | Manage your project(s) |
+|[**Solution** node](#solution-node-menu-options) | Manage your solution(s) |
+|[**Project** node](#project-node-menu-options)| Manage your project(s) |
 |**Dependencies** node | Manage your solution & project dependencies |
 |**Program** node |  View, edit, and manage your program or application (app) |
 |[**Git Changes** tab](../version-control/git-with-visual-studio.md) |  Use Git & GitHub within Visual Studio to collaborate on projects with your team |

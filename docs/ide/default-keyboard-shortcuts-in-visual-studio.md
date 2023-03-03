@@ -2,7 +2,7 @@
 title: Keyboard shortcuts
 description: Learn about the default keyboard shortcuts in Visual Studio that allow you to access a variety of commands and windows.
 ms.custom: SEO-VS-2020
-ms.date: 06/01/2022
+ms.date: 03/03/2023
 ms.topic: reference
 helpviewer_keywords:
 - shortcut keys [Visual Studio], keyboard binding schemes
@@ -467,6 +467,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |-|-|-|
 |Add existing item|**Shift+Alt+A**| Project.AddExistingItem |
 |Add new item|**Ctrl+Shift+A**| Project.AddNewItem |
+|Quick add new item or class|**Shift+F2**| AddQuickFile |
 |Class wizard|**Ctrl+Shift+X**| Project.ClassWizard |
 |Override|**Ctrl+Alt+Ins**| Project.Override |
 |Preview changes|**Alt+;** then **Alt+C**| Project.Previewchanges |
