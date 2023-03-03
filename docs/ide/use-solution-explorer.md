@@ -104,11 +104,11 @@ For a tutorial that walks you through how to add items and projects by using the
 
 ## The Quick Add dialog
 
-Starting with the Visual Studio 2022 the [17.5 release](/visualstudio/releases/2022/release-notes-v17.5), you can use the Quick Add dialog to create an empty file or a simple C# class. In Solution Explorer, right-click on a folder or project and then select **Add** > **New Item**. Or, if you prefer, use the <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd> keyboard shortcut.
+Starting with the Visual Studio 2022 version [17.5] (/visualstudio/releases/2022/release-notes-v17.5) release, you can use the Quick Add dialog to create an empty file or a simple C# class. In Solution Explorer, right-click on a folder or project and then select **Add** > **New Item**. Or, if you prefer, use the <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd> keyboard shortcut.
 
 :::image type="content" source="media/vs-2022/quick-add-new-item.png" alt-text="Screenshot of the new Quick Add dialog in Visual Studio.":::
 
-With Quick Add, you can perform the following tasks:
+With Quick Add, you can perform the following tasks.
 
 - Add a new file without browsing through the template list. <br> Example: *MyClass.cs*
 - Create nested folders in a single operation. <br> Example: *Folder1/Folder2/*, *Folder1/Folder2/MyFile.cs*
@@ -116,7 +116,7 @@ With Quick Add, you can perform the following tasks:
   - Quick Add populates a default extension for you, but you can select Escape (**Esc**) after you open the dialog to quickly clear the input box.
 - Add multiple files at one time. <br> Example: *File1.cs*, *File2.html* or *File.cs, File.txt*.
 
-You can also quickly switch between the Quick Add dialog and New Item dialog. Here's how:
+You can also quickly switch between the Quick Add dialog and New Item dialog. Here's how.
 
 - Use **Show All Templates** to open the **New Item** dialog.
 
