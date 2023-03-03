@@ -1,7 +1,7 @@
 ---
 title: Learn about Solution Explorer
 description: Learn how you can use the Solution Explorer tool window in Visual Studio to create & manage your files, projects, and solutions.
-ms.date: 08/26/2022
+ms.date: 03/03/2023
 ms.topic: conceptual
 ms.custom: contperf-fy22q4
 helpviewer_keywords:
@@ -106,6 +106,8 @@ For a tutorial that walks you through how to add items and projects by using the
 
 New in the [17.5 release](/visualstudio/releases/2022/release-notes-v17.5), you can use the Quick Add dialog to quickly create an empty file or a simple C# class, all without having to browse through a list of templates. In Solution Explorer, right-click on a folder or project and then select **Add** > **New Item**. Or, if you prefer, use the <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd> keyboard shortcut.
 
+:::image type="content" source="media/vs-2022/quick-add-new-item.png" alt-text="Screenshot of the new Quick Add dialog in Visual Studio.":::
+
 With Quick Add, you can perform the following tasks:
 
 - Add a new file without browsing through the template list. Example: *MyClass.cs*
@@ -120,11 +122,11 @@ Here's how.
 
 - Use **Show All Templates** to open the **New Item** dialog
 
-
+:::image type="content" source="media/vs-2022/quick-add-show-all-templates.png" alt-text="Screenshot of the Quick Add dialog with the Show All Templates button highlighted for emphasis.":::
 
 - Use **Show Compact View** to open the **Quick Add** dialog
 
-
+:::image type="content" source="media/vs-2022/quick-add-show-compact-view.png" alt-text="Screenshot of the Quick Add dialog class selection picker with the Show Compact View button highlighted for emphasis.":::
 
 > [!TIP]
 > You can configure the [keyboard shortcuts](default-keyboard-shortcuts-in-visual-studio.md) for the **Project.AddNewItem** command and the **AddQuickFile** command from **Tools** > **Options** > **Environment** > **Keyboard**.
