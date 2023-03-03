@@ -21,7 +21,7 @@ You can use Solution Explorer to create & manage your solutions and projects and
 
 ## Open Solution Explorer
 
-By default, the Solution Explorer tool window appears as a pane in the upper-right side of the Visual Studio [integrated development environment](../get-started/visual-studio-ide.md) (IDE). If you don't see the Solution Explorer tool window, you can open it from the Visual Studio menu bar by using **View** > **Solution Explorer**, or by pressing **Ctrl**+**Alt**+**L**.
+By default, the Solution Explorer tool window appears as a pane in the upper-right side of the Visual Studio [integrated development environment](../get-started/visual-studio-ide.md) (IDE). If you don't see the Solution Explorer tool window, you can open it from the Visual Studio menu bar by using **View** > **Solution Explorer**, or by selecting <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>L</kbd>.
 
 :::image type="content" source="media/visual-studio-integrated-development-environment.png" alt-text="Screenshot of the Visual Studio IDE that shows where Solution Explorer is positioned." lightbox="media/visual-studio-integrated-development-environment.png":::
 
@@ -102,22 +102,29 @@ For a tutorial that walks you through how to add items and projects by using the
 
 ::: moniker range="vs-2022"
 
-## Quick Add
+## Quick Add dialog
 
-New in the [17.5 release](/visualstudio/releases/2022/release-notes-v17.5), you can use the **Quick Add** dialog to quickly create an empty file or a simple C# class, all without having to browse through a list of templates. In Solution Explorer, right-click on a folder or project and then select **Add** > **New Item**. Or, if you prefer, use the **Ctrl**+**Shift**+**A** keyboard shortcut.
+New in the [17.5 release](/visualstudio/releases/2022/release-notes-v17.5), you can use the Quick Add dialog to quickly create an empty file or a simple C# class, all without having to browse through a list of templates. In Solution Explorer, right-click on a folder or project and then select **Add** > **New Item**. Or, if you prefer, use the <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd> keyboard shortcut.
 
-With **Quick Add**, you can perform the following tasks:
+With Quick Add, you can perform the following tasks:
 
-- Add a new file without browsing through the template list. Example: MyClass.cs
-- Create nested folders in a single operation. Example: Folder1/Folder2/, Folder1/Folder2/MyFile.cs
-- Add files with any extension, or with no extension at all. Example: File.MyExtension, README, .gitignore
-  - Quick Add populates a default extension for you, but you can press **Escape** after opening the dialog to quickly clear the input box.
-- Add multiple files at one time. Example: File1.cs, File2.html or File.(cs, txt). (The first example creates a File1.cs and File2.html. The second example creates a File.cs and a File.txt.)
+- Add a new file without browsing through the template list. Example: *MyClass.cs*
+- Create nested folders in a single operation. Example: *Folder1/Folder2/*, *Folder1/Folder2/MyFile.cs*
+- Add files with any extension, or with no extension at all. Example: *File.MyExtension*, *README*, *.gitignore*
+  - Quick Add populates a default extension for you, but you can select **Escape** after you open the dialog to quickly clear the input box.
+- Add multiple files at one time. Example: *File1.cs*, *File2.html* or *File.cs, File.txt)*.
 
-You can also quickly switch between the **Quick Add** dialog and **New Item** dialog. Visual Studio remembers your choice, so you get the experience that best suits your needs. And if you’d like to return directly to the Quick Add dialog regardless of previous state, enter **Shift**+**F2**.
+You can also quickly switch between the Quick Add dialog and New Item dialog. Visual Studio remembers your choice, so you get the experience that best suits your needs. And if you’d like to return directly to the Quick Add dialog regardless of previous state, select <kbd>Shift</kbd>+<kbd>F2</kbd>.
+
+Here's how.
 
 - Use **Show All Templates** to open the **New Item** dialog
-- Use **Show Compact View** to open the Quick Add dialog
+
+
+
+- Use **Show Compact View** to open the **Quick Add** dialog
+
+
 
 > [!TIP]
 > You can configure the [keyboard shortcuts](default-keyboard-shortcuts-in-visual-studio.md) for the **Project.AddNewItem** command and the **AddQuickFile** command from **Tools** > **Options** > **Environment** > **Keyboard**.
