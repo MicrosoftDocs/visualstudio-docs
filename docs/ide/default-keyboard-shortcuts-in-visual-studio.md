@@ -467,7 +467,6 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |-|-|-|
 |Add existing item|**Shift+Alt+A**| Project.AddExistingItem |
 |Add new item|**Ctrl+Shift+A**| Project.AddNewItem |
-|Quick add new item or class|**Shift+F2**| AddQuickFile |
 |Class wizard|**Ctrl+Shift+X**| Project.ClassWizard |
 |Override|**Ctrl+Alt+Ins**| Project.Override |
 |Preview changes|**Alt+;** then **Alt+C**| Project.Previewchanges |
@@ -499,6 +498,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Open files filter|**Ctrl+[**, **O** (letter 'O')<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+O** (letter 'O')| SolutionExplorer.OpenFilesFilter |
 |Pending changes filter|**Ctrl+[**, **P**<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+P**| SolutionExplorer.PendingChangesFilter |
 |Sync with active document|**Ctrl+[**, **S**<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+S**| SolutionExplorer.SyncWithActiveDocument |
+|Quick add new item or class|**Shift+F2**| AddQuickFile |
 
 ### <a name="bkmk_team-global-shortcuts"></a> Team: global shortcuts
 
