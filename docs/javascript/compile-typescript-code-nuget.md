@@ -43,6 +43,8 @@ If Visual Studio is installed, then the node.exe bundled with it will automatica
 
 1. Right-click the project node and choose **Add > New Item**. Choose the **TypeScript JSON Configuration File**, and then click **Add**.
 
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
+
    Visual Studio adds the *tsconfig.json* file to the project root. You can use this file to [configure options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for the TypeScript compiler.
 
 1. Open *tsconfig.json* and update to set the compiler options that you want.

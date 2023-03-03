@@ -50,7 +50,7 @@ To complete this walkthrough, you need:
 
 2. Right-click your test project in **Solution Explorer**, and then select **Add** > **New Item**.
 
-     The **Add New Item** window opens.
+     The **Add New Item** window opens. If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
 
 3. Select the **Application Configuration File** template and click **Add**.
 
