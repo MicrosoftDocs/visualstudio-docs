@@ -1,6 +1,6 @@
 ---
 title: Learn about Solution Explorer
-description: Learn how you can use Solution Explorer and its context menu to manage the projects and files in a solutions.
+description: Learn how you can use Solution Explorer and its context menu to manage the projects and files in a solution.
 ms.date: 03/03/2023
 ms.topic: conceptual
 ms.custom: contperf-fy22q4
