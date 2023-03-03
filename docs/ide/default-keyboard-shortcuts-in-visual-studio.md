@@ -498,7 +498,6 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Open files filter|**Ctrl+[**, **O** (letter 'O')<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+O** (letter 'O')| SolutionExplorer.OpenFilesFilter |
 |Pending changes filter|**Ctrl+[**, **P**<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+P**| SolutionExplorer.PendingChangesFilter |
 |Sync with active document|**Ctrl+[**, **S**<br /><br /> or<br /><br /> **Ctrl+[**, **Ctrl+S**| SolutionExplorer.SyncWithActiveDocument |
-|Quick add new item or class|**Shift+F2**| AddQuickFile |
 
 ### <a name="bkmk_team-global-shortcuts"></a> Team: global shortcuts
 
@@ -1038,6 +1037,7 @@ The shortcuts specific to this context are:
 |Command|Keyboard shortcut|Command ID|
 |-|-|-|
 |View in page inspector|**Ctrl+K, Ctrl+G**| ClassViewContextMenus.ClassViewProject.View.ViewinPageInspector |
+|Quick add new item or class|**Shift+F2**| AddQuickFile |
 
 ### <a name="bkmk_team-explorer-context-specific-shortcuts"></a> Team Explorer: context specific shortcuts
 
