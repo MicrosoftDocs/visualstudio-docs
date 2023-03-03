@@ -25,7 +25,7 @@ By default, the Solution Explorer tool window appears as a pane in the upper-rig
 
 :::image type="content" source="media/visual-studio-integrated-development-environment.png" alt-text="Screenshot of the Visual Studio IDE that shows where Solution Explorer is positioned." lightbox="media/visual-studio-integrated-development-environment.png":::
 
-## Solution Explorer tool window
+## Solution Explorer UI
 
 Let's take a look at the Solution Explorer tool window and its UI (user interface). We'll start with an annotated screenshot of an open C# console solution that has two projects.
 
@@ -44,7 +44,7 @@ The following table is a text-equivalent of the annotated screenshot, but with a
 |**Program** node |  View, edit, and manage your program or application (app) |
 |[**Git Changes** tab](../version-control/git-with-visual-studio.md) |  Use Git & GitHub within Visual Studio to collaborate on projects with your team |
 
-## Solution Explorer toolbar
+### Solution Explorer toolbar
 
 To continue, let's take a closer look at the toolbar in Solution Explorer.
 
@@ -90,7 +90,7 @@ What you see in the context menu from the **Project** node also depends on your 
 
 :::image type="content" source="media/project-node-context-menu-extra-items-sml.png" alt-text="Screenshot of the right-click context menu from a project node in Solution Explorer, which shows an extra option." lightbox="media/project-node-context-menu-extra-items-lrg.png":::
 
-## The Add menu fly-out
+## The Add menu
 
 In the Solution Explorer context menu, one of the most useful options is the **Add** fly-out menu. From it, you can [add another project](../get-started/csharp/tutorial-console-part-2.md#add-another-project) to a solution. You can also add an item to a project, and more.
 
@@ -102,9 +102,9 @@ For a tutorial that walks you through how to add items and projects by using the
 
 ::: moniker range=">=vs-2022"
 
-## Quick Add dialog
+## The Quick Add dialog
 
-Starting with the Visual Studio 2022 the [17.5 release](/visualstudio/releases/2022/release-notes-v17.5), you can use the Quick Add dialog to quickly create an empty file or a simple C# class, all without having to browse through a list of templates. In Solution Explorer, right-click on a folder or project and then select **Add** > **New Item**. Or, if you prefer, use the <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd> keyboard shortcut.
+Starting with the Visual Studio 2022 the [17.5 release](/visualstudio/releases/2022/release-notes-v17.5), you can use the Quick Add dialog to create an empty file or a simple C# class. In Solution Explorer, right-click on a folder or project and then select **Add** > **New Item**. Or, if you prefer, use the <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd> keyboard shortcut.
 
 :::image type="content" source="media/vs-2022/quick-add-new-item.png" alt-text="Screenshot of the new Quick Add dialog in Visual Studio.":::
 
@@ -113,20 +113,20 @@ With Quick Add, you can perform the following tasks:
 - Add a new file without browsing through the template list. <br> Example: *MyClass.cs*
 - Create nested folders in a single operation. <br> Example: *Folder1/Folder2/*, *Folder1/Folder2/MyFile.cs*
 - Add files with any extension, or with no extension at all. <br> Example: *File.MyExtension*, *README*, *.gitignore*
-  - Quick Add populates a default extension for you, but you can select **Escape** after you open the dialog to quickly clear the input box.
-- Add multiple files at one time. <br> Example: *File1.cs*, *File2.html* or *File.cs, File.txt)*.
+  - Quick Add populates a default extension for you, but you can select Escape (**Esc**) after you open the dialog to quickly clear the input box.
+- Add multiple files at one time. <br> Example: *File1.cs*, *File2.html* or *File.cs, File.txt*.
 
-You can also quickly switch between the Quick Add dialog and New Item dialog. Visual Studio remembers your choice, so you get the experience that best suits your needs. And if you’d like to return directly to the Quick Add dialog regardless of previous state, select <kbd>Shift</kbd>+<kbd>F2</kbd>.
+You can also quickly switch between the Quick Add dialog and New Item dialog. Here's how:
 
-Here's how.
-
-- Use **Show All Templates** to open the **New Item** dialog
+- Use **Show All Templates** to open the **New Item** dialog.
 
     :::image type="content" source="media/vs-2022/quick-add-show-all-templates.png" alt-text="Screenshot of the Quick Add dialog with the Show All Templates button highlighted for emphasis.":::
 
-- Use **Show Compact View** to open the **Quick Add** dialog
+- Use **Show Compact View** to open the **Quick Add** dialog.
 
     :::image type="content" source="media/vs-2022/quick-add-show-compact-view.png" alt-text="Screenshot of the Quick Add dialog class selection picker with the Show Compact View button highlighted for emphasis.":::
+
+Visual Studio remembers your choice so that you get the experience that best suits your needs. If you'd like to return to the default Quick Add dialog, select <kbd>Shift</kbd>+<kbd>F2</kbd>.
 
 > [!TIP]
 > You can configure the [keyboard shortcuts](default-keyboard-shortcuts-in-visual-studio.md) for the **Project.AddNewItem** command and the **AddQuickFile** command from **Tools** > **Options** > **Environment** > **Keyboard**.
