@@ -4,11 +4,11 @@ description: Write C++ unit tests in Visual Studio using various test frameworks
 ms.date: 11/29/2022
 ms.custom: devdivchpfy22
 ms.topic: conceptual
-ms.author: "corob"
+ms.author: "twhitney"
 manager: markl
 ms.workload:
   - "cplusplus"
-author: corob-msft
+author: tylermsft
 ---
 # Write unit tests for C/C++ in Visual Studio
 

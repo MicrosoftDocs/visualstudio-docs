@@ -5,8 +5,8 @@ ms.date: "04/23/2019"
 ms.topic: "conceptual"
 dev_langs:
   - "C++"
-author: "corob-msft"
-ms.author: "corob"
+author: "tylermsft"
+ms.author: "twhitney"
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload: ["vssdk"]
