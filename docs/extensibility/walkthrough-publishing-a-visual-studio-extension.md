@@ -233,7 +233,7 @@ You can remove the extension from Visual Studio Marketplace and from your comput
 
 To prevent accidental unpublishing, you must confirm the remove operation by filling extension name in the warning dialog. Note that remove/unpublish action is non-reversible
 
-![Remove-warning](/remove-warning.png)
+![Remove-warning](media/remove-warning.png)
 
 ### To remove the extension from your computer
 
