@@ -13,6 +13,8 @@ ms.custom: "contperf-fy22q1"
 
 # Configure Bridge to Kubernetes
 
+You can configure the local Bridge to Kubernetes process using two methods. You can annotate services on your cluster and you can supply local configuration.
+
 ## Kubernetes configuration
 
 ### Prevent Bridge to Kubernetes from forwarding specific ports
