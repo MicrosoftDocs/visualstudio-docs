@@ -4,12 +4,12 @@ description: Learn how to create and run tests with CTest, which is integrated i
 ms.custom: SEO-VS-2020
 ms.date: 01/23/2020
 ms.topic: how-to
-ms.author: corob
+ms.author: twhitney
 manager: jmartens
 ms.technology: vs-ide-test
 ms.workload: 
   - cplusplus
-author: corob-msft
+author: tylermsft
 ---
 # How to use CTest for C++ in Visual Studio 2017 and later
 

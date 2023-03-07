@@ -4,8 +4,8 @@ description: Learn about some IntelliSense features that you can use while codin
 ms.custom: SEO-VS-2020
 ms.date: 10/08/2018
 ms.topic: conceptual
-author: corob-msft
-ms.author: corob
+author: tylermsft
+ms.author: twhitney
 manager: markl
 ms.workload:
 - cplusplus
