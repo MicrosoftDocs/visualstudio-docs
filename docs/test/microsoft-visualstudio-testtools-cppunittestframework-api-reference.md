@@ -4,12 +4,12 @@ description: This article describes the CppUnitTestFramework members, which you 
 ms.custom: SEO-VS-2020
 ms.date: 09/27/2019
 ms.topic: reference
-ms.author: corob
+ms.author: twhitney
 manager: jmartens
 ms.technology: vs-ide-test
 ms.workload:
   - "multiple"
-author: corob-msft
+author: tylermsft
 ---
 # Microsoft.VisualStudio.TestTools.CppUnitTestFramework API reference
 
