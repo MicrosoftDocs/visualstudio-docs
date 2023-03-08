@@ -4,8 +4,8 @@ description: Learn about the advanced features that might be more appropriate fo
 ms.custom: vs-acquisition
 ms.date: 11/04/2021
 ms.topic: conceptual
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

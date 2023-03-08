@@ -5,8 +5,9 @@ ms.date: 10/24/2022
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: conceptual
-author: TerryGLee
-ms.author: tglee
+ms.custom: vs-acquisition
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.workload: multiple
 f1_keywords:
