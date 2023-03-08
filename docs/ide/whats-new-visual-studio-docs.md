@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 02/03/2023
+ms.date: 03/07/2023
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -20,6 +20,107 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
+
+## February 2023
+
+### Data tools
+
+**Updated articles**
+
+- [Create a database and add tables in Visual Studio](../data-tools/create-a-sql-database-by-using-a-designer.md) - Update and add clarifications
+
+### Debugger
+
+**Updated articles**
+
+- [How to: Enable and disable Edit and Continue (C#, VB, C++)](../debugger/how-to-enable-and-disable-edit-and-continue.md) - Update configuration commands, Spy++ docs
+- [Inspect an exception using the Exception Helper](../debugger/exception-helper.md) - Add info to view exception stack frames in the call stack window
+- [View the call stack and use the Call Stack window in the debugger](../debugger/how-to-use-the-call-stack-window.md) - Add info to view exception stack frames in the call stack window
+
+### Designers
+
+**Updated articles**
+
+- [Disable DPI-awareness to fix HDPI / scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md) - Add 'What is DPI and why does it matter' section, plus other updates
+
+### Extensibility
+
+**Updated articles**
+
+- [Walkthrough: Publish a Visual Studio extension](../extensibility/walkthrough-publishing-a-visual-studio-extension.md) - Update to the 'Remove the extension' steps
+
+### Get started
+
+**New articles**
+
+- [Tutorial: Create your first Windows App SDK application in Visual Studio with XAML and C&#35;](../get-started/csharp/tutorial-wasdk.md)
+
+**Updated articles**
+
+- [Welcome to the Visual Studio IDE | Visual Basic](../get-started/visual-basic/visual-studio-ide.md) - Update text, links, and screenshots
+
+### IDE
+
+**New articles**
+
+- [Learn about the Text Spell Checker (Preview)](../ide/text-spell-checker.md)
+
+**Updated articles**
+
+- [JavaScript IntelliSense](../ide/javascript-intellisense.md) - Update content related to JavaScript IntelliSense language service
+- [Find references in your code](../ide/finding-references.md) - Add 'Clear All Filters' info to the 'Filter By Reference Type' section
+- [How to: Manage editor modes](../ide/how-to-manage-editor-modes.md) - Update the View.FullScreen keyboard shortcut
+- [Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)](../ide/work-with-multi-factor-authentication.md) - Add troubleshooting steps
+
+### Install
+
+**Updated articles**
+
+- Update for the [17.5](/releases/2022/release-notes-v17.5) release:
+  - [Use command-line parameters to install, update, and manage Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md)
+  - [Command-line parameter examples for Visual Studio installation](../install/command-line-parameter-examples.md)
+  - [Create, maintain, and deploy a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
+  - [Create an offline installation package of Visual Studio for local installation](../install/create-an-offline-installation-of-visual-studio.md)
+  - [Import or export installation configurations](../install/import-export-installation-configurations.md)
+
+### JavaScript
+
+**Updated articles**
+
+- Update React, Angular, and Vue with ASP.NET Core for [17.5](/releases/2022/release-notes-v17.5) release:
+  - [Tutorial: Create an ASP.NET Core app with React in Visual Studio](../javascript/tutorial-asp-net-core-with-react.md)
+  - [Tutorial: Create an ASP.NET Core app with Angular in Visual Studio](../javascript/tutorial-asp-net-core-with-angular.md)
+  - [Tutorial: Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md)
+
+### MSBuild
+
+**New articles**
+
+- [Fix intermittent build failures](../msbuild/fix-intermittent-build-failures.md)
+
+**Updated articles**
+
+- [Customize your build](../msbuild/customize-your-build.md) - Add code example and discussion of where to set properties
+
+### Profiling
+
+**Updated articles**
+
+- [Which performance tool should I use? (C#, Visual Basic, C++, F#)](../profiling/choose-performance-tool.md) - Clarify content on when to use performance tools
+
+### Test
+
+**Updated articles**
+
+- [Use the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) - Add documentation for the DeploymentItem attribute
+
+### Community contributors
+
+The following people contributed to Visual Studio content in February. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
+
+- [ericmutta](https://github.com/ericmutta) - Eric Mutta (1)
+- [Giorgi](https://github.com/Giorgi) - Giorgi Dalakishvili (1)
+- [rhundhausen](https://github.com/rhundhausen) - Richard Hundhausen (1)
 
 ## January 2023
 
@@ -117,21 +218,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) - Add new code coverage filters info
 
-### Community contributors
-
-The following people contributed to Visual Studio content in January. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
-
-- [MarissaB](https://github.com/MarissaB) - Marissa B (3)
-- [jrdodds](https://github.com/jrdodds) - Jonathan Dodds (2)
-- [AbdulhakimZ](https://github.com/AbdulhakimZ) - Abdulhakim Zeinu (1)
-- [AndrewKeepCoding](https://github.com/AndrewKeepCoding) - Andrew KeepCoding (1)
-- [AWilco](https://github.com/AWilco) - Alex Wilkinson (1)
-- [GitHubPang](https://github.com/GitHubPang) - GitHubPang (1)
-- [glenn-slayden](https://github.com/glenn-slayden) - Glenn Slayden (1)
-- [jozefizso](https://github.com/jozefizso) - Jozef Izso (1)
-- [Kelderro](https://github.com/Kelderro) - Rob op den Kelder (1)
-- [teo-tsirpanis](https://github.com/teo-tsirpanis) - Theodore Tsirpanis (1)
-
 ## December 2022
 
 ### Containers
@@ -204,104 +290,3 @@ The following people contributed to Visual Studio content in January. Thank you!
 
 - [Use the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) - Add DataRowAttribute documentation
 - [Remote Testing (experimental preview)](../test/remote-testing.md) - Improve code formatting
-
-## November 2022
-
-### Azure
-
-**Updated articles**
-
-- [Browse and manage storage resources by using Server Explorer](../azure/vs-azure-tools-storage-resources-server-explorer-browse-manage.md) - Add note for Visual Studio 2022 Cloud Explorer deprecation
-
-### Deployment
-
-**New articles**
-
-- [Access ClickOnce deployment properties for .NET on Windows](../deployment/access-clickonce-deployment-properties-dotnet.md)
-
-### Get started
-
-**Updated articles**
-
-- [Tutorial: Create a simple WPF application with C\#](../get-started/csharp/tutorial-wpf.md) - Integrate 'What Is WPF' article info into tutorial
-
-### IDE
-
-**Updated articles**
-
-- [User permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md) - Update links and add Windows 11 info
-- [How to: Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md) - Add SDK template info
-- [How to: Distribute code snippets](../ide/how-to-distribute-code-snippets.md) - Add snippet
-- [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) - Add new 'Audio Cues in Visual Studio' info
-- [Options dialog box: Text Editor \> General](../ide/reference/options-text-editor-general.md) - Update to include Enable Audio Cues and other new options
-- [Options, Text Editor, C#, Advanced](../ide/reference/options-text-editor-csharp-advanced.md) - Add description for the "Don't put ref or out on custom struct" C# option
-- [Developer Community data privacy](../ide/developer-community-privacy.md) - Update instructions
-
-### Install
-
-**New articles**
-
-- [Administrative Templates (ADMX)](../install/administrative-templates.md)
-- [Visual Studio out-of-support components](../install/out-of-support-components.md)
-
-**Updated articles**
-
-- For 17.4 GA - Update info for removeOos, ADMX, and Arm for layouts; remove svc baseline page and add more command-line parameters:
-  - [Applying administrator updates that use Microsoft Endpoint Manager (SCCM or Intune)](../install/applying-administrator-updates.md)
-  - [Enabling administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager](../install/enabling-administrator-updates.md)
-  - [Configure policies for enterprise deployments of Visual Studio](../install/configure-policies-for-enterprise-deployments.md)
-  - [Update Visual Studio](../install/update-visual-studio.md)
-  - [Repair Visual Studio](../install/repair-visual-studio.md)
-  - [Visual Studio on Arm-powered devices](../install/visual-studio-on-arm-devices.md)
-  - [Create, maintain, and deploy a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
-  - [Troubleshoot Visual Studio installation and upgrade issues](../install/troubleshooting-installation-issues.md)
-  - [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md)
-  - [Use command-line parameters to install, update, and manage Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md)
-  - [Command-line parameter examples for Visual Studio installation](../install/command-line-parameter-examples.md)
-
-### JavaScript
-
-**Updated articles**
-
-- Update publish code for ASP.NET Core Angular and React:
-  - [Tutorial: Create an ASP.NET Core app with Angular in Visual Studio](../javascript/tutorial-asp-net-core-with-angular.md)
-  - [Tutorial: Create an ASP.NET Core app with React in Visual Studio](../javascript/tutorial-asp-net-core-with-react.md)
-
-### MSBuild
-
-**Updated articles**
-
-- [MSBuild conditions](../msbuild/msbuild-conditions.md) - Explain evaluation of syntax for properties, item lists, and metadata in MSBuild condition expressions
-- [Csc task](../msbuild/csc-task.md) - Add undocumented parameters
-- [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md) - Add compiler command-line info
-
-### Profiling
-
-**New articles**
-
-- [Collect detailed timing data for a stand-alone application by using the profiler command line](../profiling/collecting-detailed-timing-data-for-a-stand-alone-application.md)
-- [How to: Instrument a stand-alone .NET Framework component and collect timing data with the profiler from the command line](../profiling/instrument-dotnet-framework-component-and-collect-timing-data.md)
-- [How to: Instrument a native stand-alone component and collect timing data with the profiler from the command line](../profiling/instrument-native-component-and-collect-timing-data.md)
-- [Instrumentation in Visual Studio (C#, Visual Basic, C++, F#)](../profiling/instrumentation-overview.md)
-- [Instrument your .NET applications in Visual Studio (C#, Visual Basic, F#)](../profiling/instrumentation.md)
-- [VSInstr](../profiling/vsinstr.md)
-- [VSPerfCmd](../profiling/vsperfcmd.md)
-- [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md)
-
-**Updated articles**
-
-- [First look at profiling tools (C#, Visual Basic, C++, F#)](../profiling/profiling-feature-tour.md):
-  - Update profiling fundamentals
-  - Update command-line profiling
-
-### SharePoint
-
-**Updated articles**
-
-- [Troubleshoot SharePoint solutions](../sharepoint/troubleshooting-sharepoint-solutions.md) - Add App Pool error
-
-### Version control
-
-**New articles**
-
-- [Work with multiple repos](../version-control/git-multi-repository-support.md)
