@@ -76,7 +76,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- Update for the [17.5](/releases/2022/release-notes-v17.5) release:
+- Update for the [17.5](/visualstudio/releases/2022/release-notes-v17.5) release:
   - [Use command-line parameters to install, update, and manage Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md)
   - [Command-line parameter examples for Visual Studio installation](../install/command-line-parameter-examples.md)
   - [Create, maintain, and deploy a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
@@ -87,7 +87,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- Update React, Angular, and Vue with ASP.NET Core for [17.5](/releases/2022/release-notes-v17.5) release:
+- Update React, Angular, and Vue with ASP.NET Core for [17.5](/visualstudio/releases/2022/release-notes-v17.5) release:
   - [Tutorial: Create an ASP.NET Core app with React in Visual Studio](../javascript/tutorial-asp-net-core-with-react.md)
   - [Tutorial: Create an ASP.NET Core app with Angular in Visual Studio](../javascript/tutorial-asp-net-core-with-angular.md)
   - [Tutorial: Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md)
