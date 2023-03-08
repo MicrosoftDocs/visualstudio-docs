@@ -1,0 +1,54 @@
+### YamlMime:FAQ
+metadata:
+  title: "Debugging Native Code FAQs | Microsoft Docs"
+  description: Find links to frequently asked questions (FAQs) and answers about debugging native code in Visual Studio.
+  ms.date: "03/07/2023"
+  ms.topic: faq
+  f1_keywords:
+    - "vs.debug.faq"
+  dev_langs:
+    - "C++"
+  helpviewer_keywords:
+    - "errors [debugger]"
+    - "troubleshooting native code"
+    - "debugging [MFC], FAQs"
+    - "debugging [C++], FAQs"
+  ms.assetid: 9a497032-cf73-441e-923b-4bbd5d37a6da
+  author: "mikejo5000"
+  ms.author: "mikejo"
+  manager: jmartens
+  ms.technology: vs-ide-debug
+  ms.workload:
+    - "cplusplus"
+
+title: Debugging Native Code FAQs
+
+summary: |
+  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+sections:
+  - name: General
+    questions:
+      - question: |
+          How Can I Debug Access Violations When Running My Program Outside the Visual Studio Debugger?
+        answer: |
+           Set the [Just-in-time debugging](../debugger/just-in-time-debugging-in-visual-studio.md) option and run your program stand-alone until the access violation occurs. Then, in the **Access Violation** dialog box, you can click **Cancel** to start the debugger.
+
+      - question: |
+          How Can I Debug a C++ Access Violation?
+        answer: |
+         
+          [!INCLUDE [access violation](./includes/native-debugging-faq-access-violation.md)]
+                            
+      - question: |
+          tbd?
+        answer: |
+          tbd 
+          
+additionalContent: |
+
+  ## Next steps
+  
+  You can learn more about native code debugging in Visual Studio using these links:
+
+  * link
