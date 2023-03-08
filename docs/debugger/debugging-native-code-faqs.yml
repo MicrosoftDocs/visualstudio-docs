@@ -37,7 +37,6 @@ sections:
       - question: |
           How Can I Debug a C++ Access Violation?
         answer: |
-         
           [!INCLUDE [access violation](./includes/native-debugging-faq-access-violation.md)]
                             
       - question: |
