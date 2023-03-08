@@ -3,12 +3,12 @@ title: How to test a C++ DLL for UWP apps
 description: Learn how to create unit tests for a C++ DLL for Universal Windows Platform apps with the Microsoft Test Framework for C++.
 ms.date: 05/01/2019
 ms.topic: how-to
-ms.author: corob
+ms.author: twhitney
 manager: jmartens
 ms.technology: vs-ide-test
 ms.workload: 
   - uwp
-author: corob-msft
+author: tylermsft
 ---
 # How to test a C++ DLL
 
