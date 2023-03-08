@@ -68,6 +68,8 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
 1. In **Solution Explorer**, select **Source Files**, and then select **Project** > **Add New Item**. Or, right-click **Source Files** and select **Add** > **New Item**.
 
+   If you don't see all the item templates, choose **Show All Templates**.
+
 1. In the **New Item** dialog, select **C++ file (.cpp)**. Type **Mixed_Mode.cpp** in the **Name** field, and then select **Add**.
 
     Visual Studio adds the new C++ file to **Solution Explorer**.
@@ -79,6 +81,8 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
     ```
 
 1. In **Solution Explorer**, select **Header Files**, and then select **Project** > **Add New Item**. Or, right-click **Header Files** and select **Add** > **New Item**.
+
+   If you don't see all the item templates, choose **Show All Templates**.
 
 1. In the **New Item** dialog, select **Header file (.h)**. Type **Mixed_Mode.h** in the **Name** field, and then select **Add**.
 
