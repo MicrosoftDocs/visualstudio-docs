@@ -113,6 +113,8 @@ Here's an example of a missing `using` directive. You can add `using System;` to
 :::image type="content" source="media/vs-2022/missing-using-directive.png" alt-text="Screenshot of light bulb to add a using directive." border="false":::
 ::: moniker-end
 
+Newer versions of C# support implicit using directives for some commonly used namespaces, so if you chose that option when creating a project, you don't need them.
+
 #### Add an assembly reference
 
 .NET references can be assemblies or NuGet packages. In source code, the publisher or author usually explains what assemblies the code requires and what packages it depends on. To add a reference to a project manually, right-click the **References** node in **Solution Explorer** and choose **Add Reference**. In the **Reference Manager**, locate and add the required assembly.
