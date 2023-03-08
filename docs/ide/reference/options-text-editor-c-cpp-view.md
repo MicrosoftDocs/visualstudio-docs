@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, C/C++, View
 description: Learn how to use the View page in the C/C++ section to change the default behavior of Code Squiggles, Inactive Code, Outlining, and more within Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 10/08/2021
 ms.topic: reference
 f1_keywords:

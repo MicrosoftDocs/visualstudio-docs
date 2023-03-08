@@ -1,7 +1,6 @@
 ---
 title: Symbol Path Command
 description: Learn about the Symbol Path command and how it sets the list of directories for the debugger to search for symbols.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

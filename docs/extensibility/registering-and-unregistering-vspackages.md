@@ -1,7 +1,6 @@
 ---
 title: Registering and Unregistering VSPackages | Microsoft Docs
 description: Learn about registering and unregistering your VSPackages, including the attributes you use and the .pkgdef file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

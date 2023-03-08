@@ -1,7 +1,6 @@
 ---
 title: Find MSBuild and use its API | Microsoft Docs
 description: Learn how to ensure that programmatic builds from your application match builds done within Visual Studio or MSBuild.exe, and learn how to locate and use a consistent version on MSBuild when developing a programmatic build application on different machines.
-ms.custom: SEO-VS-2020
 ms.date: 2/28/2023
 ms.topic: conceptual
 author: ghogen

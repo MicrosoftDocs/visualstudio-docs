@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, XAML, Formatting
 description: Learn how to use the Formatting options page and its subpages to set options for formatting code in the code editor when you are programming in XAML.
-ms.custom: SEO-VS-2020
 ms.date: 10/29/2018
 ms.topic: reference
 f1_keywords:

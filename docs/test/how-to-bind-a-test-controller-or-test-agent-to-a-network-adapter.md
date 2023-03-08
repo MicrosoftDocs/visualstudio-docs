@@ -1,7 +1,6 @@
 ---
 title: Bind test controller/test agent to a network adapter
 description: Learn how to bind a test controller or test agent to a network adapter by using an IP address, in case it is installed for multiple network adapters.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

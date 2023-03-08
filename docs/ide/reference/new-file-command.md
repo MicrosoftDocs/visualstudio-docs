@@ -1,7 +1,6 @@
 ---
 title: New File Command
 description: Learn about the New File command and how it creates a new file and opens it.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

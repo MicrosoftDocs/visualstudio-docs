@@ -1,7 +1,6 @@
 ---
 title: PreviewImage Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the PreviewImage element and how it specifies the file name for the preview image that will appear in the New Project or Add New Item dialog box.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

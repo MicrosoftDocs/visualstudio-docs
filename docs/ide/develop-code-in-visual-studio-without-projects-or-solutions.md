@@ -1,7 +1,6 @@
 ---
 title: Develop code without projects or solutions
 description: Learn how to develop code directly in Visual Studio without a need for projects or solutions.
-ms.custom: SEO-VS-2020
 ms.date: 04/29/2022
 ms.topic: how-to
 helpviewer_keywords:

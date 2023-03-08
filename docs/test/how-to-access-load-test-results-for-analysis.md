@@ -1,7 +1,6 @@
 ---
 title: Analyze load test results
 description: Learn how to access load test results for analysis, either automatically through the Load Test Analyzer or manually for tests from the command line.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

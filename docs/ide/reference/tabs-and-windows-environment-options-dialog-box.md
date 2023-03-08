@@ -1,7 +1,6 @@
 ---
 title: Tabs and Windows, Environment, Options Dialog Box
 description: Learn about the personalization options available in the Tabs and Windows dialog box, such as vertical tabs to help keep your workspace organized, and more.
-ms.custom: SEO-VS-2020
 ms.date: 08/24/2022
 ms.topic: reference
 f1_keywords:

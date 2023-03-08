@@ -1,7 +1,6 @@
 ---
 title: Installing outside the extensions folder with VSIX v3 | Microsoft Docs
 description: Learn about installing Visual Studio SDK extension assets outside of the extensions folder and which locations are valid.
-ms.custom: SEO-VS-2020
 ms.date: 11/09/2016
 ms.topic: how-to
 ms.assetid: 913c3745-8aa9-4260-886e-a05aecfb2225

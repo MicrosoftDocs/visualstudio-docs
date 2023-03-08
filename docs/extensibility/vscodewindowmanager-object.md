@@ -1,7 +1,6 @@
 ---
 title: VSCodeWindowManager Object | Microsoft Docs
 description: Learn about the VSCodeWindowManager object, which is responsible for managing adornments, for example, the drop-down bar.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

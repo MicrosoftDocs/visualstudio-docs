@@ -1,7 +1,6 @@
 ---
 title: Customize default web page for ClickOnce application
 description: Learn about the Web page generated when you publish a ClickOnce application to the Web, which contains the name of the application and other information.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

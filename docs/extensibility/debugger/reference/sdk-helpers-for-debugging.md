@@ -1,7 +1,6 @@
 ---
 title: SDK Helpers for Debugging | Microsoft Docs
 description: Learn about functions and declarations that are global helper functions for implementing debug engines, expression evaluators, and symbol providers in C++.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

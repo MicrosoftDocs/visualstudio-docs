@@ -1,7 +1,6 @@
 ---
 title: "Calling into the SharePoint Object Models | Microsoft Docs"
 description: Understand how to call into the two different object models that you can use in SharePoint tools extensions.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

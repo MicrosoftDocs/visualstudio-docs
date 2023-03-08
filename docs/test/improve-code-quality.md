@@ -1,7 +1,6 @@
 ---
 title: Unit test tools
 description: Learn how Visual Studio testing tools can help you and your team develop and sustain high standards of code excellence.
-ms.custom: SEO-VS-2020
 ms.date: 03/18/2022
 ms.topic: conceptual
 helpviewer_keywords:

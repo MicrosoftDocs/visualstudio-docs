@@ -1,7 +1,6 @@
 ---
 title: Visual Studio Debugger Glossary | Microsoft Docs
 description: This article explains several terms used in the Visual Studio Debugging SDK, such as bound breakpoint, causality, and code context.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

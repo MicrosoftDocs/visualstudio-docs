@@ -1,7 +1,6 @@
 ---
 title: "How to: Add a Property to SharePoint Projects | Microsoft Docs"
 description: Use a project extension to add a property to a SharePoint project. A property appears in the Properties window when you select the project in Solution Explorer.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

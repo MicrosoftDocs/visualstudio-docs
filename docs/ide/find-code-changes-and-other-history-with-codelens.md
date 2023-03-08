@@ -1,7 +1,6 @@
 ---
 title: Find code changes and other history with CodeLens
 description: Learn about CodeLens and how to use it explore the history of your code without having to leave the editor.
-ms.custom: SEO-VS-2020
 ms.date: 05/05/2022
 ms.topic: conceptual
 f1_keywords:

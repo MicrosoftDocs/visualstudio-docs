@@ -1,7 +1,6 @@
 ---
 title: Selection and Currency in the IDE | Microsoft Docs
 description: Learn how VSPackages take part in currency tracking. The Visual Studio IDE maintains information about currently selected objects by using selection context.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

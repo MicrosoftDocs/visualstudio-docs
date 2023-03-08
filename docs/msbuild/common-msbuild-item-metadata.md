@@ -1,7 +1,6 @@
 ---
 title: Common MSBuild item metadata | Microsoft Docs
 description: Learn about optional item metadata that have meaning for some MSBuild SDKs or targets, but aren't set by default for every item.
-ms.custom: SEO-VS-2020
 ms.date: 07/13/2020
 ms.topic: reference
 dev_langs:

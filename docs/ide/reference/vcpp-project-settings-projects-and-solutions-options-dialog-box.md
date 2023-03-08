@@ -1,7 +1,6 @@
 ---
 title: C++ Project Settings options
 description: Learn how to use the VC++ Project Settings page in the Projects and Solutions section to define C++ build and project settings related to logging, performance, and supporting file types.
-ms.custom: SEO-VS-2020
 ms.date: 08/02/2017
 ms.topic: reference
 f1_keywords:

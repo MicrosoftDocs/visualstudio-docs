@@ -1,7 +1,6 @@
 ---
 title: Syntax Coloring in Custom Editors | Microsoft Docs
 description: Learn about syntax coloring in Visual Studio Environment SDK custom editors, which displays specified colors for a given document view.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

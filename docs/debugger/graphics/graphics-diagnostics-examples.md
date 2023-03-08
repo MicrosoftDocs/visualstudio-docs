@@ -1,7 +1,6 @@
 ---
 title: "Graphics Diagnostics Examples | Microsoft Docs"
 description: View examples of how to debug rendering problems in DirectX-based apps by using Visual Studio Graphics Diagnostics.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 45dd86b2-801e-4b07-a8c4-7bd25641d7f8

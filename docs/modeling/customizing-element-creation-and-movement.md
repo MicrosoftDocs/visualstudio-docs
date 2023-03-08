@@ -1,7 +1,6 @@
 ---
 title: Customizing Element Creation and Movement
 description: Learn how you can allow an element to be dragged onto another, either from the toolbox or in a paste or move operation.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:

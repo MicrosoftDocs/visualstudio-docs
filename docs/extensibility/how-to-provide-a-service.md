@@ -1,7 +1,6 @@
 ---
 title: 'How to: Provide a Service | Microsoft Docs'
 description: A VSPackage can provide services that other VSPackages can use. Learn how a VSPackage registers a service with Visual Studio and adds the service.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

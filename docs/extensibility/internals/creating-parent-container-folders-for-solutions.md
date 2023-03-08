@@ -1,7 +1,6 @@
 ---
 title: Creating Parent Container Folders for Solutions | Microsoft Docs
 description: Learn how to use the Source Control Plug-in API Version 1.2 to specify a single root source control destination for all web projects within a solution.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: CommandPlacement Element | Microsoft Docs
 description: The CommandPlacement element enables buttons, groups, and menus to be included in more than one group or menu. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

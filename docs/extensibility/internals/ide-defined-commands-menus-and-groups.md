@@ -1,7 +1,6 @@
 ---
 title: IDE-Defined Commands, Menus, and Groups | Microsoft Docs
 description: Learn about the menus, commands, and command groups, that are defined in the Visual Studio integrated development environment (IDE).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

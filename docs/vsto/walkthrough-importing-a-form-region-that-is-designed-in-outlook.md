@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Import a form region that is designed in Outlook"
 description: Learn how to design a form region in Microsoft Outlook, and then import the form region into an Outlook VSTO Add-in project by using the New Form Region wizard.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

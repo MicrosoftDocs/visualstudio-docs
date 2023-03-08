@@ -1,7 +1,6 @@
 ---
 title: 'How to: Create an Atom Feed for a Private Gallery | Microsoft Docs'
 description: You can create an Atom (RSS) feed to an intranet location that contains extensions and add the feed to Extensions and Updates as a private gallery.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

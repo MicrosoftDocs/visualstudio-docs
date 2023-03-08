@@ -1,7 +1,6 @@
 ---
 title: Hidden Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the Hidden element and how it specifies whether the template appears in either the new project or Add New Item dialog boxes.
-ms.custom: SEO-VS-2020
 ms.date: 04/17/2019
 ms.technology: vs-ide-general
 ms.topic: reference

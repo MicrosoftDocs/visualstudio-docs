@@ -1,7 +1,6 @@
 ---
 title: "Executable for Debugging Session Dialog Box | Microsoft Docs"
 description: To debug a DLL you must specify an executable to call the DLL. Learn about the dialog box that appears when no executable is specified.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "ui-reference"
 f1_keywords:

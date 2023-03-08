@@ -1,7 +1,6 @@
 ---
 title: Create an Extension Pack
 description: Learn how to create an Extension Pack with the Extension Pack Item Template
-ms.custom: SEO-VS-2020
 ms.date: 07/27/2018
 ms.topic: tutorial
 helpviewer_keywords:

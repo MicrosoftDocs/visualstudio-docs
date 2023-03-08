@@ -1,7 +1,6 @@
 ---
 title: "Publish Page, Project Designer (Office development)"
 description: Learn how the Publish page of the Project Designer in Visual Studio is used to configure properties for deployment.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

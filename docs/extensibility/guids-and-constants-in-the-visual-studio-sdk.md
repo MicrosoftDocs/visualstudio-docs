@@ -1,7 +1,6 @@
 ---
 title: GUIDs and Constants in the Visual Studio SDK | Microsoft Docs
 description: The VSConstants class provides access to a selection of environment GUIDs and constants in the Visual Studio SDK. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

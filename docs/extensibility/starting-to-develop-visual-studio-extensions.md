@@ -1,7 +1,7 @@
 ---
 title: Start developing Visual Studio extensions | Microsoft Docs
 description: Get answers to some of the common questions that you may have the first time you start to write a Visual Studio extension.
-ms.custom: SEO-VS-2020, devdivchpfy22
+ms.custom: devdivchpfy22
 ms.date: 08/26/2022
 ms.topic: conceptual
 helpviewer_keywords:

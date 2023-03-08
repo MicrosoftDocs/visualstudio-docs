@@ -1,7 +1,6 @@
 ---
 title: Configurations and Platforms for Coded UI Tests
 description: This article contains the supported configurations and platforms for coded UI tests for Visual Studio Enterprise.
-ms.custom: SEO-VS-2020
 ms.date: 10/04/2015
 ms.topic: reference
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: -Project (devenv.exe)
 description: Learn how to use the Project devenv command-line switch to identify a single project within the specified solution configuration to build, clean, rebuild, or deploy the project.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:

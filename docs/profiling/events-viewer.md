@@ -1,7 +1,6 @@
 ---
 title: Events Viewer | Microsoft Docs
 description: Learn about the generic events viewer, which helps you better diagnose how your app is doing within the Visual Studio profiler.
-ms.custom: SEO-VS-2020
 ms.date: 4/30/2020
 ms.topic: how-to
 helpviewer_keywords: 

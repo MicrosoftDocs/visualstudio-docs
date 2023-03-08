@@ -1,7 +1,6 @@
 ---
 title: 'How to: Support Outlining in a Legacy Language Service | Microsoft Docs'
 description: Learn how to provide support for outlining, expanding or collapsing different regions of text, in a legacy language service.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

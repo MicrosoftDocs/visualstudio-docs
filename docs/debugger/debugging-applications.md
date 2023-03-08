@@ -1,7 +1,6 @@
 ---
 title: "Debugging Applications | Microsoft Docs"
 description: Understand how to use debugging in Visual Studio for different types of applications, such as UWP apps, managed code, native code, GPU code, and Web apps.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

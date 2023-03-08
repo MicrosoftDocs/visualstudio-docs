@@ -1,7 +1,6 @@
 ---
 title: SolutionFolder Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the SolutionFolder element and how it groups projects in multi-project templates.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

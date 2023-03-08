@@ -1,7 +1,6 @@
 ---
 title: Managing Project Loading in a Solution | Microsoft Docs
 description: Learn how developers can reduce solution load times and manage project loading behavior by creating a solution load manager.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

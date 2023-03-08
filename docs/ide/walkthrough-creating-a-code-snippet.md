@@ -1,7 +1,6 @@
 ---
 title: 'Walkthrough: Create a code snippet'
 description: "Learn how to create a code snippet in three steps: create an XML file, fill in the appropriate elements, and add your code to it."
-ms.custom: SEO-VS-2020
 ms.date: 03/24/2022
 ms.topic: how-to
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Getting Started with the VSIX Project Template | Microsoft Docs
 description: Learn how to use the VSIX Project template to create an extension or to package an existing extension for deployment. 
-ms.custom: SEO-VS-2020
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:

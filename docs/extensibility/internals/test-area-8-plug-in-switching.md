@@ -1,7 +1,6 @@
 ---
 title: 'Test Area 8: Plug-in Switching | Microsoft Docs'
 description: This source control test area provides test cases for the process of picking which plug-in to use for solution source control in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

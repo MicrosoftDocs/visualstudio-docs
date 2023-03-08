@@ -1,7 +1,6 @@
 ---
 title: 'How to: Save and Edit Connection Strings'
 description: Know how to save and edit connection strings in Visual Studio applications. Save or edit a connection string directly in application settings.
-ms.custom: SEO-VS-2020
 ms.date: 10/07/2022
 ms.topic: how-to
 ms.assetid: f8ef3a2c-029c-423b-9d9e-a4f1add4f640

@@ -1,7 +1,6 @@
 ---
 title: Properties Window Overview | Microsoft Docs
 description: Learn about the interfaces used to interact with the Properties window in the Visual Studio IDE in this overview.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

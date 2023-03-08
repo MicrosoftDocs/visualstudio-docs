@@ -1,7 +1,6 @@
 ---
 title: Providing Automation for VSPackages | Microsoft Docs
 description: Learn about how to provide automation for your VSPackages by implementing VSPackage-specific objects and by implementing standard automation objects.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

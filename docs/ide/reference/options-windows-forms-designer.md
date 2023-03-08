@@ -1,7 +1,6 @@
 ---
 title: Options, Windows Forms Designer, General
 description: Learn how to use the General page to set preferences for the grids and other features of the Windows Forms Designer in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 07/07/2022
 ms.topic: reference
 f1_keywords:

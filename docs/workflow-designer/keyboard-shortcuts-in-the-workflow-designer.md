@@ -1,7 +1,6 @@
 ---
 title: 'Workflow Designer: Keyboard shortcuts'
 description: Learn the various commands you can type on the keyboard to navigate the Workflow Designer in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

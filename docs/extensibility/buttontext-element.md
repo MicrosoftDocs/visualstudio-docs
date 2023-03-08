@@ -1,7 +1,6 @@
 ---
 title: ButtonText Element | Microsoft Docs
 description: The ButtonText element lets you specify the text that appears in various menus. The ButtonText element cannot be blank even if other text fields are specified.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

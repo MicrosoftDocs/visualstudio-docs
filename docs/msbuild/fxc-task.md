@@ -1,7 +1,6 @@
 ---
 title: "FXC Task | Microsoft Docs"
 description: Learn about the parameters the MSBuild FXC task uses for HLSL shader compilers in the build process.
-ms.custom: SEO-VS-2020
 ms.date: "03/10/2019"
 ms.topic: "reference"
 f1_keywords:

@@ -2,7 +2,6 @@
 title: Code Metrics window
 ms.date: 12/12/2017
 description: Learn how to view, filter, rearrange, and export Visual Studio code metrics analysis data. See how to create work items based on code metric results.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 f1_keywords:
 - vs.codemetrics.output

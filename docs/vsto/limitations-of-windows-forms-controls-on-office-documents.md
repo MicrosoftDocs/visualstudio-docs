@@ -1,7 +1,6 @@
 ---
 title: "Limitations of Windows Forms controls on Office documents"
 description: Learn about the limitations of Windows Forms control methods and properties on Microsoft Office documents. 
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

@@ -1,7 +1,6 @@
 ---
 title: Fonts and Colors, Environment, Options dialog box
 description: Learn how to use the Fonts and Colors page in the Environment section to establish a custom font and color scheme for various user interface elements in the IDE.
-ms.custom: SEO-VS-2020
 ms.date: 12/02/2022
 ms.topic: reference
 f1_keywords:

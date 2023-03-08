@@ -1,7 +1,6 @@
 ---
 title: Inspect your app with historical debugging | Microsoft Docs
 description: Follow an investigation that uses IntelliTrace historical debugging to track down a bug in a C# console application.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 629b5d93-39b2-430a-b8ba-d2a47fdf2584

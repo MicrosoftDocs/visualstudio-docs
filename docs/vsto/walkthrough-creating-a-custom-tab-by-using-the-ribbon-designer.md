@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Create a custom tab by using the Ribbon Designer"
 description: Learn how you can create a custom tab, and then add and position controls on it by using the Ribbon Designer.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

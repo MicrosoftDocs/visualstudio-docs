@@ -1,7 +1,6 @@
 ---
 title: Parameter Nodes
 description: Learn how to change parameters in a shader to give an object different appearances based on material properties, directional lights, camera position, and time.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: da54db0b-3a3d-48dc-858c-7ac43aa04b13

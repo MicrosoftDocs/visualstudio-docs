@@ -1,7 +1,6 @@
 ﻿---
 title: Options, Text Editor, Basic (VB), Advanced
 description: Learn how to use the Advanced page in the Basic section to change the default settings of the Analysis, Import Directives, and Highlighting properties.
-ms.custom: SEO-VS-2020
 ms.date: 05/20/2022
 ms.topic: reference
 f1_keywords:

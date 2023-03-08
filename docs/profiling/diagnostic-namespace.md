@@ -1,7 +1,6 @@
 ---
 title: diagnostic Namespace | Microsoft Docs
 description: Use the diagnostic namespace to emit Concurrency Visualizer markers. The diagnostic namespace is a member of the Concurrency namespace.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 

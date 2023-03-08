@@ -1,7 +1,6 @@
 ---
 title: -Log (devenv.exe)
 description: Learn how to use the Log devenv command-line switch to log all activity to the log file for troubleshooting.
-ms.custom: SEO-VS-2020
 ms.date: 12/12/2018
 ms.topic: reference
 helpviewer_keywords:
