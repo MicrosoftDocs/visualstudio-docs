@@ -84,6 +84,8 @@ First, you'll create a Vue.js web application project.
 
 1. In Solution Explorer, right-click any folder such as the *src/components* folder, and then choose **Add** > **New Item**.
 
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
+
 1. Select either **JavaScript Vue Single File Component** or **TypeScript Vue Single File Component**, and then click **Add**.
 
     Visual Studio adds the new file to the project.
