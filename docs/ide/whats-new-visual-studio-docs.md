@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 03/06/2023
+ms.date: 03/07/2023
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -23,13 +23,13 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 ## February 2023
 
-## Data tools
+### Data tools
 
 **Updated articles**
 
 - [Create a database and add tables in Visual Studio](../data-tools/create-a-sql-database-by-using-a-designer.md) - Update and add clarifications
 
-## Debugger
+### Debugger
 
 **Updated articles**
 
@@ -37,19 +37,19 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Inspect an exception using the Exception Helper](../debugger/exception-helper.md) - Add info to view exception stack frames in the call stack window
 - [View the call stack and use the Call Stack window in the debugger](../debugger/how-to-use-the-call-stack-window.md) - Add info to view exception stack frames in the call stack window
 
-## Designers
+### Designers
 
 **Updated articles**
 
 - [Disable DPI-awareness to fix HDPI / scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md) - Add 'What is DPI and why does it matter' section, plus other updates
 
-## Extensibility
+### Extensibility
 
 **Updated articles**
 
 - [Walkthrough: Publish a Visual Studio extension](../extensibility/walkthrough-publishing-a-visual-studio-extension.md) - Update to the 'Remove the extension' steps
 
-## Get started
+### Get started
 
 **New articles**
 
@@ -59,7 +59,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Welcome to the Visual Studio IDE | Visual Basic](../get-started/visual-basic/visual-studio-ide.md) - Update text, links, and screenshots
 
-## IDE
+### IDE
 
 **New articles**
 
@@ -72,7 +72,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [How to: Manage editor modes](../ide/how-to-manage-editor-modes.md) - Update the View.FullScreen keyboard shortcut
 - [Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)](../ide/work-with-multi-factor-authentication.md) - Add troubleshooting steps
 
-## Install
+### Install
 
 **Updated articles**
 
@@ -83,7 +83,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
   - [Create an offline installation package of Visual Studio for local installation](../install/create-an-offline-installation-of-visual-studio.md)
   - [Import or export installation configurations](../install/import-export-installation-configurations.md)
 
-## JavaScript
+### JavaScript
 
 **Updated articles**
 
@@ -92,7 +92,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
   - [Tutorial: Create an ASP.NET Core app with Angular in Visual Studio](../javascript/tutorial-asp-net-core-with-angular.md)
   - [Tutorial: Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md)
 
-## MSBuild
+### MSBuild
 
 **New articles**
 
@@ -102,13 +102,13 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Customize your build](../msbuild/customize-your-build.md) - Add code example and discussion of where to set properties
 
-## Profiling
+### Profiling
 
 **Updated articles**
 
 - [Which performance tool should I use? (C#, Visual Basic, C++, F#)](../profiling/choose-performance-tool.md) - Clarify content on when to use performance tools
 
-## Test
+### Test
 
 **Updated articles**
 
