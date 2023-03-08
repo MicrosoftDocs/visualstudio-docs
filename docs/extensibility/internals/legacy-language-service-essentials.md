@@ -1,7 +1,6 @@
 ---
 title: Legacy Language Service Essentials | Microsoft Docs
 description: Learn about the essential features available in legacy language services that allow you to integrate a programming language into Visual Studio.
-ms.custom: SEO-VS-2020 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
