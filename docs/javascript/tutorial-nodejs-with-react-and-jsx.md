@@ -243,6 +243,8 @@ For this simple app, you add the new project files in the project root. For most
 
 1. In **Solution Explorer**, select the project name and press **Ctrl**+**Shift**+**A**, or right-click the project name and select **Add** > **New Item**.
 
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
+
 1. In the **Add New Item** dialog box, choose **TypeScript JSX File**, type the name *app.tsx*, and select **Add** or **OK**.
 
 1. Repeat these steps to add a **JavaScript file** named *webpack-config.js*.

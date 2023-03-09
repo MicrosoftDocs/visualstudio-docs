@@ -41,6 +41,8 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
 1. If your project doesn't already include it, add a *tsconfig.json* file to your project root. To add the file, right-click the project node and choose **Add > New Item**. Choose the **TypeScript JSON Configuration File**, and then click **Add**.
 
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
+
    Visual Studio adds the *tsconfig.json* file to the project root. You can use this file to [configure options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for the TypeScript compiler.
 
 1. Open *tsconfig.json* and update to set the compiler options that you want.

@@ -6,7 +6,7 @@ ms.author: amast
 ms.date: 06/02/2021
 ms.assetid: 8fc5fb35-5c57-4560-9aa3-0db38b3e7120
 ms.topic: include
-user.type: subscriber
+user.type: DO NOT PULL for solutions
 tags: sign-in
 subscription.type: retail
 sap.id: DO NOT PULL for solutions
