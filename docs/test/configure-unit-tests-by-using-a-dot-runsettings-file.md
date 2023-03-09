@@ -25,6 +25,8 @@ Run settings files are optional. If you don't require any special configuration,
 
 1. Add a run settings file to your solution. In **Solution Explorer**, on the shortcut menu of your solution, choose **Add** > **New Item**, and select **XML File**. Save the file with a name such as *test.runsettings*.
 
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
+   
    > [!TIP]
    > The file name doesn't matter, as long as you use the extension *.runsettings*.
 
