@@ -1,8 +1,8 @@
 ---
 title: "Create multi-container apps with MySQL & Docker Compose"
 description: In this tutorial, learn how to create multi-container apps with MySQL and Docker Compose. Use multiple containers to scale your project.
-author: ucheNkadiCode
-ms.author: uchen
+author: ghogen
+ms.author: ghogen
 ms.prod: vs-code
 ms.topic: tutorial
 ms.date: 03/04/2022
