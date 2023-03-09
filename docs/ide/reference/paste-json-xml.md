@@ -19,7 +19,7 @@ In Visual Studio, you can copy text from JSON or XML files and then paste the te
 :::image type="content" source="media/paste-json-xml-class-sml.png" alt-text="Screenshot of the Paste Special option from the Edit menu in Visual Studio." lightbox="media/paste-json-xml-class-lrg.png":::
 
 > [!TIP]
-> If you don't see the **Paste Special** option on the **Edit** menu, make sure that you select the program file your app. For example, for a C# app, select the **Program.cs** file in [Solution Explorer](../use-solution-explorer.md).
+> If you don't see the **Paste Special** option on the **Edit** menu, make sure that you select the program file for your app. For example, for a C# app, select the **Program.cs** file in [Solution Explorer](../use-solution-explorer.md).
 
 **JSON** (**J**ava**S**cript **O**bject **N**otation) and **XML** (e**X**tensible **M**arkup **L**anguage) are similar in that they're both used to store and transport data. JSON, however, is less verbose and can use arrays.
 
