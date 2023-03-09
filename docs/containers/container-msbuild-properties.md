@@ -37,7 +37,7 @@ The following table shows the MSBuild properties available for container project
 | DockerImageLabels | The default set of labels applied to the Docker image. | com.microsoft.created-by=visual-studio;com.microsoft.visual-studio.project-name=$(MSBuildProjectName) |1.5.4 or newer|
 | DockerFastModeProjectMountDirectory|In **Fast Mode**, this property controls where the project output directory is volume-mounted into the running container.|C:\app (Windows) or /app (Linux)|1.9.2 or newer|
 | DockerfileBuildArguments | Additional arguments passed to the [Docker build](https://docs.docker.com/engine/reference/commandline/build/) command. | Not applicable. |1.0.1872750 or newer|
-| DockerfileContext | The default context used when building the Docker image, as a path relative to the Dockerfile. | Set by Visual Studio. |1.0.1872750 or newer|
+| DockerfileContext | The default context used when building the Docker image, as a path relative to the Dockerfile. | Set by Visual Studio to "." for .NET Framework projects and .".." for .NET Core projects. |1.0.1872750 or newer|
 | DockerfileFastModeStage | The Dockerfile stage (that is, target) to be used when building the image in debug mode. | First stage found in the Dockerfile (base) |
 | DockerfileFile | Describes the default Dockerfile that will be used to build/run the container for the project. This can be a path as well. | Dockerfile |1.0.1872750 or newer|
 | DockerfileRunArguments | Additional arguments passed to the [Docker run](https://docs.docker.com/engine/reference/commandline/run/) command. | Not applicable. |1.0.1872750 or newer|
@@ -71,6 +71,9 @@ The following project file shows examples of some of these settings.
 
 </Project>
 ```
+
+> [!NOTE]
+> The Docker context, which you can set by providing a value for DockerfileContext, is set differently in Visual Studio for projects targeting .NET Core or .NET 5 and later from what `docker build` uses when you run it from the command line. This is to include all the build artifacts up to the solution level, such as *Directory.Build.props*.
 
 ## Next steps
 
