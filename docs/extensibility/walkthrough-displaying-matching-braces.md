@@ -1,7 +1,6 @@
 ---
 title: 'Walkthrough: Displaying Matching Braces | Microsoft Docs'
 description: Learn how to define braces in the context of a language, applying brace matching tags to the text content type by using this walkthrough.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Language Service and Editor Extension Points | Microsoft Docs
 description: Learn about the extension points in the Visual Studio code editor that you can extend, including most language service features.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

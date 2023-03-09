@@ -1,7 +1,6 @@
 ---
 title: Source Control Plug-ins | Microsoft Docs
 description: The articles in this section describe the complete interface specification that enables source control systems to be integrated with Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

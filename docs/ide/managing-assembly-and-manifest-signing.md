@@ -1,7 +1,6 @@
 ---
 title: Manage assembly and manifest signing
 description: Learn about the advantages of strong-name signing, which gives a software component a globally unique identity. 
-ms.custom: SEO-VS-2020
 ms.date: 02/17/2017
 ms.technology: vs-ide-deployment
 ms.topic: conceptual

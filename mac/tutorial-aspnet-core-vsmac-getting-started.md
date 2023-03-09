@@ -1,7 +1,6 @@
 ---
 title: "Getting started with ASP.NET Core in Visual Studio for Mac"
 titleSuffix: ""
-ms.custom: SEO-VS-2020
 description: This document contains video tutorials showing how to get start with ASP.NET Core in Visual Studio for Mac.
 author: heiligerdankgesang 
 ms.author: dominicn

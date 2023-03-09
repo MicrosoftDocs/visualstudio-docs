@@ -1,7 +1,6 @@
 ---
 title: "Localizing ClickOnce Applications | Microsoft Docs"
 description: Learn about three ways to localize your ClickOnce application to a version appropriate for a specific culture.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

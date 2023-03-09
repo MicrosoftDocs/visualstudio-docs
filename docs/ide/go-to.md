@@ -1,7 +1,6 @@
 ---
 title: Go to file, go to symbol, go to line
 description: Learn about Go To commands in Visual Studio and how you can use them to to perform focused searches of your code.
-ms.custom: SEO-VS-2020
 ms.date: 08/14/2018
 ms.topic: conceptual
 helpviewer_keywords:

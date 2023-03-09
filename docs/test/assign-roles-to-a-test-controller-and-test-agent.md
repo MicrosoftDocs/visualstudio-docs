@@ -1,7 +1,6 @@
 ---
 title: Test controller and test agent roles
 description: Learn how to create and configure a test setting that uses a test controller and test agent to distribute testing across several machines using Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 10/20/2016
 ms.topic: conceptual
 helpviewer_keywords:

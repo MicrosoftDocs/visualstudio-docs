@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically move items in Outlook"
 description: Learn how you can programmatically move items in Microsoft Outlook. This example moves unread e-mail messages from the Inbox to a folder named Test.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

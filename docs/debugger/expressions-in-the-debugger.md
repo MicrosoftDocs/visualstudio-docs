@@ -1,7 +1,6 @@
 ---
 title: "Expressions in the debugger | Microsoft Docs"
 description: Learn which language expressions are not supported by the expression evaluators in the Visual Studio debugger.
-ms.custom: SEO-VS-2020
 ms.date: "08/24/2021"
 ms.topic: "conceptual"
 f1_keywords:

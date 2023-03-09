@@ -1,7 +1,6 @@
 ---
 title: "How to: Add and Remove Feature Dependencies | Microsoft Docs"
 description: Review how to add and remove feature dependencies to your SharePoint solution using the Feature Designer in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:

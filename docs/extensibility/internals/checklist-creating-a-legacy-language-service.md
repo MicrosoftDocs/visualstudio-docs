@@ -1,7 +1,6 @@
 ---
 title: 'Checklist: Creating a Legacy Language Service | Microsoft Docs'
 description: Learn the basic steps you must take to create a legacy language service for the Visual Studio core editor.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

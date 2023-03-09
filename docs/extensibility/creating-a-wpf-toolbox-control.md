@@ -1,7 +1,6 @@
 ---
 title: Creating a WPF Toolbox Control | Microsoft Docs
 description: Learn how to use the WPF Toolbox Control template to create a Toolbox control that you can distribute to other users.
-ms.custom: SEO-VS-2020
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:

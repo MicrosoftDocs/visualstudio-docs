@@ -2,7 +2,6 @@
 title: "Run code when SharePoint project is deployed or retracted"
 titleSuffix: ""
 description: Learn how to run code when a SharePoint project is deployed or retracted so that you can handle events that are raised by Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

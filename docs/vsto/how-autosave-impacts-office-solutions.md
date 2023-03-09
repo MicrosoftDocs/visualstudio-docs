@@ -1,7 +1,6 @@
 ---
 title: "How AutoSave impacts Office solutions"
 description: Learn how AutoSave is a feature for Excel, PowerPoint, and Word that automatically and continuously saves your edits.
-ms.custom: SEO-VS-2020
 ms.date: "10/26/2018"
 ms.topic: "conceptual"
 dev_langs:

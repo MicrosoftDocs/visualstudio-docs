@@ -1,7 +1,6 @@
 ---
 title: Localizing VSIX Packages | Microsoft Docs
 description: Learn how to localize a VSIX package by creating an Extension.vsixlangpack file for each target language and then putting them in the correct folder.
-ms.custom: SEO-VS-2020
 ms.date: 10/26/2017
 ms.topic: conceptual
 helpviewer_keywords:

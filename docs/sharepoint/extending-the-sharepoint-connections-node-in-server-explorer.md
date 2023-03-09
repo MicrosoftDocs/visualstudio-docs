@@ -2,7 +2,6 @@
 title: "Extending the SharePoint Connections Node in Server Explorer | Microsoft Docs"
 titleSuffix: ""
 description: Extend the SharePoint connections node in the Server Explorer window in Visual Studio. Add custom properties to nodes. Get data for built-in nodes.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

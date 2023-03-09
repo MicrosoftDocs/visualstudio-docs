@@ -1,7 +1,6 @@
 ---
 title: Toolbox window
 description: Learn about the Toolbox window and how it displays controls that you can add to Visual Studio projects.
-ms.custom: SEO-VS-2020
 ms.date: 06/01/2020
 ms.topic: reference
 f1_keywords:

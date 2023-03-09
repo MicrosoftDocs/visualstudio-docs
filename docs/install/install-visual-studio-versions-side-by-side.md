@@ -1,7 +1,7 @@
 ---
 title: Install Visual Studio versions side-by-side
 description: Learn how to install Visual Studio on a computer that has an earlier or later version of Visual Studio already installed.
-ms.custom: "vs-acquisition, SEO-VS-2020"
+ms.custom: "vs-acquisition"
 ms.date: 11/28/2022
 ms.prod: visual-studio-windows
 ms.technology: vs-installation

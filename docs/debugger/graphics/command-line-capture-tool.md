@@ -1,7 +1,6 @@
 ---
 title: "Command-Line Capture Tool | Microsoft Docs"
 description: Learn about DXCap.exe, a command-line tool for graphics diagnostics capture and playback that supports Direct3D 10 through Direct3D 12 across all feature levels.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 ms.assetid: db75b3a7-80b2-4a74-91d2-fd6e0f73b45d

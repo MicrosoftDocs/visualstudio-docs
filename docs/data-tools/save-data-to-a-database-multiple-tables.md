@@ -1,7 +1,6 @@
 ---
 title: Save data to a database (multiple tables)
 description: In this walkthrough, save data from multiple tables to a database using DataSet tools in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:

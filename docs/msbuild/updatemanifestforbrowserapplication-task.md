@@ -1,7 +1,6 @@
 ---
 title: "UpdateManifestForBrowserApplication Task | Microsoft Docs"
 description: Learn how MSBuild runs the UpdateManifestForBrowserApplication task to add the hostInBrowser element to the application manifest.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

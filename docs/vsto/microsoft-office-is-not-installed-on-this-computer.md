@@ -1,7 +1,6 @@
 ---
 title: "Microsoft Office is not installed on this computer"
 description: Learn what to do when Visual Studio cannot find the Microsoft Office application that corresponds to your project type.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "error-reference"
 f1_keywords:

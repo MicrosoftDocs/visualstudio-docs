@@ -1,7 +1,6 @@
 ---
 title: When a Breakpoint Binds or Becomes Unbound | Microsoft Docs
 description: Learn about unbound breakpoints. When a breakpoint can't be bound at the time a call is made, the bind time and create time of the breakpoint are different.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

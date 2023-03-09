@@ -1,7 +1,6 @@
 ---
 title: Extend Coded UI Tests and Action Recordings
 description: Learn how to create an extension to the coded UI test framework for your specific UI by taking advantage of the extensibility of the coded UI test framework.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.author: mikejo

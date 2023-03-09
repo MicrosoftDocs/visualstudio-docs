@@ -2,7 +2,6 @@
 title: "Create Silverlight web part displaying OData for SharePoint"
 titleSuffix: ""
 description: Create a Silverlight web part that displays OData for SharePoint. Customize the Silverlight application, and modify and test the Silverlight web part.
-ms.custom: SEO-VS-2020
 ms.date: "02/22/2017"
 ms.topic: how-to
 f1_keywords:

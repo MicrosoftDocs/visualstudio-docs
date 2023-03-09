@@ -1,7 +1,6 @@
 ---
 title: Launching the Debugger | Microsoft Docs
 description: Learn about the sequence of methods and events with their proper attributes required for launching the debugger.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

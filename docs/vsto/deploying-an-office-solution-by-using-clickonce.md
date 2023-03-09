@@ -1,7 +1,6 @@
 ---
 title: "Deploy an Office solution by using ClickOnce"
 description: Learn how you can deploy your Office solution in fewer steps if you use ClickOnce. If you publish updates, your solution will automatically detect and install them. 
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

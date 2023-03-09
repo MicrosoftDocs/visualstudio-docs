@@ -1,7 +1,6 @@
 ---
 title: "Office Excel Keyboard, Settings, Options dialog box"
 description: Learn how you can make Microsoft Excel receive shortcut key commands when the document has focus by selecting Dynamic keyboard scheme.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

@@ -1,7 +1,6 @@
 ---
 title: Preparing Extensions for Windows Installer Deployment | Microsoft Docs
 description: Learn how to prepare a project whose default output is a VSIX package for inclusion in a Setup project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

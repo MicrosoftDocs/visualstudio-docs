@@ -1,7 +1,6 @@
 ---
 title: Sample Implementation of Locals | Microsoft Docs
 description: Learn how Visual Studio gets the locals for a method from the expression evaluator in this article.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: sample
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Typed vs. untyped datasets
 description: Understand the difference between typed and untyped datasets. Contrast data access in typed and untyped datasets.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:

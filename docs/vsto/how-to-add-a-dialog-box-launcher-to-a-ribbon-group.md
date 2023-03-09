@@ -1,7 +1,6 @@
 ---
 title: "How to: Add a Dialog box launcher to a Ribbon group"
 description: You can add a dialog box launcher to any group on a Ribbon that can open related dialog boxes or task panes that provide more options that relate to the group.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

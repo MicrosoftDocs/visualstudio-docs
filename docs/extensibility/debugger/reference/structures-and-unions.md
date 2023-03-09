@@ -1,7 +1,6 @@
 ---
 title: Structures and Unions | Microsoft Docs
 description: This article links to reference descriptions of structures and unions in the Visual Studio Debugging SDK.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Editor Imports | Microsoft Docs
 description: Learn how to import editor services, factories, and brokers that provide your extension with different kinds of access to the core editor.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

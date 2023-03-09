@@ -1,7 +1,6 @@
 ---
 title: "Reference (SharePoint Tools Extensibility) | Microsoft Docs"
 description: Get links to reference documentation for extending the SharePoint tools in Visual Studio, covering the SharePoint project item schema reference and API reference.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

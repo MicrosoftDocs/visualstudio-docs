@@ -1,7 +1,6 @@
 ---
 title: "Customize a Ribbon for Outlook"
 description: Learn that when you customize the ribbon in Microsoft Office Outlook, you must consider where your custom ribbon will appear in the application.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

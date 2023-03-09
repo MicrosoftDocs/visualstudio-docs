@@ -1,7 +1,6 @@
 ---
 title: Developer Community data privacy
 description: Learn how to manage your private data when you create problem reports for the Developer Community to review.
-ms.custom: SEO-VS-2020
 ms.date: 11/07/2022
 ms.topic: conceptual
 helpviewer_keywords:

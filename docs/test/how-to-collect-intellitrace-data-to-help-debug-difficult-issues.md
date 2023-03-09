@@ -1,7 +1,6 @@
 ---
 title: IntelliTrace data
 description: Learn how to configure the diagnostic data adapter for IntelliTrace to collect specific diagnostic trace information in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 10/13/2016
 ms.topic: how-to
 helpviewer_keywords:

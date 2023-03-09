@@ -1,7 +1,6 @@
 ---
 title: Build Events Dialog Box (Visual Basic)
 description: Learn how you can use the Build Events dialog box to specify build configuration instructions and the conditions under which any pre-build or post-build events are run.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: reference

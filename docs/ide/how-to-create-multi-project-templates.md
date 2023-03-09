@@ -1,7 +1,6 @@
 ---
 title: Create multi-project templates
 description: Learn how to create multi-project templates in Visual Studio that can act as containers for many projects at the same time.
-ms.custom: SEO-VS-2020
 ms.date: 04/17/2019
 ms.topic: how-to
 helpviewer_keywords:

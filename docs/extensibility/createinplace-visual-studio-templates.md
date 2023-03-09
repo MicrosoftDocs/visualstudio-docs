@@ -1,7 +1,6 @@
 ---
 title: CreateInPlace element (Visual Studio Templates)
 description: Learn about the CreateInPlace element and how it specifies whether to create the project and perform parameter replacement in a specific or temporary location.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

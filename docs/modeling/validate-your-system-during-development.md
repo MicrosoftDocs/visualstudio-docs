@@ -1,7 +1,6 @@
 ---
 title: Validate your system during development
 description: Learn how Visual Studio can help keep your software consistent with user requirements and with the architecture of your system.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

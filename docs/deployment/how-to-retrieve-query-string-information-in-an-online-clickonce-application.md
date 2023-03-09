@@ -1,7 +1,6 @@
 ---
 title: Retrieve query string info in online ClickOnce app
 description: Learn how a ClickOnce application can read the query portion of a URL and how to use MageUI to configure your application to accept query string parameters.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

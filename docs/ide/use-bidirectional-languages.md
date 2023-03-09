@@ -1,7 +1,6 @@
 ---
 title: Support for Arabic and Hebrew
 description: Learn how to display Arabic and Hebrew text and enter bidirectional text for object names and values.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

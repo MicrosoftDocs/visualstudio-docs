@@ -2,7 +2,6 @@
 title: "Programming concepts & features for SharePoint tool extensions"
 titleSuffix: ""
 description: Review important programming concepts and features related to SharePoint tools in Visual Studio, which may play an important role in SharePoint tools extensions.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Retrieve cached data from a workbook on a server"
 description: Learn how you can retrieve data from a dataset that is cached in a Microsoft Excel workbook without starting Excel by using the ServerDocument class.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

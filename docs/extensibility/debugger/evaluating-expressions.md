@@ -1,7 +1,6 @@
 ---
 title: Evaluating Expressions | Microsoft Docs
 description: Learn about evaluating expressions, which are created from strings passed down from the Autos, Watch, QuickWatch, or Immediate windows.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

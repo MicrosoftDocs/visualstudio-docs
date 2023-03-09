@@ -1,7 +1,6 @@
 ---
 title: StartTrackingContext | Microsoft Docs
 description: Learn the parameters, requirements, and return value for MSBuild StartTrackingContext, which starts a tracking context.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 apiname:

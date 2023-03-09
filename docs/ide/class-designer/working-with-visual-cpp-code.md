@@ -1,7 +1,6 @@
 ---
 title: Working with C++ Code (Class Designer)
 description: Learn how to use class diagrams to design and visualize C++ code element, classes, and other types in a project.
-ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
 ms.topic: conceptual
 f1_keywords:

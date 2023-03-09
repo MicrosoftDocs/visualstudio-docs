@@ -1,7 +1,6 @@
 ---
 title: 'Walkthrough: Creating an N-tier Data Application'
 description: In this walkthrough, create an N-tier data application. N-tier data applications are apps that access data and are separated into many logical layers, or tiers.
-ms.custom: SEO-VS-2020
 ms.date: 11/22/2021
 ms.topic: conceptual
 dev_langs:

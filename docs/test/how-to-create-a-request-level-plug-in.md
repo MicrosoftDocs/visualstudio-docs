@@ -1,7 +1,6 @@
 ---
 title: Create request-level plug-in (web performance tests)
 description: Learn how web performance test plug-ins on an individual request enable you to reuse code outside the main declarative statements in your web performance test.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

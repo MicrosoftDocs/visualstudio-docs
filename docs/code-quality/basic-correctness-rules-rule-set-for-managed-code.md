@@ -2,7 +2,6 @@
 title: Basic Correctness Rules rule set for managed code
 ms.date: 11/04/2016
 description: Learn about the Basic Correctness Rules rule set in Visual Studio, which focuses on logic errors and common framework API mistakes. See rule descriptions.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 ms.assetid: 631f0daf-1d42-4c90-a7dc-1a6a9de64c93
 author: mikejo5000

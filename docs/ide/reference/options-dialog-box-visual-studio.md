@@ -1,7 +1,6 @@
 ---
 title: Options dialog
 description: Learn about the Options dialog box, its layout, and how Visual Studios applies the options you select to your projects and solutions.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

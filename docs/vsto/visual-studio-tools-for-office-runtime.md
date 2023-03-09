@@ -2,7 +2,6 @@
 title: "Visual Studio Tools for Office Runtime Lifecycle Policy"
 description: Learn about the support lifecycle policy for the Visual Studio Tools for Office Runtime.
 titleSuffix: ""
-ms.custom: "seodec18, SEO-VS-2020"
 ms.date: "10/4/2021"
 ms.topic: "conceptual"
 dev_langs:

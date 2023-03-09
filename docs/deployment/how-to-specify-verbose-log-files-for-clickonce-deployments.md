@@ -1,7 +1,6 @@
 ---
 title: Specify verbose log files (ClickOnce deployments)
 description: Learn how to specify verbosity for the activity logs that ClickOnce maintains for installing, initializing, updating, and uninstalling a ClickOnce deployment.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

@@ -2,7 +2,6 @@
 title: 'How to: Troubleshoot brokered services'
 description: Learn how to troubleshoot several common problems that can occur when you try to get a brokered service in the Visual Studio SDK.
 monikerRange: '>= vs-2019'
-ms.custom: SEO-VS-2020
 ms.date: 02/18/2022
 ms.topic: troubleshooting
 helpviewer_keywords:

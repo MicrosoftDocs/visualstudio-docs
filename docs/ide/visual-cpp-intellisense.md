@@ -1,7 +1,6 @@
 ---
 title: C++ IntelliSense
 description: Learn about some IntelliSense features that you can use while coding your C++ project.
-ms.custom: SEO-VS-2020
 ms.date: 10/08/2018
 ms.topic: conceptual
 author: tylermsft

@@ -1,7 +1,6 @@
 ---
 title: Model user requirements
 description: Learn how Visual Studio helps you understand, discuss, and communicate your users' needs by drawing diagrams about their activities.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

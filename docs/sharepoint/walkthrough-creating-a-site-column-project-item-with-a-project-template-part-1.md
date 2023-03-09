@@ -2,7 +2,6 @@
 title: "Create site column project item with project template, part 1"
 titleSuffix: ""
 description: Define a project item type for creating a site column, and then create a project template to use for creating a SharePoint project that contains the project item.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

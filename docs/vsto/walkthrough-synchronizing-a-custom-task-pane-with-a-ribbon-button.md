@@ -1,7 +1,6 @@
 ---
 title: "Synchronize custom task pane with Ribbon button"
 description: Learn how you can create a custom task pane that users can hide or display by clicking a toggle button on the ribbon.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

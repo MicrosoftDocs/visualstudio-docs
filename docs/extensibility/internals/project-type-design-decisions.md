@@ -1,7 +1,6 @@
 ---
 title: Project Type Design Decisions | Microsoft Docs
 description: Learn about the item, project file persistence, and commitment mechanic design decisions to make before you extend Visual Studio by creating a new project type.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

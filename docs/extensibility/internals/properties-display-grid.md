@@ -1,7 +1,6 @@
 ---
 title: Properties Display Grid | Microsoft Docs
 description: Learn where the property names and property values fields are found in the grid in the Properties window and how to work with the grid in extending properties.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

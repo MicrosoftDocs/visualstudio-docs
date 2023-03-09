@@ -1,7 +1,6 @@
 ---
 title: 'How to: Add a Dependency to a VSIX Package | Microsoft Docs'
 description: Learn how to set up a VSIX package deployment that installs any dependencies that are not already present on the target computer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: "Word solutions"
 description: Learn how you can use Visual Studio solutions to automate Word, extend Word features, and customize the Word user interface (UI).
-ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:

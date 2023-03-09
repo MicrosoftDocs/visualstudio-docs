@@ -1,7 +1,6 @@
 ---
 title: Breakpoint Errors | Microsoft Docs
 description: Learn about the process when a breakpoint attempts to bind to code but fails and how to troubleshoot breakpoint errors.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Creating and Managing Modal Dialog Boxes | Microsoft Docs
 description: Learn how to create a modal dialog box inside Visual Studio, both by using DialogWindow and without using DialogWindow.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

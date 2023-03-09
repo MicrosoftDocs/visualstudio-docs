@@ -1,7 +1,6 @@
 ---
 title: Icon Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the Icon element and how it specifies the path and the filename of the image file that serves as the icon.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
