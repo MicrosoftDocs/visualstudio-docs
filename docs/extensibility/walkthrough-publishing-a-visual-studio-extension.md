@@ -229,11 +229,11 @@ You can remove the extension from Visual Studio Marketplace and from your comput
 
 3. Click on extenion menu button → click **Remove**. You are asked to confirm if you want to remove the extension.
 
-![Remove-extension](media/remove-extension.png)
+![Screenshot that shows Remove menu item.](media/remove-extension.png)
 
 To prevent accidental unpublishing, you must confirm the remove operation by filling extension name in the warning dialog. Note that remove/unpublish action is non-reversible
 
-![Remove-warning](media/remove-warning.png)
+![Screenshot that shows warning.](media/remove-warning.png)
 
 ### To remove the extension from your computer
 
