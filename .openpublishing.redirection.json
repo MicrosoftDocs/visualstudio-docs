@@ -3031,6 +3031,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/debugging-managed-code.md",
+      "redirect_url": "/visualstudio/debugger/",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/debugging-applications.md",
       "redirect_url": "/visualstudio/debugger/",
       "redirect_document_id": false

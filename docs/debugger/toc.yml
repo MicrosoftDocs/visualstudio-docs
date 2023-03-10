@@ -474,8 +474,6 @@
         href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
     - name: Managed code (C#, Visual Basic, F#)
       items:
-      - name: Debug managed code
-        href: debugging-managed-code.md
       - name: Debugging preparation
         items:
         - name: 'Debugging preparation: C#, F#, and Visual Basic project types'
