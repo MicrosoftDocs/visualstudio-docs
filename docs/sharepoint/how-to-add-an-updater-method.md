@@ -1,7 +1,6 @@
 ---
 title: "How to: Add an Updater Method | Microsoft Docs"
 description: Learn how to enable users to update business data in a SharePoint external list by adding an Updater method.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

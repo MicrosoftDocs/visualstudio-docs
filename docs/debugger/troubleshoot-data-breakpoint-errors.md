@@ -1,7 +1,6 @@
 ---
 title: "Unable to set data breakpoint | Microsoft Docs"
 description: Find explanations, solutions, and workarounds for "Unable to set data breakpoint errors" that occur when using "Break when Value Changes".
-ms.custom: SEO-VS-2020
 ms.date: "5/19/2020"
 ms.topic: "error-reference"
 f1_keywords:

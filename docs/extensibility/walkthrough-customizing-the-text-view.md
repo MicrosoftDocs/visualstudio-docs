@@ -1,7 +1,6 @@
 ---
 title: 'Walkthrough: Customizing the Text View | Microsoft Docs'
 description: Learn how to customize a text view by modifying any of the several properties in its editor-format map by using this walkthrough.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Code Generation in a Build Process
 description: Learn how text transformation can be invoked as part of the build process of a Visual Studio solution.
-ms.custom: SEO-VS-2020
 ms.date: 03/22/2018
 ms.topic: how-to
 helpviewer_keywords:

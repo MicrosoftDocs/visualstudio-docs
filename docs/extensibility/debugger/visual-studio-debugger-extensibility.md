@@ -1,7 +1,6 @@
 ---
 title: Visual Studio Debugger Extensibility | Microsoft Docs
 description: This article describes Visual Studio debugger extensibility and provides links to articles about Visual Studio debugging.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

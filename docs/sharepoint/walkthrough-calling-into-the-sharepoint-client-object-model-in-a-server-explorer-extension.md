@@ -2,7 +2,6 @@
 title: "Server Explorer: Extending the SharePoint Connections node"
 titleSuffix: ""
 description: In this walkthrough, see how to call the SharePoint client object model from an extension for the SharePoint Connections node in Server Explorer.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

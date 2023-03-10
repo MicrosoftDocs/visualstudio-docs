@@ -1,7 +1,6 @@
 ---
 title: Output Element (MSBuild) | Microsoft Docs
 description: See attributes, elements, and an example of the MSBuild Output element, which stores task output values in items and properties.
-ms.custom: SEO-VS-2020
 ms.date: 03/13/2017
 ms.topic: reference
 f1_keywords:

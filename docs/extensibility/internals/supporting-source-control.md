@@ -1,7 +1,6 @@
 ---
 title: Supporting Source Control | Microsoft Docs
 description: Learn how Visual Studio supports file checkouts, checkins, and other source control operations for your project or editor.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

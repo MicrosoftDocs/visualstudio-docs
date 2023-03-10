@@ -1,7 +1,6 @@
 ---
 title: Icon Element | Microsoft Docs
 description: Learn about the Icon element, which represents icons used in Visual Studio IDE extensions, which includes attributes for the bitmap used and the slot in the bitmap strip.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: "Troubleshoot Office solution security"
 description: Learn some tips for solving common problems that you might encounter when you work with securing Microsoft Office solutions.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "troubleshooting"
 dev_langs:

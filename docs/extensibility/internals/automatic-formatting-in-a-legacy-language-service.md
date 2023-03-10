@@ -1,7 +1,6 @@
 ---
 title: Automatic Formatting in a Legacy Language Service | Microsoft Docs
 description: Learn about automatic formatting in a legacy language service, that automatically inserts a snippet of code when you begin to type a known code construct.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

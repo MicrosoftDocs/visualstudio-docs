@@ -2,7 +2,6 @@
 title: Assembly Element (Visual Studio Templates) | Microsoft Docs
 titleSuffix: ""
 description: Learn about the Assembly element and how it specifies information about an assembly, which the template uses to add a reference of that assembly to projects.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

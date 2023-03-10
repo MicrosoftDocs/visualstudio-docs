@@ -1,7 +1,6 @@
 ---
 title: "COM and ActiveX Debugging | Microsoft Docs"
 description: Discover tips on debugging COM applications and ActiveX controls in Visual Studio. Learn about COM server and container debugging. Find COM debugging tools.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

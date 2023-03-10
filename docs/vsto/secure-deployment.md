@@ -1,7 +1,6 @@
 ---
 title: "Secure deployment"
 description: Learn how you must provide evidence on which to base a trust decision by signing the solution with a certificate, or using the ClickOnce trust prompt key. 
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

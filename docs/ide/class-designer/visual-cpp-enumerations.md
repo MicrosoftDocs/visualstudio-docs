@@ -1,7 +1,6 @@
 ---
 title: C++ Enumerations in Class Designer
 description: Learn about how Class Designer supports C++ enum and scoped enum class types.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

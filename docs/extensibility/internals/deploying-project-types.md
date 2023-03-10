@@ -1,7 +1,6 @@
 ---
 title: Deploying Project Types | Microsoft Docs
 description: Learn how to deploy managed-code project types by using a new project-type aggregator and Windows Installer package for redistribution, in the Visual Studio SDK. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

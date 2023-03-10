@@ -1,7 +1,6 @@
 ---
 title: Develop apps for the Universal Windows Platform (UWP)
 description: Learn about creating apps using Visual Studio and the Universal Windows Platform development tools.
-ms.custom: SEO-VS-2020
 ms.date: 10/24/2017
 ms.technology: vs-ide-general
 ms.topic: conceptual

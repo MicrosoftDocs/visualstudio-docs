@@ -1,7 +1,6 @@
 ---
 title: Command Placement Guidelines | Microsoft Docs
 description: Learn the guidelines and best practices for positioning commands in the Visual Studio integrated development environment (IDE). 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

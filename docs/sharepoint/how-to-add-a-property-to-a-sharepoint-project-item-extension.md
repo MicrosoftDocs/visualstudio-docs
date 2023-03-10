@@ -2,7 +2,6 @@
 title: "How to: Add a Property to a SharePoint Project Item Extension | Microsoft Docs"
 titleSuffix: ""
 description: Use a SharePoint project item extension to add a property to any SharePoint project item that's already installed in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

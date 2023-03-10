@@ -1,7 +1,6 @@
 ---
 title: Commands Element | Microsoft Docs
 description: "The Commands element represents the collection of commands on the VSPackage toolbar and can have these sections: menus, groups, buttons, combos, and bitmaps."
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

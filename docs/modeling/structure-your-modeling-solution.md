@@ -1,7 +1,6 @@
 ---
 title: Structure your modeling solution
 description: Learn a modeling scheme for dividing the application into different parts that correspond to the layers in an overall layering diagram.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 author: mgoertz-msft

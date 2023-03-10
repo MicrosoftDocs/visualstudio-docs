@@ -1,7 +1,6 @@
 ---
 title: "ResolveNonMSBuildProjectOutput Task | Microsoft Docs"
 description: Learn how MSBuild uses the ResolveNonMSBuildProjectOutput task to determine the output files for non-MSBuild project references.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

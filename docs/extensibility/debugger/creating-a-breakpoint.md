@@ -1,7 +1,6 @@
 ---
 title: Creating a Breakpoint | Microsoft Docs
 description: Learn about the method calls that the session debug manager makes when the module that is needed to bind a breakpoint is loaded.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

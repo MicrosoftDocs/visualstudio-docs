@@ -1,7 +1,6 @@
 ---
 title: Important Commands for Language Service Filters | Microsoft Docs
 description: Learn about the important commands that you should support when creating a fully featured language service filter in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

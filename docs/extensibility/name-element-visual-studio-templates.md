@@ -1,7 +1,6 @@
 ---
 title: Name Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the Name element and how it specifies the name of the template as it appears in the New Project or Add New Item dialog box.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

@@ -1,7 +1,6 @@
 ---
 title: "Late binding in Office solutions"
 description: Learn how some types in object models within Microsoft Office applications provide functionality that is available through late-binding features.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

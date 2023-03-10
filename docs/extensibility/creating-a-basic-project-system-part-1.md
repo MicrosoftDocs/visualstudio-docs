@@ -1,7 +1,6 @@
 ---
 title: Creating a Basic Project System, Part 1 | Microsoft Docs
 description: Learn how to create a project type named extension.myproj. In Visual Studio, projects are containers used to organize source code files and other assets.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

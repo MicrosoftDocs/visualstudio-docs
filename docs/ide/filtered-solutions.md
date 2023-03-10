@@ -1,7 +1,6 @@
 ---
 title: Load a subset of projects
 description: Learn about solution filtering and how it allows you to quickly load a subset of projects in a solution.
-ms.custom: SEO-VS-2020
 ms.date: 04/22/2019
 ms.topic: conceptual
 helpviewer_keywords:

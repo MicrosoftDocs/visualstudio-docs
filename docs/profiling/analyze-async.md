@@ -1,7 +1,6 @@
 ---
 title: "Analyze performance of .NET asynchronous code | Microsoft Docs"
 description: Use the .NET Async tool to analyze performance of asynchronous code. There is timing for each task listed. To see the code, use Go To Source File. 
-ms.custom: SEO-VS-2020
 ms.date: "5/5/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:

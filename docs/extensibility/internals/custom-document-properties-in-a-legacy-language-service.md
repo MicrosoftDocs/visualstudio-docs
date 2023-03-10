@@ -1,7 +1,6 @@
 ---
 title: Custom document properties in legacy language services
 description: Learn how to create custom document properties that are displayed in the Visual Studio Properties window, as part of a legacy language service.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

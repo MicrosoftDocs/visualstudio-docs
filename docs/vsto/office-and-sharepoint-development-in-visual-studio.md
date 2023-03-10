@@ -1,7 +1,6 @@
 ---
 title: "Office and SharePoint development in Visual Studio"
 description: Learn how you can extend Microsoft Office and SharePoint by creating a lightweight app or add-in that users download from the Office Store.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

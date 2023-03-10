@@ -1,7 +1,6 @@
 ---
 title: Roadmap for Extending the Debugger | Microsoft Docs
 description: Visual Studio debugging documentation includes samples, a reference, and several scenarios that demonstrate typical ways to customize the debugger.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

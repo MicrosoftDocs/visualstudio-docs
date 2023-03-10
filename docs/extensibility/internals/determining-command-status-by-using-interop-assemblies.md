@@ -1,7 +1,6 @@
 ---
 title: Determining Command Status By Using Interop Assemblies | Microsoft Docs
 description: Learn how to determine the status of commands that are handled in a VSPackage, by using the Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget interface.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

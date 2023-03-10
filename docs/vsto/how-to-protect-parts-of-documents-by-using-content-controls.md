@@ -1,7 +1,6 @@
 ---
 title: "How to: Protect parts of documents by using content controls"
 description: Learn how you can use Visual Studio to protect parts of a Microsoft Word document by using content controls.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

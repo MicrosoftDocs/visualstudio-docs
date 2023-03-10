@@ -1,7 +1,6 @@
 ---
 title: 'How to: Manage editor windows'
 description: Learn how to split windows and open several windows at once so you can display your code in the way that works best for you.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

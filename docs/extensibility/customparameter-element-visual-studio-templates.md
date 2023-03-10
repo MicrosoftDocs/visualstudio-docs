@@ -1,7 +1,6 @@
 ---
 title: CustomParameter Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the CustomParameter element and how it contains a custom parameter name and value to use when a project or item is created from the template.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

@@ -1,7 +1,6 @@
 ---
 title: 'How to: Create a Grayscale Texture Shader'
 description: Learn how to use Shader Designer and Directed Graph Shader Language to create a grayscale texture shader that modifies RGB color value of the texture sample.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 79181d81-44af-445e-9a18-03483dd70260

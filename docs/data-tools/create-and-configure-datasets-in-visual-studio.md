@@ -1,7 +1,6 @@
 ---
 title: Create and configure datasets
 description: Create and configure datasets in Visual Studio. A dataset is a set of objects that store data from a DB in memory and supports CRUD operations on that data.
-ms.custom: SEO-VS-2020
 ms.date: 10/07/2022
 ms.topic: how-to
 helpviewer_keywords:

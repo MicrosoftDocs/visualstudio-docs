@@ -1,7 +1,6 @@
 ---
 title: MSSCCPRJ.SCC File | Microsoft Docs
 description: Learn about the MSSCCPRJ.SCC file, which is a local, client-side file used by the Source Control plug-in, which works with the Visual Studio SDK.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

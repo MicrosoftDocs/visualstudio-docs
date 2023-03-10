@@ -1,7 +1,6 @@
 ---
 title: Coded web performance tests
 description: Learn how a web performance test can be converted to a code-based script that you can edit and customize.
-ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:

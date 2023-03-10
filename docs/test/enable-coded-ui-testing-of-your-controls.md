@@ -1,7 +1,6 @@
 ---
 title: Enable Coded UI Testing of Your Controls
 description: Learn how to implement support for the coded UI testing framework to make your control more testable.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.author: mikejo

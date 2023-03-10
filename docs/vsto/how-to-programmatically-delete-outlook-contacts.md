@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically delete Outlook contacts"
 description: Learn how you can programmatically delete contacts in Microsoft Outlook. This example deletes one contact.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: Implementing Type Visualizers and Custom Viewers | Microsoft Docs
 description: Learn about implementing type visualizers and custom viewers, which let a user view data in a way that is more meaningful than a dump of numbers.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

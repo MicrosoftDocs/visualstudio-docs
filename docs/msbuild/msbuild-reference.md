@@ -1,7 +1,6 @@
 ---
 title: MSBuild Reference | Microsoft Docs
 description: Access links to articles that contain reference information for MSBuild, the build system for Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:

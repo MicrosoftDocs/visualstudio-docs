@@ -1,7 +1,6 @@
 ---
 title: Registering a Custom Debug Engine | Microsoft Docs
 description: Learn how the debug engine registers itself as a class factory, following COM conventions, as well as registering with Visual Studio through the registry.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

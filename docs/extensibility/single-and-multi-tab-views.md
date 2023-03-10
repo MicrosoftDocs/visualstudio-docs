@@ -1,7 +1,6 @@
 ---
 title: Single and Multi-tab Views | Microsoft Docs
 description: Learn how to implement multi-tab views in editors, such as a code editor windows and a forms designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

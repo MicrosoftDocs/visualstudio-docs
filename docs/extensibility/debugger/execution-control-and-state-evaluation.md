@@ -1,7 +1,6 @@
 ---
 title: Execution Control and State Evaluation | Microsoft Docs
 description: Learn how Visual Studio debugging bases its execution control on events sent between debugger components.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

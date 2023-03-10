@@ -1,7 +1,6 @@
 ---
 title: Trigger suspend/resume/background events when debugging UWP
 description: Review how to trigger suspend, resume, and background events while debugging Universal Windows Platform (UWP) apps in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 01/16/2018
 ms.topic: how-to
 f1_keywords: 

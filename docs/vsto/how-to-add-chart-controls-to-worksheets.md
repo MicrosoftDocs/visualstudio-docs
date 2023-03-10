@@ -1,7 +1,6 @@
 ---
 title: "How to: Add Chart controls to worksheets"
 description: Learn how you can add Chart controls to a Microsoft Office Excel worksheet at design time and at run time in document-level customizations.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

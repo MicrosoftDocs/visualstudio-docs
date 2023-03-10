@@ -1,7 +1,6 @@
 ---
 title: Support the Autos window in a legacy language service
 description: Learn how to implement support for the Autos window, which displays expressions that are in scope when the program being debugged is paused.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

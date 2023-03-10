@@ -1,7 +1,6 @@
 ---
 title: Enumerators | Microsoft Docs
 description: Learn about the enumerator data types in the Source Control Plug-in API including Command code, Message, File status code, and Directory status code.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

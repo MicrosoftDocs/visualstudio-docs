@@ -1,7 +1,6 @@
 ---
 title: Enabling a Program to Be Debugged | Microsoft Docs
 description: Learn about how to launch your debug engine or attach the debug engine to an existing program to debug a program.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

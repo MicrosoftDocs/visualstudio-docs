@@ -1,7 +1,6 @@
 ---
 title: Refresh the View | Microsoft Docs
 description: See how to refresh a view in the Spy++ tool when debugging in Visual Studio. Spy++ takes a snapshot of the system tables and refreshes a view based on this information.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

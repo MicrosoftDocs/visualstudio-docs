@@ -1,7 +1,6 @@
 ---
 title: Getting Started with Source Control Plug-ins | Microsoft Docs
 description: Learn about creating a source control plug-in that implements the functions defined in the Source Control Plug-in API for use in source code version control. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

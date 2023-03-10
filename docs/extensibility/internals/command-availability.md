@@ -1,7 +1,6 @@
 ---
 title: Command Availability | Microsoft Docs
 description: Learn how command context, which changes based on the current project, current editor, and other factors, determines which commands are available in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 03/22/2018
 ms.topic: conceptual
 helpviewer_keywords:

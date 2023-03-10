@@ -1,7 +1,6 @@
 ---
 title: Create relationships between datasets
 description: Create relationships between datasets in Visual Studio. Understand DataRelation objects and constraints. Manually create a data relation in Dataset Manager.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:

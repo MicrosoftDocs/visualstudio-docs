@@ -1,7 +1,6 @@
 ---
 title: Adding a Menu to the Visual Studio Menu Bar | Microsoft Docs
 description: Learn how to add a menu to the menu bar of the Visual Studio integrated development environment (IDE).
-ms.custom: SEO-VS-2020
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:

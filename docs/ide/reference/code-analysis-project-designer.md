@@ -1,7 +1,6 @@
 ---
 title: Code Analysis, Project Designer
 description: Learn about the Code Analysis, Project Designer and how it contains the code analysis tool that you can opt to run on your code.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

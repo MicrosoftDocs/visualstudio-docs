@@ -1,7 +1,6 @@
 ---
 title: "Debug SharePoint application using IntelliTrace"
 description: Use IntelliTrace to more easily debug and fix SharePoint applications. Create and add code to a feature receiver. Test the project. Collect IntelliTrace data.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

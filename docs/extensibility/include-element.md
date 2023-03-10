@@ -1,7 +1,6 @@
 ---
 title: Include Element | Microsoft Docs
 description: The Include element specifies a file that can be located on the supplied include path for insertion into the current file. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

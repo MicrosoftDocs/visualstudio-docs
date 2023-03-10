@@ -1,7 +1,6 @@
 ---
 title: Run-Time Text Generation with T4 Text Templates
 description: Learn how you can generate text strings in your application at run time by using Visual Studio runtime text templates.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:

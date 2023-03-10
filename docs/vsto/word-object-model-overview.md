@@ -1,7 +1,6 @@
 ---
 title: "Word object model overview"
 description: The Word object model consists of classes and interfaces that are provided in the primary interop assembly for Word and are defined in the Word namespace.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

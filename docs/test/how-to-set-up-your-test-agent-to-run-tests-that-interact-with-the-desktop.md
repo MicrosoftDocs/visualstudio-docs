@@ -1,7 +1,6 @@
 ---
 title: Configure a test agent
 description: Learn how to run automated tests that interact with the desktop by setting up your agent to run as a process instead of a service.
-ms.custom: SEO-VS-2020
 ms.date: 09/18/2018
 ms.topic: how-to
 helpviewer_keywords: 

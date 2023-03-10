@@ -1,7 +1,6 @@
 ---
 title: List Disassembly Command
 description: Learn about the List Disassembly command and how it begins the debug process and allows you to specify how errors are handled.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

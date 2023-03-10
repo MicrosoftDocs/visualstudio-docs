@@ -1,7 +1,6 @@
 ---
 title: Analyzing Coded UI Tests Using Coded UI Test Logs
 description: Learn about coded UI test logs, which filter and record important information about your coded UI test runs. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.author: mikejo

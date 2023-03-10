@@ -1,7 +1,6 @@
 ---
 title: Add editor support for other languages
 description: Learn about how the Visual Studio editor supports reading and navigating through different computer languages and how you can add support for other languages.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

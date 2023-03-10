@@ -1,7 +1,6 @@
 ---
 title: Exec Task | Microsoft Docs
 description: Learn to use the MSBuild Exec task to run a specified program or command by using the specified arguments.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

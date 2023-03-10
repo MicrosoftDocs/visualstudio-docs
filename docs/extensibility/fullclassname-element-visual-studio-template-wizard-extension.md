@@ -1,7 +1,6 @@
 ---
 title: FullClassName element (VS template wizard extension)
 description: Learn about the FullClassName element and how its the fully qualified name of the class that implements the IWizard interface.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

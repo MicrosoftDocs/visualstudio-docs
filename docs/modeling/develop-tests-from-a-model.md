@@ -1,7 +1,6 @@
 ---
 title: Develop tests from a model
 description: Learn how you can use requirements and architectural models to help organize the tests of your system and its components.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

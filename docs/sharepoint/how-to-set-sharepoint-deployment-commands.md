@@ -1,7 +1,6 @@
 ---
 title: "How to: Set SharePoint Deployment Commands | Microsoft Docs"
 description: Understand how to customize the deployment process by setting SharePoint pre-deployment and post-deployment commands.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

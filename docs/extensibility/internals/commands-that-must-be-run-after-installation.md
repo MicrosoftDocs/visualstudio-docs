@@ -1,7 +1,6 @@
 ---
 title: Commands That Must Be Run After Installation | Microsoft Docs
 description: Learn about the commands that must be run as part of your installation of an extension deployed through a .msi file in Visual Studio. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

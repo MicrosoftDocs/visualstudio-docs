@@ -1,7 +1,6 @@
 ---
 title: "How to: Create a SharePoint Project Item Extension | Microsoft Docs"
 description: Review how to create a project item extension when you want to add functionality to a SharePoint project item that's already installed in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

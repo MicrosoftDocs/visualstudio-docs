@@ -1,7 +1,6 @@
 ---
 title: Access the DTE Object from an editor extension
 description: Learn how to access the DTE object from an editor extension by using the code example in this walkthrough.
-ms.custom: SEO-VS-2020
 ms.date: 04/24/2019
 ms.topic: tutorial
 helpviewer_keywords:

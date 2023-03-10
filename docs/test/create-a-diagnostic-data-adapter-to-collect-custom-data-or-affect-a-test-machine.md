@@ -1,7 +1,6 @@
 ---
 title: Create a Diagnostic Data Adapter for testing
 description: Learn how to write code to perform tasks at specific points in your test run by using APIs provided within Visual Studio Enterprise.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: "Workflow Designer - CorrelatesOn Definition Dialog Box"
 description: Learn how you can use the CorrelatesOn dialog box in Workflow Designer to edit the CorrelatesOn property of a Receive activity.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

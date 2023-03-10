@@ -1,7 +1,6 @@
 ---
 title: VSCodeWindow Object | Microsoft Docs
 description: Learn about code windows, which are specialized document windows that can include one or more text views, usually the VsTextView object.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

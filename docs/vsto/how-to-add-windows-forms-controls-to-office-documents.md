@@ -1,7 +1,6 @@
 ---
 title: "How to: Add Windows forms controls to Office documents"
 description: Learn how you can add Windows Forms controls to Microsoft Office Excel and Microsoft Office Word documents at design time in document-level projects.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

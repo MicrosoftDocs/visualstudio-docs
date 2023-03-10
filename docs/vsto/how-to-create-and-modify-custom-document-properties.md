@@ -1,7 +1,6 @@
 ---
 title: "How to: Create and modify custom document properties"
 description: Learn how you can create and modify custom document properties if there is additional information you want to store with the document.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

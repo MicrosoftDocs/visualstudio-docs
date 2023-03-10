@@ -1,7 +1,6 @@
 ---
 title: WriteLinesToFile Task | Microsoft Docs
 description: Learn how MSBuild uses the WriteLinesToFile task to write the paths of the specified items to the specified text file.
-ms.custom: SEO-VS-2020
 ms.date: 09/20/2018
 ms.topic: reference
 f1_keywords:
