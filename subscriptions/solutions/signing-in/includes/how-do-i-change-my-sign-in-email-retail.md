@@ -9,7 +9,7 @@ ms.topic: include
 user.type: DO NOT PULL for solutions
 tags: sign-in
 subscription.type: retail
-sap.id: DO NOT PULL for solutions
+sap.id: 17a2bf94-0d03-2629-dfd8-e8935f9126ec
 ---
 
 ## How to change your sign-in email address for Visual Studio subscriptions purchased through the Microsoft Store

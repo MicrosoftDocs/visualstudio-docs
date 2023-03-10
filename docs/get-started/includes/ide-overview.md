@@ -27,7 +27,7 @@ The preceding image shows Visual Studio with an open project that shows key wind
 
 - The central [editor window](../../ide/writing-code-in-the-code-and-text-editor.md), where you'll probably spend most of your time, displays file contents. In the editor window, you can edit code or design a user interface such as a window with buttons and text boxes.
 
-- In [Git Changes](/visualstudio/git-with-visual-studio) at lower right, you can track work items and share code with others by using version control technologies like [Git](https://git-scm.com/) and [GitHub](https://github.com/).
+- In [Git Changes](../../version-control/git-with-visual-studio.md) at lower right, you can track work items and share code with others by using version control technologies like [Git](https://git-scm.com/) and [GitHub](https://github.com/).
 
 ## Editions
 
