@@ -87,8 +87,10 @@ There isn't a workaround for this issue and the profiling session will need to b
 
 ## Error: “X diagnostic events dropped, some information in the report may be missing or inaccurate”
 
+Sometimes during data capture, events can be dropped that can cause the resulting profiling report to be inaccurate or unusable. Dropped events can happen for many different reasons, but it primarily occurs when the system is unable to flush events out to disk faster than the incoming rate.
+
 **How to fix**
-Sometimes during data capture, events can be dropped that can cause the resulting profiling report to be inaccurate or unusable. Dropped events can happen for many different reasons, but it primarily occurs when the system is unable to flush events out to disk faster than the incoming rate. To help reduce dropped events, you can close other disk- and CPU-intensive operations while profiling. By closing these operations, the system can dedicate more resources to flushing the incoming events. You can also try reducing the sampling frequencies on the tools that support these configuration settings, such as the CPU Usage tool and .NET Allocation tool, and thereby reduce overhead.
+To help reduce dropped events, you can close other disk- and CPU-intensive operations while profiling. By closing these operations, the system can dedicate more resources to flushing the incoming events. You can also try reducing the sampling frequencies on the tools that support these configuration settings, such as the CPU Usage tool and .NET Allocation tool, and thereby reduce overhead.
 
 ## See also
 
