@@ -544,18 +544,12 @@
         items:
         - name: Debugging native code FAQs
           href: debugging-native-code-faqs.yml
-      - name: COM and ActiveX
+      - name: COM
         items:
-        - name: COM and ActiveX debugging
-          href: com-and-activex-debugging.md
-        - name: COM server and container
-          items:
-          - name: COM server and container debugging
-            href: com-server-and-container-debugging.md
-        - name: Debug an ActiveX control
-          href: how-to-debug-an-activex-control.md
-        - name: COM debugging tools
-          href: com-debugging-tools.md
+        - name: COM server and container debugging
+          href: com-server-and-container-debugging.md
+        - name: COM debugging tools >>
+          href: /windows/win32/com/ole-com-object-viewer
       - name: Debug injected code
         href: how-to-debug-injected-code.md
     - name: GPU code
