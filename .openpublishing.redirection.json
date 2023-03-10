@@ -3031,6 +3031,46 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/how-can-i-debug-access-violations-when-running-my-program-outside-the-debugger-q.md",
+      "redirect_url": "/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-can-i-debug-windows-api-functions-q.md",
+      "redirect_url": "/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-can-i-find-out-if-my-pointers-corrupt-a-memory-address-q.md",
+      "redirect_url": "/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-can-i-debug-an-access-violation-q.md",
+      "redirect_url": "/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-can-i-keep-focus-when-stepping-through-my-program-q.md",
+      "redirect_url": "/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-can-i-find-out-who-is-passing-a-wrong-parameter-value-q.md",
+      "redirect_url": "/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/where-can-i-look-up-win32-error-codes-q.md",
+      "redirect_url": "/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/when-calling-a-function-hundreds-of-times-how-do-i-know-which-call-failed-q.md",
+      "redirect_url": "/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/crt-debugging-techniques.md",
       "redirect_url": "/cpp/c-runtime-library/crt-debugging-techniques",
       "redirect_document_id": false
