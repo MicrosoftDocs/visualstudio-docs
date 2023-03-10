@@ -1,7 +1,6 @@
 ---
 title: Debug a Self-Hosted WCF Service | Microsoft Docs
 description: Learn how to debug a self-hosted WCF service. The easiest way (but not always possible) is to configure Visual Studio to launch both client and server.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

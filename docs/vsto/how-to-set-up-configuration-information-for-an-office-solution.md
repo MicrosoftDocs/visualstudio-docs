@@ -1,7 +1,6 @@
 ---
 title: "Set up configuration information for an Office solution"
 description: Learn how you can use configuration files to configure settings that are specific to your Microsoft Office solutions.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

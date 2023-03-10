@@ -1,7 +1,6 @@
 ---
 title: "How to: Add or Remove SharePoint Connections | Microsoft Docs"
 description: Add or remove SharePoint connections using the SharePoint Connections node in the Server Explorer window of Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: Adding a Shortcut Menu in a Tool Window | Microsoft Docs
 description: Learn how to add a shortcut menu to a tool window in Visual Studio that appears when a button, text box, or window background is right-clicked.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

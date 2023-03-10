@@ -1,7 +1,6 @@
 ---
 title: Specify a Link for Technical Support | Microsoft Docs
 description: Learn about the Support URL property for publishing a ClickOnce application, which identifies a Web page or file share where users get information.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

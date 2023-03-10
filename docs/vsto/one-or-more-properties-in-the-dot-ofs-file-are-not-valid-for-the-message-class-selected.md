@@ -1,7 +1,6 @@
 ---
 title: Invalid properties in the .ofs file for the message class"
 description: Learn how to correct an error that occurs when one or more properties in the .ofs file are not valid for the message class selected.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

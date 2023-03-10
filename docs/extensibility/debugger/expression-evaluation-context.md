@@ -1,7 +1,6 @@
 ---
 title: Expression Evaluation Context | Microsoft Docs
 description: Learn about expression evaluation context, which represents a context for expression evaluation and exists when a program has stopped at a breakpoint.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

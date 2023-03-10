@@ -1,7 +1,6 @@
 ---
 title: "URL picker dialog box (SharePoint development)"
 description: Learn about the URL picker dialog box, which lets a user choose files located in their project or on the local server that's running SharePoint.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

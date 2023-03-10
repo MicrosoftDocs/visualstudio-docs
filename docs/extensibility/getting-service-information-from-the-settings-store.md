@@ -1,7 +1,6 @@
 ---
 title: Getting Service Information from the Settings Store | Microsoft Docs
 description: Learn how to use the settings store to find all available services or to determine whether a particular service is installed.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 7028d440-d16d-4b08-9b94-eb8cc93b25fc

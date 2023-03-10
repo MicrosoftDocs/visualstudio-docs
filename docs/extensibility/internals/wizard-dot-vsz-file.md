@@ -1,7 +1,6 @@
 ---
 title: Wizard (.Vsz) File | Microsoft Docs
 description: Learn about the .vsz files that the IDE uses to start wizards. The files contain information about which wizard to call and what to pass to the wizard.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

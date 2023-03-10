@@ -1,7 +1,6 @@
 ---
 title: Improve your app's performance with File IO 
 description: Use the File IO tool to view file read and write information during the profiling session.
-ms.custom: SEO-VS-2020
 ms.date: 04/26/2022
 ms.topic: how-to
 ms.assetid: 7501a20d-04a1-480f-a69c-201524aa709d

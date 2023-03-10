@@ -1,7 +1,6 @@
 ---
 title: Apply Distribution to Pacing Delay for load testing
 description: Learn to set the Apply Distribution to Pacing Delay property for a load test using the Properties window.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

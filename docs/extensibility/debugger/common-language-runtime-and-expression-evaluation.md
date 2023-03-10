@@ -1,7 +1,6 @@
 ---
 title: Common Language Runtime and Expression Evaluation | Microsoft Docs
 description: Learn how the Common Language Runtime interacts with the debug engine and how to integrate a proprietary programming language into the Visual Studio IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

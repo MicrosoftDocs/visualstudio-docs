@@ -1,7 +1,6 @@
 ---
 title: Set Radix Command
 description: Learn about the Set Radix command and how it sets or returns the numeric base used to display integer values.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

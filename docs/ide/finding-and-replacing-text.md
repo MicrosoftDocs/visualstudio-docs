@@ -1,7 +1,6 @@
 ---
 title: Find and replace text, and multi-caret selection
 description: Learn about the Find and Replace feature and how to use it to find and replace instances of a pattern.
-ms.custom: SEO-VS-2020
 ms.date: 01/12/2023
 ms.topic: conceptual
 f1_keywords:

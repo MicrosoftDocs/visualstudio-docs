@@ -1,7 +1,6 @@
 ---
 title: Supported Roslyn package version mappings
 description: This article shows which .NET compiler platform (Roslyn) package versions are supported for different versions of Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 04/29/2019
 ms.topic: reference
 helpviewer_keywords:

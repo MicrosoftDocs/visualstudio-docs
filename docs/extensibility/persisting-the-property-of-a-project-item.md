@@ -1,7 +1,6 @@
 ---
 title: Persisting the Property of a Project Item | Microsoft Docs
 description: Learn how to persist a property that you add to a project item by storing the property in the project file in your extended project type.
-ms.custom: SEO-VS-2020
 ms.date: 03/22/2018
 ms.topic: how-to
 helpviewer_keywords:

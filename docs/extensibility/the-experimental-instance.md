@@ -1,7 +1,6 @@
 ---
 title: The Experimental Instance | Microsoft Docs
 description: Learn how the Visual Studio SDK provides an experimental space to run untested applications in debug mode.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

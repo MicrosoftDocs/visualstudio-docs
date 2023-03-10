@@ -1,7 +1,6 @@
 ---
 title: Legacy Language Service Features1 | Microsoft Docs
-description: Learn about the Visual Studio features that are supported in a managed package framework (MPF) language service.
-ms.custom: SEO-VS-2020 
+description: Learn about the Visual Studio features that are supported in a managed package framework (MPF) language service. 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

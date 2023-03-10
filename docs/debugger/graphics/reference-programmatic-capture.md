@@ -1,7 +1,6 @@
 ---
 title: "Reference (Programmatic Capture) | Microsoft Docs"
 description: Use the programmatic capture API to exert programmatic control over the capture features of Graphics Diagnostics. 
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 ms.assetid: ef60eb8d-1ac2-4e3a-9b4b-f6da0bdd9da8

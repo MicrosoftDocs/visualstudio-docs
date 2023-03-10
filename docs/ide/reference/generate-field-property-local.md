@@ -1,7 +1,6 @@
 ---
 title: Generate field, property, local variable
 description: Learn how to use the Quick Actions and Refactorings menu to generate the code for a previously undeclared field, property, or local.
-ms.custom: SEO-VS-2020
 ms.date: 01/26/2018
 ms.topic: reference
 author: TerryGLee

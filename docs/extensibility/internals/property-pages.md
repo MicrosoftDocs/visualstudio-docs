@@ -1,7 +1,6 @@
 ---
 title: Property Pages | Microsoft Docs
 description: Learn about working with Properties Pages for your new project type in the Visual Studio SDK, which allow users to view and change project properties.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

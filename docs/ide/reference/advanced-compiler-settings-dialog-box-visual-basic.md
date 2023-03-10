@@ -1,7 +1,6 @@
 ---
 title: Advanced Compiler Settings Dialog Box (Visual Basic)
 description: Learn how you can use the Advanced Compiler Settings dialog box to specify the project's advanced build-configuration properties.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: reference

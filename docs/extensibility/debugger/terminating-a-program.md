@@ -1,7 +1,6 @@
 ---
 title: Terminating a Program | Microsoft Docs
 description: This article describes how the IDE uses the debug engine to terminate a single program with a single thread.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

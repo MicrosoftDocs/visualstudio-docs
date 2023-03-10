@@ -1,7 +1,6 @@
 ---
 title: Elimination of ~SAK Files | Microsoft Docs
 description: Learn about the elimination of ~SAK files from the Source Control Plug-in API 1.2, and how they have been replaced by capability flags and new functions.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: How to ... with Text Templates
 description: Learn about answers to common questions encountered when using text templates to generate text.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: mgoertz-msft

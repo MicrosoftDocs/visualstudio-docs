@@ -2,7 +2,6 @@
 title: "How to: Add a Custom SharePoint Node to Server Explorer | Microsoft Docs"
 titleSuffix: ""
 description: Add a custom SharePoint node to Server Explorer in Visual Studio. Display extra SharePoint components that aren't shown in Server Explorer by default.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

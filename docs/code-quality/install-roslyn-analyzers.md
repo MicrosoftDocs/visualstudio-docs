@@ -2,7 +2,6 @@
 title: Install third party analyzers
 ms.date: 08/27/2020
 description: Learn how to install third-party analyzers in Visual Studio. See how to install analyzers in .vsix files and NuGet analyzer packages.
-ms.custom: SEO-VS-2020
 ms.topic: conceptual
 helpviewer_keywords:
 - code analysis, managed code

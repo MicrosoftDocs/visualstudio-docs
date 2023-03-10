@@ -1,7 +1,6 @@
 ---
 title: Create file associations (ClickOnce app)
 description: Learn how to associate a ClickOnce application with one or more file name extensions, so that the application starts when the user opens such a file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

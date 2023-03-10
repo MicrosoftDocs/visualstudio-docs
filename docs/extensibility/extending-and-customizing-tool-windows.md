@@ -1,7 +1,6 @@
 ---
 title: Extending and Customizing Tool Windows | Microsoft Docs
 description: Learn about extending and customizing tool windows that Visual Studio provides, including the Properties window, the Output window, and the Task List window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

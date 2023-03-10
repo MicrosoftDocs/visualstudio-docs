@@ -1,7 +1,7 @@
 ---
 title: Creating an Extension with a Menu Command | Microsoft Docs
 description: Learn how to create an extension with a menu command that launches Notepad. Create a menu command and then change the menu command handler.
-ms.custom: SEO-VS-2020, UpdateFrequency3
+ms.custom: UpdateFrequency3
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:

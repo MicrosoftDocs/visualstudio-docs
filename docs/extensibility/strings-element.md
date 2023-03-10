@@ -1,7 +1,6 @@
 ---
 title: Strings Element | Microsoft Docs
 description: The Strings element contains a ButtonText child element and other optional child elements. An ampersand in the text string specifies a keyboard shortcut.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

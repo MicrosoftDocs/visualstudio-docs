@@ -1,12 +1,12 @@
 ---
 title: "Tutorial: Deploy a Docker app to Azure"
 description: In this tutorial, learn how to deploy your Docker app to the cloud. You can create a cloud context and run your container in the cloud.
-author: ucheNkadiCode
-ms.author: uchen
+author: ghogen
+ms.author: ghogen
 ms.prod: vs-code
 ms.topic: tutorial
 ms.date: 03/04/2022
-ms.custom: [template-tutorial, contperf-fy22q3]
+ms.custom: template-tutorial, contperf-fy22q3
 
 # Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---

@@ -1,7 +1,6 @@
 ---
 title: Extending the Editor and Language Services | Microsoft Docs
 description: You can add language service features to an editor and extend features of the Visual Studio code editor. Learn about the Managed Extensibility Framework.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

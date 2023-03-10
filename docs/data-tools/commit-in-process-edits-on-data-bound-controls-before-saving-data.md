@@ -1,7 +1,6 @@
 ---
 title: Uncommitted edits
 description: Commit in-process edits on data-bound Windows Forms controls before saving data. Call EndEdit for all BindingSource components on a form.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:

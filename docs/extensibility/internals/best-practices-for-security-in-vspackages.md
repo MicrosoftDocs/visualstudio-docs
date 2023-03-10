@@ -1,7 +1,6 @@
 ---
 title: Best Practices for Security in VSPackages | Microsoft Docs
 description: Learn about the best practices for security in a VSPackage, the basic unit of security and deployment for a Visual Studio application.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

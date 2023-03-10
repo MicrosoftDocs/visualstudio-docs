@@ -1,7 +1,6 @@
 ---
 title: Live Unit Testing
 description: Learn about Live Unit Testing during application development, including supported frameworks and how to configure Live Unit Testing.
-ms.custom: SEO-VS-2020
 ms.date: 04/07/2020
 ms.topic: how-to
 helpviewer_keywords:

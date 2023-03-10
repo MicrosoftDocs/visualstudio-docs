@@ -1,7 +1,6 @@
 ---
 title: Add custom properties to dependency diagrams
 description: Learn how you can store values with any element on a dependency diagram when you write extension code for dependency diagrams.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

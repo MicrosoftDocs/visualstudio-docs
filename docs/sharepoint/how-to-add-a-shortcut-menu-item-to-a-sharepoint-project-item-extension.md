@@ -2,7 +2,6 @@
 title: "Add shortcut menu item to SharePoint project item extension"
 titleSuffix: ""
 description: Add a shortcut menu item to an existing SharePoint project item by using a project item extension in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

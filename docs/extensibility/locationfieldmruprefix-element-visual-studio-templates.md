@@ -2,7 +2,6 @@
 title: LocationFieldMRUPrefix Element (Visual Studio Templates)
 titleSuffix: ""
 description: Learn about the LocationFieldMRUPrefix element and how it specifies the most recently used (MRU) paths in the New Project and Add New Item dialog box.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

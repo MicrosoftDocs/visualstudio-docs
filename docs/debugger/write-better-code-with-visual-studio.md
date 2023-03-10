@@ -1,7 +1,7 @@
 ---
 title: Debugging techniques and tools
 description: "Write better code with less bugs by using Visual Studio to fix exceptions, fix errors, and improve your code"
-ms.custom: ['debug-experiment']
+ms.custom: 'debug-experiment'
 ms.date: "02/14/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:

@@ -2,7 +2,6 @@
 title: EnableEditOfLocationField Element (Visual Studio Templates)
 description: Learn about the EnableEditOfLocationField element and how it specifies if the user can edit the location field.
 titleSuffix: ""
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

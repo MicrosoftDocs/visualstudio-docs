@@ -1,7 +1,6 @@
 ---
 title: DateTime and TimeSpan completion with IntelliSense
 description: Use the IntelliSense menu to complete a DateTime and TimeSpan string literal and format string.
-ms.custom: SEO-VS-2020
 ms.date: 07/31/2020
 ms.topic: reference
 author: mikadumont

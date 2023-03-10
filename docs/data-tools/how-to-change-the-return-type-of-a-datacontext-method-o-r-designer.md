@@ -1,7 +1,6 @@
 ---
 title: Change return type of DataContext method
 description: Know how to change the return type of a DataContext method when you drop a stored procedure or function in the Object Relational Designer (O/R Designer).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: c5b66bff-6dbb-43c0-bffa-317133ca5b9e

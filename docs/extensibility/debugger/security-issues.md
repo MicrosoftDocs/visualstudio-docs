@@ -1,7 +1,6 @@
 ---
 title: Security Issues | Microsoft Docs
 description: Learn about the permissions needed to debug a program using Visual Studio, including remote debugging and situations that involve other services.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Working with the DSL Definition Diagram
 description: Learn that the diagram of a DSL Tools definition is an important tool for defining a domain-specific language.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:

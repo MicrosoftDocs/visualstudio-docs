@@ -1,7 +1,6 @@
 ---
 title: Glyph Control (Source Control VSPackage) | Microsoft Docs
 description: Learn how to display custom glyphs in a source control VSPackage so that you can use your own icons to indicate the status of items under source control.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

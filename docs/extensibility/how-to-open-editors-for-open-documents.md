@@ -1,7 +1,6 @@
 ---
 title: 'How to: Open Editors for Open Documents | Microsoft Docs'
 description: Learn how to open a file in a standard or project-specific editor. When a project opens a document window, it must determine whether the file is already open.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: SortOrder Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the SortOrder element and how it specifies a value that is used to arrange the template as it appears in either the New Project or Add New Item dialog box.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

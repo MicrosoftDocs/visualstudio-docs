@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Call code from VBA in a Visual C# project"
 description: Learn how to call a method in a document-level customization for Microsoft Excel from Visual Basic for Applications (VBA) code in the workbook.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: "How to: Extend a SharePoint Node in Server Explorer | Microsoft Docs"
 description: Understand how to extend a SharePoint node in Server Explorer by using the SharePoint Connections node.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

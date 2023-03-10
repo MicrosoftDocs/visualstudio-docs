@@ -1,7 +1,6 @@
 ---
 title: CodeIndex command
 description: "Learn how to use the CodeIndex command to manage code indexing on Azure DevOps Server (formerly known as Team Foundation Server)."
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

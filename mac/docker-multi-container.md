@@ -1,7 +1,6 @@
 ---
 title: "VS for Mac: Multi-Container App with Docker Compose"
 description: Learn how to manage more than one container and communicate between them in Visual Studio for Mac
-ms.custom: SEO-VS-2020
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn

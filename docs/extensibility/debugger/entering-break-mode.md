@@ -1,7 +1,6 @@
 ---
 title: Entering Break Mode | Microsoft Docs
 description: Learn about the process that occurs for a breakpoint encountered in a function, running to the line of source code at the cursor, or running to a breakpoint.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: "Workflow Designer - InvokeDelegate"
 description: Learn about the InvokeDelegate designer and how you can use the InvokeDelegate designer to create and configure an InvokeDelegate activity.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

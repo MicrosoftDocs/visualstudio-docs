@@ -1,7 +1,6 @@
 ---
 title: CreateNewFolder Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the CreateNewFolder element and how it determines whether to check that the target directory where the project is to be created does not exist.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

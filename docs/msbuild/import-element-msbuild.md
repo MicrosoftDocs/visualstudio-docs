@@ -1,7 +1,6 @@
 ---
 title: Import Element (MSBuild) | Microsoft Docs
 description: Learn how MSBuild uses the Import element to import the contents of one project file into another project file.
-ms.custom: SEO-VS-2020
 ms.date: 03/13/2017
 ms.topic: reference
 f1_keywords:

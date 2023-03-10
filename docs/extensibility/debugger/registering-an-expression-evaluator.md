@@ -1,7 +1,6 @@
 ---
 title: Registering an Expression Evaluator | Microsoft Docs
 description: Learn how the expression evaluator must register itself as a class factory with both the Windows COM environment and Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

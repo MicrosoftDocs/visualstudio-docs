@@ -1,7 +1,6 @@
 ---
 title: Use ClickOnce to deploy multitarget apps
 description: Learn how to deploy an application that targets multiple versions of the .NET Framework by using the ClickOnce deployment technology. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

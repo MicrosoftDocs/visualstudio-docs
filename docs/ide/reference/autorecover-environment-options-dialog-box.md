@@ -1,7 +1,6 @@
 ---
 title: AutoRecover, Environment, Options Dialog Box
 description: Learn about the AutoRecover, Environment, Options dialog box and how it's used to specify whether or not to automatically back up files.
-ms.custom: SEO-VS-2020
 ms.date: 08/14/2020
 ms.topic: reference
 f1_keywords:

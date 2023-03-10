@@ -1,7 +1,6 @@
 ---
 title: "Protect documents and parts of documents programmatically"
 description: Learn how you can add protection to Microsoft Word documents to prevent users from making any edits to the document.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

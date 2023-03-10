@@ -1,7 +1,6 @@
 ---
 title: 'Test Area 2: Get From Source Control | Microsoft Docs'
 description: This test area covers test cases for retrieving items from the version store with Get. These test cases can be applied to both local and to web projects.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

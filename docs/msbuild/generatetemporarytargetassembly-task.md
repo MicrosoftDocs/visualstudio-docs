@@ -1,7 +1,6 @@
 ---
 title: GenerateTemporaryTargetAssembly Task | Microsoft Docs
 description: Use the MSBuild GenerateTemporaryTargetAssembly task to generate an assembly if a project references a type that is declared locally.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: CustomParameters Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the CustomParameters element and how it groups the custom parameters that are to be passed to the template wizard when the wizard makes parameter replacements.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

@@ -1,7 +1,6 @@
 ---
 title: 'How to: Get a Service | Microsoft Docs'
 description: Learn how to get Visual Studio services to access different features. You can get most services by using a VSPackage.
-ms.custom: SEO-VS-2020
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:

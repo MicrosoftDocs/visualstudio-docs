@@ -1,7 +1,6 @@
 ---
 title: "Program VSTO Add-ins"
 description: Learn how you can use the ThisAddIn class to perform tasks such as accessing the object model of the Microsoft Office host application.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

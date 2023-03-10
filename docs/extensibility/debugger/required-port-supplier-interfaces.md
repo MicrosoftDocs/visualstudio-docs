@@ -1,7 +1,6 @@
 ---
 title: Required Port Supplier Interfaces | Microsoft Docs
 description: Learn about the interfaces that a port supplier must run. A port supplier supplies ports and implements them.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Brace Matching in a Legacy Language Service | Microsoft Docs
 description: Learn about brace matching in a legacy language service, that helps you track language elements that must occur together, such as parentheses and curly braces.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

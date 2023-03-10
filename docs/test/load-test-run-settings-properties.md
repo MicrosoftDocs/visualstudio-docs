@@ -1,7 +1,6 @@
 ---
 title: Load Test Run Settings
 description: Learn how to create and store multiple run settings for each load test and then select a particular setting to use when you run the test.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: reference
 helpviewer_keywords:

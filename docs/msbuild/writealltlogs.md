@@ -1,7 +1,6 @@
 ---
 title: "WriteAllTLogs | Microsoft Docs"
 description: Learn syntax, requirements, and return value for WriteAllTLogs, which writes tracking logs for all threads and contexts.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 apiname:

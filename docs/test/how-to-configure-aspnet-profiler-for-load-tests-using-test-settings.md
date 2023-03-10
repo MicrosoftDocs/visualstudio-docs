@@ -1,7 +1,6 @@
 ---
 title: Configure ASP.NET Profiler for Load Tests
 description: Learn how to use the ASP.NET profiler diagnostic data adapter to collect ASP.NET profiler information.
-ms.custom: SEO-VS-2020
 ms.date: 10/13/2016
 ms.topic: how-to
 helpviewer_keywords: 

@@ -1,7 +1,6 @@
 ---
 title: Creating Project Types | Microsoft Docs
 description: Learn how to extend Visual Studio by designing, creating, and registering a new project type that supports programming tasks.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

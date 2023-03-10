@@ -1,7 +1,6 @@
 ---
 title: Specify number of iterations in load test run setting
 description: Learn how to specify the number of iterations to run on all the web performance and unit tests in all the scenarios in a load test using the Load Test Editor.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

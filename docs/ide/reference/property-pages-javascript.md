@@ -1,7 +1,6 @@
 ---
 title: Property Pages, JavaScript
 description: Learn how the Property Pages provides access to project settings and how to use the pages that appear in the Property Pages to change project properties.
-ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
 ms.technology: vs-javascript
 ms.topic: reference

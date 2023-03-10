@@ -1,7 +1,6 @@
 ---
 title: "&lt;publisherIdentity&gt; Element (ClickOnce Deployment) | Microsoft Docs"
 description: The publisherIdentity element contains information about the publisher that signed a deployment manifest. The element is required for signed manifests.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

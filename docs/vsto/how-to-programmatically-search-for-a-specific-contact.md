@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically search for a specific contact"
 description: Learn how you can use Visual Studio to programmatically search for a specific contact in Microsoft Outlook.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

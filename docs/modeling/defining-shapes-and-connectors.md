@@ -1,7 +1,6 @@
 ---
 title: Defining Shapes and Connectors
 description: Learn about the several basic types of shapes that you can use to display information on a diagram in a domain-specific language (DSL).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: mgoertz-msft

@@ -1,7 +1,6 @@
 ---
 title: Properties of Domain Properties
 description: Learn how a domain property is a feature of a model element that can hold a value, and how domain properties are listed in the domain class box on the diagram.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

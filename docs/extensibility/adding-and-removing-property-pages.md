@@ -1,7 +1,6 @@
 ---
 title: Adding and Removing Property Pages | Microsoft Docs
 description: Learn how to add and remove property pages in the Project Designer that provide a centralized location for managing project properties in Visual Studio. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
