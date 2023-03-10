@@ -1,7 +1,6 @@
 ---
 title: "How to: Retrieve the SharePoint Project Service | Microsoft Docs"
 description: Understand how to access the SharePoint project service in project system extensions, Server Explorer extensions, or other Visual Studio extensions.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

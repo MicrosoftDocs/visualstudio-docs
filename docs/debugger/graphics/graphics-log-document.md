@@ -1,7 +1,6 @@
 ---
 title: "Graphics Log Document | Microsoft Docs"
 description: Understand the Graphics Log document in Visual Studio, which records graphics events that occurred while an app was running under a graphics diagnostics session.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

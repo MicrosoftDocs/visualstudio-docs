@@ -8,7 +8,7 @@ metadata:
   description: Create C# apps by using Visual Studio.
   ms.custom: vs-acquisition
   ms.topic: landing-page
-  ms.date: 10/07/2022
+  ms.date: 3/15/2023
   author: ghogen
   ms.author: ghogen  
   manager: jmartens
@@ -45,14 +45,20 @@ landingContent:
             url: tutorial-console.md
           - text: Create a web app 
             url: tutorial-aspnet-core.md
-          - text: Create a Universal Windows Platform app 
-            url: tutorial-uwp.md
+          - text: Create a Windows App SDK app 
+            url: tutorial-wasdk.md
           - text: Create a Windows Desktop app
             url: tutorial-wpf.md
           - text: Create a Windows Forms app
             url: ../../ide/create-csharp-winform-visual-studio.md
           - text: Learn about the C# language
-            url: /dotnet/csharp/tutorials/intro-to-csharp/              
+            url: /dotnet/csharp/tutorials/intro-to-csharp/
+          - text: Windows Forms Match Game
+            url: tutorial-windows-forms-create-match-game.md
+          - text: "Windows Forms Math Quiz"
+            url: tutorial-windows-forms-math-quiz-create-project-add-controls.md
+          - text: Windows Forms Picture Viewer
+            url: tutorial-windows-forms-picture-viewer-layout.md              
        
   # Card
   - title: Learn Visual Studio

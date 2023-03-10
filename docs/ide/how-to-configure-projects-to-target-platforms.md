@@ -1,7 +1,6 @@
 ---
 title: 'How to: Configure projects to target platforms'
 description: Learn how Visual Studio enables you to set up your applications to target different platforms, including the Arm64 platform.
-ms.custom: SEO-VS-2020
 ms.date: 07/27/2022
 ms.technology: vs-ide-compile
 ms.topic: how-to

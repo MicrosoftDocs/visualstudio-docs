@@ -60,6 +60,8 @@
       href: xaml-hot-reload.md
     - name: Troubleshoot
       href: xaml-hot-reload-troubleshooting.md
+    - name: Impact on performance diagnostic
+      href: xaml-hot-reload-impact-performance.md
   - name: XAML data binding diagnostics
     href: xaml-data-binding-diagnostics.md
   - name: XAML Live Preview

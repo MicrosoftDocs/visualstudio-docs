@@ -1,7 +1,6 @@
 ---
 title: "&lt;Commands&gt; Element (Bootstrapper) | Microsoft Docs"
 description: The Commands element implements tests in the elements underneath InstallChecks and declares the package to install if the ClickOnce bootstrapper test fails.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

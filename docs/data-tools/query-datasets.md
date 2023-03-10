@@ -1,7 +1,6 @@
 ---
 title: Query datasets
 description: Understand query datasets. Learn about dataset case sensitivity. Find a specific row in a data table, find rows by column values, and access related records.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:

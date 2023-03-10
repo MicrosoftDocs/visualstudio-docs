@@ -1,7 +1,6 @@
 ---
 title: Workflow Designer - If Activity Designer
 description: Learn how the If activity evaluates a condition and executes an activity depending on the results of that evaluation.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

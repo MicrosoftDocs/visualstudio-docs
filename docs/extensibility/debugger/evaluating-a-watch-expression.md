@@ -1,15 +1,14 @@
 ---
 title: Evaluating a Watch Expression | Microsoft Docs
 description: Learn how Visual Studio uses EvaluateSync when it is ready to display the value of a watch expression.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - expression evaluation, watch expressions
 - watch expressions
 ms.assetid: 8317cd52-6fea-4e8f-a739-774dc06bd44b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

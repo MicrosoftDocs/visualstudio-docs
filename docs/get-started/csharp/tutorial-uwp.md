@@ -2,7 +2,7 @@
 title: "Tutorial: Create UWP Apps with Visual Studio & C#"
 description: Create a UWP app in Visual Studio with XAML and C#
 titleSuffix: ""
-ms.custom: "vs-acquisition, get-started, SEO-VS-2020"
+ms.custom: vs-acquisition, get-started
 ms.date: "04/26/2022"
 ms.technology: vs-ide-general
 ms.topic: tutorial
@@ -18,6 +18,9 @@ ms.workload:
 # Tutorial: Create your first Universal Windows Platform application in Visual Studio with XAML and C&#35;
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+> [!NOTE]
+> If you're happy with your current functionality in the Universal Windows Platform (UWP), then there's no need to migrate your project type to Windows App SDK. WinUI 2.x, and the Windows SDK, support UWP project types. If you would like to get started with WinUI 3 and Windows App SDK, then you can follow the steps in the [Windows App SDK tutorial](tutorial-wasdk.md).
 
 In this introduction to the Visual Studio integrated development environment (IDE), you'll create a "Hello World" app that runs on any Windows 10 or later device. To do so, you'll use a Universal Windows Platform (UWP) project template, Extensible Application Markup Language (XAML), and the C# programming language.
 

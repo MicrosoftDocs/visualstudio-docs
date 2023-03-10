@@ -1,7 +1,6 @@
 ---
 title: Use lambda expression or block body
 description: Learn how to use the Quick Actions and Refactorings menu to refactor a lambda expression to use an expression body or a block body.
-ms.custom: SEO-VS-2020
 ms.date: 02/14/2019
 ms.topic: reference
 author: mikadumont 

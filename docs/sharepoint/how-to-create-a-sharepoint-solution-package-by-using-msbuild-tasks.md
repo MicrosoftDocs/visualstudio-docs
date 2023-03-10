@@ -1,7 +1,6 @@
 ---
 title: "Create SharePoint solution package using MSBuild tasks"
 description: Learn how to build, clean, and validate a SharePoint solution package (.wsp) using command-line MSBuild tasks on a development computer.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

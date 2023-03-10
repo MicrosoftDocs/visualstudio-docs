@@ -1,7 +1,6 @@
 ---
 title: Bind controls to data
 description: Bind controls to data in Visual Studio. Create data-bound controls by dragging items from the Data Sources window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

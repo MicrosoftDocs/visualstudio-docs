@@ -1,7 +1,6 @@
 ---
 title: "Extending SharePoint Projects | Microsoft Docs"
 description: Learn how to create a project extension when you want to customize project-level features of SharePoint projects.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

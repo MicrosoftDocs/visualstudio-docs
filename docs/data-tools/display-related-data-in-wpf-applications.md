@@ -1,7 +1,6 @@
 ---
 title: Display related data in WPF applications
 description: Display related data in WPF applications. Work with data from multiple tables or entities that are related to each other in a parent-child relationship.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

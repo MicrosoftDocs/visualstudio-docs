@@ -1,14 +1,14 @@
 ---
 title: Getting Started with the VSIX Project Template | Microsoft Docs
 description: Learn how to use the VSIX Project template to create an extension or to package an existing extension for deployment. 
-ms.custom: SEO-VS-2020
+ms.custom: UpdateFrequency3
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
 - Visual Studio SDK, VSIX project template
 ms.assetid: 89fac33e-9380-4723-9b45-048a6e16f0ed
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

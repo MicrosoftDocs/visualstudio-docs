@@ -89,6 +89,8 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
 1. Right-click the project node and choose **Add > New Item**. Choose the **TypeScript JSON Configuration File**, and then click **Add**.
 
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
+
    Visual Studio adds the *tsconfig.json* file to the project root. You can use this file to [configure options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for the TypeScript compiler.
 
 1. Open *tsconfig.json* and replace the default code with the following code:
@@ -117,6 +119,8 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 1. In Solution Explorer, right-click the project node and choose **Add > New Folder**. Use the name *scripts* for the new folder.
 
 1. Right-click the *scripts* folder and choose **Add > New Item**. Choose the **TypeScript File**, type the name *app.ts* for the filename, and then click **Add**.
+
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
 
    Visual Studio adds *app.ts* to the *scripts* folder.
 
@@ -236,6 +240,8 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
    > In some scenarios, Solution Explorer may indicate that an npm package is out of sync with *package.json* due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). For example, the package may appear as not installed when it is installed. In most cases, you can update Solution Explorer by deleting *package.json*, restarting Visual Studio, and re-adding the *package.json* file as described earlier in this article.
 
 1. In Solution Explorer, right-click the scripts folder and choose **Add** > **New Item**.
+
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
 
 1. Choose **TypeScript File**, type *library.ts*, and choose **Add**.
 

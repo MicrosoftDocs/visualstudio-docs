@@ -1,7 +1,6 @@
 ---
 title: "MergeLocalizationDirectives Task | Microsoft Docs"
 description: Learn how MSBuild uses the MergeLocalizationDirectives task to merge the localization attributes and comments of XAML binary format files into a single file.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

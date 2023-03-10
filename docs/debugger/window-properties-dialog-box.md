@@ -1,7 +1,6 @@
 ---
 title: "Window Properties dialog box in Spy++"
 description: Learn how to display properties for a window that is listed in Windows View. This article has links to other articles that document the properties.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "ui-reference"
 helpviewer_keywords:

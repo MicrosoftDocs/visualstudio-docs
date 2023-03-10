@@ -1,14 +1,13 @@
 ---
 title: Editor and Language Service Extensions | Microsoft Docs
 description: You can extend most features of the Visual Studio code editor, which is implemented using Windows Presentation Foundation and is written in managed code.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK]
 ms.assetid: 5653bac9-724f-4948-a820-68ce6aa96365
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

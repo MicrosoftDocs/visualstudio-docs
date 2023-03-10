@@ -1,7 +1,6 @@
 ---
 title: Watch Command
 description: Learn about the Watch command and how it creates and opens a specified instance of a Watch window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

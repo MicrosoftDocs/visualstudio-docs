@@ -1,15 +1,14 @@
 ---
 title: Custom Colorable Items | Microsoft Docs
 description: Learn how to create custom colorable items as part of a language service by overriding items in the Fonts and Colors dialog box such as keywords and comments.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - colorable items
 - language services, custom colorable items
 ms.assetid: b4d0ddee-c04b-48dc-ba82-f6068570cef0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

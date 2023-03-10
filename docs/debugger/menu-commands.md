@@ -1,7 +1,6 @@
 ---
 title: "Spy++ menu commands"
 description: See a list of the Spy++ menus and, for each menu, a link to further information.
-ms.custom: SEO-VS-2020
 ms.date: "06/02/2022"
 ms.topic: "ui-reference"
 helpviewer_keywords:

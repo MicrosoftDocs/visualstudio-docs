@@ -1,7 +1,6 @@
 ---
 title: Manage external tools
 description: Learn how to add and manage new external tools that you can access through the Tools menu. 
-ms.custom: SEO-VS-2020
 ms.date: 11/20/2017
 ms.topic: conceptual
 f1_keywords:

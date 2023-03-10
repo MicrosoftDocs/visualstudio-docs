@@ -1,7 +1,6 @@
 ---
 title: MSBuild Well-known Item Metadata | Microsoft Docs
 description: Learn about MSBuild metadata assigned to every item upon creation, and some optional MSBuild metadata you can define to control build behavior.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:

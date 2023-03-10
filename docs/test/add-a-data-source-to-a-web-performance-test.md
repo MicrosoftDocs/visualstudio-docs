@@ -1,7 +1,6 @@
 ---
 title: Add a data source to a web performance test
 description: Learn how to bind data to provide different values to the same test, for example, to provide different values to your form post parameters.
-ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
 ms.topic: how-to
 helpviewer_keywords: 

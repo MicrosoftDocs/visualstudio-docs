@@ -1,15 +1,14 @@
 ---
 title: Implementing Type Visualizers and Custom Viewers | Microsoft Docs
 description: Learn about implementing type visualizers and custom viewers, which let a user view data in a way that is more meaningful than a dump of numbers.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], custom viewer
 - debugging [Debugging SDK], type visualizer
 ms.assetid: abef18c0-8272-4451-b82a-b4624edaba7d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

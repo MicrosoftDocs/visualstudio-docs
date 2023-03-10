@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Create your first VSTO Add-in for Project"
 description: Create an application-level Add-in for Microsoft Project. This feature is available to the application itself, regardless of which projects are open.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

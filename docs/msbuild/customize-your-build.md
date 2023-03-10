@@ -1,9 +1,8 @@
 ---
 title: Customize your build | Microsoft Docs
 description: Learn about several extensibility hooks you can use to customize MSBuild projects that use the standard build process. 
-ms.custom: SEO-VS-2020
 ms.date: 10/07/2022
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, transforms
 - transforms [MSBuild]
@@ -19,13 +18,25 @@ ms.workload:
 
 MSBuild projects that use the standard build process (importing *Microsoft.Common.props* and *Microsoft.Common.targets*) have several extensibility hooks that you can use to customize your build process.
 
+Many customizable build operations are controlled by properties. It is important to know how and where to set a property value in order to have the desired effect. You can set properties on the command line (and in response files), in special files like *Directory.Build.props*, in imported files, or in the project file. It is important to know where a property is used, set, or changed and the order of imported files, including implicit imports from SDKs like the .NET SDK.
+
+For a list of properties, see [MSBuild common properties](./common-msbuild-project-properties.md).
+
 ## Add arguments to command-line MSBuild invocations for your project
+
+You can set global properties on the command line. Global properties affect all project builds, including dependencies. Recall that building a project automatically triggers a possible build for all project dependencies. The normal behavior of MSBuild is to build any dependent projects that are out-of-date. Those dependent project builds are launched with the same global property settings from the command line as the original project.
 
 A *Directory.Build.rsp* file in or above your source directory will be applied to command-line builds of your project. For details, see [MSBuild response files](../msbuild/msbuild-response-files.md#directorybuildrsp).
 
 ## Directory.Build.props and Directory.Build.targets
 
-You can add a new property to every project by defining it in a single file called *Directory.Build.props* in the root folder that contains your source. When MSBuild runs, *Microsoft.Common.props* searches your directory structure for the *Directory.Build.props* file (and *Microsoft.Common.targets* looks for *Directory.Build.targets*). If it finds one, it imports the file and reads the properties defined within it. *Directory.Build.props* is a user-defined file that provides customizations to projects under a directory.
+You can add a new property to every project by defining it in a single file called *Directory.Build.props* in the root folder that contains your source.
+
+When MSBuild runs, *Microsoft.Common.props* searches your directory structure for the *Directory.Build.props* file. If it finds one, it imports the file and reads the properties defined within it. *Directory.Build.props* is a user-defined file that provides customizations to projects under a directory.
+
+Similarly, *Microsoft.Common.targets* looks for *Directory.Build.targets*.
+
+*Directory.Build.props* is imported early in the sequence of imported files, which can be important if you need a set a property that is used by imports, especially those that are implicitly imported by using the `Sdk` attribute, such as when using the .NET SDK in most .NET project files.
 
 > [!NOTE]
 > Linux-based file systems are case-sensitive. Make sure the casing of the Directory.Build.props filename matches exactly, or it won't be detected during the build process.
@@ -266,6 +277,8 @@ The *Common* versions of these properties affect both C# and Visual Basic projec
 msbuild /p:CustomBeforeMicrosoftCommonTargets="C:\build\config\Custom.Before.Microsoft.Common.Targets" MyProject.csproj
 ```
 
+You can also use the property `AlternateCommonProps` to specify a file to use instead of *Microsoft.Common.props*. If you ever felt the need to customize *Microsoft.Common.props* by modifying it directly, you could instead copy the standard version of that file into another file, and then make your changes only in the alternate version.
+
 The best approach depends on your scenario. Using Visual Studio Extensibility, you can customize the build system and provide a mechanism for installing and managing the customizations.
 
 If you have a dedicated build server and want to ensure that certain targets always execute on all builds of the appropriate project type that execute on that server, then using a global custom `.targets` or `.props` file makes sense.  If you want the custom targets to only execute when certain conditions apply, then use another file location and set the path to that file by setting the appropriate MSBuild property in the MSBuild command line only when needed.
@@ -330,6 +343,156 @@ msbuild /p:ForceImportBeforeCppTargets="C:\build\config\Custom.Before.Microsoft.
 ```
 
 For a global setting (to affect, say, all C++ builds for a platform on a build server), there are two methods. First, you can set these properties using a system environment variable that is always set. This works because MSBuild always reads the environment and creates (or overrides) properties for all the environment variables.
+
+## Example
+
+This example shows the use of preprocessed MSBuild project file output to determine where to set a property.
+
+To help you analyze the usage of a particular property you want to set, you can run MSBuild with the `/preprocess` or `/pp` argument. The output text is the result of all the imports, including the system imports like *Microsoft.Common.props* that are implicitly imported, and any of your own imports. With this output, you can see where your property needs to be set relative to where its value is used.
+
+As an example, suppose you have a simple .NET Core or .NET 5 or later Console App project, and you want to customize the intermediate output folder, normally `obj`. The property that specifies this path is `BaseIntermediateOutput`. If you try putting this in a `PropertyGroup` element in your project file along with the various other properties that are already set there, such as `TargetFramework`, you would discover when you build the project that the property does not take effect. If you run MSBuild with the `/pp` option and search the output for `BaseIntermediateOutputPath`, you can see why. In this case, `BaseIntermediateOutput` is read and used in `Microsoft.Common.props`.
+
+There's a comment in *Microsoft.Common.props* that says the property `BaseIntermediateOutput` has to be set here, before it's used by another property, `MSBuildProjectExtensionsPath`. You can also see that when `BaseIntermediateOutputPath` is initially set, there's a check for a pre-existing value, and if it's undefined, it gets set to `obj`.
+
+```xml
+<BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">obj\</BaseIntermediateOutputPath>
+```
+
+So, this tells you that to set this property, it must be specified somewhere earlier than this. Just before this code in the preprocessed output, you can see that `Directory.Build.props` is imported, so this tells you that you can set `BaseIntermediateOutputPath` there and it will be set early enough to have the desired effect.
+
+The following abbreviated preprocessed output shows the result of putting the `BaseIntermediateOutput` setting in `Directory.Build.props`. The comments at the top of standard imports include the filename and usually some helpful information about why that file is imported.
+
+```xml
+<?xml version="1.0" encoding="IBM437"?>
+<!--
+============================================================================================================================================
+c:\source\repos\ConsoleApp9\ConsoleApp9\ConsoleApp9.csproj
+============================================================================================================================================
+-->
+<Project DefaultTargets="Build">
+  <!--
+============================================================================================================================================
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk">
+  This import was added implicitly because the Project element's Sdk attribute specified "Microsoft.NET.Sdk".
+
+C:\Program Files\dotnet\sdk\7.0.200-preview.22628.1\Sdks\Microsoft.NET.Sdk\Sdk\Sdk.props
+============================================================================================================================================
+-->
+  <!--
+***********************************************************************************************
+Sdk.props
+
+WARNING:  DO NOT MODIFY this file unless you are knowledgeable about MSBuild and have
+          created a backup copy.  Incorrect changes to this file will make it
+          impossible to load or build your projects from the command-line or the IDE.
+
+Copyright (c) .NET Foundation. All rights reserved.
+***********************************************************************************************
+-->
+  <PropertyGroup xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <!--
+      Indicate to other targets that Microsoft.NET.Sdk is being used.
+
+      This must be set here (as early as possible, before Microsoft.Common.props)
+      so that everything that follows can depend on it.
+
+      In particular, Directory.Build.props and nuget package props need to be able
+      to use this flag and they are imported by Microsoft.Common.props.
+    -->
+    <UsingMicrosoftNETSdk>true</UsingMicrosoftNETSdk>
+    <!--
+      Indicate whether the set of SDK defaults that makes SDK style project concise are being used.
+      For example: globbing, importing msbuild common targets.
+
+      Similar to the property above, it must be set here.
+    -->
+    <UsingNETSdkDefaults>true</UsingNETSdkDefaults>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(MSBuildProjectFullPath)' == '$(ProjectToOverrideProjectExtensionsPath)'" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <MSBuildProjectExtensionsPath>$(ProjectExtensionsPathForSpecifiedProject)</MSBuildProjectExtensionsPath>
+  </PropertyGroup>
+  <!--<Import Project="$(AlternateCommonProps)" Condition="'$(AlternateCommonProps)' != ''" />-->
+  <!--
+============================================================================================================================================
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="'$(AlternateCommonProps)' == ''">
+
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Microsoft.Common.props
+============================================================================================================================================
+-->
+  <!--
+***********************************************************************************************
+Microsoft.Common.props
+
+WARNING:  DO NOT MODIFY this file unless you are knowledgeable about MSBuild and have
+          created a backup copy.  Incorrect changes to this file will make it
+          impossible to load or build your projects from the command-line or the IDE.
+
+Copyright (C) Microsoft Corporation. All rights reserved.
+***********************************************************************************************
+-->
+  <PropertyGroup>
+    <ImportByWildcardBeforeMicrosoftCommonProps Condition="'$(ImportByWildcardBeforeMicrosoftCommonProps)' == ''">true</ImportByWildcardBeforeMicrosoftCommonProps>
+    <ImportByWildcardAfterMicrosoftCommonProps Condition="'$(ImportByWildcardAfterMicrosoftCommonProps)' == ''">true</ImportByWildcardAfterMicrosoftCommonProps>
+    <ImportUserLocationsByWildcardBeforeMicrosoftCommonProps Condition="'$(ImportUserLocationsByWildcardBeforeMicrosoftCommonProps)' == ''">true</ImportUserLocationsByWildcardBeforeMicrosoftCommonProps>
+    <ImportUserLocationsByWildcardAfterMicrosoftCommonProps Condition="'$(ImportUserLocationsByWildcardAfterMicrosoftCommonProps)' == ''">true</ImportUserLocationsByWildcardAfterMicrosoftCommonProps>
+    <ImportDirectoryBuildProps Condition="'$(ImportDirectoryBuildProps)' == ''">true</ImportDirectoryBuildProps>
+  </PropertyGroup>
+  <!--
+      Determine the path to the directory build props file if the user did not disable $(ImportDirectoryBuildProps) and
+      they did not already specify an absolute path to use via $(DirectoryBuildPropsPath)
+  -->
+  <PropertyGroup Condition="'$(ImportDirectoryBuildProps)' == 'true' and '$(DirectoryBuildPropsPath)' == ''">
+    <_DirectoryBuildPropsFile Condition="'$(_DirectoryBuildPropsFile)' == ''">Directory.Build.props</_DirectoryBuildPropsFile>
+    <_DirectoryBuildPropsBasePath Condition="'$(_DirectoryBuildPropsBasePath)' == ''">$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildProjectDirectory), '$(_DirectoryBuildPropsFile)'))</_DirectoryBuildPropsBasePath>
+    <DirectoryBuildPropsPath Condition="'$(_DirectoryBuildPropsBasePath)' != '' and '$(_DirectoryBuildPropsFile)' != ''">$([System.IO.Path]::Combine('$(_DirectoryBuildPropsBasePath)', '$(_DirectoryBuildPropsFile)'))</DirectoryBuildPropsPath>
+  </PropertyGroup>
+  <!--
+============================================================================================================================================
+  <Import Project="$(DirectoryBuildPropsPath)" Condition="'$(ImportDirectoryBuildProps)' == 'true' and exists('$(DirectoryBuildPropsPath)')">
+
+c:\source\repos\ConsoleApp9\Directory.Build.props
+============================================================================================================================================
+-->
+  <!-- Directory.build.props
+-->
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>myBaseIntermediateOutputPath</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <!--
+============================================================================================================================================
+  </Import>
+
+C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Microsoft.Common.props
+============================================================================================================================================
+-->
+  <!--
+      Prepare to import project extensions which usually come from packages.  Package management systems will create a file at:
+        $(MSBuildProjectExtensionsPath)\$(MSBuildProjectFile).<SomethingUnique>.props
+
+      Each package management system should use a unique moniker to avoid collisions.  It is a wild-card import so the package
+      management system can write out multiple files but the order of the import is alphabetic because MSBuild sorts the list.
+  -->
+  <PropertyGroup>
+    <!--
+        The declaration of $(BaseIntermediateOutputPath) had to be moved up from Microsoft.Common.CurrentVersion.targets
+        in order for the $(MSBuildProjectExtensionsPath) to use it as a default.
+    -->
+    <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">obj\</BaseIntermediateOutputPath>
+    <BaseIntermediateOutputPath Condition="!HasTrailingSlash('$(BaseIntermediateOutputPath)')">$(BaseIntermediateOutputPath)\</BaseIntermediateOutputPath>
+    <_InitialBaseIntermediateOutputPath>$(BaseIntermediateOutputPath)</_InitialBaseIntermediateOutputPath>
+    <MSBuildProjectExtensionsPath Condition="'$(MSBuildProjectExtensionsPath)' == '' ">$(BaseIntermediateOutputPath)</MSBuildProjectExtensionsPath>
+    <!--
+        Import paths that are relative default to be relative to the importing file.  However, since MSBuildExtensionsPath
+        defaults to BaseIntermediateOutputPath we expect it to be relative to the project directory.  So if the path is relative
+        it needs to be made absolute based on the project directory.
+    -->
+    <MSBuildProjectExtensionsPath Condition="'$([System.IO.Path]::IsPathRooted($(MSBuildProjectExtensionsPath)))' == 'false'">$([System.IO.Path]::Combine('$(MSBuildProjectDirectory)', '$(MSBuildProjectExtensionsPath)'))</MSBuildProjectExtensionsPath>
+    <MSBuildProjectExtensionsPath Condition="!HasTrailingSlash('$(MSBuildProjectExtensionsPath)')">$(MSBuildProjectExtensionsPath)\</MSBuildProjectExtensionsPath>
+    <ImportProjectExtensionProps Condition="'$(ImportProjectExtensionProps)' == ''">true</ImportProjectExtensionProps>
+    <_InitialMSBuildProjectExtensionsPath Condition=" '$(ImportProjectExtensionProps)' == 'true' ">$(MSBuildProjectExtensionsPath)</_InitialMSBuildProjectExtensionsPath>
+  </PropertyGroup>
+  ...
+```
 
 ## See also
 

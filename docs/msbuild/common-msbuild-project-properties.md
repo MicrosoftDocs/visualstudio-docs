@@ -1,7 +1,6 @@
 ---
 title: Common MSBuild Project Properties | Microsoft Docs
-description: Learn about common MSBuild project properties that are defined or used in project files or included in .targets files that MSBuild provides.
-ms.custom: SEO-VS-2020
+description: Learn about common MSBuild project properties that can be defined or used in project files or included in .targets files that MSBuild provides.
 ms.date: 01/18/2018
 ms.topic: reference
 dev_langs:
@@ -26,7 +25,9 @@ ms.workload:
 
 The following table lists frequently used properties that are defined in the Visual Studio project files or included in *.targets* files that MSBuild provides.
 
- Project files in Visual Studio (*.csproj*, *.vbproj*, *.vcxproj*, and others) contain MSBuild XML code that runs when you build a project by using the IDE. Projects typically import one or more *.targets* files to define their build process. For more information, see [MSBuild .targets files](../msbuild/msbuild-dot-targets-files.md).
+Project files in Visual Studio (*.csproj*, *.vbproj*, *.vcxproj*, and others) contain MSBuild XML code that runs when you build a project by using the IDE. Projects typically import one or more *.targets* files to define their build process. For more information, see [MSBuild .targets files](../msbuild/msbuild-dot-targets-files.md).
+
+When setting property values, keep in mind that common properties may be set, reset, or used in a number of imported files. Therefore, it matters where you set a property--in your project file, in *Directory.Build.props*, or in another imported file. If you're setting a property somewhere and not getting the expected result, consider where and how the property is changed or used in all the files imported by your project, including imports that are added implicitly when you're using the `Sdk` attribute. See [Directory.Build.props and Directory.Build.targets](customize-your-build.md#directorybuildprops-and-directorybuildtargets). Preprocessing can help with this (see the `/preprocess` or `/pp` command-line option at [MSBuild command-line reference](./msbuild-command-line-reference.md)).
 
 ## List of common properties and parameters
 

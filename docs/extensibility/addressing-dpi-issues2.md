@@ -1,12 +1,11 @@
 ---
 title: Addressing DPI Issues2 | Microsoft Docs
 description: Learn about the issues involved in programming for high-resolution screens, such as scaling up content, layout issues, and using DPI-scaling APIs.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 359184aa-f5b6-4b6c-99fe-104655b3a494
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

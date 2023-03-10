@@ -1,7 +1,6 @@
 ---
 title: "Unblock the remote tools download"
 description: Unblock the download of the remote tools on Windows Server, which can be time-consuming because of the default IE security settings.
-ms.custom: SEO-VS-2020
 ms.date: "08/30/2022"
 ms.topic: how-to
 helpviewer_keywords:

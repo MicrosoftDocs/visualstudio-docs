@@ -1,7 +1,6 @@
 ---
 title: "BasicType | Microsoft Docs"
 description: Find reference information about the BasicType enumeration, which specifies a symbol's basic type in the Visual Studio debug interface access SDK.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

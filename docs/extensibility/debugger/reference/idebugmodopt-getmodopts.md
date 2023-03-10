@@ -7,8 +7,8 @@ helpviewer_keywords:
 - IDebugModOpt::GetModOpts
 - GetModOpts
 ms.assetid: cb513fa9-d521-4a65-b968-f55f53a368df
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

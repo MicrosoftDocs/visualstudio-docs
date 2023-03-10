@@ -1,7 +1,6 @@
 ---
 title: "Graphics Pipeline Stages | Microsoft Docs"
 description: Troubleshoot rendering problems by seeing how a draw call is transformed at each stage of the Direct3D graphics pipeline.
-ms.custom: SEO-VS-2020
 ms.date: "02/09/2017"
 ms.topic: "conceptual"
 f1_keywords:

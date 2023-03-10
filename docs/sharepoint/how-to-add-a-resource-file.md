@@ -1,7 +1,6 @@
 ---
 title: "How to: Add a Resource File | Microsoft Docs"
 description: Add a resource file in Visual Studio, using commands on the shortcut menu of the solution node and feature nodes in Solution Explorer.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

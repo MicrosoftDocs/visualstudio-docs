@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Update a chart in a document using radio buttons"
 description: Learn how you can use radio buttons in a document-level customization for Microsoft Word to give users the option to select chart styles on the document.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

@@ -1,7 +1,6 @@
 ---
 title: Bind WPF controls to a dataset
 description: Create a WPF application in Visual Studio that contains data-bound controls, which are bound to product records that are encapsulated in a dataset.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:

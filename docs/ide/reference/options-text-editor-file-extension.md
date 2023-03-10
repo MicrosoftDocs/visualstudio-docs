@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, File Extension
 description: Learn how to use the File Extension page to specify how all files with certain file extensions will be handled by the Visual Studio IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Changing the Appearance of a Command | Microsoft Docs
 description: Learn how to provide feedback changing the appearance of a command, such as making commands available/unavailable, hidden/shown, or checked/unchecked.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -9,8 +8,8 @@ helpviewer_keywords:
 - menu commands, changing appearance
 - menus, changing command appearance
 ms.assetid: da2474fa-f92d-4e9e-b8bf-67c61bf249c2
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

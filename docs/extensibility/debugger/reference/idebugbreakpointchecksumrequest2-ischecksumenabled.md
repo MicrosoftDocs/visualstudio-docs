@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugBreakpointChecksumRequest2::IsChecksumEnabled
 ms.assetid: 8b1853b5-745c-4cd6-88a9-ce0673971bb0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

@@ -1,14 +1,13 @@
 ---
 title: Choosing a Debug Engine Implementation Strategy | Microsoft Docs
 description: Learn how the run-time architecture helps you to choose from several strategies for debug engine implementation.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debug engines, implementation strategies
 ms.assetid: 90458fdd-2d34-4f10-82dc-6d8f31b66d8b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

@@ -1,7 +1,6 @@
 ---
 title: Analyze Virtual User Activity for load tests
 description: Learn how to use the Virtual User Activity Chart to see each virtual user was running during the test to see patterns of user activity and other information.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

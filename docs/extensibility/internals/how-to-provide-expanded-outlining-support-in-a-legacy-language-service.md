@@ -1,7 +1,6 @@
 ---
 title: Provide Outlining Support in a Language Service | Microsoft Docs
 description: Learn how to provide expanded outlining support in a legacy language service by adding editor-controlled outline regions and client-controlled outline regions.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -9,8 +8,8 @@ helpviewer_keywords:
 - language services, supporting outlining
 - outlining, supporting
 ms.assetid: df759e89-8193-418c-8038-6626304d387b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

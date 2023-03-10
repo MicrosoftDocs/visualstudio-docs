@@ -29,6 +29,8 @@ You can use the IDE to add new files to your project.
 
 1. With your project open in Visual Studio, right-click on a folder or your project node in Solution Explorer (right pane), and choose **Add** > **New Item**.
 
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
+
 1. In the **New File** dialog box, under the **General** category, choose the file type that you want to add, such as **JavaScript File**, and then choose **Open**.
 
     The new file gets added to your project and it opens in the editor.

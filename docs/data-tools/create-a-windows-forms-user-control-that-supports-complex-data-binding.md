@@ -1,7 +1,6 @@
 ---
 title: Create a Windows Forms user control with data binding
 description: Understand how to create a Windows Forms user control that supports complex data binding, by implementing the ComplexBindingPropertiesAttribute class.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:

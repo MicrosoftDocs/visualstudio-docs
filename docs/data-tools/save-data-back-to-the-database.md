@@ -1,7 +1,6 @@
 ---
 title: Save data back to the database
 description: Use DataSet tools to save data back to the database. The dataset is an in-memory copy of data that should be saved back to the database if it's modified.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

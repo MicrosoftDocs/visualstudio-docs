@@ -1,7 +1,6 @@
 ---
 title: "Visio solutions"
 description: Learn how you can use VSTO Add-ins to automate Visio, extend Visio features, or customize the Visio user interface (UI).
-ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:

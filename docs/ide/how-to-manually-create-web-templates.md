@@ -1,7 +1,6 @@
 ---
 title: Create web templates
 description: Learn how to manually create a web template and identify the programing language that the template uses.
-ms.custom: SEO-VS-2020
 ms.date: 01/02/2018
 ms.topic: how-to
 helpviewer_keywords:

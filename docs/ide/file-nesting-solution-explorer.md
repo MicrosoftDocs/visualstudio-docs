@@ -1,7 +1,6 @@
 ---
 title: File nesting rules for Solution Explorer
 description: Learn about Solution Explorer file nesting rules, presets, and customization.
-ms.custom: SEO-VS-2020
 ms.date: 05/25/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -20,6 +19,7 @@ ms.technology: vs-ide-general
 
 > [!NOTE]
 > In Visual Studio 2022 version 17.2 and earlier, this feature was only supported for ASP.NET Core projects.
+> In version 17.3 and later the projects targetting .NET support file nesting. 
 
 ## File nesting options
 

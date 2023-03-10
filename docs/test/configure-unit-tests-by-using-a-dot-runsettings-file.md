@@ -1,7 +1,6 @@
 ---
 title: Configure unit tests with a .runsettings file
 description: Learn how to use the .runsettings file in Visual Studio to configure unit tests that are run from the command line, from the IDE, or in a build workflow.
-ms.custom: SEO-VS-2020
 ms.date: 12/13/2022
 ms.topic: conceptual
 ms.author: mikejo
@@ -25,6 +24,8 @@ Run settings files are optional. If you don't require any special configuration,
 
 1. Add a run settings file to your solution. In **Solution Explorer**, on the shortcut menu of your solution, choose **Add** > **New Item**, and select **XML File**. Save the file with a name such as *test.runsettings*.
 
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
+   
    > [!TIP]
    > The file name doesn't matter, as long as you use the extension *.runsettings*.
 

@@ -2,7 +2,7 @@
 title: Import or export installation configurations
 titleSuffix: ''
 description: Learn how to export your installation configuration to a .vsconfig file to share with others, and how to import it to clone.
-ms.date: 04/28/2022
+ms.date: 2/21/2023
 ms.topic: how-to
 helpviewer_keywords:
 - import installation configuration
@@ -21,9 +21,7 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can configure Visual Studio across your organization with installation configuration files. To do so, export the workload and component information to a .vsconfig file by using the Visual Studio installer. You can then import the configuration into new or existing installations, and share them with others, too.
-
-Here's how.
+You can use installation configuration files to configure Visual Studio. To do so, export the workloads and components information to a *.vsconfig* file by using the Visual Studio Installer. You can then import the configuration into new or existing installations, use them to create or modify a layout or an offline installation, and share them with others.
 
 ## Export a configuration
 
@@ -59,9 +57,17 @@ When you're ready to import an installation configuration file, follow these ste
 
 1. Make sure you've got the workloads and components that you want, and then choose **Close**.
 
+## Use a configuration file to initialize the contents of a layout
+
+Using the correct bootstrapper that corresponds to the version and edition of Visual Studio that you want, open an administrator command prompt and run the following command. Since this functionality is relatively new, you'll need to use the latest installer in your layout. 
+
+```shell
+vs_enterprise.exe --layout c:\localVSlayout --config c:\myconfig.vsconfig --useLatestInstaller --lang en-US 
+```
+
 ## Automatically install missing components
 
-**New in Visual Studio 2019**: Save a .vsconfig file to your solution root directory and then open a solution. Visual Studio automatically detects the missing components and prompts you to install them.
+Save a .vsconfig file to your solution root directory and then open a solution. Visual Studio automatically detects the missing components and prompts you to install them.
 
 ![Solution Explorer suggests additional components](../install/media/vs-2019/solution-explorer-config-file.png)
 

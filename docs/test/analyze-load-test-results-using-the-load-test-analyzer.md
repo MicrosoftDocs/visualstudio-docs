@@ -1,7 +1,6 @@
 ---
 title: Analyzing Load Test Results
 description: Learn how to use the Load Test Analyzer to find bottlenecks, identify errors, and measure improvements in your app.
-ms.custom: SEO-VS-2020
 ms.date: 10/20/2016
 ms.topic: conceptual
 helpviewer_keywords:

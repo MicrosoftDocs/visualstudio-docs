@@ -1,7 +1,6 @@
 ---
 title: "Replaceable Parameters | Microsoft Docs"
 description: Review replaceable parameters (tokens), which specify values inside project files for SharePoint solution items whose actual values aren't known at design time.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

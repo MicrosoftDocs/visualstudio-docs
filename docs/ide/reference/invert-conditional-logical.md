@@ -1,7 +1,6 @@
 ---
 title: Invert conditional expressions and logical operations
 description: Learn how to use the Quick Actions and Refactorings menu to invert a conditional expression or a conditional AND/OR operator.
-ms.custom: SEO-VS-2020
 ms.date: 02/19/2019
 ms.topic: reference
 author: mikadumont

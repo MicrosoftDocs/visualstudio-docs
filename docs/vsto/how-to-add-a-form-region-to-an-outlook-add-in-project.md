@@ -1,7 +1,6 @@
 ---
 title: "How to: Add a form region to an Outlook Add-in project"
 description: Learn how to create a form region to extend a standard or custom Microsoft Office Outlook form by using the New Outlook Form Region wizard.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 f1_keywords:

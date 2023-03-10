@@ -1,7 +1,6 @@
 ---
 title: "Debugging compute shader using graphics diagnostics"
 description: Follow an example of troubleshooting a compute shader. You see the use of Graphics Event List, Graphics Event Call Stack, and Graphics Pipeline Stages.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: 69287456-644b-4aff-bd03-b1bbb2abb82a

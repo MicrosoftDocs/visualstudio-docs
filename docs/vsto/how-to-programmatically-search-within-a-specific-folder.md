@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically search within a specific folder"
 description: Learn how you can use Visual Studio to programmatically search within a specific Microsoft Outlook folder.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

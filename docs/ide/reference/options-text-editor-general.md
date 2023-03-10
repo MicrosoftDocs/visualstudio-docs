@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, General
 description: Learn how to use the General page to change global settings for the Visual Studio code and text editor.
-ms.custom: SEO-VS-2020
 ms.date: 11/10/2022
 ms.topic: reference
 f1_keywords:

@@ -10,7 +10,7 @@ ms.workload:
   - "multiple"
 dev_langs:
   - VB
-ms.date: 01/07/2022
+ms.date: 02/24/2023
 ms.custom: "vs-acquisition, get-started"
 ---
 # Tutorial: Create a WinForms app with Visual Basic
@@ -92,7 +92,7 @@ The project type comes with all the template files you'll need, before you've ev
    For example, enter *Windows Forms App* in the search box.
    Next, select **Visual Basic** from the **Language** list, and then **Windows** from the **Platform** list.  
 
-   ![Screenshot shows the Create a new project window with Windows Forms App (.NET Framework) selected.](../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png)
+   ![Screenshot shows the Create a new project window with Windows Forms App (.NET Framework) selected.](../get-started/visual-basic/media/vs-2022/vb-create-new-project-search-winforms-filtered.png)
 
    > [!NOTE]
    > If you don't see the **Windows Forms App (.NET Framework)** template, you can install it from the **Create a new project** window.
@@ -108,7 +108,7 @@ The project type comes with all the template files you'll need, before you've ev
 
 1. In the **Configure your new project** window, enter *HelloWorld* as the **Project name**. Then, select **Create**.
 
-   ![Screenshot shows the Configure your new project window with the name HelloWorld entered.](../get-started/visual-basic/media/vs-2019/vb-name-your-winform-project-helloworld.png)
+   ![Screenshot shows the Configure your new project window with the name HelloWorld entered.](../get-started/visual-basic/media/vs-2022/vb-name-your-winform-project-helloworld.png)
 
    Visual Studio opens your new project.
 

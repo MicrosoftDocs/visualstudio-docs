@@ -1,7 +1,6 @@
 ---
 title: Automatic app updates using ClickOnce deployment API
 description: Learn how to write code in ClickOnce that uses the ApplicationDeployment class to check for updates based on an event, such as a user request.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

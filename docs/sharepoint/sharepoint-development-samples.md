@@ -1,7 +1,6 @@
 ---
 title: "SharePoint Development Samples | Microsoft Docs"
 description: Get information about how to download and install individual samples or collections of samples of SharePoint applications.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

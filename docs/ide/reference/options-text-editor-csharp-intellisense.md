@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, C#, IntelliSense
 description: Learn how to use the IntelliSense page in the C# section to modify settings that affect the behavior of IntelliSense for C#.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

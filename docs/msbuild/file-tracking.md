@@ -1,7 +1,6 @@
 ---
 title: File Tracking | Microsoft Docs
 description: Use MSBuild file tracking functions to log calls to the Windows file system for a process and its child processes. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

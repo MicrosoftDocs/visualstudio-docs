@@ -1,14 +1,13 @@
 ---
 title: Interfaces (Visual Studio Debugging) | Microsoft Docs
 description: Use these resources to learn about core interfaces, expression evaluation interfaces, and symbol provider interfaces in Visual Studio debugging.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], interfaces
 ms.assetid: 79875cbb-f946-49d4-94eb-941d0e1a40b2
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

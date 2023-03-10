@@ -1,7 +1,6 @@
 ---
 title: Troubleshooting .NET Framework Targeting Errors | Microsoft Docs
 description: Learn about MSBuild errors that might occur because of reference issues and how you can resolve those errors.
-ms.custom: SEO-VS-2020
 ms.date: 10/07/2022
 ms.topic: troubleshooting
 f1_keywords:

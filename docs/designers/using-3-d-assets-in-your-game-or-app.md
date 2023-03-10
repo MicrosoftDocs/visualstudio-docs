@@ -1,7 +1,6 @@
 ---
 title: Using 3D Assets in Your Game or App
 description: Learn how to use Visual Studio to process 3D assets and include them in builds. Visual Studio provides build customizations for each asset that it produces.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:

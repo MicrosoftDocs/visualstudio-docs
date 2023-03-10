@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugPortSupplierDescription2::GetDescription
 ms.assetid: bff5f536-1cd1-4313-8856-db7b05818305
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

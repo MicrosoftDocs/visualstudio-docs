@@ -1,7 +1,6 @@
 ---
 title: "Excel solutions"
 description: Learn you can use project templates to automate Excel, extend Excel features, and customize the Excel user interface (UI)
-ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:

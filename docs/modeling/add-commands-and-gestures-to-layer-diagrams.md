@@ -1,7 +1,6 @@
 ---
 title: Add commands and gestures to dependency diagrams
 description: Learn how you can define right-click menu commands and gesture handlers on dependency diagrams in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

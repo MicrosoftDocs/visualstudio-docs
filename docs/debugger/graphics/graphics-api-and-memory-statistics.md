@@ -1,7 +1,6 @@
 ---
 title: "Graphics API and Memory Statistics | Microsoft Docs"
 description: Review the Graphics API Statistics and Memory Statistics tools, which show information on Direct3D API usage and GPU memory consumption of various resources.
-ms.custom: SEO-VS-2020
 ms.date: "03/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

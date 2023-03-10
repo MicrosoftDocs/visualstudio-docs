@@ -1,7 +1,6 @@
 ---
 title: -Command (devenv.exe)
 description: Learn how to use the Command devenv command-line switch to execute a specified command after launching the Visual Studio IDE.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: "Create master detail relation using cached dataset"
 description: Learn about creating a master/detail relation on a worksheet and caching the data so that the solution can be used offline.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: "Creating SharePoint Features | Microsoft Docs"
 description: Create a SharePoint feature to group related SharePoint project items for easier deployment. Add features to the SharePoint solution. Use the feature designer.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

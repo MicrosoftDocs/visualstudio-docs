@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Change cached data in a workbook on a server"
 description: Learn how to modify a dataset that is cached in a Microsoft Excel workbook without starting Excel by using the ServerDocument class.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "08/14/2019"
 ms.topic: "conceptual"

@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2022."
-ms.date: 11/30/2022
+ms.date: 02/21/2023
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -19,7 +19,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-**Updated for the 17.4 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
+**Updated for the 17.5 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
 
 >[!div class="button"]
 >[Download Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
@@ -124,7 +124,8 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 Review the following blog posts to learn more about the improvements we've made to Visual Studio 2022, to date:
 
+* [Visual Studio 2022 17.5 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-5-released/)
 * [Visual Studio 2022 17.4 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-4/)
-* [Visual Studio 2022 17.3 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-3-is-now-a*vailable/)
+* [Visual Studio 2022 17.3 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-3-is-now-available/)
 * [Visual Studio 2022 17.2 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-2-is-now-available/)
 * [Visual Studio 2022 17.1 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-1-is-now-available/)

@@ -1,7 +1,6 @@
 ---
 title: "Code Access Security for ClickOnce Applications | Microsoft Docs"
 description: Learn about code access security for ClickOnce applications and how to configure the code access security permissions.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

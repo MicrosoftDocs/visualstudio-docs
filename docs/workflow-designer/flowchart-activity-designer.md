@@ -1,7 +1,6 @@
 ---
 title: Workflow Designer - Flowchart Activity Designer
 description: Learn how you can use the Flowchart activity to create workflows that define and manage complex flow controls.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

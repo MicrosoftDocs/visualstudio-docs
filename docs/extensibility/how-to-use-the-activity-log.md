@@ -1,15 +1,15 @@
 ---
 title: 'How to: Use the Activity Log | Microsoft Docs'
 description: VSPackages can write messages to the activity log. Learn how to use the activity log for debugging VSPackages in retail environments.
-ms.custom: SEO-VS-2020
+ms.custom: UpdateFrequency3
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - VSPackages, debugging
 - VSPackages, troubleshooting
 ms.assetid: bb3d3322-0e5e-4dd5-b93a-24d5fbcd2ffd
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

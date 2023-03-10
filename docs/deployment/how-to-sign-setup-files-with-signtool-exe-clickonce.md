@@ -1,7 +1,6 @@
 ---
 title: Sign setup files with SignTool.exe (ClickOnce)
 description: Learn how to use SignTool.exe to sign a Setup program for ClickOnce applications, which helps ensure that tampered files are not installed.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

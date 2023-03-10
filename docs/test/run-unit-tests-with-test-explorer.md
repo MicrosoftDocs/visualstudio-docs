@@ -326,7 +326,7 @@ To filter by a different criteria:
 |**Traits**|Searches both trait category and value for matches. The syntax to specify trait categories and values are defined by the unit test framework.|
 |**Fully Qualified Name**|Searches the fully qualified name of test namespaces, classes, and methods for matches.|
 |**Project**|Searches the test project names for matches.|
-|**Target Framework**|Searches the Test Explorer category names for matches: **Failed Tests**, **Skipped Tests**, **Passed Tests**.|
+|**Target Framework**|Searches the test frameworks for matches.|
 |**Namespace**|Searches the test namespaces for matches.|
 |**Class**|Searches the test classes names for matches.|
 

@@ -1,15 +1,14 @@
 ---
 title: Wizard Interface (IDTWizard) | Microsoft Docs
 description: The IDE uses the IDTWizard interface to communicate with wizards. Wizards must implement this interface to be installed in the IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDTWizard interface
 - wizards, interface
 ms.assetid: 09618d9d-d115-45b6-bccc-de328994b39c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

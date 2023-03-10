@@ -8,7 +8,7 @@ ms.author: madsk
 manager: pchapman
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-sdk
-ms.custom: cookbook
+ms.custom: cookbook, UpdateFrequency3
 ---
 # Get the tools needed to write Visual Studio extensions
 

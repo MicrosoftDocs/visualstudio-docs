@@ -1,7 +1,6 @@
 ---
 title: "Remote Debugging Errors and Troubleshooting | Microsoft Docs"
 description: View links to common remote debugging errors in Visual Studio. Learn how to run the remote debugger as an administrator.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

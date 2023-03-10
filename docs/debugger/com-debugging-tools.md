@@ -1,7 +1,6 @@
 ---
 title: "COM Debugging Tools | Microsoft Docs"
 description: Get descriptions of debugging tools that can help you test and inspect COM programs, such as the OLE/COM Object Viewer.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,12 +1,11 @@
 ---
 title: 'Walkthrough: Creating an SDK using C# or Visual Basic | Microsoft Docs'
 description: Learn how to create a simple Math Library SDK by using Visual C# and then package the SDK as a Visual Studio Extension by using this walkthrough.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: ef96a249-5eef-402a-a8d5-d74cb49239bd
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

@@ -1,7 +1,6 @@
 ---
 title: Customizing the Model Explorer
 description: Learn how you can change the appearance and behavior of the explorer for your domain-specific language designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:

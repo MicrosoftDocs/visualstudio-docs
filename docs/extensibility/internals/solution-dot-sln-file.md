@@ -1,7 +1,7 @@
 ---
 title: Project Solution (.sln) file
 description: Learn about the .sln file, which is one of the files that maintains state information for a project in Visual Studio.
-ms.custom: SEO-VS-2020, devdivchpfy22
+ms.custom: devdivchpfy22, UpdateFrequency3
 ms.date: 08/26/2022
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,8 +9,8 @@ helpviewer_keywords:
 - solutions, .sln files
 - .sln files, VSPackages
 ms.assetid: 7d7ef539-2e4b-4637-b853-8ec7626609df
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

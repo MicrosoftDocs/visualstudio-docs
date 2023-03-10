@@ -1,7 +1,6 @@
 ---
 title: "How to: Create a SharePoint Project Extension | Microsoft Docs"
 description: Understand how to create a project extension so that you can add functionality to any SharePoint project that's open in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "04/28/2017"
 ms.topic: how-to
 dev_langs:
