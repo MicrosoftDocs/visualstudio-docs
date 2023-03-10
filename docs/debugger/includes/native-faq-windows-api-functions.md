@@ -16,7 +16,7 @@ translation.priority.ht:
 ---
 To set a breakpoint on a Windows API function with NT symbols loaded:
 
-- In the [function breakpoint](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_in_a_source_file), enter the function name together with the name of the DLL where the function resides (see the [context operator](../debugger/context-operator-cpp.md)). In 32-bit code, use the decorated form of the function name. To set a breakpoint on **MessageBeep**, for example, you must enter the following.
+- In the [function breakpoint](../../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_in_a_source_file), enter the function name together with the name of the DLL where the function resides (see the [context operator](../../debugger/context-operator-cpp.md)). In 32-bit code, use the decorated form of the function name. To set a breakpoint on **MessageBeep**, for example, you must enter the following.
 
   ```cpp
   {,,USER32.DLL}_MessageBeep@4
