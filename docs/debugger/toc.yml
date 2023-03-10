@@ -490,18 +490,14 @@
         href: assertions-in-managed-code.md
       - name: Stop statements in Visual Basic
         href: stop-statements-in-visual-basic.md
-      - name: 'Walkthrough: Debugging a Windows Form'
+      - name: 'Walkthrough: Debug a Windows Form'
         href: walkthrough-debugging-a-windows-form.md
-      - name: Debug the OnStart method
-        href: how-to-debug-the-onstart-method.md
       - name: Debug mixed-mode applications
         href: debugging-mixed-mode-applications.md
       - name: JIT optimization and debugging
         href: jit-optimization-and-debugging.md
       - name: Debug LINQ
         href: debugging-linq.md
-      - name: Debugging isn't possible because a kernel debugger is enabled on the system
-        href: error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md
       - name: Debug .NET Framework source
         href: how-to-debug-dotnet-framework-source.md
       - name: WPF
@@ -516,8 +512,16 @@
           href: how-to-use-the-wpf-tree-visualizer.md
         - name: Display WPF trace information
           href: how-to-display-wpf-trace-information.md
+      - name: Windows service
+        items:
+        - name: Debug the OnStart method
+          href: how-to-debug-the-onstart-method.md
       - name: Debug F#
         href: debugging-f-hash.md
+      - name: Error reference
+        items:
+        - name: Debugging isn't possible because a kernel debugger is enabled on the system
+          href: error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md
     - name: C/C++ code
       items:
       - name: Debug native code
