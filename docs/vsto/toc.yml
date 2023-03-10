@@ -922,5 +922,4 @@
           href: getautoinsertextensions-method.md
         - name: SetWefProcessId Method
           href: setwefprocessid-method.md
-  - name: Sharepoint Development in Visual Studio
-    href: ../sharepoint/toc.yml
+
