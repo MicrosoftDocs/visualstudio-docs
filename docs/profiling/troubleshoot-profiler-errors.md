@@ -4,8 +4,8 @@ description: Learn how to resolve possible profiling errors with error message g
 ms.date: 03/10/2023
 ms.topic: how-to
 ms.assetid: 
-author: mistymadonna
-ms.author: mihays
+author: mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
