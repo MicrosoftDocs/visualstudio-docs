@@ -262,7 +262,7 @@ You can use the [Windows Package Manager](/windows/package-manager/winget/) "win
   winget install --id Microsoft.VisualStudio.2022.Community
   ```
   
-However, if you want to customize the installation and specify additional workloads and components, you can use winget's `--override` switch alongside winget's `install` command, and pass in an [exported vsconfig file](/import-export-installation-configurations.md) like this:
+However, if you want to customize the installation and specify additional workloads and components, you can use winget's `--override` switch alongside winget's `install` command, and pass in an [exported vsconfig file](import-export-installation-configurations.md) like this:
 
   ```shell
   winget install --id Microsoft.VisualStudio.2022.Community --override "--passive --config c:\my.vsconfig"
