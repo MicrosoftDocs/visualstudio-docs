@@ -35,7 +35,7 @@ Want to see what's new in each updated release from within Visual Studio itself?
 
 ## Performance improvements
 
-Visual Studio 2022 is faster, more approachable, more lightweight, and is designed for both learners and those building industrial scale solutions. Plus, we continue to focus on performance with each iterative release. To learn more, see what's new in the recent [17.5](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-5-released/) release, as summarized in the [Visual Studio 2022 – 17.5 Performance Enhancements](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-5-performance-enhancements/) blog post.
+Visual Studio 2022 is faster, more approachable, more lightweight, and is designed for both learners and those building industrial scale solutions. Plus, we continue to focus on performance with each iterative release. To learn more, see the [Visual Studio 2022 – 17.5 Performance Enhancements](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-5-performance-enhancements/) blog post.
 
 ### Visual Studio 2022 is 64-bit
 
