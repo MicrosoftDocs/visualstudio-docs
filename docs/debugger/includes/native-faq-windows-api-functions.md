@@ -1,18 +1,13 @@
 ---
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
+ title: Native debugging - Windows API functions
+ description: Native debugging FAQ content for windows API functions
+ services: ""
+ author: mikejo5000
+ ms.service: ""
+ ms.topic: include
+ ms.date: 03/10/2023
+ ms.author: mikejo
+ ms.custom: include file
 ---
 To set a breakpoint on a Windows API function with NT symbols loaded:
 
