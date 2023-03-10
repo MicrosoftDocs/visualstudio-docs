@@ -75,8 +75,7 @@ The following project file shows examples of some of these settings.
 > [!NOTE]
 > The Docker context, which you can set by providing a value for `DockerfileContext`, is usually different in Visual Studio for projects targeting .NET Core (including .NET 5 and later) from what `docker build` uses when you run it from the command line. The departure from the behavior of `docker build` is necessary to ensure that build artifacts at the solution level can be included.
 >
-> When you call `docker build` you must specify a build context; you can specify a Dockerfile. The default is that the Dockerfile is in the root of the context, but you can use the -f flag to specify an alternate location. For example, you can build with
-`docker build -f Dockerfile ..` from the project directory, or `docker build -f ProjectName/Dockerfile .` from the solution directory.
+> When you call `docker build`, you always specify a build context, and you can optionally specify a path to the Dockerfile. The default is that the Dockerfile is in the root of the context, but you can use the `-f` flag to specify an alternate location. For example, you can build with `docker build -f Dockerfile ..` from the project directory, or `docker build -f ProjectName/Dockerfile .` from the solution directory.
 
 ## Next steps
 
