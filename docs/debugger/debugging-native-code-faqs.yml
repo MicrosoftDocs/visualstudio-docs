@@ -1,0 +1,128 @@
+### YamlMime:FAQ
+metadata:
+  title: "Debugging Native Code FAQs | Microsoft Docs"
+  description: Find links to frequently asked questions (FAQs) and answers about debugging native code in Visual Studio.
+  ms.date: "03/07/2023"
+  ms.topic: faq
+  f1_keywords:
+    - "vs.debug.faq"
+  dev_langs:
+    - "C++"
+  helpviewer_keywords:
+    - "errors [debugger]"
+    - "troubleshooting native code"
+    - "debugging [MFC], FAQs"
+    - "debugging [C++], FAQs"
+  ms.assetid: 9a497032-cf73-441e-923b-4bbd5d37a6da
+  author: "mikejo5000"
+  ms.author: "mikejo"
+  manager: jmartens
+  ms.technology: vs-ide-debug
+  ms.workload:
+    - "cplusplus"
+
+title: Debugging Native Code FAQs
+
+summary: |
+  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+sections:
+  - name: General
+    questions:
+      - question: |
+          How can I debug access violations when running my program outside the Visual Studio debugger?
+        answer: |
+           Set the [Just-in-time debugging](../debugger/just-in-time-debugging-in-visual-studio.md) option and run your program stand-alone until the access violation occurs. Then, in the **Access Violation** dialog box, you can click **Cancel** to start the debugger.
+
+      - question: |
+          How can I debug a C++ access violation?
+        answer: |
+          [!INCLUDE [access violation](./includes/native-faq-access-violation.md)]
+                            
+      - question: |
+          How can I find out if my pointers corrupt a memory address?
+        answer: |
+          Check for heap corruption. Most memory corruption is actually due to heap corruption. Try using the Global Flags Utility (gflags.exe) or pageheap.exe. See [/windows-hardware/drivers/debugger/gflags-and-pageheap](/windows-hardware/drivers/debugger/gflags-and-pageheap).
+
+          To find where the memory address is modified:
+
+          1. Set a data breakpoint at 0x00408000. See [Set a data change breakpoint (native C++ only)](../debugger/using-breakpoints.md#BKMK_set_a_data_breakpoint_native_cplusplus).
+
+          2. When you hit the breakpoint, use the **Memory** window to view memory contents starting at 0x00408000. For more information, see [Memory Windows](../debugger/memory-windows.md).
+
+      - question: |
+          How can I find out who is passing a wrong parameter value?
+        answer: |
+          To resolve this problem:
+
+          1. Set a location breakpoint at the beginning of the function.
+
+          2. Right-click the breakpoint and select **Condition**.
+
+          3. In the **Breakpoint Condition** dialog box, click on the **Condition** check box. See [Advanced Breakpoints](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression).
+
+          4. Enter an expression, such as `Var==3`, into the text box, where `Var` is the name of the parameter that contains the bad value, and `3` is the bad value passed to it.
+
+          5. Select the **is True** radio button, and click the **OK** button.
+
+          6. Now run the program again. The breakpoint causes the program to halt at the beginning of the function when the `Var` parameter has the value `3`.
+
+          7. Use the Call Stack window to find the calling function and navigate to its source code. For more information, see [How to: Use the Call Stack Window](../debugger/how-to-use-the-call-stack-window.md).
+
+      - question: |
+          When calling a function hundreds of times, how do I know which call failed?
+        answer: |
+          Example: My program fails on a call to a certain function, `CnvtV`. The program probably calls that function a couple hundred times before it fails. If I set a location breakpoint on `CnvtV`, the program stops on every call to that function, and I do not want that. I do not know what conditions cause the call to fail, so I cannot set a conditional breakpoint. What can I do?
+
+          You can set a breakpoint on the function with the **Hit Count** field to a value so high that it will never be reached. In this case, because you believe the function `CnvtV` is called a couple hundred times, you might set **Hit Count** to 1000 or more. Then run the program and wait for the call to fail. When it fails, open the Breakpoints window and look at the list of breakpoints. The breakpoint you set on `CnvtV` appears, followed by the hit count and number of iterations remaining:
+
+          ```cpp
+          CnvtV(int) (no condition) when hit count is equal to 1000 (currently 101)
+          ```
+
+          You now know that the function failed on the 101st call. If you reset the breakpoint with a hit count of 101 and run the program again, the program stops at the call to `CnvtV` that caused it to fail.
+
+      - question: |
+          Where can I look up Win32 error codes?
+        answer: |
+          *WINERROR.H* in the INCLUDE directory of your default system installation contains the error code definitions for the Win32 API functions.
+
+          You can look up an error code by typing the code in the **Watch** window or the **QuickWatch** dialog box. For example:
+
+          `0x80000004,hr`
+
+      - question: |
+          How can I keep focus when stepping through my app?
+        answer: |
+          Example: My program has a window-activation problem. Stepping through the program with the debugger interferes with my ability to reproduce the problem because my program keeps losing focus. Is there any way to avoid this?
+
+          If you have a second computer, use remote debugging. You can operate your program on the remote computer while you run the debugger on the host. For more information, see [How to: Select a Remote Computer](/previous-versions/visualstudio/visual-studio-2010/w8wtw2f3(v=vs.100)).
+
+      - question: |
+          How can I debug Windows API functions?
+        answer: |
+          To set a breakpoint on a Windows API function with NT symbols loaded:
+
+          - In the [function breakpoint](../debugger/using-breakpoints.md#BKMK_Set_a_breakpoint_in_a_source_file), enter the function name together with the name of the DLL where the function resides (see the [context operator](../debugger/context-operator-cpp.md)). In 32-bit code, use the decorated form of the function name. To set a breakpoint on **MessageBeep**, for example, you must enter the following.
+
+          ```cpp
+          {,,USER32.DLL}_MessageBeep@4
+          ```
+
+          To obtain the decorated name, see [Viewing Decorated Names](/previous-versions/5x49w699(v=vs.140)).
+
+          You can test the decorated name and view it in disassembly code. While paused at the function in the Visual Studio debugger, right-click the function in the code editor or call stack window and choose **Go to Disassembly**.
+
+          - In 64-bit code, you can use the undecorated name.
+
+          ```cpp
+          {,,USER32.DLL}MessageBeep
+          ```
+
+additionalContent: |
+
+  ## Next steps
+  
+  You can learn more about native code debugging in Visual Studio using these links:
+
+  * link
