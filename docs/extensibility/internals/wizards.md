@@ -1,7 +1,6 @@
 ---
 title: Wizards | Microsoft Docs
 description: Learn how to list your wizard among the available wizards and templates in Visual Studio and about the requirements that your wizard must meet in the IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

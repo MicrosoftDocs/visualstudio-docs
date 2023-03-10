@@ -2,7 +2,6 @@
 title: 'How to: Secure a brokered service'
 description: Learn how to secure a brokered service for consumption over Live Share.
 monikerRange: '>= vs-2019'
-ms.custom: SEO-VS-2020
 ms.date: 01/11/2022
 ms.topic: how-to
 helpviewer_keywords:

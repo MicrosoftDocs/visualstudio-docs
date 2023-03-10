@@ -2,7 +2,6 @@
 title: "How to: Add a Shortcut Menu Item to SharePoint Projects | Microsoft Docs"
 titleSuffix: ""
 description: Add a shortcut menu item to a SharePoint project in Visual Studio. The menu item appears when you right-click a project node in Solution Explorer.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

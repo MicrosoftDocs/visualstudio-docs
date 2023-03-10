@@ -1,7 +1,6 @@
 ---
 title: Overriding ToolsVersion Settings | Microsoft Docs
 description: Learn several ways you can change or override the value of the MSBuild Toolset for projects and solutions.
-ms.custom: SEO-VS-2020
 ms.date: 11/11/2022
 ms.topic: conceptual
 helpviewer_keywords:

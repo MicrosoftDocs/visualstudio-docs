@@ -1,7 +1,6 @@
 ---
 title: What&apos;s new in the source control plug-in API 1.2
 description: Learn about what's new in the advanced source code control functionality in the Source Control Plug-in API version 1.2.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

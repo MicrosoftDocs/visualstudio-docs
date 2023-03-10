@@ -1,7 +1,6 @@
 ---
 title: Inside the Visual Studio SDK | Microsoft Docs
 description: Learn about the extensions in the Visual Studio SDK, including Visual Studio architecture, components, services, schemas, and utilities. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

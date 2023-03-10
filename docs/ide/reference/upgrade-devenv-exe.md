@@ -1,7 +1,6 @@
 ---
 title: -Upgrade (devenv.exe)
 description: Learn how to use the Upgrade devenv command-line switch to update the solution file and all of its project files, or the project file specified, to the current Visual Studio formats for these files.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:

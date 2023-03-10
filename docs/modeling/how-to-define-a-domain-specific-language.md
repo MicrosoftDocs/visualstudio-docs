@@ -1,7 +1,6 @@
 ---
 title: How to Define a Domain-Specific Language
 description: Learn how you create a Visual Studio solution from a template to define a domain-specific language (DSL).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: 'Walkthrough: Publish a Visual Studio extension | Microsoft Docs'
 description: Learn how to publish a Visual Studio extension to Visual Studio Marketplace, which allows developers to browse for new and updated extensions.
-ms.custom: SEO-VS-2020
 ms.date: 01/25/2023
 ms.topic: how-to
 helpviewer_keywords:
@@ -229,11 +228,11 @@ You can remove the extension from Visual Studio Marketplace and from your comput
 
 3. Click on extenion menu button → click **Remove**. You are asked to confirm if you want to remove the extension.
 
-![Remove-extension](media/remove-extension.png)
+![Screenshot that shows Remove menu item.](media/remove-extension.png)
 
 To prevent accidental unpublishing, you must confirm the remove operation by filling extension name in the warning dialog. Note that remove/unpublish action is non-reversible
 
-![Remove-warning](/remove-warning.png)
+![Screenshot that shows warning.](media/remove-warning.png)
 
 ### To remove the extension from your computer
 

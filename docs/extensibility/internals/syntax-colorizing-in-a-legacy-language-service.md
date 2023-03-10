@@ -1,7 +1,6 @@
 ---
 title: Syntax Colorizing in a Legacy Language Service | Microsoft Docs
 description: Learn how to support syntax colorization in a legacy language service by supply a parser or scanner that can identify the types of lexical elements or tokens.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

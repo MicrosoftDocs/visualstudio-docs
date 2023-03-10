@@ -1,7 +1,6 @@
 ---
 title: Timeout Periods for Test Controllers and Test Agents
 description: Learn how to change the timeout values for the test controller and the test agent by editing the associated XML configuration files.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

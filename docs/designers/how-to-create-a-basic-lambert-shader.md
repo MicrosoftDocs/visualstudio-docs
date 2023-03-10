@@ -1,7 +1,6 @@
 ---
 title: 'How to: Create a Basic Lambert Shader'
 description: Learn how to use Shader Designer and Directed Graph Shader Language to create a lighting shader that implements the classic Lambert lighting model.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: ec5c10fb-9600-4240-8280-d59451ea1d68

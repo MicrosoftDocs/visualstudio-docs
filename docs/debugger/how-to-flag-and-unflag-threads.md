@@ -1,7 +1,6 @@
 ---
 title: Flag and Unflag Threads | Microsoft Docs
 description: Learn to flag or unflag threads in Visual Studio. Flag or unflag a thread, several threads, or all threads. Flag just your code or ones associated with a module.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

@@ -1,7 +1,6 @@
 ---
 title: Model of a Legacy Language Service | Microsoft Docs
 description: Use this model of a minimal language service for the Visual Studio core editor as a guide for creating your own language service.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

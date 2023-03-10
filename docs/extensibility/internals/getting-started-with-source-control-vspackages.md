@@ -1,7 +1,6 @@
 ---
 title: Getting Started with Source Control VSPackages | Microsoft Docs
 description: Learn about source-control VSPackages in Visual Studio and how they are a more advanced alternative to source control plug-ins.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Symbol Provider Interfaces | Microsoft Docs
 description: This article links to descriptions for the Symbol Handling Interfaces for the Visual Studio SDK, which evaluate variables in a call stack during break mode.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

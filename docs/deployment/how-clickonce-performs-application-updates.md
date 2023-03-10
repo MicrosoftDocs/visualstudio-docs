@@ -1,7 +1,6 @@
 ---
 title: "How ClickOnce Performs Application Updates | Microsoft Docs"
 description: Learn how ClickOnce uses file version information to decide whether to update the application. ClickOnce uses file patching to avoid redundancy in downloading.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

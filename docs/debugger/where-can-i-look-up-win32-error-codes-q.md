@@ -1,7 +1,6 @@
 ---
 title: "Where Can I Look Up Win32 Error Codes? | Microsoft Docs"
 description: To look up a Win32 error code, enter it in Watch or QuickWatch. For example, "0x80000004,hr". The error code definitions are in INCLUDE\WINERROR.H.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

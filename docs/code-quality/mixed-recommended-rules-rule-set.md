@@ -2,7 +2,6 @@
 title: Mixed Recommended Rules rule set
 ms.date: 11/04/2016
 description: Learn about the Mixed Recommended Rules rule set in Visual Studio. See descriptions of rules for C++ projects that support the Common Language Runtime.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 author: mikejo5000
 ms.author: mikejo

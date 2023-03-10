@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically hide worksheets"
 description: Learn how you can programmatically show or hide any worksheet in a Microsoft Excel workbook by using the worksheet host item.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

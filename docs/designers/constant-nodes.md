@@ -1,7 +1,6 @@
 ---
 title: Constant Nodes
 description: Learn about constant nodes, which represent literal values and interpolated vertex attributes in pixel-shader calculations, in Shader Designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 2c798a50-a2d7-459b-9879-ad4ad8290c9b

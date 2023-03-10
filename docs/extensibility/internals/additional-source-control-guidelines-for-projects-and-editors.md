@@ -1,7 +1,6 @@
 ---
 title: Source control guidelines for projects and editors
 description: Learn about the guidelines that projects and editors should adhere to in order to support source control.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

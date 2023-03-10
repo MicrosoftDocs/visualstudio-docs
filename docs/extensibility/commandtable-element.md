@@ -1,7 +1,6 @@
 ---
 title: CommandTable Element | Microsoft Docs
 description: CommandTable is the root element of the .vsct file, which defines the layout and type of the commands that a VSPackage provides to the IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

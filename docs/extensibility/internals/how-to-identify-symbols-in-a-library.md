@@ -1,7 +1,6 @@
 ---
 title: 'How to: Identify Symbols in a Library | Microsoft Docs'
 description: Learn how to identify symbols in a library by implementing methods that pass navigation information from the symbol library to the Visual Studio object manager. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: About File Name Extensions | Microsoft Docs
 description: Learn how to register file name extensions for VSPackages and associate them with a specific version of Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

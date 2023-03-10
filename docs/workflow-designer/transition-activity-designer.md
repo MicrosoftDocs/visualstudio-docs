@@ -1,7 +1,6 @@
 ---
 title: Workflow Designer - Transition Activity Designer
 description: Learn how you can use the Transition activity designer to configure a transition between two states.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

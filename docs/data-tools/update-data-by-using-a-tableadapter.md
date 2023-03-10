@@ -1,7 +1,6 @@
 ---
 title: Update data by using a TableAdapter
 description: Update data in a dataset. Send the data back to the database by calling the Update method of a TableAdapter.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:

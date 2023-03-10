@@ -1,7 +1,6 @@
 ---
 title: Extending Properties and the Property Window | Microsoft Docs
 description: Learn about extending properties in the Properties window, which is used to view and edit the design-time properties and events of selected objects.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

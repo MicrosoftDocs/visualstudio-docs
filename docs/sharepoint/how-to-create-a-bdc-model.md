@@ -1,7 +1,6 @@
 ---
 title: "How to: Create a BDC Model | Microsoft Docs"
 description: Create a Business Data Connectivity (BDC) model using the Visual Studio template for that kind of item and then adding the model to any SharePoint project.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

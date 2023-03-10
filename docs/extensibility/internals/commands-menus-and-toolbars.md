@@ -1,7 +1,6 @@
 ---
 title: Commands, Menus, and Toolbars | Microsoft Docs
 description: Learn about commands, menus, and toolbars in Visual Studio, including what they are and how they work in VSPackages. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

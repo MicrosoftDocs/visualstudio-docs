@@ -1,7 +1,6 @@
 ---
 title: Templates for projects and files
 description: Learn about how project and item templates provide reusable stubs that give users some basic code and structure.
-ms.custom: SEO-VS-2020
 ms.date: 12/20/2022
 ms.topic: conceptual
 helpviewer_keywords:

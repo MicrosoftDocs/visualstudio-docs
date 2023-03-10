@@ -1,7 +1,6 @@
 ---
 title: POPDIRLISTFUNC | Microsoft Docs
 description: Learn about the POPDIRLISTFUNC callback function, which is passed to update directories to find out which are under source control.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

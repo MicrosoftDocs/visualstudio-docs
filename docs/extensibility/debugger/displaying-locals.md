@@ -1,7 +1,6 @@
 ---
 title: Displaying Locals | Microsoft Docs
 description: Learn about the list of local variables and arguments, collectively called the locals of the method, which are displayed when execution pauses.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

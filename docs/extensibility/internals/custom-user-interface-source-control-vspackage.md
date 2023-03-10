@@ -1,7 +1,6 @@
 ---
 title: Custom User Interface (Source Control VSPackage) | Microsoft Docs
 description: Learn how to create a custom user interface (UI) in Visual Studio by using a source control VSPackage to specify UI elements.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

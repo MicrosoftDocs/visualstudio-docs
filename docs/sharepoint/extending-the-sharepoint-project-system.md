@@ -1,7 +1,6 @@
 ---
 title: "Extending the SharePoint Project System | Microsoft Docs"
 description: Extend the SharePoint project system. Learn how to extend the SharePoint project system. Understand common development tasks.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

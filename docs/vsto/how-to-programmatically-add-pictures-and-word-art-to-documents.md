@@ -1,7 +1,6 @@
 ---
 title: "Add pictures and Word Art to documents programmatically"
 description:  Learn how you can add pictures and drawing objects to your documents at design time or during run time.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

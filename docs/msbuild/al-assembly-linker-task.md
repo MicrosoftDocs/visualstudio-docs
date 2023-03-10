@@ -1,7 +1,6 @@
 ---
 title: AL (Assembly Linker) Task | Microsoft Docs
 description: Use the MSBuild Assembly Linker (AL) task to wrap AL.exe, a tool that is distributed with the Windows Software Development Kit.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

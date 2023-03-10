@@ -1,7 +1,6 @@
 ---
 title: Troubleshoot references to WCF or WCF Data Services
 description: Review common issues that may occur when you are working with Windows Communication Foundation (WCF) or WCF Data Services references in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: troubleshooting
 f1_keywords:

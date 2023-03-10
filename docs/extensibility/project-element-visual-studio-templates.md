@@ -1,7 +1,6 @@
 ---
 title: Project Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the Project element and how it specifies the files or directories to add to the project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

@@ -1,7 +1,6 @@
 ---
 title: "How to: Manage control layout on actions panes"
 description: Learn how you can manage control layout on action panes by writing code to properly stack the user controls.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

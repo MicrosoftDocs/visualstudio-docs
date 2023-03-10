@@ -1,7 +1,6 @@
 ---
 title: MSBuild Project File Schema Reference | Microsoft Docs
 description: See a table listing all the MSBuild XML Schema elements with their available attributes and child elements.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: "Get started programming VSTO Add-ins"
 description: Learn how you can use VSTO Add-ins to automate Microsoft Office applications, extend features of the application, and customize the application's user interface.
-ms.custom: SEO-VS-2020
 ms.date: "04/28/2021"
 ms.topic: "conceptual"
 f1_keywords:

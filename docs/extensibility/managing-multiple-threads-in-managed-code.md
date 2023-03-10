@@ -1,7 +1,6 @@
 ---
 title: 'How to: Managing Multiple Threads in Managed Code | Microsoft Docs'
 description: Learn how to manage multiple threads in code if your managed VSPackage extension calls asynchronous methods or has operations off the Visual Studio UI thread.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 59730063-cc29-4dae-baff-2234ad8d0c8f

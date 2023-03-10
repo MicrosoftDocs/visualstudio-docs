@@ -1,7 +1,6 @@
 ---
 title: Uninstalling a VSPackage With Windows Installer | Microsoft Docs
 description: Windows Installer can uninstall your VSPackage by reversing the installation. Learn how to deal with custom actions in your Windows Installer package.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

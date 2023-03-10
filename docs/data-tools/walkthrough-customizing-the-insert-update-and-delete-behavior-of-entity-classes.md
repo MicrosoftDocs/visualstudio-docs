@@ -1,7 +1,6 @@
 ---
 title: Customize insert/update/delete behavior
 description: In this walkthrough, customize the insert, update, and delete behavior of entity classes using the LINQ (Language-Integrated Query) to SQL tools in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:

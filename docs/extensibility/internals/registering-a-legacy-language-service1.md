@@ -1,7 +1,6 @@
 ---
 title: Registering a Legacy Language Service1 | Microsoft Docs
 description: Learn about the registering a legacy language service from a VSPackage with Visual Studio by adding registry keys and entries.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

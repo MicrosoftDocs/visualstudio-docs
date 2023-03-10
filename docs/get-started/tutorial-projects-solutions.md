@@ -3,12 +3,12 @@ title: Introduction to projects and solutions
 description: Learn about the difference between projects and solutions and how to use them in Visual Studio.
 ms.date: 11/22/2022
 ms.technology: vs-ide-general
-ms.custom: [vs-acquisition,  get-started, SEO-VS-2020]
+ms.custom: vs-acquisition,  get-started
 ms.topic: tutorial
 f1_keywords:
 - project.addnewitem
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.workload:
 - multiple

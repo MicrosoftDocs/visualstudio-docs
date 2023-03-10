@@ -1,7 +1,6 @@
 ---
 title: Update to MSTestV2
 description: Learn how to update from MSTestV1 to MSTestV2 
-ms.custom: SEO-VS-2020
 ms.date: 02/26/2021
 ms.topic: conceptual
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Manage application settings (.NET)
 description: Learn how to manage application settings (formerly called dynamic properties) that aren't included in the application code, but are needed at runtime.
-ms.custom: SEO-VS-2020
 ms.date: 02/14/2022
 ms.topic: conceptual
 f1_keywords:

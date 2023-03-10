@@ -1,7 +1,6 @@
 ---
 title: "Deploying COM Components with ClickOnce | Microsoft Docs"
 description: Learn about steps necessary to deploy .NET applications in ClickOnce that contain legacy COM components.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

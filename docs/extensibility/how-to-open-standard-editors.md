@@ -1,7 +1,6 @@
 ---
 title: 'How to: Open Standard Editors | Microsoft Docs'
 description: Learn how to implement the OpenItem method with a standard editor. The IDE determines a standard editor for a designated file type.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

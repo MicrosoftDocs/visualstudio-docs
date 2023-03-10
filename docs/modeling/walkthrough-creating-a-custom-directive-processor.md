@@ -1,7 +1,6 @@
 ---
 title: 'Walkthrough: Creating a Custom Directive Processor'
 description: Learn how you can use Visual Studio to write custom directive processors to customize your text templates.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

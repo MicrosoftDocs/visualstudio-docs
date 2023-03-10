@@ -1,7 +1,6 @@
 ---
 title: BuildProjectOnload Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the BuildProjectOnload element and how it builds only new projects as you create and add them to a solution.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

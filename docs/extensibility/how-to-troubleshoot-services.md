@@ -1,7 +1,6 @@
 ---
 title: 'How to: Troubleshoot Services | Microsoft Docs'
 description: Learn how to troubleshoot several common problems that can occur when you try to get a service in the Visual Studio SDK.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: troubleshooting
 helpviewer_keywords:

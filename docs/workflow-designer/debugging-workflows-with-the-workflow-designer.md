@@ -1,7 +1,6 @@
 ---
 title: Debugging Workflows with the Workflow Designer
 description: Learn how the Workflow Designer provides the ability to debug workflows and custom activities with a process similar to that of the default Visual Studio debugger.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

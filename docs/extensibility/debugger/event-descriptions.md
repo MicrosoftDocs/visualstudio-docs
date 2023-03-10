@@ -1,7 +1,6 @@
 ---
 title: Event Descriptions | Microsoft Docs
 description: Learn about the types of events and the reasons for their use. Each type of event has a specific purpose.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

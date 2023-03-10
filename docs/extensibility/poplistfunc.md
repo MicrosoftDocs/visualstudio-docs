@@ -1,7 +1,6 @@
 ---
 title: POPLISTFUNC | Microsoft Docs
 description: Learn about the POPLISTFUNC callback function, which is used by the source control plug-in to update a list of files or directories.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

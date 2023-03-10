@@ -1,7 +1,6 @@
 ---
 title: CombinePath Task | Microsoft Docs
 description: Learn about how to use the MSBuild CombinePath task to combine the specified paths into a single path.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: TemplateData Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the TemplateData element and how it categorizes the template and defines how it displays in either the New Project or the Add New Item dialog box.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

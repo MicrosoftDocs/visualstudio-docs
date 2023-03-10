@@ -1,7 +1,7 @@
 ---
 title: Getting Started with Roslyn Analyzers | Microsoft Docs
 description: Use these resources to get started with Roslyn analyzers in Visual Studio; includes a tutorial and several examples.
-ms.custom: SEO-VS-2020
+ms.custom: UpdateFrequency3
 ms.date: 04/02/2018
 ms.topic: conceptual
 ms.assetid: 367c2ec8-3059-46a5-9d1c-57bead0419e7

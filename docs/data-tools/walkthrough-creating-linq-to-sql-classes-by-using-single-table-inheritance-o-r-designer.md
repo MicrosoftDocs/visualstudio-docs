@@ -1,7 +1,6 @@
 ---
 title: LINQ to SQL classes with single-table inheritance
 description: In this walkthrough, create LINQ to SQL classes by using single-table inheritance in the Visual Studio Object Relational Designer (O/R Designer).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:

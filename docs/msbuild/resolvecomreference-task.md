@@ -1,7 +1,6 @@
 ---
 title: ResolveComReference Task | Microsoft Docs
 description: Learn how MSBuild uses the ResolveComReference task to take a list of one or more type library names or .tlb files and resolve them to locations on disk.
-ms.custom: SEO-VS-2020
 ms.date: 07/25/2019
 ms.topic: reference
 f1_keywords:

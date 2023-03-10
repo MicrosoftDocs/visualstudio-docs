@@ -1,7 +1,6 @@
 ---
 title: XSD Task | Microsoft Docs
 description: Learn how MSBuild uses the XSD task to wrap the XML Schema Definition tool xsd.exe, which generates schema or class files from a source.
-ms.custom: SEO-VS-2020
 ms.date: 06/27/2018
 ms.topic: reference
 f1_keywords:

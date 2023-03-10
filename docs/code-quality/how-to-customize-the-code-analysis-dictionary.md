@@ -2,7 +2,6 @@
 title: 'How to: Customize the Code Analysis Dictionary'
 ms.date: 11/04/2016
 description: Learn about the code analysis dictionary that identifies spelling and naming convention errors. See how to create a custom dictionary and apply it to a project.
-ms.custom: SEO-VS-2020
 ms.topic: how-to
 helpviewer_keywords: 
   - code analysis dictionary

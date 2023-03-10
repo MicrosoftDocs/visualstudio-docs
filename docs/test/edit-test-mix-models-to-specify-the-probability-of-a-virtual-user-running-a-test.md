@@ -1,7 +1,6 @@
 ---
 title: Editing Text Mix Models
 description: Learn how the test mix model allows you to have several workflows, which more closely approximates how end-users interact with your applications.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

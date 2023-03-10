@@ -1,7 +1,6 @@
 ---
 title: XML Document Properties, Properties Window
 description: Learn about the XML document properties in the Properties window that provide basic information about the active document in the XML editor.
-ms.custom: SEO-VS-2020
 ms.date: 03/05/2019
 ms.topic: reference
 ms.assetid: 9dbb34d9-02ea-4201-b445-c98a0eb0d6db

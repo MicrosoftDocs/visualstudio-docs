@@ -1,7 +1,6 @@
 ---
 title: Code style options and code cleanup
 description: Learn how to configure Visual Studio to apply code style preferences using the Code Cleanup (Visual Studio 2019) and Format Document (Visual Studio 2017) commands.
-ms.custom: SEO-VS-2020
 ms.date: 05/20/2022
 ms.topic: conceptual
 author: mikejo5000

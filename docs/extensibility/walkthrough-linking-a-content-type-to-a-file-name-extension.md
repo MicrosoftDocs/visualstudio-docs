@@ -1,7 +1,6 @@
 ---
 title: 'Link a content type to a filename extension'
 description: Learn how to link your own content type to a file name extension by using the editor Managed Extensibility Framework extensions in this walkthrough.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

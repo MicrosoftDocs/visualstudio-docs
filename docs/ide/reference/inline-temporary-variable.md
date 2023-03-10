@@ -1,7 +1,6 @@
 ---
 title: Replace a temporary variable with its value
 description: Learn how to use the Quick Actions and Refactorings menu to remove a temporary variable and replace it with its value instead.
-ms.custom: SEO-VS-2020
 ms.date: 01/26/2018
 ms.topic: reference
 author: TerryGLee

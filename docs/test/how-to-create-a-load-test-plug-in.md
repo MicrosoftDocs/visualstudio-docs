@@ -1,7 +1,6 @@
 ---
 title: Create a Load Test Plug-In
 description: Learn how to create a load test plug-in to run code at different times while the load test runs, which can expand upon or modify functionality of the load test.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 f1_keywords: 

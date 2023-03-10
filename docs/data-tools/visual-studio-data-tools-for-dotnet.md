@@ -1,7 +1,6 @@
 ---
 title: Data tools for .NET
 description: Review Visual Studio data tools for .NET, which provide API and tooling support to connect to databases, model data in memory, and display data in the UI.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: overview
 ms.assetid: c3175080-1dfb-4ab8-a460-92dadbb844b4

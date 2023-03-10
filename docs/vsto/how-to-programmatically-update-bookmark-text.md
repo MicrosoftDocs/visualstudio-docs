@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically update bookmark text"
 description: Learn how you can use Visual Studio to programmatically insert text into a placeholder bookmark in a Microsoft Word document.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

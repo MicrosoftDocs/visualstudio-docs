@@ -1,7 +1,6 @@
 ---
 title: Filtering the AddItem Dialog Box for Nested Projects | Microsoft Docs
 description: Learn how to filter the AddItem dialog box for a nested project in Visual Studio by implementing the IVsFilterAddProjectItemDlg interface of the parent project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Workflow Designer - ForEach&lt;T&gt; Activity Designer
 description: Learn how the ForEach <T> activity executes the activity contained in its Body for each item in a specified Values collection.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

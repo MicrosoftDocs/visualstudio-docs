@@ -1,7 +1,6 @@
 ---
 title: 'How to: Provide Automation for Windows | Microsoft Docs'
 description: Learn how to provide automation for document and tool windows in Visual Studio by using Microsoft.VisualStudio.Shell.Interop methods.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

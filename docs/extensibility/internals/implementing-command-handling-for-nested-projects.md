@@ -1,7 +1,6 @@
 ---
 title: Implementing Command Handling for Nested Projects | Microsoft Docs
 description: Learn how to implement command handling for nested projects in the Visual Studio integrated development environment (IDE). 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

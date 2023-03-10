@@ -1,7 +1,6 @@
 ---
 title: Debugging Tasks | Microsoft Docs
 description: Learn about the tasks necessary to debug a program, such as attaching it to a debug engine, generating startup events, and hitting breakpoints.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: overview
 helpviewer_keywords:

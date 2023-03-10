@@ -1,7 +1,6 @@
 ---
 title: Launch-based Attachment | Microsoft Docs
 description: Learn about launch-based attachment to a program, which is automatic and follows a path like that of the manual attachment.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

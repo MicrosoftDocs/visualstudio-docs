@@ -1,7 +1,6 @@
 ---
 title: "&lt;file&gt; Element (ClickOnce Application) | Microsoft Docs"
 description: The file element identifies all nonassembly files downloaded and used by the application. The file element is optional.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:

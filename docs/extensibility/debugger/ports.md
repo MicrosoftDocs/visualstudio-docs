@@ -1,7 +1,6 @@
 ---
 title: Ports | Microsoft Docs
 description: This article describes the definition and role of a port in the debugger architecture in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

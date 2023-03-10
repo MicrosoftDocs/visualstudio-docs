@@ -1,7 +1,6 @@
 ---
 title: Automation for Configuration and SelectedItem Objects | Microsoft Docs
 description: Learn how to automate the Visual Studio build and selected item processes by using the Configuration and SelectedItem objects in Shell Interop.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

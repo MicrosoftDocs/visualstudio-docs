@@ -1,7 +1,6 @@
 ---
 title: Find and Replace, Environment, Options Dialog Box
 description: Learn how to use the Find and Replace page in the Environment section to control message boxes and other aspects of a find and replace operation.
-ms.custom: SEO-VS-2020
 ms.date: 12/16/2021
 ms.topic: reference
 f1_keywords:

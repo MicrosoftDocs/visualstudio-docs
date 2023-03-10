@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically apply color to Excel ranges"
 description:  Learn that to apply a color to text within a range of cells, you use a NamedRange control or a native Excel range object.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

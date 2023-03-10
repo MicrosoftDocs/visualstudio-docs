@@ -1,7 +1,6 @@
 ---
 title: 'How to: Add a command to the shortcut menu'
 description: Learn how you can add menu commands to your domain-specific language (DSL) so that your users can perform tasks that are specific to your DSL.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

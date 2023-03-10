@@ -1,7 +1,6 @@
 ---
 title: CreateProperty Task | Microsoft Docs
 description: Use the MSBuild CreateProperty task to populate properties with the values passed in, allowing values to be copied from one property or string to another.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

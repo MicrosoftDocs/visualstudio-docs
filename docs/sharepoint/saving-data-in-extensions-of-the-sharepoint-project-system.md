@@ -2,7 +2,6 @@
 title: "Saving Data in Extensions of the SharePoint Project System | Microsoft Docs"
 titleSuffix: ""
 description: Learn how to save the string data that persists after the closing of a SharePoint project that contains an extension.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 helpviewer_keywords:

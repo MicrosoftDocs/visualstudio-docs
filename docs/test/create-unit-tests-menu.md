@@ -1,7 +1,6 @@
 ---
 title: Create unit test method stubs
 description: Learn how to use the Create Unit Tests command, which allows easy configuration of a test project, the test class, and the test method stub within it.
-ms.custom: SEO-VS-2020
 ms.date: 12/01/2021
 ms.topic: how-to
 helpviewer_keywords: 

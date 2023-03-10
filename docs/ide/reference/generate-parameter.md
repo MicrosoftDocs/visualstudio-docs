@@ -1,7 +1,6 @@
 ---
 title: Generate parameter refactoring
 description: Learn how to use the Quick Actions and Refactorings menu to automatically generate a method parameter.
-ms.custom: SEO-VS-2020
 ms.date: 03/10/2020
 ms.topic: reference
 author: mikadumont

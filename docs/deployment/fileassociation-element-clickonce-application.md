@@ -1,7 +1,6 @@
 ---
 title: "&lt;fileAssociation&gt; Element (ClickOnce Application) | Microsoft Docs"
 description: The fileAssociation element identifies a file extension to be associated with the application. The fileAssociation element is optional.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: "Access local & remote data (ClickOnce apps)"
 description: Learn about the variety of options that ClickOnce gives for reading and writing data, both locally and remotely.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

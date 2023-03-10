@@ -1,7 +1,6 @@
 ---
 title: Handle a concurrency exception
 description: Handle a concurrency exception (System.Data.DBConcurrencyException), which is raised when two users try to change the same data in a database at the same time.
-ms.custom: SEO-VS-2020
 ms.date: 09/11/2017
 ms.topic: how-to
 dev_langs:

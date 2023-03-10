@@ -2,7 +2,6 @@
 title: "Customize SharePoint solution package using MSBuild targets"
 titleSuffix: ""
 description: Customize how Visual Studio creates SharePoint solution package files (.wsp) by using MSBuild targets at a command prompt.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

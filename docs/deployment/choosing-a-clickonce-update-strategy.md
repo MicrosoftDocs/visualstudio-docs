@@ -1,7 +1,6 @@
 ---
 title: "Choosing a ClickOnce Update Strategy | Microsoft Docs"
 description: Learn how a ClickOnce application supports automatic updates and which update strategies you can use.
-ms.custom: SEO-VS-2020
 ms.date: "01/27/2023"
 ms.topic: "conceptual"
 dev_langs:

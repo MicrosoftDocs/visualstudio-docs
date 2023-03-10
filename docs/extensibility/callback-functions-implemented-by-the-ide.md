@@ -1,7 +1,6 @@
 ---
 title: Callback Functions Implemented by the IDE | Microsoft Docs
 description: Learn about the callback functions which the plug-in can call at appropriate times during a source control operation to pass information to the IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

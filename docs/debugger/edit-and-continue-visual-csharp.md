@@ -1,7 +1,6 @@
 ---
 title: "Edit and Continue (Visual C#) | Microsoft Docs"
 description: Edit and Continue is available for Visual C# projects. Learn what edits are supported, and how to can control whether, and when, your edits are applied.
-ms.custom: SEO-VS-2020
 ms.date: "02/22/2022"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: Properties of diagrams
 description: Learn about diagrams and how you can set properties that specify how diagrams will appear in the generated designer.
-ms.custom: SEO-VS-2020
 ms.date: 10/31/2018
 ms.topic: reference
 f1_keywords:

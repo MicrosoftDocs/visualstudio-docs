@@ -1,7 +1,6 @@
 ---
 title: Advanced Settings for Services Dialog Box
 description: Learn how to use the Advanced Settings for Services features to configure advanced settings for client application services.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

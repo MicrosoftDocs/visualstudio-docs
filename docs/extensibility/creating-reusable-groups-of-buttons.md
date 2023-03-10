@@ -1,7 +1,6 @@
 ---
 title: Creating Reusable Groups of Buttons | Microsoft Docs
 description: Learn how to create a command group, which is a collection of commands that appear together on a menu or toolbar.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

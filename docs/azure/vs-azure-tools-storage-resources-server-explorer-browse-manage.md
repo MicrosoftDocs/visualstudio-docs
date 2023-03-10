@@ -1,7 +1,6 @@
 ---
 title: Browse and manage storage resources
 description: Browsing and managing storage resources by using Server Explorer
-ms.custom: SEO-VS-2020
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure

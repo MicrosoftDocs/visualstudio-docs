@@ -1,7 +1,6 @@
 ---
 title: "Create web part for SharePoint using designer"
 description: In this walkthrough, create a web part visually by using the SharePoint Visual Web Part project template in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
