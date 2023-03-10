@@ -73,7 +73,7 @@ The following project file shows examples of some of these settings.
 ```
 
 > [!NOTE]
-> The Docker context, which you can set by providing a value for `DockerfileContext`, might be set differently in Visual Studio for projects targeting .NET Core (including .NET 5 and later) from what `docker build` uses when you run it from the command line. The departure from the behavior of `docker build` is necessary to ensure that build artifacts at the solution level are included.
+> The Docker context, which you can set by providing a value for `DockerfileContext`, is usually different in Visual Studio for projects targeting .NET Core (including .NET 5 and later) from what `docker build` uses when you run it from the command line. The departure from the behavior of `docker build` is necessary to ensure that build artifacts at the solution level can be included.
 
 ## Next steps
 
