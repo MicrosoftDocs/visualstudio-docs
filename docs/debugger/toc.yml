@@ -446,8 +446,6 @@
       href: ../containers/edit-and-refresh.md
   - name: Application types
     items:
-    - name: Debug specific application types
-      href: debugging-applications.md
     - name: Debug 64-Bit applications
       href: debug-64-bit-applications.md
     - name: UWP apps

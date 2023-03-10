@@ -3031,6 +3031,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/debugging-applications.md",
+      "redirect_url": "/visualstudio/debugger/",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/com-and-activex-debugging.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/com-and-activex-debugging",
       "redirect_document_id": false
