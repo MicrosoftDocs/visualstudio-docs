@@ -1,7 +1,6 @@
 ---
 title: "How to: Cache data for use offline or on a server"
 description: Mark a data item to be cached in the document, so that it's available offline. This makes it possible for the data in the document to be manipulated by other code.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

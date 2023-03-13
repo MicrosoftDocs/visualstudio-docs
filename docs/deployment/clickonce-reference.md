@@ -1,7 +1,6 @@
 ---
 title: "ClickOnce Reference | Microsoft Docs"
 description: Use these reference articles to understand the structure of the XML files used to represent ClickOnce applications.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

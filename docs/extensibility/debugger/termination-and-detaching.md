@@ -1,7 +1,6 @@
 ---
 title: Termination and Detaching | Microsoft Docs
 description: Normal termination means that a program being debugged runs to completion with no breakpoints, exceptions, run-time errors, or infinite loops.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

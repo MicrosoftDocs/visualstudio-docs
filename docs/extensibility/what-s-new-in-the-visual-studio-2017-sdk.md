@@ -1,7 +1,6 @@
 ---
 title: What&apos;s New in the Visual Studio 2017 SDK | Microsoft Docs
 description: The Visual Studio SDK has new and updated features for Visual Studio 2017, including the updated VSIX version 3 format.
-ms.custom: SEO-VS-2020
 ms.date: 10/31/2017
 ms.topic: conceptual
 ms.assetid: 9efcf0a3-dbde-4cab-8ed3-425826a48b2e

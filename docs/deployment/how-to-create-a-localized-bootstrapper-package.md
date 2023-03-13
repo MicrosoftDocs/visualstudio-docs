@@ -1,7 +1,6 @@
 ---
 title: Create a Localized Bootstrapper Package | Microsoft Docs
 description: Learn how to create localized versions of the bootstrapper package in ClickOnce by creating two more files for each locale.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

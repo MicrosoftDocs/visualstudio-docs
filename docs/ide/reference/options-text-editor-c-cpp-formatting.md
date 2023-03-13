@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, C/C++, Formatting
 description: Learn how to use the Formatting options page and its subpages to set options for formatting code in the code editor when you are programming in C and C++.
-ms.custom: SEO-VS-2020
 ms.date: 10/08/2021
 ms.topic: reference
 f1_keywords:

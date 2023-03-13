@@ -1,7 +1,6 @@
 ---
 title: Choosing the Installation Directory for a VSPackage | Microsoft Docs
 description: Learn how to choose the installation directory for a VSPackage and its supporting files, by using factors such as whether it is managed or unmanaged.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

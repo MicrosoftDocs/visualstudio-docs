@@ -1,7 +1,6 @@
 ---
 title: "Add controls to worksheet at run time in VSTO add-in project"
 description: Learn how to use the Ribbon to enable users to add a Button, a NamedRange, and a ListObject to a worksheet. 
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

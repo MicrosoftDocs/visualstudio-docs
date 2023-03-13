@@ -1,7 +1,6 @@
 ---
 title: Getting Local Properties | Microsoft Docs
 description: Learn how Visual Studio uses EnumChildren to get local properties with these examples for managed and unmanaged code.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

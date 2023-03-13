@@ -1,7 +1,6 @@
 ---
 title: "&lt;Schedules&gt; Element (Bootstrapper) | Microsoft Docs"
 description: The Schedules element contains Schedule elements, which define specific times at which commands defined by the Command element should be run.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

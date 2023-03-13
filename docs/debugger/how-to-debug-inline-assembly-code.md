@@ -1,7 +1,6 @@
 ---
 title: Debug Inline Assembly Code | Microsoft Docs
 description: When you debug inline assembly code, use the Disassembly window to see the assembly instructions, and use the Registers window to view the register values.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

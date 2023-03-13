@@ -1,7 +1,6 @@
 ---
 title: Implementing a Port Supplier | Microsoft Docs
 description: Learn about implementing a port supplier, which is necessary when debugging to a non-DCOM machine or when a new device requires support.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

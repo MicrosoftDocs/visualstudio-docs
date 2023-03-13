@@ -1,7 +1,6 @@
 ---
 title: Optimizing Menu and Toolbar Commands | Microsoft Docs
 description: Learn how Visual Studio can minimize command confusion caused by adding VSPackages and their corresponding commands.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

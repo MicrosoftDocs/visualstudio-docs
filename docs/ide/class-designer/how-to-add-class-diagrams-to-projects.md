@@ -1,7 +1,6 @@
 ---
 title: Add Class Diagrams to projects (Class Designer)
 description: Learn how to design, edit, and refactor classes and other types, add a class diagram to your C#, Visual Basic, or C++ project.
-ms.custom: SEO-VS-2020
 ms.date: 10/31/2022
 ms.topic: how-to
 helpviewer_keywords:

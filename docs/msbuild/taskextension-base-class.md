@@ -1,7 +1,6 @@
 ---
 title: TaskExtension Base Class | Microsoft Docs
 description: Learn about the parameters that the Microsoft.Build.Tasks.TaskExtension base class adds to the tasks that inherit from it.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:

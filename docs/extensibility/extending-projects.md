@@ -1,7 +1,6 @@
 ---
 title: Extending Projects | Microsoft Docs
 description: Learn how to create your own custom project types in the Visual Studio SDK and how to manage different types of Visual Studio solutions.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

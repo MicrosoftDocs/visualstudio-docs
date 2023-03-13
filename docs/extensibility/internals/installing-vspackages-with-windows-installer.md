@@ -1,7 +1,6 @@
 ---
 title: Installing VSPackages With Windows Installer | Microsoft Docs
 description: Learn how to use the Microsoft Windows Installer to install a VSPackage and its dependent files, and register and integrate them into Visual Studio.
-ms.custom: SEO-VS-2020 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

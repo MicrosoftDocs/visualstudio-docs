@@ -1,7 +1,6 @@
 ---
 title: "Manually deploy a ClickOnce app"
 description: Learn how to create a ClickOnce deployment by using either the command-line version or the graphical version of the Manifest Generation and Editing Tool.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

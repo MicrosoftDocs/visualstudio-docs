@@ -1,7 +1,6 @@
 ---
 title: "Download assemblies on demand (ClickOnce API)"
 description: Learn how to mark certain assemblies in your ClickOnce application as optional and download them when the common language runtime needs them.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

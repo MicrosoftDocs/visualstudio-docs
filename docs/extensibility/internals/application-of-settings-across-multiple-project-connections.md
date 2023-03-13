@@ -1,7 +1,6 @@
 ---
 title: Apply settings across multiple project connections
 description: Learn how to apply settings across multiple project connections by using a source control plug-in to execute a batch operation.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

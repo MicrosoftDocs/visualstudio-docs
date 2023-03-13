@@ -1,7 +1,6 @@
 ---
 title: Hitting a Breakpoint | Microsoft Docs
 description: This article describes the process that takes place when the debug engine hits a breakpoint while running or stepping.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

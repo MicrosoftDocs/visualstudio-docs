@@ -2,7 +2,6 @@
 title: "Create site column, content type, and list for SharePoint"
 titleSuffix: ""
 description: In this walkthrough, create a custom site column (field), custom content type that uses the site column, and list that uses the content type in SharePoint.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:

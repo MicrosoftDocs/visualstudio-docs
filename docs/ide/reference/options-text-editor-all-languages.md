@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, All Languages
 description: Learn how to use the General page in the All Languages section to change the default behavior of the Code Editor within Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 09/01/2022
 ms.topic: reference
 f1_keywords:

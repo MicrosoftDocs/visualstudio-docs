@@ -1,7 +1,6 @@
 ---
 title: List of Available Services | Microsoft Docs
 description: View a list of the available services supported by Visual Studio and the Visual Studio SDK, including service GUIDs for obtaining an interface for each service.
-ms.custom: SEO-VS-2020 
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

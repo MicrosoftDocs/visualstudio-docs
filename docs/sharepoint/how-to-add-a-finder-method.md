@@ -1,7 +1,6 @@
 ---
 title: "How to: Add a Finder Method | Microsoft Docs"
 description: Add a Finder method in Visual Studio, which enables the Business Data Connectivity (BDC) service to display a list of entities in a SharePoint web part or list.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

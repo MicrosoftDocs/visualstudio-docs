@@ -1,7 +1,6 @@
 ---
 title: Decompile .NET code while debugging | Microsoft Docs
 description: Generate and embed source code from .NET assemblies while debugging in Visual Studio. Extract and view the embedded source code.
-ms.custom: SEO-VS-2020
 ms.date: 2/2/2020
 ms.topic: how-to
 dev_langs: 

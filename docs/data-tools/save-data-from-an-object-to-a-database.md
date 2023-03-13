@@ -1,7 +1,6 @@
 ---
 title: Save data from an object to a database
 description: Save data from an object to a database using DataSet tools in Visual Studio. See how to save new records, update existing records, and delete existing records.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:

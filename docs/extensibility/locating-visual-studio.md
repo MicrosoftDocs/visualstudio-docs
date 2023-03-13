@@ -1,7 +1,6 @@
 ---
 title: "Locating Visual Studio | Microsoft Docs"
 description: You can install multiple instances of the same version of Visual Studio. Learn how to use a COM query API to find the instance that you want.
-ms.custom: SEO-VS-2020
 ms.date: "08/21/2017"
 ms.topic: "conceptual"
 helpviewer_keywords:

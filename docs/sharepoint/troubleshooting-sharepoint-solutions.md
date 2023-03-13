@@ -1,7 +1,6 @@
 ---
 title: "Troubleshooting SharePoint Solutions | Microsoft Docs"
 description: See what problems or alerts might occur when you debug SharePoint solutions by using the Visual Studio debugger.
-ms.custom: SEO-VS-2020
 ms.date: "02/22/2017"
 ms.topic: "conceptual"
 f1_keywords:

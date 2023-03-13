@@ -1,7 +1,6 @@
 ---
 title: Customizing and Extending a Domain-Specific Language
 description: Learn how the Visual Studio Modeling and Visualization SDK (VMSDK) provides several levels at which you can define modeling tools.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

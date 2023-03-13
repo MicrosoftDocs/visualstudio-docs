@@ -3,7 +3,7 @@ title: Tutorial projects and solutions Visual Basic
 description: Learn how to create a solution and a project in Visual Studio as a Visual Basic developer.
 ms.date: 09/14/2021
 ms.technology: vs-ide-general
-ms.custom: [vs-acquisition, get-started, SEO-VS-2020]
+ms.custom: vs-acquisition, get-started
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand

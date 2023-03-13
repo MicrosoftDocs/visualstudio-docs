@@ -1,7 +1,6 @@
 ---
 title: Use a shortcut key with an editor extension
 description: Learn how to add a view adornment to a text view by using a shortcut key. This walkthrough is based on the viewport adornment editor template.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

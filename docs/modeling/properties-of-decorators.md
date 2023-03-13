@@ -1,7 +1,6 @@
 ---
 title: Properties of Decorators
 description: Learn that decorators are icons, text, or expand/collapse chevrons that can appear on shapes or connectors on the diagram.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

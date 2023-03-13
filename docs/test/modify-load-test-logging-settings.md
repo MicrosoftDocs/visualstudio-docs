@@ -1,7 +1,6 @@
 ---
 title: Load Test Logging Settings
 description: Learn how to modify load test logging settings to control the amount of performance data collected, which can lead to very large result files.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Making Commands Available | Microsoft Docs
 description: Learn how to control the availability of commands that are added to the Visual Studio IDE in VSPackages, by using delayed loading, context, and visibility.
-ms.custom: SEO-VS-2020 
 ms.date: 03/22/2018
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Implementing Syntax Coloring | Microsoft Docs
 description: Learn how to implement syntax coloring in Visual Studio by using the language service features of the managed package framework (MPF).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

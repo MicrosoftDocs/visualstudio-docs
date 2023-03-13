@@ -1,7 +1,6 @@
 ---
 title: Registering a Legacy Language Service2 | Microsoft Docs
 description: This article lists registry entries for the various language service options available in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: "Creating Site Definitions for SharePoint | Microsoft Docs"
 description: Create site definitions for SharePoint. Site definitions determine the appearance and behavior of the SharePoint site and its default content and functionality.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 dev_langs:

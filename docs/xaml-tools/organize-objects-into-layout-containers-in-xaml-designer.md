@@ -1,7 +1,6 @@
 ---
 title: Organize objects into layout containers
 description: Learn about the layout panels and controls in XAML Designer that are used for arranging objects on a page, such as Grid, Canvas, Border, and Viewbox.
-ms.custom: SEO-VS-2020
 ms.date: 07/17/2020
 ms.topic: conceptual
 ms.assetid: 29c80c38-0fa3-48d6-b3a8-3b864f482e44

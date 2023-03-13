@@ -2,7 +2,6 @@
 title: "Create custom action project item with item template, part 1"
 titleSuffix: ""
 description: Using an item template, create a project item that can be added to a SharePoint project to create a custom action on a SharePoint site.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

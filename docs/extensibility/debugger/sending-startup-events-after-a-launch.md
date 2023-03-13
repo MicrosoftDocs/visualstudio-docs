@@ -1,7 +1,6 @@
 ---
 title: Sending Startup Events After a Launch | Microsoft Docs
 description: Learn about the series of startup events that the debug engine sends to the debug session after the debug engine is attached to a program.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

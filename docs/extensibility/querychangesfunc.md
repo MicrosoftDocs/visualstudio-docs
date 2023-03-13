@@ -1,7 +1,6 @@
 ---
 title: QUERYCHANGESFUNC | Microsoft Docs
 description: The QUERYCHANGESFUNC callback function is used to enumerate a collection of file names and determine the status of each file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

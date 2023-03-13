@@ -1,7 +1,6 @@
 ---
 title: Roslyn analyzers and code-aware libraries for ImmutableArrays
 description: Learn how to build a real world Roslyn analyzer to catch common errors when using the System.Collections.Immutable NuGet package.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: 11/04/2016
 ms.topic: conceptual

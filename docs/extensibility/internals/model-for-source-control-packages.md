@@ -1,7 +1,6 @@
 ---
 title: Model for Source Control Packages | Microsoft Docs
 description: This model represents a source control implementation. The article shows the names of the classes to make it easier to see how source control is carried out.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

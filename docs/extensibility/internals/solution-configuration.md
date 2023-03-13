@@ -1,7 +1,6 @@
 ---
 title: Solution Configuration | Microsoft Docs
 description: Learn how to implement the solution configurations supported by your project type, which direct the behavior of the Start (F5) key and Build commands.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

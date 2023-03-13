@@ -1,7 +1,6 @@
 ---
 title: Creating an Options Page | Microsoft Docs
 description: Learn how to create a simple Tools/Options page that uses a property grid to examine and set properties.
-ms.custom: SEO-VS-2020
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:

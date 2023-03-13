@@ -1,7 +1,6 @@
 ---
 title: UsingTask Element (MSBuild) | Microsoft Docs
 description: Learn about the MSBuild UsingTask element, which maps the task referenced in a task element to the assembly that contains the task implementation.
-ms.custom: SEO-VS-2020
 ms.date: 03/13/2017
 ms.topic: reference
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: 'Workflow Designer - How to: Add comments to a workflow'
 description: Learn how .NET Framework 4.5 allows the developer to add annotations to the certain types of items in the designer, for example, Activity, State, and Transition items.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:

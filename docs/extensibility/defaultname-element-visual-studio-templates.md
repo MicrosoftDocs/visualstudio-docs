@@ -1,7 +1,6 @@
 ---
 title: DefaultName Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the DefaultName element and how it specifies the name that the Visual Studio project system will generate for the project or item when it is created.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

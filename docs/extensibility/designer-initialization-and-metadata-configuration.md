@@ -1,7 +1,6 @@
 ---
 title: Designer Initialization and Metadata Configuration | Microsoft Docs
 description: Learn how the Visual Studio SDK facilitates the control of a designer's or designer component's initialization and its metadata by a VSPackage.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

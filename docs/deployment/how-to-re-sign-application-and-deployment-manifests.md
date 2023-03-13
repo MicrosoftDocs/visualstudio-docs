@@ -1,7 +1,6 @@
 ---
 title: Re-sign Application and Deployment Manifests | Microsoft Docs
 description: Learn how to re-sign both the application and deployment manifests with a certificate after changes are made to deployment properties.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

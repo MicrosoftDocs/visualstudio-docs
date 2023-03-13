@@ -1,7 +1,6 @@
 ---
 title: "EndTrackingContext | Microsoft Docs"
 description: Learn the syntax, return value, and requirements to use MSBuild EndTrackingContext to end the current tracking context.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 apiname:

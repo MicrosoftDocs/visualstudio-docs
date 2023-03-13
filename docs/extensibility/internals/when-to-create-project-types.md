@@ -1,7 +1,6 @@
 ---
 title: When to Create Project Types | Microsoft Docs
 description: Learn how to determine whether a new project type is required for customizing Visual Studio for your users.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

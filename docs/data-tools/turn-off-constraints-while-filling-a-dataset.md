@@ -1,7 +1,6 @@
 ---
 title: Turn off constraints while filling a dataset
 description: Know how to turn off constraints while filling a dataset. Suspend update constraints programmatically or by using the Dataset Designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:

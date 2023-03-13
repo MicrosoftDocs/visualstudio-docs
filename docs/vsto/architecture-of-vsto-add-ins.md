@@ -1,7 +1,6 @@
 ---
 title: "Architecture of VSTO Add-ins"
 description: VSTO Add-ins created in Visual Studio have architectural features that emphasize stability and security, and enable them to work closely with Microsoft Office.
-ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:

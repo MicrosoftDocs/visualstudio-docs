@@ -1,7 +1,6 @@
 ---
 title: Registering Project and Item Templates | Microsoft Docs
 description: Learn how Visual Studio uses registration information for your project types to determine what to show in the Add New Project and Add New Item dialog boxes.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

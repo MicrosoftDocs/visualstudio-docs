@@ -1,7 +1,6 @@
 ---
 title: 'How to: View Existing Types (Class Designer)'
 description: Learn how to see an existing type and its members by adding its shape to a class diagram.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

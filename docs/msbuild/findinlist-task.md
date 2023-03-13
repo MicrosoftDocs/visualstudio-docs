@@ -1,7 +1,6 @@
 ---
 title: FindInList Task | Microsoft Docs
 description: Learn to use the MSBuild FindInList task to find an item that has the matching itemspec in a specified list.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:

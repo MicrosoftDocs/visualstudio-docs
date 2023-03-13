@@ -1,7 +1,6 @@
 ---
 title: Expression Evaluation in Break Mode | Microsoft Docs
 description: Learn about the process that occurs when the debugger is in break mode and must conduct expression evaluation.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

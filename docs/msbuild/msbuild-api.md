@@ -1,7 +1,6 @@
 ---
 title: MSBuild API | Microsoft Docs
 description: Learn about the public API surface MSBuild provides so that your program can perform builds and inspect projects.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: ghogen

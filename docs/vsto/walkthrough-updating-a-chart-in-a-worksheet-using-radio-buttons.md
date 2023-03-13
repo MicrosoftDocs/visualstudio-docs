@@ -1,7 +1,6 @@
 ---
 title: "Update chart in worksheet using radio buttons"
 description: Learn the basics of using radio buttons on a Microsoft Excel worksheet to give the user a way to quickly switch between options.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: Project Modeling | Microsoft Docs
 description: Learn about the standard project objects that are required to create automation for your new project type and the path that project automation follows.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

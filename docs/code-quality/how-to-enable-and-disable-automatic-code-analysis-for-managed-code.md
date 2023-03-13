@@ -2,7 +2,6 @@
 title: Disable legacy code analysis
 ms.date: 10/04/2019
 description: Learn how to turn binary code analysis on and off in Visual Studio. See how to configure this feature in managed code projects.
-ms.custom: SEO-VS-2020
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo

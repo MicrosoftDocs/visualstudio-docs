@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, C#, Advanced
 description: Learn how to use the Advanced page in the C# section to modify the settings for editor formatting, code refactoring, and XML documentation comments for C#.
-ms.custom: SEO-VS-2020
 ms.date: 10/29/2022
 ms.topic: reference
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: "How to: Localize a Feature | Microsoft Docs"
 description: Learn to localize feature titles and descriptions in SharePoint by replacing hard-coded string values with expressions that reference localized resources.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

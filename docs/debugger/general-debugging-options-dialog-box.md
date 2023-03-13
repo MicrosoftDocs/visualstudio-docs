@@ -1,7 +1,6 @@
 ---
 title: "General, Debugging, Options Dialog Box | Microsoft Docs"
 description: Set Visual Studio debugger options to meet your debugging needs. You can configure break behavior, debugging levels, display behavior, and much else.
-ms.custom: SEO-VS-2020
 ms.date: "12/09/2022"
 ms.topic: "reference"
 f1_keywords:

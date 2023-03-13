@@ -1,7 +1,6 @@
 ---
 title: Visual Studio Shell | Microsoft Docs
 description: The Visual Studio shell is the primary agent of integration in Visual Studio and provides basic functionality and supports cross-communication among VSPackages.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: "How to: Scroll through database records in a worksheet"
 description: Learn how you can use the designer to display a single field from a database table in a Microsoft Excel worksheet
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

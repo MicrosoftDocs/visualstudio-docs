@@ -1,7 +1,6 @@
 ---
 title: Registering Interop Assembly Command Handlers | Microsoft Docs
 description: Learn about the basic command contract used by all VSPackages implementing commands using Interop assemblies.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

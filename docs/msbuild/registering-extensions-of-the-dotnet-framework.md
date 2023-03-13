@@ -1,7 +1,6 @@
 ---
 title: Registering Extensions of the .NET Framework | Microsoft Docs
 description: Learn how to add a folder containing an assembly that extends a specific version of the .NET Framework to the system registry.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

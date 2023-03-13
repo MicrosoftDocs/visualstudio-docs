@@ -1,7 +1,6 @@
 ---
 title: Page Response Time in a Load Test
 description: The time it takes for a web page to load is the response time. Learn how to set a response time goal for each web page request in your web performance test.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

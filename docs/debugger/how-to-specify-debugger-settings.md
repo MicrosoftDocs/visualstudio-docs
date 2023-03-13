@@ -1,7 +1,6 @@
 ---
 title: Specify Debugger Settings | Microsoft Docs
 description: Specify various settings for debugger behavior in Visual Studio, such as how to display variables, what warnings are presented, and how to set breakpoints.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

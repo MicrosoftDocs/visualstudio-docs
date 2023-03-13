@@ -1,7 +1,6 @@
 ---
 title: Error Codes | Microsoft Docs
 description: This article contains a list of error codes, values, and descriptions for Source Control Plug-in API functions.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

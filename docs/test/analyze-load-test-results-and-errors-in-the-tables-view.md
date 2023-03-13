@@ -1,7 +1,6 @@
 ---
 title: Analyzing Load Test Results and Errors
 description: Learn how to display panes that provide you with different ways to analyze the results of a load test run, such as a graph over time or detailed tables.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:

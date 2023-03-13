@@ -2,7 +2,6 @@
 description: "Retrieves the classes with the specified attribute that are implemented in the specified programming language."
 title: IDebugComPlusSymbolProvider::GetAttributedClassesForLanguage
 titleSuffix: ""
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

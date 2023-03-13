@@ -1,7 +1,6 @@
 ---
 title: "Create custom deployment step for SharePoint projects"
 description: In this walkthrough, create a custom deployment step to upgrade SharePoint project solutions on a server that's running SharePoint.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: Binding Breakpoints | Microsoft Docs
 description: Learn how the IDE formulates the request for a breakpoint and prompts the debug session to create the breakpoint when a user sets a breakpoint.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

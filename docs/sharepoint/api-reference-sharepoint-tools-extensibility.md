@@ -1,7 +1,6 @@
 ---
 title: "API Reference (SharePoint Tools Extensibility) | Microsoft Docs"
 description: Review API reference documentation for extending SharePoint tools in Visual Studio. See a list of related namespaces, such as Microsoft.VisualStudio.SharePoint.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

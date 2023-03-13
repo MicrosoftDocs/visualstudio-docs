@@ -1,7 +1,6 @@
 ---
 title: "&lt;deployment&gt; Element (ClickOnce Deployment) | Microsoft Docs"
 description: The deployment element identifies the attributes used for the deployment of updates and exposure to the system.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:

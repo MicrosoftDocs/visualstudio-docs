@@ -1,7 +1,6 @@
 ---
 title: Disable URL activation of ClickOnce apps using Designer
 description: Learn how to disable automatic start on install for a ClickOnce application using Visual Studio, so that users must start the application from the Start menu.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

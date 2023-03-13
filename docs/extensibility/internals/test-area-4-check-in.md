@@ -1,7 +1,6 @@
 ---
 title: 'Test Area 4: Check In | Microsoft Docs'
 description: This source-control plug-in test area covers sending updated items to the version store by using the Check In command.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Debug a managed memory dump with .NET Diagnostic Analyzers | Microsoft Docs
 description: Learn how to use Visual Studio's .NET Diagnostics Analyzers to analyze a managed memory dump 
-ms.custom: SEO-VS-2021
 ms.date: 04/21/2021
 ms.topic: how-to
 dev_langs: 

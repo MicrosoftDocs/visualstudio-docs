@@ -1,7 +1,6 @@
 ---
 title: "Modify standard menu command in DSL"
 description: Learn how you can modify the behavior of some of the standard commands that are defined automatically in your DSL.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
