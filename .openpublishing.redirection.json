@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docs/data-tools/upgrade-dot-mdf-files.md",
+      "redirect_url": "/visualstudio/data-tools/add-new-connections",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/msbuild/updating-an-existing-application.md",
       "redirect_url": "/visualstudio/msbuild/find-and-use-msbuild-versions",
       "redirect_document_id": true
