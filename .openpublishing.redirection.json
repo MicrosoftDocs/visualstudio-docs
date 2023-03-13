@@ -3036,6 +3036,31 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/debugging-managed-code.md",
+      "redirect_url": "/visualstudio/debugger/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugging-applications.md",
+      "redirect_url": "/visualstudio/debugger/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/com-and-activex-debugging.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/com-and-activex-debugging",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-debug-an-activex-control.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/how-to-debug-an-activex-control",
+      "redirect_document_id": false
+    },  
+    {
+      "source_path": "docs/debugger/com-debugging-tools.md",
+      "redirect_url": "/windows/win32/com/ole-com-object-viewer",
+      "redirect_document_id": false
+    },    
+    {
       "source_path": "docs/debugger/how-can-i-debug-access-violations-when-running-my-program-outside-the-debugger-q.md",
       "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
       "redirect_document_id": false
