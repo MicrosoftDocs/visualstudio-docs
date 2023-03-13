@@ -452,18 +452,14 @@
       href: debug-64-bit-applications.md
     - name: UWP apps
       items:
-      - name: Debug UWP apps
-        href: debugging-windows-store-and-windows-universal-apps.md
-      - name: Start a debugging session (UWP)
-        items:
-        - name: Start a debugging session for a UWP app
-          href: start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md
-        - name: Debug UWP apps on a remote machine
-          href: run-windows-store-apps-on-a-remote-machine.md
-        - name: Run UWP apps in the simulator
-          href: run-windows-store-apps-in-the-simulator.md
-        - name: Deploy UWP apps from Visual Studio
-          href: deploy-windows-store-apps-from-visual-studio.md
+      - name: Debug UWP apps >>
+        href: /windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps
+      - name: Debug UWP apps on a remote machine
+        href: run-windows-store-apps-on-a-remote-machine.md
+      - name: Run UWP apps in the simulator
+        href: run-windows-store-apps-in-the-simulator.md
+      - name: Deploy UWP apps from Visual Studio
+        href: deploy-windows-store-apps-from-visual-studio.md
       - name: Debug an installed app package
         href: debug-installed-app-package.md
       - name: Inspect XAML properties while debugging

@@ -3036,6 +3036,21 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/deploy-windows-store-apps-from-visual-studio.md",
+      "redirect_url": "/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md",
+      "redirect_url": "/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugging-windows-store-and-windows-universal-apps.md",
+      "redirect_url": "/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/how-can-i-debug-access-violations-when-running-my-program-outside-the-debugger-q.md",
       "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
       "redirect_document_id": false
