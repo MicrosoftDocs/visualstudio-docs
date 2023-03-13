@@ -446,8 +446,6 @@
       href: ../containers/edit-and-refresh.md
   - name: Application types
     items:
-    - name: Debug specific application types
-      href: debugging-applications.md
     - name: Debug 64-Bit applications
       href: debug-64-bit-applications.md
     - name: UWP apps
@@ -472,8 +470,6 @@
         href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
     - name: Managed code (C#, Visual Basic, F#)
       items:
-      - name: Debug managed code
-        href: debugging-managed-code.md
       - name: Debugging preparation
         items:
         - name: 'Debugging preparation: C#, F#, and Visual Basic project types'
@@ -490,18 +486,14 @@
         href: assertions-in-managed-code.md
       - name: Stop statements in Visual Basic
         href: stop-statements-in-visual-basic.md
-      - name: 'Walkthrough: Debugging a Windows Form'
+      - name: 'Walkthrough: Debug a Windows Form'
         href: walkthrough-debugging-a-windows-form.md
-      - name: Debug the OnStart method
-        href: how-to-debug-the-onstart-method.md
       - name: Debug mixed-mode applications
         href: debugging-mixed-mode-applications.md
       - name: JIT optimization and debugging
         href: jit-optimization-and-debugging.md
       - name: Debug LINQ
         href: debugging-linq.md
-      - name: Debugging isn't possible because a kernel debugger is enabled on the system
-        href: error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md
       - name: Debug .NET Framework source
         href: how-to-debug-dotnet-framework-source.md
       - name: WPF
@@ -516,8 +508,16 @@
           href: how-to-use-the-wpf-tree-visualizer.md
         - name: Display WPF trace information
           href: how-to-display-wpf-trace-information.md
+      - name: Windows service
+        items:
+        - name: Debug the OnStart method
+          href: how-to-debug-the-onstart-method.md
       - name: Debug F#
         href: debugging-f-hash.md
+      - name: Error reference
+        items:
+        - name: Debugging isn't possible because a kernel debugger is enabled on the system
+          href: error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md
     - name: C/C++ code
       items:
       - name: Debug native code
@@ -540,18 +540,12 @@
         items:
         - name: Debugging native code FAQs
           href: debugging-native-code-faqs.yml
-      - name: COM and ActiveX
+      - name: COM
         items:
-        - name: COM and ActiveX debugging
-          href: com-and-activex-debugging.md
-        - name: COM server and container
-          items:
-          - name: COM server and container debugging
-            href: com-server-and-container-debugging.md
-        - name: Debug an ActiveX control
-          href: how-to-debug-an-activex-control.md
-        - name: COM debugging tools
-          href: com-debugging-tools.md
+        - name: COM server and container debugging
+          href: com-server-and-container-debugging.md
+        - name: COM debugging tools >>
+          href: /windows/win32/com/ole-com-object-viewer
       - name: Debug injected code
         href: how-to-debug-injected-code.md
     - name: GPU code
