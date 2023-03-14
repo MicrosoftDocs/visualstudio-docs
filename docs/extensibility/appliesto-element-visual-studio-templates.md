@@ -1,7 +1,6 @@
 ---
 title: AppliesTo Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the AppliesTo element and how it specifies an optional expression to match one or more capabilities.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

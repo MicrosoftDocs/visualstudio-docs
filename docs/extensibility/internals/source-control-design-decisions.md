@@ -1,7 +1,6 @@
 ---
 title: Source Control Design Decisions | Microsoft Docs
 description: Learn about several key design decisions to consider for projects when implementing source control.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Legacy Language Service Overview | Microsoft Docs
 description: Learn about legacy language services in Visual Studio and the features supported by the Managed Package Framework (MPF) language service classes. 
-ms.custom: SEO-VS-2020 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

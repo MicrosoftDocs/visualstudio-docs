@@ -1,7 +1,6 @@
 ---
 title: "ClickOnce Cache Overview | Microsoft Docs"
 description: Learn about the ClickOnce application cache, which includes hidden directories on a client computer where ClickOnce applications are stored. 
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

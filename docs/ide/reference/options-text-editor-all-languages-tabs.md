@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, All Languages, Tabs
 description: Learn how to use the Tabs page in the All Languages section to change the default behavior of the code editor tabs within Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 09/29/2022
 ms.topic: reference
 f1_keywords:

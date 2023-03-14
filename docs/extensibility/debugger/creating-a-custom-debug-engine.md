@@ -1,7 +1,6 @@
 ---
 title: Creating a Custom Debug Engine | Microsoft Docs
 description: Use these articles to learn about creating a debug engine that allows debugging of particular run-time architectures.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

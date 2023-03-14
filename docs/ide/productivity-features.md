@@ -1,7 +1,6 @@
 ---
 title: Productivity guide
 description: Learn about the keyboard shortcuts and productivity features in Visual Studio that can help you efficiently write code, debug code, and handle errors.
-ms.custom: SEO-VS-2020
 ms.date: 09/23/2022
 ms.topic: conceptual
 author: TerryGLee

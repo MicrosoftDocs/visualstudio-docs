@@ -2,7 +2,6 @@
 title: Extended Correctness Rules rule set for managed code
 ms.date: 11/04/2016
 description: Learn about the Extended Correctness Rules rule set in Visual Studio, which is useful for COM interoperability and mobile applications. See rule descriptions.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 ms.assetid: 5b181f5b-6c7a-4e46-a783-360e1da427a0
 author: mikejo5000

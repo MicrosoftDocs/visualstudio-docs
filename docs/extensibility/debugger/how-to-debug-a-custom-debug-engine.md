@@ -1,7 +1,6 @@
 ---
 title: 'How To: Debug a Custom Debug Engine | Microsoft Docs'
 description: Learn about the steps that allow you to use Visual Studio to debug your custom debug engine or a custom project type.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

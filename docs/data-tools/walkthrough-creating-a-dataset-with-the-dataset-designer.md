@@ -1,7 +1,6 @@
 ---
 title: Create a Dataset with the Dataset Designer
 description: In this walkthrough, create a dataset using the Dataset Designer. Understand the process of creating a new project and adding a new DataSet item to it.
-ms.custom: SEO-VS-2020
 ms.date: 09/11/2017
 ms.topic: conceptual
 helpviewer_keywords:

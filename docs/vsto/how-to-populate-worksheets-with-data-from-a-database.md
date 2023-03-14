@@ -1,7 +1,6 @@
 ---
 title: "How to: Populate worksheets with data from a database"
 description: Learn how you can use the data from an object in your solution, and how you can use Windows Forms controls to display the data in a worksheet.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

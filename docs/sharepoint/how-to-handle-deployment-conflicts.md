@@ -1,7 +1,6 @@
 ---
 title: "How to: Handle Deployment Conflicts | Microsoft Docs"
 description: See an example of how to implement your own code to handle deployment conflicts for a SharePoint project item.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 helpviewer_keywords:

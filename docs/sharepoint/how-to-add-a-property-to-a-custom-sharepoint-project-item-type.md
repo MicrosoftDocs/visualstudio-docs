@@ -1,7 +1,6 @@
 ---
 title: "Add property to custom SharePoint project item type"
 description: Add a property to a custom SharePoint project item type. The property appears in the Properties window when the project item is selected in Solution Explorer.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

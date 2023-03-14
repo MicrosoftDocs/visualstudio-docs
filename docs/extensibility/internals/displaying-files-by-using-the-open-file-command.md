@@ -1,7 +1,6 @@
 ---
 title: Displaying Files By Using the Open File Command | Microsoft Docs
 description: Learn how the Visual Studio integrated development environment (IDE) handles the Open File command on the File menu to display files.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

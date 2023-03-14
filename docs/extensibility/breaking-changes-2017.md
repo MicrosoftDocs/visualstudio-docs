@@ -1,7 +1,6 @@
 ---
 title: Breaking Changes in Visual Studio 2017 extensibility
 description: Learn about technical details of breaking changes made to the extensibility model in Visual Studio 2017 and what you can do to address them.
-ms.custom: SEO-VS-2020
 titleSuffix: ''
 ms.date: 11/09/2016
 ms.topic: conceptual

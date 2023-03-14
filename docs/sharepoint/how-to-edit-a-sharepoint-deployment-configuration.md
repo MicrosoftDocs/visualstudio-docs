@@ -1,7 +1,6 @@
 ---
 title: "How to: Edit a SharePoint Deployment Configuration | Microsoft Docs"
 description: Know how to create a SharePoint deployment configuration or modify an existing deployment configuration.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:

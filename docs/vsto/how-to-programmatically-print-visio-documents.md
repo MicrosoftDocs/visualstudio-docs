@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically print Visio documents"
 description: Learn how you can print a complete Microsoft Visio document or only print a specific page in that document.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

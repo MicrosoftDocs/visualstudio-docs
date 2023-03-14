@@ -1,7 +1,6 @@
 --- 
 title: Generate private field and property from constructor
 description: Learn how to use the Quick Actions and Refactorings menu to generate a private field or property from a constructor.
-ms.custom: SEO-VS-2020
 ms.date: 06/20/2020 
 ms.topic: reference 
 author: mikadumont

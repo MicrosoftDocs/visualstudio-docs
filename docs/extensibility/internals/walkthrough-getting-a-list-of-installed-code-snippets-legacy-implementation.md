@@ -1,7 +1,6 @@
 ---
 title: Getting a List of Installed Code Snippets (Legacy) | Microsoft Docs
 description: Learn how to get all code snippets for a specific language GUID. The shortcuts for those snippets can be inserted into an IntelliSense completion list.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

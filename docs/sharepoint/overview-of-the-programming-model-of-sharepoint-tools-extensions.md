@@ -2,7 +2,6 @@
 title: "Overview of programming model of SharePoint tools extensions"
 titleSuffix: ""
 description: Read an overview of the programming model of SharePoint tools extensions. Implement extensibility interfaces. Understand the object models.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

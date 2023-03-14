@@ -1,7 +1,6 @@
 ---
 title: "Deploy, publish, & upgrade SharePoint solution packages"
 description: Deploy, publish, and upgrade SharePoint solution packages. Customize the deployment process. Publish packages to a remote or local server.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

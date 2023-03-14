@@ -1,7 +1,6 @@
 ---
 title: Creating a Basic Project System, Part 2 | Microsoft Docs
 description: Learn how to add a Visual Studio template, a property page, and other features to a project created in a previous article.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: 'Walkthrough: Implementing Code Snippets | Microsoft Docs'
 description: You can create code snippets and include them in an editor extension. Learn how to create/register code snippets by using this walkthrough.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: adbc5382-d170-441c-9fd0-80faa1816478

@@ -1,7 +1,6 @@
 ---
 title: Notifying the Port | Microsoft Docs
 description: Learn how the port is notified after launching a program. This article contains a detailed description.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

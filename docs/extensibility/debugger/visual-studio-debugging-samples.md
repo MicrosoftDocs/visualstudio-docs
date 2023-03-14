@@ -1,7 +1,6 @@
 ---
 title: Visual Studio Debugging Samples | Microsoft Docs
 description: The Debugger Expression Evaluator Sample and the Visual Studio Debug Engine Sample show how to extend the Visual Studio debugger using the Visual Studio SDK.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

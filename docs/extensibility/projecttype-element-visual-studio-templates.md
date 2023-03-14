@@ -1,7 +1,6 @@
 ---
 title: ProjectType Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the ProjectType element and how it categorizes the project template so that it appears in the New Project or Add New Item dialog box.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

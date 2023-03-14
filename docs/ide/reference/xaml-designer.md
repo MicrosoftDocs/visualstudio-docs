@@ -1,7 +1,6 @@
 ---
 title: XAML Designer options page
 description: Learn how to use the General page in the XAML Designer section to specify how elements and attributes are formatted in your XAML documents.
-ms.custom: SEO-VS-2020
 ms.date: 03/02/2017
 ms.topic: reference
 f1_keywords:

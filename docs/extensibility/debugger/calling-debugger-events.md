@@ -1,7 +1,6 @@
 ---
 title: Calling Debugger Events | Microsoft Docs
 description: Events in debugging sessions occur in a specific order. This article lists the calling order of the events that occur in a typical debugging session.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

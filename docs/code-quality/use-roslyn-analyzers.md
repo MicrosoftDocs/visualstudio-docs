@@ -2,7 +2,7 @@
 title: Analyzer configuration
 ms.date: 07/27/2022
 description: Learn how to customize Roslyn analyzer rules. See how to adjust analyzer severities, suppress violations, and designate files as generated code.
-ms.custom: SEO-VS-2020, devdivchpfy22
+ms.custom: devdivchpfy22
 ms.topic: conceptual
 helpviewer_keywords:
 - code analysis, managed code

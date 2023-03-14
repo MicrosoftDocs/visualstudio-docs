@@ -1,7 +1,6 @@
 ---
 title: Preview Features, Environment, Options dialog box
 description: Learn how to use the Preview Features page in the Environment section to enable or disable preview features in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 07/26/2019
 ms.topic: reference
 f1_keywords:

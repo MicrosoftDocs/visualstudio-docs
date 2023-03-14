@@ -233,7 +233,7 @@ If you choose to use a custom layout as the update channel, then be aware of the
 
 ## Using winget
 
-Use the [Windows Package Manager](/windows/package-manager/winget/) "winget" tool to programmatically install or update Visual Studio on your machines along with other packages managed by winget. To customize the installation and specify additional workloads and components, you can use winget's `--override` switch alongside winget's `install` command, and pass in an [exported vsconfig file](/import-export-installation-configurations.md) like this:
+Use the [Windows Package Manager](/windows/package-manager/winget/) "winget" tool to programmatically install or update Visual Studio on your machines along with other packages managed by winget. To customize the installation and specify additional workloads and components, you can use winget's `--override` switch alongside winget's `install` command, and pass in an [exported vsconfig file](import-export-installation-configurations.md) like this:
 
   ```shell
   winget install --id Microsoft.VisualStudio.2022.Community --override "--passive --config c:\my.vsconfig"

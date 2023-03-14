@@ -1,7 +1,6 @@
 ---
 title: Run a unit test as a 64-bit process
 description: Learn how to run unit tests and capture code coverage information as a 64-bit process. You must have a 64-bit computer.
-ms.custom: SEO-VS-2020
 ms.date: 03/10/2020
 ms.topic: how-to
 helpviewer_keywords: 

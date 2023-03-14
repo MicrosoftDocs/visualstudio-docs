@@ -1,7 +1,6 @@
 ---
 title: CustomDataSignature Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the CustomDataSignature element and how it specifies the text signature to locate the custom data.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

@@ -1,7 +1,6 @@
 ---
 title: Button Element | Microsoft Docs
 description: "The Button element defines an element that the user can interact with. Buttons can be different kinds: Button, MenuButton, and SplitDropDown."
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

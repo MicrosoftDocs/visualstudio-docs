@@ -1,7 +1,6 @@
 ---
 title: Step ramp time for load testing
 description: Learn how to set the Step Ramp Time property in the Properties window. The Step Ramp Time property is only used with a step load pattern.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

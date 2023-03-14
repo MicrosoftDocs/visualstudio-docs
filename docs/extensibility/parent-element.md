@@ -1,7 +1,6 @@
 ---
 title: Parent Element | Microsoft Docs
 description: The Parent element specifies that an element is a parent of a button, combo box, menu, or group.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

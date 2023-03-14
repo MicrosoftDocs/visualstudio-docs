@@ -1,7 +1,6 @@
 ---
 title: "Custom Native ETW Heap Events | Microsoft Docs"
 description: Learn how to use a custom heap to reduce allocation overhead, but still provide allocation information to the memory profiler for allocation analysis.
-ms.custom: SEO-VS-2020
 ms.date: "02/24/2017"
 ms.topic: "conceptual"
 ms.assetid: 668a6603-5082-4c78-98e6-f3dc871aa55b

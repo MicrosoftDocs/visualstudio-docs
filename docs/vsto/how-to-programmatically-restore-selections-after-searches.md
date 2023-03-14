@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically restore selections after searches"
 description: Learn how you can use Visual Studio to programmatically restore selections after searches in a Microsoft Word document.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

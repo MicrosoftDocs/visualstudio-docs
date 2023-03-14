@@ -1,7 +1,6 @@
 ---
 title: MSBuild Inline Tasks with RoslynCodeTaskFactory | Microsoft Docs
 description: Learn about MSBuild RoslynCodeTaskFactory, which uses the cross-platform Roslyn compilers to generate in-memory task assemblies for use as inline tasks.
-ms.custom: SEO-VS-2020
 ms.date: 09/21/2017
 ms.topic: conceptual
 helpviewer_keywords:

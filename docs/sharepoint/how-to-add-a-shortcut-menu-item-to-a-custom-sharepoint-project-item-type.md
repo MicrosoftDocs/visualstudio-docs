@@ -2,7 +2,6 @@
 title: "Add shortcut menu item to custom SharePoint project item type"
 titleSuffix: ""
 description: Know how to add a shortcut menu item to a custom SharePoint project item type. The menu item appears when you right-click the project item in Solution Explorer.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

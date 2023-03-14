@@ -1,7 +1,6 @@
 ---
 title: 'How to: Specify build events (Visual Basic)'
 description: Learn how build events in Visual Basic can be used to run scripts, macros, or other actions as a part of the compilation process.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: how-to

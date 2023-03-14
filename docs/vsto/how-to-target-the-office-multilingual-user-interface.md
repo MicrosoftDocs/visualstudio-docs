@@ -1,7 +1,6 @@
 ---
 title: "How to: Target the Office multilingual user interface"
 description: Learn how you can use Visual Studio to programmatically target the Microsoft Office multilingual user interface.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

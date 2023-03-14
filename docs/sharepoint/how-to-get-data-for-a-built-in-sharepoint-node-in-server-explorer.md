@@ -2,7 +2,6 @@
 title: "Get data for built-in SharePoint node in Server Explorer"
 titleSuffix: ""
 description: Get data for the underlying SharePoint component of a built-in SharePoint node in the Server Explorer window of Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

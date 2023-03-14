@@ -1,7 +1,6 @@
 ---
 title: 'How to: Update a Visual Studio Extension | Microsoft Docs'
 description: Learn how to update a Visual Studio extension on your system by using Extensions and Updates to install the updated version.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

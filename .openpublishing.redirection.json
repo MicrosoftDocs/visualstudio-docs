@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docs/data-tools/upgrade-dot-mdf-files.md",
+      "redirect_url": "/visualstudio/data-tools/add-new-connections",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/msbuild/updating-an-existing-application.md",
       "redirect_url": "/visualstudio/msbuild/find-and-use-msbuild-versions",
       "redirect_document_id": true
@@ -3028,6 +3033,86 @@
     {
       "source_path": "docs/data-tools/saving-data.md",
       "redirect_url": "/visualstudio/data-tools/save-data-back-to-the-database",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/deploy-windows-store-apps-from-visual-studio.md",
+      "redirect_url": "/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md",
+      "redirect_url": "/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugging-windows-store-and-windows-universal-apps.md",
+      "redirect_url": "/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugging-managed-code.md",
+      "redirect_url": "/visualstudio/debugger/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugging-applications.md",
+      "redirect_url": "/visualstudio/debugger/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/com-and-activex-debugging.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/com-and-activex-debugging",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-debug-an-activex-control.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/how-to-debug-an-activex-control",
+      "redirect_document_id": false
+    },  
+    {
+      "source_path": "docs/debugger/com-debugging-tools.md",
+      "redirect_url": "/windows/win32/com/ole-com-object-viewer",
+      "redirect_document_id": false
+    },    
+    {
+      "source_path": "docs/debugger/how-can-i-debug-access-violations-when-running-my-program-outside-the-debugger-q.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-can-i-debug-windows-api-functions-q.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-can-i-find-out-if-my-pointers-corrupt-a-memory-address-q.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-can-i-debug-an-access-violation-q.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-can-i-keep-focus-when-stepping-through-my-program-q.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-can-i-find-out-who-is-passing-a-wrong-parameter-value-q.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/where-can-i-look-up-win32-error-codes-q.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/when-calling-a-function-hundreds-of-times-how-do-i-know-which-call-failed-q.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
       "redirect_document_id": false
     },
     {

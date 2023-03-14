@@ -1,7 +1,6 @@
 ---
 title: Expression Evaluator Architecture | Microsoft Docs
 description: Learn about integrating a proprietary language into the Visual Studio debug package, including expression evaluator and symbol provider/binder interfaces.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Rename and move classes and types in Class Designer
 description: Learn how to rename and move classes and types using Class Designer and the Class Details window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:

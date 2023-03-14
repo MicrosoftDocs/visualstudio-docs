@@ -1,7 +1,6 @@
 ---
 title: Objects | Microsoft Docs
 description: The articles in this section provide reference information about objects that are used to create an instance of the core text editor in the Visual Studio SDK.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

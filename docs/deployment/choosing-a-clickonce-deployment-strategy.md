@@ -1,7 +1,6 @@
 ---
 title: "Choosing a ClickOnce Deployment Strategy | Microsoft Docs"
 description: Learn about the strategies for deploying a ClickOnce application and how to choose a strategy depending on the type of application that you are deploying.
-ms.custom: SEO-VS-2020
 ms.date: "01/27/2023"
 ms.topic: "conceptual"
 dev_langs:

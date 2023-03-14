@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Design an Outlook form region"
 description: Learn how you can design a custom Microsoft Outlook form region that appears as a new page in the Inspector window of a contact item.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

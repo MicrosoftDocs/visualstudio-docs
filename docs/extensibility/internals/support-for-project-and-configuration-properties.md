@@ -1,7 +1,6 @@
 ---
 title: Support for Project and Configuration Properties | Microsoft Docs
 description: Learn how to provide a property page for your own project type in the Visual Studio IDE, which can display project and configuration extended properties.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

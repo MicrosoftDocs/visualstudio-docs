@@ -1,7 +1,6 @@
 ---
 title: -? (devenv.exe)
 description: Learn how to use the /? devenv command-line switch to display a message box listing all devenv switches, with a brief description of each switch.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:

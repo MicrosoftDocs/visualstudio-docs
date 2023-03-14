@@ -1,7 +1,6 @@
 ---
 title: Inside the Editor
 description: Learn about the subsystems and features of the editor. You can extend features of the Visual Studio editor.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

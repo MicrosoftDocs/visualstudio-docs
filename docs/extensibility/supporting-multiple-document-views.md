@@ -1,7 +1,6 @@
 ---
 title: Supporting Multiple Document Views | Microsoft Docs
 description: Learn how to provide more than one view of a document by using separate document data and document view objects for your custom editor in the Visual Studio SDK. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

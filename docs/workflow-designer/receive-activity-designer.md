@@ -1,7 +1,6 @@
 ---
 title: "Workflow Designer - Receive Activity Designer"
 description: Learn about the Receive activity and how to use the Receive activity designer to create and configure a Receive activity.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

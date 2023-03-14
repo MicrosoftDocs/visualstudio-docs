@@ -1,7 +1,6 @@
 ---
 title: Generate a constructor quick action
 description: Learn how to use the Quick Actions and Refactorings menu to immediately generate the code for a new constructor on a class.
-ms.custom: SEO-VS-2020
 ms.date: 07/10/2020
 ms.topic: reference
 author: mikadumont

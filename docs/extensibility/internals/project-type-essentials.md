@@ -1,7 +1,6 @@
 ---
 title: Project Type Essentials | Microsoft Docs
 description: Learn about when you must create a project type and when you can extend an existing project type by using project subtypes.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

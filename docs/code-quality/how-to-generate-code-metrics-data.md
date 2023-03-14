@@ -2,7 +2,6 @@
 title: Generate code metrics from the IDE or command line
 ms.date: 11/02/2018
 description: Learn how to generate code metrics data in Visual Studio. See how to use Solution Explorer, a rule set file, the command line, or a menu command.
-ms.custom: SEO-VS-2020
 ms.topic: how-to
 helpviewer_keywords:
   - code metrics data

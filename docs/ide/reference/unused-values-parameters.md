@@ -1,7 +1,6 @@
 ---
 title: Unused values and parameters
 description: Learn about unused value assignments, variables, and parameters and how they appear in the code editor in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 02/15/2019
 ms.topic: reference
 author: mikadumont

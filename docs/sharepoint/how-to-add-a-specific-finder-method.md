@@ -1,7 +1,6 @@
 ---
 title: "How to: Add a Specific Finder Method | Microsoft Docs"
 description: Get an entity instance by adding a Finder method. The BDC service calls the method when a user picks an entity in a business data web part or external list.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

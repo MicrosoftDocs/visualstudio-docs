@@ -1,7 +1,6 @@
 ---
 title: Troubleshoot snippets
 description: Learn how to troubleshoot problems with IntelliSense code snippets that are typically caused by bad content in the snippet file or a corrupt snippet file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: troubleshooting
 helpviewer_keywords:

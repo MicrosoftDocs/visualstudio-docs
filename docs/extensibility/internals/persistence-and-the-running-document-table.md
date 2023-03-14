@@ -1,7 +1,6 @@
 ---
 title: Persistence and the Running Document Table | Microsoft Docs
 description: Learn how projects coordinate document opening, saving, and renaming in the running document table, which tracks document state in the Visual Studio IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

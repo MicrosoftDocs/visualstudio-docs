@@ -1,7 +1,6 @@
 ---
 title: MSBuild Batching | Microsoft Docs
 description: Learn how MSBuild divides item lists into different categories, or batches, based on item metadata, and runs a target or task one time with each batch.
-ms.custom: SEO-VS-2020
 ms.date: 06/09/2020
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: RemoveDuplicates Task | Microsoft Docs
 description: Learn how MSBuild uses the RemoveDuplicates task to remove duplicate items from the specified item collection.
-ms.custom: SEO-VS-2020
 ms.date: 03/01/2018
 ms.topic: reference
 f1_keywords:

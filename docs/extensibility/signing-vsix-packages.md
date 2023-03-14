@@ -1,7 +1,6 @@
 ---
 title: Signing VSIX Packages | Microsoft Docs
 description: Learn about signing extension assemblies. The VSIX installer displays a message that a VSIX is signed and information about the signature itself.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

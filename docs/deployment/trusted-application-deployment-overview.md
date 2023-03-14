@@ -1,7 +1,6 @@
 ---
 title: "Trusted Application Deployment Overview | Microsoft Docs"
 description: Learn how to deploy ClickOnce applications that have elevated permissions by using the Trusted Application Deployment technology.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

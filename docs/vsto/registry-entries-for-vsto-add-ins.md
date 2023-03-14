@@ -1,7 +1,7 @@
 ---
 title: "Registry entries for VSTO Add-ins"
 description: Learn how you can create a specific set of registry entries when you deploy VSTO Add-ins that are created by using Visual Studio.
-ms.custom: SEO-VS-2020, devdivchpfy22
+ms.custom: devdivchpfy22
 ms.date: "01/27/2022"
 ms.topic: "conceptual"
 dev_langs:

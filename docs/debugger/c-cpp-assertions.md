@@ -1,7 +1,6 @@
 ---
 title: "C/C++ Assertions | Microsoft Docs"
 description: Read about how C/C++ assertions work in Visual Studio debugging. An assertion specifies a condition that you expect to be true at a point in your program.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: Find calls to a method
 description: Learn how to use the Call Hierarchy window to navigate all calls to, and sometimes from, a selected method, property, or constructor.
-ms.custom: SEO-VS-2020
 ms.date: 05/18/2018
 ms.topic: reference
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Insert new records into a database
 description: Insert new records into a database using the TableAdapter.Update method, one of the TableAdapter's DBDirect methods, or command objects.
-ms.custom: SEO-VS-2020
 ms.date: 04/12/2022
 ms.topic: how-to
 dev_langs:

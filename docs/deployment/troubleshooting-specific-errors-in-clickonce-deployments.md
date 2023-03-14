@@ -1,7 +1,6 @@
 ---
 title: Troubleshooting errors (ClickOnce deployments)
 description: This article describes common errors that can occur when you deploy a ClickOnce application and provides steps to resolve each problem.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: troubleshooting
 f1_keywords: 

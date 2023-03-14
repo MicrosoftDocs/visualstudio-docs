@@ -1,7 +1,6 @@
 ---
 title: Expression Evaluator Implementation Strategy | Microsoft Docs
 description: Learn about a strategy for creating an expression evaluator by first implementing code to display local variables in the Locals window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

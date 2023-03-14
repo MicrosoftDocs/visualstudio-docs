@@ -1,7 +1,6 @@
 ---
 title: Unloading and reloading nested projects
 description: Learn the additional steps that must be performed when unloading and reloading nested projects in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

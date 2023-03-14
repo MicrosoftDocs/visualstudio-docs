@@ -1,7 +1,6 @@
 ---
 title: Implementing an Expression Evaluator | Microsoft Docs
 description: Learn about evaluating an expression, which involves the debug engine, the symbol provider, the binder object, and the expression evaluator.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

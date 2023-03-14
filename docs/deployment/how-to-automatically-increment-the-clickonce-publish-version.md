@@ -1,7 +1,6 @@
 ---
 title: Auto-increment the ClickOnce publish version
 description: Learn how to disable automatic incrementing of revision number for your ClickOnce application using Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

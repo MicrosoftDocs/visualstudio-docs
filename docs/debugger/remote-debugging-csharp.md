@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug a C# or VB project | Microsoft Docs"
 description: Learn how to debug a Visual Studio C# or Visual Basic application from a remote computer by following these step-by-step instructions.
-ms.custom: ['remotedebugging"=']
+ms.custom: remotedebugging
 ms.date: "08/22/2022"
 ms.topic: "conceptual"
 dev_langs:

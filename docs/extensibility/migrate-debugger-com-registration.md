@@ -1,9 +1,7 @@
 ---
 title: Migrate 64-bit debugger COM class registration
 description: Learn how to register COM classes to msvsmon.exe for debugger extensions without writing to HKEY_CLASSES_ROOT. 
-ms.custom:
-- SEO-VS-2020
-- kr2b-contr-experiment
+ms.custom: "kr2b-contr-experiment"
 ms.date: "06/13/2022"
 ms.topic: "how-to"
 ms.assetid: 45cfcee6-7a68-4d4f-b3f6-e2d8a0fa066a

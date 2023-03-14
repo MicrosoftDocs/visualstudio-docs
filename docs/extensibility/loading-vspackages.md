@@ -1,7 +1,6 @@
 ---
 title: Loading VSPackages | Microsoft Docs
 description: Learn about loading VSPackages in Visual Studio, including delayed loading, which is used whenever possible to improve performance.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

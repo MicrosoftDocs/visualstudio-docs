@@ -1,7 +1,6 @@
 ---
 title: Resolving Assemblies at Design Time | Microsoft Docs
 description: Learn how MSBuild resolves references to assemblies at design time by using reference assemblies in the targeting pack.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
