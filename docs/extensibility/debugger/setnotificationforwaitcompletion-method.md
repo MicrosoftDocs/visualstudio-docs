@@ -1,7 +1,6 @@
 ---
 title: SetNotificationForWaitCompletion Method | Microsoft Docs
 description: Learn how the debugger uses a state bit to help step out of an async method body for promise-style tasks.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

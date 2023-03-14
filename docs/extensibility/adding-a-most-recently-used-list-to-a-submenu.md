@@ -1,7 +1,6 @@
 ---
 title: Adding a Most Recently Used List to a Submenu | Microsoft Docs
 description: Learn how to add a dynamic list that contains the most recently used menu commands to a submenu in the Visual Studio integrated development environment (IDE).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

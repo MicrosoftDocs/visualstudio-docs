@@ -1,7 +1,6 @@
 ---
 title: Adding a Toolbar to a Tool Window | Microsoft Docs
 description: Learn how to add a toolbar containing buttons that are bound to commands to a tool window in the Visual Studio integrated development environment (IDE).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

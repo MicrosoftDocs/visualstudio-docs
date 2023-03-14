@@ -1,7 +1,6 @@
 ---
 title: "SafeControl Element | Microsoft Docs"
 description: Get information on the SafeControl element, which represents an ASPX control or web part marked as secure for a user to access on a SharePoint site's ASPX page.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

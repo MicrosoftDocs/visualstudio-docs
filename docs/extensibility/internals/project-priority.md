@@ -1,7 +1,6 @@
 ---
 title: Project Priority | Microsoft Docs
 description: Learn about the priority scheme that the Visual Studio IDE uses determine the best project for opening an item if the item is a member of more than one project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

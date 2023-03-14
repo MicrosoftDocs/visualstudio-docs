@@ -1,7 +1,6 @@
 ---
 title: Debug Session | Microsoft Docs
 description: Learn about a debug session, which is all processes that have been launched or attached to from a single instance of the IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

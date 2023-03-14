@@ -1,7 +1,6 @@
 ---
 title: MSBuild .targets Files | Microsoft Docs
 description: Learn about the MSBuild .targets files that contain items, properties, targets, and tasks for common scenarios.
-ms.custom: SEO-VS-2020
 ms.date: 02/24/2017
 ms.topic: reference
 dev_langs:

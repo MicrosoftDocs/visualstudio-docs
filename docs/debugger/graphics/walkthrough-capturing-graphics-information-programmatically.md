@@ -1,7 +1,6 @@
 ---
 title: "Capture graphics info programmatically"
 description: See how to use Visual Studio Graphics Diagnostics to programmatically capture graphics information from a Direct3D app.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 author: "mikejo5000"

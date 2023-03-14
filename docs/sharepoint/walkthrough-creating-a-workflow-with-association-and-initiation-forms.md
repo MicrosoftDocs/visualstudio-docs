@@ -1,7 +1,6 @@
 ---
 title: "Create workflow with association and initiation forms"
 description: In this SharePoint walkthrough, create a basic sequential workflow that incorporates the use of association and initiation forms.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

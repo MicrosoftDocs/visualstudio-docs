@@ -1,7 +1,6 @@
 ---
 title: C Library Reference | Microsoft Docs
 description: Read an introduction to the C library reference information for the Concurrency Visualizer SDK in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords: 

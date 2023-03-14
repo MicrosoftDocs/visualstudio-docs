@@ -1,7 +1,6 @@
 ---
 title: "Workflow Designer - PickBranch Activity Designer"
 description: Learn how the PickBranch activity designer provides an event-based path of execution within a Pick activity that can be triggered by an incoming event.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

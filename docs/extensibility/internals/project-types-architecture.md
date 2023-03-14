@@ -1,7 +1,6 @@
 ---
 title: Project Types Architecture | Microsoft Docs
 description: This article links to articles which contain detailed information about the architecture of project types in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

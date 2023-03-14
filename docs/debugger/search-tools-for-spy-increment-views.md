@@ -1,7 +1,6 @@
 ---
 title: "Search tools for Spy++ views"
 description: See dialog boxes that specify what data a Spy++ views window will display. Dialog boxes include Find Window, Window Search, Message Search, Process Search, and Thread Search.
-ms.custom: SEO-VS-2020
 ms.date: "06/02/2022"
 ms.topic: "ui-reference"
 helpviewer_keywords:

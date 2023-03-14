@@ -1,7 +1,6 @@
 ---
 title: Properties of Connectors
 description: Learn that connectors represent domain relationships in a generated designer and that you use these properties to customize and extend a domain-specific language.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

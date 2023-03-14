@@ -1,7 +1,6 @@
 ---
 title: My Extensions Page, Project Designer (Visual Basic)
 description: Learn how to use the My Extensions page of the Project Designer to manage My namespace extensions in your project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

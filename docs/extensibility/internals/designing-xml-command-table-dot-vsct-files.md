@@ -1,7 +1,6 @@
 ---
 title: Designing XML Command Table (.Vsct) Files | Microsoft Docs
 description: Learn how to design an XML command table (.vsct) file that describes the layout and appearance of command items, including buttons, combo boxes, menus, and toolbars. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

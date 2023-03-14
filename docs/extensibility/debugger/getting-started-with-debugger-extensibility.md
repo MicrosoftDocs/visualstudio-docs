@@ -1,7 +1,6 @@
 ---
 title: Getting Started with Debugger Extensibility | Microsoft Docs
 description: Get started creating and customizing debugger components used to debug programs from within the Visual Studio environment.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

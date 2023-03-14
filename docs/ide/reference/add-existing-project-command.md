@@ -1,7 +1,6 @@
 ---
 title: Add Existing Project Command
 description: Learn about the Add Existing Project command and how it adds an existing project to a current solution.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

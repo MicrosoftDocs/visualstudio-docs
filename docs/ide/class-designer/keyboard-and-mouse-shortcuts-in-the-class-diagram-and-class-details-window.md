@@ -1,7 +1,6 @@
 ---
 title: Keyboard and Mouse Shortcuts for Class Designer
 description: Learn how to  use the keyboard in addition to the mouse to perform navigational actions in Class Designer and in the Class Details window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

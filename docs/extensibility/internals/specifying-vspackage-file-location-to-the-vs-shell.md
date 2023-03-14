@@ -1,7 +1,6 @@
 ---
 title: Specifying VSPackage File Location to the VS Shell | Microsoft Docs
 description: Learn how you can make it possible for Visual Studio to locate the assembly DLL to load the VSPackage.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

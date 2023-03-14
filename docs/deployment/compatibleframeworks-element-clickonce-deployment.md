@@ -1,7 +1,6 @@
 ---
 title: "&lt;compatibleFrameworks&gt; Element (ClickOnce Deployment) | Microsoft Docs"
 description: The compatibleFrameworks element identifies the versions of the .NET Framework where this application can install and run.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

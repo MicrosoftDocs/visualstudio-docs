@@ -1,7 +1,6 @@
 ---
 title: Diagnose problems after deployment | Microsoft Docs
 description: Diagnose problems after deployment using IntelliTrace in Visual Studio. Include build information with your release. Release and monitor your app to find the problem.
-ms.custom: SEO-VS-2020
 ms.date: 04/10/2018
 ms.topic: how-to
 ms.assetid: a3463eab-a352-4d17-8551-adbaad526db0

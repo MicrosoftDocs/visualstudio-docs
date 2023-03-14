@@ -1,7 +1,6 @@
 ---
 title: Text Template Control Blocks
 description: Learn about text template control blocks and how control blocks let you write code in your text template in order to vary the output.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

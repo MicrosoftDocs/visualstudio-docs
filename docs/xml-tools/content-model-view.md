@@ -1,7 +1,6 @@
 ---
 title: XML Schema Designer Content Model View
 description: Learn about the Content Model View in the XAML Schema Designer that provides a graphic representation of local and global schema nodes and their components.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: e8db7c7d-31cf-479e-9dcc-299759891795

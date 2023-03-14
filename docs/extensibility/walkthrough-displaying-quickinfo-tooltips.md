@@ -1,7 +1,6 @@
 ---
 title: 'Walkthrough: Displaying QuickInfo Tooltips | Microsoft Docs'
 description: Learn how to display QuickInfo for text content by using this walkthrough. QuickInfo displays method signatures and descriptions for a method name.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

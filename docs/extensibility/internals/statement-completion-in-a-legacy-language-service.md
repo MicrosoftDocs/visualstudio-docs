@@ -1,7 +1,6 @@
 ---
 title: Statement Completion in a Legacy Language Service | Microsoft Docs
 description: Learn how statement completion works and how to implement it in your legacy language service in a VSPackage.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

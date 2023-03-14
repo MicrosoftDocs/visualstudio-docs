@@ -1,7 +1,6 @@
 ---
 title: Projects and Solutions, Options dialog box
 description: Learn how to use the General page in the Projects and Solutions section to define the behavior of Visual Studio related to projects and solutions.
-ms.custom: SEO-VS-2020
 ms.date: 07/26/2019
 ms.topic: reference
 f1_keywords:

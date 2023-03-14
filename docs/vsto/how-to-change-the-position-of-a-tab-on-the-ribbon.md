@@ -1,7 +1,6 @@
 ---
 title: "How to: Change the position of a tab on the ribbon"
 description: You can change the order of custom tabs on a ribbon and position custom tabs before or after a built-in tab on the ribbon by using the Tab Collection Editor.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: Save data with the TableAdapter DBDirect methods
 description: In this tutorial, run SQL statements directly against a database by using the DBDirect methods of a TableAdapter.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:

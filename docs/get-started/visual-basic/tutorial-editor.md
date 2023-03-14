@@ -1,7 +1,7 @@
 ---
 title: Introduction to editing for Visual Basic developers
 description: This 10-minute introduction to the code editor in Visual Studio shows some of the ways that Visual Studio makes writing, navigating, and understanding Visual Basic code easier.
-ms.custom: [vs-acquisition, get-started]
+ms.custom: vs-acquisition, get-started
 ms.date: 09/14/2021
 ms.technology: vs-ide-general
 ms.topic: tutorial

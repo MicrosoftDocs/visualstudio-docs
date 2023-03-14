@@ -1,7 +1,6 @@
 ---
 title: Sending the Required Events | Microsoft Docs
 description: Learn about the ordered events that are required when creating a debug engine and attaching it to a program in Visual Studio debugging.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, U-SQL, IntelliSense
 description: Learn how to use the IntelliSense page in the U-SQL section to modify the text editor IntelliSense settings for U-SQL.
-ms.custom: SEO-VS-2020
 ms.date: 01/17/2019
 ms.topic: reference
 f1_keywords:

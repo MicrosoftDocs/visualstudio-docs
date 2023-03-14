@@ -1,7 +1,6 @@
 ---
 title: Miscellaneous files
 description: Learn how to work on files that are not included in a Visual Studio project or solution.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

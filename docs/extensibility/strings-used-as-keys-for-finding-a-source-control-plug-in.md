@@ -1,7 +1,6 @@
 ---
 title: Strings used as keys to find a source control plug-in
 description: Learn about the strings that are the keys for accessing the registry to find information about the Source Control plug-in.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

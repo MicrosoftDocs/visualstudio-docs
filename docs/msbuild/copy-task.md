@@ -1,7 +1,6 @@
 ---
 title: Copy Task | Microsoft Docs
 description: Learn how to use the MSBuild Copy task to copy files to a new file or folder location in the file system.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

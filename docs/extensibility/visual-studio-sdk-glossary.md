@@ -1,7 +1,6 @@
 ---
 title: Visual Studio SDK Glossary | Microsoft Docs
 description: This glossary provides definitions for terms that are used in the Visual Studio SDK documentation.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

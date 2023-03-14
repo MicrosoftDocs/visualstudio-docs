@@ -1,7 +1,6 @@
 ---
 title: Make Coded UI Tests Wait For Specific Events
 description: Learn how to instruct a coded UI test playback test to wait for certain events to occur, such as a window appearing or the progress bar disappearing.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 author: mikejo5000

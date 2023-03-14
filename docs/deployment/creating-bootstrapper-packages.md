@@ -1,7 +1,6 @@
 ---
 title: "Create bootstrapper packages"
 description: Learn about the Setup program and how to use XML manifests that specify the metadata to manage the installation of ClickOnce components.
-ms.custom: SEO-VS-2020
 ms.date: "05/02/2018"
 ms.topic: "conceptual"
 dev_langs:

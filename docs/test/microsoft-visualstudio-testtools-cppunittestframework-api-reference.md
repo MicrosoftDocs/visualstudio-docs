@@ -1,7 +1,6 @@
 ---
 title: "Microsoft.VisualStudio.TestTools.CppUnitTestFramework API"
 description: This article describes the CppUnitTestFramework members, which you can use to write C++ unit tests based on the Microsoft Native Unit Test Framework.
-ms.custom: SEO-VS-2020
 ms.date: 09/27/2019
 ms.topic: reference
 ms.author: twhitney

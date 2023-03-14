@@ -1,7 +1,6 @@
 ---
 title: Debug Package | Microsoft Docs
 description: Learn how the debug package runs in Visual Studio shell and handles UI by consuming the debugging interfaces and communicating with the session debug manager.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

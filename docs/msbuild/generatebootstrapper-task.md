@@ -1,7 +1,6 @@
 ---
 title: GenerateBootstrapper Task | Microsoft Docs
 description: Use the MSBuild GenerateBootstrapper task for an automated way to detect, download, and install an application and its prerequisites.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

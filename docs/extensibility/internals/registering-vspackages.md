@@ -1,7 +1,6 @@
 ---
 title: Registering VSPackages | Microsoft Docs
 description: A .pkgdef file has information that would otherwise be added to the system registry. Learn how Visual Studio uses .pkgdef files to describe/locate a VSPackage.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically use built-in dialog boxes in Word"
 description: Learn how you can use Visual Studio to programmatically use built-in dialog boxes in Microsoft Word.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

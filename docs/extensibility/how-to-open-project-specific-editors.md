@@ -1,7 +1,6 @@
 ---
 title: 'How to: Open Project-Specific Editors | Microsoft Docs'
 description: Learn how to implement the OpenItem method with a project-specific editor so that a project can open a file bound to an editor for that project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: GenerateDeploymentManifest Task | Microsoft Docs
 description: Learn to use the MSBuild GenerateDeploymentManifest task to generate a ClickOnce deployment manifest.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

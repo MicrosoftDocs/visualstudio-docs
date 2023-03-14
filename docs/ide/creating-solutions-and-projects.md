@@ -1,7 +1,7 @@
 ---
 title: "Create projects & solutions"
 description: Learn how to create and use Visual Studio solutions and projects to store artifacts.
-ms.custom: "SEO-VS-2020, contperf-fy21q2"
+ms.custom: "contperf-fy21q2"
 ms.date: 06/28/2022
 ms.topic: how-to
 f1_keywords:

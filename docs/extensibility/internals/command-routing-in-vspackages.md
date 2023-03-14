@@ -1,7 +1,6 @@
 ---
 title: Command Routing in VSPackages | Microsoft Docs
 description: Learn about command routing in VSPackages and how commands are routed based on the context in which they are executed in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

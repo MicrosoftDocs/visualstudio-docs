@@ -1,7 +1,6 @@
 ---
 title: Test-first development with Generate From Usage
 description: Learn how to incorporate the Test-first development approach through the use of the Generate From Usage feature.
-ms.custom: SEO-VS-2020
 ms.date: 10/09/2017
 dev_langs:
 - VB

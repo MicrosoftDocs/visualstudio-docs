@@ -1,7 +1,6 @@
 ---
 title: NotifyDebuggerOfWaitCompletion Method | Microsoft Docs
 description: Learn about the NotifyDebuggerOfWaitCompletion method, which is a placeholder used as a breakpoint target by the debugger.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

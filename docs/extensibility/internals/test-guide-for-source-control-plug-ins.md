@@ -1,7 +1,6 @@
 ---
 title: Test Guide for Source Control Plug-ins | Microsoft Docs
 description: Learn about testing your source control plug-in with Visual Studio. This overview includes common testing areas.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: overview
 helpviewer_keywords:

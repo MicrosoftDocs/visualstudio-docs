@@ -2,7 +2,6 @@
 description: "Allows (or disallows) expression evaluation to occur on the given thread, even if the program has stopped."
 title: IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
 titleSuffix: ""
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

@@ -2,7 +2,6 @@
 title: Extend Properties, Task List, Output, Options windows
 description: Learn how to integrate information about your tool window in Visual Studio into a new Options page and a new setting on the Properties page.
 ms.date: 11/04/2016
-ms.custom: SEO-VS-2020
 ms.topic: how-to
 helpviewer_keywords:
 - properties pane

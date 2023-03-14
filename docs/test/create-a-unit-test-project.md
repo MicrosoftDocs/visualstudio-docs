@@ -1,7 +1,7 @@
 ---
 title: Create a unit test project
 description: Learn how to create a unit test project. The test project can be in the same solution as the production code, or it can be in a separate solution.
-ms.custom: SEO-VS-2020, devdivchpfy22
+ms.custom: devdivchpfy22
 ms.date: 02/22/2023
 ms.topic: how-to
 ms.author: mikejo

@@ -1,7 +1,6 @@
 ---
 title: "Create external list in SharePoint using business data"
 description: Create a model for the BDC service that returns information about contacts in a business database, then make an external list in SharePoint using this model.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

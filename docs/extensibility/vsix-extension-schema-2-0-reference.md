@@ -1,7 +1,6 @@
 ---
 title: VSIX Extension Schema 2.0 Reference | Microsoft Docs
 description: The VSIX extension schema 2.0 defines the file format for a VSIX deployment manifest file, which describes the contents of a VSIX package.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

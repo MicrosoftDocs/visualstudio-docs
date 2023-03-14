@@ -1,7 +1,6 @@
 ---
 title: "Debugging Extensions for the SharePoint Tools in Visual Studio | Microsoft Docs"
 description: Debug extensions for the SharePoint tools in Visual Studio. Debug SharePoint tools extensions in the experimental instance or the regular instance of VS.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

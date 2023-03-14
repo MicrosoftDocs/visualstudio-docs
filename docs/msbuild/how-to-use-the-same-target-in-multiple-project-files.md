@@ -1,7 +1,6 @@
 ---
 title: 'How to: Use the Same Target in Multiple Project Files | Microsoft Docs'
 description: Learn how to save a target in an MSBuild project file and import it into any other project that needs to use the target.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

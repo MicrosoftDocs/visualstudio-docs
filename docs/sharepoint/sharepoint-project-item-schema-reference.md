@@ -1,7 +1,6 @@
 ---
 title: "SharePoint Project Item Schema Reference | Microsoft Docs"
 description: See an overview of the SharePoint project item XML schema reference (ProjectItemModelSchema.xsd), which is used to validate the contents of .spdata files.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

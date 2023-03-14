@@ -2,7 +2,6 @@
 title: "Create custom action project item with item template, part 2"
 titleSuffix: ""
 description: In this walkthrough, add a wizard to collect information from users when they use an item template to add a Custom Action project item on a SharePoint site.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 helpviewer_keywords:

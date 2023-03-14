@@ -2,7 +2,7 @@
 title: Enable or install first-party .NET analyzers
 ms.date: 01/13/2022
 description: Learn how to enable first-party .NET analyzers from the .NET SDK or install these analyzers as a NuGet package.
-ms.custom: SEO-VS-2020, devdivchpfy22
+ms.custom: devdivchpfy22
 ms.topic: how-to
 helpviewer_keywords:
   - .NET analyzers

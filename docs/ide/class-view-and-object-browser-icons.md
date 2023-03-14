@@ -1,7 +1,6 @@
 ---
 title: Class View and Object Browser Icons
 description: Learn about Class View and the Object Browser display icons that represent code entities, for example, namespaces, classes, functions, and variables.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

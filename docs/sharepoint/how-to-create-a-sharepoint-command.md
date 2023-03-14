@@ -1,7 +1,6 @@
 ---
 title: "How to: Create a SharePoint Command | Microsoft Docs"
 description: Learn how to create a custom SharePoint command to call the API of the server object model in a SharePoint tools extension.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

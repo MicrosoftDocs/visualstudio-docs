@@ -1,7 +1,6 @@
 ---
 title: Command Contracts in Interop Assemblies | Microsoft Docs
 description: Learn about the basic contract for handling commands through the Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget interface. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

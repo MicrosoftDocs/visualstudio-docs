@@ -1,7 +1,6 @@
 ---
 title: Enumerating Locals | Microsoft Docs
 description: Learn about the details of how Visual Studio uses IDebugProperty2::EnumChildren to populate the Locals window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

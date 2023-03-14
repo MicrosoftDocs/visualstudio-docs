@@ -2,7 +2,6 @@
 description: "Requests that the firewall not block remote debugging."
 title: IDebugFirewallConfigurationCallback2::EnsureDCOMUnblocked
 titleSuffix: ""
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

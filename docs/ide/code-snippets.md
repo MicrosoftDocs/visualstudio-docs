@@ -1,7 +1,6 @@
 ---
 title: Code snippets
 description: Learn about code snippets, which are small blocks of reusable code that you can insert into a code file.
-ms.custom: SEO-VS-2020
 ms.date: 12/14/2022
 ms.topic: conceptual
 f1_keywords:

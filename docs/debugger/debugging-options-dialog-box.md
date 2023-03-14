@@ -1,7 +1,6 @@
 ---
 title: "Debugging, Options Dialog Box | Microsoft Docs"
 description: Find links that describe the Options dialog box for general debugging, just-in-time debugging, output window debugging, and symbol debugging in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "ui-reference"
 dev_langs:

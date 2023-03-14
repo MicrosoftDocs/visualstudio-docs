@@ -1,7 +1,6 @@
 ---
 title: Authoring a Windows Installer Package | Microsoft Docs
 description: Learn how to author a Windows Installer package for Visual Studio that consists of database tables containing file and registry data.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

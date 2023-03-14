@@ -1,7 +1,6 @@
 ---
 title: Migrating a Legacy Language Service | Microsoft Docs
 description: Learn how to update a language service to the latest version of Visual Studio by updating the project and adding a source.extension.vsixmanifest file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

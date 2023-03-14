@@ -1,7 +1,6 @@
 ---
 title: "How to: Include a Custom Assembly in a BDC Feature | Microsoft Docs"
 description: Include custom assemblies in a business data connectivity (BDC) feature so that your project can reference assemblies from other projects in the same solution.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:

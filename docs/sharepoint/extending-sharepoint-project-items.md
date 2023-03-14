@@ -1,7 +1,6 @@
 ---
 title: "Extending SharePoint Project Items | Microsoft Docs"
 description: Review tasks for extending SharePoint project items. Understand how project item extensions and project item instances are related.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

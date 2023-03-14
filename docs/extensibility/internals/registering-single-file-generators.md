@@ -1,7 +1,6 @@
 ---
 title: Registering Single File Generators | Microsoft Docs
 description: Learn how to register a custom tool in Visual Studio to instantiate it and associate it with a particular project type.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Bind Windows Forms controls to data
 description: Bind Windows Forms controls to data in Visual Studio so that you can display data to users of your application.
-ms.custom: SEO-VS-2020
 ms.date: 11/03/2017
 ms.topic: how-to
 helpviewer_keywords:

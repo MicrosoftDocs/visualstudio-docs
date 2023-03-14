@@ -1,7 +1,6 @@
 ---
 title: "Windows View | Microsoft Docs"
 description: Windows View shows a tree of all windows and controls. Use it as a starting point to obtain information about windows of interest.
-ms.custom: SEO-VS-2020
 ms.date: "12/21/2022"
 ms.topic: "conceptual"
 f1_keywords:

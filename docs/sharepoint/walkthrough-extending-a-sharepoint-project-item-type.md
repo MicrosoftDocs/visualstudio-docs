@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Extending a SharePoint Project Item Type | Microsoft Docs"
 description: In this walkthrough, create an extension for a SharePoint project item type, such as the business data connectivity (BDC) model project item.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
