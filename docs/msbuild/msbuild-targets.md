@@ -116,7 +116,9 @@ Reference: 4.0
 
 ## Default build targets
 
-The following lists the public targets in Microsoft.Common.CurrentVersion.Targets. To get all targets available for a project file, use the `-targets` or `-ts` command-line option. See [MSBuild command line reference](msbuild-command-line-reference.md).
+The following lists the public targets in *Microsoft.Common.CurrentVersion.Targets*. To get all targets available for a project file, use the `-targets` or `-ts` command-line option. See [MSBuild command line reference](msbuild-command-line-reference.md).
+
+For a list of .NET SDK targets, see [Microsoft.NET.Publish.targets](https://github.com/dotnet/sdk/blob/main/src/Tasks/Microsoft.NET.Build.Tasks/targets/Microsoft.NET.Publish.targets). You can find this file in the .NET SDK installation folders.
 
 ```xml
 ===================================================
