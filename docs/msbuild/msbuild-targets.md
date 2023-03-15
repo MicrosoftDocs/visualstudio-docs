@@ -120,7 +120,7 @@ Some build targets depend on the SDK you're referencing, if any. To get all targ
 
 For a list of .NET SDK targets, see, for example, [Microsoft.NET.Publish.targets](https://github.com/dotnet/sdk/blob/main/src/Tasks/Microsoft.NET.Build.Tasks/targets/Microsoft.NET.Publish.targets). You can find this file in the .NET SDK installation folders. Other SDKs have similar `.targets` files that you browse.
 
-Some targets, the default targets, are part of the .NET build system and are referenced whether or not you specify an SDK. C++ projects have their own set of default targets. See [MSBuild internals for C++ projects](/cpp/build/reference/msbuild-visual-cpp-overview?view=msvc-170#targets).
+Some targets, the default targets, are part of the .NET build system and are referenced whether or not you specify an SDK. C++ projects have their own set of default targets. See [MSBuild internals for C++ projects](/cpp/build/reference/msbuild-visual-cpp-overview#targets).
 
 The following lists the public targets in *Microsoft.Common.CurrentVersion.Targets*:
 
