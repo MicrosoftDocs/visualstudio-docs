@@ -130,8 +130,8 @@ To deploy prerequisites for your application, you can create a bootstrapper pack
   </PackageFiles>
 
   <InstallChecks>
-    <MsiProductCheck Product="IsMsiInstalled"
-      Property="{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}"/>
+    <MsiProductCheck Property="IsMsiInstalled"
+      Product="{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}"/>
   </InstallChecks>
 
   <Commands>
