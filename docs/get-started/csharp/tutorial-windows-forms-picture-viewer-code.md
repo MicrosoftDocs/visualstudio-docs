@@ -9,9 +9,8 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.topic: tutorial
-ms.date: 01/05/2022
-ms.custom: 
-- vs-acquisition
+ms.date: 03/15/2023
+ms.custom: vs-acquisition
 ---
 # Tutorial: Add code to the picture viewer Windows Forms app in Visual Studio
 
