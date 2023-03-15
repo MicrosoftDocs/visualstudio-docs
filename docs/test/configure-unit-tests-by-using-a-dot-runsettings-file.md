@@ -323,7 +323,7 @@ These settings are specific to the test adapter that runs test methods that have
 |**DeploymentEnabled**|true|If you set the value to **false**, deployment items that you've specified in your test method aren't copied to the deployment directory.|
 |**CaptureTraceOutput**|true|You can write to the debug trace from your test method using <xref:System.Diagnostics.Trace.WriteLine%2A?displayProperty=nameWithType>.|
 |**EnableBaseClassTestMethodsFromOtherAssemblies**|true|A value indicating whether to enable discovery of test methods from base classes in a different assembly from the inheriting test class.|
-|**ClassCleanupLifecycle**|EndOfClass|If you want the class cleanup to occur at the end of assembly, set this to **EndOfAssembly**.|
+|**ClassCleanupLifecycle**|EndOfClass|If you want the class cleanup to occur at the end of assembly, set this to **EndOfAssembly**. (No longer supported starting from MSTest v4 as EndOfClass is the default and only [ClassCleanup](<xref:Microsoft.VisualStudio.TestTools.UnitTesting.ClassCleanupAttribute>) behavior)|
 |**MapNotRunnableToFailed**|true|A value indicating whether a not runnable result will be mapped to failed test.|
 |**Parallelize**||You will need to use it to set the parallelization settings:<br /><br />**Workers**: The number of threads/workers to be used for parallelization, which is by default **the number of processors on the current machine**.<br /><br />**SCOPE**: The scope of parallelization. You can set it to **MethodLevel**. By default, it's **ClassLevel**.<br /><br />`<Parallelize><Workers>32</Workers><Scope>MethodLevel</Scope></Parallelize>`|
 |**TestTimeout**|0|Gets specified global test case timeout.|
