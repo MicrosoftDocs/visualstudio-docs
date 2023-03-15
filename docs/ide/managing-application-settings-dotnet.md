@@ -1,6 +1,6 @@
 ---
 title: Manage application settings (.NET)
-description: Learn how to manage application settings (formerly called dynamic properties) that aren't included in the application code, but are needed at runtime.
+description: Learn how to manage application settings that aren't included in the application code but are needed at runtime.
 ms.date: 03/14/2023
 ms.topic: conceptual
 f1_keywords:
@@ -18,7 +18,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Application settings enable you to store application information dynamically. These settings allow you to store information on a client computer that shouldn't be included in the application code (a connection string, etc.), user preferences, and other information you need at runtime.
+Application settings enable you to store application information dynamically. By using application settings, you can store store information on a client computer that shouldn't be included in the application code at runtime. Application settings can include a connection strings, user preferences, and more.
 
 > [!NOTE]
 > Application settings replace the dynamic properties used in earlier versions of Visual Studio.
@@ -85,7 +85,7 @@ The values of any user-scoped settings that the user changes at runtime (for exa
 
 If any user-scoped settings are changed during runtime, for example in testing the application, and want to reset these settings to their default values, select the **Synchronize** button.
 
-We strongly recommend that you use the `My.Settings` object and the default *.settings* file to access settings. This is because you can use the **Settings Designer** to assign properties to settings, and, additionally, user settings are automatically saved before application shutdown. However, your Visual Basic application can access settings directly. In that case you have to access the `MySettings` class and use a custom *.settings* file in the root of the project. You must save the user settings before ending the application, as you would do for a C# application (as described in the following section).
+It's a recommended best practice to use the `My.Settings` object and the default *.settings* file to access settings. It's recommended because you can use the **Settings Designer** to assign properties to settings, and, additionally, user settings are automatically saved before application shutdown. However, your Visual Basic application can access settings directly. In that case you have to access the `MySettings` class and use a custom *.settings* file in the root of the project. You must save the user settings before ending the application, as you would do for a C# application (as described in the following section).
 
 <!-- markdownlint-disable MD003 MD020 -->
 ## Access or change application settings at runtime in C#
