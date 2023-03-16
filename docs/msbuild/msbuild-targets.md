@@ -116,13 +116,25 @@ Reference: 4.0
 
 ## SDK and default build targets
 
-Some build targets depend on the SDK you're referencing, if any. To get all targets available for a project file, use the `-targets` or `-ts` command-line option. See [MSBuild command line reference](msbuild-command-line-reference.md). The build system contains a large number of targets that are for internal use by the build, which are usually indicated with an underscore (_) at the beginning of the target name.
+Some build targets depend on the SDK you're referencing, if any. To get all targets available for a project file, use the `-targets` or `-ts` command-line option. See [MSBuild command line reference](msbuild-command-line-reference.md). The build system contains a large number of targets that are for internal use by the build, which are usually indicated with an underscore (_) at the beginning of the target name. To get a list of the public targets only, try piping the output to something that filters out the underscores. For example, in bash when working with `dotnet build`, you can do the following:
+
+```cli
+dotnet build -ts | grep -v '_'
+```
+
+In PowerShell, you can filter with:
+
+```powershell
+ dotnet build -ts | select-string -pattern '_' -NotMatch
+```
+
+As usual, you can also use `MSBuild.exe -ts` in place of `dotnet build -ts`, especially if you're not using .NET, followed by the same piping and filtering operations.
 
 For a list of .NET SDK targets, see, for example, [Microsoft.NET.Publish.targets](https://github.com/dotnet/sdk/blob/main/src/Tasks/Microsoft.NET.Build.Tasks/targets/Microsoft.NET.Publish.targets). You can find this file in the .NET SDK installation folders. Other SDKs have similar `.targets` files that you browse.
 
 Some targets, the default targets, are part of the .NET build system and are referenced whether or not you specify an SDK. C++ projects have their own set of default targets. See [MSBuild internals for C++ projects](/cpp/build/reference/msbuild-visual-cpp-overview#targets).
 
-The following lists the default public targets in .NET build system, from *Microsoft.Common.CurrentVersion.Targets*:
+The following list shows the default public targets in .NET build system, from *Microsoft.Common.CurrentVersion.Targets*:
 
 ```xml
 ===================================================
