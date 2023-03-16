@@ -128,7 +128,7 @@ In PowerShell, you can filter with:
  dotnet build -ts | select-string -pattern '_' -NotMatch
 ```
 
-As usual, you can also use `MSBuild.exe -ts` in place of `dotnet build -ts`, especially if you're not using .NET, followed by the same piping and filtering operations.
+If you're not using .NET, use `MSBuild.exe -ts` in place of `dotnet build -ts`, followed by the same piping and filtering operations.
 
 For a list of .NET SDK targets, see, for example, [Microsoft.NET.Publish.targets](https://github.com/dotnet/sdk/blob/main/src/Tasks/Microsoft.NET.Build.Tasks/targets/Microsoft.NET.Publish.targets). You can find this file in the .NET SDK installation folders. Other SDKs have similar `.targets` files that you browse.
 
