@@ -130,7 +130,7 @@ In PowerShell, you can filter with:
 
 If you're not using .NET, use `MSBuild.exe -ts` in place of `dotnet build -ts`, followed by the same piping and filtering operations.
 
-For a list of .NET SDK targets, see, for example, [Microsoft.NET.Publish.targets](https://github.com/dotnet/sdk/blob/main/src/Tasks/Microsoft.NET.Build.Tasks/targets/Microsoft.NET.Publish.targets). You can find this file in the .NET SDK installation folders. Other SDKs have similar `.targets` files that you browse.
+For a list of .NET SDK targets, see, for example, [Microsoft.NET.Publish.targets](https://github.com/dotnet/sdk/blob/main/src/Tasks/Microsoft.NET.Build.Tasks/targets/Microsoft.NET.Publish.targets). You can find this file in the .NET SDK installation folders. Other SDKs have similar `.targets` files in their installation folders that you can browse.
 
 Some targets, the default targets, are part of the .NET build system and are referenced whether or not you specify an SDK. C++ projects have their own set of default targets. See [MSBuild internals for C++ projects](/cpp/build/reference/msbuild-visual-cpp-overview#targets).
 
