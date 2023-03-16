@@ -1,12 +1,11 @@
 ---
 title: "Tutorial: Add math problems to a Windows Forms app"
 description: Learn how to use the Visual Studio IDE to add an event handler and random math problems to the math quiz Windows Forms app.
-ms.custom: 
-- vs-acquisition
+ms.custom: vs-acquisition
 dev_langs:
   - "CSharp"
   - "VB"
-ms.date: 01/20/2022
+ms.date: 03/15/2023
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
@@ -127,7 +126,7 @@ In this section, you add code to start the quiz when the start button is selecte
 
 1. In **Windows Forms Designer**, either double-click the **Start the quiz** button, or select it and then select **Enter**. The form's code appears, and a new method is visible.
 
-   These actions add a Click event handler to the start button. When a quiz taker selects this button, the app runs the code that you'll add to this new method.
+   These actions add a [*Click*](/dotnet/api/system.windows.forms.control.click) event handler to the start button. When a quiz taker selects this button, the app runs the code that you'll add to this new method.
 
 1. Add the following two statements so that the event handler starts the quiz.
 
