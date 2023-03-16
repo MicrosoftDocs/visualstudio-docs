@@ -18,7 +18,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Application settings enable you to store application information dynamically. By using application settings, you can store store information on a client computer that shouldn't be included in the application code at runtime. Application settings can include a connection strings, user preferences, and more.
+Application settings enable you to store application information dynamically. By using application settings, you can store information on a client computer that shouldn't be included in the application code at runtime. Application settings can include a connection strings, user preferences, and more.
 
 > [!NOTE]
 > Application settings replace the dynamic properties used in earlier versions of Visual Studio.
