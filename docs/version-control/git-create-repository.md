@@ -42,7 +42,7 @@ To follow this article, you'll need:
     Under **Initialize a local Git Repository**, you can use the **.gitignore template** option to specify any intentionally untracked files that you want Git to ignore. To learn more about .gitignore, see [Ignoring files](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files). And to learn more about licensing, see [Licensing a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
 
     > [!TIP]
-    > After you create your repo, you can update and change these settings whenever you want to. For detailed instructions, see [Git settings in Visual Studio](git-settings.md).
+    > You can update and change these settings whenever you want to. For detailed instructions, see [Git settings in Visual Studio](git-settings.md).
 
 1. After you sign in and enter your repo info, select the **Create and Push** button to create your repo and add your app.
 
