@@ -1,7 +1,7 @@
 ---
 title: Create a Git repo
 description: Create a repo in Visual Studio by using Git, or browse to an Azure DevOps repo.
-ms.date: 02/28/2023
+ms.date: 03/17/2023
 ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
