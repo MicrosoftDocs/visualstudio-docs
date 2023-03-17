@@ -9,9 +9,8 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.topic: tutorial
-ms.date: 01/07/2022
-ms.custom: 
-- vs-acquisition
+ms.date: 03/16/2023
+ms.custom: vs-acquisition
 ---
 # Tutorial: Add reference variables and a timer control to your matching game WinForms app
 
@@ -34,7 +33,7 @@ A timer hides the icons and controls how long to show the icons
 ## Prerequisites
 
 This tutorial builds on previous tutorials, [Create a matching game application](tutorial-windows-forms-create-match-game.md) and [Add icons to your matching game](tutorial-windows-forms-match-game-icons.md).
-Do those tutorials first.
+Complete those tutorials first.
 
 ## Add label references
 
@@ -70,8 +69,7 @@ They keep track of, or refer to Label objects.
 
    ![Screenshot shows the Matching Game showing one icon.](../media/tutorial-windows-forms-match-game-icons/match-game-start.png)
 
-   Only the first icon that's chosen turns black.
-   The other icons are invisible.
+   Only the first icon that's chosen appears. The other icons are invisible.
 
 The program is already keeping track of the first label that the player chose.
 The reference `firstClicked` isn't `null` in C# or `Nothing` in Visual Basic.
@@ -79,9 +77,9 @@ When your `if` statement finds that `firstClicked` isn't equal to `null` or `Not
 
 ## Add a timer
 
-The Matching Game uses a <xref:System.Windows.Forms.Timer> control the app.
+The Matching Game app uses a <xref:System.Windows.Forms.Timer> control.
 A timer waits, and then fires an event, referred to as a *tick*.
-A timer can start and action or repeat an action regularly.
+A timer can start an action or repeat an action regularly.
 
 In your program, the timer enables a player to choose two icons.
 If the icons don't match, it hides the two icons again after a short period of time.
@@ -110,31 +108,31 @@ If the icons don't match, it hides the two icons again after a short period of t
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step6/vb/form1.vb" id="Snippet7":::
    ---
 
-   The Tick event handler does three things:
-
-   - It makes sure the timer isn't running by calling the <xref:System.Windows.Forms.Timer.Stop> method.
-   - It uses two reference variables, `firstClicked` and `secondClicked`, to make the icons of the two labels that the player chose invisible again.
-   - It resets the `firstClicked` and `secondClicked` reference variables to `null` in C# and `Nothing` in Visual Basic.
+      The Tick event handler does three things:
+    
+      - It makes sure the timer isn't running by calling the <xref:System.Windows.Forms.Timer.Stop> method.
+      - It uses two reference variables, `firstClicked` and `secondClicked`, to make the icons of the two labels that the player chose invisible again.
+      - It resets the `firstClicked` and `secondClicked` reference variables to `null` in C# and `Nothing` in Visual Basic.
 
 1. Go to the code editor and add code to the top and bottom of the `label1_Click()` event handler method. 
    This code will check if the timer is enabled, set the `secondClicked` reference variable, and start the timer.
    The `label1_Click()` event handler method now looks as follows:
 
-   ### [C#](#tab/csharp)
-   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step6/cs/form1.cs" id="Snippet8":::
+### [C#](#tab/csharp)
+:::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step6/cs/form1.cs" id="Snippet8":::
 
-   ### [VB](#tab/vb)
-   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step6/vb/form1.vb" id="Snippet8":::
-   ---
+### [VB](#tab/vb)
+:::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step6/vb/form1.vb" id="Snippet8":::
+---
 
-   - The code at the top of the method checks whether the timer was started by checking the value of the **Enabled** property.
-     If the player chooses the first and second Label controls and the timer starts, choosing a third label won't do anything.
-
-   - The code at the bottom of the method sets the `secondClicked` reference variable to track the second Label control.
-     Then, it sets that label icon color to black to make it visible.
-     Then, it starts the timer in one-shot mode, so that it waits 750 milliseconds and then fires a single tick.
-     The timer's Tick event handler hides the two icons and resets the `firstClicked` and `secondClicked` reference variables.
-     The form is ready for the player to choose another pair of icons.
+      - The code at the top of the method checks whether the timer was started by checking the value of the **Enabled** property.
+         If the player chooses the first and second Label controls and the timer starts, choosing a third label won't do anything.
+    
+      - The code at the bottom of the method sets the `secondClicked` reference variable to track the second Label control.
+         Then, it sets that label icon color to black to make it visible.
+         Then, it starts the timer in one-shot mode, so that it waits 750 milliseconds and then fires a single tick.
+         The timer's Tick event handler hides the two icons and resets the `firstClicked` and `secondClicked` reference variables.
+         The form is ready for the player to choose another pair of icons.
 
    > [!NOTE]
    > If you copy and paste the `label1_Click()` code block rather than entering the code manually, be sure to replace the existing `label1_Click()` code.
