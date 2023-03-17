@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 6601c395-f778-48c1-ab76-cf454b9193e4
-ms.date: 09/28/2022
+ms.date: 03/17/2023
 ms.topic: conceptual
 description: Learn about the super admin and admin roles, and how to assign admins. 
 ---
@@ -13,16 +13,16 @@ description: Learn about the super admin and admin roles, and how to assign admi
 
 There are two different roles in the new Visual Studio Subscriptions Administration Portal for Volume Licensing customers, similar to the Primary/Notices Contact and Subscriptions Manager roles that previously existed in the Volume Licensing Service Center (VLSC).
 
-**Super admins:** When an organization is initially set up, the Primary or Notices Contact becomes a super admin by default. The Primary or Notices Contact can choose to assign additional super admins or admins. A super admin can add and remove other admins as well as subscribers. If there are more than two super admins in the system, a super-admin can delete all but the last two for security.
+**Super admins:** When an organization is initially set up, the Primary or Notices Contact becomes a super admin by default. The Primary or Notices Contact can choose to assign more super admins or admins. A super admin can add and remove other admins and subscribers. If there are more than two super admins in the system, a super-admin can delete all but the last two for security.  In addition to naming admins and managing subscribers, super admins can set global preferences for agreements.  
 
-**Admins:** An admin can only be assigned by a super admin. An admin can only manage subscribers in the agreements that the super admin assigns to them.
+**Admins:** Only super admins can assign new admins and add them to agreements. An admin can only manage subscribers in the agreements that the super admin assigns to them.
 
 Watch a demonstration about how to manage admins. 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4th6L]
 
 ## Assigning admins
 
-To assign new administrators (admins):
+To assign new admins:
 1. Sign in to https://manage.visualstudio.com using an email address that's assigned as a super admin on the agreement through which the subscriptions were purchased.
 0. Select the tab labeled **Manage Administrators**.
 0. Select **Add**.
