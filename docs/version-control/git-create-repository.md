@@ -35,12 +35,14 @@ To follow this article, you'll need:
 
 1. In the **Create a Git repository** dialog, under the **Push to a new remote** section, choose **GitHub**.
 
-1. In the **Create a new GitHub repository** section of the **Create a Git repository** dialog, enter the name of the repo you want to create.
+1. In the **Create a new GitHub repository** section of the **Create a Git repository** dialog, enter the name of the repo you want to create. (If you haven't yet signed in to your GitHub account, you can do so from this screen, too.)
 
     :::image type="content" source="../get-started/media/vs-2022/git-create-repo-dialog.png" alt-text="Screenshot of the Create Git Repository dialog in Visual Studio with the GitHub selection highlighted.":::
 
+    Under **Initialize a local Git Repository**, you can use the **.gitignore template** option to specify any intentionally untracked files that you want Git to ignore. To learn more about .gitignore, see [Ignoring files](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files). And to learn more about licensing, see [Licensing a repository](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
+
     > [!TIP]
-    > If you haven't yet signed in to your GitHub account, you can do so from this screen, too.
+    > After you create your repo, you can update and change these settings whenever you want to. For detailed instructions, see [Git settings in Visual Studio](git-settings.md).
 
 1. After you sign in and enter your repo info, select the **Create and Push** button to create your repo and add your app.
 
