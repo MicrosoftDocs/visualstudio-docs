@@ -1,25 +1,25 @@
 ---
-title: Pre-production inventory in Visual Studio subscription  | Visual Studio Marketplace
+title: Preproduction inventory in Visual Studio subscription  | Visual Studio Marketplace
 author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 7d74e113-8fb2-490e-8502-48cce7b1327a
-ms.date: 07/06/2022
+ms.date: 03/17/2023
 ms.topic: conceptual
-description:  Learn about admins' responsibility to conduct pre-production inventories
+description:  Learn about admins' responsibility to conduct preproduction inventories
 ---
 
-# Inventory of pre-production environment
+# Inventory of preproduction environment
 
 Visual Studio subscriptions simplify asset management by counting users rather than devices.
 
-Visual Studio admins must assign Visual Studio Subscriptions to **specific, named individuals**. Naming conventions such as Dev1, Dev2, or the use of team names such as "FeatureTeam" are **not allowed**.
+Visual Studio admins must assign Visual Studio Subscriptions to **specific, named individuals**. Names that don't identify individual subscribers such as Dev1, Dev2, or the use of team names such as "FeatureTeam" are **not allowed**.
 
-Here are some ways to simplify taking inventory of your pre-production environment:
-+ Review your user assignments. Microsoft provides a website called the [Visual Studio Administration Portal](https://manage.visualstudio.com/) to help you track Visual Studio subscription assignments.
-+ Use your on-premise or cloud-based Active Directory to list users. If you use Active Directory to manage user access, you may be able to identify development and test users by their directory membership.
-+ Use automated tools to inventory systems. You may also need to use a software inventory tool to help manage your software assets and distinguish pre-production environments from production ones. Many customers with Microsoft System Center create naming conventions to help automate this part of the inventory process.
-+ Get help with manual reconciliation. Enlist your staff to help reconcile your development and test users with your development and test environment.
+Here are some ways to simplify taking inventory of your preproduction environment:
++ Review your user assignments. Microsoft provides a website called the [Visual Studio Administration Portal](https://manage.visualstudio.com/) to help you manage and track Visual Studio subscription assignments.
++ Use your on-premises or cloud-based Active Directory to list users. If you use Active Directory to manage user access, you may be able to identify development and test users by their directory membership.
++ Use automated tools to inventory systems. You may also need to use a software inventory tool to help manage your software assets and distinguish preproduction environments from production ones. Many customers with Microsoft System Center create naming conventions to help automate this part of the inventory process.
++ Get help with manual reconciliation. Enlist your staff to help reconcile your dev/test users with your development and test environment.
 
 > [!NOTE]
 > Visual Studio subscriptions software is not licensed for production environments, including any environment accessed by end users for more than acceptance testing or feedback, an environment connecting to a production database, supporting disaster recovery or production backup, or used for production during peak periods of activity. Exceptions to this include specific benefits for certain subscription levels, outlined in the [Visual Studio Licensing White Paper](https://aka.ms/vslicensing).  
@@ -33,7 +33,7 @@ Here are some ways to simplify taking inventory of your pre-production environme
 ## See also
 
 + [Visual Studio documentation](/visualstudio/)
-+ [Azure DevOps documentation](/azure/devops/)
++ [Azure DevOps Services documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
 
