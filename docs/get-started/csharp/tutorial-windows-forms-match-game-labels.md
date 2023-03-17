@@ -101,18 +101,18 @@ If the icons don't match, it hides the two icons again after a short period of t
    The IDE adds an empty Tick event handler.
    Replace the code with the following code.
 
-   ### [C#](#tab/csharp)
-   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step6/cs/form1.cs" id="Snippet7":::
+### [C#](#tab/csharp)
+:::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step6/cs/form1.cs" id="Snippet7":::
 
-   ### [VB](#tab/vb)
-   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step6/vb/form1.vb" id="Snippet7":::
-   ---
+### [VB](#tab/vb)
+:::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step6/vb/form1.vb" id="Snippet7":::
+---
 
-      The Tick event handler does three things:
+   The Tick event handler does three things:
     
-      - It makes sure the timer isn't running by calling the <xref:System.Windows.Forms.Timer.Stop> method.
-      - It uses two reference variables, `firstClicked` and `secondClicked`, to make the icons of the two labels that the player chose invisible again.
-      - It resets the `firstClicked` and `secondClicked` reference variables to `null` in C# and `Nothing` in Visual Basic.
+   - It makes sure the timer isn't running by calling the <xref:System.Windows.Forms.Timer.Stop> method.
+   - It uses two reference variables, `firstClicked` and `secondClicked`, to make the icons of the two labels that the player chose invisible again.
+   - It resets the `firstClicked` and `secondClicked` reference variables to `null` in C# and `Nothing` in Visual Basic.
 
 1. Go to the code editor and add code to the top and bottom of the `label1_Click()` event handler method. 
    This code will check if the timer is enabled, set the `secondClicked` reference variable, and start the timer.
@@ -125,14 +125,13 @@ If the icons don't match, it hides the two icons again after a short period of t
 :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step6/vb/form1.vb" id="Snippet8":::
 ---
 
-      - The code at the top of the method checks whether the timer was started by checking the value of the **Enabled** property.
-         If the player chooses the first and second Label controls and the timer starts, choosing a third label won't do anything.
-    
-      - The code at the bottom of the method sets the `secondClicked` reference variable to track the second Label control.
-         Then, it sets that label icon color to black to make it visible.
-         Then, it starts the timer in one-shot mode, so that it waits 750 milliseconds and then fires a single tick.
-         The timer's Tick event handler hides the two icons and resets the `firstClicked` and `secondClicked` reference variables.
-         The form is ready for the player to choose another pair of icons.
+   - The code at the top of the method checks whether the timer was started by checking the value of the **Enabled** property.
+   If the player chooses the first and second Label controls and the timer starts, choosing a third label won't do anything.
+   - The code at the bottom of the method sets the `secondClicked` reference variable to track the second Label control.
+   Then, it sets that label icon color to black to make it visible.
+   Then, it starts the timer in one-shot mode, so that it waits 750 milliseconds and then fires a single tick.
+   The timer's Tick event handler hides the two icons and resets the `firstClicked` and `secondClicked` reference variables.
+   The form is ready for the player to choose another pair of icons.
 
    > [!NOTE]
    > If you copy and paste the `label1_Click()` code block rather than entering the code manually, be sure to replace the existing `label1_Click()` code.
