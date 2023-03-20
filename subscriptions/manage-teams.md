@@ -4,28 +4,29 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 3fc57f5f-2446-4774-9f8f-98ea1340f6b2
-ms.date: 07/11/2022
+ms.date: 03/17/2023
 ms.topic: conceptual
-description:  Learn about admins' responsibility to manage subscriptions for large teams as well as external contractors.
+description:  Learn about admins' responsibility to manage subscriptions for large teams and external contractors.
 ---
 
 # Large teams and external contractors
 
-Visual Studio subscriptions admins are responsible for ensuring that each user who interacts with Visual Studio-licensed software is appropriately licensed with their own Visual Studio subscription.
+Visual Studio subscriptions admins are responsible for ensuring that each user who interacts with Visual Studio-licensed software is appropriately licensed with their own Visual Studio subscription.  Subscriptions may not be assigned to teams, groups, or labs.  
 
 ## Internal teams
 
 Typically, modern software organizations include stakeholders from several groups. Identify contacts from each group who can help you keep track of user inventory and changes.
+
 Every organization is different, but a typical list of teams involved in development might include:
 + Software engineering teams.
 + Business teams, including product owners and business analysts.
 + Project management teams.
 + Quality teams, including QA staff and manual testers.
-+ IT operations, including pre-production and lab infrastructure managers.
++ IT operations, including preproduction and lab infrastructure managers.
 
 ## External contractors and partners
 
-External contractors may bring licenses to engage with your Visual Studio-licensed environment. Microsoft Certified Partners may receive a few free Visual Studio subscriptions for their internal use. However, these subscriptions do not cover revenue-generating activities such as developing custom software for a customer. Ask partners to send you a certified letter that explains the licenses they are providing and ones they need you to procure.
+External contractors may bring licenses to engage with your Visual Studio-licensed environment. Microsoft Certified Partners may receive a few free Visual Studio subscriptions for their internal use. However, these subscriptions don't cover revenue-generating activities such as developing custom software for a customer. Ask partners to send you a certified letter that explains the licenses they're providing and ones they need you to procure.
 
 ## Resources
 
@@ -36,7 +37,7 @@ External contractors may bring licenses to engage with your Visual Studio-licens
 ## See also
 
 + [Visual Studio documentation](/visualstudio/)
-+ [Azure DevOps documentation](/azure/devops/)
++ [Azure DevOps Services documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
 
@@ -44,6 +45,6 @@ External contractors may bring licenses to engage with your Visual Studio-licens
 
 Learn more about responsibilities for admins:
 + [Admin responsibilities](admin-responsibilities.md)
-+ [Inventory of pre-production environment](admin-inventory.md)
++ [Inventory of preproduction environment](admin-inventory.md)
 + [Track user assignments and process orders](assignments-orders.md)
 + Use [Maximum Usage](maximum-usage.md) to track purchase commitments

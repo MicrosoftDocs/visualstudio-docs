@@ -1,7 +1,7 @@
 ---
 title: "Learn about the Text Spell Checker (Preview)"
 description: Learn how to use the Text Spell Checker to correct misspelled words in multiple languages and to customize it to share with your dev team.
-ms.date: 02/23/2023
+ms.date: 03/17/2023
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -20,7 +20,7 @@ Many of the features in Visual Studio are designed to help you write the code yo
 :::image type="content" source="media/vs-2022/text-spell-checker.png" alt-text="Screenshot of an example of the Text Spell Checker in action.":::
 
 > [!IMPORTANT]
-> This feature is still in development. It's available now in Visual Studio 2022 version 17.5, but it'll be refined in future Preview releases.
+> This feature is still in development. It's available now in Visual Studio 2022 version 17.5, but it'll be refined in future Preview releases. For the latest update, see the [**Improving the Spell Checker**](https://devblogs.microsoft.com/visualstudio/improving-the-spell-checker/) post on the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/).
 
 Visual Studio automatically toggles on the Text Spell Checker feature with any C#, C++, or Markdown file. Visual Studio marks any words that it detects as misspelled words. Visual Studio also suggests alternate spellings and helps correct them. The feature even does a contextual rename when those misspellings are identifiers so that your code still compiles.
 
@@ -91,3 +91,7 @@ Here are some examples and use-case scenarios of the switches you can configure 
 
     > [!IMPORTANT]
     > The exclusion.dic file must be UTF16 with BOM encoding to work correctly.
+
+## See also
+
+- [Improving the Spell Checker](https://devblogs.microsoft.com/visualstudio/improving-the-spell-checker/)

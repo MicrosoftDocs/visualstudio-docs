@@ -9,9 +9,8 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.topic: tutorial
-ms.date: 01/05/2022
-ms.custom: 
-- vs-acquisition
+ms.date: 03/15/2023
+ms.custom: vs-acquisition
 ---
 # Tutorial: Add code to the picture viewer Windows Forms app in Visual Studio
 
@@ -59,7 +58,7 @@ Your application calls an event handler when an action takes place, such as sele
 
    ### [C#](#tab/csharp)
    ```csharp
-   private void ShowButton_Click(object sender, EventArgs e)
+   private void showButton_Click(object sender, EventArgs e)
    {
    }
    ```
@@ -124,10 +123,10 @@ As you type, IntelliSense suggests possible code.
 
 1. Type a period (`.`) or *dot*, right after **openFileDialog1**.
    IntelliSense provides all of the **OpenFileDialog** component's properties and methods.
-   Start to type `ShowDialog` and select **Tab**
+   Start to type `ShowDialog` and select **Tab**.
    The `ShowDialog()` method will show the **Open File** dialog box.
 
-1. Add parentheses immediately after the "g" in `ShowDialog`: `()`.
+1. Add parentheses `()` immediately after the "g" in `ShowDialog`.
    Your code should be `openFileDialog1.ShowDialog()`.
 
 1. For C#, add a space, and then add two equal signs (`==`). For Visual Basic, add a space, and then use a single equal sign (`=`).
@@ -321,7 +320,7 @@ You've completed this series of tutorials.
 You've done these programming and design tasks in the Visual Studio IDE:
 
 - Created a Visual Studio project that uses Windows Forms
-- Done layout for the picture viewing application
+- Added layout for the picture viewing application
 - Added buttons and a checkbox
 - Added dialog boxes
 - Added event handlers for your controls
