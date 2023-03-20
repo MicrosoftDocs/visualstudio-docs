@@ -215,6 +215,68 @@ is not allowed.
 
 For more information about property functions, see [Property functions](../msbuild/property-functions.md).
 
+## Item batching on self-referencing metadata
+
+Considering the following example of referencing metadata from within the item definition:
+
+```xml
+<ItemGroup>
+  <i Include='a/b.foo' MyPath='%(Filename)%(Extension)' />
+  <i Include='c/d.foo' MyPath='%(Filename)%(Extension)' />
+  <i Include='g/h.foo' MyPath='%(Filename)%(Extension)' />
+</ItemGroup>
+```
+
+it's important to note that the behavior differs when defined outside of any target and within target.
+
+### Item Self-referencing metadata outside of any target
+
+```xml
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <i Include='a/b.foo' MyPath='%(Filename)%(Extension)' />
+    <i Include='c/d.foo' MyPath='%(Filename)%(Extension)' />
+    <i Include='g/h.foo' MyPath='%(Filename)%(Extension)' />
+  </ItemGroup>
+  <Target Name='ItemOutside'>
+    <Message Text="i=[@(i)]" Importance='High' />
+    <Message Text="i->MyPath=[@(i->'%(MyPath)')]" Importance='High' />
+  </Target>
+</Project>
+```
+
+Metadata referencing is resolved per item instance - leading to expecting output:
+
+```output
+  i=[a/b.foo;c/d.foo;g/h.foo]
+  i->MyPath=[b.foo;d.foo;h.foo]
+```
+
+### Item Self-referencing metadata inside of a target
+
+```xml
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name='ItemOutside'>  
+    <ItemGroup>
+      <i Include='a/b.foo' MyPath='%(Filename)%(Extension)' />
+      <i Include='c/d.foo' MyPath='%(Filename)%(Extension)' />
+      <i Include='g/h.foo' MyPath='%(Filename)%(Extension)' />
+    </ItemGroup>
+    <Message Text="i=[@(i)]" Importance='High' />
+    <Message Text="i->MyPath=[@(i->'%(MyPath)')]" Importance='High' />
+  </Target>
+</Project>
+```
+
+Metadata referencing here leaves to batching - leading to possibly unexpected and inintended output:
+
+```output
+  i=[a/b.foo;c/d.foo;g/h.foo;g/h.foo]
+  i->MyPath=[;b.foo;b.foo;d.foo]
+```
+
+For each item instance engine is applying metadata of all pre-existing item instances (that's why `MyPath` is empty for first item and contains `b.foo` for second item), in case of more pre-existing instances this will lead to multiplication of current item instance (that's why `g/h.foo` item ocurring twice in the resulting list).
+
 ## See also
 
 - [ItemMetadata element (MSBuild)](../msbuild/itemmetadata-element-msbuild.md)
