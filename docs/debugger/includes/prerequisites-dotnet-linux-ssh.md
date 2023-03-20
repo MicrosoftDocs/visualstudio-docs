@@ -10,8 +10,6 @@
  ms.custom: include file
 ---
 
-- On the Visual Studio computer, you need to install either the **ASP.NET and web development** workload or the **.NET Core cross-platform development** workload.
-
 - On the Linux server, you need to install SSH server, unzip and install with either curl or wget. For example, on Ubuntu you can do that by running:
 
   ``` cmd
