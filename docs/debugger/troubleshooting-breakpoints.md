@@ -47,7 +47,7 @@ Go to the **Modules** window (**Debug** > **Windows** > **Modules**) and check w
 
 ### Warning: `… the current source code is different from the version built into...`
 
-If a source file has changed and the source no longer matches the code you're debugging, the debugger won't set breakpoints in the code by default. Normally, this problem happens when a source file is changed, but the source code wasn't rebuilt. To fix this issue, rebuild the project. If the build system thinks the project is already up-to-date even though it isn't, you can force the project system to rebuild. Rebuild the project either by saving the source file again or by cleaning the build output before building.
+If a source file has changed and the source no longer matches the code you're debugging, the debugger cannot set breakpoints in the code by default. Normally, this problem happens when a source file is changed, but the source code wasn't rebuilt. To fix this issue, rebuild the project. If the build system thinks the project is already up-to-date even though it isn't, you can force the project system to rebuild. Rebuild the project either by saving the source file again or by cleaning the build output before building.
 
 In rare scenarios, you may want to debug without having matching source code. Debugging without matching source code can lead to a confusing debugging experience, so make sure how you want to continue.
 
@@ -58,9 +58,7 @@ Follow one of the options to disable these safety checks:
 
 ## The breakpoint didn't hit
 
-If your breakpoint was successfully set, meaning no warning was issued, but breakpoint didn't get hit when you ran the code, you can check the following: 
-
-Here are a few things to check:
+If your breakpoint was successfully set, meaning no warning was issued, but breakpoint didn't get hit when you ran the code, check the following list: 
 
 1. If your code runs in more than one process or more than one computer, make sure that you're debugging the right process or computer.
 2. Confirm that your code is running. To test that your code is running, add a call to `System.Diagnostics.Debugger.Break` (C#/VB) or `__debugbreak` (C++) to the line of code where you're trying to set the breakpoint and then rebuild your project.
@@ -74,11 +72,11 @@ If you deleted a breakpoint while debugging, you may hit the breakpoint again th
 
 ## Diagnose C# data breakpoints: "Unable to set data breakpoint" errors
 
-In this section, you'll find explanations, solutions, and workarounds for "Unable to set data breakpoint errors" that occur when using "Break when Value Changes".
+In this section, find the explanations, solutions, and workarounds for "Unable to set data breakpoint errors" that occur when using "Break when Value Changes".
 > [!IMPORTANT]
 > Managed Data Breakpoints is supported in .NET Core 3.0 and up and .NET 5.0.3 and up. You can download the latest [here](https://dotnet.microsoft.com/download).
 
-Below is a list of errors that may occur when using managed data breakpoints. They contain more explanation on why the error is happening and possible solutions or workarounds to resolve the error.
+The following list of errors may occur when using managed data breakpoints. They contain more explanation on why the error is happening and possible solutions or workarounds to resolve the error.
 
 - *"The version of .NET used by the target process does not support data breakpoints. Data breakpoints require .NET Core 3.x or .NET 5.0.3+, running on x86 or x64."*
 
@@ -88,11 +86,11 @@ Below is a list of errors that may occur when using managed data breakpoints. Th
 
 - *"The value cannot be found on the managed heap and cannot be tracked."*
   - Variable declared on the stack.
-    - We do not support setting data breakpoints for variables created on the stack since this variable will be invalid once the function exits.
+    - We do not support setting data breakpoints for variables created on the stack since this variable would be invalid once the function exits.
     - **Workaround**: Set breakpoints on lines where the variable is used.
 
   - "Break when Value changes" on a variable that is not expanded from a dropdown.
-    - The debugger internally needs to know the object containing the field you want to track. The Garbage Collector may move your object around in the heap so the debugger will need to know the object that is holding the variable you wish to track. 
+    - The debugger internally needs to know the object containing the field you want to track. The Garbage Collector may move your object around in the heap so the debugger needs to know the object that is holding the variable you wish to track. 
     - **Workaround**: If you are in a method within the object you wish to set a data breakpoint on, go up one frame and use the `locals/autos/watch` window to expand the object and set a data breakpoint the field you want.
 
 - *"Data Breakpoints are not supported for static fields or static properties."*
@@ -109,7 +107,7 @@ Below is a list of errors that may occur when using managed data breakpoints. Th
 
 - *"The property is dependent on more memory than can be tracked by the hardware."*
     
-  - Each architecture has a set number of bytes and hardware data breakpoints that it can support and the property that you wish to set a data breakpoint on has exceeded that limit. Please refer to the [Data Breakpoint Hardware Limitations](#data-breakpoint-hardware-limitations) table to find out how many hardware supported data breakpoints and bytes are available for the architecture you are using. 
+  - Each architecture has a set number of bytes and hardware data breakpoints that it can support and the property that you wish to set a data breakpoint on has exceeded that limit. Refer to the [Data Breakpoint Hardware Limitations](#data-breakpoint-hardware-limitations) table to find out how many hardware supported data breakpoints and bytes are available for the architecture you are using. 
   - **Workaround**: Set a data breakpoint on a value that may change within the property.
 
 - *"Data Breakpoints are not supported when using the legacy C# expression evaluator."*
@@ -120,11 +118,11 @@ Below is a list of errors that may occur when using managed data breakpoints. Th
 - *"Class **X** has a custom debugger view that blocks using data breakpoints on data specific only to it."*
   
   - Data breakpoints are only supported on memory that is created by the target process (the application that is being debugged). The memory that the data breakpoint is being set on has been flagged as possibly being owned by an object created by a [DebuggerTypeProxy attribute](using-debuggertypeproxy-attribute.md) or something else that isn't part of the target process.
-  - **Workaround**: Expand the "Raw View" of the object(s) instead of expanding the DebuggerTypeProxy view of the object(s), and then set the data breakpoint. This will guarantee that the data breakpoint isn't on memory owned by an object created by a DebuggerTypeProxy attribute.
+  - **Workaround**: Expand the "Raw View" of the object(s) instead of expanding the DebuggerTypeProxy view of the object(s), and then set the data breakpoint. Doing so guarantees that the data breakpoint isn't on memory owned by an object created by a DebuggerTypeProxy attribute.
 
 ## Data breakpoint hardware limitations
 
-The architecture (platform configuration) that your program runs on has a limited number of hardware data breakpoints it can use. The table below indicates how many registers are available to use per architecture.
+The architecture (platform configuration) that your program runs on has a limited number of hardware data breakpoints it can use. The following table indicates how many registers are available to use per architecture.
 
 | Architecture | Number of hardware supported data breakpoints | Max byte size|
 | :-------------: |:-------------:| :-------------:|
