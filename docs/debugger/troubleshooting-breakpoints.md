@@ -72,7 +72,7 @@ Here are a few things to check:
 If you deleted a breakpoint while debugging, you may hit the breakpoint again the next time you start debugging. To stop hitting this breakpoint, make sure all the instances of the breakpoint are removed from the **Breakpoints** window.
 
 
-## Diagnose data breakpoints: "Unable to set data breakpoint" errors
+## Diagnose C# data breakpoints: "Unable to set data breakpoint" errors
 
 In this section, you'll find explanations, solutions, and workarounds for "Unable to set data breakpoint errors" that occur when using "Break when Value Changes".
 > [!IMPORTANT]
