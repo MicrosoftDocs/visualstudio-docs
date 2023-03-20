@@ -95,11 +95,11 @@ The following list of errors may occur when using managed data breakpoints. They
 
 - *"Data Breakpoints are not supported for static fields or static properties."*
     
-  - Static fields and properties are not supported at the moment. 
+  - Static fields and properties are not supported. 
 
 - *"Fields and properties of structs cannot be tracked."*
 
-  - Fields and properties of structs are not supported at the moment.
+  - Fields and properties of structs are not supported.
 
 - *"The property value has changed and can no longer be tracked."*
 
