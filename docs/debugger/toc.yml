@@ -111,7 +111,7 @@
       - name: Write and debug running XAML code
         href: ../xaml-tools/xaml-hot-reload.md?toc=/visualstudio/debugger/toc.json
       - name: Troubleshooting XAML Hot Reload
-        href: ../xaml-tools/xaml-hot-reload-troubleshooting.md?toc=/visualstudio/debugger/toc.json
+        href: ../xaml-tools//troubleshoot/developer/visualstudio/tools-utilities/xaml-hot-reload-troubleshooting?toc=/visualstudio/debugger/toc.json
     - name: Edit and Continue not supported for F#
       href: edit-and-continue-not-supported-for-f-hash.md
     - name: Edit code and continue debugging
@@ -297,7 +297,7 @@
     - name: Unblock the download on Windows Server
       href: remote-debugging-unblock-file-download.md
     - name: Troubleshoot remote debugging
-      href: troubleshooting-remote-debugging.md
+      href: /troubleshoot/developer/visualstudio/debuggers/troubleshooting-remote-debugging?toc=%2Fvisualstudio%2Fdebugger%2Ftoc.json
     - name: Remote debugging error reference
       items:
       - name: Remote debugging errors and troubleshooting
@@ -429,7 +429,7 @@
     - name: FAQ for snapshot debugging
       href: debug-live-azure-apps-faq.yml
     - name: Troubleshooting snapshot debugging
-      href: debug-live-azure-apps-troubleshooting.md
+      href: /troubleshoot/developer/visualstudio/debuggers/debug-live-azure-apps-troubleshooting?toc=%2Fvisualstudio%2Fdebugger%2Ftoc.json
     - name: Time travel debugging for live Azure VM apps
       href: debug-live-azure-virtual-machines-time-travel-debugging.md
   - name: Linux debugging
