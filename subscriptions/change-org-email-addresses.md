@@ -4,14 +4,14 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: bda8772c-cc0b-4949-8419-1084331cc54b
-ms.date: 07/08/2022
+ms.date: 03/21/2023
 ms.topic: how-to
 description:  Learn what to do if your email domain changes to ensure uninterrupted access to the admin portal and subscriptions. 
 ---
 
 # What happens when your organization’s name or email domain changes
 
-In today's fast moving business climate, organizations can undergo important changes.  Mergers, acquisitions, spin-offs, and rebranding can all cause the names of organizations and their tenants and domains to change.  Changes to email addresses can impact the ability of both subscribers and admins to access Visual Studio subscriptions.  For instance, if you're an admin and your email address changes, you won't be able to log into the admin portal with your new address.  Follow the steps in this article to ensure you have continued access to your subscriptions when organization name changes occur. 
+In today's fast moving business climate, organizations can undergo important changes.  Mergers, acquisitions, spin-offs, and rebranding can all cause the names of organizations and their tenants and domains to change.  Changes to email addresses can affect the ability of both subscribers and admins to access Visual Studio subscriptions.  For instance, if you're an admin and your email address changes, you can't log into the admin portal with your new address.  Follow the steps in this article to ensure you have continued access to your subscriptions when organization name changes occur. 
 
 ## What to do if your organization's email addresses change
 
@@ -36,7 +36,7 @@ Perform these steps **AFTER** the subscribers' email addresses have changed.
 1. Sign in to the admin portal.
 0. Select **Manage subscribers**.
 0. For subscriptions listed individually in the subscriber list, use the [bulk add](assign-license-bulk.md) feature to update all your subscribers easily.  
-0. For subscriptions assigned to members of an Azure Active Directory (AD) group, there are no actions to take in the admin portal.  When their email addresses are updated in the Azure AD group, their subscriptions will be automatically updated in the admin portal. 
+0. For subscriptions assigned to members of an Azure Active Directory (AD) group, there are no actions to take in the admin portal.  When their email addresses are updated in the Azure AD group, their subscriptions are automatically updated in the admin portal. 
 
 ## Resources
 
