@@ -126,16 +126,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/debugger/troubleshoot-data-breakpoint-errors.md",
-      "redirect_url": "visualstudio/debugger/troubleshooting-breakpoints",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/sharepoint/additional-information-for-sharepoint-errors.md",
-      "redirect_url": "visualstudio/sharepoint/troubleshooting-sharepoint-solutions",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/data-tools/upgrade-dot-mdf-files.md",
       "redirect_url": "/visualstudio/data-tools/add-new-connections",
       "redirect_document_id": false
