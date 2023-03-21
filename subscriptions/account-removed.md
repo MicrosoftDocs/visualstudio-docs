@@ -15,7 +15,7 @@ In the **Recent changes** section of the Dashboard on the [admin portal](https:/
 
 ## Why an account may be removed.  
 + Subscribers request closure of their Microsoft accounts. If a subscriber requests closure of a Microsoft account (MSA) that is used to sign in to their subscription, the subscription is removed when the MSA is closed. For more information including important things to consider before closing an account, see [How to close your Microsoft account](https://support.microsoft.com/account-billing/how-to-close-your-microsoft-account-c1b2d13f-4de6-6e1b-4a31-d9d668849979).
-+ Subscribers are removed from Azure Active Directory tenant.  Subscriptions can automatically assigned subscriptions through an Azure Active Directory group.  When they are removed from the group, their subscriptions are removed.
++ Subscribers are removed from Azure Active Directory tenant.  Subscriptions can automatically assign subscriptions through an Azure Active Directory group.  When they are removed from the group, their subscriptions are removed.
 
 ## What happens when the account is closed?
 
