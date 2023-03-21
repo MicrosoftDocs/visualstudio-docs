@@ -43,7 +43,7 @@
     - name: Use breakpoints
       href: using-breakpoints.md
     - name: Troubleshooting breakpoints
-      href: troubleshooting-breakpoints.md
+      href: /troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints?toc=%252fvisualstudio%252fdebugger%252ftoc.json
   - name: Data inspection
     items:
     - name: Inspect data in debugger windows
