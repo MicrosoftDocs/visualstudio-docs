@@ -22,10 +22,7 @@ ms.workload:
 The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnostic data for your apps on production servers or other environments without installing Visual Studio on the target machine and without changing the target system's environment. The IntelliTrace stand-alone collector works on web, SharePoint, WPF and Windows Forms apps. When you're done collecting data, just delete the collector to uninstall it.
 
 > [!NOTE]
-> You can also collect the same IntelliTrace data for web and SharePoint apps running on remote machines by using the **Microsoft Monitoring Agent** in **Trace** mode.
->
-> You can collect performance-related events in the IntelliTrace data by running the agent in **Monitor** mode. **Monitor** mode has less of a performance impact than **Trace** mode or the **IntelliTrace stand-alone collector**. Microsoft Monitoring Agent does alter the target system's environment when it is installed. See [Using the Microsoft Monitoring Agent](../debugger/using-the-microsoft-monitoring-agent.md).
-> The IntelliTrace stand-alone collector does not support Process Snapshots.
+> For recommended approaches to diagnosing issues on production servers, see [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md).
 
  **Requirements**
 

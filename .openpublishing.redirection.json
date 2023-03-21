@@ -3046,6 +3046,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/using-the-microsoft-monitoring-agent.md",
+      "redirect_url": "/windows/uwp/diagnose-problems-after-deployment",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/deploy-windows-store-apps-from-visual-studio.md",
       "redirect_url": "/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps",
       "redirect_document_id": false
