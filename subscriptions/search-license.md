@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 9c0b9a4f-b9a3-491c-a68f-6e4bac7f7b3d
-ms.date: 07/12/2022
+ms.date: 03/20/2023
 ms.topic: how-to
 description:  Learn how admins can locate individual subscribers or groups in the Administration Portal.
 ---
@@ -19,8 +19,8 @@ The Visual Studio Subscriptions Administration Portal allows you to find a speci
    > [!div class="mx-imgBorder"]
    > ![Select Filter to search a subscriber list](_img/search-filter/filter-list.png "Screenshot of the Filter criteria entry field on the subscriber portal.")
 
-2. Enter your search criteria.  You'll notice that the list is updated dynamically as you type.  
-Example:  If you wanted to find all of the subscribers that use Outlook email addresses, you could type "@outlook" and the list would be limited to only those subscribers with Outlook.com addresses.  
+2. Enter your search criteria.  The list is updated dynamically as you type.  
+Example:  If you want to find all of the subscribers that use Outlook email addresses, type "@outlook" and the list would be limited to only those subscribers with Outlook.com addresses.  
 
 > [!TIP]
 > The search includes subscribers that are members of Azure Active Directory groups, so even though they're not displayed on your subscribers list unless you drill down into the group, they'll be listed individually in the search results.  
@@ -39,4 +39,4 @@ Example:  If you wanted to find all of the subscribers that use Outlook email ad
 ## Next steps
 
 + Now that you know how to find a subscriber, learn how to [edit](edit-license.md) their subscription.
-+ Need help using the Administration Portal?  Contact [Visual Studio Administration and Subscriptions Support](https://aka.ms/vsadminhelp).
++ Need help with using the Administration Portal?  Contact [Visual Studio Administration and Subscriptions Support](https://aka.ms/vsadminhelp).
