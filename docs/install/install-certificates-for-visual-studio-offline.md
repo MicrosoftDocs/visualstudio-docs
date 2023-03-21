@@ -1,7 +1,7 @@
 ---
 title: Install certificates for an offline installation
 description: Learn how to install certificates for a Visual Studio offline installation.
-ms.date: 3/3/2022
+ms.date: 3/16/2023
 ms.topic: how-to
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -21,7 +21,9 @@ ms.technology: vs-installation
 
 Visual Studio is primarily designed to be installed on an internet-connected machine, since many components are updated regularly. However, with some extra steps, it's possible to deploy Visual Studio in an environment where a working internet connection is unavailable.
 
-The Visual Studio setup engine installs only content that is trusted. It does this by checking Authenticode signatures of the content being downloaded and verifying that all content is trusted before installing it. This keeps your environment safe from attacks where the download location is compromised. Visual Studio setup therefore requires that several standard Microsoft root and intermediate certificates are installed and up-to-date on a user's machine. If the machine has been kept up to date with Windows Update, signing certificates usually are up to date. If the machine is connected to the internet, during installation Visual Studio may refresh certificates as necessary to verify file signatures. If the machine is offline, the certificates must be refreshed another way.
+The Visual Studio setup engine installs only content that is trusted. It does this by checking Authenticode signatures of the content being downloaded and verifying that all content is trusted before installing it. This keeps your environment safe from attacks where the download location is compromised. 
+
+Visual Studio setup therefore requires that several standard Microsoft root and intermediate certificates are installed and up-to-date on a user's machine. If the machine has been kept up to date with Windows Update, signing certificates usually are up to date. If the machine is connected to the internet, during installation Visual Studio may refresh certificates as necessary to verify file signatures. If the machine is offline, the certificates must be refreshed another way.
 
 ## How to refresh certificates when offline
 
@@ -29,7 +31,7 @@ There are three options for installing or updating certificates in an offline en
 
 ### Option 1 - Manually install certificates from a layout folder
 
-When you create a [network layout](../install/create-a-network-installation-of-visual-studio.md) or a [local offline cache](../install/create-an-offline-installation-of-visual-studio.md), the necessary certificates are downloaded to the Certificates folder. You can manually install the certificates by right-clicking each of the certificate files, selecting Install Certificate, and then clicking through the Certificate Manager wizard. If asked for a password, leave it blank.
+When you create a [network layout](../install/create-a-network-installation-of-visual-studio.md) or a [local offline cache](../install/create-an-offline-installation-of-visual-studio.md), the necessary certificates are downloaded to the Certificates folder. You can manually install the certificates by right-clicking each of the certificate files, selecting **Install Certificate**, and then clicking through the **Certificate Manager wizard**. If asked for a password, leave it blank.
 
 ### Option 2 - Distribute trusted root certificates in an enterprise environment
 
@@ -39,7 +41,7 @@ For enterprises with offline machines that do not have the latest root certifica
 
 If you are scripting the deployment of Visual Studio in an offline environment to client workstations, you should follow these steps:
 
-1. Copy the [Certificate Manager Tool](/dotnet/framework/tools/certmgr-exe-certificate-manager-tool) (certmgr.exe) to the network layout or local cache installation location. Certmgr.exe is not included as part of Windows itself, but is available as part of the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk).
+1. Copy the [Certificate Manager Tool](/dotnet/framework/tools/certmgr-exe-certificate-manager-tool) (*certmgr.exe*) to the network layout or local cache installation location. *Certmgr.exe* is not included as part of Windows itself, but is available as part of the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-sdk).
 
 2. Create a batch file with the following commands:
 
@@ -51,7 +53,7 @@ If you are scripting the deployment of Visual Studio in an offline environment t
    certmgr.exe -add [layout path]\certificates\vs_installer_opc.RootCertificate.cer -n "Microsoft Root Certificate Authority 2010" -s -r LocalMachine root
    ```
    
-   Alternatively, create a batch file that uses certutil.exe, which ships with Windows, with the following commands:
+   Alternatively, create a batch file that uses *certutil.exe*, which ships with Windows, with the following commands:
    
       ```shell
    certutil.exe -addstore -f "Root" "[layout path]\certificates\manifestRootCertificate.cer"
@@ -70,7 +72,7 @@ If you are scripting the deployment of Visual Studio in an offline environment t
 * **manifestCounterSignRootCertificate.cer** and **vs_installer_opc.RootCertificate.cer** contain:
   * Root certificate: **Microsoft Root Certificate Authority 2010**
  
-The Visual Studio Installer requires only the root certificates to be installed on the system. All of these certificates are required for Windows 7 Service Pack 1 systems that do not have the latest Windows Updates installed.
+The **Visual Studio Installer** requires only the root certificates to be installed on the system. All of these certificates are required for Windows 7 Service Pack 1 systems that do not have the latest Windows Updates installed.
 
 ## Why are the certificates from the Certificates folder not installed automatically?
 
