@@ -44,8 +44,6 @@
       href: using-breakpoints.md
     - name: Troubleshooting breakpoints
       href: troubleshooting-breakpoints.md
-    - name: Troubleshooting C# data breakpoints
-      href: troubleshoot-data-breakpoint-errors.md
   - name: Data inspection
     items:
     - name: Inspect data in debugger windows
