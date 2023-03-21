@@ -54,7 +54,7 @@ They keep track of, or refer to Label objects.
    These statements don't cause Label controls to appear on the form because there's no `new` keyword.
    When the program starts, both `firstClicked` and `secondClicked` are set to `null` for C# or `Nothing` for Visual Basic.
 
-1. Modify your <xref:System.Windows.Forms.Control.Click> event handler to use the new `firstClicked` reference variable.
+2. Modify your <xref:System.Windows.Forms.Control.Click> event handler to use the new `firstClicked` reference variable.
    Remove the last statement in the `label1_Click()` event handler method (`clickedLabel.ForeColor = Color.Black;`) and replace it with the `if` statement as follows.
 
    ### [C#](#tab/csharp)
@@ -64,7 +64,7 @@ They keep track of, or refer to Label objects.
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step5/vb/form1.vb" id="Snippet6":::
    ---
 
-1. Save and run your program. Choose one of the label controls, and its icon appears.
+3. Save and run your program. Choose one of the label controls, and its icon appears.
    Choose the next label control, and notice that nothing happens.
 
    ![Screenshot shows the Matching Game showing one icon.](../media/tutorial-windows-forms-match-game-icons/match-game-start.png)
@@ -89,15 +89,15 @@ If the icons don't match, it hides the two icons again after a short period of t
 
    ![Screenshot shows the timer icon below the form.](../media/tutorial-windows-forms-match-game-labels/timer-control-icon.png)
 
-1. Select the **Timer1** icon to select the timer.
+2. Select the **Timer1** icon to select the timer.
    In the **Properties** window, select the **Properties** button to view properties.
 
-1. Set the  **Interval** property to **750**, which is 750 milliseconds.
+3. Set the  **Interval** property to **750**, which is 750 milliseconds.
 
    The **Interval** property tells the timer how long to wait between *ticks*, when it triggers its <xref:System.Windows.Forms.Timer.Tick> event.
    Your program calls the <xref:System.Windows.Forms.Timer.Start> method to start the timer after the player chooses the second label.
 
-1. Choose the timer control icon and then press **Enter**, or double-click the timer.
+4. Choose the timer control icon and then press **Enter**, or double-click the timer.
    The IDE adds an empty Tick event handler.
    Replace the code with the following code.
 
@@ -113,7 +113,7 @@ If the icons don't match, it hides the two icons again after a short period of t
    - It uses two reference variables, `firstClicked` and `secondClicked`, to make the icons of the two labels that the player chose invisible again.
    - It resets the `firstClicked` and `secondClicked` reference variables to `null` in C# and `Nothing` in Visual Basic.
 
-1. Go to the code editor and add code to the top and bottom of the `label1_Click()` event handler method. 
+5. Go to the code editor and add code to the top and bottom of the `label1_Click()` event handler method. 
    This code will check if the timer is enabled, set the `secondClicked` reference variable, and start the timer.
    The `label1_Click()` event handler method now looks as follows:
 
@@ -136,7 +136,7 @@ If the icons don't match, it hides the two icons again after a short period of t
    > If you copy and paste the `label1_Click()` code block rather than entering the code manually, be sure to replace the existing `label1_Click()` code.
    > Otherwise, you'll end up with a duplicate code block.
 
-1. Save and run your program.
+6. Save and run your program.
    Select a square and the icon becomes visible.
    Choose another square.
    The icon appears briefly and then both icons disappear.

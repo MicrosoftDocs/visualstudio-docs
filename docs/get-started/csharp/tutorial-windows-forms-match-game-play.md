@@ -58,7 +58,7 @@ Those labels continue to be displayed.
   They no longer keep track of any of the labels.
   The third statement is a `return` statement, which skips the rest of the statements in the method without running them.
 
-1. Run the program, and then start choosing squares on the form.
+2. Run the program, and then start choosing squares on the form.
 
   ![Screenshot of the Matching Game that you create in this tutorial.](../media/tutorial-windows-forms-create-match-game/match-game-final.png)
 
@@ -92,7 +92,7 @@ This section adds a method to verify whether the player won.
   If the loop gets through all of the labels without executing the `return` statement, that means that all of the icons on the form were matched.
   The program shows a [MessageBox](/dotnet/api/system.windows.messagebox) to congratulate the player on winning, and then calls the `Close()` method to end the game.
     
-1. Have the label's <xref:System.Windows.Forms.Control.Click> event handler call the new `CheckForWinner()` method.
+2. Have the label's <xref:System.Windows.Forms.Control.Click> event handler call the new `CheckForWinner()` method.
 
   ### [C#](#tab/csharp)
   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step8/cs/form1.cs" id="Snippet11":::
@@ -103,7 +103,7 @@ This section adds a method to verify whether the player won.
 
   Be sure that your program checks for a winner immediately after it shows the second icon that the player chooses. Look for the line where you set the second chosen icon's color, and then call the `CheckForWinner()` method right after that line.
 
-1. Save and run the program. Play the game and match all of the icons. When you win, the program displays a congratulatory message.
+3. Save and run the program. Play the game and match all of the icons. When you win, the program displays a congratulatory message.
 
     ![Screenshot shows the Matching game with a MessageBox.](../media/tutorial-windows-forms-match-game-play/match-game-congratulations.png)
 
