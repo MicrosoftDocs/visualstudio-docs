@@ -1,5 +1,130 @@
 {
   "redirections": [
+        {
+      "source_path": "docs/debugger/troubleshooting-breakpoints.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/troubleshooting-remote-debugging.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/debuggers/troubleshooting-remote-debugging",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debug-live-azure-apps-troubleshooting.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/debuggers/debug-live-azure-apps-troubleshooting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/troubleshooting-vspackages.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/extensibility/troubleshooting-vspackages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/how-to-troubleshoot-brokered-services.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/extensibility/how-to-troubleshoot-brokered-services",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/how-to-troubleshoot-services.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/extensibility/how-to-troubleshoot-services",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/containers/troubleshooting-docker-errors.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/ide/troubleshooting-docker-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/troubleshooting-code-coverage.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/ide/troubleshooting-code-coverage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/troubleshooting-specific-errors-in-clickonce-deployments.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/ide/troubleshoot-clickonce-deployments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/not-in-toc/visual-studio-unrecoverable-process-error.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/ide/visual-studio-unrecoverable-process-error",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/class-designer/additional-information-about-errors.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/ide/troubleshoot-class-designer-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/troubleshooting-snippets.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/ide/troubleshooting-snippets",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/install/troubleshooting-installation-issues.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/install/troubleshooting-network-related-errors-in-visual-studio.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/msbuild/troubleshooting-dotnet-framework-targeting-errors.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/project-build/troubleshooting-dotnet-framework-targeting-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/troubleshooting-broken-references.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/project-build/troubleshooting-broken-references",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/how-to-troubleshoot-templates.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/project-build/how-to-troubleshoot-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/troubleshoot-resource-editor-errors.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/project-build/troubleshoot-resource-editor-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/vsto/troubleshooting-office-solution-deployment.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-office-solution-deployment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/vsto/troubleshooting-errors-in-office-solutions.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-errors-in-office-solutions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/xaml-tools/xaml-hot-reload-troubleshooting.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/tools-utilities/xaml-hot-reload-troubleshooting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/data-tools/troubleshooting-service-references.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-service-references",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/vsto/troubleshooting-office-solution-security.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-office-solution-security",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/troubleshoot-data-breakpoint-errors.md",
+      "redirect_url": "visualstudio/debugger/troubleshooting-breakpoints",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/additional-information-for-sharepoint-errors.md",
+      "redirect_url": "visualstudio/sharepoint/troubleshooting-sharepoint-solutions",
+      "redirect_document_id": false
+    },
     {
       "source_path": "docs/debugger/troubleshoot-data-breakpoint-errors.md",
       "redirect_url": "visualstudio/debugger/troubleshooting-breakpoints",
