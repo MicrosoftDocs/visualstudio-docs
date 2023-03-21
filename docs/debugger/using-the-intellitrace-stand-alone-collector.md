@@ -1,7 +1,7 @@
 ---
 title: "Using the IntelliTrace stand-alone collector | Microsoft Docs"
 description: Use the IntelliTrace stand-alone collector to collect data without installing Visual Studio and without changing the target system's environment.
-ms.date: "07/30/2019"
+ms.date: "03/21/2023"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.historicaldebug.collectdataoutsideVS"
