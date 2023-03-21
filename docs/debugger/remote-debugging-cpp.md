@@ -2,7 +2,7 @@
 title: "Remote Debug a C++ Project | Microsoft Docs"
 description: Learn how to debug a Visual Studio C++ application from a remote computer by following these step-by-step instructions.
 ms.custom: "remotedebugging"
-ms.date: "08/19/2022"
+ms.date: "03/20/2023"
 ms.topic: "conceptual"
 dev_langs:
   - "C++"
@@ -105,7 +105,9 @@ The remote debugger is supported on Windows 7 and newer and versions of Windows 
 
 ## Set Up Debugging with Remote Symbols
 
-[!INCLUDE [remote-debugger-symbols](../debugger/includes/remote-debugger-symbols.md)]
+You should be able to debug your code with the symbols you generate on the Visual Studio computer. The performance of the remote debugger is much better when you use local symbols.
+
+If you must use remote symbols, you need to specify the remote symbols in Visual Studio by adding a Windows file share to the symbol search path in **Tools > Options > Debugging > Symbols**.
 
 ## See also
 - [Debugging in Visual Studio](../debugger/index.yml)
