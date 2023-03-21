@@ -19,11 +19,11 @@
 - name: Tutorials
   items:
   - name: Learn to debug C#
-    href: ../get-started/csharp/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
+    href: ../get-started/csharp/tutorial-debugger.md?toc=%2fvisualstudio%2fdebugger%2ftoc.json
   - name: Learn to debug C++
     href: getting-started-with-the-debugger-cpp.md
   - name: Learn to debug Visual Basic
-    href: ../get-started/visual-basic/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
+    href: ../get-started/visual-basic/tutorial-debugger.md?toc=%2fvisualstudio%2fdebugger%2ftoc.json
   - name: Running Python code in the debugger...
     href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
   - name: Debug a live Azure app
@@ -43,7 +43,7 @@
     - name: Use breakpoints
       href: using-breakpoints.md
     - name: Troubleshooting breakpoints
-      href: /troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints?toc=%252fvisualstudio%252fdebugger%252ftoc.json
+      href: /troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints?toc=%2fvisualstudio%2fdebugger%2ftoc.json
   - name: Data inspection
     items:
     - name: Inspect data in debugger windows
