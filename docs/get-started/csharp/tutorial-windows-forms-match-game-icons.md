@@ -9,9 +9,8 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.topic: tutorial
-ms.date: 01/07/2022
-ms.custom: 
-- vs-acquisition
+ms.date: 03/16/2023
+ms.custom: vs-acquisition
 ---
 # Tutorial: Add icons to your matching game WinForms app
 
@@ -47,7 +46,7 @@ The first is a <xref:System.Random> object that randomly chooses cells in the Ta
 The second object is a <xref:System.Collections.Generic.List%601> object.
 It stores the randomly chosen symbols.
 
-1. Open Visual Studio. Your Matching Game project appears under **Open recent**.
+1. Open Visual Studio. Your *MatchingGame* project appears under **Open recent**.
 
 1. Select *Form1.cs* if you're using C#, or *Form1.vb* if you're using Visual Basic. Then select **View** > **Code**. 
    As an alternative, select the **F7** key or double-click **Form1**.
@@ -108,10 +107,10 @@ This code uses the keyword `foreach` in C# or `For Each` in Visual Basic.
      It uses the <xref:System.Random.Next> method of the <xref:System.Random> object.
      The `Next` method returns the random number.
      This line also uses the <xref:System.Collections.Generic.List%601.Count> property of the **icons** list to determine the range from which to choose the random number.
-   - The next line assigns one of the icon list items to the <xref:System.Windows.Forms.Label.Text> property of the label.
+   - The next line assigns one of the **icons** list items to the <xref:System.Windows.Forms.Label.Text> property of the label.
    - The next line hides the icons.
      The line is commented out here so you can verify the rest of the code before proceeding.
-   - The last line in the `if` statement removes from the list the icon that has been added to the form.
+   - The last line in the `if` statement removes the icon that has been added to the form from the list.
 
 1. Add a call to the `AssignIconsToSquares()` method to the **Form1** _constructor_.
    This method fills the game board with icons.
@@ -163,7 +162,9 @@ To get your game to work this way, add a <xref:System.Windows.Forms.Control.Clic
 
 1. Open the form in the **Windows Forms Designer**. Select **Form1.cs** or **Form1.vb**, and then select **View** > **Designer**.
 
-1. Choose the first label control to select it. Then, hold the **Ctrl** key while you select each of the other labels.
+1. Choose the first label control to select it and double-click it to add a `Click` event handler called **label1 _Click()** to the code.
+
+1. Then, hold the **Ctrl** key while you select each of the other labels.
    Be sure that every label is selected.
 
 1. In the **Properties** window, select the **Events** button, which is a lightening bolt.
@@ -187,7 +188,7 @@ To get your game to work this way, add a <xref:System.Windows.Forms.Control.Clic
    > If you copy and paste the `label1_Click()` code block rather than entering the code manually, be sure to replace the existing `label1_Click()` code.
    > Otherwise, you'll end up with a duplicate code block.
 
-1. Select **Debug** > **Start Debugging** to run your program. You should see an empty form with a blue background. Choose any of the cells in the form. One of the icons should become visible. Continue choosing different places in the form. As you choose the icons, they should appear.
+Select **Debug** > **Start Debugging** to run your program. You should see an empty form with a blue background. Choose any of the cells in the form. One of the icons should become visible. Continue choosing different places in the form. As you choose the icons, they should appear.
 
    ![Screenshot shows the Matching Game with a single icon visible.](../media/tutorial-windows-forms-match-game-icons/match-game-start.png)
 
