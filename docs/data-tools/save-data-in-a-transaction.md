@@ -1,7 +1,6 @@
 ---
 title: 'Walkthrough: Save data in a transaction'
 description: In this walkthrough, see how to save data in a transaction by using the System.Transactions namespace in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 09/08/2017
 ms.topic: how-to
 dev_langs:

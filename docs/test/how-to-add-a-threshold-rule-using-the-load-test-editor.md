@@ -1,7 +1,6 @@
 ---
 title: Add a Threshold Rule for load testing
 description: Learn about threshold rules in load tests, which compare a performance counter value with either a constant value or another performance counter value.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

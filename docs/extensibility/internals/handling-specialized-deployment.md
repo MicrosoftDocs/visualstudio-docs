@@ -1,7 +1,6 @@
 ---
 title: Handling Specialized Deployment | Microsoft Docs
 description: Learn how to handle the specialized deployment of an application project in Visual Studio. For example, a deployment to a Web server or a device.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

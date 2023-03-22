@@ -1,7 +1,6 @@
 ---
 title: Using MSBuild | Microsoft Docs
 description: MSBuild supplies an extensible XML format for creating project files that fully describe project items to be built, build tasks, and build configurations.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

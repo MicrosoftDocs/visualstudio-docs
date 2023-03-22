@@ -1,7 +1,6 @@
 ---
 title: 'Walkthrough: Creating a Legacy Language Service | Microsoft Docs'
 description: Learn how to use the managed package framework language classes to implement a language service in Visual C#.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

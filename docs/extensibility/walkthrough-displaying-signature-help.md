@@ -1,7 +1,6 @@
 ---
 title: 'Walkthrough: Displaying Signature Help | Microsoft Docs'
 description: Learn how to display Signature Help for text content type by using this walkthrough. Signature Help displays the signature of a method in a tooltip.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

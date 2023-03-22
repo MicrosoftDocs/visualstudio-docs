@@ -1,7 +1,6 @@
 ---
 title: Add name parameters to project and item templates
 description: Learn how to modify template parameters to replace identifiers like class names and namespaces.
-ms.custom: SEO-VS-2020
 ms.date: 01/02/2018
 ms.topic: how-to
 helpviewer_keywords:

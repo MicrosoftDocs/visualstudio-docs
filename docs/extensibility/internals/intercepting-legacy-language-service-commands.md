@@ -1,7 +1,6 @@
 ---
 title: Intercepting Legacy Language Service Commands | Microsoft Docs
 description: Learn how to use command filters in Visual Studio to intercept legacy language service commands and add language-specific behavior.
-ms.custom: SEO-VS-2020 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

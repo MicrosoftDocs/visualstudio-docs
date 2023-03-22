@@ -1,7 +1,6 @@
 ---
 title: Call Stack Evaluation | Microsoft Docs
 description: Learn about the EnumFrameInfo method and how to implement it to view the stack frames of the call stack during break mode.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

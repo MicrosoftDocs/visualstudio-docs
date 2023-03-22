@@ -1,7 +1,6 @@
 ---
 title: Set Current Stack Frame Command
 description: Learn about the Set Current Stack Frame command and how it allows you to set a particular stack frame.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

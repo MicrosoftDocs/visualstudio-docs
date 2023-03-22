@@ -1,7 +1,6 @@
 ---
 title: Resources in VSPackages | Microsoft Docs
 description: Learn which types of localized resources can be embedded in VSPackages. You can also embed resources in native satellite UI DLLs or managed satellite DLLs.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

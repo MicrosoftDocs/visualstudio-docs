@@ -1,7 +1,6 @@
 ---
 title: Debugger Concepts | Microsoft Docs
 description: Learn about the architectural concepts used in designing the Visual Studio debug package to help you build on that package.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

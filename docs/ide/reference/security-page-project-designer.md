@@ -1,7 +1,6 @@
 ---
 title: Security Page, Project Designer
 description: The Security page of the Project Designer is used to configure code access security settings for applications that are deployed by using ClickOnce deployment.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-deployment
 ms.topic: reference

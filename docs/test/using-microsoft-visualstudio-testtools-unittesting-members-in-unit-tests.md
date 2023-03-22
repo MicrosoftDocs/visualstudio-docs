@@ -1,7 +1,6 @@
 ---
 title: Use MSTest in unit tests
 description: Learn about the MSTest framework, which supports unit testing in Visual Studio. Use these classes and members to code unit tests.
-ms.custom: SEO-VS-2020
 ms.date: 10/17/2022
 ms.topic: reference
 ms.author: mikejo
@@ -239,7 +238,7 @@ public class MyOtherTestClass
 
 It's possible to control the inheritance behavior: only for current class using `InheritanceBehavior.None` or for all derived classes using `InheritanceBehavior.BeforeEachDerivedClass`.
 
-It's also possible to configure whether the class cleanup should be run at the end of the class or at the end of the assembly (current default).
+It's also possible to configure whether the class cleanup should be run at the end of the class or at the end of the assembly (No longer supported starting from MSTest v4 as EndOfClass is the default and only [class cleanup](<xref:Microsoft.VisualStudio.TestTools.UnitTesting.ClassCleanupAttribute>) behavior).
 
 The methods marked with these attributes should be defined as `static void` or `static Task`, in a `TestClass`, and appear only once. The initialize part requires one argument of type [TestContext](xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext) and the cleanup no argument.
 

@@ -1,7 +1,6 @@
 ---
 title: VSCT XML Schema Reference | Microsoft Docs
 description: The VSCT XML schema reference articles describe Command Table Compiler schema elements, with allowed child elements and attributes for each.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

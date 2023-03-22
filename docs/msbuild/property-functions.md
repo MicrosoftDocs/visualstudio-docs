@@ -1,7 +1,6 @@
 ---
 title: Property Functions | Microsoft Docs
 description: Learn how to use property functions, which are calls to .NET Framework methods that appear in MSBuild property definitions.
-ms.custom: SEO-VS-2020
 ms.date: 10/20/2021
 ms.topic: conceptual
 helpviewer_keywords:
@@ -66,7 +65,7 @@ For example, to set a build property to a new GUID, you can use this script:
 <NewGuid>$([System.Guid]::NewGuid())</NewGuid>
 ```
 
-In static property functions, you can use any static method or property of these system classes:
+In static property functions, you can use any public static method or property of these system classes:
 
 - <xref:System.Byte?displayProperty=nameWithType>
 - <xref:System.Char?displayProperty=nameWithType>

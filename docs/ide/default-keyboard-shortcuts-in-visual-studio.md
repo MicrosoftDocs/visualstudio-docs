@@ -1,8 +1,7 @@
 ---
 title: Keyboard shortcuts
 description: Learn about the default keyboard shortcuts in Visual Studio that allow you to access a variety of commands and windows.
-ms.custom: SEO-VS-2020
-ms.date: 06/01/2022
+ms.date: 03/03/2023
 ms.topic: reference
 helpviewer_keywords:
 - shortcut keys [Visual Studio], keyboard binding schemes
@@ -1037,6 +1036,7 @@ The shortcuts specific to this context are:
 |Command|Keyboard shortcut|Command ID|
 |-|-|-|
 |View in page inspector|**Ctrl+K, Ctrl+G**| ClassViewContextMenus.ClassViewProject.View.ViewinPageInspector |
+|Quick add new item or class|**Shift+F2**| AddQuickFile |
 
 ### <a name="bkmk_team-explorer-context-specific-shortcuts"></a> Team Explorer: context specific shortcuts
 

@@ -1,7 +1,6 @@
 ---
 title: Compare Project Folder to Source Control Store | Microsoft Docs
 description: In the Source Control Plug-in API, the comparison between the local project folder and source control is accomplished by using SccDirQueryInfo and SccDirDiff.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

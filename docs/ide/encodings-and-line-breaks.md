@@ -1,7 +1,6 @@
 ---
 title: Encoding and line break characters
 description: Learn about the characters that Visual Studio interprets as line breaks and how original encoding and line break characters are maintained.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:

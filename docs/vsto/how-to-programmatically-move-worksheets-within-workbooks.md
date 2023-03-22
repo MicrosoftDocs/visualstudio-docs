@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically move worksheets within workbooks"
 description: Learn how you can programmatically change the position of worksheets relative to other worksheets in a Microsoft Excel workbook. 
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

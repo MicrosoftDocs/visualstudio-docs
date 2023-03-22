@@ -1,7 +1,6 @@
 ---
 title: Start and Stop the Message Log Display | Microsoft Docs
 description: Understand how to start and stop the message log display when debugging with the Spy++ tool and Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

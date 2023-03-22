@@ -1,7 +1,6 @@
 ---
 title: Creating Options Pages | Microsoft Docs
 description: Learn how to create an Options page under the Tools menu in Visual Studio by implementing a DialogPage class from the managed package framework.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

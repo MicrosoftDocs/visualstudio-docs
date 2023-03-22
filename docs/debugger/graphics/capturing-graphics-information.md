@@ -1,7 +1,6 @@
 ---
 title: "Capturing Graphics Information | Microsoft Docs"
 description: Capture graphics information from your Direct3D app so that you can use Visual Studio Graphics Analyzer to diagnose rendering problems and performance problems.
-ms.custom: SEO-VS-2020
 ms.date: "02/09/2017"
 ms.topic: "conceptual"
 f1_keywords:

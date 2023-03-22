@@ -1,7 +1,6 @@
 ---
 title: Manage references in a project
 description: Learn how to manage references to external components and connected services in a project.
-ms.custom: SEO-VS-2020
 ms.date: 08/15/2022
 ms.topic: conceptual
 f1_keywords:

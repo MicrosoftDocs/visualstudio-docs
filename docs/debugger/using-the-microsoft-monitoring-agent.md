@@ -1,7 +1,6 @@
 ---
 title: "Using the Microsoft Monitoring Agent | Microsoft Docs"
 description: Use Microsoft Monitoring Agent to monitor ASP.NET web apps—and SharePoint 2010 and 2013 applications—for errors, performance issues, and other problems. 
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: fd0a86b9-015d-408e-aa58-59a0a97826ac

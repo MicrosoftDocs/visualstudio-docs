@@ -1,7 +1,6 @@
 ---
 title: "AddMessage | Microsoft Docs"
 description: Use the AddMessage method of the VsgDbg class to add a custom message to the graphics diagnostics Head-Up Display (HUD).
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 ms.assetid: 102a0404-a00c-4566-93f3-01bc8df63280

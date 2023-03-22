@@ -1,7 +1,6 @@
 ---
 title: Target Build Order | Microsoft Docs
 description: Learn how to specify the order in which MSBuild targets are run, if the input to one target depends on the output of another target.
-ms.custom: SEO-VS-2020
 ms.date: 09/12/2022
 ms.topic: conceptual
 helpviewer_keywords:

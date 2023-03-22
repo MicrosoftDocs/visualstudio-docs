@@ -218,7 +218,7 @@
       - name: Security, versioning, and manifest issues in ClickOnce deployments
         href: security-versioning-and-manifest-issues-in-clickonce-deployments.md
       - name: Troubleshoot specific errors in ClickOnce deployments
-        href: troubleshooting-specific-errors-in-clickonce-deployments.md
+        href: /troubleshoot/developer/visualstudio/ide/troubleshoot-clickonce-deployments?toc=%2Fvisualstudio%2Fdeployment%2Ftoc.json
       - name: Debug ClickOnce applications that use System.Deployment.application
         href: debugging-clickonce-applications-that-use-system-deployment-application.md
   - name: Visual Studio Installer projects

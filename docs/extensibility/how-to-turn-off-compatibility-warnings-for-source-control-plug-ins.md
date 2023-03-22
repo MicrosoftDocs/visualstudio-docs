@@ -1,7 +1,6 @@
 ---
 title: Turn off warnings for source control plug-ins
 description: A user may see several compatibility warnings when employing source control in Visual Studio. Learn how to disable these warnings.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

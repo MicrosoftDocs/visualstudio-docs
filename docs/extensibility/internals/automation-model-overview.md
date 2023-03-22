@@ -1,7 +1,6 @@
 ---
 title: Automation Model Overview | Microsoft Docs
 description: Learn about the Visual Studio automation model that consists of a set of objects against which you can write a Visual Studio add-in or extension.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

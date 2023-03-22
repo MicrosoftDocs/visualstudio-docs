@@ -1,7 +1,6 @@
 ---
 title: Extend language service to support EditorConfig
 description: Learn about the changes to make to update a language service to support EditorConfig files. Replace a global language-specific option with a contextual option.
-ms.custom: SEO-VS-2020
 ms.date: 11/22/2017
 ms.topic: conceptual
 helpviewer_keywords:

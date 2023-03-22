@@ -1,7 +1,6 @@
 ---
 title: Running Document Table | Microsoft Docs
 description: Learn how the Visual Studio IDE maintains the running document table, which includes all open documents in memory. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

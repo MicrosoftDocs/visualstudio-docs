@@ -361,7 +361,7 @@
         - name: Troubleshooting Office Solutions
           href: troubleshooting-office-solutions.md
         - name: Troubleshooting Errors in Office Solutions
-          href: troubleshooting-errors-in-office-solutions.md
+          href: /troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-errors-in-office-solutions?toc=%2Fvisualstudio%2Fvsto%2Ftoc.json
         - name: Re-enable a VSTO Add-in That Has Been Disabled
           href: how-to-re-enable-a-vsto-add-in-that-has-been-disabled.md
         - name: Additional Support for Errors in Office Solutions
@@ -787,7 +787,7 @@
       - name: Sign Office Solutions
         href: how-to-sign-office-solutions.md
       - name: Troubleshooting Office Solution Security
-        href: troubleshooting-office-solution-security.md
+        href: /troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-office-solution-security?toc=%2Fvisualstudio%2Fvsto%2Ftoc.json
     - name: Deploying an Office Solution
       items:
       - name: Deploying an Office Solution
@@ -799,7 +799,7 @@
       - name: Troubleshooting Office Solution Deployment
         items:
         - name: Troubleshooting Office Solution Deployment
-          href: troubleshooting-office-solution-deployment.md
+          href: /troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-office-solution-deployment?toc=%2Fvisualstudio%2Fvsto%2Ftoc.json
         - name: Event Logging for Office Solutions
           href: event-logging-for-office-solutions.md
     - name: Samples and Walkthroughs
@@ -922,5 +922,5 @@
           href: getautoinsertextensions-method.md
         - name: SetWefProcessId Method
           href: setwefprocessid-method.md
-  - name: Sharepoint Development in Visual Studio
-    href: ../sharepoint/toc.yml
+  - name: Sharepoint Development in Visual Studio >>
+    href: ../sharepoint/create-sharepoint-solutions.md

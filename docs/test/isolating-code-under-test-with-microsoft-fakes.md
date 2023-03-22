@@ -1,7 +1,7 @@
 ---
 title: Isolating Code Under Test with Microsoft Fakes
 description: Learn how Microsoft Fakes helps you isolate the code you are testing by replacing other parts of the application with stubs or shims.
-ms.custom: SEO-VS-2020, devdivchpfy22
+ms.custom: devdivchpfy22
 ms.date: 02/02/2022
 ms.topic: how-to
 ms.author: mikejo
@@ -91,7 +91,7 @@ For a more detailed description, see [Use stubs to isolate parts of your applica
        - For an SDK-style project targeting .NET Framework, .NET Core, or .NET 5.0 or later, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies**, **Projects**, or **Packages**.
 
        - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar to see the **References** node.
-   2. Select the assembly that contains the class definitions for which you want to create shims. For example, if you want to shim **DateTime**, select **System.dll**.
+   2. Select the assembly that contains the class definitions for which you want to create stubs. For example, if you want to shim **DateTime**, select **System.dll**.
 
    3. On the shortcut menu, select **Add Fakes Assembly**.
 

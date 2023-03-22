@@ -1,7 +1,6 @@
 ---
 title: NumberOfParentCategoriesToRollUp element (templates)
 description: Learn about the NumberOfParentCategoriesToRollUp element and how it specifies the number of parent categories that will display the template in the New Project dialog box.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

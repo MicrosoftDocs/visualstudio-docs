@@ -1,7 +1,6 @@
 ---
 title: Legacy Language Service Extensibility | Microsoft Docs
 description: Learn about the structure, implementation, and extensibility of legacy language services in Visual Studio.
-ms.custom: SEO-VS-2020 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

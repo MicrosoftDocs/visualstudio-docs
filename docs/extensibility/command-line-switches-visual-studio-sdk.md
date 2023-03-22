@@ -1,7 +1,6 @@
 ---
 title: Command-Line Switches (Visual Studio SDK) | Microsoft Docs
 description: Devenv.exe supports command-line switches specifically for development of VSPackages. Use the articles in this section to learn about the command-line switches.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

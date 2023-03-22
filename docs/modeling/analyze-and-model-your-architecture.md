@@ -1,7 +1,6 @@
 ---
 title: Architecture analysis & modeling tools
 description: Design and model your app to make sure your app meets architectural requirements.
-ms.custom: SEO-VS-2020
 ms.date: 06/04/2021
 ms.topic: overview
 helpviewer_keywords:

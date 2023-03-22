@@ -2,7 +2,6 @@
 title: Code Analysis Policy Errors
 ms.date: 11/04/2016
 description: Learn about code analysis policy errors in Visual Studio. View descriptions of errors that occur if the policy is not satisfied when code is checked in.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 f1_keywords:
 - vs.codeanalysis.policyfailures

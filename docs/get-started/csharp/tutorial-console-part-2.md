@@ -2,7 +2,7 @@
 title: "Tutorial 2: Extend your C# console app"
 description: "Learn how to develop a C# console app in Visual Studio, step-by-step."
 ms.custom: "vs-acquisition, get-started"
-ms.date: 1/5/2022
+ms.date: 1/5/2023
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial

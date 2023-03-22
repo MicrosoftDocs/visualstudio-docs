@@ -1,11 +1,11 @@
 ---
 title: Troubleshoot profiling errors
 description: Learn how to resolve possible profiling errors with error message guidance
-ms.date: 10/26/2022
+ms.date: 03/10/2023
 ms.topic: how-to
 ms.assetid: 
-author: mistymadonna
-ms.author: mihays
+author: mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -84,6 +84,13 @@ This issue was due to a bug in the tool that was fixed in 17.3. Upgrading to a l
 - A screenshot of the memory snapshots that were taken.
 
 There isn't a workaround for this issue and the profiling session will need to be restarted.
+
+## Error: “X diagnostic events dropped, some information in the report may be missing or inaccurate”
+
+Sometimes during data capture, events can be dropped that can cause the resulting profiling report to be inaccurate or unusable. Dropped events can happen for many different reasons, but it primarily occurs when the system is unable to flush events out to disk faster than the incoming rate.
+
+**How to fix**
+To help reduce dropped events, you can close other disk- and CPU-intensive operations while profiling. By closing these operations, the system can dedicate more resources to flushing the incoming events. You can also try reducing the sampling frequencies on the tools that support these configuration settings, such as the CPU Usage tool and .NET Allocation tool, and thereby reduce overhead.
 
 ## See also
 

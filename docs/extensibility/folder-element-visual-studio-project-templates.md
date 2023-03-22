@@ -1,7 +1,6 @@
 ---
 title: Folder Element (Visual Studio Project Templates) | Microsoft Docs
 description: Learn about the Folder element and how it specifies a folder that will be added to the project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference

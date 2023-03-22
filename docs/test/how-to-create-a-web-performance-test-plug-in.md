@@ -1,7 +1,6 @@
 ---
 title: Create a Web Performance Test Plug-In
 description: Learn how web performance test plug-ins enable you to reuse code outside the main declarative statements in your web performance test.
-ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
 ms.topic: how-to
 f1_keywords: 

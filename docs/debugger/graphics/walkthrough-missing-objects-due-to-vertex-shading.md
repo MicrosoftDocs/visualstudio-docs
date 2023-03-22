@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Missing Objects Due to Vertex Shading | Microsoft Docs"
 description: Follow an investigation that finds a vertex shader error. It shows the use Graphics Event List, Graphics Pipeline Stages, HLSL Debugger, and Graphics Event Call Stack.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 ms.assetid: e42b54a0-8092-455c-945b-9ecafb129d93

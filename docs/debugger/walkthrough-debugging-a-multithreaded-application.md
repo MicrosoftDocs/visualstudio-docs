@@ -1,7 +1,6 @@
 ---
 title: "View threads in the debugger | Microsoft Docs"
 description: Use Threads to examine and control threads. You can group, sort, flag, freeze, thaw, and search for threads, select columns, and display call stacks. 
-ms.custom: SEO-VS-2020
 ms.date: "10/29/2018"
 ms.topic: "conceptual"
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: UsedCommands Element | Microsoft Docs
 description: The UsedCommands element groups UsedCommand elements and other UsedCommands groupings. The UsedCommands element is optional.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Map methods on the call stack while debugging
 description: Learn how to create a code map to visually trace the call stack while you're debugging. Also, learn that you can make notes on the map to track what the code is doing.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:

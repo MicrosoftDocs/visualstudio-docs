@@ -1,7 +1,6 @@
 ---
 title: Work with datasets in n-tier applications
 description: Learn to work with datasets in n-tier applications. N-tier data applications are data-centric apps that are separated into multiple logical layers (or tiers).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

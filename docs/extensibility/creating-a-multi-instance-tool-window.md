@@ -1,7 +1,6 @@
 ---
 title: Creating a Multi-Instance Tool Window | Microsoft Docs
 description: Learn how to modify a tool window so that multiple instances of it can be open simultaneously. By default, tool windows can have only one instance open.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

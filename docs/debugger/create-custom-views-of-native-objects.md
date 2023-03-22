@@ -71,6 +71,8 @@ You can add a *.natvis* file to any C++ project.
 
 1. Select the C++ project node in **Solution Explorer**, and select **Project** > **Add new item**, or right-click the project and select **Add** > **New item**.
 
+   If you don't see all the item templates, choose **Show All Templates**.
+
 1. In the **Add New Item** dialog, select **Visual C++** > **Utility** > **Debugger visualization file (.natvis)**.
 
 1. Name the file, and select **Add**.

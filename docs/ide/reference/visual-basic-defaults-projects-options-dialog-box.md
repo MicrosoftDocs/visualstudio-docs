@@ -1,7 +1,6 @@
 ---
 title: Visual Basic Defaults, Projects, Options Dialog Box
 description: Learn how to use the Visual Basic Defaults page in the Projects and Solutions section to specify the default settings for Visual Basic project options.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

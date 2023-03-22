@@ -19,11 +19,11 @@
 - name: Tutorials
   items:
   - name: Learn to debug C#
-    href: ../get-started/csharp/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
+    href: ../get-started/csharp/tutorial-debugger.md?toc=%2fvisualstudio%2fdebugger%2ftoc.json
   - name: Learn to debug C++
     href: getting-started-with-the-debugger-cpp.md
   - name: Learn to debug Visual Basic
-    href: ../get-started/visual-basic/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
+    href: ../get-started/visual-basic/tutorial-debugger.md?toc=%2fvisualstudio%2fdebugger%2ftoc.json
   - name: Running Python code in the debugger...
     href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
   - name: Debug a live Azure app
@@ -43,9 +43,7 @@
     - name: Use breakpoints
       href: using-breakpoints.md
     - name: Troubleshooting breakpoints
-      href: troubleshooting-breakpoints.md
-    - name: Troubleshooting C# data breakpoints
-      href: troubleshoot-data-breakpoint-errors.md
+      href: /troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints?toc=%2fvisualstudio%2fdebugger%2ftoc.json
   - name: Data inspection
     items:
     - name: Inspect data in debugger windows
@@ -113,7 +111,7 @@
       - name: Write and debug running XAML code
         href: ../xaml-tools/xaml-hot-reload.md?toc=/visualstudio/debugger/toc.json
       - name: Troubleshooting XAML Hot Reload
-        href: ../xaml-tools/xaml-hot-reload-troubleshooting.md?toc=/visualstudio/debugger/toc.json
+        href: /troubleshoot/developer/visualstudio/tools-utilities/xaml-hot-reload-troubleshooting?toc=/visualstudio/debugger/toc.json
     - name: Edit and Continue not supported for F#
       href: edit-and-continue-not-supported-for-f-hash.md
     - name: Edit code and continue debugging
@@ -299,7 +297,7 @@
     - name: Unblock the download on Windows Server
       href: remote-debugging-unblock-file-download.md
     - name: Troubleshoot remote debugging
-      href: troubleshooting-remote-debugging.md
+      href: /troubleshoot/developer/visualstudio/debuggers/troubleshooting-remote-debugging?toc=%2Fvisualstudio%2Fdebugger%2Ftoc.json
     - name: Remote debugging error reference
       items:
       - name: Remote debugging errors and troubleshooting
@@ -431,7 +429,7 @@
     - name: FAQ for snapshot debugging
       href: debug-live-azure-apps-faq.yml
     - name: Troubleshooting snapshot debugging
-      href: debug-live-azure-apps-troubleshooting.md
+      href: /troubleshoot/developer/visualstudio/debuggers/debug-live-azure-apps-troubleshooting?toc=%2Fvisualstudio%2Fdebugger%2Ftoc.json
     - name: Time travel debugging for live Azure VM apps
       href: debug-live-azure-virtual-machines-time-travel-debugging.md
   - name: Linux debugging
@@ -446,24 +444,18 @@
       href: ../containers/edit-and-refresh.md
   - name: Application types
     items:
-    - name: Debug specific application types
-      href: debugging-applications.md
     - name: Debug 64-Bit applications
       href: debug-64-bit-applications.md
     - name: UWP apps
       items:
-      - name: Debug UWP apps
-        href: debugging-windows-store-and-windows-universal-apps.md
-      - name: Start a debugging session (UWP)
-        items:
-        - name: Start a debugging session for a UWP app
-          href: start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md
-        - name: Debug UWP apps on a remote machine
-          href: run-windows-store-apps-on-a-remote-machine.md
-        - name: Run UWP apps in the simulator
-          href: run-windows-store-apps-in-the-simulator.md
-        - name: Deploy UWP apps from Visual Studio
-          href: deploy-windows-store-apps-from-visual-studio.md
+      - name: Debug UWP apps >>
+        href: /windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps
+      - name: Debug UWP apps on a remote machine
+        href: run-windows-store-apps-on-a-remote-machine.md
+      - name: Run UWP apps in the simulator
+        href: run-windows-store-apps-in-the-simulator.md
+      - name: Deploy UWP apps from Visual Studio
+        href: deploy-windows-store-apps-from-visual-studio.md
       - name: Debug an installed app package
         href: debug-installed-app-package.md
       - name: Inspect XAML properties while debugging
@@ -476,8 +468,6 @@
         href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
     - name: Managed code (C#, Visual Basic, F#)
       items:
-      - name: Debug managed code
-        href: debugging-managed-code.md
       - name: Debugging preparation
         items:
         - name: 'Debugging preparation: C#, F#, and Visual Basic project types'
@@ -494,18 +484,14 @@
         href: assertions-in-managed-code.md
       - name: Stop statements in Visual Basic
         href: stop-statements-in-visual-basic.md
-      - name: 'Walkthrough: Debugging a Windows Form'
+      - name: 'Walkthrough: Debug a Windows Form'
         href: walkthrough-debugging-a-windows-form.md
-      - name: Debug the OnStart method
-        href: how-to-debug-the-onstart-method.md
       - name: Debug mixed-mode applications
         href: debugging-mixed-mode-applications.md
       - name: JIT optimization and debugging
         href: jit-optimization-and-debugging.md
       - name: Debug LINQ
         href: debugging-linq.md
-      - name: Debugging isn't possible because a kernel debugger is enabled on the system
-        href: error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md
       - name: Debug .NET Framework source
         href: how-to-debug-dotnet-framework-source.md
       - name: WPF
@@ -520,8 +506,16 @@
           href: how-to-use-the-wpf-tree-visualizer.md
         - name: Display WPF trace information
           href: how-to-display-wpf-trace-information.md
+      - name: Windows service
+        items:
+        - name: Debug the OnStart method
+          href: how-to-debug-the-onstart-method.md
       - name: Debug F#
         href: debugging-f-hash.md
+      - name: Error reference
+        items:
+        - name: Debugging isn't possible because a kernel debugger is enabled on the system
+          href: error-debugging-isn-t-possible-because-a-kernel-debugger-is-enabled-on-the-system.md
     - name: C/C++ code
       items:
       - name: Debug native code
@@ -543,35 +537,13 @@
       - name: Native code debugging FAQs
         items:
         - name: Debugging native code FAQs
-          href: debugging-native-code-faqs.md
-        - name: How can I debug an access violation?
-          href: how-can-i-debug-an-access-violation-q.md
-        - name: How can I debug access violations when running my program outside the debugger?
-          href: how-can-i-debug-access-violations-when-running-my-program-outside-the-debugger-q.md
-        - name: How can I find out if my pointers corrupt a memory address?
-          href: how-can-i-find-out-if-my-pointers-corrupt-a-memory-address-q.md
-        - name: How can I find out who Is passing a wrong parameter value?
-          href: how-can-i-find-out-who-is-passing-a-wrong-parameter-value-q.md
-        - name: When calling a function hundreds of times, how do I know which call failed?
-          href: when-calling-a-function-hundreds-of-times-how-do-i-know-which-call-failed-q.md
-        - name: Where can I look up Win32 error codes?
-          href: where-can-i-look-up-win32-error-codes-q.md
-        - name: How can I keep focus when stepping through my program?
-          href: how-can-i-keep-focus-when-stepping-through-my-program-q.md
-        - name: How can I debug Windows API functions?
-          href: how-can-i-debug-windows-api-functions-q.md
-      - name: COM and ActiveX
+          href: debugging-native-code-faqs.yml
+      - name: COM
         items:
-        - name: COM and ActiveX debugging
-          href: com-and-activex-debugging.md
-        - name: COM server and container
-          items:
-          - name: COM server and container debugging
-            href: com-server-and-container-debugging.md
-        - name: Debug an ActiveX control
-          href: how-to-debug-an-activex-control.md
-        - name: COM debugging tools
-          href: com-debugging-tools.md
+        - name: COM server and container debugging
+          href: com-server-and-container-debugging.md
+        - name: COM debugging tools >>
+          href: /windows/win32/com/ole-com-object-viewer
       - name: Debug injected code
         href: how-to-debug-injected-code.md
     - name: GPU code

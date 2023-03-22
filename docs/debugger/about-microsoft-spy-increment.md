@@ -1,7 +1,6 @@
 ---
 title: "About Microsoft Spy++ | Microsoft Docs"
 description: View the About Microsoft Spy++ dialog box in Visual Studio to display copyright, version, ownership, and other information about the Spy++ debugging utility.
-ms.custom: SEO-VS-2020
 ms.date: "06/03/2022"
 ms.topic: "ui-reference"
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: "Password protection on Office documents"
 description: Learn how to set a password on your Microsoft Word documents and Excel workbooks so that they can't be opened by unauthorized users.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

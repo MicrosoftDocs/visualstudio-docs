@@ -1,11 +1,12 @@
 ---
 title: "Troubleshooting SharePoint Solutions | Microsoft Docs"
 description: See what problems or alerts might occur when you debug SharePoint solutions by using the Visual Studio debugger.
-ms.custom: SEO-VS-2020
 ms.date: "02/22/2017"
 ms.topic: "conceptual"
 f1_keywords:
   - "Microsoft.VisualStudio.Tools.SharePoint.Errors.Debugging"
+  - "VS.SharePointTools.errors.general"
+  - "VS.SharePointTools.Project.Errors.General"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -13,6 +14,7 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords:
   - "SharePoint development in Visual Studio, troubleshooting"
+  - "SharePoint development in Visual Studio, errors"
 author: John-Hart
 ms.author: johnhart
 manager: jmartens
@@ -20,6 +22,7 @@ ms.technology: sharepoint-development
 ms.workload:
   - "office"
 ---
+
 # Troubleshoot SharePoint solutions
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]

@@ -1,7 +1,6 @@
 ---
 title: Subscribing to an Event | Microsoft Docs
 description: Learn how to create a tool window that responds to events in a running document table in the Visual Studio SDK.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

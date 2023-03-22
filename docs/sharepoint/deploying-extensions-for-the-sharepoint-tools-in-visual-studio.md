@@ -1,7 +1,6 @@
 ---
 title: "Deploying Extensions for the SharePoint Tools in Visual Studio | Microsoft Docs"
 description: Deploy extensions for SharePoint tools in Visual Studio. Use Visual Studio extension (VSIX) projects to create VSIX packages.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

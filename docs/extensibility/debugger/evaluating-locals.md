@@ -1,7 +1,6 @@
 ---
 title: Evaluating Locals | Microsoft Docs
 description: Learn how Visual Studio accesses the location in memory that contains a local value, which is dependent on the current state of the program.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

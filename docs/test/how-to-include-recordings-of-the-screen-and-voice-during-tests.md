@@ -1,7 +1,6 @@
 ---
 title: Record Screen and Voice During Tests
 description: Learn how to configure the diagnostic data adapter that records the screen and voice of the user who's running the test in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
 ms.topic: how-to
 helpviewer_keywords:

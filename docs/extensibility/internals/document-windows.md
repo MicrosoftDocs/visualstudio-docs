@@ -1,7 +1,6 @@
 ---
 title: Document Windows | Microsoft Docs
 description: Learn about document windows in Visual Studio, including how to implement them and how the Running document table (RDT) tracks their status.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

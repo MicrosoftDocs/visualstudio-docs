@@ -1,7 +1,6 @@
 ---
 title: When Element (MSBuild) | Microsoft Docs
 description: Learn about the MSBuild When element, which specifies a possible block of code for the Choose element to select.
-ms.custom: SEO-VS-2020
 ms.date: 08/10/2022
 ms.topic: reference
 f1_keywords:

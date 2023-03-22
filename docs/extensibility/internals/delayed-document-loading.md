@@ -1,7 +1,6 @@
 ---
 title: Delayed Document Loading | Microsoft Docs
 description: Learn about delayed document loading in Visual Studio, and how to code extensions so that they do not query elements in a document before it is loaded.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: fb07b8e2-a4e3-4cb0-b04f-8eb11c491f35

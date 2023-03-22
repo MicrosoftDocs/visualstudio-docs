@@ -1,7 +1,6 @@
 ---
 title: "How to: Run Code When Deployment Steps are Executed | Microsoft Docs"
 description: Run code to handle events that are raised by SharePoint project items before and after Visual Studio executes a deployment step.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

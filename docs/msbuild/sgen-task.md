@@ -1,7 +1,6 @@
 ---
 title: SGen Task | Microsoft Docs
 description: Learn how MSBuild uses the SGen task to create an XML serialization assembly for types, by wrapping the XML Serializer Generator tool Sgen.exe. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

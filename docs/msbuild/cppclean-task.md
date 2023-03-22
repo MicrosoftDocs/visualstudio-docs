@@ -1,7 +1,6 @@
 ---
 title: CPPClean Task | Microsoft Docs
 description: This article describes the CPPClean task, which is used to delete the temporary files that MSBuild creates when a C++ project is built.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

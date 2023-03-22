@@ -1,7 +1,6 @@
 ---
 title: Workflow Designer - TryCatch Activity Designer
 description: Learn about the TryCatch activity and how you can use the TryCatch activity designer to create and configure a TryCatch activity.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

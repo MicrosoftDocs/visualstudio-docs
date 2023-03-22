@@ -25,6 +25,8 @@ Bridge to Kubernetes lets you replicate environment variables and mounted volume
 
 ## Requirements
 
+> [!NOTE]
+> Bridge to Kubernetes does not work with Docker for Desktop Kubernetes clusters.
 To use Bridge to Kubernetes, you need either of the following configurations:
 
 - VS Code with the [Bridge to Kubernetes extension](https://aka.ms/bridge-to-k8s-vsc-extension) installed.

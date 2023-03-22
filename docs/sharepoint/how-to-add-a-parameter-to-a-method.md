@@ -1,7 +1,6 @@
 ---
 title: "How to: Add a Parameter to a Method | Microsoft Docs"
 description: Know how to add a parameter to a business data connectivity (BDC) method, which lets you pass information into the method or return information from the method.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

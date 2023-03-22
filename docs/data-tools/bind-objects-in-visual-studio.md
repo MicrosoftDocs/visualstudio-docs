@@ -1,7 +1,6 @@
 ---
 title: Data bind custom objects
 description: Bind objects as data sources in Visual Studio. Use design-time tools for working with custom objects as the data source in your application.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:

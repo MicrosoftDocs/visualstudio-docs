@@ -1,7 +1,7 @@
 ---
 title: Visual Studio SDK | Microsoft Docs
 description: The Visual Studio SDK helps you extend features or add new features to Visual Studio. Learn about some of the ways in which you can extend Visual Studio.
-ms.custom: SEO-VS-2020
+ms.custom: UpdateFrequency3
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:

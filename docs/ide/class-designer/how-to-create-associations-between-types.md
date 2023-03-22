@@ -1,7 +1,6 @@
 ---
 title: Create associations between types
 description: Learn how to create associations between different types in Class Designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:

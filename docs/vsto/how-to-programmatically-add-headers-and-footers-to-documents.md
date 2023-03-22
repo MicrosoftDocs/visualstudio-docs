@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically add headers and footers to documents"
 description:  Learn how you can add text to headers and footers in your document by using the Headers property and Footers property of the Section.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

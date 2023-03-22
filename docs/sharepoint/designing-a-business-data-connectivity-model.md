@@ -1,7 +1,6 @@
 ---
 title: "Designing a Business Data Connectivity Model | Microsoft Docs"
 description: Design a business data connectivity (BDC) model. Add entities and methods. Define method parameters. Add filter descriptors. Validate the BDC model.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: 'Test Area 7: Share | Microsoft Docs'
 description: This source control test area covers sharing items between locations by using the Share command for your Visual Studio source control plug-in.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Unit Tests Target Earlier Version of .NET Framework
 description: Learn to create unit test projects to target specific versions of the .NET Framework. The targeted version must be 3.5 or later, and cannot be a client version.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.author: mikejo

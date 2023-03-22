@@ -1,7 +1,6 @@
 ---
 title: Validate data in datasets
 description: Learn to validate data in datasets. Validating data involves confirming that values entered into data objects conform to constraints within a dataset's schema.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:

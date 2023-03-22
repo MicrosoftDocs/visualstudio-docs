@@ -1,7 +1,6 @@
 ---
 title: "Permit code to run behind docs with restricted permissions"
 description: Learn how you can permit code to run behind documents with restricted permissions by using Office development tools in Visual Studio.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

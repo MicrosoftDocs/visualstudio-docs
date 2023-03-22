@@ -2,7 +2,6 @@
 title: "Walkthrough: Extending Server Explorer to Display Web Parts | Microsoft Docs"
 titleSuffix: ""
 description: In this walkthrough, extend Server Explorer so that it displays the Web Part gallery on each connected SharePoint site.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

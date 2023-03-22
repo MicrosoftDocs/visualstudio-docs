@@ -1,7 +1,6 @@
 ---
 title: Set a Watch on Variables in Parallel Threads | Microsoft Docs
 description: Set a watch on variables in parallel threads in Visual Studio. Simultaneously display the values that one expression holds on multiple threads.
-ms.custom: SEO-VS-2020
 ms.date: 04/25/2017
 ms.topic: how-to
 f1_keywords: 

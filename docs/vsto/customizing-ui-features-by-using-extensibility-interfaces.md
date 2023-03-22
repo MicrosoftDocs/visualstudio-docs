@@ -1,7 +1,6 @@
 ---
 title: "Customize UI features By using extensibility interfaces"
 description: Learn that the Office development tools in Visual Studio provide extensibility interfaces that help you customize UI features.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

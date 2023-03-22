@@ -1,13 +1,10 @@
+items:
 - name: Create SharePoint Solutions
   items:
   - name: Create SharePoint Solutions
     href: create-sharepoint-solutions.md
   - name: Getting Started in SharePoint Development
-    items:
-    - name: Getting Started in SharePoint Development
-      href: getting-started-sharepoint-development-in-visual-studio.md
-    - name: Additional Information for SharePoint Errors
-      href: additional-information-for-sharepoint-errors.md
+    href: getting-started-sharepoint-development-in-visual-studio.md
   - name: Developing SharePoint Solutions
     items:
     - name: Developing SharePoint Solutions

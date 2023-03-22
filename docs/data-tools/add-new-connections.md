@@ -1,8 +1,7 @@
 ---
-title: Add new connections
-description: Add a connection in Visual Studio to a DB or service, and explore DB contents and schemas, using Server Explorer or SQL Server Object Explorer.
-ms.custom: SEO-VS-2020
-ms.date: 02/28/2023
+title: Connect to a database or open an MDF file
+description: Connect to a database or data service, or connect to a database opened from an MDF file in Visual Studio.
+ms.date: 03/07/2023
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -11,14 +10,16 @@ ms.technology: vs-data-tools
 ms.workload:
 - data-storage
 ---
-# Add new connections
+# Connect to a database
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The steps in this article show how to connect to a database in the Visual Studio IDE. You can use these steps to work directly with your data, such as execute queries, edit data, create and edit tables and other schema properties, edit stored procedures and functions, triggers, and so on. These functions are independent of the programming language or .NET version you are using.
+The steps in this article show how to connect to a data source in the Visual Studio IDE. The data source can be a local database, online data service, or a database opened from an `.mdf` file. You can work directly with your data in Visual Studio. You can execute queries, edit data, create and edit tables and other schema properties, edit stored procedures and functions, triggers, and so on. These functions are independent of the programming language or .NET version you are using.
+
+## Server Explorer and SQL Server Object Explorer
 
 :::moniker range="<=vs-2019"
-You can test your connection to a database or service, and explore database contents and schemas, by using **Server Explorer**, **Cloud Explorer**, or **SQL Server Object Explorer**. The functionality of these windows overlaps to some extent. The basic differences are:
+You can open a connection to a database or service, a LocalDB database opened from an `.mdf` file, and view and edit tables and data rows, by using **Server Explorer** or **SQL Server Object Explorer**. The functionality of these windows overlaps to some extent. The basic differences are:
 
 - Server Explorer
 
@@ -33,7 +34,7 @@ You can test your connection to a database or service, and explore database cont
    Installed with SQL Server Data Tools and visible under the **View** menu. If you don't see it there, go to **Programs and Features** in Control Panel, find Visual Studio, and then select **Change** to re-run the installer after selecting the check box for SQL Server Data Tools. Use **SQL Server Object Explorer** to view SQL databases (if they have an ADO.NET provider), create new databases, modify schemas, create stored procedures, retrieve connection strings, view the data, and more. SQL databases that have no ADO.NET provider installed won't show up here, but you can still connect to them programmatically.
 ::: moniker-end
 :::moniker range=">=vs-2022"
-You can test your connection to a database or service, and explore database contents and schemas, by using **Server Explorer** or **SQL Server Object Explorer**. The functionality of these windows overlaps to some extent. The basic differences are:
+You can open a connection to a database or service, or a LocalDB database opened from an `.mdf` file, and view and edit tables and data rows, by using **Server Explorer** or **SQL Server Object Explorer**. The functionality of these windows overlaps to some extent. The basic differences are:
 
 - Server Explorer
 
@@ -46,7 +47,7 @@ You can test your connection to a database or service, and explore database cont
 
 ## Add a connection in Server Explorer
 
-To create a connection to the database, click the **Add Connection** icon in **Server Explorer**, or right-click in **Server Explorer** on the **Data Connections** node and select **Add Connection**. From here, you can also connect to a database on another server, a SharePoint service, or an Azure service.
+To create a connection to the database, click the **Connect to database** icon in **Server Explorer**, or right-click in **Server Explorer** on the **Data Connections** node and select **Add Connection**. From here, you can open a connection to a LocalDB database opened from an `.mdf` file, connect to a database on another server, a SharePoint service, or an Azure service.
 
 :::moniker range="<=vs-2019"
 ![Screenshot showing Server Explorer New Connection icon.](../data-tools/media/server-explorer-new-connection-icon.png)
@@ -65,6 +66,24 @@ This brings up the **Add Connection** dialog box. Here, we have entered the name
 :::moniker-end
 
 If you don't have access to another database, and you don't see LocalDB installed, you can install LocalDB through the Visual Studio Installer, as part of the **Data Storage and Processing** workload, the **ASP.NET and web development** workload, or as an individual component. See [Modify Visual Studio](../install/modify-visual-studio.md).
+
+### MDF files
+
+The `.mdf` file stands for Master Database File and is a SQL database packaged into a file. These files have an associated `.ldf` (Log Database File) that contains the logs for that database. You can create new databases that are stored in `.mdf` files by adding a **Service-based Database** item to your project. See [Create a database and add tables](create-a-sql-database-by-using-a-designer.md).
+
+If you already have `.mdf` file in your project, you can double-click or right-click and choose **Open** to open it in Server Explorer.
+
+To open an `.mdf` file that's not in your project in Visual Studio's Server Explorer, follow these steps:
+
+1. In the **Add connection** dialog box, under **Data Source**, choose **Microsoft SQL Server Database File (SqlClient)**.
+
+1. Use the **Browse** button to find and select your master database file (`.mdf` file), or enter the path in the **Database filename** box.
+
+   ![Screenshot showing Add Connection dialog box, connecting to a SQL Database file.](./media/vs-2022/connect-to-database-file.png)
+
+1. Choose the authentication method.
+
+1. Test the connection, and if it is successful, choose **OK**. A node for the database opens in Server Explorer.
 
 ## Change the provider
 
@@ -120,7 +139,7 @@ The connect dialog comes up. Choose your local, network, or Azure SQL server, se
 
 ![Screenshot of SQL Server Object Explorer Connect dialog.](./media/vs-2022/sql-server-object-explorer-connect-dialog.png)
 
-If you need to set other settings in your connection string, you can use the **Advanced** link, which brings up all the settings.
+If you need to set other settings in your connection string, you can use the **Advanced** link, which brings up all the settings. For example, to connect to a LocalDB database that's based on an MDF file, choose **Advanced** and then set the property **AttachDbFilename**.
 
 ![Screenshot showing Advanced settings.](./media/vs-2022/sql-connect-advanced-options.png)
 

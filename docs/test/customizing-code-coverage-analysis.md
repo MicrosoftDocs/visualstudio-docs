@@ -1,7 +1,6 @@
 ---
 title: Customizing Code Coverage Analysis
 description: Learn how to use the ExcludeFromCodeCoverageAttribute attribute to exclude test code from coverage results. You can include assemblies outside your solution.
-ms.custom: SEO-VS-2020
 ms.date: 05/27/2022
 ms.topic: conceptual
 ms.author: mikejo
@@ -29,6 +28,8 @@ To customize code coverage, follow these steps:
 
 1. Add a run settings file to your solution. In **Solution Explorer**, on the shortcut menu of your solution, choose **Add** > **New Item**, and select **XML File**. Save the file with a name such as *CodeCoverage.runsettings*.
 
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
+   
 2. Add the content from the example file at the end of this article, and then customize it to your needs as described in the sections that follow.
 
 3. To select the run settings file, on the **Test** menu, choose **Select Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file-from-the-command-line).

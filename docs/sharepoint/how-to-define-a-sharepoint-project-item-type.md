@@ -1,7 +1,6 @@
 ---
 title: "How to: Define a SharePoint Project Item Type | Microsoft Docs"
 description: Understand how to define a project item type when you want to create a custom SharePoint project item.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

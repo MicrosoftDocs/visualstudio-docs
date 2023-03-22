@@ -1,7 +1,6 @@
 ---
 title: Database projects and DAC projects
 description: Read about database projects and data-tier applications (DACs). Use DB projects to create new databases, create new DACs, and update existing DBs and DACs.
-ms.custom: SEO-VS-2020
 ms.date: 11/21/2018
 ms.topic: conceptual
 helpviewer_keywords:

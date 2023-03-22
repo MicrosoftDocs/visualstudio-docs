@@ -1,7 +1,6 @@
 ---
 title: Create an XML Schema
 description: Learn how to use the XML editor in Visual Studio to create an XML Schema definition language (XSD) schema from an XML document.
-ms.custom: SEO-VS-2020
 ms.date: 03/05/2019
 ms.topic: how-to
 ms.assetid: 1d6700a9-fd67-4794-8997-399589e99bec

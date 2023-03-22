@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Creating a SharePoint Project Extension | Microsoft Docs"
 description: Create a SharePoint project extension, which you can use to respond to project-level events, such as when a project is added, deleted, or renamed.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
