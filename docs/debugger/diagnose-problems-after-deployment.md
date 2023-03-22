@@ -19,7 +19,7 @@ This article provides recommendations for diagnosing problems after deployment.
 
 ## <a name="TFS2017"></a> Azure DevOps, Visual Studio, and Team Foundation Server 2017
 
-Visual Studio 2017 and later versions do not include the *BuildInfo.config* file, which was deprecated and then removed. This file was required to use IntelliTrace with ASP.NET apps. To debug apps after deployment, use one of the following methods:
+Visual Studio 2017 and later versions do not include the *BuildInfo.config* file, which was deprecated and then removed. This file was required to use IntelliTrace with deployed ASP.NET apps. To debug apps after deployment, use one of the following methods:
 
 * For deployment to Azure, use [Application Insights](/azure/application-insights/).
 
