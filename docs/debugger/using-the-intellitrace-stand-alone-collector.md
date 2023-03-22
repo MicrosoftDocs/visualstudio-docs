@@ -73,7 +73,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 1. On your app's server, create the collector directory, for example: **C:\IntelliTraceCollector**
 
-2. Get the collector from the [Microsoft Download Center](https://visualstudio.microsoft.com/downloads/#intellitrace-standalone-collector-for-visual-studio-2019), [my.visualstudio.com](https://my.visualstudio.com/Downloads?q=intellitrace%20standalone%20collector%20visual%20studio%202017), or from the Visual Studio 2013 Update 3 installation folder. [IntelliTrace Collector for Visual Studio 2013 Update 4](https://www.microsoft.com/download/details.aspx?id=44909)::
+2. Get the collector from the [Microsoft Download Center](https://visualstudio.microsoft.com/downloads/#intellitrace-standalone-collector-for-visual-studio-2022), [my.visualstudio.com](https://my.visualstudio.com/Downloads?q=intellitrace%20standalone%20collector%20visual%20studio%202022), or from the Visual Studio installation folder.
 
    - **Microsoft Download Center** or **my.visualstudio.com**:
 
@@ -89,7 +89,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
      1. Copy IntelliTraceCollection.cab from the folder where the collector is installed, for example:
 
-          **..\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace**
+          **..\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace**
 
           or, for previous versions of Visual Studio:
 

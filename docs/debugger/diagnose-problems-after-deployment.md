@@ -17,9 +17,9 @@ ms.workload:
 
 This article provides recommendations for diagnosing problems after deployment.
 
-## <a name="TFS2017"></a> Azure DevOps and Team Foundation Server 2017
+## <a name="TFS2017"></a> Azure DevOps, Visual Studio, and Team Foundation Server 2017
 
-Visual Studio 2017 and later versions do not include the *BuildInfo.config* file, which was deprecated and then removed. This was required to use IntelliTrace with ASP.NET apps. To debug apps after deployment, use one of the following methods:
+Visual Studio 2017 and later versions do not include the *BuildInfo.config* file, which was deprecated and then removed. This file was required to use IntelliTrace with ASP.NET apps. To debug apps after deployment, use one of the following methods:
 
 * For deployment to Azure, use [Application Insights](/azure/application-insights/).
 
@@ -40,4 +40,4 @@ For more information, see [Diagnose problems after deployment (Visual Studio 201
 
  You'll need Visual Studio Enterprise on your development computer or another computer to review the recorded events and debug your code using IntelliTrace. You can also use tools like CodeLens, debugger maps, and code maps to help you diagnose the problem.
 
- If you do use IntelliTrace to investigate issues, see [Find the problem](/previous-versions/visualstudio/visual-studio-2015/debugger/diagnose-problems-after-deployment?view=vs-2015#InvestigateEvents).
+ If you do use IntelliTrace to investigate issues, see [Find the problem](/previous-versions/visualstudio/visual-studio-2015/debugger/diagnose-problems-after-deployment?view=vs-2015#InvestigateEvents) for more in-depth instructions.
