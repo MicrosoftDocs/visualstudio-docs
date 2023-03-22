@@ -171,7 +171,6 @@ By default, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] builds eac
 
    See [Specify custom build events](specifying-custom-build-events-in-visual-studio.md).
 
-   The obj folder is not created when you build from the MSBuild command line.
 
 ## See also
 

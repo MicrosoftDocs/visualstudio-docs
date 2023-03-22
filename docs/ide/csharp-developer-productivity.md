@@ -18,6 +18,8 @@ ms.workload:
 
 Learn how Visual Studio makes [.NET](/dotnet/fundamentals/) developers who use [C#](/dotnet/csharp/) more productive than ever. Take advantage of our performance and productivity improvements like navigation to decompiled assemblies, variable name suggestions as you type, a hierarchy-view in **Test Explorer**, Go To All (**Ctrl**+**T**) to navigate to file/type/member/symbol declarations, an intelligent **Exception Helper**, code style configuration and enforcement, and many refactorings and code fixes.
 
+For general productivity for .NET, C++, and other languages, see [Productivity guide for Visual Studio](../ide/productivity-features.md). For information about helpful keyboard shortcuts, see [Productivity shortcuts](../ide/productivity-shortcuts.md). For a complete list of command shortcuts, see [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
+
 ## Use keyboard shortcuts from a different editor
 
 If you're coming from another IDE or coding environment, you can change your keyboard scheme to *Visual Studio Code* or *ReSharper (Visual Studio)*:

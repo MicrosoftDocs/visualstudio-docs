@@ -1,7 +1,6 @@
 ---
 title: Adding Icons to Menu Commands | Microsoft Docs
 description: Learn how to add icons to commands that can appear on both menus and toolbars in the Visual Studio integrated development environment (IDE).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -9,8 +8,8 @@ helpviewer_keywords:
 - toolbars [Visual Studio], adding icons to commands
 - commands [Visual Studio], adding icons
 ms.assetid: 362a0c7e-5729-4297-a83f-1aba1a37fd44
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

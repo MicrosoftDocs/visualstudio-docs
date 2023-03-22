@@ -1,7 +1,6 @@
 ---
 title: Filter and sort data in a Windows Forms application
 description: Filter and sort data in a Windows Forms application. Set the Filter property to a string expression that returns the desired records.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:

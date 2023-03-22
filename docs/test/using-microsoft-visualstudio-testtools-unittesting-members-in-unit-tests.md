@@ -1,7 +1,6 @@
 ---
 title: Use MSTest in unit tests
 description: Learn about the MSTest framework, which supports unit testing in Visual Studio. Use these classes and members to code unit tests.
-ms.custom: SEO-VS-2020
 ms.date: 10/17/2022
 ms.topic: reference
 ms.author: mikejo
@@ -239,7 +238,7 @@ public class MyOtherTestClass
 
 It's possible to control the inheritance behavior: only for current class using `InheritanceBehavior.None` or for all derived classes using `InheritanceBehavior.BeforeEachDerivedClass`.
 
-It's also possible to configure whether the class cleanup should be run at the end of the class or at the end of the assembly (current default).
+It's also possible to configure whether the class cleanup should be run at the end of the class or at the end of the assembly (No longer supported starting from MSTest v4 as EndOfClass is the default and only [class cleanup](<xref:Microsoft.VisualStudio.TestTools.UnitTesting.ClassCleanupAttribute>) behavior).
 
 The methods marked with these attributes should be defined as `static void` or `static Task`, in a `TestClass`, and appear only once. The initialize part requires one argument of type [TestContext](xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestContext) and the cleanup no argument.
 
@@ -341,8 +340,6 @@ The following attributes and the values assigned to them appear in the Visual St
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.OwnerAttribute>
 
-- <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute>
-
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute>
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.IgnoreAttribute>
@@ -352,6 +349,33 @@ The following attributes and the values assigned to them appear in the Visual St
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute>
 
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.WorkItemAttribute>
+
+### DeploymentItemAttribute
+
+The MSTest V2 framework introduced <xref:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute> for copying files or folders specified as deployment items to the deployment directory (without adding a custom output path the copied files will be in TestResults folder inside the project folder). The deployment directory is where all the deployment items are present along with test project DLL.
+
+It can be used either on test classes (classes marked with `TestClass` attribute) or on test methods (methods marked with `TestMethod` attribute).
+
+Users can have multiple instances of the attribute to specify more than one item.
+
+And here you can see its [constructors](<xref:Microsoft.VisualStudio.TestTools.UnitTesting.DeploymentItemAttribute>).
+
+**Example**
+
+```csharp
+[TestClass] 
+[DeploymentItem(@"C:\classLevelDepItem.xml")]   // Copy file using some absolute path
+public class UnitTest1
+{
+    [TestMethod]
+    [DeploymentItem(@"..\..\methodLevelDepItem1.xml")]   // Copy file using a relative path from the dll output location
+    [DeploymentItem(@"C:\DataFiles\methodLevelDepItem2.xml", "SampleDataFiles")]   // File will be added under a SampleDataFiles in the deployment directory
+    public void TestMethod1()
+    {
+        string textFromFile = File.ReadAllText("classLevelDepItem.xml");
+    }
+}
+```
 
 ## Test configuration classes
 

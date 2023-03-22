@@ -1,7 +1,6 @@
 ---
 title: Sync namespace and folder name
 description: Learn how to use the Quick Actions and Refactorings menu to sync the namespace and the folder name.
-ms.custom: SEO-VS-2020
 ms.date: 06/12/2019
 ms.topic: reference
 author: mikadumont

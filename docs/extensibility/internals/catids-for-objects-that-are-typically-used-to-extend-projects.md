@@ -1,7 +1,6 @@
 ---
 title: CATIDs for objects typically used to extend projects
 description: Learn the CATIDs for objects that are used to extend Project and ProjectItem automation objects for Visual Basic, Visual C#, and Visual C++ projects.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -9,8 +8,8 @@ helpviewer_keywords:
 - GUIDs, VSPackages
 - CATIDs for VSPackages
 ms.assetid: 0c7fdb66-ed96-4b36-89f6-021bca573572
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

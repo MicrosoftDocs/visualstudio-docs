@@ -1,7 +1,6 @@
 ---
 title: "How to: Add XMLNodes controls to Word documents"
 description: Learn that when you map a repeating XML schema element to a Microsoft Office Word document, Visual Studio automatically adds an XMLNodes control to your document.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

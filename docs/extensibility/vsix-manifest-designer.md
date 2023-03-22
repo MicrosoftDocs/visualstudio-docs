@@ -1,7 +1,6 @@
 ---
 title: VSIX Manifest Designer | Microsoft Docs
 description: Learn how the VSIX Manifest Designer modifies a VSIX package manifest file, which sets the installation behavior for a Visual Studio extension.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -11,8 +10,8 @@ helpviewer_keywords:
 - vsix manifest
 - manifest designer
 ms.assetid: 5a691e77-cf91-430d-90ea-361d9031ef83
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

@@ -1,7 +1,6 @@
 ---
 title: Set the ClickOnce Publish Version | Microsoft Docs
 description: Learn how to set the ClickOnce Publish Version property, which determines whether the application is an update. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

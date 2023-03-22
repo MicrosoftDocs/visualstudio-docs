@@ -1,7 +1,6 @@
 ---
 title: Configure Network Emulation Using Test Settings
 description: Learn how to configure the diagnostic data adapter to test your application under various network environments from Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
 ms.topic: how-to
 helpviewer_keywords:

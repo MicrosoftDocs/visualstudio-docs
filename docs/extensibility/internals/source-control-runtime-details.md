@@ -1,14 +1,13 @@
 ---
 title: Source Control Runtime Details | Microsoft Docs
 description: Learn how a project is added to source control, either when a user adds a file to the project in source control or through an automation controller.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], runtime details
 ms.assetid: 1acd30e0-f98c-4bde-b9cd-4076845887df
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

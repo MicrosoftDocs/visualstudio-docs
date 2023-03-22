@@ -1,15 +1,14 @@
 ---
 title: Options, Text Editor, C/C++, Experimental
 description: Learn how to use the Experimental page in the C/C++ section to change the experimental behaviors related to IntelliSense and the browsing database.
-ms.custom: SEO-VS-2020
 ms.date: 10/08/2021
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.Experimental"
   - "VS.ToolsOptionsPages.Text_Editor.C%2FC%2B%2B.Experimental"
   - "VS.ToolsOptionsPages.Text_Editor.C\\C++.Experimental"
-author: corob-msft
-ms.author: corob
+author: tylermsft
+ms.author: twhitney
 manager: markl
 ms.workload:
   - "cplusplus"

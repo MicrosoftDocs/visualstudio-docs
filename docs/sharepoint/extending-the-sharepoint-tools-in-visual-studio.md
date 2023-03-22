@@ -1,7 +1,6 @@
 ---
 title: "Extending the SharePoint Tools in Visual Studio | Microsoft Docs"
 description: Extend the SharePoint tools in Visual Studio. Extend the SharePoint project system. Extend the SharePoint connections node in Server Explorer.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 dev_langs:

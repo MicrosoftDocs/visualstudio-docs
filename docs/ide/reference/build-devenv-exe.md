@@ -1,7 +1,6 @@
 ---
 title: -Build (devenv.exe)
 description: Learn about the Build devenv command-line switch and how to use it to build a solution or project with a specified solution configuration file.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:

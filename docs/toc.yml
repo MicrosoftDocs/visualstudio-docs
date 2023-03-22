@@ -33,7 +33,7 @@
   - name: Import or export installation configurations
     href: install/import-export-installation-configurations.md
   - name: Troubleshoot installation issues
-    href: install/troubleshooting-installation-issues.md
+    href: /troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues?toc=%2Fvisualstudio%2Finstall%2Ftoc.json
   - name: Update Visual Studio
     href: install/update-visual-studio.md
   - name: Modify Visual Studio
@@ -71,7 +71,7 @@
         - name: Install and use Visual Studio behind a firewall or proxy server
           href: install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md
         - name: Troubleshoot network errors when you install or use Visual Studio
-          href: install/troubleshooting-network-related-errors-in-visual-studio.md
+          href: /troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors?toc=%2Fvisualstudio%2Finstall%2Ftoc.json
     - name: Deploy Help Viewer
       items:
         - name: Help Viewer Administrator Guide
@@ -183,11 +183,11 @@
       - name: Add or remove imported namespaces (Visual Basic)
         href: ide/how-to-add-or-remove-imported-namespaces-visual-basic.md
       - name: Troubleshoot broken references
-        href: ide/troubleshooting-broken-references.md
+        href: /troubleshoot/developer/visualstudio/project-build/troubleshooting-broken-references?toc=%2Fvisualstudio%2Fmsbuild%2Ftoc.json
     - name: Manage application resources (.NET)
       href: ide/managing-application-resources-dotnet.md
     - name: Troubleshoot Resource Editor errors
-      href: ide/troubleshoot-resource-editor-errors.md
+      href: /troubleshoot/developer/visualstudio/project-build/troubleshoot-resource-editor-errors?toc=%2Fvisualstudio%2Ftoc.json
     - name: Application settings (.NET)
       items:
       - name: Manage application settings (.NET)
@@ -221,7 +221,7 @@
       - name: Create web templates
         href: ide/how-to-manually-create-web-templates.md
       - name: Troubleshoot templates
-        href: ide/how-to-troubleshoot-templates.md
+        href: /troubleshoot/developer/visualstudio/project-build/how-to-troubleshoot-templates?toc=%2Fvisualstudio%2Fmsbuild%2Ftoc.json
     - name: Locate project and item templates
       href: ide/how-to-locate-and-organize-project-and-item-templates.md
     - name: Customize templates
@@ -251,6 +251,8 @@
     items:
     - name: Use the editor
       href: ide/writing-code-in-the-code-and-text-editor.md
+    - name: Use the Text Spell Checker (Preview)
+      href: ide/text-spell-checker.md
     - name: Find and replace
       items:
       - name: Find and replace text
@@ -300,7 +302,7 @@
           - name: Code snippets schema reference
             href: ide/code-snippets-schema-reference.md
           - name: Troubleshoot snippets
-            href: ide/troubleshooting-snippets.md
+            href: /troubleshoot/developer/visualstudio/ide/troubleshooting-snippets?toc=%2Fvisualstudio%2Ftoc.json
       - name: Quick Actions
         displayName: light bulb screwdriver suggestions
         href: ide/quick-actions.md
@@ -586,7 +588,7 @@
     - name: Keyboard and mouse shortcuts
       href: ide/class-designer/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md
     - name: Class Designer errors
-      href: ide/class-designer/additional-information-about-errors.md
+      href: /troubleshoot/developer/visualstudio/ide/troubleshoot-class-designer-errors?toc=%2Fvisualstudio%2Ftoc.json
   - name: Improve your code
     href: ide/find-and-fix-code-errors.md
   - name: Tips and tricks

@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, XML, Formatting
 description: Learn how to use the Formatting page in the XML section to to specify how elements and attributes are formatted in your XML documents.
-ms.custom: SEO-VS-2020
 ms.date: 10/29/2018
 ms.topic: reference
 f1_keywords:

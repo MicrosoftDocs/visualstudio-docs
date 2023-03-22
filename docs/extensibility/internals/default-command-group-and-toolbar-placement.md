@@ -1,7 +1,6 @@
 ---
 title: Default Command, Group, and Toolbar Placement | Microsoft Docs
 description: Learn about the IDE commands, product commands, and editor commands, that the Visual Studio user interface displays by default.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -12,8 +11,8 @@ helpviewer_keywords:
 - commands [Visual Studio], default IDE
 - commands [Visual Studio], default product
 ms.assetid: 35342110-d639-4577-8367-00b21dcc6f07
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

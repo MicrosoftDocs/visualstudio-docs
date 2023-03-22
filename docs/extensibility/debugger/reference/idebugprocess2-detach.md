@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProcess2::Detach
 ms.assetid: ee2b9084-2db1-4e49-a1d9-387284b7c3f8
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

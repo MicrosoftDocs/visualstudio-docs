@@ -1,14 +1,13 @@
 ---
 title: Creating a Settings Category | Microsoft Docs
 description: Learn how to create a Visual Studio settings category and use it to save and restore values from a settings file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - profile settings, creating categories
 ms.assetid: 97c88693-05ff-499e-8c43-352ee073dcb7
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

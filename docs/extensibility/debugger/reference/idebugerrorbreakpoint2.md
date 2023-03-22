@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugErrorBreakpoint2 interface
 ms.assetid: 1f2a4b94-3713-46e9-8272-3917187792bd
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

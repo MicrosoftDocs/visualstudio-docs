@@ -3,7 +3,6 @@ metadata:
   title: FxCop code analysis (binary analysis) and .NET analyzers (source analysis)
   ms.date: 09/06/2018
   description: Understand the difference between legacy FxCop (binary analysis) and .NET analyzers (source analysis) in Visual Studio. See answers to questions about how to use these analyzers.
-  ms.custom: SEO-VS-2020
   ms.topic: faq
   helpviewer_keywords:
   - code analysis FAQ

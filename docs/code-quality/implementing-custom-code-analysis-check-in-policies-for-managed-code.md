@@ -2,7 +2,6 @@
 title: Custom code analysis check-in policies for managed code
 ms.date: 11/04/2016
 description: Learn how to create a customized code analysis check-in policy. See how to ensure that Visual Studio managed code conforms to an Azure DevOps project policy.
-ms.custom: SEO-VS-2020
 ms.topic: how-to
 f1_keywords:
   - vs.code.analysis.selecttfsrulesets

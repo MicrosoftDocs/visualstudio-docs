@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExpression2 interface
 ms.assetid: f5e4b124-1e30-47c8-a511-80084a02dba5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

@@ -1,7 +1,6 @@
 ---
 title: T4 Template Directive
 description: Learn that a Visual Studio T4 text template usually starts with a template directive, which specifies how the template should be processed. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 author: mgoertz-msft

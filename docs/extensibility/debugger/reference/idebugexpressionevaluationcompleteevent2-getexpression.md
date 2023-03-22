@@ -2,7 +2,6 @@
 description: "Gets the original expression."
 title: IDebugExpressionEvaluationCompleteEvent2::GetExpression
 titleSuffix: ""
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -10,8 +9,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExpressionEvaluationCompleteEvent2::GetExpression
 ms.assetid: faf6b2dd-2afd-4852-b21c-7e8d3130e141
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

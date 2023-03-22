@@ -1,7 +1,6 @@
 ---
 title: "Create custom installer for ClickOnce application"
 description: Learn how a custom installer can silently install and update a ClickOnce application based on an .exe file. 
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

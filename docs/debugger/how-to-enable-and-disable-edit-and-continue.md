@@ -2,7 +2,7 @@
 title: Enable and disable Edit and Continue | Microsoft Docs
 description: Learn how to disable and enable Edit and Continue in Visual Studio Options at design time. Edit and Continue works only in debug builds.
 
-ms.date: 01/12/2022
+ms.date: 02/22/2023
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -40,6 +40,29 @@ For native C++, **Edit and Continue** requires using the `/INCREMENTAL` option. 
 
 **To enable or disable Edit and Continue:**
 
+::: moniker range=">=vs-2022"
+1. If you're in a debugging session, stop debugging (**Debug** > **Stop Debugging** or **Shift**+**F5**).
+
+1. In **Tools** > **Options** > (or **Debug** > **Options**) > **Debugging** > **General**, select **Enable Edit and Continue and Hot Reload** in the right pane.
+
+    > [!NOTE]
+    > If IntelliTrace is enabled and you collect both IntelliTrace events and call information, Edit and Continue is disabled. For more information, see [IntelliTrace](../debugger/intellitrace.md).
+
+1. For C++ code, make sure **Enable Edit and Continue and Hot Reload** is selected, and set the other options:
+
+    - **Apply changes on continue (Native only)**
+
+      If selected, Visual Studio automatically compiles and applies code changes when you continue debugging from a break state. Otherwise, you can choose to apply changes using **Debug** > **Apply Code Changes**.
+
+    - **Warn about stale code (Native only)**
+
+      If selected, gives warnings about stale code.
+
+1. Select **OK**.
+::: moniker-end
+
+::: moniker range="vs-2019"
+
 1. If you're in a debugging session, stop debugging (**Debug** > **Stop Debugging** or **Shift**+**F5**).
 
 1. In **Tools** > **Options** > (or **Debug** > **Options**) > **Debugging** > **General**, select **Edit and Continue** in the right pane.
@@ -57,3 +80,4 @@ For native C++, **Edit and Continue** requires using the `/INCREMENTAL` option. 
       If selected, gives warnings about stale code.
 
 1. Select **OK**.
+::: moniker-end

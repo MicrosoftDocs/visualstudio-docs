@@ -1,7 +1,6 @@
 ---
 title: Commands and Menus That Use Interop Assemblies | Microsoft Docs
 description: Learn about the tasks that must be completed when implementing menu and toolbar commands in a VSPackage by using Interop assemblies. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,8 +9,8 @@ helpviewer_keywords:
 - commands, handling using interop assemblies
 - command handling with interop assemblies
 ms.assetid: 8f4af525-39e5-4e69-92c8-d3efabe80bb2
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

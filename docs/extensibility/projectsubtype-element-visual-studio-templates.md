@@ -1,7 +1,6 @@
 ---
 title: ProjectSubType Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the ProjectSubType element and how it classifies the template into a subcategory of the value specified in the ProjectType element.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -11,8 +10,8 @@ helpviewer_keywords:
 - ProjectSubType element [Visual Studio Templates]
 - <ProjectSubType> element [Visual Studio Templates]
 ms.assetid: f6895cd4-3e95-4f0e-aa9e-8c7750f46ed4
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.workload:
 - vssdk

@@ -1,7 +1,6 @@
 ---
 title: What is the .NET Project Designer?
 description: Learn how to configure and customize .NET project properties by using the Project Designer.
-ms.custom: SEO-VS-2020
 ms.date: 06/17/2022
 ms.topic: reference
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Project Element (MSBuild) | Microsoft Docs
 description: Learn about the MSBuild Project element, which is the required root element of an MSBuild project file.
-ms.custom: SEO-VS-2020
 ms.date: 03/13/2017
 ms.topic: reference
 f1_keywords:

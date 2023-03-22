@@ -3,7 +3,7 @@ title: "Tour the Visual Studio IDE"
 description: Learn about some of the windows, menus, and other UI features of the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
 titleSuffix: ''
-ms.date: 1/31/2022
+ms.date: 1/31/2023
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -11,9 +11,6 @@ manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
 - multiple
-f1_keywords:
-- MSDNSTART
-- vs.ViewHelp
 ---
 # Tour the Visual Studio IDE
 
@@ -32,7 +29,7 @@ In the Visual Studio Installer, you'll choose and install *workloads*, which are
 :::image type="content" source="media/vs-2022/dot-net-development-workload.png" alt-text="Screenshot of the .NET desktop development workload selected in the Visual Studio Installer.":::
 
 If you already have Visual Studio, you can add the **.NET desktop development** workload as follows:
-* Launch the Visual Studio Installer..
+* Launch the Visual Studio Installer.
 * If prompted, allow the installer to update itself.
 * If an update for Visual Studio is available, an Update button will be shown. Select it to update before modifying the installation.
 * Find your Visual Studio installation and select the Modify button.

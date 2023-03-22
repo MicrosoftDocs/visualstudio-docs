@@ -1,7 +1,6 @@
 ---
 title: Quick Watch Command
 description: Learn about the Quick Watch command and how it displays the selected or specified text in the Expression field of the QuickWatch window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

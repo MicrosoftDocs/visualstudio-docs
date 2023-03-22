@@ -1,7 +1,6 @@
 ---
 title: Locate templates
 description: Learn how to locate and organize project and item templates.
-ms.custom: SEO-VS-2020
 ms.date: 11/15/2022
 ms.topic: how-to
 helpviewer_keywords:

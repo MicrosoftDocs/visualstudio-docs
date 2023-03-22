@@ -1,7 +1,6 @@
 ---
 title: "Autofill incrementally changing data ranges programmatically"
 description:  Learn how the AutoFill method of the Range object enables you to fill a range in a worksheet with values automatically.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngine2::ContinueFromSynchronousEvent
 ms.assetid: 9a57dfcd-df8e-4be5-b1fe-bd853e3c6bb2
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

@@ -1,15 +1,14 @@
 ---
 title: Deleting a Breakpoint | Microsoft Docs
 description: Learn how the session debug manager removes a pending breakpoint and all bound breakpoints bound from it when a pending breakpoint is deleted.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - breakpoints, deleting
 - debugging [Debugging SDK], deleting breakpoints
 ms.assetid: 75a046cc-d20a-4c79-ad2d-1f18426ac5d0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

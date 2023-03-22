@@ -1,7 +1,6 @@
 ---
 title: Binding Keyboard Shortcuts to Menu Items | Microsoft Docs
 description: Learn how to map a keyboard shortcut in Visual Studio to a custom button, menu item, or toolbar command for either the default editor or a custom editor.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -11,8 +10,8 @@ helpviewer_keywords:
 - keyboard shortcuts
 - menu items
 ms.assetid: 19f483b6-4d3e-424e-9d68-dc129c788e47
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

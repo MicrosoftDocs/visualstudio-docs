@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugAlias::GetObject method
 ms.assetid: 97bc3af6-6e55-4940-8a6d-692c61257806
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

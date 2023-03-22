@@ -1,7 +1,6 @@
 ---
 title: "Upgrade and migrate Office solutions"
 description: You must upgrade the project to use it in current versions of Visual Studio if you have an Office project that was created in an earlier version of Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:

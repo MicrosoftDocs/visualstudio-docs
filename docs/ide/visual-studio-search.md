@@ -1,7 +1,7 @@
 ---
 title: Use Visual Studio search
 description: Learn to use Visual Studio search to find settings, menus, code, and more.
-ms.date: 07/01/2022
+ms.date: 02/24/2023
 ms.topic: how-to
 helpviewer_keywords:
 - environments [Visual Studio], navigation
@@ -30,18 +30,18 @@ The Visual Studio integrated development environment (IDE) has many menus, optio
 ::: moniker range="vs-2022"
 
 > [!TIP]
-> To learn more about current and upcoming changes to the search experience in Visual Studio 2022, see the [Sneak Peek and Edit Your Code While You Search](https://devblogs.microsoft.com/visualstudio/sneak-peek-and-edit-your-code-while-you-search/) blog post.
+> To learn more about current and upcoming changes to the search experience in Visual Studio 2022, see the [Better search in Visual Studio](https://devblogs.microsoft.com/visualstudio/sneak-peek-and-edit-your-code-while-you-search/) blog post.
 
 ::: moniker-end
 
-Use the **Ctrl**+**Q** keyboard shortcut to access the search box or click the Visual Studio Search input box, located next to the menu bar by default:
+Use the **Ctrl**+**Q** keyboard shortcut to access the search box or select the Visual Studio Search input box, located next to the menu bar by default:
 
 :::image type="content" source="media/visual-studio-search-cropped.png" alt-text="Visual Studio search box" lightbox="media/visual-studio-search.png":::
 
 > [!NOTE]
-> The command executed by Visual Studio search is `Window.QuickLaunch` and you may see this feature referred to as quick search or quick launch.
+> The command executed by Visual Studio search is `Window.QuickLaunch` and you might see this feature referred to as quick search or quick launch.
 
-Unlike other search features such as [Find in Files](find-in-files.md) or Search Solution Explorer, search in Visual Studio results include IDE features, menu options, file names, and more. The following sections discuss the different types of results that Visual Studio search can find.
+Unlike other search features such as [Find in Files](find-in-files.md) or Search Solution Explorer, the search results in Visual Studio include IDE features, menu options, file names, and more. The following sections discuss the different types of results that Visual Studio search can find.
 
 ## Search menus, options, and windows
 
@@ -56,7 +56,7 @@ You can use the Visual Studio search box to find menu items and commands. For ex
 
 :::image type="content" source="media/visual-studio-search-menu.png" alt-text="Search Visual Studio menu items and commands":::
 
-Finally, you can search for windows or panels that you may have accidentally closed. For example, search for *test* to find and open the Test Explorer window:
+Finally, you can search for windows or panels that you might have accidentally closed. For example, search for *test* to find and open the Test Explorer window:
 
 :::image type="content" source="media/visual-studio-search-window.png" alt-text="Search Visual Studio windows and panels":::
 
@@ -72,7 +72,7 @@ You can also do a "camel case" search. In the following screenshot, a search for
 
 ## Keyboard shortcuts
 
-The search results includes tabs for **All**, **Code**, **Visual Studio**. You can save time by using the following keyboard shortcuts for different types of searches:
+The search results include tabs for **All**, **Code**, **Visual Studio**. You can save time by using the following keyboard shortcuts for different types of searches:
 
 - **Ctrl**+**Q**, **Ctrl**+**T** for files, types, and members
 - **Ctrl**+**Q**, **Ctrl**+**M** for Visual Studio menus, options, components, and templates
@@ -81,3 +81,4 @@ The search results includes tabs for **All**, **Code**, **Visual Studio**. You c
 ## See also
 
 - [Visual Studio commands](reference/visual-studio-commands.md)
+- [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md)

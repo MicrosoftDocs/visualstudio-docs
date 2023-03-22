@@ -1,7 +1,6 @@
 ---
 title: Workflow Designer - While Activity Designer
 description: Learn how the While activity executes the activity contained in its Body while the specified Condition evaluates to true.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

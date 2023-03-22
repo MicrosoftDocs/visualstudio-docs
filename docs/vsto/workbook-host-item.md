@@ -1,7 +1,6 @@
 ---
 title: "Workbook host item"
 description: Learn that the Workbook host item is a type that extends the Workbook type from the primary interop assembly for Microsoft Excel.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

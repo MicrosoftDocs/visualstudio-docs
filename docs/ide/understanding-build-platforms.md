@@ -1,7 +1,6 @@
 ---
 title: Understand build platforms
 description: Learn how you can store different versions of solution and project properties that apply to different target platforms in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: conceptual

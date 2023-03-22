@@ -1,15 +1,15 @@
 ---
 title: Start developing Visual Studio extensions | Microsoft Docs
 description: Get answers to some of the common questions that you may have the first time you start to write a Visual Studio extension.
-ms.custom: SEO-VS-2020, devdivchpfy22
+ms.custom: devdivchpfy22, UpdateFrequency3
 ms.date: 08/26/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - getting started, Visual Studio integration
 - Visual Studio, integration
 ms.assetid: 8fe5e2ab-a424-4173-9d39-dd082c4d58d0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

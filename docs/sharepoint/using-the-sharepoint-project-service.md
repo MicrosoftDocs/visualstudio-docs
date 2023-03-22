@@ -1,7 +1,6 @@
 ---
 title: "Using the SharePoint Project Service | Microsoft Docs"
 description: Use the SharePoint project service to perform tasks related to the project system. View a list of project service features.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

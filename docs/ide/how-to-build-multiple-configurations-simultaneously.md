@@ -1,7 +1,6 @@
 ---
 title: "How to: Build multiple configurations"
 description: Learn how you can build most types of projects with multiple, or even all, of their build configurations with one IDE action.
-ms.custom: SEO-VS-2020
 ms.date: 05/13/2020
 ms.technology: vs-ide-compile
 ms.topic: how-to

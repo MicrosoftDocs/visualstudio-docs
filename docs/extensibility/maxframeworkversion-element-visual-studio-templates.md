@@ -1,7 +1,6 @@
 ---
 title: MaxFrameworkVersion Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the MaxFrameworkVersion element and how it specifies the maximum version of the .NET Framework that is required by the template.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -9,8 +8,8 @@ helpviewer_keywords:
 - <MaxFrameworkVersion> Element (Visual Studio Templates)
 - MaxFrameworkVersion Element (Visual Studio Templates)
 ms.assetid: f732a9d3-fc29-405b-9298-01ea83fc58b8
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.workload:
 - vssdk

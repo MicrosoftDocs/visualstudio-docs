@@ -1,7 +1,6 @@
 ---
 title: Special Characters to Escape | Microsoft Docs
 description: Learn about special characters that must be escaped only if they have special meaning in the context in which they are being used.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:

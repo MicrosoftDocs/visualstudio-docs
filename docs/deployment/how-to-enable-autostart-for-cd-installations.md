@@ -1,7 +1,6 @@
 ---
 title: Enable AutoStart for CD Installations | Microsoft Docs
 description: Learn how to enable AutoStart when deploying a ClickOnce application by means of removable media such as CD-ROM or DVD-ROM.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

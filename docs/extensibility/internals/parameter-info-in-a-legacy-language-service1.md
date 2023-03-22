@@ -1,7 +1,6 @@
 ---
 title: Parameter Info in a Legacy Language Service1 | Microsoft Docs
 description: Learn how to implement the IntelliSense Parameter Info tooltip, which provides users with hints, in a legacy language service.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,8 +10,8 @@ helpviewer_keywords:
 - IVsMethodData interface
 - Parameter Info (IntelliSense)
 ms.assetid: f367295e-45b6-45d2-9ec8-77481743beef
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

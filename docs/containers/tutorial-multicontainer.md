@@ -2,7 +2,6 @@
 title: Work with multiple containers using Docker Compose
 author: ghogen
 description: Learn how to use multiple containers with Docker Compose
-ms.custom: SEO-VS-2020
 ms.author: ghogen
 ms.date: 6/01/2022
 ms.technology: vs-container-tools

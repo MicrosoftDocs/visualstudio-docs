@@ -1,7 +1,6 @@
 ---
 title: Display custom type using DebuggerTypeProxy | Microsoft Docs
 description: Use an instance of DebuggerTypeProxyAttribute to specify a proxy (stand-in) for a type, to change how the type is displayed in debugger windows.
-ms.custom: SEO-VS-2020
 ms.date: 04/22/2022
 ms.topic: how-to
 dev_langs: 

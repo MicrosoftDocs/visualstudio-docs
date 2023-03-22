@@ -1,7 +1,6 @@
 ---
 title: "Host items and host controls overview"
 description: Learn that host items and host controls are types that help provide the programming model for Office solutions.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

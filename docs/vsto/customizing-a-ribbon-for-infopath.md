@@ -1,7 +1,6 @@
 ---
 title: "Customize a Ribbon for InfoPath"
 description: Learn that when you customize the Ribbon in Microsoft Office InfoPath, you must consider where your custom Ribbon will appear in the application.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

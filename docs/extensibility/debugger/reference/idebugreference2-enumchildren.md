@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugReference2::EnumChildren
 ms.assetid: 35b3c2f3-69f4-4013-b555-f847221f62e8
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

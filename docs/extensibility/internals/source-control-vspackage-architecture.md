@@ -1,14 +1,13 @@
 ---
 title: Source Control VSPackage Architecture | Microsoft Docs
 description: Learn about the architecture of a source-control package, which is a VSPackage that provides functionality to Visual Studio as a source control service.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control packages, architecture
 ms.assetid: 453125fc-23dc-49b1-8476-94581f05e6c7
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

@@ -1,7 +1,6 @@
 ---
 title: Build the same source files with different options
 description: Learn how to create different MSBuild build configurations to build the same source files with different options.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

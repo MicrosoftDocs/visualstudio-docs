@@ -1,7 +1,6 @@
 ---
 title: Error Task | Microsoft Docs
 description: Use the MSBuild Error task to stop a build and log an error based on an evaluated conditional statement.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

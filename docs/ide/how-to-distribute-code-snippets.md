@@ -1,7 +1,6 @@
 ---
 title: Distribute code snippets as an extension
 description: Learn how to use the Code Snippets Manager to distribute code snippets to other developers.
-ms.custom: SEO-VS-2020
 ms.date: 11/11/2022
 ms.topic: how-to
 helpviewer_keywords:

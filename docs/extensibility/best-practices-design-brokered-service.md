@@ -2,7 +2,6 @@
 title: Best practices for designing a brokered service
 description: Best practices for designing, evolving, and implementing a brokered service.
 monikerRange: '>= vs-2019'
-ms.custom: SEO-VS-2020
 ms.date: 01/07/2022
 ms.topic: conceptual
 helpviewer_keywords:

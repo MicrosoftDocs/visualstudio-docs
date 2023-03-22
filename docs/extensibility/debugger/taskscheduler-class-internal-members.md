@@ -1,15 +1,14 @@
 ---
 title: TaskScheduler Class - Internal Members | Microsoft Docs
 description: Learn about the internal members of the System.Threading.Tasks.TaskScheduler class that help you implement a custom debugger.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - TaskScheduler class [.NET Framework debug engines]
 - debug engines, TaskScheduler class [.NET Framework]
 ms.assetid: 87f1c969-0217-4464-8907-7609c1bf61d3
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

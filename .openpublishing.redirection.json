@@ -1,5 +1,135 @@
 {
   "redirections": [
+        {
+      "source_path": "docs/debugger/troubleshooting-breakpoints.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/troubleshooting-remote-debugging.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/debuggers/troubleshooting-remote-debugging",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debug-live-azure-apps-troubleshooting.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/debuggers/debug-live-azure-apps-troubleshooting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/troubleshooting-vspackages.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/extensibility/troubleshooting-vspackages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/how-to-troubleshoot-brokered-services.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/extensibility/how-to-troubleshoot-brokered-services",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/how-to-troubleshoot-services.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/extensibility/how-to-troubleshoot-services",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/containers/troubleshooting-docker-errors.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/ide/troubleshooting-docker-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/troubleshooting-code-coverage.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/ide/troubleshooting-code-coverage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/troubleshooting-specific-errors-in-clickonce-deployments.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/ide/troubleshoot-clickonce-deployments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/not-in-toc/visual-studio-unrecoverable-process-error.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/ide/visual-studio-unrecoverable-process-error",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/class-designer/additional-information-about-errors.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/ide/troubleshoot-class-designer-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/troubleshooting-snippets.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/ide/troubleshooting-snippets",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/install/troubleshooting-installation-issues.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/install/troubleshooting-network-related-errors-in-visual-studio.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/msbuild/troubleshooting-dotnet-framework-targeting-errors.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/project-build/troubleshooting-dotnet-framework-targeting-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/troubleshooting-broken-references.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/project-build/troubleshooting-broken-references",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/how-to-troubleshoot-templates.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/project-build/how-to-troubleshoot-templates",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/troubleshoot-resource-editor-errors.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/project-build/troubleshoot-resource-editor-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/vsto/troubleshooting-office-solution-deployment.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-office-solution-deployment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/vsto/troubleshooting-errors-in-office-solutions.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-errors-in-office-solutions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/xaml-tools/xaml-hot-reload-troubleshooting.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/tools-utilities/xaml-hot-reload-troubleshooting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/data-tools/troubleshooting-service-references.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-service-references",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/vsto/troubleshooting-office-solution-security.md",
+      "redirect_url": "/troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-office-solution-security",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/troubleshoot-data-breakpoint-errors.md",
+      "redirect_url": "visualstudio/debugger/troubleshooting-breakpoints",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/additional-information-for-sharepoint-errors.md",
+      "redirect_url": "visualstudio/sharepoint/troubleshooting-sharepoint-solutions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/data-tools/upgrade-dot-mdf-files.md",
+      "redirect_url": "/visualstudio/data-tools/add-new-connections",
+      "redirect_document_id": false
+    },
     {
       "source_path": "docs/msbuild/updating-an-existing-application.md",
       "redirect_url": "/visualstudio/msbuild/find-and-use-msbuild-versions",
@@ -13,6 +143,11 @@
     {
       "source_path": "docs/ide/how-to-build-to-a-common-output-directory.md",
       "redirect_url": "/visualstudio/ide/how-to-change-the-build-output-directory#build-to-a-common-outputdirectory",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/install/set-defaults-for-enterprise-deployments.md",
+      "redirect_url": "/visualstudio/install/configure-policies-for-enterprise-deployments",
       "redirect_document_id": false
     },
     {
@@ -3023,6 +3158,146 @@
     {
       "source_path": "docs/data-tools/saving-data.md",
       "redirect_url": "/visualstudio/data-tools/save-data-back-to-the-database",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/deploy-windows-store-apps-from-visual-studio.md",
+      "redirect_url": "/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md",
+      "redirect_url": "/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugging-windows-store-and-windows-universal-apps.md",
+      "redirect_url": "/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugging-managed-code.md",
+      "redirect_url": "/visualstudio/debugger/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugging-applications.md",
+      "redirect_url": "/visualstudio/debugger/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/com-and-activex-debugging.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/com-and-activex-debugging",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-debug-an-activex-control.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/how-to-debug-an-activex-control",
+      "redirect_document_id": false
+    },  
+    {
+      "source_path": "docs/debugger/com-debugging-tools.md",
+      "redirect_url": "/windows/win32/com/ole-com-object-viewer",
+      "redirect_document_id": false
+    },    
+    {
+      "source_path": "docs/debugger/how-can-i-debug-access-violations-when-running-my-program-outside-the-debugger-q.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-can-i-debug-windows-api-functions-q.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-can-i-find-out-if-my-pointers-corrupt-a-memory-address-q.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-can-i-debug-an-access-violation-q.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-can-i-keep-focus-when-stepping-through-my-program-q.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-can-i-find-out-who-is-passing-a-wrong-parameter-value-q.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/where-can-i-look-up-win32-error-codes-q.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/when-calling-a-function-hundreds-of-times-how-do-i-know-which-call-failed-q.md",
+      "redirect_url": "/visualstudio/debugger/debugging-native-code-faqs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/crt-debugging-techniques.md",
+      "redirect_url": "/cpp/c-runtime-library/crt-debugging-techniques",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/crt-debug-library-use.md",
+      "redirect_url": "/cpp/c-runtime-library/crt-debugging-techniques#crt-debug-library-use",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/macros-for-reporting.md",
+      "redirect_url": "/cpp/c-runtime-library/crt-debugging-techniques#macros-for-reporting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debug-versions-of-heap-allocation-functions.md",
+      "redirect_url": "/cpp/c-runtime-library/debug-versions-of-heap-allocation-functions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/crt-debug-heap-details.md",
+      "redirect_url": "/cpp/c-runtime-library/crt-debug-heap-details",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debug-hook-function-writing.md",
+      "redirect_url": "/cpp/c-runtime-library/crt-debugging-techniques#debug-hook-function-writing",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/client-block-hook-functions.md",
+      "redirect_url": "/cpp/c-runtime-library/crt-debugging-techniques#client-block-hook-functions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/allocation-hook-functions.md",
+      "redirect_url": "/cpp/c-runtime-library/crt-debugging-techniques#allocation-hook-functions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/allocation-hooks-and-c-run-time-memory-allocations.md",
+      "redirect_url": "/cpp/c-runtime-library/crt-debugging-techniques#allocation-hooks-and-crt-memory-allocations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/report-hook-functions.md",
+      "redirect_url": "/cpp/c-runtime-library/crt-debugging-techniques#report-hook-functions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/finding-memory-leaks-using-the-crt-library.md",
+      "redirect_url": "/cpp/c-runtime-library/find-memory-leaks-using-the-crt-library",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-debug-injected-code.md",
+      "redirect_url": "/cpp/windows/attributes/cpp-attributes-com-net#debug-injected-code",
       "redirect_document_id": false
     },
     {
@@ -16818,6 +17093,11 @@
       "source_path": "docs/debugger/view-data-in-ienumerable-visualizer.md",
       "redirect_url": "/visualstudio/debugger/view-data-in-tabular-visualizer",
       "redirect_document_id": true
-    }
+    },
+    {
+      "source_path": "subscriptions/vs-cloudpilot.md",
+      "redirect_url": "/visualstudio/subscriptions",
+      "redirect_document_id": false
+    },
   ]
 }

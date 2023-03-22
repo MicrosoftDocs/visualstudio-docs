@@ -1,7 +1,6 @@
 ---
 title: Commands
 description: Learn about the various commands you have access to in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 03/10/2022
 ms.topic: reference
 helpviewer_keywords:

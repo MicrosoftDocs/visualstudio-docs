@@ -1,14 +1,13 @@
 ---
 title: Attaching to the Program | Microsoft Docs
 description: Learn how Visual Studio implements the debugger attaching to a program after the program has been registered with the appropriate port.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - debug engines, attaching to programs
 ms.assetid: 9a3f5b83-60b5-4ef0-91fe-a432105bd066
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

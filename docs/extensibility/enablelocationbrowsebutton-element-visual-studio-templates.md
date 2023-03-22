@@ -2,7 +2,6 @@
 title: EnableLocationBrowseButton Element (Visual Studio Templates)
 description: Learn about the EnableLocationBrowseButton element and how it specifies whether the Browse button is available in the New Project dialog box.
 titleSuffix: ""
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -11,8 +10,8 @@ f1_keywords:
 helpviewer_keywords:
 - EnableLocationBrowseButton [Visual Studio project templates]
 ms.assetid: a12d10d8-af49-482a-af77-e084fd07a47d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.workload:
 - vssdk

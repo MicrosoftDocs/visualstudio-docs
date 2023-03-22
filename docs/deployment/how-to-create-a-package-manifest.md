@@ -1,7 +1,6 @@
 ---
 title: Create a Package Manifest | Microsoft Docs
 description: Learn about using a bootstrapper package to deploy prerequisites for your ClickOnce application, which contains a package manifest for each locale.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

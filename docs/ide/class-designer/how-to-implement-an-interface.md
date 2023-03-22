@@ -1,7 +1,6 @@
 ---
 title: 'How to: Implement an Interface (Class Designer)'
 description: Learn how to implement an interface on the class diagram by connecting it to a class that provides code for the interface methods.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

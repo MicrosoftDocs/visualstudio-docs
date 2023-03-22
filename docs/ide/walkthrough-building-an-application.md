@@ -1,7 +1,6 @@
 ---
 title: 'Tutorial: Build an application'
 description: Become more familiar with several options that you can configure when you build applications with Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 05/10/2022
 ms.technology: vs-ide-compile
 ms.topic: tutorial

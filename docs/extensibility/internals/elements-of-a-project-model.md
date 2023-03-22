@@ -1,7 +1,6 @@
 ---
 title: Elements of a Project Model | Microsoft Docs
 description: Learn about the elements of a project model and how the interfaces and implementations of all projects in Visual Studio share a basic structure.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,8 +8,8 @@ helpviewer_keywords:
 - project models
 - projects [Visual Studio SDK], elements
 ms.assetid: a1dbe0dc-68da-45d7-8704-5b43ff7e4fc4
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

@@ -1,7 +1,6 @@
 ---
 title: Change publish language for ClickOnce application
 description: Learn how to specify a language/culture for a localize application in ClickOnce, instead of defaulting to the language/culture of your development computer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

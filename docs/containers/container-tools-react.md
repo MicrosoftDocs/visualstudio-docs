@@ -1,7 +1,6 @@
 ---
 title: Visual Studio Container Tools with ASP.NET Core and React.js
 titleSuffix: ""
-ms.custom: SEO-VS-2020
 author: ghogen
 description: Learn how to create a containerized React SPA app with Visual Studio Container Tools and Docker 
 ms.author: ghogen

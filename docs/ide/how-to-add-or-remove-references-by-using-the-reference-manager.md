@@ -1,7 +1,6 @@
 ---
 title: Add references in the Reference Manager
 description: Learn how to use the Reference Manager dialog box to add and manage references to developed components.
-ms.custom: SEO-VS-2020
 ms.date: 09/30/2022
 ms.topic: how-to
 f1_keywords:

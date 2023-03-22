@@ -1,14 +1,13 @@
 ---
 title: 'How to: Attach Views to Document Data | Microsoft Docs'
 description: You might be able to attach a new document view to an existing document data object. Use this procedure to determine if you can attach the view.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - attach views to document data
 ms.assetid: f92c0838-45be-42b8-9c55-713e9bb8df07
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

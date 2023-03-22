@@ -1,7 +1,6 @@
 ---
 title: XslTransformation Task | Microsoft Docs
 description: Learn how MSBuild uses the XslTransformation task to transform an XML input using an XSLT and output to an output device or file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:

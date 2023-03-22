@@ -1,8 +1,7 @@
 ---
 title: Find MSBuild and use its API | Microsoft Docs
 description: Learn how to ensure that programmatic builds from your application match builds done within Visual Studio or MSBuild.exe, and learn how to locate and use a consistent version on MSBuild when developing a programmatic build application on different machines.
-ms.custom: SEO-VS-2020
-ms.date: 11/11/2022
+ms.date: 2/28/2023
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
@@ -17,7 +16,10 @@ To ensure that programmatic builds from your application match builds done withi
 
 ## Use Microsoft.Build.Locator
 
-The Microsoft.Build.Locator package is relevant to situations where your application runs on client machines, virtual machines, or within containers, either where Visual Studio is installed or in environments where only the Visual Studio Build Tools, or just the .NET SDK is installed, such as when builds are requested with the `dotnet build` command line. In any case, your application needs to find the desired version of MSBuild. That could be the version that matches Visual Studio, MSBuild.exe, or `dotnet build`, or a particular consistent version regardless of the varying machine configurations in environments where your application might be used.
+The [Microsoft.Build.Locator package](https://www.nuget.org/packages/Microsoft.Build.Locator) is relevant to situations where your application runs on client machines, virtual machines, or within containers, either where Visual Studio is installed or in environments where only the Visual Studio Build Tools, or just the .NET SDK is installed, such as when builds are requested with the `dotnet build` command line. In any case, your application needs to find the desired version of MSBuild. That could be the version that matches Visual Studio, MSBuild.exe, or `dotnet build`, or a particular consistent version regardless of the varying machine configurations in environments where your application might be used.
+
+> [!WARNING]
+> The Microsoft.Build.Locator package contains assemblies for .NET Framework and .NET Core (also applicable to .NET 5 and later). In a .NET Framework application, the .NET Framework version of Microsoft.Build.Locator is used, and in a .NET Core application, the .NET Core version is used. However, the .NET Core version can only find instances of MSBuild built with .NET Core, the MSBuild used by `dotnet.exe` in .NET SDK installations, not Visual Studio installations or Visual Studio Build Tools installations. The .NET Framework version of Microsoft.Build.Locator can only see Visual Studio installations, Visual Studio Build Tools installations, not .NET SDK installations. Therefore, it might be necessary to build a tool in two different target framework configurations to target both.
 
 If you redistribute *Microsoft.Build.Locator.dll* with your application, you won't need to distribute other MSBuild assemblies.
 

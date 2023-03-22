@@ -1,7 +1,6 @@
 ---
 title: Debug ClickOnce apps that use System.Deployment.Application
 description: Learn how to use and customize advanced ClickOnce deployment features by accessing the deployment object model provided by System.Deployment.Application.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

@@ -1,7 +1,6 @@
 ---
 title: C++ Classes in Class Designer
 description: Learn about C++ classes and how they are supported and can have multiple inheritance relationships in Class Designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: "Deploying a VSTO Solution Using Windows Installer"
 description: Learn how to deploy a Microsoft Visual Studio Tools for Office (VSTO) add-in or document-level solution using a Visual Studio Installer project.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "08/18/2010"
 ms.topic: "conceptual"

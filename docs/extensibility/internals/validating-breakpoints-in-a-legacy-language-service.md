@@ -1,15 +1,14 @@
 ---
 title: Validating Breakpoints in a Legacy Language Service | Microsoft Docs
 description: Learn how you can override the ValidateBreakpointLocation method in a legacy language service to validate breakpoints before the debugger launches.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - breakpoint validation
 - language services [managed package framework], breakpoint validation
 ms.assetid: a7e873cd-dfe1-474f-bda5-fd7532774b15
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

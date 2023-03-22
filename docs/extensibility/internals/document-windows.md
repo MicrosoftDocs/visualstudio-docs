@@ -1,14 +1,13 @@
 ---
 title: Document Windows | Microsoft Docs
 description: Learn about document windows in Visual Studio, including how to implement them and how the Running document table (RDT) tracks their status.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Visual Studio SDK, document windows
 ms.assetid: 50081d48-987f-43db-8bf9-51b7cf76e9c0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

@@ -1,7 +1,7 @@
 ---
 title: Create dependency diagrams from your code
 description: Learn how you can create a dependency diagram in Visual Studio to visualize your software system's high-level, logical architecture. 
-ms.custom: SEO-VS-2020, devdivchpfy22
+ms.custom: devdivchpfy22
 ms.date: 01/12/2022
 ms.topic: how-to
 helpviewer_keywords:

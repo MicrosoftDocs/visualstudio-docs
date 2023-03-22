@@ -1,7 +1,6 @@
 ---
 title: Continuing Execution After an Exception | Microsoft Docs
 description: Learn what happens when the debugger breaks execution because of an unhandled exception. You may be able to continue execution in the same thread. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

@@ -1,7 +1,6 @@
 ---
 title: "InfoPath solutions"
 description: Learn how you can use Visual Studio to create VSTO Add-ins for Microsoft InfoPath 2013 and InfoPath 2010.
-ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:

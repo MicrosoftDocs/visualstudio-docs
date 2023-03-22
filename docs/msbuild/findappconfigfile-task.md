@@ -1,7 +1,6 @@
 ---
 title: FindAppConfigFile Task | Microsoft Docs
 description: Learn to use the MSBuild FindAppConfigFile task to find the app.config file, if any, in the provided lists.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
