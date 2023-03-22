@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Get started with Docker apps in Visual Studio Code"
+title: "Get started with Docker apps in VS Code"
 description: In this tutorial, learn how to start using Docker with VS Code. Create and deploy apps to Azure.
 author: ghogen
 ms.author: ghogen
@@ -13,24 +13,14 @@ ms.custom: template-tutorial, contperf-fy22q3
 
 # Tutorial: Create and share a Docker app with Visual Studio Code
 
-This tutorial is the beginning of a three-part series introducing Docker using Visual Studio Code (VS Code).
-You'll learn to create and run containers, persist data, and deploy your containerized application to Azure.
+This tutorial is the beginning of a three-part series introducing [Docker](https://www.docker.com) for use with Visual Studio Code (VS Code).  ou'll learn to create and run Docker containers, [persist data](tutorial-persist-data-layer-docker-app-with-vscode.md), and deploy your containerized application to Azure.
 
-In this first tutorial, you'll learn to create and deploy Docker apps.
-Then you can update and share your containerized app.
-
-Containers are compact virtualized environments, like virtual machines, that provide a platform for building and running apps.
-Containers don't require the size and overhead of a complete operating system.
-[Docker](https://www.docker.com) is a third-party, industry standard container provider and container management system.
-
-Docker Desktop runs on your computer and manages your local containers.
-Development tools like Visual Studio and VS Code offer extensions that let you work with a local Docker Desktop service.
-You can create containerized apps, deploy apps to containers, and debug apps running on your containers.
+VS Code offer an extension that let you work with a local Docker Desktop service. Docker Desktop runs on your computer and manages your local containers.  Containers are compact virtualized environments, like virtual machines, that provide a platform for building and running apps.  Containers don't require the size and overhead of a complete operating system.
 
 In this tutorial, you learn how to:
 
 > [!div class="checklist"]
-> - Create a container.
+> - Create a Docker container.
 > - Build a container image.
 > - Start an app container.
 > - Update the code and replace the container.
