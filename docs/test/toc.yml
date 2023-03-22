@@ -120,7 +120,7 @@
     - name: Microsoft.CodeCoverage.Console tool
       href: microsoft-code-coverage-console-tool.md
     - name: Troubleshoot code coverage
-      href: troubleshooting-code-coverage.md
+      href: /troubleshoot/developer/visualstudio/ide/troubleshooting-code-coverage?toc=%2Fvisualstudio%2Ftest%2Ftoc.json
   - name: Migration
     items:
     - name: Upgrade from MSTestV1 to MSTestV2
