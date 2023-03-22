@@ -256,7 +256,7 @@ Metadata referencing is resolved per item instance (not affected by any previous
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Target Name='ItemOutside'>  
+  <Target Name='ItemInside'>  
     <ItemGroup>
       <i Include='a/b.foo' MyPath='%(Filename)%(Extension)' />
       <i Include='c/d.foo' MyPath='%(Filename)%(Extension)' />
@@ -277,7 +277,7 @@ Metadata referencing in this case leads to batching - yielding possibly unexpect
 
 For each item instance the engine is applying metadata of all pre-existing item instances (that's why the `MyPath` is empty for the first item and contains `b.foo` for the second item), in case of more pre-existing instances this will lead to multiplication of the current item instance (that's why the `g/h.foo` item instance ocurring twice in the resulting list).
 
-To explicitly inform about this, possibly unintended, behavior newer version of MSBuild issue warning `MSB4120`:
+To explicitly inform about this, possibly unintended, behavior newer version of MSBuild issues warning `MSB4120`:
 
 ```output
 proj.proj(4,11):  warning MSB4120: Item 'i' definition within target is referencing self via metadata 'Filename' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
@@ -290,23 +290,15 @@ proj.proj(6,11):  warning MSB4120: Item 'i' definition within target is referenc
   i->MyPath=[;b.foo;b.foo;d.foo]
 ```
 
-If the self-reference is intentional, you can use the [transform](../msbuild/msbuild-transforms.md) notation to avoid the warning:
+If the self-reference is intentional, you have few options depending on the actual scenario and exact needs:
 
-```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Target Name='ItemOutside'>  
-    <ItemGroup>
-      <i Include='a/b.foo' MyPath="@(i->'%(Filename)')@(i->'%(Extension)')"  />
-      <i Include='c/d.foo' MyPath="@(i->'%(Filename)')@(i->'%(Extension)')"  />
-      <i Include='g/h.foo' MyPath="@(i->'%(Filename)')@(i->'%(Extension)')"  />
-    </ItemGroup>
-    <Message Text="i=[@(i)]" Importance='High' />
-    <Message Text="i->MyPath=[@(i->'%(MyPath)')]" Importance='High' />
-  </Target>
-</Project>
-```
+ * [Keep the code and suppress the warning](#suppressing-the-warning)
+ * [Define the item outside of the target](#item-self-referencing-metadata-outside-of-any-target)
+ * [Define helper item and leverage transforms](#using-helper-item-and-transform)
+ 
+#### Suppressing the Warning
 
-Or suppress the warning via `MSBuildWarningsAsMessages`:
+The `MSB4120` warning can be suppressed via `MSBuildWarningsAsMessages`:
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -318,6 +310,26 @@ Or suppress the warning via `MSBuildWarningsAsMessages`:
       <i Include='a/b.foo' MyPath='%(Filename)%(Extension)' />
       <i Include='c/d.foo' MyPath='%(Filename)%(Extension)' />
       <i Include='g/h.foo' MyPath='%(Filename)%(Extension)' />
+    </ItemGroup>
+    <Message Text="i=[@(i)]" Importance='High' />
+    <Message Text="i->MyPath=[@(i->'%(MyPath)')]" Importance='High' />
+  </Target>
+</Project>
+```
+
+However you'll still get the same behavior of cross-applying previous item instances with the current one - which might be undesirable. In that case choose different approach.
+
+#### Using helper item and transform
+
+If you want to prevent the batching behavior induced by the metadata reference, you can achieve that by defining separate item and then leveraging the [transform](../msbuild/msbuild-transforms.md) operation to create item instances with desired metadata:
+
+```xml
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name='ItemOutside'>  
+    <ItemGroup>
+      <j Include='a/b.foo' />
+      <j Include='c/*' />
+      <i Include='@(j)' MyPath="%(Filename)%(Extension)" />
     </ItemGroup>
     <Message Text="i=[@(i)]" Importance='High' />
     <Message Text="i->MyPath=[@(i->'%(MyPath)')]" Importance='High' />
