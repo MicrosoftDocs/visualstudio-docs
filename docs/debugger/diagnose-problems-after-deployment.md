@@ -25,7 +25,7 @@ Visual Studio 2017 and later versions do not include the *BuildInfo.config* file
 
 * If you need to use IntelliTrace, open the project in Visual Studio and load the symbol files from the matching build. You can load symbol files from the **Modules** window or by configuring symbols in **Tools** > **Options** > **Debugging** > **Symbols**.
 
-  You can also collect IntelliTrace diagnostic and method data for web, SharePoint, WPF, and Windows Form apps on remote machines without changing the target environment by using the IntelliTrace stand-alone collector. However, the stand-alone collector can have a significant performance impact. See [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-standalone-collector.md).
+  You can also collect IntelliTrace diagnostic and method data for web, SharePoint, WPF, and Windows Form apps on remote machines without changing the target environment by using the IntelliTrace stand-alone collector. However, the stand-alone collector can have a significant performance impact. See [Using the IntelliTrace stand-alone collector](../debugger/using-the-intellitrace-stand-alone-collector.md).
 
 ## <a name="TFS2013"></a> Team Foundation Server 2010, 2012, 2013, and 2015 (ASP.NET)
 
