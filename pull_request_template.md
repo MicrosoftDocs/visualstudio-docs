@@ -1,6 +1,10 @@
 
 
 <!--
+Thanks for contributing to the Visual Studio documentation.
+
+Note: Internal Microsoft employees and vendors should use the private repo, https://github.com/MicrosoftDocs/visualstudio-docs-pr. You must be a member of the MicrosoftDocs GitHub organization. To join, see https://review.learn.microsoft.com/en-us/help/get-started/setup-github?branch=main#3-join-microsoftdocs-and-other-organizations.
+
 Before creating your pull request, please check your content against these quality criteria:
 
 - Did you consider search engine optimization (SEO) when you chose the title in the metadata section and the H1 heading (i.e. the displayed title that starts with a single #)?
