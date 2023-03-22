@@ -19,11 +19,11 @@
 - name: Tutorials
   items:
   - name: Learn to debug C#
-    href: ../get-started/csharp/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
+    href: ../get-started/csharp/tutorial-debugger.md?toc=%2fvisualstudio%2fdebugger%2ftoc.json
   - name: Learn to debug C++
     href: getting-started-with-the-debugger-cpp.md
   - name: Learn to debug Visual Basic
-    href: ../get-started/visual-basic/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
+    href: ../get-started/visual-basic/tutorial-debugger.md?toc=%2fvisualstudio%2fdebugger%2ftoc.json
   - name: Running Python code in the debugger...
     href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
   - name: Debug a live Azure app
@@ -43,7 +43,7 @@
     - name: Use breakpoints
       href: using-breakpoints.md
     - name: Troubleshooting breakpoints
-      href: troubleshooting-breakpoints.md
+      href: /troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints?toc=%2fvisualstudio%2fdebugger%2ftoc.json
   - name: Data inspection
     items:
     - name: Inspect data in debugger windows
@@ -111,7 +111,7 @@
       - name: Write and debug running XAML code
         href: ../xaml-tools/xaml-hot-reload.md?toc=/visualstudio/debugger/toc.json
       - name: Troubleshooting XAML Hot Reload
-        href: ../xaml-tools/xaml-hot-reload-troubleshooting.md?toc=/visualstudio/debugger/toc.json
+        href: /troubleshoot/developer/visualstudio/tools-utilities/xaml-hot-reload-troubleshooting?toc=/visualstudio/debugger/toc.json
     - name: Edit and Continue not supported for F#
       href: edit-and-continue-not-supported-for-f-hash.md
     - name: Edit code and continue debugging
@@ -297,7 +297,7 @@
     - name: Unblock the download on Windows Server
       href: remote-debugging-unblock-file-download.md
     - name: Troubleshoot remote debugging
-      href: troubleshooting-remote-debugging.md
+      href: /troubleshoot/developer/visualstudio/debuggers/troubleshooting-remote-debugging?toc=%2Fvisualstudio%2Fdebugger%2Ftoc.json
     - name: Remote debugging error reference
       items:
       - name: Remote debugging errors and troubleshooting
@@ -429,7 +429,7 @@
     - name: FAQ for snapshot debugging
       href: debug-live-azure-apps-faq.yml
     - name: Troubleshooting snapshot debugging
-      href: debug-live-azure-apps-troubleshooting.md
+      href: /troubleshoot/developer/visualstudio/debuggers/debug-live-azure-apps-troubleshooting?toc=%2Fvisualstudio%2Fdebugger%2Ftoc.json
     - name: Time travel debugging for live Azure VM apps
       href: debug-live-azure-virtual-machines-time-travel-debugging.md
   - name: Linux debugging

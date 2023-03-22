@@ -200,7 +200,7 @@
     - name: Create a WCF Data Service with WPF and Entity Framework
       href: walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework.md
     - name: Troubleshoot service references
-      href: troubleshooting-service-references.md
+      href: /troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-service-references?toc=%2Fvisualstudio%2Fdata-tools%2Ftoc.json
     - name: Configure service reference dialog box
       href: configure-service-reference-dialog-box.md
     - name: Add, update, or remove a WCF Data Service reference
