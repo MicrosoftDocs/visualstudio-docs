@@ -13,7 +13,7 @@ ms.custom: template-tutorial, contperf-fy22q3
 
 # Tutorial: Create and share a Docker app with Visual Studio Code
 
-This tutorial is the beginning of a three-part series introducing [Docker](https://www.docker.com) for use with Visual Studio Code (VS Code).  ou'll learn to create and run Docker containers, [persist data](tutorial-persist-data-layer-docker-app-with-vscode.md), and deploy your containerized application to Azure.
+This tutorial is the beginning of a three-part series introducing [Docker](https://www.docker.com) for use with Visual Studio Code (VS Code).  You'll learn to create and run Docker containers, [persist data](tutorial-persist-data-layer-docker-app-with-vscode.md), and deploy your containerized application to Azure.
 
 VS Code offer an extension that let you work with a local Docker Desktop service. Docker Desktop runs on your computer and manages your local containers.  Containers are compact virtualized environments, like virtual machines, that provide a platform for building and running apps.  Containers don't require the size and overhead of a complete operating system.
 
