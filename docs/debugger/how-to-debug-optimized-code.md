@@ -32,9 +32,9 @@ ms.workload:
 > The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
 
 > [!NOTE]
-> The [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging)compiler option (introduced in Visual Studio Update 3) generates richer debugging information for optimized code (projects that are not built with the **/Od** compiler option. See [/O Options (Optimize Code)](/cpp/build/reference/o-options-optimize-code)). This includes improved support for debugging local variables and inlined functions.
+> The [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging) compiler option (introduced in Visual Studio Update 3) generates richer debugging information for optimized code (projects that are not built with the **/Od** compiler option. See [/O Options (Optimize Code)](/cpp/build/reference/o-options-optimize-code)). This includes improved support for debugging local variables and inlined functions.
 >
-> [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md) is disabled when the **/Zo** ocompiler option is used.
+> [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md) is disabled when the **/Zo** compiler option is used.
 
  When the compiler optimizes code, it repositions and reorganizes instructions. This results in more efficient compiled code. Because of this rearrangement, the debugger cannot always identify the source code that corresponds to a set of instructions.
 
