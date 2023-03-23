@@ -410,8 +410,6 @@
         href: diagnose-problems-after-deployment.md
       - name: Using the IntelliTrace stand-alone collector
         href: using-the-intellitrace-stand-alone-collector.md
-      - name: Using the Microsoft Monitoring Agent
-        href: using-the-microsoft-monitoring-agent.md
     - name: Using saved IntelliTrace data
       href: using-saved-intellitrace-data.md
     - name: API Reference for IntelliTrace Extensibility
