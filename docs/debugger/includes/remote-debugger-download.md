@@ -44,8 +44,10 @@ You can run the remote debugger by copying *msvsmon.exe* to the remote computer,
 
 > [!NOTE]
 > - To debug Windows 10 or later apps on ARM devices, use ARM64, which is available with the latest version of the remote tools.
+
 > - To debug Windows 10 apps on Windows RT devices, use ARM, which is available only in the Visual Studio 2015 remote tools download.
-> - To debug x64 apps on ARM64 operating systems, run the x64 msvsmon.exe that is installed with the ARM64 remote tools.
->    
+
+> To debug x64 apps on an ARM64 operating system, run the x64 msvsmon.exe that is installed with the ARM64 remote tools.
+> 
 
 
