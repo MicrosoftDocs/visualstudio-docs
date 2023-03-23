@@ -1,6 +1,7 @@
 ---
-title: "Tutorial: Share Docker apps in VS Code"
-description: In this second tutorial, you'll learn how to update and share a Docker app in VS Code.
+title: "Tutorial: Share Docker apps in Visual Studio Code"
+titleSuffix: ""
+description: In this second tutorial, you'll learn how to update and share a Docker app in Visual Studio Code.
 author: ghogen
 ms.author: ghogen
 ms.prod: vs-code
@@ -160,7 +161,7 @@ Keep everything that you've done so far to continue this series of tutorials.
 
 ## Next steps
 
-Congrats. You've completed part 2 and learned how to update your code and and run your image on a new instance.
+Congrats. You've completed part 2 and learned how to update your code and run your image on a new instance.
 
 Here are some resources that might be useful to you:
 
