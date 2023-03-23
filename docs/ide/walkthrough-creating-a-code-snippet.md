@@ -90,10 +90,13 @@ The following XML is the basic snippet template:
 
 4. The **Import Code Snippet** dialog opens, asking you to choose where to add the snippet from the choices in the right pane. One of the choices should be **My Code Snippets**. Select it, select **Finish**, and then select **OK**.
 
-5. The snippet is copied to one of the following locations, depending on the code language:
+5. The snippet is copied to one of the following locations, depending on the code language and the version of Visual Studio that you're using:
 
    *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets*
    *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual Basic\My Code Snippets*
+
+   *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets*
+   *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual Basic\My Code Snippets*
 
 6. Test your snippet by opening a C# or Visual Basic project. With a code file open in the editor, choose **Snippets** > **Insert Snippet** from the right-click menu, then **My Code Snippets**. You should see a snippet named **Square Root**. Double-click it.
 
@@ -101,7 +104,7 @@ The following XML is the basic snippet template:
 
 ## Description and shortcut fields
 
-1. Description fields give more information about your code snippet when viewed in the Code Snippets Manager. The shortcut is a tag that users can type in order to insert your snippet. Edit the snippet you've added by opening the file *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\\[Visual C# or Visual Basic]\My Code Snippet\SquareRoot.snippet*.
+1. Description fields give more information about your code snippet when viewed in the Code Snippets Manager. The shortcut is a tag that users can type in order to insert your snippet. Edit the snippet you've added by opening the file *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\\[Visual C# or Visual Basic]\My Code Snippet\SquareRoot.snippet* or *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\\[Visual C# or Visual Basic]\My Code Snippet\SquareRoot.snippet*.
 
    > [!TIP]
    > Since you're editing the file in the directory where Visual Studio placed it, you don't need to reimport it to Visual Studio.
