@@ -215,6 +215,128 @@ is not allowed.
 
 For more information about property functions, see [Property functions](../msbuild/property-functions.md).
 
+## Item batching on self-referencing metadata
+
+Considering the following example of referencing metadata from within the item definition:
+
+```xml
+<ItemGroup>
+  <i Include='a/b.txt' MyPath='%(Filename)%(Extension)' />
+  <i Include='c/d.txt' MyPath='%(Filename)%(Extension)' />
+  <i Include='g/h.txt' MyPath='%(Filename)%(Extension)' />
+</ItemGroup>
+```
+
+it's important to note that the behavior differs when defined outside of any target and within target.
+
+### Item Self-referencing metadata outside of any target
+
+```xml
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <i Include='a/b.txt' MyPath='%(Filename)%(Extension)' />
+    <i Include='c/d.txt' MyPath='%(Filename)%(Extension)' />
+    <i Include='g/h.txt' MyPath='%(Filename)%(Extension)' />
+  </ItemGroup>
+  <Target Name='ItemOutside'>
+    <Message Text="i=[@(i)]" Importance='High' />
+    <Message Text="i->MyPath=[@(i->'%(MyPath)')]" Importance='High' />
+  </Target>
+</Project>
+```
+
+Metadata referencing is resolved per item instance (not affected by any previously defined or created item instances) - leading to expected output:
+
+```output
+  i=[a/b.txt;c/d.txt;g/h.txt]
+  i->MyPath=[b.txt;d.txt;h.txt]
+```
+
+### Item Self-referencing metadata inside of a target
+
+```xml
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name='ItemInside'>  
+    <ItemGroup>
+      <i Include='a/b.txt' MyPath='%(Filename)%(Extension)' />
+      <i Include='c/d.txt' MyPath='%(Filename)%(Extension)' />
+      <i Include='g/h.txt' MyPath='%(Filename)%(Extension)' />
+    </ItemGroup>
+    <Message Text="i=[@(i)]" Importance='High' />
+    <Message Text="i->MyPath=[@(i->'%(MyPath)')]" Importance='High' />
+  </Target>
+</Project>
+```
+
+Metadata referencing in this case leads to batching - yielding possibly unexpected and unintended output:
+
+```output
+  i=[a/b.txt;c/d.txt;g/h.txt;g/h.txt]
+  i->MyPath=[;b.txt;b.txt;d.txt]
+```
+
+For each item instance the engine is applying metadata of all pre-existing item instances (that's why the `MyPath` is empty for the first item and contains `b.txt` for the second item), in case of more pre-existing instances this will lead to multiplication of the current item instance (that's why the `g/h.txt` item instance ocurring twice in the resulting list).
+
+To explicitly inform about this, possibly unintended, behavior newer version of MSBuild issues warning `MSB4120`:
+
+```output
+proj.proj(4,11):  warning MSB4120: Item 'i' definition within target is referencing self via metadata 'Filename' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
+proj.proj(4,11):  warning MSB4120: Item 'i' definition within target is referencing self via metadata 'Extension' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
+proj.proj(5,11):  warning MSB4120: Item 'i' definition within target is referencing self via metadata 'Filename' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
+proj.proj(5,11):  warning MSB4120: Item 'i' definition within target is referencing self via metadata 'Extension' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
+proj.proj(6,11):  warning MSB4120: Item 'i' definition within target is referencing self via metadata 'Filename' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
+proj.proj(6,11):  warning MSB4120: Item 'i' definition within target is referencing self via metadata 'Extension' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
+  i=[a/b.txt;c/d.txt;g/h.txt;g/h.txt]
+  i->MyPath=[;b.txt;b.txt;d.txt]
+```
+
+If the self-reference is intentional, you have few options depending on the actual scenario and exact needs:
+
+ * [Keep the code and suppress the warning](#suppressing-the-warning)
+ * [Define the item outside of the target](#item-self-referencing-metadata-outside-of-any-target)
+ * [Define helper item and leverage transforms](#using-helper-item-and-transform)
+
+#### Suppressing the Warning
+
+The `MSB4120` warning can be suppressed via `MSBuildWarningsAsMessages`:
+
+```xml
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildWarningsAsMessages>$(MSBuildWarningsAsMessages);MSB4120</MSBuildWarningsAsMessages>
+  </PropertyGroup>
+  <Target Name='ItemOutside'>  
+    <ItemGroup>
+      <i Include='a/b.txt' MyPath='%(Filename)%(Extension)' />
+      <i Include='c/d.txt' MyPath='%(Filename)%(Extension)' />
+      <i Include='g/h.txt' MyPath='%(Filename)%(Extension)' />
+    </ItemGroup>
+    <Message Text="i=[@(i)]" Importance='High' />
+    <Message Text="i->MyPath=[@(i->'%(MyPath)')]" Importance='High' />
+  </Target>
+</Project>
+```
+
+However you'll still get the same behavior of cross-applying previous item instances with the current one - which might be undesirable. In that case choose different approach.
+
+#### Using helper item and transform
+
+If you want to prevent the batching behavior induced by the metadata reference, you can achieve that by defining separate item and then leveraging the [transform](../msbuild/msbuild-transforms.md) operation to create item instances with desired metadata:
+
+```xml
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Target Name='ItemOutside'>  
+    <ItemGroup>
+      <j Include='a/b.txt' />
+      <j Include='c/*' />
+      <i Include='@(j)' MyPath="%(Filename)%(Extension)" />
+    </ItemGroup>
+    <Message Text="i=[@(i)]" Importance='High' />
+    <Message Text="i->MyPath=[@(i->'%(MyPath)')]" Importance='High' />
+  </Target>
+</Project>
+```
+
 ## See also
 
 - [ItemMetadata element (MSBuild)](../msbuild/itemmetadata-element-msbuild.md)
