@@ -5,7 +5,7 @@ author: ghogen
 ms.author: ghogen
 ms.prod: vs-code
 ms.topic: tutorial 
-ms.date: 03/04/2023
+ms.date: 03/24/2023
 ms.custom: template-tutorial
 
 # Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
