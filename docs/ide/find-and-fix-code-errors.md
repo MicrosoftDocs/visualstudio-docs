@@ -134,7 +134,7 @@ Common uses for breakpoints include:
 
 - If you're writing C or C++ code, use breakpoints to stop the code so you can inspect address values (look for NULL) and reference counts when debugging for memory-related failures.
 
-For more information about using breakpoints, read [Using breakpoints](../debugger/using-breakpoints.md).
+For more information about using breakpoints, see [Use breakpoints in the Visual Studio debugger](../debugger/using-breakpoints.md).
 
 ### Inspect your code at run-time
 
@@ -148,15 +148,15 @@ While the debugger is paused, you can inspect your variables and call stacks to 
 
 ![Screenshot of the Visual Studio code window. At the line of code marked in yellow, a variable is selected and a dropdown shows its current value and references.](../ide/media/vs_ide_gs_debug_inspect_value.png)
 
-Hover over a variable to see its current value and references. If you see a value you didn't expect, you probably have a bug in the preceding or calling code. For more in-depth debugging information, [learn more](../debugger/debugger-feature-tour.md) about using the debugger.
+Hover over a variable to see its current value and references. If you see a value you didn't expect, you probably have a bug in the preceding or calling code. To learn more, see [First look at the Visual Studio Debugger](../debugger/debugger-feature-tour.md).
 
-Additionally, Visual Studio displays the **Diagnostic Tools** window, where you can observe your app's CPU and memory usage over time. Later in your app development, you can use these tools to look for unanticipated heavy CPU usage or memory allocation. Use it with the **Watch** window and breakpoints to determine what's causing unexpected heavy usage or unreleased resources. For more information, see [Profiling feature tour](../profiling/profiling-feature-tour.md).
+Additionally, Visual Studio displays the **Diagnostic Tools** window, where you can observe your app's CPU and memory usage over time. Later in your app development, you can use these tools to look for unanticipated heavy CPU usage or memory allocation. Use it with the **Watch** window and breakpoints to determine what's causing unexpected heavy usage or unreleased resources. For more information, see [First look at profiling tools (C#, Visual Basic, C++, F#)](../profiling/profiling-feature-tour.md).
 
 ## Run unit tests
 
 Unit tests are your first line of defense against code bugs because, when done correctly, they test a single "unit" of code, typically a single function, and are easier to debug than your full program. Visual Studio installs the Microsoft unit testing frameworks for both managed and native code. Use a unit testing framework to create unit tests, run them, and report the results of these tests. Rerun unit tests when you make changes, to test that your code is still working correctly. With Visual Studio Enterprise edition, you can run tests automatically after every build.
 
-To get started, read [Generate unit tests for your code with IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md).
+To get started, read [Generate unit tests for fuzz testing by using IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md).
 
 To learn more about unit tests in Visual Studio and how they can help you create better quality code, read [Unit test basics](../test/unit-test-basics.md).
 
