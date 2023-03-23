@@ -1,7 +1,7 @@
 ---
 title: 'Walkthrough: Create a code snippet'
 description: "Learn how to create a code snippet in three steps: create an XML file, fill in the appropriate elements, and add your code to it."
-ms.date: 03/24/2022
+ms.date: 03/23/2023
 ms.topic: how-to
 helpviewer_keywords:
 - code snippets, creating
@@ -48,14 +48,14 @@ The following XML is the basic snippet template:
 
 ## Create a code snippet
 
-1. Create a new XML file in Visual Studio and add the template shown above.
+1. Create a new XML file in Visual Studio and add the template shown in the [Snippet template](#snippet-template) section of this article.
 
 2. Fill in the title of the snippet in the **Title** element. Use the title **Square Root**.
 
 3. Fill in the language of the snippet in the **Language** attribute of the **Code** element. For C#, use **CSharp**, for Visual Basic, use **VB**, and for C++, use **CPP**.
 
    > [!TIP]
-   > To see all the available language values, browse the [Code element attributes section](code-snippets-schema-reference.md#attributes) on the [Code snippets schema reference](code-snippets-schema-reference.md) page.
+   > To see all the available language values, browse the [Code element attributes](code-snippets-schema-reference.md#attributes) section on the [Code snippets schema](code-snippets-schema-reference.md) reference page.
 
 4. Add the snippet code in the **CDATA** section inside the **Code** element.
 
@@ -82,13 +82,13 @@ The following XML is the basic snippet template:
 
 ## Import a code snippet
 
-1. You can import a snippet to your Visual Studio installation by using the **Code Snippets Manager**. Open it by choosing **Tools** > **Code Snippets Manager**.
+1. You can import a snippet to your Visual Studio installation by using the **Code Snippets Manager**. Open it by selecting **Tools** > **Code Snippets Manager**.
 
-2. Click the **Import** button.
+2. Select the **Import** button.
 
-3. Go to the location where you saved the code snippet in the previous procedure, select it, and click **Open**.
+3. Go to the location where you saved the code snippet in the previous procedure, select it, and select **Open**.
 
-4. The **Import Code Snippet** dialog opens, asking you to choose where to add the snippet from the choices in the right pane. One of the choices should be **My Code Snippets**. Select it and click **Finish**, then **OK**.
+4. The **Import Code Snippet** dialog opens, asking you to choose where to add the snippet from the choices in the right pane. One of the choices should be **My Code Snippets**. Select it, select **Finish**, and then select **OK**.
 
 5. The snippet is copied to one of the following locations, depending on the code language:
 
@@ -101,7 +101,7 @@ The following XML is the basic snippet template:
 
 ## Description and shortcut fields
 
-1. Description fields give more information about your code snippet when viewed in the Code Snippets Manager. The shortcut is a tag that users can type in order to insert your snippet. Edit the snippet you have added by opening the file *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\\[Visual C# or Visual Basic]\My Code Snippet\SquareRoot.snippet*.
+1. Description fields give more information about your code snippet when viewed in the Code Snippets Manager. The shortcut is a tag that users can type in order to insert your snippet. Edit the snippet you've added by opening the file *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\\[Visual C# or Visual Basic]\My Code Snippet\SquareRoot.snippet*.
 
    > [!TIP]
    > Since you're editing the file in the directory where Visual Studio placed it, you don't need to reimport it to Visual Studio.
@@ -141,7 +141,7 @@ The following XML is the basic snippet template:
 
 ## Replacement parameters
 
-You may want parts of a code snippet to be replaced by the user. For example, you might want the user to replace a variable name with one in their current project. You can provide two types of replacements: literals and objects. Use the [Literal element](code-snippets-schema-reference.md#literal-element) to identify a replacement for a piece of code that is entirely contained within the snippet but will likely be customized after it's inserted into the code (for example, a string or numeric value). Use the [Object element](code-snippets-schema-reference.md#object-element) to identify an item that's required by the code snippet but is likely to be defined outside of the snippet itself (for example, an object instance or a control).
+You might want the user to replace parts of a code snippet. For example, you might want the user to replace a variable name with one in their current project. You can provide two types of replacements: literals and objects. Use the [Literal element](code-snippets-schema-reference.md#literal-element) to identify a replacement for a piece of code that is entirely contained within the snippet but will likely be customized after it's inserted into the code (for example, a string or numeric value). Use the [Object element](code-snippets-schema-reference.md#object-element) to identify an item that's required by the code snippet but is likely to be defined outside of the snippet itself (for example, an object instance or a control).
 
 1. To enable the user to easily replace the number to calculate the square root of, modify the **Snippet** element of the *SquareRoot.snippet* file as follows:
 
