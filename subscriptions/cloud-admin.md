@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 8b30e2bc-2ac3-4fcc-b296-128731471032
-ms.date: 07/08/2022
+ms.date: 03/21/2023
 ms.topic: how-to
 description: Setting Up admins for monthly Subscriptions
 ---
@@ -16,11 +16,11 @@ Visual Studio monthly subscriptions are managed by admins. These individuals can
 
 When you purchase Visual Studio monthly subscriptions, as the owner of the Azure subscription used to make the purchases, you're automatically set up as an admin for those subscriptions.
 
-You can purchase monthly subscriptions through the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), or by contacting a Cloud Solution Provider. If you purchase through the Visual Studio Marketplace, at the end of the purchase experience, you'll be provided with an opportunity to manage users. Choosing that option will take you to the Visual Studio Subscriptions Administration Portal - [https://manage.visualstudio.com](https://manage.visualstudio.com).
+You can purchase monthly subscriptions through the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), or by contacting a Cloud Solution Provider. If you purchase through the Visual Studio Marketplace, at the end of the purchase experience, you are provided an opportunity to manage users. Choosing that option takes you to the Visual Studio Subscriptions Administration Portal - [https://manage.visualstudio.com](https://manage.visualstudio.com).
 
 Once you've purchased subscriptions, you can visit the [Administration Portal](https://manage.visualstudio.com) at any time. Just sign into the portal and select the appropriate Azure subscription in the upper left corner.
 
-As the owner of the Azure subscription used to purchase the monthly subscriptions, you can also assign additional admins.
+As the owner of the Azure subscription used to purchase the monthly subscriptions, you can also assign more admins.
 
 ## Add admins
 
@@ -46,7 +46,7 @@ To add admins for your subscriptions:
 10. Select **Save**.
 11. Select the **Role assignments** tab to verify that the user you selected now appears as a User Access Administrator.
 
-The new admin can now sign in to the [Administration Portal](https://manage.visualstudio.com), select the same Azure subscription that was used to purchase the monthly subscriptions from the list in the upper left corner of the page, and begin to manage those subscriptions.
+The new admin can now sign in to the [Administration Portal](https://manage.visualstudio.com).  They can select the same Azure subscription that was used to purchase the monthly subscriptions from the list in the upper left corner of the page, and begin to manage those subscriptions.
 
 > [!NOTE]
 > If you see users with access to edit your monthly subscriptions that you didn't establish as admins, they may have roles in the underlying Azure subscription that allow them to manage subscriptions. Those roles include: owner, contributor, service admin, or co-admin. For more information, visit [Add billing managers](/azure/devops/organizations/billing/add-backup-billing-managers).
@@ -60,7 +60,7 @@ For information about Visual Studio monthly subscriptions, see the [Overview](vs
 ## See also
 
 + [Visual Studio documentation](/visualstudio/)
-+ [Azure DevOps documentation](/azure/devops/)
++ [Azure DevOps Services documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
 

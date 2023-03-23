@@ -3,9 +3,11 @@
   items:
   - name: "Part 1: Create a container app"
     href: tutorials/docker-tutorial.md
-  - name: "Part 2: Persist data in your app"
+  - name: "Part 2: Update & share apps"
+    href: tutorials/docker-tutorial-share.md
+  - name: "Part 3: Persist data in your app"
     href: tutorials/tutorial-persist-data-layer-docker-app-with-vscode.md
-  - name: "Part 3: Deploy your Docker app to Azure"
+  - name: "Part 4: Deploy your Docker app to Azure"
     href: tutorials/tutorial-deploy-docker-app-azure.md
 - name: Advanced tutorial
   expanded: true
