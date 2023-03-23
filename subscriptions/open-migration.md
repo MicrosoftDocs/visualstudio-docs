@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 6866dfab-c4fa-428e-bb0d-7b202c81f770
-ms.date: 09/28/2022
+ms.date: 03/23/2023
 ms.topic: conceptual
 description:  Learn how partners manage Visual Studio subscriptions for their customers.
 ---
@@ -14,7 +14,7 @@ description:  Learn how partners manage Visual Studio subscriptions for their cu
 To manage subscriptions in the Visual Studio [Subscriptions Administration Portal](https://manage.visualstudio.com), there are a few steps that partners need to follow. 
 
 After a partner places a new order on behalf of a customer, the customer will receive a notification inviting them to assign admins and access their subscriptions in the [Visual Studio Subscriptions Administration Portal](https://manage.visualstudio.com).
-+ For partners to manage subscriptions on behalf of customers, they will need to register on the admin portal. The various ways to gain access are listed below (similar to the add-open process).
++ For partners to manage subscriptions on behalf of customers, they'll need to register on the admin portal. This article discusses the various ways to gain access  (similar to the add-open process).
 
 ## New partners visiting the Visual Studio Subscriptions Administration Portal directly
 
@@ -31,26 +31,26 @@ This scenario applies to new partners who have already placed new Open License o
 
 ## New partners who register on the Volume Licensing Service Center (VLSC)
 
-This applies to new partners placing new Open License orders but who register on the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx) through the add-open flow prior to attempting to access the Visual Studio [Subscriptions Administration Portal](https://manage.visualstudio.com). Partners should follow these steps:
+This scenario applies to new partners placing new Open License orders but who register on the [VLSC](https://www.microsoft.com/Licensing/servicecenter/default.aspx) through the add-open flow prior to attempting to access the Visual Studio [Subscriptions Administration Portal](https://manage.visualstudio.com). Partners should follow these steps:
 1. Sign in to VLSC and navigate to the **Relationship Summary**.
 1. Select the desired Open License.
 1. Next, in the **License Details** under **Visual Studio Subscriptions** select the option to manage subscriptions through the link **click here**.
 1. Sign in to the admin portal using the same email address listed as a Primary Contact.
-1. The Partner will then be able to manage subscriptions for that Open License.
+1. The Partner is able to manage subscriptions for that Open License.
 
 > [!NOTE]
 > The customer will receive a notification email informing them that a Partner has been added to the Open License. They can choose to remove the Partner’s access.
 
 ## Existing partners adding a new license
 
-This applies to partners that already have access to the [Visual Studio Subscriptions Administration Portal](https://manage.visualstudio.com), but have placed an order for Open Licenses with Visual Studio subscriptions that they will need to manage.  
+This scenario applies to partners that already have access to the [Visual Studio Subscriptions Administration Portal](https://manage.visualstudio.com), but have placed an order for Open Licenses with Visual Studio subscriptions that they'll need to manage.  
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vkAG]
 
 Steps for partners to add a new license:
 1. Sign in to <https://manage.visualstudio.com>.
-1. Next to the agreement dropdown, select + Add agreement and choose and scroll to the bottom where there is an option to **New open license**.
+1. Next to the agreement dropdown, select + Add agreement and choose and scroll to the bottom where there's an option to **New open license**.
 1. In the pop-out panel, enter the authorization number, license number, customer email address that is on the agreement, check the box if you agree, and then select **Submit**.
 
 > [!NOTE]
@@ -66,7 +66,7 @@ Steps for partners to add a new license:
 ## See also
 
 + [Visual Studio documentation](/visualstudio/)
-+ [Azure DevOps documentation](/azure/devops/)
++ [Azure DevOps Services documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
 
