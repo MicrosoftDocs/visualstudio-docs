@@ -11,7 +11,7 @@ ms.custom: template-tutorial, contperf-fy22q3
 # Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
 
-# Tutorial: Create and share a Docker app with Visual Studio Code
+# Tutorial: Create a Docker app with Visual Studio Code
 
 This tutorial is the beginning of a four-part series introducing [Docker](https://www.docker.com) for use with Visual Studio Code (VS Code).  You'll learn to create and run Docker containers, [persist data](tutorial-persist-data-layer-docker-app-with-vscode.md), and deploy your containerized application to Azure.
 
