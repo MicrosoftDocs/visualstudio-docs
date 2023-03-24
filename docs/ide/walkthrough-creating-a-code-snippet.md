@@ -48,7 +48,7 @@ The following XML is the basic snippet template. We'll walk you through [creatin
 
 ## Create a code snippet
 
-1. Create a new XML file in Visual Studio and add the template shown in the [Snippet template](#snippet-template) section of this article.
+1. Create a new XML file in Visual Studio, and then add the template shown in the [Snippet template](#snippet-template) section of this article.
 
 2. Fill in the title of the snippet in the **Title** element. Use the title **Square Root**.
 
