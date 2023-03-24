@@ -2,7 +2,7 @@
 title: "Choose a memory analysis tool"
 description: Learn about the tools you can use to find memory leaks and inefficient memory usage, tools such as the Memory Usage tool and the .NET Object Allocation tool.
 
-ms.date: "02/18/2022"
+ms.date: "03/22/2023"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
