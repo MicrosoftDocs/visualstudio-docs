@@ -103,7 +103,7 @@ From Visual Studio, you can create app packages for deployment to Microsoft Stor
 
     ![Screenshot that shows creating an app package.](../deployment/media/feature-tour-create-app-package.png)
 
-- **Windows desktop**: You can deploy to Microsoft Store by using the Desktop Bridge starting in Visual Studio 2017 version 15.4. To do this, start by creating a Windows Application Packaging Project. For more information, see [Package a desktop app for Microsoft Store (Desktop Bridge)](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net).
+- **Windows desktop**: You can deploy to Microsoft Store starting in Visual Studio 2017 version 15.4. To do this, start by creating a Windows Application Packaging Project. For more information, see [Package a desktop app for Microsoft Store](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net).
 
     ![Screenshot that shows selecting Windows Application Packaging Project.](../deployment/media/feature-tour-desktop-bridge.png)
 
