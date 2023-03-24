@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 80e3b300-f2fc-40d4-bbb2-c831a2fa5d34
-ms.date: 08/19/2022
+ms.date: 03/24/2023
 ms.topic: how-to
 description:  This article describes how admins can migrate assigned subscriptions from one agreement to another.
 ---
@@ -15,13 +15,13 @@ If you have Visual Studio subscriptions assigned to subscribers as part of one a
 
 When you move your subscribers to the new agreement, here's what happens:
 + They get a new subscription GUID.
-+ Their benefits are reset. For example, if they've previously used a training benefit, they'll receive a new instance of that benefit. 
-+ If they were using Azure individual credits in their old subscription, they'll need to activate a new subscription and transfer their Azure assets to it. 
++ Their benefits are reset. For example, if they've previously used a training benefit, they receive a new instance of that benefit. 
++ If they were using Azure individual credits in their old subscription, they need to activate a new subscription and transfer their Azure assets to it. 
 
 The process for moving subscribers to the new agreement consists of three steps:
-1. Export your current subscription assignments from the old agreement. 
-2. Prepare a subscription list for upload to the new agreement. 
-3. Upload your subscription list to the new agreement.
+1. Export your current subscription assignments from the old agreement 
+2. Prepare a subscription list for upload to the new agreement
+3. Upload your subscription list to the new agreement
 
 > [!IMPORTANT]
 > Note the following considerations before you start this process:
@@ -33,25 +33,25 @@ The process for moving subscribers to the new agreement consists of three steps:
 The first step to migrate your assigned subscriptions from one agreement to another is to export your current subscription assignments as a CSV file. In the Visual Studio Subscriptions administration portal, you can export a list of your subscribers and details about their assignments. 
 
 This information includes: 
-+ Subscriber name.
-+ Email address. 
-+ Notification email address. 
-+ Subscription level.
-+ Assigned date.
-+ Expiration date.
-+ Reference field.
-+ Whether downloads are enabled.
-+ Country/region. 
-+ Language.
-+ Subscription status.
-+ Subscription GUID.
++ Subscriber name
++ Email address
++ Notification email address 
++ Subscription level
++ Assigned date
++ Expiration date
++ Reference field
++ Whether downloads are enabled
++ Country/region
++ Language
++ Subscription status
++ Subscription GUID
 
 The list is exported as a CSV file that you can easily open in Microsoft Excel so you can prepare it for uploading to the new agreement.
 
 To export your assigned subscriptions:
-1. Sign in to the [admin portal](https://manage.visualstudio.com).
-2. Select the **Export** tab.
-3. A CSV file will download to your computer. The name of the file will reflect the name and type of your current agreement and the date the file was created.  
+1. Sign in to the [admin portal](https://manage.visualstudio.com)
+2. Select the **Export** tab
+3. A CSV file downloads to your computer. The name of the file reflects the name and type of your current agreement and the date the file was created  
 
    > [!div class="mx-imgBorder"]
    > ![Export subscribers](_img/exporting-subscriptions/exporting-subscriptions.png "Screenshot that shows the Export button for downloading list of assigned subscriptions.")
@@ -76,7 +76,7 @@ Take these steps to open your exported subscriptions list and move the relevant 
    + **Subscription GUID**
    + Usage Status
  
-   Not all the fields in the exported CSV file are needed in the file that's used to upload your subscriptions to the new agreement. The fields appearing in **bold** in the previous list will appear in the template used to upload your list. 
+   Not all the fields in the exported CSV file are needed in the file that's used to upload your subscriptions to the new agreement. The fields appearing in **bold** in the previous list appear in the template used to upload your list. 
 
 2. Download the Excel template that you'll use to upload your subscriptions.  
    1. Sign in to the [admin portal](https://manage.visualstudio.com).
@@ -89,7 +89,7 @@ Take these steps to open your exported subscriptions list and move the relevant 
       > [!div class="mx-imgBorder"]
       > ![Download bulk add template](_img/migrate-subscriptions/download-template.png "Screenshot of the Upload multiple subscribers dialog. The download link is highlighted.")
    
-      The template will appear in your Downloads folder.  
+      The template appears in your Downloads folder.  
    1. Open the template.
 
 3. Open both the exported subscriber list and the empty bulk add template. Manually copy your subscription data from the exported list and paste it into the template. 
@@ -121,10 +121,10 @@ Take these steps to open your exported subscriptions list and move the relevant 
 
 ## Upload your subscription list to the new agreement
 
-1.  In the [admin portal](https://manage.visualstudio.com), if the **Upload multiple subscribers** dialog is still open, select the **Browse** button. Go to the location where you saved your subscription list, select it, and then select **Open**. (If the dialog is not open, choose **Add**, and then select **Bulk add**.)
+1.  In the [admin portal](https://manage.visualstudio.com), if the **Upload multiple subscribers** dialog is still open, select the **Browse** button. Go to the location where you saved your subscription list, select it, and then select **Open**. (If the dialog isn't open, choose **Add**, and then select **Bulk add**.)
     > [!div class="mx-imgBorder"]
     > ![Browse template](_img/migrate-subscriptions/browse-template.png "Screenshot of the Upload multiple subscribers dialog. The Browse button is highlighted.")
-0. The name of your subscription list will appear in the **Upload multiple subscribers** dialog. Select **OK** to upload the file.    In the admin portal, you might briefly see a status message stating that a file is being uploaded. When the upload is complete, you'll see the message **Subscribers updated successfully**.
+0. The name of your subscription list appears in the **Upload multiple subscribers** dialog. Select **OK** to upload the file.    In the admin portal, you might briefly see a status message stating that a file is being uploaded. When the upload is complete, you see the message **Subscribers updated successfully**.
 The migration of your subscribers from your old agreement to your new one is complete.  
   > [!NOTE]
   > After you add your subscribers to your new agreement, you should remove them from your old agreement. Removing them will prevent them from getting notifications about their old subscriptions.
@@ -136,7 +136,7 @@ For help with managing Visual Studio subscriptions, see [Visual Studio Subscript
 ## See also
 
 + [Visual Studio documentation](/visualstudio/)
-+ [Azure DevOps documentation](/azure/devops/)
++ [Azure DevOps Services documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
 
