@@ -387,7 +387,7 @@ Next, you add webpack configuration code to *webpack-config.js*. You add a simpl
 
       Or, if you still see errors:
 
-    - Install the most recent versions of the npm packages by right-clicking the npm node in Solution Explorer and choosing **Install New npm packages**.
+    - Install the most recent versions of the npm packages by right-clicking the npm node in Solution Explorer and choosing **Install npm packages**.
 
     If one or more package versions are deprecated and result in an error, you might need to install a more recent version to fix errors. For information on using *package.json* to control npm package versions, see [package.json configuration](../javascript/configure-packages-with-package-json.md).
 
