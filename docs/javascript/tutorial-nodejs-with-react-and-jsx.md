@@ -205,7 +205,7 @@ Instead of using the UI to search for and add the rest of the packages one at a 
       "typescript": "^5.0.2",
       "webpack": "^5.76.3",
       "webpack-cli": "^5.0.1"
-  },
+    },
     ```
 
     If the file already has a `dependencies` section, replace it with the preceding JSON code. For more information on using the *package.json* file, see [package.json configuration](configure-packages-with-package-json.md).
