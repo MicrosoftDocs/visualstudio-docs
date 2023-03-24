@@ -16,6 +16,7 @@ ms.author: tglee
 manager: jmartens
 ms.technology: vs-ide-general
 dev_langs:
+- CSharp
 - VB
 ms.workload:
 - multiple
@@ -24,7 +25,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can create a code snippet with only a few steps. All you need to do is create an XML file, fill in the appropriate elements, and add your code to it. You can optionally make use of replacement parameters and project references. Then, you can import the snippet to your Visual Studio installation by using the **Import** button in the **Code Snippets Manager**.
+You can create a code snippet with only a few steps. All you need to do is create an XML file, fill in the appropriate elements, and add your code to it. You can optionally make use of replacement parameters and project references. Then, you can import the snippet to your Visual Studio installation by using the **Import** button in the **Code Snippets Manager**, available from the **Tools** menu.
 
 ## Snippet template
 
