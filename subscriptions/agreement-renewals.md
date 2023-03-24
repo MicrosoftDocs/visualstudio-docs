@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: c7198d87-dfbf-4b2f-8ed4-bb4d56873dc1
-ms.date: 03/23/2023
+ms.date: 03/24/2023
 ms.topic: conceptual
 description:  Learn what admins should see when Visual Studio subscriptions agreements are renewed.
 ---
@@ -15,7 +15,7 @@ When your company renews an agreement that includes Visual Studio subscriptions,
 
 ## Agreement was renewed with the existing agreement number
 
-If your company renewed the existing agreement and the agreement number is unchanged, you see a new agreement end date.  All of your subscriptions show an updated expiration date.  You can view information about your agreement by selecting the **Details** button to the far left. 
+If your company renewed the existing agreement and the agreement number is unchanged, you see a new agreement end date and all of your subscriptions show an updated expiration date.  You can view information about your agreement by selecting the **Details** button to the far left. 
    > [!div class="mx-imgBorder"]
    > ![Open the Details pane](_img/agreement-renewals/details-button.png "Screenshot of the Agreement details page. The Agreement details button is highlighted.")
 
