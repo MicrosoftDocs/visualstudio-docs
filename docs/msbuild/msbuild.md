@@ -90,13 +90,13 @@ For .NET Core and .NET 5 or later, you typically use `dotnet build` to invoke MS
 </PropertyGroup>
 ```
 
- You can define a property conditionally by placing a `Condition` attribute in the element. The contents of conditional elements are ignored unless the condition evaluates to `true`. In the following example, the `Configuration` element is defined if it hasn't yet been defined.
+ You can define a property conditionally by placing a `Condition` attribute in the element. The contents of conditional elements are ignored unless the condition evaluates to `true`. In the following example, the `Configuration` property is defined if it hasn't yet been defined.
 
 ```xml
-<SomeProperty  Condition=" '$(Configuration)' == '' ">DefaultValue</SomeProperty>
+<Configuration  Condition=" '$(Configuration)' == '' ">DefaultValue</SomeProperty>
 ```
 
- Properties can be referenced throughout the project file by using the syntax $(\<PropertyName>). For example, you can reference the properties in the previous examples by using `$(BuildDir)` and `$(SomeProperty)`.
+ Properties can be referenced throughout the project file by using the syntax $(\<PropertyName>). For example, you can reference the properties in the previous examples by using `$(BuildDir)` and `$(Configuration)`.
 
  For more information about properties, see [MSBuild properties](../msbuild/msbuild-properties.md).
 
