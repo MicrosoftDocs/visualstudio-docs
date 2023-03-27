@@ -19,7 +19,7 @@ metadata:
 productDirectory:
     items:
     - title: Visual Studio
-      imageSrc: ./media/vs-ide-2019.svg
+      imageSrc: ./media/vs-ide-2022.svg
       links:
         - url: ./windows/index.yml?view=vs-2022&preserve-view=true
           text: Visual Studio 2022 (current)
@@ -32,7 +32,7 @@ productDirectory:
         - url: https://visualstudio.microsoft.com/
           text: Product page
     - title: Visual Studio for Mac
-      imageSrc: ./media/vs-mac-2019.svg
+      imageSrc: ./media/vsmac-prod-icon-banner.png
       links:
         - url: /visualstudio/mac/?view=vsmac-2022&preserve-view=true
           text: Visual Studio 2022 for Mac (current)
