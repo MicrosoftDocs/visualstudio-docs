@@ -108,7 +108,7 @@ To edit the value of a variable or element in a data tip, select the value, type
 
 You can quickly inspect objects by their properties in data tips with the **Pinnable Properties** tool.  To use this tool, hover over a property and select the pin icon that appears or right-click and select the **Pin Member as Favorite** option in the resulting context menu.  This bubbles up that property to the top of the object’s property list, and the property name and value is displayed in the right column of the data tip.  To unpin a property, select the pin icon again or select the **Unpin Member as Favorite** option in the context menu.
 
-![Pinning a property in a data tip](../debugger/media/basic-pin-data tip.gif "Pinning a property in a data tip")
+![Pinning a property in a data tip](../debugger/media/basic-pin-data-tip.gif "Pinning a property in a data tip")
 
 You can also toggle property names and filter out non-pinned properties when viewing the object’s property list in a data tip.  You can access either option by right-clicking a row containing a property and selecting the **Show only pinned members** or **Hide pinned member names in values** options in the context menu.
 
