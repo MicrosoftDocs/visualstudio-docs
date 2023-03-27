@@ -1,7 +1,7 @@
 ---
 title: Debug unit tests with Test Explorer
 description: Learn how to debug unit tests with Test Explorer in Visual Studio.
-ms.date: 07/14/2020
+ms.date: 03/24/2023
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -23,7 +23,12 @@ You can use Test Explorer to start a debugging session for your tests. Stepping 
 
 2. In Test Explorer, select the test method(s) and then choose **Debug** on the right-click menu.
 
+   ::: moniker range=">=vs-2022"
+   ![Test execution details](../test/media/vs-2022/test-explorer-debug.png)
+   ::: moniker-end
+   ::: moniker range="vs-2019"
    ![Test execution details](../test/media/vs-2019/test-explorer-debug.png)
+   ::: moniker-end
 
    For more information, about the debugger, see [Debug in Visual Studio](../debugger/debugger-feature-tour.md).
 
