@@ -2,7 +2,7 @@
 title: "Create a Node.js and React app"
 description: Learn how to create a Node.js web application project from a Visual Studio template.
 ms.custom: vs-acquisition
-ms.date: 12/16/2022
+ms.date: 03/24/2023
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -88,7 +88,7 @@ This tutorial requires the following prerequisites:
   1. In the **Properties** pane, set the **Node.exe path** to reference a global or local installation of Node.js. You can specify the path to a local interpreter in each of your Node.js projects.
 
 ::: moniker range=">=vs-2022"
-This tutorial was tested with Node.js 14.17.5.
+This tutorial was tested with Node.js 18.5.0.
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 This tutorial was tested with Node.js 12.6.2.
@@ -188,24 +188,24 @@ To install a package:
     The **Output** window in the Visual Studio lower pane shows package installation progress. Open the **Output** window by selecting **View** > **Output** or pressing **Ctrl**+**Alt**+**O**. In the **Show output from** field of the **Output** window, select **Npm**.
 
     When installed, the **react** package appears under the **npm** node in **Solution Explorer**.
-    
+
     The project's *package.json* file updates with the new package information, including the package version.
 
 Instead of using the UI to search for and add the rest of the packages one at a time, you can paste the required package code into *package.json*.
-    
+
 1. From **Solution Explorer**, open **package.json** in the Visual Studio editor. Add the following `dependencies` section before the end of the file:
 
     ```json
     "dependencies": {
-      "express": "~4.17.1",
-      "path": "~0.12.7",
-      "react": "~16.13.1",
-      "react-dom": "~16.13.1",
-      "ts-loader": "~7.0.1",
-      "typescript": "~3.8.3",
-      "webpack": "~4.42.1",
-      "webpack-cli": "~3.3.11"
-    }
+      "express": "^4.18.2",
+      "path": "^0.12.7",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "ts-loader": "^9.4.2",
+      "typescript": "^5.0.2",
+      "webpack": "^5.76.3",
+      "webpack-cli": "^5.0.1"
+    },
     ```
 
     If the file already has a `dependencies` section, replace it with the preceding JSON code. For more information on using the *package.json* file, see [package.json configuration](configure-packages-with-package-json.md).
@@ -375,15 +375,21 @@ Next, you add webpack configuration code to *webpack-config.js*. You add a simpl
 
 1. In the command prompt, enter the following webpack command:
 
-    `node_modules\.bin\webpack ./app.tsx --config webpack-config.js`
+    `node_modules\.bin\webpack --config webpack-config.js`
 
     The command prompt window shows the result.
 
     ![Screenshot that shows results of running the webpack command.](media/tutorial-nodejs-react-run-webpack-cmd.png)
 
-    If you see any errors instead of the preceding output, you must resolve them before your app will work. If your npm package versions are different than the versions this tutorial specifies, that can cause errors. One way to fix errors is to use the exact versions shown in the earlier step.
-    
-    Also, if one or more package versions are deprecated and result in an error, you might need to install a more recent version to fix errors. For information on using *package.json* to control npm package versions, see [package.json configuration](../javascript/configure-packages-with-package-json.md).
+    If you see any errors instead of the preceding output, you must resolve them before your app will work. If your npm package versions are different than the versions this tutorial specifies, that can cause errors. To fix the errors, try the following:
+
+    - Use the exact versions shown in the earlier step, if you didn't already
+
+      Or, if you still see errors:
+
+    - Install the most recent versions of the npm packages by right-clicking the npm node in Solution Explorer and choosing **Install npm packages**.
+
+    If one or more package versions are deprecated and result in an error, you might need to install a more recent version to fix errors. For information on using *package.json* to control npm package versions, see [package.json configuration](../javascript/configure-packages-with-package-json.md).
 
 1. In **Solution Explorer**, right-click the project node and select **Add** > **Existing Folder**.
 
