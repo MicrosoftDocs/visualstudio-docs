@@ -1,7 +1,7 @@
 ---
 title: "First look at deployment"
 description: "Learn about your options for deploying apps from Visual Studio."
-ms.date: 03/28/2022
+ms.date: 03/23/2023
 ms.topic: conceptual
 dev_langs:
   - "FSharp"
@@ -55,7 +55,7 @@ Deployment to a local folder is typically used for testing or to begin a staged 
   - To create GitHub Actions workflows for ASP.NET and Azure Function projects hosted on GitHub.com, see [Deploy to Azure using GitHub Actions](../deployment/azure-deployment-using-github-actions.md).
   - For deployment using Git, see [Continuous deployment of ASP.NET Core to Azure with Git](/azure/app-service/deploy-continuous-deployment).
 
-  To use the **Publish** tool, right-click the project in Solution Explorer and select **Publish**. (If you've previously configured any publishing profiles, you must then select **Create new profile**.) In the **Publish** dialog box, select either **App Service** or, if you customize your own server, **Azure Virtual Machines**, and then follow the configuration steps.
+  To use the **Publish** tool, right-click the project in Solution Explorer and select **Publish**. (If you've previously configured any publishing profiles, you must then select **Create new profile**.) In the **Publish** dialog box, choose **Azure**, and then choose the desired Azure service to continue.
 
   ![Screenshot that shows selecting Azure App Service.](../deployment/media/quickstart-publish-azure-new.png "Choose Azure App Service")
 
@@ -93,7 +93,7 @@ If you require a more complex installation of a desktop application than ClickOn
   > [!NOTE]
   > InstallShield Limited Edition is no longer included with Visual Studio and isn't supported in Visual Studio 2017 and later versions. Check with Flexera Software about future availability.
 
-- You can also install prerequisite components for desktop applications by configuring a generic installer, which is known as a bootstrapper. For more information, see [Application deployment prerequisites](../deployment/application-deployment-prerequisites.md).
+- You can also install prerequisite components for desktop applications by configuring a generic installer package, which is known as a bootstrapper. For more information, see [Application deployment prerequisites](../deployment/application-deployment-prerequisites.md).
 
 ## Publish to Microsoft Store
 
@@ -103,7 +103,7 @@ From Visual Studio, you can create app packages for deployment to Microsoft Stor
 
     ![Screenshot that shows creating an app package.](../deployment/media/feature-tour-create-app-package.png)
 
-- **Windows desktop**: You can deploy to Microsoft Store by using the Desktop Bridge starting in Visual Studio 2017 version 15.4. To do this, start by creating a Windows Application Packaging Project. For more information, see [Package a desktop app for Microsoft Store (Desktop Bridge)](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net).
+- **Windows desktop**: You can deploy to Microsoft Store starting in Visual Studio 2017 version 15.4. To do this, start by creating a Windows Application Packaging Project. For more information, see [Package a desktop app for Microsoft Store](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net).
 
     ![Screenshot that shows selecting Windows Application Packaging Project.](../deployment/media/feature-tour-desktop-bridge.png)
 
@@ -125,11 +125,3 @@ You can use Azure Pipelines to enable continuous deployment of your app. For mor
 - [Deploy an Analysis Services Project (SSAS)](/sql/analysis-services/multidimensional-tutorial/lesson-2-5-deploying-an-analysis-services-project)
 - [Deploy Integration Services (SSIS) projects and packages](/sql/integration-services/packages/deploy-integration-services-ssis-projects-and-packages)
 - [Build and deploy to a local database](/sql/ssdt/how-to-build-and-deploy-to-a-local-database)
-
-## Deployment for other app types
-
-| App type | Deployment scenario | Link |
-| --- | --- | --- |
-| **Office app** | You can publish an add-in for Office from Visual Studio. | [Deploy and publish your Office add-in](/office/dev/add-ins/publish/publish) |
-| **WCF or OData service** | Other applications can use WCF RIA services that you deploy to a web server. | [Developing and deploying WCF Data Services](/dotnet/framework/data/wcf/developing-and-deploying-wcf-data-services) |
-| **LightSwitch** | LightSwitch is no longer supported starting in Visual Studio 2017, but can still be deployed from Visual Studio 2015 and earlier. | [Deploying LightSwitch applications](/previous-versions/ff872288(v=vs.140)) |

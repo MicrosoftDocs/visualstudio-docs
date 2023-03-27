@@ -1,7 +1,7 @@
 ---
 title: Install and use behind a firewall or proxy server
 description: Review the domain URLs, ports, and protocols that you might want to add to an allowlist or open if your organization uses a firewall or a proxy server
-ms.date: 02/04/2022
+ms.date: 03/19/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - network installation, Visual Studio
