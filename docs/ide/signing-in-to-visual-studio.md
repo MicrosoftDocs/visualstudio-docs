@@ -106,7 +106,7 @@ To add an additional account to Visual Studio:
 
 1. On the **Sign in to your account** page, select the account or choose **Use another account**. Follow the prompts to enter the new account credentials.
 
-(Optional) Now you can go to **Server Explorer** and see the Azure services associated with the account you just added. In **Server Explorer**, right-click on the **Azure** node and choose **Manage and Filter Subscriptions**. Choose the new account by clicking the drop-down arrow next to the current account, and then choose which subscriptions you want to display in **Server Explorer**. You should see all the services associated with the specified subscription. Even though you're not currently signed into Visual Studio with the second account, you are signed in to that account's services and resources. The same is true for **Project** > **Add Connected Service**.
+[Learn more about accessing multiple accounts in Visual Studio](./signing-in-access-multiple-accounts.md).
 
 ### Add a GitHub account to Visual Studio
 
