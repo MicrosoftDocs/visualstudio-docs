@@ -1,7 +1,7 @@
 ---
 title: "Measure performance from the command line"
 description: "Measure CPU performance and managed memory usage in your application from the command line."
-ms.date: 9/13/2021
+ms.date: 03/27/2023
 ms.topic: conceptual
 helpviewer_keywords: 
   - "Profiling Tools, command-line"
@@ -74,7 +74,7 @@ Profiling using the Visual Studio Diagnostics CLI tools works by attaching the p
 
 1. Locate the *.diagsession* file output from the previous command, and open it in Visual Studio (**File** > **Open**) to examine the information collected.
 
-   To analyze the results, see the documentation for the corresponding performance tool. For example, this might be the [CPU Usage](../profiling/cpu-usage.md), [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md), or the [Database](../profiling/analyze-database.md) tool.
+   To analyze the results, see the documentation for the corresponding performance tool. For example, this might be the [CPU Usage](../profiling/cpu-usage.md), [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md), [Instrumentation](../profiling/instrumentation.md), or the [Database](../profiling/analyze-database.md) tool.
 
 ## <a name="config_file"></a> Agent configuration files
 
@@ -84,7 +84,7 @@ For convenience, we recommend that you store that information in an agent config
 
 ```<Visual Studio installation folder>Team Tools\DiagnosticsHub\Collector\AgentConfigs\```
 
-Please see the following links to download and view agent configuration files:
+Alternatively, you can download and view several of the agent configuration files, use the following links:
 
 - https://aka.ms/vs/diaghub/agentconfig/cpubase
 - https://aka.ms/vs/diaghub/agentconfig/cpuhigh
