@@ -215,6 +215,7 @@ The connection string is now stored securely in the GitHub repository secrets an
 
 > [!NOTE]
 > If you get any errors regarding the connection, try to wrap it in single quotes
+
     ```yml
     - name: Run EF 
       run: | 
