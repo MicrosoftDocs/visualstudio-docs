@@ -1,6 +1,6 @@
 ---
 title: Access multiple user accounts
-description: Learn how to access multiple accounts associated with the Visual Studio sign-in account.
+description: Learn how to access multiple accounts associated with your Visual Studio sign-in account.
 ms.date: 03/27/2023
 ms.topic: how-to
 author: anandmeg
@@ -24,13 +24,20 @@ Azure, Application Insights, Azure DevOps, and Microsoft 365 services all suppor
 
 ### Access your Azure account in Server Explorer
 
-To open Server Explorer, choose **View** > **Server Explorer** (or, if you're using the "General" [environment settings](../ide/environment-settings.md), press **Ctrl**+**Alt**+**S**). Expand the **Azure** node and notice that it contains the resources available in the Azure account that's associated with the account that you used to sign in to Visual Studio. It looks similar to the following image:
+Access your Azure account as follows:
 
-![Server Explorer with Azure node expanded](../ide/media/work-with-multiple-user-accounts/server-explorer.png)
+1. To open Server Explorer, choose **View** > **Server Explorer** (or, if you're using the "General" [environment settings](../ide/environment-settings.md), press **Ctrl**+**Alt**+**S**). 
+1. Expand the **Azure** node and notice that it contains the resources available in the Azure account that's associated with the account that you used to sign in to Visual Studio. It looks similar to the following image:
 
-The first time you use Visual Studio on any specific device, the dialog only shows the subscriptions registered under the account that you signed in with. You can access resources for any of your other accounts directly from **Server Explorer** by right-clicking on the **Azure** node, choosing **Manage and Filter Subscriptions**, and then adding your accounts from the account picker control. You can then choose another account, if desired, by clicking the down arrow and choosing from the list of accounts. After choosing the account, you can customize which subscriptions under that account to display in **Server Explorer**.
+   ![Server Explorer with Azure node expanded](../ide/media/work-with-multiple-user-accounts/server-explorer.png)
 
-![Manage Azure Subscriptions dialog](../ide/media/vs2015_manage_subs.png)
+The first time you use Visual Studio on any specific device, the dialog only shows the subscriptions registered under the account that you signed in with. You can access resources for any of your other accounts directly from **Server Explorer** as follows:
+
+1. Right-click on the **Azure** node.
+1. Choose **Manage and Filter Subscriptions**, and then add your accounts from the account picker control. You can then choose another account, if desired, by clicking the down arrow and choosing from the list of accounts. 
+   After choosing the account, you can customize which subscriptions under that account to display in **Server Explorer**.
+
+   ![Manage Azure Subscriptions dialog](../ide/media/vs2015_manage_subs.png)
 
 The next time you open **Server Explorer**, the resources for that subscription are displayed.
 
