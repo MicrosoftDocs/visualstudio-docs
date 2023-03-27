@@ -1,8 +1,7 @@
 ---
 title: Access multiple user accounts
 description: Learn how to access multiple accounts associated with the Visual Studio sign-in account.
-ms.custom: "contperf-fy21q1"
-ms.date: 03/24/2023
+ms.date: 03/27/2023
 ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
