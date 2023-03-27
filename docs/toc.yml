@@ -856,6 +856,8 @@
     - name: Sign in to Visual Studio
       displayName: personalization accounts
       href: ide/signing-in-to-visual-studio.md
+    - name: Access multiple user accounts
+      href: ide/signing-in-access-multiple-accounts.md
     - name: Work with accounts that require multifactor authentication
       href: ide/work-with-multi-factor-authentication.md
     - name: Work with GitHub accounts in Visual Studio
