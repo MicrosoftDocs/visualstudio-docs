@@ -53,7 +53,7 @@ The `ShowPromptAsync()` method takes three parameters:
 | ----------|------|----------|-------------|
 | message   | `string` | yes | The text of the message for the prompt. |
 | options   | `PromptOptions<TResult>` | yes | Defines the user choices, mapping them to return values. |
-| cancellationToken | [`CancellationToken`](https://docs.microsoft.com/en-us/dotnet/api/system.threading.cancellationtoken) | Yes | The [`CancellationToken`](https://docs.microsoft.com/en-us/dotnet/api/system.threading.cancellationtoken) for the async operation. When triggered, the prompt is force closed. |
+| cancellationToken | [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) | Yes | The [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) for the async operation. When triggered, the prompt is force closed. |
 
 ### Example
 

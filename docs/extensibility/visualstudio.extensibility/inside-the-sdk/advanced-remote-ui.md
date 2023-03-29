@@ -128,8 +128,8 @@ There are just a few noteworthy things in this code:
 
 1. `MyColor.Color` is a `string` but it is used as a `Brush` when data bound in XAML, this is a capability provided by WPF.
 1. The `AddColorCommand` async callback contains a 2 seconds delay to simulate a long-running operation.
-1. We use [ObservableCollection\<T\>](https://docs.microsoft.com/en-us/dotnet/api/system.collections.objectmodel.observablecollection-1), which is supported by *Remote UI*, to dynamically update the list view.
-1. `MyToolWindowData` and `MyColor` don't implement [INotifyPropertyChanged](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.inotifypropertychanged) because, at the moment, all properties are readonly.
+1. We use [ObservableCollection\<T\>](/dotnet/api/system.collections.objectmodel.observablecollection-1), which is supported by *Remote UI*, to dynamically update the list view.
+1. `MyToolWindowData` and `MyColor` don't implement [INotifyPropertyChanged](/dotnet/api/system.componentmodel.inotifypropertychanged) because, at the moment, all properties are readonly.
 
 ## Handle long-running async commands
 
@@ -296,4 +296,4 @@ With the code above, the `Color` property value is converted to a `LinearGradien
 
 *Async command* callbacks (and `INotifyPropertyChanged` callbacks for values updated by the UI through data biding) are raised on random threadpool threads. Callbacks are raised one at a time and won't overlap until the code yields control (using an `await` expression).
 
-This behavior can be changed by passing a [NonConcurrentSynchronizationContext](https://docs.microsoft.com/en-us/dotnet/api/microsoft.visualstudio.threading.nonconcurrentsynchronizationcontext) to the `RemoteUserControl` constructor. In that case, the provided synchronization context will be used for all *async command* and `INotifyPropertyChanged` callbacks related to that control.
+This behavior can be changed by passing a [NonConcurrentSynchronizationContext](/dotnet/api/microsoft.visualstudio.threading.nonconcurrentsynchronizationcontext) to the `RemoteUserControl` constructor. In that case, the provided synchronization context will be used for all *async command* and `INotifyPropertyChanged` callbacks related to that control.

@@ -35,14 +35,14 @@ The `GetChannelAsync()` method has three parameters:
 | Parameter | Type | Required | Description |
 | --------- |----- | -------- | ----------- |
 | `identifier` | `string` | yes | A unique identifier for the channel. |
-| `displayNameResourceId` | `string` | yes | The name of the [resource](https://docs.microsoft.com/dotnet/core/extensions/resources) that contains the display name of the output window. This is what will be visible in the "Show output from:" dropdown menu in the Output pane.<br /><br />For example, if you had a [`.resx`](https://docs.microsoft.com/dotnet/core/extensions/resources) resource file called `MyStrings.resx` with a resource named "OutputWindowDisplayName", you would use `nameof(MyStrings.OutputWindowDisplayName)` for this parameter. |
-| `cancellationToken` | [`CancellationToken`](https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken) | yes | The [`CancellationToken`](https://docs.microsoft.com/dotnet/api/system.threading.cancellationtoken) for the async operation. |
+| `displayNameResourceId` | `string` | yes | The name of the [resource](/dotnet/core/extensions/resources) that contains the display name of the output window. This is what will be visible in the "Show output from:" dropdown menu in the Output pane.<br /><br />For example, if you had a [`.resx`](/dotnet/core/extensions/resources) resource file called `MyStrings.resx` with a resource named "OutputWindowDisplayName", you would use `nameof(MyStrings.OutputWindowDisplayName)` for this parameter. |
+| `cancellationToken` | [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) | yes | The [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) for the async operation. |
 
 ### Display name resource ID requirements
 
-The current version of the Output window API requires that the display name for the Output window channel be stored in a [resource file](https://docs.microsoft.com/dotnet/core/extensions/resources):
+The current version of the Output window API requires that the display name for the Output window channel be stored in a [resource file](/dotnet/core/extensions/resources):
 
-- Add a [`.resx` file](https://docs.microsoft.com/dotnet/core/extensions/resources) ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/Strings.resx)) and make sure it is configured with the ResXFileCodeGenerator in your project ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/OutputWindowSample.csproj)).
+- Add a [`.resx` file](/dotnet/core/extensions/resources) ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/Strings.resx)) and make sure it is configured with the ResXFileCodeGenerator in your project ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/OutputWindowSample.csproj)).
 - Add an [Extension class](../../inside-the-sdk/extension-anatomy.md#extension-instance) to your project, if it doesn't have one already ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/OutputWindowSampleExtension.cs))
 - In the Extension class override the `ResourceManager` property to return the ResourceManager corresponding to your .resx file.
 
@@ -119,12 +119,12 @@ public override async Task InitializeAsync(CancellationToken cancellationToken)
 
 ## Write to the Output window
 
-The [`OutputWindow`](./../api/../../api/Microsoft.VisualStudio.Extensibility.md#outputwindow-type) instance obtained in [Get an Output window channel](#get-an-output-window-channel) has a [`System.IO.TextWriter`](https://docs.microsoft.com/dotnet/api/system.io.textwriter) property called `Writer`, which supports familiar operations for writing text, such as:
+The [`OutputWindow`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.md#outputwindow-type) instance obtained in [Get an Output window channel](#get-an-output-window-channel) has a [`System.IO.TextWriter`](/dotnet/api/system.io.textwriter) property called `Writer`, which supports familiar operations for writing text, such as:
 
-- [`Write()`](https://docs.microsoft.com/dotnet/api/system.io.textwriter.write)
-- [`WriteAsync()`](https://docs.microsoft.com/dotnet/api/system.io.textwriter.writeasync)
-- [`WriteLine()`](https://docs.microsoft.com/dotnet/api/system.io.textwriter.writeline)
-- [`WriteLineAsync()`](https://docs.microsoft.com/dotnet/api/system.io.textwriter.writelineasync)
+- [`Write()`](/dotnet/api/system.io.textwriter.write)
+- [`WriteAsync()`](/dotnet/api/system.io.textwriter.writeasync)
+- [`WriteLine()`](/dotnet/api/system.io.textwriter.writeline)
+- [`WriteLineAsync()`](/dotnet/api/system.io.textwriter.writelineasync)
 
 ### Example
 

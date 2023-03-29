@@ -39,8 +39,8 @@ Currently the SDK supports a limited set of components to be contributed:
 * [Tool windows](../extension-guides/toolWindow/toolWindow.md)
 * [Text view opened closed listeners](../extension-guides/editor/editor.md) for tracking text view created, closed events.
 * [Text view change listeners](../extension-guides/editor/editor.md) for tracking changes to an open text view.
-* [Margin providers](../api/Microsoft.VisualStudio.Extensibility.Editor.md#T-Microsoft-VisualStudio-Extensibility-Editor-ITextViewMarginProvider)
-* [Debugger visualizers](../api/Microsoft.VisualStudio.Extensibility.md#T-Microsoft-VisualStudio-Extensibility-DebuggerVisualizers-DebuggerVisualizerProvider)
+* [Margin providers](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md#T-Microsoft-VisualStudio-Extensibility-Editor-ITextViewMarginProvider)
+* [Debugger visualizers](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.md#T-Microsoft-VisualStudio-Extensibility-DebuggerVisualizers-DebuggerVisualizerProvider)
 
 Instances for these classes will be created as part of the extensibility framework provided by the SDK using a dependency injection library, and constructors can be used to retrieve instances of services provided by either the SDK or by the extension itself to share state across components.
 
@@ -66,7 +66,7 @@ The following services are provided by the SDK that can be used in constructor f
 
 * Local services: Any local services provided by the extension itself will also be available for dependency injection.
 
-* `MefInjection<TService>` and `AsyncServiceProviderInjection<TService, TInterface>`: In-proc extensions can inject [Visual Studio SDK](https://www.nuget.org/packages/Microsoft.VisualStudio.SDK) services that would be traditionally consumed through either [MEF](https://docs.microsoft.com/visualstudio/extensibility/managed-extensibility-framework-in-the-editor) or the [AsyncServiceProvider](https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.shell.asyncserviceprovider).
+* `MefInjection<TService>` and `AsyncServiceProviderInjection<TService, TInterface>`: In-proc extensions can inject [Visual Studio SDK](https://www.nuget.org/packages/Microsoft.VisualStudio.SDK) services that would be traditionally consumed through either [MEF](/visualstudio/extensibility/managed-extensibility-framework-in-the-editor) or the [AsyncServiceProvider](/dotnet/api/microsoft.visualstudio.shell.asyncserviceprovider).
 
 ## Local extension services
 

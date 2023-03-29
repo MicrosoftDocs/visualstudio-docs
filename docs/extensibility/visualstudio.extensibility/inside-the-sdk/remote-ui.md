@@ -15,7 +15,7 @@ One of the main goals of the VisualStudio.Extensibility model is to allow extens
 
 Remote UI is a set of classes allowing you to define WPF controls in an out-of-process extension and showing them as part of the Visual Studio UI.
 
-Remote UI leans heavily towards the [Model-View-ViewModel](https://docs.microsoft.com/archive/msdn-magazine/2009/february/patterns-wpf-apps-with-the-model-view-viewmodel-design-pattern) design pattern relying on XAML and data binding, commands (instead of events), and triggers (instead of interacting with the [logical tree](https://docs.microsoft.com/dotnet/desktop/wpf/advanced/trees-in-wpf) from code-behind).
+Remote UI leans heavily towards the [Model-View-ViewModel](/archive/msdn-magazine/2009/february/patterns-wpf-apps-with-the-model-view-viewmodel-design-pattern) design pattern relying on XAML and data binding, commands (instead of events), and triggers (instead of interacting with the [logical tree](/dotnet/desktop/wpf/advanced/trees-in-wpf) from code-behind).
 
 While Remote UI was developed to support out-of-process extensions, VisualStudio.Extensibility APIs that rely on Remote UI, like `ToolWindow`, will leverage Remote UI for in-process extensions as well.
 
@@ -186,7 +186,7 @@ You should now be able to press F5 to debug the extension.
 
 It is a good idea to write the UI keeping in mind that Visual Studio can be themed resulting in very different colors being used.
 
-Update the XAML to use the [styles](https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.shell.vsresourcekeys) and [colors](https://docs.microsoft.com/dotnet/api/microsoft.visualstudio.platformui.environmentcolors) used across Visual Studio:
+Update the XAML to use the [styles](/dotnet/api/microsoft.visualstudio.shell.vsresourcekeys) and [colors](/dotnet/api/microsoft.visualstudio.platformui.environmentcolors) used across Visual Studio:
 
 ```xml
 <DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -283,13 +283,13 @@ internal class MyToolWindowContent : RemoteUserControl
 
 Next, let's make the data context observable and add a button to the toolbox.
 
-The data context can be made observable by implementing [INotifyPropertyChanged](https://docs.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged). Alternatively, Remote UI provides a convenient abstract class, `NotifyPropertyChangedObject`, that we can extend to reduce boilerplate code.
+The data context can be made observable by implementing [INotifyPropertyChanged](/dotnet/api/system.componentmodel.inotifypropertychanged). Alternatively, Remote UI provides a convenient abstract class, `NotifyPropertyChangedObject`, that we can extend to reduce boilerplate code.
 
-A data context usually has a mix of readonly properties and observable properties. The data context can be a complex graph of objects as long as they are marked with the `DataContract` and `DataMember` attributes and implement `INotifyPropertyChanged` as necessary. It is also possible to have [observable collections](https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1).
+A data context usually has a mix of readonly properties and observable properties. The data context can be a complex graph of objects as long as they are marked with the `DataContract` and `DataMember` attributes and implement `INotifyPropertyChanged` as necessary. It is also possible to have [observable collections](/dotnet/api/system.collections.objectmodel.observablecollection-1).
 
 We also need to add a command to the data context. In Remote UI, commands implement `IAsyncCommand` but it is often easier to simply create an instance of the `AsyncCommand` class.
 
-`IAsyncCommand` differs from [ICommand](https://docs.microsoft.com/dotnet/api/system.windows.input.icommand) in two ways:
+`IAsyncCommand` differs from [ICommand](/dotnet/api/system.windows.input.icommand) in two ways:
 1. The `Execute` method is replaced with `ExecuteAsync` because everything in Remote UI is async!
 1. The `CanExecute(object)` method is replaced by a `CanExecute` property. The `AsyncCommand` class takes care of making `CanExecute` observable.
 
@@ -435,7 +435,7 @@ HelloCommand = new(async (parameter, cancellationToken) =>
 });
 ```
 
-It's also important to avoid the extension asynchronously updating the value of properties that can also be updated by the user. In other words, avoid [TwoWay](https://docs.microsoft.com/dotnet/api/system.windows.data.bindingmode) data binding.
+It's also important to avoid the extension asynchronously updating the value of properties that can also be updated by the user. In other words, avoid [TwoWay](/dotnet/api/system.windows.data.bindingmode) data binding.
 
 ## Next steps
 
