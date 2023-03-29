@@ -276,7 +276,7 @@ Text view margins typically visualize some data related to the text view (e.g. c
 
 There will be only one instance of your text view margin provider instantiated regardless of how many applicable text views user opens so if your margin displays some statefull data, your provider will need to keep the state of currently open text views.
 
-See [Word Count Margin Sample](../../../../New_Extensibility_Model/Samples/WordCountMargin/) for more details.
+See [Word Count Margin Sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/WordCountMargin/) for more details.
 
 Note that vertical text view margins whose content needs to be aligned with text view lines are not yet supported.
 
@@ -286,6 +286,6 @@ Learn about the editor interfaces and types at [Editor concepts](editor-concepts
 
 Review sample code for a simple editor-based extension:
 
-- [DocumentSelectorSample](../../../../New_Extensibility_Model/Samples/DocumentSelectorSample/)
+- [DocumentSelectorSample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DocumentSelectorSample/)
 
 Advanced users might wish to learn about the [Editor RPC support](editor-rpc.md).

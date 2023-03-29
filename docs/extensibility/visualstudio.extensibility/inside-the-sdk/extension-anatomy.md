@@ -80,7 +80,7 @@ There are 3 options that a service can be added:
 
 Due to lifetime of `VisualStudioExtensibility` object being bound to the scope of a single extension part, any local service that ingests it has to be a scoped or transient service. Trying to create a singleton service that injects `VisualStudioExtensibility` will result in failure.
 
-For an example of how local services are used please see the [MarkdownLinter extension](../../../New_Extensibility_Model/Samples/MarkdownLinter/).
+For an example of how local services are used please see the [MarkdownLinter extension](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/MarkdownLinter/).
 
 ## Client context
 

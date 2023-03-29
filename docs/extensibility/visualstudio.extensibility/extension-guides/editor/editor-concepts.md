@@ -59,4 +59,4 @@ If you are familiar with legacy Visual Studio extensions, `Position` is almost t
 
 Review sample code for a simple editor-based extension:
 
-- [DocumentSelectorSample](../../../../New_Extensibility_Model/Samples/DocumentSelectorSample/)
+- [DocumentSelectorSample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DocumentSelectorSample/)

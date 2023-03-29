@@ -506,4 +506,4 @@ IAsyncEnumerable<IQueryResultItem<IProjectConfigurationSnapshot>> configurations
 
 ## Next steps
 
-Review the code for an extension that uses the Project Query API at [VSProjectQueryAPISample](../../../../New_Extensibility_Model/Samples/VSProjectQueryAPISample/README.md).
+Review the code for an extension that uses the Project Query API at [VSProjectQueryAPISample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/VSProjectQueryAPISample/README.md).

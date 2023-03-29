@@ -42,8 +42,8 @@ The `GetChannelAsync()` method has three parameters:
 
 The current version of the Output window API requires that the display name for the Output window channel be stored in a [resource file](https://docs.microsoft.com/dotnet/core/extensions/resources):
 
-- Add a [`.resx` file](https://docs.microsoft.com/dotnet/core/extensions/resources) ([sample](./../../../../New_Extensibility_Model/Samples/OutputWindowSample/Strings.resx)) and make sure it is configured with the ResXFileCodeGenerator in your project ([sample](./../../../../New_Extensibility_Model/Samples/OutputWindowSample/OutputWindowSample.csproj)).
-- Add an [Extension class](../../inside-the-sdk/extension-anatomy.md#extension-instance) to your project, if it doesn't have one already ([sample](./../../../../New_Extensibility_Model/Samples/OutputWindowSample/OutputWindowSampleExtension.cs))
+- Add a [`.resx` file](https://docs.microsoft.com/dotnet/core/extensions/resources) ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/Strings.resx)) and make sure it is configured with the ResXFileCodeGenerator in your project ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/OutputWindowSample.csproj)).
+- Add an [Extension class](../../inside-the-sdk/extension-anatomy.md#extension-instance) to your project, if it doesn't have one already ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/OutputWindowSampleExtension.cs))
 - In the Extension class override the `ResourceManager` property to return the ResourceManager corresponding to your .resx file.
 
 ### Edit the `.resx` resource file
@@ -147,5 +147,5 @@ Learn more:
 
 Look at sample code:
 
-- See the [OutputWindowSample](./../../../../New_Extensibility_Model/Samples/OutputWindowSample) sample for a full example of creating an extension that uses the output window.
+- See the [OutputWindowSample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample) sample for a full example of creating an extension that uses the output window.
 

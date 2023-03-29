@@ -14,7 +14,7 @@ In [Create your first extension](create-your-first-extension.md), you learned ho
 
 In this tutorial, you'll learn how to create an extension with a simple command that does something in the [Visual Studio editor](../extension-guides/editor/editor.md). In this case, it inserts a newly generated GUID. You'll also see how to tell Visual Studio what file types the GUID extension is enabled for, and how to make the new command show up as a toolbar or menu item.
 
-The completed sample for this tutorial may be found [here](../../../New_Extensibility_Model/Samples/InsertGuid/).
+The completed sample for this tutorial may be found [here](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/InsertGuid/).
 
 The tutorial contains the following steps:
 

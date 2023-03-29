@@ -14,7 +14,7 @@ ms.technology: vs-ide-sdk
 
 The purpose of a Visual Studio extension is to *contribute* new features to Visual Studio. This is achieved by extending one of many classes like `Command`, `ToolWindow` or `ExtensionPart` and applying the `VisualStudioContribution` attribute.
 
-Across this document we will refer to the [Command Parenting](../../../New_Extensibility_Model/Samples/CommandParentingSample) sample extension to explain the concepts of contributing and configuring extension components.
+Across this document we will refer to the [Command Parenting](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CommandParentingSample) sample extension to explain the concepts of contributing and configuring extension components.
 
 Every VisualStudio.Extensibility extension must contribute at least one `Extension` class:
 
@@ -116,7 +116,7 @@ Some extensibility feature require specifying extension metadata that is not tie
 
 Visual Studio contribution properties can be placed in any class.
 
-The [Command Parenting](../../../New_Extensibility_Model/Samples/CommandParentingSample/ExtensionCommandConfiguration.cs) sample defines a toolbar by declaring a static property of type `ToolbarConfiguration` and marking it as `VisualStudioContribution`.
+The [Command Parenting](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CommandParentingSample/ExtensionCommandConfiguration.cs) sample defines a toolbar by declaring a static property of type `ToolbarConfiguration` and marking it as `VisualStudioContribution`.
 
 ```csharp
 namespace CommandParentingSample;
@@ -136,7 +136,7 @@ internal static class ExtensionCommandConfiguration
 
 Visual Studio contribution properties are also *compile-time constants* and are subject to the same limitations discussed earlier.
 
-The [Markdown Linter](../../../New_Extensibility_Model/Samples/MarkdownLinter/TextViewEventListener.cs) project shows a sample of a Visual Studio contribution property being referenced by another configuration property:
+The [Markdown Linter](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/MarkdownLinter/TextViewEventListener.cs) project shows a sample of a Visual Studio contribution property being referenced by another configuration property:
 
 ```csharp
 internal static class MarkdownLinterExtensionContributions

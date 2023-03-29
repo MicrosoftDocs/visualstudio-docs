@@ -74,4 +74,4 @@ Clauses in your project query determine what kind of items should be returned in
 
 To see some examples of project queries for common tasks, see the [Project Query Overview](./project.md)
 
-For a sample extension that uses the project query API, see [Project Query Sample](../../../../New_Extensibility_Model/Samples/VSProjectQueryAPISample/README.md)
+For a sample extension that uses the project query API, see [Project Query Sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/VSProjectQueryAPISample/README.md)

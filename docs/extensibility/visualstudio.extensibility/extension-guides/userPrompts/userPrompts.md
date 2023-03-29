@@ -182,5 +182,5 @@ The `Choices` collection maps the user choices to values in the `TokenThemeResul
 
 The following samples demonstrate how to work with user prompts:
 
-- [UserPromptSample](../../../../New_Extensibility_Model/Samples/UserPromptSample/)
-- [MarkdownLinter](../../../../New_Extensibility_Model/Samples/MarkdownLinter/)
+- [UserPromptSample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/UserPromptSample/)
+- [MarkdownLinter](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/MarkdownLinter/)
