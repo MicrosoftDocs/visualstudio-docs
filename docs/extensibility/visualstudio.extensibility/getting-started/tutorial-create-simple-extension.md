@@ -1,7 +1,12 @@
 ---
 title: Create a simple extension
 description: A tutorial for creating a simple extension
-date: 2022-2-6
+ms.topic: tutorial
+ms.date: 3/31/2023
+ms.author: maiak
+author: maiak
+manager: jmartens
+ms.technology: vs-ide-sdk
 ---
 # Create a simple extension
 

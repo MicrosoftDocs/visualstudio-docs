@@ -1,7 +1,12 @@
 ---
-title: Output window Reference
-description: A reference for output window extensibility
-date: 2022-08-01
+title: Output window overview
+description: An overview for output window extensibility
+ms.topic: overview
+ms.date: 3/31/2023
+ms.author: maiak
+author: maiak
+manager: jmartens
+ms.technology: vs-ide-sdk
 ---
 
 # Output window overview

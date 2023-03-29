@@ -1,7 +1,6 @@
 ---
 title: Metadata localization reference
 description: An overview of extensibility metadata localization
-date: 2023-2-3
 author: rytoth
 ms.author: rytoth
 ms.technology: vs-ide-sdk

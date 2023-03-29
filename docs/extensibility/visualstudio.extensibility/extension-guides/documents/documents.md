@@ -1,7 +1,6 @@
 ---
 title: Documents reference
 description: An overview of extensibility documents
-date: 2023-2-10
 author: maiak
 ms.author: maiak
 ms.technology: vs-ide-sdk

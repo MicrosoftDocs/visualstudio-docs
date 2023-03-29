@@ -1,7 +1,12 @@
 ---
 title: Editor extensibility concepts
 description: An overview of the object model for editor-based extensions
-date: 2022-12-1
+ms.topic: conceptual
+ms.date: 3/31/2023
+ms.author: maiak
+author: maiak
+manager: jmartens
+ms.technology: vs-ide-sdk
 ---
 
 # Editor extensibility concepts

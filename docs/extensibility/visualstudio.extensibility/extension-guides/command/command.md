@@ -1,7 +1,6 @@
 ---
 title: Commands reference
 description: An overview of extensibility commands
-date: 2023-2-2
 author: ghogen
 ms.author: ghogen
 ms.technology: vs-ide-sdk

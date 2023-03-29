@@ -1,7 +1,11 @@
 ---
 title: Debugger visualizers reference
 description: A reference for VisualStudio.Extensibility debugger visualizers
-date: 2023-2-7
+ms.date: 3/31/2023
+ms.author: ghogen
+author: ghogen
+manager: jmartens
+ms.technology: vs-ide-sdk
 ---
 
 # Debugger visualizers

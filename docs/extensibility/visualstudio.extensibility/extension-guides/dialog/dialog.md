@@ -1,7 +1,12 @@
 ---
 title: Dialogs reference
 description: A reference for extensibility dialogs
-date: 2023-1-20
+ms.topic: overview
+ms.date: 3/31/2023
+ms.author: maiak
+author: maiak
+manager: jmartens
+ms.technology: vs-ide-sdk
 ---
 
 # Dialogs Overview

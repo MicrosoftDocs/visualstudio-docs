@@ -1,12 +1,14 @@
 ---
 title: VSSDK-compatible VisualStudio.Extensibility extensions
 description: A reference for creating your first in-proc VisualStudio.Extensibility extension
-date: 2022-7-13
+ms.date: 3/31/2023
+ms.author: maiak
+author: maiak
+manager: jmartens
+ms.technology: vs-ide-sdk
 ---
 
 # Creating your first VSSDK-compatible VisualStudio.Extensibility extension
-
-## Introduction
 
 While the VisualStudio.Extensibility model was created primarily to host extensions outside of the devenv.exe process, starting with Visual Studio 2022 17.4 Preview 1 it is possible to build a VisualStudio.Extensibility extension that are hosted within devenv.exe and can leverage traditional extensibility APIs provided by the [Microsoft.VisualStudio.Sdk](https://www.nuget.org/packages/Microsoft.VisualStudio.Sdk) packages.
 

@@ -1,7 +1,12 @@
 ---
-title: User Prompts reference
+title: User Prompts overview
 description: A reference for extensibility user prompts
-date: 2022-07-29
+ms.topic: overview
+ms.date: 3/31/2023
+ms.author: maiak
+author: maiak
+manager: jmartens
+ms.technology: vs-ide-sdk
 ---
 
 # User prompts overview

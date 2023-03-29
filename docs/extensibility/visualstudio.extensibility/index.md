@@ -1,7 +1,12 @@
 ---
 title: VisualStudio.Extensibility
 description: Welcome to the Visual Studio Extensibility model
-date: 2021-8-19
+ms.topic: overview
+ms.date: 3/31/2023
+ms.author: maiak
+author: maiak
+manager: jmartens
+ms.technology: vs-ide-sdk
 ---
 
 # Welcome to VisualStudio.Extensibility

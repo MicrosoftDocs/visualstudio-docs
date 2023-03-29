@@ -1,7 +1,12 @@
 ---
 title: Remote UI
-description: A tutorial exploring the Remote UI features
-date: 2022-7-18
+description: Learn how to use the Remote UI features to generate Visual Studio extensions that have dialogs and other UI that are hosted in the Visual Studio IDE.
+ms.topic: conceptual
+ms.date: 3/31/2023
+ms.author: maiak
+author: maiak
+manager: jmartens
+ms.technology: vs-ide-sdk
 ---
 
 # Why Remote UI

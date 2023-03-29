@@ -1,7 +1,11 @@
 ---
 title: Advanced Remote UI concepts
 description: A tutorial demonstrating more advanced Remote UI concepts
-date: 2022-2-6
+ms.date: 3/31/2023
+ms.author: maiak
+author: maiak
+manager: jmartens
+ms.technology: vs-ide-sdk
 ---
 
 # Tutorial: Advanced remote UI

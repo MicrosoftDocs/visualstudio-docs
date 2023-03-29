@@ -1,7 +1,12 @@
 ---
 title: Inside Visual Studio Extensibility SDK
 description: Description of components that make up the SDK.
-date: 2021-8-16
+ms.topic: conceptual
+ms.date: 3/31/2023
+ms.author: maiak
+author: maiak
+manager: jmartens
+ms.technology: vs-ide-sdk
 ---
 
 # Inside Visual Studio Extensibility SDK
