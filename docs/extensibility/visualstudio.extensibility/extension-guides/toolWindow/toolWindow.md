@@ -193,6 +193,6 @@ See [Rule-based activation constraints](../../inside-the-sdk/activation-constrai
 
 Be sure to read about how [Remote UI](./../../inside-the-sdk/remote-ui.md) works in the VisualStudio.Extensibility framework.
 
-Tool window content is created using WPF, so refer to the [WPF documentation](https://learn.microsoft.com/dotnet/desktop/wpf/overview/) for guidance.
+Tool window content is created using WPF, so refer to the [WPF documentation](/dotnet/desktop/wpf/overview/) for guidance.
 
 See the [ToolWindow](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/ToolWindowSample) sample for a full example of creating an extension with a tool window.

@@ -1,7 +1,12 @@
 ---
 title: Announcements Reference
 description: A reference for extensibility announcements
-date: 2022-8-10
+ms.topic: reference
+ms.date: 3/31/2023
+ms.author: maiak
+author: maiak
+manager: jmartens
+ms.technology: vs-ide-sdk
 ---
 
 # Announcements
