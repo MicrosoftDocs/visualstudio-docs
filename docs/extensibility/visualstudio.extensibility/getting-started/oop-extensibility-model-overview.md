@@ -1,7 +1,12 @@
 ---
 title: OOP Extensibility Model reference
 description: A reference for OOP Extensibility Model
-date: 2022-2-6
+ms.topic: conceptual
+ms.date: 3/31/2023
+ms.author: maiak
+author: maiak
+manager: jmartens
+ms.technology: vs-ide-sdk
 ---
 
 # Introduction to VisualStudio.Extensibility for VS SDK users
@@ -40,5 +45,5 @@ Extensibility packages that are provided as part of the SDK consist of base clas
 
 To get started writing an extension using the new model, here are some docs, walkthroughs, samples, and videos to get you started:
 
-* [Documentation Index](../../index.md)
+* [Documentation Index](../index.md)
 * [Create your first extension](create-your-first-extension.md)

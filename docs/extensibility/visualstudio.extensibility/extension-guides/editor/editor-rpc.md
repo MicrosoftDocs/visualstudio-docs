@@ -1,7 +1,6 @@
 ---
 title: Editor remote procedure calls (RPC)
 description: Learn aboutthe RPC protocol for editor-based extensions.
-date: 2022-12-1
 ms.date: 3/31/2023
 ms.topic: conceptual
 ms.author: maiak

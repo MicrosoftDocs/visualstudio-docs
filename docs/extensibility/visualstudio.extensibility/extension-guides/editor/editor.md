@@ -1,7 +1,12 @@
 ---
 title: Editor overview
 description: An overview of the editor-based extensions for the Visual Studio IDE
-date: 2022-02-13
+ms.date: 3/31/2023
+ms.topic: conceptual
+ms.author: maiak
+author: maiak
+manager: jmartens
+ms.technology: vs-ide-sdk
 ---
 
 # Editor extensions overview
@@ -191,7 +196,7 @@ Edits, that is, changes to a text document open in the Visual Studio editor, may
 
 Extensions running outside the main Visual Studio IDE process that use asynchronous design patterns to communicate with the Visual Studio IDE process. This means the use of asynchronous method calls, as indicated by the `async` keyword in C# and reinforced by the `Async` suffix on method names. Asynchronicity is a significant advantage in the context of an editor that is expected to be responsive to user actions. A traditional synchronous API call, if it takes longer than expected, will stop responding to user input, creating a UI freeze that lasts until the API call completes. User expectations of modern interactive applications are that text editors always remain responsive, and never block them from working. Having extensions be asynchronous is therefore essential to meet user expectations.
 
-Learn more about asynchronous programming at [Asynchronous programming with async and await](https://learn.microsoft.com/dotnet/csharp/programming-guide/concepts/async/).
+Learn more about asynchronous programming at [Asynchronous programming with async and await](/dotnet/csharp/programming-guide/concepts/async/).
 
 In the new Visual Studio extensibility model, the extension is second class relative to the user: it cannot directly
 modify the editor or the text document. All state changes are asynchronous and cooperative, with Visual Studio IDE performing the requested change on the extension's behalf. The extension can request one or more changes on on a specific version of the document or text view, but changes from an extension may be rejected, such as if that area of the document has changed.

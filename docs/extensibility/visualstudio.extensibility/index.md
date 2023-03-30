@@ -1,6 +1,6 @@
 ---
-title: VisualStudio.Extensibility
-description: Welcome to the Visual Studio Extensibility model
+title: VisualStudio.Extensibility overview
+description: Learn about the Visual Studio Extensibility model for adding custom functionality to Visual Studio.
 ms.topic: overview
 ms.date: 3/31/2023
 ms.author: maiak
@@ -9,7 +9,7 @@ manager: jmartens
 ms.technology: vs-ide-sdk
 ---
 
-# Welcome to VisualStudio.Extensibility
+# About VisualStudio.Extensibility
 
 VisualStudio.Extensibility is a new framework for developing Visual Studio extensions. The new framework focuses primarily on extensions that run out-of-process from the IDE for improved performance and reliability, and it features a modern, asynchronous API that has been streamlined and carefully engineered to maximize developer productivity. VisualStudio.Extensibility is in active development and is available as a preview.
 
@@ -28,7 +28,7 @@ Eventually, the VisualStudio.Extensibility SDK will ultimately allow you to writ
 This site is your hub for all documentation for the VisualStudio.Extensibility SDK. Documentation is currently available for the following:
 
 * VisualStudio.Extensibility SDK (see the following sections)
-* [Extensions to Language Server Protocol (LSP)](lsp/lsp-extensions-specifications.md)
+* [Extensions to Language Server Protocol (LSP)](https://github.com/microsoft/VSExtensibility/blob/main/docs/lsp/lsp-extensions-specifications.md)
 
 ## Navigate the documentation
 
@@ -106,9 +106,9 @@ A Visual Studio solution containing all samples can be found at [Samples.sln](ht
 
 ## API Docs
 
-* [Microsoft.VisualStudio.Extensibility](./api/Microsoft.VisualStudio.Extensibility.md)
-* [Microsoft.VisualStudio.Extensibility.Editor](./api/Microsoft.VisualStudio.Extensibility.Editor.md)
-* [Microsoft.VisualStudio.ProjectSystem.Query](./api/Microsoft.VisualStudio.ProjectSystem.Query.md)
+* [Microsoft.VisualStudio.Extensibility](https://github.com/microsoft/VSExtensibility/blob/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.md)
+* [Microsoft.VisualStudio.Extensibility.Editor](https://github.com/microsoft/VSExtensibility/blob/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md)
+* [Microsoft.VisualStudio.ProjectSystem.Query](https://github.com/microsoft/VSExtensibility/blob/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.ProjectSystem.Query.md)
 
 ## Send feedback
 

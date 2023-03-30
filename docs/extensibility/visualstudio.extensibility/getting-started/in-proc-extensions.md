@@ -1,6 +1,7 @@
 ---
 title: VSSDK-compatible VisualStudio.Extensibility extensions
 description: A reference for creating your first in-proc VisualStudio.Extensibility extension
+ms.topic: tutorial
 ms.date: 3/31/2023
 ms.author: maiak
 author: maiak
@@ -8,7 +9,7 @@ manager: jmartens
 ms.technology: vs-ide-sdk
 ---
 
-# Creating your first VSSDK-compatible VisualStudio.Extensibility extension
+# Create your first VSSDK-compatible VisualStudio.Extensibility extension
 
 While the VisualStudio.Extensibility model was created primarily to host extensions outside of the devenv.exe process, starting with Visual Studio 2022 17.4 Preview 1 it is possible to build a VisualStudio.Extensibility extension that are hosted within devenv.exe and can leverage traditional extensibility APIs provided by the [Microsoft.VisualStudio.Sdk](https://www.nuget.org/packages/Microsoft.VisualStudio.Sdk) packages.
 
@@ -20,7 +21,7 @@ This document is a quick walkthrough on how to create your first VSSDK-compatibl
 
 ## Prerequisites
 
-* Visual Studio 2022.6 Preview 1 or higher with `.Net desktop development` workload. The latest minimum requirement will always be listed at [Announcements](../../announcements.md) page.
+* Visual Studio 2022.6 Preview 1 or higher with `.Net desktop development` workload. The latest minimum requirement will always be listed at [Announcements](../announcements.md) page.
 * Install [VisualStudio.Extensibility Project System](https://marketplace.visualstudio.com/items?itemName=vsext.gladstone): This extension contains project templates for VisualStudio.Extensibility extensions.
 * If you are updating from earlier builds, please make sure to update VisualStudio.Extensibility Project System to latest version as there are breaking changes in VisualStudio.Extensibility packages.
 
