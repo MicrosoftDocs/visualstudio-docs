@@ -217,7 +217,7 @@ For more information about property functions, see [Property functions](../msbui
 
 ## Item batching on self-referencing metadata
 
-Considering the following example of referencing metadata from within the item definition:
+Consider the following example of referencing metadata from within an item definition:
 
 ```xml
 <ItemGroup>
@@ -268,16 +268,16 @@ Metadata referencing is resolved per item instance (not affected by any previous
 </Project>
 ```
 
-Metadata referencing in this case leads to batching - yielding possibly unexpected and unintended output:
+Metadata referencing in this case leads to batching, which yields possibly unexpected and unintended output:
 
 ```output
   i=[a/b.txt;c/d.txt;g/h.txt;g/h.txt]
   i->MyPath=[;b.txt;b.txt;d.txt]
 ```
 
-For each item instance the engine is applying metadata of all pre-existing item instances (that's why the `MyPath` is empty for the first item and contains `b.txt` for the second item), in case of more pre-existing instances this will lead to multiplication of the current item instance (that's why the `g/h.txt` item instance ocurring twice in the resulting list).
+For each item instance, the engine applies metadata of all pre-existing item instances (that's why the `MyPath` is empty for the first item and contains `b.txt` for the second item). In the case of more pre-existing instances, this leads to multiplication of the current item instance (that's why the `g/h.txt` item instance occurring twice in the resulting list).
 
-To explicitly inform about this, possibly unintended, behavior newer version of MSBuild issues warning `MSB4120`:
+To explicitly inform about this, possibly unintended, behavior, later versions of MSBuild issue warning `MSB4120`:
 
 ```output
 proj.proj(4,11):  warning MSB4120: Item 'i' definition within target is referencing self via metadata 'Filename' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
@@ -317,11 +317,11 @@ The `MSB4120` warning can be suppressed via `MSBuildWarningsAsMessages`:
 </Project>
 ```
 
-However you'll still get the same behavior of cross-applying previous item instances with the current one - which might be undesirable. In that case choose different approach.
+However you still get the same behavior of cross-applying previous item instances with the current one, which might be undesirable. In that case, you can choose different approach.
 
 #### Using helper item and transform
 
-If you want to prevent the batching behavior induced by the metadata reference, you can achieve that by defining separate item and then leveraging the [transform](../msbuild/msbuild-transforms.md) operation to create item instances with desired metadata:
+If you want to prevent the batching behavior induced by the metadata reference, you can achieve that by defining a separate item and then leveraging the [transform](../msbuild/msbuild-transforms.md) operation to create item instances with the desired metadata:
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
