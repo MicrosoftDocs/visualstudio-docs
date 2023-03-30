@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 83efe4ee-9a9d-4776-b27c-852d89dadafd
-ms.date: 07/11/2022
+ms.date: 03/28/2023
 ms.topic: how-to
 description: How MPN partners assign Visual Studio subscriptions to end users.
 ---
@@ -18,7 +18,7 @@ See Visual Studio subscriptions offered to partners in the [Microsoft Partner Ne
 ## Microsoft Action Pack subscribers
 
 Microsoft Action Pack subscriber and Visual Studio subscriptions
-1. Program Admin will log into Partner Membership Center
+1. Program Admin logs into Partner Membership Center
 2. Associate people through **Requirements and Assets**
 3. Locate individuals and **Assign Roles**
 4. Select First, Second, or Third **Technical Contact** and **Save**
@@ -27,8 +27,8 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
 7. Select **Visual Studio Subscriptions** (Note: Visual Studio subscription update pending)
 8. Select the desired **Individual**
 9. Select **Submit**
-10. The individual will receive an email
-11. The assigned individual will access [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) to sign in
+10. The individual receives an email
+11. The assigned individual accesses [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) to sign in
 12. A Visual Studio profile page may be displayed, including:
     + First Name
     + Last Name
@@ -39,11 +39,11 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
 
 1. Select **Requirements and Assets**
 2. Select **Privileges**
-3. Select **MSDN Subscriptions** (Note:  this will be relabeled "Visual Studio subscriptions" soon)
+3. Select **MSDN Subscriptions** (Note: This label will change to "Visual Studio subscriptions" soon)
 4. Locate the desired **Individual**
 5. Select **Submit**
-6. The individual will receive an email
-7. The assigned individual will access [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) to sign in
+6. The individual receives an email
+7. The assigned individual accesses [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) to sign in
 8. A Visual Studio profile page may be displayed
     + First Name
     + Last Name
@@ -62,10 +62,10 @@ Microsoft Action Pack subscriber and Visual Studio subscriptions
 ## See also
 
 + [Visual Studio documentation](/visualstudio/)
-+ [Azure DevOps documentation](/azure/devops/)
++ [Azure DevOps Services documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
 
-Subscribers and Program Admins should work directly with the Microsoft Partner Network support team to resolve any problems with subscribers accessing subscriptions. Visit the [Support for Partners](https://partner.microsoft.com/support) page for assistance. (Your MPN sign-in credentials will be required.)
+Subscribers and Program Admins should work directly with the Microsoft Partner Network support team to resolve any problems with subscribers accessing subscriptions. Visit the [Support for Partners](https://partner.microsoft.com/support) page for assistance. (Your MPN sign-in credentials are required.)
