@@ -277,47 +277,24 @@ Metadata referencing in this case leads to batching, which yields possibly unexp
 
 For each item instance, the engine applies metadata of all pre-existing item instances (that's why the `MyPath` is empty for the first item and contains `b.txt` for the second item). In the case of more pre-existing instances, this leads to multiplication of the current item instance (that's why the `g/h.txt` item instance occurring twice in the resulting list).
 
-To explicitly inform about this, possibly unintended, behavior, later versions of MSBuild issue warning `MSB4120`:
+To explicitly inform about this, possibly unintended, behavior, later versions of MSBuild issue message `MSB4120`:
 
 ```output
-proj.proj(4,11):  warning MSB4120: Item 'i' definition within target is referencing self via metadata 'Filename' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
-proj.proj(4,11):  warning MSB4120: Item 'i' definition within target is referencing self via metadata 'Extension' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
-proj.proj(5,11):  warning MSB4120: Item 'i' definition within target is referencing self via metadata 'Filename' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
-proj.proj(5,11):  warning MSB4120: Item 'i' definition within target is referencing self via metadata 'Extension' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
-proj.proj(6,11):  warning MSB4120: Item 'i' definition within target is referencing self via metadata 'Filename' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
-proj.proj(6,11):  warning MSB4120: Item 'i' definition within target is referencing self via metadata 'Extension' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
+proj.proj(4,11):  message : MSB4120: Item 'i' definition within target is referencing self via metadata 'Filename' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
+proj.proj(4,11):  message : MSB4120: Item 'i' definition within target is referencing self via metadata 'Extension' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
+proj.proj(5,11):  message : MSB4120: Item 'i' definition within target is referencing self via metadata 'Filename' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
+proj.proj(5,11):  message : MSB4120: Item 'i' definition within target is referencing self via metadata 'Extension' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
+proj.proj(6,11):  message : MSB4120: Item 'i' definition within target is referencing self via metadata 'Filename' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
+proj.proj(6,11):  message : MSB4120: Item 'i' definition within target is referencing self via metadata 'Extension' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild-batching#item-batching-on-self-referencing-metadata
   i=[a/b.txt;c/d.txt;g/h.txt;g/h.txt]
   i->MyPath=[;b.txt;b.txt;d.txt]
 ```
 
 If the self-reference is intentional, you have few options depending on the actual scenario and exact needs:
 
- * [Keep the code and suppress the warning](#suppressing-the-warning)
+ * Keep the code and ignore the message
  * [Define the item outside of the target](#item-self-referencing-metadata-outside-of-any-target)
  * [Define helper item and leverage transforms](#using-helper-item-and-transform)
-
-#### Suppressing the Warning
-
-The `MSB4120` warning can be suppressed via `MSBuildWarningsAsMessages`:
-
-```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <MSBuildWarningsAsMessages>$(MSBuildWarningsAsMessages);MSB4120</MSBuildWarningsAsMessages>
-  </PropertyGroup>
-  <Target Name='ItemOutside'>  
-    <ItemGroup>
-      <i Include='a/b.txt' MyPath='%(Filename)%(Extension)' />
-      <i Include='c/d.txt' MyPath='%(Filename)%(Extension)' />
-      <i Include='g/h.txt' MyPath='%(Filename)%(Extension)' />
-    </ItemGroup>
-    <Message Text="i=[@(i)]" Importance='High' />
-    <Message Text="i->MyPath=[@(i->'%(MyPath)')]" Importance='High' />
-  </Target>
-</Project>
-```
-
-However you still get the same behavior of cross-applying previous item instances with the current one, which might be undesirable. In that case, you can choose different approach.
 
 #### Using helper item and transform
 
