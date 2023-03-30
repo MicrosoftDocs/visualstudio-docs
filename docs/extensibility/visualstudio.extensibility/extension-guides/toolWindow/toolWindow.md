@@ -187,7 +187,7 @@ public override ToolWindowConfiguration ToolWindowConfiguration => new()
 };
 ```
 
-See [Rule-based activation constraints](../../inside-the-sdk/activation-constraints.md/#rule-based-activation-constraints) for more information on valid term values.
+See [Rule-based activation constraints](../../inside-the-sdk/activation-constraints.md#rule-based-activation-constraints) for more information on valid term values.
 
 ## Next steps
 

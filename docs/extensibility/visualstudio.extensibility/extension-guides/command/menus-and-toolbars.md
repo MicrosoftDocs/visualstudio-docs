@@ -1,7 +1,7 @@
 ---
 title: Menus and Toolbars reference
 description: An overview of extensibility menus and toolbars
-author: rytoth
+author: RyanToth3
 ms.author: rytoth
 ms.technology: vs-ide-sdk
 ms.topic: overview

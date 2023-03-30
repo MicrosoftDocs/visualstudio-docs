@@ -1,7 +1,8 @@
 ---
-title: Debugger visualizers reference
-description: A reference for VisualStudio.Extensibility debugger visualizers
+title: Debugger visualizers overview
+description: An overview of VisualStudio.Extensibility debugger visualizers
 ms.date: 3/31/2023
+ms.topic: conceptual
 ms.author: ghogen
 author: ghogen
 manager: jmartens

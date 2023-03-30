@@ -100,6 +100,6 @@ For more information on how to add commands, please refer to [Commands](../exten
 
 ## Next steps
 
-If you missed the introductory overviews, see [Welcome to the VisualStudio.Extensibility documentation](../../../README.md#concepts).
+If you missed the introductory overviews, see [Welcome to the VisualStudio.Extensibility documentation](../visualstudio-extensibility.md#concepts).
 
 Now create a slightly more interesting extension; see [Create a simple extension](tutorial-create-simple-extension.md).

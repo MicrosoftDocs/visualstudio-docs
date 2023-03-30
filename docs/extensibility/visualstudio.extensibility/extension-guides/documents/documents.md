@@ -1,5 +1,5 @@
 ---
-title: Documents reference
+title: Documents overview
 description: An overview of extensibility documents
 author: maiak
 ms.author: maiak
@@ -31,7 +31,7 @@ This guide is designed to cover the top user scenarios when working with documen
 - [Get a text document snapshot](#get-a-text-document-snapshot)
 - [React to events related to documents](#react-to-events-related-to-documents)
 
-### 1. Open a document
+### Open a document
 
 Given the path to a file on disk, it is simple to open the file in Visual Studio:
 
@@ -44,7 +44,7 @@ DocumentSnapshot document = await documents.OpenDocumentAsync(uri, cancellationT
 // optionally do something with the document
 ```
 
-### 2. Get a text document snapshot
+### Get a text document snapshot
 
 A `DocumentSnapshot` is an abstract representation of a document.  If you want to read or write the text in a
 `DocumentSnapshot`, you can do so using the `ITextDocumentSnapshot` interface which can be obtained with the
@@ -69,7 +69,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 }
 ```
 
-### 3. React to events related to documents
+### React to events related to documents
 
 There are scenarios when components may want to react to events related to documents (i.e. when they're opened,
 closed, saved, etc.).  This can be accomplished by implementing the `IDocumentEventsListener` interface, and
@@ -184,4 +184,4 @@ internal sealed class SubscribeCommand : Command, IToggleCommand
 
 ## Next steps
 
-- Follow the [create the project](../../getting-started/create-your-first-extension.md) section in Getting Started section.
+- Follow the [create the project](../../getting-started/create-your-first-extension.md) quickstart in the Getting Started section.

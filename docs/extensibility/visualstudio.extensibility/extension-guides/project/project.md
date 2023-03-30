@@ -2,7 +2,7 @@
 title: Project query reference
 description: An overview of the project query API
 author: hgwelliver
-ms.author: hgwelliver
+ms.author: hwelliver
 ms.technology: vs-ide-sdk
 ms.topic: overview
 ms.date: 02/13/2023

@@ -71,7 +71,7 @@ public override CommandConfiguration CommandConfiguration => new("%InsertGuidCom
 };
 ```
 
-See [using rule based activation constraints](./../inside-the-sdk/activation-constraints.md/#rule-based-activation-constraints) for additional details.
+See [using rule based activation constraints](./../inside-the-sdk/activation-constraints.md#rule-based-activation-constraints) for additional details.
 
 ## Create the execution method
 

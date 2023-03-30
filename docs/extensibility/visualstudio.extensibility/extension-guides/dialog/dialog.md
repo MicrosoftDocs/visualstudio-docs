@@ -13,11 +13,11 @@ ms.technology: vs-ide-sdk
 
 Dialogs are a way to prompt a user for information or to allow for customizations of feature behavior. For example, the Tools/Options dialog has individual pages that let the user control the behavior for features like themes, editors, and document tabs.
 
-# Get Started
+## Get Started
 
 To get started, follow the [create the project](./../../getting-started/create-your-first-extension.md) section in the Getting Started section.
 
-# Work with dialogs
+## Work with dialogs
 
 This guide is designed to cover the top user scenarios when working with dialogs:
 
@@ -26,33 +26,33 @@ This guide is designed to cover the top user scenarios when working with dialogs
 - [Customize the dialog buttons](#customize-the-dialog-buttons)
 - [Get the dialog result](#get-the-dialog-result)
 
-# Create a dialog
+## Create a dialog
 
 Creating a tool window with the new Extensibility Model is as simple as calling the ShowDialogAsync method from the [ShellExtensibility](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.md/#T-Microsoft-VisualStudio-Extensibility-Shell-ShellExtensibility) helpers and passing in your dialog content.
 
-![Dialog](Dialog.png)
+![Screenshot of a Dialog.](Dialog.png)
 
-## ShowDialogAsync
+### ShowDialogAsync
 
 The ShowDialogAsync method several overloads that you should become familiar with:
 
-### Overloads
+#### Overloads
 
 - [`Microsoft.VisualStudio.Extensibility.Shell.ShellExtensibility.ShowDialogAsync(content,cancellationToken)`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.md/#M-Microsoft-VisualStudio-Extensibility-Shell-ShellExtensibility-ShowDialogAsync-Microsoft-VisualStudio-RpcContracts-RemoteUI-IRemoteUserControl,System-Threading-CancellationToken-)
 - [`Microsoft.VisualStudio.Extensibility.Shell.ShellExtensibility.ShowDialogAsync(content,title,cancellationToken)`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.md/#M-Microsoft-VisualStudio-Extensibility-Shell-ShellExtensibility-ShowDialogAsync-Microsoft-VisualStudio-RpcContracts-RemoteUI-IRemoteUserControl,System-String,System-Threading-CancellationToken-)
 - [`Microsoft.VisualStudio.Extensibility.Shell.ShellExtensibility.ShowDialogAsync(content,options,cancellationToken)`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.md/#M-Microsoft-VisualStudio-Extensibility-Shell-ShellExtensibility-ShowDialogAsync-Microsoft-VisualStudio-RpcContracts-RemoteUI-IRemoteUserControl,Microsoft-VisualStudio-RpcContracts-Notifications-DialogOption,System-Threading-CancellationToken-)
 - [`Microsoft.VisualStudio.Extensibility.Shell.ShellExtensibility.ShowDialogAsync(content,title,options,cancellationToken)`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.md/#M-Microsoft-VisualStudio-Extensibility-Shell-ShellExtensibility-ShowDialogAsync-Microsoft-VisualStudio-RpcContracts-RemoteUI-IRemoteUserControl,System-String,Microsoft-VisualStudio-RpcContracts-Notifications-DialogOption,System-Threading-CancellationToken-)
 
-### Parameters
+#### Parameters
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | content | [Microsoft.VisualStudio.RpcContracts.RemoteUI.IRemoteUserControl](#T-Microsoft-VisualStudio-RpcContracts-RemoteUI-IRemoteUserControl 'Microsoft.VisualStudio.RpcContracts.RemoteUI.IRemoteUserControl') | The content of the dialog. |
 | title | [System.String](https://learn.microsoft.com/dotnet/api/System.String 'System.String') | The title of the dialog. |
 | options | [Microsoft.VisualStudio.RpcContracts.Notifications.DialogOption](#T-Microsoft-VisualStudio-RpcContracts-Notifications-DialogOption 'Microsoft.VisualStudio.RpcContracts.Notifications.DialogOption') | The options for displaying the dialog. |
-| cancellationToken | [System.Threading.CancellationToken](https://learn.microsoft.com/dotnet/api/System.Threading.CancellationToken 'System.Threading.CancellationToken') | A [CancellationToken](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Threading.CancellationToken 'System.Threading.CancellationToken') to cancel the dialog. |
+| cancellationToken | [System.Threading.CancellationToken](/dotnet/api/System.Threading.CancellationToken 'System.Threading.CancellationToken') | A [CancellationToken](/dotnet/api/System.Threading.CancellationToken 'System.Threading.CancellationToken') to cancel the dialog. |
 
-## Example
+### Example
 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
@@ -68,13 +68,13 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 See the [Remote UI](./../../inside-the-sdk/remote-ui.md) docs for more information on creating a RemoteUserControl.
 
-# Customize the dialog title
+## Customize the dialog title
 
 When showing a dialog, a custom title string can be provided which will be displayed in the dialog's caption region.
 
 ![Dialog Title](DialogTitle.png)
 
-## Example
+### Example
 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
@@ -88,7 +88,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 }
 ```
 
-# Customize the dialog buttons
+## Customize the dialog buttons
 
 When showing a dialog certain combinations of predefined dialog buttons and default actions can be selected. The predefined button and action combinations can be found in Microsoft.VisualStudio.RpcContracts.Notifications.DialogOption.
 
@@ -97,7 +97,8 @@ When showing a dialog certain combinations of predefined dialog buttons and defa
 Additionally, you can create your own combination of buttons and default actions from:
 
 - Microsoft.VisualStudio.RpcContracts.Notifications.DialogButton
-	```csharp
+
+    ```csharp
 	public enum DialogButton
 	{
 		// Hides all of the dialog buttons.
@@ -110,7 +111,9 @@ Additionally, you can create your own combination of buttons and default actions
 		OKCancel
 	}
 	```
+
 - Microsoft.VisualStudio.RpcContracts.Notifications.DialogResult
+
 	```csharp
     public enum DialogResult
 	{
@@ -126,13 +129,12 @@ Additionally, you can create your own combination of buttons and default actions
 		// pressed the Esc key.
 		Cancel
     }
-	```
+   ```
 
-
-
-## Examples
+### Examples
 
 Adding a cancel button:
+
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
 {
@@ -146,6 +148,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 ```
 
 Having no dialog buttons:
+
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
 {
@@ -158,11 +161,12 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 }
 ```
 
-# Get the dialog result
+## Get the dialog result
 
-If you need to know whether a user affirmatively closed a dialog or dismissed it, you can await the call to ShowDialogAsync and it will return a Microsoft.VisualStudio.RpcContracts.Notifications.DialogResult which represents the action taken by the user.
+If you need to know whether a user affirmatively closed a dialog or dismissed it, you can await the call to `ShowDialogAsync`, and it will return a `Microsoft.VisualStudio.RpcContracts.Notifications.DialogResult`, which represents the action taken by the user.
 
-## Example
+### Example
+
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
 {
@@ -180,6 +184,6 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 }
 ```
 
-# Next steps
+## Next steps
 
 See the [DialogExtension](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DialogExtension) sample for a full example of creating an extension with a dialog.

@@ -51,7 +51,7 @@ The [`CommandConfiguration`](https://github.com/microsoft/VSExtensibility/tree/m
 | Placements | CommandPlacement[] | No | Specifies the existing groups within Visual Studio that the Command will be parented to. See more on this at [Place a command in the IDE](#place-a-command-in-the-ide). Even without a placement, your command will still be available via the Visual Studio Search feature. Commands can also be placed onto [Menus, Toolbars, and Groups](menus-and-toolbars.md) defined in your extension. |
 | Icon | CommandIconConfiguration | No | Commands can be displayed in the UI as either just an Icon, an Icon with text, or just text. This property configures what that icon should be, if any, and how it should be displayed. |
 | Shortcuts | CommandShortcutConfiguration[] | No | Defines the set of key combinations that can be used to execute the command. Shortcuts can be scoped down to only be applicable to specific IDE contexts. See more on this at [Shortcuts](#shortcuts). |
-| ClientContexts[] | String | No | Client contexts requested by the command. By default the Shell and Editor contexts are returned. A client context is a snapshot of specific IDE states at the time a command was originally executed. Since these commands are executed asynchronously this state could change between the time the user executed the command and the command handler running. See more on this at [Client contexts](./../../inside-the-sdk/activation-constraints.md/#client-contexts). |
+| ClientContexts[] | String | No | Client contexts requested by the command. By default the Shell and Editor contexts are returned. A client context is a snapshot of specific IDE states at the time a command was originally executed. Since these commands are executed asynchronously this state could change between the time the user executed the command and the command handler running. See more on this at [Client contexts](./../../inside-the-sdk/activation-constraints.md#client-contexts). |
 | Priority | uint | No | Describes the display order of the command relative to other commands parented to the same `CommandPlacement.KnownPlacements`. |
 
 ### Example
@@ -169,7 +169,7 @@ You can configure visibility and the enabled/disabled state of a command, and se
 
 The visibility of a command can be controlled by setting the `VisibleWhen` property on your command's [`Microsoft.VisualStudio.Extensibility.Commands.CommandConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#CommandConfiguration-type).
 
-The attribute supports specifying a condition through a number of individual parameters that together specify the condition and all its logic and inputs. To specify the condition, you specify an expression in one parameter, define a set of terms (strings) used in the expression in another parameter, and what values those terms should be replaced with upon evaluation in a third parameter. The combination of the expression, terms, and values is called a *rule-based activation constraint* and is fully described at [Rule-based activation constraints](../../inside-the-sdk/activation-constraints.md/#rule-based-activation-constraints).
+The attribute supports specifying a condition through a number of individual parameters that together specify the condition and all its logic and inputs. To specify the condition, you specify an expression in one parameter, define a set of terms (strings) used in the expression in another parameter, and what values those terms should be replaced with upon evaluation in a third parameter. The combination of the expression, terms, and values is called a *rule-based activation constraint* and is fully described at [Rule-based activation constraints](../../inside-the-sdk/activation-constraints.md#rule-based-activation-constraints).
 
 If this property is omitted from your configuration, the default is for the command to always be visible.
 
@@ -186,7 +186,7 @@ public override CommandConfiguration CommandConfiguration => new("My command")
 
 The enabled/disabled state of a command can be controlled by setting the `EnabledWhen` property on your command's [`Microsoft.VisualStudio.Extensibility.Commands.CommandConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#CommandConfiguration-type).
 
-This type of configuration is called a *rule-based activation constraint* and is fully described at [Using rule based activation constraints](../../inside-the-sdk/activation-constraints.md/#rule-based-activation-constraints).
+This type of configuration is called a *rule-based activation constraint* and is fully described at [Using rule based activation constraints](../../inside-the-sdk/activation-constraints.md#rule-based-activation-constraints).
 
 If this configuration is omitted from your command, the default is for the command to always be enabled. You can also automatically have your command be disabled if it is currently executing by setting `this.DisableDuringExecution = true;` in the constructor of your command class. Setting this property will override the enabled/disabled state defined by the `EnabledWhen` configuration while the command is being executed.
 
@@ -199,7 +199,7 @@ public override CommandConfiguration CommandConfiguration => new("My command")
 };
 ```
 
-For more information on valid term values, see [Rule-based activation constraints](./../../inside-the-sdk/activation-constraints.md/#rule-based-activation-constraints).
+For more information on valid term values, see [Rule-based activation constraints](./../../inside-the-sdk/activation-constraints.md#rule-based-activation-constraints).
 
 ### Command flags
 

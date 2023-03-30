@@ -2,6 +2,7 @@
 title: Contributions and Configurations
 description: How to expose extensions components to Visual Studio and how to configure them
 ms.date: 3/31/2023
+ms.topic: how-to
 ms.author: maiak
 author: maiak
 manager: jmartens

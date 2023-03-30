@@ -1,6 +1,7 @@
 ---
-title: Activation Constraints Reference
-description: A reference for activation constraints
+title: Rule-based activation constraints
+description: Learn about activation constraints, which extension authors can use to control the conditions under which extensions surface in the IDE.
+ms.topic: conceptual
 ms.date: 3/31/2023
 ms.author: maiak
 author: maiak
@@ -51,7 +52,7 @@ EnabledWhen =
 
 Following is the list of currently supported activation constraints:
 
-| Term | Description
+| Term | Description |
 | -- | -- |
 | [`SolutionHasProjectCapability`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md#M-Microsoft-VisualStudio-Extensibility-ActivationConstraint-SolutionHasProjectCapability-Microsoft-VisualStudio-Extensibility-ProjectCapability-)(\<expression>=[`ProjectCapability`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md#T-Microsoft-VisualStudio-Extensibility-ProjectCapability)) | True whenever solution has a project with  capabilities matching the provided subexpression. An expression can be something like VB | CSharp. |
 | [`SolutionState`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md#M-Microsoft-VisualStudio-Extensibility-ActivationConstraint-SolutionState-Microsoft-VisualStudio-Extensibility-SolutionState-)(\<state>=[`SolutionState`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md#T-Microsoft-VisualStudio-Extensibility-SolutionState)) | True when solution state matches to provided value, see [solution states](#solution-states) for list of values. |
