@@ -22,7 +22,7 @@ items:
   - name: About commands
     href: ./extension-guides/command/command.md
   - name: Metadata localization
-    href: ./extension-guides/command/metadata-localization.md
+    href: ./extension-guides/command/localize-metadata.md
 - name: Editor
   items:
   - name: About the editor
