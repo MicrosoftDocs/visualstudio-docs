@@ -1,12 +1,13 @@
 items:
 - name: VisualStudio.Extensibility documentation
   href: index.md
+- name: Overview
+  expanded: true
   items:
-    - name: About VisualStudio.Extensibility
-      href: visualstudio-extensibility.md
-    - name: Announcements
-      href: announcements.md
+  - name: About VisualStudio.Extensibility
+    href: visualstudio-extensibility.md
 - name: Get started
+  expanded: true
   items:
   - name: Create your first extension
     href: ./get-started/create-your-first-extension.md
@@ -16,38 +17,36 @@ items:
     href: ./get-started/oop-extensibility-model-overview.md
   - name: In-process extensions
     href: ./get-started/in-proc-extensions.md
-- name: Extension Guides
+- name: Commands
   items:
-  - name: Commands
-    items:
-    - name: About commands
-      href: ./extension-guides/command/command.md
-    - name: Metadata localization
-      href: ./extension-guides/command/metadata-localization.md
-  - name: Editor
-    items:
-    - name: About the editor
-      href: ./extension-guides/editor/editor.md
-    - name: Editor concepts
-      href: ./extension-guides/editor/editor-concepts.md
-    - name: Editor RPC
-      href: ./extension-guides/editor/editor-rpc.md
-  - name: Documents
-    href: ./extension-guides/documents/documents.md
-  - name: Output window
-    href: ./extension-guides/outputWindow/outputWindow.md
-  - name: Projects
-    items:
-    - name: Project query API
-      href: ./extension-guides/project/project.md
-    - name: Project concepts
-      href: ./extension-guides/project/project-concepts.md
-  - name: Tool windows
-    href: ./extension-guides/toolWindow/toolWindow.md
-  - name: Dialogs
-    href: ./extension-guides/dialog/dialog.md
-  - name: Debugger visualizers
-    href: ./extension-guides/debuggerVisualizers/debuggerVisualizers.md
+  - name: About commands
+    href: ./extension-guides/command/command.md
+  - name: Metadata localization
+    href: ./extension-guides/command/metadata-localization.md
+- name: Editor
+  items:
+  - name: About the editor
+    href: ./extension-guides/editor/editor.md
+  - name: Editor concepts
+    href: ./extension-guides/editor/editor-concepts.md
+  - name: Editor RPC
+    href: ./extension-guides/editor/editor-rpc.md
+- name: Documents
+  href: ./extension-guides/documents/documents.md
+- name: Output window
+  href: ./extension-guides/outputWindow/outputWindow.md
+- name: Projects
+  items:
+  - name: Project query API
+    href: ./extension-guides/project/project.md
+  - name: Project concepts
+    href: ./extension-guides/project/project-concepts.md
+- name: Tool windows
+  href: ./extension-guides/toolWindow/toolWindow.md
+- name: Dialogs
+  href: ./extension-guides/dialog/dialog.md
+- name: Debugger visualizers
+  href: ./extension-guides/debuggerVisualizers/debuggerVisualizers.md
 - name: Inside the SDK
   items:
   - name: Activation constraints
@@ -62,5 +61,8 @@ items:
     href: ./inside-the-sdk/logging.md
   - name: Remote UI
     href: ./inside-the-sdk/remote-ui.md
-
+- name: Resources
+  items:
+  - name: Announcements
+    href: announcements.md
 
