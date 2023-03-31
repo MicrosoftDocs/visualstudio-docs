@@ -22,7 +22,7 @@ There are two types of instrumentation:
 
 - Static, which modifies the program’s files before it runs (VSInstr)
 
-- Dynamic, which uses a dynamic process where it doesn’t change the files. It loads the files to memory and then modifies them to collect the instrumentation info. Using the dynamic instrumentation tool, you get more accurate information but for a smaller part of the program. You can investigate small sections of code.
+- Dynamic, which uses a dynamic process where it doesn’t change the files. It loads the files to memory and then modifies them to collect the instrumentation info. Using the dynamic instrumentation tool, you get more accurate information, but for a smaller part of the program. You can investigate small sections of code.
 
 Dynamic instrumentation is helpful because:
 
