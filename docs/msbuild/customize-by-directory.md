@@ -125,7 +125,7 @@ The Boolean properties `$(ImportDirectoryBuildProps)` and `$(ImportDirectoryBuil
 
 ## Example
 
-This examples shows the use the preprocessed output to determine where to set a property.
+This example shows the use the preprocessed output to determine where to set a property.
 
 To help you analyze the usage of a particular property you want to set, you can run MSBuild with the `/preprocess` or `/pp` argument. The output text is the result of all the imports, including the system imports like *Microsoft.Common.props* that are implicitly imported, and any of your own imports. With this output, you can see where your property needs to be set relative to where it's value is used.
 

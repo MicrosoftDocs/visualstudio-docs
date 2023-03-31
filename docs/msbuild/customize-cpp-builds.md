@@ -16,7 +16,7 @@ ms.workload:
 ---
 # Customize C++ builds
 
-For C++ projects, the custom `.targets` and `.props` files can't be used in the same way to override default settings. This articles describes a different way of customizing the build that works for C++ builds.
+For C++ projects, the custom `.targets` and `.props` files can't be used in the same way to override default settings. This article describes a different way of customizing the build that works for C++ builds.
 
 The file *Directory.Build.props* that is useful for customizing .NET projects is imported by *Microsoft.Common.props*, which is imported in `Microsoft.Cpp.Default.props`, while most of the defaults are defined in *Microsoft.Cpp.props*, and for many properties a "if not yet defined" condition can't be used, as the property is already defined, but the default needs to be different for particular project properties defined in `PropertyGroup` with `Label="Configuration"` (see [.vcxproj and .props file structure](/cpp/build/reference/vcxproj-file-structure)).
 
