@@ -69,7 +69,7 @@ For details on creating a firewall rule for an Azure VM, see [Open ports to a VM
 
    ```python
    import debugpy
-   debugpy.listen(5678)
+   debugpy.listen(('0.0.0.0', 5678))
    ```
 
 1. Save the file and run `python3 guessing-game.py`. The call to `listen` runs in the background and waits for incoming connections as you otherwise interact with the program. If desired, the `wait_for_client` function can be called after `listen` to block the program until the debugger attaches.
