@@ -127,7 +127,7 @@ The Boolean properties `$(ImportDirectoryBuildProps)` and `$(ImportDirectoryBuil
 
 This example shows the use the preprocessed output to determine where to set a property.
 
-To help you analyze the usage of a particular property you want to set, you can run MSBuild with the `/preprocess` or `/pp` argument. The output text is the result of all the imports, including the system imports like *Microsoft.Common.props* that are implicitly imported, and any of your own imports. With this output, you can see where your property needs to be set relative to where it's value is used.
+To help you analyze the usage of a particular property you want to set, you can run MSBuild with the `/preprocess` or `/pp` argument. The output text is the result of all the imports, including the system imports like *Microsoft.Common.props* that are implicitly imported, and any of your own imports. With this output, you can see where your property needs to be set relative to where its value is used.
 
 As an example, suppose you have a simple .NET Core or .NET 5 or later Console App project, and you want to customize the intermediate output folder, normally `obj`. The property that specifies this path is `BaseIntermediateOutput`. If you try putting this in a `PropertyGroup` element in your project file along with the various other properties that are already set there, such as `TargetFramework`, you would discover when you build the project that the property does not take effect. If you run MSBuild with the `/pp` option and search the output for `BaseIntermediateOutputPath`, you can see why. In this case, `BaseIntermediateOutput` is read and used in `Microsoft.Common.props`.
 
