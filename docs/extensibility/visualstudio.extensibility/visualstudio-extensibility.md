@@ -28,7 +28,7 @@ Eventually, the VisualStudio.Extensibility SDK will ultimately allow you to writ
 This site is your hub for all documentation for the VisualStudio.Extensibility SDK. Documentation is currently available for the following:
 
 * VisualStudio.Extensibility SDK (see the following sections)
-* [Extensions to Language Server Protocol (LSP)](docs/lsp/lsp-extensions-specifications.md)
+* [Extensions to Language Server Protocol (LSP)](https://github.com/microsoft/VSExtensibility/blob/main/docs/lsp/lsp-extensions-specifications.md)
 
 ## Navigate the documentation
 
@@ -96,7 +96,7 @@ A Visual Studio solution containing all samples can be found at [Samples.sln](ht
 | [Command configuration](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CommandRegistrationsSample) | Shows how to configure a command with specific activation conditions. This command also uses a resource file for localization. |
 | [Command parenting](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/Command-Parenting-Sample) | Shows how to author a command that can be parented to different aspects of the IDE. |
 | [Document selector](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DocumentSelectorSample) | Shows how to create an editor extension that is only applicable to files matching a file path pattern. |
-| [Output window](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample) | Shows the most basic use of the [Output Window API](./new-extensibility-model/extension-guides/outputWindow/outputWindow.md)|
+| [Output window](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample) | Shows the most basic use of the [Output Window API](./extension-guides/outputWindow/outputWindow.md)|
 | [Tool window](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/ToolWindowExtension) | Shows how to create a tool window and populate it with content. |
 | [User prompt](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/UserPromptSample) | Shows how to display a prompt to the user. |
 | [Dialog](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DialogSample) | Shows how to display a dialog with custom UI to the user. |
@@ -114,9 +114,9 @@ A Visual Studio solution containing all samples can be found at [Samples.sln](ht
 
 ## API Docs
 
-* [Microsoft.VisualStudio.Extensibility](./api/Microsoft.VisualStudio.Extensibility.md)
-* [Microsoft.VisualStudio.Extensibility.Editor](./api/Microsoft.VisualStudio.Extensibility.Editor.md)
-* [Microsoft.VisualStudio.ProjectSystem.Query](./api/Microsoft.VisualStudio.ProjectSystem.Query.md)
+* [Microsoft.VisualStudio.Extensibility](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.md)
+* [Microsoft.VisualStudio.Extensibility.Editor](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md)
+* [Microsoft.VisualStudio.ProjectSystem.Query](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.ProjectSystem.Query.md)
 
 ## Send feedback
 
