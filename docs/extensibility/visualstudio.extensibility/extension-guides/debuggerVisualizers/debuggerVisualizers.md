@@ -19,7 +19,7 @@ Debugger visualizers are accessible from the *DataTip* that appears when hoverin
 
 ## Get started
 
-Follow the [Create the extension project](./../../getting-started/create-your-first-extension.md) section in the Getting Started section.
+Follow the [Create the extension project](./../../get-started/create-your-first-extension.md) section in the Getting Started section.
 
 Then, add a class extending `DebuggerVisualizerProvider` and apply the `VisualStudioContribution` attribute to it:
 

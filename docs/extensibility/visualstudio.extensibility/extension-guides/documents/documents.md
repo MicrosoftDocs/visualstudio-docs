@@ -184,4 +184,4 @@ internal sealed class SubscribeCommand : Command, IToggleCommand
 
 ## Next steps
 
-- Follow the [create the project](../../getting-started/create-your-first-extension.md) quickstart in the Getting Started section.
+- Follow the [create the project](../../get-started/create-your-first-extension.md) quickstart in the Getting Started section.

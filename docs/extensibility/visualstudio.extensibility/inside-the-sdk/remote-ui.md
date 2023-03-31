@@ -30,7 +30,7 @@ The main differences between Remote UI and normal WPF development are:
 
 ## Create a Remote UI Hello World extension
 
-Start by creating the most basic Remote UI extension. Follow the instructions in [Creating your first out-of-process Visual Studio extension](../getting-started/create-your-first-extension.md).
+Start by creating the most basic Remote UI extension. Follow the instructions in [Creating your first out-of-process Visual Studio extension](../get-started/create-your-first-extension.md).
 
 You should now have a working extension with a single command, the next step is to add a `ToolWindow` and a `RemoteUserControl`. The `RemoteUserControl` is the Remote UI equivalent of a WPF user control.
 

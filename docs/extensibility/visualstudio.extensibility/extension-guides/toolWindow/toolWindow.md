@@ -17,7 +17,7 @@ Tool windows are single-instance, meaning that only one instance of the Tool Win
 
 ## Get started
 
-To get started, follow the [create your first extension](./../../getting-started/create-your-first-extension.md) tutorial.
+To get started, follow the [create your first extension](./../../get-started/create-your-first-extension.md) tutorial.
 
 ## Working with Tool Windows
 

@@ -15,7 +15,7 @@ The Output window in the Visual Studio IDE is a [Tool Window](./../toolWindow/to
 
 ## Get Started
 
-To get started, follow the [create the project](./../../getting-started/create-your-first-extension.md) section in Getting Started section.
+To get started, follow the [create the project](./../../get-started/create-your-first-extension.md) section in Getting Started section.
 
 ## Work with the Output window
 

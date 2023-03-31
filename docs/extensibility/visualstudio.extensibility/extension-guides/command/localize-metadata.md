@@ -1,5 +1,5 @@
 ---
-title: Metadata localization reference
+title: Metadata localization
 description: An overview of extensibility metadata localization
 author: RyanToth3
 ms.author: rytoth

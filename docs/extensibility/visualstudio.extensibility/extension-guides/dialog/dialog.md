@@ -15,7 +15,7 @@ Dialogs are a way to prompt a user for information or to allow for customization
 
 ## Get Started
 
-To get started, follow the [create the project](./../../getting-started/create-your-first-extension.md) section in the Getting Started section.
+To get started, follow the [create the project](./../../get-started/create-your-first-extension.md) section in the Getting Started section.
 
 ## Work with dialogs
 
