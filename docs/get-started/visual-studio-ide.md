@@ -57,7 +57,7 @@ Learn more about all the features in the IDE to organize and edit content:
 
 ### Debug
 
-Integrated debugging in Visual Studio enables you debug, profile, and diagnose with ease. You step through your code and look at the values stored in variables, set watches on variables to see when values changes, examine the execution path of your code, and other ways to debug your code while it runs.
+Integrated debugging in Visual Studio enables you to debug, profile, and diagnose with ease. You step through your code and look at the values stored in variables, set watches on variables to see when values changes, examine the execution path of your code, and other ways to debug your code while it runs.
 
 Learn more about debugging effectively in Visual Studio:
 
@@ -105,7 +105,7 @@ Learn more about how to collaborate with Live Share:
 
 ### Deploy
 
-By deploying an application, service, or component, you distribute it for installation on other computers, devices, or servers, or in the cloud. You can choose the appropriate method in Visual Studio for the type of deployment that you need. Share you apps and code by publishing to the web or Azure, or by deploying to a network share or a local folder. 
+By deploying an application, service, or component, you distribute it for installation on other computers, devices, or servers, or in the cloud. You can choose the appropriate method in Visual Studio for the type of deployment that you need. Share your apps and code by publishing to the web or Azure, or by deploying to a network share or a local folder. 
 
 Learn more about how to [deploy your app using Visual Studio](/visualstudio/deployment/).
 
