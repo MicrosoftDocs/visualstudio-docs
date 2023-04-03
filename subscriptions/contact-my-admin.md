@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 64455e79-229a-42f0-9d65-c2cca8ab8513
-ms.date: 07/08/2022
+ms.date: 04/03/2023
 ms.topic: how-to
 description: Learn how to contact your subscription admin for assistance with questions or issues. 
 ---
@@ -17,7 +17,7 @@ If your Visual Studio subscription is provided to you by your work or school, ch
 + Enabling access to software downloads
 + Other functions related to your subscription
 
-Many organizations are large and complex, so you may not be aware of who your admin is when you need help.  We provide a feature in the subscriber portal to assist you with contacting your admin(s).   
+Many organizations are large and complex, so you may not be aware of who your admin is.  We provide a feature in the subscriber portal to assist you with contacting your admin(s).   
 
 ## How to contact your admin
 
@@ -40,7 +40,7 @@ Many organizations are large and complex, so you may not be aware of who your ad
 ## See also
 
 + [Visual Studio documentation](/visualstudio/)
-+ [Azure DevOps documentation](/azure/devops/)
++ [Azure DevOps Services documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
 
