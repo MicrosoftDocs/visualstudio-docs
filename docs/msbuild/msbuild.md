@@ -1,7 +1,7 @@
 ---
 title: MSBuild | Microsoft Docs
 description: Learn about how the Microsoft Build Engine (MSBuild) platform provides a project file with an XML schema to control builds.
-ms.date: 10/07/2022
+ms.date: 3/15/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, about MSBuild
@@ -20,6 +20,8 @@ The Microsoft Build Engine is a platform for building applications. This engine,
 
 Visual Studio uses MSBuild to load and build managed projects. The project files in Visual Studio (*.csproj*, *.vbproj*, *.vcxproj*, and others) contain MSBuild XML code that executes when you build a project by using the IDE. Visual Studio projects import all the necessary settings and build processes to do typical development work, but you can extend or modify them from within Visual Studio or by using an XML editor.
 
+To install MSBuild on a Windows system that doesn't have Visual Studio, go to Build Tools for Visual Studio 2022 on the [downloads page](https://visualstudio.microsoft.com/downloads/). Another way of getting MSBuild is to install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk). MSBuild is available with the .NET SDK on macOS, Windows, or Linux. You can also use the [.NET Core command-line interface (CLI)](/dotnet/core/tools/), which uses MSBuild, to build projects that target .NET Core and .NET 5 and later.
+
 ::: moniker range=">=vs-2022"
 Starting with Visual Studio 2022, when you build in Visual Studio, the 64-bit version of MSBuild is used.
 ::: moniker-end
@@ -28,7 +30,7 @@ For information about MSBuild for C++, see [MSBuild (C++)](/cpp/build/msbuild-vi
 
 The following examples illustrate when you might run builds by invoking MSBuild from the command line instead of the Visual Studio IDE.
 
-- Visual Studio isn't installed. To install MSBuild on a system that doesn't have Visual Studio, go to Build Tools for Visual Studio 2022 on the [downloads page](https://visualstudio.microsoft.com/downloads/). Another way of getting MSBuild is to install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk).
+- Visual Studio isn't installed.
 
 - You want to use the 64-bit version of MSBuild, and you're using Visual Studio 2019 or earlier. This version of MSBuild is usually unnecessary, but it allows MSBuild to access more memory.
 
@@ -44,12 +46,12 @@ The following examples illustrate when you might run builds by invoking MSBuild 
 
   - Do a post-processing step. For example, you might want to stamp an assembly with a different version.
 
-You can write code in the Visual Studio IDE but run builds by using MSBuild. As another alternative, you can build code in the IDE on a development computer but run MSBuild from the command line to build code that's integrated from multiple developers. You can also use the [.NET Core command-line interface (CLI)](/dotnet/core/tools/), which uses MSBuild, to build .NET Core projects.
+You can write code in the Visual Studio IDE but run builds by using MSBuild. As another alternative, you can build code in the IDE on a development computer but run MSBuild from the command line to build code that's integrated from a source repo with collaboration from multiple developers.
 
 > [!NOTE]
 > You can use Azure Pipelines to automatically compile, test, and deploy your application. Your build system can automatically run builds when developers check in code (for example, as part of a Continuous Integration strategy) or according to a schedule (for example, a nightly Build Verification Test build). Azure Pipelines compiles your code by using MSBuild. For more information, see [Azure Pipelines](/azure/devops/pipelines/index?view=vsts&preserve-view=true).
 
-This article provides an overview of MSBuild. For an introductory tutorial, see [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md).
+For an introductory tutorial for MSBuild on Windows, see [Walkthrough: Using MSBuild](../msbuild/walkthrough-using-msbuild.md).
 
 ## Use MSBuild at a command prompt
 
@@ -183,6 +185,18 @@ For .NET Core and .NET 5 or later, you typically use `dotnet build` to invoke MS
 - Multitargeting guarantees that an application uses only the functionality that's available in the target framework and platform.
 
 For more information, see [Multitargeting](../msbuild/msbuild-multitargeting-overview.md).
+
+## Customizing the build
+
+MSBuild provides support for a wide range of custom build scenarios. Most built-in functionality can be overridden or extended. See [Customize your build](./customize-your-build.md).
+
+## Accessing MSBuild programmatically
+
+If you're developing a build tool, you might want to invoke MSBuild programmatically from a .NET application. By using the MSBuild API, you can control all aspect of a complex build system. MSBuild provides a NuGet package with a full API (the Microsoft.Build namespace) that you can use from a .NET application for these purposes. See [Use the MSBuild API](msbuild-api.md).
+
+## MSBuild is open source
+
+MSBuild is an open-source project that accepts user contributions, just like the rest of the .NET ecosystem. The repo that contains the MSBuild source is available in GitHub: [MSBuild GitHub repo](https://github.com/dotnet/msbuild).
 
 ## See also
 
