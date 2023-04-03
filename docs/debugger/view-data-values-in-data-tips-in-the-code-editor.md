@@ -23,7 +23,7 @@ ms.workload:
 ---
 # View data values in DataTips in the code editor
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]r
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Data tips provide a convenient way to view information about variables in your program during debugging. Data tips work only in break mode and only with variables that are in the current scope of execution. If this is the first time that you've tried to debug code, you may want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before going through this article.
 
@@ -108,7 +108,7 @@ To edit the value of a variable or element in a data tip, select the value, type
 
 You can quickly inspect objects by their properties in data tips with the **Pinnable Properties** tool.  To use this tool, hover over a property and select the pin icon that appears or right-click and select the **Pin Member as Favorite** option in the resulting context menu.  This bubbles up that property to the top of the object’s property list, and the property name and value is displayed in the right column of the data tip.  To unpin a property, select the pin icon again or select the **Unpin Member as Favorite** option in the context menu.
 
-![Pinning a property in a data tip](../debugger/media/basic-pin-data-tip.gif "Pinning a property in a data tip")
+![Pinning a property in a data tip](../debugger/media/basic-pin-datatip.gif "Pinning a property in a data tip")
 
 You can also toggle property names and filter out non-pinned properties when viewing the object’s property list in a data tip.  You can access either option by right-clicking a row containing a property and selecting the **Show only pinned members** or **Hide pinned member names in values** options in the context menu.
 
