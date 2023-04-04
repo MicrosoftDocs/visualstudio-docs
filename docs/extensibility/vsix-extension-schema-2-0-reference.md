@@ -19,13 +19,12 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A VSIX deployment manifest file describes the contents of a VSIX package. The file format is governed by a schema. Version 2.0 of this schema supports the adding of custom types and attributes.  The schema of the manifest is extensible. The manifest loader ignores XML elements and attributes that it doesn't understand.
 
-> [!IMPORTANT]
-> Visual Studio 2015 can load VSIX files in the Visual Studio 2010, Visual Studio 2012, or Visual Studio 2013 formats.
-
 ## Package manifest schema
+
  The root element of the manifest XML file is `<PackageManifest>`. It has a single attribute `Version`, which is the version of the manifest format. If major changes are made to the format, the version format is changed. This article describes manifest format version 2.0, which is specified in the manifest by setting the `Version` attribute to the value of Version="2.0".
 
 ### PackageManifest element
+
  Within the `<PackageManifest>` root element, you can use the following elements:
 
 - `<Metadata>` - Metadata and advertising information about the package itself. Only one `Metadata` element is allowed in the manifest.
@@ -39,6 +38,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 - `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements not recognized by the manifest loader are exposed in the Extension Manager API as extra XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file that code running in Visual Studio can access at run time. See [Microsoft.VisualStudio.ExtensionManager.IExtension.AdditionalElements](/previous-versions/visualstudio/visual-studio-2013/hh265266(v=vs.120)).
 
 ### Metadata element
+
  This section is the metadata about the package, its identity, and advertising information. `<Metadata>` contains the following elements:
 
 - `<Identity>` -  Defines identification information for this package and includes the following attributes:
@@ -72,6 +72,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 - `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements that aren't recognized by the manifest loader are exposed as a list of XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file and enumerate them at run time.
 
 ### Installation element
+
  This section defines the way this package can be installed and the application SKUs that it can install into. This section contains the following attributes:
 
 - `Experimental` - Set this attribute to true if you have an extension that is currently installed for all users, but you are developing an updated version on the same computer. For example, if you have installed MyExtension 1.0 for all users, but you want to debug MyExtension 2.0 on the same computer, set Experimental="true". This attribute is available in Visual Studio 2015 Update 1 and later.
@@ -134,6 +135,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
   - `AnyAttribute*` - The `<InstallationTarget>` element allows an open-ended set of attributes that is exposed at run time as a name-value pair dictionary.
 
 ### Dependencies element
+
  This element contains a list of dependencies that this package declares. If any dependencies are specified, those packages (identified by their `Id`) must have been installed before.
 
 - `<Dependency>` element - This child element has the following attributes:
@@ -159,6 +161,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
   - `AnyAttribute*` - The `Dependency` element accepts an open-ended set of attributes that will be exposed at run time as a name-value pair dictionary.
 
 ### Assets element
+
  This element contains a list of `<Asset>` tags for each extension or content element surfaced by this package.
 
 - `<Asset>` -  This element contains the following attributes and elements:
@@ -189,7 +192,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
     `<AnyElement>*` - Any structured content is allowed between an `<Asset>` begin and end tag. All elements are exposed as a list of XmlElement objects. VSIX extensions can define structured type-specific metadata in the manifest file and enumerate them at run time.
 
-## Placeholders and project output groups
+## Placeholder syntax for extension manifests
 
 The `.vsixmanifest` file defines the build for the VSIX package. When a build is requested, Visual Studio parses the manifest to produce a build script, which is built by using [MSBuild](../msbuild/msbuild.md). You can set certain values at build time using placeholders that are evaluated before the VSIX package is built. Placeholders are used to refer to projects referenced in the VSIX project, [MSBuild properties](../msbuild/common-msbuild-project-properties.md), and [MSBuild targets](../msbuild/msbuild-targets.md), most commonly the targets that represent *project output groups*. Project output groups represent collections of files associated with a project, and some of these can be included in a VSIX package. For example, `PkgDefProjectOutputGroup`, `BuiltProjectOutputGroup`, or `SatelliteDllsProjectOutputGroup`.
 
