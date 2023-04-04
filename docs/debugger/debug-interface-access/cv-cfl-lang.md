@@ -15,14 +15,12 @@ ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
-
 # CV_CFL_LANG
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the source code language of the application or linked module.
 
 ## Syntax
-
 
 ```C++
 typedef enum CV_CFL_LANG {
@@ -53,7 +51,6 @@ typedef enum CV_CFL_LANG {
 ```
 
 ## Elements
-
 CV_CFL_C
 Application language is C.
 
@@ -125,12 +122,8 @@ Application language is Go.
 The values in this enumeration are returned by a call to the [IDiaSymbol::get_language](../../debugger/debug-interface-access/idiasymbol-get-language.md) method.
 
 ## Requirements
-
 Header: cvconst.h
 
 ## See also
-
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [IDiaSymbol::get_language](../../debugger/debug-interface-access/idiasymbol-get-language.md)
-
-
