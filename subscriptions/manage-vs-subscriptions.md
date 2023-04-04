@@ -23,14 +23,14 @@ The Visual Studio subscriptions portal brings together all your Visual Studio su
 
 On the Benefits page, the subscription in use is displayed in the drop-down list next to the *Featured benefit*. You can use this drop-down to switch between subscriptions if you have more than one.  If you only have one, the drop-down is disabled.  
   > [!div class="mx-imgBorder"]
-  > ![Subscription dropdown](_img/manage-vs-subscriptions/drop-down.png "Screenshot of the subscriptions drop-down.")
+  > ![Screenshot of the subscriptions drop-down.](_img/manage-vs-subscriptions/drop-down.png "Use the subscriptions drop-down to choose between available subscriptions.")
 
 ### To switch between subscriptions, you can:
 
 + Select the drop-down in the top right and choose the subscription from the list
 + Select the Subscriptions tab and then select the desired subscription
   > [!div class="mx-imgBorder"]
-  > ![Switching subscriptions](_img/manage-vs-subscriptions/change-subscription-resized.png "Screenshot of the subscriptions portal.  The subscriptions tab is highlighted.")
+  > ![Screenshot of the subscriptions portal.  The subscriptions tab is highlighted.](_img/manage-vs-subscriptions/change-subscription-resized.png "Select the subscriptions tab to see your subscriptions and switch between them.")
 
 ### If your subscription isn't visible...
 
