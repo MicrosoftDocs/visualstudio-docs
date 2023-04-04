@@ -189,7 +189,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
     `<AnyElement>*` - Any structured content is allowed between an `<Asset>` begin and end tag. All elements are exposed as a list of XmlElement objects. VSIX extensions can define structured type-specific metadata in the manifest file and enumerate them at run time.
 
-### Placeholders and project output groups
+## Placeholders and project output groups
 
 The `.vsixmanifest` file defines the build for the VSIX package. When a build is requested, Visual Studio parses the manifest to produce a build script, which is built by using [MSBuild](../msbuild/msbuild.md). You can set certain values at build time using placeholders that are evaluated before the VSIX package is built. Placeholders are used to refer to projects referenced in the VSIX project, [MSBuild properties](../msbuild/common-msbuild-project-properties.md), and [MSBuild targets](../msbuild/msbuild-targets.md), most commonly the targets that represent *project output groups*. Project output groups represent collections of files associated with a project, and some of these can be included in a VSIX package. For example, `PkgDefProjectOutputGroup`, `BuiltProjectOutputGroup`, or `SatelliteDllsProjectOutputGroup`.
 
@@ -264,7 +264,7 @@ The build system populates these output groups with the appropriate files accord
 
 In advanced scenarios, you can reference a build target or define a custom target that you want to be invoked and use the syntax described here to insert values for any element in the VSIX manifest. A target must have the appropriate output parameter that matches the expectation of the context in which it is used. If a collection of files such as the built output of a project is expected, then a target that outputs the required [MSBuild items](../msbuild/msbuild-items.md) is needed. The project output group built targets mentioned previously can be used as examples when building your own targets.
 
-### Sample manifest
+## Sample manifest
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
