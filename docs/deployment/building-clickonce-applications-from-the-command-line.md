@@ -1,7 +1,7 @@
 ---
 title: "Building ClickOnce Applications from the Command Line | Microsoft Docs"
 description: Learn how to build Visual Studio projects from the command line, which allows you to reproduce a build using an automated process.
-ms.date: "01/19/2022"
+ms.date: "04/04/2023"
 ms.topic: "conceptual"
 dev_langs:
   - "VB"
@@ -82,7 +82,7 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
 
 For .NET Core 3.1 and .NET 5 and later, building .NET ClickOnce applications from the command line is a similar experience except, you need to provide an additional property for the publish profile on the MSBuild command line. The easiest way to create a publish profile is by using Visual Studio.  See [Deploy a .NET Windows application using ClickOnce](quickstart-deploy-using-clickonce-folder.md) for more information.
 
-Once you have the publish profile created, you can provide the pubxml file as a property on the msbuild command line. For example:
+Once you have the publish profile created, you can provide the pubxml file as a property on the MSBuild command line. For example:
 
 ```cmd
     msbuild /t:publish /p:PublishProfile=<pubxml file> /p:PublishDir="<specific location>"
@@ -90,6 +90,18 @@ Once you have the publish profile created, you can provide the pubxml file as a 
 
 >[!IMPORTANT]
 > If PublishDir is set to the same location as PublishUrl, duplicate compilation output gets copied to the PublishUrl location. You can avoid this issue in Visual Studio 2022 version 17.4 and later by creating a new profile. The new profile sets PublishDir to a different location than PublishUrl. At the end of the publish operation, the relevant ClickOnce files are copied from PublishDir to PublishUrl location.
+
+## Publish process output
+
+MSBuild uses the `PublishDir` property to set the build output location, including build artifacts. The `PublishDir` value that MSBuild uses as the destination for the publish comes by default from the `PublishDir` property in the project file (.NET Framework) or the *.pubxml* file (.NET), but you can also override it on the MSBuild command line by using the /p switch. If you override the setting, the publish output goes to the location specified. This occurs during the MSBuild step of publish. Any MSBuild target with `AfterTargets="ClickOncePublish"` runs after this copy is made.
+
+The `PublishUrl` property, unlike `PublishDir`, is not used in the MSBuild step. `PublishUrl` is ignored when you invoke MSBuild directly to publish from the command line.
+
+When Publishing is started in Visual Studio IDE, Visual Studio invokes MSBuild to publish artifacts into the `PublishDir` location. After this MSBuild step is completed, Visual Studio then publishes ClickOnce-specific files to the location pointed to by `PublishUrl`. This second step runs inside the Visual Studio process. You cannot inject any target/task to run during this step because it is a Visual Studio process.
+
+For MSBuild deployments that don't use Visual Studio, copy all of the files in the deployment directory to the deployment destination or media. This may be either a folder on a Web site or FTP site, a file share, or a CD-ROM. For example, you might use a third-party tool or a custom MSBuild task to copy the ClickOnce files.
+
+For any post-processing in the `PublishUrl` folder, you need to have a separate script.
 
 ## Publish properties
 
