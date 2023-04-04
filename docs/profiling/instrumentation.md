@@ -1,7 +1,7 @@
 ---
 title: "Instrument your .NET application"
 description: Learn about instrumenting your .NET applications.
-ms.date: "11/11/2022"
+ms.date: "03/31/2023"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -12,21 +12,24 @@ ms.workload:
   - "multiple"
 ---
 
-# Instrument your .NET applications in Visual Studio (C#, Visual Basic, F#)
+# Instrument your .NET applications in Visual Studio (C#, C++, Visual Basic, F#)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-With the release of Visual Studio 2022 version 17.5 Preview 1, you can use the new dynamic Instrumentation tool. This tool shows the exact number of times your functions are called and is faster than the previous version of the Instrumentation tool. This tool supports .NET Core instrumentation without needing PDBs.
+With the release of Visual Studio 2022 version 17.5, you can use the new dynamic Instrumentation tool. This tool shows the exact number of times your functions are called and is faster than the previous version of the Instrumentation tool. This tool supports .NET Core instrumentation without needing PDBs.
+Starting in Visual Studio 2022 version 17.6 Preview 2, the tool also supports C/C++.
 
-You can access the Instrumentation tool by launching the Performance Profiler for a .NET Project in Visual Studio (**Debug > Performance Profiler** or **Alt + F2**). Once you are on the summary page, select the **.NET Instrumentation** checkbox.
+The tool is similar to the CPU Usage tool except it is based on wall clock time instead of CPU utilization.
+
+You can access the Instrumentation tool by launching the Performance Profiler for a .NET or C++ project in Visual Studio (**Debug > Performance Profiler** or **Alt + F2**). Once you are on the summary page, select the **Instrumentation** checkbox.
 
 ## Instrument your application
 
 1. Select **Alt+F2** to open the performance profiler in Visual Studio.
 
-1. Select the **.NET Instrumentation** check box.
+1. Select the **Instrumentation** check box.
 
-   ![Screenshot showing .NET Instrumentation tool selected.](./media/vs-2022/instrumentation-tool-launch.png ".NET Instrumentation tool selected")
+   ![Screenshot showing Instrumentation tool selected.](./media/vs-2022/instrumentation-tool-launch.png "Instrumentation tool selected")
 
    > [!NOTE]
    > If the tool isn't available for selection, clear every other tool's check box because some tools need to run alone. To learn more about running tools together, see [Using multiple profiler tools simultaneously](../profiling/use-multiple-profiler-tools-simultaneously.md).
@@ -49,11 +52,11 @@ Your profiling data appears in Visual Studio.
 
 ![Screenshot showing .NET Instrumentation data.](./media/vs-2022/instrumentation-data.png "Instrumentation data")
 
-The Instrumentation data view shows you a list of functions ordered by longest running, with the longest running function at the top under **Top Functions**. The **Hot Path** section shows you the call stack for the functions that are using the most CPU. These lists can help guide you to functions where performance bottlenecks are happening.
+The Instrumentation data view shows you a list of functions ordered by longest running, with the longest running function at the top under **Top Functions**. The **Hot Path** section shows you the call stack for the functions that are using the most time. These lists can help guide you to functions where performance bottlenecks are happening.
 
 Click on a function that you are interested in, and you will see a more detailed view.
 
-The information available for the Instrumentation tool is the same as CPU Usage, except it's based on instrumented data instead of sampled data. For detailed information on the views, see [CPU Usage](../profiling/cpu-usage.md).
+The information available is similar to the CPU Usage tool, except that it is based on wall clock time and call counts instead of CPU utilization. This means blocked time such as time spent waiting for locks will show up in the instrumentation trace, unlike the CPU Usage tool. For detailed information on the views, see [CPU Usage](../profiling/cpu-usage.md).
 
 ## See Also
 
