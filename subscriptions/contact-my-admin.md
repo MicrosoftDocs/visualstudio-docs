@@ -25,7 +25,7 @@ Many organizations are large and complex, so you may not be aware of who your ad
 2. Select the **Subscriptions** tab. 
 3. Select the **Contact my Admin** button at the top right. 
    > [!div class="mx-imgBorder"]
-   > ![Contact my Admin](_img/contact-my-admin/contact-my-admin-button.png "Screenshot of the subscriptions page in the subscriber portal.  The Contact my admin button is highlighted.")
+   > ![Screenshot of the subscriptions page in the subscriber portal.  The Contact my admin button is highlighted.](_img/contact-my-admin/contact-my-admin-button.png "Screenshot of the subscriptions page in the subscriber portal.  The Contact my admin button is highlighted.")
 4. Enter the message for your admin.
 5. If you'd like to receive a copy of the message sent to your admin, choose the **Send me a copy** checkbox. 
 6. Finally, select **Send**.
