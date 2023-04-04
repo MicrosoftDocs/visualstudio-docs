@@ -5556,6 +5556,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/install/update-servicing-baseline.md",
+      "redirect_url": "https://aka.ms/vs/admin/feedback",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/install/visual-studio-enterprise-guide.md",
       "redirect_url": "/visualstudio/install/visual-studio-administrator-guide",
       "redirect_document_id": false
