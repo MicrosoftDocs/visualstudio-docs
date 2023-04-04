@@ -118,7 +118,6 @@ Application language is Rust.
 CV_CFL_GO
 Application language is Go.
 ## Remarks
-
 The values in this enumeration are returned by a call to the [IDiaSymbol::get_language](../../debugger/debug-interface-access/idiasymbol-get-language.md) method.
 
 ## Requirements
