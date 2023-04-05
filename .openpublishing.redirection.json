@@ -5526,6 +5526,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/reference/connected-experiences.md",
+      "redirect_url": "/visualstudio/ide/visual-studio-experience-improvement-program",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/install/index.md",
       "redirect_url": "/visualstudio/install/install-visual-studio",
       "redirect_document_id": false

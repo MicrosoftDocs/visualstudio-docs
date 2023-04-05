@@ -1342,8 +1342,6 @@
     href: /visualstudio/productinfo/vs-servicing-vs/
   - name: Customer Experience Improvement
     href: ide/visual-studio-experience-improvement-program.md
-  - name: Connected experiences in Visual Studio
-    href: ide/reference/connected-experiences.md
   expanded: true
 - name: Send feedback
   items:
