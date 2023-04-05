@@ -179,7 +179,7 @@ Before you begin, make sure that you've built the new release version of your ex
 
 Visual Studio Marketplace supports granting additional users permissions to access and manage a publisher account.
 
-1. Ask member (that you want to add) to login their account on Marketplace and get the User Id. User Id will be visible by hovering over email. As shown in the image.
+1. Ask the member that you want to add to sign in to their account on Marketplace and get the User Id. The User Id will be visible by hovering over email, as shown in the following image:
 ![Screenshot that shows the user ID next to a user's name and email address in Marketplace.](media/marketplace-user-id.png)
 
 2.	Member can copy the User Id by clicking copy-to-clipboard button and share with the current owner of the publisher (You).
