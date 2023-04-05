@@ -235,7 +235,7 @@ The output used in the VSIX project MSBuild code is:
     </InstallationTarget>
 ```
 
-and for the following code in a extension manifest:
+And, for the following code in an extension manifest:
 
 ```xml
  <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="|%CurrentProject%;GetPrerequisiteTargetVersion|" DisplayName="Visual Studio core editor" />
@@ -263,7 +263,7 @@ This functionality is also used in the VSIX manifest files that Visual Studio ge
 | SourceFilesProjectOutputGroup | Source code files. |
 | TemplateProjectOutputGroup | Project templates. |
 
-The build system populates these output groups with the appropriate files according to the default build logic. In a custom build, you can add items to the project output groups either by setting the `BeforeTargets` attribute on your target to one of the above targets, and in the target use `BuiltProjectOutputGroupKeyOutput` task to .
+The build system populates these output groups with the appropriate files according to the default build logic. In a custom build, you can add items to the project output groups either by setting the `BeforeTargets` attribute on your target to one of the above targets, and in the target, follow the code for the targets listed above as examples for how to use the `BuiltProjectOutputGroupKeyOutput` task to set the outputs.
 
 In advanced scenarios, you can reference a build target or define a custom target that you want to be invoked and use the syntax described here to insert values for any element in the VSIX manifest. A target must have the appropriate output parameter that matches the expectation of the context in which it is used. If a collection of files such as the built output of a project is expected, then a target that outputs the required [MSBuild items](../msbuild/msbuild-items.md) is needed. The project output group built targets mentioned previously can be used as examples when building your own targets.
 
