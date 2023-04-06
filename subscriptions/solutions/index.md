@@ -15,23 +15,32 @@ ms.date: 02/14/2023
 
 [!INCLUDE [Error while activating Azure monthly credit](benefit-activation/includes/error-while-activating-azure-monthly-credit.md)]
 
-[!INCLUDE [what-happens-to-azure-credit-when-subscription-expires](benefit-activation/includes/what-happens-to-azure-credit-when-subscription-expires.md)]
-
 [!INCLUDE [How do I activate Azure monthly credit](benefit-activation/includes/how-do-i-activate-azure-monthly-credit.md)]
+
+[!INCLUDE [No Azure credit tile on benefits page](benefit-activation/includes/no-Azure-credit-tile-on-benefits-page.md)]
+
+[!INCLUDE [No benefits showing on benefits page](benefit-activation/includes/no-benefits-showing-on-benefits-page.md)]
 
 [!INCLUDE [Unable to activate Azure DevOps](benefit-activation/includes/unable-to-activate-azure-devops.md)]
 
 [!INCLUDE [Unable to activate Azure PAYG subscription](benefit-activation/includes/unable-to-activate-azure-pay-as-you-go-subscription.md)]
 
-[!INCLUDE [Unable to activate EMS](benefit-activation/includes/unable-to-activate-enterprise-mobility-security-benefit.md)]
+[!INCLUDE [Unable to activate M365 benefit](benefit-activation/includes/unable-to-activate-enterprise-mobility-security-benefit.md)]
 
 [!INCLUDE [Unable to activate Pluralsight benefit](benefit-activation/includes/unable-to-activate-pluralsight-benefit.md)]
 
 [!INCLUDE [Unable to see Azure monthly credit in Azure portal](benefit-activation/includes/unable-to-see-azure-monthly-credit-in-azure-portal.md)]
 
+[!INCLUDE [Using alternate account with benefits](benefit-activation/includes/using-alternate-account-with-benefits.md)]
+
+[!INCLUDE [what-happens-to-azure-credit-when-subscription-expires](benefit-activation/includes/what-happens-to-azure-credit-when-subscription-expires.md)]
+
 ## Download, activate, or use software
 
 ### Downloads and activations
+[!INCLUDE [No access to downloads error](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/no-access-to-downloads-error.md)]
+
+
 [!INCLUDE [Unable to download non-Visual Studio software](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-software-non-visualstudio.md)]
 
 [!INCLUDE [Unable to download Visual Studio Community](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-download-visual-studio-community.md)]
@@ -45,20 +54,26 @@ ms.date: 02/14/2023
 [!INCLUDE [Unable to locate a product](downloading-activating-or-using-software/downloading-activating-or-using-software/includes/unable-to-locate-product.md)]
 
 ### Find and use product keys
-[!INCLUDE [Unable to find or claim product keys](downloading-activating-or-using-software/finding-or-using-product-keys/includes/unable-to-find-or-claim-product-keys.md)]
+[!INCLUDE [Unable to claim product keys](downloading-activating-or-using-software/finding-or-using-product-keys/includes/unable-to-claim-product-keys.md)]
+
+[!INCLUDE [Unable to find product keys](downloading-activating-or-using-software/finding-or-using-product-keys/includes/unable-to-find-or-claim-product-keys.md)]
 
 ### Use product features
+[!INCLUDE [Azure DevOps technical support](downloading-activating-or-using-software/using-product-features/includes/azure-devops-technical-support.md)]
+
 [!INCLUDE [Cannot find IDE feature](downloading-activating-or-using-software/using-product-features/includes/cannot-find-ide-feature.md)]
 
-[!INCLUDE [Visual Studio IDE technical support](downloading-activating-or-using-software/using-product-features/includes/visual-studio-ide-technical-support.md)]
+[!INCLUDE [Other software usage and features support](downloading-activating-or-using-software/using-product-features/includes/other-software-usage-and-features-support.md)]
 
-[!INCLUDE [Azure DevOps technical support](downloading-activating-or-using-software/using-product-features/includes/azure-devops-technical-support.md)]
+[!INCLUDE [Visual Studio IDE technical support](downloading-activating-or-using-software/using-product-features/includes/visual-studio-ide-technical-support.md)]
 
 [!INCLUDE [Windows developer technical support](downloading-activating-or-using-software/using-product-features/includes/windows-developer-technical-support.md)]
 
 ## License terms
 
 [!INCLUDE [Subscription licensing terms and conditions](licensing-terms/includes/subscription-licensing-terms-and-conditions.md)]
+
+[!INCLUDE [Transfer subscription](licensing-terms/includes/transfer-subscription.md)]
 
 ## Other solutions or no solution
 
