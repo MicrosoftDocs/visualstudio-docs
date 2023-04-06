@@ -71,6 +71,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/install/visual-studio-build-numbers-and-release-dates.md?view=vs-2022",
+      "redirect_url": "/visualstudio/releases/2022/release-history#release-dates-and-build-numbers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/install/visual-studio-build-numbers-and-release-dates.md?view=vs-2019",
+      "redirect_url": "/visualstudio/releases/2019/history#release-dates-and-build-numbers",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/msbuild/troubleshooting-dotnet-framework-targeting-errors.md",
       "redirect_url": "/troubleshoot/developer/visualstudio/project-build/troubleshooting-dotnet-framework-targeting-errors",
       "redirect_document_id": false
