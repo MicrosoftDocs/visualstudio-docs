@@ -30,13 +30,13 @@ You can set and clear the **Word wrap** option. When this option is set, the por
 
     :::image type="content" source="media/vs-2022/tools-options-menu-bar.png" alt-text="Screenshot of the menu bar in Visual Studio with Tools and Options selected.":::
 
-2. Select **Text Editor** > **All Languages** > **General** to set this option globally.
+1. Select **Text Editor** > **All Languages** > **General** to set this option globally.
 
      — or —
 
      Select **Text Editor**, select the folder that matches the programming language you're using, and then select the **General** folder. For example, select **Text Editor** > **C#** > **General**.
 
-3. Under **Settings**, select or clear the **Word wrap** option.
+1. Under **Settings**, select or clear the **Word wrap** option.
 
      When the **Word wrap** option is selected, the **Show visual glyphs for word wrap** option is enabled.
 
