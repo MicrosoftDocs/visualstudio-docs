@@ -48,7 +48,7 @@ You can set and clear the **Word wrap** option. When this option is set, the por
 If you're familiar with word wrap in Notepad++, Sublime Text, or Visual Studio Code (also known as VS Code), be aware of the following issues where Visual Studio behaves differently to other editors:
 
 * [Triple click doesn't select whole line](https://developercommunity.visualstudio.com/t/fix-known-issues-in-word-wrap/351760)
-* [Pressing End key twice does not move cursor to end of line](https://developercommunity.visualstudio.com/t/fix-known-issues-in-word-wrap/351760)
+* [Pressing End key twice doesn't move cursor to end of line](https://developercommunity.visualstudio.com/t/fix-known-issues-in-word-wrap/351760)
 
 ## See also
 
