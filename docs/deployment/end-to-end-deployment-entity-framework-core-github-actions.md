@@ -210,7 +210,7 @@ The connection string is now stored securely in the GitHub repository secrets an
       run: | 
         dotnet tool install --global dotnet-ef
         dotnet tool restore
-        dotnet ef database update -p DotNetCoreSqlDb --connection ${{ secrets.DBConnection }}
+        dotnet ef database update -p DotNetCoreSqlDb --connection '${{ secrets.DBConnection }}'
     ```
 
     This code installs the entity framework command line tooling and runs the app migrations. When the workflow runs, the code also uses the `connection` parameter of the `database update` command to override the `localdb` connection string stored in the `appsettings.json` file with the value that was added to GitHub secrets.
