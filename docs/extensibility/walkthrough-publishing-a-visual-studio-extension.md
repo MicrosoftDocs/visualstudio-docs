@@ -183,15 +183,15 @@ Visual Studio Marketplace supports granting additional users permissions to acce
 
    ![Screenshot that shows the user ID next to a user's name and email address in Marketplace.](media/marketplace-user-id.png)
 
-2.	The member can copy the User Id by clicking the copy-to-clipboard button, and then share it with you.
+2. The member can copy the User ID by clicking the copy-to-clipboard button, and then share it with you.
 
-3.	Navigate to the publisher account you wish to add additional users to.
+3. Navigate to the publisher account you wish to add additional users to.
 
 4. Select **Members** and click on **Add**.
 
    ![Add Additional User](media/add-users.png)
 
-5. You can then specify the User Id of the user you wish to add and grant the right level of access under **Select a role**.  You can choose from the following options:
+5. You can then specify the User ID of the user you wish to add and grant the right level of access under **Select a role**.  You can choose from the following options:
 
    * **Creator**: The user can publish extensions, but cannot view or manage extensions published by other users.
 
