@@ -1,5 +1,5 @@
 ---
-title: You don't have access to downloads" error on Downloads tab
+title: You don't have access to downloads error on Downloads tab
 description: Why you may see the "You don't have access to downloads" error on Downloads tab in subscriptions portal
 ms.topic: include
 ms.assetid: fac62be6-ac8a-4e78-9698-9d8fa2ca27fb
