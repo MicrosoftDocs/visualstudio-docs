@@ -1,7 +1,7 @@
 ---
 title: Word wrap
 description: Learn how to turn the word wrap option on and off in the code editor.
-ms.date: 12/06/2021
+ms.date: 04/06/2023
 ms.topic: how-to
 helpviewer_keywords:
 - word wrap
@@ -19,14 +19,14 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can set and clear the **Word wrap** option. When this option is set, the portion of a long line that extends beyond the current width of the Code Editor window is displayed on the next line. When this option is cleared, for example, to facilitate the use of line numbering, you can scroll to the right to see the ends of long lines.
+You can set and clear the **Word wrap** option. When this option is set, the portion of a long line that extends beyond the current width of the Code Editor window is displayed on the next line. When this option is cleared&mdash;for example, to facilitate the use of line numbering&mdash;you can scroll to the right to see the ends of long lines.
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Source editor: Word wrap](/visualstudio/mac/source-editor#word-wrap).
 
 ## To set word wrap preferences
 
-1. On the Visual Studio menu bar, select **Tools**, and then select **Options**.
+1. On the Visual Studio menu bar, select **Tools** > **Options**.
 
     :::image type="content" source="media/vs-2022/tools-options-menu-bar.png" alt-text="Screenshot of the menu bar in Visual Studio with Tools and Options selected.":::
 
@@ -52,4 +52,4 @@ If you're familiar with word wrap in Notepad++, Sublime Text, or Visual Studio C
 
 ## See also
 
-- [Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md)
+[Features of the code editor](../writing-code-in-the-code-and-text-editor.md)
