@@ -30,11 +30,11 @@ You can set and clear the **Word wrap** option. When this option is set, the por
 
     :::image type="content" source="media/vs-2022/tools-options-menu-bar.png" alt-text="Screenshot of the menu bar in Visual Studio with Tools and Options selected.":::
 
-2. In the **Text Editor** folder, choose the **General** options in the **All Languages** subfolder to set this option globally.
+2. Select **Text Editor** > **All Languages** > **General** to set this option globally.
 
      — or —
 
-     Choose the **General** options in the subfolder for the language in which you are programming.
+     Select **Text Editor**, select the folder that matches the programming language you're using, and then select the **General** folder. For example, select **Text Editor** > **C#** > **General**.
 
 3. Under **Settings**, select or clear the **Word wrap** option.
 
@@ -45,7 +45,7 @@ You can set and clear the **Word wrap** option. When this option is set, the por
 
 ## Known issues
 
-If you're familiar with word wrap in Notepad++, Sublime Text, or Visual Studio Code, be aware of the following issues where Visual Studio behaves differently to other editors:
+If you're familiar with word wrap in Notepad++, Sublime Text, or Visual Studio Code (also known as VS Code), be aware of the following issues where Visual Studio behaves differently to other editors:
 
 * [Triple click doesn't select whole line](https://developercommunity.visualstudio.com/t/fix-known-issues-in-word-wrap/351760)
 * [Pressing End key twice does not move cursor to end of line](https://developercommunity.visualstudio.com/t/fix-known-issues-in-word-wrap/351760)
