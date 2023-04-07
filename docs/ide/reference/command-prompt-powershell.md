@@ -121,7 +121,7 @@ Another way to start the shells is from the Start menu. You may have multiple co
 
    ![Screenshot of the Windows 7 Start menu with the command prompt highlighted.](./media/developer-command-prompt-for-vs/windows-7-menu.png)
 
-If you have other SDKs installed, such as the [Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/) or [previous versions](https://developer.microsoft.com/windows/downloads/sdk-archive), you may see additional command prompts. Check the documentation for the individual tools to determine which version of the command prompt you should use.
+If you have other SDKs installed, such as the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-sdk/) or [previous versions](https://developer.microsoft.com/windows/downloads/sdk-archive), you may see additional command prompts. Check the documentation for the individual tools to determine which version of the command prompt you should use.
 
 ## Start from file browser
 
