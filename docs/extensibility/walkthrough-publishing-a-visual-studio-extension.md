@@ -178,13 +178,19 @@ Before you begin, make sure that you've built the new release version of your ex
 
 Visual Studio Marketplace supports granting additional users permissions to access and manage a publisher account.
 
-1. Navigate to the publisher account you wish to add additional users to.
+1. Ask the member that you want to add to sign in to their account on Marketplace and get the User ID. The User ID will be visible by hovering over email, as shown in the following image:
 
-2. Select **Members** and click on **Add**.
+   ![Screenshot that shows the user ID next to a user's name and email address in Marketplace.](media/marketplace-user-id.png)
+
+2. The member can copy the User ID by clicking the copy-to-clipboard button, and then share it with you.
+
+3. Navigate to the publisher account you wish to add additional users to.
+
+4. Select **Members** and click on **Add**.
 
    ![Add Additional User](media/add-users.png)
 
-3. You can then specify the email address of the user you wish to add and grant the right level of access under **Select a role**.  You can choose from the following options:
+5. You can then specify the User ID of the user you wish to add and grant the right level of access under **Select a role**.  You can choose from the following options:
 
    * **Creator**: The user can publish extensions, but cannot view or manage extensions published by other users.
 

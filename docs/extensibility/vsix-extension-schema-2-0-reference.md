@@ -1,7 +1,7 @@
 ---
 title: VSIX Extension Schema 2.0 Reference | Microsoft Docs
 description: The VSIX extension schema 2.0 defines the file format for a VSIX deployment manifest file, which describes the contents of a VSIX package.
-ms.date: 11/04/2016
+ms.date: 04/04/2023
 ms.topic: reference
 helpviewer_keywords:
 - vsix
@@ -19,13 +19,12 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A VSIX deployment manifest file describes the contents of a VSIX package. The file format is governed by a schema. Version 2.0 of this schema supports the adding of custom types and attributes.  The schema of the manifest is extensible. The manifest loader ignores XML elements and attributes that it doesn't understand.
 
-> [!IMPORTANT]
-> Visual Studio 2015 can load VSIX files in the Visual Studio 2010, Visual Studio 2012, or Visual Studio 2013 formats.
-
 ## Package manifest schema
+
  The root element of the manifest XML file is `<PackageManifest>`. It has a single attribute `Version`, which is the version of the manifest format. If major changes are made to the format, the version format is changed. This article describes manifest format version 2.0, which is specified in the manifest by setting the `Version` attribute to the value of Version="2.0".
 
 ### PackageManifest element
+
  Within the `<PackageManifest>` root element, you can use the following elements:
 
 - `<Metadata>` - Metadata and advertising information about the package itself. Only one `Metadata` element is allowed in the manifest.
@@ -39,6 +38,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 - `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements not recognized by the manifest loader are exposed in the Extension Manager API as extra XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file that code running in Visual Studio can access at run time. See [Microsoft.VisualStudio.ExtensionManager.IExtension.AdditionalElements](/previous-versions/visualstudio/visual-studio-2013/hh265266(v=vs.120)).
 
 ### Metadata element
+
  This section is the metadata about the package, its identity, and advertising information. `<Metadata>` contains the following elements:
 
 - `<Identity>` -  Defines identification information for this package and includes the following attributes:
@@ -72,6 +72,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 - `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements that aren't recognized by the manifest loader are exposed as a list of XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file and enumerate them at run time.
 
 ### Installation element
+
  This section defines the way this package can be installed and the application SKUs that it can install into. This section contains the following attributes:
 
 - `Experimental` - Set this attribute to true if you have an extension that is currently installed for all users, but you are developing an updated version on the same computer. For example, if you have installed MyExtension 1.0 for all users, but you want to debug MyExtension 2.0 on the same computer, set Experimental="true". This attribute is available in Visual Studio 2015 Update 1 and later.
@@ -134,6 +135,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
   - `AnyAttribute*` - The `<InstallationTarget>` element allows an open-ended set of attributes that is exposed at run time as a name-value pair dictionary.
 
 ### Dependencies element
+
  This element contains a list of dependencies that this package declares. If any dependencies are specified, those packages (identified by their `Id`) must have been installed before.
 
 - `<Dependency>` element - This child element has the following attributes:
@@ -159,6 +161,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
   - `AnyAttribute*` - The `Dependency` element accepts an open-ended set of attributes that will be exposed at run time as a name-value pair dictionary.
 
 ### Assets element
+
  This element contains a list of `<Asset>` tags for each extension or content element surfaced by this package.
 
 - `<Asset>` -  This element contains the following attributes and elements:
@@ -189,7 +192,82 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
     `<AnyElement>*` - Any structured content is allowed between an `<Asset>` begin and end tag. All elements are exposed as a list of XmlElement objects. VSIX extensions can define structured type-specific metadata in the manifest file and enumerate them at run time.
 
-### Sample manifest
+## Placeholder syntax for extension manifests
+
+The `.vsixmanifest` file defines the build for the VSIX package. When a build is requested, Visual Studio parses the manifest to produce a build script, which is built by using [MSBuild](../msbuild/msbuild.md). You can set certain values at build time using placeholders that are evaluated before the VSIX package is built. Placeholders are used to refer to projects referenced in the VSIX project, [MSBuild properties](../msbuild/common-msbuild-project-properties.md), and [MSBuild targets](../msbuild/msbuild-targets.md), most commonly the targets that represent *project output groups*. Project output groups represent collections of files associated with a project, and some of these can be included in a VSIX package. For example, `PkgDefProjectOutputGroup`, `BuiltProjectOutputGroup`, or `SatelliteDllsProjectOutputGroup`.
+
+To reference a property that's defined in the VSIX project, use the same syntax as you would in the project file itself, `$(PropertyName)`.
+
+The special token `%CurrentProject%` references the VSIX project. You can reference other projects referenced in your VSIX project by using `Name` of the `ProjectReference` element in a VSIX project file, surrounded by pipe symbols (`|`). For example, `|ProjectTemplate1|`.
+
+You can reference an MSBuild target by the name of the project (the `Name` property of the project reference in the VSIX project) and then the target name. For example, to reference the `Version` target in one of the projects referenced in a VSIX package, use the syntax `|ProjectName;Version|`. The target should have an `Outputs` value that matches the context in which it is used; the VSIX manifest contains places where substitution of string values and item collections are appropriate. For example, the Version string in the manifest might be replaced as follows:
+
+```xml
+<Identity Id="0000000-0000-0000-0000-000000000000" Version="|%CurrentProject%;GetVsixVersion|" Language="en-US" Publisher="Company" />
+```
+
+In that case, there should be a `GetVsixVersion` target in the VSIX project that should return a simple string. For example,
+
+```xml
+<Target Name="GetVsixVersion" Outputs="$(_VsixVersion)">
+  <PropertyGroup>
+     <_VsixVersion>1.2.3.4</_VsixVersion>
+  </PropertyGroup>
+</Target>
+```
+
+The placeholders are used for creating the correct VSIX manifest file with the SDK-style VSIX project. Suppose you specify the target version of Visual Studio with the property 'TargetFramework':
+
+- `<TargetFramework>vs17.0</TargetFramework> // Target Visual Studio 2022 version 17.0`
+- `<TargetFramework>vs16.10</TargetFramework> // Target Visual Studio 2019 version 16.10`
+
+Based on the target framework, the VSIX build transforms the values defined in the extension manifest file as follows. For the following syntax in the manifest file:
+
+```xml
+<InstallationTarget Id="Microsoft.VisualStudio.Community" Version="|%CurrentProject%;GetInstallationTargetVersion|" />
+```
+
+The output used in the VSIX project MSBuild code is:
+
+```xml 
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+```
+
+And, for the following code in an extension manifest:
+
+```xml
+ <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="|%CurrentProject%;GetPrerequisiteTargetVersion|" DisplayName="Visual Studio core editor" />
+```
+
+The project build code is:
+
+```xml
+<Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0, 18.0)" DisplayName="Visual Studio core editor" />
+```
+
+This functionality is also used in the VSIX manifest files that Visual Studio generates to reference project output groups by the name of the project reference and then the MSBuild target's name, separated by a semicolon. For example, the string `|%CurrentProject%;PkgDefProjectOutputGroup|` means the PkgDef output group, which references the `.pkgdef` file(s) associated with the current VSIX project.  Some of the `ProjectOutputGroup` targets defined in the system build file *Microsoft.Common.CurrentVersion.targets* are used in the VSIX manifests generated by Visual Studio. Additional project output group targets available in the VSIX project are defined in *Microsoft.VsSDK.targets*. The following table shows the defined project output groups:
+
+| ProjectOutputGroup | Description |
+| - | - |
+| BuiltProjectOutputGroup | The files that represent the build output. |
+| ContentFilesProjectOutputGroup | Non-binary files associated with the project, such as HTML and CSS files. |
+| DebugSymbolsProjectOutputGroup | Symbols files (`.pdb`) for debugging an extension in the experimental instance of Visual Studio. |
+| DocumentationFilesProjectOutputGroup | XML documentation files. |
+| PkgDefProjectOutputGroup | Package definition (`.pkgdef`) file(s). |
+| PriFilesOutputGroup | The `.pri` resource files associated with a UWP project. |
+| SatelliteDllsProjectOutputGroup | Satellite assemblies for localized resources. |
+| SDKRedistOutputGroup | The redistributable folders from the SDKs referenced by a project. |
+| SGenFilesOutputGroup | The GenerateSerializationAssemblies files, which are those generated by the GenerateSerializationAssemblies target and task. |
+| SourceFilesProjectOutputGroup | Source code files. |
+| TemplateProjectOutputGroup | Project templates. |
+
+The build system populates these output groups with the appropriate files according to the default build logic. In a custom build, you can add items to the project output groups either by setting the `BeforeTargets` attribute on your target to one of the above targets, and in the target, follow the code for the targets listed above as examples for how to use the `BuiltProjectOutputGroupKeyOutput` task to set the outputs.
+
+In advanced scenarios, you can reference a build target or define a custom target that you want to be invoked and use the syntax described here to insert values for any element in the VSIX manifest. A target must have the appropriate output parameter that matches the expectation of the context in which it is used. If a collection of files such as the built output of a project is expected, then a target that outputs the required [MSBuild items](../msbuild/msbuild-items.md) is needed. The project output group built targets mentioned previously can be used as examples when building your own targets.
+
+## Sample manifest
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
