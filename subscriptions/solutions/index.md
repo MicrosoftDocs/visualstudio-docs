@@ -76,8 +76,11 @@ ms.date: 02/14/2023
 [!INCLUDE [Transfer subscription](licensing-terms/includes/transfer-subscription.md)]
 
 ## Other solutions or no solution
+[!INCLUDE [Admin reporting subscriber issue](other-or-no-solution/includes/admin-reporting-subscriber-issue.md)]
 
 [!INCLUDE [No solution](other-or-no-solution/includes/no-solution.md)]
+
+[!INCLUDE [Questions about managing subscriptions](other-or-no-solution/includes/questions-about-managing-subscriptions.md)]
 
 ## Portal issues
 
