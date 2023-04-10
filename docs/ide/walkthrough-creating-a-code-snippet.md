@@ -1,7 +1,7 @@
 ---
 title: 'Walkthrough: Create a code snippet'
 description: "Learn how to create a code snippet in three steps: create an XML file, fill in the appropriate elements, and add your code to it."
-ms.date: 03/24/2023
+ms.date: 04/11/2023
 ms.topic: how-to
 helpviewer_keywords:
 - code snippets, creating
@@ -49,16 +49,20 @@ The following XML is the basic snippet template. We'll walk you through [creatin
 
 ## Create a code snippet
 
-1. Create a new XML file in Visual Studio, and then add the template shown in the [Snippet template](#snippet-template) section of this article.
+1. Start Visual Studio, and then from the **Get started** section, select **Continue without code**.
 
-2. Fill in the title of the snippet in the **Title** element. Use the title **Square Root**.
+1. From the menu bar, select **File** > **New** > **File**. (Or, to use the keyboard shortcut equivalent, enter **Ctrl**+**N**.) Then, from the **New file** dialog, select **XML File**.
 
-3. Fill in the language of the snippet in the **Language** attribute of the **Code** element. For C#, use **CSharp**, for Visual Basic, use **VB**, and for C++, use **CPP**.
+1. Add the template code shown in the [Snippet template](#snippet-template) section of this article.
+
+1. In the code, fill in the title of the snippet in the **Title** element. Use the title **Square Root**.
+
+1. Fill in the language of the snippet in the **Language** attribute of the **Code** element. For C#, use **CSharp**, for Visual Basic, use **VB**, and for C++, use **CPP**.
 
    > [!TIP]
    > To see all the available language values, browse the [Code element attributes](code-snippets-schema-reference.md#attributes) section on the [Code snippets schema](code-snippets-schema-reference.md) reference page.
 
-4. Add the snippet code in the **CDATA** section inside the **Code** element.
+1. Add the snippet code in the **CDATA** section inside the **Code** element.
 
    For C#:
 
@@ -79,19 +83,19 @@ The following XML is the basic snippet template. We'll walk you through [creatin
    > [!NOTE]
    > You can't specify how lines of code in the **CDATA** section of a code snippet should be indented or formatted. Upon insertion, the language service formats the inserted code automatically.
 
-5. Save the snippet as *SquareRoot.snippet* (you can save it anywhere).
+1. Save the snippet as *SquareRoot.snippet* (you can save it anywhere).
 
 ## Import a code snippet
 
 1. You can import a snippet to your Visual Studio installation by using the **Code Snippets Manager**. Open it by selecting **Tools** > **Code Snippets Manager**.
 
-2. Select the **Import** button.
+1. Select the **Import** button.
 
-3. Go to the location where you saved the code snippet in the previous procedure, select it, and select **Open**.
+1. Go to the location where you saved the code snippet in the previous procedure, select it, and select **Open**.
 
-4. The **Import Code Snippet** dialog opens, asking you to choose where to add the snippet from the choices in the right pane. One of the choices should be **My Code Snippets**. Select it, select **Finish**, and then select **OK**.
+1. The **Import Code Snippet** dialog opens, asking you to choose where to add the snippet from the choices in the right pane. One of the choices should be **My Code Snippets**. Select it, select **Finish**, and then select **OK**.
 
-5. The snippet is copied to one of the following locations, depending on the code language and the version of Visual Studio that you're using:
+1. The snippet is copied to one of the following locations, depending on the code language and the version of Visual Studio that you're using:
 
    *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets*
    *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual Basic\My Code Snippets*
@@ -99,7 +103,7 @@ The following XML is the basic snippet template. We'll walk you through [creatin
    *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets*
    *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual Basic\My Code Snippets*
 
-6. Test your snippet by opening a C# or Visual Basic project. With a code file open in the editor, choose **Snippets** > **Insert Snippet** from the right-click menu, then **My Code Snippets**. You should see a snippet named **Square Root**. Double-click it.
+1. Test your snippet by opening a C# or Visual Basic project. With a code file open in the editor, choose **Snippets** > **Insert Snippet** from the right-click menu, then **My Code Snippets**. You should see a snippet named **Square Root**. Double-click it.
 
    The snippet code is inserted in the code file.
 
@@ -110,9 +114,9 @@ The following XML is the basic snippet template. We'll walk you through [creatin
    > [!TIP]
    > Because you're editing the file in the directory where Visual Studio placed it, you don't need to reimport it to Visual Studio.
 
-2. Add **Author** and **Description** elements to the **Header** element, and then fill them in.
+1. Add **Author** and **Description** elements to the **Header** element, and then fill them in.
 
-3. Confirm that the **Header** element looks similar to the following example:
+1. Confirm that the **Header** element looks similar to the following example:
 
    ```xml
    <Header>
@@ -122,11 +126,11 @@ The following XML is the basic snippet template. We'll walk you through [creatin
    </Header>
    ```
 
-4. From the **Tools** menu, open the **Code Snippets Manager**, and then select your code snippet. In the right pane, notice that the **Description** and **Author** fields are now populated.
+1. From the **Tools** menu, open the **Code Snippets Manager**, and then select your code snippet. In the right pane, notice that the **Description** and **Author** fields are now populated.
 
    ![Code snippet description in Code Snippet Manager](media/code-snippet-description-author.png)
 
-5. To add a shortcut, add a **Shortcut** element within the **Header** element:
+1. To add a shortcut, add a **Shortcut** element within the **Header** element:
 
    ```xml
    <Header>
@@ -137,9 +141,9 @@ The following XML is the basic snippet template. We'll walk you through [creatin
     </Header>
    ```
 
-6. Save the snippet file again.
+1. Save the snippet file again.
 
-7. To test the shortcut, open the project you used previously, type **sqrt** in the editor and press **Tab** (once for Visual Basic, twice for C#).
+1. To test the shortcut, open the project you used previously, type **sqrt** in the editor and press **Tab** (once for Visual Basic, twice for C#).
 
    The snippet code is inserted.
 
@@ -172,9 +176,9 @@ You can provide two types of replacements: literals and objects. Use the [Litera
    <![CDATA[double root = Math.Sqrt($Number$);]]>
    ```
 
-2. Save the snippet file.
+1. Save the snippet file.
 
-3. Open a project and insert the snippet.
+1. Open a project and insert the snippet.
 
    The code snippet is inserted and the editable literal is highlighted for replacement. Hover over the replacement parameter to see the tooltip for the value.
 
