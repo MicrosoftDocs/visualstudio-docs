@@ -1,6 +1,6 @@
 ---
-title: "Building ClickOnce Applications from the Command Line | Microsoft Docs"
-description: Learn how to build Visual Studio projects from the command line, which allows you to reproduce a build using an automated process.
+title: "Build .NET ClickOnce Applications from the Command Line | Microsoft Docs"
+description: Learn how to build .NET Visual Studio projects from the command line, which allows you to reproduce a build using an automated process.
 ms.date: "04/04/2023"
 ms.topic: "conceptual"
 dev_langs:
@@ -11,7 +11,6 @@ helpviewer_keywords:
   - "ClickOnce deployment, from command line"
   - "publishing"
   - "publishing, ClickOnce"
-ms.assetid: d9bc6212-c584-4f72-88c9-9a4b998c555e
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
@@ -19,16 +18,16 @@ ms.technology: vs-ide-deployment
 ms.workload:
   - "multiple"
 ---
-# Build ClickOnce applications from the command line
+# Build .NET ClickOnce applications from the command line
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In Visual Studio, you can build projects from the command line, even if they are created in the integrated development environment (IDE). In fact, you can rebuild a project created with Visual Studio on another computer that has only the .NET Framework installed. This capability allows you to reproduce a build using an automated process, for example, in a central build lab or using advanced scripting techniques beyond the scope of building the project itself.
+In Visual Studio, you can build projects from the command line, even if they are created in the integrated development environment (IDE). In fact, you can rebuild a project created with Visual Studio on another computer that has only .NET Core 3.1 or .NET 5+ installed. This capability allows you to reproduce a build using an automated process, for example, in a central build lab or using advanced scripting techniques beyond the scope of building the project itself.
 
 > [!NOTE]
-> To build .NET Core 3.1 or .NET 5+ ClickOnce applications from the command line, see [Build .NET ClickOnce applications from the command line](../deployment/building-dotnet-clickonce-applications-from-the-command-line.md).
+> To build .NET Framework ClickOnce applications from the command line, see [Build ClickOnce applications from the command line](../deployment/building-clickonce-applications-from-the-command-line.md).
 
-## Use MSBuild to reproduce .NET Framework ClickOnce application deployments
+## Use MSBuild to reproduce .NET ClickOnce application deployments
 
  When you invoke msbuild /target:publish at the command line, it tells the MSBuild system to build the project and create a ClickOnce application in the publish folder. This command is equivalent to selecting the **Publish** command in the IDE.
 
@@ -42,21 +41,25 @@ In Visual Studio, you can build projects from the command line, even if they are
 
 ## Create and build a basic ClickOnce application with MSBuild
 
+The easiest way to create a publish profile is by using Visual Studio. A publish profile is required to publish using MSBuild.
+
 ### To create and publish a ClickOnce project
 
 1. Open Visual Studio and create a new project.
 
-    Choose the **Windows Forms App (.NET Framework)** or **WPF App (.NET Framework)** project template and name the project `CmdLineDemo`.
+    Choose the **Windows Forms App** or **WPF Application** project template and name the project `CmdLineDemo`, then create the project.
 
-1. From the **Build** menu, click the **Publish** command.
+1. Right-click the project in Solution Explorer and choose **Publish**.
 
     This step ensures that the project is properly configured to produce a ClickOnce application deployment.
 
-    The Publish Wizard appears.
+    The Publish page appears.
 
-1. In the Publish Wizard, click **Finish**.
+1. In the Publish page, choose **Add a publish profile**, then **ClickOnce**. then **Finish**, and then **Close**.
 
-    Visual Studio generates and displays the default Web page, called *Publish.htm*.
+1. Choose **Publish**.
+
+    Visual Studio generates the ClickOnce deployment output.
 
 1. Save your project, and make note of the folder location in which it is stored.
 
@@ -74,35 +77,37 @@ In Visual Studio, you can build projects from the command line, even if they are
 
 4. To remove the existing files produced in "To create and publish a ClickOnce project," type `rmdir /s publish`.
 
-    This step is optional, but it ensures that the command-line build produces all the new files.
+   This step is optional, but it ensures that the command-line build produces all the new files.
 
-5. Type `msbuild /target:publish`.
+   For .NET Core 3.1 and .NET 5 and later, building .NET ClickOnce applications from the command line is a similar experience, except you need to provide an additional property for the publish profile on the MSBuild command line.
 
-   The preceding steps will produce a full ClickOnce application deployment in a subfolder of your project named **Publish**. *CmdLineDemo.application* is the ClickOnce deployment manifest. The folder *CmdLineDemo_1.0.0.0* contains the files *CmdLineDemo.exe* and *CmdLineDemo.exe.manifest*, the ClickOnce application manifest. *Setup.exe* is the bootstrapper, which by default is configured to install the .NET Framework. The DotNetFX folder contains the redistributables for the .NET Framework. The files in this location comprise the entire set of files you need to deploy your application over the Web or via UNC or CD/DVD.
+5. Type `msbuild /target:publish /p:PublishProfile=<pubxml file> /p:PublishDir="<specific location>"`.
+
+   The preceding steps will produce a full ClickOnce application deployment in a subfolder of your project named **publish**. *CmdLineDemo.application* is the ClickOnce deployment manifest. The folder *CmdLineDemo_1.0.0.0* contains the files *CmdLineDemo.exe* and *CmdLineDemo.exe.manifest*, the ClickOnce application manifest. *Setup.exe* is the bootstrapper, which by default is configured to install .NET. The files in this folder comprise the entire set of files you need to deploy your application over the Web or via UNC or CD/DVD.
 
 > [!NOTE]
-> The MSBuild system uses the **PublishDir** option to specify the location for output, for example `msbuild /t:publish /p:PublishDir="<specific location>"`.
+> The MSBuild system uses the **PublishDir** option to specify the location for output, for example `msbuild /t:publish /p:PublishProfile=<pubxml file> /p:PublishDir="<specific location>"`.
 
 ## Publish process output
 
-MSBuild uses the `PublishDir` property to set the build output location, including build artifacts. The `PublishDir` value that MSBuild uses as the destination for the publish comes by default from the `PublishDir` property in the project file (.NET Framework), but you can also override it on the MSBuild command line by using the /p switch. If you override the setting, the publish output goes to the location specified. The output is generated during the MSBuild step of publish. Any MSBuild target with `AfterTargets="ClickOncePublish"` runs after this copy is made.
+MSBuild uses the `PublishDir` property to set the build output location, including build artifacts. The `PublishDir` value that MSBuild uses as the destination for the publish comes by default from the `PublishDir` property in the *.pubxml* file (.NET), but you can also override it on the MSBuild command line by using the /p switch. If you override the setting, the publish output goes to the location specified. The output is generated during the MSBuild step of publish. Any MSBuild target with `AfterTargets="ClickOncePublish"` runs after this copy is made.
 
 The `PublishUrl` property, unlike `PublishDir`, is not used in the MSBuild step. `PublishUrl` is ignored when you invoke MSBuild directly to publish from the command line.
 
-When Publishing is started in Visual Studio IDE, Visual Studio invokes MSBuild to publish artifacts into the `PublishDir` location. After this MSBuild step is completed, Visual Studio then publishes ClickOnce-specific files to the location pointed to by `PublishUrl`. This second step runs inside the Visual Studio process. You cannot inject any target/task to run during this step because it is a Visual Studio process.
+When publishing is started in Visual Studio IDE, Visual Studio invokes MSBuild to publish artifacts into the `PublishDir` location. After this MSBuild step is completed, Visual Studio then publishes ClickOnce-specific files to the location pointed to by `PublishUrl`. This second step runs inside the Visual Studio process. You cannot inject any target/task to run during this step because it is a Visual Studio process.
 
 For MSBuild deployments that don't use Visual Studio, copy all of the files in the deployment directory to the deployment destination or media. The deployment directory may be either a folder on a Web site or FTP site, a file share, or a CD-ROM. For example, you might use a third-party tool or a custom MSBuild task to copy the ClickOnce files.
 
 For any post-processing in the `PublishUrl` folder, you need to have a separate script.
 
->[!IMPORTANT]
+> [!IMPORTANT]
 > If PublishDir is set to the same location as PublishUrl, duplicate compilation output gets copied to the PublishUrl location. You can avoid this issue in Visual Studio 2022 version 17.4 and later by creating a new profile. The new profile sets PublishDir to a different location than PublishUrl. At the end of the publish operation, the relevant ClickOnce files are copied from PublishDir to PublishUrl location.
 
 ## Publish properties
 
- When you publish the application in the above procedures, the following properties are inserted into your project file by the Publish Wizard. These properties directly influence how the ClickOnce application is produced.
+ When you publish the application using the procedures described previously, the following properties are inserted into the publish profile file for .NET projects (.NET Core 3.1, .NET 5, and later). These properties directly influence how the ClickOnce application is produced.
 
- In *CmdLineDemo.vbproj* / *CmdLineDemo.csproj*:
+ In *.pubxml*:
 
 ```xml
 <AssemblyOriginatorKeyFile>WindowsApplication3.snk</AssemblyOriginatorKeyFile>
@@ -117,30 +122,24 @@ For any post-processing in the `PublishUrl` folder, you need to have a separate 
 <UpdateEnabled>true</UpdateEnabled>
 <UpdateRequired>false</UpdateRequired>
 <UpdateMode>Foreground</UpdateMode>
-<UpdateInterval>7</UpdateInterval>
-<UpdateIntervalUnits>Days</UpdateIntervalUnits>
 <UpdateUrlEnabled>false</UpdateUrlEnabled>
 <IsWebBootstrapper>true</IsWebBootstrapper>
 <BootstrapperEnabled>true</BootstrapperEnabled>
 ```
 
- For .NET Framework projects, you can override these properties at the command line without altering the project file itself. For example, the following will build the ClickOnce application deployment without the bootstrapper:
+You can override these properties at the command line without altering the project file itself. For example, the following will build the ClickOnce application deployment without the bootstrapper:
 
 ```cmd
-msbuild /target:publish /property:BootstrapperEnabled=false
+msbuild /target:publish /p:PublishProfile=<pubxml file> /property:BootstrapperEnabled=false
  ```
 
-Publishing properties are controlled in Visual Studio from the **Publish**, **Security**, and **Signing** property pages of the **Project Designer**. Below is a description of the publishing properties, along with an indication of how each is set in the various property pages of the application designer:
+For .NET projects (.NET Core 3.1, .NET 5, and later), these settings are provided in the pubxml file, which you can access in Visual Studio using the Publish tool. Below is a description of the publishing properties, along with an indication of how each is set in the various property pages of the application designer:
 
-- `AssemblyOriginatorKeyFile` determines the key file used to sign your ClickOnce application manifests. This same key may also be used to assign a strong name to your assemblies. This property is set on the **Signing** page of the **Project Designer**.
+- `AssemblyOriginatorKeyFile` determines the key file used to sign your ClickOnce application manifests. This same key may also be used to assign a strong name to your assemblies.
 
-  The following properties are set on the **Security** page:
+  For .NET windows applications, this setting remains in the project file.
 
-- **Enable ClickOnce Security Settings** determines whether ClickOnce manifests are generated. When a project is initially created, ClickOnce manifest generation is off by default. The wizard will automatically turn this flag on when you publish for the first time.
-
-- **TargetZone** determines the level of trust to be emitted into your ClickOnce application manifest. Possible values are "Internet", "LocalIntranet", and "Custom". Internet and LocalIntranet will cause a default permission set to be emitted into your ClickOnce application manifest. LocalIntranet is the default, and it basically means full trust. Custom specifies that only the permissions explicitly specified in the base *app.manifest* file are to be emitted into the ClickOnce application manifest. The *app.manifest* file is a partial manifest file that contains just the trust information definitions. It is a hidden file, automatically added to your project when you configure permissions on the **Security** page.
-
-  The following properties are set on the **Publish** page:
+  The following properties are set in the **Publish** page:
 
 - `PublishUrl` is the location where the application will be published to in the IDE. It is inserted into the ClickOnce application manifest if neither the `InstallUrl` or `UpdateUrl` property is specified.
 
@@ -158,11 +157,7 @@ Publishing properties are controlled in Visual Studio from the **Publish**, **Se
 
 - `UpdateEnabled` indicates whether the application should check for updates.
 
-- `UpdateMode` specifies either Foreground updates or Background updates. 
-
-- `UpdateInterval` specifies how frequently the application should check for updates.
-
-- `UpdateIntervalUnits` specifies whether the `UpdateInterval` value is in units of hours, days, or weeks.
+- `UpdateMode` specifies Foreground updates. For .NET projects (.NET Core 3.1, .NET 5, and later), Background is not supported.  
 
 - `UpdateUrl` (not shown) is the location from which the application will receive updates. If specified, this value is inserted into the application manifest.
 
