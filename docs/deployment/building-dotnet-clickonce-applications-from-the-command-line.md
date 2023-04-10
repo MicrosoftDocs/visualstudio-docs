@@ -47,9 +47,9 @@ The easiest way to create a publish profile is by using Visual Studio. A publish
 
 1. Open Visual Studio and create a new project.
 
-    Choose the **Windows Forms App** or **WPF Application** project template and name the project `CmdLineDemo`.
+    Choose the **Windows Forms App** or **WPF Application** project template and name the project `CmdLineDemo`, then create the project.
 
-1. From the **Build** menu, click the **Publish** command.
+1. Right-click the project in Solution Explorer and choose **Publish**.
 
     This step ensures that the project is properly configured to produce a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md) application deployment.
 
@@ -57,7 +57,7 @@ The easiest way to create a publish profile is by using Visual Studio. A publish
 
 1. In the Publish page, choose **Add a publish profile**, then **ClickOnce**. then **Finish**, and then **Close**.
 
-1. Click **Publish**.
+1. Choose **Publish**.
 
     Visual Studio generates the ClickOnce deployment output.
 
@@ -73,20 +73,20 @@ The easiest way to create a publish profile is by using Visual Studio. A publish
 
    This opens the Visual Studio Developer Command Prompt.
 
-3. In the **Visual Studio Command Prompt**, make sure the current directory shows the location of the project you just built above. If you're not in the project directory, type `chdir My Documents\Visual Studio\Projects\CmdLineDemo`.
+3. In the **Visual Studio Command Prompt**, make sure the current directory shows the location of the project you just built above. If you're not in the project directory, type a command such as `chdir C:\Users\username\source\repos\CmdLineDemo`.
 
 4. To remove the existing files produced in "To create and publish a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md) project," type `rmdir /s publish`.
 
    This step is optional, but it ensures that the new files are all produced by the command-line build.
 
-   For .NET Core 3.1 and .NET 5 and later, building .NET ClickOnce applications from the command line is a similar experience except, you need to provide an additional property for the publish profile on the MSBuild command line.
+   For .NET Core 3.1 and .NET 5 and later, building .NET ClickOnce applications from the command line is a similar experience, except you need to provide an additional property for the publish profile on the MSBuild command line.
 
 5. Type `msbuild /target:publish /p:PublishProfile=<pubxml file> /p:PublishDir="<specific location>"`.
 
    The above steps will produce a full [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md) application deployment in a subfolder of your project named **publish**. *CmdLineDemo.application* is the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md) deployment manifest. The folder *CmdLineDemo_1.0.0.0* contains the files *CmdLineDemo.exe* and *CmdLineDemo.exe.manifest*, the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md) application manifest. *Setup.exe* is the bootstrapper, which by default is configured to install .NET. This is the entire set of files you need to deploy your application over the Web or via UNC or CD/DVD.
 
 > [!NOTE]
-> The MSBuild system uses the **PublishDir** option to specify the location for output, for example `msbuild /t:publish /p:PublishDir="<specific location>"`.
+> The MSBuild system uses the **PublishDir** option to specify the location for output, for example `msbuild /t:publish /p:PublishProfile=<pubxml file> /p:PublishDir="<specific location>"`.
 
 ## Publish process output
 
@@ -105,9 +105,9 @@ For any post-processing in the `PublishUrl` folder, you need to have a separate 
 
 ## Publish properties
 
- When you publish the application in the above procedures, the following properties are inserted into your project file by the Publish Wizard or in the publish profile file for .NET projects (.NET Core 3.1, .NET 5, and later). These properties directly influence how the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md) application is produced.
+ When you publish the application using the procedures described previously, the following properties are inserted into into the publish profile file for .NET projects (.NET Core 3.1, .NET 5, and later). These properties directly influence how the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md) application is produced.
 
- In *CmdLineDemo.vbproj* / *CmdLineDemo.csproj*:
+ In *.pubxml*:
 
 ```xml
 <AssemblyOriginatorKeyFile>WindowsApplication3.snk</AssemblyOriginatorKeyFile>
@@ -122,38 +122,22 @@ For any post-processing in the `PublishUrl` folder, you need to have a separate 
 <UpdateEnabled>true</UpdateEnabled>
 <UpdateRequired>false</UpdateRequired>
 <UpdateMode>Foreground</UpdateMode>
-<UpdateInterval>7</UpdateInterval>
-<UpdateIntervalUnits>Days</UpdateIntervalUnits>
 <UpdateUrlEnabled>false</UpdateUrlEnabled>
 <IsWebBootstrapper>true</IsWebBootstrapper>
 <BootstrapperEnabled>true</BootstrapperEnabled>
 ```
 
- For .NET Framework projects, you can override any of these properties at the command line without altering the project file itself. For example, the following will build the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application deployment without the bootstrapper:
+You can override these properties at the command line without altering the project file itself. For example, the following will build the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application deployment without the bootstrapper:
 
 ```cmd
-msbuild /target:publish /property:BootstrapperEnabled=false
+msbuild /target:publish /p:PublishProfile=<pubxml file> /property:BootstrapperEnabled=false
  ```
 
-For .NET projects (.NET Core 3.1, .NET 5, and later), these settings are provided in the pubxml file.
+For .NET projects (.NET Core 3.1, .NET 5, and later), these settings are provided in the pubxml file. In Visual Studio, publishing properties are controlled in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] from the **Publish**, **Security**, and **Signing** property pages of the **Project Designer**. Below is a description of the publishing properties, along with an indication of how each is set in the various property pages of the application designer:
 
- Publishing properties are controlled in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] from the **Publish**, **Security**, and **Signing** property pages of the **Project Designer**. Below is a description of the publishing properties, along with an indication of how each is set in the various property pages of the application designer:
+- `AssemblyOriginatorKeyFile` determines the key file used to sign your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifests. This same key may also be used to assign a strong name to your assemblies.
 
-> [!NOTE]
-> For .NET projects, these settings are now found in the Publish tool.
-
-- `AssemblyOriginatorKeyFile` determines the key file used to sign your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifests. This same key may also be used to assign a strong name to your assemblies. This property is set on the **Signing** page of the **Project Designer**.
-
-For .NET windows applications, this setting remains in the project file.
-
-  The following properties are set on the **Security** page:
-
-- **Enable ClickOnce Security Settings** determines whether [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests are generated. When a project is initially created, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifest generation is off by default. The wizard will automatically turn this flag on when you publish for the first time.
-
-- **TargetZone** determines the level of trust to be emitted into your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. Possible values are "Internet", "LocalIntranet", and "Custom". Internet and LocalIntranet will cause a default permission set to be emitted into your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. LocalIntranet is the default, and it basically means full trust. Custom specifies that only the permissions explicitly specified in the base *app.manifest* file are to be emitted into the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. The *app.manifest* file is a partial manifest file that contains just the trust information definitions. It is a hidden file, automatically added to your project when you configure permissions on the **Security** page.
-
-> [!NOTE]
-> For .NET projects, these Security settings are not supported.
+  For .NET windows applications, this setting remains in the project file.
 
   The following properties are set on the **Publish** page:
 
@@ -173,17 +157,7 @@ For .NET windows applications, this setting remains in the project file.
 
 - `UpdateEnabled` indicates whether the application should check for updates.
 
-- `UpdateMode` specifies either Foreground updates or Background updates.
-
-   For .NET projects (.NET Core 3.1, .NET 5, and later), Background is not supported.  
-
-- `UpdateInterval` specifies how frequently the application should check for updates.
-
-   For .NET projects, this setting is not supported.
-
-- `UpdateIntervalUnits` specifies whether the `UpdateInterval` value is in units of hours, days, or weeks.
-
-   For .NET projects, this setting is not supported.
+- `UpdateMode` specifies Foreground updates. For .NET projects (.NET Core 3.1, .NET 5, and later), Background is not supported.  
 
 - `UpdateUrl` (not shown) is the location from which the application will receive updates. If specified, this value is inserted into the application manifest.
 
