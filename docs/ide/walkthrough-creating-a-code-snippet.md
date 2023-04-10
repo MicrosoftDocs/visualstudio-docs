@@ -29,7 +29,7 @@ You can create a code snippet with only a few steps. All you need to do is creat
 
 ## Snippet template
 
-The following XML is the basic snippet template. We'll walk you through [creating a code snippet](#create-a-code-snippet) by using this snippet template and then making modifications to it.
+The following XML is the basic snippet template. We'll walk you through [creating a code snippet](#create-a-code-snippet) in Visual Studio by using this snippet template and then making modifications to it.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -49,7 +49,7 @@ The following XML is the basic snippet template. We'll walk you through [creatin
 
 ## Create a code snippet
 
-1. Start Visual Studio, and then from the **Get started** section, select **Continue without code**.
+1. Start Visual Studio. Then, in the **Get started** section, select **Continue without code**.
 
     :::image type="content" source="reference/media/start-visual-studio-continue-without-code.png" alt-text="Screenshot of the 'Get started' dialog with the 'Continue without code' option selected.":::
 
