@@ -49,9 +49,13 @@ The following XML is the basic snippet template. We'll walk you through [creatin
 
 ## Create a code snippet
 
-1. Start Visual Studio, and then from the **Get started** section, select **Continue without code**.
+1. Start Visual Studio, and then from the **Get started** section of the dialog, select **Continue without code**.
 
-1. From the menu bar, select **File** > **New** > **File**. (Or, to use the keyboard shortcut equivalent, enter **Ctrl**+**N**.) Then, from the **New file** dialog, select **XML File**.
+    :::image type="content" source="reference/media/start-visual-studio-continue-without-code.png" alt-text="Screenshot of the 'Get started' dialog with the 'Continue without code' option selected.":::
+
+1. From the menu bar, select **File** > **New** > **File** (or, enter **Ctrl**+**N** instead.) Then, from the **New file** dialog, select **XML File**.
+
+    :::image type="content" source="reference/media/open-new-xml-file.png" alt-text="Screenshot of the 'New File' dialog with the 'XML File' option selected.":::
 
 1. Add the template code shown in the [Snippet template](#snippet-template) section of this article.
 
