@@ -1,5 +1,5 @@
 ---
-title: 'Walkthrough: Create a code snippet'
+title: 'Walkthrough: Create a code snippet in Visual Studio'
 description: "Learn how to create a code snippet in three steps: create an XML file, fill in the appropriate elements, and add your code to it."
 ms.date: 04/11/2023
 ms.topic: how-to
@@ -21,11 +21,11 @@ dev_langs:
 ms.workload:
 - multiple
 ---
-# Walkthrough: Create a code snippet
+# Walkthrough: Create a code snippet in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can create a code snippet with only a few steps. All you need to do is create an XML file, fill in the appropriate elements, and add your code to it. You can optionally make use of replacement parameters and project references. Then, you can import the snippet to your Visual Studio installation by using the **Import** button in the **Code Snippets Manager**, available from the **Tools** menu.
+You can create a code snippet with only a few steps. All you need to do is create an XML file, fill in the appropriate elements, and add your code to it. You can optionally make use of replacement parameters and project references. Then, you can import the snippet to your Visual Studio installation by using the **Import** button in the **Code Snippets Manager**, which is available from the **Tools** menu.
 
 ## Snippet template
 
@@ -49,11 +49,11 @@ The following XML is the basic snippet template. We'll walk you through [creatin
 
 ## Create a code snippet
 
-1. Start Visual Studio, and then from the **Get started** section of the dialog, select **Continue without code**.
+1. Start Visual Studio, and then from the **Get started** section, select **Continue without code**.
 
     :::image type="content" source="reference/media/start-visual-studio-continue-without-code.png" alt-text="Screenshot of the 'Get started' dialog with the 'Continue without code' option selected.":::
 
-1. From the menu bar, select **File** > **New** > **File** (or, enter **Ctrl**+**N** instead.) Then, from the **New file** dialog, select **XML File**.
+1. From the menu bar, select **File** > **New** > **File** (or, enter **Ctrl**+**N**) to open the **New file** dialog. Then, select **XML File**.
 
     :::image type="content" source="reference/media/open-new-xml-file.png" alt-text="Screenshot of the 'New File' dialog with the 'XML File' option selected.":::
 
@@ -221,4 +221,5 @@ The following XML shows a code snippet that uses the method `File.Exists` in the
 
 ## See also
 
-- [Code snippets schema reference](../ide/code-snippets-schema-reference.md)
+- Visual Studio: [Code snippets schema reference](../ide/code-snippets-schema-reference.md)
+- VS Code: [Create a snippet](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets)
