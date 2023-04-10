@@ -25,7 +25,7 @@ Starting in Visual Studio 2019, ClickOnce for .NET Core 3.1 and .NET 5 or later 
 
 ## MSBUILD
 
-For building from the command line using MSBUILD, you need to specify the *.pubxml* file. For more information, see [Build .NET ClickOnce applications from the command line](../deployment/building-clickonce-applications-from-the-command-line.md#build-net-clickonce-applications-from-the-command-line).
+For building from the command line using MSBUILD, you need to specify the *.pubxml* file. For more information, see [Build .NET ClickOnce applications from the command line](../deployment/building-donet-clickonce-applications-from-the-command-line.md).
 
 ## ApplicationDeployment class
 
