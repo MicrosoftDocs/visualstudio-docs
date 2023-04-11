@@ -43,7 +43,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- Update text, links, and screenshots
+- Update text, links, and screenshots:
   - [Tutorial: Add reference variables and a timer control to your matching game WinForms app](../get-started/csharp/tutorial-windows-forms-match-game-labels.md)
   - [Tutorial: Display a message in your matching game WinForms app](../get-started/csharp/tutorial-windows-forms-match-game-play.md)
 
@@ -88,10 +88,10 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [MSBuild targets](../msbuild/msbuild-targets.md) - Add link to .NET.Sdk.Publish.targets and explanation
+- [MSBuild targets](../msbuild/msbuild-targets.md) - Add link to .NET.SDK.Publish.targets and explanation
 - [MSBuild](../msbuild/msbuild.md) - Review and add information that more accurately reflects usage on non-Windows platforms
 - [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md) Add CustomAfterMicrosoftCommonTargets info
-- [Customize your build](../msbuild/customize-your-build.md) - Update Customize Builds section
+- [Customize your build](../msbuild/customize-your-build.md) - Update the 'Customize Builds' section
 
 ### Profiling
 
@@ -99,7 +99,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md) - Update profiling troubleshooting article with dropped events error
 - [Analyze CPU usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)](../profiling/cpu-usage.md) - Add updates for CPU Usage call count
-- Update instrumentation articles for 17.6 Preview
+- Update instrumentation articles for 17.6 Preview:
   - [Instrumentation in Visual Studio (C#, Visual Basic, C++, F#)](../profiling/instrumentation-overview.md)
   - [Instrument your .NET applications in Visual Studio (C#, C++, Visual Basic, F#)](../profiling/instrumentation.md)
 
