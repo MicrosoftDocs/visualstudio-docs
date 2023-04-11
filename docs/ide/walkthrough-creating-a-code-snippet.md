@@ -53,7 +53,7 @@ The following XML is the basic snippet template. We'll walk you through [creatin
 
     :::image type="content" source="reference/media/start-visual-studio-continue-without-code.png" alt-text="Screenshot of the Start window with the 'Continue without code' option selected.":::
 
-1. From the menu bar, select **File** > **New** > **File** (or, enter **Ctrl**+**N**) to open the **New file** dialog. Then, select **XML File**.
+1. From the menu bar, select **File** > **New** > **File** (or, enter the keyboard shortcut **Ctrl**+**N**) to open the **New File** dialog. Then, select **XML File**.
 
     :::image type="content" source="reference/media/open-new-xml-file.png" alt-text="Screenshot of the 'New File' dialog with the 'XML File' option selected.":::
 
