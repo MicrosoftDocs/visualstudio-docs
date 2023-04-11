@@ -164,14 +164,14 @@ The following people contributed to Visual Studio content in March. Thank you! T
 
 **New articles**
 
-- [Learn about the Text Spell Checker (Preview)](../ide/text-spell-checker.md)
+- [Learn about the Text Spell Checker (Preview)](./text-spell-checker.md)
 
 **Updated articles**
 
-- [JavaScript IntelliSense](../ide/javascript-intellisense.md) - Update content related to JavaScript IntelliSense language service
-- [Find references in your code](../ide/finding-references.md) - Add 'Clear All Filters' info to the 'Filter By Reference Type' section
-- [How to: Manage editor modes](../ide/how-to-manage-editor-modes.md) - Update the View.FullScreen keyboard shortcut
-- [Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)](../ide/work-with-multi-factor-authentication.md) - Add troubleshooting steps
+- [JavaScript IntelliSense](./javascript-intellisense.md) - Update content related to JavaScript IntelliSense language service
+- [Find references in your code](./finding-references.md) - Add 'Clear All Filters' info to the 'Filter By Reference Type' section
+- [How to: Manage editor modes](./how-to-manage-editor-modes.md) - Update the View.FullScreen keyboard shortcut
+- [Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)](./work-with-multi-factor-authentication.md) - Add troubleshooting steps
 
 ### Install
 
@@ -254,13 +254,13 @@ The following people contributed to Visual Studio content in March. Thank you! T
 
 **New articles**
 
-- [Troubleshoot errors in the Resource Editor](../ide/troubleshoot-resource-editor-errors.md)
+- [Troubleshoot errors in the Resource Editor](./troubleshoot-resource-editor-errors.md)
 
 **Updated articles**
 
-- [How to: Customize menus and toolbars in Visual Studio](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md) - Update instructional text & links
-- [Options dialog box: Environment \> General](../ide/reference/general-environment-options-dialog-box.md) - Revise Startup settings info
-- [Tour the Visual Studio IDE](../ide/quickstart-ide-orientation.md) - Revise text and update screenshots
+- [How to: Customize menus and toolbars in Visual Studio](./how-to-customize-menus-and-toolbars-in-visual-studio.md) - Update instructional text & links
+- [Options dialog box: Environment \> General](./reference/general-environment-options-dialog-box.md) - Revise Startup settings info
+- [Tour the Visual Studio IDE](./quickstart-ide-orientation.md) - Revise text and update screenshots
 
 ### Install
 
