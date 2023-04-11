@@ -21,6 +21,107 @@ ms.workload:
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
 
+## March 2023
+
+### Data tools
+
+**Updated articles**
+
+- [Connect to a database](../data-tools/add-new-connections.md) - Delete and redirect to "Add Connections" article; then, add how to open MDF files there
+
+### Debugger
+
+**New articles**
+
+- [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.yml)
+
+**Updated articles**
+
+- [Diagnose problems after deployment using IntelliTrace (C#, Visual Basic)](../debugger/diagnose-problems-after-deployment.md) - Remove IntelliTrace content related to MMA end-of-life
+
+### Get started
+
+**Updated articles**
+
+- Update text, links, and screenshots
+  - [Tutorial: Add reference variables and a timer control to your matching game WinForms app](../get-started/csharp/tutorial-windows-forms-match-game-labels.md)
+  - [Tutorial: Display a message in your matching game WinForms app](../get-started/csharp/tutorial-windows-forms-match-game-play.md)
+
+### IDE
+
+**New articles**
+
+- [Access multiple accounts associated with the Visual Studio sign-in account](./sign-in-access-multiple-accounts.md)
+
+**Updated articles**
+
+- [Learn about Solution Explorer](./use-solution-explorer.md) - Add new Quick Add info
+- [How to: Specify build events (C#)](./how-to-specify-build-events-csharp.md) - Add more information and examples about how to create build events
+- Update text and links:
+  - [Walkthrough: Create a code snippet](./walkthrough-creating-a-code-snippet.md)
+  - [Make code work in Visual Studio](./find-and-fix-code-errors.md)
+  - [Manage application settings (.NET)](./managing-application-settings-dotnet.md)
+
+### Install
+
+**Updated articles**
+
+- [Command-line parameter examples for Visual Studio installation](../install/command-line-parameter-examples.md) - Apply minor fixes to installer command-line info
+
+### JavaScript
+
+**Updated articles**
+
+- [Debug a JavaScript or TypeScript app in Visual Studio](../javascript/debug-nodejs.md) - Update Debug JavaScript and TypeScript info
+- [Tutorial: Create a Node.js and React app in Visual Studio](../javascript/tutorial-nodejs-with-react-and-jsx.md) - Update npm packages and Node.js info 
+
+### MSBuild
+
+**New articles**
+
+- [Customize a build to handle generated files](../msbuild/customize-builds-for-generated-files.md)
+- [Customize the build by folder](../msbuild/customize-by-directory.md)
+- [Customize C++ builds](../msbuild/customize-cpp-builds.md)
+- [Customize all .NET builds](../msbuild/customize-net-builds.md)
+- [Customize the solution build](../msbuild/customize-solution-build.md)
+- [Customize your local build](../msbuild/customize-your-local-build.md)
+
+**Updated articles**
+
+- [MSBuild targets](../msbuild/msbuild-targets.md) - Add link to .NET.Sdk.Publish.targets and explanation
+- [MSBuild](../msbuild/msbuild.md) - Review and add information that more accurately reflects usage on non-Windows platforms
+- [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md) Add CustomAfterMicrosoftCommonTargets info
+- [Customize your build](../msbuild/customize-your-build.md) - Update Customize Builds section
+
+### Profiling
+
+**Updated articles**
+
+- [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md) - Update profiling troubleshooting article with dropped events error
+- [Analyze CPU usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)](../profiling/cpu-usage.md) - Add updates for CPU Usage call count
+- Update instrumentation articles for 17.6 Preview
+  - [Instrumentation in Visual Studio (C#, Visual Basic, C++, F#)](../profiling/instrumentation-overview.md)
+  - [Instrument your .NET applications in Visual Studio (C#, C++, Visual Basic, F#)](../profiling/instrumentation.md)
+
+### XAML tools
+
+**New articles**
+
+- [XAML Hot Reload and its impact on performance diagnostic in Visual Studio](../xaml-tools/xaml-hot-reload-impact-performance.md)
+
+### Community contributors
+
+The following people contributed to Visual Studio content in March. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
+
+- [AndrewKeepCoding](https://github.com/AndrewKeepCoding) - Andrew KeepCoding (1)
+- [chrisXromanov](https://github.com/chrisXromanov) chrisXromanov (1)
+- [Davi-Gray](https://github.com/Davi-Gray) - Davi Gray (1)
+- [jVanZwieten](https://github.com/jVanZwieten) - jVanZwieten (1)
+- [shandianchengzi](https://github.com/shandianchengzi) shandianchengzi (1)
+- [snickler](https://github.com/snickler) - Jeremy Sinclair (1)
+- [Tim-Maes](https://github.com/Tim-Maes) - Tim Maes (1)
+- [wsmelton](https://github.com/wsmelton) - Shawn Melton (1)
+
 ## February 2023
 
 ### Data tools
@@ -113,14 +214,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [Use the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) - Add documentation for the DeploymentItem attribute
-
-### Community contributors
-
-The following people contributed to Visual Studio content in February. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
-
-- [ericmutta](https://github.com/ericmutta) - Eric Mutta (1)
-- [Giorgi](https://github.com/Giorgi) - Giorgi Dalakishvili (1)
-- [rhundhausen](https://github.com/rhundhausen) - Richard Hundhausen (1)
 
 ## January 2023
 
