@@ -36,7 +36,9 @@
         href: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
       - name: Package a desktop app for Microsoft Store >>
         href: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
-      - name: Build ClickOnce applications from the Command Line
+      - name: Build .NET Windows ClickOnce applications from the command line
+        href: building-dotnet-clickonce-applications-from-the-command-line.md
+      - name: Build .NET Framework ClickOnce applications from the Command Line
         href: building-clickonce-applications-from-the-command-line.md
   - name: C++
     items:

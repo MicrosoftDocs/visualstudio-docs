@@ -3,7 +3,7 @@ title: 'Command-line shells & prompt for developers'
 description:  Start from the Tools > Command Line menu. Select the Visual Studio Developer Command Prompt, Developer PowerShell, or terminal to use .NET and C++ tools more easily.
 author: TerryGLee
 ms.author: tglee
-ms.date: 01/23/2023
+ms.date: 04/10/2023
 ms.topic: conceptual
 ms.custom: contperf-fy21q4
 helpviewer_keywords:
@@ -121,7 +121,7 @@ Another way to start the shells is from the Start menu. You may have multiple co
 
    ![Screenshot of the Windows 7 Start menu with the command prompt highlighted.](./media/developer-command-prompt-for-vs/windows-7-menu.png)
 
-If you have other SDKs installed, such as the [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk) or [previous versions](https://developer.microsoft.com/windows/downloads/sdk-archive), you may see additional command prompts. Check the documentation for the individual tools to determine which version of the command prompt you should use.
+If you have other SDKs installed, such as the [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-sdk/) or [previous versions](https://developer.microsoft.com/windows/downloads/sdk-archive), you may see additional command prompts. Check the documentation for the individual tools to determine which version of the command prompt you should use.
 
 ## Start from file browser
 
