@@ -6,7 +6,7 @@ author: ghogen
 ms.author: ghogen
 ms.prod: vs-code
 ms.topic: tutorial 
-ms.date: 03/24/2023
+ms.date: 04/12/2023
 ms.custom: template-tutorial, contperf-fy22q3
 
 # Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
@@ -16,9 +16,9 @@ ms.custom: template-tutorial, contperf-fy22q3
 
 This tutorial is the beginning of a four-part series introducing [Docker](https://www.docker.com) for use with Visual Studio Code (VS Code).  You'll learn to create and run Docker containers, [persist data](tutorial-persist-data-layer-docker-app-with-vscode.md), and deploy your containerized application to Azure.
 
-VS Code offer an extension that lets you work with a local Docker Desktop service. Docker Desktop runs on your computer and manages your local containers.  Containers are compact virtualized environments, like virtual machines, that provide a platform for building and running apps.  Containers don't require the size and overhead of a complete operating system.
+VS Code offers a Docker extension that lets you work with a local Docker Desktop service. Docker Desktop runs on your computer and manages your local containers, which are compact virtualized environments that provide a platform for building and running apps.  Containers don't require the size and overhead of a complete operating system.
 
-In this tutorial, you learn how to:
+In this first tutorial, you learn how to:
 
 > [!div class="checklist"]
 > - Create a Docker container.
@@ -27,17 +27,16 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-- [Visual Studio Code](https://code.visualstudio.com/download).
-- [Docker VS Code Extension](https://code.visualstudio.com/docs/containers/overview).
-- [Docker Desktop](https://docs.docker.com/desktop/).
+- [Visual Studio Code](https://code.visualstudio.com/download) installed.
+- [Docker VS Code Extension](https://code.visualstudio.com/docs/containers/overview) installed.
+- [Docker Desktop](https://docs.docker.com/desktop/) configured to use Linux containers.
 - A [Docker Hub](https://hub.docker.com/signup) account. You can create an account for free.
 
 The tutorial works with Windows 10 or later and Docker Desktop configured to use Linux containers.
 
 ## Create a container
 
-A container is a process on your computer.
-It's isolated from all other processes on the host computer.
+A container is a process on your computer. It's isolated from all other processes on the host computer.
 That isolation uses kernel namespaces and control groups.
 
 A container uses an isolated filesystem.
@@ -191,25 +190,21 @@ Now that you have an image, you can run the application.
 
    ![Screenshot shows the sample app with no items and the text No items yet Add one above.](media/todo-list-empty.png)
 
-1. Add an item or two and see that it works as you expect.
-   You can mark items as complete and remove items.
+1. Add an item or two to test if it works as you expect.   You can mark items as complete and remove items.
    Your frontend is successfully storing items in the backend.
 
-
-## Clean up resources
-
-Keep everything that you've done so far to continue this series of tutorials.
 
 ## Next steps
 
 You've completed this tutorial and you have a running todo list manager with a few items.  You've learned to create container images and run a containerized app.
 
-Here are some resources that might be useful to you:
-
-- [Docker Cloud Integration](https://github.com/docker/compose-cli)
-- [Examples](https://github.com/docker/awesome-compose)
-
-Next, try the next tutorial in this series:
+Keep everything that you've done so far to continue this series of tutorials.
+Next, try part II of this series:
 
 > [!div class="nextstepaction"]
 > [Update and share a Docker app](docker-tutorial-share.md)
+
+
+Here are some resources that might be useful to you:
+- [Docker Cloud Integration](https://github.com/docker/compose-cli)
+- [Examples](https://github.com/docker/awesome-compose)
