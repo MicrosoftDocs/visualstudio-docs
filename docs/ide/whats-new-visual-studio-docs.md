@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 04/12/2023
+ms.date: 04/13/2023
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -22,12 +22,6 @@ ms.workload:
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
 
 ## March 2023
-
-### Data tools
-
-**Updated articles**
-
-- [Connect to a database](../data-tools/add-new-connections.md) - Delete and redirect to "Add Connections" article; then, add how to open MDF files there
 
 ### Debugger
 
