@@ -7,8 +7,7 @@ metadata:
    titleSuffix: ""
    description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for any platform or device.
    ms.topic: hub-page
-   ms.custom: contperf-fy21q1
-   ms.date: 10/13/2022
+   ms.date: 04/13/2023
    author: ghogen
    ms.author: ghogen
    manager: jmartens
@@ -90,36 +89,47 @@ conceptualContent:
           itemType: get-started
           url: /dotnet/fsharp/get-started/get-started-visual-studio
 
-tools:
-  title: Language documentation
-  items:
-    - title: C++
-      imageSrc: /media/logos/logo_Cplusplus.svg
-      url: /cpp/
-    - title: C#
-      imageSrc: /media/logos/logo_Csharp.svg
-      url: /dotnet/csharp
-    - title: F#
-      imageSrc: /media/logos/logo_Fsharp.svg
-      url: /dotnet/fsharp
-    - title: Visual Basic
-      imageSrc: /media/logos/logo_VB.svg
-      url: /dotnet/visual-basic
-    - title: Python
-      imageSrc: /media/logos/logo_python.svg
-      url: ../python/index.yml
-    - title: JavaScript
-      imageSrc: /media/logos/logo_js.svg
-      url: ../javascript/index.yml
-    - title: TypeScript
-      imageSrc: /media/logos/logo_TS.svg
-      url: http://www.typescriptlang.org/docs/tutorial.html
-    - title: R
-      imageSrc: /media/logos/logo_R.svg
-      url: ../rtvs/index.md?view=vs-2017&preserve-view=true
-
 additionalContent:
    sections:
+   - title: Tasks
+     items:
+      - title: Develop
+        summary: Write and manage your code using the code editor.
+        url: ../ide/index-writing-code.yml
+      - title: Build
+        summary: Compile and build your source code.
+        url: ../ide/compiling-and-building-in-visual-studio.md
+      - title: Debug
+        summary: Investigate and fix bugs in your code.
+        url: ../debugger/index.yml
+      - title: Test
+        summary: Run tests on your projects.
+        url: ../test/improve-code-quality.md
+      - title: Deploy
+        summary: Share your apps and code by using Web Deploy, InstallShield, NuGet, Continuous Integration, and more.
+        url: ../deployment/index.yml
+      - title: Version control
+        summary: Share code using version control technologies such as Git and GitHub.
+        url: ../version-control/index.yml
+      - title: DevOps
+        summary: Continuously build and release your apps in the cloud, and implement Agile practices with Azure DevOps Services.
+        url: /azure/devops
+      - title: Measure performance
+        summary: Identify bottlenecks and optimize code performance by using diagnostic tools.
+        url: ../profiling/index.yml
+      - title: Extend
+        summary: Add your own functionality to the Visual Studio IDE to improve your development experience.
+        url: ../extensibility/index.yml
+      - title: Data
+        summary: Create data apps that connect to any database or service, and anywhere—local or cloud.
+        url: ../data-tools/accessing-data-in-visual-studio.md
+      - title: Collaborate
+        summary: Share, edit, and debug code in a collaborative, real-time environment.
+        url: /visualstudio/liveshare/
+      - title: Develop with Docker containers
+        summary: Use Docker containers to isolate modular components and improve scalability.
+        url: ../containers/index.yml
+
    - title: Development with Visual Studio
      items:
         - title: Web and cloud
@@ -167,42 +177,4 @@ additionalContent:
               url: /cpp/linux/
             - text: .NET Core cross-platform development
               url: /dotnet/core/
-   - title: Tasks
-     items:
-      - title: Develop
-        summary: Write and manage your code using the code editor.
-        url: ../ide/index-writing-code.yml
-      - title: Build
-        summary: Compile and build your source code.
-        url: ../ide/compiling-and-building-in-visual-studio.md
-      - title: Debug
-        summary: Investigate and fix bugs in your code.
-        url: ../debugger/index.yml
-      - title: Test
-        summary: Run tests on your projects.
-        url: ../test/improve-code-quality.md
-      - title: Deploy
-        summary: Share your apps and code by using Web Deploy, InstallShield, NuGet, Continuous Integration, and more.
-        url: ../deployment/index.yml
-      - title: Version control
-        summary: Share code using version control technologies such as Git and GitHub.
-        url: ../version-control/index.yml
-      - title: DevOps
-        summary: Continuously build and release your apps in the cloud, and implement Agile practices with Azure DevOps Services.
-        url: /azure/devops
-      - title: Measure performance
-        summary: Identify bottlenecks and optimize code performance by using diagnostic tools.
-        url: ../profiling/index.yml
-      - title: Extend
-        summary: Add your own functionality to the Visual Studio IDE to improve your development experience.
-        url: ../extensibility/index.yml
-      - title: Data
-        summary: Create data apps that connect to any database or service, and anywhere—local or cloud.
-        url: ../data-tools/accessing-data-in-visual-studio.md
-      - title: Collaborate
-        summary: Share, edit, and debug code in a collaborative, real-time environment.
-        url: /visualstudio/liveshare/
-      - title: Develop with Docker containers
-        summary: Use Docker containers to isolate modular components and improve scalability.
-        url: ../containers/index.yml
    footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [Issue Reporting](../ide/feedback-options.md) - [Developer Community](https://aka.ms/feedback/suggest?space=8) - [Troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio)"
