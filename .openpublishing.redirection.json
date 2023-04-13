@@ -1,6 +1,11 @@
 {
   "redirections": [
-        {
+    {            
+      "source_path": "docs/ide/understanding-build-platforms.md",
+      "redirect_url": "/visualstudio/ide/how-to-configure-projects-to-target-platforms",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/troubleshooting-breakpoints.md",
       "redirect_url": "/troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints",
       "redirect_document_id": false
