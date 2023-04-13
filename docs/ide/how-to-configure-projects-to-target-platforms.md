@@ -152,7 +152,6 @@ For more information about the project file, see [MSBuild project file schema re
 
 ## See also
 
-- [Understand build platforms](../ide/understanding-build-platforms.md)
 - [/platform (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/platform-compiler-option)
 - [64-bit applications](/dotnet/framework/64-bit-apps)
 - [Visual Studio IDE 64-Bit support](../ide/visual-studio-ide-64-bit-support.md)
