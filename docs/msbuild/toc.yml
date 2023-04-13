@@ -209,9 +209,6 @@ items:
       href: msbuild-best-practices.md
   - name: Logging
     items:
-    - name: Overview
-      displayName: logging
-      href: logging-in-msbuild.md
     - name: Obtaining build logs with MSBuild
       href: obtaining-build-logs-with-msbuild.md
     - name: Build loggers

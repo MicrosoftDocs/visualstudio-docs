@@ -162,7 +162,7 @@ For .NET Core and .NET 5 or later, you typically use `dotnet build` to invoke MS
 
 ## Build logs
 
- You can log build errors, warnings, and messages to the console or another output device. For more information, see [Obtaining build logs](../msbuild/obtaining-build-logs-with-msbuild.md) and [Logging in MSBuild](../msbuild/logging-in-msbuild.md).
+ You can log build errors, warnings, and messages to the console or another output device. For more information, see [Obtaining build logs](../msbuild/obtaining-build-logs-with-msbuild.md) and [Obtaining build logs with MSBuild](../msbuild/obtaining-build-logs-with-msbuild.md).
 
 ## Use MSBuild in Visual Studio
 
@@ -211,7 +211,7 @@ MSBuild is an open-source project that accepts user contributions, just like the
 | [Tasks](../msbuild/msbuild-tasks.md) | Shows how to create a unit of executable code that can be used by MSBuild to perform atomic build operations. |
 | [Conditions](../msbuild/msbuild-conditions.md) | Discusses how to use the `Condition` attribute in an MSBuild element. |
 | [Advanced concepts](../msbuild/msbuild-advanced-concepts.md) | Presents batching, performing transforms, multitargeting, and other advanced techniques. |
-| [Logging in MSBuild](../msbuild/logging-in-msbuild.md) | Describes how to log build events, messages, and errors. |
+| [Obtaining build logs](obtaining-build-logs-with-msbuild.md) | Describes how to log build events, messages, and errors. |
 | [How MSBuild builds projects](build-process-overview.md) | Describes the internal build process used within MSBuild |
 | [Create a custom task for code generation](tutorial-custom-task-code-generation.md) | Shows how to create a custom task, with a code example. |
 | [Use MSBuild to generate a REST API client](tutorial-rest-api-client-msbuild.md) | Shows how to extend the build to handle REST API client generation, with a code example. |
