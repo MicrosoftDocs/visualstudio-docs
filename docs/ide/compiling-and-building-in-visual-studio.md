@@ -44,7 +44,7 @@ Next, see [Building and cleaning projects and solutions in Visual Studio](buildi
 
 From there, you can explore a variety of other tasks:
 - [Understand build configurations](understanding-build-configurations.md)
-- [Configure projects to target platforms](configure-projects-to-target-platforms.md)
+- [Configure projects to target platforms](how-to-configure-projects-to-target-platforms.md)
 - [Manage project and solution properties](managing-project-and-solution-properties.md).
 - Specify build events in [C#](how-to-specify-build-events-csharp.md) and [Visual Basic](how-to-specify-build-events-visual-basic.md).
 - [Set build options](reference/options-dialog-box-projects-and-solutions-build-and-run.md)

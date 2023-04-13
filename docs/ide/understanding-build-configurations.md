@@ -110,5 +110,5 @@ Visual Studio uses the following criteria to assign solution configurations.
 - [Compile and build](../ide/compiling-and-building-in-visual-studio.md)
 - [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)
 - [C/C++ build reference](/cpp/build/reference/c-cpp-building-reference)
-- [Configure projects to target platforms](configure-projects-to-target-platforms.md)
+- [Configure projects to target platforms](how-to-configure-projects-to-target-platforms.md)
 - [Build configurations (Visual Studio for Mac)](/visualstudio/mac/configurations)
