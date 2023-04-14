@@ -155,7 +155,7 @@ additionalContent:
             - text: Data science
               url: ../python/data-science-and-analytical-applications-workload.md
             - text: Office/Sharepoint development
-              url: https://developer.microsoft.com/office/docs
+              url: ../vsto/office-and-sharepoint-development-in-visual-studio.md
         - title: Desktop and mobile
           links:
             - text: Windows app development
