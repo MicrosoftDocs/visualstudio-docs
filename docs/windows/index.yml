@@ -164,6 +164,8 @@ additionalContent:
               url: /dotnet/framework/develop-client-apps
             - text: Windows development with C++
               url: /cpp/windows/desktop-applications-visual-cpp
+            - text: MAUI (.NET Multi-platform App UI) development
+              url: /dotnet/maui/
             - text: Mobile development with .NET (Xamarin)
               url: /xamarin/
             - text: Mobile development with C++
