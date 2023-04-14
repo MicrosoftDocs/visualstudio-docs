@@ -62,9 +62,6 @@ conceptualContent:
         - text: Python app
           url: ../python/tutorial-working-with-python-in-visual-studio-step-00-installation.md
           itemType: get-started
-        - text: Node.js web app
-          url: ../javascript/tutorial-nodejs.md
-          itemType: get-started
         - text: ASP.NET Core and Angular web app
           url: ../javascript/tutorial-asp-net-core-with-angular.md
           itemType: get-started
