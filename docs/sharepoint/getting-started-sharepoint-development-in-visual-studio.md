@@ -32,7 +32,7 @@ ms.workload:
 
 |Topic|Description|
 |-----------|-----------------|
-|[Additional information for SharePoint errors](../sharepoint/additional-information-for-sharepoint-errors.md)|Describes where to find help during SharePoint development and troubleshooting.|
+|[Additional information for SharePoint errors](troubleshooting-sharepoint-solutions.md)|Describes where to find help during SharePoint development and troubleshooting.|
 
 ## Related sections
 

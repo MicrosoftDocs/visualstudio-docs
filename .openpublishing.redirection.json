@@ -1,6 +1,11 @@
 {
   "redirections": [
-        {
+    {            
+      "source_path": "docs/ide/understanding-build-platforms.md",
+      "redirect_url": "/visualstudio/ide/how-to-configure-projects-to-target-platforms",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/troubleshooting-breakpoints.md",
       "redirect_url": "/troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints",
       "redirect_document_id": false
@@ -69,6 +74,22 @@
       "source_path": "docs/install/troubleshooting-network-related-errors-in-visual-studio.md",
       "redirect_url": "/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/install/visual-studio-build-numbers-and-release-dates.md",
+      "redirect_url": "/visualstudio/releases/2022/release-history#release-dates-and-build-numbers",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2022"
+    ]
+    },
+    {
+      "source_path": "docs/install/visual-studio-build-numbers-and-release-dates.md",
+      "redirect_url": "/visualstudio/releases/2019/history#release-dates-and-build-numbers",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2019"
+    ]
     },
     {
       "source_path": "docs/msbuild/troubleshooting-dotnet-framework-targeting-errors.md",
