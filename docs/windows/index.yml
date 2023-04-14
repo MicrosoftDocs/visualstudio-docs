@@ -160,14 +160,18 @@ additionalContent:
           links:
             - text: Windows app development
               url: /windows/apps/
-            - text: .NET Desktop development
-              url: /dotnet/framework/develop-client-apps
-            - text: Windows development with C++
-              url: /cpp/windows/desktop-applications-visual-cpp
+            - text: .NET desktop development with WPF
+              url: /dotnet/desktop/wpf/
+            - text: .NET development with Windows Forms
+              url: /dotnet/desktop/winforms/
+            - text: .NET Framework
+              url: /dotnet/framework/
             - text: MAUI (.NET Multi-platform App UI) development
               url: /dotnet/maui/
             - text: Mobile development with .NET (Xamarin)
               url: /xamarin/
+            - text: Windows development with C++
+              url: /cpp/windows/desktop-applications-visual-cpp
             - text: Mobile development with C++
               url: /visualstudio/cross-platform/
         - title: Gaming
