@@ -186,6 +186,6 @@ additionalContent:
               url: ../extensibility/index.yml
             - text: Linux development with C++
               url: /cpp/linux/
-            - text: .NET Core cross-platform development
-              url: /dotnet/core/
+            - text: .NET cross-platform development
+              url: /dotnet/fundamentals/
    footer: "[Blogs](https://devblogs.microsoft.com/visualstudio/) - [Twitter](https://twitter.com/VisualStudio) - [Stack Overflow](https://stackoverflow.com/questions/tagged/visual-studio) - [Issue Reporting](../ide/feedback-options.md) - [Developer Community](https://aka.ms/feedback/suggest?space=8) - [Troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio)"
