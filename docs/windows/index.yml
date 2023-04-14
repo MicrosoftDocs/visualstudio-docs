@@ -18,13 +18,13 @@ highlightedContent:
    - title: Setup and installation
      itemType: download
      url: ../install/install-visual-studio.md
-   - title: Welcome to the Visual Studio IDE
+   - title: About the Visual Studio IDE
      itemType: overview
      url: ../get-started/visual-studio-ide.md
    - title: Visual Studio 2022
      itemType: whats-new
      url: ../ide/whats-new-visual-studio-2022.md
-   - title: Improve your Visual Studio skills
+   - title: Browse Visual Studio training modules
      itemType: learn
      url: /training/browse/?products=vs
 
@@ -50,22 +50,28 @@ conceptualContent:
           itemType: tutorial
     - title: Follow a tutorial
       links:
-        - text: Create a simple C# console app
+        - text: Simple C# console app
           url: ../get-started/csharp/tutorial-console.md
           itemType: get-started
-        - text: Create a C++ console calculator
+        - text: C++ console calculator
           url: /cpp/get-started/tutorial-console-cpp
           itemType: get-started
-        - text: Create a Visual Basic console app
+        - text: Visual Basic console app
           url: ../get-started/visual-basic/tutorial-console.md
           itemType: get-started
-        - text: Get started with Python
+        - text: Python app
           url: ../python/tutorial-working-with-python-in-visual-studio-step-00-installation.md
           itemType: get-started
-        - text: Create a Node.js and Express app
+        - text: Node.js web app
           url: ../javascript/tutorial-nodejs.md
           itemType: get-started
-        - text: Create a F# web service
+        - text: ASP.NET Core and Angular web app
+          url: ../javascript/tutorial-asp-net-core-with-angular.md
+          itemType: get-started
+        - text: ASP.NET Core and React web app
+          url: ../javascript/tutorial-asp-net-core-with-react.md
+          itemType: get-started
+        - text: F# web service
           url: ../ide/quickstart-fsharp.md
           itemType: get-started
     - title: Visual Studio language guidance
@@ -136,6 +142,8 @@ additionalContent:
           links:
             - text: Web development
               url: /aspnet/
+            - text: ASP.NET Core and JavaScript
+              url: ../javascript/tutorial-nodejs.md
             - text: Azure development and management
               url: ../azure/index.yml
             - text: Python
@@ -160,9 +168,6 @@ additionalContent:
               url: /xamarin/
             - text: Mobile development with C++
               url: /visualstudio/cross-platform/
-            - text: Mobile development with JavaScript
-              url: /visualstudio/cross-platform/tools-for-cordova/?view=toolsforcordova-2017&preserve-view=true
-              note: (Visual Studio 2017 and 2015 only)
         - title: Gaming
           links:
             - text: Game development with Unity
