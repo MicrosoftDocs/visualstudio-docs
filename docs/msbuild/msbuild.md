@@ -210,7 +210,8 @@ MSBuild is an open-source project that accepts user contributions, just like the
 | [Targets](../msbuild/msbuild-targets.md) | Explains how to group tasks together in a particular order and enable sections of the build process to be called on the command line. |
 | [Tasks](../msbuild/msbuild-tasks.md) | Shows how to create a unit of executable code that can be used by MSBuild to perform atomic build operations. |
 | [Conditions](../msbuild/msbuild-conditions.md) | Discusses how to use the `Condition` attribute in an MSBuild element. |
-| [Advanced concepts](../msbuild/msbuild-advanced-concepts.md) | Presents batching, performing transforms, multitargeting, and other advanced techniques. |
+| [Batching](../msbuild/msbuild-batching.md) | Discusses how MSBuild categorizes item lists by metadata for execution in tasks and targets. |
+| [Multitargeting](../msbuild/msbuild-multitargeting-overview.md) | Shows how to target multiple .NET versions and/or multiple platforms. |
 | [Obtaining build logs](obtaining-build-logs-with-msbuild.md) | Describes how to log build events, messages, and errors. |
 | [How MSBuild builds projects](build-process-overview.md) | Describes the internal build process used within MSBuild |
 | [Create a custom task for code generation](tutorial-custom-task-code-generation.md) | Shows how to create a custom task, with a code example. |

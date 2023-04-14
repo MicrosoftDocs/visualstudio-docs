@@ -36,4 +36,4 @@ When you add a reference to an assembly through the **.NET** tab of the **Add Re
  The targeting pack that now ships with the .NET Framework SDK includes a list of all of the runtime assemblies in that version of the Framework, called the redistribution (redist) list, making it impossible for the build system to resolve types against the wrong version of the assembly.
 
 ## See also
-- [Advanced concepts](../msbuild/msbuild-advanced-concepts.md)
+- [MSBuild multitargeting](../msbuild/msbuild-multitargeting-overview.md)
