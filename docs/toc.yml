@@ -783,8 +783,6 @@
       href: ide/how-to-build-multiple-configurations-simultaneously.md
   - name: Build platforms
     items:
-    - name: Understand build platforms
-      href: ide/understanding-build-platforms.md
     - name: Configure projects to target a platform
       href: ide/how-to-configure-projects-to-target-platforms.md
     - name: Configure projects to target multiple platforms
