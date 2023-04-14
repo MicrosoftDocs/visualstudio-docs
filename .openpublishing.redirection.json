@@ -1,5 +1,15 @@
 {
   "redirections": [
+    {
+      "source_path": "docs/msbuild/msbuild-advanced-concepts.md",
+      "redirect_url": "/visualstudio/msbuild/msbuild-concepts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/msbuild/logging-in-msbuild.md",
+      "redirect_url": "/visualstudio/msbuild/obtaining-build-logs-with-msbuild",
+      "redirect_document_id": false
+    }
     {            
       "source_path": "docs/ide/understanding-build-platforms.md",
       "redirect_url": "/visualstudio/ide/how-to-configure-projects-to-target-platforms",
