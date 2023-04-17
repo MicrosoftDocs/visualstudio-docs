@@ -108,8 +108,6 @@ items:
         href: how-to-use-reserved-xml-characters-in-project-files.md
   - name: Advanced concepts
     items:
-    - name: MSBuild advanced concepts
-      href: msbuild-advanced-concepts.md
     - name: Batching
       items:
       - name: MSBuild batching

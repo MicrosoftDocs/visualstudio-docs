@@ -39,5 +39,4 @@ MSBuild reserves some characters for special use in specific contexts. You only 
 
 ## See also
 
-- [Advanced concepts](../msbuild/msbuild-advanced-concepts.md)
 - [Items](../msbuild/msbuild-items.md)
