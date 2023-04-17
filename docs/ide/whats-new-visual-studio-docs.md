@@ -97,6 +97,12 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
   - [Instrumentation in Visual Studio (C#, Visual Basic, C++, F#)](../profiling/instrumentation-overview.md)
   - [Instrument your .NET applications in Visual Studio (C#, C++, Visual Basic, F#)](../profiling/instrumentation.md)
 
+### Version control
+
+**Updated articles**
+
+- [Create a Git repository from Visual Studio](../version-control/git-create-repository.md) - Add .gitignore info
+
 ### XAML tools
 
 **New articles**
