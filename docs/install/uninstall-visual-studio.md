@@ -124,8 +124,14 @@ Here's how to run the `InstallCleanup.exe` tool:
    |  `-i [version]`   | Default if no other switch is passed. It removes only the main installation directory and product information. Use this switch if you intend to reinstall the same version of Visual Studio. If a `[version]` value is specified, only products with a version that start with this string value will be removed.    For example, use the switch *-i 17* with `InstallCleanup.exe` to remove all products of version 17. |
    |   `-f`           | Removes the main installation directory, product information, and most other features installed outside the installation directory, that might also be shared with other Visual Studio installations or other products. Use this switch if you intend to remove Visual Studio without reinstalling it later.|
 
+   Full path to the tool for command prompt
    ```shell
    "C:\Program Files (x86)\Microsoft Visual Studio\Installer\InstallCleanup.exe"
+   ```
+   
+   Execute the tool in PowerShell (without switches)
+   ```powershell
+   . "C:\Program Files (x86)\Microsoft Visual Studio\Installer\InstallCleanup.exe"
    ```
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
