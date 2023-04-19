@@ -79,7 +79,7 @@ The bootstrappers listed below will always install the latest most secure versio
 |---------------------------------|-------------------------------------------------------------------------|
 | Visual Studio 2022 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/17/release/vs_enterprise.exe)     |
 | Visual Studio 2022 Professional | [vs_professional.exe](https://aka.ms/vs/17/release/vs_professional.exe) |
-| Visual Studio 2022 Community    | [vs_professional.exe](https://aka.ms/vs/17/release/vs_community.exe)    |
+| Visual Studio 2022 Community    | [vs_community.exe](https://aka.ms/vs/17/release/vs_community.exe)    |
 | Visual Studio 2022 Build Tools  | [vs_buildtools.exe](https://aka.ms/vs/17/release/vs_buildtools.exe)     |
 
 ::: moniker-end
@@ -168,7 +168,7 @@ vs_enterprise.exe --layout C:\VSLayout --config "C:\myconfig.vsconfig" --useLate
 > [!NOTE]
 > As of April 2023, the latest installer is shipping by default with every update to supported versions of Visual Studio 2017, Visual Studio 2019, and Visual Studio 2022. So you won't need to do anything explicitly to get the latest version of the installer with the latest functionality and bug fixes. 
 
-If you're using a version of Visual Studio that was shipped before April '23, we recommend that you always use the latest Visual Studio installer in your layout and distribute it to your clients. For example, if you distribute the Visual Studio 2022 Installer in your Visual Studio 2019 layouts, then your Visual Studio 2019 clients based off of that layout will have the ability to change the source location for updates or to easily remove out-of-support components. Further details are [described below](#configure-the-layout-to-always-include-and-provide-the-latest-installer)
+If you're using a version of Visual Studio that was shipped before April 2023, we recommend that you always use the latest Visual Studio Installer in your layout and distribute it to your clients. For example, if you distribute the Visual Studio 2022 Installer in your Visual Studio 2019 layouts, then your Visual Studio 2019 clients based off of that layout will have the ability to change the source location for updates or to easily remove out-of-support components. Further details are [described below](#configure-the-layout-to-always-include-and-provide-the-latest-installer)
 
 The capability to programmatically ensure that you're using the latest installer is only available to Visual Studio 2019 bootstrappers that were built after Visual Studio 2022 originally shipped. So, the vs_enterprise.exe in the example below must be a version that shipped _after_ November 10, 2021. 
 
@@ -345,7 +345,7 @@ However, if you're using a layout that was created before April 2023, then you c
 
 There are two ways to enable your layout to include and provide the latest installer:
 
-- You can pass in the `--useLatestInstaller` parameter to the bootstrapper when you're creating or updating the layout. This will cause a setting to get set in the layout.json file, which can be found in the root directory of the layout. Here's an example for how to update the layout and configure it to use the latest and greatest installer available.  
+- You can pass in the `--useLatestInstaller` parameter to the bootstrapper when you're creating or updating the layout. This will cause a setting to get set in the `layout.json` file, which can be found in the root directory of the layout. Here's an example for how to update the layout and configure it to use the latest and greatest installer available.  
 
    ```shell
    vs_enterprise.exe --layout C:\VSLayout --useLatestInstaller
