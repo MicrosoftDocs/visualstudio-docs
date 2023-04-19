@@ -18,13 +18,13 @@ highlightedContent:
    - title: Setup and installation
      itemType: download
      url: ../install/install-visual-studio.md
-   - title: About the Visual Studio IDE
+   - title: About Visual Studio IDE
      itemType: overview
      url: ../get-started/visual-studio-ide.md
    - title: Visual Studio 2022
      itemType: whats-new
      url: ../ide/whats-new-visual-studio-2022.md
-   - title: Browse Visual Studio training modules
+   - title: Browse Visual Studio training
      itemType: learn
      url: /training/browse/?products=vs
 
