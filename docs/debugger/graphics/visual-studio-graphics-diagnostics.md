@@ -29,7 +29,7 @@ For more information, see:
 - [Overview](/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/overview-of-visual-studio-graphics-diagnostics.md)
 
 >[!NOTE]
-> The documentation for Visual Studio Graphics Diagnostics is no actively maintained, so the preceding links go to the archived version of the documentation. However, the tools are supported in Visual Studio 2022.
+> The documentation for Visual Studio Graphics Diagnostics is no longer actively maintained, so the preceding links go to the archived version of the documentation. However, the tools are supported in Visual Studio 2022.
 
 ## Related Sections
 
