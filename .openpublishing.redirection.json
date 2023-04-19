@@ -1,6 +1,56 @@
 {
   "redirections": [
     {            
+      "source_path": "docs/msbuild/file-tracking.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/file-tracking",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/msbuild/resumetracking.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/resumetracking",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/msbuild/endtrackingcontext.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/endtrackingcontext",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/msbuild/setthreadcount.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/setthreadcount",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/msbuild/starttrackingcontext.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/starttrackingcontext",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/msbuild/starttrackingcontextwithroot.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/starttrackingcontextwithroot",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/msbuild/stoptrackingandcleanup.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/stoptrackingandcleanup",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/msbuild/suspendtracking.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/suspendtracking",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/msbuild/writealltlogs.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/writealltlogs",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/msbuild/writecontexttlogs.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/writecontexttlogs",
+      "redirect_document_id": false
+    },
+    {            
       "source_path": "docs/ide/understanding-build-platforms.md",
       "redirect_url": "/visualstudio/ide/how-to-configure-projects-to-target-platforms",
       "redirect_document_id": false
