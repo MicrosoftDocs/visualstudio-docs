@@ -96,6 +96,8 @@ Before it runs a task, MSBuild checks to see whether it is designated to run in 
 </UsingTask>
 ```
 
+When `TaskHostFactory` is specified explicitly, the process that runs the task is short-lived. This allows the operating system to clean up all resources related to the task immediately after it executes. For this reason, specify `TaskHostFactory` when referencing tasks built in the same build process as their use, to avoid file-in-use errors when updating the task assembly after a build.
+
 ## Phantom task parameters
 
 Like any other task parameters, `MSBuildRuntime` and `MSBuildArchitecture` can be set from build properties.
