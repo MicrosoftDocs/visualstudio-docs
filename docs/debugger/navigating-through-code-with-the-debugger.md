@@ -89,7 +89,7 @@ On a nested function call, **Step Into** steps into the most deeply nested funct
 
 ### <a name="BKMK_Step_over_Step_out"></a> Step through code and skip some functions
 
-You might not care about a function when you're debugging. Or might you know some code works, like well-tested library code. You can use the following commands to skip code when you're code stepping. The functions still run, but the debugger skips over them.
+You might not care about a function when you're debugging. Or you might know some code works, like well-tested library code. You can use the following commands to skip code when you're code stepping. The functions still run, but the debugger skips over them.
 
 |Keyboard command|Debug menu command|Description|
 |----------------------|------------------|-----------------|
