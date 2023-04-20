@@ -108,7 +108,7 @@ For lists of the workloads and components that you can install by using the comm
 * Use --config to configure the contents of a layout:
  
    ```shell
-  vs_enterprise.exe --layout C:\layout --config "C:\myconfig.vsconfig" --useLatestInstaller
+  vs_enterprise.exe --layout C:\layout --config "C:\myconfig.vsconfig"
   ```
 
 ## Using --all to acquire the entire product
@@ -228,7 +228,7 @@ If you choose to use a custom layout as the update channel, then be aware of the
 * Use --config to configure the contents of a layout:
  
    ```shell
-  vs_enterprise.exe --layout C:\layout --config "C:\my.vsconfig" --useLatestInstaller
+  vs_enterprise.exe --layout C:\layout --config "C:\my.vsconfig" 
   ```
 
 ## Using winget

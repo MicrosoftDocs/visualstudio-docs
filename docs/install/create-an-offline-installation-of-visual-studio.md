@@ -82,7 +82,7 @@ Open a command prompt with administrator privileges, navigate to the directory w
 - To create a local layout using an [exported vsconfig file](import-export-installation-configurations.md) to customize the layout content, run the code below. Since this functionality is relatively new, you'll need to use the latest installer in your layout.   
 
    ```shell
-    vs_enterprise.exe --layout C:\localVSlayout --config "C:\myconfig.vsconfig" --useLatestInstaller --lang en-US 
+    vs_enterprise.exe --layout C:\localVSlayout --config "C:\myconfig.vsconfig" --lang en-US 
     ```
 
 - You can also [verify](create-a-network-installation-of-visual-studio.md?#verify-a-layout) or [fix](create-a-network-installation-of-visual-studio.md?#fix-a-layout) an offline installation.
