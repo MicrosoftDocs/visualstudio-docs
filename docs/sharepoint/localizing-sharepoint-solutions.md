@@ -29,7 +29,7 @@ The process of preparing your applications so that they can be used worldwide is
 To localize a solution, you remove hard-coded strings from the code and abstract them into resource files. A Resource file is an XML-based file with a *.resx* extension. The resource file contains the translated versions of the strings used in your solution. For more information, see [Resources in Applications](/previous-versions/dotnet/netframework-4.0/f45fce5x(v=vs.100)).
 
 > [!NOTE]
-> Add only string resources to SharePoint solution resource files. Although the Resource Editor enables you to add non-string resources, non-string resources do not deploy to SharePoint.
+> Add only string resources to SharePoint solution resource files. Although the Resource Editor enables you to add non-string resources, non-string resources don't deploy to SharePoint.
 
 ## Resource files
 
@@ -37,7 +37,7 @@ To localize a solution, you remove hard-coded strings from the code and abstract
 
 |Resource File Type|Description|
 |------------------------|-----------------|
-|Default|Also known as a fallback resource, default resource files contain strings localized for the default culture, such as English. They are used if no localized resource files for the specified language can be found. Default resources do not have separate files, they are stored in the main application assembly.|
+|Default|Also known as a fallback resource, default resource files contain strings localized for the default culture, such as English. They're used if no localized resource files for the specified language can be found. Default resources don't have separate files, they're stored in the main application assembly.|
 |Language-neutral|A resource file that contains strings localized for a language, but not a specific culture. For example, "fr" for French.|
 |Language-specific|A resource file that contains strings localized for a language and a culture. For example, "fr-CA" for French Canadian.|
 
@@ -68,7 +68,7 @@ The commands for adding resource files are on the shortcut menu of the solution 
 
 ### To add a feature resource file to a SharePoint feature
 
-1. If the SharePoint solution is not already open in Visual Studio, open the solution.
+1. If the SharePoint solution isn't already open in Visual Studio, open the solution.
 
 2. In **Solution Explorer**, open the shortcut menu for the name of a feature under the **Features** node, and then choose **Add Feature Resource**.
 
@@ -88,7 +88,7 @@ There are three areas you typically localize in Visual Studio SharePoint applica
 
 To localize a feature, you have to replace the hard-coded title and description of the feature with an expression that references the translated title and string in the localized resources file. You make this change in the **Feature Designer** in Visual Studio. For more information, see [How to: Localize a feature](../sharepoint/how-to-localize-a-feature.md).
 
-To localize your English feature into German and Japanese, you add three Resource File project items to your project: one for English, one for German, and one for Japanese. Feature resource files cannot be used to localize ASPX markup or code; separate resource files are required for them.
+To localize your English feature into German and Japanese, you add three Resource File project items to your project: one for English, one for German, and one for Japanese. Feature resource files can't be used to localize ASPX markup or code; separate resource files are required for them.
 
 After you create the feature resource files, add translated strings to them. Access the localized strings with an expression in the following format:
 
@@ -96,9 +96,9 @@ After you create the feature resource files, add translated strings to them. Acc
 $Resources:String ID
 ```
 
-Feature resources in Visual Studio are always named Resources. If you select a language other than Invariant Language, then a culture ID is added to the resource file name. For example, if you add an invariant language (default) feature resource file, it is called *Resources.resx*. If you add a language-specific feature resource by selecting a culture of Japanese (Japan), the file is called *Resources.ja-JP.resx*. Feature resource file names are automatically assigned and cannot be changed.
+Feature resources in Visual Studio are always named Resources. If you select a language other than Invariant Language, then a culture ID is added to the resource file name. For example, if you add an invariant language (default) feature resource file, it is called *Resources.resx*. If you add a language-specific feature resource by selecting a culture of Japanese (Japan), the file is called *Resources.ja-JP.resx*. Feature resource file names are automatically assigned and can't be changed.
 
-The scope of feature resources is local to the feature they are added to. To create resources that can be used by any feature or element file in the solution, add a **Global Resources File** project item instead of a feature resource File. The **Global Resources File** project item is located in the **2010** folder under **SharePoint** in the **Add New Item** dialog box. Global resources files deploy to the \Resources folder of the SharePoint root folder.
+The scope of feature resources is local to the feature they're added to. To create resources that can be used by any feature or element file in the solution, add a **Global Resources File** project item instead of a feature resource File. The **Global Resources File** project item is located in the **2010** folder under **SharePoint** in the **Add New Item** dialog box. Global resources files deploy to the \Resources folder of the SharePoint root folder.
 
 #### To localize a feature
 
@@ -134,7 +134,7 @@ The scope of feature resources is local to the feature they are added to. To cre
 
 ### Localize ASPX page markup
 
-To localize ASP.NET pages, you add three Resources File project items to your project: one for English, one for German, and one for Japanese. If you do not have to localize code in addition to the markup, you can instead add Global Resources Files.
+To localize ASP.NET pages, you add three Resources File project items to your project: one for English, one for German, and one for Japanese. If you don't have to localize code in addition to the markup, you can instead add Global Resources Files.
 
 ASP.NET (.aspx) pages typically use hard-coded string values. To localize these strings, replace them with expressions that reference localized resources.
 
@@ -142,20 +142,20 @@ ASP.NET (.aspx) pages typically use hard-coded string values. To localize these 
 
 1. Add separate resource files: one for the default language and one for each localized language.
 
-     If you are localizing only markup and not code, add a Global Resources File project item. If you are localizing code and markup, add a Resources File project item.
+     If you're localizing only markup and not code, add a Global Resources File project item. If you're localizing code and markup, add a Resources File project item.
 
     1. To add a Global Resources File, in **Solution Explorer**, open the shortcut menu for a SharePoint project item, and then choose **Add** > **New Item**. Under the SharePoint **2010** node, choose the **Global Resources File** template.
 
     2. To add a Resources File, in **Solution Explorer**, open the shortcut menu for a SharePoint project item, and then choose **Add** > **New Item**. Choose the **Resources File** template.
 
     > [!NOTE]
-    > Be sure to add the resource files to a SharePoint project item to enable the Deployment Type property. This property is required later in this procedure. If your solution does not have a SharePoint project item, you can add an Empty SharePoint Project and remove its default *Elements.xml* file.
+    > Be sure to add the resource files to a SharePoint project item to enable the Deployment Type property. This property is required later in this procedure. If your solution doesn't have a SharePoint project item, you can add an Empty SharePoint Project and remove its default *Elements.xml* file.
 
 2. Give the default language resource file a name of your choice appended with a *.resx* extension, such as MyAppResources.resx. Use the same base name for each localized resource file, but add the culture ID. For example, name a German localized resource *MyAppResources.de-DE.resx*.
 
 3. Change the value of the **Deployment Type** property of each resource file to **AppGlobalResource** to cause them to deploy to the server's App_GlobalResources folder. The App_GlobalResources folder is located in C:\inetpub\wwwroot\wss\VirtualDirectories\\<port number\>\App_GlobalResources.
 
-4. If you are using the resources to localize code in addition to ASPX markup, leave the value of the **Build Action** property of each file as **Embedded Resource**. If you are using the resource files only to localize markup, you can optionally change the property value of the files to **Content**. For more information, see [Localize SharePoint solutions](../sharepoint/localizing-sharepoint-solutions.md).
+4. If you're using the resources to localize code in addition to ASPX markup, leave the value of the **Build Action** property of each file as **Embedded Resource**. If you're using the resource files only to localize markup, you can optionally change the property value of the files to **Content**. For more information, see [Localize SharePoint solutions](../sharepoint/localizing-sharepoint-solutions.md).
 
    > [!NOTE]
    > If you use non-global resource files, move them into the project item folder to enable the Deployment Type property and other SharePoint-specific properties.
@@ -225,7 +225,7 @@ Visual Studio uses the standard .NET Framework hub and spoke model. The hub, or 
 
 9. In the **Location** box, prepend a culture ID folder to the Location path, such as *de-DE\\\<Project Item Name>.resources.dll*.
 
-10. If your solution does not already reference the `System.Web` assembly, add a reference to it, and add a directive in your code to <xref:System.Web>.
+10. If your solution doesn't already reference the `System.Web` assembly, add a reference to it, and add a directive in your code to <xref:System.Web>.
 
 11. Locate all hard-coded strings in your code that are visible to users, such as UI text, errors, and message text. Replace them with a call to the <xref:System.Web.HttpContext.GetGlobalResourceObject%2A> method using the following syntax:
 
