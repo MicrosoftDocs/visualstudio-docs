@@ -56,6 +56,235 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/graphics/0x-2x-4x-msaa-variants.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/0x-2x-4x-msaa-variants",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/16bpp-render-target-format-variant.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/16bpp-render-target-format-variant",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/1x1-viewport-size-variant.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/1x1-viewport-size-variant",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/addmessage.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/addmessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/bc-texture-compression-variant.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/bc-texture-compression-variant",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/begincapture.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/begincapture",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/capturecurrentframe.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/capturecurrentframe",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/capturing-graphics-information.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/capturing-graphics-information",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/command-line-capture-tool.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/command-line-capture-tool",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/copy-programmatic-capture.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/copy-programmatic-capture",
+      "redirect_document_id": false
+    },    {
+      "source_path": "docs/debugger/graphics/dont-save-vsglog-to-temp.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/dont-save-vsglog-to-temp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/endcapture.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/endcapture",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/getting-started-with-visual-studio-graphics-diagnostics.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/getting-started-with-visual-studio-graphics-diagnostics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-api-and-memory-statistics.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-api-and-memory-statistics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-diagnostics-examples.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-diagnostics-examples",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-event-call-stack.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-event-call-stack",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-event-list.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-event-list",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-frame-analysis.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-frame-analysis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-frame-validation.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-frame-validation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-log-document.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-log-document",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-object-table.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-object-table",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-pipeline-stages.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-pipeline-stages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-pixel-history.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-pixel-history",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-state.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-state",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/half-quarter-texture-dimensions-variant.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/half-quarter-texture-dimensions-variant",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/hlsl-shader-debugger.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/hlsl-shader-debugger",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/how-to-change-the-graphics-diagnostics-playback-machine.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/how-to-change-the-graphics-diagnostics-playback-machine",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/init.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/init",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/mip-map-generation-variant.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/mip-map-generation-variant",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/overview-of-visual-studio-graphics-diagnostics.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/overview-of-visual-studio-graphics-diagnostics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/reference-programmatic-capture.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/reference-programmatic-capture",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/togglehud.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/togglehud",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/uninit.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/uninit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/vsg-default-run-filename.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/vsg-default-run-filename",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/vsg-nodefault-instance.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/vsg-nodefault-instance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/vsgdbg-class.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/vsgdbg-class",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/vsgdbg-tilde-vsgdbg-destructor.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/vsgdbg-tilde-vsgdbg-destructor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/vsgdbg-vsgdbg-constructor.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/vsgdbg-vsgdbg-constructor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/walkthrough-capturing-graphics-information-programmatically.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-capturing-graphics-information-programmatically",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/walkthrough-capturing-graphics-information.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-capturing-graphics-information",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/walkthrough-debugging-rendering-errors-due-to-shading.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-debugging-rendering-errors-due-to-shading",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/walkthrough-missing-objects-due-to-device-state.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-missing-objects-due-to-device-state",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/walkthrough-missing-objects-due-to-misconfigured-pipeline.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-missing-objects-due-to-misconfigured-pipeline",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/walkthrough-missing-objects-due-to-vertex-shading.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-missing-objects-due-to-vertex-shading",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/troubleshooting-breakpoints.md",
       "redirect_url": "/troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints",
       "redirect_document_id": false
