@@ -165,7 +165,7 @@ items:
       href: security-for-sharepoint-solutions.md
     - name: URL Picker Dialog Box
       href: url-picker-dialog-box-sharepoint-development-in-visual-studio.md
-  - name: Localizing SharePoint Solutions
+  - name: Localizing SharePoint Solutions 
     items:
     - name: Localizing SharePoint Solutions
       href: localizing-sharepoint-solutions.md

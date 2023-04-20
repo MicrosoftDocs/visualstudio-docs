@@ -1,6 +1,31 @@
 {
   "redirections": [
     {
+      "source_path": "docs/how-to-add-a-resource-file.md",
+      "redirect_url": "/visualstudio/sharepoint/localizing-sharepoint-solutions#add-a-resource-file",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/how-to-localize-a-feature.md",
+      "redirect_url": "/visualstudio/sharepoint/localizing-sharepoint-solutions#localize-features",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/how-to-localize-aspx-markup.md",
+      "redirect_url": "/visualstudio/sharepoint/localizing-sharepoint-solutions#localize-aspx-page-markup",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/how-to-localize-code.md",
+      "redirect_url": "/visualstudio/sharepoint/localizing-sharepoint-solutions#localize-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/msbuild/msbuild-advanced-concepts.md",
+      "redirect_url": "/visualstudio/msbuild/msbuild-concepts",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/msbuild/msbuild-advanced-concepts.md",
       "redirect_url": "/visualstudio/msbuild/msbuild-concepts",
       "redirect_document_id": false
