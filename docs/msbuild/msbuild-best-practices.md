@@ -30,4 +30,4 @@ We recommend the following best practices for writing MSBuild scripts:
 
 ## See also
 
-- [Advanced concepts](../msbuild/msbuild-advanced-concepts.md)
+- [How MSBuild builds projects](./build-process-overview.md)
