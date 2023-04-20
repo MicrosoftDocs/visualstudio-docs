@@ -4,7 +4,7 @@ description: Learn about the various functions in Team Explorer to manage work a
 ms.date: 11/02/2022
 ms.topic: reference
 ms.author: tglee
-author: Terry G. Lee
+author: TerryGLee
 ms.manager: jmartens
 monikerRange: "<=vs-2019"
 ---
