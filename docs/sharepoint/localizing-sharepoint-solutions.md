@@ -26,7 +26,7 @@ ms.workload:
 
 The process of preparing your applications so that they can be used worldwide is known as localization. Localization is translating resources to a specific culture. For more information, see [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md). This topic provides an overview on how to localize a SharePoint solution.
 
-To localize a solution, you remove hard-coded strings from the code and abstract them into resource files. A Resource file is an [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)]-based file with a *.resx* extension. The resource file contains the translated versions of the strings used in your solution. For more information, see [Resources in Applications](/previous-versions/dotnet/netframework-4.0/f45fce5x(v=vs.100)).
+To localize a solution, you remove hard-coded strings from the code and abstract them into resource files. A Resource file is an XML-based file with a *.resx* extension. The resource file contains the translated versions of the strings used in your solution. For more information, see [Resources in Applications](/previous-versions/dotnet/netframework-4.0/f45fce5x(v=vs.100)).
 
 > [!NOTE]
 > Add only string resources to SharePoint solution resource files. Although the Resource Editor enables you to add non-string resources, non-string resources do not deploy to SharePoint.
@@ -43,7 +43,7 @@ To localize a solution, you remove hard-coded strings from the code and abstract
 
 For more information, see [Hierarchical Organization of Resources for Localization](../ide/globalizing-and-localizing-applications.md).
 
-To specify default resource files in SharePoint projects that you develop in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], choose **Invariant Language (Invariant Country)** in the culture list of the **Add Resource** dialog box when you add a resource file.
+To specify default resource files in SharePoint projects that you develop in Visual Studio, choose **Invariant Language (Invariant Country)** in the culture list of the **Add Resource** dialog box when you add a resource file.
 
 ### Add a resource file
 
@@ -51,7 +51,7 @@ The commands for adding resource files are on the shortcut menu of the solution 
 
 ### To add a global resource file to a SharePoint solution
 
-1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], open a SharePoint solution.
+1. In Visual Studio, open a SharePoint solution.
 
 2. In **Solution Explorer**, choose a SharePoint project node, and then, on the menu bar, choose **Project** > **Add New Item**.
 
@@ -64,29 +64,29 @@ The commands for adding resource files are on the shortcut menu of the solution 
 
     This step adds a global resource file to your solution in the format, *Resource_x_.{culture}.resx*, such as, *Resource1.en-US.resx*.
 
-5. When the **Resource Editor** opens in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], add resources to the resource file.
+5. When the **Resource Editor** opens in Visual Studio, add resources to the resource file.
 
 ### To add a feature resource file to a SharePoint feature
 
-1. If the SharePoint solution is not already open in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], open the solution.
+1. If the SharePoint solution is not already open in Visual Studio, open the solution.
 
 2. In **Solution Explorer**, open the shortcut menu for the name of a feature under the **Features** node, and then choose **Add Feature Resource**.
 
      This step adds a resource file to the feature in the format, _ResourceFileName_**.**_culture_**.resx**, such as, *Feature1.en-US.resx*.
 
-3. When the **Resource Editor** opens in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], add resources to the resource file.
+3. When the **Resource Editor** opens in Visual Studio, add resources to the resource file.
 
 ## Localize Visual Studio SharePoint solutions
 
-When you localize a solution, you should consider all of the textual information that your solution displays to users. Informational messages, error messages, and [!INCLUDE[TLA2#tla_ui](../sharepoint/includes/tla2sharptla-ui-md.md)] strings must be translated and those translations placed in the resource files.
+When you localize a solution, you should consider all of the textual information that your solution displays to users. Informational messages, error messages, and UI strings must be translated and those translations placed in the resource files.
 
 Every string in a resource file has a unique identifier. Use the same identifier for the translated string in each resource file. For example, if "String1" is the identifier for the first string in the default resource file, use the same identifier for the first string in the language-specific resource files.
 
-There are three areas you typically localize in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint applications: features, ASPX page markup, and code. For purposes of illustration, the following sections assume you have a SharePoint solution that you want to localize into German and Japanese. The default language is English.
+There are three areas you typically localize in Visual Studio SharePoint applications: features, ASPX page markup, and code. For purposes of illustration, the following sections assume you have a SharePoint solution that you want to localize into German and Japanese. The default language is English.
 
 ### Localize features
 
-To localize a feature, you have to replace the hard-coded title and description of the feature with an expression that references the translated title and string in the localized resources file. You make this change in the **Feature Designer** in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information, see [How to: Localize a feature](../sharepoint/how-to-localize-a-feature.md).
+To localize a feature, you have to replace the hard-coded title and description of the feature with an expression that references the translated title and string in the localized resources file. You make this change in the **Feature Designer** in Visual Studio. For more information, see [How to: Localize a feature](../sharepoint/how-to-localize-a-feature.md).
 
 To localize your English feature into German and Japanese, you add three Resource File project items to your project: one for English, one for German, and one for Japanese. Feature resource files cannot be used to localize ASPX markup or code; separate resource files are required for them.
 
@@ -96,7 +96,7 @@ After you create the feature resource files, add translated strings to them. Acc
 $Resources:String ID
 ```
 
-Feature resources in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] are always named Resources. If you select a language other than Invariant Language, then a culture [!INCLUDE[TLA2#tla_id](../sharepoint/includes/tla2sharptla-id-md.md)] is added to the resource file name. For example, if you add an invariant language (default) feature resource file, it is called *Resources.resx*. If you add a language-specific feature resource by selecting a culture of Japanese (Japan), the file is called *Resources.ja-JP.resx*. Feature resource file names are automatically assigned and cannot be changed.
+Feature resources in Visual Studio are always named Resources. If you select a language other than Invariant Language, then a culture ID is added to the resource file name. For example, if you add an invariant language (default) feature resource file, it is called *Resources.resx*. If you add a language-specific feature resource by selecting a culture of Japanese (Japan), the file is called *Resources.ja-JP.resx*. Feature resource file names are automatically assigned and cannot be changed.
 
 The scope of feature resources is local to the feature they are added to. To create resources that can be used by any feature or element file in the solution, add a **Global Resources File** project item instead of a feature resource File. The **Global Resources File** project item is located in the **2010** folder under **SharePoint** in the **Add New Item** dialog box. Global resources files deploy to the \Resources folder of the SharePoint root folder.
 
@@ -134,9 +134,9 @@ The scope of feature resources is local to the feature they are added to. To cre
 
 ### Localize ASPX page markup
 
-To localize [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] pages, you add three Resources File project items to your project: one for English, one for German, and one for Japanese. If you do not have to localize code in addition to the markup, you can instead add Global Resources Files.
+To localize ASP.NET pages, you add three Resources File project items to your project: one for English, one for German, and one for Japanese. If you do not have to localize code in addition to the markup, you can instead add Global Resources Files.
 
-[!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] (.aspx) pages typically use hard-coded string values. To localize these strings, replace them with expressions that reference localized resources.
+ASP.NET (.aspx) pages typically use hard-coded string values. To localize these strings, replace them with expressions that reference localized resources.
 
 #### To localize ASPX markup
 
@@ -151,7 +151,7 @@ To localize [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] pages, y
     > [!NOTE]
     > Be sure to add the resource files to a SharePoint project item to enable the Deployment Type property. This property is required later in this procedure. If your solution does not have a SharePoint project item, you can add an Empty SharePoint Project and remove its default *Elements.xml* file.
 
-2. Give the default language resource file a name of your choice appended with a *.resx* extension, such as MyAppResources.resx. Use the same base name for each localized resource file, but add the culture [!INCLUDE[TLA2#tla_id](../sharepoint/includes/tla2sharptla-id-md.md)]. For example, name a German localized resource *MyAppResources.de-DE.resx*.
+2. Give the default language resource file a name of your choice appended with a *.resx* extension, such as MyAppResources.resx. Use the same base name for each localized resource file, but add the culture ID. For example, name a German localized resource *MyAppResources.de-DE.resx*.
 
 3. Change the value of the **Deployment Type** property of each resource file to **AppGlobalResource** to cause them to deploy to the server's App_GlobalResources folder. The App_GlobalResources folder is located in C:\inetpub\wwwroot\wss\VirtualDirectories\\<port number\>\App_GlobalResources.
 
@@ -162,7 +162,7 @@ To localize [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] pages, y
 
 5. Open each resource file and add localized strings, using the same string IDs in each file.
 
-6. In the [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] markup for the ASPX page or control, replace the hard-coded strings with values that use the following format:
+6. In the XML markup for the ASPX page or control, replace the hard-coded strings with values that use the following format:
 
     ```aspx-csharp
     <%$Resources:Resource File Name, String ID%>
@@ -192,9 +192,9 @@ To localize [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] pages, y
 
 ### Localize code
 
-In addition to localizing Feature strings and [!INCLUDE[vstecasp](../sharepoint/includes/vstecasp-md.md)] markup, you also have to localize the message strings and error strings that appear in your solution code. Localized informational and error messages are contained in satellite assemblies. Satellite assemblies contain strings that are visible to users, such as [!INCLUDE[TLA2#tla_ui](../sharepoint/includes/tla2sharptla-ui-md.md)] text and output messages like exceptions.
+In addition to localizing Feature strings and ASP.NET markup, you also have to localize the message strings and error strings that appear in your solution code. Localized informational and error messages are contained in satellite assemblies. Satellite assemblies contain strings that are visible to users, such as UI text and output messages like exceptions.
 
-[!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] uses the standard .NET Framework hub and spoke model. The hub, or main program assembly, contains the default language resources. The spokes, or satellite assemblies, contain the language-specific resources. For more information, see [Packaging and Deploying Resources](/previous-versions/dotnet/netframework-4.0/sb6a8618(v=vs.100)). Satellite assemblies are compiled from resource (*.resx*) files. When you add language-specific resource files to your project and the solution package, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] compiles the resource files into satellite assemblies named *{Project Name}.resources.dll*.
+Visual Studio uses the standard .NET Framework hub and spoke model. The hub, or main program assembly, contains the default language resources. The spokes, or satellite assemblies, contain the language-specific resources. For more information, see [Packaging and Deploying Resources](/previous-versions/dotnet/netframework-4.0/sb6a8618(v=vs.100)). Satellite assemblies are compiled from resource (*.resx*) files. When you add language-specific resource files to your project and the solution package, Visual Studio compiles the resource files into satellite assemblies named *{Project Name}.resources.dll*.
 
 #### To localize code
 
