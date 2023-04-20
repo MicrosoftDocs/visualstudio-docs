@@ -26,7 +26,7 @@ ms.workload:
 
 The process of preparing your applications so that they can be used worldwide is known as localization. Localization is translating resources to a specific culture. For more information, see [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md). This topic provides an overview on how to localize a SharePoint solution.
 
-To localize a solution, you remove hard-coded strings from the code and abstract them into resource files. A Resource file is an XML-based file with a *.resx* extension. The resource file contains the translated versions of the strings used in your solution. For more information, see [Resources in Applications](/previous-versions/dotnet/netframework-4.0/f45fce5x(v=vs.100)).
+To localize a solution, you remove hard-coded strings from the code and abstract them into resource files. A Resource file is an XML-based file with a `.resx` extension. The resource file contains the translated versions of the strings used in your solution. For more information, see [Resources in Applications](/previous-versions/dotnet/netframework-4.0/f45fce5x(v=vs.100)).
 
 > [!NOTE]
 > Add only string resources to SharePoint solution resource files. Although the Resource Editor enables you to add non-string resources, non-string resources don't deploy to SharePoint.
@@ -72,7 +72,7 @@ The commands for adding resource files are on the shortcut menu of the solution 
 
 1. In **Solution Explorer**, open the shortcut menu for the name of a feature under the **Features** node, and then choose **Add Feature Resource**.
 
-     This step adds a resource file to the feature in the format, _ResourceFileName_**.**_culture_**.resx**, such as, *Feature1.en-US.resx*.
+     This step adds a resource file to the feature in the format, `{ResourceFileName}.{culture}{.resx}`, such as, *Feature1.en-US.resx*.
 
 1. When the **Resource Editor** opens in Visual Studio, add resources to the resource file.
 
@@ -151,7 +151,7 @@ ASP.NET (.aspx) pages typically use hard-coded string values. To localize these 
     > [!NOTE]
     > Be sure to add the resource files to a SharePoint project item to enable the Deployment Type property. This property is required later in this procedure. If your solution doesn't have a SharePoint project item, you can add an Empty SharePoint Project and remove its default *Elements.xml* file.
 
-1. Give the default language resource file a name of your choice appended with a *.resx* extension, such as MyAppResources.resx. Use the same base name for each localized resource file, but add the culture ID. For example, name a German localized resource *MyAppResources.de-DE.resx*.
+1. Give the default language resource file a name of your choice appended with a `.resx` extension, such as MyAppResources.resx. Use the same base name for each localized resource file, but add the culture ID. For example, name a German localized resource *MyAppResources.de-DE.resx*.
 
 1. Change the value of the **Deployment Type** property of each resource file to **AppGlobalResource** to cause them to deploy to the server's App_GlobalResources folder. The App_GlobalResources folder is located in C:\inetpub\wwwroot\wss\VirtualDirectories\\<port number\>\App_GlobalResources.
 
@@ -194,7 +194,7 @@ ASP.NET (.aspx) pages typically use hard-coded string values. To localize these 
 
 In addition to localizing Feature strings and ASP.NET markup, you also have to localize the message strings and error strings that appear in your solution code. Localized informational and error messages are contained in satellite assemblies. Satellite assemblies contain strings that are visible to users, such as UI text and output messages like exceptions.
 
-Visual Studio uses the standard .NET Framework hub and spoke model. The hub, or main program assembly, contains the default language resources. The spokes, or satellite assemblies, contain the language-specific resources. For more information, see [Packaging and Deploying Resources](/previous-versions/dotnet/netframework-4.0/sb6a8618(v=vs.100)). Satellite assemblies are compiled from resource (*.resx*) files. When you add language-specific resource files to your project and the solution package, Visual Studio compiles the resource files into satellite assemblies named *{Project Name}.resources.dll*.
+Visual Studio uses the standard .NET Framework hub and spoke model. The hub, or main program assembly, contains the default language resources. The spokes, or satellite assemblies, contain the language-specific resources. For more information, see [Packaging and Deploying Resources](/previous-versions/dotnet/netframework-4.0/sb6a8618(v=vs.100)). Satellite assemblies are compiled from resource (`.resx`) files. When you add language-specific resource files to your project and the solution package, Visual Studio compiles the resource files into satellite assemblies named *{Project Name}.resources.dll*.
 
 #### To localize code
 
@@ -205,7 +205,7 @@ Visual Studio uses the standard .NET Framework hub and spoke model. The hub, or 
     > [!NOTE]
     > Be sure to add the resource file to a SharePoint project item so that the Deployment Type property is available. This property is required later in this procedure.
 
-1. Give the default language resource file a name of your choice appended with a *.resx* extension, such as *MyAppResources.resx*.
+1. Give the default language resource file a name of your choice appended with a `.resx` extension, such as *MyAppResources.resx*.
 
 1. Repeat steps 1 and 2 to add separate resource files to the SharePoint project item: one for each localized language.
 
