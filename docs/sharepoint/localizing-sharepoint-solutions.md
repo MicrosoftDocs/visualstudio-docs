@@ -62,7 +62,7 @@ The commands for adding resource files are on the shortcut menu of the solution 
 
 1. In the **Add Resource** dialog box, choose a culture for the resource file, such as English (United States).
 
-    This step adds a global resource file to your solution in the format, *Resource_x_.{culture}.resx*, such as, *Resource1.en-US.resx*.
+    This step adds a global resource file to your solution in the format, `{Resource_x_}.{culture}.resx`, such as, *Resource1.en-US.resx*.
 
 1. When the **Resource Editor** opens in Visual Studio, add resources to the resource file.
 
@@ -86,7 +86,7 @@ There are three areas you typically localize in Visual Studio SharePoint applica
 
 ### Localize features
 
-To localize a feature, you have to replace the hard-coded title and description of the feature with an expression that references the translated title and string in the localized resources file. You make this change in the **Feature Designer** in Visual Studio. For more information, see [How to: Localize a feature](../sharepoint/how-to-localize-a-feature.md).
+To localize a feature, you have to replace the hard-coded title and description of the feature with an expression that references the translated title and string in the localized resources file. You make this change in the **Feature Designer** in Visual Studio.
 
 To localize your English feature into German and Japanese, you add three Resource File project items to your project: one for English, one for German, and one for Japanese. Feature resource files can't be used to localize ASPX markup or code; separate resource files are required for them.
 
