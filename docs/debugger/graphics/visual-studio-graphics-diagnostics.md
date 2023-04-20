@@ -26,7 +26,7 @@ Visual Studio *Graphics Diagnostics* is a set of tools for recording and then an
 For more information, see:
 
 - [Visual Studio Graphics Diagnostics](/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/visual-studio-graphics-diagnostics)
-- [Overview](/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/overview-of-visual-studio-graphics-diagnostics.md)
+- [Overview](/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/overview-of-visual-studio-graphics-diagnostics)
 
 >[!NOTE]
 > The documentation for Visual Studio Graphics Diagnostics is no longer actively maintained, so the preceding links go to the archived version of the documentation. However, the tools are supported in Visual Studio 2022.
