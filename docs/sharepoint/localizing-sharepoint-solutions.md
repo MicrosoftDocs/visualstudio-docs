@@ -47,7 +47,7 @@ To specify default resource files in SharePoint projects that you develop in [!I
 
 ### Add a resource file
 
-The commands for adding resource files is on the shortcut menu of the solution node and feature nodes in Solution Explorer. For more information, see [Localizing SharePoint solutions](../sharepoint/localizing-sharepoint-solutions.md).
+The commands for adding resource files are on the shortcut menu of the solution node and feature nodes in Solution Explorer.
 
 ### To add a global resource file to a SharePoint solution
 
@@ -62,7 +62,7 @@ The commands for adding resource files is on the shortcut menu of the solution n
 
 4. In the **Add Resource** dialog box, choose a culture for the resource file, such as English (United States).
 
-    This step adds a global resource file to your solution in the format, Resource_x_**.**<em>culture</em><strong>.</strong>resx, such as, *Resource1.en-US.resx*.
+    This step adds a global resource file to your solution in the format, *Resource_x_.{culture}.resx*, such as, *Resource1.en-US.resx*.
 
 5. When the **Resource Editor** opens in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], add resources to the resource file.
 
@@ -225,7 +225,7 @@ In addition to localizing Feature strings and [!INCLUDE[vstecasp](../sharepoint/
 
 9. In the **Location** box, prepend a culture ID folder to the Location path, such as *de-DE\\\<Project Item Name>.resources.dll*.
 
-10. If your solution does not already reference the System.Web assembly, add a reference to it, and add a directive in your code to <xref:System.Web>.
+10. If your solution does not already reference the `System.Web` assembly, add a reference to it, and add a directive in your code to <xref:System.Web>.
 
 11. Locate all hard-coded strings in your code that are visible to users, such as UI text, errors, and message text. Replace them with a call to the <xref:System.Web.HttpContext.GetGlobalResourceObject%2A> method using the following syntax:
 
