@@ -157,7 +157,7 @@ Here are a few examples of how to create a custom partial layout.
     
 ### Use a .vsconfig file to customize the contents of your layout
 
-You can also use an [exported vsconfig file](import-export-installation-configurations.md) to customize the contents of a network layout. This functionality is relatively new, so you need to use the latest installer in your layout.
+You can also use an [exported vsconfig file](import-export-installation-configurations.md) to customize the contents of a network layout. 
 
 ```shell
 vs_enterprise.exe --layout C:\VSLayout --config "C:\myconfig.vsconfig" --useLatestInstaller
@@ -275,10 +275,10 @@ If you want to modify an existing partial layout so that it becomes a full layou
 vs_enterprise.exe --layout c:\VSLayout --all
 ```
 
-You can add components to a layout by passing in a vsconfig file that contains the additional components you want in your layout. Note that this functionality is new and thus requires the latest installer. This command will also cause the layout contents to be updated to the version specified by the bootstrapper.
+You can add components to a layout by passing in a vsconfig file that contains the additional components you want in your layout. 
 
 ```shell
-vs_enterprise.exe --layout C:\VSLayout --config "C:\myconfig.vsconfig" --useLatestInstaller
+vs_enterprise.exe --layout C:\VSLayout --config "C:\myconfig.vsconfig"
 ```
 
 Lastly, you can directly edit the `layout.json` configuration file in the layout folder and update the "add" section of this file to include the additional components you want included in your layout. You'll then need to update the layout using `--layout` as previously described to download the latest components. 
@@ -370,8 +370,6 @@ There are two ways to enable your layout to include and provide the latest insta
 There is no way to programmatically remove this setting in the `layout.json` file, so if you want your layout to _stop_ using the latest installer that Microsoft makes available, and instead use the version of the installer that corresponds to the bootstrapper (which is mostly likely older than the most recent installer), simply edit the `layout.json` file and remove the `"UseLatestInstaller": true` setting. 
 
 Note that you may find this `"UseLatestInstaller": true` setting in the layout's `response.json` file too, but it is ignored there. The [response.json file is used to set default configuration options on the _client_ when the client installs or updates from a layout](automated-installation-with-response-file.md). This particular `"useLatestInstaller": true` setting is used to ensure that the contents of the _layout_ contain the latest installer, so that the client machines can then acquire the latest installer from the layout.
-
-Again, as mentioned above, all installations or updates that occur to Visual Studio 2017, Visual Studio 2019, or Visual Studio 2022 after April 2023 will always use the latest installer by default. 
 
 ## Install Visual Studio onto a client machine from a network installation
 
