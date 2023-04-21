@@ -1,7 +1,7 @@
 ---
 title: Learn about Solution Explorer
 description: Learn how you can use Solution Explorer and its context menu to manage the projects and files in a solution.
-ms.date: 03/03/2023
+ms.date: 04/21/2023
 ms.topic: conceptual
 ms.custom: contperf-fy22q4
 helpviewer_keywords:
@@ -57,7 +57,7 @@ The toolbar contains the following UI elements, from left to right:
 |**Back** button | Toggle between search results |
 |**Forward** button | Toggle between search results |
 |**Home** button |  Return to the default view |
-|**Switch Views** button |  Switch between solutions and available views |
+|**Switch Views** button |  Switch between the default Solutions view and the optional Folders view |
 |**Pending Changes Filter** button & drop-down menu |  View open files or files with pending changes |
 |**Sync with Active Document** button | Locate a file from the code editor |
 |**Refresh** button (conditional) | Appears only when you select a dependency, such as a function or a package |
