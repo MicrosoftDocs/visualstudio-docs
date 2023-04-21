@@ -1,7 +1,7 @@
 ---
 title: Set a watch on variables | Microsoft Docs
 description: While you debug, see variables and expressions in Watch and QuickWatch. Watch can display several variables, QuickWatch only one, and only while in break.
-ms.date: 04/04/2022
+ms.date: 04/21/2023
 ms.topic: how-to
 f1_keywords:
   - "vs.debug.quickwatch"
