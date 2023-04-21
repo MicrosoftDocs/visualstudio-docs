@@ -1,6 +1,6 @@
 ---
 title: Code analysis rule sets
-ms.date: 07/23/2021
+ms.date: 04/17/2023
 description: Learn about built-in and customized rule sets in Visual Studio code analysis. See how to specify rule sets in files and how to configure rule sets in projects.
 ms.topic: conceptual
 f1_keywords:
