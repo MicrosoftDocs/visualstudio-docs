@@ -59,10 +59,10 @@ When you're ready to import an installation configuration file, follow these ste
 
 ## Use a configuration file to initialize the contents of a layout
 
-Using the correct bootstrapper that corresponds to the version and edition of Visual Studio that you want, open an administrator command prompt and run the following command. Since this functionality is relatively new, you'll need to use the latest installer in your layout. 
+Using the correct bootstrapper that corresponds to the version and edition of Visual Studio that you want, open an administrator command prompt and run the following command.  
 
 ```shell
-vs_enterprise.exe --layout c:\localVSlayout --config c:\myconfig.vsconfig --useLatestInstaller --lang en-US 
+vs_enterprise.exe --layout c:\localVSlayout --config c:\myconfig.vsconfig --lang en-US 
 ```
 
 ## Automatically install missing components
