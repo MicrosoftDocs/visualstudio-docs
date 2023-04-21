@@ -57,8 +57,8 @@ The toolbar contains the following UI elements, from left to right:
 |**Back** button | Toggle between search results |
 |**Forward** button | Toggle between search results |
 |**Home** button |  Return to the default view |
-|**Switch Views** button |  Switch between the default Solutions view and the optional Folders view |
-|**Pending Changes Filter** button & drop-down menu |  View open files or files with pending changes |
+|**Switch Views** button | Switch between the default Solution view and the optional Folder view |
+|**Pending Changes Filter** button & drop-down menu | View open files or files with pending changes |
 |**Sync with Active Document** button | Locate a file from the code editor |
 |**Refresh** button (conditional) | Appears only when you select a dependency, such as a function or a package |
 |**Collapse All** button | Collapse the file view in the main window |
