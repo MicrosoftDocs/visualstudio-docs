@@ -242,8 +242,8 @@ JavaScript Just My Code controls stepping and call stack display by categorizing
 |Classification|Description|
 |-|-|
 |**MyCode**|User code that you own and control.|
-|**LibraryCode**|Non-user code from libraries that you use regularly and your app relies on to function correctly (for example WinJS or jQuery).|
-|**UnrelatedCode**|Non-user code in your app that you don't own and your app doesn't rely on to function correctly. For example, an advertising SDK that displays ads could be UnrelatedCode. In UWP projects, any code that is loaded into your app from an HTTP or HTTPS URI is also considered UnrelatedCode.|
+|**LibraryCode**|Non-user code from libraries that you use regularly and your app relies on to function correctly (for example, jQuery).|
+|**UnrelatedCode**|Non-user code in your app that you don't own and your app doesn't rely on to function correctly. For example, an advertising SDK that displays ads could be UnrelatedCode.|
 
 The JavaScript debugger classifies code as user or non-user in this order:
 
