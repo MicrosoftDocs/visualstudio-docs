@@ -26,16 +26,18 @@ GitHub Copilot works by utilizing advanced machine learning models trained on a 
 
 :::image type="content" source="media/vs-2022/github-copilot-extension-example.gif" alt-text="Animated screenshot that shows the code completion capabilities of the GitHub Copilot extension.":::
 
+You can also use GitHub Copilot to convert comments to code, create unit tests, create SQL queries, and more. 
+
 ## Supported programming languages
 
 GitHub Copilot supports several programming languages and frameworks, including but not limited to: C#, C++, and Python.
 
 ## Requirements
 
-Make sure that you have the following tools:
+To get started, all you need is Visual Studio 2022 [version 17.4.4](/visualstudio/releases/2022/release-history) or later, and a GitHub Copilot [subscription](https://docs.github.com/en/enterprise-cloud@latest/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot). 
 
-- Visual Studio 2022 [version 17.4.4](/visualstudio/releases/2022/release-history) or later.
-- GitHub Copilot [subscription](https://docs.github.com/en/enterprise-cloud@latest/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot). (It's free for verified students and for maintainers of popular open source projects on GitHub.)
+> [!TIP]
+> GitHub Copilot is free for verified students and for maintainers of popular open source projects on GitHub.
 
 ## Installation instructions
 
@@ -64,4 +66,4 @@ To learn more about a new GitHub Copilot experience that's folded into the Visua
 To learn more about the current GitHub Copilot extension for Visual Studio, consider exploring the following resources:
 
 - [GitHub Copilot extension: Getting started](https://docs.github.com/en/copilot/getting-started-with-github-copilot)
-- [VS Code: AI tools](https://code.visualstudio.com/docs/editor/artificial-intelligence)
+- [GitHub Copilot: Your AI pair programmer](https://github.com/features/copilot)
