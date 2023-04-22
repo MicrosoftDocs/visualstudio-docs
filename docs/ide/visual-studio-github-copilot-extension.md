@@ -64,4 +64,4 @@ To learn more about a new GitHub Copilot experience that's folded into the Visua
 To learn more about the current GitHub Copilot extension for Visual Studio, consider exploring the following resources:
 
 - [GitHub Copilot extension: Getting started](https://docs.github.com/en/copilot/getting-started-with-github-copilot)
-- [GitHub Copilot extension: FAQ](https://copilot.github.com/faq)
+- [VS Code: AI tools](https://code.visualstudio.com/docs/editor/artificial-intelligence)
