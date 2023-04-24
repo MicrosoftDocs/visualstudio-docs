@@ -20,13 +20,13 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Visual Studio provides a variety of profiling tools to help you diagnose different kinds of app performance issues depending on your app type. In this article, we provide information to help you get started with the right tool for your scenario and application type.
+Visual Studio provides a variety of profiling tools to help you diagnose different kinds of app performance issues depending on your app type. In this article, we provide information to help you find the right tool for your scenario and application type.
 
 ## Which tool should I use?
 
 |Performance Tool|Description|When to use the tool?|
 |----------------------|---------------------|-------------|-------------|
-|[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|Shows where the CPU is spending time.|&#x2022; Begin an investigation for general performance issues.</br>&#x2022; Investigate high Server CPU usage.</br>&#x2022; Investigate DevOps scenarios, such as when orders are not getting through to the retail website.</br>&#x2022; Optimize CPU usage</br>&#x2022; Investigate latency in API calls|
+|[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|Shows where the CPU is spending time.|&#x2022; Begin an investigation for general performance issues.</br>&#x2022; Investigate high Server CPU usage.</br>&#x2022; Investigate DevOps scenarios, such as when orders are not getting through to the retail website.</br>&#x2022; Optimize CPU usage.</br>&#x2022; Investigate latency in API calls.|
 |[Flame graph](../profiling/flame-graph.md)|View within the CPU Usage tool that provides an alternate visualization of the call tree.|Investigate latency in API calls|
 |[Hot path](../profiling/cpu-insights.md)|View within the CPU Usage tool that shows where most of the CPU time was spent in your application.|Investigate latency in API calls|
 |[PerfTips](../profiling/perftips.md)|Shows a quick measurement of performance information while interacting with your code.|While debugging, you want to see the elapsed time between the previous step operation (or breakpoint) to the current step or breakpoint.|
@@ -57,7 +57,7 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 |[.NET Counters](../profiling/dotnet-counters-tool.md)|yes (.NET Core/5+ only)|no|no|yes (ASP.NET Core only)|
 |[Instrumentation](../profiling/instrumentation-overview.md)|yes|yes|yes|yes|
 |[File I/O](../profiling/use-file-io.md)|yes|yes|yes|yes|
-|[Database](../profiling/analyze-database.md)|yes (.NET Core only)|no|no|yes (ASP.NET Core only)|
+|[Database](../profiling/analyze-database.md)|yes (.NET Core/5+ only)|no|no|yes (ASP.NET Core only)|
 |[GPU Usage](./gpu-usage.md)|yes|yes|yes|no|
 |[Application Timeline](../profiling/application-timeline.md)|yes (XAML)|no|yes|no|
 |[Performance Explorer](../profiling/profiling-feature-tour.md#analyze-performance-legacy-tools)|no|no|no|no|
