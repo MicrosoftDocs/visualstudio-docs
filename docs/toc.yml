@@ -15,6 +15,11 @@
   - name: More Visual Studio features
     href: ide/advanced-feature-overview.md
   expanded: true
+- name: AI
+  items:
+  - name: GitHub Copilot
+    href: ide/visual-studio-github-copilot-extension.md
+  expanded: true
 - name: Installation
   items:
   - name: Install Visual Studio
