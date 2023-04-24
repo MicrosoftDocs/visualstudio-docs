@@ -26,13 +26,13 @@ Visual Studio provides a variety of profiling tools to help you diagnose differe
 
 |Performance Tool|Description|When to use the tool?|
 |----------------------|---------------------|-------------|-------------|
-|[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|Shows where the CPU is spending time.|&#x2022; Begin an investigation for general performance issues.</br>- Server CPU is extremely high and you have no idea why.</br>- DevOps scenarios, such as when orders are not getting through to the retail website.</br>- Optimize CPU usage</br>- Experiencing latency in API calls|
+|[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|Shows where the CPU is spending time.|&#x2022; Begin an investigation for general performance issues.</br>&#x2022; Server CPU is extremely high and you have no idea why.</br>&#x2022; DevOps scenarios, such as when orders are not getting through to the retail website.</br>&#x2022; Optimize CPU usage</br>&#x2022; Experiencing latency in API calls|
 |[Flame graph](../profiling/flame-graph.md)|View within the CPU Usage tool that provides an alternate visualization of the call tree.|Experiencing latency in API calls|
 |[Hot path](../profiling/cpu-insights.md)|View within the CPU Usage tool that shows where most of the CPU time was spent in your application.|Experiencing latency in API calls|
 |[PerfTips](../profiling/perftips.md)|Shows a quick measurement of performance information while interacting with your code.|While debugging, you want to see the elapsed time between the previous step operation (or breakpoint) to the current step or breakpoint.|
-|[Memory Usage](../profiling/memory-usage.md)|Shows your app’s memory to find issues such as memory leaks.|- Optimize memory usage</br>- Experiencing UI freeze</br>- Suspected memory leak (native code)|
-|[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|Shows where .NET Objects are allocated and information about garbage collection.|- Optimize .NET memory usage</br>- Analyze garbage collection|
-|[Events viewer](../profiling/events-viewer.md)|Shows HTTP requests, log messages, and exceptions.|- Experiencing latency in API calls</br>- Slow application running on a remote web server|
+|[Memory Usage](../profiling/memory-usage.md)|Shows your app’s memory to find issues such as memory leaks.|&#x2022; Optimize memory usage</br>&#x2022; Experiencing UI freeze</br>&#x2022; Suspected memory leak (native code)|
+|[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|Shows where .NET Objects are allocated and information about garbage collection.|&#x2022; Optimize .NET memory usage</br>&#x2022; Analyze garbage collection|
+|[Events viewer](../profiling/events-viewer.md)|Shows HTTP requests, log messages, and exceptions.|&#x2022; Experiencing latency in API calls</br>&#x2022; Slow application running on a remote web server|
 |[.NET Async](../profiling/analyze-async.md)|Shows async/await usage in .NET apps.|Suspected performance issue with asynchronous code.|
 |[.NET Counters](../profiling/dotnet-counters-tool.md)|Visualization for .NET counters.|You want a visualization for .NET counter-based metrics such as exceptions per second, garbage collection, and CPU utilization.|
 |[Instrumentation](../profiling/instrumentation-overview.md)|Shows exact call counts and call times.|You need a more precise CPU utilization information than is provided in the CPU usage tool.|
