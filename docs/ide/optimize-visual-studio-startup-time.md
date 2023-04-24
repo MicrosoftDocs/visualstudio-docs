@@ -1,7 +1,7 @@
 ---
 title: Improve start up time
 description: Learn how to control the settings of extensions and tool windows in the Manage Visual Studio Performance dialog box to improve Visual Studio start-up time.
-ms.date: 11/15/2017
+ms.date: 04/24/2023
 ms.topic: how-to
 helpviewer_keywords:
 - startup time [Visual Studio]

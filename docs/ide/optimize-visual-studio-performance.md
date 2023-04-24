@@ -2,7 +2,7 @@
 title: Improve performance if Visual Studio is slow
 titleSuffix: ''
 description: Learn how to improve Visual Studio performance if you find that it's running slowly.
-ms.date: 04/12/2022
+ms.date: 04/23/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - performance [Visual Studio]
