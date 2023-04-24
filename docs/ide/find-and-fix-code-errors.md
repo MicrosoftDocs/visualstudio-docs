@@ -137,7 +137,7 @@ For more information about using breakpoints, see [Use breakpoints in the Visual
 
 ### Inspect your code at run-time
 
-When your running code hits a breakpoint and pauses, the line of code marked in yellow (the current statement) hasn't executed yet. At this point, you might want to execute the current statement and then inspect the changed values. You can use several *step* commands to execute code in the debugger. If the marked code is a method call, you can step into it by pressing **F11**. You can also *step over* the line of code by pressing **F10**. For more commands and details on how to step through code, read [Navigate code with the debugger](../debugger/navigating-through-code-with-the-debugger.md).
+When your running code hits a breakpoint and pauses, the line of code marked in yellow (the current statement) hasn't executed yet. At this point, you might want to execute the current statement and then inspect the changed values. You can use several *step* commands to execute code in the debugger. If the marked code is a method call, you can step into it by pressing **F11**. You can also *step over* the line of code by pressing **F10**. For more commands and details on how to step through code, read [Navigate through code by using the debugger](../debugger/navigating-through-code-with-the-debugger.md).
 
 ![Screenshot of the Visual Studio code window. A red dot in the left gutter indicates a breakpoint at the line of code marked in yellow.](../ide/media/vs_ide_gs_debug_hit_breakpoint.png)
 
@@ -162,5 +162,5 @@ To learn more about unit tests in Visual Studio and how they can help you create
 ## See also
 
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
-- [Learn more about using the debugger](../debugger/index.yml)
-- [Generate and fix code](../ide/code-generation-in-visual-studio.md)
+- [Generate, fix, and refactor code](../ide/code-generation-in-visual-studio.md)
+- [Explore the debugger documentation](../debugger/index.yml)
