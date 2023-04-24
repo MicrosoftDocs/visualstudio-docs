@@ -1,7 +1,7 @@
 ---
 title: "Which performance tool should I use?"
 description: "Learn how to choose a performance tool in Visual Studio."
-ms.date: 02/07/2023
+ms.date: 04/24/2023
 ms.topic: conceptual
 dev_langs:
   - "CSharp"
@@ -46,22 +46,22 @@ Visual Studio provides a variety of profiling tools to help you diagnose differe
 
 Here is a table that lists the different tools Visual Studio offers and the different project types you can use them with:
 
-|Performance Tool|Windows desktop|UWP|ASP.NET/ASP.NET Core|
-|----------------------|---------------------|-------------|-------------|
-|[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|yes|yes|yes|
-|[PerfTips](../profiling/perftips.md)|yes|yes|yes|
-|[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|
-|[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|yes (.NET only)|yes|yes|
-|[Events viewer](../profiling/events-viewer.md)|yes|yes|yes|
-|[.NET Async](../profiling/analyze-async.md)|yes (.NET only)|yes|yes|
-|[.NET Counters](../profiling/dotnet-counters-tool.md)|yes (.NET Core only)|no|yes (ASP.NET Core only)|
-|[Instrumentation](../profiling/instrumentation-overview.md)|yes|yes|yes|
-|[File I/O](../profiling/use-file-io.md)|yes|yes|yes|
-|[Database](../profiling/analyze-database.md)|yes (.NET Core only)|no|yes (ASP.NET Core only)|
-|[GPU Usage](./gpu-usage.md)|yes|yes|no|
-|[Application Timeline](../profiling/application-timeline.md)|yes (XAML)|yes|no|
-|[Performance Explorer](../profiling/profiling-feature-tour.md#analyze-performance-legacy-tools)|no|no|no|
-|[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
+|Performance Tool|.NET|C/C++|UWP|ASP.NET/ASP.NET Core|
+|----------------------|-----------|--------------|-------------|-------------|
+|[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|yes|yes|yes|yes|
+|[PerfTips](../profiling/perftips.md)|yes|yes|yes|yes|
+|[Memory Usage](../profiling/memory-usage.md)|yes|yes|yes|yes|
+|[.NET Object Allocation](../profiling/dotnet-alloc-tool.md)|yes|no|yes|yes|
+|[Events viewer](../profiling/events-viewer.md)|yes|yes|yes|yes|
+|[.NET Async](../profiling/analyze-async.md)|yes|no|yes|yes|
+|[.NET Counters](../profiling/dotnet-counters-tool.md)|yes (.NET Core/5+ only)|no|no|yes (ASP.NET Core only)|
+|[Instrumentation](../profiling/instrumentation-overview.md)|yes|yes|yes|yes|
+|[File I/O](../profiling/use-file-io.md)|yes|yes|yes|yes|
+|[Database](../profiling/analyze-database.md)|yes (.NET Core only)|no|no|yes (ASP.NET Core only)|
+|[GPU Usage](./gpu-usage.md)|yes|yes|yes|no|
+|[Application Timeline](../profiling/application-timeline.md)|yes (XAML)|no|yes|no|
+|[Performance Explorer](../profiling/profiling-feature-tour.md#analyze-performance-legacy-tools)|no|no|no|no|
+|[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|no|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
 
 ## See also
 
