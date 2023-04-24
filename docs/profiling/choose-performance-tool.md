@@ -26,7 +26,7 @@ Visual Studio provides a variety of profiling tools to help you diagnose differe
 
 |Performance Tool|Description|When to use the tool?|
 |----------------------|---------------------|-------------|-------------|
-|[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|Shows where the CPU is spending time.|- Begin an investigation for general performance issues.</br>- Server CPU is extremely high and you have no idea why.</br>- DevOps scenarios, such as when orders are not getting through to the retail website.</br>- Optimize CPU usage</br>- Experiencing latency in API calls|
+|[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|Shows where the CPU is spending time.|&#x2022; Begin an investigation for general performance issues.</br>- Server CPU is extremely high and you have no idea why.</br>- DevOps scenarios, such as when orders are not getting through to the retail website.</br>- Optimize CPU usage</br>- Experiencing latency in API calls|
 |[Flame graph](../profiling/flame-graph.md)|View within the CPU Usage tool that provides an alternate visualization of the call tree.|Experiencing latency in API calls|
 |[Hot path](../profiling/cpu-insights.md)|View within the CPU Usage tool that shows where most of the CPU time was spent in your application.|Experiencing latency in API calls|
 |[PerfTips](../profiling/perftips.md)|Shows a quick measurement of performance information while interacting with your code.|While debugging, you want to see the elapsed time between the previous step operation (or breakpoint) to the current step or breakpoint.|
