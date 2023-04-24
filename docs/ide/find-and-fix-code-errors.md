@@ -15,7 +15,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Visual Studio provides a powerful integrated set of project build and debugging tools. In this article, find out how Visual Studio can help you find problems in your code using build output, code analysis, debugging tools, and unit tests.
+Visual Studio includes a powerful integrated set of project build and debugging tools. This article describes how Visual Studio can help you find problems in your code by using build output, code analysis, debugging tools, and unit tests.
 
 You've figured out the editor and created some code. Now, you want to make sure the code works properly. In Visual Studio, as with most IDEs, there are two phases to making code work: building the code to catch and resolve project and compiler errors, and running the code to find run-time and dynamic errors.
 
@@ -27,8 +27,7 @@ The easiest way to build your project is to press **F7**, but you can also start
 
 :::image type="content" source="media/debug-build-solution-menu-item.png" alt-text="Screenshot of the Build menu in the Visual Studio IDE.":::
 
-
-You can observe the build process in the **Output** window at the bottom of the Visual Studio UI. Errors, warnings, and build operations are displayed here. If you have errors (or if you have warnings above a configured level), your build fails. You can select the errors and warnings to go to the line where they occurred. Rebuild your project by either pressing **F7** again (to recompile only the files with errors) or **Ctrl**+**Alt**+**F7** (for a clean and complete rebuild).
+You can observe the build process in the **Output** window at the bottom of the Visual Studio UI (user interface). Errors, warnings, and build operations are displayed here. If you have errors (or if you have warnings above a configured level), your build fails. You can select the errors and warnings to go to the line where they occurred. Rebuild your project by either pressing **F7** again (to recompile only the files with errors) or **Ctrl**+**Alt**+**F7** (for a clean and complete rebuild).
 
 There are two tabbed windows in the results window below the editor: the **Output** window, which contains the raw compiler output (including error messages); and the **Error List** window, which provides a sortable and filterable list of all errors and warnings.
 
@@ -38,7 +37,7 @@ When build succeeds, you see results like this in the **Output** window:
 
 ## Review the Error List
 
-Unless you've made no modifications to code you have previously and successfully compiled, you probably have an error. If you're new to coding, you probably have lots of them. Errors are sometimes obvious, such as a simple syntax error or incorrect variable name, and sometimes they're difficult to understand, with only a cryptic code to guide you. For a cleaner view of the issues, navigate to the bottom of the build **Output** window, and select the **Error List** tab. This action takes you to a more organized view of the errors and warnings for your project, and gives you some extra options as well.
+Unless you've made no modifications to code you have previously and successfully compiled, you probably have an error. If you're new to coding, you probably have lots of them. Errors are sometimes obvious, such as a simple syntax error or incorrect variable name, and sometimes they're difficult to understand, with only a cryptic code to guide you. For a cleaner view of the issues, navigate to the bottom of the build **Output** window and select the **Error List** tab. This action takes you to a more organized view of the errors and warnings for your project, and gives you some extra options as well.
 
 ![Screenshot of the Visual Studio Output and Error List.](../ide/media/vs_ide_gs_debug_bad_build_error_list.png)
 
@@ -50,7 +49,7 @@ Select on the error line in the **Error List** window to jump to the line the er
 
 Press **Ctrl**+**G** to quickly jump to the line number where the error occurred.
 
-Visual Studio identifies this error with a red "squiggle" underscore. Hover over it for more details. Make the fix and it goes away, although you may introduce a new error with the correction. (This action is called a "regression".)
+Visual Studio identifies this error with a red "squiggle" underscore. Hover over it for more details. Make the fix and it goes away, although you might introduce a new error with the correction. (This action is called a "regression".)
 
 ![Screenshot of the Visual Studio error hover action.](../ide/media/vs_ide_gs_debug_error_hover1.png)
 
@@ -60,11 +59,11 @@ Walk through the error list and address all the errors in your code.
 
 ### Review errors in detail
 
-Many errors may make no sense to you, phrased as they are in the terms of the compiler. In those cases, you might need additional information. From the **Error List** window, you can do an automatic Bing search for more information on the error or warning. Right-click on the corresponding entry line and select **Show Error Help** from the context menu, or select the hyperlinked error code value in the **Code** column of the **Error List**.
+Many errors might not make sense to you, phrased as they are in the terms of the compiler. In those cases, you might need additional information. From the **Error List** window, you can perform an automatic Bing search for more information on the error or warning. Right-click on the corresponding entry line and select **Show Error Help** from the context menu, or select the hyperlinked error code value in the **Code** column of the **Error List**.
 
 ![Screenshot of the Visual Studio error list Bing search.](../ide/media/vs_ide_gs_debug_error_list_error_help.png)
 
-Depending on your settings, either your web browser displays the search results for the error code and text, or a tab opens inside Visual Studio and shows the results of the Bing search. The results are from many different sources on the Internet, and not all may be helpful.
+Depending on your settings, either your web browser displays the search results for the error code and text, or a tab opens inside Visual Studio and shows the results of the Bing search. The results are from many different sources on the Internet, and you might not find all to be helpful.
 
 ## Use code analysis
 
@@ -76,7 +75,7 @@ Visual Studio includes a built-in set of [.NET Compiler Platform analyzers](../c
 
 ### C++ code analysis
 
-To analyze C++ code, run [static code analysis](/cpp/code-quality/quick-start-code-analysis-for-c-cpp). Get in the habit of running it once you've cleaned up the obvious errors that prevent a successful build, and take some time to address the warnings it may produce. You can save yourself some headaches down the road, and you may learn a few code style techniques.
+To analyze C++ code, run [static code analysis](/cpp/code-quality/quick-start-code-analysis-for-c-cpp). Get in the habit of running it once you've cleaned up the obvious errors that prevent a successful build, and take some time to address the warnings it might produce. You can save yourself some headaches down the road, and you might learn a few code style techniques.
 
 Press **Alt**+**F11** (or select **Analyze** > **Run Code Analysis on Solution** from the top menu) to start static code analysis.
 
@@ -138,7 +137,7 @@ For more information about using breakpoints, see [Use breakpoints in the Visual
 
 ### Inspect your code at run-time
 
-When your running code hits a breakpoint and pauses, the line of code marked in yellow (the current statement) hasn't executed yet. At this point, you may want to execute the current statement and then inspect the changed values. You can use several *step* commands to execute code in the debugger. If the marked code is a method call, you can step into it by pressing **F11**. You can also *step over* the line of code by pressing **F10**. For more commands and details on how to step through code, read [Navigate code with the debugger](../debugger/navigating-through-code-with-the-debugger.md).
+When your running code hits a breakpoint and pauses, the line of code marked in yellow (the current statement) hasn't executed yet. At this point, you might want to execute the current statement and then inspect the changed values. You can use several *step* commands to execute code in the debugger. If the marked code is a method call, you can step into it by pressing **F11**. You can also *step over* the line of code by pressing **F10**. For more commands and details on how to step through code, read [Navigate code with the debugger](../debugger/navigating-through-code-with-the-debugger.md).
 
 ![Screenshot of the Visual Studio code window. A red dot in the left gutter indicates a breakpoint at the line of code marked in yellow.](../ide/media/vs_ide_gs_debug_hit_breakpoint.png)
 
