@@ -108,8 +108,6 @@ items:
         href: how-to-use-reserved-xml-characters-in-project-files.md
   - name: Advanced concepts
     items:
-    - name: MSBuild advanced concepts
-      href: msbuild-advanced-concepts.md
     - name: Batching
       items:
       - name: MSBuild batching
@@ -166,29 +164,6 @@ items:
           href: how-to-configure-targets-and-tasks.md
       - name: Troubleshoot .NET Framework targeting errors
         href: /troubleshoot/developer/visualstudio/project-build/troubleshooting-dotnet-framework-targeting-errors?toc=%2Fvisualstudio%2Fmsbuild%2Ftoc.json
-    - name: File tracking
-      items:
-      - name: Overview
-        displayName: file tracking
-        href: file-tracking.md
-      - name: EndTrackingContext
-        href: endtrackingcontext.md
-      - name: ResumeTracking
-        href: resumetracking.md
-      - name: SetThreadCount
-        href: setthreadcount.md
-      - name: StartTrackingContext
-        href: starttrackingcontext.md
-      - name: StartTrackingContextWithRoot
-        href: starttrackingcontextwithroot.md
-      - name: StopTrackingAndCleanup
-        href: stoptrackingandcleanup.md
-      - name: SuspendTracking
-        href: suspendtracking.md
-      - name: WriteAllTLogs
-        href: writealltlogs.md
-      - name: WriteContextTLogs
-        href: writecontexttlogs.md
     - name: Customization
       items:
       - name: About customizing MSBuild
@@ -209,9 +184,6 @@ items:
       href: msbuild-best-practices.md
   - name: Logging
     items:
-    - name: Overview
-      displayName: logging
-      href: logging-in-msbuild.md
     - name: Obtaining build logs with MSBuild
       href: obtaining-build-logs-with-msbuild.md
     - name: Build loggers
