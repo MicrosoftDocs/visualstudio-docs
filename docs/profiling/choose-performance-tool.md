@@ -24,6 +24,8 @@ Visual Studio provides a variety of profiling tools to help you diagnose differe
 
 ## Which tool should I use?
 
+The following table lists the different tools Visual Studio offers and provides common scenarios for choosing the tool.
+
 |Performance Tool|Description|When to use the tool?|
 |----------------------|---------------------|-------------|-------------|
 |[CPU Usage](../profiling/beginners-guide-to-performance-profiling.md)|Shows where the CPU is spending time.|&#x2022; Begin an investigation for general performance issues.</br>&#x2022; Investigate high Server CPU usage.</br>&#x2022; Investigate DevOps scenarios, such as when orders are not getting through to the retail website.</br>&#x2022; Optimize CPU usage.</br>&#x2022; Investigate latency in API calls.|
@@ -44,7 +46,7 @@ Visual Studio provides a variety of profiling tools to help you diagnose differe
 
 ## Which tools are supported for my project?
 
-Here is a table that lists the different tools Visual Studio offers and the different project types you can use them with:
+The following table lists the different tools Visual Studio offers and the different project types you can use them with:
 
 |Performance Tool|.NET|C/C++|UWP|ASP.NET/ASP.NET Core|
 |----------------------|-----------|--------------|-------------|-------------|
@@ -67,4 +69,3 @@ Here is a table that lists the different tools Visual Studio offers and the diff
 
 - [Profiling feature tour](../profiling/choose-performance-tool.md)
 - [Run profiling tools with or without the debugger](../profiling/running-profiling-tools-with-or-without-the-debugger.md)
-
