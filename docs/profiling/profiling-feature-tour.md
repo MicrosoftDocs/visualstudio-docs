@@ -1,7 +1,7 @@
 ---
 title: "First look at profiling tools"
 description: "Take a brief look at the different diagnostic tools available in Visual Studio."
-ms.date: 11/15/2022
+ms.date: 04/24/2023
 ms.topic: conceptual
 f1_keywords:
   - vs.diagnosticshub.overview
@@ -223,7 +223,7 @@ The tool shows each event in a list view. Columns provide information about each
 
 ## Instrumentation
 
-The Instrumentation tool is similar to the CPU Usage tool, except that it uses instrumentation instead of sampling. The instrumentation method requires more overhead, but you can get exact call counts on how many times your functions were called. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**). For more information, see [Instrumentation](../profiling/instrumentation-overview.md).
+The Instrumentation tool is similar to the CPU Usage tool, except that it provides exact call counts and wall clock time instead of CPU utilization. The instrumentation method requires more overhead than the CPU Usage tool. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**). For more information, see [Instrumentation](../profiling/instrumentation-overview.md).
 
 ::: moniker range=">= vs-2022"
 

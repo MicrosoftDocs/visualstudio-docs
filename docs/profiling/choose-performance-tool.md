@@ -37,7 +37,7 @@ The following table lists the different tools Visual Studio offers and provides 
 |[Events viewer](../profiling/events-viewer.md)|Shows HTTP requests, log messages, and exceptions.|&#x2022; Investigate latency in API calls</br>&#x2022; Investigate slow application running on a remote web server|
 |[.NET Async](../profiling/analyze-async.md)|Shows async/await usage in .NET apps.|Investigate suspected performance issue with asynchronous code.|
 |[.NET Counters](../profiling/dotnet-counters-tool.md)|Visualization for .NET counters.|You want a visualization for .NET counter-based metrics such as exceptions per second, garbage collection, and CPU utilization.|
-|[Instrumentation](../profiling/instrumentation-overview.md)|Shows exact call counts and call times.|You need a more precise CPU utilization information than is provided in the CPU usage tool.|
+|[Instrumentation](../profiling/instrumentation-overview.md)|Shows exact call counts and call times.|You need a tool like CPU Usage, but you want exact call counts and results based on wall clock time. This tool requires extra overhead.|
 |[File I/O](../profiling/use-file-io.md)|Shows your File I/O operations and how long they take and how much data they process.|Investigate UI freeze|
 |[Database](../profiling/analyze-database.md)|Shows performance of your database queries.|Investigate performance for database queries that use either ADO.NET or Entity Framework Core.|
 |[GPU Usage](./gpu-usage.md)|Shows high-level hardware usage of your Direct3D app.|Check whether the performance of your app is CPU-bound or GPU-bound.|
