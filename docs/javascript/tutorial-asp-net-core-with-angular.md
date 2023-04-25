@@ -71,7 +71,7 @@ Make sure to install the following:
 
    :::image type="content" source="media/vs-2022/asp-net-core-project-properties.png" alt-text="Screenshot showing Open project properties"::: 
 
-1. Go to the Debug menu and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option.
+1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option.
 
    :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser.png" alt-text="Screenshot showing Debug launch profiles UI"::: 
 
