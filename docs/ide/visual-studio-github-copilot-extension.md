@@ -1,7 +1,7 @@
 ---
 title: About the GitHub Copilot extension for Visual Studio
 description: Use Visual Studio and the GitHub Copilot extension together to take advantage of AI and generate detailed info about your code, along with suggested edits, and even new code snippets, too. 
-ms.date: 04/21/2023
+ms.date: 04/25/2023
 ms.topic: overview 
 ms.custom: template-overview
 author: TerryGLee
@@ -59,9 +59,11 @@ To get started, all you need is Visual Studio 2022 [version 17.4.4](/visualstudi
 
 After installation, you can start using GitHub Copilot by typing code in the editor and observing the suggestions provided by the AI.
 
-## Next steps
+## Future features
 
-To learn more about a new GitHub Copilot experience that's folded into the Visual Studio IDE, see the [GitHub Copilot chat for Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/github-copilot-chat-for-visual-studio-2022/) blog post. 
+GitHub Copilot is continuing to evolve; to find out more about a new experience coming to Visual Studio, see the [GitHub Copilot chat for Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/github-copilot-chat-for-visual-studio-2022/) blog post. 
+
+## Next steps
 
 To learn more about the current GitHub Copilot extension for Visual Studio, consider exploring the following resources:
 
