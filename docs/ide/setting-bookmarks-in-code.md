@@ -25,16 +25,16 @@ You can use bookmarks to mark lines in your code so that you can quickly return 
 
 ## Add bookmarks
 
-To add a bookmark:
+Here's how to add a bookmark:
 
 1. Place the cursor on the line you want to bookmark. 
 1. Select the **Toggle a bookmark** button, or press **Ctrl**+**K**, **Ctrl**+**K**. 
 
-This adds the bookmark. If you select the **Toggle a bookmark** button (or press **Ctrl**+**K**, **Ctrl**+**K**) again, the bookmark is removed.
+After you follow these steps, Visual Studio adds the bookmark. If you select the **Toggle a bookmark** button (or press **Ctrl**+**K**, **Ctrl**+**K**) again, the bookmark is removed.
 
 ## Rename bookmarks
 
-To know at a glance what a specific bookmark is for, you can rename it in the **Bookmark Window** from the right-click or context menu. 
+You can rename a bookmark in the **Bookmark Window** by using the right-click or context menu. 
 
 ## Disable or delete bookmarks
 
