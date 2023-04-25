@@ -245,8 +245,6 @@
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/reference-sharepoint-tools-extensibility",
       "redirect_document_id": false
     },
-    - name: SharePoint Project Item Schema Reference
-      items:
     {
       "source_path": "docs/sharepoint/sharepoint-project-item-schema-reference.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/sharepoint-project-item-schema-reference",
