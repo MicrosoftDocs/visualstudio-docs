@@ -54,7 +54,7 @@ IIS Express is the default, and is preconfigured. If you're debugging on Local I
 
 1. Select the **Web** tab.
 
-   If you don't see the **Web** tab, see [Debug ASP.NET Core apps](#debug-asp.net-core-apps). The Web tab only appears for ASP.NET Framework.
+   If you don't see the **Web** tab, see [Debug ASP.NET Core apps](#debug-aspnet-core-apps). The Web tab only appears for ASP.NET Framework.
 
 1. In the **Properties** pane, under **Servers**,
    - For IIS Express, select **IIS Express** from the dropdown.
