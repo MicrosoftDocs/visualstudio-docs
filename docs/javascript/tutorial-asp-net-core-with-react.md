@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with React"
 description: In this tutorial, you create an app using ASP.NET Core and React
-ms.date: 02/27/2023
+ms.date: 04/25/2023
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -168,3 +168,7 @@ If the weather data does not load correctly, you may also need to verify that yo
    ```js
    target: 'https://localhost:7049',
    ```
+
+## Next steps
+
+For more information about SPA applications in ASP.NET Core, see the React section under [Developing Single Page Apps](/aspnet/core/client-side/spa/intro#developing-single-page-apps). The linked article provides additional context for project files such as *aspnetcore-https.js*, *aspnetcore-react.js*, and *setupProxy.js*, although details of the implementation are different based on the template differences. For example, instead of a ClientApp folder, the React files are contained in a separate project.

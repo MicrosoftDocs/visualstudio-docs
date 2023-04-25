@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: In this tutorial, you create an app using ASP.NET Core and Vue
-ms.date: 02/24/2023
+ms.date: 04/25/2023
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -186,3 +186,7 @@ Alternatively, reset using the following method:
 1. In the Solution properties, set your backend app as the startup project.
 1. In the Debug menu, switch the profile using the **Start** button drop-down menu to the profile for your backend app.
 1. Next, in the Solution properties, reset to multiple startup projects.
+
+## Next steps
+
+For more information about SPA applications in ASP.NET Core, see [Developing Single Page Apps](/aspnet/core/client-side/spa/intro#developing-single-page-apps). The linked article provides additional context for project files such as *aspnetcore-https.js*, although details of the implementation are different due to differences between the project templates and the Vue.js framework vs. other frameworks. For example, instead of a ClientApp folder, the Vue files are contained in a separate project.
