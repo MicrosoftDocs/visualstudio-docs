@@ -220,4 +220,4 @@ For more information about property functions, see [Property functions](../msbui
 - [ItemMetadata element (MSBuild)](../msbuild/itemmetadata-element-msbuild.md)
 - [MSBuild concepts](../msbuild/msbuild-concepts.md)
 - [MSBuild reference](../msbuild/msbuild-reference.md)
-- [Advanced concepts](../msbuild/msbuild-advanced-concepts.md)
+

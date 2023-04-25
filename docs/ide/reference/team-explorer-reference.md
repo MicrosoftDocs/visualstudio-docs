@@ -3,8 +3,8 @@ title: Team Explorer reference
 description: Learn about the various functions in Team Explorer to manage work and coordinate with other team members to develop a project.
 ms.date: 11/02/2022
 ms.topic: reference
-ms.author: kaelli
-author: KathrynEE
+ms.author: tglee
+author: TerryGLee
 ms.manager: jmartens
 monikerRange: "<=vs-2019"
 ---
@@ -84,7 +84,7 @@ The **Work Items** page lets you see [work item](/azure/devops/boards/work-items
 ::: moniker range=">= vs-2019"
 
 > [!NOTE]
-> There's a new [Work Items experience](/azure/devops/boards/work-items/set-work-item-experience-vs) in Visual Studio 2019. For information about viewing work items in Visual Studio 2019, see [View and add work items](/azure/devops/boards/work-items/view-add-work-items).
+> Starting with Visual Studio 2019 and continuing with later versions, there's a new [Work Items experience](/azure/devops/boards/work-items/set-work-item-experience-vs). For information, see [View and add work items](/azure/devops/boards/work-items/view-add-work-items).
 
 ::: moniker-end
 
