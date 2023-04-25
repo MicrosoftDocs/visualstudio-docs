@@ -61,7 +61,7 @@ After installation, you can start using GitHub Copilot by typing code in the edi
 
 ## Future features
 
-GitHub Copilot is continuing to evolve; to find out more about a new experience coming to Visual Studio, see the [GitHub Copilot chat for Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/github-copilot-chat-for-visual-studio-2022/) blog post. 
+GitHub Copilot is continuing to evolve; to find out more about a new experience that's coming soon, see the [GitHub Copilot chat for Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/github-copilot-chat-for-visual-studio-2022/) blog post. 
 
 ## Next steps
 
