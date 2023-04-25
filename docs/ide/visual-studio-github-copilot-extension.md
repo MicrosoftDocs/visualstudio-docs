@@ -57,7 +57,7 @@ To get started, all you need is Visual Studio 2022 [version 17.4.4](/visualstudi
 1. Select the **GitHub Copilot** extension, and then select the **Download** button.
 1. Restart Visual Studio to complete the installation process.
 
-After installation, you can start using GitHub Copilot by typing code in the editor and observing the suggestions provided by the AI.
+After installation, you can start using GitHub Copilot by typing code in the editor and observing the suggestions provided by AI.
 
 ## Future features
 
