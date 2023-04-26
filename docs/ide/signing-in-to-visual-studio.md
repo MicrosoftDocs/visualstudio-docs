@@ -20,7 +20,7 @@ In this article, you'll learn:
 + [The benefits to account sign in](#benefits)
 + How to [sign in](#sign-in) with an account
 + How to [add & switch accounts](#add-and-switch)
-+ How to [sign out of your account](#sign-out-of-account)
++ How to [sign out of your account](#sign-out-of-your-account)
 + How to [update your profile](#profile)
 
 You can also get [subscription support](https://visualstudio.microsoft.com/subscriptions/support/).
@@ -156,7 +156,7 @@ You can also access resources secured via CA policies such as MFA. To use this e
 
 ::: moniker-end
 
-## Sign out of an account
+## Sign out of your account
 
 1. Select the icon with your profile name in the upper-right corner of the Visual Studio environment.
 1. Select **Account settings...**.
