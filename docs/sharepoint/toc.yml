@@ -165,18 +165,8 @@ items:
       href: security-for-sharepoint-solutions.md
     - name: URL Picker Dialog Box
       href: url-picker-dialog-box-sharepoint-development-in-visual-studio.md
-  - name: Localizing SharePoint Solutions
-    items:
     - name: Localizing SharePoint Solutions
       href: localizing-sharepoint-solutions.md
-    - name: Add a Resource File
-      href: how-to-add-a-resource-file.md
-    - name: Localize a Feature
-      href: how-to-localize-a-feature.md
-    - name: Localize ASPX Markup
-      href: how-to-localize-aspx-markup.md
-    - name: Localize Code
-      href: how-to-localize-code.md
   - name: Building and Debugging SharePoint Solutions
     items:
     - name: Building and Debugging SharePoint Solutions
