@@ -1,7 +1,7 @@
 ---
 title: Using stubs to isolate parts of your app for testing
 description: Learn about a stub, which is a small piece of code that takes the place of another component during testing. Using a stub returns consistent results.
-ms.date: 11/04/2016
+ms.date: 04/21/2023
 ms.topic: how-to
 ms.author: mikejo
 manager: jmartens
@@ -161,7 +161,7 @@ To use stubs, you must first generate stub types from the interface definitions.
 
     - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar to see the **References** node.
 
-2. Select the assembly that contains the class definitions for which you want to create shims. For example, if you want to shim **DateTime**, select **System.dll**.
+2. Select the assembly that contains the class definitions for which you want to create stubs. For example, if you want to stub **DateTime**, select **System.dll**.
 
 3. On the shortcut menu, choose **Add Fakes Assembly**.
 

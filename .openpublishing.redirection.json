@@ -311,22 +311,22 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/how-to-add-a-resource-file.md",
+      "source_path": "docs/sharepoint/how-to-add-a-resource-file.md",
       "redirect_url": "/visualstudio/sharepoint/localizing-sharepoint-solutions#add-a-resource-file",
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/how-to-localize-a-feature.md",
+      "source_path": "docs/sharepoint/how-to-localize-a-feature.md",
       "redirect_url": "/visualstudio/sharepoint/localizing-sharepoint-solutions#localize-features",
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/how-to-localize-aspx-markup.md",
+      "source_path": "docs/sharepoint/how-to-localize-aspx-markup.md",
       "redirect_url": "/visualstudio/sharepoint/localizing-sharepoint-solutions#localize-aspx-page-markup",
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/how-to-localize-code.md",
+      "source_path": "docs/sharepoint/how-to-localize-code.md",
       "redirect_url": "/visualstudio/sharepoint/localizing-sharepoint-solutions#localize-code",
       "redirect_document_id": false
     },

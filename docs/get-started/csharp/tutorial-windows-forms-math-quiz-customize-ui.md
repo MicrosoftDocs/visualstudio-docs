@@ -5,7 +5,7 @@ ms.custom: vs-acquisition
 dev_langs:
   - "CSharp"
   - "VB"
-ms.date: 03/15/2023
+ms.date: 04/20/2023
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
@@ -69,9 +69,13 @@ The quiz contains <xref:System.Windows.Forms.NumericUpDown> controls that quiz t
 
    When the quiz taker selects the control, Visual Studio fires this event. This code selects the current answer. As soon as the quiz taker starts to enter a different answer, the current answer is cleared and replaced with the new answer.
 
+1. In **Windows Forms Designer**, select the addition problem's NumericUpDown control again.
+
+1. In the **Events** page of the **Properties** dialog box, find the **Click** event, and then select **answer_Enter** from the drop-down menu. This event handler is the one that you just added.
+
 1. In **Windows Forms Designer**, select the subtraction problem's NumericUpDown control.
 
-1. In the **Events** page of the **Properties** dialog box, find the **Enter** event, and then select **answer_Enter** from the drop-down menu. This event handler is the one that you just added.
+1. In the **Events** page of the **Properties** dialog box, find the **Enter** event, and then select **answer_Enter** from the drop-down menu. This event handler is the one that you just added. Repeat this step for the **Click** event.
 
 1. Repeat the previous two steps for the multiplication and division NumericUpDown controls.
 
