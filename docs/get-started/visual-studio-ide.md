@@ -6,7 +6,7 @@ ms.date: 04/26/2023
 ms.technology: vs-ide-general
 ms.topic: overview
 ms.custom: vs-acquisition,  vs-get-started
-f1_keywords:g
+f1_keywords:
 - vs.startpage
 - VS.StartPage.HowDoI
 author: anandmeg
