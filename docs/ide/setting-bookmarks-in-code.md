@@ -1,6 +1,7 @@
 ---
-title: Set code bookmarks
+title: Bookmark code in Visual Studio
 description: Learn how to use bookmarks to mark lines in your code so that you can quickly return to a specific location, or jump back and forth between locations.
+titleSuffix: ''
 ms.date: 04/26/2023
 ms.topic: how-to
 f1_keywords:
@@ -13,7 +14,7 @@ ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
-# Set bookmarks in code
+# Bookmark code in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
