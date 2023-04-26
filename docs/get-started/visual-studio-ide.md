@@ -2,11 +2,11 @@
 title: What is Visual Studio?
 titleSuffix: ''
 description: Learn how Visual Studio is a powerful integrated development environment that empowers you to develop, edit, debug, version control, and deploy your app.
-ms.date: 04/25/2023
+ms.date: 4/19/2023
 ms.technology: vs-ide-general
 ms.topic: overview
 ms.custom: vs-acquisition,  vs-get-started
-f1_keywords:
+f1_keywords:g
 - vs.startpage
 - VS.StartPage.HowDoI
 author: anandmeg
@@ -19,7 +19,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Visual Studio is a powerful developer tool that you can use to complete the entire development cycle in one place. It is a comprehensive integrated development environment (IDE) that you can use to write, edit, debug, and build code, and then publish your app. Beyond code editing and debugging, Visual Studio includes compilers, code completion tools, source control, extensions, and many more features to enhance every stage of the software development process.
+Visual Studio is a powerful developer tool that that enables you to complete the entire development cycle in one place. It is a comprehensive integrated development environment (IDE) that you can use to write, edit, debug, and build code, and then publish your app. Beyond code editing and debugging, Visual Studio includes graphical designers, compilers, code completion tools, source control, extensions, and many more features to enhance every stage of the software development process.
 
 With the variety of features and languages support in Visual Studio, you can grow from writing your first "Hello World" program to developing and deploying apps. For example, you can build desktop and web apps with .NET, Mobile and gaming apps with C++.
 
