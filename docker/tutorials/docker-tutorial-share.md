@@ -64,7 +64,7 @@ Let's make a few changes and learn about managing your containers.
 1. Build the updated version of the image.
    In the file explorer, right-click *Dockerfile*, then select **Build Image**.
 
-   Or, to build on the command line, use the same command you used before.
+   Or, to build on the command line, change directory to the folder that contains the Dockerfile, and use the same command you used before.
 
     ```bash
     docker build -t getting-started .
