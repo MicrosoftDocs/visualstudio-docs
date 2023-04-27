@@ -208,7 +208,7 @@ The following illustration shows the **Threads** view at the top and the corresp
 
 
 ::: moniker range=">=vs-2022"
-![Threads view in Parallel Stacks window](../debugger/media/vs-2022/parallel_stacks_toolbar_threads_tasks_view.png "Threads view in Parallel Stacks window")
+![Tasks view in Parallel Stacks window](../debugger/media/vs-2022/parallel_stacks_toolbar_threads_tasks_view.png "Tasks view in Parallel Stacks window")
 ::: moniker-end
 
 Hover over a method to show a tooltip with additional information. In **Tasks** view, the tooltip shows all the tasks in a table similar to the **Tasks** window.
@@ -222,19 +222,19 @@ The following image shows the tooltip for a method in the **Threads** view at th
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-![Threads view in Parallel Stacks window](../debugger/media/vs-2022/parallel_stacks_toolbar_threads_tasks_view_hover.png "Threads view in Parallel Stacks window")
+![Threads and Tasks tooltips](../debugger/media/vs-2022/parallel_stacks_toolbar_threads_tasks_view_hover.png "Threads and Tasks tooltips")
 ::: moniker-end
 ## Method View
 From either **Threads** view or **Tasks** view, you can pivot the graph on the current method by selecting the **Toggle Method View** icon on the toolbar. **Method View** shows at a glance all methods on all threads that either call or are called by the current method. The following illustration shows how the same information looks in **Threads** view on the left and in **Method View** on the right.
 
 ::: moniker range=">=vs-2019"
 
-![Threads view and Method View](../debugger/media/parallel_methodview.png "Threads view and Method View")
+![Methods view in Parallel Stacks window](../debugger/media/parallel_methodview.png "Methods view in Parallel Stacks window")
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-![Threads view in Parallel Stacks window](../debugger/media/vs-2022/parallel_stacks_methods_view.png "Threads view in Parallel Stacks window")
+![Methods view in Parallel Stacks window](../debugger/media/vs-2022/parallel_stacks_methods_view.png "Methods view in Parallel Stacks window")
 ::: moniker-end
 
 If you switch to a new stack frame, you make that method the current method, and **Method View** shows all callers and callees for the new method. This may cause some threads to appear or disappear from the view, depending on whether that method appears on their call stacks. To return to the call stack view, select the **Method View** toolbar icon again.
