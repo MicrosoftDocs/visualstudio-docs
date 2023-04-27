@@ -227,9 +227,9 @@ Consider the following example of referencing metadata from within an item defin
 </ItemGroup>
 ```
 
-it's important to note that the behavior differs when defined outside of any target and within target.
+It's important to note that the behavior differs when defined outside of any target and within target.
 
-### Item Self-referencing metadata outside of any target
+### Item self-referencing metadata outside of any target
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -252,7 +252,7 @@ Metadata referencing is resolved per item instance (not affected by any previous
   i->MyPath=[b.txt;d.txt;h.txt]
 ```
 
-### Item Self-referencing metadata inside of a target
+### Item self-referencing metadata inside of a target
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
