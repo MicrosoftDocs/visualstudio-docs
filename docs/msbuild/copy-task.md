@@ -109,7 +109,7 @@ The following example demonstrates how to do a recursive copy. This project copi
 
         <Copy
             SourceFiles="@(MySourceFiles)"
-            DestinationFiles="c:\MyDestinationTree\%(RecursiveDir)%(Filename)%(Extension)"
+            DestinationFiles="c:\MyDestinationTree\%(RecursiveDir)"
         />
     </Target>
 

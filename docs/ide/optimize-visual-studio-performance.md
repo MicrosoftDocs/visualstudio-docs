@@ -2,7 +2,7 @@
 title: Improve performance if Visual Studio is slow
 titleSuffix: ''
 description: Learn how to improve Visual Studio performance if you find that it's running slowly.
-ms.date: 04/12/2022
+ms.date: 04/24/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - performance [Visual Studio]
@@ -23,7 +23,7 @@ This article provides some suggestions to try if you find that Visual Studio is 
 
 ## Upgrade Visual Studio
 
-If you're currently using an earlier version of Visual Studio, such as Visual Studio 2017 or Visual Studio 2019, download [Visual Studio 2022](https://visualstudio.microsoft.com/downloads) for free to check out its improved performance. Solutions load much faster than in earlier versions, with performance improvements in other areas too. You can install Visual Studio on a computer that has an earlier or later version of Visual Studio already installed. For more information, see [Install Visual Studio versions side-by-side](../install/install-visual-studio-versions-side-by-side.md).
+If you're currently using an earlier version of Visual Studio, such as Visual Studio 2017 or Visual Studio 2019, download [Visual Studio 2022](https://visualstudio.microsoft.com/downloads) for free to check out its improved performance. Solutions load faster than in earlier versions, with performance improvements in other areas too. You can install Visual Studio on a computer that has an earlier or later version of Visual Studio already installed. For more information, see [Install Visual Studio versions side-by-side](../install/install-visual-studio-versions-side-by-side.md).
 
 ## Extensions and tool windows
 
@@ -33,7 +33,7 @@ Similarly, you might have tool windows that slow Visual Studio down. For help on
 
 ## Hardware
 
-If you're thinking about upgrading your hardware, a solid state drive (SSD) has more effect on performance than additional RAM or a faster CPU.
+If you're thinking about upgrading your hardware, a solid state drive (SSD) has more effect on performance than extra RAM or a faster CPU.
 
 If you do add an SSD, for optimal performance install Windows on that drive as opposed to a hard disk drive (HDD). The drive location of your Visual Studio solutions doesn't seem to matter as much.
 

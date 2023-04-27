@@ -24,6 +24,8 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
+
 You can display data to users of your application by binding data to Windows Forms. To create these data-bound controls, drag items from the **Data Sources** window onto the Windows Forms Designer in Visual Studio.
 
 ![Data Source drag operation](../data-tools/media/raddata-data-source-drag-operation.png)
