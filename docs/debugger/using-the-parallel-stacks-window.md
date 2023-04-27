@@ -206,6 +206,7 @@ The following illustration shows the **Threads** view at the top and the corresp
 
 ::: moniker-end
 
+
 ::: moniker range=">=vs-2022"
 ![Threads view in Parallel Stacks window](../debugger/media/vs-2022/parallel_stacks_toolbar_threads_tasks_view.png "Threads view in Parallel Stacks window")
 ::: moniker-end
