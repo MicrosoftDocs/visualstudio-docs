@@ -5,7 +5,7 @@ ms.topic: include
 ms.assetid: a3635d25-8f9d-4cf8-a9c3-db41d155f989
 author: evanwindom
 ms.author: amast
-ms.date: 08/14/2020
+ms.date: 04/28/2023
 user.type: subscriber
 tags: download, activate
 subscription.type: vl, cloud, retail, partner
@@ -22,8 +22,8 @@ You can [download an extensive list](https://download.microsoft.com/download/1/5
 ## Find software downloads 
 1. Sign into the [subscriptions portal](https://my.visualstudio.com/benefits).  
 1. Go to the [featured downloads page](https://my.visualstudio.com/downloads/featured).  
-1. Here you will be able to see a list of popular downloads or search a specific product. Note: If you have more than one subscription associated with the same sign-in address, you will see the downloads included with the highest-level subscription, regardless of which subscription you're viewing.
-1. Click on “get key” to see all keys that are available for the product you want to download. Then click “claim key” to claim a product key if the download requires a key to get started. 
+1. Here you see a list of popular downloads or search a specific product. Note: If you have more than one subscription associated with the same sign-in address, you  see the downloads included with the highest-level subscription, regardless of which subscription you're viewing.
+1. Select “get key” to see all keys that are available for the product you want to download. Then select “claim key” to claim a product key if the download requires a key to get started. 
 
 ## Find available product keys
 You can also visit the [Product Keys](https://my.visualstudio.com/productkeys) page where all keys are available in aggregate. You can edit the notes column for identifying when and why you claimed the key. 
