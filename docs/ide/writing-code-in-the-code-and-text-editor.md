@@ -72,6 +72,8 @@ You can find a number of advanced features on the **Edit** > **Advanced** menu o
 
 You can move around in the code editor in several different ways, including navigating backwards and forwards to previous insertion points, viewing the definition of a type or member, and jumping to a specific method using the navigation bar. For more information see [Navigate code](navigating-code.md).
 
+You can also set bookmarks to mark lines in your code so that you can quickly return to a specific location, or jump back and forth between locations. To learn more, see [Bookmark code](setting-bookmarks-in-code.md)
+
 ## Find references in your code base
 
 To find where particular code elements are referenced throughout your codebase, you can use the **Find All References** command or press **Shift**+**F12**. Also, when you click on a type or member, the **reference highlighting** feature automatically highlights all references to that type or member. For more information, see [Find references in your code](finding-references.md).
