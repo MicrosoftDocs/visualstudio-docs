@@ -22,26 +22,26 @@ You can use bookmarks to mark lines in your code so that you can quickly return 
 
 Bookmark commands and icons are available in two places: 
 
-- The **Bookmarks** window; to open it, select **View** > **Bookmark Window** from the menu bar, or use the **Ctrl**+**K**, **Ctrl**+**K** keyboard shortcut.) 
+- The **Bookmarks** window; to open it, select **View** > **Bookmark Window** from the menu bar, or use the **Ctrl**+**K**, **Ctrl**+**W** keyboard shortcut. 
 
-  ![Screenshot of the Bookmarks window in Visual Studio.](media/bookmark-window.png)
+  ![Screenshot of the Bookmarks window.](media/bookmarks-window.png)
 
 - The **Bookmarks** toolbar
 
-  ![Screenshot of the Bookmark toolbar in the Bookmarks window.](media/bookmark-toolbar.png)
+  ![Screenshot of the Bookmarks toolbar in the Bookmarks window.](media/bookmarks-toolbar.png)
 
-  The following table includes available commands, listed from left to right.
+  The following table includes available toolbar commands and their [keyboard shortcuts](default-keyboard-shortcuts-in-visual-studio.md), listed from left to right.
 
     | Icon                              | Action   | Keyboard shortcut |
     |-----------------------------------|----------|-------------------|
     | **Toggle a bookmark**             |  Create a new bookmark on the current line, or toggle between existing bookmarks line by line | **Ctrl**+**K**, **Ctrl**+**K** |
-    | **New Folder**                    |  Create a new folder                       | **Ctrl**+**K**, **Ctrl**+**F** |
+    | **New Folder**                    |  Create a new folder                       | **Ctrl**+**K**, **Ctrl**+**F** | 
     | **Previous bookmark**             |  Move the caret to the previous bookmark   | **Ctrl**+**K**, **Ctrl** **P** |
     | **Next bookmark**                 |  Move the caret to the next bookmark       | **Ctrl**+**K**, **Ctrl** **N** |
-    | **Previous bookmark in a folder** |  Move the caret to the previous bookmark in the current folder | **Ctrl**+**Shift**+**K**, **Ctrl**+**Shift**+**P** |
-    | **Next bookmark in a folder**     |  Move the caret to the next bookmark in the current folder     | **Ctrl**+**Shift**+**K**, **Ctrl**+**Shift**+**N** |
-    | **Disable/Enable All Bookmarks**  |  Disable or enable all bookmarks           |  ---              |
-    | **Delete**                        |  Delete (bookmark, folder)                 |  ---              |
+    | **Previous bookmark in a folder** |  Move the caret to the previous bookmark in the current folder | **Ctrl**+**Shift**+**K**, **Ctrl**+**Shift**+**P** | 
+    | **Next bookmark in a folder**     |  Move the caret to the next bookmark in the current folder     | **Ctrl**+**Shift**+**K**, **Ctrl**+**Shift**+**N** | 
+    | **Disable/Enable All Bookmarks**  |  Disable or enable all bookmarks           |  --- | 
+    | **Delete**                        |  Delete (bookmark, folder)                 |  --- | 
 
 ## Add bookmarks
 
@@ -50,6 +50,8 @@ Here's how to add a bookmark:
 1. Place the cursor on the line of code you want to bookmark. 
 1. Select **Toggle a bookmark**.
 1. Notice that Visual Studio adds a bookmark icon next to the line you selected, and a corresponding entry to the **Bookmarks** window. 
+
+  ![Screenshot of the Bookmarks window in Visual Studio that has bookmarks added.](media/bookmarks-window-visual-studio.png)
 
 If you select **Toggle a bookmark** again, the bookmark is removed.
 
