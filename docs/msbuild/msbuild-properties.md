@@ -47,6 +47,10 @@ Valid property names begin with an uppercase or lowercase letter or underscore (
 
  For more information, see [How to: Reference the name or location of the project file](../msbuild/how-to-reference-the-name-or-location-of-the-project-file.md) and [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md).
 
+## MSBuild internal properties
+
+Properties that begin with an underscore (_) are private to MSBuild and should not be reset or overridden in user code.
+
 ## Environment properties
 
  You can reference environment variables in project files just as you reference reserved properties. For example, to use the `PATH` environment variable in your project file, use $(Path). If the project contains a property definition that has the same name as an environment property, the property in the project overrides the value of the environment variable.
