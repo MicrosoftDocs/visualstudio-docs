@@ -79,8 +79,13 @@ The connected service functionality adds all the needed references and connectio
 
    ![Service dependencies](./media/azure-cosmosdb-add-connected-service/service-dependencies-after.png)
 
+## Next steps
+
+Learn how to store secrets safely by following [Safe storage of app secrets in development in ASP.NET Core](/aspnet/core/security/app-secrets?tabs=windows). In particular, to read the connection string from the secrets store, you can add code as in [Read the secret via the configuration API](/aspnet/core/security/app-secrets?tabs=windows#read-the-secret-via-the-configuration-api).
+
 ## See also
 
 - [Azure Cosmos DB product page](https://azure.microsoft.com/services/cosmos-db/)
 - [Azure Cosmos DB documentation](/azure/cosmos-db/)
 - [Connected services (Visual Studio for Mac)](/visualstudio/mac/connected-services)
+- [Dependency injection in ASP.NET Core](/aspnet/core/fundamentals/dependency-injection)

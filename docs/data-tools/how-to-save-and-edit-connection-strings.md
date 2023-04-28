@@ -15,6 +15,8 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
+
 > [!NOTE]
 > This article provides guidance for handling connection strings in Windows applications; for cloud and web applications, more secure techniques are available. You can use [Connected Services](../azure/overview-connected-services.md) to add support for Secrets.json for local development, and then migrate to Azure Key Vault for secrets storage when you deploy to Azure. See [Protect secrets during development.](/aspnet/core/security/app-secrets?tabs=windows).
 
