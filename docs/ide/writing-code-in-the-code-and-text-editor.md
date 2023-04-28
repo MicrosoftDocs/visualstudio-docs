@@ -72,7 +72,7 @@ You can find a number of advanced features on the **Edit** > **Advanced** menu o
 
 You can move around in the code editor in several different ways, including navigating backwards and forwards to previous insertion points, viewing the definition of a type or member, and jumping to a specific method using the navigation bar. For more information see [Navigate code](navigating-code.md).
 
-You can also set bookmarks to mark lines in your code so that you can quickly return to a specific location, or jump back and forth between locations. To learn more, see [Bookmark code](setting-bookmarks-in-code.md)
+You can also set bookmarks to mark lines in your code so that you can quickly return to a specific location, or jump back and forth between locations. To learn more, see [Bookmark code](setting-bookmarks-in-code.md).
 
 ## Find references in your code base
 
