@@ -162,7 +162,7 @@ For .NET Core and .NET 5 or later, you typically use `dotnet build` to invoke MS
 
 ## Build logs
 
- You can log build errors, warnings, and messages to the console or another output device. For more information, see [Obtaining build logs](../msbuild/obtaining-build-logs-with-msbuild.md) and [Obtaining build logs with MSBuild](../msbuild/obtaining-build-logs-with-msbuild.md).
+ You can log build errors, warnings, and messages to the console or another output device. For more information, see [Obtaining build logs with MSBuild](../msbuild/obtaining-build-logs-with-msbuild.md).
 
 ## Use MSBuild in Visual Studio
 
