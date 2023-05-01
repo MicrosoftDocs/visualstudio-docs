@@ -71,9 +71,9 @@ To display external or non-user code toggle the Show Extrenal code  right-click 
 
   ::: moniker-end
 
-  ::: moniker range="vs-2022"
+  ::: moniker range=">=vs-2022"
 
-To display external or non-user code toggle the **Show External Code** button from the call stack toolbar or  right-click on the **Call Stack** window and select **Show External Code**.
+To display external or non-user code, toggle the **Show External Code** button from the call stack toolbar or  right-click on the **Call Stack** window and select **Show External Code**.
 
   ::: moniker-end
 
@@ -92,10 +92,10 @@ Non-user code is any code that is not shown when [Just My Code](../debugger/just
 
      A green arrow with a curly tail appears next to the stack frame you selected. The execution pointer remains in the original frame, which is still marked with the yellow arrow. If you select **Step** or **Continue** from the **Debug** menu, execution will continue in the original frame, not the frame you selected.
 
-  ::: moniker range="vs-2022"
+  ::: moniker range=">=vs-2022"
 
 ## View all related threads
-Toggle the **View all threads** button to see all the related  threads in Parallel Stack window. 
+Toggle the **View all threads** button to see all the related threads in the Parallel Stack window. 
 
   ::: moniker-end
 
