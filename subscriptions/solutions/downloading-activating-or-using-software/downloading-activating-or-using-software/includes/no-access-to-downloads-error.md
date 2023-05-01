@@ -5,7 +5,7 @@ ms.topic: include
 ms.assetid: fac62be6-ac8a-4e78-9698-9d8fa2ca27fb
 author: larissacrawford
 ms.author: amast
-ms.date: 04/05/2023
+ms.date: 04/28/2023
 user.type: subscriber
 tags: downloads
 subscription.type: vl, cloud, retail, partner
@@ -19,6 +19,6 @@ Alternatively, if downloads are disabled and you have a free Dev Essentials subs
 
 Should that happen, you should reach out to the administrator that assigned the subscription to you:
 1. For monthly or annual subscriptions purchased through Azure, reach out to the owner of the account that was used for purchase
-2. For Volume Licensing subscriptions assigned by your company, click the “contact my admin” at the top of the [Subscriptions portal](https://my.visualstudio.com/subscriptions)
+2. For Volume Licensing subscriptions assigned by your company, select the “contact my admin” at the top of the [Subscriptions portal](https://my.visualstudio.com/subscriptions)
 
-If you have additional questions, open a case with Visual Studio Subscriptions support by clicking on the "Online request" link on this page.
+If you have more questions, open a case with Visual Studio Subscriptions support by clicking on the "Online request" link on this page.
