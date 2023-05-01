@@ -65,7 +65,7 @@ The **Parallel Stacks** window has the following toolbar controls:
 |![Auto Scroll to Current icon](media/vs-2022/parallel_stacks_toolbar_autoscroll.png   "Auto Scroll to Current icon")|Auto Scroll To Current Stack Frame|Autoscrolls the graph so that the current stack frame is in view. This feature is useful when you change the current stack frame from other windows, or when you hit a new breakpoint in large graphs.|
 |![Toggle Zoom icon](media/vs-2022/parallel_stacks_toolbar_zoom.png "Toggle Zoom icon")|Toggle Zoom Control|Shows or hides the zoom control at the left of the window. <br /><br />Regardless of the visibility of the zoom control, you can also zoom by pressing **Ctrl** and turning the mouse wheel, or by pressing **Ctrl**+**Shift**+**+** to zoom in and **Ctrl**+**Shift**+**-** to zoom out. |
 |![Search icon](media/vs-2022/parallel_stacks_toolbar_search.png   "Search icon")|Search Control|With this feature you can easily search through stack frames and then use arrows to navigate between those results.|
-|![Save icon](media/vs-2022/parallel_stacks_toolbar_save.png   "Save icon")|Save Control| Enables you to save/export the content from the parallel stack window  as image.|
+|![Save icon](media/vs-2022/parallel_stacks_toolbar_save.png   "Save icon")|Save Control| Enables you to save/export the content from the parallel stack window as an image.|
 |![External Code icon](media/vs-2022/parallel_stacks_toolbar_externalcode.png   "External Code icon")|Show External Code Control| Using this feature you can hide/show the stacks from the external code/libraries.|
 ::: moniker-end
 
