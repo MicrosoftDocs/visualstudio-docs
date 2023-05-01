@@ -11,6 +11,7 @@ helpviewer_keywords:
   - "Outlook folders [Office development in Visual Studio], custom"
 author: John-Hart
 ms.author: johnhart
+ms.technology: office-development
 ms.workload:
   - "office"
 ---
