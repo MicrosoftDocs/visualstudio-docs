@@ -101,9 +101,9 @@ To start, create a C# application project. The project type comes with all the t
 
    ![Screenshot that shows naming the project Calculator in the Configure your new project window.](media/vs-2022/csharp-name-your-calculator-project.png)
 
-1. In the **Additional information** window, **.NET 6.0** should already be selected for your target framework. Select **Create**.
+1. In the **Additional information** window, select **.NET 7.0** for your target framework, then select **Create**.
 
-   ![Screenshot that shows .NET 6.0 selected in the Additional information window.](media/vs-2022/csharp-target-framework.png)
+   ![Screenshot that shows .NET 7.0 selected in the Additional information window.](media/vs-2022/csharp-target-framework.png)
 
    Visual Studio opens your new project, which includes default "Hello World" code.
 
