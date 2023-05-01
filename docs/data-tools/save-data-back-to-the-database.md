@@ -27,6 +27,8 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
+
 The dataset is an in-memory copy of data. If you modify that data, it's a good practice to save those changes back to the database. You do this in one of three ways:
 
 - By calling one of the `Update` methods of a TableAdapter
