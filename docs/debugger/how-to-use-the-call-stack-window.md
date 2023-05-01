@@ -100,6 +100,9 @@ Non-user code is any code that is not shown when [Just My Code](../debugger/just
 ## View all related threads
 Toggle the **View all threads** button to see all the related threads in the Parallel Stack window. 
 
+## Call Stack Search 
+You can search for relevant call stack frames by typing relevant search terms in the search box located in the top left corner of the call stack windowS The pertinent call stack frames will get highlighted. 
+
   ::: moniker-end
 
 ## View the source code for a function on the call stack
