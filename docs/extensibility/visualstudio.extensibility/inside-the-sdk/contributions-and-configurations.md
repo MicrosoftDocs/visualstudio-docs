@@ -15,7 +15,7 @@ ms.technology: vs-ide-sdk
 
 The purpose of a Visual Studio extension is to *contribute* new features to Visual Studio. This is achieved by extending one of many classes like `Command`, `ToolWindow` or `ExtensionPart` and applying the `VisualStudioContribution` attribute.
 
-Across this document we will refer to the [Command Parenting](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CommandParentingSample) sample extension to explain the concepts of contributing and configuring extension components.
+This article references the [Command Parenting](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CommandParentingSample) sample extension to explain the concepts of contributing and configuring extension components.
 
 Every VisualStudio.Extensibility extension must contribute at least one `Extension` class:
 
@@ -48,13 +48,13 @@ internal class SampleCommand : Command
     ...
 ```
 
-When extending a base class provided by the VisualStudio.Extensibility SDK, you can know if you are expected to use the `VisualStudioContribution` attribute by checking wheter the base class implements `IVisualStudioContributionClass` (both `Extension` and `Command` do).
+When extending a base class provided by the VisualStudio.Extensibility SDK, you can know if you're expected to use the `VisualStudioContribution` attribute by checking whether the base class implements `IVisualStudioContributionClass` (both `Extension` and `Command` do).
 
-Visual Studio contribution classes will be lazily-instantiated singletons: only one instance is created and its creation is delayed until Visual Studio needs to interact with it (for example when a `Command` is first invoked by the user).
+Visual Studio contribution classes are lazily-instantiated singletons: only one instance is created and its creation is delayed until Visual Studio needs to interact with it (for example when a `Command` is first invoked by the user).
 
 The VisualStudio.Extensibility infrastructure also allows you to receive services through dependency injection as constructor parameters of Visual Studio contribution classes (see [Services provided by SDK for injection](./extension-anatomy.md#services-provided-by-sdk-for-injection)), including any service that you added to the `IServiceCollection` in the `Extension` class' `InitializeServices` method.
 
-Visual Studio often requires a unique identifier to be associated with contributions. In most cases the VisualStudio.Extensibility infrastructure will simply use the full name of the Visual Studio contribution class as the contribution identifier. For example, the identifier of the `Extension` class above will be `CommandParentingSample.CommandParentingSampleExtension`. You may want to choose carefully the type name and namespace of your Visual Studio contribution classes since they may appear in Visual Studio logs and error messages.
+Visual Studio often requires a unique identifier to be associated with contributions. In most cases, the VisualStudio.Extensibility infrastructure uses the full name of the Visual Studio contribution class as the contribution identifier. For example, the identifier of the `Extension` class above would be `CommandParentingSample.CommandParentingSampleExtension`. You might want to carefully choose the type name and namespace of your Visual Studio contribution classes, since they might appear in Visual Studio logs and error messages.
 
 ## Configuring Visual Studio Contributions
 
@@ -82,9 +82,9 @@ internal class SampleCommand : Command
     ...
 ```
 
-`CommandConfiguration` is a *compile-time constant*, which means that its value will be evaluated when the extension is built and it will be included in the extension manifest (`extension.json`). Visual Studio can read the extension manifest without loading the extension itself, which allows for better performance.
+`CommandConfiguration` is a *compile-time constant*, which means that its value is evaluated when the extension is built and it is included in the extension manifest (`extension.json`). Visual Studio can read the extension manifest without loading the extension itself, which allows for better performance.
 
-*Compile-time constants* are subject to additional limitations compared to normal properties, for example they must be readonly and their initialization code cannot include references to non-static members or multi-statement imperative code blocks. These restrictions are enforced by the VisualStudio.Extensibility build tools and will result in error messages like the following:
+*Compile-time constants* are subject to additional limitations compared to normal properties, for example they must be readonly and their initialization code can't include references to non-static members or multi-statement imperative code blocks. These restrictions are enforced by the VisualStudio.Extensibility build tools and results in error messages like the following:
 
 > Property SampleCommand.CommandConfiguration is a compile-time constant. References to user-defined non-static members are not supported when evaluating compile-time constant values.
 
@@ -111,9 +111,9 @@ In certain cases, you may need to implement multiple configuration properties on
 
 ## Standalone configuration properties
 
-As described above, Visual Studio contribution classes define a singleton class which usually exposes one or more *compile-time constant* configuration properties. The configuration properties values will be saved as extension metadata.
+As described above, Visual Studio contribution classes define a singleton class that usually exposes one or more *compile-time constant* configuration properties. The configuration properties values are saved as extension metadata.
 
-Some extensibility feature require specifying extension metadata that is not tied to any class and it's either meaningful on its own or it's meant to be referenced by other configurations. A few examples are menu, toolbar and document type definitions. This is achieved by simply applying the `VisualStudioContribution` attribute to a static readonly configuration property.
+Some extensibility features require you to specify extension metadata that isn't tied to any class and it's either meaningful on its own or it's meant to be referenced by other configurations. A few examples are menu, toolbar and document type definitions. This is achieved by applying the `VisualStudioContribution` attribute to a static readonly configuration property.
 
 Visual Studio contribution properties can be placed in any class.
 
@@ -164,7 +164,7 @@ internal class TextViewEventListener : ExtensionPart, ITextViewOpenClosedListene
     ...
 ```
 
-Types that are meant to be used to define Visual Studio contribution properties implement the `IVisualStudioContributionProperty` interface and are marked with the `CompileTimeEvaluation` attribute to document that their value will be evaluated when the extension is built.
+Types that are meant to be used to define Visual Studio contribution properties implement the `IVisualStudioContributionProperty` interface and are marked with the `CompileTimeEvaluation` attribute to document that their values are evaluated when the extension is built.
 
 ```csharp
 [CompileTimeEvaluation]
@@ -173,4 +173,4 @@ public sealed class DocumentTypeConfiguration : IVisualStudioContributionPropert
 
 The guidance about not referencing *compile-time constant* configuration properties at run time applies to Visual Studio contribution properties as well.
 
-In case a unique identifier is required for a Visual Studio contribution property, its full name (containing type full name and property name) will be used by the VisualStudio.Extensibility infrastructure as identifier. For example, the unique identifier of the toolbar configuration above will be `CommandParentingSample.ExtensionCommandConfiguration.ToolbarConfiguration`.
+In case a unique identifier is required for a Visual Studio contribution property, its full name (containing type full name and property name) is used by the VisualStudio.Extensibility infrastructure as an identifier. For example, the unique identifier of the toolbar configuration discussed here would be `CommandParentingSample.ExtensionCommandConfiguration.ToolbarConfiguration`.

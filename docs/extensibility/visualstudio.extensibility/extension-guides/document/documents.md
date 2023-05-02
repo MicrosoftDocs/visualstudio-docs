@@ -20,7 +20,7 @@ class, which has the following properties:
 - `IsReadOnly`
 - `IsInitialized`
 
-The `DocumentsExtensibility` object provides a variety of methods that are used to obtain and work with
+The `DocumentsExtensibility` object provides various methods that are used to obtain and work with
 `DocumentSnapshot` object instances.
 
 ## Work with documents
@@ -33,7 +33,7 @@ This guide is designed to cover the top user scenarios when working with documen
 
 ### Open a document
 
-Given the path to a file on disk, it is simple to open the file in Visual Studio:
+Given the path to a file on disk, it's simple to open the file in Visual Studio:
 
 ```csharp
 DocumentsExtensibility documents = this.Extensibility.Documents();
@@ -47,7 +47,7 @@ DocumentSnapshot document = await documents.OpenDocumentAsync(uri, cancellationT
 ### Get a text document snapshot
 
 A `DocumentSnapshot` is an abstract representation of a document.  If you want to read or write the text in a
-`DocumentSnapshot`, you can do so using the `ITextDocumentSnapshot` interface which can be obtained with the
+`DocumentSnapshot`, you can do so using the `ITextDocumentSnapshot` interface, which can be obtained with the
 `AsTextDocumentAsync` extension method for `DocumentSnapshot`.
 
 ```csharp
@@ -71,8 +71,8 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 ### React to events related to documents
 
-There are scenarios when components may want to react to events related to documents (i.e. when they're opened,
-closed, saved, etc.).  This can be accomplished by implementing the `IDocumentEventsListener` interface, and
+There are scenarios when components may want to react to events related to documents (that is, when they're opened,
+closed, or saved).  This can be accomplished by implementing the `IDocumentEventsListener` interface, and
 using `DocumentsExtensibility.SubscribeAsync` to set up the event subscription.
 
 ```csharp
@@ -80,7 +80,7 @@ internal sealed class SubscribeCommand : Command, IToggleCommand
 {
     private IDisposable? subscription;
 
-    bool? IToggleCommand.IsChecked => this.subscription is not null;
+    bool? IToggleCommand.IsChecked => this.subscription isn't null;
 
     public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
     {

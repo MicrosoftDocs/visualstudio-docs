@@ -13,7 +13,7 @@ ms.technology: vs-ide-sdk
 
 Tool windows are a way to add complex UI and interactions to Visual Studio. They typically provide a user-friendly way to interact with various APIs and features. For example, the Solution Explorer tool window provides a tree-based view of the current project/solution/folder and provides simple gestures for the opening, renaming, and creating of files.
 
-Tool windows are single-instance, meaning that only one instance of the Tool Window can be open at a time. When a Tool Window is closed in the IDE, it is only visibly hidden, instead of being fully closed and disposed of like documents.
+Tool windows are single-instance, meaning that only one instance of the Tool Window can be open at a time. When a Tool Window is closed in the IDE, it's only visibly hidden, instead of being fully closed and disposed of like documents.
 
 ## Get started
 
@@ -43,8 +43,8 @@ The `ToolWindow` abstract class requires the implementation of the [`ToolWindowC
 
 | Parameter | Type | Required | Description | Default Value |
 | --------- |----- | -------- | ----------- | ------------- |
-| Placement | ToolWindowPlacement | No | The location in Visual Studio where the tool window should be opened the first time. [`ToolWindowPlacement.DockedTo`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#M-Microsoft-VisualStudio-Extensibility-ToolWindows-ToolWindowPlacement-DockedTo-System-Guid-) allows to dock the tool window to a guid matching an old vsix-style tool window id. See more about [ToolWindowPlacement](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#T-Microsoft-VisualStudio-Extensibility-ToolWindows-ToolWindowPlacement). | ToolWindowPlacement.Floating |
-| DockDirection | Dock | No | The direction relative to the placement where the tool window should be docked when opened the first time. See more about [Dock](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#T-Microsoft-VisualStudio-Extensibility-ToolWindows-Dock). | Dock.None |
+| Placement | ToolWindowPlacement | No | The location in Visual Studio where the tool window should be opened the first time. [`ToolWindowPlacement.DockedTo`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#M-Microsoft-VisualStudio-Extensibility-ToolWindows-ToolWindowPlacement-DockedTo-System-Guid-) allows docking the tool window to a GUID matching an old VSIX-style tool window ID. See more about [ToolWindowPlacement](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#T-Microsoft-VisualStudio-Extensibility-ToolWindows-ToolWindowPlacement). | ToolWindowPlacement.Floating |
+| DockDirection | Dock | No | The direction relative to the placement where the tool window should be docked when opened the first time. See [Dock](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#T-Microsoft-VisualStudio-Extensibility-ToolWindows-Dock). | Dock.None |
 | AllowAutoCreation | Bool | No | Whether or not the tool window can be created automatically. Setting this to false means that tool windows that are open when Visual Studio is closed will not be automatically restored when Visual Studio is opened again. | `true` |
 
 ### Example
@@ -75,7 +75,7 @@ public class MyToolWindow : ToolWindow
 
 ## Add content to a tool window
 
-Because extensions in VisualStudio.Extensibility might be out-of-process from the IDE, we cannot directly use WPF as a presentation layer for content in Tool Windows. Instead, adding content to a tool window requires creating a [RemoteUserControl](./../../inside-the-sdk/remote-ui.md) and the corresponding data template for that control. While there are some simple examples below, we recommend reading the [Remote UI documentation](./../../inside-the-sdk/remote-ui.md) when adding tool window content.
+Because extensions in VisualStudio.Extensibility might be out-of-process from the IDE, we can't directly use WPF as a presentation layer for content in Tool Windows. Instead, adding content to a tool window requires creating a [RemoteUserControl](./../../inside-the-sdk/remote-ui.md) and the corresponding data template for that control. While there are some simple examples below, we recommend reading the [Remote UI documentation](./../../inside-the-sdk/remote-ui.md) when adding tool window content.
 
 ```csharp
 [VisualStudioContribution]
@@ -126,15 +126,16 @@ internal class MyToolWindowControl : RemoteUserControl
 </DataTemplate>
 ```
 
-See the [Remote UI](./../../inside-the-sdk/remote-ui.md) docs for more information on creating a `RemoteUserControl`.
+for more information on creating a `RemoteUserControl`, see[Remote UI](./../../inside-the-sdk/remote-ui.md).
 
 ## Create a command to show a tool window
 
 A common mechanism for showing a tool window is to add a [command](./../command/command.md) that, when invoked, shows the tool window by calling `ShellExtensibility.ShowToolWindowAsync()`.
 
 `ShowToolWindowAsync()` has a boolean parameter, `activate`:
- - When `true`, the tool window will be both visible in the IDE *and* given focus.
- - When `false`, the tool window will be visible in the IDE, but may be visible only as a tab in a tab group if other tool windows are active.
+
+- When `true`, the tool window will be both visible in the IDE *and* given focus.
+- When `false`, the tool window will be visible in the IDE, but may be visible only as a tab in a tab group if other tool windows are active.
 
 ### Example
 

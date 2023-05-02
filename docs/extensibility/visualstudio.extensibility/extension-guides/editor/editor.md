@@ -28,13 +28,13 @@ The editor object model is described at [Editor concepts](editor-concepts.md).
 
 ## Get started
 
-Your extension code can be configured to run in response to various situations that a occur when a user interacts with Visual Studio. These are known as entry points. Editor extensibility currently supports three entry points: listeners, the [EditorExtensibility](#access-editor-functionality) service object, and commands.
+Your extension code can be configured to run in response to various entry points (situations that occur when a user interacts with Visual Studio). Editor extensibility currently supports three entry points: listeners, the [EditorExtensibility](#access-editor-functionality) service object, and commands.
 
 Event listeners get triggered when certain actions occur in an editor window, represented in code by a `TextView`. For example, when a user types something into the editor, a `TextViewChanged` event occurs. When an editor window is opened or closed, `TextViewOpened` and `TextViewClosed` events occur.
 
 The editor service object is an instance of the `EditorExtensibility` class, which exposes real-time editor functionality, such as performing text edits.
 
-[Commands](../command/command.md) are initiated by the user by clicking on an item which you can place on a menu, context menu, or toolbar.
+[Commands](../command/command.md) are initiated by the user by clicking on an item, which you can place on a menu, context menu, or toolbar.
 
 ### Add a text view listener
 
@@ -79,11 +79,11 @@ When you run your extension, you should see:
 - [ITextViewOpenClosedListener.TextViewClosedAsync()](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md#M-Microsoft-VisualStudio-Extensibility-Editor-UI-ITextViewOpenClosedListener-TextViewClosedAsync-Microsoft-VisualStudio-Extensibility-Editor-UI-ITextView,System-Threading-CancellationToken-) called anytime a text view is closed by the user.
 - [ITextViewChangedListener.TextViewChangedAsync()](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md#M-Microsoft-VisualStudio-Extensibility-Editor-UI-ITextViewChangedListener-TextViewChangedAsync-Microsoft-VisualStudio-Extensibility-Editor-UI-TextViewChangedArgs,System-Threading-CancellationToken-) called anytime a user makes a text change to a text document displayed by a text view.
 
-Each of these methods are passed an [ITextViewSnapshot](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md#T-Microsoft-VisualStudio-Extensibility-Editor-UI-ITextViewSnapshot) containing the state of the text view and text text document at the time the user invoked the action and a CancellationToken that will have `IsCancellationRequested == true` when the IDE wishes to cancel a pending action.
+Each of these methods is passed an [ITextViewSnapshot](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md#T-Microsoft-VisualStudio-Extensibility-Editor-UI-ITextViewSnapshot) containing the state of the text view and text text document at the time the user invoked the action and a CancellationToken that will have `IsCancellationRequested == true` when the IDE wishes to cancel a pending action.
 
 ## Define when your extension is relevant
 
-Your extension is typically relevant only to certain supported document types and scenarios, and so it is important to clearly define its applicability. The Visual Studio Extensibility model provides several ways to clearly define the applicability of an extension via [AppliesTo configuration](#specify-programming-languages-with-the-appliesto-configuration), specifying either what file types such as code languages the extension supports and/or refine the applicability of an extension by further matching on a pattern based on the filename or path.
+Your extension is typically relevant only to certain supported document types and scenarios, and so it's important to clearly define its applicability. You can use [AppliesTo configuration](#specify-programming-languages-with-the-appliesto-configuration)) in several ways to clearly define the applicability of an extension. You can specify either what file types such as code languages the extension supports, and/or further refine the applicability of an extension by matching on a pattern based on the filename or path.
 
 ### Specify programming languages with the AppliesTo configuration
 
@@ -101,7 +101,7 @@ Some well-known document types are shown in the following table:
 | "text" | Text files, including hierarchical descendants of "code", which descends from "text". |
 | "code" | C, C++, C#, and so on. |
 
-DocumentTypes are hierarchical. That is, C# and C++ both descend from "code", so declaring "code" will cause your extension to activate for all code languages, C#, C, C++, and so on.
+DocumentTypes are hierarchical. That is, C# and C++ both descend from "code", so declaring "code" causes your extension to activate for all code languages, C#, C, C++, and so on.
 
 ### Define a new document type
 
@@ -166,11 +166,11 @@ Glob patterns can have the following syntax:
 - `*` to match zero or more characters in a path segment
 - `?` to match on one character in a path segment
 - `**` to match any number of path segments, including none
-- `{}` to group conditions (e.g. `**​/*.{ts,js}` matches all TypeScript and JavaScript files)
-- `[]` to declare a range of characters to match in a path segment (e.g., `example.[0-9]` to match on `example.0`, `example.1`, …)
-- `[!...]` to negate a range of characters to match in a path segment (e.g., `example.[!0-9]` to match on `example.a`, `example.b`, but not `example.0`)
+- `{}` to group conditions (for example, `**​/*.{ts,js}` matches all TypeScript and JavaScript files)
+- `[]` to declare a range of characters to match in a path segment (for example, `example.[0-9]` to match on `example.0`, `example.1`, …)
+- `[!...]` to negate a range of characters to match in a path segment (for example, `example.[!0-9]` to match on `example.a`, `example.b`, but not `example.0`)
 
-Note that a backslash (`\`) is not valid within a glob pattern. Make sure to convert any backslash to slash when creating the glob pattern.
+A backslash (`\`) isn't valid within a glob pattern. Make sure to convert any backslash to slash when creating the glob pattern.
 
 ## Access editor functionality
 
@@ -188,7 +188,7 @@ EditorExtensibility editorService = this.Extensibility.Editor();
 using ITextViewSnapshot textView = await this.Extensibility.Editor().GetActiveTextViewAsync(clientContext, cancellationToken);
 ```
 
-Once you have `ITextViewSnapshot`, you can access editor state. `ITextViewSnapshot` is an immutable view of editor state at a point in time, so you'll need to use the other interfaces in the [Editor object model](editor-concepts.md) to make edits.
+Once you have `ITextViewSnapshot`, you can access editor state. `ITextViewSnapshot` is an immutable view of editor state at a point in time, so you need to use the other interfaces in the [Editor object model](editor-concepts.md) to make edits.
 
 ## Make changes in a text document from an extension
 
@@ -198,12 +198,12 @@ Extensions running outside the main Visual Studio IDE process that use asynchron
 
 Learn more about asynchronous programming at [Asynchronous programming with async and await](/dotnet/csharp/programming-guide/concepts/async/).
 
-In the new Visual Studio extensibility model, the extension is second class relative to the user: it cannot directly
-modify the editor or the text document. All state changes are asynchronous and cooperative, with Visual Studio IDE performing the requested change on the extension's behalf. The extension can request one or more changes on on a specific version of the document or text view, but changes from an extension may be rejected, such as if that area of the document has changed.
+In the new Visual Studio extensibility model, the extension is second class relative to the user: it can't directly
+modify the editor or the text document. All state changes are asynchronous and cooperative, with Visual Studio IDE performing the requested change on the extension's behalf. The extension can request one or more changes on a specific version of the document or text view, but changes from an extension may be rejected, such as if that area of the document has changed.
 
 Edits are requested using the `EditAsync()` method on `EditorExtensibility`.
 
-If you are familiar with legacy Visual Studio extensions, `ITextDocumentEditor` is almost the same as the state changing methods from [ITextBuffer](/dotnet/api/microsoft.visualstudio.text.itextbuffer) and [ITextDocument](/dotnet/api/microsoft.visualstudio.text.itextdocument) and supports most of the same capabilities.
+If you're familiar with legacy Visual Studio extensions, `ITextDocumentEditor` is almost the same as the state changing methods from [ITextBuffer](/dotnet/api/microsoft.visualstudio.text.itextbuffer) and [ITextDocument](/dotnet/api/microsoft.visualstudio.text.itextdocument) and supports most of the same capabilities.
 
 ```csharp
 MutationResult result = await this.Extensibility.Editor().EditAsync(
@@ -228,12 +228,11 @@ To avoid misplaced edits, edits from editor extensions are applied as follows:
 
 [ITextViewSnapshot.GetTextDocumentAsync()](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md#gettextdocumentasync-method) opens a copy of the text document in the Visual Studio extension. Since extensions run in a separate process, all extension interactions are asynchronous, cooperative, and have some caveats:
 
-- GetTextDocumentAsync() may fail if called on a really old `ITextDocument` because it may no longer be cached by the
-  Visual Studio client, if the user has made many changes since it was created. For
-  this reason, if you plan to store an ITextView to access its document later, and cannot tolerate failure, it may
-  be a good idea to call GetTextDocumentAsync() immediately. Doing so fetches the text content for that version of
-  the document into your extension, ensuring that a copy of that version is sent to your extension before it expires.
-- GetTextDocumentAsync() or MutateAsync() may fail if the user closes the document.
+> [!CAUTION]
+> `GetTextDocumentAsync()` might fail if called on an old `ITextDocument`, because it may no longer be cached by the Visual Studio client, if the user has made many changes since it was created. For  this reason, if you plan to store an `ITextView` to access its document later, and can't tolerate failure, it may be a good idea to call `GetTextDocumentAsync()` immediately. Doing so fetches the text content for that version of the document into your extension, ensuring that a copy of that version is sent to your extension before it expires.
+
+> [!CAUTION]
+> `GetTextDocumentAsync()` or `MutateAsync()` might fail if the user closes the document.
 
 #### Concurrent execution
 
@@ -245,13 +244,14 @@ The initial release has a known issue that can result in concurrent execution of
 For more information, see [StreamJsonRpc Default Ordering and Concurrency](https://github.com/microsoft/vs-streamjsonrpc/blob/main/doc/resiliency.md#default-ordering-and-concurrency-behavior).
 
 ## Extending Visual Studio editor with a new margin
-Extensions can contribute new text view margins to the Visual Studio editor. A text view margin is a rectangular UI control attached to a text wiew on one of its four sides. 
+
+Extensions can contribute new text view margins to the Visual Studio editor. A text view margin is a rectangular UI control attached to a text view on one of its four sides. 
 
 Text view margins are placed into a margin container (see [ContainerMarginPlacement.KnownValues](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md#knownvalues-type)) and ordered before or after relatively to other margins (see [MarginPlacement.KnownValues](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md#knownvalues-type-2)).
 
 Text view margin providers implement [ITextViewMarginProvider](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md#itextviewmarginprovider-type) interface, configure the margin they provide by implementing [TextViewMarginProviderConfiguration](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md#textviewmarginproviderconfiguration-property) and when activated, provide UI control to be hosted in the margin via [CreateVisualElementAsync](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md#createvisualelementasync-method).
 
-Because extensions in VisualStudio.Extensibility might be out-of-process from the Visual Studio, we cannot directly use WPF as a presentation layer for content of text view margins. Instead, providing a content to a text view margin requires creating a [RemoteUserControl](./../../inside-the-sdk/remote-ui.md) and the corresponding data template for that control. While there are some simple examples below, we recommend reading the [Remote UI documentation](./../../inside-the-sdk/remote-ui.md) when creating text view margin UI content.
+Because extensions in VisualStudio.Extensibility might be out-of-process from the Visual Studio, we can't directly use WPF as a presentation layer for content of text view margins. Instead, providing a content to a text view margin requires creating a [RemoteUserControl](./../../inside-the-sdk/remote-ui.md) and the corresponding data template for that control. While there are some simple examples below, we recommend reading the [Remote UI documentation](./../../inside-the-sdk/remote-ui.md) when creating text view margin UI content.
 
 ```csharp
 /// <summary>
@@ -277,13 +277,13 @@ public async Task<IRemoteUserControl> CreateVisualElementAsync(ITextViewSnapshot
 
 In addition to configuring margin placement, text view margin providers can also configure the size of the grid cell in which the margin should be placed using [GridCellLength](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md#gridcelllength-property) and [GridUnitType](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md#gridunittype-property) properties.
 
-Text view margins typically visualize some data related to the text view (e.g. current line number or the count of errors) so most text view margin providers would also want to [listen to text view events](#add-a-text-view-listener) to react to opening, closing of text views and user typing.
+Text view margins typically visualize some data related to the text view (for example, current line number or the count of errors) so most text view margin providers would also want to [listen to text view events](#add-a-text-view-listener) to react to opening, closing of text views and user typing.
 
-There will be only one instance of your text view margin provider instantiated regardless of how many applicable text views user opens so if your margin displays some statefull data, your provider will need to keep the state of currently open text views.
+Visual Studio only creates one instance of your text view margin provider regardless of how many applicable text views a user opens, so if your margin displays some stateful data, your provider needs to keep the state of currently open text views.
 
-See [Word Count Margin Sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/WordCountMargin/) for more details.
+For more information, see [Word Count Margin Sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/WordCountMargin/).
 
-Note that vertical text view margins whose content needs to be aligned with text view lines are not yet supported.
+Vertical text view margins whose content needs to be aligned with text view lines are not yet supported.
 
 ## Next steps
 

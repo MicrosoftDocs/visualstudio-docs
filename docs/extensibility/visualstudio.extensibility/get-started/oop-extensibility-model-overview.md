@@ -20,7 +20,7 @@ While extensions have typically been loaded into the Visual Studio process, Visu
 
 ## About the VisualStudio.Extensibility model
 
-The new VisualStudio.Extensibility model aims to address many of the problems both developers experience when using and writing extensions in Visual Studio using the old model. These issues include:
+The new VisualStudio.Extensibility model aims to address many of the problems developers experience when using and writing extensions in Visual Studio using the old model. These issues include:
 
 * Extension-caused crashes and hangs of Visual Studio and other installed extensions
 * Inconsistent hard-to-find docs and APIs, requirements for specialized expertise, and overwhelming architecture
@@ -28,18 +28,18 @@ The new VisualStudio.Extensibility model aims to address many of the problems bo
 
 Writing extensions using VisualStudio.Extensibility provides the following benefits:
 
-* **Increased reliability** – Extensions written with the new model are out-of-proc and will not block the Visual Studio UI.  This means that if the extension crashes, VS will not crash as a result.
+* **Increased reliability** – Extensions written with the new model are out-of-proc and do not block the Visual Studio UI.  This means that if the extension crashes, VS will not crash as a result.
 * **Reduced API complexity** – The new model’s wrapper API has been built from the ground-up to be more cohesive and simpler to implement while retaining the old model’s advanced functionality.
-* **.NET Only** – In order to benefit from latest enhancements on .NET and C#, the new extensibility model will only support .NET and forward for out of process hosting and will be hosted in a .NET process.
+* **.NET Only** – In order to benefit from latest enhancements on .NET and C#, the new extensibility model will only support .NET for out of process hosting and is hosted in a .NET process.
 * **Hot-loading functionality** – Excluding ones requiring VS component prerequisites that haven’t been installed yet, extensions written using the new model can be installed and loaded without needing to restart Visual Studio.
 * **Cross-CPU Platform** – Since underlying implementation is based on RPC compatible brokered services and is .NET based, all extensions will run on all CPU platforms supported by .NET runtime.
-* **Low-trust extensions (Coming Soon)** – Since extensions in the new model run in a separate process, they can be isolated from devenv and ran in a low-trust sandbox. This environment will provide the extensions with read-only access to the file system and controlled writing access via the model’s APIs. 
+* **Low-trust extensions (Coming Soon)** – Since extensions in the new model run in a separate process, they can be isolated from devenv and ran in a low-trust sandbox. This environment provides the extensions with read-only access to the file system and controlled writing access via the model’s APIs.
 
 ## Technology
 
-The VisualStudio.Extensibility model is primarily built on top remote RPC contracts that are provided as brokered services from Visual Studio. The extensions are hosted in an external ServiceHub process that communicates with Visual Studio via RPC and both utilize services provided by Visual Studio and may also provide services to Visual Studio process in certain cases.
+The VisualStudio.Extensibility model is primarily built on top remote RPC contracts that are provided as brokered services from Visual Studio. The extensions are hosted in an external ServiceHub process that communicates with Visual Studio via RPC. Extensions both utilize services provided by Visual Studio and may also provide services to Visual Studio process in certain cases.
 
-Extensibility packages that are provided as part of the SDK consist of base classes, utility methods and wrapper objects around these RPC contracts with the goal of making the extensibility surface area easier to use, easier to discover, and also to be able to quickly contribute to Visual Studio ecosystem such as creating a new command handler.
+Extensibility packages that are provided as part of the SDK consist of base classes, utility methods and wrapper objects around these RPC contracts, with the goal of making the extensibility surface area easier to use and easier to discover, and also make it easier for extension authors to quickly contribute to the Visual Studio ecosystem.
 
 ## Next Steps
 

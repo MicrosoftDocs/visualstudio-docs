@@ -52,8 +52,6 @@ The ShowDialogAsync method several overloads that you should become familiar wit
 | options | [Microsoft.VisualStudio.RpcContracts.Notifications.DialogOption](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.md#T-Microsoft-VisualStudio-RpcContracts-Notifications-DialogOption 'Microsoft.VisualStudio.RpcContracts.Notifications.DialogOption') | The options for displaying the dialog. |
 | cancellationToken | [System.Threading.CancellationToken](/dotnet/api/System.Threading.CancellationToken 'System.Threading.CancellationToken') | A [CancellationToken](/dotnet/api/System.Threading.CancellationToken 'System.Threading.CancellationToken') to cancel the dialog. |
 
-### Example
-
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
 {
@@ -66,15 +64,13 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 }
 ```
 
-See the [Remote UI](./../../inside-the-sdk/remote-ui.md) docs for more information on creating a RemoteUserControl.
+For more information on creating a RemoteUserControl, see [Remote UI](./../../inside-the-sdk/remote-ui.md).
 
 ## Customize the dialog title
 
-When showing a dialog, a custom title string can be provided which will be displayed in the dialog's caption region.
+When your extension shows a dialog, you can provide a custom title string which will be displayed in the dialog's caption region.
 
 ![Dialog Title](DialogTitle.png)
-
-### Example
 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
@@ -90,7 +86,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 ## Customize the dialog buttons
 
-When showing a dialog certain combinations of predefined dialog buttons and default actions can be selected. The predefined button and action combinations can be found in Microsoft.VisualStudio.RpcContracts.Notifications.DialogOption.
+When showing a dialog, certain combinations of predefined dialog buttons and default actions can be selected. The predefined button and action combinations can be found in Microsoft.VisualStudio.RpcContracts.Notifications.DialogOption.
 
 ![Dialog Button](DialogButton.png)
 
@@ -164,8 +160,6 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 ## Get the dialog result
 
 If you need to know whether a user affirmatively closed a dialog or dismissed it, you can await the call to `ShowDialogAsync`, and it will return a `Microsoft.VisualStudio.RpcContracts.Notifications.DialogResult`, which represents the action taken by the user.
-
-### Example
 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)

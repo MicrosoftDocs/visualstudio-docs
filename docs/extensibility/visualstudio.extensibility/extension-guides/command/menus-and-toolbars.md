@@ -11,7 +11,7 @@ ms.custom: template-overview
 
 # Menus and Toolbars overview
 
-Menus and toolbars are the way users access commands in your extension. They are convenient graphical ways to present your commands to users. Typically, related commands are clustered together on the same menu or toolbar.
+Menus and toolbars are the way users access commands in your extension. They're convenient graphical ways to present your commands to users. Typically, related commands are clustered together on the same menu or toolbar.
 
 ## Work with menus and toolbars
 
@@ -27,7 +27,7 @@ This overview covers these top scenarios for working with menus and toolbars:
 
 ## Create a menu
 
-To create a menu with the new Extensibility Model, add a static [`Microsoft.VisualStudio.Extensibility.Commands.MenuConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#MenuConfiguration-type) property, adorning the class with the `VisualStudioContribution` attribute. This static property can be placed on any class in your Extension project. In the new Extensibility Model samples they exist on the `Extension` class for simplicity. Note that menus without any visible children won't be visible in the UI.
+To create a menu with the new Extensibility Model, add a static [`Microsoft.VisualStudio.Extensibility.Commands.MenuConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#MenuConfiguration-type) property, adorning the class with the `VisualStudioContribution` attribute. This static property can be placed on any class in your Extension project. In the new Extensibility Model samples, they exist on the `Extension` class for simplicity. Menus without any visible children won't be visible in the UI.
 
 ```csharp
 [VisualStudioContribution]
@@ -44,15 +44,15 @@ The [`MenuConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main
 
 | Parameter | Type | Required | Description |
 | --------- |----- | -------- | ----------- |
-| DisplayName | String | Yes | The default display name of your menu. Surround this string with the '%' character to enable localizing this string. See more on this at [Localize metadata](localize-metadata.md). |
-| TooltipText | String | No | The text to display as the tooltip when the menu is hovered or focused. Surround this string with the '%' character to enable localizing this string. See more on this at [Localize metadata](localize-metadata.md). |
-| Placements | CommandPlacement[] | No | Specifies the existing Groups within Visual Studio that the menu will be parented to. See more on this at [Place a menu in the IDE](#place-a-menu-in-the-ide). |
-| Children | MenuChild[] | No | Describes the set of commands, menus and groups that should be parented to this menu. The order that these items are defined in the array represent the order that they will appear visually in the IDE. See more on this at [Place items on a menu](#place-items-on-a-menu) |
+| DisplayName | String | Yes | The default display name of your menu. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md). |
+| TooltipText | String | No | The text to display as the tooltip when the menu is hovered or focused. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md). |
+| Placements | CommandPlacement[] | No | Specifies the existing Groups within Visual Studio that the menu will be parented to. See at [Place a menu in the IDE](#place-a-menu-in-the-ide). |
+| Children | MenuChild[] | No | Describes the set of commands, menus and groups that should be parented to this menu. The order that these items are defined in the array represent the order that they will appear visually in the IDE. See at [Place items on a menu](#place-items-on-a-menu) |
 | Priority | uint | No | Describes the display order of the menu relative to other manus/commands parented to the same `CommandPlacement.KnownPlacements`. |
 
 ## Place a menu in the IDE
 
-Menus are placed in the IDE the same way commands are. See [Place a command in the IDE](command.md#place-a-command-in-the-ide) for more details.
+Menus are placed in the IDE the same way commands are. See [Place a command in the IDE](command.md#place-a-command-in-the-ide).
 
 ```csharp
 public override MenuConfiguration MyMenu => new("%MyMenu.DisplayName%")
@@ -138,7 +138,7 @@ public static MenuConfiguration MyMenu1 => new("%MyMenu.DisplayName%")
 };
 ```
 
-In the two example above, the resulting menu would identical in the IDE. The menu `MyMenu1` would look like the menu in the screenshot below:
+In the two previous examples, the resulting menu would be identical in the IDE. The menu `MyMenu1` would look like the menu in the following screenshot:
 
 ![Menu with separator](menu-with-separator.png "Menu with separator")
 
@@ -163,10 +163,10 @@ The [`ToolbarConfiguration`](https://github.com/microsoft/VSExtensibility/tree/m
 
 | Parameter | Type | Required | Description |
 | --------- |----- | -------- | ----------- |
-| DisplayName | String | Yes | The default display name of your toolbar. Surround this string with the '%' character to enable localizing this string. See more on this at [Localize metadata](localize-metadata.md). |
-| TooltipText | String | No | The text to display as the tooltip when the toolbar is hovered or focused. Surround this string with the '%' character to enable localizing this string. See more on this at [Localize metadata](localize-metadata.md). |
-| Placements | CommandPlacement[] | No | Specifies the existing Groups within Visual Studio that the toolbar will be parented to. See more on this at [Place a command in the IDE](command.md#place-a-command-in-the-ide). Leaving this property as `null` will place the toolbar on the Standard Toolbar Bar and can be made visible by selecting the toolbar in the `View -> Toolbars` menu |
-| Children | ToolbarChild[] | No | Describes the set of commands, menus and groups that should be parented to this toolbar. The order that these items are defined in the array represent the order that they will appear visually in the IDE. See more on this at [Place items on a toolbar](#place-items-on-a-toolbar) |
+| DisplayName | String | Yes | The default display name of your toolbar. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md). |
+| TooltipText | String | No | The text to display as the tooltip when the toolbar is hovered or focused. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md). |
+| Placements | CommandPlacement[] | No | Specifies the existing Groups within Visual Studio that the toolbar will be parented to. See at [Place a command in the IDE](command.md#place-a-command-in-the-ide). Leaving this property as `null` will place the toolbar on the Standard Toolbar Bar and can be made visible by selecting the toolbar in the `View -> Toolbars` menu |
+| Children | ToolbarChild[] | No | Describes the set of commands, menus and groups that should be parented to this toolbar. The order that these items are defined in the array represent the order that they will appear visually in the IDE. See at [Place items on a toolbar](#place-items-on-a-toolbar) |
 | Priority | uint | No | Describes the display order of the toolbar relative to other toolbar with the same placement. |
 
 ## Place items on a toolbar
@@ -223,7 +223,7 @@ In the two example above, the resulting toolbar would identical in the IDE. The 
 
 ## Create a group
 
-A group is a visual grouping of items where a separator will placed in between the last and first items of adjacent groups. In the sections above, it describes how to create groups inside of the context of the `Children` property of a `MenuConfiguration` or `ToolbarConfiguration`. It is also possible to define groups inside of their own `CommandGroupConfiguration`. This is useful when you would like to parent a group to an existing menu or toolbar in Visual Studio without defining you're own menu or toolbar. It can also be useful if you would like to format your code in a way that separates your group definitions from your menu and toolbar definitions.
+A group is a visual grouping of items where a separator will be placed in between the last and first items of adjacent groups. In the sections above, it describes how to create groups inside of the context of the `Children` property of a `MenuConfiguration` or `ToolbarConfiguration`. It is also possible to define groups inside of their own `CommandGroupConfiguration`. This is useful when you would like to parent a group to an existing menu or toolbar in Visual Studio without defining you're own menu or toolbar. It can also be useful if you would like to format your code in a way that separates your group definitions from your menu and toolbar definitions.
 
 To create a group with the new Extensibility Model, add a static [`Microsoft.VisualStudio.Extensibility.Commands.CommandGroupConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#CommandGroupConfiguration-type) property. This static property can be placed on any class in your Extension project. In the new Extensibility Model samples they exist on the `Extension` class for simplicity. If a `CommandGroupConfiguration` specifies a `Placement`, it should also be adorned with the `VisualStudioContribution` attribute.
 
@@ -240,13 +240,13 @@ The [`CommandGroupConfiguration`](https://github.com/microsoft/VSExtensibility/t
 
 | Parameter | Type | Required | Description |
 | --------- |----- | -------- | ----------- |
-| Placement | GroupPlacement | No | Specifies the existing menu or toolbar within Visual Studio that the group will be parented to. See more on this at [Place a group in the IDE](#place-a-group-in-the-ide). |
-| Children | GroupChild[] | No | Describes the set of commands and menus that should be parented to this group. The order that these items are defined in the array represent the order that they will appear visually in the IDE. See more on this at [Place items on a group](#place-items-on-a-group) |
+| Placement | GroupPlacement | No | Specifies the existing menu or toolbar within Visual Studio that the group will be parented to. See at [Place a group in the IDE](#place-a-group-in-the-ide). |
+| Children | GroupChild[] | No | Describes the set of commands and menus that should be parented to this group. The order that these items are defined in the array represent the order that they will appear visually in the IDE. See at [Place items on a group](#place-items-on-a-group) |
 | Priority | uint | No | Describes the display order of the group relative to other groups with the same placement. |
 
 ### Place a group in the IDE
 
-There are a set of well-defined places in Visual Studio where commands can be placed. These placements are defined by the property `KnownPlacements` on the class `Microsoft.VisualStudio.Extensibility.Commands.GroupPlacement`. The current set of `KnownPlacements` are:
+There is a set of well-defined places in Visual Studio where commands can be placed. These placements are defined by the property `KnownPlacements` on the class `Microsoft.VisualStudio.Extensibility.Commands.GroupPlacement`. The current set of `KnownPlacements` are:
 
 - `ToolsMenu` - The command will be placed in a group under the top-level "Tools" menu in Visual Studio.
 - `ViewOtherWindowsMenu` - The command will be placed in a group under the top-level "View" -> "Other Windows" menu in Visual Studio.
@@ -299,7 +299,7 @@ public static CommandGroupConfiguration MyGroup => new(GroupPlacement.KnownPlace
 
 ## Place groups on a menu or toolbar
 
-Placing a group on a menu is done using the `MenuChild.Group` method, passing in a `CommandGroupConfiguration` as a parameter. Placing a group on a toolbar is done using the `ToolbarChild.Group`  method, passing in a `CommandGroupConfiguration` as a parameter. Groups parented to menus or toolbars in this way cannot have the `Placement` property of the `CommandGroupConfiguration` set to any value except `null`, and it should not be adorned with the `VisualStudioContribution` attribute.
+Placing a group on a menu is done using the `MenuChild.Group` method, passing in a `CommandGroupConfiguration` as a parameter. Placing a group on a toolbar is done using the `ToolbarChild.Group`  method, passing in a `CommandGroupConfiguration` as a parameter. Groups parented to menus or toolbars in this way can't have the `Placement` property of the `CommandGroupConfiguration` set to any value except `null`, and it should not be adorned with the `VisualStudioContribution` attribute.
 
 ```csharp
 private static CommandGroupConfiguration MyGroup => new()

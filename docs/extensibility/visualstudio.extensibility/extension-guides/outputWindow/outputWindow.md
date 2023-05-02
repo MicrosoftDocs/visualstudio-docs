@@ -11,7 +11,7 @@ ms.technology: vs-ide-sdk
 
 # Output window overview
 
-The Output window in the Visual Studio IDE is a [Tool Window](./../toolWindow/toolWindow.md) that can be used to deliver status, diagnostics/logging, or any other informational text to the user. Unlike [User Prompts](./../userPrompt/userPrompts.md), which might display a message box, the messages written to the Output window are only displayed if the user has the Output pane visible in the IDE (Output in the View menu) and your Channel selected in the "Show output from:" dropdown menu.
+The Output window in the Visual Studio IDE is a [Tool Window](./../toolWindow/toolWindow.md) that can be used to deliver status, diagnostics/logging, or any other informational text to the user. Unlike [User Prompts](./../userPrompt/userPrompts.md), which might display a message box, the messages written to the Output window are only displayed if the user has the Output window visible in the IDE and your channel is selected in the **Show output from** dropdown list. The Output window becomes visible when the user selects **View > Output menu** from the main menu.
 
 ## Get Started
 
@@ -42,9 +42,9 @@ The `GetChannelAsync()` method has three parameters:
 
 The current version of the Output window API requires that the display name for the Output window channel be stored in a [resource file](/dotnet/core/extensions/resources):
 
-- Add a [`.resx` file](/dotnet/core/extensions/resources) ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/Strings.resx)) and make sure it is configured with the ResXFileCodeGenerator in your project ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/OutputWindowSample.csproj)).
+- Add a [`.resx` file](/dotnet/core/extensions/resources) ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/Strings.resx)) and make sure it's configured with the ResXFileCodeGenerator in your project ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/OutputWindowSample.csproj)).
 - Add an [Extension class](../../inside-the-sdk/extension-anatomy.md#extension-instance) to your project, if it doesn't have one already ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/OutputWindowSampleExtension.cs))
-- In the Extension class override the `ResourceManager` property to return the ResourceManager corresponding to your .resx file.
+- In the Extension class, override the `ResourceManager` property to return the ResourceManager corresponding to your .resx file.
 
 ### Edit the `.resx` resource file
 
@@ -62,7 +62,7 @@ Alternatively, you can edit the resource file by editing the raw XML to add the 
 
 ### Edit the `.csproj` Project File
 
-Add the following to your `.csproj` project file (if you added the `.resx` file through the IDE, this may already be present):
+Add the following to your `.csproj` project file (if you added the `.resx` file through the IDE, this might already be present):
 
 ```xml
   <ItemGroup>
@@ -83,7 +83,7 @@ Add the following to your `.csproj` project file (if you added the `.resx` file 
 
 ### Edit or add the Extension class
 
-If your project does not already contain a class that derives from `Microsoft.VisualStudio.Extensibility.Extension`, you need to add one like the simple one below (in this case called `MyExtension.cs`):
+If your project doesn't already contain a class that derives from `Microsoft.VisualStudio.Extensibility.Extension`, you need to add one like the simple one below (in this case called `MyExtension.cs`):
 
 ```csharp
 using System.Resources;

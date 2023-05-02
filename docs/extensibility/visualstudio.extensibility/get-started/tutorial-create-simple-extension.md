@@ -75,7 +75,7 @@ See [using rule based activation constraints](./../inside-the-sdk/activation-con
 
 ## Create the execution method
 
-In this step, you'll implement the Command's `ExecuteCommandAsync` method, which defines what happens when the user chooses the menu item, or presses the item in the toolbar for your command.
+In this step, you'll implement the command's `ExecuteCommandAsync` method, which defines what happens when the user chooses the menu item, or presses the item in the toolbar for your command.
 
 Copy the following code to implement the method.
 
@@ -88,7 +88,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
         using var textView = await context.GetActiveTextViewAsync(cancellationToken);
         if (textView is null)
         {
-            this.logger.TraceInformation("There was no active text view when command is     executed.");
+            this.logger.TraceInformation("There was no active text view when command is executed.");
             return;
         }
 
@@ -96,15 +96,15 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
         await this.Extensibility.Editor().EditAsync(
             batch =>
             {
-                document.AsEditable(batch).Replace(textView.Selection.Extent,    newGuidString);
+                document.AsEditable(batch).Replace(textView.Selection.Extent, newGuidString);
             },
             cancellationToken);
     }
 ```
 
-The first line validate the arguments, then we create a new Guid to use later.
+The first line validates the arguments, then we create a new `Guid` to use later.
 
-Then, we create an `ITextViewSnapshot` (the `textView` object here) by calling the asynchronous method `GetActiveTextViewAsync`. A cancellation token is passed in to preserve the ability to cancel the asynchronous request, but this is not demonstrated in this sample. If we don't get a text view successfully, we'll write to the log and terminate without doing anything else.
+Then, we create an `ITextViewSnapshot` (the `textView` object here) by calling the asynchronous method `GetActiveTextViewAsync`. A cancellation token is passed in to preserve the ability to cancel the asynchronous request, but this isn't demonstrated in this sample. If we don't get a text view successfully, we'll write to the log and terminate without doing anything else.
 
 Next, we request the document, an instance of `ITextDocumentSnapshot` (here `document`).
 

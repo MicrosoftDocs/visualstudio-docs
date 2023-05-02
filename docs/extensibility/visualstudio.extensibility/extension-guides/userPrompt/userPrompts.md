@@ -43,7 +43,7 @@ This guide covers the following scenarios for working with User Prompts:
 
 ## Display a user prompt
 
-As discussed above, User Prompts can be shown inside of Commands, where you have access to an `IClientContext` instance. To show a user prompt, call the `IClientContext.ShowPromptAsync<TResult>()` method inside the `ExecuteCommandAsync()` method for the Command. 
+As discussed previously, user prompts can be shown inside of commands, where you have access to an `IClientContext` instance. To show a user prompt, call the `IClientContext.ShowPromptAsync<TResult>()` method inside the `ExecuteCommandAsync()` method for the command.
 
 ### `IClientContext.ShowPromptAsync<TResult>()`
 
@@ -53,11 +53,11 @@ The `ShowPromptAsync()` method takes three parameters:
 | ----------|------|----------|-------------|
 | message   | `string` | yes | The text of the message for the prompt. |
 | options   | `PromptOptions<TResult>` | yes | Defines the user choices, mapping them to return values. |
-| cancellationToken | [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) | Yes | The [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) for the async operation. When triggered, the prompt is force closed. |
+| cancellationToken | [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) | Yes | The [`CancellationToken`](/dotnet/api/system.threading.cancellationtoken) for the async operation. When triggered, the prompt is force-closed. |
 
 ### Example
 
-The following code inside a Command will show a User Prompt with a simple message and an OK button.
+The following code inside a `Command` shows a user prompt with a simple message and an OK button.
 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
@@ -68,7 +68,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 ## Use built-in options
 
-Several sets of pre-defined `PromptOptions` are available in the SDK.
+Several sets of predefined `PromptOptions` are available in the SDK.
 
 ### OK
 
@@ -112,7 +112,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 }
 ```
 
-If the user clicks "OK", `ShowPromptAsync` will return `true` when awaited. If the user clicks the dismiss button, it will return `false`.
+If the user clicks "OK", `ShowPromptAsync` returns `true` when awaited. If the user clicks the dismiss button, it returns `false`.
 
 #### Change the default choice of a built-in option to "Cancel"
 

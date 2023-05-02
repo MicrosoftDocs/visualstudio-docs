@@ -17,9 +17,9 @@ This document is a quickstart that shows how to create your first extension usin
 
 * Visual Studio 2022 version 17.6 Preview 1 or higher with `.NET desktop development` workload.
 
-* Install latest version of [VisualStudio.Extensibility Project System](https://marketplace.visualstudio.com/items?itemName=vsext.gladstone): This extension will allow you to debug extension projects using F5. There is currently no other deployment mechanism supported.
+* Install latest version of [VisualStudio.Extensibility Project System](https://marketplace.visualstudio.com/items?itemName=vsext.gladstone): With this extension, you can debug extension projects using F5. There is currently no other deployment mechanism supported.
 
-* If you are updating from earlier builds, please make sure to update VisualStudio.Extensibility Project System to latest version as there are breaking changes in VisualStudio.Extensibility packages.
+* If you're updating from earlier builds, make sure to update VisualStudio.Extensibility Project System to latest version as there are breaking changes in VisualStudio.Extensibility packages.
 
 ## Create the extension project
 
@@ -27,11 +27,11 @@ This document is a quickstart that shows how to create your first extension usin
 
 ![VSExtensibilityTemplate](vsextensibility-project-template.png  "VisualStudio.Extensibility template")
 
-At this point you are ready to start extending Visual Studio by adding commands and editor components to your extension.
+At this point, you're ready to start extending Visual Studio by adding commands and editor components to your extension.
 
 ## The Extension class
 
-The template creates a class which extends `Extension`. This class is the first that is instantiated when your extension is loaded. In the `InitializeServices` method you can add your own services to the service collection to make them available for dependency injection.
+The template creates a class that extends `Extension`. This class is the first that is instantiated when your extension is loaded. In the `InitializeServices` method, you can add your own services to the service collection to make them available for dependency injection.
 
 ```csharp
 [VisualStudioContribution]
@@ -50,7 +50,7 @@ You can also see the `VisualStudioContribution` attribute that is used to mark e
 
 ## Add your first command
 
-The template creates `Command1.cs` as your first command handler which you can use as a starting point. Since we want to make Visual Studio aware of this command, and the `Command` class implements `IVisualStudioContributionClass`, the command is marked with the `VisualStudioContribution` attribute.
+The template creates `Command1.cs` as your first command handler, which you can use as a starting point. Since we want to make Visual Studio aware of this command, and the `Command` class implements `IVisualStudioContributionClass`, the command is marked with the `VisualStudioContribution` attribute.
 
 ```csharp
 [VisualStudioContribution]
@@ -58,7 +58,7 @@ internal class Command1 : Command
 {
 ```
 
-The command has a configuration property named `CommandConfiguration` which defines it's display name, icon and placement under the `Extensions` menu.
+The command has a configuration property named `CommandConfiguration`, which defines its display name, icon and placement under the `Extensions` menu.
 
 ```csharp
     public override CommandConfiguration CommandConfiguration => new("%MyExtension.Command1.DisplayName%")
@@ -70,7 +70,7 @@ The command has a configuration property named `CommandConfiguration` which defi
     };
 ```
 
-Configuration properties are evaluated by the C# compiler when building the extension and their value is saved as extension metadata so that Visual Studio can read it without loading the extension assembly. For this reason, configuration properties have additional restrictions compared to normal properties (for example, they must be readonly).
+Configuration properties are evaluated by the C# compiler when building the extension and their values are saved as extension metadata so that Visual Studio can read it without loading the extension assembly. For this reason, configuration properties have additional restrictions compared to normal properties (for example, they must be readonly).
 
 You can see that the display name of the command is `"%MyExtension.Command1.DisplayName%"`, which references the `MyExtension.Command1.DisplayName` string in the `.vsextension/string-resources.json` file, allowing this string to be localized.
 
@@ -92,11 +92,11 @@ For more information on how to add commands, please refer to [Commands](../exten
 
 ## Debug your extension
 
-* Making sure that your extension project is selected as startup project in Visual Studio, press `F5` to start debugging.
-* This will build your extension and deploy it to the experimental instance of Visual Studio version you are using. The debugger should attach once your extension is loaded.
-* You can find the command in `Tools` menu as shown.
+1. Make sure that your extension project is selected as startup project in Visual Studio, and press `F5` to start debugging.
+2. Pressing `F5` builds your extension and deploy it to the experimental instance of Visual Studio version you're using. The debugger should attach once your extension is loaded.
+3. You can find the new command in `Tools` menu as shown in the following image:
 
-![SampleCommand](extension-command.png "Sample Remote Command")
+   ![SampleCommand](extension-command.png "Sample Remote Command")
 
 ## Next steps
 

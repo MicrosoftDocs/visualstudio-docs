@@ -48,10 +48,6 @@ This overview covers top scenarios for working with the project query API:
 
 ## Access the project query space
 
-[Question: terminology can be confusing. "project query space" vs "workspace" vs "ProjectQueryableSpace" -- the same or not? ]
-
-[Consider having two versions of the page - in proc and out of proc]
-
 Before you can query the project system, you need to obtain an instance of the *project query space* object, which has several asynchronous methods that query or update the project system. The term *project query space* and the term *workspace* both mean the same thing, the object that provides access to all the data for a project.
 
 ### Project query space access in an out-of-process extension
@@ -120,7 +116,7 @@ IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> allProjects = workSpace
 
 ### Example using a `WithRequired` clause
 
-When using `WithRequired`, only projects with the required properties will be returned.
+When using `WithRequired`, only projects with the required properties are returned.
 
 ```csharp
 IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> projectWithFiles = workSpace
@@ -132,7 +128,7 @@ IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> projectWithFiles = workSpac
 
 ### Example when no properties are specified
 
-When no properties are specified, the default set of properties will be returned.
+When no properties are specified, the default set of properties are returned.
 
 ```csharp
 IAsyncEnumerable<IQueryResultItem<IPropertySnapshot>> properties = myproject
@@ -218,7 +214,7 @@ IAsyncEnumerable<IQueryResultItem<IFileSnapshot>> files = workspace
     }
 ```
 
-## Query additional information from a previously-returned item
+## Query additional information from a previously returned item
 
 You can use the results from a previous query as the base for additional queries.
 
@@ -268,7 +264,7 @@ You can use a `Get` clause to query for project properties. The following query 
 
 ```csharp
 // We assume that we can find the "RootNamespace" property in the result.
-// However it is not true from query API point of view.
+// However it isn't true from query API point of view.
 // The query tries to retrieve items based on the condition, and if there is no such item, it will run successfully, only without returning items.
 IAsyncEnumerable<IQueryResultItem<IPropertySnapshot>> properties = myProject
     .AsQueryable()  
@@ -297,11 +293,11 @@ IAsyncEnumerable<IQueryResultItem<ISolutionFolderSnapshot>> solutionFolders = wo
     .Get(s => s.SolutionFolders)
     .With(folder => folder.Name)
     .With(folder => folder.IsNested)
-    .With(folder => folder.VisualPath) // it is a relative (virtual) path to represent how the folder is nested.
+    .With(folder => folder.VisualPath) // it's a relative (virtual) path to represent how the folder is nested.
     .QueryAsync(cancellationToken);
 ```
 
-Here we are getting all nested solution folders, projects, files inside a solution folder (not recursively nested):
+Here we're getting all nested solution folders, projects, files inside a solution folder (not recursively nested):
 
 ```csharp
 IAsyncEnumerable<IQueryResultItem<ISolutionSnapshot>> solutionFoldersWithExtraInformation = mySolutionFolder
@@ -315,7 +311,7 @@ IAsyncEnumerable<IQueryResultItem<ISolutionSnapshot>> solutionFoldersWithExtraIn
     .QueryAsync(cancellationToken);
 ```
 
-Here we are getting all recursively nested solution folders. Note that `VisualPath` the path as it shows up in Solution Explorer.
+Here we're getting all recursively nested solution folders. The `VisualPath` is the path as it shows up in Solution Explorer.
 
 ```csharp
 string visualPath = mySolutionFolder.VisualPath;
