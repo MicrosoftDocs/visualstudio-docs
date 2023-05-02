@@ -32,7 +32,7 @@ public override CommandConfiguration CommandConfiguration => new("My command")
 };
 ```
 
-The example below shows how to combine multiple constraints:
+The following example shows how to combine multiple constraints:
 
 ```csharp
 EnabledWhen = ActivationConstraint.And(
@@ -40,7 +40,7 @@ EnabledWhen = ActivationConstraint.And(
     ActivationConstraint.ClientContext(ClientContextKey.Shell.ActiveEditorFileName, @"\.(jpg|jpeg|txt)$")),
 ```
 
-or, more succintly, using the `&` operator:
+or, more succinctly, using the `&` operator:
 
 ```csharp
 EnabledWhen =

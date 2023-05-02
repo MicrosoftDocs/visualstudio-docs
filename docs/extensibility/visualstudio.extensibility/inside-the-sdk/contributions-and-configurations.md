@@ -50,7 +50,7 @@ internal class SampleCommand : Command
 
 When extending a base class provided by the VisualStudio.Extensibility SDK, you can know if you're expected to use the `VisualStudioContribution` attribute by checking whether the base class implements `IVisualStudioContributionClass` (both `Extension` and `Command` do).
 
-Visual Studio contribution classes are lazily-instantiated singletons: only one instance is created and its creation is delayed until Visual Studio needs to interact with it (for example when a `Command` is first invoked by the user).
+Visual Studio contribution classes are lazily instantiated singletons: only one instance is created and its creation is delayed until Visual Studio needs to interact with it (for example when a `Command` is first invoked by the user).
 
 The VisualStudio.Extensibility infrastructure also allows you to receive services through dependency injection as constructor parameters of Visual Studio contribution classes (see [Services provided by SDK for injection](./extension-anatomy.md#services-provided-by-sdk-for-injection)), including any service that you added to the `IServiceCollection` in the `Extension` class' `InitializeServices` method.
 

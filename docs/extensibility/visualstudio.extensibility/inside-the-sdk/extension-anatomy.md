@@ -48,9 +48,9 @@ Instances for these classes are created as part of the extensibility framework p
 
 The lifetime of each part is managed by the respective component that loads those parts inside Visual Studio IDE process.
 
-* Command handlers are initialized when the corresponding command set is activated, which can be during the first execution of the command. Once activated, command handlers should only be disposed when IDE is shutdown.
+* Command handlers are initialized when the corresponding command set is activated, which can be during the first execution of the command. Once activated, command handlers should only be disposed when IDE is shut down.
 
-* Similarly text view event listeners are initialized when the first text view matching the content type specified is loaded in the IDE. Currently, such listeners are active until IDE is shutdown but this behavior may change in future.
+* Similarly text view event listeners are initialized when the first text view matching the content type specified is loaded in the IDE. Currently, such listeners are active until IDE is shut down but this behavior may change in future.
 
 In general, for complex extensions we recommend that extensions provide local services that parts can import in their constructor and using those services to share state across parts and across instances of the same part. This practice ensures that extension state isn't affected by lifetime changes of extension parts.
 
@@ -76,7 +76,7 @@ There are three options for adding a service:
 
 * `AddTransient`: A new instance of the service is created for each part that ingests it.
 * `AddScoped`: A new instance of the service is created within a certain scope. In context of Visual Studio extensibility, scope refers to a single extension part.
-* `AddSingleton`: There is a single shared instance of service that is created on first ingestion.
+* `AddSingleton`: There's a single shared instance of service that is created on first ingestion.
 
 Due to lifetime of `VisualStudioExtensibility` object being bound to the scope of a single extension part, any local service that ingests it has to be a scoped or transient service. Trying to create a singleton service that injects `VisualStudioExtensibility` will result in failure.
 
@@ -84,6 +84,6 @@ For an example of how local services are used, see [MarkdownLinter extension](ht
 
 ## Client context
 
-Since all extensions in the new SDK runs out of process, we introduce the concept of client context for various extension parts to represent the state of the IDE at the time that the event or method is invoked. This context is represented by the `IClientContext` instance in the SDK and is passed in to various operations such as command execution handlers. The SDK provides extension methods on `IClientContext` that can be utilized to retrieve objects from the context. For example, extensions can get the active text view or the URI for the selected items at the time of command execution utilizing the `IClientContext` instance.
+Since all extensions in the new SDK run out of process, we introduce the concept of client context for various extension parts to represent the state of the IDE at the time that the event or method is invoked. This context is represented by the `IClientContext` instance in the SDK and is passed in to various operations such as command execution handlers. The SDK provides extension methods on `IClientContext` that can be utilized to retrieve objects from the context. For example, extensions can get the active text view or the URI for the selected items at the time of command execution utilizing the `IClientContext` instance.
 
 Some components such as commands also allow you to declare which contexts they're interested in. This is done to optimize the amount of data transferred in each remote execution since client context can get large in the future. In the initial preview, there are only two available contexts, `Shell` and `Editor`, and both are included by default when declaring a command using `CommandAttribute`.

@@ -55,7 +55,7 @@ The ShowDialogAsync method several overloads that you should become familiar wit
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
 {
-	// Ownership of the RemoteUserControl is transferred to Visual Studio, so it should not be disposed by the extension
+	// Ownership of the RemoteUserControl is transferred to Visual Studio, so it shouldn't be disposed by the extension
 	#pragma warning disable CA2000 // Dispose objects before losing scope
 	var control = new MyDialogControl(null);
 	#pragma warning restore CA2000 // Dispose objects before losing scope
@@ -75,7 +75,7 @@ When your extension shows a dialog, you can provide a custom title string which 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
 {
-	// Ownership of the RemoteUserControl is transferred to Visual Studio, so it should not be disposed by the extension
+	// Ownership of the RemoteUserControl is transferred to Visual Studio, so it shouldn't be disposed by the extension
 	#pragma warning disable CA2000 // Dispose objects before losing scope
 	var control = new MyDialogControl(null);
 	#pragma warning restore CA2000 // Dispose objects before losing scope
@@ -86,7 +86,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 ## Customize the dialog buttons
 
-When showing a dialog, certain combinations of predefined dialog buttons and default actions can be selected. The predefined button and action combinations can be found in Microsoft.VisualStudio.RpcContracts.Notifications.DialogOption.
+When a dialog is shown in the IDE, certain combinations of predefined dialog buttons and default actions can be selected. The predefined button and action combinations can be found in Microsoft.VisualStudio.RpcContracts.Notifications.DialogOption.
 
 ![Dialog Button](DialogButton.png)
 
@@ -134,7 +134,7 @@ Adding a cancel button:
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
 {
-	// Ownership of the RemoteUserControl is transferred to Visual Studio, so it should not be disposed by the extension
+	// Ownership of the RemoteUserControl is transferred to Visual Studio, so it shouldn't be disposed by the extension
 	#pragma warning disable CA2000 // Dispose objects before losing scope
 	var control = new MyDialogControl(null);
 	#pragma warning restore CA2000 // Dispose objects before losing scope
@@ -148,7 +148,7 @@ Having no dialog buttons:
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
 {
-	// Ownership of the RemoteUserControl is transferred to Visual Studio, so it should not be disposed by the extension
+	// Ownership of the RemoteUserControl is transferred to Visual Studio, so it shouldn't be disposed by the extension
 	#pragma warning disable CA2000 // Dispose objects before losing scope
 	var control = new MyDialogControl(null);
 	#pragma warning restore CA2000 // Dispose objects before losing scope
@@ -164,7 +164,7 @@ If you need to know whether a user affirmatively closed a dialog or dismissed it
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
 {
-	// Ownership of the RemoteUserControl is transferred to Visual Studio, so it should not be disposed by the extension
+	// Ownership of the RemoteUserControl is transferred to Visual Studio, so it shouldn't be disposed by the extension
 	#pragma warning disable CA2000 // Dispose objects before losing scope
 	var control = new MyDialogControl(null);
 	#pragma warning restore CA2000 // Dispose objects before losing scope

@@ -34,7 +34,7 @@ This overview covers top scenarios for working with the project query API:
 - [Filter the query result](#filter-the-query-result)
 - [Use nested queries to specify desired properties](#use-nested-queries-to-specify-desired-properties)
 - [Retrieve a child collection using the Get method](#retrieve-a-child-collection-using-the-get-method)
-- [Query additional information from a previously-returned item](#query-additional-information-from-a-previously-returned-item)
+- [Query additional information from a previously returned item](#query-additional-information-from-a-previously returned-item)
 - [Modify a project](#modify-a-project)
 - [Query for project properties](#query-for-project-properties)
 - [Query for solutions](#query-for-solutions)
@@ -128,7 +128,7 @@ IAsyncEnumerable<IQueryResultItem<IProjectSnapshot>> projectWithFiles = workSpac
 
 ### Example when no properties are specified
 
-When no properties are specified, the default set of properties are returned.
+When no properties are specified, the default set of properties i returned.
 
 ```csharp
 IAsyncEnumerable<IQueryResultItem<IPropertySnapshot>> properties = myproject
@@ -249,7 +249,7 @@ IQueryResult<IProjectSnapshot> updatedProjects = workSpace
     .ExecuteAsync(cancellationToken);
 ```
 
-### Example of adding a file to a previously-returned project
+### Example of adding a file to a previously returned project
 
 ```csharp
 IQueryResult<IProjectSnapshot> updatedProjects = myproject
@@ -325,7 +325,7 @@ IAsyncEnumerable<IQueryResultItem<ISolutionFolderSnapshot>> recursivelyNestedFol
 
 ## Enumerating source files with additional information in a project
 
-Here is an example enumerating all .xaml files in a project and its code generator:
+Here's an example enumerating all .xaml files in a project and its code generator:
 
 ```csharp
 IAsyncEnumerable<IQueryResultItem<IFileSnapshot>> files =

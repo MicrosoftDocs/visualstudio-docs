@@ -79,7 +79,7 @@ public class MyCommand : Command
 
 ## Place a command in the IDE
 
-There are a set of well-defined places in Visual Studio where commands can be placed. These placements are defined by the property `KnownPlacements` on the class `Microsoft.VisualStudio.Extensibility.Commands.CommandPlacement`. The current set of `KnownPlacements` are:
+There's a set of well-defined places in Visual Studio where commands can be placed. These placements are defined by the property `KnownPlacements` on the class `Microsoft.VisualStudio.Extensibility.Commands.CommandPlacement`. The current set of `KnownPlacements` is:
 
 - `ToolsMenu` - The command will be placed in a group under the top-level "Tools" menu in Visual Studio.
 - `ViewOtherWindowsMenu` - The command will be placed in a group under the top-level "View" -> "Other Windows" menu in Visual Studio.
@@ -127,7 +127,7 @@ You can add custom images, which you can then reference with custom monikers by 
     - For example, `MyImage.16.16.png` (a 16\*16 png), `MyImage.20.20.png` (a 20\*20 png) and `MyImage.xaml` are all considered as sources for `MyImage`.
     - When the requested icon size is 16*16, `MyImage.16.16.png` will be used, when requested size is 20\*20, `MyImage.20.20.png` will be used, in all other cases, `MyImage.xaml` will be used.
 2. Put all of the image source files under `Images` folder.
-    - The default image assets folder is `Images`, but you can also customized it by adding `<ImageAssetsPath>%YourFolder%</ImageAssetsPath>`
+    - The default image assets folder is `Images`, but you can also customize it by adding `<ImageAssetsPath>%YourFolder%</ImageAssetsPath>`
   
 ### ImageMoniker.Custom Example
 
@@ -142,7 +142,7 @@ public override CommandConfiguration CommandConfiguration => new("%MyCommand.Dis
 
 Commands can be configured to be executed when a specific key combination is used. A Shortcut consists of one or two chords, where each chord consists of a `Microsoft.VisualStudio.Extensibility.Commands.ModifierKey` and one `Microsoft.VisualStudio.Extensibility.Commands.Key`. Possible values for `ModifierKey` are `LeftAlt`, `Shift`, `Control`, `ControlShift`, `ControlShiftLeftAlt`, and `None`, where `None` is only valid when used in the second chord of a Shortcut. The same `ModifierKey` doesn't need to be used for both chords in a Shortcut. The `Key` used in a chord can be almost any other keyboard key.
 
-Many keyboard shortcuts are already used in Visual Studio. You should not assign the same shortcut to more than one command because duplicate bindings are hard to detect and may also cause unpredictable results. Therefore, it's a good idea to verify the availability of a shortcut before you assign it.
+Many keyboard shortcuts are already used in Visual Studio. You shouldn't assign the same shortcut to more than one command because duplicate bindings are hard to detect and may also cause unpredictable results. Therefore, it's a good idea to verify the availability of a shortcut before you assign it.
 
 ### Shortcut Activation Constraint
 

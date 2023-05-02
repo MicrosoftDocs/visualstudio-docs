@@ -102,7 +102,7 @@ Alternatively, you can implement your own custom serialization (such as binary s
 
 ### Add the visualizer object source DLL to the extension
 
-Modify the extension *.csproj* file adding a `ProjectReference` to the visualizer object source library project, which makes sure that the visualizer object source library is built before the extension is packaged.
+Modify the extension `.csproj` file adding a `ProjectReference` to the visualizer object source library project, which makes sure that the visualizer object source library is built before the extension is packaged.
 
 Also add a `Content` item including the visualizer object source library DLL into the `netstandard2.0` subfolder of the extension.
 

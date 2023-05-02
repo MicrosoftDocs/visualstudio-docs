@@ -26,7 +26,7 @@ This guide is designed to cover the most common things you can do with the Outpu
 
 ## Get an Output window channel
 
-In order to write to the Output window, you need an Output window channel which can be created by calling `VisualStudioExtensibility.Views().Output.GetChannelAsync()`.
+In order to write to the Output window, you need an Output window channel, which can be created by calling `VisualStudioExtensibility.Views().Output.GetChannelAsync()`.
 
 ### `OutputWindowExtensibility.GetChannelAsync()`
 
