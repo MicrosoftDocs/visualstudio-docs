@@ -32,7 +32,7 @@ items:
   - name: Editor RPC
     href: ./extension-guides/editor/editor-rpc.md
 - name: Documents
-  href: ./extension-guides/documents/documents.md
+  href: ./extension-guides/document/documents.md
 - name: Output window
   href: ./extension-guides/outputWindow/outputWindow.md
 - name: Projects
@@ -46,7 +46,7 @@ items:
 - name: Dialogs
   href: ./extension-guides/dialog/dialog.md
 - name: Debugger visualizers
-  href: ./extension-guides/debuggerVisualizers/debuggerVisualizers.md
+  href: ./extension-guidesdebuggerVisualizerdebuggerVisualizer.md
 - name: Inside the SDK
   items:
   - name: Activation constraints
@@ -61,8 +61,4 @@ items:
     href: ./inside-the-sdk/logging.md
   - name: Remote UI
     href: ./inside-the-sdk/remote-ui.md
-- name: Resources
-  items:
-  - name: Announcements
-    href: announcements.md
 

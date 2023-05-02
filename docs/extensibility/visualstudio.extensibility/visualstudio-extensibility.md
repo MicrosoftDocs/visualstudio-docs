@@ -77,12 +77,12 @@ Read an overview of the areas of the SDK that you might need for your extension 
 
 * To learn how to create commands and expose them to users in the IDE, see [Commands](./extension-guides/command/command.md).
 * To learn how to work with contents of files and documents, see [Editor extensions](./extension-guides/editor/editor.md).
-* To learn how to work with the in-memory representation of those documents themselves, see [Documents](./extension-guides/documents/documents.md)
+* To learn how to work with the in-memory representation of those documents themselves, see [Documents](./extension-guides/document/documents.md)
 * To learn how to use the output window in an extension, see [Output window](./extension-guides/outputWindow/outputWindow.md).
 * To learn how to work with tool windows, dockable windows within the Visual Studio IDE, see [Tool windows](./extension-guides/toolWindow/toolWindow.md).
-* To learn how to use prompts with customizable buttons to interact with the user, see [User prompts](./extension-guides/userPrompts/userPrompts.md).
+* To learn how to use prompts with customizable buttons to interact with the user, see [User prompts](./extension-guides/userPrompt/userPrompts.md).
 * To learn how to use dialogs with custom UI to interact with the user, see [Dialogs](./extension-guides/dialog/dialog.md)
-* To learn how to create custom data visualizations when debugging, see [Debugger Visualizers](./extension-guides/debuggerVisualizers/debuggerVisualizers.md)
+* To learn how to create custom data visualizations when debugging, see [Debugger Visualizers](./extension-guidesdebuggerVisualizerdebuggerVisualizer.md)
 * To learn how to query or modify information about project sand solutions, see [Project Query](./extension-guides/project/project.md)
 
 ## Samples and tutorials
@@ -121,8 +121,6 @@ A Visual Studio solution containing all samples can be found at [Samples.sln](ht
 ## Send feedback
 
 We're actively seeking feedback and engagement. The preview phase is a great time to get community input to help us identify issues and opportunities. You can provide feedback and report bugs in our [issues tracker](https://github.com/microsoft/VSExtensibility/issues).
-
-For future updates please bookmark our [announcements](announcements.md) page.
 
 ## Contributing
 
