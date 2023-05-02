@@ -46,7 +46,7 @@ items:
 - name: Dialogs
   href: ./extension-guides/dialog/dialog.md
 - name: Debugger visualizers
-  href: ./extension-guides/debuggerVisualizer/debuggerVisualizer.md
+  href: ./extension-guides/debuggerVisualizer/debuggerVisualizers.md
 - name: Inside the SDK
   items:
   - name: Activation constraints

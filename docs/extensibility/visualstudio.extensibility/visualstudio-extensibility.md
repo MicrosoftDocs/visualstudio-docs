@@ -83,7 +83,7 @@ Read an overview of the areas of the SDK that you might need for your extension 
 * Work with tool windows, dockable windows within the Visual Studio IDE, see [Tool windows](./extension-guides/toolWindow/toolWindow.md).
 * Use prompts with customizable buttons to interact with the user, see [User prompts](./extension-guides/userPrompt/userPrompts.md).
 * Use dialogs with custom UI to interact with the user, see [Dialogs](./extension-guides/dialog/dialog.md)
-* Create custom data visualizations when debugging, see [Debugger Visualizers](./extension-guidesdebuggerVisualizerdebuggerVisualizer.md)
+* Create custom data visualizations when debugging, see [Debugger Visualizers](./extension-guides/debuggerVisualizer/debuggerVisualizers.md)
 * Query or modify information about project sand solutions, see [Project Query](./extension-guides/project/project.md)
 
 ## Samples and tutorials
