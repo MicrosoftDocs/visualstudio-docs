@@ -1,0 +1,84 @@
+### YamlMime:Landing
+
+title: Visual Studio Extensibility 
+summary: Learn about Visual Studio extensibility.
+
+metadata:
+  title: Visual Studio Extensibility
+  description: Learn how to extend Visual Studio.
+  ms.topic: landing-page
+  ms.date: 05/30/2023
+  author: maiak
+  ms.author: maiak
+  manager: jmartens
+  ms.prod: visual-studio-windows
+  ms.technology: vs-extensibility  
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+
+landingContent: 
+  # Card
+  - title: Get Started
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Create your first extension
+            url: ./get-started/create-your-first-extension.md
+      - linkListType: overview
+        links:
+          - text: About VisualStudio.Extensibility
+            url: visualstudio-extensibility.md
+      - linkListType: tutorial
+        links:
+          - text: Create a simple extension
+            url: ./get-started/tutorial-create-simple-extension.md
+
+  # Card
+  - title: Extension guides
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Commands
+            url: ./extending-menus-and-commands.md
+          - text: Debug visualizers
+            url: ./extension-guides/debuggerVisualizer/debuggerVisualizers.md
+          - text: Dialogs
+            url: ./extension-guides/dialog/dialog.md
+          - text: Documents
+            url: ./extension-guides/document/documents.md
+          - text: Editor
+            url: ./extension-guides/editor/editor.md
+          - text: Output window
+            url: ./extension-guides/outputWindow/outputWindow.md
+          - text: Project
+            url: ./extension-guides/project/project.md
+          - text: Tool windows
+            url: ./extension-guides/toolWindow/toolWindow.md
+          - text: User prompts
+            url: ./extension-guides/document/documents.md
+
+  # Card
+  - title: Resources
+    linkLists:
+      - linkListType: sample
+        links:
+          - text: Visual Studio Extensibility samples
+            url: https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples
+      - linkListType: learn
+        links:
+          - text: ExtendVS Gitter community
+            url: https://gitter.im/Microsoft/extendvs
+          - text: Extensibility on Visual Studio Blog
+            url: https://devblogs.microsoft.com/visualstudio/tag/extensions/
+      - linkListType: reference
+        links:
+          - text: API reference
+            url: https://github.com/microsoft/VSExtensibility/blob/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md
+
+  # Card
+  - title: Discover what's new
+    linkLists:
+      - linkListType: whats-new
+        links:
+          - text: Announcements
+            url: https://github.com/microsoft/VSExtensibility/blob/main/docs/announcements.md

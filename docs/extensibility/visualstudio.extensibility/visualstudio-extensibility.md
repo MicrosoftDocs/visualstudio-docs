@@ -1,6 +1,6 @@
 ---
-title: VisualStudio.Extensibility
-description: Welcome to the Visual Studio Extensibility model
+title: VisualStudio.Extensibility overview
+description: Learn about the Visual Studio Extensibility model for adding custom functionality to Visual Studio.
 ms.topic: overview
 ms.date: 3/31/2023
 ms.author: maiak
@@ -9,7 +9,7 @@ manager: jmartens
 ms.technology: vs-ide-sdk
 ---
 
-# Welcome to VisualStudio.Extensibility
+# About VisualStudio.Extensibility
 
 VisualStudio.Extensibility is a new framework for developing Visual Studio extensions. The new framework focuses primarily on extensions that run out-of-process from the IDE for improved performance and reliability, and it features a modern, asynchronous API that has been streamlined and carefully engineered to maximize developer productivity. VisualStudio.Extensibility is in active development and is available as a preview.
 
@@ -23,9 +23,9 @@ VisualStudio.Extensibility aims to address many of the problems developers exper
 * Simplified architecture, consistent APIs, and clear documentation
 * Extensions can be installed without restarting Visual Studio
 
-Eventually, the VisualStudio.Extensibility SDK will ultimately allow you to write any extension you could write using the VSSDK. However, until that time, you might encounter situations where the functionality you need in your extension is not yet available in VisualStudio.Extensibility. In that case, you can develop an in-process extension by leveraging the new VisualStudio.Extensibility APIs while relying on VSSDK to cover any feature gap. To learn more, see [In-proc extensions](./get-started/in-proc-extensions.md).
+Eventually, the VisualStudio.Extensibility SDK will ultimately allow you to write any extension you could write using the VS SDK. However, until that time, you might encounter situations where the functionality you need in your extension is not yet available in VisualStudio.Extensibility. In that case, you can develop an in-process extension by leveraging the new VisualStudio.Extensibility APIs while relying on VS SDK to cover any feature gap. To learn more, see [In-proc extensions](./get-started/in-proc-extensions.md).
 
-This site is your hub for all documentation for the VisualStudio.Extensibility SDK. Documentation is currently available for the following:
+Documentation is currently available for the following:
 
 * VisualStudio.Extensibility SDK (see the following sections)
 * [Extensions to Language Server Protocol (LSP)](https://github.com/microsoft/VSExtensibility/blob/main/docs/lsp/lsp-extensions-specifications.md)
