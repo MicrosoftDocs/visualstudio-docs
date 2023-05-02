@@ -16,4 +16,4 @@ sap.id: 4e55abf9-8505-ecdc-c55f-c67a167a357c
 
 After you sign into the admin portal, you can assign, edit, and remove users on all agreements you have permission to manage. If you have multiple agreements, you see an agreement dropdown menu above the assigned subscriptions panel, allowing you to move between them. 
 
-You can only take action on the active agreements. When an agreement has expired, even if the subscriptions are still assigned, you can no longer manage them. If you need help with moving your subscribers to a new agreement, contact support by using the "Online request" button on this page. 
+You can only edit active agreements. When an agreement has expired, even if the subscriptions are still assigned, you can no longer make changes. You can, however, view the agreements and export the list of subscribers.  If you need help with moving your subscribers to a new agreement, contact support by using the "Online request" button on this page. 
