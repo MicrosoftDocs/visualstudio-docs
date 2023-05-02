@@ -1,7 +1,7 @@
 ---
 title: Debug user code with Just My Code | Microsoft Docs
 description: Just My Code is a debugging feature that automatically steps over calls to non-user code. Learn how to enable, disable, and use this feature.
-ms.date: 04/01/2022
+ms.date: 04/21/2023
 ms.topic: how-to
 ms.assetid: 0f0df097-bbaf-46ad-9ad1-ef5f40435079
 author: mikejo5000
@@ -17,7 +17,7 @@ ms.workload:
 
 *Just My Code* is a Visual Studio debugging feature that automatically steps over calls to system, framework, and other non-user code. In the **Call Stack** window, Just My Code collapses these calls into **[External Code]** frames.
 
-Just My Code works differently in .NET, C++, and JavaScript projects.
+Just My Code works differently in .NET and C++ projects.
 
 ## <a name="BKMK_Enable_or_disable_Just_My_Code"></a> Enable or disable Just My Code
 
@@ -242,8 +242,8 @@ JavaScript Just My Code controls stepping and call stack display by categorizing
 |Classification|Description|
 |-|-|
 |**MyCode**|User code that you own and control.|
-|**LibraryCode**|Non-user code from libraries that you use regularly and your app relies on to function correctly (for example WinJS or jQuery).|
-|**UnrelatedCode**|Non-user code in your app that you don't own and your app doesn't rely on to function correctly. For example, an advertising SDK that displays ads could be UnrelatedCode. In UWP projects, any code that is loaded into your app from an HTTP or HTTPS URI is also considered UnrelatedCode.|
+|**LibraryCode**|Non-user code from libraries that you use regularly and your app relies on to function correctly (for example, jQuery).|
+|**UnrelatedCode**|Non-user code in your app that you don't own and your app doesn't rely on to function correctly. For example, an advertising SDK that displays ads could be UnrelatedCode.|
 
 The JavaScript debugger classifies code as user or non-user in this order:
 
@@ -253,9 +253,7 @@ The JavaScript debugger classifies code as user or non-user in this order:
    - Script in a framework reference, such as WinJS or the Azure SDK, is **LibraryCode**.
    - Script executed by passing a string to the `setTimeout`, `setImmediate`, or `setInterval` functions is **UnrelatedCode**.
 
-2. Classifications specified for all Visual Studio JavaScript projects in the *%VSInstallDirectory%\JavaScript\JustMyCode\mycode.default.wwa.json* file.
-
-3. Classifications in the *mycode.json* file of the current project.
+2. Classifications in the *mycode.json* file of the current project.
 
 Each classification step overrides the previous steps.
 
@@ -292,7 +290,7 @@ If first-chance exceptions are enabled for the exception, and the exception occu
 
 To categorize user and non-user code for a single JavaScript project, you can add a *.json* file named *mycode.json* to the root folder of the project.
 
-Specifications in this file override the default classifications and the *mycode.default.wwa.json* file. The *mycode.json* file does not need to list all key value pairs. The **MyCode**, **Libraries**, and **Unrelated** values can be empty arrays.
+The *mycode.json* file does not need to list all key value pairs. The **MyCode**, **Libraries**, and **Unrelated** values can be empty arrays.
 
 *Mycode.json* files use this syntax:
 

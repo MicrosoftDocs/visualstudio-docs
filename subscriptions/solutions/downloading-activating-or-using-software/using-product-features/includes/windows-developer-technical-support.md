@@ -5,7 +5,7 @@ ms.topic: include
 ms.assetid: 92d406c7-96e1-45a9-8259-d07d2a04a23e 
 author: evanwindom
 ms.author: amast
-ms.date: 02/12/2021
+ms.date: 05/01/2023
 user.type: subscriber
 tags: redirect
 subscription.type: vl, cloud, retail, partner
@@ -18,7 +18,7 @@ Visual Studio subscriptions support provides assistance with sales, subscription
 If you have a Windows technical or developer account issue, your question needs to be directed to [Windows developer support](https://developer.microsoft.com/windows/support/?utm_source=developermscom). We suggest trying these other resources first. 
 
 ## Windows technical documentation 
-Review tutorials, troubleshooting guides, helpful resources, and a range of other topics within [Windows technical documentation](https://learn.microsoft.com/windows/).
+Review tutorials, troubleshooting guides, helpful resources, and a range of other articles within [Windows technical documentation](https://learn.microsoft.com/windows/).
 
 ## Windows developer account
 Your Visual Studio subscription may include a Windows developer account. Activate your account by visiting the [subscriptions portal benefits page](https://my.visualstudio.com/Benefits) and clicking on the benefit tile. 

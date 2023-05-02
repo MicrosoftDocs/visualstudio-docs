@@ -188,9 +188,9 @@ Add Visual Studio 2022 support to your extension by using the following steps. Y
 
     ```diff
     -<PackageReference Include="Microsoft.VisualStudio.SDK" Version="16.0.206" />
-    +<PackageReference Include="Microsoft.VisualStudio.SDK" Version="17.0.0-preview.1" />
+    +<PackageReference Include="Microsoft.VisualStudio.SDK" Version="17.0" />
     -<PackageReference Include="Microsoft.VSSDK.BuildTools" Version="16.10.32" />
-    +<PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.0.63-preview.1" />
+    +<PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.0" />
     ```
 
    The versions shown in the preceding code are just for demonstration. In your code, use versions that are available from the [NuGet website](https://www.nuget.org/). 

@@ -15,6 +15,11 @@
   - name: More Visual Studio features
     href: ide/advanced-feature-overview.md
   expanded: true
+- name: AI
+  items:
+  - name: GitHub Copilot
+    href: ide/visual-studio-github-copilot-extension.md
+  expanded: true
 - name: Installation
   items:
   - name: Install Visual Studio
@@ -783,8 +788,6 @@
       href: ide/how-to-build-multiple-configurations-simultaneously.md
   - name: Build platforms
     items:
-    - name: Understand build platforms
-      href: ide/understanding-build-platforms.md
     - name: Configure projects to target a platform
       href: ide/how-to-configure-projects-to-target-platforms.md
     - name: Configure projects to target multiple platforms
@@ -1342,8 +1345,6 @@
     href: /visualstudio/productinfo/vs-servicing-vs/
   - name: Customer Experience Improvement
     href: ide/visual-studio-experience-improvement-program.md
-  - name: Connected experiences in Visual Studio
-    href: ide/reference/connected-experiences.md
   expanded: true
 - name: Send feedback
   items:

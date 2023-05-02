@@ -260,7 +260,9 @@ ASP.NET Core looks for a certificate that matches the assembly name under the *H
 
 If your configuration supports both containerized and non-containerized builds, you should use the environment variables, because the paths are specific to the container environment.
 
-For more information about using SSL with ASP.NET Core apps in containers, see [Hosting ASP.NET Core images with Docker over HTTPS](/aspnet/core/security/docker-https)).
+For more information about using SSL with ASP.NET Core apps in containers, see [Hosting ASP.NET Core images with Docker over HTTPS](/aspnet/core/security/docker-https).
+
+For a code sample that demonstrates creating custom certificates for a multi-service app that are trusted on the host and in the containers for HTTPS service-to-service communication, see [CertExample](https://github.com/NCarlsonMSFT/CertExample).
 
 ## Next steps
 

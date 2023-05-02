@@ -1,7 +1,7 @@
 ---
 title: Enable debugging for ASP.NET apps | Microsoft Docs
 description: Learn how to enable debugging for ASP.NET and ASP.NET Core apps in Visual Studio. You can run the process on an IIS Express server or a local IIS server. 
-ms.date: 01/20/2023
+ms.date: 04/25/2023
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -35,6 +35,8 @@ The built-in IIS Express server is included with Visual Studio. IIS Express is t
 For ASP.NET Core, you can also debug on the Kestrel web server.
 ::: moniker-end
 
+## Prerequisites for local IIS server
+
 You can also debug an ASP.NET or ASP.NET Core app on a local IIS server (version 8.0 or higher) that is configured to run the app. To debug on local IIS, you must meet the following requirements:
 
 <a name="iis"></a>
@@ -51,6 +53,8 @@ IIS Express is the default, and is preconfigured. If you're debugging on Local I
 1. Select the ASP.NET project in Visual Studio **Solution Explorer** and click the **Properties** icon, or press **Alt**+**Enter**, or right-click and choose **Properties**.
 
 1. Select the **Web** tab.
+
+   If you don't see the **Web** tab, see [Debug ASP.NET Core apps](#debug-aspnet-core-apps). The Web tab only appears for ASP.NET Framework.
 
 1. In the **Properties** pane, under **Servers**,
    - For IIS Express, select **IIS Express** from the dropdown.

@@ -92,13 +92,13 @@ For .NET Core and .NET 5 or later, you typically use `dotnet build` to invoke MS
 </PropertyGroup>
 ```
 
- You can define a property conditionally by placing a `Condition` attribute in the element. The contents of conditional elements are ignored unless the condition evaluates to `true`. In the following example, the `Configuration` element is defined if it hasn't yet been defined.
+ You can define a property conditionally by placing a `Condition` attribute in the element. The contents of conditional elements are ignored unless the condition evaluates to `true`. In the following example, the `Configuration` property is defined if it hasn't yet been defined.
 
 ```xml
-<SomeProperty  Condition=" '$(Configuration)' == '' ">DefaultValue</SomeProperty>
+<Configuration  Condition=" '$(Configuration)' == '' ">DefaultValue</SomeProperty>
 ```
 
- Properties can be referenced throughout the project file by using the syntax $(\<PropertyName>). For example, you can reference the properties in the previous examples by using `$(BuildDir)` and `$(SomeProperty)`.
+ Properties can be referenced throughout the project file by using the syntax $(\<PropertyName>). For example, you can reference the properties in the previous examples by using `$(BuildDir)` and `$(Configuration)`.
 
  For more information about properties, see [MSBuild properties](../msbuild/msbuild-properties.md).
 
@@ -162,7 +162,7 @@ For .NET Core and .NET 5 or later, you typically use `dotnet build` to invoke MS
 
 ## Build logs
 
- You can log build errors, warnings, and messages to the console or another output device. For more information, see [Obtaining build logs](../msbuild/obtaining-build-logs-with-msbuild.md) and [Logging in MSBuild](../msbuild/logging-in-msbuild.md).
+ You can log build errors, warnings, and messages to the console or another output device. For more information, see [Obtaining build logs](../msbuild/obtaining-build-logs-with-msbuild.md) and [Obtaining build logs with MSBuild](../msbuild/obtaining-build-logs-with-msbuild.md).
 
 ## Use MSBuild in Visual Studio
 
@@ -210,8 +210,9 @@ MSBuild is an open-source project that accepts user contributions, just like the
 | [Targets](../msbuild/msbuild-targets.md) | Explains how to group tasks together in a particular order and enable sections of the build process to be called on the command line. |
 | [Tasks](../msbuild/msbuild-tasks.md) | Shows how to create a unit of executable code that can be used by MSBuild to perform atomic build operations. |
 | [Conditions](../msbuild/msbuild-conditions.md) | Discusses how to use the `Condition` attribute in an MSBuild element. |
-| [Advanced concepts](../msbuild/msbuild-advanced-concepts.md) | Presents batching, performing transforms, multitargeting, and other advanced techniques. |
-| [Logging in MSBuild](../msbuild/logging-in-msbuild.md) | Describes how to log build events, messages, and errors. |
+| [Batching](../msbuild/msbuild-batching.md) | Discusses how MSBuild categorizes item lists by metadata for execution in tasks and targets. |
+| [Multitargeting](../msbuild/msbuild-multitargeting-overview.md) | Shows how to target multiple .NET versions and/or multiple platforms. |
+| [Obtaining build logs](obtaining-build-logs-with-msbuild.md) | Describes how to log build events, messages, and errors. |
 | [How MSBuild builds projects](build-process-overview.md) | Describes the internal build process used within MSBuild |
 | [Create a custom task for code generation](tutorial-custom-task-code-generation.md) | Shows how to create a custom task, with a code example. |
 | [Use MSBuild to generate a REST API client](tutorial-rest-api-client-msbuild.md) | Shows how to extend the build to handle REST API client generation, with a code example. |
