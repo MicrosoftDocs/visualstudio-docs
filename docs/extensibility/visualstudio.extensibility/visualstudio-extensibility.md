@@ -73,17 +73,17 @@ Learn about the [Remote UI](./inside-the-sdk/remote-ui.md) model used in the Vis
 
 ## Overviews
 
-Read an overview of the areas of the SDK that you might need for your extension development projects:
+Read an overview of the areas of the SDK that you might need for your extension development projects.
 
-* To learn how to create commands and expose them to users in the IDE, see [Commands](./extension-guides/command/command.md).
-* To learn how to work with contents of files and documents, see [Editor extensions](./extension-guides/editor/editor.md).
-* To learn how to work with the in-memory representation of those documents themselves, see [Documents](./extension-guides/document/documents.md)
-* To learn how to use the output window in an extension, see [Output window](./extension-guides/outputWindow/outputWindow.md).
-* To learn how to work with tool windows, dockable windows within the Visual Studio IDE, see [Tool windows](./extension-guides/toolWindow/toolWindow.md).
-* To learn how to use prompts with customizable buttons to interact with the user, see [User prompts](./extension-guides/userPrompt/userPrompts.md).
-* To learn how to use dialogs with custom UI to interact with the user, see [Dialogs](./extension-guides/dialog/dialog.md)
-* To learn how to create custom data visualizations when debugging, see [Debugger Visualizers](./extension-guidesdebuggerVisualizerdebuggerVisualizer.md)
-* To learn how to query or modify information about project sand solutions, see [Project Query](./extension-guides/project/project.md)
+* Create commands and expose them to users in the IDE, see [Commands](./extension-guides/command/command.md).
+* Work with contents of files and documents, see [Editor extensions](./extension-guides/editor/editor.md).
+* Work with the in-memory representation of those documents themselves, see [Documents](./extension-guides/document/documents.md)
+* Use the output window in an extension, see [Output window](./extension-guides/outputWindow/outputWindow.md).
+* Work with tool windows, dockable windows within the Visual Studio IDE, see [Tool windows](./extension-guides/toolWindow/toolWindow.md).
+* Use prompts with customizable buttons to interact with the user, see [User prompts](./extension-guides/userPrompt/userPrompts.md).
+* Use dialogs with custom UI to interact with the user, see [Dialogs](./extension-guides/dialog/dialog.md)
+* Create custom data visualizations when debugging, see [Debugger Visualizers](./extension-guidesdebuggerVisualizerdebuggerVisualizer.md)
+* Query or modify information about project sand solutions, see [Project Query](./extension-guides/project/project.md)
 
 ## Samples and tutorials
 
@@ -121,18 +121,3 @@ A Visual Studio solution containing all samples can be found at [Samples.sln](ht
 ## Send feedback
 
 We're actively seeking feedback and engagement. The preview phase is a great time to get community input to help us identify issues and opportunities. You can provide feedback and report bugs in our [issues tracker](https://github.com/microsoft/VSExtensibility/issues).
-
-## Contributing
-
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
-
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
-## Trademarks
-
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft trademarks or logos is subject to and must follow [Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
