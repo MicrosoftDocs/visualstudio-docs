@@ -20,6 +20,8 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
+
 > [!NOTE]
 > The features described in this article apply to .NET Framework Windows Forms and WPF development. The features are not supported for .NET Core development, for both WPF and Windows Forms.
 

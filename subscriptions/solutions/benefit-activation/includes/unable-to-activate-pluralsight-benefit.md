@@ -5,7 +5,7 @@ ms.topic: include
 ms.assetid: 7e5d8886-538c-4e29-9c4c-8989cf4e09dd
 author: larissacrawford
 ms.author: amast
-ms.date: 02/24/2023
+ms.date: 04/28/2023
 user.type: subscriber
 tags: benefit, pluralsight
 subscription.type: vl, cloud, retail, partner
@@ -21,8 +21,8 @@ Read more [information on activation, eligibility, and FAQs about the Pluralsigh
 ## How to activate your Pluralsight benefit
   
 1. Sign in to the [subscriptions portal](https://my.visualstudio.com/benefits) and select the Activate link on the Pluralsight benefit tile located in the Professional Development section on the Benefits page. 
-1. You'll be redirected to complete the Pluralsight subscription sign-up form for the benefit level that's included with your Visual Studio subscription. This registration page expires after a few minutes. If you don't complete the registration process before the page expires, return to step 1.
-1. You'll see a confirmation on the page and be asked to set a password. 
+1. Complete the Pluralsight subscription sign-up form for the benefit level that's included with your Visual Studio subscription. This registration page expires after a few minutes. If you don't complete the registration process before the page expires, return to step 1.
+1. You see a confirmation on the page and are asked to set a password. 
 1. After you activate your Pluralsight benefit, the appearance of the tile in the Visual Studio subscriptions portal will change to help you track the status of your benefit. You may need to refresh the portal to see the change. 
 
 Read the [full activation instructions](https://learn.microsoft.com/visualstudio/subscriptions/vs-pluralsight#activate-your-pluralsight-benefit).
