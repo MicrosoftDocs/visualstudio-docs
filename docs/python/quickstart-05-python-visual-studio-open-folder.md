@@ -143,7 +143,8 @@ In such cases, you must also add a line to the launch configuration JSON file to
                 "webBrowserUrl": "",
                 "project": "contemplate_koans.py",
                 "projectTarget": "",
-                "name": "contemplate_koans.py"
+                "name": "contemplate_koans.py",
+                "workingDirectory": "python3"
             }    
         ]
     }
