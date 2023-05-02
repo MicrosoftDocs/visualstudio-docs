@@ -1,6 +1,6 @@
 items:
 - name: VisualStudio.Extensibility documentation
-  href: index.md
+  href: index.yml
 - name: Overview
   expanded: true
   items:
@@ -46,7 +46,7 @@ items:
 - name: Dialogs
   href: ./extension-guides/dialog/dialog.md
 - name: Debugger visualizers
-  href: ./extension-guidesdebuggerVisualizerdebuggerVisualizer.md
+  href: ./extension-guides/debuggerVisualizer/debuggerVisualizer.md
 - name: Inside the SDK
   items:
   - name: Activation constraints

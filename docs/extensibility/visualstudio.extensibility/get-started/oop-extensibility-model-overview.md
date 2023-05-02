@@ -45,5 +45,5 @@ Extensibility packages that are provided as part of the SDK consist of base clas
 
 To get started writing an extension using the new model, here are some docs, walkthroughs, samples, and videos to get you started:
 
-* [Documentation Index](../index.md)
+* [Documentation Index](../visualstudio-extensibility.md)
 * [Create your first extension](create-your-first-extension.md)

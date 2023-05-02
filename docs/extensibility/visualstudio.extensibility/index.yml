@@ -39,7 +39,7 @@ landingContent:
       - linkListType: how-to-guide
         links:
           - text: Commands
-            url: ./extending-menus-and-commands.md
+            url: ./extension-guides/command/command.md
           - text: Debug visualizers
             url: ./extension-guides/debuggerVisualizer/debuggerVisualizers.md
           - text: Dialogs
