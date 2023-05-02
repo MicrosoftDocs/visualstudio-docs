@@ -35,7 +35,7 @@ landingContent:
         links:
           - text: Compare Git & Team Explorer
             url: git-team-explorer-feature-comparison.md
-          - text: Learning Series - Get started with GitHub in Visual Studio
+          - text: Learn about Git, GitHub, & Visual Studio
             url: https://devblogs.microsoft.com/visualstudio/learn-github-in-visual-studio-learning-series/
 
 
