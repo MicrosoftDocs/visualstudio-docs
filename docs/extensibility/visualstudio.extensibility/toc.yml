@@ -6,6 +6,10 @@ items:
   items:
   - name: About VisualStudio.Extensibility
     href: visualstudio-extensibility.md
+  - name: Out-of-process extensibility overview
+    href: ./get-started/oop-extensibility-model-overview.md
+  - name: In-process extensions
+    href: ./get-started/in-proc-extensions.md
 - name: Get started
   expanded: true
   items:
@@ -13,10 +17,6 @@ items:
     href: ./get-started/create-your-first-extension.md
   - name: Create a simple extension
     href: ./get-started/tutorial-create-simple-extension.md
-  - name: Out-of-process extensibility overview
-    href: ./get-started/oop-extensibility-model-overview.md
-  - name: In-process extensions
-    href: ./get-started/in-proc-extensions.md
 - name: Commands
   items:
   - name: About commands
