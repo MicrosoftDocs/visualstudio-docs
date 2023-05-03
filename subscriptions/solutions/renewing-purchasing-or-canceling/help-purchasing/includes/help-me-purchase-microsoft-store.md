@@ -5,7 +5,7 @@ ms.topic: include
 ms.assetid: f56c7642-f945-4bdf-b48e-9d548b08d91d
 author: larissacrawford
 ms.author: amast
-ms.date: 02/28/2023
+ms.date: 05/03/2023
 user.type: subscriber
 tags: purchasing
 subscription.type: retail
@@ -41,7 +41,7 @@ After you purchase a Visual Studio subscription through the Microsoft Store, you
 
 1. Navigate to the [subscriptions portal activation page](https://my.visualstudio.com/subscriptions/activate).
 1. Sign in with the email that requires access to the Visual Studio subscription. 
-1. Enter your product key in the "Activate Your Visual Studio Subscription" pop-up window. You'll find this key on the payment confirmation page or in confirmation email. 
+1. Enter your product key in the "Activate Your Visual Studio Subscription" pop-up window. You can find this key on the payment confirmation page or in confirmation email. 
 
 The subscription should now be visible on the [subscriptions page](https://my.visualstudio.com/subscriptions) and you should have access to all your subscription benefits. 
 
