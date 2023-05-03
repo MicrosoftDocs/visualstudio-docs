@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 05/03/2023
+ms.date: 05/04/2023
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -31,13 +31,13 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Build ClickOnce applications from the command line](../deployment/building-clickonce-applications-from-the-command-line.md) - Add link to command-line build for .NET ClickOnce
+- [Build ClickOnce applications from the command line](../deployment/building-clickonce-applications-from-the-command-line.md) - Add link to new Command-Line Build for .NET ClickOnce article
 
 ### Designers
 
 **Updated articles**
 
-- [Fix HDPI/scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md) - Shorten text to improve readability.
+- [Fix HDPI/scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md) - Shorten text to improve readability
 
 ### Extensibility
 
@@ -62,7 +62,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Bookmark code in Visual Studio](../ide/setting-bookmarks-in-code.md) - Update text, links, and screenshots
 - [Sign in to Visual Studio on Windows](../ide/signing-in-to-visual-studio.md) - Update text and screenshots
 - [Make code work in Visual Studio](../ide/find-and-fix-code-errors.md) - Update text and links
-- [Optimize Visual Studio startup time](../ide/optimize-visual-studio-startup-time.md) - Update text, links & refresh for revised UI
+- [Optimize Visual Studio startup time](../ide/optimize-visual-studio-startup-time.md) - Update text, links, and refresh for revised UI
 - [How to: Change fonts, colors, and themes in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) - Update text
 - [Walkthrough: Create a code snippet in Visual Studio](../ide/walkthrough-creating-a-code-snippet.md) - Add more detail to procedural instructions
 
@@ -70,7 +70,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Create, maintain, and deploy a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md) - Update the --useLatestInstaller content & add link to Community SKU
+- [Create, maintain, and deploy a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md) - Update the useLatestInstaller content & add link to Community edition
 
 ### MSBuild
 
@@ -82,7 +82,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Which performance tool should I use? (C#, Visual Basic, C++, F#)](../profiling/choose-performance-tool.md) - Update article on choosing your performance tool
+- [Which performance tool should I use? (C#, Visual Basic, C++, F#)](../profiling/choose-performance-tool.md) - Update info about choosing your performance tool
 
 ### Community contributors
 
