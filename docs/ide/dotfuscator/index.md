@@ -85,8 +85,6 @@ You can also get the **latest version** of Dotfuscator Community from [the Dotfu
 
 ## Upgrade from Dotfuscator Community 5
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 Learn how to upgrade to PreEmptive Protection - Dotfuscator Community 6.
 
 Depending on your installation history and version of Visual Studio, you may be currently running Dotfuscator Community 5, the prior major version. If so, you should upgrade, because it is important to ensure your code is being given the [latest protection measures][always-improving]. Upgrades are available at no charge.
@@ -358,6 +356,15 @@ Additionally, `.xap` packages can no longer be used as inputs because Silverligh
 
 The Renaming option to introduce explicit method overrides has been removed from Dotfuscator. To use Dotfuscator 6, you will need to [upgrade your configuration file](#steps-config-files) to remove this setting.
 
+
+## Full documentation
+
+This page and its subpages provide a high-level overview of Dotfuscator Community's features, as well as [instructions for installing the tool][install].
+
+See [the full Dotfuscator Community User Guide at preemptive.com][full] for detailed usage instructions, including [how to start using the Dotfuscator Community user interface][get-started].
+
+<!-- Copyright © 2019 PreEmptive Solutions, LLC -->
+
 [changelog]: https://www.preemptive.com/support/dotfuscator-support/dotfuscator-ce-change-log
 [download]: https://www.preemptive.com/products/dotfuscator/downloads
 [always-improving]: https://www.preemptive.com/always-improving
@@ -387,14 +394,6 @@ The Renaming option to introduce explicit method overrides has been removed from
 [dotnet-attributes]: /dotnet/standard/attributes
 [application-insights]: /azure/azure-monitor/app/app-insights-overview
 [nuget-org]: https://www.nuget.org/
-
-## Full documentation
-
-This page and its subpages provide a high-level overview of Dotfuscator Community's features, as well as [instructions for installing the tool][install].
-
-See [the full Dotfuscator Community User Guide at preemptive.com][full] for detailed usage instructions, including [how to start using the Dotfuscator Community user interface][get-started].
-
-<!-- Copyright © 2019 PreEmptive Solutions, LLC -->
 
 [assemblies]:  /dotnet/standard/assembly-format
 [software-protection]:  https://www.preemptive.com/software-protection
