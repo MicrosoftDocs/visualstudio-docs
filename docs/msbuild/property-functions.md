@@ -402,8 +402,8 @@ MSBuild 16.7 and higher define several functions for handling [TargetFramework a
 |------------------------|-----------------|
 |`GetTargetFrameworkIdentifier(string targetFramework)`|Parse the TargetFrameworkIdentifier from the TargetFramework.|
 |`GetTargetFrameworkVersion(string targetFramework, int versionPartCount)`|Parse the TargetFrameworkVersion from the TargetFramework.|
-|`GetTargetPlatformIdentifier(string targetFramework)|Parse the TargetPlatformIdentifier from the TargetFramework.|
-|GetTargetPlatformVersion(string targetFramework, int versionPartCount)`|Parse the TargetPlatformVersion from the TargetFramework.|
+|`GetTargetPlatformIdentifier(string targetFramework)`|Parse the TargetPlatformIdentifier from the TargetFramework.|
+|`GetTargetPlatformVersion(string targetFramework, int versionPartCount)`|Parse the TargetPlatformVersion from the TargetFramework.|
 |`IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)`|Return 'True' if the candidate target framework is compatible with this target framework and false otherwise.|
 
 The `versionPartCount` parameter of `GetTargetFrameworkVersion` and `GetTargetPlatformVersion` has a default value of 2.
