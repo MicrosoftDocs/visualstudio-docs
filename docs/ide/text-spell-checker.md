@@ -1,7 +1,7 @@
 ---
 title: "Learn about the Text Spell Checker (Preview)"
 description: Learn how to use the Text Spell Checker to correct misspelled words in multiple languages and to customize it to share with your dev team.
-ms.date: 03/17/2023
+ms.date: 05/04/2023
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -89,8 +89,15 @@ Here are some examples and use-case scenarios of the switches you can configure 
     ```spelling_exclusion_path = absolute OR relative path to exclusion dictionary```<br>
     ```(Example: = .\exclusion.dic)```
 
-    > [!IMPORTANT]
-    > The exclusion.dic file must be UTF16 with BOM encoding to work correctly.
+    Visual Studio uses the exclusion dictionary specified by the spelling_exclusion_path switch in your .editorconfig file or an “exclusion.dic” file in your %localappdata%\Microsoft\VisualStudio\<Version> directory if a switch can’t be found. In either case, the spell-checking APIs required the exclusion file to have “UTF-16 with BOM” encoding to work correctly. We got multiple reports of the encoding becoming corrupted, particularly when users manually modified these files to remove excluded words.
+
+## Special case handling
+
+In Visual Studio, certain strings aren't recommended. Other strings aren't spell checked or aren't spell checked in their entirety.
+
+- Strings that include punctuation aren't recommended. For example, `misc.` isn't recommended as it could cause code that won't compile.
+- Backslashes in a string can omit the subsequent character from being spell-checked. For example, `\nhello` won't be flagged as a spelling error because the "n" is omitted and "hello" is a correctly spelled word. 
+- Strings that contain URLs such as `https://...` or `mailto:..` won't be spell-checked over the entire string.
 
 ## See also
 
