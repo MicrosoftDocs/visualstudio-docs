@@ -49,7 +49,7 @@ Valid property names begin with an uppercase or lowercase letter or underscore (
 
 ## MSBuild internal properties
 
-Properties that begin with an underscore (_) are private to MSBuild and should not be reset or overridden in user code.
+Properties defined in standard import files that begin with an underscore (_) are private to MSBuild and should not be read, reset, or overridden in user code.
 
 ## Environment properties
 
