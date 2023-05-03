@@ -4,6 +4,7 @@ description: Learn about the RPC protocol for editor-based extensions.
 ms.date: 3/31/2023
 ms.topic: conceptual
 ms.author: maiak
+monikerRange: ">=vs-2022"
 author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk

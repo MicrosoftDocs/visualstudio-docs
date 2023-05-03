@@ -4,6 +4,7 @@ description: An overview of VisualStudio.Extensibility debugger visualizers
 ms.date: 3/31/2023
 ms.topic: conceptual
 ms.author: ghogen
+monikerRange: ">=vs-2022"
 author: ghogen
 manager: jmartens
 ms.technology: vs-ide-sdk

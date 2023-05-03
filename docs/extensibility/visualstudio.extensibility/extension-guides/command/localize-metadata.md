@@ -3,6 +3,7 @@ title: Metadata localization
 description: An overview of extensibility metadata localization
 author: RyanToth3
 ms.author: rytoth
+monikerRange: ">=vs-2022"
 ms.technology: vs-ide-sdk
 ms.topic: overview
 ms.date: 02/03/2023

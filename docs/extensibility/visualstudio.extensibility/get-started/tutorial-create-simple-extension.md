@@ -4,6 +4,7 @@ description: A tutorial for creating a simple extension
 ms.topic: tutorial
 ms.date: 3/31/2023
 ms.author: maiak
+monikerRange: ">=vs-2022"
 author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk

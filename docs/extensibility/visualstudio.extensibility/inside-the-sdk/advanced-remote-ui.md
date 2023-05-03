@@ -4,6 +4,7 @@ description: A tutorial demonstrating more advanced Remote UI concepts
 ms.date: 3/31/2023
 ms.topic: conceptual
 ms.author: maiak
+monikerRange: ">=vs-2022"
 author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk

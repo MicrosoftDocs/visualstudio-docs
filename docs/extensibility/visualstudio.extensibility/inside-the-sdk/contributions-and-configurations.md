@@ -4,6 +4,7 @@ description: How to expose extensions components to Visual Studio and how to con
 ms.date: 3/31/2023
 ms.topic: how-to
 ms.author: maiak
+monikerRange: ">=vs-2022"
 author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk

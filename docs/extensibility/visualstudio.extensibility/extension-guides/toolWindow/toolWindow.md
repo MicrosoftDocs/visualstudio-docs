@@ -4,6 +4,7 @@ description: An overview of extensibility tool windows
 ms.topic: overview
 ms.date: 3/31/2023
 ms.author: maiak
+monikerRange: ">=vs-2022"
 author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk

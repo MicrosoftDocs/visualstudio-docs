@@ -4,6 +4,7 @@ description: Learn how to use logging to store information about the execution o
 ms.topic: conceptual
 ms.date: 3/31/2023
 ms.author: maiak
+monikerRange: ">=vs-2022"
 author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
