@@ -1310,20 +1310,7 @@
   - name: The Visual Studio image library
     href: designers/the-visual-studio-image-library.md
   - name: Dotfuscator Community
-    items:
-    - name: Overview
-      displayName: Dotfuscator Community
-      href: ide/dotfuscator/index.md
-    - name: Capabilities of Dotfuscator
-      href: ide/dotfuscator/capabilities.md
-    - name: Install Dotfuscator Community
-      href: ide/dotfuscator/install.md
-    - name: Register Dotfuscator Community
-      href: ide/dotfuscator/register.md
-    - name: Upgrade Dotfuscator Community
-      href: ide/dotfuscator/upgrades.md
-    - name: Upgrade from Dotfuscator Community 5
-      href: ide/dotfuscator/upgrade-from-5.md
+    href: ide/dotfuscator/index.md
 - name: Resources
   items:
   - name: "Visual Studio 2022: What's new"
