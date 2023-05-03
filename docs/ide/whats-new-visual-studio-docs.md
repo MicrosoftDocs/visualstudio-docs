@@ -23,11 +23,76 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 ## April 2023
 
+### Deployment
 
+**New articles**
+
+- [Build .NET ClickOnce applications from the command line](../deployment/building-dotnet-clickonce-applications-from-the-command-line.md)
+
+**Updated articles**
+
+- [Build ClickOnce applications from the command line](../deployment/building-clickonce-applications-from-the-command-line.md) - Add link to command-line build for .NET ClickOnce
+
+### Designers
+
+**Updated articles**
+
+- [Fix HDPI/scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md) - Shorten text to improve readability.
+
+### Extensibility
+
+**Updated articles**
+
+- [VSIX extension schema 2.0 reference](../extensibility/vsix-extension-schema-2-0-reference.md) - Add information about placeholders in VSIX manifest files
+
+### Get started
+
+**Updated articles**
+
+- [What is Visual Studio?](../get-started/visual-studio-ide.md) - Revise the Overview content
+
+### IDE
+
+**New articles**
+
+- [What is the GitHub Copilot extension for Visual Studio?](../ide/visual-studio-github-copilot-extension.md)
+
+**Updated articles**
+
+- [Bookmark code in Visual Studio](../ide/setting-bookmarks-in-code.md) - Update text, links, and screenshots
+- [Sign in to Visual Studio on Windows](../ide/signing-in-to-visual-studio.md) - Update text and screenshots
+- [Make code work in Visual Studio](../ide/find-and-fix-code-errors.md) - Update text and links
+- [Optimize Visual Studio startup time](../ide/optimize-visual-studio-startup-time.md) - Update text, links & refresh for revised UI
+- [How to: Change fonts, colors, and themes in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) - Update text
+- [Walkthrough: Create a code snippet in Visual Studio](../ide/walkthrough-creating-a-code-snippet.md) - Add more detail to procedural instructions
+
+### Install
+
+**Updated articles**
+
+- [Create, maintain, and deploy a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md) - Update the --useLatestInstaller content & add link to Community SKU
+
+### MSBuild
+
+**Updated articles**
+
+- [MSBuild batching](../msbuild/msbuild-batching.md) - Document metadata-self referencing behavioral differences
+
+### Profiling
+
+**Updated articles**
+
+- [Which performance tool should I use? (C#, Visual Basic, C++, F#)](../profiling/choose-performance-tool.md) - Update article on choosing your performance tool
 
 ### Community contributors
 
 The following people contributed to Visual Studio content in April. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
+
+- [jrdodds](https://github.com/jrdodds) - Jonathan Dodds (1)
+- [kmgallahan](https://github.com/kmgallahan) - Kevin Gallahan (1)
+- [robinhood2014](https://github.com/robinhood2014) - Brandon Taylor (1)
+- [soroosh-chabi](https://github.com/soroosh-chabi) - Soroosh Chabi (1)
+- [Tim-Maes](https://github.com/Tim-Maes) - Tim Maes (1)
 
 ## March 2023
 
