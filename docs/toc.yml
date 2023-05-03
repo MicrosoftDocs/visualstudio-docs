@@ -1327,7 +1327,6 @@
     href: https://visualstudio.microsoft.com/license-terms/
   - name: Support lifecycle and servicing
     href: /visualstudio/productinfo/vs-servicing-vs/
-  expanded: true
 - name: Send feedback
   items:
   - name: Suggest a feature
