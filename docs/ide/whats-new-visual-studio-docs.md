@@ -21,6 +21,14 @@ ms.workload:
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
 
+## April 2023
+
+
+
+### Community contributors
+
+The following people contributed to Visual Studio content in April. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
+
 ## March 2023
 
 ### Debugger
@@ -108,19 +116,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **New articles**
 
 - [XAML Hot Reload and its impact on performance diagnostic in Visual Studio](../xaml-tools/xaml-hot-reload-impact-performance.md)
-
-### Community contributors
-
-The following people contributed to Visual Studio content in March. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
-
-- [AndrewKeepCoding](https://github.com/AndrewKeepCoding) - Andrew KeepCoding (1)
-- [chrisXromanov](https://github.com/chrisXromanov) chrisXromanov (1)
-- [Davi-Gray](https://github.com/Davi-Gray) - Davi Gray (1)
-- [jVanZwieten](https://github.com/jVanZwieten) - jVanZwieten (1)
-- [shandianchengzi](https://github.com/shandianchengzi) shandianchengzi (1)
-- [snickler](https://github.com/snickler) - Jeremy Sinclair (1)
-- [Tim-Maes](https://github.com/Tim-Maes) - Tim Maes (1)
-- [wsmelton](https://github.com/wsmelton) - Shawn Melton (1)
 
 ## February 2023
 
