@@ -10,7 +10,7 @@ metadata:
   ms.date: 05/30/2023
   author: maiak
   ms.author: maiak
-monikerRange: ">=vs-2022"
+  monikerRange: ">=vs-2022"
   manager: jmartens
   ms.prod: visual-studio-windows
   ms.technology: vs-extensibility  
