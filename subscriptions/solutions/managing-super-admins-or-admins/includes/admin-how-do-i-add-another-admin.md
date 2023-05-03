@@ -5,7 +5,7 @@ ms.topic: include
 ms.assetid: bd89a871-2f8b-405f-9a49-b0338063f8f1
 author: evanwindom
 ms.author: amast
-ms.date: 06/01/2021
+ms.date: 05/03/2023
 user.type: admin
 tags: super, admin
 subscription.type: vl, cloud, retail, partner
@@ -14,7 +14,7 @@ sap.id: 8789faa7-9d29-25d8-018a-4f6ecee827c8
 
 ## How to add another super admin or admin
 
-There are two distinct roles: admins and super admins. Admins can assign, edit, or remove subscriptions. Super admins have the additional ability to assign, edit, or remove admins or other super admins.
+There are two distinct roles: admins and super admins. Admins can assign, edit, or remove subscriptions. Super admins also have the ability to assign, edit, or remove admins or other super admins.
 
 Follow these steps to add another admin:
 
@@ -27,8 +27,8 @@ Note: For the super admin role, be sure to check the box.
 
 ## More Information
 
-To check if you're a super admin, select the agreement details icon on the left in the portal. A flyout panel shows the admin role details. 
+To check if you're a super admin, select the agreement details icon on left nav pane in the portal. A flyout panel shows the admin role details. 
 
-The super admin role isn't available for [MPSA agreements](https://learn.microsoft.com/visualstudio/subscriptions/mpsa). Administrator permissions for those agreement types are managed in the Microsoft [Business Center](https://businessaccount.microsoft.com/Customer). 
+The super admin role isn't available for [MPSA agreements](https://learn.microsoft.com/visualstudio/subscriptions/mpsa). Administrator permissions for those agreements are managed in the Microsoft [Business Center](https://businessaccount.microsoft.com/Customer). 
 
 To [manage admins](https://learn.microsoft.com/visualstudio/subscriptions/cloud-admin) for subscriptions purchased through the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), visit the [Azure portal](https://portal.azure.com/).   
