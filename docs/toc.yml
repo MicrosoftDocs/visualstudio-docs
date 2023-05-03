@@ -1313,22 +1313,20 @@
     href: ide/dotfuscator/index.md
 - name: Resources
   items:
-  - name: "Visual Studio 2022: What's new"
-    href: ide/whats-new-visual-studio-2022.md
-  - name: "Visual Studio 2019: What's new"
-    href: ide/whats-new-visual-studio-2019.md
-  - name: What's new in Docs
+  - name: "What's new in Docs"
     href: ide/whats-new-visual-studio-docs.md
   - name: Release notes
     href: /visualstudio/releases/
   - name: Release rhythm
     href: /visualstudio/productinfo/release-rhythm/
+  - name: "Visual Studio 2022: What's new"
+    href: ide/whats-new-visual-studio-2022.md
+  - name: "Visual Studio 2019: What's new"
+    href: ide/whats-new-visual-studio-2019.md
   - name: License terms
     href: https://visualstudio.microsoft.com/license-terms/
   - name: Support lifecycle and servicing
     href: /visualstudio/productinfo/vs-servicing-vs/
-  - name: Customer Experience Improvement
-    href: ide/visual-studio-experience-improvement-program.md
   expanded: true
 - name: Send feedback
   items:
@@ -1336,6 +1334,8 @@
     href: ide/suggest-a-feature.md
   - name: Report a problem
     href: ide/how-to-report-a-problem-with-visual-studio.md
+  - name: Customer Experience Improvement
+    href: ide/visual-studio-experience-improvement-program.md    
   - name: Get performance issues fixed quicker
     href: ide/how-to-increase-chances-of-performance-issue-being-fixed.md
   - name: Create logs for MSBuild problems
