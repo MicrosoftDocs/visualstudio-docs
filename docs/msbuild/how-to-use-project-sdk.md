@@ -73,7 +73,7 @@ To specify a specific version of the SDK, append it to the `Sdk` attribute:
 
 An implicit import is added to the top and bottom of the project as discussed previously.
 
-The `Version` attribute is not required.
+The `Version` attribute isn't required.
 
 ### Use the `<Import/>` element anywhere in your project
 
