@@ -6,7 +6,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/ide/dotfuscator/install.md”,
+      "source_path": "docs/ide/dotfuscator/install.md",
       "redirect_url": "/visualstudio/ide/dotfuscator/index",
       "redirect_document_id": false
     },
@@ -16,7 +16,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/ide/dotfuscator/upgrades.md”,
+      "source_path": "docs/ide/dotfuscator/upgrades.md",
       "redirect_url": "/visualstudio/ide/dotfuscator/index",
       "redirect_document_id": false
     },
