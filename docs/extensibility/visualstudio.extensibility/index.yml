@@ -65,12 +65,12 @@ landingContent:
         links:
           - text: Visual Studio Extensibility samples
             url: https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples
-      - linkListType: learn
+      - linkListType: concept
         links:
-          - text: ExtendVS Gitter community
-            url: https://gitter.im/Microsoft/extendvs
           - text: Extensibility on Visual Studio Blog
             url: https://devblogs.microsoft.com/visualstudio/tag/extensions/
+          - text: Issues
+            url: https://github.com/Microsoft/VSExtensibility/issues
       - linkListType: reference
         links:
           - text: API reference
