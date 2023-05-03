@@ -5,7 +5,7 @@ ms.topic: include
 ms.assetid: c1220a33-26b0-4bf9-be97-ab2b3055e351
 author: evanwindom
 ms.author: amast
-ms.date: 06/01/2021
+ms.date: 05/02/2023
 user.type: admin
 tags: email
 subscription.type: vl, cloud, retail, partner
@@ -21,14 +21,14 @@ You can update subscriber's sign-in email address individually or by using bulk 
 2. Select **Bulk edit**, export the Excel file, and follow the instructions in the pop-up window.
 3. Make the necessary edits in the file, then save and upload the file. When you make the edits, keep in mind that GUIDs can't be changed.
 4. Select **OK** to begin the bulk edit.
-5. Your subscribers will receive an email informing them of the change.
+5. Your subscribers receive an email informing them of the change.
 
 ## Individual edit 
 1. On the **Manage subscribers** page, make sure you’re on the agreement that needs to be updated.
 2. Select the subscriber to update, and then select the ellipsis (...) next to the subscriber name.
 3. Select **Edit**.
 4. In the fly-out panel, make the necessary edits, and then select **Save**.
-5. Your subscribers will receive an email informing them of the change.
+5. Your subscribers receive an email informing them of the change.
 
 ## Azure Active Directory (Azure AD) 
 If you assign subscriptions by using Azure AD groups, any email address or name updates are automatically reflected in [manage.visualstudio.com](https://manage.visualstudio.com). After you save the changes, you should see the updates reflected in the admin portal within 24 hours. 
