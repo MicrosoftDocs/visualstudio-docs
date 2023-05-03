@@ -1,11 +1,11 @@
 ### YamlMime:Landing
 
-title: Visual Studio Extensibility 
-summary: Learn about Visual Studio extensibility.
+title: VisualStudio.Extensibility 
+summary: Learn about the new VisualStudio.Extensibility framework, current in preview.
 
 metadata:
-  title: Visual Studio Extensibility
-  description: Learn how to extend Visual Studio.
+  title: VisualStudio.Extensibility framework
+  description: Learn how to extend Visual Studio using the new VisualStudio.Extensibility framework.
   ms.topic: landing-page
   ms.date: 05/30/2023
   author: maiak

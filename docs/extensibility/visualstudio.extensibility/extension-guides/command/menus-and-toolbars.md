@@ -217,7 +217,7 @@ public static ToolbarConfiguration MyToolbar => new("%MyToolbar.DisplayName%")
 };
 ```
 
-In the two examples here, the resulting toolbar would identical in the IDE. The toolbar `MyToolbar` would look like the toolbar in the screenshot below:
+In the two examples here, the resulting toolbar would be identical in the IDE. The toolbar `MyToolbar` would look like the toolbar in the screenshot below:
 
 ![Toolbar with separator](toolbar-with-separator.png "Toolbar with separator")
 
