@@ -234,7 +234,7 @@ From either **Threads** view or **Tasks** view, you can pivot the graph on the c
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-[![Screenshot of Methods view in Parallel Stacks window 2022.](../debugger/media/vs-2022/parallel-stacks-methods_view.png "Methods view in Parallel Stacks window.")](../debugger/media/vs-2022/parallel-stacks-methods_view#lightbox)
+[![Screenshot of Methods view in Parallel Stacks window 2022.](../debugger/media/vs-2022/parallel-stacks-methods-view.png "Methods view in Parallel Stacks window.")](../debugger/media/vs-2022/parallel-stacks-methods-view#lightbox)
 ::: moniker-end
 
 If you switch to a new stack frame, you make that method the current method, and **Method View** shows all callers and callees for the new method. This may cause some threads to appear or disappear from the view, depending on whether that method appears on their call stacks. To return to the call stack view, select the **Method View** toolbar icon again.
