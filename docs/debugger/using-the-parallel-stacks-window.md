@@ -42,7 +42,7 @@ To open the **Parallel Stacks** window, you must be in a debugging session. Sele
 
 The **Parallel Stacks** window has the following toolbar controls:
 ::: moniker range="vs-2019"
-![Screenshot of Toolbar in Parallel Stacks window](../debugger/media/parallel-stackstoolbar.png "Parallel Stacks toolbar.")
+![Screenshot of Toolbar in Parallel Stacks window.](../debugger/media/parallel-stackstoolbar.png "Parallel Stacks toolbar.")
 
 |Icon|Control|Description|
 |-|-|-|
@@ -54,7 +54,7 @@ The **Parallel Stacks** window has the following toolbar controls:
 
 ::: moniker-end
 ::: moniker range=">=vs-2022"
-![Screenshot of Toolbar in Parallel Stacks window 2022](../debugger/media/vs-2022/parallel-stacks-toolbar.png "Parallel Stacks toolbar.")
+![Screenshot of Toolbar in Parallel Stacks window 2022.](../debugger/media/vs-2022/parallel-stacks-toolbar.png "Parallel Stacks toolbar.")
 
 
 |Icon|Control|Description|
@@ -101,7 +101,7 @@ The following shortcut menu items are available when you right-click a method in
 
 ::: moniker range="vs-2019"
 
-![Screenshot of Shortcut menu in Parallel Stacks window](../debugger/media/parallel_contmenu.png "Shortcut menu in Parallel Stacks window.")
+![Screenshot of Shortcut menu in Parallel Stacks window.](../debugger/media/parallel_contmenu.png "Shortcut menu in Parallel Stacks window.")
 
 |Menu item|Description|
 |-|-|
@@ -123,7 +123,7 @@ The following shortcut menu items are available when you right-click a method in
 
 ::: moniker range=">=vs-2022"
 
-![Screenshot of Shortcut menu in Parallel Stacks window 2022](../debugger/media/vs-2022/parallel-stacks-menu.png "Shortcut menu in Parallel Stacks window.")
+![Screenshot of Shortcut menu in Parallel Stacks window 2022.](../debugger/media/vs-2022/parallel-stacks-menu.png "Shortcut menu in Parallel Stacks window.")
 
 |Menu item|Description|
 |-|-|
@@ -156,7 +156,7 @@ When the **Threads** view graph is too large to fit into the window, a **Bird's 
 
 The following illustration shows one thread that goes from Main to a Managed to Native code transition. Six threads are in the current method. One continues to Thread.Sleep, and another continues to Console.WriteLine and then to SyncTextWriter.WriteLine.
 
- ![Screenshot of Threads view in Parallel Stacks window](../debugger/media/parallel-stack1.png "Threads view in Parallel Stacks window.")
+ ![Screenshot of Threads view in Parallel Stacks window.](../debugger/media/parallel-stack1.png "Threads view in Parallel Stacks window.")
 
 The following table describes the main features of the **Threads** view:
 
@@ -175,7 +175,7 @@ The following table describes the main features of the **Threads** view:
 
 The following illustration shows one thread that goes from Main to a Managed to Native code transition. Five threads are in the current method. One continues to ServerClass.InstanceMethod, and another continues to Worker.Thread.Start and then to StartupHook.Initialize.AnonymousMethod.
 
- ![Screenshot of Threads view in Parallel Stacks window 2022](../debugger/media/vs-2022/parallel-stacks-toolbar-threads-view.png "Threads view in Parallel Stacks window.")
+ [![Screenshot of Threads view in Parallel Stacks window 2022.](../debugger/media/vs-2022/parallel-stacks-toolbar-threads-view.png "Threads view in Parallel Stacks window.")](../debugger/media/vs-2022/parallel-stacks-toolbar-threads-view.png#lightbox)
 
 The following table describes the main features of the **Threads** view:
 
@@ -202,13 +202,13 @@ To see an entire call stack, switch back to **Threads** view by right-clicking i
 The following illustration shows the **Threads** view at the top and the corresponding **Tasks** view at the bottom.
 
 ::: moniker range="vs-2019"
-![Screenshot of Threads and Tasks views](../debugger/media/parallel-threads-tasks.png "Threads and Tasks views.")
+![Screenshot of Threads and Tasks views.](../debugger/media/parallel-threads-tasks.png "Threads and Tasks views.")
 
 ::: moniker-end
 
 
 ::: moniker range=">=vs-2022"
-![Screenshot of Tasks view in Parallel Stacks window](../debugger/media/vs-2022/parallel-stacks-toolbar-threads-tasks-view.png "Tasks view in Parallel Stacks window.")
+[![Screenshot of Tasks view in Parallel Stacks window.](../debugger/media/vs-2022/parallel-stacks-toolbar-threads-tasks-view.png "Tasks view in Parallel Stacks window.")](../debugger/media/vs-2022/parallel-stacks-toolbar-threads-tasks-view.png#lightbox)
 ::: moniker-end
 
 Hover over a method to show a tooltip with additional information. In **Tasks** view, the tooltip shows all the tasks in a table similar to the **Tasks** window.
@@ -217,24 +217,24 @@ The following image shows the tooltip for a method in the **Threads** view at th
 
 ::: moniker range="vs-2019"
 
-![Screenshot of Threads and Tasks tooltips](../debugger/media/parallel-threads-tasks-tooltips.png "Threads and Tasks tooltips.")
+![Screenshot of Threads and Tasks tooltips.](../debugger/media/parallel-threads-tasks-tooltips.png "Threads and Tasks tooltips.")
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-![Screenshot of Threads and Tasks tooltips](../debugger/media/vs-2022/parallel-stacks-toolbar-threads-tasks-view-hover.png "Threads and Tasks tooltips.")
+[![Screenshot of Threads and Tasks tooltips.](../debugger/media/vs-2022/parallel-stacks-toolbar-threads-tasks-view-hover.png "Threads and Tasks tooltips.")](../debugger/media/vs-2022/parallel-stacks-toolbar-threads-tasks-view-hover.png#lightbox)
 ::: moniker-end
 ## Method View
 From either **Threads** view or **Tasks** view, you can pivot the graph on the current method by selecting the **Toggle Method View** icon on the toolbar. **Method View** shows at a glance all methods on all threads that either call or are called by the current method. The following illustration shows how the same information looks in **Threads** view on the left and in **Method View** on the right.
 
 ::: moniker range="vs-2019"
 
-![Screenshot of Methods view in Parallel Stacks window](../debugger/media/parallel-methodview.png "Methods view in Parallel Stacks window.")
+[![Screenshot of Methods view in Parallel Stacks window.](../debugger/media/parallel-methodview.png "Methods view in Parallel Stacks window.")](../debugger/media/parallel-methodview.png#lightbox)
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-![Screenshot of Methods view in Parallel Stacks window 2022](../debugger/media/vs-2022/parallel-stacks-methods_view.png "Methods view in Parallel Stacks window.")
+[![Screenshot of Methods view in Parallel Stacks window 2022.](../debugger/media/vs-2022/parallel-stacks-methods_view.png "Methods view in Parallel Stacks window.")](../debugger/media/vs-2022/parallel-stacks-methods_view#lightbox)
 ::: moniker-end
 
 If you switch to a new stack frame, you make that method the current method, and **Method View** shows all callers and callees for the new method. This may cause some threads to appear or disappear from the view, depending on whether that method appears on their call stacks. To return to the call stack view, select the **Method View** toolbar icon again.
