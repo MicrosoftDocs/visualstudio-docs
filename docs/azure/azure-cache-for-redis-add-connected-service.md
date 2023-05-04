@@ -94,7 +94,11 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot showing Redis cache choices](./media/vs-2022/azure-cache-for-redis-add-dependency.png)
 
-   If you choose the Redis cache locally, click **Next** to see the **Summary of changes** screen and complete the process. A NuGet package reference is added to your project and the connection code for the local emulator is added to your project.
+   If you choose the Redis cache locally, click **Next** to the **Connect to Redis cache on container** screen.
+
+   ![Screenshot showing connection options for Redis cache in a local container](./media/vs-2022/connect-to-redis-cache-on-container.png)
+
+   Choose **Container name**, **Container image**, and port mappings or accept the defaults, and click **Next** to see the **Summary of changes** screen, which shows what changes would be made to your project. A NuGet package reference is added to your project and the connection code for the local emulator is added to your project.
 
    If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign into your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 

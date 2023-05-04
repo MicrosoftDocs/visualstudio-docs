@@ -92,11 +92,11 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot showing Connected Services context menu options.](./media/vs-2022/add-connected-service-context-menu.png)
 
-1. Choose **Azure Application Insights**. The **Add Dependency** page appears. You should see two options, one for a local emulator, **Application Insights Sdk**, and one for connecting to the live Azure Application Insights service. You can reduce cost and simplify early development by starting with the local emulator. You can migrate to the live service later by repeating these steps and choosing the other option.
+1. Choose **Azure Application Insights**. The **Add Dependency** page appears. You should see two options, one for a local emulator, **Application Insights Sdk (Local)**, and one for connecting to the live Azure Application Insights service. You can reduce cost and simplify early development by starting with the local emulator. You can migrate to the live service later by repeating these steps and choosing the other option.
 
    ![Screenshot showing Application Insights choices](./media/vs-2022/application-insights-choices.png)
 
-   If you choose to use the Application Insights Sdk locally, click **Next** to see the **Summary of changes** screen and complete the process. A NuGet package reference is added to your project and the connection code for the local emulator is added to your project.
+   If you choose to use the Application Insights Sdk locally, click **Next** to see the **Summary of changes** screen, which shows how your project is being modified. A NuGet package reference is added to your project and the connection code for the local emulator is added to your project.
 
    If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign into your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
