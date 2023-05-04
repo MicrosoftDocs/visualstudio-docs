@@ -1310,31 +1310,45 @@
   - name: The Visual Studio image library
     href: designers/the-visual-studio-image-library.md
   - name: Dotfuscator Community
-    href: ide/dotfuscator/index.md
+    items:
+    - name: Overview
+      displayName: Dotfuscator Community
+      href: ide/dotfuscator/index.md
+    - name: Capabilities of Dotfuscator
+      href: ide/dotfuscator/capabilities.md
+    - name: Install Dotfuscator Community
+      href: ide/dotfuscator/install.md
+    - name: Register Dotfuscator Community
+      href: ide/dotfuscator/register.md
+    - name: Upgrade Dotfuscator Community
+      href: ide/dotfuscator/upgrades.md
+    - name: Upgrade from Dotfuscator Community 5
+      href: ide/dotfuscator/upgrade-from-5.md
 - name: Resources
   items:
-  - name: "What's new in Docs"
+  - name: "Visual Studio 2022: What's new"
+    href: ide/whats-new-visual-studio-2022.md
+  - name: "Visual Studio 2019: What's new"
+    href: ide/whats-new-visual-studio-2019.md
+  - name: What's new in Docs
     href: ide/whats-new-visual-studio-docs.md
   - name: Release notes
     href: /visualstudio/releases/
   - name: Release rhythm
     href: /visualstudio/productinfo/release-rhythm/
-  - name: "Visual Studio 2022: What's new"
-    href: ide/whats-new-visual-studio-2022.md
-  - name: "Visual Studio 2019: What's new"
-    href: ide/whats-new-visual-studio-2019.md
   - name: License terms
     href: https://visualstudio.microsoft.com/license-terms/
   - name: Support lifecycle and servicing
     href: /visualstudio/productinfo/vs-servicing-vs/
+  - name: Customer Experience Improvement
+    href: ide/visual-studio-experience-improvement-program.md
+  expanded: true
 - name: Send feedback
   items:
   - name: Suggest a feature
     href: ide/suggest-a-feature.md
   - name: Report a problem
     href: ide/how-to-report-a-problem-with-visual-studio.md
-  - name: Customer Experience Improvement
-    href: ide/visual-studio-experience-improvement-program.md    
   - name: Get performance issues fixed quicker
     href: ide/how-to-increase-chances-of-performance-issue-being-fixed.md
   - name: Create logs for MSBuild problems
