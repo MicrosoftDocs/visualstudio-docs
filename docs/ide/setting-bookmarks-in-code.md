@@ -13,6 +13,7 @@ manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
 - multiple
+ms.custom: engagement-fy23
 ---
 # Bookmark code in Visual Studio
 
