@@ -122,6 +122,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Select all|**Ctrl+A**| Edit.SelectAll |
 |Select current word|**Ctrl+W** [Text Editor]| Edit.SelectCurrentWord |
 |Selection cancel|**Esc** [Text Editor, Report Designer, Settings Designer, Windows Forms Designer, Managed Resources Editor]| Edit.SelectionCancel |
+|Sort Usings|**Ctrl+R, Ctrl+G** [Text Editor]| Edit.SortUsings |
 |Surround with|**Ctrl+K, Ctrl+S** <br>(available only in Visual Studio 2019 and earlier)| Edit.SurroundWith |
 |Tab left|**Shift+Tab** [Text Editor, Report Designer, Windows Forms Editor]| Edit.TabLeft |
 |Toggle all outlining|**Ctrl+M, Ctrl+L** [Text Editor]| Edit.ToggleAllOutlining |
