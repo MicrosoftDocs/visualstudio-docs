@@ -127,7 +127,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
      ![Threads view in Parallel Stacks window](../debugger/media/pdb_walkthrough_1.png "PDB_Walkthrough_1")
      ::: moniker-end
 
-     The call stack of the Main thread appears in one box and the call stacks for the other four threads are grouped in another box. Four threads are grouped together because their stack frames share the same method contexts; that is, they are in the same methods: `A`, `B`, and `C`. To view the thread IDs and names of the threads that share the same box, hover over the box with the header (**[X] Threads**). The current thread is displayed in bold.
+     The call stack of the Main thread appears in one box and the call stacks for the other four threads are grouped in another box. Four threads are grouped together because their stack frames share the same method contexts; that is, they are in the same methods: `A`, `B`, and `C`. To view the thread IDs and names of the threads that share the same box, hover over the box with the header (**[#] Threads**). The current thread is displayed in bold.
 
      ::: moniker range=">=vs-2022"
      ![Tooltip that shows thread IDs and names](../debugger/media/vs-2022/pdb-walkthrough-1a.png "PDB_Walkthrough_1A")
@@ -140,7 +140,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      You can set how much detail to show for the stack frames (**Module Names**, **Parameter Types**, **Parameter Names**, **Parameter Values**, **Line Numbers** and **Byte Offsets**) by right-clicking in the **Call Stack** window.
 
-     A blue highlight around a box indicates that the current thread is part of that box. The current thread is also indicated by the bold stack frame in the tooltip. If you double-click the Main thread in the Threads window, you can observe that the blue highlight in the **Parallel Stacks** window moves accordingly.
+     A blue highlight around a box indicates that the current thread is part of that box. The current thread is also indicated by the bold stack frame in the tooltip. If you double-click the Main thread in the Threads window, you can observe that the highlight arrow in the **Parallel Stacks** window moves accordingly.
 
      ::: moniker range=">=vs-2022"
      ![Highlighted main thread in Parallel Stacks window](../debugger/media/vs-2022/pdb-walkthrough-1c.png "PDB_Walkthrough_1C")
@@ -153,7 +153,12 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 1. To resume execution until the second breakpoint is hit, on the **Debug** menu, click **Continue**. The following illustration shows the thread tree at the second breakpoint.
 
+     ::: moniker range=">=vs-2022"
+     ![Parallel Stacks window that shows many branches](../debugger/media/vs-2022/pdb-walkthrough-2.png "PDB_Walkthrough_2")
+     ::: moniker-end
+     ::: moniker range="vs-2019"
      ![Parallel Stacks window that shows many branches](../debugger/media/pdb_walkthrough_2.png "PDB_Walkthrough_2")
+     ::: moniker-end
 
      At the first breakpoint, four threads all went from S.A to S.B to S.C methods. That information is still visible in the **Parallel Stacks** window, but the four threads have progressed further. One of them continued to S.D and then S.E. Another continued to S.F, S.G, and S.H. Two others continued to S.I and S.J, and from there one of them went to S.K and the other continued to non-user External Code.
 
