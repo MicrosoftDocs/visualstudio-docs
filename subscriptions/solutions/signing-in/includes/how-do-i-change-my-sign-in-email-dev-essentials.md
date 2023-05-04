@@ -29,4 +29,5 @@ After you've left the program, follow these steps to rejoin with your new MSA:
 0. Select the **Keep me signed in** checkbox if you'd like to access your membership without being asked to sign in each time
 0. Select **Sign in**
 
-Note:  When you join the program, you agree to receive communications. If you wish to stop receiving communications, you may leave the program anytime.
+> [!NOTE] 
+> When you join the program, you agree to receive communications. If you wish to stop receiving communications, you may leave the program anytime.
