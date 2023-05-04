@@ -89,7 +89,13 @@ Here are some examples and use-case scenarios of the switches you can configure 
     ```spelling_exclusion_path = absolute OR relative path to exclusion dictionary```<br>
     ```(Example: = .\exclusion.dic)```
 
-    Visual Studio uses the exclusion dictionary specified by the spelling_exclusion_path switch in your .editorconfig file or an “exclusion.dic” file in your %localappdata%\Microsoft\VisualStudio\<Version> directory if a switch can’t be found. In either case, the spell-checking APIs required the exclusion file to have “UTF-16 with BOM” encoding to work correctly. We got multiple reports of the encoding becoming corrupted, particularly when users manually modified these files to remove excluded words.
+    > [!NOTE]
+    > Visual Studio uses the exclusion dictionary specified by the spelling_exclusion_path switch in your .editorconfig file or an "exclusion.dic" file in your `%localappdata%\Microsoft\VisualStudio\<Version>` directory if a switch can’t be found. In either case, the spell-checking APIs require the exclusion file to have "UTF-16 with BOM" encoding to work correctly. 
+
+- Control whether the language-specific exclusion dictionary so use. When set to false, any words specified in the exclusion dictionaries specific to C++ or C# won't be used. The default is true.
+
+    ```spelling_use_default_exclusion_dictionary = true OR false``` 
+    ```(Example: = spelling_use_default_exclusion_dictionary = false)```
 
 ## Special case handling
 
