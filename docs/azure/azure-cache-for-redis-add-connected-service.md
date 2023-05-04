@@ -88,17 +88,17 @@ The connected service functionality adds all the needed references and connectio
 
 1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add** to open the menu of available services.
 
-   ![Screenshot showing Connected Services context menu options.](./media/vs-2022/add-connected-service-context-menu.png)
+   ![Screenshot showing Connected Services context menu options.](./media/vs-2022/add-connected-service-context-menu-2.png)
 
 1. Choose **Azure Cache for Redis**. The **Add Dependency** page appears. You should see two options, one for a local emulator, **Redis Cache on container (Local)**, and one for connecting to the live Azure Cache for Redis service. You can reduce cost and simplify early development by starting with the local emulator. You can migrate to the live service later by repeating these steps and choosing the other option.
 
-   ![Screenshot showing Redis cache choices](./media/vs-2022/azure-cache-for-redis-add-dependency.png)
+   ![Screenshot showing Redis cache choices](./media/vs-2022/azure-cache-for-redis-add-dependency-2.png)
 
    If you choose the Redis cache locally, click **Next** to the **Connect to Redis cache on container** screen.
 
    ![Screenshot showing connection options for Redis cache in a local container](./media/vs-2022/connect-to-redis-cache-on-container.png)
 
-   Choose **Container name**, **Container image**, and port mappings or accept the defaults, and click **Next** to see the **Summary of changes** screen, which shows what changes would be made to your project. A NuGet package reference is added to your project and the connection code for the local emulator is added to your project.
+   Specify **Container name**, **Container image**, and port mappings or accept the defaults, and click **Next** to see the **Summary of changes** screen, which shows what changes would be made to your project. A NuGet package reference is added to your project and the connection code for the local emulator is added to your project.
 
    If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign into your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
