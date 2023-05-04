@@ -93,9 +93,9 @@ Here are some examples and use-case scenarios of the switches you can configure 
 
 ## Special case handling
 
-In Visual Studio, certain strings aren't recommended. Other strings aren't spell checked or aren't spell checked in their entirety.
+In Visual Studio, some strings aren't recommended for spell-checking. Other strings aren't spell checked or aren't spell checked in their entirety.
 
-- Strings that include punctuation aren't recommended. For example, `misc.` isn't recommended as it could cause code that won't compile.
+- Strings that include punctuation aren't recommended. For example, `misc.` isn't recommended as it could result in code that won't compile.
 - Backslashes in a string can omit the subsequent character from being spell-checked. For example, `\nhello` won't be flagged as a spelling error because the "n" is omitted and "hello" is a correctly spelled word. 
 - Strings that contain URLs such as `https://...` or `mailto:..` won't be spell-checked over the entire string.
 
