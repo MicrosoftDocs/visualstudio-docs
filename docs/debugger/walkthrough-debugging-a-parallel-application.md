@@ -142,7 +142,12 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      A blue highlight around a box indicates that the current thread is part of that box. The current thread is also indicated by the bold stack frame in the tooltip. If you double-click the Main thread in the Threads window, you can observe that the blue highlight in the **Parallel Stacks** window moves accordingly.
 
+     ::: moniker range=">=vs-2022"
+     ![Highlighted main thread in Parallel Stacks window](../debugger/media/vs-2022/pdb-walkthrough-1c.png "PDB_Walkthrough_1C")
+     ::: moniker-end
+     ::: moniker range="vs-2019"
      ![Highlighted main thread in Parallel Stacks window](../debugger/media/pdb_walkthrough_1c.png "PDB_Walkthrough_1C")
+     ::: moniker-end
 
 #### To resume execution until the second breakpoint
 
