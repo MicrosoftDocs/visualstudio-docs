@@ -1,7 +1,7 @@
 ---
 title: "Debug a parallel application | Microsoft Docs"
 description: Debug using the Parallel Tasks and Parallel Stacks windows in Visual Studio
-ms.date: "02/14/2020"
+ms.date: "05/04/2023"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -63,19 +63,23 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
    If the start window is not open, choose **File** > **Start Window**.
 
+   ::: moniker range=">=vs-2022"
+   On the start window, choose **New project**.
+   ::: moniker-end
+   ::: moniker range="vs-2019"
    On the start window, choose **Create a new project**.
+   ::: moniker-end
 
    On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#**, **C++**, or **Visual Basic** from the Language list, and then choose **Windows** from the Platform list.
 
    After you apply the language and platform filters, choose the **Console App** for .NET Core or C++, and then choose **Next**.
 
    > [!NOTE]
-   > If you don't see the correct template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET Core cross-platform development** or **Desktop development with C++** workload, then choose **Modify**.
+   > If you don't see the correct template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
 
    In the **Configure your new project** window, type a name or use the default name in the **Project name** box. Then, choose **Next** or **Create**, whichever option is available.
 
    For .NET Core, choose either the recommended target framework or .NET 6, and then choose **Create**.
-
 
    A new console project appears. After the project has been created, a source file appears.
 
@@ -116,11 +120,21 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      By using the **Parallel Stacks** window, you can view multiple call stacks at the same time in one view. The following illustration shows the **Parallel Stacks** window above the **Call Stack** window.
 
+     ::: moniker range=">=vs-2022"
+     ![Threads view in Parallel Stacks window](../debugger/media/vs-2022/pdb-walkthrough-1.png "PDB_Walkthrough_1")
+     ::: moniker-end
+     ::: moniker range="vs-2019"
      ![Threads view in Parallel Stacks window](../debugger/media/pdb_walkthrough_1.png "PDB_Walkthrough_1")
+     ::: moniker-end
 
-     The call stack of the Main thread appears in one box and the call stacks for the other four threads are grouped in another box. Four threads are grouped together because their stack frames share the same method contexts; that is, they are in the same methods: `A`, `B`, and `C`. To view the thread IDs and names of the threads that share the same box, hover over the box with the header (**4 Threads**). The current thread is displayed in bold.
+     The call stack of the Main thread appears in one box and the call stacks for the other four threads are grouped in another box. Four threads are grouped together because their stack frames share the same method contexts; that is, they are in the same methods: `A`, `B`, and `C`. To view the thread IDs and names of the threads that share the same box, hover over the box with the header (**[X] Threads**). The current thread is displayed in bold.
 
+     ::: moniker range=">=vs-2022"
+     ![Tooltip that shows thread IDs and names](../debugger/media/vs-2022/pdb-walkthrough-1a.png "PDB_Walkthrough_1A")
+     ::: moniker-end
+     ::: moniker range="vs-2019"
      ![Tooltip that shows thread IDs and names](../debugger/media/pdb_walkthrough_1a.png "PDB_Walkthrough_1A")
+     ::: moniker-end
 
      The yellow arrow indicates the active stack frame of the current thread.
 
