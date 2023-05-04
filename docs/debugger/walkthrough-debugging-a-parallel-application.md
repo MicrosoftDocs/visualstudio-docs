@@ -170,7 +170,12 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      You can switch to another thread, or to another frame of another thread, by using the shortcut menu in the **Parallel Stacks** window. For example, right-click S.J, point to **Switch To Frame**, and then click a command.
 
+     ::: moniker range=">=vs-2022"
+     ![Parallel Stacks Path of Execution](../debugger/media/vs-2022/pdb-walkthrough-2b.png "PDB_Walkthrough_2B")
+     ::: moniker-end
+     ::: moniker range="vs-2019"
      ![Parallel Stacks Path of Execution](../debugger/media/pdb_walkthrough_2b.png "PDB_Walkthrough_2B")
+     ::: moniker-end
 
      Right-click S.C and point to **Switch To Frame**. One of the commands has a check mark that indicates the stack frame of the current thread. You can switch to that frame of the same thread (just the green arrow will move) or you can switch to the other thread (the blue highlight will also move). The following illustration shows the submenu.
 
