@@ -104,9 +104,10 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
     Notice that there are four calls to `Debugger.Break` (`DebugBreak` in the C++ sample) Therefore, you do not have to insert breakpoints; just running the application will cause it to break in the debugger up to four times.
 
 ## Using the Parallel Stacks Window: Threads View
+
  On the **Debug** menu, click **Start Debugging**. Wait for the first breakpoint to be hit.
 
-#### To view the call stack of a single thread
+To view the call stack of a single thread:
 
 1. On the **Debug** menu, point to **Windows** and then click **Threads**. Dock the **Threads** window at the bottom of Visual Studio.
 
@@ -114,7 +115,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 3. Double-click a thread in the **Threads** window to make it current. Current threads have a yellow arrow. When you change the current thread, its call stack is displayed in the **Call Stack** window.
 
-#### To examine the Parallel Stacks window
+To examine the Parallel Stacks window:
 
 1. On the **Debug** menu, point to **Windows** and then click **Parallel Stacks**. Make sure that **Threads** is selected in the box at the upper-left corner.
 
@@ -149,7 +150,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
      ![Highlighted main thread in Parallel Stacks window](../debugger/media/pdb_walkthrough_1c.png "PDB_Walkthrough_1C")
      ::: moniker-end
 
-#### To resume execution until the second breakpoint
+To resume execution until the second breakpoint:
 
 1. To resume execution until the second breakpoint is hit, on the **Debug** menu, click **Continue**. The following illustration shows the thread tree at the second breakpoint.
 
@@ -162,7 +163,12 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      At the first breakpoint, four threads all went from S.A to S.B to S.C methods. That information is still visible in the **Parallel Stacks** window, but the four threads have progressed further. One of them continued to S.D and then S.E. Another continued to S.F, S.G, and S.H. Two others continued to S.I and S.J, and from there one of them went to S.K and the other continued to non-user External Code.
 
+     ::: moniker range=">=vs-2022"
+     You can hover over stack frames to see thread IDs plus other frame details. The blue highlight indicates the current thread and the yellow arrow indicates the active stack frame of the current thread.
+     ::: moniker-end
+     ::: moniker range="vs-2019"
      You can hover over the box header, for example, **1 Thread** or **2 Threads**, to see the thread IDs of the threads. You can hover over stack frames to see thread IDs plus other frame details. The blue highlight indicates the current thread and the yellow arrow indicates the active stack frame of the current thread.
+     ::: moniker-end
 
      The cloth-threads icon (interweaved lines) indicate the active stack frames of the noncurrent threads. In the **Call Stack** window, double-click S.B to switch frames. The **Parallel Stacks** window indicates the current stack frame of the current thread by using a curved arrow icon.
 
@@ -203,7 +209,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      Now, only flagged threads show up in the **Parallel Stacks** window.
 
-#### To resume execution until the third breakpoint
+To resume execution until the third breakpoint:
 
 1. To resume execution until the third breakpoint is hit, on the **Debug** menu, click **Continue**.
 
@@ -243,7 +249,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 3. Before you continue, in the **Parallel Stacks** window, scroll all the way to the left and all the way down.
 
-#### To resume execution until the fourth breakpoint
+To resume execution until the fourth breakpoint:
 
 1. To resume execution until the fourth breakpoint is hit, on the **Debug** menu, click **Continue**.
 
@@ -274,7 +280,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
  We recommended that you complete the earlier procedures before you continue.
 
-**To restart the application until the first breakpoint is hit**
+To restart the application until the first breakpoint is hit:
 
 1. On the **Debug** menu, click **Start Debugging** and wait for the first breakpoint to be hit.
 
@@ -306,7 +312,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
      When you manually switch from one task to another, the yellow arrow moves, but a white arrow still shows the task that caused the debugger to break.
      ::: moniker-end
 
-**To resume execution until the second breakpoint**
+To resume execution until the second breakpoint:
 
 1. To resume execution until the second breakpoint is hit, on the **Debug** menu, click **Continue**.
 
@@ -345,7 +351,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      You can use the shortcut menu to add or remove columns. For example, the AppDomain column is not selected; therefore, it is not displayed in the list. Click **Parent**. The **Parent** column appears without values for any of the four tasks.
 
-**To resume execution until the third breakpoint**
+To resume execution until the third breakpoint:
 
 1. To resume execution until the third breakpoint is hit, on the **Debug** menu, click **Continue**.
 
@@ -376,7 +382,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
      This is another benefit of the Tasks View in the **Parallel Stacks** window, compared to the **Threads** window.
      ::: moniker-end
 
-**To resume execution until the fourth breakpoint**
+To resume execution until the fourth breakpoint:
 
 1. To resume execution until the third breakpoint is hit, on the **Debug** menu, click **Continue**. Click the **ID** column header to sort by ID. You should see the following illustration.
 
