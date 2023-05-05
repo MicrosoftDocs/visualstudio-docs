@@ -23,7 +23,7 @@ Visual Studio performance recommendations are intended for low memory situations
 
 If you upgrade your system from a 32-bit version of Windows to a 64-bit version, you expand the amount of virtual memory available to Visual Studio from 2 GB to 4 GB. A 64-bit operating system upgrade enables Visual Studio to handle larger workloads.
 
-For more information, see [Memory limits](/windows/desktop/Memory/memory-limits-for-windows-releases) and [Use /LARGEADDRESSAWARE on 64-bit Windows](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
+For more information, see [Memory Limits for Windows and Windows Server releases](/windows/desktop/Memory/memory-limits-for-windows-releases).
 
 > [!TIP]
 > Visual Studio 2022 on Windows is a 64-bit application. Earlier versions are 32-bit.
@@ -64,7 +64,7 @@ If you're typically running low on memory during debugging sessions, you can opt
 
     Set the options to **Only specified modules** instead of **All modules** and then specify which modules you care to load. While debugging, you can also right-click specific modules in the **Modules** window to explicitly include a module in the symbol load. (To open the window while debugging, choose **Debug** > **Windows** > **Modules**.)
 
-    For more information, see [Understand symbol files](https://devblogs.microsoft.com/devops/understanding-symbol-files-and-visual-studios-symbol-settings/).
+    For more information, see [Specify symbol and source files in the debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
 - **Disable Diagnostic Tools**
 
@@ -72,7 +72,7 @@ If you're typically running low on memory during debugging sessions, you can opt
 
     To disable the **Diagnostic Tools**, start a debugging session, select **Tools** > **Options** > **Debugging** > **General**, and then deselect the **Enable Diagnostic Tools while debugging** option.
 
-    For more information, see [Profiling Tools](../profiling/profiling-feature-tour.md).
+    For more information, see [Profiling tools](../profiling/profiling-feature-tour.md).
 
 ## Disable tools and extensions
 
@@ -91,8 +91,7 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
     To disable **CodeLens**, choose **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens**, and deselect the feature.
 
-    > [!NOTE]
-    > CodeLens is available in the Professional and Enterprise editions of Visual Studio.
+    For more information, see [Find code changes and other history with CodeLens](find-code-changes-and-other-history-with-codelens.md).
 
 ### Other tools and extensions
 
@@ -138,13 +137,12 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
 The CLR uses a garbage collection memory management system. In this system, sometimes memory is used by objects that are no longer needed. This state is temporary; the garbage collector releases this memory based on its performance and resource usage heuristics. You can force the CLR to collect any unused memory by using a hotkey in Visual Studio. If there's a significant amount of garbage waiting for collection and you force a garbage collection, you should see the memory usage of the *devenv.exe* process drop in **Task Manager**. It’s rarely necessary to use this method. However, after an expensive operation has completed (such as a full build, debug session, or a solution open event), it can help you determine how much memory is really being used by the process. Because Visual Studio is mixed (managed & native), it’s occasionally possible for the native allocator and the garbage collector to compete for limited memory resources. Under conditions of high memory usage, it may help to force the garbage collector to run.
 
-To force a garbage collection, use the hotkey: **Ctrl**+**Alt**+**Shift**+**F12**, **Ctrl**+**Alt**+**Shift**+**F12** (press it twice).
+To force a garbage collection, use this keyboard shortcut: **Ctrl**+**Alt**+**Shift**+**F12**, **Ctrl**+**Alt**+**Shift**+**F12** (press it twice).
 
-If forcing garbage collection reliably makes your scenario work, file a report through the Visual Studio feedback tool as this behavior is likely to be a bug.
+If forcing garbage collection reliably makes your scenario work, file a report through the [Visual Studio feedback tool](how-to-report-a-problem-with-visual-studio.md) as this behavior is likely to be a bug.
 
 For a detailed description of the CLR garbage collector, see [Fundamentals of garbage collection](/dotnet/standard/garbage-collection/fundamentals).
 
 ## See also
 
 - [Optimize Visual Studio performance](../ide/optimize-visual-studio-performance.md)
-- [Load solutions faster (Visual Studio blog)](https://devblogs.microsoft.com/visualstudio/load-solutions-faster-with-visual-studio-2017-version-15-6/)
