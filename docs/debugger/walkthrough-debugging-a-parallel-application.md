@@ -177,19 +177,31 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
      ![Parallel Stacks Path of Execution](../debugger/media/pdb_walkthrough_2b.png "PDB_Walkthrough_2B")
      ::: moniker-end
 
-     Right-click S.C and point to **Switch To Frame**. One of the commands has a check mark that indicates the stack frame of the current thread. You can switch to that frame of the same thread (just the green arrow will move) or you can switch to the other thread (the blue highlight will also move). The following illustration shows the submenu.
+     Right-click S.C and point to **Switch To Frame**. One of the commands has a check mark that indicates the stack frame of the current thread. You can switch to that frame of the same thread (just the curved arrow will move) or you can switch to the other thread (the blue highlight will also move). The following illustration shows the submenu.
 
+     ::: moniker range=">=vs-2022"
+     ![Stacks menu with 2 options on C while J is current](../debugger/media/vs-2022/pdb-walkthrough-3.png "PDB_Walkthrough_3")
+     ::: moniker-end
+     ::: moniker range="vs-2019"
      ![Stacks menu with 2 options on C while J is current](../debugger/media/pdb_walkthrough_3.png "PDB_Walkthrough_3")
+     ::: moniker-end
 
+     ::: moniker range="vs-2019"
      When a method context is associated with just one stack frame, the box header displays **1 Thread** and you can switch to it by double-clicking. If you double-click a method context that has more than 1 frame associated with it, then the menu automatically pops up. As you hover over the method contexts, notice the black triangle at the right. Clicking that triangle also displays the shortcut menu.
+     ::: moniker-end
 
      For large applications that have many threads, you may want to focus on just a subset of threads. The **Parallel Stacks** window can display call stacks only for flagged threads. To flag threads, use the shortcut menu or the first cell of a thread.
 
      On the toolbar, click the **Show Only Flagged** button next to the list box.
 
+     ::: moniker range=">=vs-2022"
+     ![Parallel Stacks window and tooltip](../debugger/media/vs-2022/pdb-walkthrough-3a.png "PDB_Walkthrough_3A")
+     ::: moniker-end
+     ::: moniker range="vs-2019"
      ![Parallel Stacks window and tooltip](../debugger/media/pdb_walkthrough_3a.png "PDB_Walkthrough_3A")
+     ::: moniker-end
 
-     Now, only the flagged thread shows up in the **Parallel Stacks** window.
+     Now, only flagged threads show up in the **Parallel Stacks** window.
 
 #### To resume execution until the third breakpoint
 
@@ -197,7 +209,12 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      When multiple threads are in the same method but the method was not at the beginning of the call stack, the method appears in different boxes. An example at the current breakpoint is S.L, which has three threads in it and appears in three boxes. Double-click S.L.
 
+     ::: moniker range=">=vs-2022"
+     ![Execution path in Parallel Stacks window](../debugger/media/vs-2022/pdb-walkthrough-3b.png "PDB_Walkthrough_3B")
+     ::: moniker-end
+     ::: moniker range="vs-2019"
      ![Execution path in Parallel Stacks window](../debugger/media/pdb_walkthrough_3b.png "PDB_Walkthrough_3B")
+     ::: moniker-end
 
      Notice that S.L is bold in the other two boxes so that you can see where else it appears. If you want to see which frames call into S.L and which frames it calls, click the **Toggle Method View** button on the toolbar. The following illustration shows the method view of The **Parallel Stacks** window.
 
