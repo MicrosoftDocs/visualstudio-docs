@@ -352,7 +352,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
      ::: moniker range=">=vs-2022"
      ![Parent&#45;child view in Tasks window](../debugger/media/vs-2022/pdb-walkthrough-9.png "PDB_Walkthrough_9")
 
-     In this example, notice that task 11 and task 12 are running on the same thread (show the **Thread Assignment** column if it is hidden). This information is not displayed in the **Threads** window; seeing it here is another benefit of the **Tasks** window. To confirm this, view the **Parallel Stacks** window. Make sure that you are viewing **Tasks**. You can locate tasks 11 and 12 by scanning the tooltips on the **Parallel Stacks** window.
+     In this example run, notice that task 11 and task 12 are running on the same thread (show the **Thread Assignment** column if it is hidden). This information is not displayed in the **Threads** window; seeing it here is another benefit of the **Tasks** window. To confirm this, view the **Parallel Stacks** window. Make sure that you are viewing **Tasks**. You can locate tasks 11 and 12 by scanning the tooltips on the **Parallel Stacks** window.
 
      ![Task view in Parallel Stacks window](../debugger/media/vs-2022/pdb-walkthrough-9a.png "PDB_Walkthrough_9A")
 
@@ -400,7 +400,12 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      You can group the tasks by column. In the **Tasks** window, right-click the **Status** column header and then click **Group by Status**. The following illustration shows the **Tasks** window grouped by status.
 
+     ::: moniker range=">=vs-2022"
+     ![Grouped tasks in Tasks window](../debugger/media/vs-2022/pdb-walkthrough-12.png "PDB_Walkthrough_12")
+     ::: moniker-end
+     ::: moniker range="vs-2019"
      ![Grouped tasks in Tasks window](../debugger/media/pdb_walkthrough_12.png "PDB_Walkthrough_12")
+     ::: moniker-end
 
      You can also group by any other column. By grouping tasks, you can focus on a subset of tasks. Each collapsible group has a count of the items that are grouped together.
 
