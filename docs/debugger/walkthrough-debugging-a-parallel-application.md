@@ -218,9 +218,14 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      Notice that S.L is bold in the other two boxes so that you can see where else it appears. If you want to see which frames call into S.L and which frames it calls, click the **Toggle Method View** button on the toolbar. The following illustration shows the method view of The **Parallel Stacks** window.
 
+     ::: moniker range=">=vs-2022"
+     ![Method view in Parallel Stacks window](../debugger/media/vs-2022/pdb-walkthrough-4.png "PDW_Walkthrough_4")
+     ::: moniker-end
+     ::: moniker range="vs-2019"
      ![Method view in Parallel Stacks window](../debugger/media/pdb_walkthrough_4.png "PDW_Walkthrough_4")
+     ::: moniker-end
 
-     Notice how the diagram pivoted on the selected method and positioned it in its own box in the middle of the view. The callees and callers appear on the top and bottom. Click the **Toggle Method View** button again to leave this mode.
+     Notice how the diagram pivoted on the selected method and positioned it in its own box in the middle of the view. The callees and callers appear on the top and bottom, respectively. Click the **Toggle Method View** button again to leave this mode.
 
      The shortcut menu of the **Parallel Stacks** window also has the following other items.
 
@@ -246,7 +251,12 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      The **Bird's Eye View** also helps with large diagrams in the **Parallel Stacks** window. By default, the **Bird's Eye View** is on. But you can toggle it by clicking the button between the scroll bars on the lower-right corner of the window, as shown in the following illustration.
 
+     ::: moniker range=">=vs-2022"
+     ![Bird's&#45;eye view in Parallel Stacks window](../debugger/media/vs-2022/pdb-walkthrough-5.png "PDB_Walkthrough_5")
+     ::: moniker-end
+     ::: moniker range="vs-2019"
      ![Bird's&#45;eye view in Parallel Stacks window](../debugger/media/pdb_walkthrough_5.png "PDB_Walkthrough_5")
+     ::: moniker-end
 
      In bird's eye view, you can move the rectangle to quickly pan around the diagram.
 
@@ -254,14 +264,17 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      To zoom in and out of the diagram, press and hold CTRL while you move the mouse wheel. Alternatively, click the Zoom button on the toolbar and then use the Zoom tool.
 
+     ::: moniker range="vs-2019"
      You can also view the stacks in a top-down direction instead of bottom-up, by clicking the **Tools** menu, clicking **Options**, and then select or clear the option under the **Debugging** node.
+     ::: moniker-end
 
 2. Before you continue, on the **Debug** menu, click **Stop Debugging** to end execution.
 
 ## Using the Parallel Tasks Window and the Tasks View of the Parallel Stacks window
+
  We recommended that you complete the earlier procedures before you continue.
 
-#### To restart the application until the first breakpoint is hit
+**To restart the application until the first breakpoint is hit**
 
 1. On the **Debug** menu, click **Start Debugging** and wait for the first breakpoint to be hit.
 
@@ -273,7 +286,12 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 5. On the **Debug** menu, point to **Windows**, and then click **Tasks**. The following illustration shows the **Tasks** window.
 
+     ::: moniker range=">=vs-2022"
+     ![Four running tasks in Tasks window](../debugger/media/vs-2022/pdb-walkthrough-6.png "PDW_Walkthrough_6")
+     ::: moniker-end
+     ::: moniker range="vs-2019"
      ![Four running tasks in Tasks window](../debugger/media/pdb_walkthrough_6.png "PDW_Walkthrough_6")
+     ::: moniker-end
 
      For each running Task, you can read its ID, which is returned by the same-named property, the ID and name of the thread that runs it, its location (hovering over that displays a tooltip that has the whole call stack). Also, under the **Task** column, you can see the method that was passed into the task; in other words, the starting point.
 
@@ -281,15 +299,25 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      The yellow arrow indicates the current task. You can switch tasks by double-clicking a task or by using the shortcut menu. When you switch tasks, the underlying thread becomes current and the other windows are updated.
 
+     ::: moniker range=">=vs-2022"
+     When you manually switch from one task to another, the arrow outline indicates the current debugger context for a non-current task.
+     ::: moniker-end
+     ::: moniker range="vs-2019"
      When you manually switch from one task to another, the yellow arrow moves, but a white arrow still shows the task that caused the debugger to break.
+     ::: moniker-end
 
-#### To resume execution until the second breakpoint
+**To resume execution until the second breakpoint**
 
 1. To resume execution until the second breakpoint is hit, on the **Debug** menu, click **Continue**.
 
      Previously, the **Status** column showed all tasks as Active, but now two of the tasks are Blocked. Tasks can be blocked for [many different reasons](/dotnet/standard/parallel-programming/potential-pitfalls-in-data-and-task-parallelism). In the **Status** column, hover over a waiting task to learn why it is blocked. For example, in the following illustration, task 3 is waiting on task 4.
 
+     ::: moniker range=">=vs-2022"
+     ![Two waiting tasks in Tasks window](../debugger/media/vs-2022/pdb-walkthrough-7.png "PDB_Walkthrough_7")
+     ::: moniker-end
+     ::: moniker range="vs-2019"
      ![Two waiting tasks in Tasks window](../debugger/media/pdb_walkthrough_7.png "PDB_Walkthrough_7")
+     ::: moniker-end
 
      Task 4, in turn, is waiting on a monitor owned by the thread assigned to task 2. (Right-click the header row and choose **Columns** > **Thread Assignment** to view the thread assignment value for task 2).
 
@@ -309,7 +337,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      You can use the shortcut menu to add or remove columns. For example, the AppDomain column is not selected; therefore, it is not displayed in the list. Click **Parent**. The **Parent** column appears without values for any of the four tasks.
 
-#### To resume execution until the third breakpoint
+**To resume execution until the third breakpoint**
 
 1. To resume execution until the third breakpoint is hit, on the **Debug** menu, click **Continue**.
 
@@ -329,7 +357,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      This is another benefit of the Tasks View in the **Parallel Stacks** window, compared to the **Threads** window.
 
-#### To resume execution until the fourth breakpoint
+**To resume execution until the fourth breakpoint**
 
 1. To resume execution until the third breakpoint is hit, on the **Debug** menu, click **Continue**. Click the **ID** column header to sort by ID. You should see the following illustration.
 
@@ -356,9 +384,11 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
      You can freeze the underlying thread of a task, or tasks, or you can freeze all threads except the assigned one. A frozen thread is represented in the **Tasks** window as it is in the **Threads** window, by a blue *pause* icon.
 
 ## Summary
+
  This walkthrough demonstrated the **Parallel Tasks** and **Parallel Stacks** debugger windows. Use these windows on real projects that use multithreaded code. You can examine parallel code written in C++, C#, or Visual Basic.
 
 ## See also
+
 - [Debugging Multithreaded Applications](../debugger/walkthrough-debugging-a-parallel-application.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
