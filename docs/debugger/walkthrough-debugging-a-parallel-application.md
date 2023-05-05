@@ -310,18 +310,18 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 1. To resume execution until the second breakpoint is hit, on the **Debug** menu, click **Continue**.
 
-     Previously, the **Status** column showed all tasks as Active, but now two of the tasks are Blocked. Tasks can be blocked for [many different reasons](/dotnet/standard/parallel-programming/potential-pitfalls-in-data-and-task-parallelism). In the **Status** column, hover over a waiting task to learn why it is blocked. For example, in the following illustration, task 3 is waiting on task 4.
+     Previously, the **Status** column showed all tasks as Active, but now two of the tasks are Blocked. Tasks can be blocked for [many different reasons](/dotnet/standard/parallel-programming/potential-pitfalls-in-data-and-task-parallelism). In the **Status** column, hover over a waiting task to learn why it is blocked. For example, in the following illustration, one task is waiting on another task.
 
      ::: moniker range=">=vs-2022"
      ![Two waiting tasks in Tasks window](../debugger/media/vs-2022/pdb-walkthrough-7.png "PDB_Walkthrough_7")
      ::: moniker-end
      ::: moniker range="vs-2019"
      ![Two waiting tasks in Tasks window](../debugger/media/pdb_walkthrough_7.png "PDB_Walkthrough_7")
-     ::: moniker-end
 
      Task 4, in turn, is waiting on a monitor owned by the thread assigned to task 2. (Right-click the header row and choose **Columns** > **Thread Assignment** to view the thread assignment value for task 2).
 
      ![Waiting task and tooltip in Tasks window](../debugger/media/pdb_walkthrough_7a.png "PDB_Walkthrough_7A")
+     ::: moniker-end
 
      You can flag a task by clicking the flag in the first column of the **Tasks** window.
 
@@ -329,7 +329,12 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      When you used the **Parallel Stacks** window earlier, you viewed the application threads. View the **Parallel Stacks** window again, but this time view the application tasks. Do this by selecting **Tasks** in the box on the upper left. The following illustration shows the Tasks View.
 
+     ::: moniker range=">=vs-2022"
+     ![Tasks view in Parallel Stacks window](../debugger/media/vs-2022/pdb-walkthrough-8.png "PDB_Walkthrough_8")
+     ::: moniker-end
+     ::: moniker range="vs-2019"
      ![Tasks view in Parallel Stacks window](../debugger/media/pdb_walkthrough_8.png "PDB_Walkthrough_8")
+     ::: moniker-end
 
      Threads that are not currently executing tasks are not shown in the Tasks View of the **Parallel Stacks** window. Also, for threads that execute tasks, some of the stack frames that are not relevant to tasks are filtered from the top and bottom of the stack.
 
@@ -341,6 +346,16 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
 1. To resume execution until the third breakpoint is hit, on the **Debug** menu, click **Continue**.
 
+     ::: moniker range=">=vs-2022"
+     A new task, task 5, is now running and task 4 is now waiting. You can see why by hovering over the waiting task in the **Status** window. In the **Parent** column, notice that task 4 is the parent of task 5.
+
+     ![Parent&#45;child view in Tasks window](../debugger/media/vs-2022/pdb-walkthrough-9.png "PDB_Walkthrough_9")
+
+     Notice that task 11 and task 12 are running on the same thread (show the **Thread Assignment** column if it is hidden). This information is not displayed in the **Threads** window; seeing it here is another benefit of the **Tasks** window. To confirm this, view the **Parallel Stacks** window. Make sure that you are viewing **Tasks**. Locate tasks 11 and 12 by double-clicking them in the **Tasks** window. When you do, the blue highlight in the **Parallel Stacks** window is updated. You can also locate tasks 11 and 12 by scanning the tooltips on the **Parallel Stacks** window.
+
+     ::: moniker-end
+     ::: moniker range="vs-2019"
+
      A new task, task 5, is now running and task 4 is now waiting. You can see why by hovering over the waiting task in the **Status** window. In the **Parent** column, notice that task 4 is the parent of task 5.
 
      To better visualize the parent-child relationship, right-click the column header row and then click **Parent Child View**. You should see the following illustration.
@@ -348,6 +363,8 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
      ![Parent&#45;child view in Tasks window](../debugger/media/pdb_walkthrough_9.png "PDB_Walkthrough_9")
 
      Notice that task 4 and task 5 are running on the same thread (show the **Thread Assignment** column if it is hidden). This information is not displayed in the **Threads** window; seeing it here is another benefit of the **Tasks** window. To confirm this, view the **Parallel Stacks** window. Make sure that you are viewing **Tasks**. Locate tasks 4 and 5 by double-clicking them in the **Tasks** window. When you do, the blue highlight in the **Parallel Stacks** window is updated. You can also locate tasks 4 and 5 by scanning the tooltips on the **Parallel Stacks** window.
+
+     ::: moniker-end
 
      ![Task view in Parallel Stacks window](../debugger/media/pdb_walkthrough_9a.png "PDB_Walkthrough_9A")
 
