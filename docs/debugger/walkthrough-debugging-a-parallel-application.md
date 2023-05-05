@@ -352,7 +352,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
      ::: moniker range=">=vs-2022"
      ![Parent&#45;child view in Tasks window](../debugger/media/vs-2022/pdb-walkthrough-9.png "PDB_Walkthrough_9")
 
-     Notice that task 11 and task 12 are running on the same thread (show the **Thread Assignment** column if it is hidden). This information is not displayed in the **Threads** window; seeing it here is another benefit of the **Tasks** window. To confirm this, view the **Parallel Stacks** window. Make sure that you are viewing **Tasks**. You can locate tasks 11 and 12 by scanning the tooltips on the **Parallel Stacks** window.
+     In this example, notice that task 11 and task 12 are running on the same thread (show the **Thread Assignment** column if it is hidden). This information is not displayed in the **Threads** window; seeing it here is another benefit of the **Tasks** window. To confirm this, view the **Parallel Stacks** window. Make sure that you are viewing **Tasks**. You can locate tasks 11 and 12 by scanning the tooltips on the **Parallel Stacks** window.
 
      ![Task view in Parallel Stacks window](../debugger/media/vs-2022/pdb-walkthrough-9a.png "PDB_Walkthrough_9A")
 
@@ -368,18 +368,25 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
      Notice that task 4 and task 5 are running on the same thread (show the **Thread Assignment** column if it is hidden). This information is not displayed in the **Threads** window; seeing it here is another benefit of the **Tasks** window. To confirm this, view the **Parallel Stacks** window. Make sure that you are viewing **Tasks**. Locate tasks 4 and 5 by double-clicking them in the **Tasks** window. When you do, the blue highlight in the **Parallel Stacks** window is updated. You can also locate tasks 4 and 5 by scanning the tooltips on the **Parallel Stacks** window.
 
      ![Task view in Parallel Stacks window](../debugger/media/pdb_walkthrough_9a.png "PDB_Walkthrough_9A")
-     ::: moniker-end
 
      In the **Parallel Stacks** window, right-click S.P, and then click **Go To Thread**. The window switches to Threads View and the corresponding frame is in view. You can see both tasks on the same thread.
 
      ![Highlighted thread in threads view](../debugger/media/pdb_walkthrough_9b.png "PDB_Walkthrough_9B")
 
      This is another benefit of the Tasks View in the **Parallel Stacks** window, compared to the **Threads** window.
+     ::: moniker-end
 
 **To resume execution until the fourth breakpoint**
 
 1. To resume execution until the third breakpoint is hit, on the **Debug** menu, click **Continue**. Click the **ID** column header to sort by ID. You should see the following illustration.
 
+     ::: moniker range=">=vs-2022"
+     ![Four task states in Parallel Stacks window](../debugger/media/vs-2022/pdb-walkthrough-10.png "PDB_Walkthrough_10")
+
+     Task 10 and task 11 are now waiting on each other and are blocked. There are also several new tasks that are now scheduled. Scheduled tasks are tasks that have been started in code but have not run yet. Therefore, their **Location** and **Thread Assignment** columns show default messages or are empty.
+     ::: moniker-end
+
+     ::: moniker range="vs-2019"
      ![Four task states in Parallel Stacks window](../debugger/media/pdb_walkthrough_10.png "PDB_Walkthrough_10")
 
      Because task 5 has completed, it is no longer displayed. If that is not the case on your computer and the deadlock is not shown, step one time by pressing **F11**.
@@ -389,6 +396,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
      View the **Parallel Stacks** window again. The header of each box has a tooltip that shows the thread IDs and names. Switch to Tasks View in the **Parallel Stacks** window. Hover over a header to see the task ID and name, and the status of the task, as shown in the following illustration.
 
      ![Header tooltip in Parallel Stacks window](../debugger/media/pdb_walkthrough_11.png "PDB_Walkthrough_11")
+     ::: moniker-end
 
      You can group the tasks by column. In the **Tasks** window, right-click the **Status** column header and then click **Group by Status**. The following illustration shows the **Tasks** window grouped by status.
 
