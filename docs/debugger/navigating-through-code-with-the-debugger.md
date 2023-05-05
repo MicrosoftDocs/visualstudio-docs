@@ -183,7 +183,7 @@ While the debugger is paused, you can hover over a statement in source code or t
 > **Run to Click** is available starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
 
 ::: moniker range=">= vs-2022"
-### Force Run to Click 
+### Force run to click 
 
 While the debugger is paused, you can hover over a statement in source code while pressing the **Shift** key and then select **Force run execution to here** (the double green arrow). When you choose this option, the application attaches the Visual Studio debugger and pauses at the cursor location. Any breakpoints and first-chance exceptions found during execution are temporarily disabled.
 
