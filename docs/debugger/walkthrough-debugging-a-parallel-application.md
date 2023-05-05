@@ -164,7 +164,7 @@ This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks**
 
      You can hover over the box header, for example, **1 Thread** or **2 Threads**, to see the thread IDs of the threads. You can hover over stack frames to see thread IDs plus other frame details. The blue highlight indicates the current thread and the yellow arrow indicates the active stack frame of the current thread.
 
-     The cloth-threads icon (interweaved lines) indicate the active stack frames of the noncurrent threads. In the **Call Stack** window, double-click S.B to switch frames. The **Parallel Stacks** window indicates the current stack frame of the current thread by using a green curved arrow icon.
+     The cloth-threads icon (interweaved lines) indicate the active stack frames of the noncurrent threads. In the **Call Stack** window, double-click S.B to switch frames. The **Parallel Stacks** window indicates the current stack frame of the current thread by using a curved arrow icon.
 
      In the **Threads** window, switch between threads and observe that the view in the **Parallel Stacks** window is updated.
 
