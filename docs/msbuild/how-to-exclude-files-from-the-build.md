@@ -1,7 +1,7 @@
 ---
-title: 'How to: Exclude Files from the Build | Microsoft Docs'
+title: Exclude Files from the Build
 description: Learn how to explicitly exclude or conditionally include files from builds in MSBuild project files.
-ms.date: 11/04/2016
+ms.date: 05/10/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, wildcards
@@ -15,7 +15,7 @@ ms.technology: msbuild
 ms.workload:
 - multiple
 ---
-# How to: Exclude files from the build
+# Exclude files from the build
 
 In a project file you can use wildcards to include all the files in one directory or a nested set of directories as inputs for a build. However, there might be one file in the directory or one directory in a nested set of directories that you do not want to include as input for a build. You can explicitly exclude that file or directory from the list of inputs. There may also be a file in a project that you only want to include under certain conditions. You can explicitly declare the conditions under which a file is included in a build.
 
@@ -32,7 +32,7 @@ In a project file you can use wildcards to include all the files in one director
 
  If you have used wildcards to include all the files in one directory or a nested set of directories as inputs for a build, there might be one or more files in the directory or one directory in the nested set of directories that you do not want to include. To exclude an item from the item list, use the `Exclude` attribute.
 
-#### To include all *.cs* or *.vb* files except *Form2*
+### To include all *.cs* or *.vb* files except *Form2*
 
 - Use one of the following `Include` and `Exclude` attributes:
 
@@ -46,7 +46,7 @@ In a project file you can use wildcards to include all the files in one director
     <VBFile Include="*.vb" Exclude="Form2.vb"/>
     ```
 
-#### To include all *.cs* or *.vb* files except *Form2* and *Form3*
+### To include all *.cs* or *.vb* files except *Form2* and *Form3*
 
 - Use one of the following `Include` and `Exclude` attributes:
 
@@ -60,7 +60,7 @@ In a project file you can use wildcards to include all the files in one director
     <VBFile Include="*.vb" Exclude="Form2.vb;Form3.vb"/>
     ```
 
-#### To include all *.jpg* files in subdirectories of the *Images* directory except those in the *Version2* directory
+### To include all *.jpg* files in subdirectories of the *Images* directory except those in the *Version2* directory
 
 - Use the following `Include` and `Exclude` attributes:
 
@@ -77,7 +77,7 @@ In a project file you can use wildcards to include all the files in one director
 
  If there are items that you want to include, for example, in a Debug build but not a Release build, you can use the `Condition` attribute to specify the conditions under which to include the item.
 
-#### To include the file *Formula.vb* only in Release builds
+### To include the file *Formula.vb* only in Release builds
 
 - Use a `Condition` attribute similar to the following:
 
