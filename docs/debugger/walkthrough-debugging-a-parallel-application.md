@@ -266,7 +266,7 @@ To resume execution until the fourth breakpoint:
      The **Bird's Eye View** also helps with large diagrams in the **Parallel Stacks** window. By default, the **Bird's Eye View** is on. But you can toggle it by clicking the button between the scroll bars on the lower-right corner of the window, as shown in the following illustration.
 
      ::: moniker range=">=vs-2022"
-     ![Screenshot of Bird's&#45;eye view in Parallel Stacks window.](../debugger/media/vs-2022/pdb-walkthrough-5.png "PDB_Walkthrough_5")
+     ![Screenshot of Birds eye view in Parallel Stacks window.](../debugger/media/vs-2022/pdb-walkthrough-5.png "PDB_Walkthrough_5")
      ::: moniker-end
      ::: moniker range="vs-2019"
      ![Bird's&#45;eye view in Parallel Stacks window](../debugger/media/pdb_walkthrough_5.png "PDB_Walkthrough_5")
