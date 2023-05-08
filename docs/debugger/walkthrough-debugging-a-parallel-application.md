@@ -178,7 +178,7 @@ To resume execution until the second breakpoint:
      The cloth-threads icon (interweaved lines) indicate the active stack frames of the noncurrent threads. In the **Call Stack** window, double-click S.B to switch frames. The **Parallel Stacks** window indicates the current stack frame of the current thread by using a curved arrow icon.
 
      > [!NOTE]
-     > For a description of all the icons in the Parallel Stacks window, see [Using the Parallel Stacks window](../debugger/using-the-parallel-stacks-window?view=vs-2022&branch=pr-en-us-11182#use-the-parallel-stacks-window).
+     > For a description of all the icons in the Parallel Stacks window, see [Using the Parallel Stacks window](../debugger/using-the-parallel-stacks-window.md#use-the-parallel-stacks-window).
 
      In the **Threads** window, switch between threads and observe that the view in the **Parallel Stacks** window is updated.
 
