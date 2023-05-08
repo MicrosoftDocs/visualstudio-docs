@@ -1,7 +1,7 @@
 ---
 title: Property Functions | Microsoft Docs
 description: Learn how to use property functions, which are calls to .NET Framework methods that appear in MSBuild property definitions.
-ms.date: 10/20/2021
+ms.date: 05/10/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, property functions
@@ -15,13 +15,11 @@ ms.workload:
 ---
 # Property functions
 
-Property functions are calls to .NET Framework methods that appear in MSBuild property definitions. Unlike tasks, property functions can be used outside of targets. Property functions are evaluated whenever the properties or items get expanded, which is before any target runs for properties and items outside of any targets, or when the target is evaluated, for property groups and item groups inside targets.
+Property functions are calls to .NET methods that appear in MSBuild property definitions. Unlike tasks, property functions can be used outside of targets. Property functions are evaluated whenever the properties or items get expanded. So, for properties and items outside of any targets, property functions are evaluated before any target runs. For property groups and item groups inside targets, property functions are evaluated when the target is evaluated.
 
 Without using MSBuild tasks, you can read the system time, compare strings, match regular expressions, and perform other actions in your build script. MSBuild will try to convert string to number and number to string, and make other conversions as required.
 
 String values returned from property functions have [special characters](msbuild-special-characters.md) escaped. If you want the value to be treated as though it was put directly in the project file, use `$([MSBuild]::Unescape())` to unescape the special characters.
-
-Property functions are available with .NET Framework 4 and later.
 
 ## Property function syntax
 
@@ -35,15 +33,15 @@ These are three kinds of property functions; each function has a different synta
 
 All build property values are just string values. You can use string (instance) methods to operate on any property value. For example, you can extract the drive name (the first three characters) from a build property that represents a full path by using this code:
 
-```
+```xml
 $(ProjectOutputFolder.Substring(0,3))
 ```
 
 ### Static property functions
 
-In your build script, you can access the static properties and methods of many system classes. To get the value of a static property, use the following syntax, where \<Class> is the name of the system class and \<Property> is the name of the property.
+In your build script, you can access the static properties and methods of many system classes. To get the value of a static property, use the following syntax, where `Class` is the name of the system class and `Property1 is the name of the property.
 
-```
+```xml
 $([Class]::Property)
 ```
 
@@ -53,9 +51,9 @@ For example, you can use the following code to set a build property to the curre
 <Today>$([System.DateTime]::Now)</Today>
 ```
 
-To call a static method, use the following syntax, where \<Class> is the name of the system class, \<Method> is the name of the method, and (\<Parameters>) is the parameter list for the method:
+To call a static method, use the following syntax, where `Class` is the name of the system class, `Method` is the name of the method, and `(Parameters)` is the parameter list for the method:
 
-```
+```xml
 $([Class]::Method(Parameters))
 ```
 
@@ -133,9 +131,9 @@ In addition, you can use the following static methods and properties:
 
 ### Calling instance methods on static properties
 
-If you access a static property that returns an object instance, you can invoke the instance methods of that object. To invoke an instance method, use the following syntax, where \<Class> is the name of the system class, \<Property> is the name of the property, \<Method> is the name of the method, and (\<Parameters>) is the parameter list for the method:
+If you access a static property that returns an object instance, you can invoke the instance methods of that object. To invoke an instance method, use the following syntax, where `Class` is the name of the system class, `Property` is the name of the property, `Method` is the name of the method, and `(Parameters)` is the parameter list for the method:
 
-```
+```xml
 $([Class]::Property.Method(Parameters))
 ```
 
@@ -149,15 +147,15 @@ For example, you can use the following code to set a build property to the curre
 
 ### MSBuild property functions
 
-Several static methods in your build can be accessed to provide arithmetic, bitwise logical, and escape character support. You access these methods by using the following syntax, where \<Method> is the name of the method and (\<Parameters>) is the parameter list for the method.
+Several static methods in your build can be accessed to provide arithmetic, bitwise logical, and escape character support. You access these methods by using the following syntax, where `Method` is the name of the method and `(Parameters)` is the parameter list for the method.
 
-```
+```xml
 $([MSBuild]::Method(Parameters))
 ```
 
 For example, to add together two properties that have numeric values, use the following code.
 
-```
+```xml
 $([MSBuild]::Add($(NumberOne), $(NumberTwo)))
 ```
 
@@ -165,39 +163,39 @@ Here is a list of MSBuild property functions:
 
 |Function signature|Description|
 |------------------------|-----------------|
-|double Add(double a, double b)|Add two doubles.|
-|long Add(long a, long b)|Add two longs.|
-|double Subtract(double a, double b)|Subtract two doubles.|
-|long Subtract(long a, long b)|Subtract two longs.|
-|double Multiply(double a, double b)|Multiply two doubles.|
-|long Multiply(long a, long b)|Multiply two longs.|
-|double Divide(double a, double b)|Divide two doubles.|
-|long Divide(long a, long b)|Divide two longs.|
-|double Modulo(double a, double b)|Modulo two doubles.|
-|long Modulo(long a, long b)|Modulo two longs.|
-|string Escape(string unescaped)|Escape the string according to MSBuild escaping rules.|
-|string Unescape(string escaped)|Unescape the string according to MSBuild escaping rules.|
-|int BitwiseOr(int first, int second)|Perform a bitwise `OR` on the first and second (first &#124; second).|
-|int BitwiseAnd(int first, int second)|Perform a bitwise `AND` on the first and second (first & second).|
-|int BitwiseXor(int first, int second)|Perform a bitwise `XOR` on the first and second (first ^ second).|
-|int BitwiseNot(int first)|Perform a bitwise `NOT` (~first).|
-|bool IsOsPlatform(string platformString)|Specify whether the current OS platform is `platformString`. `platformString` must be a member of <xref:System.Runtime.InteropServices.OSPlatform>.|
-|bool IsOSUnixLike()|True if current OS is a Unix system.|
-|string NormalizePath(params string[] path)|Gets the canonicalized full path of the provided path and ensures it contains the correct directory separator characters for the current operating system.|
-|string NormalizeDirectory(params string[] path)|Gets the canonicalized full path of the provided directory and ensures it contains the correct directory separator characters for the current operating system while ensuring it has a trailing slash.|
-|string EnsureTrailingSlash(string path)|If the given path doesn't have a trailing slash then add one. If the path is an empty string, does not modify it.|
-|string GetPathOfFileAbove(string file, string startingDirectory)|Searches for and returns the full path to a file in the directory structure at and above the current build file's location, or based on `startingDirectory`, if specified.|
-|GetDirectoryNameOfFileAbove(string startingDirectory, string fileName)|Locate and return the directory of a file in either the directory specified or a location in the directory structure above that directory.|
-|string MakeRelative(string basePath, string path)|Makes `path` relative to `basePath`. `basePath` must be an absolute directory. If `path` cannot be made relative, it is returned verbatim. Similar to `Uri.MakeRelativeUri`.|
-|string ValueOrDefault(string conditionValue, string defaultValue)|Returns the string in parameter `defaultValue` only if parameter `conditionValue` is empty, else, return the value `conditionValue`.|
-|string ConvertToBase64(string toEncode)|Returns the string after converting all bytes to base 64 (alphanumeric characters plus `+` and `/`), ending in one or two `=`.|
-|string ConvertFromBase64(string toDecode)|Returns the string after converting from base 64 (alphanumeric characters plus `+` and `/`), ending in one or two `=`.|
+|`double Add(double a, double b)`|Add two doubles.|
+|`long Add(long a, long b)`|Add two longs.|
+|`double Subtract(double a, double b)`|Subtract two doubles.|
+|`long Subtract(long a, long b)`|Subtract two longs.|
+|`double Multiply(double a, double b)`|Multiply two doubles.|
+|`long Multiply(long a, long b)`|Multiply two longs.|
+|`double Divide(double a, double b)`|Divide two doubles.|
+|`long Divide(long a, long b)`|Divide two longs.|
+|`double Modulo(double a, double b)`|Modulo two doubles.|
+|`long Modulo(long a, long b)`|Modulo two longs.|
+|`string Escape(string unescaped)`|Escape the string according to MSBuild escaping rules.|
+|`string Unescape(string escaped)`|Unescape the string according to MSBuild escaping rules.|
+|`int BitwiseOr(int first, int second)`|Perform a bitwise `OR` on the first and second (first &#124; second).|
+|`int BitwiseAnd(int first, int second)`|Perform a bitwise `AND` on the first and second (first & second).|
+|`int BitwiseXor(int first, int second)`|Perform a bitwise `XOR` on the first and second (first ^ second).|
+|`int BitwiseNot(int first)`|Perform a bitwise `NOT` (~first).|
+|`bool IsOsPlatform(string platformString)`|Specify whether the current OS platform is `platformString`. `platformString` must be a member of <xref:System.Runtime.InteropServices.OSPlatform>.|
+|`bool IsOSUnixLike()`|True if current OS is a Unix system.|
+|`string NormalizePath(params string[] path)`|Gets the canonicalized full path of the provided path and ensures it contains the correct directory separator characters for the current operating system.|
+|`string NormalizeDirectory(params string[] path)`|Gets the canonicalized full path of the provided directory and ensures it contains the correct directory separator characters for the current operating system while ensuring it has a trailing slash.|
+|`string EnsureTrailingSlash(string path)`|If the given path doesn't have a trailing slash then add one. If the path is an empty string, does not modify it.|
+|`string GetPathOfFileAbove(string file, string startingDirectory)`|Searches for and returns the full path to a file in the directory structure at and above the current build file's location, or based on `startingDirectory`, if specified.|
+|`GetDirectoryNameOfFileAbove(string startingDirectory, string fileName)`|Locate and return the directory of a file in either the directory specified or a location in the directory structure above that directory.|
+|`string MakeRelative(string basePath, string path)`|Makes `path` relative to `basePath`. `basePath` must be an absolute directory. If `path` cannot be made relative, it is returned verbatim. Similar to `Uri.MakeRelativeUri`.|
+|`string ValueOrDefault(string conditionValue, string defaultValue)`|Returns the string in parameter `defaultValue` only if parameter `conditionValue` is empty, else, return the value `conditionValue`.|
+|`string ConvertToBase64(string toEncode)`|Returns the string after converting all bytes to base 64 (alphanumeric characters plus `+` and `/`), ending in one or two `=`.|
+|`string ConvertFromBase64(string toDecode)`|Returns the string after converting from base 64 (alphanumeric characters plus `+` and `/`), ending in one or two `=`.|
 
 ## Nested property functions
 
-You can combine property functions to form more complex functions, as the following example shows.
+You can combine property functions to form more complex functions, as the following example shows:
 
-```
+```xml
 $([MSBuild]::BitwiseAnd(32, $([System.IO.File]::GetAttributes(tempFile))))
 ```
 
@@ -217,7 +215,7 @@ The `DoesTaskHostExist` property function in MSBuild returns whether a task host
 
 This property function has the following syntax:
 
-```
+```xml
 $([MSBuild]::DoesTaskHostExist(string theRuntime, string theArchitecture))
 ```
 
@@ -227,7 +225,7 @@ The `EnsureTrailingSlash` property function in MSBuild adds a trailing slash if 
 
 This property function has the following syntax:
 
-```
+```xml
 $([MSBuild]::EnsureTrailingSlash('$(PathProperty)'))
 ```
 
@@ -237,7 +235,7 @@ The MSBuild `GetDirectoryNameOfFileAbove` property function searches upward for 
 
 This property function has the following syntax:
 
-```
+```xml
 $([MSBuild]::GetDirectoryNameOfFileAbove(string startingDirectory, string fileName))
 ```
 
@@ -259,7 +257,7 @@ The MSBuild `GetPathOfFileAbove` property function searches upward for a directo
 
 This property function has the following syntax:
 
-```
+```xml
 $([MSBuild]::GetPathOfFileAbove(string file, [string startingDirectory]))
 ```
 
@@ -295,7 +293,7 @@ The MSBuild `GetRegistryValue` property function returns the value of a registry
 
 The following examples show how this function is used:
 
-```
+```xml
 $([MSBuild]::GetRegistryValue(`HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\10.0\Debugger`, ``))                                  // default value
 $([MSBuild]::GetRegistryValue(`HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\10.0\Debugger`, `SymbolCacheDir`))
 $([MSBuild]::GetRegistryValue(`HKEY_LOCAL_MACHINE\SOFTWARE\(SampleName)`, `(SampleValue)`))             // parens in name and value
@@ -310,7 +308,7 @@ The MSBuild `GetRegistryValueFromView` property function gets system registry da
 
 The syntax for this property function is:
 
-```
+```xml
 [MSBuild]::GetRegistryValueFromView(string keyName, string valueName, object defaultValue, params object[] views)
 ```
 
@@ -328,7 +326,7 @@ The following registry views are available:
 
 The following is an example.
 
- ```
+ ```xml
 $([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft SDKs\Silverlight\v3.0\ReferenceAssemblies', 'SLRuntimeInstallPath', null, RegistryView.Registry64, RegistryView.Registry32))
 ```
 
@@ -343,7 +341,7 @@ The MSBuild `MakeRelative` property function returns the relative path of the se
 
 This property function has the following syntax:
 
-```
+```xml
 $([MSBuild]::MakeRelative($(FileOrFolderPath1), $(FileOrFolderPath2)))
 ```
 
@@ -402,11 +400,11 @@ MSBuild 16.7 and higher define several functions for handling [TargetFramework a
 
 |Function signature|Description|
 |------------------------|-----------------|
-|GetTargetFrameworkIdentifier(string targetFramework)|Parse the TargetFrameworkIdentifier from the TargetFramework.|
-|GetTargetFrameworkVersion(string targetFramework, int versionPartCount)|Parse the TargetFrameworkVersion from the TargetFramework.|
-|GetTargetPlatformIdentifier(string targetFramework)|Parse the TargetPlatformIdentifier from the TargetFramework.|
-|GetTargetPlatformVersion(string targetFramework, int versionPartCount)|Parse the TargetPlatformVersion from the TargetFramework.|
-|IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)|Return 'True' if the candidate target framework is compatible with this target framework and false otherwise.|
+|`GetTargetFrameworkIdentifier(string targetFramework)`|Parse the TargetFrameworkIdentifier from the TargetFramework.|
+|`GetTargetFrameworkVersion(string targetFramework, int versionPartCount)`|Parse the TargetFrameworkVersion from the TargetFramework.|
+|`GetTargetPlatformIdentifier(string targetFramework)`|Parse the TargetPlatformIdentifier from the TargetFramework.|
+|`GetTargetPlatformVersion(string targetFramework, int versionPartCount)`|Parse the TargetPlatformVersion from the TargetFramework.|
+|`IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)`|Return 'True' if the candidate target framework is compatible with this target framework and false otherwise.|
 
 The `versionPartCount` parameter of `GetTargetFrameworkVersion` and `GetTargetPlatformVersion` has a default value of 2.
 
@@ -445,31 +443,31 @@ Value5 = True
 
 MSBuild 16.5 and higher define several functions for comparing strings that represent versions.
 
-> [!Note]
+> [!NOTE]
 > Comparison operators in conditions [can compare strings that can be parsed as `System.Version` objects](msbuild-conditions.md#comparing-versions), but the comparison can produce unexpected results. Prefer the property functions.
 
 |Function signature|Description|
 |------------------------|-----------------|
-|VersionEquals(string a, string b)|Return `true` if versions `a` and `b` are equivalent according to the below rules.|
-|VersionGreaterThan(string a, string b)|Return `true` if version `a` is greater than `b` according to the below rules.|
-|VersionGreaterThanOrEquals(string a, string b)|Return `true` if version `a` is greater than or equal to `b` according to the below rules.|
-|VersionLessThan(string a, string b)|Return `true` if version `a` is less than `b` according to the below rules.|
-|VersionLessThanOrEquals(string a, string b)|Return `true` if version `a` is less than or equal to `b` according to the below rules.|
-|VersionNotEquals(string a, string b)|Return `false` if versions `a` and `b` are equivalent according to the below rules.|
+|`VersionEquals(string a, string b)`|Return `true` if versions `a` and `b` are equivalent according to the below rules.|
+|`VersionGreaterThan(string a, string b)`|Return `true` if version `a` is greater than `b` according to the below rules.|
+|`VersionGreaterThanOrEquals(string a, string b)`|Return `true` if version `a` is greater than or equal to `b` according to the below rules.|
+|`VersionLessThan(string a, string b)`|Return `true` if version `a` is less than `b` according to the below rules.|
+|`VersionLessThanOrEquals(string a, string b)`|Return `true` if version `a` is less than or equal to `b` according to the below rules.|
+|`VersionNotEquals(string a, string b)`|Return `false` if versions `a` and `b` are equivalent according to the below rules.|
 
 In these methods, versions are parsed like <xref:System.Version?displayProperty=fullName>, with the following exceptions:
 
-* Leading `v` or `V` is ignored, which allows comparison to `$(TargetFrameworkVersion)`.
+- Leading `v` or `V` is ignored, which allows comparison to `$(TargetFrameworkVersion)`.
 
-* Everything from the first '-' or '+' to the end of the version string is ignored. This allows passing in semantic versions (semver), though the order is not the same as semver. Instead, prerelease specifiers and build metadata do not have any sorting weight. This can be useful, for example, to turn on a feature for `>= x.y` and have it kick in on `x.y.z-pre`.
+- Everything from the first '-' or '+' to the end of the version string is ignored. This allows passing in semantic versions (semver), though the order is not the same as semver. Instead, prerelease specifiers and build metadata do not have any sorting weight. This can be useful, for example, to turn on a feature for `>= x.y` and have it kick in on `x.y.z-pre`.
 
-* Unspecified parts are same as zero value parts. (`x == x.0 == x.0.0 == x.0.0.0`).
+- Unspecified parts are same as zero value parts. (`x == x.0 == x.0.0 == x.0.0.0`).
 
-* Whitespace is not allowed in integer components.
+- Whitespace is not allowed in integer components.
 
-* Major version only is valid (`3` is equal to `3.0.0.0`)
+- Major version only is valid (`3` is equal to `3.0.0.0`)
 
-* `+` is not allowed as positive sign in integer components (it is treated as semver metadata and ignored)
+- `+` is not allowed as positive sign in integer components (it is treated as semver metadata and ignored)
 
 > [!TIP]
 > Comparisons of [TargetFramework properties](msbuild-target-framework-and-target-platform.md) should generally use [IsTargetFrameworkCompatible](#TargetFramework) instead of extracting and comparing versions. This allows comparing `TargetFramework`s that vary in `TargetFrameworkIdentifier` as well as version.

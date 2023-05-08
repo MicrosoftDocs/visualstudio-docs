@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 04/13/2023
+ms.date: 05/04/2023
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -20,6 +20,79 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
+
+## April 2023
+
+### Deployment
+
+**New articles**
+
+- [Build .NET ClickOnce applications from the command line](../deployment/building-dotnet-clickonce-applications-from-the-command-line.md)
+
+**Updated articles**
+
+- [Build ClickOnce applications from the command line](../deployment/building-clickonce-applications-from-the-command-line.md) - Add link to new Command-Line Build for .NET ClickOnce article
+
+### Designers
+
+**Updated articles**
+
+- [Fix HDPI/scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md) - Shorten text to improve readability
+
+### Extensibility
+
+**Updated articles**
+
+- [VSIX extension schema 2.0 reference](../extensibility/vsix-extension-schema-2-0-reference.md) - Add information about placeholders in VSIX manifest files
+
+### Get started
+
+**Updated articles**
+
+- [What is Visual Studio?](../get-started/visual-studio-ide.md) - Revise the Overview content
+
+### IDE
+
+**New articles**
+
+- [What is the GitHub Copilot extension for Visual Studio?](../ide/visual-studio-github-copilot-extension.md)
+
+**Updated articles**
+
+- [Bookmark code in Visual Studio](../ide/setting-bookmarks-in-code.md) - Update text, links, and screenshots
+- [Sign in to Visual Studio on Windows](../ide/signing-in-to-visual-studio.md) - Update text and screenshots
+- [Make code work in Visual Studio](../ide/find-and-fix-code-errors.md) - Update text and links
+- [Optimize Visual Studio startup time](../ide/optimize-visual-studio-startup-time.md) - Update text, links, and refresh for revised UI
+- [How to: Change fonts, colors, and themes in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) - Update text
+- [Walkthrough: Create a code snippet in Visual Studio](../ide/walkthrough-creating-a-code-snippet.md) - Add more detail to procedural instructions
+
+### Install
+
+**Updated articles**
+
+- [Create, maintain, and deploy a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md) - Update the useLatestInstaller content & add link to Community edition
+
+### MSBuild
+
+**Updated articles**
+
+- [MSBuild batching](../msbuild/msbuild-batching.md) - Document metadata-self referencing behavioral differences
+
+### Profiling
+
+**Updated articles**
+
+- [Which performance tool should I use? (C#, Visual Basic, C++, F#)](../profiling/choose-performance-tool.md) - Update info about choosing your performance tool
+
+### Community contributors
+
+The following people contributed to Visual Studio content in April. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
+
+- [jrdodds](https://github.com/jrdodds) - Jonathan Dodds (1)
+- [kmgallahan](https://github.com/kmgallahan) - Kevin Gallahan (1)
+- [robinhood2014](https://github.com/robinhood2014) - Brandon Taylor (1)
+- [soroosh-chabi](https://github.com/soroosh-chabi) - Soroosh Chabi (1)
+- [Tim-Maes](https://github.com/Tim-Maes) - Tim Maes (1)
 
 ## March 2023
 
@@ -108,19 +181,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **New articles**
 
 - [XAML Hot Reload and its impact on performance diagnostic in Visual Studio](../xaml-tools/xaml-hot-reload-impact-performance.md)
-
-### Community contributors
-
-The following people contributed to Visual Studio content in March. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
-
-- [AndrewKeepCoding](https://github.com/AndrewKeepCoding) - Andrew KeepCoding (1)
-- [chrisXromanov](https://github.com/chrisXromanov) chrisXromanov (1)
-- [Davi-Gray](https://github.com/Davi-Gray) - Davi Gray (1)
-- [jVanZwieten](https://github.com/jVanZwieten) - jVanZwieten (1)
-- [shandianchengzi](https://github.com/shandianchengzi) shandianchengzi (1)
-- [snickler](https://github.com/snickler) - Jeremy Sinclair (1)
-- [Tim-Maes](https://github.com/Tim-Maes) - Tim Maes (1)
-- [wsmelton](https://github.com/wsmelton) - Shawn Melton (1)
 
 ## February 2023
 
@@ -214,99 +274,3 @@ The following people contributed to Visual Studio content in March. Thank you! T
 **Updated articles**
 
 - [Use the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) - Add documentation for the DeploymentItem attribute
-
-## January 2023
-
-### Debugger
-
-**New articles**
-
-- [Tabular visualizers in Visual Studio](../debugger/view-data-in-tabular-visualizer.md)
-
-**Updated articles**
-
-- [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md) - Update Edit and Continue for .NET 6
-- Debugger visualizer updates:
-  - [View Text, XML, HTML, JSON strings in the string visualizer](../debugger/string-visualizer-dialog-box.md)
-  - [View strings in a string visualizer in Visual Studio](../debugger/view-strings-visualizer.md)
-
-### Deployment
-
-**Updated articles**
-
-- Clarify behavior for ClickOnce required and non-required updates:
-  - [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
-  - [Choose a ClickOnce update strategy](../deployment/choosing-a-clickonce-update-strategy.md)
-
-### Extensibility
-
-**Updated articles**
-
-- [Using the Managed Package Framework to Implement a Project Type (C#)](../extensibility/internals/using-the-managed-package-framework-to-implement-a-project-type-csharp.md) - Fix formatting and bullet points
-
-### Get started
-
-**Updated articles**
-
-- [Tutorial: Create a simple C# console app in Visual Studio (part 1 of 2)](../get-started/csharp/tutorial-console.md) - Update text, links, and screenshots
-
-### IDE
-
-**New articles**
-
-- [Troubleshoot errors in the Resource Editor](./troubleshoot-resource-editor-errors.md)
-
-**Updated articles**
-
-- [How to: Customize menus and toolbars in Visual Studio](./how-to-customize-menus-and-toolbars-in-visual-studio.md) - Update instructional text & links
-- [Options dialog box: Environment \> General](./reference/general-environment-options-dialog-box.md) - Revise Startup settings info
-- [Tour the Visual Studio IDE](./quickstart-ide-orientation.md) - Revise text and update screenshots
-
-### Install
-
-**Updated articles**
-
-- [Troubleshoot network-related errors when you install, update, or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md) - Add requirement that client machines need to have permissions to network layout shares
-- [Install Visual Studio](../install/install-visual-studio.md) - Update text and links
-- Perform minor doc content fixes to layout and admin documentation:
-  - [Create, maintain, and deploy a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
-  - [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md)
-
-### JavaScript
-
-**Updated articles**
-
-- [Develop JavaScript and TypeScript code in Visual Studio without solutions or projects](../javascript/develop-javascript-code-without-solutions-projects.md) - Add updates for importing an existing Node.js project
-- [Tutorial: Create a Node.js and Express app in Visual Studio](../javascript/tutorial-nodejs.md) - Update text and links
-
-### MSBuild
-
-**New articles**
-
-- [Fix intermittent build failures](../msbuild/fix-intermittent-build-failures.md) - Show how to identify and fix race conditions
-
-**Updated articles**
-
-- [Item functions](../msbuild/item-functions.md) - Clarify metadata item function and KeepDuplicates
-- [Property functions](../msbuild/property-functions.md) - Update text and links
-- [Tutorial: Create a custom task for code generation](../msbuild/tutorial-custom-task-code-generation.md) - Improve code formatting
-
-### Profiling
-
-**New articles**
-
-- [Slow Enumerable.Contains lookup](../profiling/perf-insights-contains.md)
-- [Slow Enumerable.ElementAt lookup](../profiling/perf-insights-elementat.md)
-- [Which performance tool should I use? (C#, Visual Basic, C++, F#)](../profiling/choose-performance-tool.md)
-
-### Python
-
-**Updated articles**
-
-- [Step 3: Serve static files, add pages, and use template inheritance with Django app](../python/learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md) - Update extends tag info
-
-### Test
-
-**Updated articles**
-
-- [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) - Add new code coverage filters info
