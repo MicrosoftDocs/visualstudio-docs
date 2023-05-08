@@ -124,9 +124,11 @@ The connected service functionality adds all the needed references and connectio
 
    ![Summary of changes](./media/azure-app-insights-add-connected-service/summary-of-changes.png)
 
-1. The connection appears under the **Service Dependencies** section of the **Connected Services** tab.
+1. In Solution Explorer, double-click on the **Connected Services** node to open the **Connected Services** tab. The connection appears under the **Service Dependencies** section:
 
    ![Service dependencies](./media/azure-app-insights-add-connected-service/service-dependencies-after.png)
+
+   If you click on the three dots next to the dependency you added, you can see various options such as **Connect** to reopen the wizard and change the connection. You can also click the three dots at the top right of the window to see options to start local dependencies, change settings, and more.
 
 :::moniker-end
 

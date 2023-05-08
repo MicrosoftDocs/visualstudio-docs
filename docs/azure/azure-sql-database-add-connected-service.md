@@ -30,6 +30,7 @@ The connected service functionality adds all the needed references and connectio
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Connected services in Visual Studio for Mac](/visualstudio/mac/connected-services).
+
 ## Prerequisites
 
 - Visual Studio with the Azure workload installed.
@@ -38,6 +39,23 @@ The connected service functionality adds all the needed references and connectio
 ## Connect to Azure SQL Database using Connected Services
 
 1. Open your project in Visual Studio.
+
+1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add** to open the menu of available services.
+
+   ![Screenshot showing Connected Services context menu options.](./media/vs-2022/add-connected-service-context-menu-2.png)
+
+1. Choose **SQL Server Database**. The **Add Dependency** page appears. You should see several options:
+
+   - SQL Server Express LocalDB, the built-in SQL database offering installed with Visual Studio
+   - SQL Server Database on a local container on your machine
+   - SQL Server Database, a on-premises SQL server on the local network
+   - Azure SQL database, for the SQL database running as an Azure service
+
+   You can reduce cost and simplify early development by starting with a local database. You can migrate to the live service in Azure later by repeating these steps and choosing another option. If you create a database locally that you want to recreate in Azure, you can migrate your database to Azure at that time.
+
+   ![Screenshot showing SQL database choices](./media/vs-2022/sql-database-choices-2.png)
+
+   If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign into your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
 1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add Connected Service**.
 
@@ -79,9 +97,11 @@ The connected service functionality adds all the needed references and connectio
 
    ![Firewall rules](./media/azure-sql-database-add-connected-service/firewall-rules.png)
 
-1. The connection appears under the **Service Dependencies** section of the **Connected Services** tab.
+1. In Solution Explorer, double-click on the **Connected Services** node to open the **Connected Services** tab. The connection appears under the **Service Dependencies** section:
 
    ![Service dependencies](./media/azure-sql-database-add-connected-service/service-dependencies-after.png)
+
+   If you click on the three dots next to the dependency you added, you can see various options such as **Connect** to reopen the wizard and change the connection. You can also click the three dots at the top right of the window to see options to start local dependencies, change settings, and more.
 
 ## Access the connection string
 

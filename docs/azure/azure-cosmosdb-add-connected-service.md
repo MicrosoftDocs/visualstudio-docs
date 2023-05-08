@@ -41,15 +41,17 @@ The connected service functionality adds all the needed references and connectio
 
 1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add Connected Service**.
 
-1. In the **Connected Services** tab, select the + icon for **Service Dependencies**.
+1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add** to open the menu of available services.
 
-    ![Add Service Dependency](./media/vs-azure-tools-connected-services-storage/vs-2019/connected-services-tab.png)
+   ![Screenshot showing Connected Services context menu options.](./media/vs-2022/add-connected-service-context-menu-2.png)
 
-1. In the **Add Dependency** page, select **Azure Cosmos DB**.
+1. Choose **Azure Cosmos DB**. The **Add Dependency** page appears. You should see two options, one for a local emulator, **Azure Cosmos DB Emulator on container (Local)**, and one for connecting to the live Azure Cosmos DB service. You can reduce cost and simplify early development by starting with the local emulator. You can migrate to the live service later by repeating these steps and choosing the other option.
 
-    ![Add Azure Cosmos DB](./media/azure-cosmosdb-add-connected-service/azure-cosmosdb.png)
+   ![Screenshot showing Azure Cosmos DB choices](./media/vs-2022/azure-cosmos-db-choices-2.png)
 
-    If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+   If you choose to use the Azure Cosmos DB Emulator, click **Next** to see the **Summary of changes** screen, which shows how your project is being modified. A NuGet package reference is added to your project and the connection code for the local emulator is added to your project.
+
+   If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign into your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
 1. In the **Azure Cosmos DB** screen, select an existing Azure Cosmos DB, and select **Next**.
 
@@ -75,9 +77,11 @@ The connected service functionality adds all the needed references and connectio
 
    ![Summary of changes](./media/azure-cosmosdb-add-connected-service/summary-of-changes.png)
 
-1. The connection appears under the **Service Dependencies** section of the **Connected Services** tab.
+1. In Solution Explorer, double-click on the **Connected Services** node to open the **Connected Services** tab. The connection appears under the **Service Dependencies** section:
 
    ![Service dependencies](./media/azure-cosmosdb-add-connected-service/service-dependencies-after.png)
+
+   If you click on the three dots next to the dependency you added, you can see various options such as **Connect** to reopen the wizard and change the connection. You can also click the three dots at the top right of the window to see options to start local dependencies, change settings, and more.
 
 ## Next steps
 
