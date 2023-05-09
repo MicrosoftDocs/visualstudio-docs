@@ -1,118 +1,71 @@
-- name: Docs
-  tocHref: /
-  topicHref: /
+- name: Visual Studio
+  tocHref: /visualstudio/windows/
+  topicHref: /visualstudio/windows/index
   items:
-  - name: Visual Studio
-    tocHref: /visualstudio/windows
-    topicHref: /visualstudio/windows/index
+  - name: IDE
+    tocHref: /visualstudio/
+    topicHref: /visualstudio/ide/index
+  - name: Code Analysis
+    tocHref: /visualstudio/code-quality/
+    topicHref: /visualstudio/code-quality/index
+  - name: Cross Platform
+    tocHref: /visualstudio/cross-platform/
+    topicHref: /visualstudio/cross-platform/cross-platform-mobile-development-in-visual-studio
+  - name: Data Tools
+    tocHref: /visualstudio/data-tools/
+    topicHref: /visualstudio/data-tools/index
+  - name: Debugging
+    tocHref: /visualstudio/debugger/
+    topicHref: /visualstudio/debugger/index
     items:
-    - name: Installation
-      tocHref: /visualstudio/install/
-      topicHref: /visualstudio/install/install-visual-studio
-    - name: IDE
-      tocHref: /visualstudio/ide/
-      topicHref: /visualstudio/ide/
-      items:
-      - name: Code Analysis
-        tocHref: /visualstudio/code-quality/
-        topicHref: /visualstudio/code-quality/analyzing-application-quality-by-using-code-analysis-tools
-      - name: Cross Platform
-        tocHref: /visualstudio/cross-platform/
-        topicHref: /visualstudio/cross-platform/cross-platform-mobile-development-in-visual-studio
-      - name: Data Tools
-        tocHref: /visualstudio/data-tools/
-        topicHref: /visualstudio/data-tools/index
-      - name: Debugging
-        tocHref: /visualstudio/debugger/
-        topicHref: /visualstudio/debugger/index
-        items:
-        - name: Debug Interface Access SDK
-          tocHref: /visualstudio/debugger/debug-interface-access/
-          topicHref: /visualstudio/debugger/debug-interface-access/debug-interface-access-sdk
-        - name: Graphics
-          tocHref: /visualstudio/debugger/graphics/
-          topicHref: /visualstudio/debugger/graphics/overview-of-visual-studio-graphics-diagnostics
-      - name: Deployment
-        tocHref: /visualstudio/deployment/
-        topicHref: /visualstudio/deployment/deploying-applications-services-and-components
-      - name: IDE Class Designer
-        tocHref: /visualstudio/ide/class-designer
-        topicHref: /visualstudio/ide/class-designer/designing-and-viewing-classes-and-types
-      - name: Modeling Architecture
-        tocHref: /visualstudio/modeling/
-        topicHref: /visualstudio/modeling/analyze-and-model-your-architecture
-      - name: Profiling
-        tocHref: /visualstudio/profiling/
-        topicHref: /visualstudio/profiling/index
-      - name: Testing
-        tocHref: /visualstudio/test/
-        topicHref: /visualstudio/test/index
-      - name: Workflow Designer
-        tocHref: /visualstudio/workflow-designer/
-        topicHref: /visualstudio/workflow-designer/developing-applications-with-the-workflow-designer
-      - name: XAML Tools
-        tocHref: /visualstudio/xaml-tools/
-        topicHref: /visualstudio/xaml-tools/
-      - name: XML Tools
-        tocHref: /visualstudio/xml-tools/
-        topicHref: /visualstudio/xml-tools/xml-tools-in-visual-studio
-      - name: Get Started with C#
-        tocHref: /visualstudio/get-started/csharp/
-        topicHref: /visualstudio/get-started/csharp/index
-      - name: Get started with Visual Basic
-        tocHref: /visualstudio/get-started/visual-basic/
-        topicHref: /visualstudio/get-started/visual-basic/
-      - name: Extensibility
-        tocHref: /visualstudio/extensibility/
-        topicHref: /visualstudio/extensibility/index
-        items:
-        - name: Inside the Visual Studio SDK
-          tocHref: /visualstudio/extensibility/internals/
-          topicHref: /visualstudio/extensibility/internals/inside-the-visual-studio-sdk
-        - name: Debugger Extensibility
-          tocHref: /visualstudio/extensibility/debugger/
-          topicHref: /visualstudio/extensibility/debugger/visual-studio-debugger-extensibility
-          items:
-          - name: Reference
-            tocHref: /visualstudio/extensibility/debugger/reference/
-            topicHref: /visualstudio/extensibility/debugger/reference/reference-visual-studio-debugging-apis
-        - name: User Experience Guidelines
-          tocHref: /visualstudio/extensibility/ux-guidelines/
-          topicHref: /visualstudio/extensibility/ux-guidelines/visual-studio-user-experience-guidelines
-      - name: Getting Started (CSharp)
-        tocHref: /visualstudio/get-started/csharp/
-        topicHref: /visualstudio/get-started/csharp/index
-      - name: Getting Started (Visual Basic)
-        tocHref: /visualstudio/get-started/visual-basic/
-        topicHref: /visualstudio/get-started/visual-basic/index
-      - name: Container Tools
-        tocHref: /visualstudio/containers/
-        topicHref: /visualstudio/containers/index
-      - name: Azure Development
-        tocHref: /visualstudio/azure
-        topicHref: /visualstudio/azure/index
-      - name: Office and SharePoint
-        tocHref: /visualstudio/vsto/
-        topicHref: /visualstudio/vsto/office-and-sharepoint-development-in-visual-studio
-        items:
-        - name: SharePoint
-          tocHref: /visualstudio/sharepoint/
-          topicHref: /visualstudio/sharepoint/create-sharepoint-solutions
-        - name: VSTO
-          tocHref: /visualstudio/vsto/
-          topicHref: /visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio
-      - name: JavaScript and TypeScript
-        tocHref: /visualstudio/javascript/
-        topicHref: /visualstudio/javascript/index
-      - name: Python
-        tocHref: /visualstudio/python/
-        topicHref: /visualstudio/python/overview-of-python-tools-for-visual-studio
-      - name: R
-        tocHref: /visualstudio/rtvs/
-        topicHref: /visualstudio/rtvs/index
-      - name: Version Control
-        tocHref: /visualstudio/version-control
-        topicHref: /visualstudio/version-control/index
-    - name: MSBuild
-      tocHref: /visualstudio/msbuild/
-      topicHref: /visualstudio/msbuild/msbuild
+    - name: Debug Interface Access SDK
+      tocHref: /visualstudio/debugger/debug-interface-access/
+      topicHref: /visualstudio/debugger/debug-interface-access/debug-interface-access-sdk
+  - name: Deployment
+    tocHref: /visualstudio/deployment/
+    topicHref: /visualstudio/deployment/index
+  - name: Modeling Architecture
+    tocHref: /visualstudio/modeling/
+    topicHref: /visualstudio/modeling/analyze-and-model-your-architecture
+  - name: Profiling
+    tocHref: /visualstudio/profiling/
+    topicHref: /visualstudio/profiling/index
+  - name: Testing
+    tocHref: /visualstudio/test/
+    topicHref: /visualstudio/test/index
+  - name: Workflow Designer
+    tocHref: /visualstudio/workflow-designer/
+    topicHref: /visualstudio/workflow-designer/developing-applications-with-the-workflow-designer
+  - name: XAML Tools
+    tocHref: /visualstudio/xaml-tools/
+    topicHref: /visualstudio/xaml-tools/
+  - name: XML Tools
+    tocHref: /visualstudio/xml-tools/
+    topicHref: /visualstudio/xml-tools/xml-tools-in-visual-studio
+  - name: Extensibility
+    tocHref: /visualstudio/extensibility/
+    topicHref: /visualstudio/extensibility/index
+  - name: Container Tools
+    tocHref: /visualstudio/containers/
+    topicHref: /visualstudio/containers/index
+  - name: Azure Development
+    tocHref: /visualstudio/azure
+    topicHref: /visualstudio/azure/index
+  - name: SharePoint
+    tocHref: /visualstudio/sharepoint/
+    topicHref: /visualstudio/sharepoint/create-sharepoint-solutions
+  - name: VSTO
+    tocHref: /visualstudio/vsto/
+    topicHref: /visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio
+  - name: JavaScript and TypeScript
+    tocHref: /visualstudio/javascript/
+    topicHref: /visualstudio/javascript/index
+  - name: Python
+    tocHref: /visualstudio/python/
+    topicHref: /visualstudio/python/index
+  - name: Version Control
+    tocHref: /visualstudio/version-control
+    topicHref: /visualstudio/version-control/index
+- name: MSBuild
+  tocHref: /visualstudio/msbuild/
+  topicHref: /visualstudio/msbuild/msbuild
