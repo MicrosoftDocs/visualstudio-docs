@@ -23,12 +23,12 @@ highlightedContent:
      url: msbuild.md
    - title: MSBuild 17
      itemType: whats-new
-     url: ../ide/whats-new-msbuild-17-0.md
+     url: whats-new-msbuild-17-0.md
 
 conceptualContent:
   title: Learn MSBuild
   items:
-    - title: Concepts
+    - title: Key concepts
       links:
         - text: Properties
           url: msbuild-properties.md
@@ -44,8 +44,11 @@ conceptualContent:
           url: msbuild-tasks.md
         - text: How MSBuild works
           itemType: concept
-          url: how-msbuild-builds-projects.md
-        - text: MSBuild for C++
+          url: build-process-overview.md
+        - text: .NET builds
+          itemType: overview
+          url: /dotnet/core/project-sdk/overview
+        - text: C++ builds
           itemType: concept
           url: /cpp/build/msbuild-visual-cpp
     - title: Follow a tutorial
@@ -92,8 +95,6 @@ additionalContent:
      items:
         - title: MSBuild Language
           links:
-            - text: XML Schema
-              url: msbuild-project-file-schema-reference.md
             - text: Tasks
               url: msbuild-task-reference.md
             - text: Command line
@@ -108,8 +109,8 @@ additionalContent:
               url: msbuild-dot-targets-files.md
             - text: Item metadata
               url: msbuild-well-known-item-metadata.md
-            - text: Mobile development with C++
-              url: /visualstudio/cross-platform/
+            - text: XML Schema
+              url: msbuild-project-file-schema-reference.md
             - text: MSBuild API
               url: msbuild-api.md
         - title: MSBuild API
