@@ -1,7 +1,7 @@
 ---
 title: Configure policies for enterprise deployments
 description: Learn about domain policies and other configuration operations for enterprise deployments of Visual Studio.
-ms.date: 3/1/2023
+ms.date: 05/16/2023
 ms.topic: conceptual
 f1_keywords:
 - gpo
@@ -56,6 +56,7 @@ The registry settings in this section control how and where the Visual Studio pr
 | `BackgroundDownloadDisabled`     | `REG_DWORD`                 | 0                                                   | **Disable downloading updates automatically**: if set to 1, then setup will be prevented from downloading updates automatically for all installed Visual Studio products. You can change the value anytime.  |
 | `RemoveOos`                      | `REG_DWORD`                 | 0                                                   | **Remove out-of-support components during updates**: if set to 1, then the Visual Studio installer will remove all installed components that have transitioned to an out-of-support state during all subsequent updates. If set to 0 or missing entirely, then the `removeOos` behavior will respect other locations where this can be configured, such as commandline parameter or the **Update Settings** dialog. For more information see [Remove out-of-support components blog post](https://aka.ms/vs/removeoos/blog). This functionality requires the Visual Studio 2022 version 17.4 installer to be installed on the client machine. |
 | `DisableRollback`                | `REG_DWORD`                 | 0                                                   | **Disable the ability to rollback or undo a Visual Studio update**: if set to 1, then users will be prevented from accessing the rollback capability, which will prevent Visual Studio from reverting the most recent update which may contain a security fix. If set to 0 or missing entirely, then users will be able to access the rollback feature in Visual Studio, and will be able to undo an update and rollback their Visual Studio instances to the previously installed version. For more information, see the [Rollback blog post](https://aka.ms/vs/rollback).  |
+| `DisableSound`                | `REG_DWORD`                 | 0                                                   | **Disable sounds in the installer**: if set to 1, then users will be able to disable sounds in the Visual Studio Installer, for example, no sound will be played when installation completes. If set to 0 or missing entirely, then users will be able to enable sounds in the installer.  |
 
 > [!IMPORTANT]
 > If you change the `CachePath` registry policy after any installations, you must move the existing package cache to the new location and make sure it's secured so that `SYSTEM` and `Administrators` have **Full Control** and that `Everyone` has **Read** access.
