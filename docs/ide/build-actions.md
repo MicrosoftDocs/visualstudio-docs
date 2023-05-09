@@ -5,7 +5,7 @@ ms.date: 11/19/2018
 ms.technology: vs-ide-compile
 ms.topic: reference
 author: ghogen
-ms.author: ghogen
+ms.author: ghogen 
 manager: jmartens
 ms.workload:
   - "multiple"
