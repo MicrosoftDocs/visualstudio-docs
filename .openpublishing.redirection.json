@@ -6561,11 +6561,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/msbuild/index.md",
-      "redirect_url": "/visualstudio/msbuild/msbuild",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/msbuild/msbuild-glossary1.md",
       "redirect_url": "/visualstudio/msbuild/msbuild-glossary",
       "redirect_document_id": false
