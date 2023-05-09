@@ -6,7 +6,7 @@ manager: jmartens
 ms.technology: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
-ms.date: 08/17/2020
+ms.date: 05/15/2023
 ms.author: angelpe
 monikerRange: ">= vs-2019"
 ---

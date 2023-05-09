@@ -6,7 +6,7 @@ manager:
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: how-to
-ms.date: 12/11/2020
+ms.date: 05/15/2023
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---

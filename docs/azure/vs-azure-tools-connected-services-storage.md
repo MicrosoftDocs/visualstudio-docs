@@ -7,7 +7,7 @@ ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: how-to
-ms.date: 08/03/2022
+ms.date: 05/15/2023
 ms.author: ghogen
 ---
 # Adding Azure storage by using Visual Studio Connected Services
