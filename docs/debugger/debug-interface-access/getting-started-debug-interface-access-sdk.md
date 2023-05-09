@@ -30,7 +30,7 @@ The Debug Interface Access (DIA) SDK supplies you with instructional documentati
 - Visual Studio integrated development environment (IDE) for compiling the samples
 
   The DIA SDK is normally installed with Visual Studio and its default location is `%VSINSTALLDIR%\DIA SDK\bin` with associated subdirectories for additional processor architectures.     For example, 
-  - `C:\Program Files\Microsoft Visual Studio\2022\Enterprise\DIA SDK\bin\msdia140.dll` (default)
+  - `C:\Program Files\Microsoft Visual Studio\2022\Enterprise\DIA SDK\bin\msdia140.dll` (x86)
   - `C:\Program Files\Microsoft Visual Studio\2022\Enterprise\DIA SDK\bin\amd64\msdia140.dll` (amd64)
   - `C:\Program Files\Microsoft Visual Studio\2022\Enterprise\DIA SDK\bin\arm\msdia140.dll` (arm)
   - `C:\Program Files\Microsoft Visual Studio\2022\Enterprise\DIA SDK\bin\arm64\msdia140.dll` (arm64)
