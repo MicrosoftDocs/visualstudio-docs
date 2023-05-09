@@ -90,7 +90,7 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot showing Connected Services context menu options.](./media/vs-2022/add-connected-service-context-menu-2.png)
 
-1. Choose **Azure Cache for Redis**. The **Add Dependency** page appears. You should see two options, one for a local emulator, **Redis Cache on container (Local)**, and one for connecting to the live Azure Cache for Redis service. You can reduce cost and simplify early development by starting with the local emulator. You can migrate to the live service later by repeating these steps and choosing the other option.
+1. Choose **Azure Cache for Redis**. The **Connect to Dependency** page appears. You should see two options, one for a local emulator, **Redis Cache on container (Local)**, and one for connecting to the live Azure Cache for Redis service. You can reduce cost and simplify early development by starting with the local emulator. You can migrate to the live service later by repeating these steps and choosing the other option.
 
    ![Screenshot showing Redis cache choices](./media/vs-2022/azure-cache-for-redis-add-dependency-2.png)
 
@@ -136,7 +136,8 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot showing a list of configured service dependencies](./media/azure-redis-cache-add-connected-service/service-dependencies-after.png)
 
-      If you click on the three dots next to the dependency you added, you can see various options such as **Connect** to reopen the wizard and change the connection. You can also click the three dots at the top right of the window to see options to start local dependencies, change settings, and more.
+   If you click on the three dots next to the dependency you added, you can see various options such as **Connect** to reopen the wizard and change the connection. You can also click the three dots at the top right of the window to see options to start local dependencies, change settings, and more.
+
 :::moniker-end
 
 

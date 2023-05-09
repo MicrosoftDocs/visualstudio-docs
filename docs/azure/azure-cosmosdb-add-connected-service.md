@@ -45,7 +45,7 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot showing Connected Services context menu options.](./media/vs-2022/add-connected-service-context-menu-2.png)
 
-1. Choose **Azure Cosmos DB**. The **Add Dependency** page appears. You should see two options, one for a local emulator, **Azure Cosmos DB Emulator on container (Local)**, and one for connecting to the live Azure Cosmos DB service. You can reduce cost and simplify early development by starting with the local emulator. You can migrate to the live service later by repeating these steps and choosing the other option.
+1. Choose **Azure Cosmos DB**. The **Connect to Dependency** page appears. You should see two options, one for a local emulator, **Azure Cosmos DB Emulator on container (Local)**, and one for connecting to the live Azure Cosmos DB service. You can reduce cost and simplify early development by starting with the local emulator. You can migrate to the live service later by repeating these steps and choosing the other option.
 
    ![Screenshot showing Azure Cosmos DB choices](./media/vs-2022/azure-cosmos-db-choices-2.png)
 

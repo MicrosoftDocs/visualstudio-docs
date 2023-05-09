@@ -44,7 +44,7 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot showing Connected Services context menu options.](./media/vs-2022/add-connected-service-context-menu-2.png)
 
-1. Choose **SQL Server Database**. The **Add Dependency** page appears. You should see several options:
+1. Choose **SQL Server Database**. The **Connect to Dependency** page appears. You should see several options:
 
    - SQL Server Express LocalDB, the built-in SQL database offering installed with Visual Studio
    - SQL Server Database on a local container on your machine
@@ -57,18 +57,6 @@ The connected service functionality adds all the needed references and connectio
 
    If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign into your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
-1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add Connected Service**.
-
-1. In the **Connected Services** tab, select the + icon for **Service Dependencies**.
-
-    ![Add Service Dependency](./media/vs-azure-tools-connected-services-storage/vs-2019/connected-services-tab.png)
-
-1. In the **Add Dependency** page, select **Azure SQL Database**.
-
-    ![Add Azure SQL Database Service](./media/azure-sql-database-add-connected-service/azure-sql-database.png)
-
-    If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
-
 1. In the **Configure Azure SQL Database** screen, select an existing Azure SQL Database, and select **Next**.
 
     If you need to create a new component, go to the next step. Otherwise, skip to step 7.
@@ -77,7 +65,7 @@ The connected service functionality adds all the needed references and connectio
 
 1. To create an Azure SQL Database:
 
-   1. Select **Create a SQL Database** at the bottom of the screen.
+   1. Select **Create New** by the green plus sign.
 
    1. Fill out the **Azure SQL Database: Create new** screen, and select **Create**.
 
