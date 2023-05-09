@@ -35,7 +35,8 @@ The connected service functionality adds all the needed references and connectio
 - Visual Studio with the Azure workload installed.
 - A project of one of the supported types
 
-:::moniker range="vs-2019
+:::moniker range="vs-2019"
+
 ## Connect to Azure SignalR using Connected Services
 
 1. Open your project in Visual Studio.
