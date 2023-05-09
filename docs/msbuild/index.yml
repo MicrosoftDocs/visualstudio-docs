@@ -1,0 +1,146 @@
+### YamlMime:Hub
+title: MSBuild documentation
+summary: Learn how to use MSBuild to build projects.
+brand: visual-studio
+metadata:
+   title: MSBuild documentation
+   titleSuffix: ""
+   description: Learn how to use MSBuild to build projects.
+   ms.topic: hub-page
+   ms.date: 05/13/2023
+   author: ghogen
+   ms.author: ghogen
+   manager: jmartens
+   monikerRange: ">=vs-2019"
+
+highlightedContent:
+   items:
+   - title: Download MSBuild
+     itemType: download
+     url: https://aka.ms/vs/17/release/vs_BuildTools.exe
+   - title: About MSBuild
+     itemType: overview
+     url: msbuild.md
+   - title: MSBuild 17
+     itemType: whats-new
+     url: ../ide/whats-new-msbuild-17-0.md
+
+conceptualContent:
+  title: Learn MSBuild
+  items:
+    - title: Concepts
+      links:
+        - text: Properties
+          url: msbuild-properties.md
+          itemType: concept
+        - text: Items
+          url: msbuild-items.md
+          itemType: concept
+        - text: Targets
+          itemType: tutorial
+          url: msbuild-targets.md
+        - text: Tasks
+          itemType: concept
+          url: msbuild-tasks.md
+        - text: How MSBuild works
+          itemType: concept
+          url: how-msbuild-builds-projects.md
+        - text: MSBuild for C++
+          itemType: concept
+          url: /cpp/build/msbuild-visual-cpp
+    - title: Follow a tutorial
+      links:
+        - text: Use MSBuild
+          url: walkthrough-using-msbuild.md
+          itemType: tutorial
+        - text: Create a project file from scratch
+          url: walkthrough-creating-an-msbuild-project-file-from-scratch.md
+          itemType: tutorial
+        - text: Create a custom task
+          url: tutorial-custom-task-code-generation.md
+          itemType: tutorial
+    - title: Popular tasks
+      links:
+        - text: Generate and view build logs
+          itemType: how-to-guide
+          url: obtaining-build-logs-with-msbuild.md
+        - text: Build specific targets
+          itemType: how-to-guide
+          url: how-to-build-specific-targets-in-solutions-by-using-msbuild-exe
+        - text: Reference a project SDK
+          itemType: how-to-guide
+          url: how-to-use-project-sdk.md
+        - text: Understand target build order
+          url: target-build-order.md
+          itemType: concept
+        - text: Exclude files from the build
+          itemType: how-to-guide
+          url: how-to-exclude-files-from-the-build.md
+        - text: Build projects in parallel
+          itemType: how-to-guide
+          url: building-multiple-projects-in-parallel-with-msbuild.md
+        - text: Extend the build process
+          itemType: how-to-guide
+          url: how-to-extend-the-visual-studio-build-process.md
+        - text: Customize your build
+          itemType: concept
+          url: customize-your-build.md
+
+additionalContent:
+   sections:
+   - title: Key concepts
+     items:
+      - title: Properties
+        summary: About properties
+        url: msbuild-properties.md
+      - title: Items
+        summary: Overview of MSBuild Items
+        url: msbuild-items.md
+      - title: Targets
+        summary: Overview of MSBuild Targets
+        url: msbuild-targets.md
+      - title: Tasks
+        summary: Overview of MSBuild Tasks
+        url: msbuild-tasks.md
+   - title: Reference
+     items:
+        - title: MSBuild Language
+          links:
+            - text: XML Schema
+              url: msbuild-project-file-schema-reference.md
+            - text: Tasks
+              url: msbuild-task-reference.md
+            - text: Command line
+              url: msbuild-command-line-reference.md
+            - text: Common MSBuild project properties
+              url: msbuild-common-properties.md
+            - text: Reserved and well-known properties
+              url: msbuild-reserved-and-well-known-properties.md
+            - text: Conditional constructs
+              url: msbuild-conditional-constructs.md
+            - text: .targets files
+              url: msbuild-dot-targets-files.md
+            - text: Item metadata
+              url: msbuild-well-known-item-metadata.md
+            - text: Mobile development with C++
+              url: /visualstudio/cross-platform/
+            - text: MSBuild API
+              url: msbuild-api.md
+        - title: MSBuild API
+          links:
+            - text: Microsoft.Build.Evaluation
+              url: /dotnet/api/microsoft.build.evaluation
+            - text: Microsoft.Build.Execution
+              url: /dotnet/api/microsoft.build.execution)
+            - text: Microsoft.Build.Framework
+              url: /dotnet/api/microsoft.build.framework
+            - text: Microsoft.Build.Logging
+              url: /dotnet/api/microsoft.build.logging
+            - text: Microsoft.Build.Tasks
+              url: /dotnet/api/microsoft.build.tasks
+            - text: Microsoft.Build.Utilities
+              url: /dotnet/api/microsoft.build.utilities
+            - text: Microsoft.Build.Locator
+              url: /dotnet/api/microsoft.build.locator
+    
+   footer: "[GitHub repo](https://github.com/dotnet/msbuild) - [Wiki](https://github.com/dotnet/msbuild/wiki) - [Stack Overflow](https://stackoverflow.com/questions/tagged/msbuild) - [Issue Reporting](https://github.com/dotnet/msbuild/issues)"
