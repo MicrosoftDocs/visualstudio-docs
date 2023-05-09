@@ -35,7 +35,6 @@ The Debug Interface Access (DIA) SDK supplies you with instructional documentati
   - `C:\Program Files\Microsoft Visual Studio\2022\Enterprise\DIA SDK\bin\arm\msdia140.dll` (arm)
   - `C:\Program Files\Microsoft Visual Studio\2022\Enterprise\DIA SDK\bin\arm64\msdia140.dll` (arm64)
  
-  As part of the installation, the `msdia140.dll`, which implements the DIA SDK, is automatically registered so all that you need to do to use it is to include `dia2.h` in your program and link to `diaguids.lib`.
 
   Header: `include\dia2.h`
 
