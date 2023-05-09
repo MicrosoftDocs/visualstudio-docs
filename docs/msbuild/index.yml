@@ -69,7 +69,7 @@ conceptualContent:
           url: obtaining-build-logs-with-msbuild.md
         - text: Build specific targets
           itemType: how-to-guide
-          url: how-to-build-specific-targets-in-solutions-by-using-msbuild-exe
+          url: how-to-build-specific-targets-in-solutions-by-using-msbuild-exe.md
         - text: Reference a project SDK
           itemType: how-to-guide
           url: how-to-use-project-sdk.md
@@ -93,28 +93,32 @@ additionalContent:
    sections:
    - title: Reference
      items:
-        - title: MSBuild Language
+        - title: MSBuild.exe build tool
           links:
-            - text: Tasks
-              url: msbuild-task-reference.md
             - text: Command line
               url: msbuild-command-line-reference.md
             - text: Common MSBuild project properties
-              url: msbuild-common-properties.md
+              url: common-msbuild-project properties.md
             - text: Reserved and well-known properties
               url: msbuild-reserved-and-well-known-properties.md
+            - text: Common MSBuild project items
+              url: common-msbuild-project-items.md
+            - text: Common MSBuild item metadata
+              url: common-msbuild-item-metadata.md
             - text: Conditional constructs
               url: msbuild-conditional-constructs.md
-            - text: .targets files
-              url: msbuild-dot-targets-files.md
             - text: Item metadata
               url: msbuild-well-known-item-metadata.md
+            - text: Tasks
+              url: msbuild-task-reference.md
+            - text: MSBuild .targets files
+              url: msbuild-dot-targets-files.md
             - text: XML Schema
               url: msbuild-project-file-schema-reference.md
-            - text: MSBuild API
-              url: msbuild-api.md
         - title: MSBuild API
           links:
+            - text: Overview
+              url: msbuild-api.md
             - text: Microsoft.Build.Evaluation
               url: /dotnet/api/microsoft.build.evaluation
             - text: Microsoft.Build.Execution
