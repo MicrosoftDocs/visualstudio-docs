@@ -88,20 +88,6 @@ conceptualContent:
 
 additionalContent:
    sections:
-   - title: Key concepts
-     items:
-      - title: Properties
-        summary: About properties
-        url: msbuild-properties.md
-      - title: Items
-        summary: Overview of MSBuild Items
-        url: msbuild-items.md
-      - title: Targets
-        summary: Overview of MSBuild Targets
-        url: msbuild-targets.md
-      - title: Tasks
-        summary: Overview of MSBuild Tasks
-        url: msbuild-tasks.md
    - title: Reference
      items:
         - title: MSBuild Language
