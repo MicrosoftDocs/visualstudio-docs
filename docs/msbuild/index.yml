@@ -97,22 +97,22 @@ additionalContent:
           links:
             - text: Command line
               url: msbuild-command-line-reference.md
-            - text: Common MSBuild project properties
+            - text: Common project properties
               url: common-msbuild-project properties.md
             - text: Reserved and well-known properties
               url: msbuild-reserved-and-well-known-properties.md
-            - text: Common MSBuild project items
+            - text: Common project items
               url: common-msbuild-project-items.md
-            - text: Common MSBuild item metadata
+            - text: Common item metadata
               url: common-msbuild-item-metadata.md
-            - text: Conditional constructs
-              url: msbuild-conditional-constructs.md
-            - text: Item metadata
+            - text: Well-known item metadata
               url: msbuild-well-known-item-metadata.md
-            - text: Tasks
+            - text: Task reference
               url: msbuild-task-reference.md
             - text: MSBuild .targets files
               url: msbuild-dot-targets-files.md
+            - text: Conditional constructs
+              url: msbuild-conditional-constructs.md
             - text: XML Schema
               url: msbuild-project-file-schema-reference.md
         - title: MSBuild API
