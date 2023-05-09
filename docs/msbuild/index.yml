@@ -93,7 +93,7 @@ additionalContent:
    sections:
    - title: Reference
      items:
-        - title: MSBuild.exe build tool
+        - title: MSBuild.exe
           links:
             - text: Command line
               url: msbuild-command-line-reference.md
