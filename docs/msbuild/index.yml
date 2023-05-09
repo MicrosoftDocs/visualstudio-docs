@@ -98,7 +98,7 @@ additionalContent:
             - text: Command line
               url: msbuild-command-line-reference.md
             - text: Common project properties
-              url: common-msbuild-project properties.md
+              url: common-msbuild-project-properties.md
             - text: Reserved and well-known properties
               url: msbuild-reserved-and-well-known-properties.md
             - text: Common project items
