@@ -36,9 +36,23 @@ If the problem occurs with low CPU usage and other symptoms such as a UI freeze,
 
 ## Example
 
+The example screenshots shown in this article are based on a .NET app that runs queries against a database of blogs and associated blog posts. We will first examine a CPU usage trace to look for opportunities to optimize and reduce compute cost. We will use some other profiling tools to help isolate issues.
+
+To get the type of results shown in these examples:
+
+- Set the app to a Release build
+- Select the CPU Usage tool (or any other specified tool) from the Performance Profiler (**Alt+F2**).
+- From the Performance Profiler, start the app and collect a trace.
+
 ## Inspect areas of high CPU usage
 
+Start by collecting a trace with the CPU Usage tool. When the diagnostic data loads, use the **Open details** link and select **Call tree**.
+
+The first illustration shows the hot path in the Call tree view. The hot path often provides clues for an area to focus on. In this view, we see high CPU usage for the GetBlogTitle method in the app, using 82.57% share of the app's CPU usage. Two external calls to Linq DLLs are using the bulk of the CPU. This is the first clue that a Linq query may be a good place to start optimizing.
+
 :::image type="content" source="./media/optimize-code-cpu-usage-call-tree.png" alt-text="Alt text that describes the content of the image.":::
+
+For another visualization, switch to the **Flame Graph** view, in the same list as the **Call tree**. Here again, we see that the GetBlogTitle method is responsible for the bulk of the CPU usage.
 
 :::image type="content" source="./media/optimize-code-cpu-usage-flame-graph.png" alt-text="Alt text that describes the content of the image.":::
 
