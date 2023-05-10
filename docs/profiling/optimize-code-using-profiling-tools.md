@@ -30,10 +30,6 @@ If the problem occurs along with high CPU usage in the CPU timeline graph, inves
 - For precise timing and call counts, use the Instrumentation tool.
 - If the problem area is file I/O, use the File I/O tool to investigate further. Etc.
 
-If the problem occurs with low CPU usage and other symptoms such as a UI freeze, you may have a blocked thread or an instance of thread pool starvation.
-- Check thread start events with the Event Viewer.
-- Use the multi-threaded debugger features such as the Threads View to identify a blocked thread.
-
 ## Example
 
 The example screenshots shown in this article are based on a .NET app that runs queries against a database of blogs and associated blog posts. We will first examine a CPU usage trace to look for opportunities to optimize and reduce compute cost. We will use some other profiling tools to help isolate issues.
@@ -46,31 +42,53 @@ To get the type of results shown in these examples:
 
 ## Inspect areas of high CPU usage
 
-Start by collecting a trace with the CPU Usage tool. When the diagnostic data loads, use the **Open details** link and select **Call tree**.
+Start by collecting a trace with the CPU Usage tool. When the diagnostic data loads, first check the initial page with Top Insights and the Hot Path. These may provide tips to help you quickly identify performance issues that you can improve.
 
-The first illustration shows the hot path in the Call tree view. The hot path often provides clues for an area to focus on. In this view, we see high CPU usage for the GetBlogTitle method in the app, using 82.57% share of the app's CPU usage. Two external calls to Linq DLLs are using the bulk of the CPU. This is the first clue that a Linq query may be a good place to start optimizing.
+use the **Open details** link and select **Call tree**.
+
+The first illustration shows the hot path in the Call tree view. The hot path often provides clues for an area to focus on. In this view, we see high CPU usage for the `GetBlogTitle` method in the app, using 82.57% share of the app's CPU usage. Two external calls to Linq DLLs are using the bulk of the CPU. This is the first clue that a Linq query may be a good place to start optimizing.
 
 :::image type="content" source="./media/optimize-code-cpu-usage-call-tree.png" alt-text="Alt text that describes the content of the image.":::
 
-For another visualization, switch to the **Flame Graph** view, in the same list as the **Call tree**. Here again, we see that the GetBlogTitle method is responsible for the bulk of the CPU usage.
+For another visualization, switch to the **Flame Graph** view, in the same list as the **Call tree**. Here again, we see that the `GetBlogTitle` method is responsible for the bulk of the CPU usage.
 
 :::image type="content" source="./media/optimize-code-cpu-usage-flame-graph.png" alt-text="Alt text that describes the content of the image.":::
 
+## Explore other sources of information
+
+When you have identified an issue to explore in CPU Usage, you may want to use one of the other tools that might provide additional insights. For example:
+
+- In this example, the performance issue looks like a Linq query. You can try the Database tool.
+- Take a look at the memory usage. For .NET, try the .NET Object Allocation tool first. For any supported language, you can look at the Memory Usage tool.
+- For other options, see [Which tool should I choose?](../profiling/choose-performance-tool.md).
+
+In this example, we have a Linq query that looks like it could be optimized. Use the Database tool in the Performance Profiler (**Atl+F2**). You can multi-select this tool along with CPU Usage, and then just select the **Query** tab in the result.
+
+In the Database trace results, you can see the first row shows the longest query, 2446 ms. By examining the SELECT statement, you identify this as the query associated with the GetBlogTitle method. Not that both queries read 100,000 records.
+
 :::image type="content" source="./media/optimize-code-database.png" alt-text="Alt text that describes the content of the image.":::
 
-## Inspect areas of high memory usage
+Next, use the .NET Object Allocation tool to see what's going on in with the memory usage. The **Call Tree** view in the memory trace shows the hot path and helps you identify an area of high memory usage. No surprise at this point, the GetBlogTitle method appears to be generating a lot of objects! Over 900,000 object allocations, in fact.
 
 :::image type="content" source="./media/optimize-code-dotnet-object-allocations.png" alt-text="Alt text that describes the content of the image.":::
-
-:::image type="content" source="./media/optimize-code-memory-usage.png" alt-text="Alt text that describes the content of the image.":::
 
 ## Optimize code
 
 ## Check the results
 
+After updating the code, re-run the CPU Usage tool to collect a trace. The **Call Tree** view shows that GetBlogTitle is running only 1754 ms, using 37% of the app's CPU total, a significant improvement from 59%.
+
 :::image type="content" source="./media/optimize-code-cpu-usage-call-tree-fixed.png" alt-text="Alt text that describes the content of the image.":::
 
+Switch to the **Flame Graph** view to see another visualization of the improvement. In this view, GetBlogTitle also uses a smaller portion of the CPU.
+
+:::image type="content" source="./media/optimize-code-cpu-usage-flame-graph-fixed.png" alt-text="Alt text that describes the content of the image.":::
+
+Check the results in the Database tool trace, and only two records are read, instead of 100,000!
+
 :::image type="content" source="./media/optimize-code-database-fixed.png" alt-text="Alt text that describes the content of the image.":::
+
+Next, recheck the results in the .NET Object Allocation tool, and see that GetBlogTitle is only responsible for 56,000 object allocations, about a 94% reduction!
 
 :::image type="content" source="./media/optimize-code-dotnet-object-allocations-fixed.png" alt-text="Alt text that describes the content of the image.":::
 
