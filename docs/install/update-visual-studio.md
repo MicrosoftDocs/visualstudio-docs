@@ -18,7 +18,6 @@ manager: jmartens
 ms.workload:
 - multiple
 ---
-
 # Update Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
