@@ -33,7 +33,7 @@
   - name: Import or export installation configurations
     href: install/import-export-installation-configurations.md
   - name: Troubleshoot installation issues
-    href: /troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues?context=%2Fvisualstudio%2Fcontext.json
+    href: /troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues?context=%2Fvisualstudio%2Fdefault.json
   - name: Update Visual Studio
     href: install/update-visual-studio.md
   - name: Modify Visual Studio
