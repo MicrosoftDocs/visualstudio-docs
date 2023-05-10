@@ -20,52 +20,64 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Reducing your compute time means reducing costs, so reducing time by optimizing your code can save money. The CPU Usage tool can help you capture and visualize where compute resources are used in your application. The CPU Usage views such as the call tree and flame chart provide a nice graphical visualization of where time is spent in your app. In addition, auto insights may show simple optimizations that can have a large impact. Additional tools may be used to give a different view of what's happening with your app's performance.
+Reducing your compute time means reducing costs, so optimizing your code can save money. The CPU Usage tool can help you capture and visualize where compute resources are used in your application. The CPU Usage views such as the call tree and flame chart provide a nice graphical visualization of where time is spent in your app. In addition, auto insights may show precise optimizations that can have a large impact. Other profiling tools may also be used to give additional insights about what's happening with your app's performance.
 
 ## Start an investigation
 
 Start investigating where to focus your efforts by taking a CPU usage trace. The CPU Usage tool is often helpful to begin performance investigations and to optimize code to reduce cost.
 
-If the problem occurs along with high CPU usage in the CPU timeline graph, investigate using CPU usage tool, looking at top insights, hot path, and views such as the call tree and flame graph.
-- If necessary, you may be able to isolate the issue further using the Memory or .NET Object allocation tool for corresponding data on object allocations, memory use, and garbage collection.
-- For precise timing and call counts, use the Instrumentation tool.
-- If the problem area is file I/O, use the File I/O tool to investigate further. Etc.
-
 ## Example
 
-The example screenshots shown in this article are based on a .NET app that runs queries against a database of blogs and associated blog posts. We will first examine a CPU usage trace to look for opportunities to optimize and reduce compute cost. We will use some other profiling tools to help isolate issues.
+The example screenshots shown in this article are based on a .NET app that runs queries against a database of blogs and associated blog posts. We will first examine a CPU usage trace to look for opportunities to optimize and reduce compute cost. We will use a few other profiling tools to help isolate issues.
 
 To get the type of results shown in these examples:
 
 - Set the app to a Release build
-- Select the CPU Usage tool (or any other specified tool) from the Performance Profiler (**Alt+F2**).
+- Select the CPU Usage tool from the Performance Profiler (**Alt+F2**). (Later steps involves a few of the other tools.)
 - From the Performance Profiler, start the app and collect a trace.
 
 ## Inspect areas of high CPU usage
 
 Start by collecting a trace with the CPU Usage tool. When the diagnostic data loads, first check the initial page with Top Insights and the Hot Path. These may provide tips to help you quickly identify performance issues that you can improve.
 
-use the **Open details** link and select **Call tree**.
+Use the **Open details** link and select **Call tree**.
 
-The first illustration shows the hot path in the Call tree view. The hot path often provides clues for an area to focus on. In this view, we see high CPU usage for the `GetBlogTitle` method in the app, using 82.57% share of the app's CPU usage. Two external calls to Linq DLLs are using the bulk of the CPU. This is the first clue that a Linq query may be a good place to start optimizing.
+The first illustration shows the hot path in the Call tree view. The hot path often provides clues for an area to focus on. In this view, we see high CPU usage for the `GetBlogTitle` method in the app, using 82.57% share of the app's CPU usage. Two external calls to Linq DLLs are using the bulk of the app's CPU usage. 
 
 :::image type="content" source="./media/optimize-code-cpu-usage-call-tree.png" alt-text="Alt text that describes the content of the image.":::
 
-For another visualization, switch to the **Flame Graph** view, in the same list as the **Call tree**. Here again, we see that the `GetBlogTitle` method is responsible for the bulk of the CPU usage.
+For another visualization, switch to the **Flame Graph** view, in the same list as the **Call tree**. The Flame Graph shows a visualized call tree. Here again, it looks like the `GetBlogTitle` method is responsible for a lot of the app's CPU usage. External calls to Linq DLLs, which show up beneath the `GetBlogTitle` box, are using all of the CPU time for the method.
 
 :::image type="content" source="./media/optimize-code-cpu-usage-flame-graph.png" alt-text="Alt text that describes the content of the image.":::
 
-## Explore other sources of information
+It's time to take a look at the `GetBlogTitle` source code. Double-click the function in the Flame Graph. In the source code for `GetBlogTitle`, we find the following code.
 
-When you have identified an issue to explore in CPU Usage, you may want to use one of the other tools that might provide additional insights. For example:
+```csharp
+foreach (var blog in db.Blogs.Select(b => new { b.Url, b.Posts }).ToList())
+  {
+    foreach (var post in blog.Posts)
+    {
+      if (post.Author == "Fred Smith")
+      {
+        Console.WriteLine($"Post: {post.Title}");
+      }
+  }
+}
+```
 
-- In this example, the performance issue looks like a Linq query. You can try the Database tool.
+So, it looks like this Linq query code may be a good place to start optimizing.
+
+## Gather additional data
+
+When you have explored areas of high CPU usage in the CPU Usage tool, you may want decide to use one of the other profiling tools for additional insights or to help identify the exact source of the problem. For example:
+
+- If you're using ADO.NET or Entity Framework (as in this example), you can try the Database tool to examine SQL queries, precise query time, et al.
 - Take a look at the memory usage. For .NET, try the .NET Object Allocation tool first. For any supported language, you can look at the Memory Usage tool.
-- For other options, see [Which tool should I choose?](../profiling/choose-performance-tool.md).
+- For additional tools, see [Which tool should I choose?](../profiling/choose-performance-tool.md).
 
-In this example, we have a Linq query that looks like it could be optimized. Use the Database tool in the Performance Profiler (**Atl+F2**). You can multi-select this tool along with CPU Usage, and then just select the **Query** tab in the result.
+In this example, the `GetBlogTitle` method uses a Linq query that looks like it could be optimized. Use the Database tool in the Performance Profiler (**Atl+F2**). You can multi-select this tool along with CPU Usage. When you've collected a trace, select the **Query** tab in the diagnostics page.
 
-In the Database trace results, you can see the first row shows the longest query, 2446 ms. By examining the SELECT statement, you identify this as the query associated with the GetBlogTitle method. Not that both queries read 100,000 records.
+In the Query tab for the Database trace, you can see the first row shows the longest query, 2446 ms. By examining the SELECT statement generated by Linq, you identify the first row as the query associated with the `GetBlogTitle` method. The **Records** 
 
 :::image type="content" source="./media/optimize-code-database.png" alt-text="Alt text that describes the content of the image.":::
 
