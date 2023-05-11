@@ -1,6 +1,6 @@
 ---
 title: "Reduce compute costs using profiling tools"
-description: "Learn how to optimize code using profiling tools such as the CPU Usage tool, Database tool, and the .NET Object Allocation tool."
+description: "Learn how to optimize code using Visual Studio profiling tools such as the CPU Usage tool, Database tool, and the .NET Object Allocation tool."
 ms.date: 05/09/2023
 ms.topic: conceptual
 dev_langs:
