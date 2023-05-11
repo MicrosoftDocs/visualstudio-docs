@@ -62,7 +62,7 @@ While you don't have to sign in, there are many advantages to doing so.
 
 ::: moniker-end
 
-2. Choose a Microsoft account or a work or school account.  If you don't have one, [create a Microsoft account for free](https://support.microsoft.com/help/4026324/microsoft-account-how-to-create) by selecting the link near the **Sign in** button. 
+2. Choose a Microsoft account or a work or school account.  If you don't have one, you can [create a Microsoft account for free](https://support.microsoft.com/help/4026324/microsoft-account-how-to-create). 
 
 3. Choose your preferred color theme and other UI settings.  Visual Studio [remembers these settings and synchronizes](../ide/synchronized-settings-in-visual-studio.md) them across all Visual Studio environments you have signed in to. You can change the settings later if you open the **Tools** > **Options** menu in Visual Studio.
 
@@ -126,8 +126,6 @@ You can also add an additional account from the **Account settings** dialog:
 1. Select the icon with your profile name in the upper-right corner of the Visual Studio environment. Then, select **Account settings** to manage your accounts. You can also open the Account Settings dialog by going to **File** > **Account Settings...**.
 1. From **All Accounts**, choose an account by using the **+ Add** dropdown.
 1. On the **Sign in to your account** page, select the account or choose **Use another account**. Follow the prompts to enter the new account credentials.
-
-(Optional) Now you use the Add Connected Service dialog and see the Azure services associated with the account you just added. You should see all the services associated with the specified subscription. Even though you're not currently signed into Visual Studio with the second account, you are signed in to that account's services and resources. [Learn more about accessing the resources associated with accounts in Visual Studio](./sign-in-access-multiple-accounts.md).
 
 ::: moniker-end
 
