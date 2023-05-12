@@ -48,7 +48,7 @@ To modify your Visual Studio installation, you first need to launch the Visual S
      > [!NOTE]
      > You can also find the Visual Studio Installer in the following location:
      >
-     > `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
+     > `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`
 
     You might have to update the installer before continuing. If so, follow the prompts.
 
@@ -71,7 +71,7 @@ To modify your Visual Studio installation, you first need to launch the Visual S
 
      ![Screenshot showing the result of a Start menu search for the Visual Studio Installer.](media/vs-2022/vs-installer.png "Search for the Visual Studio Installer")
 
-   - Run the Visual Studio Installer executable, which is located at this path: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
+   - Run the Visual Studio Installer executable, which is located at this path: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`
 
    - If you have Visual Studio open, select **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer.
 
