@@ -66,8 +66,9 @@ If there's a problem with your account, Visual Studio might ask you to re-enter 
 
 Clicking on **Re-enter your credentials** will open your system's default web browser and attempt to automatically refresh your credentials. If unsuccessful, you'll be asked to sign into your account and validate any required CA/MFA policy.
 
-If your account is associated with multiple Azure Active Directories and your account runs into an access problem with any of them, the **Re-enter your credentials** dialog will show you the directories with the 
-issue. You'll be able de-select any directories that you don't want to reauthenticate and **continue** signing in.
+If your account is associated with multiple Azure Active Directories and runs into an access problem with one or more of them, the **Re-enter your credentials** dialog will show you the impacted directories and the associated [AADSTS error codes](/azure/active-directory/develop/reference-error-codes.md#aadsts-error-codes). 
+
+You'll be able de-select any directories that you don't want to reauthenticate and **continue** a regular signing in operation with the home directory, as well as any guest tenants that remain selected. Deselected directories won't be accessible for future use until the [account filter](work-with-multi-factor-authentication.md#how-to-filter-out-individual-tenants) is removed.
 
 :::image type="content" source="media/vs-2022/reauthenticate-client-access-problem-directories.png" alt-text="Reauthenticate your Visual Studio account.":::
 
