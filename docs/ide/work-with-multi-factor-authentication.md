@@ -1,7 +1,7 @@
 ---
 title: Multi-factor authentication with Visual Studio sign-ins
 titleSuffix: "" 
-ms.date: 04/28/2022
+ms.date: 05/16/2023
 ms.topic: how-to
 description: "Learn how to use Visual Studio with accounts that require multi-factor authentication (MFA)."
 author: anandmeg
@@ -59,11 +59,17 @@ During the sign-in process, you may receive an additional prompt asking you to s
 Based on your development activities and resource configuration, you may still be prompted to re-enter your credentials during your session. This can occur when you add a new resource, or try accessing a resource without having previously met its CA/MFA authorization requirements.
 
 ## Reauthenticating an account
+
 If there's a problem with your account, Visual Studio might ask you to re-enter your account credentials.  
 
 :::image type="content" source="media/vs-2022/reauthenticate-account.png" alt-text="Reauthenticate your Visual Studio account.":::
 
 Clicking on **Re-enter your credentials** will open your system's default web browser and attempt to automatically refresh your credentials. If unsuccessful, you'll be asked to sign into your account and validate any required CA/MFA policy.
+
+If your account is associated with multiple Azure Active Directories and your account runs into an access problem with any of them, the **Re-enter your credentials** dialog will show you the directories with the 
+issue. You'll be able de-select any directories that you don't want to reauthenticate and **continue** signing in.
+
+:::image type="content" source="media/vs-2022/reauthenticate-client-access-problem-directories.png" alt-text="Reauthenticate your Visual Studio account.":::
 
 > [!NOTE] 
 > For the best experience, keep your browser open until all CA/MFA policies are validated for your resources. Closing the browser may result in losing the previously built MFA state, and may prompt additional authorization prompts.
