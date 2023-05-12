@@ -2,9 +2,6 @@
   tocHref: /visualstudio/windows/
   topicHref: /visualstudio/windows/index
   items:
-  - name: IDE
-    tocHref: /visualstudio/
-    topicHref: /visualstudio/ide/index
   - name: Code Analysis
     tocHref: /visualstudio/code-quality/
     topicHref: /visualstudio/code-quality/index
