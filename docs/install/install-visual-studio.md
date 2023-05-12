@@ -112,7 +112,7 @@ You will need to decide which version and edition of Visual Studio to install. T
 
 ::: moniker-end
 
-- If you already have Visual Studio installed, you can [install another version alongside it](install-visual-studio-versions-side-by-side.md) by choosing one that is offered in the Visual Studio Installer's Available tab.
+- If you already have Visual Studio installed, you can [install another version alongside it](/visualstudio/install/install-visual-studio-versions-side-by-side#install-different-editions-within-the-same-major-visual-studio-version-side-by-side) by choosing one that is offered in the Visual Studio Installer's Available tab.
 
 ::: moniker range="vs-2019"
 
@@ -162,7 +162,7 @@ If you downloaded a bootstrapper file, then you can use it to install Visual Stu
 
 ::: moniker-end
 
-You can also intiate an installation of any product that is offered on the Visual Studio Installer's Available Tab. 
+You can also intiate an installation of any product that is offered on the [Visual Studio Installer's Available tab](/visualstudio/install/install-visual-studio-versions-side-by-side#install-different-editions-within-the-same-major-visual-studio-version-side-by-side). 
 
 ## Step 4 - Choose workloads
 
