@@ -52,7 +52,9 @@ Each installation of Visual Studio must have a unique combination of major versi
 
 When upgrading from one minor version of Visual Studio to the next, the Visual Studio installer will, by default, update your current installation to the latest version in that channel. For example, suppose 16.11.24 was just released by Microsoft to the [Visual Studio 2019 release channel](/visualstudio/productinfo/release-rhythm). The installer will try to replace your current installation of Visual Studio 2019 from the release channel with this latest version on the same channel. 
 
-You can manually use another bootstrapper to install a new instance of Visual Studio, or you can select one of the options from the Visual Studio Installer's Available Tab.  
+### Manual Installation
+
+You can manually use another bootstrapper to install a new instance of Visual Studio, or you can select one of the options from the Visual Studio Installer's Available tab.  
 
 1. To use another bootstrapper, you can download and run one of the Visual Studio 2019 bootstrapper files from the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page for the edition that you would like to install side-by-side with your existing installation of Visual Studio. If you are in an organization, your IT Administrator may have created a layout and provided a link to the bootstrapper in that layout.
 
@@ -64,18 +66,25 @@ Each installation of Visual Studio must have a unique combination of major versi
 
 When upgrading from one minor version of Visual Studio to the next, the Visual Studio installer will, by default, update your current installation to the latest version in that channel. For example, suppose 17.3.9 was just released by Microsoft to the [Visual Studio 2022 release channel](/visualstudio/productinfo/release-rhythm). The installer will try to replace your current installation of Visual Studio 2022 from the release channel with this latest version on the same channel. 
 
-You can manually use another bootstrapper to install a new instance of Visual Studio, or you can select one of the options from the Visual Studio Installer's Available Tab.  
+### Manual Installation
+
+You can manually use another bootstrapper to install a new instance of Visual Studio, or you can select one of the options from the Visual Studio Installer's Available tab.  
 
 1. To use another bootstrapper, you can download and run one of the Visual Studio 2022 bootstrapper files from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2022 Releases](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page for the minor version that you would like to install side-by-side with your existing version of Visual Studio.
 
 ::: moniker-end
 
-1. To use the Installer's Available tab presumes, of course, that you already have some other version of Visual Studio installed. First find the **Visual Studio Installer** on your computer and launch it. After it likely tries to update itself, click on the Available tab and install one of the offered products. 
+1. To use the Installer's Available tab presumes, of course, that you already have some other version of Visual Studio installed. First find the **Visual Studio Installer** on your computer and launch it. After it updates itself, click on the Available tab and install one of the offered products. 
 
      ![Screenshot showing Visual Studio Installer's Available tab.](media/available-tab.png "Choose a product to install from the Available tab")
 
 
 Then follow the installer dialogs to select the components you need for your installation. For more information, see [Install Visual Studio](install-visual-studio.md#step-4---choose-workloads).
+
+     > [!TIP]
+     > IT Administrators who want to suppress visibility of the Installer's Available tab or otherwise customize the availability of layout offerings on the Available tab can configure client registry and policies. Refer to [Configure policies for enterprise deployments of Visual Studio](/visualstudio/install/configure-policies-for-enterprise-deployments) for more information. 
+     
+### Programmatic Installation
 
 You can also programmatically use either a bootstrapper or the Installer to initiate a new installation of Visual Studio. Open a command prompt as administrator, and run one of the the following commands. Remember to specify a new folder path for the installation location and replace the .exe file name with the appropriate bootstrapper name for the edition of Visual Studio you are installing. 
 
@@ -85,11 +94,13 @@ To install via the bootstrapper:
    vs_Enterprise.exe --installPath "C:\Program Files (x86)\Microsoft Visual Studio\<AddNewPath>"
    ```
 
-To install using the Installer that may already be present on the client machine. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.
+To install using the Installer that is already be present on the client machine.
 
    ```shell
    c:\>c:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe --installPath "C:\Program Files (x86)\Microsoft Visual Studio\<AddNewPath>"
    ```
+
+Note that you can't initiate the installer programmatically from the same directory that the installer resides in.
 
 ## .NET Framework versions and side-by-side installations
 
