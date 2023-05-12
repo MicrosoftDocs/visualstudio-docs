@@ -2,7 +2,7 @@
 title: Repair Visual Studio
 titleSuffix: ''
 description: Learn how to repair an installation of Visual Studio.
-ms.date: 11/28/2022
+ms.date: 5/16/2023
 ms.custom: vs-acquisition
 ms.topic: how-to
 author: anandmeg
