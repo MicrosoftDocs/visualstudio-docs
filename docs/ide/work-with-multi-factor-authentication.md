@@ -62,7 +62,7 @@ Based on your development activities and resource configuration, you may still b
 
 If there's a problem with your account, Visual Studio might ask you to re-enter your account credentials.  
 
-:::image type="content" source="media/vs-2022/reauthenticate-account.png" alt-text="Reauthenticate your Visual Studio account.":::
+:::image type="content" source="media/vs-2022/reauthenticate-account.png" alt-text="Screenshot showing account that needs reauthentication.":::
 
 Clicking on **Re-enter your credentials** will open your system's default web browser and attempt to automatically refresh your credentials. If unsuccessful, you'll be asked to sign into your account and validate any required CA/MFA policy.
 
