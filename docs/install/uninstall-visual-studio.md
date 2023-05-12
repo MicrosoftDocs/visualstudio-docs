@@ -2,7 +2,7 @@
 title: Uninstall or remove Visual Studio
 titleSuffix: ''
 description: Learn how to uninstall or remove Visual Studio, step-by-step.
-ms.date: 01/25/2023
+ms.date: 5/16/2023
 ms.custom: vs-acquisition
 ms.topic: how-to
 f1_keywords:
