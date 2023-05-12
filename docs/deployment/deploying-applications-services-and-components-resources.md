@@ -51,7 +51,7 @@ From within Visual Studio, applications can be published directly to the followi
 
 - [Azure](#azure)
 - [Docker Container Registry](#docker-container-registry)
-- [DevTest Labs](#azure-devtest-labs)
+- [DevTest Labs](#devtest-labs)
 - [Folder](#folder)
 - [FTP/FTPS server](#ftpftps-server)
 - [Web server(IIS)](#web-server-iis)
