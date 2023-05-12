@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2022."
-ms.date: 03/09/2023
+ms.date: 05/16/2023
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -19,7 +19,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-**Updated for the 17.5 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
+**Updated for the 17.6 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
 
 >[!div class="button"]
 >[Download Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
@@ -28,7 +28,9 @@ With [Visual Studio 2022](https://visualstudio.microsoft.com/vs/), you'll always
 
 Want to see what's new in each updated release from within Visual Studio itself? Now you can! From the menu bar, select **Help** > **What's New** to view recent highlights.
 
+<!-- 
 :::image type="content" source="media/vs-2022/whats-new-visual-studio.png" alt-text="Screenshot of the in-product notification of what's new in each updated release of Visual Studio.":::
+-->
 
 > [!TIP]
 > For more news + how-to's, check out our Visual Studio social media channels on [LinkedIn](https://www.linkedin.com/showcase/microsoft-visual-studio), [YouTube](https://www.youtube.com/visualstudio), [Facebook](https://www.facebook.com/visualstudio), [Twitch](https://www.twitch.tv/visualstudio), [Twitter](https://twitter.com/VisualStudio), & [TikTok](https://www.tiktok.com/@visualstudio). And for the latest info on recent releases, current experiments, and what's in Preview, be sure to visit the Visual Studio [Blog](https://devblogs.microsoft.com/visualstudio/).
