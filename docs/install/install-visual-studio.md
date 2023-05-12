@@ -2,7 +2,7 @@
 title: Install Visual Studio
 titleSuffix: ''
 description: Learn how to install Visual Studio, step-by-step.
-ms.date: 02/21/2023
+ms.date: 05/16/2023
 ms.custom: vs-acquisition
 ms.topic: conceptual
 helpviewer_keywords:
@@ -62,11 +62,15 @@ Before you begin installing Visual Studio:
 
 1. Check the [system requirements](/visualstudio/releases/2019/system-requirements). These requirements help you know whether your computer supports Visual Studio 2019.
 
+1. Make sure that the user performing the installation has administrator permissions on the machine. For more information, see [User Permissions and Visual Studio](/visualstudio/ide/user-permissions-and-visual-studio).
+
 1. Apply the latest Windows updates. These updates ensure that your computer has both the latest security updates and the required system components for Visual Studio.
 
 1. Reboot. The reboot ensures that any pending installs or updates don't hinder your Visual Studio install.
 
 1. Free up space. Remove unneeded files and applications from your system drive by, for example, running the Disk Cleanup app.
+
+For questions about running other versions of Visual Studio side by side with Visual Studio 2019, see [Visual Studio 2019 Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility/).
 
 ::: moniker-end
 
@@ -74,33 +78,25 @@ Before you begin installing Visual Studio:
 
 1. Check the [system requirements](/visualstudio/releases/2022/system-requirements). These requirements help you know whether your computer supports Visual Studio 2022.
 
+1. Make sure that the user performing the installation has administrator permissions on the machine. For more information, see [User Permissions and Visual Studio](/visualstudio/ide/user-permissions-and-visual-studio).
+
 1. Apply the latest Windows updates. These updates ensure that your computer has both the latest security updates and the required system components for Visual Studio.
 
 1. Reboot. The reboot ensures that any pending installs or updates don't hinder your Visual Studio install.
 
 1. Free up space. Remove unneeded files and applications from your system drive by, for example, running the Disk Cleanup app.
 
+You can install Visual Studio 2022 side by side with other versions. For more information, see [Visual Studio 2022 platform targeting and compatibility](/visualstudio/releases/2022/compatibility) and [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md).
+
 ::: moniker-end
+
+## Step 2 - Determine which version and edition of Visual Studio to install
+
+You will need to decide which version and edition of Visual Studio to install. The most common options are:
 
 ::: moniker range="vs-2019"
 
-For questions about running previous versions of Visual Studio side by side with Visual Studio 2019, see [Visual Studio 2019 Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility/).
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
-
-You can install Visual Studio 2022 side by side with previous versions. For more information, see [Visual Studio 2022 platform targeting and compatibility](/visualstudio/releases/2022/compatibility) and [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md?view=vs-2022&preserve-view=true).
-
-::: moniker-end
-
-## Step 2 - Download Visual Studio
-
-Next, download the Visual Studio bootstrapper file.
-
-::: moniker range="vs-2019"
-
-To do so, select the following button, and choose the edition of Visual Studio that you want to download to your **Downloads** folder.
+- The latest release of Visual Studio 2019 that is hosted on Microsoft servers. To install this, click on the following button and then choose the correct edition. A small "bootstrapper" file will then be downloaded into your **Downloads** folder.
 
  > [!div class="button"]
  > [Download Visual Studio](/visualstudio/releases/2019/release-notes/)
@@ -109,16 +105,32 @@ To do so, select the following button, and choose the edition of Visual Studio t
 
 ::: moniker range=">=vs-2022"
 
-To do so, select the following button, and choose the edition of Visual Studio that you want to download to your **Downloads** folder.
+- The latest release of Visual Studio 2022 that is hosted on Microsoft servers. To install this, click on the following button and then choose the correct edition. A small "bootstrapper" file will then be downloaded into your **Downloads** folder.
 
  > [!div class="button"]
  > [Download Visual Studio](https://visualstudio.microsoft.com/downloads)
 
 ::: moniker-end
 
-## Step 3 - Install the Visual Studio Installer
+- If you already have Visual Studio installed, you can [install another version alongside it](install-visual-studio-versions-side-by-side.md) by choosing one that is offered in the Visual Studio Installer's Available tab.
 
-Run the bootstrapper file to install the Visual Studio Installer. This new lightweight installer includes everything you need to both install and customize Visual Studio.
+::: moniker range="vs-2019"
+
+- You can download a bootstrapper for a very specific version from the [Visual Studio 2019 Release History](/visualstudio/releases/2019/history#installing-an-earlier-release) page and use it to install Visual Studio. 
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+- You can download a bootstrapper for a very specific version from the [Visual Studio 2022 Release History page](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page and use it to install Visual Studio.
+
+::: moniker-end
+
+- Your IT administrator may point you to a specific location to install Visual Studio from.
+
+## Step 3 - Initiate the installation
+
+If you downloaded a bootstrapper file, then you can use it to install Visual Studio. The first thing it will do is install the latest version of the Visual Studio Installer. The Installer is a separate program that provides everything you need to both install and customize Visual Studio.
 
 ::: moniker range="vs-2019"
 
@@ -132,13 +144,11 @@ Run the bootstrapper file to install the Visual Studio Installer. This new light
 
 ::: moniker range=">=vs-2022"
 
-1. From your **Downloads** folder, double-click the bootstrapper **VisualStudioSetup.exe** to start the install.
+1. From your **Downloads** folder, double-click the bootstrapper named **VisualStudioSetup.exe** or named something like **vs_community.exe** to start the installation.  
 
 ::: moniker-end
 
-   If you receive a User Account Control notice, choose **Yes**.
-
-1. We'll ask you to acknowledge the Microsoft [License Terms](https://visualstudio.microsoft.com/license-terms/) and the Microsoft [Privacy Statement](https://privacy.microsoft.com/privacystatement). Choose **Continue**.
+1. If you receive a User Account Control notice, choose **Yes**.  We'll ask you to acknowledge the Microsoft [License Terms](https://visualstudio.microsoft.com/license-terms/) and the Microsoft [Privacy Statement](https://privacy.microsoft.com/privacystatement). Choose **Continue**.
 
 ::: moniker range="<=vs-2019"
 
@@ -151,6 +161,8 @@ Run the bootstrapper file to install the Visual Studio Installer. This new light
    ![Screenshot showing the Microsoft License Terms and Privacy Statement.](../install/media/vs-2022/privacy-and-license-terms.png "Microsoft License Terms and Privacy Statement")
 
 ::: moniker-end
+
+You can also intiate an installation of any product that is offered on the Visual Studio Installer's Available Tab. 
 
 ## Step 4 - Choose workloads
 
