@@ -2,7 +2,7 @@
 title: "Modify Visual Studio workloads, components, & language packs"
 titleSuffix: ''
 description: Learn how to modify Visual Studio, step-by-step.
-ms.date: 11/23/2022
+ms.date: 5/16/2023
 ms.topic: how-to
 ms.custom: vs-acquisition
 helpviewer_keywords:
