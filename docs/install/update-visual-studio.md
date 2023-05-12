@@ -2,7 +2,7 @@
 title: Update Visual Studio
 titleSuffix: ''
 description: Learn how to update Visual Studio to the most recent release, step by step.
-ms.date: 3/17/2023
+ms.date: 05/16/2023
 ms.custom: vs-acquisition
 ms.topic: how-to
 ms.prod: visual-studio-windows
@@ -28,7 +28,7 @@ If you are an IT Administrator and want to configure your organization's clients
 
 ## Before you update
 
-In order to install, update, or modify Visual Studio, the account performing the update must have administrative permissions on the machine and also must have permissions to the place where the product updates are located (either the internet or a network share). If you are logged in as a typical user and try to perform one of these commands, then you'll get a User Account Control notice prompting you for admin credentials. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
+In order to install, update, or modify Visual Studio, the account performing the update must have administrative permissions on the machine and also must have permissions to the source where the product updates are located (either the internet or an internal location). If you are logged in as a typical user and try to perform one of these commands, then you'll get a User Account Control notice prompting you for admin credentials. For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
 
 Visual Studio must be closed before performing an update. We highly recommend saving your work before performing an update.
 
@@ -51,7 +51,7 @@ There are several different ways to update an installation of Visual Studio. You
    You might have to update the installer before continuing. If so, follow the prompts. 
    
 >[!NOTE]
->The setup and update features and bug fixes are typically released in the most current version of the installer in the most current release of Visual Studio. This new functionality often just works seamlessley in older versions of the product. For example, in the Visual Studio 2022 version 17.4 installer, we introduced the ability to remove out-of-support components; if this installer is present on a machine that has Visual Studio 2019 installed, the remove out-of-support component functionality would be avilable to that product as well. [Instructions for acquiring the latest installer on a machine with an older version of the Visual Studio product are described below](#install-the-latest-and-greatest-installer).   
+>Visual Studio setup features and bug fixes are typically implemented in the Installer. The Installer is now shipping in the most current release of all currently supported Visual Studio products. This means that in general (unless otherwise specified), all new setup functionality often just works seamlessley in older versions of the product.    
 
 1. In the installer, look for the instance of Visual Studio that you want to update.
 
@@ -146,7 +146,7 @@ There are several different ways to update an installation of Visual Studio. You
    If you're prompted to update the Visual Studio Installer before continuing, do so by following the prompts.
    
 >[!NOTE]
->The setup and update features and bug fixes are typically released in the most current version of the installer in the most current release of Visual Studio. This new functionality often just works seamlessley in older versions of the product. For example, in the Visual Studio 2022 version 17.4 installer, we introduced the ability to remove out-of-support components; if this installer is present on a machine that has Visual Studio 2019 installed, the remove out-of-support component functionality would be avilable to that product as well. [Instructions for acquiring the latest installer on a machine with an older version of the Visual Studio product are described below](#install-the-latest-and-greatest-installer).
+>Visual Studio setup features and bug fixes are typically implemented in the Installer. The Installer is now shipping in the most current release of all currently supported Visual Studio products. This means that in general (unless otherwise specified), all new setup functionality often just works seamlessley in older versions of the product.
 
 1. In the Visual Studio Installer, look for the installation of Visual Studio that you want to update. 
 
