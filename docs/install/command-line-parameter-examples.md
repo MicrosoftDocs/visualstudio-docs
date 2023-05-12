@@ -26,7 +26,7 @@ You can use the `^` character at the end of a command line to concatenate multip
 
 For lists of the workloads and components that you can install by using the command line, see the [Visual Studio workload and component IDs](workload-and-component-ids.md) page.
 
-## Install using --installPath
+## Install using --installPath alongside the bootstrapper
 
 * Install a minimal instance of Visual Studio, with no interactive prompts but progress displayed:
 
@@ -146,10 +146,10 @@ If you choose to use a custom layout as the update channel, then be aware of the
 
 ## Using --remove
 
-* Remove the Profiling Tools component from the default installed Visual Studio instance:
+* Remove the Profiling Tools component from the default installed Visual Studio instance. This example uses the Installer already installed on the client machine. 
 
   ```shell
-   vs_enterprise.exe modify ^
+   c:\>c:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe modify ^
    --installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" ^
    --remove Microsoft.VisualStudio.Component.DiagnosticTools ^
    --passive
@@ -159,10 +159,10 @@ If you choose to use a custom layout as the update channel, then be aware of the
 >[!NOTE]
 >This command requires using the VS 2022 version 17.4 or later installer. Follow the guidance here for [how to acquire the latest installer on your client machine](update-visual-studio.md#install-the-latest-and-greatest-installer).
 
-* Modify an installation and remove all [components that have transitioned to an out-of-support state](out-of-support-components.md) from the default installed Visual Studio instance:
+* Modify an installation and remove all [components that have transitioned to an out-of-support state](out-of-support-components.md) from the default installed Visual Studio instance. This example uses the Installer already installed on the client machine. 
 
   ```shell
-   vs_enterprise.exe modify ^
+    c:\>c:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe modify ^
    --installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" ^
    --removeOos true ^
    --passive
@@ -171,7 +171,7 @@ If you choose to use a custom layout as the update channel, then be aware of the
 * Adjust the update settings to persistently remove all components that have transitioned to an out-of-support state every time the product updates:
 
   ```shell
-  vs_enterprise.exe modifySettings ^
+   c:\>c:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe modify ^
   --channelURI https://aka.ms/vs/17/release.LTSC.17.0/channel ^
   --productID Microsoft.VisualStudio.Product.Enterprise ^
   --newChannelURI \\layoutserver\share\path\channelmanifest.json ^
@@ -180,6 +180,8 @@ If you choose to use a custom layout as the update channel, then be aware of the
   ```
 
 ## Using --path
+
+All of these examples assume you're installing a new product using a bootstrapper. 
 
 * Use the install, cache, and shared paths:
 
@@ -199,16 +201,16 @@ If you choose to use a custom layout as the update channel, then be aware of the
 
 ## Using export
 
-* Use export to save the selection from an installation:
+* Use export to save the selection from an installation. This example uses the Installer already installed on the client machine.
 
   ```shell
-  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" export --installPath "C:\VS" --config "C:\.vsconfig"
+  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" export --installPath "C:\VS" --config "C:\.vsconfig"
   ```
 
-* Use export to save custom selection from scratch:
+* Use export to save custom selection from scratch. This example uses the Installer already installed on the client machine.
 
   ```shell
-  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe" export --channelId VisualStudio.17.Release --productId Microsoft.VisualStudio.Product.Enterprise --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --config "C:\.vsconfig"
+  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" export --channelId VisualStudio.17.Release --productId Microsoft.VisualStudio.Product.Enterprise --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --config "C:\.vsconfig"
   ```
 
 ## Using --config
@@ -219,10 +221,10 @@ If you choose to use a custom layout as the update channel, then be aware of the
   vs_enterprise.exe --config "C:\my.vsconfig" --installPath "C:\VS"
   ```
 
-* Use --config to add workloads and components to an existing installation:
+* Use --config to add workloads and components to an existing installation. This example uses the Installer already installed on the client machine.
 
   ```shell
-  vs_enterprise.exe modify --installPath "C:\VS" --config "C:\my.vsconfig"
+   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --installPath "C:\VS" --config "C:\my.vsconfig"
   ```
   
 * Use --config to configure the contents of a layout:
