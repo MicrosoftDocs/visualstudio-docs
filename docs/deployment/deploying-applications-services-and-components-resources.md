@@ -3,7 +3,7 @@ title: "Deploy your Visual Studio app to a folder, IIS, Azure, or another destin
 titleSuffix: ""
 description: Learn more about publishing options for your app using the Publish tool.
 ms.custom: "contperf-fy21q1"
-ms.date: 01/25/2023
+ms.date: 05/12/2023
 ms.topic: "ui-reference"
 f1_keywords:
 - vs.publish
@@ -51,6 +51,7 @@ From within Visual Studio, applications can be published directly to the followi
 
 - [Azure](#azure)
 - [Docker Container Registry](#docker-container-registry)
+- [Azure DevTest Labs](#azure-devtest-labs)
 - [Folder](#folder)
 - [FTP/FTPS server](#ftpftps-server)
 - [Web server(IIS)](#web-server-iis)
@@ -150,6 +151,12 @@ For more information, see the following:
 
 - [Deploy an ASP.NET container to a container registry](../containers/hosting-web-apps-in-docker.md)
 - [Deploy to Docker Hub](../containers/deploy-docker-hub.md)
+
+## Azure DevTest Labs
+
+Use the Folder deployment option in the Publish tool if you want to deploy to Azure DevTest Labs.
+
+For complete steps, see [Publish app for testing on an Azure DevTest Labs VM](/azure/devtest-labs/test-app-azure). In this article, the folder publish steps apply to .NET Core/.NET 5+. The rest of these instructions apply to both .NET and .NET Framework. For .NET Framework ClickOnce apps, you can use the [Publish Wizard](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md) to publish to a folder.
 
 ## Folder
 
