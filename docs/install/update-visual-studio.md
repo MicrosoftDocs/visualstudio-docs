@@ -51,7 +51,7 @@ There are several different ways to update an installation of Visual Studio. You
    You might have to update the installer before continuing. If so, follow the prompts. 
    
 >[!NOTE]
->Visual Studio setup features and bug fixes are typically implemented in the Installer. The Installer is now shipping in the most current release of all currently supported Visual Studio products. This means that in general (unless otherwise specified), all new setup functionality often just works seamlessley in older versions of the product.    
+>Visual Studio setup features and bug fixes are typically implemented in the installer. The installer is now shipping in the most current release of all currently supported Visual Studio products. This means that in general (unless otherwise specified), all new setup functionality often just works seamlessly in older versions of the product.    
 
 1. In the installer, look for the instance of Visual Studio that you want to update.
 
@@ -146,7 +146,7 @@ There are several different ways to update an installation of Visual Studio. You
    If you're prompted to update the Visual Studio Installer before continuing, do so by following the prompts.
    
 >[!NOTE]
->Visual Studio setup features and bug fixes are typically implemented in the Installer. The Installer is now shipping in the most current release of all currently supported Visual Studio products. This means that in general (unless otherwise specified), all new setup functionality often just works seamlessley in older versions of the product.
+>Visual Studio setup features and bug fixes are typically implemented in the installer. The installer is now shipping in the most current release of all currently supported Visual Studio products. This means that in general (unless otherwise specified), all new setup functionality often just works seamlessly in older versions of the product.
 
 1. In the Visual Studio Installer, look for the installation of Visual Studio that you want to update. 
 

@@ -146,10 +146,10 @@ If you choose to use a custom layout as the update channel, then be aware of the
 
 ## Using --remove
 
-* Remove the Profiling Tools component from the default installed Visual Studio instance. This example uses the Installer already installed on the client machine. 
+* Remove the Profiling Tools component from the default installed Visual Studio instance. This example uses the installer already installed on the client machine. 
 
   ```shell
-   c:\>c:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe modify ^
+  C:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe modify ^
    --installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" ^
    --remove Microsoft.VisualStudio.Component.DiagnosticTools ^
    --passive
@@ -159,10 +159,10 @@ If you choose to use a custom layout as the update channel, then be aware of the
 >[!NOTE]
 >This command requires using the VS 2022 version 17.4 or later installer. Follow the guidance here for [how to acquire the latest installer on your client machine](update-visual-studio.md#install-the-latest-and-greatest-installer).
 
-* Modify an installation and remove all [components that have transitioned to an out-of-support state](out-of-support-components.md) from the default installed Visual Studio instance. This example uses the Installer already installed on the client machine. 
+* Modify an installation and remove all [components that have transitioned to an out-of-support state](out-of-support-components.md) from the default installed Visual Studio instance. This example uses the installer already installed on the client machine. 
 
   ```shell
-    c:\>c:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe modify ^
+   "C:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe" modify ^
    --installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" ^
    --removeOos true ^
    --passive
@@ -171,7 +171,7 @@ If you choose to use a custom layout as the update channel, then be aware of the
 * Adjust the update settings to persistently remove all components that have transitioned to an out-of-support state every time the product updates:
 
   ```shell
-   c:\>c:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe modify ^
+  "C:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe" modify ^
   --channelURI https://aka.ms/vs/17/release.LTSC.17.0/channel ^
   --productID Microsoft.VisualStudio.Product.Enterprise ^
   --newChannelURI \\layoutserver\share\path\channelmanifest.json ^
@@ -201,13 +201,13 @@ All of these examples assume you're installing a new product using a bootstrappe
 
 ## Using export
 
-* Use export to save the selection from an installation. This example uses the Installer already installed on the client machine.
+* Use export to save the selection from an installation. This example uses the installer already installed on the client machine.
 
   ```shell
   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" export --installPath "C:\VS" --config "C:\.vsconfig"
   ```
 
-* Use export to save custom selection from scratch. This example uses the Installer already installed on the client machine.
+* Use export to save custom selection from scratch. This example uses the installer already installed on the client machine.
 
   ```shell
   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" export --channelId VisualStudio.17.Release --productId Microsoft.VisualStudio.Product.Enterprise --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --config "C:\.vsconfig"
@@ -221,7 +221,7 @@ All of these examples assume you're installing a new product using a bootstrappe
   vs_enterprise.exe --config "C:\my.vsconfig" --installPath "C:\VS"
   ```
 
-* Use --config to add workloads and components to an existing installation. This example uses the Installer already installed on the client machine.
+* Use --config to add workloads and components to an existing installation. This example uses the installer already installed on the client machine.
 
   ```shell
    "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --installPath "C:\VS" --config "C:\my.vsconfig"

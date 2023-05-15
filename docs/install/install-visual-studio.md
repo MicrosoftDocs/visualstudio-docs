@@ -86,7 +86,7 @@ For questions about running other versions of Visual Studio side by side with Vi
 
 1. Free up space. Remove unneeded files and applications from your system drive by, for example, running the Disk Cleanup app.
 
-You can install Visual Studio 2022 side by side with other versions. For more information, see [Visual Studio 2022 platform targeting and compatibility](/visualstudio/releases/2022/compatibility) and [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md).
+You can install Visual Studio 2022 side-by-side with other versions. For more information, see [Visual Studio 2022 platform targeting and compatibility](/visualstudio/releases/2022/compatibility) and [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md).
 
 ::: moniker-end
 
@@ -96,7 +96,7 @@ You will need to decide which version and edition of Visual Studio to install. T
 
 ::: moniker range="vs-2019"
 
-- The latest release of Visual Studio 2019 that is hosted on Microsoft servers. To install this, click on the following button and then choose the correct edition. A small "bootstrapper" file will then be downloaded into your **Downloads** folder.
+- The latest release of Visual Studio 2019 that is hosted on Microsoft servers. To install this, click on the following button and then choose the edition you want. A small "bootstrapper" file will then be downloaded into your **Downloads** folder.
 
  > [!div class="button"]
  > [Download Visual Studio](/visualstudio/releases/2019/release-notes/)
@@ -105,14 +105,14 @@ You will need to decide which version and edition of Visual Studio to install. T
 
 ::: moniker range=">=vs-2022"
 
-- The latest release of Visual Studio 2022 that is hosted on Microsoft servers. To install this, click on the following button and then choose the correct edition. A small "bootstrapper" file will then be downloaded into your **Downloads** folder.
+- The latest release of Visual Studio 2022 that is hosted on Microsoft servers. To install this, click on the following button and then choose the edition you want. A small "bootstrapper" file will then be downloaded into your **Downloads** folder.
 
  > [!div class="button"]
  > [Download Visual Studio](https://visualstudio.microsoft.com/downloads)
 
 ::: moniker-end
 
-- If you already have Visual Studio installed, you can [install another version alongside it](/visualstudio/install/install-visual-studio-versions-side-by-side#install-different-editions-within-the-same-major-visual-studio-version-side-by-side) by choosing one that is offered in the Visual Studio Installer's Available tab.
+- If you already have Visual Studio installed, you can [install another version alongside it](/visualstudio/install/install-visual-studio-versions-side-by-side#install-different-editions-within-the-same-major-visual-studio-version-side-by-side) by choosing one that is offered in the Visual Studio Installer's **Available** tab.
 
 ::: moniker range="vs-2019"
 
@@ -130,7 +130,7 @@ You will need to decide which version and edition of Visual Studio to install. T
 
 ## Step 3 - Initiate the installation
 
-If you downloaded a bootstrapper file, then you can use it to install Visual Studio. The first thing it will do is install the latest version of the Visual Studio Installer. The Installer is a separate program that provides everything you need to both install and customize Visual Studio.
+If you downloaded a bootstrapper file, then you can use it to install Visual Studio. The bootstrapper will first install the latest version of the Visual Studio Installer. The installer is a separate program that provides everything you need to both install and customize Visual Studio.
 
 ::: moniker range="vs-2019"
 
