@@ -18,7 +18,7 @@ manager: jmartens
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can install Visual Studio on a computer that has an earlier or later major version of Visual Studio already installed.
+You can install Visual Studio on a computer that has an earlier or later [major version](/visualstudio/productinfo/release-rhythm#determining-your-product-edition-version-and-channel) of Visual Studio already installed.
 
 ::: moniker range="vs-2019"
 
