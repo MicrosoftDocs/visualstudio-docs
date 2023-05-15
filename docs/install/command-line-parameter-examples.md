@@ -149,7 +149,7 @@ If you choose to use a custom layout as the update channel, then be aware of the
 * Remove the Profiling Tools component from the default installed Visual Studio instance. This example uses the installer already installed on the client machine. 
 
   ```shell
-  C:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe modify ^
+  "C:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe" modify ^
    --installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" ^
    --remove Microsoft.VisualStudio.Component.DiagnosticTools ^
    --passive
@@ -238,7 +238,7 @@ All of these examples assume you're installing a new product using a bootstrappe
 Use the [Windows Package Manager](/windows/package-manager/winget/) "winget" tool to programmatically install or update Visual Studio on your machines along with other packages managed by winget. To customize the installation and specify additional workloads and components, you can use winget's `--override` switch alongside winget's `install` command, and pass in an [exported vsconfig file](import-export-installation-configurations.md) like this:
 
   ```shell
-  winget install --id Microsoft.VisualStudio.2022.Community --override "--passive --config c:\my.vsconfig"
+  winget install --id Microsoft.VisualStudio.2022.Community --override "--passive --config C:\my.vsconfig"
   ```
   
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
