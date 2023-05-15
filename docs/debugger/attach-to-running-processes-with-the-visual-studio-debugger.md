@@ -1,7 +1,7 @@
 ---
 title: "Attach to running processes with the debugger"
 description: Discover how to attach the Visual Studio debugger to a running process on a local or remote computer.
-ms.date: "05/26/2022"
+ms.date: "12/20/2022"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.processes.attach"
