@@ -126,6 +126,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 Review the following blog posts to learn more about the improvements we've made to Visual Studio 2022, to date:
 
+* [Visual Studio 2022 17.6 is now available](https://aka.ms/vs/v176GA)
 * [Visual Studio 2022 17.5 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-5-released/)
 * [Visual Studio 2022 17.4 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-4/)
 * [Visual Studio 2022 17.3 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-3-is-now-available/)
