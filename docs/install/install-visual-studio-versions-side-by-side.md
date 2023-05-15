@@ -50,7 +50,7 @@ Before you install versions side-by-side, review the following conditions:
 
 Each installation of Visual Studio must have a unique combination of major version, edition, and [update channel](/visualstudio/install/update-visual-studio?view=vs-2019&preserve-view=true#configure-source-location-of-updates). So, for example (if you had a machine with a lot of disk space), you can install Visual Studio 2019 Enterprise Preview ([preview channel](/visualstudio/productinfo/release-rhythm)) alongside Visual Studio 2019 Enterprise (release channel) alongside Visual Studio 2017 Professional (release channel) alongside Visual Studio 2017 Professional (custom layout channel).
 
-When upgrading from one minor version of Visual Studio to the next, the Visual Studio installer will, by default, update your current installation to the latest version in that channel. For example, suppose 16.11.24 was just released by Microsoft to the [Visual Studio 2019 release channel](/visualstudio/productinfo/release-rhythm). The installer will try to replace your current installation of Visual Studio 2019 from the release channel with this latest version on the same channel. 
+When upgrading from one minor version of Visual Studio to the next, the Visual Studio installer will, by default, update your current installation to the latest version in that channel. For example, if version 16.11.24 was just released by Microsoft to the [Visual Studio 2019 release channel](/visualstudio/productinfo/release-rhythm), then the installer will try to replace your current installation of Visual Studio 2019 from the release channel with this latest version on the same channel. 
 
 ### Manual installation
 
@@ -64,7 +64,7 @@ You can manually use another bootstrapper to install a new instance of Visual St
 
 Each installation of Visual Studio must have a unique combination of major version, edition, and [update channel](/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1). So, for example (if you had a machine with a lot of disk space), you can install Visual Studio 2022 Enterprise Preview ([preview channel](/visualstudio/productinfo/release-rhythm)) alongside Visual Studio 2022 Enterprise (release channel) alongside Visual Studio 2019 Professional (release channel) alongside Visual Studio 2019 Professional (custom layout channel).
 
-When upgrading from one minor version of Visual Studio to the next, the Visual Studio Installer will, by default, update your current installation to the latest version in that channel. For example, suppose version 17.3.9 was just released by Microsoft to the [Visual Studio 2022 release channel](/visualstudio/productinfo/release-rhythm), the installer will try to replace your current installation of Visual Studio 2022 from the release channel with this latest version on the same channel. 
+When upgrading from one minor version of Visual Studio to the next, the Visual Studio Installer will, by default, update your current installation to the latest version in that channel. For example, if version 17.3.9 was just released by Microsoft to the [Visual Studio 2022 release channel](/visualstudio/productinfo/release-rhythm), then the installer will try to replace your current installation of Visual Studio 2022 from the release channel with this latest version on the same channel. 
 
 ### Manual installation
 
