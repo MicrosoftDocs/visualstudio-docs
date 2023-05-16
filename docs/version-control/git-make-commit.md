@@ -34,7 +34,7 @@ When you stage a change, Visual Studio creates a **Staged Changes** section. Onl
 :::image type="content" source="media/vs-2022/git-commit-message.png" alt-text="The Git commit dialog in Visual Studio 2022.":::
 
 > [!TIP]
-> New in Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-notes): We've made it easier to reference GitHub issues and Azure DevOps work items in commit messages. To learn more, see the "Improved search for related issues and work items" section of the [Git tooling features to enhance productivity](https://devblogs.microsoft.com/visualstudio/git-tooling-preview-features-to-enhance-productivity/#improved-search-for-related-github-issues-and-azure-devops-work-items) blog post.
+> **New in Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-notes)**: We've made it easier to reference GitHub issues and Azure DevOps work items in commit messages. To learn more, see the "Improved search for related issues and work items" section of the [Git tooling features to enhance productivity](https://devblogs.microsoft.com/visualstudio/git-tooling-preview-features-to-enhance-productivity/#improved-search-for-related-github-issues-and-azure-devops-work-items) blog post.
 
 Changes can also be unstaged by clicking the **–** (minus) button. The equivalent command for this action is `git reset <file_path>` to unstage a single file or `git reset <directory_path>` to unstage all the files in a directory.
 
