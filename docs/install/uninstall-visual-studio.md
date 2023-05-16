@@ -2,7 +2,7 @@
 title: Uninstall or remove Visual Studio
 titleSuffix: ''
 description: Learn how to uninstall or remove Visual Studio, step-by-step.
-ms.date: 01/25/2023
+ms.date: 5/16/2023
 ms.custom: vs-acquisition
 ms.topic: how-to
 f1_keywords:
@@ -36,7 +36,7 @@ This page walks you through uninstalling Visual Studio, our integrated suite of 
      > [!NOTE]
      > You can also find the Visual Studio Installer in the following location:
      >
-     > `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
+     > `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`
 
     You might have to update the installer before continuing. If so, follow the prompts.
 
@@ -73,7 +73,7 @@ To remove all installations of Visual Studio 2019, and the Visual Studio Install
      > [!NOTE]
      > You can also find the Visual Studio Installer in the following location:
      >
-     > `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
+     > `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`
 
     You might have to update the installer before continuing. If so, follow the prompts.
 

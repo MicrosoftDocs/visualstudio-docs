@@ -2,7 +2,7 @@
 title: Repair Visual Studio
 titleSuffix: ''
 description: Learn how to repair an installation of Visual Studio.
-ms.date: 11/28/2022
+ms.date: 5/16/2023
 ms.custom: vs-acquisition
 ms.topic: how-to
 author: anandmeg
@@ -46,7 +46,7 @@ Use repair if you're having issues with:
      > [!NOTE]
      > You can also find the Visual Studio Installer in the following location:
      >
-     > `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
+     > `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`
 
     You might have to update the installer before continuing. If so, follow the prompts.
 
@@ -70,7 +70,7 @@ Use repair if you're having issues with:
      ![Screenshot showing the result of a Start menu search for the Visual Studio Installer.](media/vs-2022/vs-installer.png "Search for the Visual Studio Installer")
 
     You can also find the Visual Studio Installer in the following location:
-    `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
+    `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`
 
     You might be prompted to update the Visual Studio Installer before continuing. If so, follow the prompts.
 
