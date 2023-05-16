@@ -404,7 +404,7 @@ MSBuild 16.7 and higher define several functions for handling [TargetFramework a
 |`GetTargetFrameworkVersion(string targetFramework, int versionPartCount)`|Parse the TargetFrameworkVersion from the TargetFramework.|
 |`GetTargetPlatformIdentifier(string targetFramework)`|Parse the TargetPlatformIdentifier from the TargetFramework.|
 |`GetTargetPlatformVersion(string targetFramework, int versionPartCount)`|Parse the TargetPlatformVersion from the TargetFramework.|
-|`IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)`|Return 'True' if the candidate target framework is compatible with this target framework and false otherwise.|
+|`IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)`|Return 'True' if the candidate target framework (second argument) is compatible with the target framework indicated by the first argument, and false otherwise.|
 
 The `versionPartCount` parameter of `GetTargetFrameworkVersion` and `GetTargetPlatformVersion` has a default value of 2.
 
@@ -419,6 +419,8 @@ The following example shows how these functions are used.
         <Value3>$([MSBuild]::GetTargetPlatformIdentifier('net5.0-windows7.0'))</Value3>
         <Value4>$([MSBuild]::GetTargetPlatformVersion('net5.0-windows7.0'))</Value4>
         <Value5>$([MSBuild]::IsTargetFrameworkCompatible('net5.0-windows', 'net5.0'))</Value5>
+        <Value6>$([MSBuild]::IsTargetFrameworkCompatible('net5.0', 'net6.0'))</Value6>
+        <Value7>$([MSBuild]::IsTargetFrameworkCompatible('net5.0', 'net8.0'))</Value7>
     </PropertyGroup>
 
     <Target Name="MyTarget">
@@ -427,6 +429,8 @@ The following example shows how these functions are used.
         <Message Text="Value3 = $(Value3)" />
         <Message Text="Value4 = $(Value4)" />
         <Message Text="Value5 = $(Value5)" />
+        <Message Text="Value6 = $(Value6)" />
+        <Message Text="Value7 = $(Value7)" />
     </Target>
 </Project>
 ```
@@ -437,6 +441,8 @@ Value2 = 5.0
 Value3 = windows
 Value4 = 7.0
 Value5 = True
+Value6 = False
+Value7 = False
 ```
 
 ## MSBuild version-comparison functions
