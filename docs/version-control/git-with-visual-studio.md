@@ -86,7 +86,7 @@ To personalize your Git settings at a repository level as well as at a global le
 
 :::image type="content" source="media/git-options-settings.png" alt-text="The Options dialog box where you can choose personalization and customization settings in Visual Studio IDE.":::
 
-### Performance and productivity enhancements
+## Performance & productivity enhancements
 
 When it comes to the integrated Git tooling within Visual Studio, we continue to iterate on performance and productivity enhancements. Here are a few notable updates:
 
