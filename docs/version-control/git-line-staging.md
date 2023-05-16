@@ -16,13 +16,13 @@ monikerRange: vs-2022
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Line-staging support, also known as [interactive staging](https://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging), is available in Visual Studio 2022 [version 17.3](/visualstudio/releases/2022/release-notes-v17.3). Line-staging lets you stage chunks of changes in your files right from the code editor. Line staging can also be helpful when you want to split changes across different commits.
+Line-staging support, also known as [interactive staging](https://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging), is available in Visual Studio 2022 [version 17.3](/visualstudio/releases/2022/release-notes-v17.3) and later. Line-staging lets you stage chunks of changes in your files right from the code editor. Line staging can also be helpful when you want to split changes across different commits.
 
 :::image type="content" source="media/vs-2022/git-line-staging.png" alt-text="Screenshot of an example of line-staging support in Visual Studio 2022." lightbox="media/vs-2022/git-line-staging.png":::
 
-And, new in Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-notes/), you can use the hover option to unstage changes, line by line. 
+Starting with Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-notes/), you can use the hover option to also *unstage* changes, line by line.  
 
-:::image type="content" source="media/vs-2022/git-line-unstaging.png" alt-text="Screenshot of an example of how to unstage lines in Visual Studio 2022.":::
+:::image type="content" source="media/vs-2022/git-line-unstaging.png" alt-text="Screenshot of an example of how to unstage changes in Visual Studio 2022.":::
 
 ## Color margin support
 
