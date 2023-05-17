@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 7f4399d8-41da-41e5-a666-acc34958b8c0
-ms.date: 07/12/2022
+ms.date: 03/28/2023
 ms.topic: conceptual
 description:  Details on what subscriptions are offered, what rules apply, and how many subscriptions are offered in MPN.
 ---
@@ -61,9 +61,9 @@ The Visual Studio Professional (MPN) subscription doesn't include:
 
 ## Internal use-only restriction
 
-MPN rules stipulate that all software offered as a program benefit can only be used internally. This applies to the software offered for the individual Visual Studio subscribers' use, and the overall MPN software license benefits.
+MPN rules stipulate that all software offered as a program benefit can only be used internally. This rule applies to the software offered for the individual Visual Studio subscribers' use, and the overall MPN software license benefits.
 
-This internal use-only restriction essentially means that partners can't use the software as part of work that they do for parties outside their own organization. Building an app that will be used by partner employees only is fine, but building an app that is part of a client project isn't allowed.
+This internal use-only restriction essentially means that partners can't use the software as part of work that they do for parties outside their own organization. Building an app for use by partner employees only is fine, but building an app that is part of a client project isn't allowed.
 
 ## Sign-in required with Visual Studio
 
@@ -79,7 +79,7 @@ With Visual Studio subscriptions offered via MPN, the licensed user must sign in
 ## See also
 
 + [Visual Studio documentation](/visualstudio/)
-+ [Azure DevOps documentation](/azure/devops/)
++ [Azure DevOps Services documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
 

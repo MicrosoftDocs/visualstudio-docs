@@ -1,5 +1,5 @@
 ---
- title: Remote debugger download
+title: Remote debugger download
  description: Download links for the remote debugger
  services: ""
  author: mikejo5000
@@ -13,8 +13,8 @@
 On the remote device or server that you want to debug on, rather than the Visual Studio machine, download and install the correct version of the remote tools from the links in the following table.
 
 - Download the most recent remote tools for your version of Visual Studio. The latest remote tools version is compatible with earlier Visual Studio versions, but earlier remote tools versions aren't compatible with later Visual Studio versions. (For example, if you are using Visual Studio 2019, download the latest update of the remote tools for Visual Studio 2019. In this scenario, do not download the remote tools for Visual Studio 2022.)
-- Download the remote tools with the same architecture as the machine you're installing them on. For example, if you want to debug a 32-bit app on a remote computer running a 64-bit operating system, install the 64-bit remote tools.
-
+- Download the remote tools with the same architecture as the machine you're installing them on. For example, if you want to debug x86 applications on a remote computer running an x64 operating system, install the x64 remote tools. To debug x86, ARM, or x64 applications on an ARM64 operating system, install the ARM64 remote tools.
+   
 ::: moniker range=">=vs-2022"
 
 |Version|Link|Notes|
@@ -42,6 +42,9 @@ On the remote device or server that you want to debug on, rather than the Visual
 
 You can run the remote debugger by copying *msvsmon.exe* to the remote computer, rather than installing the remote tools. However, the Remote Debugger Configuration Wizard (*rdbgwiz.exe*) is available only when you install the remote tools. You may need to use the wizard for configuration if you want to run the remote debugger as a service. For more information, see [(Optional) Configure the remote debugger as a service](../../debugger/remote-debugging.md#bkmk_configureService).
 
->[!NOTE]
->- To debug Windows 10 or later apps on ARM devices, use ARM64, which is available with the latest version of the remote tools.
->- To debug Windows 10 apps on Windows RT devices, use ARM, which is available only in the Visual Studio 2015 remote tools download.
+> [!NOTE]
+> - To debug Windows 10 or later apps on ARM devices, use ARM64, which is available with the latest version of the remote tools.
+> - To debug Windows 10 apps on Windows RT devices, use ARM, which is available only in the Visual Studio 2015 remote tools download.
+> - To debug x64 apps on an ARM64 operating system, run the x64 msvsmon.exe that is installed with the ARM64 remote tools.
+
+

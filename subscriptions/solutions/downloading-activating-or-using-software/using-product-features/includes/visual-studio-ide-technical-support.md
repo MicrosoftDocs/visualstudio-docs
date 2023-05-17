@@ -5,7 +5,7 @@ ms.topic: include
 ms.assetid: 4fa47dc5-3791-45c8-afba-9e01693ce45a
 author: evanwindom
 ms.author: amast
-ms.date: 04/16/2021
+ms.date: 05/01/2023
 user.type: subscriber
 tags: download, activate, licensing
 subscription.type: vl, cloud, retail, partner
@@ -20,10 +20,10 @@ Visual Studio Subscriptions support provides assistance with sales, subscription
 
 - Review tutorials, troubleshooting guides, and helpful resources within [Visual Studio IDE documentation](https://learn.microsoft.com/visualstudio/ide/). 
 
-- Search the online [Developer Community](https://developercommunity.visualstudio.com/) and get expert answers from a community supported forum. You can search keywords and read, vote, comment all without logging in. If you don’t find what you need with a search, you can suggest a feature or report a problem from the navigation menu. To submit a feature request, you’ll need to sign in to fill out the report and post. To report a problem or bug, a running instance of Visual Studio is required to report feedback.  
+- Search the online [Developer Community](https://developercommunity.visualstudio.com/) and get expert answers from a community supported forum. You can search keywords and read, vote, comment all without logging in. If you don’t find what you need with a search, you can suggest a feature or report a problem from the navigation menu. To submit a feature request, you need to sign in to fill out the report and post. To report a problem or bug, a running instance of Visual Studio is required to report feedback.  
 
 - Search the Stack Overflow [public Q&A tagged with visual-studio](https://stackoverflow.com/questions/tagged/visual-studio?tab=Newest) to get answers to already asked questions or sign up for an account and ask a new question.  
 
 ## Technical support incidents 
 
-If you’ve exhausted the options above and still don’t have an answer, activate a Visual Studio technical support ticket by visiting the [subscriptions portal benefits page](https://my.visualstudio.com/Benefits) and clicking on the Technical Support benefit tile in the Support tab. Technical support isn't available with all subscriptions. Read more about the [Technical Support benefit](https://learn.microsoft.com/visualstudio/subscriptions/vs-tech-support). [Compare Visual Studio subscription benefits](https://visualstudio.microsoft.com/vs/benefits/#azure?cat=visual-studio-enterprise-subscription) to find out what is included with your subscription.
+If you’ve exhausted these options and still don’t have an answer, submit a Visual Studio technical support ticket.  Visit the [subscriptions portal benefits page](https://my.visualstudio.com/Benefits) and select the Technical Support benefit tile in the Support tab. Technical support isn't available with all subscriptions. Read more about the [Technical Support benefit](https://learn.microsoft.com/visualstudio/subscriptions/vs-tech-support). [Compare Visual Studio subscription benefits](https://visualstudio.microsoft.com/vs/benefits/#azure?cat=visual-studio-enterprise-subscription) to find out what is included with your subscription.

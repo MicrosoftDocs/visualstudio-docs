@@ -2,7 +2,7 @@
 title: Change themes, fonts, text, and contrast for accessibility
 description: Learn how to change Visual Studio color themes, font colors, text sizes, extra-contrast colors, and more for ease of use and accessibility concerns.
 titleSuffix: ''
-ms.date: 04/15/2022
+ms.date: 04/21/2023
 ms.topic: how-to
 ms.custom: contperf-fy22q3
 helpviewer_keywords:
@@ -41,11 +41,11 @@ Here's how to change the color theme of the IDE frame and the tool windows in Vi
 
 ::: moniker range=">=vs-2022"
 
-1. On the menu bar, choose **Tools** > **Options**.
+1. On the menu bar, select **Tools** > **Options**.
 
-1. In the options list, choose **Environment** > **General**.
+1. In the options list, select **Environment** > **General**.
 
-1. In the **Color theme** list, choose either the default **Dark** theme, the **Light** theme, the **Blue** theme, or the **Blue (Extra Contrast)** theme.
+1. In the **Color theme** list, select either the default **Dark** theme, the **Light** theme, the **Blue** theme, or the **Blue (Extra Contrast)** theme.
 
    You can also choose to use the theme that Windows uses by selecting **Use system setting**.
 
@@ -61,11 +61,11 @@ Here's how to change the color theme of the IDE frame and the tool windows in Vi
 
 ::: moniker range="<=vs-2019"
 
-1. On the menu bar, choose **Tools** > **Options**.
+1. On the menu bar, select **Tools** > **Options**.
 
-1. In the options list, choose **Environment** > **General**.
+1. In the options list, select **Environment** > **General**.
 
-1. In the **Color theme** list, choose either the default **Blue** theme, the **Light** theme, the **Dark** theme, or the **Blue (Extra Contrast)** theme.
+1. In the **Color theme** list, select either the default **Blue** theme, the **Light** theme, the **Dark** theme, or the **Blue (Extra Contrast)** theme.
 
    ![Screenshot of the Options dialog box to change the color theme](media/fonts-colors-theme.png "Screenshot of the Options dialog box that you can use to change the color theme.")
 
@@ -87,16 +87,16 @@ You can change the font and text size for all the IDE frame and tool windows, or
 
 ::: moniker range=">=vs-2022"
 
-1. On the menu bar, choose **Tools** > **Options**.
+1. On the menu bar, select **Tools** > **Options**.
 
-1. In the options list, choose **Environment** > **Fonts and Colors**.
+1. In the options list, select **Environment** > **Fonts and Colors**.
 
-1. In the **Show settings for** list, choose **Environment**.
+1. In the **Show settings for** list, select **Environment**.
 
    ![Screenshot of the Options dialog box where you change the font and text size in the IDE](media/vs-2022/fonts-colors-text-environment.png "Screenshot of the Options dialog box where you change the font and text size in the IDE.")
 
     > [!NOTE]
-    > If you want to change the font for tool windows only, in the **Show settings for** list, choose **All Text Tool Windows**.
+    > If you want to change the font for tool windows only, in the **Show settings for** list, select **All Text Tool Windows**.
 
 1. Modify the **Font** and **Size** options to change the font and text size for the IDE.
 
@@ -106,16 +106,16 @@ You can change the font and text size for all the IDE frame and tool windows, or
 
 ::: moniker range="<=vs-2019"
 
-1. On the menu bar, choose **Tools** > **Options**.
+1. On the menu bar, select **Tools** > **Options**.
 
-1. In the options list, choose **Environment** > **Fonts and Colors**.
+1. In the options list, select **Environment** > **Fonts and Colors**.
 
-1. In the **Show settings for** list, choose **Environment**.
+1. In the **Show settings for** list, select **Environment**.
 
    ![Screenshot of the Options dialog box to change fonts and colors in the IDE](media/fonts-colors-environment.png "Screenshot of the Options dialog box to change fonts and colors in the IDE.")
 
     > [!NOTE]
-    > If you want to change the font for tool windows only, in the **Show settings for** list, choose **All Text Tool Windows**.
+    > If you want to change the font for tool windows only, in the **Show settings for** list, select **All Text Tool Windows**.
 
 1. Modify the **Font** and **Size** options to change the font and text size for the IDE.
 
@@ -127,9 +127,9 @@ You can change the font and text size for all the IDE frame and tool windows, or
 
 ::: moniker range=">=vs-2022"
 
-1. On the menu bar, choose **Tools** > **Options**.
+1. On the menu bar, select **Tools** > **Options**.
 
-1. In the options list, choose **Environment** > **Fonts and Colors**.
+1. In the options list, select **Environment** > **Fonts and Colors**.
 
 1. In **Show settings for** list, select **Text Editor**.
 
@@ -143,9 +143,9 @@ You can change the font and text size for all the IDE frame and tool windows, or
 
 ::: moniker range="<=vs-2019"
 
-1. On the menu bar, choose **Tools** > **Options**.
+1. On the menu bar, select **Tools** > **Options**.
 
-1. In the options list, choose **Environment** > **Fonts and Colors**.
+1. In the options list, select **Environment** > **Fonts and Colors**.
 
 1. In **Show settings for** list, select **Text Editor**.
 
@@ -161,7 +161,7 @@ For more information about how to change fonts and colors for accessibility, see
 
 ## Set language-specific editor options
 
-You can make a variety of changes to the code editor to suit your programming language of choice. For example, you can change [brace formatting](reference/options-text-editor-csharp-formatting.md#new-lines-page) in C# to appear inline or on a new line, and more. To learn how to customize the code editor, see [Set language-specific editor options](reference/setting-language-specific-editor-options.md).
+You can make various changes to the code editor to suit your programming language of choice. For example, you can change [brace formatting](reference/options-text-editor-csharp-formatting.md#new-lines-page) in C# to appear inline or on a new line, and more. To learn how to customize the code editor, see [Set language-specific editor options](reference/setting-language-specific-editor-options.md).
 
 ## Set accessibility options
 
@@ -208,7 +208,7 @@ Use either of the following procedures to toggle the Windows high contrast optio
 
 - In Windows or in any Microsoft application, press the **Left Alt**+**Left Shift**+**PrtScn** keys.
 
-- In Windows, choose **Start** > **Settings** > **Ease of Access**. Then, under the **Vision** section in Windows 10 and later, choose **High contrast**.
+- In Windows, select **Start** > **Settings** > **Ease of Access**. Then, under the **Vision** section in Windows 10 and later, select **High contrast**.
 
     > [!WARNING]
     > The Windows high contrast setting affects all applications and UI on the computer.
@@ -217,9 +217,9 @@ Use either of the following procedures to toggle the Windows high contrast optio
 
 Use the following procedures to toggle the Visual Studio extra contrast option:
 
-1. On the menu bar in Visual Studio, choose **Tools** > **Options**, and then, in the options list, choose **Environment** > **General**.
+1. On the menu bar in Visual Studio, select **Tools** > **Options**, and then, in the options list, select **Environment** > **General**.
 
-1. In the **Color theme** drop-down list, choose the **Blue (Extra Contrast)** theme, and then choose **OK**.
+1. In the **Color theme** drop-down list, select the **Blue (Extra Contrast)** theme, and then select **OK**.
 
 > [!TIP]
 > If there is an accessibility option for colors or fonts that you think might be useful but isn't currently available in Visual Studio, please let us know by selecting **Suggest a feature** in the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8). For more information about this forum and how it works, see the [Suggest a feature](../ide/suggest-a-feature.md) page.
@@ -234,12 +234,12 @@ You can also customize the default keyboard shortcuts available with Visual Stud
 - [How to use the keyboard exclusively](reference/how-to-use-the-keyboard-exclusively.md)
 - [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md)
 
-Visual Studio also includes auto-completion for methods and parameters; for more information, see [IntelliSense in Visual Studio](using-intellisense.md).
+Visual Studio also includes autocompletion for methods and parameters; for more information, see [IntelliSense in Visual Studio](using-intellisense.md).
 
 There are more ways to customize Visual Studio to be more accessible to you. For example, you can change the behavior of pop-up windows, text-based tool windows, toolbar buttons, margin indicators, and more.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described here, which can vary depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](environment-settings.md#reset-settings).
+> The dialog boxes and menu commands you see might differ from those described here, which can vary depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](environment-settings.md#reset-settings).
 
 #### Change the behavior of pop-up windows
 
@@ -247,9 +247,9 @@ Visual Studio displays pop-up windows in the editor. These pop-up windows includ
 
 Here's how to turn off the pop-up windows:
 
-1. From the **Tools** menu, choose **Options**.
+1. From the **Tools** menu, select **Options**.
 
-1. Choose **Text Editor** > **All Languages** > **General**.
+1. Select **Text Editor** > **All Languages** > **General**.
 
 1. Clear the **Auto list members** and **Parameter information** checkboxes.
 
@@ -259,23 +259,23 @@ You can rearrange the windows in the integrated development environment (IDE) to
 
 You can change the settings for text-based tool windows, such as the **Command** window, **Immediate** window, and **Output** window by using **Tools** > **Options** > **Environment** > **Fonts and Colors**.
 
-When you select **[All Text Tool Windows]** in the **Show settings for** drop-down list, the default setting is listed as **Default** in the **Item foreground** and **Item background** drop-down lists. Choose the **Custom** button to change these settings.
+When you select **[All Text Tool Windows]** in the **Show settings for** drop-down list, the default setting is listed as **Default** in the **Item foreground** and **Item background** drop-down lists. Select the **Custom** button to change these settings.
 
 You can also change the settings for how text is displayed in the editor. Here's how.
 
-1. From the **Tools** menu, choose **Options**.
+1. From the **Tools** menu, select **Options**.
 
-1. Choose **Environment** > **Fonts and Colors**.
+1. Select **Environment** > **Fonts and Colors**.
 
 1. Select an option on the **Show settings for** drop-down menu.
 
-    To change the font size for text in an editor, choose **Text Editor**.
+    To change the font size for text in an editor, select **Text Editor**.
 
-    To change the font size for text in text-based tool windows, choose **[All Text Tool Windows]**.
+    To change the font size for text in text-based tool windows, select **[All Text Tool Windows]**.
 
-    To change the font size for ToolTip text in an editor, choose **Editor Tooltip**.
+    To change the font size for ToolTip text in an editor, select **Editor Tooltip**.
 
-    To change the font size for text in statement completion pop-ups, choose **Statement Completion**.
+    To change the font size for text in statement completion pop-ups, select **Statement Completion**.
 
 1. From **Display items**, select **Plain Text**.
 
@@ -284,25 +284,25 @@ You can also change the settings for how text is displayed in the editor. Here's
 1. In **Size**, select a new font size.
 
     > [!TIP]
-    > To reset the text size for text-based tool windows and editors, choose **Use Defaults**.
+    > To reset the text size for text-based tool windows and editors, select **Use Defaults**.
 
-7. Choose **OK**.
+7. Select **OK**.
 
 #### Change the colors for text, margin indicators, white space, and code elements
 
 You can choose to change the default colors for text, margin indicators, white space, and code elements in the editor. Here's how.
 
-1. From the **Tools** menu, choose **Options**.
+1. From the **Tools** menu, select **Options**.
 
-1. In the **Environment** folder, choose **Fonts and Colors**.
+1. In the **Environment** folder, select **Fonts and Colors**.
 
-1. In **Show settings for**, choose **Text Editor**.
+1. In **Show settings for**, select **Text Editor**.
 
 1. From **Display items**, select an item whose display you need to change, such as **Plain Text**, **Indicator Margin**, **Visible White Space**, **HTML Attribute Name**, or **XML Attribute**.
 
 1. Select display settings from the following options: **Item foreground**, **Item background**, and **Bold**.
 
-1. Choose **OK**.
+1. Select **OK**.
 
 > [!TIP]
 > To use high contrast colors for all application windows on your operating system, press **Left Alt**+**Left Shift**+**PrtScn**. If Visual Studio is open, close and then reopen it to fully implement high contrast colors.
@@ -313,23 +313,23 @@ To improve toolbar usability and accessibility, you can add text to toolbar butt
 
 ###### To assign text to toolbar buttons
 
-1. From the **Tools** menu, choose **Customize**.
+1. From the **Tools** menu, select **Customize**.
 
 1. In the **Customize** dialog box, select the **Commands** tab.
 
-1. Select **Toolbar**, and then choose the toolbar name that contains the button you intend to display text for.
+1. Select **Toolbar**, and then select the toolbar name that contains the button you intend to display text for.
 
 1. In the list, select the command you intend to change.
 
-1. Choose **Modify Selection**.
+1. Select **Modify Selection**.
 
-1. Choose **Image and Text**.
+1. Select **Image and Text**.
 
 ###### To modify the displayed text in a button
 
-1. Re-select **Modify Selection**.
+1. Reselect **Modify Selection**.
 
-1. Adjacent to In **Name**, insert provide a new caption for the selected button.
+1. In **Name**, enter a new caption for the selected button.
 
 ### Accessibility support
 
@@ -339,5 +339,5 @@ The accessibility information included on this page might apply only to users wh
 
 ## See also
 
-- [Features of the Visual Studio code editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Features of the code editor in Visual Studio](../ide/writing-code-in-the-code-and-text-editor.md)
 - [Personalize the Visual Studio IDE and the editor](../ide/quickstart-personalize-the-ide.md)

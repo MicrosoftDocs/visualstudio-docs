@@ -903,6 +903,9 @@ The Visual Studio debugger is a powerful tool. The debugger can step through you
 3. Look at the **Autos** window.
 
    The Autos window is similar to the **Locals** window, but shows the variables immediately preceding and following the current line of code where your app is paused.
+   
+   > [!NOTE] 
+   > If you don't see the Autos window, select **Debug** > **Windows** > **Autos** to open it.
 
 Next, execute code in the debugger one statement at a time, which is called *stepping*.
 

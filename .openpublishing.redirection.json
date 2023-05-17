@@ -1,6 +1,655 @@
 {
   "redirections": [
-        {
+    {
+      "source_path": "docs/ide/dotfuscator/capabilities.md",
+      "redirect_url": "/visualstudio/ide/dotfuscator/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/dotfuscator/install.md",
+      "redirect_url": "/visualstudio/ide/dotfuscator/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/dotfuscator/register.md",
+      "redirect_url": "/visualstudio/ide/dotfuscator/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/dotfuscator/upgrades.md",
+      "redirect_url": "/visualstudio/ide/dotfuscator/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/dotfuscator/upgrade-from-5.md",
+      "redirect_url": "/visualstudio/ide/dotfuscator/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/sharepoint-development-samples-and-walkthroughs.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/sharepoint-development-samples-and-walkthroughs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/sharepoint-development-samples.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/sharepoint-development-samples",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/sharepoint-development-walkthroughs.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/sharepoint-development-walkthroughs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/extending-the-sharepoint-tools-in-visual-studio.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/extending-the-sharepoint-tools-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/extending-the-sharepoint-project-system.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/extending-the-sharepoint-project-system",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/defining-custom-sharepoint-project-item-types.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/defining-custom-sharepoint-project-item-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-define-a-sharepoint-project-item-type.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-define-a-sharepoint-project-item-type",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-add-a-shortcut-menu-item-to-a-custom-sharepoint-project-item-type.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-add-a-shortcut-menu-item-to-a-custom-sharepoint-project-item-type",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-add-a-property-to-a-custom-sharepoint-project-item-type.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-add-a-property-to-a-custom-sharepoint-project-item-type",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/extending-sharepoint-project-items.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/extending-sharepoint-project-items",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-create-a-sharepoint-project-item-extension.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-create-a-sharepoint-project-item-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-add-a-shortcut-menu-item-to-a-sharepoint-project-item-extension.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-add-a-shortcut-menu-item-to-a-sharepoint-project-item-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-add-a-property-to-a-sharepoint-project-item-extension.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-add-a-property-to-a-sharepoint-project-item-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/walkthrough-extending-a-sharepoint-project-item-type.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/walkthrough-extending-a-sharepoint-project-item-type",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/extending-sharepoint-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/extending-sharepoint-projects",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-create-a-sharepoint-project-extension.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-create-a-sharepoint-project-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-add-a-shortcut-menu-item-to-sharepoint-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-add-a-shortcut-menu-item-to-sharepoint-projects",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-add-a-property-to-sharepoint-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-add-a-property-to-sharepoint-projects",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/walkthrough-creating-a-sharepoint-project-extension.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/walkthrough-creating-a-sharepoint-project-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/extending-sharepoint-packaging-and-deployment.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/extending-sharepoint-packaging-and-deployment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-run-code-when-deployment-steps-are-executed.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-run-code-when-deployment-steps-are-executed",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-run-code-when-a-sharepoint-project-is-deployed-or-retracted.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-run-code-when-a-sharepoint-project-is-deployed-or-retracted",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-handle-deployment-conflicts.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-handle-deployment-conflicts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-create-custom-feature-and-package-validation-rules-for-sharepoint-solutions.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-create-custom-feature-and-package-validation-rules-for-sharepoint-solutions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/saving-data-in-extensions-of-the-sharepoint-project-system.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/saving-data-in-extensions-of-the-sharepoint-project-system",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/converting-between-sharepoint-project-system-types-and-other-visual-studio-project-types.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/converting-between-sharepoint-project-system-types-and-other-visual-studio-project-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/extending-the-sharepoint-connections-node-in-server-explorer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-extend-a-sharepoint-node-in-server-explorer.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-extend-a-sharepoint-node-in-server-explorer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-add-a-custom-sharepoint-node-to-server-explorer.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-add-a-custom-sharepoint-node-to-server-explorer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-get-data-for-a-built-in-sharepoint-node-in-server-explorer.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-get-data-for-a-built-in-sharepoint-node-in-server-explorer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/walkthrough-extending-server-explorer-to-display-web-parts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/programming-concepts-and-features-for-sharepoint-tools-extensions.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/programming-concepts-and-features-for-sharepoint-tools-extensions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/calling-into-the-sharepoint-object-models.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/calling-into-the-sharepoint-object-models",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-create-a-sharepoint-command.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-create-a-sharepoint-command",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-execute-a-sharepoint-command.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-execute-a-sharepoint-command",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/using-the-sharepoint-project-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/using-the-sharepoint-project-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-retrieve-the-sharepoint-project-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-retrieve-the-sharepoint-project-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/associating-custom-data-with-sharepoint-tools-extensions.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/associating-custom-data-with-sharepoint-tools-extensions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/debugging-extensions-for-the-sharepoint-tools-in-visual-studio.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/debugging-extensions-for-the-sharepoint-tools-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/reference-sharepoint-tools-extensibility.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/reference-sharepoint-tools-extensibility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/sharepoint-project-item-schema-reference.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/sharepoint-project-item-schema-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/extensiondata-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/extensiondata-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/extensiondataitem-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/extensiondataitem-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/featureproperties-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/featureproperties-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/featureproperty-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/featureproperty-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/files-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/files-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/projectitem-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/projectitem-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/projectitemfile-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/projectitemfile-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/projectitemfolder-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/projectitemfolder-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/projectoutputfile-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/projectoutputfile-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/safecontrol-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/safecontrol-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/safecontrols-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/safecontrols-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/api-reference-sharepoint-tools-extensibility.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/api-reference-sharepoint-tools-extensibility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-add-a-resource-file.md",
+      "redirect_url": "/visualstudio/sharepoint/localizing-sharepoint-solutions#add-a-resource-file",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-localize-a-feature.md",
+      "redirect_url": "/visualstudio/sharepoint/localizing-sharepoint-solutions#localize-features",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-localize-aspx-markup.md",
+      "redirect_url": "/visualstudio/sharepoint/localizing-sharepoint-solutions#localize-aspx-page-markup",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-localize-code.md",
+      "redirect_url": "/visualstudio/sharepoint/localizing-sharepoint-solutions#localize-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/msbuild/msbuild-advanced-concepts.md",
+      "redirect_url": "/visualstudio/msbuild/msbuild-concepts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/msbuild/logging-in-msbuild.md",
+      "redirect_url": "/visualstudio/msbuild/obtaining-build-logs-with-msbuild",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/msbuild/file-tracking.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/file-tracking",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/msbuild/resumetracking.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/resumetracking",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/msbuild/endtrackingcontext.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/endtrackingcontext",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/msbuild/setthreadcount.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/setthreadcount",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/msbuild/starttrackingcontext.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/starttrackingcontext",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/msbuild/starttrackingcontextwithroot.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/starttrackingcontextwithroot",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/msbuild/stoptrackingandcleanup.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/stoptrackingandcleanup",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/msbuild/suspendtracking.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/suspendtracking",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/msbuild/writealltlogs.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/writealltlogs",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/msbuild/writecontexttlogs.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/msbuild/writecontexttlogs",
+      "redirect_document_id": false
+    },
+    {            
+      "source_path": "docs/ide/understanding-build-platforms.md",
+      "redirect_url": "/visualstudio/ide/how-to-configure-projects-to-target-platforms",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/0x-2x-4x-msaa-variants.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/0x-2x-4x-msaa-variants",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/16bpp-render-target-format-variant.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/16bpp-render-target-format-variant",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/1x1-viewport-size-variant.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/1x1-viewport-size-variant",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/addmessage.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/addmessage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/bc-texture-compression-variant.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/bc-texture-compression-variant",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/begincapture.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/begincapture",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/capturecurrentframe.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/capturecurrentframe",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/capturing-graphics-information.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/capturing-graphics-information",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/command-line-capture-tool.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/command-line-capture-tool",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/copy-programmatic-capture.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/copy-programmatic-capture",
+      "redirect_document_id": false
+    },    {
+      "source_path": "docs/debugger/graphics/dont-save-vsglog-to-temp.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/dont-save-vsglog-to-temp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/endcapture.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/endcapture",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/getting-started-with-visual-studio-graphics-diagnostics.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/getting-started-with-visual-studio-graphics-diagnostics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-api-and-memory-statistics.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-api-and-memory-statistics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-diagnostics-examples.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-diagnostics-examples",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-event-call-stack.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-event-call-stack",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-event-list.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-event-list",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-frame-analysis.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-frame-analysis",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-frame-validation.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-frame-validation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-log-document.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-log-document",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-object-table.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-object-table",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-pipeline-stages.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-pipeline-stages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-pixel-history.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-pixel-history",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/graphics-state.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/graphics-state",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/half-quarter-texture-dimensions-variant.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/half-quarter-texture-dimensions-variant",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/hlsl-shader-debugger.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/hlsl-shader-debugger",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/how-to-change-the-graphics-diagnostics-playback-machine.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/how-to-change-the-graphics-diagnostics-playback-machine",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/init.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/init",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/mip-map-generation-variant.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/mip-map-generation-variant",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/overview-of-visual-studio-graphics-diagnostics.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/overview-of-visual-studio-graphics-diagnostics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/point-bilinear-trilinear-and-anisotropic-texture-filtering-variants",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/reference-programmatic-capture.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/reference-programmatic-capture",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/togglehud.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/togglehud",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/uninit.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/uninit",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/vsg-default-run-filename.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/vsg-default-run-filename",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/vsg-nodefault-instance.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/vsg-nodefault-instance",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/vsgdbg-class.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/vsgdbg-class",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/vsgdbg-tilde-vsgdbg-destructor.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/vsgdbg-tilde-vsgdbg-destructor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/vsgdbg-vsgdbg-constructor.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/vsgdbg-vsgdbg-constructor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/walkthrough-capturing-graphics-information-programmatically.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-capturing-graphics-information-programmatically",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/walkthrough-capturing-graphics-information.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-capturing-graphics-information",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/walkthrough-debugging-rendering-errors-due-to-shading.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-debugging-rendering-errors-due-to-shading",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/walkthrough-missing-objects-due-to-device-state.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-missing-objects-due-to-device-state",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/walkthrough-missing-objects-due-to-misconfigured-pipeline.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-missing-objects-due-to-misconfigured-pipeline",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/walkthrough-missing-objects-due-to-vertex-shading.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-missing-objects-due-to-vertex-shading",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/graphics/walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/walkthrough-using-graphics-diagnostics-to-debug-a-compute-shader",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/troubleshooting-breakpoints.md",
       "redirect_url": "/troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints",
       "redirect_document_id": false
@@ -69,6 +718,22 @@
       "source_path": "docs/install/troubleshooting-network-related-errors-in-visual-studio.md",
       "redirect_url": "/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/install/visual-studio-build-numbers-and-release-dates.md",
+      "redirect_url": "/visualstudio/releases/2022/release-history#release-dates-and-build-numbers",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2022"
+    ]
+    },
+    {
+      "source_path": "docs/install/visual-studio-build-numbers-and-release-dates.md",
+      "redirect_url": "/visualstudio/releases/2019/history#release-dates-and-build-numbers",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2019"
+    ]
     },
     {
       "source_path": "docs/msbuild/troubleshooting-dotnet-framework-targeting-errors.md",
@@ -5526,6 +6191,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/reference/connected-experiences.md",
+      "redirect_url": "/visualstudio/ide/visual-studio-experience-improvement-program",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/install/index.md",
       "redirect_url": "/visualstudio/install/install-visual-studio",
       "redirect_document_id": false
@@ -5553,6 +6223,11 @@
     {
       "source_path": "docs/install/install-vs-inconsistent-quality-network.md",
       "redirect_url": "/visualstudio/install/create-an-offline-installation-of-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/install/update-servicing-baseline.md",
+      "redirect_url": "https://aka.ms/vs/admin/feedback",
       "redirect_document_id": false
     },
     {
