@@ -1,6 +1,6 @@
 ---
 title: Inside Visual Studio Extensibility SDK
-description: Description of components that make up the SDK.
+description: Learn about the components that make up the VisualStudio.Extensibility SDK.
 ms.topic: conceptual
 ms.date: 3/31/2023
 ms.author: maiak
@@ -12,7 +12,7 @@ ms.technology: vs-ide-sdk
 
 # Inside Visual Studio Extensibility SDK
 
-The new Visual Studio Extensibility SDK is built on top of brokered services infrastructure that was introduced in Visual Studio 2019. It primarily involves of:
+The new Visual Studio Extensibility SDK is built on top of brokered services infrastructure that was introduced in Visual Studio 2019. It primarily consists of:
 
 * A `VisualStudioExtensibility` object that acts as the entry point for the extensibility API. This object has extension methods on it such as `Views()` or `Languages()` that exposes extensibility points of the IDE.
 
@@ -55,3 +55,7 @@ This package contains the editor related SDK APIs and utilities and is included 
 ### Optional packages
 
 In future previews, we may have NuGet packages that are not included as a required dependency from `Microsoft.VisualStudio.Extensibility.Sdk` package but can be added as needed to provide APIs for certain feature areas such as debugger, source control.
+
+## Next steps
+
+Learn more about VisualStudio.Extensibility by reading [Components of a VisualStudio.Extensibility extension](./extension-anatomy.md).

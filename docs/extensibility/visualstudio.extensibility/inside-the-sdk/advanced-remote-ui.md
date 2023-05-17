@@ -299,3 +299,7 @@ With the code above, the `Color` property value is converted to a `LinearGradien
 *Async command* callbacks (and `INotifyPropertyChanged` callbacks for values updated by the UI through data biding) are raised on random thread pool threads. Callbacks are raised one at a time and won't overlap until the code yields control (using an `await` expression).
 
 This behavior can be changed by passing a [NonConcurrentSynchronizationContext](/dotnet/api/microsoft.visualstudio.threading.nonconcurrentsynchronizationcontext) to the `RemoteUserControl` constructor. In that case, you can use the provided synchronization context for all *async command* and `INotifyPropertyChanged` callbacks related to that control.
+
+## Next steps
+
+Learn more about VisualStudio.Extensibility by reading [Components of a VisualStudio.Extensibility extension](./extension-anatomy.md).
