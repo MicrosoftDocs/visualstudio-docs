@@ -50,7 +50,7 @@ landingContent:
           - text: Editor
             url: ./extension-guides/editor/editor.md
           - text: Output window
-            url: ./extension-guides/outputWindow/outputWindow.md
+            url: ./extension-guides/output-window/output-window.md
           - text: Project
             url: ./extension-guides/project/project.md
           - text: Tool windows

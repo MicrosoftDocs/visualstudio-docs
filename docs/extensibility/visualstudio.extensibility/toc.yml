@@ -34,7 +34,7 @@ items:
 - name: Documents
   href: ./extension-guides/document/documents.md
 - name: Output window
-  href: ./extension-guides/outputWindow/outputWindow.md
+  href: ./extension-guides/output-window/output-window.md
 - name: Projects
   items:
   - name: Project query API
