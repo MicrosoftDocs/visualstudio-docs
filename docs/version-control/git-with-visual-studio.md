@@ -2,7 +2,7 @@
 title: The Git experience in Visual Studio
 titleSuffix: ""
 description: Learn how Git makes source control in Visual Studio more productive.
-ms.date: 05/16/2023
+ms.date: 05/17/2023
 ms.topic: overview
 author: houghj16
 ms.author: tglee
@@ -39,7 +39,7 @@ Not only can you add both [GitHub and GitHub Enterprise accounts to your keychai
 
 If you're new to Git, the [https://git-scm.com/](https://git-scm.com/) website is a good place to start.
 
-:::image type="content" source="media/git-source-control-create-repository.png" alt-text="The Create a Git Repository dialog box in Visual Studio.":::
+:::image type="content" source="media/vs-2022/git-source-control-create-repository.png" alt-text="The Create a Git Repository dialog box in Visual Studio.":::
 
 ## View files in Solution Explorer
 
