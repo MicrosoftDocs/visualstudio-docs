@@ -375,7 +375,7 @@ Update `MyToolWindowContent.xaml` to use the new properties in the data context.
 </DataTemplate>
 ```
 
-![Tool window with two-way binding and a command](remote-ui-commands.gif "Tool window with two-way binding and a command")
+![Tool window with two-way binding and a command.](./media/remote-ui-commands.gif)
 
 ## Understanding asynchronicity in Remote UI
 
@@ -392,7 +392,7 @@ The whole Remote UI communication for this tool window follows these steps:
    - the new value of `Text` is propagated to the data context proxy
    - the text block in the tool window is updated to the new value of `Text` through data binding
 
-![Tool window two-way binding and commands communication](remote-ui-databinding-commands.png "Tool window two-way binding and commands communication")
+![Tool window two-way binding and commands communication.](./media/remote-ui-databinding-commands.png)
 
 ## Using command parameters to avoid race conditions
 

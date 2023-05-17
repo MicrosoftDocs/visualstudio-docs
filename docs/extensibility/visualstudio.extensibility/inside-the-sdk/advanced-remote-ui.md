@@ -141,7 +141,7 @@ One of the most important differences between Remote UI and normal WPF is that a
 
 You can see the effect of this if you click the **Add color** button multiple times in a short time: since each command execution takes 2 seconds, multiple executions occur in parallel and multiple colors will appear in the list together when the 2-second delay is over. This might give the impression to the user that the **Add color** button isn't working.
 
-![Overlapped async command execution](overlapped-async-commands.gif "Overlapped async command execution")
+![Overlapped async command execution.](./media/overlapped-async-commands.gif)
 
 To address this, disable the button while the *async command* is executing. The most straightforward way to do this is to simply set `CanExecute` for the command to false:
 
@@ -231,7 +231,7 @@ In the picture, you can see how every reference type object in the data context 
 
 If you test the extension at this point, notice that when one of the **Remove** buttons is clicked, all **Remove** buttons are disabled:
 
-![Async Command with multiple bindings](async-commands-multiple-bindings.gif "Async Command with multiple bindings")
+![Async Command with multiple bindings.](./media/async-commands-multiple-bindings.gif)
 
 This may be the desired behavior. But, suppose you want only the current button to be disabled and you allow the user to queue multiple colors for removal: we can't use the *async command*'s `RunningCommandsCount` property because we have a single command shared between all the buttons.
 
@@ -259,7 +259,7 @@ The `vs:ExtensibilityUICommands.EventHandlers` attached property allows assignin
 
 In this case, we use `vs:EventHandler` to attach to each button its own separate counter of active command executions. By binding `IsEnabled` to the attached property, only that specific button is disabled when the corresponding color is being removed:
 
-![Async Command with targeted RunningCommandsCount](targeted-counter.gif "Async Command with targeted RunningCommandsCount")
+![Async Command with targeted RunningCommandsCount.](./media/targeted-counter.gif)
 
 ## Use WPF types in the data context
 

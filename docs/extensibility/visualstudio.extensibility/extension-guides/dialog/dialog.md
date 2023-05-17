@@ -31,7 +31,7 @@ This guide is designed to cover the top user scenarios when working with dialogs
 
 Creating a tool window with the new Extensibility Model is as simple as calling the ShowDialogAsync method from the [ShellExtensibility](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.md/#T-Microsoft-VisualStudio-Extensibility-Shell-ShellExtensibility) helpers and passing in your dialog content.
 
-![Screenshot of a Dialog.](Dialog.png)
+![Screenshot of a Dialog.](./media/dialog.png)
 
 ### ShowDialogAsync
 
@@ -71,7 +71,7 @@ For more information on creating a RemoteUserControl, see [Remote UI](./../../in
 
 When your extension shows a dialog, you can provide a custom title string which will be displayed in the dialog's caption region.
 
-![Dialog Title](DialogTitle.png)
+![Screenshot showing a Dialog title.](./media/dialog-title.png)
 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
@@ -89,7 +89,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 When a dialog is shown in the IDE, certain combinations of predefined dialog buttons and default actions can be selected. The predefined button and action combinations can be found in Microsoft.VisualStudio.RpcContracts.Notifications.DialogOption.
 
-![Dialog Button](DialogButton.png)
+![Screenshot of a Dialog button.](./media/dialog-button.png)
 
 Additionally, you can create your own combination of buttons and default actions from:
 
