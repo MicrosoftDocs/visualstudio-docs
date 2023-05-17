@@ -42,7 +42,7 @@ landingContent:
           - text: Commands
             url: ./extension-guides/command/command.md
           - text: Debug visualizers
-            url: ./extension-guides/debuggerVisualizer/debuggerVisualizers.md
+            url: ./extension-guides/debugger-visualizer/debugger-visualizers.md
           - text: Dialogs
             url: ./extension-guides/dialog/dialog.md
           - text: Documents
@@ -54,7 +54,7 @@ landingContent:
           - text: Project
             url: ./extension-guides/project/project.md
           - text: Tool windows
-            url: ./extension-guides/toolWindow/toolWindow.md
+            url: ./extension-guides/tool-window/tool-window.md
           - text: User prompts
             url: ./extension-guides/document/documents.md
 

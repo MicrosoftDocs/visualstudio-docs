@@ -12,7 +12,7 @@ ms.technology: vs-ide-sdk
 
 # Output window overview
 
-The Output window in the Visual Studio IDE is a [Tool Window](./../toolWindow/toolWindow.md) that can be used to deliver status, diagnostics/logging, or any other informational text to the user. Unlike [User Prompts](./../userPrompt/userPrompts.md), which might display a message box, the messages written to the Output window are only displayed if the user has the Output window visible in the IDE and your channel is selected in the **Show output from** dropdown list. The Output window becomes visible when the user selects **View > Output menu** from the main menu.
+The Output window in the Visual Studio IDE is a [Tool Window](./../tool-window/tool-window.md) that can be used to deliver status, diagnostics/logging, or any other informational text to the user. Unlike [User Prompts](./../user-prompt/user-prompts.md), which might display a message box, the messages written to the Output window are only displayed if the user has the Output window visible in the IDE and your channel is selected in the **Show output from** dropdown list. The Output window becomes visible when the user selects **View > Output menu** from the main menu.
 
 ## Get Started
 
@@ -143,8 +143,8 @@ if (this.outputWindow != null)
 Learn more:
 
 - Learn more about [commands](./../command/command.md)
-- Learn more about exposing functionality in the IDE in a [tool window](./../toolWindow/toolWindow.md)
-- Learn about interacting with the user with [user prompts](./../userPrompt/userPrompts.md)
+- Learn more about exposing functionality in the IDE in a [tool window](./../tool-window/tool-window.md)
+- Learn about interacting with the user with [user prompts](./../user-prompt/user-prompts.md)
 
 Look at sample code:
 

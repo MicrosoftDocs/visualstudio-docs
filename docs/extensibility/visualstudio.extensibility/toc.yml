@@ -42,11 +42,11 @@ items:
   - name: Project concepts
     href: ./extension-guides/project/project-concepts.md
 - name: Tool windows
-  href: ./extension-guides/toolWindow/toolWindow.md
+  href: ./extension-guides/tool-window/tool-window.md
 - name: Dialogs
   href: ./extension-guides/dialog/dialog.md
 - name: Debugger visualizers
-  href: ./extension-guides/debuggerVisualizer/debuggerVisualizers.md
+  href: ./extension-guides/debugger-visualizer/debugger-visualizers.md
 - name: Inside the SDK
   items:
   - name: Activation constraints

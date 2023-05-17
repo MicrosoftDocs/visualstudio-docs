@@ -37,7 +37,7 @@ For features where an extension contributes components to Visual Studio such as 
 Currently the SDK supports a limited set of components to be contributed:
 
 * [Command handlers](../extension-guides/command/command.md)
-* [Tool windows](../extension-guides/toolWindow/toolWindow.md)
+* [Tool windows](../extension-guides/tool-window/tool-window.md)
 * [Text view opened closed listeners](../extension-guides/editor/editor.md) for tracking text view created, closed events.
 * [Text view change listeners](../extension-guides/editor/editor.md) for tracking changes to an open text view.
 * [Margin providers](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md#T-Microsoft-VisualStudio-Extensibility-Editor-ITextViewMarginProvider)
