@@ -51,7 +51,7 @@ The current version of the Output window API requires that the display name for 
 
 You can edit the resource file (in this case `MyStrings.resx`) by using the designer UI available in Visual Studio:
 
-![resx Designer](resxDesigner.png "The .resx designer UI available in Visual Studio being used to set the display name for the Output window Channel.")
+![resx Designer](./media/resx-designer.png)
 
 Alternatively, you can edit the resource file by editing the raw XML to add the following snippet:
 

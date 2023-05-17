@@ -14,7 +14,7 @@ ms.technology: vs-ide-sdk
 
 In this tutorial, you learn about advanced Remote UI concepts by incrementally modifying a tool window that shows a list of random colors:
 
-![Random colors tool window](colors-tool-window.png "Random colors tool window")
+![Screenshot showing random colors tool window.](./media/colors-tool-window.png)
 
 You'll learn about:
 
@@ -223,7 +223,7 @@ The processes of
 
 all honor the identity of reference type objects. Except for strings, reference type objects are never duplicated when transferred back to the extension.
 
-![Remote UI data binding reference types](remote-ui-databinding-references.png "Remote UI data binding reference types")
+![Remote UI data binding reference types.](./media/remote-ui-databinding-references.png)
 
 In the picture, you can see how every reference type object in the data context (the commands, the collection, each `MyColor` and even the entire data context) is assigned a unique identifier by the Remote UI infrastructure. When the user clicks the **Remove** button for the proxy color object *#5*, the unique identifier (*#5*), not the value of the object, is sent back to the extension. The Remote UI infrastructure takes care of retrieving the corresponding `MyColor` object and passing it as parameter to the *async command*'s callback.
 
@@ -292,7 +292,7 @@ public class MyColor
 ```
 
 With the code above, the `Color` property value is converted to a `LinearGradientBrush` object in the data context proxy:
-![WPF types in data context](wpf-types-in-data-context.png "WPF types in data context")
+![Screenshot showing WPF types in data context](./media/wpf-types-in-data-context.png)
 
 ## Remote UI and threads
 

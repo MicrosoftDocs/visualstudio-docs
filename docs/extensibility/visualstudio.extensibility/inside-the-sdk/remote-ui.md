@@ -179,9 +179,9 @@ You can also change the target framework for your extension from `net6.0` to `ne
 
 ## Testing the extension
 
-You should now be able to press F5 to debug the extension.
+You should now be able to press `F5` to debug the extension.
 
-![Menu and tool window](hello-world-tool-window.png "Menu and tool window")
+![Screenshot showing menu and tool window](./media/hello-world-tool-window.png)
 
 ## Add support for themes
 
@@ -206,7 +206,7 @@ Update the XAML to use the [styles](/dotnet/api/microsoft.visualstudio.shell.vsr
 
 The label now uses the same theme as the rest of the Visual Studio UI, and automatically changes color when the user switches to dark mode:
 
-![Themed tool window](remote-ui-themed.png "Themed tool window")
+![Screenshot showing themed tool window.](./media/remote-ui-themed.png)
 
 Here, the `xmlns` attribute references the [Microsoft.VisualStudio.Shell.15.0](https://www.nuget.org/packages/Microsoft.VisualStudio.Shell.15.0) assembly, which isn't one of the extension dependencies. This is fine because this XAML is used by the Visual Studio process, which has a dependency on *Shell.15*, not by the extension itself.
 
@@ -246,7 +246,7 @@ internal class MyToolWindowContent : RemoteUserControl
 
 The content of the label is now set through databinding:
 
-![Tool window with data binding](remote-ui-data-binding.png "Tool window with data binding")
+![Screenshot showing tool window with data binding](./media/remote-ui-data-binding.png)
 
 The data context type here is marked with `DataContract` and `DataMember` attributes. This is because the `MyToolWindowData` instance exists in the extension host process while the WPF control created from `MyToolWindowContent.xaml` exists in the Visual Studio process. To make data binding work, the Remote UI infrastructure generates a proxy of the `MyToolWindowData` object in the Visual Studio process. The `DataContract` and `DataMember` attributes indicate which types and properties are relevant for data binding and should be replicated in the proxy.
 

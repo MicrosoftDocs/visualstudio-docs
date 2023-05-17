@@ -26,7 +26,7 @@ This document is a quickstart that shows how to create your first extension usin
 
 * Use `VisualStudio.Extensibility Project` template to create a new extensibility project.
 
-![VSExtensibilityTemplate](vsextensibility-project-template.png  "VisualStudio.Extensibility template")
+![Screenshot of the VSExtensibility template.](./media/visual-studio-extensibility-project-template.png)
 
 At this point, you're ready to start extending Visual Studio by adding commands and editor components to your extension.
 
@@ -97,7 +97,7 @@ For more information on how to add commands, please refer to [Commands](../exten
 2. Pressing `F5` builds your extension and deploy it to the experimental instance of Visual Studio version you're using. The debugger should attach once your extension is loaded.
 3. You can find the new command in `Tools` menu as shown in the following image:
 
-   ![SampleCommand](extension-command.png "Sample Remote Command")
+   ![Screenshot showing sample command](./media/extension-command.png)
 
 ## Next steps
 

@@ -141,7 +141,7 @@ public static MenuConfiguration MyMenu1 => new("%MyMenu.DisplayName%")
 
 In the two previous examples, the resulting menu would be identical in the IDE. The menu `MyMenu1` would look like the menu in the following screenshot:
 
-![Menu with separator](menu-with-separator.png "Menu with separator")
+![Screenshot of menu with separator](./media/menu-with-separator.png)
 
 ## Create a toolbar
 
@@ -220,7 +220,7 @@ public static ToolbarConfiguration MyToolbar => new("%MyToolbar.DisplayName%")
 
 In the two examples here, the resulting toolbar would be identical in the IDE. The toolbar `MyToolbar` would look like the toolbar in the screenshot below:
 
-![Toolbar with separator](toolbar-with-separator.png "Toolbar with separator")
+![Screenshot of a toolbar with separator.](./media/toolbar-with-separator.png)
 
 ## Create a group
 

@@ -16,7 +16,7 @@ Debugger visualizers are a Visual Studio feature that provides a custom visualiz
 
 Debugger visualizers are accessible from the *DataTip* that appears when hovering over a variable, or from the *Autos*, *Locals*, and *Watch* windows:
 
-![Debugger visualizers in the watch window](watchWindow.png "Debugger visualizers in the watch window")
+![Screenshot of debugger visualizers in the watch window.](./media/watch-window.png)
 
 ## Get started
 
