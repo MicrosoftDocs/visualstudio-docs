@@ -24,7 +24,7 @@ The choices presented to the user are mapped to return values of the type define
 
 ## Parts of a user prompt
 
-![User Prompt Parts](user_prompt_parts.png)
+![Screenshot showing the parts of a user prompt.](./media/user-prompt-parts.png)
 
 1. Message
 2. Choice Buttons
@@ -96,7 +96,7 @@ Several sets of predefined `PromptOptions` are available in the SDK.
 
 ### Example
 
-![User Prompt With OK](user_prompt_ok.png)
+![Screenshot showing a user prompt with OK.](./media/user-prompt-ok.png)
 
 Create a prompt with a single "OK" choice.
 
@@ -132,7 +132,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 
 ## Create a prompt with custom options
 
-![Custom User Prompt](user_prompt_custom.png)
+![Screenshot showing a custom user prompt.](./media/user-prompt-custom.png)
 
 In addition to the built-in options, you can customize the choices presented to the user and the return value mapped to each.
 
