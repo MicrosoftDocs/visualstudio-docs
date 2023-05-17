@@ -5,7 +5,7 @@ ms.topic: include
 ms.assetid: 3b36270b-aa3b-4c05-b12e-4df8d6f823c1
 author: larissacrawford
 ms.author: amast
-ms.date: 02/24/2023
+ms.date: 05/03/2023
 user.type: subscriber
 tags: renewal
 subscription.type: retail
@@ -33,7 +33,7 @@ Each of these subscriptions offers the option to make an initial purchase or to 
 If you have a standard retail subscription, it was purchased from the [Microsoft Store](https://www.microsoft.com/store) and should be renewed there.  
 
 1. Visit the store and find the subscription level you currently have (you can only renew the same subscription level). 
-1. Select “Download – Renewal” and add to cart. If you want to change your subscription level, you'll need to select “Download – New.”  
+1. Select “Download – Renewal” and add to cart. If you want to change your subscription level, select “Download – New.”  
 1. Check out. The confirmation page includes a product key to use to activate the subscription. See activation instructions in next section.
 
 ## How to activate  

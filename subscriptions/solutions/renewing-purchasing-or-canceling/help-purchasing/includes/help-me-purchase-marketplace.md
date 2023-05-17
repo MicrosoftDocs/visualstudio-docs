@@ -5,7 +5,7 @@ ms.topic: include
 ms.assetid: 4d0c9d82-5bda-4021-b219-5e1cf948f325
 author: larissacrawford
 ms.author: amast
-ms.date: 02/24/2023
+ms.date: 05/03/2023
 user.type: subscriber, admin
 tags: purchasing
 subscription.type: cloud
@@ -20,7 +20,7 @@ Read more details on [how to purchase monthly subscriptions](https://learn.micro
 
 ## Billing in the Visual Studio Marketplace 
 
-Billing is handled through your Microsoft Azure subscription. If you don’t have an Azure subscription yet—it’s free to set up and can be done while you make your first purchase.  
+Billing is handled through your Microsoft Azure subscription. If you don’t have an Azure subscription yet, it’s free to set up and can be done as part of your first purchase.  
 
 * [Visual Studio Professional - monthly subscription](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-monthly) 
 * [Visual Studio Enterprise - monthly subscription](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-monthly) 
