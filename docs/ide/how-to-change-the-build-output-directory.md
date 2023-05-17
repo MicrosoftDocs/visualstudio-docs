@@ -158,7 +158,7 @@ By default, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] builds eac
    <PropertyGroup>
      <!-- existing property declarations are here -->
      <IntermediateOutputPath>path</IntermediateOutputPath>
-   <PropertyGroup>
+   </PropertyGroup>
    ```
 
    The path is relative to the project file, or you can use an absolute path. If you want to put the project name in the path, you can reference it by using the MSBuild properties `$(MSBuildProjectName)`, `$(MSBuildProjectDirectory)`. For more properties you can use, see [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md).
