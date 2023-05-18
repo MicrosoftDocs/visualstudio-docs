@@ -256,7 +256,7 @@
     - name: Use the Text Spell Checker (Preview)
       href: ide/text-spell-checker.md
     - name: Use Sticky Scroll
-    - href: ide/editor-sticky-scroll.md  
+      href: ide/editor-sticky-scroll.md  
     - name: Find and replace
       items:
       - name: Find and replace text
