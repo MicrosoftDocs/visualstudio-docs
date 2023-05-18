@@ -79,7 +79,7 @@ The connected service functionality adds all the needed references and connectio
 
    ![Summary of changes](./media/vs-azure-tools-connected-services-storage/vs-2019/summary-of-changes.png)
 
-1. The storage connected service appears under the **Service References** node of your project.
+1. The storage connected service appears under the **Connected Services** node of your project.
 :::moniker-end
 
 :::moniker range=">=vs-2022"
@@ -110,19 +110,19 @@ The connected service functionality adds all the needed references and connectio
 
    1. Fill out the **Azure Storage: Create new** dialog, and select **Create**.
 
-       ![New Azure storage account](./media/vs-2022/azure-storage-create-account.png).
+       ![New Azure storage account.](./media/vs-2022/azure-storage-create-account.png)
 
    1. When the **Azure Storage** dialog is displayed, the new storage account appears in the list. Select the new storage account in the list, and select **Next**.
 
 1. Enter a connection string name, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
 
-   ![Specify connection string](./media/vs-2022/azure-storage-connection-string.png)
+   ![Screenshot showing how to specify the connection string.](./media/vs-2022/azure-storage-connection-string.png)
 
 1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
 
-   ![Summary of changes](./media/vs-2022/summary-of-changes.png)
+   ![Screenshot showing the summary of changes](./media/vs-2022/summary-of-changes.png)
 
-1. The storage connected service appears under the **Service References** node of your project.
+1. The storage connected service appears under the **Connected Services** node of your project.
 :::moniker-end
 
 ## See also
