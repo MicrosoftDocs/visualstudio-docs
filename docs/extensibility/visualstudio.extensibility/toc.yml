@@ -46,7 +46,7 @@ items:
 - name: Tool windows
   href: ./extension-guides/tool-window/tool-window.md
 - name: User prompts
-  href: ./extension-guides/user-prompts/user-prompts.md
+  href: ./extension-guides/user-prompt/user-prompts.md
 - name: Dialogs
   href: ./extension-guides/dialog/dialog.md
 - name: Debugger visualizers
@@ -54,7 +54,7 @@ items:
 - name: Inside the SDK
   items:
   - name: Components of an extension
-    href: extension-anatomy.md
+    href: ./inside-the-sdk/extension-anatomy.md
   - name: Activation constraints
     href: ./inside-the-sdk/activation-constraints.md
   - name: Advanced Remote UI
