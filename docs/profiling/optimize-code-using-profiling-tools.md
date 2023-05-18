@@ -27,7 +27,7 @@ Reducing your compute time means reducing costs, so optimizing your code can sav
 - To reduce compute costs, start your investigation by taking a CPU usage trace. The CPU Usage tool is often helpful to begin performance investigations and to optimize code to reduce cost.
 - If you would like additional insights to help isolate issues or improve the performance, considering collecting a trace using one of the other profiling tools. For example:
   - Take a look at the memory usage. For .NET, try the .NET Object Allocation tool first. For either .NET or C++, you can look at the Memory Usage tool.
-  - If you app is using File I/O, use the File I/O tool.
+  - If you're app is using File I/O, use the File I/O tool.
   - If you're using ADO.NET or Entity Framework, you can try the Database tool to examine SQL queries, precise query time, et al.
   - For comparing tools, see [Which tool should I choose?](../profiling/choose-performance-tool.md)
 
@@ -38,7 +38,7 @@ The example screenshots shown in this article are based on a .NET app that runs 
 To collect the data shown in this article:
 
 - Set your app to a Release build
-- Select the CPU Usage tool from the Performance Profiler (**Alt+F2**). (Later steps involves a few of the other tools.)
+- Select the CPU Usage tool from the Performance Profiler (**Alt+F2**). (Later steps involve a few of the other tools.)
 - From the Performance Profiler, start the app and collect a trace.
 
 ## Inspect areas of high CPU usage
