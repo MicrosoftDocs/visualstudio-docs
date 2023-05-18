@@ -2,7 +2,7 @@
 title: Make a Git commit in Visual Studio
 titleSuffix: ""
 description: Make a Git commit in Visual Studio by using Git providers such as GitHub or Azure DevOps.
-ms.date: 08/09/2022
+ms.date: 05/16/2023
 ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
@@ -32,6 +32,9 @@ To stage changes when you're ready, select the **+** (plus) button on each file 
 When you stage a change, Visual Studio creates a **Staged Changes** section. Only changes in the **Staged Changes** section are added to the next commit, which you can do by selecting **Commit Staged**. The equivalent command for this action is `git commit -m "Your commit message"`.
 
 :::image type="content" source="media/vs-2022/git-commit-message.png" alt-text="The Git commit dialog in Visual Studio 2022.":::
+
+> [!TIP]
+> **New in Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-notes)**: We've made it easier to reference GitHub issues and Azure DevOps work items in commit messages. To learn more, see the "Improved search for related issues and work items" section of the [Git tooling features to enhance productivity](https://devblogs.microsoft.com/visualstudio/git-tooling-preview-features-to-enhance-productivity/#improved-search-for-related-github-issues-and-azure-devops-work-items) blog post.
 
 Changes can also be unstaged by clicking the **–** (minus) button. The equivalent command for this action is `git reset <file_path>` to unstage a single file or `git reset <directory_path>` to unstage all the files in a directory.
 

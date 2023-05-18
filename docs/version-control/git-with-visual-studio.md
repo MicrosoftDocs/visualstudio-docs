@@ -2,7 +2,7 @@
 title: The Git experience in Visual Studio
 titleSuffix: ""
 description: Learn how Git makes source control in Visual Studio more productive.
-ms.date: 10/13/2022
+ms.date: 05/17/2023
 ms.topic: overview
 author: houghj16
 ms.author: tglee
@@ -39,7 +39,7 @@ Not only can you add both [GitHub and GitHub Enterprise accounts to your keychai
 
 If you're new to Git, the [https://git-scm.com/](https://git-scm.com/) website is a good place to start.
 
-:::image type="content" source="media/git-source-control-create-repository.png" alt-text="The Create a Git Repository dialog box in Visual Studio.":::
+:::image type="content" source="media/vs-2022/git-source-control-create-repository.png" alt-text="Screenshot of the Create a Git Repository dialog box in Visual Studio." lightbox="media/vs-2022/git-source-control-create-repository.png":::
 
 ## View files in Solution Explorer
 
@@ -84,7 +84,17 @@ To personalize your Git settings at a repository level as well as at a global le
 1. Go to either **Git** > **Settings** on the menu bar or **Tools** > **Options** > **Source Control** > **Git Global Settings**
 2. Choose the [options](git-settings.md) you want.
 
-:::image type="content" source="media/git-options-settings.png" alt-text="The Options dialog box where you can choose personalization and customization settings in Visual Studio IDE.":::
+    :::image type="content" source="media/vs-2022/git-options-settings.png" alt-text="Screenshot of the Options dialog box where you can choose personalization and customization settings in Visual Studio IDE." lightbox="media/vs-2022/git-options-settings.png":::
+
+## Performance & productivity enhancements
+
+When it comes to the integrated Git tooling within Visual Studio, we continue to iterate on performance and productivity enhancements. Here are a few notable updates:
+
+- **Commit graph**. Starting with Visual Studio 2022 [version 17.2](/visualstudio/releases/2022/release-notes-v17.2), we introduced a commit graph feature to help reduce the delays you might experience when you're viewing your Git repository or branch history. For more information, see the [Supercharge your Git experience](https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/) blog post.
+
+- **Branch switching**. Starting with Visual Studio 2022 [version 17.3](/visualstudio/releases/2022/release-notes-v17.3), we reduced the number of branch switches that need solution reloads by an estimate of 80%. To learn more, see the [Performance Enhancements: Git Branch Switching](https://devblogs.microsoft.com/visualstudio/vs2022-performance-enhancements-git-branch-switching/) blog post.
+
+There are even more feature updates in Visual Studio 2022 [**version 17.6**](/visualstudio/releases/2022/release-notes), to include the ability to  [search](https://devblogs.microsoft.com/visualstudio/git-tooling-preview-features-to-enhance-productivity/#improved-search-for-related-github-issues-and-azure-devops-work-items) for and [link](https://devblogs.microsoft.com/visualstudio/reference-github-issues-and-pull-requests-in-visual-studio/) to GitHub Issues and Azure DevOps work items, amongst a few. To get all the details, see the [**Git Features to Enhance Productivity**](https://devblogs.microsoft.com/visualstudio/git-tooling-preview-features-to-enhance-productivity/) blog post.
 
 ::: moniker-end
 
