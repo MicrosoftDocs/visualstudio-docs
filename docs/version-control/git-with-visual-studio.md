@@ -39,7 +39,7 @@ Not only can you add both [GitHub and GitHub Enterprise accounts to your keychai
 
 If you're new to Git, the [https://git-scm.com/](https://git-scm.com/) website is a good place to start.
 
-:::image type="content" source="media/vs-2022/git-source-control-create-repository.png" alt-text="The Create a Git Repository dialog box in Visual Studio." lightbox="media/vs-2022/git-source-control-create-repository.png":::
+:::image type="content" source="media/vs-2022/git-source-control-create-repository.png" alt-text="The Create a Git Repository dialog box in Visual Studio.":::
 
 ## View files in Solution Explorer
 
@@ -84,7 +84,7 @@ To personalize your Git settings at a repository level as well as at a global le
 1. Go to either **Git** > **Settings** on the menu bar or **Tools** > **Options** > **Source Control** > **Git Global Settings**
 2. Choose the [options](git-settings.md) you want.
 
-    :::image type="content" source="media/vs-2022/git-options-settings.png" alt-text="The Options dialog box where you can choose personalization and customization settings in Visual Studio IDE." lightbox="media/vs-2022/git-options-settings.png":::
+    :::image type="content" source="media/vs-2022/git-options-settings.png" alt-text="The Options dialog box where you can choose personalization and customization settings in Visual Studio IDE.":::
 
 ## Performance & productivity enhancements
 
