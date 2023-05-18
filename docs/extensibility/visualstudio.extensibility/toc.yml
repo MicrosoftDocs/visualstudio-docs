@@ -20,37 +20,37 @@ items:
 - name: Commands
   items:
   - name: About commands
-    href: ./extension-guides/command/command.md
+    href: ./command/command.md
   - name: Metadata localization
-    href: ./extension-guides/command/localize-metadata.md
+    href: ./command/localize-metadata.md
   - name: Menus and toolbars
-    href: ./extension-guides/command/menus-and-toolbars.md
+    href: ./command/menus-and-toolbars.md
 - name: Editor
   items:
   - name: About the editor
-    href: ./extension-guides/editor/editor.md
+    href: ./editor/editor.md
   - name: Editor concepts
-    href: ./extension-guides/editor/editor-concepts.md
+    href: ./editor/editor-concepts.md
   - name: Editor RPC
-    href: ./extension-guides/editor/editor-rpc.md
+    href: ./editor/editor-rpc.md
 - name: Documents
-  href: ./extension-guides/document/documents.md
+  href: ./document/documents.md
 - name: Output window
-  href: ./extension-guides/output-window/output-window.md
+  href: ./output-window/output-window.md
 - name: Projects
   items:
   - name: Project query API
-    href: ./extension-guides/project/project.md
+    href: ./project/project.md
   - name: Project concepts
-    href: ./extension-guides/project/project-concepts.md
+    href: ./project/project-concepts.md
 - name: Tool windows
-  href: ./extension-guides/tool-window/tool-window.md
+  href: ./tool-window/tool-window.md
 - name: User prompts
-  href: ./extension-guides/user-prompt/user-prompts.md
+  href: ./user-prompt/user-prompts.md
 - name: Dialogs
-  href: ./extension-guides/dialog/dialog.md
+  href: ./dialog/dialog.md
 - name: Debugger visualizers
-  href: ./extension-guides/debugger-visualizer/debugger-visualizers.md
+  href: ./debugger-visualizer/debugger-visualizers.md
 - name: Inside the SDK
   items:
   - name: Components of an extension

@@ -61,7 +61,7 @@ WorkspacesExtensibility workSpace = this.Extensibility.Workspaces();
 
 ### Project query space access in an in-process extension
 
-If you're creating an [in-process extension](../../get-started/in-proc-extensions.md), you instead access the project query space as shown in the following code example. Unless you have specifically created an in-process extension, use the snippet in the previous section to get an instance of the project query space object.
+If you're creating an [in-process extension](../get-started/in-proc-extensions.md), you instead access the project query space as shown in the following code example. Unless you have specifically created an in-process extension, use the snippet in the previous section to get an instance of the project query space object.
 
 ```csharp
 IProjectSystemQueryService queryService = await package.GetServiceAsync<IProjectSystemQueryService, IProjectSystemQueryService>();
