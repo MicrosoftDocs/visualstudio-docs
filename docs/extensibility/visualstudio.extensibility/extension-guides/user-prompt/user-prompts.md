@@ -14,7 +14,8 @@ ms.technology: vs-ide-sdk
 
 User prompts are a simple UI mechanism for prompting the user during the execution of a [Command](../command/command.md). Prompting the user creates a dialog box with a message, one to three buttons for the choices, and a dismiss button.
 
-**Note:** The exact UI used to prompt users may change in future versions based on user feedback or other factors.
+> [!NOTE]
+> The exact UI used to prompt users may change in future versions based on user feedback or other factors.
 
 Common examples are requesting confirmation with an OK/Cancel prompt, or asking the user to choose among a small set of options (no more than three).
 

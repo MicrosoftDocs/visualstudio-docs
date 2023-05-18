@@ -181,7 +181,7 @@ You can also change the target framework for your extension from `net6.0` to `ne
 
 You should now be able to press `F5` to debug the extension.
 
-![Screenshot showing menu and tool window](./media/hello-world-tool-window.png)
+![Screenshot showing menu and tool window.](./media/hello-world-tool-window.png)
 
 ## Add support for themes
 
@@ -246,7 +246,7 @@ internal class MyToolWindowContent : RemoteUserControl
 
 The content of the label is now set through databinding:
 
-![Screenshot showing tool window with data binding](./media/remote-ui-data-binding.png)
+![Screenshot showing tool window with data binding.](./media/remote-ui-data-binding.png)
 
 The data context type here is marked with `DataContract` and `DataMember` attributes. This is because the `MyToolWindowData` instance exists in the extension host process while the WPF control created from `MyToolWindowContent.xaml` exists in the Visual Studio process. To make data binding work, the Remote UI infrastructure generates a proxy of the `MyToolWindowData` object in the Visual Studio process. The `DataContract` and `DataMember` attributes indicate which types and properties are relevant for data binding and should be replicated in the proxy.
 
@@ -375,7 +375,7 @@ Update `MyToolWindowContent.xaml` to use the new properties in the data context.
 </DataTemplate>
 ```
 
-![Tool window with two-way binding and a command.](./media/remote-ui-commands.gif)
+![Diagram of tool window with two-way binding and a command.](./media/remote-ui-commands.gif)
 
 ## Understanding asynchronicity in Remote UI
 
@@ -392,7 +392,7 @@ The whole Remote UI communication for this tool window follows these steps:
    - the new value of `Text` is propagated to the data context proxy
    - the text block in the tool window is updated to the new value of `Text` through data binding
 
-![Tool window two-way binding and commands communication.](./media/remote-ui-databinding-commands.png)
+![Diagram of tool window two-way binding and commands communication.](./media/remote-ui-databinding-commands.png)
 
 ## Using command parameters to avoid race conditions
 

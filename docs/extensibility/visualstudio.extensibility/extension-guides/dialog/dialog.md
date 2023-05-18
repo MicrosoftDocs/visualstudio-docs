@@ -10,11 +10,11 @@ manager: jmartens
 ms.technology: vs-ide-sdk
 ---
 
-# Dialogs Overview
+# Dialogs overview
 
 Dialogs are a way to prompt a user for information or to allow for customizations of feature behavior. For example, the Tools/Options dialog has individual pages that let the user control the behavior for features like themes, editors, and document tabs.
 
-## Get Started
+## Get started
 
 To get started, follow the [create the project](./../../get-started/create-your-first-extension.md) section in the Getting Started section.
 

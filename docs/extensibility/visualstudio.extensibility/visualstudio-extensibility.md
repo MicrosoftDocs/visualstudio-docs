@@ -45,7 +45,7 @@ The current VisualStudio.Extensibility preview works with Visual Studio 2022 ver
 
 Install the [VisualStudio.Extensibility Project System](https://marketplace.visualstudio.com/items?itemName=vsext.gladstone) extension. This extension contains project and item templates, and so you can debug extension projects using `F5`.
 
-## Get Started
+## Get started
 
 The following articles help you get oriented and started.
 
@@ -102,7 +102,7 @@ A Visual Studio solution containing all samples can be found at [Samples.sln](ht
 | [Project Query](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/VSProjectQueryAPISample) | Shows several different kinds of project system queries you can make. |
 | [Comment remover](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CommentRemover) | Shows how to consume [Visual Studio SDK](https://www.nuget.org/packages/Microsoft.VisualStudio.SDK) services through .NET dependency injection and use VisualStudio.Extensibility APIs for commands, prompts and progress report. |
 
-## Advanced Topics
+## Advanced topics
 
 | Article | Description|
 |-|-|

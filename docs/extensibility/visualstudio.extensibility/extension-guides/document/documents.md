@@ -10,7 +10,7 @@ ms.date: 02/10/2023
 ms.custom: template-overview
 ---
 
-# Documents Overview
+# Documents overview
 
 A document is the in-memory representation of a file that is opened in Visual Studio.  It is referred to by
 _moniker_, which is an absolute `Uri` using the `file://` scheme.  A document is represented by the `DocumentSnapshot`

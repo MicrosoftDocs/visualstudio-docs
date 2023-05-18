@@ -141,7 +141,7 @@ public static MenuConfiguration MyMenu1 => new("%MyMenu.DisplayName%")
 
 In the two previous examples, the resulting menu would be identical in the IDE. The menu `MyMenu1` would look like the menu in the following screenshot:
 
-![Screenshot of menu with separator](./media/menu-with-separator.png)
+![Screenshot of menu with separator.](./media/menu-with-separator.png)
 
 ## Create a toolbar
 

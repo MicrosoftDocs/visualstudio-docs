@@ -37,3 +37,7 @@ string-resources.json sample:
     "Microsoft.VisualStudio.MyExtension.SampleRemoteCommand.ToolTipText": "Sample Remote Command ToolTip"
 }
 ```
+
+## Next steps
+
+Learn more about VisualStudio.Extensibility commands at [Commands overview](command.md).

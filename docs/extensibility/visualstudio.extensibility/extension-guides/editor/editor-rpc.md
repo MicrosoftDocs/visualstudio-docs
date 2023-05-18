@@ -12,7 +12,11 @@ ms.technology: vs-ide-sdk
 
 # Editor RPC support
 
-Since the new Visual Studio extensibility model is entirely in a separate process, and communication between the extension process and the Visual Studio process occurs through a stream, all APIs have to at some level operate with serializable data types. Typically, extensions can ignore these implementation details. In some scenarios, an extension may need to interface directly with RPC services acquired from `this.Extensibility.ServiceBroker`. To facilitate interactions with RPC services, the object model exposes `RpcContract` properties on most core types, and the following serializable RPC types:
+Since the new Visual Studio extensibility model is entirely in a separate process, and communication between the extension process and the Visual Studio process occurs through a stream, all APIs have to at some level operate with serializable data types. Typically, extensions can ignore these implementation details. In some scenarios, an extension may need to interface directly with RPC services acquired from `this.Extensibility.ServiceBroker`.
+
+## Serializable RPC types
+
+To facilitate interactions with RPC services, the object model exposes `RpcContract` properties on most core types, and the following serializable RPC types:
 
 - `VersionedTextDocumentRange` - 1:1 serializable version of `Span`, which you can access through the `RpcContract` property. This type should be used in most RPC contracts between processes.
 - `VersionedTextDocumentPosition` - 1:1 serializable version of `Position`, which you can access through the `RpcContract` property. This type should be used in most RPC contracts between processes.

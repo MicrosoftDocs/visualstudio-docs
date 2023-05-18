@@ -111,7 +111,7 @@ The [`CommandIconConfiguration`](https://github.com/microsoft/VSExtensibility/tr
 | IconName | ImageMoniker | Yes | You can either use a custom moniker for an image that you added following the [Adding custom images](#use-a-custom-image-for-the-command-icon) section or reference a Visual Studio [ImageMoniker](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#ImageMoniker-type) like `ImageMonikers.KnownValues.AddItem` |
 | IconSettings | IconSettings | Yes | Configures how the command will be displayed. For example `IconSettings.IconAndText` displays the icon alongside the command's display name, whereas `IconSettings.IconOnly` will only show the command's icon and not its DisplayName if parented to a toolbar. |
 
-### ImageMoniker.KnownValues Example
+### ImageMoniker.KnownValues example
 
 ```csharp
 public override CommandConfiguration CommandConfiguration => new("%MyCommand.DisplayName%")
@@ -130,7 +130,7 @@ You can add custom images, which you can then reference with custom monikers by 
 2. Put all of the image source files under `Images` folder.
     - The default image assets folder is `Images`, but you can also customize it by adding `<ImageAssetsPath>%YourFolder%</ImageAssetsPath>`
   
-### ImageMoniker.Custom Example
+### ImageMoniker.Custom example
 
 ```csharp
 public override CommandConfiguration CommandConfiguration => new("%MyCommand.DisplayName%")
@@ -149,7 +149,7 @@ Many keyboard shortcuts are already used in Visual Studio. You shouldn't assign 
 
 An activation constraint can be included in the configuration to have the Shortcut available in different contexts. These activation constraints are defined in the form of a `Guid`, and usually relate to an editor. When a Shortcut is given an activation constraint, it will only be available in that specific context. For example, use the `Guid` "{5EFC7975-14BC-11CF-9B2B-00AA00573819}" to make the Shortcut available in the Visual Studio editor. In this case the Shortcut would only be available when the Visual Studio editor is focused.
 
-### Shortcut Sample
+### Shortcut sample
 
 ```csharp
 public override CommandConfiguration CommandConfiguration => new("%MyCommand.DisplayName%")
@@ -174,7 +174,7 @@ The attribute supports specifying a condition through a number of individual par
 
 If this property is omitted from your configuration, the default is for the command to always be visible.
 
-### Visibility Example
+### Visibility example
 
 ```csharp
 public override CommandConfiguration CommandConfiguration => new("My command")
@@ -191,7 +191,7 @@ This type of configuration is called a *rule-based activation constraint* and is
 
 If this configuration is omitted from your command, the default is for the command to always be enabled. You can also automatically have your command be disabled if it's currently executing by setting `this.DisableDuringExecution = true;` in the constructor of your command class. Setting this property overrides the enabled/disabled state defined by the `EnabledWhen` configuration while the command is being executed.
 
-### Enabled/disabled state Example
+### Enabled/disabled state example
 
 ```csharp
 public override CommandConfiguration CommandConfiguration => new("My command")
@@ -213,7 +213,7 @@ Command flags help define additional properties on your commands that are used a
 
 While the display name for a command is initially set in the [`CommandConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#CommandConfiguration-type) (see [Creating a Command](#create-a-command)), it can be changed at runtime by setting the `DisplayName` property in your command. The `ToolTipText` property can be updated in a similar way.
 
-### Change DisplayName Example
+### Change DisplayName example
 
 ```csharp
 [VisualStudioContribution]

@@ -23,6 +23,8 @@ items:
     href: ./extension-guides/command/command.md
   - name: Metadata localization
     href: ./extension-guides/command/localize-metadata.md
+  - name: Menus and toolbars
+    href: ./extension-guides/command/menus-and-toolbars.md
 - name: Editor
   items:
   - name: About the editor
@@ -43,12 +45,16 @@ items:
     href: ./extension-guides/project/project-concepts.md
 - name: Tool windows
   href: ./extension-guides/tool-window/tool-window.md
+- name: User prompts
+  href: ./extension-guides/user-prompts/user-prompts.md
 - name: Dialogs
   href: ./extension-guides/dialog/dialog.md
 - name: Debugger visualizers
   href: ./extension-guides/debugger-visualizer/debugger-visualizers.md
 - name: Inside the SDK
   items:
+  - name: Components of an extension
+    href: extension-anatomy.md
   - name: Activation constraints
     href: ./inside-the-sdk/activation-constraints.md
   - name: Advanced Remote UI

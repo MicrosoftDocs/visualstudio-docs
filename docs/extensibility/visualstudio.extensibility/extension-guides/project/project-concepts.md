@@ -71,7 +71,7 @@ Clauses in your project query determine what kind of items should be returned in
 |AsUpdatable| Starts to update object from a query result.
 |ExecuteAsync| Executes an update query.
 
-## Next Steps
+## Next steps
 
 To see some examples of project queries for common tasks, see the [Project Query Overview](./project.md)
 

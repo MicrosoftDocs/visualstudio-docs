@@ -22,7 +22,7 @@ The new Visual Studio Extensibility SDK is built on top of brokered services inf
 
 * A code generator framework to generate `.vsextension/extension.json` metadata file based on extension parts and its attributes. This file declares the services, extension parts and other services exposed by the extension.
 
-## NuGet Packages
+## NuGet packages
 
 The new extensibility model for Visual Studio depends on a set of new NuGet packages to provide APIs, build tooling, code generation and analyzers.
 
