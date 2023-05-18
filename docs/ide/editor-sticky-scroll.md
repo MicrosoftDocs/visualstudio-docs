@@ -39,10 +39,12 @@ If you want to turn Sticky Scroll off, you can do so from the editor by right-cl
 
 > [!IMPORTANT]
 > If you're using C# and Sticky Scroll isn't working for you, try this workaround. Select **Tools** > **Options** > **Text Editor** > **C#** > **Advanced**. Next, in the **Block Structure Guides** section, enable the following options.
+>
 > |Option | Description |
 > |---------|---------|
 > |**Show guides for declaration level constructs**   | Affects namespaces, classes, and method initializations |
 > |**Show guides for code level constructs**  | Affects conditionals and loops |
+>
  
 ## How Sticky Scroll works
 
