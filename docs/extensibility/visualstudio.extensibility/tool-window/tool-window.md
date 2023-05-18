@@ -18,7 +18,7 @@ Tool windows are single-instance, meaning that only one instance of the Tool Win
 
 ## Get started
 
-To get started, follow the [create your first extension](./../../get-started/create-your-first-extension.md) tutorial.
+To get started, follow the [create your first extension](./../get-started/create-your-first-extension.md) tutorial.
 
 ## Working with Tool Windows
 
@@ -76,7 +76,7 @@ public class MyToolWindow : ToolWindow
 
 ## Add content to a tool window
 
-Because extensions in VisualStudio.Extensibility might be out-of-process from the IDE, we can't directly use WPF as a presentation layer for content in Tool Windows. Instead, adding content to a tool window requires creating a [RemoteUserControl](./../../inside-the-sdk/remote-ui.md) and the corresponding data template for that control. While there are some simple examples below, we recommend reading the [Remote UI documentation](./../../inside-the-sdk/remote-ui.md) when adding tool window content.
+Because extensions in VisualStudio.Extensibility might be out-of-process from the IDE, we can't directly use WPF as a presentation layer for content in Tool Windows. Instead, adding content to a tool window requires creating a [RemoteUserControl](./../inside-the-sdk/remote-ui.md) and the corresponding data template for that control. While there are some simple examples below, we recommend reading the [Remote UI documentation](./../inside-the-sdk/remote-ui.md) when adding tool window content.
 
 ```csharp
 [VisualStudioContribution]
@@ -127,7 +127,7 @@ internal class MyToolWindowControl : RemoteUserControl
 </DataTemplate>
 ```
 
-for more information on creating a `RemoteUserControl`, see[Remote UI](./../../inside-the-sdk/remote-ui.md).
+for more information on creating a `RemoteUserControl`, see[Remote UI](./../inside-the-sdk/remote-ui.md).
 
 ## Create a command to show a tool window
 
@@ -189,11 +189,11 @@ public override ToolWindowConfiguration ToolWindowConfiguration => new()
 };
 ```
 
-See [Rule-based activation constraints](../../inside-the-sdk/activation-constraints.md#rule-based-activation-constraints) for more information on valid term values.
+See [Rule-based activation constraints](../inside-the-sdk/activation-constraints.md#rule-based-activation-constraints) for more information on valid term values.
 
 ## Next steps
 
-Be sure to read about how [Remote UI](./../../inside-the-sdk/remote-ui.md) works in the VisualStudio.Extensibility framework.
+Be sure to read about how [Remote UI](./../inside-the-sdk/remote-ui.md) works in the VisualStudio.Extensibility framework.
 
 Tool window content is created using WPF, so refer to the [WPF documentation](/dotnet/desktop/wpf/overview/) for guidance.
 

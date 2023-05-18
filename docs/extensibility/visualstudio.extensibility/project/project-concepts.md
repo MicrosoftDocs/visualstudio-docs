@@ -12,7 +12,7 @@ ms.custom: template-concept
 
 # Project query API
 
-In Visual Studio, projects are collections of files that are compiled together into an executable or some other form of output, and solutions are collections of projects. Projects and solutions are represented in the filesystem by project files and solution files, respectively. For more information, see [What are solutions and projects in Visual Studio?](../../../../ide/solutions-and-projects-in-visual-studio.md).
+In Visual Studio, projects are collections of files that are compiled together into an executable or some other form of output, and solutions are collections of projects. Projects and solutions are represented in the filesystem by project files and solution files, respectively. For more information, see [What are solutions and projects in Visual Studio?](../../../ide/solutions-and-projects-in-visual-studio.md).
 
 The project system sits between a project or solution file on disk (for example, `.csproj` and `.vbproj`) and various Visual Studio features including, but not limited to, the Solution Explorer, designers, the debugger, language services, build and deployment. Project systems are a part of Visual Studio components to help users work with and maintain projects, run builds to produce results, and to test output, and almost all interaction that occurs with files contained in a project file happens through the project system. You can find more information on project systems [here](https://github.com/microsoft/VSProjectSystem).
 

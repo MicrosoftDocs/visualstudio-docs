@@ -72,15 +72,15 @@ Learn about the [Remote UI](./inside-the-sdk/remote-ui.md) model used in the Vis
 
 Read an overview of the areas of the SDK that you might need for your extension development projects.
 
-* Create commands and expose them to users in the IDE, see [Commands](./extension-guides/command/command.md).
-* Work with contents of files and documents, see [Editor extensions](./extension-guides/editor/editor.md).
-* Work with the in-memory representation of those documents themselves, see [Documents](./extension-guides/document/documents.md)
-* Use the output window in an extension, see [Output window](./extension-guides/output-window/output-window.md).
-* Work with tool windows, dockable windows within the Visual Studio IDE, see [Tool windows](./extension-guides/tool-window/tool-window.md).
-* Use prompts with customizable buttons to interact with the user, see [User prompts](./extension-guides/user-prompt/user-prompts.md).
-* Use dialogs with custom UI to interact with the user, see [Dialogs](./extension-guides/dialog/dialog.md)
-* Create custom data visualizations when debugging, see [Debugger Visualizers](./extension-guides/debugger-visualizer/debugger-visualizers.md)
-* Query or modify information about project sand solutions, see [Project Query](./extension-guides/project/project.md)
+* Create commands and expose them to users in the IDE, see [Commands](./command/command.md).
+* Work with contents of files and documents, see [Editor extensions](./editor/editor.md).
+* Work with the in-memory representation of those documents themselves, see [Documents](./document/documents.md)
+* Use the output window in an extension, see [Output window](./output-window/output-window.md).
+* Work with tool windows, dockable windows within the Visual Studio IDE, see [Tool windows](./tool-window/tool-window.md).
+* Use prompts with customizable buttons to interact with the user, see [User prompts](./user-prompt/user-prompts.md).
+* Use dialogs with custom UI to interact with the user, see [Dialogs](./dialog/dialog.md)
+* Create custom data visualizations when debugging, see [Debugger Visualizers](./debugger-visualizer/debugger-visualizers.md)
+* Query or modify information about project sand solutions, see [Project Query](./project/project.md)
 
 ## Samples and tutorials
 
@@ -93,7 +93,7 @@ A Visual Studio solution containing all samples can be found at [Samples.sln](ht
 | [Command configuration](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CommandRegistrationsSample) | Shows how to configure a command with specific activation conditions. This command also uses a resource file for localization. |
 | [Command parenting](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/Command-Parenting-Sample) | Shows how to author a command that can be parented to different aspects of the IDE. |
 | [Document selector](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DocumentSelectorSample) | Shows how to create an editor extension that is only applicable to files matching a file path pattern. |
-| [Output window](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample) | Shows the most basic use of the [Output Window API](./extension-guides/output-window/output-window.md)|
+| [Output window](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample) | Shows the most basic use of the [Output Window API](./output-window/output-window.md)|
 | [Tool window](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/ToolWindowExtension) | Shows how to create a tool window and populate it with content. |
 | [User prompt](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/UserPromptSample) | Shows how to display a prompt to the user. |
 | [Dialog](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DialogSample) | Shows how to display a dialog with custom UI to the user. |

@@ -16,7 +16,7 @@ The Output window in the Visual Studio IDE is a [Tool Window](./../tool-window/t
 
 ## Get started
 
-To get started, follow the [create the project](./../../get-started/create-your-first-extension.md) section in Getting Started section.
+To get started, follow the [create the project](./../get-started/create-your-first-extension.md) section in Getting Started section.
 
 ## Work with the Output window
 
@@ -44,7 +44,7 @@ The `GetChannelAsync()` method has three parameters:
 The current version of the Output window API requires that the display name for the Output window channel be stored in a [resource file](/dotnet/core/extensions/resources):
 
 - Add a [`.resx` file](/dotnet/core/extensions/resources) ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/Strings.resx)) and make sure it's configured with the ResXFileCodeGenerator in your project ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/OutputWindowSample.csproj)).
-- Add an [Extension class](../../inside-the-sdk/extension-anatomy.md#extension-instance) to your project, if it doesn't have one already ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/OutputWindowSampleExtension.cs))
+- Add an [Extension class](../inside-the-sdk/extension-anatomy.md#extension-instance) to your project, if it doesn't have one already ([sample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample/OutputWindowSampleExtension.cs))
 - In the Extension class, override the `ResourceManager` property to return the ResourceManager corresponding to your .resx file.
 
 ### Edit the `.resx` resource file

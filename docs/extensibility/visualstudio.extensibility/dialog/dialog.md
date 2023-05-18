@@ -16,7 +16,7 @@ Dialogs are a way to prompt a user for information or to allow for customization
 
 ## Get started
 
-To get started, follow the [create the project](./../../get-started/create-your-first-extension.md) section in the Getting Started section.
+To get started, follow the [create the project](./../get-started/create-your-first-extension.md) section in the Getting Started section.
 
 ## Work with dialogs
 
@@ -65,7 +65,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 }
 ```
 
-For more information on creating a RemoteUserControl, see [Remote UI](./../../inside-the-sdk/remote-ui.md).
+For more information on creating a RemoteUserControl, see [Remote UI](./../inside-the-sdk/remote-ui.md).
 
 ## Customize the dialog title
 

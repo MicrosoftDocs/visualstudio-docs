@@ -33,7 +33,7 @@ The choices presented to the user are mapped to return values of the type define
 
 ## Get started
 
-User Prompts can only be created inside of a [Command](../command/command.md). To get started, [Create the extension project](../../get-started/create-your-first-extension.md#create-the-extension-project) and [Add your first command](../../get-started/create-your-first-extension.md#add-your-first-command).
+User Prompts can only be created inside of a [Command](../command/command.md). To get started, [Create the extension project](../get-started/create-your-first-extension.md#create-the-extension-project) and [Add your first command](../get-started/create-your-first-extension.md#add-your-first-command).
 
 ## Work with user prompts
 

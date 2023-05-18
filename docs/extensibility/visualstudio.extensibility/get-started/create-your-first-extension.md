@@ -89,7 +89,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 }
 ```
 
-For more information on how to add commands, please refer to [Commands](../extension-guides/command/command.md) section.
+For more information on how to add commands, please refer to [Commands](../command/command.md) section.
 
 ## Debug your extension
 

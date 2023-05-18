@@ -29,4 +29,4 @@ As opposed to `VersionedTextDocumentRange` and `VersionedTextDocumentPosition`, 
 
 ## Next steps
 
-Learn more about Remote UI, the RPC model used in VS.Extensibilty at [Remote UI](../../inside-the-sdk/remote-ui.md).
+Learn more about Remote UI, the RPC model used in VS.Extensibilty at [Remote UI](../inside-the-sdk/remote-ui.md).
