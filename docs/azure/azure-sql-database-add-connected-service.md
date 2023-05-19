@@ -83,7 +83,7 @@ The connected service functionality adds all the needed references and connectio
 
    If prompted to set a firewall rules, choose **Yes**.
 
-   ![Screenshot showing "Firewall rules"](./media/azure-sql-database-add-connected-service/firewall-rules.png)
+   ![Screenshot showing firewall rules.](./media/azure-sql-database-add-connected-service/firewall-rules.png)
 
 1. In Solution Explorer, double-click on the **Connected Services** node to open the **Connected Services** tab. The connection appears under the **Service Dependencies** section:
 

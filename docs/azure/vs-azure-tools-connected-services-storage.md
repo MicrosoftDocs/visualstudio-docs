@@ -43,7 +43,7 @@ The connected service functionality adds all the needed references and connectio
 
 1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add Connected Service**.
 
-    ![Screenshot showing "Add Azure connected service" screen](./media/vs-azure-tools-connected-services-storage/vs-2019/add-connected-service.png)
+    ![Screenshot showing "Add Azure connected service" screen.](./media/vs-azure-tools-connected-services-storage/vs-2019/add-connected-service.png)
 
 1. In the **Connected Services** tab, select the + icon for **Service Dependencies**.
 

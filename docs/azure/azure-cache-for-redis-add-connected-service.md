@@ -79,7 +79,7 @@ The connected service functionality adds all the needed references and connectio
 
 1. The connection appears under the **Service Dependencies** section of the **Connected Services** tab.
 
-   ![Screenshot showing a list of configured service dependencies](./media/azure-redis-cache-add-connected-service/service-dependencies-after.png)
+   ![Screenshot showing a list of configured service dependencies.](./media/azure-redis-cache-add-connected-service/service-dependencies-after.png)
 :::moniker-end
 
 :::moniker range=">=vs-2022"

@@ -94,7 +94,7 @@ The connected service functionality adds all the needed references and connectio
 
 1. Choose **Azure SignalR Service**. The **Connect to dependency** page appears.
 
-   ![Screenshot showing Connect to dependency for Azure SignalR](./media/azure-signalr-add-connected-service/vs-2022/connect-to-dependency-signalr.png)
+   ![Screenshot showing Connect to dependency for Azure SignalR.](./media/azure-signalr-add-connected-service/vs-2022/connect-to-dependency-signalr.png)
 
     If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
@@ -102,7 +102,7 @@ The connected service functionality adds all the needed references and connectio
 
     If you need to create a new component, go to the next step. Otherwise, skip to step 7.
 
-    ![Connect to existing Azure SignalR component](./media/azure-signalr-add-connected-service/created-signalr.png)
+    ![Screenshot showing "Connect to existing Azure SignalR component" screen.](./media/azure-signalr-add-connected-service/created-signalr.png)
 
 1. To create an Azure SignalR service instance:
 
@@ -110,21 +110,21 @@ The connected service functionality adds all the needed references and connectio
 
    1. Fill out the **Azure SignalR Service: Create new** screen, and select **Create**.
 
-       ![New Azure SignalR Service instance](./media/azure-signalr-add-connected-service/create-new-signalr.png)
+       ![Screenshot showing "New Azure SignalR Service instance" screen.](./media/azure-signalr-add-connected-service/create-new-signalr.png)
 
    1. When the **Configure Azure SignalR Service** screen is displayed, the new instance appears in the list. Select the new instance in the list, and select **Next**.
 
 1. Enter a connection string name, or choose the default, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
 
-   ![Specify connection string](./media/azure-signalr-add-connected-service/connection-string.png)
+   ![Screenshot showing "Specify connection string" screen.](./media/azure-signalr-add-connected-service/connection-string.png)
 
 1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
 
-   ![Summary of changes](./media/azure-signalr-add-connected-service/summary-of-changes.png)
+   ![Screenshot showing "Summary of changes" screen.](./media/azure-signalr-add-connected-service/summary-of-changes.png)
 
 1. In Solution Explorer, double-click on the **Connected Services** node to open the **Connected Services** tab. The connection appears under the **Service Dependencies** section:
 
-   ![Service dependencies](./media/azure-signalr-add-connected-service/service-dependencies-after.png)
+   ![Screenshot showing "Service Dependencies" section.](./media/azure-signalr-add-connected-service/service-dependencies-after.png)
 
    If you click on the three dots next to the dependency you added, you can see various options such as **Connect** to reopen the wizard and change the connection. You can also click the three dots at the top right of the window to see options to start local dependencies, change settings, and more.
 :::moniker-end
