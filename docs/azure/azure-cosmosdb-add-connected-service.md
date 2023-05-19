@@ -100,7 +100,7 @@ The connected service functionality adds all the needed references and connectio
 
     If you need to create a database, go to the next step. Otherwise, skip to step 7.
 
-    ![Screenshot showing "Add existing Azure Cosmos DB to project" screen.](./media/azure-cosmos-db-add-connected-service/created-cosmos-db.png)
+    ![Screenshot showing "Add existing Azure Cosmos DB to project" screen.](./media/azure-cosmosdb-add-connected-service/created-cosmos-db.png)
 
 1. To create an Azure Cosmos DB:
 
@@ -114,15 +114,15 @@ The connected service functionality adds all the needed references and connectio
 
 1. Enter a connection string name, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
 
-   ![Screenshot showing "Specify connection string" screen.](./media/azure-cosmos-db-add-connected-service/connection-string.png)
+   ![Screenshot showing "Specify connection string" screen.](./media/azure-cosmosdb-add-connected-service/connection-string.png)
 
 1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
 
-   ![Screenshot showing "Summary of changes" screen.](./media/azure-cosmos-db-add-connected-service/summary-of-changes.png)
+   ![Screenshot showing "Summary of changes" screen.](./media/azure-cosmosdb-add-connected-service/summary-of-changes.png)
 
 1. In Solution Explorer, double-click on the **Connected Services** node to open the **Connected Services** tab. The connection appears under the **Service Dependencies** section:
 
-   ![Screenshot showing "Service Dependencies" after adding the connected service.](./media/azure-cosmos-db-add-connected-service/service-dependencies-after.png)
+   ![Screenshot showing "Service Dependencies" after adding the connected service.](./media/azure-cosmosdb-add-connected-service/service-dependencies-after.png)
 
    If you click on the three dots next to the dependency you added, you can see various options such as **Connect** to reopen the wizard and change the connection. You can also click the three dots at the top right of the window to see options to start local dependencies, change settings, and more.
 :::moniker-end
