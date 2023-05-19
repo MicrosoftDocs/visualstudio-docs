@@ -30,7 +30,7 @@ This document is a quick walkthrough on how to create your first VS-SDK-compatib
 
 * Use the *VisualStudio.Extensibility Extension with VS SDK Compatibility* template to create a new solution.
 
-![VisualStudio.Extensibility In-Process Extension Project template](in-proc-project-template.png "VisualStudio.Extensibility Extension with VSSDK Compatibility Project template")
+![Screenshot of the VisualStudio.Extensibility in-process extension project template.](./media/in-proc-project-template.png)
 
 ## Debug your extension
 
@@ -40,7 +40,7 @@ This document is a quick walkthrough on how to create your first VS-SDK-compatib
 
 * You can find the command in `Tools` menu as shown in the following image:
 
-  ![Sample command](extension-command-2.png "Sample command")
+  ![Screenshot showing sample extension command.](./media/extension-command-2.png)
 
 ## Consuming Visual Studio SDK services from a VisualStudio.Extensibility extension
 

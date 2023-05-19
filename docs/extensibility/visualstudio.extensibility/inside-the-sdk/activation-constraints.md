@@ -94,3 +94,7 @@ Currently, the client context is limited to a small set of values in IDE state:
 | Shell.ActiveSelectionFileName | File name of the selected item in solution explorer. |
 | Shell.ActiveEditorContentType | Content type of the active editor view. |
 | Shell.ActiveEditorFileName | File name for the document that belongs to active editor view. |
+
+## Next steps
+
+Learn more about VisualStudio.Extensibility by reading [Components of a VisualStudio.Extensibility extension](./extension-anatomy.md).

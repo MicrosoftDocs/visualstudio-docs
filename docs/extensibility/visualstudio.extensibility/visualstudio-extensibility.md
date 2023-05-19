@@ -27,6 +27,8 @@ VisualStudio.Extensibility aims to address many of the problems developers exper
 
 Eventually, you will be able to use the VisualStudio.Extensibility SDK to write any extension you could write using the VS SDK. However, until that time, you might encounter situations where the functionality you need in your extension isn't yet available in VisualStudio.Extensibility. In that case, you can develop an in-process extension by leveraging the new VisualStudio.Extensibility APIs while relying on VS SDK to cover any feature gap. To learn more, see [In-proc extensions](./get-started/in-proc-extensions.md).
 
+The latest information on VisualStudio.Extensibility may be found in the VSExtensibility GitHub repo at [announcements](https://github.com/microsoft/VSExtensibility/blob/main/docs/announcements.md).
+
 ## Navigate the documentation
 
 | Article | Description|
@@ -45,7 +47,7 @@ The current VisualStudio.Extensibility preview works with Visual Studio 2022 ver
 
 Install the [VisualStudio.Extensibility Project System](https://marketplace.visualstudio.com/items?itemName=vsext.gladstone) extension. This extension contains project and item templates, and so you can debug extension projects using `F5`.
 
-## Get Started
+## Get started
 
 The following articles help you get oriented and started.
 
@@ -72,15 +74,15 @@ Learn about the [Remote UI](./inside-the-sdk/remote-ui.md) model used in the Vis
 
 Read an overview of the areas of the SDK that you might need for your extension development projects.
 
-* Create commands and expose them to users in the IDE, see [Commands](./extension-guides/command/command.md).
-* Work with contents of files and documents, see [Editor extensions](./extension-guides/editor/editor.md).
-* Work with the in-memory representation of those documents themselves, see [Documents](./extension-guides/document/documents.md)
-* Use the output window in an extension, see [Output window](./extension-guides/outputWindow/outputWindow.md).
-* Work with tool windows, dockable windows within the Visual Studio IDE, see [Tool windows](./extension-guides/toolWindow/toolWindow.md).
-* Use prompts with customizable buttons to interact with the user, see [User prompts](./extension-guides/userPrompt/userPrompts.md).
-* Use dialogs with custom UI to interact with the user, see [Dialogs](./extension-guides/dialog/dialog.md)
-* Create custom data visualizations when debugging, see [Debugger Visualizers](./extension-guides/debuggerVisualizer/debuggerVisualizers.md)
-* Query or modify information about project sand solutions, see [Project Query](./extension-guides/project/project.md)
+* Create commands and expose them to users in the IDE, see [Commands](./command/command.md).
+* Work with contents of files and documents, see [Editor extensions](./editor/editor.md).
+* Work with the in-memory representation of those documents themselves, see [Documents](./document/documents.md)
+* Use the output window in an extension, see [Output window](./output-window/output-window.md).
+* Work with tool windows, dockable windows within the Visual Studio IDE, see [Tool windows](./tool-window/tool-window.md).
+* Use prompts with customizable buttons to interact with the user, see [User prompts](./user-prompt/user-prompts.md).
+* Use dialogs with custom UI to interact with the user, see [Dialogs](./dialog/dialog.md)
+* Create custom data visualizations when debugging, see [Debugger Visualizers](./debugger-visualizer/debugger-visualizers.md)
+* Query or modify information about project sand solutions, see [Project Query](./project/project.md)
 
 ## Samples and tutorials
 
@@ -93,7 +95,7 @@ A Visual Studio solution containing all samples can be found at [Samples.sln](ht
 | [Command configuration](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CommandRegistrationsSample) | Shows how to configure a command with specific activation conditions. This command also uses a resource file for localization. |
 | [Command parenting](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/Command-Parenting-Sample) | Shows how to author a command that can be parented to different aspects of the IDE. |
 | [Document selector](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DocumentSelectorSample) | Shows how to create an editor extension that is only applicable to files matching a file path pattern. |
-| [Output window](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample) | Shows the most basic use of the [Output Window API](./extension-guides/outputWindow/outputWindow.md)|
+| [Output window](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/OutputWindowSample) | Shows the most basic use of the [Output Window API](./output-window/output-window.md)|
 | [Tool window](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/ToolWindowExtension) | Shows how to create a tool window and populate it with content. |
 | [User prompt](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/UserPromptSample) | Shows how to display a prompt to the user. |
 | [Dialog](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/DialogSample) | Shows how to display a dialog with custom UI to the user. |
@@ -102,7 +104,7 @@ A Visual Studio solution containing all samples can be found at [Samples.sln](ht
 | [Project Query](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/VSProjectQueryAPISample) | Shows several different kinds of project system queries you can make. |
 | [Comment remover](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CommentRemover) | Shows how to consume [Visual Studio SDK](https://www.nuget.org/packages/Microsoft.VisualStudio.SDK) services through .NET dependency injection and use VisualStudio.Extensibility APIs for commands, prompts and progress report. |
 
-## Advanced Topics
+## Advanced topics
 
 | Article | Description|
 |-|-|

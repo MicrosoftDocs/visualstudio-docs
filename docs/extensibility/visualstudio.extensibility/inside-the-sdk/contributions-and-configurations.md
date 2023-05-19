@@ -1,6 +1,6 @@
 ---
-title: Contributions and Configurations
-description: How to expose extensions components to Visual Studio and how to configure them
+title: Contributions and configurations
+description: Learn how to expose extensions components to Visual Studio and how to configure them.
 ms.date: 3/31/2023
 ms.topic: how-to
 ms.author: maiak
@@ -11,6 +11,8 @@ ms.technology: vs-ide-sdk
 ---
 
 # Contributions and Configurations
+
+You can expose extensions components to Visual Studio by deriving from certain base classes, and you can configure them by defining certain properties and using various attributes.
 
 ## Visual Studio Contributions
 
@@ -175,3 +177,7 @@ public sealed class DocumentTypeConfiguration : IVisualStudioContributionPropert
 The guidance about not referencing *compile-time constant* configuration properties at run time applies to Visual Studio contribution properties as well.
 
 In case a unique identifier is required for a Visual Studio contribution property, its full name (containing type full name and property name) is used by the VisualStudio.Extensibility infrastructure as an identifier. For example, the unique identifier of the toolbar configuration discussed here would be `CommandParentingSample.ExtensionCommandConfiguration.ToolbarConfiguration`.
+
+## Next steps
+
+Learn more about VisualStudio.Extensibility by reading [Components of a VisualStudio.Extensibility extension](./extension-anatomy.md).

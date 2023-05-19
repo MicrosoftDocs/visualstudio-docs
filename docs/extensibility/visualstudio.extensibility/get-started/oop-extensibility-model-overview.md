@@ -34,7 +34,6 @@ Writing extensions using VisualStudio.Extensibility provides the following benef
 * **.NET Only** – In order to benefit from latest enhancements on .NET and C#, the new extensibility model will only support .NET for out of process hosting and is hosted in a .NET process.
 * **Hot-loading functionality** – Excluding ones requiring VS component prerequisites that haven’t been installed yet, extensions written using the new model can be installed and loaded without needing to restart Visual Studio.
 * **Cross-CPU Platform** – Since underlying implementation is based on RPC compatible brokered services and is .NET based, all extensions will run on all CPU platforms supported by .NET runtime.
-* **Low-trust extensions (Coming Soon)** – Since extensions in the new model run in a separate process, they can be isolated from devenv and ran in a low-trust sandbox. This environment provides the extensions with read-only access to the file system and controlled writing access via the model’s APIs.
 
 ## Technology
 
@@ -42,7 +41,7 @@ The VisualStudio.Extensibility model is primarily built on top remote RPC contra
 
 Extensibility packages that are provided as part of the SDK consist of base classes, utility methods and wrapper objects around these RPC contracts, with the goal of making the extensibility surface area easier to use and easier to discover, and also make it easier for extension authors to quickly contribute to the Visual Studio ecosystem.
 
-## Next Steps
+## Next steps
 
 To get started writing an extension using the new model, here are some docs, walkthroughs, samples, and videos to get you started:
 

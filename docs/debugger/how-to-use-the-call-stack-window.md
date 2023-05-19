@@ -52,25 +52,38 @@ While debugging, in the **Debug** menu, select **Windows > Call Stack** or press
 
   ::: moniker range=">= vs-2022"
   :::image type="content" source="../debugger/media/vs-2022/dbg-basics-callstack-window.png" alt-text="Screenshot showing the Call Stack Window.":::
+  A arrow identifies the stack frame where the execution pointer is currently located. By default, this stack frame's information appears in the source, **Locals**, **Autos**, **Watch**, and **Disassembly** windows. To change the debugger context to another frame on the stack, [switch to another stack frame](#bkmk_switch).
+
   ::: moniker-end
   ::: moniker range="vs-2019"
 
   :::image type="content" source="../debugger/media/dbg_basics_callstack_window.png" alt-text="Screenshot showing the Call Stack Window.":::
-  ::: moniker-end
+  
 
 A yellow arrow identifies the stack frame where the execution pointer is currently located. By default, this stack frame's information appears in the source, **Locals**, **Autos**, **Watch**, and **Disassembly** windows. To change the debugger context to another frame on the stack, [switch to another stack frame](#bkmk_switch).
 
+::: moniker-end
 ::: moniker range=">= vs-2022"
 You can also view exception stack frames in the call stack while debugging. For more information, see [View the call stack in the Exception helper](../debugger/exception-helper.md#view-the-call-stack).
 ::: moniker-end
 
 ## Display non-user code in the Call Stack window
+  ::: moniker range="vs-2019"
 
-To display external or non-user code right-click on the **Call Stack** window and select **Show External Code**.
+To display external or non-user code toggle the Show External code  right-click on the **Call Stack** window and select **Show External Code**.
+
+  ::: moniker-end
+
+  ::: moniker range=">=vs-2022"
+
+To display external or non-user code, toggle the **Show External Code** button from the call stack toolbar or  right-click on the **Call Stack** window and select **Show External Code**.
+
+  ::: moniker-end
 
 Non-user code is any code that is not shown when [Just My Code](../debugger/just-my-code.md) is enabled. In managed code, non-user code frames are hidden by default. The following notation appears in place of the non-user code frames:
 
 `[<External Code>]`
+
 
 ## <a name="bkmk_switch"></a> Switch to another stack frame (change the debugger context)
 
@@ -81,6 +94,16 @@ Non-user code is any code that is not shown when [Just My Code](../debugger/just
 2. Select **Switch to Frame**.
 
      A green arrow with a curly tail appears next to the stack frame you selected. The execution pointer remains in the original frame, which is still marked with the yellow arrow. If you select **Step** or **Continue** from the **Debug** menu, execution will continue in the original frame, not the frame you selected.
+
+  ::: moniker range=">=vs-2022"
+
+## View all related threads
+Toggle the **View all threads** button to see all the related threads in the Parallel Stack window. 
+
+## Call Stack Search 
+You can search for relevant call stack frames by typing relevant search terms in the search box located in the top left corner of the call stack window. The pertinent call stack frames will get highlighted. 
+
+  ::: moniker-end
 
 ## View the source code for a function on the call stack
 

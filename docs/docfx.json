@@ -97,7 +97,6 @@
       "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
       "feedback_product_url": "https://developercommunity2.visualstudio.com/search?space=8",
       "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
-      "extendBreadcrumb": "true",
       "manager": "jmartens",
       "audience": "developer",
       "defaultDevLang": "csharp",

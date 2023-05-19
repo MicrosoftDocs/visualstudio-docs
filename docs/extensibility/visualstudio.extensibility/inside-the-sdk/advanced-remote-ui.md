@@ -14,7 +14,7 @@ ms.technology: vs-ide-sdk
 
 In this tutorial, you learn about advanced Remote UI concepts by incrementally modifying a tool window that shows a list of random colors:
 
-![Random colors tool window](colors-tool-window.png "Random colors tool window")
+![Screenshot showing random colors tool window.](./media/colors-tool-window.png)
 
 You'll learn about:
 
@@ -141,7 +141,7 @@ One of the most important differences between Remote UI and normal WPF is that a
 
 You can see the effect of this if you click the **Add color** button multiple times in a short time: since each command execution takes 2 seconds, multiple executions occur in parallel and multiple colors will appear in the list together when the 2-second delay is over. This might give the impression to the user that the **Add color** button isn't working.
 
-![Overlapped async command execution](overlapped-async-commands.gif "Overlapped async command execution")
+![Diagram of overlapped async command execution.](./media/overlapped-async-commands.gif)
 
 To address this, disable the button while the *async command* is executing. The most straightforward way to do this is to simply set `CanExecute` for the command to false:
 
@@ -223,7 +223,7 @@ The processes of
 
 all honor the identity of reference type objects. Except for strings, reference type objects are never duplicated when transferred back to the extension.
 
-![Remote UI data binding reference types](remote-ui-databinding-references.png "Remote UI data binding reference types")
+![Diagram of Remote UI data binding reference types.](./media/remote-ui-databinding-references.png)
 
 In the picture, you can see how every reference type object in the data context (the commands, the collection, each `MyColor` and even the entire data context) is assigned a unique identifier by the Remote UI infrastructure. When the user clicks the **Remove** button for the proxy color object *#5*, the unique identifier (*#5*), not the value of the object, is sent back to the extension. The Remote UI infrastructure takes care of retrieving the corresponding `MyColor` object and passing it as parameter to the *async command*'s callback.
 
@@ -231,7 +231,7 @@ In the picture, you can see how every reference type object in the data context 
 
 If you test the extension at this point, notice that when one of the **Remove** buttons is clicked, all **Remove** buttons are disabled:
 
-![Async Command with multiple bindings](async-commands-multiple-bindings.gif "Async Command with multiple bindings")
+![Diagram of async Command with multiple bindings.](./media/async-commands-multiple-bindings.gif)
 
 This may be the desired behavior. But, suppose you want only the current button to be disabled and you allow the user to queue multiple colors for removal: we can't use the *async command*'s `RunningCommandsCount` property because we have a single command shared between all the buttons.
 
@@ -259,7 +259,7 @@ The `vs:ExtensibilityUICommands.EventHandlers` attached property allows assignin
 
 In this case, we use `vs:EventHandler` to attach to each button its own separate counter of active command executions. By binding `IsEnabled` to the attached property, only that specific button is disabled when the corresponding color is being removed:
 
-![Async Command with targeted RunningCommandsCount](targeted-counter.gif "Async Command with targeted RunningCommandsCount")
+![Diagram of async Command with targeted RunningCommandsCount.](./media/targeted-counter.gif)
 
 ## Use WPF types in the data context
 
@@ -292,10 +292,14 @@ public class MyColor
 ```
 
 With the code above, the `Color` property value is converted to a `LinearGradientBrush` object in the data context proxy:
-![WPF types in data context](wpf-types-in-data-context.png "WPF types in data context")
+![Screenshot showing WPF types in data context](./media/wpf-types-in-data-context.png)
 
 ## Remote UI and threads
 
 *Async command* callbacks (and `INotifyPropertyChanged` callbacks for values updated by the UI through data biding) are raised on random thread pool threads. Callbacks are raised one at a time and won't overlap until the code yields control (using an `await` expression).
 
 This behavior can be changed by passing a [NonConcurrentSynchronizationContext](/dotnet/api/microsoft.visualstudio.threading.nonconcurrentsynchronizationcontext) to the `RemoteUserControl` constructor. In that case, you can use the provided synchronization context for all *async command* and `INotifyPropertyChanged` callbacks related to that control.
+
+## Next steps
+
+Learn more about VisualStudio.Extensibility by reading [Components of a VisualStudio.Extensibility extension](./extension-anatomy.md).

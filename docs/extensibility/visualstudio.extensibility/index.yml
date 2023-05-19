@@ -40,23 +40,23 @@ landingContent:
       - linkListType: how-to-guide
         links:
           - text: Commands
-            url: ./extension-guides/command/command.md
+            url: ./command/command.md
           - text: Debug visualizers
-            url: ./extension-guides/debuggerVisualizer/debuggerVisualizers.md
+            url: ./debugger-visualizer/debugger-visualizers.md
           - text: Dialogs
-            url: ./extension-guides/dialog/dialog.md
+            url: ./dialog/dialog.md
           - text: Documents
-            url: ./extension-guides/document/documents.md
+            url: ./document/documents.md
           - text: Editor
-            url: ./extension-guides/editor/editor.md
+            url: ./editor/editor.md
           - text: Output window
-            url: ./extension-guides/outputWindow/outputWindow.md
+            url: ./output-window/output-window.md
           - text: Project
-            url: ./extension-guides/project/project.md
+            url: ./project/project.md
           - text: Tool windows
-            url: ./extension-guides/toolWindow/toolWindow.md
+            url: ./tool-window/tool-window.md
           - text: User prompts
-            url: ./extension-guides/document/documents.md
+            url: ./document/documents.md
 
   # Card
   - title: Resources
