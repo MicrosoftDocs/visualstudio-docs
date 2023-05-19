@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot profiling errors
 description: Learn how to resolve possible profiling errors with error message guidance
-ms.date: 03/10/2023
+ms.date: 05/18/2023
 ms.topic: how-to
 ms.assetid: 
 author: mikejo5000
@@ -91,6 +91,19 @@ Sometimes during data capture, events can be dropped that can cause the resultin
 
 **How to fix**
 To help reduce dropped events, you can close other disk- and CPU-intensive operations while profiling. By closing these operations, the system can dedicate more resources to flushing the incoming events. You can also try reducing the sampling frequencies on the tools that support these configuration settings, such as the CPU Usage tool and .NET Allocation tool, and thereby reduce overhead.
+
+## Error: ETW resources have been exhausted
+
+The Visual Studio profiler uses Event Tracing for Windows (ETW) to collect its performance information. There are a finite number of ETW sessions available for use on a system and if all the sessions are already in use you get the following error: `ETW resources have been exhausted`. These sessions are used by other programs such as the SysInternals suite of tools, other profilers, and other diagnostic tools. You can resolve this issue by either:
+
+- Closing the programs that are using the sessions to free up resources, or
+- Setting aside more resources by running the following from an elevated command prompt and then rebooting:
+
+  ```cmd
+  reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\WMI" /v EtwMaxLoggers /t REG_DWORD /d 128
+  ```
+
+  Running this command increases the default number of sessions from 64 to 128 (256 is the max number of sessions allowed on a system).
 
 ## See also
 

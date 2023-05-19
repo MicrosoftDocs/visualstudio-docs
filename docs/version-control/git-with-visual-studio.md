@@ -2,7 +2,7 @@
 title: The Git experience in Visual Studio
 titleSuffix: ""
 description: Learn how Git makes source control in Visual Studio more productive.
-ms.date: 05/16/2023
+ms.date: 05/17/2023
 ms.topic: overview
 author: houghj16
 ms.author: tglee
@@ -39,7 +39,7 @@ Not only can you add both [GitHub and GitHub Enterprise accounts to your keychai
 
 If you're new to Git, the [https://git-scm.com/](https://git-scm.com/) website is a good place to start.
 
-:::image type="content" source="media/git-source-control-create-repository.png" alt-text="The Create a Git Repository dialog box in Visual Studio.":::
+:::image type="content" source="media/vs-2022/git-source-control-create-repository.png" alt-text="Screenshot of the Create a Git Repository dialog box in Visual Studio." lightbox="media/vs-2022/git-source-control-create-repository.png":::
 
 ## View files in Solution Explorer
 
@@ -84,7 +84,7 @@ To personalize your Git settings at a repository level as well as at a global le
 1. Go to either **Git** > **Settings** on the menu bar or **Tools** > **Options** > **Source Control** > **Git Global Settings**
 2. Choose the [options](git-settings.md) you want.
 
-:::image type="content" source="media/git-options-settings.png" alt-text="The Options dialog box where you can choose personalization and customization settings in Visual Studio IDE.":::
+    :::image type="content" source="media/vs-2022/git-options-settings.png" alt-text="Screenshot of the Options dialog box where you can choose personalization and customization settings in Visual Studio IDE." lightbox="media/vs-2022/git-options-settings.png":::
 
 ## Performance & productivity enhancements
 
