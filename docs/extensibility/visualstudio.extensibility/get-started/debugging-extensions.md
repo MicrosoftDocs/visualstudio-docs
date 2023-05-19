@@ -57,4 +57,4 @@ To connect manually using **Debug > Attach to Process**, the process to look for
 
 - [Learn more about debugging](/visualstudio/debugger/)
 
-- [Learn more about extensions](visualstudio-extensibility.md)
+- [Learn more about extensions](../visualstudio-extensibility.md)
