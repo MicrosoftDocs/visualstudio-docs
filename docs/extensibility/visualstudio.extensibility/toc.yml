@@ -1,5 +1,5 @@
 items:
-- name: VisualStudio.Extensibility documentation
+- name: VisualStudio.Extensibility documentation (Preview)
   href: index.yml
 - name: Overview
   expanded: true
