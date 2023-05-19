@@ -53,7 +53,7 @@ The connected service functionality adds all the needed references and connectio
 
    You can reduce cost and simplify early development by starting with a local database. You can migrate to the live service in Azure later by repeating these steps and choosing another option. If you create a database locally that you want to recreate in Azure, you can migrate your database to Azure at that time.
 
-   ![Screenshot showing SQL database choices](./media/vs-2022/sql-database-choices-2.png)
+   ![Screenshot showing SQL database choices.](./media/vs-2022/sql-database-choices-2.png)
 
    If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign into your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
@@ -61,7 +61,7 @@ The connected service functionality adds all the needed references and connectio
 
     If you need to create a new component, go to the next step. Otherwise, skip to step 7.
 
-    ![Connect to existing Azure SQL Database component](./media/azure-sql-database-add-connected-service/created-azure-sql-database.png)
+    ![Screenshot showing "Connect to existing Azure SQL Database component" screen.](./media/azure-sql-database-add-connected-service/created-azure-sql-database.png)
 
 1. To create an Azure SQL Database:
 
@@ -69,25 +69,25 @@ The connected service functionality adds all the needed references and connectio
 
    1. Fill out the **Azure SQL Database: Create new** screen, and select **Create**.
 
-       ![New Azure SQL Database](./media/azure-sql-database-add-connected-service/create-new-azure-sql-database.png)
+       ![Screenshot showing "New Azure SQL Database" screen.](./media/azure-sql-database-add-connected-service/create-new-azure-sql-database.png)
 
    1. When the **Configure Azure SQL Database** screen is displayed, the new database appears in the list. Select the new database in the list, and select **Next**.
 
 1. Enter a connection string name, or choose the default, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
 
-   ![Specify connection string](./media/azure-sql-database-add-connected-service/connection-string.png)
+   ![Screenshot showing "Specify connection string" screen.](./media/azure-sql-database-add-connected-service/connection-string.png)
 
 1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
 
-   ![Summary of changes](./media/azure-sql-database-add-connected-service/summary-of-changes.png)
+   ![Screenshot showing "Summary of changes" section.](./media/azure-sql-database-add-connected-service/summary-of-changes.png)
 
    If prompted to set a firewall rules, choose **Yes**.
 
-   ![Firewall rules](./media/azure-sql-database-add-connected-service/firewall-rules.png)
+   ![Screenshot showing "Firewall rules"](./media/azure-sql-database-add-connected-service/firewall-rules.png)
 
 1. In Solution Explorer, double-click on the **Connected Services** node to open the **Connected Services** tab. The connection appears under the **Service Dependencies** section:
 
-   ![Service dependencies](./media/azure-sql-database-add-connected-service/service-dependencies-after.png)
+   ![Screenshot showing "Service Dependencies" section.](./media/azure-sql-database-add-connected-service/service-dependencies-after.png)
 
    If you click on the three dots next to the dependency you added, you can see various options such as **Connect** to reopen the wizard and change the connection. You can also click the three dots at the top right of the window to see options to start local dependencies, change settings, and more.
 

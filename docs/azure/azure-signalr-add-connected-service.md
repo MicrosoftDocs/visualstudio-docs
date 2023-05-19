@@ -90,11 +90,11 @@ The connected service functionality adds all the needed references and connectio
 
 1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add** to open the menu of available services.
 
-   ![Screenshot showing Connected Services context menu options.](./media/vs-2022/add-connected-service-context-menu-2.png)
+   ![Screenshot showing Connected Services context menu options.](./media/azure-signalr-add-connected-service/vs-2022/add-connected-service-context-menu-2.png)
 
 1. Choose **Azure SignalR Service**. The **Connect to dependency** page appears.
 
-   ![Screenshot showing Connect to dependency for Azure SignalR](./media/vs-2022/connect-to-dependency-signalr.png)
+   ![Screenshot showing Connect to dependency for Azure SignalR](./media/azure-signalr-add-connected-service/vs-2022/connect-to-dependency-signalr.png)
 
     If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 

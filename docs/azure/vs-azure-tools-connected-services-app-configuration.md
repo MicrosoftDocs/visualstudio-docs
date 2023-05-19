@@ -38,15 +38,15 @@ You can use the App Configuration Connected Services feature in the following pr
 
 1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add Connected Service**.
 
-    ![Add Azure connected service](./media/vs-azure-tools-connected-services-storage/vs-2019/add-connected-service.png)
+    ![Screenshot showing "Add Azure connected service" screen.](./media/vs-azure-tools-connected-services-storage/vs-2019/add-connected-service.png)
 
 1. In the **Connected Services** tab, select the + icon for **Service Dependencies**.
 
-    ![Add Service Dependency](./media/vs-azure-tools-connected-services-storage/vs-2019/connected-services-tab.png)
+    ![Screenshot showing "Add Service Dependency" screen.](./media/vs-azure-tools-connected-services-storage/vs-2019/connected-services-tab.png)
 
 1. In the **Add Dependency** page, select **Azure App Configuration**.
 
-    ![Add App Configuration](./media/vs-azure-tools-connected-services-app-configuration/add-azure-app-configuration.png)
+    ![Screenshot showing "Add App Configuration" screen.](./media/vs-azure-tools-connected-services-app-configuration/add-azure-app-configuration.png)
 
     If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/dotnet).
 
@@ -54,7 +54,7 @@ You can use the App Configuration Connected Services feature in the following pr
 
     If you need to create an App Configuration store, go to the next step. Otherwise, skip to step 6.
 
-    ![Add existing configuration account to project](./media/vs-azure-tools-connected-services-app-configuration/select-config-store.png)
+    ![Screenshot showing "Add existing configuration account to project" screen.](./media/vs-azure-tools-connected-services-app-configuration/select-config-store.png)
 
 1. To create an app configuration store:
 
@@ -62,17 +62,17 @@ You can use the App Configuration Connected Services feature in the following pr
 
    1. Fill out the **Azure App Configuration: Create new** dialog, and select **Create**. Note that the Resource Name field needs to be unique. 
 
-       ![New Azure app config store](./media/vs-azure-tools-connected-services-app-configuration/create-new-config-store.png)
+       ![Screenshot showing New Azure app config store.](./media/vs-azure-tools-connected-services-app-configuration/create-new-config-store.png)
 
    1. When the **Azure App Configuration** dialog is displayed, the new configuration store appears in the list. Select this new store, then select **Next**.
 
 1. Enter a connection string name, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
 
-   ![Specify connection string](./media/vs-azure-tools-connected-services-app-configuration/connection-string-app-config.png)
+   ![Screenshot showing "Specify connection string" screen.](./media/vs-azure-tools-connected-services-app-configuration/connection-string-app-config.png)
 
 1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
 
-   ![Summary of changes](./media/vs-azure-tools-connected-services-app-configuration/summary-of-changes-app-config.png)
+   ![Screenshot showing summary of changes.](./media/vs-azure-tools-connected-services-app-configuration/summary-of-changes-app-config.png)
 
 1. Once the **Dependency configuration process** has finished, Azure App Configuration now appears under the **Service Dependencies** node of your project.
 
@@ -88,7 +88,7 @@ You can use the App Configuration Connected Services feature in the following pr
 
 1. Choose **Azure App Configuration**. The **Connect to dependency** page appears.
 
-   ![Screenshot showing Connect to dependency for Azure App Configuration](./media/vs-2022/connect-to-dependency-app-configuration.png)
+   ![Screenshot showing Connect to dependency for Azure App Configuration.](./media/vs-2022/connect-to-dependency-app-configuration.png)
 
     If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
@@ -96,7 +96,7 @@ You can use the App Configuration Connected Services feature in the following pr
 
     If you need to create an App Configuration store, go to the next step. Otherwise, skip to step 6.
 
-    ![Add existing configuration account to project](./media/vs-azure-tools-connected-services-app-configuration/select-config-store.png)
+    ![Screenshot showing 'Add existing configuration account to project".](./media/vs-azure-tools-connected-services-app-configuration/select-config-store.png)
 
 1. To create an app configuration store:
 
@@ -104,25 +104,25 @@ You can use the App Configuration Connected Services feature in the following pr
 
    1. Fill out the **Azure App Configuration: Create new** dialog, and select **Create**. Note that the Resource Name field needs to be unique. 
 
-       ![New Azure app config store](./media/vs-azure-tools-connected-services-app-configuration/create-new-config-store.png)
+       ![Screenshot showing new Azure app config store.](./media/vs-azure-tools-connected-services-app-configuration/create-new-config-store.png)
 
    1. When the **Azure App Configuration** dialog is displayed, the new configuration store appears in the list. Select this new store, then select **Next**.
 
 1. Enter a connection string name, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
 
-   ![Specify connection string](./media/vs-azure-tools-connected-services-app-configuration/connection-string-app-config.png)
+   ![Screenshot showing "Specify connection string" screen.](./media/vs-azure-tools-connected-services-app-configuration/connection-string-app-config.png)
 
 1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
 
-   ![Summary of changes](./media/vs-azure-tools-connected-services-app-configuration/summary-of-changes-app-config.png)
+   ![Screenshot showing summary of changes.](./media/vs-azure-tools-connected-services-app-configuration/summary-of-changes-app-config.png)
 
    Once the **Dependency configuration process** has finished, Azure App Configuration now appears under the **Service Dependencies** node of your project.
 
 1. In Solution Explorer, double-click on the **Connected Services** node to open the **Connected Services** tab. The connection appears under the **Service Dependencies** section:
 
-   ![Screenshot of Service Dependencies showing Azure App Configuration connection](./media/vs-2022/app-configuration-added.png)
+   ![Screenshot of Service Dependencies section showing Azure App Configuration connection.](./media/vs-2022/app-configuration-added.png)
 
-   There's also a *Secrets.json* entry that supports secure storage of the connection string locally. Read about how this works at [Safe storage of app secrets in development in ASP.NET Core](/aspnet/core/security/app-secrets?tabs=windows).
+   There's also a *Secrets.json* entry that supports secure storage of the connection string locally. Read about how this works at [Screenshot showing safe storage of app secrets in development in ASP.NET Core](/aspnet/core/security/app-secrets?tabs=windows).
 
    If you click on the three dots next to the dependencies you added, you can see various options such as **Connect** to reopen the wizard and change the connection, and for *Secrets.json*, the option to manage secrets. You can also click the three dots at the top right of the window to see options to start local dependencies, change settings, and more.
 
