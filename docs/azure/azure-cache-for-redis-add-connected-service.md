@@ -90,7 +90,7 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot showing Connected Services context menu options.](./media/azure-redis-cache-add-connected-service/vs-2022/add-connected-service-context-menu-2.png)
 
-1. Choose **Azure Cache for Redis**. The **Connect to Dependency** page appears. You should see two options, one for a local emulator, **Redis Cache on container (Local)**, and one for connecting to the live Azure Cache for Redis service. You can reduce cost and simplify early development by starting with the local emulator. You can migrate to the live service later by repeating these steps and choosing the other option.
+1. Choose **Azure Cache for Redis**. The **Connect to dependency** page appears. You should see two options, one for a local emulator, **Redis Cache on container (Local)**, and one for connecting to the live Azure Cache for Redis service. You can reduce cost and simplify early development by starting with the local emulator. You can migrate to the live service later by repeating these steps and choosing the other option.
 
    ![Screenshot showing Redis cache choices](./media/azure-redis-cache-add-connected-service/vs-2022/azure-cache-for-redis-add-dependency-2.png)
 

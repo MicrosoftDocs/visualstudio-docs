@@ -92,7 +92,7 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot of using Feature Search to search for Azure Storage.](./media/vs-2022/feature-search-azure-storage.png)
 
-1. In the **Connect to Dependency** page, select **Azure Storage**, and then click **Next**.
+1. In the **Connect to dependency** page, select **Azure Storage**, and then click **Next**.
 
     ![Screenshot showing connecting to dependency - Azure Storage.](./media/vs-2022/connect-to-dependency-azure-storage.png)
 

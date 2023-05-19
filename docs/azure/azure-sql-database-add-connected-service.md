@@ -44,7 +44,7 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot showing Connected Services context menu options.](./media/vs-2022/add-connected-service-context-menu-2.png)
 
-1. Choose **SQL Server Database**. The **Connect to Dependency** page appears. You should see several options:
+1. Choose **SQL Server Database**. The **Connect to dependency** page appears. You should see several options:
 
    - SQL Server Express LocalDB, the built-in SQL database offering installed with Visual Studio
    - SQL Server Database on a local container on your machine
