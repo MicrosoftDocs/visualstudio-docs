@@ -14,6 +14,8 @@
     href: beginners-guide-to-performance-profiling.md
   - name: Measure memory usage in Visual Studio
     href: memory-usage.md
+  - name: Reduce compute costs using profiling tools
+    href: optimize-code-using-profiling-tools.md
 - name: Concepts
   items:
   - name: Understanding performance collection methods

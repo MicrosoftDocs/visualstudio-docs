@@ -253,7 +253,7 @@
     items:
     - name: Use the editor
       href: ide/writing-code-in-the-code-and-text-editor.md
-    - name: Use the Text Spell Checker (Preview)
+    - name: Use the Spell Checker
       href: ide/text-spell-checker.md
     - name: Find and replace
       items:
