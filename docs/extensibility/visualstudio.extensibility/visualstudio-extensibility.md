@@ -10,7 +10,7 @@ manager: jmartens
 ms.technology: vs-ide-sdk
 ---
 
-# About VisualStudio.Extensibility
+# About VisualStudio.Extensibility (Preview)
 
 VisualStudio.Extensibility is a new framework for developing Visual Studio extensions. The new framework focuses primarily on extensions that run out-of-process from the IDE for improved performance and reliability, and it features a modern, asynchronous API that has been streamlined and carefully engineered to maximize developer productivity. VisualStudio.Extensibility is in active development and is available as a preview.
 
