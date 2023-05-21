@@ -3,12 +3,12 @@ title: 'Microsoft Fakes: Generate & compile code; naming conventions'
 description: Learn about options and issues in Fakes code generation and compilation, including the naming conventions for Fakes-generated types, members, and parameters.
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.author: mikejo
-manager: jmartens
+ms.author: oscalles
+manager: aajohn
 ms.technology: vs-ide-test
 ms.workload:
 - multiple
-author: mikejo5000
+author: ocallesp
 ---
 # Code generation, compilation, and naming conventions in Microsoft Fakes
 
@@ -270,6 +270,26 @@ The following rules are applied recursively:
 - Because Fakes uses C# to generate the Fakes assemblies, any character that would produce an invalid C# token is escaped to "_" (underscore).
 
 - If a resulting name clashes with any member of the declaring type, a numbering scheme is used by appending a two-digit counter, starting at 01.
+
+
+## Utilizing Microsoft Fakes in Continuous Integration
+
+### Microsoft Fakes Assembly Generation
+
+Microsoft Fakes is a feature available exclusively in Visual Studio Enterprise. As such, the generation of Fakes Assemblies necessitates the use of the [Visual Studio Build Task](/azure/devops/pipelines/tasks/build/visual-studio-build?view=azure-devops&preserve-view=true) when building your project.
+
+> [!NOTE]
+> An alternative strategy involves checking your Fakes Assemblies directly into the Continuous Integration (CI) system and utilizing the [MSBuild Task](../msbuild/msbuild-task.md?view=vs-2019&preserve-view=true). If you opt for this approach, you need to make sure to include an assembly reference to the generated Fakes assembly in your test project, as shown in the following code snippet:
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+    <ItemGroup>
+        <Reference Include="FakesAssemblies\System.Fakes.dll"/>
+    </ItemGroup>
+</Project>
+```
+
+This reference must be added manually, specifically for SDK-style projects (i.e., .NET Core, .NET 5.0, and .NET Framework) since these projects now implicitly add assembly references. If you decide to use this method, be sure to update the Fakes assembly whenever the parent assembly undergoes changes.
 
 ## See also
 
