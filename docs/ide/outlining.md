@@ -60,5 +60,5 @@ You can also use the Visual Studio SDK to define the text regions you want to ex
 
 ## See also
 
-- [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Features of the code editor](writing-code-in-the-code-and-text-editor.md)
 - [Source editor (Visual Studio for Mac)](/visualstudio/mac/source-editor)
