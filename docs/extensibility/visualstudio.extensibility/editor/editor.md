@@ -10,7 +10,7 @@ manager: jmartens
 ms.technology: vs-ide-sdk
 ---
 
-# Editor extensions overview
+# Extend the Visual Studio editor
 
 The Visual Studio editor supports extensions that add to its capabilities. Examples include extensions that insert and modify code in an existing language.
 

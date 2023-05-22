@@ -10,7 +10,7 @@ ms.date: 02/02/2023
 ms.custom: template-overview
 ---
 
-# Commands overview
+# Extend Visual Studio commands
 
 A command represented by the `Command` class is some action that can be initiated by a user, such as when the user chooses a menu item, presses a toolbar button, or types a keyboard shortcut. Commands have a display name, an execution method (`ExecuteCommandAsync`) that performs the action, an icon for display in the toolbar to identify the command, and a tooltip to explain the command to the user. Commands can be enabled or disabled depending on various conditions.
 
