@@ -128,7 +128,7 @@ MSBuild determines the target build order as follows:
 4. Before the target is executed or skipped, its `DependsOnTargets` targets are run, unless the `Condition` attribute is applied to the target and evaluates to `false`.
 
    > [!NOTE]
-   > A target is considered skipped if it is not executed because its output items are up-to-date (see [incremental build](../msbuild/incremental-builds.md)). This check is done just before executing the tasks inside target, and does not affect the order of execution of targets.
+   > A target is considered skipped if it is not executed because its output items are up-to-date (see [incremental build](../msbuild/incremental-builds.md)). This check is done just before executing the tasks inside the target, and does not affect the order of execution of targets.
 
 5. Before the target is executed or skipped, any other target that lists the target in a `BeforeTargets` attribute is run.
 
