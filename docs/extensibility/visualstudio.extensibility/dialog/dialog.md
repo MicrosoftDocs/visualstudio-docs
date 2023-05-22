@@ -10,7 +10,7 @@ manager: jmartens
 ms.technology: vs-ide-sdk
 ---
 
-# Extend Visual Studio dialogs
+# Create Visual Studio dialogs
 
 Dialogs are a way to prompt a user for information or to allow for customizations of feature behavior. For example, the Tools/Options dialog has individual pages that let the user control the behavior for features like themes, editors, and document tabs.
 

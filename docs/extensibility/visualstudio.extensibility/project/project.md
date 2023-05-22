@@ -10,7 +10,7 @@ ms.date: 02/13/2023
 ms.custom: template-overview
 ---
 
-# Extend the project query API
+# Query the project API
 
 The VisualStudio.Extensibility project query API allows for querying information from the project system. Project systems are a part of Visual Studio components to help users work with and maintain projects, run builds to produce results, and to test output.
 

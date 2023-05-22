@@ -59,7 +59,7 @@ public override CommandConfiguration CommandConfiguration => new("%InsertGuidCom
 };
 ```
 
-You can specify a known built-in icon, in this case `OfficeWebExtension`, or upload images for the icon as described in [Extend Visual Studio commands](../command/command.md). The second argument is an enumeration that determines how the command should appear in toolbars (in addition to its place in a menu). The option `IconSettings.IconAndText` means show the icon and the display name next to each other.
+You can specify a known built-in icon, in this case `OfficeWebExtension`, or upload images for the icon as described in [Add Visual Studio commands](../command/command.md). The second argument is an enumeration that determines how the command should appear in toolbars (in addition to its place in a menu). The option `IconSettings.IconAndText` means show the icon and the display name next to each other.
 
 1. Add the `VisibleWhen` property which specifies the conditions that must apply for the item to appear to the user.
 
@@ -128,6 +128,6 @@ await this.Extensibility.Editor().EditAsync(
 
 You could think of this call as specifying the code that you want to be run in the Visual Studio editor process. The lambda expression specifies what you want changed in the editor. The `batch` is of type `IEditBatch` and this implies that the lambda expression defined here makes a small set of changes that should be accomplished as a unit, rather than being interrupted by other edits by the user or language service. If the code executes too long, that can lead to unresponsiveness, so it's important to keep changes within this lambda expression limited and understand anything that could lead to delays.
 
-Using the `AsEditable` method on the document, you get a temporary editor object that you can use to specify the desired changes. Think of everything in the lambda expression as a request for Visual Studio to execute rather than as actually executing, because as described in the [Extend the Visual Studio editor](../editor/editor.md), there's a particular protocol for handling these asynchronous edit requests from extensions, and there's a possibility of the changes not being accepted, such as if the user is making changes at the same time that create a conflict.
+Using the `AsEditable` method on the document, you get a temporary editor object that you can use to specify the desired changes. Think of everything in the lambda expression as a request for Visual Studio to execute rather than as actually executing, because as described in the [Use Visual Studio editor extensibility](../editor/editor.md), there's a particular protocol for handling these asynchronous edit requests from extensions, and there's a possibility of the changes not being accepted, such as if the user is making changes at the same time that create a conflict.
 
 The `EditAsync` pattern can be used to modify text in general by specifying your modifications after the "specify your desired changes here" comment.

@@ -40,4 +40,4 @@ string-resources.json sample:
 
 ## Next steps
 
-Learn more about VisualStudio.Extensibility commands at [Extend Visual Studio commands](command.md).
+Learn more about VisualStudio.Extensibility commands at [Add Visual Studio commands](command.md).

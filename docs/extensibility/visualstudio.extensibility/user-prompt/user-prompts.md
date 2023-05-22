@@ -10,7 +10,7 @@ manager: jmartens
 ms.technology: vs-ide-sdk
 ---
 
-# Extend Visual Studio user prompts
+# Create Visual Studio user prompts
 
 User prompts are a simple UI mechanism for prompting the user during the execution of a [Command](../command/command.md). Prompting the user creates a dialog box with a message, one to three buttons for the choices, and a dismiss button.
 

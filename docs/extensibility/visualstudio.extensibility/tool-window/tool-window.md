@@ -10,7 +10,7 @@ manager: jmartens
 ms.technology: vs-ide-sdk
 ---
 
-# Extend Visual Studio tool windows
+# Create Visual Studio tool windows
 
 Tool windows are a way to add complex UI and interactions to Visual Studio. They typically provide a user-friendly way to interact with various APIs and features. For example, the Solution Explorer tool window provides a tree-based view of the current project/solution/folder and provides simple gestures for the opening, renaming, and creating of files.
 
