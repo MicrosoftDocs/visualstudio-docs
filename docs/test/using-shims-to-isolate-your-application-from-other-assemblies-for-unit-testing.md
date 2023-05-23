@@ -40,7 +40,7 @@ this.Records = System.IO.File.ReadAllLines(path);
 
 1. Open Visual Studio and create a `Class Library` project
 
-![Create Class Library project](../test/media/microsoft_fakes_shims_create_class_library_project.png)
+   ![Create Class Library project](../test/media/microsoft_fakes_shims_create_class_library_project.png)
 
 2. Set project name `HexFileReader`
 3. Set solution name `ShimsTutorial`.
