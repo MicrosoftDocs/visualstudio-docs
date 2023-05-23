@@ -465,7 +465,7 @@ Each generated shim type includes an instance of the `IShimBehavior` interface, 
 
 By default, if no specific behavior has been set, it uses the instance returned by the static `ShimBehaviors.Current` property, which typically throws a `NotImplementedException` exception.
 
-You can modify this behavior at any time by adjusting the `InstanceBehavior` property for any shim instance. For instance, the code snippet below alters the behavior to either do nothing or return the default value of the return type—i.e., `default(T)`:
+You can modify this behavior at any time by adjusting the `InstanceBehavior` property for any shim instance. For instance, the following code snippet alters the behavior to either do nothing or return the default value of the return type—i.e., `default(T)`:
 
 ```csharp
 // unit test code
