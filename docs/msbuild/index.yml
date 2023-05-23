@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: MSBuild documentation
-summary: Learn how to use MSBuild to build projects.
+summary: MSBuild is the build system used by Visual Studio for .NET projects and C++ projects. Learn how MSBuild uses the information in project files and imported files to build your projects. You can customize the build by setting command-line options, setting the values of properties, items, and metadata, extending the build system by defining your own targets and tasks, and use MSBuild programmatically to create custom build tools.
 brand: visual-studio
 metadata:
    title: MSBuild documentation
@@ -94,25 +94,25 @@ additionalContent:
    - title: Reference
      items:
      - title: Command line
-       summary: MSBuild.exe command-line options
+       summary: Use MSBuild.exe command-line options to set properties, build specific targets, control logging, and more.
        url: msbuild-command-line-reference.md
      - title: Common project properties
-       summary: List of commonly used properties.
+       summary: List of commonly used MSBuild properties you can set in your project files to configure your builds.
        url: common-msbuild-project-properties.md
      - title: Reserved and well-known properties.
-       summary: Properties used by the MSBuild system, some of which you can define and override.
+       summary: Properties used by the MSBuild system, some of which you can define or override to customize the build.
        url: msbuild-reserved-and-well-known-properties.md
      - title: Common project items
-       summary: Common items and their metadata
+       summary: Common items and their metadata used in project builds.
        url: common-msbuild-project-items.md
      - title: Well-known item metadata
-       summary: Default metadata for items.
+       summary: Default metadata for items that you can use to implement targets and control how various files are handled and built.
        url: msbuild-well-known-item-metadata.md
      - title: Common item metadata
-       summary: Optional item metadata that have meaning for some SDKs or targets.
+       summary: Optional item metadata you can use to control how your files are handled, that have meaning for some SDKs or targets.
        url: common-msbuild-item-metadata.md
      - title: MSBuild API
-       summary: Reference to APIs for using MSBuild programmatically.
+       summary: Reference to APIs you can use to control MSBuild programmatically when authoring custom tasks and build tools.
        url: msbuild-api.md
     
    footer: "[GitHub repo](https://github.com/dotnet/msbuild) - [Wiki](https://github.com/dotnet/msbuild/wiki) - [Stack Overflow](https://stackoverflow.com/questions/tagged/msbuild) - [Issue Reporting](https://github.com/dotnet/msbuild/issues)"
