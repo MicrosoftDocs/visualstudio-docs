@@ -88,7 +88,7 @@ You'll need minimal changes in your .NET Framework set up for Microsoft Fakes to
 ### Running Microsoft Fakes tests
 As long as Microsoft Fakes assemblies are present in the configured `FakesAssemblies` directory (The default being `$(ProjectDir)FakesAssemblies`), you can run tests using the [vstest task](/azure/devops/pipelines/tasks/test/vstest?view=azure-devops&preserve-view=true).
 
-Distributed testing with the [vstest task](/azure/devops/pipelines/tasks/test/vstest?view=azure-devops&preserve-view=true) .NET Core and .NET 5.0 or later projects using Microsoft Fakes requires Visual Studio 2019 Update 9 Preview `20201020-06` and higher.
+Distributed testing with the [vstest task](/azure/devops/pipelines/tasks/test/vstest?view=azure-devops&preserve-view=true) .NET Core and .NET 5+ projects using Microsoft Fakes requires Visual Studio 2019 Update 9 Preview `20201020-06` and higher.
 
 ## Compatibility and Support for Microsoft Fakes in Different .NET and Visual Studio Versions
 
