@@ -146,7 +146,7 @@ Let's start this with a motivating example: the one shown in the preceding diagr
 
 ### Create a unit-test
 
-13. Modify the default file `UnitTest1.cs` to add the following `Test Method`
+1. Modify the default file `UnitTest1.cs` to add the following `Test Method`.
 
     #### [C#](#tab/csharp)
     ```csharp
