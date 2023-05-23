@@ -31,7 +31,6 @@ It is important to note that shims do have their limitations.
 
 Suppose your component contains calls to `System.IO.File.ReadAllLines`:
 
-#### [C#](#tab/csharp)
 ```csharp
 // Code under test:
 this.Records = System.IO.File.ReadAllLines(path);
