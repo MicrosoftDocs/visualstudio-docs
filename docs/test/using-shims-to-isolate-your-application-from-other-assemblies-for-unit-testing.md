@@ -73,6 +73,7 @@ this.Records = System.IO.File.ReadAllLines(path);
         nd Sub
     End Class
     ```
+    ---
     
 ### Create a Test Project
 
@@ -162,6 +163,8 @@ modify the content of Fakes\mscorlib.fakes to exclude them.
         End Using
     End Sub
     ```
+    ---
+    
    Here is the Solution Explorer showing all the files
 
    ![All shim files](../test/media/microsoft_fakes_shims_all_files.png)
