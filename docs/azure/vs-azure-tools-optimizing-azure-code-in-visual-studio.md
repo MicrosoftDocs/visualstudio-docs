@@ -249,7 +249,7 @@ td.EnablePartitioning = true;
 ns.CreateTopic(td);
 ```
 
-For more information, see [Partitioned Service Bus Queues and Topics | Microsoft Azure Blog](https://azure.microsoft.com/blog/2013/10/29/partitioned-service-bus-queues-and-topics/) and check out the [Microsoft Azure Service Bus Partitioned Queue](https://code.msdn.microsoft.com/windowsazure/Service-Bus-Partitioned-7dfd3f1f) sample.
+For more information, see [Partitioned queues and topics](/azure/service-bus-messaging/service-bus-partitioning) and check out the [Microsoft Azure Service Bus Partitioned Queue](https://code.msdn.microsoft.com/windowsazure/Service-Bus-Partitioned-7dfd3f1f) sample.
 
 ## Do not set SharedAccessStartTime
 ### ID
