@@ -52,7 +52,7 @@ End Function
 
 ---
 ## Creating a Stub: A Step-by-Step Guide
-Let's start this with a motivating example, the one in the diagram. 
+Let's start this with a motivating example: the one shown in the preceding diagram. 
 
 ### Create a Class Library
 1. Open Visual Studio and create a `Class Library` project
