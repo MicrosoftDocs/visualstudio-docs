@@ -93,7 +93,7 @@ this.Records = System.IO.File.ReadAllLines(path);
    - In **Solution Explorer**, 
        - For an older .NET Framework Project (non-SDK style), expand your unit test project's **References** node.
 
-       - For an SDK-style project targeting .NET Framework, .NET Core, or .NET 5.0 or later, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies**, **Projects**, or **Packages**.
+       - For an SDK-style project targeting .NET Framework, .NET Core, or .NET 5+, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies**, **Projects**, or **Packages**.
 
        - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar to see the **References** node.
        
