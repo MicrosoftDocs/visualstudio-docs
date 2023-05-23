@@ -140,7 +140,7 @@ Let's start this with a motivating example: the one shown in the preceding diagr
        
    - Select the assembly that contains the class definitions for which you want to create stubs.
 
-   - On the shortcut menu, select `Add Fakes Assembly`.
+   - On the shortcut menu, select **Add Fakes Assembly**.
 
    ![Add Fakes Assembly](../test/media/microsoft_fakes_stubs_add_fakes_assembly.png)
 
