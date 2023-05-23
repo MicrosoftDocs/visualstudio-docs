@@ -103,7 +103,7 @@ this.Records = System.IO.File.ReadAllLines(path);
 
    ![Add Fakes Assembly](../test/media/microsoft_fakes_shims_add_fakes_assembly.png)
 
-12. Since building will hit some warnings and errors because not all types can be used with shims, we will have to
+Since building results in some warnings and errors because not all types can be used with shims, you will have to
 modify the content of Fakes\mscorlib.fakes to exclude them.
 
 ```xml
