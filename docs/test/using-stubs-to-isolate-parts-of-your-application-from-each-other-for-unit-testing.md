@@ -17,7 +17,7 @@ dev_langs:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-*Stub types* are a valuable technology provided by the Microsoft Fakes framework, enabling easy isolation of the component you are testing from other components it relies on. A stub acts as a small piece of code that replaces another component during testing. One of the key benefits of using stubs is their ability to consistently return results, which simplifies test writing. Even if the other components are not fully functional yet, you can still execute tests using stubs.
+*Stub types* are an important technology provided by the Microsoft Fakes framework, enabling easy isolation of the component you are testing from other components it relies on. A stub acts as a small piece of code that replaces another component during testing. One of the key benefits of using stubs is their ability to consistently return results, which simplifies test writing. Even if the other components are not fully functional yet, you can still execute tests using stubs.
 
 To leverage stubs effectively, it is recommended to design your component in a way that it primarily depends on interfaces rather than concrete classes from other parts of the application. This design approach promotes decoupling and reduces the likelihood of changes in one part requiring modifications in another. When it comes to testing, this design pattern enables substituting a stub implementation for a real component, facilitating effective isolation and accurate testing of the target component.
 
