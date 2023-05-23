@@ -88,7 +88,7 @@ this.Records = System.IO.File.ReadAllLines(path);
 
    ![Add project reference](../test/media/microsoft_fakes_shims_add_project_reference.png)
 
-11. Add Fakes Assembly
+2. Add Fakes Assembly
 
    - In **Solution Explorer**, 
        - For an older .NET Framework Project (non-SDK style), expand your unit test project's **References** node.
