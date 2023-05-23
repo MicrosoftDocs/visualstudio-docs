@@ -225,7 +225,7 @@ Let's start this with a motivating example: the one shown in the preceding diagr
 
 2. Open Test Explorer and run the test.
 
-![Run Test in Test Explorer](../test/media/microsoft_fakes_stubs_test_explorer.png)
+   ![Run Test in Test Explorer](../test/media/microsoft_fakes_stubs_test_explorer.png)
 
 ---
 
