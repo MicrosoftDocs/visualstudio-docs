@@ -129,7 +129,7 @@ Let's start this with a motivating example, the one in the diagram.
 
    ![Add project reference](../test/media/microsoft_fakes_stubs_add_project_reference.png)
 
-12. Add Fakes Assembly
+2. Add Fakes Assembly
 
    - In **Solution Explorer**, 
        - For an older .NET Framework Project (non-SDK style), expand your unit test project's **References** node.
