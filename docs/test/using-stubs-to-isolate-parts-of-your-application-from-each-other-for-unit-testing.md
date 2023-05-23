@@ -223,8 +223,6 @@ Let's start this with a motivating example, the one in the diagram.
 
 ![Run Test in Test Explorer](../test/media/microsoft_fakes_stubs_test_explorer.png)
 
-[Download StubsTutorial.zip](../test/media/StubsTutorial.zip)
-
 ---
 
 ## Stubs for different kinds of type members

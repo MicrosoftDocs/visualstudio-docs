@@ -171,8 +171,6 @@ Here is the Solution Explorer showing all the files
 
 It's critical to properly dispose each shim context. As a rule of thumb, call the `ShimsContext.Create` inside of a `using` statement to ensure proper clearing of the registered shims. For example, you might register a shim for a test method that replaces the `DateTime.Now` method with a delegate that always returns the first of January 2000. If you forget to clear the registered shim in the test method, the rest of the test run would always return the first of January 2000 as the `DateTime.Now` value. This might be surprising and confusing.
 
-[Download ShimsTutorial.zip](../test/media/ShimsTutorial.zip)
-
 ---
 
 ## Naming Conventions for Shim Classes
