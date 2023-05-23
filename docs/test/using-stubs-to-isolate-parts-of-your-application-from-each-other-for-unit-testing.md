@@ -55,7 +55,7 @@ End Function
 Let's start this with a motivating example: the one shown in the preceding diagram. 
 
 ### Create a Class Library
-1. Open Visual Studio and create a `Class Library` project
+1. Open Visual Studio and create a `Class Library` project.
 
 ![Create Class Library project](../test/media/microsoft_fakes_stubs_create_class_library_project.png)
 
