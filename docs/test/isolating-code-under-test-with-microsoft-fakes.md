@@ -70,7 +70,7 @@ However, there are some factors to consider when using shims:
 ---
 
 ## Transitioning Microsoft Fakes in .NET Framework to SDK-Style Projects
-### Transitioning your .NET Framework test projects that use Microsoft Fakes to SDK-style .NET Framework, .NET Core, or .NET 5.0 projects or later projects
+### Transitioning your .NET Framework test projects that use Microsoft Fakes to SDK-style .NET Framework, .NET Core, or .NET 5+ projects.
 
 You'll need minimal changes in your .NET Framework set up for Microsoft Fakes to transition to .NET Core or .NET 5.0. The cases that you would have to consider are:
 
