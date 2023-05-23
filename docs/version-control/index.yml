@@ -7,7 +7,7 @@ metadata:
   title: Version control & source control with Git docs # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Use version / source control technologies in Visual Studio. You can share, integrate, and manage your code releases in Git & GitHub without leaving your codebase.
   ms.topic: landing-page
-  ms.date: 11/18/2022
+  ms.date: 05/01/2023
   author: TerryGLee
   ms.author: tglee
   manager: jmartens
@@ -35,8 +35,8 @@ landingContent:
         links:
           - text: Compare Git & Team Explorer
             url: git-team-explorer-feature-comparison.md
-          - text: Become a master at Git & open source (blog)
-            url: https://devblogs.microsoft.com/visualstudio/become-a-master-at-git-and-open-source/
+          - text: Learn about Git, GitHub, & Visual Studio
+            url: https://devblogs.microsoft.com/visualstudio/learn-github-in-visual-studio-learning-series/
 
 
   # Card

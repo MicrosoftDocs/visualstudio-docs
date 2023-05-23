@@ -2,7 +2,7 @@
 title: What is Visual Studio?
 titleSuffix: ''
 description: Learn how Visual Studio is a powerful integrated development environment that empowers you to develop, edit, debug, version control, and deploy your app.
-ms.date: 04/26/2023
+ms.date: 05/05/2023
 ms.technology: vs-ide-general
 ms.topic: overview
 ms.custom: vs-acquisition,  vs-get-started
@@ -19,28 +19,39 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Visual Studio is a powerful developer tool that you can use to complete the entire development cycle in one place. It is a comprehensive integrated development environment (IDE) that you can use to write, edit, debug, and build code, and then publish your app. Beyond code editing and debugging, Visual Studio includes compilers, code completion tools, source control, extensions, and many more features to enhance every stage of the software development process.
+Visual Studio is a powerful developer tool that you can use to complete the entire development cycle in one place. It is a comprehensive integrated development environment (IDE) that you can use to write, edit, debug, and build code, and then deploy your app. Beyond code editing and debugging, Visual Studio includes compilers, code completion tools, source control, extensions, and many more features to enhance every stage of the software development process.
 
-With the variety of features and languages support in Visual Studio, you can grow from writing your first "Hello World" program to developing and deploying apps. For example, you can build desktop and web apps with .NET, Mobile and gaming apps with C++.
+:::image type="content" source="media/visual-studio-overview.png" alt-text="Diagram showing Visual Studio overview.":::
+
+With the variety of features and languages support in Visual Studio, you can grow from writing your first "Hello World" program to developing and deploying apps. For example, build, debug, and test .NET and C++ apps, edit ASP.NET pages in the web designer view, develop cross-platform mobile and desktop apps with .NET, or build responsive Web UIs in C#.
+
+::: moniker range="vs-2019"
+
+To install Visual Studio, select the following button, and [choose the edition of Visual Studio](#choose-your-visual-studio-edition) to download.
+
+ > [!div class="button"]
+ > [Download Visual Studio](/visualstudio/releases/2019/release-notes/)
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+To install Visual Studio, select the following button, and [choose the edition of Visual Studio](#choose-your-visual-studio-edition) to download.
+
+ > [!div class="button"]
+ > [Download Visual Studio](https://visualstudio.microsoft.com/downloads)
+
+::: moniker-end
 
 ## Why use Visual Studio?
 
-- Feature rich IDE
-- Code quickly and accurately
-- Diagnose and stop problems before they happen
-- Identify and resolve performance issues
-- Build cross-platform apps 
-- Develop and deploy any type of application
-- Work together in real time
-- Source code version control
+Visual Studio provides developers a feature rich development environment to develop high-quality code efficiently and collaboratively.
 
-## Choose your Visual Studio edition
-
-Visual Studio is available for Windows and Mac. [Visual Studio for Mac](/visualstudio/mac/) has many of the same features as Visual Studio for Windows, and is optimized for developing cross-platform and mobile apps. This article focuses on the Windows version of Visual Studio.
-
-There are three editions of Visual Studio: Community, Professional, and Enterprise. Visual Studio Community edition is free for learning and individual use. Visual Studio Professional and Visual Studio Enterprise are subscription based options available for small to large business and enterprise organizations.
-
-[Compare features across Visual Studio editions](https://visualstudio.microsoft.com/vs/compare/) and [acquire the Visual Studio edition](https://visualstudio.microsoft.com/vs/pricing/) that best fits your needs.
+- Workload-based installer - install only what you need
+- Powerful coding tools and features - everything you need to build your apps in one place
+- Multiple language support - code in C++, C#, JavaScript, TypeScript, Python, and more
+- Cross-platform development - build apps for any platform
+- Version control integration - collaborate on code with team mates
 
 ## Discover Visual Studio
 
@@ -55,25 +66,35 @@ Learn more about all the features in the IDE to organize and edit content:
 - [Organize code](tutorial-projects-solutions.md)
 - [Tips and tricks](../ide/productivity-features.md)
 
+### Build your app
+
+You can compile and build your applications to create builds immediately and test them in a debugger. You can run multi-processor builds for C++ and C# projects. Visual Studio also provides several options that you can configure when building applications. You can create a custom build configuration in addition to the built-in configurations, hide certain warning messages, or increase build output information.
+
+Learn more about how to [compile and build in Visual Studio](../ide/compiling-and-building-in-visual-studio.md):
+
+- [Create build configurations for your project](../ide/understanding-build-configurations.md)
+- [Build an application](../ide/walkthrough-building-an-application.md)
+
 ### Debug your code
 
 Integrated debugging in Visual Studio enables you to debug, profile, and diagnose with ease. You step through your code and look at the values stored in variables, set watches on variables to see when values changes, examine the execution path of your code, and other ways to debug your code while it runs.
 
 Learn more about debugging effectively in Visual Studio:
 
-- [Debugger tools](..//debugger/debugger-feature-tour.md)
-- [Debugging techniques](../debugger/write-better-code-with-visual-studio.md)
+- [Debug your app](..//debugger/debugger-feature-tour.md)
+- [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md)
 - [Measure app performance](../profiling/beginners-guide-to-performance-profiling.md)
 - [Tips and tricks](../debugger/debugger-tips-and-tricks.md)
 
-### Build your app
+### Test your code
 
-You can compile and build your applications to create builds immediately and test them in a debugger. You can run multi-processor builds for C++ and C# projects. Visual Studio also provides several options that you can configure when building applications. You can create a custom build configuration in addition to the built-in configurations, hide certain warning messages, or increase build output information.
+You can write high-quality code with comprehensive testing tools in Visual Studio. Unit tests give developers and testers a quick way to find logic errors in code. You can analyze how much code you're testing and see instant results in a test suite, or know the impact of every change you make with advanced features that test code as you type. 
 
-Learn more about how to compile and build in Visual Studio:
+Learn more about the testing tools available in Visual Studio:
 
-- [Build configurations](../ide/understanding-build-configurations.md)
-- [Build an application](../ide/walkthrough-building-an-application.md)
+- [Use testing tools in Visual Studio](../test/improve-code-quality.md)
+- [Create and run unit tests](../test/getting-started-with-unit-testing.md)
+- [Analyze code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)
 
 ### Version control
 
@@ -83,16 +104,6 @@ Learn more about [version control](/visualstudio/version-control/) in Visual Stu
 
 - [Version control with Git](../version-control/git-with-visual-studio.md)
 - [Visual Studio and GitHub](https://visualstudio.microsoft.com/vs/github/)
-
-### Test your code
-
-You can write high-quality code with comprehensive testing tools in Visual Studio. Unit tests give developers and testers a quick way to find logic errors in code. You can analyze how much code you're testing and see instant results in a test suite, or know the impact of every change you make with advanced features that test code as you type. 
-
-Learn more about the testing tools available in Visual Studio:
-
-- [Testing tools in Visual Studio](../test/improve-code-quality.md)
-- [Unit tests](../test/getting-started-with-unit-testing.md)
-- [Code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)
 
 ### Collaborate with others
 
@@ -107,10 +118,39 @@ Learn more about how to collaborate with Live Share:
 
 By deploying an application, service, or component, you distribute it for installation on other computers, devices, or servers, or in the cloud. You can choose the appropriate method in Visual Studio for the type of deployment that you need. Share your apps and code by publishing to the web or Azure, or by deploying to a network share or a local folder. 
 
-Learn more about how to [deploy your app using Visual Studio](/visualstudio/deployment/).
+Learn more about how to [deploy your app using Visual Studio](/visualstudio/deployment/):
 
-- [Deployment in Visual Studio](../deployment/deploying-applications-services-and-components-resources.md)
-- [Deploy to Azure](/visualstudio/azure/)
+- [Deploy your app from Visual Studio](../deployment/deploying-applications-services-and-components.md)
+- [Deploy your app to a folder, a web server, Azure, or another destination](../deployment/deploying-applications-services-and-components-resources.md)
+
+## Choose your Visual Studio edition
+
+There are three editions of Visual Studio: 
+- [Community](https://visualstudio.microsoft.com/vs/community/) - free, fully-featured IDE for students, open-source and individual developers 
+- [Professional](https://visualstudio.microsoft.com/vs/professional/) -  a subscription based option for individual developers or small teams.
+- [Enterprise](https://visualstudio.microsoft.com/vs/enterprise/) - a subscription based option for small to large business and enterprise organizations.
+
+[Compare features across Visual Studio editions](https://visualstudio.microsoft.com/vs/compare/) and [acquire the Visual Studio edition](https://visualstudio.microsoft.com/vs/pricing/) that best fits your needs.
+
+## Install Visual Studio
+
+::: moniker range="vs-2019"
+
+Select the following button to install Visual Studio, and choose the edition of Visual Studio.
+
+ > [!div class="button"]
+ > [Download Visual Studio](/visualstudio/releases/2019/release-notes/)
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+Select the following button to install Visual Studio, and choose the edition of Visual Studio.
+
+ > [!div class="button"]
+ > [Download Visual Studio](https://visualstudio.microsoft.com/downloads)
+
+::: moniker-end
 
 ## Get started
 
@@ -121,6 +161,5 @@ To develop any type of app, or learn a language, you'll work in the feature rich
     - [Create a simple C# console app](./csharp/tutorial-console.md)
     - [Get started with Python](../python/tutorial-working-with-python-in-visual-studio-step-00-installation.md)
     - [Create a simple VB console app](./visual-basic/tutorial-console.md)
-    - [Create your first Vue.js app](../javascript/quickstart-vuejs-with-nodejs.md)
     - [Create a C++ console app](/cpp/get-started/tutorial-console-cpp)
     - [Create a Node.js and Express app](../javascript/tutorial-nodejs.md)

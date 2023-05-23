@@ -113,7 +113,7 @@ If **CPU Usage** does not give you the data that you need, other profiling tools
    ![Screenshot that shows Diagnostics Tools selecting a time segment.](../profiling/media/diag-tools-select-time-segment.png "DiagToolsSelectTimeSegment")
    ::: moniker-end
 
-     At this point, you can begin to analyze the data.
+     At this point, you can begin to analyze the data. If you have trouble collecting or displaying data, see [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md).
 
      > [!TIP]
      >  When trying to identify performance issues, take multiple measurements. Performance naturally varies from run-to-run, and code paths typically execute slower the first time they run due to one-time initialization work such as loading DLLs, JIT compiling methods, and initializing caches. By taking multiple measurements, you get a better idea of the range and median of the metric being shown, whichs allow you to compare the first time versus the steady state performance of an area of code.

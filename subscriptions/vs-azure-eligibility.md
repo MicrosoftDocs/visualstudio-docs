@@ -44,6 +44,16 @@ Excludes:  NFR Basic*
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You need to sign in with that email address to see those subscriptions.
 
+## Frequently Asked Questions
+
+### Q:  Can I use my Azure credits for Azure OpenAI?
+
+A:  Yes, Azure credits can be used to pay for Azure OpenAI Service usage. However, you need to apply for access to Azure OpenAI Service first and specify your use case and mitigations.  Access is currently limited as we navigate high demand, upcoming product improvements, and [Microsoft’s commitment to responsible AI](https://www.microsoft.com/ai/responsible-ai?activetab=pivot1:primaryr6). For now, we're working with customers with an existing partnership with Microsoft, lower risk use cases, and those committed to incorporating mitigations.
+
+More specific information is included in the application form. We appreciate your patience as we work to responsibly enable broader access to Azure OpenAI.
+
+Apply here for access: [Apply now](https://aka.ms/oaiapply) 
+
 ## Support resources
 
 + For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).

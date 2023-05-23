@@ -1,6 +1,341 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/dotfuscator/capabilities.md",
+      "redirect_url": "/visualstudio/ide/dotfuscator/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/dotfuscator/install.md",
+      "redirect_url": "/visualstudio/ide/dotfuscator/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/dotfuscator/register.md",
+      "redirect_url": "/visualstudio/ide/dotfuscator/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/dotfuscator/upgrades.md",
+      "redirect_url": "/visualstudio/ide/dotfuscator/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/dotfuscator/upgrade-from-5.md",
+      "redirect_url": "/visualstudio/ide/dotfuscator/index",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/sharepoint-development-samples-and-walkthroughs.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/sharepoint-development-samples-and-walkthroughs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/sharepoint-development-samples.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/sharepoint-development-samples",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/sharepoint-development-walkthroughs.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/sharepoint-development-walkthroughs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/extending-the-sharepoint-tools-in-visual-studio.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/extending-the-sharepoint-tools-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/overview-of-the-programming-model-of-sharepoint-tools-extensions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/extending-the-sharepoint-project-system.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/extending-the-sharepoint-project-system",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/defining-custom-sharepoint-project-item-types.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/defining-custom-sharepoint-project-item-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-define-a-sharepoint-project-item-type.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-define-a-sharepoint-project-item-type",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-add-a-shortcut-menu-item-to-a-custom-sharepoint-project-item-type.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-add-a-shortcut-menu-item-to-a-custom-sharepoint-project-item-type",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-add-a-property-to-a-custom-sharepoint-project-item-type.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-add-a-property-to-a-custom-sharepoint-project-item-type",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/walkthrough-creating-a-custom-action-project-item-with-an-item-template-part-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/walkthrough-creating-a-site-column-project-item-with-a-project-template-part-2",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/extending-sharepoint-project-items.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/extending-sharepoint-project-items",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-create-a-sharepoint-project-item-extension.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-create-a-sharepoint-project-item-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-add-a-shortcut-menu-item-to-a-sharepoint-project-item-extension.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-add-a-shortcut-menu-item-to-a-sharepoint-project-item-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-add-a-property-to-a-sharepoint-project-item-extension.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-add-a-property-to-a-sharepoint-project-item-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/walkthrough-extending-a-sharepoint-project-item-type.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/walkthrough-extending-a-sharepoint-project-item-type",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/extending-sharepoint-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/extending-sharepoint-projects",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-create-a-sharepoint-project-extension.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-create-a-sharepoint-project-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-add-a-shortcut-menu-item-to-sharepoint-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-add-a-shortcut-menu-item-to-sharepoint-projects",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-add-a-property-to-sharepoint-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-add-a-property-to-sharepoint-projects",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/walkthrough-creating-a-sharepoint-project-extension.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/walkthrough-creating-a-sharepoint-project-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/extending-sharepoint-packaging-and-deployment.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/extending-sharepoint-packaging-and-deployment",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-run-code-when-deployment-steps-are-executed.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-run-code-when-deployment-steps-are-executed",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-run-code-when-a-sharepoint-project-is-deployed-or-retracted.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-run-code-when-a-sharepoint-project-is-deployed-or-retracted",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-handle-deployment-conflicts.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-handle-deployment-conflicts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/walkthrough-creating-a-custom-deployment-step-for-sharepoint-projects",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-create-custom-feature-and-package-validation-rules-for-sharepoint-solutions.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-create-custom-feature-and-package-validation-rules-for-sharepoint-solutions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/saving-data-in-extensions-of-the-sharepoint-project-system.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/saving-data-in-extensions-of-the-sharepoint-project-system",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/converting-between-sharepoint-project-system-types-and-other-visual-studio-project-types.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/converting-between-sharepoint-project-system-types-and-other-visual-studio-project-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/extending-the-sharepoint-connections-node-in-server-explorer.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/extending-the-sharepoint-connections-node-in-server-explorer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-extend-a-sharepoint-node-in-server-explorer.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-extend-a-sharepoint-node-in-server-explorer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-add-a-custom-sharepoint-node-to-server-explorer.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-add-a-custom-sharepoint-node-to-server-explorer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-get-data-for-a-built-in-sharepoint-node-in-server-explorer.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-get-data-for-a-built-in-sharepoint-node-in-server-explorer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/walkthrough-extending-server-explorer-to-display-web-parts.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/walkthrough-extending-server-explorer-to-display-web-parts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/programming-concepts-and-features-for-sharepoint-tools-extensions.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/programming-concepts-and-features-for-sharepoint-tools-extensions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/calling-into-the-sharepoint-object-models.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/calling-into-the-sharepoint-object-models",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-create-a-sharepoint-command.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-create-a-sharepoint-command",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-execute-a-sharepoint-command.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-execute-a-sharepoint-command",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/walkthrough-calling-into-the-sharepoint-client-object-model-in-a-server-explorer-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/using-the-sharepoint-project-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/using-the-sharepoint-project-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/how-to-retrieve-the-sharepoint-project-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/how-to-retrieve-the-sharepoint-project-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/associating-custom-data-with-sharepoint-tools-extensions.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/associating-custom-data-with-sharepoint-tools-extensions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/debugging-extensions-for-the-sharepoint-tools-in-visual-studio.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/debugging-extensions-for-the-sharepoint-tools-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/deploying-extensions-for-the-sharepoint-tools-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/reference-sharepoint-tools-extensibility.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/reference-sharepoint-tools-extensibility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/sharepoint-project-item-schema-reference.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/sharepoint-project-item-schema-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/extensiondata-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/extensiondata-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/extensiondataitem-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/extensiondataitem-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/featureproperties-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/featureproperties-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/featureproperty-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/featureproperty-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/files-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/files-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/projectitem-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/projectitem-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/projectitemfile-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/projectitemfile-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/projectitemfolder-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/projectitemfolder-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/projectoutputfile-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/projectoutputfile-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/safecontrol-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/safecontrol-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/safecontrols-element.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/safecontrols-element",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/sharepoint/api-reference-sharepoint-tools-extensibility.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/sharepoint/api-reference-sharepoint-tools-extensibility",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/sharepoint/how-to-add-a-resource-file.md",
       "redirect_url": "/visualstudio/sharepoint/localizing-sharepoint-solutions#add-a-resource-file",
       "redirect_document_id": false

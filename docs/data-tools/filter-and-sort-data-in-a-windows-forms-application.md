@@ -26,6 +26,8 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
+
 You filter data by setting the <xref:System.Windows.Forms.BindingSource.Filter%2A> property to a string expression that returns the desired records.
 
 You sort data by setting the <xref:System.Windows.Forms.BindingSource.Sort%2A> property to the column name on which you want to sort; append `DESC` to sort in descending order, or append `ASC` to sort in ascending order.

@@ -71,3 +71,4 @@ The following image shows the **Show Preview Tooltip** option:
 ## See also
 
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Learn about the Editor Sticky Scroll feature](editor-sticky-scroll.md)
