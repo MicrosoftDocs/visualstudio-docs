@@ -99,7 +99,7 @@ this.Records = System.IO.File.ReadAllLines(path);
        
    - Select the assembly `System` that contains the definition of `System.IO.File.ReadAllLines`.
 
-   - On the shortcut menu, select `Add Fakes Assembly`.
+   - On the shortcut menu, select **Add Fakes Assembly**.
 
    ![Add Fakes Assembly](../test/media/microsoft_fakes_shims_add_fakes_assembly.png)
 
