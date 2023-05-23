@@ -223,7 +223,7 @@ Let's start this with a motivating example: the one shown in the preceding diagr
 
    ![Solution Explorer Show All Files](../test/media/microsoft_fakes_stubs_all_files.png)
 
-14. Open Test Explorer and run the test.
+2. Open Test Explorer and run the test.
 
 ![Run Test in Test Explorer](../test/media/microsoft_fakes_stubs_test_explorer.png)
 
