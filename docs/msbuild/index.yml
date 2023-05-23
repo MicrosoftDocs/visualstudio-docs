@@ -93,45 +93,26 @@ additionalContent:
    sections:
    - title: Reference
      items:
-        - title: MSBuild.exe
-          links:
-            - text: Command line
-              url: msbuild-command-line-reference.md
-            - text: Common project properties
-              url: common-msbuild-project-properties.md
-            - text: Reserved and well-known properties
-              url: msbuild-reserved-and-well-known-properties.md
-            - text: Common project items
-              url: common-msbuild-project-items.md
-            - text: Common item metadata
-              url: common-msbuild-item-metadata.md
-            - text: Well-known item metadata
-              url: msbuild-well-known-item-metadata.md
-            - text: Task reference
-              url: msbuild-task-reference.md
-            - text: MSBuild .targets files
-              url: msbuild-dot-targets-files.md
-            - text: Conditional constructs
-              url: msbuild-conditional-constructs.md
-            - text: XML Schema
-              url: msbuild-project-file-schema-reference.md
-        - title: MSBuild API
-          links:
-            - text: Overview
-              url: msbuild-api.md
-            - text: Microsoft.Build.Evaluation
-              url: /dotnet/api/microsoft.build.evaluation
-            - text: Microsoft.Build.Execution
-              url: /dotnet/api/microsoft.build.execution)
-            - text: Microsoft.Build.Framework
-              url: /dotnet/api/microsoft.build.framework
-            - text: Microsoft.Build.Logging
-              url: /dotnet/api/microsoft.build.logging
-            - text: Microsoft.Build.Tasks
-              url: /dotnet/api/microsoft.build.tasks
-            - text: Microsoft.Build.Utilities
-              url: /dotnet/api/microsoft.build.utilities
-            - text: Microsoft.Build.Locator
-              url: /dotnet/api/microsoft.build.locator
+     - title: Command line
+       summary: MSBuild.exe command-line options
+       url: msbuild-command-line-reference.md
+     - title: Common project properties
+       summary: List of commonly used properties.
+       url: common-msbuild-project-properties.md
+     - title: Reserved and well-known properties.
+       summary: Properties used by the MSBuild system, some of which you can define and override.
+       url: msbuild-reserved-and-well-known-properties.md
+     - title: Common project items
+       summary: Common items and their metadata
+       url: msbuild-common-project-items.md
+     - title: Well-known item metadata
+       summary: Default metadata for items.
+       url: msbuild-well-known-item-metadata.md
+     - title: Common item metadata
+       summary: Optional item metadata that have meaning for some SDKs or targets.
+       url: common-msbuild-item-metadata.md
+     - title: MSBuild API
+       summary: Reference to APIs for using MSBuild programmatically.
+       url: msbuild-api.md
     
    footer: "[GitHub repo](https://github.com/dotnet/msbuild) - [Wiki](https://github.com/dotnet/msbuild/wiki) - [Stack Overflow](https://stackoverflow.com/questions/tagged/msbuild) - [Issue Reporting](https://github.com/dotnet/msbuild/issues)"
