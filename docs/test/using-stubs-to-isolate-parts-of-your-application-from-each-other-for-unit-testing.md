@@ -127,7 +127,7 @@ Let's start this with a motivating example, the one in the diagram.
 
 11. Add a project reference to `StockAnalyzer` 
 
-![Add project reference](../test/media/microsoft_fakes_stubs_add_project_reference.png)
+   ![Add project reference](../test/media/microsoft_fakes_stubs_add_project_reference.png)
 
 12. Add Fakes Assembly
 
