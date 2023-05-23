@@ -31,12 +31,12 @@ To overcome this obstacle during testing, we can adopt the practice of [dependen
 
 Here's an example of how you can use dependency injection in your code:
 
-[C#](#tab/csharp)
+#### [C#](#tab/csharp)
 ```csharp
 public int GetContosoPrice(IStockFeed feed) => feed.GetSharePrice("COOO");
 ```
 
-[VB](#tab/vb)
+#### [VB](#tab/vb)
 ```vb
 Public Function GetContosoPrice(feed As IStockFeed) As Integer
 Return feed.GetSharePrice("COOO")
@@ -63,6 +63,7 @@ Let's start this with a motivating example, the one in the diagram.
 4. Set the project's target framework to *.NET 7.0. (Standard Term Support)*
 5. Delete the default file `Class1.cs`
 6. Add a new file `IStockFeed.cs` and add the following interface definition:
+
     #### [C#](#tab/csharp)
     ```csharp
     // IStockFeed.cs
@@ -72,7 +73,7 @@ Let's start this with a motivating example, the one in the diagram.
     }
     ```
 
-    ### [VB](#tab/vb)
+    #### [VB](#tab/vb)
     ```vb
     ' IStockFeed.vb
     Public Interface IStockFeed
@@ -81,7 +82,7 @@ Let's start this with a motivating example, the one in the diagram.
     ```
 7. Add another new file `StockAnalyzer.cs` and add the following class definition:
 
-    ### [C#](#tab/csharp)
+    #### [C#](#tab/csharp)
     ```csharp
     // StockAnalyzer.cs
     public class StockAnalyzer
@@ -98,7 +99,7 @@ Let's start this with a motivating example, the one in the diagram.
     }
     ```
 
-    ### [VB](#tab/vb)
+    #### [VB](#tab/vb)
     ```vb
     ' StockAnalyzer.vb
     Public Class StockAnalyzer
@@ -145,7 +146,7 @@ Let's start this with a motivating example, the one in the diagram.
 
 13. Modify the default file `UnitTest1.cs` to add the following `Test Method`
 
-    ### [C#](#tab/csharp)
+    #### [C#](#tab/csharp)
     ```csharp
     [TestClass]
     class UnitTest1
@@ -180,7 +181,7 @@ Let's start this with a motivating example, the one in the diagram.
     }
     ```
 
-    ### [VB](#tab/vb)
+    #### [VB](#tab/vb)
     ```vb
     <TestClass()> _
     Class UnitTest1
@@ -232,7 +233,6 @@ Let's start this with a motivating example, the one in the diagram.
 
 In the provided example, methods can be stubbed by attaching a delegate to an instance of the stub class. The name of the stub type is derived from the names of the method and parameters. For instance, consider the following `IStockFeed` interface and its method `GetSharePrice`:
 
-[C#](#tab/csharp)
 ```csharp
 // IStockFeed.cs
 interface IStockFeed
@@ -243,7 +243,6 @@ interface IStockFeed
 
 We attach a stub to `GetSharePrice` by using `GetSharePriceString`:
 
-[C#](#tab/csharp)
 ```csharp
 // unit test code
 var componentUnderTest = new StockAnalyzer(new StockAnalysis.Fakes.StubIStockFeed()
@@ -264,7 +263,6 @@ If you don't provide a stub for a method, Fakes generates a function that return
 
 roperty getters and setters are exposed as separate delegates and can be stubbed individually. For example, consider the `Value` property of `IStockFeedWithProperty`:
 
-[C#](#tab/csharp)
 ```csharp
 interface IStockFeedWithProperty
 {
@@ -274,7 +272,6 @@ interface IStockFeedWithProperty
 
 To stub the getter and setter of `Value` and simulate an auto-property, you can use the following code:
 
-[C#](#tab/csharp)
 ```csharp
 // unit test code
 int i = 5;
@@ -288,7 +285,6 @@ If you don't provide stub methods for either the setter or the getter of a prope
 
 Events are exposed as delegate fields, allowing any stubbed event to be raised simply by invoking the event backing field. Let's consider the following interface to stub:
 
-[C#](#tab/csharp)
 ```csharp
 interface IStockFeedWithEvents
 {
@@ -298,7 +294,6 @@ interface IStockFeedWithEvents
 
 To raise the `Changed` event, we simply invoke the backing delegate:
 
-[C#](#tab/csharp)
 ```csharp
 // unit test code
 var withEvents = new StubIStockFeedWithEvents();
@@ -310,7 +305,6 @@ withEvents.ChangedEvent(withEvents, EventArgs.Empty);
 
 You can stub generic methods by providing a delegate for each desired instantiation of the method. For example, given the following interface with a generic method:
 
-[C#](#tab/csharp)
 ```csharp
 interface IGenericMethod
 {
@@ -320,7 +314,6 @@ interface IGenericMethod
 
 You can stub the `GetValue<int>` instantiation as follows:
 
-[C#](#tab/csharp)
 ```csharp
 [TestMethod]
 public void TestGetValue()
@@ -338,7 +331,6 @@ If the code calls `GetValue<T>` with any other instantiation, the stub will simp
 
 In the previous examples, the stubs have been generated from interfaces. However, you can also generate stubs from a class that has virtual or abstract members. For instance:
 
-[C#](#tab/csharp)
 ```csharp
 // Base class in application under test
 public abstract class MyClass
@@ -358,7 +350,6 @@ public abstract class MyClass
 
 In the stub generated from this class, you can set delegate methods for `DoAbstract()` and `DoVirtual()`, but not `DoConcrete()`.
 
-[C#](#tab/csharp)
 ```csharp
 // unit test
 var stub = new Fakes.MyClass();
@@ -368,7 +359,6 @@ stub.DoVirtualInt32 = (n) => 10 ;
 
 If you don't provide a delegate for a virtual method, Fakes can either provide the default behavior or call the method in the base class. To have the base method called, set the `CallBase` property:
 
-[C#](#tab/csharp)
 ```csharp
 // unit test code
 var stub = new Fakes.MyClass();
@@ -389,7 +379,6 @@ Each generated stub type holds an instance of the `IStubBehavior` interface thro
 
 You can change the behavior at any time by setting the `InstanceBehavior` property on any stub instance. For example, the following snippet changes the behavior to either do nothing or return the default value of the return type `default(T)`:
 
-[C#](#tab/csharp)
 ```csharp
 // unit test code
 var stub = new StockAnalysis.Fakes.StubIStockFeed();
@@ -398,7 +387,6 @@ stub.InstanceBehavior = StubsBehaviors.DefaultValue;
 ```
 The behavior can also be changed globally for all stub objects where the behavior has not been set by setting the `StubsBehaviors.Current` property:
 
-[C#](#tab/csharp)
 ```csharp
 // Change default behavior for all stub instances where the behavior has not been set.
 StubBehaviors.Current = BehavedBehaviors.DefaultValue;

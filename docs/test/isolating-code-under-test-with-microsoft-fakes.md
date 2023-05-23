@@ -35,9 +35,9 @@ The benefit of this approach is that it allows you to focus on testing the speci
 
 Microsoft Fakes play a key role in code isolation by providing two mechanisms - stubs and shims.
 
-- [Stubs](#get-started-with-stubs): These are used to replace a class with a small substitute that implements the same interface. This requires your application to be designed such that each component depends only on interfaces, not on other components​​.
+- **Stubs**: These are used to replace a class with a small substitute that implements the same interface. This requires your application to be designed such that each component depends only on interfaces, not on other components​​.
 
-- [Shims](#get-started-with-shims): These are used to modify the compiled code of your application at runtime. Instead of making a specified method call, the application runs the shim code that your test provides. Shims can replace calls to assemblies that you can't modify, such as .NET assemblies​​.
+- **Shims**: These are used to modify the compiled code of your application at runtime. Instead of making a specified method call, the application runs the shim code that your test provides. Shims can replace calls to assemblies that you can't modify, such as .NET assemblies​​.
 
 Typically, stubs are used for calls within your Visual Studio solution, and shims for calls to other referenced assemblies. This is because within your solution, it's good practice to decouple the components by defining interfaces in the way that stubbing requires. However, external assemblies often don't come with separate interface definitions, so shims are used instead.
 

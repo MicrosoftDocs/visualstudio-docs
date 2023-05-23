@@ -31,7 +31,7 @@ It is important to note that shims do have their limitations.
 
 Suppose your component contains calls to `System.IO.File.ReadAllLines`:
 
-[C#](#tab/csharp)
+#### [C#](#tab/csharp)
 ```csharp
 // Code under test:
 this.Records = System.IO.File.ReadAllLines(path);
@@ -49,7 +49,7 @@ this.Records = System.IO.File.ReadAllLines(path);
 5. Delete the default file `Class1.cs`
 6. Add a new file `HexFile.cs` and add the following class definition:
 
-    [C#](#tab/csharp)
+    #### [C#](#tab/csharp)
     ```csharp
     // HexFile.cs
     public class HexFile
@@ -63,7 +63,7 @@ this.Records = System.IO.File.ReadAllLines(path);
     }
     ```
     
-    [VB](#tab/vb)
+    #### [VB](#tab/vb)
     ```vb
     ' HexFile.vb
     Public Class HexFile
@@ -130,7 +130,7 @@ modify the content of Fakes\mscorlib.fakes to exclude them.
 
 13. Modify the default file `UnitTest1.cs` to add the following `TestMethod` 
 
-    [C#](#tab/csharp)
+    #### [C#](#tab/csharp)
     ```csharp
     [TestMethod]
     public void TestFileReadAllLine()
@@ -148,7 +148,7 @@ modify the content of Fakes\mscorlib.fakes to exclude them.
     }
     ```
 
-    [VB](#tab/vb)
+    #### [VB](#tab/vb)
     ```vb
     <TestMethod>
     Public Sub TestFileReadAllLine()
@@ -179,12 +179,10 @@ It's critical to properly dispose each shim context. As a rule of thumb, call th
 
 Shim class names are made up by prefixing `Fakes.Shim` to the original type name. Parameter names are appended to the method name. (You don't have to add any assembly reference to System.Fakes.)
 
-[c#](#tab/csharp)
 ```csharp
     System.IO.File.ReadAllLines(path);
 ```
 
-[c#](#tab/csharp)
 ```csharp
     System.IO.Fakes.ShimFile.ReadAllLinesString = (path) => new string[] { "Hello", "World", "Shims" };
 ```
@@ -207,7 +205,6 @@ Shims support various types of methods.
 
 When shimming static methods, properties that hold shims are housed within a shim type. These properties only possess a setter, which is used to attach a delegate to the targeted method. For instance, if we have a class called `MyClass` with a static method `MyMethod`:
 
-[C#](#tab/csharp)
 ```csharp
 //code under test
 public static class MyClass {
@@ -218,7 +215,6 @@ public static class MyClass {
 ```
 We can attach a shim to `MyMethod` such that it constantly returns 5:
 
-[C#](#tab/csharp)
 ```csharp
 // unit test code
 ShimMyClass.MyMethod = () => 5;
@@ -238,7 +234,6 @@ public class MyClass {
 ```
 We can attach a shim to `MyMethod` so that it consistently returns 5, regardless of the instance:
 
-[C#](#tab/csharp)
 ```csharp
 // unit test code
 ShimMyClass.AllInstances.MyMethod = () => 5;
@@ -267,7 +262,6 @@ Instance methods can also be shimmed using different delegates, depending on the
 
 For example, given a class `MyClass` with an instance method `MyMethod`:
 
-[C#](#tab/csharp)
 ```csharp
 // code under test
 public class MyClass {
@@ -279,7 +273,6 @@ public class MyClass {
 
 We can create two shim types for `MyMethod` such that the first consistently returns 5 and the second consistently returns 10:
 
-[C#](#tab/csharp)
 ```csharp
 // unit test code
 var myClass1 = new ShimMyClass()
@@ -291,7 +284,6 @@ var myClass2 = new ShimMyClass { MyMethod = () => 10 };
 
 The generated type structure of `ShimMyClass` would appear as follows:
 
-[C#](#tab/csharp)
 ```csharp
 // Fakes generated code
 public class ShimMyClass : ShimBase<MyClass> {
@@ -310,7 +302,6 @@ public class ShimMyClass : ShimBase<MyClass> {
 
 The actual shimmed type instance can be accessed through the Instance property:
 
-[C#](#tab/csharp)
 ```csharp
 // unit test code
 var shim = new ShimMyClass();
@@ -319,7 +310,6 @@ var instance = shim.Instance;
 
 The shim type also includes an implicit conversion to the shimmed type, allowing you to use the shim type directly:
 
-[C#](#tab/csharp)
 ```csharp
 // unit test code
 var shim = new ShimMyClass();
@@ -332,7 +322,6 @@ MyClass instance = shim; // implicit cast retrieves the runtime instance
 
 Constructors are no exception to shimming; they too can be shimmed to attach shim types to objects that will be created in the future. For instance, every constructor is represented as a static method, named `Constructor`, within the shim type. Let's consider a class `MyClass` with a constructor that accepts an integer:
 
-[C#](#tab/csharp)
 ```csharp
 public class MyClass {
     public MyClass(int value) {
@@ -344,7 +333,6 @@ public class MyClass {
 
 A shim type for the constructor can be set up such that, irrespective of the value passed to the constructor, every future instance will return -5 when the Value getter is invoked:
 
-[C#](#tab/csharp)
 ```csharp
 // unit test code
 ShimMyClass.ConstructorInt32 = (@this, value) => {
@@ -356,7 +344,6 @@ ShimMyClass.ConstructorInt32 = (@this, value) => {
 
 Each shim type exposes two types of constructors. The default constructor should be used when a new instance is needed, whereas the constructor that takes a shimmed instance as an argument should only be used in constructor shims:
 
-[C#](#tab/csharp)
 ```csharp
 // unit test code
 public ShimMyClass() { }
@@ -364,7 +351,6 @@ public ShimMyClass(MyClass instance) : base(instance) { }
 ```
 The structure of the generated type for `ShimMyClass` can be illustrated as follows:
 
-[C#](#tab/csharp)
 ```csharp
 // Fakes generated code
 public class ShimMyClass : ShimBase<MyClass>
@@ -387,7 +373,6 @@ Shim properties of base members can be reached by creating a shim for the base t
 
 For instance, consider a class `MyBase` with an instance method `MyMethod` and a subtype `MyChild`:
 
-[C#](#tab/csharp)
 ```csharp
 public abstract class MyBase {
     public int MyMethod() {
@@ -401,7 +386,6 @@ public class MyChild : MyBase {
 
 A shim of `MyBase` can be set up by initiating a new `ShimMyBase` shim:
 
-[C#](#tab/csharp)
 ```csharp
 // unit test code
 var child = new ShimMyChild();
@@ -412,7 +396,6 @@ It's important to note that when passed as a parameter to the base shim construc
 
 The structure of the generated type for `ShimMyChild` and `ShimMyBase` can be likened to the following code:
 
-[C#](#tab/csharp)
 ```csharp
 // Fakes generated code
 public class ShimMyChild : ShimBase<MyChild> {
@@ -446,7 +429,6 @@ When a shimmed type implements an interface, the code generator emits a method t
 
 For example, given a class `MyClass` that implements `IEnumerable<int>`:
 
-[C#](#tab/csharp)
 ```csharp
 public class MyClass : IEnumerable<int> {
     public IEnumerator<int> GetEnumerator() {
@@ -458,7 +440,6 @@ public class MyClass : IEnumerable<int> {
 
 You can shim the implementations of `IEnumerable<int>` in MyClass by calling the Bind method:
 
-[C#](#tab/csharp)
 ```csharp
 // unit test code
 var shimMyClass = new ShimMyClass();
@@ -467,7 +448,6 @@ shimMyClass.Bind(new List<int> { 1, 2, 3 });
 
 The generated type structure of `ShimMyClass` resembles the following code:
 
-[C#](#tab/csharp)
 ```csharp
 // Fakes generated code
 public class ShimMyClass : ShimBase<MyClass> {
@@ -487,7 +467,6 @@ By default, if no specific behavior has been set, it uses the instance returned 
 
 You can modify this behavior at any time by adjusting the `InstanceBehavior` property for any shim instance. For instance, the code snippet below alters the behavior to either do nothing or return the default value of the return type—i.e., `default(T)`:
 
-[C#](#tab/csharp)
 ```csharp
 // unit test code
 var shim = new ShimMyClass();
@@ -496,7 +475,6 @@ shim.InstanceBehavior = ShimBehaviors.DefaultValue;
 ```
 You can also globally change the behavior for all shimmed instances—where the `InstanceBehavior` property has not been explicitly defined—by setting the static `ShimBehaviors.Current` property:
 
-[C#](#tab/csharp)
 ```csharp
 // unit test code
 // change default shim for all shim instances where the behavior has not been set
@@ -509,7 +487,6 @@ To help identify when your code is interacting with external systems or dependen
 
 Here's an example of how to set this up in your unit test code:
 
-[C#](#tab/csharp)
 ```csharp
 // unit test code
 // Assign the NotImplementedException behavior to ShimMyClass
@@ -518,7 +495,6 @@ ShimMyClass.Behavior = ShimBehaviors.NotImplemented;
 
 For convenience, a shorthand method is also provided to achieve the same effect:
 
-[C#](#tab/csharp)
 ```csharp
 // Shorthand to assign the NotImplementedException behavior to ShimMyClass
 ShimMyClass.BehaveAsNotImplemented();
@@ -532,7 +508,6 @@ There could be scenarios where you might need to execute the original method dur
 
 One approach to tackle this situation is to encapsulate a call to the original method using a delegate and `ShimsContext.ExecuteWithoutShims()`, as demonstrated in the following code:
 
-[C#](#tab/csharp)
 ```csharp
 // unit test code
 ShimFile.WriteAllTextStringString = (fileName, content) => {
@@ -547,7 +522,6 @@ ShimFile.WriteAllTextStringString = (fileName, content) => {
 
 Alternatively, you can nullify the shim, call the original method, and then restore the shim.
 
-[C#](#tab/csharp)
 ```csharp
 // unit test code
 ShimsDelegates.Action<string, string> shim = null;
