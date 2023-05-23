@@ -121,7 +121,7 @@ Let's start this with a motivating example, the one in the diagram.
 9. Set project name `TestProject`
 10. Set the project's target framework to *.NET 7.0. (Standard Term Support)*
 
-![Create Test project](../test/media/microsoft_fakes_stubs_create_test_project.png)
+   ![Create Test project](../test/media/microsoft_fakes_stubs_create_test_project.png)
 
 ### Add Fakes Assembly
 
