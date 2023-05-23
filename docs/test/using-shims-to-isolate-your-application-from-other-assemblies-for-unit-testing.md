@@ -166,7 +166,7 @@ modify the content of Fakes\mscorlib.fakes to exclude them.
 
    ![All shim files](../test/media/microsoft_fakes_shims_all_files.png)
 
-14. Open Test Explorer and run the test.
+2. Open Test Explorer and run the test.
 
 It's critical to properly dispose each shim context. As a rule of thumb, call the `ShimsContext.Create` inside of a `using` statement to ensure proper clearing of the registered shims. For example, you might register a shim for a test method that replaces the `DateTime.Now` method with a delegate that always returns the first of January 2000. If you forget to clear the registered shim in the test method, the rest of the test run would always return the first of January 2000 as the `DateTime.Now` value. This might be surprising and confusing.
 
