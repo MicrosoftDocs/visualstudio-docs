@@ -104,7 +104,7 @@ additionalContent:
        url: msbuild-reserved-and-well-known-properties.md
      - title: Common project items
        summary: Common items and their metadata
-       url: msbuild-common-project-items.md
+       url: common-msbuild-project-items.md
      - title: Well-known item metadata
        summary: Default metadata for items.
        url: msbuild-well-known-item-metadata.md
