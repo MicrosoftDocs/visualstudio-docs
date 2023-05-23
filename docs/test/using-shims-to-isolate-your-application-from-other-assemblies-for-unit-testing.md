@@ -506,7 +506,7 @@ ShimMyClass.BehaveAsNotImplemented();
 
 There could be scenarios where you might need to execute the original method during the execution of the shim method. For instance, you might want to write text to the file system after validating the file name passed to the method.
 
-One approach to tackle this situation is to encapsulate a call to the original method using a delegate and `ShimsContext.ExecuteWithoutShims()`, as demonstrated in the following code:
+One approach to handle this situation is to encapsulate a call to the original method using a delegate and `ShimsContext.ExecuteWithoutShims()`, as demonstrated in the following code:
 
 ```csharp
 // unit test code
