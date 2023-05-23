@@ -57,7 +57,7 @@ While stubs are used for calls within your Visual Studio solution, shims are typ
 
 However, there are some factors to consider when using shims:
 
-**Performance**: Shims run slower because they rewrite your code at runtime. Stubs don't have this performance overhead and are as fast as virtual methods can go​​.
+**Performance**: Shims run slower because they rewrite your code at runtime. Stubs don't have this performance overhead and are as fast as virtual methods can run​​.
 
 **Static methods, sealed types**: You can only use stubs to implement interfaces. Therefore, stub types can't be used for static methods, non-virtual methods, sealed virtual methods, methods in sealed types, and so on​​.
 
