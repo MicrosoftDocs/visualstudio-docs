@@ -100,16 +100,16 @@ additionalContent:
        summary: List of commonly used MSBuild properties you can set in your project files to configure your builds.
        url: common-msbuild-project-properties.md
      - title: Reserved and well-known properties.
-       summary: Properties used by the MSBuild system, some of which you can define or override to customize the build.
+       summary: List of properties used by the MSBuild system, some of which you can define or override to customize the build.
        url: msbuild-reserved-and-well-known-properties.md
      - title: Common project items
-       summary: Common items and their metadata used in project builds.
+       summary: List of common items and their metadata used in project builds.
        url: common-msbuild-project-items.md
      - title: Well-known item metadata
-       summary: Default metadata for items that you can use to implement targets and control how various files are handled and built.
+       summary: List of default metadata for items that you can use to implement targets and control how various files are handled and built.
        url: msbuild-well-known-item-metadata.md
      - title: Common item metadata
-       summary: Optional item metadata you can use to control how your files are handled, that have meaning for some SDKs or targets.
+       summary: List of optional item metadata you can use to control how your files are handled, that have meaning for some SDKs or targets.
        url: common-msbuild-item-metadata.md
      - title: MSBuild API
        summary: Reference to APIs you can use to control MSBuild programmatically when authoring custom tasks and build tools.
