@@ -18,7 +18,7 @@ Visual Studio provides different tools and features to help you create apps usin
 ## Reference
 
 - [JavaScript Language Reference (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
-- [TypeScript](http://www.typescriptlang.org/docs/tutorial.html)
+- [TypeScript](https://www.typescriptlang.org/docs/)
 - [JavaScript Runtime Hosting](/microsoft-edge/hosting/javascript-runtime-hosting)
 - [Windows Script Interfaces (Archive)](/previous-versions//t9d4xf28(v=vs.85)?redirectedfrom=MSDN)
 - [JScript and VBScript (Archive)](/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/d1et7k7c(v%3dvs.84))
