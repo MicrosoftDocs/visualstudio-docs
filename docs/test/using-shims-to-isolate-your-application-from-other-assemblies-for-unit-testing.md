@@ -77,7 +77,7 @@ this.Records = System.IO.File.ReadAllLines(path);
 ### Create a Test Project
 
 1. Right-click on the solution and add a new project `MSTest Test Project`
-8. Set project name `TestProject`
+2. Set project name `TestProject`
 3. Set the project's target framework to *.NET Framework 4.8*
 
 ![Create Test project](../test/media/microsoft_fakes_shims_create_test_project.png)
