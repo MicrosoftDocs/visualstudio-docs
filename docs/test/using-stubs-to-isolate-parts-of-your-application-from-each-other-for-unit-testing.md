@@ -1,7 +1,7 @@
 ---
 title: Using stubs to isolate parts of your app for testing
 description: Learn about a stub, which is a small piece of code that takes the place of another component during testing. Using a stub returns consistent results.
-ms.date: 04/21/2023
+ms.date: 05/23/2023
 ms.topic: how-to
 ms.author: oscalles
 manager: aajohn
