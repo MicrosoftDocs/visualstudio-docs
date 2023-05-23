@@ -263,7 +263,7 @@ If you don't provide a stub for a method, Fakes generates a function that return
 
 ### Properties
 
-roperty getters and setters are exposed as separate delegates and can be stubbed individually. For example, consider the `Value` property of `IStockFeedWithProperty`:
+Property getters and setters are exposed as separate delegates and can be stubbed individually. For example, consider the `Value` property of `IStockFeedWithProperty`:
 
 ```csharp
 interface IStockFeedWithProperty
