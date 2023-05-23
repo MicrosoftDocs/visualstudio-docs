@@ -144,7 +144,7 @@ Let's start this with a motivating example: the one shown in the preceding diagr
 
    ![Add Fakes Assembly](../test/media/microsoft_fakes_stubs_add_fakes_assembly.png)
 
-### Create a unit-test
+### Create a unit test
 
 1. Modify the default file `UnitTest1.cs` to add the following `Test Method`.
 
