@@ -233,7 +233,7 @@ Let's start this with a motivating example: the one shown in the preceding diagr
 
 ### Methods
 
-In the provided example, methods can be stubbed by attaching a delegate to an instance of the stub class. The name of the stub type is derived from the names of the method and parameters. For instance, consider the following `IStockFeed` interface and its method `GetSharePrice`:
+In the provided example, methods can be stubbed by attaching a delegate to an instance of the stub class. The name of the stub type is derived from the names of the method and parameters. For example, consider the following `IStockFeed` interface and its method `GetSharePrice`:
 
 ```csharp
 // IStockFeed.cs
