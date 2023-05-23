@@ -117,7 +117,7 @@ Let's start this with a motivating example: the one shown in the preceding diagr
 
 ### Create a Test Project
 
-8. Right-click on the solution and add a new project `MSTest Test Project`
+1. Right-click on the solution and add a new project `MSTest Test Project`.
 2. Set project name `TestProject`.
 3. Set the project's target framework to **.NET 7.0. (Standard Term Support)**.
 
