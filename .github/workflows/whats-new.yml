@@ -24,6 +24,12 @@ jobs:
         if: ${{ github.event_name == 'workflow_dispatch' }}
         run: |
           echo "Reason: ${{ github.event.inputs.reason }}"
+      
+      # This step ensures that this workflow only runs in the private repo pair
+      - if: ${{ steps.visibility.outputs.is_public == 'true' }}
+        run: | 
+          echo "Public repo"
+          exit 1
 
       - uses: dotnet/docs-tools/WhatsNew.Cli@main
         env:
