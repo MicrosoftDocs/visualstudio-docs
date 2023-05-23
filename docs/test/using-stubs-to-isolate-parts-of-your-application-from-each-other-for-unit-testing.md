@@ -119,7 +119,7 @@ Let's start this with a motivating example, the one in the diagram.
 
 8. Right-click on the solution and add a new project `MSTest Test Project`
 9. Set project name `TestProject`
-10. Set the project's target framework to *.NET 7.0. (Standard Term Support)*
+3. Set the project's target framework to **.NET 7.0. (Standard Term Support)**.
 
    ![Create Test project](../test/media/microsoft_fakes_stubs_create_test_project.png)
 
