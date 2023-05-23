@@ -1,7 +1,7 @@
 ---
 title: 'Microsoft Fakes: Generate & compile code; naming conventions'
 description: Learn about options and issues in Fakes code generation and compilation, including the naming conventions for Fakes-generated types, members, and parameters.
-ms.date: 11/04/2016
+ms.date: 05/23/23
 ms.topic: conceptual
 ms.author: oscalles
 manager: aajohn
