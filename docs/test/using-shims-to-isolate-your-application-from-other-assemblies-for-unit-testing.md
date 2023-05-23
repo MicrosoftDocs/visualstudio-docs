@@ -84,7 +84,7 @@ this.Records = System.IO.File.ReadAllLines(path);
 
 ### Add Fakes Assembly
 
-10. Add a project reference to `HexFileReader` 
+1. Add a project reference to `HexFileReader` 
 
 ![Add project reference](../test/media/microsoft_fakes_shims_add_project_reference.png)
 
