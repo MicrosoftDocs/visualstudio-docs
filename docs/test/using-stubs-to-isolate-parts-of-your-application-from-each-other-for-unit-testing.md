@@ -221,7 +221,7 @@ Let's start this with a motivating example: the one shown in the preceding diagr
     Stubs are also generated for the getters and setters of properties, for events, and for generic methods. For more information, see [Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md).
 
 
-![Solution Explorer Show All Files](../test/media/microsoft_fakes_stubs_all_files.png)
+   ![Solution Explorer Show All Files](../test/media/microsoft_fakes_stubs_all_files.png)
 
 14. Open Test Explorer and run the test.
 
