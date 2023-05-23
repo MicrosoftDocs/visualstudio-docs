@@ -289,7 +289,7 @@ Microsoft Fakes is a feature available exclusively in Visual Studio Enterprise. 
 </Project>
 ```
 
-This reference must be added manually, specifically for SDK-style projects (i.e., .NET Core, .NET 5.0, and .NET Framework) since these projects now implicitly add assembly references. If you decide to use this method, be sure to update the Fakes assembly whenever the parent assembly undergoes changes.
+This reference must be added manually, specifically for SDK-style projects (that is, .NET Core, .NET 5+, and .NET Framework), because these projects now implicitly add assembly references. If you decide to use this method, make sure to update the Fakes assembly whenever the parent assembly undergoes changes.
 
 ## See also
 
