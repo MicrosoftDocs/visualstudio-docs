@@ -45,7 +45,7 @@ Typically, stubs are used for calls within your Visual Studio solution, and shim
 
 ## Recommendations on When to Use Stubs
 
-Stubs are typically used for calls within your Visual Studio solution, as it's good practice to decouple the components by defining interfaces in the way that stubbing requires. However, external assemblies, such as System.dll, typically aren't provided with separate interface definitions, so shims would be used in these cases instead​​.
+Stubs are typically used for calls within your Visual Studio solution because it's a good practice to decouple the components by defining interfaces in the way that stubbing requires. However, external assemblies, such as System.dll, typically aren't provided with separate interface definitions, so shims would be used in these cases instead​​.
 
 Using stubs involves designing your application so that the different components are not dependent on each other, but only on interface definitions. This decoupling makes the application more robust and flexible, and allows you to connect the component under test to stub implementations of the interfaces for testing purposes​​.
 
