@@ -162,7 +162,7 @@ modify the content of Fakes\mscorlib.fakes to exclude them.
         End Using
     End Sub
     ```
-Here is the Solution Explorer showing all the files
+   Here is the Solution Explorer showing all the files
 
    ![All shim files](../test/media/microsoft_fakes_shims_all_files.png)
 
