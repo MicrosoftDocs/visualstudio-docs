@@ -24,7 +24,8 @@ Employ **shims** when you need to create a boundary between your code and assemb
 ## Shims limitations
 
 It is important to note that shims do have their limitations. 
-- Shims cannot be used on all types from certain libraries in the .NET base class, specifically **mscorlib** and **System** in the .NET Framework, and in **System.Runtime** in .NET Core or .NET 5+. This constraint should be taken into account during the test planning and design stage to ensure a successful and effective testing strategy.
+
+Shims cannot be used on all types from certain libraries in the .NET base class, specifically **mscorlib** and **System** in the .NET Framework, and in **System.Runtime** in .NET Core or .NET 5+. This constraint should be taken into account during the test planning and design stage to ensure a successful and effective testing strategy.
 ---
 
 ## Creating a Stub: A Step-by-Step Guide
