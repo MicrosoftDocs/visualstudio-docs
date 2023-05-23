@@ -164,7 +164,7 @@ modify the content of Fakes\mscorlib.fakes to exclude them.
     ```
 Here is the Solution Explorer showing all the files
 
-![All shim files](../test/media/microsoft_fakes_shims_all_files.png)
+   ![All shim files](../test/media/microsoft_fakes_shims_all_files.png)
 
 14. Open Test Explorer and run the test.
 
