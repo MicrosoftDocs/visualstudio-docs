@@ -127,7 +127,7 @@ modify the content of Fakes\mscorlib.fakes to exclude them.
 
 ### Create a unit test
 
-13. Modify the default file `UnitTest1.cs` to add the following `TestMethod` 
+1. Modify the default file `UnitTest1.cs` to add the following `TestMethod` 
 
     #### [C#](#tab/csharp)
     ```csharp
