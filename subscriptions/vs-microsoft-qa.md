@@ -7,10 +7,10 @@ ms.assetid: 16af82df-380a-4864-9f4e-6c3442cc7da2
 ms.date: 05/24/2023
 ms.topic: how-to
 ms.custom: kr2b-contr-experiment
-description:  Learn about the Microsoft Q&A forum support benefit included in selected Visual Studio subscriptions.
+description:  Learn about the Microsoft Q&A support benefit included in selected Visual Studio subscriptions.
 ---
 
-# Microsoft Q&A forum support in Visual Studio subscriptions
+# Microsoft Q&A support in Visual Studio subscriptions
 
 Have a technical product question? Find it on Microsoft Q&A – the home for technical questions and answers at Microsoft.
 
@@ -46,7 +46,7 @@ Accessing Microsoft Q&A is simple.
 
 ## Eligibility
 
-The Microsoft Q&A forum is freely available.  No subscription is required. 
+Microsoft Q&A is freely available.  No subscription is required. 
 
 ## Support Resources
 
