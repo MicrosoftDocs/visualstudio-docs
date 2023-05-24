@@ -65,9 +65,9 @@ You can add your public GitHub account at any point, even if you haven't signed 
 
 If you're not already signed in to Visual Studio, select the **Sign in** link in the upper-right corner of the Visual Studio environment and use a Microsoft account, work account, or school account to sign in. 
 
-Then, follow these instructions to add your GitHub account.
+:::image type="content" source="../ide/media/vs-2022/signin-different-account.png" alt-text="Screenshot showing not signed in to Visual Studio.":::
 
-   :::image type="content" source="../ide/media/vs-2022/signin-different-account.png" alt-text="Screenshot showing not signed in to Visual Studio.":::
+Then, follow these instructions to add your GitHub account.
 
 1. Select the icon with your profile name in the upper-right corner of the Visual Studio environment, select **Add another account** and then select **GitHub**.
 
