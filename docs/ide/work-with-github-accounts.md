@@ -27,7 +27,7 @@ You can add your public GitHub account at any point, even if you haven't signed 
 
 1. Open the Account Settings dialog by going to **File** > **Account Settings...**.
 
-2. From the **All Accounts** submenu, select **+Add** to add an account, and select **GitHub**.
+2. From the **All Accounts** submenu, select **+ Add** to add an account, and select **GitHub**.
     
     :::image type="content" source="../ide/media/sign-in-add-github.png" alt-text="Select add GitHub account":::
 
