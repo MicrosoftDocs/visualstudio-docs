@@ -65,7 +65,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 1. Create a new project.
 
     ::: moniker range=">=vs-2022"
-    In Visual Studio 2022, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project, and then choose **Next**.
+    In Visual Studio 2022, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web App (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project, and then choose **Next**.
 
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
     ::: moniker-end
@@ -230,7 +230,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
    ```json
    "devDependencies": {
-      "@types/jquery": "3.3.33"
+      "@types/jquery": "3.5.1"
    }
    ```
 
