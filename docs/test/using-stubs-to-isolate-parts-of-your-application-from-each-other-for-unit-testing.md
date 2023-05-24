@@ -331,7 +331,7 @@ If the code calls `GetValue<T>` with any other instantiation, the stub will simp
 
 ### Stubs of virtual classes
 
-In the previous examples, the stubs have been generated from interfaces. However, you can also generate stubs from a class that has virtual or abstract members. For instance:
+In the previous examples, the stubs have been generated from interfaces. However, you can also generate stubs from a class that has virtual or abstract members. For example:
 
 ```csharp
 // Base class in application under test
