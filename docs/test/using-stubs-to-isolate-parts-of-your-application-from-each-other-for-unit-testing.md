@@ -379,7 +379,7 @@ Assert.AreEqual(43,stub.DoVirtual(1));
 
 Each generated stub type holds an instance of the `IStubBehavior` interface through the `IStub.InstanceBehavior` property. This behavior is called whenever a client calls a member with no attached custom delegate. If the behavior has not been set, it uses the instance returned by the `StubsBehaviors.Current` property. By default, this property returns a behavior that throws a `NotImplementedException` exception.
 
-You can change the behavior at any time by setting the `InstanceBehavior` property on any stub instance. For example, the following snippet changes the behavior to either do nothing or return the default value of the return type `default(T)`:
+You can change the behavior at any time by setting the `InstanceBehavior` property on any stub instance. For example, the following snippet changes the behavior so that the stub either does nothing or returns the default value of the return type `default(T)`:
 
 ```csharp
 // unit test code
