@@ -23,7 +23,7 @@ To leverage stubs effectively, it is recommended to design your component in a w
 
 For example, let's consider the diagram that illustrates the components involved:
 
-![Diagram of Real and Stub classes of StockAnalyzer.](../test/media/fakesinterfaces.png)
+![Diagram of Real and Stub classes of StockAnalyzer.](../test/media/microsoft-fakes/fakesinterfaces.png)
 
 In this diagram, the component under test is `StockAnalyzer`, which typically relies on another component called `RealStockFeed`. However, `RealStockFeed` poses a challenge for testing because it returns different results each time its methods are called. This variability makes it difficult to ensure consistent and reliable testing of `StockAnalyzer`.
 
@@ -57,7 +57,7 @@ Let's start this with a motivating example: the one shown in the preceding diagr
 ### Create a Class Library
 1. Open Visual Studio and create a `Class Library` project.
 
-![Screenshot of Class Library project in VS.](../test/media/microsoft_fakes_stubs_create_class_library_project.png)
+![Screenshot of Class Library project in VS.](../test/media/microsoft-fakes/stubs-create-class-library-project.png)
 
 2. Set project name `StockAnalysis`
 3. Set solution name `StubsTutorial`.
@@ -121,13 +121,13 @@ Let's start this with a motivating example: the one shown in the preceding diagr
 2. Set project name `TestProject`.
 3. Set the project's target framework to **.NET 7.0. (Standard Term Support)**.
 
-   ![Screenshot of Test project in VS.](../test/media/microsoft_fakes_stubs_create_test_project.png)
+   ![Screenshot of Test project in VS.](../test/media/microsoft-fakes/stubs-create-test-project.png)
 
 ### Add Fakes Assembly
 
 1. Add a project reference to `StockAnalyzer`.
 
-   ![Screenshot of the command Add Project Reference.](../test/media/microsoft_fakes_stubs_add_project_reference.png)
+   ![Screenshot of the command Add Project Reference.](../test/media/microsoft-fakes/stubs-add-project-reference.png)
 
 2. Add Fakes Assembly
 
@@ -142,7 +142,7 @@ Let's start this with a motivating example: the one shown in the preceding diagr
 
    - On the shortcut menu, select **Add Fakes Assembly**.
 
-   ![Screenshot of the command Add Fakes Assembly.](../test/media/microsoft_fakes_stubs_add_fakes_assembly.png)
+   ![Screenshot of the command Add Fakes Assembly.](../test/media/microsoft-fakes/stubs-add-fakes-assembly.png)
 
 ### Create a unit test
 
@@ -221,11 +221,11 @@ Let's start this with a motivating example: the one shown in the preceding diagr
     Stubs are also generated for the getters and setters of properties, for events, and for generic methods. For more information, see [Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md).
 
 
-   ![Screenshot of Solution Explorer showing all files.](../test/media/microsoft_fakes_stubs_all_files.png)
+   ![Screenshot of Solution Explorer showing all files.](../test/media/microsoft-fakes/stubs-all-files.png)
 
 2. Open Test Explorer and run the test.
 
-   ![Screenshot of Test Explorer.](../test/media/microsoft_fakes_stubs_test_explorer.png)
+   ![Screenshot of Test Explorer.](../test/media/microsoft-fakes/stubs-test-explorer.png)
 
 ---
 
