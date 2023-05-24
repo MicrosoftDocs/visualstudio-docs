@@ -57,7 +57,7 @@ Let's start this with a motivating example: the one shown in the preceding diagr
 ### Create a Class Library
 1. Open Visual Studio and create a `Class Library` project.
 
-![Screenshot of Class Library project in VS.](../test/media/microsoft-fakes-stubs-create-class-library-project.png)
+![Screenshot of Class Library project in Visual Studio.](../test/media/microsoft-fakes-stubs-create-class-library-project.png)
 
 2. Set project name `StockAnalysis`
 3. Set solution name `StubsTutorial`.
@@ -121,7 +121,7 @@ Let's start this with a motivating example: the one shown in the preceding diagr
 2. Set project name `TestProject`.
 3. Set the project's target framework to **.NET 7.0. (Standard Term Support)**.
 
-   ![Screenshot of Test project in VS.](../test/media/microsoft-fakes-stubs-create-test-project.png)
+   ![Screenshot of Test project in Visual Studio.](../test/media/microsoft-fakes-stubs-create-test-project.png)
 
 ### Add Fakes Assembly
 

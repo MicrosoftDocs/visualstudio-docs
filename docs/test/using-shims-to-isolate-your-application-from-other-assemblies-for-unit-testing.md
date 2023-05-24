@@ -40,7 +40,7 @@ this.Records = System.IO.File.ReadAllLines(path);
 
 1. Open Visual Studio and create a `Class Library` project
 
-   ![Screenshot of NetFramework Class Library project in VS.](../test/media/microsoft-fakes-shims-create-class-library-project.png)
+   ![Screenshot of NetFramework Class Library project in Visual Studio.](../test/media/microsoft-fakes-shims-create-class-library-project.png)
 
 2. Set project name `HexFileReader`
 3. Set solution name `ShimsTutorial`.
@@ -81,7 +81,7 @@ this.Records = System.IO.File.ReadAllLines(path);
 2. Set project name `TestProject`
 3. Set the project's target framework to *.NET Framework 4.8*
 
-   ![Screenshot of NetFramework Test project in VS.](../test/media/microsoft-fakes-shims-create-test-project.png)
+   ![Screenshot of NetFramework Test project in Visual Studio.](../test/media/microsoft-fakes-shims-create-test-project.png)
 
 ### Add Fakes Assembly
 
