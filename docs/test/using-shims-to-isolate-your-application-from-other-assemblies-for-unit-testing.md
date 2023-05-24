@@ -40,7 +40,7 @@ this.Records = System.IO.File.ReadAllLines(path);
 
 1. Open Visual Studio and create a `Class Library` project
 
-   ![Screenshot of NetFramework Class Library project in VS.](../test/media/microsoft-fakes/shims-create-class-library-project.png)
+   ![Screenshot of NetFramework Class Library project in VS.](../test/media/microsoft-fakes-shims-create-class-library-project.png)
 
 2. Set project name `HexFileReader`
 3. Set solution name `ShimsTutorial`.
@@ -81,13 +81,13 @@ this.Records = System.IO.File.ReadAllLines(path);
 2. Set project name `TestProject`
 3. Set the project's target framework to *.NET Framework 4.8*
 
-   ![Screenshot of NetFramework Test project in VS.](../test/media/microsoft-fakes/shims-create-test-project.png)
+   ![Screenshot of NetFramework Test project in VS.](../test/media/microsoft-fakes-shims-create-test-project.png)
 
 ### Add Fakes Assembly
 
 1. Add a project reference to `HexFileReader` 
 
-   ![Screenshot of the command Add Project Reference.](../test/media/microsoft-fakes/shims-add-project-reference.png)
+   ![Screenshot of the command Add Project Reference.](../test/media/microsoft-fakes-shims-add-project-reference.png)
 
 2. Add Fakes Assembly
 
@@ -102,7 +102,7 @@ this.Records = System.IO.File.ReadAllLines(path);
 
    - On the shortcut menu, select **Add Fakes Assembly**.
 
-   ![Screnshot of the command Add Fakes Assembly.](../test/media/microsoft-fakes/shims-add-fakes-assembly.png)
+   ![Screnshot of the command Add Fakes Assembly.](../test/media/microsoft-fakes-shims-add-fakes-assembly.png)
 
 Since building results in some warnings and errors because not all types can be used with shims, you will have to
 modify the content of Fakes\mscorlib.fakes to exclude them.
@@ -167,7 +167,7 @@ modify the content of Fakes\mscorlib.fakes to exclude them.
     
    Here is the Solution Explorer showing all the files
 
-   ![Screenshot of Solution Explorer showing all files.](../test/media/microsoft-fakes/shims-all-files.png)
+   ![Screenshot of Solution Explorer showing all files.](../test/media/microsoft-fakes-shims-all-files.png)
 
 2. Open Test Explorer and run the test.
 
