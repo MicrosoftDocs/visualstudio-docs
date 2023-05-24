@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 16af82df-380a-4864-9f4e-6c3442cc7da2
-ms.date: 06/15/2022
+ms.date: 05/24/2023
 ms.topic: how-to
 ms.custom: kr2b-contr-experiment
 description:  Learn about the Microsoft Q&A forum support benefit included in selected Visual Studio subscriptions.
@@ -32,7 +32,7 @@ You can search questions and answers on a wide range of supported products, incl
 + Windows
 + Windows Sysinternals
 
-You'll also find "how-to" guides to help you ask great questions and craft quality answers for other users.
+You can also find "how-to" guides to help you ask great questions and craft quality answers for other users.
 
 ## Access Microsoft Q&A
 
