@@ -30,7 +30,7 @@ The benefit of this approach is that it allows you to focus on testing the speci
 
 > [!NOTE]
 > Profiling with Visual Studio isn't available for tests that use Microsoft Fakes.
----
+
 ## The Role of Microsoft Fakes in Code Isolation
 
 Microsoft Fakes plays a key role in code isolation by providing two mechanisms - stubs and shims.
@@ -41,7 +41,7 @@ Microsoft Fakes plays a key role in code isolation by providing two mechanisms -
 
 Typically, stubs are used for calls within your Visual Studio solution, and shims for calls to other referenced assemblies. This is because within your solution, it's good practice to decouple the components by defining interfaces in the way that stubbing requires. However, external assemblies often don't come with separate interface definitions, so shims are used instead.
 
-![Fakes replace other components](../test/media/fakes-2.png)
+![Diagram that show Fakes replacing other components.](../test/media/fakes-2.png)
 
 ## Recommendations on When to Use Stubs
 
