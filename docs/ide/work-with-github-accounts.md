@@ -35,7 +35,7 @@ You can add your public GitHub account at any point, even if you haven't signed 
 
     :::image type="content" source="../ide/media/github-success-signin.png" alt-text="Success window in browser":::
 
-4. Your GitHub account will now be present in the All Accounts submenu.
+4. Your GitHub account will now be present in the **All Accounts** submenu.
 
    :::image type="content" source="../ide/media/show-both-accounts.png" alt-text="Both accounts showing":::
    
