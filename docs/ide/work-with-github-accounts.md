@@ -69,7 +69,7 @@ If you're not already signed in to Visual Studio, select the **Sign in** link in
 
 Then, follow these instructions to add your GitHub account.
 
-1. Select the icon with your profile name in the upper-right corner of the Visual Studio environment, select **Add another account** and then select **GitHub**.
+1. Select the icon with your profile name in the upper-right corner of the Visual Studio environment, select **Add another account**, and then select **GitHub**.
 
     :::image type="content" source="../ide/media/vs-2022/add-another-account-github.png" alt-text="Screenshot of using Add another account option to add a GitHub account.":::
 
