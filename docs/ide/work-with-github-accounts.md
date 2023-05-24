@@ -19,7 +19,7 @@ If you have a public GitHub or GitHub Enterprise account, you can add it to your
 
 ## Adding public GitHub accounts
 
-You can add your public GitHub account at any point, even if you haven't signed into Visual Studio with a Microsoft account,  work account, or school account.
+You can add your public GitHub account at any point, even if you haven't signed into Visual Studio with a Microsoft account, work account, or school account.
 
 **Add a GitHub account from the **Account settings** dialog:**
 
