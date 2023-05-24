@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 2e0fd8bb-8f20-487c-b350-b8fde405ea5e
-ms.date: 06/30/2022
+ms.date: 05/24/2023
 ms.topic: how-to
 description: Learn how to activate the technical support benefit included with your Visual Studio subscription.
 ---
@@ -20,9 +20,9 @@ The Technical Support benefit in Visual Studio subscriptions is for resolving br
 
 ## Supported products 
 
-Developer Tools such as the Visual Studio IDE and Azure DevOps Server will receive both mainstream and extended support through Visual Studio subscriptions.
+Developer Tools such as the Visual Studio IDE and Azure DevOps Server receive both mainstream and extended support through Visual Studio subscriptions.
 
-Non-developer products (such as SQL, Windows, SharePoint) downloaded from Visual Studio subscriptions are eligible only for mainstream support. These products are only licensed for development environments to design, develop, test, or demonstrate applications. These products aren't licensed for production environments.
+Nondeveloper products (such as SQL, Windows, SharePoint) downloaded from Visual Studio subscriptions are eligible only for mainstream support. These products are only licensed for development environments to design, develop, test, or demonstrate applications. These products aren't licensed for production environments.
 
 Product level descriptions: Expand **Unavailable support plans**. If you see **Support plan cannot be used for support on the specified product (Code: 8)**, your support contract can't be used for the product version you selected.
 
@@ -43,9 +43,9 @@ Product level descriptions: Expand **Unavailable support plans**. If you see **S
 1. Go to <https://my.visualstudio.com/Benefits>, scroll down to the Support section and on the Technical Support tile select **Chat to activate**.
     > [!div class="mx-imgBorder"]
     > ![Technical Support Benefit Tile](_img/vs-tech-support/vs-tech-support-tile.png "Screenshot of the Technical Support tile. The chat to activate button is highlighted.")
-2. You will join a chat session with a representative who can create your **Contract ID** and **Access ID** and provide those numbers to you via email so you'll have them for your records.
+2. You join a chat session with a representative who can create your **Contract ID** and **Access ID** and provide those numbers to you via email so you have them for your records.
 
-3. To complete the process, you'll need to provide the representative with:
+3. To complete the process, you need to provide the representative with:
    + Your country/region
    + Company name
    + Your full name
@@ -55,7 +55,7 @@ Product level descriptions: Expand **Unavailable support plans**. If you see **S
    > [!div class="mx-imgBorder"]
    > ![Technical Support Benefit Find Subscription ID](_img/vs-tech-support/vs-tech-support-subID-cropped.png "Screenshot of the subscriptions page.  An example of a subscription ID is highlighted.")
 
-4. After the process is completed, you'll receive an email containing your **Contract ID** and **Access ID** you'll use when creating a support incident.  It will also provide instructions for submitting support incidents using your new Access ID and Contract ID. 
+4. After the process is completed, you receive an email containing your **Contract ID** and **Access ID** you use when creating a support incident.  It also provides instructions for submitting support incidents using your new Access ID and Contract ID. 
 
 ## How to submit an incident using your benefit
 
@@ -82,8 +82,8 @@ To submit an incident via the Support for business portal, follow these steps:
 0. Enter the **Access ID** and **Contract ID** you received in your confirmation email when you activated your support benefit. Select **Add**.
    > [!div class="mx-imgBorder"]
    > ![Add a Contract ID](_img/vs-tech-support/vs-tech-support-add-contract-id.png "Screenshot of the dialog to add a new contract ID.") 
-0. Your new support contract will appear in the **Step 2**.  Select it.
-0. Please indicate the severity of your issue.  "Important" is the default. 
+0. Your new support contract appears in the **Step 2**.  Select it.
+0. Indicate the severity of your issue.  "Important" is the default. 
 0. Choose when you would like to receive support. "Only during business hours" is selected by default. The option for "24/7 support" is only available if you selected "Critical" as the severity.
 0. Select **Next** to continue. 
 0. For **Step 3**, provide the contact information you would like your support agent to use to contact you. 
@@ -98,7 +98,7 @@ If you would like to create a support incident over the phone, locate the [Custo
 
 ### Submit an incident in the Azure portal
 
-To use your Visual Studio subscription technical support benefit for issues relating to Azure, you'll need to link your Contract ID and Access ID to your Azure subscription.
+To use your Visual Studio subscription technical support benefit for issues relating to Azure, you need to link your Contract ID and Access ID to your Azure subscription.
 
 1. Visit https://portal.azure.com and sign in
 0. From the left-hand navigation, select **Help + Support**
@@ -121,7 +121,7 @@ To use your Visual Studio subscription technical support benefit for issues rela
 
 <sup>2</sup> *Includes: Imagine Standard.*
 
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You need to sign in with that email address to see those subscriptions.
 
 ## Support resources
 
