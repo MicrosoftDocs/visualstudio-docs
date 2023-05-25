@@ -1,7 +1,7 @@
 ---
 title: "Learn about the Spell Checker"
 description: Learn how to use the Spell Checker in Visual Studio to correct misspelled words in multiple languages and to customize it to share with your dev team.
-ms.date: 05/16/2023
+ms.date: 05/24/2023
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -21,7 +21,7 @@ Many of the features in Visual Studio are designed to help you write the code yo
 
 The Spell Checker is available for any C#, C++, or Markdown file. When the Spell Checker is enabled, Visual Studio marks any words that it detects as misspelled words. Visual Studio also suggests alternate spellings and helps correct them. The feature even does a contextual rename when those misspellings are identifiers so that your code still compiles.
 
-You can turn the spell checker off or on by using the **Toggle Text Spell Checker** button on the main toolbar, or by selecting **Edit** > **Advanced** > **Toggle Text Spell Checker** command from the menu bar.
+You can turn the spell checker off or on by using the **Toggle Spell Checker** button on the main toolbar, or by selecting **Edit** > **Advanced** > **Toggle Spell Checker** command from the menu bar.
 
 ## How do you use it?
 
