@@ -1,7 +1,7 @@
 ---
 title: Projects and Solutions, Options dialog box
 description: Learn how to use the General page in the Projects and Solutions section to define the behavior of Visual Studio related to projects and solutions.
-ms.date: 07/26/2019
+ms.date: 05/24/2023
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Projects.General
@@ -71,7 +71,7 @@ If you don't have this option selected and you want to edit a project file, righ
 
 ## Enable symbolic renaming when renaming files
 
-Add text here
+When selected, you can simultaneously rename a code element to match the filename or rename a filename to match the code element it contains.
 
 ### Prompt for symbolic renaming when renaming files
 
