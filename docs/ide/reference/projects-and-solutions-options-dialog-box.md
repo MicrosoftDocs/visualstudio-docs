@@ -55,7 +55,7 @@ When selected, Visual Studio displays a confirmation message box before the loca
 
 ## Parallel project initialization
 
-When selected, Visual Studio loads large .NET solutions much faster when you reload the same solution. For more information, see the [Load solutions faster](https://devblogs.microsoft.com/visualstudio/load-solutions-faster-with-visual-studio-2017-version-15-6/) blog post.
+When selected, Visual Studio loads large .NET solutions much faster when you reload the same solution. For more information, see the "*Parallel project load*" section of the [Load solutions faster](https://devblogs.microsoft.com/visualstudio/load-solutions-faster-with-visual-studio-2017-version-15-6/) blog post.
 
 ## Reopen documents on solution load
 
