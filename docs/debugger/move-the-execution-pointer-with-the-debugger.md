@@ -17,7 +17,11 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-When the debugger is paused, a yellow arrow in the margin of the source code or **Disassembly** window marks the location of the statement that will run next. You can change the next statement that will run by moving this arrow. You can skip over code or return to a previous line. Moving the pointer is useful for situations like skipping code that contains a known bug, and is a more advanced feature of the debugger.
+While debugging, you can manually move the execution pointer to change the next statement that will run next. Moving the pointer is useful for situations like skipping code that contains a known bug, and is a more advanced feature of the debugger.
+
+## Change the execution flow
+
+When the debugger is paused, a yellow arrow in the margin of the source code or **Disassembly** window marks the location of the statement that will run next. You can change the next statement that will run by moving this arrow. You can skip over code or return to a previous line.
 
  ::: moniker range="<=vs-2019"
 
