@@ -183,16 +183,17 @@ For information about visually tracing the call stack, see [Map methods on the c
 
 ### Run to a cursor location
 
-To run to the cursor location, in source code or the **Call Stack** window, select the line you want to break at, and then right-click and select **Run To Cursor**, or select **Ctrl**+**F10**. Selecting **Run To Cursor** is like setting a temporary breakpoint.
+To run to the cursor location, in source code or the **Call Stack** window, select the line you want to break at, and then right-click and select **Run To Cursor**, or select **Ctrl**+**F10**. Selecting **Run To Cursor** is similar to setting a [temporary breakpoint](../debugger/using-breakpoints.md#set-a-temporary-breakpoint).
 
 ::: moniker range=">= vs-2022"
 ### Force run to a cursor location
 
 To run to the cursor location, in source code or the **Call Stack** window, select the line you want to break at, and then right-click and select **Force Run To Cursor**. Selecting **Force Run To Cursor** will skip any breakpoints and first-chance exceptions  until the debugger reaches the line of code where the cursor is located.
+
 ::: moniker-end
 ### Run to click
 
-While the debugger is paused, you can hover over a statement in source code or the **Disassembly** window and select the **Run execution to here** green arrow. Using **Run to Click**is like setting a temporary breakpoint.
+While the debugger is paused, you can hover over a statement in source code or the **Disassembly** window and select the **Run execution to here** green arrow. Using **Run to Click** is similar to setting a [temporary breakpoint](../debugger/using-breakpoints.md#set-a-temporary-breakpoint).
 
 ![Screenshot that shows Run to Click and the green arrow.](../debugger/media/dbg-run-to-click.png)
 
@@ -241,9 +242,9 @@ The debugger steps over properties and operators in managed code by default. In 
 
 ## <a name="BKMK_Set_the_next_statement_to_execute"></a> Move the pointer to change the execution flow
 
-An advanced debugger feature, you can change the next statement that will run by moving the yellow execution pointer. You can use this feature while in break mode.
+You can change the next statement that will run by moving the yellow execution pointer. You can use this feature while in break mode.
 
-For more information, see [Move the execution pointer](../debugger/move-the-execution-pointer-with-the-debugger.md).
+This is an advanced debugger feature. For more information, see [Move the execution pointer](../debugger/move-the-execution-pointer-with-the-debugger.md).
 
 ## See also
 - [What is debugging?](../debugger/what-is-debugging.md)

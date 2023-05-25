@@ -1,6 +1,6 @@
 ---
 title: "Move the execution pointer in the debugger"
-description: "Learn how to move the execution pointer in the debugger."
+description: "Learn how to move the execution pointer in the debugger and change the execution flow."
 
 ms.date: 05/25/2023
 ms.topic: how-to
@@ -17,7 +17,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-When the debugger is paused, a yellow arrow in the margin of the source code or **Disassembly** window marks the location of the statement that will run next. You can change the next statement that will run by moving this arrow. You can skip over code or return to a previous line. Moving the pointer is useful for situations like skipping code that contains a known bug.
+When the debugger is paused, a yellow arrow in the margin of the source code or **Disassembly** window marks the location of the statement that will run next. You can change the next statement that will run by moving this arrow. You can skip over code or return to a previous line. Moving the pointer is useful for situations like skipping code that contains a known bug, and is a more advanced feature of the debugger.
 
  ::: moniker range="<=vs-2019"
 
