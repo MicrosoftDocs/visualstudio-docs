@@ -2,7 +2,7 @@
 title: Install Visual Studio versions side-by-side
 description: Learn how to install Visual Studio on a computer that has an earlier or later version of Visual Studio already installed.
 ms.custom: "vs-acquisition"
-ms.date: 5/16/2023
+ms.date: 5/24/2023
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: conceptual
@@ -74,7 +74,7 @@ You can manually use another bootstrapper to install a new instance of Visual St
 
 ::: moniker-end
 
-1. Using the installer's **Available** tab presumes, of course, that you already have some other version of Visual Studio installed. First find the **Visual Studio Installer** on your computer and launch it. After it updates itself, click on the **Available** tab and install one of the offered products. 
+2. Using the installer's **Available** tab presumes, of course, that you already have some other version of Visual Studio installed. First find the **Visual Studio Installer** on your computer and launch it. After it updates itself, click on the **Available** tab and install one of the offered products. 
 
     :::image type="content" source="media/available-tab.png" alt-text="Screenshot showing the Visual Studio Installer's Available tab.":::
 
