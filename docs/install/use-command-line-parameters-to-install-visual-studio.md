@@ -2,7 +2,7 @@
 title: Use command-line parameters to install Visual Studio
 titleSuffix: ''
 description: Learn how to use command-line parameters to control or customize your Visual Studio installation.
-ms.date: 5/24/2023
+ms.date: 5/25/2023
 ms.topic: conceptual
 f1_keywords:
 - command-line parameters
@@ -256,7 +256,7 @@ Syntax example:
 
 ## Use winget to install or modify Visual Studio
 
-You can use the [Windows Package Manager](/windows/package-manager/winget/) "winget" tool to programmatically install, modify or update Visual Studio on your machines along other packages managed by winget. By default, winget just installs the Visual Studio core workload. 
+You can use the [Windows Package Manager](/windows/package-manager/winget/) "winget" tool to programmatically install, modify, or update Visual Studio on your machines along other packages managed by winget. By default, winget just installs the Visual Studio core workload. 
 
   ```shell
   winget install --id Microsoft.VisualStudio.2022.Community
@@ -274,11 +274,11 @@ Of course, you can also just include components directly during the initial inst
   winget install --id Microsoft.VisualStudio.2022.Community --override "--quiet --add Microsoft.Visualstudio.Workload.Azure"
   ```
 
-If you already have Visual Studio installed on your machine, then it possible to use [winget's `configure` command](/windows/package-manager/winget/configure) along with the [Visual Studio Powershell DSC provider](https://www.powershellgallery.com/packages/Microsoft.VisualStudio.DSC), a yaml file, and a .vsconfig file to **add** components to an existing Visual Studio installation. Winget's `configure` command essentially acts as a Visual Studio "modify" operation.
+If you already have Visual Studio installed on your machine, then it's possible to use [winget's `configure` command](/windows/package-manager/winget/configure) along with the [Visual Studio Powershell DSC provider](https://www.powershellgallery.com/packages/Microsoft.VisualStudio.DSC), a yaml file, and a .vsconfig file to **add** components to an existing Visual Studio installation. Winget's `configure` command essentially acts as a Visual Studio "modify" operation.
 
-It is not possible to use either the `--override` switch or the Visual Studio DSC provider alongside winget's `upgrade` command, as `upgrade` essentially just acts as a Visual Studio "update" operation and installs the latest version of components you have already selected. You can't add components via an update/upgrade. You need to use winget's `configure` to add components.  
+It's not possible to use either the `--override` switch or the Visual Studio DSC provider alongside winget's `upgrade` command, as `upgrade` essentially just acts as a Visual Studio "update" operation and installs the latest version of components you have already selected. You can't add components via an update/upgrade. You need to use winget's `configure` to add components.  
 
-Remember that Visual Studio installer operations currently require administrator privileges, so winget will prompt you to elevate your privileges if necessary to complete the command. Also, it's not currently possible to use winget to install multiple editions (that is, different SKUs) or multiple instances of the same SKU at the same time on a client machine. Lastly, Visual Studio must be closed if you're going to configure (modify) it to add components, or upgrade it to the latest version.
+Note that Visual Studio Installer operations currently require administrator privileges, so winget will prompt you to elevate your privileges if necessary to complete the command. Also, it's currently not possible to use winget to install multiple editions (that is, different SKUs) or multiple instances of the same SKU at the same time on a client machine. Lastly, Visual Studio must be closed if you're going to configure (modify) it to add components, or upgrade it to the latest version.
 
 ## List of workload IDs and component IDs
 
