@@ -1,7 +1,7 @@
 ---
 title: Projects and Solutions, Options dialog box
 description: Learn how to use the General page in the Projects and Solutions section to define the behavior of Visual Studio related to projects and solutions.
-ms.date: 05/24/2023
+ms.date: 05/25/2023
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Projects.General
@@ -72,6 +72,18 @@ When selected, restores the state of nodes in Solution Explorer with respect to 
 When this option is selected and you double-click a project node in Solution Explorer or select it and then press **Enter**, the project file (for example, \*.csproj file) opens in the editor. When deselected, double-clicking a project node in Solution Explorer or selecting it and pressing **Enter** epands or collapses the node only.
 
 If you don't have this option selected and you want to edit a project file, right-click the project node in Solution Explorer and select **Edit Project File**. 
+
+::: moniker range="vs-2022"
+
+## Enable namespace update when moving files
+
+ADD RELEVANT INFO HERE
+
+### Prompt to update namespace when moving files
+
+When selected, Visual Studio displays a message box asking whether or not it should ... ADD RELEVANT INFO HERE
+
+::: moniker-end
 
 ## Enable symbolic renaming when renaming files
 
