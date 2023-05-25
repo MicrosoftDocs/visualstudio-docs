@@ -5,7 +5,7 @@ description: List of all out-of-support components in Visual Studio 2022, Visual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.date: 05/24/2023
+ms.date: 05/25/2023
 ms.custom: vs-acquisition
 ms.topic: reference
 helpviewer_keywords:
