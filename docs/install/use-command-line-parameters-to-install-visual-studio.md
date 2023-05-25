@@ -274,7 +274,7 @@ Of course, you can also just include components directly during the initial inst
   winget install --id Microsoft.VisualStudio.2022.Community --override "--quiet --add Microsoft.Visualstudio.Workload.Azure"
   ```
 
-If you already have Visual Studio installed on your machine, then it possible to use [winget's `configure` command](https://learn.microsoft.com/en-us/windows/package-manager/winget/configure) along with the [Visual Studio Powershell DSC provider](https://www.powershellgallery.com/packages/Microsoft.VisualStudio.DSC), a yaml file, and a .vsconfig file to **add** components to an existing Visual Studio installation. Winget's `configure` command essentially acts as a Visual Studio "modify" operation.
+If you already have Visual Studio installed on your machine, then it possible to use [winget's `configure` command](/windows/package-manager/winget/configure) along with the [Visual Studio Powershell DSC provider](https://www.powershellgallery.com/packages/Microsoft.VisualStudio.DSC), a yaml file, and a .vsconfig file to **add** components to an existing Visual Studio installation. Winget's `configure` command essentially acts as a Visual Studio "modify" operation.
 
 It is not possible to use either the `--override` switch or the Visual Studio DSC provider alongside winget's `upgrade` command, as `upgrade` essentially just acts as a Visual Studio "update" operation and installs the latest version of components you have already selected. You can't add components via an update/upgrade. You need to use winget's `configure` to add components.  
 
