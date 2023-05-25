@@ -50,7 +50,7 @@ In break mode, app execution is suspended while functions, variables, and object
 
    ::: moniker-end
 
-[Code stepping](#code-stepping) commands can be used to start your app, but are usually used while debugging.
+[Code stepping](#code-stepping) commands can be used to start your app, but are more commonly used after you enter break mode.
 
 ## Navigate code while in break mode
 
@@ -71,7 +71,7 @@ Most debugger windows, like the **Modules** and **Watch** windows, are available
 
 ## Code stepping
 
-*Code stepping* refers to executing your application code one statement at a time, with the debugger attached. The debugger step commands help you observe the effects of each statement and find out more about its execution flow. 
+*Code stepping* refers to executing your application code one statement at a time, with the debugger attached. The debugger step commands help you observe the effects of each statement and find out more about its execution flow.
 
 ### <a name="BKMK_Step_into__over__or_out_of_the_code"></a> Step into code
 
@@ -113,6 +113,9 @@ You might not care about a function when you're debugging. Or you might know som
 ## Run to a specific location or function
 
 You might prefer to run directly to a specific location or function when you know exactly what code you want to inspect or if you know where you want to start debugging.
+
+- Setting a breakpoint is best if you think you might want to re-use the breakpoint.
+- Other methods are for convenience, and are similar to setting a temporary breakpoint.
 
 ### Run to a breakpoint in code
 
@@ -189,7 +192,7 @@ To run to the cursor location, in source code or the **Call Stack** window, sele
 ::: moniker-end
 ### Run to click
 
-While the debugger is paused, you can hover over a statement in source code or the **Disassembly** window and select the **Run execution to here** green arrow. If you use **Run to Click**, you don't need to set a temporary breakpoint.
+While the debugger is paused, you can hover over a statement in source code or the **Disassembly** window and select the **Run execution to here** green arrow. Using **Run to Click**is like setting a temporary breakpoint.
 
 ![Screenshot that shows Run to Click and the green arrow.](../debugger/media/dbg-run-to-click.png)
 
