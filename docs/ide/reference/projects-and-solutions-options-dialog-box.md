@@ -47,7 +47,7 @@ If you attempt to create a new project or open an existing project in a location
 
 ## Show Output window when build starts
 
-Automatically displays the [Output window](../../ide/reference/output-window.md) in the IDE at the outset of solution builds.
+Automatically displays the [Output window](output-window.md)in the IDE at the outset of solution builds.
 
 ## Prompt before moving files to a new location
 
@@ -57,7 +57,7 @@ When selected, Visual Studio displays a confirmation message box before the loca
 
 When selected, documents that were left open the previous time the solution was closed are automatically opened when the solution is opened.
 
-Reopening certain types of files or designers can delay solution load. Uncheck this option to [improve solution load performance](../../ide/visual-studio-performance-tips-and-tricks.md#disable-automatic-file-restore) if you don't want to restore the solution's previous context.
+Reopening certain types of files or designers can delay solution load. Uncheck this option to [improve solution load performance](../visual-studio-performance-tips-and-tricks.md#disable-automatic-file-restore) if you don't want to restore the solution's previous context.
 
 ## Restore Solution Explorer project hierarchy state on solution load
 
@@ -65,13 +65,13 @@ When selected, restores the state of nodes in Solution Explorer with respect to 
 
 ## Open project files with double-click or the Enter key
 
-When this option is selected and you double-click on a project node in Solution Explorer or select it and then press **Enter**, the project file (for example, \*.csproj file) opens as XML in the editor. When deselected, double-clicking a project node in Solution Explorer or selecting it and pressing **Enter** has the effect of expanding or collapsing the node only.
+When this option is selected and you double-click a project node in Solution Explorer or select it and then press **Enter**, the project file (for example, \*.csproj file) opens in the editor. When deselected, double-clicking a project node in Solution Explorer or selecting it and pressing **Enter** epands or collapses the node only.
 
 If you don't have this option selected and you want to edit a project file, right-click the project node in Solution Explorer and select **Edit Project File**. 
 
 ## Enable symbolic renaming when renaming files
 
-When selected, you can simultaneously rename a code element to match the filename or rename a filename to match the code element it contains.
+When selected, you can rename all the references in a project to that of the code element. 
 
 ### Prompt for symbolic renaming when renaming files
 
@@ -80,5 +80,5 @@ When selected, Visual Studio displays a message box asking whether or not it sho
 ## See also
 
 - [Options dialog box: Projects and Solutions \> Locations](projects-solutions-locations-options.md)
-- [Options Dialog Box, Projects and Solutions, Build and Run](../../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md)
-- [Options Dialog Box, Projects and Solutions, Web Projects](../../ide/reference/options-dialog-box-projects-and-solutions-web-projects.md)
+- [Options Dialog Box, Projects and Solutions, Build and Run](options-dialog-box-projects-and-solutions-build-and-run.md)
+- [Options Dialog Box, Projects and Solutions, Web Projects](options-dialog-box-projects-and-solutions-web-projects.md)
