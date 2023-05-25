@@ -32,11 +32,11 @@ Some navigation commands start your app and automatically attach the debugger. Y
 
 In break mode, app execution is suspended while functions, variables, and objects remain in memory. When the debugger is in break mode, you can navigate through your code. There are two very common ways to quickly enter break mode:
 
-- [Set a breakpoint](using-breakpoints.md) and start your app.
+- [Set a breakpoint](#run-to-a-breakpoint-in-code) and start your app.
 
 - [Run to a specific location or function](#run-to-a-specific-location-or-function).
 
-   For example, in the code editor in Visual Studio, you can use the **Run To Cursor** command to start the app, debugger attached, and enter break mode. Then you can use step commands to navigate the code.
+   For example, in the code editor in Visual Studio, you can use the **Run To Cursor** command to start the app, with the debugger attached, and enter break mode. Then you can use step commands to navigate the code.
 
    ::: moniker range="vs-2019"
 
@@ -71,7 +71,7 @@ Most debugger windows, like the **Modules** and **Watch** windows, are available
 
 ## Code stepping
 
-The debugger step commands help you inspect your app state or find out more about its execution flow.
+*Code stepping* refers to executing your application code one statement at a time, with the debugger attached. The debugger step commands help you observe the effects of each statement and find out more about its execution flow. 
 
 ### <a name="BKMK_Step_into__over__or_out_of_the_code"></a> Step into code
 
@@ -257,14 +257,15 @@ If you've loaded debugging symbols for Microsoft system code and disabled Just M
 
 To learn about loading Microsoft symbols, see [Configure location of symbol files and loading options](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md#configure-location-of-symbol-files-and-loading-options).
 
-**To load symbols for a specific system component**
+To load symbols for a specific system component:
 
 1. While you're debugging, open the **Modules** window by selecting **Debug** > **Windows** > **Modules** or by pressing **Ctrl**+**Alt**+**U**.
 
 1. In the **Modules** window, you can tell which modules have symbols loaded in the **Symbol Status** column. Right-click the module that you want to load symbols for and then select **Load Symbols**.
 
 ## <a name="BKMK_Step_into_properties_and_operators_in_managed_code"></a> Step into properties and operators in managed code
- The debugger steps over properties and operators in managed code by default. In most cases, this behavior provides a better debugging experience. To disable stepping into properties or operators, select **Debug** > **Options**. On the **Debugging** > **General** page, clear the **Step over properties and operators (Managed only)** checkbox.
+
+The debugger steps over properties and operators in managed code by default. In most cases, this behavior provides a better debugging experience. To disable stepping into properties or operators, select **Debug** > **Options**. On the **Debugging** > **General** page, clear the **Step over properties and operators (Managed only)** checkbox.
 
 ## See also
 - [What is debugging?](../debugger/what-is-debugging.md)
