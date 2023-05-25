@@ -41,7 +41,6 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 |**/UseVsixExtensions**|This option makes the *vstest.console.exe* process use or skip the VSIX extensions installed (if any) in the test run.<br />This option is deprecated. Starting from the next major release of Visual Studio this option may be removed. Move to consuming extensions made available as a NuGet package.<br />Example: `/UseVsixExtensions:true`|
 |**/TestAdapterPath:[*path*]**|Forces the *vstest.console.exe* process to use custom test adapters from a specified path (if any) in the test run.<br />Example: `/TestAdapterPath:[pathToCustomAdapters]`|
 |**/Platform:[*platform type*]**|Forces the given platform to be used, instead of the platform determined from the current runtime. This option is able to force only x86, and x64 platforms on Windows. The ARM option is broken and will result in x64 on most systems.<br />Do NOT specify this option to run on runtimes that are not in the list of valid values such as ARM64.<br />Valid values are x86, x64, and ARM.<br /> 
-|**/FailWhenNoTestsFound: [*boolean*]**|When set to true, returns non-zero value if no tests are discovered.|
 |**/Framework: [*framework version*]**|Target .NET version to be used for test execution.<br />Example values are `Framework35`, `Framework40`, `Framework45`, `FrameworkUap10`, `.NETCoreApp,Version=v1.1`.<br />TargetFrameworkAttribute is used to automatically detect this option from your assembly, and defaults to `Framework40` when the attribute is not present. You must specify this option explicitly if you remove the [TargetFrameworkAttribute](/dotnet/api/system.runtime.versioning.targetframeworkattribute) from your .NET Core assemblies.<br />If the target framework is specified as **Framework35**, the tests run in CLR 4.0 "compatibility mode".<br />Example: `/Framework:framework40`|
 |**/TestCaseFilter:[*expression*]**|Run tests that match the given expression.<br /><Expression\> is of the format <property\>=<value\>[\|<Expression\>].<br />Example: `/TestCaseFilter:"Priority=1"`<br />Example: `/TestCaseFilter:"TestCategory=Nightly|FullyQualifiedName=Namespace.ClassName.MethodName"`<br />The **/TestCaseFilter** command-line option cannot be used with the **/Tests** command-line option. <br />For information about creating and using expressions, see [TestCase filter](https://github.com/Microsoft/vstest-docs/blob/master/docs/filter.md).|
 |**/?**|Displays usage information.|
@@ -67,7 +66,7 @@ The syntax for running *vstest.console.exe* is:
 
 `vstest.console.exe [TestFileNames] [Options]`
 
-By default, the command returns 0 when it exits normally, even if no tests are discovered. If you want to return a non-zero value if no tests are discovered, use /FailWhenNoTestsFound.
+By default, the command returns 0 when it exits normally, even if no tests are discovered. If you want to return a non-zero value if no tests are discovered, use `<TreatNoTestsAsError>true</TreatNoTestsAsError>` runsettings option.
 
 The following command runs *vstest.console.exe* for the test library *myTestProject.dll*:
 
