@@ -214,37 +214,6 @@ While the debugger is paused, you can hover over a statement in source code whil
 
 To break into the next available line of code in a running app, select **Debug** > **Break All**, or select **Ctrl**+**Alt**+**Break**.
 
-## <a name="BKMK_Set_the_next_statement_to_execute"></a> Move the pointer to change the execution flow
-
-When the debugger is paused, a yellow arrow in the margin of the source code or **Disassembly** window marks the location of the statement that will run next. You can change the next statement that will run by moving this arrow. You can skip over code or return to a previous line. Moving the pointer is useful for situations like skipping code that contains a known bug.
-
- ::: moniker range="<=vs-2019"
-
- ![Animation that shows how to move the pointer.](../debugger/media/vs-2019/dbg-basics-example3.gif)
-
- ::: moniker-end
-
- ::: moniker range=">=vs-2022"
-
- ![Animation that shows how to move the pointer.](../debugger/media/vs-2022/dbg-basics-example3.gif)
-
- ::: moniker-end
-
-If you want to change the next statement that will run, the debugger must be in break mode. In the source code or **Disassembly** window, drag the yellow arrow to a different line, or right-click the line you want to run next and select **Set Next Statement**.
-
-The program counter jumps directly to the new location. Instructions between the old and new execution points aren't run. But if you move the execution point backwards, the intervening instructions aren't undone.
-
->[!CAUTION]
->- Moving the next statement to another function or scope usually causes call-stack corruption, which causes a runtime error or exception. If you try to move the next statement to another scope, the debugger gives you a warning and a chance to cancel the operation.
->- In Visual Basic, you can't move the next statement to another scope or function.
->- In native C++, if you have runtime checks enabled, setting the next statement can cause an exception when execution reaches the end of the method.
->- When **Edit and Continue** is enabled, **Set Next Statement** fails if you've made edits that **Edit and Continue** can't remap immediately. This situation can occur, for example, if you've edited code in a catch block. When this happens, an error message tells you that the operation isn't supported.
->- In managed code, you can't move the next statement if:
->   - The next statement is in a different method than the current statement.
->   - Debugging was started by Just-In-Time debugging.
->   - A call stack unwind is in progress.
->   - A System.StackOverflowException or System.Threading.ThreadAbortException exception has been thrown.
-
 ## <a name="BKMK_Restrict_stepping_to_Just_My_Code"></a>Debug non-user code
 
 By default, the debugger tries to debug only your app code by enabling a setting called *Just My Code*. For details about how this feature works for various project types and languages, and how you can customize it, see [Just My Code](../debugger/just-my-code.md).
@@ -269,6 +238,12 @@ To load symbols for a specific system component:
 ## <a name="BKMK_Step_into_properties_and_operators_in_managed_code"></a> Step into properties and operators in managed code
 
 The debugger steps over properties and operators in managed code by default. In most cases, this behavior provides a better debugging experience. To disable stepping into properties or operators, select **Debug** > **Options**. On the **Debugging** > **General** page, clear the **Step over properties and operators (Managed only)** checkbox.
+
+## <a name="BKMK_Set_the_next_statement_to_execute"></a> Move the pointer to change the execution flow
+
+An advanced debugger feature, you can change the next statement that will run by moving the yellow execution pointer. You can use this feature while in break mode.
+
+For more information, see [Move the execution pointer](../debugger/move-the-execution-pointer-with-the-debugger.md).
 
 ## See also
 - [What is debugging?](../debugger/what-is-debugging.md)
