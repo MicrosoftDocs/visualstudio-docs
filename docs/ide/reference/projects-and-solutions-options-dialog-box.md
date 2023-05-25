@@ -32,6 +32,11 @@ Opens the **Error List** window on build completion, only if a project failed to
 
 When selected, **Solution Explorer** automatically opens and the active item is selected. The selected item changes as you work with different files in a project or solution, or different components in a designer. When this option is cleared, the selection in **Solution Explorer** does not change automatically. This option is enabled by default.
 
+> [!TIP]
+> If you disable this option, an easy way to navigate to the active document in Solution Explorer is by selecting **Sync with Active Document** on the **Solution Explorer** toolbar.
+>
+> ![Sync with active document in Solution Explorer](media/sync-active-document.png)
+
 ::: moniker range="vs-2019"
 
 ## Warn user when the project location is not trusted
@@ -57,11 +62,6 @@ Reopening certain types of files or designers can delay solution load. Uncheck t
 ## Restore Solution Explorer project hierarchy state on solution load
 
 When selected, restores the state of nodes in Solution Explorer with respect to whether they were expanded or collapsed the last time the solution was open. Deselect this option to decrease solution load time for large solutions.
-
-> [!TIP]
-> If you disable this option, an easy way to navigate to the active document in Solution Explorer is by selecting **Sync with Active Document** on the **Solution Explorer** toolbar.
->
-> ![Sync with active document in Solution Explorer](media/sync-active-document.png)
 
 ## Open project files with double-click or the Enter key
 
