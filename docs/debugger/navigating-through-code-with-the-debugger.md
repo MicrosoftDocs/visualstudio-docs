@@ -2,7 +2,7 @@
 title: "Navigate code with the debugger"
 description: "Learn how to use the Visual Studio debugger to troubleshoot your code. Topics include entering break mode, stepping through code, and running to a target."
 
-ms.date: 09/22/2022
+ms.date: 05/25/2023
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.execution
@@ -21,22 +21,24 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow, which is also known as *code stepping*. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. If you're familiar with debugger navigation commands and shortcuts, you can find and resolve app problems faster and more easily.
+The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow, which is also known as *code stepping*. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. By getting more familiar with debugger navigation commands and shortcuts, you can find and resolve app problems faster and more easily.
 
 > [!NOTE]
 > If you're new to debugging code, you might want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before you read this article.
 
-## Enter break mode
+## Start debugging and enter break mode
 
-In *break mode*, app execution is suspended while functions, variables, and objects remain in memory. When the debugger is in break mode, you can navigate through your code. There are two common ways to quickly enter break mode:
+Some navigation commands start your app and automatically attach the debugger. Your app pauses based on the command you used to start navigation, and you enter *break mode* (that is, your app is paused in the debugger).
 
-- Begin code stepping by selecting **F10** or **F11**. Doing so allows you to quickly find the entry point of your app. You can then continue to press step commands to navigate through the code.
+In break mode, app execution is suspended while functions, variables, and objects remain in memory. When the debugger is in break mode, you can navigate through your code. There are two common ways to quickly enter break mode:
 
-- [Run to a specific location or function](#run-to-a-specific-location-or-function), for example, by [setting a breakpoint](using-breakpoints.md) and starting your app.
+- [Set a breakpoint](using-breakpoints.md) and start your app.
 
-   For example, in the code editor in Visual Studio, you can use the **Run To Cursor** command to start the app, debugger attached, and enter break mode, and then select **F11** to navigate through the code:
+- [Run to a specific location or function](#run-to-a-specific-location-or-function).
 
-   ::: moniker range="<=vs-2019"
+   For example, in the code editor in Visual Studio, you can use the **Run To Cursor** command to start the app, debugger attached, and enter break mode. Then you can use step commands to navigate the code.
+
+   ::: moniker range="vs-2019"
 
    ![Animation that shows selecting Run To Cursor and then F11.](../debugger/media/vs-2019/navigate-code-code-stepping.gif)
 
@@ -47,6 +49,18 @@ In *break mode*, app execution is suspended while functions, variables, and obje
    ![Animation that shows selecting Run To Cursor and then F11.](../debugger/media/vs-2022/navigate-code-code-stepping.gif)
 
    ::: moniker-end
+
+[Code stepping](#code-stepping) commands can be used to start your app, but are usually used while debugging.
+
+## Navigate code while in break mode
+
+Some navigation commands are mostly used while in break mode (that is, while you're paused in the debugger).
+
+- [Code stepping](#code-stepping) commands are most commonly used in break mode.
+
+- Some commands like [Run to click](#run-to-click) can only be used while in break mode.
+
+## Debugging in break mode
 
 When you're in break mode, you can use various commands to navigate through your code. You can examine the values of variables to look for violations or bugs. For some project types, you can also make adjustments to the app when you're in break mode.
 
@@ -122,7 +136,7 @@ Breakpoints in Visual Studio provide a rich set of functionality, like condition
 
 You can set the debugger to run until it reaches a specified function. You can specify the function by name, or you can choose it from the call stack.
 
-**To specify a function breakpoint by name**
+To specify a function breakpoint by name:
 
 1. Select **Debug** > **New Breakpoint** > **Function Breakpoint**.
 
@@ -156,7 +170,7 @@ If the function is overloaded or in more than one namespace, you can choose the 
 
 ::: moniker-end
 
-**To select a function breakpoint from the call stack**
+To select a function breakpoint from the call stack:
 
 1. While debugging, open the **Call Stack** window by selecting **Debug** > **Windows** > **Call Stack**.
 
@@ -173,7 +187,7 @@ To run to the cursor location, in source code or the **Call Stack** window, sele
 
 To run to the cursor location, in source code or the **Call Stack** window, select the line you want to break at, and then right-click and select **Force Run To Cursor**. Selecting **Force Run To Cursor** will skip any breakpoints and first-chance exceptions  until the debugger reaches the line of code where the cursor is located.
 ::: moniker-end
-### Run to Click
+### Run to click
 
 While the debugger is paused, you can hover over a statement in source code or the **Disassembly** window and select the **Run execution to here** green arrow. If you use **Run to Click**, you don't need to set a temporary breakpoint.
 
