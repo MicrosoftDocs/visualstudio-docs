@@ -1,7 +1,7 @@
 ---
-title: "Learn about the Spell Checker (Preview)"
+title: "Learn about the Spell Checker"
 description: Learn how to use the Spell Checker in Visual Studio to correct misspelled words in multiple languages and to customize it to share with your dev team.
-ms.date: 05/10/2023
+ms.date: 05/24/2023
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -11,7 +11,7 @@ ms.workload:
 - multiple
 monikerRange: vs-2022
 ---
-# Learn about the Spell Checker (Preview)
+# Learn about the Spell Checker
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -19,12 +19,9 @@ Many of the features in Visual Studio are designed to help you write the code yo
 
 :::image type="content" source="media/vs-2022/text-spell-checker.png" alt-text="Screenshot of an example of the Spell Checker in action.":::
 
-> [!IMPORTANT]
-> This feature is still in development. It's available now in Visual Studio 2022 version 17.5, but it'll be refined in future releases. For the latest news, see the [**Improving the Spell Checker**](https://devblogs.microsoft.com/visualstudio/improving-the-spell-checker/) post on the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/).
-
 The Spell Checker is available for any C#, C++, or Markdown file. When the Spell Checker is enabled, Visual Studio marks any words that it detects as misspelled words. Visual Studio also suggests alternate spellings and helps correct them. The feature even does a contextual rename when those misspellings are identifiers so that your code still compiles.
 
-You can turn the spell checker off or on by using the **Toggle Text Spell Checker** button on the main toolbar, or by selecting **Edit** > **Advanced** > **Toggle Text Spell Checker** command from the menu bar.
+You can turn the spell checker off or on by using the **Toggle Spell Checker** button on the main toolbar, or by selecting **Edit** > **Advanced** > **Toggle Spell Checker** command from the menu bar.
 
 ## How do you use it?
 
@@ -93,7 +90,7 @@ Here are some examples and use-case scenarios of the switches you can configure 
     ```(Example: = .\exclusion.dic)```
 
     > [!NOTE]
-    > Visual Studio uses the exclusion dictionary specified by the spelling_exclusion_path switch in your .editorconfig file or an "exclusion.dic" file in your `%localappdata%\Microsoft\VisualStudio\<Version>` directory if a switch can’t be found.  
+    > Visual Studio uses the exclusion dictionary specified by the `spelling_exclusion_path` switch in your .editorconfig file or an exclusion.dic file in your `%localappdata%\Microsoft\VisualStudio\<Version>` directory if a switch can’t be found.  
 
 - Control whether the language-specific exclusion dictionary so use. When set to false, any words specified in the exclusion dictionaries specific to C++ or C# won't be used. The default is true.
 

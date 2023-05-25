@@ -3,7 +3,7 @@ title: Pluralsight benefit in Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 08/26/2022
+ms.date: 05/24/2023
 ms.topic: how-to
 ms.custom: devdivchpfy22
 description: Learn about the Pluralsight training benefit that's included with select Visual Studio subscriptions.
@@ -40,7 +40,7 @@ Excludes: NFR Basic.*
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional annual subscriptions and Visual Studio Enterprise annual subscriptions in cloud subscriptions. Current customers continue to have the same experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [Visual Studio pricing](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
-Not sure which subscription you're using? To see the subscriptions that are associated with your email address, go to [Visual Studio Subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs). If you don't see all your subscriptions, you might have one or more subscriptions associated with a different email address. You'll need to sign in by using that email address to see those subscriptions.
+Not sure which subscription you're using? To see the subscriptions that are associated with your email address, go to [Visual Studio Subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs). If you don't see all your subscriptions, you might have one or more subscriptions associated with a different email address. You need to sign in by using that email address to see those subscriptions.
 
 ## Activate your Pluralsight benefit
 
@@ -51,7 +51,7 @@ Not sure which subscription you're using? To see the subscriptions that are asso
    > [!TIP]
    > To find the Pluralsight tile, select the **Professional Development** tab to view a smaller number of tiles.
 
-1. In the Pluralsight **Activate your benefit** form, complete these steps:
+1. In the Pluralsight **Activate your benefit** web form, complete these steps:
 
    1. Provide the contact information that's requested.
    1. Select the checkbox to accept the Pluralsight Terms of Use.
@@ -104,11 +104,11 @@ A:  The Pluralsight benefit in select Visual Studio subscriptions renews when yo
 
 ### Q: Do I have access to any customized learning playlists or channels?
 
-A: Yes. As a Visual Studio subscriber, you get access to featured roles, learning paths, and custom channels (playlists) as part of your Pluralsight training benefit. Featured content has been specially curated by Microsoft and Pluralsight for learning in key areas of interest. Activate your Pluralsight benefit through [Visual Studio Subscriptions](https://my.visualstudio.com/benefits) to access learning content on your Pluralsight profile.
+A: Yes. As a Visual Studio subscriber, you get access to featured roles, learning paths, and custom channels (playlists) as part of your Pluralsight training benefit. Microsoft and Pluralsight specifically curate featured content for learning in key areas of interest. Activate your Pluralsight benefit through [Visual Studio Subscriptions](https://my.visualstudio.com/benefits) to access learning content on your Pluralsight profile.
 
 ### Q: The Pluralsight benefit tile doesn't have an Activate link. How can I activate the benefit?
 
-A:  If you've already activated your Pluralsight benefit, the **Activate** link is replaced with a link that takes you to the sign-in page for Pluralsight. You'll also see the date you activated the benefit and information about how much time remains on your subscription. If you've already used Pluralsight benefits for a Visual Studio subscription, you can't activate benefits again unless you renew the subscription.
+A:  If you've already activated your Pluralsight benefit, the **Activate** link is replaced with a link that takes you to the sign-in page for Pluralsight. You see the date you activated the benefit and information about how much time remains on your subscription. If you've already used Pluralsight benefits for a Visual Studio subscription, you can't activate benefits again unless you renew the subscription.
 
 ### Q: What happens when my Pluralsight benefit ends?
 

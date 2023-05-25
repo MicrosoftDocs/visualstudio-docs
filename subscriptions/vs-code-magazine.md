@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: e5768153-2758-46d3-a323-3272def213ee
-ms.date: 06/14/2022
+ms.date: 05/24/2023
 ms.topic: how-to
 description:  Learn about the CODE Magazine benefit included in your Visual Studio subscription.
 ---
@@ -21,21 +21,21 @@ The process to set up your CODE Magazine subscription is simple.  Just follow th
 2. Locate the CODE Magazine tile in the Professional Development or Education section of your portal, and select **Get Code**.
    > [!div class="mx-imgBorder"]
    > ![CODE Magazine Tile](_img/vs-code-magazine/vs-code-magazine-tile.png "Screenshot of the CODE Magazine tile.  Get code button is highlighted.")
-3. You'll see a message that your code has been retrieved.  Select **Activate** to continue.  (If you're not ready to activate, that's okay.  You can always go back to the tile to activate.  The "Get Code" link will read "Activate" after you retrieve your code.)
+3. You see a message that your code has been retrieved.  Select **Activate** to continue.  (If you're not ready to activate, that's okay.  You can always go back to the tile to activate.  The "Get Code" link will read "Activate" after you retrieve your code.)
    > [!div class="mx-imgBorder"]
    > ![CODE Magazine code retrieved](_img/vs-code-magazine/vs-code-magazine-success.png "Screenshot of Code retrieval confirmation dialog.  Activate button is highlighted.")
-4. You'll be redirected to the CODE Magazine landing page. Select your country/region and choose how you'd like to receive the magazine. 
+4. You're redirected to the CODE Magazine landing page. Select your country/region and choose how you'd like to receive the magazine. 
    > [!NOTE]
    > Visual Studio Dev Essentials members have access to the digital subscription only. 
-5. Based on your selections, you'll see a note showing the price of your subscription along with the amount of the coupon that's been applied.
+5. Based on your selections, you see a note showing the price of your subscription along with the amount of the coupon that's been applied.
    > [!NOTE]
    > For print subscriptions:
    > - Subscribers outside the United States may incur shipping charges. 
    > - Please allow several weeks for the delivery of your first printed edition.
       > [!div class="mx-imgBorder"]
       > ![CODE Magazine subscription details](_img/vs-code-magazine/vs-code-magazine-details.png "Screenshot of Choose Your Subscription Details dialog.  Available options for subscriptions are displayed. The price is listed as 'free'.")
-6. Next, you'll need to provide your subscriber information and a delivery address.  (The delivery address is required even for digital subscriptions, as it supports fulfillment, offer selection, and digital access processes.)
-7. If you live outside of the United States and chose to receive a printed magazine subscription, you may be asked to provide a billing address and payment information to cover the costs of shipping. 
+6. Next, you need to provide your subscriber information and a delivery address.  (The delivery address is required even for digital subscriptions, as it supports fulfillment, offer selection, and digital access processes.)
+7. Customers outside of the United States who chose to receive a printed magazine subscription may be asked to provide a billing address and payment information to cover the costs of shipping. 
 8. You can opt in to CODE HTML Newsletter by selecting the check box.
    > [!div class="mx-imgBorder"]
    > ![CODE Magazine subscriber information](_img/vs-code-magazine/vs-code-magazine-subscriber-info.png "Screenshot of Subscriber information and delivery address dialog.")
@@ -60,17 +60,17 @@ After you complete your subscription order, you'll see a confirmation page, incl
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You need to sign in with that email address to see those subscriptions.
 
 ## Frequently asked questions
 
 ### Q: If the subscription is free, why am I being asked for a credit card?  
 
-A: It is cost-prohibitive to send free printed copies internationally.  Subscribers who choose the print edition of CODE magazine and reside outside of the United States will be charged a fee for shipping. To avoid shipping charges, choose the digital version of the magazine. 
+A: It's cost-prohibitive to send free printed copies internationally.  Subscribers who choose the print edition of CODE magazine and reside outside of the United States are charged a fee for shipping. To avoid shipping charges, choose the digital version of the magazine. 
 
 ### Q: Why do I need to provide a delivery address for a digital subscription?
 
-A:  CODE Magazine collects your address, regardless of whether the subscription is for a print or digital subscription to support fulfillment, offer selection, and digital access processes.  For more information about what CODE Magazine does with your data, please see their [Privacy Policy](https://www.codemag.com/Home/Privacy).
+A:  CODE Magazine collects your address, regardless of whether the subscription is for a print or digital subscription to support fulfillment, offer selection, and digital access processes.  For more information about what CODE Magazine does with your data, see their [Privacy Policy](https://www.codemag.com/Home/Privacy).
 
 ## Support resources
 
@@ -89,4 +89,4 @@ A:  CODE Magazine collects your address, regardless of whether the subscription 
 
 Check out the rest of the great benefits included with your subscription. Visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
-If you haven't already activated the Azure DevTest individual credit benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and select the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure DevTest individual credit.
+If you haven't already activated the Azure DevTest individual credit benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).  Select the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure DevTest individual credit.
