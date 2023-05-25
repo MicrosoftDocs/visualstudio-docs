@@ -53,6 +53,10 @@ Automatically displays the [Output window](output-window.md)in the IDE at the ou
 
 When selected, Visual Studio displays a confirmation message box before the locations of files are changed by actions in **Solution Explorer**.
 
+## Parallel project initialization
+
+When selected, Visual Studio loads large .NET solutions much faster when you reload the same solution. For more information, see the [Load solutions faster](https://devblogs.microsoft.com/visualstudio/load-solutions-faster-with-visual-studio-2017-version-15-6/) blog post.
+
 ## Reopen documents on solution load
 
 When selected, documents that were left open the previous time the solution was closed are automatically opened when the solution is opened.
@@ -75,7 +79,7 @@ When selected, you can rename all the references in a project to that of the cod
 
 ### Prompt for symbolic renaming when renaming files
 
-When selected, Visual Studio displays a message box asking whether or not it should also rename all references in the project to the code element.
+When selected, Visual Studio displays a message box asking whether or not it should also rename all references in the project to that of the code element.
 
 ## See also
 
