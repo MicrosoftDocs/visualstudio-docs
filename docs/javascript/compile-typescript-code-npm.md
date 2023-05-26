@@ -119,7 +119,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
 ### Run the application
 
-For instructions to run the app after you compile it, see [Create a Node.js and Express app](../javascript/tutorial-nodejs.md#run-the-app).
+For instructions to run the app after you compile it, see [Create a Node.js and Express app](../javascript/tutorial-nodejs.md#start-your-app).
 
 ## Automate build tasks
 

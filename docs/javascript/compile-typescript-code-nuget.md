@@ -109,7 +109,7 @@ If you run into issues where Visual Studio is using a version of Node.js or a th
 
 ### Run the application
 
-For instructions to run the app after you compile it, see [Create a Node.js and Express app](../javascript/tutorial-nodejs.md#run-the-app).
+Press **F5** or select the Start button at the top of the window.
 
 ### NuGet package structure details
 
