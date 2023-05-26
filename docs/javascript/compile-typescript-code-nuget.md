@@ -1,7 +1,7 @@
 ---
 title: Compile and build TypeScript code using NuGet
 description: Learn how to add TypeScript support to your Visual Studio projects by using the NuGet package.
-ms.date: 7/23/2020
+ms.date: 05/26/2023
 ms.topic: conceptual
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -109,7 +109,7 @@ If you run into issues where Visual Studio is using a version of Node.js or a th
 
 ### Run the application
 
-For instructions to run the app after you compile it, see [Create a Node.js and Express app](./tutorial-nodejs.md?toc=%2Fvisualstudio%2Fjavascript%2Ftoc.json#run-the-app).
+For instructions to run the app after you compile it, see [Create a Node.js and Express app](../javascript/tutorial-nodejs.md#run-the-app).
 
 ### NuGet package structure details
 
