@@ -11,6 +11,8 @@
     href: starting-to-develop-visual-studio-extensions.md
   - name: 'Create your First Extension: Hello World'
     href: extensibility-hello-world.md
+  - name: VisualStudio.Extensibility SDK (Preview) >>
+    href: ./visualstudio.extensibility/index.yml
   - name: Update extensions for Visual Studio 2022
     items:
     - name: Update an extension

@@ -1,7 +1,7 @@
 ---
 title: "Manage npm packages"
 description: Visual Studio helps you to manage packages using the Node.js package manager (npm)
-ms.date: "12/13/2022"
+ms.date: "05/23/2023"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -148,22 +148,18 @@ For projects such as ASP.NET Core projects, you can integrate npm support in you
 
 If your project does not already include a *package.json* file, you can add one to enable npm support by adding a *package.json* file to the project.
 
-1. If you don't have Node.js installed, we recommend you install the LTS version from the [Node.js](https://nodejs.org/en/download/) website for best compatibility with outside frameworks and libraries.
-
-   npm requires Node.js.
+1. Right-click the solution and choose **Manage NuGet packages**. Search for *npm* and choose **Install** to install npm.
 
 1. To add the *package.json* file, right-click the project in Solution Explorer and choose **Add** > **New Item** (or press **Ctrl** + **SHIFT** + **A**). Use the search box to find the npm file, choose the **npm Configuration File**, use the default name, and click **Add**.
 
    ![Add package.json to your project](../javascript/media/npm-add-package-json.png)
-
-   If you don't see the npm Configuration File listed, Node.js development tools are not installed. You can use the Visual Studio Installer to add the **Node.js development** workload. Then repeat the previous step.
 
 1. Include one or more npm packages in the `dependencies` or `devDependencies` section of *package.json*. For example, you might add the following to the file:
 
    ```json
    "devDependencies": {
       "gulp": "4.0.2",
-      "@types/jquery": "3.3.33"
+      "@types/jquery": "5.3.1"
    }
    ```
 
@@ -190,9 +186,7 @@ It may take several minutes to install a package. Check progress on package inst
 
 ## Troubleshooting npm packages
 
-* npm requires Node.js. If you don't have Node.js installed, we recommend you install the LTS version from the [Node.js](https://nodejs.org/en/download/) website for best compatibility with outside frameworks and libraries.
-
-* For Node.js projects, you must have the **Node.js development** workload installed for npm support.
+* For Node.js projects, you must have the **Node.js development** workload installed for npm support. npm requires Node.js. If you don't have Node.js installed, we recommend you install the LTS version from the [Node.js](https://nodejs.org/en/download/) website for best compatibility with outside frameworks and libraries.
 
 * In some scenarios, Solution Explorer may not show the correct status for installed npm packages due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). For example, the package may appear as not installed when it is installed. In most cases, you can update Solution Explorer by deleting *package.json*, restarting Visual Studio, and re-adding the *package.json* file as described earlier in this article. Or, when installing packages, you can use the npm Output window to verify installation status.
 

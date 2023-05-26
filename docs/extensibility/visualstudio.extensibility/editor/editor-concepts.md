@@ -12,7 +12,7 @@ ms.technology: vs-ide-sdk
 
 # Editor extensibility concepts
 
-This article describes the extensibility object model that represents the Visual Studio editor and the text document that is opened for editing. For an introduction to working with the editor extension functionality, see [Editor extensions overview](editor.md).
+This article describes the extensibility object model that represents the Visual Studio editor and the text document that is opened for editing. For an introduction to working with the editor extension functionality, see [Use Visual Studio editor extensibility](editor.md).
 
 The Visual Studio Editor extensibility object model is composed of a few integral parts. This article covers `ITextViewSnapshot`, `ITextDocumentSnapshot`, and other abstract representations of the whole document, as well as `Position` and `Span`, which represent location and spans of text, respectively.
 

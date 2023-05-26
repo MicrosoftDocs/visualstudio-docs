@@ -2,7 +2,7 @@
 title: Sign in 
 description: Learn why to sign in to Visual Studio, how to sign in, and how to add and switch user accounts.
 ms.custom: "contperf-fy21q1"
-ms.date: 05/16/2023
+ms.date: 05/23/2023
 ms.topic: how-to
 ms.assetid: b9531c25-e4cf-43ae-b331-a9f31a8cd171
 author: anandmeg
@@ -17,27 +17,13 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this article, you'll learn:
-+ [The benefits to account sign in](#benefits)
 + How to [sign in](#sign-in) with an account
++ [The benefits to account sign in](#benefits)
 + How to [add & switch accounts](#add-and-switch)
 + How to [sign out of your account](#sign-out-of-your-account)
 + How to [update your profile](#profile)
 
-You can also get [subscription support](https://visualstudio.microsoft.com/subscriptions/support/).
-
-<a name="benefits"></a>
-## Benefits: why sign in? 
-
-While you don't have to sign in, there are many advantages to doing so.   
-
-|Benefit|Description|
-|---|---|
-|[Extend your Visual Studio trial period](../ide/how-to-unlock-visual-studio.md)|Use Visual Studio Professional or Visual Studio Enterprise **for an additional 90 days**, instead of being limited to the trial period of 30 days.|
-|[Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)|Unlock Visual Studio if you use an account that's associated with a [Visual Studio subscription](/visualstudio/subscriptions/using-the-subscriber-portal) or an Azure DevOps organization.|
-|[Synchronize](../ide/synchronized-settings-in-visual-studio.md) your settings|Settings that you customize, such as key bindings, window layout, and color theme, apply immediately when you sign in to Visual Studio on any device.|
-|Auto-connect to Azure services|Connect to services, such as Azure and Azure DevOps Services, in the IDE without prompting again for credentials for the same account.|
-|Use Community edition without interruptions|While it's not required to sign in, you might periodically get prompts to sign-in if you haven't done so. Please sign in to the IDE to continue using Visual Studio Community without interruptions.|
-|[Get 'Visual Studio Dev Essentials'](https://visualstudio.microsoft.com/dev-essentials/)|This program includes free software, training, support, and more.|
+You can also get [subscription support](https://visualstudio.microsoft.com/subscriptions/support/) and search the FAQ to find answers to common support questions about subscriptions, accounts, and billing. 
 
 <a name="sign-in"></a>
 
@@ -60,6 +46,9 @@ While you don't have to sign in, there are many advantages to doing so.
 
    ![Sign-in prompt](../ide/media/vs-2022/visual-studio-sign-in-pop-up-vs-2022.png)
 
+   > [!NOTE]
+   > If you choose not to sign in when you first open Visual Studio, it's easy to do so later. Look for the **Sign in** link in the upper-right corner of the Visual Studio environment.
+
 ::: moniker-end
 
 2. Choose a Microsoft account or a work or school account.  If you don't have one, you can [create a Microsoft account for free](https://support.microsoft.com/help/4026324/microsoft-account-how-to-create). 
@@ -79,6 +68,20 @@ You can see that you're successfully signed in the upper-right corner of the Vis
    ![Currently logged in user in VS2022](../ide/media/vs-2022/visual-studio-sign-in.png)
 
 ::: moniker-end
+
+<a name="benefits"></a>
+## Benefits: why sign in? 
+
+While you don't have to sign in, there are many advantages to doing so.   
+
+|Benefit|Description|
+|---|---|
+|[Extend your Visual Studio trial period](../ide/how-to-unlock-visual-studio.md)|Use Visual Studio Professional or Visual Studio Enterprise **for an additional 90 days**, instead of being limited to the trial period of 30 days.|
+|[Unlock Visual Studio](../ide/how-to-unlock-visual-studio.md)|Unlock Visual Studio if you use an account that's associated with a [Visual Studio subscription](/visualstudio/subscriptions/using-the-subscriber-portal) or an Azure DevOps organization.|
+|[Synchronize](../ide/synchronized-settings-in-visual-studio.md) your settings|Settings that you customize, such as key bindings, window layout, and color theme, apply immediately when you sign in to Visual Studio on any device.|
+|Auto-connect to Azure services|Connect to services, such as Azure and Azure DevOps Services, in the IDE without prompting again for credentials for the same account.|
+|Use Community edition without interruptions|While it's not required to sign in, you might periodically get prompts to sign-in if you haven't done so. Please sign in to the IDE to continue using Visual Studio Community without interruptions.|
+|[Get 'Visual Studio Dev Essentials'](https://visualstudio.microsoft.com/dev-essentials/)|This program includes free software, training, support, and more.|
 
 <a name="profile"></a>
 
