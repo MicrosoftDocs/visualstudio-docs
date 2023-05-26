@@ -1,7 +1,7 @@
 ---
 title: Manage project and solution properties
 description: Learn how to manage both the project properties and the solution properties in Visual Studio.
-ms.date: 06/21/2022
+ms.date: 05/26/2023
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -16,7 +16,7 @@ ms.workload:
 
 Projects have properties that govern many aspects of compilation, debugging, testing and deploying. Some properties are common among all project types, and some are unique to specific languages or platforms.
 
-You access project properties by right-clicking the project node in **Solution Explorer** and choosing **Properties**, or by typing **properties** into the search box on the menu bar and choosing **Properties Window** from the results.
+You access project properties by right-clicking the [project node](use-solution-explorer.md#solution-explorer-ui) in **Solution Explorer** and selecting **Properties**, or by typing **properties** into the search box on the menu bar and selecting **Properties Window** from the results.
 
 ::: moniker range="vs-2022"
 :::image type="content" source="media/vs-2022/properties-from-solution-explorer-context-menu.png" alt-text="Screenshot of the Solution Explorer context menu with the Properties option highlighted.":::
@@ -76,7 +76,7 @@ For information about C++ project properties, see [Work with project properties 
 
 ## Solution properties
 
-To access properties on the solution, right click the solution node in **Solution Explorer** and choose **Properties**. In the dialog, you can set project configurations for **Debug** or **Release** builds, choose which projects should be the startup project when **F5** is pressed, and set code analysis options.
+To access properties on the solution, right-click the [solution node](use-solution-explorer.md#solution-explorer-ui) in **Solution Explorer** and select **Properties**. In the dialog, you can set project configurations for **Debug** or **Release** builds, choose which projects should be the startup project when **F5** is pressed, and set code analysis options.
 
 Solution properties are stored in a Solution User Options (.suo) file. For more information about this file type, see the "[**Solution file**](solutions-and-projects-in-visual-studio.md#solution-file)" section of the [Solutions and projects in Visual Studio](solutions-and-projects-in-visual-studio.md) page.
 
