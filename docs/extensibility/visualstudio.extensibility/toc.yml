@@ -39,9 +39,9 @@ items:
   href: ./output-window/output-window.md
 - name: Projects
   items:
-  - name: Project query API
+  - name: About the project query API
     href: ./project/project.md
-  - name: Project concepts
+  - name: Project query API concepts
     href: ./project/project-concepts.md
 - name: Tool windows
   href: ./tool-window/tool-window.md

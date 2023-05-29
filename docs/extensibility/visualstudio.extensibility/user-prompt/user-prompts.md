@@ -1,6 +1,6 @@
 ---
 title: User Prompts overview
-description: A reference for extensibility user prompts
+description: An overview of extensibility user prompts
 ms.topic: overview
 ms.date: 3/31/2023
 ms.author: maiak
@@ -10,7 +10,7 @@ manager: jmartens
 ms.technology: vs-ide-sdk
 ---
 
-# User prompts overview
+# Create Visual Studio user prompts
 
 User prompts are a simple UI mechanism for prompting the user during the execution of a [Command](../command/command.md). Prompting the user creates a dialog box with a message, one to three buttons for the choices, and a dismiss button.
 

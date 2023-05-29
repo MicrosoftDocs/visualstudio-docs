@@ -4,16 +4,16 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: c15f7e18-b280-4902-a60d-2c2598653207
-ms.date: 07/21/2022
+ms.date: 05/24/2023
 ms.topic: conceptual
 description:  Learn about the Azure Community Support benefit included in selected Visual Studio subscriptions.
 ---
 
 # Azure Community Support forum in Visual Studio subscriptions
 
-Get help directly from the Azure team within select support forums via Azure Community.  The Azure Community benefit provides you with access to a collection of forums focused on Azure-related topics.
+Get help directly from the Azure team within select support forums via Azure Community.  The Azure Community benefit provides you with access to a collection of forums focused on Azure-related subjects.
 
-## Available topics
+## Available subjects
 
 :::row:::
     :::column:::
@@ -54,11 +54,11 @@ Getting started with Azure Community is easy.
     > [!div class="mx-imgBorder"]
     >![Azure Community Tile](_img/vs-azure-community/vs-azure-community-tile.png "Screenshot of the Azure Community Forum Support tile.  The Get help button is highlighted.")
 
-3. You'll see a list of the available forums.  Select the forum of your choice.
+3. You see a list of the available forums.  Select the forum of your choice.
     > [!div class="mx-imgBorder"]
-    > ![Azure Community Forums](_img/vs-azure-community/vs-azure-community-forums.png "Screenshot of the Azure Community Support forum page showing options for searching and filtering topics.")
+    > ![Azure Community Forums](_img/vs-azure-community/vs-azure-community-forums.png "Screenshot of the Azure Community Support forum page showing options for searching and filtering subjects.")
 
-4. Within the forum, you can view topics and responses, search for answers to your question, or post a new question.
+4. Within the forum, you can view subjects and responses, search for answers to your question, or post a new question.
     > [!div class="mx-imgBorder"]
     > ![Azure Community Example](_img/vs-azure-community/vs-azure-community-example.png "Screenshot of the content on one forum showing a variety of questions and their statuses.")
 
@@ -68,7 +68,7 @@ The Azure community is freely available.  No subscription is required.
 
 ## Support Resources
 
-+ For other Azure Community resources, please visit the Azure Community [Support page](https://azure.microsoft.com/support/forums/).
++ For other Azure Community resources, visit the Azure Community [Support page](https://azure.microsoft.com/support/forums/).
 + [Azure documentation](/azure/).
 + Need assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions?  Contact Visual Studio [Subscriptions Support](https://aka.ms/vssubscriberhelp).
 + Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
