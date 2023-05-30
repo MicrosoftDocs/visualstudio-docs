@@ -66,7 +66,12 @@ The columns in the **Tasks** window show the following information.
 
  You can add columns to the view by right-clicking a column heading and then selecting the columns you want. (Remove columns by clearing the selections.) You can also reorder columns by dragging them left or right. The column shortcut menu is shown in the following illustration.
 
+ ::: moniker range=">=vs-2022"
+ ![Shortcut view menu in Tasks window](../debugger/media/vs-2022/parallel-tasks-context-menu.png "Parallel_Tasks_ContextMenu")
+ ::: moniker-end
+ ::: moniker range="vs-2019"
  ![Shortcut view menu in Tasks window](../debugger/media/parallel_tasks_contextmenu.png "Parallel_Tasks_ContextMenu")
+ ::: moniker-end
 
 ## Sorting Tasks
  To sort tasks by column criteria, click the column header. For example, by clicking the **ID** column header, you can sort the tasks by task ID: 1,2,3,4,5 and so on. To reverse the sort order, click the column header again. The current sort column and sort order is indicated by an arrow on the column.
@@ -74,7 +79,12 @@ The columns in the **Tasks** window show the following information.
 ## Grouping Tasks
  You can group tasks based on any column in the list view. For example, by right-clicking the **Status** column header and then clicking **Group by** > **[*status*]**, you can group all tasks that have the same status. For example, you could quickly see awaiting tasks so that you could focus on why they are blocked. You can also collapse a group that is not of interest during the debug session. In the same manner, you can group by the other columns. A group can be (un)flagged just by clicking the button next to the group header. The following illustration shows the **Tasks** window in grouped mode.
 
+ ::: moniker range=">=vs-2022"
+ ![Grouped mode in Tasks window](../debugger/media/vs-2022/parallel-tasks-grouped-mode.png "Parallel_Tasks_GroupedMode")
+ ::: moniker-end
+ ::: moniker range="vs-2019"
  ![Grouped mode in Tasks window](../debugger/media/parallel_tasks_groupedmode.png "Parallel_Tasks_GroupedMode")
+ ::: moniker-end
 
 ## Parent Child View
  (This view is available for managed code only.) By right-clicking the **Status** column header and then clicking **Group by** > **Parent**, you can change the list of tasks to a hierarchical view, in which every child task is a sub-node that can be displayed or hidden under its parent.
@@ -87,7 +97,12 @@ The columns in the **Tasks** window show the following information.
 
  The following illustration shows the other menu items for each task.
 
+ ::: moniker range=">=vs-2022"
+ ![Shortcut thread menu in Tasks window](../debugger/media/vs-2022/parallel-tasks-context-menu-2.png "Parallel_Tasks_ContextMenu2")
+ ::: moniker-end
+ ::: moniker range="vs-2019"
  ![Shortcut thread menu in Tasks window](../debugger/media/parallel_tasks_contextmenu2.png "Parallel_Tasks_ContextMenu2")
+ ::: moniker-end
 
 ## Switching the Active Task or Frame
 
