@@ -74,9 +74,11 @@ The columns in the **Tasks** window show the following information.
  ::: moniker-end
 
 ## Sorting Tasks
+
  To sort tasks by column criteria, click the column header. For example, by clicking the **ID** column header, you can sort the tasks by task ID: 1,2,3,4,5 and so on. To reverse the sort order, click the column header again. The current sort column and sort order is indicated by an arrow on the column.
 
 ## Grouping Tasks
+
  You can group tasks based on any column in the list view. For example, by right-clicking the **Status** column header and then clicking **Group by** > **[*status*]**, you can group all tasks that have the same status. For example, you could quickly see awaiting tasks so that you could focus on why they are blocked. You can also collapse a group that is not of interest during the debug session. In the same manner, you can group by the other columns. A group can be (un)flagged just by clicking the button next to the group header. The following illustration shows the **Tasks** window in grouped mode.
 
  ::: moniker range=">=vs-2022"
@@ -87,12 +89,15 @@ The columns in the **Tasks** window show the following information.
  ::: moniker-end
 
 ## Parent Child View
+
  (This view is available for managed code only.) By right-clicking the **Status** column header and then clicking **Group by** > **Parent**, you can change the list of tasks to a hierarchical view, in which every child task is a sub-node that can be displayed or hidden under its parent.
 
 ## Flagging Tasks
+
  You can flag the thread the task on which a task is running by selecting the task list item and then choosing **Flag Assigned Thread** from the context menu, or by clicking the flag icon in the first column. If you flag several tasks, you can then sort on the flag column to bring all the flagged tasks to the top so that you can focus just on them. You can also use the **Parallel Stacks** window to view only flagged tasks. This lets you filter out tasks that you are not interested in for debugging. Flags are not persisted between debugging sessions.
 
 ## Freezing and Thawing Tasks
+
  You can freeze the thread on which a task is running by right-clicking the task list item and then clicking **Freeze Assigned Thread**. (If a task is already frozen, the command is **Thaw Assigned Thread**.) When you freeze a thread, that thread will not execute when you step through code after the current breakpoint. The **Freeze All Threads But This One** command freezes all threads except the one that is executing the task list item.
 
  The following illustration shows the other menu items for each task.
