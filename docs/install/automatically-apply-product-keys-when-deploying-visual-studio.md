@@ -1,7 +1,7 @@
 ---
 title: Automatically apply product keys
 description: Learn how to apply product keys programmatically when you deploy Visual Studio.
-ms.date: 1/25/2023
+ms.date: 6/2/2023
 ms.topic: conceptual
 ms.assetid: d79260be-6234-4fd3-89b5-a9756b4a93c1
 author: anandmeg
@@ -64,7 +64,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE
 The following example shows a command line for applying the license for Visual Studio 2022 Enterprise, which has an MPC of 09660, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
 
 ```shell
-"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 09660
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDD-EEEEE 09660
 ```
 
 ::: moniker-end
@@ -74,7 +74,7 @@ The following example shows a command line for applying the license for Visual S
 The following example shows a command line for applying the license for Visual Studio 2019 Enterprise, which has an MPC of 09260, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
 
 ```shell
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 09260
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDD-EEEEE 09260
 ```
 
 ::: moniker-end
