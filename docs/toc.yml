@@ -3,7 +3,7 @@
   pdf_name: Visual Studio documentation
 - name: Overview
   items:
-  - name: About Visual Studio
+  - name: What is Visual Studio?
     href: get-started/visual-studio-ide.md
   - name: About the code editor
     href: get-started/tutorial-editor.md
