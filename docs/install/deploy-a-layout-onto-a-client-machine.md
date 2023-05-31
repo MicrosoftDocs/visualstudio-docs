@@ -19,17 +19,7 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
  
- ##################################
- ## Configure initial installation defaults ADD THIS SECTION TO AUTOMATE VS INSTALLATION WITH A RESPONSE FILE
 
-You can modify the response.json file in the layout folder to set default values for when the product is initially installed on the client machine. Common configuration options include:
-
-- Ability to **configure which workloads, components, or languages should be selected by default** during initial install. 
-- Ability to specify **where the client should receive updates from**. Examples include the default Microsoft hosted servers on the internet or from an admin-controlled network layout location.
-
-For more information about how to customize and configure the default client settings for the layout, see [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md).  
-
-make sure product keys are included here
  ################################## 
  
  ## Plan for Updates ADD THIS SECTION TO update-a-network-installation-of-visual-studio.md and also create a network install and automated installation
@@ -48,8 +38,8 @@ In order to deploy a layout to a client machine, you'll need to consider the fol
 
 - [**Prepare the layout**](create-a-network-installation-of-visual-studio.md): Make sure that your layout is ready to install onto the client
 - [**Prepare the client machines**](#prepare-the-client-machine): Ensure that your client machines are ready to install Visual Studio and your users have the right permissions.
-- [**Configure global policies**](configure-policies-for-enterprise-deployments.md): Control other Visual Studio installation, update, notification, and download behavior.  
-- [**Configure initial installation defaults**](automated-installation-with-response-file.md): Initialize your client's installation with customized settings
+- [**Configure global policies on the client machine**](configure-policies-for-enterprise-deployments.md): Control other Visual Studio installation, update, notification, and download behavior.  
+- [**Configure initial client installation defaults**](automated-installation-with-response-file.md): Initialize your client's installation with customized settings
 - [**Perform regular updates**](update-a-network-installation-of-visual-studio.md): Keep your client machines updated and secure.
 
 ## Install Visual Studio onto a client machine from a layout
@@ -78,7 +68,7 @@ Some enterprises want to host the layout on an intranet location to better manag
 
     #ADMIN CONFIGURATION
     #Enter layout URI here
-    $LayoutUri = “http://TestDomain/VS2022Enterprise/”
+    $LayoutUri = “http://MyCompanyIntranetSite/VS2022Enterprise/”
 
     #Enter bootstrapper name which is present in layout.
     $BootstrapperName = “vs_Enterprise.exe”
@@ -131,7 +121,7 @@ Make sure that either the user or system account that's running the installation
 
 You'll need to make sure that any [offline client machines have the right certificates installed](install-certificates-for-visual-studio-offline.md).
 
-When you install from a layout, the installer on the client will always look for the Visual Studio packages in the layout's location. However, if the installer tries to install components that are _not_ included in the layout, then it will attempt to acquire the Visual Studio packages from the [update source](update-visual-studio.md#configure-source-location-of-updates-1). For non-internet-connected clients, administrators typically ensure that the layout's update source default setting points back to itself ([by configuring the channelUri in the response.json](automated-installation-with-response-file.md)) and that the [client's update settings](update-visual-studio.md#configure-source-location-of-updates-1) are configured to look in the layout.  
+When you install from a layout, the installer on the client will always look for the Visual Studio packages in the layout's location. However, if the installer tries to install components that are _not_ included in the layout, then it will attempt to acquire the Visual Studio packages from the [update source](update-visual-studio.md#configure-source-location-of-updates-1). For non-internet-connected clients, administrators typically ensure that the layout's update source default setting points back to itself ([by configuring the channelUri in the response.json](automated-installation-with-response-file.md#configure-the-response-file-used-when-installing-from-a-layout) and that the [client's update settings](update-visual-studio.md#configure-source-location-of-updates-1) are configured to look in the layout.  
 
 If you want to _prevent_ the Visual Studio installer from attempting to download any content from the web that may be missing from your network layout, you can try to use the [`--noWeb` parameter](link to noweb documentation). If `--noWeb` is used and the layout is missing a component that is selected to be installed, then the setup will simply fail. 
 
