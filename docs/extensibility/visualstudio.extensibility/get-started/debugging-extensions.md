@@ -24,9 +24,9 @@ When you start a debug session, your extension assembly and its symbols are not 
 
 If your extension is in-process, the call stack includes Visual Studio stack frames as well as your extension's stack frames. Symbols are normally not available for Visual Studio, but you can see the calls where Visual Studio calls your extension.
 
-With an out-of-process extension, you only see your extension's call stack; Visual Studio stack frames are in a separate process. Visual Studio calls into your extension through an RPC call on `IClientContext`, the ServiceHub host routes the call, and then execution in your process begins in the callback. Control returns to Visual Studio when your callback returns.
+With an out-of-process extension, you only see your extension's call stack; Visual Studio stack frames are in a separate process. Visual Studio calls into your extension through JsonRpc-compatible interfaces, the ServiceHub host routes the call, and then execution in your process begins in the callback. Control returns to Visual Studio when your callback returns.
 
-State is passed to your extension through the callback, but it is important to consider that it is a snapshot of the state, which could change between the time of the snapshot and the time when you're reading it from extension code or viewing it in the debugger.
+State is passed your extension in various methods as needed and wrapped by an `IClientContext` instance for easy usage, but it is important to consider that it is a snapshot of the state, which could change between the time of the snapshot and the time when you're reading it from extension code or viewing it in the debugger.
 
 There is some internal code in the ServiceHub host process that handles the RPC brokering. If a failure occurs in this layer, it is not visible to you. Such errors should be reported as product issues.
 
@@ -42,16 +42,6 @@ There is some internal code in the ServiceHub host process that handles the RPC 
 
 > [!TIP]
 > It can be convenient to have multiple monitors, so you can see both the debugger and the experimental instance at the same time on two different monitors. You might want to change the Theme in the Experimental Instance to make it more obvious which IDE you're working with at any given time. See [How to personalize the IDE](/visualstudio/ide/quickstart-personalize-the-ide).
-
-## Attach to an extension process
-
-You might occasionally need to attach to an extension process that's already running in the experimental instance of Visual Studio. You can do this if you have more than one extension that you're debugging in the same debug session. If you're already debugging one extension, you could attach to another extension. The Visual Studio debugger remains attached to the other processes it was already connected to when it attaches to a different extension process.
-
-To connect manually using **Debug > Attach to Process**, the process to look for is `Microsoft.ServiceHub.Host.Extensibility`. There are usually multiple instances of this process running during a debug session; the appropriate one can be determined by looking at the command line and finding the one that references the experimental instance.
-
-1. Choose **Debug > Attach to Process** from the main menu.
-1. Locate and select the `Microsoft.ServiceHub.Host.Extensibility` process, and find the one with the experimental instance in the command line.
-1. Choose **Attach**. The debugger should attach to the extension process.
 
 ## Next steps
 
