@@ -1,7 +1,7 @@
 ---
-title: Automate installation with a response file
+title: Configure installation default settings with a response file
 description: Learn how to create a response JSON file that helps you automate your Visual Studio installation
-ms.date: 11/3/2022
+ms.date: 6/2/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - response file
@@ -16,19 +16,26 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-# Programmatically configure default settings using a response file
+# Configure installation default settings using a response file
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The Visual Studio response file is a [JSON](http://json-schema.org/) file whose contents mirror the command-line parameters and arguments. The response file is used to initialize client settings during the initial installation of the product onto the client. 
+The Visual Studio response file is a [JSON](http://json-schema.org/) file whose contents mirror the command-line parameters and arguments that the installer needs to initialize client settings during the initial installation of Visual Studio onto the client. It is always and only used in conjunction when running a [bootstrapper (e.g. vs_enterprise.exe)](create-a-network-installation-of-visual-studio.md#download-the-visual-studio-bootstrapper-to-create-the-layout). The response file is never used when using the installer on the client.
 
-## Automate installation
-Administrators who deploy Visual Studio can specify a response file by using the `--in` parameter, as in the following example:
+## Creating the response file
+
+The `response.json` file is typically created when an administrator [creates a layout](create-a-network-installation-of-visual-studio.md); it can be found in the root folder of the layout.
+
+## Specifying the response file
+
+If an administrator [deploys Visual Studio by invoking the bootstrapper from a layout](deploy-a-layout-onto-a-client-machine.md#install-visual-studio-onto-a-client-machine-from-a-layout), the response file found in the layout's root will automatically be used. Administrators can also explicitly specify a different response file by using the `--in` parameter, as in the following example:
 
 ```shell
 vs_enterprise.exe --in customInstall.json
 ```
+
 ## Response file contents
+
 The response file encapsulates command line parameters and follows these general rules:
  - If a command-line parameter takes no arguments (for example, `--quiet`, `--passive`, etc.), the value in the response file should be true/false. 
  - If the parameter takes an argument (for example, `--installPath <dir>`), the value in the response file should be a string. 
@@ -36,21 +43,20 @@ The response file encapsulates command line parameters and follows these general
 
 Parameters that are specified on the command-line override the settings that are included in the response file, except when parameters take multiple inputs (for example, `--add`). When you have multiple inputs, the inputs supplied on the command line are merged with settings from the response file.
 
-## Configure the response file used with network layouts
-If you created a network layout by using the `--layout` command, an initial default vanilla `response.json` file was created in the root of the layout folder. Administrators can then modify this `response.json` file in the layout to control the settings that the clients should use when they invoke the bootstrapper in that layout to install or update Visual Studio on the client.
+## Configure the response file used when installing from a layout
 
-The configuration settings in the `response.json` file are only referenced and used when the client is using the bootstrapper in the layout. The `response.json` in the layout is _not_ used when the client is invoking the update locally on the client.  
+If you created a layout by using the `--layout` command, then an initial default vanilla `response.json` file will be created in the root of the layout folder. Administrators are expected to modify and customize this `response.json` file in the layout. That way, they can control the client's initial configuration settings when they [deploy Visual Studio by invoking the bootstrapper in the layout](deploy-a-layout-onto-a-client-machine.md#install-visual-studio-onto-a-client-machine-from-a-layout)
+
+The configuration settings in the `response.json` file are only referenced and used when the client is running a bootstrapper to either install or update a client. The `response.json` is never used when the client is using installer behavior locally on the client.  
 
 If the administrator created a partial layout, then the default `response.json` file will specify only the workloads and languages that were included in the partial layout. 
 
 Assuming `--quiet` mode is **not** used when the client is performing the initial install, then the users running an initial installation can override the defaults specified in the `response.json` and further select or unselect any workloads in the setup UI before the installation actually occurs. If the user does select components or workloads that aren't available in the layout, and if the channelURI in the `response.json` points to Microsoft hosted servers, then Visual Studio setup will try to acquire the packages from the internet.
 
-When Visual Studio setup is run from a layout folder, the setup will _automatically_ use the `response.json` file in the layout folder. You don't have to use the `--in` option.
-
 > [!WARNING]
 > It's critical that you don't delete any properties in the `response.json` that were defined when the layout was created. You can change the values, but you can't remove any items.
 
-The base `response.json` file in a layout should look similar to the following example, except that it would include the value for the product and channel that you want to install:
+The base `response.json` file in a layout should look similar to the following example, except that the productID would reflect the edition in your layout. Also, pay special attention to the channelUri setting, which configures [where the client will look for updates](update-visual-studio.md#configure-source-location-of-updates-1). The default configuration is for the client to look at Microsoft hosted servers on the internet for updates. You'll need to change the value of channelUri and point it to your layout if you want clients to get their updates from your layout.   
 
 ::: moniker range="=vs-2019"
 
@@ -94,9 +100,7 @@ When you create or update a layout, a response.template.json file is also create
 
 ## Example customized layout response file content
 
-::: moniker range="=vs-2019"
-
-The following `response.json` file example will initialize a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to look for sources in the layout. Note that for Visual Studio 2019, the update location (channelURI) can only be configured during initial installation and cannot be changed after the fact _unless_ you use the functionality in the latest installer. Refer to the [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md#configuring-source-location-for-updates) and the [Configure your layout to always include and provide the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) for information on how to configure this.
+The following `response.json` file example will initialize a Visual Studio 2019 Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to look for sources in a network hosted layout. Note that for Visual Studio 2019, the update location (channelUri) can only be configured during initial installation and cannot be changed after the fact _unless_ you use the functionality in the latest installer. Refer to the [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md#configuring-source-location-for-updates) and the [Configure your layout to always include and provide the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) for information on how to configure this.
 
 ```Example response.json
 {
@@ -129,16 +133,13 @@ The following `response.json` file example will initialize a Visual Studio Enter
 }
 ```
 
-::: moniker-end
 
-::: moniker range="=vs-2022"
-
-The following `response.json` file example will initialize a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, to always remove components that have transitioned to out of support when the client is being updated, and to have the update location configured to look for sources in the layout. See the list of out-of-support components [here](out-of-support-components.md).
+The following `response.json` file example will initialize a Visual Studio 2022 Enterprise client install to select several common workloads and components, to select both the English and French UI languages, to always remove components that have transitioned to out of support when the client is being updated, and to have the update location configured to look for sources in a http hosted layout. See the list of out-of-support components [here](out-of-support-components.md).
 
 ```Example response.json
 {
   "installChannelUri": ".\\ChannelManifest.json",
-  "channelUri": "\\\\server\\share\\layoutdirectory\\ChannelManifest.json",
+  "channelUri": "http://MyCompanyIntranetSite/VS2022Enterprise",
   "installCatalogUri": ".\\Catalog.json",
   "channelId": "VisualStudio.17.Release",
   "productId": "Microsoft.VisualStudio.Product.Enterprise",
@@ -166,8 +167,6 @@ The following `response.json` file example will initialize a Visual Studio Enter
 }
 ```
 
-::: moniker-end
-
 ## Troubleshooting
 If you run into a problem with the Visual Studio bootstrapper throwing an error when you pair it with a `response.json` file, see [Troubleshoot network-related errors when you install or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md#error-failed-to-parse-id-from-parent-process) page for more information.
 
@@ -175,5 +174,8 @@ If you run into a problem with the Visual Studio bootstrapper throwing an error 
 
 ## See also
 * [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide)
+* [Create and Maintain a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
+* [Deploy Visual Studio from a layout onto a client machine](deploy-a-layout-onto-a-client-machine.md)
+* [Configure policies for enterprise deployments](configure-policies-for-enterprise-deployments.md
 * [Visual Studio workload and component IDs](workload-and-component-ids.md)
 * [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
