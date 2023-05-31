@@ -3,7 +3,7 @@ title: "Tutorial: Create UWP Apps with Visual Studio & C#"
 description: Create a UWP app in Visual Studio with XAML and C#
 titleSuffix: ""
 ms.custom: vs-acquisition, get-started
-ms.date: "04/26/2022"
+ms.date: "05/31/2023"
 ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.devlang: CSharp
@@ -47,6 +47,11 @@ First, create a Universal Windows Platform project. The project type comes with 
 1. Accept the default **Target version** and **Minimum version** settings in the **New Universal Windows Platform Project** dialog box.
 
    ![Screenshot of the New Universal Windows Platform Project dialog box showing the default Target version and Minimum version settings.](media/vs-2019/new-uwp-project-target-minver-dialog.png)
+
+   > [!NOTE]
+   > If this is the first time you have used Visual Studio to create a UWP app, a **Settings** dialog box might appear. Choose **Developer mode**, and then choose **Yes**.<br><br>
+   > ![Screenshot showing the UWP Settings dialog box with the option for enabling Developer Mode.](media/enable-developer-mode.png)<br><br>Visual Studio installs an additional Developer Mode package for you. When the package installation is complete, close the **Settings** dialog box.
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
@@ -67,11 +72,11 @@ First, create a Universal Windows Platform project. The project type comes with 
 
    :::image type="content" source="media/vs-2022/new-uwp-project-target-minver-dialog.png" alt-text="Screenshot of the New Universal Windows Platform Project dialog box showing the default Target version and Minimum version settings.":::
 
-::: moniker-end
-
    > [!NOTE]
-   > If this is the first time you have used Visual Studio to create a UWP app, a **Settings** dialog box might appear. Choose **Developer mode**, and then choose **Yes**.<br><br>
-   > ![Screenshot showing the UWP Settings dialog box with the option for enabling Developer Mode.](media/enable-developer-mode.png)<br><br>Visual Studio installs an additional Developer Mode package for you. When the package installation is complete, close the **Settings** dialog box.
+   > If this is the first time you have used Visual Studio to create a UWP app, the **Enable Developer Mode for Windows** dialog will appear. Select **settings for developers** to open **Settings**. Turn on **Developer mode**, and then choose **Yes**.<br><br>
+   > ![Screenshot showing the UWP Settings dialog box with the option for enabling Developer Mode.](media/vs-2022/enable-developer-mode-settings.png)<br><br>Visual Studio installs an additional Developer Mode package for you. When the package installation is complete, close the **Settings** dialog box.
+
+::: moniker-end
 
 ## Create the application
 
@@ -187,13 +192,13 @@ An "event handler" sounds complicated, but it's just another name for code that 
 
    ```C#
    private async void Button_Click(object sender, RoutedEventArgs e)
-         {
-             MediaElement mediaElement = new MediaElement();
-             var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
-             Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync("Hello, World!");
-             mediaElement.SetSource(stream, stream.ContentType);
-             mediaElement.Play();
-         }
+   {
+      MediaElement mediaElement = new MediaElement();
+      var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
+      Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync("Hello, World!");
+      mediaElement.SetSource(stream, stream.ContentType);
+      mediaElement.Play();
+   }
    ```
 
 ::: moniker-end
@@ -216,13 +221,13 @@ An "event handler" sounds complicated, but it's just another name for code that 
 
    ```C#
    private async void Button_Click(object sender, RoutedEventArgs e)
-         {
-             MediaElement mediaElement = new MediaElement();
-             var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
-             Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync("Hello, World!");
-             mediaElement.SetSource(stream, stream.ContentType);
-             mediaElement.Play();
-         }
+   {
+      MediaElement mediaElement = new MediaElement();
+      var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
+      Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync("Hello, World!");
+      mediaElement.SetSource(stream, stream.ContentType);
+      mediaElement.Play();
+   }
    ```
 
 ::: moniker-end
