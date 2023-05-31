@@ -20,18 +20,22 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The Visual Studio response file is a [JSON](http://json-schema.org/) file whose contents mirror the command-line parameters and arguments that the installer needs to initialize client settings during the initial installation of Visual Studio onto the client. It is always and only used in conjunction when running a [bootstrapper (e.g. vs_enterprise.exe)](create-a-network-installation-of-visual-studio.md#download-the-visual-studio-bootstrapper-to-create-the-layout). The response file is never used when using the installer on the client.
+The Visual Studio response file is a [JSON](http://json-schema.org/) file whose contents contain customizations used during the initial installation of Visual Studio onto the client. Its contents mirror the [command line arguments and parameters](use-command-line-parameters-to-install-visual-studio.md). Common configuration options include:
+
+- Ability to [**configure which workloads, components, or languages should be selected by default**](install-visual-studio#step-4---choose-workloads) during initial install. 
+- Ability to specify [**where the client should receive updates from**](update-visual-studio.md#configure-source-location-of-updates-1). Examples include the default Microsoft hosted servers on the internet or from an admin-controlled network layout location.
+- Ability to specify if [**out-of-support components**](update-visual-studio.md#remove-out-of-support-components) should be removed during updates.
 
 ## Creating the response file
 
-The `response.json` file is typically created when an administrator [creates a layout](create-a-network-installation-of-visual-studio.md); it can be found in the root folder of the layout.
+The `response.json` file is typically created when an administrator [creates a layout](create-a-network-installation-of-visual-studio.md) and can be found in the root folder of the layout. However, you can create your own response file using one of the examples below.
 
 ## Specifying the response file
 
-If an administrator [deploys Visual Studio by invoking the bootstrapper from a layout](deploy-a-layout-onto-a-client-machine.md#install-visual-studio-onto-a-client-machine-from-a-layout), the response file found in the layout's root will automatically be used. Administrators can also explicitly specify a different response file by using the `--in` parameter, as in the following example:
+If an administrator [deploys Visual Studio by invoking the bootstrapper from a layout](deploy-a-layout-onto-a-client-machine.md#install-visual-studio-onto-a-client-machine-from-a-layout), the response file found in the layout's root will automatically be used. Administrators can also choose to explicitly specify a different response file by using the `--in` parameter, as in the following example:
 
 ```shell
-vs_enterprise.exe --in customInstall.json
+\\server\share\layoutdirectory\vs_enterprise.exe --in customInstall.json
 ```
 
 ## Response file contents
@@ -45,13 +49,13 @@ Parameters that are specified on the command-line override the settings that are
 
 ## Configure the response file used when installing from a layout
 
-If you created a layout by using the `--layout` command, then an initial default vanilla `response.json` file will be created in the root of the layout folder. Administrators are expected to modify and customize this `response.json` file in the layout. That way, they can control the client's initial configuration settings when they [deploy Visual Studio by invoking the bootstrapper in the layout](deploy-a-layout-onto-a-client-machine.md#install-visual-studio-onto-a-client-machine-from-a-layout)
+If you created a layout by using the `--layout` command, then a default `response.json` file will be created in the root of the layout folder. Administrators are expected to modify and customize the response file appropriately. That way, they can control the client's initial configuration settings.
 
-The configuration settings in the `response.json` file are only referenced and used when the client is running a bootstrapper to either install or update a client. The `response.json` is never used when the client is using installer behavior locally on the client.  
+The configuration settings in the `response.json` file are only referenced when executing a [bootstrapper](create-a-network-installation-of-visual-studio.md#download-the-visual-studio-bootstrapper-to-create-the-layout) (e.g. vs_enterprise.exe). Bootstrappers are typically used to perform initial installation on the client, but sometimes they're used to update a client too. The `response.json` is never used when the client is using installer (setup.exe) behavior invoked locally on the client.  
 
-If the administrator created a partial layout, then the default `response.json` file will specify only the workloads and languages that were included in the partial layout. 
+If the administrator created a partial layout, then the default `response.json` file in the layout will specify only the workloads and languages that were included in the partial layout. 
 
-Assuming `--quiet` mode is **not** used when the client is performing the initial install, then the users running an initial installation can override the defaults specified in the `response.json` and further select or unselect any workloads in the setup UI before the installation actually occurs. If the user does select components or workloads that aren't available in the layout, and if the channelURI in the `response.json` points to Microsoft hosted servers, then Visual Studio setup will try to acquire the packages from the internet.
+Assuming `--quiet` mode is **not** used when the client is performing the initial install, then the users running an initial installation can override the defaults specified in the `response.json` and further select or unselect any workloads in the setup UI before the installation actually occurs. If the user does select components or workloads that aren't available in the layout, and if the channelUri in the `response.json` points to Microsoft hosted servers, then Visual Studio setup will try to acquire the packages from the internet.
 
 > [!WARNING]
 > It's critical that you don't delete any properties in the `response.json` that were defined when the layout was created. You can change the values, but you can't remove any items.
@@ -133,8 +137,7 @@ The following `response.json` file example will initialize a Visual Studio 2019 
 }
 ```
 
-
-The following `response.json` file example will initialize a Visual Studio 2022 Enterprise client install to select several common workloads and components, to select both the English and French UI languages, to always remove components that have transitioned to out of support when the client is being updated, and to have the update location configured to look for sources in a http hosted layout. See the list of out-of-support components [here](out-of-support-components.md).
+The following `response.json` file example will initialize a Visual Studio 2022 Enterprise client install to select several common workloads and components, to select both the English and French UI languages, to always [remove components that have transitioned to out of support when the client is being updated](update-visual-studio.md#remove-out-of-support-components), and to have the update location configured to look for sources in a http hosted layout. See the list of out-of-support components [here](out-of-support-components.md).
 
 ```Example response.json
 {
@@ -176,6 +179,6 @@ If you run into a problem with the Visual Studio bootstrapper throwing an error 
 * [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide)
 * [Create and Maintain a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Deploy Visual Studio from a layout onto a client machine](deploy-a-layout-onto-a-client-machine.md)
-* [Configure policies for enterprise deployments](configure-policies-for-enterprise-deployments.md
+* [Configure policies for enterprise deployments](configure-policies-for-enterprise-deployments.md)
 * [Visual Studio workload and component IDs](workload-and-component-ids.md)
 * [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
