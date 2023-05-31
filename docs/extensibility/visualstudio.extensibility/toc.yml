@@ -1,5 +1,5 @@
 items:
-- name: VisualStudio.Extensibility documentation
+- name: VisualStudio.Extensibility documentation (Preview)
   href: index.yml
 - name: Overview
   expanded: true
@@ -17,6 +17,8 @@ items:
     href: ./get-started/create-your-first-extension.md
   - name: Create a simple extension
     href: ./get-started/tutorial-create-simple-extension.md
+  - name: Debug an extension
+    href: ./get-started/debugging-extensions.md
 - name: Commands
   items:
   - name: About commands
@@ -39,9 +41,9 @@ items:
   href: ./output-window/output-window.md
 - name: Projects
   items:
-  - name: Project query API
+  - name: About the project query API
     href: ./project/project.md
-  - name: Project concepts
+  - name: Project query API concepts
     href: ./project/project-concepts.md
 - name: Tool windows
   href: ./tool-window/tool-window.md
