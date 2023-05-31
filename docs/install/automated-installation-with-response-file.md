@@ -49,18 +49,20 @@ Parameters that are specified on the command-line override the settings that are
 
 ## Configure the response file used when installing from a layout
 
-If you created a layout by using the `--layout` command, then a default `response.json` file will be created in the root of the layout folder. Administrators are expected to modify and customize the response file appropriately. That way, they can control the client's initial configuration settings.
+If you created a layout by using the `--layout` command, then a default `response.json` file will be created in the root of the layout folder. Administrators are expected to modify and customize the response file appropriately _before_ installing onto a client machine. That way, they can control the client's initial configuration settings.
 
 The configuration settings in the `response.json` file are only referenced when executing a [bootstrapper](create-a-network-installation-of-visual-studio.md#download-the-visual-studio-bootstrapper-to-create-the-layout) (e.g. vs_enterprise.exe). Bootstrappers are typically used to perform initial installation on the client, but sometimes they're used to update a client too. The `response.json` is never used when the client is using installer (setup.exe) behavior invoked locally on the client.  
 
 If the administrator created a partial layout, then the default `response.json` file in the layout will specify only the workloads and languages that were included in the partial layout. 
+
+Make sure to pay special attention to the channelUri setting, which configures [where the client will look for updates](update-visual-studio.md#configure-source-location-of-updates-1). The default configuration is for the client to look at Microsoft hosted servers on the internet for updates. You'll need to change the value of channelUri and point it to your layout if you want clients to get their updates from your layout. Examples for how to do this are [detailed below](#xample-customized-layout-response-file-content). You can always change where a client looks for updates in the future by [executing the installer on the client and invoking the 'modifySettings' command](use-command-line-parameters-to-install-visual-studio#modifysettings-command-and-command-line-parameters). 
 
 Assuming `--quiet` mode is **not** used when the client is performing the initial install, then the users running an initial installation can override the defaults specified in the `response.json` and further select or unselect any workloads in the setup UI before the installation actually occurs. If the user does select components or workloads that aren't available in the layout, and if the channelUri in the `response.json` points to Microsoft hosted servers, then Visual Studio setup will try to acquire the packages from the internet.
 
 > [!WARNING]
 > It's critical that you don't delete any properties in the `response.json` that were defined when the layout was created. You can change the values, but you can't remove any items.
 
-The base `response.json` file in a layout should look similar to the following example, except that the productID would reflect the edition in your layout. Also, pay special attention to the channelUri setting, which configures [where the client will look for updates](update-visual-studio.md#configure-source-location-of-updates-1). The default configuration is for the client to look at Microsoft hosted servers on the internet for updates. You'll need to change the value of channelUri and point it to your layout if you want clients to get their updates from your layout.   
+The base `response.json` file in a layout should look similar to the following example, except that the productID would reflect the edition in your layout.   
 
 ::: moniker range="=vs-2019"
 
