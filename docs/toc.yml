@@ -3,7 +3,7 @@
   pdf_name: Visual Studio documentation
 - name: Overview
   items:
-  - name: About Visual Studio
+  - name: What is Visual Studio?
     href: get-started/visual-studio-ide.md
   - name: About the code editor
     href: get-started/tutorial-editor.md
@@ -253,8 +253,10 @@
     items:
     - name: Use the editor
       href: ide/writing-code-in-the-code-and-text-editor.md
-    - name: Use the Text Spell Checker (Preview)
+    - name: Use the Spell Checker
       href: ide/text-spell-checker.md
+    - name: Use Sticky Scroll
+      href: ide/editor-sticky-scroll.md  
     - name: Find and replace
       items:
       - name: Find and replace text

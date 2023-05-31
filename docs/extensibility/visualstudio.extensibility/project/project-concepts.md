@@ -10,7 +10,7 @@ ms.date: 02/13/2023
 ms.custom: template-concept
 ---
 
-# Project query API
+# Project query API concepts
 
 In Visual Studio, projects are collections of files that are compiled together into an executable or some other form of output, and solutions are collections of projects. Projects and solutions are represented in the filesystem by project files and solution files, respectively. For more information, see [What are solutions and projects in Visual Studio?](../../../ide/solutions-and-projects-in-visual-studio.md).
 

@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 872c5746-5357-4764-949b-aa525a0adf1a
-ms.date: 06/30/2022
+ms.date: 05/24/2023
 ms.topic: conceptual
 description:  Learn how you can take advantage of Microsoft Windows Virtual Desktop via your Visual Studio subscription 
 ---
@@ -33,14 +33,14 @@ Visual Studio subscribers now have several ways to use Azure subscriptions to pa
 
 ## Requirements
 
-Windows Virtual Desktop requires an Azure Active Directory (Azure AD) to which VMs will be joined.  Users must be members of this Azure AD.  There are two options to implement the Azure AD:
-+ Azure AD Directory Services.  For most users, this is the easier option to implement.
+Windows Virtual Desktop requires an Azure Active Directory (Azure AD) to which VMs are joined.  Users must be members of this Azure AD.  There are two options to implement the Azure AD:
++ Azure AD Directory Services.  For most users, this option is the easier to implement.
 + A virtual machine running a Domain Controller promo.  This option requires more work to set up but offers most users a lower operating cost.
-To see a full list of prerequisites for using Windows Virtual Desktop, please visit the Windows Virtual Desktop [overview page](/azure/virtual-desktop/overview#requirements). 
+To see a full list of prerequisites for using Windows Virtual Desktop, visit the Windows Virtual Desktop [overview page](/azure/virtual-desktop/overview#requirements). 
 
 ## Get started
 
-When all your prerequisites are in place, you’ll want to complete several actions to get your implementation in place.  Check out these tutorials to get started:
+When all your prerequisites are in place, you should complete several actions to get your implementation in place.  Check out these tutorials to get started:
 + [Create a Windows Virtual Desktop tenant](/azure/virtual-desktop/virtual-desktop-fall-2019/tenant-setup-azure-active-directory)
 + [Create a host pool](/azure/virtual-desktop/create-host-pools-azure-marketplace) using the Azure portal
 + [Manage app groups](/azure/virtual-desktop/manage-app-groups) for Windows Virtual Desktop
@@ -63,7 +63,7 @@ When all your prerequisites are in place, you’ll want to complete several acti
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You need to sign in with that email address to see those subscriptions.
 
 ## See also
 

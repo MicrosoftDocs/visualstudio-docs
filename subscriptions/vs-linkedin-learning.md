@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 5bba2205-d32f-413d-9b58-724a24993842
-ms.date: 06/13/2022
+ms.date: 05/24/2023
 ms.topic: how-to
 description:  Learn about the LinkedIn Learning benefit included in selected Visual Studio subscriptions.
 ---
@@ -15,7 +15,7 @@ Unlock the power of LinkedIn with access to the people, insights, and skills you
 
 Selected Visual Studio subscriptions include a subscription to LinkedIn Premium, which includes LinkedIn Learning.  The length of your Premium subscription depends on the type of Visual Studio subscription you have.
 
-You'll need to have a LinkedIn account to take advantage of your LinkedIn Learning benefit.  If you don't have one already, you'll have a chance to create one before you activate your Premium subscription.
+You need to have a LinkedIn account to take advantage of your LinkedIn Learning benefit.  If you don't have one already, you have a chance to create one before you activate your Premium subscription.
 
 ## Activation steps
 
@@ -36,17 +36,17 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 
 0. Specify your country/region and ZIP code, then select **Next**.
 
-0. Next, you’ll provide some information about yourself for your profile.  Indicate whether you’re a student, and provide your most recent job title, company, and industry.
+0. Next, you provide some information about yourself for your profile.  Indicate whether you’re a student, and provide your most recent job title, company, and industry.
 
-0. In this step, you’ll have the chance to identify areas of interest to you.  To expedite the account creation process, select **Not sure yet.  I’m open!**  (You can identify areas of interest later.)
+0. In this step, you have the chance to identify areas of interest to you.  To expedite the account creation process, select **Not sure yet.  I’m open!**  (You can identify areas of interest later.)
 
 0. When you provided your email address, you were sent a message containing a confirmation code.  The message is from “Linkedin Messages”.  Enter the code from the message and select **Verify**.  If you don’t find it in your inbox, check your junk mail folders.  
 
-0. If you would like to import your contacts from the email account you entered earlier, you can do that now.  Otherwise, select **Skip**. (If you choose to skip this step, you’ll be asked to confirm your choice.  Select **Yes**.)
+0. If you would like to import your contacts from the email account you entered earlier, you can do that now.  Otherwise, select **Skip**. (If you choose to skip this step, you're asked to confirm your choice.  Select **Yes**.)
 
 0. Job alerts allow you to be notified of jobs in your area that may be a good fit for you.  You can choose to set a job alert now, or skip this step to continue creating your account.
 
-0. Based on the preferences and personal information you’ve provided thus far, you’ll see a selection of recommended connections to start building your network.  You can choose to add connections, or skip this step.
+0. Based on the preferences and personal information you’ve provided thus far, you see a selection of recommended connections to start building your network.  You can choose to add connections, or skip this step.
 
 0. To add a photo to your profile, select **Upload photo**.  Otherwise, you can skip this step.  (You can always add a photo later.)
 
@@ -86,7 +86,7 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You need to sign in with that email address to see those subscriptions.
 
 ## Frequently asked questions
 
