@@ -13,7 +13,7 @@ ms.custom: template-tutorial
 
 # Tutorial: Create multi-container apps with MySQL and Docker Compose
 
-In this tutorial, you'll learn how to create multi-container apps. This tutorial builds on the getting started tutorials, [Create and share a Docker app with Visual Studio Code](docker-tutorial.md).  In this advanced tutorial, you'll update your application to work as described in this diagram and learn how to:
+In this tutorial, you'll learn how to create multi-container apps. This tutorial builds on the getting started tutorials, [Get started with Docker and Visual Studio Code](docker-tutorial.md).  In this advanced tutorial, you'll update your application to work as described in this diagram and learn how to:
 > [!div class="checklist"]
 > - Start MySQL.
 > - Run your app with MySQL.
