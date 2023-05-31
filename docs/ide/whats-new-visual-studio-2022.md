@@ -10,7 +10,7 @@ author: TerryGLee
 ms.author: tglee
 manager: jmartens
 ms.technology:
-ms.prod: visual-studio-dev17
+ms.prod: visual-studio-windows
 ms.topic: whats-new
 ms.workload:
   - "multiple"
