@@ -1,5 +1,5 @@
 - name: Visual Studio
-  tocHref: /visualstudio/windows/
+  tocHref: /visualstudio/
   topicHref: /visualstudio/windows/index
   items:
   - name: Code Analysis
