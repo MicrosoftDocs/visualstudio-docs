@@ -153,10 +153,7 @@ xcopy /e c:\VSLayout \\server\share\layoutdirectory
 
 ### Configure initial client installation defaults for this layout
 
-A file called response.json will get created in the root folder of the layout. This customizable file serves as the initial default settings that are configured on the client when the client initially installs from the layout. Common configuration options include:
-
-- Ability to **configure which workloads, components, or languages should be selected by default** during initial installation on the client. 
-- Ability to specify, in the channelUri, **where the client should receive updates from**. Examples include the default Microsoft hosted servers on the internet or from an admin-controlled layout location.
+A file called response.json will get created in the root folder of the layout. This customizable file supplies the initial default settings that are configured on the client when the client initially installs from the layout. Common configuration options include the ability to configure which workloads, components, or languages should be installed by default on the client, where the client should receive updates from, or if out-of-support components should be removed during an update.  
 
 More information can be found on the [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md) page. 
 
@@ -297,7 +294,7 @@ Lastly, you can directly edit the `layout.json` configuration file in the layout
 
 ### Configure the layout to remove out-of-support components on the client machine.
 
-Some enterprises will want to take advantage of the feature introduced in Visual Studio 2022 version 17.4 that removes components that have transitioned to an out-of-support state. This is relatively easy to set up if you're managing a layout and if your clients are receiving administrator updates. First, you'll need to configure your layout to have the latest version of the installer as described above. Secondly, you'll need to add the line `"removeOos": true` to the response.json file as illustrated above. If your layout has these two details set properly, then subsequent administrator updates will respect this setting and will remove out-of-support components from the client machines.
+Some enterprises will want to take advantage of the feature introduced in Visual Studio 2022 version 17.4 that removes components that have transitioned to an out-of-support state. This is relatively easy to set up if you're managing a layout and if your clients are receiving administrator updates. First, you'll need to configure your layout to have the latest version of the installer as described above. Secondly, you'll need to add the line `"removeOos": true` to the `response.json` file as illustrated above. If your layout has these two details set properly, then subsequent administrator updates will respect this setting and will remove out-of-support components from the client machines.
 
 ### Verify a layout
 
@@ -341,9 +338,9 @@ When you execute this command, Setup analyzes your network layout folder to find
 ### Configure the layout to always include and provide the latest installer
 
 > [!NOTE]
-> As of April 2023, the latest installer is shipping by default with every update to supported versions of Visual Studio 2017, Visual Studio 2019, and Visual Studio 2022. So you won't need to do anything explicitly to get the latest version of the installer with the latest functionality and bug fixes into your layout and onto your clients. 
+> As of June 2023, the latest installer is shipping by default with every update to supported versions of Visual Studio 2017, Visual Studio 2019, and Visual Studio 2022. So you won't need to do anything explicitly to get the latest version of the installer with the latest functionality and bug fixes into your layout and onto your clients. 
 
-However, if you're using a layout that was created before April 2023, then you can also explicitly configure your layout to _always_ include and provide the latest installer to your clients, even if the installer is considered a part of a more recent version of Visual Studio. Thus, when your client updates from this layout, the client will acquire the latest installer that's included and provided by this layout. The benefit is that once the latest installer is on your client, your client installations will be able to take advantage of the bug fixes and new functionality that we continue to add to the installer. 
+However, if you're using a layout that was created before June 2023, then you can also explicitly configure your layout to _always_ include and provide the latest installer to your clients, even if the installer is considered a part of a more recent version of Visual Studio. Thus, when your client updates from this layout, the client will acquire the latest installer that's included and provided by this layout. The benefit is that once the latest installer is on your client, your client installations will be able to take advantage of the bug fixes and new functionality that we continue to add to the installer. 
 
 ::: moniker range="vs-2019"
 
