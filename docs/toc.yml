@@ -56,30 +56,24 @@
       items:
       - name: Create a network-based installation of Visual Studio
         href: install/create-a-network-installation-of-visual-studio.md
+      - name: Deploy Visual Studio from a layout onto a client machine
+        href: install/deploy-a-layout-onto-a-client-machine.md        
       - name: Automate Visual Studio installation with a response file
         href: install/automated-installation-with-response-file.md
-      - name: Automatically apply product keys when deploying Visual Studio
+      - name: Apply product keys when deploying Visual Studio
         href: install/automatically-apply-product-keys-when-deploying-visual-studio.md
-      - name: Manage global policies
-        items:
-        - name: Administrative Templates (ADMX)
-          href: install/administrative-templates.md
-        - name: Configure policies for enterprise deployments of Visual Studio
-          href: install/set-defaults-for-enterprise-deployments.md
       - name: Network considerations
         items:
         - name: Install and use Visual Studio behind a firewall or proxy server
           href: install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md
         - name: Troubleshoot network errors when you install or use Visual Studio
-          href: /troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors?toc=%2Fvisualstudio%2Finstall%2Ftoc.json
-    - name: Deploy Help Viewer
+          href: /troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors?toc=%2Fvisualstudio%2Ftoc.json
+    - name: Manage global policies
       items:
-        - name: Help Viewer Administrator Guide
-          href: help-viewer/administrator-guide.md
-        - name: Command-Line Arguments for the Help Content Manager
-          href: help-viewer/command-line-arguments.md
-        - name: Help Content Manager Overrides
-          href: help-viewer/behavior-overrides.md
+      - name: Administrative Templates (ADMX)
+        href: install/administrative-templates.md
+      - name: Configure policies for enterprise deployments of Visual Studio
+        href: install/set-defaults-for-enterprise-deployments.md
     - name: Manage & update installations
       items:
       - name: Applying administrator updates
@@ -121,20 +115,28 @@
           href: install/workload-component-id-vs-test-controller.md
       - name: Visual Studio build numbers and release dates
         href: install/visual-studio-build-numbers-and-release-dates.md
-  - name: Use Visual Studio from an Azure virtual machine
-    href: install/using-visual-studio-vm.md
-  - name: Use Visual Studio on an ARM device
-    href: install/visual-studio-on-arm-devices.md
-  - name: Containers
+  - name: Devices, VMs, and Containeers
     items:
+    - name: Use Visual Studio from an Azure virtual machine
+      href: install/using-visual-studio-vm.md
+    - name: Use Visual Studio on an ARM device
+      href: install/visual-studio-on-arm-devices.md
     - name: Install Build Tools into a Container
       href: install/build-tools-container.md
     - name: Advanced Example for Containers
       href: install/advanced-build-tools-container.md
     - name: Known Issues for Containers
       href: install/build-tools-container-issues.md
-  - name: Install Help Viewer
-    href: help-viewer/installation.md
+   - name: Deploy Help Viewer
+     items:
+     - name: Install Help Viewer
+       href: help-viewer/installation.md
+     - name: Help Viewer Administrator Guide
+       href: help-viewer/administrator-guide.md
+     - name: Command-Line Arguments for the Help Content Manager
+       href: help-viewer/command-line-arguments.md
+     - name: Help Content Manager Overrides
+       href: help-viewer/behavior-overrides.md
 - name: Tutorials
   items:
   - name: C++ >>
