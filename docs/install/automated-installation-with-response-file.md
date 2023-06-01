@@ -22,7 +22,7 @@ ms.technology: vs-installation
 
 The Visual Studio response file is a [JSON](http://json-schema.org/) file whose contents contain customizations used during the initial installation of Visual Studio onto the client. Its contents mirror the [command line arguments and parameters](use-command-line-parameters-to-install-visual-studio.md). Common configuration options include:
 
-- Ability to [**configure which workloads, components, or languages should be selected by default**](install-visual-studio#step-4---choose-workloads) during initial install. 
+- Ability to [**configure which workloads, components, or languages should be selected by default**](install-visual-studio.md#step-4---choose-workloads) during initial install. 
 - Ability to specify [**where the client should receive updates from**](update-visual-studio.md#configure-source-location-of-updates-1). Examples include the default Microsoft hosted servers on the internet or from an admin-controlled network layout location.
 - Ability to specify if [**out-of-support components**](update-visual-studio.md#remove-out-of-support-components) should be removed during updates.
 
@@ -55,7 +55,7 @@ The configuration settings in the `response.json` file are only referenced when 
 
 If the administrator created a partial layout, then the default `response.json` file in the layout will specify only the workloads and languages that were included in the partial layout. 
 
-Make sure to pay special attention to the channelUri setting, which configures [where the client will look for updates](update-visual-studio.md#configure-source-location-of-updates-1). The default configuration is for the client to look at Microsoft hosted servers on the internet for updates. You'll need to change the value of channelUri and point it to your layout if you want clients to get their updates from your layout. Examples for how to do this are [detailed below](#xample-customized-layout-response-file-content). You can always change where a client looks for updates in the future by [executing the installer on the client and invoking the 'modifySettings' command](use-command-line-parameters-to-install-visual-studio#modifysettings-command-and-command-line-parameters). 
+Make sure to pay special attention to the channelUri setting, which configures [where the client will look for updates](update-visual-studio.md#configure-source-location-of-updates-1). The default configuration is for the client to look at Microsoft hosted servers on the internet for updates. You'll need to change the value of channelUri and point it to your layout if you want clients to get their updates from your layout. Examples for how to do this are [detailed below](#example-customized-layout-response-file-content). You can always change where a client looks for updates in the future by [executing the installer on the client and invoking the 'modifySettings' command](use-command-line-parameters-to-install-visual-studio.md#modifysettings-command-and-command-line-parameters). 
 
 Assuming `--quiet` mode is **not** used when the client is performing the initial install, then the users running an initial installation can override the defaults specified in the `response.json` and further select or unselect any workloads in the setup UI before the installation actually occurs. If the user does select components or workloads that aren't available in the layout, and if the channelUri in the `response.json` points to Microsoft hosted servers, then Visual Studio setup will try to acquire the packages from the internet.
 
