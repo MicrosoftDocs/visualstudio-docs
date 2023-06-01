@@ -1,8 +1,7 @@
 ---
 title: Insert new records into a database
 description: Insert new records into a database using the TableAdapter.Update method, one of the TableAdapter's DBDirect methods, or command objects.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 06/01/2023
 ms.topic: how-to
 dev_langs:
 - VB
@@ -31,13 +30,13 @@ If your application uses datasets to store data, use the `TableAdapter.Update` m
 
 If your application uses objects to store data, or if you want finer control over creating new records in the database, use the `TableAdapter.Insert` method.
 
-If your TableAdapter doesn't have an `Insert` method, it means that either the TableAdapter is configured to use stored procedures or its `GenerateDBDirectMethods` property is set to `false`. Try setting the TableAdapter's `GenerateDBDirectMethods` property to `true` from within the **Dataset Designer**, and then save the dataset. This will regenerate the TableAdapter. If the TableAdapter still doesn't have an `Insert` method, the table probably does not provide enough schema information to distinguish between individual rows (for example, there might be no primary key set on the table).
+If your TableAdapter doesn't have an `Insert` method, it means that either the TableAdapter is configured to use stored procedures, or its `GenerateDBDirectMethods` property is set to `false`. Try setting the TableAdapter's `GenerateDBDirectMethods` property to `true` from within the **Dataset Designer**, and then save the dataset. This action regenerates the TableAdapter. If the TableAdapter still doesn't have an `Insert` method, the table probably doesn't provide enough schema information to distinguish between individual rows (for example, there might be no primary key set on the table).
 
 ## Insert new records by using TableAdapters
 
 TableAdapters provide different ways to insert new records into a database, depending on the requirements of your application.
 
-If your application uses datasets to store data, you can simply add new records to the desired <xref:System.Data.DataTable> in the dataset, and then call the `TableAdapter.Update` method. The `TableAdapter.Update` method sends any changes in the <xref:System.Data.DataTable> to the database (including modified and deleted records).
+If your application uses datasets to store data, you can add new records to the desired <xref:System.Data.DataTable> in the dataset, and then call the `TableAdapter.Update` method. The `TableAdapter.Update` method sends any changes in the <xref:System.Data.DataTable> to the database (including modified and deleted records).
 
 ### To insert new records into a database by using the TableAdapter.Update method
 
@@ -79,7 +78,7 @@ The following example demonstrates inserting records into a database using comma
 
 ## .NET security
 
-You must have access to the database you are trying to connect to, as well as permission to perform inserts into the desired table.
+You must have access to the database you're trying to connect to, and permission to perform inserts into the desired table.
 
 ## See also
 
