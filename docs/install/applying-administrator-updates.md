@@ -2,7 +2,7 @@
 title: Applying administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager
 titleSuffix: ''
 description: Learn how to apply administrator updates to Visual Studio.
-ms.date: 12/1/2022
+ms.date: 6/2/2023
 ms.topic: overview
 ms.assetid: 9a3fdb28-db3d-4970-bc17-7417a985f0fb
 author: anandmeg
@@ -90,7 +90,7 @@ There are three main methods of configuring administrator updates: via policies,
    Here's an example configuration file:
 
   ```json
-  "installerUpdateArgs" : ["--quiet", "--noWeb", "--keepWindowsUpdateOn"], 
+  "installerUpdateArgs" : ["--quiet", "--keepWindowsUpdateOn"], 
   "checkPendingReboot" :  "true" 
   ```
 
