@@ -124,6 +124,9 @@ When setting property values, keep in mind that common properties may be set, re
 | ProduceReferenceAssembly | .NET | A boolean value that when set to `true` enables production of [reference assemblies](/dotnet/standard/assembly/reference-assemblies) for the current assembly. `Deterministic` should be `true` when using this feature. This property corresponds to the `/refout` switch of the *vbc.exe* and *csc.exe* compilers. |
 | RemoveIntegerChecks | Visual Basic | A boolean value that indicates whether to disable integer overflow error checks. The default value is `false`. This property is equivalent to the `/removeintchecks` switch of the *vbc.exe* compiler. |
 | RootNamespace | All | The root namespace to use when you name an embedded resource. This namespace is part of the embedded resource manifest name. |
+
+| Property or parameter name | Project types | Description |
+|------------------------------------| - | - |
 | Satellite_AlgorithmId | .NET | The ID of the *AL.exe* hashing algorithm to use when satellite assemblies are created. |
 | Satellite_BaseAddress | .NET | The base address to use when culture-specific satellite assemblies are built by using the `CreateSatelliteAssemblies` target. |
 | Satellite_CompanyName | .NET | The company name to pass into *AL.exe* during satellite assembly generation. |
