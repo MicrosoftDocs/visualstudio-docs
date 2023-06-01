@@ -172,6 +172,9 @@ The following `response.json` file example will initialize a Visual Studio 2022 
 }
 ```
 
+> [!WARNING]
+> You CANNOT have "noWeb": true in your `response.json` if you're using intranet webhosted layouts. 
+
 ## Troubleshooting
 If you run into a problem with the Visual Studio bootstrapper throwing an error when you pair it with a `response.json` file, see [Troubleshoot network-related errors when you install or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md#error-failed-to-parse-id-from-parent-process) page for more information.
 
