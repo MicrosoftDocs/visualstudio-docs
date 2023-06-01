@@ -1,6 +1,6 @@
 ---
 title: MSBuild Items | Microsoft Docs
-description: Learn how to use the MSBuild Include attribute of the ItemGroup to specify files to be included in a build.
+description: Learn how to use the MSBuild items, item types, and work with lists of items by using and modifying item metadata.
 ms.date: 06/01/2023
 ms.topic: conceptual
 helpviewer_keywords:
