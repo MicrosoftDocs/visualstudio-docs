@@ -1303,7 +1303,7 @@
     href: https://visualstudio.microsoft.com/license-terms/
   - name: Support lifecycle and servicing
     href: /visualstudio/productinfo/vs-servicing-vs/
-  - name: Microsoft Help Viewer >>
+  - name: Help Viewer >>
     href: help-viewer/overview.md
 - name: Send feedback
   items:
