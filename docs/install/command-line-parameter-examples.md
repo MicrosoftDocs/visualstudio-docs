@@ -57,7 +57,7 @@ For lists of the workloads and components that you can install by using the comm
  Alternatively, you can also update in one step by using the installer on the client.
  
    ```shell
-   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" update --passive --norestart --installPath "C:\installPathVS"^
+   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" update --passive --norestart --installPath "C:\installPathVS"
    ```
 
 ## Using --wait
