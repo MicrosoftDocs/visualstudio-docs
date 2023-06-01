@@ -20,20 +20,6 @@ ms.technology: vs-installation
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
  
 
- ################################## 
- 
- ## Plan for Updates ADD THIS SECTION TO update-a-network-installation-of-visual-studio.md and also create a network install and automated installation
-We recommend that you decide how your client machines should receive product updates _before_ you do the initial client install. This is to ensure that your clients' update location configuration is initialized correctly. Your two choices are having the clients get updates from your layout location or from Microsoft hosted servers on the internet. It's possible to re-configure and change the client's source location for updates at a later point. 
-**add recommendations how to initialize this in the layout's response.json, how to change source location after the fact.**
-################################
-
-put this in the -noweb command line info
-> The `--noWeb` option does not stop the Visual Studio installer on an internet-connected client machine from _checking_ for updates if the client has been configured to look at Microsoft hosted servers for updates. Rather, `--noWeb` simply prevents the client from downloading the product packages.
->
-> You cannot use -noWeb if you're installing a layout from an intranet location.
-############################################################
- 
-
 In order to deploy a layout to a client machine, you'll need to consider the following topics 
 
 - [**Prepare the layout**](create-a-network-installation-of-visual-studio.md): Make sure that your layout is ready to install onto the client
@@ -48,7 +34,7 @@ Administrators can deploy a Visual Studio layout onto client workstations as par
 
 ### Install from a network layout
 
-A user with administrator permissions can install Visual Studio from a network layout in an unattended mode by running the following command. The response.json in the layout will provide the default configuration settings for the installation.
+A user with administrator permissions can install Visual Studio from a network layout in an unattended mode by running the following command. The response.json in the layout will provide the default configuration settings for the installation. 
 
     ```shell
     \\server\products\VS\vs_enterprise.exe --quiet --wait 
