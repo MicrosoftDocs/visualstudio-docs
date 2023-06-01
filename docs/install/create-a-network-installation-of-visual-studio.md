@@ -162,7 +162,7 @@ More information can be found on the [Automate Visual Studio installation with a
 Starting in June 2023, you will be able to make your layouts available on an internal intranet site, which lets you take advantage of webserver file caching and georeplication performance capabilities. To use this new feature, you need to be using the latest Visual Studio bootstrappers and latest Visual Studio installer. IT administrators must do the following to take advantage of this intranet webhosting capability:
 
 1. First, create and maintain a network layout and ensure that the bits are present and regularly updated on the network share. Also, remember to configure the [channelUri value in the layout's response.json](automated-installation-with-response-file.md#configure-the-response-file-used-when-installing-from-a-layout) if you want your clients to get their updates from the intranet layout location.
-2. Next, an admin will need to prepare an internal website and bind the source to the layout's network file location. They also need to ensure that the following MIME types in the table below are respected by the webserver. As an example, a more detailed reference description for [how to set up an IIS webserver is described here](iis webserver).
+2. Next, an admin will need to prepare an internal website and bind the website's source to the layout's network file location. They also need to ensure that the following MIME types in the table below are respected by the webserver. As an example, a more detailed reference description for [how to set up an IIS webserver is described here](iis webserver).
 
      | **File Extension** | **MIME Type** |
      |------------------|------------------|
@@ -178,7 +178,7 @@ Starting in June 2023, you will be able to make your layouts available on an int
      | **.xml**| `text/xml` |
      | **.xml**| `application/x-zip-compressed` |
 
-3. Lastly, to deploy this layout on the client, you'll need to [run a PowerShell script on the client to perform the initial installation](deploy-a-layout-onto-a-client-machine.md#install-from-an-internal-intranet-location). After Visual Studio has successfully installed onto the client from a webhosted layout, then [client updates for webhosted layouts behave the same as they do for network share hosted layouts](update-a-network-installation-of-visual-studio.md).  
+3. Lastly, to deploy this layout on the client, you'll need to [run a PowerShell script on the client to perform the initial installation](deploy-a-layout-onto-a-client-machine.md#install-from-an-internal-intranet-location). After Visual Studio has successfully installed onto the client from a webhosted layout, then [client updates for webhosted layouts can be updated via standard methods](update-a-network-installation-of-visual-studio.md).  
 
 ### Ensure your layout is using the latest installer
 
