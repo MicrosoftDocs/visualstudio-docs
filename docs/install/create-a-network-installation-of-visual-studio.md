@@ -161,7 +161,7 @@ More information can be found on the [Automate Visual Studio installation with a
 
 Starting in June 2023, you will be able to make your layouts available on an internal intranet site, which lets you take advantage of webserver file caching and georeplication performance capabilities. To use this new feature, you need to be using the latest Visual Studio bootstrappers and latest Visual Studio installer. IT administrators must do the following to take advantage of this intranet webhosting capability:
 
-1. First, create and maintain a network layout and ensure that the bits are present and regularly updated on the network share as described on this page. Also, remember to configure the [channelUri value in the layout's response.json](automated-installation-with-response-file.md#configure-the-response-file-used-when-installing-from-a-layout) if you want to configure the client to get its updates from the intranet layout location.
+1. First, create and maintain a network layout and ensure that the bits are present and regularly updated on the network share. Also, remember to configure the [channelUri value in the layout's response.json](automated-installation-with-response-file.md#configure-the-response-file-used-when-installing-from-a-layout) if you want to configure the client to get its updates from the intranet layout location.
 2. Next, an admin will need to prepare an internal website and bind the source to the layout's network file location. They also need to ensure that the following MIME types in the table below are respected by the webserver. As an example, a more detailed reference description for [how to set up an IIS webserver is described here](iis webserver).
 
      | **File Extension** | **MIME Type** |
