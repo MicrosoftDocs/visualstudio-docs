@@ -38,7 +38,7 @@ There is some internal code in the ServiceHub host process that handles the RPC 
 1. Execute the steps in the experimental instance of Visual Studio that cause your extension to activate or to reproduce the scenario you're intending to debug.
 1. Visual Studio stops at a breakpoint.
 
-   :::image type=content source="./media/debug-experimental-instance.png" alt-text="Screenshot showing Visual Studio debugging an extension." lightbox="./media/debug-experimental-instance.png":::
+   :::image type="content" source="./media/debug-experimental-instance.png" alt-text="Screenshot showing Visual Studio debugging an extension." lightbox="./media/debug-experimental-instance.png":::
 
 > [!TIP]
 > It can be convenient to have multiple monitors, so you can see both the debugger and the experimental instance at the same time on two different monitors. You might want to change the Theme in the Experimental Instance to make it more obvious which IDE you're working with at any given time. See [How to personalize the IDE](/visualstudio/ide/quickstart-personalize-the-ide).
