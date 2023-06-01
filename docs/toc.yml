@@ -127,16 +127,16 @@
       href: install/advanced-build-tools-container.md
     - name: Known Issues for Containers
       href: install/build-tools-container-issues.md
-   - name: Deploy Help Viewer
-     items:
-     - name: Install Help Viewer
-       href: help-viewer/installation.md
-     - name: Help Viewer Administrator Guide
-       href: help-viewer/administrator-guide.md
-     - name: Command-Line Arguments for the Help Content Manager
-       href: help-viewer/command-line-arguments.md
-     - name: Help Content Manager Overrides
-       href: help-viewer/behavior-overrides.md
+  - name: Deploy Help Viewer
+    items:
+    - name: Install Help Viewer
+      href: help-viewer/installation.md
+    - name: Help Viewer Administrator Guide
+      href: help-viewer/administrator-guide.md
+    - name: Command-Line Arguments for the Help Content Manager
+      href: help-viewer/command-line-arguments.md
+    - name: Help Content Manager Overrides
+      href: help-viewer/behavior-overrides.md
 - name: Tutorials
   items:
   - name: C++ >>
