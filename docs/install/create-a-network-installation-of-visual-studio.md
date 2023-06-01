@@ -207,7 +207,7 @@ Microsoft frequently releases updated versions of the product to fix functionali
 
 When you create the initial layout, the specified options, such as which workloads and languages to include in the layout, are saved in the layout's configuration file `layout.json`. Later, when you update that layout to a newer version of the product, you don't have to re-specify which components of the product you want in the layout. A layout update simply updates the existing components in the layout to their most current version.  
 
-Suppose you already created this partial layout using [one of the evergreen bootstrappers in the table above](#download-the-visual-studio-bootstrapper-to-create-the-network-layout).
+Suppose you already created this partial layout using [one of the evergreen bootstrappers in the table above](#download-the-visual-studio-bootstrapper-to-create-the-layout).
 
 ```shell
 vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --lang en-US
@@ -269,7 +269,7 @@ To change the channel that the layout is based off of, simply acquire the desire
 
 It is possible to modify a partial layout and ***add*** additional workloads, components, or languages. It is **not** possible to reliably remove components from a layout.
 
-In the example below, we'll add the Azure workload and a localized language to the layout that was previously created with just the Managed Desktop workload and English language. After we've made the modification, both the Managed Desktop and Azure workloads, and both the English and German resources will be included in this layout. In addition to adding components, the `--layout` command will also cause the layout to be updated to the version specified by the bootstrapper. So, if you're using the [evergreen bootstrapper](#download-the-visual-studio-bootstrapper-to-create-the-network-layout), then the resultant layout will have the new component, the new language, and all layout contents will be updated to the latest version on the bootstrapper's channel. 
+In the example below, we'll add the Azure workload and a localized language to the layout that was previously created with just the Managed Desktop workload and English language. After we've made the modification, both the Managed Desktop and Azure workloads, and both the English and German resources will be included in this layout. In addition to adding components, the `--layout` command will also cause the layout to be updated to the version specified by the bootstrapper. So, if you're using the [evergreen bootstrapper](#download-the-visual-studio-bootstrapper-to-create-the-layout), then the resultant layout will have the new component, the new language, and all layout contents will be updated to the latest version on the bootstrapper's channel. 
 
 ```shell
 vs_enterprise.exe --layout c:\VSLayout --add Microsoft.VisualStudio.Workload.Azure --lang de-DE
@@ -309,7 +309,7 @@ vs_enterprise.exe --layout <layoutDir> --verify
 > [!NOTE]
 > Some important metadata files that are needed by the `--verify` option must be in the layout folder. If these metadata files are missing, "--verify" cannot run and Setup gives you an error. If you experience this error, try to update the layout again, or re-create a new network layout in a different folder.
 
-Remember that Microsoft ships updates to Visual Studio periodically, so, if you're using an [evergreen bootstrapper](#download-the-visual-studio-bootstrapper-to-create-the-network-layout), then a more recent layout might not contain the same version as the initial layout. However, if you use a [fixed link bootstrappers](#download-the-visual-studio-bootstrapper-to-create-the-network-layout), then you'll (almost) always get a deterministic file set.
+Remember that Microsoft ships updates to Visual Studio periodically, so, if you're using an [evergreen bootstrapper](#download-the-visual-studio-bootstrapper-to-create-the-layout), then a more recent layout might not contain the same version as the initial layout. However, if you use a [fixed link bootstrappers](#download-the-visual-studio-bootstrapper-to-create-the-layout), then you'll (almost) always get a deterministic file set.
 
 ### Fix a layout
 
