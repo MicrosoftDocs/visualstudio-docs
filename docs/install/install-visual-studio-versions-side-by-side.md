@@ -2,7 +2,7 @@
 title: Install Visual Studio versions side-by-side
 description: Learn how to install Visual Studio on a computer that has an earlier or later version of Visual Studio already installed.
 ms.custom: "vs-acquisition"
-ms.date: 5/25/2023
+ms.date: 6/2/2023
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: conceptual
@@ -97,7 +97,7 @@ To install via the bootstrapper:
 To install using the installer that is already present on the client machine:
 
    ```shell
- C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe --installPath "C:\Program Files (x86)\Microsoft Visual Studio\<AddNewPath>"
+ "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" --installPath "C:\Program Files (x86)\Microsoft Visual Studio\<AddNewPath>"
    ```
 
 Note that you can't initiate the installer programmatically from the same directory that the installer resides in.
