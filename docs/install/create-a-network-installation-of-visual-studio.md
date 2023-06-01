@@ -162,7 +162,7 @@ More information can be found on the [Automate Visual Studio installation with a
 Starting in June 2023, you will be able to make your layouts available on an internal intranet site, which lets you take advantage of webserver file caching and georeplication performance capabilities. To use this new feature, you need to be using the latest Visual Studio bootstrappers and latest Visual Studio installer. IT administrators must do the following to take advantage of this intranet webhosting capability:
 
 1. First, create and maintain a network layout and ensure that the bits are present and regularly updated on the network share. Also, remember to configure the [channelUri value in the layout's response.json](automated-installation-with-response-file.md#configure-the-response-file-used-when-installing-from-a-layout) if you want your clients to get their updates from the intranet layout location.
-2. Next, an admin will need to prepare an internal website and bind the website's source to the layout's network file location. They also need to ensure that the following MIME types in the table below are respected by the webserver. As an example, a more detailed reference description for [how to set up an IIS webserver is described here](iis webserver).
+2. Next, an admin will need to prepare an internal website and bind the website's source to the layout's network file location. They also need to ensure that the following MIME types in the table below are respected by the webserver. 
 
      | **File Extension** | **MIME Type** |
      |------------------|------------------|
@@ -203,7 +203,7 @@ If you host a layout on a network file share, you may want to download an update
 
 ### Update the layout to the most current version of the product
 
-Microsoft frequently releases updated versions of the product to fix functionality or security issues. We strongly recommend that you keep your layout updated with the latest version of the product so that your clients always have access to the latest most secure version of the product. This is especially important if your clients don't have internet access and can *only* receive product updates from the layout. Visual Studio typically releases security updates on the second Tuesday of the month, known as "patch Tuesday", so a good strategy would be to update all your layouts on patch Tuesday afternoon.
+Microsoft frequently releases updated versions of the product to fix functionality or security issues. We strongly recommend that you keep your layout updated with the latest version of the product so that your clients always have access to the latest most secure version of the product. This is especially important if your clients don't have internet access and can *only* receive product updates from the layout. Visual Studio typically releases security updates on the second Tuesday of the month, known as "patch Tuesday", so a good strategy would be to update all your layouts on patch Tuesday afternoons.
 
 When you create the initial layout, the specified options, such as which workloads and languages to include in the layout, are saved in the layout's configuration file `layout.json`. Later, when you update that layout to a newer version of the product, you don't have to re-specify which components of the product you want in the layout. A layout update simply updates the existing components in the layout to their most current version.  
 
