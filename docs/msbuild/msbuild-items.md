@@ -1,7 +1,7 @@
 ---
 title: MSBuild Items | Microsoft Docs
 description: Learn how to use the MSBuild Include attribute of the ItemGroup to specify files to be included in a build.
-ms.date: 11/04/2016
+ms.date: 06/01/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, Items
@@ -40,7 +40,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
 </ItemGroup>
 ```
 
-The `Include` attribute is a path that is interpreted relative to the project file's folder, $(MSBuildProjectPath), even if the item is in an imported file such as a *.targets* file.
+The `Include` attribute is a path that is interpreted relative to the project file's folder, `$(MSBuildProjectPath)`, even if the item is in an imported file such as a `.targets` file.
 
 ## Create items during execution
 
@@ -50,7 +50,7 @@ The `Include` attribute is a path that is interpreted relative to the project fi
 
 - The [CreateItem](../msbuild/createitem-task.md) task can emit an item. This usage is deprecated.
 
-- Starting in the .NET Framework 3.5, `Target` elements may contain [ItemGroup](../msbuild/itemgroup-element-msbuild.md) elements that may contain item elements.
+- `Target` elements may contain [ItemGroup](../msbuild/itemgroup-element-msbuild.md) elements that may contain item elements.
 
 ## Reference items in a project file
 
@@ -121,7 +121,7 @@ For more information about wildcard characters, see [How to: Select the files to
 
 ### <a name="BKMK_ReferencingItemMetadata"></a> Reference item metadata in a project file
 
- You can reference item metadata throughout the project file by using the syntax %(\<ItemMetadataName>). If ambiguity exists, you can qualify a reference by using the name of the item type. For example, you can specify %(\<ItemType.ItemMetaDataName>).The following example uses the Display metadata to batch the Message task. For more information about how to use item metadata for batching, see [Item metadata in task batching](../msbuild/item-metadata-in-task-batching.md).
+ You can reference item metadata throughout the project file by using the syntax `%(ItemMetadataName)`. If ambiguity exists, you can qualify a reference by using the name of the item type. For example, you can specify `%(ItemType.ItemMetaDataName)`. The following example uses the `Display` metadata to batch the `Message` task. For more information about how to use item metadata for batching, see [Item metadata in task batching](../msbuild/item-metadata-in-task-batching.md).
 
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -141,11 +141,11 @@ For more information about wildcard characters, see [How to: Select the files to
 
 ### <a name="BKMK_WellKnownItemMetadata"></a> Well-known item metadata
 
- When an item is added to an item type, that item is assigned some well-known metadata. For example, all items have the well-known metadata %(\<Filename>), whose value is the file name of the item (without the extension). For more information, see [Well-known item metadata](../msbuild/msbuild-well-known-item-metadata.md).
+ When an item is added to an item type, that item is assigned some well-known metadata. For example, all items have the well-known metadata `%(Filename)`, whose value is the file name of the item (without the extension). For more information, see [Well-known item metadata](../msbuild/msbuild-well-known-item-metadata.md).
 
 ### <a name="BKMK_Transforming"></a> Transform item types by using metadata
 
- You can transform item lists into new item lists by using metadata. For example, you can transform an item type `CppFiles` that has items that represent *.cpp* files into a corresponding list of *.obj* files by using the expression `@(CppFiles -> '%(Filename).obj')`.
+ You can transform item lists into new item lists by using metadata. For example, you can transform an item type `CppFiles` that has items that represent `.cpp` files into a corresponding list of `.obj` files by using the expression `@(CppFiles -> '%(Filename).obj')`.
 
  The following code creates a `CultureResource` item type that contains copies of all `EmbeddedResource` items with `Culture` metadata. The `Culture` metadata value becomes the value of the new metadata `CultureResource.TargetDirectory`.
 
@@ -164,7 +164,7 @@ For more operations on items, see [MSBuild item functions](item-functions.md) an
 
 ## Item definitions
 
- Starting in the .NET Framework 3.5, you can add default metadata to any item type by using the [ItemDefinitionGroup element](../msbuild/itemdefinitiongroup-element-msbuild.md). Like well-known metadata, the default metadata is associated with all items of the item type that you specify. You can explicitly override default metadata in an item definition. For example, the following XML gives the `Compile` items *one.cs* and *three.cs* the metadata `BuildDay` with the value "Monday". The code gives the item *two.cs* the metadata `BuildDay` with the value "Tuesday".
+ You can add default metadata to any item type by using the [ItemDefinitionGroup element](../msbuild/itemdefinitiongroup-element-msbuild.md). Like well-known metadata, the default metadata is associated with all items of the item type that you specify. You can explicitly override default metadata in an item definition. For example, the following XML gives the `Compile` items *one.cs* and *three.cs* the metadata `BuildDay` with the value "Monday". The code gives the item *two.cs* the metadata `BuildDay` with the value "Tuesday".
 
 ```xml
 <ItemDefinitionGroup>
@@ -180,17 +180,17 @@ For more operations on items, see [MSBuild item functions](item-functions.md) an
 </ItemGroup>
 ```
 
- For more information, see [Item definitions](../msbuild/item-definitions.md).
+For more information, see [Item definitions](../msbuild/item-definitions.md).
 
 ## Attributes for items in an ItemGroup of a Target
 
- Starting in the .NET Framework 3.5, `Target` elements may contain [ItemGroup](../msbuild/itemgroup-element-msbuild.md) elements that may contain item elements. The attributes in this section are valid when they are specified for an item in an `ItemGroup` that's in a `Target`.
+`Target` elements may contain [ItemGroup](../msbuild/itemgroup-element-msbuild.md) elements that may contain item elements. The attributes in this section are valid when they are specified for an item in an `ItemGroup` that's in a `Target`.
 
 ### <a name="BKMK_RemoveAttribute"></a> Remove attribute
 
- The `Remove` attribute removes specific items (files) from the item type. This attribute was introduced in the .NET Framework 3.5 (inside targets only). Both inside and outside targets are supported starting in MSBuild 15.0.
+The `Remove` attribute removes specific items (files) from the item type. This attribute was introduced in the .NET Framework 3.5 (inside targets only). Both inside and outside targets are supported starting in MSBuild 15.0.
 
- The following example removes every *.config* file from the Compile item type.
+The following example removes every *.config* file from the `Compile` item type.
 
 ```xml
 <Target>
@@ -253,7 +253,7 @@ The above line removes items from `_TransitiveItemsToCopyToOutputDirectory` that
 
 Specifies the string matching strategy used by `MatchOnMetadata` for matching the metadata values between items (metadata names are always matched case insensitive). Possible values are `CaseSensitive`, `CaseInsensitive`, or `PathLike`. The default value is `CaseSensitive`.
 
-`PathLike` applies path aware normalization to the values like normalizing slash orientations, ignoring trailing slashes, eliminating `.` and `..`, and making all relative paths absolute against the current directory.
+`PathLike` applies path-aware normalization to the values like normalizing slash orientations, ignoring trailing slashes, eliminating `.` and `..`, and making all relative paths absolute against the current directory.
 
 ### <a name="BKMK_KeepMetadata"></a> KeepMetadata attribute
 
@@ -354,7 +354,7 @@ For more operations on items, see [MSBuild item functions](item-functions.md).
 
  If an item is generated within a target, the item element can contain the `KeepDuplicates` attribute. `KeepDuplicates` is a `Boolean` attribute that specifies whether an item should be added to the target group if the item is an exact duplicate of an existing item.
 
- If the source and target item have the same Include value but different metadata, the item is added even if `KeepDuplicates` is set to `false`. An empty value for this attribute is equivalent to not specifying it. The `KeepDuplicates` attribute was introduced in the .NET Framework 4.5.
+ If the source and target item have the same `Include` value but different metadata, the item is added even if `KeepDuplicates` is set to `false`. An empty value for this attribute is equivalent to not specifying it. The `KeepDuplicates` attribute was introduced in the .NET Framework 4.5.
 
  The following example illustrates how to use the `KeepDuplicates` attribute.
 
@@ -550,14 +550,14 @@ Item1: notebook
 ```
 
 Remarks:
-- Unqualified metadata (%(M)) binds to the item type being updated (`Item1` in above example). Qualified metadata (`%(Item2.Color)`) binds inside the set of captured matching item types from the Update expression.
+- Unqualified metadata (`%(MetadataName)`) binds to the item type being updated (`Item1` in above example). Qualified metadata (`%(Item2.Color)`) binds inside the set of captured matching item types from the Update expression.
 - If an item matches multiple times within and between multiple referenced items:
   - The last occurrence from each referenced item type gets captured (so one captured item per item type).
   - This matches the behavior of task item batching under targets.
 - Where one can put %() references:
   - Metadata
   - Metadata conditions
-- Metadata name matching is case insensitive.
+- Metadata name matching is case-insensitive.
 
 ## Updating metadata on items in an ItemGroup of a Target
 
