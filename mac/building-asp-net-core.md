@@ -1,14 +1,16 @@
 ---
 title: "Building ASP.NET Core applications"
 description: "This article walks you through creating and exploring ASP.NET Core applications with Visual Studio for Mac."
-author: sayedihashimi
-ms.author: sayedha
+author: heiligerdankgesang 
+ms.author: dominicn
+manager: dominicn
 ms.date: 05/30/2019
 ms.assetid: 771C2F8E-46BC-4280-AFE8-ED9D5C7790CE
 ms.topic: how-to
 ---
-
 # Building ASP.NET Core applications in Visual Studio for Mac
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 ASP.NET Core is an open-source and cross-platform framework for building modern cloud-based internet connected applications, such as web apps and services, IoT apps, and mobile backends. ASP.NET Core apps can run on [.NET Core](https://www.microsoft.com/net/core/platform) or on the .NET Framework runtimes. It was architected to provide an optimized development framework for apps that are deployed to the cloud or run on-premises. It consists of modular components with minimal overhead, so you retain flexibility while constructing your solutions. You can develop and run your ASP.NET Core apps cross-platform on Windows, Mac, and Linux. ASP.NET Core is open source at [GitHub](https://github.com/aspnet/home).
 
@@ -35,7 +37,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 2. Select **File > New Solution**.
 
-3. Select the **.NET Core > App** category and the **ASP.NET Core Web App (C#)** template. Click **Next**.
+3. Select the **.NET Core > App** category and the **ASP.NET Core Web App Model-View-Controller (C#)** template. Click **Next**.
 
     ![Screenshot showing how to select a Web Application template for your new project.](media/netcore-image1.png)
 

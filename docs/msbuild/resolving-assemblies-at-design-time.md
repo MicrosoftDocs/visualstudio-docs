@@ -1,7 +1,6 @@
 ---
 title: Resolving Assemblies at Design Time | Microsoft Docs
 description: Learn how MSBuild resolves references to assemblies at design time by using reference assemblies in the targeting pack.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -37,4 +36,4 @@ When you add a reference to an assembly through the **.NET** tab of the **Add Re
  The targeting pack that now ships with the .NET Framework SDK includes a list of all of the runtime assemblies in that version of the Framework, called the redistribution (redist) list, making it impossible for the build system to resolve types against the wrong version of the assembly.
 
 ## See also
-- [Advanced concepts](../msbuild/msbuild-advanced-concepts.md)
+- [MSBuild multitargeting](../msbuild/msbuild-multitargeting-overview.md)

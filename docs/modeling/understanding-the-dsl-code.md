@@ -1,7 +1,6 @@
 ---
 title: Understanding the DSL Code
 description: Learn how the Domain-Specific Language (DSL) solution generates an API that you can use to read and update instances of the DSL in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -14,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # Understanding the DSL Code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A Domain-Specific Language (DSL) solution generates an API that you can use to read and update instances of the DSL in Visual Studio. This API is defined in the code that is generated from the DSL definition. This topic describes the generated API.
 

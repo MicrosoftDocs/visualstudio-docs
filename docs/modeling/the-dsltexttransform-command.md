@@ -1,7 +1,6 @@
 ---
 title: The DslTextTransform Command
 description: Learn that DslTextTransform.cmd is a script that calls TextTransform.exe and runs it with common options.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -14,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # The DslTextTransform Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 DslTextTransform.cmd is a script that calls TextTransform.exe and runs it with common options. You can use DslTextTransformation.cmd to automate a nightly build of your [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] projects. For more information, see [Generating Files with the TextTransform Utility](../modeling/generating-files-with-the-texttransform-utility.md).
 
  DslTextTransform.cmd is located in the following directory:

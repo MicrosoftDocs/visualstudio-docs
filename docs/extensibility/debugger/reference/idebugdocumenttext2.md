@@ -8,14 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocumentText2 interface
 ms.assetid: e85f50a3-211c-4220-a9f4-789950ba2782
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # IDebugDocumentText2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a text document.
 
 ## Syntax

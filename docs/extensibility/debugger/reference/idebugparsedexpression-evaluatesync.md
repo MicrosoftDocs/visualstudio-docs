@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugParsedExpression::EvaluateSync method
 ms.assetid: 0ea04cfa-de87-4b6c-897e-4572c1a28942
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,22 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugParsedExpression::EvaluateSync
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method evaluates the parsed expression and optionally casts the result to another data type.
 
 ## Syntax
 
-```cpp
-HRESULT EvaluateSync( 
-   DWORD                 dwEvalFlags,
-   DWORD                 dwTimeout,
-   IDebugSymbolProvider* pSymbolProvider,
-   IDebugAddress*        pAddress,
-   IDebugBinder*         pBinder,
-   BSTR                  bstrResultType,
-   IDebugProperty2**     ppResult
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EvaluateSync(
    uint                 dwEvalFlags,
@@ -46,6 +37,19 @@ int EvaluateSync(
    out IDebugProperty2  ppResult
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EvaluateSync( 
+   DWORD                 dwEvalFlags,
+   DWORD                 dwTimeout,
+   IDebugSymbolProvider* pSymbolProvider,
+   IDebugAddress*        pAddress,
+   IDebugBinder*         pBinder,
+   BSTR                  bstrResultType,
+   IDebugProperty2**     ppResult
+);
+```
+---
 
 ## Parameters
 `dwEvalFlags`\

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - DISASSEMBLY_FLAGS enumeration
 ms.assetid: c1ec5a4d-5d42-4660-932c-7348550140cb
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,24 @@ dev_langs:
 - CSharp
 ---
 # DISASSEMBLY_FLAGS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the flags for disassembly.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_DISASSEMBLY_FLAGS {
+    DF_DOCUMENTCHANGE     = 0x00000001,
+    DF_DISABLED           = 0x00000002,
+    DF_INSTRUCTION_ACTIVE = 0x00000004,
+    DF_DATA               = 0x00000008,
+    DF_HASSOURCE          = 0x00000010,
+    DF_DOCUMENT_CHECKSUM  = 0x00000020
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_DISASSEMBLY_FLAGS {
     DF_DOCUMENTCHANGE     = 0x00000001,
@@ -34,17 +48,7 @@ enum enum_DISASSEMBLY_FLAGS {
 };
 typedef DWORD DISASSEMBLY_FLAGS;
 ```
-
-```csharp
-public enum enum_DISASSEMBLY_FLAGS {
-    DF_DOCUMENTCHANGE     = 0x00000001,
-    DF_DISABLED           = 0x00000002,
-    DF_INSTRUCTION_ACTIVE = 0x00000004,
-    DF_DATA               = 0x00000008,
-    DF_HASSOURCE          = 0x00000010,
-    DF_DOCUMENT_CHECKSUM  = 0x00000020
-};
-```
+---
 
 ## Fields
 `DF_DOCUMENTCHANGE`\

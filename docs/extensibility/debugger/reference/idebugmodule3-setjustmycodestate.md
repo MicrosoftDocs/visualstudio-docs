@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugModule3::SetJustMyCodeState
 ms.assetid: 68f8166d-ef64-49ae-ad5e-79604f43bbd4
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugModule3::SetJustMyCodeState
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Marks the module as being user code or not.
 
 ## Syntax
 
-```cpp
-HRESULT SetJustMyCodeState(
-   BOOL fIsUserCode
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetJustMyCodeState(
    int fIsUserCode
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetJustMyCodeState(
+   BOOL fIsUserCode
+);
+```
+---
 
 ## Parameters
 `fIsUserCode`\

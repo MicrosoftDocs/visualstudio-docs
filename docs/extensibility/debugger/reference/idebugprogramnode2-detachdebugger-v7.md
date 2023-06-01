@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramNode2::DetachDebugger
 - IDebugProgramNode2::DetachDebugger_V7
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,20 +20,24 @@ dev_langs:
 ---
 # IDebugProgramNode2::DetachDebugger_V7
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 > [!Note]
 > DEPRECATED. DO NOT USE.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int DetachDebugger_V7 ();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT DetachDebugger_V7 (
    void 
 );
 ```
-
-```csharp
-int DetachDebugger_V7 ();
-```
+---
 
 ## Return Value
 

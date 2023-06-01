@@ -1,7 +1,7 @@
 ---
-description: "Starting in Visual Studio 2019 version 16.8, you can use the Publish tool to publish .NET Core 3.1, or newer, Windows Desktop applications using ClickOnce from Visual Studio."
 title: Deploy a .NET Windows Desktop application using ClickOnce
-ms.date: 10/15/2020
+description: "Starting in Visual Studio 2019 version 16.8, you can use the Publish tool to publish .NET Core 3.1 or later Windows Desktop applications using ClickOnce from Visual Studio."
+ms.date: 09/26/2022
 ms.topic: quickstart
 helpviewer_keywords:
   - "deployment, local folder, ClickOnce"
@@ -16,7 +16,9 @@ ms.workload:
 ---
 # Deploy a .NET Windows desktop application using ClickOnce
 
-Starting in Visual Studio 2019 version 16.8, you can use the **Publish** tool to publish .NET Core 3.1, or newer, Windows Desktop applications using ClickOnce from Visual Studio.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+Starting in Visual Studio 2019 version 16.8, you can use the **Publish** tool to publish .NET Core 3.1, .NET 5, or newer, Windows Desktop applications using ClickOnce from Visual Studio.
 
 > [!NOTE]
 > If you need to publish a .NET Framework Windows application, see [Deploy a desktop app using ClickOnce](how-to-publish-a-clickonce-application-using-the-publish-wizard.md) (C# or Visual Basic).
@@ -55,12 +57,12 @@ Starting in Visual Studio 2019 version 16.8, you can use the **Publish** tool to
 
     ![Choose the publish settings](../deployment/media/quickstart-clickonce-settings.png "Choose the publish settings")
 
-Included on this page is the ability to specify which **Application Files** to include in the setup, which **Prerequisites** packages to install, and other **Options** via the links at the top of the page.
+   Included on this page is the ability to specify which **Application Files** to include in the setup, which **Prerequisites** packages to install, and other **Options** via the links at the top of the page.
 
-Also in this page, you can also set the Publish version and if the version will automatically increment with each publish.
+   Also in this page, you can also set the Publish version and if the version will automatically increment with each publish.
 
-> [!NOTE]
-> The Publish version number is unique for each ClickOnce profile. If you plan on having more then one profile, you will need to keep this in mind.
+   > [!NOTE]
+   > The Publish version number is unique for each ClickOnce profile. If you plan on having more than one profile, you will need to keep this in mind.
 
 10. In the **Sign manifests** page, you can specify if the manifests should be signed and which certificate to use.
 
@@ -88,5 +90,6 @@ Also in this page, you can also set the Publish version and if the version will 
 
 For .NET apps:
 
-- [Deploy the .NET Framework and applications](/dotnet/framework/deployment/)
+- [ClickOnce for .NET on Windows](clickonce-deployment-dotnet.md)
+- [.NET application publishing overview](/dotnet/core/deploying/)
 - [ClickOnce reference](clickonce-reference.md)

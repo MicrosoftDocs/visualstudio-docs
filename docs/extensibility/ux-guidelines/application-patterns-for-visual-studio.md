@@ -1,18 +1,19 @@
 ---
 title: Application Patterns for Visual Studio | Microsoft Docs
 description: Learn about the difference between document windows, tool windows, and modeless dialogs, including window usage patterns for new features for Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 04/26/2017
 ms.topic: reference
 ms.assetid: 8ed68602-4e28-46fe-b39f-f41979b308a2
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Application Patterns for Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_WindowInteractions"></a> Window interactions
 
 ### Overview
@@ -125,22 +126,9 @@ Examples of navigable list tool windows are the Solution Explorer and the Find R
 
 **Other tool windows**
 
-::: moniker range="vs-2017"
-
 | Tool window | Function |
 | --- | --- |
 | Toolbox | The tool window used to store elements that will be dropped onto design surfaces, providing a consistent drag-source for all designers. |
-| Start Page | The user's portal to Visual Studio, with access to feeds of developer news, Visual Studio help, and recent projects. Users can also create custom start pages by copying the StartPage.xaml file from the "Common7\IDE\StartPages\" Visual Studio program files directory to the StartPages folder in the Visual Studio documents directory, and then either editing the XAML by hand or opening it in Visual Studio or another code editor. |
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-| Tool window | Function |
-| --- | --- |
-| Toolbox | The tool window used to store elements that will be dropped onto design surfaces, providing a consistent drag-source for all designers. |
-
-::: moniker-end
 
 **Debugger tool windows**
 

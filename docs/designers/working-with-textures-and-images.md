@@ -1,7 +1,6 @@
 ---
 title: Working with Textures and Images
 description: Learn to use the Image Editor in Visual Studio to create and modify textures and images in formats like those that are used in DirectX app development.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: b9fbc8fa-66d1-4055-8460-24d8b8fbe43e
@@ -13,6 +12,8 @@ ms.workload:
 - multiple
 ---
 # Work with textures and images
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the Image Editor in Visual Studio to create and modify textures and images. The Image Editor supports rich texture and image formats like those that are used in DirectX app development.
 

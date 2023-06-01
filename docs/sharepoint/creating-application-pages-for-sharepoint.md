@@ -1,7 +1,6 @@
 ---
 title: "Creating Application Pages for SharePoint | Microsoft Docs"
 description: Create application pages for SharePoint. An application page is an ASP.NET web page that's designed for use in a SharePoint website.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -21,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # Create application pages for SharePoint
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   An *application page* is an ASP.NET Web page that is designed for use in a SharePoint Web site. Application pages are a specialized type of ASP.NET page. The primary difference between an application page and a standard ASP.NET page is that an application page contains content that is merged with a SharePoint master page. A master page enables application pages to share the same appearance and behavior as other pages on a site.
 
  Visual Studio enables you to design application pages by using a designer. The designer displays a content area for each content placeholder that is defined in a master page. You can design the application page by dragging controls to these content areas.

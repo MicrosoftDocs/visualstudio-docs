@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProperty2::SetValueAsReference method
 ms.assetid: 341b1b89-4ab8-4e1c-abe2-fb955df5c6b0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty2::SetValueAsReference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the value of this property to the value of the given reference.
 
 ## Syntax
 
-```cpp
-HRESULT SetValueAsReference(
-   IDebugReference2** rgpArgs,
-   DWORD              dwArgCount,
-   IDebugReference2*  pValue,
-   DWORD              dwTimeout
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetValueAsReference(
    IDebugReference2[] rgpArgs,
@@ -40,6 +34,16 @@ int SetValueAsReference(
    uint               dwTimeout
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetValueAsReference(
+   IDebugReference2** rgpArgs,
+   DWORD              dwArgCount,
+   IDebugReference2*  pValue,
+   DWORD              dwTimeout
+);
+```
+---
 
 ## Parameters
 `rgpArgs`\

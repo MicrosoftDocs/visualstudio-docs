@@ -1,7 +1,6 @@
 ---
 title: Share models and exporting diagrams
 description: Learn how you can use Visual Studio to create and edit models, dependency diagrams, and directed graphs.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,6 +14,8 @@ ms.workload:
 - multiple
 ---
 # Share models and exporting diagrams
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Visual Studio, you can share models and diagrams with colleagues in several ways.
 
  To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../ide/class-designer/how-to-add-class-diagrams-to-projects.md).

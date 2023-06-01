@@ -1,7 +1,6 @@
 ---
 title: Best Practices for Using Code Snippets
 description: Learn about code snippets, what the intent of a code snippet is, and how best to use them to suit your application. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,6 +14,8 @@ ms.workload:
 - multiple
 ---
 # Best practices for using code snippets
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The code in a code snippet shows only the most basic way to do something. For most applications, the code must be modified to suit the application.
 

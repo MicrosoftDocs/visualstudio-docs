@@ -7,8 +7,8 @@ f1_keywords:
 - PROCESS_INFO_FLAGS
 helpviewer_keywords:
 - PROCESS_INFO_FLAGS enumeration
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,22 @@ dev_langs:
 ---
 # PROCESS_INFO_FLAGS
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Describes or specifies properties of a process.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+enum enum_PROCESS_INFO_FLAGS { 
+   PIFLAG_SYSTEM_PROCESS    = 0x00000001,
+   PIFLAG_DEBUGGER_ATTACHED = 0x00000002,
+   PIFLAG_PROCESS_STOPPED   = 0x00000004,
+   PIFLAG_PROCESS_RUNNING   = 0x00000008,
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_PROCESS_INFO_FLAGS { 
    PIFLAG_SYSTEM_PROCESS    = 0x00000001,
@@ -32,15 +44,7 @@ enum enum_PROCESS_INFO_FLAGS { 
 };
 typedef DWORD PROCESS_INFO_FLAGS;
 ```
-
-```csharp
-enum enum_PROCESS_INFO_FLAGS { 
-   PIFLAG_SYSTEM_PROCESS    = 0x00000001,
-   PIFLAG_DEBUGGER_ATTACHED = 0x00000002,
-   PIFLAG_PROCESS_STOPPED   = 0x00000004,
-   PIFLAG_PROCESS_RUNNING   = 0x00000008,
-};
-```
+---
 
 ## Fields
 

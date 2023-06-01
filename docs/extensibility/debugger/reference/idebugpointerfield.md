@@ -8,14 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPointerField interface
 ms.assetid: d51bd5b2-f18e-4e27-b4fb-e6f652fbf635
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # IDebugPointerField
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a pointer type.
 
 ## Syntax

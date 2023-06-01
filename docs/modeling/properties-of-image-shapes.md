@@ -1,7 +1,6 @@
 ---
 title: Properties of Image Shapes
 description: Learn about about image shapes and how you can use image shapes to specify how domain classes appear in a generated designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -17,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # Properties of Image Shapes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use image shapes to specify how domain classes appear in a generated designer. Define an image shape by setting the `Image` property of the class to a predefined image file. The following formats are supported:
 

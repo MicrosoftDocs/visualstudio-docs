@@ -1,21 +1,22 @@
 ---
 title: Reformatting Code in a Legacy Language Service | Microsoft Docs
 description: Learn about enabling support for source code reformatting for a Visual Studio legacy language service.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - reformatting code, supporting in language services [managed package framework]
 - language services [managed package framework], reformatting code
 ms.assetid: 08bb3375-8fef-4f4e-9efa-0d7333bab0eb
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Reformatting Code in a Legacy Language Service
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] source code can be reformatted by normalizing the use of indentations and whitespace. This can include inserting or removing spaces or tabs at the beginning of each line, adding new lines between lines, or replacing spaces with tabs or tabs with spaces.
 

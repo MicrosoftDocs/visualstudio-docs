@@ -2,7 +2,6 @@
 title: Configure Code Analysis
 ms.date: 04/04/2018
 description: Learn how to configure the rule set that Visual Studio legacy code analysis uses. See how to apply a rule set to one or multiple projects in a solution.
-ms.custom: SEO-VS-2020
 ms.topic: how-to
 f1_keywords:
   - vs.codeanalysis.propertypages.csvb
@@ -24,6 +23,8 @@ ms.workload:
 ---
 # How to: Configure legacy analysis for managed code
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In Visual Studio, you can choose from a list of code analysis [rule sets](../code-quality/rule-set-reference.md) to apply to a managed code project. By default, the **Microsoft Minimum Recommended Rules** rule set is selected, but you can apply a different rule set if desired. Rule sets can be applied to one or multiple projects in a solution.
 
 > [!NOTE]
@@ -39,34 +40,14 @@ In Visual Studio, you can choose from a list of code analysis [rule sets](../cod
 
 2. In the **Configuration** and **Platform** lists, choose the build configuration and target platform.
 
-::: moniker range="vs-2017"
-
-3. To run code analysis every time the project is built using the selected configuration, select **Enable Code Analysis on Build**. You can also run code analysis manually by selecting **Analyze** > **Run Code Analysis** > **Run Code Analysis on \<projectname>**.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 3. To run code analysis every time the project is built using the selected configuration, select **Run on build** in the **Binary analyzers** section. You can also run legacy code analysis manually, see [How to: Run Legacy Code Analysis Manually for Managed Code](how-to-run-legacy-code-analysis-manually-for-managed-code.md) for more details.
-
-::: moniker-end
 
 4. To view warnings from generated code, clear the **Suppress results from generated code** check box.
 
     > [!NOTE]
     > This option does not suppress code analysis errors and warnings from generated code when the errors and warnings appear in forms and templates. You can both view and maintain the source code for a form or a template, and it won't be overwritten.
 
-::: moniker range="vs-2017"
-
-5. In the **Run this rule set** list, do one of the following:
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 5. In the **Active rules** list, do one of the following:
-
-::: moniker-end
 
    - Select the rule set that you want to use.
 

@@ -1,7 +1,6 @@
 ---
 title: "Changes required for Office projects migrated to .NET 4.5"
 description: Learn the changes you need to make to your project if the target framework changes to the .NET Framework 4 or later from an earlier version of the .NET Framework.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -18,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # Changes required for Office projects migrated to .NET 4.5
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
   If the target framework of an Office project is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later from an earlier version of the .NET Framework, you must perform the following tasks to ensure that the solution can run on the development computer and on end-user computers:
 
@@ -47,13 +48,16 @@ ms.workload:
 
 3. Locate the <xref:System.Security.SecurityTransparentAttribute> and either remove it from the file or comment it out.
 
-    ```vb
-    <Assembly: SecurityTransparent()>
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     [assembly: SecurityTransparent()]
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    <Assembly: SecurityTransparent()>
+    ```
+    ---
 
 ## Perform the clean command to debug or run a project on the development computer
  If an Office project was built before the target framework of the project is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must perform a **Clean** command and then rebuild the project after the target framework is changed. If do not perform a **Clean** command, you will receive a <xref:System.Runtime.InteropServices.COMException> when you try to debug or run the retargeted project.

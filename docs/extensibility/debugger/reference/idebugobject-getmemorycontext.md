@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugObject::GetMemoryContext method
 ms.assetid: 6760a0d3-a898-4e81-b68f-c45c584b225b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject::GetMemoryContext
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the memory context that represents the address of the value of the object.
 
 ## Syntax
 
-```cpp
-HRESULT GetMemoryContext( 
-   IDebugMemoryContext2** pContext
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMemoryContext(
    ref IDebugMemoryContext2 pContext
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMemoryContext( 
+   IDebugMemoryContext2** pContext
+);
+```
+---
 
 ## Parameters
 `pContext`\

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - BP_LOCATION_CODE_FILE_LINE structure
 ms.assetid: 3ff32032-d412-44d3-91bf-870cc354a09e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,6 +18,8 @@ dev_langs:
 - CPP
 ---
 # BP_LOCATION_CODE_FILE_LINE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains the data for the location of a breakpoint at a specific line in a code source file.
 
 ## Syntax

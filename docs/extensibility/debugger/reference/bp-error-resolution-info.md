@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - BP_ERROR_RESOLUTION_INFO structure
 ms.assetid: a6b83242-5728-4716-80f3-840c96d59c6c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,13 @@ dev_langs:
 - CSharp
 ---
 # BP_ERROR_RESOLUTION_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the resolution of an error breakpoint, including location, program, and thread.
 
 ## Syntax
 
-```cpp
-typedef struct _BP_ERROR_RESOLUTION_INFO {
-    BPERESI_FIELDS         dwFields;
-    BP_RESOLUTION_LOCATION bpResLocation;
-    IDebugProgram2*        pProgram;
-    IDebugThread2*         pThread;
-    BSTR                   bstrMessage;
-    BP_ERROR_TYPE          dwType;
-} BP_ERROR_RESOLUTION_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct BP_ERROR_RESOLUTION_INFO {
     public uint                   dwFields;
@@ -44,6 +36,18 @@ public struct BP_ERROR_RESOLUTION_INFO {
     public uint                   dwType;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _BP_ERROR_RESOLUTION_INFO {
+    BPERESI_FIELDS         dwFields;
+    BP_RESOLUTION_LOCATION bpResLocation;
+    IDebugProgram2*        pProgram;
+    IDebugThread2*         pThread;
+    BSTR                   bstrMessage;
+    BP_ERROR_TYPE          dwType;
+} BP_ERROR_RESOLUTION_INFO;
+```
+---
 
 ## Members
 `dwFields`\

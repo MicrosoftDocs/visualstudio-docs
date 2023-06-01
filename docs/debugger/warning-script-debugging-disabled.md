@@ -1,7 +1,6 @@
 ---
 title: "Warning: Script Debugging Disabled | Microsoft Docs"
 description: A "Script Debugging Disabled" warning occurs when you try to debug script without enabling script debugging in Internet Explorer. See the steps to enable it.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -20,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # Warning: Script Debugging Disabled
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Script Debugging is currently disabled in Internet Explorer
 
  This warning occurs when you try to debug script without enabling script debugging in Internet Explorer. For security reasons, Internet Explorer disables script debugging by default.

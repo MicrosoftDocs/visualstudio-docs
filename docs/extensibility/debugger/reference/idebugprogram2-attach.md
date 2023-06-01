@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgram2::Attach
 ms.assetid: de069fbf-a565-4905-b102-f5658c55aacd
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram2::Attach
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Attaches to the program.
 
 ## Syntax
 
-```cpp
-HRESULT Attach( 
-   IDebugEventCallback2* pCallback
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Attach( 
    IDebugEventCallback2 pCallback
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Attach( 
+   IDebugEventCallback2* pCallback
+);
+```
+---
 
 ## Parameters
 `pCallback`\

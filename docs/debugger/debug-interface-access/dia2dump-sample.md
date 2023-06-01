@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Dia2dump Sample
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Dia2dump sample shows how to use the Microsoft Debug Interface Access Software Development Kit (DIA SDK) to query a PDB file for information.
 
 The Dia2dump sample is installed with Visual Studio and contains the solution and source files. The compiled executable runs from the command line. It can display the contents of an entire program database (.pdb) file, or just the sections you're interested in.
@@ -56,7 +58,7 @@ By default, the installation directory is a protected directory. That means you 
 
 1. In a Developer command prompt window, change to the directory where you copied the sample files. If you didn't copy the sample to another directory, you must use an elevated (run as administrator) Developer command prompt window.
 
-1. Enter the command `nmake makefile` to build the default Debug configuration of dia2dump.exe.
+1. Enter the command `nmake all` to build the default Debug configuration of dia2dump.exe.
 
 ## Run the Dia2Dump sample
 

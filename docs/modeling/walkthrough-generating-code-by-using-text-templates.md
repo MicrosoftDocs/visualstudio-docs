@@ -1,7 +1,6 @@
 ---
 title: 'Walkthrough: Generating Code by using Text Templates'
 description: Learn that code generation allows you to produce program code that is strongly typed, and yet can be easily changed when the source model changes.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -15,6 +14,8 @@ ms.workload:
 - multiple
 ---
 # Walkthrough: Generate Code by using Text Templates
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Code generation allows you to produce program code that is strongly typed, and yet can be easily changed when the source model changes. Contrast this with the alternative technique of writing a completely generic program that accepts a configuration file, which is more flexible, but results in code that is neither so easy to read and change, nor has such good performance. This walkthrough demonstrates this benefit.
 

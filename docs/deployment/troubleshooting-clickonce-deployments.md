@@ -1,9 +1,8 @@
 ---
 title: Troubleshooting ClickOnce Deployments | Microsoft Docs
 description: Use this article to help you diagnose and resolve the most common issues with ClickOnce deployments.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: troubleshooting
+ms.topic: conceptual
 dev_langs: 
   - VB
   - CSharp
@@ -23,6 +22,8 @@ ms.workload:
   - multiple
 ---
 # Troubleshoot ClickOnce deployments
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This topic helps you diagnose and resolve the most common issues with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments.
 
  In most cases, a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application will download to a user's computer and run without any problems. There are some cases, however, where Web server or application configuration issues can cause unforeseen problems.

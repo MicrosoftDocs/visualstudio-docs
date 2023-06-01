@@ -1,7 +1,6 @@
 ---
 title: "&lt;deployment&gt; Element (ClickOnce Deployment) | Microsoft Docs"
 description: The deployment element identifies the attributes used for the deployment of updates and exposure to the system.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -26,6 +25,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;deployment&gt; element (ClickOnce deployment)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Identifies the attributes used for the deployment of updates and exposure to the system.
 
 ## Syntax
@@ -101,6 +102,8 @@ Identifies the attributes used for the deployment of updates and exposure to the
  You can configure your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application to scan for updates on startup, scan for updates after startup, or never check for updates. To scan for updates on startup, ensure that the `beforeApplicationStartup` element exists under the `update` element. To scan for updates after startup, ensure that the `expiration` element exists under the `update` element, and that update intervals are provided.
 
  To disable checking for updates, remove the `subscription` element. When you specify in the deployment manifest to never scan for updates, you can still manually check for updates by using the <xref:System.Deployment.Application.ApplicationDeployment.CheckForUpdate%2A> method.
+
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
 
  For more information on how deploymentProvider relates to updates, see [Choosing a ClickOnce Update Strategy](../deployment/choosing-a-clickonce-update-strategy.md).
 

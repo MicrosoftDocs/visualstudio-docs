@@ -1,7 +1,6 @@
 ---
 title: IDE-Defined Commands, Menus, and Groups | Microsoft Docs
 description: Learn about the menus, commands, and command groups, that are defined in the Visual Studio integrated development environment (IDE).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,14 +8,16 @@ helpviewer_keywords:
 - .vsct files, environment-defined constants
 - command groups, environment-defined
 ms.assetid: 86b3af13-7163-48c6-986b-7beeedbc26cc
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # IDE-Defined Commands, Menus, and Groups
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Many menus, commands and command groups are already defined for use by the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE. These commands are also available for your use when you extend [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
 
 ## Finding Environment-Defined Commands

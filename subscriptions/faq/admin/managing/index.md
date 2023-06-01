@@ -4,8 +4,8 @@ description: FAQs list for Managing Visual Studio Subscriptions.
 ms.faqid: Section1
 ms.topic: conceptual
 ms.assetid: 933c7f9e-dce9-46e7-939e-68682c65d972
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 01/27/2021
 ---
 

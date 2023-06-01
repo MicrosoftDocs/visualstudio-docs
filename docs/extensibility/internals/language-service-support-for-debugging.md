@@ -1,21 +1,22 @@
 ---
 title: Language Service Support for Debugging | Microsoft Docs
 description: Learn about language service features in the IVsLanguageDebugInfo interface that provide support for debugging in Visual Studio. 
-ms.custom: SEO-VS-2020 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugger, language support
 - language services, debugging support
 ms.assetid: 7a44067f-a410-4a6a-84d2-bda5184140bc
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Language Service Support for Debugging
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A language service can provide features that support a debugger through the <xref:Microsoft.VisualStudio.TextManager.Interop.IVsLanguageDebugInfo> interface. These features include validating breakpoints and supplying a list of expressions to the **Autos** window.
 
  However, you need to have an expression evaluator to debug your language. The expression evaluator is responsible for evaluating expressions to produce values while debugging. For information about implementing CLR expression evaluators, please see:

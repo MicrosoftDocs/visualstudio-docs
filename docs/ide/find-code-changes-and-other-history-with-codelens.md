@@ -1,8 +1,7 @@
 ---
 title: Find code changes and other history with CodeLens
 description: Learn about CodeLens and how to use it explore the history of your code without having to leave the editor.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 05/05/2022
 ms.topic: conceptual
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.All_Languages.CodeLens
@@ -15,21 +14,13 @@ ms.workload:
 ---
 # Find code changes and other history with CodeLens
 
-CodeLens lets you stay focused on your work while you find out what happened to your code&ndash;without leaving the editor. You can find references to a piece of code, changes to your code, linked bugs, work items, code reviews, and unit tests.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-::: moniker range=">=vs-2019"
+CodeLens lets you stay focused on your work while you find out what happened to your code&ndash;without leaving the editor. You can find references to a piece of code, changes to your code, linked bugs, work items, code reviews, and unit tests.
 
 > [!NOTE]
 > CodeLens is available in Visual Studio Community edition, however, the *source control* indicators are not available in this edition.
 
-::: moniker-end
-
-::: moniker range="vs-2017"
-
-> [!NOTE]
-> CodeLens is available only in Visual Studio Enterprise and Professional editions. It is not available in Visual Studio Community edition.
-
-::: moniker-end
 
 See where and how the individual parts of your code are used in your solution:
 
@@ -74,7 +65,7 @@ You need:
 
 - Azure DevOps Services, Team Foundation Server 2013 or later, or Git
 
-- [Skype for Business](/skypeforbusiness/) to contact your team from the code editor
+- [Microsoft Teams](/MicrosoftTeams/) or [Skype for Business](/skypeforbusiness/) to contact your team from the code editor
 
 For C# or Visual Basic code that's stored with Team Foundation Version Control (TFVC) or Git, you get CodeLens details at the class and method levels (*code element-level* indicators). If your Git repository is hosted in TfGit, you also get links to TFS work items.
 
@@ -115,7 +106,7 @@ Find changes for an entire file in the file-level indicators at the bottom of th
 > [!NOTE]
 > File-level indicators are not available for C# and Visual Basic files.
 
-To get more details about a change, right-click that item. Depending on whether you are using TFVC or Git, there are options to compare the versions of the file, view details and track the changeset, get the selected version of the file, and email the author of that change. Some of these details appear in **Team Explorer**.
+To get more details about a change, right-click that item. Depending on whether you are using TFVC or Git, there are options to compare the versions of the file, view details and track the changeset, get the selected version of the file, and email the author of that change. Some of these details appear in **Team Explorer** in Visual Studio 2019 [version 16.7](/visualstudio/releases/2019/release-notes-v16.7#whats-new-in-visual-studio-2019-version-167/) and earlier. In Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes-v16.8#whats-new-in-visual-studio-2019-version-168/) and later, these details will appear in **Git Changes**.
 
 You can also see who changed your code over time. This can help you find patterns in your team's changes and assess their impact.
 
@@ -204,7 +195,7 @@ Find the author of an item by selecting the **authors** indicator or by pressing
 
 ![Contact the owner of an item](../ide/media/codelens-contact-item-owner.png)
 
-Open the shortcut menu for an item to see the contact options. If you have Lync or Skype for Business installed, you see these options:
+Open the shortcut menu for an item to see the contact options. If you have Lync, Skype for Business, or Teams installed, you see options similar to those in the following screenshot:
 
 ![Contact options for an item](../ide/media/codelens-item-contact-menu.png)
 
@@ -269,23 +260,15 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 
 - Unit test indicators don't appear when application code doesn't have unit tests. Test status indicators appear automatically in test projects. If you know that your application code has unit tests, but the test indicators don't appear, try building the solution (**Ctrl**+**Shift**+**B**).
 
-::: moniker range=">=vs-2019"
-
 > [!TIP]
 > CodeLens is available in Visual Studio Community edition, however, the *source control* indicators are not available in this edition.
 
-::: moniker-end
-
-::: moniker range="vs-2017"
-
-> [!TIP]
-> CodeLens is not available in Visual Studio Community edition.
-
-::: moniker-end
 
 ### Q: Why don't I see the work item details for a commit?
 
 **A:** This might happen because CodeLens can't find the work items in Azure Boards or TFS. Check that you're connected to the project that has those work items, and that you have permissions to see those work items. Work item details might also not show if the commit description has incorrect information about the work item IDs in Azure Boards or TFS.
+
+::: moniker range="<=vs-2019"
 
 ### Q: Why don't I see the Skype indicators?
 
@@ -300,6 +283,8 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 - Lync 2010 or later alone (32-bit or 64-bit), but not Lync Basic 2013 with Windows 8.1
 
 CodeLens doesn't support having different versions of Lync or Skype installed. They might not be localized for all localized versions of Visual Studio.
+
+::: moniker-end
 
 ### Q: How do I change the font and color for CodeLens?
 

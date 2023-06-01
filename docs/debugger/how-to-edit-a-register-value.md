@@ -1,7 +1,6 @@
 ---
 title: Edit a Register Value | Microsoft Docs
 description: Learn how to modify the contents of a register by editing its value in the Registers window (available only if address-level debugging is enabled).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -20,6 +19,8 @@ ms.workload:
   - multiple
 ---
 # How to: Edit a Register Value (C++)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Registers window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node.
 

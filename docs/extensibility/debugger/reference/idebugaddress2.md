@@ -8,14 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugAddress2 interface
 ms.assetid: b150e0ed-4ac0-4f8c-9732-4b3e54b9d243
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # IDebugAddress2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface provides access to the ID of the process that owns the object whose address is represented by this interface.
 
 ## Syntax

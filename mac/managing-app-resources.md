@@ -1,14 +1,16 @@
 ---
-title: "Managing app Resources"
+title: "Managing Xamarin app resources"
 description: "This article links to various guides that describe how to manage app resources for a variety of platforms in Visual Studio for Mac"
-author: heiligerdankgesang
+author: heiligerdankgesang 
 ms.author: dominicn
+manager: dominicn
 ms.date: 05/06/2018
 ms.assetid: 61EAAB8F-3C32-4574-924F-CFC616604089
 ms.topic: overview
 ---
-
 # Managing app resources
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 App resource files, such as images, text files, and audio files, are necessary to your application but aren't compiled with the application. Each platform supported by Visual Studio for Mac handles these resources in different ways, as explained in the following guides:
 

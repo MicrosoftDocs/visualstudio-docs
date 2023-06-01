@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugSymbolProvider::GetLanguage method
 ms.assetid: e4142183-3d8b-418f-907f-4ee4c753d8ce
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProvider::GetLanguage
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the language that was used to compile the code at the debug address.
 
 ## Syntax
 
-```cpp
-HRESULT GetLanguage( 
-   IDebugAddress* pAddress,
-   GUID*          pguidLanguage,
-   GUID*          pguidLanguageVendor
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetLanguage(
    IDebugAddress pAddress,
@@ -38,6 +33,15 @@ int GetLanguage(
    out Guid      pguidLanguageVendor
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetLanguage( 
+   IDebugAddress* pAddress,
+   GUID*          pguidLanguage,
+   GUID*          pguidLanguageVendor
+);
+```
+---
 
 ## Parameters
 `pAddress`\

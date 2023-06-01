@@ -1,7 +1,6 @@
 ---
 title: Customizing Tools and the Toolbox
 description: Learn how you must define toolbox items for the elements that you want to let users add to their models.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # Customizing Tools and the Toolbox
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You must define toolbox items for the elements that you want to let users add to their models. There are two kinds of tools: element tools and connection tools. In the generated designer, a user can select an element tool to drag shapes to the diagram, and can select a connection tool to draw links between the shapes. In general, element tools let users add instances of domain classes to their models, and connection tools let them add instances of domain relationships.
 

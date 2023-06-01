@@ -1,9 +1,8 @@
 ---
 title: "Resolve Ambiguity Dialog Box | Microsoft Docs"
 description: Review Visual Studio's Resolve Ambiguity dialog box, which appears when the debugger cannot choose the location to display.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.Disambig"
 dev_langs:
@@ -24,6 +23,8 @@ ms.workload:
   - "multiple"
 ---
 # Resolve Ambiguity Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `Resolve Ambiguity` dialog box appears when the debugger cannot choose the location to display. For example, if you are using C++ templates, you can create multiple functions from a single function template. If the debugger stops at a source location in the template, and you choose `Go To Disassembly`, the debugger has multiple options. Each function created from the template has its own disassembly code, and the debugger does not know which code you want to view. The `Resolve Ambiguity` dialog box enables you to select the location you want from a list of all corresponding locations.
 
  `Choose the specific location`

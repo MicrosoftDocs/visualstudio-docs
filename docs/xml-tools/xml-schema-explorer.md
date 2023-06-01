@@ -1,18 +1,19 @@
 ---
 title: XML Schema Explorer
 description: Learn about the features of the XML Schema Explorer that is integrated with Visual Studio and the XML editor.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 2fc39e98-b194-456b-a452-cfafb0a52d66
-author: TerryGLee
-ms.author: tglee
+author: dzsquared
+ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
 ms.workload:
 - multiple
 ---
 # XML Schema Explorer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **XML Schema Explorer** is integrated with Microsoft Visual Studio and the XML editor to enable you to work with XML Schema definition language (XSD) schemas. When you open an XML Schema file, the **Schema Set** node appears in the **XML Schema Explorer**. All the included, imported, or redefined schemas for your target file, as well as any files that are referenced through an `include` or `import` statement, also appear in the **XML Schema Explorer**.
 

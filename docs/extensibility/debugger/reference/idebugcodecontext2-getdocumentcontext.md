@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCodeContext2::GetDocumentContext
 ms.assetid: d552cc92-963f-43c1-949f-ae6b63a427b8
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugCodeContext2::GetDocumentContext
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the document context that corresponds to this code context. The document context represents a position in the source file that corresponds to the source code that generated this instruction.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocumentContext( 
-   IDebugDocumentContext2** ppSrcCxt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocumentContext( 
    out IDebugDocumentContext2 ppSrcCxt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocumentContext( 
+   IDebugDocumentContext2** ppSrcCxt
+);
+```
+---
 
 ## Parameters
 `ppSrcCxt`\

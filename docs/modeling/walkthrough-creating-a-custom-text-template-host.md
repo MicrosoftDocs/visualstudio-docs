@@ -1,7 +1,6 @@
 ---
 title: 'Walkthrough: Creating a Custom Text Template Host'
 description: Learn how you can write a custom host if you want to use the text template transformation functionality from outside Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -18,6 +17,8 @@ dev_langs:
 - VB
 ---
 # Walkthrough: Create a Custom Text Template Host
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A *text template host* provides an environment that enables the *text template transformation engine* to run. The host is responsible for managing the engine's interaction with the file system. The engine or *directive processor* that needs a file or an assembly can request a resource from the host. The host can then search directories and the global assembly cache to locate the requested resource. For more information, see [The Text Template Transformation Process](../modeling/the-text-template-transformation-process.md).
 
@@ -54,6 +55,7 @@ In this walkthrough, you create a custom host in an executable application that 
 
 3. Replace the code in the Program.cs or Module1.vb file with the following code:
 
+   ### [C#](#tab/csharp)
    ```csharp
    using System;
    using System.IO;
@@ -404,6 +406,7 @@ In this walkthrough, you create a custom host in an executable application that 
    }
    ```
 
+   ### [VB](#tab/vb)
    ```vb
    Imports System
    Imports System.IO
@@ -710,6 +713,7 @@ In this walkthrough, you create a custom host in an executable application that 
        End Class 'Program
    End Namespace
    ```
+   ---
 
 4. For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] only, open the **Project** menu, and click **CustomHost Properties**. In the **Startup object** list, click **CustomHost.Program**.
 
@@ -732,6 +736,7 @@ To test the custom host, you write a text template, then you run the custom host
     > [!NOTE]
     > The programming language of the text template does not have to match that of the custom host.
 
+    ### [C#](#tab/csharp)
     ```csharp
     Text Template Host Test
 
@@ -750,6 +755,7 @@ To test the custom host, you write a text template, then you run the custom host
     #>
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     Text Template Host Test
 
@@ -769,6 +775,7 @@ To test the custom host, you write a text template, then you run the custom host
     #>
 
     ```
+    ---
 
 3. Save and close the file.
 

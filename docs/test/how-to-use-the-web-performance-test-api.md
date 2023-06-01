@@ -1,7 +1,6 @@
 ---
 title: Web Performance Test API
 description: Learn about the web performance test API, which supports coded web performance tests, test plug-ins, request plug-ins, requests, and extraction/validation rules.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -14,6 +13,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # How to: Use the web performance test API
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can write code for your web performance tests. The web performance test API is used to create coded web performance tests, web performance test plug-ins, request plug-ins, requests, extraction rules, and validation rules. The classes that make up these types are the core classes in this API. The other types in this API are used to support creating <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTest>, <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestPlugin>, <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRequestPlugin>, <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRequest>, <xref:Microsoft.VisualStudio.TestTools.WebTesting.ExtractionRule>, and <xref:Microsoft.VisualStudio.TestTools.WebTesting.ValidationRule> objects. You use the <xref:Microsoft.VisualStudio.TestTools.WebTesting> namespace to create customized web performance tests.
 

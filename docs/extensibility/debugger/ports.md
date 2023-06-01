@@ -1,21 +1,22 @@
 ---
 title: Ports | Microsoft Docs
 description: This article describes the definition and role of a port in the debugger architecture in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - ports
 - debugging [Debugging SDK], ports
 ms.assetid: 1d7f3aa7-7eff-4cab-bc53-0a566b1a9363
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # Ports
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the debugger architecture, a *port*:
 
 - Is a container for a set of processes running on a server. For example, a port might represent a connection to a Windows CE-based device by a serial cable or to a networked non-DCOM machine. One special port, called the local port, contains all the processes running on the local machine.

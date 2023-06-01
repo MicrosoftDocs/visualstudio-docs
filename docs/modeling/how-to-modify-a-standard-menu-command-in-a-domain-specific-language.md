@@ -1,7 +1,6 @@
 ---
 title: "Modify standard menu command in DSL"
 description: Learn how you can modify the behavior of some of the standard commands that are defined automatically in your DSL.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -15,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # How to: Modify a Standard Menu Command in a Domain-Specific Language
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can modify the behavior of some of the standard commands that are defined automatically in your DSL. For example, you could modify **Cut** so that it excludes sensitive information. To do this, you override methods in a command set class. These classes are defined in the CommandSet.cs file, in the DslPackage project, and are derived from <xref:Microsoft.VisualStudio.Modeling.Shell.CommandSet>.
 

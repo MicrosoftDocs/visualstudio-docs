@@ -20,6 +20,13 @@
         ],
         "src": "articles",
         "dest": "."
+      },
+      {
+        "src": "breadcrumb",
+        "dest": "breadcrumb",
+        "files": [
+          "**/*.yml"
+        ]
       }
     ],
     "resource": [
@@ -45,6 +52,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "uhfHeaderId": "MSDocsHeader-VisualStudio",
       "breadcrumb_path": "/visualstudio/bridge/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "GitHub",

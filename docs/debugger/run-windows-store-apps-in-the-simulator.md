@@ -1,7 +1,6 @@
 ---
 title: Run UWP apps in the simulator | Microsoft Docs
 description: Understand how to run Universal Windows Platform (UWP) apps in the Visual Studio simulator, which is a desktop application that simulates a UWP app.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -14,10 +13,13 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
+monikerRange: '<= vs-2019'
 ms.workload: 
   - uwp
 ---
 # Run UWP apps in the simulator
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio simulator for UWP apps is a desktop application that simulates a UWP app. Typically, you will want to debug on the local machine, a connected device, or a remote machine. However, in some scenarios, you may want to use the Visual Studio simulator to emulate a different physical screen size and resolution. You can also simulate common touch and rotation events and simulate network connection properties.
 
@@ -139,10 +141,6 @@ For more information about managing network connections, see:
 [Quickstart: Managing metered network cost constraints](/previous-versions/windows/apps/hh750310(v=win.10))
 
 [Network information sample](https://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)
-
-::: moniker range="vs-2017"
-[Analyze energy use](../profiling/analyze-energy-use-in-store-apps.md)
-::: moniker-end
 
 [Windows.Networking.Connectivity](/uwp/api/windows.networking.connectivity)
 

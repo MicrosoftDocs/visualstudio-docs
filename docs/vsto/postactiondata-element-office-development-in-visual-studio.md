@@ -19,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # &lt;postActionData&gt; element (Office development)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The `postActionData` element of the `vstav3` namespace specifies the data associated with any post-deployment action that runs after Office solutions are installed.
 
 ## Syntax

@@ -1,7 +1,6 @@
 ---
 title: "Improve the performance of a VSTO Add-in"
 description: Learn how to optimize VSTO Add-ins that you create for Office applications so that they quickly start up, shut down, open items, and perform other tasks.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -15,6 +14,8 @@ ms.workload:
   - "office"
 ---
 # Improve the performance of a VSTO add-in
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can give your users a better experience by optimizing VSTO Add-ins that you create for Office applications so that they quickly start up, shut down, open items, and perform other tasks. If your VSTO Add-in is for Outlook, you can also reduce the chance that your VSTO Add-in will be disabled because of poor performance. You can increase the performance of your VSTO Add-in by implementing the following strategies:
 
 - [Load VSTO Add-ins on demand](#Load).
@@ -101,8 +102,12 @@ ms.workload:
 
  The following example returns a Ribbon object based on the value of a field.
 
- :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_ribbon_choose_ribbon_4/ThisWorkbook.vb" id="Snippet1":::
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_ribbon_choose_ribbon_4/ThisWorkbook.cs" id="Snippet1":::
+
+ ### [VB](#tab/vb)
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_ribbon_choose_ribbon_4/ThisWorkbook.vb" id="Snippet1":::
+ ---
 
 ## <a name="Perform"></a> Perform expensive operations in a separate execution thread
  Consider performing time-consuming tasks (such as long running tasks, database connections, or other sorts of network calls) in a separate thread. For more information, see [Threading support in Office](../vsto/threading-support-in-office.md).

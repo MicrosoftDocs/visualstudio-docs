@@ -1,7 +1,6 @@
 ---
 title: Invalid properties in the .ofs file for the message class"
 description: Learn how to correct an error that occurs when one or more properties in the .ofs file are not valid for the message class selected.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -17,6 +16,8 @@ ms.workload:
   - "office"
 ---
 # Invalid properties in the .ofs file for the message class
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
   The error "One or more properties in the .ofs file are not valid for the message class selected" appears when you import a form region that is designed in Outlook, but one or more fields on the form region aren't compatible with the message classes that you select on the final page of the **New Form Region** wizard.
 

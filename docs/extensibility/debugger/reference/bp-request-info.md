@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - BP_REQUEST_INFO structure
 ms.assetid: 42a31412-5b6b-47fe-a762-0c2bc769e1cc
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,25 +19,13 @@ dev_langs:
 - CSharp
 ---
 # BP_REQUEST_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains the information required to implement a breakpoint.
 
 ## Syntax
 
-```cpp
-typedef struct _BP_REQUEST_INFO {
-    BPREQI_FIELDS   dwFields;
-    GUID            guidLanguage;
-    BP_LOCATION     bpLocation;
-    IDebugProgram2* pProgram;
-    BSTR            bstrProgramName;
-    IDebugThread2*  pThread;
-    BSTR            bstrThreadName;
-    BP_CONDITION    bpCondition;
-    BP_PASSCOUNT    bpPassCount;
-    BP_FLAGS        dwFlags;
-} BP_REQUEST_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct BP_REQUEST_INFO {
     public uint           dwFields;
@@ -52,6 +40,22 @@ public struct BP_REQUEST_INFO {
     public uint           dwFlags;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _BP_REQUEST_INFO {
+    BPREQI_FIELDS   dwFields;
+    GUID            guidLanguage;
+    BP_LOCATION     bpLocation;
+    IDebugProgram2* pProgram;
+    BSTR            bstrProgramName;
+    IDebugThread2*  pThread;
+    BSTR            bstrThreadName;
+    BP_CONDITION    bpCondition;
+    BP_PASSCOUNT    bpPassCount;
+    BP_FLAGS        dwFlags;
+} BP_REQUEST_INFO;
+```
+---
 
 ## Members
 `dwFields`\

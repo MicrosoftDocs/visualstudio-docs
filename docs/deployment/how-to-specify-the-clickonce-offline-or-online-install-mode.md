@@ -1,7 +1,6 @@
 ---
 title: Specify offline or online install mode (ClickOnce)
 description: Learn how to specify the Install Mode for a ClickOnce application, which determines whether the application is available offline or online.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -23,6 +22,8 @@ ms.workload:
   - multiple
 ---
 # How to: Specify the ClickOnce offline or online install mode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `Install Mode` for a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application determines whether the application will be available offline or online. When you choose **The application is available online only**, the user must have access to the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] publishing location (either a Web page or a file share) in order to run the application. When you choose **The application is available offline as well**, the application adds entries to the **Start** menu and the **Add or Remove Programs** dialog box; the user is able to run the application when they are not connected.
 
 The `Install Mode` can be set on the **Publish** page of the **Project Designer**.
@@ -35,6 +36,8 @@ The `Install Mode` can be set on the **Publish** page of the **Project Designer*
 1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
 2. Click the **Publish** tab.
+
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 3. In the **Install Mode and Settings** area, click the **The application is available online only** option button.
 

@@ -1,7 +1,6 @@
 ---
 title: Send messages to the Output window | Microsoft Docs
 description: Write run-time messages to the Output window in Visual Studio using the Debug class or the Trace class, which are part of the System.Diagnostics class library.
-ms.custom: SEO-VS-2020
 ms.date: 11/08/2018
 ms.topic: how-to
 helpviewer_keywords: 
@@ -26,6 +25,8 @@ ms.workload:
   - multiple
 ---
 # Send messages to the Output window
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can write run-time messages to the **Output** window using the <xref:System.Diagnostics.Debug> class or the <xref:System.Diagnostics.Trace> class, which are part of the <xref:System.Diagnostics> class library. Use the <xref:System.Diagnostics.Debug> class if you only want output in the *Debug* version of your program. Use the <xref:System.Diagnostics.Trace> class if you want output in both the *Debug* and *Release* versions.
 

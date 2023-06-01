@@ -7,26 +7,24 @@ metadata:
   description: Explore documentation for the Visual Studio family of products, including Visual Studio IDEs for Windows and Mac, Visual Studio Code, Visual Studio App Center, GitHub Codespaces, and Visual Studio Subscriptions.
   ms.topic: hub-page
   ms.custom: "contperf-fy21q1, contperf-fy21q3"
-  ms.date: 11/08/2021
+  ms.date: 06/13/2022
   searchScope: []
   titleSuffix: ""
   ms.author: ghogen
   author: ghogen
   ms.manager: jmartens
-  monikerRange: ">=vs-2017"
+  monikerRange: ">=vs-2019"
   hide_bc: true
 
 productDirectory:
     items:
     - title: Visual Studio
-      imageSrc: ./media/vs-ide-2019.svg
+      imageSrc: ./media/vs-ide-2022.svg
       links:
         - url: ./windows/index.yml?view=vs-2022&preserve-view=true
           text: Visual Studio 2022 (current)
         - url: ./windows/index.yml?view=vs-2019&preserve-view=true
           text: Visual Studio 2019
-        - url: ./windows/index.yml?view=vs-2017&preserve-view=true
-          text: Visual Studio 2017
         - url: /previous-versions/visualstudio/
           text: Previous versions
         - url: /visualstudio/releases/2022/release-notes
@@ -34,13 +32,15 @@ productDirectory:
         - url: https://visualstudio.microsoft.com/
           text: Product page
     - title: Visual Studio for Mac
-      imageSrc: ./media/vs-mac-2019.svg
+      imageSrc: ./media/vs-mac-2022.svg
       links:
-        - url: /visualstudio/mac
-          text: Visual Studio 2019 for Mac (current)
-        - url: /visualstudio/mac/?view=vsmac-2017&preserve-view=true
-          text: Visual Studio 2017 for Mac
-        - url: /visualstudio/releasenotes/vs2019-mac-relnotes
+        - url: /visualstudio/mac/?view=vsmac-2022&preserve-view=true
+          text: Visual Studio 2022 for Mac (current)
+        - url: /visualstudio/mac/?view=vsmac-2019&preserve-view=true
+          text: Visual Studio 2019 for Mac
+        - url: /previous-versions/visualstudio/mac/
+          text: Previous versions
+        - url: /visualstudio/releases/2022/mac-release-notes
           text: Release notes
         - url: https://visualstudio.microsoft.com/vs/mac/
           text: Product page
@@ -54,9 +54,9 @@ productDirectory:
         - url: https://code.visualstudio.com
           text: Product page
     - title: GitHub Codespaces
-      imageSrc: https://docs.microsoft.com/media/logos/logo_octokitty.svg
+      imageSrc: /media/logos/logo_octokitty.svg
       links:
-         - url: https://docs.github.com/github/developing-online-with-codespaces/
+         - url: https://docs.github.com/codespaces
            text: Documentation
          - url: https://code.visualstudio.com/docs/remote/codespaces/
            text: Use with Visual Studio Code

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - GETHOSTNAME_TYPE enumeration
 ms.assetid: 2be92bea-8133-412b-9015-1833baf16e1b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,20 @@ dev_langs:
 - CSharp
 ---
 # GETHOSTNAME_TYPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the type of host name.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_GETHOSTNAME_TYPE {
+    GHN_FRIENDLY_NAME = 0,
+    GHN_FILE_NAME     = 1
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_GETHOSTNAME_TYPE {
     GHN_FRIENDLY_NAME = 0,
@@ -30,13 +40,7 @@ enum enum_GETHOSTNAME_TYPE {
 };
 typedef DWORD GETHOSTNAME_TYPE;
 ```
-
-```csharp
-public enum enum_GETHOSTNAME_TYPE {
-    GHN_FRIENDLY_NAME = 0,
-    GHN_FILE_NAME     = 1
-};
-```
+---
 
 ## Fields
 `GHN_FRIENDLY_NAME`\

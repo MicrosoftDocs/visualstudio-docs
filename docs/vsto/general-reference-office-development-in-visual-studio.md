@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # General reference (Office development in Visual Studio)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This section contains technical details about Microsoft Office projects in Visual Studio.
 
 [!include[Add-ins note](includes/addinsnote.md)]

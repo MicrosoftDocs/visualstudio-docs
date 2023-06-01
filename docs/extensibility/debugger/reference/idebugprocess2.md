@@ -8,14 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProcess2 interface
 ms.assetid: 99f6cd06-4076-45ee-b2ae-fa2ad627fd18
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # IDebugProcess2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a process running on a port. If the port is the local port, then `IDebugProcess2` usually represents a physical process on the local machine.
 
 ## Syntax

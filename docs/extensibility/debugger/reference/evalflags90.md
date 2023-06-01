@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - EVALFLAGS90 enumeration
 ms.assetid: 64fb0139-8b04-4726-b52c-db2e04d65498
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -17,10 +17,32 @@ dev_langs:
 - CSharp
 ---
 # EVALFLAGS90
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates the valid values for flags that control expression evaluation. This enumeration extends the [EVALFLAGS](../../../extensibility/debugger/reference/evalflags.md) enumeration.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_EVALFLAGS90
+{
+    // VS 8.0 values
+    EVAL90_RETURNVALUE                 = 0x0002,
+    EVAL90_NOSIDEEFFECTS               = 0x0004,
+    EVAL90_ALLOWBPS                    = 0x0008,
+    EVAL90_ALLOWERRORREPORT            = 0x0010,
+    EVAL90_FUNCTION_AS_ADDRESS         = 0x0040,
+    EVAL90_NOFUNCEVAL                  = 0x0080,
+    EVAL90_NOEVENTS                    = 0x1000,
+    EVAL90_DESIGN_TIME_EXPR_EVAL       = 0x2000,
+    EVAL90_ALLOW_IMPLICIT_VARS         = 0x4000,
+
+    // Values added in VS 9.0
+    EVAL90_FORCE_EVALUATION_NOW        = 0x8000
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_EVALFLAGS90
 {
@@ -40,25 +62,7 @@ enum enum_EVALFLAGS90
 };
 typedef DWORD EVALFLAGS90;
 ```
-
-```csharp
-public enum enum_EVALFLAGS90
-{
-    // VS 8.0 values
-    EVAL90_RETURNVALUE                 = 0x0002,
-    EVAL90_NOSIDEEFFECTS               = 0x0004,
-    EVAL90_ALLOWBPS                    = 0x0008,
-    EVAL90_ALLOWERRORREPORT            = 0x0010,
-    EVAL90_FUNCTION_AS_ADDRESS         = 0x0040,
-    EVAL90_NOFUNCEVAL                  = 0x0080,
-    EVAL90_NOEVENTS                    = 0x1000,
-    EVAL90_DESIGN_TIME_EXPR_EVAL       = 0x2000,
-    EVAL90_ALLOW_IMPLICIT_VARS         = 0x4000,
-
-    // Values added in VS 9.0
-    EVAL90_FORCE_EVALUATION_NOW        = 0x8000
-};
-```
+---
 
 ## Fields
 `EVAL90_RETURNVALUE`\

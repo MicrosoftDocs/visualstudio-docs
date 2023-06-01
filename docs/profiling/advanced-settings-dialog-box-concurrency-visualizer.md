@@ -1,7 +1,6 @@
 ---
 title: "Advanced Settings Dialog Box (Concurrency Visualizer) | Microsoft Docs"
 description: Use Advanced Settings in Concurrency Visualizer to control trace content. There are tabs for symbols, Just My Code, buffering, and more.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -15,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # Advanced Settings dialog box (Concurrency Visualizer)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 By using the **Advanced Settings** dialog box in the Concurrency Visualizer, you can control how traces are collected.  The dialog box has tabs for symbols, Just My Code, buffering, filtering, CLR events, markers, providers, and files.
 
 ## Symbols
@@ -81,5 +82,5 @@ By using the **Advanced Settings** dialog box in the Concurrency Visualizer, you
   The two ETL files store the raw trace data, and the two Concurrency Visualizer files store the processed data.  The raw ETL files are typically not used after a trace is processed.  Selecting the **Delete Event Trace Log (ETL) files after analysis** check box reduces the amount of trace data that's stored on your disk.
 
 ## See also
-- [Just my code](../profiling/just-my-code-threads-view.md)
+- [Just my code](../profiling/threads-view-parallel-performance.md#just-my-code-threads-view)
 - [Concurrency Visualizer markers](../profiling/concurrency-visualizer-markers.md)

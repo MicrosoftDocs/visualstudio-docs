@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - STEPUNIT enumeration
 ms.assetid: cb8441f2-f744-4e73-acfe-ae8542df9649
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,21 @@ dev_langs:
 - CSharp
 ---
 # STEPUNIT
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the step unit for stepping.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+enum enum_STEPUNIT { 
+   STEP_STATEMENT   = 0,
+   STEP_LINE        = 1,
+   STEP_INSTRUCTION = 2
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_STEPUNIT { 
    STEP_STATEMENT   = 0,
@@ -31,14 +42,7 @@ enum enum_STEPUNIT { 
 };
 typedef DWORD STEPUNIT;
 ```
-
-```csharp
-enum enum_STEPUNIT { 
-   STEP_STATEMENT   = 0,
-   STEP_LINE        = 1,
-   STEP_INSTRUCTION = 2
-};
-```
+---
 
 ## Fields
  `STEP_STATEMENT`\

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProperty2::SetValueAsString
 ms.assetid: 9e6a5054-41b7-4223-b509-b93689d366a5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty2::SetValueAsString
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the value of a property from a given string.
 
 ## Syntax
 
-```cpp
-HRESULT SetValueAsString ( 
-   LPCOLESTR pszValue,
-   UINT      nRadix,
-   DWORD     dwTimeout
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetValueAsString ( 
    string pszValue,
@@ -38,6 +33,15 @@ int SetValueAsString ( 
    uint   dwTimeout
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetValueAsString ( 
+   LPCOLESTR pszValue,
+   UINT      nRadix,
+   DWORD     dwTimeout
+);
+```
+---
 
 ## Parameters
 `pszValue`\

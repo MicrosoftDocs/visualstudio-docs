@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically retrieve a folder by name"
 description: Learn how you can use Visual Studio to programmatically retrieve a folder by name and then display the contents of the folder.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -17,6 +16,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically retrieve a folder by name
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example gets a reference to a named custom folder and then displays the contents of the folder.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

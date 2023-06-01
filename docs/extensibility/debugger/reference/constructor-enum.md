@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - CONSTRUCTOR_ENUM enumeration
 ms.assetid: 6d335b2c-66bc-460c-a4a6-4f3f1b697c2c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # CONSTRUCTOR_ENUM
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Selects different types of constructors.
 
 ## Syntax
 
-```cpp
-typedef enum ConstructorMatchOptions {
-    crAll       = 0,
-    crNonStatic = 1,
-    crStatic    = 2
-} CONSTRUCTOR_ENUM;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public enum ConstructorMatchOptions {
     crAll       = 0,
@@ -38,6 +33,15 @@ public enum ConstructorMatchOptions {
     crStatic    = 2
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef enum ConstructorMatchOptions {
+    crAll       = 0,
+    crNonStatic = 1,
+    crStatic    = 2
+} CONSTRUCTOR_ENUM;
+```
+---
 
 ## Fields
 `crAll`\

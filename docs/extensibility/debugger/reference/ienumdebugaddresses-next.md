@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugAddresses::Next method
 ms.assetid: 941e4be7-858d-433a-9259-18d0d017be9e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugAddresses::Next
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns the next set of elements from the enumeration.
 
 ## Syntax
 
-```cpp
-HRESULT Next(
-   ULONG           celt,
-   IDebugAddress** rgelt,
-   ULONG*          pceltFetched
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Next(
    uint            celt,
@@ -38,6 +33,15 @@ int Next(
    ref uint        pceltFetched
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Next(
+   ULONG           celt,
+   IDebugAddress** rgelt,
+   ULONG*          pceltFetched
+);
+```
+---
 
 ## Parameters
 `celt`\

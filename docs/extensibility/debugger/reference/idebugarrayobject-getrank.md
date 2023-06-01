@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugArrayObject::GetRank method
 ms.assetid: 9948551a-e334-4ff6-979c-08dab633b9b6
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugArrayObject::GetRank
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the rank of the array, that is, the number of dimensions.
 
 ## Syntax
 
-```cpp
-HRESULT GetRank( 
-   DWORD* pdwRank
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetRank(
    out uint pdwRank
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetRank( 
+   DWORD* pdwRank
+);
+```
+---
 
 ## Parameters
 `pdwRank`\

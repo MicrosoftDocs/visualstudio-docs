@@ -1,7 +1,6 @@
 ---
 title: Creating Custom T4 Text Template Directive Processors
 description: Learn about the text template transformation process and how to create a custom T4 text template directive processor.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -14,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # Create Custom T4 Text Template Directive Processors
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The *text template transformation process* takes a *text template* file as the input and produces a text file as the output. The *text template transformation engine* controls the process, and the engine interacts with a text template transformation host and one or more text template *directive processors* to complete the process. For more information, see [The Text Template Transformation Process](../modeling/the-text-template-transformation-process.md).
 

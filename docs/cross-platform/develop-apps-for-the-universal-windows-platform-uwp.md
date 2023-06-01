@@ -1,7 +1,6 @@
 ---
 title: Develop apps for the Universal Windows Platform (UWP)
 description: Learn about creating apps using Visual Studio and the Universal Windows Platform development tools.
-ms.custom: SEO-VS-2020
 ms.date: 10/24/2017
 ms.technology: vs-ide-general
 ms.topic: conceptual
@@ -13,6 +12,8 @@ ms.workload:
 - uwp
 ---
 # Develop apps for the Universal Windows Platform (UWP)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With the Universal Windows Platform and our one Windows core, you can run the same app on any Windows 10 device, from phones to desktops. Create these Universal Windows apps with Visual Studio and the Universal Windows App development tools.
 
@@ -34,31 +35,17 @@ The Universal Windows App development tools come with emulators that you can use
 
 Here is the list of software that you need:
 
-::: moniker range="vs-2017"
-
-- [Windows 10](https://support.microsoft.com/help/17777/downloads-for-windows). Visual Studio 2017 supports UWP development only on Windows 10. For more details, see Visual Studio [Platform targeting](/visualstudio/productinfo/vs2017-compatibility-vs) and [System requirements](/visualstudio/productinfo/vs2017-system-requirements-vs).
-
-- [Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download). You will also need the optional Universal Windows Platform development workload.
-
-     ![UWP workload](media/uwp_workload.png)
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 - [Windows 10](https://support.microsoft.com/help/17777/downloads-for-windows). Visual Studio 2019 supports UWP development only on Windows 10. For more details, see Visual Studio [Platform targeting](/visualstudio/releases/2019/compatibility/) and [System requirements](/visualstudio/releases/2019/system-requirements/).
 
 - [Visual Studio](https://visualstudio.microsoft.com/downloads). You will also need the optional Universal Windows Platform development workload.
 
      ![UWP workload](media/uwp_workload.png)
 
-::: moniker-end
-
 After installing this software, you need to enable your Windows 10 device for development. See [Enable your device for development](/windows/uwp/get-started/enable-your-device-for-development). You no longer need a developer license for each Windows 10 device.
 
 ## Universal Windows apps
 
-Choose your preferred development language from C#, Visual Basic, C++ or JavaScript to create a Universal Windows Platform app for Windows 10 devices. Read [Create your first app](/windows/uwp/get-started/your-first-app) or watch the [Tools for Windows 10 Overview](https://channel9.msdn.com/Series/ConnectOn-Demand/229) video.
+Choose your preferred development language from C#, Visual Basic, C++ or JavaScript to create a Universal Windows Platform app for Windows 10 devices. Read [Create your first app](/windows/uwp/get-started/your-first-app).
 
 If you have existing Windows Store 8.1 apps, Windows Phone 8.1 apps, or Universal Windows apps that were created with Visual Studio 2015, you'll need to port these apps to use the latest Universal Windows Platform. See [Move from Windows Runtime 8.x to UWP](/windows/uwp/porting/w8x-to-uwp-root).
 

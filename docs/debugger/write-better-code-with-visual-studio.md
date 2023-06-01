@@ -1,7 +1,7 @@
 ---
 title: Debugging techniques and tools
 description: "Write better code with less bugs by using Visual Studio to fix exceptions, fix errors, and improve your code"
-ms.custom: ['debug-experiment']
+ms.custom: 'debug-experiment'
 ms.date: "02/14/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -14,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # Debugging techniques and tools to help you write better code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Fixing bugs and errors in your code can be a time-consuming--and sometimes frustrating--task. It takes time to learn how to debug effectively, but a powerful IDE like Visual Studio can make your job a lot easier. An IDE can help you fix errors and debug your code more quickly, and not just that, but it can also help you write better code with fewer bugs. Our aim in this article is to give you a holistic view of the "bug-fixing" process, so you will know when to use the code analyzer, when to use the debugger, how to fix exceptions, and how to code for intent. If you already know you need to use the debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
@@ -43,18 +45,11 @@ To create the app:
 
 1. Open Visual Studio.
 
-    ::: moniker range=">=vs-2019"
     On the start window, choose **Create a new project**. Type **console** in the search box and then choose either **Console App** for .NET Core. Choose **Next**. Type a project name like **Console_Parse_JSON** and click **Next** or **Create**, whichever option is available.
 
     For .NET Core, choose either the recommended target framework or .NET 6, and then choose **Create**.
 
     If you don't see the **Console App** for .NET Core project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET Core cross platform development** workload, then choose **Modify**.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Console App**, and then in the middle pane choose **Console App (.NET Core)**. Type a name like **Console_Parse_JSON** and click **OK**.
-
-    If you don't see the **Console App (.NET Core)** project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET Core cross platform development** workload, then choose **Modify**.
-    ::: moniker-end
 
     Visual Studio creates the console project, which appears in Solution Explorer in the right pane.
 

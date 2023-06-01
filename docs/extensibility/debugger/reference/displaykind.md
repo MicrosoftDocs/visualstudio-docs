@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - DisplayKind enumeration
 ms.assetid: 940968c5-6065-4bda-8ee6-c31597db4d71
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -17,10 +17,22 @@ dev_langs:
 - CSharp
 ---
 # DisplayKind
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates the valid values that represent the kinds of information to take from an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object and display to the user.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_DisplayKind
+{
+    DisplayKind_Value = 0x1,
+    DisplayKind_Name = 0x2,
+    DisplayKind_Type = 0x3,
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_DisplayKind
 {
@@ -30,15 +42,7 @@ enum enum_DisplayKind
 };
 typedef DWORD DisplayKind;
 ```
-
-```csharp
-public enum enum_DisplayKind
-{
-    DisplayKind_Value = 0x1,
-    DisplayKind_Name = 0x2,
-    DisplayKind_Type = 0x3,
-};
-```
+---
 
 ## Fields
 `DisplayKind_Value`\

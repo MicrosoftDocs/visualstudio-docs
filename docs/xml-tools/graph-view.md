@@ -1,18 +1,19 @@
 ---
 title: XML Schema Designer Graph View
 description: Learn about the Graph View in the XML Schema Designer that provides a graphic representation of global schema nodes and the relationships between the nodes.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 5881afde-3f24-4eb9-bff8-6cb3fc8aade7
-author: TerryGLee
-ms.author: tglee
+author: dzsquared
+ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
 ms.workload:
 - multiple
 ---
 # Graph view
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Graph View provides a graphic representation of global schema nodes and the relationships between the nodes. Note that the Graph View does not allow you to alter the layout of the schema set on the design surface. The Graph View also includes the XML Schema Designer toolbar and the breadcrumb bar.
 

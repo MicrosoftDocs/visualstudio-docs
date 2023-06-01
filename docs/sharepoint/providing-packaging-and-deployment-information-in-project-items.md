@@ -1,7 +1,6 @@
 ---
 title: "Packaging & deployment information in project items"
 description: Add packaging and deployment data in SharePoint project items using feature properties, feature receivers, project output references, and safe control entities.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -29,6 +28,8 @@ ms.workload:
   - "office"
 ---
 # Provide packaging and deployment information in project items
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   All SharePoint project items in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] have properties that you can use to provide additional data when the project is deployed to SharePoint. These properties are as follows:
 
 - Feature Properties

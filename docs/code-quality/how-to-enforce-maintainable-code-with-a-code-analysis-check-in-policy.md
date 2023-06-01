@@ -2,7 +2,6 @@
 title: Use a code analysis check-in policy
 ms.date: 11/04/2016
 description: Learn how to use a code analysis check-in policy to verify that code complies with inheritance, class coupling, maintainability, and complexity standards.
-ms.custom: SEO-VS-2020
 ms.topic: how-to
 helpviewer_keywords: 
   - code analysis, check-in policies
@@ -15,6 +14,8 @@ ms.workload:
   - multiple
 ---
 # How to: Enforce maintainable code with a code analysis check-in policy
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Developers can use the Code Metrics tool to measure the complexity and maintainability of their code, but you cannot invoke Code Metrics as part of a check-in policy. However, you can enable Code Analysis rules that verify the compliance of your code with code metrics standards, and enforce the rules through check-in policies. For more information about code metrics, see [Code metrics values](../code-quality/code-metrics-values.md).
 

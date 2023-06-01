@@ -1,7 +1,6 @@
 ---
 title: Load Test Run Settings
 description: Learn how to create and store multiple run settings for each load test and then select a particular setting to use when you run the test.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -13,6 +12,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # Load test run settings properties
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The run settings of a load test determine a variety of other settings, including the duration of the test, results collection detail level, and the counter sets that are collected when the test runs. You can create and store multiple run settings for each load test, and then select one particular setting to use when you run the test. An initial run setting is added to your load test when you create your load test using the **New Load Test Wizard**.
 

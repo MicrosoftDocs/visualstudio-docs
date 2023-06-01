@@ -1,10 +1,10 @@
 ---
 title: How Python search paths are applied
 description: Visual Studio provides a more specific means to specify search paths for environments and projects to avoid using system-wide variables.
-ms.date: 03/13/2019
+ms.date: 01/18/2022
 ms.topic: how-to
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -12,8 +12,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # How Visual Studio uses Python search paths
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With typical Python usage, the `PYTHONPATH` environment variable (or `IRONPYTHONPATH`, etc.) provides the default search path for module files. That is, when you use an `from <name> import...` or `import <name>` statement, Python searches the following locations in order for a matching name:
 
@@ -27,12 +28,7 @@ Visual Studio thus provides a means to specify search paths directly in both env
 
 To add a search path, go to **Solution Explorer**, expand your project node, right-click on **Search Paths**, and select **Add Folder to Search Path**:
 
-::: moniker range="vs-2017"
-![Add Folder to Search Path command on Search Paths in Solution Explorer](media/search-paths-command.png)
-::: moniker-end
-::: moniker range=">=vs-2019"
 ![Add Folder to Search Path command on Search Paths in Solution Explorer](media/search-paths-command-2019.png)
-::: moniker-end
 
 This command displays a browser in which you then select the folder to include.
 

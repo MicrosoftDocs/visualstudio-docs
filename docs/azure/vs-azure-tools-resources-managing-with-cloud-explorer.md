@@ -6,22 +6,25 @@ manager: jmartens
 ms.technology: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
-ms.date: 03/25/2017
+ms.date: 01/22/2022
 ms.author: ghogen
 ---
-
 # Manage the resources associated with your Azure accounts in Visual Studio Cloud Explorer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ::: moniker range=">=vs-2022"
 > [!Important]
 > Cloud Explorer has been retired in Visual Studio 2022. Instead, you can use the following alternatives:
+> - To debug Azure App Services or Azure Function apps, you can use the Connected Services or the Publish features available on all projects. 
+>   -  If you rely on Visual Studio for publishing, you may access this feature under the "Additional Options" in the Hosting section. 
+>   -  If you don’t use the publishing feature, the [Connected Services](overview-connected-services.md?view=vs-2022&preserve-view=true) node inside each Project in your Solution can help you configure access to Azure resources and invoke  various operations like remote debugging, remote profiling, starting/stopping the application, view streaming logs, and more.
 > - Use [Microsoft Azure Storage Explorer](/azure/vs-azure-tools-storage-manage-with-storage-explorer) is a free, standalone app from Microsoft. You can use it to work visually with Azure Storage data on Windows, macOS, and Linux.
-> - In order to debug an Azure App Service or Azure Function app, you will be able to use the Connected Services or the Publish feature available on all projects. If you rely on Visual Studio for publishing, this option is available under the additional options in the hosting section. If you don’t use the publishing feature, you will be able to connect to any Azure App Service or Azure Function app from the Connected Service tab and invoke various operations like remote debug, remote profile, start/stop the site, view streaming logs etc. 
 > - The [Kudu console](https://github.com/projectkudu/kudu/wiki/Kudu-console) gives you direct, elevated command-line access to the App Service server and its file system. This is both a valuable debugging tool and allows for CLI operations such as installing packages.
 >
 > If needed, you can use the Azure Portal or continue to use the Azure node of Server Explorer in previous versions of Visual Studio.
 >
-> For more information about Visual Studio 2022, see our [release notes](/visualstudio/releases/2022/release-notes-preview/).
+> For more information about Visual Studio 2022, see our [release notes](/visualstudio/releases/2022/release-notes/).
 
 ::: moniker-end
 

@@ -1,7 +1,6 @@
 ---
 title: Create custom validation rule for a web perf test
 description: Learn how to create your own validation rules, derived from a validation rule class, ValidationRule.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -20,6 +19,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # Code a custom validation rule for a web performance test
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can create your own validation rules. To do this, you derive your own rule class from a validation rule class. Validation rules derive from the <xref:Microsoft.VisualStudio.TestTools.WebTesting.ValidationRule> base class.
 
@@ -60,6 +61,7 @@ The following code shows an implementation of a custom validation rule. This val
 > [!WARNING]
 > Public properties in the code for a custom validator cannot have null values.
 
+### [C#](#tab/csharp)
 ```csharp
 using System;
 using System.Diagnostics;
@@ -147,6 +149,7 @@ namespace SampleWebTestRules
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 Imports System
 Imports System.Diagnostics
@@ -239,6 +242,7 @@ Namespace SampleWebTestRules
     End Class
 End Namespace
 ```
+---
 
 ## See also
 

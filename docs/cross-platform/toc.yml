@@ -1,10 +1,10 @@
+items:
 - name: Cross-Platform Mobile Development in Visual Studio
   href: cross-platform-mobile-development-in-visual-studio.md
 - name: Visual Studio Tools for Xamarin
-  displayName: ".NET Mobile Developer Tools (Android & iOS)"
+  displayName: .NET Mobile Developer Tools (Android & iOS)
   href: /xamarin/
 - name: Visual Studio Tools for Unity
-# Auto-expanded node
   items:
   - name: Visual Studio Tools for Unity
     href: /visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity
@@ -15,7 +15,6 @@
   - name: Use .NET 4.x in Unity
     href: /visualstudio/gamedev/unity/unity-scripting-upgrade
   - name: Program Visual Studio Tools for Unity
-# Auto-expanded node
     items:
     - name: Program Visual Studio Tools for Unity
       href: /visualstudio/gamedev/unity/extensibility/programming-visual-studio-tools-for-unity
@@ -38,11 +37,3 @@
 - name: Develop apps for the Universal Windows Platform (UWP)
   href: develop-apps-for-the-universal-windows-platform-uwp.md
 - name: Visual Studio Emulator for Android
-# Auto-expanded node
-  items:
-  - name: Visual Studio Emulator for Android
-    href: visual-studio-emulator-for-android.md
-  - name: System Requirements for the Visual Studio Emulator for Android
-    href: system-requirements-for-the-visual-studio-emulator-for-android.md
-  - name: Troubleshoot the Visual Studio Emulator for Android
-    href: troubleshooting-the-visual-studio-emulator-for-android.md

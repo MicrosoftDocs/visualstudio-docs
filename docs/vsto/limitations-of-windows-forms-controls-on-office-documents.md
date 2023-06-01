@@ -1,7 +1,6 @@
 ---
 title: "Limitations of Windows Forms controls on Office documents"
 description: Learn about the limitations of Windows Forms control methods and properties on Microsoft Office documents. 
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -26,6 +25,8 @@ ms.workload:
   - "office"
 ---
 # Limitations of Windows Forms controls on Office documents
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are some differences between Windows Forms controls that are added to Microsoft Office Word documents or Microsoft Office Excel worksheets, and Windows Forms controls that are added to Windows Forms. For example, when you add a <xref:Microsoft.Office.Tools.Word.Controls.Button> control to a document, properties such as <xref:System.Windows.Forms.Control.Dock>, <xref:System.Windows.Forms.Control.Anchor>, and <xref:System.Windows.Forms.Control.TabIndex> do not behave as you might expect.
 

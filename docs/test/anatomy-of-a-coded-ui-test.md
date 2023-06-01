@@ -1,7 +1,6 @@
 ---
 title: Anatomy of a Coded UI Test
 description: Learn about the files that are added to your coded UI test solution when you create a Coded UI Test.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -14,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # Anatomy of a coded UI test
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you create a Coded UI Test in a coded UI test project, several files are added to the solution. This article provides information about the files.
 

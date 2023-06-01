@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProcess3::GetENCAvailableState
 ms.assetid: 98a5d527-8a72-476c-8e92-0bff3d97c195
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess3::GetENCAvailableState
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the current Edit and Continue state of the process. A custom port supplier should always return `E_NOTIMPL`.
 
 ## Syntax
 
-```cpp
-HRESULT GetENCAvailableState(
-   EncUnavailableReason* pReason
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetENCAvailableState(
    EncUnavailableReason[] pReason
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetENCAvailableState(
+   EncUnavailableReason* pReason
+);
+```
+---
 
 ## Parameters
 `pReason`\

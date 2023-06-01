@@ -1,20 +1,21 @@
 ---
 title: Extending the Editor and Language Services | Microsoft Docs
 description: You can add language service features to an editor and extend features of the Visual Studio code editor. Learn about the Managed Extensibility Framework.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new -
 ms.assetid: 8d04f8db-eda7-4b3e-b6eb-c06df104502a
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Extend the editor and language services
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can add language service features (such as IntelliSense) to your own editor, and extend most features of the Visual Studio code editor.  For a full list of what you can extend, see [Language service and editor extension points](../extensibility/language-service-and-editor-extension-points.md).
 
  You extend most editor features by using the Managed Extensibility Framework (MEF). For example, if the editor feature you want to extend is syntax coloring, you can write a MEF *component part* that defines the classifications for which you want different coloring and how you want them handled. The editor also supports multiple extensions of the same feature.

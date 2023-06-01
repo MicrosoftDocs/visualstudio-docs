@@ -1,7 +1,6 @@
 ---
 title: List Source Command
 description: Learn about the List Source command and how it displays the specified lines of source code.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -19,6 +18,8 @@ ms.workload:
   - "multiple"
 ---
 # List Source Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Displays the specified lines of source code.
 
 ## Syntax

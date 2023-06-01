@@ -1,7 +1,6 @@
 ---
 title: 'How to: Create a Basic 3D Model'
 description: Learn how to use the Model Editor to create a basic 3D model, including adding objects to a scene, translating selections, and other activities.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: a0d97966-2df8-449b-a8cf-5a19684dc773
@@ -13,6 +12,8 @@ ms.workload:
 - multiple
 ---
 # How to: Create a basic 3D model
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article demonstrates how to use the Model Editor to create a basic 3D model. The following activities are covered:
 

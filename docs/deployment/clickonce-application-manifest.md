@@ -1,7 +1,6 @@
 ---
 title: "ClickOnce Application Manifest | Microsoft Docs"
 description: Learn about the ClickOnce application manifest, which is an XML file that describes an application that is deployed using ClickOnce.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -20,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # ClickOnce application manifest
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest is an XML file that describes an application that is deployed using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)].
 
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifests have the following elements and attributes.

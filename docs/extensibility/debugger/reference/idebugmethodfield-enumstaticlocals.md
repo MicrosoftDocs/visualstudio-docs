@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugMethodField::EnumStaticLocals method
 ms.assetid: e0c522c4-f759-4c32-ae87-7abcb573e77d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugMethodField::EnumStaticLocals
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator for static local variables of the method.
 
 ## Syntax
 
-```cpp
-HRESULT EnumStaticLocals( 
-   IEnumDebugFields** ppLocals
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumStaticLocals(
    out IEnumDebugFields ppLocals
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumStaticLocals( 
+   IEnumDebugFields** ppLocals
+);
+```
+---
 
 ## Parameters
 `ppLocals`\

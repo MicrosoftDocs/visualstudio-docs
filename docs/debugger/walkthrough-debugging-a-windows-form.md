@@ -1,13 +1,12 @@
 ---
 title: "Debugging a Windows Form | Microsoft Docs"
-description: Follow a walkthrough to see how to create and debug a Windows Form, a common managed application. You can use C#, Visual Basic, C++, or F#.
+description: Follow a walkthrough to see how to create and debug a Windows Form, a common managed application. You can use C#, Visual Basic, or C++.
 
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
   - "VB"
-  - "FSharp"
   - "C++"
 helpviewer_keywords:
   - "debugging [Visual Studio], walkthroughs"
@@ -27,6 +26,8 @@ ms.workload:
   - "multiple"
 ---
 # Walkthrough: Debugging a Windows Form
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A Windows Form is one of the most common managed applications. A Windows Form creates a standard Windows application. You can complete this walkthrough using Visual Basic, C#, or C++.
 
  First, you must close any open solutions.
@@ -70,17 +71,21 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 
 10. In the function `button1_Click`., add the following code:
 
-    ```vb
-    textBox1.Text = "Button was clicked!"
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     textBox1.Text = "Button was clicked!";
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    textBox1.Text = "Button was clicked!"
+    ```
+
+    ### [C++](#tab/cpp)
     ```cpp
     textBox1->Text = "Button was clicked!";
     ```
+    ---
 
 11. On the **Build** menu, select **Build Solution**.
 
@@ -93,17 +98,21 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 
 1. In the source window, click the left margin on the same line as the text you added:
 
-     ```vb
-    textBox1.Text = "Button was clicked!"
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     textBox1.Text = "Button was clicked!";
     ```
 
+     ### [VB](#tab/vb)
+     ```vb
+    textBox1.Text = "Button was clicked!"
+    ```
+
+    ### [C++](#tab/cpp)
     ```cpp
     textBox1->Text = "Button was clicked!";
     ```
+    ---
 
      A red dot appears and the text on the line is highlighted in red. The red dot represents a breakpoint. For more information, see [Breakpoints](/previous-versions/ktf38f66(v=vs.100)). When you run the application under the debugger, the debugger will break execution at that location when the code is hit. You can then view the state of your application and debug it.
 
@@ -151,17 +160,21 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 
 1. In the project you created above, click in the left margin to once again set a breakpoint at the line you added:
 
-     ```vb
+    ### [VB](#tab/vb)
+    ```vb
     textBox1.Text = "Button was clicked!"
     ```
 
+    ### [C#](#tab/csharp)
     ```csharp
     textBox1.Text = "Button was clicked!";
     ```
 
+    ### [C++](#tab/cpp)
     ```cpp
     textBox1->Text = "Button was clicked!";
     ```
+    ---
 
 2. On the **Debug** menu, select **Start Without Debugging**.
 

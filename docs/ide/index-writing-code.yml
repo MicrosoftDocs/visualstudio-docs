@@ -60,13 +60,15 @@ landingContent:
     linkLists:
       - linkListType: tutorial
         links:
-          - text: Get started with C# and ASP.NET Core in Visual Studio
+          - text: Get started with C# and ASP.NET Core
             url: ../get-started/csharp/tutorial-aspnet-core.md
-          - text: Create a C++ console app in Visual Studio
+          - text: Create a console app with C++
             url: /cpp/get-started/tutorial-console-cpp
-          - text: Get started with Python in Visual Studio
+          - text: Get started with Python
             url: quickstart-python.md
+          - text: Create a console app with C#
+            url: ../get-started/csharp/tutorial-console.md
           - text: Create a console app with Visual Basic
-            url: quickstart-visual-basic-console.md
-          - text: Create a web app with Node.js
-            url: quickstart-nodejs.md
+            url: ../get-started/visual-basic/tutorial-console.md
+          - text: Create a Node.js and Express app
+            url: ../javascript/tutorial-nodejs.md

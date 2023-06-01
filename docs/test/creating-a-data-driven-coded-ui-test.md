@@ -1,7 +1,6 @@
 ---
 title: Data-Driven Coded UI Test tutorial
 description: Learn how to use data-driven coded UI tests to test different conditions by running your tests multiple times with different parameter values.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -14,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # Create a data-driven coded UI test
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To test different conditions, you can run your tests multiple times with different parameter values. Data-driven coded UI tests are a convenient way to do this. You define parameter values in a data source, and each row in the data source is an iteration of the coded UI test. The overall result of the test will be based on the outcome for all the iterations. For example, if one test iteration fails, the overall test result is failure.
 
@@ -97,7 +98,7 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
 
 1. Add a text file to the dataDrivenSample project named *data.csv*.
 
-     ![Add a comma seperated value file to the project](../test/media/cuit_datadriven_addcsvfile.png)
+     ![Add a comma separated value file to the project](../test/media/cuit_datadriven_addcsvfile.png)
 
 2. Populate the *.csv* file with the following data:
 
@@ -113,7 +114,7 @@ This sample creates a coded UI test that runs on the Windows Calculator applicat
 
 3. It is important to save the *.csv* file using the correct encoding. On the **File** menu, choose **Advanced Save Options** and choose **Unicode (UTF-8 without signature) - Codepage 65001** as the encoding.
 
-4. The *.csv* file, must be copied to the output directory, or the test can't run. Use the **Properties** window to copy it.
+4. The *.csv* file must be copied to the output directory, or the test can't run. Use the **Properties** window to copy it.
 
      ![Deploy the .csv file](../test/media/cuit_datadriven_deploycsvfile.png)
 

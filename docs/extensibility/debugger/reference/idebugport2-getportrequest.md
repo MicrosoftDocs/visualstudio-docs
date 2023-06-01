@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPort2::GetPortRequest
 ms.assetid: 14abf847-0675-4fa8-872e-971e00c84224
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPort2::GetPortRequest
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the description of a port that was previously used to create the port (if available).
 
 ## Syntax
 
-```cpp
-HRESULT GetPortRequest( 
-   IDebugPortRequest2** ppRequest
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPortRequest( 
    out IDebugPortRequest2 ppRequest
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPortRequest( 
+   IDebugPortRequest2** ppRequest
+);
+```
+---
 
 ## Parameters
 `ppRequest`\

@@ -9,8 +9,8 @@ helpviewer_keywords:
 - IDebugPendingBreakpoint2::Enable method
 - Enable method
 ms.assetid: 09e32d05-464b-40a6-a41d-76f2759cf2cd
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPendingBreakpoint2::Enable
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Toggles the enabled state of the pending breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT Enable(
-    BOOL fEnable
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Enable(
     int fEnable
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Enable(
+    BOOL fEnable
+);
+```
+---
 
 ## Parameters
 `fEnable`\

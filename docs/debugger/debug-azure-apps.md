@@ -1,7 +1,6 @@
 ---
 title: Debug Azure services | Microsoft Docs
 description: You can debug Azure services with Visual Studio. Use the links in this article to learn about the various ways to do this. 
-ms.custom: SEO-VS-2020
 ms.date: 09/14/2018
 ms.topic: how-to
 helpviewer_keywords: 
@@ -16,11 +15,17 @@ ms.workload:
 ---
 # Debug Azure services in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can use Visual Studio to debug Azure services in different scenarios:
 
 To debug a production app hosted in:
 
-- Azure App Service, using Visual Studio Enterprise, see [Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md).
+- Azure App Service
+
+  - Using Visual Studio Enterprise, see [Debug live ASP.NET apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md).
+
+  - Using attach to process in Visual Studio, see [Remote debug ASP.NET Core on Azure](../debugger/remote-debugging-azure-app-service.md).
 
 - Azure App Service or Service Fabric, using Application Insights, see [Debug snapshots on exceptions in .NET apps](/azure/application-insights/app-insights-snapshot-debugger).
 

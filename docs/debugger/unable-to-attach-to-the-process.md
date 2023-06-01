@@ -1,7 +1,6 @@
 ---
 title: "Unable to Attach to the Process | Microsoft Docs"
 description: Learn the meaning of "Unable to Attach to the Process", the two scenarios that cause it, and the solutions. 
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -19,6 +18,8 @@ ms.workload:
   - "multiple"
 ---
 # Unable to Attach to the Process
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Unable to attach to the process. Debugger component on server received access denied while connecting to this machine.
 
  There are two common scenarios that cause this error:

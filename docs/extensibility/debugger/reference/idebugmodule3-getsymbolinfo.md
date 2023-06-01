@@ -9,8 +9,8 @@ helpviewer_keywords:
 - GetSymbolInfo method
 - IDebugModule3::GetSymbolInfo method
 ms.assetid: dda5e8e1-6878-4aa9-9ee4-e7d0dcc11210
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,23 +20,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugModule3::GetSymbolInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of paths that are searched for symbols as well as the results of searching each path.
 
 ## Syntax
 
-```cpp
-HRESULT GetSymbolInfo(
-    SYMBOL_SEARCH_INFO_FIELDS  dwFields,
-    MODULE_SYMBOL_SEARCH_INFO* pInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSymbolInfo(
     enum_SYMBOL_SEARCH_INFO_FIELDS dwFields,
     MODULE_SYMBOL_SEARCH_INFO[]    pinfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSymbolInfo(
+    SYMBOL_SEARCH_INFO_FIELDS  dwFields,
+    MODULE_SYMBOL_SEARCH_INFO* pInfo
+);
+```
+---
 
 ## Parameters
 `dwFields`\

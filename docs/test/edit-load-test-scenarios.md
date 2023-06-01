@@ -1,7 +1,6 @@
 ---
 title: Load Test Scenarios
 description: Learn how to edit load test scenarios, which enable you to configure tests to simulate complex, realistic workloads.
-ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,6 +14,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # Edit load test scenarios
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A load test *scenario* specifies the load pattern, test mix, browser mix, and network mix. Scenarios are important because they enable you to configure tests to simulate complex, realistic workloads.
 

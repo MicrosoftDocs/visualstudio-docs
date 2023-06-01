@@ -1,7 +1,6 @@
 ---
 title: -ResetSettings (devenv.exe)
 description: Learn how to use the ResetSettings devenv command-line switch to restore Visual Studio default settings and automatically launch the Visual Studio IDE.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # /ResetSettings (devenv.exe)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Restores Visual Studio default settings and automatically launches the Visual Studio IDE. This switch optionally resets the settings to a specified settings file (`*.vssettings`).
 
@@ -55,7 +56,6 @@ devenv /ResetSettings [SettingsFile|DefaultCollectionSpecifier]
 ## Remarks
 
 If no *SettingsFile* is specified, the IDE opens using the existing settings. 
-
 
 ## Example
 

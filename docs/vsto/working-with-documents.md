@@ -1,7 +1,6 @@
 ---
 title: "Work with documents"
 description: Learn about the step-by-step procedures and code examples for using the object model of Microsoft Word to work with documents in Office projects.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -19,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Work with documents
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The topics in this section provide step-by-step procedures and code examples for using the object model of Microsoft Office Word to work with documents in Office projects.
 
  In some cases, the ways that you perform these tasks in VSTO Add-ins is different from the ways that you perform them in document-level customizations.

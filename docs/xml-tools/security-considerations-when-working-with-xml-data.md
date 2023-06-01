@@ -1,18 +1,19 @@
 ---
 title: "Security Considerations when Working with XML Data"
 description: Learn about security considerations when working with XML data in the XML editor or the XSLT debugger.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: fce2b708-1aef-454f-be59-52b76f359351
-author: TerryGLee
-ms.author: tglee
+author: dzsquared
+ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
 ms.workload:
   - "multiple"
 ---
 # Security considerations when working with XML data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic discusses security issues that you need to know about when working with the XML editor or the XSLT debugger.
 

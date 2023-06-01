@@ -1,7 +1,6 @@
 ---
 title: Web Projects in the Options dialog box
 description: Learn how to use the Web Projects options to set the web server that web projects will use for development within Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 07/14/2017
 ms.topic: reference
 f1_keywords:
@@ -15,6 +14,8 @@ ms.workload:
 - multiple
 ---
 # Options Dialog Box, Projects and Solutions, Web Projects
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Sets the web server that web projects will use for development within [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. To access these options, select **Tools > Options** expand **Projects and Solutions**, and select **Web Projects**.
 

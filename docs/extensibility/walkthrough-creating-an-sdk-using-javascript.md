@@ -1,18 +1,19 @@
 ---
 title: 'Walkthrough: Creating an SDK using JavaScript | Microsoft Docs'
 description: Learn how to use JavaScript to create a simple math SDK as a Visual Studio Extension by using this walkthrough.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: a8c89d5d-5b78-4435-817f-c5f25ca6d715
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Walkthrough: Create an SDK using JavaScript
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This walkthrough teaches how to use JavaScript to create a simple math SDK as a Visual Studio Extension (VSIX).  The walkthrough is divided into these parts:
 
 - [To create the SimpleMathVSIX extension SDK project](../extensibility/walkthrough-creating-an-sdk-using-javascript.md#createSimpleMathVSIX)

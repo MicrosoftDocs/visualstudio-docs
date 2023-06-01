@@ -1,20 +1,21 @@
 ---
 title: Web Site Support Templates | Microsoft Docs
 description: Learn about web site support templates. Visual Studio web site project and item templates provide reusable and customizable web site project and item stubs.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - we site projects, templates
 ms.assetid: 37173c97-486b-4b3c-8ed3-cf5890c4de23
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Web Site Support Templates
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Web site project and item templates provide reusable and customizable Web site project and item stubs that accelerate the development process by removing the need to create new Web site projects and items from scratch. For more information on [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] templates, see [Creating Project and Item Templates](../../ide/creating-project-and-item-templates.md).
 
 ## Project Template Folder

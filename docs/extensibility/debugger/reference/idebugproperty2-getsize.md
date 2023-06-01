@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProperty2::GetSize
 ms.assetid: 0deb8ec5-d6fb-4622-bb14-0c46b9459cc6
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty2::GetSize
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the size, in bytes, of the property value.
 
 ## Syntax
 
-```cpp
-HRESULT GetSize ( 
-   DWORD* pdwSize
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSize ( 
    out uint pdwSize
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSize ( 
+   DWORD* pdwSize
+);
+```
+---
 
 ## Parameters
 `pdwSize`\

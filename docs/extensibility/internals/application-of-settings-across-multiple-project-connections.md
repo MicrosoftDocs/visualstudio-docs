@@ -1,20 +1,21 @@
 ---
 title: Apply settings across multiple project connections
 description: Learn how to apply settings across multiple project connections by using a source control plug-in to execute a batch operation.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control plug-ins, application of settings
 ms.assetid: 2116d3d0-c46c-4d0a-b482-08a178584f46
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Application of settings across multiple project connections
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A source control plug-in built using the Source Control Plug-in API Version 1.2, can use a batch operation to execute the same source control operation across multiple projects or multiple connection contexts. Batches can be used to eliminate redundant, per-project dialog boxes from the user experience.
 
  If a user selects multiple items that belong to more than one connection in a source control plug-in built using the Source Control Plug-in API Version 1.1 (for example, two web projects on different file-share machines) and checks them out, the user sees the same dialog box repeatedly. This scenario occurs even if the user clicks the **Apply to All** check box in the dialog box, because the IDE resets its state for each connection context.

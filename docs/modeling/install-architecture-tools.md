@@ -10,7 +10,9 @@ ms.technology: vs-ide-modeling
 ---
 # Install Code Map and Live Dependency Validation
 
-To create a code map in Visual Studio, first install the **Code Map** and **Live Dependency Validation** components:
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+To create a code map in Visual Studio Enterprise, first install the **Code Map** and **Live Dependency Validation** components:
 
 1. Open **Visual Studio Installer**. You can open it from the Windows Start menu, or within Visual Studio by selecting **Tools** > **Get Tools and Features**.
 

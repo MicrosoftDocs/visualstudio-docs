@@ -1,9 +1,8 @@
 ---
 title: "&lt;Commands&gt; Element (Bootstrapper) | Microsoft Docs"
 description: The Commands element implements tests in the elements underneath InstallChecks and declares the package to install if the ClickOnce bootstrapper test fails.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "FSharp"
   - "VB"
@@ -20,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;Commands&gt; element (bootstrapper)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `Commands` element implements tests described by the elements underneath the `InstallChecks` element, and declares which package the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] bootstrapper should install if the test fails.
 
 ## Syntax

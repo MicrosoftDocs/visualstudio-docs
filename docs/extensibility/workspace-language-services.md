@@ -1,7 +1,6 @@
 ---
 title: "Workspaces and language services in Visual Studio | Microsoft Docs"
 description: Learn how language services can provide Open Folder users the same rich language features they are used to when working with solutions and projects.
-ms.custom: SEO-VS-2020
 ms.date: "02/21/2018"
 ms.topic: "conceptual"
 author: "vukelich"
@@ -11,6 +10,8 @@ ms.workload:
   - "vssdk"
 ---
 # Workspaces and language services
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Language services can provide [Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) users the same rich language features they are used to when working with solutions and projects. A language service might self-activate based on the file extension or content of an opened document though this "loose file" language service is limited to syntax highlighting. Additional information is required to provide a richer experience when editing/reviewing source code. Each language service has its own API for initialization with this extra contextual data for a document. This is typically managed by a project system, which is tightly coupled both to the language service and to the build system.
 

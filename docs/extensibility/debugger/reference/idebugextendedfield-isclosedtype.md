@@ -7,8 +7,8 @@ helpviewer_keywords:
 - IsClosedType
 - IDebugExtendedField::IsClosedType
 ms.assetid: 9136fc57-74ff-4fe4-a6e2-b137cb9d5b08
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,19 +18,23 @@ dev_langs:
 - CSharp
 ---
 # IDebugExtendedField::IsClosedType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the field represents a closed type.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int IsClosedType();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT IsClosedType(
    void
 );
 ```
-
-```csharp
-int IsClosedType();
-```
+---
 
 ## Return Value
  If the field is a closed type, returns `S_OK`; otherwise, returns `S_FALSE`.

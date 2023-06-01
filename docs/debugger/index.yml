@@ -1,17 +1,18 @@
 ### YamlMime:Landing
 
-title: Visual Studio debugger documentation # < 60 chars
+title: Debugger documentation - Visual Studio (Windows) # < 60 chars
 summary: The Visual Studio debugger helps you observe the run-time behavior of your program and find problems. # < 160 chars
 
 metadata:
-  title: Debugging in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
+  title: Debugger documentation - Visual Studio (Windows) # Required; page title displayed in search results. Include the brand. < 60 chars.
+  titleSuffix: ""
   description: Learn how to use Visual Studio to debug applications and code.
   ms.topic: landing-page
   ms.technology: vs-ide-debug
   author: mikejo5000
   ms.author: mikejo
   manager: jmartens
-  ms.date: 09/20/2019
+  ms.date: 09/26/2022
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -19,24 +20,10 @@ landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
   # Card (optional)
-  - title: About debugging
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: What is debugging?
-            url: what-is-debugging.md
-          - text: First look at the debugger
-            url: debugger-feature-tour.md
-          - text: FAQ - Find your debugging feature
-            url: find-your-debugging-task.yml
-
-  # Card (optional)
   - title: Get started
     linkLists:
       - linkListType: tutorial
         links:
-          - text: Debugging for absolute beginners
-            url: debugging-absolute-beginners.md
           - text: Learn to debug C#
             url: ../get-started/csharp/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
           - text: Learn to debug C++
@@ -45,29 +32,28 @@ landingContent:
             url: ../get-started/visual-basic/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
           - text: Run Python code in the debugger >>
             url: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
+          - text: Debugging for absolute beginners
+            url: debugging-absolute-beginners.md
 
-  # Card
-  - title: Pause and navigate code
+  - title: Fundamentals
     linkLists:
+      - linkListType: overview
+        links:
+          - text: First look at the debugger
+            url: debugger-feature-tour.md
+          - text: What is debugging?
+            url: what-is-debugging.md
       - linkListType: how-to-guide
         links:
-          - text: Navigate through code with the debugger
+          - text: Start the debugger
+            url: debugger-feature-tour.md#set-a-breakpoint-and-start-the-debugger
+          - text: Code stepping
             url: navigating-through-code-with-the-debugger.md
-          - text: Use breakpoints
+          - text: Set a breakpoint
             url: using-breakpoints.md
           - text: Edit code and continue debugging
             url: edit-and-continue.md
-
-  # Card
-  - title: Inspect data
-    linkLists:
-      - linkListType: how-to-guide
-        links:
-          - text: Inspect variables
-            url: autos-and-locals-windows.md
-          - text: Set a watch on variables
-            url: watch-and-quickwatch-windows.md
-          - text: View the call stack
+          - text: Call stack
             url: how-to-use-the-call-stack-window.md
 
     # Card
@@ -85,7 +71,18 @@ landingContent:
             url: using-the-debuggerdisplay-attribute.md
           - text: Debug performance issues >>
             url: ../profiling/profiling-feature-tour.md
-    # Card
+
+  # Card
+  - title: Inspect data
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Inspect variables
+            url: autos-and-locals-windows.md
+          - text: Set a watch on variables
+            url: watch-and-quickwatch-windows.md
+
+  # Card
   - title: Collaborate
     linkLists:
       - linkListType: tutorial

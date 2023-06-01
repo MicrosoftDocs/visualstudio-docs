@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugOutputStringEvent2::GetString
 ms.assetid: f059f8e0-ad44-49ac-ba90-73576ada5e06
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugOutputStringEvent2::GetString
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the displayable message.
 
 ## Syntax
 
-```cpp
-HRESULT GetString( 
-   BSTR* pbstrString
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetString( 
    out string pbstrString
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetString( 
+   BSTR* pbstrString
+);
+```
+---
 
 ## Parameters
 `pbstrString`\

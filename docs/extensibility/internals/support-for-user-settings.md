@@ -1,7 +1,6 @@
 ---
 title: Support for User Settings | Microsoft Docs
 description: Learn how to enable persistence of settings categories by using the settings APIs in the Visual Studio SDK.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,14 +8,16 @@ helpviewer_keywords:
 - user settings [Visual Studio SDK], registering persistence support
 - persistence, registering settings
 ms.assetid: ad9beac3-4f8d-4093-ad0e-6fb00444a709
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Support for User Settings
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A VSPackage may define one or more settings categories, which are groups of state variables that persist when a user chooses the **Import/Export Settings** command on the **Tools** menu. To enable this persistence, you use the settings APIs in the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)].
 
  A registry entry that is referred to as a Custom Settings Point and a GUID defines a VSPackage's settings category. A VSPackage can support multiple settings categories, each defined by a Custom Settings Point.

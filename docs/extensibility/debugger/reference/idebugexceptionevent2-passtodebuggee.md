@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExceptionEvent2::PassToDebuggee
 ms.assetid: a20d0f0b-2ca0-4437-bd22-9213c81d2738
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugExceptionEvent2::PassToDebuggee
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies whether the exception should be passed on to the program being debugged when execution resumes, or if the exception should be discarded.
 
 ## Syntax
 
-```cpp
-HRESULT PassToDebuggee(
-   BOOL fPass
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int PassToDebuggee(
    int fPass
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT PassToDebuggee(
+   BOOL fPass
+);
+```
+---
 
 ## Parameters
 `fPass`\

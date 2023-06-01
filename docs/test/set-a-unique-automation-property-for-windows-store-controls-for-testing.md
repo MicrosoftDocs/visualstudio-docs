@@ -1,7 +1,6 @@
 ---
 title: Set a unique automation property - testing UWP controls
 description: Learn how to assign a unique automation property based on the type of XAML control in your XAML-based UWP application to run a coded UI test.
-ms.custom: SEO-VS-2020
 ms.date: 05/31/2018
 ms.topic: how-to
 ms.author: mikejo
@@ -12,6 +11,8 @@ ms.workload:
 author: mikejo5000
 ---
 # Set a unique automation property for UWP controls for testing
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you want to run coded UI tests for your XAML-based UWP application, each control must be identified by a unique automation property. You can assign a unique automation property based on the type of XAML control in your application.
 

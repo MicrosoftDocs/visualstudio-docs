@@ -1,21 +1,22 @@
 ---
 title: Extending and Customizing Tool Windows | Microsoft Docs
 description: Learn about extending and customizing tool windows that Visual Studio provides, including the Properties window, the Output window, and the Task List window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - user interfaces, essentials
 - tool windows, standard
 ms.assetid: 46b2892e-7b2b-4b3f-83a7-b884f1e114ee
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Extend and customize tool windows
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio provides several different types of windows, for example tool windows, document windows, and dialog windows. Other windows such as the **Properties** window, the **Output** window, and the **Task List** window, are types of tool windows.
 
 ## Tool windows

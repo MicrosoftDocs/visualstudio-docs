@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProperty2::GetMemoryBytes
 ms.assetid: b32042ed-7a06-4b4a-99ef-fe03b0aa61cc
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty2::GetMemoryBytes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the memory bytes that compose the value of a property.
 
 ## Syntax
 
-```cpp
-HRESULT GetMemoryBytes ( 
-   IDebugMemoryBytes2** ppMemoryBytes
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMemoryBytes ( 
    out IDebugMemoryBytes2 ppMemoryBytes
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMemoryBytes ( 
+   IDebugMemoryBytes2** ppMemoryBytes
+);
+```
+---
 
 ## Parameters
 `ppMemoryBytes`\

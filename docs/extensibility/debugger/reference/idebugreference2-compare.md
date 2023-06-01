@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugReference2::Compare
 ms.assetid: 3361c495-2673-4b7c-82e3-dee74e1fa58d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugReference2::Compare
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Compares one reference to another. Reserved for future use.
 
 ## Syntax
 
-```cpp
-HRESULT Compare ( 
-   REFERENCE_COMPARE dwCompare,
-   IDebugReference2* pReference
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Compare ( 
    enum_REFERENCE_COMPARE dwCompare,
    IDebugReference2       pReference
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Compare ( 
+   REFERENCE_COMPARE dwCompare,
+   IDebugReference2* pReference
+);
+```
+---
 
 ## Parameters
 `dwCompare`\

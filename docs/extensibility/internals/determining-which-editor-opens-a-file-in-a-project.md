@@ -1,7 +1,6 @@
 ---
 title: Determining Which Editor Opens a File in a Project | Microsoft Docs
 description: Learn about the registry keys and Visual Studio SDK methods that are used by Visual Studio to determine which editor opens a file in a project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,14 +9,16 @@ helpviewer_keywords:
 - project types, determining which editor opens a file
 - persistence, determining which editor opens a file
 ms.assetid: acbcf4d8-a53a-4727-9043-696a47369479
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Determine which editor opens a file in a project
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When a user opens a file in a project, the environment goes through a polling process, eventually opening the appropriate editor or designer for that file. The initial procedure employed by the environment is the same for both standard and custom editors. The environment uses a variety of criteria when polling which editor to use to open a file and the VSPackage must coordinate with the environment during this process.
 
  For example, when a user selects the **Open** command from the **File** menu, and then chooses *filename.rtf* (or any other file with a *.rtf* extension), the environment calls the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.IsDocumentInProject%2A> implementation for each project, eventually cycling through all project instances in the solution. Projects return a set of flags that identify claims on a document by priority. Using the highest priority, the environment calls the appropriate <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.OpenItem%2A> method. For more information on the polling process, see [Add project and project item templates](../../extensibility/internals/adding-project-and-project-item-templates.md).

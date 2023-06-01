@@ -1,8 +1,9 @@
 ---
 title: Publish an ASP.NET web app
 description: Learn how to use the Publish tool to publish ASP.NET and ASP.NET Core to a website from Visual Studio. 
-ms.date: 10/22/2021
+ms.date: 01/25/2023
 ms.topic: quickstart
+ms.custom: devdivchpfy22
 helpviewer_keywords:
   - "deployment, web app"
 author: mikejo5000
@@ -13,12 +14,13 @@ monikerRange: '>= vs-2019'
 ms.workload:
   - "multiple"
 ---
-
 # Quickstart: Publish an ASP.NET web app
 
-In this article, you'll learn how to publish your first ASP.NET web app to a variety of locations including a local web server such as IIS and a remote cloud environment such as Azure App Service.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The steps in this article are supported for ASP.NET and ASP.NET Core.
+In this article, you'll learn how to publish your first ASP.NET web app to various locations including a local web server such as IIS and a remote cloud environment such as Azure App Service.
+
+This article supports ASP.NET and ASP.NET Core.
 
 ## Prerequisites
 
@@ -35,7 +37,7 @@ In Solution Explorer, right-click your project and choose **Publish**.
 
 ![right-click and publish](./media/right-click-publish.png)
 
-If this is your first time publishing this web app, next you see the Publish wizard.
+If you're publishing this web app for the first time, next you see the Publish wizard.
 
 ![publish wizard - publish targets](./media/publish-targets-general.png)
 
@@ -45,7 +47,7 @@ If this is your first time publishing this web app, next you see the Publish wiz
 ## [Azure](#tab/azure)
 ## Publish your web app to Azure
 
-For detailed steps, see [Quickstart: Deploy an ASP.NET web app](/azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app).
+For detailed steps on publishing your web app, see [Quickstart: Deploy an ASP.NET web app](/azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app).
 
 ## [Docker](#tab/docker)
 ## Publish your web app to Docker Container Registry
@@ -111,7 +113,7 @@ You can publish your web app using FTP or FTPS.
 
 Provide the necessary connection details and choose **Finish**.
 
-![publish to FTP or FTPS Server - details](./media/publish-ftp-details.png)
+![publish to FTP or FTPS Server - details](./media/publish-ftp-details-latest.png)
 
 Next, you see the summary page for the new [publish profile](./publish-overview.md) that you just created using the Publish wizard. Click **Publish** and Visual Studio deploys your web app to the provided FTP or FTPS Server.
 
@@ -126,7 +128,7 @@ You can publish your web app to IIS.
 
 ![publish to IIS](./media/publish-iis.png)
 
-Pick the desired deployment mode (if you are unsure, use the default).
+Pick the desired deployment mode (if you're unsure, use the default).
 
 ![publish to IIS - deployment mode](./media/publish-iis-deployment-mode.png)
 
@@ -134,7 +136,7 @@ Pick the desired deployment mode (if you are unsure, use the default).
 
 Provide the necessary connection details and choose **Finish**.
 
-![publish to IIS - Web Deploy](./media/publish-iis-web-deploy.png)
+![publish to IIS - Web Deploy](./media/publish-iis-web-deploy-latest.png)
 
 ### Web Deploy Package
 

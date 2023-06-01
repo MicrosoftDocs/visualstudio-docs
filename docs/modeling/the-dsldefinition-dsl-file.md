@@ -1,7 +1,6 @@
 ---
 title: The DslDefinition.dsl File
 description: Learn about the structure of the DslDefinition.dsl file in the Dsl project of a DSL Tools solution, which defines a domain-specific language.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -14,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # The DslDefinition.dsl File
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic describes the structure of the DslDefinition.dsl file in the Dsl project of a [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] solution, which defines a *domain-specific language*. The DslDefinition.dsl file describes the classes and relationships of a domain-specific language, together with the diagram, shapes, connectors, serialization format, and **Toolbox** of the domain-specific language and its editing tools. In a domain-specific language solution, the code that defines those tools is generated according to the information in the DslDefinition.dsl file.
 

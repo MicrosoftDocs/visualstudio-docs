@@ -60,7 +60,7 @@ namespace MatchingGame
     /// </summary>
     /// <param name="sender">The label that was clicked</param>
     /// <param name="e"></param>
-    private void label_Click(object sender, EventArgs e)
+    private void label1_Click(object sender, EventArgs e)
     {
         // The timer is only on after two non-matching 
         // icons have been shown to the player, 

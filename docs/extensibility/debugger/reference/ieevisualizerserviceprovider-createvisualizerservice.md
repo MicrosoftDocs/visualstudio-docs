@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IEEVisualizerServiceProvider::CreateVisualizerService method
 ms.assetid: f366f7c9-358d-46c8-993f-32ff86539833
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,20 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IEEVisualizerServiceProvider::CreateVisualizerService
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method creates a visualizer service.
 
 ## Syntax
 
-```cpp
-HRESULT CreateVisualizerService(
-   IDebugBinder*              binder,
-   IDebugSymbolProvider*      pSymProv,
-   IDebugAddress*             pAddress,
-   IEEVisualizerDataProvider* dataProvider,
-   IEEVisualizerService**     ppService
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateVisualizerService(
    IDebugBinder binder,
@@ -42,6 +35,17 @@ int CreateVisualizerService(
    out IEEVisualizerService  ppService
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateVisualizerService(
+   IDebugBinder*              binder,
+   IDebugSymbolProvider*      pSymProv,
+   IDebugAddress*             pAddress,
+   IEEVisualizerDataProvider* dataProvider,
+   IEEVisualizerService**     ppService
+);
+```
+---
 
 ## Parameters
 `binder`\

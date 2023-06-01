@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDisassemblyStream2::GetScope
 ms.assetid: 71c6e632-642a-42d8-a995-77e4ac190a5b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugDisassemblyStream2::GetScope
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the scope of the disassembly stream.
 
 ## Syntax
 
-```cpp
-HRESULT GetScope( 
-   DISASSEMBLY_STREAM_SCOPE* pdwScope
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetScope( 
    out enum_ DISASSEMBLY_STREAM_SCOPE pdwScope
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetScope( 
+   DISASSEMBLY_STREAM_SCOPE* pdwScope
+);
+```
+---
 
 ## Parameters
 `pdwScope`\

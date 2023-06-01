@@ -1,8 +1,8 @@
 ---
-title: Time Travel Debugging live ASP.NET on Azure VM
-description: Learn how to record and replay live ASP.NET apps on Azure virtual machines using the Snapshot Debugger.
-ms.custom: SEO-VS-2020
-ms.date: 04/11/2019
+title: Time travel debugging for live ASP.NET apps on Azure VMs
+description: Use the Visual Studio Snapshot Debugger with Time Travel Debugging (TTD) to record and replay live ASP.NET apps on Azure VMs.
+ms.custom: kr2b-contr-experiment
+ms.date: 06/09/2022
 ms.topic: how-to
 helpviewer_keywords: 
   - debugger
@@ -14,100 +14,107 @@ ms.workload:
   - aspnet
   - azure
 ---
-# Record and replay live ASP.NET apps on Azure virtual machines using the Snapshot Debugger
+# Use time travel debugging to record and replay ASP.NET apps on Azure VMs
 
-The Time Travel Debugging (TTD) preview in Visual Studio Enterprise provides the ability to record a Web app running on an Azure Virtual Machine (VM) and then accurately reconstruct and replay the execution path. TTD integrates with the Snapshot Debugger and allows you to rewind and replay each line of code any number of times you want, helping you isolate and identify problems that might only occur in production environments.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Capturing a TTD recording will not halt the application. However, the TDD recording adds significant overhead to your running process, slowing it down based on factors that include the process size and the number of active threads.
+Time travel debugging in Visual Studio Enterprise can record a web app running on an Azure virtual machine (VM), and then accurately reconstruct and replay the execution path. Time Travel Debugging (TTD) was added to Visual Studio 2019 Enterprise as a preview feature, and is now integrated into the Visual Studio Snapshot Debugger.
 
-This feature is in preview for the release of Visual Studio 2019 with a go live license.
+Time travel debugging lets you rewind and replay each line of code as many times as you want. This procedure can help you isolate and identify problems that might occur only in production environments.
 
-In this tutorial, you will:
+Capturing a time travel debugging recording doesn't halt your app, but it adds significant overhead to the running process. The amount of slowdown depends on factors like process size and the number of active threads.
+
+In this tutorial, you:
 
 > [!div class="checklist"]
-> * Start the Snapshot Debugger with Time Travel Debugging enabled
-> * Set a snappoint and collect a time travel recording
-> * Start debugging a time travel recording
+> * Start the Snapshot Debugger with TTD.
+> * Set a snappoint and collect a time travel recording.
+> * Debug the time travel recording.
 
 ## Prerequisites
 
-* Time Travel Debugging for Azure Virtual Machines (VM) is only available for Visual Studio 2019 Enterprise or higher with the **Azure development workload**. (Under the **Individual components** tab, you find it under **Debugging and testing** > **Snapshot debugger**.)
+- [Visual Studio Enterprise 2019 or higher](https://visualstudio.microsoft.com/vs) with the **Azure development workload** installed.
 
-    If it's not already installed, install [Visual Studio 2019 Enterprise](https://visualstudio.microsoft.com/vs/).
+  In the Visual Studio Installer, make sure **Snapshot Debugger** is selected under **Debugging and testing** on the **Individual components** tab.
 
-* Time Travel Debugging is available for the following Azure VM web apps:
-  * ASP.NET applications (AMD64) running on .NET Framework 4.8 or later.
+- An ASP.NET (AMD64) web app running on .NET Framework 4.8 or later on an Azure VM.
 
-## Start the Snapshot Debugger with Time Travel Debugging enabled
+## Attach the Snapshot Debugger
 
-1. Open the project for which you would like to collect a time travel recording.
+1. Open the project for the app you want to debug.
 
-    > [!IMPORTANT]
-    > To start TTD, you need to open the *same version of source code* that is published to your Azure VM service.
+   > [!IMPORTANT]
+   > Make sure to open the same version of source code that's published to your Azure VM.
 
-1. Choose **Debug > Attach Snapshot Debugger...**. Select the Azure VM your web app is deployed to and an Azure storage account. Select the **Enable the Time Travel Debugging** preview option and then click **Attach**.
+1. Choose **Debug > Attach Snapshot Debugger**. Select the Azure VM your web app is deployed to, and an Azure Storage account, and then select **Attach**.
 
-      ![Select Azure Resource](../debugger/media/time-travel-debugging-select-azure-resource-vm.png)
+   ![Screenshot that shows selecting an Azure resource.](../debugger/media/time-travel-debugging-select-azure-resource-new.png)
 
-    > [!IMPORTANT]
-    > The first time you select **Attach Snapshot Debugger** for your VM, IIS is automatically restarted.
+   > [!IMPORTANT]
+   > The first time you select **Attach Snapshot Debugger**, IIS automatically restarts on your VM.
 
-    The metadata for the **Modules** is not initially activated. Navigate to the web app and the **Start Collection** button then becomes active. Visual Studio is now in snapshot debugging mode.
+1. Visual Studio is now in snapshot debugging mode.
 
-   ![Snapshot debugging mode](../debugger/media/snapshot-message.png)
+   ![Screenshot that shows snapshot debugging mode.](../debugger/media/snapshot-message.png)
 
-    > [!NOTE]
-    > The Application Insights site extension also supports Snapshot Debugging. If you encounter a "site extension out of date" error message, see [troubleshooting tips and known issues for snapshot debugging](../debugger/debug-live-azure-apps-troubleshooting.md) for upgrading details.
+   > [!NOTE]
+   > The Application Insights site extension also supports Snapshot Debugging. If you get a **site extension out of date** error message, see [Site Extension Upgrade](../debugger/debug-live-azure-apps-troubleshooting.md#site-extension-upgrade) for upgrading details.
 
-   The **Modules** window shows you when all the modules are loaded for the Azure VM (choose **Debug > Windows > Modules** to open this window).
+1. The metadata for the modules isn't initially activated. Navigate to the web app to load the modules.
 
-   ![Check the Modules window](../debugger/media/snapshot-modules.png)
+   The **Modules** window shows you when all the modules are loaded for the Azure VM. To open the **Modules** window, select **Debug** > **Windows** > **Modules**.
 
-## Set a snappoint and collect a time travel recording
+   ![Screenshot that shows the Modules window.](../debugger/media/snapshot-modules.png)
 
-1. In the code editor, click the left gutter in a method you are interested in to set a snappoint. Make sure it is code that you know will execute.
+   Once all modules are loaded, you can select the **Start Collection** button in the Visual Studio toolbar.
 
-   ![Set a snappoint](../debugger/media/time-travel-debugging-set-snappoint-settings.png)
+## Set a snappoint
 
-1. Right-click the snappoint icon (the hollow ball) and choose **Actions**. In the **Snapshot Settings** window, click the **Action** check box. Then click the **Collect a time travel trace to the end of this method** check box.
+1. To set a snappoint, in the code editor, click the left gutter next to a method you're interested in. Make sure you know that the code executes.
 
-   ![Collect a time travel trace to the end of the method](../debugger/media/time-travel-debugging-set-snappoint-action.png)
+   ![Screenshot that shows setting a snappoint in the code editor.](../debugger/media/time-travel-debugging-set-snappoint-settings.png)
 
-1. Click **Start Collection** to turn on the snappoint.
+1. Right-click the snappoint hollow sphere icon and choose **Actions** to show the **Snapshot Settings** window.
 
-   ![Turn on the snappoint](../debugger/media/snapshot-start-collection.png)
+   ![Screenshot that shows the Snapshot Settings window.](../debugger/media/time-travel-debugging-set-snappoint-new.png)
 
-## Take a snapshot
+## Take the snapshot
 
-When a snappoint is turned on, it captures a snapshot whenever the line of code where the snappoint is placed executes. This execution may be caused by a real request on your server. To force your snappoint to hit, go to the browser view of your web site and take any actions required that cause your snappoint to be hit.
+Select **Start Collection** in the toolbar to turn on the snappoint.
 
-## Start debugging a time travel recording
+![Screenshot that shows selecting Start Collection to turn on the snappoint.](../debugger/media/snapshot-start-collection.png)
 
-1. When the snappoint is hit, a snapshot appears in the Diagnostic Tools window. To open this window, choose **Debug > Windows > Show Diagnostic Tools**.
+When you turn on the snappoint, it captures a snapshot when the line of code it's placed on executes. The execution might require a request on your server. To force your snappoint to hit, go to the browser view of your website and take any required actions.
 
-   ![Open a snappoint](../debugger/media/snapshot-diagsession-window.png)
+By default, the snappoint captures only one snapshot. After the snappoint captures a snapshot, it turns off. If you want to capture another snapshot at the snappoint, you can turn the snappoint back on by selecting **Update Collection**.
 
-1. Click the View Snapshot link to open the time travel recording in the code editor.
-  
-   You can execute every line of code recorded by the TTD by using the **Continue** and **Reverse Continue** buttons. Additionally, the **Debug** toolbar can be used to **Show Next Statement**, **Step Into**, **Step Over**, **Step Out**, **Step Back Into**, **Step Back Over**, **Step Back Out**.
+## Debug a time travel recording
 
-   ![Start Debugging](../debugger/media/time-travel-debugging-step-commands.png)
+1. When the snappoint is hit, a snapshot appears in the **Diagnostic Tools** window. If this window isn't open, open it by selecting **Debug** > **Windows** > **Show Diagnostic Tools**.
 
-   You can also use the **Locals**, **Watches**, and **Call Stack** windows, and also evaluate expressions.
+   ![Screenshot that shows the snapshot in the Diagnostic Tools window.](../debugger/media/snapshot-diagsession-window.png)
 
-   ![Inspect snapshot data](../debugger/media/time-travel-debugging-start-debugging.png)
+1. Select **View Snapshot** to open the time travel recording in the code editor.
 
-    The website itself is still live and end users aren't impacted by any subsequent TTD activity. Only one snapshot is captured per snappoint by default: after a snapshot is captured the snappoint turns off. If you want to capture another snapshot at the snappoint, you can turn the snappoint back on by clicking **Update Collection**.
+   - You can execute every line of code that time travel debugging recorded by using the **Continue** and **Reverse Continue** buttons.
 
-**Need help?** See the [Troubleshooting and known issues](../debugger/debug-live-azure-apps-troubleshooting.md) and [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.yml) pages.
+   - You can also use the **Debug** toolbar to **Show Next Statement**, **Step Into**, **Step Over**, **Step Out**, **Step Back Into**, **Step Back Over**, and **Step Back Out**.
+
+     ![Screenshot that shows the Debug toolbar.](../debugger/media/time-travel-debugging-step-commands.png)
+
+   - You can also use the Visual Studio **Locals**, **Watches**, and **Call Stack** windows, and evaluate expressions.
+
+The website is still live, and end users aren't impacted by time travel debugging activity.
+
+For more information and help, see [Troubleshooting and known issues for snapshot debugging in Visual Studio](../debugger/debug-live-azure-apps-troubleshooting.md).
 
 ## Set a conditional snappoint
 
-If it is difficult to recreate a particular state in your app, consider whether the use of a conditional snappoint can help. Conditional snappoints help you avoid collecting a time travel recording until the app enters a desired state, such as when a variable has a particular value that you want to inspect. [You can set conditions using expressions, filters, or hit counts](../debugger/debug-live-azure-apps-troubleshooting.md).
+If it's difficult to recreate a particular state in your app, consider using a conditional snappoint. Conditional snappoints help you avoid collecting a recording until the app enters a desired state, such as when a variable has a particular value. For more information about setting conditions based on expressions, filters, or hit counts, see [Breakpoint conditions](using-breakpoints.md#breakpoint-conditions).
 
 ## Next steps
 
-In this tutorial, you've learned how to collect a time travel recording for Azure Virtual Machines. You may want to read more details about Snapshot Debugger.
+In this tutorial, you learned how to use the Snapshot Debugger to collect a time travel recording for Azure VMs. Learn more about snapshot debugging:
 
 > [!div class="nextstepaction"]
 > [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.yml)

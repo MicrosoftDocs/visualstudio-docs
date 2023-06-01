@@ -1,7 +1,6 @@
 ---
 title: Choosing Between Shared and Versioned VSPackages | Microsoft Docs
 description: Learn about side-by-side installations of VSPackages through shared or versioned strategies, with multiple versions of Visual Studio and of the .NET Framework.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,14 +8,16 @@ helpviewer_keywords:
 - side-by-side installation
 - installation [Visual Studio SDK], side-by-side
 ms.assetid: e3128ac3-2e92-48e9-87ab-3b6c9d80e8c9
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Choose between shared and versioned VSPackages
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Different versions of Visual Studio can coexist on the same computer. VSPackages can support any mix of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] versions.
 
  You can enable side-by-side installations of VSPackages through either of two strategies, the shared strategy or the versioned strategy. Both accommodate the presence of multiple versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and associated versions of the .NET Framework.

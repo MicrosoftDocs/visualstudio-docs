@@ -1,7 +1,6 @@
 ---
 title: ShowWebBrowser Command
 description: Learn about the Show Web Browser command and how it displays the URL you specify in a web browser window either within the IDE or external to the IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -18,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # ShowWebBrowser Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Displays the URL you specify in a web browser window either within the integrated development environment (IDE) or external to the IDE.
 
@@ -45,10 +46,10 @@ Optional. Specifies that the page appears in the default web browser outside of 
 The alias for the **ShowWebBrowser** command is **navigate** or **nav**.
 
 ## Example
-The following example displays the Microsoft Docs home page in a web browser outside of the IDE. If an instance of the web browser is already open, it is used; otherwise a new instance is launched.
+The following example displays the Microsoft Learn home page in a web browser outside of the IDE. If an instance of the web browser is already open, it is used; otherwise a new instance is launched.
 
 ```cmd
->View.ShowWebBrowser https://docs.microsoft.com /ext
+>View.ShowWebBrowser https://learn.microsoft.com /ext
 ```
 
 ## See also

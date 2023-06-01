@@ -1,7 +1,6 @@
 ---
 title: "Work with ranges"
 description: Learn that the NamedRange and Range classes contain the methods and properties you use to perform tasks with ranges.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -20,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Work with ranges
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Tools.Excel.NamedRange> and <xref:Microsoft.Office.Interop.Excel.Range> classes contain the methods and properties you use to perform tasks with ranges.
 
 |Task|Procedure|

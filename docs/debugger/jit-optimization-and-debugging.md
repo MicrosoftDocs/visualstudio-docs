@@ -1,7 +1,6 @@
 ---
 title: "JIT Optimization and Debugging | Microsoft Docs"
 description: Code that is optimized is more difficult to debug than code that isn't. Learn about JIT optimization, and about when and how to suppress it.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -21,6 +20,8 @@ ms.workload:
   - "multiple"
 ---
 # JIT Optimization and Debugging
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If you are trying to debug code, it is easier when that code is **NOT** optimized. When code is optimized, the compiler and runtime make changes to the emitted CPU code so that it runs faster, but has a less direct mapping to original source code. If the mapping is less direct, debuggers are frequently unable to tell you the value of local variables, and code stepping and breakpoints might not work as you expect.
 
 > [!NOTE]
@@ -52,15 +53,41 @@ There are two situations where turning on this option will **NOT** work:
 1. In situations where you are attaching the debugger to an already running process, this option will have no effect on modules that were already loaded at the time the debugger was attached.
 2. This option has no effect on DLLs that have been pre-compiled (a.k.a ngen'ed) to native code. However, you can disable usage of pre-compiled code by starting the process with the environment variable **'COMPlus_ReadyToRun'** set to **'0'**. This will tell the .NET Core runtime to disable the use of pre-compiled images, forcing the runtime to JIT compile framework code. 
 
-    > [!IMPORTANT]
-    > If you are targeting .NET Framework or an older version of .NET Core (2.x or lower), also add the environment variable 'COMPlus_ZapDisable' and set it to '1'
+   If you are targeting the .NET Framework, add the environment variable **'COMPlus_ZapDisable'** and set it to **'1'**. 
+   
+Set `"COMPlus_ReadyToRun": "0"`  by adding it to each profile in the *Properties\launchSettings.json* file:
 
-    **To set an environmental variable for a .NET Core project in Visual Studio:**
-    1. In the **Solution Explorer**, **right-click** the project file and select **Properties**.
-    2. Navigate to the **Debug** tab and under **Environment variables**, click the **Add** button.
-    3. Set Name (Key) to **COMPlus_ReadyToRun** and set Value to **0**.
-
-    ![Set COMPlus_ReadyToRun environment variable](../debugger/media/environment-variables-debug-menu.png "Set COMPlus_ReadyToRun environment variable")
+```json
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:59694/",
+      "sslPort": 44320
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "COMPlus_ReadyToRun": "0"
+      }
+    },
+    "HttpLoggingSample": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "COMPlus_ReadyToRun": "0"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}
+```
 
 ## See also
 - [How To Debug Dotnet Framework Source](../debugger/how-to-debug-dotnet-framework-source.md)

@@ -9,8 +9,8 @@ helpviewer_keywords:
 - IDebugPendingBreakpoint2::Delete method
 - Delete method
 ms.assetid: 4cb5ed81-6f0c-41ce-a770-5adb6b4bf5d9
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,19 +20,23 @@ dev_langs:
 - CSharp
 ---
 # IDebugPendingBreakpoint2::Delete
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Deletes this pending breakpoint and all breakpoints bound from it.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Delete();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Delete(
     void
 );
 ```
-
-```csharp
-int Delete();
-```
+---
 
 ## Return Value
 If successful, returns `S_OK`; otherwise, returns an error code. Returns `E_BP_DELETED` if the breakpoint has been deleted.

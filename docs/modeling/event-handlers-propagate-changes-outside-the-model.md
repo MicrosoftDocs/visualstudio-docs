@@ -1,7 +1,6 @@
 ---
 title: Event Handlers Propagate Changes Outside the Model
 description: Learn that in the Visualization and Modeling SDK, you can define store event handlers to propagate changes to resources outside the store.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,6 +14,8 @@ ms.workload:
 - multiple
 ---
 # Event Handlers Propagate Changes Outside the Model
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In Visualization and Modeling SDK, you can define store event handlers to propagate changes to resources outside the store, such as non-store variables, files, models in other stores, or other Visual Studio extensions. Store event handlers are executed after the end of the transaction in which the triggering event occurred. They are also executed in an Undo or Redo operation. Therefore, unlike store rules, store events are most useful for updating values that are outside the store. Unlike .NET events, store event handlers are registered to listen to a class: you do not have to register a separate handler for each instance. For more information about how to choose between different ways to handle changes, see [Responding to and Propagating Changes](../modeling/responding-to-and-propagating-changes.md).
 

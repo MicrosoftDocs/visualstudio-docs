@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugObject2::GetBackingFieldForProperty method
 ms.assetid: e72c6338-5573-4fad-8075-f3ade3435424
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject2::GetBackingFieldForProperty
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the field or variable (if any) that may be backing the property represented by this object.
 
 ## Syntax
 
-```cpp
-HRESULT GetBackingFieldForProperty(
-   IDebugObject2** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetBackingFieldForProperty(
    out IDebugObject2 ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetBackingFieldForProperty(
+   IDebugObject2** ppObject
+);
+```
+---
 
 ## Parameters
 `ppObject`\

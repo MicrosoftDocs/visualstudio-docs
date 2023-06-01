@@ -1,9 +1,8 @@
 ---
 title: "Executable for Debugging Session Dialog Box | Microsoft Docs"
 description: To debug a DLL you must specify an executable to call the DLL. Learn about the dialog box that appears when no executable is specified.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.exefordebug"
 dev_langs:
@@ -25,6 +24,8 @@ ms.workload:
   - "multiple"
 ---
 # Executable for Debugging Session Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This dialog box appears when you try to debug a DLL for which no executable is specified. Visual Studio can't launch a DLL directly. Instead, Visual Studio launches the specified executable. You can debug the DLL when it's called by the executable.
 

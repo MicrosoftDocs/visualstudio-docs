@@ -1,7 +1,6 @@
 ---
 title: Code Generation in a Build Process
 description: Learn how text transformation can be invoked as part of the build process of a Visual Studio solution.
-ms.custom: SEO-VS-2020
 ms.date: 03/22/2018
 ms.topic: how-to
 helpviewer_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # Invoke text transformation in the build process
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [Text transformation](../modeling/code-generation-and-t4-text-templates.md) can be invoked as part of the [build process](/azure/devops/pipelines/index) of a Visual Studio solution. There are build tasks that are specialized for text transformation. The T4 build tasks run design-time text templates, and they also compile run-time (preprocessed) text templates.
 
@@ -58,28 +59,23 @@ In **Solution Explorer**, choose **Unload** from the right-click menu of your pr
 
 ## Import the text transformation targets
 
-In the .vbproj or .csproj file, find a line like this:
+In the .vbproj or .csproj file, find the last `Import Project` line.
 
-`<Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />`
+After that line, if it exists, insert the Text Templating import:
 
-\- or -
 
-`<Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />`
-
-After that line, insert the Text Templating import:
-
-::: moniker range=">=vs-2019"
+::: moniker range=">=vs-2022"
 
 ```xml
-<Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v16.0\TextTemplating\Microsoft.TextTemplating.targets" />
+<Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v17.0\TextTemplating\Microsoft.TextTemplating.targets" />
 ```
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
+::: moniker range="vs-2019"
 
 ```xml
-<Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets" />
+<Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v16.0\TextTemplating\Microsoft.TextTemplating.targets" />
 ```
 
 ::: moniker-end
@@ -240,13 +236,16 @@ The project folder is: <#= ProjectFolder #>
 
 In a directive processor, you can call [ITextTemplatingEngineHost.ResolveParameterValue](/previous-versions/visualstudio/visual-studio-2012/bb126369\(v\=vs.110\)):
 
+### [C#](#tab/csharp)
 ```csharp
 string value = Host.ResolveParameterValue("-", "-", "parameterName");
 ```
 
+### [VB](#tab/vb)
 ```vb
 Dim value = Host.ResolveParameterValue("-", "-", "parameterName")
 ```
+---
 
 > [!NOTE]
 > `ResolveParameterValue` gets data from `T4ParameterValues` only when you use MSBuild. When you transform the template using Visual Studio, the parameters have default values.
@@ -298,16 +297,15 @@ If you update an included file or another file read by the template, Visual Stud
 
 ## See also
 
-::: moniker range="vs-2017"
+::: moniker range=">=vs-2022"
 
-- There's good guidance in the T4 MSbuild template at `%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\msbuild\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets`
+- There's good guidance in the T4 MSbuild template at `%ProgramFiles%\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VisualStudio\v17.0\TextTemplating\Microsoft.TextTemplating.targets`
 
 ::: moniker-end
 
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 
 - There's good guidance in the T4 MSbuild template at `%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Enterprise\msbuild\Microsoft\VisualStudio\v16.0\TextTemplating\Microsoft.TextTemplating.targets`
-
-::: moniker-end
+:::moniker-end
 
 - [Write a T4 text template](../modeling/writing-a-t4-text-template.md)

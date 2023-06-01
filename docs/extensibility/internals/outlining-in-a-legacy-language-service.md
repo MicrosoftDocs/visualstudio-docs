@@ -1,7 +1,6 @@
 ---
 title: Outlining in a Legacy Language Service | Microsoft Docs
 description: Learn how to support outlining through the implementation of hidden regions in a legacy language service.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,14 +8,16 @@ helpviewer_keywords:
 - language services [managed package framework], outlining
 - outlining, supporting in language services [managed package framework]
 ms.assetid: 7b5578b4-a20a-4b94-ad4c-98687ac133b9
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Outlining in a Legacy Language Service
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Outlining makes it possible to collapse a complex program into an overview or outline. For example, in C# all methods can be collapsed to a single line, showing only the method signature. In addition, structures and classes can be collapsed to show only the names of the structures and classes. Inside a single method, complex logic can be collapsed to show the overall flow by showing only the first line of statements such as `foreach`, `if`, and `while`.
 
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more, see [Walkthrough: Outlining](../../extensibility/walkthrough-outlining.md).

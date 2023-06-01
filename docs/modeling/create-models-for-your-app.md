@@ -1,7 +1,6 @@
 ---
 title: Create models for your app
 description: Learn how modeling diagrams help you understand, clarify, and communicate ideas about your code and the user requirements that your software system must support.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -26,6 +25,8 @@ ms.workload:
 - multiple
 ---
 # Create models for your app
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Modeling diagrams help you understand, clarify, and communicate ideas about your code and the user requirements that your software system must support.
 

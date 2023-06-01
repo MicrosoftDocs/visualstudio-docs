@@ -1,7 +1,6 @@
 ---
 title: C++ Structures in Class Designer
 description: Learn about how Class Designer supports C++ structures declared with the keyword struct.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,6 +14,8 @@ ms.workload:
 - cplusplus
 ---
 # C++ structures in Class Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Class Designer** supports C++ structures, which are declared with the keyword `struct`. Following is an example:
 

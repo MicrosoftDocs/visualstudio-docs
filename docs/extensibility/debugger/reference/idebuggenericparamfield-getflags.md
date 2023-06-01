@@ -7,8 +7,8 @@ helpviewer_keywords:
 - GetFlags
 - IDebugGenericParamField::GetFlags
 ms.assetid: adcbbca1-8960-4c88-86b0-8b9467056c97
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugGenericParamField::GetFlags
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the flags for this generic parameter.
 
 ## Syntax
 
-```cpp
-HRESULT GetFlags(
-    DWORD* pdwFlags
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetFlags(
     ref uint pdwFlags
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetFlags(
+    DWORD* pdwFlags
+);
+```
+---
 
 ## Parameters
 `pdwFlags`\

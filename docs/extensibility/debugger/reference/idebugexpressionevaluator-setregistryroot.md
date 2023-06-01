@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExpressionEvaluator::SetRegistryRoot method
 ms.assetid: 790886d8-1975-4d3c-9a75-cd86c1faf4ca
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpressionEvaluator::SetRegistryRoot
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method sets the registry root. Used for side-by-side debugging.
 
 ## Syntax
 
-```cpp
-HRESULT SetRegistryRoot ( 
-   LPCOLESTR ustrRegistryRoot
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetRegistryRoot(
    string ustrRegistryRoot
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetRegistryRoot ( 
+   LPCOLESTR ustrRegistryRoot
+);
+```
+---
 
 ## Parameters
 `ustrRegistryRoot`\

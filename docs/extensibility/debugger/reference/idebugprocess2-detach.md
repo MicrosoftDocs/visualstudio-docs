@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProcess2::Detach
 ms.assetid: ee2b9084-2db1-4e49-a1d9-387284b7c3f8
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,23 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess2::Detach
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Detaches the debugger from this process by detaching all of the programs in the process.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Detach();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Detach( 
    void 
 );
 ```
-
-```csharp
-int Detach();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

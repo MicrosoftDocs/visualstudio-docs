@@ -1,7 +1,6 @@
 ---
 title: Create web templates
 description: Learn how to manually create a web template and identify the programing language that the template uses.
-ms.custom: SEO-VS-2020
 ms.date: 01/02/2018
 ms.topic: how-to
 helpviewer_keywords:
@@ -15,6 +14,8 @@ manager: jmartens
 ms.technology: vs-ide-general
 ---
 # How to: Manually create web templates
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Creating a web template is different than creating other kinds of templates. Because web project templates appear in the **Add New Web Site** dialog box, and web project items are categorized by programming language, the *vstemplate* file must specify the template as a web template and identify the programming language.
 

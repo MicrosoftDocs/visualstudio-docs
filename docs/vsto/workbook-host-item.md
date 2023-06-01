@@ -1,7 +1,6 @@
 ---
 title: "Workbook host item"
 description: Learn that the Workbook host item is a type that extends the Workbook type from the primary interop assembly for Microsoft Excel.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -25,6 +24,8 @@ ms.workload:
   - "office"
 ---
 # Workbook host item
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Tools.Excel.Workbook> host item is a type that extends the <xref:Microsoft.Office.Interop.Excel.Workbook> type from the primary interop assembly for Excel. The <xref:Microsoft.Office.Tools.Excel.Workbook> host item provides all of the same properties, methods, and events as a <xref:Microsoft.Office.Interop.Excel.Workbook> object, but it also provides additional features.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]

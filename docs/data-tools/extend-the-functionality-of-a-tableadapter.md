@@ -1,7 +1,6 @@
 ---
 title: Extend the functionality of a TableAdapter
 description: Learn to extend the functionality of a TableAdapter by adding code to the TableAdapter's partial class file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -20,6 +19,10 @@ ms.workload:
 - data-storage
 ---
 # Extend the functionality of a TableAdapter
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 You can extend the functionality of a TableAdapter by adding code to the TableAdapter's partial class file.
 
@@ -43,8 +46,12 @@ The following example assumes a TableAdapter named `CustomersTableAdapter`is in 
 
 4. Replace the code with the correct namespace and partial class name for your project as follows:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataTableAdapters/CS/CustomersTableAdapterExtended.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataTableAdapters/VB/CustomersTableAdapterExtended.vb" id="Snippet2":::
+     ---
 
 ## See also
 

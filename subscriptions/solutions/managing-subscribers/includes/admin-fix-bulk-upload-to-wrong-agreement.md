@@ -3,9 +3,9 @@ title:  Resolve bulk upload issues
 description: The super admin or admin thought they assigned the users to the new agreement, but they added the users to the wrong agreement.
 ms.topic: include
 ms.assetid: 273f5f7a-739e-4de0-b7f7-d0bdd616e059
-author: CaityBuschlen
-ms.author: cabuschl
-ms.date:  06/01/2021
+author: evanwindom
+ms.author: amast
+ms.date:  05/02/2023
 user.type: admin
 tags: bulk, upload
 subscription.type: vl, cloud, retail, partner
@@ -30,4 +30,4 @@ If the users were added through an Azure AD group, you need to remove the users 
 
 ## Impact of moving subscriptions
 
-When subscribers are moved to a new agreement, they receive a new subscription ID. This change breaks the link with their Azure subscription associated with the monthly Azure credit benefit. When the link is broken, the old Azure subscription is subject to eventual deactivation. To avoid disruption, subscribers need to create a new Azure subscription by using the benefit in their new Visual Studio subscription, and then [transfer any existing Azure assets](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) from the old Azure subscription to the new one.
+When subscribers are moved to a new agreement, they receive a new subscription ID. This change breaks the link with their Azure subscription associated with the monthly Azure credit benefit. When the link is broken, the old Azure subscription is subject to eventual deactivation. To avoid disruption, subscribers need to create a new Azure subscription by using the benefit in their new Visual Studio subscription, and then [transfer any existing Azure assets](https://learn.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) from the old Azure subscription to the new one.

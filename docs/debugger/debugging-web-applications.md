@@ -1,7 +1,6 @@
 ---
 title: "Debugging Web Applications | Microsoft Docs"
 description: Find links to help you debug different types of web applications, such as ASP.NET apps, JavaScript and TypeScript apps, or AJAX script apps.
-ms.custom: SEO-VS-2020
 ms.date: "11/05/2019"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -18,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Debugging Web Applications
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article provides links to help you debug different types of web applications.
 

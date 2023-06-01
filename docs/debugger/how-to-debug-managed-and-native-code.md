@@ -2,7 +2,7 @@
 title: "Tutorial: Debug C# and C++ code (mixed mode)"
 description: Learn how to debug a native DLL from a .NET Core or .NET Framework app using mixed-mode debugging
 
-ms.date: 11/02/2018
+ms.date: 04/15/2022
 ms.topic: tutorial
 dev_langs:
   - "CSharp"
@@ -18,6 +18,8 @@ ms.workload:
   - "cplusplus"
 ---
 # Tutorial: Debug C# and C++ in the same debugging session
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio lets you enable more than one debugger type in a debugging session, which is called mixed-mode debugging. In this tutorial, you learn to debug both managed and native code in a single debugging session.
 
@@ -35,9 +37,18 @@ In this tutorial, you will:
 
 ## Prerequisites
 
+::: moniker range=">=vs-2022"
 You must have Visual Studio installed, with the following workloads:
-- **Desktop development with C++**
-- Either **.NET desktop development** or **.NET Core cross platform development**, depending on which type of app you want to create.
+
+* **Desktop development with C++**
+* **.NET desktop development**
+::: moniker-end
+::: moniker range="<=vs-2019"
+You must have Visual Studio installed, with the following workloads:
+
+* **Desktop development with C++**
+* **.NET desktop development** or **.NET Core cross platform development**, depending on the type of app that you want to create.
+::: moniker-end
 
 If you don't have Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 
@@ -49,18 +60,15 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
 1. Open Visual Studio and create a project.
 
-    ::: moniker range=">=vs-2019"
     Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **Empty Project**, choose **Templates**, then choose **Empty Project** for C++. In the dialog box that appears, choose **Create**. Then, type a name like **Mixed_Mode_Debugging** and click **Create**.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C++**, choose **Other**, and then in the middle pane choose **Empty Project**. Then, type a name like **Mixed_Mode_Debugging** and click **OK**.
-    ::: moniker-end
 
     If you don't see the **Empty Project** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
 
     Visual Studio creates the project.
 
 1. In **Solution Explorer**, select **Source Files**, and then select **Project** > **Add New Item**. Or, right-click **Source Files** and select **Add** > **New Item**.
+
+   If you don't see all the item templates, choose **Show All Templates**.
 
 1. In the **New Item** dialog, select **C++ file (.cpp)**. Type **Mixed_Mode.cpp** in the **Name** field, and then select **Add**.
 
@@ -73,6 +81,8 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
     ```
 
 1. In **Solution Explorer**, select **Header Files**, and then select **Project** > **Add New Item**. Or, right-click **Header Files** and select **Add** > **New Item**.
+
+   If you don't see all the item templates, choose **Show All Templates**.
 
 1. In the **New Item** dialog, select **Header file (.h)**. Type **Mixed_Mode.h** in the **Name** field, and then select **Add**.
 
@@ -120,20 +130,13 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
 1. Open Visual Studio and create a new project.
 
-    ::: moniker range=">=vs-2019"
     Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **console**, choose **Templates**, and then choose **Console App** for .NET Core or **Console App (.NET Framework)** for C#. In the dialog box that appears, choose **Next**.
 
     Then, type a name like **Mixed_Mode_Calling_App** and click **Next** or **Create**, whichever option is available.
 
     For .NET Core, choose either the recommended target framework or .NET 6, and then choose **Create**.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual C#**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)** or  **Console App (.NET Core)**.
 
-    Then, type a name like **Mixed_Mode_Calling_App** and click **OK**.
-    ::: moniker-end
-
-    If you don't see the correct project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET Core cross-platform development** or **.NET desktop development** workload, depending on your target framework, and then choose **Modify**.
+    If you don't see the correct project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the correct .NET workload as described in the prerequisites, and then choose **Modify**.
 
     > [!NOTE]
     > You could also add the new managed project to your existing C++ solution. We are creating the project in a new solution to make the mixed-mode debugging task more difficult.
@@ -176,9 +179,19 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
 1. In **Solution Explorer**, select the **Mixed_Mode_Calling_App** project node and select the **Properties** icon, or right-click the project node and select **Properties**.
 
-1. Select **Debug** in the left pane, select the **Enable native code debugging** check box, and then close the properties page to save the changes.
+1. Enable native code debugging in the properties.
+
+    ::: moniker range=">=vs-2022"
+    Select **Debug** in the left pane, select **Open debug launch profiles UI**, then select the **Enable native code debugging** check box, and then close the properties page to save the changes.
+    ![Enable mixed mode debugging](../debugger/media/vs-2022/mixed-mode-enable-native-code-debugging.png)
+    ::: moniker-end
+    ::: moniker range="<=vs-2019"
+    Select **Debug** in the left pane, select the **Enable native code debugging** check box, and then close the properties page to save the changes.
 
     ![Enable mixed mode debugging](../debugger/media/mixed-mode-enable-native-code-debugging.png)
+    ::: moniker-end
+
+1. If you are targeting an x64 DLL from a .NET Framework app, change the platform target from **Any CPU** to x64. To do this, you may need to select **Configuration Manager** from the Debug toolbar's Solution Platform drop-down. Then, if you can't switch to x64 directly, create a **New** Configuration that targets x64.
 
 ## Set a breakpoint and start debugging
 
@@ -200,7 +213,12 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
    The *Mixed_Mode.h* native header file opens, and you see the yellow arrow where the debugger is paused.
 
+   ::: moniker range=">=vs-2022"
+   ![Step into native code](../debugger/media/vs-2022/mixed-mode-step-into-native-code.png)
+   ::: moniker-end
+   ::: moniker range="<=vs-2019"
    ![Step into native code](../debugger/media/mixed-mode-step-into-native-code.png)
+   ::: moniker-end
 
 1. Now, you can set and hit breakpoints and inspect variables in the native or managed code.
 

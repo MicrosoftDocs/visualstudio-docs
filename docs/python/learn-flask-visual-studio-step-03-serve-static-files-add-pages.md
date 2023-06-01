@@ -2,10 +2,11 @@
 title: Learn Flask tutorial in Visual Studio step 3, static files and pages
 titleSuffix: ""
 description: A walkthrough of Flask basics in the context of Visual Studio projects, specifically demonstrating how to serve static files, add pages to the app, and use template inheritance
-ms.date: 01/07/2019
+ms.custom: devdivchpfy22
+ms.date: 02/07/2022
 ms.topic: tutorial
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -13,16 +14,18 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Step 3: Serve static files, add pages, and use template inheritance with Flask app
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Create a Flask app with views and page templates](learn-flask-visual-studio-step-02-create-app.md)**
 
-In the previous steps of this tutorial, you've learned how to create a minimal Flask app with a single page of self-contained HTML. Modern web apps, however, are typically composed of many pages, and make use of shared resources like CSS and JavaScript files to provide consistent styling and behavior.
+In the previous steps of this tutorial, you've learned how to create a minimal Flask app with a single page of self-contained HTML. Modern web apps are typically composed of many pages, and use shared resources like CSS and JavaScript files to provide consistent styling and behavior.
 
 In this step, you learn how to:
 
 > [!div class="checklist"]
+>
 > - Use Visual Studio item templates to quickly add new files of different types with convenient boilerplate code (step 3-1)
 > - Serve static files from code (step 3-2, optional)
 > - Add additional pages to the app (step 3-3)
@@ -30,11 +33,11 @@ In this step, you learn how to:
 
 ## Step 3-1: Become familiar with item templates
 
-As you develop a Flask app, you typically add many more Python, HTML, CSS, and JavaScript files. For each file type (as well as other files like *web.config* that you may need for deployment), Visual Studio provides convenient [item templates](python-item-templates.md) to get you started.
+As you develop a Flask app, you typically add many more Python, HTML, CSS, and JavaScript files. For each file type (and other files like *web.config* that you might need for deployment), Visual Studio provides convenient [item templates](python-item-templates.md) to get you started.
 
 To see available templates, go to **Solution Explorer**, right-click the folder in which you want to create the item, select **Add** > **New Item**:
 
-![Add new item dialog in Visual Studio](media/flask/step03-add-new-item-dialog.png)
+![Add new item dialog in Visual Studio](media/flask/step-03-add-new-item-dialog.png)
 
 To use a template, select the desired template, specify a name for the file, and select **OK**. Adding an item in this manner automatically adds the file to your Visual Studio project and marks the changes for source control.
 
@@ -44,7 +47,7 @@ Answer: The Visual Studio project file (*.pyproj*) contains a project type ident
 
 ## Step 3-2: Serve static files from your app
 
-In a web app built with Python (using any framework), your Python files always run on the web host's server and are never transmitted to a user's computer. Other files, however, such as CSS and JavaScript, are used exclusively by the browser, so the host server simply delivers them as-is whenever they're requested. Such files are referred to as "static" files, and Flask can deliver them automatically without you needing to write any code. Within HTML files, for example, you can just refer to static files using a relative path in the project. The first section in this step adds a CSS file to your existing page template.
+In a web app built with Python (using any framework), your Python files always run on the web host's server and are never transmitted to a user's computer. Other files such as CSS and JavaScript, are only used by the browser, so the host server simply delivers them as-is whenever they're requested. Such files are referred to as "static" files, and Flask can deliver them automatically without you needing to write any code. Within HTML files, for example, you can refer to static files using a relative path in the project. The first section in this step adds a CSS file to your existing page template.
 
 When you need to deliver a static file from code, such as through an API endpoint implementation, Flask provides a convenient method that lets you refer to files using relative paths within a folder named *static* (in the project root). The second section in this step demonstrates that method using a simple static data file.
 
@@ -56,7 +59,7 @@ In either case, you can organize files under *static* however you like.
 
 1. Right-click the **static** folder and select **Add** > **New item**. In the dialog that appears, select the **Stylesheet** template, name the file `site.css`, and select **OK**. The **site.css** file appears in the project and is opened in the editor. Your folder structure should appear similar to the following image:
 
-    ![Static file structure as shown in Solution Explorer](media/flask/step03-static-file-structure.png)
+    ![Static file structure as shown in Solution Explorer](media/flask/step-03-static-file-structure.png)
 
 1. Replace the contents of *site.css* with the following code and save the file:
 
@@ -81,7 +84,7 @@ In either case, you can organize files under *static* however you like.
     </html>
     ```
 
-1. Run the project to observe the results. Stop the app when done, and commit your changes to source control if you like (as explained in [step 2](learn-flask-visual-studio-step-02-create-app.md#commit-to-source-control)).
+1. Run the project to observe the results. When you're done, stop the app and you can commit your changes to source control (as explained in [step 2](learn-flask-visual-studio-step-02-create-app.md#commit-to-source-control)).
 
 ### Serve a static file from code
 
@@ -107,7 +110,7 @@ Flask provides a function called `serve_static_file` that you can call from code
       return app.send_static_file('data.json')
     ```
 
-1. Run the app and navigate to the /api/data endpoint to see that the static file is returned. Stop the app when you're done.
+1. Run the app and navigate to the /api/data endpoint to see that the static file is returned. when you're done, stop the app.
 
 ### Question: Are there any conventions for organizing static files?
 
@@ -164,7 +167,7 @@ The following steps add an "About" page to the "HelloFlask" project, and links t
     <div><a href="about">About</a></div>
     ```
 
-1. Save all the files using the **File** > **Save All** menu command, or just press **Ctrl**+**Shift**+**S**. (Technically, this step isn't needed as running the project in Visual Studio saves files automatically. Nevertheless, it's a good command to know about!)
+1. Save all the files using the **File** > **Save All** menu command, or press **Ctrl**+**Shift**+**S**. (This step isn't needed, as running the project in Visual Studio saves files automatically. Nevertheless, it's a good command to know about!)
 
 1. Run the project to observe the results and check navigation between pages. Stop the app when done.
 
@@ -174,13 +177,13 @@ Answer: No, because it's the `@app.route` decorator that determines the URLs for
 
 ## Step 3-4: Use template inheritance to create a header and nav bar
 
-Instead of having explicit navigation links on each page, modern web apps typically use a branding header and a navigation bar that provides the most important page links, popup menus, and so on. To make sure the header and nav bar are the same across all pages, however, you don't want to repeat the same code in every page template. You instead want to define the common parts of all your pages in one place.
+Instead of having explicit navigation links on each page, modern web apps typically use a branding header and a navigation bar that provides the most important page links, popup menus, and so on. To make sure the app is consistent, the header and navigation bar should be the same across all pages, while not repeating the same code in every page template. You instead want to define the common parts of all your pages in one place.
 
 Flask's templating system (Jinja by default) provides two means for reusing specific elements across multiple templates: includes and inheritance.
 
 - *Includes* are other page templates that you insert at a specific place in the referring template using the syntax `{% include <template_path> %}`. You can also use a variable if you want to change the path dynamically in code. Includes are typically used in the body of a page to pull in the shared template at a specific location on the page.
 
-- *Inheritance* uses the `{% extends <template_path> %}` at the beginning of a page template to specify a shared base template that the referring template then builds upon. Inheritance is commonly used to define a shared layout, nav bar, and other structures for an app's pages, such that referring templates need only add or modify specific areas of the base template called *blocks*.
+- *Inheritance* uses the `{% extends <template_path> %}` at the beginning of a page template to specify a shared base template that the referring template then builds upon. Inheritance is commonly used to define a shared layout, navigation bar, and other structures for an app's pages, such that referring templates need only add or modify specific areas of the base template called *blocks*.
 
 In both cases, `<template_path>` is relative to the app's *templates* folder (`../` or `./` are also allowed).
 
@@ -218,7 +221,7 @@ The following steps demonstrate inheritance:
     </html>
     ```
 
-1. Add the following styles to the app's *static/site.css* file (this walkthrough isn't attempting to demonstrate responsive design here; these styles are simply to generate an interesting result):
+1. Add the following styles to the app's *static/site.css* file (this walkthrough doesn't demonstrate responsive design. However, these styles only generate an interesting result):
 
     ```css
     .navbar {
@@ -268,9 +271,9 @@ The following steps demonstrate inheritance:
     {% endblock %}
     ```
 
-1. Run the server to observe the results. Close the server when done.
+1. Run the server to observe the results. When you're done, close the server.
 
-    ![Running app showing the nav bar](media/flask/step03-nav-bar.png)
+    ![Running app showing the nav bar](media/flask/step-03-nav-bar.png)
 
 1. Because you made substantial changes to the app, it's again a good time to [commit your changes to source control](learn-django-in-visual-studio-step-02-create-an-app.md#commit-to-source-control).
 
@@ -278,7 +281,6 @@ The following steps demonstrate inheritance:
 
 You can go deeper with these resources:
 
-- [Deploy the web app to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md)
 - For more capabilities of Jinja templates, such as control flow, see [Jinja Template Designer Documentation](http://jinja.palletsprojects.com/en/2.10.x/templates/) (jinja.pocoo.org)
 - For  details on using `url_for`, see [url_for](https://flask.palletsprojects.com/en/1.0.x/api/#flask.url_for) within the Flask Application object documentation (flask.pocoo.org)
 - Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-flask](https://github.com/Microsoft/python-sample-vs-learning-flask)

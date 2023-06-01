@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortSupplier2::AddPort
 ms.assetid: df491161-6bf3-4fcc-b478-b9ec88ec995f
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortSupplier2::AddPort
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Adds a port.
 
 ## Syntax
 
-```cpp
-HRESULT AddPort( 
-   IDebugPortRequest2* pRequest,
-   IDebugPort2**       ppPort
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int AddPort( 
    IDebugPortRequest2 pRequest,
    out IDebugPort2    ppPort
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT AddPort( 
+   IDebugPortRequest2* pRequest,
+   IDebugPort2**       ppPort
+);
+```
+---
 
 ## Parameters
 `pRequest`\

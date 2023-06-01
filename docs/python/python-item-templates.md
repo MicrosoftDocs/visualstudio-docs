@@ -3,8 +3,8 @@ title: Item templates for Python projects
 description: A reference list of item templates for Python project that are available through the Add > New Item dialog in Visual Studio.
 ms.date: 12/06/2018
 ms.topic: reference
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -12,8 +12,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Python item templates
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The item templates are available in Python projects through the **Project** > **Add New Item** menu command, or the **Add** > **New Item** command on the context menu in **Solution Explorer**.
 
@@ -34,7 +35,6 @@ The following table briefly explains the effect of each item template within a P
 | **Style Sheet** | A *.css* file containing an empty style for `body`. |
 | **Text file** | An empty *.txt* file. |
 | **Django 1.9 App**<br/>**Django 1.4 App** | A folder with the name of the app, which contains the core files for a Django app as explained in [Learn Django in Visual Studio, Step 2-2](learn-django-in-visual-studio-step-02-create-an-app.md#step-2-1-create-an-app-with-a-default-structure) for Django 1.9. For Django 1.4, the *migrations* folder, the *admin.py* file, and the *apps.py* file are not included. |
-| **IronPython WPF Window** | A WPF Window consisting of two side-by-side files: a *.xaml* file that defines a `<Window>` with an empty `<Grid>` element, and an associated *.py* file that loads the XAML file using the `wpf` library. Typically used within a project created using one of the IronPython project templates. See [Manage Python projects - Project templates](managing-python-projects-in-visual-studio.md#project-templates). |
 | **Web Role Support Files** | A *bin* folder in the project root (regardless of the selected folder in the project). The folder contains a default deployment script and a *web.config* file for Azure Cloud Service web roles. The template also includes a *readme.html* file that explains the details. |
 | **Worker Role Support Files** | A *bin* folder in the project root (regardless of the selected folder in the project). The folder contains default deployment and launch script, along with a *web.config* file, for Azure Cloud Service worker roles. The template also includes a *readme.html* file that explains the details. |
 | **Azure web.config (FastCGI)** | A *web.config* file that contains entries for apps using a [WSGI](https://wsgi.readthedocs.io/en/latest/) object to handle incoming connections. This file is typically deployed to the root of a web server running IIS. For more information, see [Configure an app for IIS](configure-web-apps-for-iis-windows.md). |
@@ -46,4 +46,3 @@ The following table briefly explains the effect of each item template within a P
 
 - [Manage Python projects - Project templates](managing-python-projects-in-visual-studio.md#project-templates)
 - [Python web project templates](python-web-application-project-templates.md)
-- [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md)

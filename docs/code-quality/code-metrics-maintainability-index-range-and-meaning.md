@@ -12,6 +12,8 @@ ms.workload:
 ---
 # Code metrics - Maintainability index range and meaning
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Question: The maintainability index has been reset to lie between 0 and 100. How and why was this done?
 
 The metric originally was calculated as follows: `Maintainability Index = 171 - 5.2 * ln(Halstead Volume) - 0.23 * (Cyclomatic Complexity) - 16.2 * ln(Lines of Code)`

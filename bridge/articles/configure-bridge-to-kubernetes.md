@@ -1,8 +1,8 @@
 ---
-title: "Using KubernetesLocalProcessConfig.yaml for additional configuration with for Bridge to Kubernetes"
-ms.date: 07/28/2020
+title: "Configure Bridge to Kubernetes"
+ms.date: 08/11/2022
 ms.topic: "conceptual"
-description: "Describes the additional configuration options for Bridge to Kubernetes using KubernetesLocalProcessConfig.yaml"
+description: "Describes the additional configuration options for Bridge to Kubernetes"
 keywords: "Bridge to Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, containers"
 author: ghogen
 ms.author: ghogen
@@ -13,6 +13,24 @@ ms.custom: "contperf-fy22q1"
 
 # Configure Bridge to Kubernetes
 
+You can configure the local Bridge to Kubernetes process using two methods. You can annotate services on your cluster and you can supply local configuration.
+
+## Kubernetes configuration
+
+### Prevent Bridge to Kubernetes from forwarding specific ports
+
+Configure Bridge to Kubernetes to ignore mapping specific ports on a Kubernetes service to your machine by adding the `bridgetokubernetes/ignore-ports` annotation on the service.
+
+```
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    bridgetokubernetes/ignore-ports:445,23
+```
+
+## Local configuration using (KubernetesLocalProcessConfig.yaml)
+
 The `KubernetesLocalProcessConfig.yaml` file allows you to replicate environment variables and mounted files available to your pods in your cluster. You can specify the following actions in a `KubernetesLocalProcessConfig.yaml` file:
 
 * Download a volume and set the path to that volume as an environment variable.
@@ -21,7 +39,7 @@ The `KubernetesLocalProcessConfig.yaml` file allows you to replicate environment
 
 A default `KubernetesLocalProcessConfig.yaml` file is not created automatically so you must manually create the file at the root of your project.
 
-## Download a volume
+### Download a volume
 
 Under *env*, specify a *name* and *value* for each volume you want to download. The *name* is the environment variable that will be used on your development computer. The *value* is the name of the volume and a path on your development computer. The value for *value* takes the form *$(volumeMounts:VOLUME_NAME)/PATH/TO/FILES*.
 
@@ -53,7 +71,7 @@ env:
 
 The above example uses the entry in *env* to download a volume matching *default-token-\**, such as *default-token-1111* or *default-token-1234-5678-90abcdef*. In cases where multiple volumes match, the first matching volume is used. All files are downloaded to `/var/run/secrets/kubernetes.io/serviceaccount` on your development computer using the entry in *volumeMounts*. The *KUBERNETES_IN_CLUSTER_CONFIG_OVERRIDE* environment variable is set to `/var/run/secrets/kubernetes.io/serviceaccount`.
 
-## Make a service available
+### Make a service available
 
 Under *env*, specify a *name* and *value* for each service you want to make available on your development computer. The *name* is the environment variable that will be used on your development computer. The *value* is the name of the service from your cluster and a path. The value for *value* takes the form *$(services:SERVICE_NAME)/PATH*.
 
@@ -94,7 +112,7 @@ env:
 
 The above example creates an environment variable named *DEBUG_MODE* with a value of *true*.
 
-## Add a service dependency
+### Add a service dependency
 
 You can specify a service dependency, such as a database or cache, using a generic dependencies field, similar to how services are declared. Specify a dependency here when the service you are debugging needs to connect to resources that are not running on your cluster. Declare a dependency as in the following example:
 
@@ -110,7 +128,7 @@ Provide the host DNS name (`server-bridgetest13.database.windows.net` in the exa
 
 When you specify dependencies such as databases, redirection authentication models won't work. For example, for Azure SQL Database, you should set connection policy to "Proxy" (rather than "Redirect" or "Default"). 
 
-## Example KubernetesLocalProcessConfig.yaml
+### Example KubernetesLocalProcessConfig.yaml
 
 Here is an example of a complete `KubernetesLocalProcessConfig.yaml` file:
 

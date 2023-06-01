@@ -1,7 +1,6 @@
 ---
 title: Generating Code from a Domain-Specific Language
 description: Learn how Domain-Specific Language Tools provides a powerful way to generate code, documents, and other artifacts from data represented in models.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: mgoertz-msft
@@ -12,6 +11,8 @@ ms.workload:
 - multiple
 ---
 # Generating Code from a Domain-Specific Language
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Microsoft [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] provides a powerful way to generate code, documents, configuration files, and other artifacts from data represented in models. Using [!INCLUDE[dsl](../modeling/includes/dsl_md.md)], you can create a set of classes that represent your data, and you can write your text templates in classes whose names and properties reflect that data.
 

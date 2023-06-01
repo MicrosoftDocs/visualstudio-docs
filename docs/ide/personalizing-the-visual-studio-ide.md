@@ -1,8 +1,7 @@
 ---
 title: Customize the IDE
 description: Learn how to personalize the Visual Studio IDE in ways that best support your own development style and requirements.
-ms.custom: SEO-VS-2020
-ms.date: 04/12/2021
+ms.date: 08/24/2022
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -12,6 +11,8 @@ ms.workload:
 - multiple
 ---
 # Personalize the Visual Studio IDE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can personalize Visual Studio in various ways to best support your own development style and requirements. Many of your settings roam with you across Visual Studio instances&mdash;see [Synchronized settings](../ide/synchronized-settings-in-visual-studio.md). This article briefly describes different personalizations and where you can find more information.
 
@@ -47,17 +48,9 @@ You can change the main menu casing between **Title Case** ("File") and **All Ca
 
 To add or remove menu or toolbar items, see [How to: Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md).
 
-::: moniker range="vs-2017"
-
-## Start page
-
-To create a custom start page for you and your team, see [Customize the Start page](../ide/customizing-the-start-page-for-visual-studio.md).
-
-::: moniker-end
-
 ## Window layouts
 
-You can define and save multiple window layouts and switch between them. For example, you can define one layout for coding and one for debugging. To arrange window positions and behavior and save custom layouts, see [Customize window layouts](../ide/customizing-window-layouts-in-visual-studio.md).
+You can define and save multiple window layouts and switch between them. For example, you can define one layout for coding and one for debugging. To arrange window positions and behavior and save custom layouts, see [Customize window layouts and personalize tabs](../ide/customizing-window-layouts-in-visual-studio.md).
 
 ## External tools
 

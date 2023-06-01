@@ -1,20 +1,21 @@
 ---
 title: Solution Configuration | Microsoft Docs
 description: Learn how to implement the solution configurations supported by your project type, which direct the behavior of the Start (F5) key and Build commands.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - solution configurations
 ms.assetid: f22cfc75-3e31-4e0d-88a9-3ca99539203b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Solution Configuration
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Solution configurations store solution-level properties. They direct the behavior of the **Start** (F5) key and **Build** commands. By default, these commands build and start the debug configuration. Both commands execute in the context of a solution configuration. This means that the user can expect F5 to start and build whatever the active solution is configured through the settings. The environment is designed to optimize for solutions rather than projects when it comes to building and running.
 
  The standard Visual Studio toolbar contains a Start button and a solution configuration drop-down to the right of the Start button. This list allows users to choose the configuration to be started when F5 is pressed, create their own solution configurations, or edit an existing configuration.

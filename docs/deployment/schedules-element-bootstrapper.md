@@ -1,9 +1,8 @@
 ---
 title: "&lt;Schedules&gt; Element (Bootstrapper) | Microsoft Docs"
 description: The Schedules element contains Schedule elements, which define specific times at which commands defined by the Command element should be run.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "FSharp"
   - "VB"
@@ -20,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;Schedules&gt; element (bootstrapper)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `Schedules` element contains `Schedule` elements, which define specific times at which commands defined by the `Command` element should be run.
 
 ## Syntax

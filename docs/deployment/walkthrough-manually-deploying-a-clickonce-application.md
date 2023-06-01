@@ -1,7 +1,6 @@
 ---
 title: "Manually deploy a ClickOnce app"
 description: Learn how to create a ClickOnce deployment by using either the command-line version or the graphical version of the Manifest Generation and Editing Tool.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -25,7 +24,11 @@ ms.workload:
   - "multiple"
 ---
 # Walkthrough: Manually deploy a ClickOnce application
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, or you need to use advanced deployment features, such as Trusted Application Deployment, you should use the *Mage.exe* command-line tool to create your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests. This walkthrough describes how to create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment by using either the command-line version (*Mage.exe*) or the graphical version (*MageUI.exe*) of the Manifest Generation and Editing Tool.
+
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-dotnetmage-exe.md)]
 
 ## Prerequisites
  This walkthrough has some prerequisites and options that you need to choose before building a deployment.

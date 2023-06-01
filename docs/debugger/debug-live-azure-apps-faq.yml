@@ -2,9 +2,8 @@
 metadata:
   title: "FAQ for snapshot debugging | Microsoft Docs"
   description: Review a list of frequently asked questions (FAQ) that might come up when debugging live Azure applications using the Snapshot Debugger in Visual Studio.
-  ms.custom: SEO-VS-2020
   ms.date: "11/07/2017"
-  ms.topic: "reference"
+  ms.topic: faq
   helpviewer_keywords:
     - "debugger"
   ms.assetid: 944f1eb0-a74b-4d28-ae2b-a370cd869add
@@ -13,7 +12,6 @@ metadata:
   manager: jmartens
   ms.workload:
     - "multiple"
-    
 title: Frequently Asked Questions for snapshot debugging in Visual Studio
 summary: Here is a list of questions that might come up when debugging live Azure applications using the Snapshot Debugger.
 

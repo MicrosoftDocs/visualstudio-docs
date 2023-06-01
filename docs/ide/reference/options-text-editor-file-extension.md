@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, File Extension
 description: Learn how to use the File Extension page to specify how all files with certain file extensions will be handled by the Visual Studio IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -20,6 +19,8 @@ ms.workload:
 - multiple
 ---
 # Options, Text Editor, File Extension
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This Options dialog allows you to specify how all files with certain file extensions will be handled by the Visual Studio integrated development environment (IDE). For each **Extension** that you enter, you can select an Editing Experience. This allows you to choose the IDE editor or designer in which documents of a certain type will open. To display these options, choose **Options** from the **Tools** menu, expand the **Text Editor** node, and select **File Extension**.
 

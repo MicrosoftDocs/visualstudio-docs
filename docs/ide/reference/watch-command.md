@@ -1,7 +1,6 @@
 ---
 title: Watch Command
 description: Learn about the Watch command and how it creates and opens a specified instance of a Watch window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # Watch Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates and opens a specified instance of a **Watch** window. You can use a **Watch** window to calculate the values of variables, expressions, and registers, to edit these values, and to save the results.
 
 ## Syntax

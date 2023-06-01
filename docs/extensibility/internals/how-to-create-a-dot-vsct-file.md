@@ -1,20 +1,21 @@
 ---
 title: 'How to: Create a .Vsct File | Microsoft Docs'
 description: Learn how to manually create a .vsct file, an XML-based Visual Studio command table configuration file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - VSCT files, creating
 ms.assetid: b955f51c-f9f9-49c3-a8e4-63b6eb0e0341
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # How to: Create a .vsct file
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are several ways to create an XML-based Visual Studio command table configuration (*.vsct*) file.
 

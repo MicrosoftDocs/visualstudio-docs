@@ -1,8 +1,7 @@
 ---
 title: 'How to: Exclude projects from a build'
 description: Learn how you can use Visual Studio to build a solution without building all projects that it contains.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 05/10/2023
 ms.technology: vs-ide-compile
 ms.topic: how-to
 ms.assetid: 17a837ca-5db9-46cd-b5a7-b14ad1d2c47d
@@ -13,6 +12,8 @@ ms.workload:
 - multiple
 ---
 # How to: Exclude projects from a build
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can build a solution without building all projects that it contains. For example, you might exclude a project that breaks the build. You could then build the project after you investigate and address the issues.
 
@@ -52,7 +53,7 @@ For more information, see [Understand build configurations](../ide/understanding
 
 ## Skipped projects
 
-Projects can be skipped during the build because they are not up-to-date or because they are excluded from the configuration. Visual Studio uses MSBuild to build your projects. MSBuild only builds a target if the output is older than the input, as determined by the file timestamps. To force a rebuild, use the command **Build** > **Rebuild Solution**.
+Projects can be skipped during the build because they are up-to-date or because they are excluded from the configuration. Visual Studio uses MSBuild to build your projects. MSBuild only builds a target if the output is older than the input, as determined by the file timestamps. To force a rebuild, use the command **Build** > **Rebuild Solution**.
 
 In the **Build** pane of the **Output** window, Visual Studio reports the number of projects that were up to date, the number that built successfully, the number that failed, and the number that were skipped. The skipped count does not include projects that were not built because they were up-to-date. When projects are excluded from the active configuration, they are skipped during the build. In the build output, you see a message indicating that the project is skipped:
 

@@ -1,21 +1,22 @@
 ---
 title: Creating Project Instances By Using Project Factories | Microsoft Docs
 description: Learn how to create project class instances by using project factories in the Visual Studio integrated development environment (IDE).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - project factories
 - projects [Visual Studio SDK], project factories
 ms.assetid: 94c90012-8669-459c-af8e-307ac242c8c4
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Create project instances by using project factories
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Project types in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] use a *project factory* to create instances of project objects. A project factory is similar to a standard class factory for cocreatable COM objects. However, project objects are not cocreatable; they can only be created by using a project factory.
 
  The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE calls the project factory implemented in your VSPackage when a user loads an existing project or creates a new project in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. The new project object provides the IDE with enough information to populate **Solution Explorer**. The new project object also provides the required interfaces for supporting all relevant UI actions initiated by the IDE.

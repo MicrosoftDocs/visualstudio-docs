@@ -1,7 +1,6 @@
 ---
 title: Create WCF Data Service with WPF & Entity Framework
 description: Create a WCF Data Service with WPF and Entity Framework that's hosted in an ASP.NET web application, and then access it from a Windows Forms application.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -21,6 +20,8 @@ ms.workload:
 - data-storage
 ---
 # Walkthrough: Creating a WCF Data Service with WPF and Entity Framework
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This walkthrough demonstrates how to create a simple [!INCLUDE[ss_data_service](../data-tools/includes/ss_data_service_md.md)] that is hosted in an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] web application and then access it from a Windows Forms application.
 
 In this walkthrough you:
@@ -38,6 +39,9 @@ In this walkthrough you:
 - Optionally add filtering capabilities to the application.
 
 ## Prerequisites
+
+The WCF tools are not installed with the .NET workload; use the Visual Studio Installer to modify your installation. In the installer, choose **Windows Communication Foundation** under Individual Components. See [Modify Visual Studio](../install/modify-visual-studio.md).
+
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
 1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **Data storage and processing** workload, or as an individual component.
@@ -48,7 +52,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
        A query editor window opens.
 
-    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/master/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
+    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
@@ -121,14 +125,21 @@ In the next step, you create and test the data service.
 
 4. In the **Code Editor**, locate the first `TODO:` comment and replace the code with the following:
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfdataservicewalkthrough/vb/northwindcustomers.svc.vb" id="Snippet1":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfdataservicewalkthrough/cs/northwindcustomers.svc.cs" id="Snippet1":::
 
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfdataservicewalkthrough/vb/northwindcustomers.svc.vb" id="Snippet1":::
+    ---
+     
 5. Replace the comments in the `InitializeService` event handler with the following code:
 
-     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfdataservicewalkthrough/vb/northwindcustomers.svc.vb" id="Snippet2":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfdataservicewalkthrough/cs/northwindcustomers.svc.cs" id="Snippet2":::
 
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfdataservicewalkthrough/vb/northwindcustomers.svc.vb" id="Snippet2":::
+     ---
 
 6. On the menu bar, choose **Debug** > **Start Without Debugging** to run the service. A browser window opens and the XML schema for the service displays.
 
@@ -202,24 +213,20 @@ In the next step, you create the user interface that displays the data from the 
 
 4. In **Solution Explorer**, open the shortcut menu for the **Form1** node and choose **View Code** to open the Code Editor, and add the following `Imports` or `Using` statement at the top of the file:
 
-   ```vb
-   Imports NorthwindClient.ServiceReference1
-   ```
-
+   ### [C#](#tab/csharp)
    ```csharp
    using NorthwindClient.ServiceReference1;
    ```
 
+   ### [VB](#tab/vb)
+   ```vb
+   Imports NorthwindClient.ServiceReference1
+   ```
+   ---
+
 5. Add the following code to the `Form1_Load` event handler:
 
-   ```vb
-   Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-           Dim proxy As New NorthwindEntities _
-   (New Uri("http://localhost:53161/NorthwindCustomers.svc/"))
-           Me.CustomersBindingSource.DataSource = proxy.Customers
-       End Sub
-   ```
-
+   ### [C#](#tab/csharp)
    ```csharp
    private void Form1_Load(object sender, EventArgs e)
    {
@@ -227,6 +234,16 @@ In the next step, you create the user interface that displays the data from the 
    this.CustomersBindingSource.DataSource = proxy.Customers;
    }
    ```
+
+   ### [VB](#tab/vb)
+   ```vb
+   Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+           Dim proxy As New NorthwindEntities _
+   (New Uri("http://localhost:53161/NorthwindCustomers.svc/"))
+           Me.CustomersBindingSource.DataSource = proxy.Customers
+       End Sub
+   ```
+   ---
 
 6. In **Solution Explorer**, open the shortcut menu for the **NorthwindCustomers.svc** file and choose **View in Browser**. Internet Explorer opens and the XML schema for the service displays.
 
@@ -251,6 +268,21 @@ In this step, you customize the application to filter the data by the customer's
 
 3. Open the shortcut menu for the <xref:System.Windows.Forms.Button> control, choose **View Code**, and then add the following code in the `Button1_Click` event handler:
 
+    ### [C#](#tab/csharp)
+    ```csharp
+    private void Button1_Click(object sender, EventArgs e)
+    {
+    ServiceReference1.northwindModel.northwindEntities proxy = new northwindEntities(new Uri("http://localhost:53161/NorthwindCustomers.svc"));
+    string city = TextBox1.Text;
+
+    if (!string.IsNullOrEmpty(city)) {
+    this.CustomersBindingSource.DataSource = from c in proxy.Customers where c.City == city;
+    }
+
+    }
+    ```
+
+    ### [VB](#tab/vb)
     ```vb
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
             Dim proxy As New northwindEntities _
@@ -264,19 +296,7 @@ In this step, you customize the application to filter the data by the customer's
 
         End Sub
     ```
-
-    ```csharp
-    private void Button1_Click(object sender, EventArgs e)
-    {
-    ServiceReference1.northwindModel.northwindEntities proxy = new northwindEntities(new Uri("http://localhost:53161/NorthwindCustomers.svc"));
-    string city = TextBox1.Text;
-
-    if (!string.IsNullOrEmpty(city)) {
-    this.CustomersBindingSource.DataSource = from c in proxy.Customers where c.City == city;
-    }
-
-    }
-    ```
+    ---
 
 4. In the previous code, replace `http://localhost:53161/NorthwindCustomers.svc` with the URL from the `Form1_Load` event handler.
 

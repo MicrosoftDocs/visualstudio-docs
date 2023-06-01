@@ -1,7 +1,6 @@
 ---
 title: Shell Command
 description: Learn about the Shell command and how it launches executable programs from within Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -23,6 +22,8 @@ ms.workload:
 - multiple
 ---
 # Shell Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Launches executable programs from within [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
 
 ## Syntax

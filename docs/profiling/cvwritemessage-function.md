@@ -1,7 +1,6 @@
 ---
 title: CvWriteMessage Function | Microsoft Docs
 description: See reference information for the Concurrency Visualizer SDK function CvWriteMessage (C library).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -31,6 +30,8 @@ ms.workload:
   - multiple
 ---
 # CvWriteMessage function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Writes a message to the Concurrency Visualizer trace file.
 
 ## Syntax

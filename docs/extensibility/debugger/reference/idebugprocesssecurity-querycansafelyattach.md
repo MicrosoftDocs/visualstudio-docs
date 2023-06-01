@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugProcessSecurity::QueryCanSafelyAttach
 ms.assetid: 63ec1ae8-27da-4574-aa15-1c986fe9fe58
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -17,17 +17,21 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcessSecurity::QueryCanSafelyAttach
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method allows the port supplier to display a warning before the user attaches to an unsafe process.
 
 ## Syntax
 
-```cpp
-HRESULT QueryCanSafelyAttach();
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int QueryCanSafelyAttach();
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT QueryCanSafelyAttach();
+```
+---
 
 ## Return Value
  The return values are as follows:

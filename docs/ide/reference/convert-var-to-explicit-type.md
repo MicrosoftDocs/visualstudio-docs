@@ -1,7 +1,6 @@
 ---
 title: Refactor code to replace var with an explicit type
 description: Learn how to use Quick Actions to replace var in a local variable expression with an explicit type.
-ms.custom: SEO-VS-2020
 ms.date: 05/15/2018
 ms.topic: reference
 author: TerryGLee
@@ -14,6 +13,8 @@ ms.workload:
 - dotnet
 ---
 # Refactoring to replace var with an explicit type
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this refactoring to replace [var](/dotnet/csharp/language-reference/keywords/var) in a local variable declaration with an explicit type.
 

@@ -1,7 +1,6 @@
 ---
 title: Overriding and Extending the Generated Classes
 description: Learn how your DSL Definition is a platform on which you can build a powerful set of tools that are based on a domain-specific language.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -14,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # Override and extend the generated classes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Your DSL Definition is a platform on which you can build a powerful set of tools that are based on a domain-specific language. Many extensions and adaptations can be made by overriding and extending the classes that are generated from the DSL Definition. These classes include not just the domain classes that you have explicitly defined in the DSL Definition diagram, but also other classes that define the toolbox, explorer, serialization, and so on.
 

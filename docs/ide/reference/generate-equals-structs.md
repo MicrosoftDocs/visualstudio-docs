@@ -1,7 +1,6 @@
 ---
 title: Generate IEquatable operators for structs
 description: Learn how to use the Quick Actions and Refactorings menu to generate Equals and IEquatable operators for structs.
-ms.custom: SEO-VS-2020
 ms.date: 05/12/2020
 ms.topic: reference
 author: mikadumont
@@ -12,6 +11,8 @@ ms.workload:
 - dotnet
 ---
 # Generate IEquatable operators when generating Equals for structs
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This code generation applies to:
 

@@ -1,20 +1,21 @@
 ---
 title: Choosing the Installation Directory for a VSPackage | Microsoft Docs
 description: Learn how to choose the installation directory for a VSPackage and its supporting files, by using factors such as whether it is managed or unmanaged.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - VSPackages, installation directory
 ms.assetid: 01fbbb5b-f747-446c-afe0-2a081626a945
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Choose the installation directory for a VSPackage
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A VSPackage and its supporting files must be on a user's file system. The location depends on whether the VSPackage is managed or unmanaged, your side-by-side versioning scheme, and user choice.
 
 ## Unmanaged VSPackages

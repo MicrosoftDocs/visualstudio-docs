@@ -1,7 +1,6 @@
 ---
 title: "How AutoSave impacts Office solutions"
 description: Learn how AutoSave is a feature for Excel, PowerPoint, and Word that automatically and continuously saves your edits.
-ms.custom: SEO-VS-2020
 ms.date: "10/26/2018"
 ms.topic: "conceptual"
 dev_langs:
@@ -17,6 +16,8 @@ ms.workload:
   - "office"
 ---
 # How AutoSave impacts Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 AutoSave is a feature for Excel, PowerPoint, and Word that automatically and continuously saves your edits. If the feature is turned off, you must save files manually to keep your changes. You may need to adjust your Office solution so that it works smoothly even while AutoSave is on. For details, see [How AutoSave impacts add-ins and macros](/office/vba/library-reference/concepts/how-autosave-impacts-addins-and-macros). For more information about AutoSave in general, see [What is AutoSave?](https://support.office.com/en-US/article/What-is-AutoSave-6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5).
 

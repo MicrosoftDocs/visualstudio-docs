@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortSupplier3::CanPersistPorts
 ms.assetid: 4127760c-e602-4e86-9232-457e382a52c7
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,17 +19,21 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortSupplier3::CanPersistPorts
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method determines whether the port supplier can persist ports (by writing them to disk) between invocations of the debugger.
 
 ## Syntax
 
-```cpp
-HRESULT CanPersistPorts();
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CanPersistPorts();
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CanPersistPorts();
+```
+---
 
 ## Parameters
  None.

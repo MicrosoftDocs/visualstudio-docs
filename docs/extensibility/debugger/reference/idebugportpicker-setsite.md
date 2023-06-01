@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugPortPicker::SetSite
 ms.assetid: 7319e187-adfe-4b3f-aec9-521356fb5a8a
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -17,21 +17,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortPicker::SetSite
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the service provider.
 
 ## Syntax
 
-```cpp
-HRESULT SetSite(
-   IServiceProvider * pSP
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int SetSite(
    IServiceProvider pSP
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetSite(
+   IServiceProvider * pSP
+);
+```
+---
 
 ## Parameters
 `pSP`\

@@ -1,7 +1,6 @@
 ---
 title: Properties of Domain Relationships
 description: Learn about the properties that are associated with a domain relationshop, like Access Modifier, Custome Attributes, and Generates Double Derived.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -14,6 +13,8 @@ ms.workload:
   - "multiple"
 ---
 # Properties of Domain Relationships
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The properties in the following table are associated with a domain relationship. For information about domain relationships, see [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).
 
 |Property|Description|Default|

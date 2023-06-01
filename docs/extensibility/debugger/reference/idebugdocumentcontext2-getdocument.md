@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocumentContext2::GetDocument
 ms.assetid: c6d46c5d-ade8-4dc8-9862-8fc7876658c4
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentContext2::GetDocument
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the document that contains this document context.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocument( 
-   IDebugDocument2** ppDocument
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocument( 
    out IDebugDocument2 ppDocument
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocument( 
+   IDebugDocument2** ppDocument
+);
+```
+---
 
 ## Parameters
 `ppDocument`\

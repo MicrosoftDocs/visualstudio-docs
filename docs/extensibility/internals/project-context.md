@@ -1,20 +1,21 @@
 ---
 title: Project Context | Microsoft Docs
 description: Learn how the Visual Studio IDE uses project context to determine how to perform operations when the user adds or works with projects and project items.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - projects [Visual Studio SDK], opening items
 ms.assetid: d1803f4a-24eb-44b0-b5d2-cb40c15534be
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Project Context
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When the user adds or works with projects and project items, the IDE uses the notion of project context to determine how various operations should be performed.
 
  Typically, files are the standard project objects that the user explicitly creates by selecting the **New Project** command or makes available by selecting the **Open Project** command on the **File** menu. In these cases, files are created and opened in the context of a project and the project type defines the context for editing the document.

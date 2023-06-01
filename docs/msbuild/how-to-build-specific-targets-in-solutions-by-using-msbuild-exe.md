@@ -1,8 +1,7 @@
 ---
 title: Use MSBuild.exe to build specific targets in solutions
 description: Learn how to use MSBuild.exe command line to build specific targets of specific projects in solutions.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 06/10/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, building specific targets in a solution
@@ -34,9 +33,11 @@ You can use *MSBuild.exe* to build specific targets of specific projects in a so
 msbuild SlnFolders.sln -target:NotInSlnfolder:Rebuild;NewFolder\InSolutionFolder:Clean
 ```
 
+Building a specific target also triggers other dependent targets to build.
+
 ## Troubleshooting
 
-If you would like to examine the options available to you, you can use a debugging option provided by MSBuild to do so. Set the environment variable `MSBUILDEMITSOLUTION=1` and build your solution. This will produce an MSBuild file named *\<SolutionName>.sln.metaproj* that shows MSBuild's internal view of the solution at build time. You can inspect this view to determine what targets are available to build.
+If you would like to examine the solution project, you can use a debugging option provided by MSBuild to do so. Set the environment variable `MSBUILDEMITSOLUTION=1` and build your solution. This will produce an MSBuild file named *\<SolutionName>.sln.metaproj* that shows MSBuild's internal view of the solution at build time. You can inspect this view to determine what targets are available to build, and other configuration details.
 
 Do not build with this environment variable set unless you need this internal view. This setting can cause problems building projects in your solution. Look in the [binary log](obtaining-build-logs-with-msbuild.md#save-a-binary-log) instead.
 

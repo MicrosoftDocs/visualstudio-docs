@@ -1,19 +1,20 @@
 ---
 title: Breaking Changes in Visual Studio 2017 extensibility
 description: Learn about technical details of breaking changes made to the extensibility model in Visual Studio 2017 and what you can do to address them.
-ms.custom: SEO-VS-2020
 titleSuffix: ''
 ms.date: 11/09/2016
 ms.topic: conceptual
 ms.assetid: 54d5af60-0b44-4ae1-aa57-45aa03f89f3d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Changes in Visual Studio 2017 extensibility
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio 2017 provides a [faster, lighter-weight Visual Studio installation experience](https://devblogs.microsoft.com/visualstudio/faster-leaner-visual-studio-installer) that reduces the impact of Visual Studio on user systems while giving users greater choice over the workloads and features that are installed. To support these improvements, we've made changes to the extensibility model, including some breaking changes. This article describes the technical details of these changes and what can be done to address them.
 

@@ -1,7 +1,6 @@
 ---
 title: Remove unused references
 description: Learn how to clean up project references and NuGet packages that have no usage with the new Remove Unused References command.
-ms.custom: SEO-VS-2021
 ms.date: 09/14/2021
 ms.topic: reference
 author: mikadumont
@@ -15,6 +14,8 @@ ms.workload:
   - "dotnet"
 ---
 # Remove Unused References
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 

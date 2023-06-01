@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, C#, IntelliSense
 description: Learn how to use the IntelliSense page in the C# section to modify settings that affect the behavior of IntelliSense for C#.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -21,6 +20,8 @@ ms.workload:
 - dotnet
 ---
 # Options, Text Editor, C#, IntelliSense
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **IntelliSense** options page to modify settings that affect the behavior of IntelliSense for C#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **C#** > **IntelliSense**.
 

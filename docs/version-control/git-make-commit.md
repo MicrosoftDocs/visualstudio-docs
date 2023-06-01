@@ -1,18 +1,21 @@
 ---
-title: Make a commit in Visual Studio
+title: Make a Git commit in Visual Studio
 titleSuffix: ""
-description: Make a commit in Visual Studio by using Git or Azure DevOps.
-ms.date: 11/08/2021
+description: Make a Git commit in Visual Studio by using Git providers such as GitHub or Azure DevOps.
+ms.date: 05/26/2023
 ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
+ms.custom: version-control
 ---
-# Make a commit in Visual Studio
+# Make a Git commit in Visual Studio
 
-The core part of any Git workflow is modifying files and committing the changes in those files.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+The core part of any Git workflow is modifying files and committing the changes in those files.  While this article references GitHub repositories, you can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps. Or, you can work locally with no provider at all.
 
 Git tracks file changes in your repo as you work, and separates the files in your repo into three categories. These changes are equivalent to what you would see when you enter the `git status` command in the command line:
 
@@ -23,6 +26,8 @@ Git tracks file changes in your repo as you work, and separates the files in you
 As you do your work, Visual Studio keeps track of the file changes to your project in the **Changes** section of the **Git Changes** window.
 
 :::image type="content" source="media/vs-2022/git-changes-window.png" alt-text="The Git Changes window in Visual Studio 2022.":::
+
+New in [**version 17.6**](/visualstudio/releases/2022/release-notes-v17.6): You can also reference an issue or a pull request by typing `#` or selecting the **#** button in the lower right side of the commit message text box. For more information, see the [Reference issues and pull requests](https://devblogs.microsoft.com/visualstudio/reference-github-issues-and-pull-requests-in-visual-studio/) blog post.
 
 To stage changes when you're ready, select the **+** (plus) button on each file you want to stage, or right-click a file and then select **Stage**. You can also stage all your modified files with one click by using the stage all **+** (plus) button at the top of the **Changes** section.
 
@@ -44,8 +49,9 @@ When you double-click a **Commit**, Visual Studio opens its details in a separat
 
 ## Next steps
 
-To continue your journey, visit the [Push to remote](git-push-remote.md) page.
+To continue your journey, visit the [Stage lines of code](git-line-staging.md) page.
 
 ## See also
 
-[Git experience in Visual Studio](git-with-visual-studio.md)
+- [Git experience in Visual Studio](git-with-visual-studio.md)
+- [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

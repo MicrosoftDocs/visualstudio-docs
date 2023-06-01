@@ -1,7 +1,7 @@
 ---
 title: VSInstr | Microsoft Docs
 description: Learn how the VSInstr tool is used to instrument binaries and about other various VSInstr tool options.
-ms.date: 11/04/2016
+ms.date: 11/11/2022
 ms.topic: reference
 helpviewer_keywords: 
   - performance tools, instrumentation
@@ -17,11 +17,13 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-monikerRange: 'vs-2017'
 ms.workload: 
   - multiple
 ---
 # VSInstr
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The VSInstr tool is used to instrument binaries. It is invoked by using the following syntax:
 
 ```cmd
@@ -53,8 +55,5 @@ VSInstr [/U] filename [/options]
 |**ResumeOnly:**{**Before**\|**After**\|**Top**\|**Bottom**}`,funcname`|Begins or resumes data collection during a profiling run.<br /><br /> It is usually used to start profiling after a **SuspendOnly** option has stopped profiling. It inserts a ResumeProfile API at the specified location.<br /><br /> **Before** - immediately before the target function entry.<br /><br /> **After** - immediately after the target function exit.<br /><br /> **Top** - immediately after the target function entry.<br /><br /> **Bottom** - immediately before each return in the target function.<br /><br /> `funcname` - name of the target function.<br /><br /> If the target function contains a StopProfile function, the ResumeProfile function is inserted after it.|
 
 ## See also
-- [VSPerfMon](../profiling/vsperfmon.md)
+
 - [VSPerfCmd](../profiling/vsperfcmd.md)
-- [VSPerfReport](../profiling/vsperfreport.md)
-- [VSInstr warnings](../profiling/vsinstr-warnings.md)
-- [Performance report views](../profiling/performance-report-views.md)

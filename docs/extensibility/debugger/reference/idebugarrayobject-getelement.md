@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugArrayObject::GetElement method
 ms.assetid: 08b44341-7bf1-4a8c-8b79-98ae5785b195
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugArrayObject::GetElement
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets an element of the array.
 
 ## Syntax
 
-```cpp
-HRESULT GetElement( 
-   DWORD          dwIndex,
-   IDebugObject** ppElement
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetElement(
    [In] uint dwIndex,
    out IDebugObject ppElement
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetElement( 
+   DWORD          dwIndex,
+   IDebugObject** ppElement
+);
+```
+---
 
 ## Parameters
 `dwIndex`\

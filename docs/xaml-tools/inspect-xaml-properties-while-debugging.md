@@ -1,19 +1,19 @@
 ---
 title: "Inspect XAML properties while debugging | Microsoft Docs"
 description: Learn how to use the Live Visual Tree and Live Property Explorer tools while debugging to inspect XAML properties and get a tree view of UI elements.
-ms.custom: SEO-VS-2020
 ms.date: 10/26/2021
 ms.topic: how-to
 ms.assetid: 390edde4-7b8d-4c89-8d69-55106b7e6b11
-author: TerryGLee
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
 ms.workload:
   - "uwp"
 ---
-
 # Inspect XAML properties while debugging
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can get a real-time view of your running XAML code with the **Live Visual Tree** and the **Live Property Explorer**. These tools give you a tree view of the UI elements of your running XAML application, and show you the runtime properties of any UI element you select.
 
@@ -30,19 +30,10 @@ Let's get started with a very simple WPF application that has a list view and a 
 
 ### Create the project
 
-::: moniker range=">=vs-2019"
+1. Create a new C# WPF application (**File** > **New** > **Project**, type "C# WPF", choose the **WPF Application** project template, name the project **TestXAML**, and then verify that the correct .NET version appears in the **Target Framework** drop-down.
 
-1. Create a new C# WPF application (**File** > **New** > **Project**, type "C# WPF", choose the **WPF Application** project template, name the project **TestXAML**, and then verify that **.NET Core 3.1** appears in the **Target Framework** drop-down.
 
-::: moniker-end
-
-::: moniker range="vs-2017"
-
-1. Create a new C# WPF application (**File** > **New** > **Project**, then type "C# WPF", and choose **WPF App (.NET Framework)**). Name it **TestXAML**.
-
-::: moniker-end
-
-1. Change MainWindow.xaml to the following:
+2. Change MainWindow.xaml to the following:
 
    ```xaml
    <Window x:Class="TestXAML.MainWindow"
@@ -60,7 +51,7 @@ Let's get started with a very simple WPF application that has a list view and a 
    </Window>
    ```
 
-1. Add the following command handler to the MainWindow.xaml.cs file:
+3. Add the following command handler to the MainWindow.xaml.cs file:
 
    ```csharp
    int count;
@@ -81,18 +72,15 @@ Let's get started with a very simple WPF application that has a list view and a 
    }
    ```
 
-1. Build the project and start debugging. (The build configuration must be Debug, not Release. For more information about build configurations, see [Understanding Build Configurations](../ide/understanding-build-configurations.md).)
+4. Build the project and start debugging. (The build configuration must be Debug, not Release. For more information about build configurations, see [Understanding Build Configurations](../ide/understanding-build-configurations.md).)
 
    When the window comes up you should see the in-app toolbar appear within your running application.
 
    ::: moniker range=">= vs-2019"
    ![Main window of the app](../debugger/media/vs-2019/livevisualtree-app.png "LiveVIsualTree-App")
    ::: moniker-end
-   ::: moniker range="vs-2017"
-   ![Main window of the app](../debugger/media/livevisualtree-app.png "LiveVIsualTree-App")
-   ::: moniker-end
 
-1. Now, click the **Add Item** button a few times to add new items into the list.
+5. Now, click the **Add Item** button a few times to add new items into the list.
 
 ### Inspect XAML properties
 
@@ -108,9 +96,6 @@ Let's get started with a very simple WPF application that has a list view and a 
 
    ::: moniker range=">= vs-2019"
    ![ListBoxItems in the Live Visual Tree](../debugger/media/vs-2019/livevisualtree-listboxitems.png "LiveVisualTree-ListBoxItems")
-   ::: moniker-end
-   ::: moniker range="vs-2017"
-   ![ListBoxItems in the Live Visual Tree](../debugger/media/livevisualtree-listboxitems.png "LiveVisualTree-ListBoxItems")
    ::: moniker-end
 
 1. Go back to the application window and add a few more items. You should see more list box items appear in the **Live Visual Tree**.
@@ -134,16 +119,6 @@ Let's get started with a very simple WPF application that has a list view and a 
    ![LivePropertyViewer in DisplayLayout](../debugger/media/vs-2019/livevisualtreelivepropertyviewer-displaylayout.png "LiveVisualTreeLivePropertyViewer-DisplayLayout")
 
    **Preview Selection**. You can enable this mode by selecting the third button from the left on the Live Visual Tree toolbar. This mode shows the XAML where the element was declared, if you have access to the source code of the application. Select **Select element** and **Preview selection**, and then you select the button in our test application. The MainWindow.xaml file opens in Visual Studio and the cursor is placed on the line where the button is defined.
-   ::: moniker-end
-
-   ::: moniker range="vs-2017"
-   **Enable selection in the running application**. You can enable this mode when you select the leftmost button on the **Live Visual Tree** toolbar. With this mode on, you can select a UI element in the application, and the **Live Visual Tree** (and the **Live Property Viewer**) automatically updates to show the node in the tree corresponding to that element, and its properties.
-
-   **Display layout adorners in the running application**. You can enable this mode when you select the button that is immediately to the right of the Enable selection button. When **Display layout adorners** is on, it causes the application window to show horizontal and vertical lines along the bounds of the selected object so you can see what it aligns to, as well as rectangles showing the margins. For example, turn both **Enable selection** and **Display layout** on, and select the **Add Item** text block in the application. You should see the text block node in the **Live Visual Tree** and the text block properties in the **Live Property Viewer**, as well as the horizontal and vertical lines on the bounds of the text block.
-
-   ![LivePropertyViewer in DisplayLayout](../debugger/media/livevisualtreelivepropertyviewer-displaylayout.png "LiveVisualTreeLivePropertyViewer-DisplayLayout")
-
-   **Preview Selection**. You can enable this mode by selecting the third button from the left on the Live Visual Tree toolbar. This mode shows the XAML where the element was declared, if you have access to the source code of the application. Select **Enable selection** and **Preview selection**, and then you select the button in our test application. The MainWindow.xaml file opens in Visual Studio and the cursor is placed on the line where the button is defined.
    ::: moniker-end
 
 ## Use XAML tools with running applications

@@ -1,7 +1,6 @@
 ---
 title: "Debugging F# | Microsoft Docs"
 description: Review a list of differences between debugging F# compared with debugging other managed languages in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -21,6 +20,8 @@ ms.workload:
   - "multiple"
 ---
 # Debugging F\#
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Debugging F# is similar to debugging any managed language, with a few exceptions:
 
 - The **Autos** window does not display F# variables.

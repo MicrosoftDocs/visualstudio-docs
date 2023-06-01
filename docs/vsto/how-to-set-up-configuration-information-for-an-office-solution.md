@@ -1,7 +1,6 @@
 ---
 title: "Set up configuration information for an Office solution"
 description: Learn how you can use configuration files to configure settings that are specific to your Microsoft Office solutions.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -19,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Set up configuration information for an Office solution
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use configuration files to configure settings that are specific to your Office solutions. You can specify settings such as assembly binding policy, remoting objects, debug, and trace settings.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

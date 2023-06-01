@@ -1,7 +1,6 @@
 ---
 title: Timing Details Storage property (load test run setting)
 description: Learn how to edit the Timing Details Storage property for a run setting. Valid values are All Individual Details, None, and Statistics Only.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -14,6 +13,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # How to: Specify the timing details storage property for a load test run setting
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 After you create your load test with the **New Load Test Wizard**, you can use the **Load Test Editor** to change the settings to meet your testing needs and goals.
 
@@ -59,4 +60,3 @@ You can edit a run setting's **Timing Details Storage** property's value in the 
 ## See also
 
 - [Analyze virtual user activity in the Details view](../test/analyze-load-test-virtual-user-activity-in-the-details-view.md)
-- [Walkthrough: Using the Virtual User Activity Chart to isolate issues](../test/walkthrough-use-the-virtual-user-activity-chart-to-isolate-issues.md)

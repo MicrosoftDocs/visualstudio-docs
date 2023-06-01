@@ -1,7 +1,6 @@
 ---
 title: Create a Coded UI Test
 description: Learn how to use a coded UI test for a Windows Presentation Framework app and see solutions for tests with timing issues and refactoring of controls.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.author: mikejo
@@ -12,6 +11,8 @@ ms.workload:
 author: mikejo5000
 ---
 # Walkthrough: Create, edit, and maintain a coded UI test
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this walkthrough, you'll learn how to create, edit, and maintain a coded UI test to test a Windows Presentation Framework (WPF) app. The walkthrough provides solutions for correcting tests that have been broken by various timing issues and refactoring of controls.
 

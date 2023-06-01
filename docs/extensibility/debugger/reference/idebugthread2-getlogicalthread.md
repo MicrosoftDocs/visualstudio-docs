@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugThread2::GetLogicalThread
 ms.assetid: bce6230e-41d4-49b7-a050-2dde5efb6805
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugThread2::GetLogicalThread
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Debug engines do not implement this method.
 
 ## Syntax
 
-```cpp
-HRESULT GetLogicalThread( 
-   IDebugStackFrame2*     pStackFrame,
-   IDebugLogicalThread2** ppLogicalThread
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetLogicalThread( 
    IDebugStackFrame2        pStackFrame,
    out IDebugLogicalThread2 ppLogicalThread
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetLogicalThread( 
+   IDebugStackFrame2*     pStackFrame,
+   IDebugLogicalThread2** ppLogicalThread
+);
+```
+---
 
 ## Parameters
 `pStackFrame`\

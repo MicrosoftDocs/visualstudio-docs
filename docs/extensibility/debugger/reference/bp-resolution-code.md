@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - BP_RESOLUTION_CODE structure
 ms.assetid: ac103ec5-771c-4667-92de-b5abb53bbb52
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # BP_RESOLUTION_CODE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the location of a code breakpoint.
 
 ## Syntax
 
-```cpp
-typedef struct _BP_RESOLUTION_CODE {
-    IDebugCodeContext2* pCodeContext;
-} BP_RESOLUTION_CODE;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct BP_RESOLUTION_CODE {
     public IDebugCodeContext2 pCodeContext;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _BP_RESOLUTION_CODE {
+    IDebugCodeContext2* pCodeContext;
+} BP_RESOLUTION_CODE;
+```
+---
 
 ## Members
 `pCodeContext`\

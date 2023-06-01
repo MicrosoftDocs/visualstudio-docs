@@ -1,7 +1,6 @@
 ---
 title: Unit test tools & tasks
 description: Learn about the unit test tools you can use to give developers and testers a quick way to look for logic errors in your code. 
-ms.custom: SEO-VS-2020
 ms.date: 08/10/2021
 ms.topic: conceptual
 helpviewer_keywords:
@@ -16,6 +15,8 @@ ms.workload:
 author: mikejo5000
 ---
 # Unit test tools and tasks
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Unit tests give developers and testers a quick way to look for logic errors in the methods of classes in C#, Visual Basic, and C++ projects.
 
@@ -45,7 +46,7 @@ Use the following articles to help with understanding and creating unit tests:
 |**Unit test C++ code**|- [Write unit tests for C/C++](../test/writing-unit-tests-for-c-cpp.md)<br />- [How to: Add unit tests to C++ apps](../test/how-to-use-microsoft-test-framework-for-cpp.md)|
 |**Use code coverage to identify what proportion of your project's code is tested:** Learn about the code coverage feature of Visual Studio testing tools.|- [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)|
 |**Isolating unit tests**|- [Isolate .NET code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)|
-|**Perform stress and performance analysis by using load tests:** Learn how to create load tests to help isolate performance and stress issues in your application (deprecated).|- [Quickstart: Create a load test project](../test/quickstart-create-a-load-test-project.md)<br />- [Load testing (Azure Test Plans and TFS)](/azure/devops/test/load-test/index?view=vsts&preserve-view=true)|
+|**Perform stress and performance analysis by using load tests:** Learn how to create load tests to help isolate performance and stress issues in your application (deprecated).|- [Quickstart: Create a load test project](../test/quickstart-create-a-load-test-project.md)<br />- [Load testing (Azure Test Plans and TFS)](/azure/load-testing/)|
 |**Set quality gates:** Learn how to create quality gates to enforce that tests are run before code is checked in or merged.|- [Check-in policies (Azure Repos TFVC)](/azure/devops/repos/tfvc/add-check-policies?view=vsts&preserve-view=true)|
 |**Set testing options:** Learn how to configure test options, for example, where test results are stored.|[Configure unit tests by using a .runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)|
 

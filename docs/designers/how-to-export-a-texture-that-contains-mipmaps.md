@@ -1,7 +1,6 @@
 ---
 title: 'How to: Export a Texture that Contains Mipmaps'
 description: Learn how the Image Content Pipeline generates mipmaps from a source image as part of building your project, which ensures that mipmaps never become out-of-sync.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 3d1ad14b-44fb-4cf0-a995-5e2f60026524
@@ -13,6 +12,8 @@ ms.workload:
 - multiple
 ---
 # How to: Export a texture that contains mipmaps
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Image Content Pipeline can generate mipmaps from a source image as part of your project's build phase. To achieve certain effects, sometimes you have to specify the image content of each MIP level manually. When you don't need to specify the image content of each MIP level manually, generating mipmaps at build time ensures that mipmap contents never become out-of-sync. It also eliminates the performance cost of generating mipmaps at run time.
 

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugCodeContexts2::Reset
 ms.assetid: df6cf1e3-2ef8-4d38-81a0-8e9adf151884
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,23 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugCodeContexts2::Reset
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Resets the enumeration to the first element.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Reset();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Reset(
    void
 );
 ```
-
-```csharp
-int Reset();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -1,16 +1,17 @@
 ---
 title: Use PowerShell to publish to dev and test environments
 description: Learn how to use Windows PowerShell scripts from Visual Studio to publish to development and test environments.
-ms.custom: SEO-VS-2020
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
-ms.date: 11/11/2016
+ms.date: 11/22/2021
 ms.author: ghogen
 ---
 # Using Windows PowerShell scripts to publish to dev and test environments
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you create a web application in Visual Studio, you can generate a Windows PowerShell script that you can use later to automate the publishing of your website to Azure as a Web App in Azure App Service or a virtual machine. You can edit and extend the Windows PowerShell script in the Visual Studio editor to suit your requirements, or integrate the script with existing build, test, and publishing scripts.
 
@@ -220,23 +221,21 @@ To automate building your project, add code that calls MSBuild to `New-WebDeploy
     ```powershell
     function Get-MSBuildCmd
     {
-            process
-    {
-
-                $path =  Get-ChildItem "HKLM:\SOFTWARE\Microsoft\MSBuild\ToolsVersions\" |
-                                    Sort-Object {[double]$_.PSChildName} -Descending |
-                                    Select-Object -First 1 |
-                                    Get-ItemProperty -Name MSBuildToolsPath |
-                                    Select -ExpandProperty MSBuildToolsPath
-
-                $path = (Join-Path -Path $path -ChildPath 'msbuild.exe')
-
-            return Get-Item $path
+       process
+       {
+        $StartInfo  = New-Object System.Diagnostics.ProcessStartInfo;
+        $StartInfo.Filename = ${Env:ProgramFiles(x86)} + "\\Microsoft Visual Studio\\Installer\\vswhere.exe"
+        $StartInfo.Arguments = " -latest -requires Microsoft.Component.MSBuild -find MSBuild\\**\\Bin\\MSBuild.exe"
+        $StartInfo.RedirectStandardOutput = $True
+        $StartInfo.UseShellExecute = $False
+        [System.Diagnostics.Process] $VSWhere = [Diagnostics.Process]::Start($StartInfo)
+        $VSWhere.WaitForExit()
+        return $VSWhere.StandardOutput.ReadToEnd();
         }
     }
     ```
 
-1. Replace `New-WebDeployPackage` with the following code and replace the placeholders in the line constructing `$msbuildCmd`. This code is for Visual Studio 2019. If you're using Visual Studio 2017, change the **VisualStudioVersion** property to `15.0`, '14.0' for Visual Studio 2015, or `12.0` for Visual Studio 2013).
+1. Replace `New-WebDeployPackage` with the following code and replace the placeholders in the line constructing `$msbuildCmd`.
 
     ```powershell
     function New-WebDeployPackage
@@ -244,12 +243,12 @@ To automate building your project, add code that calls MSBuild to `New-WebDeploy
         #Write a function to build and package your web application
     ```
 
-    To build your web application, use MsBuild.exe. For help, see [MSBuild Command-Line Reference](../msbuild/msbuild-command-line-reference.md)
+    To build your web application, use MSBuild.exe. For help, see [MSBuild Command-Line Reference](../msbuild/msbuild-command-line-reference.md)
 
     ```powershell
     Write-VerboseWithTime 'Build-WebDeployPackage: Start'
 
-    $msbuildCmd = '"{0}" "{1}" /T:Rebuild;Package /P:VisualStudioVersion=16.0 /p:OutputPath="{2}\MSBuildOutputPath" /flp:logfile=msbuild.log,v=d' -f (Get-MSBuildCmd), $ProjectFile, $scriptDirectory
+    $msbuildCmd = '"{0}" "{1}" /T:Rebuild;Package /p:OutputPath="{2}\MSBuildOutputPath" /flp:logfile=msbuild.log,v=d' -f (Get-MSBuildCmd), $ProjectFile, $scriptDirectory
 
     Write-VerboseWithTime ('Build-WebDeployPackage: ' + $msbuildCmd)
     ```
@@ -260,7 +259,7 @@ To automate building your project, add code that calls MSBuild to `New-WebDeploy
 $job = Start-Process cmd.exe -ArgumentList('/C "' + $msbuildCmd + '"') -WindowStyle Normal -Wait -PassThru
 
 if ($job.ExitCode -ne 0) {
-    throw('MsBuild exited with an error. ExitCode:' + $job.ExitCode)
+    throw('MSBuild exited with an error. ExitCode:' + $job.ExitCode)
 }
 
 #Obtain the project name

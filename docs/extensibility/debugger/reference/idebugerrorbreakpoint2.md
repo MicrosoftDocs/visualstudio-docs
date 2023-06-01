@@ -8,14 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugErrorBreakpoint2 interface
 ms.assetid: 1f2a4b94-3713-46e9-8272-3917187792bd
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # IDebugErrorBreakpoint2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents an error or warning breakpoint, such as an invalid location, an invalid expression, or the reasons why the pending breakpoint has not bound (code not loaded yet, and so on).
 
 ## Syntax

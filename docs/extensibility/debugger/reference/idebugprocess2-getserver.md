@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProcess2::GetServer
 ms.assetid: 8f73c530-cceb-4f1f-8c63-1cc0ccd4a310
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess2::GetServer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the server that this process is running on.
 
 ## Syntax
 
-```cpp
-HRESULT GetServer( 
-   IDebugCoreServer2** ppServer
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetServer( 
    out IDebugCoreServer2 ppServer
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetServer( 
+   IDebugCoreServer2** ppServer
+);
+```
+---
 
 ## Parameters
 `ppServer`\

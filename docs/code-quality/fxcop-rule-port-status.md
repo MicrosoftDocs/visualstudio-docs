@@ -2,7 +2,6 @@
 title: FxCop rule port status
 ms.date: 05/21/2019
 description: Learn about the static code analysis rules that have been ported to .NET analyzers in Visual Studio. View ported rules and resources on porting updates.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 helpviewer_keywords:
 - fxcop rules
@@ -15,6 +14,8 @@ ms.workload:
 - dotnet
 ---
 # Fxcop rule port status
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you previously used static code analysis in Visual Studio, you may be wondering which of those rules are available in the current implementation as [.NET analyzers](install-net-analyzers.md). This page lists the rules that have been ported. See [Unported rules](fxcop-unported-rules.md) for those that haven't been ported and whether there are plans to port them.
 

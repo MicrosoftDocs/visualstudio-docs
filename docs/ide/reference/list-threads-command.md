@@ -1,7 +1,6 @@
 ---
 title: List Threads Command
 description: Learn about the List Threads command and how it displays a list of the threads in the current program.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -19,6 +18,8 @@ ms.workload:
 - multiple
 ---
 # List Threads Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Displays a list of the threads in the current program.
 
 ## Syntax

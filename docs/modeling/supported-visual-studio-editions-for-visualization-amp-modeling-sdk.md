@@ -1,7 +1,6 @@
 ---
 title: Supported Visual Studio Editions for Visualization and Modeling SDK
 description: Learn about the Visual Studio editions that are supported with DSL Tools in the authoring and deployment environments.
-ms.custom: SEO-VS-2020
 titleSuffix: ''
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -15,6 +14,8 @@ ms.workload:
 - multiple
 ---
 # Supported Visual Studio Editions for Visualization & Modeling SDK
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The following are lists of the Visual Studio editions that are supported with [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] in the authoring and deployment environments. For more information on these editions, see the Microsoft Visual Studio [Developer Center](https://visualstudio.microsoft.com/).
 

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortSupplier2::GetPort
 ms.assetid: d55d5055-7386-4037-bf22-4c3e434a99ca
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortSupplier2::GetPort
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a port from a port supplier.
 
 ## Syntax
 
-```cpp
-HRESULT GetPort( 
-   REFGUID       guidPort,
-   IDebugPort2** ppPort
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPort( 
    ref Guid        guidPort,
    out IDebugPort2 ppPort
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPort( 
+   REFGUID       guidPort,
+   IDebugPort2** ppPort
+);
+```
+---
 
 ## Parameters
 `guidPort`\

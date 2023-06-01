@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugThread2::GetProgram
 ms.assetid: 8c9c5ea1-2031-472e-bc8f-30e22e754566
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugThread2::GetProgram
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the program in which a thread is running.
 
 ## Syntax
 
-```cpp
-HRESULT GetProgram ( 
-   IDebugProgram2** ppProgram
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProgram ( 
    out IDebugProgram2 ppProgram
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProgram ( 
+   IDebugProgram2** ppProgram
+);
+```
+---
 
 ## Parameters
 `ppProgram`\

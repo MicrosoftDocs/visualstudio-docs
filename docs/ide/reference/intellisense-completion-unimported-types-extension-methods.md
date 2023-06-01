@@ -1,7 +1,6 @@
 ---
 title: IntelliSense completion for types & extension methods
 description: How to use IntelliSense completion for types and extension methods that you haven't imported yet with a `using` directive.
-ms.custom: SEO-VS-2020
 ms.date: 07/27/2020
 ms.topic: reference
 author: mikadumont
@@ -15,6 +14,8 @@ ms.workload:
   - "dotnet"
 ---
 # IntelliSense completion for unimported types and extension methods
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 
@@ -33,7 +34,7 @@ This refactoring applies to:
 1. Once you start typing the name of a type or extension method that has a dependency in your project, IntelliSense will give you suggestions. Items from unimported namespaces would have their containing namespace shown as suffix.
 
    > [!TIP]
-   > You can show/hide items from unimported namespaces on demand, using the **Expander button (Alt + A)** that appears at the bottom left of the completion list. To change the default behavior, go to **Tools** > **Options** > **Text Editor** > **C#** / **Basic** > **IntelliSense** and look for **Show items from unimported namespaces**.
+   > You can show/hide items from unimported namespaces on demand, using the **Expander button (Alt + A)** that appears at the bottom left of the completion list. To change the default behavior, go to **Tools** > **Options** > **Text Editor** > **C#** (or **Visual Basic**) > **IntelliSense** and look for **Show items from unimported namespaces**.
 
 2. Select and commit an unimported item.
 

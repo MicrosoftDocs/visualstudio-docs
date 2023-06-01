@@ -1,21 +1,22 @@
 ---
 title: List of Available Services | Microsoft Docs
 description: View a list of the available services supported by Visual Studio and the Visual Studio SDK, including service GUIDs for obtaining an interface for each service.
-ms.custom: SEO-VS-2020 
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - services, Visual Studio
 - Visual Studio, services
 ms.assetid: 724eb24b-b87c-4971-a2e7-adee7afc03b2
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # List of Available Services
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and the Visual Studio SDK support the following services. Some packages offer their own services which are not listed here—for example, language services do not have a single service GUID. You must use the name of the language to find the GUID of the language service in the registry.
 

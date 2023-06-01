@@ -1,15 +1,16 @@
 ---
 title: "Extend an existing ASP.NET Core web application"
 description: This document contains video tutorials showing how to extend the eShopOnWeb sample ASP.NET Core application.
-ms.custom: SEO-VS-2020
-author: sayedihashimi
-ms.author: sayedha
+author: heiligerdankgesang 
+ms.author: dominicn
+manager: dominicn
 ms.date: 10/18/2019
 ms.assetid: 047f5e36-f38e-4bf6-a1c5-3fde32978b7d
-ms.topic: tutorial
+ms.topic: how-to
 ---
-
 # Tutorial: Extending an existing ASP.NET Core web application
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 In these tutorials, you will be working with the [eShopOnWeb reference app](https://github.com/dotnet-architecture/eShopOnWeb). Each step consists of a video and a tutorial doc.
 

@@ -2,7 +2,6 @@
 title: Legacy analysis for managed code
 ms.date: 06/12/2019
 description: Learn about legacy analysis in Visual Studio. See how to suppress warnings and how to run analyses manually, automatically, and during check-ins and builds.
-ms.custom: SEO-VS-2020
 ms.topic: conceptual
 helpviewer_keywords:
   - "code analysis, managed code"
@@ -15,6 +14,8 @@ ms.workload:
   - "dotnet"
 ---
 # Overview of legacy analysis for managed code in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio can perform code analysis of managed code in two ways: with [legacy analysis](../code-quality/walkthrough-analyzing-managed-code-for-code-defects.md), also known as FxCop static analysis of managed assemblies, and with the more modern .NET Compiler Platform-based [code analyzers](../code-quality/roslyn-analyzers-overview.md). This topic covers legacy analysis. To learn more about .NET Compiler Platform-based code analysis, see [Overview of .NET Compiler Platform-based analyzers](../code-quality/roslyn-analyzers-overview.md).
 
@@ -53,21 +54,8 @@ Public class MyClass
 
 For more information, see [Suppress warnings](../code-quality/in-source-suppression-overview.md).
 
-::: moniker range="vs-2017"
-
-> [!NOTE]
-> If you migrate a project to Visual Studio 2017, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings, you can suppress all of them by choosing **Analyze** > **Run Code Analysis and Suppress Active Issues**.
->
-> ![Run code analysis and suppress issues in Visual Studio](media/suppress-active-issues.png)
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 > [!NOTE]
 > If you migrate a project to Visual Studio 2019, you might suddenly be faced with a large number of code analysis warnings. If you aren't ready to fix the warnings, you can suppress all of them by choosing **Analyze** > **Build and Suppress Active Issues**.
-
-::: moniker-end
 
 ## Run code analysis as part of check-in policy
 

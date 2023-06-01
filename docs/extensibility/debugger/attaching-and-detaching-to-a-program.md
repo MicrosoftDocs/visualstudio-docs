@@ -1,21 +1,22 @@
 ---
 title: Attaching and Detaching to a Program | Microsoft Docs
 description: Learn about sending the correct sequence of methods and events with the proper attributes for attaching a debugger.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - debug engines, attaching to programs
 - debug engines, detaching from programs
 ms.assetid: 79dcbb9b-c7f8-40fc-8a00-f37fe1934f51
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # Attaching and detaching to a program
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Attaching the debugger requires sending the correct sequence of methods and events with the proper attributes.
 
 ## Sequence of methods and events

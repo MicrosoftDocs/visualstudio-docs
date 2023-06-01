@@ -1,7 +1,6 @@
 ---
 title: Develop tests from a model
 description: Learn how you can use requirements and architectural models to help organize the tests of your system and its components.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -14,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # Develop tests from a model
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can use requirements and architectural models to help you organize the tests of your system and its components. This practice helps ensure that you test the requirements that are important to the users and other stakeholders, and it helps you update the tests quickly when the requirements change. If you use [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)], you can also maintain links between the models and the tests.
 
  To see which versions of Visual Studio support these features, see [Version support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).

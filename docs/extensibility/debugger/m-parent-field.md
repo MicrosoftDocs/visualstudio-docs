@@ -6,14 +6,16 @@ ms.topic: reference
 helpviewer_keywords:
 - m_parent field, Task class [.NET Framework debug engines]
 ms.assetid: da9e3dc7-8e9b-4c3a-a9e0-12921b5300c6
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # m_parent field
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The backing field for the task's parent <xref:System.Threading.Tasks.Task>.
 

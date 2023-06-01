@@ -1,7 +1,6 @@
 ---
 title: "Find an email address in contacts programmatically"
 description: Learn how you can use Visual Studio to programmatically find an email address in your Microsoft Outlook contacts.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -19,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically search for an email address in contacts
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example searches a contact folder for contacts that have the domain name **example.com** in their e-mail addresses.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

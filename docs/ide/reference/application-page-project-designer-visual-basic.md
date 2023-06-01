@@ -1,7 +1,6 @@
 ---
 title: Application page of VB project properties
 description: Learn how to use the Application page of the Visual Basic Project Designer to specify the project's application settings and properties.
-ms.custom: SEO-VS-2020
 ms.date: 10/30/2018
 ms.topic: reference
 f1_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # Application Page, Project Designer (Visual Basic)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Application** page of the Project Designer to specify a project's application settings and properties.
 

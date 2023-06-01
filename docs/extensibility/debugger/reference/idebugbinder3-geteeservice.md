@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBinder3::GetEEService method
 ms.assetid: eb07aa40-8cd9-4a52-a4c7-4affd2307a01
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugBinder3::GetEEService
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns a requested service.
 
 ## Syntax
 
-```cpp
-HRESULT GetEEService(
-   [in] GUID        vendor,
-   [in] GUID        language,
-   [in] GUID        iid,
-   [out] IUnknown** ppService
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 Int GetEEService(
    Guid       vendor,
@@ -40,6 +34,16 @@ Int GetEEService(
    out object ppService
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEEService(
+   [in] GUID        vendor,
+   [in] GUID        language,
+   [in] GUID        iid,
+   [out] IUnknown** ppService
+);
+```
+---
 
 ## Parameters
 `vendor`\

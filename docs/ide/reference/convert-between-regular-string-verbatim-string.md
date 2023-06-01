@@ -1,7 +1,6 @@
 ---
 title: Convert between regular and verbatim string literals
 description: Learn how to use the Quick Actions and Refactorings menu to convert between regular string and verbatim string literals.
-ms.custom: SEO-VS-2020
 ms.date: 06/08/2020
 ms.topic: reference
 author: mikadumont
@@ -14,6 +13,8 @@ ms.workload:
   - "dotnet"
 ---
 # Convert between regular string and verbatim string literals refactoring
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 

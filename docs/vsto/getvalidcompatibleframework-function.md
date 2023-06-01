@@ -1,7 +1,6 @@
 ---
 title: "GetValidCompatibleFramework function"
 description: Learn how the GetValidCompatibleFramework API supports the Office infrastructure and isn't intended to be used directly from your code.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "reference"
 dev_langs:
@@ -15,6 +14,8 @@ ms.workload:
   - "office"
 ---
 # GetValidCompatibleFramework function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This API supports the Office infrastructure and isn't intended to be used directly from your code.
 
 ## Syntax

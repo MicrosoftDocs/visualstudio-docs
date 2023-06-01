@@ -1,9 +1,9 @@
 ---
 title: Overview for Visual Basic developers
 description: Learn about using Visual Studio to edit, debug, and build code, and then publish an app as a Visual Basic developer.
-ms.date: 09/14/2021
+ms.date: 01/31/2023
 ms.technology: vs-ide-general
-ms.custom: [vs-acquisition, get-started, SEO-VS-2020]
+ms.custom: vs-acquisition, get-started
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -15,13 +15,9 @@ ms.workload:
 ---
 # Welcome to the Visual Studio IDE | Visual Basic
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 An *integrated development environment* (IDE) is a feature-rich program that supports many aspects of software development. The Visual Studio IDE is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to enhance the software development process.
-
-::: moniker range="vs-2017"
-
-![Screenshot of the Visual Studio 2017 IDE with Visual Basic code.](../media/visual-studio-ide.png)
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -41,18 +37,12 @@ The preceding image shows Visual Studio with an open Visual Basic project that s
 
 - The central [editor window](../../ide/writing-code-in-the-code-and-text-editor.md), where you'll probably spend most of your time, displays file contents. In the editor window, you can edit code or design a user interface such as a window with buttons and text boxes.
 
-::: moniker range="vs-2017"
-
-- The [Output window](../../ide/reference/output-window.md) (bottom center) is where Visual Studio sends notifications such as debugging and error messages, compiler warnings, publishing status messages, and more. Each message source has its own tab.
-
-::: moniker-end
-
 ::: moniker range="<=vs-2019"
 - In [Team Explorer](/azure/devops/user-guide/work-team-explorer?view=vsts&preserve-view=true), at lower right, you can track work items and share code using version control technologies such as [Git](https://git-scm.com/) and [Team Foundation Version Control (TFVC)](/azure/devops/repos/tfvc/overview?view=vsts&preserve-view=true).
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-- In [Git Changes](/visualstudio/version-control/) at lower right, you can track work items and share code with others by using version control technologies like [Git](https://git-scm.com/) and [GitHub](https://docs.github.com/github).
+- In [Git Changes](/visualstudio/version-control/) at lower right, you can track work items and share code with others by using version control technologies like [Git](https://git-scm.com/) and [GitHub](https://github.com/).
 ::: moniker-end
 
 ## Editions
@@ -69,12 +59,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
   Squiggles are wavy underlines that alert you to errors or potential problems in your code as you type. These visual clues help you fix problems immediately, without waiting to discover errors during build or runtime. If you hover over a squiggle, you see more information about the error. A lightbulb might also appear in the left margin showing *Quick Actions* you can take to fix the error.
 
-   ::: moniker range="vs-2017"
-
-   ![Screenshot of a squiggle underline in Visual Studio.](media/squiggles-error.png)
-
-   ::: moniker-end
-
    ::: moniker range="vs-2019"
 
    ![Screenshot of a squiggle underline in Visual Studio.](media/vs-2019/squiggles-error.png)
@@ -90,12 +74,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 - [Refactoring](../../ide/refactoring-in-visual-studio.md)
 
    Refactoring includes operations such as intelligent renaming of variables, extracting one or more lines of code into a new method, and changing the order of method parameters.
-
-   ::: moniker range="vs-2017"
-
-   ![Screenshot of the Refactoring menu in Visual Studio.](media/refactoring-menu.png)
-
-   ::: moniker-end
 
    ::: moniker range="vs-2019"
 
@@ -114,12 +92,6 @@ Some popular features in Visual Studio that improve your productivity when devel
    IntelliSense is a set of features that display information about your code directly in the editor and, in some cases, write small bits of code for you. It's like having basic documentation inline in the editor, so you don't have to look up type information elsewhere.
 
    The following illustration shows how IntelliSense displays a member list for a type:
-
-   ::: moniker range="vs-2017"
-
-   ![Screenshot of an IntelliSense member list.](media/intellisense-list-members.png)
-
-   ::: moniker-end
 
    ::: moniker range="vs-2019"
 
@@ -141,14 +113,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    When you start typing the name of something you're looking for, Visual Studio lists results that take you where you need to go. If you need to add functionality, for example another programming language, you can open the Visual Studio Installer from the search box results to install the workload or component.
 
-   ::: moniker range="vs-2017"
-
-   ![Screenshot that shows the Quick Launch search box in Visual Studio 2017.](../media/quick-launch-nuget.png)
-
-   For more information, see [Quick Launch](../../ide/reference/quick-launch-environment-options-dialog-box.md).
-
-   ::: moniker-end
-
    ::: moniker range="vs-2019"
 
    ![Screenshot that shows the Quick Launch search box in Visual Studio 2019.](../media/vs-2019/quick-launch-nuget.png)
@@ -169,12 +133,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    The **Call Hierarchy** window shows the methods that call a selected method. This information can be useful when you're thinking about changing or removing the method, or when you're trying to track down a bug.
 
-   ::: moniker range="vs-2017"
-
-   ![Screenshot that shows the Call Hierarchy window in Visual Studio.](media/call-hierarchy.png)
-
-   ::: moniker-end
-
    ::: moniker range="vs-2019"
 
    ![Screenshot that shows the Call Hierarchy window in Visual Studio.](media/vs-2019/call-hierarchy.png)
@@ -190,12 +148,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 - [CodeLens](../../ide/find-code-changes-and-other-history-with-codelens.md)
 
    CodeLens helps you find code references, code changes, linked bugs, work items, code reviews, and unit tests, without leaving the editor.
-
-   ::: moniker range="vs-2017"
-
-   ![Screenshot that shows CodeLens in Visual Studio.](media/codelens.png)
-
-   ::: moniker-end
 
    ::: moniker range="vs-2019"
 
@@ -213,12 +165,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    The **Go To Definition** feature takes you directly to the location of a function or type definition.
 
-   ::: moniker range="vs-2017"
-
-   ![Screenshot that shows Go to Definition in Visual Studio 2017.](media/go-to-definition-menu.png)
-
-   ::: moniker-end
-
    ::: moniker range="vs-2019"
 
    ![Screenshot that shows Go to Definition in Visual Studio 2019.](media/vs-2019/go-to-definition-menu.png)
@@ -235,12 +181,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    The **Peek Definition** window shows a method or type definition without opening a separate file.
 
-   ::: moniker range="vs-2017"
-
-   ![Screenshot that shows Peek Definition in Visual Studio.](media/peek-definition.png)
-
-   ::: moniker-end
-
    ::: moniker range="vs-2019"
 
    ![Screenshot that shows Peek Definition in Visual Studio.](media/vs-2019/peek-definition.png)
@@ -253,17 +193,19 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    ::: moniker-end
 
+::: moniker range=">=vs-2022"
+
+- [Hot Reload](../../debugger/hot-reload.md)
+
+   Hot Reload enables you to edit your application's code files and apply the code changes immediately to the running application.
+
+   :::image type="content" source="../media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022.":::
+
+::: moniker-end
+
 ## Install Visual Studio
 
 In this section, you create a simple project to try out some of the things you can do with Visual Studio. You learn how to change the color theme, use [IntelliSense](../../ide/using-intellisense.md) as a coding aid, and debug an app to see a variable value during app execution.
-
-::: moniker range="vs-2017"
-
-To get started, [download Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) and install it on your system. The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
-
-![Screenshot of the dot NET Core cross-platform development workload in the Visual Studio Installer.](../media/dotnet-core-cross-platform-workload.png)
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -290,22 +232,6 @@ You can personalize the Visual Studio user interface, including changing the def
 ### Change the color theme
 
 To change the color theme:
-
-::: moniker range="vs-2017"
-
-1. Open Visual Studio.
-
-1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
-
-1. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then click **OK**.
-
-   ![Screenshot that shows changing color theme to dark in Visual Studio.](media/change-color-theme.png)
-
-   The color theme for the entire IDE changes to **Dark**.
-
-   ![Screenshot that shows Visual Studio in Dark theme.](../../ide/media/quickstart-personalize-dark-theme.png)
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -362,70 +288,6 @@ To learn about other ways you can personalize the IDE, see [Personalize Visual S
 ## Create a program
 
 Dive in and create a simple program.
-
-::: moniker range="vs-2017"
-
-1. On the Visual Studio menu bar, choose **File** > **New Project**.
-
-   ![Screenshot that shows File > New Project on menu bar.](media/file-new-project-menu.png)
-
-   The **New Project** dialog box shows several project *templates*. A template contains the basic files and settings needed for a given project type.
-
-1. Choose the **.NET Core** category under **Visual Basic**, and then choose the **Console App (.NET Core)** template. In the **Name** text box, type **HelloWorld**, and then select the **OK** button.
-
-   ![Screenshot that shows the .NET Core app template.](media/overview-npd.png)
-
-   > [!NOTE]
-   > If you don't see the **.NET Core** category, you need to install the **.NET Core cross-platform development** workload. To do this, choose the **Open Visual Studio Installer** link on the bottom left of the **New Project** dialog. After Visual Studio Installer opens, scroll down and select the **.NET Core cross-platform development** workload, and then select **Modify**.
-
-   Visual Studio creates the project. It's a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the literal string "Hello World!" in the console (program output) window.
-
-   Shortly, you should see something like the following:
-
-   ![Screenshot that shows the Visual Studio IDE.](media/overview-ide-console-app.png)
-
-   The Visual Basic code for the app appears in the editor window, which takes up most of the space. Notice that the text is automatically colorized to indicate different parts of the code, such as keywords and types. In addition, small, vertical dashed lines in the code indicate which braces match one another, and line numbers help you locate code later. You can choose the small, boxed minus signs to collapse or expand blocks of code. This code outlining feature lets you hide code you don't need, helping to minimize onscreen clutter. The project files are listed on the right side in a window called **Solution Explorer**.
-
-   ![Screenshot that shows the Visual Studio IDE with red boxes.](media/overview-ide-console-app-red-boxes.png)
-
-   There are other menus and tool windows available, but let's move on for now.
-
-1. Now, start the app. You can do this by choosing **Start Without Debugging** from the **Debug** menu on the menu bar. You can also press **Ctrl**+**F5**.
-
-   ![Screenshot that shows Debug > Start without Debugging.](../media/overview-start-without-debugging.png)
-
-   Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
-
-   ![Screenshot that shows the Console window.](../media/overview-console-window.png)
-
-1. To close the console window, press any key on your keyboard.
-
-1. Let's add some additional code to the app. Add the following Visual Basic code before the line that says `Console.WriteLine("Hello World!")`:
-
-   ```vb
-   Console.WriteLine("What is your name?")
-   Dim name = Console.ReadLine()
-   ```
-
-   This code displays **What is your name?** in the console window, and then waits until the user enters some text followed by the **Enter** key.
-
-1. Change the line that says `Console.WriteLine("Hello World!")` to the following code:
-
-   ```vb
-   Console.WriteLine("Hello " + name + "!")
-   ```
-
-1. Run the app again by pressing **Ctrl**+**F5**.
-
-   Visual Studio rebuilds the app, and a console window opens and prompts you for your name.
-
-1. Enter your name in the console window and press **Enter**.
-
-   ![Screenshot that shows Console window input.](../media/overview-console-input.png)
-
-1. Press any key to close the console window and stop the running program.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -685,6 +547,14 @@ Set a breakpoint to see the value of the `username` variable while the program i
    ::: moniker-end
 
 1. Press **F5** again to finish running the app.
+
+::: moniker range=">=vs-2022"
+
+Once the app is running, you can apply code changes to the running app by clicking the Hot Reload button.
+
+:::image type="content" source="../media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022.":::
+
+::: moniker-end
 
 For more information about debugging in Visual Studio, see the [Debugger feature tour](../../debugger/debugger-feature-tour.md).
 

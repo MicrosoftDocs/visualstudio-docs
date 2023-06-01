@@ -1,12 +1,11 @@
 ---
 title: 'Walkthrough: Creating an SDK using C# or Visual Basic | Microsoft Docs'
 description: Learn how to create a simple Math Library SDK by using Visual C# and then package the SDK as a Visual Studio Extension by using this walkthrough.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: ef96a249-5eef-402a-a8d5-d74cb49239bd
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
@@ -16,6 +15,8 @@ dev_langs:
 - VB
 ---
 # Walkthrough: Create an SDK using C# or Visual Basic
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In this walkthrough, you'll learn how to create a simple Math Library SDK by using Visual C# and then package the SDK as a Visual Studio Extension (VSIX). You'll complete the following procedures:
 
 - [To create the SimpleMath Windows Runtime component](../extensibility/walkthrough-creating-an-sdk-using-csharp-or-visual-basic.md#createClassLibrary)
@@ -38,8 +39,12 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 
 5. Rename **Class1.cs** to **Arithmetic.cs** and update it to match the following code:
 
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../snippets/csharp/VS_Snippets_VSSDK/creatingansdkusingwinrt/cs/winrtmath/arithmetic.cs" id="Snippet3":::
+
+    ### [VB](#tab/vb)
     :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VSSDK/creatingansdkusingwinrt/vb/winrtmath/arithmetic.vb" id="Snippet3":::
+    ---
 
 6. In **Solution Explorer**, open the shortcut menu for the **Solution 'SimpleMath'** node, and then choose **Configuration Manager**.
 
@@ -251,6 +256,7 @@ In this walkthrough, you'll learn how to create a simple Math Library SDK by usi
 
 11. Update **MainPage.xaml.cs** to match the following code:
 
+### [C#](#tab/csharp)
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -343,6 +349,7 @@ namespace ArithmeticUI
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 ' The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -371,7 +378,6 @@ Public NotInheritable Class MainPage
     Private Sub OnOperatorClick(ByVal sender As Object, ByVal e As RoutedEventArgs)
         operation = If(TypeOf sender Is Button, CType(sender, Button), Nothing).Content.ToString()
     End Sub
-
 
     ''' <summary>
     ''' Calls the SimpleMath SDK to do simple arithmetic
@@ -409,6 +415,7 @@ Public NotInheritable Class MainPage
     End Sub
 End Class
 ```
+---
 
 12. Choose the **F5** key to run the app.
 

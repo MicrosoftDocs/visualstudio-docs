@@ -2,7 +2,6 @@
 title: Walkthrough Analyzing Managed Code for Code Defects | Microsoft Docs
 ms.date: 01/29/2018
 description: Learn how to use legacy code analysis to analyze .NET managed code assemblies. See how to check for defects and for conformance with .NET design guidelines.
-ms.custom: SEO-VS-2020
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "code analysis [Visual Studio]"
@@ -15,6 +14,8 @@ ms.workload:
   - "dotnet"
 ---
 # Walkthrough: Use static code analysis to find code defects
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this walkthrough, you'll analyze a managed project for code defects by using legacy code analysis.
 
@@ -56,21 +57,9 @@ This article steps you through the process of using legacy analysis to analyze y
 
 3. Choose the **Code Analysis** tab.
 
-::: moniker range="vs-2017"
-
-4. Make sure that **Enable Code Analysis on Build** is selected.
-
-5. From the **Run this rule set** drop-down list, select **Microsoft All Rules**.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 4. Make sure that **Run on build** is selected in the **Binary analyzers** section.
 
 5. From the **Active rules** drop-down list, select **Microsoft All Rules**.
-
-::: moniker-end
 
 6. On the **File** menu, click **Save Selected Items**, and then close the properties pages.
 

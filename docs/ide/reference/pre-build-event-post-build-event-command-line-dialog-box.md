@@ -1,7 +1,6 @@
 ---
 title: Pre-build event-Post-build event command line dialog
 description: Learn how you can pre- or post-build events directly in the edit box, or how you can select pre- and post-build macros from a list of available macros.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: reference
@@ -38,6 +37,8 @@ ms.workload:
 - multiple
 ---
 # Pre-build event/post-build event command line dialog box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can type pre- or post-build events for the [Build Events Page, Project Designer (C#)](../../ide/reference/build-events-page-project-designer-csharp.md) directly in the edit box, or you can select pre- and post-build macros from a list of available macros.
 

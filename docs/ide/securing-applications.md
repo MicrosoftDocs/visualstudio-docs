@@ -1,7 +1,6 @@
 ---
 title: Security
 description: Learn about some security concepts and the security features that can help you effectively develop secure applications.
-ms.custom: SEO-VS-2021
 ms.date: 10/26/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -16,6 +15,8 @@ ms.workload:
 - multiple
 ---
 # Secure applications
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You should consider security in all aspects of your application development, from design to deployment. Start by running Visual Studio as securely as possible. See [User permissions](../ide/user-permissions-and-visual-studio.md).
 

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugObject2::GetField method
 ms.assetid: add6a6b5-e752-47dd-9613-29206ea809b0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject2::GetField
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the type of this object.
 
 ## Syntax
 
-```cpp
-HRESULT GetField(
- IDebugField** ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetField(
    out IDebugField ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetField(
+ IDebugField** ppField
+);
+```
+---
 
 ## Parameters
 `ppField`\

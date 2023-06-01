@@ -1,8 +1,7 @@
 ---
 title: VSTest.Console.exe command-line options
 description: Learn about the VSTest.Console.exe command-line tool that runs tests. This article includes the General command-line options.
-ms.custom: SEO-VS-2020
-ms.date: 07/17/2020
+ms.date: 03/11/2022
 ms.topic: reference
 helpviewer_keywords:
 - vstest.console.exe
@@ -15,6 +14,8 @@ ms.workload:
 - multiple
 ---
 # VSTest.Console.exe command-line options
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 *VSTest.Console.exe* is the command-line tool to run tests. You can specify several options in any order on the command line. These options are listed in [General command-line options](#general-command-line-options).
 
@@ -33,7 +34,7 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 |---|---|
 |**[*test file names*]**|Run tests from the specified files. Separate multiple test file names with spaces.<br />Examples: `mytestproject.dll`, `mytestproject.dll myothertestproject.exe`|
 |**/Settings:[*file name*]**|Run tests with additional settings such as data collectors. For more information, see [Configure unit tests using a .runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)<br />Example: `/Settings:local.runsettings`|
-|**/Tests:[*test name*]**|Run tests with names that contain the provided values. To provide multiple values, separate them by commas.<br />Example: `/Tests:TestMethod1,testMethod2`<br />The **/Tests** command-line option cannot be used with the **/TestCaseFilter** command-line option.|
+|**/Tests:[*test name*]**|Run tests with names that contain the provided values. This command matches against the full test name, including the namespace. To provide multiple values, separate them by commas.<br />Example: `/Tests:TestMethod1,testMethod2`<br />The **/Tests** command-line option cannot be used with the **/TestCaseFilter** command-line option.|
 |**/Parallel**|Specifies that the tests be executed in parallel. By default, up to all available cores on the machine can be used. You can configure the number of cores to use in a settings file.|
 |**/Enablecodecoverage**|Enables data diagnostic adapter CodeCoverage in the test run.<br />Default settings are used if not specified using settings file.|
 |**/InIsolation**|Runs the tests in an isolated process.<br />This isolation makes the *vstest.console.exe* process less likely to be stopped on an error in the tests, but tests might run slower.|
@@ -64,6 +65,8 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 The syntax for running *vstest.console.exe* is:
 
 `vstest.console.exe [TestFileNames] [Options]`
+
+By default, the command returns 0 when it exits normally, even if no tests are discovered. If you want to return a non-zero value if no tests are discovered, use `<TreatNoTestsAsError>true</TreatNoTestsAsError>` runsettings option.
 
 The following command runs *vstest.console.exe* for the test library *myTestProject.dll*:
 
@@ -101,4 +104,12 @@ Example of a generated *sequence.xml* file:
   <Test Name="TestProject.UnitTest1.TestMethodB" Source="D:\repos\TestProject\TestProject\bin\Debug\TestProject.dll" />
   <Test Name="TestProject.UnitTest1.TestMethodA" Source="D:\repos\TestProject\TestProject\bin\Debug\TestProject.dll" />
 </TestSequence>
+```
+
+## UWP example
+
+For UWP, the appxrecipe file must be referenced instead of a DLL.
+
+```cmd
+vstest.console.exe /Logger:trx /Platform:x64 /framework:frameworkuap10 UnitTestsUWP\bin\x64\Release\UnitTestsUWP.build.appxrecipe
 ```

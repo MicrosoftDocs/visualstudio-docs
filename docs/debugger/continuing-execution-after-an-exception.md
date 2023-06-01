@@ -1,7 +1,6 @@
 ---
 title: Continuing Execution After an Exception | Microsoft Docs
 description: Learn what happens when the debugger breaks execution because of an unhandled exception. You may be able to continue execution in the same thread. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -30,6 +29,8 @@ ms.workload:
   - multiple
 ---
 # Continuing Execution After an Exception
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When the debugger breaks execution because of an exception, you will see the **Exception Helper**, by default. If you have disabled the **Exception Helper** in the **Options** dialog box, you will see the **Exception Assistant** (C# or Visual Basic) or the **Exception** dialog box (C++).
 
  When the **Exception Helper** appears, you can try to fix the problem that caused the exception.

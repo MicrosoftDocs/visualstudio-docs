@@ -1,21 +1,22 @@
 ---
 title: Legacy Language Service Interfaces | Microsoft Docs
 description: Learn about the interfaces available in the Visual Studio SDK that provide legacy language service features.
-ms.custom: SEO-VS-2020 
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IVsLanguageInfo interface
 - language services, objects
 ms.assetid: 03b2d507-f463-417e-bc22-bdac68eeda52
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Legacy Language Service Interfaces
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 For any particular programming language, there can be only one instance of a language service at a time. However, a single language service can serve more than one editor.
 
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] does not associate a language service with any particular editor. Therefore, when you request a language service operation, you must identify the appropriate editor as a parameter.

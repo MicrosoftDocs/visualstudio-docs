@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramEx2::Attach
 ms.assetid: 1545ffbf-1422-4b5d-9bb9-314ba8665041
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramEx2::GetProgramNode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the program node associated with a program.
 
 ## Syntax
 
-```cpp
-HRESULT GetProgramNode( 
-   IDebugProgramNode2** ppProgramNode
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProgramNode( 
    out IDebugProgramNode2 ppProgramNode
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProgramNode( 
+   IDebugProgramNode2** ppProgramNode
+);
+```
+---
 
 ## Parameters
 `ppProgramNode`\

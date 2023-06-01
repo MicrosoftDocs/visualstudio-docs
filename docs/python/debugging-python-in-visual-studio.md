@@ -1,10 +1,10 @@
 ---
 title: Debug Python code
-description: Visual Studio provide rich debugging for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
-ms.date: 05/12/2020
+description: Visual Studio provides rich debugging for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
+ms.date: 01/17/2022
 ms.topic: how-to
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -12,8 +12,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Debug your Python code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides a comprehensive debugging experience for Python, including attaching to running processes, evaluating expressions in the **Watch** and **Immediate** windows, inspecting local variables, breakpoints, step in/out/over statements, **Set Next Statement**, and more.
 
@@ -74,9 +75,9 @@ Once stopped at a breakpoint, you have various ways to step through code or run 
 
 ### Inspect and modify values
 
-When stopped in the debugger, you can inspect and modify the values of variables. You can also use the **Watch** window to monitor individual variables as well as custom expressions. (See [Inspect variables](../debugger/debugger-feature-tour.md#inspect-variables-with-the-autos-and-locals-windows) for general details.)
+When stopped in the debugger, you can inspect and modify the values of variables. You can also use the **Watch** window to monitor individual variables and custom expressions. (See [Inspect variables](../debugger/debugger-feature-tour.md#inspect-variables-with-the-autos-and-locals-windows) for general details.)
 
-To view a value using **DataTips**, simply hover the mouse over any variable in the editor. You can click on the value to change it:
+To view a value using **DataTips**, simply hover the mouse over any variable in the editor. You can select the value to change it:
 
 ![DataTips showing in the Visual Studio debugger](media/debugging-quick-tips.png)
 
@@ -96,7 +97,7 @@ The **Watch** windows (**Debug** > **Windows** > **Watch** > **Watch 1-4**) allo
 
 For more on using **Watch**, see [Set a watch on variables using the Watch and QuickWatch windows](../debugger/watch-and-quickwatch-windows.md).
 
-When inspecting a string value(`str`, `unicode`, `bytes`, and `bytearray` are all considered strings for this purpose), a magnifying glass icon appears on the right side of the value. Clicking the icon displays the unquoted string value in a popup dialog, with wrapping and scrolling, which is useful for long strings. In addition, selecting the drop-down arrow on the icon allows you to select plain text, HTML, XML, and JSON visualizations:
+When inspecting a string value(`str`, `unicode`, `bytes`, and `bytearray` are all considered strings for this purpose), a magnifying glass icon appears on the right side of the value. Selecting the icon displays the unquoted string value in a popup dialog, with wrapping and scrolling, which is useful for long strings. In addition, selecting the drop-down arrow on the icon allows you to select plain text, HTML, XML, and JSON visualizations:
 
 ![String visualizers in the Visual Studio debugger](media/debugging-string-visualizers.png)
 
@@ -108,17 +109,17 @@ If an error occurs in your program during debugging, but you don't have an excep
 
 ![Exception popup in the Visual Studio debugger](media/debugging-exception-popup.png)
 
-At this point you can inspect the program state, including the call stack. However, if you attempt to step through the code, the exception continues being thrown until it is either handled or your program exits.
+At this point you can inspect the program state, including the call stack. However, if you attempt to step through the code, the exception continues being thrown until it's either handled or your program exits.
 
 The **Debug** > **Windows** > **Exception Settings** menu command brings up a window in which you can expand **Python Exceptions**:
 
 ![Exceptions window in the Visual Studio debugger](media/debugging-exception-settings.png)
 
-The checkbox for each exception controls whether the debugger *always* breaks when it is raised. Check this box when you want to break more often for a particular exception.
+The checkbox for each exception controls whether the debugger *always* breaks when it's raised. Check this box when you want to break more often for a particular exception.
 
 By default, most exceptions break when an exception handler cannot be found in the source code. To change this behavior, right-click any exception and modify the **Continue When Unhandled in User Code** option. Clear this box when you want to break less often for an exception.
 
-To configure an exception that does not appear in this list, click the **Add** button to add it. The name must match the full name of the exception.
+To configure an exception that doesn't appear in this list, select the **Add** button to add it. The name must match the full name of the exception.
 
 ## Project debugging options
 
@@ -173,10 +174,10 @@ The **Debug Interactive** window supports special meta-commands in addition to t
 | `$thread` | | Displays the current thread ID. |
 | `$thread` | thread ID | Switches the current thread to the specified thread ID. |
 | `$threads` | | Lists the threads currently being debugged. |
-| `$up`, `$u` | | Move the current frame one level up in the stack trace. |
+| `$up`, `$u` | | Move up the current frame one level in the stack trace. |
 | `$where`, `$w`, `$bt` | Lists the frames for the current thread. |
 
-Note that the standard debugger windows such as **Processes**, **Threads**, and **Call Stack** are not synchronized with the **Debug Interactive** window. Changing the active process, thread, or frame in the **Debug Interactive** window does not affect the other debugger windows. Similarly, changing the active process, thread, or frame in the other debugger windows does not affect the **Debug Interactive** window.
+The standard debugger windows such as **Processes**, **Threads**, and **Call Stack** aren't synchronized with the **Debug Interactive** window. Changing the active process, thread, or frame in the **Debug Interactive** window doesn't affect the other debugger windows. Similarly, changing the active process, thread, or frame in the other debugger windows doesn't affect the **Debug Interactive** window.
 
 <a name="use-the-experimental-debugger"></a>
 
@@ -186,7 +187,7 @@ Visual Studio 2017 versions 15.8 and later use a debugger based on ptvsd version
 
 ![Debugger does not support this Python environment error when using the debugger](media/debugging-experimental-incompatible-error.png)
 
-In these cases you must use the older debugger (which is the default in Visual Studio 2017 versions 15.7 and earlier). Select the **Tools** > **Options** menu command, navigate to **Python** > **Debugging**, and select the **Use legacy debugger** option.
+In these cases, you must use the older debugger (which is the default in Visual Studio 2017 versions 15.7 and earlier). Select the **Tools** > **Options** menu command, navigate to **Python** > **Debugging**, and select the **Use legacy debugger** option.
 
 If you've installed an older version of ptvsd in the current environment (such as an earlier 4.0.x version, or a 3.x version required for remote debugging), Visual Studio may show an error or warning.
 
@@ -249,7 +250,7 @@ The following steps enable debugging in the current Visual Studio session:
 
     ![Debugger logging output in the Output window](media/debugger-logging-output.png)
 
-1. If Visual Studio stops responding or you are otherwise not able to access the **Output** window, restart Visual Studio, open a command window, and enter the following command:
+1. If Visual Studio stops responding or you aren't otherwise able to access the **Output** window, restart Visual Studio, open a command window, and enter the following command:
 
     ```ps
     DebugAdapterHost.Logging /On

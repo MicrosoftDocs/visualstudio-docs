@@ -1,7 +1,6 @@
 ---
 title: Validate your system during development
 description: Learn how Visual Studio can help keep your software consistent with user requirements and with the architecture of your system.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -14,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # Validate your system during development
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio can help keep your software consistent with user requirements and with the architecture of your system.
 
@@ -30,10 +31,7 @@ Use the following tasks to validate your software:
 
 ## External Resources
 
-|**Category**|**Links**|
-|-|-|
-|**Videos**|![link to video](../data-tools/media/playvideo.gif) [Channel 9: Doug Seven: Code Understanding and Systems Design with Visual Studio 2010](https://channel9.msdn.com/shows/VS2010Launch/Doug-Seven-Code-Understanding-and-Systems-Design-with-Visual-Studio-2010)<br /><br /> ![link to video](../data-tools/media/playvideo.gif) [Channel 9: Architecting an Application](https://channel9.msdn.com/blogs/clinted/uml-with-vs-2010-part-5-architecting-an-application))|
-|**Forums**|- [Visual Studio Visualization & Modeling Tools](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)<br />- [Visual Studio extensibility](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx)|
+**Forums** - [Visual Studio Visualization & Modeling Tools](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)<br />- [Visual Studio extensibility](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vsx)
 
 ## See also
 

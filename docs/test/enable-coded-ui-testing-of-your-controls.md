@@ -1,7 +1,6 @@
 ---
 title: Enable Coded UI Testing of Your Controls
 description: Learn how to implement support for the coded UI testing framework to make your control more testable.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.author: mikejo
@@ -12,6 +11,8 @@ ms.workload:
 author: mikejo5000
 ---
 # Enable coded UI testing of your controls
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Implement support for the coded UI testing framework to make your control more testable. You can add increasing levels of support incrementally. Start by supporting record and playback and property validation. Then, build on that to enable the coded UI test builder to recognize your control's custom properties. Provide custom classes to access those properties from generated code. You can also help the coded UI test builder capture actions in a way that is closer to the intent of the action being recorded.
 

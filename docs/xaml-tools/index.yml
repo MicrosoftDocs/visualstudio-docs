@@ -9,10 +9,10 @@ metadata:
   ms.prod: visual-studio-windows
   ms.technology: vs-ide-designers
   ms.topic: landing-page
-  author: TerryGLee
-  ms.author: tglee
+  author: maddymontaquila
+  ms.author: maleger
   manager: jmartens
-  ms.date: 11/02/2021
+  ms.date: 03/28/2022
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -49,6 +49,8 @@ landingContent:
         links:
           - text: Write and debug running XAML code with Hot Reload
             url: xaml-hot-reload.md
+          - text: Detect and resolve data binding errors in XAML projects
+            url: xaml-data-binding-diagnostics.md
           - text: Capture and edit app UI on-the-fly with Live Preview
             url: xaml-live-preview.md
           - text: Inspect XAML properties

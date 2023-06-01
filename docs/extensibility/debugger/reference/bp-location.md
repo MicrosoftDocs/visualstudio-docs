@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - BP_LOCATION union
 ms.assetid: ed1e874c-f289-4c31-8b6c-04dde03ad0f5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,23 @@ dev_langs:
 - CSharp
 ---
 # BP_LOCATION
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the type of structure used to describe the location of the breakpoint.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public struct BP_LOCATION {
+    public uint   bpLocationType;
+    public IntPtr unionmember1;
+    public IntPtr unionmember2;
+    public IntPtr unionmember3;
+    public IntPtr unionmember4;
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 typedef struct _BP_LOCATION {
     BP_LOCATION_TYPE bpLocationType;
@@ -38,16 +51,7 @@ typedef struct _BP_LOCATION {
     } bpLocation;
 } BP_LOCATION;
 ```
-
-```csharp
-public struct BP_LOCATION {
-    public uint   bpLocationType;
-    public IntPtr unionmember1;
-    public IntPtr unionmember2;
-    public IntPtr unionmember3;
-    public IntPtr unionmember4;
-};
-```
+---
 
 ## Members
 `bpLocationType`\

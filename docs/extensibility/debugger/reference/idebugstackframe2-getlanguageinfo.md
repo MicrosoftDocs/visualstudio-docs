@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugStackFrame2::GetLanguageInfo
 ms.assetid: 0e12fd92-f155-46a7-8272-cda279388cfb
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,23 +20,27 @@ dev_langs:
 ---
 # IDebugStackFrame2::GetLanguageInfo
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Gets the language associated with this stack frame.
 
 ## Syntax
 
-```cpp
-HRESULT GetLanguageInfo ( 
-   BSTR* pbstrLanguage,
-   GUID* pguidLanguage
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetLanguageInfo ( 
    ref string pbstrLanguage,
    ref Guid   pguidLanguage
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetLanguageInfo ( 
+   BSTR* pbstrLanguage,
+   GUID* pguidLanguage
+);
+```
+---
 
 ## Parameters
 

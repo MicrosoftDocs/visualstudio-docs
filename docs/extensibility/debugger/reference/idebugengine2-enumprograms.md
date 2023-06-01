@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngine2::EnumPrograms
 ms.assetid: 56bf98eb-beec-4e5f-9ebe-46c922e54c56
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine2::EnumPrograms
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of all programs being debugged by a debug engine (DE).
 
 ## Syntax
 
-```cpp
-HRESULT EnumPrograms( 
-   IEnumDebugPrograms2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumPrograms( 
    out IEnumDebugPrograms2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumPrograms( 
+   IEnumDebugPrograms2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

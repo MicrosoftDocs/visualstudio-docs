@@ -1,7 +1,6 @@
 ---
 title: "Security and deployment walkthroughs"
 description: Learn how you can set security policy to allow your solution to run and how you can deploy your Office solution.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -20,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Security and deployment walkthroughs
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The following topics demonstrate how you can set security policy to allow your solution to run, and how you can deploy your Office solution.
 
 ## Security topics

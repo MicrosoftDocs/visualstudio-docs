@@ -122,7 +122,7 @@
         },
         {
             "names": ["vsto"],
-            "heading": "Vsto"
+            "heading": "VSTO"
         },
         {
             "names": ["windows"],
@@ -135,6 +135,10 @@
         {
             "names": ["xaml-tools"],
             "heading": "XAML tools"
+        },
+        {
+            "names": ["version-control"],
+            "heading": "Version control"
         },
         {
             "names": ["xml-tools"],

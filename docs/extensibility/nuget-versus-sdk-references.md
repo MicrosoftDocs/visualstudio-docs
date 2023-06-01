@@ -1,17 +1,18 @@
 ---
 title: Adding References Using NuGet Versus an Extension SDK
 description: Learn about the differences between packaging software as a NuGet package or as a software development kit when referenced in a Visual Studio project.
-ms.custom: SEO-VS-2020
 ms.date: 08/02/2019
 ms.topic: conceptual
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - multiple
 ---
 # NuGet versus SDK as a project reference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article is designed to help developers choose whether to package their software as a NuGet package or as a software development kit (SDK). Specifically, it discusses differences between the two when they're referenced in a Visual Studio project.
 

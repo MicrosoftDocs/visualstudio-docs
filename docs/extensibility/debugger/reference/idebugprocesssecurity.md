@@ -6,14 +6,16 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugProcessSecurity interface
 ms.assetid: 8a52ddca-bd99-49c0-9778-469dce7abd44
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # IDebugProcessSecurity
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 `IDebugProcessSecurity` is implemented by a port supplier to warn the user that attaching to the process is unsafe.
 
 ## Syntax

@@ -18,6 +18,8 @@ ms.workload:
   - "dotnet"
 ---
 # Error: Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To debug mixed native and managed code, you must have .NET Framework version 2.0, 3.0, 3.5, or 4.0. Mixed-mode debugging with earlier versions of the .NET Framework is not supported.
 
 ### To correct this error

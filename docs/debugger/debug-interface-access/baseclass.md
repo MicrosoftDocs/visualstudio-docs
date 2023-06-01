@@ -1,7 +1,6 @@
 ---
 title: "BaseClass | Microsoft Docs"
 description: Find reference information about the BaseClass symbol type. A base class for user-defined type (UDT) symbols is identified by a child with a SymTagBaseClass tag.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -19,6 +18,8 @@ ms.workload:
   - "multiple"
 ---
 # BaseClass
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Each base class for a user-defined type (UDT) symbol is identified by a child with a `SymTagBaseClass` tag. The [IDiaSymbol::get_type](../../debugger/debug-interface-access/idiasymbol-get-type.md) property contains the symbol for the underlying UDT, and all properties of the underlying UDT are available as part of this BaseClass symbol.
 
 ## Properties

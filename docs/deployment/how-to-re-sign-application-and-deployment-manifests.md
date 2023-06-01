@@ -1,7 +1,6 @@
 ---
 title: Re-sign Application and Deployment Manifests | Microsoft Docs
 description: Learn how to re-sign both the application and deployment manifests with a certificate after changes are made to deployment properties.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -23,12 +22,16 @@ ms.workload:
   - multiple
 ---
 # How to: Re-sign application and deployment manifests
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 After you make changes to deployment properties in the application manifest for Windows Forms applications, Windows Presentation Foundation applications (xbap), or Office solutions, you must re-sign both the application and deployment manifests with a certificate. This process helps ensure that tampered files are not installed on end user computers.
 
  Another scenario where you might re-sign the manifests is when your customers want to sign the application and deployment manifests with their own certificate.
 
 ## Re-sign the Application and Deployment Manifests
  This procedure assumes that you have already made changes to your application manifest file (*.manifest*). For more information, see [How to: Change deployment properties](/previous-versions/cc442869(v=vs.110)).
+
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-dotnetmage-exe.md)]
 
 #### To re-sign the application and deployment manifests with Mage.exe
 

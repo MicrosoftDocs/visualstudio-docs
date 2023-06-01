@@ -7,8 +7,8 @@ helpviewer_keywords:
 - HasBaseIndices
 - IDebugArrayObject2::HasBaseIndices
 ms.assetid: 51a5d145-ea53-422c-b5cf-c800cf64b8e6
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugArrayObject2::HasBaseIndices
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the array has base indices (lower bounds) defined.
 
 ## Syntax
 
-```cpp
-HRESULT HasBaseIndices (
-   BOOL* pfHasBaseIndices
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int HasBaseIndices (
    out bool pfHasBaseIndices
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT HasBaseIndices (
+   BOOL* pfHasBaseIndices
+);
+```
+---
 
 ## Parameters
 `pfHasBaseIndices`\

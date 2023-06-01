@@ -1,7 +1,6 @@
 ---
 title: 'How to: Print Class Diagrams (Class Designer)'
 description: Learn how to print a class diagram using the print feature of Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -16,6 +15,8 @@ ms.workload:
 - multiple
 ---
 # How to: Print class diagrams
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can print a class diagram using the print feature of Visual Studio.
 

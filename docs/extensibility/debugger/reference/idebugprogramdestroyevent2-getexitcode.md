@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramDestroyEvent2::GetExitCode
 ms.assetid: 7f540cf6-e2d1-42b0-913e-a26d654b7659
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramDestroyEvent2::GetExitCode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the program's exit code.
 
 ## Syntax
 
-```cpp
-HRESULT GetExitCode( 
-   DWORD* pdwExit
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetExitCode( 
    out uint pdwExit
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetExitCode( 
+   DWORD* pdwExit
+);
+```
+---
 
 ## Parameters
 `pdwExit`\

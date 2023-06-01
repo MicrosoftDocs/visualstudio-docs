@@ -1,7 +1,6 @@
 ---
 title: "Collaborative development of Office solutions"
 description: Learn how multiple developers can work on an Office project in the same way that they collaborate on other Visual Studio projects.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -20,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Collaborative development of Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Multiple developers can work on an Office project in the same way that they collaborate on other Visual Studio projects. Visual Studio correctly locates the Microsoft Office installation on each computer, even if Office is installed in different locations. However, there are some important considerations to be aware of.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

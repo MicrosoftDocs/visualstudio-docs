@@ -1,7 +1,6 @@
 ---
 title: Extending Menus and Commands | Microsoft Docs
 description: Learn about commands, which add actions and processes to Visual Studio. The VSPackage project template shows how to implement a very basic command.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,14 +8,16 @@ helpviewer_keywords:
 - VSPackages, menu tasks
 - .vsct files, common menu tasks
 ms.assetid: 7b2be4b9-e3fe-4412-874f-ae72ebc84c4b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Extend menus and commands
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Commands are the way you add actions and processes to Visual Studio. In most cases commands are displayed on menus or toolbars. The VSPackage project template shows how to implement a very basic command. For a slightly longer but still basic implementation, see [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md).
 
  For more information about Visual Studio commands, menus, and toolbars, see [Commands, menus, and toolbars](../extensibility/internals/commands-menus-and-toolbars.md).

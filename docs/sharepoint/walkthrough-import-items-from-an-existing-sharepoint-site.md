@@ -2,7 +2,6 @@
 title: "Walkthrough: Import Items from an Existing SharePoint Site | Microsoft Docs"
 titleSuffix: ""
 description: In this walkthrough, import items from an existing SharePoint site into a Visual Studio SharePoint project.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -19,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Import items from an existing SharePoint site
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to import items from an existing SharePoint site into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project.
 
  This walkthrough demonstrates the following tasks:

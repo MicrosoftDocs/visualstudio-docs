@@ -1,7 +1,6 @@
 ---
 title: "Securing ClickOnce Applications | Microsoft Docs"
 description: Learn about the implications of code access security constraints in the .NET Framework that can limit access to code for your ClickOnce applications.
-ms.custom: SEO-VS-2020
 ms.date: "02/17/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -21,6 +20,8 @@ ms.workload:
   - "multiple"
 ---
 # Secure ClickOnce applications
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications are subject to code access security constraints in the .NET Framework to help limit the access that code has to protected resources and operations. For that reason, it is important that you understand the implications of code access security to write your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications accordingly. Your applications can use Full Trust or use partial zones, such as the Internet and Intranet zones, to limit access.
 
  Additionally, ClickOnce uses certificates to verify the authenticity of the application's publisher, and to sign the application and deployment manifests to prove that the files have not been tampered with. Signing is an optional step, which makes it easier to change the application files after the manifests are generated. However, without signed manifests, it is difficult to ensure that the application installer is not tampered in man-in-the-middle security attacks. For this reason, we recommend that you sign your application and deployment manifests to help secure your applications.
@@ -37,8 +38,12 @@ ms.workload:
 
  The default permissions are based on the location from which the original version of the application was deployed; updates to the application will inherit those permissions. If the application is configured to check for updates from a Web or network location and a newer version is available, the original installation can receive permissions for the Internet or Intranet zone instead of full-trust permissions. To prevent users from being prompted, a system administrator can specify a ClickOnce deployment policy that defines a specific application publisher as a trusted source. For computers on which this policy is deployed, permissions will be granted automatically and the user will not be prompted. For more information, see [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md). To configure trusted application deployment, the certificate can be installed to the machine or enterprise level. For more information, see [How to: Add a Trusted Publisher to a Client Computer for ClickOnce Applications](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md).
 
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-feature-unsupported.md)]
+
 ## Code access security policies
  Permissions for an application are determined by the settings in the [\<trustInfo> Element](../deployment/trustinfo-element-clickonce-application.md) element of the application manifest. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically generates this information based on the settings on the project's **Security** property page. A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is granted only the specific permissions that it requests. For example, where file access requires full-trust permissions, if the application requests file-access permission, it will only be granted file-access permission, not full-trust permissions. When developing your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, you should make sure that you request only the specific permissions that the application needs. In most cases, you can use the Internet or Local Intranet zones to limit your application to partial trust. For more information, see [How to: Set a security zone for a ClickOnce application](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md). If your application requires custom permissions, you can create a custom zone. For more information, see [How to: Set custom permissions for a ClickOnce application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md).
+
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-feature-unsupported.md)]
 
  Including a permission that is not part of the default permission set for the zone from which the application is deployed will cause the end user to be prompted to grant permission at install or update time. To prevent users from being prompted, a system administrator can specify a ClickOnce deployment policy that defines a specific application publisher as a trusted source. On computers where this policy is deployed, permissions will automatically be granted and the user will not be prompted.
 

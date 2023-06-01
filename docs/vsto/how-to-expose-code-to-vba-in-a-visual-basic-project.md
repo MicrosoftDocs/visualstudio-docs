@@ -1,7 +1,6 @@
 ---
 title: "How to: Expose code to VBA in a Visual Basic project"
 description: Learn how you can expose code in a Visual Basic project to Visual Basic for Applications (VBA) code if you want the two types of code to interact with each other.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -21,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # How to: Expose code to VBA in a Visual Basic project
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can expose code in a [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] project to Visual Basic for Applications (VBA) code if you want the two types of code to interact with each other.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]

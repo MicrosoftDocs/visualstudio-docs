@@ -1,7 +1,6 @@
 ---
 title: Toolbox, Data Tab
 description: Learn about the data objects you'll find in the Data tab of the Toolbox window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -17,6 +16,8 @@ ms.workload:
 - multiple
 ---
 # Toolbox, Data tab
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Displays data objects you can add to a forms and components. The **Data** tab of the **Toolbox** appears when you create a project that has an associated designer. The **Toolbox** appears by default in the Visual Studio integrated development environment; if you need to display the **Toolbox**, select **Toolbox** from the **View** menu.
 

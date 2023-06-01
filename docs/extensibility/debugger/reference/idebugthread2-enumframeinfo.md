@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugThread2::EnumFrameInfo
 ms.assetid: 17914a71-10ea-4b6f-8982-e364f87dca53
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugThread2::EnumFrameInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of the stack frames for this thread.
 
 ## Syntax
 
-```cpp
-HRESULT EnumFrameInfo ( 
-   FRAMEINFO_FLAGS        dwFieldSpec,
-   UINT                   nRadix,
-   IEnumDebugFrameInfo2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumFrameInfo ( 
    enum_FRAMEINFO_FLAGS     dwFieldSpec,
@@ -38,6 +33,15 @@ int EnumFrameInfo ( 
    out IEnumDebugFrameInfo2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumFrameInfo ( 
+   FRAMEINFO_FLAGS        dwFieldSpec,
+   UINT                   nRadix,
+   IEnumDebugFrameInfo2** ppEnum
+);
+```
+---
 
 ## Parameters
 `dwFieldSpec`\

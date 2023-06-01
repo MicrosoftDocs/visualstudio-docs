@@ -1,7 +1,6 @@
 ---
 title: "Creating SharePoint Solution Packages | Microsoft Docs"
 description: Create and customize deployment packages for SharePoint solutions using the Package Designer. Explore packaging tools, designer options, and folder structure.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # Create SharePoint solution packages
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   By using the Package Designer, you can create and customize deployment packages. For example, you can add SharePoint project items and Features, reset the IIS server, set Feature activation scopes, and identify Feature dependencies. The designer also generates a manifest, an XML file that describes each package.
 
 ## Packaging tools

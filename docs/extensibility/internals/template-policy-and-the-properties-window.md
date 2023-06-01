@@ -1,20 +1,21 @@
 ---
 title: Template Policy and the Properties Window | Microsoft Docs
 description: Learn about using template policy to set default values for properties, hide properties, and add properties in the Properties window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Properties window, template policy
 ms.assetid: 1d8019d3-5e57-47ba-b358-526b0796a63b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Template Policy and the Properties Window
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When a project is contained inside an enterprise template project, that enterprise template project can enforce policy. Template policy becomes a constraining system that can be used to set default values for properties, hide properties, add properties, and so on.
 
  Using template policy to control the display of information in the **Properties** window is different from implementing <xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing>. <xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing> handles object properties at the component level, while template policy can be used to constrain object properties at the solution or project level. In other words

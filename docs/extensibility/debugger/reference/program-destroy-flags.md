@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - PROGRAM_DESTROY_FLAGS enumeration
 ms.assetid: be00d4a3-d5b8-4159-b632-64577f534883
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -17,10 +17,20 @@ dev_langs:
 - CSharp
 ---
 # PROGRAM_DESTROY_FLAGS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates the valid values of the program destroy flags.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_PPROGRAM_DESTROY_FLAGS
+{
+   PROGRAM_DESTROY_CONTINUE_DEBUGGING = 0x1
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_PPROGRAM_DESTROY_FLAGS
 {
@@ -28,13 +38,7 @@ enum enum_PPROGRAM_DESTROY_FLAGS
 };
 typedef DWORD PROGRAM_DESTROY_FLAGS;
 ```
-
-```csharp
-public enum enum_PPROGRAM_DESTROY_FLAGS
-{
-   PROGRAM_DESTROY_CONTINUE_DEBUGGING = 0x1
-};
-```
+---
 
 ## Fields
  `PROGRAM_DESTROY_CONTINUE_DEBUGGING`\

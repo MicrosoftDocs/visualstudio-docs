@@ -1,14 +1,16 @@
 ---
 title: "ASP.NET Core Web App Deployment"
 description: "Information about ASP.NET Core Web Application Deployment in Visual Studio for Mac."
-ms.topic: overview
-author: sayedihashimi
-ms.author: sayedha
+ms.topic: how-to
+author: heiligerdankgesang 
+ms.author: dominicn
+manager: dominicn
 ms.date: 01/25/2019
 ms.assetid: d746292d-0570-424a-bf43-e16ab85bbf0d
 ---
-
 # ASP.NET Core Web App Deployment
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 An important step in developing web applications is publishing (deployment). You can publish to a remote environment, so that others can use the application, or for testing purposes. Visual Studio for Mac offers two options to publish your application. Publish to Azure App Service enables you to publish your web application to Azure App Service. Publish to Folder enables you to publish your application to a folder.
 

@@ -6,14 +6,16 @@ ms.topic: reference
 helpviewer_keywords:
 - m_objectIdForDebugger field, AsyncVoidMethodBuilder structure [.NET Framework debug engines]
 ms.assetid: 81331a7b-6bec-46e4-a53e-515d0fad2400
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # AsyncVoidMethodBuilder.m_objectIdForDebugger field
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents the lazily initialized object used by the debugger to uniquely identify this builder.
 
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>

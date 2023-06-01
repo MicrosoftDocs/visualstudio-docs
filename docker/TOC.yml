@@ -1,35 +1,16 @@
-- name: Docker
+- name: Get started with Docker & VS Code
   expanded: true
   items:
-  - name: Introduction to Docker for VS Code users 
-    expanded: true
-    items:
-    - name: "Part 1: Getting started"
-      href: tutorials/docker-tutorial.md
-    - name: "Part 2: The application"
-      href: tutorials/your-application.md
-    - name: "Part 3: Update your app"
-      href: tutorials/update-your-app.md
-    - name: "Part 4: Share your app"
-      href: tutorials/share-your-app.md
-    - name: "Part 5: Persist your database"
-      href: tutorials/persist-your-data.md
-    - name: "Part 6: Use bind mounts"
-      href: tutorials/use-bind-mounts.md
-    - name: "Part 7: Multi-container apps"
-      href: tutorials/multi-container-apps.md
-    - name: "Part 8: Use Docker Compose"
-      href: tutorials/use-docker-compose.md
-    - name: "Part 9: Image-building best practices"
-      href: tutorials/image-building-best-practices.md
-    - name: "Part 10: Deploy to the cloud"
-      href: tutorials/deploy-to-cloud.md
-    - name: "What's next?"
-      href: tutorials/whats-next.md
-
-    - name: Sources
-      items:
-      - name: Examples
-        href: https://github.com/docker/awesome-compose
-      - name: Docker ACI integration 
-        href: https://github.com/docker/aci-integration-beta/
+  - name: "Part 1: Create a container app"
+    href: tutorials/docker-tutorial.md
+  - name: "Part 2: Update & share apps"
+    href: tutorials/docker-tutorial-share.md
+  - name: "Part 3: Persist data in your app"
+    href: tutorials/tutorial-persist-data-layer-docker-app-with-vscode.md
+  - name: "Part 4: Deploy your Docker app to Azure"
+    href: tutorials/tutorial-deploy-docker-app-azure.md
+- name: Advanced tutorial
+  expanded: true
+  items:
+  - name: "Create multi-container apps"
+    href: tutorials/tutorial-multi-container-app-mysql.md

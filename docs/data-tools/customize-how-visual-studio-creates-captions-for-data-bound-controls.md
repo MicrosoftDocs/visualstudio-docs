@@ -1,7 +1,6 @@
 ---
 title: Customize captions for data-bound controls
 description: Customize how Visual Studio creates captions for data-bound controls. Modify the smart captioning behavior of the Data Sources window. Turn off smart captioning.
-ms.custom: SEO-VS-2020
 ms.date: 11/03/2017
 ms.topic: how-to
 helpviewer_keywords:
@@ -19,19 +18,13 @@ ms.workload:
 ---
 # Customize how Visual Studio creates captions for data-bound controls
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
+
 When you drag items from the [Data Sources window](add-new-data-sources.md#data-sources-window) onto a designer, a special consideration comes into play: the column names in the caption labels are reformatted into a more readable string when two or more words are found to be concatenated together.
 
-::: moniker range="vs-2017"
-
-You can customize the way in which these labels are created by setting the **SmartCaptionExpression**, **SmartCaptionReplacement**, and **SmartCaptionSuffix** values in the **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\15.0\Data Designers** registry key.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 You can customize the way in which these labels are created by setting the **SmartCaptionExpression**, **SmartCaptionReplacement**, and **SmartCaptionSuffix** values in the **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\16.0\Data Designers** registry key.
-
-::: moniker-end
 
 > [!NOTE]
 > This registry key does not exist until you create it.
@@ -67,17 +60,7 @@ The following table lists the internal default settings for these registry value
 
 3. Expand the **HKEY_CURRENT_USER** > **Software** > **Microsoft** > **VisualStudio** node.
 
-::: moniker range="vs-2017"
-
-4. Right-click the **15.0** node, and create a new **Key** named `Data Designers`.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 4. Right-click the **16.0** node, and create a new **Key** named `Data Designers`.
-
-::: moniker-end
 
 5. Right-click the **Data Designers** node, and create three new string values:
 
@@ -107,17 +90,7 @@ The following table lists the internal default settings for these registry value
 
 3. Expand the **HKEY_CURRENT_USER** > **Software** > **Microsoft** > **VisualStudio** node.
 
-::: moniker range="vs-2017"
-
-4. Right-click the **15.0** node, and create a new **Key** named `Data Designers`.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 4. Right-click the **16.0** node, and create a new **Key** named `Data Designers`.
-
-::: moniker-end
 
 5. Right-click the **Data Designers** node, and create three new string values:
 

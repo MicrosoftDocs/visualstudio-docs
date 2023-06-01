@@ -9,8 +9,11 @@ ms.author: tglee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
+ms.custom: version-control
 ---
 # Create a GitHub account to use with Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With a GitHub account, you get [full GitHub support](https://visualstudio.microsoft.com/vs/github/) from within the [Visual Studio IDE](../get-started/visual-studio-ide.md) to both manage your code and collaborate with others on development projects.
 
@@ -58,4 +61,5 @@ To continue your journey, visit the [Clone a repo](git-clone-repository.md) page
 
 ## See also
 
-[Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md)
+- [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md)
+- [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

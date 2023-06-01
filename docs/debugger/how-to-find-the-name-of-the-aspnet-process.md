@@ -1,7 +1,6 @@
 ---
 title: Find the running ASP.NET process | Microsoft Docs
 description: Learn how to debug a running ASP.NET app. You attach the Visual Studio debugger to the ASP.NET process by name.   
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2018
 ms.topic: how-to
 dev_langs: 
@@ -21,6 +20,8 @@ ms.workload:
   - aspnet
 ---
 # Find the name of the ASP.NET process
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To debug a running [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] app, the Visual Studio debugger must attach to the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] process by name.
 

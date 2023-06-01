@@ -1,7 +1,6 @@
 ---
 title: Toolbox, HTML Tab
 description: Learn about the HTML components you'll find in the HTML tab of the Toolbox window.
-ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
 ms.topic: reference
 f1_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # Toolbox, HTML tab
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **HTML** tab of the Toolbox provides components that are useful on web pages and web forms. To view this tab, first open a document for editing in the HTML designer. On the **View** menu, click **Toolbox**, and then click the **HTML** tab of the Toolbox.
 

@@ -1,5 +1,5 @@
 ---
-ms.date: 11/04/2021
+ms.date: 01/31/2023
 ms.technology: vs-ide-general
 ms.custom: vs-get-started
 author: anandmeg
@@ -8,12 +8,6 @@ manager: jmartens
 ms.topic: include
 ---
 An *integrated development environment* (IDE) is a feature-rich program that supports many aspects of software development. The Visual Studio IDE is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to enhance the software development process.
-
-::: moniker range="vs-2017"
-
-![Screenshot showing the Visual Studio 2017 IDE.](../media/visual-studio-ide.png)
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -33,13 +27,7 @@ The preceding image shows Visual Studio with an open project that shows key wind
 
 - The central [editor window](../../ide/writing-code-in-the-code-and-text-editor.md), where you'll probably spend most of your time, displays file contents. In the editor window, you can edit code or design a user interface such as a window with buttons and text boxes.
 
-::: moniker range="vs-2017"
-
-- The [Output window](../../ide/reference/output-window.md) (bottom center) is where Visual Studio sends notifications such as debugging and error messages, compiler warnings, publishing status messages, and more. Each message source has its own tab.
-
-::: moniker-end
-
-- In [Git Changes](/visualstudio/version-control/) at lower right, you can track work items and share code with others by using version control technologies like [Git](https://git-scm.com/) and [GitHub](https://docs.github.com/github).
+- In [Git Changes](../../version-control/git-with-visual-studio.md) at lower right, you can track work items and share code with others by using version control technologies like [Git](https://git-scm.com/) and [GitHub](https://github.com/).
 
 ## Editions
 
@@ -108,14 +96,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    Visual Studio menus, options, and properties can seem overwhelming at times. Visual Studio search, or **Ctrl**+**Q**, is a great way to rapidly find IDE features and code in one place.
 
-   ::: moniker range="vs-2017"
-
-   ![Screenshot that shows the Quick Launch search box in Visual Studio 2017.](../media/quick-launch-nuget.png)
-
-   For more information, see [Quick Launch](../../ide/reference/quick-launch-environment-options-dialog-box.md).
-
-   ::: moniker-end
-
    ::: moniker range="vs-2019"
 
    ![Screenshot that shows the Quick Launch search box in Visual Studio 2019.](../media/vs-2019/quick-launch-nuget.png)
@@ -180,15 +160,19 @@ Some popular features in Visual Studio that improve your productivity when devel
    ![Screenshot showing a Peek Definition window.](../media/vs-2022/peek-definition.png)
    ::: moniker-end
 
+::: moniker range=">=vs-2022"
+
+- [Hot Reload](../../debugger/hot-reload.md)
+
+   Hot Reload enables you to edit your application's code files and apply the code changes immediately to the running application.
+
+   :::image type="content" source="../media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022.":::
+
+::: moniker-end
+
 ## Install Visual Studio
 
 In this section, you create a simple project to try out some of the things you can do with Visual Studio. You use [IntelliSense](../../ide/using-intellisense.md) as a coding aid, debug an app to see a variable value during app execution, and change the color theme.
-
-::: moniker range="vs-2017"
-
-To get started, [download Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) and install it on your system. The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -211,72 +195,6 @@ When you open Visual Studio for the first time, you can [sign in](../../ide/sign
 ## Create a program
 
 Dive in and create a simple program.
-
-::: moniker range="vs-2017"
-
-1. Open Visual Studio.
-
-1. On the menu bar, choose **File** > **New** > **Project**.
-
-   ![Screenshot that shows File > New Project on the menu bar.](../media/file-new-project-menu.png)
-
-   The **New Project** dialog box shows several project *templates*. A template contains the basic files and settings needed for a given project type.
-
-1. Choose the **.NET Core** template category under **Visual C#**, and then choose the **Console App (.NET Core)** template. In the **Name** text box, type **HelloWorld**, and then select the **OK** button.
-
-   ![Screenshot that shows the .NET Core app template.](../media/overview-new-project-dialog.png)
-
-   > [!NOTE]
-   > If you don't see the **.NET Core** category, you need to install the **.NET Core cross-platform development** workload. To do this, choose the **Open Visual Studio Installer** link on the bottom left of the **New Project** dialog. After Visual Studio Installer opens, scroll down and select the **.NET Core cross-platform development** workload, and then select **Modify**.
-
-   Visual Studio creates the project. It's a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the literal string "Hello World!" in the console (program output) window.
-
-   Shortly, you should see something like the following screen:
-
-   ![Screenshot that shows the Visual Studio IDE.](../media/overview-ide-console-app.png)
-
-   The C# code for your application shows in the editor window, which takes up most of the space. Notice that the text is automatically colorized to indicate different parts of the code, such as keywords and types. In addition, small, vertical dashed lines in the code indicate which braces match one another, and line numbers help you locate code later. You can choose the small, boxed minus signs to collapse or expand blocks of code. This code outlining feature lets you hide code you don't need, helping to minimize onscreen clutter. The project files are listed on the right side in a window called **Solution Explorer**.
-
-   ![Screenshot that shows the Visual Studio IDE with red boxes.](../media/overview-ide-console-app-red-boxes.png)
-
-   There are other menus and tool windows available, but let's move on for now.
-
-1. Now, start the app. You can do this by choosing **Start Without Debugging** from the **Debug** menu on the menu bar. You can also press **Ctrl**+**F5**.
-
-   ![Screenshot that shows the Debug > Start without debugging menu.](../media/overview-start-without-debugging.png)
-
-   Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
-
-   ![Screenshot of the cmd.exe console window showing the output 'Hello World!' and 'Press any key to continue'.](../media/overview-console-window.png)
-
-1. To close the console window, press any key on your keyboard.
-
-1. Let's add some more code to the app. Add the following C# code before the line that says `Console.WriteLine("Hello World!");`:
-
-   ```csharp
-   Console.WriteLine("\nWhat is your name?");
-   var name = Console.ReadLine();
-   ```
-
-   This code displays **What is your name?** in the console window, and then waits until the user enters some text followed by the **Enter** key.
-
-1. Change the line that says `Console.WriteLine("Hello World!");` to the following code:
-
-   ```csharp
-   Console.WriteLine($"\nHello {name}!");
-   ```
-
-1. Run the app again by selecting **Debug** > **Start Without Debugging** or by pressing **Ctrl**+**F5**.
-
-   Visual Studio rebuilds the app, and a console window opens and prompts you for your name.
-
-1. Enter your name in the console window and press **Enter**.
-
-   ![Screenshot that shows Console window input.](../media/overview-console-input.png)
-
-1. Press any key to close the console window and stop the running program.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -439,9 +357,6 @@ First, rename the `name` variable:
 
 1. Select the light bulb icon to show the available [Quick Actions](../../ide/quick-actions.md). Select **Rename 'name' to 'username'**.
 
-   ::: moniker range="vs-2017"
-   ![Screenshot that shows the Rename action in Visual Studio.](../media/rename-quick-action.png)
-   ::: moniker-end
    ::: moniker range="vs-2019"
    ![Screenshot that shows the Rename action in Visual Studio.](../media/vs-2019/rename-quick-action.png)
    ::: moniker-end
@@ -451,9 +366,6 @@ First, rename the `name` variable:
 
    The variable is renamed across the project, which in our case is only two places.
 
-   ::: moniker range="vs-2017"
-   ![Animated gif showing rename refactoring in Visual Studio.](../media/rename-refactoring.gif)
-   ::: moniker-end
 
 1. Now take a look at IntelliSense. Below the line that says `Console.WriteLine($"\nHello {username}!");`, type `DateTime now = DateTime.`.
 
@@ -536,22 +448,19 @@ Set a breakpoint to see the value of the `username` variable while the program i
 
 1. Press **F5** again to finish running the app.
 
+::: moniker range=">=vs-2022"
+
+Once the app is running, you can apply code changes to the running app by clicking the Hot Reload button.
+
+:::image type="content" source="../media/vs-2022/overview-hot-reload.png" alt-text="Screenshot of Hot Reload in Visual Studio 2022.":::
+
+::: moniker-end
+
 For more information about debugging in Visual Studio, see the [Debugger feature tour](../../debugger/debugger-feature-tour.md).
 
 ## Customize Visual Studio
 
 You can personalize the Visual Studio user interface, including changing the default color theme. To change the color theme:
-
-::: moniker range="vs-2017"
-
-1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
-
-1. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
-
-   The color theme for the entire IDE changes to **Dark**.
-
-   ![Screenshot that shows Visual Studio in Dark theme.](../media/dark-theme.png)
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -565,6 +474,7 @@ You can personalize the Visual Studio user interface, including changing the def
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
+
 1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
 
 1. On the **Environment** > **General** options page, change the **Color Theme** selection to **Blue** or **Light**, and then select **OK**.
@@ -572,6 +482,7 @@ You can personalize the Visual Studio user interface, including changing the def
    The color theme for the entire IDE changes accordingly. The following screenshot shows the Blue theme:
 
    ![Screenshot that shows Visual Studio in Blue theme.](../media/vs-2022/blue-theme.png)
+
 ::: moniker-end
 
 To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../../ide/personalizing-the-visual-studio-ide.md).

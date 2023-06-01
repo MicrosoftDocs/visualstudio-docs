@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically refer to worksheet ranges in code"
 description: Learn how you can use Visual Studio to programmatically refer to the contents of a NamedRange control or a native Excel range object in a Microsoft Excel worksheet.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -21,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically refer to worksheet ranges in code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You use a similar process to refer to the contents of a <xref:Microsoft.Office.Tools.Excel.NamedRange> control or a native Excel range object.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -32,8 +33,12 @@ ms.workload:
 
 1. Assign a string to the <xref:Microsoft.Office.Tools.Excel.NamedRange.Value2%2A> property of the <xref:Microsoft.Office.Tools.Excel.NamedRange> control. This code must be placed in a sheet class, not in the `ThisWorkbook` class.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet46":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet46":::
+     ---
 
 ## Use native Excel ranges
  The following example adds a native Excel range to a worksheet and then adds text to the cell in the range.
@@ -42,8 +47,12 @@ ms.workload:
 
 1. Assign a string to the <xref:Microsoft.Office.Interop.Excel.Range.Value2%2A> property of the range.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet47":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet47":::
+     ---
 
 ## See also
 - [Work with ranges](../vsto/working-with-ranges.md)

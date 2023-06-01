@@ -1,7 +1,6 @@
 ---
 title: -SafeMode (devenv.exe)
 description: Learn how to use the SafeMode devenv command-line switch to start Visual Studio in safe mode, loading only the default environment and services.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
@@ -17,6 +16,8 @@ ms.workload:
 - multiple
 ---
 # /SafeMode (devenv.exe)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Starts Visual Studio in safe mode, loading only the default environment and services.
 

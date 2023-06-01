@@ -1,8 +1,7 @@
 ---
 title: Suppress warnings for projects and NuGet packages
 description: Learn how you can use Visual Studio to declutter a build log by filtering out one or more kinds of compiler warnings.
-ms.custom: SEO-VS-2020
-ms.date: 01/24/2018
+ms.date: 06/10/2022
 ms.technology: vs-ide-compile
 ms.topic: how-to
 author: ghogen
@@ -13,21 +12,40 @@ ms.workload:
 ---
 # How to: Suppress compiler warnings
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can declutter a build log by filtering out one or more kinds of compiler warnings. For example, you might want to review only some of the output that's generated when you set the build log verbosity to **Normal**, **Detailed**, or **Diagnostic**. For more information about verbosity, see [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md).
 
 ## Suppress specific warnings for Visual C# or F\#
 
-Use the **Build** property page to suppress specific warnings for C# and F# projects.
+Use the **Build** properties to suppress specific warnings for C# and F# projects. 
+
+:::moniker range=">=vs-2022"
 
 1. In **Solution Explorer**, choose the project in which you want to suppress warnings.
 
-1. On the menu bar, choose **View** > **Property Pages**.
+1. Right-click on the project node, and choose **Properties** on the context menu. Or, select the project node and press **Alt**+**Enter**.
 
-1. Choose the **Build** page.
+1. Choose **Build**, and go to the **Errors and warnings** subsection.
 
-1. In the **Suppress warnings** box, specify the error codes of the warnings that you want to suppress, separated by semicolons.
+1. In the **Suppress warnings** or **Suppress specific warnings** box, specify the error codes of the warnings that you want to suppress, separated by semicolons. For a list and descriptions of warning codes, see [C# Compiler Messages](/dotnet/csharp/language-reference/compiler-messages/).
 
 1. Rebuild the solution.
+:::moniker-end
+:::moniker range="<=vs-2019"
+1. In **Solution Explorer**, choose the project in which you want to suppress warnings.
+
+1. Right-click on the project node, and choose **Properties** on the context menu. Or, select the project node and press **Alt**+**Enter**.
+
+1. Choose the **Build** page or section, and if you're in the current  UI, open the **Errors and warnings** subsection.
+
+1. In the **Suppress warnings** or **Suppress specific warnings** box, specify the error codes of the warnings that you want to suppress, separated by semicolons. For a list and descriptions of warning codes, see [C# Compiler Messages](/dotnet/csharp/language-reference/compiler-messages/).
+
+1. Rebuild the solution.
+:::moniker-end
+
+> [!NOTE]
+> Some warnings can't be suppressed. For a list of those, see [NoWarn compiler option](/dotnet/csharp/language-reference/compiler-options/errors-warnings#nowarn).
 
 ## Suppress specific warnings for C++
 
@@ -116,15 +134,33 @@ In some cases, you may want to suppress NuGet compiler warnings for a single NuG
 
 1. In **Solution Explorer**, select the NuGet package you want to suppress compiler warnings for.
 
-   ![NuGet package in Solution Explorer](media/nuget-package-with-warning.png)
+   :::moniker range="vs-2019"
+   ![Screenshot of NuGet package in Solution Explorer.](media/nuget-package-with-warning.png)
+   :::moniker-end
+   :::moniker range=">=vs-2022"
+   ![Screenshot of NuGet package in Solution Explorer.](media/vs-2022/nuget-package-with-warning.png)
+   :::moniker-end
 
 1. From the right-click or context menu, select **Properties**.
 
-1. In the **NoWarn** box of the package's properties, enter the warning number you want to suppress for this package. If you want to suppress more than one warning, use a comma to separate the warning numbers.
+1. In the **Suppress warnings** box of the package's properties, enter the warning number you want to suppress for this package. If you want to suppress more than one warning, use a comma to separate the warning numbers.
 
+   :::moniker range="vs-2019"
    ![NuGet package properties](media/nuget-properties-nowarn.png)
+   :::moniker-end
+   :::moniker range=">=vs-2022"
+   ![Screenshot of NuGet package properties](media/vs-2022/nuget-properties-nowarn.png)
+   :::moniker-end
 
-   The warning disappears from **Solution Explorer** and the **Error List**.
+   The warning disappears from **Solution Explorer** and the **Error List**. In the project file, the NoWarn property is set.
+
+   ```xml
+    <PackageReference Include="NuGet.Build.Tasks.Pack" Version="6.2.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <NoWarn>NU5104</NoWarn>
+    </PackageReference>
+   ```
 
 ## See also
 

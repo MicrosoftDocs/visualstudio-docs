@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBinder3::GetTypeArguments method
 ms.assetid: fa0c37a7-327f-463e-9a9d-bb3f534584cb
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugBinder3::GetTypeArguments
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method retrieves a list of argument types associated with this object.
 
 ## Syntax
 
-```cpp
-HRESULT GetTypeArguments(
-   UINT          skip,
-   UINT          count,
-   IDebugField** ppFields,
-   UINT*         pFetched
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetTypeArguments(
    uint          skip,
@@ -40,6 +34,16 @@ int GetTypeArguments(
    out uint      pFetched
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetTypeArguments(
+   UINT          skip,
+   UINT          count,
+   IDebugField** ppFields,
+   UINT*         pFetched
+);
+```
+---
 
 ## Parameters
 `skip`\

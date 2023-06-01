@@ -1,7 +1,6 @@
 ---
 title: Create inheritance between types
 description: Learn how to create an inheritance relationship between two types on a class diagram by using Class Designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # How to: Create inheritance between types in Class Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To create an inheritance relationship between two types on a class diagram using **Class Designer**, connect the base type with its derived type or types. You can have an inheritance relationship between two classes, between a class and an interface, or between two interfaces.
 

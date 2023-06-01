@@ -4,11 +4,13 @@
       {
         "files": [
           "**/*.md",
+          "solutions/**/includes/**.md",
+          "faq/**/includes/**.md",
           "**/**.yml"
         ],
         "exclude": [
           "**/obj/**",
-          "**/includes/**",
+          "includes/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
@@ -32,19 +34,25 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "uhfHeaderId": "MSDocsHeader-VisualStudio",
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
       "feedback_product_url": "https://developercommunity2.visualstudio.com/search?space=8",
       "breadcrumb_path": "/visualstudio/subscriptions/_breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "manager": "lank",
+      "manager": "shve",
       "ms.topic": "conceptual",
       "ms.prod": "visual-studio-family",
       "ms.technology": "vs-subscriptions",
       "searchScope": ["VS Subscriptions"],
       "recommendations": true
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+        "ROBOTS": {
+            "solutions/**/includes/**.md": "NoIndex,NoFollow",
+            "faq/**/includes/**.md": "NoIndex,NoFollow"
+        }
+    },
     "template": [],
     "dest": "subscriptions",
     "markdownEngineName": "markdig",

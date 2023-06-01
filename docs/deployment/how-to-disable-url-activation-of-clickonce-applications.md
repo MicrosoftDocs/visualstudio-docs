@@ -1,7 +1,6 @@
 ---
 title: Disable URL Activation of ClickOnce apps
 description: Learn how to disable automatic start on install for your ClickOnce application, in case you want users to start the application from the Start menu.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -21,6 +20,8 @@ ms.workload:
   - multiple
 ---
 # How to: Disable URL activation of ClickOnce applications
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Typically, a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application will launch automatically immediately after it is installed from a Web server. For security reasons, you may decide to disable this behavior, and tell users to launch the application from the **Start** menu instead. The following procedure describes how to disable URL activation.
 

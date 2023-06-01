@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IEEDataStorage::GetSize
 ms.assetid: 33d232c4-1239-4abc-922b-e1bc5b908169
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IEEDataStorage::GetSize
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the number of bytes contained in this object.
 
 ## Syntax
 
-```cpp
-HRESULT GetSize(
-   ULONG* size
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSize(
    out uint size
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSize(
+   ULONG* size
+);
+```
+---
 
 ## Parameters
 `size`\

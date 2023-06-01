@@ -15,20 +15,11 @@ ms.workload:
 ---
 # Learn to use the code editor with C\#
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this 10-minute introduction to the code editor in Visual Studio, we'll add code to a file to look at some of the ways that Visual Studio makes writing, navigating, and understanding C# code easier.
 
-::: moniker range="vs-2017"
-
-> [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
-
-::: moniker-end
 
 This article assumes you're already familiar with C#. If you aren't, we suggest you look at a tutorial such as [Get started with C# and ASP.NET Core in Visual Studio](tutorial-aspnet-core.md) first.
 
@@ -38,20 +29,6 @@ This article assumes you're already familiar with C#. If you aren't, we suggest 
 ## Create a new code file
 
 Start by creating a new file and adding some code to it.
-
-::: moniker range="vs-2017"
-
-1. Open Visual Studio.
-
-1. From the **File** menu on the menu bar, choose **New** > **File**, or press **Ctrl**+**N**.
-
-1. In the **New File** dialog box, under the **General** category, choose **Visual C# Class**, and then choose **Open**.
-
-   A new file opens in the editor with the skeleton of a C# class. (Notice that we don't have to create a full Visual Studio project to gain some of the benefits that the code editor offers; all you need is a code file!)
-
-   ![Screenshot of a C# code file in Visual Studio.](../media/tutorial-editor.png)
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

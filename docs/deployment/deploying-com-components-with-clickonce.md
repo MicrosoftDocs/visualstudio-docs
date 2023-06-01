@@ -1,7 +1,6 @@
 ---
 title: "Deploying COM Components with ClickOnce | Microsoft Docs"
 description: Learn about steps necessary to deploy .NET applications in ClickOnce that contain legacy COM components.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -23,6 +22,8 @@ ms.workload:
   - "multiple"
 ---
 # Deploy COM components with ClickOnce
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Deployment of legacy COM components has traditionally been a difficult task. Components need to be globally registered and thus can cause undesirable side effects between overlapping applications. This situation is generally not a problem in .NET Framework applications because components are completely isolated to an application or are side-by-side compatible. Visual Studio allows you to deploy isolated COM components on the Windows XP or higher operating system.
 
  [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] provides an easy and safe mechanism for deploying your .NET applications. However, if your applications use legacy COM components, you will need to take additional steps for deploying them. This topic describes how to deploy isolated COM components and reference native components (for example, from Visual Basic 6.0 or Visual C++).

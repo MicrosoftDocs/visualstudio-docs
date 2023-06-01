@@ -1,20 +1,21 @@
 ---
 title: "Workflow Designer - Receive Activity Designer"
-description: Learn about the Receive activity and how to use the Receive activity designer to create and configure a Receive activity. 
-ms.custom: SEO-VS-2020
+description: Learn about the Receive activity and how to use the Receive activity designer to create and configure a Receive activity.
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.ServiceModel.Activities.Receive.UI"
 ms.assetid: f58d3c70-944d-4bb4-90a7-e68c103caddc
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
   - "multiple"
 ---
 # Receive Activity Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Receive** activity designer is used to create and configure a <xref:System.ServiceModel.Activities.Receive> activity. A <xref:System.ServiceModel.Activities.Receive> activity is an activity that receives a message that can be either a built-in type such as <xref:System.ServiceModel.Channels.Message>, <xref:System.IO.Stream> or <xref:System.Xml.Linq.XElement>, or an application-defined data contract, message contract, or XML class that can be serialized.
 

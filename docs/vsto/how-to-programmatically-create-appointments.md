@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically create appointments"
 description: Learn how you can programmatically create appointments and then add recipients to the appointment meeting request in Microsoft Outlook.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -18,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically create appointments
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example creates an appointment and adds recipients to the appointment meeting request.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

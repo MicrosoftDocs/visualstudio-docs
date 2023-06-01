@@ -1,7 +1,6 @@
 ---
 title: "CompilandDetails | Microsoft Docs"
 description: Find reference information about the CompilandDetails symbol type (SymTagCompilandDetails) in the Visual Studio debug interface access SDK.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -17,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # CompilandDetails
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Compiland information is split between symbols with a `SymTagCompiland` tag (low detail) and a `SymTagCompilandDetails` tag (high detail). `SymTagCompilandDetails` provides a wealth of information about the compiland that is not available with a `SymTagCompiland` symbol.
 
 ## Properties

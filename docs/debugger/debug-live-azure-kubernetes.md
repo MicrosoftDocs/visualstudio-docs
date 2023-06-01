@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Debug live ASP.NET Azure Kubernetes Services using the Snapshot Debugger
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Snapshot Debugger takes a snapshot of your in-production apps when code that you're interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
 
 Snappoints and logpoints are similar to breakpoints, but unlike breakpoints, snappoints don't halt the application when hit. Typically, capturing a snapshot at a snappoint takes 10-20 milliseconds.
@@ -106,7 +108,7 @@ If it's difficult to recreate a particular state in your app, consider using a c
 
 #### To create a conditional snappoint
 
-1. Right-click a snappoint icon (the hollow ball) and choose **Settings**.
+1. Right-click a snappoint icon (the hollow sphere) and choose **Settings**.
 
    ![Choose Settings](../debugger/media/snapshot-snappoint-settings.png)
 

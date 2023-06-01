@@ -1,7 +1,6 @@
 ---
 title: "Common tasks in Office programming"
 description: Learn how you can program against the data in a document-level customization without having to use the object model of Microsoft Office Word or Office Excel.
-ms.custom: SEO-VS-2020SS
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -19,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Common tasks in Office programming
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This topic is designed to help you find the answers to the following categories of common questions about programming Office solutions by using Visual Studio.
 
 - [Setup and general tasks](#projects).

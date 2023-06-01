@@ -1,7 +1,6 @@
 ---
 title: Data class inheritance (O-R Designer)
 description: Work with data class inheritance in Object Relational Designer (O/R Designer), a LINQ to SQL class tool in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: af32653c-f4e6-4217-8c5a-e32b322b4918
@@ -13,6 +12,8 @@ ms.workload:
   - "data-storage"
 ---
 # Data class inheritance (O/R Designer)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Like other objects, LINQ to SQL classes can use inheritance and be derived from other classes. In code, you can specify inheritance relationships between objects by declaring that one class inherits from another. In a database, inheritance relationships are created in several ways. The **Object Relational Designer** (**O/R Designer**) supports the concept of single-table inheritance as it is often implemented in relational systems.
 

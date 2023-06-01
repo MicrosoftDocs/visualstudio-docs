@@ -1,7 +1,6 @@
 ---
 title: Create and run a load test
 description: Learn how to create a load test that contains unit tests. You create and run load tests using Visual Studio Enterprise.
-ms.custom: SEO-VS-2020
 ms.date: 10/01/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,6 +14,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # Walkthrough: Create and run a load test that contains unit tests
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this walkthrough you create a load test that contains unit tests.
 

@@ -12,6 +12,8 @@ ms.workload:
 ---
 # Using Visual Studio ModelBus in a Text Template
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 If you write text templates that read a model that contains Visual Studio ModelBus references, you might want to resolve the references to access the target models. In that case, you have to adapt the text templates and the referenced domain-specific languages (DSLs):
 
 - The DSL that is the target of the references must have a ModelBus Adapter that is configured for access from text templates. If you also access the DSL from other code, the reconfigured adapter is required in addition to the standard ModelBus Adapter.

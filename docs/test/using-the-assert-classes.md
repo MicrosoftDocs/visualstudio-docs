@@ -1,7 +1,6 @@
 ---
 title: MSTest assert classes and methods
 description: Learn how to use Assert statements to test the correctness of your code behavior during a unit test of your application code.
-ms.custom: SEO-VS-2020
 ms.date: 06/07/2018
 ms.topic: reference
 helpviewer_keywords:
@@ -16,6 +15,8 @@ ms.workload:
 author: mikejo5000
 ---
 # Use Assert classes for unit testing
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the Assert classes of the <xref:Microsoft.VisualStudio.TestTools.UnitTesting> namespace to verify specific functionality. A unit test method exercises the code of a method in your application's code, but it reports the correctness of the code's behavior only if you include Assert statements.
 

@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Learn to use the code editor for JavaScript
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this short introduction to the code editor in Visual Studio, we'll look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
 
 > [!TIP]
@@ -26,6 +28,8 @@ This article assumes you're already familiar with JavaScript development. If you
 You can use the IDE to add new files to your project.
 
 1. With your project open in Visual Studio, right-click on a folder or your project node in Solution Explorer (right pane), and choose **Add** > **New Item**.
+
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
 
 1. In the **New File** dialog box, under the **General** category, choose the file type that you want to add, such as **JavaScript File**, and then choose **Open**.
 

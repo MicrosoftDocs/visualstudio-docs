@@ -12,9 +12,12 @@ ms.workload:
   - "multiple"
 ---
 # Visualize EventSource events as markers
-The Concurrency Visualizer can display EventSource events as markers, and you can control how the markers are displayed. To view the EventSource markers, register the ETW provider GUID by using the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box. The Concurrency Visualizer has default conventions to represent EventSource events as [Flag Markers](../profiling/flag-markers.md), [Span Markers](../profiling/span-markers.md), and [Message Markers](../profiling/message-markers.md). You can customize how EventSource events are displayed by adding custom fields to the events. For more information about markers, see [Concurrency Visualizer Markers](../profiling/concurrency-visualizer-markers.md). For more information about EventSource events, see <xref:System.Diagnostics.Tracing>.
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+The Concurrency Visualizer can display EventSource events as markers, and you can control how the markers are displayed. To view the EventSource markers, register the ETW provider GUID by using the [Advanced Settings](../profiling/advanced-settings-dialog-box-concurrency-visualizer.md) dialog box. The Concurrency Visualizer has default conventions to represent EventSource events as [Flag Markers](../profiling/concurrency-visualizer-markers.md#flag-markers), [Span Markers](../profiling/concurrency-visualizer-markers.md#span-markers), and [Message Markers](../profiling/concurrency-visualizer-markers.md#message-markers). You can customize how EventSource events are displayed by adding custom fields to the events. For more information about markers, see [Concurrency Visualizer Markers](../profiling/concurrency-visualizer-markers.md). For more information about EventSource events, see <xref:System.Diagnostics.Tracing>.
 
 ## Default visualization of EventSource events
+
  By default, the Concurrency Visualizer uses the following conventions to represent EventSource events.
 
 ### Marker type

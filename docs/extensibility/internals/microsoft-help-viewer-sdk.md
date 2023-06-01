@@ -1,18 +1,19 @@
 ---
 title: Microsoft Help Viewer SDK | Microsoft Docs
 description: Learn about Visual Studio Help Viewer tasks, such as creating an article, creating a Help Viewer content-branding package, and deploying a set of articles.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 620d7dcd-d462-475e-a449-fbfa06ff12c5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Microsoft Help Viewer SDK
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article contains the following tasks for Visual Studio Help Viewer integrators:
 
@@ -337,17 +338,7 @@ A user can then register CustomLibrary as the namespace under the Partners hive,
 
 Add the following registry key and value:
 
-::: moniker range="vs-2017"
-
-**HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\15.0\Dynamic Help**
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\16.0\Dynamic Help**
-
-::: moniker-end
 
 Value: Display Debug Output in Retail
 Data: YES

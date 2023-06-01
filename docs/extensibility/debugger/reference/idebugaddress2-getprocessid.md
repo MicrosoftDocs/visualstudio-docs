@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugAddress2::GetProcessID method
 ms.assetid: 2c18889d-074a-4b95-87b4-bf1a067f44ed
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugAddress2::GetProcessID
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the ID of the process that owns the object represented by this [IDebugAddress2](../../../extensibility/debugger/reference/idebugaddress2.md) interface.
 
 ## Syntax
 
-```cpp
-HRESULT GetProcessID (
-   DWORD* pProcID
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProcessID (
    out uint pProcID
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProcessID (
+   DWORD* pProcID
+);
+```
+---
 
 ## Parameters
 `pProcID`\

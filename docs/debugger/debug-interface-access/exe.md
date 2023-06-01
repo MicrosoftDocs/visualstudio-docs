@@ -19,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # Exe
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Exe is the only symbol without either a lexical or class parent, as it represents the global scope of the .exe or .dll file. There is only one symbol with the `SymTagExe` tag per file. The [IDiaSession::get_globalScope](../../debugger/debug-interface-access/idiasession-get-globalscope.md) method returns the symbol.
 
 ## Properties

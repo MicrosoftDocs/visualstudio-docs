@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProcess2::Terminate
 ms.assetid: 5e6bf373-0fe9-4321-b04a-473a65f664d9
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,23 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess2::Terminate
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Terminates the process.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Terminate();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Terminate( 
    void 
 );
 ```
-
-```csharp
-int Terminate();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

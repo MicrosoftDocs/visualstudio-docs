@@ -2,15 +2,13 @@
 metadata:
   title: Extensibility Frequently Asked Questions
   description: This article answers some frequently asked questions about extensibility for Visual Studio 2017.
-  ms.custom: SEO-VS-2020
   ms.date: "11/09/2016"
-  ms.topic: "conceptual"
+  ms.topic: faq
   ms.assetid: 345855db-0cc3-45aa-8c57-bb18d9789772
   author: "kevinfansler"
   ms.author: madsk
   manager: jmartens
   monikerRange: vs-2017
-    
 title: FAQ for Visual Studio 2017 extensibility
 summary: These are some frequently asked questions about extensibility for Visual Studio 2017.
 

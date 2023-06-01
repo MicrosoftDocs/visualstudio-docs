@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - REFERENCE_TYPE enumeration
 ms.assetid: b1ffba10-eb9d-48ba-bf48-6d8b71d6f270
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,20 @@ dev_langs:
 - CSharp
 ---
 # REFERENCE_TYPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the reference type.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_REFERENCE_TYPE { 
+   REF_TYPE_WEAK   = 0x0001,
+   REF_TYPE_STRONG = 0x0002
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_REFERENCE_TYPE { 
    REF_TYPE_WEAK   = 0x0001,
@@ -30,13 +40,7 @@ enum enum_REFERENCE_TYPE { 
 };
 typedef DWORD REFERENCE_TYPE;
 ```
-
-```csharp
-public enum enum_REFERENCE_TYPE { 
-   REF_TYPE_WEAK   = 0x0001,
-   REF_TYPE_STRONG = 0x0002
-};
-```
+---
 
 ## Fields
  `REF_TYPE_WEAK`\

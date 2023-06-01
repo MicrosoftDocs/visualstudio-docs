@@ -1,7 +1,6 @@
 ---
 title: Developing a Legacy Language Service | Microsoft Docs
 description: Learn about implementing a legacy language service as part of a VSPackage, or by using Managed Extensibility Framework (MEF) extensions.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -13,14 +12,16 @@ f1_keywords:
 helpviewer_keywords:
 - language services, developing
 ms.assetid: 6151ba88-c1c3-41de-a1cc-668f494d48d1
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Develop a legacy language service
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section links to topics that help you create a legacy language service.
 
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more about the new way to implement a language service, see [Editor and language service extensions](../../extensibility/editor-and-language-service-extensions.md).

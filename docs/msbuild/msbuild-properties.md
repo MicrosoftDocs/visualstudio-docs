@@ -1,8 +1,7 @@
 ---
 title: MSBuild Properties | Microsoft Docs
 description: Learn how MSBuild name-value property pairs can pass values to tasks, evaluate conditions, and store values.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 06/13/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, properties
@@ -28,7 +27,9 @@ Properties are name-value pairs that can be used to configure builds. Properties
 </PropertyGroup>
 ```
 
- Throughout the project file, properties are referenced by using the syntax $(\<PropertyName>). For example, the property in the previous example is referenced by using $(BuildDir).
+Valid property names begin with an uppercase or lowercase letter or underscore (`_`); valid subsequent characters include alphanumeric characters (letters or digits), underscore, and hyphen (`-`).
+
+ Throughout the project file, properties are referenced by using the syntax `$(<PropertyName>)`. For example, the property in the previous example is referenced by using `$(BuildDir)`.
 
  Property values can be changed by redefining the property. The `BuildDir` property can be given a new value by using this XML:
 
@@ -45,6 +46,10 @@ Properties are name-value pairs that can be used to configure builds. Properties
  MSBuild reserves some property names to store information about the project file and the MSBuild binaries. These properties are referenced by using the $ notation, just like any other property. For example, $(MSBuildProjectFile) returns the complete file name of the project file, including the file name extension.
 
  For more information, see [How to: Reference the name or location of the project file](../msbuild/how-to-reference-the-name-or-location-of-the-project-file.md) and [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md).
+
+## MSBuild internal properties
+
+Properties defined in standard import files that begin with an underscore (_) are private to MSBuild and should not be read, reset, or overridden in user code.
 
 ## Environment properties
 
@@ -120,7 +125,7 @@ msbuild.exe MyProj.proj -p:Configuration=DEBUG
 
 - A property can be emitted by the [CreateProperty](../msbuild/createproperty-task.md) task. This usage is deprecated.
 
-- Starting in the .NET Framework 3.5, `Target` elements may contain `PropertyGroup` elements that may contain property declarations.
+- `Target` elements may contain `PropertyGroup` elements that may contain property declarations.
 
 ## Store XML in properties
 

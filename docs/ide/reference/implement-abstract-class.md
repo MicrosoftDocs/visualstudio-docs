@@ -1,7 +1,6 @@
 ---
 title: Implement an abstract class
 description: Learn how to use the Quick Actions and Refactorings menu to immediately generate the code required to implement an abstract class.
-ms.custom: SEO-VS-2020
 ms.date: 01/26/2018
 ms.topic: reference
 author: TerryGLee
@@ -12,6 +11,8 @@ ms.workload:
 - dotnet
 ---
 # Implement an abstract class in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This code generation applies to:
 

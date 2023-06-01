@@ -2,7 +2,6 @@
 title: "Walkthrough: Import a SharePoint Designer reusable workflow | Microsoft Docs"
 titleSuffix: ""
 description: In this walkthrough, import a reusable workflow created in SharePoint Designer into a Visual Studio SharePoint workflow project.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:
@@ -21,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Import a SharePoint Designer reusable workflow
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
   This walkthrough demonstrates how to import a reusable workflow created in SharePoint Designer 2010 into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint workflow project.
 
@@ -211,13 +212,21 @@ ms.workload:
 
 15. Add the following under the existing **using** or **Imports** directives:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.vb" id="Snippet1":::
+     ---
 
 16. Replace `codeActivity1_ExecuteCode` with the following:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.vb" id="Snippet2":::
+     ---
 
 ## Deploy the project and associate the workflow
  Next, run WorkflowImportProject1 to deploy it to a SharePoint site and then associate the workflow with the Tasks list to view and test the modified, converted workflow.

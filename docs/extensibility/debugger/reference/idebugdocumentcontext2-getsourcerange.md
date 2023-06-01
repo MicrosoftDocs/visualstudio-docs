@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocumentContext2::GetSourceRange
 ms.assetid: 5903c75e-5390-4d13-9314-1ee276255313
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentContext2::GetSourceRange
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the source code range of this document context.
 
 ## Syntax
 
-```cpp
-HRESULT GetSourceRange( 
-   TEXT_POSITION* pBegPosition,
-   TEXT_POSITION* pEndPosition
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSourceRange( 
    TEXT_POSITION[] pBegPosition,
    TEXT_POSITION[] pEndPosition
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSourceRange( 
+   TEXT_POSITION* pBegPosition,
+   TEXT_POSITION* pEndPosition
+);
+```
+---
 
 ## Parameters
 `pBegPosition`\

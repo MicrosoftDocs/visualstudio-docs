@@ -7,8 +7,8 @@ helpviewer_keywords:
 - IDebugObject::IsProxy
 - IsProxy
 ms.assetid: 06c66b87-db95-4400-ab26-5d33e743a439
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject::IsProxy
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the object is a transparent proxy.
 
 ## Syntax
 
-```cpp
-HRESULT IsProxy (
-   BOOL* pfIsProxy
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsProxy (
    out bool pfIsProxy
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsProxy (
+   BOOL* pfIsProxy
+);
+```
+---
 
 ## Parameters
 `pfIsProxy`\

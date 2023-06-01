@@ -1,7 +1,6 @@
 ---
 title: Code Snippet Functions
 description: Learn about the GenerateSwitchCases(EnumerationLiteral), ClassName(), and SimpleTypeName(TypeName) functions available to use with C# code snippets.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -17,6 +16,8 @@ ms.workload:
 - multiple
 ---
 # Code snippet functions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are three functions available to use with C# code snippets. Functions are specified in the [Function](../ide/code-snippets-schema-reference.md#function-element) element of the code snippet. For information on creating code snippets, see [Code snippets](../ide/code-snippets.md).
 

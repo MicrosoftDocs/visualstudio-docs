@@ -9,8 +9,8 @@ helpviewer_keywords:
 - IDebugMemoryBytes2::GetSize method
 - GetSize method
 ms.assetid: dae64c5f-5b54-40c3-b32f-ec3b16c093f7
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugMemoryBytes2::GetSize
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the size, in bytes, of the memory represented by this [IDebugMemoryBytes2](../../../extensibility/debugger/reference/idebugmemorybytes2.md) object.
 
 ## Syntax
 
-```cpp
-HRESULT GetSize( 
-   UINT64* pqwSize
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSize(
    out ulong pqwSize
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSize( 
+   UINT64* pqwSize
+);
+```
+---
 
 ## Parameters
 `pqwSize`\

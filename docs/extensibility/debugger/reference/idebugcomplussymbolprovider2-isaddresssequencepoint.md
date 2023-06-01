@@ -7,8 +7,8 @@ helpviewer_keywords:
 - IDebugComPlusSymbolProvider2::IsAddressSequencePoint
 - IsAddressSequencePoint
 ms.assetid: 89b27c57-5295-428b-8229-a402500d8cd3
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider2::IsAddressSequencePoint
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the specified debug address is a sequence point.
 
 ## Syntax
 
-```cpp
-HRESULT IsAddressSequencePoint(
-    IDebugAddress* pAddress
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsAddressSequencePoint(
     IDebugAddress pAddress
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsAddressSequencePoint(
+    IDebugAddress* pAddress
+);
+```
+---
 
 ## Parameters
 `pAddress`\

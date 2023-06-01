@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugClassField::GetDefaultIndexer method
 ms.assetid: 47ce4f45-3816-4b40-909c-5032d0692d75
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugClassField::GetDefaultIndexer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of the default indexer.
 
 ## Syntax
 
-```cpp
-HRESULT GetDefaultIndexer( 
-   BSTR* pbstrIndexer
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDefaultIndexer(
    out string pbstrIndexer
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDefaultIndexer( 
+   BSTR* pbstrIndexer
+);
+```
+---
 
 ## Parameters
 `pbstrIndexer`

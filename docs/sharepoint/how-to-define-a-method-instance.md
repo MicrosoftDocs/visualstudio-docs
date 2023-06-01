@@ -1,7 +1,6 @@
 ---
 title: "How to: Define a Method Instance | Microsoft Docs"
 description: Understand how to define a method instance for a method in your business data connectivity (BDC) model.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -20,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # How to: Define a method instance
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You must define at least one method instance for every method in your model.
 
  Add a method instance by using the **BDC Method Details** window. When you add the method instance, Visual Studio adds a `<MethodInstance>` element to the XML of the model file in your project. For more information about the attributes of a `<MethodInstance>` element, see [MethodInstance](/previous-versions/office/developer/sharepoint-2010/ee556838(v=office.14)).

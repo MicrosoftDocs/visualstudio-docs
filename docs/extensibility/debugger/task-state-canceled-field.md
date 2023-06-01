@@ -6,14 +6,16 @@ ms.topic: reference
 helpviewer_keywords:
 - TASK_STATE_CANCELED field, Task class [.NET Framework debug engines]
 ms.assetid: f4f5a96a-8230-493d-9696-8d2716bda261
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # TASK_STATE_CANCELED field
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The task was canceled before it reached the running state, or it confirmed its cancellation and completed without exception.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

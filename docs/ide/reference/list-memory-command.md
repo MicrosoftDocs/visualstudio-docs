@@ -1,7 +1,6 @@
 ---
 title: List Memory Command
 description: Learn about the List Memory command and how it displays the contents of the specified range of memory.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -19,6 +18,8 @@ ms.workload:
 - multiple
 ---
 # List Memory Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Displays the contents of the specified range of memory.
 
 ## Syntax

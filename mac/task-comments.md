@@ -1,13 +1,20 @@
 ---
 title: "Task Comments"
 description: "Adding task comments to your code"
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
+manager: dominicn
 ms.date: 11/09/2020
+ms.topic: reference
 ms.assetid: 562DCB46-D8FA-4DC4-AAEA-F274448C4CD2
 ---
-
 # Task Comments
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+::: moniker range="vsmac-2022"
+> [!NOTE]
+> This feature is currently not available on Visual Studio 2022 for Mac and will be enabled again in an upcoming release.
+::: moniker-end
 
 When writing code, it's standard practice to explicitly comment unfinished or questionable code or quick workarounds with warnings. The default signal tokens provided by Visual Studio for Mac are TODO, HACK, FIXME, and UNDONE. Personalized tokens can be defined under **Visual Studio > Preferences > Environment > Tasks**, as illustrated in the following image:
 

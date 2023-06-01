@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - GUID_ARRAY structure
 ms.assetid: 9e12500c-2c1c-49b1-a0ba-e08366c97eb8
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -17,18 +17,13 @@ dev_langs:
 - CSharp
 ---
 # GUID_ARRAY
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes an array of unique identifiers for available debug engines.
 
 ## Syntax
 
-```cpp
-typedef struct tagGUID_ARRAY
-{
-    DWORD dwCount;
-    GUID *Members;
-} GUID_ARRAY;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct GUID_ARRAY
 {
@@ -36,6 +31,15 @@ public struct GUID_ARRAY
     public Guid Members;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagGUID_ARRAY
+{
+    DWORD dwCount;
+    GUID *Members;
+} GUID_ARRAY;
+```
+---
 
 ## Members
 `dwCount`\

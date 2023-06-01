@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngineLaunch2::ResumeProcess
 ms.assetid: 61ccc14e-75c6-44e7-aae4-57a9aac52089
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngineLaunch2::ResumeProcess
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Resumes process execution.
 
 ## Syntax
 
-```cpp
-HRESULT ResumeProcess ( 
-   IDebugProcess2* pProcess
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ResumeProcess ( 
    IDebugProcess2 pProcess
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ResumeProcess ( 
+   IDebugProcess2* pProcess
+);
+```
+---
 
 ## Parameters
 `pProcess`\

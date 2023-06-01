@@ -1,8 +1,7 @@
 ---
 title: Productivity guide
 description: Learn about the keyboard shortcuts and productivity features in Visual Studio that can help you efficiently write code, debug code, and handle errors.
-ms.custom: SEO-VS-2020
-ms.date: 4/29/2020
+ms.date: 09/23/2022
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -13,13 +12,15 @@ ms.workload:
 ---
 # Productivity guide for Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 If you want to save time while you're writing code, you're in the right place. This productivity guide includes tips that can help you get started with Visual Studio, write code, debug code, handle errors, and use keyboard shortcuts&mdash;all on one page.
 
 For information about helpful keyboard shortcuts, see [Productivity shortcuts](../ide/productivity-shortcuts.md). For a complete list of command shortcuts, see [Default keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
 
 ## Get started
 
-Save time digging through menus by quickly searching for anything you need, including commands, settings, documentation, and install options. See keyboard shortcuts for commands within your search results in Visual Studio so you can memorize them more easily. 
+Save time digging through menus by quickly searching for anything you need, including commands, settings, documentation, and install options. See keyboard shortcuts for commands within your search results in Visual Studio so you can memorize them more easily.
 
 - **Mock code using task list**. If you don't have enough requirements to complete a piece of code, use Task List to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that take you directly to a predefined location in code. For more information, see [Use the Task List](../ide/using-the-task-list.md).
 
@@ -27,9 +28,9 @@ Save time digging through menus by quickly searching for anything you need, incl
 
 - **[Identify and customize keyboard shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)**. You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use. You can always find and change a keyboard shortcut in the Options dialog box.
 
-- **Make Visual Studio more accessible**. Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. See [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) for the full list of available features. 
+- **Make Visual Studio more accessible**. Visual Studio has built-in accessibility features that are compatible with screen readers and other assistive technologies. See [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) for the full list of available features.
 
-- **Check out the Visual Studio Product Lifecycle and Servicing**. For information on how to get updates for Visual Studio, support options for Enterprise and Professional customers, support for older versions of Visual Studio, and components not covered by Visual Studio servicing, see [Visual Studio Product Lifecycle and Servicing](/visualstudio/releases/2019/servicing). 
+- **Check out the Visual Studio Product Lifecycle and Servicing**. For information on how to get updates for Visual Studio, support options for Enterprise and Professional customers, support for older versions of Visual Studio, and components not covered by Visual Studio servicing, see [Visual Studio Product Lifecycle and Servicing](/visualstudio/productinfo/vs-servicing).
 
 - **Install and manage NuGet packages in Visual Studio**. The NuGet Package Manager UI in Visual Studio on Windows allows you to easily install, uninstall, and update NuGet packages in projects and solutions. For more information, see [Install and manage packages in Visual Studio using the NuGet Package Manager](/nuget/consume-packages/install-use-packages-visual-studio).
 
@@ -49,6 +50,8 @@ Write code more quickly by using the following features.
 
      To insert a snippet, on the menu bar, choose **Edit** > **IntelliSense** > **Insert Snippet** or **Surround With**, or open the shortcut menu in a file and choose **Snippet** > **Insert Snippet** or **Surround With**. For more information, see [Code Snippets](../ide/code-snippets.md).
 
+- **[Paste JSON or XML as classes](reference/paste-json-xml.md)**. Copy any JSON or XML text fragment to the clipboard and then paste it as strongly typed .NET classes into any C# or Visual Basic code file. To do so, use **Edit** > **Paste Special** > **Paste JSON As Classes** (or **Paste XML As Classes**).
+
 - **Fix code errors inline**. Quick Actions let you easily refactor, generate, or otherwise modify code with a single action. These actions can be applied using the screwdriver ![Screwdriver icon](media/screwdriver-icon.png) or light bulb ![Light bulb icon](media/light-bulb-icon.png) icons, or by pressing **Alt**+**Enter** or **Ctrl**+**.** when your cursor is on the appropriate line of code. See [Quick Actions](quick-actions.md) for more information.
 
 - **Show and edit the definition of a code element**. You can quickly show and edit the module in which a code element, such as a member, a variable, or a local, is defined.
@@ -63,7 +66,7 @@ Write code more quickly by using the following features.
 
 ## Navigate within your code and the IDE
 
-You can use various techniques to find and move to specific locations in your code more quickly. You can also change the layout of your Visual Studio windows based on your preferences. 
+You can use various techniques to find and move to specific locations in your code more quickly. You can also change the layout of your Visual Studio windows based on your preferences.
 
 - **Bookmark lines of code**. You can use bookmarks to navigate quickly to specific lines of code in a file.
 
@@ -93,19 +96,7 @@ You can search across the IDE for commands, files, and options, in addition to f
 
 - **Find dialog boxes, menu commands, options, and more**. In the search box, enter keywords or phrases for the items that you're trying to find. For example, the following options appear if you enter **new project**:
 
-   ::: moniker range="vs-2017"
-
-   ![Quick Launch Results for 'new project'](../ide/media/productivity_quicklaunch.png)
-
-   **Quick Launch** displays links to create a new project, to add a new item to a project, and to the **Projects and Solutions** page in the **Options** dialog box, among others. Search results can also include project files and tool windows.
-
-   ::: moniker-end
-
-   ::: moniker range=">=vs-2019"
-
    ![Search results for 'new project'](../ide/media/vs-2019/productivity-quick-launch-new-project.png)
-
-   ::: moniker-end
 
    Press **Ctrl**+**Q** to jump straight to the search box.
 
@@ -113,11 +104,7 @@ You can search across the IDE for commands, files, and options, in addition to f
 
 Debugging can consume a lot of time, but the following tips can help you speed up the process.
 
-- **Use the Visual Studio debugger tools**. In the Visual Studio context, when you *debug your app*, it usually means that you are running the application in debugger mode. The debugger provides many ways to see what your code is doing while it runs. See [First look at the Visual Studio Debugger](../debugger/debugger-feature-tour.md) for a guide to getting started. 
-
-- **Test the same page, application, or site in different browsers**. As you debug your code, you can easily switch among the installed web browsers, including [Page Inspector (Visual Studio)](/previous-versions/hh974728(v=vs.140)), without having to open the **Browse With** dialog box. You can use the **Debug Target** list, which is on the **Standard** toolbar next to the **Start Debugging** button, to quickly verify which browser you're using as you debug or view pages.
-
-    ![Select web browser debug options](../ide/media/webbrowserdropdowntoolbar.png)
+- **Use the Visual Studio debugger tools**. In the Visual Studio context, when you *debug your app*, it usually means that you are running the application in debugger mode. The debugger provides many ways to see what your code is doing while it runs. See [First look at the Visual Studio Debugger](../debugger/debugger-feature-tour.md) for a guide to getting started.
 
 - **Set temporary breakpoints**. You can create a temporary breakpoint in the current line of code and start the debugger simultaneously. When you hit that line of code, the debugger enters break mode. For more information, see [Navigate through code with the debugger](../debugger/navigating-through-code-with-the-debugger.md).
 
@@ -139,23 +126,13 @@ Debugging can consume a lot of time, but the following tips can help you speed u
 
 - **Use Live Share to debug in real time with others**. Live Share enables you to collaboratively edit and debug with others in real time, regardless of the programming languages you're using or app types you're building. For more information, see [What is Visual Studio Live Share?](/visualstudio/liveshare/)
 
-- **Use Interactive Window to write and test small code**. Visual Studio provides an interactive read-evaluate-print-loop (REPL) window that lets you enter arbitrary code and see immediate results. This way of coding helps you to learn and experiment with APIs and libraries, and to interactively develop working code to include in your projects. For Python, see [Work with the Python Interactive window](../python/python-interactive-repl-in-visual-studio.md). The Interactive Window feature is also available for C#. 
+- **Use Interactive Window to write and test small code**. Visual Studio provides an interactive read-evaluate-print-loop (REPL) window that lets you enter arbitrary code and see immediate results. This way of coding helps you to learn and experiment with APIs and libraries, and to interactively develop working code to include in your projects. For Python, see [Work with the Python Interactive window](../python/python-interactive-repl-in-visual-studio.md). The Interactive Window feature is also available for C#.
 
 ## Access Visual Studio tools
 
 You can quickly access the Developer Command Prompt, or another Visual Studio tool, if you pin it to the Start menu or the taskbar.
 
-::: moniker range="vs-2017"
-
-1. In Windows Explorer, browse to *%ProgramData%\Microsoft\Windows\Start Menu\Programs\Visual Studio 2017\Visual Studio Tools*.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 1. In Windows Explorer, browse to *%ProgramData%\Microsoft\Windows\Start Menu\Programs\Visual Studio 2019\Visual Studio Tools*.
-
-::: moniker-end
 
 2. Right-click or open the context menu for **Developer Command Prompt**, and then choose **Pin to Start** or **Pin to taskbar**.
 
@@ -167,7 +144,7 @@ At any one time, you may be working in multiple code files and moving among seve
 
    To pin a file, choose the file's tab, and then choose the **Toggle Pin Status** button.
 
-- **Move documents and windows to other monitors**. If you use more than one monitor when you develop applications, you can work on portions of your application more easily by moving files that are open in the editor to another monitor. You can also move tool windows, such as debugger windows, to another monitor and tab dock document and tool windows together to create "rafts." For more information, see [Customize window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md).
+- **Move documents and windows to other monitors**. If you use more than one monitor when you develop applications, you can work on portions of your application more easily by moving files that are open in the editor to another monitor. You can also move tool windows, such as debugger windows, to another monitor and tab dock document and tool windows together to create "rafts." For more information, see [Customize window layouts and personalize tabs in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md).
 
    You can also manage files more easily by creating another instance of **Solution Explorer** and moving it to another monitor. To create another instance of **Solution Explorer**, open a shortcut menu in **Solution Explorer**, and then choose **New Solution Explorer View**.
 
@@ -176,7 +153,7 @@ At any one time, you may be working in multiple code files and moving among seve
 ## See also
 
 - [Visual Studio tips and tricks blog post](https://devblogs.microsoft.com/visualstudio/visual-studio-tips-and-tricks/)
-- [Default keyboard shortcuts for frequently used commands](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)
+- [Default keyboard shortcuts for frequently used commands](default-keyboard-shortcuts-in-visual-studio.md)
 - [How to: Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
 - [Walkthrough: Create a simple application](../get-started/csharp/tutorial-wpf.md)
 - [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md)

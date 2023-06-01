@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_liveRangeStartAddressSection
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the section part of the starting address of the range in which the local symbol is valid.
 
 ## Syntax

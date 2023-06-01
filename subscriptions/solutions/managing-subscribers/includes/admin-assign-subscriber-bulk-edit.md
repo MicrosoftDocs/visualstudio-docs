@@ -3,9 +3,9 @@ title: How do I assign subscribers in bulk?
 description: Super admin or admin would like more details on how to use the bulk feature.
 ms.topic: include
 ms.assetid: 3b450a79-47d2-4434-899d-bea29a0271e1
-author: CaityBuschlen
-ms.author: cabuschl
-ms.date: 06/01/2021
+author: evanwindom
+ms.author: amast
+ms.date: 05/02/2023
 user.type: admin
 tags: bulk
 subscription.type: vl, cloud, retail, partner
@@ -15,8 +15,8 @@ sap.id: b84fffb5-3363-eb7d-224e-1c63faf4067b
 ## How do I assign subscribers in bulk?
 
 You have two options for assigning subscribers in bulk.
-- You can [bulk upload by using an Excel template](https://docs.microsoft.com/visualstudio/subscriptions/assign-license-bulk#use-bulk-add-to-assign-subscriptions).
-- If your organization has an agreement type that can over assign subscriptions, you can use [Azure Active Directory (Azure AD) group assignment](https://docs.microsoft.com/visualstudio/subscriptions/assign-license-bulk#use-azure-active-directory-groups-to-assign-subscriptions).
+- You can [bulk upload by using an Excel template](https://learn.microsoft.com/visualstudio/subscriptions/assign-license-bulk#use-bulk-add-to-assign-subscriptions).
+- If your organization has an agreement type that can over assign subscriptions, you can use [Azure Active Directory (Azure AD) group assignment](https://learn.microsoft.com/visualstudio/subscriptions/assign-license-bulk#use-azure-active-directory-groups-to-assign-subscriptions).
 
 ## Use bulk upload
 1. Make sure the agreement that needs to be updated is selected in the agreement dropdown menu.

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPointerObject::SetBytes method
 ms.assetid: 8c578b38-38d7-46f3-bb2e-8a730fccd334
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugPointerObject::SetBytes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the value pointed to from a series of consecutive bytes.
 
 ## Syntax
 
-```cpp
-HRESULT SetBytes( 
-   DWORD  dwStart,
-   DWORD  dwCount,
-   BYTE*  pBytes,
-   DWORD* pdwBytes
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetBytes(
    uint     dwStart,
@@ -40,6 +34,16 @@ int SetBytes(
    out uint pdwBytes
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetBytes( 
+   DWORD  dwStart,
+   DWORD  dwCount,
+   BYTE*  pBytes,
+   DWORD* pdwBytes
+);
+```
+---
 
 ## Parameters
 `dwStart`\

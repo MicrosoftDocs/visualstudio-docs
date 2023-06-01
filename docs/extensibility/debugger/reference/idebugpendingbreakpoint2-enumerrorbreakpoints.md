@@ -9,8 +9,8 @@ helpviewer_keywords:
 - IDebugPendingBreakpoint2::EnumErrorBreakpoints method
 - EnumErrorBreakpoints method
 ms.assetid: 2f9a9720-c1ac-4430-8f28-200d85360452
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,23 +20,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugPendingBreakpoint2::EnumErrorBreakpoints
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a list of all error breakpoints that resulted from this pending breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT EnumErrorBreakpoints( 
-   BP_ERROR_TYPE                 bpErrorType,
-   IEnumDebugErrorBreakpoints2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumErrorBreakpoints( 
    enum_BP_ERROR_TYPE              bpErrorType,
    out IEnumDebugErrorBreakpoints2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumErrorBreakpoints( 
+   BP_ERROR_TYPE                 bpErrorType,
+   IEnumDebugErrorBreakpoints2** ppEnum
+);
+```
+---
 
 ## Parameters
 `bpErrorType`\

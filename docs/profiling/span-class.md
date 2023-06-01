@@ -2,7 +2,7 @@
 title: "span Class | Microsoft Docs"
 description: Learn about the span class and how it defines a phase of the application. Also learn about the span class public constructors and inheritance hierarchy.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 f1_keywords:
   - "cvmarkersobj/Concurrency::diagnostic::span"
 helpviewer_keywords:
@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # span class
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Defines a phase of the application.
 
 ## Syntax

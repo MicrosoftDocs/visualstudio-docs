@@ -1,7 +1,6 @@
 ---
 title: "Upgrade and migrate Office solutions"
 description: You must upgrade the project to use it in current versions of Visual Studio if you have an Office project that was created in an earlier version of Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -21,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # Upgrade and migrate Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If you have a Microsoft Office project that was created in an earlier version of Visual Studio, you must upgrade the project to use it in current versions of Visual Studio. To upgrade a Microsoft Office project, open it in a version of Visual Studio that includes the Microsoft Office developer tools. For more information about the versions of Visual Studio that include the Microsoft Office developer tools, see [Configure a computer to develop Office solutions](../vsto/configuring-a-computer-to-develop-office-solutions.md).
 
 [!include[Add-ins note](includes/addinsnote.md)]
@@ -49,7 +50,7 @@ ms.workload:
 - New or updated versions of dependent assemblies.
 
 ## Targeted .NET Framework
- When you upgrade a project to Visual Studio 2013, Visual Studio modifies the project to target either the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] or the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]. The version of the .NET framework targeted by the project depends on what version of Office is installed on your computer. If [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] is installed, Visual Studio modifies the project to target the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]. Otherwise, Visual Studio modifies the project to target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)].
+ When you upgrade a project to Visual Studio 2013, Visual Studio modifies the project to target either the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] or the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]. The version of the .NET Framework targeted by the project depends on what version of Office is installed on your computer. If [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] is installed, Visual Studio modifies the project to target the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]. Otherwise, Visual Studio modifies the project to target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)].
 
 > [!NOTE]
 > You might need to perform some additional steps to run a retargeted solution on development and end-user computers, and your project will no longer compile if it uses certain features. For more information, see [Migrate Office solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md).

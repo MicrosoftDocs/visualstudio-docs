@@ -1,16 +1,17 @@
 ---
 title: C++ IntelliSense
 description: Learn about some IntelliSense features that you can use while coding your C++ project.
-ms.custom: SEO-VS-2020
 ms.date: 10/08/2018
 ms.topic: conceptual
-author: TerryGLee
-ms.author: tglee
+author: tylermsft
+ms.author: twhitney
 manager: markl
 ms.workload:
 - cplusplus
 ---
 # Visual C++ IntelliSense features
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 IntelliSense is a name given to a set of features that make coding more convenient. IntelliSense for C++ is available for stand-alone files as well as for files that are part of a C++ project. In cross-platform projects, some IntelliSense features are available in *.cpp* and *.c* files in the shared code project, even when you are in an Android or iOS context.
 

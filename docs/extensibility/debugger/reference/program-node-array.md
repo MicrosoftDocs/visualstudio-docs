@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - PROGRAM_NODE_ARRAY structure
 ms.assetid: 8eeea600-eda5-4b7c-868a-0b86d177b0a5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # PROGRAM_NODE_ARRAY
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains an array of objects that describe programs of interest.
 
 ## Syntax
 
-```cpp
-typedef struct tagPROGRAM_NODE_ARRAY {
-   DWORD                dwCount;
-   IDebugProgramNode2** Members;
-} PROGRAM_NODE_ARRAY;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct tagPROGRAM_NODE_ARRAY {
    public uint                 dwCount;
    public IDebugProgramNode2[] Members;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagPROGRAM_NODE_ARRAY {
+   DWORD                dwCount;
+   IDebugProgramNode2** Members;
+} PROGRAM_NODE_ARRAY;
+```
+---
 
 ## Members
  `dwCount`\

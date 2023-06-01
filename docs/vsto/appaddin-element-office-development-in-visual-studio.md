@@ -1,7 +1,6 @@
 ---
 title: "&lt;appAddin&gt; element (Office development in Visual Studio)"
 description: Learn how the appAddin element of the vstov4 namespace stores customization-specific information for VSTO Add-ins.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: 02/02/2017
 ms.topic: reference
@@ -18,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # &lt;appAddin&gt; element (Office development in Visual Studio)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The **appAddin** element of the `vstov4` namespace stores customization-specific information for VSTO Add-ins.
 
 ## Syntax

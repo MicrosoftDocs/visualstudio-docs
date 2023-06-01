@@ -8,14 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugQueryEngine2 interface
 ms.assetid: 8f0e1838-a818-4459-9138-a3dceb7408de
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # IDebugQueryEngine2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface lets the session debug manager (SDM) retrieve an interface that represents the debug engine (DE).
 
 ## Syntax

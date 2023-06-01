@@ -1,8 +1,7 @@
 ---
 title: 'How to: Configure Targets and Tasks | Microsoft Docs'
 description: Learn how to set selected MSBuild tasks to run in the environment they target, regardless of the environment of the development computer.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 01/11/2022
 ms.topic: conceptual
 ms.assetid: 92814100-392a-471d-96fd-e26f637d6cc2
 author: ghogen
@@ -14,7 +13,7 @@ ms.workload:
 ---
 # How to: Configure targets and tasks
 
-Selected MSBuild tasks can be set to run in the environment they target, regardless of the environment of the development computer. For example, when you use a 64-bit computer to build an application that targets a 32-bit architecture, selected tasks are run in a 32-bit process.
+Selected MSBuild tasks can be set to run in the environment they target, when the development computer supports the target environment. For example, when you use a 64-bit Windows computer to build an application that targets a 32-bit Windows architecture, then selected tasks are run in a 32-bit process.
 
 > [!NOTE]
 > If a build task is written in a .NET language, such as Visual C# or Visual Basic, and does not use native resources or tools, then it will run in any target context without adaptation.
@@ -49,7 +48,7 @@ You can also use the `MSBuildRuntime` and `MSBuildArchitecture` parameters to se
 Before MSBuild runs a task, it looks for a matching `UsingTask` that has the same target context. Parameters that are specified in the `UsingTask` but not in the corresponding task are considered to be matched. Parameters that specified in the task but not in the corresponding `UsingTask` are also considered to be matched. If parameter values are not specified in either the `UsingTask` or the task, the values default to `*` (any parameter).
 
 > [!WARNING]
-> If more than one `UsingTask` exists and all have matching `TaskName`, `Runtime`, and `Architecture` attributes, the last one to be evaluated replaces the others.
+> If more than one `UsingTask` exists and all have matching `TaskName`, `Runtime`, and `Architecture` attributes, the **first** one to be evaluated replaces the others. This is different from behavior of `Property` and `Target` elements.
 
  If parameters are set on the task, MSBuild attempts to find a `UsingTask` that matches these parameters or, at least, is not in conflict with them. More than one `UsingTask` can specify the target context of the same task. For example, a task that has different executables for different target environments might resemble this one:
 
@@ -72,6 +71,20 @@ Before MSBuild runs a task, it looks for a matching `UsingTask` that has the sam
 
 ```
 
+## Overriding default UsingTasks
+By default, MSBuild handles UsingTask's as "first one wins." Starting in 17.2, MSBuild supports overriding this behavior via the `Override` parameter. A UsingTask with the parameter `Override` set to `true` will take priority over any other UsingTask of the same TaskName.
+
+```xml
+<UsingTask TaskName="MyTool"
+    Runtime="CLR4"
+    Architecture="x86"
+    Override="true"
+    AssemblyFile="$(MyToolsPath)\MyTool.4.0.dll" />
+```
+
+> [!WARNING]
+> This can only be done **once per task**. Builds that attempt to add multiple overrides for the same task will receive MSBuild error `MSB4275`.
+
 ## Task factories
 
 Before it runs a task, MSBuild checks to see whether it is designated to run in the current software context. If the task is so designated, MSBuild passes it to the AssemblyTaskFactory, which runs it in the current process; otherwise, MSBuild passes the task to the TaskHostFactory, which runs the task in a process that matches the target context. Even if the current context and the target context match, you can force a task to run out-of-process (for isolation, security, or other reasons) by setting `TaskFactory` to `TaskHostFactory`.
@@ -82,6 +95,8 @@ Before it runs a task, MSBuild checks to see whether it is designated to run in 
     AssemblyFile="$(MSBuildToolsPath)\MyTasks.dll">
 </UsingTask>
 ```
+
+When `TaskHostFactory` is specified explicitly, the process that runs the task is short-lived. This allows the operating system to clean up all resources related to the task immediately after it executes. For this reason, specify `TaskHostFactory` when referencing tasks built in the same build process as their use, to avoid file-in-use errors when updating the task assembly after a build.
 
 ## Phantom task parameters
 

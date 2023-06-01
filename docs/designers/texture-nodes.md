@@ -1,7 +1,6 @@
 ---
 title: Texture Nodes
 description: Learn about texture nodes that sample various texture types and geometries, then produce or transform texture coordinates in Shader Designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: b7df5ef3-dd4f-4964-9d96-34e0e180515e
@@ -13,6 +12,8 @@ ms.workload:
 - multiple
 ---
 # Texture nodes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In the Shader Designer, texture nodes sample various texture types and geometries, and produce or transform texture coordinates. Textures provide color and lighting detail on objects.
 

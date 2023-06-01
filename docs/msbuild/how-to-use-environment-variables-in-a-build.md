@@ -1,8 +1,7 @@
 ---
 title: 'How to: Use Environment Variables in a Build | Microsoft Docs'
 description: Learn how to access environment variables in MSBuild project files, and use environment variables to set build options without modifying the project file.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 05/09/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - environment variables, referencing

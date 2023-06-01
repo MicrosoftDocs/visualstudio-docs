@@ -1,7 +1,6 @@
 ---
 title: Analyzing Threshold Rule Violations in Load Tests
 description: Learn how to view violations of threshold rules that you set up, so that you can analyze the violations. 
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
@@ -20,6 +19,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # Analyzing threshold rule violations in load tests Using the Load Test Analyzer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Threshold rules are associated with specific performance counters, and violations indicate that a performance counter exceeded or fell below a set value. When you run a load test, you can analyze violations that occur for the threshold rules you set up previously.
 

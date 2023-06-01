@@ -1,7 +1,6 @@
 ---
 title: "How to: Customize a SharePoint Feature | Microsoft Docs"
 description: Customize SharePoint features in Visual Studio. The Feature Designer opens when you add a new feature in Solution Explorer or the SharePoint Package Explorer.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:
@@ -21,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # How to: Customize a SharePoint feature
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can create and customize SharePoint features by using the Feature Designer in Visual Studio. For example, you can set the Feature scope and add other Features as dependencies. By default, the Feature Designer is opened when you add a new Feature in Solution Explorer or the SharePoint Package Explorer.
 
 ## Opening the Feature Designer

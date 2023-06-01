@@ -2,18 +2,19 @@
 description: "Specifies the minimum version of the operating system that the project template requires to work correctly."
 title: RequiredPlatformVersion Element (Visual Studio Templates)
 titleSuffix: ""
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 ms.assetid: 6f0e4986-3157-4bba-aed3-c28413ebe976
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.workload:
 - vssdk
 ---
 # RequiredPlatformVersion element (Visual Studio templates)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Specifies the minimum version of the operating system that the project template requires to work correctly. This element is used to for project templates that create [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps.
 

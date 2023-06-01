@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
 description: View the change log for Visual Studio Tools for Unity, Windows. See changes from version 1.0.0.0 through 4.7.0.0 and beyond.
-ms.date: "9/28/2021"
+ms.date: "12/12/2022"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio-dev16
 ms.topic: "conceptual"
@@ -16,6 +16,239 @@ ms.workload:
 
 Visual Studio Tools for Unity change log.
 
+## 17.5.0.0 
+Released December 13, 2022
+
+### New Features
+
+- **Debugging:**
+
+  - Added an error message when using incorrect conditions in breakpoints.
+
+  - Cached exception settings when starting up the debugging session.
+
+- **Integration:**
+
+  - Updated [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0006.md) to support all `OnPostprocessAllAssets` overloads.
+
+  - Added [`UNT0031`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0031.md), Asset operations in `LoadAttribute` method.
+
+  - Added [`UNT0032`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0032.md), Inefficient method to set `localPosition` and `localRotation`.
+
+  - Added [`UNT0033`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0033.md), Incorrect message case.
+
+  - Bumped severity to `Warning` for [`UNT0033`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0033.md), [`UNT0015`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0015.md) and [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0006.md) diagnostics.
+
+  - Fixed inline ifs incorrectly processed by [`UNT0026`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0026.md).
+
+### Bug fixes
+
+- **Debugging:**
+
+  - Fixed exception handling performance.
+
+  - Fixed breakpoint binding before explicit host instruction when using type filters.
+
+## 17.4.3.0
+Released November 1, 2022
+
+### Bug fixes
+
+- **Integration:**
+
+  - Run COM code on the main thread in CodeLens callbacks.
+
+## 17.4.2.0
+Released October 11, 2022
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed case where async communication completed synchronously.
+
+## 17.4.1.0
+Released September 14, 2022
+
+### Bug fixes
+
+- **Debugging:**
+
+  - Fixed stability issues when creating breakpoints, preventing unexpected calls to the debugger agent.
+
+## 17.4.0.0
+Released August 9, 2022
+
+### New Features
+
+- **Integration:**
+
+  - Added [`UNT0027`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0027.md), Prevent call to default `PropertyDrawer.OnGUI()` implementation.
+
+  - Added [`UNT0028`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0028.md), Use non-allocating physics APIs.
+
+  - Added [`UNT0029`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0029.md), Pattern matching with `null` on Unity objects.
+
+  - Added [`UNT0030`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0030.md), Calling `Destroy` or `DestroyImmediate` on a `Transform`.
+
+## 17.3.0.0
+Released June 14, 2022
+
+### New Features
+
+- **Evaluation:**
+
+  - Added support for fixed array buffers.
+
+## 17.2.4.0
+Released May 10, 2022
+
+### New Features
+
+- **Integration:**
+
+  - Updated [`UNT0015`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0015.md) and [`USP0012`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0012.md) to support `DidReloadScripts` attribute.
+
+  - Added [`USP0019`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0019.md), Don't flag private methods decorated with `PreserveAttribute` or `UsedImplicitlyAttribute` as unused.
+
+  - Added [`USP0018`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0018.md), Unity objects should not be used with throw expressions.
+
+## 17.2.3.0
+Released April 26, 2022
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed stability issues when reporting diagnostics.
+
+  - Fixed stability issues with message protocol.
+
+## 17.2.2.0
+Released April 12, 2022
+
+### New Features
+
+- **Debugging:**
+
+  - Bumped debugger protocol to 2.58.
+
+### Bug fixes
+
+- **Debugging:**
+
+  - Fixed stability issues when handling exceptions.
+
+## 17.2.1.0
+Released March 16, 2022
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed UPE when working with external packages. This requires a new generation process, fully preserving the folder structure and available with the VS Editor package `2.0.15`.
+
+## 17.2.0.0
+Released February 15, 2022
+
+### New Features
+
+- **Debugging:**
+
+  - Added support for debugging source generators.
+
+- **Integration:**
+
+  - Remember the last IP endpoint used when manually attaching.
+
+  - Added [`UNT0026`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0026.md), `GetComponent` always allocates, to use `TryGetComponent` instead.
+
+  - Updated [`UNT0003`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0003.md), usage of non generic `GetComponent`, to work with `TryGetComponent` as well.
+
+  - Updated [`UNT0014`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0014.md), `GetComponent` called with non component/interface, to work with `TryGetComponent` as well.
+
+  - Updated [`USP0016`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0016.md), Initialization detection with nullable reference types, to work with non-Unity objects.
+
+  - Updated [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0006.md), Incorrect message signature, when checking instance or static methods.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Remove Unity's `RuntimePlatform` from the machine name (player announce).
+
+## 17.1.0.0
+Released January 19, 2022
+
+### New Features
+
+- **Integration:**
+
+  - Added `CancelInvoke` support to [`UNT0016`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0016.md) diagnostic (Unsafe way to get the method name).
+
+  - Added `ScriptedImporter` and `AssetPostprocessor` classes to well known Unity message containers.
+
+  - Updated Unity messages to 2020.3.20f1.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed dark theme issues with Dialog window and buttons.
+
+  - Correctly handle overridden messages with the opt-in [`UNT0021`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0021.md) diagnostic (Unity message should be protected).
+
+## 17.0.4.0
+Released January 5, 2022
+
+### Bug fixes
+
+- **Integration:**
+
+  - Automatically disable asset-indexing for large Unity projects.
+
+  - Do not warn for compatibility issue when referencing the UnityEngine project.
+
+## 17.0.3.0
+Released December 14, 2021
+
+### Bug fixes
+
+- **Integration:**
+
+  - Reduced memory consumption when processing assets.
+
+## 17.0.2.0
+Released October 30, 2021
+
+### Bug fixes
+
+- **Integration:**
+
+  - Improved light-build time, by only running suppressors able to handle CS compiler warnings. All other analyzers will run through solution analysis.
+
+## 17.0.1.0
+Released October 16, 2021
+
+### Bug fixes
+
+- **Integration:**
+
+  - Reduced memory consumption when parsing yaml assets.
+
+## 17.0.0.0
+Released October 8, 2021
+
+### New Features
+
+- **Integration:**
+
+  - Added support for Visual Studio 2022.
+
+  - We deprecated our legacy project generator for Unity. Going forward please use the latest [Visual Studio Editor package](https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/changelog/CHANGELOG.html) in your projects (`Unity > Window > Package Manager`) and make sure Visual Studio 2022 is set as your preferred code editor (`Unity > Edit > Preferences > External Tools`).
+
+  - Updated Unity messages to 2020.3.9f1.
+
 ## 4.11.4.0
 Released October 4, 2021
 
@@ -23,7 +256,7 @@ Released October 4, 2021
 
 - **Integration:**
 
-  - Automatically disable asset-indexing for large Unity projects.
+  - [Backported] Automatically disable asset-indexing for large Unity projects.
 
 ### Bug fixes
 
@@ -38,7 +271,7 @@ Released August 10, 2021
 
 - **Integration:**
 
-  - Reduced memory consumption when processing assets.
+  - [Backported] Reduced memory consumption when processing assets.
 
   - Optimized allocations with [`USP0008`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0008.md), [`USP0009`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0009.md), [`USP0010`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0010.md) and [`USP0011`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0011.md) suppressors.
 
@@ -51,7 +284,7 @@ Released July 13, 2021
 
 - **Integration:**
 
-  - Improved light-build time, by only running suppressors able to handle CS compiler warnings. All other analyzers will run through solution analysis.
+  - [Backported] Improved light-build time, by only running suppressors able to handle CS compiler warnings. All other analyzers will run through solution analysis.
 
 ## 4.11.1.0
 Released June 15, 2021
@@ -60,7 +293,7 @@ Released June 15, 2021
 
 - **Integration:**
 
-  - Reduced memory consumption when parsing yaml assets.
+  - [Backported] Reduced memory consumption when parsing yaml assets.
 
 ## 4.11.0.0
 Released May 25, 2021

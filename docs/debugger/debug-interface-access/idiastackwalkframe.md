@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaStackWalkFrame
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Maintains stack context between invocations of the [IDiaFrameData::execute](../../debugger/debug-interface-access/idiaframedata-execute.md) method.
 
 ## Syntax

@@ -1,7 +1,6 @@
 ---
 title: Publish a web app by using a PowerShell script
 description: Learn how to publish a web project to an Azure website. This script creates the required resources in your Azure subscription if they don't exist.
-ms.custom: SEO-VS-2020
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
@@ -11,6 +10,8 @@ ms.date: 11/11/2016
 ms.author: ghogen
 ---
 # Publish-WebApplicationWebSite (Windows PowerShell script)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## Syntax
 Publishes a web project to an Azure website. The script creates the required resources in your Azure subscription if they don't exist.
 

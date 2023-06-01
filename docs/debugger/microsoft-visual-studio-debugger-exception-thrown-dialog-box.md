@@ -4,7 +4,7 @@ titleSuffix: ""
 description: "Learn what to do when an exception occurs that your program needs to handle. You can: 1) break into the debugger; 2) continue; or 3) ignore."
 
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.exceptions.thrown"
 dev_langs:
@@ -26,6 +26,8 @@ ms.workload:
   - "multiple"
 ---
 # Microsoft Visual Studio Debugger (Exception Thrown) Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 An exception has occurred in your program. This dialog box reports the kind of exception thrown. Your code needs to handle this exception. You can choose between the following options for handling the exception:
 
  **Break**

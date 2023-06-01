@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExpression2::EvaluateAsync
 ms.assetid: 848fe6cb-0759-42f2-890b-d2b551c527d6
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpression2::EvaluateAsync
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method evaluates the expression asynchronously.
 
 ## Syntax
 
-```cpp
-HRESULT EvaluateAsync (
-    EVALFLAGS             dwFlags,
-    IDebugEventCallback2* pExprCallback
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EvaluateAsync(
     enum_EVALFLAGS       dwFlags,
     IDebugEventCallback2 pExprCallback
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EvaluateAsync (
+    EVALFLAGS             dwFlags,
+    IDebugEventCallback2* pExprCallback
+);
+```
+---
 
 ## Parameters
 `dwFlags`\

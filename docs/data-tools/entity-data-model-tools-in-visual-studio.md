@@ -1,8 +1,7 @@
 ---
 title: Entity Framework Tools
 description: Understand Entity Framework Tools in Visual Studio. Entity Framework Tools are designed to help you build Entity Framework (EF) applications.
-ms.custom: SEO-VS-2020
-ms.date: 11/01/2021
+ms.date: 11/28/2022
 ms.topic: conceptual
 ms.assetid: 1b06b573-84aa-4458-b3f5-e238df47bf45
 author: ghogen
@@ -13,6 +12,8 @@ ms.workload:
 - data-storage
 ---
 # Entity Framework Tools in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Entity Framework is an object-relational mapping technology that enables .NET developers to work with relational data by using domain-specific objects. It eliminates the need for most of the data-access code that developers usually need to write. Entity Framework is the recommended object-relational mapping (ORM) modeling technology for new .NET applications.
 

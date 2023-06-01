@@ -1,7 +1,6 @@
 ---
 title: Add comments to class diagrams
 description: Learn how to use comment shapes to annotate class diagrams in Class Designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -19,6 +18,8 @@ ms.workload:
 - multiple
 ---
 # How to: Add comments to class diagrams
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use comment shapes to annotate class diagrams. A comment shape has one property, **Text**, into which you can type text. Comment shapes exist only on the diagram surface and not in code.
 

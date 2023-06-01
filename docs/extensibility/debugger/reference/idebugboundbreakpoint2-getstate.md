@@ -9,8 +9,8 @@ helpviewer_keywords:
 - GetState method
 - IDebugBoundBreakpoint2::GetState method
 ms.assetid: a40a8382-295e-4916-aae6-ffe3a9cd3f2d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugBoundBreakpoint2::GetState
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the state of this bound breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT GetState( 
-    BP_STATE* pState
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetState( 
     out enum_BP_STATE pState
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetState( 
+    BP_STATE* pState
+);
+```
+---
 
 ## Parameters
 `pState`\

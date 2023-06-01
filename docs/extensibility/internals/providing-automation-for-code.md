@@ -1,20 +1,21 @@
 ---
 title: Providing Automation for Code | Microsoft Docs
 description: Learn about implementing a code model, which requires implementing interfaces that are determined by your internal data structure.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - CodeModel object
 ms.assetid: 21cb3e63-f25c-404b-bc1d-a32ad0fdd4d5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Providing Automation for Code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creating an automation model for your code is not required. The Environment SDK does not provide a sample for doing so. For insight into code models, see the <xref:EnvDTE.CodeModel> object.
 
  To implement a code model, you must implement any interfaces that are determined by your internal data structure. The objects must be derived from the `IDispatch` class.

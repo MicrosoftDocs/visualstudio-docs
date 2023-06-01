@@ -1,7 +1,6 @@
 ---
 title: "Cache data"
 description: Learn how you can cache data objects in a document-level customization so that the data can be accessed offline or without opening Microsoft Office Word or Excel.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -19,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Cache data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can cache data objects in a document-level customization so that the data can be accessed offline, or without opening Microsoft Office Word or Microsoft Office Excel. To cache an object, the object must have a data type that meets certain requirements. Many common data types in the .NET Framework meet these requirements, including <xref:System.String>, <xref:System.Data.DataSet>, and <xref:System.Data.DataTable>.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]

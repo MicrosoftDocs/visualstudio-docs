@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugBreakpointChecksumRequest2::GetChecksum
 ms.assetid: ec434882-e5c0-4d76-a58b-22c260d8626e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -17,23 +17,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugBreakpointChecksumRequest2::GetChecksum
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the document checksum for a breakpoint request given the unique identifier of the checksum algorithm to use.
 
 ## Syntax
 
-```cpp
-HRESULT GetChecksum(
-    REFGUID        guidAlgorithm,
-    CHECKSUM_DATA *pChecksumData
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int GetChecksum(
     ref Guid               guidAlgorithm,
     out enum_CHECKSUM_DATA pChecksumData
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetChecksum(
+    REFGUID        guidAlgorithm,
+    CHECKSUM_DATA *pChecksumData
+);
+```
+---
 
 ## Parameters
 `guidAlgorithm`\

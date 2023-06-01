@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - MODULE_INFO structure
 ms.assetid: f2e06180-1ab3-4eb5-a428-7994cceb61b6
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,27 +19,13 @@ dev_langs:
 - CSharp
 ---
 # MODULE_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes a particular module (DLL, EXE, or assembly).
 
 ## Syntax
 
-```cpp
-typedef struct tagMODULE_INFO { 
-   MODULE_INFO_FIELDS dwValidFields;
-   BSTR               m_bstrName;
-   BSTR               m_bstrUrl;
-   BSTR               m_bstrVersion;
-   BSTR               m_bstrDebugMessage;
-   UINT64             m_addrLoadAddress;
-   UINT64             m_addrPreferredLoadAddress;
-   DWORD              m_dwSize;
-   DWORD              m_dwLoadOrder;
-   FILETIME           m_TimeStamp;
-   BSTR               m_bstrUrlSymbolLocation;
-   MODULE_FLAGS       m_dwModuleFlags;
-} MODULE_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct MODULE_INFO { 
    public uint     dwValidFields;
@@ -56,6 +42,24 @@ public struct MODULE_INFO { 
    public uint     m_dwModuleFlags;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagMODULE_INFO { 
+   MODULE_INFO_FIELDS dwValidFields;
+   BSTR               m_bstrName;
+   BSTR               m_bstrUrl;
+   BSTR               m_bstrVersion;
+   BSTR               m_bstrDebugMessage;
+   UINT64             m_addrLoadAddress;
+   UINT64             m_addrPreferredLoadAddress;
+   DWORD              m_dwSize;
+   DWORD              m_dwLoadOrder;
+   FILETIME           m_TimeStamp;
+   BSTR               m_bstrUrlSymbolLocation;
+   MODULE_FLAGS       m_dwModuleFlags;
+} MODULE_INFO;
+```
+---
 
 ## Members
  `dwValidFields`\

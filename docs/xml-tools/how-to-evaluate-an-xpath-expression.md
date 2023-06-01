@@ -2,17 +2,18 @@
 title: Evaluate an XPath expression while debugging
 ms.date: 03/05/2019
 description: Learn how to evaluate XPath expressions by using the QuickWatch window during debugging.
-ms.custom: SEO-VS-2020
 ms.topic: how-to
 ms.assetid: 159ba4ef-75e4-4ac8-80dc-e064e0bec345
-author: TerryGLee
-ms.author: tglee
+author: dzsquared
+ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
 ms.workload:
 - multiple
 ---
 # Evaluate XPath expressions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can evaluate XPath expressions by using the **QuickWatch** window during debugging. The XPath expression must be valid according to the W3C XPath 1.0 recommendation. The current XSLT context (that is, the `self::node()` node in the **Locals** window) provides the evaluation context for the XPath expression.
 

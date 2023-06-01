@@ -1,19 +1,20 @@
 ---
 title: Team Explorer reference
 description: Learn about the various functions in Team Explorer to manage work and coordinate with other team members to develop a project.
-ms.custom: SEO-VS-2020
-ms.date: 12/04/2018
+ms.date: 11/02/2022
 ms.topic: reference
-ms.author: kaelli
-author: KathrynEE
+ms.author: tglee
+author: TerryGLee
 ms.manager: jmartens
 monikerRange: "<=vs-2019"
 ---
 # Team Explorer reference
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This article provides links to Azure DevOps articles about the various functions in **Team Explorer**.
 
-Use the **Team Explorer** tool window to coordinate your code efforts with other team members to develop a project, and to manage work that's assigned to you, your team, or your projects. **Team Explorer** connects Visual Studio to Git and GitHub repositories, Team Foundation version control (TFVC) repositories, and projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops-services) or an on-premises [Azure DevOps Server](/azure/devops/index-all) (formerly known as TFS). You can manage source code, work items, and builds.
+Use the **Team Explorer** tool window to coordinate your code efforts with other team members to develop a project, and to manage work that's assigned to you, your team, or your projects. **Team Explorer** connects Visual Studio to Git and GitHub repositories, Team Foundation version control (TFVC) repositories, and projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops-services) or an on-premises [Azure DevOps Server](/azure/devops/index-all) (formerly known as Team Foundation Server, or TFS). You can manage source code, work items, and builds.
 
 > [!IMPORTANT]
 > Starting with the release of Visual Studio 2019 [**version 16.8**](/visualstudio/releases/2019/release-notes-history), the Git version control experience is the default. If you'd like to learn more about how it compares with Team Explorer, see the [**Side-by-side comparison of Git and Team Explorer**](../../version-control/git-team-explorer-feature-comparison.md) page.
@@ -83,7 +84,7 @@ The **Work Items** page lets you see [work item](/azure/devops/boards/work-items
 ::: moniker range=">= vs-2019"
 
 > [!NOTE]
-> There's a new [Work Items experience](/azure/devops/boards/work-items/set-work-item-experience-vs) in Visual Studio 2019. For information about viewing work items in Visual Studio 2019, see [View and add work items](/azure/devops/boards/work-items/view-add-work-items).
+> Starting with Visual Studio 2019 and continuing with later versions, there's a new [Work Items experience](/azure/devops/boards/work-items/set-work-item-experience-vs). For information, see [View and add work items](/azure/devops/boards/work-items/view-add-work-items).
 
 ::: moniker-end
 
@@ -105,7 +106,7 @@ The **Settings** page lets you configure administrative features for either a pr
 
 | Project | Project Collection | Other |
 | - | - | - |
-| [Security, Group Membership](/azure/devops/organizations/security/set-project-collection-level-permissions)<br/>[Security, Source Control (TFVC)](/azure/devops/organizations/security/set-git-tfvc-repository-permissions)<br/>[Work Item Areas](/azure/devops/organizations/settings/set-area-paths)<br/>[Work Item Iterations](/azure/devops/organizations/settings/set-iteration-paths-sprints)<br/>[Portal Settings](/azure/devops/report/sharepoint-dashboards/configure-or-add-a-project-portal)<br/>[Project Alerts](/azure/devops/notifications/howto-manage-team-notifications) | [Security, Group Membership](/azure/devops/organizations/security/set-project-collection-level-permissions)<br/>[Source Control (TFVC)](/azure/devops/repos/tfvc/decide-between-using-local-server-workspace)<br/>[Process Template Manager](/azure/devops/boards/work-items/guidance/manage-process-templates) | [Git Global Settings](/azure/devops/repos/git/git-config)<br/>[Git Repository Settings](/azure/devops/repos/git/git-config) |
+| [Security, Group Membership](/azure/devops/organizations/security/set-project-collection-level-permissions)<br/>[Security, Source Control (TFVC)](/azure/devops/organizations/security/set-git-tfvc-repository-permissions)<br/>[Work Item Areas](/azure/devops/organizations/settings/set-area-paths)<br/>[Work Item Iterations](/azure/devops/organizations/settings/set-iteration-paths-sprints)<br/>[Portal Settings](/azure/devops/report/sharepoint-dashboards/configure-or-add-a-project-portal)<br/>[Project Alerts](/azure/devops/organizations/notifications/manage-team-group-global-organization-notifications) | [Security, Group Membership](/azure/devops/organizations/security/set-project-collection-level-permissions)<br/>[Source Control (TFVC)](/azure/devops/repos/tfvc/decide-between-using-local-server-workspace)<br/>[Process Template Manager](/azure/devops/boards/work-items/guidance/manage-process-templates) | [Git Global Settings](/azure/devops/repos/git/git-config)<br/>[Git Repository Settings](/azure/devops/repos/git/git-config) |
 
 ## See also
 

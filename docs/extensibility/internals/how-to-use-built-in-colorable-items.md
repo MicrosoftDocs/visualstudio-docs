@@ -1,21 +1,22 @@
 ---
 title: 'How to: Use Built-In Colorable Items | Microsoft Docs'
 description: Learn how to use the built-in colorable items in the Visual Studio integrated development environment (IDE) for your language service.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - colorable items
 - language services, built-in colorable items
 ms.assetid: 5e5f3436-6bad-4fd2-8823-6a30353ba648
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # How to: Use built-in colorable items
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Before you use the built-in colorable items, you must first signal to the integrated development environment (IDE) that you are not providing your own custom colorable items, which in this case would be <xref:Microsoft.VisualStudio.TextManager.Interop.IVsProvideColorableItems> objects. You do this by setting a registry entry for the language service.
 
 ## To use built-in colorable items

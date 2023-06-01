@@ -1,7 +1,6 @@
 ---
 title: Dynamic symbolic execution | Microsoft IntelliTest Developer Test Tool
 description: Learn how IntelliTest generates inputs for parameterized unit tests by analyzing the branch conditions in the program. 
-ms.custom: SEO-VS-2020
 ms.date: 05/02/2017
 ms.topic: conceptual
 helpviewer_keywords:
@@ -14,6 +13,8 @@ ms.workload:
 author: mikejo5000
 ---
 # Input generation using dynamic symbolic execution
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 IntelliTest generates inputs for [parameterized unit tests](test-generation.md#parameterized-unit-testing) by analyzing the branch conditions in the program. Test inputs are chosen based on whether they can trigger new branching behaviors of the program. The analysis is an incremental process. It refines a predicate `q: I -> {true, false}` over the formal test input parameters `I`. `q` represents the set of behaviors that IntelliTest has already observed. Initially, `q := false`, since nothing has yet been observed.
 

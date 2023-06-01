@@ -1,7 +1,6 @@
 ---
 title: "Concurrency Visualizer | Microsoft Docs"
 description: Use the Concurrency Visualizer to see graphs that show the thread timing in your multi-threaded app, helping you solve performance issues.
-ms.custom: SEO-VS-2020
 ms.date: "07/11/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -21,9 +20,12 @@ ms.workload:
 ---
 # Concurrency Visualizer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 > [!NOTE]
 > The Concurrency Visualizer is an optional extension to Visual Studio. Download the Concurrency Visualizer and the Concurrency Visualizer Collection Tools from the following links:
 >
+> - Download the [Concurrency Visualizer for Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=Diagnostics.DiagnosticsConcurrencyVisualizer2022#overview) extension.
 > - Download the [Concurrency Visualizer for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=Diagnostics.DiagnosticsConcurrencyVisualizer2019#overview) extension.
 > - Download the [Concurrency Visualizer for Visual Studio 2017](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ConcurrencyVisualizer2017#overview) extension.
 > - Download the [Concurrency Visualizer for Visual Studio 2015](https://marketplace.visualstudio.com/items?itemName=Diagnostics.ConcurrencyVisualizerforVisualStudio2015) extension.

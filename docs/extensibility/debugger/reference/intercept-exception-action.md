@@ -1,7 +1,6 @@
 ---
 title: INTERCEPT_EXCEPTION_ACTION | Microsoft Docs
 description: The INTERCEPT_EXCEPTION_ACTION enumeration specifies what action to take when intercepting exceptions in Visual Studio debugging.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -9,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - INTERCEPT_EXCEPTION_ACTION enumeration
 ms.assetid: e647f1eb-2932-4447-8c78-3b0d706fb972
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,10 +19,20 @@ dev_langs:
 - CSharp
 ---
 # INTERCEPT_EXCEPTION_ACTION
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies what actions to take when intercepting exceptions.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_INTERCEPT_EXCEPTION_ACTION
+{
+    IEA_INTERCEPT = 0x0001
+}
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_INTERCEPT_EXCEPTION_ACTION
 {
@@ -31,13 +40,7 @@ enum enum_INTERCEPT_EXCEPTION_ACTION
 }
 typedef DWORD INTERCEPT_EXCEPTION_ACTION;
 ```
-
-```csharp
-public enum enum_INTERCEPT_EXCEPTION_ACTION
-{
-    IEA_INTERCEPT = 0x0001
-}
-```
+---
 
 ## Parameters
 

@@ -1,7 +1,6 @@
 ---
 title: Advanced Settings for Services Dialog Box
 description: Learn how to use the Advanced Settings for Services features to configure advanced settings for client application services.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -17,6 +16,8 @@ ms.workload:
 - multiple
 ---
 # Advanced Settings for Services Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Client application services provide simplified access to [!INCLUDE[ajax_current_short](../../ide/reference/includes/ajax_current_short_md.md)] login, roles, and profile services from Windows Forms and Windows Presentation Foundation (WPF) applications. You can use the **Services** page in the **Project Designer** to configure client application services. For more information about the **Services** page, see [Services Page, Project Designer](../../ide/reference/services-page-project-designer.md).
 
 Use the **Advanced Settings for Services** dialog box of the **Services** page in the **Project Designer** to configure advanced settings for client application services. By using these settings, you can override some default application service behaviors to enable less common scenarios. For more information, see [Client Application Services](/dotnet/framework/common-client-technologies/client-application-services).
@@ -25,7 +26,7 @@ To access the **Advanced Settings for Services** dialog box, select a project no
 
 ## Task List
 
-- [How to: Configure Client Application Services](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services)
+- [How to: Configure Client Application Services](/previous-versions/visualstudio/visual-studio-2010/bb384312\(v=vs.100\))
 
 ## UIElement List
 
@@ -41,10 +42,10 @@ Specifies the amount of time the client role provider will use cached role value
 The role provider accesses the cached role values or the roles service when you call the <xref:System.Web.Security.RolePrincipal.IsInRole%2A> method. To programmatically clear the cache and force this method to access the remote service, call the <xref:System.Web.ClientServices.Providers.ClientRoleProvider.ResetCache%2A> method.
 
  **Use custom connection string**
-Specifies whether the client service providers will use a custom data store for the local cache. By default, the service providers will use the local file system for the cache. Selecting this option will automatically populate the text box with a default connection string. You can keep the default connection string to automatically generate and use a SQL Server Compact Edition database, or you can specify a connection string to an existing SQL Server database. For more information, see [How to: Configure Client Application Services](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services). This option is cleared by default.
+Specifies whether the client service providers will use a custom data store for the local cache. By default, the service providers will use the local file system for the cache. Selecting this option will automatically populate the text box with a default connection string. You can keep the default connection string to automatically generate and use a SQL Server Compact Edition database, or you can specify a connection string to an existing SQL Server database. For more information, see [How to: Configure Client Application Services](/previous-versions/visualstudio/visual-studio-2010/bb384312\(v=vs.100\)). This option is cleared by default.
 
 ## See also
 
 - [Client Application Services](/dotnet/framework/common-client-technologies/client-application-services)
 - [Services Page, Project Designer](../../ide/reference/services-page-project-designer.md)
-- [How to: Configure Client Application Services](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services)
+- [How to: Configure Client Application Services](/previous-versions/visualstudio/visual-studio-2010/bb384312\(v=vs.100\))

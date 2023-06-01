@@ -1,7 +1,6 @@
 ---
 title: U-SQL editor formatting options
 description: Learn how to use the Formatting options page and its subpages to set options for formatting code in the code editor when you are programming in U-SQL.
-ms.custom: SEO-VS-2020
 ms.date: 01/17/2019
 ms.topic: reference
 f1_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # Options, Text Editor, U-SQL, Formatting
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Formatting** options page to set options for formatting code in the code editor. To access this options page, choose **Tools** > **Options**. In the **Options** dialog box, choose **Text Editor** > **U-SQL** > **Formatting**.
 

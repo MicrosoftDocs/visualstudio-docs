@@ -1,7 +1,6 @@
 ---
 title: "Merging XML in Feature and Package Manifests | Microsoft Docs"
 description: Merge designer-generated and user-added XML code in SharePoint feature and package manifests. Learn feature and package manifest elements, and merge exceptions.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -17,6 +16,8 @@ ms.workload:
   - "office"
 ---
 # Merge XML in feature and package manifests
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Features and packages are defined by [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] manifest files. These packaged manifests are a combination of data generated from designers and custom [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] entered in the manifest template by users. At packaging time, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] merges the custom [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] statements with the designer-provided [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] to form the packaged [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] manifest file. Similar elements, with the exceptions noted later in Merge Exceptions, are merged to avoid [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] validation errors after you deploy the files to SharePoint, and to make the manifest files smaller and more efficient.
 
 ## Modify the manifests

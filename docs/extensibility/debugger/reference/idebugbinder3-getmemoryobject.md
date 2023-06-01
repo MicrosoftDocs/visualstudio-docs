@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBinder3::GetMemoryObject method
 ms.assetid: 71d959c7-45df-485f-b0ee-f1c0439d54fb
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugBinder3::GetMemoryObject
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method retrieves a memory object that represents the memory that this object is bound to.
 
 ## Syntax
 
-```cpp
-HRESULT GetMemoryObject(
-   IDebugField*   pField,
-   UINT64         uConstant,
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMemoryObject(
    IDebugField      pField,
@@ -38,6 +33,15 @@ int GetMemoryObject(
    out IDebugObject ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMemoryObject(
+   IDebugField*   pField,
+   UINT64         uConstant,
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `pField`\

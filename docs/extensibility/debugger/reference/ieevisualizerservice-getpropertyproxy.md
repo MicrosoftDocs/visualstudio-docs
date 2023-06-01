@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IEEVisualizerService::GetPropertyProxy method
 ms.assetid: 748750f4-76e7-4580-9da2-afba07681b37
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IEEVisualizerService::GetPropertyProxy
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns a proxy for a property object.
 
 ## Syntax
 
-```cpp
-HRESULT GetPropertyProxy(
-   DWORD                  dwID,
-   IPropertyProxyEESide** proxy
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPropertyProxy(
    uint                     dwID,
    out IPropertyProxyEESide proxy
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPropertyProxy(
+   DWORD                  dwID,
+   IPropertyProxyEESide** proxy
+);
+```
+---
 
 ## Parameters
 `dwID`\

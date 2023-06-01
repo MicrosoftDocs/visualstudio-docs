@@ -1,7 +1,6 @@
 ---
 title: Support for the Visual Studio SDK | Microsoft Docs
 description: Learn about the support options that are available for customers about how to extend the Visual Studio IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,14 +10,16 @@ helpviewer_keywords:
 - newsgroups, Visual Studio SDK support
 - Web sites, Visual Studio SDK support
 ms.assetid: d9011f5a-cb53-418f-9d8f-74b15b9fc5f5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Support for the Visual Studio SDK
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Several support options are available for customers who have questions about how to extend the Visual Studio integrated development environment (IDE).
 
 ## Free Support
@@ -27,7 +28,7 @@ Several support options are available for customers who have questions about how
  Members of the Visual Studio development team and other developers who extend Visual Studio often participate in the microsoft.public.vstudio.extensibility newsgroup. This newsgroup is a managed newsgroup. If you are an MSDN Universal Subscriber, make sure that you register a no-spam alias to make it possible for Microsoft to respond.
 
 ### MSDN Forums
- The [MSDN Forums](https://social.msdn.microsoft.com/Forums/en-US/home) provide another way to chat with peers and experts. The graphical user interface (UI) of the forums is designed to make them easier to use than newsgroups. The [Visual Studio Extensibility Forum](/azure/devops/integrate/index?view=azure-devops&viewFallbackFrom=vsts&preserve-view=true) is a good place to start to search for answers to extensibility questions. Always search before you ask a question because someone else may already have asked the same question.
+ The [MSDN Forums](https://social.msdn.microsoft.com/Forums/home) provide another way to chat with peers and experts. The graphical user interface (UI) of the forums is designed to make them easier to use than newsgroups. [Visual Studio community support - Extensions](/answers/topics/vs-extensions.html) is a good place to start to search for answers to extensibility questions. Always search before you ask a question because someone else may already have asked the same question.
 
 ### Visual Studio Gallery
  The [Visual Studio Marketplace](https://marketplace.visualstudio.com/) is the place for extensions and sample code. You can find tools that improve your productivity and user experience with Visual Studio, sample applications that show how to use VSPackages and the Managed Extensibility Framework (MEF), and other kinds of samples.

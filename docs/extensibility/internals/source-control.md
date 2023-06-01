@@ -1,20 +1,21 @@
 ---
 title: Source Control | Microsoft Docs
 description: These articles discuss options for implementing source control as an integrated feature of Visual Studio, either through a plug-in or a VSPackage.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK]
 ms.assetid: 13d5728c-4e28-42e4-944a-a565b1765ef8
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Source Control
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section discusses the options for implementing source control as an integrated feature of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], either through a source control plug-in or a source control VSPackage.
 
 ## In This Section

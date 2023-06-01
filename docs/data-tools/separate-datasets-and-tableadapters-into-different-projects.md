@@ -3,7 +3,6 @@ title: Use separate projects error
 description: Learn how to separate datasets and TableAdapters into different projects, so you can quickly separate application layers and generate N-tier data applications.
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.custom: SEO-VS-2020
 helpviewer_keywords:
 - TableAdapters, n-tier applications
 - n-tier applications, separating Datasets and TableAdapters
@@ -16,6 +15,11 @@ ms.workload:
 - data-storage
 ---
 # Separate datasets and TableAdapters into different projects
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
+
 Typed datasets have been enhanced so that the [TableAdapters](create-and-configure-tableadapters.md) and dataset classes can be generated into separate projects. This enables you to quickly separate application layers and generate n-tier data applications.
 
 The following procedure describes the process of using the **Dataset Designer** to generate dataset code into a project that is separate from the project that contains the generated TableAdapter code.

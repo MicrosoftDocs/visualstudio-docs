@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugObject2::CreateAlias method
 ms.assetid: 54a05920-5d13-4f67-962b-d1a7f013dff9
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject2::CreateAlias
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a unique ID or alias for this object or returns an existing alias.
 
 ## Syntax
 
-```cpp
-HRESULT CreateAlias(
-   IDebugAlias** ppAlias
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateAlias(
    out IDebugAlias ppAlias
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateAlias(
+   IDebugAlias** ppAlias
+);
+```
+---
 
 ## Parameters
 `ppAlias`\

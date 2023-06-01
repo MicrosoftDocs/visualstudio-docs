@@ -1,8 +1,7 @@
 ---
 title: Create an MSBuild project file from scratch
 description: Walk through creating an MSBuild project file from scratch to understand how the XML is organized and how you can change it to control a build.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 09/12/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, tutorial
@@ -17,6 +16,9 @@ ms.workload:
 # Walkthrough: Create an MSBuild project file from scratch
 
 Programming languages that target the .NET Framework use MSBuild project files to describe and control the application build process. When you use Visual Studio to create an MSBuild project file, the appropriate XML is added to the file automatically. However, you may find it helpful to understand how the XML is organized and how you can change it to control a build.
+
+> [!NOTE]
+> This article is appropriate if you want to learn the basic fundamentals of how MSBuild works independently of any SDK. Building with an SDK, such as when you use `dotnet build` or you add the `Sdk` attribute to the root project element, is not covered in this article. See [.NET Project SDKs](/dotnet/core/project-sdk/overview).
 
  For information about creating a project file for a C++ project, see [MSBuild (C++)](/cpp/build/msbuild-visual-cpp).
 
@@ -42,7 +44,7 @@ Programming languages that target the .NET Framework use MSBuild project files t
 
 This walkthrough shows how to build the project at the command prompt and examine the results. For more information about MSBuild and how to run MSBuild at the command prompt, see [Walkthrough: Use MSBuild](../msbuild/walkthrough-using-msbuild.md).
 
-To complete the walkthrough, you must have Visual Studio installed because it includes MSBuild and the Visual C# compiler, which are required for the walkthrough.
+To complete the walkthrough, you must have Visual Studio installed because it includes MSBuild and the C# compiler, which are required for the walkthrough.
 
 ## Extend the path
 
@@ -54,11 +56,9 @@ Before you can use MSBuild, you must extend the PATH environment variable to inc
 
 1. At the command prompt, browse to the folder where you want to create the application, for example, *\My Documents\\* or *\Desktop\\*.
 
-2. Type **md HelloWorld** to create a subfolder named *\HelloWorld\\*.
+1. Create a subfolder named *\HelloWorld\\* and change directory to go inside it.
 
-3. Type **cd HelloWorld** to change to the new folder.
-
-4. Start Notepad or another text editor, and then type the following code.
+1. In a text editor, create a new file *HelloWorld.cs* and then copy and paste the following code:
 
     ```csharp
     using System;
@@ -76,15 +76,13 @@ Before you can use MSBuild, you must extend the PATH environment variable to inc
     }
     ```
 
-5. Save this source code file and name it *Helloworld.cs*.
+1. Build the application by typing **csc helloworld.cs** at the command prompt.
 
-6. Build the application by typing **csc helloworld.cs** at the command prompt.
-
-7. Test the application by typing **helloworld** at the command prompt.
+1. Test the application by typing **helloworld** at the command prompt.
 
      The **Hello, world!** message should be displayed.
 
-8. Delete the application by typing **del helloworld.exe** at the command prompt.
+1. Delete the executable.
 
 ## Create a minimal MSBuild project file
 
@@ -98,56 +96,51 @@ Before you can use MSBuild, you must extend the PATH environment variable to inc
 
 - A `Target` node to contain tasks that are required to build the application.
 
-- A `Task` element to start the Visual C# compiler to build the application.
+- A `Task` element to start the C# compiler to build the application.
 
 ### To create a minimal MSBuild project file
 
-1. In the text editor, replace the existing text by using these two lines:
+1. In the text editor, create a new file *HelloWorld.csproj* and enter the following code:
 
     ```xml
-    <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Project>
+      <ItemGroup>
+        <Compile Include="helloworld.cs" />
+      </ItemGroup>
     </Project>
     ```
 
-2. Insert this `ItemGroup` node as a child element of the `Project` node:
+    This `ItemGroup` contains an item element `Compile` and specifies one source file as an item.
 
-    ```xml
-    <ItemGroup>
-      <Compile Include="helloworld.cs" />
-    </ItemGroup>
-    ```
-
-     Notice that this `ItemGroup` already contains an item element.
-
-3. Add a `Target` node as a child element of the `Project` node. Name the node `Build`.
+1. Add a `Target` node as a child element of the `Project` node. Name the node `Build`.
 
     ```xml
     <Target Name="Build">
     </Target>
     ```
 
-4. Insert this task element as a child element of the `Target` node:
+1. Insert this task element as a child element of the `Target` node:
 
     ```xml
     <Csc Sources="@(Compile)"/>
     ```
 
-5. Save this project file and name it *Helloworld.csproj*.
+1. Save this project file and name it *Helloworld.csproj*.
 
 Your minimal project file should resemble the following code:
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <ItemGroup>
-    <Compile Include="helloworld.cs" />
+    <Compile Include="helloworld.cs"/>
   </ItemGroup>
   <Target Name="Build">
-    <Csc Sources="@(Compile)"/>  
+    <Csc Sources="@(Compile)"/>
   </Target>
 </Project>
 ```
 
-Tasks in the Build target are executed sequentially. In this case, the Visual C# compiler `Csc` task is the only task. It expects a list of source files to compile, and this is given by the value of the `Compile` item. The `Compile` item references just one source file, *Helloworld.cs*.
+Tasks in the Build target are executed sequentially. In this case, the C# compiler `Csc` task is the only task. It expects a list of source files to compile, and this is given by the value of the `Compile` item. The `Compile` item references just one source file, *Helloworld.cs*.
 
 > [!NOTE]
 > In the item element, you can use the asterisk wildcard character (\*) to reference all files that have the *.cs* file name extension, as follows:
@@ -162,7 +155,7 @@ Tasks in the Build target are executed sequentially. In this case, the Visual C#
 
 1. At the command prompt, type **msbuild helloworld.csproj -t:Build**.
 
-     This builds the Build target of the Helloworld project file by invoking the Visual C# compiler to create the Helloworld application.
+     This builds the Build target of the Helloworld project file by invoking the C# compiler to create the Helloworld application.
 
 2. Test the application by typing **helloworld**.
 
@@ -183,9 +176,9 @@ Tasks in the Build target are executed sequentially. In this case, the Visual C#
 
 ### To add build properties
 
-1. Delete the existing application by typing **del helloworld.exe** at the command prompt.
+1. Delete the existing application executable (later, you'll add a `Clean` target to handle the deletion of old output files).
 
-2. In the project file, insert this `PropertyGroup` element just after the opening `Project` element:
+1. In the project file, insert this `PropertyGroup` element just after the opening `Project` element:
 
     ```xml
     <PropertyGroup>
@@ -194,28 +187,28 @@ Tasks in the Build target are executed sequentially. In this case, the Visual C#
     </PropertyGroup>
     ```
 
-3. Add this task to the Build target, just before the `Csc` task:
+1. Add this task to the Build target, just before the `Csc` task:
 
     ```xml
-    <MakeDir Directories="$(OutputPath)"      Condition="!Exists('$(OutputPath)')" />
+    <MakeDir Directories="$(OutputPath)" Condition="!Exists('$(OutputPath)')" />
     ```
 
-     The `MakeDir` task creates a folder that is named by the `OutputPath` property, provided that no folder by that name currently exists.
+    The `MakeDir` task creates a folder that is named by the `OutputPath` property, provided that no folder by that name currently exists.
 
-4. Add this `OutputAssembly` attribute to the `Csc` task:
+1. Add this `OutputAssembly` attribute to the `Csc` task:
 
     ```xml
     <Csc Sources="@(Compile)" OutputAssembly="$(OutputPath)$(AssemblyName).exe" />
     ```
 
-     This instructs the Visual C# compiler to produce an assembly that is named by the `AssemblyName` property and to put it in the folder that is named by the `OutputPath` property.
+     This instructs the C# compiler to produce an assembly that is named by the `AssemblyName` property and to put it in the folder that is named by the `OutputPath` property.
 
-5. Save your changes.
+1. Save your changes.
 
 Your project file should now resemble the following code:
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <PropertyGroup>
     <AssemblyName>MSBuildSample</AssemblyName>
     <OutputPath>Bin\</OutputPath>
@@ -249,13 +242,13 @@ Your project file should now resemble the following code:
 
 1. At the command prompt, type **msbuild helloworld.csproj -t:Build**.
 
-     This creates the *\Bin\\* folder and then invokes the Visual C# compiler to create the *MSBuildSample* application and puts it in the *\Bin\\* folder.
+     This creates the *\Bin\\* folder and then invokes the C# compiler to create the *MSBuildSample* application and puts it in the *\Bin\\* folder.
 
 2. To verify that the *\Bin\\* folder has been created, and that it contains the *MSBuildSample* application, type **dir Bin**.
 
-3. Test the application by typing **Bin\MSBuildSample**.
+3. Test the application by typing **Bin\MSBuildSample** to run the executable.
 
-     The **Hello, world!** message should be displayed.
+    The **Hello, world!** message should be displayed.
 
 ## Add build targets
 
@@ -283,7 +276,7 @@ Now that you have multiple targets, you can set the Build target as the default 
 2. Add this `DefaultTargets` attribute to the opening `Project` element:
 
     ```xml
-    <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Project DefaultTargets="Build">
     ```
 
      This sets the Build target as the default target.
@@ -291,7 +284,7 @@ Now that you have multiple targets, you can set the Build target as the default 
 Your project file should now resemble the following code:
 
 ```xml
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build">
   <PropertyGroup>
     <AssemblyName>MSBuildSample</AssemblyName>
     <OutputPath>Bin\</OutputPath>
@@ -330,7 +323,7 @@ Your project file should now resemble the following code:
 
 2. To verify that the *\Bin\\* folder contains both the *MSBuildSample* application and the new *Greetings* application, type **dir Bin**.
 
-3. Test the Greetings application by typing **Bin\Greetings**.
+3. Test the Greetings application (for example, by typing **Bin\Greetings** on Windows).
 
      The **Hello, world!** message should be displayed.
 
@@ -377,15 +370,11 @@ Your project file should now resemble the following code:
 
      Remember that *helloworld.csproj* is the default project file, and that Build is the default target.
 
-     The **-v:d** switch specifies a verbose description for the build process.
+     The **-v:d** switch is an abbreviation of **-verbosity:detailed** that you used previously.
 
-     These lines should be displayed:
+    If you already built the output, these lines should be displayed:
 
      **Skipping target "Build" because all output files are up-to-date with respect to the input files.**
-
-     **Input files: HelloWorld.cs**
-
-     **Output files: BinMSBuildSample.exe**
 
      MSBuild skips the Build target because none of the source files have changed since the application was last built.
 
@@ -396,8 +385,7 @@ The following example shows a project file that compiles a C# application and lo
 ### Code
 
 ```xml
-<Project DefaultTargets = "Compile"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+<Project DefaultTargets = "Compile">
 
     <!-- Set the application name as a property -->
     <PropertyGroup>
@@ -406,11 +394,11 @@ The following example shows a project file that compiles a C# application and lo
 
     <!-- Specify the inputs by type and file name -->
     <ItemGroup>
-        <CSFile Include = "consolehwcs1.cs"/>
+        <CSFile Include = "*.cs"/>
     </ItemGroup>
 
-    <Target Name = "Compile">
-        <!-- Run the Visual C# compilation using input files of type CSFile -->
+    <Target Name="Compile">
+        <!-- Run the C# compilation using input files of type CSFile -->
         <CSC
             Sources = "@(CSFile)"
             OutputAssembly = "$(appname).exe">
@@ -433,8 +421,7 @@ The following example shows a project file that compiles a Visual Basic applicat
 ### Code
 
 ```xml
-<Project DefaultTargets = "Compile"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+<Project DefaultTargets = "Compile">
 
     <!-- Set the application name as a property -->
     <PropertyGroup>

@@ -1,7 +1,6 @@
 ---
 title: "Debugger Security | Microsoft Docs"
 description: Learn the security risks posed by debugging, risks both to the debugging machine and to the machine being debugged. Follow the recommendations to minimize risk. 
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -22,6 +21,8 @@ ms.workload:
   - "multiple"
 ---
 # Debugger Security
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The ability to debug another process gives you extremely broad powers that you would not otherwise have, especially when debugging remotely. A malicious debugger could inflict widespread damage on the machine being debugged.
 
  However, many developers do not realize that the security threat can also flow in the opposite direction. It is possible for malicious code in the debuggee process to jeopardize the security of the debugging machine: there are a number of security exploits that must be guarded against.

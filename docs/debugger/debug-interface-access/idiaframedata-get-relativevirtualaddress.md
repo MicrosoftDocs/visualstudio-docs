@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaFrameData::get_relativeVirtualAddress
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the relative virtual address (RVA) of the code for the frame.
 
 ## Syntax

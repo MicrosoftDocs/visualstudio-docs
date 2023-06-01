@@ -1,7 +1,6 @@
 ---
 title: Convert switch statement to switch expression
 description: Learn how to use the Quick Actions and Refactorings menu to convert a switch statement to a C# 8.0 switch expression.
-ms.custom: SEO-VS-2020
 ms.date: 06/19/2019
 ms.topic: reference
 author: mikadumont
@@ -14,6 +13,8 @@ ms.workload:
   - "dotnet"
 ---
 # Convert switch statement to switch expression
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 

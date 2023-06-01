@@ -1,159 +1,189 @@
 ---
-title: "Tutorial: Connect development machines with Bridge to Kubernetes"
-ms.technology: bridge
-ms.custom: "contperf-fy22q1"
-ms.date: 03/24/2021
-ms.topic: "tutorial"
-description: "Connect your development computer to a Kubernetes cluster with Bridge to Kubernetes with Visual Studio."
+title:  "Tutorial: Run and debug locally with Bridge to Kubernetes on Visual Studio"
+description: In this tutorial, learn to use Bridge to Kubernetes with Visual Studio to connect to a cluster and use local tunnel debugging to debug Kubernetes services.
 keywords: "Bridge to Kubernetes, Azure Dev Spaces, Dev Spaces, Docker, Kubernetes, Azure, containers"
 ms.author: ghogen
 author: ghogen
 manager: jmartens
+ms.technology: bridge
+ms.custom: "contperf-fy22q1"
+ms.topic: tutorial 
+ms.date: 08/11/2022
 ---
 
-# Use Bridge to Kubernetes (Visual Studio)
+# Tutorial: Run and debug locally with Bridge to Kubernetes on Visual Studio
 
-In this tutorial, you'll learn how to use Bridge to Kubernetes to redirect traffic between your Kubernetes cluster and code running on your development computer. 
+In this tutorial, you'll learn how to redirect traffic between your Kubernetes cluster and your development computer.
+This tutorial uses Bridge to Kubernetes and Visual Studio for debugging a service.
+To use Visual Studio Code, see [Run and debug locally with Bridge to Kubernetes with VS Code](bridge-to-kubernetes-vs-code.md).
 
-This guide also provides a script for deploying a large sample application with multiple microservices on a Kubernetes cluster.
+To learn more about Bridge to Kubernetes, see [How Bridge to Kubernetes works](overview-bridge-to-kubernetes.md).
 
-Learn more about Bridge to Kubernetes with the article, [How Bridge to Kubernetes works](overview-bridge-to-kubernetes.md).
+In this tutorial, you learn how to:
+
+> [!div class="checklist"]
+> - Connect to your cluster with Bridge to Kubernetes.
+> - Route requests to a locally running service for development purposes.
+> - Debug a running service on your local machine.
 
 ## Prerequisites
 
-- A Kubernetes cluster
-- [Visual Studio 2019][visual-studio] version 16.7 Preview 4 or greater running on Windows 10 or later.
-- [Bridge to Kubernetes extension installed][btk-extension]
+- A Kubernetes cluster. You can create one in the [Azure portal](https://azure.microsoft.com/free/).  If you don't have an Azure subscription, you can [create an account for free](https://azure.microsoft.com/free/).
+- The [kubectl](https://kubernetes.io/docs/reference/kubectl/kubectl/) executable installed on your system.
+- [Visual Studio 2019](https://www.visualstudio.com/vs/) version 16.7 or later running on Windows 10 or later or [Visual Studio 2022](https://www.visualstudio.com/vs/).
+- The [Bridge to Kubernetes extension for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro) or [Bridge to Kubernetes extension for Visual Studio 2022](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro2022).
+- An application to troubleshoot, such as this [TODO App sample application](https://github.com/Azure/Bridge-To-Kubernetes/tree/main/samples/todo-app).
 
-## About the data
+## Set up a service
 
-This tutorial uses Bridge to Kubernetes to develop a microservice version of a simple TODO sample application on any Kubernetes cluster. This [TODO App sample application][todo-app-github], using Visual Studio, has been adapted from code provided by [TodoMVC](http://todomvc.com). 
+This tutorial uses Bridge to Kubernetes to work with a simple todo sample application on any Kubernetes cluster.
 
- These steps should work with any Kubernetes cluster. So, if you already have your own application running on a Kubernetes cluster, you can still follow the steps below and use the names of your own services.
+The sample application has a frontend to interact and a backend that provides persistent storage.
 
-The TODO application sample is composed of a frontend and a backend that provides persistent storage. This extended sample adds a statistics component and breaks the application into a number of microservices, specifically:
+1. Open a Bash window and check that your cluster is available and ready.
+   Then set the context to that cluster.
 
-- The frontend calls the database-api to persist and update TODO items;
-- The database-api service relies on a Mongo database to persist TODO items;
-- The frontend writes add, complete, and delete events to a RabbitMQ queue;
-- A statistics worker receives events from the RabbitMQ queue and updates a Redis cache;
-- A statistics API exposes the cached statistics for the frontend to show.
+   ```bash
+   kubectl cluster-info
+   kubectl config use-context <kubernetes-cluster>
+   ```
 
-In all, this extended TODO application is composed of six interrelated components.
+1. Clone the sample repo.
 
+   ```bash
+   git clone https://github.com/Azure/Bridge-To-Kubernetes
+   ```
 
-## Check the cluster
+1. Change directory to *samples/todo-app* and then create a namespace for the sample.
 
-Open a command prompt, and check that the `kubectl` is installed and on the path, the cluster you want to use is available and ready, and set the context to that cluster.
+   ```cmd
+   kubectl create namespace todo-app
+   ```
 
-```cmd
-kubectl cluster-info
-kubectl config use-context {context-name}
-```
+1. Apply the deployment manifest:
 
-where {context-name} is the name of the context for the cluster you want to use for the todo-app sample.
+   ```cmd
+   kubectl apply -n todo-app -f deployment.yaml
+   ```
 
-## Deploy the application
+   This simple deployment exposes the frontend using a service of type `LoadBalancer`.
+   Wait for all the pods to be running and for the external IP of the `frontend` service to become available.
 
-Clone the [mindaro repo](https://github.com/Microsoft/mindaro) and open a command window with the current working folder to *samples/todo-app*.
+   If you're testing with MiniKube, use `minikube tunnel` to resolve an external IP.
+   If you're using AKS or another cloud-based Kubernetes provider, an external IP is assigned automatically.
 
-Create a namespace for the sample.
+1. Use the following command to monitor the `frontend` service to wait until it's up and running:
 
-```cmd
-kubectl create namespace todo-app
-```
+   ```output
+   kubectl get service -n todo-app frontend --watch
 
-Then, apply the deployment manifest:
+   NAME       TYPE           CLUSTER-IP    EXTERNAL-IP     PORT(S)        AGE
+   frontend   LoadBalancer   10.0.245.78   10.73.226.228   80:31910/TCP   6m26s
+   ```
 
-```cmd
-kubectl apply -n todo-app -f deployment.yaml
-```
+## Connect to your cluster
 
-This is a simple deployment that exposes the frontend using a service of type `LoadBalancer`. Wait for all the pods to be running and for the external IP of the `frontend` service to become available.
+1. Open Visual Studio. In the **Get started** window, select **Continue without code**.
 
-If you are testing with MiniKube, you will need to use `minikube tunnel` to resolve an external IP. If you're using AKS or another cloud-based Kubernetes provider, an external IP is assigned automatically. Use the following command to monitor the `frontend` service to wait until it's up and running:
+1. Select **Open** > **Project/Solution**, then find the *samples\todo-app\database-api\databaseApi.csproj* project and select **Open**.
 
-```output
-kubectl get service -n todo-app frontend --watch
+1. In the project, select **Bridge to Kubernetes** from the launch settings as shown here:
 
-NAME       TYPE           CLUSTER-IP    EXTERNAL-IP     PORT(S)        AGE
-frontend   LoadBalancer   10.0.245.78   20.73.226.228   80:31910/TCP   6m26s
-```
+   ![Screenshot shows debugging tools with Bridge to Kubernetes selected.](media/bridge-to-kubernetes-vs/select-debug-tool.png)
 
-Browse to the application using the external IP and local port (the first number in the PORT(S) column).
+1. Select the start button next to **Bridge to Kubernetes**.
+   In the **Create profile for Bridge to Kubernetes** dialog box, enter the following values:
 
-```
-http://{external-ip}:{local-port}
-```
+   - Select your cluster name.
+   - Select *todo-app* for your namespace.
+   - Select *database-api* for the **Service** to redirect.
+   - Select the same URL you used previously to launch your browser.
 
-Test the running app in the browser. As you add, complete and delete todo items, notice that the stats page updates with the expected metrics.
+   ![Screenshot shows the Create profile for Bridge to Kubernetes dialog box with the values entered.](media/bridge-to-kubernetes-vs/configure-bridge-debugging.png)
 
-## Connect to your cluster and debug a service
+1. If you want to run isolated, select **Enable routing isolation**.
+   If you enable routing isolation, others who are using the cluster aren't affected by your changes.
+   Isolation mode routes your requests to your copy of each affected service.
+   It routes other traffic normally.
+   For more information, see [How Bridge to Kubernetes Works](overview-bridge-to-kubernetes.md#using-routing-capabilities-for-developing-in-isolation).
 
-Open *samples\todo-app\database-api\database-api.csproj* in Visual Studio. In the project, select **Bridge to Kubernetes** from the launch settings dropdown as shown below.
+1. Select **Save and debug** to save your changes.
 
-![Choose Bridge to Kubernetes](media/bridge-to-kubernetes/choose-bridge-to-kubernetes.png)
+   ![Screenshot shows the todo service displayed from your debugging, with an entry box for tasks.](media/bridge-to-kubernetes-vs/todos-service.png)
 
-Click on the start button next to *Bridge to Kubernetes*. In the **Create profile for Bridge to Kubernetes** dialog:
+   > [!NOTE]
+   > EndpointManager prompts you to allow elevated privileges to your *hosts* file.
 
-- Select your cluster name.
-- Select *todo-app* for your namespace.
-- Select *database-api* for the service to redirect.
-- Select the same URL you used previously to launch your browser, http://{external-ip}:{local-port}
+   Your development computer connects to the cluster.
+   The status bar shows that you're connected to the `database-api` service.
 
-![Choose Bridge to Kubernetes Cluster](media/bridge-to-kubernetes/configure-bridge-debugging.png)
+   ![Screenshot shows the status bar that verifies that your development computer is connected.](media/bridge-to-kubernetes-vs/development-computer-connected.png)
 
-Choose whether or not you want to run isolated, meaning that others who are using the cluster won't be affected by your changes. This isolation mode is accomplished by routing your requests to your copy of each affected service, but routing all other traffic normally. More explanation on how this is done can be found at [How Bridge to Kubernetes Works][btk-overview-routing].
+1. Try entering tasks and marking them as complete.
 
-Click **OK**. All traffic in the Kubernetes cluster is redirected for the *database-api* service to the version of your application running in your development computer. Bridge to Kubernetes also routes all outbound traffic from the application back to your Kubernetes cluster.
+1. Select **Debug** > **Stop Debugging** to stop debugging.
+   A shortcut for this action is **Shift**+**F5** or use the **Stop Debugging** button in the toolbar.
 
-> [!NOTE]
-> You will be prompted to allow the *EndpointManager* to run elevated and modify your hosts file.
-
-Your development computer is connected when the status bar shows you are connected to the `database-api` service.
-
-![Development computer connected](media/bridge-to-kubernetes/development-computer-connected.png)
-
-> [!NOTE]
-> On subsequent launches, you will not be prompted with the **Create profile for Bridge to Kubernetes** dialog. You update these settings in the **Debug** in the project properties.
-
-Once your development computer is connected, traffic starts redirecting to your development computer for the service you are replacing.
-
-> [!NOTE]
-> To edit the debug profile later, for example, if you want to test with a different Kubernetes service, choose **Debug** > **Debug Properties**, and click the **Change** button.
-
-## Set a break point
-
-Open MongoHelper.cs and click somewhere on line 68 in the CreateTask method to put your cursor there. Set a breakpoint by hitting *F9* or selecting **Debug** > **Toggle Breakpoint**.
-
-Navigate to the sample application by opening the public URL (the external IP address for the frontend service). To resume the service, hit **F5** or click **Debug** > **Continue**.
-
-Remove the breakpoint by putting your cursor on the line with the breakpoint and hitting **F9**.
+Bridge to Kubernetes redirects all traffic for the *database-api* service.
+It redirects to the version of your application on your development computer.
+Bridge to Kubernetes also routes all outbound traffic from the application back to your Kubernetes cluster.
 
 > [!NOTE]
-> By default, stopping the debugging task also disconnects your development computer from your Kubernetes cluster. You can change this behavior by changing **Disconnect after debugging** to `false` in the **Kubernetes Debugging Tools** section of the **Tools** > **Options** dialog. After updating this setting, your development computer will remain connected when you stop and start debugging. To disconnect your development computer from you cluster click on the **Disconnect** button on the toolbar.
+> By default, stopping the debugging task also disconnects your development computer from your Kubernetes cluster.
+> To change this behavior, select **Tools** > **Options**, then select **Kubernetes Debugging Tools**.
+> Set **Disconnect After Debugging** to **False**.
 >
->![Screenshot of Kubernetes Debugging Options](media/bridge-to-kubernetes/kubernetes-debugging-options.png)
+>![Screenshot shows the Disconnect After Debugging value in the Kubernetes Debugging Tools.](media/bridge-to-kubernetes-vs/kubernetes-debugging-options.png)
+>
+> After updating this setting, your development computer remain connected when you stop and start debugging.
+> To disconnect your development computer from your cluster click on the **Disconnect** button on the toolbar.
 
-## Additional configuration
+## Set a breakpoint
 
-Bridge to Kubernetes can handle routing traffic and replicating environment variables without any additional configuration. If you need to download any files that are mounted to the container in your Kubernetes cluster, such as a ConfigMap file, you can create a `KubernetesLocalProcessConfig.yaml` to download those files to your development computer. For more information, see [Using KubernetesLocalProcessConfig.yaml for additional configuration with for Bridge to Kubernetes][kubernetesLocalProcessConfig-yaml].
+In this section, you set a breakpoint in your service.
 
-## Using logging and diagnostics
+1. In **Solution Explorer**, select **MongoHelper.cs** to open the file in the editor.
+   If you don't see Solution Explorer, select **View** > **Solution Explorer**.
 
-You can find the diagnostic logs in `Bridge to Kubernetes` directory in your development computer's *TEMP* directory.
+1. Set your cursor on the first line of the **CreateTask** method body.
+   Then select **Debug** > **Toggle Breakpoint** to set a breakpoint. 
+
+   ![Screenshot shows the CreateTask method with a breakpoint set in the first line.](media/bridge-to-kubernetes-vs/set-breakpoint.png)
+
+   A shortcut for this action is **F9**.
+
+1. Select the start button next to **Bridge to Kubernetes**, as you did in the previous section.
+   Debugging starts with the values you entered previously.
+
+1. In the browser that opens, enter a value into the **todos** and select **Enter**.
+   The code reaches the breakpoint you entered.
+   While doing real debugging tasks, you can use the debugging options to step through the code.
+
+1. Select **Debug** > **Stop Debugging** to stop debugging.
+
+1. To remove the breakpoint, select that line and then select **Debug** > **Toggle Breakpoint** or select **F9**.
+
+## Edit launch profile
+
+If you need to change how Bridge to Kubernetes connects to your cluster, in this section, you'll edit the launch profile settings.
+
+1. Click on the arrow next to the **Bridge to Kubernetes** button, then click on **databaseApi Debug Properties**.
+ ![Screenshot shows the Bridge to Kubernetes drop down menu.](media/bridge-to-kubernetes-vs/change-bridge-properties.png)
+
+1. Click on the **Edit profile for Bridge to Kubernetes** link in the **Launch Profiles** dialog.
+ ![Screenshot shows Launch Profiles dialog with a link to edit the Bridge to Kubernetes profile](media/bridge-to-kubernetes-vs/bridge-launch-profiles.png)
+
+## Clean up resources
+
+If you used the sample todo app for this tutorial, you can remove it from your cluster by using the Azure portal.
+If you cloned that repo locally, you can delete it manually.
 
 ## Next steps
 
-Learn how Bridge to Kubernetes works.
+Learn more about Bridge to Kubernetes at [How Bridge to Kubernetes works](overview-bridge-to-kubernetes.md).
 
+For information about supported features and a roadmap for Bridge to Kubernetes, see [Bridge to Kubernetes roadmap](https://github.com/microsoft/mindaro/projects/1).
+
+To learn how to connect your development computer to a cluster by using Visual Studio Code, check out this article:
 > [!div class="nextstepaction"]
-> [How Bridge to Kubernetes works](overview-bridge-to-kubernetes.md)
-
-[todo-app-github]: https://github.com/Microsoft/mindaro
-[supported-regions]: https://azure.microsoft.com/global-infrastructure/services/?products=kubernetes-service
-[troubleshooting]: /azure/dev-spaces/troubleshooting#fail-to-restore-original-configuration-of-deployment-on-cluster
-[visual-studio]: https://www.visualstudio.com/vs/
-[btk-extension]: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro
-[kubernetesLocalProcessConfig-yaml]: configure-bridge-to-kubernetes.md
-[btk-overview-routing]: overview-bridge-to-kubernetes.md#using-routing-capabilities-for-developing-in-isolation
+> [Use Bridge to Kubernetes (VS Code)](bridge-to-kubernetes-vs-code.md)

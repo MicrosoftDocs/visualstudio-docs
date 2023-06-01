@@ -1,20 +1,21 @@
 ---
 title: Designing XML Command Table (.Vsct) Files | Microsoft Docs
 description: Learn how to design an XML command table (.vsct) file that describes the layout and appearance of command items, including buttons, combo boxes, menus, and toolbars. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - VSCT files, designing
 ms.assetid: bb87a322-bac4-4258-92bc-9a876f05d653
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Design XML command table (.vsct) files
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 An XML command table (*.vsct*) file describes the layout and appearance of command items for a VSPackage. Command items include buttons, combo boxes, menus, toolbars, and groups of command items. This article describes XML command table files, how they affect command items and menus, and how to create them.
 
 ## Commands, menus, groups, and the .vsct file

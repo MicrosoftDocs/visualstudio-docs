@@ -1,7 +1,6 @@
 ---
 title: "Concurrency visualizer command-line utility"
 description: Use the command-line utility CVCollectionCmd.exe to collect traces that you can view in Concurrency Visualizer. You don't need to have Visual Studio installed.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -15,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # Concurrency Visualizer command-line utility (CVCollectionCmd)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can use the Concurrency Visualizer command-line utility (*CVCollectionCmd.exe*) to collect traces from the command line so that you can view them in the Concurrency Visualizer for Visual Studio. The tools can be used on computers that do not have Visual Studio installed.
 
 > [!NOTE]

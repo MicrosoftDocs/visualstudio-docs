@@ -3,8 +3,8 @@ title: How do I activate the software I just downloaded using product keys?
 description: Activation isn't always required for a product. In some cases, a single key can be used multiple times. In general, if a product key is...
 ms.topic: include
 ms.assetid: f4638a80-a11f-4662-954e-4dff118d8503
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 4/3/2020
 ms.faqid: q2_2
 ---
@@ -20,5 +20,5 @@ You can obtain product keys in two places:
 
 For more information about obtaining and using product keys, please see these articles:
 
-- [Product keys overview](https://docs.microsoft.com/visualstudio/subscriptions/product-keys)
-- [Find and claim keys](https://docs.microsoft.com/visualstudio/subscriptions/find-keys)
+- [Product keys overview](https://learn.microsoft.com/visualstudio/subscriptions/product-keys)
+- [Find and claim keys](https://learn.microsoft.com/visualstudio/subscriptions/find-keys)

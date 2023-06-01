@@ -1,7 +1,6 @@
 ---
 title: "How to: Add Commands to shortcut menus"
 description: Learn how you can add commands to a shortcut menu in an Office application by using a VSTO Add-in.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -18,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # How to: Add commands to shortcut menus
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This topic demonstrates how to add commands to a shortcut menu in an Office application by using a VSTO Add-in.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
@@ -34,8 +35,12 @@ ms.workload:
 
 4. Add the following code to the **ThisAddin** class. This code overrides the `CreateRibbonExtensibilityObject` method and returns the Ribbon XML class to the Office application.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_wordaddin_menus.cs/thisaddin.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddin_menus.vb/thisaddin.vb" id="Snippet1":::
+     ---
 
 5. In **Solution Explorer**, select the Ribbon XML file. By default, the Ribbon XML file is named *Ribbon1.xml*.
 
@@ -73,8 +78,12 @@ ms.workload:
 
      The following callback method handles the **My Button** button. This code adds a string to the active document at the current location of the curser.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddin_menus.vb/ribbon1.vb" id="Snippet2":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/trin_wordaddin_menus.cs/ribbon1.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/trin_wordaddin_menus.vb/ribbon1.vb" id="Snippet2":::
+     ---
 
 ## See also
 - [Office UI customization](../vsto/office-ui-customization.md)

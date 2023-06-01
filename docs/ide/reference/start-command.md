@@ -1,7 +1,6 @@
 ---
 title: Start Command
 description: Learn about the Start command and how it begins debugging the startup project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # Start Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Begins debugging the startup project.
 
 ## Syntax

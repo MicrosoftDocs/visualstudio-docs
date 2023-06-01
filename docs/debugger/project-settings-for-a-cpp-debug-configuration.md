@@ -2,7 +2,7 @@
 title: "Project settings for a C++ debug config"
 description: Configure C and C++ debugging in Property Pages. This article describes the settings and tells you their category.
 
-ms.date: "11/26/2018"
+ms.date: "08/19/2022"
 ms.topic: "reference"
 f1_keywords:
   - "VC.Project.VCDebugSettings.WebBrowser.DebuggerType"
@@ -56,7 +56,6 @@ f1_keywords:
   - "VC.Project.VCDebugSettings.RemoteMachine"
   - "VC.Project.IVCGPUDebugPageObject.AdditionalFilesToDeploy"
   - "VC.Project.VCDebugSettings.WorkingDirectory"
-  - "vs.debug.builds"
   - "VC.Project.VCDebugSettings.Attach"
   - "VC.Project.VCDebugSettings.HttpUrl"
   - "VC.Project.IVCClusterDebugPageObject.MPIAcceptMode"
@@ -116,6 +115,9 @@ ms.workload:
   - "cplusplus"
 ---
 # Project settings for a C++ debug configuration
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You can change the project settings for a C or C++ debug configuration in the **Property Pages** dialog box, as discussed in [How to: Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md). The following tables show where to find debugger-related settings in the **Property Pages** dialog box.
 
 > [!NOTE]
@@ -132,21 +134,21 @@ You can change the project settings for a C or C++ debug configuration in the **
 | **Debugger to launch** | Specifies the debugger to run, with the following choices:<br /><br /> -   **Local Windows Debugger**<br />-   **Remote Windows Debugger**<br />-   **Web Browser Debugger**<br />-   **Web Service Debugger** |
 | **Command** (Local Windows Debugger) | Specifies the command for starting the program that you are debugging on the local computer. |
 | **Remote Command** (Remote Windows Debugger) | The path for the .exe on the remote computer. Enter the path just as you would enter it on the remote machine. |
-| **Command Arguments** (Local Windows Debugger)<br /><br /> **Remote Command Arguments** (Remote Windows Debugger) | -   Specifies arguments for the command specified earlier.<br /><br /> You can use the following redirection operators in this box:<br /><br /> < `file`<br /> Reads stdin from file.<br /><br /> > `file`<br /> Writes stdout to file.<br /><br /> >> `file`<br /> Appends stdout to file.<br /><br /> 2> `file`<br /> Writes stderr to file.<br /><br /> 2>> `file`<br /> Appends stderr to file.<br /><br /> 2> &1<br /> Sends stderr (2) output to same location as stdout (1).<br /><br /> 1> &2<br /> Sends stdout (1) output to same location as stderr (2).<br /><br /> In most cases, these operators are applicable only to console applications. |
+| **Command Arguments** (Local Windows Debugger)<br /><br /> **Remote Command Arguments** (Remote Windows Debugger) | -   Specifies arguments for the command specified earlier.<br /><br /> You can use the following redirection operators in this box:<br /><br /> < `file`<br /> Reads stdin from file.<br /><br /> > `file`<br /> Writes stdout to file.<br /><br /> >> `file`<br /> Appends stdout to file.<br /><br /> 2> `file`<br /> Writes stderr to file.<br /><br /> 2>> `file`<br /> Appends stderr to file.<br /><br /> 2> &1<br /> Sends stderr (2) output to same location as stdout (1).<br /><br /> 1> &2<br /> Sends stdout (1) output to same location as stderr (2).<br /><br /> In most cases, these operators are applicable only to console applications. <br /><br />If you need to escape characters in the command, you can use ASCII values, such as %25 to replace %. If you use the **Start Debugging** command, double quotes will escape the preceding commands, such as "<" to replace <.|
 | **Working Directory** | Specifies the working directory of the program being debugged, relative to the project directory where your EXE is located. If you leave this blank, the working directory is the project directory. For remote debugging, the project directory is on the remote server. |
 | **Attach** (Local Windows Debugger and Remote Windows Debugger) | Specifies whether to start or attach to the application. Default setting is No. |
 | **Remote Server Name** (Remote Windows Debugger) | Specifies the name of a computer (other than yours) on which you want to debug an application.<br /><br /> The RemoteMachine Build macro is set to the value of this property; for more information, see [Macros for build commands and properties](/cpp/build/reference/common-macros-for-build-commands-and-properties). |
 | **Connection** (Remote Windows Debugger) | Allows you to switch between standard and no-authentication connection types for remote debugging. Specify a remote computer name in the **Remote Server Name** box. Connection types include the following:<br /><br /> -   **Remote with Windows Authentication**<br />-   **Remote with No Authentication**<br /><br /> **Note** Remote debugging with No Authentication may leave the remote computer vulnerable to security violations. Windows Authentication mode is more secure.<br /><br /> For more information, see [Remote debugging setup](../debugger/remote-debugging.md). |
 | **HTTP URL** (Web Service Debugger and Web Browser Debugger) | Specifies the URL where the project you are debugging is located. |
 | **Debugger Type** | Specifies the type of debugger to be used: **Native Only**, **Managed Only**, **GPU Only**, **Mixed**, **Auto** (default), or **Script**.<br /><br /> -   **Native Only** is for unmanaged C++ code.<br />-   **Managed Only** is for code that runs under the common language runtime (managed code).<br />-   **Mixed** invokes debuggers for both managed and unmanaged code.<br />-   **Auto** determines the debugger type based on compiler and EXE information.<br />-   **Script** invokes a debugger for scripts.<br />-   **GPU Only** is for C++ AMP code that runs on a GPU device or on the DirectX reference rasterizer. See [Debugging GPU code](../debugger/debugging-gpu-code.md). |
-| **Environment** (Local Windows Debugger and Remote Windows Debugger) | Specifies environment variables for the program that you are debugging. Use standard environment variable syntax (for example, `PATH="%SystemRoot%\..."`). These variables override the system environment or are merged with the system environment, depending on the **Merge Environment** setting. When you left-click in the settings column, an "Edit..." appears. Select that link to edit environment variables. |
+| **Environment** (Local Windows Debugger and Remote Windows Debugger) | Specifies environment variables for the program that you are debugging. Use standard environment variable syntax (for example, `PATH="%SystemRoot%\..."`). These variables override the system environment or are merged with the system environment, depending on the **Merge Environment** setting. When you click in the right column, an "Edit..." appears. Select that link to open the Property Editor and edit environment variables. To add multiple environment variables, use the [Property Editor](/cpp/build/working-with-project-properties#property_editor) and add one variable per line. |
 | **Merge Environment** (Local Windows Debugger) | Determines whether the variables that are specified in the **Environment** box will be merged with the environment that is defined by the operating system. Default setting is Yes. |
 | **SQL Debugging** (all but MPI Cluster Debugger) | Enables debugging of SQL procedures from your [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] application. Default setting is No. |
 | **Debugging Accelerator Type** (GPU debugging only) | Specifies the GPU device to use for debugging. Installing device drivers for compatible GPU devices will add additional options. The default setting is **GPU - Software Emulator**. |
 | **GPU Default Breakpoint Behavior** (GPU debugging only) | Specifies whether a breakpoint event should be raised for each thread in a SIMD warp. The default setting is to raise the breakpoint event only once per warp. |
 | **Amp Default Accelerator** | Specifies the default AMP accelerator when debugging GPU code. Choose **WARP software accelerator** to investigate if an issue is caused by the hardware or a driver instead of your code. |
 | **Deployment Directory** (Remote Windows Debugger) | Specifies the path on the remote computer where the project output will be copied prior to launch. The path can be a network share on the remote computer, or it can be a path to a folder on the remote computer. The default setting is empty, which means the project output is not copied to a network share. To enable deployment of the files, you must also select the **Deploy** check box in the Configuration Manager dialog box. For more information, see [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md). |
-| **Additional Files to Deploy** (Remote Windows Debugger) | If the Deployment Directory property is set, this is a semicolon-delimited list of additional files to copy to the deployment directory. The default setting is empty, which means that no additional files are copied to the deployment directory. To enable deployment of the files, you must also select the **Deploy** check box in the Configuration Manager dialog box. For more information, see [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md). |
+| **Additional Files to Deploy** (Remote Windows Debugger) | If the Deployment Directory property is set, this is a semicolon-delimited list of additional folders or files to copy to the deployment directory. The default setting is empty, which means that no additional folders or files are copied to the deployment directory. To copy the contents of a folder to the same folder in the Deployment Directory, specify a folder name. To enable deployment of the files, you must also select the **Deploy** check box in the Configuration Manager dialog box. For more information, see [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md). |
 | **Deploy Visual C++ Debug Runtime Libraries** (Remote Windows Debugger) | If the Deployment Directory property is set, this specifies whether the Visual C++ debug runtime libraries for the current platform should be copied to the network share. The default setting is Yes. |
 
 ## C/C++ folder (General category)

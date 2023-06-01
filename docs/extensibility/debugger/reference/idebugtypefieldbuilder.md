@@ -6,14 +6,16 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugTypeFieldBuilder interface
 ms.assetid: 2dfed0be-6972-4bec-baec-f0b78df9ef97
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # IDebugTypeFieldBuilder
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents the ability to create a field that represents a type.
 
 ## Syntax

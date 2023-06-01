@@ -1,19 +1,20 @@
 ---
 title: Roslyn analyzers and code-aware libraries for ImmutableArrays
 description: Learn how to build a real world Roslyn analyzer to catch common errors when using the System.Collections.Immutable NuGet package.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 0b0afa22-3fca-4d59-908e-352464c1d903
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Roslyn analyzers and code-aware library for ImmutableArrays
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The [.NET Compiler Platform](https://github.com/dotnet/roslyn) ("Roslyn") helps you build code-aware libraries. A code-aware library provides functionality you can use and tooling (Roslyn analyzers) to help you use the library in the best way or to avoid errors. This topic shows you how to build a real world Roslyn analyzer to catch common errors when using the [System.Collections.Immutable](https://www.nuget.org/packages/System.Collections.Immutable) NuGet package. The example also demonstrates how to provide a code fix for a code issue found by the analyzer. Users see code fixes in the Visual Studio light bulb UI and can apply a fix for the code automatically.
 
@@ -300,13 +301,11 @@ You can now press **F5** to execute your analyzer in a second instance of Visual
 
 ## Talk video and finish code project
 
-You can see this example developed and discussed further in [this talk](https://channel9.msdn.com/events/Build/2015/3-725). The talk demonstrates the working analyzer and walks you through building it.
-
 You can see all the finished code [here](https://github.com/DustinCampbell/CoreFxAnalyzers/tree/master/Source/CoreFxAnalyzers). The sub folders *DoNotUseImmutableArrayCollectionInitializer* and *DoNotUseImmutableArrayCtor* each have a C# file for finding issues and a C# file that implements the code fixes that show up in the Visual Studio light bulb UI. Note, the finished code has a little more abstraction to avoid fetching the ImmutableArray\<T> type object over and over. It uses nested registered actions to save the type object in a context that is available whenever the sub actions (analyze object creation and analyze collection initializations) execute.
 
 ## See also
 
-* [\\\Build 2015 talk](https://channel9.msdn.com/events/Build/2015/3-725)
+* \\\Build 2015 talk
 * [Completed code on GitHub](https://github.com/DustinCampbell/CoreFxAnalyzers/tree/master/Source/CoreFxAnalyzers)
 * [Several examples on GitHub, grouped into three kinds of analyzers](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Analyzer%20Samples.md)
 * [Other docs on the GitHub OSS site](https://github.com/dotnet/roslyn/tree/master/docs/analyzers)

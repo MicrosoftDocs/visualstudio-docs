@@ -1,7 +1,6 @@
 ---
 title: 'How to: Use Transactions to Update the Model'
 description: Learn that transactions make sure that changes that were made to the store are treated as a group and how to use transactions to update the model.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: mgoertz-msft
@@ -12,6 +11,8 @@ ms.workload:
 - multiple
 ---
 # How to: Use Transactions to Update the Model
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Transactions make sure that changes that were made to the store are treated as a group. Changes that are grouped can be committed or rolled back as a single unit.
 
  Whenever your program code modifies, adds, or deletes any element in the Store in Visual Studio Visualization and Modeling SDK, it must do so inside a transaction. There must be an active instance of <xref:Microsoft.VisualStudio.Modeling.Transaction> associated with the Store when the change happens. This applies to all model elements, relationships, shapes, diagrams, and their properties.

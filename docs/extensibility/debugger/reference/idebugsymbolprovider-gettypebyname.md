@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugSymbolProvider::GetTypeByName method
 ms.assetid: b9d88d3b-8b75-484a-b9cc-dc8c0fbb4bc8
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProvider::GetTypeByName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method maps a symbol name to a symbol type.
 
 ## Syntax
 
-```cpp
-HRESULT GetTypeByName( 
-   LPCOLESTR     pszClassName,
-   NAME_MATCH    nameMatch,
-   IDebugField** ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetTypeByName(
    string          pszClassName,
@@ -38,6 +33,15 @@ int GetTypeByName(
    out IDebugField ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetTypeByName( 
+   LPCOLESTR     pszClassName,
+   NAME_MATCH    nameMatch,
+   IDebugField** ppField
+);
+```
+---
 
 ## Parameters
 `pszClassName`\

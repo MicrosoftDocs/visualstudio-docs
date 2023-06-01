@@ -8,14 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - SccEnumChangedFiles function
 ms.assetid: 76cac510-107b-4c1a-ba60-9c39b6db2e71
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # SccEnumChangedFiles function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Given a list of local files, this function determines which files are different from the corresponding versions in the source code control database.
 
 ## Syntax

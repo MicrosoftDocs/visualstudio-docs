@@ -1,7 +1,6 @@
 ---
 title: -Clean (devenv.exe)
 description: Learn how to use the Clean devenv command-line switch to clean all intermediary files and output directories.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # /Clean (devenv.exe)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Cleans all intermediary files and output directories.
 

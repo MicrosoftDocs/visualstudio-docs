@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - PENDING_BP_STATE_FLAGS enumeration
 ms.assetid: 85522449-3fd8-4da5-b0fe-a43160e0c33b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,20 @@ dev_langs:
 - CSharp
 ---
 # PENDING_BP_STATE_FLAGS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the pending breakpoint state flags.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_PENDING_BP_STATE_FLAGS { 
+   PBPSF_NONE        = 0x0000,
+   PBPSF_VIRTUALIZED = 0x0001
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_PENDING_BP_STATE_FLAGS { 
    PBPSF_NONE        = 0x0000,
@@ -30,13 +40,7 @@ enum enum_PENDING_BP_STATE_FLAGS { 
 };
 typedef DWORD PENDING_BP_STATE_FLAGS;
 ```
-
-```csharp
-public enum enum_PENDING_BP_STATE_FLAGS { 
-   PBPSF_NONE        = 0x0000,
-   PBPSF_VIRTUALIZED = 0x0001
-};
-```
+---
 
 ## Fields
  `PBPSF_NONE`

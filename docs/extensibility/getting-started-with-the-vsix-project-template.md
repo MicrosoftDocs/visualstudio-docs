@@ -1,20 +1,22 @@
 ---
 title: Getting Started with the VSIX Project Template | Microsoft Docs
 description: Learn how to use the VSIX Project template to create an extension or to package an existing extension for deployment. 
-ms.custom: SEO-VS-2020
+ms.custom: UpdateFrequency3
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
 - Visual Studio SDK, VSIX project template
 ms.assetid: 89fac33e-9380-4723-9b45-048a6e16f0ed
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Get started with the VSIX Project template
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the VSIX Project template to create an extension or to package an existing extension for deployment. The VSIX Project template has both Visual Basic and Visual C# versions, and is installed as part of the Visual Studio SDK.
 
@@ -62,17 +64,7 @@ You can use the VSIX Project template to create an extension or to package an ex
 
 9. Close Visual Studio and then reopen it.
 
-::: moniker range="vs-2017"
-
-10. Select **Extensions and Updates** (on the **Tools** menu) and select the **Templates** category. One of the available extensions should be **My Project Template**.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 10. Select **Manage Extensions** (on the **Extensions** menu) and select the **Templates** category. One of the available extensions should be **My Project Template**.
-
-::: moniker-end
 
 11. The new project template appears in the **New Project** dialog in the same place as the original project template. For example, if you created a template named **VB Console** from a Visual Basic console application, **VB Console** appears in the same pane as the Visual Basic **Console Application** template.
 

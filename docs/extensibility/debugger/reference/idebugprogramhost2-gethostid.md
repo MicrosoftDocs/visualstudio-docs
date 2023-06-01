@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramHost2::GetHostId
 ms.assetid: 7702e221-feb1-446b-a224-cb46c420987e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramHost2::GetHostId
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the process identifier of the process hosting this program.
 
 ## Syntax
 
-```cpp
-HRESULT GetHostId( 
-   AD_PROCESS_ID* pdwId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetHostId( 
    AD_PROCESS_ID[] pdwId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetHostId( 
+   AD_PROCESS_ID* pdwId
+);
+```
+---
 
 ## Parameters
 `pdwId`\

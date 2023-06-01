@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBinder::Bind method
 ms.assetid: 15a11ad7-0fcc-4e80-ae34-8a7dd7bae3c3
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugBinder::Bind
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the memory context or object that contains the symbol's current value.
 
 ## Syntax
 
-```cpp
-HRESULT Bind( 
-   IDebugObject*  pContainer,
-   IDebugField*   pField,
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Bind(
    IDebugObject     pContainer,
@@ -38,6 +33,15 @@ int Bind(
    out IDebugObject ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Bind( 
+   IDebugObject*  pContainer,
+   IDebugField*   pField,
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `pContainer`\

@@ -1,7 +1,6 @@
 ---
 title: "Grant trust to documents"
 description: Learn how a document-level project has the same security requirements as application-level projects, like signing the manifests with a certificate or clicking the trust prompt.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -20,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Grant trust to documents
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   A document-level project has the same security requirements as application-level projects: signing the manifests with a certificate or clicking the trust prompt. In addition, the document or workbook must be located in a directory that is designated as a trusted location.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]

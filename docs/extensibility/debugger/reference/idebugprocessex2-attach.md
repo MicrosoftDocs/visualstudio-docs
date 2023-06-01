@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProcessEx2::Attach method
 ms.assetid: f3334ed7-39bf-4d02-a338-36f567b9b287
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcessEx2::Attach
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method informs the process that a session is now debugging the process.
 
 ## Syntax
 
-```cpp
-HRESULT Attach( 
-   IDebugSession2* pSession
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Attach(
    IDebugSession2 pSession
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Attach( 
+   IDebugSession2* pSession
+);
+```
+---
 
 ## Parameters
 `pSession`\

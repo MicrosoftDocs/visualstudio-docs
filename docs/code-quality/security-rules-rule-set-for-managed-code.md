@@ -2,7 +2,6 @@
 title: Security Rules rule set for managed code
 ms.date: 11/04/2016
 description: Learn about the Security Rules rule set for Visual Studio legacy code analysis. See descriptions of rules that focus on potential security issues.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 ms.assetid: 564aeac6-03fa-41b0-b655-88179f0ab01b
 author: mikejo5000
@@ -13,6 +12,8 @@ ms.workload:
 - dotnet
 ---
 # Security Rules rule set for managed code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the Microsoft Security Rules rule set for legacy code analysis to maximize the number of potential security issues that are reported.
 

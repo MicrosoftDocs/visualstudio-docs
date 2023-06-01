@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_undecoratedNameEx
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves part or all of an undecorated name for a C++ decorated (linkage) name.
 
 ## Syntax

@@ -1,7 +1,6 @@
 ---
 title: "Write code in Office solutions"
 description: Learn how to write code in Microsoft Office solutions and learn about the way the Office object models are exposed to managed code.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -38,6 +37,8 @@ ms.workload:
   - "office"
 ---
 # Write code in Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   There are some aspects of writing code in Office projects that are different from other types of projects in Visual Studio. Many of these differences are related to the way the Office object models are exposed to managed code. Other differences are related to the design of Office projects.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

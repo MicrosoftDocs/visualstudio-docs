@@ -1,7 +1,6 @@
 ---
 title: -NoSplash (devenv.exe)
 description: Learn how to use the NoSplash devenv command-line switch to prevent the splash screen from being shown.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -16,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # /NoSplash (devenv.exe)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Prevents the splash screen from being shown.
 

@@ -1,7 +1,6 @@
 ---
 title: "&lt;dependency&gt; Element (ClickOnce Application) | Microsoft Docs"
 description: The dependency element identifies a platform or assembly dependency that is required for the application.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -31,6 +30,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;dependency&gt; element (ClickOnce application)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Identifies a platform or assembly dependency that is required for the application.
 
 ## Syntax

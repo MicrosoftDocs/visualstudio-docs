@@ -1,7 +1,6 @@
 ---
 title: "Manage documents on a server by using the ServerDocument class"
 description: Learn how you can use the ServerDocument class in the Visual Studio Tools for Office runtime to manage several aspects of document-level customizations.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -20,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Manage documents on a server by using the ServerDocument class
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use the `ServerDocument` class in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] to manage several aspects of document-level customizations, even if Microsoft Office Word and Microsoft Office Excel are not installed. You can perform the following tasks:
 
 - Access and modify data in the data cache of a document or workbook. For more information, see [Work with cached data in the document](#CachedData).

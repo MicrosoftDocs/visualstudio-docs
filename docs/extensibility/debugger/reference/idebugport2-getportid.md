@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPort2::GetPortId
 ms.assetid: 837cb924-c113-4224-aa86-3e02b33dfa70
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPort2::GetPortId
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the port identifier.
 
 ## Syntax
 
-```cpp
-HRESULT GetPortId( 
-   GUID* pguidPort
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPortId( 
    out Guid pguidPort
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPortId( 
+   GUID* pguidPort
+);
+```
+---
 
 ## Parameters
 `pguidPort`\

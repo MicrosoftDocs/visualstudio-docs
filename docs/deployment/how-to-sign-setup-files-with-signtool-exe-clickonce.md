@@ -1,7 +1,6 @@
 ---
 title: Sign setup files with SignTool.exe (ClickOnce)
 description: Learn how to use SignTool.exe to sign a Setup program for ClickOnce applications, which helps ensure that tampered files are not installed.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -23,6 +22,8 @@ ms.workload:
   - multiple
 ---
 # How to: Sign setup files with SignTool.exe (ClickOnce)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can use *SignTool.exe* to sign a Setup program (*setup.exe*). This process helps ensure that tampered files are not installed on end-user computers.
 
  By default, ClickOnce has signed manifests and a signed Setup program. However, if you want to change the parameters of the Setup program later, you must sign the Setup program later. If you change the parameters after the Setup program is signed, the signature becomes corrupted.

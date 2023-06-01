@@ -1,9 +1,8 @@
 ---
 title: "Debugging Errors and Warning Dialog Boxes | Microsoft Docs"
 description: See a list of errors and warning dialog boxes that you might encounter while debugging your application in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "VS.WebClient.AccessRequiredDialog"
 dev_langs:
@@ -26,6 +25,8 @@ ms.workload:
   - "multiple"
 ---
 # Debugging Errors and Warning Dialog Boxes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Below are the errors and warning dialog boxes you may encounter while debugging your application.
 
 ## In This Section

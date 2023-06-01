@@ -1,7 +1,6 @@
 ---
 title: Design-Time Code Generation by using T4 Text Templates
 description: Learn how design-time T4 text templates let you generate program code and other files in your Visual Studio project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -20,6 +19,8 @@ ms.workload:
 - multiple
 ---
 # Design-Time Code Generation by using T4 Text Templates
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Design-time T4 text templates let you generate program code and other files in your Visual Studio project. Typically, you write the templates so that they vary the code that they generate according to data from a *model*. A model is a file or database that contains key information about your application's requirements.
 
@@ -86,6 +87,7 @@ Text templates let you use program code to vary the content of the generated fil
 
 1. Change the content of the `.tt` file:
 
+   ### [C#](#tab/csharp)
    ```csharp
    <#@ template hostspecific="false" language="C#" #>
    <#@ output extension=".txt" #>
@@ -97,6 +99,7 @@ Text templates let you use program code to vary the content of the generated fil
    <# } #>
    ```
 
+   ### [VB](#tab/vb)
    ```vb
    <#@ template hostspecific="false" language="VB" #>
    <#@ output extension=".txt" #>
@@ -109,8 +112,9 @@ Text templates let you use program code to vary the content of the generated fil
    Next
    #>
    ```
+   ---
 
-2. Save the .tt file, and inspect the generated .txt file again. It lists the squares of the numbers from 0 to 10.
+2. Save the `.tt` file, and inspect the generated .txt file again. It lists the squares of the numbers from 0 to 10.
 
    Notice that statements are enclosed within `<#...#>`, and single expressions within `<#=...#>`. For more information, see [Writing a T4 Text Template](../modeling/writing-a-t4-text-template.md).
 
@@ -145,6 +149,7 @@ You can generate program files that vary, depending on a model. A model is an in
 
 2. Insert code that will generate the solution code that you require. For example, if you want to generate three integer field declarations in a class:
 
+    ### [C#](#tab/csharp)
     ```csharp
 
     <#@ template debug="false" hostspecific="false" language="C#" #>
@@ -160,6 +165,7 @@ You can generate program files that vary, depending on a model. A model is an in
     }
     ```
 
+    ### [VB](#tab/vb)
     ```vb
     <#@ template debug="false" hostspecific="false" language="VB" #>
     <#@ output extension=".cs" #>
@@ -175,6 +181,7 @@ You can generate program files that vary, depending on a model. A model is an in
     }
 
     ```
+    ---
 
 3. Save the file and inspect the generated file, which now contains the following code:
 
@@ -220,6 +227,7 @@ The `assembly` directive makes the specified assembly available to your template
 
 For example, after importing **System.IO**, you could write:
 
+### [C#](#tab/csharp)
 ```csharp
 
 <# var properties = File.ReadLines("C:\\propertyList.txt");#>
@@ -228,11 +236,13 @@ For example, after importing **System.IO**, you could write:
 ...
 ```
 
+### [VB](#tab/vb)
 ```vb
 <# For Each propertyName As String In
              File.ReadLines("C:\\propertyList.txt")
 #>
 ```
+---
 
 ### Opening a file with a relative pathname
 
@@ -244,6 +254,7 @@ To load a file from a location relative to the text template, you can use `this.
 
 Then you can write, for example:
 
+### [C#](#tab/csharp)
 ```csharp
 <# string filename = this.Host.ResolvePath("filename.txt");
   string [] properties = File.ReadLines(filename);
@@ -253,6 +264,7 @@ Then you can write, for example:
 ...
 ```
 
+### [VB](#tab/vb)
 ```vb
 <# Dim filename = Me.Host.ResolvePath("propertyList.txt")
    Dim properties = File.ReadLines(filename)
@@ -262,6 +274,7 @@ Then you can write, for example:
 ...
 #>
 ```
+---
 
 You can also use `this.Host.TemplateFile`, which identifies the name of the current template file.
 
@@ -269,7 +282,7 @@ The type of `this.Host` (in VB, `Me.Host`) is `Microsoft.VisualStudio.TextTempla
 
 ### Getting data from Visual Studio
 
-To use services provided in Visual Studio, set the `hostSpecific` attribute and load the `EnvDTE` assembly. Import `Microsoft.VisualStudio.TextTemplating`, which contains the `GetCOMService()` extension method.  You can then use IServiceProvider.GetCOMService() to access DTE and other services. For example:
+To use services provided in Visual Studio, set the `hostspecific` attribute and load the `EnvDTE` assembly. Import `Microsoft.VisualStudio.TextTemplating`, which contains the `GetCOMService()` extension method.  You can then use IServiceProvider.GetCOMService() to access DTE and other services. For example:
 
 ```src
 <#@ template hostspecific="true" language="C#" #>
@@ -299,29 +312,13 @@ If you have installed the Visual Studio Modeling SDK, you can have all the templ
 > The Text Template Transformation SDK and the Visual Studio Modeling SDK are installed automatically when you install specific features of Visual Studio. For more details, see
 [this blog post](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/).
 
-::: moniker range="vs-2017"
-
 ```xml
-<Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v15.0\TextTemplating\Microsoft.TextTemplating.targets" />
+<Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v17.0\TextTemplating\Microsoft.TextTemplating.targets" />
 <PropertyGroup>
    <TransformOnBuild>true</TransformOnBuild>
    <!-- Other properties can be inserted here -->
 </PropertyGroup>
 ```
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-```xml
-<Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v16.0\TextTemplating\Microsoft.TextTemplating.targets" />
-<PropertyGroup>
-   <TransformOnBuild>true</TransformOnBuild>
-   <!-- Other properties can be inserted here -->
-</PropertyGroup>
-```
-
-::: moniker-end
 
 For more information, see [Code Generation in a Build Process](../modeling/code-generation-in-a-build-process.md).
 

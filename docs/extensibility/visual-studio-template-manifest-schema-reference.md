@@ -1,18 +1,19 @@
 ---
 title: Visual Studio Template Manifest Schema Reference | Microsoft Docs
 description: This schema reference describes the format of the Visual Studio template manifest files that are generated for Visual Studio project or item templates.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: bc7d0a81-0df5-41a9-a912-1b30e5da1d13
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Visual Studio template manifest schema reference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This schema describes the format of the Visual Studio template manifest (*.vstman*) files that are generated for Visual Studio project or item templates. The schema also describes the location and other relevant information about the template.
 
  : Because there are separate item and project template directories, a manifest should never have a mix of item and project templates.

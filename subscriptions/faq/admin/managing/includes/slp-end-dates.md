@@ -4,8 +4,8 @@ description: SLP and MPSA agreements don't expire, however our portal currently 
 ms.faqid: group1_9
 ms.topic: include
 ms.assetid: 9e5fac98-676a-4187-9323-ff5e113be282
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 3/3/2020
 ---
 

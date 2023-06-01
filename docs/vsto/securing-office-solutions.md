@@ -1,7 +1,6 @@
 ---
 title: "Secure Office solutions"
 description: Learn how the security model for Office solutions involves several technologies, including the Visual Studio Tools for Office runtime and ClickOnce. 
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -19,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Secure Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The security model for Office solutions involves several technologies: the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)], [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)], the Trust Center in Microsoft Office, and the Internet Explorer restricted sites zone. The following sections describe how the different security features work:
 
 - [Grant trust to Office solutions](#GrantingTrustToSolutions)

@@ -1,7 +1,6 @@
 ---
 title: Replace In Files Command
 description: Learn about the Replace in Files command and how it replaces text in files by using some of the options available on the Replace in Files tab of the Find and Replace window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -19,6 +18,8 @@ ms.workload:
 - multiple
 ---
 # Replace In Files Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Replaces text in files using a subset of the options available on the **Replace in Files** tab of the **Find and Replace** window.
 
 ## Syntax

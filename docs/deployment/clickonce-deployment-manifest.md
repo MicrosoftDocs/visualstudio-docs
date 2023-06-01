@@ -1,7 +1,6 @@
 ---
 title: "ClickOnce Deployment Manifest | Microsoft Docs"
 description: Learn about a deployment manifest, an XML file that describes a ClickOnce deployment, including the current ClickOnce application version to deploy.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -20,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # ClickOnce deployment manifest
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A deployment manifest is an XML file that describes a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment, including the identification of the current [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application version to deploy.
 
  Deployment manifests have the following elements and attributes.

@@ -1,21 +1,22 @@
 ---
 title: Registering Interop Assembly Command Handlers | Microsoft Docs
 description: Learn about the basic command contract used by all VSPackages implementing commands using Interop assemblies.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - interop assemblies, command handlers
 - command handling with interop assemblies, registering
 ms.assetid: 303cd399-e29d-4ea1-8abe-5e0b59c12a0c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Registering Interop Assembly Command Handlers
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A VSPackage must register with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] so that the integrated development environment (IDE) routes its commands properly.
 
  The registry can be updated either by manual editing or by using a Registrar (.rgs) file. For more information, see [Creating Registrar Scripts](/cpp/atl/creating-registrar-scripts).

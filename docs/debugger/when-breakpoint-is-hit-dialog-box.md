@@ -1,9 +1,8 @@
 ---
 title: "When Breakpoint Is Hit Dialog Box | Microsoft Docs"
 description: Use When Breakpoint is Hit to specify an action on breaking. You can specify that a message be printed, and that execution should continue afterwards.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.whenbreakpointishit"
 dev_langs:
@@ -22,6 +21,8 @@ ms.workload:
   - "multiple"
 ---
 # When Breakpoint Is Hit Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 With this dialog box, you can customize the action that occurs when a breakpoint is hit.
 
 ## UIElement List

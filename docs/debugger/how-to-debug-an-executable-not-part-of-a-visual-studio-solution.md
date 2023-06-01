@@ -2,7 +2,6 @@
 title: Debug an app that isn't part of a Visual Studio solution
 titleSuffix: 
 description: Learn how to debug an app that isn't part of a Visual Studio solution. You may be able to attach the Visual Studio debugger.
-ms.custom: SEO-VS-2020
 ms.date: 02/21/2020
 ms.topic: how-to
 dev_langs: 
@@ -24,6 +23,8 @@ ms.workload:
   - multiple
 ---
 # Debug an app that isn't part of a Visual Studio solution (C++, C#, Visual Basic, F#)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You may want to debug an app (*.exe* file) that isn't part of a Visual Studio solution. It may be an [open folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) project, or you or someone else may have created the app outside of Visual Studio, or you got the app from somewhere else.
 

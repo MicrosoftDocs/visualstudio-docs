@@ -1,7 +1,7 @@
 ---
-description: "You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use."
 title: Identify and customize keyboard shortcuts
-ms.date: 11/04/2016
+description: Learn how to identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use.
+ms.date: 12/14/2022
 ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.Keyboard
@@ -22,20 +22,22 @@ ms.workload:
 ---
 # Identify and customize keyboard shortcuts in Visual Studio
 
-You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use. Many shortcuts always invoke the same commands, but the behavior of a shortcut can vary based on the following conditions:
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-- Which default environment settings you choose the first time that you open Visual Studio&mdash;for example, General Development or Visual C#. (For information about changing or resetting your settings, see [Environment settings](environment-settings.md).)
+You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use. Many shortcuts always invoke the same commands, but the behavior of a shortcut might vary based on the following conditions:
+
+- Which default environment settings you choose the first time that you open Visual Studio&mdash;for example, General development or Visual C#. (For more information about changing or resetting your settings, see [Environment settings](environment-settings.md).)
 
 - Whether you've customized the shortcut's behavior.
 
-- Which context you're in when you choose the shortcut. For example, the **F2** shortcut invokes the `Edit.EditCell` command if you're using the **Settings Designer** and it invokes the `File.Rename` command if you're using **Team Explorer**.
+- Which context you're in when you choose the shortcut. For example, the **F2** shortcut invokes the `Edit.EditCell` command if you're using the **Settings Designer**, and it invokes the `File.Rename` command if you're using **Solution Explorer**.
 
-Regardless of settings, customization, and context, you can always find and change a keyboard shortcut in the **Options** dialog box. You can also look up the default keyboard shortcuts for several dozen commands in [Popular keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md#popular). For a complete list of all default shortcuts (based on the **General Development** settings), see [All keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
+Regardless of settings, customization, and context, you can always find and change a keyboard shortcut in the **Options** dialog box. You can also look up the default keyboard shortcuts for several dozen commands in [Popular keyboard shortcuts](default-keyboard-shortcuts-in-visual-studio.md#popular-keyboard-shortcuts-for-visual-studio). For a complete list of all the shortcuts and their commands, see [Keyboard shortcuts in Visual Studio](default-keyboard-shortcuts-in-visual-studio.md).
 
-If a shortcut is assigned to a command in the *Global* context and no other contexts, that shortcut will always invoke that command. But a shortcut can be assigned to one command in the Global context and a different command in a specific context. If you use such a shortcut when you're in the specific context, the shortcut invokes the command for the specific context, not the Global context.
+If a shortcut is assigned to a command in the *Global* context and no other contexts, that shortcut will always invoke that command. But a shortcut can be assigned to one command in the Global context and a different command in a specific context. If you use such a shortcut when you're in the specific context, the shortcut invokes the command for the specific context, not the Global context. For a complete list of all default shortcuts, see [Global shortcuts](default-keyboard-shortcuts-in-visual-studio.md#global-shortcuts).
 
 > [!NOTE]
-> Your settings and edition of Visual Studio might change the names and locations of menu commands and the options that appear in dialog boxes. This page is based on the **General Development** settings profile.
+> Your settings and edition of Visual Studio might change the names and locations of menu commands and the options that appear in dialog boxes. This page is based on the **General** development settings profile.
 
 ## Identify a keyboard shortcut
 
@@ -43,7 +45,7 @@ If a shortcut is assigned to a command in the *Global* context and no other cont
 
 2. Expand **Environment**, and then choose **Keyboard**.
 
-   ![Display keyboard shortcuts in Options dialog box](../ide/media/optionskeyboard.png)
+    :::image type="content" source="media/tools-options-environment-keyboard.png" alt-text="Screenshot of Environment options in Visual Studio with the Keyboard option selected.":::
 
 3. In the **Show commands containing** box, enter all or part of the name of the command without spaces.
 
@@ -55,7 +57,7 @@ If a shortcut is assigned to a command in the *Global* context and no other cont
 
 5. If the command has a keyboard shortcut, it appears in the **Shortcut(s) for selected command** list.
 
-   ![View a shortcut for a specified command](../ide/media/viewshortcut.png)
+    :::image type="content" source="media/view-solution-explorer-command-shortcut.png" alt-text="Screenshot of the keyboard shortcut for the View.SolutionExplorer command.":::
 
 ## Customize a keyboard shortcut
 
@@ -86,9 +88,9 @@ If a shortcut is assigned to a command in the *Global* context and no other cont
     > [!NOTE]
     > You can create a shortcut that combines a letter with the **Alt** key, the **Ctrl** key, or both. You can also create a shortcut that combines the **Shift** key and a letter with the **Alt** key, the **Ctrl** key, or both.
 
-     If a shortcut is already assigned to another command, it appears in the **Shortcut currently used by** box. In that case, choose the **Backspace** key to delete that shortcut before you try a different one.
+     If a shortcut is already assigned to another command, it appears in the **Shortcut currently used by** box. In that case, choose the **Backspace** key to delete that shortcut you entered before you try a different one.
 
-    ![Specify a different shortcut for a command](../ide/media/reassignshortcut.png)
+    ![Screenshot that shows an example of how to specify a different shortcut for a command.](../ide/media/reassign-shortcut.png)
 
 7. Choose the **Assign** button.
 
@@ -109,21 +111,18 @@ You can share your custom keyboard shortcuts by exporting them to a file and the
 
 4. Select the **Keyboard** check box, and then choose **Next**.
 
-   ![Export only customized keyboard shortcuts](../ide/media/exportshortcuts.png)
+   ![Screenshot that shows an example of how to export only customized keyboard shortcuts.](../ide/media/export-shortcuts.png)
 
 5. In the **What do you want to name your settings file** and **Store my settings file in this directory** boxes, either leave the default values or specify different values, and then choose **Finish**.
 
-::: moniker range="vs-2017"
-
-By default, your shortcuts are saved in a file in the *%USERPROFILE%\Documents\Visual Studio 2017\Settings* folder. The name of the file reflects the date when you exported the settings, and the extension is *.vssettings*.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-By default, your shortcuts are saved in a file in the *%USERPROFILE%\Documents\Visual Studio 2019\Settings* folder. The name of the file reflects the date when you exported the settings, and the extension is *.vssettings*.
-
-::: moniker-end
+> [!NOTE]
+> By default, your shortcuts are saved in a file in the following location:
+>
+> *%USERPROFILE%\AppData\Local\Microsoft\VisualStudio\1x.0_xxxxxxxx\Settings*
+>
+> For Visual Studio 2022, the `1x.0_xxxxxxxx` folder would start with the numerals 17.0 followed by a set of alphanumeric characters that are specific to your installation. Similarly, for Visual Studio 2019, the folder would start with the numerals 16.0.
+>
+> The name of the file itself reflects the date when you exported the settings, and the extension is *.vssettings*.
 
 ### To import only keyboard shortcuts
 
@@ -141,7 +140,7 @@ By default, your shortcuts are saved in a file in the *%USERPROFILE%\Documents\V
 
 7. Select the **Keyboard** check box, and then choose **Finish**.
 
-   ![Import only customized keyboard shortcuts](../ide/media/importshortcuts.png)
+   ![Screenshot that shows an example of how to import only customized keyboard shortcuts.](../ide/media/import-shortcuts.png)
 
 ## See also
 

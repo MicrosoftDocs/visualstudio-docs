@@ -1,7 +1,6 @@
 ---
 title: "Creating Site Definitions for SharePoint | Microsoft Docs"
 description: Create site definitions for SharePoint. Site definitions determine the appearance and behavior of the SharePoint site and its default content and functionality.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 dev_langs:
@@ -18,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # Create site definitions for SharePoint
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The SharePoint Site Definition project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] lets you create a *site definition*, which serves as a foundation for a new SharePoint site. These definitions not only determine the appearance and behavior of the SharePoint site, but also its default content and functionality. In the definition you can put preconfigured lists, content types, event receivers, images, and other items. SharePoint includes some site definitions such as BLOG, for example. When you create a site based on the BLOG site definition, the site contains the lists, Web parts, and other items that a blogging site requires.
 
  For more information about site definitions, see [Site Templates and Definitions](/previous-versions/office/developer/sharepoint-2010/ms434313(v=office.14)).

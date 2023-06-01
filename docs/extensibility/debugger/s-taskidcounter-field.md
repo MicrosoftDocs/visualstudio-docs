@@ -6,14 +6,16 @@ ms.topic: reference
 helpviewer_keywords:
 - m_taskIdCounter field, Task class [.NET Framework debug engines]
 ms.assetid: 7e5a1907-c652-4046-b207-d2f1ef7b8029
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # s_taskIdCounter Field
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The next available identifier for a <xref:System.Threading.Tasks.Task> object.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

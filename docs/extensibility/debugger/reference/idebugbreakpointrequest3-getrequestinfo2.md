@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBreakpointRequest3::GetRequestInfo2
 ms.assetid: 33942e4a-0a0a-49e8-a693-004954f6d38a
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugBreakpointRequest3::GetRequestInfo2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the breakpoint request information that describes this breakpoint request.
 
 ## Syntax
 
-```cpp
-HRESULT GetRequestInfo2(
-   BPREQI_FIELDS      dwFields,
-   BP_REQUEST_INFO2*  bBPRequestInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetRequestInfo2(
    enum_BPREQI_FIELDS  dwFields,
    BP_REQUEST_INFO2[]  bBPRequestInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetRequestInfo2(
+   BPREQI_FIELDS      dwFields,
+   BP_REQUEST_INFO2*  bBPRequestInfo
+);
+```
+---
 
 ## Parameters
 `dwFields`\

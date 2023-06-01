@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - THREADSTATE enumeration
 ms.assetid: 62efdd7c-25b1-4fd3-9d06-ac1830a418a9
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,23 @@ dev_langs:
 - CSharp
 ---
 # THREADSTATE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the state of the thread.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_THREADSTATE { 
+   THREADSTATE_RUNNING = 0x0001,
+   THREADSTATE_STOPPED = 0x0002,
+   THREADSTATE_FRESH   = 0x0003,
+   THREADSTATE_DEAD    = 0x0004,
+   THREADSTATE_FROZEN  = 0x0005
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_THREADSTATE { 
    THREADSTATE_RUNNING = 0x0001,
@@ -33,16 +46,7 @@ enum enum_THREADSTATE { 
 };
 typedef DWORD THREADSTATE;
 ```
-
-```csharp
-public enum enum_THREADSTATE { 
-   THREADSTATE_RUNNING = 0x0001,
-   THREADSTATE_STOPPED = 0x0002,
-   THREADSTATE_FRESH   = 0x0003,
-   THREADSTATE_DEAD    = 0x0004,
-   THREADSTATE_FROZEN  = 0x0005
-};
-```
+---
 
 ## Fields
  `THREADSTATE_RUNNING`\

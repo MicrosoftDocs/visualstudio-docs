@@ -1,7 +1,6 @@
 ---
 title: Exec Task | Microsoft Docs
 description: Learn to use the MSBuild Exec task to run a specified program or command by using the specified arguments.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -10,7 +9,6 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - Exec task [MSBuild]
 - MSBuild, Exec task
@@ -55,6 +53,8 @@ This task is useful when a specific MSBuild task for the job that you want to pe
 
 The `Exec` task calls *cmd.exe* instead of directly invoking a process.
 
+The parameters `IgnoreExitCode` and `IgnoreStandardErrorWarningFormat` affect the conditions under which the task returns `false`, indicating an error. With the default settings (`false` for both), the `Exec` task indicates a failure (returns `false`) either if the executable has a non-zero exit code, or if a diagnostic message is found in the executable's standard error stream. If you only want `Exec` to indicate failure if the executable returns a non-zero exit code, then set `IgnoreStandardErrorWarningFormat` to `true`.
+
 ## Example
 
 The following example uses the `Exec` task to run a command.
@@ -76,3 +76,4 @@ The following example uses the `Exec` task to run a command.
 
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)
+- [MSBuild and Visual Studio formats for diagnostic messages](./msbuild-diagnostic-format-for-tasks.md)

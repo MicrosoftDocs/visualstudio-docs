@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBinder::ResolveRuntimeType method
 ms.assetid: 6456ab3e-1c03-4f3c-91f9-16797ab7f5e7
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugBinder::ResolveRuntimeType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method determines the run-time type of an object.
 
 ## Syntax
 
-```cpp
-HRESULT ResolveRuntimeType( 
-   IDebugObject* pObject,
-   IDebugField** ppResolved
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ResolveRuntimeType(
    IDebugObject     pObject,
    out IDebugField  ppResolved
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ResolveRuntimeType( 
+   IDebugObject* pObject,
+   IDebugField** ppResolved
+);
+```
+---
 
 ## Parameters
 `pObject`\

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugObject2::IsUserData method
 ms.assetid: 6ffa0d0e-f742-496d-acc7-db74c248bc45
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject2::IsUserData
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines whether the object represents user data.
 
 ## Syntax
 
-```cpp
-HRESULT IsUserData(
-   BOOL* pfUser
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsUserData(
    out int pfUser
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsUserData(
+   BOOL* pfUser
+);
+```
+---
 
 ## Parameters
 `pfUser`\

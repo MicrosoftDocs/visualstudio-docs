@@ -1,7 +1,6 @@
 ---
 title: "Server/client configuration issues (ClickOnce)"
 description: Learn about server and client configuration issues that can affect the deployment of your ClickOnce application.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -22,6 +21,8 @@ ms.workload:
   - "multiple"
 ---
 # Server and client configuration issues in ClickOnce deployments
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If you use Internet Information Services (IIS) on Windows Server, and your deployment contains a file type that Windows does not recognize, such as a Microsoft Word file, IIS will refuse to transmit that file, and your deployment will not succeed.
 
  Additionally, some Web servers and Web application software, such as [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)], contain a list of files and file types that you cannot download. For example, [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] prevents the download of all *Web.config* files. These files may contain sensitive information such as user names and passwords.

@@ -1,12 +1,10 @@
 ---
 title: Create relationships between datasets
 description: Create relationships between datasets in Visual Studio. Understand DataRelation objects and constraints. Manually create a data relation in Dataset Manager.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
 - vbData.Microsoft.VSDesigner.DataSource.DesignRelation
-- vbdata.Microsoft.VSDesigner.DataSource.DesignRelation
 helpviewer_keywords:
 - relationships, about relationships
 - datasets [Visual Basic], relationships
@@ -20,6 +18,11 @@ ms.workload:
 - data-storage
 ---
 # Create relationships between datasets
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
+
 Datasets that contain related data tables use <xref:System.Data.DataRelation> objects to represent a parent/child relationship between the tables and to return related records from one another. Adding related tables to datasets by using the **Data Source Configuration Wizard**, or the **Dataset Designer**, creates and configures the <xref:System.Data.DataRelation> object for you.
 
 The <xref:System.Data.DataRelation> object performs two functions:

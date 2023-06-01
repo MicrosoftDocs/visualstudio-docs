@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - PDB_TYPE structure
 ms.assetid: 1c1bb772-77d6-4870-90b2-fd9247d0004e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,18 +20,13 @@ dev_langs:
 ---
 # PDB_TYPE
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This structure specifies information about a field type taken from a PDB symbol.
 
 ## Syntax
 
-```cpp
-typedef struct _tagTYPE_PDB {
-    ULONG32 ulAppDomainID;
-    GUID    guidModule;
-    DWORD   symid;
-} PDB_TYPE;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct PDB_TYPE {
     public uint ulAppDomainID;
@@ -39,6 +34,15 @@ public struct PDB_TYPE {
     public uint symid;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagTYPE_PDB {
+    ULONG32 ulAppDomainID;
+    GUID    guidModule;
+    DWORD   symid;
+} PDB_TYPE;
+```
+---
 
 ## Members
 

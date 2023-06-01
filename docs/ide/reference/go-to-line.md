@@ -1,7 +1,6 @@
 ---
 title: Go To Line
 description: Learn about the Go To Line dialog box and how it lets you move to a specific line in the active document.
-ms.custom: SEO-VS-2020
 ms.date: 05/18/2018
 ms.topic: reference
 helpviewer_keywords:
@@ -16,6 +15,8 @@ ms.workload:
 - multiple
 ---
 # Go To Line dialog box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Go To Line** dialog box lets you move to a specific line in the active document. To access this dialog box, open a document for editing, and then select **Edit** > **Go To** > **Go To Line** or press **Ctrl**+**G**.
 

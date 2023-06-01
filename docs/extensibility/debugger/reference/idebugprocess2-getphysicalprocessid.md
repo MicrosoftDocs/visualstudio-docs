@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProcess2::GetPhysicalProcessId
 ms.assetid: 77da6e10-75af-4308-97dd-c44416ca52d7
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess2::GetPhysicalProcessId
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the system process identifier.
 
 ## Syntax
 
-```cpp
-HRESULT GetPhysicalProcessId(
-   AD_PROCESS_ID* pdwProcessId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPhysicalProcessId(
    AD_PROCESS_ID[] pdwProcessId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPhysicalProcessId(
+   AD_PROCESS_ID* pdwProcessId
+);
+```
+---
 
 ## Parameters
 `pdwProcessId`\

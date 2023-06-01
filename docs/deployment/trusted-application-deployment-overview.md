@@ -1,7 +1,6 @@
 ---
 title: "Trusted Application Deployment Overview | Microsoft Docs"
 description: Learn how to deploy ClickOnce applications that have elevated permissions by using the Trusted Application Deployment technology.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -21,6 +20,8 @@ ms.workload:
   - "multiple"
 ---
 # Trusted Application Deployment overview
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This topic provides an overview of how to deploy [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications that have elevated permissions by using the Trusted Application Deployment technology.
 
  Trusted Application Deployment, part of the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment technology, makes it easier for organizations of any size to grant additional permissions to a managed application in a safer, more secure manner without user prompting. With Trusted Application Deployment, an organization  can just configure a client computer to have a list of trusted publishers, who are identified using Authenticode certificates. Thereafter, any [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application signed by one of these trusted publishers receives a higher level of trust.

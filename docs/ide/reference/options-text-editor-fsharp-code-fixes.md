@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, F#, Code Fixes
 description: Learn how to use the Code Fixes page in the F# section to specify the settings that can help identify code errors and offer solutions.
-ms.custom: SEO-VS-2020
 ms.date: 01/16/2019
 ms.topic: reference
 f1_keywords:
@@ -14,6 +13,8 @@ ms.workload:
   - "dotnet"
 ---
 # Options: Text Editor > F# > Code Fixes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the Code Fixes options page to specify the settings that can help identify code errors and offer solutions. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **F#** > **Code Fixes**.
 

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPropertyField::GetPropertySetter method
 ms.assetid: 744d76fd-2bcc-4917-a040-ce4cc714ef61
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPropertyField::GetPropertySetter
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the method that sets the property.
 
 ## Syntax
 
-```cpp
-HRESULT GetPropertySetter( 
-   IDebugMethodField** ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPropertySetter(
    out IDebugMethodField ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPropertySetter( 
+   IDebugMethodField** ppField
+);
+```
+---
 
 ## Parameters
 `ppField`\

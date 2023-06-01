@@ -1,7 +1,6 @@
 ---
 title: "Security for SharePoint Solutions | Microsoft Docs"
 description: Discover what features Visual Studio incorporates to help enhance the security of SharePoint applications.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -20,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Security for SharePoint solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] incorporates the following features to help enhance the security of SharePoint applications.
 
 ## Safe control entries

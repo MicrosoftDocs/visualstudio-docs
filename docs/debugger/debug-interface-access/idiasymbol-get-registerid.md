@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSymbol::get_registerId
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the register designator of the location when the [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md) is set to `LocIsEnregistered`.
 
 ## Syntax

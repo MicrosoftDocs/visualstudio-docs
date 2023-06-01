@@ -1,7 +1,6 @@
 ---
 title: Analyzing Load Test Virtual User Activity
 description: Learn about the Details view, which displays the Virtual User Activity Chart. Analyze what individual virtual users did during the load test. 
-ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
 ms.topic: conceptual
 f1_keywords:
@@ -16,6 +15,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # Analyzing load test virtual user activity in the Details view of the Load Test Analyzer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 
@@ -54,7 +55,6 @@ The Filter results panel is visible in the **Virtual User Activity Chart**. The 
 |-|-|
 |**Run your load test:** After you have created a load test and configured it to enable virtual user activity data collecting, you must run the test until it is complete in order to view the **Virtual User Activity Chart**.||
 |**View the load test results that contain the virtual user activity data:** After your load test has been created, configured, and has completed running, you can view the virtual user activity data by using the **Virtual User Activity Chart**.|-   [Analyze load test results](../test/analyze-load-test-results-using-the-load-test-analyzer.md)<br />-   [How to: Analyze what virtual users are doing during a load test](../test/how-to-analyze-virtual-user-activity-during-a-load-test.md)|
-|**Isolate performance issues in load tests:** You can use the **Virtual User Activity Chart** to help isolate performance issues in your load test.|-   [Walkthrough: Using the virtual user activity chart to isolate issues](../test/walkthrough-use-the-virtual-user-activity-chart-to-isolate-issues.md)|
 
 ## See also
 

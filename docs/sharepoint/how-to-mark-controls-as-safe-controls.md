@@ -1,7 +1,6 @@
 ---
 title: "How to: Mark Controls as Safe Controls | Microsoft Docs"
 description: Mark controls as safe controls in the Safe Control Entries property of a SharePoint project item or in the Package Designer when you add an assembly.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -19,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Mark controls as safe controls
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   For security, SharePoint differentiates between Web controls that are protected against script injection and Web controls that are not. Protected controls, or *safe controls*, can be accessed by untrusted users. You can mark controls as safe in the Safe Control Entries property of a SharePoint project item or in the **Package Designer** when you add an assembly to the package. For more information, see
 
 - [web.config file Settings Change](/previous-versions/office/developer/sharepoint-2007/bb802890(v=office.12)) and [Registering a Web Part Assembly as a Safe Control](/previous-versions/office/developer/sharepoint2003/dd587360(v=office.11)).

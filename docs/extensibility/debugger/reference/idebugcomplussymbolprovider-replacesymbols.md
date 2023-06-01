@@ -7,8 +7,8 @@ helpviewer_keywords:
 - ReplaceSymbols
 - IDebugComPlusSymbolProvider::ReplaceSymbols
 ms.assetid: 82fbc8db-c4b1-432f-bec9-1a9dc09570be
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,18 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::ReplaceSymbols
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Replaces the current debug symbols with those in the specified data stream.
 
 ## Syntax
 
-```cpp
-HRESULT ReplaceSymbols(
-    ULONG32  ulAppDomainID,
-    GUID     guidModule,
-    IStream* pStream
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ReplaceSymbols(
     uint    ulAppDomainID,
@@ -37,6 +32,15 @@ int ReplaceSymbols(
     IStream pStream
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ReplaceSymbols(
+    ULONG32  ulAppDomainID,
+    GUID     guidModule,
+    IStream* pStream
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

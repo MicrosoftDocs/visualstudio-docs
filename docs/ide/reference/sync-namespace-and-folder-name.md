@@ -1,7 +1,6 @@
 ---
 title: Sync namespace and folder name
 description: Learn how to use the Quick Actions and Refactorings menu to sync the namespace and the folder name.
-ms.custom: SEO-VS-2020
 ms.date: 06/12/2019
 ms.topic: reference
 author: mikadumont
@@ -14,6 +13,8 @@ ms.workload:
   - "dotnet"
 ---
 # Sync namespace and folder name
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 

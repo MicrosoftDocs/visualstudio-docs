@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugIDECallback::DisplayMessage
 ms.assetid: c19b48ee-b370-4fce-91fe-f82bf1e63179
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -17,21 +17,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugIDECallback::DisplayMessage
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sends the specified message string to the debugger's output window.
 
 ## Syntax
 
-```cpp
-HRESULT DisplayMessage (
-   LPCOLESTR szMessage
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int DisplayMessage (
    string szMessage
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT DisplayMessage (
+   LPCOLESTR szMessage
+);
+```
+---
 
 ## Parameters
 `szMessage`\

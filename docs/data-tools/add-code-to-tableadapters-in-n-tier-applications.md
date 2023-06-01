@@ -1,7 +1,6 @@
 ---
 title: Add code to TableAdapters in n-tier applications
 description: Add code to table adapters in n-tier applications. Create a partial class file for TableAdapter and add code to it (instead of to DatasetName.DataSet.Designer).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -19,6 +18,11 @@ ms.workload:
 - data-storage
 ---
 # Add code to TableAdapters in n-tier applications
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
+
 You can extend the functionality of a TableAdapter by creating a partial class file for the TableAdapter and adding code to it (instead of adding code to the *DatasetName.DataSet.Designer* file). Partial classes enable code for a specific class to be divided among multiple physical files. For more information, see [Partial](/dotnet/visual-basic/language-reference/modifiers/partial) or [partial (Type)](/dotnet/csharp/language-reference/keywords/partial-type).
 
 The code that defines a TableAdapter is generated every time changes are made to the TableAdapter in the dataset. This code is also generated when changes are made during the running of any wizard that modifies the configuration of the TableAdapter. To prevent your code from being deleted during the regeneration of a TableAdapter, add code to the partial class file of the TableAdapter.
@@ -47,13 +51,7 @@ By default, after you separate the dataset and TableAdapter code, the result is 
 
 5. The following example shows where to add code to the `CustomersTableAdapter` in the `NorthwindDataSet`:
 
-    ```vb
-    Partial Public Class CustomersTableAdapter
-        ' Add code here to add functionality
-        ' to the CustomersTableAdapter.
-    End Class
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     public partial class CustomersTableAdapter
     {
@@ -61,6 +59,15 @@ By default, after you separate the dataset and TableAdapter code, the result is 
         // to the CustomersTableAdapter.
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Partial Public Class CustomersTableAdapter
+        ' Add code here to add functionality
+        ' to the CustomersTableAdapter.
+    End Class
+    ```
+    ---
 
 ## See also
 

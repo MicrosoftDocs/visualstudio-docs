@@ -5,9 +5,9 @@ ms.date: 04/02/2019
 helpviewer_keywords:
   - "deployment, website"
 ms.assetid: 8524a4c5-97a9-41ac-a2a0-034efb9bfc57
-author: sayedihashimi
-ms.author: sayedha
-manager: unniravindranathan
+author: heiligerdankgesang 
+ms.author: dominicn
+manager: dominicn
 ms.prod: visual-studio-mac
 ms.custom: video
 ms.topic: how-to
@@ -16,11 +16,13 @@ ms.workload:
 ---
 # Publish a Web app to Azure App Service using Visual Studio for Mac
 
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+
 You can use the Publish tool to publish ASP.NET Core apps to Azure App Service.
 
 ## Prerequisites
 
-- [Visual Studio 2019 for Mac](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs4mac2019) installed with ASP.NET Core enabled.
+- [Visual Studio 2019 for Mac](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=inline+link&utm_content=download+vs4mac2019) installed with ASP.NET Core enabled.
 - An Azure Subscription. If you do not already have a subscription, [sign up for free](https://azure.microsoft.com/free/dotnet/), which includes $200 in credit for 30 days and 12 months of popular free services.
 - An ASP.NET Core project. If you don’t already have a project, you can [create a new one](~/create-new-projects.md).
 
@@ -66,4 +68,4 @@ You can use the Publish tool to publish ASP.NET Core apps to Azure App Service.
 
 ## Related Video
 
-> [!Video https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Publish-to-Azure/player]
+> [!VIDEO https://learn.microsoft.com/shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac-Publish-to-Azure/player]

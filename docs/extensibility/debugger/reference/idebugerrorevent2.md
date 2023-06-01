@@ -8,14 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugErrorEvent2 interface
 ms.assetid: 275b6f38-b3d4-4cae-8491-491177f524fb
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # IDebugErrorEvent2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface specifies an error message to be reported to the user.
 
 ## Syntax

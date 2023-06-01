@@ -1,7 +1,6 @@
 ---
 title: Install prerequisites with a ClickOnce app
 description: Learn how to select prerequisite components to be packaged along with your ClickOnce application when it is installed.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -21,6 +20,8 @@ ms.workload:
   - multiple
 ---
 # How to: Install prerequisites with a ClickOnce application
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 All [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications require that the correct version of the .NET Framework is installed on a computer before they can be run; many applications have other prerequisites as well. When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, you can choose a set of prerequisite components to be packaged along with your application. At installation time, a check will be performed for each prerequisite to determine if it already exists; if not it will be installed prior to installing the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.
 
  Instead of packaging and publishing prerequisites, you can also specify a download location for the components. For example, rather than including prerequisites with every application that you publish, you might use a centralized file share or Web location that contains the installers for all of your prerequisites—at install time, the components will be downloaded and installed from that location.
@@ -36,6 +37,8 @@ All [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applicatio
 ### To specify prerequisites to install with a ClickOnce application
 
 1. With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.
+
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 2. Select the **Publish** pane.
 

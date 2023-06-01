@@ -1,9 +1,8 @@
 ---
 title: "Output Window, Debugging, Options Dialog Box | Microsoft Docs"
 description: You can specify which types of debugging information appear in the Output window. Learn where to do this, and the types of information that you can control.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.options.OutputWindow"
   - "VS.ToolsOptionsPages.Debugger.OutputWindow"
@@ -22,6 +21,8 @@ ms.workload:
   - "multiple"
 ---
 # Output Window, Debugging, Options Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can specify which types of debugging information appear in the **Output** window. To display these options, open the **Tools** menu, click **Options**, expand the **Debugging** node, and click **Output Window**.
 
 **General Output Settings**

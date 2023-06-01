@@ -1,20 +1,21 @@
 ---
 title: Workflow Designer - Initialize Correlation Dialog Box
-description: Learn how you can use the Initialize Correlation dialog box in the Workflow Designer to edit the CorrelationData property of an InitializeCorrelation activity. 
-ms.custom: SEO-VS-2020
+description: Learn how you can use the Initialize Correlation dialog box in the Workflow Designer to edit the CorrelationData property of an InitializeCorrelation activity.
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - InitializeCorrelation.UI
 ms.assetid: 2a0a1cd3-7b9e-493e-9264-fcf85289ffcf
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
 - multiple
 ---
 # Initialize Correlation Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Initialize Correlation** dialog box is used in Workflow Designer to edit the <xref:System.ServiceModel.Activities.InitializeCorrelation.CorrelationData%2A> property of an <xref:System.ServiceModel.Activities.InitializeCorrelation> activity. For more information, see [InitializeCorrelation](../workflow-designer/initializecorrelation-activity-designer.md).
 

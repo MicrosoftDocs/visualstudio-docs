@@ -1,7 +1,6 @@
 ---
 title: "How to: Export a Texture that has Premultiplied Alpha"
 description: Learn how the Image Content Pipeline generates premultiplied alpha textures from a source image that can be simpler to use and more robust.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 05348afa-f079-4f53-a05b-ecd91d13adab
@@ -13,6 +12,8 @@ ms.workload:
   - "multiple"
 ---
 # How to: Export a texture that has premultiplied alpha
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Image Content Pipeline can generate premultiplied alpha textures from a source image. These can be simpler to use and more robust than textures that do not contain premultiplied alpha.
 

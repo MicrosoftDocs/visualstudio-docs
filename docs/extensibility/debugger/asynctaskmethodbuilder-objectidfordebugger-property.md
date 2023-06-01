@@ -6,14 +6,16 @@ ms.topic: reference
 helpviewer_keywords:
 - ObjectForDebugger property, AsyncTaskMethodBuilder structure [.NET Framework debug engines]
 ms.assetid: 78338537-b451-4655-9f04-a21f6fe197a3
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # AsyncTaskMethodBuilder.ObjectIdForDebugger property
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets an object that may be used to uniquely identify this builder to the debugger.
 
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>

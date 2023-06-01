@@ -1,7 +1,6 @@
 ---
 title: Go To Command
 description: Learn about the Go To command and how it moves the cursor to the specified line.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # Go To Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Moves the cursor to the specified line.
 
 ## Syntax

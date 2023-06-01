@@ -1,7 +1,6 @@
 ---
 title: Create and configure TableAdapters
 description: Review how to create and configure a TableAdapter in Visual Studio. TableAdapters provide communication between your application and a database.
-ms.custom: SEO-VS-2020
 ms.date: 09/01/2017
 ms.topic: how-to
 helpviewer_keywords:
@@ -19,6 +18,10 @@ ms.workload:
 - data-storage
 ---
 # Create and configure TableAdapters
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 TableAdapters provide communication between your application and a database. They connect to the database, run queries or stored procedures, and either return a new data table or fill an existing <xref:System.Data.DataTable> with the returned data. TableAdapters can also send updated data from your application back to the database.
 

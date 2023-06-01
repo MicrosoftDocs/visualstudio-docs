@@ -1,7 +1,6 @@
 ---
 title: Add a Threshold Rule for load testing
 description: Learn about threshold rules in load tests, which compare a performance counter value with either a constant value or another performance counter value.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -16,6 +15,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # How to: Add a threshold rule using the load test editor
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Threshold rules in load tests compare a performance counter value with either a constant value or another performance counter value.
 

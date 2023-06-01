@@ -1,7 +1,6 @@
 ---
 title: Load Test Logging Settings
 description: Learn how to modify load test logging settings to control the amount of performance data collected, which can lead to very large result files.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -13,6 +12,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # Modify load test logging settings
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The load test result for the completed load test contains performance counter samples and error information that was collected in a log periodically from the computers-under-test. A large number of performance counter samples can be collected over the course of a load test run. The amount of performance data that is collected depends on the length of the run, the sampling interval, the number of computers under test, and the number of counters to collect. For a large load test, the amount of performance data that is collected can easily be several gigabytes; therefore, you might consider modifying how often data is saved to the log. See [Test controllers and test agents](configure-test-agents-and-controllers-for-load-tests.md).
 

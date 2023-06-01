@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugField::GetExtendedInfo method
 ms.assetid: 46c0dd4d-4fd5-4efd-a908-71e4248e8e8d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugField::GetExtendedInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets extended information about a field.
 
 ## Syntax
 
-```cpp
-HRESULT GetExtendedInfo( 
-   REFGUID guidExtendedInfo,
-   BYTE**  prgBuffer,
-   DWORD*  pdwLen
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetExtendedInfo(
    ref Guid guidExtendedInfo,
@@ -38,6 +33,15 @@ int GetExtendedInfo(
    ref uint pdwLen
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetExtendedInfo( 
+   REFGUID guidExtendedInfo,
+   BYTE**  prgBuffer,
+   DWORD*  pdwLen
+);
+```
+---
 
 ## Parameters
 `guidExtendedInfo`\

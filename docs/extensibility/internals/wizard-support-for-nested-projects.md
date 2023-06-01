@@ -1,7 +1,6 @@
 ---
 title: Wizard Support for Nested Projects | Microsoft Docs
 description: Learn about the two wizards that a parent project can implement for nested projects in your VSPackage in the Visual Studio SDK.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,14 +8,16 @@ helpviewer_keywords:
 - nested projects, wizard support
 - New Project wizard
 ms.assetid: 1b496acc-b326-4cdb-bb48-e3b5c6f12e05
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Wizard Support for Nested Projects
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The IDE runs two wizards that the parent project for nested projects can implement: the **New Project** wizard and the **Add Item** wizard.
 
  If a user starts the **New Project** wizard by selecting **Add Project** and clicking **New Project** on the File menu or by selecting **Add** and right-clicking **New Project** in Solution Explorer, the IDE runs the **AddProject** command and the parent project's implementation of the **AddProject** command either returns a template project file, or a wizard (.vsz) file that has a set of context parameters.

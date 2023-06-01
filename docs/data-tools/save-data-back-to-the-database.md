@@ -1,7 +1,6 @@
 ---
 title: Save data back to the database
 description: Use DataSet tools to save data back to the database. The dataset is an in-memory copy of data that should be saved back to the database if it's modified.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -25,6 +24,10 @@ ms.workload:
 - data-storage
 ---
 # Save data back to the database
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 The dataset is an in-memory copy of data. If you modify that data, it's a good practice to save those changes back to the database. You do this in one of three ways:
 

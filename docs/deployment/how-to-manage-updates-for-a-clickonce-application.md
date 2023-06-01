@@ -1,7 +1,6 @@
 ---
 title: Manage Updates for a ClickOnce Application | Microsoft Docs
 description: Learn about options to check for updates automatically or programmatically for your ClickOnce applications.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -24,11 +23,15 @@ ms.workload:
   - multiple
 ---
 # How to: Manage updates for a ClickOnce application
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications can check for updates automatically or programmatically. As a developer, you have lots of flexibility in specifying when and how update checks are performed, whether updates are mandatory, and where the application should check for updates.
 
  You can configure the application to check for updates automatically before the application starts, or at set intervals after the application starts. In addition you can specify a minimum required version; that is, an update is installed if the user's version is lower than the required version.
 
  You can configure the application to check for updates programmatically based on an event such as a user request. The procedure "To check for updates programmatically" in this topic shows how you would write code that uses the <xref:System.Deployment.Application.ApplicationDeployment> class to check for updates based on an event.
+
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
 
  You can also deploy your application from one location and update it from another. See the procedure "To specify a different update location."
 
@@ -41,6 +44,8 @@ ms.workload:
 1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
 2. Click the **Publish** tab.
+
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 3. Click the **Updates** button to open the **Application Updates** dialog box.
 
@@ -61,6 +66,8 @@ ms.workload:
 5. In the **Choose when the application should check for updates section**, select **After the application starts**. The application will start more quickly this way, and then it will check for updates in the background, and only notify the user when an update is available. Once installed, updates will not take effect until the application is restarted.
 
 6. In the **Specify how frequently the application should check for updates** section, select either **Check every time the application runs** (the default) or **Check every** and enter a number and time interval.
+
+[!INCLUDE[ndptecclick](../deployment/includes/dotnet-task-unsupported.md)]
 
 ### To specify a minimum required version for the application
 

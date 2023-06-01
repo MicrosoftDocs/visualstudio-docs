@@ -1,7 +1,6 @@
 ---
 title: Bind WPF controls to a dataset
 description: Create a WPF application in Visual Studio that contains data-bound controls, which are bound to product records that are encapsulated in a dataset.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -20,6 +19,10 @@ ms.workload:
 - data-storage
 ---
 # Bind WPF controls to a dataset
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 In this walkthrough, you create a WPF application that contains data-bound controls. The controls are bound to product records that are encapsulated in a dataset. You also add buttons to browse through products and save changes to product records.
 
@@ -53,29 +56,11 @@ Prior knowledge of the following concepts is also helpful, but not required to c
 
 Create a new WPF project to display product records.
 
-::: moniker range="vs-2017"
-
-1. Open Visual Studio.
-
-2. On the **File** menu, select **New** > **Project**.
-
-3. Expand **Visual Basic** or **Visual C#**, and then select **Windows**.
-
-4. Select the **WPF App** project template.
-
-5. In the **Name** box, enter **AdventureWorksProductsEditor** and then select **OK**.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 1. Open Visual Studio.
 
 2. On the start window, choose **Create a new project**.
 
 3. Search for the C# **WPF App** project template and follow the steps to create the project, naming the project **AdventureWorksProductsEditor**.
-
-::: moniker-end
 
    Visual Studio creates the AdventureWorksProductsEditor project.
 
@@ -196,20 +181,32 @@ Add code that enables users to scroll through product records by using the **\<*
 
 2. Modify the `Window_Loaded` event handler, so the `ProductViewSource`, `AdventureWorksLTDataSet`, and `AdventureWorksLTDataSetProductTableAdapter` are outside of the method and accessible to the entire form. Declare only these to be global to the form, and assign them within the `Window_Loaded` event handler similar to the following:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/data_wpfdataset/cs/mainwindow.xaml.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/data_wpfdataset/vb/mainwindow.xaml.vb" id="Snippet1":::
+     ---
 
 3. Add the following code to the `backButton_Click` event handler:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/data_wpfdataset/cs/mainwindow.xaml.cs" id="Snippet2":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/data_wpfdataset/vb/mainwindow.xaml.vb" id="Snippet2":::
+     ---
 
 4. Return to the designer and double-click the **>** button.
 
 5. Add the following code to the `nextButton_Click` event handler:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/data_wpfdataset/cs/mainwindow.xaml.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/data_wpfdataset/vb/mainwindow.xaml.vb" id="Snippet3":::
+     ---
 
 ## Save changes to product records
 
@@ -221,8 +218,12 @@ Add code that enables users to save changes to product records by using the **Sa
 
 2. Add the following code to the `saveButton_Click` event handler:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_ProTools/data_wpfdataset/cs/mainwindow.xaml.cs" id="Snippet4":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/data_wpfdataset/vb/mainwindow.xaml.vb" id="Snippet4":::
+     ---
 
     > [!NOTE]
     > This example uses the `Save` method of the `TableAdapter` to save the changes. This is appropriate in this walkthrough, because only one data table is being changed. If you need to save changes to multiple data tables, you can alternatively use the `UpdateAll` method of the `TableAdapterManager` that Visual Studio generates with your dataset. For more information, see [TableAdapters](../data-tools/create-and-configure-tableadapters.md).

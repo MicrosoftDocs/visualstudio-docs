@@ -1,7 +1,7 @@
 ---
 title: 'How to: Use Wizards with Project Templates'
 description: Learn how to use the IWizard interface in the Visual Studio SDK, which enables you to run custom code when a user creates a project from a template.
-ms.custom: SEO-VS-2020
+ms.custom: UpdateFrequency3
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
@@ -11,14 +11,16 @@ helpviewer_keywords:
 - templates [Visual Studio], wizards
 - IWizard interface
 ms.assetid: 47ee26cf-67b7-4ff1-8a9d-ab11a725405c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # How to: Use wizards with project templates
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides the <xref:Microsoft.VisualStudio.TemplateWizard.IWizard> interface that, when implemented, enables you to run custom code when a user creates a project from a template.
 
@@ -57,11 +59,11 @@ This procedure shows how to create a custom wizard that opens a Windows Form bef
 
 2. In **Solution Explorer**, select the VSIX project node. Below **Solution Explorer**, you should see the **Properties** window. If you do not, select **View** > **Properties Window**, or press **F4**. In the **Properties** window, select the following fields to `true`:
 
-   - **Include Assembly In VSIX Container**
+   - **Include Assembly in VSIX Container**
 
-   - **Include Debug Symbols In VSIX Container**
+   - **Include Debug Symbols in Local VSIX Deployment**
 
-   - **Include Debug Symbols In Local VSIX Deployment**
+   - **Include Debug Symbols in VSIX Container**
 
 3. Add the assembly as an asset to the VSIX project. Open the *source.extension.vsixmanifest* file and select the **Assets** tab. In the **Add New Asset** window, for **Type** select **Microsoft.VisualStudio.Assembly**, for **Source** select **A project in current solution**, and for **Project** select **MyProjectWizard**.
 

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - IDebugExpressionEvaluator2::GetService
 - GetService
 ms.assetid: f8988a9e-9d18-42af-84a7-55f41e9adf63
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,23 +18,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpressionEvaluator2::GetService
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a service object given its unique identifier.
 
 ## Syntax
 
-```cpp
-HRESULT GetService (
-   GUID        uid,
-   IUnknown ** ppService
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetService (
    Guid       uid,
    out object ppService
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetService (
+   GUID        uid,
+   IUnknown ** ppService
+);
+```
+---
 
 ## Parameters
 `uid`\

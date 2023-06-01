@@ -1,7 +1,6 @@
 ---
 title: "Custom (Debug Interface Access SDK) | Microsoft Docs"
 description: Find reference information about custom symbol types (identified with the SymTagCustom tag) in the Visual Studio debug interface access SDK.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -17,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # Custom (Debug Interface Access SDK)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Some compilers introduce symbols that are not identified by any of the standard lexical symbol types. These symbols are identified by a `SymTagCustom` tag.
 
 ## Properties

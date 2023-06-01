@@ -1,7 +1,6 @@
 ---
 title: Editing Load Tests
 description: Learn about the differences between scenarios, counter sets, and run settings, which define load tests.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -14,6 +13,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # Edit load tests
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Load tests run web performance tests or unit tests to simulate many users accessing a server at the same time. A load test gives you access to application stress and performance data. A load test can be configured to emulate various load conditions such as user loads and network types.
 

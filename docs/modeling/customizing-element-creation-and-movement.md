@@ -1,7 +1,6 @@
 ---
 title: Customizing Element Creation and Movement
 description: Learn how you can allow an element to be dragged onto another, either from the toolbox or in a paste or move operation.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -16,6 +15,8 @@ ms.workload:
 - multiple
 ---
 # Customizing Element Creation and Movement
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can allow an element to be dragged onto another, either from the toolbox or in a paste or move operation. You can have the moved elements linked to the target elements, using the relationships that you specify.
 

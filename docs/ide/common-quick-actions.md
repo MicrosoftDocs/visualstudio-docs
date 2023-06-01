@@ -1,7 +1,7 @@
 ---
 title: Common Quick Actions
 description: Most popular Quick Actions for C# and Visual Basic including fixing misspelled keywords or symbols, resolving merge conflicts, removing necessary imports, generating types, introducing local variables, etc.
-ms.date: 03/28/2018
+ms.date: 05/20/2022
 ms.topic: reference
 author: TerryGLee
 ms.author: tglee
@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Common Quick Actions
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The sections in this topic list some of the common **Quick Actions** that are applicable to both C# and Visual Basic code. These actions are *code fixes* for either compiler diagnostics, or the built-in [.NET Compiler Platform analyzers](../code-quality/roslyn-analyzers-overview.md) in Visual Studio.
 
 ## Actions that fix errors
@@ -27,6 +29,7 @@ The Quick Actions in this section fix errors in code that would cause a build to
 
 If you accidentally misspell a type or keyword in Visual Studio, this Quick Action automatically corrects it for you. You'll see these items in the light bulb menu as **"Change '\<misspelled word>' to '\<correct word>'"**. For example:
 
+### [C#](#tab/csharp)
 ```csharp
 // Before
 private viod MyMethod()
@@ -41,6 +44,7 @@ private void MyMethod()
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 ' Before
 Function MyFunction as Intger
@@ -52,6 +56,7 @@ End Function
 Function MyFunction as Integer
 End Function
 ```
+---
 
 | Error ID | Applicable Languages |
 | - | - |
@@ -101,6 +106,7 @@ The **Remove Unnecessary Usings/Imports** Quick Action removes any unused `using
 
 If you cast a type to another type that doesn't require a cast, the **Remove Unnecessary Cast** Quick Action item removes the unnecessary cast.
 
+### [C#](#tab/csharp)
 ```csharp
 // before
 int number = (int)3;
@@ -111,6 +117,7 @@ int number = (int)3;
 int number = 3;
 ```
 
+### [VB](#tab/vb)
 ```vb
 ' Before
 Dim number as Integer = CType(3, Integer)
@@ -120,6 +127,7 @@ Dim number as Integer = CType(3, Integer)
 ' After
 Dim number as Integer = 3
 ```
+---
 
 | Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ---------------- |
@@ -174,13 +182,24 @@ void DoWork(CancellationToken cancellationToken = default) { ... }
 
 ### Add usings/imports for types in reference assemblies, NuGet packages, or other types in your solution
 
-Using types located in other projects in your solution will display the Quick Action automatically, however the others need to be enabled from the **Tools > Options > C#** or **Basic > Advanced** tab:
+::: moniker range="vs-2022"
+
+Using types located in other projects in your solution will display the Quick Action automatically, however the others need to be enabled from the **Tools > Options > Text Editor > C#** or **Visual Basic > Advanced** tab:
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
+
+Using types located in other projects in your solution will display the Quick Action automatically, however the others need to be enabled from the **Tools > Options > Text Editor > C#** or **Basic > Advanced** tab:
+
+::: moniker-end
 
 - Suggest usings/imports for types in reference assemblies
 - Suggest usings/imports for types in NuGet packages
 
 When enabled, if you use a type in a namespace that is currently not imported but exists in a reference assembly or NuGet package, the using or import directive is created.
 
+### [C#](#tab/csharp)
 ```csharp
 // Before
 Debug.WriteLine("Hello");
@@ -193,6 +212,7 @@ using System.Diagnostics;
 Debug.WriteLine("Hello");
 ```
 
+### [VB](#tab/vb)
 ```vb
 ' Before
 Debug.WriteLine("Hello")
@@ -204,6 +224,7 @@ Imports System.Diagnostics
 
 Debug.WriteLine("Hello")
 ```
+---
 
 | Diagnostic ID | Applicable Languages |
 | - | - |
@@ -215,6 +236,7 @@ When creating a `switch` statement in C#, or `Select Case` statement in Visual B
 
 Consider the following enumeration and empty `switch` or `Select Case` statement:
 
+### [C#](#tab/csharp)
 ```csharp
 enum MyEnum
 {
@@ -232,6 +254,7 @@ switch(myEnum)
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 Enum MyEnum
     Item1
@@ -246,9 +269,11 @@ Dim myEnum as MyEnum = MyEnum.Item1
 Select Case myEnum
 End Select
 ```
+---
 
 Using the **Add Both** Quick Action fills in missing cases and adds a default case:
 
+### [C#](#tab/csharp)
 ```csharp
 switch(myEnum)
 {
@@ -263,6 +288,7 @@ switch(myEnum)
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 Select Case myEnum
     Case MyEnum.Item1
@@ -273,6 +299,7 @@ Select Case myEnum
         Exit Select
 End Select
 ```
+---
 
 | Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ---------------- |
@@ -391,6 +418,7 @@ private static int thisFieldIsPublic;
 
 This Quick Action enables you to convert an **if-then-else** construct to a **switch** construct.
 
+### [C#](#tab/csharp)
 ```csharp
 // Before
 if (obj is string s)
@@ -417,6 +445,7 @@ switch (obj)
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 ' Before
 If TypeOf obj Is String s Then
@@ -437,6 +466,7 @@ Select Case obj
     Exit Sub
 End Select
 ```
+---
 
 | Applicable Languages | Supported Version |
 | -------------------- | ---------------- |
@@ -446,6 +476,7 @@ End Select
 
 [Interpolated strings](/dotnet/csharp/language-reference/keywords/interpolated-strings) are an easy way to express strings with embedded variables, similar to the **[String.Format](/dotnet/api/system.string.format#overloads)** method.  This Quick Action recognizes cases where strings are concatenated, or using **String.Format**, and changes the usage to an interpolated string.
 
+### [C#](#tab/csharp)
 ```csharp
 // Before
 int num = 3;
@@ -458,6 +489,7 @@ int num = 3;
 string s = $"My string with {num} in the middle";
 ```
 
+### [VB](#tab/vb)
 ```vb
 ' Before
 Dim num as Integer = 3
@@ -469,6 +501,7 @@ Dim s as String = String.Format("My string with {0} in the middle", num)
 Dim num as Integer = 3
 Dim s As String = $"My string with {num} in the middle"
 ```
+---
 
 | Applicable Languages | Supported Version |
 | -------------------- | ---------------- |
@@ -478,6 +511,7 @@ Dim s As String = $"My string with {num} in the middle"
 
 This Quick Action enables you to use [object initializers](/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers) rather than invoking the constructor and having additional lines of assignment statements.
 
+### [C#](#tab/csharp)
 ```csharp
 // Before
 var c = new Customer();
@@ -489,6 +523,7 @@ c.Age = 21;
 var c = new Customer() { Age = 21 };
 ```
 
+### [VB](#tab/vb)
 ```vb
 ' Before
 Dim c = New Customer()
@@ -499,6 +534,7 @@ c.Age = 21
 ' After
 Dim c = New Customer() With {.Age = 21}
 ```
+---
 
 | Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ---------------- |
@@ -508,6 +544,7 @@ Dim c = New Customer() With {.Age = 21}
 
 This Quick Action lets you use [collection initializers](/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers) rather than multiple calls to the `Add` method of your class.
 
+### [C#](#tab/csharp)
 ```csharp
 // Before
 var list = new List<int>();
@@ -521,6 +558,7 @@ list.Add(3);
 var list = new List<int> { 1, 2, 3 };
 ```
 
+### [VB](#tab/vb)
 ```vb
 ' Before
 Dim list = New List(Of Integer)
@@ -533,6 +571,7 @@ list.Add(3)
 ' After
 Dim list = New List(Of Integer) From {1, 2, 3}
 ```
+---
 
 | Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ---------------- |
@@ -542,6 +581,7 @@ Dim list = New List(Of Integer) From {1, 2, 3}
 
 This Quick Action enables you to convert an auto property to a full property, and vice versa.
 
+### [C#](#tab/csharp)
 ```csharp
 // Before
 private int MyProperty { get; set; }
@@ -556,6 +596,7 @@ private int MyProperty
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 ' Before
 Public Property Name As String
@@ -574,6 +615,7 @@ Public Property Name As String
     End Set
 End Property
 ```
+---
 
 | Applicable Languages | Supported Version |
 | -------------------- | ---------------- |
@@ -730,6 +772,7 @@ if (o is string s)
 
 This Quick Action enables you to convert a numeric literal from one base numeric system to another. For example, you can change a number to hexadecimal or to binary format.
 
+### [C#](#tab/csharp)
 ```csharp
 // Before
 int countdown = 2097152;
@@ -740,6 +783,7 @@ int countdown = 2097152;
 int countdown = 0x200000;
 ```
 
+### [VB](#tab/vb)
 ```vb
 ' Before
 Dim countdown As Integer = 2097152
@@ -749,6 +793,7 @@ Dim countdown As Integer = 2097152
 ' After
 Dim countdown As Integer = &H200000
 ```
+---
 
 | Applicable Languages | Supported Version |
 | ------- | -------------------- | ---------------- |
@@ -758,6 +803,7 @@ Dim countdown As Integer = &H200000
 
 This Quick Action enables you to add separator characters into literal values.
 
+### [C#](#tab/csharp)
 ```csharp
 // Before
 int countdown = 1000000;
@@ -768,6 +814,7 @@ int countdown = 1000000;
 int countdown = 1_000_000;
 ```
 
+### [VB](#tab/vb)
 ```vb
 ' Before
 Dim countdown As Integer = 1000000
@@ -777,6 +824,7 @@ Dim countdown As Integer = 1000000
 ' After
 Dim countdown As Integer = 1_000_000
 ```
+---
 
 | Applicable Languages | Supported Version |
 | ------- | -------------------- | ---------------- |
@@ -786,6 +834,7 @@ Dim countdown As Integer = 1_000_000
 
 This Quick Action identifies areas where the explicit tuple name can be used rather than Item1, Item2, etc.
 
+### [C#](#tab/csharp)
 ```csharp
 // Before
 (string name, int age) customer = GetCustomer();
@@ -798,6 +847,7 @@ var name = customer.Item1;
 var name = customer.name;
 ```
 
+### [VB](#tab/vb)
 ```vb
 ' Before
 Dim customer As (name As String, age As Integer) = GetCustomer()
@@ -809,6 +859,7 @@ Dim name = customer.Item1
 Dim customer As (name As String, age As Integer) = GetCustomer()
 Dim name = customer.name
 ```
+---
 
 | Diagnostic ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ---------------- |
@@ -873,6 +924,7 @@ Console.WriteLine($"{x} {y}");
 
 When using the `async` or `Async` keyword on a method, it's expected that inside that method the `await` or `Await` keyword is also used. However, if this isn't the case, a Quick Action appears that makes the method synchronous by removing the `async` or `Async` keyword and changing the return type. Use the **Make method synchronous** option from the Quick Actions menu.
 
+### [C#](#tab/csharp)
 ```csharp
 // Before
 async Task<int> MyAsyncMethod()
@@ -889,6 +941,7 @@ int MyAsyncMethod()
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 ' Before
 Async Function MyAsyncMethod() As Task(Of Integer)
@@ -902,6 +955,7 @@ Function MyAsyncMethod() As Integer
     Return 3
 End Function
 ```
+---
 
 | Error ID | Applicable Languages |
 | ------- | -------------------- |
@@ -911,6 +965,7 @@ End Function
 
 When using the `await` or `Await` keyword inside of a method, it's expected that the method is marked with the `async` or `Async` keyword. However, if this isn't the case, a Quick Action appears that makes the method asynchronous. Use the **Make method/Function asynchronous** option from the Quick Actions menu.
 
+### [C#](#tab/csharp)
 ```csharp
 // Before
 int MyAsyncMethod()
@@ -927,6 +982,7 @@ async Task<int> MyAsyncMethod()
 }
 ```
 
+### [VB](#tab/vb)
 ```vb
 ' Before
 Function MyAsyncMethod() as Integer
@@ -940,6 +996,7 @@ Async Function MyAsyncMethod() As Task(Of Integer)
     Return Await Task.Run(...)
 End Function
 ```
+---
 
 | Error ID | Applicable Languages | Supported Version |
 | ------- | -------------------- | ---------------- |

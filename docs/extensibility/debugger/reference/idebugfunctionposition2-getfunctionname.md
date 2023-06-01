@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugFunctionPosition2::GetFunctionName
 ms.assetid: eb7a348e-a7f5-4f25-be68-80482d5482a8
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugFunctionPosition2::GetFunctionName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of the function to which this position points.
 
 ## Syntax
 
-```cpp
-HRESULT GetFunctionName( 
-   BSTR* pbstrFunctionName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetFunctionName(
    out string pbstrFunctionName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetFunctionName( 
+   BSTR* pbstrFunctionName
+);
+```
+---
 
 ## Parameters
 `pbstrFunctionName`\

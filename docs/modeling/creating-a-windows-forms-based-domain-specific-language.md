@@ -7,11 +7,12 @@ author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
 ms.technology: vs-ide-modeling
-ms.custom: SEO-VS-2020
 ms.workload:
 - multiple
 ---
 # Create a Windows Forms-based Domain-Specific Language
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use Windows Forms to display the state of a domain-specific language (DSL) model, instead of using a DSL diagram. This topic walks you through binding a Windows Form to a DSL by using the Visual Studio Visualization and Modeling SDK.
 
@@ -84,6 +85,9 @@ The following image is the DSL definition used in this walkthrough.
     - `Field` - Give this an additional domain property named `Size`.
 
     - `Animal` - In the Properties window, set **Inheritance Modifier** to **Abstract**.
+
+    > [!NOTE]
+    > The **Named Domain Class** tool and the other tools mentioned in this section are found in the **Toolbox** tool window. You can open or hide this window with **View** > **Toolbox**.
 
 5. Use the **Domain Class** tool to create the following classes:
 

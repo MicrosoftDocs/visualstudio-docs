@@ -1,21 +1,22 @@
 ---
 title: 'Test Area 7: Share | Microsoft Docs'
 description: This source control test area covers sharing items between locations by using the Share command for your Visual Studio source control plug-in.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], sharing items
 - source control plug-ins, sharing items
 ms.assetid: 6ec4780a-bda4-4327-bb3e-c6c9e7eabf35
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Test Area 7: Share
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This test area covers sharing items between locations via the **Share** command.
 
  A hhare operation is the apparent duplication of files and folder items between two or more locations within a source control file hierarchy. Duplication does not really occur on the server, but the user does see the same file in two or more specified locations. Whenever changes are made to any of the shared items, those changes appear in all other shared locations.

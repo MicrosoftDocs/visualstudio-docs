@@ -1,12 +1,15 @@
 ---
 title: "IntelliSense"
 description: "Information on using IntelliSense in Visual Studio for Mac"
-author: cobey
-ms.author: cobey
+author: heiligerdankgesang 
+ms.author: dominicn
+manager: dominicn
 ms.date: 08/16/2019
+ms.topic: reference
 ---
-
 # IntelliSense
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 IntelliSense provides several features to help enhance the experience of writing and editing code. For example, in addition to code completion, the IntelliSense engine also provides member lists, parameter info, and quick info.
 

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugErrorEvent2::GetErrorMessage
 ms.assetid: 9e3b0d74-a2dd-4eaa-bd95-21b2f9c79409
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugErrorEvent2::GetErrorMessage
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns information that allows construction of a human-readable error message.
 
 ## Syntax
 
-```cpp
-HRESULT GetErrorMessage(
-   MESSAGETYPE* pMessageType,
-   BSTR*        pbstrErrorFormat,
-   HRESULT*     hrErrorReason,
-   DWORD*       pdwType,
-   BSTR*        pbstrHelpFileName,
-   DWORD*       pdwHelpId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetErrorMessage(
    out enum_MESSAGETYPE   pMessageType,
@@ -44,6 +36,18 @@ int GetErrorMessage(
    out uint               pdwHelpId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetErrorMessage(
+   MESSAGETYPE* pMessageType,
+   BSTR*        pbstrErrorFormat,
+   HRESULT*     hrErrorReason,
+   DWORD*       pdwType,
+   BSTR*        pbstrHelpFileName,
+   DWORD*       pdwHelpId
+);
+```
+---
 
 ## Parameters
 `pMessageType`\

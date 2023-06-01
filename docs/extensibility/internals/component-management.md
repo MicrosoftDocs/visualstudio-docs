@@ -1,21 +1,22 @@
 ---
 title: Component Management | Microsoft Docs
 description: Learn how to manage Windows Installer components when creating a VSPackage installer in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - installation [Visual Studio SDK], components
 - installation [Visual Studio SDK], file management
 ms.assetid: 029bffa2-6841-4caa-a41a-442467e1aedc
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Component management
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Units of tasks in the Windows Installer are referred to as Windows Installer components (sometimes called WICs or just components). A GUID identifies each WIC, which is the basic unit of installation and reference counting for setups that use Windows Installer.
 
  Although you can use several products to create your VSPackage installer, this discussion assumes the use of Windows Installer (*.msi*) files. When creating your installer, you must correctly manage file deployment so that the correct reference counting happens at all times. Consequently, different versions of your product will not interfere with or break each other in a mix of install and uninstall scenarios.

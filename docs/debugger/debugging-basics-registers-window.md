@@ -1,7 +1,6 @@
 ---
 title: "About the Registers window | Microsoft Docs"
 description: Learn about the Registers window in Visual Studio, which is available only if address-level debugging is enabled in the Options dialog box, Debugging node.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -22,6 +21,8 @@ ms.workload:
   - "multiple"
 ---
 # About the Registers Window in Visual Studio (C#, C++, Visual Basic, F#)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Registers** window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node.
 

@@ -1,7 +1,6 @@
 ---
 title: Analyze load test results
 description: Learn how to access load test results for analysis, either automatically through the Load Test Analyzer or manually for tests from the command line.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -19,6 +18,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # How to: Access load test results for analysis
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you run a load test from the Load Test Editor, the load test results open automatically and the running load test is displayed in the **Load Test Analyzer**. When you run a load test from the command line, you must access the load test results manually.
 

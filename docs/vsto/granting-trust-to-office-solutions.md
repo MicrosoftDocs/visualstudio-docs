@@ -1,7 +1,6 @@
 ---
 title: "Grant trust to Office solutions"
 description: To grant trust to Office solutions means to modify the security policy of each target computer to trust the solution assembly, deployment manifest, and document.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -20,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Grant trust to Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Grant trust to Office solutions means modifying the security policy of each target computer to trust the solution assembly, application manifest, deployment manifest, and document. Trust can be granted to the Office solution by either you or the end user.
 
  You can grant full trust to the Office solution by signing the application and deployment manifests.

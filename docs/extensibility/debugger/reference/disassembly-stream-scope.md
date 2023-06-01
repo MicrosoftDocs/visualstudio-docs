@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - DISASSEMBLY_STREAM_SCOPE enumeration
 ms.assetid: 43e2b364-cbbe-4755-a7e6-a03f3054c965
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,22 @@ dev_langs:
 - CSharp
 ---
 # DISASSEMBLY_STREAM_SCOPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the scope of the disassembly stream.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_DISASSEMBLY_STREAM_SCOPE {
+    DSS_HUGE     = 0x10000000,
+    DSS_FUNCTION = 0x0001,
+    DSS_MODULE   = (DSS_HUGE) | 0x0002,
+    DSS_ALL      = (DSS_HUGE) | 0x0003
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_DISASSEMBLY_STREAM_SCOPE {
     DSS_HUGE     = 0x10000000,
@@ -32,15 +44,7 @@ enum enum_DISASSEMBLY_STREAM_SCOPE {
 };
 typedef DWORD DISASSEMBLY_STREAM_SCOPE;
 ```
-
-```csharp
-public enum enum_DISASSEMBLY_STREAM_SCOPE {
-    DSS_HUGE     = 0x10000000,
-    DSS_FUNCTION = 0x0001,
-    DSS_MODULE   = (DSS_HUGE) | 0x0002,
-    DSS_ALL      = (DSS_HUGE) | 0x0003
-};
-```
+---
 
 ## Fields
 `DSS_HUGE`\

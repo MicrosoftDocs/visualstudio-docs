@@ -1,7 +1,7 @@
 ---
 title: "Unit testing JavaScript and TypeScript"
 description: Visual Studio provides support unit testing JavaScript and TypeScript code using the Node.js Tools for Visual Studio
-ms.date: "09/20/2021"
+ms.date: "10/21/2022"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -13,8 +13,9 @@ dev_langs:
 ms.workload:
   - "nodejs"
 ---
-
 # Unit testing JavaScript and TypeScript in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can write and run unit tests in Visual Studio using some of the more popular
 JavaScript frameworks without the need to switch to a command prompt. Both Node.js and ASP.NET Core projects are supported.
@@ -34,16 +35,16 @@ If your favorite framework is not supported, see [Add support for a unit test fr
 ::: moniker range=">=vs-2022"
 ## Write unit tests for a CLI-based project (.esproj)
 
-The CLI-based projects supported in Visual Studio 2022 work with Test Explorer. Jest is the built-in test framework for React and Vue projects, and Karma and Jasmine is used for Angular projects. By default, you will be able to run the default tests provided by each framework, as well as any additional tests you write.  Just hit the **Run** button in Test Explorer. If you don’t already have Test Explorer open, you can find it by selecting **Test** > **Test Explorer** in the menu bar.
+The [CLI-based projects](../javascript/javascript-in-vs-2022.md#project-templates) supported in Visual Studio 2022 work with Test Explorer. Jest is the built-in test framework for React and Vue projects, and Karma and Jasmine is used for Angular projects. By default, you will be able to run the default tests provided by each framework, as well as any additional tests you write.  Just hit the **Run** button in Test Explorer. If you don’t already have Test Explorer open, you can find it by selecting **Test** > **Test Explorer** in the menu bar.
 
 The Node.js development workload is required to support unit testing for CLI-based projects.
 
 Mocha and Tape test libraries are also supported. To use one of these, simply change the default test library in package.json to the appropriate test library’s package.
 ::: moniker-end
 
-## Write unit tests in a Node.js project
+## Write unit tests in a Node.js project (.njsproj)
 
-Before adding unit tests to your project, make sure the framework you plan to use is installed locally in your project. This is easy to do using the [npm package installation window](npm-package-management.md#npmInstallWindow).
+For Node.js projects, before adding unit tests to your project, make sure the framework you plan to use is installed locally in your project. This is easy to do using the [npm package installation window](npm-package-management.md#npmInstallWindow).
 
 The preferred way to add unit tests to your project is by creating a *tests* folder in
 your project, and setting that as the test root in project properties. You also need
@@ -94,12 +95,7 @@ You can run tests in Visual Studio or from the command line.
 
 ### Run tests in Visual Studio
 
-::: moniker range=">=vs-2019"
 You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by right-clicking and selecting **Debug**.
-::: moniker-end
-::: moniker range="vs-2017"
-You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run Selected Tests** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by selecting **Debug Selected Tests**.
-::: moniker-end
 
 For TypeScript, unit tests are run against the generated JavaScript code.
 
@@ -255,12 +251,7 @@ Test execution time: 1.5731 Seconds
 
 ## Run tests (ASP.NET Core)
 
-::: moniker range=">=vs-2019"
 You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by right-clicking and selecting **Debug**.
-::: moniker-end
-::: moniker range="vs-2017"
-You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run Selected Tests** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by selecting **Debug Selected Tests**.
-::: moniker-end
 
 For TypeScript, unit tests are run against the generated JavaScript code.
 
@@ -290,7 +281,7 @@ This folder has to contain a JavaScript file with the same name which exports th
 * `find_tests`
 * `run_tests`
 
-For good a example of the `find_tests` and the `run_tests` implementations, see the implementation for the Mocha
+For a good example of the `find_tests` and the `run_tests` implementations, see the implementation for the Mocha
 unit testing framework in:
 
 `<VisualStudioFolder>\Common7\IDE\Extensions\Microsoft\NodeJsTools\TestAdapter\TestFrameworks\mocha\mocha.js`

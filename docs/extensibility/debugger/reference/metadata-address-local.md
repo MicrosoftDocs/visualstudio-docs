@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - METADATA_ADDRESS_LOCAL structure
 ms.assetid: 635f6bc5-c486-4e0e-83db-36f15e543843
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,18 +20,13 @@ dev_langs:
 ---
 # METADATA_ADDRESS_LOCAL
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This structure represents the address of a local variable within a scope (usually a function or method).
 
 ## Syntax
 
-```cpp
-typedef struct _tagMETADATA_ADDRESS_LOCAL {
-    _mdToken  tokMethod;
-    IUnknown* pLocal;
-    DWORD     dwIndex;
-} METADATA_ADDRESS_LOCAL;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct METADATA_ADDRESS_LOCAL {
     public int    tokMethod;
@@ -39,6 +34,15 @@ public struct METADATA_ADDRESS_LOCAL {
     public uint   dwIndex;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagMETADATA_ADDRESS_LOCAL {
+    _mdToken  tokMethod;
+    IUnknown* pLocal;
+    DWORD     dwIndex;
+} METADATA_ADDRESS_LOCAL;
+```
+---
 
 ## Members
 

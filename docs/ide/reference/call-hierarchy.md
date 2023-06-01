@@ -1,7 +1,6 @@
 ---
 title: Find calls to a method
 description: Learn how to use the Call Hierarchy window to navigate all calls to, and sometimes from, a selected method, property, or constructor.
-ms.custom: SEO-VS-2020
 ms.date: 05/18/2018
 ms.topic: reference
 f1_keywords:
@@ -16,6 +15,8 @@ ms.workload:
 - multiple
 ---
 # View call hierarchy
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By viewing the call hierarchy for your code, you can navigate all calls to, and sometimes from, a selected method, property, or constructor. This enables you to better understand how code flows, and to evaluate the effects of changes to code. You can examine several levels of code to view complex chains of method calls and additional entry points to the code. This enables you to explore all possible execution paths.
 

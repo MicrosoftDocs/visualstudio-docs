@@ -1,7 +1,6 @@
 ---
 title: CvCreateMarkerSeriesWithCodePageA Function | Microsoft Docs
 description: See reference information for the Concurrency Visualizer SDK function CvCreateMarkerSeriesWithCodePageA (C library).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -17,6 +16,8 @@ ms.workload:
   - multiple
 ---
 # CvCreateMarkerSeriesWithCodePageA function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates marker series for a given provider and specified code page. This function can be used to specify the code page explicitly for the text written out by marker API ANSI functions. Setting the code page can be useful in case the trace is captured and then analyzed on different machines with different locales/languages. By default the code page returned by GetACP() function is used.
 
 ## Syntax

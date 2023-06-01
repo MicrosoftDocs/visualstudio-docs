@@ -1,7 +1,6 @@
 ---
 title: "Visio object model overview"
 description: Learn how you can interact with the Visio object model to develop Office solutions for Microsoft Visio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -22,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # Visio object model overview
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   To develop Office solutions for Microsoft Office Visio, you can interact with the Visio object model. This object model consists of classes and interfaces that are provided in the primary interop assembly for Visio, and are defined in the `Microsoft.Office.Interop.Visio` namespace.
 
  This topic provides a brief overview of the Visio object model. For information about using the Visio object model to perform tasks in Office projects, see the following topics:

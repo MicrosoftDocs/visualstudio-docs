@@ -2,7 +2,6 @@
 title: Mixed Recommended Rules rule set
 ms.date: 11/04/2016
 description: Learn about the Mixed Recommended Rules rule set in Visual Studio. See descriptions of rules for C++ projects that support the Common Language Runtime.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 author: mikejo5000
 ms.author: mikejo
@@ -12,6 +11,8 @@ ms.workload:
 - multiple
 ---
 # Mixed Recommended Rules rule set
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Microsoft Mixed Recommended Rules focus on the most common and critical problems in your C++ projects that support the Common Language Runtime, including potential security holes, application crashes, and other important logic and design errors. This rule set includes all of the rules in the [Mixed Minimum Rules](mixed-minimum-rules-rule-set.md) rule set.
 

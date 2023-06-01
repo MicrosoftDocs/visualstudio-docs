@@ -2,7 +2,7 @@
 title: "Project Settings for a C# debug config | Microsoft Docs"
 description: Understand how to change the project settings for a C# debug configuration in Visual Studio, using the Debug tab and Build tab of the project property pages.
 
-ms.date: "11/21/2018"
+ms.date: "01/13/2022"
 ms.topic: "reference"
 dev_langs:
   - "CSharp"
@@ -24,7 +24,9 @@ ms.technology: vs-ide-debug
 ms.workload:
   - "dotnet"
 ---
-# Project settings for  C# debug configurations
+# Project settings for C# debug configurations
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can change C# project debug settings in the [Debug tab](#debug-tab) and [Build tab](#build-tab) of the project property pages.
 
@@ -32,8 +34,14 @@ To open the property pages, select the project in **Solution Explorer** and then
 
 For more information, see [Debug and release configurations](how-to-set-debug-and-release-configurations.md).
 
+::: moniker range=">=vs-2022"
+>[!IMPORTANT]
+>These settings don't apply to .NET Core, ASP.NET, or UWP apps. To configure debug settings for .NET 5+ and .NET Core, see [Project settings for C# debug configurations (.NET 5+, .NET Core)](../debugger/project-settings-for-csharp-debug-configurations-dotnetcore.md).
+::: moniker-end
+::: moniker range="<=vs-2019"
 >[!IMPORTANT]
 >These settings don't apply to .NET Core, ASP.NET, or UWP apps. To configure debug settings for UWP apps, see [Start a debugging session for a UWP app](start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md).
+::: moniker-end
 
 ## Debug tab
 

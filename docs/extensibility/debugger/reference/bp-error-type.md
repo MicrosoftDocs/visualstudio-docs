@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - BP_ERROR_TYPE enumeration
 ms.assetid: c483eaab-db29-46de-bfdb-5c2a9a9cfb68
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,29 @@ dev_langs:
 - CSharp
 ---
 # BP_ERROR_TYPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the error type of a breakpoint.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_BP_ERROR_TYPE {
+    BPET_NONE            = 0x00000000,
+    BPET_TYPE_WARNING    = 0x00000001,
+    BPET_TYPE_ERROR      = 0x00000002,
+    BPET_SEV_HIGH        = 0x0F000000,
+    BPET_SEV_GENERAL     = 0x07000000,
+    BPET_SEV_LOW         = 0x01000000,
+    BPET_TYPE_MASK       = 0x0000ffff,
+    BPET_SEV_MASK        = 0xffff0000,
+    BPET_GENERAL_WARNING = BPET_SEV_GENERAL | BPET_TYPE_WARNING,
+    BPET_GENERAL_ERROR   = BPET_SEV_GENERAL | BPET_TYPE_ERROR,
+    BPET_ALL             = 0xffffffff
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_BP_ERROR_TYPE {
     BPET_NONE            = 0x00000000,
@@ -39,22 +58,7 @@ enum enum_BP_ERROR_TYPE {
 };
 typedef DWORD BP_ERROR_TYPE;
 ```
-
-```csharp
-public enum enum_BP_ERROR_TYPE {
-    BPET_NONE            = 0x00000000,
-    BPET_TYPE_WARNING    = 0x00000001,
-    BPET_TYPE_ERROR      = 0x00000002,
-    BPET_SEV_HIGH        = 0x0F000000,
-    BPET_SEV_GENERAL     = 0x07000000,
-    BPET_SEV_LOW         = 0x01000000,
-    BPET_TYPE_MASK       = 0x0000ffff,
-    BPET_SEV_MASK        = 0xffff0000,
-    BPET_GENERAL_WARNING = BPET_SEV_GENERAL | BPET_TYPE_WARNING,
-    BPET_GENERAL_ERROR   = BPET_SEV_GENERAL | BPET_TYPE_ERROR,
-    BPET_ALL             = 0xffffffff
-};
-```
+---
 
 ## Fields
 `BPET_NONE`\

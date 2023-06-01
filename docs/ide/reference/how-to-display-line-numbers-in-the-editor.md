@@ -1,8 +1,7 @@
 ---
 title: Display line numbers for code
-description: Learn how to display or hide line numbering in your code.
-ms.custom: SEO-VS-2020
-ms.date: 08/05/2021
+description: Learn how to show or hide line numbering in your code.
+ms.date: 07/08/2022
 ms.topic: how-to
 helpviewer_keywords:
 - line numbers, displaying
@@ -19,15 +18,18 @@ ms.workload:
 ---
 # How to: Display line numbers in the editor
 
-You can display or hide line numbering in your code.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-## Display line numbers in code
+You can show or hide line numbers in your code. Here's how.
 
-1. On the menu bar, choose **Tools** > **Options**. Expand the **Text Editor** node, and then select either the language you're using or **All Languages** to turn on line numbers in all languages. (Or, type **line number** in the search box and choose **Turn line numbers on or off** from the results.)
+1. On the menu bar, choose **Tools** > **Options**. Expand the **Text Editor** node, and then select either the language you're using or **All Languages** to turn on line numbers in all supported programming languages.
 
-2. Select the **Line numbers** checkbox.
+   > [!TIP]
+   > You can also type **line number** in the [Search](../visual-studio-search.md) box, and then choose **Turn line numbers on or off** from the results.
 
-   ![Option to display line numbers in the VS editor](../../ide/reference/media/line-numbers-option.png)
+2. Select the **Line numbers** checkbox to show line numbers, or clear the checkbox to hide line numbers.
+
+   ![Screenshot of the Options dialog you can use to show or hide line numbers in the Visual Studio editor.](../../ide/reference/media/line-numbers-option.png)
 
 > [!NOTE]
 > Line numbers aren't added to your code; they're just for reference.

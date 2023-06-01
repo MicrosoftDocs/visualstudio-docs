@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDisassemblyStream2::GetCodeLocationId
 ms.assetid: 567adfb8-2f54-499a-a027-e4ecb82277ef
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugDisassemblyStream2::GetCodeLocationId
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a code location identifier for a particular code context.
 
 ## Syntax
 
-```cpp
-HRESULT GetCodeLocationId( 
-   IDebugCodeContext2* pCodeContext,
-   UINT64*             puCodeLocationId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCodeLocationId( 
    IDebugCodeContext2 pCodeContext,
    out ulong          puCodeLocationId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCodeLocationId( 
+   IDebugCodeContext2* pCodeContext,
+   UINT64*             puCodeLocationId
+);
+```
+---
 
 ## Parameters
 `pCodeContext`\

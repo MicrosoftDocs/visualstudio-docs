@@ -1,7 +1,6 @@
 ---
 title: Add Counters to Counter Sets for load testing
 description: When you create a load test with the Load Test Wizard, you add an initial set of counters. Learn how to add counters by using Load Test Editor.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -15,6 +14,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # How to: Add counters to counter sets using the Load Test Editor
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you create a load test with the **Load Test Wizard**, you add an initial set of counters. These offer you a set of predefined counter sets for your load test. For more information, see [Specify the counter sets and threshold rules for computers in a load test](../test/specify-counter-sets-and-threshold-rules-for-load-testing.md).
 

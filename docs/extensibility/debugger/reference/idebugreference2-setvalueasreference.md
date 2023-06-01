@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugReference2::SetValueAsReference
 ms.assetid: 94a545d2-16b9-45e9-b2e7-4e49ff90aad0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugReference2::SetValueAsReference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the value of a reference from another reference. Reserved for future use.
 
 ## Syntax

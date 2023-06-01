@@ -1,7 +1,6 @@
 ---
 title: Create a Recorder Plug-In for web performance tests
 description: Learn how the WebTestRecorderPlugin lets you modify a recorded web performance test after you choose Stop in the Web Performance Test Recorder toolbar.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -13,6 +12,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # How to: Create a recorder plug-in
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The <xref:Microsoft.VisualStudio.TestTools.WebTesting.WebTestRecorderPlugin> lets you modify a recorded web performance test. The modification occurs after you choose **Stop** in the **Web Performance Test Recorder** toolbar but prior to the test being saved and presented in the Web Performance Test Editor.
 

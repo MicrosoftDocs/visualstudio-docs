@@ -1,7 +1,6 @@
 ---
 title: DateTime and TimeSpan completion with IntelliSense
 description: Use the IntelliSense menu to complete a DateTime and TimeSpan string literal and format string.
-ms.custom: SEO-VS-2020
 ms.date: 07/31/2020
 ms.topic: reference
 author: mikadumont
@@ -14,6 +13,8 @@ ms.workload:
   - "dotnet"
 ---
 # DateTime and TimeSpan completion by using the IntelliSense menu
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 

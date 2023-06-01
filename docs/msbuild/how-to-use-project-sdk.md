@@ -1,9 +1,8 @@
 ---
-title: 'How to: Reference an MSBuild Project SDK | Microsoft Docs'
+title: Reference an MSBuild Project SDK
 description: Learn how to use MSBuild project SDKs to simplify using software development kits that require properties and targets to be imported.
-ms.custom: SEO-VS-2020
-ms.date: 01/25/2018
-ms.topic: conceptual
+ms.date: 05/10/2023
+ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, SDKs, SDK
 author: ghogen
@@ -13,7 +12,7 @@ ms.technology: msbuild
 ms.workload:
 - multiple
 ---
-# How to: Use MSBuild project SDKs
+# Use MSBuild project SDKs
 
 MSBuild 15.0 introduced the concept of the "project SDK", which simplifies using software development kits that require properties and targets to be imported.
 
@@ -45,53 +44,56 @@ During evaluation of the project, MSBuild adds implicit imports at the top and b
 
 There are three ways to reference a project SDK:
 
-- Use the `Sdk` attribute on the `<Project/>` element:
+### Use the `Sdk` attribute on the `<Project/>` element
 
-    ```xml
-    <Project Sdk="My.Custom.Sdk">
-        ...
-    </Project>
-    ```
+```xml
+<Project Sdk="My.Custom.Sdk">
+    ...
+</Project>
+```
 
-    An implicit import is added to the top and bottom of the project as discussed previously.
-    
-    To specify a specific version of the SDK, append it to the `Sdk` attribute:
+An implicit import is added to the top and bottom of the project as discussed previously.
 
-    ```xml
-    <Project Sdk="My.Custom.Sdk/1.2.3">
-        ...
-    </Project>
-    ```
+To specify a specific version of the SDK, append it to the `Sdk` attribute:
 
-- Use the top-level `<Sdk/>` element:
+```xml
+<Project Sdk="My.Custom.Sdk/1.2.3">
+    ...
+</Project>
+```
 
-    ```xml
-    <Project>
-        <Sdk Name="My.Custom.Sdk" Version="1.2.3" />
-        ...
-    </Project>
-   ```
+### Use the top-level `<Sdk/>` element
 
-   An implicit import is added to the top and bottom of the project as discussed previously.
-   
-   The `Version` attribute is not required.
+```xml
+<Project>
+    <Sdk Name="My.Custom.Sdk" Version="1.2.3" />
+    ...
+</Project>
+```
 
-- Use the `<Import/>` element anywhere in your project:
+An implicit import is added to the top and bottom of the project as discussed previously.
 
-    ```xml
-    <Project>
-        <PropertyGroup>
-            <MyProperty>Value</MyProperty>
-        </PropertyGroup>
-        <Import Project="Sdk.props" Sdk="My.Custom.Sdk" />
-        ...
-        <Import Project="Sdk.targets" Sdk="My.Custom.Sdk" />
-    </Project>
-   ```
+The `Version` attribute isn't required.
 
-   Explicitly including the imports in your project allows you full control over the order.
+### Use the `<Import/>` element anywhere in your project
 
-   When using the `<Import/>` element, you can specify an optional `Version` attribute as well. For example, you can specify `<Import Project="Sdk.props" Sdk="My.Custom.Sdk" Version="1.2.3" />`.
+```xml
+<Project>
+    <PropertyGroup>
+        <MyProperty>Value</MyProperty>
+    </PropertyGroup>
+    <Import Project="Sdk.props" Sdk="My.Custom.Sdk" />
+    ...
+    <Import Project="Sdk.targets" Sdk="My.Custom.Sdk" />
+</Project>
+```
+
+Explicitly including the imports in your project allows you full control over the order.
+
+When using the `<Import/>` element, you can specify an optional `Version` attribute as well. For example, you can specify `<Import Project="Sdk.props" Sdk="My.Custom.Sdk" Version="1.2.3" />`.
+
+> [!WARNING]
+> If you are changing project to use `<Import/>` elements, make sure you add both `.props` and `.targets` imports and that you remove the SDK from the `<Project/>` element and `<Sdk/>` elements. Failure to do so will result in doubled imports and an [`MSB4011`](./errors/msb4011.md) warning.
 
 ## How project SDKs are resolved
 

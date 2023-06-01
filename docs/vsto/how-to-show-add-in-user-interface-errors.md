@@ -1,7 +1,6 @@
 ---
 title: "How to: Show Add-in user interface errors"
 description: Learn how you can use Visual Studio to programmatically show VTSO Add-in user interface errors in Microsoft Office applications.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -20,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # How to: Show Add-in user interface errors
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   By default, if a VSTO Add-in attempts to manipulate the Microsoft Office user interface (UI) and fails, no error message is displayed. However, you can configure Microsoft Office applications to display messages for errors that relate to the UI. You can use these messages to help determine why a custom ribbon does not appear, or why a ribbon appears but no controls appear.
 
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]

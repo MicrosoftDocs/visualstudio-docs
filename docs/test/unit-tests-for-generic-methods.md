@@ -1,7 +1,6 @@
 ---
 title: Unit tests for Generic Methods
 description: Learn how to generate unit tests for generic methods by using this information about and examples of creating unit tests for generic methods.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,6 +14,8 @@ ms.workload:
 author: mikejo5000
 ---
 # Unit tests for generic methods
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can generate unit tests for generic methods exactly as you do for other methods. The following sections provide information about and examples of creating unit tests for generic methods.
 

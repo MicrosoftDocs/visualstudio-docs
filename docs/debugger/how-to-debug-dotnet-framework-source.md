@@ -1,7 +1,6 @@
 ---
 title: Debug .NET Framework source | Microsoft Docs
 description: Learn how to debug .NET Framework source. You must configure for it and download debugging symbols.
-ms.custom: SEO-VS-2020
 ms.date: 11/19/2018
 ms.topic: how-to
 helpviewer_keywords: 
@@ -15,6 +14,8 @@ ms.workload:
   - dotnet
 ---
 # How to: Debug .NET Framework source
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To debug .NET Framework source, you must:
 
@@ -63,3 +64,4 @@ To debug .NET Framework source, you must:
 ### See also
 - [Debugging managed code](../debugger/debugging-managed-code.md)
 - [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
+- [Debug .NET and ASP.NET Core source code with Visual Studio](/aspnet/core/test/debug-aspnetcore-source)

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - BUILT_TYPE structure
 ms.assetid: cc02c32c-0f65-4210-ad25-a9b1899066e8
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # BUILT_TYPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure specifies information about a field type taken from metadata.
 
 ## Syntax
 
-```cpp
-typedef struct _tagTYPE_BUILT {
-    ULONG32      ulAppDomainID;
-    GUID         guidModule;
-    IDebugField* pUnderlyingField;
-} BUILT_TYPE;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct BUILT_TYPE {
     public uint        ulAppDomainID;
@@ -38,6 +33,15 @@ public struct BUILT_TYPE {
     public IDebugField pUnderlyingField;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagTYPE_BUILT {
+    ULONG32      ulAppDomainID;
+    GUID         guidModule;
+    IDebugField* pUnderlyingField;
+} BUILT_TYPE;
+```
+---
 
 ## Members
 `ulAppDomainID`\

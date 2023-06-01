@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugThread2::GetThreadId
 ms.assetid: db8b1c07-6b86-47f9-b292-bac19c276d36
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugThread2::GetThreadId
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the system thread identifier.
 
 ## Syntax
 
-```cpp
-HRESULT GetThreadId (
-    DWORD* pdwThreadId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetThreadId (
     out uint pdwThreadId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetThreadId (
+    DWORD* pdwThreadId
+);
+```
+---
 
 ## Parameters
 `pdwThreadId`\

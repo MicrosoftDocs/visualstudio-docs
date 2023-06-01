@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProperty2::GetReference method
 ms.assetid: 2fa97d9b-c3d7-478e-ba5a-a933f40a0103
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty2::GetReference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a reference to the property's value.
 
 ## Syntax
 
-```cpp
-HRESULT GetReference(
-   IDebugReference2** ppReference
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetReference(
    out IDebugReference2 ppReference
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetReference(
+   IDebugReference2** ppReference
+);
+```
+---
 
 ## Parameters
 `ppRererence`\

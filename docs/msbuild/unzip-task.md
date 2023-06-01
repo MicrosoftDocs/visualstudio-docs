@@ -1,7 +1,6 @@
 ---
 title: Unzip Task | Microsoft Docs
 description: Learn about parameters and usage of the MSBuild Unzip task, which unzips a .zip archive to a specified location.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.reviewer: ''
 ms.suite: ''

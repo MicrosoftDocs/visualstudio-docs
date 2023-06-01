@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugField::GetAddress method
 ms.assetid: 6981bf03-66ef-4bf9-87ea-f6c9624486cb
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugField::GetAddress
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the debug address of a field.
 
 ## Syntax
 
-```cpp
-HRESULT GetAddress( 
-   IDebugAddress** ppAddress
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAddress(
    out IDebugAddress ppAddress
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAddress( 
+   IDebugAddress** ppAddress
+);
+```
+---
 
 ## Parameters
 `ppAddress`\

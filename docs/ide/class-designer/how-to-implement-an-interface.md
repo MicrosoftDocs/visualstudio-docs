@@ -1,7 +1,6 @@
 ---
 title: 'How to: Implement an Interface (Class Designer)'
 description: Learn how to implement an interface on the class diagram by connecting it to a class that provides code for the interface methods.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -16,6 +15,8 @@ ms.workload:
 - multiple
 ---
 # How to: Implement an interface in Class Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In **Class Designer**, you can implement an interface on the class diagram by connecting it to a class that provides code for the interface methods. **Class Designer** generates an interface implementation and displays the relationship between the interface and the class as an inheritance relationship. You can implement an interface by drawing an inheritance line between the interface and the class or by dragging the interface from Class View.
 

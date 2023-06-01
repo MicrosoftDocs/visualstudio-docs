@@ -1,8 +1,7 @@
 ---
 title: MSBuild Targets | Microsoft Docs
 description: Learn how MSBuild uses targets to group tasks together and allow the build process to be factored into smaller units.
-ms.custom: SEO-VS-2020
-ms.date: 09/21/2021
+ms.date: 04/18/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, targets
@@ -28,30 +27,20 @@ Targets group tasks together in a particular order and allow the build process t
 </Target>
 ```
 
- Like MSBuild properties, targets can be redefined. For example,
+Like MSBuild properties, targets can be redefined. For example,
 
 ```xml
-<Target Name="AfterBuild" >
+<Target Name="MyTarget">
     <Message Text="First occurrence" />
 </Target>
-<Target Name="AfterBuild" >
+<Target Name="MyTarget">
     <Message Text="Second occurrence" />
 </Target>
 ```
 
-If `AfterBuild` executes, it displays only "Second occurrence", because the second definition of `AfterBuild` hides the first.
+If `MyTarget` executes, it displays only "Second occurrence", because the second definition of `MyTarget` hides the first.
 
-MSBuild is import-order dependent, and the last definition of a target is the definition used. If you try to redefine a target, it won't take effect if the built-in target is defined later. In the case of projects that use an SDK, the order of definition is not necessarily obvious, since the imports for the targets are implicitly added after the end of your project file.
-
-Therefore, to extend the behavior of an existing target, create new target and specify `BeforeTargets` (or `AfterTargets` as appropriate) as follows:
-
-```xml
-<Target Name="MessageBeforePublish" BeforeTargets="BeforePublish">
-  <Message Text="BeforePublish" Importance="high" />
-</Target>
-```
-
-Give your target a descriptive name, as you would name a function in code.
+MSBuild is import-order dependent, and the last definition of a target is the definition used. If you try to redefine a target, it won't take effect if the built-in target is defined later.
 
 ## Target build order
 
@@ -72,6 +61,20 @@ Give your target a descriptive name, as you would name a function in code.
 A target never runs twice during a single build, even if a subsequent target in the build depends on it. Once a target runs, its contribution to the build is complete.
 
 For details and more information about the target build order, see [Target build order](../msbuild/target-build-order.md).
+
+## SDK-style projects
+
+Many newer projects use an SDK, meaning they use the `Sdk` attribute on the root `Project` element; for example,`<Project Sdk="Microsoft.NET.Sdk">`. See [Reference a Project SDK](how-to-use-project-sdk.md#reference-a-project-sdk). In that case, the order of definition of some targets is not necessarily obvious, since the imports for the targets are implicitly added after the end of your project file. In older versions of MSBuild, or in projects that don't use the `Sdk` attribute, it was a common practice to extend the behavior of a target like `Build` by overriding the target `AfterBuild` or `BeforeBuild`. However, that doesn't work in projects that use an SDK, because `AfterBuild` is defined in an implicit import after all other code in your project file. Therefore, to extend the behavior of an existing target, create new target and specify `BeforeTargets` (or `AfterTargets` as appropriate) as follows:
+
+```xml
+<Target Name="MessageBeforePublish" BeforeTargets="BeforePublish">
+  <Message Text="BeforePublish" Importance="high" />
+</Target>
+```
+
+Give your target a descriptive name, as you would name a function in code.
+
+In some cases, such as when working with older build scripts that use `AfterBuild`, you can avoid using the `Sdk` attribute and instead change to explicit imports. To convert an SDK-style project to use explicit imports, remove the `Sdk="{SdkName}"` attribute, and add two imports as follows: `<import Project="{SdkName}.props">` near the beginning of the project file, and `<import Project="{Sdkname}.targets">` near the end. Once you make that change, you can redefine `AfterBuild` after the import element that imports the `{Sdkname}.targets` file.
 
 ## Target batching
 
@@ -111,9 +114,27 @@ Reference: 4.0
 
  If all output items are up-to-date, MSBuild skips the target, which significantly improves the build speed. This is called an incremental build of the target. If only some files are up-to-date, MSBuild executes the target without the up-to-date items. This is called a partial incremental build of the target. For more information, see [Incremental builds](../msbuild/incremental-builds.md).
 
-## Default build targets
+## SDK and default build targets
 
-The following lists the public targets in Microsoft.Common.CurrentVersion.Targets.
+Some build targets depend on the SDK you're referencing, if any. To get all targets available for a project file, use the `-targets` or `-ts` command-line option. See [MSBuild command line reference](msbuild-command-line-reference.md). The build system contains a large number of targets that are for internal use by the build, which are usually indicated with an underscore (_) at the beginning of the target name. To get a list of the public targets only, try piping the output to something that filters out the underscores. For example, in bash when working with `dotnet build`, you can do the following:
+
+```cli
+dotnet build -ts | grep -v '_'
+```
+
+In PowerShell, you can filter with:
+
+```powershell
+ dotnet build -ts | select-string -pattern '_' -NotMatch
+```
+
+If you're not using .NET, use `MSBuild.exe -ts` in place of `dotnet build -ts`, followed by the same piping and filtering operations.
+
+For a list of .NET SDK targets, see, for example, [Microsoft.NET.Publish.targets](https://github.com/dotnet/sdk/blob/main/src/Tasks/Microsoft.NET.Build.Tasks/targets/Microsoft.NET.Publish.targets). You can find this file in the .NET SDK installation folders. Other SDKs have similar `.targets` files in their installation folders that you can browse.
+
+Some targets, the default targets, are part of the .NET build system and are referenced whether or not you specify an SDK. C++ projects have their own set of default targets. See [MSBuild internals for C++ projects](/cpp/build/reference/msbuild-visual-cpp-overview#targets).
+
+The following list shows the default public targets in .NET build system, from *Microsoft.Common.CurrentVersion.Targets*:
 
 ```xml
 ===================================================
@@ -125,18 +146,15 @@ The main build entry point.
         DependsOnTargets="$(BuildDependsOn)"
         Returns="$(TargetPath)" />
 
-
 ===================================================
 BeforeBuild
 ===================================================
 <Target Name="BeforeBuild"/>
 
-
 ===================================================
 AfterBuild
 ===================================================
 <Target Name="AfterBuild"/>
-
 
 ===================================================
 CoreBuild
@@ -144,7 +162,6 @@ The core build step calls each of the build targets.
 ===================================================
 <Target Name="CoreBuild"
         DependsOnTargets="$(CoreBuildDependsOn)">
-
 
 ===================================================
 Rebuild
@@ -155,18 +172,15 @@ Delete all intermediate and final build outputs, and then build the project from
         DependsOnTargets="$(RebuildDependsOn)"
         Returns="$(TargetPath)"/>
 
-
 ===================================================
 BeforeRebuild
 ===================================================
 <Target Name="BeforeRebuild"/>
 
-
 ===================================================
 AfterRebuild
 ===================================================
 <Target Name="AfterRebuild"/>
-
 
 ===================================================
 BuildGenerateSources
@@ -175,20 +189,17 @@ Set BuildPassReferences to enable P2P builds
 <Target Name="BuildGenerateSources"
         DependsOnTargets="BuildGenerateSourcesTraverse;$(BuildGenerateSourcesAction)" />
 
-
 ===================================================
 BuildCompile
 ===================================================
 <Target Name="BuildCompile"
         DependsOnTargets="BuildCompileTraverse;$(BuildCompileAction)" />
 
-
 ===================================================
 BuildLink
 ===================================================
 <Target Name="BuildLink"
         DependsOnTargets="BuildLinkTraverse;$(BuildLinkAction)" />
-
 
 ===================================================
 CopyRunEnvironmentFiles
@@ -201,7 +212,6 @@ the target app.
         Name="CopyRunEnvironmentFiles"
         DependsOnTargets="PrepareForBuild;SetWin32ManifestProperties;_CopyAppConfigFile;_CleanRecordFileWrites"/>
 
-
 ===================================================
 Run
 Run the final build output if it is a .EXE
@@ -210,13 +220,11 @@ Run the final build output if it is a .EXE
         Name="Run"
         DependsOnTargets="$(RunDependsOn)">
 
-
 ===================================================
 BuildOnlySettings
 This target is called only when doing a real build.  It is specifically not called during project load.
 ===================================================
 <Target Name="BuildOnlySettings">
-
 
 ===================================================
 PrepareForBuild
@@ -224,7 +232,6 @@ Prepare the prerequisites for building.
 ===================================================
 <Target Name="PrepareForBuild"
         DependsOnTargets="$(PrepareForBuildDependsOn)">
-
 
 ===================================================
 GetFrameworkPaths
@@ -237,7 +244,6 @@ This is a generally overriden target, for example it is overriden in the Microso
 ===================================================
 <Target Name="GetFrameworkPaths"/>
 
-
 ===================================================
 GetReferenceAssemblyPaths
 Get the paths for the Reference Assemblies for the known versions of the
@@ -249,7 +255,6 @@ assemblies from the various directories, and to support multi-targeting
 <Target Name="GetReferenceAssemblyPaths"
         DependsOnTargets="$(GetReferenceAssemblyPathsDependsOn)">
 
-
 ===================================================
 AssignLinkMetadata
 For items of a certain set of allowed types, make sure that
@@ -259,7 +264,6 @@ they have "Link" metadata set to an appropriate default.
 <Target Name="AssignLinkMetadata"
         Condition=" '$(SynthesizeLinkMetadata)' == 'true' ">
 
-
 ===================================================
 PreBuildEvent
 Run the pre-build event if there is one.
@@ -267,7 +271,6 @@ Run the pre-build event if there is one.
 <Target Name="PreBuildEvent"
         Condition="'$(PreBuildEvent)'!=''"
         DependsOnTargets="$(PreBuildEventDependsOn)">
-
 
 ===================================================
 UnmanagedUnregistration
@@ -280,7 +283,6 @@ We will re-register the new version after it has been built.
                                 Exists('@(_UnmanagedRegistrationCache)')"
         DependsOnTargets="$(UnmanagedUnregistrationDependsOn)">
 
-
 ===================================================
 GetTargetFrameworkVersion
 This stand-alone target returns the target framework version (i.e. v3.5, v4.0, etc.)
@@ -290,25 +292,21 @@ that would be used if we built this project.
         Name="GetTargetFrameworkVersion"
         Returns="$(TargetFrameworkVersion)" />
 
-
 ===================================================
 ResolveReferences
 ===================================================
 <Target Name="ResolveReferences"
         DependsOnTargets="$(ResolveReferencesDependsOn)"/>
 
-
 ===================================================
 BeforeResolveReferences
 ===================================================
 <Target Name="BeforeResolveReferences"/>
 
-
 ===================================================
 AfterResolveReferences
 ===================================================
 <Target Name="AfterResolveReferences"/>
-
 
 ===================================================
 AssignProjectConfiguration
@@ -318,7 +316,6 @@ Adds to the project references passed in any project references implied by depen
 <Target Name="AssignProjectConfiguration"
         Condition="'$(CurrentSolutionConfigurationContents)' != '' or '@(ProjectReference)'!=''">
 
-
 ===================================================
 ResolveProjectReferences
 Build referenced projects
@@ -326,7 +323,6 @@ Build referenced projects
 <Target Name="ResolveProjectReferences"
         DependsOnTargets="AssignProjectConfiguration;_SplitProjectReferencesByFileExistence"
         Returns="@(_ResolvedNativeProjectReferencePaths);@(_ResolvedProjectReferencePaths)">
-
 
 ===================================================
 GetTargetPath
@@ -337,7 +333,6 @@ that would be produced if we built this project.
         DependsOnTargets="$(GetTargetPathDependsOn)"
         Returns="$(TargetPath)"/>
 
-
 ===================================================
 GetTargetPathWithTargetPlatformMoniker
 This stand-alone target returns the name and version of the target platform for this project.
@@ -345,7 +340,6 @@ This stand-alone target returns the name and version of the target platform for 
 <Target Name="GetTargetPathWithTargetPlatformMoniker"
         DependsOnTargets="$(GetTargetPathWithTargetPlatformMonikerDependsOn)"
         Returns="@(TargetPathWithTargetPlatformMoniker)">
-
 
 ===================================================
 GetNativeManifest
@@ -355,7 +349,6 @@ Compute the manifest item for this project.
         Name="GetNativeManifest"
         Returns="@(ComputedApplicationManifest)">
 
-
 ===================================================
 ResolveNativeReferences
 Resolve native references
@@ -363,7 +356,6 @@ Resolve native references
 <Target Name="ResolveNativeReferences"
         Condition="'@(NativeReference)'!=''"
         DependsOnTargets="ResolveProjectReferences">
-
 
 ===================================================
 ResolveAssemblyReferences
@@ -393,7 +385,6 @@ what we need to copy to the output directory.
         Returns="@(ReferencePath)"
         DependsOnTargets="$(ResolveAssemblyReferencesDependsOn)">
 
-
 ===================================================
 GenerateBindingRedirects
 Inject the binding redirects into the app config file based on suggested redirects as output from ResolveAssemblyReferences.
@@ -411,7 +402,6 @@ $(TargetFileName) -          The file name of the build target.
         Outputs="$(_GenerateBindingRedirectsIntermediateAppConfig)"
         Condition="'$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true'">
 
-
 ===================================================
 GenerateBindingRedirectsUpdateAppConfig
 Updates the project to use the generated app.config content.  This needs to run regardless of 
@@ -421,7 +411,6 @@ inputs/outputs so it is separate from GenerateBindingRedirects.
         AfterTargets="GenerateBindingRedirects"
         Condition="'$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')">
 
-
 ===================================================
 GetInstalledSDKs
 Gets the list of SDKs installed in the SDKDirectoryRoot and SDKRegistryRoot locations
@@ -430,7 +419,6 @@ These paths are used by the ResolveSDKReference task and the ResolveAssemblyRefe
 <Target Name="GetInstalledSDKLocations"
       DependsOnTargets="$(GetInstalledSDKLocationsDependsOn)"
       Returns="@(InstalledSDKLocations)" />
-
 
 ===================================================
 ResolveSDKReferences
@@ -442,7 +430,6 @@ and the sdk identity as a piece of metadata.
         Returns="@(ResolvedSDKReference)"
         DependsOnTargets="$(ResolveSDKReferencesDependsOn)">
 
-
 ===================================================
 FindInvalidProjectReferences
 Find project to project references with target platform version higher than the one used by the current project and 
@@ -451,7 +438,6 @@ creates a list of invalid references to be unresolved. It issues a warning for e
 <Target Name="FindInvalidProjectReferences"
         Condition ="'$(FindInvalidProjectReferences)' == 'true'"
         DependsOnTargets="$(FindInvalidProjectReferencesDependsOn)">
-
 
 ===================================================
 ExpandSDKReferences
@@ -464,7 +450,6 @@ Project systems or project which do not want to reference all dlls or winmd file
         Returns="@(ReferencesFromSDK)"
         DependsOnTargets="$(ExpandSDKReferencesDependsOn)" />
 
-
 ===================================================
 ExportWindowsMDFile
 When a project is generating a a winmd file through c# or vb, ect the compiler will create a WinMDModule file. This file needs to be run
@@ -476,7 +461,6 @@ through the winmdexp tool in order to generate the resulting WinMD file.
         Inputs="@(IntermediateAssembly);@(DocFileItem);@(_DebugSymbolsIntermediatePath);@(ReferencePath);$(MSBuildAllProjects)"
         Outputs="$(_IntermediateWindowsMetadataPath);$(WinMDExpOutputPdb);$(WinMDOutputDocumentationFile)" />
 
-
 ===================================================
 DesignTimeResolveAssemblyReferences
 Given the list of assemblies, resolve their reference paths.
@@ -487,7 +471,6 @@ according to the targeted framework.
         Condition="'$(DesignTimeReference)'!=''"
         DependsOnTargets="$(DesignTimeResolveAssemblyReferencesDependsOn)">
 
-
 ===================================================
 ResolveComReferences
 Resolve COM references
@@ -497,14 +480,12 @@ Resolve COM references
         Returns="@(ReferencePath)"
         DependsOnTargets="PrepareForBuild;ResolveKeySource;ResolveAssemblyReferences" />
 
-
 ===================================================
 PrepareResources
 Prepare resources for the Compile step.
 ===================================================
 <Target Name="PrepareResources"
         DependsOnTargets="$(PrepareResourcesDependsOn)"/>
-
 
 ===================================================
 PrepareResourceNames
@@ -513,7 +494,6 @@ Prepare the names of resource files.
 <Target Name="PrepareResourceNames"
         DependsOnTargets="$(PrepareResourceNamesDependsOn)"/>
 
-
 ===================================================
 AssignTargetPaths
 This target creates <TargetPath> tags for items. <TargetPath> is a relative folder plus filename
@@ -521,7 +501,6 @@ for the destination of this item.
 ===================================================
 <Target Name="AssignTargetPaths"
         DependsOnTargets="$(AssignTargetPathsDependsOn)">
-
 
 ===================================================
 GetItemTargetPaths
@@ -536,7 +515,6 @@ This target returns all items that have TargetPath metadata assigned by the Assi
         @(_DeploymentBaseManifestWithTargetPath);
         " />
 
-
 ===================================================
 SplitResourcesByCulture
 Split EmbeddedResource items into five lists based on whether
@@ -546,7 +524,6 @@ metadata. Type indicates whether the resource is "Resx" or "Non-Resx".
 <Target Name="SplitResourcesByCulture"
         DependsOnTargets="AssignTargetPaths">
 
-
 ===================================================
 CreateCustomManifestResourceNames
 Allows custom manifest resource name generation tasks to plug
@@ -555,7 +532,6 @@ into the build process
 <Target Name="CreateCustomManifestResourceNames"
         DependsOnTargets="$(CreateCustomManifestResourceNamesDependsOn)"/>
 
-
 ===================================================
 ResGen
 Run GenerateResource on the given resx files.
@@ -563,18 +539,15 @@ Run GenerateResource on the given resx files.
 <Target Name="ResGen"
         DependsOnTargets="$(ResGenDependsOn)"/>
 
-
 ===================================================
 BeforeResGen
 ===================================================
 <Target Name="BeforeResGen"/>
 
-
 ===================================================
 AfterResGen
 ===================================================
 <Target Name="AfterResGen"/>
-
 
 ===================================================
 ResolveKeySource
@@ -584,13 +557,11 @@ sign the ClickOnce manifests.
 <Target Name="ResolveKeySource"
         Condition="$(SignManifests) == 'true' or $(SignAssembly) == 'true'">
 
-
 ===================================================
 Compile
 ===================================================
 <Target Name="Compile"
         DependsOnTargets="$(CompileDependsOn)"/>
-
 
 ===================================================
 GenerateTargetFrameworkMonikerAttribute
@@ -603,7 +574,6 @@ Emit the target framework moniker attribute as  a code fragment into a temporary
         Outputs="$(TargetFrameworkMonikerAssemblyAttributesPath)"
         Condition="'$(GenerateTargetFrameworkAttribute)' == 'true'">
 
-
 ===================================================
 GenerateAdditionalSources
 Emit any specified code fragments into a temporary source file for the compiler.
@@ -615,18 +585,15 @@ Emit any specified code fragments into a temporary source file for the compiler.
         Outputs="$(AssemblyAttributesPath)"
         Condition="'@(AssemblyAttributes)' != '' and '$(GenerateAdditionalSources)' == 'true'">
 
-
 ===================================================
 BeforeCompile
 ===================================================
 <Target Name="BeforeCompile"/>
 
-
 ===================================================
 AfterCompile
 ===================================================
 <Target Name="AfterCompile"/>
-
 
 ===================================================
 GenerateSerializationAssemblies
@@ -638,14 +605,12 @@ Run GenerateSerializationAssemblies on the assembly produced by this build.
         Inputs="$(MSBuildAllProjects);@(IntermediateAssembly)"
         Outputs="$(IntermediateOutputPath)$(_SGenDllName)">
 
-
 ===================================================
 CreateSatelliteAssemblies
 Create one satellite assembly for every unique culture in the resources.
 ===================================================
 <Target Name="CreateSatelliteAssemblies"
         DependsOnTargets="$(CreateSatelliteAssembliesDependsOn)" />
-
 
 ===================================================
 GenerateSatelliteAssemblies
@@ -656,7 +621,6 @@ Actually run al.exe to create the satellite assemblies.
         Outputs="$(IntermediateOutputPath)%(Culture)\$(TargetName).resources.dll"
         Condition="'@(_SatelliteAssemblyResourceInputs)' != ''">
 
-
 ===================================================
 ComputeIntermediateSatelliteAssemblies
 Compute the paths to the intermediate satellite assemblies,
@@ -666,7 +630,6 @@ with culture attributes so we can copy them to the right place.
         Condition="@(EmbeddedResource->'%(WithCulture)') != ''"
         DependsOnTargets="$(ComputeIntermediateSatelliteAssembliesDependsOn)">
 
-
 ===================================================
 SetWin32ManifestProperties
 Set Win32Manifest and EmbeddedManifest properties to be used later in the build.
@@ -675,7 +638,6 @@ Set Win32Manifest and EmbeddedManifest properties to be used later in the build.
         Condition="'$(Win32Manifest)'==''"
         DependsOnTargets="ResolveComReferences;ResolveNativeReferences;_SetExternalWin32ManifestProperties;_SetEmbeddedWin32ManifestProperties" />
 
-
 ===================================================
 GenerateManifests
 Generates ClickOnce application and deployment manifests or a native manifest.
@@ -683,7 +645,6 @@ Generates ClickOnce application and deployment manifests or a native manifest.
 <Target Name="GenerateManifests"
         Condition="'$(GenerateClickOnceManifests)'=='true' or '@(NativeReference)'!='' or '@(ResolvedIsolatedComModules)'!='' or '$(GenerateAppxManifest)' == 'true'"
         DependsOnTargets="$(GenerateManifestsDependsOn)"/>
-
 
 ===================================================
 GenerateApplicationManifest
@@ -707,7 +668,6 @@ An application manifest specifies declarative application identity, dependency a
                 @(_DeploymentManifestFiles)"
         Outputs="@(ApplicationManifest)">
 
-
 ===================================================
 GenerateDeploymentManifest
 Generates a ClickOnce deployment manifest.
@@ -721,14 +681,12 @@ An deployment manifest specifies declarative application identity and applicatio
                 "
         Outputs="@(DeployManifest)">
 
-
 ===================================================
 PrepareForRun
 Copy the build outputs to the final directory if they have changed.
 ===================================================
 <Target Name="PrepareForRun"
         DependsOnTargets="$(PrepareForRunDependsOn)"/>
-
 
 ===================================================
 CopyFilesToOutputDirectory
@@ -743,7 +701,6 @@ Copy all build outputs, satellites and other necessary files to the final direct
                 _CopyManifestFiles;
                 _CheckForCompileOutputs;
                 _SGenCheckForOutputs">
-
 
 ===================================================
 GetCopyToOutputDirectoryItems
@@ -761,7 +718,6 @@ causes _MSBuildProjectReferenceExistent to be empty and terminates the recursion
         KeepDuplicateOutputs=" '$(MSBuildDisableGetCopyToOutputDirectoryItemsOptimization)' == '' "
         DependsOnTargets="$(GetCopyToOutputDirectoryItemsDependsOn)">
 
-
 ===================================================
 UnmanagedRegistration
 Registers the main assembly for COM interop.
@@ -769,7 +725,6 @@ Registers the main assembly for COM interop.
 <Target Name="UnmanagedRegistration"
         Condition="'$(RegisterForComInterop)'=='true' and '$(OutputType)'=='library'"
         DependsOnTargets="$(UnmanagedRegistrationDependsOn)" />>
-
 
 ===================================================
 IncrementalClean
@@ -782,7 +737,6 @@ Leave the Clean cache file containing only the files produced in the current bui
 <Target Name="IncrementalClean"
         DependsOnTargets="_CleanGetCurrentAndPriorFileWrites">
 
-
 ===================================================
 Clean
 Delete all intermediate and final build outputs.
@@ -791,18 +745,15 @@ Delete all intermediate and final build outputs.
         Condition=" '$(_InvalidConfigurationWarning)' != 'true' "
         DependsOnTargets="$(CleanDependsOn)" />
 
-
 ===================================================
 BeforeClean
 ===================================================
 <Target Name="BeforeClean"/>
 
-
 ===================================================
 AfterClean
 ===================================================
 <Target Name="AfterClean"/>
-
 
 ===================================================
 CleanReferencedProjects
@@ -811,12 +762,10 @@ Call Clean target on all Referenced Projects.
 <Target Name="CleanReferencedProjects"
         DependsOnTargets="AssignProjectConfiguration; _SplitProjectReferencesByFileExistence">
 
-
 ===================================================
 CleanPublishFolder
 ===================================================
 <Target Name="CleanPublishFolder"/>
-
 
 ===================================================
 PostBuildEvent
@@ -838,7 +787,6 @@ Run the post-build event. This step is driven by two parameters:
         Condition="'$(PostBuildEvent)' != '' and ('$(RunPostBuildEvent)' != 'OnOutputUpdated' or '$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)')"
         DependsOnTargets="$(PostBuildEventDependsOn)">
 
-
 ===================================================
 Publish
 This target is only called when doing ClickOnce publishing outside the IDE, which implicitly builds before publishing.
@@ -846,13 +794,11 @@ This target is only called when doing ClickOnce publishing outside the IDE, whic
 <Target Name="Publish"
         DependsOnTargets="$(PublishDependsOn)"/>
 
-
 ===================================================
 SetGenerateManifests
 This target simply assures the GenerateClickOnceManifests property is set whenever the publish target is invoked.
 ===================================================
 <Target Name="SetGenerateManifests"/>
-
 
 ===================================================
 PublishOnly
@@ -862,18 +808,15 @@ by the BuildManager.
 <Target Name="PublishOnly"
         DependsOnTargets="$(PublishOnlyDependsOn)"/>
 
-
 ===================================================
 BeforePublish
 ===================================================
 <Target Name="BeforePublish"/>
 
-
 ===================================================
 AfterPublish
 ===================================================
 <Target Name="AfterPublish"/>
-
 
 ===================================================
 PublishBuild
@@ -881,7 +824,6 @@ Defines the set of targets that publishing is directly dependent on.
 ===================================================
 <Target Name="PublishBuild"
         DependsOnTargets="$(PublishBuildDependsOn)"/>
-
 
 ===================================================
 AllProjectOutputGroups
@@ -907,7 +849,6 @@ of additional attributes may be placed on an output/dependency item.
                 ContentFilesProjectOutputGroup;
                 SGenFilesOutputGroup"/>
 
-
 ===================================================
 BuiltProjectOutputGroup
 This target performs population of the Build project output group.
@@ -915,7 +856,6 @@ This target performs population of the Build project output group.
 <Target Name="BuiltProjectOutputGroup"
         Returns="@(BuiltProjectOutputGroupOutput)"
         DependsOnTargets="$(BuiltProjectOutputGroupDependsOn)">
-
 
 ===================================================
 DebugSymbolsProjectOutputGroup
@@ -925,7 +865,6 @@ This target performs population of the Debug Symbols project output group.
         Returns="@(DebugSymbolsProjectOutputGroupOutput)"
         DependsOnTargets="$(DebugSymbolsProjectOutputGroupDependsOn)"/>
 
-
 ===================================================
 DocumentationProjectOutputGroup
 This target performs population of the Documentation project output group.
@@ -934,7 +873,6 @@ This target performs population of the Documentation project output group.
         Returns="@(DocumentationProjectOutputGroupOutput)"
         DependsOnTargets="$(DocumentationProjectOutputGroupDependsOn)"/>
 
-
 ===================================================
 SatelliteDllsProjectOutputGroup
 This target performs population of the Satellite Files project output group.
@@ -942,7 +880,6 @@ This target performs population of the Satellite Files project output group.
 <Target Name="SatelliteDllsProjectOutputGroup"
         Returns="@(SatelliteDllsProjectOutputGroupOutput)"
         DependsOnTargets="$(SatelliteDllsProjectOutputGroupDependsOn)">
-
 
 ===================================================
 SourceFilesProjectOutputGroup
@@ -953,7 +890,6 @@ Source files are items in the project whose type is "Compile" and "EmbeddedResou
         Returns="@(SourceFilesProjectOutputGroupOutput)"
         DependsOnTargets="$(SourceFilesProjectOutputGroupDependsOn)">
 
-
 ===================================================
 ContentFilesProjectOutputGroup
 This target performs population of the Content Files project output group.
@@ -962,7 +898,6 @@ Content files are items in the project whose type is "Content".
 <Target Name="ContentFilesProjectOutputGroup"
         Returns="@(ContentFilesProjectOutputGroupOutput)"
         DependsOnTargets="$(ContentFilesProjectOutputGroupDependsOn)">
-
 
 ===================================================
 SGenFilesOutputGroup
@@ -973,7 +908,6 @@ GenerateSerializationAssemblies files are those generated by the GenerateSeriali
         Returns="@(SGenFilesOutputGroupOutput)"
         DependsOnTargets="$(SGenFilesOutputGroupDependsOn)"/>
 
-
 ===================================================
 GetResolvedSDKReferences
 These targets are to gather information from the SDKs.
@@ -981,7 +915,6 @@ These targets are to gather information from the SDKs.
 <Target Name="GetResolvedSDKReferences"
         DependsOnTargets="ResolveSDKReferences"
         Returns="@(ResolvedSDKReference)"/>
-
 
 ===================================================
 PriFilesOutputGroup
@@ -991,7 +924,6 @@ This target performs population of the pri files output group
         Condition="'@(_ReferenceRelatedPaths)' != ''"
         DependsOnTargets="BuildOnlySettings;PrepareForBuild;AssignTargetPaths;ResolveReferences"
         Returns="@(PriFilesOutputGroupOutput)">
-
 
 ===================================================
 SDKRedistOutputGroup

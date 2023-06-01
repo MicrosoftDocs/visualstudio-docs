@@ -2,20 +2,21 @@
 description: "AsyncTaskMethodBuilder&lt;TResult&gt;.ObjectIdForDebugger gets an object that may be used to uniquely identify this builder to the debugger."
 title: AsyncTaskMethodBuilder&lt;TResult&gt;.ObjectIdForDebugger property
 titleSuffix: ""
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - ObjectForDebugger property, AsyncTaskMethodBuilder<TResult> structure [.NET Framework debug engines]
 ms.assetid: 060b857f-daf5-43ea-bb51-abf9368e1e91
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # AsyncTaskMethodBuilder&lt;TResult&gt;.ObjectIdForDebugger property
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets an object that may be used to uniquely identify this builder to the debugger.
 
  **Namespace:** <xref:System.Runtime.CompilerServices?displayProperty=fullName>

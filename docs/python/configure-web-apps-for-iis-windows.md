@@ -1,10 +1,10 @@
 ---
 title: Configure Python web apps for IIS
 description: How to configure Python web apps to run with Internet Information Services from a Windows virtual machine.
-ms.date: 12/06/2018
+ms.date: 05/25/2022
 ms.topic: how-to
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -13,13 +13,11 @@ ms.workload:
   - data-science
   - azure
 ---
-
 # Configure Python web apps for IIS
 
-When using Internet Information Services (IIS) as a web server on a Windows computer (including [Windows virtual machines on Azure](/azure/architecture/reference-architectures/n-tier/windows-vm), Python apps must include specific settings in their *web.config* files so that IIS can properly process Python code. The computer itself must also have Python installed along with any packages the web app requires.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-> [!Note]
-> This article previously contained guidance for configuring Python on Azure App Service on Windows. The Python extensions and Windows hosts used in that scenario have been deprecated in favor of Azure App Service on Linux. For more information, see [Publishing Python Apps to Azure App Service (Linux)](publishing-python-web-applications-to-azure-from-visual-studio.md). The previous article, however, is still available on [Managing App Service on Windows with the Python extensions](managing-python-on-azure-app-service.md).
+When using Internet Information Services (IIS) as a web server on a Windows computer (including [Windows virtual machines on Azure](/azure/architecture/reference-architectures/n-tier/windows-vm)), Python apps must include specific settings in their *web.config* files so that IIS can properly process Python code. The computer itself must also have Python installed along with any packages the web app requires.
 
 ## Install Python on Windows
 
@@ -66,7 +64,10 @@ The `HTTP_PLATFORM_PORT` environment variable shown here contains the port that 
 
 FastCGI is an interface that works at the request level. IIS receives incoming connections and forwards each request to a WSGI app running in one or more persistent Python processes.
 
-To use it, first install and configure the wfastcgi package as described on [pypi.org/project/wfastcgi/](https://pypi.io/project/wfastcgi).
+> [!Note]
+> We recommend using **HttpPlatform** to configure your apps, as the [WFastCGI](https://pypi.org/project/wfastcgi/) project is no longer maintained. 
+
+To use FastCGI, first install and configure the wfastcgi package as described on [pypi.org/project/wfastcgi/](https://pypi.io/project/wfastcgi).
 
 Next, modify your app's *web.config* file to include the full paths to *python.exe* and *wfastcgi.py* in the `PythonHandler` key. The steps below assume that Python is installed in *c:\python36-32* and that your app code is in *c:\home\site\wwwroot*; adjust for your paths accordingly:
 
@@ -101,7 +102,7 @@ Next, modify your app's *web.config* file to include the full paths to *python.e
 
 1. Set the `WSGI_HANDLER` entry in *web.config* as appropriate for the framework you're using:
 
-    - **Bottle**: make sure that you have parentheses after `app.wsgi_app` as shown below. This is necessary because that object is a function (see *app.py*) rather than a variable:
+    - **Bottle**: make sure you have parentheses after `app.wsgi_app` as shown below. This is necessary because that object is a function (see *app.py*) rather than a variable:
 
         ```xml
         <!-- Bottle apps only -->
@@ -137,7 +138,7 @@ Next, modify your app's *web.config* file to include the full paths to *python.e
 
     Failure to add your URL to the array results in the error **DisallowedHost at / Invalid HTTP_HOST header: '\<site URL\>'. You may need to add '\<site URL\>' to ALLOWED_HOSTS.**
 
-    Note that when the array is empty, Django automatically allows 'localhost' and '127.0.0.1', but adding your production URL removes those capabilities. For this reason you might want to maintain separate development and production copies of *settings.py*, or use environment variables to control the run time values.
+    When the array is empty, Django automatically allows 'localhost' and '127.0.0.1', but adding your production URL removes those capabilities. For this reason, you might want to maintain separate development and production copies of *settings.py*, or use environment variables to control the runtime values.
 
 ## Deploy to IIS or a Windows VM
 

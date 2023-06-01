@@ -1,7 +1,6 @@
 ---
 title: "Create SharePoint Solutions | Microsoft Docs"
 description: Create SharePoint applications in Visual Studio as an alternative to creating them in SharePoint Designer.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 dev_langs:
@@ -18,6 +17,8 @@ ms.workload:
 ---
 # Create SharePoint solutions
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
   You can create SharePoint applications in Visual Studio as an alternative to creating them in SharePoint Designer. Visual Studio promotes rapid SharePoint development by providing such features as advanced debugging tools, IntelliSense, statement completion, and project templates. Visual Studio also takes advantage of advanced .NET Framework-based tools and languages. You can develop SharePoint projects by using either Visual Basic or Visual C#, and you can develop app for SharePoint projects by using JavaScript.
 
 > [!NOTE]
@@ -33,6 +34,5 @@ ms.workload:
 |![Forums](../sharepoint/media/vs-icon-forums.gif "Forums")|**Forums**<br /><br /> -   [SharePoint Development with Visual Studio](https://social.msdn.microsoft.com/Forums/vstudio/home?forum=vssharepointdevelopment)<br />-   [SharePoint 2010](https://social.msdn.microsoft.com/Forums/sharepoint/home?category=sharepoint2010,sharepoint)|
 |![Training](../sharepoint/media/vs-icon-training.gif "Training")|**Blogs**<br /><br /> -   [Visual Studio SharePoint Development Blog](/archive/blogs/vssharepointtoolsblog/)|
 |![How Do I? Videos](../sharepoint/media/vs-icon-howdoivideos.gif "How Do I? Videos")|**How Do I? Videos**<br /><br /> -   [How Do I: Create Visual Web Parts for SharePoint 2010 in Visual Studio 2010?](https://visualstudio.microsoft.com/)<br />-   [How Do I: Create Content Types for SharePoint 2010 in Visual Studio 2010?](/previous-versions/visualstudio/visual-studio-2010/dd831853\(v\=vs.100\))<br />-   [How Do I: Create Site Definitions for SharePoint 2010 in Visual Studio 2010?](/previous-versions/visualstudio/visual-studio-2010/dd831853\(v\=vs.100\))<br />-   [How Do I: Create a Business Data Connectivity Model for SharePoint 2010 Using Visual Studio 2010?](/previous-versions/visualstudio/visual-studio-2010/dd831853\(v\=vs.100\))|
-|![Channel 9 Videos](../sharepoint/media/vs-icon-channel9videos.gif "Channel 9 Videos")|**Channel 9 Videos**<br /><br /> -   [Overview of SharePoint Development in Visual Studio 2010](https://channel9.msdn.com/blogs/funkyonex/overview-of-sharepoint-development-in-visual-studio-2010)<br />-   [Best Practices on Building SharePoint 2010 Web Parts with Visual Studio 2010](https://channel9.msdn.com/blogs/funkyonex/best-practices-on-building-sharepoint-2010-web-parts-with-visual-studio-2010)<br />-   [SharePoint Feature and Package Designers in Visual Studio 2010](https://channel9.msdn.com/blogs/funkyonex/sharepoint-feature-and-package-designers-in-visual-studio-2010)|
 |![Developer Center](../sharepoint/media/vs-icon-msdndevcenter.gif "Developer Center")|**Developer Centers**<br /><br /> -   [Visual Studio Development Center](https://visualstudio.microsoft.com/)<br />-   [SharePoint Developer Center](/sharepoint/dev/)<br />-   [SharePoint Server Developer Center](/previous-versions/office/fp161348\(v\=office.15\))<br />-   [SharePoint Designer Developer Center](/previous-versions/office/fp161348\(v\=office.15\))<br />-   [ASP.NET Developer Center](/previous-versions/msdn10/aa336522(v=msdn.10))|
 |![Providing Feedback](../sharepoint/media/vs-icon-feedback.gif "Providing Feedback")|**Providing Feedback**<br /><br /> Provide feedback about Visual Studio:<br /><br /> -   [Microsoft Connect](/collaborate/connect-redirect)<br /><br /> Provide feedback about the documentation for Visual Studio:<br /><br /> -   **Lightweight View.** If you are at the top of any topic, you can choose the **Rate this topic** link to jump to the bottom of that topic, where you can specify **Yes** or **No** in response to **Did you find this helpful?** You can then select one or more of the check boxes that appear if you chose **No**, provide more information in the text box, or both. When you finish, choose the **Submit** button.<br />-   **Scriptfree View.** At the top of the topic, choose the **Feedback** link to provide feedback in the TechNet and Expression Library Feedback forum.<br />-   **Classic View.** At the top of the topic, choose the **Click to Rate and Give Feedback** icons to provide feedback about the topic to the documentation team.|

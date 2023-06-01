@@ -1,7 +1,6 @@
 ---
 title: Immediate Window
 description: Learn how to use the Immediate window to debug and evaluate expressions, execute statements, and print variable values.
-ms.custom: SEO-VS-2020
 ms.date: 02/25/2019
 ms.topic: reference
 dev_langs:
@@ -21,6 +20,8 @@ ms.workload:
 - multiple
 ---
 # Immediate window
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Immediate** window to debug and evaluate expressions, execute statements, and print variable values. The **Immediate** window evaluates expressions by building and using the currently selected project.
 

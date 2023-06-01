@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugMethodField::IsCustomAttributeDefined method
 ms.assetid: 1b5d95a8-cc87-4acb-9e6a-3928f3632b7c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugMethodField::IsCustomAttributeDefined
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines whether a specific custom attribute has been defined.
 
 ## Syntax
 
-```cpp
-HRESULT IsCustomAttributeDefined( 
-   LPCOLESTR pszCustomAttributeName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsCustomAttributeDefined(
    [In] string pszCustomAttributeName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsCustomAttributeDefined( 
+   LPCOLESTR pszCustomAttributeName
+);
+```
+---
 
 ## Parameters
 `pszCustomAttributeName`\

@@ -1,20 +1,19 @@
 ---
 title: Analyze memory usage for .NET objects | Microsoft Docs
 description: View how much memory your app uses and what code paths allocate the most memory by using the .NET Object Allocation tool.
-ms.custom: SEO-VS-2020
 ms.date: 12/9/2019
 ms.topic: how-to
 helpviewer_keywords: 
   - memory allocation, memory usage
-author: Sagar-S-S
-ms.author: sashe
+author: Mikejo5000
+ms.author: mikejo
 manager: AndSter
 ms.workload: 
   - multiple
 ---
-
-
 # Analyze memory usage by using the .NET Object Allocation tool
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can see how much memory your app uses and what code paths allocate the most memory by using the .NET Object Allocation tool.
 

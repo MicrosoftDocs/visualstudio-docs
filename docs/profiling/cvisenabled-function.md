@@ -1,7 +1,6 @@
 ---
 title: CvIsEnabled Function | Microsoft Docs
 description: See reference information for the Concurrency Visualizer SDK function CvIsEnabled (C library).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -19,6 +18,8 @@ ms.workload:
   - multiple
 ---
 # CvIsEnabled function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines whether any session has enabled the specified ETW provider.
 
 ## Syntax

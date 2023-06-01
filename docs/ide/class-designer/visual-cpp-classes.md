@@ -1,7 +1,6 @@
 ---
 title: C++ Classes in Class Designer
 description: Learn about C++ classes and how they are supported and can have multiple inheritance relationships in Class Designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -17,6 +16,8 @@ ms.workload:
 - cplusplus
 ---
 # C++ classes in Class Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Class Designer** supports C++ classes and visualizes native C++ classes in the same way as Visual Basic and C# class shapes, except that C++ classes can have multiple inheritance relationships. You can expand the class shape to show more fields and methods in the class or collapse it to conserve space.
 

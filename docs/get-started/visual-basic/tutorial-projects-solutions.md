@@ -3,7 +3,7 @@ title: Tutorial projects and solutions Visual Basic
 description: Learn how to create a solution and a project in Visual Studio as a Visual Basic developer.
 ms.date: 09/14/2021
 ms.technology: vs-ide-general
-ms.custom: [vs-acquisition, get-started, SEO-VS-2020]
+ms.custom: vs-acquisition, get-started
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
@@ -15,21 +15,12 @@ ms.workload:
 ---
 # Learn about projects and solutions using Visual Basic
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 In this introductory article, we'll explore what it means to create a *solution* and a *project* in Visual Studio. A solution is a container that's used to organize one or more related code projects, for example a class library project and a corresponding test project. We'll look at the properties of a project and some of the files it can contain. We'll also create a reference from one project to another.
-
-::: moniker range="vs-2017"
-
-> [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
 
 > [!TIP]
 > If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
-
-::: moniker-end
 
 We'll construct a solution and project from scratch as an educational exercise to understand the concept of a project. In your general use of Visual Studio, you'll likely use some of the various project *templates* that Visual Studio offers when you create a new project.
 
@@ -43,22 +34,6 @@ Despite its name, a solution is not an "answer". A solution is simply a containe
 ### Create a solution
 
 We'll start our exploration by creating an empty solution. After you get to know Visual Studio, you probably won't find yourself creating empty solutions often. When you create a new project, Visual Studio automatically creates a solution to house the project if there's not a solution already open.
-
-::: moniker range="vs-2017"
-
-1. Open Visual Studio.
-
-1. On the menu bar, choose **File** > **New** > **Project**.
-
-   The **New Project** dialog box opens.
-
-1. In the left pane, expand **Other Project Types**, then choose **Visual Studio Solutions**. In the center pane, choose the **Blank Solution** template. Name your solution **QuickSolution**, and then choose **OK**.
-
-   ![Blank solution template in Visual Studio](../media/tutorial-projects-new-solution.png)
-
-   The **Start Page** closes, and a solution appears in **Solution Explorer** on the right-hand side of the Visual Studio window. You'll probably use **Solution Explorer** often, to browse the contents of your projects.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -95,23 +70,6 @@ We'll start our exploration by creating an empty solution. After you get to know
 ### Add a project
 
 Now let's add our first project to the solution. We'll start with an empty project and add the items we need to the project.
-
-::: moniker range="vs-2017"
-
-1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, choose **Add** > **New Project**.
-
-   The **Add New Project** dialog box opens.
-
-1. In the left pane, expand **Visual Basic** and choose **Windows Desktop**. Then, in the middle pane, choose the **Empty Project (.NET Framework)** template. Name the project **QuickDate**, then choose the **OK** button.
-
-   A project named QuickDate appears beneath the solution in **Solution Explorer**. Currently it contains a single file called *App.config*.
-
-   > [!NOTE]
-   > If you don't see **Visual Basic** in the left pane of the dialog box, you need to install the **.NET desktop development** Visual Studio *workload*. Visual Studio uses workload-based installation to only install the components you need for the type of development you do. An easy way to install a new workload is to choose the **Open Visual Studio Installer** link in the bottom left corner of the **Add New Project** dialog box. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
-   >
-   > ![Open Visual Studio Installer link](media/tutorial-projects-open-installer-vb.png)
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -191,16 +149,6 @@ Let's add a unit test project to our solution. This time we'll start from a proj
 
 1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, choose **Add** > **New Project**.
 
-::: moniker range="vs-2017"
-
-2. In the left pane, expand **Visual Basic** and choose the **Test** category. In the middle pane, choose the **Unit Test Project (.NET Framework)** project template. Name the project **QuickTest**, and then choose **OK**.
-
-   A second project is added to **Solution Explorer**, and a file named *UnitTest1.vb* opens in the editor.
-
-   ![Visual Studio Solution Explorer with two projects](media/tutorial-projects-solution-explorer-vb.png)
-
-::: moniker-end
-
 ::: moniker range="vs-2019"
 
 2. In the **Add a new project** dialog box, enter the text **unit test** into the search box at the top, and then select **Visual Basic** under **Language**.
@@ -233,7 +181,7 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
 1. Choose the **References** node in the **QuickTest** project, and from the right-click or context menu, choose **Add Reference**.
 
-   ![creenshot showing the context menu for the References node in the QuickTest project, with the 'Add Reference' option selected.](media/tutorial-projects-add-reference-vb.png)
+   ![Screenshot showing the context menu for the References node in the QuickTest project, with the 'Add Reference' option selected.](media/tutorial-projects-add-reference-vb.png)
 
    The **Reference Manager** dialog box opens.
 

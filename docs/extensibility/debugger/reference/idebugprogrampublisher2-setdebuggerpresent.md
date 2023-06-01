@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramPublisher2::SetDebuggerPresent
 ms.assetid: c88c3ff4-3632-4199-b5de-83c6d21bcf75
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramPublisher2::SetDebuggerPresent
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Tells the program publisher that a debugger is present and running.
 
 ## Syntax
 
-```cpp
-HRESULT SetDebuggerPresent(
-   BOOL fDebuggerPresent
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetDebuggerPresent(
    int fDebuggerPresent
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetDebuggerPresent(
+   BOOL fDebuggerPresent
+);
+```
+---
 
 ## Parameters
 `fDebuggerPresent`\

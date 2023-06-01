@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCanStopEvent2::GetCodeContext
 ms.assetid: eecf08b6-f9b7-4358-941b-3a448a92ac62
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugCanStopEvent2::GetCodeContext
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the code context that describes the location of this event.
 
 ## Syntax
 
-```cpp
-HRESULT GetCodeContext( 
-   IDebugCodeContext2** ppCodeContext
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCodeContext( 
    out IDebugCodeContext2 ppCodeContext
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCodeContext( 
+   IDebugCodeContext2** ppCodeContext
+);
+```
+---
 
 ## Parameters
 `ppCodeContext`\

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngine3::SetJustMyCodeState
 ms.assetid: 8ec17fbf-df93-424a-b2ed-fd1e5ee51256
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine3::SetJustMyCodeState
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method tells the debug engine about the JustMyCode state information.
 
 ## Syntax
 
-```cpp
-HRESULT SetJustMyCodeState(
-   BOOL           fUpdate,
-   DWORD          dwModules,
-   JMC_CODE_SPEC* rgJMCSpec
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetJustMyCodeState(
    int             fUpdate,
@@ -38,6 +33,15 @@ int SetJustMyCodeState(
    JMC_CODE_SPEC[] rgJMCSpec
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetJustMyCodeState(
+   BOOL           fUpdate,
+   DWORD          dwModules,
+   JMC_CODE_SPEC* rgJMCSpec
+);
+```
+---
 
 ## Parameters
 `fUpdate`\

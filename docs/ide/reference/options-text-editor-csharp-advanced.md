@@ -1,8 +1,7 @@
 ---
 title: Options, Text Editor, C#, Advanced
 description: Learn how to use the Advanced page in the C# section to modify the settings for editor formatting, code refactoring, and XML documentation comments for C#.
-ms.custom: SEO-VS-2020
-ms.date: 06/01/2021
+ms.date: 10/29/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Outlining
@@ -16,6 +15,8 @@ ms.workload:
 ---
 # Options, Text Editor, C#, Advanced
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Use the **Advanced** options page to modify the settings for editor formatting, code refactoring, and XML documentation comments for C#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **C#** > **Advanced**.
 
 > [!NOTE]
@@ -23,9 +24,28 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
 ## Analysis
 
+::: moniker range=">=vs-2022"
+
+- Run background code analysis for ...
+
+  Choose one of the following options.
+
+  | Option | Description |
+  | - | - |
+  | None | All analyzers and corresponding code fixes are disabled.<br/><br/>Compiler diagnostics and corresponding code fixes are enabled on *all open* documents. |
+  | Current document (default) | All analyzers run just on the currently active document.<br/><br/>Compiler diagnostics are enabled on *all open* documents. |
+  | Open documents | All analyzers and compiler diagnostics are enabled on *all open* documents. |
+  | Entire solution | All analyzers and compiler diagnostics are enabled on *all* documents in the solution, whether open or closed. |
+
+::: moniker-end
+
+::: moniker range="<=vs-2019"
+
 - Live code analysis or Background analysis scope
 
    Configure the background analysis scope for managed code. For more information, see [How to: Configure live code analysis scope for managed code](../../code-quality/configure-live-code-analysis-scope-managed-code.md).
+
+::: moniker-end
 
 ## Using Directives
 
@@ -84,13 +104,7 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
    using System.Linq;
    ```
 
-::: moniker range=">=vs-2019"                                              
 - Suggest usings for types in .NET Framework assemblies
-::: moniker-end
-                                         
-::: moniker range="vs-2017"                                                
-- Suggest usings for types in reference assemblies
-::: moniker-end                                                            
 
 - Suggest usings for types in NuGet packages
 
@@ -132,36 +146,101 @@ Select these check boxes to display dotted vertical lines between the curly brac
 
 - Generate XML documentation comments for ///
 
-   When selected, inserts the XML elements for XML documentation comments after you type the `///` comment introduction. For more information about XML documentation, see [XML Documentation Comments (C# Programming Guide)](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments).
+  When selected, inserts the XML elements for XML documentation comments after you type the `///` comment introduction. For more information about XML documentation, see [XML Documentation Comments (C# Programming Guide)](/dotnet/csharp/programming-guide/xmldoc/).
 
-::: moniker range=">=vs-2019"
+## Extract Method
+
+- Don't put ref or out on custom struct
+
+   Uncheck this checkbox to avoid potentionally unintended cloning of structs by refencing existing struct objects when extracting an expression into a method call.
+
+   ### Example
+
+   Supposed the following `class` and `struct` exist in your code:
+
+   ```csharp
+   public struct CustomStruct
+   {
+      private int Count;
+
+      public int Bump => ++Count;
+   }
+
+
+   public class CustomClass
+   {
+      public void DoIt()
+      {
+         CustomStruct cs = new CustomStruct();
+         int i = 0;
+
+         i += cs.Bump;   // select this line
+      }
+   }
+   ```
+
+   If the "Don't put ref or out on custom struct" option is **unchecked**, then the "Extract method" feature generates the following:
+
+   ```C#
+   public class CustomClass
+   {
+      public void DoIt()
+      {
+         CustomStruct cs = new CustomStruct();
+         int i = 0;
+
+         NewMethod(ref cs, ref i);
+      }
+
+      private static void NewMethod(ref CustomStruct cs, ref int i)
+         => i += cs.Bump;
+   }
+   ```
+
+   If the "Don't put ref or out on custom struct" option is **checked**, then the "Extract method" feature generates the following:
+
+   ```C#
+   public class CustomClass
+   {
+      public void DoIt()
+      {
+         CustomStruct cs = new CustomStruct();
+         int i = 0;
+
+         i = NewMethod(cs, i);
+      }
+
+      private static int NewMethod(CustomStruct cs, int i)
+      {
+         i += cs.Bump;
+         return i;
+      }
+   }
+   ```
 
 ## Inline Hints
 
-- Inline Parameter Name Hints 
-    
-    When selected, inserts parameter name hints for literals, cast literals, and object instantiations prior to each argument in function calls.  
-    
+- Inline Parameter Name Hints
+
+    When selected, inserts parameter name hints for literals, cast literals, and object instantiations prior to each argument in function calls.
+
     ![Inline Parameter Name Hints for CSharp](media/inline-parameter-name-hints-csharp.png)
 
-- Inline Type Hints 
-    
-    When selected, inserts type hints for variables with inferred types and lambda parameter types.  
-    
+- Inline Type Hints
+
+    When selected, inserts type hints for variables with inferred types and lambda parameter types.
+
     ![Inline Type Hints for CSharp](media/inline-type-hints-csharp.png)
 
-## Inheritance Margin 
+## Inheritance Margin
 
 - When selected, adds icons to the margins representing your code's implementations and overrides. Clicking on the inheritance margin icons will display inheritance options that you can select to navigate to.
 
     ![Inheritance Margin](media/inheritance-margin.png)
 
-::: moniker-end
-
 ## See also
 
 - [How to: Insert XML comments for documentation generation](../../ide/reference/generate-xml-documentation-comments.md)
-- [XML Documentation Comments (C# Programming Guide)](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)
-- [Document your code with XML comments (C# Guide)](/dotnet/csharp/codedoc)
+- [Document your code with XML comments (C# Guide)](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)
 - [Set language-specific editor options](../../ide/reference/setting-language-specific-editor-options.md)
 - [C# IntelliSense](../../ide/visual-csharp-intellisense.md)

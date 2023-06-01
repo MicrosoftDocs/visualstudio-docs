@@ -10,6 +10,8 @@ ms.date: 11/11/2016
 ms.author: ghogen
 ---
 # Optimizing Your Azure Code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you’re programming apps that use Microsoft Azure, there are some coding practices you should follow to help avoid problems with app scalability, behavior and performance in a cloud environment. Microsoft provides an Azure Code Analysis tool that recognizes and identifies several of these commonly-encountered issues and helps you resolve them. You can download the tool in Visual Studio via NuGet.
 
 ## Azure Code Analysis rules
@@ -247,7 +249,7 @@ td.EnablePartitioning = true;
 ns.CreateTopic(td);
 ```
 
-For more information, see [Partitioned Service Bus Queues and Topics | Microsoft Azure Blog](https://azure.microsoft.com/blog/2013/10/29/partitioned-service-bus-queues-and-topics/) and check out the [Microsoft Azure Service Bus Partitioned Queue](https://code.msdn.microsoft.com/windowsazure/Service-Bus-Partitioned-7dfd3f1f) sample.
+For more information, see [Partitioned queues and topics](/azure/service-bus-messaging/service-bus-partitioning) and check out the [Microsoft Azure Service Bus Partitioned Queue](https://code.msdn.microsoft.com/windowsazure/Service-Bus-Partitioned-7dfd3f1f) sample.
 
 ## Do not set SharedAccessStartTime
 ### ID
@@ -387,7 +389,7 @@ Store connection strings in the configuration files or Azure environments.
 * For IIS-hosted web applications, use web.config to store connection strings.
 * For ASP.NET vNext applications, use configuration.json to store connection strings.
 
-For information on using configurations files such as web.config or app.config, see [ASP.NET Web Configuration Guidelines](/aspnet/web-forms/overview/deployment/visual-studio-web-deployment/web-config-transformations). For information on how Azure environment variables work, see [Azure Web Sites: How Application Strings and Connection Strings Work](https://azure.microsoft.com/blog/2013/07/17/windows-azure-web-sites-how-application-strings-and-connection-strings-work/). For information on storing connection string in source control, see [avoid putting sensitive information such as connection strings in files that are stored in source code repository](/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/source-control).
+For information on using configurations files such as web.config or app.config, see [ASP.NET Web Configuration Guidelines](/aspnet/web-forms/overview/deployment/visual-studio-web-deployment/web-config-transformations). For information on how Azure environment variables work, see [Azure Web Sites: How Application Strings and Connection Strings Work](https://azure.microsoft.com/blog/windows-azure-web-sites-how-application-strings-and-connection-strings-work/). For information on storing connection string in source control, see [avoid putting sensitive information such as connection strings in files that are stored in source code repository](/aspnet/aspnet/overview/developing-apps-with-windows-azure/building-real-world-cloud-apps-with-windows-azure/source-control).
 
 ## Use diagnostics configuration file
 ### ID

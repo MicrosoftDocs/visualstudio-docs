@@ -8,14 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProperty2 interface
 ms.assetid: a7d5c70f-a1a5-4120-9f70-184e01c25bff
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # IDebugProperty2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a stack frame property, a program document property, or some other property. The property is usually the result of an expression evaluation.
 
 > [!NOTE]

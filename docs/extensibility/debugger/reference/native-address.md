@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - NATIVE_ADDRESS structure
 ms.assetid: 7a0cd085-bfc8-45cc-a3d4-4459070e207a
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,21 +20,25 @@ dev_langs:
 ---
 # NATIVE_ADDRESS
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This structure represents a native address.
 
 ## Syntax
 
-```cpp
-typedef struct _tagNATIVE_ADDRESS {
-    DWORD unknown;
-} NATIVE_ADDRESS;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct NATIVE_ADDRESS {
     public uint unknown;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagNATIVE_ADDRESS {
+    DWORD unknown;
+} NATIVE_ADDRESS;
+```
+---
 
 ## Members
 

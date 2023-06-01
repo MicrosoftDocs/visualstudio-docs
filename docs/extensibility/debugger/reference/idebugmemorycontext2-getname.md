@@ -9,8 +9,8 @@ helpviewer_keywords:
 - IDebugMemoryContext2::GetName method
 - GetName method
 ms.assetid: 8c212556-7d9e-4d68-b2a9-8212f50d0287
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugMemoryContext2::GetName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the user-displayable name for this context.
 
 ## Syntax
 
-```cpp
-HRESULT GetName( 
-   BSTR* pbstrName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetName(
    out string pbstrName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetName( 
+   BSTR* pbstrName
+);
+```
+---
 
 ## Parameters
 `pbstrName`\

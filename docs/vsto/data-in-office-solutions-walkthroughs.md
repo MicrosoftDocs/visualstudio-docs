@@ -1,7 +1,6 @@
 ---
 title: "Data in Office solutions walkthroughs"
 description: Learn how to work with data in document-level customizations and VSTO Add-ins for Microsoft Word and Microsoft Excel.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # Data in Office solutions walkthroughs
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The following walkthroughs demonstrate how to work with data in document-level customizations and VSTO Add-ins for Microsoft Office Word and Microsoft Office Excel.
 
 ## Bind controls to data

@@ -2,7 +2,6 @@
 title: "Deploy, publish, & upgrade SharePoint solutions remotely"
 titleSuffix: ""
 description: Deploy, publish, and upgrade sandboxed SharePoint solutions on a remote site or a local SharePoint site.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -21,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # How to: Deploy, publish, and upgrade SharePoint solutions on a remote server
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   In addition to deploying SharePoint solutions to the local system, you can publish sandboxed SharePoint solutions to remote sites or local SharePoint sites. The remote publishing process copies the *.wsp* file to the SharePoint server, installs the solution, and then enables you to activate the solution. You can also upgrade a remote SharePoint solution installation after changes are made to it.
 
 ## To publish a sandboxed SharePoint solution to a remote SharePoint server

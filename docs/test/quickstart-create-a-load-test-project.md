@@ -1,7 +1,6 @@
 ---
 title: Create a web performance and load test project
 description: Learn how to create and run a web performance and load test project in Visual Studio with this quickstart.
-ms.custom: SEO-VS-2020
 ms.date: 03/14/2018
 ms.topic: quickstart
 helpviewer_keywords:
@@ -12,6 +11,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # Quickstart: Create a load test project
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this 10-minute quickstart, you'll learn how to create and run a web performance and load test project in Visual Studio. Load tests execute web performance or unit tests to simulate many users accessing a server at the same time.
 
@@ -39,24 +40,6 @@ If you don't already have the web performance and load testing tools component i
 
 In this section, we'll create a C# load test project. You can also create a Visual Basic load test project, if you prefer.
 
-::: moniker range="vs-2017"
-
-1. Open Visual Studio.
-
-2. Choose **File** > **New** > **Project** from the menu bar.
-
-   The **New Project** dialog box opens.
-
-3. In the **New Project** dialog box, expand **Installed** and **Visual C#**, and then select the **Test** category. Choose the **Web Performance and Load Test Project** template.
-
-   ![Web performance and load test project template](media/web-perf-load-test-project-template.png)
-
-4. Enter a name for the project if you don't want to use the default name, and then choose **OK**.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 1. Open Visual Studio.
 
 2. On the start window, choose **Create a new project**.
@@ -64,8 +47,6 @@ In this section, we'll create a C# load test project. You can also create a Visu
 3. On the **Create a new project** page, type **web test** into the search box, and then select the **Web Performance and Load Test Project \[Deprecated]** template for C#. Choose **Next**.
 
 4. Enter a name for the project if you don't want to use the default name, and then choose **Create**.
-
-::: moniker-end
 
    Visual Studio creates the project and displays the files in **Solution Explorer**. The project initially contains one web test file named *WebTest1.webtest*.
 
@@ -75,7 +56,7 @@ In this section, we'll create a C# load test project. You can also create a Visu
 
    The **New Load Test Wizard** opens.
 
-1. Select the **On-premises Load Test** option, and then choose **Next**. You can learn more about cloud-based load testing [here](/azure/devops/test/load-test/get-started-simple-cloud-load-test?view=vsts&preserve-view=true).
+1. Select the **On-premises Load Test** option, and then choose **Next**. You can learn more about cloud-based load testing [here](/previous-versions/azure/devops/pipelines/tasks/test/cloud-based-load-test).
 
    ![New load test wizard - first page](media/load-test-wizard-page-1.png)
 

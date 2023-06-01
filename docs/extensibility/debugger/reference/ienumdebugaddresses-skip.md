@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugAddresses::Skip method
 ms.assetid: ed9a8e71-30ef-414b-9da5-c9a2a251b84e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugAddresses::Skip
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method skips over the specified number of elements.
 
 ## Syntax
 
-```cpp
-HRESULT Skip(
-   [in] ULONG celt
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Skip(
    uint celt
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Skip(
+   [in] ULONG celt
+);
+```
+---
 
 ## Parameters
 `celt`\

@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSectionContrib::get_informational
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a flag indicating whether a section contains comments or similar information.
 
 ## Syntax

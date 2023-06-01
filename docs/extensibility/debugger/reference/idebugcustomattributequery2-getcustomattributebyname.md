@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCustomAttributeQuery2::GetCustomAttributeByName
 ms.assetid: 7428dfeb-8929-41b2-9b99-cb343a86c02d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugCustomAttributeQuery2::GetCustomAttributeByName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Obtains the custom attributes bytes given the name of the custom attribute.
 
 ## Syntax
 
-```cpp
-HRESULT GetCustomAttributeByName( 
-   LPCOLESTR pszCustomAttributeName,
-   BYTE*     ppBlob,
-   DWORD*    pdwLen
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCustomAttributeByName(
    [In] string        pszCustomAttributeName,
@@ -38,6 +33,15 @@ int GetCustomAttributeByName(
    [In, Out] ref uint pdwLen
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCustomAttributeByName( 
+   LPCOLESTR pszCustomAttributeName,
+   BYTE*     ppBlob,
+   DWORD*    pdwLen
+);
+```
+---
 
 ## Parameters
 `pszCustomAttributeName`\

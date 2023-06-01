@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEventCallback2::Event
 ms.assetid: e5a3345b-d460-4e40-8f5b-3111c56a2ed9
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,22 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugEventCallback2::Event
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sends notification of debug events.
 
 ## Syntax
 
-```cpp
-HRESULT Event( 
-   IDebugEngine2*  pEngine,
-   IDebugProcess2* pProcess,
-   IDebugProgram2* pProgram,
-   IDebugThread2*  pThread,
-   IDebugEvent2*   pEvent,
-   REFIID          riidEvent,
-   DWORD           dwAttrib
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Event( 
    IDebugEngine2  pEngine,
@@ -46,6 +37,19 @@ int Event( 
    uint           dwAttrib
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Event( 
+   IDebugEngine2*  pEngine,
+   IDebugProcess2* pProcess,
+   IDebugProgram2* pProgram,
+   IDebugThread2*  pThread,
+   IDebugEvent2*   pEvent,
+   REFIID          riidEvent,
+   DWORD           dwAttrib
+);
+```
+---
 
 ## Parameters
 `pEngine`\

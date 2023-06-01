@@ -2,8 +2,6 @@
   "build": {
     "content": [
       {
-        "group": "vsmac-2017",
-        "src": "2017",
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -15,10 +13,27 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
-        ]
-      },{
-        "group": "vsmac-2019",
-        "src": "./",
+        ],
+        "src": "2017",
+        "group": "vsmac-2017"
+      }, 
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ],
+        "src": "2019",
+        "group": "vsmac-2019"
+      },
+      {
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -31,13 +46,13 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
-        ]
+        ],
+        "src": "./",
+        "group": "vsmac-2022"
       }
     ],
     "resource": [
       {
-        "group": "vsmac-2017",
-        "src": "2017",
         "files": [
           "**/*.png",
           "**/*.jpg",
@@ -47,10 +62,25 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**"
-        ]
-      },{
-        "group": "vsmac-2019",
-        "src": "./",
+        ],
+        "src": "2017",
+        "group": "vsmac-2017"
+      },
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.svg",
+          "**/*.gif"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ],
+        "src": "2019",
+        "group": "vsmac-2019"
+      },
+      {
         "files": [
           "**/*.png",
           "**/*.jpg",
@@ -61,7 +91,9 @@
           "2017/**",
           "**/obj/**",
           "**/includes/**"
-        ]
+        ],
+        "src": "./",
+        "group": "vsmac-2022"
       }
     ],
     "overwrite": [],
@@ -87,7 +119,8 @@
       "searchScope": [
         "Mac"
       ],
-      "recommendations": true
+      "recommendations": true,
+      "archive_url": "/previous-versions/visualstudio/mac"
     },
     "fileMetadata": {
       "breadcrumb_path": {
@@ -106,21 +139,31 @@
       },
       "hideEdit": {
         "2017/**/*.md": true
+      },
+      "exclude_monikers": {
+        "**/*.md": [
+          "vsmac-2017",
+          "vsmac-2019"
+        ]
       }
     },
     "template": [],
-    "xref": [],
     "dest": "mac",
+    "markdownEngineName": "markdig",
+    "xref": [],
     "groups": {
       "vsmac-2017": {
-        "moniker_range": "vsmac-2017",
-        "dest": "2017"
+        "dest": "2017",
+        "moniker_range": "vsmac-2017"
       },
       "vsmac-2019": {
-        "moniker_range": "vsmac-2019",
-        "dest": "2019"
+        "dest": "2019",
+        "moniker_range": "vsmac-2019"
+      },
+      "vsmac-2022": {
+        "dest": "2022",
+        "moniker_range": ">=vsmac-2022"
       }
-    },
-    "markdownEngineName": "markdig"
+    }
   }
 }

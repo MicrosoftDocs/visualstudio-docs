@@ -1,7 +1,6 @@
 ---
 title: "Workspace build in Visual Studio | Microsoft Docs"
 description: Learn about the extender that supplies indexed and file context data for a workspace to support an Open Folder scenario.
-ms.custom: SEO-VS-2020
 ms.date: "02/21/2018"
 ms.topic: "conceptual"
 author: "vukelich"
@@ -11,6 +10,8 @@ ms.workload:
   - "vssdk"
 ---
 # Workspace build
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Build support in [Open Folder](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md) scenarios requires an extender to supply [indexed](workspace-indexing.md) and [file context](workspace-file-contexts.md) data for the [workspace](workspaces.md), as well as the build action to run.
 

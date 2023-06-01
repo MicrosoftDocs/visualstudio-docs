@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Call code from VBA in a Visual C# project"
 description: Learn how to call a method in a document-level customization for Microsoft Excel from Visual Basic for Applications (VBA) code in the workbook.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -24,6 +23,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Call code from VBA in a Visual C# project
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to call a method in a document-level customization for Microsoft Office Excel from Visual Basic for Applications (VBA) code in the workbook. The procedure involves three basic steps: add a method to the `Sheet1` host item class, expose the method to VBA code in the workbook, and then call the method from VBA code in the workbook.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]

@@ -10,8 +10,9 @@ ms.technology: vs-ide-code-analysis
 ms.workload:
   - multiple
 ---
-
 # Code metrics - Cyclomatic complexity
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When working with code metrics, one of the least understood items seems to be cyclomatic complexity. Essentially, with cyclomatic complexity, higher numbers are bad and lower numbers are good. You can use cyclomatic complexity to get a sense of how hard any given code may be to test, maintain, or troubleshoot as well as an indication of how likely the code will be to produce errors. At a high level, we determine the value of cyclomatic complexity by counting the number of decisions made in your source code. In this article, you start out with a simple example of cyclomatic complexity to understand the concept quickly, then look at some additional information on actual usage and suggested limits. Finally, there's a section of citations that can be used to dig deeper into this subject.
 
@@ -87,4 +88,4 @@ Watson, A. H., & McCabe, T. J. (1996). Structured Testing: A Testing Methodology
 
 ### SATC
 
-Rosenberg, L., Hammer, T., Shaw, J. (1998). Software Metrics and Reliability (Proceedings of IEEE International Symposium on Software Reliability Engineering). Retrieved May 14, 2011, from Penn State University web site: [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.104.4041&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.104.4041&rep=rep1&type=pdf)
+Rosenberg, L., Hammer, T., Shaw, J. (1998). Software Metrics and Reliability (Proceedings of IEEE International Symposium on Software Reliability Engineering). Retrieved May 14, 2011, from Penn State University web site: [https://citeseerx.ist.psu.edu/pdf/31e3f5732a7af3aecd364b6cc2a85d9495b5c159](https://citeseerx.ist.psu.edu/pdf/31e3f5732a7af3aecd364b6cc2a85d9495b5c159)

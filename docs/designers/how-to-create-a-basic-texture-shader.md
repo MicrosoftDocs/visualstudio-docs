@@ -1,7 +1,6 @@
 ---
 title: 'How to: Create a Basic Texture Shader'
 description: Use Shader Designer and Directed Graph Shader Language to create a single-texture shader that sets the final color to RGB and alpha values from the texture.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 5af113fb-6415-4be0-8b23-10fddb10e80a
@@ -13,6 +12,8 @@ ms.workload:
 - multiple
 ---
 # How to: Create a basic texture shader
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article demonstrates how to use the Shader Designer and the Directed Graph Shader Language (DGSL) to create a single-texture shader. This shader sets the final color directly to the RGB and alpha values that are sampled from the texture.
 

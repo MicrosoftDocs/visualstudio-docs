@@ -1,7 +1,6 @@
 ---
 title: "Mixed mode debugging for IA64 processes is unsupported"
 description: Visual Studio does not support mixed-mode debugging of managed and native code in IA64 (Itanium) processes. See this article for workarounds.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -20,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # Mixed mode debugging for IA64 processes is unsupported.
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio does not support mixed-mode debugging of managed and native code in IA64 processes. This means that you cannot step from managed code to native code, or from native code to managed code, while debugging.
 
 ### Workarounds

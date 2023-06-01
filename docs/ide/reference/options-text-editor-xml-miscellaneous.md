@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, XML, Miscellaneous
 description: Learn how to use the Miscellaneous page in the XAML section to to change the autocompletion and schema settings for the XML Editor.
-ms.custom: SEO-VS-2020
 ms.date: 10/29/2018
 ms.topic: reference
 f1_keywords:
@@ -13,6 +12,8 @@ manager: jmartens
 ms.technology: vs-ide-general
 ---
 # Options, Text Editor, XML, Miscellaneous
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Miscellaneous** options page to change the autocompletion and schema settings for the XML Editor. To access miscellaneous XML options, choose **Tools** > **Options** > **Text Editor** > **XML**, and then choose **Miscellaneous**.
 

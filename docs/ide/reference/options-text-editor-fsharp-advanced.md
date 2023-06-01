@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, F#, Advanced
 description: Learn how to use the Advanced page in the F# section to Modify the Block Structure Guides and Outlining settings for F#.
-ms.custom: SEO-VS-2020
 ms.date: 01/16/2019
 ms.topic: reference
 f1_keywords:
@@ -14,6 +13,8 @@ ms.workload:
   - "dotnet"
 ---
 # Options, Text Editor, F#, Advanced
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Advanced** options page to modify some text editor settings for F#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **F#** > **Advanced**.
 

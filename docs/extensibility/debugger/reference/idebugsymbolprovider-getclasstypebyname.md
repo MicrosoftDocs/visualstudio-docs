@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugSymbolProvider::GetClassTypeByName method
 ms.assetid: 2c748909-51dc-49b7-b193-19f96fca1138
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProvider::GetClassTypeByName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the class field type representing a fully qualified class name.
 
 ## Syntax
 
-```cpp
-HRESULT GetClassTypeByName( 
-   LPCOLESTR          pszClassName,
-   NAME_MATCH         nameMatch,
-   IDebugClassField** ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetClassTypeByName(
    string               pszClassName,
@@ -38,6 +33,15 @@ int GetClassTypeByName(
    out IDebugClassField ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetClassTypeByName( 
+   LPCOLESTR          pszClassName,
+   NAME_MATCH         nameMatch,
+   IDebugClassField** ppField
+);
+```
+---
 
 ## Parameters
 `pszClassName`\

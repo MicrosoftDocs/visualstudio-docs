@@ -1,7 +1,6 @@
 ---
 title: QUERYCHANGESFUNC | Microsoft Docs
 description: The QUERYCHANGESFUNC callback function is used to enumerate a collection of file names and determine the status of each file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -10,14 +9,16 @@ helpviewer_keywords:
 - QUERYCHANGESFUNC callback function
 - QUERYCHANGESDATA structure
 ms.assetid: 9d383e2c-eee1-4996-973a-0652d4c5951c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # QUERYCHANGESFUNC
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This is a callback function used by the [SccQueryChanges](../extensibility/sccquerychanges-function.md) operation to enumerate a collection of file names and determine each file's status.
 
  The `SccQueryChanges` function is given a list of files and a pointer to the `QUERYCHANGESFUNC` callback. The source control plug-in enumerates over the given list and provides status (via this callback) for each file in the list.

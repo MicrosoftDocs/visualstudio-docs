@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IPropertyProxyEESide::ResolveAssemblyRef
 ms.assetid: 662ca0a6-dad0-4c00-a718-bb3bbc5bd9da
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,20 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IPropertyProxyEESide::ResolveAssemblyRef
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines the location of the specified managed assembly reference.
 
 ## Syntax
 
-```cpp
-HRESULT ResolveAssemblyRef(
-   BSTR*                  assemName,
-   IEEDataStorage**       assemBytes,
-   IEEDataStorage**       assemPdb,
-   BSTR*                  assemLocation,
-   ASSEMBLYLOCRESOLUTION* alr
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ResolveAssemblyRef(
    ref string                     assemName,
@@ -42,6 +35,17 @@ int ResolveAssemblyRef(
    out enum_ASSEMBLYLOCRESOLUTION alr
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ResolveAssemblyRef(
+   BSTR*                  assemName,
+   IEEDataStorage**       assemBytes,
+   IEEDataStorage**       assemPdb,
+   BSTR*                  assemLocation,
+   ASSEMBLYLOCRESOLUTION* alr
+);
+```
+---
 
 ## Parameters
 `assemName`\

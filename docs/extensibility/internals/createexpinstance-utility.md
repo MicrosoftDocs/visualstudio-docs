@@ -1,7 +1,6 @@
 ---
 title: CreateExpInstance Utility | Microsoft Docs
 description: Learn about the CreateExpInstance utility that allows you to create, reset, or delete an experimental instance of Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -11,14 +10,16 @@ helpviewer_keywords:
 - createexpinstance
 - createexpinst
 ms.assetid: 03779774-9401-49ae-997c-0c3ab25ed0d5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # CreateExpInstance utility
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Use the **CreateExpInstance** utility to create, reset, or delete an experimental instance of Visual Studio. You can use the experimental instance to debug and test Visual Studio extensions without changing the underlying product.
 
 ## Syntax

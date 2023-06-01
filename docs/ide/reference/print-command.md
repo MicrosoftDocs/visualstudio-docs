@@ -1,7 +1,6 @@
 ---
 title: Debug.Print
 description: Learn about the Print command and how it evaluates an expression or displays specified text.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -19,6 +18,8 @@ ms.workload:
 - multiple
 ---
 # Print command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Evaluates an expression or displays specified text.
 

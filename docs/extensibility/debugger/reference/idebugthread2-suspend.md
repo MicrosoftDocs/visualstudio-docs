@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugThread2::Suspend
 ms.assetid: 1e20be85-aa12-48de-bb83-0bf0976e99ae
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugThread2::Suspend
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Suspends a thread.
 
 ## Syntax
 
-```cpp
-HRESULT Suspend ( 
-   DWORD *pdwSuspendCount
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 HRESULT Suspend ( 
    out uint pdwSuspendCount
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Suspend ( 
+   DWORD *pdwSuspendCount
+);
+```
+---
 
 ## Parameters
 `pdwSuspendCount`\

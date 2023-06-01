@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugThread2::SetNextStatement
 ms.assetid: 9e2834dd-4ecf-45af-8e6c-f9318ebdac06
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugThread2::SetNextStatement
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the current instruction pointer to the given code context.
 
 ## Syntax
 
-```cpp
-HRESULT SetNextStatement ( 
-   IDebugStackFrame2*  pStackFrame,
-   IDebugCodeContext2* pCodeContext
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetNextStatement ( 
    IDebugStackFrame2  pStackFrame,
    IDebugCodeContext2 pCodeContext
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetNextStatement ( 
+   IDebugStackFrame2*  pStackFrame,
+   IDebugCodeContext2* pCodeContext
+);
+```
+---
 
 ## Parameters
 `pStackFrame`\

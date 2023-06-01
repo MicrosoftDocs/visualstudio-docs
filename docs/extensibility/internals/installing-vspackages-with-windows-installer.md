@@ -1,21 +1,22 @@
 ---
 title: Installing VSPackages With Windows Installer | Microsoft Docs
 description: Learn how to use the Microsoft Windows Installer to install a VSPackage and its dependent files, and register and integrate them into Visual Studio.
-ms.custom: SEO-VS-2020 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - installation [Visual Studio SDK], with Windows Installer
 - VSPackages, deploying
 ms.assetid: 41d2c72c-0a97-4fcd-b3aa-33a8d3aa962a
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Installing VSPackages With Windows Installer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Integrating your VSPackage into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] requires more than just copying files to a user's computer. Your VSPackage's installer must install the VSPackage and its dependent files, and register and integrate them into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. Your VSPackage can take advantage of integration features such as displaying an icon on the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] splash screen and About dialog box.
 
  Microsoft Windows Installer files are the recommended way to distribute your VSPackages. Easy-to-use Windows Installer packages can run on any Windows operating system supported by [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. For more information, see [Windows Installer](/previous-versions/2kt85ked(v=vs.120)).

@@ -15,14 +15,16 @@ helpviewer_keywords:
   - "Help Viewer, navigating"
   - "toolbar [Help Viewer]"
 ms.assetid: 74e41666-2ce8-4ac0-a0e5-3723d1e322c2
-author: ghogen
-ms.author: ghogen
+author: jasonchlus
+ms.author: jasonchlus
 manager: jmartens
 ms.technology: vs-help-viewer
 ms.workload:
   - "multiple"
 ---
 # Microsoft Help Viewer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can install and view content for various products and technologies on your local computer by using Microsoft Help Viewer. These products include Visual Studio, .NET, language reference, SQL Server, and Windows Development. Help Viewer enables you to:
 
@@ -39,7 +41,7 @@ You can install and view content for various products and technologies on your l
 To install Help Viewer, see [Microsoft Help Viewer installation](../help-viewer/installation.md). To start reading help topics in the Help Viewer rather than online, go to the **Help** menu in Visual Studio, and then choose **Set Help Preference** > **Launch in Help Viewer**.
 
 > [!TIP]
-> Another way to download content locally so you can view it when you don't have an internet connection is to download a PDF version of it. Many documentation sets on docs.microsoft.com include a link at the bottom of the table of contents (TOC) to download a PDF file that contains all the articles for that TOC.
+> Another way to download content locally so you can view it when you don't have an internet connection is to download a PDF version of it. Many documentation sets on Microsoft Learn include a link at the bottom of the table of contents (TOC) to download a PDF file that contains all the articles for that TOC.
 >
 > ![Download PDF for Visual Studio documentation](media/overview/download-pdf.png)
 

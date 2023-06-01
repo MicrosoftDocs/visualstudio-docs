@@ -1,7 +1,6 @@
 ---
 title: Create parameterized TableAdapter queries
 description: Understand how to create parameterized TableAdapter queries. A parameterized query returns data that meets the conditions of a WHERE clause within the query.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -23,6 +22,10 @@ ms.workload:
 - data-storage
 ---
 # Create parameterized TableAdapter queries
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 A parameterized query returns data that meets the conditions of a WHERE clause within the query. For example, you can parameterize a customer list to display only customers in a certain city by adding `WHERE City = @City` to the end of the SQL statement that returns a list of customers.
 
@@ -84,8 +87,12 @@ WHERE (ShippedDate = @ShippedDate) OR (ShippedDate IS NULL)
 
 If this were a query on a TableAdapter, you could query for all orders that have not been shipped with the following code:
 
+### [C#](#tab/csharp)
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataTableAdapters/CS/Form2.cs" id="Snippet8":::
+
+### [VB](#tab/vb)
 :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataTableAdapters/VB/Form2.vb" id="Snippet8":::
+---
 
 To enable a query to accept null values:
 

@@ -1,7 +1,6 @@
 ---
 title: IntelliSenseHostFlags | Microsoft Docs
 description: The IntelliSenseHostFlags enumeration specifies IntelliSense host flags. This article describes the enum values.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -10,14 +9,16 @@ helpviewer_keywords:
 - IntelliSense, IntellisenseHostFlags enumeration
 - IntellisenseHostFlags enumeration
 ms.assetid: 0930640b-eb84-48ef-a8f7-d4268f55c99c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # IntelliSenseHostFlags
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies IntelliSense host flags.
 
 ## Syntax

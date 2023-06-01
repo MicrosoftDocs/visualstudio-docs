@@ -1,7 +1,6 @@
 ---
 title: Web Browser, Environment, Options Dialog Box
 description: Learn how to use the Web Browser page in the Environment section to set options for both the internal Web browser and Internet Explorer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -27,13 +26,20 @@ ms.workload:
 ---
 # Options dialog box: Environment \> Web Browser
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Sets options for both the internal Web browser and Internet Explorer. To access this dialog box, click **Options** on the **Tools** menu, expand the **Environment** folder, and select **Web Browser**.
 
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../environment-settings.md#reset-settings).
+> [!Important]
+> This feature is deprecated in Visual Studio 2022 and won’t be supported going forward.
+>
+> For more information about Visual Studio 2022, check out our [release notes]( /visualstudio/releases/2022/release-notes) and the Visual Studio [roadmap](/visualstudio/productinfo/vs-roadmap/).
 
 > [!IMPORTANT]
 > Opening certain files or components from the Web can execute code on your computer.
+
+> [!NOTE]
+> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../environment-settings.md#reset-settings).
 
 ## Home page
 

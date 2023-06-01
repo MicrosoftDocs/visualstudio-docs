@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgram2::GetDebugProperty
 ms.assetid: d194224e-f0e6-46ab-85d4-9e2639e28946
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram2::GetDebugProperty
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the program's properties.
 
 ## Syntax
 
-```cpp
-HRESULT GetDebugProperty( 
-   IDebugProperty2** ppProperty
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDebugProperty( 
    out IDebugProperty2 ppProperty
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDebugProperty( 
+   IDebugProperty2** ppProperty
+);
+```
+---
 
 ## Parameters
 `ppProperty`\

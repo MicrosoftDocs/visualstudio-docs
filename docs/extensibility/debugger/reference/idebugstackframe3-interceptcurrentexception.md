@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugStackFrame3::InterceptCurrentException
 ms.assetid: 116c7324-7645-4c15-b484-7a5cdd065ef5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugStackFrame3::InterceptCurrentException
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Called by the debugger on the current stack frame when it wants to intercept the current exception.
 
 ## Syntax
 
-```cpp
-HRESULT InterceptCurrentException(
-   INTERCEPT_EXCEPTION_ACTION dwFlags,
-   UINT64*                    pqwCookie
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int InterceptCurrentException(
    uint dwFlags,
    out  ulong pqwCookie
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT InterceptCurrentException(
+   INTERCEPT_EXCEPTION_ACTION dwFlags,
+   UINT64*                    pqwCookie
+);
+```
+---
 
 ## Parameters
 `dwFlags`\

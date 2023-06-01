@@ -1,7 +1,6 @@
 ---
 title: Adding a Shortcut Menu in a Tool Window | Microsoft Docs
 description: Learn how to add a shortcut menu to a tool window in Visual Studio that appears when a button, text box, or window background is right-clicked.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -10,14 +9,16 @@ helpviewer_keywords:
 - shortcut menus, adding to tool windows
 - tool windows, adding context menus
 ms.assetid: 50234537-9e95-4b7e-9cb7-e5cf26d6e9d2
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Add a shortcut menu in a tool window
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This walkthrough puts a shortcut menu in a tool window. A shortcut menu is a menu that appears when a user right-clicks a button, text box, or window background. Commands on a shortcut menu behave the same as commands on other menus or toolbars. To support a shortcut menu, specify it in the *.vsct* file and display it in response to the right-click of the mouse.
 
 A tool window consists of a WPF user control in a custom tool window class that inherits from <xref:Microsoft.VisualStudio.Shell.ToolWindowPane>.

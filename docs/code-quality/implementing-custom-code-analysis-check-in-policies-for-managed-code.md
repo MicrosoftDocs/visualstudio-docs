@@ -2,7 +2,6 @@
 title: Custom code analysis check-in policies for managed code
 ms.date: 11/04/2016
 description: Learn how to create a customized code analysis check-in policy. See how to ensure that Visual Studio managed code conforms to an Azure DevOps project policy.
-ms.custom: SEO-VS-2020
 ms.topic: how-to
 f1_keywords:
   - vs.code.analysis.selecttfsrulesets
@@ -17,6 +16,8 @@ ms.workload:
   - dotnet
 ---
 # Implement Custom Code Analysis Check-in Policies for Managed Code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A code analysis check-in policy specifies a set of rules that members of an Azure DevOps project must run on source code before it is checked in to version control. Microsoft provides a set of standard *rule sets* that group code analysis rules into functional areas. *Custom check-in policy rule sets* specify a set of code analysis rules that are specific to a project. A rule set is stored in a .ruleset file.
 
@@ -55,7 +56,7 @@ To create a custom rule set for an Azure DevOps project, you first create a spec
 
 1. In **Source Control Explorer**, right-click the new folder, and then click **Add Items to Folder**.
 
-     For more information, see [Git and Azure Repos](/azure/devops/repos/git/overview?view=vsts&preserve-view=true).
+     For more information, see [Git and Azure Repos](/azure/devops/repos/git).
 
 2. Click the rule set file that you created, and then click **Finish**.
 
@@ -107,17 +108,7 @@ You specify a project check-in policy rule set as the code analysis rule set of 
 
 4. If necessary, click the appropriate options in the **Configuration** and **Platform** lists.
 
-::: moniker range="vs-2017"
-
-5. To run code analysis every time that the code project is built using the specified configuration, select **Enable Code Analysis on Build**.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 5. To run code analysis every time that the code project is built using the specified configuration, select **Run on build** in the **Binary analyzers** section.
-
-::: moniker-end
 
 6. In the **Run this rule set** list, click **\<Browse>**.
 

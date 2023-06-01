@@ -1,13 +1,16 @@
 ---
 title: "Code Snippets"
 description: "How to use code snippets to program efficiently in Visual Studio for Mac"
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
+manager: dominicn
 ms.date: 11/09/2020
+ms.topic: reference
 ms.assetid: 0FE27C0C-A861-4133-A74E-8D0505CF5342
 ---
-
 # Code snippets
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 Code snippets, often referred to as _code templates_, are useful for efficient programming as they allow the insertion and editing of pre-written blocks of code. Using code snippets can be convenient for quickly adding common patterns, or even for learning new patterns when as the developer you are unsure of syntax. There are templates provided for C#, F#, HTML, XML, Python, and Razor.
 

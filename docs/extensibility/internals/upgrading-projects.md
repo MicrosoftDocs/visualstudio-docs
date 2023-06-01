@@ -1,7 +1,6 @@
 ---
 title: Upgrading Projects | Microsoft Docs
 description: Learn about the interfaces that the Visual Studio SDK provides to implement upgrade support in your projects.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,14 +8,16 @@ helpviewer_keywords:
 - upgrading applications, strategies
 - VSPackages, upgrade support
 ms.assetid: e01cb44a-8105-4cf4-8223-dfae65f8597a
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Upgrading Projects
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Changes to the project model from one version of Visual Studio to the next may require that projects and solutions be upgraded so that they can run on the newer version. The [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] provides interfaces that can be used to implement upgrade support in your own projects.
 

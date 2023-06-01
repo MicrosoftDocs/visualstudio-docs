@@ -1,10 +1,10 @@
 ---
 title: Use CookieCutter templates with Python
 description: Visual Studio supports the graphical Cookiecutter extension to discover templates for Python code and create projects from those templates.
-ms.date: 01/28/2019
+ms.date: 12/12/2022
 ms.topic: how-to
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -12,8 +12,9 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Use the Cookiecutter extension
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) provides a graphical user interface to discover templates, input template options, and create projects and files. It's included with Visual Studio 2017 and later and can be installed separately in earlier versions of Visual Studio.
 
@@ -143,7 +144,7 @@ Example:
     },
     {
         "name": "Cookiecutter.ExternalWebBrowser",
-        "args": "https://docs.microsoft.com"
+        "args": "https://learn.microsoft.com"
     },
     {
         "name": "Python.InstallProjectRequirements",

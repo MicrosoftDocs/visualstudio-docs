@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProperty2::GetDerivedMostProperty
 ms.assetid: cc86b461-62d1-4340-8209-c65037fd8b02
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty2::GetDerivedMostProperty
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the derived-most property of a property.
 
 ## Syntax
 
-```cpp
-HRESULT GetDerivedMostProperty ( 
-   IDebugProperty2** ppDerivedMost
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDerivedMostProperty ( 
    out IDebugProperty2 ppDerivedMost
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDerivedMostProperty ( 
+   IDebugProperty2** ppDerivedMost
+);
+```
+---
 
 ## Parameters
 `ppDerivedMost`\

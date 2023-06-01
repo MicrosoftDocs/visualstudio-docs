@@ -1,7 +1,6 @@
 ---
 title: "Creating Web Parts for SharePoint | Microsoft Docs"
 description: Create web parts for SharePoint. By using web parts, you can modify the content, appearance, and behavior of pages of a SharePoint site by using a browser.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 f1_keywords:
@@ -28,6 +27,8 @@ ms.workload:
   - "office"
 ---
 # Create web parts for SharePoint
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   By using web parts, you can modify the content, appearance, and behavior of pages of a SharePoint site by using a browser. Web parts are server-side controls that run inside a web part page: they're the building blocks of pages that appear on a SharePoint site. See [Building Block: Web Parts](/previous-versions/office/developer/sharepoint-2010/ee535520(v=office.14)).
 
  You can create and debug web parts on a SharePoint site by using templates from Visual Studio.

@@ -1,7 +1,7 @@
 ---
 title: Unit testing fundamentals
 description: Learn how Visual Studio Test Explorer provides a flexible and efficient way to run your unit tests and view their results. 
-ms.date: 07/26/2021
+ms.date: 11/22/2022
 ms.topic: conceptual
 f1_keywords:
 - vs.UnitTest.CreateUnitTest
@@ -13,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # Unit test basics
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Check that your code is working as expected by creating and running unit tests. It's called unit testing because you break down the functionality of your program into discrete testable behaviors that you can test as individual *units*. Visual Studio Test Explorer provides a flexible and efficient way to run your unit tests and view their results in Visual Studio. Visual Studio installs the Microsoft unit testing frameworks for managed and native code. Use a *unit testing framework* to create unit tests, run them, and report the results of these tests. Rerun unit tests when you make changes to test that your code is still working correctly. Visual Studio Enterprise can do this automatically with [Live Unit Testing](live-unit-testing-intro.md), which detects tests affected by your code changes and runs them in the background as you type.
 
@@ -32,24 +34,24 @@ For an introduction to unit testing that takes you directly into coding, see one
 
 - [Write unit tests for C/C++ in Visual Studio](../test/writing-unit-tests-for-c-cpp.md)
 
-## The MyBank solution example
+## The Bank solution example
 
 In this article, we use the development of a fictional application called `MyBank` as an example. You don't need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code. However, the concepts are easily transferred to other languages and frameworks.
 
-::: moniker range="vs-2017"
-![MyBank Solution](../test/media/ute_mybanksolution.png)
-::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![MyBank Solution 2019](../test/media/vs-2019/basics-mybank-solution.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![MyBank Solution 2022](../test/media/vs-2022/basics-mybank-solution.png)
 ::: moniker-end
 
 Our first attempt at a design for the `MyBank` application includes an accounts component that represents an individual account and its transactions with the bank, and a database component that represents the functionality to aggregate and manage the individual accounts.
 
-We create a `MyBank` solution that contains two projects:
+We create a `Bank` solution that contains two projects:
 
 - `Accounts`
 
-- `BankDb`
+- `BankDB`
 
 Our first attempt at designing the `Accounts` project contains a class to hold basic information about an account, an interface that specifies the common functionality of any type of account, like depositing and withdrawing assets from the account, and a class derived from the interface that represents a checking account. We begin the Accounts projects by creating the following source files:
 
@@ -85,60 +87,51 @@ For C#, it is often quicker to generate the unit test project and unit test stub
 
 1. From the code editor window, right-click and choose [**Create Unit Tests**](create-unit-tests-menu.md) from the right-click menu.
 
-   ::: moniker range="vs-2017"
-   ![From the editor window, view the context menu](../test/media/createunittestsrightclick.png)
-
-   > [!NOTE]
-   > The **Create Unit Tests** menu command is only available for managed code that targets the .NET Framework (but not .NET Core).
-   ::: moniker-end
-   ::: moniker range=">=vs-2019"
+   ::: moniker range="vs-2019"
    ![From the editor window, view the context menu](../test/media/vs-2019/basics-create-unit-tests.png)
 
    > [!NOTE]
-   > The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET Standard, Visual Studio 2019 is required.
+   > The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET Standard, Visual Studio 2019 or later is required.
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2022"
+   ![From the editor window, view the context menu](../test/media/vs-2022/basics-create-unit-tests.png)
+
+   > [!NOTE]
+   > The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET Standard, Visual Studio 2019 or later is required.
    ::: moniker-end
 
 2. Click **OK** to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.
 
+   ::: moniker range="<=vs-2019"
    ![Create Unit Tests dialog box in Visual Studio](../test/media/create-unit-tests.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![Create Unit Tests dialog box in Visual Studio](../test/media/vs-2022/create-unit-tests.png)
+   ::: moniker-end
 
 3. The unit test stubs are created in a new unit test project for all the methods in the class.
 
-   ::: moniker range="vs-2017"
-   ![The unit tests are created](../test/media/createunittestsstubs.png)
-   ::: moniker-end
-   ::: moniker range=">=vs-2019"
+   ::: moniker range="vs-2019"
    ![The unit tests are created](../test/media/vs-2019/basics-test-stub.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![The unit tests are created](../test/media/vs-2022/basics-test-stub.png)
    ::: moniker-end
 
 4. Now jump ahead to learn how to [Write your tests](#write-your-tests) to make your unit test meaningful, and any extra unit tests that you might want to add to thoroughly test your code.
 
 ### Create the unit test project and unit tests manually
 
-A unit test project usually mirrors the structure of a single code project. In the MyBank example, you add two unit test projects named `AccountsTests` and `BankDbTests` to the `MyBanks` solution. The test project names are arbitrary, but adopting a standard naming convention is a good idea.
+A unit test project usually mirrors the structure of a single code project. In the MyBank example, you add two unit test projects named `AccountsTests` and `BankDbTests` to the `Bank` solution. The test project names are arbitrary, but adopting a standard naming convention is a good idea.
 
 **To add a unit test project to a solution:**
 
 1. In **Solution Explorer**, right-click on the solution and choose **Add** > **New** **Project**.
 
-::: moniker range="vs-2017"
-
-2. In the **New Project** dialog box, expand the **Installed** node, choose the language that you want to use for your test project, and then choose **Test**.
-
-3. To use one of the Microsoft unit test frameworks, choose **Unit Test Project** from the list of project templates. Otherwise, choose the project template of the unit test framework that you want to use. To test the `Accounts` project of our example, you would name the project `AccountsTests`.
-
-   > [!NOTE]
-   > Not all third-party and open source unit test frameworks provide a Visual Studio project template. Consult the framework document for information about creating a project.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 2. Type **test** in the project template search box to find a unit test project template for the test framework that you want to use. (In the examples in this topic, we use MSTest.)
 
 3. On the next page, name the project. To test the `Accounts` project of our example, you could name the project `AccountsTests`.
-
-::: moniker-end
 
 4. In your unit test project, add a reference to the code project under test, in our example to the Accounts project.
 
@@ -230,11 +223,11 @@ public void My_Test ()
 
 When you build the test project, the tests appear in **Test Explorer**. If **Test Explorer** is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer** (or press **Ctrl** + **E**, **T**).
 
-::: moniker range="vs-2017"
-![Unit Test Explorer](../test/media/ute_failedpassednotrunsummary.png)
-::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![Unit Test Explorer](../test/media/vs-2019/basics-test-explorer.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Unit Test Explorer](../test/media/vs-2022/basics-test-explorer.png)
 ::: moniker-end
 
 As you run, write, and rerun your tests, the **Test Explorer** can display the results in groups of **Failed Tests**, **Passed Tests**, **Skipped Tests** and **Not Run Tests**. You can choose different group by options in the toolbar.
@@ -245,55 +238,30 @@ You can also filter the tests in any view by matching text in the search box at 
 
 The **Test Explorer** toolbar helps you discover, organize, and run the tests that you are interested in.
 
-::: moniker range="vs-2017"
-![Run tests from the Test Explorer toolbar](../test/media/ute_toolbar.png)
-::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![Run tests from the Test Explorer toolbar](../test/media/vs-2019/test-explorer-toolbar-diagram-16-2.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Run tests from the Test Explorer toolbar](../test/media/vs-2022/test-explorer-toolbar-diagram-17-0.png)
 ::: moniker-end
 
 You can choose **Run All** to run all your tests (or press **Ctrl** + **R**, **V**), or choose **Run** to choose a subset of tests to run (**Ctrl** + **R**, **T**). Select a test to view the details of that test in the test details pane. Choose **Open Test** from the right-click menu (Keyboard: **F12**) to display the source code for the selected test.
 
-::: moniker range="vs-2017"
-
-If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution with the ![Screenshot of the Parallel test execution toggle button on the Visual Studio Test Explorer toolbar.](../test/media/ute_parallelicon-small.png) toggle button on the toolbar. This can noticeably reduce the time taken to run all the tests.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
-
-::: moniker-end
 
 ### Run tests after every build
 
-::: moniker range="vs-2017"
-
-|Button|Description|
-|-|-|
-|![Run after build](../test/media/ute_runafterbuild_btn.png)|To run your unit tests after each local build, choose **Test** on the standard menu, and then choose **Run Tests After Build** on the **Test Explorer** toolbar.|
-
-> [!NOTE]
-> Running unit tests after each build requires Visual Studio 2017 Enterprise edition or Visual Studio 2019. In Visual Studio 2019, the feature is available in Community and Professional edition, in addition to Enterprise edition.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 To run your unit tests after each local build, open the settings icon in the Test Explorer toolbar and select **Run Tests After Build**.
-
-::: moniker-end
 
 ### Filter and group the test list
 
 When you have a large number of tests, you can type in the **Test Explorer** search box to filter the list by the specified string. You can restrict your filter event more by choosing from the filter list.
 
-::: moniker range="vs-2017"
-![Search filter categories](../test/media/ute_searchfilter.png)
-::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![Search filter categories](../test/media/vs-2019/test-explorer-search-filter-16-2.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Search filter categories](../test/media/vs-2022/test-explorer-search-filter-17-0.png)
 ::: moniker-end
 
 |Button|Description|
@@ -321,42 +289,18 @@ Learn more details about [debugging unit tests](../debugger/debugger-feature-tou
 
 **A:** Use Quick Actions to generate classes and methods in your project code. Write a statement in a test method that calls the class or method that you want to generate, then open the lightbulb that appears under the error. If the call is to a constructor of the new class, choose **Generate type** from the menu and follow the wizard to insert the class in your code project. If the call is to a method, choose **Generate method** from the IntelliSense menu.
 
-::: moniker range="vs-2017"
-![Generate Method Stub Quick Action Menu](../test/media/ute_generatemethodstubintellisense.png)
-::: moniker-end
-::: moniker range=">=vs-2019"
+::: moniker range="vs-2019"
 ![Generate Method Stub Quick Action Menu](../test/media/vs-2019/basics-generate-method-tdd.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Generate Method Stub Quick Action Menu](../test/media/vs-2022/basics-generate-method-tdd.png)
 ::: moniker-end
 
 **Q: Can I create unit tests that take multiple sets of data as input to run the test?**
 
-**A:** Yes. *Data-driven test methods* let you test a range of values with a single unit test method. Use a `DataSource` attribute for the test method that specifies the data source and table that contains the variable values that you want to test.  In the method body, you assign the row values to variables using the `TestContext.DataRow[`*ColumnName*`]` indexer.
+**A:** Yes. *Data-driven test methods* let you test a range of values with a single unit test method. Use a `DataRow`, `DynamicData` or `DataSource` attribute for the test method that specifies the data source that contains the variable values that you want to test.
 
-> [!NOTE]
-> These procedures apply only to test methods that you write by using the Microsoft unit test framework for managed code. If you're using a different framework, consult the framework documentation for equivalent functionality.
-
-For example, assume we add an unnecessary method to the `CheckingAccount` class that is named `AddIntegerHelper`. `AddIntegerHelper` adds two integers.
-
-To create a data-driven test for the `AddIntegerHelper` method, we first create an Access database named *AccountsTest.accdb* and a table named `AddIntegerHelperData`. The `AddIntegerHelperData` table defines columns to specify the first and second operands of the addition and a column to specify the expected result. We fill a number of rows with appropriate values.
-
-```csharp
-[DataSource(
-    @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Projects\MyBank\TestData\AccountsTest.accdb",
-    "AddIntegerHelperData"
-)]
-[TestMethod()]
-public void AddIntegerHelper_DataDrivenValues_AllShouldPass()
-{
-    var target = new CheckingAccount();
-    int x = Convert.ToInt32(TestContext.DataRow["FirstNumber"]);
-    int y = Convert.ToInt32(TestContext.DataRow["SecondNumber"]);
-    int expected = Convert.ToInt32(TestContext.DataRow["Sum"]);
-    int actual = target.AddIntegerHelper(x, y);
-    Assert.AreEqual(expected, actual);
-}
-```
-
-The attributed method runs once for each row in the table. **Test Explorer** reports a test failure for the method if any of the iterations fail. The test results detail pane for the method shows you the pass/fail status method for each row of data.
+The attributed method runs once for each row in the data source. **Test Explorer** reports a test failure for the method if any of the iterations fail. The test results detail pane for the method shows you the pass/fail status method for each row of data.
 
 Learn more about [data-driven unit tests](../test/how-to-create-a-data-driven-unit-test.md).
 
@@ -370,9 +314,14 @@ To run code coverage for test methods in a solution, choose **Test** > **Analyze
 
 Coverage results appear in the **Code Coverage Results** window.
 
+::: moniker range="<=vs-2019"
 ![Code coverage results](../test/media/ute_codecoverageresults.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![Code coverage results](../test/media/vs-2022/ute-code-coverage-results.png)
+::: moniker-end
 
-Learn more about [code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) .
+Learn more about [code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 
 **Q: Can I test methods in my code that have external dependencies?**
 

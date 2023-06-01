@@ -1,7 +1,6 @@
 ---
 title: "Additional support for errors in Office solutions"
 description: Learn how you can use support resources to find answers to problems you encounter as you create Office solutions in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: conceptual
 f1_keywords:
@@ -61,6 +60,8 @@ ms.workload:
   - "office"
 ---
 # Additional support for errors in Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the following resources to help you find answers to problems you encounter as you create Office solutions in Visual Studio.
 

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - GetLocalVariablelayout
 - IDebugComPlusSymbolProvider::GetLocalVariablelayout
 ms.assetid: b7328d85-e5e9-4d9f-bcd1-e7711fd33878
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,20 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetLocalVariablelayout
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the layout of local variables for a set of methods.
 
 ## Syntax
 
-```cpp
-HRESULT GetLocalVariablelayout(
-    ULONG32   ulAppDomainID,
-    GUID      guidModule,
-    ULONG32   cMethods,
-    _mdToken  rgMethodTokens[],
-    IStream** pStreamLayout
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetLocalVariablelayout(
     uint        ulAppDomainID,
@@ -41,6 +34,17 @@ int GetLocalVariablelayout(
     out IStream pStreamLayout
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetLocalVariablelayout(
+    ULONG32   ulAppDomainID,
+    GUID      guidModule,
+    ULONG32   cMethods,
+    _mdToken  rgMethodTokens[],
+    IStream** pStreamLayout
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

@@ -1,8 +1,7 @@
 ---
 title: 'How to: Build Incrementally | Microsoft Docs'
 description: Learn how to use MSBuild to build incrementally, so previously built components that are still up-to-date aren't rebuilt.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 05/16/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, incremental builds
@@ -67,7 +66,7 @@ The project uses transforms to create a one-to-one mapping between inputs and ou
 This project file contains both the `Convert` and `Build` targets. The `GenerateContentFiles` and `BuildHelp` tasks are placed in the `Convert` and `Build` targets respectively so that each target can be built incrementally. By using the `Output` element, the outputs of the `GenerateContentFiles` task are placed in the `ContentFile` item list, where they can be used as inputs for the `BuildHelp` task. Using the `Output` element in this way automatically provides the outputs from one task as the inputs for another task so that you do not have to list the individual items or item lists manually in each task.
 
 > [!NOTE]
-> Although the `GenerateContentFiles` target can build incrementally, all outputs from that target always are required as inputs for the `BuildHelp` target. MSBuild automatically provides all the outputs from one target as inputs for another target when you use the `Output` element.
+> Although the `Convert` target can build incrementally, all outputs from that target always are required as inputs for the `Build` target. MSBuild automatically provides all the outputs from one target as inputs for another target when you use the `Output` element.
 
 ```xml
 <Project DefaultTargets="Build"

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBinder::ResolveDynamicType method
 ms.assetid: 2c36ef92-5b44-4cfd-988e-54a2e5a6710c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugBinder::ResolveDynamicType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns the exact type of a variable.
 
 ## Syntax
 
-```cpp
-HRESULT ResolveDynamicType (
-   IDebugDynamicField *pDynamic,
-   IDebugField       **ppResolved
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ResolveDynamicType(
    IDebugDynamicField pDynamic,
    out IDebugField    ppResolved
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ResolveDynamicType (
+   IDebugDynamicField *pDynamic,
+   IDebugField       **ppResolved
+);
+```
+---
 
 ## Parameters
 `pDynamic`\

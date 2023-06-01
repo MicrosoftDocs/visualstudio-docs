@@ -1,7 +1,6 @@
 ---
 title: "Program document-level customizations"
 description: Learn how to extend Microsoft Word or Excel by using a document-level customization so you can perform various tasks.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -32,6 +31,8 @@ ms.workload:
   - "office"
 ---
 # Program document-level customizations
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you extend Microsoft Office Word or Microsoft Office Excel by using a document-level customization, you can perform the following tasks:
 
 - Automate the application by using its object model.
@@ -85,23 +86,29 @@ ms.workload:
 
  The following code example shows how to use the Word object model to save the document that is part of a document-level customization for Word. This example is intended to be run from the `ThisDocument` class.
 
-```vb
-Me.Save()
-```
-
+### [C#](#tab/csharp)
 ```csharp
 this.Save();
 ```
 
+### [VB](#tab/vb)
+```vb
+Me.Save()
+```
+---
+
  To do the same thing from outside the `ThisDocument` class, use the `Globals` object to access the `ThisDocument` class. For example, you can add this code to an actions pane code file if you want to include a **Save** button in the actions pane UI.
 
-```vb
-Globals.ThisDocument.Save()
-```
-
+### [C#](#tab/csharp)
 ```csharp
 Globals.ThisDocument.Save();
 ```
+
+### [VB](#tab/vb)
+```vb
+Globals.ThisDocument.Save()
+```
+---
 
  Because the `ThisDocument` class obtains most of its members from the <xref:Microsoft.Office.Tools.Word.Document> host item, the `Save` method that is called in this code is really the <xref:Microsoft.Office.Tools.Word.Document.Save%2A> method of the <xref:Microsoft.Office.Tools.Word.Document> host item. This method corresponds to the <xref:Microsoft.Office.Interop.Word._Document.Save%2A> method of the <xref:Microsoft.Office.Interop.Word.Document> object in the Word object model.
 

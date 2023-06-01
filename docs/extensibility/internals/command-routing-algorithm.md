@@ -1,21 +1,22 @@
 ---
 title: Command Routing Algorithm | Microsoft Docs
 description: Learn about the order of command resolution in Visual Studio as commands are handled by different components and routed from the innermost to the outermost context.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - commands, routing
 - command routing
 ms.assetid: 998b616b-bd08-45cb-845f-808efb8c33bc
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Command routing algorithm
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Visual Studio commands are handled by a number of different components. Commands are routed from the innermost context, which is based on the current selection, to the outermost (also known as global) context. For more information, see [Command availability](../../extensibility/internals/command-availability.md).
 
 ## Order of command resolution

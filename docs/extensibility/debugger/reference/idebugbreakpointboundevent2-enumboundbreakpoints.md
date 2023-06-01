@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBreakpointBoundEvent2::EnumBoundBreakpoints
 ms.assetid: 1f588feb-522e-488d-be92-7bc19b9e3688
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugBreakpointBoundEvent2::EnumBoundBreakpoints
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator of breakpoints that were bound on this event.
 
 ## Syntax
 
-```cpp
-HRESULT EnumBoundBreakpoints( 
-    IEnumDebugBoundBreakpoints2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumBoundBreakpoints( 
     out IEnumDebugBoundBreakpoints2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumBoundBreakpoints( 
+    IEnumDebugBoundBreakpoints2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

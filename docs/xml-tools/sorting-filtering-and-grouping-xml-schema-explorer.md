@@ -1,18 +1,19 @@
 ---
 title: Sorting, filtering, and grouping
 description: Learn about the options that are available through the Sorting, Filtering, and Grouping Options menu on the XML Schema Explorer toolbar.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 4a914de0-9ffc-4526-9603-92e460e52513
-author: TerryGLee
-ms.author: tglee
+author: dzsquared
+ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
 ms.workload:
 - multiple
 ---
 # Sorting, filtering, and grouping (XML Schema Explorer)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic describes the options that are available through the **Sorting, Filtering, and Grouping Options** menu on the **XML Schema Explorer** toolbar.
 

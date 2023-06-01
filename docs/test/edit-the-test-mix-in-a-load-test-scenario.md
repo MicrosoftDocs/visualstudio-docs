@@ -1,7 +1,6 @@
 ---
 title: Test mix for a Load Test Scenario
 description: Learn how to edit the test mix of a scenario, which is a combination of the selection of web performance and unit tests and the distribution of those tests.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -16,6 +15,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # Edit the test mix to specify which web performance, unit and coded UI tests to include in a load test scenario
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The *test mix* of a scenario is a combination of the selection of web performance and unit tests that are contained in the scenario and the distribution of those tests in the scenario. The distribution is a setting that you can specify for the probability that a particular test will be selected by a virtual user during a load test run.
 

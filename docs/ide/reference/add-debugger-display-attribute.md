@@ -1,8 +1,7 @@
 ---
 title: Add DebuggerDisplay Attribute
 description: Learn how to add the DebuggerDisplay attribute to control how the debugger variable window displays an object, a property, or a field.  
-ms.custom: SEO-VS-2020
-ms.date: 05/12/2020
+ms.date: 04/26/2022
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
@@ -13,13 +12,15 @@ ms.workload:
 ---
 # Add DebuggerDisplay Attribute
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This code generation applies to:
 
 - C#
 
 **What:** The [DebuggerDisplay Attribute](../../debugger/using-the-debuggerdisplay-attribute.md) controls how an object, property, or field is displayed in the debugger variable windows.
 
-**When:** You want to [pin properties](../../debugger/view-data-values-in-data-tips-in-the-code-editor.md#pin-properties-in-datatips) within the debugger programmatically in your code.
+**When:** You want to [pin properties](../../debugger/view-data-values-in-data-tips-in-the-code-editor.md#pin-properties-in-data-tips) within the debugger programmatically in your code.
 
 **Why:** Pinning properties allows you to quickly inspect objects by their properties by bubbling up that property to the top of the object's property list within the debugger. 
 

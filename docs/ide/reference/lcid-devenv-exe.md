@@ -1,7 +1,6 @@
 ---
 title: -LCID (devenv.exe)
 description: Learn how to use the LCID devenv command-line switch to set the default language used for text, currency, and other values within the IDE.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
@@ -23,6 +22,8 @@ ms.workload:
 - multiple
 ---
 # /LCID (devenv.exe)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Sets the default language used for text, currency, and other values within the IDE.
 

@@ -1,7 +1,6 @@
 ---
 title: "How to: Sign Office solutions"
 description: Learn how you can grant trust to your Microsoft Office solution by using a certificate as evidence.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -19,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Sign Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If you sign a solution, you can grant trust to the solution using the certificate as evidence. You can use the same certificate for multiple solutions, and all the solutions will be trusted with no additional security policy updates.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

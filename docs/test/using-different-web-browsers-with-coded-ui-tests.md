@@ -1,7 +1,6 @@
 ---
 title: Using Different Web Browsers with Coded UI Tests
 description: Learn how to customize your test and play it back using different browsers for your web applications.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.author: mikejo
@@ -10,10 +9,13 @@ ms.technology: vs-ide-test
 ms.workload: 
   - multiple
 author: mikejo5000
+monikerRange: '<= vs-2022'
 ---
 # Use different web browsers with coded UI tests
 
-Coded UI tests can automate testing for web applications by recording your tests using Internet Explorer. You can then customize your test and play it back using either Internet Explorer or other browser types for these web applications.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+Coded UI tests can automate testing for web applications by recording your tests using Internet Explorer. You can then customize your test and play it back using either Internet Explorer or other browser types for these web applications. This article describes how to automate the tests using Selenium.
 
 [!INCLUDE [coded-ui-test-deprecation](includes/coded-ui-test-deprecation.md)]
 
@@ -48,21 +50,9 @@ To play back tests on non-IE web browsers, you must install the **Selenium compo
 
 ### Install Selenium components
 
-::: moniker range="vs-2017"
-
-1. On the **Tools** menu, choose **Extensions and Updates**.
-
-2. In the **Extensions and Updates** dialog box, search for `Selenium components for Cross Browser Testing`.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 1. On the **Extensions** menu, choose **Manage Extensions**.
 
 2. In the **Manage Extensions** dialog box, search for `Selenium components for Cross Browser Testing`.
-
-::: moniker-end
 
 3. Highlight the extension and choose **Download**.
 
@@ -87,7 +77,7 @@ To enable debugging your web application, you must complete the following config
 
     2. For **Common Language Runtime Exceptions**, uncheck **User-unhandled**.
 
-If don't see the option to change `BrowserWindow.CurrentBrowser` in the coded UI test, you might be using a version of Visual Studio that does not support coded UI tests using various web browsers. To use such coded UI tests, you must use Visual Studio Enterprise edition.
+If you don't see the option to change `BrowserWindow.CurrentBrowser` in the coded UI test, you might be using a version of Visual Studio that does not support coded UI tests using various web browsers. To use such coded UI tests, you must use Visual Studio Enterprise edition.
 
 Here are some other things you should know:
 

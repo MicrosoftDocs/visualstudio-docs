@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - CONNECTION_PROTOCOL enumeration
 ms.assetid: 99df5865-8b36-486d-9f4c-d10ae2bc688a
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,22 +19,13 @@ dev_langs:
 - CSharp
 ---
 # CONNECTION_PROTOCOL
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Indicates the protocol being used to communicate between a debug server and the debug package (DE).
 
 ## Syntax
 
-```cpp
-typedef enum tagCONNECTION_PROTOCOL {
-    CONNECTION_NONE    = 0,
-    CONNECTION_UNKNOWN = 1,
-    CONNECTION_LOCAL   = 2,
-    CONNECTION_PIPE    = 3,
-    CONNECTION_TCPIP   = 4,
-    CONNECTION_HTTP    = 5,
-    CONNECTION_OTHER   = 6
-} CONNECTION_PROTOCOL;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public enum CONNECTION_PROTOCOL {
     CONNECTION_NONE    = 0,
@@ -46,6 +37,19 @@ public enum CONNECTION_PROTOCOL {
     CONNECTION_OTHER   = 6
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef enum tagCONNECTION_PROTOCOL {
+    CONNECTION_NONE    = 0,
+    CONNECTION_UNKNOWN = 1,
+    CONNECTION_LOCAL   = 2,
+    CONNECTION_PIPE    = 3,
+    CONNECTION_TCPIP   = 4,
+    CONNECTION_HTTP    = 5,
+    CONNECTION_OTHER   = 6
+} CONNECTION_PROTOCOL;
+```
+---
 
 ## Fields
 `CONNECTION_NONE`\

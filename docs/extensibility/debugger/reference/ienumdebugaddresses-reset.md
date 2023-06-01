@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugAddresses::Reset method
 ms.assetid: 3a9d7f20-5bc6-4e13-8e91-5af4092e092f
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,17 +19,21 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugAddresses::Reset
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method resets the enumeration to the first element.
 
 ## Syntax
 
-```cpp
-HRESULT Reset(void);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Reset();
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Reset(void);
+```
+---
 
 ## Parameters
  None

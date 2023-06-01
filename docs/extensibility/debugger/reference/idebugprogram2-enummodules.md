@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgram2::EnumModules
 ms.assetid: 876ac9da-3b7c-4156-b79a-8f340e9fcea6
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram2::EnumModules
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of the modules that this program has loaded and is executing.
 
 ## Syntax
 
-```cpp
-HRESULT EnumModules( 
-   IEnumDebugModules2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumModules( 
    out IEnumDebugModules2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumModules( 
+   IEnumDebugModules2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

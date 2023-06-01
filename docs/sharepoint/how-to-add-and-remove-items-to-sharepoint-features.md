@@ -1,7 +1,6 @@
 ---
 title: "How to: Add and Remove Items to SharePoint Features | Microsoft Docs"
 description: Manually add and remove SharePoint project items to SharePoint features using Feature Designer in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:
@@ -19,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Add and remove items to SharePoint features
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you create a SharePoint solution, Visual Studio adds the default SharePoint project items to your Feature. Before deployment, you can add and remove SharePoint project items to modify the SharePoint Feature.
 
 ## Add SharePoint project items to a feature

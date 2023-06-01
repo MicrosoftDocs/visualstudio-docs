@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - DEBUGREF_INFO_FLAGS enumeration
 ms.assetid: 1b043327-302a-4f6d-b51d-f94f9d7c7f9d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,27 @@ dev_langs:
 - CSharp
 ---
 # DEBUGREF_INFO_FLAGS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies what information to retrieve about a debug reference object.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_DEBUGREF_INFO_FLAGS {
+    DEBUGREF_INFO_NAME             = 0x00000001,
+    DEBUGREF_INFO_TYPE             = 0x00000002,
+    DEBUGREF_INFO_VALUE            = 0x00000004,
+    DEBUGREF_INFO_ATTRIB           = 0x00000008,
+    DEBUGREF_INFO_REFTYPE          = 0x00000010,
+    DEBUGREF_INFO_REF              = 0x00000020,
+    DEBUGREF_INFO_VALUE_AUTOEXPAND = 0x00010000,
+    DEBUGREF_INFO_NONE             = 0x00000000,
+    DEBUGREF_INFO_ALL              = 0xffffffff
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_DEBUGREF_INFO_FLAGS {
     DEBUGREF_INFO_NAME             = 0x00000001,
@@ -37,20 +54,7 @@ enum enum_DEBUGREF_INFO_FLAGS {
 };
 typedef DWORD DEBUGREF_INFO_FLAGS;
 ```
-
-```csharp
-public enum enum_DEBUGREF_INFO_FLAGS {
-    DEBUGREF_INFO_NAME             = 0x00000001,
-    DEBUGREF_INFO_TYPE             = 0x00000002,
-    DEBUGREF_INFO_VALUE            = 0x00000004,
-    DEBUGREF_INFO_ATTRIB           = 0x00000008,
-    DEBUGREF_INFO_REFTYPE          = 0x00000010,
-    DEBUGREF_INFO_REF              = 0x00000020,
-    DEBUGREF_INFO_VALUE_AUTOEXPAND = 0x00010000,
-    DEBUGREF_INFO_NONE             = 0x00000000,
-    DEBUGREF_INFO_ALL              = 0xffffffff
-};
-```
+---
 
 ## Fields
 `DEBUGREF_INFO_NAME`\

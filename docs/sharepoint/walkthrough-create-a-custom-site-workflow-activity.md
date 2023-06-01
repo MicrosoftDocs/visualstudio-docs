@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Create a Custom Site Workflow Activity | Microsoft Docs"
 description: In this walkthrough, see how to create a custom activity for a site-level SharePoint workflow using Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -21,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Create a custom site workflow activity
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to create a custom activity for a site-level workflow using [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. (Site-level workflows apply to the whole site, not just a list on the site.) The custom activity creates a backup Announcements list and then copies the contents of the Announcements list into it.
 
  This walkthrough demonstrates the following tasks:
@@ -86,8 +87,12 @@ ms.workload:
 
 3. Replace all of the code in Class1 with the following:
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/announcementbackup/class1.cs" id="Snippet1":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/announcementbackupvb/class1.vb" id="Snippet1":::
+     ---
 
 4. Save the project, and then, on the menu bar, choose **Build** > **Build Solution**.
 

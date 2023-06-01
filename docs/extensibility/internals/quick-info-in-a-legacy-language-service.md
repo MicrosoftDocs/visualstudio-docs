@@ -1,7 +1,6 @@
 ---
 title: Quick Info in a Legacy Language Service | Microsoft Docs
 description: Learn about support for the IntelliSense Quick Info operation for displaying information about an identifier.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,14 +8,16 @@ helpviewer_keywords:
 - IntelliSense, Quick Info
 - language services [managed package framework], IntelliSense Quick Info
 ms.assetid: 159ccb0b-f5d6-4912-b88b-e9612924ed5e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Quick Info in a Legacy Language Service
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 IntelliSense Quick Info shows information about an identifier in the source when the user either places the caret in the identifier and selects **Quick Info** from the **IntelliSense** menu or holds the mouse cursor over the identifier. This causes a tool tip to appear with information about the identifier. This information typically consists of the identifier type. When the debug engine is active, this information might include the current value. The debug engine supplies expression values , while the language service handles only identifiers.
 
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more, see [Walkthrough: Displaying QuickInfo Tooltips](../../extensibility/walkthrough-displaying-quickinfo-tooltips.md).

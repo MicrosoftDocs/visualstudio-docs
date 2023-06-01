@@ -1,7 +1,6 @@
 ---
 title: "Deploy ClickOnce apps without re-signing"
 description: Learn about deploying ClickOnce applications from multiple network locations without re-signing or changing the ClickOnce manifests.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -24,6 +23,8 @@ ms.workload:
   - "multiple"
 ---
 # Deploy ClickOnce applications for testing and production servers without resigning
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This article describes a feature of ClickOnce introduced in the .NET Framework version 3.5 that enables the deployment of ClickOnce applications from multiple network locations without re-signing or changing the ClickOnce manifests.
 
 > [!NOTE]
@@ -41,6 +42,8 @@ This article describes a feature of ClickOnce introduced in the .NET Framework v
  With changes that were made to ClickOnce in the .NET Framework 3.5, it is possible for a third party to provide a ClickOnce application to another organization, which can then deploy the application on its own network.
 
  In order to take advantage of this feature, developers of ClickOnce applications must exclude `deploymentProvider` from their deployment manifests. This requirement means that you must exclude the `-providerUrl` argument when you create deployment manifests with Mage.exe. Or, if you are generating deployment manifests with MageUI.exe, you must make sure that the **Launch Location** text box on the **Application Manifest** tab is left blank.
+
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-dotnetmage-exe.md)]
 
 ## deploymentProvider and application updates
  Starting with the .NET Framework 3.5, you no longer have to specify a `deploymentProvider` in your deployment manifest in order to deploy a ClickOnce application for both online and offline usage. This change supports the scenario where you need to package and sign the deployment yourself, but allow other companies to deploy the application over their networks.

@@ -1,9 +1,8 @@
 ---
 title: "Dataset Visualizer Dialog Box | Microsoft Docs"
 description: Visual Studio debugger visualizers are components that display data. Use the DataSet Visualizer to view the contents of a DataSet, DataTable, DataView, or DataViewManager object. 
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.dataviewer"
 dev_langs:
@@ -24,6 +23,8 @@ ms.workload:
   - "multiple"
 ---
 # Dataset Visualizer Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The DataSet Visualizer allows you to view the contents of a DataSet, DataTable, DataView, or DataViewManager object. You can access this visualizer by clicking on the magnifying glass icon that appears next to the Value for one of those objects in a debugger variables window or in a DataTip.
 
  You can make changes to the objects in this visualizer. Changes will be saved as soon as you commit a row.

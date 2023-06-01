@@ -1,7 +1,6 @@
 ---
 title: Project Property User Interface | Microsoft Docs
 description: Learn how project subtypes can modify the project Property Pages dialog box as supplied by the base project.
-ms.custom: SEO-VS-2020
 ms.date: 03/22/2018
 ms.topic: reference
 helpviewer_keywords:
@@ -9,14 +8,16 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], properties UI
 - project properties UI
 ms.assetid: b6aec634-8533-476c-9ebd-36536a2288e2
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Project Property User Interface
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A project subtype can use the items in the project **Property Pages** dialog box as they are supplied by the base project, hide or make read-only controls and whole pages as supplied, or add project subtype-specific pages to the **Property Pages** dialog box.
 

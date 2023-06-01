@@ -1,7 +1,6 @@
 ---
 title: "Work with Visio shapes"
 description: Learn about step-by-step procedures and code examples for using the object model of Microsoft Visio to work with shapes in Office projects.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # Work with Visio shapes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The topics in this section provide step-by-step procedures and code examples for using the object model of Microsoft Office Visio to work with shapes in Office projects.
 
 |Task|Procedure|

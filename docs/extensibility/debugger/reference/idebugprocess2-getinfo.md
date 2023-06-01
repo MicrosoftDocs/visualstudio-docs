@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProcess2::GetInfo
 ms.assetid: 46021dce-bb97-46c3-b0cc-e5b3b68acc35
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess2::GetInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a description of the process.
 
 ## Syntax
 
-```cpp
-HRESULT GetInfo(
-   PROCESS_INFO_FIELDS  Fields,
-   PROCESS_INFO*        pProcessInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetInfo(
    enum_PROCESS_INFO_FIELDS  Fields,
    PROCESS_INFO[]            pProcessInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetInfo(
+   PROCESS_INFO_FIELDS  Fields,
+   PROCESS_INFO*        pProcessInfo
+);
+```
+---
 
 ## Parameters
 `Fields`\

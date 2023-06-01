@@ -1,7 +1,7 @@
 ---
 title: Creating an Extension with a Menu Command | Microsoft Docs
 description: Learn how to create an extension with a menu command that launches Notepad. Create a menu command and then change the menu command handler.
-ms.custom: SEO-VS-2020
+ms.custom: UpdateFrequency3
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
@@ -10,14 +10,16 @@ helpviewer_keywords:
 - tutorials
 - visual studio package
 ms.assetid: f97104c8-2bcb-45c7-a3c9-85abeda8df98
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Create an extension with a menu command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough shows how to create an extension with a menu command that launches Notepad.
 
@@ -29,33 +31,13 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 1. Create a VSIX project named **FirstMenuCommand**. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".
 
-::: moniker range="vs-2017"
-
-2. When the project opens, add a custom command item template named **FirstCommand**. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. In the **Add New Item** dialog, go to **Visual C#** > **Extensibility** and select **Custom Command**. In the **Name** field at the bottom of the window, change the command file name to *FirstCommand.cs*.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-2. When the project opens, add a custom command item template named **FirstCommand**. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. In the **Add New Item** dialog, go to **Visual C#** > **Extensibility** and select **Command**. In the **Name** field at the bottom of the window, change the command file name to *FirstCommand.cs*.
-
-::: moniker-end
+2. When the project opens, add a custom command item template named **FirstCommand**. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. In the **Add New Item** dialog, go to **C# Items** > **Extensibility** and select **Command**. In the **Name** field at the bottom of the window, change the command file name to *FirstCommand.cs*.
 
 3. Build the project and start debugging.
 
     The experimental instance of Visual Studio appears. For more information about the experimental instance, see [The experimental instance](../extensibility/the-experimental-instance.md).
 
-::: moniker range="vs-2017"
-
-4. In the experimental instance, open the **Tools** > **Extensions and Updates** window. You should see the **FirstMenuCommand** extension here. (If you open **Extensions and Updates** in your working instance of Visual Studio, you won't see **FirstMenuCommand**).
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 4. In the experimental instance, open the **Extensions** > **Manage Extensions** window. You should see the **FirstMenuCommand** extension here. (If you open **Manage Extensions** in your working instance of Visual Studio, you won't see **FirstMenuCommand**).
-
-::: moniker-end
 
 Now go to the **Tools** menu in the experimental instance. You should see **Invoke FirstCommand** command. At this point, the command brings up a message box that says **FirstCommand Inside FirstMenuCommand.FirstCommand.MenuItemCallback()**. We'll see how to actually start Notepad from this command in the next section.
 

@@ -1,7 +1,6 @@
 ---
 title: "Excel solutions"
 description: Learn you can use project templates to automate Excel, extend Excel features, and customize the Excel user interface (UI)
-ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -31,6 +30,8 @@ ms.workload:
   - "office"
 ---
 # Excel solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Visual Studio provides project templates you can use to create document-level customizations and VSTO Add-ins for Microsoft Office Excel. You can use these solutions to automate Excel, extend Excel features, and customize the Excel user interface (UI). For more information about the differences between document-level customizations and VSTO Add-ins, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]

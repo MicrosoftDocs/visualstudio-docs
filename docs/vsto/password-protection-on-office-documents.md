@@ -1,7 +1,6 @@
 ---
 title: "Password protection on Office documents"
 description: Learn how to set a password on your Microsoft Word documents and Excel workbooks so that they can't be opened by unauthorized users.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -21,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # Password protection on Office documents
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   It is possible to set a password on your Microsoft Office Word documents and Microsoft Office Excel workbooks so that they cannot be opened by someone who does not know the password. This option is called **Password on Open**.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - DEBUG_REFERENCE_INFO structure
 ms.assetid: 24b83d00-d756-42a1-8083-730f998761dc
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,22 +19,13 @@ dev_langs:
 - CSharp
 ---
 # DEBUG_REFERENCE_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes a reference.
 
 ## Syntax
 
-```cpp
-typedef struct tagDEBUG_REFERENCE_INFO {
-    DEBUGREF_INFO_FLAGS dwFields;
-    BSTR                bstrName;
-    BSTR                bstrType;
-    BSTR                bstrValue;
-    DBG_ATTRIB_FLAGS    dwAttrib;
-    REFERENCE_TYPE.     dwRefType;
-    IDebugReference2*   m_pReference;
-} DEBUG_REFERENCE_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct DEBUG_REFERENCE_INFO {
     public uint             dwFields;
@@ -46,6 +37,19 @@ public struct DEBUG_REFERENCE_INFO {
     public IDebugReference2 m_pReference;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagDEBUG_REFERENCE_INFO {
+    DEBUGREF_INFO_FLAGS dwFields;
+    BSTR                bstrName;
+    BSTR                bstrType;
+    BSTR                bstrValue;
+    DBG_ATTRIB_FLAGS    dwAttrib;
+    REFERENCE_TYPE.     dwRefType;
+    IDebugReference2*   m_pReference;
+} DEBUG_REFERENCE_INFO;
+```
+---
 
 ## Members
 `dwFields`\

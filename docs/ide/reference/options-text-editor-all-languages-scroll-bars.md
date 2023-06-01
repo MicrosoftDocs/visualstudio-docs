@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, All Languages, Scroll Bars
 description: Learn how to use the Scroll Bars page in the All Languages section to change the default behavior of the code editor scroll bars within Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 10/25/2018
 ms.topic: reference
 f1_keywords:
@@ -37,6 +36,8 @@ ms.workload:
 - multiple
 ---
 # Options, Text Editor, All Languages, Scroll Bars
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This dialog box lets you change the default behavior of the code editor scroll bar. To display these options, select **Options** from the **Tools** menu. Within the **Text Editor** folder, expand the **All Languages** subfolder, and then choose **Scroll Bars**.
 
 > [!CAUTION]

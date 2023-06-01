@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProcess2::GetProcessId
 ms.assetid: d5b6f03c-d49d-4b83-b072-016ac3124f5f
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess2::GetProcessId
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the GUID for this process.
 
 ## Syntax
 
-```cpp
-HRESULT GetProcessId(
-   GUID* pguidProcessId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProcessId(
    out Guid pguidProcessId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProcessId(
+   GUID* pguidProcessId
+);
+```
+---
 
 ## Parameters
 `pguidProcessId`\

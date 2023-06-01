@@ -11,6 +11,8 @@ ms.workload:
 ---
 # DirectX 12 Support in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 ## DirectX 12 Support
 
 Visual Studio Graphics Diagnostics doesn't support DirectX 12 games. For graphical debugging with full DirectX 12 support, Visual Studio recommends *PIX on Windows*. 

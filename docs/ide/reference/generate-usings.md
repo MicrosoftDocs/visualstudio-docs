@@ -1,7 +1,6 @@
 ---
 title: Generate usings
 description: Learn how to use the Quick Actions and Refactorings menu to immediately add the necessary imports or using directives for copy-and-pasted code.
-ms.custom: SEO-VS-2020
 ms.date: 03/10/2020
 ms.topic: reference
 author: mikadumont
@@ -17,6 +16,8 @@ helpviewer_keywords:
   - "add missing usings"
 ---
 # Add missing usings in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This code generation applies to:
 

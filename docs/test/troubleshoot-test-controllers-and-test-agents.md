@@ -1,9 +1,8 @@
 ---
 title: Troubleshooting Test Controllers and Test Agents
 description: Learn about some common problems you might encounter when you work with test controllers and test agents in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 10/20/2016
-ms.topic: troubleshooting
+ms.topic: how-to
 helpviewer_keywords:
 - load tests, test controllers
 - load tests, troubleshooting
@@ -16,6 +15,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # Strategies for troubleshooting test controllers and test agents in load tests
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article covers some common problems you might encounter when you work with test controllers and test agents in Visual Studio.
 
@@ -67,7 +68,7 @@ You can control the level of logging on a test controller computer. This is usef
 
 This applies to the test controller, the test agent service, and the test agent process. When diagnosing problems, it is helpful to enable logging on all three processes. The procedure to set the logging level is the same for all three processes, as specified earlier for the test controller. To set the logging levels for the test agent service and the agent process, use the following configuration files:
 
-- *QTController.exe.config* Conttoller service
+- *QTController.exe.config* Controller service
 
 - *QTAgentService.exe.config* Agent service
 

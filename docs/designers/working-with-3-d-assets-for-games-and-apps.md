@@ -1,11 +1,8 @@
 ---
 title: Working with 3D Assets for Games and Apps
 description: Learn about the Visual Studio tools that you can use to create or modify 3D models, textures, and shaders for DirectX-based games and apps.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
-f1_keywords:
-- vs.graphics
 ms.assetid: 910d673b-c884-4eeb-9928-0e89f3d38cb6
 author: TerryGLee
 ms.author: tglee
@@ -15,6 +12,8 @@ ms.workload:
 - multiple
 ---
 # Work with 3D assets for games and apps
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article describes the Visual Studio tools that you can use to create or modify 3D models, textures, and shaders for DirectX-based games and apps.
 

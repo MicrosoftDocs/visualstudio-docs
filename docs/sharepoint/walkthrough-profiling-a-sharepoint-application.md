@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Profiling a SharePoint Application | Microsoft Docs"
 description: In this walkthrough, use the profiling tools in Visual Studio to optimize the performance of a SharePoint application.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -20,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Profile a SharePoint application
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough shows how to use the profiling tools in Visual Studio to optimize the performance of a SharePoint application. The example application is a SharePoint feature event receiver that contains an idle loop that degrades the performance of the feature event receiver. The Visual Studio profiler enables you to locate and eliminate the most expensive (slowest-performing) part of the project, also known as the *hot path*.
 
  This walkthrough demonstrates the following tasks:
@@ -77,45 +78,24 @@ ms.workload:
 
 3. In the event receiver class, add the following variable declarations.
 
-    ```vb
-    ' SharePoint site/subsite.
-    Private siteUrl As String = "http://localhost"
-    Private webUrl As String = "/"
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     // SharePoint site/subsite.
     private string siteUrl = "http://localhost";
     private string webUrl = "/";
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    ' SharePoint site/subsite.
+    Private siteUrl As String = "http://localhost"
+    Private webUrl As String = "/"
+    ```
+    ---
+
 4. Replace the `FeatureActivated` procedure with the following code.
 
-    ```vb
-    Public Overrides Sub FeatureActivated(properties As SPFeatureReceiverProperties)
-        Try
-            Using site As New SPSite(siteUrl)
-                Using web As SPWeb = site.OpenWeb(webUrl)
-                    ' Reference the lists.
-                    Dim announcementsList As SPList = web.Lists("Announcements")
-
-                    ' Add a new announcement to the Announcements list.
-                    Dim listItem As SPListItem = announcementsList.Items.Add()
-                    listItem("Title") = "Activated Feature: " & Convert.ToString(properties.Definition.DisplayName)
-                    listItem("Body") = Convert.ToString(properties.Definition.DisplayName) & " was activated on: " & DateTime.Now.ToString()
-                    ' Waste some time.
-                    TimeCounter()
-                    ' Update the list.
-                    listItem.Update()
-                End Using
-            End Using
-
-        Catch e As Exception
-            Console.WriteLine("Error: " & e.ToString())
-        End Try
-    End Sub
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     public override void FeatureActivated(SPFeatureReceiverProperties properties)
     {
@@ -148,20 +128,36 @@ ms.workload:
     }
     ```
 
-5. Add the following procedure below the `FeatureActivated`procedure.
-
+    ### [VB](#tab/vb)
     ```vb
+    Public Overrides Sub FeatureActivated(properties As SPFeatureReceiverProperties)
+        Try
+            Using site As New SPSite(siteUrl)
+                Using web As SPWeb = site.OpenWeb(webUrl)
+                    ' Reference the lists.
+                    Dim announcementsList As SPList = web.Lists("Announcements")
 
-    Public Sub TimeCounter()
-        Dim result As Integer
-        For i As Integer = 0 To 99999
-            For j As Integer = 0 To 9999
-                result = i * j
-            Next j
-        Next i
+                    ' Add a new announcement to the Announcements list.
+                    Dim listItem As SPListItem = announcementsList.Items.Add()
+                    listItem("Title") = "Activated Feature: " & Convert.ToString(properties.Definition.DisplayName)
+                    listItem("Body") = Convert.ToString(properties.Definition.DisplayName) & " was activated on: " & DateTime.Now.ToString()
+                    ' Waste some time.
+                    TimeCounter()
+                    ' Update the list.
+                    listItem.Update()
+                End Using
+            End Using
+
+        Catch e As Exception
+            Console.WriteLine("Error: " & e.ToString())
+        End Try
     End Sub
     ```
+    ---
 
+5. Add the following procedure below the `FeatureActivated`procedure.
+
+    ### [C#](#tab/csharp)
     ```csharp
     public void TimeCounter()
     {
@@ -174,6 +170,20 @@ ms.workload:
         }
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+
+    Public Sub TimeCounter()
+        Dim result As Integer
+        For i As Integer = 0 To 99999
+            For j As Integer = 0 To 9999
+                result = i * j
+            Next j
+        Next i
+    End Sub
+    ```
+    ---
 
 6. In **Solution Explorer**, open the shortcut menu for the project (**ProfileTest**), and then choose **Properties**.
 

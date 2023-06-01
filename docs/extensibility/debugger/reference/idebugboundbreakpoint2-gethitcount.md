@@ -9,8 +9,8 @@ helpviewer_keywords:
 - GetHitCount method
 - IDebugBoundBreakpoint2::GetHitCount method
 ms.assetid: 23481f37-047c-41d2-8286-4da1f4084961
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugBoundBreakpoint2::GetHitCount
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the current hit count for this bound breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT GetHitCount( 
-   DWORD* pdwHitCount
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetHitCount( 
    out uint pdwHitCount
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetHitCount( 
+   DWORD* pdwHitCount
+);
+```
+---
 
 ## Parameters
 `pdwHitCount`\

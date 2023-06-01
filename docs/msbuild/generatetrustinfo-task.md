@@ -1,7 +1,6 @@
 ---
 title: "GenerateTrustInfo Task | Microsoft Docs"
 description: Use the MSBuild GenerateTrustInfo task to generate the application trust from the base manifest and TargetZone and ExcludedPermissions parameters.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

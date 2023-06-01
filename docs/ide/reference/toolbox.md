@@ -1,7 +1,6 @@
 ---
 title: Toolbox window
 description: Learn about the Toolbox window and how it displays controls that you can add to Visual Studio projects.
-ms.custom: SEO-VS-2020
 ms.date: 06/01/2020
 ms.topic: reference
 f1_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 ---
 # Toolbox
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The **Toolbox** window displays controls that you can add to Visual Studio projects. To open **Toolbox**, choose **View** > **Toolbox** from the menu bar, or press **Ctrl**+**Alt**+**X**.
 
 ![Screenshot of the Toolbox window showing the options in the Containers section.](media/vs-2019/toolbox.png "Screenshot of the Toolbox window")
@@ -31,11 +32,7 @@ Toolbox appears in conjunction with designer views, such as the designer view of
 
 The .NET version that your project targets also affects the set of controls visible in Toolbox. You can change the target framework version from the project's property pages, if necessary. Select the project node in **Solution Explorer**, and then on the menu bar, choose **Project** > **projectname Properties**. On the **Application** tab, use the **Target framework** drop-down.
 
-::: moniker range=">=vs-2019"
-
 ![Screenshot of the Application dialog box showing the options in the Target framework drop-down.](media/vs-2019/toolbox-change-dotnet-version.png "Screenshot of the dialog box where you can change the .NET version")
-
-::: moniker-end
 
 ## Manage the Toolbox window and its controls
 

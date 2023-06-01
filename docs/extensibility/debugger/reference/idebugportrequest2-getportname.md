@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortRequest2::GetPortName
 ms.assetid: 53e2a3a4-bb34-4a02-a983-6bd84ea70587
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortRequest2::GetPortName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of the port.
 
 ## Syntax
 
-```cpp
-HRESULT GetPortName( 
-   BSTR* pbstrPortName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPortName( 
    out string pbstrPortName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPortName( 
+   BSTR* pbstrPortName
+);
+```
+---
 
 ## Parameters
 `pbstrPortName`\

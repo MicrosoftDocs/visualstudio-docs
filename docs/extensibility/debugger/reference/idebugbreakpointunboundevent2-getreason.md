@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBreakpointUnboundEvent2::GetReason
 ms.assetid: 0f8a4fec-d3eb-417d-8516-4f7b51904033
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugBreakpointUnboundEvent2::GetReason
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the reason the breakpoint was unbound.
 
 ## Syntax
 
-```cpp
-HRESULT GetReason(
-    BP_UNBOUND_REASON* pdwUnboundReason
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetReason(
     out enum_ BP_UNBOUND_REASON pdwUnboundReason
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetReason(
+    BP_UNBOUND_REASON* pdwUnboundReason
+);
+```
+---
 
 ## Parameters
 `pdwUnboundReason`\

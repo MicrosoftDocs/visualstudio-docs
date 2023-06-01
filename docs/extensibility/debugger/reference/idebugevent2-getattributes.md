@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEvent2::GetAttributes
 ms.assetid: 2ac5b5fb-da17-43f7-811a-313f677e60d7
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugEvent2::GetAttributes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the attributes for this debug event.
 
 ## Syntax
 
-```cpp
-HRESULT GetAttribute( 
-   DWORD* pdwAttrib
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAttribute( 
    out uint pdwAttrib
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAttribute( 
+   DWORD* pdwAttrib
+);
+```
+---
 
 ## Parameters
 `pdwAttrib`\

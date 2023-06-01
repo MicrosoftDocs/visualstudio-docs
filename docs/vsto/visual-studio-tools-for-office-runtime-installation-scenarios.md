@@ -1,7 +1,6 @@
 ---
 title: "Visual Studio Tools for Office runtime installation scenarios"
 description: Learn how you can install the Visual Studio 2010 Tools for Office runtime. This article describes three installation scenarios.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -17,8 +16,9 @@ ms.technology: office-development
 ms.workload:
   - "office"
 ---
-
 # Visual Studio Tools for Office runtime installation scenarios
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
   You can install the Visual Studio 2010 Tools for Office runtime in three ways:
 

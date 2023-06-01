@@ -1,7 +1,6 @@
 ---
 title: Creating multi-file item templates
 description: Learn how to create an item template in Visual Studio that is made up of multiple files.
-ms.custom: SEO-VS-2020
 ms.date: 01/02/2018
 ms.topic: how-to
 helpviewer_keywords:
@@ -14,6 +13,8 @@ manager: jmartens
 ms.technology: vs-ide-general
 ---
 # How to: Create multi-file item templates
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Item templates may only specify one item, but sometimes the item is made up of multiple files. For example, a Windows Forms item template requires the following three files:
 

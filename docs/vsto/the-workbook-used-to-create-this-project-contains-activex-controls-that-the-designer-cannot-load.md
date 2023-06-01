@@ -1,7 +1,6 @@
 ---
 title: "The workbook contains ActiveX controls that cannot be loaded"
 description: Learn how you can resolve the error that occurs when a workbook contains ActiveX controls that can't be loaded.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "error-reference"
@@ -18,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # The workbook contains ActiveX controls that cannot be loaded
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
   The error "The workbook used to create this project contains ActiveX controls that the designer cannot load" appears when you add a control to a Word document or an Excel worksheet programmatically, save the document or workbook, and then create a new document-level solution based on the document or workbook.
 

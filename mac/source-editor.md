@@ -1,13 +1,16 @@
 ---
 title: Source Editor
 description: Using the source editor in Visual Studio for Mac
-author: cobey
-ms.author: cobey
+author: heiligerdankgesang 
+ms.author: dominicn
+manager: dominicn
 ms.date: 05/06/2018
+ms.topic: reference
 ms.assetid: A018A314-C1C4-4F36-BCB6-2D434208FCFE
 ---
-
 # Source editor
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 A reliable source editor is essential for writing code succinctly and efficiently. Visual Studio for Mac provides a sophisticated source editor that is at the center of your interactions with the IDE. The source editor provides features that you might expect and need to do your work with ease: From the basics such a syntax highlighting, code snippets, and code folding, to the benefits of its Roslyn compiler integration, such as fully functional IntelliSense code completion.
 

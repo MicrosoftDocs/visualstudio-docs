@@ -1,60 +1,53 @@
 ---
-title: "Quickstart: Tour of the Visual Studio IDE"
+title: "Tour the Visual Studio IDE"
 description: Learn about some of the windows, menus, and other UI features of the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
 titleSuffix: ''
-ms.date: 09/14/2021
-ms.topic: quickstart
-author: TerryGLee
-ms.author: tglee
+ms.date: 1/31/2023
+ms.topic: conceptual
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
-# Quickstart: First look at the Visual Studio IDE
+# Tour the Visual Studio IDE
 
-In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of some of the windows, menus, and other UI features.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-::: moniker range="vs-2017"
+In this introduction to the Visual Studio integrated development environment (IDE), we'll take a tour of some of the windows, menus, and other UI features.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
+To develop any type of app or learn a language, you’ll be working in the Visual Studio Integrated Development Environment (IDE). Beyond code editing, Visual Studio IDE brings together graphical designers, compilers, code completion tools, source control, extensions and many more features in one place. 
 
-::: moniker-end
+## Download and install
 
-::: moniker range=">=vs-2019"
+To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads) and install it on your system.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+In the Visual Studio Installer, you'll choose and install *workloads*, which are groups of features you need for the programming languages or platforms you want. To follow along this tutorial, be sure to select the **.NET desktop development** workload during installation. 
 
-::: moniker-end
+:::image type="content" source="media/vs-2022/dot-net-development-workload.png" alt-text="Screenshot of the .NET desktop development workload selected in the Visual Studio Installer.":::
 
-::: moniker range="vs-2017"
-
-## Start Page
-
-The first thing you'll see after you open Visual Studio is most likely the **Start Page**. The **Start Page** is designed as a "hub" to help you find the commands and project files you need faster. The **Recent** section displays projects and folders you've worked on recently. Under **New project**, you can click a link to bring up the **New Project** dialog box, or under **Open**, you can open an existing code project or folder. On the right is a feed of the latest developer news.
-
-![Screenshot of the Start Page in Visual Studio 2017.](media/start-page.png)
-
-If you close the **Start Page** and want to see it again, you can reopen it from the **File** menu.
-
-![Screenshot of the File menu in Visual Studio 2017.](media/quickstart-IDE-file-menu-large.png)
-
-::: moniker-end
+If you already have Visual Studio, you can add the **.NET desktop development** workload as follows:
+* Launch the Visual Studio Installer.
+* If prompted, allow the installer to update itself.
+* If an update for Visual Studio is available, an Update button will be shown. Select it to update before modifying the installation.
+* Find your Visual Studio installation and select the Modify button.
+* If not selected already, select the **.NET desktop development** workload and select the Modify button. Otherwise, just close the dialog window.
 
 ::: moniker range="vs-2019"
 
 ## Start window
 
-The first thing you'll see after you open Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to clone or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
+The first thing you'll see after you open Visual Studio is the start window. It has options to clone or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files.
 
 [![Screenshot of the Start window in Visual Studio 2019.](media/vs-2019/start-window-labeled.png)](media/vs-2019/start-window-labeled.png#lightbox)
 
 If this is the first time you're using Visual Studio, your recent projects list will be empty.
 
-If you work with non-MSBuild based codebases, you'll use the **Open a local folder** option to open your code in Visual Studio. For more information, see [Develop code in Visual Studio without projects or solutions](develop-code-in-visual-studio-without-projects-or-solutions.md). Otherwise, you can create a new project or clone a project from a source provider such as GitHub or Azure DevOps.
+Use the **Open a local folder** option to open your code in Visual Studio to [develop code without projects or solutions](develop-code-in-visual-studio-without-projects-or-solutions.md). Otherwise, you can **Create a new project** or **Clone a repository** from a source provider such as GitHub or Azure DevOps.
 
-The **Continue without code** option simply opens the Visual Studio development environment without any specific project or code loaded. You might choose this option to join a [Live Share](/visualstudio/liveshare/) session or attach to a process for debugging. You can also press **Esc** to close the start window and open the IDE.
+Use the **Continue without code** option to open the Visual Studio development environment without any specific project or code loaded. You might choose this option to join a [Live Share](/visualstudio/liveshare/) session or attach to a process for debugging. You can also press **Esc** to close the start window and open the IDE.
 
 ::: moniker-end
 
@@ -62,41 +55,25 @@ The **Continue without code** option simply opens the Visual Studio development 
 
 ## Start window
 
-The first thing you'll see after you open Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to clone or check out code, open an existing project or solution, create a new project, or simply open a folder that has some code files.
+The first thing you'll see after you open Visual Studio is the start window. It has options to clone or check out code, open an existing project or solution, create a new project, or simply open a folder that has some code files.
 
 :::image type="content" source="media/vs-2022/quickstart-start-window-labeled.png" border="true" alt-text="An annotated screenshot that shows the start window in Visual Studio 2022." lightbox="media/vs-2022/quickstart-start-window-labeled.png":::
 
 If this is the first time you're using Visual Studio, your recent projects list will be empty.
 
-If you work with codebases that don't use MSBuild, you'll use the **Open a local folder** option to open your code in Visual Studio. For more information, see [Develop code in Visual Studio without projects or solutions](develop-code-in-visual-studio-without-projects-or-solutions.md). Otherwise, you can create a new project or clone a project from a source provider such as GitHub or Azure DevOps.
+Use the **Open a local folder** option to open your code in Visual Studio to [develop code without projects or solutions](develop-code-in-visual-studio-without-projects-or-solutions.md). Otherwise, you can **Create a new project** or **Clone a repository** from a source provider such as GitHub or Azure DevOps.
 
-The **Continue without code** option opens the Visual Studio development environment without any specific project or code loaded. You might choose this option to join a [Live Share](/visualstudio/liveshare/) session or attach to a process for debugging. You can also press **Esc** to close the start window and open the IDE.
-
-::: moniker-end
-
-## Create a project
-
-To continue exploring Visual Studio's features, let's create a new project.
-
-::: moniker range="vs-2017"
-
-1. On the **Start Page**, in the search box under **New project**, type in **console** to filter the list of project types to those that contain "console" in their name.
-
-   ![Screenshot showing a list of project templates on the Start Page in Visual Studio 2017.](media/start-page-search-templates.png)
-
-   Visual Studio provides various kinds of project templates that help you get started coding quickly. Choose a C# **Console App (.NET Core)** project template. (Alternatively, if you're a Visual Basic, C++, JavaScript, or other language developer, feel free to create a project in one of those languages. The UI we'll be looking at is similar for all programming languages.)
-
-1. In the **New Project** dialog box that appears, accept the default project name and choose **OK**.
-
-The project is created and a file named *Program.cs* opens in the **Editor** window. The **Editor** shows the contents of files and is where you'll do most of your coding work in Visual Studio.
-
-![Screenshot showing the Editor in Visual Studio 2017.](media/editor.png)
+Use the **Continue without code** option to open the Visual Studio development environment without any specific project or code loaded. You might choose this option to join a [Live Share](/visualstudio/liveshare/) session or attach to a process for debugging. You can also press **Esc** to close the start window and open the IDE.
 
 ::: moniker-end
+
+## Create your project
+
+To explore Visual Studio's features, let's create a new project.
 
 ::: moniker range="vs-2019"
 
-1. On the start window, choose **Create a new project**.
+1. Start Visual Studio and select **Create a new project**.
 
     :::image type="content" source="../get-started/media/vs-2019/start-window-create-new-project.png" alt-text="Screenshot of the 'Create a new project' window in Visual Studio 2019.":::
 
@@ -104,29 +81,54 @@ The project is created and a file named *Program.cs* opens in the **Editor** win
 
    Here, you can search, filter, and pick a project template. It also shows a list of your recently used project templates.
 
-1. In the search box at the top, type in **console** to filter the list of project types to those that contain "console" in their name. Further refine the search results by picking **C#** (or another language of your choice) from the **All language** drop-down list.
+1. In the **Create a new project** window, type **console** in the search box to filter the list of project types. Further refine the search results by picking **C#** (or another language of your choice) from the **All languages** drop-down list.
 
     :::image type="content" source="media/vs-2019/create-new-project.png" alt-text="Screenshot of the 'Create a new project' window in Visual Studio 2019, where you select the template that you want.":::
 
-1. If you selected C#, Visual Basic, or F# as your language, select the **Console Application** template, and then choose **Next**. (If you selected a different language, just pick any template. The UI we'll be looking at is similar for all programming languages.)
+1. If you selected C#, select the **Console Application** template, and then select **Next**. (If you selected a different language, just pick any template. The UI we'll look at is similar for all programming languages.)
 
-1. On the **Configure your new project** window, accept the default project name and location, and then choose **Next**.
+1. In the **Configure your new project** window, accept the default project name and location, and then select **Next**.
 
     :::image type="content" source="media/vs-2019/configure-new-project-console.png" alt-text="Screenshot of the 'Configure a new project' window in Visual Studio 2019, where you enter the name of the project.":::
 
-1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** drop-down menu, and then click **Create**.
+1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** drop-down menu, and then select **Create**.
 
     :::image type="content" source="../get-started/media/vs-2019/create-project-additional-info.png" alt-text="Screenshot of the 'Additional information' window in Visual Studio 2019, where you select the version of the .NET Core Framework that you want.":::
 
-The project is created and a file named *Program.cs* opens in the **Editor** window. The **Editor** shows the contents of files and is where you'll do most of your coding work in Visual Studio.
+1. Your project is created and loaded in Visual Studio. 
 
-![Screenshot showing the Editor window in Visual Studio 2019.](media/editor.png)
+### Basic layout
+
+* Take a look at the contents of your project using **Solution Explorer**, which shows you a graphical representation of the hierarchy of files and folders in your project, solution, or code folder. 
+
+* You can browse the hierarchy and select a file to open it in the **Editor**. 
+    A file named *Program.cs* opens in the **Editor** window. The **Editor** shows the contents of files and is where you'll do most of your coding work in Visual Studio.
+
+    ![Screenshot showing the Editor window in Visual Studio 2019.](media/editor.png)
+
+* The menu bar along the top of Visual Studio groups commands into categories. For example, the **Project** menu contains commands related to the project you're working in. On the **Tools** menu, you can customize how Visual Studio behaves by selecting **Options**, or add features to your installation by selecting **Get Tools and Features**.
+    
+    ![Screenshot showing the Menu bar in Visual Studio 2019.](media/vs-2019/menu-bar.png)
+
+* Get contextual help by pressing **F1** while the mouse cursor is on a keyword or after selecting a keyword. For example, select *console* and press F1 to jump to documentation on the *Console Class*. 
+* Visual Studio has excellent keyboard accessibility. It supports an array of built-in keyboard shortcuts to perform actions quickly. Use **Help > Keyboard Shortcut reference** to see the list of keyboard shortcuts.
+* The **Error List** shows you errors, warnings, and messages about the current state of your code. If there are errors (like a missing brace or semicolon) in your file or anywhere in your project, they're listed here. To open the **Error List** window, choose the **View** menu, and then select **Error List**.
+    
+    :::image type="content" source="media/quickstart-IDE-error-list.png" alt-text="Screenshot of the Error List in Visual Studio 2019.":::
+
+* The **Search** box (**Ctrl + Q**) at the top is a quick and easy way to find just about anything in Visual Studio. You can enter some text related to what you want to do, and it will show you a list of options that are relevant to the text. For example, to open a **Terminal** window, just search for it and open from the search results. The built-in terminal is opened and is ready for commands.
+    
+    ![Screenshot showing the Search box in Visual Studio 2019.](media/vs-2019/ide-tour-toolbar-search-box.png)
+
+* If you run into any problems while using Visual Studio, or if you have suggestions for how to improve the product, you can let us know by choosing the **Send Feedback** button near the upper-right corner of the IDE.
+
+    ![Screenshot of the Send Feedback menu in Visual Studio 2019.](media/vs-2019/send-feedback-menu.png)
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-1. On the start window, choose **Create a new project**.
+1. Start Visual Studio and select **Create a new project**.
 
     :::image type="content" source="media/vs-2022/start-window-create-new-project.png" alt-text="Screenshot of the 'Create a new project' window in Visual Studio 2022.":::
 
@@ -134,93 +136,56 @@ The project is created and a file named *Program.cs* opens in the **Editor** win
 
    Here, you can search, filter, and pick a project template. The **Create a new project** window also shows a list of your recently used project templates.
 
-1. In the search box at the top, type in *console* to filter the list of project types to those that contain "console" in their name. Further refine the search results by picking **C#** (or another language of your choice) from the **All language** dropdown list.
+1. In the **Create a new project** window, type **console** in the search box to filter the list of project types. Further refine the search results by picking **C#** (or another language of your choice) from the **All languages** drop-down list.
 
     :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot of the 'Create a new project' window in Visual Studio 2022, where you select the template that you want.":::
 
-1. If you selected C#, Visual Basic, or F# as your language, select the **Console Application** template, and then choose **Next**. If you selected a different language, just pick any template.
+1. If you selected C#, select the **Console App** template, and then select **Next**. If you selected a different language, just pick any template.
 
-1. On the **Configure your new project** window, accept the default project name and location, and then choose **Next**.
+1. In the **Configure your new project** window, accept the default project name and location, and then select **Next**.
 
     :::image type="content" source="media/vs-2022/quickstart-configure-new-project-console.png" alt-text="Screenshot of the 'Configure a new project' window in Visual Studio 2022, where you enter the name of the project.":::
 
-1. In the **Additional information** window, ensure that **.NET 6.0 (Preview)** appears in the **Framework** dropdown menu, and then choose **Create**.
+1. In the **Additional information** window, ensure that **.NET 6.0** appears in the **Framework** dropdown menu, and then select **Create**.
 
     :::image type="content" source="media/vs-2022/create-project-additional-info.png" alt-text="Screenshot of the 'Additional information' window in Visual Studio 2022, where you select the version of the .NET that you want.":::
 
-1. The project is created. Select the code file *Program.cs* in the **Solution Explorer** window, which is typically on the right-hand side of Visual Studio.
+1. The project is created and loaded in Visual Studio. 
 
-    :::image type="content" source="media/vs-2022/quickstart-opened-new-project.png" alt-text="Screenshot of the new C# console project in Visual Studio 2022.":::
+### Basic layout
 
-The file *Program.cs* opens in the **Editor** window. The **Editor** shows the contents of files and is where you'll do most of your coding work in Visual Studio.
+* Take a look at the contents of your project using **Solution Explorer**, which shows you a graphical representation of the hierarchy of files and folders in your project, solution, or code folder. 
+* You can browse the hierarchy and select a file to open it in the **Editor**.
+  The file *Program.cs* opens in the **Editor** window. The **Editor** shows the contents of files and is where you'll do most of your coding work in Visual Studio.
+    
+    :::image type="content" source="media/vs-2022/editor.png" alt-text="Screenshot of the Editor in Visual Studio 2022.":::
 
-:::image type="content" source="media/vs-2022/editor.png" alt-text="Screenshot of the Editor in Visual Studio 2022.":::
+* The menu bar along the top of Visual Studio groups commands into categories. For example, the **Project** menu contains commands related to the project you're working in. On the **Tools** menu, you can customize how Visual Studio behaves by selecting **Options**, or add features to your installation by selecting **Get Tools and Features**.
+    
+    :::image type="content" source="media/vs-2022/menu-bar.png" alt-text="Screenshot of the Menu bar in Visual Studio 2022.":::
 
-::: moniker-end
+* Get contextual help by pressing F1 while the mouse cursor is on a keyword or after selecting a keyword. For example, select *console* and press F1 to jump to documentation on the *Console Class*. 
+* Visual Studio has excellent keyboard accessibility. It supports an array of built-in keyboard shortcuts to perform actions quickly. Use **Help > Keyboard Shortcut reference** to see the list of keyboard shortcuts.
+* The **Error List** shows you errors, warnings, and messages about the current state of your code. If there are errors (like a missing brace or semicolon) in your file or anywhere in your project, they're listed here. To open the **Error List** window, choose the **View** menu, and then select **Error List**.
+    
+    :::image type="content" source="media/vs-2022/quickstart-ide-error-list.png" alt-text="Screenshot of the Error List in Visual Studio 2022.":::
 
-## Solution Explorer
+* The **Search** box (**Ctrl + Q**) at the top is a quick and easy way to find just about anything in Visual Studio. You can enter some text related to what you want to do, and it will show you a list of options that are relevant to the text. For example, to open a **Terminal** window, just search for it and open from the search results. The built-in terminal is opened and is ready for commands.
 
-::: moniker range="<=vs-2019"
+    :::image type="content" source="media/vs-2022/ide-tour-toolbar-search-box.png" alt-text="Screenshot of the Search box in Visual Studio 2022.":::
 
-**Solution Explorer**, which is typically on the right-hand side of Visual Studio, shows you a graphical representation of the hierarchy of files and folders in your project, solution, or code folder. You can browse the hierarchy and navigate to a file in **Solution Explorer**.
-
-![Screenshot showing the Solution Explorer in Visual Studio.](media/quickstart-IDE-solution-explorer.png)
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
-
-**Solution Explorer** shows you a graphical representation of the hierarchy of files and folders in your project, solution, or code folder. You can browse the hierarchy and select a file to open it in the **Editor**.
-
-:::image type="content" source="media/vs-2022/quickstart-ide-solution-explorer.png" alt-text="Screenshot of Solution Explorer in Visual Studio 2022.":::
-
-::: moniker-end
-
-## Menus
-
-The menu bar along the top of Visual Studio groups commands into categories. For example, the **Project** menu contains commands related to the project you're working in. On the **Tools** menu, you can customize how Visual Studio behaves by selecting **Options**, or add features to your installation by selecting **Get Tools and Features**.
-
-::: moniker range="vs-2017"
-
-![Screenshot showing the Menu bar in Visual Studio 2017.](media/quickstart-IDE-menu-bar.png)
+* If you run into any problems while using Visual Studio, or if you have suggestions for how to improve the product, you can let us know by choosing the **Send Feedback** button near the upper-right corner of the IDE.
+    
+    :::image type="content" source="media/vs-2022/quickstart-ide-send-feedback.png" alt-text="Screenshot of the Send Feedback button and menu in Visual Studio 2022.":::
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
+## Build your app
 
-![Screenshot showing the Menu bar in Visual Studio 2019.](media/vs-2019/menu-bar.png)
+Let's build the project to see some build output. The **Output** window shows you output messages from building your project and from your source control provider.
 
-::: moniker-end
-
-::: moniker range=">=vs-2022"
-
-:::image type="content" source="media/vs-2022/menu-bar.png" alt-text="Screenshot of the Menu bar in Visual Studio 2022.":::
-
-::: moniker-end
-
-## Error List
-
-The **Error List** shows you errors, warning, and messages about the current state of your code. If there are errors (like a missing brace or semicolon) in your file or anywhere in your project, they're listed here.
-
-To open the **Error List** window, choose the **View** menu, and then select **Error List**.
-
-::: moniker range="<=vs-2019"
-
-:::image type="content" source="media/quickstart-IDE-error-list.png" alt-text="Screenshot of the Error List in Visual Studio 2019.":::
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
-
-:::image type="content" source="media/vs-2022/quickstart-ide-error-list.png" alt-text="Screenshot of the Error List in Visual Studio 2022.":::
-
-::: moniker-end
-
-## Output window
-
-The **Output** window shows you output messages from building your project and from your source control provider.
-
-Let's build the project to see some build output. From the **Build** menu, choose **Build Solution**. The **Output** window automatically obtains focus and shows a successful build message.
+From the **Build** menu, choose **Build Solution**. 
+The **Output** window automatically obtains focus and shows a successful build message. 
 
 ::: moniker range="<=vs-2019"
 
@@ -234,93 +199,73 @@ Let's build the project to see some build output. From the **Build** menu, choos
 
 ::: moniker-end
 
-## Search box
-
-The search box is a quick and easy way to find just about anything in Visual Studio. You can enter some text related to what you want to do, and it will show you a list of options that are relevant to the text. For example, imagine you want to increase the verbosity of the build output to display more details about what the build is doing. Here's how you might do that:
-
-::: moniker range="vs-2017"
-
-1. Locate the **Quick Launch** search box in the upper right of the IDE. (Alternatively, press **Ctrl**+**Q** to access it.)
-
-1. Type **verbosity** into the search box. From the displayed results, choose **Projects and Solutions --> Build and Run** under the **Options** category.
-
-   ![Screenshot of the Quick launch search box in Visual Studio 2017.](media/quickstart-IDE-quick-launch.png)
-
-   The **Options** dialog box opens to the **Build and Run** options page.
-
-1. Under **MSBuild project build output verbosity**, choose **Normal**, and then click **OK**.
-
-1. Build the project again by right-clicking on the **ConsoleApp1** project in **Solution Explorer** and choosing **Rebuild** from the context menu.
-
-   This time the **Output** window shows more verbose logging from the build process, including which files were copied where.
-
-   ![Screenshot of a more detailed build log within the Output window in Visual Studio 2017.](media/build-output-verbose.png)
-
-::: moniker-end
+## Run your app
 
 ::: moniker range="vs-2019"
 
-1. Press **Ctrl**+**Q** to activate the search box in the upper part of the IDE.
+1. Click the **Start Debugging** button (green arrow) in the toolbar or press **F5** to run your app.
 
-1. Type **verbosity** into the search box. From the displayed results, choose **Change MSBuild verbosity**.
+    :::image type="content" source="media/vs-2019/ide-tour-menu-run-app-button.png" alt-text="Screenshot of the Start Debugging button in the debug toolbar.":::
 
-   ![Screenshot of the Search box in Visual Studio 2019.](media/vs-2019/quick-launch-verbosity.png)
+   Visual Studio builds the app, and a console window opens with the message **Hello, World!**. You now have a running app!
 
-   The **Options** dialog box opens to the **Build and Run** options page.
-
-1. Under **MSBuild project build output verbosity**, choose **Normal**, and then click **OK**.
-
-1. Build the project again by right-clicking on the **ConsoleApp1** project in **Solution Explorer** and choosing **Rebuild** from the context menu.
-
-   This time the **Output** window shows more verbose logging from the build process, including which files were copied where.
-
-   ![Screenshot of a more detailed build log within the Output window in Visual Studio 2019.](media/build-output-verbose.png)
+1. To close the console window, press any key.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-1. Press **Ctrl**+**Q** to activate the search box in the upper part of the IDE.
+1. Click the **Start Debugging** button (green arrow) in the toolbar or press **F5** to run your app.
 
-1. Type *verbosity* into the search box. From the displayed results, choose **Change MSBuild verbosity**.
+    :::image type="content" source="media/vs-2022/ide-tour-menu-run-app-button.png" alt-text="Screenshot of the Start Debugging button in the debug toolbar.":::
 
-   :::image type="content" source="media/vs-2022/quickstart-search-verbosity.png" alt-text="Screenshot of the Search box in Visual Studio 2022.":::
+   Visual Studio builds the app, and a console window opens with the message **Hello, World!**. You now have a running app!
 
-   The **Options** dialog box opens to the **Build and Run** options page.
-
-1. Under **MSBuild project build output verbosity**, choose **Normal**, and then choose **OK**.
-
-1. Build the project again by right-clicking on the **ConsoleApp1** project in **Solution Explorer** and choosing **Rebuild** from the context menu.
-
-   This time the **Output** window shows more verbose logging from the build process, including which files were copied where.
-
-   :::image type="content" source="media/vs-2022/quickstart-build-output-verbose.png" alt-text="Screenshot of a more detailed build log within the Output window in Visual Studio 2022.":::
+1. To close the console window, press any key.
 
 ::: moniker-end
 
-## Send Feedback menu
+## Debug your app
 
-::: moniker range="vs-2017"
-
-Should you encounter any problems while you're using Visual Studio, or if you have suggestions for how to improve the product, you can use the **Send Feedback** menu near the top of the Visual Studio window.
-
-![Screenshot of the Send Feedback menu in Visual Studio 2017.](media/quickstart-IDE-send-feedback.png)
-
-::: moniker-end
+Visual Studio has many built-in debugging capabilities. Set a break point at any point of interest in the code to pause the execution of code or to debug step-by-step. Check out the **Locals**,  **Autos**, and **Watch** window for troubleshooting the code by inspecting the values at each stage.
 
 ::: moniker range="vs-2019"
 
-Should you encounter any problems while you're using Visual Studio, or if you have suggestions for how to improve the product, you can use the **Send Feedback** menu near the top of the Visual Studio window.
+1. Let's add some more code to the app. Add the following C# code before the line that says `Console.WriteLine("Hello World!");`:
 
-![Screenshot of the Send Feedback menu in Visual Studio 2019.](media/vs-2019/send-feedback-menu.png)
+   ```csharp
+   Console.WriteLine("\nWhat is your name?");
+   var name = Console.ReadLine();
+   ``` 
+
+1. Click on the **Start Debugging** button (green arrow) in the debug toolbar in Visual Studio to run your app.
+
+    :::image type="content" source="media/vs-2019/ide-tour-menu-run-app-button.png" alt-text="Screenshot of the Start Debugging button in the debug toolbar.":::
+
+1. You can stop the app at any time by clicking on the **Stop** button in the toolbar.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-Should you run into any problems while you're using Visual Studio, or if you have suggestions for how to improve the product, you can let us know. To do so, choose the **Send Feedback** button near the upper-right corner of the IDE and use one of the feedback options in the **Send Feedback** menu.
+1. Let's add some more code to the app. Add the following C# code before the line that says `Console.WriteLine("Hello World!");`:
 
-:::image type="content" source="media/vs-2022/quickstart-ide-send-feedback.png" alt-text="Screenshot of the Send Feedback button and menu in Visual Studio 2022.":::
+   ```csharp
+   Console.WriteLine("\nWhat is your name?");
+   var name = Console.ReadLine();
+   ``` 
+
+1. Click on the **Start Debugging** button (green arrow) in the debug toolbar in Visual Studio to run your app.
+
+    :::image type="content" source="media/vs-2022/ide-tour-menu-run-app-button.png" alt-text="Screenshot of the Start Debugging button in the debug toolbar.":::
+
+1. Use **Hot Reload** to fix issues or make changes to the code on the fly and see the results without restarting the app.
+
+    :::image type="content" source="media/vs-2022/ide-tour-menu-hot-reload.png" alt-text="Screenshot of the Hot Reload button in the debug toolbar.":::
+
+1. You can stop the app at any time by clicking on the **Stop** button in the toolbar.
+    
+    :::image type="content" source="media/vs-2022/ide-tour-menu-stop-app-button.png" alt-text="Screenshot of the Stop button in the debug toolbar.":::
 
 ::: moniker-end
 

@@ -1,21 +1,22 @@
 ---
 title: 'How to: Identify Symbols in a Library | Microsoft Docs'
 description: Learn how to identify symbols in a library by implementing methods that pass navigation information from the symbol library to the Visual Studio object manager. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - Call Browser tool, identifying symbols in the library
 - Call Browser tool
 ms.assetid: 8fb0de61-71e7-42d1-8b41-2ad915474384
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # How to: Identify symbols in a library
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Symbol-browsing tools display hierarchical views of symbols. The symbols represent namespaces, objects, classes, class members, and other language elements.
 
  Each symbol in the hierarchy can be identified by the navigation information passed by the symbol library to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] object manager through the following interfaces:
@@ -53,14 +54,7 @@ N1
 
      The object manager calls this method to obtain the list of nodes contained in the canonical path of the symbol.
 
-    ```vb
-    Public Function EnumCanonicalNodes(ByRef ppEnum As Microsoft.VisualStudio.Shell.Interop.IVsEnumNavInfoNodes) As Integer
-        Dim EnumNavInfoNodes As CallBrowserEnumNavInfoNodes = _New CallBrowserEnumNavInfoNodes(m_strMethod)
-        ppEnum = CType(EnumNavInfoNodes, IVsEnumNavInfoNodes)
-        Return 0
-    End Function
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     public int EnumCanonicalNodes(out Microsoft.VisualStudio.Shell.Interop.IVsEnumNavInfoNodes ppEnum)
     {
@@ -71,6 +65,16 @@ N1
     }
 
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Public Function EnumCanonicalNodes(ByRef ppEnum As Microsoft.VisualStudio.Shell.Interop.IVsEnumNavInfoNodes) As Integer
+        Dim EnumNavInfoNodes As CallBrowserEnumNavInfoNodes = _New CallBrowserEnumNavInfoNodes(m_strMethod)
+        ppEnum = CType(EnumNavInfoNodes, IVsEnumNavInfoNodes)
+        Return 0
+    End Function
+    ```
+    ---
 
 2. Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsNavInfo.EnumPresentationNodes%2A> method.
 

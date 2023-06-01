@@ -1,7 +1,6 @@
 ---
 title: "Combine VBA and document-level customizations"
 description: Learn how you can use Visual Basic for Applications (VBA) code in a document that is part of a document-level customization for Microsoft Office Word or Excel.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -29,6 +28,8 @@ ms.workload:
   - "office"
 ---
 # Combine VBA and document-level customizations
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use Visual Basic for Applications (VBA) code in a document that is part of a document-level customization for Microsoft Office Word or Microsoft Office Excel. You can call VBA code in the document from the customization assembly, or you can configure your project to enable VBA code in the document to call code in the customization assembly.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
@@ -53,10 +54,7 @@ ms.workload:
 
   The following code example shows how to call a macro named `MyMacro` from a document-level project for Excel. This example assumes that `MyMacro` is defined in `Sheet1`.
 
-```vb
-Globals.Sheet1.Application.Run("MyMacro")
-```
-
+### [C#](#tab/csharp)
 ```csharp
 Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
     missing, missing, missing, missing, missing, missing, missing,
@@ -64,6 +62,12 @@ Globals.Sheet1.Application.Run("MyMacro", missing, missing, missing,
     missing, missing, missing, missing, missing, missing, missing,
     missing, missing, missing, missing, missing, missing);
 ```
+
+### [VB](#tab/vb)
+```vb
+Globals.Sheet1.Application.Run("MyMacro")
+```
+---
 
 > [!NOTE]
 > For information about using the global `missing` variable in place of optional parameters in Visual C#, see [Write code in Office solutions](../vsto/writing-code-in-office-solutions.md).

@@ -1,20 +1,21 @@
 ---
 title: Project Types Architecture | Microsoft Docs
 description: This article links to articles which contain detailed information about the architecture of project types in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - projects [Visual Studio SDK], architecture
 ms.assetid: 9c1d940f-8a54-41f7-a8aa-c870e324371c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Project Types Architecture
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section contains detailed information about the architecture of project types in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
 
 ## In This Section

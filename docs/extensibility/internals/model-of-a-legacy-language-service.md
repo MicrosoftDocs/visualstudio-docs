@@ -1,20 +1,21 @@
 ---
 title: Model of a Legacy Language Service | Microsoft Docs
 description: Use this model of a minimal language service for the Visual Studio core editor as a guide for creating your own language service.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - language services, model
 ms.assetid: d8ae1c0c-ee3d-4937-a581-ee78d0499793
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Model of a Legacy Language Service
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A language service defines the elements and features for a specific language, and is used to provide the editor with information specific to that language. For example, the editor needs to know the elements and keywords of the language in order to support syntax coloring.
 
  The language service works closely with the text buffer managed by the editor and the view that contains the editor. The Microsoft IntelliSense **Quick Info** option is an example of a feature provided by a language service.

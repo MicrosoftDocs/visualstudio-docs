@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProperty3::SetValueAsStringWithError
 ms.assetid: b378368f-4a45-4b2f-8e3d-3bff7a18ab17
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty3::SetValueAsStringWithError
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the value of this property and returns an error message, if necessary.
 
 ## Syntax
 
-```cpp
-HRESULT SetValueAsStringWithError(
-    LPCOLESTR pszValue,
-    DWORD     dwRadix,
-    DWORD     dwTimeout,
-    BSTR*     errorString
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetValueAsStringWithError(
     string     pszValue,
@@ -40,6 +34,16 @@ int SetValueAsStringWithError(
     out string errorString
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetValueAsStringWithError(
+    LPCOLESTR pszValue,
+    DWORD     dwRadix,
+    DWORD     dwTimeout,
+    BSTR*     errorString
+);
+```
+---
 
 ## Parameters
 `pszValue`\

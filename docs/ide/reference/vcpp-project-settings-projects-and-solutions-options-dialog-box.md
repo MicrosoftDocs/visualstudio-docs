@@ -1,7 +1,6 @@
 ---
 title: C++ Project Settings options
 description: Learn how to use the VC++ Project Settings page in the Projects and Solutions section to define C++ build and project settings related to logging, performance, and supporting file types.
-ms.custom: SEO-VS-2020
 ms.date: 08/02/2017
 ms.topic: reference
 f1_keywords:
@@ -15,13 +14,15 @@ helpviewer_keywords:
   - "extensions, files built by C or C++ compiler"
   - "BuildLog.htm"
 ms.assetid: 56420efd-6a95-464e-b890-e2b38c48d66a
-author: corob-msft
-ms.author: corob
+author: tylermsft
+ms.author: twhitney
 manager: markl
 ms.workload:
   - "cplusplus"
 ---
 # VC++ Project Settings, Projects and Solutions, Options Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This dialog box lets you define C++ build and project settings related to logging, performance, and supporting file types.
 

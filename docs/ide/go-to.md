@@ -1,7 +1,6 @@
 ---
 title: Go to file, go to symbol, go to line
 description: Learn about Go To commands in Visual Studio and how you can use them to to perform focused searches of your code.
-ms.custom: SEO-VS-2020
 ms.date: 08/14/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -17,6 +16,8 @@ ms.workload:
 - multiple
 ---
 # Find code using Go To commands
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio's **Go To** commands perform a focused search of your code to help you quickly find specified items. You can go to a specific line, type, symbol, file, and member from a simple, unified interface.
 
@@ -71,7 +72,7 @@ Icon | Description
 
 If you use [camel casing](https://en.wikipedia.org/wiki/Camel_case) in your code, you can find code elements faster by entering only the capital letters of the code element name. For example, if your code has a type called `CredentialViewModel`, you can narrow down the search by choosing the **Type** filter (**t**) and then entering just the capital letters of the name (`CVM`) in the Go To dialog box. This feature can be helpful if your code has long names.
 
-![Navigate To window - searching with capitals](../ide/media/vside_capitalsearch.png)
+![Navigate To window - searching with uppercase letters](../ide/media/vside_uppercasesearch.png)
 
 ## Settings
 

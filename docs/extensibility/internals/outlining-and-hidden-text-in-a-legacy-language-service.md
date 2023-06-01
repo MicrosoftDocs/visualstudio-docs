@@ -1,20 +1,21 @@
 ---
 title: Outlining and Hidden Text in a Legacy Language Service | Microsoft Docs
 description: This article links to resources to implement outlining and hidden text in a legacy language service.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - outlining, supporting in native code
 ms.assetid: 252c5221-2e64-461c-8dcf-b622e400e0be
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Outlining and Hidden Text in a Legacy Language Service
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Outlining makes it possible to collapse a sequence of text lines into a single line. For example, in C++ all methods can be collapsed to a single line, showing only the method signature. Hidden text is the sequence of text lines that can be shown or hidden.
 
 ## In This Section

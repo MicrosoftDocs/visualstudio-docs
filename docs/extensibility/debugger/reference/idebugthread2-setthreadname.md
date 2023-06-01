@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugThread2::SetThreadName
 ms.assetid: fa934121-3f58-44dc-9c30-d3f752e44c8b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugThread2::SetThreadName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the name of the thread.
 
 ## Syntax
 
-```cpp
-HRESULT SetThreadName ( 
-   LPCOLESTR pszName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetThreadName ( 
    string pszName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetThreadName ( 
+   LPCOLESTR pszName
+);
+```
+---
 
 ## Parameters
 `pszName`\

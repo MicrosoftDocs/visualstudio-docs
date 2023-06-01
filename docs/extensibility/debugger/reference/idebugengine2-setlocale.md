@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngine2::SetLocale
 ms.assetid: cd0d2cf1-2aac-43da-a830-4bb3d696c219
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine2::SetLocale
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the locale of the debug engine (DE).
 
 ## Syntax
 
-```cpp
-HRESULT SetLocale( 
-   WORD wLangID
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetLocale( 
    ushort wLangID
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetLocale( 
+   WORD wLangID
+);
+```
+---
 
 ## Parameters
 `wLangID`\

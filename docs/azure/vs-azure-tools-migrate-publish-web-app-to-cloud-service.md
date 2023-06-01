@@ -1,7 +1,6 @@
 ---
 title: Migrate and publish web application to a Cloud Service
 description: Learn how to migrate and publish your web application to an Azure cloud service by using Visual Studio
-ms.custom: SEO-VS-2020
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
@@ -11,6 +10,8 @@ ms.date: 11/10/2017
 ms.author: ghogen
 ---
 # How to: Migrate and publish a web application to an Azure Cloud Service from Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To take advantage of the hosting services and scaling ability of Azure, you might want to migrate and deploy your web application to an Azure cloud service. Only minimal changes are required. This article covers deploying to cloud services only; for App Service, see [Deploy a web app in Azure App Service](/azure/app-service/app-service-deploy-local-git).
 

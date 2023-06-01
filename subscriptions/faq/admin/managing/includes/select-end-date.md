@@ -4,8 +4,8 @@ description: Subscriptions are always assigned using the best available end date
 ms.faqid: group1_8
 ms.topic: include
 ms.assetid: 387800f0-e420-496b-af7e-4f0cd7e4898b
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 3/3/2020
 ---
 

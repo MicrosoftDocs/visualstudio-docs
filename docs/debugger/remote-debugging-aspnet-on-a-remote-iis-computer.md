@@ -1,8 +1,8 @@
 ---
 title: "Remote Debug ASP.NET Core on a Remote IIS Computer | Microsoft Docs"
 description: Debug an ASP.NET Core application that has been deployed to a remote Internet Information Services (IIS) computer using the Visual Studio remote debugger.
-ms.custom: "remotedebugging, SEO-VS-2020"
-ms.date: 08/27/2021
+ms.custom: remotedebugging
+ms.date: 08/29/2022
 ms.topic: "conceptual"
 ms.assetid: 573a3fc5-6901-41f1-bc87-557aa45d8858
 author: "mikejo5000"
@@ -15,25 +15,22 @@ ms.workload:
 ---
 # Remote Debug ASP.NET Core on a Remote IIS Computer in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 To debug an ASP.NET Core application that has been deployed to IIS, install and run the remote tools on the computer where you deployed your app, and then attach to your running app from Visual Studio.
 
 ![Remote debugger components](../debugger/media/remote-debugger-aspnet.png "Remote_debugger_components")
 
-This guide explains how to set up and configure a Visual Studio ASP.NET Core, deploy it to IIS, and attach the remote debugger from Visual Studio. To remote debug ASP.NET 4.5.2, see [Remote Debug ASP.NET on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md). You can also deploy and debug on IIS using Azure. For Azure App Service, you can easily deploy and debug on a preconfigured instance of IIS and the remote debugger using either the [Snapshot Debugger](../debugger/debug-live-azure-applications.md) or by [attaching the debugger from Server Explorer](../debugger/remote-debugging-azure.md).
+This guide explains how to set up and configure a Visual Studio ASP.NET Core, deploy it to IIS, and attach the remote debugger from Visual Studio. To remote debug ASP.NET 4.8, see [Remote Debug ASP.NET on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md). You can also deploy and debug on IIS using Azure. For Azure App Service, see [Remote debug ASP.NET Core on Azure](../debugger/remote-debugging-azure-app-service.md) or, for Visual Studio Enterprise, use the [Snapshot Debugger](../debugger/debug-live-azure-applications.md) (.NET 4.6.1 required).
 
 ## Prerequisites
 
-::: moniker range=">=vs-2019"
-Visual Studio 2019 is required to follow the steps shown in this article.
-::: moniker-end
-::: moniker range="vs-2017"
-Visual Studio 2017 is required to follow the steps shown in this article.
-::: moniker-end
+Visual Studio 2019 or a later version is required to follow the steps shown in this article.
 
 These procedures have been tested on these server configurations:
-* Windows Server 2012 R2 and IIS 8
-* Windows Server 2016 and IIS 10
+* Windows Server 2022 and IIS 10
 * Windows Server 2019 and IIS 10
+* Windows Server 2016 and IIS 10
 
 ## Network requirements
 
@@ -51,16 +48,11 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
 1. Create a new ASP.NET Core web application.
 
-    ::: moniker range=">=vs-2019"
-    In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project **MyASPApp**, and then choose **Next**.
+    In Visual Studio, choose **File** > **Start window** to open the Start window, and then choose **Create a new project**. In the search box, type **web app**, then choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project **MyASPApp**, and then choose **Next**.
 
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    In Visual Studio 2017, choose **File > New > Project**, then select **Visual C# > Web > ASP.NET Core Web Application**. In the ASP.NET Core templates section, select **Web Application (Model-View-Controller)**. Make sure that ASP.NET Core 2.1 is selected, that **Enable Docker Support** is not selected and that **Authentication** is set to **No Authentication**. Name the project **MyASPApp**.
-    ::: moniker-end
 
-4. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
+2. Open the About.cshtml.cs file and set a breakpoint in the `OnGet` method (in older templates, open HomeController.cs instead and set the breakpoint in the `About()` method).
 
 ## <a name="bkmk_configureIIS"></a> Install and Configure IIS on Windows Server
 
@@ -68,7 +60,7 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
 ## Update browser security settings on Windows Server
 
-If Enhanced Security Configuration is enabled in Internet Explorer (it is enabled by default), then you may need to add some domains as trusted sites to enable you to download some of the web server components. Add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. Add the following domains.
+If you are using Internet Explorer in an older version of Windows Server, the Enhanced Security Configuration is enabled by default. You may need to add some domains as trusted sites to enable you to download some of the web server components. Add the trusted sites by going to **Internet Options > Security > Trusted Sites > Sites**. Add the following domains.
 
 - microsoft.com
 - go.microsoft.com
@@ -102,7 +94,7 @@ If you need help to deploy the app to IIS, consider these options:
 You can use this option create a publish settings file and import it into Visual Studio.
 
 > [!NOTE]
-> This deployment method uses Web Deploy, which must be installed on the server. If you want to configure Web Deploy manually instead of importing the settings, you can install Web Deploy 3.6 instead of Web Deploy 3.6 for Hosting Servers. However, if you configure Web Deploy manually, you will need to make sure that an app folder on the server is configured with the correct values and permissions (see [Configure ASP.NET Web site](#BKMK_deploy_asp_net)).
+> If you want to configure Web Deploy manually instead of importing the publish settings, you will need to make sure that an app folder on the server is configured with the correct values and permissions (see [Configure ASP.NET Web site](#BKMK_deploy_asp_net)).
 
 ### Configure the ASP.NET Core web site
 
@@ -110,7 +102,7 @@ You can use this option create a publish settings file and import it into Visual
 
 2. Stop and restart the DefaultAppPool.
 
-### Install and configure Web Deploy for Hosting Servers on Windows Server
+### Install and configure Web Deploy on Windows Server
 
 [!INCLUDE [install-web-deploy-with-hosting-server](../deployment/includes/install-web-deploy-with-hosting-server.md)]
 
@@ -126,11 +118,12 @@ After the app deploys successfully, it should start automatically. If the app do
 
 1. Switch to a debug configuration.
 
-   ::: moniker range=">=vs-2019"
-   Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
+   ::: moniker range=">=vs-2022"
+   Choose **More Options** > **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
    ::: moniker-end
-   ::: moniker range="vs-2017"
-   In the **Settings** dialog box, enable debugging by clicking **Next**, choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
+
+   ::: moniker range="vs-2019"
+   Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
    ::: moniker-end
 
    > [!IMPORTANT]
@@ -201,9 +194,7 @@ For information on running the remote debugger as a service, see [Run the remote
     ::: moniker range="vs-2019"
     On Visual Studio 2019, you should see **\<remote computer name>:4024**
     ::: moniker-end
-    ::: moniker range="vs-2017"
-    On Visual Studio 2017, you should see **\<remote computer name>:4022**
-    ::: moniker-end
+
     The port is required. If you don't see the port number, add it manually.
 
 4. Click **Refresh**.
@@ -223,12 +214,7 @@ For information on running the remote debugger as a service, see [Run the remote
 
     If you have multiple processes showing *w3wp.exe* or *dotnet.exe*, check the **User Name** column. In some scenarios, the **User Name** column shows your app pool name, such as **IIS APPPOOL\DefaultAppPool**. If you see the App Pool, but it's not unique, create a new named App Pool for the app instance you want to debug, and then you can find it easily in the **User Name** column.
 
-    ::: moniker range=">=vs-2019"
     ![RemoteDBG_AttachToProcess](../debugger/media/vs-2019/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    ![RemoteDBG_AttachToProcess](../debugger/media/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
-    ::: moniker-end
 
 7. Click **Attach**.
 
@@ -239,6 +225,8 @@ For information on running the remote debugger as a service, see [Run the remote
 9. In the running ASP.NET application, click the link to the **About** page.
 
     The breakpoint should be hit in Visual Studio.
+
+    If you are unable to attach or hit the breakpoint, see [Troubleshoot remote debugging](../debugger/troubleshooting-remote-debugging.md).
 
 ## Troubleshooting IIS deployment
 
@@ -266,10 +254,11 @@ Required ports:
 ::: moniker range="vs-2019"
 * 4024 - Required for remote debugging from Visual Studio 2019 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
 ::: moniker-end
-::: moniker range="vs-2017"
-* 4022 - Required for remote debugging from Visual Studio 2017 (see [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) for more information).
-::: moniker-end
+
 * UDP 3702 - (Optional) Discovery port enables you to use the **Find** button when attaching to the remote debugger in Visual Studio.
+
+In addition, these ports should already be opened by the ASP.NET installation:
+- 8172 - (Optional) Required for Web Deploy to deploy the app from Visual Studio
 
 1. To open a port on Windows Server, open the **Start** menu, search for **Windows Firewall with Advanced Security**.
 

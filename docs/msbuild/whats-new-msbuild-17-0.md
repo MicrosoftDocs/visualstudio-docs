@@ -1,7 +1,7 @@
 ---
 title: What's New in MSBuild 17.0  | Microsoft Docs
 description: Learn about the changed and updated features and properties for MSBuild 17.0, and link to release notes.
-ms.date: 10/25/2021
+ms.date: 11/11/2022
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen
@@ -15,7 +15,7 @@ monikerRange: '>=vs-2019'
 
 This article describes significant updates in MSBuild 17.0. For the detailed release notes, see [MSBuild 17.0.0](https://github.com/dotnet/msbuild/releases/tag/v17.0.0).
 
-MSBuild 17.0 shipped with [Visual Studio 2022](../ide/whats-new-visual-studio-2022.md) and [.NET 6.0](/dotnet/...).
+MSBuild 17.0 shipped with [Visual Studio 2022](../ide/whats-new-visual-studio-2022.md) and [.NET 6.0](/dotnet/).
 
 ## Changed path
 

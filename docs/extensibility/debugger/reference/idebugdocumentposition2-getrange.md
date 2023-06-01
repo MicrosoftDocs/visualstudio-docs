@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocumentPosition2::GetRange
 ms.assetid: 91a06ee7-253a-4215-be22-04bf57305aa8
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentPosition2::GetRange
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the range for this document position.
 
 ## Syntax
 
-```cpp
-HRESULT GetRange( 
-   TEXT_POSITION* pBegPosition,
-   TEXT_POSITION* pEndPosition
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetRange( 
    TEXT_POSITION[] pBegPosition,
    TEXT_POSITION[] pEndPosition
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetRange( 
+   TEXT_POSITION* pBegPosition,
+   TEXT_POSITION* pEndPosition
+);
+```
+---
 
 ## Parameters
 `pBegPosition`\

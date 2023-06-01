@@ -1,17 +1,18 @@
 ---
 title: Build actions for files
 description: Learn how all files in a Visual Studio project have a build action and the build action controls what happens to the file when the project is compiled.
-ms.custom: SEO-VS-2020
 ms.date: 11/19/2018
 ms.technology: vs-ide-compile
 ms.topic: reference
 author: ghogen
-ms.author: ghogen
+ms.author: ghogen 
 manager: jmartens
 ms.workload:
   - "multiple"
 ---
 # Build actions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 All files in a Visual Studio project have a build action. The build action controls what happens to the file when the project is compiled.
 

@@ -1,7 +1,6 @@
 ---
 title: "Security/versioning/manifest issues (ClickOnce)"
 description: Learn about issues with ClickOnce security, application versioning, and manifest syntax and semantics that can cause a ClickOnce deployment not to succeed.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -27,6 +26,8 @@ ms.workload:
   - "multiple"
 ---
 # Security, versioning, and manifest issues in ClickOnce deployments
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are a variety of issues with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] security, application versioning, and manifest syntax and semantics that can cause a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment not to succeed.
 

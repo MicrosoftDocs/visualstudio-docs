@@ -1,7 +1,6 @@
 ---
 title: Task Writing | Microsoft Docs
 description: Learn about how you can create your own tasks to provide the code that runs during the MSBuild build process.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -261,4 +260,6 @@ The following example shows a project file invoking the previous example task, S
 
 ## See also
 
+- [Create a custom task](tutorial-custom-task-code-generation.md)
+- [Create a REST API client with MSBuild](tutorial-rest-api-client-msbuild.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)

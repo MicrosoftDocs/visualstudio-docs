@@ -2,10 +2,10 @@
 description: "The Visual Studio integrated development environment is a creative launching pad for Python (and other languages) that you can use to edit, debug, and test code, and then publish an app."
 title: Overview of Visual Studio for Python developers
 titleSuffix: ""
-ms.date: 03/13/2019
+ms.date: 01/26/2022
 ms.topic: overview
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 dev_langs:
@@ -16,6 +16,8 @@ ms.workload:
 ---
 # Welcome to the Visual Studio IDE | Python
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Visual Studio *integrated development environment* is a creative launching pad for Python (and other languages) that you can use to edit, debug, and test code, and then publish an app. An integrated development environment (IDE) is a feature-rich program that can be used for many aspects of software development. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes code completion tools, interactive REPL environments, and other features to ease the software development process.
 
 [![Visual Studio with a Python project](media/tour-ide-overview.png)](media/tour-ide-overview.png#lightbox)
@@ -25,9 +27,7 @@ This image shows Visual Studio with an open Python project and several key tool 
 - [**Solution Explorer**](../ide/solutions-and-projects-in-visual-studio.md) (top right) lets you view, navigate, and manage your code files. **Solution Explorer** can help organize your code by grouping the files into [solutions and projects](../get-started/tutorial-projects-solutions.md).
   - Alongside **Solution Explorer** is [**Python Environments**](managing-python-environments-in-visual-studio.md), where you manage the different Python interpreters that are installed on your computer.
 
-  ::: moniker range=">=vs-2019"
   - You can also open and run Python code in a folder without creating Visual Studio project and solution files. For more information, see [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md).
-  ::: moniker-end
 
 - The [editor window](../ide/writing-code-in-the-code-and-text-editor.md) (center), where you'll likely spend a majority of your time, displays file contents. This is where you [edit Python code](editing-python-code-in-visual-studio.md), navigate within your code structure, and set breakpoints during debugging sessions. With Python, you can also select code and press Ctrl+Enter to run that code in an [interactive REPL window](python-interactive-repl-in-visual-studio.md).
 
@@ -84,11 +84,9 @@ Some of the popular features in Visual Studio that help you to be more productiv
 
 ## Powerful features for Python
 
-::: moniker range=">=vs-2019"
 - [Run code without a project](quickstart-05-python-visual-studio-open-folder.md)
 
     Starting in Visual Studio 2019, you can open a folder containing Python code to enjoy features like IntelliSense and debugging without having to create a Visual Studio project for the code.
-::: moniker-end
 
 - [Collaborate using Visual Studio](/visualstudio/liveshare/)
 

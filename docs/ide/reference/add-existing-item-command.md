@@ -1,7 +1,6 @@
 ---
 title: Add Existing Item Command
 description: Learn about the Add Existing Item command and how it adds an existing file to a current solution and opens it.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # Add Existing Item Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Adds an existing file to the current solution and opens it.
 
 ## Syntax

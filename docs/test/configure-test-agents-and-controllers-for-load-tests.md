@@ -1,7 +1,6 @@
 ---
 title: Configure test agents/test controllers for load tests
 description: Learn how Visual Studio can create simulated load by using physical or virtual machines to generate more load than a single computer can generate alone.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -13,10 +12,12 @@ ms.technology: vs-ide-test
 ---
 # Overview of test agents and test controllers for running load tests
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio can generate simulated load for your app by using physical or virtual machines. These machines must be set up as a single test controller and one or more test agents. You can use the test controller and test agents to generate more load than a single computer can generate alone.
 
 > [!NOTE]
-> You can also use cloud-based load testing to provide virtual machines that generate the load of many users accessing your website at the same time. However, using the test controller/test agent setup on cloud-hosted virtual machines is not supported. Learn more about cloud-based load testing at [Run load tests using Azure Test Plans](/azure/devops/test/load-test/get-started-simple-cloud-load-test?view=vsts&preserve-view=true).
+> Using the test controller/test agent setup on cloud-hosted virtual machines is not supported. Learn more about cloud-based load testing at [Create and run a load test with Azure Load Testing](/azure/load-testing/quickstart-create-and-run-load-test).
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
 

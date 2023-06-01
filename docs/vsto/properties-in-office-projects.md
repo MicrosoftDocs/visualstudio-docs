@@ -1,7 +1,6 @@
 ---
 title: "Properties in Office projects"
 description: Learn about the properties that are available to Office projects in Visual Studio through the Properties window.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -23,6 +22,8 @@ ms.workload:
   - "office"
 ---
 # Properties in Office projects
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   There are several important properties that are available to Office projects in Visual Studio. These properties can be accessed in the **Properties** window.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

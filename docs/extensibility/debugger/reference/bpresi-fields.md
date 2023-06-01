@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - BPRESI_FIELDS enumeration
 ms.assetid: 99f17b1e-3e67-4f85-89d6-5c6cf45c8008
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,22 @@ dev_langs:
 - CSharp
 ---
 # BPRESI_FIELDS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the information to be retrieved about the successful resolution of a breakpoint.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_BPRESI_FIELDS {
+    BPRESI_BPRESLOCATION = 0x0001,
+    BPRESI_PROGRAM       = 0x0002,
+    BPRESI_THREAD        = 0x0004,
+    BPRESI_ALLFIELDS     = 0xffffffff
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_BPRESI_FIELDS {
     BPRESI_BPRESLOCATION = 0x0001,
@@ -32,15 +44,7 @@ enum enum_BPRESI_FIELDS {
 };
 typedef DWORD BPRESI_FIELDS;
 ```
-
-```csharp
-public enum enum_BPRESI_FIELDS {
-    BPRESI_BPRESLOCATION = 0x0001,
-    BPRESI_PROGRAM       = 0x0002,
-    BPRESI_THREAD        = 0x0004,
-    BPRESI_ALLFIELDS     = 0xffffffff
-};
-```
+---
 
 ## Fields
 `BPRESI_BPRESLOCATION`\

@@ -5,8 +5,8 @@ ms.faqid: group1_2
 ms.topic: include
 ms.assetid: 11274272-d834-44c7-acdb-09c9ba2f852d
 ms.technology: 
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 3/3/2020
 ---
 
@@ -34,4 +34,4 @@ To assign more administrators:
 8. Click on the  Role drop-down at the top of the pane, scroll down, and select  User Access Administrator.
 9. Click  Save.
 
-[Learn more](https://docs.microsoft.com/visualstudio/subscriptions/cloud-admin) about administration of cloud subscriptions.
+[Learn more](https://learn.microsoft.com/visualstudio/subscriptions/cloud-admin) about administration of cloud subscriptions.

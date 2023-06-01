@@ -1,7 +1,6 @@
 ---
 title: "Message Codes | Microsoft Docs"
 description: Learn the meanings of the message codes shown on each message line of Messages View.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -15,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # Message Codes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Each message line shown in [Messages View](../debugger/messages-view.md) contains a 'P,' 'S,' 's,' or 'R' code. These codes have the following meanings:
 
 |Code|Meaning|

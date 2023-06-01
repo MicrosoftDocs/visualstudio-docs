@@ -1,7 +1,6 @@
 ---
 title: LINQ to SQL O/R Designer overview
 description: Get an overview of LINQ to SQL tools in Visual Studio. Learn about the Object Relational Designer (O/R Designer).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: overview
 ms.assetid: 45e477c0-5c6b-41f9-b2d0-2808fb4f6537
@@ -13,6 +12,8 @@ ms.workload:
 - data-storage
 ---
 # LINQ to SQL tools in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 LINQ to SQL was the first object-relational mapping technology released by Microsoft. It works well in basic scenarios and continues to be supported in Visual Studio, but it's no longer under active development. Use LINQ to SQL when maintaining a legacy application that's already using it, or in simple applications that use SQL Server and do not require multi-table mapping. In general, new applications should use the Entity Framework when an object-relational mapper layer is required.
 

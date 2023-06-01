@@ -5,14 +5,16 @@ ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugStopCompleteEvent2 interface
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # IDebugStopCompleteEvent2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The debug engine (DE) can send this optional event to the session debug manager (SDM) when a program has stopped.
 

@@ -1,6 +1,5 @@
 ---
 title: "Diagnostics - Azure Cloud Services & VMs"
-ms.custom: SEO-VS-2020
 description: Learn how to set up diagnostics for debugging Azure cloud services and virtual machines (VMs) in Visual Studio.
 author: ghogen
 manager: jmartens
@@ -11,6 +10,8 @@ ms.date: 06/28/2018
 ms.author: mikejo
 ---
 # Set up diagnostics for Azure Cloud Services and virtual machines
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you need to troubleshoot an Azure cloud service or virtual machine, you can use Visual Studio to more easily set up Azure Diagnostics. Diagnostics captures system data and logging data on the virtual machines and virtual machine instances that run your cloud service. Diagnostics data is transferred to a storage account that you choose. For more information about diagnostics logging in Azure, see [Enable diagnostics logging for Web Apps in Azure App Service](/azure/app-service/web-sites-enable-diagnostic-log).
 
 In this article, we show you how to use Visual Studio to turn on and set up Azure Diagnostics, both before and after deployment. Learn how to set up Diagnostics on Azure virtual machines, how to select the types of diagnostics information to collect, and how to view the information after it's collected.
@@ -189,7 +190,7 @@ The processes currently being tracked are listed in the next screenshot. Select 
 
 ![Crash dumps](./media/vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines/IC766026.png)
 
-For more information, see [Take control of logging and tracing in Microsoft Azure](/archive/msdn-magazine/2010/june/msdn-magazine-cloud-diagnostics-take-control-of-logging-and-tracing-in-windows-azure) and [Microsoft Azure Diagnostics Part 4: Custom logging components and Azure Diagnostics 1.3 changes](https://www.red-gate.com/simple-talk/cloud/platform-as-a-service/microsoft-azure-diagnostics-part-4-custom-logging-components-and-azure-diagnostics-1.3-changes/).
+For more information, see [Take control of logging and tracing in Microsoft Azure](/archive/msdn-magazine/2010/june/msdn-magazine-cloud-diagnostics-take-control-of-logging-and-tracing-in-windows-azure).
 
 ## View the diagnostics data
 After you’ve collected the diagnostics data for a cloud service or virtual machine, you can view it.

@@ -1,7 +1,6 @@
 ---
 title: "Edit and Continue (C++) | Microsoft Docs"
 description: Edit and Continue is available for C++ projects. Learn what edits are supported, and how to can control whether, and when, your edits are applied.
-ms.custom: SEO-VS-2020
 ms.date: "05/31/2018"
 ms.topic: "conceptual"
 dev_langs:
@@ -22,6 +21,8 @@ ms.workload:
   - "cplusplus"
 ---
 # Edit and Continue (C++)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can use Edit and Continue in C++ projects. See [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md) for information about the limitations of Edit and Continue.
 
 For more information about Visual Studio 2015 Update 3 improvements, see [C++ Edit and Continue in Visual Studio 2015 Update 3](https://devblogs.microsoft.com/cppblog/c-edit-and-continue-in-visual-studio-2015-update-3/).

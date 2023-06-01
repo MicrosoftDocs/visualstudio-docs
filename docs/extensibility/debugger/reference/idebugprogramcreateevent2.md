@@ -8,14 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramCreateEvent2 interface
 ms.assetid: b19a7934-6179-4a68-9075-bd7dcd640b05
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # IDebugProgramCreateEvent2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a program is attached to.
 
 ## Syntax

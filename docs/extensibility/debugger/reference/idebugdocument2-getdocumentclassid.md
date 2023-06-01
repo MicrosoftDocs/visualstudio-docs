@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocument2::GetDocumentClassID
 ms.assetid: 111c2b85-ebfa-487f-b896-2ec4a3eac4d1
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocument2::GetDocumentClassID
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the class identifier of the document.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocumentClassID( 
-   CLSID* pclsid
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocumentClassID( 
    out Guid pclsid
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocumentClassID( 
+   CLSID* pclsid
+);
+```
+---
 
 ## Parameters
 `pclsid`

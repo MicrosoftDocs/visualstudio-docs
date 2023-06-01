@@ -1,7 +1,6 @@
 ---
 title: Open File Command
 description: Learn about the Open File command and how it opens an existing file and allows you to specify an editor.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -19,6 +18,8 @@ ms.workload:
 - multiple
 ---
 # Open file command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Opens an existing file and allows you to specify an editor.
 

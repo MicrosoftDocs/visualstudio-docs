@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugSymbolProvider::GetNamespacesUsedAtAddress method
 ms.assetid: 392de54b-9af0-4567-953b-1b41acd1e05c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProvider::GetNamespacesUsedAtAddress
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method creates an enumerator for namespaces associated with the debug address.
 
 ## Syntax
 
-```cpp
-HRESULT GetNamespacesUsedAtAddress( 
-   IDebugAddress*     pAddress,
-   IEnumDebugFields** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetNamespacesUsedAtAddress(
    IDebugAddress        pAddress,
    out IEnumDebugFields ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetNamespacesUsedAtAddress( 
+   IDebugAddress*     pAddress,
+   IEnumDebugFields** ppEnum
+);
+```
+---
 
 ## Parameters
 `pAddress`\

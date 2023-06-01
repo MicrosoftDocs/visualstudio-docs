@@ -1,17 +1,18 @@
 ---
 title: How to use CTest for C++
 description: Learn how to create and run tests with CTest, which is integrated into the Visual Studio IDE by default. 
-ms.custom: SEO-VS-2020
 ms.date: 01/23/2020
 ms.topic: how-to
-ms.author: corob
+ms.author: twhitney
 manager: jmartens
 ms.technology: vs-ide-test
 ms.workload: 
   - cplusplus
-author: corob-msft
+author: tylermsft
 ---
 # How to use CTest for C++ in Visual Studio 2017 and later
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 CMake (which includes CTest) is integrated into the Visual Studio IDE by default as a component of the **Desktop Development with C++** workload. If you need to install it on your machine, open the Visual Studio Installer program, click the **Desktop Development with C++** button, then click **Modify**. Select **C++ CMake tools for Windows** under the list of workload components.
 

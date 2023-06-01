@@ -1,7 +1,6 @@
 ---
 title: "URL picker dialog box (SharePoint development)"
 description: Learn about the URL picker dialog box, which lets a user choose files located in their project or on the local server that's running SharePoint.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -20,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # URL picker dialog box (SharePoint development in Visual Studio)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   In the URL picker dialog box, you can choose files such as master page files or image files that are located in your project or on the local server that's running SharePoint.
 
  This dialog box appears when you have the option to choose a file to set a property. You can open this dialog box by choosing the ellipsis button (![ASP.NET Mobile Designer ellipse](../sharepoint/media/mwellipsis.gif "ASP.NET Mobile Designer ellipse")) next to various properties in the **Properties** window. The ellipsis button also appears as an IntelliSense prompt when you assign values to certain attributes in the **Source** view of the designer.

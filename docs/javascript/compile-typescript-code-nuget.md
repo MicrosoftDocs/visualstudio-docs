@@ -1,7 +1,7 @@
 ---
 title: Compile and build TypeScript code using NuGet
 description: Learn how to add TypeScript support to your Visual Studio projects by using the NuGet package.
-ms.date: 7/23/2020
+ms.date: 05/26/2023
 ms.topic: conceptual
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -14,7 +14,9 @@ ms.workload:
 ---
 # Compile TypeScript code (ASP.NET Core)
 
-You can add TypeScript support to your projects using the TypeScript SDK, available by default in the Visual Studio installer or by using the NuGet package. For projects developed in Visual Studio 2019, we encourage you to use the TypeScript NuGet for greater portability across different platforms and environments.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+You can add TypeScript support to your projects using the TypeScript SDK, available by default in the Visual Studio installer or by using the NuGet package. For projects developed in Visual Studio 2019 or later, we encourage you to use the TypeScript NuGet package for greater portability across different platforms and environments.
 
 For ASP.NET Core projects, one common usage for the NuGet package is to compile TypeScript using the .NET Core CLI. Unless you manually edit your project file to import build targets from a TypeScript SDK installation, the NuGet package is the only way to enable TypeScript compilation using .NET Core CLI commands such as `dotnet build` and `dotnet publish`. Also, for [MSBuild integration](https://www.staging-typescript.org/docs/handbook/compiler-options-in-msbuild.html) with ASP.NET Core and TypeScript, choose the NuGet package over the npm package.
 
@@ -40,6 +42,8 @@ If Visual Studio is installed, then the node.exe bundled with it will automatica
    ```
 
 1. Right-click the project node and choose **Add > New Item**. Choose the **TypeScript JSON Configuration File**, and then click **Add**.
+
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
 
    Visual Studio adds the *tsconfig.json* file to the project root. You can use this file to [configure options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for the TypeScript compiler.
 
@@ -89,10 +93,10 @@ If Visual Studio is installed, then the node.exe bundled with it will automatica
 
    Source map files are required for debugging.
 
-1. If you want to compile every time you save the project, use the *compileOnSave* option in *.tsconfig.
+1. If you want to compile every time you save the project, use the *compileOnSave* option in *tsconfig.json*.
 
    ```json
-   ```{
+   {
       "compileOnSave":  true,
       "compilerOptions": {
       }
@@ -105,7 +109,7 @@ If you run into issues where Visual Studio is using a version of Node.js or a th
 
 ### Run the application
 
-For instructions to run the app after you compile it, see [Create your first Node.js app](/visualstudio/ide/quickstart-nodejs?toc=%2Fvisualstudio%2Fjavascript%2Ftoc.json#run-the-application).
+Press **F5** or select the Start button at the top of the window.
 
 ### NuGet package structure details
 

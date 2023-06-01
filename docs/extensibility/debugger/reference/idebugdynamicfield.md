@@ -8,14 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDynamicField interface
 ms.assetid: caffbd95-7596-4714-84b1-b964e89a78bb
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # IDebugDynamicField
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This interface represents a type of a variable.
 
 ## Syntax

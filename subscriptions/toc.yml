@@ -16,14 +16,16 @@
         href: vscloud-billing-faq.yml
       - name: Buying for CSPs
         href: vscloud-csp.md
-      - name: Microsoft Partner Network
-        items:
-        - name: Subscriptions for partners
-          href: program-mpn.md
-        - name: Manage subscriptions for MPN
-          href: manage-mpn-subscriptions.md
-      - name: Microsoft for Startups
-        href: program-startups.md
+    - name: Microsoft Partner Network
+      items:
+      - name: Subscriptions for partners
+        href: program-mpn.md
+      - name: Manage subscriptions for MPN
+        href: manage-mpn-subscriptions.md
+    - name: Microsoft for Startups
+      href: program-startups.md
+  - name: Get started with a new subscription
+    href: new-subscriber.md
   - name: Sign in to subscriber portal
     items:
     - name: Sign in with Microsoft Accounts
@@ -56,10 +58,16 @@
   href: access-github.md
 - name: Visual Studio IDE
   href: vs-ide-benefit.md
+- name: Sign in to use Visual Studio
+  href: use-visual-studio-without-key.md
 - name: Azure benefits
   items:
   - name: Azure DevTest offer
     href: /azure/devtest/offer/
+  - name: Azure Dev/Test offer eligibility
+    href: vs-azure-eligibility.md
+  - name: Maintain Azure credit access
+    href: azure-access.md  
   - name: Azure DevOps
     href: vs-azure-devops.md
 - name: Other benefits
@@ -68,10 +76,6 @@
     href: about-benefits.md
   - name: Tools
     items:
-    - name: CAST Highlight
-      href: vs-cast.md
-    - name: CloudPilot
-      href: vs-cloudpilot.md
     - name: Microsoft 365 apps for enterprise
       href: microsoft-365-apps-for-enterprise.md
     - name: Microsoft 365 developer
@@ -88,6 +92,8 @@
       href: vs-windows-dev.md
     - name: Windows Virtual Desktop
       href: vs-windows-virtual-desktop.md  
+    - name: Azure Dev Box
+      href: microsoft-dev-box.md
   - name: Professional development
     items:
     - name: CODE Magazine
@@ -138,7 +144,7 @@
     href: manage-teams.md
   - name: Track user assignments and process orders
     href: assignments-orders.md
-- name: Accessing the admin portal
+- name: Access the admin portal
   items:
   - name: Volume License
     href: volume-license.md
@@ -150,7 +156,7 @@
     href: open-migration.md
   - name: 'Video tutorial: Access the admin portal'
     href:  https://www.microsoft.com/videoplayer/embed/RE4th6L
-- name: Using the admin portal
+- name: Use the admin portal
   items:
   - name: Super admins and administrators
     href: admin-roles.md
@@ -158,42 +164,54 @@
     href: admin-preferences.md
   - name: Overview
     href: using-admin-portal.md
-  - name: Add monthly subscriptions
-    href: add-monthly-subs.md
-  - name: Assign subscriptions
+  - name: Change org email addresses
+    href: change-org-email-addresses.md 
+  - name: Manage agreements
     items:
-    - name: Add single users
-      href: assign-license.md
-    - name: Add multiple users
-      href: assign-license-bulk.md
-    - name: Assign specific subscriptions
-      href: assign-guid.md
-  - name: Move subscriptions to new agreements
-    href: migrate-subscriptions.md        
-  - name: Edit subscriptions
-    href: edit-license.md
-  - name: Delete subscriptions
-    href: delete-license.md
-  - name: Search for a subscription
-    href: search-license.md
-  - name: Export subscriptions
-    href: exporting-subscriptions.md
-  - name: Overallocations
-    href: handle-overclaimed-license.md
-  - name: Maximum usage
-    href: maximum-usage.md
-  - name: What happens when agreements expire
-    href: admin-expiration.md     
-  - name: Accounts removed by Microsoft
-    href: account-removed.md  
-  - name: Expired subscriptions
-    href: handle-expired-license.md
-  - name: Subscriber sign-in scenarios 
-    href: aliasing.md
-  - name: Subscribers with personal email sign-ins
-    href: personal-email-sign-ins.md
-  - name: Managing Visual Studio subscriptions with GitHub Enterprise
-    href: assign-github.md
+    - name: Access new agreements
+      href: agreement-renewals.md 
+    - name: Move subscriptions to new agreements
+      href: migrate-subscriptions.md 
+    - name: What happens when agreements renew
+      href: agreement-renewals.md  
+    - name: What happens when agreements expire
+      href: admin-expiration.md 
+  - name: Manage subscriptions
+    items:
+    - name: Add monthly subscriptions
+      href: add-monthly-subs.md
+    - name: Assign subscriptions
+      items:
+      - name: Add single users
+        href: assign-license.md
+      - name: Add multiple users
+        href: assign-license-bulk.md
+      - name: Assign specific subscriptions
+        href: assign-guid.md
+    - name: Edit subscriptions
+      href: edit-license.md
+    - name: Delete subscriptions
+      href: delete-license.md
+    - name: Search for a subscription
+      href: search-license.md
+    - name: Export subscriptions
+      href: exporting-subscriptions.md
+    - name: Overallocations
+      href: handle-overclaimed-license.md
+    - name: Maximum usage
+      href: maximum-usage.md
+    - name: Managing Visual Studio subscriptions with GitHub Enterprise
+      href: assign-github.md
+  - name: Troubleshoot
+    items:
+    - name: Accounts removed by Microsoft
+      href: account-removed.md  
+    - name: Expired subscriptions
+      href: handle-expired-license.md
+    - name: Subscriber sign-in scenarios 
+      href: aliasing.md
+    - name: Subscribers with personal email sign-ins
+      href: personal-email-sign-ins.md
 - name: Resources
   items:
   - name: Visual Studio licensing white paper
@@ -208,5 +226,3 @@
     href: https://www.microsoft.com/licensing/product-licensing/products.aspx
   - name: Microsoft Products and Services Agreement (MPSA)
     href: https://www.microsoft.com/licensing/mpsa/default.aspx
-  - name: How to automate subscription assignments with Azure Active Directory
-    href: assign-azure-ad.md

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - ATTACH_REASON enumeration
 ms.assetid: 159fb70b-a344-4ba6-9115-b7eaa16e228f
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,21 @@ dev_langs:
 - CSharp
 ---
 # ATTACH_REASON
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the reason for the debug engine (DE) to attach to a program node.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_ATTACH_REASON {
+    ATTACH_REASON_LAUNCH = 0x0001,
+    ATTACH_REASON_USER   = 0x0002,
+    ATTACH_REASON_AUTO   = 0x0003
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_ATTACH_REASON {
     ATTACH_REASON_LAUNCH = 0x0001,
@@ -31,14 +42,7 @@ enum enum_ATTACH_REASON {
 };
 typedef DWORD ATTACH_REASON;
 ```
-
-```csharp
-public enum enum_ATTACH_REASON {
-    ATTACH_REASON_LAUNCH = 0x0001,
-    ATTACH_REASON_USER   = 0x0002,
-    ATTACH_REASON_AUTO   = 0x0003
-};
-```
+---
 
 ## Fields
 `ATTACH_REASON_AUTO`\

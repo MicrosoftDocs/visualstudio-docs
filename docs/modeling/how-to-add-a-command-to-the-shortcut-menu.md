@@ -1,7 +1,6 @@
 ---
 title: 'How to: Add a command to the shortcut menu'
 description: Learn how you can add menu commands to your domain-specific language (DSL) so that your users can perform tasks that are specific to your DSL.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -15,6 +14,8 @@ ms.workload:
 - multiple
 ---
 # How to: Add a command to the shortcut menu
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can add menu commands to your domain-specific language (DSL) so that your users can perform tasks that are specific to your DSL. The commands appear on the context (shortcut) menu when users right-click on the diagram. You can define a command so that it only appears in the menu in specific circumstances. For example, you can make the command visible only when the user clicks specific types of element, or elements in specific states.
 

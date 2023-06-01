@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically display a string in a worksheet cell"
 description: Learn how you can programmatically display a string in a Microsoft Excel worksheet cell by using either a NamedRange control or a native Excel range object.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -19,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically display a string in a worksheet cell
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example demonstrates how to display text in a cell programmatically. To display text in cell, use either a <xref:Microsoft.Office.Tools.Excel.NamedRange> control or a native Excel range object.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
@@ -30,8 +31,12 @@ ms.workload:
 
 1. Set the value of the <xref:Microsoft.Office.Tools.Excel.NamedRange> control to **Hello World**.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet68":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet68":::
+     ---
 
 ## Use a native Excel range
  The following code creates a new range programmatically and then assigns a value to it.
@@ -40,8 +45,12 @@ ms.workload:
 
 1. Retrieve the range at cell **A1** on `Sheet1` and set the value to **Hello World**.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreExcelAutomationCS/Sheet1.cs" id="Snippet69":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreExcelAutomation/Sheet1.vb" id="Snippet69":::
+     ---
 
 ## See also
 - [Walkthrough: Collect data using a Windows form](../vsto/walkthrough-collecting-data-using-a-windows-form.md)

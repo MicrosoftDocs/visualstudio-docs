@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - CODE_PATH structure
 ms.assetid: 2d4b2890-4c9d-47e1-83c0-df9c6436427f
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # CODE_PATH
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes a method or function call.
 
 ## Syntax
 
-```cpp
-typedef struct tagCODE_PATH { 
-    BSTR                bstrName;
-    IDebugCodeContext2* pCode;
-} CODE_PATH;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct CODE_PATH {
     public string            bstrName;
     public IDebugCodeContext pCode;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagCODE_PATH { 
+    BSTR                bstrName;
+    IDebugCodeContext2* pCode;
+} CODE_PATH;
+```
+---
 
 ## Members
 `bstrName`\

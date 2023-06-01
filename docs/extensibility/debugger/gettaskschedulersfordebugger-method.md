@@ -6,14 +6,16 @@ ms.topic: reference
 helpviewer_keywords:
 - GetTaskSchedulersForDebugger method, TaskScheduler class [.NET Framework debug engines]
 ms.assetid: 58aa236a-5ab8-4695-b303-89dffdbcd946
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # GetTaskSchedulersForDebugger Method
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an array of all <xref:System.Threading.Tasks.TaskScheduler> objects that are currently active.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

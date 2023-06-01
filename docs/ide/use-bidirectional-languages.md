@@ -1,7 +1,6 @@
 ---
 title: Support for Arabic and Hebrew
 description: Learn how to display Arabic and Hebrew text and enter bidirectional text for object names and values.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -17,6 +16,8 @@ ms.workload:
 - multiple
 ---
 # Support for bidirectional languages in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio can display Arabic and Hebrew text correctly and lets you enter bidirectional text for object names and values.
 

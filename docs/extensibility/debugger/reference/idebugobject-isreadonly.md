@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugObject::IsReadOnly method
 ms.assetid: c460f772-d08a-4b36-81f3-dff6a51a93fd
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject::IsReadOnly
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if this object is read-only.
 
 ## Syntax
 
-```cpp
-HRESULT IsReadOnly( 
-   BOOL* pfIsReadOnly
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsReadOnly(
    out int pfIsReadOnly
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsReadOnly( 
+   BOOL* pfIsReadOnly
+);
+```
+---
 
 ## Parameters
 `pfIsReadOnly`\

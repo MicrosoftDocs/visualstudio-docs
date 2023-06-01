@@ -1,7 +1,6 @@
 ---
 title: Getting Started with Debugger Extensibility | Microsoft Docs
 description: Get started creating and customizing debugger components used to debug programs from within the Visual Studio environment.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,14 +8,16 @@ helpviewer_keywords:
 - debugging [Debugging SDK], getting started
 - Debugging SDK, getting started
 ms.assetid: d6ce6f43-1409-4bf7-93cd-f3464ca23504
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # Get started with debugger extensibility
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] provides the information that you need to create and customize debugger components used to debug programs from within the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] environment.
 
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging has added improvements derived from the extensive usability testing performed on previous [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debuggers. You can use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging to step through a multi-language application, or you can implement on-the-fly editing of variables while debugging applications and multi-language solutions.

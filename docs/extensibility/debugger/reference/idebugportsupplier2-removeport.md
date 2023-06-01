@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortSupplier2::RemovePort
 ms.assetid: f5c1fbf2-9084-46f2-a682-7db963928df2
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortSupplier2::RemovePort
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Removes a port.
 
 ## Syntax
 
-```cpp
-HRESULT RemovePort( 
-   IDebugPort2* pPort
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int RemovePort( 
    IDebugPort2 pPort
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT RemovePort( 
+   IDebugPort2* pPort
+);
+```
+---
 
 ## Parameters
 `pPort`\

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramEngines2::SetEngine
 ms.assetid: c05857ee-89cf-455e-8f1e-300cce4a2eab
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramEngines2::SetEngine
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Tells the program or program node which debug engine (DE) to use to debug this program.
 
 ## Syntax
 
-```cpp
-HRESULT SetEngine( 
-   REFGUID guidEngine
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetEngine( 
    ref Guid guidEngine
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetEngine( 
+   REFGUID guidEngine
+);
+```
+---
 
 ## Parameters
 `guidEngine`\

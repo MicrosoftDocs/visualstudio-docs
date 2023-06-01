@@ -1,7 +1,6 @@
 ---
 title: Adding a Command to the Solution Explorer Toolbar | Microsoft Docs
 description: Learn how to add a button that executes a command to the Solution Explorer toolbar in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -9,14 +8,16 @@ helpviewer_keywords:
 - buttons [Visual Studio], adding to Solution Explorer
 - Solution Explorer, adding buttons
 ms.assetid: f6411557-2f4b-4e9f-b02e-fce12a6ac7e9
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Add a command to the Solution Explorer toolbar
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This walkthrough shows how to add a button to the **Solution Explorer** toolbar.
 
  Any command on a toolbar or menu is called a button in Visual Studio. When the button is clicked, the code in the command handler is executed. Typically, related commands are grouped together to form one group. Menus or toolbars act as containers for groups. Priority determines the order in which individual commands in a group appear in the menu or on the toolbar. You can prevent a button from being displayed on the toolbar or the menu by controlling its visibility. A command that is listed in a `<VisibilityConstraints>` section of the *.vsct* file appears only in the associated context. The visibility cannot be applied to groups.

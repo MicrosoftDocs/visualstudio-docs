@@ -1,20 +1,21 @@
 ---
 title: Workflow Designer - Type Collection Editor Dialog Box
-description: Learn how you can use the Type Collection Editor dialog box to add known types to the Send and Receive activities. 
-ms.custom: SEO-VS-2020
+description: Learn how you can use the Type Collection Editor dialog box to add known types to the Send and Receive activities.
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - TypeCollectionEditor.UI
 ms.assetid: 63cdea6b-bca2-4c06-b8b4-c8faabd40726
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
 - multiple
 ---
 # Type Collection Editor Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Type Collection Editor** dialog box is used to add known types to the **Send** and **Receive** activities. This dialog is also used to add generic type arguments to the **InvokeMethod** activity. When used for the **Send** and **Receive** activities to add known types, the **Type Collection Editor** dialog box requires the type additions to be unique. If a duplicate type is added and the change is committed by clicking **OK**, an error message is returned. When used for the **InvokeMethod** activity to add generic type arguments, the **Type Collection Editor** dialog box allows the addition of duplicate types.
 

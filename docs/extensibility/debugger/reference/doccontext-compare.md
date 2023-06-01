@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - DOCCONTEXT_COMPARE enumeration
 ms.assetid: ed947c34-b07e-4b69-8381-b6e7cb842862
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,22 @@ dev_langs:
 - CSharp
 ---
 # DOCCONTEXT_COMPARE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the criteria for comparing two document contexts.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+enum enum_DOCCONTEXT_COMPARE {
+    DOCCONTEXT_EQUAL         = 0x0001,
+    DOCCONTEXT_LESS_THAN     = 0x0002,
+    DOCCONTEXT_GREATER_THAN  = 0x0003,
+    DOCCONTEXT_SAME_DOCUMENT = 0x0004
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_DOCCONTEXT_COMPARE {
     DOCCONTEXT_EQUAL         = 0x0001,
@@ -32,15 +44,7 @@ enum enum_DOCCONTEXT_COMPARE {
 };
 typedef DWORD DOCCONTEXT_COMPARE;
 ```
-
-```csharp
-enum enum_DOCCONTEXT_COMPARE {
-    DOCCONTEXT_EQUAL         = 0x0001,
-    DOCCONTEXT_LESS_THAN     = 0x0002,
-    DOCCONTEXT_GREATER_THAN  = 0x0003,
-    DOCCONTEXT_SAME_DOCUMENT = 0x0004
-};
-```
+---
 
 ## Fields
 `DOCCONTEXT_EQUAL`\

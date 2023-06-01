@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
   - "xaml edit"
   - "xaml live preview"
-author: TerryGLee
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
 ms.workload:
@@ -15,6 +15,8 @@ ms.workload:
 monikerRange: vs-2022
 ---
 # XAML Live Preview: Capture and edit desktop app UI
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With XAML Live Preview, you can capture a desktop app's user interface (UI) and bring it into a docked window within Visual Studio, which makes it easier to use [XAML Hot Reload](xaml-hot-reload.md) to change the app and then view those changes in real time as you make them.
 
@@ -99,8 +101,8 @@ The initial release of Visual Studio 2022 supports the following platforms and d
 |---------|---------|---------|
 |WPF      |Yes         |Yes         |
 |UWP      |Yes         |Yes         |
-|WinUI3 desktop     |No         |Yes         |
-|MAUI (Android Emulator)     |No         |Yes (px*)         |
+|WinUI3 desktop     |Yes        |Yes         |
+|.NET MAUI|Yes         |Yes     |
 |Xamarin 5.0+ (Android Emulator)     |No          |Yes (px*)         |
 
 > [!NOTE]
@@ -119,4 +121,4 @@ Learn more about [XAML Hot Reload](xaml-hot-reload.md), which pairs closely with
 
 ## See also
 
-[Visual Studio 2022 release notes](/visualstudio/releases/2022/release-notes-preview)
+[Visual Studio 2022 release notes](/visualstudio/releases/2022/release-notes)

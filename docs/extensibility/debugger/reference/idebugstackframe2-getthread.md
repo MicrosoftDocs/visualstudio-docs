@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugStackFrame2::GetThread
 ms.assetid: cbeef85b-3dd7-4f97-adc2-c4d197d979fc
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugStackFrame2::GetThread
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the thread associated with a stack frame.
 
 ## Syntax
 
-```cpp
-HRESULT GetThread ( 
-   IDebugThread2** ppThread
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetThread ( 
    out IDebugThread2 ppThread
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetThread ( 
+   IDebugThread2** ppThread
+);
+```
+---
 
 ## Parameters
 `ppThread`\

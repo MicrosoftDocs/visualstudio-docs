@@ -1,8 +1,7 @@
 ---
 title: Windows Forms Designer tutorial
 description: Learn how to build an app using the various tools provided by Windows Forms Designer. The app is a custom control that uses many available layout features.
-ms.custom: SEO-VS-2020
-ms.date: 08/09/2019
+ms.date: 07/06/2022
 ms.topic: tutorial
 helpviewer_keywords:
 - Windows Forms Designer, get started
@@ -12,6 +11,8 @@ manager: jmartens
 ms.technology: vs-ide-designers
 ---
 # Tutorial: Get started with Windows Forms Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Windows Forms Designer provides many tools for building Windows Forms applications. This article illustrates how to build an app using the various tools provided by the designer, including the following tasks:
 
@@ -28,17 +29,16 @@ When you're finished, you'll have a custom control that's been assembled using m
 
 ![Guided Tour Calculator UI](media/calculator-ui.gif)
 
+> [!TIP]
+> If you're a C++ developer and are looking for a tutorial to help you create a Windows app that includes forms and controls, see [Creating a forms-based MFC application](/cpp/mfc/reference/creating-a-forms-based-mfc-application?view=msvc-170&preserve-view=true). For more generalized info, see [Overview of Windows programming in C++](/cpp/windows/overview-of-windows-programming-in-cpp?view=msvc-170&preserve-view=true).
+
 ## Create the custom control project
 
 The first step is to create the DemoCalculator control project.
 
 1. Open Visual Studio and create a new **Windows Forms Control Library** project. Name the project **DemoCalculatorLib**.
 
-   ::: moniker range=">=vs-2019"
-
    ![Windows Forms Control Library template in Visual Studio 2019](media/windows-forms-control-library-template.png)
-
-   ::: moniker-end
 
 2. To rename the file, in **Solution Explorer**, right-click **UserControl1.vb** or **UserControl1.cs**, select **Rename**, and change the file name to DemoCalculator.vb or DemoCalculator.cs. Select **Yes** when you are asked if you want to rename all references to the code element "UserControl1".
 
@@ -272,7 +272,9 @@ The first step is to create the application project. You'll use this project to 
 
 1. Create a new **Windows Forms Application** project and name it **DemoCalculatorTest**.
 
-2. In **Solution Explorer**, right-click the **DemoCalculatorTest** project, and then select **Add Reference** to open the **Add Reference** dialog box.
+2. In **Solution Explorer**, right-click the **DemoCalculatorTest** project, and then select **Add** > **Project Reference** to open the **Reference Manager** dialog box.
+
+    (If you're using Visual Studio 2017, select **Add** > **Reference** to open the **Reference Manager** dialog box.)
 
 3. Go to the **Projects** tab, and then select the DemoCalculatorLib project to add the reference to the test project.
 
@@ -306,7 +308,7 @@ To use the DemoCalculator control in an application, you need to place it on a f
 
 ## Next steps
 
-This article has demonstrated how to construct the user interface for a simple calculator. To continue, you can extend its functionality by implementing the calculator logic, then [publish the app using ClickOnce](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md). Or, continue on to a different tutorial where you [create a picture viewer using Windows Forms](../ide/tutorial-1-create-a-picture-viewer.md).
+This article has demonstrated how to construct the user interface for a simple calculator. To continue, you can extend its functionality by implementing the calculator logic, then [publish the app using ClickOnce](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md). Or, continue on to a different tutorial where you [create a picture viewer using Windows Forms](../ide/tutorial-windows-forms-picture-viewer-layout.md).
 
 ## See also
 

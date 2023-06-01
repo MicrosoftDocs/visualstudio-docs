@@ -1,7 +1,6 @@
 ---
 title: 'How to: Select a Load Test Results Repository'
 description: Learn how to identify a local or remote SQL server to store your test results. The server must have a load test results store.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 f1_keywords: 
@@ -20,6 +19,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # How to: Select a load test results repository
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You are not limited to a local results store. Frequently, load tests are run on a remote set of Agent computers. Agents, together with a controller, can generate more simulated load than any single computer. For more information, see [Test controllers and test agents](configure-test-agents-and-controllers-for-load-tests.md).
 

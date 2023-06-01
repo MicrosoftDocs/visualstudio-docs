@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramPublisher2::UnpublishProgram
 ms.assetid: 627e7d38-b2ac-4873-9a40-37ff7f47cd1d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramPublisher2::UnpublishProgram
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Makes a program unavailable to be debugged.
 
 ## Syntax
 
-```cpp
-HRESULT UnpublishProgram(
-   IUnknown* pDebuggeeInterface
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int UnpublishProgram(
    object pDebuggeeInterface
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT UnpublishProgram(
+   IUnknown* pDebuggeeInterface
+);
+```
+---
 
 ## Parameters
 `pDebuggeeInterface`\

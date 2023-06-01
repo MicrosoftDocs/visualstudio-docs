@@ -1,7 +1,6 @@
 ---
 title: "Replaceable Parameters | Microsoft Docs"
 description: Review replaceable parameters (tokens), which specify values inside project files for SharePoint solution items whose actual values aren't known at design time.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -19,6 +18,8 @@ ms.technology: sharepoint-development
 ms.workload: "office"
 ---
 # Replaceable parameters
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Replaceable parameters, or *tokens*, can be used inside project files to provide values for SharePoint solution items whose actual values aren't known at design time. They're similar in function to the standard [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] template tokens. For more information, see [Template Parameters](../ide/template-parameters.md).
 
 ## Token format

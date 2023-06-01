@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocumentContext2::EnumCodeContexts
 ms.assetid: 627af69c-5cce-4e1d-8233-5f4d8dbc62e5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentContext2::EnumCodeContexts
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of all code contexts associated with this document context.
 
 ## Syntax
 
-```cpp
-HRESULT EnumCodeContexts(
-    IEnumDebugCodeContexts2** ppEnumCodeCxts
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumCodeContexts(
     out IEnumDebugCodeContexts2 ppEnumCodeCxts
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumCodeContexts(
+    IEnumDebugCodeContexts2** ppEnumCodeCxts
+);
+```
+---
 
 ## Parameters
 `ppEnumCodeCxts`\

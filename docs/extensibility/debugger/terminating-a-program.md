@@ -1,21 +1,22 @@
 ---
 title: Terminating a Program | Microsoft Docs
 description: This article describes how the IDE uses the debug engine to terminate a single program with a single thread.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - programs, termination events
 - debugging [Debugging SDK], terminating a program
 ms.assetid: eedda0a3-5e05-44fe-841d-a2f4866ac72d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # Terminating a program
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following section describes the termination of a single program with one thread.
 
 ## Termination process

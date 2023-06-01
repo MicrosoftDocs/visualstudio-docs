@@ -1,7 +1,6 @@
 ---
 title: "How to: Populate documents with data from services"
 description: Learn how you can use the data from services in your solution, and how you can use Windows Forms controls to display the data in a document.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -19,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Populate documents with data from services
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Data access works the same way in document-level projects for Microsoft Office as it does in Windows Forms projects. You use the same tools and code to bring the data into your solution, and you can even use Windows Forms controls to display the data. In addition, you can take advantage of controls called host controls, which are native objects in Microsoft Office Excel and Microsoft Office Word that have been enhanced with events and data binding capability. For more information, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).
 

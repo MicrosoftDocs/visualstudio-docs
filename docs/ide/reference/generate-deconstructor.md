@@ -1,11 +1,10 @@
 ---
 title: Generate a deconstructor quick action
 description: Learn how to use the Quick Actions and Refactorings menu to immediately generate the method stub for a new deconstructor.
-ms.custom: SEO-VS-2020
 ms.date: 02/19/2019
 ms.topic: reference
-author: kendrahavens
-ms.author: kehavens
+author: mikadumont 
+ms.author: midumont 
 manager: jmartens
 ms.technology: vs-ide-general
 dev_langs:
@@ -14,6 +13,8 @@ ms.workload:
   - "dotnet"
 ---
 # Generate a deconstructor in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This code generation applies to:
 

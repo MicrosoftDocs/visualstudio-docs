@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugSettingsCallback2::GetMetricGuid
 ms.assetid: 91092763-3362-4857-adf0-231bc1254206
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -17,19 +17,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugSettingsCallback2::GetMetricGuid
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the unique identifier of a metric given its name.
 
 ## Syntax
 
-```cpp
-HRESULT GetMetricGuid(
-   LPCWSTR pszType,
-   REFGUID guidSection,
-   LPCWSTR pszMetric,
-   GUID*   pguidValue
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 private int GetMetricGuid(
    string   pszType,
@@ -38,6 +32,16 @@ private int GetMetricGuid(
    out Guid pguidValue
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMetricGuid(
+   LPCWSTR pszType,
+   REFGUID guidSection,
+   LPCWSTR pszMetric,
+   GUID*   pguidValue
+);
+```
+---
 
 ## Parameters
 `pszType`\

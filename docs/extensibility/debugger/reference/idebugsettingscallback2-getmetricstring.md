@@ -7,8 +7,8 @@ helpviewer_keywords:
 - IDebugSettingsCallback2::GetMetricString
 - GetMetricString
 ms.assetid: ecc875a2-8ac6-444c-a839-5191a780fd6b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,19 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugSettingsCallback2::GetMetricString
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the value string of the metric given its name.
 
 ## Syntax
 
-```cpp
-HRESULT GetMetricString(
-    LPCWSTR pszType,
-    REFGUID guidSection,
-    LPCWSTR pszMetric,
-    BSTR*   pbstrValue
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 private int GetMetricString(
     string     pszType,
@@ -39,6 +33,16 @@ private int GetMetricString(
     out string pbstrValue
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMetricString(
+    LPCWSTR pszType,
+    REFGUID guidSection,
+    LPCWSTR pszMetric,
+    BSTR*   pbstrValue
+);
+```
+---
 
 ## Parameters
 `pszType`\

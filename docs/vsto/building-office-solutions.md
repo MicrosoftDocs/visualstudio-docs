@@ -1,7 +1,6 @@
 ---
 title: "Build Office solutions"
 description: Learn the differences between building and debugging Office projects and building and debugging other types of projects in Visual Studio, such as Windows Forms.
-ms.custom: SEO-VS-2020
 ms.date: 08/14/2019
 ms.topic: conceptual
 dev_langs:
@@ -31,6 +30,8 @@ ms.workload:
   - "office"
 ---
 # Build Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   In general, building and debugging Office projects is the same as building and debugging other types of projects in Visual Studio, such as Windows Forms. The topics in this section explain the differences that do exist. For general information about how to build applications, see [Compile and build in Visual Studio](../ide/compiling-and-building-in-visual-studio.md).
 
 [!include[Add-ins note](includes/addinsnote.md)]

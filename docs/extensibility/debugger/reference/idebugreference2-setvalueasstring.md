@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugReference2::SetValueAsString
 ms.assetid: 9a508ced-fd54-44f5-bb42-ec15c80384d7
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugReference2::SetValueAsString
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the value of a reference from a string. Reserved for future use.
 
 ## Syntax
 
-```cpp
-HRESULT SetValueAsString ( 
-   LPCOLESTR pszValue,
-   DWORD     dwRadix,
-   DWORD     dwTimeout
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetValueAsString ( 
    string pszValue,
@@ -38,6 +33,15 @@ int SetValueAsString ( 
    uint   dwTimeout
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetValueAsString ( 
+   LPCOLESTR pszValue,
+   DWORD     dwRadix,
+   DWORD     dwTimeout
+);
+```
+---
 
 ## Parameters
 `pszValue`\

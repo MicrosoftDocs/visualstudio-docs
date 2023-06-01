@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugReference2::GetMemoryContext
 ms.assetid: 47fc3827-07a0-4eee-b7f4-fc1c62e6b25c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugReference2::GetMemoryContext
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a memory context of a reference. Reserved for future use.
 
 ## Syntax
 
-```cpp
-HRESULT GetMemoryContext ( 
-   IDebugMemoryContext2** ppMemory
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMemoryContext ( 
    out IDebugMemoryContext2 ppMemory
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMemoryContext ( 
+   IDebugMemoryContext2** ppMemory
+);
+```
+---
 
 ## Parameters
 `ppMemory`\

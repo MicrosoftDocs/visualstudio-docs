@@ -1,16 +1,17 @@
 ---
 title: Keyboard shortcuts for XAML Designer
 description: Learn about keyboard shortcuts in the XAML Designer that access commands for working with elements on the artboard and in the Document Outline window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 40211cc7-294a-4943-85a4-941ad6418dad
-author: TerryGLee
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
 ---
 # Keyboard shortcuts for XAML Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Keyboard shortcuts in XAML Designer can speed up your work by reducing an action that would require multiple mouse-button clicks to a single keyboard shortcut.
 

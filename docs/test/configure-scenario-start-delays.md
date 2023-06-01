@@ -1,7 +1,6 @@
 ---
 title: Configure Scenario Start Delays for load testing
 description: Learn how to specify a delay before a scenario starts in a load test by using the Load Test Editor and the Properties window.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -13,6 +12,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # Configure scenario start delays in load tests
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Specify a delay before a scenario starts in a load test by using the Load Test Editor and the **Properties** window.
 

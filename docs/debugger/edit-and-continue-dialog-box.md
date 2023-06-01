@@ -1,9 +1,8 @@
 ---
 title: "Edit and Continue Dialog Box | Microsoft Docs"
 description: The Edit and Continue dialog box appears if you edited code while debugging. Learn how to control whether it will apply code changes without asking permission.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.ENC.welcome"
 dev_langs:
@@ -22,6 +21,8 @@ ms.workload:
   - "multiple"
 ---
 # Edit and Continue Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 (Native Only) This dialog box appears when you have edited code while debugging and **Edit and Continue** recognizes that it can apply code changes. For more information, see [Edit and Continue](../debugger/edit-and-continue.md).
 
  **Never show me this dialog again**

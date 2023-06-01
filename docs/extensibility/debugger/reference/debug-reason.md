@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - DEBUG_REASON enumeration
 ms.assetid: ad2ee898-8648-4671-9078-d32873862346
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,23 @@ dev_langs:
 - CSharp
 ---
 # DEBUG_REASON
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies why the process was launched for debugging.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_DEBUG_REASON {
+    DEBUG_REASON_ERROR         = 0,
+    DEBUG_REASON_USER_LAUNCHED = 1,
+    DEBUG_REASON_USER_ATTACHED = 2,
+    DEBUG_REASON_AUTO_ATTACHED = 3,
+    DEBUG_REASON_CAUSALITY     = 4
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_DEBUG_REASON {
     DEBUG_REASON_ERROR         = 0,
@@ -33,16 +46,7 @@ enum enum_DEBUG_REASON {
 };
 typedef DWORD DEBUG_REASON;
 ```
-
-```csharp
-public enum enum_DEBUG_REASON {
-    DEBUG_REASON_ERROR         = 0,
-    DEBUG_REASON_USER_LAUNCHED = 1,
-    DEBUG_REASON_USER_ATTACHED = 2,
-    DEBUG_REASON_AUTO_ATTACHED = 3,
-    DEBUG_REASON_CAUSALITY     = 4
-};
-```
+---
 
 ## Fields
 `DEBUG_REASON_ERROR`\

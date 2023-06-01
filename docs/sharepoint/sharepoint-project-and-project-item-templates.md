@@ -1,7 +1,6 @@
 ---
 title: "SharePoint Project and Project Item Templates | Microsoft Docs"
 description: Review descriptions of the available SharePoint project and project item templates and how they are used.
-ms.custom: SEO-VS-2020
 ms.date: "02/22/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -25,6 +24,8 @@ ms.workload:
   - "office"
 ---
 # SharePoint project and project item templates
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The following sections describe the available SharePoint project and project item templates and how they are used.
 
 ## Project and project item templates overview

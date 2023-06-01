@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBreakpointResolution2::GetResolutionInfo
 ms.assetid: 828cbdf6-b87d-4c45-be87-d87087b04a60
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugBreakpointResolution2::GetResolutionInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the breakpoint resolution information that describes this breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT GetResolutionInfo( 
-   BPRESI_FIELDS       dwFields,
-   BP_RESOLUTION_INFO* pBPResolutionInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetResolutionInfo( 
    enum BPRESI_FIELDS   dwFields,
    BP_RESOLUTION_INFO[] pBPResolutionInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetResolutionInfo( 
+   BPRESI_FIELDS       dwFields,
+   BP_RESOLUTION_INFO* pBPResolutionInfo
+);
+```
+---
 
 ## Parameters
 `dwFields`\

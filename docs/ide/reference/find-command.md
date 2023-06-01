@@ -1,7 +1,6 @@
 ---
 title: Find Command
 description: Learn about the Find command and how it searches files by using a subset of the options available on the Find in Files tab of the Find and Replace window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # Find Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Searches files using a subset of the options available on the **Find in Files** tab of the **Find and Replace** window.
 
 ## Syntax

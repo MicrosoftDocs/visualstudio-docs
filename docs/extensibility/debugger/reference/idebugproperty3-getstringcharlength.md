@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProperty3::GetStringCharLength
 ms.assetid: 89a8676b-6da9-4358-91c2-039bf33f99e4
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty3::GetStringCharLength
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the number of characters in the associated property's string.
 
 ## Syntax
 
-```cpp
-HRESULT GetStringCharLength(
-    ULONG *pLen
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetStringCharLength(
     out uint pLen
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetStringCharLength(
+    ULONG *pLen
+);
+```
+---
 
 ## Parameters
 

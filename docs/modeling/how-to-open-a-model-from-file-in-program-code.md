@@ -1,7 +1,6 @@
 ---
 title: 'How to: Open a Model from File in Program Code'
 description: Learn that the ModelBus provides standard mechanism for referencing a model or elements in a model, and for finding the model if it has moved. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 author: mgoertz-msft
@@ -12,6 +11,8 @@ ms.workload:
 - multiple
 ---
 # How to: Open a Model from File in Program Code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can open DSL models in any application.
 

@@ -2,18 +2,19 @@
 title: Pen tool modifier keys
 titleSuffix: Blend for Visual Studio
 description: Learn about the Pen tool modifier keys in Blend for Visual Studio that access commands for modifying a path while you are creating it with the Pen tool.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: c3ab14c6-a320-46db-a6b3-7fd1ca261587
-author: TerryGLee
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
 ms.workload:
   - "multiple"
 ---
 # Pen tool modifier keys in Blend for Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The following table lists shortcuts that you can use to modify a path while you are creating it with the **Pen** tool ![Pen tool](../designers/media/d514358f-185a-412f-a55d-36633b25dc8a.png). You can also use the **Pen** tool to add or remove points on an existing path, or to join two existing paths.
 

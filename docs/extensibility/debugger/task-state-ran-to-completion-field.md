@@ -6,14 +6,16 @@ ms.topic: reference
 helpviewer_keywords:
 - TASK_STATE_RAN_TO_COMPLETION field, Task class [.NET Framework debug engines]
 ms.assetid: 0f4830af-fe0c-4141-b768-817f4e426b8c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # TASK_STATE_RAN_TO_COMPLETION field
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The task completed execution successfully.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

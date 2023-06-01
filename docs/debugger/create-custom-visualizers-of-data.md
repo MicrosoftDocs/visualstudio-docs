@@ -1,7 +1,6 @@
 ---
 title: "Create custom data visualizers | Microsoft Docs"
 description: Visual Studio debugger visualizers are components that display data. Learn about the six standard visualizers, and about how you can write or download others. 
-ms.custom: SEO-VS-2020
 ms.date: "07/29/2021"
 ms.topic: "conceptual"
 f1_keywords:
@@ -24,6 +23,8 @@ ms.workload:
   - "multiple"
 ---
 # Create custom data visualizers
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
  A *visualizer* is part of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger user interface that displays a variable or object in a manner appropriate to its data type. For example, an HTML visualizer interprets an HTML string and displays the result as it would appear in a browser window. A bitmap visualizer interprets a bitmap structure and displays the graphic it represents. Some visualizers let you modify as well as view the data.
 
@@ -107,9 +108,7 @@ section to learn what other changes are required on the *debuggee-side* when usi
 
 In the debugger side code, edit the <xref:System.Diagnostics.DebuggerVisualizerAttribute>, giving it the type to visualize (the debuggee-side object source) (<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>). The `Target` property sets the object source. If you omit the object source, the visualizer will use a default object source.
 
-::: moniker range=">=vs-2019"
 The debuggee side code contains the object source that gets visualized. The data object can override methods of <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>. A debuggee side DLL is necessary if you want to create a standalone visualizer.
-::: moniker-end
 
 In the debuggee-side code:
 

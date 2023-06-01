@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugObject::GetSize method
 ms.assetid: 89af423b-36eb-479d-b2de-2693455eca15
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject::GetSize
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the size of the object in bytes.
 
 ## Syntax
 
-```cpp
-HRESULT GetSize( 
-   UINT* pnSize
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSize(
    out uint pnSize
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSize( 
+   UINT* pnSize
+);
+```
+---
 
 ## Parameters
 `pnSize`\

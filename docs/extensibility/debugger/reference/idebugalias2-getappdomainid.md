@@ -7,8 +7,8 @@ helpviewer_keywords:
 - GetAppDomainId
 - IDebugAlias2::GetAppDomainId
 ms.assetid: 23581aaa-5a53-4859-b264-eca49fc44bcd
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugAlias2::GetAppDomainId
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the identifier for the application domain.
 
 ## Syntax
 
-```cpp
-HRESULT GetAppDomainId (
-   ULONG32* pappDomainId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAppDomainId (
    out uint pappDomainId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAppDomainId (
+   ULONG32* pappDomainId
+);
+```
+---
 
 ## Parameters
 `pappDomainId`\

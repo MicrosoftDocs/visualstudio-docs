@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugSymbolProvider::GetContextFromAddress method
 ms.assetid: 7a27d56f-20d4-4e5c-af7b-7307d3aff0a1
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProvider::GetContextFromAddress
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method maps a debug address into a document context.
 
 ## Syntax
 
-```cpp
-HRESULT GetContextFromAddress( 
-   IDebugAddress*           pAddress,
-   IDebugDocumentContext2** ppDocContext
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetContextFromAddress(
    IDebugAddress              pAddress,
    out IDebugDocumentContext2 ppDocContext
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetContextFromAddress( 
+   IDebugAddress*           pAddress,
+   IDebugDocumentContext2** ppDocContext
+);
+```
+---
 
 ## Parameters
 `pAddress`\

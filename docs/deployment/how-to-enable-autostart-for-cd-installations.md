@@ -1,7 +1,6 @@
 ---
 title: Enable AutoStart for CD Installations | Microsoft Docs
 description: Learn how to enable AutoStart when deploying a ClickOnce application by means of removable media such as CD-ROM or DVD-ROM.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -21,6 +20,8 @@ ms.workload:
   - multiple
 ---
 # How to: Enable AutoStart for CD installations
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When deploying a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by means of removable media such as CD-ROM or DVD-ROM, you can enable `AutoStart` so that the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is automatically launched when the media is inserted.
 
  `AutoStart` can be enabled on the **Publish** page of the **Project Designer**.
@@ -30,6 +31,8 @@ When deploying a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md
 1. With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.
 
 2. Click the **Publish** tab.
+
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 3. Click the **Options** button.
 

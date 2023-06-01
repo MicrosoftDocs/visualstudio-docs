@@ -1,7 +1,6 @@
 ---
 title: Writing a Common Language Runtime Expression Evaluator | Microsoft Docs
 description: Learn about writing an expression evaluator for the common language runtime, which evaluates expressions in the code language being debugged.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,14 +8,16 @@ helpviewer_keywords:
 - expression evaluation, samples
 - debugging [Debugging SDK], expression evaluators tutorial
 ms.assetid: bd79d57f-8e0a-4e14-a417-0b1de28fa1b2
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # Writing a common language runtime expression evaluator
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 > [!IMPORTANT]
 > In Visual Studio 2015, this way of implementing expression evaluators is deprecated. For information about implementing CLR expression evaluators, see [CLR expression evaluators](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/CLR-Expression-Evaluators) and [Managed expression evaluator sample](https://github.com/Microsoft/ConcordExtensibilitySamples/wiki/Managed-Expression-Evaluator-Sample).
 

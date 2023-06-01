@@ -1,7 +1,6 @@
 ---
 title: "&lt;trustInfo&gt; element (ClickOnce application) | Microsoft Docs"
 description: The trustInfo element describes the minimum security permissions required for the application to run on the client computer. The trustInfo element is required.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -27,6 +26,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;trustInfo&gt; element (ClickOnce application)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the minimum security permissions required for the application to run on the client computer.
 
 ## Syntax

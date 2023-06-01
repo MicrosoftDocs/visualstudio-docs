@@ -1,7 +1,6 @@
 ---
 title: IDE Constants | Microsoft Docs
 description: The VSConstants class provides constants specific to the IDE and that were previously defined only in header files.
-ms.custom: SEO-VS-2020
 ms.date: 03/22/2018
 ms.topic: reference
 helpviewer_keywords:
@@ -13,14 +12,16 @@ helpviewer_keywords:
 - IDE, constants
 - physical views
 ms.assetid: 5030e70a-241d-474a-ba8c-e3b1cf947ff0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # IDE constants
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The <xref:Microsoft.VisualStudio.VSConstants> class provides constants that are specific to the integrated development environment (IDE) and that were previously defined only in header files.
 

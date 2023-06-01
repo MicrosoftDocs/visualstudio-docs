@@ -1,13 +1,15 @@
 ---
 title: Get started with Docker
 description: Learn how to add Docker to your projects in Visual Studio for Mac
-author: heiligerdankgesang
+author: heiligerdankgesang 
 ms.author: dominicn
+manager: dominicn
 ms.date: 11/09/2020
 ms.topic: how-to
 ---
-
 # Get started with Docker in Visual Studio for Mac
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 With Visual Studio for Mac, you can easily build, debug, and run containerized ASP.NET Core apps and publish them to Azure.
 

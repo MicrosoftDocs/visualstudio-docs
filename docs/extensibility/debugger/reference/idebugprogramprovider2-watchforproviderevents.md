@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramProvider2::WatchForProviderEvents
 ms.assetid: 2eb93653-b5fb-45b6-b136-56008c5d25ef
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramProvider2::WatchForProviderEvents
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Allows the process to be notified of port events.
 
 ## Syntax
 
-```cpp
-HRESULT WatchForProviderEvents(
-   PROVIDER_FLAGS       Flags,
-   IDebugDefaultPort2*  pPort,
-   AD_PROCESS_ID        processId,
-   CONST_GUID_ARRAY     EngineFilter,
-   REFGUID              guidLaunchingEngine,
-   IDebugPortNotify2*   pEventCallback
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int WatchForProviderEvents(
    enum_PROVIDER_FLAGS   Flags,
@@ -44,6 +36,18 @@ int WatchForProviderEvents(
    IDebugPortNotify2     pEventCallback
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT WatchForProviderEvents(
+   PROVIDER_FLAGS       Flags,
+   IDebugDefaultPort2*  pPort,
+   AD_PROCESS_ID        processId,
+   CONST_GUID_ARRAY     EngineFilter,
+   REFGUID              guidLaunchingEngine,
+   IDebugPortNotify2*   pEventCallback
+);
+```
+---
 
 ## Parameters
 `Flags`\

@@ -1,7 +1,6 @@
 ---
 title: Visualize a collection association
 description: Learn how to visualize a collection association in Class Designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -20,6 +19,8 @@ ms.workload:
 - multiple
 ---
 # How to: Visualize a collection association in Class Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Properties and fields that are collections of other types can be displayed on the class diagram as a collection association. Unlike a regular association, which displays a field or property as a line linking the owning class to the field's type, a collection association is displayed as a line linking the owning class to the collected type.
 

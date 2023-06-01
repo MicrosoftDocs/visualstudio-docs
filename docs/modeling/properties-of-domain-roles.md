@@ -1,7 +1,6 @@
 ---
 title: Properties of Domain Roles
 description: Learn about the properties that are associated with a domain role, like Collection Type, Custome Attributes, and Is Property Browsable.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 author: mgoertz-msft
@@ -12,6 +11,8 @@ ms.workload:
   - "multiple"
 ---
 # Properties of Domain Roles
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The properties in the following table are associated with a domain role. For information about domain roles, see [Understanding Models, Classes and Relationships](../modeling/understanding-models-classes-and-relationships.md). For more information about how to use these properties, see [Customizing and Extending a Domain-Specific Language](../modeling/customizing-and-extending-a-domain-specific-language.md).
 
 |Property|Description|Default|

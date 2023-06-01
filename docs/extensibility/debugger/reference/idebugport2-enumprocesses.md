@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPort2::EnumProcesses
 ms.assetid: aafb32c5-5790-4807-a448-878a80256438
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPort2::EnumProcesses
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a list of all the processes running on a port.
 
 ## Syntax
 
-```cpp
-HRESULT EnumProcesses( 
-   IEnumDebugProcesses2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumProcesses( 
    out IEnumDebugProcesses2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumProcesses( 
+   IEnumDebugProcesses2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

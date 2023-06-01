@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocumentTextEvents2::onReplaceText
 ms.assetid: cb39f025-66d8-4dc0-bef6-1bdc8e07db92
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentTextEvents2::onReplaceText
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Notifies the debug package that text has been replaced in the document.
 
 ## Syntax
 
-```cpp
-HRESULT onReplaceText( 
-   TEXT_POSITION pos,
-   DWORD         dwNumToReplace
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int onReplaceText( 
    enum_TEXT_POSITION pos,
    uint               dwNumToReplace
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT onReplaceText( 
+   TEXT_POSITION pos,
+   DWORD         dwNumToReplace
+);
+```
+---
 
 ## Parameters
 `pos`\

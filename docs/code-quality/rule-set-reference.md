@@ -2,7 +2,6 @@
 title: Code analysis rule set reference
 ms.date: 04/04/2018
 description: Learn about built-in rule sets in Visual Studio legacy code analysis. See resources on the rule sets. Find out how to use these sets in customized rule sets.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 helpviewer_keywords:
 - code analysis, rule sets reference
@@ -14,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # Code analysis rule set reference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you configure legacy analysis for managed code projects in Visual Studio, you can choose from a list of built-in *rule sets*. Some rules are included in more than one of the built-in rule sets, for example, the Basic Correctness Rules rule set includes rules that are in the Managed Recommended Rules rule set.
 

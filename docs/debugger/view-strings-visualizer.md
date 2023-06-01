@@ -1,7 +1,6 @@
 ---
 title: "View strings in a string visualizer | Microsoft Docs"
 description: Use the string visualizer in Visual Studio debugger to view text strings, XML, HTML, and JSON. You can view other object types, including DataSet and DataTable.
-ms.custom: SEO-VS-2020
 ms.date: "04/08/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -22,26 +21,39 @@ ms.workload:
 ---
 # View strings in a string visualizer in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 While you are debugging in Visual Studio, you can view strings with the built-in string visualizer. The string visualizer shows strings that are too long for a data tip or debugger window. It can also help you identify malformed strings.
 
-The built-in string visualizer includes plain text, XML, HTML, and JSON options. You can also open built-in visualizers for a few other types, such as [DataSet, DataTable, and DataView](../debugger/dataset-visualizer-dialog-box.md) objects, from the **Autos** or other debugger windows.
+The built-in string visualizers include plain text, XML, HTML, and JSON options. You can also open built-in visualizers for a few other types, such as [DataSet, DataTable, and DataView](../debugger/dataset-visualizer-dialog-box.md) objects, from the **Autos** or other debugger windows.
 
 > [!NOTE]
 > If you need to inspect XAML or WPF UI elements in a visualizer, see or [Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md) or [How to use the WPF tree visualizer](../debugger/how-to-use-the-wpf-tree-visualizer.md).
 
 ## Open a string visualizer
 
-To open the string visualizer, you must be paused during debugging. Hover over a variable that has a plain text, XML, HTML, or JSON string value, and select the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon").
+To open the string visualizer, you must be paused during debugging. Hover over a variable that has a Text, XML, HTML, or JSON string value, and select the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon").
 
 ![Open a string visualizer](../debugger/media/dbg-tips-string-visualizers.png "Open string visualizer")
-
-## View string visualizer data
 
 In the string visualizer window, the **Expression** field shows the variable or expression you're hovering over, and the **Value** field shows the string value.
 
 A blank **Value** means that the chosen visualizer can't recognize the string. For example, the **XML Visualizer** shows a blank **Value** for a text string with no XML tags, or a JSON string.
 
-To view strings that the chosen visualizer can't recognize, choose the **Text Visualizer**. The **Text Visualizer** shows plain text.
+## View Text  visualizer 
+
+The text visualizer shows textual data more conveniently. You can also use **Text Visualizer** to view strings that the chosen visualizer can't recognize.
+In addition, **Text Visualizer** provides tooling and string manipulation options and allows you to decode the following text with ease.
+
+- Base64 Encode
+- Base64 Decode
+- URL Encode
+- URL Decode
+- JWT Decode
+
+Select the **String manipulation** dropdown list and choose the desired option to decode your data.
+
+![Text string visualizer](../debugger/media/dbg-string-visualizer-text.png "Text string visualizer")
 
 ### View JSON string data
 

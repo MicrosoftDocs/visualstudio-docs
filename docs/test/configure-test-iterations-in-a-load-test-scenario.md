@@ -1,7 +1,6 @@
 ---
 title: Configuring Test Iterations for load testing
 description: Learn how to configure test iteration settings, to configure the maximum number of iterations in the scenario, and how long to pause between them.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -15,6 +14,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # Configure test iterations in a load test scenario
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To configure test iteration settings, edit a load test scenario using the Load Test Editor and the **Properties** window. By default, a load test scenario is set up without specifying maximum test iterations. You have the option to configure the maximum number of iterations in the scenario and how long to pause between them.
 

@@ -1,7 +1,6 @@
 ---
 title: T4 Assembly Directive
 description: Learn that in a Visual Studio design-time text template, the assembly directive loads an assembly so that your template code can use its types.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 author: mgoertz-msft
@@ -12,6 +11,8 @@ ms.workload:
 - multiple
 ---
 # T4 Assembly Directive
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In a Visual Studio design-time text template, the `assembly` directive loads an assembly so that your template code can use its types. The effect is similar to adding an assembly reference in a Visual Studio project.
 

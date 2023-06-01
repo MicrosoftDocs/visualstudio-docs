@@ -1,9 +1,8 @@
 ---
 title: "&lt;InstallChecks&gt; Element (Bootstrapper) | Microsoft Docs"
 description: The InstallChecks element supports starting a variety of tests on the local computer to make sure that all prerequisites for an application have been installed.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "FSharp"
   - "VB"
@@ -20,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;InstallChecks&gt; element (bootstrapper)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `InstallChecks` element supports starting a variety of tests against the local computer to make sure that all of the appropriate prerequisites for an application have been installed.
 
 ## Syntax

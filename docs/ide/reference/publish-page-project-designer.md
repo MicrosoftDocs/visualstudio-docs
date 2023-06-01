@@ -1,7 +1,6 @@
 ---
 title: Publish Page, Project Designer
 description: The Publish page of the Project Designer is used to configure properties for your ClickOnce deployment.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-deployment
 ms.topic: reference
@@ -18,9 +17,13 @@ ms.workload:
 ---
 # Publish Page, Project Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The **Publish** page of the **Project Designer** is used to configure properties for ClickOnce deployment.
 
 To access the **Publish** page, select a project node in **Solution Explorer**, and then, on the **Project** menu, click **Properties**. When the **Project Designer** appears, click the **Publish** tab.
+
+[!INCLUDE[ndptecclick](../../deployment/includes/dotnet-publish-tool.md)]
 
 > [!NOTE]
 > Some of the ClickOnce properties described here can also be set in the **PublishWizard**, available from the **Build** menu or by clicking the **PublishWizard** button on this page.

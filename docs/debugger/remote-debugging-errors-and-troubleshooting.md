@@ -1,7 +1,6 @@
 ---
 title: "Remote Debugging Errors and Troubleshooting | Microsoft Docs"
 description: View links to common remote debugging errors in Visual Studio. Learn how to run the remote debugger as an administrator.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -26,6 +25,8 @@ ms.workload:
 ---
 # Remote Debugging Errors and Troubleshooting
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 You may come across the following errors when attempting to debug remotely.
 
 - [Error: Unable to Automatically Step Into the Server](../debugger/error-unable-to-automatically-step-into-the-server.md)
@@ -42,7 +43,7 @@ You may come across issues if you don't run the remote debugger as an administra
 
 ### When running the remote debugger as a service
 
-When running the remote debugger as s service, we recommend running it as an administrator for several reasons:
+When running the remote debugger as a service, we recommend running it as an administrator for several reasons:
 
 - The remote debugger service only allows connections from administrators, so there are **no** new security risks introduced by running it as an administrator.
 

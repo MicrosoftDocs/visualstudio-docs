@@ -1,7 +1,6 @@
 ---
 title: Add tracking property to DSL definition
 description: Learn about the tracking domain property and how you can to add a tracking property to a domain model.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -16,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Add a Tracking Property to a Domain-Specific Language Definition
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough shows how to add a tracking property to a domain model.
 

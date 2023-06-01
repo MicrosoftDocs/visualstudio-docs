@@ -1,7 +1,6 @@
 ---
 title: "Packaging and Deploying SharePoint Solutions | Microsoft Docs"
 description: Package and deploy SharePoint solutions, which are deployed to a SharePoint server by using a solution package (.wsp) file.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 dev_langs:
@@ -19,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Package and deploy SharePoint solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Typically, a SharePoint solution is deployed to a SharePoint server by using a solution package (.wsp) file. You can use Visual Studio to organize your SharePoint Project Items into Features and to create a package to deploy your SharePoint Features.
 
  This topic provides the following information:

@@ -1,7 +1,6 @@
 ---
 title: List Call Stack Command
 description: Learn about the List Call Stack command and how it displays the current call stack.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -18,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # List Call Stack Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Displays the current call stack.
 
 ## Syntax

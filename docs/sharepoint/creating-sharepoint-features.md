@@ -1,7 +1,6 @@
 ---
 title: "Creating SharePoint Features | Microsoft Docs"
 description: Create a SharePoint feature to group related SharePoint project items for easier deployment. Add features to the SharePoint solution. Use the feature designer.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # Create SharePoint features
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use a SharePoint Feature to group related SharePoint project items for easier deployment. You can create Features, set scopes, and mark other Features as dependencies by using the SharePoint Feature Designer. The designer also generates a manifest, which is an XML file that describes each Feature.
 
 ## Add features to the SharePoint solution

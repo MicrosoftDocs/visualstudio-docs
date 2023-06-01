@@ -1,7 +1,6 @@
 ---
 title: New File Command
 description: Learn about the New File command and how it creates a new file and opens it.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # New File Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a new file and opens it. The file appears under the Miscellaneous Files folder.
 
 ## Syntax

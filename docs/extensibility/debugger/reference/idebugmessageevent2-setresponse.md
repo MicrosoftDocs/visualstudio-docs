@@ -9,8 +9,8 @@ helpviewer_keywords:
 - IDebugMessageEvent2::SetResponse method
 - SetResponse method
 ms.assetid: 2a5e318d-3225-4abd-83f1-28323baff6c0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugMessageEvent2::SetResponse
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the response, if any, from the message box.
 
 ## Syntax
 
-```cpp
-HRESULT SetResponse( 
-   DWORD dwResponse
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetResponse( 
    uint dwResponse
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetResponse( 
+   DWORD dwResponse
+);
+```
+---
 
 ## Parameters
 `dwResponse`\

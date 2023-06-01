@@ -1,8 +1,7 @@
 ---
 title: "General, Debugging, Options Dialog Box | Microsoft Docs"
 description: Set Visual Studio debugger options to meet your debugging needs. You can configure break behavior, debugging levels, display behavior, and much else.
-ms.custom: SEO-VS-2020
-ms.date: "06/04/2020"
+ms.date: "12/09/2022"
 ms.topic: "reference"
 f1_keywords:
   - "vs.debug.options.General"
@@ -26,6 +25,8 @@ ms.workload:
   - "multiple"
 ---
 # General debugging options
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To set Visual Studio debugger options, select **Tools** > **Options**, and under **Debugging** select or deselect the boxes next to the **General** options. You can restore all default settings with **Tools** > **Import and Export Settings** > **Reset all settings**. To reset a subset of settings, save your settings with the **Import and Export Settings Wizard** before making the changes that you want to test, then import your saved settings afterward.
 
@@ -139,6 +140,7 @@ Controls the direction in which stacks are displayed in the **Parallel Stacks** 
 **Ignore GPU memory access exceptions if the data written didn't change the value**:
 Ignores race conditions that were detected during debugging if the data didn't change. For more information, see [Debugging GPU Code](../debugger/debugging-gpu-code.md).
 
+::: moniker range="<= vs-2019"
 **Use Managed Compatibility Mode**:
 Replaces the default debugging engine with a legacy version to enable these scenarios:
 
@@ -148,10 +150,6 @@ Replaces the default debugging engine with a legacy version to enable these scen
 
 > [!NOTE]
 > Choosing Managed Compatibility mode disables some features that are implemented only in the default debugging engine. The legacy debugging engine was replaced in Visual Studio 2012.
-
-::: moniker range="vs-2017"
-**Use the legacy C# and VB expression evaluators**:
-The debugger will use the Visual Studio 2013 C# or Visual Basic expression evaluators rather than the Visual Studio 2015 Roslyn-based expression evaluators.
 ::: moniker-end
 
 **Warn when using custom debugger visualizers against potentially unsafe processes (Managed only)**:
@@ -219,6 +217,11 @@ Enables this [memory optimization](https://devblogs.microsoft.com/cppblog/out-of
 Switches Visual Studio to the foreground when you pause in the debugger.
 ::: moniker-end
 
+::: moniker range=">= vs-2022"
+**Keep expanded data tips open until clicked away**
+When this option is selected, an expanded data tip stays expanded until you click away from it.
+::: moniker-end
+
 ## Options available in older versions of Visual Studio
 
 If you're using an older version of Visual Studio, some additional options might be present.
@@ -243,6 +246,9 @@ Displays a warning dialog box when you debug a program for which the debugger ha
 
 **Warn if script debugging is disabled on launch**:
 Displays a warning dialog box when the debugger is launched with script debugging disabled.
+
+**Use Managed Compatibility Mode**:
+When this option is selected, the debugger uses the Visual Studio 2010 managed debugger, which was required when you debug C++/CLI code.
 
 **Use Native Compatibility Mode**:
 When this option is selected, the debugger uses the Visual Studio 2010 native debugger instead of the new native debugger.

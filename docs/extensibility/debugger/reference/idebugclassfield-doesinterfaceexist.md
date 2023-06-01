@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugClassField::DoesInterfaceExist method
 ms.assetid: cc0c8642-1a76-4fda-a309-7018a34883c9
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugClassField::DoesInterfaceExist
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if a specific interface is defined in the class.
 
 ## Syntax
 
-```cpp
-HRESULT DoesInterfaceExist( 
-   LPCOLESTR pszInterfaceName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int DoesInterfaceExist(
    [In] string pszInterfaceName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT DoesInterfaceExist( 
+   LPCOLESTR pszInterfaceName
+);
+```
+---
 
 ## Parameters
 `pszInterfaceName`\

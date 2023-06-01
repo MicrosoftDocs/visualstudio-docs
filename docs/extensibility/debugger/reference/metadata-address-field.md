@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - METADATA_ADDRESS_FIELD structure
 ms.assetid: 15ab45fe-6b3b-4e09-880b-31b34f523607
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,21 +20,25 @@ dev_langs:
 ---
 # METADATA_ADDRESS_FIELD
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This structure represents the address of a field of a class or structure.
 
 ## Syntax
 
-```cpp
-typedef struct _tagMETADATA_ADDRESS_FIELD {
-    _mdToken tokField;
-} METADATA_ADDRESS_FIELD
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct METADATA_ADDRESS_FIELD {
     public int tokField;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagMETADATA_ADDRESS_FIELD {
+    _mdToken tokField;
+} METADATA_ADDRESS_FIELD
+```
+---
 
 ## Members
 

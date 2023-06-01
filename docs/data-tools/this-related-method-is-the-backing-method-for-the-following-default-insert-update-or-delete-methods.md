@@ -1,7 +1,6 @@
 ---
 title: Can't delete backing method
 description: This related method is the backing method for the following default insert, update, or delete methods
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: error-reference
 ms.assetid: 62afa6da-97cf-48b9-8de3-33e4d72a0377
@@ -13,6 +12,8 @@ ms.workload:
   - "data-storage"
 ---
 # This related method is the backing method for the following default insert, update, or delete methods
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This related method is the backing method for the following default `Insert`, `Update`, or `Delete` methods. If it is deleted, these methods will be deleted as well. Do you wish to continue?
 

@@ -1,7 +1,6 @@
 ---
 title: Visualize code
 description: Learn how you can use the visualization and modeling tools in Visual Studio to understand existing code and describe your application.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -16,6 +15,8 @@ ms.workload:
 - multiple
 ---
 # Visualize code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the visualization and modeling tools in Visual Studio to help you understand existing code and describe your application. This lets you visually learn how your changes might affect the code and help you assess the work and risks that result from those changes. For example:
 

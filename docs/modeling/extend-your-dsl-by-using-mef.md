@@ -1,7 +1,6 @@
 ---
 title: Extend your DSL by using MEF
 description: Learn how you can extend your domain-specific language (DSL) by using the Managed Extensibility Framework (MEF).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 author: mgoertz-msft
@@ -12,6 +11,8 @@ ms.workload:
 - multiple
 ---
 # Extend your DSL by using MEF
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can extend your domain-specific language (DSL) by using Managed Extensibility Framework (MEF). You or other developers will be able to write extensions for the DSL without changing the DSL definition and program code. Such extensions include menu commands, drag-and-drop handlers, and validation. Users will be able to install your DSL, and then optionally install extensions for it.
 

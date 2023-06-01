@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - CONST_GUID_ARRAY structure
 ms.assetid: bd55e7d8-372c-4c3e-9eed-28f6b415a5db
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # CONST_GUID_ARRAY
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A structure that holds a list of `GUID`s.
 
 ## Syntax
 
-```cpp
-typedef struct tagCONST_GUID_ARRAY {
-    DWORD       dwCount;
-    CONST GUID* Members;
-} CONST_GUID_ARRAY;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct CONST_GUID_ARRAY {
     public uint   dwCount;
     public Guid[] Members;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagCONST_GUID_ARRAY {
+    DWORD       dwCount;
+    CONST GUID* Members;
+} CONST_GUID_ARRAY;
+```
+---
 
 ## Members
 `dwCount`\

@@ -1,7 +1,6 @@
 ---
 title: "How to: Configure a computer to develop Office solutions"
 description: Learn how to configure a development computer so that you can use the Microsoft Office developer tools in Visual Studio.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -19,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Configure a computer to develop Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   To configure a development computer so that you can use the Microsoft Office developer tools in Visual Studio, follow the instructions in this topic. You must have administrative privileges on the development computer to perform these steps.
 
 ### To configure the development computer

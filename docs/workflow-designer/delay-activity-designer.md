@@ -1,20 +1,21 @@
 ---
 title: "Workflow Designer - Delay Activity Designer"
 description: Learn about Delay activities and how you can use the Delay activity designer to create and configure a Delay activity.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.Delay.UI"
 ms.assetid: f51742a8-2c9a-47d1-8a23-18459d03ae19
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
   - "multiple"
 ---
 # Delay Activity Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Delay** activity designer is used to create and configure a <xref:System.Activities.Statements.Delay> activity.
 

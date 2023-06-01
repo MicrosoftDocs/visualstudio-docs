@@ -1,21 +1,22 @@
 ---
 title: Browse and Select a .NET Type dialog box
 description: Learn how you can use the Browse and Select a .NET Type dialog box to choose a type from a tree view of assemblies and projects in Workflow Designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
 - TypeBrowser.UI
 - ActivityTypeResolver.UI
 ms.assetid: 864b60b6-a070-4e5c-aa5b-a25341b57ea6
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
 - dotnet
 ---
 # Browse and Select a .NET Type Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In the **Properties** window, dialog boxes, or designers such as the variable designer, when you select **Browse for Types** from a list of data types, is the **Browse and Select a .NET Type** dialog box (referred to in an abbreviated form as the "type browser"). In this dialog box, you can choose a type from a tree view of assemblies and projects.
 

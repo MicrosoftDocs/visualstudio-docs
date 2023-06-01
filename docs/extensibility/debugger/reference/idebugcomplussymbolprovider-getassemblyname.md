@@ -7,8 +7,8 @@ helpviewer_keywords:
 - IDebugComPlusSymbolProvider::GetAssemblyName
 - GetAssemblyName
 ms.assetid: a08cd609-b9b9-47bd-bf73-cbf851285907
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,18 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetAssemblyName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the name of the assembly given its module and application domain.
 
 ## Syntax
 
-```cpp
-HRESULT GetAssemblyName(
-    ULONG32 ulAppDomainID,
-    GUID    guidModule,
-    BSTR*   pbstrName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAssemblyName(
     uint   ulAppDomainID,
@@ -37,6 +32,15 @@ int GetAssemblyName(
     string pbstrName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAssemblyName(
+    ULONG32 ulAppDomainID,
+    GUID    guidModule,
+    BSTR*   pbstrName
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

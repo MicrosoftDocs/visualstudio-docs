@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCoreServer3::QueryIsLocal
 ms.assetid: cca030de-f853-4ed7-b2fb-395f08a6b884
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,23 @@ dev_langs:
 - CSharp
 ---
 # IDebugCoreServer3::QueryIsLocal
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the server is local to the caller.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int QueryIsLocal();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT QueryIsLocal(
    void
 );
 ```
-
-```csharp
-int QueryIsLocal();
-```
+---
 
 ## Return Value
  Returns `S_OK` to indicate the server is local. Returns `S_FALSE` if the server is running from an instance of msvsmon.exe, which is typically used for remote debugging.

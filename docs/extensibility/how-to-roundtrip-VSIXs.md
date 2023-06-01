@@ -1,7 +1,6 @@
 ---
 title: How to Roundtrip Extensions
 description: Learn how to make Visual Studio extensibility projects round-trip between Visual Studio 2015 and Visual Studio 2019 or Visual Studio 2017.
-ms.custom: SEO-VS-2020
 ms.date: "06/25/2017"
 ms.topic: how-to
 ms.assetid: 2d6cf53c-011e-4c9e-9935-417edca8c486
@@ -12,6 +11,8 @@ ms.workload:
   - "willbrown"
 ---
 # How to: Make extensions compatible with Visual Studio 2019/2017 and Visual Studio 2015
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This document explains how to make extensibility projects round-trip between Visual Studio 2015 and Visual Studio 2019 or Visual Studio 2017. After completing this upgrade, a project will be able to open, build, install, and run in both Visual Studio 2015 and Visual Studio 2019 or 2017. As a reference, some extensions that can round-trip between Visual Studio 2015 and Visual Studio 2019 or 2017 can be found in the [VS SDK extensibility samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples).
 

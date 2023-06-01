@@ -1,18 +1,19 @@
 ---
 title: "Debug XAML in Blend | Microsoft Docs"
 description: Learn how to use the tools in Blend for Visual Studio to detect, debug, and resolve XAML errors in your app.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: conceptual
 ms.assetid: 29a37182-2a2c-47e4-a4a9-2d5412738fed
-author: TerryGLee
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
 ms.workload:
   - "uwp"
 ---
 # Debug XAML in Blend
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the tools in Blend for Visual Studio to debug the XAML in your app. When you build a project, any errors are displayed in the **Results** panel. Double-click an error to locate the markup related to the error. If you need more room to work, you can hide the **Results** panel by pressing **F12**.
 

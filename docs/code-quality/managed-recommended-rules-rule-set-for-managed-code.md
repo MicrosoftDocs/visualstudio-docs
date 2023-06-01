@@ -2,7 +2,6 @@
 title: Managed Recommended Rules rule set for managed code
 ms.date: 11/04/2016
 description: Learn about the Managed Recommended Rules rule set in Visual Studio. See descriptions of rules that focus on security, robustness, and other critical issues.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 ms.assetid: 1d1160f8-4e51-4e70-99cd-82ad10ee7b32
 author: mikejo5000
@@ -13,6 +12,8 @@ ms.workload:
 - dotnet
 ---
 # Managed Recommended Rules rule set for managed code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the Microsoft Managed Recommended Rules rule set to focus on the most critical problems in your managed code, including potential security holes, application crashes, and other important logic and design errors. This rule set includes all the rules in the [Managed Minimum Rules](managed-minimum-rules-rule-set-for-managed-code.md) rule set.
 

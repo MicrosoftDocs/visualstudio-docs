@@ -1,7 +1,6 @@
 ---
 title: Debug 64-Bit Applications | Microsoft Docs
 description: Learn how to debug a 64-bit application with Visual Studio. There are tips for troubleshooting unexpected debugging delays. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -22,6 +21,8 @@ ms.workload:
 monikerRange: "<=vs-2019"
 ---
 # Debug 64-Bit Applications
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can debug a 64-bit application that is running on the local computer or on a remote computer.
 
  To debug a 64-bit application that is running on a remote computer, see [Remote Debugging](../debugger/remote-debugging.md).

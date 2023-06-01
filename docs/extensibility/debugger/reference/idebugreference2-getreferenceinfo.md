@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugReference2::GetReferenceInfo
 ms.assetid: ae611714-f114-4cf2-b5bb-37461e6ff289
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugReference2::GetReferenceInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the [DEBUG_REFERENCE_INFO](../../../extensibility/debugger/reference/debug-reference-info.md) structure that describes a reference. Reserved for future use.
 
 ## Syntax
 
-```cpp
-HRESULT GetReferenceInfo ( 
-   DEBUGREF_INFO_FLAGS   dwFields,
-   DWORD                 nRadix,
-   DWORD                 dwTimeout,
-   IDebugReference2**    rgpArgs,
-   DWORD                 dwArgCount,
-   DEBUG_REFERENCE_INFO* pReferenceInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetReferenceInfo ( 
    enum_DEBUGREF_INFO_FLAGS  dwFields,
@@ -44,6 +36,18 @@ int GetReferenceInfo ( 
    DEBUG_REFERENCE_INFO[]    pReferenceInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetReferenceInfo ( 
+   DEBUGREF_INFO_FLAGS   dwFields,
+   DWORD                 nRadix,
+   DWORD                 dwTimeout,
+   IDebugReference2**    rgpArgs,
+   DWORD                 dwArgCount,
+   DEBUG_REFERENCE_INFO* pReferenceInfo
+);
+```
+---
 
 ## Parameters
 `dwFields`\

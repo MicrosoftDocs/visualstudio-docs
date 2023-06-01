@@ -1,7 +1,6 @@
 ---
 title: "&lt;Signature&gt; Element (ClickOnce Deployment) | Microsoft Docs"
 description: The Signature element contains the necessary information to digitally sign this deployment manifest. Signing a deployment manifest is optional but recommended.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -19,6 +18,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;Signature&gt; element (ClickOnce deployment)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains the necessary information to digitally sign this deployment manifest.
 
 ## Syntax

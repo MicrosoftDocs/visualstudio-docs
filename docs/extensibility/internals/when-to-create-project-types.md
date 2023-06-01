@@ -1,20 +1,21 @@
 ---
 title: When to Create Project Types | Microsoft Docs
 description: Learn how to determine whether a new project type is required for customizing Visual Studio for your users.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - project types, conditions for creating
 ms.assetid: 26adc860-ee4a-4f5c-95e1-e41b207dd7e6
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # When to Create Project Types
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creating a new project type provides a basis for customizing [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] for your users. However, creating a new project type is not required for all [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] customizations. The following guidelines should help you determine whether a new project type is required for your scenario.
 
 ## Create a New Project Type

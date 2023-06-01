@@ -1,7 +1,6 @@
 ---
 title: "Constants (Debug Interface Access SDK) | Microsoft Docs"
 description: See a list of string constants that can be used to identify various sections of a program debug database (PDB) file through the debug interface access (DIA) SDK.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -18,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Constants (Debug Interface Access SDK)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 These string constants can be used to identify various sections of a program debug database (PDB) file through the DIA SDK.
 
 ## Constants

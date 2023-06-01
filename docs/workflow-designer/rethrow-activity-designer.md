@@ -1,20 +1,21 @@
 ---
 title: Workflow Designer - Rethrow Activity Designer
-description: Learn about the Rethrow activity and how to use the Rethrow activity designer to create and configure a Rethrow activity. 
-ms.custom: SEO-VS-2020
+description: Learn about the Rethrow activity and how to use the Rethrow activity designer to create and configure a Rethrow activity.
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - System.Activities.Statements.Rethrow.UI
 ms.assetid: 9cfa2eda-395f-4cf3-9154-83fadd4f7452
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
 - multiple
 ---
 # Rethrow Activity Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Rethrow** activity designer is used to create and configure a <xref:System.Activities.Statements.Rethrow> activity.
 

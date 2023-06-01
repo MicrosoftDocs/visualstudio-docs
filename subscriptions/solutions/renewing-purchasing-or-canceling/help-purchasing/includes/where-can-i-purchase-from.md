@@ -3,9 +3,9 @@ title: Where can I purchase Visual Studio subscriptions from?
 description: Where can I purchase Visual Studio subscriptions from?
 ms.topic: include
 ms.assetid: 2f23c628-1937-4ecd-a36e-cfe579265279
-author: caitybuschlen
-ms.author: cabuschl
-ms.date: 08/14/2020
+author: evanwindom
+ms.author: amast
+ms.date: 05/03/2023
 user.type: subscriber
 tags: purchasing
 subscription.type: vl, cloud, retail, partner
@@ -14,7 +14,7 @@ sap.id: c374762c-640b-8b2c-d049-bda9545e903c
 
 ## Where to purchase subscriptions 
 
-Visual Studio subscriptions are available for purchase through a variety of channels, including [Volume Licensing](https://www.microsoft.com/licensing/default), the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), and [Microsoft Store](https://www.microsoft.com/store/collections/visualstudio).  
+Visual Studio subscriptions are available for purchase through various channels, including [Volume Licensing](https://www.microsoft.com/licensing/default), the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions), and [Microsoft Store](https://www.microsoft.com/store/collections/visualstudio).  
 
 [Compare subscription benefits and pricing](https://visualstudio.microsoft.com/vs/pricing/) to understand the benefits of each Visual Studio subscription. 
 
@@ -28,16 +28,16 @@ Retail Visual Studio subscriptions available through the Microsoft Store include
 * [Visual Studio Professional](https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab)
 * [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab) 
 
-Each of these subscription offers the option to make an initial purchase or to renew an existing subscription. Renewal pricing reflects a significant discount and is only available for existing subscriptions. To qualify to renew subscriptions at the discounted renewal price, subscriptions should be renewed before they expire. 
+Each subscription offers the option to make an initial purchase or to renew an existing subscription. Renewal pricing reflects a significant discount and is only available for existing subscriptions. To qualify to renew subscriptions at the discounted renewal price, subscriptions should be renewed before they expire. 
 
 ## Visual Studio Marketplace 
 
-With monthly subscriptions, you can rent Visual Studio and Azure DevOps without a long-term contract. Billing is handled through your Microsoft Azure subscription. If you don’t have an Azure subscription yet—it’s free to set up and you can do this while you make your first purchase.  
+With monthly subscriptions, you can rent Visual Studio and Azure DevOps without a long-term contract. Billing is handled through your Microsoft Azure subscription. If you don’t have an Azure subscription yet—it’s free to set up and you can do it as part of your first purchase.  
 
 * [Visual Studio Professional - monthly subscription](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-monthly) 
 * [Visual Studio Enterprise - monthly subscription](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-monthly) 
 
-Read more about [monthly Visual Studio Subscriptions billing](https://docs.microsoft.com/visualstudio/subscriptions/vscloud-billing-faq). 
+Read more about [monthly Visual Studio Subscriptions billing](https://learn.microsoft.com/visualstudio/subscriptions/vscloud-billing-faq). 
 
 ## Volume Licensing 
 

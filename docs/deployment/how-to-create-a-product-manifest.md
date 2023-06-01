@@ -1,7 +1,6 @@
 ---
 title: Create a Product Manifest | Microsoft Docs
 description: Learn how to deploy prerequisites for your ClickOnce application with a package that contains a single product manifest and a package manifest for each locale.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -23,6 +22,8 @@ ms.workload:
   - multiple
 ---
 # How to: Create a product manifest
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To deploy prerequisites for your application, you can create a bootstrapper package. A bootstrapper package contains a single product manifest file but a package manifest for each locale. The package manifest contains localization-specific aspects of your package. This includes strings, end-user license agreements, and the language packs.
 
  For more information about package manifests, see [How to: Create a package manifest](../deployment/how-to-create-a-package-manifest.md).
@@ -129,8 +130,8 @@ To deploy prerequisites for your application, you can create a bootstrapper pack
   </PackageFiles>
 
   <InstallChecks>
-    <MsiProductCheck Product="IsMsiInstalled"
-      Property="{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}"/>
+    <MsiProductCheck Property="IsMsiInstalled"
+      Product="{XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}"/>
   </InstallChecks>
 
   <Commands>

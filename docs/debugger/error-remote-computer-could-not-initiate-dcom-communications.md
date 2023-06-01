@@ -18,6 +18,8 @@ ms.workload:
   - "multiple"
 ---
 # Error: Remote computer could not initiate DCOM communications
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A DCOM error occurred when the remote machine tried to communicate with the local machine. The local machine is the machine that is
 
  running Visual Studio. This error can occur for several reasons:

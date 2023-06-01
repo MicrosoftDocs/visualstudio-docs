@@ -1,7 +1,6 @@
 ---
 title: Extract an interface refactoring
 description: Learn how to use the Quick Actions and Refactorings menu to create an interface by using existing members from a class, struct, or interface.
-ms.custom: SEO-VS-2020
 ms.date: 01/26/2018
 ms.topic: reference
 author: TerryGLee
@@ -17,6 +16,8 @@ ms.workload:
 - dotnet
 ---
 # Extract an interface refactoring
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 

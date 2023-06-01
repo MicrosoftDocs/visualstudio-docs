@@ -3,9 +3,9 @@ title: Azure DevOps technical support
 description: Get technical support for Azure DevOps
 ms.topic: include
 ms.assetid: 8ee4f3fb-6cb6-473f-b497-208f5c3eaf01
-author: caitybuschlen
-ms.author: cabuschl
-ms.date: 02/12/2021
+author: evanwindom
+ms.author: amast
+ms.date: 05/01/2023
 user.type: subscriber
 tags: redirect
 subscription.type: vl, cloud, retail, partner
@@ -18,7 +18,7 @@ Visual Studio subscriptions support provides assistance with sales, subscription
 
 ## Documentation | Azure DevOps 
 
-Review tutorials, troubleshooting guides, helpful resources, and a range of other topics within [Azure DevOps documentation](https://docs.microsoft.com/azure/devops/?view=azure-devops&preserve-view=true).
+Review tutorials, troubleshooting guides, helpful resources, and a range of other articles within [Azure DevOps documentation](https://learn.microsoft.com/azure/devops/?view=azure-devops&preserve-view=true).
 
 ## Developer community | Azure DevOps
 

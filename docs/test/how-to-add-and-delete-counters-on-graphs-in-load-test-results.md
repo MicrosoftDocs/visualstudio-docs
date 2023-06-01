@@ -1,7 +1,6 @@
 ---
 title: Add and Delete Counters on Graphs in Load Test Results
 description: Learn to use the Counters panel to add performance counters to a graph and about the Sample Rate property.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -16,6 +15,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # How to: Add and Delete Counters on Graphs in Load Test Results
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the **Counters** panel to add performance counters to a graph.
 

@@ -1,20 +1,21 @@
 ---
 title: XML schemas
-description: Learn about the XML Schemas dialog box that is used to select which XML schema definition language (XSD) schema(s) to associate with an XML document. 
-ms.custom: SEO-VS-2020
+description: Learn about the XML Schemas dialog box that is used to select which XML schema definition language (XSD) schema(s) to associate with an XML document.
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - vs.xmleditor.schemasdialog
 ms.assetid: 0271fa26-2205-49bd-96e0-ae1441571808
-author: TerryGLee
-ms.author: tglee
+author: dzsquared
+ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
 ms.workload:
 - multiple
 ---
 # XML Schemas dialog box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **XML Schemas** dialog box is used to select which XML schema definition language (XSD) schema(s) to associate with an XML document. You can select a schema from the schema cache, or specify a schema that is not located in the cache. Selected schema(s) are considered part of a schema set. The schema set is used for IntelliSense and also XML document validation.
 

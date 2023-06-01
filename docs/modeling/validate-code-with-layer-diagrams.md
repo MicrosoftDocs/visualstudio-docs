@@ -1,7 +1,6 @@
 ---
 title: Validate code with dependency diagrams
 description: Learn that to make sure that code doesn't conflict with its design, you should validate your code with dependency diagrams in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 09/28/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -24,6 +23,8 @@ ms.workload:
 - multiple
 ---
 # Validate code with dependency diagrams
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 ## Why use dependency diagrams?
 
@@ -49,7 +50,7 @@ To make sure that code doesn't conflict with its design, validate your code with
 
 To see which editions of Visual Studio support this feature, see [Edition support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
-You can validate code manually from an open dependency diagram in Visual Studio or from a command prompt. You can also validate code automatically when running local builds or Azure Pipelines builds. See [Channel 9 Video: Design and validate your architecture using dependency diagrams](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Using-layer-diagrams-to-design-and-validate-your-architecture).
+You can validate code manually from an open dependency diagram in Visual Studio or from a command prompt. You can also validate code automatically when running local builds or Azure Pipelines builds.
 
 > [!IMPORTANT]
 > If you want to run layer validation using Team Foundation Server (TFS), you must also install the same version of Visual Studio on your build server.
@@ -235,4 +236,4 @@ The following section describes the syntax that is used in these errors, explain
 
 - [Live dependency validation in Visual Studio](https://devblogs.microsoft.com/devops/live-dependency-validation-in-visual-studio-2017/)
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)
-- [Video: Validate your architecture dependencies in real time](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4)
+- [Video: Validate your architecture dependencies in real time](/events/visual-studio-visual-studio-2017-launch/t123)

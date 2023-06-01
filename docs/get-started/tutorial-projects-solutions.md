@@ -1,19 +1,21 @@
 ---
 title: Introduction to projects and solutions
 description: Learn about the difference between projects and solutions and how to use them in Visual Studio.
-ms.date: 09/14/2021
+ms.date: 11/22/2022
 ms.technology: vs-ide-general
-ms.custom: [vs-acquisition,  get-started, SEO-VS-2020]
+ms.custom: vs-acquisition,  get-started
 ms.topic: tutorial
 f1_keywords:
 - project.addnewitem
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.workload:
 - multiple
 ---
 # Introduction to projects and solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This introductory article explores what it means to create a *solution* and a *project* in Visual Studio. A solution is a container to organize one or more related code projects, like a class library project and a corresponding test project.
 
@@ -21,11 +23,6 @@ As an educational exercise to understand the concept of a project, you'll constr
 
 > [!NOTE]
 > Developing apps in Visual Studio doesn't require solutions and projects. You can just open a folder that contains code and start coding, building, and debugging. For example, a cloned [GitHub](https://github.com/) repo might not contain Visual Studio projects and solutions. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
-::: moniker range="vs-2017"
-
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -45,23 +42,7 @@ In Visual Studio, a solution isn't an "answer". A solution is simply a container
 
 ### Create a solution
 
-Start your exploration by creating an empty solution. After you get to know Visual Studio, you probably won't create empty solutions very often. When you create a new project, Visual Studio automatically creates a solution for the project unless a solution is already open.
-
-::: moniker range="vs-2017"
-
-1. Open Visual Studio.
-
-1. On the top menu bar, select **File** > **New** > **Project**.
-
-   The **New Project** dialog box opens.
-
-1. In the left pane, expand **Other Project Types**, then select **Visual Studio Solutions**. In the center pane, select the **Blank Solution** template. Name your solution **QuickSolution**, then select the **OK** button.
-
-   ![Screenshot that shows a Blank Solution template selected in Visual Studio 2017.](media/tutorial-projects-new-solution.png "The Blank Solution template in Visual Studio 2017.")
-
-   The **Start Page** closes, and a solution appears in **Solution Explorer** on the right-hand side of the Visual Studio window. You'll probably use **Solution Explorer** often, to browse the contents of your projects.
-
-::: moniker-end
+Start your exploration by creating an empty solution. After you get to know Visual Studio, you probably won't create empty solutions often. When you create a new project, Visual Studio automatically creates a solution for the project unless a solution is already open.
 
 ::: moniker range="vs-2019"
 
@@ -103,23 +84,6 @@ Start your exploration by creating an empty solution. After you get to know Visu
 
 Now add your first project to the solution. Start with an empty project, and add the items you need.
 
-::: moniker range="vs-2017"
-
-1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, select **Add** > **New Project**.
-
-   The **Add New Project** dialog box opens.
-
-1. In the left pane, expand **Visual C#** and select **Windows Desktop**. Then, in the middle pane, select the **Empty Project (.NET Framework)** template. Name the project **QuickDate**, then select **OK**.
-
-   A project named QuickDate appears beneath the solution in **Solution Explorer**. Currently it contains a single file called *App.config*.
-
-   > [!NOTE]
-   > If you don't see **Visual C#** in the left pane of the dialog box, you must install the **.NET desktop development** Visual Studio workload. Visual Studio uses workload-based installation to install only the components you need for the type of development you do. An easy way to install a new workload is to select the **Open Visual Studio Installer** link in the bottom left corner of the **Add New Project** dialog box. After Visual Studio Installer launches, select the **.NET desktop development** workload and then the **Modify** button.
-   >
-   > ![Screenshot that shows the Open Visual Studio Installer link.](media/tutorial-projects-open-installer.png "The Open Visual Studio Installer link in the Add New Project dialog in Visual Studio 2017.")
-
-::: moniker-end
-
 ::: moniker range="vs-2019"
 
 1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, select **Add** > **New Project**.
@@ -160,7 +124,7 @@ Now add your first project to the solution. Start with an empty project, and add
 
 1. On the **Configure your new project** page, name the project **QuickDate**, and then select **Create**.
 
-   The **QuickDate** project appears under the solution in **Solution Explorer**. Currently the project contains a single file called **App.config**.
+   The **QuickDate** project appears under the solution in **Solution Explorer**. The project contains a References node and a single file named **App.config**.
 
 ::: moniker-end
 
@@ -200,25 +164,13 @@ Add a code file to your empty project.
    }
    ```
 
-   You don't need to understand everything the code is doing yet. Run the app by pressing **Ctrl**+**F5**, and see that the app prints today's date to the *console*, or standard output, window.
+   You don't need to understand everything the code is doing yet. Run the app by pressing **Ctrl**+**F5**, and see that the app prints today's date to the *console*, or standard output, window. Then, close the console window.
 
 ## Add a second project
 
 Solutions commonly contain more than one project, and these projects often reference each other. Some projects in a solution might be class libraries, some might be executable applications, and some might be unit test projects or websites.
 
 To add a unit test project to your solution, start from a project template so you don't have to add another code file to the project.
-
-::: moniker range="vs-2017"
-
-1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, select **Add** > **New Project**.
-
-2. In the left pane, expand **Visual C#** and select the **Test** category. In the middle pane, select the **MSTest Test Project (.NET Core)** project template. Name the project **QuickTest**, and then select **OK**.
-
-   A second project is added to **Solution Explorer**, and a file named *UnitTest1.cs* opens in the editor.
-
-   ![Screenshot that shows Solution Explorer with two projects.](media/tutorial-projects-solution-explorer.png "Solution Explorer with two projects in Visual Studio 2017.")
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -261,20 +213,6 @@ To add a unit test project to your solution, start from a project template so yo
 
 You'll use the new unit test project to test your method in the **QuickDate** project, so you need to add a reference to **QuickDate** to the **QuickTest** project. Adding the reference creates a *build dependency* between the two projects, meaning that when you build the solution, **QuickDate** builds before **QuickTest**.
 
-::: moniker range="vs-2017"
-
-1. Select the **Dependencies** node in the **QuickTest** project, and from the right-click or context menu, select **Add Reference**.
-
-   The **Reference Manager** dialog box opens.
-
-1. In the left pane, expand **Projects** and select **Solution**. In the middle pane, select the checkbox next to **QuickDate**, and then select **OK**.
-
-   A reference to the **QuickDate** project is added.
-
-   ![A screenshot of Solution Explorer showing project reference in Visual Studio.](media/vs-2019/tutorial-projects-solution-explorer-reference.png "A screenshot of Solution Explorer showing a project reference in Visual Studio.")
-
-::: moniker-end
-
 ::: moniker range="vs-2019"
 
 1. Select the **Dependencies** node in the **QuickTest** project, and from the right-click or context menu, select **Add Project Reference**.
@@ -293,7 +231,7 @@ You'll use the new unit test project to test your method in the **QuickDate** pr
 
 1. In **Solution Explorer**, right-click the **References** node of the **QuickTest** project, and select **Add Reference** from the context menu.
 
-1. In the **Reference Manager** dialog box, under **Projects**, select the checkbox next to **QuickDate**, and then select **OK**.
+1. In the **Reference Manager** dialog box, select **Projects**. In the middle pane, select the checkbox next to **QuickDate**, and then select **OK**.
 
    A reference to the **QuickDate** project appears under the **QuickTest** project in **Solution Explorer**.
 
@@ -325,7 +263,7 @@ You'll use the new unit test project to test your method in the **QuickDate** pr
 
    A red squiggle appears under some of the code. You can fix this error by making the test project a [friend assembly](/dotnet/standard/assembly/friend-assemblies) to the **QuickDate** project.
 
-1. In the *Calendar.cs* file, add the following [using statement](/dotnet/csharp/language-reference/keywords/using-statement) and <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute to the top of the file to resolve the error in the test project.
+1. In the ***Calendar.cs*** file, add the following [using statement](/dotnet/csharp/language-reference/keywords/using-statement) and <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute to the top of the file to resolve the error in the test project.
 
    ```csharp
    using System.Runtime.CompilerServices;
@@ -349,17 +287,7 @@ You'll use the new unit test project to test your method in the **QuickDate** pr
 
 ### Run the unit test
 
-::: moniker range="vs-2017"
-
-If you want to check that your unit test is working, choose **Test** > **Run** > **All Tests** from the menu bar. A window called **Test Explorer** opens, and you should see that the **TestGetCurrentDate** test passes.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 To check that your unit test is working, choose **Test** > **Run All Tests** from the menu bar. The **Test Explorer** window opens, and you should see that the **TestGetCurrentDate** test passes.
-
-::: moniker-end
 
 ::: moniker range="<=vs-2019"
 
@@ -373,19 +301,8 @@ To check that your unit test is working, choose **Test** > **Run All Tests** fro
 
 ::: moniker-end
 
-::: moniker range="vs-2017"
-
 > [!TIP]
-> If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Windows** > **Test Explorer** from the menu bar.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-> [!TIP]
-> If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Test Explorer** from the menu bar.
-
-::: moniker-end
+> You can also open **Test Explorer** by choosing **Test** > **Test Explorer** from the menu bar.
 
 ## Project properties
 
@@ -405,7 +322,7 @@ The line in the *Calendar.cs* file that contains the <xref:System.Runtime.Compil
 
     ::: moniker range=">=vs-2022"
 
-    :::image type="content" source="media/vs-2022/tutorial-project-properties.png" alt-text="Screenshot that shows project properties." border="false":::
+    :::image type="content" source="media/vs-2022/tutorial-project-properties.png" alt-text="Screenshot that shows project properties." lightbox="media/vs-2022/tutorial-project-properties.png":::
 
     ::: moniker-end
 
@@ -414,7 +331,6 @@ The line in the *Calendar.cs* file that contains the <xref:System.Runtime.Compil
 ## See also
 
 - [Work with projects and solutions](../ide/creating-solutions-and-projects.md)
+- [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
 - [Manage project and solution properties](../ide/managing-project-and-solution-properties.md)
 - [Manage references in a project](../ide/managing-references-in-a-project.md)
-- [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
-- [Visual Studio IDE overview](../get-started/visual-studio-ide.md)

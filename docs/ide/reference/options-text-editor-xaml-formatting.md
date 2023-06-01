@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, XAML, Formatting
 description: Learn how to use the Formatting options page and its subpages to set options for formatting code in the code editor when you are programming in XAML.
-ms.custom: SEO-VS-2020
 ms.date: 10/29/2018
 ms.topic: reference
 f1_keywords:
@@ -34,6 +33,8 @@ ms.workload:
 - uwp
 ---
 # Options, Text Editor, XAML, Formatting
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Formatting** property page to specify how elements and attributes are formatted in your XAML documents. To open the **Options** dialog box, click the **Tools** menu and then click **Options**. To access the **Formatting** property page, expand the **Text Editor** > **XAML** > **Formatting** node.
 

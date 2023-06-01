@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngineLaunch2::TerminateProcess
 ms.assetid: f7039e7f-5f57-4222-9ad2-11a66b2da6e0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngineLaunch2::TerminateProcess
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Terminates a process.
 
 ## Syntax
 
-```cpp
-HRESULT TerminateProcess ( 
-   IDebugProcess2* pProcess
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int TerminateProcess ( 
    IDebugProcess2 pProcess
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT TerminateProcess ( 
+   IDebugProcess2* pProcess
+);
+```
+---
 
 ## Parameters
 `pProcess`\

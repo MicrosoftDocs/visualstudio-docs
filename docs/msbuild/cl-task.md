@@ -1,7 +1,6 @@
 ---
 title: CL Task | Microsoft Docs
 description: Describes the purpose and parameters of the MSBuild CL task, which wraps the Microsoft C++ compiler tool, cl.exe.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -419,7 +418,7 @@ Wraps the Microsoft C++ compiler tool, *cl.exe*. The compiler produces executabl
 
 - **MinimalRebuild**
 
-   Optional `Boolean` parameter.
+   Optional `Boolean` parameter. This option is deprecated.
 
    If `true`, enables minimal rebuild, which determines whether C++ source files that include changed C++ class definitions (stored in header (.h) files) must be recompiled.
 

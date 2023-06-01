@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - FRAMEINFO structure
 ms.assetid: 95001b89-dddb-45bb-889d-8327994e38a5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,28 +19,13 @@ dev_langs:
 - CSharp
 ---
 # FRAMEINFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes a stack frame.
 
 ## Syntax
 
-```cpp
-typedef struct tagFRAMEINFO {
-    FRAMEINFO_FLAGS    m_dwValidFields;
-    BSTR               m_bstrFuncName;
-    BSTR               m_bstrReturnType;
-    BSTR               m_bstrArgs;
-    BSTR               m_bstrLanguage;
-    BSTR               m_bstrModule;
-    UINT64             m_addrMin;
-    UINT64             m_addrMax;
-    IDebugStackFrame2* m_pFrame;
-    IDebugModule2*     m_pModule;
-    BOOL               m_fHasDebugInfo;
-    BOOL               m_fStaleCode;
-    BOOL               m_fAnnotatedFrame;
-} FRAMEINFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct FRAMEINFO {
     public uint              m_dwValidFields;
@@ -58,6 +43,25 @@ public struct FRAMEINFO {
     public int               m_fAnnotatedFrame;
 } FRAMEINFO;
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagFRAMEINFO {
+    FRAMEINFO_FLAGS    m_dwValidFields;
+    BSTR               m_bstrFuncName;
+    BSTR               m_bstrReturnType;
+    BSTR               m_bstrArgs;
+    BSTR               m_bstrLanguage;
+    BSTR               m_bstrModule;
+    UINT64             m_addrMin;
+    UINT64             m_addrMax;
+    IDebugStackFrame2* m_pFrame;
+    IDebugModule2*     m_pModule;
+    BOOL               m_fHasDebugInfo;
+    BOOL               m_fStaleCode;
+    BOOL               m_fAnnotatedFrame;
+} FRAMEINFO;
+```
+---
 
 ## Members
 `m_dwValidFields`\

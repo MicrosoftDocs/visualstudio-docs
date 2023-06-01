@@ -7,8 +7,8 @@ helpviewer_keywords:
 - IDebugExpressionEvaluator2::SetCallback
 - SetCallback
 ms.assetid: 31e3a99e-e784-44a3-8b19-cc5ef31ed546
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpressionEvaluator2::SetCallback
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enables the expression evaluator (EE) to specify the callback interface that the debugger engine (DE) will use to read metric settings.
 
 ## Syntax
 
-```cpp
-HRESULT SetCallback (
-    IDebugSettingsCallback2* pCallback
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetCallback (
     IDebugSettingsCallback2 pCallback
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetCallback (
+    IDebugSettingsCallback2* pCallback
+);
+```
+---
 
 ## Parameters
 `pCallback`\

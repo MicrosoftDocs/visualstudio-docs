@@ -1,7 +1,6 @@
 ---
 title: "Debugger Project Settings | Microsoft Docs"
 description: There are various project settings that affect debugging. Follow the links in this article to learn how to use the Property Pages dialog box to change settings. 
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -21,6 +20,8 @@ ms.workload:
   - "multiple"
 ---
 # Debugger Project Settings
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Certain project settings also affect debugging. These settings determine such things as what directories the debugger looks at, the command and command arguments used to launch the program, and the type of debug information created for the program. You can change these settings in the **Property Pages** dialog box.
 
  This section describes what options are available, and how to set them.

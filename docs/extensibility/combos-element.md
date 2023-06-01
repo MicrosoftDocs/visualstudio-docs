@@ -1,21 +1,22 @@
 ---
 title: Combos Element | Microsoft Docs
 description: The Combos element groups Combo elements, which define commands that appear in a combo box. This article contains an example.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Combos element (VSCT XML schema)
 - VSCT XML schema elements, Combos
 ms.assetid: ef48d2d2-0c47-4f93-8cfe-52026b6c463e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Combos element
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Groups [Combo element](../extensibility/combo-element.md) elements.
 
 ## Syntax

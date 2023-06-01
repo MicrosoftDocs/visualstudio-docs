@@ -1,7 +1,6 @@
 ---
 title: "PowerPoint solutions"
 description: Learn that Visual Studio provides project templates you can use to create VSTO Add-ins for Microsoft PowerPoint.
-ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -22,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # PowerPoint solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Visual Studio provides project templates you can use to create VSTO Add-ins for Microsoft Office PowerPoint. You can use VSTO Add-ins to automate PowerPoint, extend PowerPoint features, or customize the PowerPoint user interface (UI).
 
  For more information about VSTO Add-ins, see [Get started programming VSTO Add-ins](getting-started-programming-vsto-add-ins.md) and [Architecture of VSTO Add-ins](architecture-of-vsto-add-ins.md). If you are new to programming with Microsoft Office, see [Get started &#40;Office development in Visual Studio&#41;](getting-started-office-development-in-visual-studio.md).

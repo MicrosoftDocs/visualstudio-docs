@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugSettingsCallback2::GetEEMetricFile
 ms.assetid: 3a0bf9e5-bbd2-4d15-840d-8244732787fc
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -17,19 +17,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugSettingsCallback2::GetEEMetricFile
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the expression evaluator metric file given the name or the metric.
 
 ## Syntax
 
-```cpp
-HRESULT GetEEMetricFile(
-   REFGUID guidLang,
-   REFGUID guidVendor,
-   LPCWSTR pszMetric,
-   BSTR*   pbstrValue
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 private int GetEEMetricFile(
    ref Guid   guidLang,
@@ -38,6 +32,16 @@ private int GetEEMetricFile(
    out string pbstrValue
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEEMetricFile(
+   REFGUID guidLang,
+   REFGUID guidVendor,
+   LPCWSTR pszMetric,
+   BSTR*   pbstrValue
+);
+```
+---
 
 ## Parameters
 `guidLang`\

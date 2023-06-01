@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCustomAttributeQuery2::EnumCustomAttributes
 ms.assetid: 94bfce74-aa3d-45f0-8e04-5715faf85217
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugCustomAttributeQuery2::EnumCustomAttributes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets an enumerator for all custom attributes attached to this field.
 
 ## Syntax
 
-```cpp
-HRESULT EnumCustomAttributes( 
-   IEnumDebugCustomAttributes** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumCustomAttributes(
    out IEnumDebugCustomAttributes ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumCustomAttributes( 
+   IEnumDebugCustomAttributes** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

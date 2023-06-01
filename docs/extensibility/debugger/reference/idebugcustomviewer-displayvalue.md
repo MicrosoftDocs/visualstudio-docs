@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCustomViewer::DisplayValue
 ms.assetid: 7a538248-5ced-450e-97cd-13fabe35fb1c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugCustomViewer::DisplayValue
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method is called to display the specified value.
 
 ## Syntax
 
-```cpp
-HRESULT DisplayValue(
-   HWND             hwnd,
-   DWORD            dwID,
-   IUnknown *       pHostServices,
-   IDebugProperty3* pDebugProperty);
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int DisplayValue(
    IntPtr          hwnd,
@@ -40,6 +34,16 @@ int DisplayValue(
    IDebugProperty3 pDebugProperty
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT DisplayValue(
+   HWND             hwnd,
+   DWORD            dwID,
+   IUnknown *       pHostServices,
+   IDebugProperty3* pDebugProperty);
+);
+```
+---
 
 ## Parameters
 `hwnd`\

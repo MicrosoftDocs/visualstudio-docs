@@ -1,7 +1,6 @@
 ---
 title: Change publish language for ClickOnce application
 description: Learn how to specify a language/culture for a localize application in ClickOnce, instead of defaulting to the language/culture of your development computer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -22,6 +21,8 @@ ms.workload:
 ---
 # How to: Change the publish language for a ClickOnce application
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, the user interface displayed during installation defaults to the language and culture of your development computer. If you are publishing a localized application, you will need to specify a language and culture to match the localized version. This is determined by the `Publish language` property for your project.
 
 The `Publish language` property can be set in the **Publish Options** dialog box, accessible from the **Publish** page of the **Project Designer**.
@@ -34,6 +35,8 @@ The `Publish language` property can be set in the **Publish Options** dialog box
 1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
 2. Click the **Publish** tab.
+
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 3. Click the **Options** button to open the **Publish Options** dialog box.
 

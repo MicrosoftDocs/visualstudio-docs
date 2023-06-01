@@ -4,14 +4,16 @@ description: Learn about the design concepts used to create the images and icons
 ms.date: 04/26/2017
 ms.topic: reference
 ms.assetid: f410325e-9cf2-4f39-b6d7-b672121c2691
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Images and Icons for Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_ImageUseInVisualStudio"></a> Image use in Visual Studio
  Before creating artwork, consider making use of the 1,000+ images in the [Visual Studio Image Library](https://www.microsoft.com/download/details.aspx?id=35825).
 

@@ -1,7 +1,6 @@
 ---
 title: Extend Coded UI Tests and Action Recordings
 description: Learn how to create an extension to the coded UI test framework for your specific UI by taking advantage of the extensibility of the coded UI test framework.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.author: mikejo
@@ -12,6 +11,8 @@ ms.workload:
 author: mikejo5000
 ---
 # Extend coded UI tests and action recordings
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The testing framework for coded UI tests and action recordings does not support every possible user interface. It might not support the specific UI that you want to test. For example, you cannot immediately create a coded UI test or an action recording for a Microsoft Excel spreadsheet. However, you can create your own extension to the coded UI test framework that supports your specific UI by taking advantage of the extensibility of the coded UI test framework.
 

@@ -1,7 +1,6 @@
 ---
 title: Error List Window
 description: Learn about the Error List window and how to use it to perform tasks related to resolving the errors it displays.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # Error List Window
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 > [!NOTE]
 > The **Error List** displays information about a specific error message. You can copy the error number or error string text from the **Output** window. To display the **Output** window, press **Ctrl**+**Alt**+**O**. See [Output window](../../ide/reference/output-window.md).

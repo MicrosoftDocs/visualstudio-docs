@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugArrayObject::GetCount method
 ms.assetid: 7931f3f7-033c-4bf8-8abd-95183952ebb0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugArrayObject::GetCount
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the count of elements in the array.
 
 ## Syntax
 
-```cpp
-HRESULT GetCount( 
-   DWORD* pdwElements
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCount(
    out uint pdwElements
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCount( 
+   DWORD* pdwElements
+);
+```
+---
 
 ## Parameters
 `pdwElements`\

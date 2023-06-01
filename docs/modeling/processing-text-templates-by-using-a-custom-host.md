@@ -1,7 +1,6 @@
 ---
 title: Processing Text Templates by using a Custom Host
 description: Learn that the text template transformation process takes a text template file as the input and produces a text file as the output.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,6 +14,8 @@ ms.workload:
 - multiple
 ---
 # Process Text Templates by using a Custom Host
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The *text template transformation* process takes a *text template* file as the input and produces a text file as the output. You can call the text transformation engine from a Visual Studio extension, or from a standalone application running on a machine on which Visual Studio is installed. However, you must provide a *text templating host*. This class connects the template to the environment, finding resources such as assemblies and include files, and dealing with the output and error messages.
 

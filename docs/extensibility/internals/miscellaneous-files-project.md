@@ -1,7 +1,6 @@
 ---
 title: Miscellaneous Files Project | Microsoft Docs
 description: Learn about the two types of editors that can be used to open files in a Visual Studio project and the role of the project in determining which editor to use.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,14 +9,16 @@ helpviewer_keywords:
 - Solution Items folder
 - files, opening with Miscellaneous Files project
 ms.assetid: 93a278a8-d4f4-400b-8945-4f1b0a2b5bac
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Miscellaneous Files Project
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When a user opens project items, the IDE assigns to the Miscellaneous Files project any items that are not members of any projects in a solution.
 
  Projects play a significant role in determining which editor is used when a user opens a project item. A project can be designed to open certain files by using a project-specific editor or a standard editor.

@@ -1,7 +1,6 @@
 ---
 title: "Worksheet host item"
 description: Learn that the Worksheet host item is a type that extends the Worksheet type from the primary interop assembly for Excel.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -25,6 +24,8 @@ ms.workload:
   - "office"
 ---
 # Worksheet host item
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Tools.Excel.Worksheet> host item is a type that extends the <xref:Microsoft.Office.Interop.Excel.Worksheet> type from the primary interop assembly for Excel. The <xref:Microsoft.Office.Tools.Excel.Worksheet> host item provides all of the same properties, methods, and events as a <xref:Microsoft.Office.Interop.Excel.Worksheet> object, but it also exposes additional events and acts as a container for host controls and Windows Forms controls.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]

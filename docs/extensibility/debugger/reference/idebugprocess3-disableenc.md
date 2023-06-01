@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProcess3::DisableENC
 ms.assetid: cffdbdac-4d76-4aeb-aa55-5d0410db99f1
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,20 +19,24 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess3::DisableENC
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method explicitly disables Edit and Continue on this process (and all programs it contains). A custom port supplier should always return `E_NOTIMPL`.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+   EncUnavailableReason reason
+);
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT DisableENC(
    EncUnavailableReason reason
 );
 ```
-
-```csharp
-   EncUnavailableReason reason
-);
-```
+---
 
 ## Parameters
 `reason`\

@@ -1,7 +1,6 @@
 ---
 title: "CV_call_e | Microsoft Docs"
 description: Get reference information about the CV_call_e enumeration type, which specifies the calling convention for a function in the debug interface access SDK.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -17,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # CV_call_e
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the calling convention for a function.
 
 > [!NOTE]

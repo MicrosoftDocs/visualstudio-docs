@@ -1,21 +1,22 @@
 ---
 title: About File Name Extensions | Microsoft Docs
 description: Learn how to register file name extensions for VSPackages and associate them with a specific version of Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - file extensions
 - file name extensions
 ms.assetid: 99f4f9ff-fb84-4258-9787-6890f308a57f
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # About file name extensions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you register a file extension of a VSPackage, you associate it with a version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. This is important if more than one version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is installed on a computer.
 
  File extensions for VSPackages are registered under **HKEY_CLASSES_ROOT** key with a default value that points to the associated programmatic identifier (ProgID).

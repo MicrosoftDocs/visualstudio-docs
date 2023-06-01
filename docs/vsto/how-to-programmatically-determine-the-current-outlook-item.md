@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically determine the current Outlook item"
 description: Learn how you can programmatically determine the current Microsoft Outlook item. This example uses the Explorer.SelectionChange event.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -21,13 +20,20 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically determine the current Outlook item
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example uses the `Explorer.SelectionChange` event to display the name of the current folder and some information about the selected item. The code then displays the selected item.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]
 
 ## Example
- :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_OL_CurrentItem/thisaddin.vb" id="Snippet1":::
+
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_OL_CurrentItem/thisaddin.cs" id="Snippet1":::
+
+ ### [VB](#tab/vb)
+ :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_OL_CurrentItem/thisaddin.vb" id="Snippet1":::
+ ---
 
 ## Compile the code
  This example requires:

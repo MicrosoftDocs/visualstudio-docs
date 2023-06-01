@@ -1,7 +1,6 @@
 ---
 title: "Visualizer Architecture | Microsoft Docs"
 description: A visualizer displays a specific type of data element, and may allow editing also. Learn about the architecture of a visualizer.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Visualizer Architecture
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The architecture of a debugger visualizer has two parts:
 
 - The *debugger side* runs within the Visual Studio debugger. The debugger-side code creates and displays the user interface for your visualizer.
@@ -54,7 +55,7 @@ The architecture of a debugger visualizer has two parts:
 |DialogDebuggerVisualizer Class<br /><br /> IDialogVisualizerService Interface|Data Object|
 |Object Provider (implements <xref:Microsoft.VisualStudio.DebuggerVisualizers.IVisualizerObjectProvider>)|Object Source (derived from <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>)|
 
- The Object Provider provides the object data that is to be visualized to the visualizer UI. The Object Provider gets the object data from the Object Source. The Object Provider and Object Source provide APIs to communicate object data between the debugger side and the debugee side.
+ The Object Provider provides the object data that is to be visualized to the visualizer UI. The Object Provider gets the object data from the Object Source. The Object Provider and Object Source provide APIs to communicate object data between the debugger side and the debuggee side.
 
  Every visualizer must get the data object to be visualized. The following table shows the corresponding APIs that the Object Provider and Object Source use for this purpose:
 

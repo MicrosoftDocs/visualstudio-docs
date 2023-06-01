@@ -9,8 +9,8 @@ helpviewer_keywords:
 - SetCondition method
 - IDebugBoundBreakpoint2::SetCondition method
 ms.assetid: 5d366876-efed-43d0-8ea1-dfdb009cbfac
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugBoundBreakpoint2::SetCondition
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets or changes the condition associated with this bound breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT SetCondition( 
-   BP_CONDITION bpCondition
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetCondition( 
    enum_BP_CONDITION bpCondition
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetCondition( 
+   BP_CONDITION bpCondition
+);
+```
+---
 
 ## Parameters
 `bpCondition`\

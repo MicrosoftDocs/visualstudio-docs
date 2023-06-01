@@ -1,7 +1,6 @@
 ---
 title: "AssignCulture Task | Microsoft Docs"
 description: Use the MSBuild AssignCulture task to produce item that have a metadata named Culture containing the corresponding culture identifier.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:

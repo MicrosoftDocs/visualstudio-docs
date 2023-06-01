@@ -3,8 +3,8 @@ title: Breaking API changes in Visual Studio 2022
 description: Learn about API changes that cause existing VS extensions to fail to compile when migrating extensions to Visual Studio 2022.
 ms.date: 06/08/2021
 ms.topic: reference
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 monikerRange: "vs-2022"
@@ -14,7 +14,7 @@ feedback_system: GitHub
 ---
 # Breaking API changes in Visual Studio 2022
 
-[!INCLUDE [preview-note](../includes/preview-note.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you're migrating an extension to Visual Studio 2022, the breaking changes listed here might affect you.
 

@@ -1,7 +1,6 @@
 ---
 title: Configure a test agent
 description: Learn how to run automated tests that interact with the desktop by setting up your agent to run as a process instead of a service.
-ms.custom: SEO-VS-2020
 ms.date: 09/18/2018
 ms.topic: how-to
 helpviewer_keywords: 
@@ -14,19 +13,11 @@ ms.technology: vs-ide-test
 ---
 # How to: Set up your test agent to run tests that interact with the desktop
 
-::: moniker range="vs-2017"
-If you want to run automated tests that interact with the desktop, you must set up your agent to run as a process instead of a service. For example, if you want to run a coded UI test remotely using a test controller and test agent, or you want to run a test and capture a video recording when you run it, you must set up your agent to run as a process. When you assign agents to roles in your test settings using Visual Studio, or you assign agents to roles in your environment by using Microsoft Test Manager, you must change the setup for any agents assigned to roles that have to interact with the desktop.
-::: moniker-end
-::: moniker range=">=vs-2019"
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 If you want to run automated tests that interact with the desktop, you must set up your agent to run as a process instead of a service. For example, if you want to run a coded UI test remotely using a test controller and test agent, or you want to run a test and capture a video recording when you run it, you must set up your agent to run as a process. When you assign agents to roles in your test settings using Visual Studio, you must change the setup for any agents assigned to roles that have to interact with the desktop.
-::: moniker-end
 
 [!INCLUDE [web-load-test-deprecated](includes/web-load-test-deprecated.md)]
-
-::: moniker range="vs-2017"
-> [!WARNING]
-> If you use Microsoft Test Manager to set up a lab environment, it installs the test agent. You can specify in the **Environment Creation Wizard** that you want to configure one of the roles to run coded UI tests.
-:::moniker-end
 
 > [!IMPORTANT]
 > The computer that is running an agent on which you want to run coded UI tests cannot be locked or have an active screen saver.
@@ -76,10 +67,6 @@ Use the following procedure to set up any agents that are assigned to a role tha
 
    > [!NOTE]
    > There is a notification area icon that runs on the computer for a test agent that is running as a process. It shows the status of the test agent. You can start, stop or restart the agent if it is running as a process using this tool. To start the test agent as a process if it is not running, choose **Start** > **Visual Studio** > **Microsoft Visual Studio Test Agent**.
-
-   ::: moniker range="vs-2017"
-   If the test controller for this test agent is registered with Team Foundation Server, the status of a test agent that is running as an interactive process is displayed in the **Controllers** view in the **Lab Center** for Microsoft Test Manager. It is listed with a preceding asterisk symbol to denote that it is running as an interactive process. To restart this test agent, you must use the tool that runs on the computer for the test agent and not the **Controllers** view.
-   ::: moniker-end
 
 ## See also
 

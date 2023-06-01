@@ -1,25 +1,25 @@
 ---
-title: How can I change the sign-in email on my Visual Studio cloud subscription?
-description: Subscribers who purchase their own Visual Studio cloud subscriptions can change their own sign-in email addresses
+title: How do I change my sign-in email for my Visual Studio subscription?
+description: How to change the sign-in email for Visual Studio subscriptions
+author: larissacrawford
+ms.author: amast
+ms.date: 05/03/2023
+ms.assetid: 522e5fc5-037b-4723-a7d7-decc9c42c377
 ms.topic: include
-ms.assetid: 6734316b-b7e3-4e55-8b46-02f6e64679e2
-author: CaityBuschlen
-ms.author: cabuschl
-ms.date: 06/03/2021
-user.type: subscriber, admin
+user.type: DO NOT PULL for solutions
 tags: sign-in
-subscription.type: cloud
+subscription.type: vl, retail, cloud, partner
 sap.id: 17a2bf94-0d03-2629-dfd8-e8935f9126ec
 ---
 
-## How can I change the sign-in email address on my Visual Studio cloud subscription?
+## How to change the sign-in email for a Visual Studio subscription
+Each subscription type is managed in a different way.  Visual Studio subscriptions support must assist you with making changes to some of them. Your company can manage other types. To check which subscription type you own, go to the [Subscriptions page](https://my.visualstudio.com/subscriptions), select “support information” link and compare the subscription channel with the below listing:
 
-If you purchased one or more cloud subscriptions yourself, you are set up as an admin with the ability to make changes to the subscriptions. To change the sign-in email address for a subscription, you need to edit your subscription in the Visual Studio Subscriptions admin portal.
+- Retail – Open a ticket with Visual Studio Subscriptions support using the "Online request" link on this page
+- MCT - Open a ticket with Visual Studio Subscriptions support using the "Online request" link on this page
+- Volume Licensing – contact your admin by using the “contact my admin” button at the top of the portal
+- Cloud – contact the admin who purchased the subscriptions through Azure
+- PartnerCenter – Contact your company admin
+- Free – anyone can join the Dev Essentials program, there's no need to transfer
 
-1. Navigate to the [Manage subscribers](https://manage.visualstudio.com/subscribers) page in the admin portal
-2. Locate your subscription in the list, click on the **...** and choose **Edit**
-3. Your subscription information will be displayed in a fly-out pane on the right
-4. Change the email address 
-5. Click **Save**
-
-Editing your subscription email address doesn't change your sign-in for the admin portal.
+If your subscription type is different, you need to reach out to the party that provided you with the subscription.

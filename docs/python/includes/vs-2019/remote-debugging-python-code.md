@@ -3,8 +3,8 @@ title: Debug Python code on remote Linux computers
 description: Use Visual Studio to debug Python code running on remote Linux computers, including necessary configuration steps, security, and troubleshooting.
 ms.date: 05/12/2020
 ms.topic: how-to
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -69,7 +69,7 @@ For details on creating a firewall rule for an Azure VM, see [Open ports to a VM
 
    ```python
    import debugpy
-   debugpy.listen(5678)
+   debugpy.listen(('0.0.0.0', 5678))
    ```
 
 1. Save the file and run `python3 guessing-game.py`. The call to `listen` runs in the background and waits for incoming connections as you otherwise interact with the program. If desired, the `wait_for_client` function can be called after `listen` to block the program until the debugger attaches.

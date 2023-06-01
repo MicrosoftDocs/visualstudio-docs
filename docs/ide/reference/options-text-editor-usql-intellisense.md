@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, U-SQL, IntelliSense
 description: Learn how to use the IntelliSense page in the U-SQL section to modify the text editor IntelliSense settings for U-SQL.
-ms.custom: SEO-VS-2020
 ms.date: 01/17/2019
 ms.topic: reference
 f1_keywords:
@@ -15,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # Options, Text Editor, U-SQL, IntelliSense
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **IntelliSense** options page to modify some text editor settings for U-SQL. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **U-SQL** > **IntelliSense**.
 

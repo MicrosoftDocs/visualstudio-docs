@@ -4,14 +4,16 @@ description: Learn about the UI text and terminology used in the Help inf
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: e8747d07-6c90-46cc-b425-55b589f7e9e4
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # UI Text and Help for Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_UITextAndTerminology"></a> UI text and terminology
  Comprehensible text is crucial to effective UI. Software users tend to read labels first, namely those most relevant to completing the task at hand. Static text is read with less frequency. Plan for users to start their work sessions with a quick scan of the whole window, followed by a reading of the UI in this approximate order:
 

@@ -1,21 +1,22 @@
 ---
 title: Handling Specialized Deployment | Microsoft Docs
 description: Learn how to handle the specialized deployment of an application project in Visual Studio. For example, a deployment to a Web server or a device.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - deploying applications [Visual Studio SDK]
 - specialized deployment
 ms.assetid: de068b6a-e806-45f0-9dec-2458fbb486f7
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Handle specialized deployment
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A deployment is an optional operation for projects. A Web project, for example, supports a deployment to let a project update a Web server. Likewise, a **Smart Device** project supports a deployment to copy a built application to the target device. Project subtypes can supply specialized deployment behavior by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg> interface. This interface defines a complete set of the deployment operations:
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.AdviseDeployStatusCallback%2A>
@@ -42,21 +43,7 @@ A deployment is an optional operation for projects. A Web project, for example, 
 
 - Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.AdviseDeployStatusCallback%2A> method to register the environment to receive notifications of deployment status events.
 
-    ```vb
-    Private adviseSink As Microsoft.VisualStudio.Shell.EventSinkCollection = New Microsoft.VisualStudio.Shell.EventSinkCollection()
-    Public Function AdviseDeployStatusCallback(ByVal pIVsDeployStatusCallback As IVsDeployStatusCallback, _
-                                               ByRef pdwCookie As UInteger) As Integer
-
-        If pIVsDeployStatusCallback Is Nothing Then
-            Throw New ArgumentNullException("pIVsDeployStatusCallback")
-        End If
-
-        pdwCookie = adviseSink.Add(pIVsDeployStatusCallback)
-        Return VSConstants.S_OK
-
-    End Function
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     private Microsoft.VisualStudio.Shell.EventSinkCollection adviseSink = new Microsoft.VisualStudio.Shell.EventSinkCollection();
     public int AdviseDeployStatusCallback(IVsDeployStatusCallback pIVsDeployStatusCallback,
@@ -71,15 +58,26 @@ A deployment is an optional operation for projects. A Web project, for example, 
 
     ```
 
-- Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.UnadviseDeployStatusCallback%2A> method to cancel the environment's registration to receive notifications of deployment status events.
-
+    ### [VB](#tab/vb)
     ```vb
-    Public Function UnadviseDeployStatusCallback(ByVal dwCookie As UInteger) As Integer
-        adviseSink.RemoveAt(dwCookie)
+    Private adviseSink As Microsoft.VisualStudio.Shell.EventSinkCollection = New Microsoft.VisualStudio.Shell.EventSinkCollection()
+    Public Function AdviseDeployStatusCallback(ByVal pIVsDeployStatusCallback As IVsDeployStatusCallback, _
+                                               ByRef pdwCookie As UInteger) As Integer
+
+        If pIVsDeployStatusCallback Is Nothing Then
+            Throw New ArgumentNullException("pIVsDeployStatusCallback")
+        End If
+
+        pdwCookie = adviseSink.Add(pIVsDeployStatusCallback)
         Return VSConstants.S_OK
+
     End Function
     ```
+    ---
 
+- Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.UnadviseDeployStatusCallback%2A> method to cancel the environment's registration to receive notifications of deployment status events.
+
+    ### [C#](#tab/csharp)
     ```csharp
     public int UnadviseDeployStatusCallback(uint dwCookie)
     {
@@ -89,15 +87,18 @@ A deployment is an optional operation for projects. A Web project, for example, 
 
     ```
 
-- Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.Commit%2A> method to perform the commit operation specific to your application.  This method is used mainly for database deployment.
-
+    ### [VB](#tab/vb)
     ```vb
-    Public Function Commit(ByVal dwReserved As UInteger) As Integer
-        'Implement commit operation here.
+    Public Function UnadviseDeployStatusCallback(ByVal dwCookie As UInteger) As Integer
+        adviseSink.RemoveAt(dwCookie)
         Return VSConstants.S_OK
     End Function
     ```
+    ---
 
+- Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.Commit%2A> method to perform the commit operation specific to your application.  This method is used mainly for database deployment.
+
+    ### [C#](#tab/csharp)
     ```csharp
     public int Commit(uint dwReserved)
     {
@@ -107,15 +108,18 @@ A deployment is an optional operation for projects. A Web project, for example, 
 
     ```
 
-- Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.Rollback%2A> method to perform a rollback operation. When this method is called, the deployment project must do whatever is appropriate to roll back changes and restore the state of the project. This method is used mainly for database deployment.
-
+    ### [VB](#tab/vb)
     ```vb
     Public Function Commit(ByVal dwReserved As UInteger) As Integer
         'Implement commit operation here.
         Return VSConstants.S_OK
     End Function
     ```
+    ---
 
+- Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.Rollback%2A> method to perform a rollback operation. When this method is called, the deployment project must do whatever is appropriate to roll back changes and restore the state of the project. This method is used mainly for database deployment.
+
+    ### [C#](#tab/csharp)
     ```csharp
     public int Rollback(uint dwReserved)
     {
@@ -125,23 +129,18 @@ A deployment is an optional operation for projects. A Web project, for example, 
 
     ```
 
-- Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.QueryStartDeploy%2A> method to determine whether or not a project is able to start a deployment operation.
-
+    ### [VB](#tab/vb)
     ```vb
-    Public Function QueryStartDeploy(ByVal dwOptions As UInteger, ByVal pfSupported As Integer(), ByVal pfReady As Integer()) As Integer
-        If Not pfSupported Is Nothing AndAlso pfSupported.Length > 0 Then
-            pfSupported(0) = 1
-        End If
-        If Not pfReady Is Nothing AndAlso pfReady.Length > 0 Then
-            pfReady(0) = 0
-            If Not deploymentThread Is Nothing AndAlso (Not deploymentThread.IsAlive) Then
-                pfReady(0) = 1
-            End If
-        End If
+    Public Function Commit(ByVal dwReserved As UInteger) As Integer
+        'Implement commit operation here.
         Return VSConstants.S_OK
     End Function
     ```
+    ---
 
+- Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.QueryStartDeploy%2A> method to determine whether or not a project is able to start a deployment operation.
+
+    ### [C#](#tab/csharp)
     ```csharp
     public int QueryStartDeploy(uint dwOptions, int[] pfSupported, int[] pfReady)
     {
@@ -158,18 +157,26 @@ A deployment is an optional operation for projects. A Web project, for example, 
 
     ```
 
-- Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.QueryStatusDeploy%2A> method to determine whether or not a deployment operation has completed successfully.
-
+    ### [VB](#tab/vb)
     ```vb
-    Public Function QueryStatusDeploy(ByRef pfDeployDone As Integer) As Integer
-        pfDeployDone = 1
-        If Not deploymentThread Is Nothing AndAlso deploymentThread.IsAlive Then
-            pfDeployDone = 0
+    Public Function QueryStartDeploy(ByVal dwOptions As UInteger, ByVal pfSupported As Integer(), ByVal pfReady As Integer()) As Integer
+        If Not pfSupported Is Nothing AndAlso pfSupported.Length > 0 Then
+            pfSupported(0) = 1
+        End If
+        If Not pfReady Is Nothing AndAlso pfReady.Length > 0 Then
+            pfReady(0) = 0
+            If Not deploymentThread Is Nothing AndAlso (Not deploymentThread.IsAlive) Then
+                pfReady(0) = 1
+            End If
         End If
         Return VSConstants.S_OK
     End Function
     ```
+    ---
 
+- Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.QueryStatusDeploy%2A> method to determine whether or not a deployment operation has completed successfully.
+
+    ### [C#](#tab/csharp)
     ```csharp
     public int QueryStatusDeploy(out int pfDeployDone)
     {
@@ -181,36 +188,21 @@ A deployment is an optional operation for projects. A Web project, for example, 
 
     ```
 
-- Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.StartDeploy%2A> method to begin a deployment operation in a separate thread. Place the code specific to your application's deployment inside the `Deploy` method.
-
+    ### [VB](#tab/vb)
     ```vb
-    Public Function StartDeploy(ByVal pIVsOutputWindowPane As IVsOutputWindowPane, ByVal dwOptions As UInteger) As Integer
-        If pIVsOutputWindowPane Is Nothing Then
-            Throw New ArgumentNullException("pIVsOutputWindowPane")
-        End If
-
+    Public Function QueryStatusDeploy(ByRef pfDeployDone As Integer) As Integer
+        pfDeployDone = 1
         If Not deploymentThread Is Nothing AndAlso deploymentThread.IsAlive Then
-            Throw New NotSupportedException("Cannot start deployment operation when it is already started; Call QueryStartDeploy first")
+            pfDeployDone = 0
         End If
-
-        outputWindow = pIVsOutputWindowPane
-
-        ' Notify that deployment is about to begin and see if any user wants to cancel.
-        If (Not NotifyStart()) Then
-            Return VSConstants.E_ABORT
-        End If
-
-        operationCanceled = False
-
-        ' Create and start our thread
-        deploymentThread = New Thread(AddressOf Me.Deploy)
-        deploymentThread.Name = "Deployment Thread"
-        deploymentThread.Start()
-
         Return VSConstants.S_OK
     End Function
     ```
+    ---
 
+- Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.StartDeploy%2A> method to begin a deployment operation in a separate thread. Place the code specific to your application's deployment inside the `Deploy` method.
+
+    ### [C#](#tab/csharp)
     ```csharp
     public int StartDeploy(IVsOutputWindowPane pIVsOutputWindowPane, uint dwOptions)
     {
@@ -238,28 +230,39 @@ A deployment is an optional operation for projects. A Web project, for example, 
 
     ```
 
-- Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.StopDeploy%2A> method to stop a deployment operation. This method is called when a user presses the **Cancel** button during the deployment process.
-
+    ### [VB](#tab/vb)
     ```vb
-    Public Function StopDeploy(ByVal fSync As Integer) As Integer
-        If Not deploymentThread Is Nothing AndAlso deploymentThread.IsAlive Then
-            Return VSConstants.S_OK
+    Public Function StartDeploy(ByVal pIVsOutputWindowPane As IVsOutputWindowPane, ByVal dwOptions As UInteger) As Integer
+        If pIVsOutputWindowPane Is Nothing Then
+            Throw New ArgumentNullException("pIVsOutputWindowPane")
         End If
 
-        outputWindow.OutputStringThreadSafe("Canceling deployment")
-        operationCanceled = True
-        If fSync <> 0 Then
-            ' Synchronous request, wait for the thread to terminate.
-            If (Not deploymentThread.Join(10000)) Then
-                Debug.Fail("Deployment thread did not terminate before the timeout, Aborting thread")
-                deploymentThread.Abort()
-            End If
+        If Not deploymentThread Is Nothing AndAlso deploymentThread.IsAlive Then
+            Throw New NotSupportedException("Cannot start deployment operation when it is already started; Call QueryStartDeploy first")
         End If
+
+        outputWindow = pIVsOutputWindowPane
+
+        ' Notify that deployment is about to begin and see if any user wants to cancel.
+        If (Not NotifyStart()) Then
+            Return VSConstants.E_ABORT
+        End If
+
+        operationCanceled = False
+
+        ' Create and start our thread
+        deploymentThread = New Thread(AddressOf Me.Deploy)
+        deploymentThread.Name = "Deployment Thread"
+        deploymentThread.Start()
 
         Return VSConstants.S_OK
     End Function
     ```
+    ---
 
+- Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDeployableProjectCfg.StopDeploy%2A> method to stop a deployment operation. This method is called when a user presses the **Cancel** button during the deployment process.
+
+    ### [C#](#tab/csharp)
     ```csharp
     public int StopDeploy(int fSync)
     {
@@ -282,6 +285,28 @@ A deployment is an optional operation for projects. A Web project, for example, 
     }
 
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Public Function StopDeploy(ByVal fSync As Integer) As Integer
+        If Not deploymentThread Is Nothing AndAlso deploymentThread.IsAlive Then
+            Return VSConstants.S_OK
+        End If
+
+        outputWindow.OutputStringThreadSafe("Canceling deployment")
+        operationCanceled = True
+        If fSync <> 0 Then
+            ' Synchronous request, wait for the thread to terminate.
+            If (Not deploymentThread.Join(10000)) Then
+                Debug.Fail("Deployment thread did not terminate before the timeout, Aborting thread")
+                deploymentThread.Abort()
+            End If
+        End If
+
+        Return VSConstants.S_OK
+    End Function
+    ```
+    ---
 
 > [!NOTE]
 > All code examples provided in this topic are parts of a larger example in [VSSDK samples](https://github.com/Microsoft/VSSDK-Extensibility-Samples).

@@ -1,8 +1,7 @@
 ---
 title: Compiling building
 description: Learn how you use the Visual Studio IDE build method, the MSBuild command-line tools build method, or Azure Pipelines build method to build an application.
-ms.custom: SEO-VS-2020
-ms.date: 09/14/2021
+ms.date: 10/07/2022
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 helpviewer_keywords:
@@ -17,6 +16,8 @@ ms.workload:
 ---
 # Compile and build in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 For a first introduction to building within the IDE, see [Walkthrough: Building an application](walkthrough-building-an-application.md).
 
 You can use any of the following methods to build an application: the Visual Studio IDE, the MSBuild command-line tools, and Azure Pipelines:
@@ -24,7 +25,7 @@ You can use any of the following methods to build an application: the Visual Stu
 | Build Method | Benefits |
 | --- |--- | --- |
 | IDE |- Create builds immediately and test them in a debugger.<br />- Run multi-processor builds for C++ and C# projects.<br />-   Customize different aspects of the build system. |
-| CMake | - Build projects using the CMake tool<br />- Use the same build system across Linux and Windows platforms. |
+| CMake | - Build C++ projects using the CMake tool<br />- Use the same build system across Linux and Windows platforms. |
 | MSBuild command line| - Build projects without installing Visual Studio.<br />- Run multi-processor builds for all project types.<br />-   Customize most areas of the build system.|
 | Azure Pipelines | - Automate your build process as part of a continuous integration/continuous delivery pipeline.<br />- Apply automated tests with every build.<br />- Employ virtually unlimited cloud-based resources for build processes.<br />- Modify the build workflow and create build activities to perform deeply customized tasks.|
 
@@ -43,7 +44,7 @@ Next, see [Building and cleaning projects and solutions in Visual Studio](buildi
 
 From there, you can explore a variety of other tasks:
 - [Understand build configurations](understanding-build-configurations.md)
-- [Understand build platforms](understanding-build-platforms.md)
+- [Configure projects to target platforms](how-to-configure-projects-to-target-platforms.md)
 - [Manage project and solution properties](managing-project-and-solution-properties.md).
 - Specify build events in [C#](how-to-specify-build-events-csharp.md) and [Visual Basic](how-to-specify-build-events-visual-basic.md).
 - [Set build options](reference/options-dialog-box-projects-and-solutions-build-and-run.md)

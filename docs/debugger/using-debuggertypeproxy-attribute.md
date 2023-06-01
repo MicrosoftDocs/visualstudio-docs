@@ -1,8 +1,7 @@
 ---
 title: Display custom type using DebuggerTypeProxy | Microsoft Docs
 description: Use an instance of DebuggerTypeProxyAttribute to specify a proxy (stand-in) for a type, to change how the type is displayed in debugger windows.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 04/22/2022
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -22,6 +21,8 @@ ms.workload:
   - multiple
 ---
 # Tell the debugger what type to show using DebuggerTypeProxy Attribute (C#, Visual Basic, C++/CLI)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 <xref:System.Diagnostics.DebuggerTypeProxyAttribute> specifies a proxy, or stand-in, for a type and changes the way the type is displayed in debugger windows. When you view a variable that has a proxy, the proxy stands in for the original type in the **display**. The debugger variable window displays only the public members of the proxy type. Private members are not displayed.
 
@@ -45,6 +46,9 @@ It is a good idea for the type proxy to be a private nested class within the cla
 If <xref:System.Diagnostics.DebuggerTypeProxyAttribute> is used at the assembly level, the `Target` parameter specifies the type which the proxy will replace.
 
 For an example of how to use this attribute along with <xref:System.Diagnostics.DebuggerDisplayAttribute> and <xref:System.Diagnostics.DebuggerTypeProxyAttribute>, see [Using the DebuggerDisplay Attribute](../debugger/using-the-debuggerdisplay-attribute.md).
+
+> [!IMPORTANT]
+> If the **Show raw structure of objects in variables windows** check box is selected in the **Tools / Options / Debugging** dialog box, then the `DebuggerDisplay` attribute is ignored.
 
 ## Using Generics with DebuggerTypeProxy
 

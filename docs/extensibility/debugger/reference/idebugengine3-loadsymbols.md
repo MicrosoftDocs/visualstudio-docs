@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngine3::LoadSymbols
 ms.assetid: c846a440-1d91-4d48-b8f1-82e902ae152b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,17 +19,21 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine3::LoadSymbols
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Loads (as necessary) symbols for all modules being debugged by this debugging engine.
 
 ## Syntax
 
-```cpp
-HRESULT LoadSymbols();
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int LoadSymbols();
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT LoadSymbols();
+```
+---
 
 ## Parameters
  None.

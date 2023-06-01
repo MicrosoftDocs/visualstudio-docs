@@ -1,7 +1,6 @@
 ---
 title: Alias Command
 description: Learn how to use the Alias command to create a new alias for a complete command, complete command and arguments, or another alias.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -21,6 +20,8 @@ ms.workload:
 - multiple
 ---
 # Alias Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a new alias for a complete command, complete command and arguments, or another alias.
 
 > [!TIP]

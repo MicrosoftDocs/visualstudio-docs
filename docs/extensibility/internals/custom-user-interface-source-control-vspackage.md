@@ -1,21 +1,22 @@
 ---
 title: Custom User Interface (Source Control VSPackage) | Microsoft Docs
 description: Learn how to create a custom user interface (UI) in Visual Studio by using a source control VSPackage to specify UI elements.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - user interface, source control packages
 - source control packages, user interface
 ms.assetid: f35ddb24-53bf-461e-b34f-7414f657c082
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Custom user interface (source control VSPackage)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A VSPackage declares its menu items and their default states through the Visual Studio command table (*.vsct*) file. The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) displays the menu items in their default states until the VSPackage is loaded. Subsequently, the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget.QueryStatus%2A> method is called to enable or disable menu items.
 
  A VSPackage can set a registry key so the VSPackage can be automatically loaded depending on a command user interface (UI) context, although typically a source control VSPackage should load on demand instead of just switching to a particular UI context. For more information about the **AutoLoadPackages** registry key, see [Manage VSPackages](../../extensibility/managing-vspackages.md).

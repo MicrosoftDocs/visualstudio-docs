@@ -1,7 +1,6 @@
 ---
 title: Data tools for C++
 description: Explore Visual Studio data tools for C++. Connect to localDB through ODBC and the SQL native client from a C++ application.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: overview
 dev_langs:
@@ -15,6 +14,8 @@ ms.workload:
 - cplusplus
 ---
 # Visual Studio data tools for C++
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Native C++ can often provide the fastest performance when you are accessing data sources. However, data tooling for C++ applications in Visual Studio is not as rich as it is for .NET applications. For example, the **Data Sources** window cannot be used to drag and drop data sources onto a C++ design surface. If you need an object-relational layer, you will have to write your own, or use a third-party product. The same is true for data-binding functionality, although applications that use the Microsoft Foundation Class library can use some database classes, together with documents and views, to store data in memory and display it to the user. For more information, see [Data Access in Visual C++](/cpp/data/data-access-in-cpp).
 

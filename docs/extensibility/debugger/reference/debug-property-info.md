@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - DEBUG_PROPERTY_INFO structure
 ms.assetid: 5a085d18-62c6-4740-b9e9-3f5db6bfdf7f
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,22 +19,13 @@ dev_langs:
 - CSharp
 ---
 # DEBUG_PROPERTY_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains information about a debug property.
 
 ## Syntax
 
-```cpp
-typedef struct tagDEBUG_PROPERTY_INFO {
-    DEBUGPROP_INFO_FLAGS dwValidFields;
-    BSTR                 bstrFullName;
-    BSTR                 bstrName;
-    BSTR                 bstrType;
-    BSTR                 bstrValue;
-    IDebugProperty2*     pProperty;
-    DBG_ATTRIB_FLAGS     dwAttrib;
-} DEBUG_PROPERTY_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct DEBUG_PROPERTY_INFO {
     public uint            dwValidFields;
@@ -46,6 +37,19 @@ public struct DEBUG_PROPERTY_INFO {
     public ulong           dwAttrib;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagDEBUG_PROPERTY_INFO {
+    DEBUGPROP_INFO_FLAGS dwValidFields;
+    BSTR                 bstrFullName;
+    BSTR                 bstrName;
+    BSTR                 bstrType;
+    BSTR                 bstrValue;
+    IDebugProperty2*     pProperty;
+    DBG_ATTRIB_FLAGS     dwAttrib;
+} DEBUG_PROPERTY_INFO;
+```
+---
 
 ## Members
 `dwValidFields`\

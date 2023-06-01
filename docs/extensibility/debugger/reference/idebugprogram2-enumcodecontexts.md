@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgram2::EnumCodeContexts
 ms.assetid: 478e06a2-07bb-4841-8887-deab0f42ebd0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram2::EnumCodeContexts
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of the code contexts for a given position in a source file.
 
 ## Syntax
 
-```cpp
-HRESULT EnumCodeContexts( 
-   IDebugDocumentPosition2*  pDocPos,
-   IEnumDebugCodeContexts2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumCodeContexts( 
    IDebugDocumentPosition2     pDocPos,
    out IEnumDebugCodeContexts2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumCodeContexts( 
+   IDebugDocumentPosition2*  pDocPos,
+   IEnumDebugCodeContexts2** ppEnum
+);
+```
+---
 
 ## Parameters
 `pDocPos`\

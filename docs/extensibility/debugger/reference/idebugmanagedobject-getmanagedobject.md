@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugManagedObject::GetManagedObject method
 ms.assetid: 6abe1402-6aad-41e6-8ec1-ae12d5945992
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugManagedObject::GetManagedObject
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns an interface that represents the managed object.
 
 ## Syntax

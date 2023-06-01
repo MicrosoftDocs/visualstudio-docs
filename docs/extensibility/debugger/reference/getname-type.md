@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - GETNAME_TYPE enumeration
 ms.assetid: 2f9f1679-e9e8-4c9c-ac90-aa07bfe69914
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,25 @@ dev_langs:
 - CSharp
 ---
 # GETNAME_TYPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the name type of files to retrieve.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_GETNAME_TYPE {
+    GN_NAME         = 0,
+    GN_FILENAME     = 1,
+    GN_BASENAME     = 2,
+    GN_MONIKERNAME  = 3,
+    GN_URL          = 4,
+    GN_TITLE        = 5,
+    GN_STARTPAGEURL = 6
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_GETNAME_TYPE {
     GN_NAME         = 0,
@@ -35,18 +50,7 @@ enum enum_GETNAME_TYPE {
 };
 typedef DWORD GETNAME_TYPE;
 ```
-
-```csharp
-public enum enum_GETNAME_TYPE {
-    GN_NAME         = 0,
-    GN_FILENAME     = 1,
-    GN_BASENAME     = 2,
-    GN_MONIKERNAME  = 3,
-    GN_URL          = 4,
-    GN_TITLE        = 5,
-    GN_STARTPAGEURL = 6
-};
-```
+---
 
 ## Fields
 `GN_NAME`\

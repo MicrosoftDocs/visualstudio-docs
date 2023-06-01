@@ -22,6 +22,8 @@ ms.workload:
 ---
 # Walkthrough: Writing a Visualizer in Visual Basic
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 This walkthrough shows how to write a simple visualizer by using [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]. The visualizer you will create in this walkthrough displays the contents of a string using a Windows Forms message box. This simple string visualizer is a basic example to show how you can create visualizers for other data types more applicable to your projects.
 
 > [!NOTE]
@@ -35,12 +37,7 @@ Visualizer code must be placed in a DLL that will be read by the debugger. The f
 
 1. Create a new class library project.
 
-    ::: moniker range=">=vs-2019"
     Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **visual basic**, choose **Templates**, then choose **Create a new Class Library (.NET Framework)**. In the dialog box that appears, choose **Create**.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual Basic**, choose **.NET Standard**, and then in the middle pane choose **Class Library (.NET Standard)**.
-    ::: moniker-end
 
 2. Type an appropriate name for the class library, such as `MyFirstVisualizer`, and then click **Create** or **OK**.
 
@@ -169,12 +166,7 @@ In the debugger-side code, you specify the type to visualize (the object source)
 
 1. In Solution Explorer, right-click the solution, choose **Add**, and then click **New Project**.
 
-    ::: moniker range=">=vs-2019"
     In the Search box, type **visual basic**, choose **Templates**, then choose **Create a new Console App (.NET Framework)**. In the dialog box that appears, choose **Create**.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New project** dialog box, under **Visual Basic**, choose **Windows Desktop**, and then in the middle pane choose **Console App (.NET Framework)**.
-    ::: moniker-end
 
 2. Type an appropriate name for the class library, such as `MyTestConsole`, and then click **Create** or **OK**.
 

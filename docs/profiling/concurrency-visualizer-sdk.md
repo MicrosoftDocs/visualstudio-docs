@@ -1,7 +1,6 @@
 ---
 title: "Concurrency Visualizer SDK | Microsoft Docs"
 description: Learn how to use Concurrency Visualizer SDK to instrument your code to display markers. Markers are icons that display in Concurrency Visualizer to mark events.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -15,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # Concurrency Visualizer SDK
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can instrument your source code by using the Concurrency Visualizer SDK to display additional information in the Concurrency Visualizer. You can associate the additional data with phases and events in your code. These additional visualizations are known as *markers*.  For an introductory walkthrough, see [Introducing the Concurrency Visualizer SDK](/archive/blogs/visualizeparallel/introducing-the-concurrency-visualizer-sdk).
 
 ## Properties
@@ -34,13 +35,16 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
 
 3. Add an imports or using statement to your code.
 
+    ### [C#](#tab/csharp)
     ```csharp
     using Microsoft.ConcurrencyVisualizer.Instrumentation;
     ```
 
+    ### [VB](#tab/vb)
     ```VB
     Imports Microsoft.ConcurrencyVisualizer.Instrumentation
     ```
+    ---
 
 ### C++
  In C++, create a [marker_series Class](../profiling/marker-series-class.md) object and use it to call functions.  The `marker_series` class exposes three functions for generating markers, the [marker_series::write_flag Method](../profiling/marker-series-write-flag-method.md), the [marker_series::write_message Method](../profiling/marker-series-write-message-method.md), and the [marker_series::write_alert Method](../profiling/marker-series-write-alert-method.md).
@@ -87,15 +91,18 @@ You can instrument your source code by using the Concurrency Visualizer SDK to d
 
 1. To use a new [MarkerSeries](/previous-versions/hh694127(v=vs.140)), first create it by using a [MarkerWriter](/previous-versions/hh694138(v=vs.140)) object, and then generate marker events directly from the new series.
 
+    ### [C#](#tab/csharp)
     ```csharp
     MarkerSeries series1 = myMarkerWriter.CreateMarkerSeries("Series 1");
     series1.WriteFlag("My flag");
     ```
 
+    ### [VB](#tab/vb)
     ```VB
     Dim series1 As New myMarkerWriter.CreateMarkerSeries("Series 1")
     series1.WriteFlag("My flag")
     ```
+    ---
 
 #### To use a marker series in a C++ project
 

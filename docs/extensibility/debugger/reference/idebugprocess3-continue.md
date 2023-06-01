@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProcess3::Continue
 ms.assetid: 57506242-5763-4c08-adb9-8a78ce02cebb
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess3::Continue
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Continues running this process from a stopped state. Any previous execution state (such as a step) is preserved, and the process starts executing again.
 
 > [!NOTE]
@@ -26,17 +28,19 @@ Continues running this process from a stopped state. Any previous execution stat
 
 ## Syntax
 
-```cpp
-HRESULT Continue(
-   IDebugThread2* pThread
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Continue(
    IDebugThread2 pThread
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Continue(
+   IDebugThread2* pThread
+);
+```
+---
 
 ## Parameters
 `pThread`\

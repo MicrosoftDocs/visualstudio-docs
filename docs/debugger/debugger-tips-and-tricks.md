@@ -2,7 +2,7 @@
 title: "Tips and tricks in the debugger"
 description: Learn about some of the lesser-known features supported by the Visual Studio debugger
 
-ms.date: "06/15/2018"
+ms.date: "04/26/2022"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "stepping"
@@ -18,6 +18,8 @@ ms.workload:
 ---
 # Learn Productivity Tips and Tricks for the Debugger in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Read this topic to learn a few productivity tips and tricks for the Visual Studio debugger. For a look at the basic features of the debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md). In this topic, we cover some areas that are not included in the feature tour.
 
 ## Pin data tips
@@ -25,6 +27,10 @@ Read this topic to learn a few productivity tips and tricks for the Visual Studi
 If you frequently hover over data tips while debugging, you may want to pin the data tip for the variable to give yourself quick access. The variable stays pinned even after restarting. To pin the data tip, click the pin icon while hovering over it. You can pin multiple variables.
 
 ![Pinning a Data Tip](../debugger/media/dbg-tips-data-tips-pinned.png "PinningDataTip")
+
+::: moniker range=">= vs-2022"
+You can also customize data tips in several other ways, such as keeping a data tip expanded (a *sticky data tip*), or making a data tip transparent. For more information, see [View data values in DataTips in the code editor](../debugger/view-data-values-in-data-tips-in-the-code-editor.md).
+::: moniker-end
 
 ## Edit your code and continue debugging (C#, VB, C++)
 
@@ -44,7 +50,7 @@ If it is difficult or time-consuming to recreate a particular state in your app,
 
 #### To create a conditional breakpoint
 
-1. Right-click a breakpoint icon (the red ball) and choose **Conditions**.
+1. Right-click a breakpoint icon (the red sphere) and choose **Conditions**.
 
 2. In the **Breakpoint Settings** window, type an expression.
 
@@ -134,20 +140,6 @@ If you need to debug the kinds of issues that are common to multithreaded apps, 
 3. Hover the pointer over the thread marker. A DataTip appears. The DataTip tells you the name and thread ID number for each stopped thread.
 
     You can also view the location of threads in the [Parallel Stacks window](../debugger/get-started-debugging-multithreaded-apps.md).
-
-::: moniker range="vs-2017"
-## Examine payloads for web services and network resources (UWP)
-
-In UWP apps, you can analyze network operations performed using the `Windows.Web.Http` API. You can use this tool to help debug web services and network resources. To use the tool, select **Debug > Performance Profiler**. Select **Network**, and then choose **Start**. In your app, go through the scenario that uses `Windows.Web.Http`, and then choose **Stop collection** to generate the report.
-
-![Network Usage profiling tool](../profiling/media/prof-tour-network-usage.png "NetworkUsageProfTool")
-
-Select an operation in the summary view to view more details.
-
-![Detailed information in the Network Usage tool](../profiling/media/prof-tour-network-usage-details.png "DetailedViewNetworkUsage")
-
-For more information, see [Network Usage](../profiling/network-usage.md).
-::: moniker-end
 
 ## <a name="modules_window"></a> Get more familiar with how the debugger attaches to your app (C#, C++, Visual Basic, F#)
 

@@ -3,13 +3,15 @@ title: Use the Microsoft Unit Testing Framework for C++
 description: Use the Microsoft Unit Testing Framework for C++ to create unit tests for your C++ code.
 ms.date: 02/16/2021
 ms.topic: how-to
-ms.author: corob
+ms.author: twhitney
 manager: markl
 ms.workload: 
   - cplusplus
-author: corob-msft
+author: tylermsft
 ---
 # Use the Microsoft Unit Testing Framework for C++ in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Microsoft Unit Testing Framework for C++ is included by default in the **Desktop Development with C++** workload.
 

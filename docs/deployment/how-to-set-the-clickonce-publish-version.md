@@ -1,7 +1,6 @@
 ---
 title: Set the ClickOnce Publish Version | Microsoft Docs
 description: Learn how to set the ClickOnce Publish Version property, which determines whether the application is an update. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -21,6 +20,8 @@ ms.workload:
   - multiple
 ---
 # How to: Set the ClickOnce publish version
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] `Publish Version` property determines whether or not the application that you are publishing will be treated as an update. Each time version is incremented, the application will be published as an update.
 
  The `Publish Version` property can be set on the **Publish** page of the **Project Designer**.
@@ -33,6 +34,8 @@ The [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] `Publish V
 1. With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.
 
 2. Click the **Publish** tab.
+
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 3. In **Publish Version** field, increment the **Major**, **Minor**, **Build**, or **Revision** version numbers.
 

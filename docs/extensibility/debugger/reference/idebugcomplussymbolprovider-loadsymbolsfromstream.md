@@ -7,8 +7,8 @@ helpviewer_keywords:
 - IDebugComPlusSymbolProvider::LoadSymbolsFromStream
 - LoadSymbolsFromStream
 ms.assetid: 1de272f0-24f4-4548-8b70-a205cddd4727
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,20 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::LoadSymbolsFromStream
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Loads debug symbols given the data stream.
 
 ## Syntax
 
-```cpp
-HRESULT LoadSymbolsFromStream(
-    ULONG32   ulAppDomainID,
-    GUID      guidModule,
-    ULONGLONG baseAddress,
-    IUnknown* pUnkMetadataImport,
-    IStream*  pStream
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int LoadSymbolsFromStream(
     uint    ulAppDomainID,
@@ -41,6 +34,17 @@ int LoadSymbolsFromStream(
     IStream pStream
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT LoadSymbolsFromStream(
+    ULONG32   ulAppDomainID,
+    GUID      guidModule,
+    ULONGLONG baseAddress,
+    IUnknown* pUnkMetadataImport,
+    IStream*  pStream
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

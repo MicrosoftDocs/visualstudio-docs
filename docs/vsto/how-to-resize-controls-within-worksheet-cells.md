@@ -1,7 +1,6 @@
 ---
 title: "How to: Resize controls within worksheet cells"
 description: Learn how you can use Visual Studio to resize controls within Microsoft Excel worksheet cells both at design time and at run time.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -20,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # How to: Resize controls within worksheet cells
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you resize columns or rows on a worksheet, any host controls within the cells automatically resize to the height or width of the cell that was resized. Windows Forms controls do not resize automatically by default.
 
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]
@@ -49,8 +50,12 @@ ms.workload:
 
 1. Add a control to range A1.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet5":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs" id="Snippet5":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet5":::
+     ---
 
      When you resize the cell that contains the control, the control resizes to fit the cell.
 
@@ -67,8 +72,12 @@ ms.workload:
 
 1. Call the placement property of the control and set the value to <xref:Microsoft.Office.Interop.Excel.XlPlacement.xlFreeFloating>.
 
-     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet6":::
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreProgrammingControlsExcelCS/Sheet1.cs" id="Snippet6":::
+
+     ### [VB](#tab/vb)
+     :::code language="vb" source="../vsto/codesnippet/VisualBasic/my excel chart/Sheet1.vb" id="Snippet6":::
+     ---
 
 ## See also
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)

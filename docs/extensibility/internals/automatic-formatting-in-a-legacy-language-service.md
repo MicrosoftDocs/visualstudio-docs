@@ -1,20 +1,21 @@
 ---
 title: Automatic Formatting in a Legacy Language Service | Microsoft Docs
 description: Learn about automatic formatting in a legacy language service, that automatically inserts a snippet of code when you begin to type a known code construct.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - language services, automatic formatting
 ms.assetid: c210fc94-77bd-4694-b312-045087d8a549
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Automatic formatting in a legacy language service
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 With automatic formatting, a language service automatically inserts a snippet of code when a user begins to type a known code construct.
 
 ## Automatic formatting behavior

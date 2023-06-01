@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IPropertyProxyEESide::CreateReplacementObject
 ms.assetid: 0cfe79b8-c3f1-48b0-a225-e39dee2c92fe
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IPropertyProxyEESide::CreateReplacementObject
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a copy of a data object specific to the expression evaluator (EE).
 
 ## Syntax
 
-```cpp
-HRESULT CreateReplacementObject(
-   IEEDataStorage*  dataIn,
-   IEEDataStorage** dataOut
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateReplacementObject(
    IEEDataStorage     dataIn,
    out IEEDataStorage dataOut
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateReplacementObject(
+   IEEDataStorage*  dataIn,
+   IEEDataStorage** dataOut
+);
+```
+---
 
 ## Parameters
 `dataIn`\

@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugPortSupplierLocale2::SetLocale
 ms.assetid: 21e88510-caac-405e-ba45-cb00e19a28bc
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -17,21 +17,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortSupplierLocale2::SetLocale
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the locale for the port supplier.
 
 ## Syntax
 
-```cpp
-HRESULT SetLocale(
-   WORD wLangID
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetLocale(
    ushort wLangID
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetLocale(
+   WORD wLangID
+);
+```
+---
 
 ## Parameters
 `wLangID`\

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugQueryEngine2::GetEngineInterface
 ms.assetid: ed84aa98-7ec7-48f3-97ae-821090bc3664
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugQueryEngine2::GetEngineInterface
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a custom debug engine (DE) interface.
 
 ## Syntax
 
-```cpp
-HRESULT GetEngineInterface( 
-   IUnknown** ppUnk
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetEngineInterface( 
    out object ppUnk
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEngineInterface( 
+   IUnknown** ppUnk
+);
+```
+---
 
 ## Parameters
 `ppUnk`\

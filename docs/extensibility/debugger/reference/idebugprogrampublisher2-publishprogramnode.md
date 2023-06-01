@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramPublisher2::PublishProgramNode
 ms.assetid: d4b72e04-f726-46cf-8e56-5203ff205b12
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramPublisher2::PublishProgramNode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Makes a program node available for use by debug engines (DEs) and the session debug manager (SDM).
 
 ## Syntax
 
-```cpp
-HRESULT PublishProgramNode(
-   IDebugProgramNode2 *pProgramNode
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int PublishProgramNode(
    IDebugProgramNode2 pProgramNode
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT PublishProgramNode(
+   IDebugProgramNode2 *pProgramNode
+);
+```
+---
 
 ## Parameters
 `pProgramNode`\

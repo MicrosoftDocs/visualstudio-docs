@@ -1,7 +1,6 @@
 ---
 title: "Source Server Security Alert | Microsoft Docs"
 description: Read about the Source Server security alert warning in the Visual Studio debugger. Be aware of potential security threats when using Source Server.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -20,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # Source Server Security Alert
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When using Source Server, only use symbol files that are from a known and trusted location.
 
  This warning appears when you enable Source Server support. Source Server commands are embedded in debug symbol files (**\*.pdb** files). Make sure you know where your PDB files come from.

@@ -1,20 +1,21 @@
 ---
 title: "Workflow Designer - Assign Activity Designer"
 description: Learn how you can use the Assign activity designer to create and configure an Assign activity, and how the Assign activity assigns a value to a variable or argument.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.Assign.UI"
 ms.assetid: ba3feb3c-f144-47ea-926d-cf752b804153
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
   - "multiple"
 ---
 # Assign Activity Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Assign** activity designer is used to create and configure an <xref:System.Activities.Statements.Assign> activity.
 

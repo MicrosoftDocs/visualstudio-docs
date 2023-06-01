@@ -13,6 +13,8 @@ monikerRange: ">=vs-2019"
 ---
 # Get a publish profile from Azure App Service
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 A publish profile is a file that contains information and settings that Visual Studio uses to deploy applications and services to Azure.
 
 1. In the Azure portal, open the Azure App Service.

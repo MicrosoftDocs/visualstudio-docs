@@ -1,18 +1,19 @@
 ---
 title: Synchronously autoloaded extensions
 description: Learn about the default behavior beginning with Visual Studio 2019, which blocks synchronously autoloaded packages from any extension.
-ms.custom: SEO-VS-2020
 ms.date: 12/11/2019
 ms.topic: conceptual
 ms.assetid: 822e3cf8-f723-4ff1-8467-e0fb42358a1f
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Synchronously autoloaded extensions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Synchronously autoloaded extensions have a negative impact on the performance of Visual Studio and should be converted to use asynchronous autoload instead. By default, Visual Studio 2019 blocks synchronously autoloaded packages from any extension and notifies the user.
 

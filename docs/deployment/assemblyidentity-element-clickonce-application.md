@@ -1,7 +1,6 @@
 ---
 title: "&lt;assemblyIdentity&gt; Element (ClickOnce Application) | Microsoft Docs"
 description: The assemblyIdentity element is required in ClickOnce application. It contains no child elements and has attributes described in this article.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -21,6 +20,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;assemblyIdentity&gt; element (ClickOnce application)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Identifies the application deployed in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.
 
 ## Syntax

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocumentPosition2::GetDocument
 ms.assetid: eaa172c9-5748-4ce1-a0e2-33c2063f6752
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentPosition2::GetDocument
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the containing document.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocument( 
-   IDebugDocument2** ppDoc
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocument( 
    out IDebugDocument2 ppDoc
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocument( 
+   IDebugDocument2** ppDoc
+);
+```
+---
 
 ## Parameters
 `ppDoc`\

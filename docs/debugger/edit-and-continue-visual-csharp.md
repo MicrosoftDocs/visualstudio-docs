@@ -1,8 +1,7 @@
 ---
 title: "Edit and Continue (Visual C#) | Microsoft Docs"
 description: Edit and Continue is available for Visual C# projects. Learn what edits are supported, and how to can control whether, and when, your edits are applied.
-ms.custom: SEO-VS-2020
-ms.date: "10/11/2017"
+ms.date: "02/22/2022"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -22,11 +21,13 @@ ms.workload:
   - "dotnet"
 ---
 # Edit and Continue (Visual C#)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
  With Edit and Continue for C#, you can make changes to your code in break mode while debugging. The changes can be applied without having to stop and restart the debugging session. In run mode, the source editor is read-only.
 
  Edit and Continue supports most changes you might want to make during a debugging session, but there are some exceptions. For more information, see [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).
 
- Edit and Continue is supported in UWP in Windows 10, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).
+ Edit and Continue is supported in UWP in Windows 10 or later, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).
 
  > [!NOTE]
  > Unsupported apps and platforms include Silverlight 5, and Windows 8.1.

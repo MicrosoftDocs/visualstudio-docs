@@ -1,8 +1,7 @@
 ---
 title: How to add an app.config file to a project
 description: Learn how to add an app.config file to a C# project so you can customize how the common language runtime locates and loads assembly files.
-ms.custom: SEO-VS-2020
-ms.date: 11/20/2020
+ms.date: 01/17/2023
 ms.topic: how-to
 dev_langs:
 - CSharp
@@ -17,7 +16,9 @@ ms.workload:
 ---
 # How to: Add an application configuration file to a C# project
 
-By adding an application configuration file (*app.config* file) to a C# project, you can customize how the common language runtime locates and loads assembly files. For more information about application configuration files, see [How the runtime locates assemblies (.NET Framework)](/dotnet/framework/deployment/how-the-runtime-locates-assemblies).
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+By adding an application configuration file (*app.config* file) to a C# project, you can customize how the common language runtime locates and loads assembly files. For more information about application configuration files or about assemblies in .NET, see [How the runtime locates assemblies (.NET Framework)](/dotnet/framework/deployment/how-the-runtime-locates-assemblies) and [Assemblies in .NET](/dotnet/standard/assembly/).
 
 > [!NOTE]
 > UWP apps don't contain an *app.config* file.
@@ -26,15 +27,17 @@ When you build your project, the development environment automatically copies yo
 
 ## To add an application configuration file to a C# project
 
-1. On the menu bar, choose **Project** > **Add New Item**.
+1. In **Solution Explorer**, right-click the project node, and then select **Add** > **New Item**.
 
      The **Add New Item** dialog box appears.
 
-1. Expand **Installed** > **Visual C# Items**, and then choose the **Application Configuration File** template.
+1. Expand **Installed** > **Visual C# Items**.
 
-1. In the **Name** text box, enter a name, and then choose the **Add** button.
+1. In the middle pane, select the **Application Configuration File** template.
 
-     A file named *app.config* is added to your project.
+1. Select the **Add** button.
+
+     A file named *App.config* is added to your project.
 
 ## See also
 

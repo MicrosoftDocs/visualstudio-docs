@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramNode2::GetProgramName
 ms.assetid: 510c7f5d-48ff-4d9f-ad79-fbad9f15239d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramNode2::GetProgramName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the name of the program.
 
 ## Syntax
 
-```cpp
-HRESULT GetProgramName (
-    BSTR* pbstrProgramName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProgramName (
     out string pbstrProgramName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProgramName (
+    BSTR* pbstrProgramName
+);
+```
+---
 
 ## Parameters
 `pbstrProgramName`\

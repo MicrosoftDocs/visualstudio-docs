@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - BP_UNBOUND_REASON enumeration
 ms.assetid: 939b6f9c-113b-471d-9f30-b03871af6285
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,22 @@ dev_langs:
 - CSharp
 ---
 # BP_UNBOUND_REASON
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gives the reason a breakpoint was unbound.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_BP_UNBOUND_REASON {
+    BPUR_UNKNOWN           = 0x0000,
+    BPUR_CODE_UNLOADED     = 0x0002,
+    BPUR_BREAKPOINT_REBIND = 0x0003,
+    BPUR_BREAKPOINT_ERROR  = 0x0004
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_BP_UNBOUND_REASON {
     BPUR_UNKNOWN           = 0x0000,
@@ -32,15 +44,7 @@ enum enum_BP_UNBOUND_REASON {
 };
 typedef DWORD BP_UNBOUND_REASON;
 ```
-
-```csharp
-public enum enum_BP_UNBOUND_REASON {
-    BPUR_UNKNOWN           = 0x0000,
-    BPUR_CODE_UNLOADED     = 0x0002,
-    BPUR_BREAKPOINT_REBIND = 0x0003,
-    BPUR_BREAKPOINT_ERROR  = 0x0004
-};
-```
+---
 
 ## Fields
 `BPUR_UNKNOWN`\

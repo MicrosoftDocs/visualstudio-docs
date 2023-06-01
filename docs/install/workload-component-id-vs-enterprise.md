@@ -6,7 +6,7 @@ keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.date: 10/12/2021
+ms.date: 05/16/2023
 ms.topic: reference
 helpviewer_keywords:
 - workload ID, Visual Studio
@@ -19,21 +19,15 @@ open_to_public_contributors: false
 ---
 # Visual Studio Enterprise component directory
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 [!INCLUDE[workloads-components-universal-header_md](includes/workloads-components-universal-header_md.md)]
-
-::: moniker range="vs-2017"
-
-[!INCLUDE[workloads-components-header-2017_md](includes/workloads-components-header-2017_md.md)]
-
-[!include[Visual Studio Community 2017](includes/vs-2017/workload-component-id-vs-enterprise.md)]
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
 [!INCLUDE[workloads-components-header-2019_md](includes/workloads-components-header-2019_md.md)]
 
-[!include[Visual Studio Community 2019](includes/vs-2019/workload-component-id-vs-enterprise.md)]
+[!include[Visual Studio Enterprise 2019](includes/vs-2019/workload-component-id-vs-enterprise.md)]
 
 ::: moniker-end
 
@@ -41,7 +35,7 @@ open_to_public_contributors: false
 
 [!INCLUDE[workloads-components-header-2022_md](includes/workloads-components-header-2022.md)]
 
-[!include[Visual Studio Community 2022](includes/vs-2022/workload-component-id-vs-enterprise.md)]
+[!include[Visual Studio Enterprise 2022](includes/vs-2022/workload-component-id-vs-enterprise.md)]
 
 ::: moniker-end
 

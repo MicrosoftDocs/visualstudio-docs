@@ -1,7 +1,6 @@
 ---
 title: Domain Property Value Change Handlers
 description: Learn about domain property value change handlers that can be used in a Visual Studio domain-specific language.
-ms.custom: SEO-VS-2020
 ms.date: 03/22/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -14,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # Domain property value change handlers
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In a Visual Studio domain-specific language, when the value of a domain property changes, the `OnValueChanging()` and `OnValueChanged()` methods are invoked in the domain property handler. To respond to the change, you can override these methods.
 

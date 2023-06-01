@@ -1,7 +1,6 @@
 ---
 title: "Use local database files in Office solutions overview"
 description: Learn how you can include a database file, such as a SQL Server Express (.mdf) file or a Microsoft Office Access (.mdb) file, in your Office solution.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -19,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Use local database files in Office solutions overview
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can include a database file, such as a SQL Server Express (*.mdf*) file or a Microsoft Office Access (*.mdb*) file, in your Office solution. This enables end users to maintain a local database in situations where maintaining a centralized database is not required, for example in a local inventory solution that is used on only a single computer.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]

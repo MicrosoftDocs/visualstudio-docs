@@ -1,7 +1,6 @@
 ---
 title: Debug ASP.NET Exceptions | Microsoft Docs
 description: Learn to configure so that the debugger stops for unhandled exceptions in your ASP.NET application. You can assure that the break occurs in non-system code.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -22,6 +21,8 @@ ms.workload:
   - aspnet
 ---
 # How to: Debug ASP.NET Exceptions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Debugging exceptions is an important part of developing a robust [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application. General information about how to debug exceptions is at [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md).
 
  To debug unhandled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] exceptions, you must make sure that the debugger stops for them. The [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] runtime has a top-level exception handler. Therefore, the debugger never breaks on unhandled exceptions by default. To break into the debugger when an exception is thrown, you must select **Break when an exception is: Thrown** setting for that specific exception in the **Exceptions** dialog box.

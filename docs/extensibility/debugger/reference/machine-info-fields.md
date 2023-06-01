@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - MACHINE_INFO_FIELDS enumeration
 ms.assetid: 2d61d206-7d40-4df1-8c88-1b3c9c78821e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,21 @@ dev_langs:
 - CSharp
 ---
 # MACHINE_INFO_FIELDS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies what kind of information to retrieve for a particular machine.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_MACHINE_INFO_FIELDS { 
+   MCIF_NAME  = 0x00000001,
+   MCIF_FLAGS = 0x00000002,
+   MCIF_ALL   = 0x00000003
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_MACHINE_INFO_FIELDS { 
    MCIF_NAME  = 0x00000001,
@@ -31,14 +42,7 @@ enum enum_MACHINE_INFO_FIELDS { 
 };
 typedef DWORD MACHINE_INFO_FIELDS;
 ```
-
-```csharp
-public enum enum_MACHINE_INFO_FIELDS { 
-   MCIF_NAME  = 0x00000001,
-   MCIF_FLAGS = 0x00000002,
-   MCIF_ALL   = 0x00000003
-};
-```
+---
 
 ## Fields
  `MCIF_NAME`\

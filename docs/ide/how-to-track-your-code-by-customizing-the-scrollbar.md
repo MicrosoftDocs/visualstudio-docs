@@ -1,7 +1,6 @@
 ---
 title: Scroll bar map mode and bar mode
 description: Learn how to track changes in your code through the customization of the scroll bar and also learn how to use Bar mode and Map mode.
-ms.custom: SEO-VS-2020
 ms.date: 03/20/2020
 ms.topic: how-to
 author: TerryGLee
@@ -12,6 +11,8 @@ ms.workload:
 - multiple
 ---
 # How to: Customize the scroll bar
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you are working with long code files, it can be hard to keep track of where everything is in the file. You can customize the scroll bar of the code editor to give you an overall picture of what's happening in your code.
 
@@ -70,3 +71,4 @@ The following image shows the **Show Preview Tooltip** option:
 ## See also
 
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Learn about the Editor Sticky Scroll feature](editor-sticky-scroll.md)

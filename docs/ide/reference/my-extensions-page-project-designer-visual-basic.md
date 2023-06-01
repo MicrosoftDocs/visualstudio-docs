@@ -1,7 +1,6 @@
 ---
 title: My Extensions Page, Project Designer (Visual Basic)
 description: Learn how to use the My Extensions page of the Project Designer to manage My namespace extensions in your project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # My Extensions Page, Project Designer (Visual Basic)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Use the **My Extensions** page of the **Project Designer** to manage `My` namespace extensions in your project. `My` namespace extensions enable you to customize the `My` namespace to add your own custom members. For information about creating custom `My` namespace extensions, see [Extending the My Namespace in Visual Basic](/dotnet/visual-basic/developing-apps/customizing-extending-my/extending-the-my-namespace).
 
 To access the **My Extensions** page, double-click **My Project** for your project node in **Solution Explorer**. When the **Project Designer** appears, click the **My Extensions** tab.

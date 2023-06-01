@@ -1,7 +1,6 @@
 ---
 title: Responding to and Propagating Changes
 description: Learn that when an element is created, deleted, or updated, you can write code that propagates the change to other parts of the model, or to external resources.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -14,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # Respond to and propagate changes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When an element is created, deleted or updated, you can write code that propagates the change to other parts of the model, or to external resources such as files, databases, or other components.
 

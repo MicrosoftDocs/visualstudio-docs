@@ -1,7 +1,6 @@
 ---
 title: Signing VSIX Packages | Microsoft Docs
 description: Learn about signing extension assemblies. The VSIX installer displays a message that a VSIX is signed and information about the signature itself.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -11,14 +10,16 @@ helpviewer_keywords:
 - vsix
 - packages
 ms.assetid: e34cfc2c-361c-44f8-9cfe-9f2be229d248
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Signing VSIX Packages
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Extension assemblies do not need to be signed before they can run in Visual Studio, but it is a good practice to do so.
 
  If you want to secure your extension and make sure it hasn't been tampered with, you can add a digital signature to a VSIX package. When a VSIX is signed, the VSIX installer will display a message indicating that it is signed, plus more information about the signature itself. If the contents of the VSIX have been modified, and the VSIX has not been signed again, the VSIX installer will show that the signature is not valid. The installation is not stopped, but the user is warned.

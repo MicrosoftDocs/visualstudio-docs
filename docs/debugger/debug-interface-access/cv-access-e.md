@@ -1,7 +1,6 @@
 ---
 title: "CV_access_e | Microsoft Docs"
 description: Get information about the CV_access_e enumeration type, which specifies the scope of visibility (access level) of members in the debug interface access SDK.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -17,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # CV_access_e
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the scope of visibility (access level) of member functions and variables.
 
 ## Syntax

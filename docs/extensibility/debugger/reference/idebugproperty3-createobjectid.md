@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProperty3::CreateObjectID
 ms.assetid: f2fa81e7-822f-456e-8729-a96a18eea771
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,23 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty3::CreateObjectID
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a unique ID for this property to ensure that it is unique among all other properties.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int CreateObjectID();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT CreateObjectID(
    void
 );
 ```
-
-```csharp
-int CreateObjectID();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

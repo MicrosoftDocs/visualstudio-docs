@@ -1,7 +1,6 @@
 ---
 title: Projects and Solutions, Locations dialog box
 description: Learn how to use the Locations page in the Projects and Solutions section to set default locations for projects, project templates, and item templates.
-ms.custom: SEO-VS-2020
 ms.date: 07/26/2019
 ms.topic: reference
 f1_keywords:
@@ -14,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # Options dialog box: Projects and Solutions \> Locations
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this page to set default locations for projects, project templates, and item templates. To access these options, select **Tools** > **Options**, expand **Projects and Solutions**, and then select **Locations**.
 

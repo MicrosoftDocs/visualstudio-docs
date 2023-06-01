@@ -1,18 +1,20 @@
 ---
 title: Getting Started with Roslyn Analyzers | Microsoft Docs
 description: Use these resources to get started with Roslyn analyzers in Visual Studio; includes a tutorial and several examples.
-ms.custom: SEO-VS-2020
+ms.custom: UpdateFrequency3
 ms.date: 04/02/2018
 ms.topic: conceptual
 ms.assetid: 367c2ec8-3059-46a5-9d1c-57bead0419e7
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Get started with Roslyn analyzers
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With live, project-based code analyzers in Visual Studio, API authors can ship domain-specific code analysis as part of their NuGet packages. Because these analyzers are powered by the .NET Compiler Platform (code-named "Roslyn"), they can produce warnings in your code as you type even before you've finished the line (no more waiting to build your code to discover issues). Analyzers can also surface an automatic code fix through the Visual Studio light bulb prompt to let you clean up your code immediately.
 
@@ -24,7 +26,7 @@ With live, project-based code analyzers in Visual Studio, API authors can ship d
 
 [Add code fixes Walkthrough: Provide users fixes for analyzer issues](/archive/msdn-magazine/2015/february/csharp-adding-a-code-fix-to-your-roslyn-analyzer)
 
-[Real world Roslyn analyzer](../extensibility/roslyn-analyzers-and-code-aware-library-for-immutablearrays.md) that you can also watch as a [talk](https://channel9.msdn.com/events/Build/2015/3-725)
+[Real world Roslyn analyzer](../extensibility/roslyn-analyzers-and-code-aware-library-for-immutablearrays.md)
 
 [Several examples on GitHub, grouped into three kinds of analyzers](https://github.com/dotnet/roslyn/blob/master/docs/analyzers/Analyzer%20Samples.md)
 

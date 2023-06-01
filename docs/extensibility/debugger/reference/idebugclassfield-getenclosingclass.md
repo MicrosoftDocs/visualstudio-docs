@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugClassField::GetEnclosingClass method
 ms.assetid: a0c12e3c-9ea0-4dfb-9e45-8cea18725022
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugClassField::GetEnclosingClass
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the class that encloses this class.
 
 ## Syntax
 
-```cpp
-HRESULT GetEnclosingClass(
-    IDebugClassField** ppClassField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetEnclosingClass(
     out IDebugClassField ppClassField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEnclosingClass(
+    IDebugClassField** ppClassField
+);
+```
+---
 
 ## Parameters
 `ppClassField`\

@@ -1,7 +1,6 @@
 ---
 title: LINQ to SQL classes with single-table inheritance
 description: In this walkthrough, create LINQ to SQL classes by using single-table inheritance in the Visual Studio Object Relational Designer (O/R Designer).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -16,6 +15,8 @@ ms.workload:
 - data-storage
 ---
 # Walkthrough: Create LINQ to SQL classes by using single-table inheritance (O/R Designer)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) supports single-table inheritance as it is typically implemented in relational systems. This walkthrough expands upon the generic steps provided in the [How to: Configure inheritance by using the O/R Designer](../data-tools/how-to-configure-inheritance-by-using-the-o-r-designer.md) topic and provides some real data to demonstrate the use of inheritance in the [!INCLUDE[vs_ordesigner_short](../data-tools/includes/vs_ordesigner_short_md.md)].
 
 During this walkthrough, you perform the following tasks:
@@ -147,17 +148,7 @@ You now add some code to the form that queries for a specific class in the objec
 
 3. Add the following code to the `Form1_Load` event handler:
 
-    ```vb
-    Dim dc As New DataClasses1DataContext
-    Dim results = From emp In dc.Persons _
-        Where TypeOf emp Is Employee _
-        Select emp
-
-    For Each Emp As Employee In results
-        ListBox1.Items.Add(Emp.LastName)
-    Next
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     NorthwindDataContext dc = new DataClasses1DataContext();
     var results = from emp in dc.Persons
@@ -169,6 +160,19 @@ You now add some code to the form that queries for a specific class in the objec
         listBox1.Items.Add(Emp.LastName)
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Dim dc As New DataClasses1DataContext
+    Dim results = From emp In dc.Persons _
+        Where TypeOf emp Is Employee _
+        Select emp
+
+    For Each Emp As Employee In results
+        ListBox1.Items.Add(Emp.LastName)
+    Next
+    ```
+    ---
 
 ## Test the application
 Run the application and verify that the records displayed in the list box are all employees (records that have a value of 2 in their **Type** column).

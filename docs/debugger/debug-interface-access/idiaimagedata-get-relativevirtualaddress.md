@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaImageData::get_relativeVirtualAddress
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the location in virtual memory of the module relative to the application.
 
 ## Syntax

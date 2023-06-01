@@ -1,8 +1,7 @@
 ---
 title: Configure unit tests with a .runsettings file
 description: Learn how to use the .runsettings file in Visual Studio to configure unit tests that are run from the command line, from the IDE, or in a build workflow.
-ms.custom: SEO-VS-2020
-ms.date: 11/06/2020
+ms.date: 12/13/2022
 ms.topic: conceptual
 ms.author: mikejo
 manager: jmartens
@@ -13,16 +12,20 @@ author: mikejo5000
 ---
 # Configure unit tests by using a *.runsettings* file
 
-Unit tests in Visual Studio can be configured by using a *.runsettings* file. For example, you can change the .NET version on which the tests are run, the directory for the test results, or the data that's collected during a test run. A common use of a *.runsettings* file is to customize [code coverage analysis](../test/customizing-code-coverage-analysis.md).
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Run settings files can be used to configure tests that are run from the [command line](vstest-console-options.md), from the IDE, or in a [build workflow](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts&preserve-view=true) using Azure Test Plans or Team Foundation Server (TFS).
+A *.runsettings* file can be used to configure how unit tests are being run. For example, it can be used to change the .NET version on which the tests are run, the directory for the test results, or the data that's collected during a test run. A common use of a *.runsettings* file is to customize [code coverage analysis](../test/customizing-code-coverage-analysis.md).
 
-Run settings files are optional. If you don't require any special configuration, you don't need a *.runsettings* file.
+Runsettings files can be used to configure tests that are run from the [command line](vstest-console-options.md), from the IDE, or in a build workflow using Azure Test Plans or Azure DevOps Server (formerly known as Team Foundation Server (TFS)).
+
+Runsettings files are optional. If you don't require any special configuration, you don't need a *.runsettings* file.
 
 ## Create a run settings file and customize it
 
 1. Add a run settings file to your solution. In **Solution Explorer**, on the shortcut menu of your solution, choose **Add** > **New Item**, and select **XML File**. Save the file with a name such as *test.runsettings*.
 
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
+   
    > [!TIP]
    > The file name doesn't matter, as long as you use the extension *.runsettings*.
 
@@ -32,23 +35,11 @@ Run settings files are optional. If you don't require any special configuration,
 
    - [Visual Studio IDE](#specify-a-run-settings-file-in-the-ide)
    - [Command line](#specify-a-run-settings-file-from-the-command-line)
-   - [Build workflow](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts&preserve-view=true) using Azure Test Plans or Team Foundation Server (TFS).
+   - [Build workflow](/azure/devops/pipelines/test/getting-started-with-continuous-testing?view=vsts&preserve-view=true) using Azure Test Plans or Azure DevOps Server (formerly known as Team Foundation Server (TFS)).
 
 4. Run the unit tests to use the custom run settings.
 
-::: moniker range="vs-2017"
-
-If you want to turn the custom settings off and on in the IDE, deselect or select the file in the **Test** > **Test Settings** menu.
-
-![Test settings menu with custom settings file in Visual Studio 2017](../test/media/codecoverage-settingsfile.png)
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 If you want to turn the custom settings off and on in the IDE, deselect or select the file on the **Test** menu.
-
-::: moniker-end
 
 > [!TIP]
 > You can create more than one *.runsettings* file in your solution and select one as the active test settings file as needed.
@@ -56,16 +47,6 @@ If you want to turn the custom settings off and on in the IDE, deselect or selec
 ## Specify a run settings file in the IDE
 
 The methods available depend on your version of Visual Studio.
-
-::: moniker range="vs-2017"
-To specify a run settings file in the IDE, select **Test** > **Test Settings** > **Select Test Settings File**, and then select the *.runsettings* file.
-
-![Select test settings file menu in Visual Studio 2017](media/select-test-settings-file.png)
-
-The file appears on the Test Settings menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
-::: moniker-end
-
-::: moniker range=">=vs-2019"
 
 ### Visual Studio 2019 version 16.4 and later
 
@@ -86,20 +67,20 @@ If auto detection of run settings files is enabled, the settings in this file ar
 
 - Select **Tools** > **Options** > **Test** > **Auto Detect runsettings Files**
 
-   ![Auto detect runsettings file option in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-tools-window.png)
+   ![Auto detect runsettings file option in Visual Studio](media/auto-detect-runsettings-tools-window.png)
 
 - Select **Test** > **Configure Run Settings** > **Auto Detect runsettings Files**
 
-   ![Auto detect runsettings file menu in Visual Studio 2019](media/vs-2019/auto-detect-runsettings-menu.png)
+   ![Auto detect runsettings file menu in Visual Studio](media/auto-detect-runsettings-menu.png)
 
 #### Manually select the run settings file
 
 In the IDE, select **Test** > **Configure Run Settings** > **Select Solution Wide runsettings File**, and then select the *.runsettings* file.
 
-   - This file overrides the *.runsettings* file at the root of the solution, if one is present, and is applied across all tests run.
-   - This file selection only persists locally.
+- This file overrides the *.runsettings* file at the root of the solution, if one is present, and is applied across all tests run.
+- This file selection only persists locally.
 
-![Select test solution-wide runsettings file menu in Visual Studio 2019](media/vs-2019/select-solution-settings-file.png)
+![Select test solution-wide runsettings file menu in Visual Studio](media/select-solution-settings-file.png)
 
 #### Set a build property
 
@@ -127,7 +108,6 @@ To specify a run settings file in the IDE, select **Test** > **Select Settings F
 ![Select test settings file menu in Visual Studio 2019](media/vs-2019/select-settings-file.png)
 
 The file appears on the Test menu, and you can select or deselect it. While selected, the run settings file applies whenever you select **Analyze Code Coverage**.
-::: moniker-end
 
 ## Specify a run settings file from the command line
 
@@ -169,7 +149,7 @@ Each of the configuration elements is optional because it has a default value.
     <MaxCpuCount>1</MaxCpuCount>
     <ResultsDirectory>.\TestResults</ResultsDirectory>
     <TargetPlatform>x86</TargetPlatform>
-    <TargetFrameworkVersion>Framework40</TargetFrameworkVersion>
+    <TargetFrameworkVersion>net6.0</TargetFrameworkVersion>
     <TestAdaptersPaths>%SystemDrive%\Temp\foo;%SystemDrive%\Temp\bar</TestAdaptersPaths>
     <TestSessionTimeout>10000</TestSessionTimeout>
     <TreatNoTestsAsError>true</TreatNoTestsAsError>
@@ -180,15 +160,15 @@ The **RunConfiguration** element can include the following elements:
 
 |Node|Default|Values|
 |-|-|-|
-|**MaxCpuCount**|1|This setting controls the degree of parallel test execution when running unit tests using available cores on the machine. The test execution engine starts as a distinct process on each available core, and gives each core a container with tests to run. A container can be an assembly, DLL, or relevant artifact. The test container is the scheduling unit. In each container, the tests are run according to the test framework. If there are many containers, then as processes finish executing the tests in a container, they're given the next available container.<br /><br />MaxCpuCount can be:<br /><br />n, where 1 <= n <= number of cores: up to n processes are launched<br /><br />n, where n = any other value: the number of processes launched can be up to the number of available cores. For instance, set n=0 to let the platform automatically decide the optimal number of processes to launch based on the environment.|
+|**MaxCpuCount**|1|**The option name is case sensitive and is easy to misspell as MaxCPUCount**.<br /><br />This setting controls the level of parallelism on process-level. Use 0 to enable the maximum process-level parallelism.<br /><br />This setting determines the maximum number of test DLLs, or other test containers that can run in parallel. Each DLL runs in its own testhost process, and is isolated on the process level from the tests in other test DLLs. This setting doesn't force tests in each test DLL to run in parallel. Controlling the parallel execution within a DLL (on the thread-level) is up to the test framework such as MSTest, XUnit or NUnit.<br /><br />The default value is `1`, meaning that only one testhost runs at the same time. A special value `0` allows as many testhosts as you have logical processors (for example, 6, for a computer with 6 physical cores without multi-threading, or 12, for a computer with six physical cores with multi-threading).<br /><br />The number of distinct DLLs in the run determines the actual number of testhosts started.|
 |**ResultsDirectory**||The directory where test results are placed. The path is relative to the directory that contains .runsettings file.|
-|**TargetFrameworkVersion**|Framework40|`FrameworkCore10` for .NET Core sources, `FrameworkUap10` for UWP-based sources, `Framework45` for .NET Framework 4.5 and higher, `Framework40` for .NET Framework 4.0, and `Framework35` for .NET Framework 3.5.<br /><br />This setting specifies the version of the unit test framework used to discover and execute the tests. It can be different from the version of the .NET platform that you specify in the build properties of the unit test project.<br /><br />If you omit the `TargetFrameworkVersion` element from the *.runsettings* file, the platform automatically determines the framework version based on the built binaries.|
-|**TargetPlatform**|x86|x86, x64|
+|**TargetFrameworkVersion**| net40 or netcoreapp1.0 |**Omit this whole tag to auto-detect.**<br /><br />This setting defines the framework version, or framework family to use to run tests.<br /><br />Accepted values are any framework moniker such as `net48`, `net472`,`net6.0`, `net5.0`, `netcoreapp3.1`, `uap10.0` or any valid full framework name such as`.NETFramework,Version=v4.7.2` or `.NETCoreApp,Version=v6.0.0`. For backwards compatibility `Framework35`, `Framework40`, `Framework45`, `FrameworkCore10`, `FrameworkUap10` are accepted, meaning (`net35`, `net40`, `net45`, `netcoreapp1.0` and `uap10.0` respectively). All the values are case-insensitive.<br /><br />The provided value is used to determine the test runtime provider to be used. Every test runtime provider must respect the framework family to be used, but might not respect the exact framework version:<br /><br />For .NET Framework 4.5.1 - 4.8 a testhost that was built with the specified exact version is used. For values outside of that range, .NET Framework 4.5.1 testhost is used.<br /><br />For .NET, the test project's `<TargetFramework>` (or more precisely `runtimeconfig.json`) determines the actual version.<br /><br />For UWP, the test project application is a testhost by itself, and determines the actual version of UWP that is used.<br /><br />Omit the `TargetFrameworkVersion` element from the *.runsettings* file to automatically determine the framework version from the built binaries.<br /><br />When autodetecting, all target frameworks are unified into a single common framework. When a different version from the same target framework family is found, the newer version is chosen (for example, net452, net472, net48 = net48).<br /><br />For .NET Framework runner (in Visual Studio, or vstest.console.exe in Developer command line) the common target framework is to net40. For .NET runner (dotnet test + DLLs), the common target framework is set to netcoreapp1.0.|
+|**TargetPlatform**|x86|**Omit this whole tag to auto-detect.**<br /><br />This setting defines the architecture to use to run tests. Possible values are `x86`, `x64`, `ARM`, `ARM64`, `S390x`.<br /><br />When autodetecting, the architecture for AnyCPU DLLs may differ based on the runner. For .NET Framework runner (in Visual Studio, or vstest.console.exe in Developer command line), the default is x86. For .NET runner (dotnet test), the default is the current process architecture.<br /><br />|
 |**TreatTestAdapterErrorsAsWarnings**|false|false, true|
 |**TestAdaptersPaths**||One or more paths to the directory where the TestAdapters are located|
 |**TestSessionTimeout**||Allows users to terminate a test session when it exceeds a given timeout. Setting a timeout ensures that resources are well consumed and test sessions are constrained to a set time. The setting is available in **Visual Studio 2017 version 15.5** and later.|
-|**DotnetHostPath**||Specify a custom path to dotnet host that is used to run the testhost. This is useful when you are building your own dotnet, for example when building the dotnet/runtime repository. Specifying this option will skip looking for testhost.exe, and will always use the testhost.dll.|
-|**TreatNoTestsAsError**|false| true or false <br>Specify a Boolean value, which defines the exit code when no tests are discovered. If the value is `true` and no tests are discovered, a non-zero exit code is returned. Otherwise, zero is returned.|
+|**DotnetHostPath**||Specify a custom path to dotnet host that is used to run the testhost. It's useful when you're building your own dotnet, for example when building the dotnet/runtime repository. Specifying this option skips looking for testhost.exe, and forces the use of testhost.dll.|
+|**TreatNoTestsAsError**|false| true or false <br>Specify a Boolean value, which defines the exit code when no tests are discovered. If the value is `true` and no tests are discovered, a nonzero exit code is returned. Otherwise, zero is returned.|
 
 ## DataCollectors element (diagnostic data adapters)
 
@@ -235,9 +215,39 @@ To customize any other type of diagnostic data adapters, use a [test settings fi
 
 This option can help you isolate a problematic test that causes a test host crash. Running the collector creates an output file (*Sequence.xml*) in *TestResults*, which captures the order of execution of the test before the crash.
 
-```xml
-<DataCollector friendlyName="blame" enabled="True">
-</DataCollector>
+You can run blame in three different modes: 
+- Sequence file mode: to create a file with the list of tests up to the hang
+- Crash dump mode: to create a dump when testhost crashes
+- Hang dump mode: to create a dump when test doesn't finish before given timeout
+
+The XML configuration should be placed directly into `<RunSettings>` node:
+
+```xml 
+<RunSettings>
+  <RunConfiguration>
+  </RunConfiguration>
+  <LoggerRunSettings>
+    <Loggers>
+      <Logger friendlyName="blame" enabled="True" />
+    </Loggers>
+  </LoggerRunSettings>
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <!-- Enables blame -->
+      <DataCollector friendlyName="blame" enabled="True">
+        <Configuration>
+          <!-- Enables crash dump, with dump type "Full" or "Mini".
+          Requires ProcDump in PATH for .NET Framework. -->
+          <CollectDump DumpType="Full" />
+          <!-- Enables hang dump or testhost and its child processes 
+          when a test hangs for more than 10 minutes. 
+          Dump type "Full", "Mini" or "None" (just kill the processes). -->
+          <CollectDumpOnTestSessionHang TestTimeout="10min" HangDumpType="Full" />
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>
+</RunSettings>
 ```
 
 ## TestRunParameters
@@ -245,7 +255,7 @@ This option can help you isolate a problematic test that causes a test host cras
 ```xml
 <TestRunParameters>
     <Parameter name="webAppUrl" value="http://localhost" />
-    <Parameter name="docsUrl" value="https://docs.microsoft.com" />
+    <Parameter name="docsUrl" value="https://learn.microsoft.com" />
 </TestRunParameters>
 ```
 
@@ -258,7 +268,7 @@ public TestContext TestContext { get; set; }
 [TestMethod] // [Test] for NUnit
 public void HomePageTest()
 {
-    string _appURL = TestContext.Properties["webAppUrl"];
+    string _appUrl = TestContext.Properties["webAppUrl"];
 }
 ```
 
@@ -308,16 +318,20 @@ These settings are specific to the test adapter that runs test methods that have
 
 |Configuration|Default|Values|
 |-|-|-|
-|**ForcedLegacyMode**|false|In Visual Studio 2012, the MSTest adapter was optimized to make it faster and more scalable. Some behavior, such as the order in which tests are run, might not be exactly as it was in previous editions of Visual Studio. Set this value to **true** to use the older test adapter.<br /><br />For example, you might use this setting if you have an *app.config* file specified for a unit test.<br /><br />We recommend that you consider refactoring your tests to allow you to use the newer adapter.|
-|**IgnoreTestImpact**|false|The test impact feature prioritizes tests that are affected by recent changes, when run in MSTest or from Microsoft Test Manager (deprecated in Visual Studio 2017). This setting deactivates the feature. For more information, see [Which tests should be run since a previous build](/previous-versions/dd286589(v=vs.140)).|
-|**SettingsFile**||You can specify a test settings file to use with the MSTest adapter here. You can also specify a test settings file [from the settings menu](#specify-a-run-settings-file-in-the-ide).<br /><br />If you specify this value, you must also set the **ForcedlegacyMode** to **true**.<br /><br />`<ForcedLegacyMode>true</ForcedLegacyMode>`|
-|**KeepExecutorAliveAfterLegacyRun**|false|After a test run is completed, MSTest is shut down. Any process that is launched as part of the test is also killed. If you want to keep the test executor alive, set the value to **true**. For example, you could use this setting to keep the browser running between coded UI tests.|
+|**ForcedLegacyMode**|false|In Visual Studio 2012, the MSTest adapter was optimized to make it faster and more scalable. Some behavior, such as the order in which tests are run, might not be exactly as it was in previous editions of Visual Studio. Set the value to **true** to use the older test adapter.<br /><br />For example, you might use this setting if you have an *app.config* file specified for a unit test.<br /><br />We recommend that you consider refactoring your tests to allow you to use the newer adapter.|
+|**SettingsFile**||You can specify a test settings file to use with the MSTest adapter here. You can also specify a test settings file [from the settings menu](#specify-a-run-settings-file-in-the-ide).<br /><br />If you specify this value, you must also set the **ForcedLegacyMode** to **true**.<br /><br />`<ForcedLegacyMode>true</ForcedLegacyMode>`|
 |**DeploymentEnabled**|true|If you set the value to **false**, deployment items that you've specified in your test method aren't copied to the deployment directory.|
 |**CaptureTraceOutput**|true|You can write to the debug trace from your test method using <xref:System.Diagnostics.Trace.WriteLine%2A?displayProperty=nameWithType>.|
+|**EnableBaseClassTestMethodsFromOtherAssemblies**|true|A value indicating whether to enable discovery of test methods from base classes in a different assembly from the inheriting test class.|
+|**ClassCleanupLifecycle**|EndOfClass|If you want the class cleanup to occur at the end of assembly, set it to **EndOfAssembly**. (No longer supported starting from MSTest v4 as EndOfClass is the default and only [ClassCleanup](<xref:Microsoft.VisualStudio.TestTools.UnitTesting.ClassCleanupAttribute>) behavior)|
+|**MapNotRunnableToFailed**|true|A value indicating whether a not runnable result is mapped to failed test.|
+|**Parallelize**|Used to set the parallelization settings:<br /><br />**Workers**: The number of threads/workers to be used for parallelization, which is by default **the number of processors on the current machine**.<br /><br />**SCOPE**: The scope of parallelization. You can set it to **MethodLevel**. By default, it's **ClassLevel**.<br /><br />`<Parallelize><Workers>32</Workers><Scope>MethodLevel</Scope></Parallelize>`|
+|**TestTimeout**|0|Gets specified global test case timeout.|
+|**TreatClassAndAssemblyCleanupWarningsAsErrors**|false|To see your failures in class cleanups as errors, set this value to **true**.|
+|**DeployTestSourceDependencies**|true|A value indicating whether the test source references are to be deployed.|
 |**DeleteDeploymentDirectoryAfterTestRunIsComplete**|true|To retain the deployment directory after a test run, set this value to **false**.|
-|**MapInconclusiveToFailed**|false|If a test completes with an inconclusive status, it is mapped to the skipped status in **Test Explorer**. If you want inconclusive tests to be shown as failed, set the value to **true**.|
-|**InProcMode**|false|If you want your tests to be run in the same process as the MSTest adapter, set this value to **true**. This setting provides a minor performance gain. But if a test exits with an exception, the remaining tests don't run.|
-|**AssemblyResolution**|false|You can specify paths to additional assemblies when finding and running unit tests. For example, use these paths for dependency assemblies that aren't in the same directory as the test assembly. To specify a path, use a **Directory Path** element. Paths can include environment variables.<br /><br />`<AssemblyResolution>  <Directory path="D:\myfolder\bin\" includeSubDirectories="false"/> </AssemblyResolution>`|
+|**MapInconclusiveToFailed**|false|If a test completes with an inconclusive status, it's mapped to the skipped status in **Test Explorer**. If you want inconclusive tests to be shown as failed, set the value to **true**.|
+|**AssemblyResolution**|false|You can specify paths to extra assemblies when finding and running unit tests. For example, use these paths for dependency assemblies that aren't in the same directory as the test assembly. To specify a path, use a **Directory Path** element. Paths can include environment variables.<br /><br />`<AssemblyResolution>  <Directory path="D:\myfolder\bin\" includeSubDirectories="false"/> </AssemblyResolution>`<br /><br />Note that this feature is only being applied when using .NET Framework target.|
 
 ## Example *.runsettings* file
 
@@ -330,16 +344,19 @@ Each element of the file is optional because it has a default value.
 <RunSettings>
   <!-- Configurations that affect the Test Framework -->
   <RunConfiguration>
+    <!-- Use 0 for maximum process-level parallelization. This does not force parallelization within the test DLL (on the thread-level). You can also change it from the Test menu; choose "Run tests in parallel". Unchecked = 1 (only 1), checked = 0 (max). -->
     <MaxCpuCount>1</MaxCpuCount>
     <!-- Path relative to directory that contains .runsettings file-->
     <ResultsDirectory>.\TestResults</ResultsDirectory>
 
-    <!-- x86 or x64 -->
+    <!-- Omit the whole tag for auto-detection. -->
+    <!-- [x86] or x64, ARM, ARM64, s390x  -->
     <!-- You can also change it from the Test menu; choose "Processor Architecture for AnyCPU Projects" -->
     <TargetPlatform>x86</TargetPlatform>
 
-    <!-- Framework35 | [Framework40] | Framework45 -->
-    <TargetFrameworkVersion>Framework40</TargetFrameworkVersion>
+    <!-- Any TargetFramework moniker or omit the whole tag for auto-detection. -->
+    <!-- net48, [net40], net6.0, net5.0, netcoreapp3.1, uap10.0 etc. -->
+    <TargetFrameworkVersion>net40</TargetFrameworkVersion>
 
     <!-- Path to Test Adapters -->
     <TestAdaptersPaths>%SystemDrive%\Temp\foo;%SystemDrive%\Temp\bar</TestAdaptersPaths>
@@ -439,7 +456,7 @@ Each element of the file is optional because it has a default value.
 
 ## Specify environment variables in the *.runsettings* file
 
-Environment variables can be set in the *.runsettings* file, which can directly interact with the test host. Specifying environment variables in the *.runsettings* file is necessary to support nontrivial projects that require setting environment variables like *DOTNET_ROOT*. These variables are set while spawning the test host process and they are available in the host.
+Environment variables can be set in the *.runsettings* file, which can directly interact with the test host. Specifying environment variables in the *.runsettings* file is necessary to support nontrivial projects that require setting environment variables like *DOTNET_ROOT*. These variables are set while spawning the test host process and they're available in the host.
 
 ### Example
 

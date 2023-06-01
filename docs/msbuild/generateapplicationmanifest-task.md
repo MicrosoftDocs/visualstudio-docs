@@ -1,7 +1,6 @@
 ---
 title: GenerateApplicationManifest Task | Microsoft Docs
 description: Use the MSBuild GenerateApplicationManifest task to generates a ClickOnce application manifest or a native manifest.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -47,6 +46,7 @@ The following table describes the parameters for the `GenerateApplicationManifes
 | `IconFile` | Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Indicates the application icon file. The application icon is expressed in the generated application manifest and is used for the **Start Menu** and **Add/Remove Programs** dialog. If this input is not specified, a default icon is used. If the task is generating a native manifest, this parameter is ignored. |
 | `InputManifest` | Optional <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Indicates an input XML document to serve as a base for the manifest generator. This allows structured data such as application security or custom manifest definitions to be reflected in the output manifest. The root element in the XML document must be an assembly node in the asmv1 namespace. |
 | `IsolatedComReferences` | Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies COM components to isolate in the generated manifest. This parameter supports the ability to isolate COM components for "Registration Free COM" deployment. It works by auto-generating a manifest with standard COM registration definitions. However, the COM components must be registered on the build machine in order for this to function properly. |
+| `LauncherBasedDeployment` | Optional Boolean parameter.<br /><br /> Set this to `True` when building for .NET Core 3.1, .NET 5 and later versions to ensure that the application executable is renamed to the expected executable name after building the application host executable *apphost.exe*. |
 | `ManifestType` | Optional `String` parameter.<br /><br /> Specifies which type of manifest to generate. This parameter can have the following values:<br /><br /> -   `Native`<br />-   `ClickOnce`<br /><br /> If this parameter is not specified, the task defaults to `ClickOnce`. |
 | `MaxTargetPath` | Optional `String` parameter.<br /><br /> Specifies the maximum allowable length of a file path in a ClickOnce application deployment. If this value is specified, the length of each file path in the application is checked against this limit. Any items that exceed the limit will raise in a build warning. If this input is not specified or is zero, then no checking is performed. If the task is generating a native manifest, this parameter is ignored. |
 | `OSVersion` | Optional `String` parameter.<br /><br /> Specifies the minimum required operating system (OS) version required by the application. For example, the value "5.1.2600.0" indicates the operating system is Windows XP. If this parameter is not specified, the value "4.10.0.0" is used, which indicates Windows 98 Second Edition, the minimum supported OS of the .NET Framework. If the task is generating a native manifest, this input is ignored. |

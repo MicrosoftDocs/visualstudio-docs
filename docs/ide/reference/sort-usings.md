@@ -1,7 +1,7 @@
 ---
 title: Sort usings
 description: How to sort `using` directives at the top of your file so that they are in alphabetical order.
-ms.date: 03/10/2020
+ms.date: 04/05/2022
 ms.topic: reference
 author: mikadumont
 ms.author: midumont
@@ -14,6 +14,8 @@ ms.workload:
   - "dotnet"
 ---
 # Sort usings
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 
@@ -33,6 +35,10 @@ This refactoring applies to:
 2. Select **Intellisense** > **Sort Usings**.
 
    ![Sort usings](media/sort-usings.png)
+
+3. You can also configure different settings for `using` directives in **Tools** > **Options** > **Text Editor** > **C#** > **Advanced**.
+
+   ![Sort usings configuration options](media/sort-usings-configuration-options.png)
 
 ## See also
 

@@ -1,19 +1,20 @@
 ---
 title: Quickstart - Create a Python project from code
 description: In this quickstart, you create a Visual Studio project for Python from an existing folder, using a convenient template.
-ms.date: 12/06/2018
+ms.date: 05/12/2022
 ms.topic: quickstart
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
-
+ms.custom: devdivchpfy22
 ms.workload:
   - python
   - data-science
 ---
-
 # Quickstart: Create a Python project from existing code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Once you've [installed Python support in Visual Studio](installing-python-support-in-visual-studio.md), it's easy to bring existing Python code into a Visual Studio project.
 
@@ -32,5 +33,5 @@ If desired, run the program by pressing **Ctrl**+**F5** or selecting **Debug** >
 ## See also
 
 - [Manually identify an existing Python interpreter](managing-python-environments-in-visual-studio.md#manually-identify-an-existing-environment)
-- [Install Python support in Visual Studio 2015 and earlier](installing-python-support-in-visual-studio.md)
-- [Install locations](installing-python-support-in-visual-studio.md#install-locations)
+- [Install Python support in Visual Studio on Windows](installing-python-support-in-visual-studio.md#how-to-install-python-support-in-visual-studio-on-windows)
+- [Python tools install directory](installing-python-support-in-visual-studio.md#install-locations)

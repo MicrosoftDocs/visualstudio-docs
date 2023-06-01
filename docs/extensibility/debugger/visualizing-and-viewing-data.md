@@ -1,21 +1,22 @@
 ---
 title: Visualizing and Viewing Data | Microsoft Docs
 description: Learn how type visualizers and custom viewers present data to a developer. The expression evaluator supports third-party type visualizers.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], viewing data
 - debugging [Debugging SDK], visualizing data
 ms.assetid: 699dd0f5-7569-40b3-ade6-d0fe53e832bc
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # Visualizing and viewing data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Type visualizers and custom viewers present data in a way that is quickly meaningful to a developer. The expression evaluator (EE) can support third-party type visualizers as well as supply its own custom viewers.
 
  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] determines how many type visualizers and custom viewers are associated with the object's type by calling the [GetCustomViewerCount](../../extensibility/debugger/reference/idebugproperty3-getcustomviewercount.md) method. If there is at least one type visualizer or custom viewer available, Visual Studio calls the [GetCustomViewerList](../../extensibility/debugger/reference/idebugproperty3-getcustomviewerlist.md) method to retrieve a list of those visualizers and viewers (actually, a list of s that implements the visualizers and viewers) and presents them to the user.

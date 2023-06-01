@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngine3::SetEngineGuid
 ms.assetid: 8bdfa05d-feb7-4d98-abac-77825a04c50f
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine3::SetEngineGuid
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method sets the debug engine's (DE) `GUID`.
 
 ## Syntax
 
-```cpp
-HRESULT SetEngineGuid(
-   GUID* guidEngine
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetEngineGuid(
    ref Guid guidEngine
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetEngineGuid(
+   GUID* guidEngine
+);
+```
+---
 
 ## Parameters
 `guidEngine`\

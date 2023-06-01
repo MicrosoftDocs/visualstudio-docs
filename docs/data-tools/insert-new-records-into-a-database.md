@@ -22,7 +22,11 @@ ms.workload:
 ---
 # Insert new records into a database
 
-To insert new records into a database, you can use the `TableAdapter.Update` method, or one of the TableAdapter's DBDirect methods (specifically the `TableAdapter.Insert` method). For more information, see [TableAdapter](../data-tools/create-and-configure-tableadapters.md).
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
+
+To insert new records into a database with [ADO.NET](/dotnet/framework/data/adonet/) in a .NET Framework project, you can use the `TableAdapter.Update` method, or one of the TableAdapter's DBDirect methods (specifically the `TableAdapter.Insert` method). For more information, see [TableAdapter](../data-tools/create-and-configure-tableadapters.md).
 
 If your application doesn't use TableAdapters, you can use command objects (for example,  <xref:System.Data.SqlClient.SqlCommand>) to  insert new records in your database.
 
@@ -31,6 +35,9 @@ If your application uses datasets to store data, use the `TableAdapter.Update` m
 If your application uses objects to store data, or if you want finer control over creating new records in the database, use the `TableAdapter.Insert` method.
 
 If your TableAdapter doesn't have an `Insert` method, it means that either the TableAdapter is configured to use stored procedures, or its `GenerateDBDirectMethods` property is set to `false`. Try setting the TableAdapter's `GenerateDBDirectMethods` property to `true` from within the **Dataset Designer**, and then save the dataset. This action regenerates the TableAdapter. If the TableAdapter still doesn't have an `Insert` method, the table probably doesn't provide enough schema information to distinguish between individual rows (for example, there might be no primary key set on the table).
+
+> [!NOTE]
+> This article applies to ADO.NET and .NET Framework development. For the same task with Entity Framework 6, see [Adding a new entity to the context](/ef/ef6/saving/change-tracking/entity-state#adding-a-new-entity-to-the-context). For Entity Framework Core, see [Adding data](/ef/core/saving/basic#adding-data).
 
 ## Insert new records by using TableAdapters
 
@@ -46,8 +53,12 @@ If your application uses datasets to store data, you can add new records to the 
 
    The following code shows how to add a new record to a <xref:System.Data.DataTable> and then call the `TableAdapter.Update` method to save the new row to the database. (This example uses the `Region` table in the Northwind database.)
 
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form5.vb" id="Snippet14":::
+   ### [C#](#tab/csharp)
    :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Form5.cs" id="Snippet14":::
+
+   ### [VB](#tab/vb)
+   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Form5.vb" id="Snippet14":::
+   ---
 
 ### To insert new records into a database by using the TableAdapter.Insert method
 
@@ -60,8 +71,12 @@ The following procedure demonstrates using the `TableAdapter.Insert` method to i
 > [!NOTE]
 > If you do not have an instance available, instantiate the TableAdapter you want to use.
 
-:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet15":::
+### [C#](#tab/csharp)
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs" id="Snippet15":::
+
+### [VB](#tab/vb)
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet15":::
+---
 
 ## Insert new records by using command objects
 
@@ -73,8 +88,12 @@ You can insert new records directly into a database using command objects.
 
 The following example demonstrates inserting records into a database using command object. It inserts data into the `Region` table in the Northwind database.
 
-:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet16":::
+### [C#](#tab/csharp)
 :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/VbRaddataSaving/CS/Class1.cs" id="Snippet16":::
+
+### [VB](#tab/vb)
+:::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/VbRaddataSaving/VB/Class1.vb" id="Snippet16":::
+---
 
 ## .NET security
 

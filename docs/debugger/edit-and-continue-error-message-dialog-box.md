@@ -1,7 +1,6 @@
 ---
 title: "Edit and Continue error message dialog box| Microsoft Docs"
 description: Edit and Continue may report that it isn't available for your code changes. This article provides possible reasons.
-ms.custom: SEO-VS-2020
 ms.date: "10/15/2018"
 ms.topic: "reference"
 f1_keywords:
@@ -23,6 +22,8 @@ ms.workload:
   - "multiple"
 ---
 # Edit and Continue error message
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Edit and Continue** error message box appears when you're debugging in a code language that supports Edit and Continue, but Edit and Continue isn't available for the code changes you've made. The error message provides a more detailed explanation. To respond to the dialog, select **OK** to close the dialog box and cancel the edit attempt.
 

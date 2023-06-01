@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocumentContext2::GetLanguageInfo
 ms.assetid: 6a212ee5-414c-4eb5-ab11-19db1786943d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentContext2::GetLanguageInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the language associated with this document context.
 
 ## Syntax
 
-```cpp
-HRESULT GetLanguageInfo(
-    BSTR* pbstrLanguage,
-    GUID* pguidLanguage
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetLanguageInfo(
     out string pbstrLanguage,
     out Guid   pguidLanguage
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetLanguageInfo(
+    BSTR* pbstrLanguage,
+    GUID* pguidLanguage
+);
+```
+---
 
 ## Parameters
 `pbstrLanguage`\

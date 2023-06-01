@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCustomAttribute::GetAttributeBytes
 ms.assetid: cf34583b-6530-4dcc-89f8-eb27e4e8d594
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugCustomAttribute::GetAttributeBytes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the attribute information as a blob of bytes.
 
 ## Syntax
 
-```cpp
-HRESULT GetAttributeBytes( 
-   BYTE*  ppBlob,
-   DWORD* pdwLen
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAttributeBytes(
    ref byte[] ppBlob,
    ref uint   pdwLen
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAttributeBytes( 
+   BYTE*  ppBlob,
+   DWORD* pdwLen
+);
+```
+---
 
 ## Parameters
 `ppBlob`\

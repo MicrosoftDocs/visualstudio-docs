@@ -7,8 +7,8 @@ helpviewer_keywords:
 - IDebugComPlusSymbolProvider::GetSymAttribute
 - GetSymAttribute
 ms.assetid: 6cbaac92-a60b-4165-a7f5-c34407770f3c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,22 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::GetSymAttribute
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the debug symbols with the given parent attribute for the specified module.
 
 ## Syntax
 
-```cpp
-HRESULT GetSymAttribute (
-    ULONG32  ulAppDomainID,
-    GUID     guidModule,
-    _mdToken tokParent,
-    LPOLESTR pstrName,
-    ULONG32  cBuffer,
-    ULONG32* pcBuffer,
-    BYTE*    buffer
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSymAttribute (
     uint      ulAppDomainID,
@@ -45,6 +36,19 @@ int GetSymAttribute (
     out int[] buffer
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSymAttribute (
+    ULONG32  ulAppDomainID,
+    GUID     guidModule,
+    _mdToken tokParent,
+    LPOLESTR pstrName,
+    ULONG32  cBuffer,
+    ULONG32* pcBuffer,
+    BYTE*    buffer
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

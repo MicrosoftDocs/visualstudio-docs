@@ -1,21 +1,22 @@
 ---
 title: Servers (Visual Studio SDK) | Microsoft Docs
 description: This article describes the definition and role of a server in the debugger architecture in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - servers, debugging
 - debugging [Debugging SDK], servers
 ms.assetid: 62236d64-7956-448c-9ac3-5528f3edac1d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # Servers (Visual Studio SDK)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the debugger architecture, a *server*:
 
 - Is a container of ports and port suppliers and communicates ports and port suppliers to the session debug manager (SDM) and debug engines.

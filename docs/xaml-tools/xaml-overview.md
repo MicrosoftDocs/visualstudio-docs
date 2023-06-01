@@ -1,15 +1,16 @@
 ---
 title: XAML overview
 description: Learn basic information about XAML and the XAML code editor and XAML Designer tools in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 06/23/2020
 ms.topic: overview
-author: TerryGLee
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
 ---
 # Overview of XAML
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Extensible Application Markup Language (XAML) is a declarative language that's based on XML. XAML is used extensively in the following types of applications to build user interfaces:
 

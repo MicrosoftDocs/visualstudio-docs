@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDefaultPort2::GetServer
 ms.assetid: cacb4b74-0f39-471c-af38-54b73f5b2868
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugDefaultPort2::GetServer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method obtains an interface to the server that this port is on.
 
 ## Syntax
 
-```cpp
-HRESULT GetServer(
-   IDebugCoreServer3** ppServer
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetServer(
    out IDebugCoreServer3 ppServer
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetServer(
+   IDebugCoreServer3** ppServer
+);
+```
+---
 
 ## Parameters
 `ppServer`\

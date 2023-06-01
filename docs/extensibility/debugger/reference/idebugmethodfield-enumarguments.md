@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugMethodField::EnumArguments method
 ms.assetid: 3ab55488-2437-4ff6-a9ae-78ea6d7b23a8
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugMethodField::EnumArguments
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates an enumerator for the type of each argument required to call the method.
 
 ## Syntax
 
-```cpp
-HRESULT EnumArguments( 
-   IEnumDebugFields** ppParams
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumArguments(
    out IEnumDebugFields ppParams
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumArguments( 
+   IEnumDebugFields** ppParams
+);
+```
+---
 
 ## Parameters
 `ppParams`\

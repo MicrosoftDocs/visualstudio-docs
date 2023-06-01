@@ -1,7 +1,6 @@
 ---
 title: Customizing the Model Explorer
 description: Learn how you can change the appearance and behavior of the explorer for your domain-specific language designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -16,6 +15,8 @@ ms.workload:
 - multiple
 ---
 # Customizing the Model Explorer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can change the appearance and behavior of the explorer for your domain-specific language designer as follows:
 
 - Change the window title.

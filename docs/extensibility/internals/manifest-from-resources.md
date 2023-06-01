@@ -1,18 +1,19 @@
 ---
 title: Manifest from Resources | Microsoft Docs
 description: Learn how to use the Manifest from Resources tool to add .png or .xaml files to an .imagemanifest file for use with the Visual Studio Image Service. 
-ms.custom: SEO-VS-2020 
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: 0234109b-5dcb-4d9d-acb9-a63f8bd5699c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Manifest from Resources
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Manifest from Resources tool is a console application that takes a list of image resources (.png or .xaml files) and generates an .imagemanifest file that allows those images to be used with the Visual Studio Image Service. Additionally, this tool can be used to add images to an existing .imagemanifest. This tool is useful for adding high-DPI and theming support for images to a Visual Studio extension. The generated .imagemanifest file should be included in and deployed as a part of a Visual Studio extension (.vsix).
 
 ## How to use the tool

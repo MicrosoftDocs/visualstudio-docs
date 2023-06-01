@@ -1,6 +1,5 @@
 ---
 title: Convert a LINQ query to a foreach statement
-ms.custom: SEO-VS-2020
 description: Refactor code to convert any LINQ query written in query syntax to a foreach statement.
 ms.date: 03/10/2020
 ms.topic: reference
@@ -15,6 +14,8 @@ ms.workload:
 - dotnet
 ---
 # Refactoring to convert LINQ to a foreach statement
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use this refactoring to convert [LINQ query syntax](/dotnet/csharp/programming-guide/concepts/linq/query-syntax-and-method-syntax-in-linq) to a [foreach](/dotnet/csharp/language-reference/keywords/foreach-in) statement.
 

@@ -1,7 +1,6 @@
 ---
 title: MSBuild Special Characters | Microsoft Docs
 description: Learn about the MSBuild reserved characters for special use in specific contexts, and when and how to escape these characters.
-ms.custom: SEO-VS-2020
 ms.date: 06/12/2019
 ms.topic: conceptual
 helpviewer_keywords:
@@ -40,5 +39,4 @@ MSBuild reserves some characters for special use in specific contexts. You only 
 
 ## See also
 
-- [Advanced concepts](../msbuild/msbuild-advanced-concepts.md)
 - [Items](../msbuild/msbuild-items.md)

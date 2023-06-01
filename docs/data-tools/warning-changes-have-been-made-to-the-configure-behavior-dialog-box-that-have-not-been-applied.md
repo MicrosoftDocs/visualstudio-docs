@@ -1,7 +1,6 @@
 ---
 title: Unapplied changes
 description: Warning - changes have been made to the Configure Behavior dialog box that have not been applied. View information about this Visual Studio O/R Designer message.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: error-reference
 ms.assetid: ce5822dd-4f10-4c86-b707-7766837be216
@@ -13,6 +12,8 @@ ms.workload:
   - "data-storage"
 ---
 # Warning: Changes have been made to the Configure Behavior dialog box that have not been applied
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Warning. Changes have been made to the Configure Behavior dialog box that have not been applied. Do you want to apply your changes?
 

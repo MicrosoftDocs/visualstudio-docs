@@ -6,14 +6,16 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugProgramNameChangedEvent2 interface
 ms.assetid: be1f1cd5-0b2f-435c-a052-dca28a7c978d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # IDebugProgramNameChangedEvent2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sent from the debug engine (DE) to the session debug manager (SDM) when the name of a program changes.
 
 ## Syntax

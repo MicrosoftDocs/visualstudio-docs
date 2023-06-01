@@ -1,20 +1,21 @@
 ---
 title: TransactedReceiveScope activity designer
 description: In Workflow Designer, learn how you can use the TransactedReceiveScope designer to create and configure a TransactedReceiveScope activity.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.ServiceModel.Activities.TransactedReceiveScope.UI"
 ms.assetid: 7ca93aad-4e83-4d81-90f4-998ee114d9b6
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
   - "multiple"
 ---
 # TransactedReceiveScope Activity Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **TransactedReceiveScope** designer is used to create and configure a <xref:System.ServiceModel.Activities.TransactedReceiveScope> activity.
 

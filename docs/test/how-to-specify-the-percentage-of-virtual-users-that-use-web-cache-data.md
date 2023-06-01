@@ -1,7 +1,6 @@
 ---
 title: 'Load test: Set virtual user percentage using web cache data'
 description: Learn how to specify the percentage of new Users property in the Properties window. You edit load test scenario properties in the Load Test Editor.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -13,6 +12,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # How to: Specify the percentage of virtual users that use web cache data
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 After you create your load test with the **New Load Test Wizard**, you can change the scenarios properties to meet your testing needs and goals by using the **Load Test Editor**. For a full list of the load test scenario properties and their descriptions, see [Load test scenario properties](../test/load-test-scenario-properties.md).
 

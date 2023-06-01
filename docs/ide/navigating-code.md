@@ -1,7 +1,6 @@
 ---
 title: Code navigation commands
 description: Learn about the different options you have to navigate around in your code in the editor.
-ms.custom: SEO-VS-2020
 ms.date: 11/21/2019
 ms.topic: conceptual
 helpviewer_keywords:
@@ -22,6 +21,8 @@ ms.workload:
 - multiple
 ---
 # Navigate code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides numerous ways to navigate code in the editor. This topic summarizes the different ways you can navigate your code, and provides links to topics that go into more detail.
 

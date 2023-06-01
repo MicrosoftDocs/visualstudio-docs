@@ -12,6 +12,10 @@ ms.workload:
 ---
 # GPU usage
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+>[!NOTE]
+> Visual Studio Graphics Diagnostics is not supported on ARM64 Visual Studio.
+
 Use the GPU Usage tool in the Performance Profiler to better understand the high-level hardware usage of your Direct3D app. It helps you see whether the performance of your app is CPU-bound or GPU-bound, and gain insight into how you can use the platform's hardware more effectively. GPU Usage supports apps that use Direct3D 12, Direct3D 11, and Direct3D 10. It doesn't support other graphics APIs, such as Direct2D or OpenGL.
 
 Here's what the **GPU Usage Report** window looks like:

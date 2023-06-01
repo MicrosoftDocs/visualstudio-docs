@@ -1,20 +1,21 @@
 ---
 title: Managed Extensibility Framework in the Editor | Microsoft Docs
 description: Learn about the Managed Extensibility Framework, which allows you to build your own components to extend the editor in the Visual Studio SDK.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - using MEF for extensions
 ms.assetid: 3f59a285-6c33-4ae3-a4fb-ec1f5aa21bd1
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Managed Extensibility Framework in the editor
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The editor is built by using Managed Extensibility Framework (MEF) components. You can build your own MEF components to extend the editor, and your code can consume editor components as well.
 
 ## Overview of the Managed Extensibility Framework
@@ -73,6 +74,8 @@ public AdornmentLayerDefinition scarletLayerDefinition;
 [Import]
 internal IClassificationTypeRegistryService ClassificationRegistry;
 ```
+## Troubleshooting Import/Export Issues: Access the MEF Composition Error Log
+You may experience issues if you try to import something that doesn't exist in the current VS install, or if you incorrectly author your import or export.  The primary way to find and address these issues is to reference the **Managed Extensibility Framework (MEF) Composition Error Log**, stored at *%localappdata%\Microsoft\VisualStudio[yourVSVersion]\ComponentModelCache\Microsoft.VisualStudio.Default.err*.
 
 ## Get editor functionality from a MEF component part
  If your existing code is a MEF component part, you can use MEF metadata to consume editor component parts.

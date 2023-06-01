@@ -1,20 +1,21 @@
 ---
 title: Enumerators | Microsoft Docs
 description: Learn about the enumerator data types in the Source Control Plug-in API including Command code, Message, File status code, and Directory status code.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control plug-ins, enumerators
 ms.assetid: a60030c5-e1d1-47e1-84bb-cbfe838ab479
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Enumerators
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section lists the enumerator data types in the Source Control Plug-in API that the source control plug-in must know about.
 
 ## In this section

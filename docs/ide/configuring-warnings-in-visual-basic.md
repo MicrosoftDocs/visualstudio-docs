@@ -1,7 +1,6 @@
 ---
 title: Configuring Warnings in Visual Basic
 description: Learn about how you can configure warnings in Visual Basic which, in turn, will help you write cleaner, faster, better code with fewer bugs.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -17,6 +16,8 @@ ms.workload:
 - multiple
 ---
 # Configuring warnings in Visual Basic
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] compiler includes a set of warnings about code that may cause run-time errors. You can use that information to write cleaner, faster, better code with fewer bugs. For example, the compiler will produce a warning when the user attempts to invoke a member of an unassigned object variable, return from a function without setting the return value, or execute a `Try` block with errors in the logic to catch exceptions.
 

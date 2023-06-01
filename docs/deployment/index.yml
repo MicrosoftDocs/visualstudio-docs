@@ -4,14 +4,14 @@ title: Visual Studio deployment documentation # < 60 chars
 summary: Learn how to deploy applications, services, and components using Visual Studio # < 160 chars
 
 metadata:
-  title: Deployment in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.
+  title: Deployment documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
   description: Learn how to use Visual Studio to deploy applications, services, and components.
   ms.topic: landing-page
   ms.technology: vs-ide-deployment
   author: mikejo5000
   ms.author: mikejo
   manager: jmartens
-  ms.date: 09/17/2019
+  ms.date: 10/18/2022
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -28,22 +28,14 @@ landingContent:
           - text: Overview of Publish
             url: publish-overview.md
 
-  # Card (optional)
-  - title: Get started (.NET)
-    linkLists:
-      - linkListType: quickstart
-        links:
-          - text: Deploy an ASP.NET web app
-            url: quickstart-deploy-aspnet-web-app.md
-          - text: Deploy a .NET Core app using ClickOnce
-            url: quickstart-deploy-using-clickonce-folder.md
-
   # Card
-  - title: Deploy ASP.NET web apps
+  - title: ASP.NET web app deployment
     linkLists:
       - linkListType: tutorial
         links:
-          - text: Publish ASP.NET Core to Azure
+          - text: Publish tool
+            url: quickstart-deploy-aspnet-web-app.md
+          - text: Azure
             url: /azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app
           - text: Get publish settings from IIS
             url: tutorial-import-publish-settings-iis.md
@@ -51,15 +43,25 @@ landingContent:
             url: /azure/app-service/deploy-continuous-deployment
 
   # Card
-  - title: Deploy .NET desktop apps
+  - title: C++ app deployment
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Installer package
+            url: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
+          - text: Setup project
+            url: /cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project
+
+  # Card
+  - title: .NET./.NET Core app deployment
     linkLists:
       - linkListType: tutorial
         links:
-          - text: Deploy .NET Core apps
+          - text: Publish tool
             url: /dotnet/core/deploying/deploy-with-vs
-          - text: Deploy a .NET Framework desktop app using ClickOnce
-            url: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
-          - text: Deploy a desktop app using an installer package
+          - text: ClickOnce
+            url: quickstart-deploy-using-clickonce-folder.md
+          - text: Installer package
             url: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
       - linkListType: how-to-guide
         links:
@@ -67,11 +69,13 @@ landingContent:
             url: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
 
   # Card
-  - title: Deploy C++ apps
+  - title: .NET Framework desktop app deployment
     linkLists:
-      - linkListType: how-to-guide
+      - linkListType: tutorial
         links:
-          - text: Deploy using an installer package
+          - text: ClickOnce
+            url: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
+          - text: Installer package
             url: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
 
   # Card
@@ -79,11 +83,9 @@ landingContent:
     linkLists:
       - linkListType: how-to-guide
         links:
-          - text: Python apps to Linux App Service
-            url: ../python/publishing-python-web-applications-to-azure-from-visual-studio.md
-          - text: Node.js apps to Linux App Service
+          - text: Node.js apps on Linux App Service
             url: ../javascript/publish-nodejs-app-azure.md
-          - text: Deploy containerized apps
+          - text: Containerized apps
             url: ../containers/index.yml
           - text: Publish NuGet packages
             url: /nuget

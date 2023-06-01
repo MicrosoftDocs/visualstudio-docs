@@ -2,7 +2,6 @@
 title: "Create site column, content type, and list for SharePoint"
 titleSuffix: ""
 description: In this walkthrough, create a custom site column (field), custom content type that uses the site column, and list that uses the content type in SharePoint.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:
@@ -25,6 +24,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Create a site column, content type, and list for SharePoint
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The following procedures demonstrate how to create custom SharePoint site columns—or *fields*—as well as a content type that uses the site columns. It also shows how to create a list that uses the new content type.
 
  This walkthrough includes the following tasks:
@@ -52,22 +53,7 @@ ms.workload:
 #### To create the project
 
 1. On the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] **File** menu, choose **New** > **Project**.
-::: moniker range="=vs-2017"
-2. In the **New Project** dialog box, under either **Visual C#** or **Visual Basic**, expand the **Office/SharePoint** node, and then select **SharePoint Solutions**.
 
-3. In the **Templates** pane, choose the **SharePoint Empty Project** for the particular version of SharePoint you have installed. For example, if you have SharePoint 2016 install select the **SharePoint 2016 - Empty Project** template.  
-
-4. Change the name of the project to **Clinic**, and then choose the **OK** button.
-
-5. On the **Specify the site and security level for debugging** dialog, enter the URL for the local SharePoint site to which you want to add the new custom field item, or use the default location (`http://<`*SystemName*`>/)`.
-
-6. In the **What is the trust level for this SharePoint solution?** section, use the default value **Deploy as a sandboxed solution**.
-
-     For more information about sandboxed and farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).
-
-7. Choose the **Finish** button. The project is now listed in **Solution Explorer**.
-::: moniker-end
-::: moniker range=">=vs-2019"
 2.  On the **Create a New Project** dialog select the **SharePoint Empty Project** for the particular version of SharePoint you have installed. For example, if you have SharePoint 2016 install select the **SharePoint 2016 - Empty Project** template.
     [!INCLUDE[new-project-dialog-search](../sharepoint/includes/new-project-dialog-search-md.md)]
 
@@ -80,7 +66,6 @@ ms.workload:
      For more information about sandboxed and farm solutions, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).
 
 6. Choose the **Finish** button. The project is now listed in **Solution Explorer**.
-::: moniker-end
 
 #### To add site columns
 

@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, XAML, Miscellaneous
 description: Learn how to use the Miscellaneous page in the XML section to specify how elements and attributes are formatted in your XAML documents.
-ms.custom: SEO-VS-2020
 ms.date: 10/29/2018
 ms.topic: reference
 f1_keywords:
@@ -33,6 +32,8 @@ ms.workload:
 - uwp
 ---
 # Options, Text Editor, XAML, Miscellaneous
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Miscellaneous** property page to specify how elements and attributes are formatted in your XAML documents. To open the **Options** dialog box, click the **Tools** menu and then click **Options**. To access the **Miscellaneous** property page, expand the **Text Editor** > **XAML** > **Miscellaneous** node.
 

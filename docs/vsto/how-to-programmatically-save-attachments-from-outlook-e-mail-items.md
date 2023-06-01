@@ -1,7 +1,6 @@
 ---
 title: "Save attachments from Outlook email items programmatically"
 description: Learn how you can use Visual Studio to programmatically save attachments from Microsoft Outlook email items.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -21,6 +20,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically save attachments from Outlook email items
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This example saves e-mail attachments to a specified folder when the mail is received in the inbox.
 

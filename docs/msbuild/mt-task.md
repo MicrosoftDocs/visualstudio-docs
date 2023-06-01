@@ -1,7 +1,6 @@
 ---
 title: MT Task | Microsoft Docs
 description: Learn about the parameters and command-line options of the MSBuild MT task, which wraps the Microsoft Manifest Tool, mt.exe.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -12,10 +11,6 @@ f1_keywords:
 - VC.Project.VCManifestTool.EnableDPIAwareness
 - vc.task.mt
 dev_langs:
-- VB
-- CSharp
-- C++
-- jsharp
 - C++
 helpviewer_keywords:
 - MSBUILD (C++), MT task
@@ -47,7 +42,7 @@ Wraps the Microsoft Manifest Tool, *mt.exe*. For more information, see [Mt.exe](
 |**ComponentFileName**|Optional **String** parameter.<br /><br /> Specifies the name of the dynamic-link library you intend to build from the *.rgs* or *.tlb* files. This parameter is required if you specify the **RegistrarScriptFile** or **TypeLibraryFile** MT task parameters.<br /><br /> For more information, see the **/dll** option in [Mt.exe](/windows/desktop/SbsCs/mt-exe).|
 |**DependencyInformationFile**|Optional **String** parameter.<br /><br /> Specifies the dependency information file used by Visual Studio to track build dependency information for the manifest tool.|
 |**EmbedManifest**|Optional `Boolean` parameter.<br /><br /> If `true`, embeds the manifest file in the assembly. If `false`, creates as a stand-alone manifest file.|
-|**EnableDPIAwareness**|Optional `Boolean` parameter.<br /><br /> If `true`, adds to the manifest information that marks the application as DPI-aware. Writing a DPI-aware application makes a user interface look consistently good across a wide variety of high-DPI display settings.<br /><br /> For more information, see [High DPI](/windows/desktop/win7devguide/high-dpi).|
+|**EnableDPIAwareness**|Optional enum parameter.<br /><br /> Values are `false`, `true`, and `PerMonitorHighDpiAware`. If `true`, adds information to the manifest that marks the application as DPI-aware. Writing a DPI-aware application makes a user interface look consistently good across a wide variety of high-DPI display settings. If `PerMonitorHighDpiAware`, adds information to the manifest that marks the application as [Per-monitor DPI-aware](/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows#per-monitor-and-per-monitor-v2-dpi-awareness). The default value is `false`, unless `$(UseOfMFC)` is set to `static` or `dynamic`, in which case the default is `true`.<br /><br /> For more information, see [High DPI](/windows/win32/hidpi/high-dpi-desktop-application-development-on-windows).|
 |**GenerateCatalogFiles**|Optional `Boolean` parameter.<br /><br /> If `true`, generates catalog definition (*.cdf*) files.<br /><br /> For more information, see the **/makecdfs** option in [Mt.exe](/windows/desktop/SbsCs/mt-exe).|
 |**GenerateCategoryTags**|Optional `Boolean` parameter.<br /><br /> If `true`, causes category tags to be generated. If this parameter is `true`, the **ManifestFromManagedAssemblyMT** task parameter must also be specified.<br /><br /> For more information, see the **/category** option in [Mt.exe](/windows/desktop/SbsCs/mt-exe).|
 |**InputResourceManifests**|Optional **String** parameter.<br /><br /> Input the manifest from a resource of type RT_MANIFEST that has the specified identifier. Specify a resource of the form, \<file>[;[#]\<resource_id>], where the optional \<resource_id> parameter is a non-negative, 16-bit number.<br /><br /> If no `resource_id` is specified, the CREATEPROCESS_MANIFEST_RESOURCE default value (1) is used.<br /><br /> For more information, see the **/inputresource** option in [Mt.exe](/windows/desktop/SbsCs/mt-exe).|

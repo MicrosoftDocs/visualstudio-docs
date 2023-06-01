@@ -9,8 +9,8 @@ helpviewer_keywords:
 - IDebugBoundBreakpoint2::GetPendingBreakpoint method
 - GetPendingBreakpoint method
 ms.assetid: 22f94f81-f8d9-46de-96e9-fae6f3c24903
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugBoundBreakpoint2::GetPendingBreakpoint
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the pending breakpoint from which the specified bound breakpoint was created.
 
 ## Syntax
 
-```cpp
-HRESULT GetPendingBreakpoint( 
-    IDebugPendingBreakpoint2** ppPendingBreakpoint
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPendingBreakpoint( 
     out IDebugPendingBreakpoint2 ppPendingBreakpoint
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPendingBreakpoint( 
+    IDebugPendingBreakpoint2** ppPendingBreakpoint
+);
+```
+---
 
 ## Parameters
 `ppPendingBreakpoint`\

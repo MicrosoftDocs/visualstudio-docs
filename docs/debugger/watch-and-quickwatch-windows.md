@@ -1,8 +1,7 @@
 ---
 title: Set a watch on variables | Microsoft Docs
 description: While you debug, see variables and expressions in Watch and QuickWatch. Watch can display several variables, QuickWatch only one, and only while in break.
-ms.custom: SEO-VS-2020
-ms.date: 09/10/2021
+ms.date: 04/21/2023
 ms.topic: how-to
 f1_keywords:
   - "vs.debug.quickwatch"
@@ -20,8 +19,9 @@ ms.technology: vs-ide-debug
 ms.workload: 
   - multiple
 ---
-
 # Watch variables with Watch windows and QuickWatch
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 While you're debugging, you can use **Watch** windows and **QuickWatch** to watch variables and expressions. The windows are only available during a debugging session.
 
@@ -66,7 +66,17 @@ int main()
 
 1. In the **Watch** window, select an empty row, and type variable `a`. Do the same for `b` and `c`.
 
-   ![Watch variables](../debugger/media/watchvariables.png "WatchVariables")
+   ::: moniker range="<=vs-2019"
+
+   ![Screenshot of Watch variables.](../debugger/media/vs-2019/watch-variable.png)
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2022"
+
+   ![Screenshot of Watch variables.](../debugger/media/vs-2022/watch-variable.png)
+
+   ::: moniker-end
 
 1. Continue debugging by selecting **Debug** > **Step Into** or pressing **F11** as needed to advance. The variable values in the **Watch** window change as you iterate through the `for` loop.
 
@@ -82,22 +92,43 @@ You can observe any valid expression recognized by the debugger in a **Watch** w
 
 For example, for the code in the preceding section, you can get the average of the three values by entering `(a + b + c) / 3` in the **Watch** window:
 
-![Watch expression](../debugger/media/watchexpression.png "Watch expression")
+::: moniker range="<=vs-2019"
+
+![Screenshot of Watch expression.](../debugger/media/vs-2019/watch-expression.png "Watch expression")
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+![Screenshot of Watch expression.](../debugger/media/vs-2022/watch-expression.png "Watch expression")
+
+::: moniker-end
 
 The rules for evaluating expressions in the **Watch** window are generally the same as the rules for evaluating expressions in the code language. If an expression has a syntax error, expect the same compiler error as in the code editor. For example, a typo in the preceding expression produces this error in the **Watch** window:
 
-![Watch expression error](../debugger/media/watchexpressionerror.png "Watch expression error")
+::: moniker range="<=vs-2019"
+
+![Screenshot of Watch expression error.](../debugger/media/vs-2019/watch-expression-error.png "Watch expression error")
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+![Screenshot of Watch expression error.](../debugger/media/vs-2022/watch-expression-error.png "Watch expression error")
+
+::: moniker-end
 
 A circle with two wavy lines icon may appear in the **Watch** window. This icon means the debugger doesn't evaluate the expression because of a potential cross-thread dependency. Evaluating the code requires other threads in your app to run temporarily, but since you are in break mode, all threads in your app are usually stopped. Allowing other threads to run temporarily can have unexpected effects on the state of your app, and the debugger may ignore events such as breakpoints and exceptions on those threads.
 
 ::: moniker range=">= vs-2019" 
+
 ## Search in the Watch window
 
 You can search for keywords in the Name, Value, and Type columns of the **Watch** window using the search bar above each window. Hit ENTER or select one of the arrows to execute a search. To cancel an ongoing search, select the "x" icon in the search bar.
 
 Use the left and right arrows (Shift+F3 and F3, respectively) to navigate between found matches.
 
-![Search in Watch Window](../debugger/media/ee-search-watch.png "Search in Watch Window")
+![Screenshot of Search in Watch Window.](../debugger/media/ee-search-watch.png "Search in Watch Window")
 
 To make your search more or less thorough, use the **Search Deeper** dropdown at the top of the **Watch** window to select how many levels deep you want to search into nested objects. 
 
@@ -108,7 +139,7 @@ To make your search more or less thorough, use the **Search Deeper** dropdown at
 
 You can quickly inspect objects by their properties in the Watch window with the **Pinnable Properties** tool.  To use this tool, hover over a property and select the pin icon that appears or right-click and select the **Pin Member as Favorite** option in the resulting context menu.  This bubbles up that property to the top of the object’s property list, and the property name and value is displayed in the **Value** column.  To unpin a property, select the pin icon again or select the **Unpin Member as Favorite** option in the context menu.
 
-![Pin properties in the Watch window](../debugger/media/basic-pin-watch.gif "Pin properties in the Watch window")
+![Screenshot of Pin properties in the Watch window.](../debugger/media/basic-pin-watch.gif "Pin properties in the Watch window")
 
 You can also toggle property names and filter out non-pinned properties when viewing the object’s property list in the Watch window.  You can access both options by selecting the buttons in the toolbar above the watch window.
 
@@ -147,7 +178,17 @@ To demonstrate using the refresh icon:
 
 1. Start debugging. The **Watch** window shows something like the following message:
 
-   ![Refresh Watch](../debugger/media/refreshwatch.png "Refresh Watch")
+   ::: moniker range="<=vs-2019"
+
+   ![Screenshot of Refresh Watch.](../debugger/media/vs-2019/refresh-watch.png "Refresh Watch")
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2022"
+
+   ![Screenshot of Refresh Watch.](../debugger/media/vs-2022/refresh-watch.png "Refresh Watch")
+
+   ::: moniker-end
 
 1. To refresh the value, select the refresh icon, or press the spacebar. The debugger reevaluates the expression.
 
@@ -288,11 +329,31 @@ To observe the `a` variable,
 
    The **QuickWatch** dialog appears. The `a` variable is in the **Expression** box with a **Value** of **1**.
 
-   ![QuickWatch variable](../debugger/media/quickwatchvariable.png "QuickWatch variable")
+   ::: moniker range="<=vs-2019"
+
+   ![Screenshot of QuickWatch variable.](../debugger/media/vs-2019/quickwatch-variable.png "QuickWatch variable")
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2022"
+
+   ![Screenshot of QuickWatch variable.](../debugger/media/vs-2022/quickwatch-variable.png "QuickWatch variable")
+
+   ::: moniker-end
 
 1. To evaluate an expression using the variable, type an expression such as `a + b` in the **Expression** box, and select **Reevaluate**.
 
-   ![QuickWatch expression](../debugger/media/quickwatchexpression.png "QuickWatch expression")
+   ::: moniker range="<=vs-2019"
+
+   ![Screenshot of QuickWatch expression.](../debugger/media/vs-2019/quickwatch-expression.png "QuickWatch expression")
+
+   ::: moniker-end
+
+   ::: moniker range=">=vs-2022"
+
+   ![Screenshot of QuickWatch expression.](../debugger/media/vs-2022/quickwatch-expression.png "QuickWatch expression")
+
+   ::: moniker-end
 
 1. To add the variable or expression from **QuickWatch** to the **Watch** window, select **Add Watch**.
 

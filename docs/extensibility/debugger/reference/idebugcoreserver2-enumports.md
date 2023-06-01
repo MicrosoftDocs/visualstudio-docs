@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCoreServer2::EnumPorts
 ms.assetid: 3d98dfd0-614f-4d68-90c6-8a9b9cab66f1
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugCoreServer2::EnumPorts
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of all available ports.
 
 ## Syntax
 
-```cpp
-HRESULT EnumPorts( 
-   IEnumDebugPorts2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumPorts( 
    out IEnumDebugPorts2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumPorts( 
+   IEnumDebugPorts2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

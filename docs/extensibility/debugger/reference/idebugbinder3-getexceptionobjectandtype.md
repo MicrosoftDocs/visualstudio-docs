@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBinder3::GetExceptionObjectAndType method
 ms.assetid: 2a313fe1-4ee1-4f01-af86-382d6c661a8f
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugBinder3::GetExceptionObjectAndType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method retrieves the exception associated with an object, if any.
 
 ## Syntax
 
-```cpp
-HRESULT GetExceptionObjectAndType(
-   IDebugObject** ppException,
-   IDebugField**  ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetExceptionObjectAndType(
    out IDebugObject ppException,
    out IDebugField  ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetExceptionObjectAndType(
+   IDebugObject** ppException,
+   IDebugField**  ppField
+);
+```
+---
 
 ## Parameters
 `ppException`\

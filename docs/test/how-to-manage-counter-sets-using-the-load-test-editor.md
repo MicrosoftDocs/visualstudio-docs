@@ -1,7 +1,6 @@
 ---
 title: Load test counter sets
 description: Learn how to use the Load Test Editor Managing to manage counter sets by choosing the computers and assigning counter sets to collect from each computer.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 f1_keywords: 
@@ -18,6 +17,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # How to: Manage counter sets using the Load Test Editor
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you create a load test with the **New Load Test Wizard**, you add an initial set of counters. These offer you a set of predefined counter sets for your load test.
 

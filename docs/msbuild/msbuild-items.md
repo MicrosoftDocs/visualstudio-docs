@@ -21,7 +21,7 @@ MSBuild items are inputs into the build system, and they typically represent fil
 
 ## Create items in a project file
 
- You declare items in the project file as child elements of an [ItemGroup](../msbuild/itemgroup-element-msbuild.md) element. The name of the child element is the type of the item. The `Include` attribute of the element specifies the items (files) to be included with that item type. For example, the following XML creates an item type that's named `Compile`, which includes two files.
+ You declare items in the project file as child elements of an [ItemGroup](../msbuild/itemgroup-element-msbuild.md) element. Valid item names begin with an uppercase or lowercase letter or underscore (`_`); valid subsequent characters include alphanumeric characters (letters or digits), underscore, and hyphen (`-`). The name of the child element is the type of the item. The `Include` attribute of the element specifies the items (files) to be included with that item type. For example, the following XML creates an item type that's named `Compile`, which includes two files.
 
 ```xml
 <ItemGroup>
@@ -160,7 +160,7 @@ For more information about wildcard characters, see [How to: Select the files to
 </Target>
 ```
 
- For more information, see [Transforms](../msbuild/msbuild-transforms.md).
+For more operations on items, see [MSBuild item functions](item-functions.md) and [Transforms](../msbuild/msbuild-transforms.md).
 
 ## Item definitions
 
@@ -348,6 +348,8 @@ Output:
 -->
 ```
 
+For more operations on items, see [MSBuild item functions](item-functions.md).
+
 ### <a name="BKMK_KeepDuplicates"></a> KeepDuplicates attribute
 
  If an item is generated within a target, the item element can contain the `KeepDuplicates` attribute. `KeepDuplicates` is a `Boolean` attribute that specifies whether an item should be added to the target group if the item is an exact duplicate of an existing item.
@@ -387,6 +389,8 @@ Output:
     boomerang  Count: 1
 -->
 ```
+
+Because the `KeepDuplicates` attribute considers the metadata of items in addition to the item values, it is important to know what's happening with the metadata. For example, see [Detecting duplicates when using the Metadata item function](./item-functions.md#detecting-duplicate-items-when-using-the-metadata-item-function).
 
 ## Updating metadata on items in an ItemGroup outside of a Target
 
@@ -462,7 +466,6 @@ Item1: notebook
 -->
 ```
 
-:::moniker range=">=vs-2019"
 In MSBuild version 16.6 and later, the `Update` attribute supports qualified metadata references to facilitate importing metadata from two or more items.
 
 ```xml
@@ -550,12 +553,11 @@ Remarks:
 - Unqualified metadata (%(M)) binds to the item type being updated (`Item1` in above example). Qualified metadata (`%(Item2.Color)`) binds inside the set of captured matching item types from the Update expression.
 - If an item matches multiple times within and between multiple referenced items:
   - The last occurrence from each referenced item type gets captured (so one captured item per item type).
-  - This matches the behaviour of task item batching under targets.
+  - This matches the behavior of task item batching under targets.
 - Where one can put %() references:
   - Metadata
   - Metadata conditions
 - Metadata name matching is case insensitive.
-:::moniker-end
 
 ## Updating metadata on items in an ItemGroup of a Target
 

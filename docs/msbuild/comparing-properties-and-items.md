@@ -1,7 +1,6 @@
 ---
 title: Comparing Properties and Items | Microsoft Docs
 description: Learn how MSBuild properties and items pass information to tasks, evaluate conditions, and store values that the project file can reference.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -184,4 +183,5 @@ KeyFileVersion: 1.0.0.3
 
 ## See also
 
-- [Advanced concepts](../msbuild/msbuild-advanced-concepts.md)
+- [MSBuild properties](msbuild-properties.md)
+- [MSBuild items](msbuild-items.md)

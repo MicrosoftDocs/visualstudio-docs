@@ -1,8 +1,7 @@
 ---
 title: Code editor features
 description: Learn about the features that the code editor in Visual Studio provides to make it easier for you to write and manage your code and text.
-ms.custom: SEO-VS-2020
-ms.date: 02/23/2018
+ms.date: 01/31/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - code, editing [Visual Studio]
@@ -15,6 +14,8 @@ ms.workload:
 - multiple
 ---
 # Features of the code editor
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio editor provides many features that make it easier for you to write and manage your code and text. You can expand and collapse different blocks of code by using outlining. You can learn more about the code by using IntelliSense, the **Object Browser**, and the Call Hierarchy. You can find code by using features such as **Go To**, **Go To Definition**, and **Find All References**. You can insert blocks of code with code snippets, and you can generate code by using features such as **Generate From Usage**. If you have never used the Visual Studio editor before, see [Learn to use the code editor](../get-started/tutorial-editor.md).
 
@@ -71,9 +72,21 @@ You can find a number of advanced features on the **Edit** > **Advanced** menu o
 
 You can move around in the code editor in several different ways, including navigating backwards and forwards to previous insertion points, viewing the definition of a type or member, and jumping to a specific method using the navigation bar. For more information see [Navigate code](navigating-code.md).
 
+You can also set bookmarks to mark lines in your code so that you can quickly return to a specific location, or jump back and forth between locations. To learn more, see [Bookmark code](setting-bookmarks-in-code.md).
+
 ## Find references in your code base
 
 To find where particular code elements are referenced throughout your codebase, you can use the **Find All References** command or press **Shift**+**F12**. Also, when you click on a type or member, the **reference highlighting** feature automatically highlights all references to that type or member. For more information, see [Find references in your code](finding-references.md).
+
+## Generate, fix, or refactor code
+
+There are numerous ways that Visual Studio can help you generate, fix, and refactor code.
+
+- You can use [code snippets](code-snippets.md) to insert a template such as a [switch](/dotnet/csharp/language-reference/keywords/switch) block or an [enum](/dotnet/csharp/language-reference/keywords/enum) declaration.
+
+- You can use [Quick Actions](quick-actions.md) to generate code such as classes and properties, or to introduce a local variable. You can also use Quick Actions to [improve code](common-quick-actions.md), for example to remove unnecessary casts and unused variables, or to add null checks before accessing variables.
+
+- You can [refactor code](refactoring-in-visual-studio.md) to rename a variable, re-order method parameters, or synchronize a type with its filename, to name a few.
 
 ## Customize the editor
 

@@ -1,7 +1,6 @@
 ---
 title: References Page, Project Designer (Visual Basic)
 description: Learn how to use the References page of the Project Designer to manage your project's references, web references, and imported namespaces.
-ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
 ms.topic: reference
 f1_keywords:
@@ -20,6 +19,8 @@ ms.workload:
 - multiple
 ---
 # References Page, Project Designer (Visual Basic)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **References** page of the **Project Designer** to manage references, web references, and imported namespaces in your project. Projects can contain references to COM components, XML web services, .NET libraries or assemblies, or other class libraries. For more information on using references, see [Managing references in a project](../../ide/managing-references-in-a-project.md).
 

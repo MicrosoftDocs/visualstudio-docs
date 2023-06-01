@@ -7,8 +7,8 @@ helpviewer_keywords:
 - IDebugComPlusSymbolProvider::CreateTypeFromPrimitive
 - CreateTypeFromPrimitive
 ms.assetid: 37213cc2-a038-42ea-9b28-3ae40d4cfe69
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,18 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::CreateTypeFromPrimitive
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Creates a type from the specified primitive type.
 
 ## Syntax
 
-```cpp
-HRESULT CreateTypeFromPrimitive(
-    DWORD          dwPrimType,
-    IDebugAddress* pAddress,
-    IDebugField**  ppType
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CreateTypeFromPrimitive(
     uint          dwPrimType,
@@ -37,6 +32,15 @@ int CreateTypeFromPrimitive(
     IDebugField   ppType
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CreateTypeFromPrimitive(
+    DWORD          dwPrimType,
+    IDebugAddress* pAddress,
+    IDebugField**  ppType
+);
+```
+---
 
 ## Parameters
 `dwPrimType`\

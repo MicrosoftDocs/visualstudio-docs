@@ -2,7 +2,7 @@
 title: "No Disk Activity to Show (Threads View) | Microsoft Docs"
 description: Learn that disk activity for the current time range in the Disk I/O channels cannot be displayed. Disk activity may be displayed if you zoom out or scroll.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.cv.threads.nodiskreport"
 helpviewer_keywords:
@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # No disk activity to show (Threads View)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Disk activity for the current time range in the Disk I/O channels cannot be displayed. Disk activity may be displayed if you zoom out or scroll. Also, make sure that no disk channels are hidden.
 
 ## See also

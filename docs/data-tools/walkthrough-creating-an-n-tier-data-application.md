@@ -1,8 +1,7 @@
 ---
 title: 'Walkthrough: Creating an N-tier Data Application'
 description: In this walkthrough, create an N-tier data application. N-tier data applications are apps that access data and are separated into many logical layers, or tiers.
-ms.custom: SEO-VS-2020
-ms.date: 09/08/2017
+ms.date: 11/22/2021
 ms.topic: conceptual
 dev_langs:
 - VB
@@ -19,6 +18,11 @@ ms.workload:
 - data-storage
 ---
 # Walkthrough: Create an n-tier data application
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
+
 *N-tier* data applications are applications that access data and are separated into multiple logical layers, or *tiers*. Separating application components into discrete tiers increases the maintainability and scalability of the application. It does this by enabling easier adoption of new technologies that can be applied to a single tier without requiring you to redesign the whole solution. N-tier architecture includes a presentation tier, a middle-tier, and a data tier. The middle tier typically includes a data access layer, a business logic layer, and shared components such as authentication and validation. The data tier includes a relational database. N-tier applications usually store sensitive information in the data access layer of the middle-tier to maintain isolation from end users who access the presentation tier. For more information, see [N-tier data applications overview](../data-tools/n-tier-data-applications-overview.md).
 
 One way to separate the various tiers in an n-tier application is to create discrete projects for each tier that you want to include in your application. Typed datasets contain a `DataSet Project` property that determines which projects the generated dataset and `TableAdapter` code should go into.
@@ -45,26 +49,48 @@ During this walkthrough, you perform the following steps:
 
 - Write code to populate the data tables.
 
-![link to video](../data-tools/media/playvideo.gif) For a video version of this topic, see [Video How to: Creating an n-tier data application](/previous-versions/visualstudio/visual-studio-2008/cc178916(v=vs.90)).
-
 ## Prerequisites
 This walkthrough uses SQL Server Express LocalDB and the Northwind sample database.
 
-1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **.NET desktop development** workload, or as an individual component.
+1. If you don't have SQL Server Express LocalDB, install it either from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-downloads), or through the **Visual Studio Installer**. In the **Visual Studio Installer**, you can install SQL Server Express LocalDB as part of the **.NET desktop development** workload, or as an individual component.
 
 2. Install the Northwind sample database by following these steps:
+
+    :::moniker range="<=vs-2019"
 
     1. In Visual Studio, open the **SQL Server Object Explorer** window. (**SQL Server Object Explorer** is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
 
        A query editor window opens.
 
-    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/master/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
+    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
+
+    3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
+
+       After a short time, the query finishes running and the Northwind database is created.
+    ::: moniker-end
+    ::: moniker range=">=vs-2022"
+    1. In Visual Studio, open the **SQL Server Object Explorer** window. (**SQL Server Object Explorer** is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
+
+       If you don't see the LocalDB instance, use the toolbar button **Add SQL Server**. The dialog appears. In the dialog, expand **Local** and choose **MSSQLLocalDB**. Enter the appropriate credentials. You can leave the default choice for database.
+
+       ![Screenshot of Connect to SQL Database dialog](media/vs-2022/connect-to-sql-database.png)
+
+    1. Choose **Connect**. A node is added for LocalDB in **SQL Server Object Explorer**.
+
+    1. Right-click on your LocalDB instance and select **New Query**.
+
+       A query editor window opens.
+
+    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
        After a short time, the query finishes running and the Northwind database is created.
 
+    ::: moniker-end
+
 ## Create the n-tier solution and class library to hold the dataset (DataEntityTier)
+
 The first step of this walkthrough is to create a solution and two class library projects. The first class library holds the dataset (the generated typed `DataSet` class and DataTables that hold the application's data). This project is used as the data entity layer of the application and is typically located in the middle tier. The dataset creates the initial dataset and automatically separates the code into the two class libraries.
 
 > [!NOTE]
@@ -72,11 +98,7 @@ The first step of this walkthrough is to create a solution and two class library
 
 ### To create the n-tier solution and DataEntityTier class library
 
-1. In Visual Studio, on the **File** menu, select **New** > **Project**.
-
-2. Expand either **Visual C#** or **Visual Basic** in the left-hand pane, then select **Windows Desktop**.
-
-3. In the middle pane, select the **Class Library** project type.
+1. In Visual Studio, create a project using the Windows Forms (.NET Framework) project template for C# or Visual Basic. .NET Core, .NET 5 and later are not supported.
 
 4. Name the project **DataEntityTier**.
 
@@ -85,19 +107,21 @@ The first step of this walkthrough is to create a solution and two class library
      An NTierWalkthrough solution that contains the DataEntityTier project is created and added to **Solution Explorer**.
 
 ## Create the class library to hold the TableAdapters (DataAccessTier)
+
 The next step after you create the DataEntityTier project is to create another class library project. This project holds the generated TableAdapters and is called the *data access tier* of the application. The data access tier contains the information that is required to connect to the database and is typically located in the middle tier.
 
 ### To create a separate class library for the TableAdapters
 
 1. Right-click on the solution in **Solution Explorer** and choose **Add** > **New Project**.
 
-2. In the **New Project** dialog box, in the middle pane, select **Class Library**.
+2. Choose the **Class Library (.NET Framework)** project template.
 
 3. Name the project **DataAccessTier** and choose **OK**.
 
      The DataAccessTier project is created and added to the NTierWalkthrough solution.
 
 ## Create the Dataset
+
 The next step is to create a typed dataset. Typed datasets are created with both the dataset class (including `DataTables` classes) and the `TableAdapter` classes in a single project. (All classes are generated into a single file.) When you separate the dataset and TableAdapters into different projects, it is the dataset class that is moved to the other project, leaving the `TableAdapter` classes in the original project. Therefore, create the dataset in the project that will ultimately contain the TableAdapters (the DataAccessTier project). You create the dataset by using the **Data Source Configuration Wizard**.
 
 > [!NOTE]
@@ -229,14 +253,7 @@ Now that the data access tier contains the methods to return data, create method
 
 2. Add the following code under the **Add your service operations here** comment:
 
-    ```vb
-    <OperationContract()> _
-    Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable
-
-    <OperationContract()> _
-    Function GetOrders() As DataEntityTier.NorthwindDataSet.OrdersDataTable
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     [OperationContract]
     DataEntityTier.NorthwindDataSet.CustomersDataTable GetCustomers();
@@ -245,22 +262,24 @@ Now that the data access tier contains the methods to return data, create method
     DataEntityTier.NorthwindDataSet.OrdersDataTable GetOrders();
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    <OperationContract()> _
+    Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable
+
+    <OperationContract()> _
+    Function GetOrders() As DataEntityTier.NorthwindDataSet.OrdersDataTable
+    ```
+    ---
+
+   > [!NOTE]
+   > The code for this tutorial is available in C# and Visual Basic. To switch the code language on this page between C# and Visual Basic, use the code language switcher at the top of the page on the right side.
+
 3. In the DataService project, double-click **Service1.vb** (or **Service1.cs**).
 
 4. Add the following code to the **Service1** class:
 
-    ```vb
-    Public Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable Implements IService1.GetCustomers
-        Dim CustomersTableAdapter1 As New DataAccessTier.NorthwindDataSetTableAdapters.CustomersTableAdapter
-        Return CustomersTableAdapter1.GetCustomers()
-    End Function
-
-    Public Function GetOrders() As DataEntityTier.NorthwindDataSet.OrdersDataTable Implements IService1.GetOrders
-        Dim OrdersTableAdapter1 As New DataAccessTier.NorthwindDataSetTableAdapters.OrdersTableAdapter
-        Return OrdersTableAdapter1.GetOrders()
-    End Function
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     public DataEntityTier.NorthwindDataSet.CustomersDataTable GetCustomers()
     {
@@ -277,6 +296,20 @@ Now that the data access tier contains the methods to return data, create method
         return OrdersTableAdapter1.GetOrders();
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Public Function GetCustomers() As DataEntityTier.NorthwindDataSet.CustomersDataTable Implements IService1.GetCustomers
+        Dim CustomersTableAdapter1 As New DataAccessTier.NorthwindDataSetTableAdapters.CustomersTableAdapter
+        Return CustomersTableAdapter1.GetCustomers()
+    End Function
+
+    Public Function GetOrders() As DataEntityTier.NorthwindDataSet.OrdersDataTable Implements IService1.GetOrders
+        Dim OrdersTableAdapter1 As New DataAccessTier.NorthwindDataSetTableAdapters.OrdersTableAdapter
+        Return OrdersTableAdapter1.GetOrders()
+    End Function
+    ```
+    ---
 
 5. On the **Build** menu, click **Build Solution**.
 
@@ -341,18 +374,21 @@ After you add the service reference to the data service, the **Data Sources** wi
 
 7. Add the following code to the `Form1_Load` event handler.
 
-    ```vb
-    Dim DataSvc As New ServiceReference1.Service1Client
-    NorthwindDataSet.Customers.Merge(DataSvc.GetCustomers)
-    NorthwindDataSet.Orders.Merge(DataSvc.GetOrders)
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     ServiceReference1.Service1Client DataSvc =
         new ServiceReference1.Service1Client();
     northwindDataSet.Customers.Merge(DataSvc.GetCustomers());
     northwindDataSet.Orders.Merge(DataSvc.GetOrders());
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Dim DataSvc As New ServiceReference1.Service1Client
+    NorthwindDataSet.Customers.Merge(DataSvc.GetCustomers)
+    NorthwindDataSet.Orders.Merge(DataSvc.GetOrders)
+    ```
+    ---
 
 ## Increase the maximum message size allowed by the service
 The default value for `maxReceivedMessageSize` is not large enough to hold the data retrieved from the `Customers` and `Orders` tables. In the following steps, you'll increase the value to 6553600. You change the value on the client, which automatically updates the service reference.
@@ -364,7 +400,17 @@ The default value for `maxReceivedMessageSize` is not large enough to hold the d
 
 1. In **Solution Explorer**, double-click the **app.config** file in the **PresentationTier** project.
 
-2. Locate the **maxReceivedMessage** size attribute and change the value to `6553600`.
+2. Locate the **maxReceivedMessageSize** attribute and change the value to `6553600`. If you don't see the `basicHttpBinding` entry, add one like the following example:
+
+   ```xml
+   <system.serviceModel>
+    <bindings>
+        <basicHttpBinding>
+            <binding maxBufferSize="6553600" maxReceivedMessageSize="6553600" />
+        </basicHttpBinding>
+    </bindings>
+   </system.serviceModel>
+   ```
 
 ## Test the application
 Run the application by pressing **F5**. The data from the `Customers` and `Orders` tables is retrieved from the data service and displayed on the form.

@@ -1,7 +1,6 @@
 ---
 title: Toolbox, Components Tab
 description: Learn about the components you'll find in the Components tab of the Toolbox window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # Toolbox, Components tab
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Displays components you can add to Visual Basic and C# designers for Windows Forms. In addition to the .NET components that are included with Visual Studio, such as the <xref:System.Messaging.MessageQueue> and <xref:System.Diagnostics.EventLog> components, you can add your own or third-party components to this tab.
 

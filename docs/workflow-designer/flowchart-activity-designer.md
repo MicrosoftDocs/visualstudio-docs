@@ -1,7 +1,6 @@
 ---
 title: Workflow Designer - Flowchart Activity Designer
 description: Learn how you can use the Flowchart activity to create workflows that define and manage complex flow controls.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -9,14 +8,16 @@ f1_keywords:
 - System.Activities.Statements.FlowStep.UI
 - System.Activities.Core.Presentation.FlowStart.UI
 ms.assetid: d5af2276-5215-4138-880a-cf2b90bbf3a0
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
 - multiple
 ---
 # Flowchart Activity Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The <xref:System.Activities.Statements.Flowchart> activity is used to create workflows that define and manage complex flow controls. A <xref:System.Activities.Statements.Flowchart> can be authored either in code or by using Workflow Designer. This topic documents the Workflow Designer experience. The Workflow Designer workflow activity designer enables developers to author workflows in a natural manner.
 
@@ -28,7 +29,7 @@ The <xref:System.Activities.Statements.Flowchart> specifies a unique <xref:Syste
 
 The **Flowchart** activity designer can be found in the **Flowchart** category of the **Toolbox**, which is accessed by clicking the **Toolbox** tab on the Workflow Designer. Alternatively, select **Toolbox** from the **View** menu, or press **Ctrl**+**Alt**+**X**.
 
-The **Flowchart** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activity designers are normally placed, either as a root activity or as the child of another control flow activity. If the **Flowchart** activity designer is dropped onto a blank Workflow Designer surface, it creates a <xref:System.Activities.Statements.Flowchart> activity, which by default presents itself in an expanded view in which the start node that initiates execution is represented as a green ball. If the **Flowchart** activity designer is dropped into another control flow activity, it presents itself in a minimized view that can be expanded by double-clicking the **Flowchart** activity designer. Any activity in the **Toolbox** can be dragged directly onto the **Flowchart** activity designer, including other control flow activities.
+The **Flowchart** activity designer can be dragged from the **Toolbox** and dropped on to the Workflow Designer surface wherever activity designers are normally placed, either as a root activity or as the child of another control flow activity. If the **Flowchart** activity designer is dropped onto a blank Workflow Designer surface, it creates a <xref:System.Activities.Statements.Flowchart> activity, which by default presents itself in an expanded view in which the start node that initiates execution is represented as a green sphere. If the **Flowchart** activity designer is dropped into another control flow activity, it presents itself in a minimized view that can be expanded by double-clicking the **Flowchart** activity designer. Any activity in the **Toolbox** can be dragged directly onto the **Flowchart** activity designer, including other control flow activities.
 
 After dragging various activity designers onto the Workflow Designer canvas, the <xref:System.Activities.Activity> objects they represent can be linked together to specify the order of execution. To create a link between a source activity and a destination activity, mouse over the designer of the source activity and square handles appear on each side of it. Click one of the square handles and drag it by holding down the mouse button to one of the handles that appears in a similar manner around the destination activity when hovering over it with the mouse. Release the mouse button and a link is created between these two activities that is represented as an arrow from the source designer to the destination designer.
 

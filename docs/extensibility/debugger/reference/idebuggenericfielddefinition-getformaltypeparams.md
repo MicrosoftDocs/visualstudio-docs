@@ -7,8 +7,8 @@ helpviewer_keywords:
 - GetFormalTypeParams
 - IDebugGenericFieldDefinition::GetFormalTypeParams
 ms.assetid: cadbd6a1-bc7c-4aff-8777-5396b7a23c3e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,18 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugGenericFieldDefinition::GetFormalTypeParams
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the type parameters given the number of parameters.
 
 ## Syntax
 
-```cpp
-HRESULT GetFormalTypeParams(
-   ULONG32                   cParams,
-   IDebugGenericParamField** ppParams,
-   ULONG32*                  pcParams
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetFormalTypeParams(
    uint                          cParams,
@@ -37,6 +32,15 @@ int GetFormalTypeParams(
    ref uint                      pcParams
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetFormalTypeParams(
+   ULONG32                   cParams,
+   IDebugGenericParamField** ppParams,
+   ULONG32*                  pcParams
+);
+```
+---
 
 ## Parameters
 `cParams`\

@@ -1,7 +1,6 @@
 ---
 title: Utility Nodes
 description: Learn about utility nodes in Shader Designer, which represent common, useful shader calculations that don't fit neatly into the other categories. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 ms.assetid: ff732221-b731-424c-ad5b-82ef5f21dff5
@@ -13,6 +12,8 @@ ms.workload:
   - "multiple"
 ---
 # Utility nodes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In the Shader Designer, utility nodes represent common, useful shader calculations that don't fit neatly into the other categories. Some utility nodes perform simple operations such as appending vectors together or choosing results conditionally, and others perform complex operations such as computing lighting contributions according to popular lighting models.
 

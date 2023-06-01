@@ -1,21 +1,22 @@
 ---
 title: Launching a Program | Microsoft Docs
 description: Learn about the series of events that take place when you debug a program using F5 to run the debugger from the IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debug engines, launching
 - programs, launching
 ms.assetid: 6857e9c6-e44a-468a-afa4-f7c4a0b77844
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # Launch a program
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Users who want to debug a program can press **F5** to run the debugger from the IDE. This begins a series of events that ultimately result in the IDE's connecting to a debug engine (DE), which is in turn connected, or attached, to the program as follows:
 
 1. The IDE first calls the project package to get the solution's active project debug settings. The settings include the starting directory, the environment variables, the port in which the program will run, and the DE to use to create the program, if specified. These settings are passed to the debug package.

@@ -1,7 +1,6 @@
 ---
 title: Choosing a Domain-Specific Language Solution Template
 description: Learn how to create a domain-specific language solution by choosing one of the solution templates that are available in the Domain-Specific Language Designer Wizard.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -14,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # Choosing a Domain-Specific Language Solution Template
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To create a domain-specific language solution, choose one of the solution templates that are available in the Domain-Specific Language Designer Wizard. By choosing the template that most closely resembles the language that you want to create, you can minimize the modifications that you have to make to the starting solution.
 
  The following solution templates are available in the Domain-Specific Language Designer Wizard.

@@ -1,18 +1,19 @@
 ---
 title: Launch Visual Studio using DTE
 description: Learn how to launch Visual Studio using DTE to support side-by-side installations of major releases. This article includes a code example.
-ms.custom: SEO-VS-2020
 titleSuffix: ''
 ms.date: 04/26/2019
 ms.topic: how-to
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Launch Visual Studio using DTE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Starting with Visual Studio 2017, the mechanism to launch Visual Studio using DTE is different to launching previous versions of Visual Studio. This change is necessary because Visual Studio 2017 and later supports side-by-side installations of major releases (for example, you can have a preview and a release version installed side by side).
 

@@ -1,7 +1,6 @@
 ---
 title: "Custom actions in Outlook form regions"
 description: Learn how action display buttons, like Reply and Reply All, enable users to respond to a Microsoft Office Outlook item.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # Custom actions in Outlook form regions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Actions display buttons that enable users to respond to a Microsoft Office Outlook item. For example, to respond to a mail item, users click the **Reply**, **Reply to All**, or **Forward** action buttons. Each of these actions creates a new mail item and populates the item's fields by using information from the original item.
 
  You can create a custom action that opens any kind of Outlook item. For example, you can add a custom action that opens a new appointment or task item. Set the properties of a custom action or use custom code to populate the fields of the new item. Custom actions appear in the **Custom Actions** drop-down of an item that is open in an Outlook inspector window.

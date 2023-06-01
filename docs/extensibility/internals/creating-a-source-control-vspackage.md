@@ -1,21 +1,22 @@
 ---
 title: Creating a Source Control VSPackage | Microsoft Docs
 description: Learn how to create a source control VSPackage that creates a deep integration path for source control to integrate with Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], creating source control packages
 - source control packages
 ms.assetid: cca0a9ed-48ff-409f-8036-ed8db0f7533e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Create a source control VSPackage
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This documentation includes links to the architecture overview of a source-control package integrated with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], the API that is defined by the interfaces to be implemented and the services to be consumed, and a sample that illustrates a simple source control package implementation.
 
  With a source control VSPackage, you can create a deep integration path for source control to integrate with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. It enables the package to bypass the default source control UI hosted by [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], respond to source control requests from the project system, and interact with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] components such as **Solution Explorer**. The [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] empowers [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] partners with a mechanism to create a VSPackage that can integrate with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] using a service model.

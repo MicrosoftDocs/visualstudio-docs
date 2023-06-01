@@ -1,7 +1,6 @@
 ---
 title: Working with the DSL Definition Diagram
 description: Learn that the diagram of a DSL Tools definition is an important tool for defining a domain-specific language.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -21,6 +20,8 @@ ms.workload:
 - multiple
 ---
 # Working with the DSL Definition Diagram
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The diagram of a [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] definition is an important tool for defining the domain-specific language. You can add elements to your domain model and define relationships on the diagram, and you can modify the layout of the diagram to make it more readable.
 
 ## The Layout of the Diagram

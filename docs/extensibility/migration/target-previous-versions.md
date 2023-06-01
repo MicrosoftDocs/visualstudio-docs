@@ -3,8 +3,8 @@ title: Target Visual Studio 2019 when creating an extension in Visual Studio 202
 description: Learn how to make your Visual Studio extension work with Visual Studio 2019 if you create the project with Visual Studio 2022.
 ms.date: 06/08/2021
 ms.topic: conceptual
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 monikerRange: "vs-2022"
@@ -12,10 +12,9 @@ ms.workload:
 - vssdk
 feedback_system: GitHub
 ---
-
 # Target a previous version when creating an extension in Visual Studio 2022
 
-[!INCLUDE [preview-note](../includes/preview-note.md)]
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you create a new VSIX project using Visual Studio 2022, the project is created from a template that targets Visual Studio 2022. If you want to target Visual Studio 2019 or an earlier version, you must modify the created project.
 

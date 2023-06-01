@@ -1,7 +1,6 @@
 ---
 title: "Code Access Security for ClickOnce Applications | Microsoft Docs"
 description: Learn about code access security for ClickOnce applications and how to configure the code access security permissions.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -28,9 +27,13 @@ ms.workload:
   - "multiple"
 ---
 # Code access security for ClickOnce applications
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ClickOnce applications are based on the .NET Framework and are subject to code access security constraints. For this reason, it is important that you understand the implications of code access security and write your ClickOnce applications accordingly.
 
  Code access security is a mechanism in the .NET Framework that helps limit the access that code has to protected resources and operations. You should configure the code access security permissions for your ClickOnce application to use the zone appropriate for the location of the application installer. In most cases, you can choose the **Internet** zone for a limited set of permissions or the **Local Intranet** zone for a greater set of permissions.
+
+[!INCLUDE[ndptecclick](../deployment/includes/dotnet-feature-unsupported.md)]
 
 ## Default ClickOnce code access security
  By default, a ClickOnce application receives Full Trust permissions when it is installed or run on a client computer.

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - DEBUG_ADDRESS structure
 ms.assetid: 79f5e765-9aac-4b6e-82ef-bed88095e9ba
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # DEBUG_ADDRESS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure represents an address.
 
 ## Syntax
 
-```cpp
-typedef struct _tagDEBUG_ADDRESS {
-    ULONG32             ulAppDomainID;
-    GUID                guidModule;
-    _mdToken            tokClass;
-    DEBUG_ADDRESS_UNION addr;
-} DEBUG_ADDRESS;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct DEBUG_ADDRESS {
     public uint                ulAppDomainID;
@@ -40,6 +34,16 @@ public struct DEBUG_ADDRESS {
     public DEBUG_ADDRESS_UNION addr;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagDEBUG_ADDRESS {
+    ULONG32             ulAppDomainID;
+    GUID                guidModule;
+    _mdToken            tokClass;
+    DEBUG_ADDRESS_UNION addr;
+} DEBUG_ADDRESS;
+```
+---
 
 ## Members
 `ulAppDomainID`\

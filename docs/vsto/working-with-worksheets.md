@@ -1,7 +1,6 @@
 ---
 title: "Work with worksheets"
 description: Learn that the Worksheet and Worksheet classes contain the methods and properties you use to perform tasks with worksheets.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # Work with worksheets
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Tools.Excel.Worksheet> and <xref:Microsoft.Office.Interop.Excel.Worksheet> classes contain the methods and properties you use to perform tasks with worksheets.
 
 |Task|Procedure|

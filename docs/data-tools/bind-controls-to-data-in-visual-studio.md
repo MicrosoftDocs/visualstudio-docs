@@ -1,7 +1,6 @@
 ---
 title: Bind controls to data
 description: Bind controls to data in Visual Studio. Create data-bound controls by dragging items from the Data Sources window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -18,6 +17,10 @@ ms.workload:
 - data-storage
 ---
 # Bind controls to data in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 You can display data to users of your application by binding data to controls. You can create these data-bound controls by dragging items from the **Data Sources** window onto a design surface or controls on a surface in Visual Studio.
 

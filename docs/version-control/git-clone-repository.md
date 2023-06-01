@@ -2,17 +2,26 @@
 title: Clone a repo in Visual Studio
 titleSuffix: ""
 description: Clone a repo in Visual Studio by using Git or Azure DevOps.
-ms.date: 11/08/2021
+ms.date: 02/28/2023
 ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
+ms.custom: version-control
 ---
-# Clone a repo in Visual Studio
+# Clone a Git repository in Visual Studio
 
-Visual Studio makes it easy to clone a GitHub repo or an Azure DevOps repo right from the IDE. You can also sign in to GitHub or Azure DevOps while you do so. Here's how.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+Visual Studio makes it easy to clone a repository right from the IDE. You can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps.
+
+## Prerequisites
+
+To follow this article, you'll need:
++ [Visual Studio installed](../install/install-visual-studio.md)
++ [A GitHub user account](git-create-github-account.md)
 
 ## Clone a GitHub repo and sign in
 
@@ -24,6 +33,8 @@ Visual Studio makes it easy to clone a GitHub repo or an Azure DevOps repo right
 
     > [!NOTE]
     > If you haven't interacted with the **Git** menu before, you might see **Clone** instead of **Clone Repository**. If so, select **Clone**.
+    >
+    > And, if **Git** isn't on the menu bar, go to **Tools** > **Options** > **Source Control** > **Plug-in Selection**, and then select **Git** from the **Current source control plug-in** dropdown list.
 
 1. In the **Clone a repository** window, under the **Enter a Git repository URL** section, add your repo info in the **Repository location** box.
 
@@ -83,11 +94,3 @@ After you’ve cloned a repo or [created one](git-create-repository.md), Visual 
 ## Next steps
 
 To continue your journey, visit the [Create a repo](git-create-repository.md) page.
-
-## See also
-
-- [The Git experience in Visual Studio](../ide/git-with-visual-studio.md)
-- [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md)
-- [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md)
-- [Work with multiple user accounts](../ide/work-with-multiple-user-accounts.md)
-- [Sign in to Visual Studio](../ide/signing-in-to-visual-studio.md)

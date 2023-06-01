@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocumentPosition2::IsPositionInDocument
 ms.assetid: d5cf57cb-b93b-4e1d-bec9-185f4fe8668d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentPosition2::IsPositionInDocument
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the document position is contained in the given document.
 
 ## Syntax
 
-```cpp
-HRESULT IsPositionInDocument( 
-   IDebugDocument2* pDoc
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int IsPositionInDocument( 
    IDebugDocument2 pDoc
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT IsPositionInDocument( 
+   IDebugDocument2* pDoc
+);
+```
+---
 
 ## Parameters
 `pDoc`\

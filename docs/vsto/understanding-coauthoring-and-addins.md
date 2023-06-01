@@ -1,7 +1,6 @@
 ---
 title: "Understand coauthoring and Add-ins"
 description: Learn about coauthoring and how it is a feature of Excel for Windows desktop that allows you to edit a workbook hosted in the cloud simultaneously with other users.
-ms.custom: SEO-VS-2020
 ms.date: "07/20/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -17,6 +16,8 @@ ms.workload:
   - "office"
 ---
 # Understand coauthoring and Add-ins
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Coauthoring is a feature of Excel for Windows desktop that allows you to edit a workbook hosted in the cloud (that is, OneDrive, OneDrive for Business, or SharePoint Online) simultaneously with other users. With the addition of this feature, you may need to make adjustments to your Excel Solution in order to ensure that it works smoothly even while users are coauthoring. See [About coauthoring in Excel](/office/vba/excel/concepts/about-coauthoring-in-excel).
 

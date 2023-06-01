@@ -7,8 +7,8 @@ helpviewer_keywords:
 - IDebugComPlusSymbolProvider2::GetTypeFromToken
 - GetTypeFromToken
 ms.assetid: 4452bc5d-0225-40e0-a467-c472a5c7c4ee
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,19 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider2::GetTypeFromToken
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a type given its token.
 
 ## Syntax
 
-```cpp
-HRESULT GetTypeFromToken(
-    ULONG32       appDomain,
-    GUID          guidModule,
-    DWORD         tdToken,
-    IDebugField** ppField
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetTypeFromToken(
     uint            appDomain,
@@ -39,6 +33,16 @@ int GetTypeFromToken(
     out IDebugField ppField
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetTypeFromToken(
+    ULONG32       appDomain,
+    GUID          guidModule,
+    DWORD         tdToken,
+    IDebugField** ppField
+);
+```
+---
 
 ## Parameters
 `appDomain`\

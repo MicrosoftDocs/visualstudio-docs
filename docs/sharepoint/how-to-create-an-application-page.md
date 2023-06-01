@@ -1,7 +1,6 @@
 ---
 title: "How to: Create an Application Page | Microsoft Docs"
 description: Create an ASP.NET web page (also known as an application page) in Visual Studio for one or more SharePoint sites.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -18,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # How to: Create an application page
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can create an ASP.NET web page for one or more SharePoint sites. In SharePoint, these pages are called application pages. Unlike a site page, an application page contains code that runs behind the page. For more information, see [Create application pages for SharePoint](../sharepoint/creating-application-pages-for-sharepoint.md).
 
 ### To create an application page

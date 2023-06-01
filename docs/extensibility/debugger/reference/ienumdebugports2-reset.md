@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugPorts2::Reset
 ms.assetid: 67da406c-eadb-421e-ae12-e26e9866f262
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,23 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugPorts2::Reset
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Resets the enumeration to the first element.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Reset();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Reset(
    void
 );
 ```
-
-```csharp
-int Reset();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -1,18 +1,19 @@
 ---
 title: "Locating Visual Studio | Microsoft Docs"
 description: You can install multiple instances of the same version of Visual Studio. Learn how to use a COM query API to find the instance that you want.
-ms.custom: SEO-VS-2020
 ms.date: "08/21/2017"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "deployment, VSIX"
 ms.assetid: 680c3b25-7901-4768-8363-6d1fcd1ea636
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 ms.workload:
   - "vssdk"
 ---
 # Locate Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Starting with Visual Studio 2017, you can install multiple instances of the same version or even edition. This is helpful when you want to preview new functionality on your primary development machine while keeping your previous installation. Because of these changes, there is no single environment variable or registry value you can use to locate an instance. Instead, you can use a [COM query API](/dotnet/api/microsoft.visualstudio.setup.configuration) to find instances based on criteria relevant to your extension.
 

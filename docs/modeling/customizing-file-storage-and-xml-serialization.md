@@ -1,7 +1,6 @@
 ---
 title: Customizing File Storage and XML Serialization
 description: Learn about the XML file created or updated when you save an instance, or model, of a domain-specific language (DSL) in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -16,6 +15,8 @@ ms.workload:
 - multiple
 ---
 # Customize File Storage and XML Serialization
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When the user saves an instance, or *model*, of a domain-specific language (DSL) in Visual Studio, an XML file is created or updated. The file can be reloaded to recreate the model in the Store.
 

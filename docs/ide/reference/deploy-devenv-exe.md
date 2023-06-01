@@ -1,7 +1,6 @@
 ---
 title: -Deploy (devenv.exe)
 description: Learn how to use the Deploy devenv command-line switch to deploy a solution after a build or rebuild.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # /Deploy (devenv.exe)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Deploys a solution after a build or rebuild. Applies to managed code projects only.
 

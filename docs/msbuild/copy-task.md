@@ -1,7 +1,6 @@
 ---
 title: Copy Task | Microsoft Docs
 description: Learn how to use the MSBuild Copy task to copy files to a new file or folder location in the file system.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -42,7 +41,8 @@ The following table describes the parameters of the `Copy` task.
 |`RetryDelayMilliseconds`|Optional `Int32` parameter.<br /><br /> Specifies the delay between any necessary retries. Defaults to the RetryDelayMillisecondsDefault argument, which is passed to the CopyTask constructor.|
 |`SkipUnchangedFiles`|Optional `Boolean` parameter.<br /><br /> If `true`, skips the copying of files that are unchanged between the source and destination. The `Copy` task considers files to be unchanged if they have the same size and the same last modified time. <br /><br /> **Note:**  If you set this parameter to `true`, you should not use dependency analysis on the containing target, because that only runs the task if the last-modified times of the source files are newer than the last-modified times of the destination files.|
 |`SourceFiles`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the files to copy.|
-|`UseHardlinksIfPossible`|Optional `Boolean` parameter.<br /><br /> If `true`, creates Hard Links for the copied files instead of copying the files.|
+|`UseHardlinksIfPossible`|Optional `Boolean` parameter.<br /><br /> If `true`, creates hard links for the copied files instead of copying the files.|
+|`UseSymbolicLinksIfPossible`|Optional `Boolean` parameter.<br /><br />If `true`, creates symbolic links for the copied files rather than copy the files, if it's possible to do so.|
 
 ## Warnings
 
@@ -98,14 +98,18 @@ The following example demonstrates how to do a recursive copy. This project copi
 ```xml
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
-    <ItemGroup>
-        <MySourceFiles Include="c:\MySourceTree\**\*.*"/>
-    </ItemGroup>
-
     <Target Name="CopyFiles">
+        <ItemGroup>
+            <!-- Because this ItemGroup is inside the target, this will enumerate
+                 all files just before calling Copy. If the ItemGroup were outside
+                 the target , it would enumerate the files during evaluation, before
+                 the build starts, which may miss files created during the build. -->
+            <MySourceFiles Include="c:\MySourceTree\**\*.*"/>
+        </ItemGroup>
+
         <Copy
             SourceFiles="@(MySourceFiles)"
-            DestinationFiles="@(MySourceFiles->'c:\MyDestinationTree\%(RecursiveDir)%(Filename)%(Extension)')"
+            DestinationFolder="c:\MyDestinationTree\%(RecursiveDir)"
         />
     </Target>
 

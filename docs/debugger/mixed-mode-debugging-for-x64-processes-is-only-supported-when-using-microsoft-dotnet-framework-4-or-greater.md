@@ -1,7 +1,6 @@
 ---
 title: "Mixed mode debugging for x64 processes is only supported when using Microsoft.NET Framework 4 or greater"
 description: .NET Framework versions earlier than 4 do not provide support for mixed-mode debugging of x64 processes. See this article for workarounds.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -20,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # Mixed mode debugging for x64 processes is only supported when using Microsoft.NET Framework 4 or greater
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 .NET Framework versions earlier than 4 do not provide support for mixed-mode debugging of x64 processes. That means that you cannot step from managed code to native code, or from native code to managed code, while debugging.
 
 ### Workarounds

@@ -1,10 +1,10 @@
 ---
 title: Web application templates for Python
 description: Visual Studio provides templates for Python web applications using the Bottle, Flask, and Django frameworks; support includes debugging configurations and publishing to Azure App Service.
-ms.date: 01/28/2019
+ms.date: 01/27/2022
 ms.topic: conceptual
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -12,14 +12,13 @@ ms.workload:
   - python
   - data-science
 ---
-
 # Python web application project templates
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Python in Visual Studio supports developing web projects in Bottle, Flask, and Django frameworks through project templates and a debug launcher that can be configured to handle various frameworks. These templates include a *requirements.txt* file to declare the necessary dependencies. When creating a project from one of these templates, Visual Studio prompts you to install those packages (see [Install project requirements](#install-project-requirements) later in this article).
 
 You can also use the generic **Web Project** template for other frameworks such as Pyramid. In this case, no frameworks are installed with the template. Instead, install the necessary packages into the environment you're using for the project (see [Python environments window - Package tab](python-environments-window-tab-reference.md#packages-tab)).
-
-For information on deploying a Python web app to Azure, see [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md).
 
 ## Use a project template
 
@@ -27,17 +26,7 @@ You create a project from a template using **File** > **New** > **Project**. To 
 
 ![New project dialog for web apps](media/projects-new-project-dialog-web.png)
 
-::: moniker range="<=vs-2017"
-
 The generic **Web Project** template, mentioned earlier, provides only an empty Visual Studio project with no code and no assumptions other than being a Python project.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-The generic **Web Project** template, mentioned earlier, provides only an empty Visual Studio project with no code and no assumptions other than being a Python project.
-
-::: moniker-end
 
 All the other templates are based on the Bottle, Flask, or Django web frameworks, and fall into three general groups as described in the following sections. The apps created by any of these templates contain sufficient code to run and debug the app locally. Each one also provides the necessary [WSGI app object](https://www.python.org/dev/peps/pep-3333/) (python.org) for use with production web servers.
 
@@ -61,18 +50,6 @@ All **\<Framework> Web Project** templates create a starter web app with an iden
 | **Django Web Project** | Generates a Django project and a Django app with three pages, authentication support, and a SQLite database (but no data models). For more information, see [Django templates](python-django-web-application-project-template.md) and [Learn Django Step 4](learn-django-in-visual-studio-step-04-full-django-project-template.md). |
 | **Flask Web Project** | Generates an app whose static files are contained in the *static* folder. Code in *views.py* handles routing, with page templates using the Jinja engine contained in the *templates* folder. The *runserver.py* file provides startup code. See 
 
-::: moniker range="vs-2017"
-### Polls group
-
-The **Polls \<framework> Web Project** templates create a starter web app through which users can vote on different poll questions. Each app builds upon the structure of the **Web** project templates to use a database to manage the polls and user responses. The apps include appropriate data models and a special app page (/seed) that loads polls from a *samples.json* file.
-
-| Template | Description |
-| --- | --- |
-| **Polls Bottle Web Project** | Generates an app that can run against an in-memory database, MongoDB, or Azure Table Storage, which is configured using the `REPOSITORY_NAME` environment variable. The data models and data store code are contained in the *models* folder, and the *settings.py* file contains code to determine which data store is used. |
-| **Polls Django Web Project** | Generates a Django project and a Django app with three pages and a SQLite database. Includes customizations to the Django administrative interface to allow an authenticated administrator to create and manage polls. For more information, see [Django templates](python-django-web-application-project-template.md) and [Learn Django Step 6](learn-django-in-visual-studio-step-06-polls-django-web-project-template.md). |
-| **Polls Flask/Jade Web Project** | Generates the same app as with the **Polls Flask Web Project** template but using the Jade extension for the Jinja templating engine. |
-::: moniker-end
-
 ## Install project requirements
 
 When creating a project from a framework-specific template, a dialog appears to help you install the necessary packages using pip. We also recommend using a [virtual environment](selecting-a-python-environment-for-a-project.md#use-virtual-environments) for web projects so that the correct dependencies are included when you publish your web site:
@@ -81,7 +58,7 @@ When creating a project from a framework-specific template, a dialog appears to 
 
 If you're using source control, you typically omit the virtual environment folder as that environment can be recreated using only *requirements.txt*. The best way to exclude the folder is to first select the **I will install them myself** in the prompt shown above, then disable auto-commit before creating the virtual environment. For details, see [Learn Django Tutorial - Steps 1-2 and 1-3](learn-django-in-visual-studio-step-01-project-and-solution.md#step-1-2-examine-the-git-controls-and-publish-to-a-remote-repository) and [Learn Flask Tutorial - Steps 1-2 and 1-3](learn-flask-visual-studio-step-01-project-solution.md#step-1-2-examine-the-git-controls-and-publish-to-a-remote-repository).
 
-When deploying to Microsoft Azure App Service, select a version of Python as a [site extension](./managing-python-on-azure-app-service.md?view=vs-2019&preserve-view=true) and manually install packages. Also, because Azure App Service does **not** automatically install packages from a *requirements.txt* file when deployed from Visual Studio, follow the configuration details on [aka.ms/PythonOnAppService](managing-python-on-azure-app-service.md).
+When deploying to Microsoft Azure App Service, select a version of Python as a [site extension](/azure/app-service/quickstart-python) and manually install packages. Also, because Azure App Service does **not** automatically install packages from a *requirements.txt* file when deployed from Visual Studio, follow the configuration details on [aka.ms/PythonOnAppService](/azure/app-service/quickstart-python).
 
 ## Debugging
 
@@ -143,8 +120,6 @@ Pyramid apps are currently best created using the `pcreate` command-line tool. O
 
 If you have settings for another framework that you would like to share, or if you'd like to request settings for another framework, open an [issue on GitHub](https://github.com/Microsoft/PTVS/issues).
 
-
 ## See also
 
 - [Python item templates reference](python-item-templates.md)
-- [Publish to Azure App Service](publishing-python-web-applications-to-azure-from-visual-studio.md)

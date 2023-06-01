@@ -1,21 +1,22 @@
 ---
 title: ReceiveAndSendReply Template Designer
 description: Learn how to use the ReceiveAndSendReply template in Workflow Designer to create a pair of pre-configured Receive and SendReply activities.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.ServiceModel.Activities.ReceiveAndSendReply.UI"
   - "System.ServiceModel.Activities.SendReply.UI"
 ms.assetid: d1d9a058-df7e-48f5-a2e7-3caeeba7eaa6
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
   - "multiple"
 ---
 # ReceiveAndSendReply Template Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **ReceiveAndSendReply** template is used to create a pair of pre-configured <xref:System.ServiceModel.Activities.Receive> and <xref:System.ServiceModel.Activities.SendReply> activities. The activities are part of a <xref:System.Activities.Statements.Sequence> activity, and are correlated as part of a request/response message exchange pattern on the server.
 

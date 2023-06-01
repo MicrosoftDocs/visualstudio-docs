@@ -1,7 +1,6 @@
 ---
 title: Services Page, Project Designer
 description: Learn how to use the Services page of the Project Designer to enable and configure client application services for your project.
-ms.custom: SEO-VS-2020
 ms.date: 01/18/2018
 ms.topic: reference
 f1_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 ---
 # Services Page, Project Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Client application services provide simplified access to [!INCLUDE[ajax_current_short](../../ide/reference/includes/ajax_current_short_md.md)] login, roles, and profile services from Windows Forms and Windows Presentation Foundation (WPF) applications. You can use the **Services** page of the **Project Designer** to enable and configure client application services for your project.
 
 With client application services, you can use a centralized server to authenticate users, determine each user's assigned role or roles, and store per-user application settings that you can share across the network. For more information, see [Client Application Services](/dotnet/framework/common-client-technologies/client-application-services).
@@ -26,7 +27,7 @@ To access the **Services** page, select a project node in **Solution Explorer**,
 
 ## Task List
 
-[How to: Configure Client Application Services](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services)
+[How to: Configure Client Application Services](/previous-versions/visualstudio/visual-studio-2010/bb384312\(v=vs.100\))
 
 ## UIElement List
 
@@ -48,7 +49,7 @@ Indicates that the authentication provider will use Windows-based authentication
 
  **Use Forms authentication**
 
-Indicates that the authentication provider will use forms authentication. This means that your application must provide a user interface for login. For more information, see [How to: Implement User Login with Client Application Services](/dotnet/framework/common-client-technologies/how-to-implement-user-login-with-client-application-services).
+Indicates that the authentication provider will use forms authentication. This means that your application must provide a user interface for login. For more information, see [How to: Implement User Login with Client Application Services](/previous-versions/visualstudio/visual-studio-2010/bb384313\(v=vs.100\)).
 
  **Authentication service location**
 
@@ -74,6 +75,6 @@ Opens the [Advanced Settings for Services Dialog Box](../../ide/reference/advanc
 
 - [Client Application Services](/dotnet/framework/common-client-technologies/client-application-services)
 - [Advanced Settings for Services Dialog Box](../../ide/reference/advanced-settings-for-services-dialog-box.md)
-- [How to: Configure Client Application Services](/dotnet/framework/common-client-technologies/how-to-configure-client-application-services)
+- [How to: Configure Client Application Services](/previous-versions/visualstudio/visual-studio-2010/bb384312\(v=vs.100\))
 - [Compile Page, Project Designer (Visual Basic)](../../ide/reference/compile-page-project-designer-visual-basic.md)
 - [Build Page, Project Designer (C#)](../../ide/reference/build-page-project-designer-csharp.md)

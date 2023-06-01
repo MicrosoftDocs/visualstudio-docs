@@ -1,7 +1,6 @@
 ---
 title: "&lt;dependency&gt; Element (ClickOnce Deployment) | Microsoft Docs"
 description: The dependency element identifies the version of the application to install, and the location of the application manifest.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -30,6 +29,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;dependency&gt; element (ClickOnce deployment)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Identifies the version of the application to install, and the location of the application manifest.
 
 ## Syntax

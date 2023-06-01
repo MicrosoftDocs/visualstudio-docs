@@ -1,20 +1,21 @@
 ---
 title: Remove source control info from .proj and .sln files
 description: In the Source Control Plug-in API, the SCC information is stored in an MSSCCPRJ.SCC file instead of the project and solution files.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control plug-ins, .sln and .proj files
 ms.assetid: 7b06883f-35de-41e2-9a9e-d3edba236f17
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Removal of source control information from .proj and .sln files
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In version 1.2 of the Source Control Plug-in API the SCC information is stored in a MSSCCPRJ.SCC file. The advantage of the MSSCCPRJ.SCC file is that the SCC information is not source-controlled, like it is in .proj and .sln files.
 

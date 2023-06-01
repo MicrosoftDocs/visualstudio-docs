@@ -22,8 +22,10 @@ landingContent:
         links:
           - text: Deploy an ASP.NET Core app to Azure
             url: /azure/app-service/app-service-web-get-started-dotnet-framework
-          - text: Deploy an ASP.NET Web App to Azure
+          - text: Deploy an ASP.NET web app to Azure
             url: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs
+          - text: Deploy an ASP.NET Core web app to Azure Container Apps
+            url: /azure/container-apps/deploy-visual-studio
           - text: Continuous deployment to Azure with Visual Studio and Git
             url: /azure/app-service/deploy-continuous-deployment
           - text: Continuous deployment to Azure with Azure Pipelines
@@ -80,7 +82,7 @@ landingContent:
           url: /azure/active-directory/develop/vs-active-directory-add-connected-service
         - text: Azure Cache for Redis
           url: azure-cache-for-redis-add-connected-service.md
-        - text: Azure CosmosDB
+        - text: Azure Cosmos DB
           url: azure-cosmosdb-add-connected-service.md
         - text: Azure Key Vault
           url: /azure/key-vault/vs-key-vault-add-connected-service

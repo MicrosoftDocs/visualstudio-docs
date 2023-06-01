@@ -1,7 +1,6 @@
 ---
 title: About Domain-Specific Languages
 description: Learn how a domain-specific language (DSL) is designed to express statements in a particular problem space, or domain.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -14,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # About Domain-Specific Languages
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Unlike a general-purpose language such as C# or UML, a domain-specific language (DSL) is designed to express statements in a particular problem space, or domain.
 

@@ -1,44 +1,49 @@
 ---
 title: Export subscription information in Visual Studio subscriptions| Microsoft Docs
 author: evanwindom
-ms.author: cabuschl
-manager: cabuschl
+ms.author: amast
+manager: shve
 ms.assetid: 14e4cffb-a695-436c-b269-7820f7411f4e
-ms.date: 08/31/2021
+ms.date: 03/20/2023
 ms.topic: conceptual
 description:  Learn how to export a list of subscribers and details of their subscription assignments.
 ---
 
 # Export subscription information
-In the Visual Studio Subscriptions [Administration Portal](https://manage.visualstudio.com), you can export a list of your subscribers and details about their assignments. This information includes their name, email address, alternate email address, subscription level, assigned date, activation status, expiration date, reference field, whether downloads are enabled, country, language, subscription status, and subscription GUID.  The list is exported as a CSV file which can easily be opened in Microsoft Excel for the creation of charts, pivots and other artifacts.
+
+In the Visual Studio Subscriptions [Administration Portal](https://manage.visualstudio.com), you can export a list of your subscribers with details about their subscriptions.  All of the fields in the subscriber list in the admin portal are included in the exported list. 
 
 Having all your subscriber information in one place can help you do things like:
-- Get an overall view of which subscriptions are in use by team and/or location across your organization.
-- Develop plans and budgets for future subscription purchases. 
-- Encourage users who have subscriptions assigned to activate.
-- Take proactive action before subscriptions expire.  
-- Identify where subscriptions may be over-allocated. 
-- Assign subscriptions using the subscription ID to control which expiration date your subscribers have on their subscriptions. 
++ Get an overall view of which subscriptions are in use by team and/or location across your organization.
++ Develop plans and budgets for future subscription purchases. 
++ Encourage users who have subscriptions assigned to activate.
++ Identify where subscriptions may be over-allocated. 
++ Assign subscriptions using the subscription ID to control which expiration date your subscribers have on their subscriptions.
++ Migrate subscriptions from expiring agreements to new ones.  
 
 ## Export your subscriptions
+
 To perform the export:
 1. Sign in to the [Administration Portal](https://manage.visualstudio.com).
-2. Select the **Export** tab. and the file will download to your local machine. The file will include the name of the agreement that contains your user subscriptions, as well as the date of the export.
+2. Select the **Export** tab. The file downloads to your local machine. The file includes the name of the agreement that contains your user subscriptions, and the date of the export.
 > [!div class="mx-imgBorder"]
-> ![Export subscribers](_img/exporting-subscriptions/exporting-subscriptions.png "Click Export to download a complete list of your assigned subscriptions.")
-3. The exported list will appear in the normal location for downloaded files on your computer in a .csv file format. The file name will include the agreement number and the date on which you exported the list.  
+> ![Export subscribers](_img/exporting-subscriptions/exporting-subscriptions.png "Screenshot of the Manage subscribers page in the admin portal.  The Export menu item is highlighted.")
+3. The exported list appears as a .csv file in your normal downloads location. The file name includes the agreement number and the date you exported the list.  
 
 ## Resources
-- [Subscriptions Support](https://aka.ms/vsadminhelp)
+
+[Subscriptions Support](https://aka.ms/vsadminhelp)
 
 ## See also
-- [Visual Studio documentation](/visualstudio/)
-- [Azure DevOps documentation](/azure/devops/)
-- [Azure documentation](/azure/)
-- [Microsoft 365 documentation](/microsoft-365/)
+
++ [Visual Studio documentation](/visualstudio/)
++ [Azure DevOps Services documentation](/azure/devops/)
++ [Azure documentation](/azure/)
++ [Microsoft 365 documentation](/microsoft-365/)
 
 ## Next steps
-- For more information about managing subscriptions, see these helpful topics:
-    - [Expired subscriptions](handle-expired-license.md)
-    - [Overallocations](handle-overclaimed-license.md)
-    - [Maximum usage](maximum-usage.md)
+
+For more information about managing subscriptions, see these helpful articles:
++ [Expired subscriptions](handle-expired-license.md)
++ [Overallocations](handle-overclaimed-license.md)
++ [Maximum usage](maximum-usage.md)

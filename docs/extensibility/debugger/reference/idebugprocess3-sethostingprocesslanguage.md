@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProcess3::SetHostingProcessLanguage
 ms.assetid: e42f33ed-f29c-4e45-92ce-ab504b72d77c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess3::SetHostingProcessLanguage
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method sets the language that the process will be hosted under. This language can then be used by the debug engine (DE) to load the appropriate expression evaluator.
 
 ## Syntax
 
-```cpp
-HRESULT SetHostingProcessLanguage(
-   REFGUID guidLang
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetHostingProcessLanguage(
    ref Guid guidLang
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetHostingProcessLanguage(
+   REFGUID guidLang
+);
+```
+---
 
 ## Parameters
 `guidLang`\

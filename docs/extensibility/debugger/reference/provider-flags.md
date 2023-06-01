@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - PROVIDER_FLAGS enumeration
 ms.assetid: 8cbd2312-ed2f-4477-b192-c3f25c6098c3
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,25 @@ dev_langs:
 - CSharp
 ---
 # PROVIDER_FLAGS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies desired properties to be obtained from a program provider.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_PROVIDER_FLAGS {
+   PFLAG_NONE                    = 0x00,
+   PFLAG_REMOTE_PORT             = 0x01,
+   PFLAG_DEBUGGEE                = 0x02,
+   PFLAG_ATTACHED_TO_DEBUGGEE    = 0x04,
+   PFLAG_REASON_WATCH            = 0x08,
+   PFLAG_GET_PROGRAM_NODES       = 0x10,
+   PFLAG_GET_IS_DEBUGGER_PRESENT = 0x20
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_PROVIDER_FLAGS {
    PFLAG_NONE                    = 0x00,
@@ -35,18 +50,7 @@ enum enum_PROVIDER_FLAGS {
 };
 typedef DWORD PROVIDER_FLAGS;
 ```
-
-```csharp
-public enum enum_PROVIDER_FLAGS {
-   PFLAG_NONE                    = 0x00,
-   PFLAG_REMOTE_PORT             = 0x01,
-   PFLAG_DEBUGGEE                = 0x02,
-   PFLAG_ATTACHED_TO_DEBUGGEE    = 0x04,
-   PFLAG_REASON_WATCH            = 0x08,
-   PFLAG_GET_PROGRAM_NODES       = 0x10,
-   PFLAG_GET_IS_DEBUGGER_PRESENT = 0x20
-};
-```
+---
 
 ## Fields
  `PFLAG_NONE`\

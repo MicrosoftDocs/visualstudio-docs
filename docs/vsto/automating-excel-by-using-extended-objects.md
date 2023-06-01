@@ -1,7 +1,6 @@
 ---
 title: "Automate Excel by using extended objects"
 description: Learn that when you develop Excel solutions in Visual Studio, you can use host items and host controls in your solutions.
-ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -25,6 +24,8 @@ ms.workload:
   - "office"
 ---
 # Automate Excel by using extended objects
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you develop Excel solutions in Visual Studio, you can use *host items* and *host control*s in your solutions. These are objects that extend certain commonly used objects in the Excel object model (that is, the object model that is exposed by the primary interop assembly for Excel), such as the <xref:Microsoft.Office.Interop.Excel.Worksheet> and <xref:Microsoft.Office.Interop.Excel.Range> objects. The extended objects behave like the Excel objects they are based on, but they add additional features such as new events and data binding capabilities to the objects.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]

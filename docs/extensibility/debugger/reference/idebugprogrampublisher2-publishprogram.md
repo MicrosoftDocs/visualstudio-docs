@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramPublisher2::PublishProgram
 ms.assetid: 92ff63f0-e869-4040-b3ae-b2c899e708ff
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramPublisher2::PublishProgram
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method makes a program available for debug engines (DEs) and the session debug manager.
 
 ## Syntax
 
-```cpp
-HRESULT PublishProgram(
-   CONST_GUID_ARRAY Engines,
-   LPCOLESTR        szFriendlyName,
-   IUnknown*        pDebuggeeInterface
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int PublishProgram(
    CONST_GUID_ARRAY Engines,
@@ -38,6 +33,15 @@ int PublishProgram(
    object           pDebuggeeInterface
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT PublishProgram(
+   CONST_GUID_ARRAY Engines,
+   LPCOLESTR        szFriendlyName,
+   IUnknown*        pDebuggeeInterface
+);
+```
+---
 
 ## Parameters
 `Engines`\

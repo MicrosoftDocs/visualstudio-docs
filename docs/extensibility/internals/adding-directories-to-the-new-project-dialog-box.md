@@ -1,20 +1,21 @@
 ---
 title: Adding Directories to the New Project Dialog Box | Microsoft Docs
 description: Learn how to add directories to the New Project dialog box in Visual Studio, so that you can create new project types and display them for use as templates.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - New Project dialog box, extending
 ms.assetid: 53b328f5-20bb-49a3-bf9e-1818f4fbdf50
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Add directories to the New Project dialog box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you create new project types, you also can register a new directory in the **New Project** dialog box to display them for use as templates. The following code example explains how to register a new directory, also known as a node. In the example, templates exposed by the VSPackage, *CLSID_Package*, are registered. As a result, the left side of the **New Project** dialog box offers the added node, with a name determined by the *Folder_Label_ResID* resource. This resource is loaded from the VSPackage satellite DLL.
 
  The **Folder** value represents a GUID of a folder under which the *Folder_Label_ResID* node is displayed. In the example, the GUID represents the **Other Projects** folder in the **Project Types** pane of the **New Project** dialog box. If the **Other Projects** value is absent, the label is positioned at the top level.

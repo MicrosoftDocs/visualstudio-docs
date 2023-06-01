@@ -4,8 +4,8 @@ description: 'Learn about the various ways to purchase Visual Studio subscriptio
 ms.faqid: q4_1
 ms.topic: include
 ms.assetid: 5b27454c-f036-4f4d-9d67-54d1fc775f72
-author: CaityBuschlen
-ms.author: cabuschl
+author: evanwindom
+ms.author: amast
 ms.date: 04/20/2021
 ---
 
@@ -31,7 +31,7 @@ With monthly subscriptions, you can rent Visual Studio and Azure DevOps without 
 - [Visual Studio Professional](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-monthly) - monthly subscription 
 - [Visual Studio Enterprise](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-monthly) - monthly subscription 
  
-[Read more](https://docs.microsoft.com/visualstudio/subscriptions/vscloud-billing-faq) about monthly Visual Studio Subscriptions billing. 
+[Read more](https://learn.microsoft.com/visualstudio/subscriptions/vscloud-billing-faq) about monthly Visual Studio Subscriptions billing. 
 
 ### Volume Licensing 
 Volume Licensing subscriptions are available when an organization needs to purchase a large number of subscriptions. [Read more](https://www.microsoft.com/licensing/how-to-buy/how-to-buy) about purchasing through Volume Licensing.

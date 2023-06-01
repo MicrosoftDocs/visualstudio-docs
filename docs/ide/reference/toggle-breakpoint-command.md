@@ -1,7 +1,6 @@
 ---
 title: Toggle Breakpoint Command
 description: Learn how to use the Toggle Breakpoint command to turn the breakpoint either on or off, depending on its current state, at the current location in the file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -19,6 +18,8 @@ ms.workload:
 - multiple
 ---
 # Toggle Breakpoint Command
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Turns the breakpoint either on or off, depending on its current state, at the current location in the file.
 
 ## Syntax

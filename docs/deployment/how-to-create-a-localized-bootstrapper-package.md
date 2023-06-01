@@ -1,7 +1,6 @@
 ---
 title: Create a Localized Bootstrapper Package | Microsoft Docs
 description: Learn how to create localized versions of the bootstrapper package in ClickOnce by creating two more files for each locale.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -17,6 +16,8 @@ ms.workload:
   - multiple
 ---
 # How to: Create a localized bootstrapper package
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 After you create a bootstrapper package, you can create localized versions of the bootstrapper package by creating two more files for each locale: a software license terms file (such as a *eula.rtf*) and a package manifest (*package.xml*).
 
  By default, Visual Studio 2010 includes localized bootstrapper packages only for .NET Framework 4, .NET Framework 4 Client Profile, F# Runtime 2.0, and F# Runtime 4.0. You can create localized packages for other bootstrappers by completing three steps.

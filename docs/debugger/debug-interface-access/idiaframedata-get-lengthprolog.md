@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaFrameData::get_lengthProlog
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the number of bytes of prologue code in the block.
 
 ## Syntax

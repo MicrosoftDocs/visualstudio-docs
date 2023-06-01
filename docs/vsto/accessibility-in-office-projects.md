@@ -1,7 +1,6 @@
 ---
 title: "Accessibility in Office projects"
 description: Learn how Microsoft Office projects include many accessibility features that enable you to build custom solutions that meet standard accessibility requirements.
-ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:
@@ -20,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Accessibility in Office projects
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Microsoft Visual Studio and Microsoft Office include many accessibility features that enable you to build custom solutions that meet standard accessibility requirements. Microsoft publishes guidelines for accessibility on the Web. For details, see the [Accessibility website](https://www.microsoft.com/accessibility/).
 

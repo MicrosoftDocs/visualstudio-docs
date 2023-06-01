@@ -1,18 +1,19 @@
 ---
 title: Ngen support in VSIX v3 | Microsoft Docs
 description: Learn how to enable Native Image Generator, which is a tool that extension developers can use to improve the performance of managed applications.
-ms.custom: SEO-VS-2020
 ms.date: 11/09/2016
 ms.topic: conceptual
 ms.assetid: 1472e884-c74e-4c23-9d4a-6d8bdcac043b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Ngen support in VSIX v3
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 With Visual Studio 2017 and the new VSIX v3 (version 3) extension manifest format, extension developers can now "ngen" their assemblies at installation time.
 

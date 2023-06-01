@@ -8,14 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBreakpointEvent2 interface
 ms.assetid: 50b3a7a7-331b-42c8-922c-ff3522ebe1da
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # IDebugBreakpointEvent2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The debug engine (DE) sends this interface to the session debug manager (SDM) when a program stops at a breakpoint.
 
 ## Syntax

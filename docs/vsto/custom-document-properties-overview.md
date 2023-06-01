@@ -1,7 +1,6 @@
 ---
 title: "Custom document properties overview"
 description: Learn that when you build a document-level project, Visual Studio adds two custom properties to the document in the project.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -22,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # Custom document properties overview
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you build a document-level project, Visual Studio adds two custom properties to the document in the project: \_AssemblyLocation and \_AssemblyName. When a user opens a document, the Microsoft Office application checks for these custom document properties. If they exist in the document, the application loads the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)], which starts the customization. For more information, see [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md).
 

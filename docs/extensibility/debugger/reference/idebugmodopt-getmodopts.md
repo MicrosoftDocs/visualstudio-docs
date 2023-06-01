@@ -7,8 +7,8 @@ helpviewer_keywords:
 - IDebugModOpt::GetModOpts
 - GetModOpts
 ms.assetid: cb513fa9-d521-4a65-b968-f55f53a368df
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,18 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugModOpt::GetModOpts
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of optional modifiers.
 
 ## Syntax
 
-```cpp
-HRESULT GetModOpts(
-   ULONG  celt,
-   BSTR*  rgelt,
-   ULONG* pceltFetched
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetModOpts(
    uint         celt,
@@ -37,6 +32,15 @@ int GetModOpts(
    ref uint     pceltFetched
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetModOpts(
+   ULONG  celt,
+   BSTR*  rgelt,
+   ULONG* pceltFetched
+);
+```
+---
 
 ## Parameters
 `celt`\

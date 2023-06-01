@@ -1,20 +1,21 @@
 ---
 title: Properties Display Grid | Microsoft Docs
 description: Learn where the property names and property values fields are found in the grid in the Properties window and how to work with the grid in extending properties.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - properties [Visual Studio SDK], grid
 ms.assetid: 318e41b0-acf5-4842-b85e-421c9d5927c5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Properties display grid
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Properties** window displays fields within a grid. The left column contains the property names; the right column contains the property values.
 

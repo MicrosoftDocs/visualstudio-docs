@@ -1,7 +1,6 @@
 ---
 title: 'How to: Add a Dependency to a VSIX Package | Microsoft Docs'
 description: Learn how to set up a VSIX package deployment that installs any dependencies that are not already present on the target computer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -10,14 +9,16 @@ helpviewer_keywords:
 - package dll
 - vsix reference
 ms.assetid: 8f20177b-dab9-43a3-b959-81a591b451d6
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # How to: Add a dependency to a VSIX package
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can set up a VSIX package deployment that installs any dependencies that are not already present on the target computer. To accomplish this, include the VSIX dependencies to the *source.extension.vsixmanifest* file.
 

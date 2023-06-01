@@ -1,7 +1,6 @@
 ---
 title: "Work with workbooks"
 description: Learn that the Workbook and Workbooks classes contain the methods and properties you use to perform tasks with workbooks.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # Work with workbooks
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Tools.Excel.Workbook> and <xref:Microsoft.Office.Interop.Excel.Workbooks> class contains the methods and properties you use to perform tasks with workbooks.
 
 |Task|Procedure|

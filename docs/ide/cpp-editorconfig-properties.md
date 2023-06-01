@@ -4,7 +4,7 @@ titleSuffix: ""
 description: "Learn about how to use EditorConfig to format C++ code in Visual Studio."
 ms.date: 9/14/2020
 author: jureid
-ms.author: jureid
+ms.author: ghogen 
 manager: jmartens
 ms.technology: vs-ide-general
 dev_langs:
@@ -15,8 +15,9 @@ ms.workload:
   - "cplusplus"
 monikerRange: vs-2019
 ---
-
 # C++ EditorConfig formatting conventions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio C++ formatter has a rich set of configurable settings that can be applied globally. To set C++ formatting settings for a specific workspace, use [clangformat](https://clang.llvm.org/docs/ClangFormat.html) or [EditorConfig](https://editorconfig.org/). Both Visual Studio and Visual Studio Code have built-in EditorConfig support for each of the global Visual Studio C++ formatting settings, with the EditorConfig settings taking precedence. This means you can add EditorConfig files to your workspace to configure C++ formatting on a more granular level and enforce consistent code style for everyone contributing to the project.
 

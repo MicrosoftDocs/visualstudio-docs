@@ -1,18 +1,19 @@
 ---
 title: 'Walkthrough: Displaying Light Bulb Suggestions | Microsoft Docs'
 description: Learn how to create a light bulb in the Visual Studio editor that appears on the current word and has two suggested actions by using this walkthrough.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 99e5566d-450e-4660-9bca-454e1c056a02
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Walkthrough: Display light bulb suggestions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Light bulbs are icons in the Visual Studio editor that expand to display a set of actions, for example, fixes for problems identified by the built-in code analyzers or code refactoring.
 
  In the Visual C# and Visual Basic editors, you can also use the .NET Compiler Platform ("Roslyn") to write and package your own code analyzers with actions that display light bulbs automatically. For more information, see:

@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - PORT_SUPPLIER_DESCRIPTION_FLAGS enumeration
 ms.assetid: 5acee0ee-3a20-41c9-a7dc-0dadae6a5ba5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,10 +18,20 @@ dev_langs:
 ---
 # PORT_SUPPLIER_DESCRIPTION_FLAGS
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Defines the metadata that can be retrieved about a port supplier.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS
+{
+    PSDFLAG_SHOW_WARNING_ICON = 0x1
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS
 {
@@ -29,13 +39,7 @@ enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS
 };
 typedef DWORD PORT_SUPPLIER_DESCRIPTION_FLAGS;
 ```
-
-```csharp
-public enum enum_PORT_SUPPLIER_DESCRIPTION_FLAGS
-{
-    PSDFLAG_SHOW_WARNING_ICON = 0x1
-};
-```
+---
 
 ## Fields
 

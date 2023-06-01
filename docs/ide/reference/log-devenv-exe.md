@@ -1,7 +1,6 @@
 ---
 title: -Log (devenv.exe)
 description: Learn how to use the Log devenv command-line switch to log all activity to the log file for troubleshooting.
-ms.custom: SEO-VS-2020
 ms.date: 12/12/2018
 ms.topic: reference
 helpviewer_keywords:
@@ -17,6 +16,8 @@ ms.workload:
 - multiple
 ---
 # /Log (devenv.exe)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Logs all activity to the log file for troubleshooting. This file appears after you've called `devenv /log` at least once. By default, the log file is located here:
 

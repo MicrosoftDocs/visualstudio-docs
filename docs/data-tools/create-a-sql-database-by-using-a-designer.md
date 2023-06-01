@@ -1,13 +1,12 @@
 ---
 title: Create a database and add tables
 description: Tutorial that describes how to add tables and foreign keys to a database by using Table Designer in Visual Studio. It also shows how to add data through the graphical interface.
-ms.date: 10/15/2021
+ms.date: 02/28/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - database tables, creating
 - database files, creating
 - table designer
-ms.assetid: 99c2b06f-47aa-414e-8057-a3453712fd23
 author: ghogen
 ms.author: ghogen
 manager: jmartens
@@ -17,11 +16,15 @@ ms.workload:
 ---
 # Create a database and add tables in Visual Studio
 
-You can use Visual Studio to create and update a local database file in SQL Server Express LocalDB. You can also create a database by executing Transact-SQL statements in the **SQL Server Object Explorer** tool window in Visual Studio. In this topic, we'll create an *.mdf* file and add tables and keys by using the Table Designer.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
+
+You can use Visual Studio to create and update a local database file in SQL Server Express LocalDB. You can also create a database by executing Transact-SQL statements in the **SQL Server Object Explorer** tool window in Visual Studio. In this topic, you create an *.mdf* file and add tables and keys by using the Table Designer.
 
 ## Prerequisites
 
-To complete this walkthrough, you'll need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify.
+To complete this walkthrough, you need the **.NET desktop development** and **Data storage and processing** workloads installed in Visual Studio. To install them, open **Visual Studio Installer** and choose **Modify** (or **More** > **Modify**) next to the version of Visual Studio you want to modify.
 
 > [!NOTE]
 > The procedures in this article apply only to .NET Framework Windows Forms projects, not to .NET Core Windows Forms projects.
@@ -30,7 +33,7 @@ To complete this walkthrough, you'll need the **.NET desktop development** and *
 
 1. Create a new **Windows Forms App (.NET Framework)** project and name it **SampleDatabaseWalkthrough**.
 
-2. On the menu bar, select **Project** > **Add New Item**.
+2. On the menu bar, select **Project** > **Add New Item**. If you see a small dialog box with a box for a filename, choose **Show All Templates**.
 
 3. In the list of item templates, scroll down and select **Service-based Database**.
 
@@ -41,7 +44,7 @@ To complete this walkthrough, you'll need the **.NET desktop development** and *
    ![Add New item > Service-based database](media/raddata-vsitemtemplates.png)
    :::moniker-end
 
-4. Name the database **SampleDatabase**, and then click **Add**.
+4. Name the database **SampleDatabase.mdf**, and then click **Add**.
 
 ### Add a data source
 
@@ -66,13 +69,13 @@ To complete this walkthrough, you'll need the **.NET desktop development** and *
 
 1. On the **Save the Connection String to the Application Configuration File** page, choose **Next**.
 
-1. On the **Choose your Database Objects** page, you'll see a message that says the database doesn't contain any objects. Choose **Finish**.
+1. On the **Choose your Database Objects** page, you see a message that says the database doesn't contain any objects. Choose **Finish**.
 
 ### View properties of the data connection
 
 You can view the connection string for the *SampleDatabase.mdf* file by opening the Properties window of the data connection:
 
-- Select **View** > **SQL Server Object Explorer** to open the **SQL Server Object Explorer** window. Expand **(localdb)\MSSQLLocalDB** > **Databases**, and then right-click on *SampleDatabase.mdf* and select **Properties**.
+- Select **View** > **SQL Server Object Explorer** to open the **SQL Server Object Explorer** window. Expand **(localdb)\MSSQLLocalDB** > **Databases**, and then right-click on *SampleDatabase.mdf* (it might be listed as a full path) and select **Properties**.
 
 - Alternatively, you can select **View** > **Server Explorer**, if that window isn't already open. Open the Properties window by expanding the **Data Connections** node, right-clicking on *SampleDatabase.mdf*, and then selecting **Properties**.
 
@@ -81,17 +84,15 @@ You can view the connection string for the *SampleDatabase.mdf* file by opening 
 
 ## Create tables and keys by using Table Designer
 
-In this section, you'll create two tables, a primary key in each table, and a few rows of sample data. You'll also create a foreign key to specify how records in one table correspond to records in the other table.
+In this section, you create two tables, a primary key in each table, and a few rows of sample data. you also create a foreign key to specify how records in one table correspond to records in the other table.
 
 ### Create the Customers table
 
-1. In **Server Explorer**, expand the **Data Connections** node, and then expand the **SampleDatabase.mdf** node.
-
-   If you can't expand the Data Connections node, or the SampleDatabase.mdf connection is not listed, select the **Connect to Database** button in the Server Explorer toolbar. In the **Add Connection** dialog box, make sure that **Microsoft SQL Server Database File** is selected under **Data source**, and then browse to and select the SampleDatabase.mdf file. Finish adding the connection by selecting **OK**.
+1. In **Server Explorer** or **SQL Server Object Browser**, expand the **Data Connections** node, and then expand the **SampleDatabase.mdf** node.
 
 2. Right-click on **Tables** and select **Add New Table**.
 
-   The Table Designer opens and shows a grid with one default row, which represents a single column in the table that you're creating. By adding rows to the grid, you'll add columns in the table.
+   The Table Designer opens and shows a grid with one default row, which represents a single column in the table that you're creating. By adding rows to the grid, you add columns in the table.
 
 3. In the grid, add a row for each of the following entries:
 
@@ -112,6 +113,12 @@ In this section, you'll create two tables, a primary key in each table, and a fe
    CREATE TABLE [dbo].[Customers]
    ```
 
+7. Add an index constraint to the Customers table. Add a comma at the end of the `Phone` line, then add the following sample before the closing parenthesis:
+
+   ```sql
+   CONSTRAINT [PK_Customers] PRIMARY KEY ([CustomerID])
+   ```
+
    You should see something like this:
 
    :::moniker range=">=vs-2022"
@@ -121,9 +128,9 @@ In this section, you'll create two tables, a primary key in each table, and a fe
    ![Table Designer with Customers table](media/table-designer.png)
    :::moniker-end
 
-7. In the upper-left corner of **Table Designer**, select **Update**, or press **Shift**+**Alt**+**U**.
+8. In the upper-left corner of **Table Designer**, select **Update**, or press **Shift**+**Alt**+**U**.
 
-8. In the **Preview Database Updates** dialog box, select **Update Database**.
+9. In the **Preview Database Updates** dialog box, select **Update Database**.
 
    The Customers table is created in the local database file.
 
@@ -146,11 +153,17 @@ In this section, you'll create two tables, a primary key in each table, and a fe
    CREATE TABLE [dbo].[Orders]
    ```
 
-4. In the upper-left corner of the **Table Designer**, select **Update**, or press **Shift**+**Alt**+**U**..
+4. Add an index constraint to the Customers table. Add a comma at the end of the `OrderQuantity` line, then add the following sample before the closing parenthesis:
 
-5. In the **Preview Database Updates** dialog box, select **Update Database**.
+   ```sql
+   CONSTRAINT [PK_Orders] PRIMARY KEY ([OrderId])
+   ```
 
-   The Orders table is created in the local database file. If you expand the **Tables** node in Server Explorer, you see the two tables:
+5. In the upper-left corner of the **Table Designer**, select **Update**, or press **Shift**+**Alt**+**U**..
+
+6. In the **Preview Database Updates** dialog box, select **Update Database**.
+
+   The Orders table is created in the local database file. If you expand the **Tables** node in **Server Explorer**, you see the two tables:
 
    :::moniker range=">=vs-2022"
    ![Tables node expanded in Server Explorer](media/vs-2022/server-explorer-tables-node.png)
@@ -165,7 +178,12 @@ In this section, you'll create two tables, a primary key in each table, and a fe
 
 1. In the context pane on the right side of the Table Designer grid for the Orders table, right-click on **Foreign Keys** and select **Add New Foreign Key**.
 
+   :::moniker range=">=vs-2022"
+   ![Add a foreign key in Table Designer in Visual Studio](media/vs-2022/add-foreign-key.png)
+   :::moniker-end
+   :::moniker range="<=vs-2019"
    ![Add a foreign key in Table Designer in Visual Studio](../data-tools/media/add-foreign-key.png)
+   :::moniker-end
 
 2. In the text box that appears, replace the text **ToTable** with **Customers**.
 
@@ -187,15 +205,15 @@ In this section, you'll create two tables, a primary key in each table, and a fe
 
 2. Open the shortcut menu for the **Tables** node, select **Refresh**, and then expand the **Tables** node.
 
-3. Open the shortcut menu for the Customers table, and then select **View Data**.
+3. Open the shortcut menu for the Customers table, and then select **Show Table Data** or **View Data**.
 
 4. Add whatever data you want for some customers.
 
     You can specify any five characters you want as the customer IDs, but choose at least one that you can remember for use later in this procedure.
 
-5. Open the shortcut menu for the Orders table, and then select **Show Table Data**.
+5. Open the shortcut menu for the Orders table, and then select **Show Table Data** or **View Data**.
 
-6. Add data for some orders. As you enter each row, it is saved in the database.
+6. Add data for some orders. As you enter each row, it's saved in the database.
 
     > [!IMPORTANT]
     > Make sure that all order IDs and order quantities are integers and that each customer ID matches a value that you specified in the **CustomerID** column of the Customers table.

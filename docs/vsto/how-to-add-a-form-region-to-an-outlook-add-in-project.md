@@ -1,7 +1,6 @@
 ---
 title: "How to: Add a form region to an Outlook Add-in project"
 description: Learn how to create a form region to extend a standard or custom Microsoft Office Outlook form by using the New Outlook Form Region wizard.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 f1_keywords:
@@ -22,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # How to: Add a form region to an Outlook Add-in project
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Create a form region to extend a standard or custom Microsoft Office Outlook form by using the **New Outlook Form Region** wizard. You can create a new form region and design the user interface in Visual Studio, or you can import a form region that was designed in Outlook and add Visual Basic or C# code.
 
  If you have an Outlook form region that you used in another Outlook project, you can reuse it in your current Outlook VSTO Add-in project by using the **Add Existing Item** dialog box. For more information, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).

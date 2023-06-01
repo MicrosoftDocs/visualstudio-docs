@@ -2,7 +2,6 @@
 title: FxCopCmd errors
 ms.date: 10/19/2016
 description: Learn about the error codes that the FxCopCmd command returns. See which type of error each code represents, and find out how to recognize fatal errors.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 helpviewer_keywords:
   - "FxCopCmd errors"
@@ -15,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # FxCopCmd tool errors
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 FxCopCmd does not consider all errors to be fatal. If FxCopCmd has sufficient information to perform a partial analysis, it performs the analysis and reports errors that occurred. The error code, which is a 32-bit integer, contains a bitwise combination of numeric values that correspond to errors.
 

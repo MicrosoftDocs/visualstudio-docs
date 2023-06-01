@@ -1,7 +1,6 @@
 ---
 title: Command Window
 description: Learn how you can use the Command window to execute commands or aliases directly in the Visual Studio IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -21,6 +20,8 @@ ms.workload:
 - multiple
 ---
 # Command Window
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Command** window is used to execute commands or aliases directly in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). You can execute both menu commands and commands that do not appear on any menu. To display the **Command** window, choose **Other Windows** from the **View** menu, and select **Command Window**.
 
 ## Displaying the Values of Variables

@@ -2,7 +2,6 @@
 title: Native Recommended Rules rule set
 ms.date: 11/04/2016
 description: Learn about the Visual Studio Native Recommended Rules rule set. See descriptions of rules for security, robustness, and other critical issues in native code.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 author: mikejo5000
 ms.author: mikejo
@@ -12,6 +11,8 @@ ms.workload:
 - multiple
 ---
 # Native Recommended Rules rule set
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Native Recommended Rules focus on the most critical and common problems in native code, including potential security holes and application crashes. This rule set includes all of the rules in the [Native Minimum Rules](native-minimum-rules-rule-set.md) rule set.
 

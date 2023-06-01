@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - TYPE_INFO structure
 ms.assetid: d725cb68-a565-49d1-a16f-ff0445c587a0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,20 @@ dev_langs:
 - CSharp
 ---
 # TYPE_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure specifies various kinds of information about a field's type.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public struct TYPE_INFO {
+   public uint   dwKind;
+   public IntPtr unionmember;
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 struct _tagTYPE_INFO_UNION {
    dwTYPE_KIND dwKind;
@@ -34,13 +44,7 @@ struct _tagTYPE_INFO_UNION {
    } type;
 } TYPE_INFO;
 ```
-
-```csharp
-public struct TYPE_INFO {
-   public uint   dwKind;
-   public IntPtr unionmember;
-};
-```
+---
 
 ## Members
  `dwKind`\

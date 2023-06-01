@@ -2,7 +2,6 @@
 title: "A DCOM error occurred trying to contact the remote computer. Access is denied."
 titleSuffix: ""
 description: "'A DCOM error occurred trying to contact the remote computer. Access is denied.' View information about this Visual Studio remote debugging error reference."
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -26,6 +25,8 @@ ms.workload:
   - "multiple"
 ---
 # A DCOM error occurred trying to contact the remote computer. Access is denied.
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Remote debugging uses DCOM to communicate between the local and remote computers in the following situations:
 
 - The debugger is set to **Native Compatibility Mode** or **Managed Compatibility Mode** is checked in the **Tools > Options > Debugging** page

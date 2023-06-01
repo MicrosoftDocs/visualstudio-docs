@@ -1,7 +1,6 @@
 ---
 title: Item Functions | Microsoft Docs
 description: Learn how MSBuild code in tasks and targets can call item functions to get information about the items in the project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -53,16 +52,22 @@ The table below lists the intrinsic functions available for items.
 
 |Function|Example|Description|
 |--------------|-------------|-----------------|
-|`Count`|`@(MyItem->Count())`|Returns the count of the items.|
-|`DirectoryName`|`@(MyItem->DirectoryName())`|Returns the equivalent of `Path.DirectoryName` for each item.|
-|`Distinct`|`@(MyItem->Distinct())`|Returns items that have distinct `Include` values. Metadata is ignored. The comparison is case insensitive.|
-|`DistinctWithCase`|`@(MyItem->DistinctWithCase())`|Returns items that have distinct `itemspec` values. Metadata is ignored. The comparison is case sensitive.|
-|`Reverse`|`@(MyItem->Reverse())`|Returns the items in reverse order.|
-|`AnyHaveMetadataValue`|`@(MyItem->AnyHaveMetadataValue("MetadataName", "MetadataValue"))`|Returns a `boolean` to indicate whether any item has the given metadata name and value. The comparison is case insensitive.|
-|`ClearMetadata`|`@(MyItem->ClearMetadata())`|Returns items with their metadata cleared. Only the `itemspec` is retained.|
-|`HasMetadata`|`@(MyItem->HasMetadata("MetadataName"))`|Returns items that have the given metadata name. The comparison is case insensitive.|
-|`Metadata`|`@(MyItem->Metadata("MetadataName"))`|Returns the values of the metadata that have the metadata name.|
-|`WithMetadataValue`|`@(MyItem->WithMetadataValue("MetadataName", "MetadataValue"))`|Returns items that have the given metadata name and value. The comparison is case insensitive.|
+|`Combine`|`@(MyItems->Combine('path'))`|Returns a new set of items with a given relative path appended to all the input items.|
+|`Count`|`@(MyItems->Count())`|Returns the count of the items.|
+|`DirectoryName`|`@(MyItems->DirectoryName())`|Returns the equivalent of `Path.DirectoryName` for each item.|
+|`Distinct`|`@(MyItems->Distinct())`|Returns items that have distinct `Include` values. Metadata is ignored. The comparison is case insensitive.|
+|`DistinctWithCase`|`@(MyItems->DistinctWithCase())`|Returns items that have distinct `itemspec` values. Metadata is ignored. The comparison is case sensitive.|
+|`Exists`|`@(MyItems->Exists())`|Filters a set of items to those that actually exist on disk.|
+|`GetPathsOfAllDirectoriesAbove`| `@(MyItems->GetPathsOfAllFilesAbove())`|Given a set of items, returns items representing all the ancestor directories. No order is guaranteed.|
+|`Reverse`|`@(MyItems->Reverse())`|Returns the items in reverse order.|
+|`AnyHaveMetadataValue`|`@(MyItems->AnyHaveMetadataValue("MetadataName", "MetadataValue"))` | Returns a `boolean` to indicate whether any item has the given metadata name and value. The comparison is case insensitive. |
+|`ClearMetadata`|`@(MyItems->ClearMetadata())` |Returns items with their metadata cleared. Only the `itemspec` is retained.|
+|`HasMetadata`|`@(MyItems->HasMetadata("MetadataName"))`|Returns items that have the given metadata name. The comparison is case insensitive.|
+|`Metadata`|`@(MyItems->Metadata("MetadataName"))`|Returns the values of the metadata that have the metadata name. The items returned have the same metadata as the source values.|
+|`WithMetadataValue`|`@(MyItems->WithMetadataValue("MetadataName", "MetadataValue"))`|Returns items that have the given metadata name and value. The comparison is case insensitive.|
+
+> [!NOTE]
+> `Exists` can also be used in other contexts; in [MSBuild conditions](msbuild-conditions.md), for example `Condition="Exists('path')"`; or in [Static property functions](property-functions.md), for example `$([System.IO.File]::Exists("path"))`.
 
 The following example shows how to use intrinsic item functions.
 
@@ -99,10 +104,43 @@ The following example shows how to use intrinsic item functions.
   -->
 ```
 
+## Detecting duplicates when using the Metadata item function
+
+The `Metadata` item function preserves the original metadata of the source items. This has some implications when considering whether the items returned are duplicates or not. To control how duplicate items are handled, you can use the attribute [KeepDuplicates](./msbuild-items.md#keepduplicates-attribute). You can also remove the metadata, if it's not needed, by adding the [RemoveMetadata](./msbuild-items.md#removemetadata-attribute), in which case only the values themselves are considered when detecting duplicates.
+
+```xml
+  <Target Name="MetadataToItem">
+    <ItemGroup>
+      <Sample Include="AAA" SomeItems="1;2;3" />
+      <Sample Include="BBB" SomeItems="3;4;5" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AllSomeItems Include="@(Sample->Metadata('SomeItems'))" KeepDuplicates="false" />
+    </ItemGroup>
+    <Message Text="AllSomeItems is @(AllSomeItems)" />
+  </Target>
+```
+
+The output is as follows:
+
+```output
+MetadataToItem:
+  AllSomeItems is 1;2;3;3;4;5
+```
+
+The following change to the code results in the duplicate item value being successfully detected and removed:
+
+```xml
+    <ItemGroup>
+      <AllSomeItems Include="@(Sample->Metadata('SomeItems'))" KeepDuplicates="false" RemoveMetadata="SomeItems" />
+    </ItemGroup>
+```
+
 ## MSBuild condition functions
 
-The functions `Exists` and `HasTrailingSlash` are not item functions. They are available for use with the `Condition` attribute. See [MSBuild conditions](msbuild-conditions.md).
+The function `HasTrailingSlash` is not an item function. It is available for use with the `Condition` attribute. See [MSBuild conditions](msbuild-conditions.md).
 
 ## See also
 
-- [Items](../msbuild/msbuild-items.md)
+You can also use attributes to perform operations on item lists, such as filtering on item metadata; see [Items](../msbuild/msbuild-items.md).

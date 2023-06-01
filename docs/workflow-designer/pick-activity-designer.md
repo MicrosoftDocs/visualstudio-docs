@@ -1,20 +1,21 @@
 ---
 title: "Workflow Designer - Pick Activity Designer"
-description: Learn how the Pick activity provides event-based control flow and executes one of several branches in response to a triggering event. 
-ms.custom: SEO-VS-2020
+description: Learn how the Pick activity provides event-based control flow and executes one of several branches in response to a triggering event.
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.Pick.UI"
 ms.assetid: 642c0a47-1b47-45de-a19a-ca0606cedd7a
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
   - "multiple"
 ---
 # Pick Activity Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The <xref:System.Activities.Statements.Pick> activity provides event-based control flow. The activity executes one of several branches in response to a triggering event.
 

@@ -1,7 +1,6 @@
 ---
 title: XmlPeek Task | Microsoft Docs
 description: Learn how MSBuild uses the XmlPeek task to return values as specified by XPath Query from an XML file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:
@@ -115,3 +114,4 @@ The output includes the following from the `TestPeek` target:
 - [Tasks](../msbuild/msbuild-tasks.md)
 - [Task reference](../msbuild/msbuild-task-reference.md)
 - [XPath query syntax](https://wikipedia.org/wiki/XPath)
+- [XPath Queries and Namespaces](/dotnet/standard/data/xml/xpath-queries-and-namespaces)

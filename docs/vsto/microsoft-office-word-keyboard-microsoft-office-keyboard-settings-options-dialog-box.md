@@ -1,7 +1,6 @@
 ---
 title: "Office Word Keyboard, Settings, Options dialog box"
 description: Learn how you can make Microsoft Word receive shortcut key commands when the document has focus by selecting Dynamic keyboard scheme.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -22,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # Microsoft Office Word Keyboard, Settings, Options dialog box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Microsoft Office Word and Visual Studio both handle shortcut keys. The same shortcut key combination can stand for different commands in Word and in Visual Studio. When Word is open in a document-level project in Visual Studio, only one application at a time receives the shortcut key commands. By default, Visual Studio receives all shortcut key commands, but you can make Word receive them when the document has focus by selecting **Dynamic keyboard scheme**.
 
  If you use a shortcut key that is not assigned to a command in the application that is currently handling the shortcut keys, the shortcut key is passed on to the other application.

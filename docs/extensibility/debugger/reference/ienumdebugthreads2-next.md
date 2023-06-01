@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugThreads2::Next
 ms.assetid: bcffd954-3c67-4867-96f3-041ddb3e34d4
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugThreads2::Next
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the next set of elements from the enumeration.
 
 ## Syntax
 
-```cpp
-HRESULT Next(
-   ULONG           celt,
-   IDebugThread2** rgelt,
-   ULONG*          pceltFetched
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Next(
    uint            celt,
@@ -38,6 +33,15 @@ int Next(
    ref uint        pceltFetched
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Next(
+   ULONG           celt,
+   IDebugThread2** rgelt,
+   ULONG*          pceltFetched
+);
+```
+---
 
 ## Parameters
 `celt`\

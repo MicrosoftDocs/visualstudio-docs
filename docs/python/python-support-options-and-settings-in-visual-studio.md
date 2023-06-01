@@ -11,25 +11,21 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Python_Tools.Experimental"
   - "VS.ToolsOptionsPages.Python_Tools.Interactive_Windows"
   - "VS.ToolsOptionsPages.Text_Editor.Python.Advanced"
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 ms.workload:
   - python
   - data-science
 ---
-
 # Options for Python in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To view Python options, use the **Tools** > **Options** menu command, make sure **Show all settings** is selected, and then navigate to **Python**:
 
-::: moniker range="vs-2017"
-![Python options dialog, General tab](media/options-general.png)
-::: moniker-end
-::: moniker range=">=vs-2019"
 ![Python options dialog, General tab](media/options-general-2019.png)
-::: moniker-end
 
 There are also additional Python-specific options on the **Text Editor** > **Python** > **Advanced** tab, and on the **Environment** > **Fonts and Colors** tab within the **Text Editor** group.
 
@@ -55,14 +51,8 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 | **Check for survey/news** | **Once a week** | *Visual Studio 2017 and earlier.* Sets the frequency at which you allow Visual Studio to open a window containing a web page with Python-related surveys and news items, if available. Options are **Never**, **Once a day**, **Once a week**, and **Once a month**. |
 | **Reset all permanently hidden dialogs** button | n/a | Different dialog boxes provide options such as **Don't show me this again**. Use this button to clear those options and cause the dialogs to reappear. |
 
-::: moniker range="vs-2017"
-![Python options dialog, General tab](media/options-general.png)
-::: moniker-end
-::: moniker range=">=vs-2019"
 ![Python options dialog, General tab](media/options-general-2019.png)
-::: moniker-end
 
-::: moniker range=">=vs-2019"
 ## Conda options
 
 (**Tools** > **Options** > **Python** > **Conda** tab.)
@@ -72,8 +62,6 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 | **Conda executable path** | (blank) | Specifies an exact path to the *conda.exe* executable rather than relying on the default Miniconda installation that's included with the Python workload. If another path is given here, it takes precedence over the default installation and any other conda.exe executables specified in the registry. You might change this setting if you manually install a newer version of Anaconda or Miniconda, or want to use a 32-bit distro rather than the default 64-bit distro. |
 
 ![Screenshot of the Visual Studio Tools Options dialog with Conda selected in the Python options and the Conda executable path field shown in the right pane.](media/options-conda.png)
-
-::: moniker-end
 
 ## Debugging options
 
@@ -89,12 +77,7 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 | **Show function return value** | On | *Visual Studio 2019 only.* Displays function return values in the **Locals** window then stepping over a function call in the debugger (F10) |
 | **Use legacy debugger** | Off | *Visual Studio 2019 only.* Instructs Visual Studio to use the legacy debugger by default. For more information, see [Debugging - Use the legacy debugger](debugging-python-in-visual-studio.md#use-the-legacy-debugger). |
 
-::: moniker range="vs-2017"
-![Python options dialog, Debugging tab](media/options-debugging.png)
-::: moniker-end
-::: moniker range=">=vs-2019"
 ![Python options dialog, Debugging tab](media/options-debugging-2019.png)
-::: moniker-end
 
 ## Diagnostics options
 
@@ -121,7 +104,6 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 
 ![Python options dialog, Interactive Windows tab](media/options-interactive-windows.png)
 
-::: moniker range=">=vs-2019"
 ## Language server options
 
 (**Tools** > **Options** > **Python** > **Language server** tab.)
@@ -132,8 +114,6 @@ There are also additional Python-specific options on the **Text Editor** > **Pyt
 | **Custom Typeshed path** | (blank) | If set, Visual Studio uses the Typeshed files at this path instead of its bundled version. Ignore if **Disable completions from Typeshed** is set. |
 
 ![Screenshot of the Visual Studio Tools Options dialog with Language Server selected in the Python options and the Language Server options shown in the right pane.](media/options-language-server.png)
-
-::: moniker-end
 
 ## Advanced Python editor options
 

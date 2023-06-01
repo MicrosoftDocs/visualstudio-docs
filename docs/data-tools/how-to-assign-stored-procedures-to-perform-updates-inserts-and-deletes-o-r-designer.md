@@ -1,7 +1,6 @@
 ---
 title: Use stored procedures in LINQ to SQL to update data
 description: Use stored procedures in the LINQ to SQL Object Relational Designer (O/R Designer) to perform updates, inserts, and deletes of data.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: e88224ab-ff61-4a3a-b6b8-6f3694546cac
@@ -13,6 +12,8 @@ ms.workload:
 - data-storage
 ---
 # How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Stored procedures can be added to the **O/R Designer** and executed as typical <xref:System.Data.Linq.DataContext> methods. They can also be used to override the default LINQ to SQL run-time behavior that performs Inserts, Updates, and Deletes when changes are saved from entity classes to a database (for example, when calling the <xref:System.Data.Linq.DataContext.SubmitChanges%2A> method).
 

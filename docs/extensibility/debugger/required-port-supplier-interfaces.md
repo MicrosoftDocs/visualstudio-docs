@@ -1,21 +1,22 @@
 ---
 title: Required Port Supplier Interfaces | Microsoft Docs
 description: Learn about the interfaces that a port supplier must run. A port supplier supplies ports and implements them.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - port suppliers, required interfaces
 - debugging [Debugging SDK], port suppliers
 ms.assetid: 0c2cdd40-9f6f-425e-b305-858f7734161e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # Required port supplier interfaces
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A port supplier must implement the [IDebugPortSupplier2](../../extensibility/debugger/reference/idebugportsupplier2.md) interface.[IDebugPortSupplier2](../../extensibility/debugger/reference/idebugportsupplier2.md)
 
  A port supplier supplies ports and implements them. Therefore, it must run the following interfaces:

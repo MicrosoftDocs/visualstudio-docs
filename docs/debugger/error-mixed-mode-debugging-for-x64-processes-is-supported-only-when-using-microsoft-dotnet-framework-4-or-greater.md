@@ -18,6 +18,8 @@ ms.workload:
   - "dotnet"
 ---
 # Error: Mixed-mode debugging for x64 processes is supported only when using Microsoft .NET Framework 4 or greater
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To debug mixed native and managed code in a 64-bit process, you must have .NET Framework version 4. Mixed-mode debugging of 64-bit processes with .NET Framework versions earlier than 4 is not supported.
 
 ### To correct this error

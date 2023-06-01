@@ -15,6 +15,8 @@ ms.workload:
 ---
 # Deprecated rules
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The following FxCop legacy analysis rules are deprecated and won't be implemented as analyzers. For further information, you can search by rule ID (for example, **CA1009**) on the [roslyn-analyzers GitHub issues page](https://github.com/dotnet/roslyn-analyzers/issues?utf8=%E2%9C%93&q=is:issue+label:FxCop-Port).
 
 - [CA1006](ca1006.md)

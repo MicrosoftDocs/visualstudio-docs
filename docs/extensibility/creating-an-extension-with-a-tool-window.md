@@ -1,18 +1,19 @@
 ---
 title: Creating an Extension with a Tool Window | Microsoft Docs
 description: Learn how to use the VSIX project template and the Custom Tool Window item template to create an extension with a tool window.
-ms.custom: SEO-VS-2020
 ms.date: 3/16/2019
 ms.topic: how-to
 ms.assetid: 585b0a3a-f85b-4f92-81bb-9ca499bb8a89
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Create an extension with a tool window
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this procedure, you learn how to use the VSIX project template and the **Custom Tool Window** item template to create an extension with a tool window.
 

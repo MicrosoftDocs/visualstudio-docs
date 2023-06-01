@@ -1,7 +1,7 @@
 ---
 description: "After taking steps detailed here to resolve the issue, and before trying again to debug, you may also need to reset IIS."
 title: "The web server is not configured correctly | Microsoft Docs"
-ms.date: "09/20/2017"
+ms.date: "12/19/2022"
 ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.remote.projnotconfigured"
@@ -21,6 +21,8 @@ ms.workload:
 ---
 # Error: The web server is not configured correctly
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 After taking steps detailed here to resolve the issue, and before trying again to debug, you may also need to reset IIS. You can do that by opening an Administrator command prompt and typing `iisreset`.
 
 Take these steps to resolve this issue:
@@ -39,7 +41,7 @@ Take these steps to resolve this issue:
 
 4. (IIS) Make sure that the correct version of ASP.NET is installed on the server.
 
-    Mismatched versions of ASP.NET on IIS and in your Visual Studio project may cause this issue. You may need to set the framework version in web.config. To install ASP.NET on IIS, use the [Web Platform Installer (WebPI)](https://www.microsoft.com/web/downloads/platform.aspx). Also, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) or, for ASP.NET Core, [Host on Windows with IIS](https://docs.asp.net/en/latest/publishing/iis.html).
+    Mismatched versions of ASP.NET on IIS and in your Visual Studio project may cause this issue. You may need to set the framework version in web.config. To install ASP.NET Core on IIS, see [Install ASP.NET Core on Windows Server](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md#install-aspnet-core-on-windows-server) or, for ASP.NET, [Install ASP.NET on Windows Server](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md#BKMK_deploy_asp_net). Also, see [IIS 8.0 Using ASP.NET 3.5 and ASP.NET 4.5](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45) or, for ASP.NET Core, [Host on Windows with IIS](https://docs.asp.net/en/latest/publishing/iis.html).
 
 4. If the `maxConnection` limit in IIS is too low, and you have too many connections, you may need to [increase the connection limit](/iis/configuration/system.applicationhost/sites/sitedefaults/limits).
 

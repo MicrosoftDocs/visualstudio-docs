@@ -1,20 +1,21 @@
 ---
 title: Document Windows | Microsoft Docs
 description: Learn about document windows in Visual Studio, including how to implement them and how the Running document table (RDT) tracks their status.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Visual Studio SDK, document windows
 ms.assetid: 50081d48-987f-43db-8bf9-51b7cf76e9c0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Document windows
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Visual Studio, a *document window* is a framed child window that is associated with a multiple-document interface (MDI) window. Document windows are typically used for the display and modification of source code or text, but they can also host other functional types. Document windows:
 
 - Can be organized in separate horizontal or vertical tab groups in the parent MDI so that multiple files can be viewed at the same time.

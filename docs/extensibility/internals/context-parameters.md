@@ -1,21 +1,22 @@
 ---
 title: Context Parameters | Microsoft Docs
 description: Learn about context parameters in the Visual Studio integrated development environment (IDE) that define the state of a project when you add or implement a wizard. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - wizards, context parameters
 - context parameters
 ms.assetid: 1a062dcb-8a8f-40dd-bea9-3d10f9448966
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Context parameters
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE), you can add wizards to the **New Project**, **Add New Item**, or **Add Sub Project** dialog boxes. The added wizards are available on the **File** menu or by right-clicking a project in **Solution Explorer**. The IDE passes context parameters to the implementation of the wizard. The context parameters define the state of the project when the IDE calls the wizard.
 
  The IDE starts wizards by setting the <xref:Microsoft.VisualStudio.Shell.Interop.VSADDITEMOPERATION> flag in the IDE's call to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3.AddItem%2A> method for the project. When set, the project must cause the `IVsExtensibility::RunWizardFile` method to be executed by using the registered wizard name or GUID and other context parameters that the IDE passes to it.

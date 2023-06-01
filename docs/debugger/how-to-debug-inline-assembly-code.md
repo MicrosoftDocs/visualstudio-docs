@@ -1,7 +1,6 @@
 ---
 title: Debug Inline Assembly Code | Microsoft Docs
 description: When you debug inline assembly code, use the Disassembly window to see the assembly instructions, and use the Registers window to view the register values.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -24,6 +23,8 @@ ms.workload:
   - multiple
 ---
 # How to: Debug Inline Assembly Code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, choose Import and Export Settings on the Tools menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).

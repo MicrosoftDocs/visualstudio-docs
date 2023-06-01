@@ -1,20 +1,21 @@
 ---
 title: Document Lock Holder Management | Microsoft Docs
 description: Learn how to place an edit lock on a document in the running document table without the user seeing an open document in a document window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - document locking
 ms.assetid: fa1ce513-eb7d-42bc-b6e8-cb2433d051d5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Document lock holder management
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The running document table (RDT) maintains a count of open documents and any edit locks they have. You can place an edit lock on a document in the RDT when it is programmatically edited in the background without the user seeing an open document in a document window. This functionality is often used by designers that modify multiple files through a graphical user interface.
 

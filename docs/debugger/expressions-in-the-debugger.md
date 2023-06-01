@@ -1,7 +1,6 @@
 ---
 title: "Expressions in the debugger | Microsoft Docs"
 description: Learn which language expressions are not supported by the expression evaluators in the Visual Studio debugger.
-ms.custom: SEO-VS-2020
 ms.date: "08/24/2021"
 ms.topic: "conceptual"
 f1_keywords:
@@ -24,6 +23,8 @@ ms.workload:
   - "multiple"
 ---
 # Expressions in the Visual Studio debugger
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Visual Studio debugger includes expression evaluators that work when you enter an expression in the **QuickWatch** dialog box, **Watch** window, or **Immediate** window. The expression evaluators are also at work in the **Breakpoints** window and many other places in the debugger.
 
 The following sections describes limitations of expression evaluation for languages supported by Visual Studio.

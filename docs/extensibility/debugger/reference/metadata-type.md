@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - METADATA_TYPE structure
 ms.assetid: 2d8b78f6-0aef-4d79-809a-cff9b2c24659
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # METADATA_TYPE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure specifies information about a field type taken from metadata.
 
 ## Syntax
 
-```cpp
-typedef struct _tagTYPE_METADATA {
-   ULONG32  ulAppDomainID;
-   GUID     guidModule;
-   _mdToken tokClass;
-} METADATA_TYPE;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct METADATA_TYPE {
    public uint ulAppDomainID;
@@ -38,6 +33,15 @@ public struct METADATA_TYPE {
    public int  tokClass;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagTYPE_METADATA {
+   ULONG32  ulAppDomainID;
+   GUID     guidModule;
+   _mdToken tokClass;
+} METADATA_TYPE;
+```
+---
 
 ## Parameters
  `ulAppDomainID`\

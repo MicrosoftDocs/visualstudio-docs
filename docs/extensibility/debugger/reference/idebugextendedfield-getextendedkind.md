@@ -7,8 +7,8 @@ helpviewer_keywords:
 - IDebugExtendedField::GetExtendedKind
 - GetExtendedKind
 ms.assetid: 20dc1c13-3cc0-4bb4-9c99-fa85587c86c3
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugExtendedField::GetExtendedKind
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the specified extended field kind.
 
 ## Syntax
 
-```cpp
-HRESULT GetExtendedKind(
-   FIELD_KIND_EX* pdwKind
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetExtendedKind(
    ref enum_FIELD_KIND_EX pdwKind
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetExtendedKind(
+   FIELD_KIND_EX* pdwKind
+);
+```
+---
 
 ## Parameters
 `pdwKind`\

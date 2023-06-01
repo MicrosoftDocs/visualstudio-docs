@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugField::GetSize method
 ms.assetid: 73329924-3751-4f44-af54-5986b7943374
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugField::GetSize
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the size of a field, in bytes.
 
 ## Syntax
 
-```cpp
-HRESULT GetSize( 
-   DWORD* pdwSize
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetSize(
    out uint pdwSize
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetSize( 
+   DWORD* pdwSize
+);
+```
+---
 
 ## Parameters
 `pdwSize`\

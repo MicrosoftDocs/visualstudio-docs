@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - COMPUTER_INFO structure
 ms.assetid: 943085b2-f165-462d-9a4e-2086f0cdfff4
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -17,19 +17,13 @@ dev_langs:
 - CSharp
 ---
 # COMPUTER_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes the computer on which the debugger is running.
 
 ## Syntax
 
-```cpp
-typedef struct tagCOMPUTER_INFO
-{
-    WORD wProcessorArchitecture;
-    WORD wSuiteMask;
-    DWORD dwOperatingSystemVersion;
-} COMPUTER_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct COMPUTER_INFO
 {
@@ -38,6 +32,16 @@ public struct COMPUTER_INFO
     public uint dwOperatingSystemVersion;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagCOMPUTER_INFO
+{
+    WORD wProcessorArchitecture;
+    WORD wSuiteMask;
+    DWORD dwOperatingSystemVersion;
+} COMPUTER_INFO;
+```
+---
 
 ## Members
 `wProcessorArchitecture`\

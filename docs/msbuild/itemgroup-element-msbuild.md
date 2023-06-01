@@ -1,7 +1,6 @@
 ---
 title: ItemGroup Element (MSBuild) | Microsoft Docs
 description: Learn about the MSBuild ItemGroup element, which contains a set of user-defined Item elements. Every item must be a child of an ItemGroup.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -56,6 +55,8 @@ The following sections describe attributes, child elements, and parent elements.
 |-------------|-----------------|
 |[Item](../msbuild/item-element-msbuild.md)|Defines the inputs for the build process. There may be zero or more `Item` elements in an `ItemGroup`.|
 
+In addition to the generic `Item` element, ItemGroup allows child elements that represent types of items, such as `Reference`, `ProjectReference`, `Compile`, and others as listed at [Common MSBuild project items](common-msbuild-project-items.md).
+           
 ### Parent elements
 
 | Element | Description |

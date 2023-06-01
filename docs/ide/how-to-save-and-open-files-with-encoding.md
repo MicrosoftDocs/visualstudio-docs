@@ -1,7 +1,6 @@
 ---
 title: 'How to: Save and open files with encoding'
 description: Learn how to save and open files with specific encoding so, when you open the file, Visual Studio displays the file correctly.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # How to: Save and open files with encoding
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can save files with specific character encoding to support bidirectional languages. You can also specify an encoding when opening a file, so that Visual Studio displays the file correctly.
 

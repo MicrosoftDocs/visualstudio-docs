@@ -1,7 +1,6 @@
 ---
 title: Comparing load test results
 description: Learn how to generate Excel load test reports that are based on two or more test results, including run comparison reports and trend reports.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -14,6 +13,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # Report load tests results for test comparisons or trend analysis
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can generate Microsoft Excel load test reports that are based on two or more test results.
 

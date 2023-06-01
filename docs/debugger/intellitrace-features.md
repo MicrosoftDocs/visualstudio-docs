@@ -1,7 +1,6 @@
 ---
 title: "IntelliTrace Features | Microsoft Docs"
 description: Learn about IntelliTrace features in Visual Studio. Use IntelliTrace to record events and method calls in your application.
-ms.custom: SEO-VS-2020
 ms.date: "09/19/2018"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -25,6 +24,8 @@ ms.workload:
   - "multiple"
 ---
 # IntelliTrace Features (C#, Visual Basic, C++)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use IntelliTrace to record events and method calls your application, which allows you to examine its state (call stack and local variable values) at different points in the execution. Just start debugging as usual - IntelliTrace is turned on by default, and you can see the information IntelliTrace is recording in the new **Diagnostic Tools** window under the **Events** tab. Select an event and click **Activate Historical Debugging** to see the call stack and locals recorded for this event.
 
@@ -121,9 +122,3 @@ When you save IntelliTrace data to file, you get one .itrace file for each proce
 ## Forums
 
 [Visual Studio Debugger](https://social.msdn.microsoft.com/Forums/en-US/home)
-
-## Videos
-
-[IntelliTrace Experience](https://channel9.msdn.com/Series/Visual-Studio-2015-Enterprise-Videos/IntelliTrace-Experience)
-
-[Historical Debugging with IntelliTrace in Microsoft Visual Studio Ultimate 2015](https://channel9.msdn.com/events/Ignite/2015/BRK3716)

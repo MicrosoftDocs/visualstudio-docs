@@ -1,7 +1,6 @@
 ---
 title: "How to: Open Office solutions without running code"
 description: Learn how you can open a document or workbook that contains managed code extensions without running the assembly code.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -23,6 +22,8 @@ ms.workload:
   - "office"
 ---
 # How to: Open Office solutions without running code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   A Microsoft Office solution created with managed code extensions runs even if the Security setting in the end user's Office application is set to High. This is because .NET assembly code security is managed by the Microsoft .NET Framework, not by Microsoft Office.
 
  However, there are times when you might want to open a document without running the code. For example, code that runs when the document opens might alter the contents, but you want to update the way the document looks before the code changes it. Or you might want to send the document with certain information in it to someone, and you do not want the code to run and possibly alter the contents.

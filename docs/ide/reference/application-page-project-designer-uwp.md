@@ -1,7 +1,6 @@
 ---
 title: Application property page for UWP apps
 description: Learn how to use the Application page to specify the Universal Windows Platform (UWP) project's assembly and package information, and target Windows 10 and later.
-ms.custom: SEO-VS-2020
 ms.date: 10/26/2021
 ms.topic: reference
 f1_keywords:
@@ -16,6 +15,8 @@ ms.workload:
 - uwp
 ---
 # Application property page (UWP projects)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the **Application** property page to specify the Universal Windows Platform (UWP) project's assembly and package information, and to target Windows 10 and later.
 
@@ -40,12 +41,6 @@ To access this property programmatically, see <xref:VSLangProj.ProjectProperties
 ## Targeting section
 
 You can set the target version and minimum version of Windows 10 for your app by using the drop-down lists in this section. It is recommended that you target the latest version of Windows 10, and if you are developing an enterprise app, that you support an older minimum version too. For more information about which Windows 10 and later versions to choose, see [Choose a UWP version](/windows/uwp/updates-and-versions/choose-a-uwp-version).
-
-::: moniker range="vs-2017"
-
-For information about platform targeting in Visual Studio, see [Platform targeting](/visualstudio/releases/2017/vs2017-compatibility-vs#platform-targeting).
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 

@@ -2,7 +2,6 @@
 title: Basic Design Guideline Rules rule set for managed code
 ms.date: 11/04/2016
 description: Learn about the Basic Design Guideline Rules rule set in Visual Studio, which can help make code easier to understand and use. See rule descriptions.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 ms.assetid: 7eb384f5-f961-400b-b151-115d92addc6a
 author: mikejo5000
@@ -13,6 +12,8 @@ ms.workload:
 - dotnet
 ---
 # Basic Design Guideline Rules rule set for managed code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use the Microsoft Basic Design Guideline Rules rule set to focus on making your code easier to understand and use. You should include this rule set if your project includes library code or if you want to enforce best practices for code that is easy to maintain.
 

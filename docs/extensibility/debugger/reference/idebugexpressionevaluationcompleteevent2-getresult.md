@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExpressionEvaluationCompleteEvent2::GetResult
 ms.assetid: d9ad3e22-b6b2-421e-9a43-6bb8c70d12a9
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpressionEvaluationCompleteEvent2::GetResult
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the result of expression evaluation.
 
 ## Syntax
 
-```cpp
-HRESULT GetResult( 
-   IDebugProperty2** ppResult
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetResult( 
    out IDebugProperty2 ppResult
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetResult( 
+   IDebugProperty2** ppResult
+);
+```
+---
 
 ## Parameters
 `ppResult`

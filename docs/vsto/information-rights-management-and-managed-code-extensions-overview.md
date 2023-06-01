@@ -1,7 +1,6 @@
 ---
 title: "Information rights management & managed code extensions"
 description: Learn about Information Rights Management (IRM), a feature that can help you prevent unauthorized people from viewing or altering sensitive information.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -23,6 +22,8 @@ ms.workload:
   - "office"
 ---
 # Information rights management and managed code extensions overview
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Microsoft Office Word and Microsoft Office Excel provide Information Rights Management (IRM), a feature that can help you prevent unauthorized people from viewing or altering sensitive information. For details about how Information Rights Management works, see Help in the specific Office application.
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]

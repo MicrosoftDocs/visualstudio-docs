@@ -1,7 +1,6 @@
 ---
 title: Test Guide for Source Control Plug-ins | Microsoft Docs
 description: Learn about testing your source control plug-in with Visual Studio. This overview includes common testing areas.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: overview
 helpviewer_keywords:
@@ -11,14 +10,16 @@ helpviewer_keywords:
 - testing, source control plug-ins
 - source control plug-ins, test guide
 ms.assetid: 13b74765-0b7c-418e-8cd9-5f2e8db51ae5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Test Guide for Source Control Plug-ins
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This section provides guidance for testing your source control plug-in with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. An extensive overview of the most common testing areas, as well as some of the more intricate areas that may be problematic is provided. This overview is not meant to be an exhaustive list of test cases.
 
 > [!NOTE]

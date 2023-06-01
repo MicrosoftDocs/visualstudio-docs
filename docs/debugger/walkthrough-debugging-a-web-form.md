@@ -27,6 +27,8 @@ ms.workload:
   - "multiple"
 ---
 # Walkthrough: Debugging a Web Form
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The steps in this walkthrough show you how to debug an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application, also known as a Web Form. It shows you how to start and stop execution, set breakpoints, and examine variables in the **Watch** window.
 
 > [!NOTE]
@@ -68,13 +70,16 @@ The dialog boxes and menu commands you see might differ from those described in 
 
 12. In the `Button1_Click` function, add the following code:
 
-    ```vb
-    TextBox1.Text = "Button was clicked!"
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     TextBox1.Text = "Button was clicked!";
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    TextBox1.Text = "Button was clicked!"
+    ```
+    ---
 
 13. On the **Build** menu, click **Build Solution**.
 
@@ -86,13 +91,16 @@ The dialog boxes and menu commands you see might differ from those described in 
 
 1. In the Default.aspx.cs or Default.aspx.vb window, click the left margin on the same line as the text you added:
 
-   ```vb
-   TextBox1.Text = "Button was clicked!"
-   ```
-
+   ### [C#](#tab/csharp)
    ```csharp
    textBox1.Text = "Button was clicked!";
    ```
+
+   ### [VB](#tab/vb)
+   ```vb
+   TextBox1.Text = "Button was clicked!"
+   ```
+   ---
 
     A red dot appears and the text on the line is highlighted in red. The red dot represents a breakpoint. When you run the application under the debugger, the debugger will break execution at that location when the code is hit. You can then view the state of your application and debug it. For more information, see [Breakpoints](/previous-versions/ktf38f66(v=vs.100)).
 
@@ -138,13 +146,16 @@ The dialog boxes and menu commands you see might differ from those described in 
 
 2. In the Default.aspx.cs or Default.aspx.vb window, click in the left margin to again set a breakpoint at the line you added:
 
-   ```vb
-   TextBox1.Text = "Button was clicked!"
-   ```
-
+   ### [C#](#tab/csharp)
    ```csharp
    textBox1.Text = "Button was clicked!";
    ```
+
+   ### [VB](#tab/vb)
+   ```vb
+   TextBox1.Text = "Button was clicked!"
+   ```
+   ---
 
 3. On the **Debug** menu, click **Start Without Debugging**.
 

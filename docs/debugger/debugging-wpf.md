@@ -1,7 +1,6 @@
 ---
 title: "Debugging WPF | Microsoft Docs"
 description: See a list of articles describing additional features in Visual Studio that make debugging Windows Presentation Foundation (WPF) applications easier.
-ms.custom: SEO-VS-2020
 ms.date: "10/22/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -21,6 +20,8 @@ ms.workload:
   - "multiple"
 ---
 # Debugging WPF
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] provides additional features to make debugging WPF applications easier.
 

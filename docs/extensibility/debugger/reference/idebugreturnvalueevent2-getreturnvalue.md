@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugReturnValueEvent2::GetReturnValue
 ms.assetid: 86c50d5a-6df6-4798-818a-c587a8741f90
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugReturnValueEvent2::GetReturnValue
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the value returned on stepping out of or over a function.
 
 ## Syntax
 
-```cpp
-HRESULT GetReturnValue ( 
-   IDebugProperty2** ppReturnValue
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetReturnValue ( 
    out IDebugProperty2 ppReturnValue
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetReturnValue ( 
+   IDebugProperty2** ppReturnValue
+);
+```
+---
 
 ## Parameters
 `ppReturnValue`\

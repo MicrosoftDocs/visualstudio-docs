@@ -1,8 +1,7 @@
 ---
 title: Find and Replace, Environment, Options Dialog Box
 description: Learn how to use the Find and Replace page in the Environment section to control message boxes and other aspects of a find and replace operation.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 12/16/2021
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.FindReplace
@@ -20,9 +19,9 @@ ms.workload:
 ---
 # Find and Replace, Environment, Options Dialog Box
 
-Use this page of the **Options** dialog box to control message boxes and other aspects of a find and replace operation. You can access this dialog box from the **Tools** menu by clicking **Options**, expanding **Environment**, and then clicking **Find and Replace**. If this page does not appear in the list, select **Show all setting** in the **Options** dialog box.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-## UIElement List
+Use this page of the **Options** dialog box to control message boxes and other aspects of a find and replace operation. You can access this dialog box from the **Tools** menu by selecting **Options**, expanding **Environment**, and then selecting **Find and Replace**.
 
 **Display informational messages**
 
@@ -50,6 +49,21 @@ When you have cleared the **Always show this message** option on some, but not a
 
 Select this option to paste the text on either side of the current editor's insertion point into the **Find what** field when you select any view of the **Find and Replace** window from the **Edit** menu. Clear this option to use the last search pattern from the previous search as the **Find what** string.
 
+**Automatically limit search to selection**
+
+Select this option when you want to set the search scope to just code that you've selected.
+
+If you don't want to search only the code that you've selected, clear this option.
+
+**Use the editor background in the Find All References tool window**
+
+Select this option when you want the **Find All References** tool window to use the same background color as the editor. This is helpful if you use the dark theme or a custom theme with a dark background color. For more information about themes, see the [Change fonts, colors, and themes in Visual Studio](../how-to-change-fonts-and-colors-in-visual-studio.md) page.
+
+**Keep search results by default**
+
+Select this option when you prefer to keep all your search results by default rather than selecting the **Keep Results** button after each search. For more information about this functionality, see the "Keep results" section of the [Find in Files](../find-in-files.md#keep-results) page.
+
 ## See also
 
-- [Finding and Replacing Text](../../ide/finding-and-replacing-text.md)
+- [Find and Replace text](../finding-and-replacing-text.md)
+- [Find in Files](../find-in-files.md)

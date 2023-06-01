@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugStackFrame3::GetUnwindCodeContext method
 ms.assetid: b25f7e7d-2b24-48e4-93b3-829e61d73ebf
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugStackFrame3::GetUnwindCodeContext
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the code context representing a location if a stack unwind operation occurred.
 
 ## Syntax
 
-```cpp
-HRESULT GetUnwindCodeContext(
-   IDebugCodeContext2 **ppCodeContext
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetUnwindCodeContext(
    out IDebugCodeContext2 ppCodeContext
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetUnwindCodeContext(
+   IDebugCodeContext2 **ppCodeContext
+);
+```
+---
 
 ## Parameters
 `ppCodeContext`\

@@ -1,18 +1,19 @@
 ---
 title: What's New in the Visual Studio 2019 SDK | Microsoft Docs
 description: The Visual Studio SDK the new and updated features for Visual Studio 2019, including editor registration enhancements.
-ms.custom: SEO-VS-2020
 ms.date: 03/29/2019
 ms.topic: conceptual
 ms.assetid: 4a07607b-0c87-4866-acd8-6d68358d6a47
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # What's New in the Visual Studio 2019 SDK
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio SDK has the following new and updated features for Visual Studio 2019.
 

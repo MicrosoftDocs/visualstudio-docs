@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IEnumDebugFrameInfo2::Next
 ms.assetid: 64a64eeb-5dea-4119-8a22-03771015d1e5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IEnumDebugFrameInfo2::Next
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns the next set of elements from the enumeration.
 
 ## Syntax
 
-```cpp
-HRESULT Next(
-   ULONG       celt,
-   FRAMEINFO** rgelt,
-   ULONG*      pceltFetched
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Next(
    uint        celt,
@@ -38,6 +33,15 @@ int Next(
    ref uint    pceltFetched
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Next(
+   ULONG       celt,
+   FRAMEINFO** rgelt,
+   ULONG*      pceltFetched
+);
+```
+---
 
 ## Parameters
 `celt`\

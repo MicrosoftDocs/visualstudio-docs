@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCoreServer2::GetMachineUtilities_V7
 ms.assetid: 64c1f08f-853b-4498-9810-29791581ef2f
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugCoreServer2::GetMachineUtilities_V7
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the machine utilities for a server.
 
 > [!NOTE]
@@ -26,17 +28,19 @@ This method gets the machine utilities for a server.
 
 ## Syntax
 
-```cpp
-HRESULT GetMachineUtilities_V7(
-   IDebugMDMUtil2_V7** ppUtil
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMachineUtilities_V7(
    out IDebugMDMUtil2_V7 ppUtil
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMachineUtilities_V7(
+   IDebugMDMUtil2_V7** ppUtil
+);
+```
+---
 
 ## Parameters
 `ppUtil`\

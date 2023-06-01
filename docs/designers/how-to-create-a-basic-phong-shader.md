@@ -1,7 +1,6 @@
 ---
 title: 'How to: Create a Basic Phong Shader'
 description: Learn how to use Shader Designer and Directed Graph Shader Language to create a lighting shader that implements the classic Phong lighting model.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: c7c69da8-142b-4d3b-9be9-4be0d5970b25
@@ -13,6 +12,8 @@ ms.workload:
 - multiple
 ---
 # How to: Create a basic Phong shader
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This article demonstrates how to use the Shader Designer and the Directed Graph Shader Language (DGSL) to create a lighting shader that implements the classic Phong lighting model.
 

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortSupplier2::CanAddPort
 ms.assetid: 41f69e0a-e82c-473d-8b7a-0c40fc5730fc
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,23 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortSupplier2::CanAddPort
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Verifies that a port supplier can add new ports.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int CanAddPort();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT CanAddPort( 
    void 
 );
 ```
-
-```csharp
-int CanAddPort();
-```
+---
 
 ## Return Value
  If the port can be added, returns `S_OK`; otherwise, returns `S_FALSE` to indicate no ports can be added to this port supplier.

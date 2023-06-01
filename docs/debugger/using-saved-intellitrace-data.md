@@ -1,7 +1,6 @@
 ---
 title: "Using saved IntelliTrace data | Microsoft Docs"
 description: Use an Intellitrace file (.iTrace) to start debugging at a specific point of execution. The file contains info that Intellitrace recorded from a run of your app.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -20,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # Using saved IntelliTrace data (C#, Visual Basic, C++)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Go to specific points in your application's execution when you start debugging from an IntelliTrace log (.iTrace) file. This file can contain performance events, exceptions, threads, test steps, modules, and other system info that IntelliTrace records while your app runs.
 
@@ -256,7 +257,7 @@ Go to specific points in your application's execution when you start debugging f
 
  [IntelliTrace Features](../debugger/intellitrace-features.md)
 
- [Collect more diagnostic data in manual tests](/azure/devops/test/mtm/collect-more-diagnostic-data-in-manual-tests?view=vsts&preserve-view=true)
+ [Collect more diagnostic data in manual tests](/azure/devops/test/collect-diagnostic-data)
 
  [IntelliTrace](../debugger/intellitrace.md)
 

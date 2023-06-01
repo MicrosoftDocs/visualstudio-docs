@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramProvider2::SetLocale
 ms.assetid: b41d20a7-ba40-4c42-a450-16f413d6a04f
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgramProvider2::SetLocale
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Establishes a locale to be used for any locale-specific resources.
 
 ## Syntax
 
-```cpp
-HRESULT SetLocale(
-   WORD wLangID
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetLocale(
    ushort wLangID
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetLocale(
+   WORD wLangID
+);
+```
+---
 
 ## Parameters
 `wLangID`\

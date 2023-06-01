@@ -9,8 +9,8 @@ helpviewer_keywords:
 - SetCondition method
 - IDebugPendingBreakpoint2::SetCondition method
 ms.assetid: 0534224f-654f-4862-bc4d-a9a81a5f8899
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPendingBreakpoint2::SetCondition
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets or changes the condition associated with the pending breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT SetCondition( 
-   BP_CONDITION bpCondition
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetCondition( 
    BP_CONDITION bpCondition
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetCondition( 
+   BP_CONDITION bpCondition
+);
+```
+---
 
 ## Parameters
 `bpCondition`\

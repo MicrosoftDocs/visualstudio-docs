@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - FIELD_KIND_EX enumeration
 ms.assetid: 922c3208-1e94-485f-b70a-3bc96affeff8
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -17,10 +17,22 @@ dev_langs:
 - CSharp
 ---
 # FIELD_KIND_EX
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enumerates additional kinds of fields that an [IDebugField](../../../extensibility/debugger/reference/idebugfield.md) object can contain. This enumeration extends the [FIELD_KIND](../../../extensibility/debugger/reference/field-kind.md) enumeration.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_FIELD_KIND_EX
+{
+    FIELD_KIND_EX_NONE = 0,
+    FIELD_TYPE_EX_METHODVAR = 0x1,
+    FIELD_TYPE_EX_CLASSVAR = 0x2
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_FIELD_KIND_EX
 {
@@ -30,15 +42,7 @@ enum enum_FIELD_KIND_EX
 };
 typedef DWORD FIELD_KIND_EX;
 ```
-
-```csharp
-public enum enum_FIELD_KIND_EX
-{
-    FIELD_KIND_EX_NONE = 0,
-    FIELD_TYPE_EX_METHODVAR = 0x1,
-    FIELD_TYPE_EX_CLASSVAR = 0x2
-};
-```
+---
 
 ## Fields
 `FIELD_KIND_EX_NONE`\

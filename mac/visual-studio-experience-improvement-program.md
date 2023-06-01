@@ -1,13 +1,16 @@
 ---
 title: Visual Studio Customer Experience Improvement Program
 description: Find out how to manage privacy settings in Visual Studio for Mac.
-author: therealjohn
-ms.author: johmil
+author: heiligerdankgesang 
+ms.author: dominicn
+manager: dominicn
 ms.date: 11/05/2020
+ms.topic: conceptual
 ms.assetid: 6F2ECF5A-E195-4890-8399-12A88C7D62FD
 ---
-
 # Visual Studio Customer Experience Improvement Program
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 The Visual Studio Customer Experience Improvement Program (VSCEIP) is a program designed to help Microsoft improve Visual Studio for Mac over time. This program collects information about computer hardware and how people use Visual Studio for Mac, without interrupting the users in their tasks at the computer. The information that is collected helps Microsoft identify which features to improve. This article describes how to opt in or out of the VSCEIP.
 
@@ -25,7 +28,7 @@ The VSCEIP is turned on by default. You can turn it off, or back on again, by fo
 
     ![Select a radio button to reflect your participation preference](media/visual-studio-experience-improvement-program-image1.png)
 
-[!INCLUDE [GDPR-related guidance](../docs/misc/includes/gdpr-hybrid-note.md)]
+[!INCLUDE [GDPR-related guidance](./includes/gdpr-hybrid-note.md)]
 
 ## See also
 

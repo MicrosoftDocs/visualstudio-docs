@@ -1,7 +1,6 @@
 ---
 title: "Document host item"
 description: Learn that the Document host item is a type that extends the Document type from the primary interop assembly for Word.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -23,6 +22,8 @@ ms.workload:
   - "office"
 ---
 # Document host item
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Tools.Word.Document> host item is a type that extends the <xref:Microsoft.Office.Interop.Word.Document> type from the primary interop assembly for Word. The <xref:Microsoft.Office.Tools.Word.Document> host item provides all of the same properties, methods, and events as a <xref:Microsoft.Office.Interop.Word.Document> object, but it also exposes additional events and acts as a container for host controls and Windows Forms controls.
 
  [!INCLUDE[appliesto_wdalldocapp](../vsto/includes/appliesto-wdalldocapp-md.md)]

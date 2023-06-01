@@ -25,6 +25,8 @@ ms.workload:
 ---
 # Debugging Preparation: Windows Forms Applications
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Windows Forms App project template creates a Windows Forms application. Debugging this type of application in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is straightforward. For information on creating a project of this type, see [Create a Windows Form App](../ide/create-csharp-winform-visual-studio.md).
 
  When you create a Windows Forms project with the project template, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically creates required settings for the Debug and Release configurations. If necessary, you can change these settings. These settings can be changed in the **\<project name> Property Pages** dialog box (**My Project** in Visual Basic).

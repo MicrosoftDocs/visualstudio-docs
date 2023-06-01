@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProperty3::GetCustomViewerList
 ms.assetid: 74490fd8-6f44-4618-beea-dab64961bb8a
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty3::GetCustomViewerList
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a list of custom viewers associated with this property.
 
 ## Syntax
 
-```cpp
-HRESULT GetCustomViewerList(
-    ULONG                celtSkip,
-    ULONG                celtRequested,
-    DEBUG_CUSTOM_VIEWER* rgViewers,
-    ULONG*               pceltFetched
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCustomViewerList(
     uint                  celtSkip,
@@ -40,6 +34,16 @@ int GetCustomViewerList(
     out uint              pceltFetched
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCustomViewerList(
+    ULONG                celtSkip,
+    ULONG                celtRequested,
+    DEBUG_CUSTOM_VIEWER* rgViewers,
+    ULONG*               pceltFetched
+);
+```
+---
 
 ## Parameters
 `celtSkip`\

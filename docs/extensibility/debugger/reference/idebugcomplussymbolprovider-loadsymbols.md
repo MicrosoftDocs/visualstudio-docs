@@ -7,8 +7,8 @@ helpviewer_keywords:
 - LoadSymbols
 - IDebugComPlusSymbolProvider::LoadSymbols
 ms.assetid: 3499680d-0b9a-4f20-8432-c89a41b29b87
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,21 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::LoadSymbols
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Loads the specified debug symbols in memory.
 
 ## Syntax
 
-```cpp
-HRESULT LoadSymbols(
-    ULONG32   ulAppDomainID,
-    GUID      guidModule,
-    ULONGLONG baseAddress,
-    IUnknown* pUnkMetadataImport,
-    BSTR      bstrModuleName,
-    BSTR      bstrSymSearchPath
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int LoadSymbols(
     uint   ulAppDomainID,
@@ -43,6 +35,18 @@ int LoadSymbols(
     string bstrSymSearchPath
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT LoadSymbols(
+    ULONG32   ulAppDomainID,
+    GUID      guidModule,
+    ULONGLONG baseAddress,
+    IUnknown* pUnkMetadataImport,
+    BSTR      bstrModuleName,
+    BSTR      bstrSymSearchPath
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

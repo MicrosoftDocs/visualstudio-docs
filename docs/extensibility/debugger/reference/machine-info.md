@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - MACHINE_INFO structure
 ms.assetid: e7564ff2-00b5-4750-8fd5-dc1029a16912
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # MACHINE_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Describes a particular machine.
 
 ## Syntax
 
-```cpp
-typedef struct tagMACHINE_INFO { 
-   MACHINE_INFO_FIELDS Fields;
-   BSTR                bstrName;
-   MACHINE_INFO_FLAGS  Flags;
-} MACHINE_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct MACHINE_INFO { 
    public uint   Fields;
@@ -38,6 +33,15 @@ public struct MACHINE_INFO { 
    public uint   Flags;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct tagMACHINE_INFO { 
+   MACHINE_INFO_FIELDS Fields;
+   BSTR                bstrName;
+   MACHINE_INFO_FLAGS  Flags;
+} MACHINE_INFO;
+```
+---
 
 ## Members
  `Fields`\

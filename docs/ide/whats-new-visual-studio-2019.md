@@ -7,16 +7,19 @@ helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
 ms.assetid: 00bec66b-bcee-46f5-91d9-f73a2b469744
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
-ms.topic: conceptual
+ms.topic: whats-new
+ms.custom: vs-acquisition
 ms.workload:
   - "multiple"
 ---
 # What's new in Visual Studio 2019
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Updated for the 16.11 release.** See [full release notes](/visualstudio/releases/2019/release-notes/) | View [product roadmap](/visualstudio/productinfo/vs2019-roadmap)
 
@@ -224,9 +227,9 @@ Meanwhile, here's what's currently in the works:
 
    For more information, see the [Version control in Visual Studio](/visualstudio/version-control/) page.
 
-- **Visual Studio 2022 (Preview) is now available**
+- **Visual Studio 2022 is now available**
 
-    Our newest version, [Visual Studio 2022 (Preview)](/visualstudio/releases/2022/release-notes-preview/) is faster, more approachable, and more lightweight. And, for the first time ever, Visual Studio is 64-bit.
+    Our newest version, [Visual Studio 2022](/visualstudio/releases/2022/release-notes/) is faster, more approachable, and more lightweight. And, for the first time ever, Visual Studio is 64-bit.
 
     For a download link and more info, see the [Visual Studio 2022 vision](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/) blog post, along with the [**Visual Studio 2022 Preview 3 now available**](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-3-now-available/) blog post, too.
 
@@ -249,5 +252,5 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 * [What's new for C# 9.0](/dotnet/csharp/whats-new/csharp-9)
 * [What's new in .NET 5](/dotnet/core/dotnet-five)
 * [What's new in .NET Framework](/dotnet/framework/whats-new/)
-* [Microsoft Build conference](https://www.microsoft.com/build)
-* [Microsoft Ignite conference](https://www.microsoft.com/ignite)
+* [Microsoft Build conference](https://mybuild.microsoft.com/)
+* [Microsoft Ignite conference](https://ignite.microsoft.com/)

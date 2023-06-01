@@ -1,7 +1,6 @@
 ---
 title: "Debugging and the Hosting Process | Microsoft Docs"
 description: For Visual Studio versions prior to 2017, use the hosting process to improve debugger performance and to access some debugger features. 
-ms.custom: SEO-VS-2020
 ms.date: "08/01/2018"
 ms.topic: "conceptual"
 dev_langs:
@@ -21,6 +20,8 @@ ms.workload:
   - "multiple"
 ---
 # Debugging and the Hosting Process
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Visual Studio hosting process improves debugger performance and enables new debugger features, such as partial-trust debugging and design-time expression evaluation. You can disable the hosting process if you need to. The following sections describe some differences between debugging with and without the hosting process.
 
 > [!NOTE]

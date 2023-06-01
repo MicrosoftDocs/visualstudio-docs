@@ -1,7 +1,6 @@
 ---
 title: "Cached data in document-level customizations"
 description: Learn how Visual Studio separates the data from the view in document-level customizations by enabling data to be embedded as a data cache.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -23,6 +22,8 @@ ms.workload:
   - "office"
 ---
 # Cached data in document-level customizations
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   A primary goal of document-level customizations is to separate data from view in Office documents. Data refers to the information that is stored in the document, including numbers and text. View refers to the user interface and the object model of Microsoft Office Word and Microsoft Office Excel.
 
  Visual Studio separates the data from the view in document-level customizations by enabling data to be embedded as a *data island*, also called the *data cache*. You can read or modify the data directly without starting Word or Excel. This is useful when you need to modify data in documents on a server that does not have Microsoft Office installed. Word and Excel are intended for use in client environments; they are not designed to be run on a server.

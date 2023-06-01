@@ -1,7 +1,6 @@
 ---
 title: Step ramp time for load testing
 description: Learn how to set the Step Ramp Time property in the Properties window. The Step Ramp Time property is only used with a step load pattern.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -13,6 +12,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # How to: Specify the step ramp time property for a step load pattern
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 After you create your load test with the **New Load Test Wizard**, you can use the **Load Test Editor** to change the scenarios properties to meet your testing needs and goals. For more information, see [Walkthrough: Create and run a load test](../test/walkthrough-create-and-run-a-load-test.md).
 

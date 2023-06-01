@@ -78,8 +78,8 @@ landingContent:
         links:
           - text: Exploratory & manual testing (Azure Test Plans)
             url: /azure/devops/test/overview?view=azure-devops&preserve-view=true
-          - text: Load testing (Azure Test Plans)
-            url: /azure/devops/test/load-test/getting-started-with-performance-testing?view=azure-devops&preserve-view=true
+          - text: Load testing (Azure Load Testing)
+            url: /azure/load-testing/
           - text: Continuous testing (Azure Pipelines)
             url: /azure/devops/pipelines/?view=azure-devops&preserve-view=true
 

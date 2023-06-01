@@ -1,7 +1,6 @@
 ---
 title: "Data in Office solutions"
 description: Learn the various ways to work with data when you create Microsoft Office solutions by using Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -19,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Data in Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Many Office solutions enable users to retrieve or modify data. When you create Office solutions by using Visual Studio, there are several different ways you can work with data.
 
 ## In this section

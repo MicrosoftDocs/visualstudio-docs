@@ -9,8 +9,8 @@ helpviewer_keywords:
 - GetDocument method
 - IDebugActivateDocumentEvent2::GetDocument method
 ms.assetid: b3c32f1b-f3de-409d-920d-ba7b3fa84fcd
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugActivateDocumentEvent2::GetDocument
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the document to activate.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocument ( 
-   IDebugDocument2** ppDoc
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocument ( 
    out IDebugDocument2 ppDoc
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocument ( 
+   IDebugDocument2** ppDoc
+);
+```
+---
 
 ## Parameters
 `ppDoc`\

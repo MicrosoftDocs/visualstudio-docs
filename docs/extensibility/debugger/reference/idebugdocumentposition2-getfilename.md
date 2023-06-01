@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocumentPosition2::GetFileName
 ms.assetid: d713635e-088f-465b-b26d-00ac971c9e86
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentPosition2::GetFileName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the file name of the source file that contains the document position.
 
 ## Syntax
 
-```cpp
-HRESULT GetFileName( 
-   BSTR* pbstrFileName
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetFileName( 
    out string pbstrFileName
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetFileName( 
+   BSTR* pbstrFileName
+);
+```
+---
 
 ## Parameters
 `pbstrFileName`\

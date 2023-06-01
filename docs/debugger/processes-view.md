@@ -1,8 +1,7 @@
 ---
 title: "Processes View | Microsoft Docs"
 description: Processes view displays a tree of all active processes on your system. Learn about its contents and uses, and follow the links to additional information. 
-ms.custom: SEO-VS-2020
-ms.date: "11/04/2016"
+ms.date: "12/21/2022"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.externaltools.spyplus.processesview"
@@ -17,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # Processes View
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Processes view displays a tree of all active processes on your system. The process ID and module name are shown. Use the Processes view if you want to examine a particular system process, which usually corresponds to an executing program. Processes are identified by module names, or they are designated "system processes."
 
  Microsoft Windows supports multiple processes. Each process can have one or more threads, and each thread can have one or more associated top-level windows. Each top-level window can own a series of windows. A + symbol indicates that a level is collapsed. The collapsed view consists of one line per process. Click the + symbol to expand the level.
@@ -25,7 +26,7 @@ The Processes view displays a tree of all active processes on your system. The p
 
 ## Procedures
 
-#### To open the Processes view
+### To open the Processes view
 
 1. From the **Spy** menu, choose **Processes**.
 
@@ -34,14 +35,23 @@ The Processes view displays a tree of all active processes on your system. The p
 
    The figure above shows the Processes view with process and thread nodes expanded.
 
+## To open properties for a process
+
+To find out more about a process listed in Processes view, use the [Process Properties Dialog Box](../debugger/process-properties-dialog-box.md).
+
+1. Select a process from the tree displayed in **Processes view**.
+
+2. From the **View** menu, choose **Properties**.
+
+   Properties dialog boxes are not modal, so you can click on another item in a view window and the dialog box will show information on the selected item.
+
 ### In This Section
+
  [Searching for a Process in Processes View](../debugger/how-to-search-for-a-process-in-processes-view.md)
  Explains how to find a specific process in Processes view.
 
- [Displaying Process Properties](../debugger/how-to-display-process-properties.md)
- Explains how to show more information about a message.
-
 ### Related Sections
+
  [Spy++ Views](../debugger/spy-increment-views.md)
  Explains the Spy++ tree views of windows, messages, processes, and threads.
 

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - GetMetaDataImport
 - IDebugSymbolProviderDirect::GetMetaDataImport
 ms.assetid: b51a492c-af00-4b08-93fb-6c19ee4916aa
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,18 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProviderDirect::GetMetaDataImport
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the metadata import information.
 
 ## Syntax
 
-```cpp
-HRESULT GetMetaDataImport (
-    GUID*      guid,
-    DWORD      appID,
-    IUnknown** ppImport
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetMetaDataImport (
     Guid       guid,
@@ -37,6 +32,15 @@ int GetMetaDataImport (
     out object ppImport
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetMetaDataImport (
+    GUID*      guid,
+    DWORD      appID,
+    IUnknown** ppImport
+);
+```
+---
 
 ## Parameters
 `guid`\

@@ -1,7 +1,7 @@
 ---
 title: Use MSBuild
 description: Learn the various parts of an MSBuild project file, including items, item metadata, properties, targets, and tasks.
-ms.date: 07/28/2021
+ms.date: 10/07/2022
 ms.topic: conceptual
 ms.custom: contperf-fy21q2
 helpviewer_keywords:
@@ -20,18 +20,13 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
 
 - Creating and manipulating a project file.
 
-- How to use build properties
+- How to use build properties.
 
 - How to use build items.
 
 You can run MSBuild from Visual Studio, or from the **Command Window**. In this walkthrough, you create an MSBuild project file using Visual Studio. You edit the project file in Visual Studio, and use the **Command Window** to build the project and examine the results.
 
 ## Install MSBuild
-
-::: moniker range="vs-2017"
-
-If you have Visual Studio, then you already have MSBuild installed. To install MSBuild 15 on a system that doesn't have Visual Studio, go to [Visual Studio older downloads](https://visualstudio.microsoft.com/vs/older-downloads/), expand **Visual Studio 2017** and choose the **Download** button. If you have a Visual Studio subscription, sign in and find the link to download the latest version of **Build Tools for Visual Studio 2017**. If you don't have a Visual Studio subscription, you can still install the latest version of the build tools. On this page, use the version selector to switch to the 2019 version of the page and follow the installation instructions.
-::: moniker-end
 
 ::: moniker range="vs-2019"
 If you have Visual Studio, then you already have MSBuild installed. With Visual Studio 2019 and later, it's installed under the Visual Studio installation folder. For a typical default installation on Windows 10, MSBuild.exe is under the installation folder in *MSBuild\Current\Bin*.
@@ -61,16 +56,9 @@ To install MSBuild on a system that doesn't have Visual Studio, go to Build Tool
 
 1. Open Visual Studio and create a project:
 
-    ::: moniker range=">=vs-2019"
     In the search box, type **winforms**, then choose **Create a new Windows Forms App (.NET Framework)**. In the dialog box that appears, choose **Create**.
 
     In the **Project name** box, type `BuildApp`. Enter a **Location** for the solution, for example, *D:\\*.
-    ::: moniker-end
-    ::: moniker range="vs-2017"
-    From the top menu bar, choose **File** > **New** > **Project**. In the left pane of the **New Project** dialog box, expand **Visual C#** > **Windows Desktop**, then choose **Windows Forms App (.NET Framework)**. Then choose **OK**.
-
-    In the **Name** box, type `BuildApp`. Enter a **Location** for the solution, for example, *D:\\*. Accept the defaults for **Create directory for solution** (selected), **Add to Source Control** (not selected), and **Solution Name** (**BuildApp**).
-    ::: moniker-end
 
 1. Click **OK** or **Create** to create the project file.
 
@@ -100,17 +88,13 @@ Project files are XML-formatted files with the root node [Project](../msbuild/pr
 <Project ToolsVersion="15.0"  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 ```
 
-Newer .NET Core (SDK-style) projects have a `Sdk` attribute.
+Most .NET projects have a `Sdk` attribute. These are called SDK-style projects.
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
 ```
 
-If the project is not an SDK-style project, you must specify the xmlns namespace in the Project element. If `ToolsVersion` is present in a new project, it must match the MSBuild version. If you don't know the MSBuild version, you can get it from the first two numbers from the output of the following command line (for example, 16.0):
-
-```console
-MSBuild -ver
-```
+There are many variations of .NET SDKs for special purposes; they are described at [.NET Project SDKs](/dotnet/core/project-sdk/overview).
 
 The work of building an application is done with [Target](../msbuild/target-element-msbuild.md) and [Task](../msbuild/task-element-msbuild.md) elements.
 
@@ -156,9 +140,9 @@ MSBuild keeps track of the targets of a build, and guarantees that each target i
 
 3. Save the project file.
 
-The Message task is one of the many tasks that ships with MSBuild. For a complete list of available tasks and usage information, see [Task reference](../msbuild/msbuild-task-reference.md).
+The `Message` task is one of the many tasks that ships with MSBuild. For a complete list of available tasks and usage information, see [Task reference](../msbuild/msbuild-task-reference.md).
 
-The Message task takes the string value of the Text attribute as input and displays it on the output device (or writes it to one or more logs, if applicable). The HelloWorld target executes the Message task twice: first to display "Hello", and then to display "World".
+The `Message` task takes the string value of the Text attribute as input and displays it on the output device (or writes it to one or more logs, if applicable). The HelloWorld target executes the Message task twice: first to display "Hello", and then to display "World".
 
 ## Build the target
 
@@ -173,7 +157,7 @@ Run MSBuild from the **Developer Command Prompt** for Visual Studio to build the
 
 1. Open the **Command Window**.
 
-   (Windows 10) In the search box on the taskbar, start typing the name of the tool, such as `dev` or `developer command prompt`. This brings up a list of installed apps that match your search pattern.
+   In the search box on the taskbar, start typing the name of the tool, such as `dev` or `developer command prompt`. This brings up a list of installed apps that match your search pattern.
 
    If you need to find it manually, the file is *LaunchDevCmd.bat* in the *<visualstudio installation folder\>\Common7\Tools* folder.
 
@@ -276,14 +260,6 @@ Use this syntax to examine some of the properties in the project file.
     ```
 
     ::: moniker-end
-    ::: moniker range="vs-2017"
-
-    ```output
-    Configuration is Debug
-    MSBuildToolsPath is C:\Program Files (x86)\Microsoft Visual Studio\2017\<Visual Studio SKU>\MSBuild\15.0\Bin
-    ```
-
-    ::: moniker-end
 
 ### Conditional properties
 
@@ -370,7 +346,7 @@ All items are child elements of ItemGroup elements. The item name is the name of
 
 defines an item group containing two items. The item type Compile has two values: *Program.cs* and *Properties\AssemblyInfo.cs*.
 
-The following code creates the same item type by declaring both files in one Include attribute, separated by a semicolon.
+The following code creates the same item type by declaring both files in one `Include` attribute, separated by a semicolon.
 
 ```xml
 <ItemGroup>
@@ -385,13 +361,13 @@ For more information, see [Items](../msbuild/msbuild-items.md).
 
 ## Examine item type values
 
- To get the values of an item type, use the following syntax, where ItemType is the name of the item type:
+ To get the values of an item type, use the following syntax, where `ItemType` is the name of the item type:
 
 ```xml
 @(ItemType)
 ```
 
-Use this syntax to examine the Compile item type in the project file.
+Use this syntax to examine the `Compile` item type in the project file.
 
 **To examine item type values:**
 
@@ -413,7 +389,7 @@ Use this syntax to examine the Compile item type in the project file.
 
 1. Examine the output. You should see this long line:
 
-    ```
+    ```output
     Compile item type contains Form1.cs;Form1.Designer.cs;Program.cs;Properties\AssemblyInfo.cs;Properties\Resources.Designer.cs;Properties\Settings.Designer.cs
     ```
 
@@ -445,7 +421,7 @@ Change the Message task to use carriage returns and line feeds (%0A%0D) to displ
 
 4. Examine the output. You should see these lines:
 
-    ```
+    ```output
     Compile item type contains Form1.cs
     Form1.Designer.cs
     Program.cs
@@ -526,7 +502,7 @@ would not exclude the file *Form1.cs*, which was added in the preceding item ele
 
 5. Examine the output. You should see this line:
 
-    ```
+    ```output
     XFiles item type contains Form1.cs;Program.cs;Properties/Resources.resx
     ```
 
@@ -544,7 +520,7 @@ would not exclude the file *Form1.cs*, which was added in the preceding item ele
 </ItemGroup>
 ```
 
- To get the metadata value of an item type, use the following syntax, where ItemType is the name of the item type and MetaDataName is the name of the metadata:
+ To get the metadata value of an item type, use the following syntax, where `ItemType` is the name of the item type and MetaDataName is the name of the metadata:
 
 ```xml
 %(ItemType.MetaDataName)
@@ -646,7 +622,9 @@ Notice that metadata expressed in this syntax does not cause batching.
 
 ## Next steps
 
- To learn how to create a simple project file one step at a time, try out the [Walkthrough: Creating an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md).
+ To learn how to create a simple project file one step at a time, on Windows, try out the [Walkthrough: Creating an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md).
+
+If you're primarily using the .NET SDK, you may wish to continue reading at [MSBuild Reference for .NET SDK Projects](/dotnet/core/project-sdk/msbuild-props).
 
 ## See also
 

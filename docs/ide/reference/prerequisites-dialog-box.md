@@ -1,7 +1,6 @@
 ---
 title: Prerequisites Dialog Box
 description: The Prerequisites dialog box specifies which prerequisite components are installed, how they are installed, and which order the packages are installed.
-ms.custom: SEO-VS-2020
 ms.date: 06/29/2018
 ms.technology: vs-ide-deployment
 ms.topic: reference
@@ -17,11 +16,15 @@ ms.workload:
 ---
 # Prerequisites dialog box
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The **Prerequisites** dialog box specifies which prerequisite components are installed, how they are installed, and which order the packages are installed.
 
 ![Prerequisites dialog box in Visual Studio](media/prerequisites-dialog-box.png)
 
 To access the dialog box, select a project node in **Solution Explorer**, and then select **Project** > **Properties**. When the **Project Designer** appears, select the **Publish** tab, and then select **Prerequisites**. For Setup projects, on the **Project** menu, click **Properties**. When the **Property Pages** dialog box appears, click **Prerequisites**.
+
+[!INCLUDE[ndptecclick](../../deployment/includes/dotnet-publish-tool.md)]
 
 ## UIElement list
 

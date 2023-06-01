@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugPortSupplierEx2::SetServer
 ms.assetid: 0e8ef194-3a4f-4abf-8382-4607ab3005d1
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -17,21 +17,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortSupplierEx2::SetServer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the core server for the port supplier.
 
 ## Syntax
 
-```cpp
-HRESULT SetServer(
-   IDebugCoreServer2* pServer
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetServer(
    IDebugCoreServer2 pServer
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetServer(
+   IDebugCoreServer2* pServer
+);
+```
+---
 
 ## Parameters
 `pServer`\

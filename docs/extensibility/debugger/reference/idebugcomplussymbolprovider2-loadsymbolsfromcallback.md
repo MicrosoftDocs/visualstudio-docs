@@ -7,8 +7,8 @@ helpviewer_keywords:
 - LoadSymbolsFromCallback
 - IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback
 ms.assetid: 905315ba-8e9b-4889-b9da-98e1441950ad
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,22 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider2::LoadSymbolsFromCallback
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Loads debug symbols using the specified callback method.
 
 ## Syntax
 
-```cpp
-HRESULT LoadSymbolsFromCallback(
-    ULONG32   ulAppDomainID,
-    GUID      guidModule,
-    IUnknown* pUnkMetadataImport,
-    IUnknown* pUnkCorDebugModule,
-    BSTR      bstrModuleName,
-    BSTR      bstrSymSearchPath,
-    IUnknown* pCallback
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int LoadSymbolsFromCallback(
     uint   ulAppDomainID,
@@ -45,6 +36,19 @@ int LoadSymbolsFromCallback(
     object pCallback
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT LoadSymbolsFromCallback(
+    ULONG32   ulAppDomainID,
+    GUID      guidModule,
+    IUnknown* pUnkMetadataImport,
+    IUnknown* pUnkCorDebugModule,
+    BSTR      bstrModuleName,
+    BSTR      bstrSymSearchPath,
+    IUnknown* pCallback
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

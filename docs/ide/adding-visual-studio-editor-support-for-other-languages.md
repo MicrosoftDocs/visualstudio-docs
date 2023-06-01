@@ -1,7 +1,6 @@
 ---
 title: Add editor support for other languages
 description: Learn about how the Visual Studio editor supports reading and navigating through different computer languages and how you can add support for other languages.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -22,6 +21,8 @@ ms.workload:
 ---
 # Add Visual Studio editor support for other languages
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Learn about how the Visual Studio editor supports reading and navigating through different computer languages and how you can add Visual Studio editor support for other languages.
 
 ## Syntax colorization, statement completion, and Navigate To support
@@ -31,7 +32,6 @@ Features in the Visual Studio editor such as syntax colorization, statement comp
 ![Syntax colorization in Perl script](../ide/media/vside_perledit.png)
 
 Visual Studio currently provides syntax colorization and basic statement completion support for the following languages using [TextMate Grammars](https://manual.macromates.com/en/language_grammars). If your favorite language isn't in the table, though, don't worry&mdash;you can add it.
-
 
 - Bat
 - F#

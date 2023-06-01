@@ -1,7 +1,6 @@
 ---
 title: Analyze load test results - Graphs view (Load Test Analyzer)
 description: Learn how to display test results as graphs. Each graph is displayed in a panel with the graph name in a drop-down list. 
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
@@ -20,6 +19,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # Analyze load test results in the Graphs view of the Load Test Analyzer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The results of a load test are displayed as data in several different panes.
 

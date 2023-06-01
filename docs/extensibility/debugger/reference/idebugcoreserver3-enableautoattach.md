@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugCoreServer3::EnableAutoAttach
 ms.assetid: 06aa633b-263b-4e08-8844-9a52d5120b94
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugCoreServer3::EnableAutoAttach
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Enables automatic attaching for the specified debug engines.
 
 ## Syntax
 
-```cpp
-HRESULT EnableAutoAttach(
-   GUID*     rgguidSpecificEngines,
-   DWORD     celtSpecificEngines,
-   LPCOLESTR pszStartPageUrl,
-   BSTR*     pbstrSessionId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnableAutoAttach(
    Guid[]     rgguidSpecificEngines,
@@ -40,6 +34,16 @@ int EnableAutoAttach(
    out string pbstrSessionId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnableAutoAttach(
+   GUID*     rgguidSpecificEngines,
+   DWORD     celtSpecificEngines,
+   LPCOLESTR pszStartPageUrl,
+   BSTR*     pbstrSessionId
+);
+```
+---
 
 ## Parameters
 `rgguidSpecificEngines`\

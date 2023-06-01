@@ -1,21 +1,22 @@
 ---
 title: Port Suppliers | Microsoft Docs
 description: This article describes the definition and role of a port supplier in the debugger architecture in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - port suppliers
 - debugging [Debugging SDK], port suppliers
 ms.assetid: a8f3db96-1a13-4e93-9ef6-0861880369e0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # Port suppliers
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the debugger architecture, a *port supplier*:
 
 - Is contained by a server and provides ports on request to that server.

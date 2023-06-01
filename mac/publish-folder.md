@@ -5,19 +5,21 @@ ms.date: 11/09/2020
 helpviewer_keywords:
   - "deployment, website, console, publish"
 ms.assetid: e963fb4b-6d32-4d45-86bb-ef7e4d3028b0
-author: sayedihashimi
-ms.author: sayedha
-manager: unniravindranathan
+author: heiligerdankgesang 
+ms.author: dominicn
+manager: dominicn
 ms.prod: visual-studio-mac
 ms.topic: how-to
 ---
 # Publish to a folder using Visual Studio for Mac
 
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+
 You can use the Publish tool to publish .NET Core Console or ASP.NET Core apps to a folder.
 
 ## Prerequisites
 
-- [Visual Studio 2019 for Mac](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs4mac2019) installed with .NET Core enabled.
+- [Visual Studio 2019 for Mac](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=inline+link&utm_content=download+vs4mac2019) installed with .NET Core enabled.
 - A .NET Core console or ASP.NET Core project. If you don’t already have a project, you can [create a new one](./create-new-projects.md).
 
 ## Publish to Folder

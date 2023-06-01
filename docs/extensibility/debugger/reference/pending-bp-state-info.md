@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - PENDING_BP_STATE_INFO structure
 ms.assetid: 4d73ceff-43f9-4e95-8dba-88e1fab2def3
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # PENDING_BP_STATE_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Contains information about the state of a breakpoint that is ready to bind to a code location.
 
 ## Syntax
 
-```cpp
-typedef struct _tagPENDING_BP_STATE_INFO { 
-   PENDING_BP_STATE       state;
-   PENDING_BP_STATE_FLAGS flags;
-} PENDING_BP_STATE_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct PENDING_BP_STATE_INFO { 
    public uint state;
    public uint flags;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagPENDING_BP_STATE_INFO { 
+   PENDING_BP_STATE       state;
+   PENDING_BP_STATE_FLAGS flags;
+} PENDING_BP_STATE_INFO;
+```
+---
 
 ## Members
  `state`\

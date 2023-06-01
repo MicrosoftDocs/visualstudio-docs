@@ -1,7 +1,6 @@
 ---
 title: Analyze Virtual User Activity for load tests
 description: Learn how to use the Virtual User Activity Chart to see each virtual user was running during the test to see patterns of user activity and other information.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -13,6 +12,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # How to: Analyze what virtual users are doing during a load test using the virtual user activity chart
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 View the virtual user activity that's associated with your load test by using the **Virtual User Activity Chart**. Each row in the chart represents an individual virtual user. The **Virtual User Activity Chart** shows you exactly what each virtual user was executing during the test. You can see patterns of user activity, load patterns, correlate failed or slow tests, and see requests with other virtual user activity. The **Virtual User Activity Chart** is available only after the load test has finished running.
 
@@ -103,4 +104,3 @@ The procedures below demonstrate how to view the **Virtual User Activity Chart**
 ## See also
 
 - [Analyze virtual user activity in the Details view](../test/analyze-load-test-virtual-user-activity-in-the-details-view.md)
-- [Walkthrough: Using the virtual user activity chart to isolate issues](../test/walkthrough-use-the-virtual-user-activity-chart-to-isolate-issues.md)

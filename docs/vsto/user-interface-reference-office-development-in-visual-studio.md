@@ -1,7 +1,6 @@
 ---
 title: "User interface reference (Office development in Visual Studio)"
 description: Learn about Office development in Visual Studio and which user interface elements are part of Office projects.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -18,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # User interface reference (Office development in Visual Studio)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The following user interface elements are part of Office projects in Visual Studio.
 
 ## In this section

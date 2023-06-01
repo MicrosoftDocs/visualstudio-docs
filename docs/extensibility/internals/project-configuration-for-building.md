@@ -1,21 +1,22 @@
 ---
 title: Project Configuration for Building | Microsoft Docs
 description: Learn how a list of solution configurations for a particular solution is managed by the Solution Configurations dialog box in a new project type.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - projects [Visual Studio SDK], configuration for building
 - project configurations, building
 ms.assetid: 2c83615d-fa4d-4b9f-b315-7a69b3000da0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Project Configuration for Building
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The list of solution configurations for a given solution is managed by the Solution Configurations dialog box.
 
  A user can create additional solution configurations, each with its own unique name. When the user creates a new solution configuration, the IDE defaults to the corresponding configuration name in the projects, or Debug if no corresponding name exists. The user can change the selection to meet specific requirements if necessary. The only exception to this behavior is when the project supports a configuration that matches the name of the new solution configuration. For example, assume a solution contains Project1 and Project2. Project1 has project configurations Debug, Retail, and MyConfig1. Project2 has project configurations Debug, Retail, and MyConfig2.

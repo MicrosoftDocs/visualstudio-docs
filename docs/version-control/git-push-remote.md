@@ -1,26 +1,29 @@
 ---
-title: Push to a remote in Visual Studio
+title: Push to a remote branch in Visual Studio
 titleSuffix: ""
-description: Push to a remote in Visual Studio by using Git or Azure DevOps.
-ms.date: 11/08/2021
+description: Push to a remote in Visual Studio by using GitHub or Azure DevOps.
+ms.date: 12/01/2022
 ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
+ms.custom: version-control
 ---
-# Push to a remote in Visual Studio
+# Push from Visual Studio to a remote branch
 
-After you've authenticated to GitHub, Visual Studio can improve your GitHub workflow. One of those improvements is the ability to push (also known as publishing) a local project straight to GitHub with a single click. The final stage in a simple Git workflow is to push changes to your remote.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+After you've authenticated to GitHub, Visual Studio can improve your GitHub workflow. One of those improvements is the ability to push (also known as publish) a local project directly to GitHub with a single click. The final stage in a simple Git workflow is to push changes to your remote.
 
 A remote is a safe place to store your code in the cloud. It's typically referred to as **origin/main** (or origin/master), where "origin" is the default name for a remote. For more information about this terminology, see the [Git Branching - Remote Branches](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches) page on the Git website.
+
+While this article references GitHub repositories, you can work remotely with the Git provider of your choice, such as GitHub, GitLab, or Azure DevOps.
 
 Here's how to push to a remote in Visual Studio.
 
 1. Make sure you've got a file open to work on that's in a previously [created](git-create-repository.md) or [cloned](git-clone-repository.md) repo.
-
-1. In the **Git** menu, select
 
 1. Make a change to the file, save it, select the **Git Changes** tab, and then [commit](git-make-commit.md) the change.
 
@@ -28,7 +31,7 @@ Here's how to push to a remote in Visual Studio.
 
    :::image type="content" source="media/vs-2022/git-changes-window-outgoing-incoming.png" alt-text="The Git Changes window with the outgoing / incoming link text highlighted in Visual Studio 2022.":::
 
-   The "outgoing" text represents the number of commits that haven't yet been pushed to the remote, while the "incoming" text represents the commits that've been fetched but not yet pulled from the remote.
+   The "outgoing" text represents the number of commits that haven't yet been pushed to the remote, while the "incoming" text represents the commits that have been fetched but not yet pulled from the remote.
 
 1. To push to your remote, select **Push** button, or select **Push** from the **Git** menu.
 
@@ -38,4 +41,5 @@ To continue your journey, visit the [Fetch, pull, and sync in Visual Studio](git
 
 ## See also
 
-[Git experience in Visual Studio](git-with-visual-studio.md)
+- [Git experience in Visual Studio](git-with-visual-studio.md)
+- [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

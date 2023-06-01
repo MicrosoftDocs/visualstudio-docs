@@ -1,9 +1,8 @@
 ---
 title: "&lt;PackageFiles&gt; Element (Bootstrapper) | Microsoft Docs"
 description: Learn about the PackageFiles element, which contains PackageFile elements that define the installation packages executed as a result of the Command element.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "FSharp"
   - "VB"
@@ -20,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;PackageFiles&gt; element (bootstrapper)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `PackageFiles` element contains `PackageFile` elements, which define the installation packages executed as a result of the `Command` element.
 
 ## Syntax

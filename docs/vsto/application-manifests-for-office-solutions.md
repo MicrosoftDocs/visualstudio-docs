@@ -1,7 +1,6 @@
 ---
 title: "Application manifests for Office solutions"
 description: Learn how an application manifest is an XML file that describes the assemblies that are loaded into a Microsoft Office solution.
-ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: reference
 dev_langs:
@@ -17,6 +16,8 @@ ms.workload:
   - "office"
 ---
 # Application manifests for Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   An application manifest is an XML file that describes the assemblies that are loaded into a Microsoft Office solution. The Microsoft Office development tools in Visual Studio use the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] application manifest schema defined in the [ClickOnce application manifest](../deployment/clickonce-application-manifest.md) reference.
 
  Application manifests for Office solutions use the following [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] elements and attributes.

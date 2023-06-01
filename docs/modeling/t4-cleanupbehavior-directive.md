@@ -1,7 +1,6 @@
 ---
 title: T4 CleanUpBehavior directive
 description: Learn about the CleanUpBehavior directive and how to delete the appDomain after processing a text template.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 author: mgoertz-msft
@@ -12,6 +11,8 @@ ms.workload:
 - multiple
 ---
 # T4 CleanUpBehavior directive
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To delete the appDomain after processing a text template, include the following line:
 

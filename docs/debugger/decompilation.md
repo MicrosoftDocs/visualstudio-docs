@@ -1,8 +1,7 @@
 ---
 title: Decompile .NET code while debugging | Microsoft Docs
 description: Generate and embed source code from .NET assemblies while debugging in Visual Studio. Extract and view the embedded source code.
-ms.custom: SEO-VS-2020
-ms.date: 2/2/2020
+ms.date: 03/23/2023
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -17,8 +16,9 @@ ms.workload:
   - multiple
 monikerRange: '>= vs-2019'
 ---
-
 # Generate source code from .NET assemblies while debugging
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When debugging a .NET application, you may find that you want to view source code that you don't have. For example, breaking on an exception or using the call stack to navigate to a source location.
 
@@ -45,7 +45,7 @@ The following illustration shows the **Source Not Found** message.
 
 ## Generate and embed sources for an assembly
 
-In addition to generating source code for a specific location, you can generate all the source code for a given .NET assembly. To do this, go to the **Modules** window and from the context menu of a .NET assembly, and then select the **Decompile source code** command. Visual Studio generates a symbol file for the assembly and then embeds the source into the symbol file. In a later step, you can [extract](#extract-and-view-the-embedded-source-code) the embedded source code.
+In addition to generating source code for a specific location, you can generate all the source code for a given .NET assembly. To do this, go to the **Modules** window and from the context menu of a .NET assembly, and then select the **Decompile Source to Symbol File** command. Visual Studio generates a symbol file for the assembly and then embeds the source into the symbol file. In a later step, you can [extract](#extract-and-view-the-embedded-source-code) the embedded source code.
 
 ![Screenshot of assembly context menu in modules window with decompile source command.](media/decompilation-decompile-source-code.png)
 
@@ -63,11 +63,17 @@ Extracted source files appear in the miscellaneous files in **Solution Explorer*
 
 ![Screenshot of solution explorer with miscellaneous files.](media/decompilation-solution-explorer.png)
 
+## SourceLink
+
+For .NET libraries or for NuGet packages enabled for SourceLink, you can also step into source code, set breakpoints, and use all the debugger’s features. For more information, see [Improving debug-time productivity with SourceLink](https://devblogs.microsoft.com/dotnet/improving-debug-time-productivity-with-source-link/).
+
 ## Known limitations
 
+::: moniker range="<= vs-2019"
 ### Requires break mode
 
 Generating source code using decompilation is only possible when the debugger is in break mode and the application is paused. For example, Visual Studio enters break mode when it hits a breakpoint or an exception. You can easily trigger Visual Studio to break the next time your code runs by using the **Break All** command (![Break all icon](media/decompilation-break-all.png)).
+::: moniker-end
 
 ### Decompilation limitations
 
@@ -97,7 +103,7 @@ More details can be found in the GitHub issue: [PDB Generator Status](https://gi
 
 ### Just My Code
 
-The [Just My Code (JMC)](./just-my-code.md) settings allows Visual Studio to step over system, framework, library, and other non-user calls. During a debugging session, the **Modules** window shows which code modules the debugger is treating as My Code (user code).
+The [Just My Code (JMC)](./just-my-code.md) setting allows Visual Studio to step over system, framework, library, and other non-user calls. During a debugging session, the **Modules** window shows which code modules the debugger is treating as My Code (user code).
 
 Decompilation of optimized or release modules produces non-user code. If the debugger breaks in your decompiled non-user code, for example, the **No Source** window appears. To disable Just My Code, navigate to **Tools** > **Options** (or **Debug** > **Options**) > **Debugging** > **General**, and then deselect **Enable Just My Code**.
 

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule
 - LoadSymbolsWithCorModule
 ms.assetid: b6abf3a4-ce60-4e66-9637-82ce911148de
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,22 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider2::LoadSymbolsWithCorModule
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Loads debug symbols given the **ICorDebugModule** object.
 
 ## Syntax
 
-```cpp
-HRESULT LoadSymbolsWithCorModule(
-    ULONG32   ulAppDomainID,
-    GUID      guidModule,
-    ULONGLONG baseAddress,
-    IUnknown* pUnkMetadataImport,
-    IUnknown* pUnkCorDebugModule,
-    BSTR      bstrModuleName,
-    BSTR      bstrSymSearchPath
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int LoadSymbolsWithCorModule(
     uint   ulAppDomainID,
@@ -45,6 +36,19 @@ int LoadSymbolsWithCorModule(
     string bstrSymSearchPath
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT LoadSymbolsWithCorModule(
+    ULONG32   ulAppDomainID,
+    GUID      guidModule,
+    ULONGLONG baseAddress,
+    IUnknown* pUnkMetadataImport,
+    IUnknown* pUnkCorDebugModule,
+    BSTR      bstrModuleName,
+    BSTR      bstrSymSearchPath
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

@@ -1,7 +1,6 @@
 ---
 title: Browse and rearrange code maps
 description: Learn how you can rearrange items on code maps to make them easier to read and improve their performance.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -27,6 +26,8 @@ ms.workload:
 - multiple
 ---
 # Browse and rearrange code maps
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Rearrange items on code maps to make them easier to read and improve their performance.
 

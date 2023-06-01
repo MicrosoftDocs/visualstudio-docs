@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IEEVisualizerDataProvider::SetObjectForVisualizer method
 ms.assetid: 40dad2be-57ff-4f74-9d82-c48039c125c4
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IEEVisualizerDataProvider::SetObjectForVisualizer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method changes the object that the visualizer represents.
 
 ## Syntax
 
-```cpp
-HRESULT SetObjectForVisualizer(
-   IDebugObject*  pNewObject,
-   BSTR*          error,
-   IDebugObject** pException
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetObjectForVisualizer(
    IDebugObject     pNewObject,
@@ -38,6 +33,15 @@ int SetObjectForVisualizer(
    out IDebugObject pException
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetObjectForVisualizer(
+   IDebugObject*  pNewObject,
+   BSTR*          error,
+   IDebugObject** pException
+);
+```
+---
 
 ## Parameters
 `pNewObject`\

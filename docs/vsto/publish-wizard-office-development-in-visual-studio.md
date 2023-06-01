@@ -1,7 +1,6 @@
 ---
 title: "Publish wizard (Office development in Visual Studio)"
 description: Learn how you can Use the Publish Wizard to copy solution files to a specified location, create the manifest files, and create a Setup program in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -23,6 +22,8 @@ ms.workload:
   - "office"
 ---
 # Publish wizard (Office development in Visual Studio)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Use the **Publish Wizard** to copy solution files to a specified location, create the manifest files, and create a Setup program.
 
  To access this wizard, on the **Build** menu, choose **Publish** *SolutionName*. You can also access the **Publish Wizard** from **Solution Explorer**. Open the shortcut menu for the project node, and then choose **Publish**.

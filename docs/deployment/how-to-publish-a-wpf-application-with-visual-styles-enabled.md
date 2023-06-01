@@ -1,7 +1,6 @@
 ---
 title: Publish a WPF app with visual styles enabled
 description: Learn how to publish a WPF application with visual styles enabled, which allows the appearance of controls to change based on the theme chosen by the user.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 73b22b02-fc75-42aa-82d3-51fdcaf8e5c8
@@ -12,8 +11,9 @@ ms.technology: vs-ide-deployment
 ms.workload: 
   - multiple
 ---
-
 # How to: Publish a WPF application with visual styles enabled
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual styles enable the appearance of common controls to change based on the theme chosen by the user. By default, visual styles are not enabled for Windows Presentation Foundation (WPF) applications, so you must enable them manually. However, enabling visual styles for a WPF application and then publishing the solution causes an error. This topic describes how to resolve this error and the process for publishing a WPF application with visual styles enabled. For more information about visual styles, see [Visual styles overview](/windows/desktop/Controls/visual-styles-overview). For more information about the error message, see [Troubleshoot specific errors in ClickOnce deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md).
 

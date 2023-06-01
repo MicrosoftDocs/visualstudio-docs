@@ -1,7 +1,6 @@
 ---
 title: Add parameter to a method quick action
 description: Learn how to use a Quick Action to automatically add and declare a parameter, based on usage, to a method.
-ms.custom: SEO-VS-2020
 ms.date: 09/28/2018
 ms.topic: reference
 author: TerryGLee
@@ -12,6 +11,8 @@ ms.workload:
 - dotnet
 ---
 # Add a parameter to a method using a Quick Action
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This code generation applies to:
 

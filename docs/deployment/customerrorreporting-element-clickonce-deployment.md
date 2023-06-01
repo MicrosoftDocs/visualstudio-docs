@@ -1,7 +1,6 @@
 ---
 title: "&lt;customErrorReporting&gt; Element (ClickOnce Deployment) | Microsoft Docs"
 description: The customErrorReporting element specifies a URI to show when an error occurs instead of an error dialog box showing the exception stack.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -19,6 +18,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;customErrorReporting&gt; element (ClickOnce deployment)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies a URI to show when an error occurs.
 
 ## Syntax

@@ -7,8 +7,9 @@ ms.author: ghogen
 ms.topic: "how-to"
 ms.date: 10/19/2021
 ---
-
 # Sign in with an Azure subscription
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If you are not already signed in with an Azure subscription, you may encounter a dialog like the ones below.
 

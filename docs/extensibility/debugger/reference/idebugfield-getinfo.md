@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugField::GetInfo method
 ms.assetid: 7d508200-89ce-400f-a8ea-f28e7610cb2b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugField::GetInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets displayable information about the field.
 
 ## Syntax
 
-```cpp
-HRESULT GetInfo( 
-   FIELD_INFO_FIELDS dwFields,
-   FIELD_INFO* pFieldInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetInfo(
    enum_FIELD_INFO_FIELDS dwFields,
    FIELD_INFO[] pFieldInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetInfo( 
+   FIELD_INFO_FIELDS dwFields,
+   FIELD_INFO* pFieldInfo
+);
+```
+---
 
 ## Parameters
 `dwFields`\

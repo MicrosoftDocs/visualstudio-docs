@@ -8,14 +8,16 @@ helpviewer_keywords:
 - toolbox
 - windows forms
 ms.assetid: 0be6ffc1-8afd-4d02-9a5d-e27dde05fde6
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Create a Windows Forms Toolbox Control
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Windows Forms Toolbox Control item template that is included in the Visual Studio Extensibility Tools (VS SDK), lets you create a **Toolbox** control that is automatically added when the extension is installed. This walkthrough shows how to use the template to create a simple counter control that you can distribute to other users.
 

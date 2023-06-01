@@ -1,21 +1,22 @@
 ---
 title: Getting Started with Source Control VSPackages | Microsoft Docs
 description: Learn about source-control VSPackages in Visual Studio and how they are a more advanced alternative to source control plug-ins.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control packages, getting started
 - getting started, source control packages
 ms.assetid: 049c68f4-a041-4f24-8575-4837e7f5cf3f
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Get started with source control VSPackages
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 A source-control VSPackage is a more advanced alternative to the source control plug-in. For more information about source control plug-ins, see [Create a source control plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md). A source-control VSPackage enables complete control over the source control model, features, and user interface (UI), and it integrates into the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] environment as a VSPackage.
 

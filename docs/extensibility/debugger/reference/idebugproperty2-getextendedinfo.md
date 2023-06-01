@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProperty2::GetExtendedInfo
 ms.assetid: 0c9c0b2b-7540-4424-adb5-fce7aa37a026
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugProperty2::GetExtendedInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets extended information for the property.
 
 ## Syntax
 
-```cpp
-HRESULT GetExtendedInfo ( 
-   REFGUID* guidExtendedInfo,
-   VARIANT* pExtendedInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetExtendedInfo ( 
    ref Guid guidExtendedInfo,
    out object pExtendedInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetExtendedInfo ( 
+   REFGUID* guidExtendedInfo,
+   VARIANT* pExtendedInfo
+);
+```
+---
 
 ## Parameters
 `guidExtendedInfo`\

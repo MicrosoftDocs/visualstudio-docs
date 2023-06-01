@@ -1,7 +1,6 @@
 ---
 title: Add explicit cast
 description: Learn how to automatically add an explicit cast to an expression based on the context of your code. 
-ms.custom: SEO-VS-2020
 ms.date: 03/26/2020
 ms.topic: reference
 author: TerryGLee
@@ -12,6 +11,8 @@ ms.workload:
 - dotnet
 ---
 # Add explicit cast
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This code generation applies to:
 

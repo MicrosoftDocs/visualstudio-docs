@@ -1,7 +1,6 @@
 ---
 title: "MFC Debugging Techniques | Microsoft Docs"
 description: "Learn techniques for debugging MFC programs, including: coded breakpoints, tracing, memory leak detection, object memory dumps, and program size reduction."
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -30,6 +29,8 @@ ms.workload:
   - "multiple"
 ---
 # MFC Debugging Techniques
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If you are debugging an MFC program, these debugging techniques may be useful.
 
 ## <a name="BKMK_In_this_topic"></a> In this topic

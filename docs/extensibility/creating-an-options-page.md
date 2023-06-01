@@ -1,20 +1,21 @@
 ---
 title: Creating an Options Page | Microsoft Docs
 description: Learn how to create a simple Tools/Options page that uses a property grid to examine and set properties.
-ms.custom: SEO-VS-2020
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
 - Tools Options pages [Visual Studio SDK], creating
 ms.assetid: 9f4e210c-4b47-4daa-91fa-1c301c4587f9
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Create an options page
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This walkthrough creates a simple Tools/Options page that uses a property grid to examine and set properties.
 
@@ -262,6 +263,29 @@ This walkthrough creates a simple Tools/Options page that uses a property grid t
 5. In the experimental instance, on the **Tools** menu, click **Invoke MyToolsOptionsCommand**.
 
      A message box displays the current value of `OptionInteger`.
+
+## Open options page
+
+In this section, you'll add a Command and an event for the button to open the options page
+
+1. First add a file called OpenPageCommand.cs. 
+
+3. Then, open *OpenPageCommand.cs* and change your Execute method.
+
+     ```csharp
+     private void Execute(object sender, EventArgs e)
+     {
+         ThreadHelper.ThrowIfNotOnUIThread();
+         Type optionsPageType = typeof(OptionPageCustom);
+         Instance.package.ShowOptionPage(optionsPageType);
+     }
+    ```
+
+3. Run the project, then click the Invoke button (it is under the Tool option by default), then you can see your options page is opened.
+
+5. More details about opening options page can refer to the following documents
+
+- [Opening an Options Page](/previous-versions/cc826083(v=vs.140))
 
 ## See also
 

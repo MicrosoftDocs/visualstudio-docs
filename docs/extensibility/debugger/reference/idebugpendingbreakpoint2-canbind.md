@@ -9,8 +9,8 @@ helpviewer_keywords:
 - IDebugPendingBreakpoint2::CanBind method
 - CanBind method
 ms.assetid: 84a2b189-ccf1-467e-8fab-0c0da68f0b91
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPendingBreakpoint2::CanBind
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines whether this pending breakpoint can bind to a code location.
 
 ## Syntax
 
-```cpp
-HRESULT CanBind ( 
-   IEnumDebugErrorBreakpoints2** ppErrorEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int CanBind ( 
    out IEnumDebugErrorBreakpoints2 ppErrorEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT CanBind ( 
+   IEnumDebugErrorBreakpoints2** ppErrorEnum
+);
+```
+---
 
 ## Parameters
 `ppErrorEnum`\

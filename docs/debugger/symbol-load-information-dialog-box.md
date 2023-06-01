@@ -1,9 +1,8 @@
 ---
 title: "Symbol Load Information Dialog Box | Microsoft Docs"
 description: Review the Symbol Load Information dialog box, which opens in the Visual Studio debugger when you right-click on the Modules window and choose Symbol Load Information.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.symbols.loadinfo"
 dev_langs:
@@ -20,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # Symbol Load Information Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Symbol Load Information** dialog box opens when you right-click on the **Modules** window and choose **Symbol Load Information**.
 
 ## UIElement List

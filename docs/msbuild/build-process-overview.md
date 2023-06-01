@@ -1,7 +1,6 @@
 ---
 title: How MSBuild builds projects
 description: Learn how MSBuild processes your project files, whether invoked from Visual Studio or from a command line or script.
-ms.custom: SEO-VS-2020
 ms.date: 05/18/2020
 ms.topic: conceptual
 helpviewer_keywords:
@@ -82,7 +81,7 @@ In this phase, [item definitions](item-definitions.md) are interpreted and an in
 
 ### Evaluate items
 
-Items defined inside a target are handled differently from items outside any target. In this phase, items outside any target, and their associated metadata, are processed.  Metadata set by item definitions is overridden by metadata setting on items. Because items are processed in the order that they appear, you can reference items that have been defined earlier, but not ones that appear later. Because the items pass is after the properties pass, items can access any property if defined outside any targets, regardless of whether the property definition appears later.
+Items defined inside a target are handled differently from items outside any target. In this phase, items outside any target, and their associated metadata, are processed.  Metadata set by item definitions is overridden by metadata set on items. Because items are processed in the order that they appear, you can reference items that have been defined earlier, but not ones that appear later. Because the items pass is after the properties pass, items can access any property if defined outside any targets, regardless of whether the property definition appears later.
 
 ### Evaluate `UsingTask` elements
 

@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically search within a specific folder"
 description: Learn how you can use Visual Studio to programmatically search within a specific Microsoft Outlook folder.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -18,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically search within a specific folder
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This code example uses the `Find` and `FindNext` methods to search for text in the subject field of e-mail messages that are in the **Inbox**. This method uses a string filter to check for the letter T as the starting letter of the `Subject` text.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

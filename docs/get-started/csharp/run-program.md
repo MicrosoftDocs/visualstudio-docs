@@ -2,7 +2,7 @@
 title: "How to run a program (C#)"
 description: "Beginner's guide on how to run a C# program in Visual Studio."
 ms.custom: "vs-acquisition, get-started"
-ms.date: 09/14/2021
+ms.date: 3/8/2023
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -18,6 +18,8 @@ ms.workload:
 ---
 # How to: Run a C# program in Visual Studio
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 How to run a program depends on what you start from, the type of program, and whether you want to run under the debugger. In the simplest case, to build and run an open project in Visual Studio:
 
 - Press **F5**, choose **Debug** > **Start with debugging** from the Visual Studio menu, or select the green **Start** arrow and project name on the Visual Studio toolbar.
@@ -32,7 +34,7 @@ How to run a program depends on what you start from, the type of program, and wh
 
 ## Start from a project
 
-You can run a C# project or *.csproj* file if it's a runnable program. If the project contains a C# file with a `Main` method, and its output is an executable or *.exe* file, it will probably run if it builds successfully.
+You can run a C# project or *.csproj* file if it's a runnable program. If the project contains a C# file with a `Main` method, and its output is an executable or *.exe* file, it will probably run if it builds successfully. Newer versions of C# don't require a `Main` method; instead, program executions starts with top-level statements. See [Programs without Main methods](/dotnet/csharp/fundamentals/program-structure/top-level-statements).
 
 1. If your program code is already in a Visual Studio project, open the project. To do so, you can double-click or tap on the *.csproj* file in Windows File Explorer, or choose **Open a project** in Visual Studio, browse to find the *.csproj* file, and select the file.
 
@@ -53,7 +55,7 @@ You can run a C# project or *.csproj* file if it's a runnable program. If the pr
 
 ## Start from code
 
-If you start from a code listing, code file, or small number of files, first make sure the code is a runnable program from a trusted source. Any app with a `Main` method is probably a runnable program. You can use the Console Application template to create a project to work with the app in Visual Studio.
+If you start from a code listing, code file, or small number of files, first make sure the code is a runnable program from a trusted source. Any app with a `Main` method is probably a runnable program, but with the current version of C#, programs without `Main` methods with top-level statements can also run. You can use the Console Application template to create a project to work with the app in Visual Studio.
 
 ### Code listing for a single file
 
@@ -88,7 +90,7 @@ Visual Studio attempts to build and run the code in your project. If a build doe
 
 ## Troubleshooting
 
-Your code might have errors. Or the code might be correct, but depends on missing assemblies or NuGet packages, or targets a different version of .NET. In those cases, you might be able to easily fix the build.
+Your code might have errors. Or the code might be correct, but maybe it depends on missing assemblies or NuGet packages, or targets a different version of .NET. In those cases, you might be able to easily fix the build.
 
 ### Add references
 
@@ -110,6 +112,8 @@ Here's an example of a missing `using` directive. You can add `using System;` to
 ::: moniker range=">=vs-2022"
 :::image type="content" source="media/vs-2022/missing-using-directive.png" alt-text="Screenshot of light bulb to add a using directive." border="false":::
 ::: moniker-end
+
+Newer versions of C# support implicit using directives for some commonly used namespaces, so if you chose that option when creating a project, you don't need them.
 
 #### Add an assembly reference
 
@@ -139,9 +143,9 @@ If that doesn't solve the issue or Visual Studio can't locate the package, try s
 
 ### Use the right version of .NET
 
-Because different versions of the .NET Framework have some backward compatibility, a newer framework might run code written for an older framework without any changes. But sometimes you need to target a specific .NET framework version. You might need to install a specific version of the .NET Framework or .NET Core. See [Modify Visual Studio](../../install/modify-visual-studio.md).
+Because different versions of the .NET Framework have some backward compatibility, a newer framework might run code written for an older framework without any changes. But sometimes you need to target a specific .NET Framework version. You might need to install a specific version of the .NET Framework or .NET Core. See [Modify Visual Studio](../../install/modify-visual-studio.md).
 
-To change the target .NET framework version, see [Change the target framework](../../ide/visual-studio-multi-targeting-overview.md#select-a-target-framework-version). For more information, see [Troubleshooting .NET Framework targeting errors](../../msbuild/troubleshooting-dotnet-framework-targeting-errors.md).
+To change the target .NET Framework version, see [Change the target framework](../../ide/visual-studio-multi-targeting-overview.md#select-a-target-framework-version). For more information, see [Troubleshooting .NET Framework targeting errors](../../msbuild/troubleshooting-dotnet-framework-targeting-errors.md).
 
 ## Next steps
 

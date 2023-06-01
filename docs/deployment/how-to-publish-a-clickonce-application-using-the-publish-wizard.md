@@ -1,8 +1,7 @@
 ---
 title: Publish ClickOnce application using Publish wizard
 description: Learn about using the Publish Wizard to make your ClickOnce application available to users, including which publishing properties to use.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 01/27/2023
 ms.topic: how-to
 dev_langs: 
   - VB
@@ -21,7 +20,9 @@ ms.technology: vs-ide-deployment
 ms.workload: 
   - multiple
 ---
-# How to: Publish a ClickOnce application using the Publish Wizard
+# Deploy a .NET Framework desktop application using the ClickOnce Publish wizard
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To make a ClickOnce application available to users, you must publish it to a file share or path, FTP server, or removable media. You can publish the application by using the Publish Wizard; additional properties related to publishing are available on the **Publish** page of the **Project Designer**. For more information, see [Publishing ClickOnce applications](../deployment/publishing-clickonce-applications.md).
 
 Before you run the Publish Wizard, you should set the publishing properties appropriately. For example, if you want to designate a key to sign your ClickOnce application, you can do so on the **Signing** page of the **Project Designer**. For more information, see [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md).
@@ -36,9 +37,11 @@ Before you run the Publish Wizard, you should set the publishing properties appr
 
 1. In **Solution Explorer**, select the application project.
 
-2. On the **Build** menu, click **Publish** *Projectname*.
+2. On the **Build** menu, choose either **Publish** *Projectname* or **Publish Selection**.
 
     The Publish Wizard appears.
+
+    [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 3. In the **Where do you want to publish the application?** page, enter a valid FTP server address or a valid file path using one of the formats shown, and then click **Next**.
 

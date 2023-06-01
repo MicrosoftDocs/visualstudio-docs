@@ -1,7 +1,6 @@
 ---
 title: "IntelliTrace | Microsoft Docs"
 description: Use IntelliTrace to record and trace your code's execution history in Visual Studio. Record specific events, examine related code, and debug errors.
-ms.custom: SEO-VS-2020
 ms.date: "09/19/2018"
 ms.topic: "conceptual"
 f1_keywords:
@@ -23,6 +22,8 @@ ms.workload:
   - "multiple"
 ---
 # IntelliTrace for Visual Studio Enterprise (C#, Visual Basic, C++)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can spend less time debugging your application when you use IntelliTrace to record and trace your code's execution history. You can find bugs easily because IntelliTrace lets you:
 

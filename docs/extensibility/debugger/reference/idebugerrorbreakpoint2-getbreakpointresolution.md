@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugErrorBreakpoint2::GetBreakpointResolution
 ms.assetid: 1c2324ed-2a11-4e63-8f3a-f420c7a4018b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugErrorBreakpoint2::GetBreakpointResolution
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the breakpoint error resolution that describes the error.
 
 ## Syntax
 
-```cpp
-HRESULT GetBreakpointResolution( 
-   IDebugErrorBreakpointResolution2** ppErrorResolution
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetBreakpointResolution( 
    out IDebugErrorBreakpointResolution2 ppErrorResolution
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetBreakpointResolution( 
+   IDebugErrorBreakpointResolution2** ppErrorResolution
+);
+```
+---
 
 ## Parameters
 `ppErrorResolution`\

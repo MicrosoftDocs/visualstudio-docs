@@ -7,8 +7,8 @@ helpviewer_keywords:
 - GetTypeArguments
 - IDebugGenericFieldInstance::GetTypeArguments
 ms.assetid: 6e7e0f95-181a-4805-adb3-c2407de0ab93
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,18 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugGenericFieldInstance::GetTypeArguments
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the type parameter arguments for this instance.
 
 ## Syntax
 
-```cpp
-HRESULT GetTypeArguments(
-   ULONG32       cArgs,
-   IDebugField** ppArgs,
-   ULONG32*      pcArgs
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetTypeArguments(
    uint              cArgs,
@@ -37,6 +32,15 @@ int GetTypeArguments(
    ref uint          pcArgs
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetTypeArguments(
+   ULONG32       cArgs,
+   IDebugField** ppArgs,
+   ULONG32*      pcArgs
+);
+```
+---
 
 ## Parameters
 `cArgs`\

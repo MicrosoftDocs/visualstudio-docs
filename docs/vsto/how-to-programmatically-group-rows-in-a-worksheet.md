@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically group rows in a worksheet"
 description: Learn how you can programmatically group one or more whole rows in Microsoft Excel by using a NamedRange control or a native Excel range object.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -25,6 +24,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically group rows in a worksheet
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can group one or more whole rows. To create a group in a worksheet, use a <xref:Microsoft.Office.Tools.Excel.NamedRange> control or a native Excel range object.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]

@@ -7,27 +7,23 @@ manager: jmartens
 ms.assetid: 480e3062-aae7-48ef-9701-e4f9ea041382
 ms.topic: how-to
 ms.workload: multiple
-ms.date: 10/27/2021
+ms.date: 10/07/2022
 ms.technology: vs-container-tools
 ---
 # Debug apps in a local Docker container
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Visual Studio provides a consistent way to develop Docker containers and validate your application locally.
 You can run and debug your apps in Linux or Windows containers running on your local Windows desktop with Docker installed, and you don't have to restart the container each time you make a code change.
 
-This article illustrates how to use Visual Studio to start an app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized apps. Supported project types include .NET Framework and .NET Core web and console apps. In this article, we use ASP.NET Core web apps and .NET Framework console apps.
+This article illustrates how to use Visual Studio to start an app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized apps. Supported project types include web app, console app, and Azure Function targeting .NET Framework and .NET Core. The examples presented in this article, are a project of type ASP.NET Core Web App and a project of type Console App (.NET Framework).
 
 If you already have a project of a supported type, Visual Studio can create a Dockerfile and configure your project to run in a container. See [Container Tools in Visual Studio](overview.md).
 
 ## Prerequisites
 
 To debug apps in a local Docker container, the following tools must be installed:
-
-::: moniker range="vs-2017"
-
-* [Visual Studio 2017](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) with the Web Development workload installed
-
-::: moniker-end
 
 ::: moniker range="vs-2019"
 
@@ -43,15 +39,10 @@ To debug apps in a local Docker container, the following tools must be installed
 
 To run Docker containers locally, you must have a local Docker client. You can use [Docker Desktop](https://www.docker.com/get-docker), which requires Windows 10 or later.
 
-Docker containers are available for .NET Framework and .NET Core projects. Let's look at two examples. First, we look at a .NET Core web app. Then, we look at a .NET Framework console app.
-
 ## Create a web app
 
 If you have a project and you've added Docker support as described in the [overview](overview.md), skip this section.
 
-::: moniker range="vs-2017"
-[!INCLUDE [create-aspnet5-app](../azure/includes/create-aspnet5-app.md)]
-::: moniker-end
 ::: moniker range="vs-2019"
 [!INCLUDE [create-aspnet5-app-2019](../azure/includes/vs-2019/create-aspnet5-app-2019.md)]
 ::: moniker-end
@@ -59,9 +50,9 @@ If you have a project and you've added Docker support as described in the [overv
 [!INCLUDE [create-aspnet5-app-2022](../azure/includes/vs-2022/create-aspnet5-app-2022.md)]
 ::: moniker-end
 
-### Edit your code and refresh
+### Edit your Razor pages and refresh
 
-To quickly iterate changes, you can start your application in a container. Then, continue to make changes, viewing them as you would with IIS Express.
+To quickly iterate changes in your Razor pages, you can start your application in a container. Then, continue to make changes, viewing them as you would with IIS Express. 
 
 1. Make sure that Docker is set up to use the container type (Linux or Windows) that you are using. Right-click on the Docker icon on the Taskbar, and choose **Switch to Linux containers** or **Switch to Windows containers** as appropriate.
 
@@ -142,7 +133,11 @@ Often, changes require further inspection. You can use the debugging features of
 
 ## Create a .NET Framework console app
 
-When you use .NET Framework console app projects, the option to add Docker support without orchestration isn't supported. You can still use the following procedure, even if you're using only a single Docker project.
+This section presents how to debug a .NET Framework console app project in a local Docker container by first showing how to add Docker support to the project. It's important to recognize that different project types have different levels of Docker support. There are even different levels of Docker support for .NET Core (including .NET 5 and later) console app projects versus .NET Framework console app projects. 
+
+When a .NET Framework console app project is created, there's no option to enable Docker support. After creating such a project, there's no way to explicitly add Docker support to the project. For a .NET Framework console app project, it's possible to add support for container orchestration. A side effect of adding orchestration support to the .NET Framework console app project is that it adds Docker support to the project.
+
+The following procedure demonstrates how to add orchestration support to a .NET Framework console app project, which subsequently adds Docker support to the project and allows the project to be debugged in a local Docker container.
 
 1. Create a new .NET Framework Console app project.
 1. In Solution Explorer, right-click the project node, and then select **Add** > **Container Orchestration Support**.  In the dialog box that appears, select **Docker Compose**. A Dockerfile is added to your project and a Docker Compose project with associated support files is added.

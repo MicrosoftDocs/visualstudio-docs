@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugErrorBreakpoint2::GetPendingBreakpoint
 ms.assetid: 59d0defc-99fd-445c-bdac-8224d5dea3f9
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugErrorBreakpoint2::GetPendingBreakpoint
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the pending breakpoint that caused the error.
 
 ## Syntax
 
-```cpp
-HRESULT GetPendingBreakpoint ( 
-   IDebugPendingBreakpoint2** ppPendingBreakpoint
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPendingBreakpoint ( 
    out IDebugPendingBreakpoint2 ppPendingBreakpoint
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPendingBreakpoint ( 
+   IDebugPendingBreakpoint2** ppPendingBreakpoint
+);
+```
+---
 
 ## Parameters
 `ppPendingBreakpoint`\

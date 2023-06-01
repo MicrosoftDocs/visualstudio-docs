@@ -1,21 +1,23 @@
 ---
 title: 'How to: Use the Activity Log | Microsoft Docs'
 description: VSPackages can write messages to the activity log. Learn how to use the activity log for debugging VSPackages in retail environments.
-ms.custom: SEO-VS-2020
+ms.custom: UpdateFrequency3
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - VSPackages, debugging
 - VSPackages, troubleshooting
 ms.assetid: bb3d3322-0e5e-4dd5-b93a-24d5fbcd2ffd
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # How to: Use the activity log
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 VSPackages can write messages to the activity log. This feature is especially useful for debugging VSPackages in retail environments.
 
 > [!TIP]
@@ -52,6 +54,8 @@ VSPackages can write messages to the activity log. This feature is especially us
    ```
    Called for: Company.MyApp.MyAppPackage ...
    ```
+## Troubleshooting Import/Export Issues in Editor Extensions: Access the MEF Composition Error Log
+When writing an editor-based extension, you may experience issues if you try to import something that doesn't exist in the current VS install, or if you incorrectly author your import or export.  The primary way to find and address these issues is to reference the **Managed Extensibility Framework (MEF) Composition Error Log**, stored at *%localappdata%\Microsoft\VisualStudio[yourVSVersion]\ComponentModelCache\Microsoft.VisualStudio.Default.err*.  To learn more about using MEF in your extensions, check out [this documentation](../extensibility/managed-extensibility-framework-in-the-editor.md).
 
 ## Robust programming
 

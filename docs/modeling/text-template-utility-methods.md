@@ -1,7 +1,6 @@
 ---
 title: Text Template Utility Methods
 description: Learn about the various text template utility methods that are available to you when you write code in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -14,6 +13,8 @@ ms.workload:
 - multiple
 ---
 # Text Template Utility Methods
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are several methods that are always available to you when you write code in a Visual Studio text template. These methods are defined in <xref:Microsoft.VisualStudio.TextTemplating.TextTransformation>.
 

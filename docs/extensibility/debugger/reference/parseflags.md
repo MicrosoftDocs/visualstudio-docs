@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - PARSEFLAGS enumeration
 ms.assetid: 47943f0a-54cb-4493-a62e-5dba97bd4c35
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,21 @@ dev_langs:
 - CSharp
 ---
 # PARSEFLAGS
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies how to parse an expression.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_PARSEFLAGS { 
+   PARSE_EXPRESSION            = 0x0001,
+   PARSE_FUNCTION_AS_ADDRESS   = 0x0002,
+   PARSE_DESIGN_TIME_EXPR_EVAL = 0x1000
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_PARSEFLAGS { 
    PARSE_EXPRESSION            = 0x0001,
@@ -31,14 +42,7 @@ enum enum_PARSEFLAGS { 
 };
 typedef DWORD PARSEFLAGS;
 ```
-
-```csharp
-public enum enum_PARSEFLAGS { 
-   PARSE_EXPRESSION            = 0x0001,
-   PARSE_FUNCTION_AS_ADDRESS   = 0x0002,
-   PARSE_DESIGN_TIME_EXPR_EVAL = 0x1000
-};
-```
+---
 
 ## Fields
  `PARSE_EXPRESSION`\

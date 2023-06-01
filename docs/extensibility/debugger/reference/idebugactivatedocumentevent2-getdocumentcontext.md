@@ -9,8 +9,8 @@ helpviewer_keywords:
 - GetDocumentContext method
 - IDebugActivateDocumentEvent2::GetDocumentContext method
 ms.assetid: e7472069-7337-4ef4-8f8a-8c027a2e22f4
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugActivateDocumentEvent2::GetDocumentContext
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the document context that describes the position in the document that is to be made active by the debug package.
 
 ## Syntax
 
-```cpp
-HRESULT GetDocumentContext ( 
-   IDebugDocumentContext2** ppDocContext
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDocumentContext ( 
    out IDebugDocumentContext2 ppDocContext
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDocumentContext ( 
+   IDebugDocumentContext2** ppDocContext
+);
+```
+---
 
 ## Parameters
 `ppDocContext`\

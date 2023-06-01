@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugThreadDestroyEvent2::GetExitCode
 ms.assetid: 8bf47a17-f811-4d9b-bcea-7488908830ff
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugThreadDestroyEvent2::GetExitCode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the exit code for a thread.
 
 ## Syntax
 
-```cpp
-HRESULT GetExitCode ( 
-   DWORD* pdwExit
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetExitCode ( 
    out uint pdwExit
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetExitCode ( 
+   DWORD* pdwExit
+);
+```
+---
 
 ## Parameters
 `pdwExit`\

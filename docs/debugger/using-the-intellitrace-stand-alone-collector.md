@@ -1,8 +1,7 @@
 ---
 title: "Using the IntelliTrace stand-alone collector | Microsoft Docs"
 description: Use the IntelliTrace stand-alone collector to collect data without installing Visual Studio and without changing the target system's environment.
-ms.custom: SEO-VS-2020
-ms.date: "07/30/2019"
+ms.date: "03/21/2023"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.historicaldebug.collectdataoutsideVS"
@@ -18,15 +17,12 @@ ms.workload:
 ---
 # Using the IntelliTrace stand-alone collector (C#, Visual Basic)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnostic data for your apps on production servers or other environments without installing Visual Studio on the target machine and without changing the target system's environment. The IntelliTrace stand-alone collector works on web, SharePoint, WPF and Windows Forms apps. When you're done collecting data, just delete the collector to uninstall it.
 
- Watch IntelliTrace in action: [Collecting and analyzing IntelliTrace data in production for debugging (Channel 9 video)](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Collecting-and-analyzing-data-in-production)
-
 > [!NOTE]
-> You can also collect the same IntelliTrace data for web and SharePoint apps running on remote machines by using the **Microsoft Monitoring Agent** in **Trace** mode.
->
-> You can collect performance-related events in the IntelliTrace data by running the agent in **Monitor** mode. **Monitor** mode has less of a performance impact than **Trace** mode or the **IntelliTrace stand-alone collector**. Microsoft Monitoring Agent does alter the target system's environment when it is installed. See [Using the Microsoft Monitoring Agent](../debugger/using-the-microsoft-monitoring-agent.md).
-> The IntelliTrace stand-alone collector does not support Process Snapshots.
+> For recommended approaches to diagnosing issues on production servers, see [Diagnose problems after deployment](../debugger/diagnose-problems-after-deployment.md).
 
  **Requirements**
 
@@ -77,7 +73,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
 1. On your app's server, create the collector directory, for example: **C:\IntelliTraceCollector**
 
-2. Get the collector from the [Microsoft Download Center](https://visualstudio.microsoft.com/downloads/#intellitrace-standalone-collector-for-visual-studio-2019), [my.visualstudio.com](https://my.visualstudio.com/Downloads?q=intellitrace%20standalone%20collector%20visual%20studio%202017), or from the Visual Studio 2013 Update 3 installation folder. [IntelliTrace Collector for Visual Studio 2013 Update 4](https://www.microsoft.com/download/details.aspx?id=44909)::
+2. Get the collector from the [Microsoft Download Center](https://visualstudio.microsoft.com/downloads/#intellitrace-standalone-collector-for-visual-studio-2022), [my.visualstudio.com](https://my.visualstudio.com/Downloads?q=intellitrace%20standalone%20collector%20visual%20studio%202022), or from the Visual Studio installation folder.
 
    - **Microsoft Download Center** or **my.visualstudio.com**:
 
@@ -93,7 +89,7 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 
      1. Copy IntelliTraceCollection.cab from the folder where the collector is installed, for example:
 
-          **..\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace**
+          **..\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace**
 
           or, for previous versions of Visual Studio:
 
@@ -397,5 +393,3 @@ You can get IntelliTrace data from an IntelliTrace debugging session in Visual S
 ### Forums
  [Visual Studio Debugger](https://social.msdn.microsoft.com/Forums/en-US/home)
 
-### Videos
- [Channel 9 video: Collecting and analyzing IntelliTrace data](https://channel9.msdn.com/Series/Visual-Studio-2012-Premium-and-Ultimate-Overview/Visual-Studio-Ultimate-2012-Collecting-and-analyzing-data-in-production)

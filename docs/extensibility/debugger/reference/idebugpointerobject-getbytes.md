@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPointerObject::GetBytes method
 ms.assetid: e986c188-87fb-4b51-86e9-ee6a0035bdab
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugPointerObject::GetBytes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the value pointed to as a series of consecutive bytes.
 
 ## Syntax
 
-```cpp
-HRESULT GetBytes( 
-   DWORD  dwStart,
-   DWORD  dwCount,
-   BYTE*  pBytes,
-   DWORD* pdwBytes
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetBytes(
    uint       dwStart,
@@ -40,6 +34,16 @@ int GetBytes(
    out uint   pdwBytes
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetBytes( 
+   DWORD  dwStart,
+   DWORD  dwCount,
+   BYTE*  pBytes,
+   DWORD* pdwBytes
+);
+```
+---
 
 ## Parameters
 `dwStart`\

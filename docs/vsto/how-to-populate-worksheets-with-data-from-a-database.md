@@ -1,7 +1,6 @@
 ---
 title: "How to: Populate worksheets with data from a database"
 description: Learn how you can use the data from an object in your solution, and how you can use Windows Forms controls to display the data in a worksheet.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -19,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Populate worksheets with data from a database
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can access data in document-level Office projects in the same way that you access data in Windows Forms projects. You use the same tools and code to bring the data into your solution, and you can even use Windows Forms controls to display the data. In addition, you can take advantage of controls called host controls, which are native objects in Microsoft Office Excel that have been enhanced with events and data-binding capability. For more information, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).
 

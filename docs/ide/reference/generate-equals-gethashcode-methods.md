@@ -1,7 +1,6 @@
 ---
 title: Generate C# Equals and GetHashCode Method Overrides
 description: Learn how to use the Quick Actions and Refactorings menu to generate Equals and GetHashCode methods.
-ms.custom: SEO-VS-2020
 ms.date: 03/08/2021
 ms.topic: reference
 author: TerryGLee
@@ -12,6 +11,8 @@ ms.workload:
 - dotnet
 ---
 # Generate Equals and GetHashCode method overrides in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This code generation applies to:
 

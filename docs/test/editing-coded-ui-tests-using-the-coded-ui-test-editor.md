@@ -1,7 +1,6 @@
 ---
 title: Editing Coded UI Tests
 description: Learn to use the Coded UI Test Editor to locate, view, and edit your test methods and UI actions. Use UI control map to view and edit corresponding controls.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -16,6 +15,8 @@ ms.workload:
 author: mikejo5000
 ---
 # Edit coded UI tests using the Coded UI Test Editor
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Coded UI Test Editor lets you easily modify your coded UI tests. Using the Coded UI Test Editor, you can locate, view, and edit the properties of your test methods and UI actions. In addition, you can use the UI control map to view and edit their corresponding controls.
 

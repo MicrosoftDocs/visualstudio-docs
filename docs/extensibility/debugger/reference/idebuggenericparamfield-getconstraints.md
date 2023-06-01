@@ -7,8 +7,8 @@ helpviewer_keywords:
 - IDebugGenericParamField::GetConstraints
 - GetConstraints
 ms.assetid: 86a78b5a-ee0f-4999-a0ba-919d3dc7d969
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,18 +18,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugGenericParamField::GetConstraints
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the constraints that are associated with this generic parameter.
 
 ## Syntax
 
-```cpp
-HRESULT GetConstraints(
-    ULONG32       cConstraints,
-    IDebugField** ppConstraints,
-    ULONG32*      pcConstraints
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetConstraints(
     uint              cConstraints,
@@ -37,6 +32,15 @@ int GetConstraints(
     ref uint          pcConstraints
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetConstraints(
+    ULONG32       cConstraints,
+    IDebugField** ppConstraints,
+    ULONG32*      pcConstraints
+);
+```
+---
 
 ## Parameters
 `cConstraints`\

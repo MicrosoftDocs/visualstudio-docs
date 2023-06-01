@@ -1,7 +1,6 @@
 ---
 title: "Architecture of Office solutions in Visual Studio"
 description: Learn about solutions created by using the Microsoft Office developer tools in Visual Studio and how they work.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: 08/14/2019
 ms.topic: conceptual
@@ -20,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Architecture of Office solutions in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The topics in this section provide information about how solutions created by using the Office developer tools in Visual Studio work.
 
 [!include[Add-ins note](includes/addinsnote.md)]

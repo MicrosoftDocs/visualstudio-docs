@@ -1,20 +1,21 @@
 ---
 title: Extend language service to support EditorConfig
 description: Learn about the changes to make to update a language service to support EditorConfig files. Replace a global language-specific option with a contextual option.
-ms.custom: SEO-VS-2020
 ms.date: 11/22/2017
 ms.topic: conceptual
 helpviewer_keywords:
 - editorconfig [extensibility]
 - editorconfig, supporting in a language service
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Supporting EditorConfig for your language service
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [EditorConfig](https://editorconfig.org/) files enable you to describe common text editor options, such as indent size, on a per-project basis. To learn more about Visual Studio's support for EditorConfig files, see [Create portable editor settings using EditorConfig](../ide/create-portable-custom-editor-options.md).
 

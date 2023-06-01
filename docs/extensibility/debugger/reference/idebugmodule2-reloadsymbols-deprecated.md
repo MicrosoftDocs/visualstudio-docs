@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugModule2::ReloadSymbols method
 ms.assetid: 0f9f0133-7d58-4cd9-a6ca-1141e095749d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugModule2::ReloadSymbols_Deprecated
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 OBSOLETE. DO NOT USE. Reloads the symbols for this module.
 
 ## Syntax
 
-```cpp
-HRESULT ReloadSymbols( 
-   LPCOLESTR pszUrlToSymbols,
-   BSTR*     pbstrDebugMessage
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int ReloadSymbols( 
    string     pszUrlToSymbols,
    out string pbstrDebugMessage
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT ReloadSymbols( 
+   LPCOLESTR pszUrlToSymbols,
+   BSTR*     pbstrDebugMessage
+);
+```
+---
 
 ## Parameters
 `pszUrlToSymbols`\

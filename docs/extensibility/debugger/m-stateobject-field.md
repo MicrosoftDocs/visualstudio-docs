@@ -6,14 +6,16 @@ ms.topic: reference
 helpviewer_keywords:
 - m_stateObject field, Task class [.NET Framework debug engines]
 ms.assetid: 68c54b22-3e1c-4031-b9c7-b972c519d8a0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # m_stateObject field
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 An object that represents data that the action will use.
 
  **Namespace:** <xref:System.Threading.Tasks?displayProperty=fullName>

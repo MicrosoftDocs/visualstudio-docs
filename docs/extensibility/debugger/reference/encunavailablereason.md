@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - EncUnavailableReason enumeration
 ms.assetid: c10aa4c0-d7e0-4de1-b8ff-7e050985eb12
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,25 @@ dev_langs:
 - CSharp
 ---
 # EncUnavailableReason
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 `This is for internal use only!` Represents the reasons that **Edit and Continue** is not available.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum EncUnavailableReason {
+    ENCUN_NONE,
+    ENCUN_INTEROP,
+    ENCUN_SQLCLR,
+    ENCUN_MINIDUMP,
+    ENCUN_EMBEDDED,
+    ENCUN_ATTACH,
+    ENCUN_WIN64
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum tagEncUnavailableReason {
     ENCUN_NONE,
@@ -35,18 +50,7 @@ enum tagEncUnavailableReason {
 };
 typedef enum tagEncUnavailableReason EncUnavailableReason;
 ```
-
-```csharp
-public enum EncUnavailableReason {
-    ENCUN_NONE,
-    ENCUN_INTEROP,
-    ENCUN_SQLCLR,
-    ENCUN_MINIDUMP,
-    ENCUN_EMBEDDED,
-    ENCUN_ATTACH,
-    ENCUN_WIN64
-};
-```
+---
 
 ## Fields
 `ENCUN_NONE`\

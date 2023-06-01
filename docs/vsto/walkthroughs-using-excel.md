@@ -1,7 +1,6 @@
 ---
 title: "Walkthroughs using Excel"
 description: Learn how you can use document-level customizations and VSTO Add-ins to automate Microsoft Excel. You can also customize the user interface (UI).
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,6 +17,8 @@ ms.workload:
   - "office"
 ---
 # Walkthroughs using Excel
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The following walkthroughs demonstrate ways you can use document-level customizations and VSTO Add-ins to automate Microsoft Office Excel and customize the user interface (UI).
 
 ## Document-level walkthroughs

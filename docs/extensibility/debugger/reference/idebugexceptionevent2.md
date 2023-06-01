@@ -8,14 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExceptionEvent2 interface
 ms.assetid: 53d32e59-a84b-4710-833e-c5ab08100516
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # IDebugExceptionEvent2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The debug engine (DE) sends this interface to the session debug manager (SDM) when an exception is thrown in the program currently being executed.
 
 ## Syntax

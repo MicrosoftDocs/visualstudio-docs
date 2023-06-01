@@ -1,7 +1,6 @@
 ---
 title: Extending Properties and the Property Window | Microsoft Docs
 description: Learn about extending properties in the Properties window, which is used to view and edit the design-time properties and events of selected objects.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -11,14 +10,16 @@ helpviewer_keywords:
 - SelectionContainer class
 - SelectableObjects property
 ms.assetid: 1e925025-3d21-4cdb-a917-78db7bb78fe9
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Extend properties and the Property window
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Properties** window is used to view and edit the design-time properties and events of selected objects.
 
  When you select an object in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the public properties of that object appear in the **Properties** window. For more information, see [Properties window overview](../extensibility/internals/properties-window-overview.md).

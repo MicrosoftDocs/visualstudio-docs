@@ -1,7 +1,6 @@
 ---
 title: Model Editor
 description: Learn how to work with the Visual Studio Model Editor to view, create, and modify 3D models from scratch or more-complex 3D models created by modeling tools.
-ms.custom: SEO-VS-2020
 ms.date: 04/12/2018
 ms.topic: conceptual
 f1_keywords:
@@ -16,6 +15,8 @@ ms.workload:
 - multiple
 ---
 # Model editor
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This document describes how to work with the Visual Studio **Model Editor** to view, create, and modify 3D models.
 

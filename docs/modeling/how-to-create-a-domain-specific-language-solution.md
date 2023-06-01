@@ -1,7 +1,6 @@
 ---
 title: 'How to: Create a Domain-Specific Language Solution'
 description: Learn how to create a domain-specific language (DSL) by using a specialized Visual Studio solution.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # How to: Create a Domain-Specific Language Solution
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A domain-specific language (DSL) is created by using a specialized Visual Studio solution.
 
 ## Prerequisites
@@ -36,12 +37,6 @@ Before you can start this procedure, install these components:
 
    > [!NOTE]
    > Preferably, the name that you choose for the project should be a valid Visual C# identifier because it might be used to generate code.
-
-   ::: moniker range="vs-2017"
-
-   ![Create DSL dialog](../modeling/media/create_dsldialog.png)
-
-   ::: moniker-end
 
 2. Choose a DSL template.
 

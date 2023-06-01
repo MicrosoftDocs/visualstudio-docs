@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - METADATA_ADDRESS_RETVAL structure
 ms.assetid: 5b0ec0fb-84b3-4ce7-8e24-becf3d881d7d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # METADATA_ADDRESS_RETVAL
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure represents a return value from a method or function.
 
 ## Syntax
 
-```cpp
-typedef struct _tagMETADATA_ADDRESS_RETVAL {
-   _mdToken tokMethod;
-   DWORD    dwCorType;
-   DWORD    dwSigSize;
-   BYTE     rgSig[10];
-} METADATA_ADDRESS_RETVAL;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct METADATA_ADDRESS_RETVAL {
    public int    tokMethod;
@@ -40,6 +34,16 @@ public struct METADATA_ADDRESS_RETVAL {
    public byte[] rgSig;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagMETADATA_ADDRESS_RETVAL {
+   _mdToken tokMethod;
+   DWORD    dwCorType;
+   DWORD    dwSigSize;
+   BYTE     rgSig[10];
+} METADATA_ADDRESS_RETVAL;
+```
+---
 
 ## Members
  `tokMethod`\

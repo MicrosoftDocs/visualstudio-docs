@@ -1,7 +1,6 @@
 ---
 title: "BasicType | Microsoft Docs"
 description: Find reference information about the BasicType enumeration, which specifies a symbol's basic type in the Visual Studio debug interface access SDK.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -17,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # BasicType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the symbol's basic type.
 
 ## Syntax
@@ -43,6 +44,7 @@ enum BasicType {
     btHresult  = 31,
     btChar16   = 32,  // char16_t
     btChar32   = 33,  // char32_t
+    btChar8    = 34   // char8_t
 };
 ```
 

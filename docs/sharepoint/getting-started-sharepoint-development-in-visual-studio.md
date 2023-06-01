@@ -2,7 +2,6 @@
 title: "Getting Started (SharePoint Development in Visual Studio) | Microsoft Docs"
 titleSuffix: ""
 description: Get started with SharePoint development in Visual Studio. SharePoint offers a web-based collaboration platform.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 dev_langs:
@@ -21,6 +20,8 @@ ms.workload:
 ---
 # Get started (SharePoint development in Visual Studio)
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
   This section helps you start working with [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] to develop SharePoint solutions that take advantage of [!INCLUDE[wss_14_short](../sharepoint/includes/wss-14-short-md.md)] and [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)].
 
  For information about SharePoint add-ins, see [Build SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
@@ -31,7 +32,7 @@ ms.workload:
 
 |Topic|Description|
 |-----------|-----------------|
-|[Additional information for SharePoint errors](../sharepoint/additional-information-for-sharepoint-errors.md)|Describes where to find help during SharePoint development and troubleshooting.|
+|[Additional information for SharePoint errors](troubleshooting-sharepoint-solutions.md)|Describes where to find help during SharePoint development and troubleshooting.|
 
 ## Related sections
 

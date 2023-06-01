@@ -1,16 +1,14 @@
 ---
 title: Manage application resources (.NET)
-description: Learn how to manage application resources files that are not part of the compilation process. 
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+description: Learn how to manage application resources files that are not part of the compilation process.
+ms.custom: engagement-fy23
+ms.date: 01/31/2023
 ms.topic: conceptual
 f1_keywords:
 - msvse_resedit.dlg.SetCustomTool
-- msvse_settingsdesigner.err.formatvalue
-- msvse_resedit.err.nameblank
-- msvse_resedit.err.duplicatename
 helpviewer_keywords:
 - Resource Designer
+- Resource Editor
 - resources [Visual Studio]
 - Resources page in Project Designer
 - application resources [Visual Studio]
@@ -22,6 +20,8 @@ ms.workload:
 - multiple
 ---
 # Manage application resources (.NET)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Resource files are files that are part of an application but are not compiled, for example icon files or audio files. Since these files are not part of the compilation process, you can change them without having to recompile your binaries. If you are planning to localize your application, you should use resource files for all the strings and other resources that need to be changed when you localize your application.
 
@@ -36,7 +36,7 @@ In a managed code project, open the project properties window. You can open the 
 
 - Right-clicking the project node in **Solution Explorer** and selecting **Properties**
 - Typing **project properties** in the **Ctrl**+**Q** search box
-- Choosing **Alt**+**Enter** in **Solution Explorer**
+- Pressing **Alt**+**Enter** in **Solution Explorer**
 
 Select the **Resources** tab. You can add a *.resx* file if your project does not contain one already, add and delete different kinds of resources, and modify existing resources.
 
@@ -46,6 +46,10 @@ Resources are managed differently in .NET projects than in other project types. 
 
 - Universal Windows Platform (UWP) apps, see [App resources and the Resource Management System](/windows/uwp/app-resources/)
 - C++ projects, see [Work with resource files](/cpp/windows/working-with-resource-files) and [How to: Create a resource](/cpp/windows/how-to-create-a-resource)
+
+## Support options
+
+If you run into a problem with managing application resources, see [Troubleshoot errors in the Resource Editor](troubleshoot-resource-editor-errors.md).
 
 ## See also
 

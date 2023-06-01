@@ -1,41 +1,30 @@
 ---
 title: Data Science and Analytical Applications workload
 description: This Visual Studio workload brings together Python, F#, and their respective runtime distributions including Anaconda. (R is also included in Visual Studio 2017 only.)
-ms.date: 07/28/2021
+ms.date: 1/5/2023
 ms.topic: overview
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 ms.workload:
   - python
   - data-science
 ---
-
 # Install data science support in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Data Science and Analytical Applications workload, which you select and install through the Visual Studio installer, brings together several languages and their respective runtime distributions:
 
-::: moniker range="vs-2017"
-- [Python and Anaconda](../python/overview-of-python-tools-for-visual-studio.md)
-- [F# with the .NET framework](/dotnet/fsharp/)
-- [R and Microsoft R Client](../rtvs/index.md)
-::: moniker-end
-
 ::: moniker range="vs-2019"
 - [Python](../python/overview-of-python-tools-for-visual-studio.md)
-- [F# with the .NET framework](/dotnet/fsharp/)
+- [F# with the .NET Framework](/dotnet/fsharp/)
 ::: moniker-end
 
 ![Data Science and Analytics Applications workload in the Visual Studio installer](media/workload/data-science-workload.png)
 
-::: moniker range="vs-2017"
-Python and R are two of the primary scripting languages used for data science. Both languages are easy to learn and are supported by a rich ecosystem of packages. Those packages address a wide range of scenarios such as data acquisition, cleaning, model training, deployment, and plotting. F# is also a powerful functional-first .NET language that’s suited for a wide variety of data processing tasks.
-::: moniker-end
-
-::: moniker range=">=vs-2019"
 Python is a primary scripting language used for data science. Python is easy to learn and is supported by a rich ecosystem of packages. Those packages address a wide range of scenarios such as data acquisition, cleaning, model training, deployment, and plotting. F# is also a powerful functional-first .NET language that's suited for a wide variety of data processing tasks.)
-::: moniker-end
 
 <!--Note link on the image because this one is large -->
 [![Screenshots of Visual Studio with R, Python, and F#](media/workload/data-science-workload-screens.png)](media/workload/data-science-workload-screens.png#lightbox)
@@ -44,35 +33,16 @@ Python is a primary scripting language used for data science. Python is easy to 
 
 By default, the workload installs the following options, which you can modify in the summary section for the workload in the Visual Studio installer:
 
-::: moniker range=">=vs-2019"
 - F# desktop language support
 - Python:
   - Python language support
   - Python web support
-::: moniker-end
+  - Python native development tools
 
-::: moniker range="vs-2017"
-- F# language support
-- Python:
-  - Python language support
-  - [Anaconda3 64-bit](https://anaconda.com), a Python distro that includes extensive data science libraries and a Python interpreter.
-  - Python web support
-  - Cookiecutter template support
-- R:
-  - R language support
-  - Runtime support for R development tools
-  - [Microsoft R Client](/machine-learning-server/r-client/what-is-microsoft-r-client) (Microsoft’s fully compatible, community-supported R interpreter with ScaleR libraries for faster computation on single nodes or clusters. You can also use any R from [CRAN](https://cran.r-project.org/).)
-::: moniker-end
 
 ## SQL Server integration
 
-::: moniker range="vs-2017"
-SQL Server supports using both Python and R to do advanced analytics directly inside SQL Server. R support is included with SQL Server 2016 and later; Python support is available in SQL Server 2017 CTP 2.0 and later.
-::: moniker-end
-
-::: moniker range=">=vs-2019"
 SQL Server supports using Python to do advanced analytics directly inside SQL Server. Python support is available in SQL Server 2017 CTP 2.0 and later.
-::: moniker-end
 
 You enjoy the following advantages by running your code where your data already lives:
 
@@ -92,10 +62,6 @@ To take full advantage of SQL Server integration, use the Visual Studio installe
 
 For more information:
 
-::: moniker range="vs-2017"
-- [Work with SQL Server and R](../rtvs/integrating-sql-server-with-r.md)
-- [In-database Advanced Analytics with R in SQL Server 2016 (blog)](https://blogs.technet.microsoft.com/dataplatforminsider/2016/03/29/in-database-advanced-analytics-with-r-in-sql-server-2016/)
-::: moniker-end
 - [Python in SQL Server 2017: enhanced in-database machine learning (blog)](https://blogs.technet.microsoft.com/dataplatforminsider/2017/04/19/python-in-sql-server-2017-enhanced-in-database-machine-learning/)
 
 ## Additional services and SDKs

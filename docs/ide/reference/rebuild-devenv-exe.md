@@ -1,7 +1,6 @@
 ---
 title: -Rebuild (devenv.exe)
 description: Learn how to use the Rebuild devenv command-line switch to clean and then build the specified solution configuration.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:
@@ -19,6 +18,8 @@ ms.workload:
 - multiple
 ---
 # /Rebuild (devenv.exe)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Cleans and then builds the specified solution configuration.
 

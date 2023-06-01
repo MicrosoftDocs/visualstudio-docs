@@ -2,7 +2,6 @@
 title: Globalization Rules rule set for managed code
 ms.date: 11/04/2016
 description: Learn about the Globalization Rules rule set in Visual Studio, which focuses on problems related to languages, locales, and cultures. See rule descriptions.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 ms.assetid: 3c4032ee-0805-4581-8c48-b1827cd6b213
 author: mikejo5000
@@ -13,6 +12,8 @@ ms.workload:
 - dotnet
 ---
 # Globalization Rules rule set for managed code
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the Microsoft Globalization Rules rule set to focus on problems that might prevent data in your application from appearing correctly in different languages, locales, and cultures. You should include this rule set if your application is localized, globalized, or both.
 

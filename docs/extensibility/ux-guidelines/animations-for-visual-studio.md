@@ -1,18 +1,19 @@
 ---
 title: Animations for Visual Studio | Microsoft Docs
 description: Learn about rules that help ensure consistent and user-friendly animation styles across the Visual Studio IDE.
-ms.custom: SEO-VS-2020
 ms.date: 04/26/2017
 ms.topic: reference
 ms.assetid: 446773a9-e6f7-4c0c-8dbc-9e303bf32eb1
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Animations for Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## Animation fundamentals
 
 ### Animation best practices in Visual Studio

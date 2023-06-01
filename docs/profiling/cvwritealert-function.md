@@ -1,7 +1,6 @@
 ---
 title: CvWriteAlert Function | Microsoft Docs
 description: See reference information for the Concurrency Visualizer SDK function CvWriteAlert (C library).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
@@ -23,6 +22,8 @@ ms.workload:
   - multiple
 ---
 # CvWriteAlert function
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Writes an alert to the Concurrency Visualizer trace file.
 
 ## Syntax

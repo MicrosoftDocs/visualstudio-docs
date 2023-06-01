@@ -1,7 +1,6 @@
 ---
 title: Set custom permissions (ClickOnce app)
 description: Learn how to deploy a ClickOnce application that uses default permissions or create a custom zone for the specific permissions that the application needs.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -20,7 +19,11 @@ ms.workload:
   - multiple
 ---
 # How to: Set custom permissions for a ClickOnce application
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can deploy a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application that uses default permissions for the Internet or Local Intranet zones. Alternatively, you can create a custom zone for the specific permissions that the application needs. You can do this by customizing the security permissions on the **Security** page of the **Project Designer**.
+
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-task-unsupported.md)]
 
 ### To customize a permission
 

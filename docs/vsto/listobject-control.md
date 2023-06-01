@@ -1,7 +1,6 @@
 ---
 title: "ListObject control"
 description: The ListObject control is a list that exposes events and can be bound to data. Also, you can add ListObject controls to a worksheet at design time or at run time.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -23,6 +22,8 @@ ms.workload:
   - "office"
 ---
 # ListObject control
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Tools.Excel.ListObject> control is a list that exposes events and can be bound to data. When you add a list to a worksheet, Visual Studio creates a <xref:Microsoft.Office.Tools.Excel.ListObject> control that you can program against directly without having to traverse the Microsoft Office Excel object model.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]

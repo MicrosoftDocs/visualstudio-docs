@@ -1,7 +1,6 @@
 ---
 title: Add or remove imported namespaces (Visual Basic)
 description: Learn how to add or remove imported namespaces and add or remove user imports.
-ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
 ms.topic: how-to
 helpviewer_keywords:
@@ -19,6 +18,8 @@ ms.workload:
 - multiple
 ---
 # How to: Add or remove imported namespaces (Visual Basic)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Importing a namespace allows you to use elements from that namespace in your code without fully qualifying the element. For example, if you want to access the `Create` method in the `System.Messaging.MessageQueue` class, you can import the `System.Messaging` namespace and just refer to the element you need in code as `MessageQueue.Create`.
 

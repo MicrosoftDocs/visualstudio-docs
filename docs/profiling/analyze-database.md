@@ -1,18 +1,19 @@
 ---
 title: "Analyze database usage for .NET Core projects | Microsoft Docs"
 description: Use the Database tool to record your app's database queries, then analyze them to find ways to improve performance.
-ms.custom: SEO-VS-2020
 ms.date: "5/5/2020"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "database, profiling"
-author: "esteban-herrera"
-ms.author: "esherrer"
-manager: AndSter
+author: mikejo5000
+ms.author: mikejo
+manager: jmartens
 ms.workload:
   - "multiple"
 ---
 # Analyze database performance using the Database tool
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Use the Database tool to record the database queries that your app makes during a diagnostic session. You can then analyze information about individual queries to find places to improve your app's performance.
 
@@ -51,3 +52,5 @@ If you select a time range on a graph, the query table shows only queries that o
 ## See also
 
 - [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md)
+- [Identify hot paths with Flame Graph](../profiling/flame-graph.md)
+- [Use File IO](../profiling/use-file-io.md)

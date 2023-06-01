@@ -2,14 +2,13 @@
   href: index.yml
 - name: Overview
   items:
-    - name: Overview of Python support
-      href: overview-of-python-tools-for-visual-studio.md
-    - name: Tour the Visual Studio IDE
-      href: visual-studio-ide.md
-    - name: Data science and analytical applications workload
-      href: data-science-and-analytical-applications-workload.md
+  - name: Overview of Python support
+    href: overview-of-python-tools-for-visual-studio.md
+  - name: Tour the Visual Studio IDE
+    href: visual-studio-ide.md
+  - name: Data science and analytical applications workload
+    href: data-science-and-analytical-applications-workload.md
 - name: Installation
-# Auto-expanded node
   items:
   - name: Installation
     href: installing-python-support-in-visual-studio.md
@@ -60,8 +59,6 @@
       href: learn-django-in-visual-studio-step-04-full-django-project-template.md
     - name: 5 - Authenticate users
       href: learn-django-in-visual-studio-step-05-django-authentication.md
-    - name: 6 - Use the Polls Django Web Project template
-      href: learn-django-in-visual-studio-step-06-polls-django-web-project-template.md
   - name: Learn Flask in Visual Studio
     items:
     - name: 1 - Create a project and solution
@@ -73,7 +70,6 @@
 - name: Concepts
   items:
   - name: Python projects
-# Auto-expanded node
     items:
     - name: Python projects
       href: managing-python-projects-in-visual-studio.md
@@ -86,7 +82,6 @@
 - name: How-to guides
   items:
   - name: Manage Python environments
-# Auto-expanded node
     items:
     - name: Manage Python environments
       href: managing-python-environments-in-visual-studio.md
@@ -101,7 +96,6 @@
     - name: Configure web apps for IIS
       href: configure-web-apps-for-iis-windows.md
   - name: Edit Python code
-# Auto-expanded node
     items:
     - name: Edit Python code
       href: editing-python-code-in-visual-studio.md
@@ -114,21 +108,17 @@
   - name: Define custom menu commands
     href: defining-custom-python-project-commands.md
   - name: Interactive Python (REPL)
-# Auto-expanded node
     items:
     - name: Interactive Python (REPL)
       href: python-interactive-repl-in-visual-studio.md
     - name: Using IPython REPL
       href: interactive-repl-ipython.md
   - name: Debugging
-# Auto-expanded node
     items:
     - name: Debugging
       href: debugging-python-in-visual-studio.md
     - name: Debugging code on remote Linux computers
       href: debugging-python-code-on-remote-linux-machines.md
-  - name: Publishing to Azure App Service on Linux
-    href: publishing-python-web-applications-to-azure-from-visual-studio.md
   - name: Interacting with C++
     items:
     - name: Creating a C++ extension for Python

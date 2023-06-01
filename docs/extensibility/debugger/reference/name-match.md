@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - NAME_MATCH enumeration
 ms.assetid: 3842c417-a3c9-4259-a05f-52b64b829ef6
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # NAME_MATCH
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Selects the case option for matching names.
 
 ## Syntax
 
-```cpp
-typedef enum { 
-   nmNone            = 0,
-   nmCaseSensitive   = 1,
-   nmCaseInsensitive = 2
-} NAME_MATCH;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public enum NameMatchOptions { 
    nmNone            = 0,
@@ -38,6 +33,15 @@ public enum NameMatchOptions { 
    nmCaseInsensitive = 2
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef enum { 
+   nmNone            = 0,
+   nmCaseSensitive   = 1,
+   nmCaseInsensitive = 2
+} NAME_MATCH;
+```
+---
 
 ## Fields
  `nmNone`\

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortEx2::GetPortProcessId
 ms.assetid: be85be66-47e6-415f-b0ca-24599aa5f13c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortEx2::GetPortProcessId
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the process ID of the port itself.
 
 ## Syntax
 
-```cpp
-HRESULT GetPortProcessId ( 
-   DWORD* pdwProcessId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPortProcessId ( 
    out uint pdwProcessId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPortProcessId ( 
+   DWORD* pdwProcessId
+);
+```
+---
 
 ## Parameters
 `pdwProcessId`\

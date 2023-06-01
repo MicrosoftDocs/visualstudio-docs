@@ -6,14 +6,16 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugPortSupplierLocale2 interface
 ms.assetid: 910e7220-da2a-4339-9fff-9fb1bad3c28c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # IDebugPortSupplierLocale2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Provides locale support for a port supplier.
 
 ## Syntax

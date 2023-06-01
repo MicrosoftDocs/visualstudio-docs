@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugFunctionObject::Evaluate method
 ms.assetid: 29349ea3-d5c1-4135-aa76-ced073ab9683
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugFunctionObject::Evaluate
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Calls the function and returns the resulting value as an object.
 
 ## Syntax
 
-```cpp
-HRESULT Evaluate( 
-   IDebugObject** ppParams,
-   DWORD          dwParams,
-   DWORD          dwTimeout,
-   IDebugObject** ppResult
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Evaluate(
    IDebugObject[]   ppParams,
@@ -40,6 +34,16 @@ int Evaluate(
    out IDebugObject ppResult
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Evaluate( 
+   IDebugObject** ppParams,
+   DWORD          dwParams,
+   DWORD          dwTimeout,
+   IDebugObject** ppResult
+);
+```
+---
 
 ## Parameters
 `ppParams`\

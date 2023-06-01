@@ -1,7 +1,6 @@
 ---
 title: "&lt;description&gt; Element (ClickOnce Deployment) | Microsoft Docs"
 description: The description element identifies application information used to create a shell presence and an Add or Remove Programs item in Control Panel.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -21,6 +20,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;description&gt; element (ClickOnce deployment)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Identifies application information used to create a shell presence and an **Add or Remove Programs** item in Control Panel.
 
 ## Syntax

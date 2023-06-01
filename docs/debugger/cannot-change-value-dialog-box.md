@@ -1,9 +1,8 @@
 ---
 title: "Cannot Change Value Dialog Box | Microsoft Docs"
 description: Review the Cannot Change Value dialog box, which appears in Visual Studio if you try to change a variable to an illegal value in a debugger window or QuickWatch.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "reference"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.variables.failededit"
 dev_langs:
@@ -23,6 +22,8 @@ ms.workload:
   - "multiple"
 ---
 # Cannot Change Value Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## Error
  `The value of this variable cannot be changed` &#124; `The name` *name* `does not exist in the current context` &#124; *various other messages*
 

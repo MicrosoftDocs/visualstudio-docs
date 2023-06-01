@@ -1,7 +1,6 @@
 ---
 title: "Dump File Summary Extensibility API | Microsoft Docs"
 description: Use the dump file summary extensibility API to extend the .exe project system and Dump Summary page to work with your own custom debug engine in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,6 +17,8 @@ ms.workload:
   - "multiple"
 ---
 # Dump File Summary Extensibility API
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Using the extensibility APIs in this section, you can extend the .Exe Project System and the **Dump Summary** page for use with your own custom debug engine.
 
 ## In This Section

@@ -10,10 +10,23 @@ items:
     href: what-s-new-in-msbuild-15-0.md
   - name: Change waves
     href: change-waves.md
+  - name: Tutorials
+    expanded: true
+    items:
+    - name: 'Use MSBuild'
+      href: walkthrough-using-msbuild.md
+    - name: 'Create an MSBuild project file from scratch'
+      href: walkthrough-creating-an-msbuild-project-file-from-scratch.md
+    - name: Create a custom task for code generation
+      href: tutorial-custom-task-code-generation.md
+    - name: Create a REST API client in a build
+      href: tutorial-rest-api-client-msbuild.md
+    - name: Test a custom task
+      href: tutorial-test-custom-task.md
   - name: MSBuild concepts
     items:
     - name: Overview
-      displayName: "msbuild concepts"
+      displayName: msbuild concepts
       href: msbuild-concepts.md
     - name: How MSBuild builds projects
       href: build-process-overview.md
@@ -69,6 +82,8 @@ items:
         href: msbuild-tasks.md
       - name: Task writing
         href: task-writing.md
+      - name: Formats for errors and warnings
+        href: msbuild-diagnostic-format-for-tasks.md
       - name: Ignore errors in tasks
         href: how-to-ignore-errors-in-tasks.md
       - name: Build a project that has resources
@@ -77,7 +92,7 @@ items:
         items:
         - name: MSBuild inline tasks
           href: msbuild-inline-tasks.md
-        - name: "Walkthrough: Creating an inline task"
+        - name: 'Walkthrough: Creating an inline task'
           href: walkthrough-creating-an-inline-task.md
       - name: MSBuild inline tasks with RoslynCodeTaskFactory
         href: msbuild-roslyncodetaskfactory.md
@@ -93,8 +108,6 @@ items:
         href: how-to-use-reserved-xml-characters-in-project-files.md
   - name: Advanced concepts
     items:
-    - name: MSBuild advanced concepts
-      href: msbuild-advanced-concepts.md
     - name: Batching
       items:
       - name: MSBuild batching
@@ -105,6 +118,8 @@ items:
         href: item-metadata-in-target-batching.md
     - name: MSBuild transforms
       href: msbuild-transforms.md
+    - name: MSBuild Server
+      href: msbuild-server.md
     - name: Visual Studio integration
       items:
       - name: Visual Studio integration (MSBuild)
@@ -123,6 +138,8 @@ items:
         href: using-multiple-processors-to-build-projects.md
       - name: Using memory efficiently when you build large projects
         href: using-memory-efficiently-when-you-build-large-projects.md
+      - name: Fix intermittent build failures
+        href: fix-intermittent-build-failures.md
     - name: Multitargeting
       items:
       - name: MSBuild multitargeting overview
@@ -146,39 +163,27 @@ items:
         - name: Configure targets and tasks
           href: how-to-configure-targets-and-tasks.md
       - name: Troubleshoot .NET Framework targeting errors
-        href: troubleshooting-dotnet-framework-targeting-errors.md
-    - name: File tracking
+        href: /troubleshoot/developer/visualstudio/project-build/troubleshooting-dotnet-framework-targeting-errors?toc=%2Fvisualstudio%2Fmsbuild%2Ftoc.json
+    - name: Customization
       items:
-      - name: Overview
-        displayName: "file tracking"
-        href: file-tracking.md
-      - name: EndTrackingContext
-        href: endtrackingcontext.md
-      - name: ResumeTracking
-        href: resumetracking.md
-      - name: SetThreadCount
-        href: setthreadcount.md
-      - name: StartTrackingContext
-        href: starttrackingcontext.md
-      - name: StartTrackingContextWithRoot
-        href: starttrackingcontextwithroot.md
-      - name: StopTrackingAndCleanup
-        href: stoptrackingandcleanup.md
-      - name: SuspendTracking
-        href: suspendtracking.md
-      - name: WriteAllTLogs
-        href: writealltlogs.md
-      - name: WriteContextTLogs
-        href: writecontexttlogs.md
-    - name: Customize your build
-      href: customize-your-build.md
+      - name: About customizing MSBuild
+        href: customize-your-build.md
+      - name: Customize builds by folder
+        href: customize-by-directory.md
+      - name: Customize your local build
+        href: customize-your-local-build.md
+      - name: Customize the solution build
+        href: customize-solution-build.md
+      - name: Customize all .NET builds
+        href: customize-net-builds.md
+      - name: Customize all C++ builds
+        href: customize-cpp-builds.md
+      - name: Handle code generation
+        href: customize-builds-for-generated-files.md
     - name: MSBuild best practices
       href: msbuild-best-practices.md
   - name: Logging
     items:
-    - name: Overview
-      displayName: logging
-      href: logging-in-msbuild.md
     - name: Obtaining build logs with MSBuild
       href: obtaining-build-logs-with-msbuild.md
     - name: Build loggers
@@ -189,19 +194,15 @@ items:
       href: writing-multi-processor-aware-loggers.md
     - name: Creating forwarding loggers
       href: creating-forwarding-loggers.md
-  - name: "Walkthrough: Using MSBuild"
-    href: walkthrough-using-msbuild.md
-  - name: "Walkthrough: Creating an MSBuild project file from scratch"
-    href: walkthrough-creating-an-msbuild-project-file-from-scratch.md
   - name: MSBuild reference
     items:
     - name: Overview
-      displayName: "msbuild reference"
+      displayName: msbuild reference
       href: msbuild-reference.md
     - name: MSBuild project file schema reference
       items:
       - name: Overview
-        displayName: "Project File Schema Reference"
+        displayName: Project File Schema Reference
         href: msbuild-project-file-schema-reference.md
       - name: Choose element
         href: choose-element-msbuild.md
@@ -250,12 +251,12 @@ items:
     - name: Task reference
       items:
       - name: Overview
-        displayName: "task reference"
+        displayName: task reference
         href: msbuild-task-reference.md
       - name: Tasks specific to C++
         items:
         - name: Overview
-          displayName: "C++ tasks"
+          displayName: C++ tasks
           href: msbuild-tasks-specific-to-visual-cpp.md
         - name: BscMake task
           href: bscmake-task.md
@@ -460,14 +461,14 @@ items:
     - name: WPF reference
       items:
       - name: Overview
-        displayName: "WPF MSBuild reference"
+        displayName: WPF MSBuild reference
         href: wpf-msbuild-reference.md
       - name: WPF .targets files
         href: wpf-dot-targets-files.md
       - name: WPF task reference
         items:
         - name: Overview
-          displayName: "WPF MSBuild task reference"
+          displayName: WPF MSBuild task reference
           href: wpf-msbuild-task-reference.md
         - name: FileClassifier task
           href: fileclassifier-task.md
@@ -491,36 +492,78 @@ items:
       href: special-characters-to-escape.md
     - name: Error messages
       items:
+      - name: MSB3021
+        href: errors/msb3021.md
+      - name: MSB3026
+        href: errors/msb3026.md
       - name: MSB3027
         href: errors/msb3027.md
+      - name: MSB3030
+        href: errors/msb3030.md
+      - name: MSB3041
+        href: errors/msb3041.md
+      - name: MSB3061
+        href: errors/msb3061.md
+      - name: MSB3073
+        href: errors/msb3073.md
       - name: MSB3075
         href: errors/msb3075.md
       - name: MSB3086
         href: errors/msb3086.md
+      - name: MSB3101
+        href: errors/msb3101.md
       - name: MSB3103
         href: errors/msb3103.md
       - name: MSB3190
         href: errors/msb3190.md
+      - name: MSB3191
+        href: errors/msb3191.md
+      - name: MSB3202
+        href: errors/msb3202.md
+      - name: MSB3243
+        href: errors/msb3243.md
+      - name: MSB3245
+        href: errors/msb3245.md
       - name: MSB3270
         href: errors/msb3270.md
+      - name: MSB3721
+        href: errors/msb3271.md
+      - name: MSB3231
+        href: errors/msb3231.md
+      - name: MSB3273
+        href: errors/msb3273.md
       - name: MSB3274
         href: errors/msb3274.md
       - name: MSB3275
         href: errors/msb3275.md
+      - name: MSB3276
+        href: errors/msb3276.md
       - name: MSB3277
         href: errors/msb3277.md
+      - name: MSB3284
+        href: errors/msb3284.md
+      - name: MSB3290
+        href: errors/msb3290.md
       - name: MSB3303
         href: errors/msb3303.md
       - name: MSB3304
         href: errors/msb3304.md
       - name: MSB3305
         href: errors/msb3305.md
+      - name: MSB3323
+        href: errors/msb3323.md
       - name: MSB3325
         href: errors/msb3325.md
       - name: MSB3326
         href: errors/msb3326.md
       - name: MSB3327
         href: errors/msb3327.md
+      - name: MSB3482
+        href: errors/msb3482.md
+      - name: MSB3491
+        href: errors/msb3491.md
+      - name: MSB3541
+        href: errors/msb3541.md
       - name: MSB3552
         href: errors/msb3552.md
       - name: MSB3553
@@ -535,6 +578,8 @@ items:
         href: errors/msb3645.md
       - name: MSB3721
         href: errors/msb3721.md
+      - name: MSB3774
+        href: errors/msb3774.md
       - name: MSB3821
         href: errors/msb3821.md
       - name: MSB3822
@@ -545,10 +590,28 @@ items:
         href: errors/msb3884.md
       - name: MSB3971
         href: errors/msb3971.md
+      - name: MSB4011
+        href: errors/msb4011.md
       - name: MSB4018
         href: errors/msb4018.md
+      - name: MSB4019
+        href: errors/msb4019.md
+      - name: MSB4024
+        href: errors/msb4024.md
+      - name: MSB4025
+        href: errors/msb4025.md
+      - name: MSB4030
+        href: errors/msb4030.md
+      - name: MSB4044
+        href: errors/msb4044.md
+      - name: MSB4057
+        href: errors/msb4057.md
       - name: MSB4062
         href: errors/msb4062.md
+      - name: MSB4064
+        href: errors/msb4064.md
+      - name: MSB4067
+        href: errors/msb4067.md
       - name: MSB4086
         href: errors/msb4086.md
       - name: MSB4094
@@ -561,12 +624,16 @@ items:
         href: errors/msb4175.md
       - name: MSB4181
         href: errors/msb4181.md
+      - name: MSB4184
+        href: errors/msb4184.md
       - name: MSB6001
         href: errors/msb6001.md
       - name: MSB6003
         href: errors/msb6003.md
       - name: MSB6004
         href: errors/msb6004.md
+      - name: MSB6006
+        href: errors/msb6006.md
       - name: MSB6011
         href: errors/msb6011.md
       - name: MSB8000
@@ -629,6 +696,20 @@ items:
         href: errors/msb8041.md
       - name: MSB8042
         href: errors/msb8042.md
+      - name: MSB8053
+        href: errors/msb8053.md
+      - name: MSB8054
+        href: errors/msb8054.md
+      - name: MSB8055
+        href: errors/msb8055.md
+      - name: MSB8056
+        href: errors/msb8056.md
+      - name: MSB8057
+        href: errors/msb8057.md
+      - name: MSB8058
+        href: errors/msb8058.md
+      - name: MSB8059
+        href: errors/msb8059.md
       - name: MSB8060
         href: errors/msb8060.md
       - name: MSB8061
@@ -638,9 +719,9 @@ items:
   - name: Use MSBuild programmatically
     items:
     - name: Overview
-      displayName: "Use MSBuild programmatically"
+      displayName: Use MSBuild programmatically
       href: msbuild-api.md
-    - name: Update to MSBuild 15
-      href: updating-an-existing-application.md
+    - name: Find and use a version of MSBuild
+      href: find-and-use-msbuild-versions.md
   - name: MSBuild glossary
     href: msbuild-glossary.md

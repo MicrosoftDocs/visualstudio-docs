@@ -1,8 +1,7 @@
 ---
 title: Learn how to test your code with Live Unit Test
 description: Learn to use Live Unit Testing by creating a simple class library that targets .NET Standard and creating an MSTest project that targets .NET Core to test it.
-ms.custom: SEO-VS-2020
-ms.date: 04/03/2020
+ms.date: 12/13/2021
 ms.topic: how-to
 helpviewer_keywords: 
   - Live Unit Testing
@@ -14,6 +13,8 @@ ms.workload:
   - dotnet
 ---
 # Get started with Live Unit Testing
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you enable Live Unit Testing in a Visual Studio solution, it visually depicts your test coverage and the status of your tests. Live Unit Testing also dynamically executes tests whenever you modify your code and immediately notifies you when your changes cause tests to fail.
 
@@ -35,34 +36,11 @@ The solution is just a container for one or more projects. To create a blank sol
 
 1. Type **solution** into the template search box, and then select the **Blank Solution** template. Name the project **UtilityLibraries**.
 
-   ::: moniker range="vs-2017"
-
-   ![The **New Project** dialog](./media/lut-start/new-solution.png)
-
-   ::: moniker-end
-
 1. Finish creating the solution.
 
 Now that you've created the solution, you'll create a class library named StringLibrary that contains a number of extension methods for working with strings.
 
 1. In **Solution Explorer**, right-click on the UtilityLibraries solution and select **Add** > **New Project**.
-
-::: moniker range="vs-2017"
-
-2. In the **Add New Project** dialog, select the C# node, then select **.NET Standard**.
-
-   > [!NOTE]
-   > Because our library targets .NET Standard rather than a particular .NET implementation, it can be called from any .NET implementation that supports that version of .NET Standard. For more information, see [.NET Standard](/dotnet/standard/net-standard).
-
-3. Select the **Class Library (.NET Standard)** template in the right pane, and enter **StringLibrary** in the **Name** text box, as the following illustration shows:
-
-   ![The **Add New Project** dialog](./media/lut-start/add-project-cs.png)
-
-4. Select **OK** to create the project.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
 
 2. Type **class library** into the template search box, and the select the **Class Library (.NET Standard)** template. Click **Next**.
 
@@ -72,8 +50,6 @@ Now that you've created the solution, you'll create a class library named String
 3. Name the project **StringLibrary**.
 
 4. Click **Create** to create the project.
-
-::: moniker-end
 
 5. Replace all of the existing code in the code editor with the following code:
 
@@ -129,26 +105,6 @@ The next step is to create the unit test project to test the StringLibrary libra
 
 1. In **Solution Explorer**, right-click on the UtilityLibraries solution and select **Add** > **New Project**.
 
-::: moniker range="vs-2017"
-
-2. In the **Add New Project** dialog, select the C# node, then select **.NET Core**.
-
-   > [!NOTE]
-   > You do not have to write your unit tests in the same language as your class library.
-
-3. Select the **Unit Test Project (.NET Core)** template in the right pane, and enter **StringLibraryTests** in the **Name** text box, as the following illustration shows:
-
-   ![The **Add New Project** dialog for the unit test project](./media/lut-start/add-unit-test-cs.png)
-
-4. Select **OK** to create the project.
-
-   > [!NOTE]
-   > This getting started tutorial uses Live Unit Testing with the MSTest test framework. You can also use the xUnit and NUnit test frameworks.
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
 2. Type **unit test** into the template search box, select **C#** as the language, and then select the **Unit Test Project** for .NET Core template. Click **Next**.
 
    > [!NOTE]
@@ -161,11 +117,14 @@ The next step is to create the unit test project to test the StringLibrary libra
    > [!NOTE]
    > This getting started tutorial uses Live Unit Testing with the MSTest test framework. You can also use the xUnit and NUnit test frameworks.
 
-::: moniker-end
-
 5. The unit test project can't automatically access the class library that it is testing. You give the test library access by adding a reference to the class library project. To do this, right-click on the `StringLibraryTests` project and select **Add** > **Reference**. In the **Reference Manager** dialog, make sure the **Solution** tab is selected, and select the StringLibrary project, as shown in the following illustration.
 
+   ::: moniker range="<=vs-2019"
    ![The **Reference Manager** dialog](./media/lut-start/add-reference.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![The **Reference Manager** dialog](./media/lut-start/vs-2022/add-unit-test-cs.png)
+   ::: moniker-end
 
 6. Replace the boilerplate unit test code provided by the template with the following code:
 
@@ -245,30 +204,40 @@ So far, although you've written the tests for the StringLibrary class library, y
 
 1. Optionally, select the code editor window that contains the code for StringLibrary. This is either *Class1.cs* for a C# project or *Class1.vb* for a Visual Basic project. (This step lets you visually inspect the result of your tests and the extent of your code coverage once you enable Live Unit Testing.)
 
-1. Select **Test** > **Live Unit Testing** > **Start** from the top-level Visual Studio menu.
+2. Select **Test** > **Live Unit Testing** > **Start** from the top-level Visual Studio menu.
 
-1. Visual Studio starts Live Unit Test, which automatically runs all of your tests.
+3. Verify the configuration for Live Unit Testing by ensuring the Repository Root includes the path to the source files for both the utility project and the test project. Select **Next** and then **Finish**.
 
-::: moniker range="vs-2017"
-When it finishes running your tests, **Test Explorer** displays both the overall results and the result of individual tests. In addition, the code editor window graphically displays both your test code coverage and the result for your tests. As the following illustration shows, all three tests have executed successfully. It also shows that our tests have covered all code paths in the `StartsWithUpper` method, and those tests all executed successfully (which is indicated by the green check mark, "✓"). Finally, it shows that none of the other methods in StringLibrary have code coverage (which is indicated by a blue line, "➖").
+4. Visual Studio will rebuild the project and start Live Unit Test, which automatically runs all of your tests.
 
-![The Test Explorer and code editor window after starting Live Unit testing](media/lut-start/lut-results-cs.png)
-::: moniker-end
-::: moniker range=">=vs-2019"
 When it finishes running your tests, **Live Unit Testing** displays both the overall results and the result of individual tests. In addition, the code editor window graphically displays both your test code coverage and the result for your tests. As the following illustration shows, all three tests have executed successfully. It also shows that our tests have covered all code paths in the `StartsWithUpper` method, and those tests all executed successfully (which is indicated by the green check mark, "✓"). Finally, it shows that none of the other methods in StringLibrary have code coverage (which is indicated by a blue line, "➖").
 
+::: moniker range="vs-2019"
 ![The Live Test Explorer and code editor window after starting Live Unit testing](media/lut-start/vs-2019/lut-results-cs.png)
+::: moniker-end
+::: moniker range=">=vs-2022"
+![The Live Test Explorer and code editor window after starting Live Unit testing](media/lut-start/vs-2022/lut-results-cs.png)
 ::: moniker-end
 
 You can also get more detailed information about test coverage and test results by selecting a particular code coverage icon in the code editor window. To examine this detail, do the following:
 
 1. Click on the green check mark on the line that reads `if (String.IsNullOrWhiteSpace(s))` in the `StartsWithUpper` method. As the following illustration shows, Live Unit Testing indicates that three tests cover that line of code, and that all have executed successfully.
 
+   ::: moniker range="<=vs-2019"
    ![Code coverage for the `if` conditional statement](media/lut-start/code-coverage-cs1.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![Code coverage for the `if` conditional statement](media/lut-start/vs-2022/code-coverage-cs1.png)
+   ::: moniker-end
 
 1. Click on the green check mark on the line that reads `return Char.IsUpper(s[0])` in the `StartsWithUpper` method. As the following illustration shows, Live Unit Testing indicates that only two tests cover that line of code, and that all have executed successfully.
 
+   ::: moniker range="<=vs-2019"
    ![Code coverage for the return statement](media/lut-start/code-coverage-cs2.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![Code coverage for the return statement](media/lut-start/vs-2022/code-coverage-cs2.png)
+   ::: moniker-end
 
 The major issue that Live Unit Testing identifies is incomplete code coverage. You'll address it in the next section.
 
@@ -288,16 +257,21 @@ To extend code coverage to the `StartsWithLower` method, do the following:
 
 1. Live Unit Testing automatically executes new and modified tests when you modify your source code. As the following illustration shows, all of the tests, including the two you've added and the one you've modified, have succeeded.
 
-   ::: moniker range="vs-2017"
-   ![The Test Explorer after expanding test coverage](media/lut-start/test-dynamic.png)
-   ::: moniker-end
-   ::: moniker range=">=vs-2019"
+   ::: moniker range="vs-2019"
    ![The Live Test Explorer after expanding test coverage](media/lut-start/vs-2019/test-dynamic.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![The Live Test Explorer after expanding test coverage](media/lut-start/vs-2022/test-dynamic.png)
    ::: moniker-end
 
 1. Switch to the window that contains the source code for the StringLibrary class. Live Unit Testing now shows that our code coverage is extended to the `StartsWithLower` method.
 
-    ![Code coverage for the StartsWithLower method](media/lut-start/lut-extended-cs.png)
+   ::: moniker range="<=vs-2019"
+   ![Code coverage for the StartsWithLower method](media/lut-start/lut-extended-cs.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![Code coverage for the StartsWithLower method](media/lut-start/vs-2022/lut-extended-cs.png)
+   ::: moniker-end
 
 In some cases, successful tests in **Test Explorer** may be grayed-out. That indicates that a test is currently executing, or that the test has not run again because there have been no code changes that would impact the test since it was last executed.
 
@@ -313,26 +287,31 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
 
 1. When the test executes, Live Unit Testing indicates that the `TestHasEmbeddedSpaces` method has failed, as the following illustration shows:
 
-   ::: moniker range="vs-2017"
-   ![The Test Explorer reporting a failed test](media/lut-start/test-failure.png)
-   ::: moniker-end
-   ::: moniker range=">=vs-2019"
+   ::: moniker range="vs-2019"
    ![The Live Test Explorer reporting a failed test](media/lut-start/vs-2019/test-failure.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![The Live Test Explorer reporting a failed test](media/lut-start/vs-2022/test-failure.png)
    ::: moniker-end
 
 1. Select the window that displays the library code. Live Unit Testing has expanded code coverage to the `HasEmbeddedSpaces` method. It also reports the test failure by adding a red  "🞩" to lines covered by failing tests.
 
 1. Hover over the line with the `HasEmbeddedSpaces` method signature. Live Unit Testing displays a tooltip that reports that the method is covered by one test, as the following illustration shows:
 
+   ::: moniker range="<=vs-2019"
    ![Live Unit Testing information on a failed test](media/lut-start/test-failure-info-cs.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![Live Unit Testing information on a failed test](media/lut-start/vs-2022/test-failure-info-cs.png)
+   ::: moniker-end
 
 1. Select the failed **TestHasEmbeddedSpaces** test. Live Unit Testing gives you a few options such as running all tests and debugging all tests, as the following illustration shows:
 
-   ::: moniker range="vs-2017"
-   ![Live Unit Testing options for a failed test](media/lut-start/test-failure-options.png)
-   ::: moniker-end
-   ::: moniker range=">=vs-2019"
+   ::: moniker range="vs-2019"
    ![Live Unit Testing options for a failed test](media/lut-start/vs-2019/test-failure-options.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![Live Unit Testing options for a failed test](media/lut-start/vs-2022/test-failure-options.png)
    ::: moniker-end
 
 1. Select **Debug All** to debug the failed test.
@@ -341,11 +320,21 @@ In this section, you'll explore how you can use Live Unit Testing to identify, t
 
    The test assigns each string in an array to a variable named `phrase` and passes it to the `HasEmbeddedSpaces` method. Program execution pauses and invokes the debugger the first time the assert expression is `false`. The exception dialog that results from the unexpected value in the [`Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue`](/dotnet/api/microsoft.visualstudio.testtools.unittesting.assert.istrue) method call is shown in the following illustration.
 
+   ::: moniker range="<=vs-2019"
    ![Live Unit Testing exception dialog](media/lut-start/exception-dialog-cs.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![Live Unit Testing exception dialog](media/lut-start/vs-2022/exception-dialog-cs.png)
+   ::: moniker-end
 
    In addition, all of the debugging tools that Visual Studio provides are available to help us troubleshoot our failed test, as the following illustration shows:
 
+   ::: moniker range="<=vs-2019"
    ![Visual Studio debugging tools](media/lut-start/debugging-tools-cs.png)
+   ::: moniker-end
+   ::: moniker range=">=vs-2022"
+   ![Visual Studio debugging tools](media/lut-start/vs-2022/debugging-tools-cs.png)
+   ::: moniker-end
 
    Note in the **Autos** window that the value of the `phrase` variable is "Name\tDescription", which is the second element of the array. The test method expects `HasEmbeddedSpaces` to return `true` when it is passed this string; instead, it returns `false`. Evidently, it does not recognize "\t", the tab character, as an embedded space.
 

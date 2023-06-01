@@ -1,7 +1,6 @@
 ---
 title: Evaluating Expressions | Microsoft Docs
 description: Learn about evaluating expressions, which are created from strings passed down from the Autos, Watch, QuickWatch, or Immediate windows.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,14 +8,16 @@ helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation
 ms.assetid: 5ccfcc80-dea5-48a1-8bae-6a26f8d3bc56
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # Evaluate expressions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Expressions are created from strings passed down from the **Autos**, **Watch**, **QuickWatch**, or **Immediate** windows. When an expression is evaluated, it generates a printable string that contains the name and type of variable or argument and its value. This string is displayed in the corresponding IDE window.
 
 ## Implementation

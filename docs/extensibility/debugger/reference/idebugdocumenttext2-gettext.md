@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDocumentText2::GetText
 ms.assetid: f8c15a58-da77-473e-a721-7a094e306c63
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugDocumentText2::GetText
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the text from the specified position in the document.
 
 ## Syntax
 
-```cpp
-HRESULT GetText(
-    TEXT_POSITION pos,
-    ULONG         cMaxChars,
-    WCHAR*        pText,
-    ULONG*        pcNumChars
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetText(
     eumn_TEXT_POSITION pos,
@@ -40,6 +34,16 @@ int GetText(
     out uint           pcNumChars
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetText(
+    TEXT_POSITION pos,
+    ULONG         cMaxChars,
+    WCHAR*        pText,
+    ULONG*        pcNumChars
+);
+```
+---
 
 ## Parameters
 `pos`\

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - UNMANAGED_ADDRESS_THIS_RELATIVE structure
 ms.assetid: e6a91ace-2d47-4ff9-aefb-8d8b68eab0b2
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,18 +19,13 @@ dev_langs:
 - CSharp
 ---
 # UNMANAGED_ADDRESS_THIS_RELATIVE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure represents an address that is relative to a `this` pointer (`Me` in Visual Basic).
 
 ## Syntax
 
-```cpp
-typedef struct _tagUNMANAGED_THIS_RELATIVE {
-   DWORD dwOffset;
-   DWORD dwBitOffset;
-   DWORD dwBitLength;
-} UNMANAGED_ADDRESS_THIS_RELATIVE;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct UNMANAGED_THIS_RELATIVE {
    public uint dwOffset;
@@ -38,6 +33,15 @@ public struct UNMANAGED_THIS_RELATIVE {
    public uint dwBitLength;
 }
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagUNMANAGED_THIS_RELATIVE {
+   DWORD dwOffset;
+   DWORD dwBitOffset;
+   DWORD dwBitLength;
+} UNMANAGED_ADDRESS_THIS_RELATIVE;
+```
+---
 
 ## Members
  `dwOffset`\

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugReference2::GetParent
 ms.assetid: e3061665-ad3e-4c1b-b33f-82755fa21be3
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugReference2::GetParent
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the parent reference of a reference. Reserved for future use.
 
 ## Syntax
 
-```cpp
-HRESULT GetParent ( 
-   IDebugReference2** ppParent
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetParent ( 
    out IDebugReference2 ppParent
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetParent ( 
+   IDebugReference2** ppParent
+);
+```
+---
 
 ## Parameters
 `ppParent`\

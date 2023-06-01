@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugField::GetTypeInfo method
 ms.assetid: bb5acfa3-04c3-4088-be84-9ff8926cd16f
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugField::GetTypeInfo
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets type-independent information about the symbol or type.
 
 ## Syntax
 
-```cpp
-HRESULT GetTypeInfo( 
-   TYPE_INFO* pTypeInfo
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetTypeInfo(
    TYPE_INFO[] pTypeInfo
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetTypeInfo( 
+   TYPE_INFO* pTypeInfo
+);
+```
+---
 
 ## Parameters
 `pTypeInfo`\

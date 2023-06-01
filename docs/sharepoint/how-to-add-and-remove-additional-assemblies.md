@@ -1,7 +1,6 @@
 ---
 title: "How to: Add and Remove Additional Assemblies | Microsoft Docs"
 description: Learn to add and remove additional assemblies in SharePoint solution packages. Also add or delete safe controls and class resources.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:
@@ -19,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # How to: Add and remove additional assemblies
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   If a SharePoint package depends on other assemblies for functionality or data, you can add the assemblies to your solution package (.wsp). This way, the SharePoint server makes sure that custom assemblies are installed with a package.
 
  You can also add and change the safe controls and class resource files associated with the assemblies.

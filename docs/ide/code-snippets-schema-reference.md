@@ -1,7 +1,6 @@
 ---
 title: Code snippets schema reference
 description: Learn about the IntelliSense Code Snippet XML schema and how you can use them to increase your own productivity.
-ms.custom: SEO-VS-2020
 ms.date: 03/31/2020
 ms.topic: reference
 helpviewer_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # Code snippets schema reference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 IntelliSense Code Snippets are pre-authored pieces of code that are ready to be inserted into your application with Visual Studio. You can increase productivity by providing code snippets that reduce the amount of time spent typing repetitive code or searching for samples. You can use the IntelliSense Code Snippet XML schema to create your own code snippets and add them to the code snippets that Visual Studio already includes.
 

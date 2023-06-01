@@ -1,7 +1,6 @@
 ---
 title: Collect diagnostic information using test settings
 description: Learn how to use Test settings in Visual Studio to collect extra data when you run your tests. Learn about several diagnostic data adapters.
-ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -13,6 +12,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # Collect diagnostic information using test settings
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use *Test settings* in Visual Studio to collect extra data when you run your tests. For example, you might want to make a video recording as you run your test. There are diagnostic data adapters to:
 

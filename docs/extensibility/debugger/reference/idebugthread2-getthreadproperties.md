@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugThread2::GetThreadProperties
 ms.assetid: 304403fd-f4f8-4096-ac2c-bd3b59663aad
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugThread2::GetThreadProperties
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the properties that describe this thread.
 
 ## Syntax
 
-```cpp
-HRESULT GetThreadProperties (
-    THREADPROPERTY_FIELDS dwFields,
-    THREADPROPERTIES*     ptp
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetThreadProperties (
     enum_THREADPROPERTY_FIELDS dwFields,
     THREADPROPERTIES[]         ptp
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetThreadProperties (
+    THREADPROPERTY_FIELDS dwFields,
+    THREADPROPERTIES*     ptp
+);
+```
+---
 
 ## Parameters
 `dwFields`\

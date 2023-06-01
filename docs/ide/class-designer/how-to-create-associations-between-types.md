@@ -1,7 +1,6 @@
 ---
 title: Create associations between types
 description: Learn how to create associations between different types in Class Designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -21,6 +20,8 @@ ms.workload:
 - multiple
 ---
 # How to: Create associations between types in Class Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Association lines in **Class Designer** show how classes in a diagram are related. An Association line represents a class that is the type of a property or field of another class in your project. Association lines are generally used to illustrate the most important relationships between classes in your project.
 

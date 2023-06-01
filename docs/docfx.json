@@ -11,8 +11,35 @@
           "vsdocsdocs/**",
           "**/includes/**"
         ],
+        "src": "./vs-2015",
+        "group": "vs-2015"
+      },
+      {
+        "files": [
+        ],
+        "exclude": [
+          "**/*.md",
+          "**/*.yml",
+          "**/obj/**",
+          "vsdocsdocs/**",
+          "**/includes/**"
+        ],
+        "src": ".",
+        "group": "vs-2017"
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "vsdocsdocs/**",
+          "**/includes/**",
+          "vs-2015/**"
+        ],
         "src": "./",
-        "group": "vs"
+        "group": "vs-2019-"
       }
     ],
     "resource": [
@@ -28,8 +55,39 @@
           "vsdocsdocs/**",
           "**/includes/**"
         ],
+        "src": "./vs-2015",
+        "group": "vs-2015"
+      },
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "vsdocsdocs/**",
+          "**/includes/**"
+        ],
+        "src": ".",
+        "group": "vs-2017"
+      },
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "vsdocsdocs/**",
+          "**/includes/**",
+          "vs-2015/**"
+        ],
         "src": "./",
-        "group": "vs"
+        "group": "vs-2019-"
       }
     ],
     "overwrite": [],
@@ -39,7 +97,6 @@
       "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
       "feedback_product_url": "https://developercommunity2.visualstudio.com/search?space=8",
       "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
-      "extendBreadcrumb": "true",
       "manager": "jmartens",
       "audience": "developer",
       "defaultDevLang": "csharp",
@@ -58,16 +115,22 @@
     },
     "fileMetadata": {
       "ms.prod": {
-        "rtvs/**/**.md": "visual-studio-dev15"
+        "rtvs/**/**.md": "visual-studio-dev15",
+        "vs-2015/**/**.md": "visual-studio-dev14"
       },
       "monikerRange": {
         "rtvs/**/**.md": "vs-2017"
       },
       "titleSuffix": {
         "ai/**/**.md": "AI tools for Visual Studio",
-        "msbuild/**/**.md": "MSBuild"
+        "msbuild/**/**.md": "MSBuild",
+        "vs-2015/**/**.md": "Visual Studio 2015"
+      },
+      "breadcrumb_path": {
+        "vs-2015/**/*.md": "/visualstudio/_breadcrumb/vs-2015/toc.json"
       },
       "feedback_system": {
+        "vs-2015/**/*": "None",
         "extensibility/**/*": "None"
       },
       "searchScope": {
@@ -76,6 +139,20 @@
         ],
         "msbuild/**/*.md": [
           "MSBuild"
+        ],
+        "vs-2015/extensibility/**/*.md": [
+          "VS Extensibility"
+        ]
+      },
+      "exclude_monikers": {
+        "vs-2015/**/*.md": [
+          "vs-2015"
+        ],
+        "ai/**/*.md": [
+          "vs-2017"
+        ],
+        "**/*.md": [
+          "vs-2017"
         ]
       }
     },
@@ -84,9 +161,17 @@
     "markdownEngineName": "markdig",
     "xref": [],
     "groups": {
-      "vs": {
-        "dest": "vs-dest",
-        "moniker_range": ">= vs-2017"
+      "vs-2015": {
+        "dest": "vs-2015-dest",
+        "moniker_range": "vs-2015"
+      },
+      "vs-2017": {
+        "dest": "vs-2017-dest",
+        "moniker_range": "vs-2017"
+      },
+      "vs-2019-": {
+        "dest": "vs-2019-dest",
+        "moniker_range": ">= vs-2019"
       }
     }
   }

@@ -1,7 +1,6 @@
 ---
 title: Load patterns for load testing
 description: Learn about the built-in load patterns that Visual Studio provides. Choose the load pattern and adjust the properties to appropriate levels for your load test.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,6 +14,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # Edit load patterns to model virtual user activities
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The load pattern properties specify how the simulated user load is adjusted during a load test. Visual Studio provides three built-in load patterns: constant, step, and goal-based. You choose the load pattern and adjust the properties to appropriate levels for your load test goals.
 

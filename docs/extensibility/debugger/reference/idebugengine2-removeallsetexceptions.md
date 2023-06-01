@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngine2::RemoveAllSetExceptions
 ms.assetid: 165fbe89-802d-4d99-85ca-c10fd6cccc09
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngine2::RemoveAllSetExceptions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Removes the list of exceptions the IDE has set for a particular run-time architecture or language.
 
 ## Syntax
 
-```cpp
-HRESULT RemoveAllSetExceptions( 
-   REFGUID guidType
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int RemoveAllSetExceptions( 
    ref Guid guidType
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT RemoveAllSetExceptions( 
+   REFGUID guidType
+);
+```
+---
 
 ## Parameters
 `guidType`\

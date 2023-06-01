@@ -1,20 +1,21 @@
 ---
 title: "Workflow Designer - CorrelationScope Activity Designer"
 description: Learn how you can use the CorrelationScope activity designer to create and configure a CorrelationScope activity.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.ServiceModel.Activities.CorrelationScope.UI"
 ms.assetid: 75f20664-9042-464d-8e2b-148d365a2286
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
   - "multiple"
 ---
 # CorrelationScope Activity Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **CorrelationScope** activity designer is used to create and configure a <xref:System.ServiceModel.Activities.CorrelationScope> activity that provides implicit management of child messaging activities using a <xref:System.ServiceModel.Activities.CorrelationHandle> object.
 

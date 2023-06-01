@@ -1,8 +1,7 @@
 ---
 title: "Troubleshooting SharePoint Packaging and Deployment | Microsoft Docs"
 description: Understand and fix various problems that you might encounter when you package and deploy SharePoint solutions.
-ms.custom: SEO-VS-2020
-ms.date: "02/22/2017"
+ms.date: 02/22/2017
 ms.topic: "conceptual"
 f1_keywords:
   - "VSTO.WorkflowDeployment.Troubleshooting"
@@ -28,6 +27,8 @@ ms.workload:
   - "office"
 ---
 # Troubleshoot SharePoint packaging and deployment
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This topic covers various problems that you might encounter when you package and deploy SharePoint solutions.
 
 ## Enable enhanced debugging

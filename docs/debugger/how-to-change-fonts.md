@@ -1,7 +1,6 @@
 ---
 title: Change Fonts | Microsoft Docs
 description: See how to set the font, font style, and font size for Spy++ windows. You can save your choices as the defaults for future Spy++ windows.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -15,6 +14,8 @@ ms.workload:
   - multiple
 ---
 # How to: Change Fonts
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can change the font, font style, and font size for Spy++ windows.
 
 ### To change font options

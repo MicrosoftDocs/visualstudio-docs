@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngineProgram2::Stop
 ms.assetid: 6e1c3d56-fb67-4a5b-80f9-8ee5131972bf
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,23 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngineProgram2::Stop
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Stops all threads running in this program.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Stop();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Stop( 
    void 
 );
 ```
-
-```csharp
-int Stop();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortNotify2::RemoveProgramNode
 ms.assetid: 3668157b-66d2-416e-a359-fc04dcd18a48
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortNotify2::RemoveProgramNode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Unregisters a program that can be debugged from the port it is running on.
 
 ## Syntax
 
-```cpp
-HRESULT RemoveProgramNode( 
-   IDebugProgramNode2* pProgramNode
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int RemoveProgramNode( 
    IDebugProgramNode2 pProgramNode
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT RemoveProgramNode( 
+   IDebugProgramNode2* pProgramNode
+);
+```
+---
 
 ## Parameters
 `pProgramNode`\

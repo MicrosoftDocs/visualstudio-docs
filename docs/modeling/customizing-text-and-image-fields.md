@@ -1,7 +1,6 @@
 ---
 title: Customizing Text and Image Fields
 description: Learn about customizing text and image files. Also learn that when you define a text decorator in a shape, it's represented by a TextField.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 author: mgoertz-msft
@@ -12,6 +11,8 @@ ms.workload:
   - "multiple"
 ---
 # Customizing Text and Image Fields
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When you define a text decorator in a shape, it is represented by a TextField. For examples of the initialization of TextFields and other ShapeFields, inspect Dsl\GeneratedCode\Shapes.cs in your DSL solution.
 
  A TextField is an object that manages an area within a shape, such as the space assigned to a label. One TextField instance is shared between many shapes of the same class. The TextField instance does not store the text of the label separately for each instance: instead, the `GetDisplayText(ShapeElement)` method takes the shape as a parameter, and can look up the text dependent on the current state of the shape and its model element.

@@ -1,20 +1,21 @@
 ---
 title: Debugger Concepts | Microsoft Docs
 description: Learn about the architectural concepts used in designing the Visual Studio debug package to help you build on that package.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK]
 ms.assetid: 2d371d38-f1a0-4a9a-8ea3-100e8c0149b7
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # Debugger concepts
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To build on the Visual Studio debug package, you need to be familiar with the architectural concepts used in designing the package.
 
 ## In this section

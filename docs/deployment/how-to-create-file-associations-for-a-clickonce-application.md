@@ -1,7 +1,6 @@
 ---
 title: Create file associations (ClickOnce app)
 description: Learn how to associate a ClickOnce application with one or more file name extensions, so that the application starts when the user opens such a file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -20,6 +19,8 @@ ms.workload:
   - multiple
 ---
 # How to: Create file associations for a ClickOnce application
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications can be associated with one or more file name extensions, so that the application will be started automatically when the user opens a file of those types. Adding file name extension support to a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is straightforward.
 
 ### To create file associations for a ClickOnce application
@@ -49,6 +50,8 @@ ms.workload:
     `mage -Sign WindowsFormsApp1.exe.manifest -CertFile mycert.pfx`
 
     For more information, see [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool).
+
+    [!INCLUDE[ndptecclick](../deployment/includes/dotnet-dotnetmage-exe.md)]
 
 ## See also
 - [\<fileAssociation> element](../deployment/fileassociation-element-clickonce-application.md)

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IPropertyProxyProvider::GetPropertyProxy
 ms.assetid: 3ebb7515-5bfe-48f4-9b8d-721b8f664eb6
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IPropertyProxyProvider::GetPropertyProxy
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the property proxy interface for the specified proxy ID.
 
 ## Syntax
 
-```cpp
-HRESULT GetPropertyProxy(
-   DWORD                  dwID,
-   IPropertyProxyEESide** proxy
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetPropertyProxy(
    uint                     dwID,
    out IPropertyProxyEESide proxy
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetPropertyProxy(
+   DWORD                  dwID,
+   IPropertyProxyEESide** proxy
+);
+```
+---
 
 ## Parameters
 `dwID`\

@@ -10,8 +10,9 @@ ms.technology: vs-ide-code-analysis
 ms.workload:
   - multiple
 ---
-
 # Code metrics - Depth of inheritance (DIT)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In this article, you learn about one of the metrics designed specifically for object-oriented analysis: Depth of Inheritance. Depth of inheritance, also called depth of inheritance tree (DIT), is defined as “the maximum length from the node to the root of the tree” [CK](#ck). You can see this with a simple example. Create a new Class Library project and, before writing any code, calculate the code metrics by choosing **Analyze > Calculate Code Metrics for Solution**.
 
@@ -61,7 +62,7 @@ This rule issues a warning when the depth of inheritance reaches 6 or greater, s
 
 ## Putting It All Together
 
-High values for DIT mean the potential for errors is also high, low values reduce the potential for errors. High values for DIT indicate a greater potential for code reuse through inheritance, low values suggest less code reuse though inheritance to leverage. Due to lack of sufficient data, there is no currently accepted standard for DIT values. Even studies done recently did not find sufficient data to determine a viable number that could be used as an standard number for this metric [Shatnawi](#shatnawi). Although there is no empirical evidence to support it, several resources suggest that a DIT around 5 or 6 should be an upper limit. For example, see [http://www.devx.com/architect/Article/45611](http://www.devx.com/architect/Article/45611).
+High values for DIT mean the potential for errors is also high, low values reduce the potential for errors. High values for DIT indicate a greater potential for code reuse through inheritance, low values suggest less code reuse though inheritance to leverage. Due to lack of sufficient data, there is no currently accepted standard for DIT values. Even studies done recently did not find sufficient data to determine a viable number that could be used as an standard number for this metric [Shatnawi](#shatnawi). Although there is no empirical evidence to support it, several resources suggest that a DIT around 5 or 6 should be an upper limit. For example, see [https://www.devx.com/architecture-zone/45611/](https://www.devx.com/architecture-zone/45611/).
 
 ## Citations
 

@@ -1,7 +1,6 @@
 ---
 title: View Script Documents | Microsoft Docs
 description: Understand how to view JavaScript server-side script documents in Visual Studio using Solution Explorer.
-ms.custom: SEO-VS-2020
 ms.date: 11/05/2019
 ms.topic: how-to
 dev_langs: 
@@ -20,6 +19,8 @@ ms.workload:
   - multiple
 ---
 # How to: View Script Documents (JavaScript)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Server-side script files are visible in Solution Explorer. Client-side script files are visible only when you are in debug mode or break mode. Client-side script files appear in the **Script Documents** node.
 

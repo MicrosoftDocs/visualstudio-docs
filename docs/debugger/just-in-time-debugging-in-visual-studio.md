@@ -1,9 +1,8 @@
 ---
 title: "Disable the Just-In-Time Debugger | Microsoft Docs"
 description: The Just-In-Time Debugger dialog box may open when an error occurs in an app. Learn what you can do when this happens, and ways to prevent it.
-ms.custom: SEO-VS-2020
 ms.date: "08/24/2021"
-ms.topic: "troubleshooting"
+ms.topic: "how-to"
 helpviewer_keywords:
   - "debugging [Visual Studio], Just-In-Time"
   - "Just-In-Time debugging"
@@ -16,6 +15,8 @@ ms.workload:
   - "multiple"
 ---
 # Disable the Just-In-Time Debugger
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Just-In-Time Debugger dialog box may open when an error occurs in a running app, and prevent the app from continuing.
 

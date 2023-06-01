@@ -1,7 +1,6 @@
 ---
 title: Getting Started with Domain-Specific Languages
 description: Learn the basic concepts in defining and using a domain-specific language (DSL) created with the Modeling SDK for Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: mgoertz-msft
@@ -12,6 +11,8 @@ ms.workload:
 - multiple
 ---
 # Get Started with Domain-Specific Languages
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic explains the basic concepts in defining and using a domain-specific language (DSL) created with the Modeling SDK for Visual Studio.
 

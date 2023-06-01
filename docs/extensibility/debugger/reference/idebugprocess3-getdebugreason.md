@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProcess3::GetDebugReason
 ms.assetid: f23fbabc-8b18-4278-bebf-4cdc7091513c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess3::GetDebugReason
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method returns the reason that the process was launched for debugging.
 
 ## Syntax
 
-```cpp
-HRESULT GetDebugReason(
-   DEBUG_REASON* pReason
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDebugReason(
    out enum_DEBUG_REASON pReason
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDebugReason(
+   DEBUG_REASON* pReason
+);
+```
+---
 
 ## Parameters
 `pReason`\

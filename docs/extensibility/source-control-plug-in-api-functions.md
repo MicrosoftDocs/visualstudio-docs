@@ -1,20 +1,21 @@
 ---
 title: Source Control Plug-in API Functions | Microsoft Docs
 description: Learn about the functions that the Source Control Plug-in API provides, which must be implemented by the source control plug-in.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - source control plug-ins, functions
 ms.assetid: 4b0536dd-4f92-4ef2-9031-4548281f37aa
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Source Control Plug-in API Functions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The Source Control Plug-in API provides the following functions, which must be implemented by the source control plug-in in accordance with this API. The signatures of each function and the semantics associated with the bit flags and other parameters are described in detail in this reference.
 
 ## Initialization and Housekeeping Functions

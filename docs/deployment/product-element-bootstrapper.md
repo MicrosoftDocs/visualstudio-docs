@@ -1,9 +1,8 @@
 ---
 title: "&lt;Product&gt; Element (Bootstrapper) | Microsoft Docs"
 description: The Product element is the top-level XML element inside of a product file. The Product element is required in a product file.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "FSharp"
   - "VB"
@@ -20,6 +19,8 @@ ms.workload:
   - "multiple"
 ---
 # &lt;Product&gt; element (bootstrapper)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The `Product` element is the top-level XML element inside of a product file.
 
 ## Syntax

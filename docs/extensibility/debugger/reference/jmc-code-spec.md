@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - JMC_CODE_SPEC structure
 ms.assetid: d89498f1-4234-46d9-b4e2-abbcbca5068a
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # JMC_CODE_SPEC
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure is used to set the JustMyCode information for a module.
 
 ## Syntax
 
-```cpp
-typedef struct _JMC_CODE_SPEC {
-    BOOL fIsUserCode;
-    BSTR bstrModuleName;
-} JMC_CODE_SPEC;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct JMC_CODE_SPEC {
     public int    fIsUserCode;
     public string bstrModuleName;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _JMC_CODE_SPEC {
+    BOOL fIsUserCode;
+    BSTR bstrModuleName;
+} JMC_CODE_SPEC;
+```
+---
 
 ## Members
 `fIsUserCode`\

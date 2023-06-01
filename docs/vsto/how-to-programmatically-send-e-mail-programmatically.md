@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically send email"
 description: Use Visual Studio to programmatically send an email from Microsoft Outlook. This example sends an email message to contacts that have the domain name example.com.
-ms.custom: SEO-VS-2020
 ms.date: "08/14/2019"
 ms.topic: "how-to"
 dev_langs:
@@ -20,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # How to: Programmatically send email
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example sends an email message to contacts that have the domain name **example.com** in their email addresses.
 
  [!INCLUDE[appliesto_olkallapp](../vsto/includes/appliesto-olkallapp-md.md)]

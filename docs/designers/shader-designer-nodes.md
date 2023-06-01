@@ -1,7 +1,6 @@
 ---
 title: Shader Designer Nodes
 description: Use the articles in this section of the documentation to learn about the various Shader Designer nodes that you can use to create graphics effects.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: overview
 ms.assetid: f5192fbd-c78f-40a8-a4d4-443209610268
@@ -13,6 +12,8 @@ ms.workload:
   - "multiple"
 ---
 # Shader Designer nodes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The articles in this section of the documentation contain information about the various Shader Designer nodes that you can use to create graphics effects.
 
 ## Nodes and node types

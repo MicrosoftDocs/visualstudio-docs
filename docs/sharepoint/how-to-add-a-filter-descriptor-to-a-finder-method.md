@@ -1,7 +1,6 @@
 ---
 title: "How to: Add a Filter Descriptor to a Finder Method | Microsoft Docs"
 description: Know how to add a filter descriptor to a Finder method using the BDC Method Details window in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -20,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # How to: Add a filter descriptor to a Finder method
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Filter descriptors enable consumers of the model to pass values to methods before they execute. For more information, see [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md).
 
  One common scenario is that users in SharePoint want to retrieve instances of an external content type that match some criteria. You can support this scenario by adding a filter descriptor to a Finder method.
@@ -61,8 +62,12 @@ ms.workload:
     > [!NOTE]
     > Replace the value of the `ServerName` field with the name of your server.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/salesorderservice.cs" id="Snippet11":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/salesorderservice.vb" id="Snippet11":::
+     ---
 
 ## See also
 - [How to: Add a Finder method](../sharepoint/how-to-add-a-finder-method.md)

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - GetEngineFilter
 - IDebugProcess3::GetEngineFilter
 ms.assetid: ccb7ecb0-f189-4e80-b5b2-221a095e01f5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,21 +18,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess3::GetEngineFilter
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves an array of unique identifiers for available debug engines.
 
 ## Syntax
 
-```cpp
-HRESULT GetEngineFilter(
-   GUID_ARRAY *pEngineArray
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int GetEngineFilter(
    out GUID_ARRAY[] pEngineArray
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEngineFilter(
+   GUID_ARRAY *pEngineArray
+);
+```
+---
 
 ## Parameters
 `pEngineArray`\

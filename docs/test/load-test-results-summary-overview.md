@@ -1,7 +1,6 @@
 ---
 title: Load Test Results Summary Overview
 description: Learn how to view the load test summary. The load test summary provides the key results in a compact and easy to read format.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:
@@ -19,6 +18,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # Load test results summary overview
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 After you run a load test, you can view the load test summary to understand the results quickly. The load test summary provides the key results in a compact and easy to read format. You can also print the load test summary. This makes it convenient to use when you communicate results to stakeholders. The load test summary is also the default view when you open a load test result from a previously run load test. For more information, see [How to: Access load test results for analysis](../test/how-to-access-load-test-results-for-analysis.md).
 

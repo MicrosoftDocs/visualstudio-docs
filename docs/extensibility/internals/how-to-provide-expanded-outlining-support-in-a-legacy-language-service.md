@@ -1,7 +1,6 @@
 ---
 title: Provide Outlining Support in a Language Service | Microsoft Docs
 description: Learn how to provide expanded outlining support in a legacy language service by adding editor-controlled outline regions and client-controlled outline regions.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -9,14 +8,16 @@ helpviewer_keywords:
 - language services, supporting outlining
 - outlining, supporting
 ms.assetid: df759e89-8193-418c-8038-6626304d387b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # How to: Provide expanded outlining support in a legacy language service
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 There are two options for extending outlining support for your language beyond supporting the **Collapse to Definitions** command. You can add editor-controlled outline regions and add client-controlled outline regions.
 
 ## Adding editor-controlled outline regions

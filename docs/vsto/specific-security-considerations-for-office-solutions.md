@@ -1,7 +1,6 @@
 ---
 title: "Specific security considerations for Office solutions"
 description: Learn how the security features provided by the Microsoft .NET Framework and Microsoft Office can help to protect your Office solutions against security threats.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -23,6 +22,8 @@ ms.workload:
   - "office"
 ---
 # Specific security considerations for Office solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The security features provided by the Microsoft .NET Framework and Microsoft Office can help to protect your Office solutions against possible security threats. This topic explains some of those threats and provides recommendations to help protect against them. It also includes information about how Microsoft Office security settings affect Office solutions.
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
@@ -62,13 +63,21 @@ ms.workload:
 
  The following code example displays a security warning if the object model guard is enabled. The `To` property of the `Microsoft.Office.Interop.Outlook.MailItem` class is restricted by the object model guard. The `Microsoft.Office.Interop.Outlook.MailItem` object is untrusted because the code gets it from a `Microsoft.Office.Interop.Outlook.Application` that is created using the **new** operator, instead of obtaining it from the `Application` field.
 
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreOutlookSecurity/ThisAddIn.cs" id="Snippet1":::
+
+ ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreOutlookSecurity/ThisAddIn.vb" id="Snippet1":::
+ ---
 
  The following code example demonstrates how to use the restricted To property of a `Microsoft.Office.Interop.Outlook.MailItem` object that is trusted by the object model guard. The code uses the trusted `Application` field to get the `Microsoft.Office.Interop.Outlook.MailItem`.
 
+ ### [C#](#tab/csharp)
  :::code language="csharp" source="../vsto/codesnippet/CSharp/Trin_VstcoreOutlookSecurity/ThisAddIn.cs" id="Snippet2":::
+
+ ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_VstcoreOutlookSecurity/ThisAddIn.vb" id="Snippet2":::
+ ---
 
 > [!NOTE]
 > If Outlook is used with Exchange, then obtaining all Outlook objects from `ThisAddIn.Application` does not guarantee that your VSTO Add-in will be able to access the entire Outlook object model. For example, if an Exchange administrator sets Outlook to automatically deny all attempts to access address information using the Outlook object model, then Outlook will not allow the previous code example to access the To property, even though the code example uses the trusted `ThisAddIn.Application` field.

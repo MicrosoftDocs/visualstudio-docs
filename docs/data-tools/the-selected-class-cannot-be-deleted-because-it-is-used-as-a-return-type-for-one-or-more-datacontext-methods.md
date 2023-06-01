@@ -1,7 +1,6 @@
 ---
 title: Selected class cannot be deleted
 description: The selected class cannot be deleted because it is used as a return type for one or more DataContext methods
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: error-reference
 ms.assetid: d68254a0-f3a1-47e2-aed3-a83471e1d711
@@ -13,6 +12,8 @@ ms.workload:
 - data-storage
 ---
 # The selected class cannot be deleted because it is used as a return type for one or more DataContext methods
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The return type of one or more <xref:System.Data.Linq.DataContext> methods is the selected entity class. Deleting an entity class that is used as the return type for a <xref:System.Data.Linq.DataContext> method causes the compilation of the project to fail. To delete the selected entity class, identify the <xref:System.Data.Linq.DataContext> methods that use it and set their return types to a different entity class.
 

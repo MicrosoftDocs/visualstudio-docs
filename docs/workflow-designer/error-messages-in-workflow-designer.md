@@ -1,7 +1,6 @@
 ---
 title: Error Messages in Workflow Designer
 description: Learn about the types of error messages that you can encounter when working with Workflow Designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -9,14 +8,16 @@ f1_keywords:
 - System.Activities.Presentation.ErrorActivity.UI
 - System.Activities.Presentation.View.ErrorView.UI
 ms.assetid: 4d8bbc2e-34fc-477f-9140-4adfd70c34a0
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
 - multiple
 ---
 # Error Messages in Workflow Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This topic describes the types of error messages that can be encountered when working with Workflow Designer.
 

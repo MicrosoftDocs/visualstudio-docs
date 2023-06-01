@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugField::GetKind method
 ms.assetid: e7c9c60a-8e55-4ecc-aa63-0c814a1e92cc
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugField::GetKind
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method gets the kind of field.
 
 ## Syntax
 
-```cpp
-HRESULT GetKind( 
-   FIELD_KIND* pdwKind
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetKind(
    out enum_FIELD_KIND pdwKind
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetKind( 
+   FIELD_KIND* pdwKind
+);
+```
+---
 
 ## Parameters
 `pdwKind`\

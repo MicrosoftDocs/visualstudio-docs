@@ -1,7 +1,6 @@
 ---
 title: Specify custom build events
 description: Learn how you can you can automatically run commands in Visual Studio before a build starts or after it finishes.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: conceptual
@@ -15,6 +14,8 @@ ms.workload:
 - multiple
 ---
 # Specify custom build events in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 By specifying a custom build event, you can automatically run commands before a build starts or after it finishes. For example, you can run a *.bat* file before a build starts or copy new files to a folder after the build is complete. Build events run only if the build successfully reaches those points in the build process.
 

@@ -1,21 +1,22 @@
 ---
 title: Hierarchies in Visual Studio | Microsoft Docs
 description: Learn about project hierarchies in the Visual Studio integrated development environment (IDE) that contain project items and their associated properties. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - hierarchies, Visual Studio IDE
 - IDE, hierarchies
 ms.assetid: 0a029a7c-79fd-4b54-bd63-bd0f21aa8d30
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Hierarchies in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) displays a project as a *hierarchy*. In the IDE, a hierarchy is a tree of nodes, where each node has a set of associated properties. A *project hierarchy* is a container that holds the project's items, the items' relationships, and the items' associated properties and commands.
 
  In [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], you manage project hierarchies by using the hierarchy interface, <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy>. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIHierarchy> interface redirects commands you invoke from project items to the appropriate hierarchy window instead of the standard command handler.

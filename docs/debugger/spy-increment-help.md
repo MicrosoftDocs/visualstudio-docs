@@ -1,7 +1,6 @@
 ---
 title: "Spy++ Help | Microsoft Docs"
 description: View links about using Spy++ and Spy++ views. See reference links that provide details about each available Spy++ menu command and dialog box.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -15,6 +14,8 @@ ms.workload:
   - "multiple"
 ---
 # Spy++ Help
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The documentation for the Spy++ utility includes two groups of general topics on Using Spy++ and on the Spy++ Views. These are followed by the Spy++ Reference, which provides further details on each available menu command and dialog box.
 
 ## Using Spy++

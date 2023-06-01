@@ -1,7 +1,6 @@
 ---
 title: "Differences Between Sandboxed and Farm Solutions | Microsoft Docs"
 description: Understand the differences between sandboxed and farm solutions. Know how Visual Studio approaches debugging with either type of solution.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -20,6 +19,8 @@ ms.workload:
   - "office"
 ---
 # Differences between sandboxed and farm solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you compile a SharePoint solution, it deploys to the SharePoint server and a debugger attaches to debug it. The process used to debug the solution depends on the setting of the Sandboxed Solution property: sandboxed solution or farm solution.
 
  For more information, see [Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md).

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugMethodField::GetThis method
 ms.assetid: cc235bea-e909-4d8c-ab54-936736c803fc
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugMethodField::GetThis
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the `this` (`Me` in [!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)]) pointer of the object containing the method.
 
 ## Syntax
 
-```cpp
-HRESULT GetThis( 
-   IDebugClassField** ppClass
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetThis(
    out IDebugClassField ppClass
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetThis( 
+   IDebugClassField** ppClass
+);
+```
+---
 
 ## Parameters
 `ppClass`\

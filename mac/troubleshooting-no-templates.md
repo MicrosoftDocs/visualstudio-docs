@@ -2,12 +2,15 @@
 title: Why can I not see all available templates?
 description: "Troubleshooting article on why you cannot see all available templates."
 ms.topic: troubleshooting
-author: heiligerdankgesang
+author: heiligerdankgesang 
 ms.author: dominicn
+manager: dominicn
 ms.date: 04/02/2019
 ms.assetid: 297D9094-B40F-4C1A-BF19-B14CB735003A
 ---
 # Troubleshooting: Why can I not see all available templates?
+
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
 In the New Project Dialog you only see the templates of components that have been installed. If you are missing any following components, make sure the correct components are installed, as described below:
 

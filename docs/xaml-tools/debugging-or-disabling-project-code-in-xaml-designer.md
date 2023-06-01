@@ -1,16 +1,17 @@
 ---
 title: Debug or disable project code in XAML Designer
 description: Learn how to debug or disable project code in the XAML Designer, including how to debug running project code in another instance of Visual Studio.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+ms.date: 12/17/2021
 ms.topic: how-to
 ms.assetid: ac600581-8fc8-49e3-abdf-1569a3483d74
-author: TerryGLee
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
 ---
 # Debug or disable project code in XAML Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In many cases, unhandled exceptions in the XAML Designer can be caused by project code attempting to access properties or methods that return different values or work in a different way when your application runs in the designer. You can resolve these exceptions by debugging the project code in another instance of Visual Studio, or temporarily prevent exceptions by disabling project code in the designer.
 
@@ -52,11 +53,17 @@ When project code is disabled, Visual Studio shows placeholders. For example, Vi
 
 6. In the new instance of Visual Studio, on the menu bar, choose **Debug** > **Attach to Process**.
 
-7. In the **Attach to Process** dialog, in the **Available Processes** list, choose **XDesProc.exe**, and then choose the **Attach** button.
+7. In the **Attach to Process** dialog, in the **Available Processes** list, choose the process that matches the version of Visual Studio you're using and the platform you're developing for (see the following table), and then choose the **Attach** button.
 
-     ![The XAML designer process](media/xaml_attach.png)
+    |Visual Studio version | Platform      | Process name   |
+    |----------------------|---------------|----------------|
+    |2017&ndash;2022       | UWP apps      | UwpSurface.exe |
+    |2017&ndash;2022       | WPF Core apps | WpfSurface.exe |
+    |2019 only             | WPF Framework | xDesProc.exe   |
+    |2022 only             | WPF Framework | WpfSurface.exe |
 
-     This is the process for the XAML designer in the first instance of Visual Studio.
+    > [!IMPORTANT]
+    > In Visual Studio 2019, it's WpfSurface.exe if **New WPF XAML Designer** is enabled in **Tools** > **Options** > **Environment** > **Preview Features**.
 
 8. In the first instance of Visual Studio, on the menu bar, choose **Debug** > **Start Debugging**.
 

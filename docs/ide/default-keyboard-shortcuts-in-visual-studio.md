@@ -1,8 +1,7 @@
 ---
 title: Keyboard shortcuts
 description: Learn about the default keyboard shortcuts in Visual Studio that allow you to access a variety of commands and windows.
-ms.custom: SEO-VS-2020
-ms.date: 09/23/2021
+ms.date: 03/03/2023
 ms.topic: reference
 helpviewer_keywords:
 - shortcut keys [Visual Studio], keyboard binding schemes
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # Keyboard shortcuts in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can access a variety of [commands](reference/visual-studio-commands.md) and windows in Visual Studio by choosing the appropriate keyboard shortcut. This page lists the default command shortcuts for the **General** profile, which you might have chosen when you installed Visual Studio. No matter which profile you chose, you can [identify the shortcut](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md) for a command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**. You can also customize your shortcuts by assigning a different shortcut to any given command.
 
@@ -39,7 +40,7 @@ Click to get our [printable keyboard shortcut cheatsheet for Visual Studio](http
 
 All shortcuts in this section apply globally unless otherwise specified. The *Global* context means that the shortcut is applicable in any tool window in Visual Studio.
 
-> [!NOTE]
+> [!TIP]
 > You can [look up the shortcut](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md) for any command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**.
 
 - [Build](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_build-popular-shortcuts)
@@ -121,7 +122,8 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Select all|**Ctrl+A**| Edit.SelectAll |
 |Select current word|**Ctrl+W** [Text Editor]| Edit.SelectCurrentWord |
 |Selection cancel|**Esc** [Text Editor, Report Designer, Settings Designer, Windows Forms Designer, Managed Resources Editor]| Edit.SelectionCancel |
-|Surround with|**Ctrl+K, Ctrl+S**| Edit.SurroundWith |
+|Remove and sort usings|**Ctrl+R, Ctrl+G** [Text Editor]| EditorContextMenus.CodeWindow.RemoveAndSort |
+|Surround with|**Ctrl+K, Ctrl+S** <br>(available only in Visual Studio 2019 and earlier)| Edit.SurroundWith |
 |Tab left|**Shift+Tab** [Text Editor, Report Designer, Windows Forms Editor]| Edit.TabLeft |
 |Toggle all outlining|**Ctrl+M, Ctrl+L** [Text Editor]| Edit.ToggleAllOutlining |
 |Toggle bookmark|**Ctrl+K, Ctrl+K** [Text Editor]| Edit.ToggleBookmark |
@@ -183,7 +185,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Server explorer|**Ctrl+Alt+S**| View.ServerExplorer |
 |Show smart tag|**Ctrl+.**<br /><br />or **Shift+Alt+F10** [HTML Editor Design View]| View.ShowSmartTag |
 |Solution explorer|**Ctrl+Alt+L**| View.SolutionExplorer |
-|TFS Team explorer|**Ctrl+\\, Ctrl+M**| View.TfsTeamExplorer |
+|TFS Team Explorer|**Ctrl+\\, Ctrl+M**| View.TfsTeamExplorer |
 |Toolbox|**Ctrl+Alt+X**| View.Toolbox |
 |View code|**Enter** [Class Diagram]<br /><br />or **F7** [Settings Designer]| View.ViewCode |
 |View designer|**Shift+F7** [HTML Editor Source View]| View.ViewDesigner |
@@ -197,7 +199,6 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Next document window|**Ctrl+F6**| Window.NextDocumentWindow |
 |Next document window nav|**Ctrl+Tab**| Window.NextDocumentWindowNav |
 |Next split pane|**F6**| Window.NextSplitPane |
-
 
 ## Global shortcuts
 
@@ -407,7 +408,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Size control up|**Ctrl+Shift+Up Arrow**| Edit.SizeControlUp |
 |Size control up grid|**Shift+Up Arrow**| Edit.SizeControlUpGrid |
 |Stop search|**Alt+F3, S**| Edit.StopSearch |
-|Surround with|**Ctrl+K, Ctrl+S**| Edit.SurroundWith |
+|Surround with|**Ctrl+K, Ctrl+S** <br>(available only in Visual Studio 2019 and earlier)| Edit.SurroundWith |
 |Undo|**Ctrl+Z**<br /><br /> or<br /><br /> **Alt+Backspace**| Edit.Undo |
 
 ### <a name="bkmk_editorContext-global-shortcuts"></a> Editor context menus: global shortcuts
@@ -589,7 +590,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Server explorer|**Ctrl+Alt+S**| View.ServerExplorer |
 |Show smart tag|**Shift+Alt+F10**<br /><br /> or<br /><br /> **Ctrl+.**| View.ShowSmartTag |
 |Solution explorer|**Ctrl+Alt+L**| View.SolutionExplorer |
-|SQL server object explorer|**Ctrl+\\, Ctrl+S**| View.SQLServerObjectExplorer |
+|SQL Server object explorer|**Ctrl+\\, Ctrl+S**| View.SQLServerObjectExplorer |
 |Task list|**Ctrl+\\, T**<br /><br /> or<br /><br /> **Ctrl+\\, Ctrl+T**| View.TaskList |
 |TFS team explorer|**Ctrl+\\, Ctrl+M**| View.TfsTeamExplorer |
 |Toolbox|**Ctrl+Alt+X**| View.Toolbox |
@@ -704,7 +705,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |Collapse|**Num -**| ClassDiagram.Collapse |
@@ -719,7 +719,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |Copy reference to clipboard|**Ctrl+C**| OtherContextMenus.UITestEditorContextMenu.CopyReferencetoClipboard |
@@ -733,7 +732,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |Insert column|**Insert**| OtherContextMenus.ColumnContext.InsertColumn |
@@ -742,7 +740,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_difference-viewer-context-specific-shortcuts"></a> Difference Viewer: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -762,7 +759,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |Refresh|**F5**| DOMExplorer.Refresh |
@@ -773,7 +769,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Command|Keyboard shortcut|Command ID|
 |-|-|-|
 |Cancel interactive evaluation|**Ctrl+Break**| OtherContextMenus.FSIConsoleContext.CancelInteractiveEvaluation |
@@ -781,7 +776,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_graph-document-editor-context-specific-shortcuts"></a> Graph Document Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -796,7 +790,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_graphics-diagnostics-context-specific-shortcuts"></a> Graphics Diagnostics: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -814,7 +807,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Command|Keyboard shortcut|Command ID|
 |-|-|-|
 |Go to controller|**Ctrl+M, Ctrl+G**| OtherContextMenus.HTMLContext.GoToController |
@@ -822,7 +814,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_html-editor-design-view-context-specific-shortcuts"></a> HTML Editor Design View: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -849,7 +840,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |Go to controller|**Ctrl+M, Ctrl+G**| OtherContextMenus.HTMLContext.GoToController |
@@ -862,7 +852,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Command|Keyboard shortcut|Command ID|
 |-|-|-|
 |Delete|**Shift+Delete**| Edit.Delete |
@@ -870,7 +859,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_managed-resources-editor-context-specific-shortcuts"></a> Managed Resources Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -889,7 +877,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |Set focus on left window|**Alt+1**| TeamFoundationContextMenus.MergeContextMenu.SetFocusonLeftWindow |
@@ -899,7 +886,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_microsoft-sql-server-data-tools-schema-compare-context-specific-shortcuts"></a> Microsoft SQL Server Data Tools, Schema Compare: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -914,24 +900,22 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
-|CommitAllEdits|**Shift+Alt+U**|
+|Commit all edits|**Shift+Alt+U**|CommitAllEdits |
 |Expand wildcards|**Ctrl+R, E**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+E**| SQL.ExpandWildcards |
 |Fully qualify names|**Ctrl+R, Q**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+Q**| SQL.FullyqualifyNames |
 |Move to schema|**Ctrl+R, M**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+M**| SQL.MovetoSchema |
 |Rename|**F2**<br /><br /> or<br /><br /> **Ctrl+R, R**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+R**| SQL.Rename |
-|ViewFileInScriptPanel|**Shift+Alt+PgDn**| |
+|View file in Script Panel|**Shift+Alt+PgDn**| ViewFileInScriptPanel |
 
 ### <a name="bkmk_microsoft-sql-server-data-tools-t-sql-editor-context-specific-shortcuts"></a> Microsoft SQL Server Data Tools, T-SQL Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
-|CommitAllEdits|**Shift+Alt+U**|
+|Commit all edits|**Shift+Alt+U**|CommitAllEdits |
 |Execute with debugger|**Alt+F5**| SQL.ExecuteWithDebugger |
 |Expand wildcards|**Ctrl+R, E**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+E**| SQL.ExpandWildcards |
 |Fully qualify names|**Ctrl+R, Q**<br /><br /> or<br /><br /> **Ctrl+R, Ctrl+Q**| SQL.FullyqualifyNames |
@@ -952,7 +936,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |T SQL editor cancel query|**Alt+Break**| SQL.TSqlEditorCancelQuery |
@@ -970,7 +953,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Command|Keyboard shortcut|Command ID|
 |-|-|-|
 |Minimize|**F12**| PageInspector.Minimize |
@@ -978,7 +960,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_query-designer-context-specific-shortcuts"></a> Query Designer: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -995,7 +976,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |Query results new row|**Alt+End**| SQL.QueryResultsNewRow |
@@ -1005,7 +985,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_report-designer-context-specific-shortcuts"></a> Report Designer: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -1035,7 +1014,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |Navigate to code|**F12**| ArchitectureDesigner.Sequence.NavigateToCode |
@@ -1044,7 +1022,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_settings-designer-context-specific-shortcuts"></a> Settings Designer: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -1057,15 +1034,14 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Command|Keyboard shortcut|Command ID|
 |-|-|-|
 |View in page inspector|**Ctrl+K, Ctrl+G**| ClassViewContextMenus.ClassViewProject.View.ViewinPageInspector |
+|Quick add new item or class|**Shift+F2**| AddQuickFile |
 
 ### <a name="bkmk_team-explorer-context-specific-shortcuts"></a> Team Explorer: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Command|Keyboard Shortcut|Command ID|
 |-|-|-|
@@ -1094,7 +1070,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Command|Keyboard shortcut|Command ID|
 |-|-|-|
 |Open test|**F12**| TestExplorer.OpenTest |
@@ -1102,7 +1077,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_text-editor-context-specific-shortcuts"></a> Text Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 | Commands | Keyboard shortcuts |Command ID|
 |-|-|-|
@@ -1225,7 +1199,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Command|Keyboard shortcut|Command ID|
 |-|-|-|
 |Delete|**Shift+Del**| Edit.Delete |
@@ -1233,7 +1206,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_uml-class-diagram-context-specific-shortcuts"></a> UML class diagram: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Command|Keyboard shortcut|Command ID|
 |-|-|-|
@@ -1243,7 +1215,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Command|Keyboard shortcut|Command ID|
 |-|-|-|
 |Delete from model|**Shift+Del**| Edit.DeleteFromModel |
@@ -1251,7 +1222,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_uml-use-case-diagram-context-specific-shortcuts"></a> UML use case diagram: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Command|Keyboard shortcut|Command ID|
 |-|-|-|
@@ -1261,7 +1231,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |New accelerator|**Insert**| Edit.NewAccelerator |
@@ -1270,7 +1239,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_vc-dialog-editor-context-specific-shortcuts"></a> VC Dialog Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -1307,7 +1275,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_vc-image-editor-context-specific-shortcuts"></a> VC Image Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -1353,7 +1320,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Command|Keyboard shortcut|Command ID|
 |-|-|-|
 |New string|**Insert**| Edit.NewString |
@@ -1361,7 +1327,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_view-designer-context-specific-shortcuts"></a> View Designer: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -1378,7 +1343,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Command|Keyboard shortcut|Command ID|
 |-|-|-|
 |Hide methods pane|**Ctrl+1**| OtherContextMenus.ORDesignerContext.HideMethodsPane |
@@ -1386,7 +1350,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_windows-forms-designer-context-specific-shortcuts"></a> Windows Forms Designer: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -1419,7 +1382,6 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |Create copy of work item|**Shift+Alt+C**| Edit.CreateCopyofWorkItem |
@@ -1429,7 +1391,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_work-item-query-view-context-specific-shortcuts"></a> Work Item Query View: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -1443,7 +1404,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_work-item-results-view-context-specific-shortcuts"></a> Work Item Results View: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -1459,7 +1419,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_workflow-designer-context-specific-shortcuts"></a> Workflow Designer: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -1491,17 +1450,15 @@ The shortcuts specific to this context are:
 
 The shortcuts specific to this context are:
 
-
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
 |Fit all|**Ctrl+0** (zero)| Design.FitAll |
 |Show handles|**F9**| Design.ShowHandles |
 |Zoom in|**Ctrl+Alt+=**| Design.ZoomIn |
 |Zoom out|**Ctrl+Alt+-**| Design.ZoomOut |
-|Designer options|**Ctrl+Shift+;**|
 |Edit text|**F2**| Format.EditText |
 |All|**Ctrl+Shift+R**| Format.ResetLayout.All |
-|Run project code|**Ctrl+F9**|
+|Run project code|**Ctrl+F9**| Design.RunProjectCode |
 |Hide (Blend only)|**Ctrl+H**| Timeline.Hide (Blend only) |
 |Lock (Blend only)|**Ctrl+L**| Timeline.Lock (Blend only) |
 |Show (Blend only)|**Ctrl+Shift+H**| Timeline.Show (Blend only) |
@@ -1512,10 +1469,11 @@ The shortcuts specific to this context are:
 |Edge right move right|**Ctrl+Shift+Alt+.**| View.EdgeRightMoveRight |
 |Show property marker menu|**Ctrl+Spacebar**| View.ShowPropertyMarkerMenu |
 
+For detailed info, see [Keyboard shortcuts for XAML Designer](../xaml-tools/keyboard-shortcuts-for-xaml-designer.md) and [Keyboard shortcuts in Blend for Visual Studio](../xaml-tools/keyboard-shortcuts-in-blend.md).
+
 ### <a name="bkmk_xml-text-editor-context-specific-shortcuts"></a> XML (Text) Editor: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -1525,7 +1483,6 @@ The shortcuts specific to this context are:
 ### <a name="bkmk_xml-schema-designer-context-specific-shortcuts"></a> XML Schema Designer: context specific shortcuts
 
 The shortcuts specific to this context are:
-
 
 |Commands|Keyboard shortcuts|Command ID|
 |-|-|-|
@@ -1537,4 +1494,3 @@ The shortcuts specific to this context are:
 |Show content model view|**Ctrl+2**| XsdDesigner.ShowContentModelView |
 |Show graph view|**Ctrl+3**| XsdDesigner.ShowGraphView |
 |Show start view|**Ctrl+1**| XsdDesigner.ShowStartView |
-

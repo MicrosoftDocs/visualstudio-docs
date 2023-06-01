@@ -1,7 +1,6 @@
 ---
 title: Find potential problems using code map analyzers
 description: Learn how you can run analyzers on code maps to help you identify code that might be overly complex or that might need improvement.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # Find potential problems using code map analyzers
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Run analyzers on code maps to help you identify code that might be overly complex or that might need improvement. For example, you can use these analyzers:
 

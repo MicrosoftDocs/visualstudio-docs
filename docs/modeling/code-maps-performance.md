@@ -1,7 +1,6 @@
 ---
 title: Code maps are slow
 description: Learn how to improve code map performance and how you can minimize the time required to finish rendering.
-ms.custom: SEO-VS-2020
 ms.date: 05/16/2018
 ms.topic: conceptual
 author: mgoertz-msft
@@ -12,6 +11,8 @@ ms.workload:
 - multiple
 ---
 # Improve performance for code maps
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When you generate a map for the first time, Visual Studio indexes all the dependencies that it finds. This process might take some time, especially for large solutions, but improves later performance. If your code changes, Visual Studio reindexes just the updated code. To minimize the time taken for the map to finish rendering, consider the following suggestions:
 

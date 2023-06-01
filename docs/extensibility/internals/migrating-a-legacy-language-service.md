@@ -1,20 +1,21 @@
 ---
 title: Migrating a Legacy Language Service | Microsoft Docs
 description: Learn how to update a language service to the latest version of Visual Studio by updating the project and adding a source.extension.vsixmanifest file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - language services, migrating
 ms.assetid: e0f666a0-92a7-4f9c-ba79-d05b13fb7f11
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Migrating a Legacy Language Service
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can migrate a legacy language service to a later version of Visual Studio by updating the project and adding a source.extension.vsixmanifest file to the project. The language service itself will continue to function as before, because the Visual Studio editor adapts it.
 
  Legacy language services are implemented as part of a VSPackage, but the newer way to implement language service features is to use MEF extensions. To find out more about the new way to implement a language service, see [Editor and Language Service Extensions](../../extensibility/editor-and-language-service-extensions.md).

@@ -1,11 +1,10 @@
 ---
 title: Visual C++ code snippets
 description: Learn how to use code snippets to add commonly used code to your C++ code files.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
-author: corob-msft
-ms.author: corob
+author: tylermsft
+ms.author: twhitney
 manager: markl
 dev_langs:
  - CPP
@@ -13,6 +12,8 @@ ms.workload:
   - "cplusplus"
 ---
 # Visual C++ code snippets
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 In Visual Studio, you can use code snippets to add commonly-used code to your C++ code files. In general, you can use code snippets in much the same way as in C#, but the set of default code snippets is different.
 

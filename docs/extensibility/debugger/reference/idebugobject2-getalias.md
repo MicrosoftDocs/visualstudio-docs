@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugObject2::GetAlias method
 ms.assetid: aa6824d5-c932-42ba-8713-950e7d1fb42f
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugObject2::GetAlias
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the alias associated with this object, if any.
 
 ## Syntax
 
-```cpp
-HRESULT GetAlias(
-   IDebugAlias** ppAlias
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAlias(
    out IDebugAlias ppAlias
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAlias(
+   IDebugAlias** ppAlias
+);
+```
+---
 
 ## Parameters
 `ppAlias`\

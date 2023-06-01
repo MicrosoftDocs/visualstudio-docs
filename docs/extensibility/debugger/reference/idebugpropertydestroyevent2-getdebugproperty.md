@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPropertyDestroyEvent2::GetDebugProperty
 ms.assetid: c96ae785-0ac8-4df4-8df3-15a8d7e13687
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPropertyDestroyEvent2::GetDebugProperty
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the property to be destroyed.
 
 ## Syntax
 
-```cpp
-HRESULT GetDebugProperty ( 
-   IDebugProperty2** ppProperty
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetDebugProperty ( 
    out IDebugProperty2 ppProperty
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetDebugProperty ( 
+   IDebugProperty2** ppProperty
+);
+```
+---
 
 ## Parameters
 `ppProperty`\

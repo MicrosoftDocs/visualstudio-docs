@@ -1,7 +1,6 @@
 ---
 title: Convert text to uppercase or lowercase
 description: Learn how to use menu commands or keyboard shortcuts to convert the case of selected text to all upper case or to all lower case.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -16,6 +15,8 @@ ms.workload:
 - multiple
 ---
 # How to: Change text case in the editor
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use menu commands or keyboard shortcuts to convert the case of selected text to all upper case or to all lower case.
 

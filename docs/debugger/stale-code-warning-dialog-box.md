@@ -1,9 +1,8 @@
 ---
 title: "Stale Code Warning Dialog Box | Microsoft Docs"
 description: Read about the Stale Code Warning dialog box, which appears when you've made changes to native code that Edit and Continue couldn't immediately apply.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.ENC.stalecode"
 dev_langs:
@@ -25,6 +24,8 @@ ms.workload:
   - "multiple"
 ---
 # Stale Code Warning Dialog Box
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This dialog box appears when you have made changes to native code that **Edit and Continue** could not immediately apply. As a result, some native code in the current stack frame is now out of date, that is, stale. For more information, see [Edit and continue (C++)](edit-and-continue-visual-cpp.md).
 

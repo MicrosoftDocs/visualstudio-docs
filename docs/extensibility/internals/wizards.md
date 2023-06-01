@@ -1,25 +1,26 @@
 ---
 title: Wizards | Microsoft Docs
 description: Learn how to list your wizard among the available wizards and templates in Visual Studio and about the requirements that your wizard must meet in the IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - projects [Visual Studio SDK], providing wizard support
 ms.assetid: 59d9a77f-ee80-474b-a14f-90f477ab717b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Wizards
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 After you create a wizard, you typically want to add it to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) so that others can use it. The added wizard then appears in the **Add New Project** or **Add New Item** dialog boxes. To see the **Add New Project** or **Add New Item** dialog boxes, right-click an open solution in **Solution Explorer**, point to **Add**, and then click **New Project** or **New Item**.
 
  Wizards can be implemented in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to let users select from a tree view of available values when they open the **Add New Project** dialog box or the **Add New Item** dialog box, or when they right-click an item in **Solution Explorer**.
 
- In your wizard, you can provide the option of localizing the name of a new project or ites, and you can determine the icon that users will see when they select the wizard. You can also control the order in which new items appear relative to other available items; items do not have to be organized alphabetically.
+ In your wizard, you can provide the option of localizing the name of a new project or item, and you can determine the icon that users will see when they select the wizard. You can also control the order in which new items appear relative to other available items; items do not have to be organized alphabetically.
 
  You can also supply a wizard that starts differently, based on custom parameters that are passed to the wizard when it is opened.
 

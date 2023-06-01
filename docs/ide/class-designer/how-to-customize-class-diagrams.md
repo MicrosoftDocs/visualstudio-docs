@@ -1,7 +1,6 @@
 ---
 title: 'How to: Customize Class Diagrams (Class Designer)'
 description: Learn how to change the way that class diagrams display information, and how to customize the whole diagram or the individual types on the design surface.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -18,6 +17,8 @@ ms.workload:
 - multiple
 ---
 # How to: Customize class diagrams
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can change the way that class diagrams display information. You can customize the whole diagram or the individual types on the design surface.
 

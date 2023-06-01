@@ -1,7 +1,7 @@
 ---
 title: Control updates to deployments
 description: Learn how to change where Visual Studio looks for an update when you install from a network.
-ms.date: 10/22/2021
+ms.date: 11/23/2021
 ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -15,8 +15,11 @@ ms.workload:
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---
-
 # Control updates to network-based Visual Studio deployments
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+> [!WARNING]
+> THIS CONTENT IS INTENDED TO BE DEPRECATED AS IT'S BEEN MERGED INTO OTHER PAGES. This page has been removed from the TOC.
 
 Enterprise administrators often create a layout and host it on a network file share to deploy to their end users. This page describes how to configure your network layout options properly.
 
@@ -78,127 +81,6 @@ Any installation update initiated from the client will automatically install the
 
 In some cases, the client machine may have already installed Visual Studio from the web, but now the administrator wants to have all future updates come from a managed layout. The only supported way to do this is to create a network layout with the desired version of the product, and then on the client machine, run the bootstrapper _from the layout location_ (e.g. `\\server\share\vs_enterprise.exe`). Ideally, the original client install would have happened using the bootstrapper from the network layout with the correctly configured ChannelURI, but running the updated bootstrapper from the network layout location will also work. Either one of these actions would embed, on the client machine, a connection with that particular layout location. The only caveat for this scenario to work correctly is that the “ChannelURI” in the layout’s `response.json` file must be the same as the ChannelURI that was set on the client’s machine when the original install happened. Most likely this value was originally set to the internet [release channel](https://aka.ms/vs/16/release/channel).
 
-## Controlling notifications in the Visual Studio IDE
-
-::: moniker range="vs-2017"
-
-As described earlier, Visual Studio checks the location from which it has been installed, such as a network share or the internet, to see whether any updates are available. When an update is available, Visual Studio notifies the user with a notification flag in the top right-hand corner of the window.
-
-   ![Notification flag for updates](media/notification-flag.png)
-
-::: moniker-end
-
-::: moniker range=">=vs-2019"
-
-As described earlier, Visual Studio checks the location from which it has been installed, such as a network share or the internet, to see whether any updates are available. When an update is available, Visual Studio notifies the user with a notification icon in the lower right-hand corner of the window.
-
-   ![The notification icon in the Visual Studio IDE](media/vs-2019/notification-bar.png "The notification icon in the Visual Studio IDE")
-
-::: moniker-end
-
-You can disable the notifications if you don't want end users to be notified of updates. (For example, you might want to disable notifications if you deliver updates through a central software distribution mechanism.)
-
-::: moniker range="vs-2017"
-
-Because Visual Studio 2017 [stores registry entries in a private registry](tools-for-managing-visual-studio-instances.md#editing-the-registry-for-a-visual-studio-instance), you can't directly edit the registry in the typical way. However, Visual Studio includes a `vsregedit.exe` utility that you can use to change Visual Studio settings. You can turn off notifications with the following command:
-
-```shell
-vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 0
-```
-
-You can turn notifications back on with the following command:
-
-```shell
-vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 1
-```
-
-To get back to default behavior, you can also delete the value with the following command:
-
-```shell
-vsregedit.exe remove "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override
-```
-
-After you run the command to change Visual Studio settings, start Visual Studio. Any already-running instances of Visual Studio won't change behavior until Visual Studio is shut down and restarted. As another option, you can restart the computer to make sure the setting takes effect.
-
-You can confirm the setting with the following command:
-
-```shell
-vsregedit.exe read "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword
-```
-
-If the value doesn’t exist (this is the condition by default), the previous command will indicate it failed to read the value. If you set the value, then the previous command will reflect the value in the Visual Studio configuration (it will indicate either 0 or 1, or whatever value it is set to – only 0 or 1 are expected).
-
-::: moniker-end
-
-::: moniker range="vs-2019"
-
-Because Visual Studio 2019 [stores registry entries in a private registry](tools-for-managing-visual-studio-instances.md#editing-the-registry-for-a-visual-studio-instance), you can't directly edit the registry in the typical way. However, Visual Studio includes a `vsregedit.exe` utility that you can use to change Visual Studio settings. You can turn off notifications with the following command:
-
-```shell
-vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 0
-```
-
-You can turn notifications back on with the following command:
-
-```shell
-vsregedit.exe set "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 1
-```
-
-To get back to default behavior, you can also delete the value with the following command:
-
-```shell
-vsregedit.exe remove "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override
-```
-
-After you run the command to change Visual Studio settings, start Visual Studio. Any already-running instances of Visual Studio won't change behavior until Visual Studio is shut down and restarted. As another option, you can restart the computer to make sure the setting takes effect.
-
-You can confirm the setting with the following command:
-
-```shell
-vsregedit.exe read "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword
-```
-
-If the value doesn’t exist (this is the condition by default), the previous command will indicate it failed to read the value. If you set the value, then the previous command will reflect the value in the Visual Studio configuration (it will indicate either 0 or 1, or whatever value it is set to – only 0 or 1 are expected).
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
-
-Because Visual Studio 2022 [stores registry entries in a private registry](tools-for-managing-visual-studio-instances.md#editing-the-registry-for-a-visual-studio-instance), you can't directly edit the registry in the typical way. However, Visual Studio includes a `vsregedit.exe` utility that you can use to change Visual Studio settings. You can turn off notifications with the following command:
-
-```shell
-vsregedit.exe set "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 0
-```
-
-You can turn notifications back on with the following command:
-
-```shell
-vsregedit.exe set "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 1
-```
-
-To get back to default behavior, you can also delete the value with the following command:
-
-```shell
-vsregedit.exe remove "c:\Program Files\Microsoft Visual Studio\2022\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override
-```
-
-After you run the command to change Visual Studio settings, start Visual Studio. Any already-running instances of Visual Studio won't change behavior until Visual Studio is shut down and restarted. As another option, you can restart the computer to make sure the setting takes effect.
-
-You can confirm the setting with the following command:
-
-```shell
-vsregedit.exe read "c:\Program Files\Microsoft Visual Studio\2022\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword
-```
-
-If the value doesn’t exist (this is the condition by default), the previous command will indicate it failed to read the value. If you set the value, then the previous command will reflect the value in the Visual Studio configuration (it will indicate either 0 or 1, or whatever value it is set to – only 0 or 1 are expected).
-
-::: moniker-end
-
-(Make sure to replace the directory to match the installed instance that you want to edit.)
-
-> [!TIP]
-> Use [vswhere.exe](tools-for-managing-visual-studio-instances.md#detecting-existing-visual-studio-instances) to find a specific instance of Visual Studio on a client workstation.
-
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
@@ -208,4 +90,4 @@ If the value doesn’t exist (this is the condition by default), the previous co
 * [Applying administrator updates](applying-administrator-updates.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
-* [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
+* [Visual Studio product lifecycle and servicing](/visualstudio/productinfo/vs-servicing)

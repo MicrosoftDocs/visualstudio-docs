@@ -1,7 +1,6 @@
 ---
 title: "Create workflow with association and initiation forms"
 description: In this SharePoint walkthrough, create a basic sequential workflow that incorporates the use of association and initiation forms.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -22,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # Walkthrough: Create a workflow with association and initiation forms
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This walkthrough demonstrates how to create a basic sequential workflow that incorporates the use of association and initiation forms. These are ASPX forms that enable parameters to be added to a workflow when it is first associated by the SharePoint administrator (the association form), and when the workflow is started by the user (the initiation form).
 
  This walkthrough outlines a scenario where a user wants to create an approval workflow for expense reports that has the following requirements:
@@ -137,15 +138,7 @@ ms.workload:
 
 5. Replace the `GetAssociationData` method with:
 
-    ```vb
-    Private Function GetAssociationData() As String
-        ' TODO: Return a string that contains the association data that
-        ' will be passed to the workflow. Typically, this is in XML
-        ' format.
-        Return Me.AutoApproveLimit.Text
-    End Function
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     private string GetAssociationData()
     {
@@ -155,6 +148,17 @@ ms.workload:
         return this.AutoApproveLimit.Text;
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Private Function GetAssociationData() As String
+        ' TODO: Return a string that contains the association data that
+        ' will be passed to the workflow. Typically, this is in XML
+        ' format.
+        Return Me.AutoApproveLimit.Text
+    End Function
+    ```
+    ---
 
 ## Add an initiation form to the workflow
  Next, create the initiation form that appears when users run the workflow against their expense reports.
@@ -199,16 +203,7 @@ ms.workload:
 
 5. Replace the `Page_Load` method with the following example:
 
-    ```vb
-    Protected Sub Page_Load(ByVal sender As Object, ByVal e As
-      EventArgs) Handles Me.Load
-        InitializeParams()
-        Me.AutoApproveLimit.Text = workflowList.WorkflowAssociations(New
-          Guid(associationGuid)).AssociationData
-        ' Optionally, add code here to pre-populate your form fields.
-    End Sub
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -219,19 +214,21 @@ ms.workload:
     }
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As
+      EventArgs) Handles Me.Load
+        InitializeParams()
+        Me.AutoApproveLimit.Text = workflowList.WorkflowAssociations(New
+          Guid(associationGuid)).AssociationData
+        ' Optionally, add code here to pre-populate your form fields.
+    End Sub
+    ```
+    ---
+
 6. Replace the `GetInitiationData` method with the following example:
 
-    ```vb
-    ' This method is called when the user clicks the button to start the workflow.
-    Private Function GetInitiationData() As String
-        Return Me.ExpenseTotal.Text
-        ' TODO: Return a string that contains the initiation data that
-        ' will be passed to the workflow. Typically, this is in XML
-        ' format.
-        Return String.Empty
-    End Function
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     // This method is called when the user clicks the button to start the workflow.
     private string GetInitiationData()
@@ -242,6 +239,19 @@ ms.workload:
         return this.ExpenseTotal.Text;
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    ' This method is called when the user clicks the button to start the workflow.
+    Private Function GetInitiationData() As String
+        Return Me.ExpenseTotal.Text
+        ' TODO: Return a string that contains the initiation data that
+        ' will be passed to the workflow. Typically, this is in XML
+        ' format.
+        Return String.Empty
+    End Function
+    ```
+    ---
 
 ## Cutomize the workflow
  Next, customize the workflow. Later, you will associate two forms to the workflow.
@@ -297,18 +307,7 @@ ms.workload:
 
 2. Add the following method:
 
-    ```vb
-    Private Sub createTask1_MethodInvoking(ByVal sender As
-      System.Object, ByVal e As System.EventArgs)
-        createTask1_TaskId1 = Guid.NewGuid
-        createTask1_TaskProperties1.AssignedTo = "somedomain\\someuser"
-        createTask1_TaskProperties1.Description = "Please approve the
-          expense report"
-        createTask1_TaskProperties1.Title = "Expense Report Approval
-          Needed"
-    End Sub
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     private void createTask1_MethodInvoking(object sender, EventArgs e)
     {
@@ -321,23 +320,26 @@ ms.workload:
     }
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    Private Sub createTask1_MethodInvoking(ByVal sender As
+      System.Object, ByVal e As System.EventArgs)
+        createTask1_TaskId1 = Guid.NewGuid
+        createTask1_TaskProperties1.AssignedTo = "somedomain\\someuser"
+        createTask1_TaskProperties1.Description = "Please approve the
+          expense report"
+        createTask1_TaskProperties1.Title = "Expense Report Approval
+          Needed"
+    End Sub
+    ```
+    ---
+
     > [!NOTE]
     > In the code, replace `somedomain\\someuser` with a domain and user name for which a task will be created, such as, "`Office\\JoeSch`". For testing it is easiest to use the account you are developing with.
 
 3. Below the `MethodInvoking` method, add the following example:
 
-    ```vb
-    Private Sub checkApprovalNeeded(ByVal sender As Object, ByVal e As
-      ConditionalEventArgs)
-        Dim approval As Boolean = False
-        If (Convert.ToInt32(workflowProperties.InitiationData) >
-          Convert.ToInt32(workflowProperties.AssociationData)) Then
-            approval = True
-        End If
-        e.Result = approval
-    End Sub
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     private void checkApprovalNeeded(object sender, ConditionalEventArgs
       e)
@@ -352,6 +354,20 @@ ms.workload:
     }
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    Private Sub checkApprovalNeeded(ByVal sender As Object, ByVal e As
+      ConditionalEventArgs)
+        Dim approval As Boolean = False
+        If (Convert.ToInt32(workflowProperties.InitiationData) >
+          Convert.ToInt32(workflowProperties.AssociationData)) Then
+            approval = True
+        End If
+        e.Result = approval
+    End Sub
+    ```
+    ---
+
 4. In the workflow designer, choose the **ifElseBranchActivity1** activity.
 
 5. In the **Properties** window, choose the drop-down arrow of the **Condition** property, and then set the *Code Condition* value.
@@ -362,14 +378,7 @@ ms.workload:
 
 8. Replace the `MethodInvoking` code with the following:
 
-    ```vb
-    Private Sub logToHistoryListActivity1_MethodInvoking(ByVal sender As
-      System.Object, ByVal e As System.EventArgs)
-        Me.logToHistoryListActivity1.HistoryOutcome = ("Expense was auto
-          approved for " + workflowProperties.InitiationData)
-    End Sub
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     private void logToHistoryListActivity1_MethodInvoking(object sender,
       EventArgs e)
@@ -378,6 +387,16 @@ ms.workload:
           auto approved for " + workflowProperties.InitiationData;
     }
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    Private Sub logToHistoryListActivity1_MethodInvoking(ByVal sender As
+      System.Object, ByVal e As System.EventArgs)
+        Me.logToHistoryListActivity1.HistoryOutcome = ("Expense was auto
+          approved for " + workflowProperties.InitiationData)
+    End Sub
+    ```
+    ---
 
 9. Choose the **F5** key to debug the program.
 

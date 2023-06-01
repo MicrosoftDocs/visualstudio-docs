@@ -6,14 +6,16 @@ ms.topic: reference
 helpviewer_keywords:
 - IDebugCustomAttributeQuery interface
 ms.assetid: b804b619-70eb-4c38-80d9-c8b32b65ed3e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # IDebugCustomAttributeQuery
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents a query for custom attributes on a method or type.
 
 ## Syntax

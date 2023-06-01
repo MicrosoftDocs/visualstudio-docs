@@ -1,7 +1,6 @@
 ---
 title: "Exploration bounds | Microsoft IntelliTest Developer Test Tool"
 description: PexSettingsAttributeBase is the abstract base class for settings bounds as attributes. Learn to modify the settings by using named properties.
-ms.custom: SEO-VS-2020
 ms.date: 05/02/2017
 ms.topic: reference
 helpviewer_keywords:
@@ -14,6 +13,8 @@ ms.workload:
 author: mikejo5000
 ---
 # Exploration bounds
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **PexSettingsAttributeBase** is the abstract base class for settings bounds as attributes. See [Settings Waterfall](settings-waterfall.md) for an overview of settings in IntelliTest.
 

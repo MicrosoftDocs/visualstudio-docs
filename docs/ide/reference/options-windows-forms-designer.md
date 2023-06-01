@@ -1,8 +1,7 @@
 ---
 title: Options, Windows Forms Designer, General
 description: Learn how to use the General page to set preferences for the grids and other features of the Windows Forms Designer in Visual Studio.
-ms.custom: SEO-VS-2020
-ms.date: 08/09/2019
+ms.date: 07/07/2022
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.WindowsFormsDesigner.General
@@ -16,7 +15,21 @@ ms.technology: vs-ide-general
 ---
 # Options dialog box: Windows Forms Designer
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 The Windows Forms Designer options page lets you set preferences for the grids and other features of the Windows Forms Designer in Visual Studio. Open the **Options** dialog box from the **Tools** menu.
+
+## .NET Core
+
+::: moniker range="vs-2022"
+
+**Connection timeout (sec)**\
+Controls the Windows Forms out-of-process designer connection timeout, as measured in seconds. The minimum value is 120 seconds.
+
+::: moniker-end
+
+**Logging Level**\
+Controls the logging level for the Windows Forms out-of-process designer. The options include None, Informational, Warnings, Errors, and Verbose.
 
 ## Code Generation Settings
 
@@ -26,7 +39,7 @@ Enables optimized code generation. Some controls may not be compatible with this
 ## High-DPI Support
 
 **DPI Scaling Notifications**\
-Show a message in Windows Form Designer that can restart Visual Studio with 100% scaling. For more information, see [Disable DPI-awareness in Visual Studio](/dotnet/framework/winforms/disable-dpi-awareness-visual-studio).
+Show a message in Windows Form Designer that can restart Visual Studio with 100% scaling. 
 
 ## Layout Settings
 

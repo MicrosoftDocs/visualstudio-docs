@@ -8,14 +8,16 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngine3 interface
 ms.assetid: 8bdf4bb7-3b5d-4991-8981-772d4f6bb656
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # IDebugEngine3
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Represents a single debug engine (DE) that controls the debugging of one or more modules.
 
 ## Syntax

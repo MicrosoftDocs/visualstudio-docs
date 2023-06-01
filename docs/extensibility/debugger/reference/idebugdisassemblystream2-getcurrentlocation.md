@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugDisassemblyStream2::GetCurrentLocation
 ms.assetid: 512302f1-12b1-4107-8a6e-c5bc878ce1c3
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugDisassemblyStream2::GetCurrentLocation
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Returns a code location identifier that represents the current code location.
 
 ## Syntax
 
-```cpp
-HRESULT GetCurrentLocation( 
-   UINT64* puCodeLocationId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetCurrentLocation( 
    out ulong puCodeLocationId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetCurrentLocation( 
+   UINT64* puCodeLocationId
+);
+```
+---
 
 ## Parameters
 `puCodeLocationId`\

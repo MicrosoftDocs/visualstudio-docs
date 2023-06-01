@@ -1,7 +1,6 @@
 ---
 title: 64-bit support
 description: Learn how to set up your applications to target different platforms, including 64-bit platforms.
-ms.custom: SEO-VS-2020
 ms.date: 07/19/2021
 ms.topic: conceptual
 helpviewer_keywords:
@@ -16,6 +15,8 @@ ms.workload:
 - multiple
 ---
 # Visual Studio IDE 64-Bit support
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio enables you to set up your applications to target different platforms, including 64-bit platforms. For more information on 64-bit platform support in Visual Studio, see [64-bit applications](/dotnet/framework/64-bit-apps).
 

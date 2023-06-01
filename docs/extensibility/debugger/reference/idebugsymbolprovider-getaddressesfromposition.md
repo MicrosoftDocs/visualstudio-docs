@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugSymbolProvider::GetAddressesFromPosition method
 ms.assetid: 1b0f02cb-8ace-4614-88f3-0e10239012b3
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,13 @@ dev_langs:
 - CSharp
 ---
 # IDebugSymbolProvider::GetAddressesFromPosition
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method maps a document position into an array of debug addresses.
 
 ## Syntax
 
-```cpp
-HRESULT GetAddressesFromPosition( 
-   IDebugDocumentPosition2* pDocPos,
-   BOOL                     fStatmentOnly,
-   IEnumDebugAddresses**    ppEnumBegAddresses,
-   IEnumDebugAddresses**    ppEnumEndAddresses
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetAddressesFromPosition( 
    IDebugDocumentPosition2  pDocPos,
@@ -40,6 +34,16 @@ int GetAddressesFromPosition( 
    out IEnumDebugAddresses  ppEnumEndAddresses
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetAddressesFromPosition( 
+   IDebugDocumentPosition2* pDocPos,
+   BOOL                     fStatmentOnly,
+   IEnumDebugAddresses**    ppEnumBegAddresses,
+   IEnumDebugAddresses**    ppEnumEndAddresses
+);
+```
+---
 
 ## Parameters
 `pDocPos`\

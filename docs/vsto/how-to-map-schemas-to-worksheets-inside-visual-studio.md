@@ -21,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # How to: Map schemas to worksheets inside Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can map an XML schema to a worksheet while the worksheet is open in Visual Studio. You use the same Microsoft Office Excel tools that you use when the workbook is open outside of Visual Studio. The Office project creates the same objects whether you map the schema to the worksheet before or after you create your Excel solution.
 
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]

@@ -1,7 +1,6 @@
 ---
 title: The designer cannot be modified while debugging
 description: 'The designer cannot be modified while debugging. View information about this Visual Studio Object Relational Designer (O/R Designer) message.'
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: error-reference
 ms.assetid: 487dafe4-d57c-4be1-9e3a-bb0a8699b2fa
@@ -13,6 +12,8 @@ ms.workload:
 - data-storage
 ---
 # The designer cannot be modified while debugging
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This message appears when an attempt is made to modify items on the **O/R Designer** when the application is running in debug mode. When the application is running in debug mode, the **O/R Designer** is read-only.
 

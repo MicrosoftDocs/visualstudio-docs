@@ -14,6 +14,8 @@ ms.workload:
 ---
 # Live Unit Testing overview
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 Live Unit Testing executes your unit tests automatically and in real time as you make code changes. This lets you refactor and change code with greater confidence. Live Unit Testing automatically executes all impacted tests as you edit your code to ensure that your changes do not introduce regressions.
 
 Live Unit Testing indicates whether your unit tests adequately cover your code. It graphically depicts code coverage in real time. You can see at a glance how many tests cover each line of code and which lines are not covered by any unit tests.
@@ -30,10 +32,6 @@ To learn more about Live Unit Testing:
 - Read detailed documentation: [Use Live Unit Testing with Visual Studio Enterprise Edition](live-unit-testing.md).
 
 - Read the [Live Unit Testing FAQ](live-unit-testing-faq.yml) to learn what's new in Live Unit Testing as well as tips and techniques.
-
-- Watch the Channel 9 video for an overview of Live Unit Testing and its features.</p>
-
-   > [!VIDEO https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T105/player]
 
 ## Related resources
 

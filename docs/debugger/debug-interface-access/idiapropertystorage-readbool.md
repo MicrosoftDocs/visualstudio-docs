@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaPropertyStorage::ReadBOOL
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Reads `BOOL` values in a property set.
 
 ## Syntax

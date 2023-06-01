@@ -1,7 +1,6 @@
 ---
 title: Bind test controller/test agent to a network adapter
 description: Learn how to bind a test controller or test agent to a network adapter by using an IP address, in case it is installed for multiple network adapters.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 
@@ -16,6 +15,8 @@ manager: jmartens
 ms.technology: vs-ide-test
 ---
 # How to: Bind a test controller or test agent to a network adapter
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If a computer that has the test controller or the test agent software installed has multiple network adapters, then you must specify the IP address instead of the name of the computer to identify that test controller or test agent.
 

@@ -1,7 +1,6 @@
 ---
 title: "ClickOnce and Authenticode | Microsoft Docs"
 description: Learn about certificates Authenticode uses to verify the authenticity of applications. Learn how certificates are validated and stored.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -23,6 +22,8 @@ ms.workload:
   - "multiple"
 ---
 # ClickOnce and Authenticode
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 *Authenticode* is a Microsoft technology that uses industry-standard cryptography to sign application code with digital certificates that verify the authenticity of the application's publisher. By using Authenticode for application deployment, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] reduces the risk of a Trojan horse. A Trojan horse is a virus or other harmful program that a malicious third party misrepresents as a legitimate program coming from an established, trustworthy source. Signing [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments with a digital certificate is an optional step to verify that the assemblies and files are not tampered.
 
  The following sections describe the different types of digital certificates used in Authenticode, how certificates are validated using Certificate Authorities (CAs), the role of time-stamping in certificates, and the methods of storage available for certificates.

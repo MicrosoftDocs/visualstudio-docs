@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPortSupplier2::EnumPorts
 ms.assetid: 88b57fd2-eba1-44fa-bd34-cf2ad2b1ff87
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortSupplier2::EnumPorts
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a list of all the ports supplied by a port supplier.
 
 ## Syntax
 
-```cpp
-HRESULT EnumPorts( 
-   IEnumDebugPorts2** ppEnum
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int EnumPorts( 
    out IEnumDebugPorts2 ppEnum
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT EnumPorts( 
+   IEnumDebugPorts2** ppEnum
+);
+```
+---
 
 ## Parameters
 `ppEnum`\

@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaPropertyStorage::ReadBSTR
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Reads `BSTR` values in a property set.
 
 ## Syntax

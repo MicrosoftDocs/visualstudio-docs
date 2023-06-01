@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugEngineCreateEvent2::GetEngine
 ms.assetid: 187d24ed-9f9a-4418-a0ef-b8a19f54652c
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugEngineCreateEvent2::GetEngine
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves the object that represents the newly created debug engine (DE).
 
 ## Syntax
 
-```cpp
-HRESULT GetEngine( 
-   IDebugEngine2** pEngine
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetEngine( 
    out IDebugEngine2 pEngine
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetEngine( 
+   IDebugEngine2** pEngine
+);
+```
+---
 
 ## Parameters
 `pEngine`\

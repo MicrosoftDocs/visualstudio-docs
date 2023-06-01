@@ -1,20 +1,21 @@
 ---
 title: Objects | Microsoft Docs
 description: The articles in this section provide reference information about objects that are used to create an instance of the core text editor in the Visual Studio SDK.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - objects, interfaces
 ms.assetid: 8a5ab7a4-3668-4f78-9c08-04c5af7090f2
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Objects
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The following reference information explains objects that are used to create an instance of the core text editor.
 
 ## In this section

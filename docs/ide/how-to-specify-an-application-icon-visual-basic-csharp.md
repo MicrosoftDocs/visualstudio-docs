@@ -1,7 +1,6 @@
 ---
 title: 'How to: Specify an application icon (Visual Basic, C#)'
 description: Learn how to use the Icon property to specify the icon that File Explorer and the Windows taskbar displays for the compiled application.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -16,6 +15,8 @@ ms.workload:
 - dotnet
 ---
 # How to: Specify an application icon (Visual Basic, C#)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The `Icon` property for a project specifies the icon file (*.ico*) that will be displayed for the compiled application in **File Explorer** and in the Windows taskbar.
 

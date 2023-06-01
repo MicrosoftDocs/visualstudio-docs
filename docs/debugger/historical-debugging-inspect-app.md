@@ -1,7 +1,6 @@
 ---
 title: Inspect your app with historical debugging | Microsoft Docs
 description: Follow an investigation that uses IntelliTrace historical debugging to track down a bug in a C# console application.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 629b5d93-39b2-430a-b8ba-d2a47fdf2584
@@ -13,6 +12,8 @@ ms.workload:
   - multiple
 ---
 # Inspect your app with IntelliTrace historical debugging in Visual Studio (C#, Visual Basic, C++)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can use [historical debugging](../debugger/historical-debugging.md) to move backward and forward through the execution of your application and inspect its state.
 
@@ -26,10 +27,10 @@ Let's start with a simple program that has a bug. In a C# console application, a
 static void Main(string[] args)
 {
     int testInt = 0;
-    int resultInt = AddAll(testInt);
+    int resultInt = AddIterative(testInt);
     Console.WriteLine(resultInt);
 }
-private static int AddAll(int j)
+private static int AddIterative(int j)
 {
     for (int i = 0; i < 20; i++)
     {
@@ -48,7 +49,7 @@ private static int AddInt(int add)
 }
 ```
 
-We'll assume that the expected value of `resultInt` after calling `AddAll()` is 20 (the result of incrementing `testInt` 20 times). (We'll also assume that you can't see the bug in `AddInt()`).But the result is actually 44. How can we find the bug without stepping through `AddAll()` 10 times? We can use historical debugging to find the bug faster and more easily. Here's how:
+We'll assume that the expected value of `resultInt` after calling `AddIterative()` is 20 (the result of incrementing `testInt` 20 times). (We'll also assume that you can't see the bug in `AddInt()`). But the result is actually 44. How can we find the bug without stepping through `AddIterative()` 10 times? We can use historical debugging to find the bug faster and more easily. Here's how:
 
 1. In **Tools > Options > IntelliTrace > General**, make sure that IntelliTrace is enabled, and select **IntelliTrace events and call information**. If you do not select this option, you will not be able to see the navigation gutter (as explained below).
 
@@ -68,7 +69,7 @@ We'll assume that the expected value of `resultInt` after calling `AddAll()` is 
 
     ![code window in historical debugging mode](../debugger/media/historicaldebuggingback.png "HistoricalDebuggingBack")
 
-6. Now you can step into the `AddAll()` method (**F11**, or the **Step Into** button in the navigation gutter. Step forward (**F10**, or **Go to Next Call** in the navigation gutter. The pink line is now on the `j = AddInt(j);` line. **F10** in this case does not step to the next line of code. Instead, it steps to the next function call. Historical debugging navigates from call to call, and it skips lines of code that do not include a function call.
+6. Now you can step into the `AddIterative()` method (**F11**, or the **Step Into** button in the navigation gutter). Step forward (**F10**, or **Go to Next Call** in the navigation gutter). The pink line is now on the `j = AddInt(j);` line. **F10** in this case does not step to the next line of code. Instead, it steps to the next function call. Historical debugging navigates from call to call, and it skips lines of code that do not include a function call.
 
 7. Now step into the `AddInt()` method. You should see the bug in this code immediately.
 

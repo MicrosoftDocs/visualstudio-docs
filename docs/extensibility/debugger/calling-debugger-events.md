@@ -1,20 +1,21 @@
 ---
 title: Calling Debugger Events | Microsoft Docs
 description: Events in debugging sessions occur in a specific order. This article lists the calling order of the events that occur in a typical debugging session.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - debugging [Debugging SDK], events
 ms.assetid: b3440ac3-80af-40c6-bef4-cbf00fa67885
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
 - vssdk
 ---
 # Call debugger events
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Events in debugging sessions occur in a specific order.
 
 ## Discussion

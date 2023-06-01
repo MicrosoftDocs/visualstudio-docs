@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugManagedObject::SetFromManagedObject method
 ms.assetid: 8700ee8d-2704-4580-bccc-046837a24edd
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugManagedObject::SetFromManagedObject
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the value of the instance of the value class object from the instance of the value class provided as a parameter.
 
 ## Syntax
 
-```cpp
-HRESULT SetFromManagedObject( 
-   IUnknown* pManagedObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetFromManagedObject(
    object pManagedObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetFromManagedObject( 
+   IUnknown* pManagedObject
+);
+```
+---
 
 ## Parameters
 `pManagedObject`\

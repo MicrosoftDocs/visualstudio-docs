@@ -1,7 +1,6 @@
 ---
 title: "Publishing ClickOnce Applications | Microsoft Docs"
 description: Learn how to use the Publish Wizard to publish a ClickOnce application for the first time. Make later changes on the Publish page in the Project Designer.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -25,9 +24,13 @@ ms.workload:
   - "multiple"
 ---
 # Publish ClickOnce applications
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application for the first time, publish properties can be set using the Publish Wizard. Only a few of the properties are available in the wizard; all other properties are set to their default values.
 
  Subsequent changes to publish properties are made on the **Publish** page in the **Project Designer**.
+
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 ## Publish Wizard
  You can use the Publish Wizard to set the basic settings for publishing your application. This includes the following publishing properties:

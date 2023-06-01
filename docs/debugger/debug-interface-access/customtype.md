@@ -1,7 +1,6 @@
 ---
 title: "CustomType | Microsoft Docs"
 description: Find reference information about the CustomType symbol type (SymTagCustomType) in the Visual Studio debug interface access SDK.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -17,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # CustomType
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Vendor-defined types (compiler-specific types) are identified by a `SymTagCustomType` symbol.
 
 ## Properties

@@ -1,11 +1,8 @@
 ---
 title: 'How to: View Existing Types (Class Designer)'
 description: Learn how to see an existing type and its members by adding its shape to a class diagram.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
-f1_keywords:
-- vs.classdesigner.CannotShowBaseType
 helpviewer_keywords:
 - types [Visual Studio], visualizing
 - types [Visual Studio], class diagrams
@@ -19,6 +16,8 @@ ms.workload:
 - multiple
 ---
 # How to: View existing types in Class Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 To see an existing type and its members, add its shape to a class diagram.
 

@@ -1,16 +1,18 @@
 ---
-title: Fetch, pull, push, and sync in Visual Studio
-titleSuffix: ""
+title: git fetch, pull, push, & sync
 description: Fetch, pull, push, and sync in Visual Studio by using Git or Azure DevOps.
-ms.date: 11/08/2021
+ms.date: 09/20/2022
 ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
+ms.custom: version-control
 ---
-# Fetch, pull, and sync in Visual Studio
+# Use git fetch, pull, push and sync for version control in Visual Studio
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio helps you keep your local branch synchronized with your remote branch through download (fetch and pull) and upload (push) operations.
 
@@ -54,7 +56,7 @@ But, as previously mentioned, always pull before you push. As a safe guard, Visu
 
 ## Sync
 
-Use this operation to both pull and push simultaneously.
+Use this operation to both pull, then push, sequentially.
 
 ## Next steps
 
@@ -62,4 +64,5 @@ To continue your journey, visit the [Browse Git repositories](git-browse-reposit
 
 ## See also
 
-[Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md)
+- [Tutorial: Open a project from a repo](../get-started/tutorial-open-project-from-repo.md)
+- [Visual Studio & GitHub: Better together](https://visualstudio.microsoft.com/vs/github/)

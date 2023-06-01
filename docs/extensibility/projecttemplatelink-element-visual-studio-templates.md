@@ -1,7 +1,6 @@
 ---
 title: ProjectTemplateLink Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the <element> element and how it specifies the path to the .vstemplate file of one project in a multi-project template.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -11,13 +10,15 @@ helpviewer_keywords:
 - <ProjectTemplateLink> element [Visual Studio Templates]
 - ProjectTemplateLink element [Visual Studio Templates]
 ms.assetid: b0449111-8b48-45a1-a031-ea24b765e969
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.workload:
 - vssdk
 ---
 # ProjectTemplateLink element (Visual Studio templates)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the path to the *.vstemplate* file of one project in a multi-project template.
 
  \<VSTemplate>

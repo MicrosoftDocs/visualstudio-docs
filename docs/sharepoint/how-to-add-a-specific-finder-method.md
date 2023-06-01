@@ -1,7 +1,6 @@
 ---
 title: "How to: Add a Specific Finder Method | Microsoft Docs"
 description: Get an entity instance by adding a Finder method. The BDC service calls the method when a user picks an entity in a business data web part or external list.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -22,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # How to: Add a specific Finder method
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can return a single entity instance by creating a *Specific Finder* method. The Business Data Connectivity (BDC) service executes the Specific Finder method when a user chooses an entity in a business data web part or external list. For more information, see [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md).
 
 ### To create a specific Finder method
@@ -79,8 +80,12 @@ ms.workload:
      > [!NOTE]
      > Replace the value of the `ServerName` field with the name of your server.
 
+     ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs" id="Snippet3":::
+
+     ### [VB](#tab/vb)
      :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb" id="Snippet3":::
+     ---
 
 ## See also
 - [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md)

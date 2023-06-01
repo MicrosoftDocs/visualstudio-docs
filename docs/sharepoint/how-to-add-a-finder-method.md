@@ -1,7 +1,6 @@
 ---
 title: "How to: Add a Finder Method | Microsoft Docs"
 description: Add a Finder method in Visual Studio, which enables the Business Data Connectivity (BDC) service to display a list of entities in a SharePoint web part or list.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -22,6 +21,8 @@ ms.workload:
   - "office"
 ---
 # How to: Add a Finder method
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   To enable the Business Data Connectivity (BDC) service to display a list of entities in a web part or list, you must create a *Finder* method. A Finder method is a special method that returns a collection of entity instances. For more information, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).
 
 ### To create a Finder method
@@ -56,8 +57,12 @@ ms.workload:
    > [!NOTE]
    > Replace the value of the `ServerName` field with the name of your server.
 
+    ### [C#](#tab/csharp)
     :::code language="csharp" source="../sharepoint/codesnippet/CSharp/SP_BDC/bdcmodel1/contactservice.cs" id="Snippet2":::
+
+    ### [VB](#tab/vb)
     :::code language="vb" source="../sharepoint/codesnippet/VisualBasic/sp_bdc/bdcmodel1/contactservice.vb" id="Snippet2":::
+    ---
 
 ## See also
 - [BDC model design tools overview](../sharepoint/bdc-model-design-tools-overview.md)

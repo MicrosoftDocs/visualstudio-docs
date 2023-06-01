@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPointerObject::Dereference method
 ms.assetid: 196ec2cc-8569-4780-b217-23b24e7f50ca
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,23 +19,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugPointerObject::Dereference
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the object pointed to.
 
 ## Syntax
 
-```cpp
-HRESULT DeReference( 
-   DWORD          dwIndex,
-   IDebugObject** ppObject
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Dereference(
    uint             dwIndex,
    out IDebugObject ppObject
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT DeReference( 
+   DWORD          dwIndex,
+   IDebugObject** ppObject
+);
+```
+---
 
 ## Parameters
 `dwIndex`\

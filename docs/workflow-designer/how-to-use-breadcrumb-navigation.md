@@ -1,18 +1,19 @@
 ---
 title: 'Workflow Designer - How to: Use Breadcrumb Navigation'
 description: Learn how use breadcrumb navigation to access a child activity, navigate to an ancestor activity, or expand or collapse activites in place.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 4a688056-37dc-406a-9071-be2141e192fe
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
 - multiple
 ---
 # How to: Use Breadcrumb Navigation
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 There are three main ways to change the set of activities that are displayed in Workflow Designer:
 

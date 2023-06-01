@@ -1,7 +1,6 @@
 ---
 title: Display and Hide Register Groups | Microsoft Docs
 description: The Registers window, which is available if address-level debugging is enabled, organizes registers into groups. Learn how to set which groups appear.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -24,6 +23,8 @@ ms.workload:
   - multiple
 ---
 # How to: Display and Hide Register Groups (C#, C++, Visual Basic, F#)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Registers** window is available only if address-level debugging is enabled in the **Options** dialog box, **Debugging** node, **General** category.
 

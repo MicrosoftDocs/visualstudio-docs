@@ -7,8 +7,8 @@ helpviewer_keywords:
 - IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive
 - GetTypeFromPrimitive
 ms.assetid: d7f51e2a-1b72-489c-b7b6-4af7b7e4d663
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,23 +18,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugDynamicFieldCOMPlus::GetTypeFromPrimitive
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Retrieves a type given its primitive type.
 
 ## Syntax
 
-```cpp
-HRESULT GetTypeFromPrimitive(
-   DWORD         dwCorElementType,
-   IDebugField** ppType
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetTypeFromPrimitive(
    uint            dwCorElementType,
    out IDebugField ppType
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetTypeFromPrimitive(
+   DWORD         dwCorElementType,
+   IDebugField** ppType
+);
+```
+---
 
 ## Parameters
 `dwCorElementType`\

@@ -1,7 +1,6 @@
 ---
 title: Class View and Object Browser Icons
 description: Learn about Class View and the Object Browser display icons that represent code entities, for example, namespaces, classes, functions, and variables.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -22,6 +21,8 @@ ms.workload:
 ---
 # Class View and Object Browser icons
 
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
 **Class View** and the **Object Browser** display icons that represent code entities, for example, namespaces, classes, functions, and variables. The following table illustrates and describes the icons.
 
 |Icon|Description|Icon|Description|
@@ -41,9 +42,9 @@ ms.workload:
 |![Type Forwarding Symbol](../ide/media/ob_type_forward.gif)|Type Forwarding|||
 
 > [!TIP]
-> To best view the icons on this page, make sure that your Microsoft Docs theme is set to **Light**. You can toggle this color theme from the control that's located at the bottom left of the page, as shown in the following screenshot:
+> To best view the icons on this page, make sure that your Microsoft Learn theme is set to **Light**. You can toggle this color theme from the control that's located at the bottom left of the page, as shown in the following screenshot:
 >
-> ![Docs theme](../ide/media/toggle-docs-color-theme.png "Toggle the color theme for Microsoft Docs pages")
+> ![Docs theme](../ide/media/toggle-docs-color-theme.png "Toggle the color theme for Microsoft Learn pages")
 
 ## Signal icons
 

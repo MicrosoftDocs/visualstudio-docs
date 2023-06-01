@@ -1,20 +1,21 @@
 ---
 title: Implementing a Legacy Language Service2 | Microsoft Docs
 description: Learn how to implement a legacy language service that supports extended language service features, by using the managed package framework (MPF). Part 2 of 2. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - language services [managed package framework], implementing
 ms.assetid: 5bcafdc5-f922-48f6-a12e-6c8507a79a05
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Implementing a legacy language service 2
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To implement a language service using the managed package framework (MPF), you must derive a class from the <xref:Microsoft.VisualStudio.Package.LanguageService> class and implement the following abstract methods and properties:
 
 - The <xref:Microsoft.VisualStudio.Package.LanguageService.GetLanguagePreferences%2A> method

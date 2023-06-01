@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - FIELD_INFO structure
 ms.assetid: bfafef6d-0c83-43d7-a779-1f0d24b166a1
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,20 +19,13 @@ dev_langs:
 - CSharp
 ---
 # FIELD_INFO
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This structure describes a local variable, parameter, or other field.
 
 ## Syntax
 
-```cpp
-typedef struct _tagFieldInfo {
-    FIELD_INFO_FIELDS dwFields;
-    BSTR              bstrFullName;
-    BSTR              bstrName;
-    BSTR              bstrType;
-    FIELD_MODIFIERS   dwModifiers;
-} FIELD_INFO;
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public struct FIELD_INFO {
     public uint   dwFields;
@@ -42,6 +35,17 @@ public struct FIELD_INFO {
     public uint   dwModifiers;
 };
 ```
+### [C++](#tab/cpp)
+```cpp
+typedef struct _tagFieldInfo {
+    FIELD_INFO_FIELDS dwFields;
+    BSTR              bstrFullName;
+    BSTR              bstrName;
+    BSTR              bstrType;
+    FIELD_MODIFIERS   dwModifiers;
+} FIELD_INFO;
+```
+---
 
 ## Members
 `dwFields`\

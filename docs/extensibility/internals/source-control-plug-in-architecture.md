@@ -1,20 +1,21 @@
 ---
 title: Source Control Plug-in Architecture | Microsoft Docs
 description: Learn how to add source control support to the Visual Studio IDE by implementing and attaching a source control plug-in.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control plug-ins, architecture
 ms.assetid: 35351d4c-9414-409b-98fc-f2023e2426b7
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Source Control Plug-in Architecture
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can add source control support to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) by implementing and attaching a source control plug-in. The IDE connects to the source control plug-in via the well-defined Source Control Plug-In API. The IDE exposes the version control features of the source control system by providing a user interface (UI) that consists of toolbars and menu commands. The source control plug-in implements the source control functionality.
 
 ## Source Control Plug-in Resources

@@ -1,8 +1,7 @@
 ---
 title: Tips to improve performance
 description: Learn how to optimize certain Visual Studio features that you might not be using to help improve performance.
-ms.custom: SEO-VS-2020
-ms.date: 10/01/2021
+ms.date: 05/22/2022
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -13,25 +12,27 @@ ms.workload:
 ---
 # Visual Studio performance tips and tricks
 
-Visual Studio performance recommendations are intended for low memory situations, which may occur in rare cases. In these situations, you can optimize certain Visual Studio features that you may not be using. The following tips are not intended as general recommendations.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+Visual Studio performance recommendations are intended for low memory situations, which may occur in rare cases. In these situations, you can optimize certain Visual Studio features that you may not be using. The following tips aren't intended as general recommendations.
 
 > [!NOTE]
 > If you’re having difficulty using the product because of memory issues, let us know through the [feedback tool](../ide/how-to-report-a-problem-with-visual-studio.md).
 
 ## Use a 64-bit OS
 
-If you upgrade your system from a 32-bit version of Windows to a 64-bit version, you expand the amount of virtual memory available to Visual Studio from 2 GB to 4 GB. This enables Visual Studio to handle significantly larger workloads, even though it is 32-bit process.
+If you upgrade your system from a 32-bit version of Windows to a 64-bit version, you expand the amount of virtual memory available to Visual Studio from 2 GB to 4 GB. A 64-bit operating system upgrade enables Visual Studio to handle larger workloads.
 
-For more information, see [Memory limits](/windows/desktop/Memory/memory-limits-for-windows-releases) and [Use /LARGEADDRESSAWARE on 64-bit Windows](https://blogs.msdn.microsoft.com/oldnewthing/20050601-24/?p=35483/).
+For more information, see [Memory Limits for Windows and Windows Server releases](/windows/desktop/Memory/memory-limits-for-windows-releases).
 
 > [!TIP]
-> Visual Studio 2022 on Windows is now a 64-bit application. This means you can open, edit, run, and debug even the biggest and most complex solutions without running out of memory. To learn more, see both the [Visual Studio 2022 vision](https://devblogs.microsoft.com/visualstudio/visual-studio-2022/) and [Visual Studio 2022 Preview 1](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-preview-1-now-available/) blog posts.
+> Visual Studio 2022 on Windows is a 64-bit application. Earlier versions are 32-bit.
 
 ## Disable automatic file restore
 
-Visual Studio automatically reopens documents that were left open in the previous session. This can prolong the times it takes to load a solution by up to 30% or more, depending on the project type and the documents being opened. Designers like Windows Forms and XAML, and some JavaScript and typescript files, can be slow to open.
+Visual Studio automatically reopens documents that were left open in the previous session. This automatic file restore action can prolong the times it takes to load a solution by up to 30% or more, depending on the project type and the documents being opened. Designers like Windows Forms and XAML, and some JavaScript and TypeScript files, can be slow to open.
 
-Visual Studio notifies you in a yellow bar when automatic document restore is causing a solution to load significantly slower. You can disable automatic file reopening by following these steps:
+Visual Studio notifies you in a yellow bar when automatic document restore is causing a solution to load slower. You can disable automatic file reopening by following these steps:
 
 1. Select **Tools** > **Options** to open the **Options** dialog box.
 
@@ -47,7 +48,7 @@ If you disable automatic file restore, a quick way to navigate to files you want
 
 ## Configure debugging options
 
-If you are typically running low on memory during debugging sessions, you can optimize performance by making one or more configuration changes.
+If you're typically running low on memory during debugging sessions, you can optimize performance by making one or more configuration changes.
 
 - **Enable Just My Code**
 
@@ -63,15 +64,15 @@ If you are typically running low on memory during debugging sessions, you can op
 
     Set the options to **Only specified modules** instead of **All modules** and then specify which modules you care to load. While debugging, you can also right-click specific modules in the **Modules** window to explicitly include a module in the symbol load. (To open the window while debugging, choose **Debug** > **Windows** > **Modules**.)
 
-    For more information, see [Understand symbol files](?view=vs-2019&preserve-view=true).
+    For more information, see [Specify symbol and source files in the debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
 - **Disable Diagnostic Tools**
 
-    It is recommended that you disable CPU profiling after use. This feature can consume large amounts of resources. Once CPU profiling is enabled, this state is persisted across subsequent debug sessions, so it’s worth explicitly turning it off when done. You may save some resources by disabling the diagnostic tools while debugging if you do not need the provided features.
+    It's recommended that you disable CPU profiling after use. This feature can consume large amounts of resources. Once CPU profiling is enabled, this state is persisted across subsequent debug sessions, so it’s worth explicitly turning it off when done. You may save some resources by disabling the diagnostic tools while debugging if you don't need the provided features.
 
     To disable the **Diagnostic Tools**, start a debugging session, select **Tools** > **Options** > **Debugging** > **General**, and then deselect the **Enable Diagnostic Tools while debugging** option.
 
-    For more information, see [Profiling Tools](../profiling/profiling-feature-tour.md).
+    For more information, see [Profiling tools](../profiling/profiling-feature-tour.md).
 
 ## Disable tools and extensions
 
@@ -84,20 +85,13 @@ Some tools or extensions can be turned off to improve performance.
 
 For information about .NET Compiler Platform ("Roslyn") performance considerations, see [Performance considerations for large solutions](https://github.com/dotnet/roslyn/blob/master/docs/wiki/Performance-considerations-for-large-solutions.md).
 
-- **Disable full solution analysis**
-
-    Visual Studio performs analysis on your entire solution in order to provide a rich experience about errors before invoking a build. This feature is useful to identify errors as soon as possible. However, for large solutions, this feature can consume significant memory resources. If you’re experiencing memory pressure or similar issues, you can disable this experience to free up these resources. By default, this option is enabled for Visual Basic and disabled for C#.
-
-    To disable **Full Solution Analysis**, choose **Tools** > **Options** > **Text Editor**, then select either **Visual Basic** or **C#**. Choose **Advanced** and deselect **Enable full solution analysis**.
-
 - **Disable CodeLens**
 
     Visual Studio performs a **Find All References** task on each method as it is displayed. CodeLens provides features such as the inline display of the number of references. The work is performed in a separate process such as *ServiceHub.RoslynCodeAnalysisService32*. In large solutions, or on resource-constrained systems, this feature can have a significant impact on performance. If you’re experiencing memory issues, for example, when loading a large solution on a 4-GB machine, or high CPU usage for this process, you can disable CodeLens to free up resources.
 
     To disable **CodeLens**, choose **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens**, and deselect the feature.
 
-    > [!NOTE]
-    > CodeLens is available in the Professional and Enterprise editions of Visual Studio.
+    For more information, see [Find code changes and other history with CodeLens](find-code-changes-and-other-history-with-codelens.md).
 
 ### Other tools and extensions
 
@@ -105,17 +99,7 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
     Extensions are additional software components added to Visual Studio that provide new functionality or extend existing functionality. Extensions can often be a source of memory resource issues. If you’re experiencing memory resource problems, try disabling extensions one at a time to see how it impacts the scenario or workflow.
 
-   ::: moniker range="vs-2017"
-
-    To disable extensions, go to **Tools** > **Extensions and Updates**, and disable a particular extension.
-
-   ::: moniker-end
-
-   ::: moniker range=">=vs-2019"
-
     To disable extensions, go to **Extensions** > **Manage Extensions**, and disable a particular extension.
-
-   ::: moniker-end
 
 - **Disable map mode**
 
@@ -127,13 +111,13 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
     [**Word wrap**](./reference/how-to-manage-word-wrap-in-the-editor.md) displays the portion of a long line of code that extends beyond the current width of the code editor window. Word wrap is on by default.
 
-    To disable word wrap for a project that you are currently working on, go to **Edit** > **Advanced** > **Word Wrap**. (You can toggle this setting by using the same menu commands.)
+    To disable word wrap for a project that you're currently working on, go to **Edit** > **Advanced** > **Word Wrap**. (You can toggle this setting by using the same menu commands.)
 
     To disable word wrap for all projects, go to **Tools** > **Options** > **General** > **Text Editor** > **All Languages** > **General**, and in the **Settings** section, deselect the **Word wrap** option.
 
 - **Disable XAML Designer**
 
-    The XAML designer is enabled by default, but only consumes resources if you open a *.xaml* file. If you work with XAML files but do not wish to use the designer functionality, disable this feature to free up some memory.
+    The XAML designer is enabled by default, but only consumes resources if you open a *.xaml* file. If you work with XAML files but don't wish to use the designer functionality, disable this feature to free up some memory.
 
     To disable XAML Designer, go to **Tools** > **Options** > **XAML Designer** > **Enable XAML Designer**, and deselect the option.
 
@@ -143,19 +127,22 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
 - **Add untracked files to local .gitignore**
 
-    Visual Studio runs the Git command `git status` with untracked files to provide a seamless experience when you add new files to a repository. When there are a large number of untracked files, `git status` can consume extra memory. To ignore these files and improve performance of `git status`, you can add these files or folders to your local .gitignore file. To access the file, go to **Git** > **Settings** > **Git Repository Settings**. Then, in the **Git files** section, click **Add** to create a .gitignore file, or click **Edit** if you already have one.
+    Visual Studio runs the Git command `git status` with untracked files to provide a seamless experience when you add new files to a repository. When there are a large number of untracked files, `git status` can consume extra memory. To ignore these files and improve performance of `git status`, you can add these files or folders to your local .gitignore file. To access the file, go to **Git** > **Settings** > **Git Repository Settings**. Then, in the **Git files** section, select **Add** to create a .gitignore file, or select **Edit** if you already have one.
+
+- **Enable commit graph in Git tooling**
+
+    [New in Visual Studio 2022 version 17.2](https://aka.ms/vs-2022-17-2-release): If you're experiencing delays when you view your Git repository or branch history in Visual Studio, we've integrated a "commit graph" feature that can help. To use commit graph, make sure you [download and install Visual Studio 2022](https://visualstudio.microsoft.com/downloads/). To learn more about commit graph, see the [Supercharge your Git experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/) blog post.
 
 ## Force a garbage collection
 
-The CLR uses a garbage collection memory management system. In this system, sometimes memory is used by objects that are no longer needed. This state is temporary; the garbage collector will release this memory based on its performance and resource usage heuristics. You can force the CLR to collect any unused memory by using a hotkey in Visual Studio. If there is a significant amount of garbage waiting for collection and you force a garbage collection, you should see the memory usage of the *devenv.exe* process drop in **Task Manager**. It’s rarely necessary to use this method. However, after an expensive operation has completed (such as a full build, debug session, or a solution open event), it can help you determine how much memory is really being used by the process. Because Visual Studio is mixed (managed & native), it’s occasionally possible for the native allocator and the garbage collector to compete for limited memory resources. Under conditions of high memory usage, it may help to force the garbage collector to run.
+The CLR uses a garbage collection memory management system. In this system, sometimes memory is used by objects that are no longer needed. This state is temporary; the garbage collector releases this memory based on its performance and resource usage heuristics. You can force the CLR to collect any unused memory by using a hotkey in Visual Studio. If there's a significant amount of garbage waiting for collection and you force a garbage collection, you should see the memory usage of the *devenv.exe* process drop in **Task Manager**. It’s rarely necessary to use this method. However, after an expensive operation has completed (such as a full build, debug session, or a solution open event), it can help you determine how much memory is really being used by the process. Because Visual Studio is mixed (managed & native), it’s occasionally possible for the native allocator and the garbage collector to compete for limited memory resources. Under conditions of high memory usage, it may help to force the garbage collector to run.
 
-To force a garbage collection, use the hotkey: **Ctrl**+**Alt**+**Shift**+**F12**, **Ctrl**+**Alt**+**Shift**+**F12** (press it twice).
+To force a garbage collection, use this keyboard shortcut: **Ctrl**+**Alt**+**Shift**+**F12**, **Ctrl**+**Alt**+**Shift**+**F12** (press it twice).
 
-If forcing garbage collection reliably makes your scenario work, file a report through the Visual Studio feedback tool as this behavior is likely to be a bug.
+If forcing garbage collection reliably makes your scenario work, file a report through the [Visual Studio feedback tool](how-to-report-a-problem-with-visual-studio.md) as this behavior is likely to be a bug.
 
 For a detailed description of the CLR garbage collector, see [Fundamentals of garbage collection](/dotnet/standard/garbage-collection/fundamentals).
 
 ## See also
 
 - [Optimize Visual Studio performance](../ide/optimize-visual-studio-performance.md)
-- [Load solutions faster (Visual Studio blog)](https://devblogs.microsoft.com/visualstudio/load-solutions-faster-with-visual-studio-2017-version-15-6/)

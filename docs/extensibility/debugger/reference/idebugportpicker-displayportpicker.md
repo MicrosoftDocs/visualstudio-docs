@@ -7,8 +7,8 @@ helpviewer_keywords:
 - DisplayPortPicker
 - IDebugPortPicker::DisplayPortPicker
 ms.assetid: 08511ef5-be64-4069-b169-a569cc94bc64
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,23 +18,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugPortPicker::DisplayPortPicker
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Displays the specified dialog box that allows the user to select a port.
 
 ## Syntax
 
-```cpp
-HRESULT DisplayPortPicker(
-   HWND hwndParentDialog,
-   BSTR* pbstrPortId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 public int DisplayPortPicker(
    int hwndParentDialog,
    out string pbstrPortId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT DisplayPortPicker(
+   HWND hwndParentDialog,
+   BSTR* pbstrPortId
+);
+```
+---
 
 ## Parameters
 `hwndParentDialog`\

@@ -1,7 +1,6 @@
 ---
 title: "Profiling the Performance of SharePoint Applications | Microsoft Docs"
 description: Profile the performance of SharePoint applications if they are running slowly or inefficiently. Use Visual Studio profiling features to find problematic code.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:
@@ -23,6 +22,8 @@ ms.workload:
   - "office"
 ---
 # Profile the performance of SharePoint applications
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If your SharePoint applications are performing slowly or inefficiently, you can use the profiling features in Visual Studio to identify problematic code and other elements. By using the load testing feature, you can determine how a SharePoint application performs under stress, such as when many users access the application simultaneously. By running web performance tests, you can measure how the application performs on the web. By using coded UI tests, you can verify whether the whole SharePoint application, including its user interface, functions correctly. When you use these tests together, they can help you identify performance issues before you deploy your application.
 

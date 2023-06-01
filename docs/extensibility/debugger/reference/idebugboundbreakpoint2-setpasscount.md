@@ -9,8 +9,8 @@ helpviewer_keywords:
 - SetPassCount method
 - IDebugBoundBreakpoint2::SetPassCount method
 ms.assetid: b32c12f9-b34d-43bd-a1b9-61af6cf8e51b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugBoundBreakpoint2::SetPassCount
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets or changes the pass count associated with this bound breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT SetPassCount( 
-   BP_PASSCOUNT bpPassCount
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int SetPassCount( 
    BP_PASSCOUNT bpPassCount
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT SetPassCount( 
+   BP_PASSCOUNT bpPassCount
+);
+```
+---
 
 ## Parameters
 `bpPassCount`\

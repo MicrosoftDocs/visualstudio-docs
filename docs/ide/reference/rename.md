@@ -1,7 +1,6 @@
 ---
 title: Refactor rename
 description: Learn how to use the Refactor Rename feature to rename identifiers for code symbols, such as fields, local variables, methods, namespaces, properties and types.
-ms.custom: SEO-VS-2020
 ms.date: 05/04/2020
 ms.topic: reference
 author: TerryGLee
@@ -17,6 +16,8 @@ ms.workload:
 - dotnet
 ---
 # Rename a code symbol refactoring
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 This refactoring applies to:
 

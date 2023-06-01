@@ -1,7 +1,6 @@
 ---
 title: Specify files to publish (ClickOnce)
 description: Learn how to exclude files, mark files as data files or prerequisites, and create groups for conditional installation for a ClickOnce application.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -22,6 +21,8 @@ ms.workload:
   - multiple
 ---
 # How to: Specify which files are published by ClickOnce
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, all non-code files in the project are deployed along with the application. In some cases, you may not want or need to publish certain files, or you may want to install certain files based on conditions. Visual Studio provides the capabilities to exclude files, mark files as data files or prerequisites, and create groups of files for conditional installation.
 
  Files for a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application are managed in the **Application Files** dialog box, accessible from the **Publish** page of the **Project Designer**.
@@ -47,6 +48,8 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
 2. Click the **Publish** tab.
+
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 3. Click the **Application Files** button to open the **Application Files** dialog box.
 

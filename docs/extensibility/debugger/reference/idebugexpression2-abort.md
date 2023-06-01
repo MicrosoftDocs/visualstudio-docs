@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugExpression2::Abort
 ms.assetid: 4fcb712e-1bdb-4b75-a440-35cc79ee147e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,19 +19,23 @@ dev_langs:
 - CSharp
 ---
 # IDebugExpression2::Abort
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This method cancels asynchronous expression evaluation as started by a call to the [EvaluateAsync](../../../extensibility/debugger/reference/idebugexpression2-evaluateasync.md) method.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+int Abort();
+```
+### [C++](#tab/cpp)
 ```cpp
 HRESULT Abort(
    void
 );
 ```
-
-```csharp
-int Abort();
-```
+---
 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.

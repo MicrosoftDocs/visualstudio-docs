@@ -1,20 +1,21 @@
 ---
 title: "Workflow Designer - Send Activity Designer"
-description: Learn about the Send activity and how you can use the Send activity designer to create and configure a Send activity. 
-ms.custom: SEO-VS-2020
+description: Learn about the Send activity and how you can use the Send activity designer to create and configure a Send activity.
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.ServiceModel.Activities.Send.UI"
 ms.assetid: b514f2e4-767c-4b94-ac61-dd3a54d4b96d
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
   - "multiple"
 ---
 # Send Activity Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The **Send** activity designer is used to create and configure a <xref:System.ServiceModel.Activities.Send> activity.
 

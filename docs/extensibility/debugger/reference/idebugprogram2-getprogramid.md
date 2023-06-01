@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgram2::GetProgramId
 ms.assetid: 2c31c0aa-2b71-46c7-849c-356e237d26f8
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,21 +19,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugProgram2::GetProgramId
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets a GUID for this program.
 
 ## Syntax
 
-```cpp
-HRESULT GetProgramId( 
-   GUID* pguidProgramId
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetProgramId( 
    out Guid pguidProgramId
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetProgramId( 
+   GUID* pguidProgramId
+);
+```
+---
 
 ## Parameters
 `pguidProgramId`\

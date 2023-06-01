@@ -18,6 +18,8 @@ ms.workload:
   - "office"
 ---
 # Get started (Office development in Visual Studio)
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This section contains topics that help you get started using the Microsoft Office developer tools in Visual Studio.
 
 [!include[Add-ins note](includes/addinsnote.md)]

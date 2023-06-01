@@ -7,8 +7,8 @@ helpviewer_keywords:
 - AreSymbolsLoaded
 - IDebugComPlusSymbolProvider::AreSymbolsLoaded
 ms.assetid: bbf8707d-f89c-4177-b019-d519f1ec6f4a
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -18,23 +18,27 @@ dev_langs:
 - CSharp
 ---
 # IDebugComPlusSymbolProvider::AreSymbolsLoaded
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Determines if the debug symbols are loaded for the specified module given the application domain identifier.
 
 ## Syntax
 
-```cpp
-HRESULT AreSymbolsLoaded (
-    ULONG32 ulAppDomainID,
-    GUID    guidModule
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int AreSymbolsLoaded (
     uint ulAppDomainID,
     Guid guidModule
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT AreSymbolsLoaded (
+    ULONG32 ulAppDomainID,
+    GUID    guidModule
+);
+```
+---
 
 ## Parameters
 `ulAppDomainID`\

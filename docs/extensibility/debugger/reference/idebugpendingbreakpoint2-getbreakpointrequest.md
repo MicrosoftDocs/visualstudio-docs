@@ -9,8 +9,8 @@ helpviewer_keywords:
 - IDebugPendingBreakpoint2::GetBreakpointRequest method
 - GetBreakpointRequest method
 ms.assetid: cb1e36aa-4302-455c-98fb-6638a1ef5c46
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -20,21 +20,25 @@ dev_langs:
 - CSharp
 ---
 # IDebugPendingBreakpoint2::GetBreakpointRequest
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Gets the breakpoint request that was used to create this pending breakpoint.
 
 ## Syntax
 
-```cpp
-HRESULT GetBreakpointRequest( 
-   IDebugBreakpointRequest2** ppBPRequest
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int GetBreakpointRequest( 
    out IDebugBreakpointRequest2 ppBPRequest
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetBreakpointRequest( 
+   IDebugBreakpointRequest2** ppBPRequest
+);
+```
+---
 
 ## Parameters
 `ppBPRequest`\

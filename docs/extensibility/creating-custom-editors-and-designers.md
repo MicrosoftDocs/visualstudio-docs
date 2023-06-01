@@ -1,21 +1,22 @@
 ---
 title: Creating Custom Editors and Designers | Microsoft Docs
 description: "Learn about the different types of editors that can by hosted by the Visual Studio IDE: the core editor, custom editors, external editors, and designers."
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - designers [Visual Studio SDK]
 - editors [Visual Studio SDK], custom
 ms.assetid: b6a5e8b2-0ae1-4fc3-812d-09d40051b435
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Create custom editors and designers
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Visual Studio integrated development environment (IDE) can host different types of editor:
 

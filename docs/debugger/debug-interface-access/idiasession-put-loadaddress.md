@@ -16,6 +16,8 @@ ms.workload:
   - "multiple"
 ---
 # IDiaSession::put_loadAddress
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Sets the load address for the executable file that corresponds to the symbols in this symbol store.
 
 ## Syntax

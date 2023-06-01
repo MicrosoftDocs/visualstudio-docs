@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProcess3::Step
 ms.assetid: 6ad9094c-27cc-4927-8a7c-1b4d97b2e436
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,6 +19,8 @@ dev_langs:
 - CSharp
 ---
 # IDebugProcess3::Step
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Causes the process to step one instruction or statement.
 
 > [!NOTE]
@@ -26,14 +28,7 @@ Causes the process to step one instruction or statement.
 
 ## Syntax
 
-```cpp
-HRESULT Step(
-   IDebugThread2* pThread,
-   STEPKIND       sk,
-   STEPUNIT       step,
-);
-```
-
+### [C#](#tab/csharp)
 ```csharp
 int Step(
    IDebugThread2 pThread,
@@ -41,6 +36,15 @@ int Step(
    enum_STEPUNIT step
 );
 ```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Step(
+   IDebugThread2* pThread,
+   STEPKIND       sk,
+   STEPUNIT       step,
+);
+```
+---
 
 ## Parameters
 `pThread`\

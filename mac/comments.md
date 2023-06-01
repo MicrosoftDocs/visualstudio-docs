@@ -1,15 +1,19 @@
 ---
 title: Comment out code
 description: "This article describes using comments in the source editor of Visual Studio for Mac"
-author: cobey
-ms.author: cobey
-ms.date: 05/06/2018
+author: heiligerdankgesang 
+ms.author: dominicn
+manager: dominicn
+ms.date: 03/03/2022
+ms.custom: devdivchpfy22
 ms.assetid: 0FE5E929-1846-4F48-B5E3-70990FAF9504
-ms.topic: how-to
+ms.topic: reference
 ---
 # Comments
 
-When debugging or experimenting with code, it can be useful to comment blocks of code either temporarily or long term.
+ [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+
+While debugging or experimenting with code, you might want to comment blocks of code either temporarily or long term.
 
 To comment out an entire block of code:
 
@@ -17,13 +21,15 @@ To comment out an entire block of code:
 
 OR
 
-* Use the `cmd + /` keybinding on the selected code.
+* Use the `cmd + /` key binding on the selected code.
 
-These methods can be used to comment and uncomment sections of code. In C# files, additional levels of line comments can be added, which allows regions of codes to be commented and uncommented, while still preserving actual comments:
+These methods can be used to comment and uncomment sections of code.
+
+In C# files, additional levels of line comments can be added, which allows regions of codes to be commented and uncommented, while still preserving actual comments:
 
 ![multi-level comments](media/source-editor-image8.png)
 
-Comments are also useful for documenting code for future developers that may interact with it. These are usually done in the form of multi-line comments, which are added in the following way in each language:
+Comments are also useful for documenting code for future developers who may interact with it. It's done in the form of multi-line comments, which are added in the following way in each language:
 
 **C#**
 

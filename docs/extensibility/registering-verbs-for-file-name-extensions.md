@@ -1,20 +1,21 @@
 ---
 title: Registering Verbs for File Name Extensions | Microsoft Docs
 description: Learn how to register a verb that is associated with a programmatic identifier for a file name extension by using a Shell key.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - verbs, registering
 ms.assetid: 81a58e40-7cd0-4ef4-a475-c4e1e84d6e06
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Register verbs for file name extensions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The association of a file name extension with an application generally has a preferred action that occurs when a user double-clicks a file. This preferred action is linked to a verb, for example open, that corresponds to the action.
 
  You can register verbs that are associated with a programmatic identifier (ProgID) for an extension by using the Shell key located at **HKEY_CLASSES_ROOT\{progid}\shell**. For more information, see [File types](/windows/desktop/shell/fa-file-types).

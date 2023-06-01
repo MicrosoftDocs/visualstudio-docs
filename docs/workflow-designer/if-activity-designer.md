@@ -1,20 +1,21 @@
 ---
 title: Workflow Designer - If Activity Designer
 description: Learn how the If activity evaluates a condition and executes an activity depending on the results of that evaluation.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - System.Activities.Statements.If.UI
 ms.assetid: 930a8fa2-db98-43e9-ad6d-a85cc7a6519a
-author: TerryGLee
-ms.author: tglee
+author: jodavis
+ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ms.workload:
 - multiple
 ---
 # If Activity Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The <xref:System.Activities.Statements.If> activity evaluates a condition and executes an activity depending on the results of that evaluation. This activity is most useful when using a procedural modeling style of programming. An <xref:System.Activities.Statements.If> activity can be nested inside a <xref:System.Activities.Statements.Sequence> activity or a <xref:System.Activities.Statements.Parallel> activity, for example. If you are using a <xref:System.Activities.Statements.Flowchart> activity, consider using a <xref:System.Activities.Statements.FlowDecision> activity instead.
 

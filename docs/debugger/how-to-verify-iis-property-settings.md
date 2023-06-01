@@ -1,7 +1,6 @@
 ---
 title: Verify IIS Property Settings | Microsoft Docs
 description: Learn how to verify IIS property settings that you set for a web application using the IIS administration tool.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -24,6 +23,8 @@ ms.workload:
   - multiple
 ---
 # How to: Verify IIS Property Settings
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can set the properties for a Web application using the IIS administration tool. These properties must be set correctly for the application to run, so verifying these settings is often a necessary step in troubleshooting.
 

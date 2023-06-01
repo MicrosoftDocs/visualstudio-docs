@@ -1,13 +1,11 @@
 ---
 title: Automatic feature suspension
-ms.date: 11/04/2016
+ms.date: 05/13/2022
 description: Learn how Visual Studio reduces the analysis scope, turns off garbage collection low-latency mode, and flushes caches when system memory is limited.
-ms.custom: SEO-VS-2020
 ms.topic: conceptual
 helpviewer_keywords:
   - "live code analysis"
   - "background analysis"
-  - "analysis scope"
   - "full solution analysis"
   - "performance"
   - "low-memory"
@@ -20,6 +18,8 @@ ms.workload:
 - multiple
 ---
 # Automatic feature suspension
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 If your available system memory falls to 200 MB or less, Visual Studio displays the following message in the code editor:
 
@@ -39,9 +39,13 @@ In a low memory condition, the following actions take place:
 
 For tips and tricks on how to improve Visual Studio performance when dealing with large solutions or low-memory conditions, see [Performance considerations for large solutions](https://github.com/dotnet/roslyn/blob/master/docs/wiki/Performance-considerations-for-large-solutions.md).
 
+::: moniker range="<=vs-2019"
+
 ## Live code analysis is reduced to minimal scope
 
 By default, live code analysis executes for open documents and projects. You can customize this analysis scope to be reduced to current document or increased to entire solution. For more information, see [How to: Configure live code analysis scope for managed code](./configure-live-code-analysis-scope-managed-code.md). In a low memory condition, Visual Studio forces the live analysis scope to be reduced to current document. However, you can re-enable your preferred analysis scope by choosing the **Re-enable** button in the info bar when it appears or by restarting Visual Studio. The Options dialog box always shows the current live code analysis scope settings.
+
+::: moniker-end
 
 ## GC low-latency disabled
 

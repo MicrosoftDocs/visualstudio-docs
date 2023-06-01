@@ -1,27 +1,27 @@
 ---
 title: 'Microsoft Fakes: Generate & compile code; naming conventions'
-description: Learn about options and issues in Fakes code generation and compilation, including the naming conventions for Fakes generated types, members, and parameters.
-ms.custom: SEO-VS-2020
-ms.date: 11/04/2016
+description: Learn about options and issues in Fakes code generation and compilation, including the naming conventions for Fakes-generated types, members, and parameters.
+ms.date: 05/23/2023
 ms.topic: conceptual
-ms.author: mikejo
-manager: jmartens
+ms.author: oscalles
+manager: aajohn
 ms.technology: vs-ide-test
 ms.workload:
 - multiple
-author: mikejo5000
+author: ocallesp
 ---
 # Code generation, compilation, and naming conventions in Microsoft Fakes
 
-This article discusses options and issues in Fakes code generation and compilation, and describes the naming conventions for Fakes generated types, members, and parameters.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+This article discusses options and issues in Fakes code generation and compilation, and describes the naming conventions for Fakes-generated types, members, and parameters.
 
 **Requirements**
 
 - Visual Studio Enterprise
 - A .NET Framework project
-::: moniker range=">=vs-2019"
-- .NET Core, .NET 5.0, and SDK-style project support previewed in Visual Studio 2019 Update 6, and is enabled by default in Update 8. For more information, see [Microsoft Fakes for .NET Core and SDK-style projects](/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects).
-::: moniker-end
+
+- .NET Core, .NET 5.0 or later, and SDK-style project support previewed in Visual Studio 2019 Update 6, and is enabled by default in Update 8. For more information, see [Microsoft Fakes for .NET Core and SDK-style projects](/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects).
 
 ## Code generation and compilation
 
@@ -246,7 +246,7 @@ attribute of the Assembly element in the .fakes:
 > [!NOTE]
 > - **Getters and setters of indexers** are treated similarly to the property. The default name for an indexer is `Item`.
 > - **Parameter type** names are transformed and concatenated.
-> - **Return type** is ignored unless there's an overload ambiguity. If there's an overload amiguity, the return type is appended at the end of the name.
+> - **Return type** is ignored unless there's an overload ambiguity. If there's an overload ambiguity, the return type is appended at the end of the name.
 
 ### Parameter type naming conventions
 
@@ -270,6 +270,26 @@ The following rules are applied recursively:
 - Because Fakes uses C# to generate the Fakes assemblies, any character that would produce an invalid C# token is escaped to "_" (underscore).
 
 - If a resulting name clashes with any member of the declaring type, a numbering scheme is used by appending a two-digit counter, starting at 01.
+
+
+## Utilizing Microsoft Fakes in Continuous Integration
+
+### Microsoft Fakes Assembly Generation
+
+Microsoft Fakes is a feature available exclusively in Visual Studio Enterprise. As such, the generation of Fakes Assemblies necessitates the use of the [Visual Studio Build Task](/azure/devops/pipelines/tasks/build/visual-studio-build?view=azure-devops&preserve-view=true) when building your project.
+
+> [!NOTE]
+> An alternative strategy involves checking your Fakes Assemblies directly into the Continuous Integration (CI) system and utilizing the [MSBuild Task](../msbuild/msbuild-task.md?view=vs-2019&preserve-view=true). If you opt for this approach, you need to make sure to include an assembly reference to the generated Fakes assembly in your test project, as shown in the following code snippet:
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+    <ItemGroup>
+        <Reference Include="FakesAssemblies\System.Fakes.dll"/>
+    </ItemGroup>
+</Project>
+```
+
+This reference must be added manually, specifically for SDK-style projects (that is, .NET Core, .NET 5+, and .NET Framework), because these projects now implicitly add assembly references. If you decide to use this method, make sure to update the Fakes assembly whenever the parent assembly undergoes changes.
 
 ## See also
 

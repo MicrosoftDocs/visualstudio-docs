@@ -1,21 +1,22 @@
 ---
 title: Creating Parent Container Folders for Solutions | Microsoft Docs
 description: Learn how to use the Source Control Plug-in API Version 1.2 to specify a single root source control destination for all web projects within a solution.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - solutions, creating parent containers
 - source control plug-ins, creating parent containers
 ms.assetid: 961e68ed-2603-4479-a306-330eda2b2efa
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
 - vssdk
 ---
 # Create parent container folders for solutions
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the Source Control Plug-in API Version 1.2, a user can specify a single root source control destination for all web projects within the solution. This single root is called a Super Unified Root (SUR).
 
  In the Source Control Plug-in API Version 1.1, if the user added a multiproject solution to source control, the user was prompted to specify one source control destination for each web project.

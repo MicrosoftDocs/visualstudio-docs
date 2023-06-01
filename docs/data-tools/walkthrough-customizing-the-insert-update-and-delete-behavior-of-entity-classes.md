@@ -1,7 +1,6 @@
 ---
 title: Customize insert/update/delete behavior
 description: In this walkthrough, customize the insert, update, and delete behavior of entity classes using the LINQ (Language-Integrated Query) to SQL tools in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -16,6 +15,10 @@ ms.workload:
 - data-storage
 ---
 # Walkthrough: Customize the insert, update, and delete behavior of entity classes
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 The [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides a visual design surface for creating and editing LINQ to SQL classes (entity classes) that are based on objects in a database. By using [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index), you can use LINQ technology to access SQL databases. For more information, see [LINQ (Language-Integrated query)](/dotnet/csharp/linq/).
 
@@ -54,7 +57,7 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
        A query editor window opens.
 
-    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/master/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
+    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
 
     3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
 
@@ -132,25 +135,31 @@ Create controls that are bound to entity classes by dragging LINQ to SQL data so
 
 4. Add the following code to the form, global to the form, outside any specific method, but inside the `Form1` class:
 
-    ```vb
-    Private NorthwindDataContext1 As New NorthwindDataContext
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     private NorthwindDataContext northwindDataContext1
         = new NorthwindDataContext();
     ```
 
+    ### [VB](#tab/vb)
+    ```vb
+    Private NorthwindDataContext1 As New NorthwindDataContext
+    ```
+    ---
+
 5. Create an event handler for the `Form_Load` event and add the following code to the handler:
 
-    ```vb
-    CustomerBindingSource.DataSource = NorthwindDataContext1.Customers
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     customerBindingSource.DataSource
         = northwindDataContext1.Customers;
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    CustomerBindingSource.DataSource = NorthwindDataContext1.Customers
+    ```
+    ---
 
 ## Implement save functionality
 
@@ -168,13 +177,16 @@ By default, the save button is not enabled and save functionality is not impleme
 
 5. Add the following code into the save button event handler:
 
-    ```vb
-    NorthwindDataContext1.SubmitChanges()
-    ```
-
+    ### [C#](#tab/csharp)
     ```csharp
     northwindDataContext1.SubmitChanges();
     ```
+
+    ### [VB](#tab/vb)
+    ```vb
+    NorthwindDataContext1.SubmitChanges()
+    ```
+    ---
 
 ## Override the default behavior for performing updates (inserts, updates, and deletes)
 

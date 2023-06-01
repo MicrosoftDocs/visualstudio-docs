@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - BP_PASSCOUNT_STYLE structure
 ms.assetid: 0a647047-e2d5-4724-a0b8-68108425ecad
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:
@@ -19,10 +19,22 @@ dev_langs:
 - CSharp
 ---
 # BP_PASSCOUNT_STYLE
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Specifies the condition associated with the breakpoint pass count that causes the breakpoint to fire.
 
 ## Syntax
 
+### [C#](#tab/csharp)
+```csharp
+public enum enum_BP_PASSCOUNT_STYLE {
+    BP_PASSCOUNT_NONE             = 0x0000,
+    BP_PASSCOUNT_EQUAL            = 0x0001,
+    BP_PASSCOUNT_EQUAL_OR_GREATER = 0x0002,
+    BP_PASSCOUNT_MOD              = 0x0003
+};
+```
+### [C++](#tab/cpp)
 ```cpp
 enum enum_BP_PASSCOUNT_STYLE {
     BP_PASSCOUNT_NONE             = 0x0000,
@@ -32,15 +44,7 @@ enum enum_BP_PASSCOUNT_STYLE {
 };
 typedef DWORD BP_PASSCOUNT_STYLE;
 ```
-
-```csharp
-public enum enum_BP_PASSCOUNT_STYLE {
-    BP_PASSCOUNT_NONE             = 0x0000,
-    BP_PASSCOUNT_EQUAL            = 0x0001,
-    BP_PASSCOUNT_EQUAL_OR_GREATER = 0x0002,
-    BP_PASSCOUNT_MOD              = 0x0003
-};
-```
+---
 
 ## Fields
 `BP_PASSCOUNT_NONE`\

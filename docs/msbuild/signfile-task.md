@@ -1,8 +1,7 @@
 ---
 title: "SignFile Task | Microsoft Docs"
 description: Learn how MSBuild uses the SignFile task to sign the specified file using the specified certificate.
-ms.custom: SEO-VS-2020
-ms.date: "11/04/2016"
+ms.date: "05/27/2022"
 ms.topic: "reference"
 f1_keywords:
   - "http://schemas.microsoft.com/developer/msbuild/2003#SignFile"
@@ -24,7 +23,7 @@ ms.workload:
 ---
 # SignFile task
 
-Signs the specified file using the specified certificate.
+Signs the specified file using the specified certificate. SignFile is intended only for signing ClickOnce files. It is a wrapper for the `signtool.exe` tool and is not a general-purpose signing task.
 
 ## Parameters
 
@@ -44,7 +43,9 @@ Signs the specified file using the specified certificate.
 
 ## Remarks
 
- In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [Task base class](../msbuild/task-base-class.md).
+In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [Task base class](../msbuild/task-base-class.md).
+ 
+SignFile requires either Visual Studio or a Windows 8.1 SDK to be installed, in order to find the `signtool.exe` tool on the path. It can't be used in CI/CD scenarios where only the build tools are installed.
 
 ## Example
 

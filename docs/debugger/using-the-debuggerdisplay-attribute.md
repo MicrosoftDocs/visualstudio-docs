@@ -1,8 +1,7 @@
 ---
 title: Display custom info using DebuggerDisplay | Microsoft Docs
 description: Use an instance of DebuggerDisplayAttribute to control how an object, property, or field is displayed in the debugger variable windows.
-ms.custom: SEO-VS-2020
-ms.date: 01/09/2019
+ms.date: 04/22/2022
 ms.topic: how-to
 helpviewer_keywords: 
   - attributes, debugger
@@ -18,11 +17,13 @@ ms.workload:
 ---
 # Tell the debugger what to show using the DebuggerDisplay Attribute (C#, Visual Basic, F#, C++/CLI)
 
-The <xref:System.Diagnostics.DebuggerDisplayAttribute> controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types, delegates, properties, fields, and assemblies. If applied to a base type, the attribute also applies to a subclass.
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+The <xref:System.Diagnostics.DebuggerDisplayAttribute> controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types (classes, structs, enums, delegates). If applied to a base type, the attribute also applies to a subclass.
 
 The `DebuggerDisplay` attribute has a single argument, which is a string to be displayed in the value column for instances of the type. This string can contain braces (`{` and `}`). Text within a pair of braces is evaluated as a field, property or method.
 
-If a class has an overridden `ToString()` method, the debugger uses the overridden method instead of the default `{<typeName>}`. Thus, if you have overridden the `ToString()` method, the debugger uses the overridden method instead of the default`{<typeName>}`, and you do not have to use `DebuggerDisplay`. If you use both, the `DebuggerDisplay` attribute takes precedence over the overridden `ToString()` method. The `DebuggerDisplay` attribute also takes precedence over the overridden `ToString()` method in a subclass.
+If a class has an overridden `ToString()` method, the debugger uses the overridden method instead of the default `{<typeName>}`. Thus, if you have overridden the `ToString()` method, the debugger uses the overridden method instead of the default `{<typeName>}`, and you do not have to use `DebuggerDisplay`. If you use both, the `DebuggerDisplay` attribute takes precedence over the overridden `ToString()` method. The `DebuggerDisplay` attribute also takes precedence over the overridden `ToString()` method in a subclass.
 
 Whether the debugger evaluates this implicit `ToString()` call depends on a user setting in the **Tools / Options / Debugging** dialog box.
 
@@ -43,7 +44,7 @@ The following table shows some possible uses of the `DebuggerDisplay` attribute 
 
 |Parameters|Purpose|
 |----------------|-------------|
-|`Name`, `Type`|These parameters affect the **Name** and **Type** columns of the variable windows. (They can be set to strings using the same syntax as the constructor.)Overusing these parameters, or using them incorrectly, can cause confusing output.|
+|`Name`, `Type`|These parameters affect the **Name** and **Type** columns of the variable windows. (They can be set to strings using the same syntax as the constructor.) Overusing these parameters, or using them incorrectly, can cause confusing output.|
 |`Target`, `TargetTypeName`|Specifies the target type when the attribute is used at the assembly level.|
 
 The autoexp.cs file uses the DebuggerDisplay attribute at the assembly level. The autoexp.cs file determines the default expansions that Visual Studio uses for .NET objects. You can examine the autoexp.cs file for examples of how to use the DebuggerDisplay attribute, or you can modify and compile the autoexp.cs file to change the default expansions. Be sure to back up the autoexp.cs file before you modify it.
