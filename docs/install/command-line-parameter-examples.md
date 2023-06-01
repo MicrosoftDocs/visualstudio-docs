@@ -54,7 +54,7 @@ For lists of the workloads and components that you can install by using the comm
    \\layoutserver\share\path\vs_enterprise.exe update --wait --passive --norestart --installPath "C:\installPathVS"
    ```
  
- Alternatively, you can also update in one step by using the installer on the client.
+ Alternatively, you can also update in one step by using the installer on the client. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.
  
    ```shell
    "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" update --passive --norestart --installPath "C:\installPathVS"
