@@ -86,7 +86,7 @@ For lists of the workloads and components that you can install by using the comm
     $process.WaitForExit()
    ```
 
-* The first '--wait' is used by the Visual Studio Installer, and the second '-Wait' is used by 'Start-Process' to wait for completion. The '-PassThru' parameter is used by 'Start-Process' to use the installer's exit code for its return value.
+* The first '--wait' is used by the Visual Studio bootstrapper, and the second '-Wait' is used by 'Start-Process' to wait for completion. The '-PassThru' parameter is used by 'Start-Process' to use the installer's exit code for its return value.
 
 ## Using --layout to create a network layout or a local cache
 
