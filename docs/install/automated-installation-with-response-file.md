@@ -144,7 +144,7 @@ The following `response.json` file example will initialize a Visual Studio 2022 
 ```Example response.json
 {
   "installChannelUri": ".\\ChannelManifest.json",
-  "channelUri": "http://MyCompanyIntranetSite/VS2022Enterprise",
+  "channelUri": "http://MyCompanyIntranetSite/VS2022Enterprise/ChannelManifest.json",
   "installCatalogUri": ".\\Catalog.json",
   "channelId": "VisualStudio.17.Release",
   "productId": "Microsoft.VisualStudio.Product.Enterprise",
