@@ -121,6 +121,8 @@ The following `response.json` file example will initialize a Visual Studio 2019 
   "passive": false,
   "includeRecommended": true,
   "norestart": false,
+  "useLatestInstaller": true,
+  "removeOos": true,
   
   "addProductLang": [
     "en-US",
@@ -154,6 +156,7 @@ The following `response.json` file example will initialize a Visual Studio 2022 
   "passive": false,
   "includeRecommended": true,
   "norestart": false,
+  "useLatestInstaller": true,
   "removeOos": true,
 
   "addProductLang": [
