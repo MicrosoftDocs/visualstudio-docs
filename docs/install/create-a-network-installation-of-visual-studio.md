@@ -23,7 +23,7 @@ Sometimes an enterprise administrator wants to create a private installation poi
 
 The information on this page is grouped up into three main sections:
 
-1. [**Create the layout**](#create-the-layout): describes how to create the layout with the correct product content, how to configure the client's default settings, how to store it on a network file share, and how to make it available if you want to host it on your intranet. 
+1. [**Create the layout**](#create-the-layout): describes how to create the layout with the correct product content, how to configure the client's default settings, how to store it on a network file share, and how to make it available if you want to host it on a webserver on your intranet. 
 1. [**Maintain the layout**](#maintaining-your-layout): information on how to best update the layout's product version, or modify the layout's product content, channel settings, installer version, and folder size. 
 1. [**Help and Support**](#get-support-for-your-network-layout): where to ask for help
 
@@ -32,11 +32,11 @@ The information on this page is grouped up into three main sections:
 
 ### Prepare the network file share storage location
 
-First, you'll need to determine where you're going to store the downloaded Visual Studio packages. If you have multiple editions of Visual Studio in use within your enterprise (for example, Visual Studio 2022 Professional and Visual Studio 2022 Enterprise), you must create a separate layout for each edition. This can consume a lot of disk space, especially when you consider that layout updates consume disk space too. Lastly, if you're [using the latest Visual Studio installer](#configure-the-layout-to-always-include-and-provide-the-latest-installer), then it's possible to configure the client to use a *different* layout location as a source for updates. The layout path must be fewer than 80 characters; some organizations have successfully used [symbolic links](/windows/win32/fileio/symbolic-links) to work around the 80-character limitation. 
+First, you'll need to determine where you're going to store the downloaded Visual Studio packages. If you have multiple editions of Visual Studio in use within your enterprise (for example, Visual Studio 2022 Professional and Visual Studio 2022 Enterprise), you must create a separate layout for each edition. This can consume a lot of disk space, especially when you consider that layout updates consume disk space too. Lastly, if you're [using the latest Visual Studio installer](#configure-the-layout-to-always-include-and-provide-the-latest-installer), then it's possible to change the client's configuration and have it use another layout location as a source for updates. The layout path must be fewer than 80 characters; some organizations have successfully used [symbolic links](/windows/win32/fileio/symbolic-links) to work around the 80-character limitation. 
 
 ### Download the Visual Studio bootstrapper to create the layout
 
-Download the correct bootstrapper for the edition of Visual Studio you want and copy it into the directory that you want to serve as the source location of the layout. Once the layout is created, you can then use it to install Visual Studio onto any client machine. The bootstrapper is the executable that you use to create, update, and perform other layout operations. You must have an internet connection to complete this step.
+Download the correct bootstrapper for the edition of Visual Studio you want and copy it into the directory that you want to serve as the layout's repository. Once the layout is created, you can then use it to install Visual Studio onto any client machine. The bootstrapper is the executable that you use to create, update, and perform other layout operations. You must have an internet connection to complete this step.
 
 ::: moniker range="vs-2019"
 
@@ -87,7 +87,7 @@ Open an elevated command prompt, navigate to the directory that you downloaded t
 
 A complete initial layout for a single language locale requires about 40 GB of disk space for Visual Studio Community and 50 GB for Visual Studio Enterprise. Additional [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales) require about half a GB each. 
  
-The recommended approach is to create an initial layout of Visual Studio with all workloads and appropriate languages in the layout directory on the network server. That way, any client installation will have access to the entire Visual Studio product offering and the ability to install any subset. To create a full complete layout of Visual Studio, run the following command from the directory that you plan to host the network layout on:
+The recommended approach is to create an initial layout of Visual Studio with all workloads and appropriate languages and store the packages into the layout directory on the network server. That way, any client installation will have access to the entire Visual Studio product offering and the ability to install any subset. To create a full complete layout of Visual Studio, run the following command from the directory that you plan to host the network layout on:
 
   ```vs_enterprise.exe --layout c:\VSLayout```
   
@@ -153,16 +153,16 @@ xcopy /e c:\VSLayout \\server\share\layoutdirectory
 
 ### Configure initial client installation defaults for this layout
 
-A file called response.json will get created in the root folder of the layout. This customizable file supplies the initial default settings that are configured on the client when the client initially installs from the layout. Common configuration options include the ability to configure which workloads, components, or languages should be installed by default on the client, where the client should receive updates from, or if out-of-support components should be removed during an update.  
+A file called `response.json` will get created in the root folder of the layout. This customizable file supplies the initial default settings that are configured on the client when the client initially installs from the layout. Common configuration options include the ability to configure which workloads, components, or languages should be installed by default on the client, where the client should receive updates from, or if out-of-support components should be removed during an update.  
 
 More information can be found on the [Automate Visual Studio installation with a response file](automated-installation-with-response-file.md) page. 
 
 ### Making your layout accessible via an intranet site
 
-Starting in June 2023, Visual Studio enables you to make your layouts available on an internal intranet site, which lets you take advantage of webserver file caching and georeplication performance capabilities. To use this feature, you need to be using the latest Visual Studio bootstrappers and latest Visual Studio installer. To take advantage of this intranet webhosting capability, the IT administrator must do the following:
+Starting in June 2023, you will be able to make your layouts available on an internal intranet site, which lets you take advantage of webserver file caching and georeplication performance capabilities. To use this new feature, you need to be using the latest Visual Studio bootstrappers and latest Visual Studio installer. IT administrators must do the following to take advantage of this intranet webhosting capability:
 
-1. First, create and maintain the layout and ensure that the bits are present and regularly updated on the network share as described on this page. Also, if you want to make sure that the client gets its updates from this intranet layout location, remember to configure the [channelUri value in the layout's response.json](automated-installation-with-response-file.md). 
-2. Next, an admin will need to prepare an internal website and bind the source to the layout's network file location. You also need to ensure that the following MIME types in the table below are respected by your webserver. As an example, a more detailed reference description [how to set up an IIS webserver is described here](iis webserver).
+1. First, create and maintain a network layout and ensure that the bits are present and regularly updated on the network share as described on this page. Also, remember to configure the [channelUri value in the layout's response.json](automated-installation-with-response-file.md#configure-the-response-file-used-when-installing-from-a-layout) if you want to configure the client to get its updates from the intranet layout location.
+2. Next, an admin will need to prepare an internal website and bind the source to the layout's network file location. They also need to ensure that the following MIME types in the table below are respected by the webserver. As an example, a more detailed reference description for [how to set up an IIS webserver is described here](iis webserver).
 
      | **File Extension** | **MIME Type** |
      |------------------|------------------|
@@ -183,7 +183,7 @@ Starting in June 2023, Visual Studio enables you to make your layouts available 
 ### Ensure your layout is using the latest installer
 
 > [!NOTE]
-> As of June 2023, the latest installer is shipping by default with every update to supported versions of Visual Studio 2017, Visual Studio 2019, and Visual Studio 2022. So you won't need to do anything explicitly to get the latest version of the installer with the latest functionality and bug fixes. 
+> As of June 2023, the latest installer ships by default with every update to all supported versions of Visual Studio 2017, Visual Studio 2019, and Visual Studio 2022. So if you're using one of these product versions, you won't need to do anything explicitly to get the latest version of the installer with the latest functionality and bug fixes. 
 
 If you're using a version of Visual Studio that was shipped before June 2023, we recommend that you always use the latest Visual Studio installer in your layout and distribute it to your clients. For example, if you distribute the Visual Studio 2022 installer in your Visual Studio 2019 layout, then your Visual Studio 2019 clients based off of that layout will have the ability to change the source location for updates or to easily remove out-of-support components. Further details are [described below](#configure-the-layout-to-always-include-and-provide-the-latest-installer)
 
@@ -259,7 +259,7 @@ Note that an administrator update will not initiate the creation of a new layout
 
 ### Ensuring your network layout is based off of a supported version
 
-Occasionally, as channels transition out of support, you will need to ensure that the network layout continues to be based off of a supported channel so that your clients can continue to receive notifications of security updates. If your layout is based off of the VisualStudio.17.Release.LTSC.17.0 channel, then once the 17.0 LTSC channel goes out of support, we will not release any more security updates to it and your layout and clients will become insecure. [Support dates for various Visual Studio 2022 channels can be found here](/visualstudio/releases/2022/release-history#evergreen-bootstrappers).
+Occasionally, as channels transition out of support, you will need to ensure that the network layout continues to be based off of a supported channel so that your clients can continue to receive notifications of security updates. If your layout is based off of the VisualStudio.17.Release.LTSC.17.0 channel, then once the 17.0 LTSC channel goes out of support in July 2023, we will not release any more security updates to it and your layout and clients will become insecure. [Support dates for various Visual Studio 2022 channels can be found here](/visualstudio/releases/2022/release-history#evergreen-bootstrappers).
 
 To change the channel that the layout is based off of, simply acquire the desired channel's bootstrapper from the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page, copy it into your layout folder, and perform a normal update. Your clients should then be appropriately notified of an update so they will be able to stay secure too.
 
@@ -294,7 +294,7 @@ Lastly, you can directly edit the `layout.json` configuration file in the layout
 
 ### Configure the layout to remove out-of-support components on the client machine.
 
-Some enterprises will want to take advantage of the feature introduced in Visual Studio 2022 version 17.4 that removes components that have transitioned to an out-of-support state. This is relatively easy to set up if you're managing a layout and if your clients are receiving administrator updates. First, you'll need to configure your layout to have the latest version of the installer as described above. Secondly, you'll need to add the line `"removeOos": true` to the `response.json` file as illustrated above. If your layout has these two details set properly, then subsequent administrator updates will respect this setting and will remove out-of-support components from the client machines.
+Some enterprises will want to take advantage of the feature introduced in Visual Studio 2022 version 17.4 that removes components that have transitioned to an out-of-support state. This is relatively easy to set up if you're managing a layout and if your clients are receiving administrator updates. First, you'll need to configure your layout to have the [latest version of the installer as described below](#configure-the-layout-to-always-include-and-provide-the-latest-installer). Secondly, you'll need to add the line `"removeOos": true` to the `response.json` file. If your layout has these two details set properly, then subsequent administrator updates will respect this setting and will remove out-of-support components from the client machines.
 
 ### Verify a layout
 
@@ -349,7 +349,9 @@ However, if you're using a layout that was created before June 2023, then you ca
 
 ::: moniker-end
 
-There are two ways to enable your layout to include and provide the latest installer:
+There are several ways to enable your layout to include and provide the latest installer:
+
+- You can use a version of Visual Studio that was built on or after June 2023.
 
 - You can pass in the `--useLatestInstaller` parameter to the bootstrapper when you're creating or updating the layout. This will cause a setting to get set in the `layout.json` file, which can be found in the root directory of the layout. Here's an example for how to update the layout and configure it to use the latest and greatest installer available.  
 
@@ -375,7 +377,7 @@ There are two ways to enable your layout to include and provide the latest insta
 
 There is no way to programmatically remove this setting in the `layout.json` file, so if you want your layout to _stop_ using the latest installer that Microsoft makes available, and instead use the version of the installer that corresponds to the bootstrapper (which is mostly likely older than the most recent installer), simply edit the `layout.json` file and remove the `"UseLatestInstaller": true` setting. 
 
-Note that you may find this `"UseLatestInstaller": true` setting in the layout's `response.json` file too, but it is ignored there. The [response.json file is used to set default configuration options on the _client_ when the client installs or updates from a layout](automated-installation-with-response-file.md). This particular `"useLatestInstaller": true` setting is used to ensure that the contents of the _layout_ contain the latest installer, so that the client machines can then acquire the latest installer from the layout.
+Note that you may find this `"UseLatestInstaller": true` setting in the layout's `response.json` file too, but it is ignored there for the purposes of ensuring the layout always has the latest installer. The [response.json file is used to set default configuration options on the _client_ when the client installs or updates from a layout](automated-installation-with-response-file.md). This particular `"useLatestInstaller": true` setting in the `layout.json` file is used to ensure that the contents of the _layout_ contain the latest installer, so that the client machines can then acquire the latest installer from the layout.
 
 ### Error codes
 
@@ -385,7 +387,7 @@ If you used the `--wait` parameter, then depending on the result of the operatio
 
 ### Get support for your network layout
 
-If you experience a problem with your network layout, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE. If you're an IT Administrator and don't have Visual Studio installed, you can submit [**IT Admin feedback here**](https://aka.ms/vs/admin/feedback). When you use this tool, it would be very helpful if you could send the logs by the [VS Collect tool](https://aka.ms/vscollect) which can help us diagnose and fix the problem.
+If you experience a problem with your network layout, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio installer and in the Visual Studio IDE. If you're an IT Administrator and don't have Visual Studio installed, you can submit [**IT Admin feedback here**](https://aka.ms/vs/admin/feedback). When you use this tool, it would be very helpful if you could send the logs by the [VS Collect tool](https://aka.ms/vscollect) which can help us diagnose and fix the problem.
 
 We also offer an [**installation chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 
@@ -394,9 +396,9 @@ We have other support options available, too. See our [Visual Studio Developer C
 ## See also
 
 - [Visual Studio administrator guide](visual-studio-administrator-guide.md)
+- [Deploy Visual Studio from a layout onto a client machine](deploy-a-layout-onto-a-client-machine.md)
 - [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 - [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
-- [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 - [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md) 
 - [Visual Studio product lifecycle and servicing](/visualstudio/productinfo/vs-servicing/)
 - [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
