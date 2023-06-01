@@ -23,7 +23,7 @@ ms.technology: vs-installation
 In order to deploy a layout to a client machine, you'll need to consider the following topics 
 
 - [**Prepare the layout**](create-a-network-installation-of-visual-studio.md): Make sure that your layout is ready to install onto the client
-- [**Prepare the client machines**](#prepare-the-client-machine): Ensure that your client machines are ready to install Visual Studio and your users have the right permissions.
+- [**Prepare the client machines**](#prepare-the-client-machines): Ensure that your client machines are ready to install Visual Studio and your users have the right permissions.
 - [**Configure global policies on the client machine**](configure-policies-for-enterprise-deployments.md): Control other Visual Studio installation, update, notification, and download behavior.  
 - [**Configure initial client installation defaults**](automated-installation-with-response-file.md): Initialize your client's installation with customized settings
 - [**Perform regular updates**](update-a-network-installation-of-visual-studio.md): Keep your client machines updated and secure.
@@ -36,9 +36,9 @@ Administrators can deploy a Visual Studio layout onto client workstations as par
 
 A user with administrator permissions can install Visual Studio from a network layout in an unattended mode by running the following command. The response.json in the layout will provide the default configuration settings for the installation. 
 
-    ```shell
-    \\server\products\VS\vs_enterprise.exe --quiet --wait 
-    ```
+```shell
+\\server\products\VS\vs_enterprise.exe --quiet --wait 
+```
 
 > [!NOTE] 
 > Be patient. Make sure you `--wait` for both the installer and the product to finish. When installing or updating a client from a layout, the installer is always the first thing to get installed or updated, and then the Visual Studio product itself will get installed or updated. **Both** of these processes need to finish in order to be considered a successful update.   
@@ -49,7 +49,7 @@ A user with administrator permissions can install Visual Studio from a network l
 
 Some enterprises want to host the layout on an intranet location to better manage geographical performance bottlenecks and take advantage of web caching. In order to do this, a user with administrator permissions must run a elevated PowerShell script similar to below to initialize the installation on the client machine. 
 
-    ```shell
+```shell
     #Do the initial installation from the web hosted layout onto the client in an elevated PowerShell script
 
     #ADMIN CONFIGURATION
@@ -96,7 +96,7 @@ Some enterprises want to host the layout on an intranet location to better manag
     
     Write-Verbose “Starting bootstrapper -$BootstrapperFile with arguments $Arguments”
     start-process $BootstrapperFile $Arguments
-    ```
+```
 
 ## Prepare the client machines
 
