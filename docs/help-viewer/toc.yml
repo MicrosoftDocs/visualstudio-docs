@@ -1,0 +1,26 @@
+  - name: Microsoft Help Viewer
+    items:
+    - name: Overview
+      displayName: Help Viewer
+      href: help-viewer/overview.md
+    - name: Install and Manage Local Content
+      displayName: Offline books docs
+      href: help-viewer/install-manage-local-content.md
+    - name: Find topics in Help Viewer
+      items:
+      - name: Find Topics in the Index
+        href: help-viewer/find-topics-index.md
+      - name: Find Topics in the Table of Contents
+        href: help-viewer/find-topics-toc.md
+      - name: Search
+        items:
+        - name: Search for Topics
+          href: help-viewer/find-topics.md
+        - name: Logical and Advanced Operators in Search Expressions
+          href: help-viewer/logical-operators-search-expressions.md
+    - name: Customize Help Viewer
+      href: help-viewer/customize.md
+    - name: Accessibility
+      href: help-viewer/accessibility-features.md
+    - name: Shortcut Keys
+      href: help-viewer/shortcut-keys.md

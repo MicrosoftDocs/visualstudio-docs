@@ -848,6 +848,8 @@
   - name: Startup behavior
     displayName: Start page window
     href: ide/customizing-the-start-page-for-visual-studio.md
+  - name: Bidirectional language input
+    href: ide/use-bidirectional-languages.md
   - name: Manage extensions
     displayName: marketplace, gallery, vsix
     href: ide/finding-and-using-visual-studio-extensions.md
@@ -1271,46 +1273,18 @@
       href: ide/reference/upgrade-devenv-exe.md
     - name: -UseEnv (devenv.exe)
       href: ide/reference/useenv-devenv-exe.md
-  - name: Security
-    items:
-    - name: Develop secure applications
-      href: ide/securing-applications.md
-    - name: Run Visual Studio as an administrator
-      href: ide/user-permissions-and-visual-studio.md
-    - name: Windows Information Protection (WIP)
-      href: ide/exempt-visual-studio-from-wip.md
-    - name: Federal Information Processing Standard (FIPS)
-      href: ide/fips-support-visual-studio.md
-  - name: Bidirectional language input
-    href: ide/use-bidirectional-languages.md
-  - name: Microsoft Help Viewer
-    items:
-    - name: Overview
-      displayName: Help Viewer
-      href: help-viewer/overview.md
-    - name: Install and Manage Local Content
-      displayName: Offline books docs
-      href: help-viewer/install-manage-local-content.md
-    - name: Find topics in Help Viewer
-      items:
-      - name: Find Topics in the Index
-        href: help-viewer/find-topics-index.md
-      - name: Find Topics in the Table of Contents
-        href: help-viewer/find-topics-toc.md
-      - name: Search
-        items:
-        - name: Search for Topics
-          href: help-viewer/find-topics.md
-        - name: Logical and Advanced Operators in Search Expressions
-          href: help-viewer/logical-operators-search-expressions.md
-    - name: Customize Help Viewer
-      href: help-viewer/customize.md
-    - name: Accessibility
-      href: help-viewer/accessibility-features.md
-    - name: Shortcut Keys
-      href: help-viewer/shortcut-keys.md
   - name: The Visual Studio image library
     href: designers/the-visual-studio-image-library.md
+- name: Security
+  items:
+  - name: Develop secure applications
+    href: ide/securing-applications.md
+  - name: Run Visual Studio as an administrator
+    href: ide/user-permissions-and-visual-studio.md
+  - name: Windows Information Protection (WIP)
+    href: ide/exempt-visual-studio-from-wip.md
+  - name: Federal Information Processing Standard (FIPS)
+    href: ide/fips-support-visual-studio.md
   - name: Dotfuscator Community
     href: ide/dotfuscator/index.md
 - name: Resources
@@ -1329,6 +1303,8 @@
     href: https://visualstudio.microsoft.com/license-terms/
   - name: Support lifecycle and servicing
     href: /visualstudio/productinfo/vs-servicing-vs/
+  - name: Microsoft Help Viewer >>
+    href: help-viewer/overview.md
 - name: Send feedback
   items:
   - name: Suggest a feature
