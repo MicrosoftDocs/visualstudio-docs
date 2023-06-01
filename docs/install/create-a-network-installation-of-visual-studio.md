@@ -197,13 +197,13 @@ vs_enterprise.exe --layout C:\VSLayout --useLatestInstaller
 
 ## Maintaining your layout
 
-It is a best practice to periodically update your Visual Studio layout to the latest secure version of the product. This will ensure that the layout can be used both as an installation point as well as an update source for client installations. This section describes the most common or useful layout maintenance operations.
+It is a best practice to periodically update your Visual Studio layout to the latest secure version of the product. This will ensure that the layout can be used both as an installation point as well as an update source for client installations. The section below describes the most common or useful layout maintenance operations.
 
 If you host a layout on a network file share, you may want to download an updated layout to a private local share (for example, c:\VSLayoutUpdate) and then, after all of the updated content is downloaded, copy it to your layout network file share (for example, \\server\products\VS). If you don't do this, there is a possibility that any users who happen to run Setup while you are updating the layout might get a mismatch of content from the layout because it was not yet completely updated.
 
 ### Update the layout to the most current version of the product
 
-Microsoft frequently releases updated versions of the product to fix functionality or security issues. We strongly recommend that you keep your layout updated with the latest version of the product so that your clients always have access to the latest most secure version of the product. This is especially important if your clients don't have internet access and can *only* receive product updates from the layout.  
+Microsoft frequently releases updated versions of the product to fix functionality or security issues. We strongly recommend that you keep your layout updated with the latest version of the product so that your clients always have access to the latest most secure version of the product. This is especially important if your clients don't have internet access and can *only* receive product updates from the layout. Visual Studio typically releases security updates on the second Tuesday of the month, known as "patch Tuesday", so a good strategy would be to update all your layouts on patch Tuesday afternoon.
 
 When you create the initial layout, the specified options, such as which workloads and languages to include in the layout, are saved in the layout's configuration file `layout.json`. Later, when you update that layout to a newer version of the product, you don't have to re-specify which components of the product you want in the layout. A layout update simply updates the existing components in the layout to their most current version.  
 
