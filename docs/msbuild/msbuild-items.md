@@ -54,9 +54,9 @@ The `Include` attribute is a path that is interpreted relative to the project fi
 
 ## Reference items in a project file
 
- To reference item types throughout the project file, you use the syntax @(\<ItemType>). For example, you would reference the item type in the previous example by using `@(Compile)`. By using this syntax, you can pass items to tasks by specifying the item type as a parameter of that task. For more information, see [How to: Select the files to build](../msbuild/how-to-select-the-files-to-build.md).
+ To reference item types throughout the project file, you use the syntax `@(ItemType)`. For example, you would reference the item type in the previous example by using `@(Compile)`. By using this syntax, you can pass items to tasks by specifying the item type as a parameter of that task. For more information, see [How to: Select the files to build](../msbuild/how-to-select-the-files-to-build.md).
 
- By default, the items of an item type are separated by semicolons (;) when it's expanded. You can use the syntax @(\<ItemType>, '\<separator>') to specify a separator other than the default. For more information, see [How to: Display an item list separated with commas](../msbuild/how-to-display-an-item-list-separated-with-commas.md).
+ By default, the items of an item type are separated by semicolons (;) when it's expanded. You can use the syntax `@(ItemType, 'separator')` to specify a separator other than the default. For more information, see [How to: Display an item list separated with commas](../msbuild/how-to-display-an-item-list-separated-with-commas.md).
 
 ## Use wildcards to specify items
 
@@ -84,7 +84,7 @@ For more information about wildcard characters, see [How to: Select the files to
 
 ## Use the Exclude attribute
 
- Item elements can contain the `Exclude` attribute, which excludes specific items (files) from the item type. The `Exclude` attribute is typically used together with wildcard characters. For example, the following XML adds every *.cs* file in the directory to the CSFile item type, except the *DoNotBuild.cs* file.
+ Item elements can contain the `Exclude` attribute, which excludes specific items (files) from the item type. The `Exclude` attribute is typically used together with wildcard characters. For example, the following XML adds every *.cs* file in the directory to the `CSFile` item type, except the *DoNotBuild.cs* file.
 
 ```xml
 <ItemGroup>
@@ -107,7 +107,7 @@ For more information about wildcard characters, see [How to: Select the files to
 
  Metadata is a collection of key-value pairs that are declared in the project file as child elements of an item element. The name of the child element is the name of the metadata, and the value of the child element is the value of the metadata.
 
- The metadata is associated with the item element that contains it. For example, the following XML adds `Culture` metadata that has the value `Fr` to both the *one.cs* and the *two.cs* items of the CSFile item type.
+ The metadata is associated with the item element that contains it. For example, the following XML adds `Culture` metadata that has the value `Fr` to both the *one.cs* and the *two.cs* items of the `CSFile` item type.
 
 ```xml
 <ItemGroup>
@@ -184,13 +184,13 @@ For more information, see [Item definitions](../msbuild/item-definitions.md).
 
 ## Attributes for items in an ItemGroup of a Target
 
-`Target` elements may contain [ItemGroup](../msbuild/itemgroup-element-msbuild.md) elements that may contain item elements. The attributes in this section are valid when they are specified for an item in an `ItemGroup` that's in a `Target`.
+`Target` elements may contain [ItemGroup](../msbuild/itemgroup-element-msbuild.md) elements that may contain item elements. The attributes in this section are valid when they're specified for an item in an `ItemGroup` that's in a `Target`.
 
 ### <a name="BKMK_RemoveAttribute"></a> Remove attribute
 
 The `Remove` attribute removes specific items (files) from the item type. This attribute was introduced in the .NET Framework 3.5 (inside targets only). Both inside and outside targets are supported starting in MSBuild 15.0.
 
-The following example removes every *.config* file from the `Compile` item type.
+The following example removes every `.config` file from the `Compile` item type.
 
 ```xml
 <Target>
@@ -202,7 +202,7 @@ The following example removes every *.config* file from the `Compile` item type.
 
 #### MatchOnMetadata attribute
 
-The `MatchOnMetadata` attribute is applicable only to `Remove` attributes that reference other items (for example, `Remove="@(Compile);@(Content)"`) and instructs the Remove operation to match items based on the values of specified metadata names, instead of matching based on the item values.
+The `MatchOnMetadata` attribute is applicable only to `Remove` attributes that reference other items (for example, `Remove="@(Compile);@(Content)"`) and instructs the `Remove` operation to match items based on the values of specified metadata names, instead of matching based on the item values.
 
 Matching rule for `B Remove="@(A)" MatchOnMetadata="M"`: remove all items from `B` that have metadata `M`, whose metadata value `V` for `M` matches any item from `A` with metadata `M` of value `V`.
 
@@ -231,7 +231,7 @@ Matching rule for `B Remove="@(A)" MatchOnMetadata="M"`: remove all items from `
 </Project>
 ```
 
-In the above example, item values `b2`, `c2`, and `d2` are removed from item `B` because:
+In the example, item values `b2`, `c2`, and `d2` are removed from item `B` because:
  - `b2` and `c2` from `B` match against `b1` from `A` on `M1=2` and `M2=x`
  - `d2` from `B` matches against `c1` from `A` on `M1=3` and `M2=y`
 
@@ -243,11 +243,11 @@ The `Message` task outputs the following:
   g2 M1='' M2='' M3='s'
 ```
 
-Example usage of `MatchOnMetadata` from the [msbuild common sdk](https://github.com/dotnet/msbuild/blob/808b2ae2a176679d15f8c3299e551a63cb55b799/src/Tasks/Microsoft.Common.CurrentVersion.targets#L5019):
+Example usage of `MatchOnMetadata` from [MSBuild](https://github.com/dotnet/msbuild/blob/808b2ae2a176679d15f8c3299e551a63cb55b799/src/Tasks/Microsoft.Common.CurrentVersion.targets#L5019):
 ```xml
       <_TransitiveItemsToCopyToOutputDirectory Remove="@(_ThisProjectItemsToCopyToOutputDirectory)" MatchOnMetadata="TargetPath" MatchOnMetadataOptions="PathLike" />
 ```
-The above line removes items from `_TransitiveItemsToCopyToOutputDirectory` that have the same `TargetPath` metadata values from items in `_ThisProjectItemsToCopyToOutputDirectory`
+This line removes items from `_TransitiveItemsToCopyToOutputDirectory` that have the same `TargetPath` metadata values from items in `_ThisProjectItemsToCopyToOutputDirectory`
 
 #### MatchOnMetadataOptions attribute
 
@@ -390,7 +390,7 @@ Output:
 -->
 ```
 
-Because the `KeepDuplicates` attribute considers the metadata of items in addition to the item values, it is important to know what's happening with the metadata. For example, see [Detecting duplicates when using the Metadata item function](./item-functions.md#detecting-duplicate-items-when-using-the-metadata-item-function).
+Because the `KeepDuplicates` attribute considers the metadata of items in addition to the item values, it's important to know what's happening with the metadata. For example, see [Detecting duplicates when using the Metadata item function](./item-functions.md#detecting-duplicate-items-when-using-the-metadata-item-function).
 
 ## Updating metadata on items in an ItemGroup outside of a Target
 
