@@ -60,7 +60,7 @@ Some enterprises want to host the layout on an intranet location to better manag
     $BootstrapperName = “vs_Enterprise.exe”
 
     #Add any arguments which you intend to send to bootstrapper.
-    $Arguments = “–passive --wait”
+    $Arguments = “--passive --wait”
 
     #SCRIPT FUNCTIONALITY
     #Forming URI for bootstrapper
