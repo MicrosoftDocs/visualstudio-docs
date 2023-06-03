@@ -115,7 +115,7 @@
           href: install/workload-component-id-vs-test-controller.md
       - name: Visual Studio build numbers and release dates
         href: install/visual-studio-build-numbers-and-release-dates.md
-  - name: Devices, VMs, and Containeers
+  - name: Devices, VMs, and Containers
     items:
     - name: Use Visual Studio from an Azure virtual machine
       href: install/using-visual-studio-vm.md

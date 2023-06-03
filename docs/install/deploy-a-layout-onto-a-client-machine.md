@@ -20,12 +20,12 @@ ms.technology: vs-installation
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
  
 
-In order to deploy a layout to a client machine, you'll need to consider the following topics 
+In order to deploy a layout to a client machine, you'll need to consider the following topics:
 
-- [**Prepare the layout**](create-a-network-installation-of-visual-studio.md): Make sure that your layout is ready to install onto the client
+- [**Prepare the layout**](create-a-network-installation-of-visual-studio.md): Make sure that your layout is ready to install onto the client.
 - [**Prepare the client machines**](#prepare-the-client-machines): Ensure that your client machines are ready to install Visual Studio and your users have the right permissions.
 - [**Configure global policies on the client machine**](configure-policies-for-enterprise-deployments.md): Control other Visual Studio installation, update, notification, and download behavior.  
-- [**Configure initial client installation defaults**](automated-installation-with-response-file.md): Initialize your client's installation with customized settings
+- [**Configure initial client installation defaults**](automated-installation-with-response-file.md): Initialize your client's installation with customized settings.
 - [**Perform regular updates**](update-a-network-installation-of-visual-studio.md): Keep your client machines updated and secure.
 
 ## Install Visual Studio onto a client machine from a layout
@@ -34,7 +34,7 @@ Administrators can deploy a Visual Studio layout onto client workstations as par
 
 ### Install from a network layout
 
-A user with administrator permissions can install Visual Studio from a network layout in an unattended mode by running the following command. The response.json in the layout will provide the default configuration settings for the installation. 
+A user with administrator permissions can install Visual Studio from a network layout in an unattended mode by running the following command. The `response.json` in the layout will provide the default configuration settings for the installation. 
 
 ```shell
 \\server\products\VS\vs_enterprise.exe --quiet --wait 
@@ -43,11 +43,11 @@ A user with administrator permissions can install Visual Studio from a network l
 > [!NOTE] 
 > Be patient. Make sure you `--wait` for both the installer and the product to finish. When installing or updating a client from a layout, the installer is always the first thing to get installed or updated, and then the Visual Studio product itself will get installed or updated. **Both** of these processes need to finish in order to be considered a successful update.   
 >
-> When executing the install or update as part of an unattended automated batch file, the `--wait` option is helpful to ensure that the `vs_enterprise.exe` process waits until the installation is complete before it returns an exit code. This is useful if an enterprise administrator wants to perform further actions on a completed installation, such as [apply a product key to a successful installation](automatically-apply-product-keys-when-deploying-visual-studio.md). Using the --wait option prevents subsequent operations from kicking off prematurely. If you do not use `--wait`, the `vs_enterprise.exe` process can exit before both parts of the installation are complete, and thus will return an inaccurate exit code that doesn't represent the state of the install operation.
+> When executing the install or update as part of an unattended automated batch file, the `--wait` option is helpful to ensure that the `vs_enterprise.exe` process waits until the installation is complete before it returns an exit code. This is useful if an enterprise administrator wants to perform further actions on a completed installation, such as [apply a product key to a successful installation](automatically-apply-product-keys-when-deploying-visual-studio.md). Using the `--wait` option prevents subsequent operations from kicking off prematurely. If you do not use `--wait`, the `vs_enterprise.exe` process can exit before both parts of the installation are complete, and thus will return an inaccurate exit code that doesn't represent the state of the install operation.
 
 ### Install from an internal intranet location
 
-Some enterprises want to host the layout on an intranet location to better manage geographical performance bottlenecks and take advantage of web caching. In order to do this, a user with administrator permissions must run a elevated PowerShell script similar to below to initialize the installation on the client machine. 
+Some enterprises want to host the layout on an intranet location to better manage geographical performance bottlenecks and take advantage of web caching. In order to do this, a user with administrator permissions must run a elevated PowerShell script similar to the following to initialize the installation on the client machine. 
 
 ```shell
     #Do the initial installation from the web hosted layout onto the client in an elevated PowerShell script
@@ -101,7 +101,7 @@ Some enterprises want to host the layout on an intranet location to better manag
 ## Prepare the client machines
 
 ### Permissions
-Make sure that either the user or system account that's running the installation has proper access to the network share that contains the layout. For more information, refer to [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md).
+Make sure that either the user or system account that's running the installation has proper access to the network share that contains the layout. For more information, refer to the [troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md) page.
 
 ### Install on a client that doesn't have internet access
 
@@ -109,7 +109,7 @@ You'll need to make sure that any [offline client machines have the right certif
 
 When you install from a layout, the installer on the client will always look for the Visual Studio packages in the layout's location. However, if the installer tries to install components that are _not_ included in the layout, then it will attempt to acquire the Visual Studio packages from the [update source](update-visual-studio.md#configure-source-location-of-updates-1). For non-internet-connected clients, administrators typically ensure that the layout's update source default setting points back to itself ([by configuring the channelUri in the response.json](automated-installation-with-response-file.md#configure-the-response-file-used-when-installing-from-a-layout) and that the [client's update settings](update-visual-studio.md#configure-source-location-of-updates-1) are configured to look in the layout.  
 
-If you want to _prevent_ the Visual Studio installer from attempting to download any content from the web that may be missing from your network layout, you can try to use the [`--noWeb` parameter](use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command--line-parameters). If `--noWeb` is used and the layout is missing a component that is selected to be installed, then the setup will simply fail. 
+If you want to _prevent_ the Visual Studio Installer from attempting to download any content from the web that may be missing from your network layout, you can try to use the [`--noWeb` parameter](use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command--line-parameters). If `--noWeb` is used and the layout is missing a component that is selected to be installed, then the setup will simply fail. 
 
 If you get an error message that says "A product matching the following parameters cannot be found", make sure that you are using the `--noweb` switch.
 

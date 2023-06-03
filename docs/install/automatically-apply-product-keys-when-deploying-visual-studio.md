@@ -61,7 +61,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE
 
 ::: moniker range="vs-2022"
 
-The following example shows a command line for applying the license for Visual Studio 2022 Enterprise, which has an MPC of 09660, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
+The following example shows a command line for applying the license for Visual Studio 2022 Enterprise, which has an MPC of 09660, a product key of `AAAAA-BBBBB-CCCCC-DDDDD-EEEEE`, and assumes a default installation location:
 
 ```shell
 "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDD-EEEEE 09660
@@ -71,7 +71,7 @@ The following example shows a command line for applying the license for Visual S
 
 ::: moniker range="vs-2019"
 
-The following example shows a command line for applying the license for Visual Studio 2019 Enterprise, which has an MPC of 09260, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
+The following example shows a command line for applying the license for Visual Studio 2019 Enterprise, which has an MPC of 09260, a product key of `AAAAA-BBBBB-CCCCC-DDDDD-EEEEE`, and assumes a default installation location:
 
 ```shell
 "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDD-EEEEE 09260
