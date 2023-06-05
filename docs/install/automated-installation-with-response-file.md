@@ -51,7 +51,7 @@ Parameters that are specified on the command-line override the settings that are
 
 If you created a layout by using the `--layout` command, then a default `response.json` file will be created in the root of the layout folder. Administrators are expected to modify and customize the response file appropriately _before_ installing onto a client machine. That way, they can control the client's initial configuration settings.
 
-The configuration settings in the `response.json` file are only referenced when executing a [bootstrapper](create-a-network-installation-of-visual-studio.md#download-the-visual-studio-bootstrapper-to-create-the-layout) (e.g. vs_enterprise.exe). Bootstrappers are typically used to perform initial installation on the client, but sometimes they're used to update a client too. The `response.json` is never used when the client is using installer (setup.exe) behavior invoked locally on the client.  
+The configuration settings in the `response.json` file are only referenced when executing a [bootstrapper](create-a-network-installation-of-visual-studio.md#download-the-visual-studio-bootstrapper-to-create-the-layout) (e.g. vs_enterprise.exe). Bootstrappers are typically used to perform initial installation on the client, but sometimes they're used to update a client too. The `response.json` is never used when you launch the installer locally on the client.  
 
 If the administrator created a partial layout, then the default `response.json` file in the layout will specify only the workloads and languages that were included in the partial layout. 
 
