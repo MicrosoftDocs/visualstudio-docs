@@ -5,7 +5,7 @@ ms.topic: overview
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
-ms.date: 06/18/2019
+ms.date: 06/05/2023
 ms.assetid: DDC39599-8C5D-4CB9-8DA5-229E085384CA
 ---
 # Visual Studio for Mac Workloads
@@ -19,6 +19,7 @@ Visual Studio for Mac comes pre-installed with workloads for developing the foll
 * .NET Core apps
 * ASP.NET Core Web apps
 * Cross-platform Unity games
+* NET MAUI apps (Visual Studio 2022 for Mac 17.4 or greater)
 
 ## Mobile applications with Xamarin
 
@@ -41,3 +42,7 @@ For information on getting started using ASP.NET Core in Visual Studio for Mac, 
 ## Unity game development
 
 To start building games with Unity, see the [Setup page](setup-vsmac-tools-unity.md) and the [guide to using Unity Tools](using-vsmac-tools-unity.md), or check out the Unity [hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Unity/Getting-Started).
+
+## .NET MAUI applications
+
+To start developing native, cross-platform .NET MAUI apps on macOS, [install Visual Studio 2022 for Mac 17.4 or greater](https://visualstudio.microsoft.com/vs/mac/). For more information, see [Get started with .NET MAUI](/dotnet/maui/get-started/first-app?tabs=vsmac).
