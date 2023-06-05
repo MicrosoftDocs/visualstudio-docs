@@ -227,11 +227,11 @@ The preferred way to add unit tests to your project is by creating a *tests* fol
 your project, and setting that as the test root in project properties. You also need
 to select the test framework you want to use.
 
-![Set test root and test framework](../javascript/media/unit-test-project-properties.png)
+![Screenshot of set test root and test framework.](../javascript/media/unit-test-project-properties.png)
 
 You can add simple blank tests to your project, using the **Add New Item** dialog box. Both JavaScript and TypeScript are supported in the same project.
 
-![Add new unit test](../javascript/media/unit-test-add-new-item.png)
+![Screenshot of how to add new unit test.](../javascript/media/unit-test-add-new-item.png)
 
 For a Mocha unit test, use the following code:
 
@@ -254,14 +254,14 @@ If you haven't set the unit test options in the project properties, you must ens
 property in the **Properties** window is set to the correct test framework for your unit test files. This is
 done automatically by the unit test file templates.
 
-![Test Framework](../javascript/media/UnitTestsFrameworkMocha.png)
+![Screenshot of choosing Test Framework.](../javascript/media/UnitTestsFrameworkMocha.png)
 
 > [!Note]
 > The unit test options will take preference over the settings for individual files.
 
 After opening Test Explorer (choose **Test** > **Windows** > **Test Explorer**), Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list.
 
-![Test Explorer](../javascript/media/UnitTestsDiscoveryMocha.png)
+![Screenshot of Test Explorer.](../javascript/media/UnitTestsDiscoveryMocha.png)
 
 > [!NOTE]
 > For TypeScript, do not use the `outdir` or `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests.
