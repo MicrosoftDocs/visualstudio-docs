@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 03/07/2023
+ms.date: 05/04/2023
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -20,6 +20,167 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
+
+## April 2023
+
+### Deployment
+
+**New articles**
+
+- [Build .NET ClickOnce applications from the command line](../deployment/building-dotnet-clickonce-applications-from-the-command-line.md)
+
+**Updated articles**
+
+- [Build ClickOnce applications from the command line](../deployment/building-clickonce-applications-from-the-command-line.md) - Add link to new Command-Line Build for .NET ClickOnce article
+
+### Designers
+
+**Updated articles**
+
+- [Fix HDPI/scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md) - Shorten text to improve readability
+
+### Extensibility
+
+**Updated articles**
+
+- [VSIX extension schema 2.0 reference](../extensibility/vsix-extension-schema-2-0-reference.md) - Add information about placeholders in VSIX manifest files
+
+### Get started
+
+**Updated articles**
+
+- [What is Visual Studio?](../get-started/visual-studio-ide.md) - Revise the Overview content
+
+### IDE
+
+**New articles**
+
+- [What is the GitHub Copilot extension for Visual Studio?](../ide/visual-studio-github-copilot-extension.md)
+
+**Updated articles**
+
+- [Bookmark code in Visual Studio](../ide/setting-bookmarks-in-code.md) - Update text, links, and screenshots
+- [Sign in to Visual Studio on Windows](../ide/signing-in-to-visual-studio.md) - Update text and screenshots
+- [Make code work in Visual Studio](../ide/find-and-fix-code-errors.md) - Update text and links
+- [Optimize Visual Studio startup time](../ide/optimize-visual-studio-startup-time.md) - Update text, links, and refresh for revised UI
+- [How to: Change fonts, colors, and themes in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) - Update text
+- [Walkthrough: Create a code snippet in Visual Studio](../ide/walkthrough-creating-a-code-snippet.md) - Add more detail to procedural instructions
+
+### Install
+
+**Updated articles**
+
+- [Create, maintain, and deploy a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md) - Update the useLatestInstaller content & add link to Community edition
+
+### MSBuild
+
+**Updated articles**
+
+- [MSBuild batching](../msbuild/msbuild-batching.md) - Document metadata-self referencing behavioral differences
+
+### Profiling
+
+**Updated articles**
+
+- [Which performance tool should I use? (C#, Visual Basic, C++, F#)](../profiling/choose-performance-tool.md) - Update info about choosing your performance tool
+
+### Community contributors
+
+The following people contributed to Visual Studio content in April. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
+
+- [jrdodds](https://github.com/jrdodds) - Jonathan Dodds (1)
+- [kmgallahan](https://github.com/kmgallahan) - Kevin Gallahan (1)
+- [robinhood2014](https://github.com/robinhood2014) - Brandon Taylor (1)
+- [soroosh-chabi](https://github.com/soroosh-chabi) - Soroosh Chabi (1)
+- [Tim-Maes](https://github.com/Tim-Maes) - Tim Maes (1)
+
+## March 2023
+
+### Debugger
+
+**New articles**
+
+- [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.yml)
+
+**Updated articles**
+
+- [Diagnose problems after deployment using IntelliTrace (C#, Visual Basic)](../debugger/diagnose-problems-after-deployment.md) - Remove IntelliTrace content related to MMA end-of-life
+
+### Get started
+
+**Updated articles**
+
+- Update text, links, and screenshots:
+  - [Tutorial: Add reference variables and a timer control to your matching game WinForms app](../get-started/csharp/tutorial-windows-forms-match-game-labels.md)
+  - [Tutorial: Display a message in your matching game WinForms app](../get-started/csharp/tutorial-windows-forms-match-game-play.md)
+
+### IDE
+
+**New articles**
+
+- [Access multiple accounts associated with the Visual Studio sign-in account](./sign-in-access-multiple-accounts.md)
+
+**Updated articles**
+
+- [Learn about Solution Explorer](./use-solution-explorer.md) - Add new Quick Add info
+- [How to: Specify build events (C#)](./how-to-specify-build-events-csharp.md) - Add more information and examples about how to create build events
+- Update text and links:
+  - [Walkthrough: Create a code snippet](./walkthrough-creating-a-code-snippet.md)
+  - [Make code work in Visual Studio](./find-and-fix-code-errors.md)
+  - [Manage application settings (.NET)](./managing-application-settings-dotnet.md)
+
+### Install
+
+**Updated articles**
+
+- [Command-line parameter examples for Visual Studio installation](../install/command-line-parameter-examples.md) - Apply minor fixes to installer command-line info
+
+### JavaScript
+
+**Updated articles**
+
+- [Debug a JavaScript or TypeScript app in Visual Studio](../javascript/debug-nodejs.md) - Update Debug JavaScript and TypeScript info
+- [Tutorial: Create a Node.js and React app in Visual Studio](../javascript/tutorial-nodejs-with-react-and-jsx.md) - Update npm packages and Node.js info 
+
+### MSBuild
+
+**New articles**
+
+- [Customize a build to handle generated files](../msbuild/customize-builds-for-generated-files.md)
+- [Customize the build by folder](../msbuild/customize-by-directory.md)
+- [Customize C++ builds](../msbuild/customize-cpp-builds.md)
+- [Customize all .NET builds](../msbuild/customize-net-builds.md)
+- [Customize the solution build](../msbuild/customize-solution-build.md)
+- [Customize your local build](../msbuild/customize-your-local-build.md)
+
+**Updated articles**
+
+- [MSBuild targets](../msbuild/msbuild-targets.md) - Add link to .NET.SDK.Publish.targets and explanation
+- [MSBuild](../msbuild/msbuild.md) - Review and add information that more accurately reflects usage on non-Windows platforms
+- [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md) Add CustomAfterMicrosoftCommonTargets info
+- [Customize your build](../msbuild/customize-your-build.md) - Update the 'Customize Builds' section
+
+### Profiling
+
+**Updated articles**
+
+- [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md) - Update profiling troubleshooting article with dropped events error
+- [Analyze CPU usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)](../profiling/cpu-usage.md) - Add updates for CPU Usage call count
+- Update instrumentation articles for 17.6 Preview:
+  - [Instrumentation in Visual Studio (C#, Visual Basic, C++, F#)](../profiling/instrumentation-overview.md)
+  - [Instrument your .NET applications in Visual Studio (C#, C++, Visual Basic, F#)](../profiling/instrumentation.md)
+
+### Version control
+
+**Updated articles**
+
+- [Create a Git repository from Visual Studio](../version-control/git-create-repository.md) - Add .gitignore info
+
+### XAML tools
+
+**New articles**
+
+- [XAML Hot Reload and its impact on performance diagnostic in Visual Studio](../xaml-tools/xaml-hot-reload-impact-performance.md)
 
 ## February 2023
 
@@ -63,14 +224,14 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **New articles**
 
-- [Learn about the Text Spell Checker (Preview)](../ide/text-spell-checker.md)
+- [Learn about the Text Spell Checker (Preview)](./text-spell-checker.md)
 
 **Updated articles**
 
-- [JavaScript IntelliSense](../ide/javascript-intellisense.md) - Update content related to JavaScript IntelliSense language service
-- [Find references in your code](../ide/finding-references.md) - Add 'Clear All Filters' info to the 'Filter By Reference Type' section
-- [How to: Manage editor modes](../ide/how-to-manage-editor-modes.md) - Update the View.FullScreen keyboard shortcut
-- [Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)](../ide/work-with-multi-factor-authentication.md) - Add troubleshooting steps
+- [JavaScript IntelliSense](./javascript-intellisense.md) - Update content related to JavaScript IntelliSense language service
+- [Find references in your code](./finding-references.md) - Add 'Clear All Filters' info to the 'Filter By Reference Type' section
+- [How to: Manage editor modes](./how-to-manage-editor-modes.md) - Update the View.FullScreen keyboard shortcut
+- [Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)](./work-with-multi-factor-authentication.md) - Add troubleshooting steps
 
 ### Install
 
@@ -113,180 +274,3 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [Use the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) - Add documentation for the DeploymentItem attribute
-
-### Community contributors
-
-The following people contributed to Visual Studio content in February. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
-
-- [ericmutta](https://github.com/ericmutta) - Eric Mutta (1)
-- [Giorgi](https://github.com/Giorgi) - Giorgi Dalakishvili (1)
-- [rhundhausen](https://github.com/rhundhausen) - Richard Hundhausen (1)
-
-## January 2023
-
-### Debugger
-
-**New articles**
-
-- [Tabular visualizers in Visual Studio](../debugger/view-data-in-tabular-visualizer.md)
-
-**Updated articles**
-
-- [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md) - Update Edit and Continue for .NET 6
-- Debugger visualizer updates:
-  - [View Text, XML, HTML, JSON strings in the string visualizer](../debugger/string-visualizer-dialog-box.md)
-  - [View strings in a string visualizer in Visual Studio](../debugger/view-strings-visualizer.md)
-
-### Deployment
-
-**Updated articles**
-
-- Clarify behavior for ClickOnce required and non-required updates:
-  - [Choose a ClickOnce deployment strategy](../deployment/choosing-a-clickonce-deployment-strategy.md)
-  - [Choose a ClickOnce update strategy](../deployment/choosing-a-clickonce-update-strategy.md)
-
-### Extensibility
-
-**Updated articles**
-
-- [Using the Managed Package Framework to Implement a Project Type (C#)](../extensibility/internals/using-the-managed-package-framework-to-implement-a-project-type-csharp.md) - Fix formatting and bullet points
-
-### Get started
-
-**Updated articles**
-
-- [Tutorial: Create a simple C# console app in Visual Studio (part 1 of 2)](../get-started/csharp/tutorial-console.md) - Update text, links, and screenshots
-
-### IDE
-
-**New articles**
-
-- [Troubleshoot errors in the Resource Editor](../ide/troubleshoot-resource-editor-errors.md)
-
-**Updated articles**
-
-- [How to: Customize menus and toolbars in Visual Studio](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md) - Update instructional text & links
-- [Options dialog box: Environment \> General](../ide/reference/general-environment-options-dialog-box.md) - Revise Startup settings info
-- [Tour the Visual Studio IDE](../ide/quickstart-ide-orientation.md) - Revise text and update screenshots
-
-### Install
-
-**Updated articles**
-
-- [Troubleshoot network-related errors when you install, update, or use Visual Studio](../install/troubleshooting-network-related-errors-in-visual-studio.md) - Add requirement that client machines need to have permissions to network layout shares
-- [Install Visual Studio](../install/install-visual-studio.md) - Update text and links
-- Perform minor doc content fixes to layout and admin documentation:
-  - [Create, maintain, and deploy a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
-  - [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md)
-
-### JavaScript
-
-**Updated articles**
-
-- [Develop JavaScript and TypeScript code in Visual Studio without solutions or projects](../javascript/develop-javascript-code-without-solutions-projects.md) - Add updates for importing an existing Node.js project
-- [Tutorial: Create a Node.js and Express app in Visual Studio](../javascript/tutorial-nodejs.md) - Update text and links
-
-### MSBuild
-
-**New articles**
-
-- [Fix intermittent build failures](../msbuild/fix-intermittent-build-failures.md) - Show how to identify and fix race conditions
-
-**Updated articles**
-
-- [Item functions](../msbuild/item-functions.md) - Clarify metadata item function and KeepDuplicates
-- [Property functions](../msbuild/property-functions.md) - Update text and links
-- [Tutorial: Create a custom task for code generation](../msbuild/tutorial-custom-task-code-generation.md) - Improve code formatting
-
-### Profiling
-
-**New articles**
-
-- [Slow Enumerable.Contains lookup](../profiling/perf-insights-contains.md)
-- [Slow Enumerable.ElementAt lookup](../profiling/perf-insights-elementat.md)
-- [Which performance tool should I use? (C#, Visual Basic, C++, F#)](../profiling/choose-performance-tool.md)
-
-### Python
-
-**Updated articles**
-
-- [Step 3: Serve static files, add pages, and use template inheritance with Django app](../python/learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md) - Update extends tag info
-
-### Test
-
-**Updated articles**
-
-- [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) - Add new code coverage filters info
-
-## December 2022
-
-### Containers
-
-**New articles**
-
-- [Deploy an app into a container in Azure (Preview)](../containers/deploy-containerized.md)
-
-### Debugger
-
-**New articles**
-
-- [Remote Debug ASP.NET Core on Azure App Service](../debugger/remote-debugging-azure-app-service.md)
-
-**Updated articles**
-
-- Refactor properties reference docs for Spy++:
-  - [Messages View](../debugger/messages-view.md)
-  - [Processes View](../debugger/processes-view.md)
-  - [Threads View](../debugger/threads-view.md)
-  - [Windows View](../debugger/windows-view.md)
-- [Error: Unable to Start Debugging on the Web Server](../debugger/error-unable-to-start-debugging-on-the-web-server.md) - Update remote debugger errors for WebPI deprecation
-- [Find memory leaks with the CRT library](../debugger/finding-memory-leaks-using-the-crt-library.md) - Add example showing memory leak for malloc
-
-### Deployment
-
-**New articles**
-
-- [Tutorial: Deploy an ASP.NET Core app and Database to Azure Container Apps using GitHub Actions](../deployment/end-to-end-deployment-entity-framework-core-github-actions.md)
-
-### Get started
-
-**Updated articles**
-
-- [Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)](../get-started/csharp/tutorial-console-part-2.md) - Review and refresh tutorial
-
-### IDE
-
-**Updated articles**
-
-- Update text, links, and screenshots:
-  - [Use the Task List](../ide/using-the-task-list.md)
-  - [Code snippets](../ide/code-snippets.md)
-  - [Environment settings for Visual Studio](../ide/environment-settings.md)
-  - [Identify and customize keyboard shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
-- [Visual Studio Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md) - Update version location for VsDevCmd.bat
-- [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) - Add git shortcuts
-
-### Profiling
-
-**Updated articles**
-
-- Update to match the current user interface:
-  - [Measure application performance by analyzing CPU usage (C#, Visual Basic, C++, F#)](../profiling/beginners-guide-to-performance-profiling.md)
-  - [Analyze CPU usage without debugging in the Performance Profiler (C#, Visual Basic, C++, F#)](../profiling/cpu-usage.md)
-- Fix links:
-  - [How to: Instrument a stand-alone .NET Framework component and collect timing data with the profiler from the command line](../profiling/instrument-dotnet-framework-component-and-collect-timing-data.md)
-  - [How to: Instrument a native stand-alone component and collect timing data with the profiler from the command line](../profiling/instrument-native-component-and-collect-timing-data.md)
-  - [VSPerfCmd](../profiling/vsperfcmd.md)
-
-### Python
-
-**Updated articles**
-
-- [Step 4: Use the full Django Web Project template](../python/learn-django-in-visual-studio-step-04-full-django-project-template.md) - Add Python updates
-
-### Test
-
-**Updated articles**
-
-- [Use the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) - Add DataRowAttribute documentation
-- [Remote Testing (experimental preview)](../test/remote-testing.md) - Improve code formatting

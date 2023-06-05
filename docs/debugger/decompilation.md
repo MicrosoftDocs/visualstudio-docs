@@ -1,7 +1,7 @@
 ---
 title: Decompile .NET code while debugging | Microsoft Docs
 description: Generate and embed source code from .NET assemblies while debugging in Visual Studio. Extract and view the embedded source code.
-ms.date: 2/2/2020
+ms.date: 03/23/2023
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -45,7 +45,7 @@ The following illustration shows the **Source Not Found** message.
 
 ## Generate and embed sources for an assembly
 
-In addition to generating source code for a specific location, you can generate all the source code for a given .NET assembly. To do this, go to the **Modules** window and from the context menu of a .NET assembly, and then select the **Decompile source code** command. Visual Studio generates a symbol file for the assembly and then embeds the source into the symbol file. In a later step, you can [extract](#extract-and-view-the-embedded-source-code) the embedded source code.
+In addition to generating source code for a specific location, you can generate all the source code for a given .NET assembly. To do this, go to the **Modules** window and from the context menu of a .NET assembly, and then select the **Decompile Source to Symbol File** command. Visual Studio generates a symbol file for the assembly and then embeds the source into the symbol file. In a later step, you can [extract](#extract-and-view-the-embedded-source-code) the embedded source code.
 
 ![Screenshot of assembly context menu in modules window with decompile source command.](media/decompilation-decompile-source-code.png)
 
@@ -103,7 +103,7 @@ More details can be found in the GitHub issue: [PDB Generator Status](https://gi
 
 ### Just My Code
 
-The [Just My Code (JMC)](./just-my-code.md) settings allows Visual Studio to step over system, framework, library, and other non-user calls. During a debugging session, the **Modules** window shows which code modules the debugger is treating as My Code (user code).
+The [Just My Code (JMC)](./just-my-code.md) setting allows Visual Studio to step over system, framework, library, and other non-user calls. During a debugging session, the **Modules** window shows which code modules the debugger is treating as My Code (user code).
 
 Decompilation of optimized or release modules produces non-user code. If the debugger breaks in your decompiled non-user code, for example, the **No Source** window appears. To disable Just My Code, navigate to **Tools** > **Options** (or **Debug** > **Options**) > **Debugging** > **General**, and then deselect **Enable Just My Code**.
 

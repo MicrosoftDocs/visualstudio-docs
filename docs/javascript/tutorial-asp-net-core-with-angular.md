@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Angular"
 description: In this tutorial, you create an app using ASP.NET Core and Angular
-ms.date: 02/27/2023
+ms.date: 04/25/2023
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -59,7 +59,7 @@ Make sure to install the following:
    Compared to the [standalone Angular template](../javascript/tutorial-create-angular-app.md), you see some new and modified files for integration with ASP.NET Core:
 
    - aspnetcore-https.js
-   - proxy.js
+   - proxy.conf.js
    - package.json(modified)
    - angular.json(modified)
    - app.components.ts
@@ -71,7 +71,7 @@ Make sure to install the following:
 
    :::image type="content" source="media/vs-2022/asp-net-core-project-properties.png" alt-text="Screenshot showing Open project properties"::: 
 
-1. Go to the Debug menu and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option.
+1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option.
 
    :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser.png" alt-text="Screenshot showing Debug launch profiles UI"::: 
 
@@ -166,3 +166,7 @@ If the weather data does not load correctly, you may also need to verify that yo
    ```js
    target: 'https://localhost:7049',
    ```
+
+## Next steps
+
+For more information about SPA applications in ASP.NET Core, see the Angular section under [Developing Single Page Apps](/aspnet/core/client-side/spa/intro#developing-single-page-apps). The linked article provides additional context for project files such as *aspnetcore-https.js* and *proxy.conf.js*, although details of the implementation are different due to project template differences. For example, instead of a ClientApp folder, the Angular files are contained in a separate project.

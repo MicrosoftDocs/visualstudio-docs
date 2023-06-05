@@ -19,11 +19,11 @@
 - name: Tutorials
   items:
   - name: Learn to debug C#
-    href: ../get-started/csharp/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
+    href: ../get-started/csharp/tutorial-debugger.md?toc=%2fvisualstudio%2fdebugger%2ftoc.json
   - name: Learn to debug C++
     href: getting-started-with-the-debugger-cpp.md
   - name: Learn to debug Visual Basic
-    href: ../get-started/visual-basic/tutorial-debugger.md?toc=%252fvisualstudio%252fdebugger%252ftoc.json
+    href: ../get-started/visual-basic/tutorial-debugger.md?toc=%2fvisualstudio%2fdebugger%2ftoc.json
   - name: Running Python code in the debugger...
     href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
   - name: Debug a live Azure app
@@ -36,16 +36,18 @@
     href: debugging-absolute-beginners.md
 - name: How-to guides
   items:
-  - name: Navigate through code with the debugger
-    href: navigating-through-code-with-the-debugger.md
+  - name: Navigate code
+    items:
+    - name: Navigate through code with the debugger
+      href: navigating-through-code-with-the-debugger.md
+    - name: Move the execution pointer
+      href: move-the-execution-pointer-with-the-debugger.md
   - name: Pause code
     items:
     - name: Use breakpoints
       href: using-breakpoints.md
     - name: Troubleshooting breakpoints
-      href: troubleshooting-breakpoints.md
-    - name: Troubleshooting C# data breakpoints
-      href: troubleshoot-data-breakpoint-errors.md
+      href: /troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints?toc=%2fvisualstudio%2fdebugger%2ftoc.json
   - name: Data inspection
     items:
     - name: Inspect data in debugger windows
@@ -113,7 +115,7 @@
       - name: Write and debug running XAML code
         href: ../xaml-tools/xaml-hot-reload.md?toc=/visualstudio/debugger/toc.json
       - name: Troubleshooting XAML Hot Reload
-        href: ../xaml-tools/xaml-hot-reload-troubleshooting.md?toc=/visualstudio/debugger/toc.json
+        href: /troubleshoot/developer/visualstudio/tools-utilities/xaml-hot-reload-troubleshooting?toc=/visualstudio/debugger/toc.json
     - name: Edit and Continue not supported for F#
       href: edit-and-continue-not-supported-for-f-hash.md
     - name: Edit code and continue debugging
@@ -299,7 +301,7 @@
     - name: Unblock the download on Windows Server
       href: remote-debugging-unblock-file-download.md
     - name: Troubleshoot remote debugging
-      href: troubleshooting-remote-debugging.md
+      href: /troubleshoot/developer/visualstudio/debuggers/troubleshooting-remote-debugging?toc=%2Fvisualstudio%2Fdebugger%2Ftoc.json
     - name: Remote debugging error reference
       items:
       - name: Remote debugging errors and troubleshooting
@@ -412,8 +414,6 @@
         href: diagnose-problems-after-deployment.md
       - name: Using the IntelliTrace stand-alone collector
         href: using-the-intellitrace-stand-alone-collector.md
-      - name: Using the Microsoft Monitoring Agent
-        href: using-the-microsoft-monitoring-agent.md
     - name: Using saved IntelliTrace data
       href: using-saved-intellitrace-data.md
     - name: API Reference for IntelliTrace Extensibility
@@ -431,7 +431,7 @@
     - name: FAQ for snapshot debugging
       href: debug-live-azure-apps-faq.yml
     - name: Troubleshooting snapshot debugging
-      href: debug-live-azure-apps-troubleshooting.md
+      href: /troubleshoot/developer/visualstudio/debuggers/debug-live-azure-apps-troubleshooting?toc=%2Fvisualstudio%2Fdebugger%2Ftoc.json
     - name: Time travel debugging for live Azure VM apps
       href: debug-live-azure-virtual-machines-time-travel-debugging.md
   - name: Linux debugging
@@ -450,18 +450,14 @@
       href: debug-64-bit-applications.md
     - name: UWP apps
       items:
-      - name: Debug UWP apps
-        href: debugging-windows-store-and-windows-universal-apps.md
-      - name: Start a debugging session (UWP)
-        items:
-        - name: Start a debugging session for a UWP app
-          href: start-a-debugging-session-for-a-store-app-in-visual-studio-vb-csharp-cpp-and-xaml.md
-        - name: Debug UWP apps on a remote machine
-          href: run-windows-store-apps-on-a-remote-machine.md
-        - name: Run UWP apps in the simulator
-          href: run-windows-store-apps-in-the-simulator.md
-        - name: Deploy UWP apps from Visual Studio
-          href: deploy-windows-store-apps-from-visual-studio.md
+      - name: Debug UWP apps >>
+        href: /windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps
+      - name: Debug UWP apps on a remote machine
+        href: run-windows-store-apps-on-a-remote-machine.md
+      - name: Run UWP apps in the simulator
+        href: run-windows-store-apps-in-the-simulator.md
+      - name: Deploy UWP apps from Visual Studio
+        href: deploy-windows-store-apps-from-visual-studio.md
       - name: Debug an installed app package
         href: debug-installed-app-package.md
       - name: Inspect XAML properties while debugging

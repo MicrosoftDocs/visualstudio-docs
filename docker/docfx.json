@@ -39,6 +39,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "uhfHeaderId": "MSDocsHeader-VisualStudio",
       "feedback_system": "GitHub",
       "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
       "breadcrumb_path": "/visualstudio/docker/breadcrumb/toc.json",

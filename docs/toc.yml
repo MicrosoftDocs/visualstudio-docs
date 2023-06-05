@@ -3,7 +3,7 @@
   pdf_name: Visual Studio documentation
 - name: Overview
   items:
-  - name: About Visual Studio
+  - name: What is Visual Studio?
     href: get-started/visual-studio-ide.md
   - name: About the code editor
     href: get-started/tutorial-editor.md
@@ -33,7 +33,7 @@
   - name: Import or export installation configurations
     href: install/import-export-installation-configurations.md
   - name: Troubleshoot installation issues
-    href: install/troubleshooting-installation-issues.md
+    href: /troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues?toc=%2Fvisualstudio%2Ftoc.json
   - name: Update Visual Studio
     href: install/update-visual-studio.md
   - name: Modify Visual Studio
@@ -71,7 +71,7 @@
         - name: Install and use Visual Studio behind a firewall or proxy server
           href: install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md
         - name: Troubleshoot network errors when you install or use Visual Studio
-          href: install/troubleshooting-network-related-errors-in-visual-studio.md
+          href: /troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors?toc=%2Fvisualstudio%2Finstall%2Ftoc.json
     - name: Deploy Help Viewer
       items:
         - name: Help Viewer Administrator Guide
@@ -150,6 +150,8 @@
   - name: F#  >>
     href: /dotnet/fsharp/
   expanded: true
+- name: 'AI: GitHub Copilot'
+  href: ide/visual-studio-github-copilot-extension.md
 - name: Develop
   items:
   - name: Organize and edit code
@@ -183,11 +185,11 @@
       - name: Add or remove imported namespaces (Visual Basic)
         href: ide/how-to-add-or-remove-imported-namespaces-visual-basic.md
       - name: Troubleshoot broken references
-        href: ide/troubleshooting-broken-references.md
+        href: /troubleshoot/developer/visualstudio/project-build/troubleshooting-broken-references?toc=%2Fvisualstudio%2Fmsbuild%2Ftoc.json
     - name: Manage application resources (.NET)
       href: ide/managing-application-resources-dotnet.md
     - name: Troubleshoot Resource Editor errors
-      href: ide/troubleshoot-resource-editor-errors.md
+      href: /troubleshoot/developer/visualstudio/project-build/troubleshoot-resource-editor-errors?toc=%2Fvisualstudio%2Ftoc.json
     - name: Application settings (.NET)
       items:
       - name: Manage application settings (.NET)
@@ -221,7 +223,7 @@
       - name: Create web templates
         href: ide/how-to-manually-create-web-templates.md
       - name: Troubleshoot templates
-        href: ide/how-to-troubleshoot-templates.md
+        href: /troubleshoot/developer/visualstudio/project-build/how-to-troubleshoot-templates?toc=%2Fvisualstudio%2Fmsbuild%2Ftoc.json
     - name: Locate project and item templates
       href: ide/how-to-locate-and-organize-project-and-item-templates.md
     - name: Customize templates
@@ -251,8 +253,10 @@
     items:
     - name: Use the editor
       href: ide/writing-code-in-the-code-and-text-editor.md
-    - name: Use the Text Spell Checker (Preview)
+    - name: Use the Spell Checker
       href: ide/text-spell-checker.md
+    - name: Use Sticky Scroll
+      href: ide/editor-sticky-scroll.md  
     - name: Find and replace
       items:
       - name: Find and replace text
@@ -302,7 +306,7 @@
           - name: Code snippets schema reference
             href: ide/code-snippets-schema-reference.md
           - name: Troubleshoot snippets
-            href: ide/troubleshooting-snippets.md
+            href: /troubleshoot/developer/visualstudio/ide/troubleshooting-snippets?toc=%2Fvisualstudio%2Ftoc.json
       - name: Quick Actions
         displayName: light bulb screwdriver suggestions
         href: ide/quick-actions.md
@@ -588,7 +592,7 @@
     - name: Keyboard and mouse shortcuts
       href: ide/class-designer/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md
     - name: Class Designer errors
-      href: ide/class-designer/additional-information-about-errors.md
+      href: /troubleshoot/developer/visualstudio/ide/troubleshoot-class-designer-errors?toc=%2Fvisualstudio%2Ftoc.json
   - name: Improve your code
     href: ide/find-and-fix-code-errors.md
   - name: Tips and tricks
@@ -783,8 +787,6 @@
       href: ide/how-to-build-multiple-configurations-simultaneously.md
   - name: Build platforms
     items:
-    - name: Understand build platforms
-      href: ide/understanding-build-platforms.md
     - name: Configure projects to target a platform
       href: ide/how-to-configure-projects-to-target-platforms.md
     - name: Configure projects to target multiple platforms
@@ -856,6 +858,8 @@
     - name: Sign in to Visual Studio
       displayName: personalization accounts
       href: ide/signing-in-to-visual-studio.md
+    - name: Access multiple user accounts
+      href: ide/sign-in-access-multiple-accounts.md
     - name: Work with accounts that require multifactor authentication
       href: ide/work-with-multi-factor-authentication.md
     - name: Work with GitHub accounts in Visual Studio
@@ -1308,47 +1312,31 @@
   - name: The Visual Studio image library
     href: designers/the-visual-studio-image-library.md
   - name: Dotfuscator Community
-    items:
-    - name: Overview
-      displayName: Dotfuscator Community
-      href: ide/dotfuscator/index.md
-    - name: Capabilities of Dotfuscator
-      href: ide/dotfuscator/capabilities.md
-    - name: Install Dotfuscator Community
-      href: ide/dotfuscator/install.md
-    - name: Register Dotfuscator Community
-      href: ide/dotfuscator/register.md
-    - name: Upgrade Dotfuscator Community
-      href: ide/dotfuscator/upgrades.md
-    - name: Upgrade from Dotfuscator Community 5
-      href: ide/dotfuscator/upgrade-from-5.md
+    href: ide/dotfuscator/index.md
 - name: Resources
   items:
-  - name: "Visual Studio 2022: What's new"
-    href: ide/whats-new-visual-studio-2022.md
-  - name: "Visual Studio 2019: What's new"
-    href: ide/whats-new-visual-studio-2019.md
-  - name: What's new in Docs
+  - name: "What's new in Docs"
     href: ide/whats-new-visual-studio-docs.md
   - name: Release notes
     href: /visualstudio/releases/
   - name: Release rhythm
     href: /visualstudio/productinfo/release-rhythm/
+  - name: "Visual Studio 2022: What's new"
+    href: ide/whats-new-visual-studio-2022.md
+  - name: "Visual Studio 2019: What's new"
+    href: ide/whats-new-visual-studio-2019.md
   - name: License terms
     href: https://visualstudio.microsoft.com/license-terms/
   - name: Support lifecycle and servicing
     href: /visualstudio/productinfo/vs-servicing-vs/
-  - name: Customer Experience Improvement
-    href: ide/visual-studio-experience-improvement-program.md
-  - name: Connected experiences in Visual Studio
-    href: ide/reference/connected-experiences.md
-  expanded: true
 - name: Send feedback
   items:
   - name: Suggest a feature
     href: ide/suggest-a-feature.md
   - name: Report a problem
     href: ide/how-to-report-a-problem-with-visual-studio.md
+  - name: Customer Experience Improvement
+    href: ide/visual-studio-experience-improvement-program.md    
   - name: Get performance issues fixed quicker
     href: ide/how-to-increase-chances-of-performance-issue-being-fixed.md
   - name: Create logs for MSBuild problems

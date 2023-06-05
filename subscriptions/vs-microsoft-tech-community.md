@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 8fccb5f6-ff61-488f-a91e-447faeda798d
-ms.date: 06/15/2022
+ms.date: 05/24/2023
 ms.topic: how-to
 ms.custom: kr2b-contr-experiment
 description:  Learn about the Microsoft Tech Community forum support benefit included in selected Visual Studio subscriptions.
@@ -29,10 +29,10 @@ Accessing the community forum is simple.
    + Select your preferred language
    + Enter your work email address
    + Create your profile name 
-0. For **Step 2: Code of Conduct**, please read the Code of Conduct and then select the checkbox to indicate your acceptance of the Code of Conduct and Terms of Service.
+0. For **Step 2: Code of Conduct**, read the Code of Conduct and then select the checkbox to indicate your acceptance of the Code of Conduct and Terms of Service.
 0. Select **Register** to finish setting up your profile.
 
-That's all there is to it.  You're now ready to use the community portal.  The home page has news about the community.  To see content specific to the communities you joined, select the **Community Hubs** drop-down at the top of the page and choose a community from your list.  You can always add communities to the list by selecting **Browse All Community Hubs**, selecting on the hub of your choice, and then selecting **Join**.
+ You're now ready to use the community portal.  The home page has news about the community.  To see content specific to the communities you joined, select the **Community Hubs** drop-down at the top of the page and choose a community from your list.  You can always add communities to the list by selecting **Browse All Community Hubs**, selecting on the hub of your choice, and then selecting **Join**.
 
 ## Eligibility
 

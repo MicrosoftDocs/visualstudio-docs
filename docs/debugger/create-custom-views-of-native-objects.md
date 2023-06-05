@@ -1,7 +1,7 @@
 ---
 title: Create custom views of C++ objects
 description: Use the Natvis framework to customize the way that Visual Studio displays native types in the debugger
-ms.date: 04/21/2022
+ms.date: 08/18/2022
 ms.topic: how-to
 f1_keywords: 
   - natvis

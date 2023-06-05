@@ -1,7 +1,7 @@
 ---
 title: "First look at profiling tools"
 description: "Take a brief look at the different diagnostic tools available in Visual Studio."
-ms.date: 11/15/2022
+ms.date: 04/24/2023
 ms.topic: conceptual
 f1_keywords:
   - vs.diagnosticshub.overview
@@ -21,7 +21,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Visual Studio provides a variety of profiling tools to help you diagnose different kinds of app performance issues depending on your app type. In this article, we give a quick look at the most common profiling tools.
+Application performance measuring tools are essential for developers who want to optimize their code and improve application performance. Visual Studio offers a range of profiling and diagnostics tools that can help you diagnose memory and CPU usage and other application-level issues. With these tools, you can accumulate performance data while you run your application. A profiler can help you make informed decisions quickly by providing a visual depiction of execution times and CPU usage for your application. In this article, we give a quick look at the most common profiling tools.
 
 For help choosing the correct tool, or to see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md)
 
@@ -33,7 +33,7 @@ There are several ways to diagnose performance issues when you’re working with
 
 In software engineering, a profiler is a tool used to help you analyze the performance of your applications to improve poorly performing code. Profiling and diagnostics tools help you diagnose memory and CPU usage and other application-level issues. With these tools, you can collect performance data while you run your application.
 
-A profiler can help you make informed decisions quickly by providing a visual depiction of execution times and CPU usage for your application. It’s much easier and quicker to understand issues and fix them when you can see a graph of the execution times or the CPU usage.
+A profiler can help you make informed decisions quickly by providing a visual depiction of execution times and CPU usage for your application. It’s much easier and quicker to understand issues and fix them when you can see a graph of the execution times or the CPU usage. For information on using the tools to help optimize your code, see [Reduce compute costs by using profiling tools](../profiling/optimize-code-using-profiling-tools.md).
 
 ## Measure performance while debugging
 
@@ -223,7 +223,7 @@ The tool shows each event in a list view. Columns provide information about each
 
 ## Instrumentation
 
-The Instrumentation tool is similar to the CPU Usage tool, except that it uses instrumentation instead of sampling. The instrumentation method requires more overhead, but you can get exact call counts on how many times your functions were called. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**). For more information, see [Instrumentation](../profiling/instrumentation-overview.md).
+The Instrumentation tool is similar to the CPU Usage tool, except that it provides exact call counts and wall clock time instead of CPU utilization. The instrumentation method requires more overhead than the CPU Usage tool. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**). For more information, see [Instrumentation](../profiling/instrumentation-overview.md).
 
 ::: moniker range=">= vs-2022"
 

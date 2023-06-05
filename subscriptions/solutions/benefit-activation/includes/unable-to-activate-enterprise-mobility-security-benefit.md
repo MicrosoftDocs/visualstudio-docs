@@ -5,7 +5,7 @@ ms.topic: include
 ms.assetid: 104e6ef4-5bb1-4f26-af7c-a6925e3665c7
 author: larissacrawford
 ms.author: amast
-ms.date: 2/24/2023
+ms.date: 04/28/2023
 user.type: subscriber
 tags: benefit, M365
 subscription.type: vl, cloud, retail, partner
@@ -30,14 +30,14 @@ If you activate the offer through another source, refer to the [Microsoft 365 De
 
 ## Migrate from Office 365 E3 to Microsoft 365 E5 
 
-If you have an old Office 365 E3 developer sandbox subscription activated through Visual Studio Subscriptions, you can migrate to Microsoft 365 E5. If you would like to migrate to a new Microsoft 365 E5 developer subscription, you'll need to delete your current subscription and replace it.
+If you have an old Office 365 E3 developer sandbox subscription activated through a Visual Studio subscription, you can migrate to Microsoft 365 E5. If you would like to migrate to a new Microsoft 365 E5 developer subscription, you need to delete your current subscription and replace it.
 
 To get your new Microsoft 365 E5 developer subscription, go to your dashboard and take the following steps: 
 1. On your subscription tile, select Delete subscription. 
 1. Confirm that you want to delete your subscription by typing the name of your domain in the dialog box. 
 1. The setup process for your new Microsoft 365 E5 subscription starts automatically. 
 
-After you delete your Office 365 E3 subscription and create your replacement Microsoft 365 E5 subscription, your Office 365 E3 tenant will be available for 60 days so that you can migrate your data. 
+After you delete your Office 365 E3 subscription and create a Microsoft 365 E5 subscription, your Office 365 E3 tenant will be available for 60 days so that you can migrate your data. 
 
 ## More information about the Microsoft 365 E5 developer subscription offer
 

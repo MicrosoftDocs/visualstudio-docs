@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 588480a3-8806-4ea5-9915-c25974770069
-ms.date: 06/30/2022
+ms.date: 05/23/2023
 ms.topic: how-to
 description:  Learn about the Windows Developer Account included with your Visual Studio subscription.
 ---
@@ -14,7 +14,7 @@ Your Windows Developer Account, included with selected Visual Studio subscriptio
 
 ## Activation steps
 
-To use your Windows Developer Account, you’ll need to set up an account or sign in using an existing account.
+To use your Windows Developer Account, you need to set up an account or sign in using an existing account.
 
 > [!IMPORTANT]
 > Creation of a Windows Developer account requires the use of a Microsoft Account (MSA).  Use of Azure Active Directory accounts is not supported.  
@@ -22,22 +22,22 @@ To use your Windows Developer Account, you’ll need to set up an account or sig
 We recommend that you create a "private" browser window for this process.  For example, in Google Chrome, create a new "incognito" window.  In Internet Explorer, create a new "InPrivate" window.
 
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
-2. Locate the Windows Developer Account tile in the Tools section and click on the **Get Code** link at the bottom of the benefit tile.  Copy the code to your clipboard, then click **Activate**.
+2. Locate the Windows Developer Account tile in the Tools section and select on the **Get Code** link at the bottom of the benefit tile.  Copy the code to your clipboard, then select **Activate**.
    > [!div class="mx-imgBorder"]
    > ![Windows Developer Benefit Tile](_img/vs-windows-dev/vs-windows-dev-tile.png "Screenshot of the Windows Developer Account tile. Get Code is highlighted.")
-3. On the [https://developer.microsoft.com/store/register/](https://developer.microsoft.com/store/register/) site you can begin the registration process.  Click **Sign up** to continue.
+3. On the [https://developer.microsoft.com/microsoft-store/register/](https://developer.microsoft.com/microsoft-store/register/) site, you can begin the registration process.  Select **Sign up** to continue.
    > [!div class="mx-imgBorder"]
    > ![Windows Developer Benefit Registration](_img/vs-windows-dev/vs-windows-dev-register1-cropped.png "Screenshot of the first step in the registration process.  Sign Up is highlighted.")
 4. Sign in to your subscription.  If you have multiple accounts, choose the one associated with your Enterprise subscription.
-0. Enter your email address, select your preferred language, and click **Save**.
-0. On the next page, select the country or region where you live or where your business is located, and then click **Next**.
+0. Enter your email address, select your preferred language, and select **Save**.
+0. On the next page, select the country or region where you live or where your business is located, and then select **Next**.
 0. Select **Individual** as your account type.
-0. Create your publisher display name.  This will be the unique name your customers will see associated with your apps, add-ins, and services.
-0. Provide your contact information and preferred email language, then click **Next**.
-0. You may be asked to verify your password.  Enter it and click **Sign in**.
-0. On the Registration – Payment page, paste the code you copied earlier into the Promo Code field.  The page will update to show that *no payment is required*.  Click **Next**.
-0. Review your account information, review the App Developer Agreement, and click the checkbox to indicate your acceptance of the terms and conditions.  Then click **Finish**.
-0. Click **Go to dashboard** to begin using your Windows Developer Account!
+0. Create your publisher display name.  This name is the unique name your customers see associated with your apps, add-ins, and services.
+0. Provide your contact information and preferred email language, then select **Next**.
+0. You may be asked to verify your password.  Enter it and select **Sign in**.
+0. On the Registration – Payment page, paste the code you copied earlier into the Promo Code field.  The page updates to show that *no payment is required*.  Select **Next**.
+0. Review your account information, review the App Developer Agreement, and select the checkbox to indicate your acceptance of the terms and conditions.  Then select **Finish**.
+0. Select **Go to dashboard** to begin using your Windows Developer Account!
 
 ## Eligibility
 
@@ -58,7 +58,7 @@ Excludes:  Microsoft Partner Network (MPN), Imagine, MCT Software & Services, NF
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You need to sign in with that email address to see those subscriptions.
 
 ## Support resources
 

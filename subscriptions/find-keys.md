@@ -4,23 +4,23 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: da8df006-4896-4ff9-b487-698d78deabc3
-ms.date: 07/11/2022
+ms.date: 05/24/2023
 ms.topic: conceptual
 description:  Learn how to find, claim and export product keys in Visual Studio subscriptions
 ---
 
 # Finding and claiming product keys in Visual Studio subscriptions
 
-This article explains how to locate, claim, and export product keys from https://my.visualstudio.com/productkeys.  For more information about activating a product with a key, retail and volume license versions of keys, and daily product key claim limits, visit the [product keys overview](product-keys.md).
+This article explains how to locate, claim, and export product keys from https://my.visualstudio.com/productkeys.  For more information about product key types, limits, and more visit the [product keys overview](product-keys.md).
 
 ## Locating and claiming product keys
 
-You must be signed in to your Visual Studio subscription to view your product keys. Individual product keys are found by selecting the blue **Get Key** link for a particular product on the [Downloads](https://my.visualstudio.com/downloads) page as shown below.  All keys are also available in aggregate on the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) page. When multiple keys exist for a single product, notes will be displayed on the Notes column for the download to assist you in identifying which key should be used.
+You must be signed in to your Visual Studio subscription to view your product keys. Individual product keys are found by selecting the blue **Get Key** link for a particular product on the [Downloads](https://my.visualstudio.com/downloads) page.  All keys are also available in aggregate on the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) page. When multiple keys exist for a single product, notes are displayed on the Notes column for the download to assist you in identifying which key should be used.
 > [!div class="mx-imgBorder"]
 > ![Get Key from Downloads Page](_img/product-keys/download-get-key.png "Select Get key on the information page for any download to get a key for that product.")
 
 Some products bundle multiple editions of the product into a single download. In these cases, the product key entered determines which edition of the product is installed.
-Some keys are provided automatically, such as “static” keys, which you can use as many times as needed because activation is not required. Other keys must be claimed by selecting the **Get Key** link for the product.
+Some keys are provided automatically, such as “static” keys, which you can use as many times as needed because activation isn't required. Other keys must be claimed by selecting the **Get Key** link for the product.
 
 Various key types are available, depending on the product.
 
@@ -31,7 +31,7 @@ Various key types are available, depending on the product.
 |    Not Applicable  | No key is needed to install this product. |
 |    Retail | Retail keys allow multiple activations and are used for retail builds of the product. In many cases, 10 activations are allowed per key, though often more are allowed on the same machine. |
 |    Multiple Activation | A Multiple Activation Key (MAK) enables you to activate multiple installations of a product with the same key. MAKs are used with Volume Licensing   versions of products. Typically, only one MAK key is provided per subscription. |
-|    Static Activation Key | Static activation keys are provided for products that do not require activation. They can be used for any number of installations. |
+|    Static Activation Key | Static activation keys are provided for products that don't require activation. They can be used for any number of installations. |
 |    Custom Key | Custom keys provide special actions or information to activate or install the product. |
 |    VA 1.0  |  Multiple activation keys, similar to a MAK. |
 |    OEM Key |  Original Equipment Manufacturer keys that allow multiple activations. |
@@ -54,18 +54,18 @@ To claim a product key:
 > ![Search for Product Key](_img/product-keys/search-keys.png "Screenshot of the Product Keys page in the subscriber portal.")
    
 In this example, we’ve used the search bar to locate a product key for Visual Studio Enterprise 2019.
-As you can see, there are several versions listed.  One key each has already been claimed for Visual Studio Enterprise 2019 versions 16.0 and 16.1.  Additional keys of different types are still available for both versions. 
+As you can see, there are several versions listed.  One key each has already been claimed for Visual Studio Enterprise 2019 versions 16.0 and 16.1.  More keys of different types are still available for both versions. 
 
-Notice that you can record a brief note about claimed keys in the **Notes** column.  You can use this  with the date in the **Claimed** column to keep track of the keys you’ve claimed.  You might, for example, make notes when you activate an installation of the product using the key.
+Notice that you can record a brief note about claimed keys in the **Notes** column.  You can use this feature with the date in the **Claimed** column to keep track of the keys you’ve claimed.  You might, for example, make notes when you activate an installation of the product using the key.
 
 ### Exporting your claimed keys
 
-You can export a list of the keys you've claimed.  This includes a large selection of static and other keys that are automatically marked as “claimed” for you.
+You can export a list of the keys you've claimed.  This list includes a large selection of static and other keys that are automatically marked as “claimed” for you.
 
 > [!IMPORTANT]
 > If your subscription expires, you'll no longer be able to claim new keys or export your claimed keys.
 
-To export your keys, select the **Export all keys** link at the far right of the Product Keys page.  An .xml file entitled KeysExport.xml will be created.   You can choose to open or save the file.  You'll need to open the file with an application capable of handling .xml files.  For example, you can open the file as a read-only workbook in Microsoft Excel.
+To export your keys, select the **Export all keys** link at the far right of the Product Keys page.  An .xml file entitled KeysExport.xml is created.   You can choose to open or save the file.  You need to open the file with an application capable of handling .xml files.  For example, you can open the file as a read-only workbook in Microsoft Excel.
 
 ## Resources
 

@@ -11,6 +11,8 @@
     href: starting-to-develop-visual-studio-extensions.md
   - name: 'Create your First Extension: Hello World'
     href: extensibility-hello-world.md
+  - name: VisualStudio.Extensibility SDK (Preview) >>
+    href: ./visualstudio.extensibility/index.yml
   - name: Update extensions for Visual Studio 2022
     items:
     - name: Update an extension
@@ -467,7 +469,7 @@
     - name: Provide an Asynchronous Visual Studio Service
       href: how-to-provide-an-asynchronous-visual-studio-service.md
     - name: Troubleshoot Services
-      href: how-to-troubleshoot-services.md
+      href: /troubleshoot/developer/visualstudio/extensibility/how-to-troubleshoot-services?toc=%2Fvisualstudio%2Fextensibility%2Ftoc.json
   - name: Use and Provide Brokered Services
     items:
     - name: Use and Provide Brokered Services
@@ -481,7 +483,7 @@
     - name: Secure a Brokered Service
       href: how-to-secure-brokered-service.md
     - name: Troubleshoot Brokered Services
-      href: how-to-troubleshoot-brokered-services.md
+      href: /troubleshoot/developer/visualstudio/extensibility/how-to-troubleshoot-brokered-services?toc=%2Fvisualstudio%2Fextensibility%2Ftoc.json
   - name: Manage VSPackages
     items:
     - name: Manage VSPackages
@@ -503,7 +505,7 @@
     - name: Diagnose UI delays caused by extensions
       href: how-to-diagnose-ui-delays-caused-by-extensions.md
     - name: Troubleshooting VSPackages
-      href: troubleshooting-vspackages.md
+      href: /troubleshoot/developer/visualstudio/extensibility/troubleshooting-vspackages?toc=%2Fvisualstudio%2Fextensibility%2Ftoc.json
   - name: Ship Visual Studio Extensions
     items:
     - name: Ship Visual Studio Extensions

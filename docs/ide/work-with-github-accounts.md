@@ -1,9 +1,8 @@
 ---
 title: Work with GitHub accounts in Visual Studio
-ms.date: 04/28/2022
+ms.date: 05/16/2023
 ms.topic: how-to
 description: "Learn how to use Visual Studio with GitHub accounts."
-ms.custom: devdivchpfy22
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
@@ -20,54 +19,75 @@ If you have a public GitHub or GitHub Enterprise account, you can add it to your
 
 ## Adding public GitHub accounts
 
-You can add your public GitHub account if you're already signed into Visual Studio with a Microsoft account,  work account, or school account.
+You can add your public GitHub account at any point, even if you haven't signed into Visual Studio with a Microsoft account, work account, or school account.
 
-1. Select the icon with your initials in the upper-right corner of the Visual Studio environment. Then, select **Account settings...** to manage your accounts. You can also open the Account Settings dialog by going to **File** > **Account Settings...**.
+**Add a GitHub account from the **Account settings** dialog:**
 
-    :::image type="content" source="../ide/media/vs-2022/account-settings-1.png" alt-text="Screenshot of the Account Settings window.":::
+::: moniker range="<=vs-2019"
 
-1. From the **All Accounts** submenu, select the plus sign to add an account, and select **GitHub**.
+1. Open the Account Settings dialog by going to **File** > **Account Settings...**.
 
+2. From the **All Accounts** submenu, select **+ Add** to add an account, and select **GitHub**.
+    
     :::image type="content" source="../ide/media/sign-in-add-github.png" alt-text="Select add GitHub account":::
 
-1. You'll be redirected to the browser, where you can sign in with your GitHub credentials. After you sign in, you'll get a success window in the browser, and you can return to Visual Studio.
+3. You'll be redirected to the browser, where you can sign in with your GitHub credentials. After you sign in, you'll get a success window in the browser, and you can return to Visual Studio.
 
     :::image type="content" source="../ide/media/github-success-signin.png" alt-text="Success window in browser":::
 
-1. You'll have both accounts present in your **All Accounts** submenu.
+4. Your GitHub account will now be present in the **All Accounts** submenu.
 
-    :::image type="content" source="../ide/media/show-both-accounts.png" alt-text="Both accounts showing":::
+   :::image type="content" source="../ide/media/show-both-accounts.png" alt-text="Both accounts showing":::
+   
+::: moniker-end
+   
+::: moniker range="vs-2022"
 
-If you're not already signed in to Visual Studio with a different account, select the **Sign in** link in the upper-right corner of the Visual Studio environment. You can also open the Account Settings dialog by going to **File** > **Account Settings...**. Then, follow the instructions above to add your GitHub account.
+1. Open the Account Settings dialog by going to **File** > **Account Settings...**.
 
-:::image type="content" source="../ide/media/vs-2022/signin-different-account.png" alt-text="Not signed to VS 2022":::
+2. From the **All Accounts** submenu, select **+ Add** to add an account, and then select **GitHub**.
 
-## Adding GitHub Enterprise Managed User (EMU) accounts
+:::image type="content" source="../ide/media/vs-2022/sign-in-add-github.png" alt-text="Screenshot showing the Add GitHub account option.":::
 
-You can add your GitHub EMU account if you're already signed into Visual Studio with a Microsoft account, work account, or school account.
+3. You'll be redirected to the browser, where you can sign in with your GitHub credentials. After you sign in, you'll get a success window in the browser, and you can return to Visual Studio.
 
-1. Select the icon with your initials in the upper-right corner of the Visual Studio environment. Then, select **Account settings...** to manage your accounts. You can also open the Account Settings dialog by going to **File** > **Account Settings...**.
+:::image type="content" source="../ide/media/github-success-signin.png" alt-text="Success window in browser.":::
 
-    :::image type="content" source="../ide/media/vs-2022/account-settings-1.png" alt-text="Screenshot of Enterprise Managed User.":::
+4. Your GitHub account will now be present in the **All Accounts** submenu.
 
-1. From the **All Accounts** submenu, select the **+** or the **Add** dropdown to add an account, and then select **GitHub**.
+:::image type="content" source="../ide/media/vs-2022/show-both-accounts.png" alt-text="Screenshot showing both accounts on the Account settings dialog.":::
 
-    :::image type="content" source="../ide/media/sign-in-add-github.png" alt-text="Screenshot showing how to select and add a GitHub account":::
+::: moniker-end
 
-1. You'll be redirected to the browser, where you can sign in with your GitHub EMU credentials.
+::: moniker range="vs-2022"
 
-> [!NOTE]
-> Ensure you enter your GitHub EMU account credentials (the username has an underscore followed by the company name) on this page.
+**Add a GitHub account from the **profile card**:**
 
-:::image type="content" source="../ide/media/github-enterprise-managed-users-sign-in.png" alt-text="Screenshot showing the GitHub sign in experience for the GitHub Enterprise Managed User account":::
+If you're not already signed in to Visual Studio, select the **Sign in** link in the upper-right corner of the Visual Studio environment and use a Microsoft account, work account, or school account to sign in. 
 
-After you sign in, you'll get a success window in the browser, and you can return to Visual Studio.
+:::image type="content" source="../ide/media/vs-2022/signin-different-account.png" alt-text="Screenshot showing not signed in to Visual Studio.":::
 
-:::image type="content" source="../ide/media/github-success-signin.png" alt-text="Screenshot showing the sign-in success window in the browser":::
+Then, follow these instructions to add your GitHub account.
 
-## Adding GitHub enterprise accounts
+1. Select the icon with your profile name in the upper-right corner of the Visual Studio environment, select **Add another account**, and then select **GitHub**.
+
+    :::image type="content" source="../ide/media/vs-2022/add-another-account-github.png" alt-text="Screenshot of using Add another account option to add a GitHub account.":::
+
+1. You'll be redirected to the browser, where you can sign in with your GitHub credentials. After you sign in, you'll get a success window in the browser, and you can return to Visual Studio.
+
+    :::image type="content" source="../ide/media/github-success-signin.png" alt-text="Screenshot of the success window in browser.":::
+
+1. Your GitHub account will now be present in your profile card.
+
+    :::image type="content" source="../ide/media/vs-2022/show-both-accounts-flyout.png" alt-text="Screenshot showing both accounts on the sign in profile.":::
+
+::: moniker-end
+
+## Enabling GitHub enterprise accounts
 
 By default, Visual Studio only has public GitHub accounts enabled.
+
+::: moniker range="<=vs-2019"
 
 1. To enable GitHub enterprise accounts, go to **Tools** > **Options** and search for the **Accounts** options.
 
@@ -75,15 +95,85 @@ By default, Visual Studio only has public GitHub accounts enabled.
 
 1. Then, check the box to **Include GitHub Enterprise Server accounts**. The next time you go to your **Account Settings** and try to add a GitHub account, you'll see options for both GitHub and GitHub Enterprise.
 
-    :::image type="content" source="../ide/media/github-enterprise-endpoint-signin.png" alt-text="Sign in with GitHub Enterprise":::
+   :::image type="content" source="../ide/media/github-enterprise-endpoint-signin.png" alt-text="Screenshot showing Sign in with GitHub Enterprise.":::
 
 1. After you enter your GitHub Enterprise server address, select **Sign in with your browser**. There, you can sign in using your GitHub Enterprise credentials.
 
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+1. To enable GitHub enterprise accounts, go to **Tools** > **Options** and search for the **Accounts** options.
+
+    :::image type="content" source="../ide/media/vs-2022/add-github-enterprise-account.png" alt-text="Screenshot of GitHub Account.":::
+
+1. Then, check the box to **Include GitHub Enterprise Server accounts**. The next time you go to your **Account Settings** and try to add a GitHub account, you'll see options for both GitHub and GitHub Enterprise.
+
+   :::image type="content" source="../ide/media/vs-2022/github-enterprise-endpoint-signin.png" alt-text="Screenshot showing the Sign in with GitHub Enterprise.":::
+
+1. After you enter your GitHub Enterprise server address, select **Sign in with your browser**. There, you can sign in using your GitHub Enterprise credentials.
+
+::: moniker-end
+
+## Adding GitHub Enterprise Managed User (EMU) accounts
+
+You can add your GitHub EMU account if you're already signed into Visual Studio with a Microsoft account, work account, or school account.
+
+::: moniker range="vs-2022"
+
+1. Select the icon with your initials in the upper-right corner of the Visual Studio environment. Then, select **Add another account** > **GitHub**. 
+
+    :::image type="content" source="../ide/media/vs-2022/add-another-account-github.png" alt-text="Screenshot of adding Enterprise Managed User.":::
+
+1. You'll be redirected to the browser, where you can sign in with your GitHub EMU credentials.
+
+::: moniker-end
+
+**You can use the Account Settings dialog to manage your accounts:**
+
+::: moniker range="<=vs-2019"
+
+1. Select the icon with your initials in the upper-right corner of the Visual Studio environment. Open the Account Settings dialog by selecting **Account settings** or by going to **File** > **Account Settings...**. 
+
+   :::image type="content" source="../ide/media/vs-2019/account-settings-1.png" alt-text="Screenshot of the Account Settings window.":::
+
+1. From the **All Accounts** submenu, select **+ Add** dropdown to add an account, and then select **GitHub**.
+
+   :::image type="content" source="../ide/media/sign-in-add-github.png" alt-text="Screenshot showing how to select and add a GitHub account.":::
+
+1. Select **GitHub Enterprise** on the **Connect to GitHub** dialog.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+1. Select the icon with your initials in the upper-right corner of the Visual Studio environment. Open the Account Settings dialog by selecting **Account settings** or by going to **File** > **Account Settings...**. 
+
+   :::image type="content" source="../ide/media/vs-2022/account-settings-1.png" alt-text="Screenshot of the Account Settings window.":::
+
+1. From the **All Accounts** submenu, select **+ Add** dropdown to add an account, and then select **GitHub**.
+
+   :::image type="content" source="../ide/media/vs-2022/sign-in-add-github.png" alt-text="Screenshot showing how to select and add a GitHub account.":::
+
+1. Select **GitHub Enterprise** on the **Connect to GitHub** dialog.
+
+::: moniker-end
+
+> [!NOTE]
+> Ensure you enter your GitHub EMU account credentials (the username has an underscore followed by the company name) on this page.
+>
+> :::image type="content" source="../ide/media/github-enterprise-managed-users-sign-in.png" alt-text="Screenshot showing the GitHub sign in experience for the GitHub Enterprise Managed User account.":::
+
+After you sign in, you'll get a success window in the browser, and you can return to Visual Studio.
+
+:::image type="content" source="../ide/media/github-success-signin.png" alt-text="Screenshot showing the sign-in success window in the browser.":::
+
 ## Troubleshooting sign in issues
+
 If you're experiencing issues when adding or re-authenticating GitHub accounts, try the following steps:
 
 Verify that HTTP Strict Transport Security (HSTS) is not enabled for localhost on your system's default web browser:
-- On Micrsoft Edge, you can type: edge://net-internals/#hsts and enter _localhost_ under the **Delete domain security policies** section.
+- On Microsoft Edge, you can type: edge://net-internals/#hsts and enter _localhost_ under the **Delete domain security policies** section.
 - On Google Chrome, type: chrome://net-internals/#hsts and enter _localhost_ under the **Delete domain security policies** section.
 
 > [!NOTE]

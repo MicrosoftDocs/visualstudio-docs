@@ -6,7 +6,7 @@ manager: jmartens
 ms.technology: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
-ms.date: 09/16/2022
+ms.date: 05/15/2023
 ms.author: angelpe
 monikerRange: ">= vs-2019"
 ---
@@ -30,6 +30,7 @@ The connected service functionality adds all the needed references and connectio
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Connected services in Visual Studio for Mac](/visualstudio/mac/connected-services).
+
 ## Prerequisites
 
 - Visual Studio with the Azure workload installed.
@@ -39,49 +40,60 @@ The connected service functionality adds all the needed references and connectio
 
 1. Open your project in Visual Studio.
 
-1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add Connected Service**.
+1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add** to open the menu of available services.
 
-1. In the **Connected Services** tab, select the + icon for **Service Dependencies**.
+   ![Screenshot showing Connected Services context menu options.](./media/vs-2022/add-connected-service-context-menu-2.png)
 
-    ![Add Service Dependency](./media/vs-azure-tools-connected-services-storage/vs-2019/connected-services-tab.png)
+1. Choose **SQL Server Database**. The **Connect to dependency** page appears. You should see several options:
 
-1. In the **Add Dependency** page, select **Azure SQL Database**.
+   - SQL Server Express LocalDB, the built-in SQL database offering installed with Visual Studio
+   - SQL Server Database on a local container on your machine
+   - SQL Server Database, a on-premises SQL server on the local network
+   - Azure SQL database, for the SQL database running as an Azure service
 
-    ![Add Azure SQL Database Service](./media/azure-sql-database-add-connected-service/azure-sql-database.png)
+   You can reduce cost and simplify early development by starting with a local database. You can migrate to the live service in Azure later by repeating these steps and choosing another option. If you create a database locally that you want to recreate in Azure, you can migrate your database to Azure at that time.
 
-    If you aren't signed in already, sign into your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+   ![Screenshot showing SQL database choices.](./media/vs-2022/sql-database-choices-2.png)
+
+   If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign into your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
 1. In the **Configure Azure SQL Database** screen, select an existing Azure SQL Database, and select **Next**.
 
     If you need to create a new component, go to the next step. Otherwise, skip to step 7.
 
-    ![Connect to existing Azure SQL Database component](./media/azure-sql-database-add-connected-service/created-azure-sql-database.png)
+    ![Screenshot showing "Connect to existing Azure SQL Database component" screen.](./media/azure-sql-database-add-connected-service/created-azure-sql-database.png)
 
 1. To create an Azure SQL Database:
 
-   1. Select **Create a SQL Database** at the bottom of the screen.
+   1. Select **Create New** by the green plus sign.
 
    1. Fill out the **Azure SQL Database: Create new** screen, and select **Create**.
 
-       ![New Azure SQL Database](./media/azure-sql-database-add-connected-service/create-new-azure-sql-database.png)
+       ![Screenshot showing "New Azure SQL Database" screen.](./media/azure-sql-database-add-connected-service/create-new-azure-sql-database.png)
 
    1. When the **Configure Azure SQL Database** screen is displayed, the new database appears in the list. Select the new database in the list, and select **Next**.
 
 1. Enter a connection string name, or choose the default, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
 
-   ![Specify connection string](./media/azure-sql-database-add-connected-service/connection-string.png)
+   ![Screenshot showing "Specify connection string" screen.](./media/azure-sql-database-add-connected-service/connection-string.png)
 
 1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
 
-   ![Summary of changes](./media/azure-sql-database-add-connected-service/summary-of-changes.png)
+   ![Screenshot showing "Summary of changes" section.](./media/azure-sql-database-add-connected-service/summary-of-changes.png)
 
    If prompted to set a firewall rules, choose **Yes**.
 
-   ![Firewall rules](./media/azure-sql-database-add-connected-service/firewall-rules.png)
+   ![Screenshot showing firewall rules.](./media/azure-sql-database-add-connected-service/firewall-rules.png)
 
-1. The connection appears under the **Service Dependencies** section of the **Connected Services** tab.
+1. In Solution Explorer, double-click on the **Connected Services** node to open the **Connected Services** tab. The connection appears under the **Service Dependencies** section:
 
-   ![Service dependencies](./media/azure-sql-database-add-connected-service/service-dependencies-after.png)
+   ![Screenshot showing "Service Dependencies" section.](./media/azure-sql-database-add-connected-service/service-dependencies-after.png)
+
+   If you click on the three dots next to the dependency you added, you can see various options such as **Connect** to reopen the wizard and change the connection. You can also click the three dots at the top right of the window to see options to start local dependencies, change settings, and more.
+
+## Access the connection string
+
+Learn how to store secrets safely by following [Safe storage of app secrets in development in ASP.NET Core](/aspnet/core/security/app-secrets?tabs=windows). In particular, to read the connection string from the secrets store, you can add code as in [Read the secret via the configuration API](/aspnet/core/security/app-secrets?tabs=windows#read-the-secret-via-the-configuration-api). See also [Dependency injection in ASP.NET Core](/aspnet/core/fundamentals/dependency-injection).
 
 ## Entity Framework migrations
 

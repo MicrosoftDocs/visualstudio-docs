@@ -63,7 +63,7 @@ The following steps show how to change the text label of a menu command by using
         commandService = commandService ?? throw new ArgumentNullException(nameof(commandService));
         
         var menuCommandID = new CommandID(CommandSet, CommandId);
-        var menuItem = new OleMenuCommand(this.Excute, menuCommandID);
+        var menuItem = new OleMenuCommand(this.Execute, menuCommandID);
         menuItem.BeforeQueryStatus += new EventHandler(OnBeforeQueryStatus);
         commandService.AddCommand(menuItem);
     }

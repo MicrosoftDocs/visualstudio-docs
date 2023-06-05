@@ -108,8 +108,6 @@ items:
         href: how-to-use-reserved-xml-characters-in-project-files.md
   - name: Advanced concepts
     items:
-    - name: MSBuild advanced concepts
-      href: msbuild-advanced-concepts.md
     - name: Batching
       items:
       - name: MSBuild batching
@@ -165,39 +163,27 @@ items:
         - name: Configure targets and tasks
           href: how-to-configure-targets-and-tasks.md
       - name: Troubleshoot .NET Framework targeting errors
-        href: troubleshooting-dotnet-framework-targeting-errors.md
-    - name: File tracking
+        href: /troubleshoot/developer/visualstudio/project-build/troubleshooting-dotnet-framework-targeting-errors?toc=%2Fvisualstudio%2Fmsbuild%2Ftoc.json
+    - name: Customization
       items:
-      - name: Overview
-        displayName: file tracking
-        href: file-tracking.md
-      - name: EndTrackingContext
-        href: endtrackingcontext.md
-      - name: ResumeTracking
-        href: resumetracking.md
-      - name: SetThreadCount
-        href: setthreadcount.md
-      - name: StartTrackingContext
-        href: starttrackingcontext.md
-      - name: StartTrackingContextWithRoot
-        href: starttrackingcontextwithroot.md
-      - name: StopTrackingAndCleanup
-        href: stoptrackingandcleanup.md
-      - name: SuspendTracking
-        href: suspendtracking.md
-      - name: WriteAllTLogs
-        href: writealltlogs.md
-      - name: WriteContextTLogs
-        href: writecontexttlogs.md
-    - name: Customize your build
-      href: customize-your-build.md
+      - name: About customizing MSBuild
+        href: customize-your-build.md
+      - name: Customize builds by folder
+        href: customize-by-directory.md
+      - name: Customize your local build
+        href: customize-your-local-build.md
+      - name: Customize the solution build
+        href: customize-solution-build.md
+      - name: Customize all .NET builds
+        href: customize-net-builds.md
+      - name: Customize all C++ builds
+        href: customize-cpp-builds.md
+      - name: Handle code generation
+        href: customize-builds-for-generated-files.md
     - name: MSBuild best practices
       href: msbuild-best-practices.md
   - name: Logging
     items:
-    - name: Overview
-      displayName: logging
-      href: logging-in-msbuild.md
     - name: Obtaining build logs with MSBuild
       href: obtaining-build-logs-with-msbuild.md
     - name: Build loggers

@@ -10,7 +10,8 @@ metadata:
   ms.author: johmil
   ms.date: 08/05/2020
   ms.topic: hub-page
-  ms.prod: visual-studio
+  ms.technology: vs-unity-tools
+  ms.prod: visual-studio-dev16
 highlightedContent:
   items:
     - title: Game development with Visual Studio

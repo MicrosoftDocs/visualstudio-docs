@@ -75,11 +75,12 @@ Other supported bootstrappers include [vs_teamexplorer.exe](https://aka.ms/vs/16
 
 The bootstrappers listed below will always install the latest most secure version of Visual Studio 2022 on the Current channel, no matter when you run them. Alternatively, if you want to create or update a layout to a specific version or a specific channel of Visual Studio 2022, go to the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page that has links to the evergreen and fixed version bootstrappers for each servicing release on each channel, and download the one you want. Copy it into the directory that you want to serve as the source location of the layout. 
 
-| Edition                    | Bootstrapper                                                        |
-|----------------------------|----------------------------------------------------------------------|
+| Edition                         | Bootstrapper                                                            |
+|---------------------------------|-------------------------------------------------------------------------|
 | Visual Studio 2022 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/17/release/vs_enterprise.exe)     |
 | Visual Studio 2022 Professional | [vs_professional.exe](https://aka.ms/vs/17/release/vs_professional.exe) |
-| Visual Studio 2022 Build Tools   | [vs_buildtools.exe](https://aka.ms/vs/17/release/vs_buildtools.exe)         |
+| Visual Studio 2022 Community    | [vs_community.exe](https://aka.ms/vs/17/release/vs_community.exe)    |
+| Visual Studio 2022 Build Tools  | [vs_buildtools.exe](https://aka.ms/vs/17/release/vs_buildtools.exe)     |
 
 ::: moniker-end
 
@@ -156,7 +157,7 @@ Here are a few examples of how to create a custom partial layout.
     
 ### Use a .vsconfig file to customize the contents of your layout
 
-You can also use an [exported vsconfig file](import-export-installation-configurations.md) to customize the contents of a network layout. This functionality is relatively new, so you need to use the latest installer in your layout.
+You can also use an [exported vsconfig file](import-export-installation-configurations.md) to customize the contents of a network layout. 
 
 ```shell
 vs_enterprise.exe --layout C:\VSLayout --config "C:\myconfig.vsconfig" --useLatestInstaller
@@ -164,10 +165,12 @@ vs_enterprise.exe --layout C:\VSLayout --config "C:\myconfig.vsconfig" --useLate
 
 ### Ensure your layout is using the latest installer
 
-We recommend that you always use the latest Visual Studio installer in your layout and distribute it to your clients. That way you will have access to the new features and functionality we make available in subsequent versions of the product. For example, if you distribute the Visual Studio 2022 Installer in your Visual Studio 2019 layouts, then your Visual Studio 2019 clients based off of that layout will have the ability to change source location for updates. The scenario where this functionality would be useful is if you want to install from one layout but have updates come from another layout. Further details, including how to turn _off_ using the latest installer, are [described below](#configure-the-layout-to-always-include-and-provide-the-latest-installer)
+> [!NOTE]
+> As of April 2023, the latest installer is shipping by default with every update to supported versions of Visual Studio 2017, Visual Studio 2019, and Visual Studio 2022. So you won't need to do anything explicitly to get the latest version of the installer with the latest functionality and bug fixes. 
 
- > [!IMPORTANT]
- > This capability to use the latest installer is only available to Visual Studio 2019 bootstrappers that were built after Visual Studio 2022 originally shipped. So, the vs_enterprise.exe in the example below must be a version that shipped _after_ November 10, 2021. 
+If you're using a version of Visual Studio that was shipped before April 2023, we recommend that you always use the latest Visual Studio Installer in your layout and distribute it to your clients. For example, if you distribute the Visual Studio 2022 Installer in your Visual Studio 2019 layouts, then your Visual Studio 2019 clients based off of that layout will have the ability to change the source location for updates or to easily remove out-of-support components. Further details are [described below](#configure-the-layout-to-always-include-and-provide-the-latest-installer)
+
+The capability to programmatically ensure that you're using the latest installer is only available to Visual Studio 2019 bootstrappers that were built after Visual Studio 2022 originally shipped. So, the vs_enterprise.exe in the example below must be a version that shipped _after_ November 10, 2021. 
 
 * To create a layout of the entire product that uses the latest and greatest installer available, run
 
@@ -272,55 +275,16 @@ If you want to modify an existing partial layout so that it becomes a full layou
 vs_enterprise.exe --layout c:\VSLayout --all
 ```
 
-You can add components to a layout by passing in a vsconfig file that contains the additional components you want in your layout. Note that this functionality is new and thus requires the latest installer. This command will also cause the layout contents to be updated to the version specified by the bootstrapper.
+You can add components to a layout by passing in a vsconfig file that contains the additional components you want in your layout. 
 
 ```shell
-vs_enterprise.exe --layout C:\VSLayout --config "C:\myconfig.vsconfig" --useLatestInstaller
+vs_enterprise.exe --layout C:\VSLayout --config "C:\myconfig.vsconfig"
 ```
 
 Lastly, you can directly edit the `layout.json` configuration file in the layout folder and update the "add" section of this file to include the additional components you want included in your layout. You'll then need to update the layout using `--layout` as previously described to download the latest components. 
  
  > [!Note]
  > The easiest way to install the newly added layout components onto a client machine is to run the bootstrapper in the layout from the client machine. The 'add' section of the `response.json` file in the layout will determine which components are selected by default in the client's installer UI. If you've modified the layout using one of the methods above, you may want to manually double check and possibly adjust the 'add' section in the `response.json` file so that it more appropriately matches the contents in the 'add' section of the newly modified `layout.json` file. 
-
-### Configure the layout to always include and provide the latest installer
-
-You can configure your layout to _always_ include and provide the latest installer to your clients, even if the installer is considered a part of a more recent version of Visual Studio. Thus, when your client updates from this layout, the client will acquire the latest installer that's included and provided by this layout. The benefit is that once the latest installer is on your client, your client installations will be able to take advantage of the bug fixes and new functionality that we continue to add to the installer. 
-
-::: moniker range="vs-2019"
-
->[!TIP]
->If you want to [change the location where your client's Visual Studio 2019 installation looks for updates](update-visual-studio.md#configure-source-location-of-updates), then you *must* get the latest Visual Studio 2022 installer on your client machine. One way to do this is to include the Visual Studio 2022 installer within your Visual Studio 2019 layouts using the parameters described below. The capability to use the latest installer is only available to Visual Studio 2019 bootstrappers that were built after Visual Studio 2022 originally shipped. So, the vs_enterprise.exe in the example below must be a version that shipped _after_ November 10, 2021. 
-
-::: moniker-end
-
-There are two ways to enable your layout to include and provide the latest installer:
-
-- You can pass in the `--useLatestInstaller` parameter to the bootstrapper when you're creating or updating the layout. This will cause a setting to get set in the layout.json file, which can be found in the root directory of the layout. Here's an example for how to update the layout and configure it to use the latest and greatest installer available.  
-
-   ```shell
-   vs_enterprise.exe --layout C:\VSLayout --useLatestInstaller
-   ```
-
-- You can edit the `layout.json` file directly to add this setting.
-
-   ```Example layout.json contents
-   {
-     "installChannelUri": ".\\ChannelManifest.json",
-     "channelUri": "\\\\server\\share\\layoutdirectory\\ChannelManifest.json",
-     "installCatalogUri": ".\\Catalog.json",
-     "channelId": "VisualStudio.16.Release",
-     "productId": "Microsoft.VisualStudio.Product.Enterprise",
-   
-     "useLatestInstaller": true
-     "removeOos": true
-     
-   }
-   ```
-
-There is no way to programmatically remove this setting in the `layout.json` file, so if you want your layout to _stop_ using the latest installer that Microsoft makes available, and instead use the version of the installer that corresponds to the bootstrapper (which is mostly likely older than the most recent installer), simply edit the `layout.json` file and remove the `"UseLatestInstaller": true` setting. 
-
-Note that you may find this `"UseLatestInstaller": true` setting in the layout's `response.json` file too, but it is ignored there. The [response.json file is used to set default configuration options on the _client_ when the client installs or updates from a layout](automated-installation-with-response-file.md). This particular `"useLatestInstaller": true` setting is used to ensure that the contents of the _layout_ contain the latest installer, so that the client machines can then acquire the latest installer from the layout.
 
 ### Configure the layout to remove out-of-support components on the client machine.
 
@@ -364,6 +328,48 @@ c:\VSLayout\vs_enterprise.exe --layout c:\VSLayout --clean c:\VSLayout\Archive\1
 ```
 
 When you execute this command, Setup analyzes your network layout folder to find the list of files that it will remove. You will then have a chance to review the files that are going to be deleted and confirm the deletions.
+
+### Configure the layout to always include and provide the latest installer
+
+> [!NOTE]
+> As of April 2023, the latest installer is shipping by default with every update to supported versions of Visual Studio 2017, Visual Studio 2019, and Visual Studio 2022. So you won't need to do anything explicitly to get the latest version of the installer with the latest functionality and bug fixes into your layout and onto your clients. 
+
+However, if you're using a layout that was created before April 2023, then you can also explicitly configure your layout to _always_ include and provide the latest installer to your clients, even if the installer is considered a part of a more recent version of Visual Studio. Thus, when your client updates from this layout, the client will acquire the latest installer that's included and provided by this layout. The benefit is that once the latest installer is on your client, your client installations will be able to take advantage of the bug fixes and new functionality that we continue to add to the installer. 
+
+::: moniker range="vs-2019"
+
+>[!TIP]
+>If you want to [change the location where your client's Visual Studio 2019 installation looks for updates](update-visual-studio.md#configure-source-location-of-updates) or if you want to remove all out-of-support components, then you *must* get the latest Visual Studio 2022 installer on your client machine. One way to do this is to include the Visual Studio 2022 installer within your Visual Studio 2019 layouts using the parameters described below. The capability to use the latest installer is only available to Visual Studio 2019 bootstrappers that were built after Visual Studio 2022 originally shipped. So, the vs_enterprise.exe in the example below must be a version that shipped _after_ November 10, 2021. 
+
+::: moniker-end
+
+There are two ways to enable your layout to include and provide the latest installer:
+
+- You can pass in the `--useLatestInstaller` parameter to the bootstrapper when you're creating or updating the layout. This will cause a setting to get set in the `layout.json` file, which can be found in the root directory of the layout. Here's an example for how to update the layout and configure it to use the latest and greatest installer available.  
+
+   ```shell
+   vs_enterprise.exe --layout C:\VSLayout --useLatestInstaller
+   ```
+
+- You can edit the `layout.json` file directly to add this setting.
+
+   ```Example layout.json contents
+   {
+     "installChannelUri": ".\\ChannelManifest.json",
+     "channelUri": "\\\\server\\share\\layoutdirectory\\ChannelManifest.json",
+     "installCatalogUri": ".\\Catalog.json",
+     "channelId": "VisualStudio.16.Release",
+     "productId": "Microsoft.VisualStudio.Product.Enterprise",
+   
+     "useLatestInstaller": true
+     "removeOos": true
+     
+   }
+   ```
+
+There is no way to programmatically remove this setting in the `layout.json` file, so if you want your layout to _stop_ using the latest installer that Microsoft makes available, and instead use the version of the installer that corresponds to the bootstrapper (which is mostly likely older than the most recent installer), simply edit the `layout.json` file and remove the `"UseLatestInstaller": true` setting. 
+
+Note that you may find this `"UseLatestInstaller": true` setting in the layout's `response.json` file too, but it is ignored there. The [response.json file is used to set default configuration options on the _client_ when the client installs or updates from a layout](automated-installation-with-response-file.md). This particular `"useLatestInstaller": true` setting is used to ensure that the contents of the _layout_ contain the latest installer, so that the client machines can then acquire the latest installer from the layout.
 
 ## Install Visual Studio onto a client machine from a network installation
 

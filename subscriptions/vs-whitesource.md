@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 5e5d3f1a-533d-42eb-960e-01bb6bc7ca16
-ms.date: 06/30/2022
+ms.date: 05/23/2023
 ms.topic: how-to
 description:  Learn how to activate the WhiteSource Bolt subscription included with your Visual Studio subscription.
 ---
@@ -20,7 +20,7 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
    > [!div class="mx-imgBorder"]
    > ![WhiteSource Benefit Tile](_img/vs-whitesource/vs-whitesource-tile.png "Screenshot of the WhiteSource Bolt tile.  Get Code is highlighted.")
 
-3. You’ll receive a notification displaying your activation code.  **Copy the code to your clipboard**, then select **Activate**.
+3. You receive a notification displaying your activation code.  **Copy the code to your clipboard**, then select **Activate**.
    > [!div class="mx-imgBorder"]
    > ![WhiteSource Benefit Code ](_img/vs-whitesource/vs-whitesource-code.png "Screenshot of the activation code screen. Activate is highlighted.")
 
@@ -36,8 +36,8 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
 
 | Subscription Level | Channels  | Benefit | Renewable?    |
 |--------------------|-----------|---------|---------------|
-| Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR* | 6 months | Yes |
-| Visual Studio Enterprise subscription with GitHub Enterprise | VL | 6 months | Yes |
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail,  selected NFR* | Six months | Yes |
+| Visual Studio Enterprise subscription with GitHub Enterprise | VL | Six months | Yes |
 | Visual Studio Professional (Standard) | VL, Azure, Retail | Not available | N/A |
 | Visual Studio Professional subscription with GitHub Enterprise | VL | Not available | N/A |
 | Visual Studio Test Professional (Standard) | VL, Retail | Not available | N/A |

@@ -2,7 +2,7 @@
 title: Use command-line parameters to install Visual Studio
 titleSuffix: ''
 description: Learn how to use command-line parameters to control or customize your Visual Studio installation.
-ms.date: 3/1/2023
+ms.date: 5/25/2023
 ms.topic: conceptual
 f1_keywords:
 - command-line parameters
@@ -31,7 +31,7 @@ When you install Visual Studio programmatically or from a command prompt, you ca
 The command-line verbs and parameters described below are designed to be used with the following executables or programs:
   - The setup bootstrapper, which is the small (~1 MB) file (for example, vs_enterprise.exe) that initiates the download process.
   - The Visual Studio installer that may already be installed on the machine and is located in the folder `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.  
-  - With a [winget command using winget's --override switch](#use-winget-to-install-visual-studio). 
+  - With a [winget command using winget's --override switch](#use-winget-to-install-or-modify-visual-studio). 
   - With an Administrator Update package, which is available to download from the [Microsoft Update Catalog](https://catalog.update.microsoft.com), to programatically update your network layout. More information describing how to do this can be found in the [Update or modify your layout](create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) article. 
 
 Not all commands or parameters work in each of these situations, and we've tried to document the exceptions below. Furthermore, in some scenarios you may not have access to all of these executables. For example, client machines may only have the installer available for programmatic execution if Visual Studio was installed via a layout.  
@@ -133,7 +133,7 @@ All layout management operations are run using the bootstrapper exe and they ass
 | `--includeRecommended`                          | **Optional**: Includes the recommended components for any workloads that are installed, but not the optional components. The workloads are specified either with `--allWorkloads` or `--add`.         |
 | `--includeOptional`                             | **Optional**: Includes the recommended *and* optional components for any workloads being included in the layout. The workloads are specified with `--add`.                        |
 | `--wait`                       | **Optional**: The process will wait until the install is completed before returning an exit code. This is useful when automating installations where one needs to wait for the install to finish to handle the return code from that install.      |
-| `--useLatestInstaller`         | **Optional**: If present, the latest version of the Visual Studio Installer will be included in your layout, even if it belongs to a newer version of the product. This can be useful if you want to take advantage of new features or bug fixes that are available in the latest installer. For more information, refer to [Configure the layout to always use the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) documentation. |
+| `--useLatestInstaller`         | **Optional**: Legacy functionality that is only applicable for Visual Studio bootstrappers older than April 2023. Anything shipped after April 2023 uses the latest installer by default. If this parameter is present, then the latest version of the Visual Studio Installer will be included in your layout, even if it belongs to a newer major version of the product. This can be useful if you want to take advantage of new features or bug fixes that are available in the latest installer. For more information, refer to [Configure the layout to always use the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) documentation. |
 | `--config <*.vsconfig>`      | **Optional**: If present, Visual Studio will use the [contents of the configuration file](import-export-installation-configurations.md) to configure your layout. |
 | `--noWeb`                      | **Optional**: If present, Visual Studio setup uses the files in your layout directory to install Visual Studio. If a user tries to install components that aren't in the layout, setup fails.  For more information, see [Deploying from a network installation](create-a-network-installation-of-visual-studio.md). <br/><br/> **Important**: This switch doesn't stop Visual Studio setup from checking for updates. For more information, see [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md). |
 | `--verify`                                      | **Optional**: Verify the contents of a layout. Any corrupt or missing files are listed.            |
@@ -254,15 +254,17 @@ Syntax example:
   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" removeChannel --channelUri "\\\\server\\share\\layoutdirectory\\ChannelManifest.json"
   ```
 
-## Use winget to install Visual Studio
+## Use winget to install or modify Visual Studio
 
-You can use the [Windows Package Manager](/windows/package-manager/winget/) "winget" tool to programmatically install or update Visual Studio on your machines along other packages managed by winget. By default, winget just installs the Visual Studio core workload. 
+You can use the [Windows Package Manager](/windows/package-manager/winget/) "winget" tool to programmatically install, modify, or update Visual Studio on your machine along with other packages managed by winget. 
+
+By default, winget just installs the Visual Studio core workload. 
 
   ```shell
   winget install --id Microsoft.VisualStudio.2022.Community
   ```
   
-However, if you want to customize the installation and specify additional workloads and components, you can use winget's `--override` switch alongside winget's `install` command, and pass in an [exported vsconfig file](import-export-installation-configurations.md) like this:
+However, if you want to customize the installation and specify additional workloads and components to acquire during initial installation, you can use winget's `--override` switch alongside winget's `install` command, and pass in an [exported vsconfig file](import-export-installation-configurations.md) that contains the workloads and components to add:
 
   ```shell
   winget install --id Microsoft.VisualStudio.2022.Community --override "--passive --config c:\my.vsconfig"
@@ -274,9 +276,11 @@ Of course, you can also just include components directly during the initial inst
   winget install --id Microsoft.VisualStudio.2022.Community --override "--quiet --add Microsoft.Visualstudio.Workload.Azure"
   ```
 
-If you already have Visual Studio installed on your machine, then it's not possible to use winget's `--override` switch alongside winget's `upgrade` command. This means that you can't use Visual Studio's `--config` or `--add` parameters to modify an existing installation and add components to it.  
+If you already have Visual Studio installed on your machine, then it's possible to use [winget's `configure` command](/windows/package-manager/winget/configure) along with the [Visual Studio PowerShell DSC provider](https://www.powershellgallery.com/packages/Microsoft.VisualStudio.DSC), a yaml file, and a .vsconfig file to **add** components to an existing Visual Studio installation. Winget's `configure` command essentially acts as a Visual Studio "modify" operation.
 
-Remember that Visual Studio installations and updates require administrator privileges, so winget will prompt you to elevate your privileges if necessary to complete the command. Also, it's not currently possible to use winget to install multiple editions (that is, different SKUs) or multiple instances of the same SKU at the same time on a client machine. 
+It's not possible to use either the `--override` switch or the Visual Studio DSC provider alongside winget's `upgrade` command, as `upgrade` essentially just acts as a Visual Studio "update" operation and installs the latest version of components you have already selected. You can't add components via an update/upgrade. You need to use winget's `configure` to add components.  
+
+Note that Visual Studio Installer operations currently require administrator privileges, so winget will prompt you to elevate your privileges if necessary to complete the command. Also, it's currently not possible to use winget to install multiple editions (that is, different SKUs) or multiple instances of the same SKU at the same time on a client machine. Lastly, Visual Studio must be closed if you're going to configure (modify) it to add components, or upgrade it to the latest version.
 
 ## List of workload IDs and component IDs
 
