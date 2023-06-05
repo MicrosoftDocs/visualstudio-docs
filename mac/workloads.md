@@ -19,7 +19,7 @@ Visual Studio for Mac comes pre-installed with workloads for developing the foll
 * .NET Core apps
 * ASP.NET Core Web apps
 * Cross-platform Unity games
-* NET MAUI apps (Visual Studio 2022 for Mac 17.4 or greater)
+* .NET MAUI apps (Visual Studio 2022 for Mac 17.4 or greater)
 
 ## Mobile applications with Xamarin
 
