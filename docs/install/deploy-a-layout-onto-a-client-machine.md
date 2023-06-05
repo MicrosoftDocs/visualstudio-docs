@@ -6,7 +6,6 @@ ms.topic: conceptual
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
 - '{{PLACEHOLDER}}'
-ms.assetid: 
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
@@ -54,47 +53,47 @@ Some enterprises want to host the layout on an intranet location to better manag
 
     #ADMIN CONFIGURATION
     #Enter layout URI here
-    $LayoutUri = “http://MyCompanyIntranetSite/VS2022Enterprise/”
+    $LayoutUri = "http://MyCompanyIntranetSite/VS2022Enterprise/"
 
     #Enter bootstrapper name which is present in layout.
-    $BootstrapperName = “vs_Enterprise.exe”
+    $BootstrapperName = "vs_Enterprise.exe"
 
     #Add any arguments which you intend to send to bootstrapper.
-    $Arguments = “--passive --wait”
+    $Arguments = "--passive --wait"
 
     #SCRIPT FUNCTIONALITY
     #Forming URI for bootstrapper
-    Write-Verbose “LayoutUri: $LayoutUri”
-    $BootstrapperUri = “$LayoutUri/$BootstrapperName”
-    Write-Verbose “BootstrapperUri: $BootstrapperUri”
+    Write-Verbose "LayoutUri: $LayoutUri"
+    $BootstrapperUri = "$LayoutUri/$BootstrapperName"
+    Write-Verbose "BootstrapperUri: $BootstrapperUri"
 
     $Arguments += " --layoutUri $LayoutUri"
-    Write-Verbose “Arguments: $Arguments”
+    Write-Verbose "Arguments: $Arguments"
 
     #Creating temp folder and download bootstrapper
     $VSLayoutFolderPath = Join-Path -Path $env:TEMP -ChildPath VSLayout
     $BootstrapperFile = Join-Path -Path $VSLayoutFolderPath -ChildPath $BootstrapperName
-    Write-Verbose “The bootstrapper path is: $BootstrapperFile”
+    Write-Verbose "The bootstrapper path is: $BootstrapperFile"
 
     if (Test-Path $VSLayoutFolderPath)
     {
-    Write-Verbose “The directory exists - $VSLayoutFolderPath”
+    Write-Verbose "The directory exists - $VSLayoutFolderPath"
     if (Test-Path $BootstrapperFile)
     {
-    Write-Verbose “Deleting file - $BootstrapperFile”
+    Write-Verbose "Deleting file - $BootstrapperFile"
     Remove-Item $BootstrapperFile
     }
     }
     else
     {
-    Write-Verbose “Creating folder - $VSLayoutFolderPath”
+    Write-Verbose "Creating folder - $VSLayoutFolderPath"
     New-Item -ItemType Directory -Path $VSLayoutFolderPath
     }
 
-    Write-Verbose “Downloading bootstrapper from - $BootstrapperUri to $BootstrapperFile”
+    Write-Verbose "Downloading bootstrapper from - $BootstrapperUri to $BootstrapperFile"
     Invoke-WebRequest -Uri $BootstrapperUri -OutFile $BootstrapperFile
     
-    Write-Verbose “Starting bootstrapper -$BootstrapperFile with arguments $Arguments”
+    Write-Verbose "Starting bootstrapper -$BootstrapperFile with arguments $Arguments"
     start-process $BootstrapperFile $Arguments
 ```
 
@@ -119,7 +118,7 @@ If you used the `--wait` parameter, then depending on the result of the operatio
 
 [!INCLUDE[install-error-codes-md](includes/install-error-codes-md.md)]
 
-### Get support for deploying your layout
+## Get support for deploying your layout
 
 If you experience a problem deploying your layout onto a client machine, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE. If you're an IT Administrator and don't have Visual Studio installed, you can submit [**IT Admin feedback here**](https://aka.ms/vs/admin/feedback). When you use this tool, it would be very helpful if you could send the logs by the [VS Collect tool](https://aka.ms/vscollect) which can help us diagnose and fix the problem.
 

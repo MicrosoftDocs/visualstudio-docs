@@ -90,7 +90,7 @@ For lists of the workloads and components that you can install by using the comm
 
 ## Using --layout to create a network layout or a local cache
 
-* Create a layout that includes only the Visual Studio core editor (the most minimal Visual Studio configuration) and the English language pack. More layout creation examples can be found [here](create-a-network-installation-of-visual-studio.md#configure-the-contents-of-a-layout).
+* Create a layout that includes only the Visual Studio core editor (the most minimal Visual Studio configuration) and the English language pack. More layout creation examples can be found on the [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md#configure-the-contents-of-a-layout) page.
 
   ```shell
    vs_professional.exe --layout C:\VS ^
