@@ -4,7 +4,7 @@ description: "Visual Studio for Mac provides an integrated development environme
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
-ms.date: 3/20/2022
+ms.date: 06/05/2023
 ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
 ms.custom: video, devdivchpfy22
 ms.topic: overview
@@ -43,9 +43,9 @@ To continue exploring features, let's create a new project.
 
    ![Select a template](media/vsmac-2022/ide-tour-select-template.png)
 
-1. On the **Configure your new Console Application** window, ensure **.NET 6.0** appears in the **Target framework** dropdown, and then select **Next**.
+1. On the **Configure your new Console Application** window, ensure **.NET 7.0** appears in the **Target framework** dropdown, and then select **Next**.
 
-   ![Target framework](media/vsmac-2022/ide-tour-target-framework.png)
+   ![Target framework](media/vsmac-2022/ide-tour-target-framework-7.png)
 
 1. On the **Configure your new Console Application** window, add a **Project name**, **Solution name**, and **Location**, and then choose **Create**.
 
