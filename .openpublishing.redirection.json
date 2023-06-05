@@ -3826,8 +3826,6 @@
       "redirect_document_id": false
     },
     {
-<<<<<<< HEAD
-=======
       "source_path": "docs/debugger/using-the-microsoft-monitoring-agent.md",
       "redirect_url": "/windows/uwp/diagnose-problems-after-deployment",
       "redirect_document_id": false
@@ -3848,7 +3846,6 @@
       "redirect_document_id": false
     },
     {
->>>>>>> 1c457669fc6c3e31413440d7a5c39dd79d57c0b2
       "source_path": "docs/debugger/debugging-managed-code.md",
       "redirect_url": "/visualstudio/debugger/",
       "redirect_document_id": false
