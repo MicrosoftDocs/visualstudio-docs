@@ -17,6 +17,8 @@ items:
     href: ./get-started/create-your-first-extension.md
   - name: Create a simple extension
     href: ./get-started/tutorial-create-simple-extension.md
+  - name: Debug an extension
+    href: ./get-started/debug-extensions.md
 - name: Commands
   items:
   - name: About commands
