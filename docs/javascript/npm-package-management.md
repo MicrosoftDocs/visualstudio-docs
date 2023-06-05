@@ -39,7 +39,7 @@ Visual Studio integration with npm is different depending on your project type.
 ::: moniker range=">=vs-2022"
 ## CLI-based project (.esproj)
 
-Starting in Visual Studio 2022, the npm package manager is available for CLI-based projects, so you can now download npm modules similarly to the way you download NuGet packages for ASP.NET Core projects. Then you can use *package.json* to modify and delete packages.
+Starting in Visual Studio 2022, the npm package manager is available for [CLI-based projects](../javascript/javascript-in-vs-2022.md#project-templates), so you can now download npm modules similarly to the way you download NuGet packages for ASP.NET Core projects. Then you can use *package.json* to modify and delete packages.
 
 To open the package manager, from Solution Explorer, right-click the **npm** node in your project.
 
