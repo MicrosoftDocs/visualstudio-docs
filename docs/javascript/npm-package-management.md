@@ -1,7 +1,7 @@
 ---
 title: "Manage npm packages"
 description: Visual Studio helps you to manage packages using the Node.js package manager (npm)
-ms.date: "05/23/2023"
+ms.date: "06/05/2023"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -39,13 +39,13 @@ Visual Studio integration with npm is different depending on your project type.
 ::: moniker range=">=vs-2022"
 ## CLI-based project (.esproj)
 
-Starting in Visual Studio 2022 Preview 4, the npm package manager is available for CLI-based projects, so you can now download npm modules similarly to the way you download NuGet packages for ASP.NET Core projects. Then you can use *package.json* to modify and delete packages.
+Starting in Visual Studio 2022, the npm package manager is available for [CLI-based projects](../javascript/javascript-in-vs-2022.md#project-templates), so you can now download npm modules similarly to the way you download NuGet packages for ASP.NET Core projects. Then you can use *package.json* to modify and delete packages.
 
 To open the package manager, from Solution Explorer, right-click the **npm** node in your project.
 
 :::image type="content" source="../javascript/media/vs-2022/npm-packages-open-manager-esproj.png" alt-text="Open package manager from Solution Explorer" border="true":::
 
-Next, you can search for npm packages, select one, and install by selecting **Install Package**. 
+Next, you can search for npm packages, select one, and install by selecting **Install Package**.
 
 :::image type="content" source="../javascript/media/vs-2022/npm-packages-install-esproj.png" alt-text="Install new npm package for esproj" border="true":::
 ::: moniker-end
@@ -87,7 +87,7 @@ You can see the progress of the installation in the **npm** output in the **Outp
 ![npm output](../javascript/media/npm-output.png)
 
 > [!TIP]
-> You can search for scoped packages by prepending the search query with the scope you're interested in, for example, type `@types/mocha` to look for TypeScript definition files for mocha. Also, when installing type definitions for TypeScript, you can specify the TypeScript version you're targeting by adding `@ts2.6` in the npm argument field.
+> You can search for scoped packages by prepending the search query with the scope you're interested in, for example, type `@types/mocha` to look for TypeScript definition files for mocha. Also, when installing type definitions for TypeScript, you can specify the TypeScript version you're targeting by specifying a version, such as `@ts2.6`, in the npm argument field.
 
 ### <a name="solutionExplorer"></a>Manage installed packages in Solution Explorer (Node.js)
 
@@ -138,6 +138,7 @@ In the window, you can use commands such as the following to install a package:
 ## ASP.NET Core projects
 
 For projects such as ASP.NET Core projects, you can integrate npm support in your project and use npm to install packages.
+
 * [Add npm support to a project](#npmAdd)
 * [Install packages using package.json](#npmInstallPackage)
 
