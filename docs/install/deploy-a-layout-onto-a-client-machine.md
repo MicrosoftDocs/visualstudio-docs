@@ -52,7 +52,7 @@ If the user ever selects items that _aren't_ available in the layout, then the i
 
 ### Install from an internal intranet location
 
-Some enterprises want to host the layout on an intranet location to better manage geographical performance bottlenecks and take advantage of web caching. In order to do this, a user with administrator permissions must run a elevated PowerShell script similar to the following to initialize the installation on the client machine. 
+Some enterprises want to host the layout on an intranet location to better manage geographical performance bottlenecks and take advantage of web caching. In order to do this, a user with administrator permissions must run an elevated PowerShell script similar to the following to initialize the installation on the client machine. 
 
 ```shell
     #Do the initial installation from the web hosted layout onto the client in an elevated PowerShell script
@@ -118,7 +118,7 @@ If you get an error message that says "A product matching the following paramete
 
 ### Machine resources
 
-Make sure that your full installation path is less than 80 characters and that your machine has ample storage. A complete installation of Visual Studio requires a minimum of 45 -50 GB of disk space.
+Make sure that your full installation path is fewer than 80 characters and that your machine has ample storage. A complete installation of Visual Studio requires a minimum of 45 -50 GB of disk space.
 
 ## Error codes
 
