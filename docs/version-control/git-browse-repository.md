@@ -1,7 +1,7 @@
 ---
 title: "Browse repos, compare branches & commits"
 description: Browse any Git repository in Visual Studio by using the Git Repository window.
-ms.date: 06/21/2022
+ms.date: 06/07/2023
 ms.topic: how-to
 author: houghj16
 ms.author: tglee
@@ -20,7 +20,7 @@ You can work remotely with the Git provider of your choice, such as GitHub or Az
 
 ## Browse through local and remote branches
 
-To get started, open the **Git Repository** window by selecting **Git Repository** on the **View** menu. You can also access the **Git Repository** window by selecting the **outgoing/incoming** links in the **Git Changes** window and on the status bar.
+To get started, open the **Git Repository** window by selecting **Git Repository** on the **View** menu (or by using the **Ctrl**+**0**, **Ctrl**+**R** keyboard shortcut). You can also access the **Git Repository** window by selecting the **outgoing/incoming** links in the **Git Changes** window and on the status bar.
 
 :::image type="content" source="media/vs-2022/git-repository-browse-ui.png" alt-text="Screenshot that shows the anatomy of the Git Repository window." lightbox="media/vs-2022/git-repository-browse-ui.png":::
 
@@ -34,7 +34,7 @@ The **Git Repository** window contains three main sections, as numbered in the p
    - **Local History** shows the rest of commits tracked by your local repository.
 1. **Commit**: Selecting any commit in the **Graph** section opens its details. You can check the changes that a commit has introduced by selecting them, which shows a difference. For example, the previous screenshot shows the changes that one commit introduced to the *Files.csproj* file.
 
-The Alt+Up arrow key or Alt+Down arrow keyboard shortcuts allow you to jump between these sections.
+The **Alt**+**Up arrow** or **Alt**+**Down arrow** keyboard shortcuts allow you to jump between these sections.
 
 You can browse though any local or remote branch without having to switch your branch. When you find a commit that you want to focus on, select the **Open in New Tab** button to open the commit on a different tab.
 
@@ -70,6 +70,7 @@ In Visual Studio, you can use the **Git Graph** pane in the **Git Repository** w
 > The equivalent command for this action is `git branch <branchname> [<commit-id>]`.
 
 ## Compare branches
+
 Comparing branches provides an overview of differences between two branches which can be very helpful before creating a pull request, merging, or even deleting a branch.
 
 :::image type="content" source="media/vs-2022/git-compare-branches-illustration.png" alt-text="Compare branches illustration" lightbox="media/vs-2022/git-compare-branches-illustration.png":::
@@ -87,6 +88,7 @@ Selecting **Compare with Current Branch** opens the compare branches experience 
 > :::image type="content" source="media/vs-2022/git-diff-configuration-options.png" alt-text="Diff configuration options":::
 
 ## Checkout commits
+
 Checking out a commit can be beneficial in multiple ways. For example, it allows you to go back to a previous point in your repository’s history where you can run or test your code. It can also be helpful if you would like to review code from a remote branch (a colleague’s branch, for example). That way you don’t need to create a local branch if you are not planning on contributing to it. In this case, you can just checkout the tip of the remote branch that you would like to review.
 
 :::image type="content" source="media/vs-2022/git-checkout-commit-illustration.png" alt-text="Checkout commit illustration":::
@@ -102,7 +104,8 @@ Now that you are in a detached head state, feel free to run and test your code o
 > :::image type="content" source="media/vs-2022/git-detached-head-commits-illustration.png" alt-text="Detached head commits illustration":::
 > To learn more about the detached head state view the following Git documentation: [Detached Head](https://git-scm.com/docs/git-checkout#_detached_head)
 
-Checking out the tip of a remote branch can be helpful if you would like to quickly review a pull request and evaluate the latest updates. To do that in Visual Studio, first make sure to fetch and get the latest updates from your remote repository. Then right click on the remote branch you would like to review and select **Checkout Tip Commit**.
+Checking out the tip of a remote branch can be helpful if you would like to quickly review a pull request and evaluate the latest updates. To do that in Visual Studio, first make sure to fetch and get the latest updates from your remote repository. Then right-click the remote branch you would like to review and select **Checkout Tip Commit**.
+
 :::image type="content" source="media/vs-2022/git-checkout-tip-commit.png" alt-text="Checkout tip commit" lightbox="media/vs-2022/git-checkout-tip-commit.png":::
 
 ## Next steps
