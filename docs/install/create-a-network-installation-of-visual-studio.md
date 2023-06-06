@@ -23,9 +23,9 @@ Sometimes an enterprise administrator wants to create a private installation poi
 
 The information on this page is grouped up into three main sections:
 
-1. [**Create the layout**](#create-the-layout): describes how to create the layout with the correct product content, how to configure the client's default settings, how to store it on a network file share, and how to make it available if you want to host it on a webserver on your intranet. 
-1. [**Maintain the layout**](#maintaining-your-layout): information on how to best update the layout's product version, or modify the layout's product content, channel settings, installer version, and folder size. 
-1. [**Help and Support**](#get-support-for-your-network-layout): where to ask for help
+* [**Create the layout**](#create-the-layout): describes how to create the layout with the correct product content, how to configure the client's default settings, how to store it on a network file share, and how to make it available if you want to host it on a webserver on your intranet. 
+* [**Maintain the layout**](#maintaining-your-layout): information on how to best update the layout's product version, or modify the layout's product content, channel settings, installer version, and folder size. 
+* [**Help and Support**](#get-support-for-your-network-layout): where to ask for help
 
 
 ## Create the layout
