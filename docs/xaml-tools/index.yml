@@ -7,7 +7,7 @@ metadata:
   title: XAML tools documentation
   description: Navigate to different pages that help you learn how to use XAML tools in Visual Studio.
   ms.prod: visual-studio-windows
-  ms.technology: vs-ide-designers
+  ms.technology: vs-xaml-tools
   ms.topic: landing-page
   author: maddymontaquila
   ms.author: maleger
