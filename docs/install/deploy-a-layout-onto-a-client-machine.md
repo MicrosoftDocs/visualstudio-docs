@@ -1,7 +1,7 @@
 ---
-title: Deploy a network-based installation
+title: Deploy a layout onto a client machine
 description: Learn how to deploy a network layout of Visual Studio within an enterprise.
-ms.date: 6/2/2023
+ms.date: 6/6/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - 'deploy layout'
