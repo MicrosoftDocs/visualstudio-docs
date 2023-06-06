@@ -34,6 +34,8 @@ The following table describes the versions of .NET Core supported by the stable 
 
 ::: moniker-end
 
+::: moniker range="vsmac-2019"
+
 The following table describes the versions of .NET Core supported by the stable and preview versions of Visual Studio for Mac:
 
 | .NET Core SDK Version |Visual Studio for Mac 8.1 | Visual Studio for Mac 8.2 | Visual Studio for Mac 8.3 | Visual Studio for Mac 8.4 | Visual Studio for Mac 8.5 | Visual Studio for Mac 8.6 | Visual Studio for Mac 8.7 | Visual Studio for Mac 8.8 | Visual Studio for Mac 8.9 | Visual Studio for Mac 8.10 |
@@ -58,3 +60,5 @@ The following table describes the versions of .NET Core supported by the stable 
 * To download any other version of .NET Core, visit the [dotnet page](https://dotnet.microsoft.com/download/dotnet-core).
 * When you use .NET Core 3.0, C# version 8 will be used by default. C# 7.3 is default when using .NET Core 2.x. See [C# language versioning](/dotnet/csharp/language-reference/configure-language-version) for more info.
 * For information on installing a preview version of Visual Studio for Mac, see the [Install a Preview Release](./install-preview.md) guide.
+
+::: moniker-end
