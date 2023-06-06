@@ -47,14 +47,14 @@ For lists of the workloads and components that you can install by using the comm
 
 ## Update 
 
-* Update a Visual Studio instance via the command line with progress displayed and no interactive prompts. You can run these series of commands in two steps by using a bootstrapper found on either the client or in a layout. The first command updates the installer on the client, and the second command updates the Visual Studio product. Best practice is to run and complete both commands in order using an elevated command prompt. The example below simulates updating a client using an evergreen bootstrapper in the layout. 
+* Update a Visual Studio instance via the command line with progress displayed and no interactive prompts. You can run these series of commands in two steps by using a bootstrapper found on either the client or in a layout. The first command updates the installer on the client, and the second command updates the Visual Studio product. Best practice is to run and complete both commands in order using an elevated command prompt. The following example simulates updating a client using an evergreen bootstrapper in the layout. 
 
    ```shell
    \\layoutserver\share\path\vs_enterprise.exe --update --quiet --wait
    \\layoutserver\share\path\vs_enterprise.exe update --wait --passive --norestart --installPath "C:\installPathVS"
    ```
  
- Alternatively, you can also update your Visual Studio instance in one step by using the installer on the client. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.
+Alternatively, you can also update your Visual Studio instance in one step by using the installer on the client. Be aware that you can't initiate the installer programmatically from the same directory that the installer resides in.
  
    ```shell
    "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" update --passive --norestart --installPath "C:\installPathVS"
@@ -62,12 +62,16 @@ For lists of the workloads and components that you can install by using the comm
 
 ## Using --wait
 
-* Use `--wait` in batch files or scripts to wait for the initial command to complete before the next command is executed. For batch files, an `%ERRORLEVEL%` environment variable will contain the return value of the command, as documented in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page. Some command utilities require additional parameters to wait for completion and to get the installer's return value. Note that the `--wait` parameter is only supported by the bootstrapper. The following command is an example of the additional parameters used with the PowerShell script command `Start-Process`:
+* Use `--wait` in batch files or scripts to wait for the initial command to complete before the next command is executed. For batch files, an `%ERRORLEVEL%` environment variable contains the return value of the command, as documented in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page. Some command utilities require other parameters to wait for completion and to get the installer's return value. 
+ 
+The `--wait` parameter is only supported by the bootstrapper. 
 
    ```shell
    start /wait vs_professional.exe --installPath "C:\VS" --passive --wait > nul
    echo %errorlevel%
    ```
+
+The following command is an example of using `--wait` with the PowerShell script command `Start-Process`:
 
    ```powershell
    $process = Start-Process -FilePath vs_enterprise.exe -ArgumentList "--installPath", "C:\VS", "--passive", "--wait" -Wait -PassThru
@@ -142,7 +146,7 @@ If you choose to use a custom layout as the update channel, then be aware of the
    --passive
   ```
   
-You cannot use `--remove` in conjunction with `--layout`. In other words, it's not possible to remove components from a layout.
+You can't use `--remove` in the same command as `--layout`. In other words, it's not possible to remove components from a layout.
 
 ## Using --removeOos
 
