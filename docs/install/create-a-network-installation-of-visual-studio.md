@@ -32,7 +32,9 @@ The information on this page is grouped up into three main sections:
 
 ### Prepare the network file share storage location
 
-First, you'll need to determine where you're going to store the downloaded Visual Studio packages. If you have multiple editions of Visual Studio in use within your enterprise (for example, Visual Studio 2022 Professional and Visual Studio 2022 Enterprise), you must create a separate layout for each edition. This can consume a lot of disk space, especially when you consider that layout updates consume disk space too. Lastly, if you're [using the latest Visual Studio Installer](#configure-the-layout-to-always-include-and-provide-the-latest-installer), then it's possible to change the client's configuration and have it use another layout location as a source for updates. The layout path must be fewer than 80 characters; some organizations have successfully used [symbolic links](/windows/win32/fileio/symbolic-links) to work around the 80-character limitation. 
+First, you'll need to determine where you're going to store the downloaded Visual Studio packages. If you have multiple editions of Visual Studio in use within your enterprise (for example, Visual Studio 2022 Professional and Visual Studio 2022 Enterprise), you must create a separate layout for each edition. This can consume a lot of disk space, especially when you consider that layout updates consume disk space too. 
+
+The layout path must be fewer than 80 characters; some organizations have successfully used [symbolic links](/windows/win32/fileio/symbolic-links) to work around the 80-character limitation. 
 
 ### Download the Visual Studio bootstrapper to create the layout
 
@@ -85,7 +87,7 @@ You must have an internet connection to complete this step.
 
 Open an elevated command prompt, navigate to the directory where you downloaded the bootstrapper, and use the bootstrapper's parameters as defined in the [use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page to create and maintain your network layout. Common examples of creating initial layouts are illustrated below and on the [command-line parameter examples for a Visual Studio installation](command-line-parameter-examples.md) page.  
 
-A complete initial layout for a single language locale requires about 40 GB of disk space for Visual Studio Community and 50 GB for Visual Studio Enterprise. Additional [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales) require about half a GB each. 
+A complete initial layout for a single language locale requires about 40 GB of disk space for Visual Studio Community and about 50 GB for Visual Studio Enterprise. Additional [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales) require about half a GB each. 
  
 The recommended approach is to create an initial layout of Visual Studio with all workloads and appropriate languages and store the packages into the layout directory on the network server. That way, any client installation will have access to the entire Visual Studio product offering and the ability to install any subset. To create a full complete layout of Visual Studio, run the following command from the directory that you plan to host the network layout on:
 
@@ -111,7 +113,7 @@ There are several options you can use to customize the contents of your network 
 * `--vsconfig` to use a config file to specify the components that should be included in the layout.
 * `--lang` to specify [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales).
 
-Here are a few examples of how to create a custom partial layout.
+Here are a few examples of how to create a custom network layout.
 
 * To create a layout with required components for all workloads in only one language, run:
 
@@ -150,6 +152,8 @@ You will need to host the layout on a network share so it can be accessed from t
 ```shell
 xcopy /e c:\VSLayout \\server\share\layoutdirectory
 ```
+
+
 
 ### Configure initial client installation defaults for this layout
 
