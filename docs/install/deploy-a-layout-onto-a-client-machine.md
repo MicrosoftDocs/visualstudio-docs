@@ -33,7 +33,7 @@ Administrators can deploy a Visual Studio layout onto client workstations progra
 
 ### Install from a network layout
 
-A user with administrator permissions can install Visual Studio from a network layout in an unattended mode by running the following command. The `response.json` in the layout will provide the default configuration settings for the installation. 
+A user with administrator permissions can install Visual Studio from a network layout in an unattended mode by running the following command. The `response.json` in the layout  provide the default configuration settings for the installation. 
 
 ```shell
 \\server\products\VS\vs_enterprise.exe --quiet --wait 
@@ -52,7 +52,7 @@ If the user ever selects items that _aren't_ available in the layout, then the i
 
 ### Install from an internal intranet location
 
-Some enterprises want to host the layout on an intranet location to better manage geographical performance bottlenecks and take advantage of web caching. In order to do this, a user with administrator permissions must run an elevated PowerShell script similar to the following to initialize the installation on the client machine. 
+Some enterprises want to host the layout on an intranet location to better manage geographical performance bottlenecks and take advantage of web caching. In order to deploy a intranet hosted layout onto a client machine, a user with administrator permissions must run an elevated PowerShell script similar to the following to initialize the installation on the client machine. 
 
 ```shell
     #Do the initial installation from the web hosted layout onto the client in an elevated PowerShell script
@@ -110,11 +110,13 @@ Make sure that either the user or system account that's running the installation
 
 ### Install on a client that doesn't have internet access
 
-You'll need to make sure that any [offline client machines have the right certificates installed](install-certificates-for-visual-studio-offline.md).
+You need to make sure that any [offline client machines have the right certificates installed](install-certificates-for-visual-studio-offline.md).
 
-When you install from a layout, the installer on the client will always look for the Visual Studio packages in the layout's location. However, if the installer tries to install components that are _not_ included in the layout, then it will attempt to acquire the Visual Studio packages from the [update source](update-visual-studio.md#configure-source-location-of-updates-1), which administrators often configure to [point back to itself](automated-installation-with-response-file.md#configure-the-response-file-used-when-installing-from-a-layout). If you want to explicitly prevent the Visual Studio Installer from attempting to download any content from the web that may be missing from your layout, you use the [`--noWeb` parameter](use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command--line-parameters). If `--noWeb` is used and the layout is missing a component that is selected to be installed, then the setup will simply fail. 
+When you install from a layout, the installer on the client always looks for the Visual Studio packages in the layout's location. However, if the installer tries to install components that are _not_ included in the layout, then it will attempt to acquire the Visual Studio packages from the [update source](update-visual-studio.md#configure-source-location-of-updates-1), which administrators often configure to [point back to itself](automated-installation-with-response-file.md#configure-the-response-file-used-when-installing-from-a-layout). 
 
-If you get an error message that says "A product matching the following parameters cannot be found", make sure that you are using the `--noweb` switch.
+If you want to explicitly prevent the Visual Studio Installer from attempting to download any missing content from Microsoft hosted servers on the web, you can use the [`--noWeb` parameter](use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command--line-parameters). If `--noWeb` is used and the layout is missing a component that is selected to be installed, then the setup will fail.  Also, if `--noWeb` is used and the layout is hosted on your intranet web servers as opposed to a file network share, then the setup will fail. 
+
+Using the `--noweb` switch often fixes the error message "A product matching the following parameters can't be found".
 
 ### Machine resources
 
@@ -128,7 +130,7 @@ If you used the `--wait` parameter, then depending on the result of the operatio
 
 ## Get support for deploying your layout
 
-If you experience a problem deploying your layout onto a client machine, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE. If you're an IT Administrator and don't have Visual Studio installed, you can submit [**IT Admin feedback here**](https://aka.ms/vs/admin/feedback). When you use this tool, it would be very helpful if you could send the logs by the [VS Collect tool](https://aka.ms/vscollect) which can help us diagnose and fix the problem.
+If you experience a problem deploying your layout onto a client machine, we want to know about it. The best way to tell us is by using the [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) tool that appears both in the Visual Studio Installer and in the Visual Studio IDE. If you're an IT Administrator and don't have Visual Studio installed, you can submit [**IT Admin feedback here**](https://aka.ms/vs/admin/feedback). When you use this tool, it would be helpful if you could send the logs by the [VS Collect tool](https://aka.ms/vscollect), which can help us diagnose and fix the problem.
 
 We also offer an [**installation chat**](https://visualstudio.microsoft.com/vs/support/#talktous) (English only) support option for installation-related issues.
 
