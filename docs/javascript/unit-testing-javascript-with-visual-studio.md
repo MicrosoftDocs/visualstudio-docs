@@ -1,7 +1,7 @@
 ---
 title: "Unit testing JavaScript and TypeScript"
 description: Visual Studio provides support unit testing JavaScript and TypeScript code using the Node.js Tools for Visual Studio
-ms.date: "10/21/2022"
+ms.date: "06/05/2023"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -21,14 +21,11 @@ You can write and run unit tests in Visual Studio using some of the more popular
 JavaScript frameworks without the need to switch to a command prompt. Both Node.js and ASP.NET Core projects are supported.
 
 The supported frameworks are:
-* Mocha ([mochajs.org](https://mochajs.org/))
-* Jasmine ([Jasmine.github.io](https://jasmine.github.io/))
-* Tape ([github.com/substack/tape](https://github.com/substack/tape))
-* Jest ([jestjs.io](https://jestjs.io/))
-* Export Runner (this framework is specific to Node.js Tools for Visual Studio)
-
-For ASP.NET Core and JavaScript or TypeScript, see [Write unit tests for ASP.NET Core
-](#write-unit-tests-for-aspnet-core).
+- Mocha ([mochajs.org](https://mochajs.org/))
+- Jasmine ([Jasmine.github.io](https://jasmine.github.io/))
+- Tape ([github.com/substack/tape](https://github.com/substack/tape))
+- Jest ([jestjs.io](https://jestjs.io/))
+- Export Runner (this framework is specific to Node.js Tools for Visual Studio)
 
 If your favorite framework is not supported, see [Add support for a unit test framework](#addingFramework) for information on adding support.
 
@@ -41,108 +38,6 @@ The Node.js development workload is required to support unit testing for CLI-bas
 
 Mocha and Tape test libraries are also supported. To use one of these, simply change the default test library in package.json to the appropriate test library’s package.
 ::: moniker-end
-
-## Write unit tests in a Node.js project (.njsproj)
-
-For Node.js projects, before adding unit tests to your project, make sure the framework you plan to use is installed locally in your project. This is easy to do using the [npm package installation window](npm-package-management.md#npmInstallWindow).
-
-The preferred way to add unit tests to your project is by creating a *tests* folder in
-your project, and setting that as the test root in project properties. You also need
-to select the test framework you want to use.
-
-![Set test root and test framework](../javascript/media/unit-test-project-properties.png)
-
-You can add simple blank tests to your project, using the **Add New Item** dialog box. Both JavaScript and TypeScript are supported in the same project.
-
-![Add new unit test](../javascript/media/unit-test-add-new-item.png)
-
-For a Mocha unit test, use the following code:
-
-```javascript
-var assert = require('assert');
-
-describe('Test Suite 1', function() {
-    it('Test 1', function() {
-        assert.ok(true, "This shouldn't fail");
-    })
-
-    it('Test 2', function() {
-        assert.ok(1 === 1, "This shouldn't fail");
-        assert.ok(false, "This should fail");
-    })
-})
-```
-
-If you haven't set the unit test options in the project properties, you must ensure the **Test Framework**
-property in the **Properties** window is set to the correct test framework for your unit test files. This is
-done automatically by the unit test file templates.
-
-![Test Framework](../javascript/media/UnitTestsFrameworkMocha.png)
-
-> [!Note]
-> The unit test options will take preference over the settings for individual files.
-
-After opening Test Explorer (choose **Test** > **Windows** > **Test Explorer**), Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list.
-
-![Test Explorer](../javascript/media/UnitTestsDiscoveryMocha.png)
-
-> [!NOTE]
-> For TypeScript, do not use the `outdir` or `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests.
-
-## Run tests (Node.js)
-
-You can run tests in Visual Studio or from the command line.
-
-### Run tests in Visual Studio
-
-You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by right-clicking and selecting **Debug**.
-
-For TypeScript, unit tests are run against the generated JavaScript code.
-
-> [!NOTE]
-> In most TypeScript scenarios, you can debug a unit test by setting a breakpoint in TypeScript code, right-clicking a test in Test Explorer, and choosing **Debug**. In more complex scenarios, such as some scenarios that use source maps, you may have difficulty hitting breakpoints in TypeScript code. As a workaround, try using the `debugger` keyword.
-
-> [!NOTE]
-> We don't currently support profiling tests, or code coverage.
-
-### Run tests from the command line
-
-You can run the tests from [Developer Command Prompt for Visual Studio](../ide/reference/command-prompt-powershell.md) using the following command:
-
-```
-vstest.console.exe <path to project file>\NodejsConsoleApp23.njsproj /TestAdapterPath:<VisualStudioFolder>\Common7\IDE\Extensions\Microsoft\NodeJsTools\TestAdapter
-```
-
-This command shows output similar to the following:
-
-```
-Microsoft (R) Test Execution Command Line Tool Version 15.5.0
-Copyright (c) Microsoft Corporation.  All rights reserved.
-
-Starting test execution, please wait...
-Processing: NodejsConsoleApp23\NodejsConsoleApp23\UnitTest1.js
-  Creating TestCase:NodejsConsoleApp23\NodejsConsoleApp23\UnitTest1.js::Test Suite 1 Test 1::mocha
-  Creating TestCase:NodejsConsoleApp23\NodejsConsoleApp23\UnitTest1.js::Test Suite 1 Test 2::mocha
-Processing finished for framework of Mocha
-Passed   Test Suite 1 Test 1
-Standard Output Messages:
- Using default Mocha settings
- 1..2
- ok 1 Test Suite 1 Test 1
-
-Failed   Test Suite 1 Test 2
-Standard Output Messages:
- not ok 1 Test Suite 1 Test 2
-   AssertionError [ERR_ASSERTION]: This should fail
-       at Context.<anonymous> (NodejsConsoleApp23\NodejsConsoleApp23\UnitTest1.js:10:16)
-
-Total tests: 2. Passed: 1. Failed: 1. Skipped: 0.
-Test Run Failed.
-Test execution time: 1.5731 Seconds
-```
-
-> [!NOTE]
-> If you get an error indicating that *vstest.console.exe* cannot be found, make sure you've opened the Developer Command Prompt and not a regular command prompt.
 
 ## Write unit tests for ASP.NET Core
 
@@ -278,8 +173,8 @@ If you don't see the `NodeJsTools` folder in an ASP.NET Core project, add the No
 
 This folder has to contain a JavaScript file with the same name which exports the following two functions:
 
-* `find_tests`
-* `run_tests`
+- `find_tests`
+- `run_tests`
 
 For a good example of the `find_tests` and the `run_tests` implementations, see the implementation for the Mocha
 unit testing framework in:
@@ -314,7 +209,7 @@ Test Explorer window. If they don't initially appear, you may need to rebuild th
 
 ## Unit test .NET Core and .NET Standard
 
-In addition to the preceding properties, you also need to install the NuGet package [Microsoft.JavaScript.UnitTest](https://www.nuget.org/packages/Microsoft.JavaScript.UnitTest/) and set the property:
+In addition to the preceding properties described for .NET Framework, you also need to install the NuGet package [Microsoft.JavaScript.UnitTest](https://www.nuget.org/packages/Microsoft.JavaScript.UnitTest/) and set the property:
 
 ```xml
 <PropertyGroup>
@@ -323,3 +218,105 @@ In addition to the preceding properties, you also need to install the NuGet pack
 ```
 
 Some test frameworks may require additional npm packages for test detection. For example, jest requires the jest-editor-support npm package. If necessary, check the documentation for the specific framework.
+
+## Write unit tests in a Node.js project (.njsproj)
+
+For Node.js projects, before adding unit tests to your project, make sure the framework you plan to use is installed locally in your project. This is easy to do using the [npm package installation window](npm-package-management.md#npmInstallWindow).
+
+The preferred way to add unit tests to your project is by creating a *tests* folder in
+your project, and setting that as the test root in project properties. You also need
+to select the test framework you want to use.
+
+![Screenshot of set test root and test framework.](../javascript/media/unit-test-project-properties.png)
+
+You can add simple blank tests to your project, using the **Add New Item** dialog box. Both JavaScript and TypeScript are supported in the same project.
+
+![Screenshot of how to add new unit test.](../javascript/media/unit-test-add-new-item.png)
+
+For a Mocha unit test, use the following code:
+
+```javascript
+var assert = require('assert');
+
+describe('Test Suite 1', function() {
+    it('Test 1', function() {
+        assert.ok(true, "This shouldn't fail");
+    })
+
+    it('Test 2', function() {
+        assert.ok(1 === 1, "This shouldn't fail");
+        assert.ok(false, "This should fail");
+    })
+})
+```
+
+If you haven't set the unit test options in the project properties, you must ensure the **Test Framework**
+property in the **Properties** window is set to the correct test framework for your unit test files. This is
+done automatically by the unit test file templates.
+
+![Screenshot of choosing Test Framework.](../javascript/media/UnitTestsFrameworkMocha.png)
+
+> [!Note]
+> The unit test options will take preference over the settings for individual files.
+
+After opening Test Explorer (choose **Test** > **Windows** > **Test Explorer**), Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list.
+
+![Screenshot of Test Explorer.](../javascript/media/UnitTestsDiscoveryMocha.png)
+
+> [!NOTE]
+> For TypeScript, do not use the `outdir` or `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests.
+
+## Run tests (Node.js)
+
+You can run tests in Visual Studio or from the command line.
+
+### Run tests in Visual Studio
+
+You can run the tests by clicking the **Run All** link in Test Explorer. Or, you can run tests by selecting one or more tests or groups, right-clicking, and selecting **Run** from the shortcut menu. Tests run in the background, and Test Explorer automatically updates and shows the results. Furthermore, you can also debug selected tests by right-clicking and selecting **Debug**.
+
+For TypeScript, unit tests are run against the generated JavaScript code.
+
+> [!NOTE]
+> In most TypeScript scenarios, you can debug a unit test by setting a breakpoint in TypeScript code, right-clicking a test in Test Explorer, and choosing **Debug**. In more complex scenarios, such as some scenarios that use source maps, you may have difficulty hitting breakpoints in TypeScript code. As a workaround, try using the `debugger` keyword.
+
+> [!NOTE]
+> We don't currently support profiling tests, or code coverage.
+
+### Run tests from the command line
+
+You can run the tests from [Developer Command Prompt for Visual Studio](../ide/reference/command-prompt-powershell.md) using the following command:
+
+```
+vstest.console.exe <path to project file>\NodejsConsoleApp23.njsproj /TestAdapterPath:<VisualStudioFolder>\Common7\IDE\Extensions\Microsoft\NodeJsTools\TestAdapter
+```
+
+This command shows output similar to the following:
+
+```
+Microsoft (R) Test Execution Command Line Tool Version 15.5.0
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+Processing: NodejsConsoleApp23\NodejsConsoleApp23\UnitTest1.js
+  Creating TestCase:NodejsConsoleApp23\NodejsConsoleApp23\UnitTest1.js::Test Suite 1 Test 1::mocha
+  Creating TestCase:NodejsConsoleApp23\NodejsConsoleApp23\UnitTest1.js::Test Suite 1 Test 2::mocha
+Processing finished for framework of Mocha
+Passed   Test Suite 1 Test 1
+Standard Output Messages:
+ Using default Mocha settings
+ 1..2
+ ok 1 Test Suite 1 Test 1
+
+Failed   Test Suite 1 Test 2
+Standard Output Messages:
+ not ok 1 Test Suite 1 Test 2
+   AssertionError [ERR_ASSERTION]: This should fail
+       at Context.<anonymous> (NodejsConsoleApp23\NodejsConsoleApp23\UnitTest1.js:10:16)
+
+Total tests: 2. Passed: 1. Failed: 1. Skipped: 0.
+Test Run Failed.
+Test execution time: 1.5731 Seconds
+```
+
+> [!NOTE]
+> If you get an error indicating that *vstest.console.exe* cannot be found, make sure you've opened the Developer Command Prompt and not a regular command prompt.
