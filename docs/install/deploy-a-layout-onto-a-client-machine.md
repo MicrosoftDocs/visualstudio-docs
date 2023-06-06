@@ -4,8 +4,8 @@ description: Learn how to deploy a network layout of Visual Studio within an ent
 ms.date: 6/2/2023
 ms.topic: conceptual
 helpviewer_keywords:
-- '{{PLACEHOLDER}}'
-- '{{PLACEHOLDER}}'
+- 'deploy layout'
+- 'install layout'
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
@@ -19,7 +19,7 @@ ms.technology: vs-installation
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
  
 
-In order to deploy a layout to a client machine, you'll need to consider the following topics:
+In order to deploy a layout to a client machine, you'll need to consider the following topics first:
 
 - [**Prepare the layout**](create-a-network-installation-of-visual-studio.md): Make sure that your layout is ready to install onto the client.
 - [**Prepare the client machines**](#prepare-the-client-machines): Ensure that your client machines are ready to install Visual Studio and your users have the right permissions.
@@ -29,7 +29,7 @@ In order to deploy a layout to a client machine, you'll need to consider the fol
 
 ## Install Visual Studio onto a client machine from a layout
 
-Administrators can deploy a Visual Studio layout onto client workstations as part of an installation script.  
+Administrators can deploy a Visual Studio layout onto client workstations programatically as part of an installation script.  
 
 ### Install from a network layout
 
@@ -37,6 +37,12 @@ A user with administrator permissions can install Visual Studio from a network l
 
 ```shell
 \\server\products\VS\vs_enterprise.exe --quiet --wait 
+```
+
+If the user ever selects items that _aren't_ available in the layout, then the installer will _try_ to source these additional files from Microsoft hosted servers on the internet. To make sure your installer doesn't try to access the internet when it's installing the product, use the `--noweb` switch.  For example, use this command to run the installation and prevent the client machine from accessing the internet:
+
+```shell
+\\server\products\VS\vs_enterprise.exe --noWeb --wait --passive --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --includeOptional
 ```
 
 > [!NOTE] 
@@ -106,11 +112,13 @@ Make sure that either the user or system account that's running the installation
 
 You'll need to make sure that any [offline client machines have the right certificates installed](install-certificates-for-visual-studio-offline.md).
 
-When you install from a layout, the installer on the client will always look for the Visual Studio packages in the layout's location. However, if the installer tries to install components that are _not_ included in the layout, then it will attempt to acquire the Visual Studio packages from the [update source](update-visual-studio.md#configure-source-location-of-updates-1). For non-internet-connected clients, administrators typically ensure that the layout's update source default setting points back to itself ([by configuring the channelUri in the response.json](automated-installation-with-response-file.md#configure-the-response-file-used-when-installing-from-a-layout) and that the [client's update settings](update-visual-studio.md#configure-source-location-of-updates-1) are configured to look in the layout.  
-
-If you want to _prevent_ the Visual Studio Installer from attempting to download any content from the web that may be missing from your network layout, you can try to use the [`--noWeb` parameter](use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command--line-parameters). If `--noWeb` is used and the layout is missing a component that is selected to be installed, then the setup will simply fail. 
+When you install from a layout, the installer on the client will always look for the Visual Studio packages in the layout's location. However, if the installer tries to install components that are _not_ included in the layout, then it will attempt to acquire the Visual Studio packages from the [update source](update-visual-studio.md#configure-source-location-of-updates-1), which administrators often configure to [point back to itself](automated-installation-with-response-file.md#configure-the-response-file-used-when-installing-from-a-layout). If you want to explicitly prevent the Visual Studio Installer from attempting to download any content from the web that may be missing from your layout, you use the [`--noWeb` parameter](use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command--line-parameters). If `--noWeb` is used and the layout is missing a component that is selected to be installed, then the setup will simply fail. 
 
 If you get an error message that says "A product matching the following parameters cannot be found", make sure that you are using the `--noweb` switch.
+
+### Machine resources
+
+Make sure that your full installation path is less than 80 characters and that your machine has ample storage. A complete installation of Visual Studio requires a minimum of 45 -50 GB of disk space.
 
 ## Error codes
 
