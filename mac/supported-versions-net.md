@@ -4,13 +4,35 @@ description: This document covers the .NET Core Versions support in Visual Studi
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
-ms.date: 05/02/2022
+ms.date: 06/05/2023
 ms.custom: devdivchpfy22
 ms.assetid: 8B8CEBE8-00DA-4AD1-8193-77F58B57F244
 ---
 # Supported versions of .NET
 
  [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+
+::: moniker range="vsmac-2022"
+
+The following table describes the versions of .NET Core supported by the stable and preview versions of Visual Studio for Mac:
+
+| .NET Core SDK version |Visual Studio for Mac 17.0 | Visual Studio for Mac 17.1 | Visual Studio for Mac 17.2 | Visual Studio for Mac 17.3 | Visual Studio for Mac 17.4 | Visual Studio for Mac 17.5 |
+|---------|---------|---------|---------|---------|---------|---------|
+|v3.1 |✔︎|✔︎|✔︎|✔︎|✔︎| | |
+|v6.0 |✔︎|✔︎|✔︎|✔︎|✔︎|✔︎|✔︎|
+|v7.0 | | | | |✔︎|✔︎|✔︎|
+
+> [!IMPORTANT]
+> Preview versions of the .NET Core SDK are not supported; please update to the released version. When installing Visual Studio 2022 for Mac 17.5, the released version of .NET Core v7.0 will be installed.
+
+* .NET Core v6.0 is installed by default for 17.0, 17.1, 17.2, and 17.3.
+* .NET Core v7.0 is installed by default for 17.4.
+* .NET Core v2.1.701 (v2.1.700 for 8.1) is installed by default with the installer.
+* To download any other version of .NET Core, visit the [dotnet page](https://dotnet.microsoft.com/download/dotnet-core).
+* When you use .NET Core 7.0, C# version 11 will be used by default. C# 10 is default when using .NET Core 6.x. See [C# language versioning](/dotnet/csharp/language-reference/configure-language-version) for more info.
+* For information on installing a preview version of Visual Studio for Mac, see the [Install a Preview Release](./install-preview.md) guide.
+
+::: moniker-end
 
 The following table describes the versions of .NET Core supported by the stable and preview versions of Visual Studio for Mac:
 
