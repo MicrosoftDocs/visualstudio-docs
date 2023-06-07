@@ -84,8 +84,8 @@ Selecting **Compare with Current Branch** opens the compare branches experience 
 :::image type="content" source="media/vs-2022/git-compare-branches.png" alt-text="Screenshot that shows how to compare branches by using the diff view." lightbox="media/vs-2022/git-compare-branches.png":::
 
 > [!TIP]
-> If you prefer an inline diff, you can use the diff configuration options gear and switch to an inline diff view.
-> :::image type="content" source="media/vs-2022/git-diff-configuration-options.png" alt-text="Diff configuration options":::
+> If you prefer an inline diff, you can use the Diff Configuration Options gear icon and switch to an inline diff view.
+> :::image type="content" source="media/vs-2022/git-diff-configuration-options.png" alt-text="Screenshot that shows the Diff Configuration Options that're available to you.":::
 
 ## Checkout commits
 
@@ -102,7 +102,8 @@ Now that you are in a detached head state, feel free to run and test your code o
 > [!IMPORTANT]
 > Commits created in a detached head state are not associated with any branch and may be garbage collected by Git after you checkout a branch. That is why to keep your changes, it is recommended to create a new branch before checking out a branch. For example, commits C5 and C6 will be garbage collected if we check out Main without creating a new branch.
 > :::image type="content" source="media/vs-2022/git-detached-head-commits-illustration.png" alt-text="Diagram that illustrates the detached head commits in Git.":::
-> To learn more about the detached head state view the following Git documentation: [Detached Head](https://git-scm.com/docs/git-checkout#_detached_head)
+>
+> To learn more about the detached head state, see the [Detached Head](https://git-scm.com/docs/git-checkout#_detached_head) Git documentation. 
 
 Checking out the tip of a remote branch can be helpful if you would like to quickly review a pull request and evaluate the latest updates. To do that in Visual Studio, first make sure to fetch and get the latest updates from your remote repository. Then right-click the remote branch you would like to review and select **Checkout Tip Commit**.
 
