@@ -1,7 +1,7 @@
 ---
 title: Command-line parameter examples for installation
 description: Customize these examples to create your own command-line installation of Visual Studio.
-ms.date: 5/16/2023
+ms.date: 6/6/2023
 ms.topic: conceptual
 ms.assetid: 837F31AA-F121-46e9-9996-F8BCE768E579
 author: anandmeg
@@ -45,26 +45,33 @@ For lists of the workloads and components that you can install by using the comm
    --includeRecommended --quiet --wait
   ```
 
-## Update in two steps
+## Update 
 
-* Update a Visual Studio instance via the command line, with no interactive prompts but progress displayed. If the bootstrapper is on the client machine, then you can run this command from the client. Otherwise, you'll need to run this command from the layout. The first command updates the installer, and the second command updates the Visual Studio product.
+* Update a Visual Studio instance via the command line with progress displayed and no interactive prompts. You can run these series of commands in two steps by using a bootstrapper found on either the client or in a layout. The first command updates the installer on the client, and the second command updates the Visual Studio product. Best practice is to run and complete both commands in order using an elevated command prompt. The following example simulates updating a client using an evergreen bootstrapper in the layout. 
 
    ```shell
-   vs_enterprise.exe --update --quiet --wait
-   vs_enterprise.exe update --wait --passive --norestart --installPath "C:\installPathVS"
+   \\layoutserver\share\path\vs_enterprise.exe --update --quiet --wait
+   \\layoutserver\share\path\vs_enterprise.exe update --wait --passive --norestart --installPath "C:\installPathVS"
    ```
-
-  > [!NOTE]
-  > The first command updates the Visual Studio installer and the second command updates the Visual Studio product bits. It is recommended to run and complete both commands in order. To avoid a User Account Control dialog, run the command prompt as an Administrator.
+ 
+Alternatively, you can also update your Visual Studio instance in one step by using the installer on the client. Be aware that you can't initiate the installer programmatically from the same directory that the installer resides in.
+ 
+   ```shell
+   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" update --passive --norestart --installPath "C:\installPathVS"
+   ```
 
 ## Using --wait
 
-* Use `--wait` in batch files or scripts to wait for the Visual Studio installer to complete before the next command is executed. For batch files, an `%ERRORLEVEL%` environment variable will contain the return value of the command, as documented in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page. Some command utilities require additional parameters to wait for completion and to get the installer's return value. The following command is an example of the additional parameters used with the PowerShell script command 'Start-Process':
+* Use `--wait` in batch files or scripts to wait for the initial command to complete before the next command is executed. For batch files, an `%ERRORLEVEL%` environment variable contains the return value of the command, as documented in the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page. Some command utilities require other parameters to wait for completion and to get the installer's return value. 
+ 
+The `--wait` parameter is only supported by the bootstrapper. 
 
    ```shell
    start /wait vs_professional.exe --installPath "C:\VS" --passive --wait > nul
    echo %errorlevel%
    ```
+
+The following command is an example of using `--wait` with the PowerShell script command `Start-Process`:
 
    ```powershell
    $process = Start-Process -FilePath vs_enterprise.exe -ArgumentList "--installPath", "C:\VS", "--passive", "--wait" -Wait -PassThru
@@ -83,32 +90,16 @@ For lists of the workloads and components that you can install by using the comm
     $process.WaitForExit()
    ```
 
-* The first '--wait' is used by the Visual Studio Installer, and the second '-Wait' is used by 'Start-Process' to wait for completion. The '-PassThru' parameter is used by 'Start-Process' to use the installer's exit code for its return value.
+* The first `--wait` is used by the Visual Studio bootstrapper, and the second `-Wait` is used by 'Start-Process' to wait for completion. The `-PassThru` parameter is used by `Start-Process` to use the installer's exit code for its return value.
 
 ## Using --layout to create a network layout or a local cache
 
-* Create a layout that includes only the Visual Studio core editor (the most minimal Visual Studio configuration) and the English language pack:
+* Create a layout that includes only the Visual Studio core editor (the most minimal Visual Studio configuration) and the English language pack. More layout creation examples can be found on the [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md#configure-the-contents-of-a-layout) page.
 
   ```shell
    vs_professional.exe --layout C:\VS ^
    --lang en-US ^
    --add Microsoft.VisualStudio.Workload.CoreEditor
-  ```
-
-* Create a layout that includes the .NET desktop and .NET web workloads, along with all recommended components, English only.
-
-  ```shell
-   vs_professional.exe --layout C:\VS ^
-   --lang en-US ^
-   --add Microsoft.VisualStudio.Workload.NetWeb ^
-   --add Microsoft.VisualStudio.Workload.ManagedDesktop ^
-   --includeRecommended
-  ```
-
-* Use --config to configure the contents of a layout:
- 
-   ```shell
-  vs_enterprise.exe --layout C:\layout --config "C:\myconfig.vsconfig"
   ```
 
 ## Using --all to acquire the entire product
@@ -129,9 +120,9 @@ For lists of the workloads and components that you can install by using the comm
   ```
 
 ## Using --channelURI
-Using the Visual Studio 2022 or later installer, it's possible to [configure where Visual Studio looks for updates](/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1). The `--channelURI` is otherwise known as the update channel or the source location of updates. The following table gives example values for channelId and channelURI and what they mean.
+Using the [latest installer](update-visual-studio.md#install-the-latest-and-greatest-installer), it's possible to [configure where Visual Studio looks for updates](update-visual-studio.md#configure-source-location-of-updates-1). The `--channelUri` is otherwise known as the update channel or the source location of updates. The following table gives example values for channelId and channelUri and what they mean.
 
-| **Channel Name** | **--channelURI** | **--channelId** |
+| **Channel Name** | **--channelUri** | [**--channelId**](create-a-network-installation-of-visual-studio.md#ensure-your-layout-is-based-off-of-the-correct-channel) |
 |------------------|------------------|-----------------|
 | Visual Studio 2022 Current channel | `https://aka.ms/vs/17/release/channel` | `VisualStudio.17.Release` |
 | Visual Studio 2022 17.0 LTSC channel | `https://aka.ms/vs/17/release.LTSC.17.0/channel` | `VisualStudio.17.Release.LTSC.17.0` |
@@ -141,7 +132,7 @@ Using the Visual Studio 2022 or later installer, it's possible to [configure whe
 | Custom layout - Private Channel | `\\layoutserver\share\path\channelmanifest.json` | `VisualStudio.17.Release` (or whatever the layout was based on) |
 
 If you choose to use a custom layout as the update channel, then be aware of the following guidelines:
-  * the --channelURI must point to the 'channelmanifest.json' file in the custom layout. 
+  * the `--channelUri` must point to the 'channelmanifest.json' file in the custom layout. 
   * Administrators can configure [how the custom layout "Private Channel" is displayed in the Update Settings UI by configuring the client's registry settings](/visualstudio/install/set-defaults-for-enterprise-deployments#configuring-source-location-for-updates). 
 
 ## Using --remove
@@ -149,17 +140,17 @@ If you choose to use a custom layout as the update channel, then be aware of the
 * Remove the Profiling Tools component from the default installed Visual Studio instance. This example uses the installer already installed on the client machine. 
 
   ```shell
-  "C:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe" modify ^
+  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify ^
    --installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" ^
    --remove Microsoft.VisualStudio.Component.DiagnosticTools ^
    --passive
   ```
+  
+You can't use `--remove` in the same command as `--layout`. In other words, it's not possible to remove components from a layout.
 
 ## Using --removeOos
->[!NOTE]
->This command requires using the VS 2022 version 17.4 or later installer. Follow the guidance here for [how to acquire the latest installer on your client machine](update-visual-studio.md#install-the-latest-and-greatest-installer).
 
-* Modify an installation and remove all [components that have transitioned to an out-of-support state](out-of-support-components.md) from the default installed Visual Studio instance. This example uses the installer already installed on the client machine. 
+Using the [latest installer](update-visual-studio.md#install-the-latest-and-greatest-installer), you can modify an installation and remove all [components that have transitioned to an out-of-support state](out-of-support-components.md) from the default installed Visual Studio instance. This example uses the installer already installed on the client machine to configure the removeOos setting. 
 
   ```shell
    "C:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe" modify ^
