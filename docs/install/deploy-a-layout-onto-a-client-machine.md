@@ -52,7 +52,7 @@ If the user ever selects items that _aren't_ available in the layout, then the i
 
 ### Install from an internal intranet location
 
-Some enterprises want to host the layout on an intranet location to better manage geographical performance bottlenecks and take advantage of web caching. In order to deploy a intranet hosted layout onto a client machine, a user with administrator permissions must run an elevated PowerShell script similar to the following to initialize the installation on the client machine. 
+Some enterprises want to host the layout on an intranet location to better manage geographical performance bottlenecks and take advantage of web caching. In order to deploy an intranet hosted layout onto a client machine, a user with administrator permissions must run an elevated PowerShell script similar to the following to initialize the installation on the client machine. 
 
 ```shell
     #Do the initial installation from the web hosted layout onto the client in an elevated PowerShell script
