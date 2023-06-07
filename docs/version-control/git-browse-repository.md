@@ -53,7 +53,7 @@ You can browse through any local or remote branch without having to switch your 
 
 To compare any two commits in your branch, use the **Ctrl** key to select the two commits that you want to compare. Then, right-click one of them and select **Compare Commits**.
 
-:::image type="content" source="media/vs-2022/git-repository-compare-commits-option.png" alt-text="Screenshot of how to compare two commits" lightbox="media/vs-2022/git-repository-compare-commits-option.png":::
+:::image type="content" source="media/vs-2022/git-repository-compare-commits-option.png" alt-text="Screenshot of how to compare two commits." lightbox="media/vs-2022/git-repository-compare-commits-option.png":::
 
 :::image type="content" source="media/vs-2022/git-repository-compare-commits-ui.png" alt-text="Screenshot of compared commits." lightbox="media/vs-2022/git-repository-compare-commits-ui.png":::
 
@@ -89,18 +89,18 @@ Selecting **Compare with Current Branch** opens the compare branches experience 
 
 ## Checkout commits
 
-Checking out a commit can be beneficial in multiple ways. For example, it allows you to go back to a previous point in your repository’s history where you can run or test your code. It can also be helpful if you would like to review code from a remote branch (a colleague’s branch, for example). That way you don’t need to create a local branch if you aren't planning on contributing to it. In this case, you can just checkout the tip of the remote branch that you would like to review.
+Checking out a commit can be beneficial in multiple ways. For example, it allows you to go back to a previous point in your repository’s history where you can run or test your code. It can also be helpful if you would like to review code from a remote branch (a colleague’s branch, for example). That way you don’t need to create a local branch if you aren't planning on contributing to it. In this case, you can just check out the tip of the remote branch that you would like to review.
 
 :::image type="content" source="media/vs-2022/git-checkout-commit-illustration.png" alt-text="Diagram that illustrates the Git checkout commit process.":::
 
-To checkout a previous commit in Visual Studio, open the **Git Repository** window, right-click the commit you would like to go back to and select **checkout (–detach)**. Visual Studio shows a confirmation dialog explaining that by checking out a commit, you'll be in a detached HEAD state. Meaning that the HEAD of your repository is going to point directly to a commit instead of a branch.
+To check out a previous commit in Visual Studio, open the **Git Repository** window, right-click the commit you would like to go back to and select **checkout (–detach)**. Visual Studio shows a confirmation dialog explaining that by checking out a commit, you'll be in a detached HEAD state. Meaning that the HEAD of your repository is going to point directly to a commit instead of a branch.
 
 :::image type="content" source="media/vs-2022/git-checkout-commit-entrypoints.gif" alt-text="Animation that shows the checkout commit entry points.":::
 
 Now that you are in a detached head state, feel free to run and test your code or even explore and commit changes. When you're done exploring and want to go back to your branch, you can choose to discard your changes by checking out an existing branch or choose to keep your changes by **[creating a new branch](git-create-branch.md)** first.
 
 > [!IMPORTANT]
-> Commits created in a detached head state are not associated with any branch and may be garbage collected by Git after you checkout a branch. That is why to keep your changes, it is recommended to create a new branch before checking out a branch. For example, commits C5 and C6 will be garbage collected if we check out Main without creating a new branch.
+> Commits created in a detached head state are not associated with any branch and may be garbage collected by Git after you check out a branch. That is why to keep your changes, it is recommended to create a new branch before checking out a branch. For example, commits C5 and C6 will be garbage collected if we check out Main without creating a new branch.
 > :::image type="content" source="media/vs-2022/git-detached-head-commits-illustration.png" alt-text="Diagram that illustrates the detached head commits in Git.":::
 >
 > To learn more about the detached head state, see the [Detached Head](https://git-scm.com/docs/git-checkout#_detached_head) Git documentation. 
