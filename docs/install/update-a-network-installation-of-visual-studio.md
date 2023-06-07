@@ -123,7 +123,7 @@ Whatever the value of the channelUri in the new layout's `response.json` file wi
 
 ### Programatically update a client that doesn't have internet access
 
-If your client machine doesn't have internet access, then it _must_ acquire the updates from a layout. Remember that there are two parts that need to get updated whenever Visual Studio is updated. The first is the installer and the second is the Visual Studio product itself. For network hosted layouts, you can invoke either the bootstrapper or the installer to update the client. For intranet webserver hosted layouts, you can update by invoking the installer on the client. The following example illustrates both situations, and both assume that the administrator has already updated the layout iteslf to the most secure bits.
+If your client machine doesn't have internet access, then it _must_ acquire the updates from a layout. Remember that there are two parts that need to get updated whenever Visual Studio is updated. The first is the installer and the second is the Visual Studio product itself. For network hosted layouts, you can invoke either the bootstrapper or the installer to update the client. For intranet webserver hosted layouts, you can update by invoking the installer on the client. The following example illustrates both situations, and both assume that the administrator has already updated the layout itself to the most secure bits.
 
 This example instructs Visual Studio to _explicitly_ look for _both_ of these components from a network layout. The first command forces the installer to update from the layout, and the second command prevents any packages from being downloaded from Microsoft hosted servers on the internet.
 
