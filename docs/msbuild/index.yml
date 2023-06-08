@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: MSBuild documentation
-summary: MSBuild is the build system used by Visual Studio for .NET projects and C++ projects. Learn how MSBuild uses the information in project files and imported files to build your projects. You can customize the build by setting command-line options, setting the values of properties, items, and metadata, extending the build system by defining your own targets and tasks, and use MSBuild programmatically to create custom build tools.
+summary: MSBuild is a general purpose build system, and is the build system used by Visual Studio. MSBuild uses the project file to understand how to build your projects.
 brand: visual-studio
 metadata:
    title: MSBuild documentation
