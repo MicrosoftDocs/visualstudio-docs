@@ -125,6 +125,14 @@ The connected service functionality adds all the needed references and connectio
 1. The storage connected service appears under the **Connected Services** node of your project.
 :::moniker-end
 
+## Next steps
+
+Azure Storage supports blobs and queues, as well as other features.
+
+To learn about working with blobs, you can continue with the quickstart for blob storage, but instead of starting at the beginning, you can start at [Azure blobs quickstart (.NET) - Code examples](/azure/storage/blobs/storage-quickstart-blobs-dotnet?tabs=visual-studio%2Cmanaged-identity%2Croles-azure-portal%2Csign-in-azure-cli%2Cidentity-visual-studio#code-examples).
+
+To learn about working with queues, start at [Azure queues quickstart (.NET) - Code examples](https://learn.microsoft.com/en-us/azure/storage/queues/storage-quickstart-queues-dotnet?tabs=passwordless%2Croles-azure-portal%2Cenvironment-variable-windows%2Csign-in-azure-cli#code-examples).
+
 ## See also
 
 - [Azure Storage forum](https://social.msdn.microsoft.com/forums/azure/home?forum=windowsazuredata)
