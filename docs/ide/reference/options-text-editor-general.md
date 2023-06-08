@@ -1,7 +1,7 @@
 ---
 title: Options, Text Editor, General
 description: Learn how to use the General page to change global settings for the Visual Studio code and text editor.
-ms.date: 11/10/2022
+ms.date: 05/19/2023
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor
@@ -84,7 +84,7 @@ When the code editor is selected, a vertical yellow line appears in the selectio
 
 ### Auto-detect UTF-8 encoding without signature
 
-By default, the editor detects encoding by searching for byte order marks or charset tags. If neither is found in the current document, the code editor tries to auto-detect UTF-8 encoding by scanning byte sequences. To disable the auto-detection of encoding, clear this option.
+By default, the editor detects encoding by searching for byte order marks or charset tags. If neither is found in the current document, the code editor tries to autodetect UTF-8 encoding by scanning byte sequences. To disable the autodetection of encoding, clear this option.
 
 ### Follow project coding conventions
 
@@ -110,7 +110,27 @@ When selected, you can press **Ctrl** and hover over an element while clicking t
 
 #### Open definition in peek view
 
-Select this check box to display the element's definition in a window without navigating away from your current location in the code editor. For more information, see [How to: View and edit code by using Peek Definition](../how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
+Select this checkbox to display the element's definition in a window without navigating away from your current location in the code editor. For more information, see [How to: View and edit code by using Peek Definition](../how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
+
+::: moniker range="vs-2022"
+
+## Sticky scroll
+
+The Sticky scroll section of **Tools** > **Options** > **Text Editor** > **General** includes the following options.
+
+### Group the current scopes within a scrollable region of the editor window
+
+Select this checkbox to enable [Sticky Scroll](../editor-sticky-scroll.md) to *stick* scopes to the top of the editor so that they're always in view while you *scroll* through your code. Scopes include namespaces, classes, methods, loop initialization statements, and conditionals. First introduced in Visual Studio 2022 [version 17.5](/visualstudio/releases/2022/release-notes-v17.5), supported programming languages and code formats for Sticky Scroll include C#, C++, XAML, and JSON. 
+
+### Maximum sticky lines
+
+Set to a default of **5**, you can increase or decrease the number of lines that you want to see in the Sticky Scroll header area.
+
+### When number of scopes exceeds the maximum
+
+The default is **Prefer outer scopes**, which shows higher-level scopes. You can change it to **Prefer inner scopes**, which pushes out higher-level scopes as you scroll through deeply nested code. For more information, see the "[Inner and outer scopes](../editor-sticky-scroll.md#inner-and-outer-scopes)" section of the [What is Sticky Scroll for Visual Studio](../editor-sticky-scroll.md) page.
+
+::: moniker-end
 
 ## Display
 
@@ -189,6 +209,12 @@ internal readonly ImmutableArray<char> ZeroWidthCharacters = ImmutableArray.Crea
 });
 ```
 
+### Enable brace pair colorization
+
+When selected, braces are color-matched so that you can visually distinguish each set of opening and closing braces in your code. Brace colorization makes it easier to see your code's scope or find any missing braces. Released in Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-notes-v17.6), brace pair colorization is supported for C#, C++, TypeScript, JavaScript, Visual Basic, and Razor.
+
+:::image type="content" source="media/vs-2022/brace-pair-colorization.png" alt-text="Screenshot of an example of brace pair colorization in Visual Studio.":::
+
 ::: moniker-end
 
 ### Selection margin
@@ -219,7 +245,7 @@ When selected, different-colored wavy underlines, known as squiggles, appear in 
 
 ### Show selection matches
 
-When selected, Visual Studio automatically highlights matching strings after you select text in the editor. Specifically, anytime a single line of text of 100 characters or less is selected, any matches will immediately be highlighted.
+When selected, Visual Studio automatically highlights matching strings after you select text in the editor. Specifically, anytime a single line of text of 100 characters or less is selected, any matches are highlighted.
 
 ::: moniker-end
 

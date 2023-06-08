@@ -5,14 +5,14 @@ ms.topic: include
 ms.assetid: 42009ea6-f7ba-4bc3-978a-55d566753408
 author: larissacrawford
 ms.author: amast
-ms.date: 04/07/2023
+ms.date: 05/22/2023
 user.type: subscriber
 tags: no-solution
 subscription.type: vl, cloud, retail, partner
 sap.id: 34fccc61-0a31-cc35-22dd-016a1ebf1134
 ---
 
-## I have questions about managing my subscriptions on manage.visualstudio.com portal
+## I have questions about managing my subscriptions on the manage.visualstudio.com portal
 
 For more information on management of subscriptions in the admin portal at [https://manage.visualstudio.com](https://manage.visualstudio.com), see [admin documentation](https://learn.microsoft.com/visualstudio/subscriptions/admin-roles).
 

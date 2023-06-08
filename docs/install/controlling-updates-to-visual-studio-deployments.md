@@ -90,4 +90,4 @@ In some cases, the client machine may have already installed Visual Studio from 
 * [Applying administrator updates](applying-administrator-updates.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
-* [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
+* [Visual Studio product lifecycle and servicing](/visualstudio/productinfo/vs-servicing)

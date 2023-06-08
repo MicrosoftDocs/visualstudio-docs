@@ -2,14 +2,14 @@
 title: Isolating Code Under Test with Microsoft Fakes
 description: Learn how Microsoft Fakes helps you isolate the code you are testing by replacing other parts of the application with stubs or shims.
 ms.custom: devdivchpfy22
-ms.date: 04/21/2023
+ms.date: 05/23/2023
 ms.topic: how-to
-ms.author: mikejo
-manager: jmartens
+ms.author: oscalles
+manager: aajohn
 ms.technology: vs-ide-test
 ms.workload: 
   - multiple
-author: mikejo5000
+author: ocallesp
 dev_langs: 
   - VB
   - CSharp
@@ -18,17 +18,11 @@ dev_langs:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Microsoft Fakes helps you isolate the code you're testing by replacing other parts of the application with *stubs* or *shims*. The stubs and shims are small pieces of code that are under the control of your tests. By isolating your code for testing, you know that if the test fails, the cause is there and not somewhere else. Stubs and shims also let you test your code even if other parts of your application aren't working yet.
+Code isolation is a testing strategy often implemented with tools like Microsoft Fakes, where the code you're testing is separated from the rest of the application. This separation is achieved by replacing parts of the application that interact with the code under test with stubs or shims. These are small pieces of code controlled by your tests, which simulate the behavior of the actual parts they're replacing.
 
-Fakes come in two flavors:
+The benefit of this approach is that it allows you to focus on testing the specific functionality of the code in isolation. If a test fails, you know the cause is within the isolated code and not somewhere else. Additionally, the use of stubs and shims, provided by Microsoft Fakes, enables you to test your code even if other parts of your application aren't functioning yet.
 
-- A [stub](#get-started-with-stubs) replaces a class with a small substitute that implements the same interface.  To use stubs, you have to design your application so that each component depends only on interfaces, and not on other components. (By "component" we mean a class or group of classes that are designed and updated together and typically contained in an assembly.)
-
-- A [shim](#get-started-with-shims) modifies the compiled code of your application at runtime so that instead of making a specified method call, it runs the shim code that your test provides. Shims can be used to replace calls to assemblies that you can't modify, such as .NET assemblies.
-
-    ![Fakes replace other components](../test/media/fakes-2.png)
-
-**Requirements**
+## Requirements
 
 - Visual Studio Enterprise
 - A .NET Framework project
@@ -37,255 +31,46 @@ Fakes come in two flavors:
 > [!NOTE]
 > Profiling with Visual Studio isn't available for tests that use Microsoft Fakes.
 
-## Choose between stub and shim types
+## The Role of Microsoft Fakes in Code Isolation
 
-Typically, you would consider a Visual Studio project to be a component, because you develop and update those classes at the same time. You would consider using stubs and shims for calls that the project makes to other projects in your solution, or to other assemblies that the project references.
+Microsoft Fakes plays a key role in code isolation by providing two mechanisms - stubs and shims.
 
-You can use stubs for calls within your Visual Studio solution, and shims for calls to other referenced assemblies. This is because within your own solution it's good practice to decouple the components by defining interfaces in the way that stubbing requires. But external assemblies such as *System.dll* typically aren't provided with separate interface definitions, so you must use shims instead.
+- **Stubs**: These are used to replace a class with a small substitute that implements the same interface. This requires your application to be designed such that each component depends only on interfaces, not on other components​​.
 
-Other considerations are:
+- **Shims**: These are used to modify the compiled code of your application at runtime. Instead of making a specified method call, the application runs the shim code that your test provides. Shims can replace calls to assemblies that you can't modify, such as .NET assemblies​​.
 
-**Performance.** Shims run slower because they rewrite your code at runtime. Stubs don't have this performance overhead and are as fast as virtual methods can go.
+Typically, stubs are used for calls within your Visual Studio solution, and shims for calls to other referenced assemblies. This is because within your solution, it's good practice to decouple the components by defining interfaces in the way that stubbing requires. However, external assemblies often don't come with separate interface definitions, so shims are used instead.
 
-**Static methods, sealed types.** You can only use stubs to implement interfaces. Therefore, stub types can't be used for static methods, non-virtual methods, sealed virtual methods, methods in sealed types, and so on.
+![Diagram that show Fakes replacing other components.](../test/media/microsoft-fakes-fakes-2.png)
 
-**Internal types.** Both stubs and shims can be used with internal types that are made accessible by using the assembly attribute <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute>.
+## Recommendations on When to Use Stubs
 
-**Private methods.** Shims can replace calls to private methods if all the types on the method signature are visible. Stubs can only replace visible methods.
+Stubs are typically used for calls within your Visual Studio solution because it's a good practice to decouple the components by defining interfaces in the way that stubbing requires. However, external assemblies, such as System.dll, typically aren't provided with separate interface definitions, so shims would be used in these cases instead​​.
 
-**Interfaces and abstract methods.** Stubs provide implementations of interfaces and abstract methods that can be used in testing. Shims can't instrument interfaces and abstract methods, because they don't have method bodies.
+Using stubs involves designing your application so that the different components are not dependent on each other, but only on interface definitions. This decoupling makes the application more robust and flexible, and allows you to connect the component under test to stub implementations of the interfaces for testing purposes​​.
 
-We recommend you use stub types to isolate from dependencies within your codebase. You can do this by hiding the components behind interfaces. You can use shim types to isolate from third-party components that don't provide a testable API.
+In practice, you can generate stub types from the interface definitions in Visual Studio, then replace the real component with the stub in your test.
 
-## Get started with stubs
+## Recommendations on When to Use Shims
 
-For a more detailed description, see [Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md).
+While stubs are used for calls within your Visual Studio solution, shims are typically used for calls to other referenced assemblies. This is because external assemblies such as System.dll usually aren't provided with separate interface definitions, so shims must be used instead.
 
-1. **Inject interfaces**
+However, there are some factors to consider when using shims:
 
-     To use stubs, you have to write the code you want to test in such a way that it doesn’t explicitly mention classes in another component of your application. By "component" we mean a class or classes that are developed and updated together, and typically contained in one Visual Studio project. Variables and parameters should be declared by using interfaces, and instances of other components should be passed in or created by using a factory. For example, if StockFeed is a class in another component of the application, then this is considered bad:
+**Performance**: Shims run slower because they rewrite your code at runtime. Stubs don't have this performance overhead and are as fast as virtual methods can run​​.
 
-     `return (new StockFeed()).GetSharePrice("COOO"); // Bad`
+**Static methods, sealed types**: You can only use stubs to implement interfaces. Therefore, stub types can't be used for static methods, non-virtual methods, sealed virtual methods, methods in sealed types, and so on​​.
 
-     Instead, you can define an interface that can be implemented by the other component, and can also be implemented by a stub for test purposes:
+**Internal types**: Both stubs and shims can be used with internal types that are made accessible by using the assembly attribute  <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute>​.
 
-    ### [C#](#tab/csharp)
-    ```csharp
-    public int GetContosoPrice(IStockFeed feed) => feed.GetSharePrice("COOO");
-    ```
+**Private methods**: Shims can replace calls to private methods if all the types on the method signature are visible. Stubs can only replace visible methods​​.
 
-    ### [VB](#tab/vb)
-    ```vb
-    Public Function GetContosoPrice(feed As IStockFeed) As Integer
-     Return feed.GetSharePrice("COOO")
-    End Function
+**Interfaces and abstract methods**: Stubs provide implementations of interfaces and abstract methods that can be used in testing. Shims can't instrument interfaces and abstract methods, because they don't have method bodies.
 
-    ```
-    ---
+---
 
-2. **Add Fakes Assembly**
-
-   1. In **Solution Explorer**, 
-       - For an older .NET Framework Project (non-SDK style), expand your unit test project's **References** node.
-
-       - For an SDK-style project targeting .NET Framework, .NET Core, or .NET 5.0 or later, expand the **Dependencies** node to find the assembly you would like to fake under **Assemblies**, **Projects**, or **Packages**.
-
-       - If you're working in Visual Basic, select **Show All Files** in the **Solution Explorer** toolbar to see the **References** node.
-       
-   2. Select the assembly that contains the class definitions for which you want to create stubs. For example, if you want to stub **DateTime**, select **System.dll**.
-
-   3. On the shortcut menu, select **Add Fakes Assembly**.
-
-3. In your tests, construct instances of the stub and provide code for its methods:
-
-    ### [C#](#tab/csharp)
-    ```csharp
-    [TestClass]
-    class TestStockAnalyzer
-    {
-        [TestMethod]
-        public void TestContosoStockPrice()
-        {
-          // Arrange:
-
-            // Create the fake stockFeed:
-            IStockFeed stockFeed =
-                 new StockAnalysis.Fakes.StubIStockFeed() // Generated by Fakes.
-                     {
-                         // Define each method:
-                         // Name is original name + parameter types:
-                         GetSharePriceString = (company) => { return 1234; }
-                     };
-
-            // In the completed application, stockFeed would be a real one:
-            var componentUnderTest = new StockAnalyzer(stockFeed);
-
-          // Act:
-            int actualValue = componentUnderTest.GetContosoPrice();
-
-          // Assert:
-            Assert.AreEqual(1234, actualValue);
-        }
-        ...
-    }
-    ```
-
-    ### [VB](#tab/vb)
-    ```vb
-    <TestClass()> _
-    Class TestStockAnalyzer
-
-        <TestMethod()> _
-        Public Sub TestContosoStockPrice()
-            ' Arrange:
-            ' Create the fake stockFeed:
-            Dim stockFeed As New StockAnalysis.Fakes.StubIStockFeed
-            With stockFeed
-                .GetSharePriceString = Function(company)
-                                           Return 1234
-                                       End Function
-            End With
-            ' In the completed application, stockFeed would be a real one:
-            Dim componentUnderTest As New StockAnalyzer(stockFeed)
-            ' Act:
-            Dim actualValue As Integer = componentUnderTest.GetContosoPrice
-            ' Assert:
-            Assert.AreEqual(1234, actualValue)
-        End Sub
-    End Class
-
-    ```
-    ---
-
-    The special piece of magic here is the class `StubIStockFeed`. For every interface in the referenced assembly, the Microsoft Fakes mechanism generates a stub class. The name of the stub class is derived from the name of the interface, with "`Fakes.Stub`" as a prefix, and the parameter type names appended.
-
-    Stubs are also generated for the getters and setters of properties, for events, and for generic methods. For more information, see [Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md).
-
-## Get started with shims
-
-(For a more detailed description, see [Use shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md).)
-
-Suppose your component contains calls to `DateTime.Now`:
-
-```csharp
-// Code under test:
-    public int GetTheCurrentYear()
-    {
-       return DateTime.Now.Year;
-    }
-```
-
-During testing, you would like to shim the `Now` property, because the real version inconveniently returns a different value at every call.
-
-To use shims, you don't have to modify the application code or write it in a particular way.
-
-1. **Add Fakes Assembly**
-
-     In **Solution Explorer**, open your unit test project's references and select the reference to the assembly that contains the method you want to fake. In this example, the `DateTime` class is in *System.dll*.  To see the references in a Visual Basic project, select **Show All Files**.
-
-     Select **Add Fakes Assembly**.
-
-2. **Insert a shim in a ShimsContext**
-
-    ### [C#](#tab/csharp)
-    ```csharp
-    [TestClass]
-    public class TestClass1
-    {
-            [TestMethod]
-            public void TestCurrentYear()
-            {
-                int fixedYear = 2000;
-
-                // Shims can be used only in a ShimsContext:
-                using (ShimsContext.Create())
-                {
-                  // Arrange:
-                    // Shim DateTime.Now to return a fixed date:
-                    System.Fakes.ShimDateTime.NowGet =
-                    () =>
-                    { return new DateTime(fixedYear, 1, 1); };
-
-                    // Instantiate the component under test:
-                    var componentUnderTest = new MyComponent();
-
-                  // Act:
-                    int year = componentUnderTest.GetTheCurrentYear();
-
-                  // Assert:
-                    // This will always be true if the component is working:
-                    Assert.AreEqual(fixedYear, year);
-                }
-            }
-    }
-    ```
-
-    ### [VB](#tab/vb)
-    ```vb
-    <TestClass()> _
-    Public Class TestClass1
-        <TestMethod()> _
-        Public Sub TestCurrentYear()
-            Using s = Microsoft.QualityTools.Testing.Fakes.ShimsContext.Create()
-                Dim fixedYear As Integer = 2000
-                ' Arrange:
-                ' Detour DateTime.Now to return a fixed date:
-                System.Fakes.ShimDateTime.NowGet = _
-                    Function() As DateTime
-                        Return New DateTime(fixedYear, 1, 1)
-                    End Function
-
-                ' Instantiate the component under test:
-                Dim componentUnderTest = New MyComponent()
-                ' Act:
-                Dim year As Integer = componentUnderTest.GetTheCurrentYear
-                ' Assert:
-                ' This will always be true if the component is working:
-                Assert.AreEqual(fixedYear, year)
-            End Using
-        End Sub
-    End Class
-    ```
-    ---
-
-    Shim class names are made up by prefixing `Fakes.Shim` to the original type name. Parameter names are appended to the method name. (You don't have to add any assembly reference to System.Fakes.)
-
-The previous example uses a shim for a static method. To use a shim for an instance method, write `AllInstances` between the type name and the method name:
-
-```vb
-System.IO.Fakes.ShimFile.AllInstances.ReadToEnd = ...
-```
-
-(There's no 'System.IO.Fakes' assembly to reference. The namespace is generated by the shim creation process. But you can use 'using' or 'Import' in the usual way.)
-
-You can also create shims for specific instances, for constructors, and for properties. For more information, see [Use shims to isolate your application from other assemblies for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md).
-
-## Using Microsoft Fakes in the CI
-
-### Microsoft Fakes Assembly Generation
-
-Since Microsoft Fakes requires Visual Studio Enterprise, the generation of Fakes Assemblies requires that you build your project using [Visual Studio Build Task](/azure/devops/pipelines/tasks/build/visual-studio-build?view=azure-devops&preserve-view=true).
-
-> [!NOTE]
-> An alternative to this is to check your Fakes Assemblies into the CI and use the [MSBuild Task](../msbuild/msbuild-task.md?view=vs-2019&preserve-view=true). When you do this, you need to ensure that you've an assembly reference to the generated Fakes assembly in your test project, similar to the following code snippet :
-
-```xml
-<Project Sdk="Microsoft.NET.Sdk">
-    <ItemGroup>
-        <Reference Include="FakesAssemblies\System.Fakes.dll"/>
-    </ItemGroup>
-</Project>
-```
-
-This reference is required to be added manually, specifically to SDK-style projects (.NET Core, .NET 5.0, and .NET Framework) because we've moved to implicitly adding assembly references to your test project. If you follow this method, you need to ensure the fakes assembly is updated when the parent assembly changes.
-
-### Running Microsoft Fakes tests
-
-As long as Microsoft Fakes assemblies are present in the configured `FakesAssemblies` directory (The default being `$(ProjectDir)FakesAssemblies`), you can run tests using the [vstest task](/azure/devops/pipelines/tasks/test/vstest?view=azure-devops&preserve-view=true).
-
-Distributed testing with the [vstest task](/azure/devops/pipelines/tasks/test/vstest?view=azure-devops&preserve-view=true) .NET Core and .NET 5.0 or later projects using Microsoft Fakes requires Visual Studio 2019 Update 9 Preview `20201020-06` and higher.
-
-## Transitioning your .NET Framework test projects that use Microsoft Fakes to SDK-style .NET Framework, .NET Core, or .NET 5.0 projects or later projects
+## Transitioning Microsoft Fakes in .NET Framework to SDK-Style Projects
+### Transitioning your .NET Framework test projects that use Microsoft Fakes to SDK-style .NET Framework, .NET Core, or .NET 5+ projects.
 
 You'll need minimal changes in your .NET Framework set up for Microsoft Fakes to transition to .NET Core or .NET 5.0. The cases that you would have to consider are:
 
@@ -300,7 +85,13 @@ You'll need minimal changes in your .NET Framework set up for Microsoft Fakes to
   ```
   This warning is because of necessary changes made in Fakes generation and can be ignored. It can be avoided by removing the assembly reference from the project file, because we now implicitly add them during the build.
 
-## Microsoft Fakes support 
+### Running Microsoft Fakes tests
+As long as Microsoft Fakes assemblies are present in the configured `FakesAssemblies` directory (The default being `$(ProjectDir)FakesAssemblies`), you can run tests using the [vstest task](/azure/devops/pipelines/tasks/test/vstest?view=azure-devops&preserve-view=true).
+
+Distributed testing with the [vstest task](/azure/devops/pipelines/tasks/test/vstest?view=azure-devops&preserve-view=true) .NET Core and .NET 5+ projects using Microsoft Fakes requires Visual Studio 2019 Update 9 Preview `20201020-06` and higher.
+
+## Compatibility and Support for Microsoft Fakes in Different .NET and Visual Studio Versions
+
 ### Microsoft Fakes in older projects targeting .NET Framework (non-SDK style).
 - Microsoft Fakes assembly generation is supported in Visual Studio Enterprise 2015 and higher.
 - Microsoft Fakes tests can run with all available Microsoft.TestPlatform NuGet packages.
@@ -312,6 +103,7 @@ You'll need minimal changes in your .NET Framework set up for Microsoft Fakes to
 - Microsoft Fakes tests for projects that target .NET Core and .NET 5.0 or later can run with Microsoft.TestPlatform NuGet packages with versions [16.9.0-preview-20210106-01](https://www.nuget.org/packages/Microsoft.TestPlatform/16.9.0-preview-20210106-01) and higher.
 - Code coverage is supported for test projects targeting .NET Framework using Microsoft Fakes in Visual Studio Enterprise version 2015 and higher.
 - Code coverage support for test projects targeting .NET Core and .NET 5.0 or later using Microsoft Fakes is available in Visual Studio 2019 update 9 and higher.
+
 
 ## In this section
 

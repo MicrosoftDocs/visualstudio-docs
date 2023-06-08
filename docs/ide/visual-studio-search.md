@@ -1,7 +1,7 @@
 ---
 title: Use Visual Studio search
 description: Learn to use Visual Studio search to find settings, menus, code, and more.
-ms.date: 02/24/2023
+ms.date: 05/10/2023
 ms.topic: how-to
 helpviewer_keywords:
 - environments [Visual Studio], navigation
@@ -30,7 +30,7 @@ The Visual Studio integrated development environment (IDE) has many menus, optio
 ::: moniker range="vs-2022"
 
 > [!TIP]
-> To learn more about current and upcoming changes to the search experience in Visual Studio 2022, see the [Better search in Visual Studio](https://devblogs.microsoft.com/visualstudio/sneak-peek-and-edit-your-code-while-you-search/) blog post.
+> To learn more about current and upcoming changes to the search experience in Visual Studio 2022, see the [Better search in Visual Studio](https://devblogs.microsoft.com/visualstudio/new-better-search-in-visual-studio/) blog post.
 
 ::: moniker-end
 

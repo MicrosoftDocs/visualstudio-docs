@@ -1,7 +1,7 @@
 ---
 title: "View threads in the debugger | Microsoft Docs"
 description: Use Threads to examine and control threads. You can group, sort, flag, freeze, thaw, and search for threads, select columns, and display call stacks. 
-ms.date: "10/29/2018"
+ms.date: "05/30/2023"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.threads"
@@ -32,6 +32,7 @@ ms.workload:
 In the **Threads** window, you can examine and work with threads in the application that you're debugging. For step-by-step guidance on how to use the **Threads** window, see [Walkthrough: Debug by using the Threads window](../debugger/how-to-use-the-threads-window.md).
 
 ## Use the Threads window
+
  The **Threads** window contains a table where each row describes a separate thread in your application. By default, the table lists all the threads in your application, but you can filter the list to show only the threads that interest you. Each column describes a different type of information. You can also hide some columns. If you display all the columns, the following columns appear, from left to right:
 
 - **Flag**: In this unlabeled column, you can mark a thread to which you want to pay special attention. For information about how to flag a thread, see [How to: Flag and unflag threads](../debugger/how-to-flag-and-unflag-threads.md).
@@ -69,6 +70,7 @@ In the **Threads** window, you can examine and work with threads in the applicat
 - In the toolbar at the top of the **Threads** window, select **Columns**. Then, select or clear the name of the column that you want to display or hide.
 
 ## Display flagged threads
+
  You can flag a thread that you want to give special attention by marking it with an icon in the **Threads** window. For more information, see [How to: Flag and Unflag threads](../debugger/how-to-flag-and-unflag-threads.md). In the **Threads** window, you can choose to display all the threads or only the flagged threads.
 
 ### To display only flagged threads
@@ -76,6 +78,7 @@ In the **Threads** window, you can examine and work with threads in the applicat
 - Choose **Show Flagged Threads Only** in the toolbar at the top of the **Threads** window. (If it's dimmed, you'll need to flag some threads first.)
 
 ## Freeze and thaw threads
+
  When you freeze a thread, the system won't start execution of the thread even if resources are available.
 
  In native code, you can suspend or resume threads by calling the Windows functions `SuspendThread` and `ResumeThread`. Or, call the MFC functions [CWinThread::SuspendThread](/cpp/mfc/reference/CWinThread-class#suspendthread) and [CWinThread::ResumeThread](/cpp/mfc/reference/CWinThread-class#resumethread). If you call `SuspendThread` or `ResumeThread`, the *suspended count* shown in the **Threads** window will be changed. The suspended count doesn't change if you freeze or thaw a native thread. A thread can't execute in native code unless it's thawed and has a suspended count of zero.
@@ -104,6 +107,7 @@ A yellow arrow indicates the current thread (and the location of the execution p
   - Right-click a thread and select **Switch To Thread**.
 
 ## Group and sort threads
+
  When you group threads, a heading appears in the table for each group. The heading contains a group description, such as **Worker Thread** or **Unflagged Threads**, and a tree control. The member threads of each group appear under the group heading. If you want to hide the member threads for a group, use the tree control to collapse the group.
 
  Because grouping takes precedence over sorting, you can group threads by category, for example, and then sort them by ID within each category.
@@ -135,6 +139,7 @@ A yellow arrow indicates the current thread (and the location of the execution p
 - In the toolbar at the top of the **Threads** window, select **Expand groups** or **Collapse groups**.
 
 ## Search for specific threads
+
  You can search for threads that match a specified string in the **Threads** window. When you search for threads, the window displays all the threads matching the search string in any column. This information includes the thread location that appears at the top of the call stack in the **Location** column. By default, the full call stack isn't searched.
 
 ### To search for specific threads
@@ -150,6 +155,7 @@ A yellow arrow indicates the current thread (and the location of the execution p
 2. (Optional) To include the full call stack in your search, select **Search Call Stack**.
 
 ## Display thread call stacks and switch between frames
+
 In a multithreaded program, each thread has its own call stack. The **Threads** window provides a convenient way to view these stacks.
 
 > [!TIP]
@@ -166,5 +172,6 @@ In a multithreaded program, each thread has its own call stack. The **Threads** 
 - In the toolbar at the top of the **Threads** window, select **Expand Call Stacks** or **Collapse Call Stacks**.
 
 ## See also
+
 - [Debug multithreaded applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
 - [Get started debugging multithreaded applications](../debugger/get-started-debugging-multithreaded-apps.md)

@@ -1,7 +1,7 @@
 ---
 title: "Create a Vue.js app"
 description: In this tutorial, learn how to create a simple Vue.js application in Visual Studio.
-ms.date: 02/28/2023
+ms.date: 05/26/2023
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
@@ -36,11 +36,13 @@ Make sure to install the following:
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project":::
 
-1. Search for Vue in the search bar at the top and then select **Standalone JavaScript Vue Template** or **Standalone TypeScript Vue Template**, based on your preference.
+1. Search for Vue in the search bar at the top and then select **Standalone JavaScript Vue Project** or **Standalone TypeScript Vue Project**, based on your preference.
 
    :::image type="content" source="media/vs-2022/vue-choose-standalone-template.png" alt-text="Screenshot showing choosing a template":::
 
-1. Give your project and solution a name.
+1. Give your project and solution a name, and then choose **Next**.
+
+1. Choose **Create**, and then wait for Visual Studio to create the project.
 
 ## View the project properties
 

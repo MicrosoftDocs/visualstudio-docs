@@ -66,6 +66,8 @@ To stop a monitoring session without creating a report, just close the diagnosti
 
 ![Stop Collection](../profiling/media/memory-usage-stop-collection.png "Stop Collection")
 
+If you have trouble collecting or displaying data, see [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md).
+
 ## Memory Usage reports
 
 After you stop data collection, the **Memory Usage** tool stops the app and displays the **Memory Usage** overview page.

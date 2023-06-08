@@ -1,7 +1,7 @@
 ---
 title: Debug a multithreaded app
 description: Debug using the Threads window and the Debug Location toolbar in Visual Studio
-ms.date: 02/14/2020
+ms.date: 05/30/2023
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -35,21 +35,25 @@ Create the following multithreaded app project to use in this tutorial:
 
    If the start window is not open, choose **File** > **Start Window**.
 
+   ::: moniker range=">=vs-2022"
+   On the start window, choose **New project**.
+   ::: moniker-end
+   ::: moniker range="vs-2019"
    On the start window, choose **Create a new project**.
+   ::: moniker-end
 
-   On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** or **C++** from the Language list, and then choose **Windows** from the Platform list. 
+   On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** or **C++** from the Language list, and then choose **Windows** from the Platform list.
 
-   After you apply the language and platform filters, choose the **Console App** for .NET Core or for C++, and then choose **Next**.
+   After you apply the language and platform filters, choose the **Console App** for .NET Core, .NET 5+, or C++, and then choose **Next**.
 
    > [!NOTE]
-   > If you don't see the correct template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET Core cross-platform development** or **Desktop development with C++** workload, then choose **Modify**.
+   > If you don't see the correct template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
 
-   In the **Configure your new project** window, type or enter *MyThreadWalkthroughApp* in the **Project name** box. Then, choose **Next** or **Create**, whichever option is available.
+   In the **Configure your new project** window, type a name or use the default name in the **Project name** box. Then, choose **Next** or **Create**, whichever option is available.
 
    For .NET Core, choose either the recommended target framework or .NET 6, and then choose **Create**.
 
-
-   A new console project appears. After the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called *Program.cs*, *MyThreadWalkthroughApp.cpp*, or *Module1.vb*.
+   A new console project appears. After the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called *Program.cs* or *MyThreadWalkthroughApp.cpp*.
 
 1. Replace the code in the source file with the C# or C++ example code from [Get started debugging multithreaded apps](../debugger/get-started-debugging-multithreaded-apps.md).
 

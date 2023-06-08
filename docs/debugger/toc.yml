@@ -36,8 +36,12 @@
     href: debugging-absolute-beginners.md
 - name: How-to guides
   items:
-  - name: Navigate through code with the debugger
-    href: navigating-through-code-with-the-debugger.md
+  - name: Navigate code
+    items:
+    - name: Navigate through code with the debugger
+      href: navigating-through-code-with-the-debugger.md
+    - name: Move the execution pointer
+      href: move-the-execution-pointer-with-the-debugger.md
   - name: Pause code
     items:
     - name: Use breakpoints

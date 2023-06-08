@@ -5,15 +5,15 @@ author: ghogen
 ms.author: ghogen
 ms.prod: vs-code
 ms.topic: tutorial
-ms.date: 03/04/2022
-ms.custom: template-tutorial, contperf-fy22q3
+ms.date: 05/31/2023
+ms.custom: template-tutorial
 
-# Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
+# Under agreement with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
 
 # Tutorial: Create multi-container apps with MySQL and Docker Compose
 
-In this tutorial, you'll learn how to create multi-container apps. This tutorial builds on the getting started tutorials, [Create and share a Docker app with Visual Studio Code](docker-tutorial.md).  In this advanced tutorial, you'll update your application to work as described in this diagram and learn how to:
+In this tutorial, you'll learn how to create multi-container apps. This tutorial builds on the getting started tutorials, [Get started with Docker and Visual Studio Code](docker-tutorial.md).  In this advanced tutorial, you'll update your application to work as described in this diagram and learn how to:
 > [!div class="checklist"]
 > - Start MySQL.
 > - Run your app with MySQL.
@@ -25,22 +25,20 @@ In this tutorial, you'll learn how to create multi-container apps. This tutorial
 Using multiple containers allows you to dedicate containers for specialized tasks.  Each container should do one thing and do it well.
 
 Here are some reasons you might want to use multi-container apps:
+
 - Separate containers you to manage APIs and front-ends differently than databases.
 - Containers let you version and update versions in isolation.
 - While you might use a container for the database locally, you may want to use a managed service for the database in production.
 - Running multiple processes requires a process manager, which adds complexity to container startup/shutdown.
 
-
-
-
 ## Prerequisites
 
-This tutorial continues the series of tutorials, starting with [Create and share a Docker app with Visual Studio Code](docker-tutorial.md).
+This tutorial continues the series of tutorials, starting with [Create a container app](docker-tutorial.md).
 Start with that one, which includes prerequisites.
 Then do these tutorials:
 
-- [Persist data and layer Docker app](tutorial-persist-data-layer-docker-app-with-vscode.md).
-- [Deploy your Docker app to the Azure cloud](tutorial-deploy-docker-app-azure.md).
+- [Persist data in your app](tutorial-persist-data-layer-docker-app-with-vscode.md).
+- [Deploy your Docker app to Azure](tutorial-deploy-docker-app-azure.md).
 
 You also need the following items:
 

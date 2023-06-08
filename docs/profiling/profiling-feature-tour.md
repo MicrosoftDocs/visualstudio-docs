@@ -33,7 +33,7 @@ There are several ways to diagnose performance issues when you’re working with
 
 In software engineering, a profiler is a tool used to help you analyze the performance of your applications to improve poorly performing code. Profiling and diagnostics tools help you diagnose memory and CPU usage and other application-level issues. With these tools, you can collect performance data while you run your application.
 
-A profiler can help you make informed decisions quickly by providing a visual depiction of execution times and CPU usage for your application. It’s much easier and quicker to understand issues and fix them when you can see a graph of the execution times or the CPU usage.
+A profiler can help you make informed decisions quickly by providing a visual depiction of execution times and CPU usage for your application. It’s much easier and quicker to understand issues and fix them when you can see a graph of the execution times or the CPU usage. For information on using the tools to help optimize your code, see [Reduce compute costs by using profiling tools](../profiling/optimize-code-using-profiling-tools.md).
 
 ## Measure performance while debugging
 

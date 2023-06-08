@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: dcd99e32-c9f3-4e19-8428-319dfa220463
-ms.date: 06/14/2022
+ms.date: 05/24/2023
 ms.topic: how-to
 description:  Learn about the Concierge Chat benefit included in Visual Studio subscriptions.
 
@@ -12,13 +12,13 @@ description:  Learn about the Concierge Chat benefit included in Visual Studio s
 
 # Concierge Chat in Visual Studio subscriptions
 
-The Concierge Chat service provides assistance finding product information and technical documentation as well as help with using your Visual Studio subscription benefits.
+The Concierge Chat service provides assistance finding product information and technical documentation and helps with using your Visual Studio subscription benefits.
 
 The service is available 24/7, and is currently offered in English only (for questions other than accounts, billing, and subscriptions).
 
 ## Activation steps
 
-Getting help via the Concierge Chat service is very easy.
+Getting help via the Concierge Chat service is easy.
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
 2. Locate the Concierge Chat tile in the Support section of the benefits page and select on **Chat now**.
@@ -27,9 +27,9 @@ Getting help via the Concierge Chat service is very easy.
 
 3. Select **Continue**.
 
-4. A chat window will open, and you'll see a counter showing your position in the queue.
+4. A chat window opens, and you see a counter showing your position in the queue.
 
-5. When an agent is available, the chat will start.
+5. When an agent is available, the chat starts.
     > [!div class="mx-imgBorder"]
     > ![Concierge Chat Session](_img/vs-concierge-chat/vs-concierge-chat-session.png "Screen shot of the chat window showing that an agent is being connected.")
 
@@ -50,7 +50,7 @@ Getting help via the Concierge Chat service is very easy.
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You need to sign in with that email address to see those subscriptions.
 
 ## Frequently asked questions
 
@@ -77,4 +77,4 @@ For more information about Microsoft tools and services, check out the documenta
 + [Azure DevOps](/azure/devops/)
 + [Visual Studio IDE](/visualstudio/)
 
-If you haven't already activated the Azure DevTest individual credit benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and select the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure DevTest individual credit.
+If you haven't already activated the Azure DevTest individual credit benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).  Select the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure DevTest individual credit.

@@ -2,9 +2,9 @@
 title: Visual Studio App Center benefit in Visual Studio subscriptions | Microsoft Docs
 author: evanwindom
 ms.author: amast
-manager: cabushcl
+manager: shve
 ms.assetid: badd1d4a-90a6-46de-a037-945a91e6019b
-ms.date: 06/30/2022
+ms.date: 05/23/2023
 ms.topic: how-to
 description:  Learn about the Visual Studio App Center benefit included in Visual Studio subscriptions.
 ---
@@ -22,15 +22,15 @@ App Center is mission control for apps.
 Getting started with Visual Studio App Center is easy.
 1. Sign in to [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs).
 
-2. Locate the Visual Studio App Center tile, and click **Get started**.
+2. Locate the Visual Studio App Center tile, and select **Get started**.
     > [!div class="mx-imgBorder"]
     > ![VS App Center Tile](_img/vs-app-center/vs-app-center-tile.png "Screenshot of the Visual Studio App Center tile.  Get started button is highlighted.")
 
-3. Next, create an account.  You can use existing accounts for Microsoft, Google, GitHub or Facebook to log in, or create a new account by providing your username, email, and password.  Select **Create account** to continue.
+3. Next, create an account.  You can use existing accounts for Microsoft, Google, GitHub or Facebook to sign in, or create a new account by providing your username, email, and password.  Select **Create account** to continue.
     > [!div class="mx-imgBorder"]
     > ![VS App Center Create Account](_img/vs-app-center/vs-app-center-create-account.png "Screenshot of the new account creation dialog showing choices for sign in methods.")
 
-4. That's all there is to it.  Just click **Add new organization** or **Add new app** to get started!
+4. You're done.  Select **Add new organization** or **Add new app** to get started!
     > [!div class="mx-imgBorder"]
     > ![VS App Center Portal](_img/vs-app-center/vs-app-center-portal.png "Screenshot of the confirmation dialog.  The Add new app button is selected.")
 
@@ -53,16 +53,16 @@ Getting started with Visual Studio App Center is easy.
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
+Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You need to sign in with that email address to see those subscriptions.
 
 ## Frequently asked questions
 
 ### Q:  I get an error that my browser is unsupported.  What's wrong?
 
-A:  App Center requires newer capabilities that may not be provided by some older browsers.  If your browser isn't supported, follow these steps:
+A:  App Center requires newer capabilities that some older browsers may not provide.  If your browser isn't supported, follow these steps:
 1. Open a different browser, such as Microsoft Edge or the latest versions of Google Chrome or Firefox, or Safari.
 2. Connect to the Visual Studio [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs) and sign in.
-3. Now click on the **Get started** link on the Visual Studio App Center tile.
+3. Now select on the **Get started** link on the Visual Studio App Center tile.
 
 You should now be able to access the App Center portal and create your account.
 

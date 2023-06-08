@@ -4,13 +4,13 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: fe826200-9600-4b29-a64e-0d66ba3caf3d
-ms.date: 07/21/2022
+ms.date: 05/23/2023
 ms.topic: conceptual
 description:  Understand how you can use Azure DevOps as a Visual Studio subscriber.
 ---
 # Azure DevOps for Visual Studio subscribers
 
-As an active Visual Studio subscriber, you can use a range of features in Azure DevOps that are included with your subscription. You'll be able to use these same features in each Azure DevOps organization in which you're a member, whether you created the organization or were added by someone else.
+As an active Visual Studio subscriber, you can use a range of features in Azure DevOps that are included with your subscription. You are able to use these same features in each Azure DevOps organization in which you're a member, whether you created the organization or someone else added you.
 
 ## Sign in
 
@@ -18,7 +18,7 @@ As an active Visual Studio subscriber, you can use a range of features in Azure 
    > ![Azure DevOps Tile](_img/vs-azure-devops/vs-azure-devops-tile.png "Screenshot of the Azure DevOps tile.  The Get started button is highlighted.")
 
    
-When you sign in to Azure DevOps using either the identity that you used for activating your Visual Studio subscription or your [alternate identity](vs-alternate-identity.md), we recognize this automatically.  This way you can also add the work or school account you use when logging into Visual Studio, Microsoft 365, or your corporate or school network.  You'll have access to Azure DevOps using both your personal account and your work or school account.
+When you sign in to Azure DevOps using either the identity that you used for activating your Visual Studio subscription or your [alternate identity](vs-alternate-identity.md), we recognize this automatically.  This way you can also add the work or school account you use when logging into Visual Studio, Microsoft 365, or your corporate or school network.  You have access to Azure DevOps using both your personal account and your work or school account.
 
 [Sign up for a free Azure DevOps organization](https://visualstudio.microsoft.com/team-services/)
 
@@ -43,13 +43,13 @@ When you sign in to Azure DevOps using either the identity that you used for act
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to you.
-If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You'll need to sign in with that email address to see those subscriptions.
+If you don't see all your subscriptions, you may have one or more assigned to a different email address.  You need to sign in with that email address to see those subscriptions.
 
 ## Frequently asked questions
 
-### Q: As a Visual Studio Enterprise subscriber, do I get additional parallel jobs for TFS and Azure Pipelines?
+### Q: As a Visual Studio Enterprise subscriber, do I get more parallel jobs for TFS and Azure Pipelines?
 
-A:  Yes. Visual Studio Enterprise subscribers get one parallel job in Team Foundation Server 2017 or later and one self-hosted parallel job in each Azure DevOps Services organization where they are a member.
+A:  Yes. Visual Studio Enterprise subscribers get one parallel job in Team Foundation Server 2017 or later and one self-hosted parallel job in each Azure DevOps Services organization where they're a member.
 
 ## Support resources
 

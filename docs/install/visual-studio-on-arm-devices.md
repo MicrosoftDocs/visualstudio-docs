@@ -1,7 +1,7 @@
 ---
 title: Visual Studio on ARM powered devices
 description: Recommendations for using Visual Studio on devices with ARM-based processors.
-ms.date: 06/14/2022
+ms.date: 11/30/2022
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -70,7 +70,7 @@ With the Visual Studio 2022 version 17.4 release, you can access the new native 
 
 | **Host architecture (platform the compiler is running on)** | **Target architecture (platform the compiler is generating binaries for)** | **Installation path** |
 | ----------- | ------ | --------------- |
-| Arm64 | Arm64 | \<Install location\>\VC\Tools\MSVC\<version>\bin\HostARM64\ARM64 |
+| Arm64 | Arm64 | \<Install location\>\VC\Tools\MSVC\\<version\>\bin\HostARM64\ARM64 |
 | Arm64 | X64 | \<Install location\>\VC\Tools\MSVC\\<version\>\bin\HostARM64\x64 |
 | Arm64 | X86 | \<Install location\>\VC\Tools\MSVC\\<version\>\bin\HostARM64\x86 |
 

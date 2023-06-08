@@ -6,7 +6,7 @@ keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.date: 02/21/2023
+ms.date: 05/16/2023
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
@@ -21,7 +21,7 @@ ms.topic: include
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
-Microsoft.VisualStudio.ComponentGroup.TestTools.TestController | Test Controller core features | 17.5.33306.270 | Required
+Microsoft.VisualStudio.ComponentGroup.TestTools.TestController | Test Controller core features | 17.6.33605.316 | Required
 
 ## Unaffiliated components
 

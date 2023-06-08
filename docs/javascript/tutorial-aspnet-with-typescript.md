@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with TypeScript"
 description: In this tutorial, you create an app using ASP.NET Core and TypeScript
-ms.date: 06/7/2022
+ms.date: 05/23/2023
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -65,7 +65,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 1. Create a new project.
 
     ::: moniker range=">=vs-2022"
-    In Visual Studio 2022, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project, and then choose **Next**.
+    In Visual Studio 2022, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web App (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project, and then choose **Next**.
 
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
     ::: moniker-end
@@ -174,7 +174,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
 1. Open the *Views/Shared* folder, and then open *_Layout.cshtml*.
 
-1. Add the following script reference before the call to `@RenderSection("Scripts", required: false)`:
+1. Add the following script reference before the call to `@RenderSectionAsync("Scripts", required: false)`:
 
     ```js
     <script src="~/js/app.js"></script>
@@ -215,6 +215,8 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
    > [!NOTE]
    > Chrome or Edge is required for client-side script debugging.
 
+1. When the page loads, press **Click Me**.
+
    The application pauses at the breakpoint. Now, you can inspect variables and use debugger features.
 
 ## Add TypeScript support for a third-party library
@@ -228,7 +230,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
    ```json
    "devDependencies": {
-      "@types/jquery": "3.3.33"
+      "@types/jquery": "3.5.1"
    }
    ```
 

@@ -70,7 +70,7 @@ Usually, the local machine best replicates installed app execution. To collect d
     ![Screenshot that shows Stop CPU Usage data collection.](../profiling/media/cpu-use-wt-stop-collection.png "Stop CPU Usage data collection")
     ::: moniker-end
 
-    The CPU Usage tool analyzes the data and displays the report.
+    The CPU Usage tool analyzes the data and displays the report. If you have trouble collecting or displaying data, see [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md).
 
     ::: moniker range=">=vs-2022"
     ![Screenshot that shows CPU Usage report.](../profiling/media/vs-2022/cpu-use-wt-report.png "CPU Usage report")

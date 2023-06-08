@@ -43,7 +43,7 @@ You may come across issues if you don't run the remote debugger as an administra
 
 ### When running the remote debugger as a service
 
-When running the remote debugger as s service, we recommend running it as an administrator for several reasons:
+When running the remote debugger as a service, we recommend running it as an administrator for several reasons:
 
 - The remote debugger service only allows connections from administrators, so there are **no** new security risks introduced by running it as an administrator.
 

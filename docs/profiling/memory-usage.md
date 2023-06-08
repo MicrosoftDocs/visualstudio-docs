@@ -117,7 +117,9 @@ If **Memory Usage** does not give you the data that you need, other profiling to
 
 9. Now, take another snapshot.
 
-     At this point, you can begin to analyze the data.
+   At this point, you can begin to analyze the data.
+
+   If you have trouble collecting or displaying data, see [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md).
 
 ## Analyze memory usage data
 The rows of Memory Usage summary table lists the snapshots that you have taken during the debugging session and provides links to more detailed views.

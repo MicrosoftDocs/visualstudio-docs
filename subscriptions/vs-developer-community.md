@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 44a790d1-f37e-4be0-9023-af1b3fdfcd35
-ms.date: 06/14/2022
+ms.date: 05/24/2023
 ms.topic: how-to
 ms.custom: kr2b-contr-experiment
 description:  Learn about the Developer Community Support benefit included in selected Visual Studio subscriptions.
@@ -34,7 +34,7 @@ You can search for answers, or view content in product areas such as:
 + Azure DevOps
 + Azure DevOps Server (TFS)
 
-Within each area, you'll find updates, problem reports, discussion of new features, and more. You can also report problems and request new features.  
+Within each area, there are updates, problem reports, discussion of new features, and more. You can also report problems and request new features.  
 
 ## Eligibility
 

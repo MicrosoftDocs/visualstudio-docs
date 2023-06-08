@@ -1,7 +1,7 @@
 ---
 title: Customizing Code Coverage Analysis
 description: Learn how to use the ExcludeFromCodeCoverageAttribute attribute to exclude test code from coverage results. You can include assemblies outside your solution.
-ms.date: 05/27/2022
+ms.date: 05/22/2023
 ms.topic: conceptual
 ms.author: mikejo
 manager: jmartens
@@ -29,17 +29,31 @@ To customize code coverage, follow these steps:
 1. Add a run settings file to your solution. In **Solution Explorer**, on the shortcut menu of your solution, choose **Add** > **New Item**, and select **XML File**. Save the file with a name such as *CodeCoverage.runsettings*.
 
    If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
-   
+
 2. Add the content from the example file at the end of this article, and then customize it to your needs as described in the sections that follow.
 
-3. To select the run settings file, on the **Test** menu, choose **Select Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file-from-the-command-line).
+3. Select a run settings file.
+
+   ::: moniker range=">=vs-2022"
+   Starting in Visual Studio 2019 version 16.4, you can autodetect a run settings file in the project root. Otherwise, on the **Test** menu, choose **Configure Run Settings**, and then choose **Select Solution Wide runsettings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file-from-the-command-line).
 
    When you select **Analyze Code Coverage**, the configuration information is read from the run settings file.
 
    > [!TIP]
    > Any previous code coverage results and code coloring aren't automatically hidden when you run tests or update your code.
 
-To turn the custom settings off and on, deselect or select the file on the **Test** menu.
+   To turn the custom settings off and on, deselect or select the file on the **Test** menu.
+   :::moniker-end
+   ::: moniker range="vs-2019"
+   To select the run settings file, on the **Test** menu, choose **Select Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file-from-the-command-line).
+
+   When you select **Analyze Code Coverage**, the configuration information is read from the run settings file.
+
+   > [!TIP]
+   > Any previous code coverage results and code coloring aren't automatically hidden when you run tests or update your code.
+
+   To turn the custom settings off and on, choose **Test**, **Configure Run Settings**, and deselect or select the file name.
+   :::moniker-end
 
 ## Symbol search paths
 

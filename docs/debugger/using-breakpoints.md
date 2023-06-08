@@ -311,9 +311,10 @@ Choose **Close** or press **Ctrl+Enter** to close the Breakpoint Settings window
 ![Dependent Breakpoint](../debugger/media/dbg-dependent-breakpoint.png "DependentBreakpoint")
 
 You can also use the right-click context menu to set the dependent breakpoint.
+
 1. Right-click in the far left margin next to a line of code and select **Insert Dependent Breakpoint** from the context menu.
 
-![Dependentbreakpoint context](../debugger/media/dbg_dependent-breakpoint-context.png "DependentBreakpointContext")
+   ![Dependentbreakpoint context](../debugger/media/dbg_dependent-breakpoint-context.png "DependentBreakpointContext")
 
 - Dependent breakpoints don't work if there is only a single breakpoint in your application. 
 - Dependent breakpoints are converted to normal line breakpoint if the prerequisite breakpoint is deleted. 
@@ -327,14 +328,15 @@ This breakpoint lets you break the code only once. When debugging, the Visual St
 1. Hover over the breakpoint symbol, choose the **Settings** icon, and then select **Remove breakpoint once hit** in the Breakpoint Settings window.
 2. Choose **Close** or press **Ctrl+Enter** to close the Breakpoint Settings window. Or, from the Breakpoints window, choose **OK** to close the dialog.
 
-![Temporary breakpoint](../debugger/media/dbg_temporary-breakpoint.png "TemporaryBreakpoint")
+   ![Temporary breakpoint](../debugger/media/dbg_temporary-breakpoint.png "TemporaryBreakpoint")
 
 You can also use the right-click context menu to set the temporary breakpoint.
+
 1. Right-click in the far left margin next to a line of code and select **Insert Temporary Breakpoint** from the context menu.
 
-![Temporary breakpoint context](../debugger/media/dbg_temporary-breakpoint-context.png "TemporaryBreakpointContext")
+   ![Temporary breakpoint context](../debugger/media/dbg_temporary-breakpoint-context.png "TemporaryBreakpointContext")
 
-or simply use the shortcut **F9 + Shift + Alt, T** and  set the temporary breakpoint on line desired.
+Or, simply use the shortcut **F9 + Shift + Alt, T** and  set the temporary breakpoint on line desired.
 ::: moniker-end
 
 ## <a name="BKMK_Specify_advanced_properties_of_a_breakpoint_"></a> Manage breakpoints in the Breakpoints window

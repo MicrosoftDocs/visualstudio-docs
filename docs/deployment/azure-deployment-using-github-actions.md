@@ -18,7 +18,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Starting in Visual Studio 2019 version 16.11, you can create new GitHub Action workflows for .NET projects hosted on GitHub.com.
+Starting in Visual Studio 2019 version 16.11, you can create new GitHub Actions workflows for .NET projects hosted on GitHub.com.
 
 ## How does it work?
 
