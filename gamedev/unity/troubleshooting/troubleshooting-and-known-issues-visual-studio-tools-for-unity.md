@@ -4,7 +4,7 @@ description: Read about troubleshooting in Visual Studio Tools for Unity. See de
 
 ms.date: "04/04/2022"
 ms.technology: vs-unity-tools
-ms.prod: visual-studio-dev16
+ms.prod: visual-studio
 ms.topic: troubleshooting
 ms.assetid: 8f5db192-8d78-4627-bd07-dbbc803ac554
 author: therealjohn
