@@ -4,7 +4,7 @@ description: Learn to customize project files created by Visual Studio Tools for
 
 ms.date: "04/19/2021"
 ms.technology: vs-unity-tools
-ms.prod: visual-studio-dev16
+ms.prod: visual-studio
 ms.topic: "conceptual"
 ms.assetid: 60b8cc1d-cacc-404d-b768-77e81bc354f8
 author: "conceptdev"
