@@ -73,18 +73,6 @@ When this option is selected and you double-click a project node in Solution Exp
 
 If you don't have this option selected and you want to edit a project file, right-click the project node in Solution Explorer and select **Edit Project File**. 
 
-::: moniker range="vs-2022"
-
-## Enable namespace update when moving files
-
-ADD RELEVANT INFO HERE
-
-### Prompt to update namespace when moving files
-
-When selected, Visual Studio displays a message box asking whether or not it should ... ADD RELEVANT INFO HERE
-
-::: moniker-end
-
 ## Enable symbolic renaming when renaming files
 
 When selected, you can rename all the references in a project to that of the code element. 
