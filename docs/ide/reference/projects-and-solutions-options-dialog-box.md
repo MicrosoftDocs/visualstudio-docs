@@ -35,7 +35,7 @@ When selected, **Solution Explorer** automatically opens and the active item is 
 > [!TIP]
 > If you disable this option, an easy way to navigate to the active document in Solution Explorer is by selecting **Sync with Active Document** on the **Solution Explorer** toolbar.
 >
-> ![Sync with active document in Solution Explorer](media/sync-active-document.png)
+> ![Screenshot of Sync with active document in Solution Explorer.](media/sync-active-document.png)
 
 ::: moniker range="vs-2019"
 
@@ -69,7 +69,7 @@ When selected, restores the state of nodes in Solution Explorer with respect to 
 
 ## Open project files with double-click or the Enter key
 
-When this option is selected and you double-click a project node in Solution Explorer or select it and then press **Enter**, the project file (for example, \*.csproj file) opens in the editor. When deselected, double-clicking a project node in Solution Explorer or selecting it and pressing **Enter** epands or collapses the node only.
+When this option is selected and you double-click a project node in Solution Explorer or select it and then press **Enter**, the project file (for example, \*.csproj file) opens in the editor. When deselected, double-clicking a project node in Solution Explorer or selecting it and pressing **Enter** expands or collapses the node only.
 
 If you don't have this option selected and you want to edit a project file, right-click the project node in Solution Explorer and select **Edit Project File**. 
 
