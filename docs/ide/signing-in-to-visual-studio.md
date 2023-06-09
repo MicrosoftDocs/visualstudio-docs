@@ -16,14 +16,9 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In this article, you'll learn:
-+ How to [sign in](#sign-in) with an account
-+ [The benefits to account sign in](#benefits)
-+ How to [add & switch accounts](#add-and-switch)
-+ How to [sign out of your account](#sign-out-of-your-account)
-+ How to [update your profile](#profile)
+In this article, you'll learn how to sign in to Visual Studio, the benefits to signing in, and how to add and switch user accounts.
 
-You can also get [subscription support](https://visualstudio.microsoft.com/subscriptions/support/) and search the FAQ to find answers to common support questions about subscriptions, accounts, and billing. 
+You can get subscription support and search the FAQ to find answers to common support questions about subscriptions, accounts, and billing [here](https://visualstudio.microsoft.com/subscriptions/support/).
 
 <a name="sign-in"></a>
 
