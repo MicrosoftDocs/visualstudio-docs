@@ -4,7 +4,7 @@ description: View the change log for Visual Studio Tools for Unity, Mac. See cha
 
 ms.date: "12/13/2022"
 ms.technology: vs-unity-tools
-ms.prod: visual-studio-dev16
+ms.prod: visual-studio
 ms.topic: "conceptual"
 ms.assetid: 33a6ac54-d997-4308-b5a0-af7387460849
 author: therealjohn

@@ -7,7 +7,7 @@ ms.date: 08/26/2022
 ms.topic: how-to
 ms.assetid: E2C9420F-A5D5-4472-9020-2B63FB27A133
 ms.technology: vs-unity-tools
-ms.prod: visual-studio-dev16
+ms.prod: visual-studio
 ms.custom: devdivchpfy22
 ms.workload:
   - "unity"
