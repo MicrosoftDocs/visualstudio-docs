@@ -32,4 +32,4 @@ The following table describes the versions of .NET Core supported by the stable 
 * When you use .NET Core 7.0, C# version 11 will be used by default. C# 10 is default when using .NET Core 6.x. See [C# language versioning](/dotnet/csharp/language-reference/configure-language-version) for more info.
 * For information on installing a preview version of Visual Studio for Mac, see the [Install a Preview Release](./install-preview.md) guide.
 
-You can find the the versions of .NET Core supported by Visual Studio 2019 for Mac [here](/previous-versions/visualstudio/mac/supported-versions-net).
+You can find the versions of .NET Core supported by Visual Studio 2019 for Mac [here](/previous-versions/visualstudio/mac/supported-versions-net).
