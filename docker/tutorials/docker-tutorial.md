@@ -134,8 +134,8 @@ A Dockerfile is a text-based script of instructions that is used to create a con
 1. Create a file named *Dockerfile* in the same folder as the file *package.json* with the following contents.
 
    ```dockerfile
-   FROM node:12-alpine
-   RUN apk add --no-cache python2 g++ make
+   FROM node:20-alpine
+   RUN apk add --no-cache python3 g++ make
    WORKDIR /app
    COPY . .
    RUN yarn install --production
