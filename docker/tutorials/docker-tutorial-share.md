@@ -103,14 +103,15 @@ To push an image, first, you need to create a repo on Docker Hub.
 
    ![Screenshot shows the Docker Hub page with a suggested Docker command.](media/push-command.png)
 
-1. In the Docker view of VS Code, under **IMAGES**, right-click the image tag, and select **Push**.
-   Select **Connect registry** and then **Docker Hub**.
+1. In VS Code, in the Docker view, under **REGISTRIES**, click the plug icon, to connect to a registry, and choose **Docker Hub**.
 
-   You'll need to enter your Docker Hub account, password, and a namespace.
+   Enter your Docker Hub account name and password.
 
-To push to Docker Hub by using the command line, use this procedure.
+1. In the Docker view of VS Code, under **IMAGES**, right-click the image tag, and select **Push**. Enter the namespace and the tag, or accept the defaults.
 
-1. Sign in to the Docker Hub:
+1. To push to Docker Hub by using the command line, use this procedure.
+
+   Sign in to the Docker Hub:
 
    ```bash
    docker login -u <username>

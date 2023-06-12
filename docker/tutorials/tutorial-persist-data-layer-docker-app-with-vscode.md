@@ -112,7 +112,7 @@ Refer to the name of the volume, and Docker provides the right data.
    docker volume create todo-db
    ```
 
-1. Under **CONTAINERS**, select **getting-start** and right-click. Select **Stop** to stop the app container.
+1. Under **CONTAINERS**, select **getting-started** and right-click. Select **Stop** to stop the app container.
 
    To stop the container from the command line, use the `docker stop` command.
 
@@ -195,7 +195,7 @@ To run your container to support a development workflow, you'll take the followi
 1. In the `app` folder, run the following command.
 
    ```bash
-   docker run -dp 3000:3000 -w /app -v ${PWD}:/app node:12-alpine sh -c "yarn install && yarn run dev"
+   docker run -dp 3000:3000 -w /app -v ${PWD}:/app node:20-alpine sh -c "yarn install && yarn run dev"
    ```
 
    This command contains the following parameters.
@@ -203,7 +203,7 @@ To run your container to support a development workflow, you'll take the followi
    - `-dp 3000:3000` Same as before. Run in detached mode and create a port mapping.
    - `-w /app` Working directory inside the container.
    - `-v ${PWD}:/app"` Bind mount the current directory from the host in the container into the `/app` directory.
-   - `node:12-alpine` The image to use. This image is the base image for your app from the *Dockerfile*.
+   - `node:20-alpine` The image to use. This image is the base image for your app from the *Dockerfile*.
    - `sh -c "yarn install && yarn run dev"` A command. It starts a shell using `sh` and runs `yarn install` to install all dependencies. Then it runs `yarn run dev`. If you look in the `package.json`, the `dev` script is starting `nodemon`.
 
 1. You can watch the logs using `docker logs`.
@@ -214,9 +214,10 @@ To run your container to support a development workflow, you'll take the followi
 
    ```output
    $ nodemon src/index.js
-   [nodemon] 1.19.2
+   [nodemon] 2.0.20
    [nodemon] to restart at any time, enter `rs`
-   [nodemon] watching dir(s): *.*
+   [nodemon] watching path(s): *.*
+   [nodemon] watching extensions: js,mjs,json
    [nodemon] starting `node src/index.js`
    Using sqlite database at /etc/todos/todo.db
    Listening on port 3000
