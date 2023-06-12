@@ -286,7 +286,7 @@ Once a layer changes, all downstream layers have to be recreated as well.
 Here's the *Dockerfile* again:
 
 ```dockerfile
-FROM node:12-alpine
+FROM node:20-alpine
 WORKDIR /app
 COPY . .
 RUN yarn install --production
@@ -304,7 +304,7 @@ The process only recreates the yarn dependencies if there was a change to the `p
    Here's the new file:
 
    ```dockerfile
-   FROM node:12-alpine
+   FROM node:20-alpine
    WORKDIR /app
    COPY package.json yarn.lock ./
    RUN yarn install --production
