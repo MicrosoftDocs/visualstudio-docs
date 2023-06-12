@@ -49,6 +49,16 @@ EnabledWhen =
     ActivationConstraint.ClientContext(ClientContextKey.Shell.ActiveEditorFileName, @"\.(jpg|jpeg|txt)$")),
 ```
 
+==> not command specific, but this could be 
+
+List the various contexts where activation constraints could be used:
+ExtensionConfiguration.LoadedWhen
+Command.EnabledWhen
+Command.VisibleWhen
+
+Reference command shortcut as a different way.
+
+
 Commands have other configuration properties with activation constraints as values. You can set them in the `CommandConfiguration` as shown previously, or override them in a command class. To override a property, declare it as follows in a command class:
 
 ```csharp
