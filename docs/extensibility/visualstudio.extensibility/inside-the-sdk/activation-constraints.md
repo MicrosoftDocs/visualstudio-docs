@@ -12,7 +12,7 @@ ms.technology: vs-ide-sdk
 
 # Rule-based activation constraints
 
-One of the common concepts in VisualStudio.Extensibility is use of context-based activation rules. These are rules that govern the conditions under which an extension is surfaced to the user. An example of a context-based activation rule is the [`VisibleWhen`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md#P-Microsoft-VisualStudio-Extensibility-Commands-CommandConfiguration-VisibleWhen) property in a command's configuration that declares when the command is made visible.
+One of the common concepts in VisualStudio.Extensibility is use of context-based activation rules. These are rules that govern the conditions under which an extension or a command is surfaced to the user. An example of a context-based activation rule is the [`VisibleWhen`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md#P-Microsoft-VisualStudio-Extensibility-Commands-CommandConfiguration-VisibleWhen) property in a command's configuration that declares when the command is made visible.
 
 ## Constraint types
 
@@ -49,25 +49,15 @@ EnabledWhen =
     ActivationConstraint.ClientContext(ClientContextKey.Shell.ActiveEditorFileName, @"\.(jpg|jpeg|txt)$")),
 ```
 
-==> not command specific, but this could be 
+## Activation constraint properties
 
-List the various contexts where activation constraints could be used:
-ExtensionConfiguration.LoadedWhen
-Command.EnabledWhen
-Command.VisibleWhen
+Currently, what you can control with activation constraints is the loading of an extension, and the enabled or visible state of a command. The configuration types contain property of type `ActivationConstraint`, typically with a `When` suffix that implies that something activates when the specified conditions are satisfied. The following properties are of type `ActivationConstraint`:
 
-Reference command shortcut as a different way.
-
-
-Commands have other configuration properties with activation constraints as values. You can set them in the `CommandConfiguration` as shown previously, or override them in a command class. To override a property, declare it as follows in a command class:
-
-```csharp
-internal abstract class CommentRemoverCommand : Microsoft.VisualStudio.Extensibility.Commands.Command
-{
-	protected static readonly ActivationConstraint CommandEnabledWhen = ActivationConstraint.ClientContext(ClientContextKey.Shell.ActiveSelectionFileName, @"\.(cs|vb|fs)$");
-    // ...
-}
-```
+| Property | Description |
+| - | - |
+| `ExtensionConfiguration.LoadedWhen` | Controls when is the extension loaded. |
+| `CommandConfiguration.EnabledWhen` | Controls when the command is enabled (becomes callable). A command that isn't enabled might appear as a grayed out UI item. |
+| `CommandConfiguration.VisibleWhen` | Controls when a command is visible in the IDE. For example, when the menu item or command button appears in the UI. |
 
 ## Activation constraint factory methods
 
@@ -103,7 +93,11 @@ The following table shows the possible solution states:
 | MultipleProject | Solution contains multiple projects. |
 | Building | Solution is building. |
 
-Solution states can sometimes be combined ???
+Activation constraints that correspond to solution states can be combined in the same way as any other activation constraints. For example, you can combine an activation constraint that specifies a `FullyLoaded` solution and a `SingleProject` solution to capture single-project solutions when they are fully loaded.
+
+```csharp
+this.EnabledWhen = And(ActivationConstraint.SolutionState(SolutionState.SingleProject), ActivationConstraint.SolutionState(SolutionState.FullyLoaded);
+```
 
 ## Client context keys
 
