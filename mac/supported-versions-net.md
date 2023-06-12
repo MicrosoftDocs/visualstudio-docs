@@ -21,7 +21,7 @@ The following table describes the versions of .NET Core supported by the stable 
 |-----------------------|---------------------------|----------------------------|----------------------------|----------------------------|
 |v3.1 |✔︎ |✔︎ |✔︎ |  |
 |v6.0 |✔︎ |✔︎ |✔︎ |✔︎ |
-|v7.0 |   | |✔︎ |✔︎ |
+|v7.0 |   |  |✔︎ |✔︎ |
 
 > [!IMPORTANT]
 > Preview versions of the .NET Core SDK are not supported; please update to the released version. When installing Visual Studio 2022 for Mac 17.5, the released version of .NET Core v7.0 will be installed.
