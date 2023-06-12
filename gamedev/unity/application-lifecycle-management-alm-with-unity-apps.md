@@ -3,7 +3,7 @@ title: "Application Lifecycle Management (ALM) with Unity Apps | Microsoft Docs"
 description: Understand application lifecycle management (ALM) with Unity Apps. Review Agile tools, model, code, build, test, and improve code quality.
 ms.date: 08/21/2018
 ms.technology: vs-unity-tools
-ms.prod: visual-studio-dev16
+ms.prod: visual-studio
 ms.topic: "conceptual"
 ms.assetid: 2dc61e63-9ba2-4c16-b1ad-f46249e576b6
 author: "conceptdev"
@@ -63,7 +63,7 @@ General Comment: Although these design features are either independent of coding
 
 Special considerations for version control with Unity:
 
-1. Unity tracks metadata about game assets in a single, opaque library that is hidden by default. To keep files and metadata in sync, it is necessary to make the metadata visible and to store it in more-manageable chunks. For details, refer to [Using External Version Control Systems with Unity](https://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html) (Unity documentation).
+1. Unity tracks metadata about game assets in a single, opaque library that is hidden by default. To keep files and metadata in sync, it is necessary to make the metadata visible and to store it in more-manageable chunks. For details, refer to [Using External Version Control Systems with Unity](https://docs.unity3d.com/2020.1/Documentation/Manual/ExternalVersionControlSystemSupport.html) (Unity documentation).
 
 2. Not all files and folders in a Unity project are appropriate for source control, as is also described in the link above. The Assets and ProjectSettings folders should be added, but the Library and Temp folders should not. For an additional list of generated files that would not go into source control, see the discussion [How to use Git for Unity3D source control?](https://stackoverflow.com/questions/18225126/how-to-use-git-for-unity3d-source-control) on StackOverflow. Many developers have also blogged on this subject independently.
 

@@ -54,6 +54,14 @@ For more information about the agreement you're viewing, select the second icon 
 > [!div class="mx-imgBorder"]
 > ![Visual Studio Subscriptions Admin Portal Details Page](_img/using-admin-portal/details-page.png "Screenshot of the agreement details dialog.  The agreement details button is highlighted.")
 
+## The Notification center 
+
+To view notifications related to portal announcements, newsletters, and more, select the bell icon on the upper right-hand corner. 
+
+Hover over a notification to dismiss an individual notification or select **Dismiss all** to clear the notification center. Some critical notifications may appear at the top of the center and will not be dismissible.  
+
+Navigate to the **Settings** wheel to set your preferences on the notifications you are interested in receiving. This will only reflect in the portal, and not in email notifications. 
+
 ## Resources
 
 + [Visual Studio licensing white paper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
