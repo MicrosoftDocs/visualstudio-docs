@@ -25,7 +25,7 @@ sections:
             
              Set a breakpoint. For more information, see [Using breakpoints](using-breakpoints.md).
 
-          - **Does your variable have an unexpected value, or do you want inspect your app when it reaches a specific state?**
+          - **Does your variable have an unexpected value, or do you want to inspect your app when it reaches a specific state?**
 
             Try a conditional breakpoint to control where and when a breakpoint gets activated by using conditional logic. Right-click on a breakpoint to add conditions. Set the condition to be true when the variable equals the unexpected value.  
             For more information, see [Breakpoint conditions](using-breakpoints.md#breakpoint-conditions).
