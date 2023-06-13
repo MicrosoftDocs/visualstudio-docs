@@ -35,10 +35,7 @@ Here are some reasons you might want to use multi-container apps:
 
 This tutorial continues the series of tutorials, starting with [Create a container app](docker-tutorial.md).
 Start with that one, which includes prerequisites.
-Then do these tutorials:
-
-- [Persist data in your app](tutorial-persist-data-layer-docker-app-with-vscode.md).
-- [Deploy your Docker app to Azure](tutorial-deploy-docker-app-azure.md).
+Then do the tutorial [Persist data in your app](tutorial-persist-data-layer-docker-app-with-vscode.md).
 
 You also need the following items:
 
@@ -123,6 +120,8 @@ In this example, you create the network first and attach the MySQL container at 
    5 rows in set (0.00 sec)
    ```
 
+1. Enter `exit` when you're ready to return to the terminal command prompt.
+
 ## Run your app with MySQL
 
 The todo app supports the setting of environment variables to specify MySQL connection settings.
@@ -154,7 +153,7 @@ This procedure starts your app and connects that container to your MySQL contain
       -e MYSQL_USER=root 
       -e MYSQL_PASSWORD=<your-password> 
       -e MYSQL_DB=todos 
-      node:12-alpine 
+      node:20-alpine 
       sh -c "yarn install && yarn run dev"
     ```
 
@@ -184,9 +183,10 @@ This procedure starts your app and connects that container to your MySQL contain
    docker exec -ti <mysql-container-id> mysql -p todos
    ```
 
-   And in the MySQL shell, run the following command.
+   And in the MySQL shell, run the following commands.
 
    ```sql
+   use todos;
    select * from todo_items;
    ```
 
@@ -249,7 +249,7 @@ They would only need to clone your repo.
      -e MYSQL_USER=root 
      -e MYSQL_PASSWORD=<your-password> 
      -e MYSQL_DB=todos 
-     node:12-alpine 
+     node:20-alpine 
      sh -c "yarn install && yarn run dev"
    ```
 
@@ -260,7 +260,7 @@ They would only need to clone your repo.
 
    services:
      app:
-       image: node:12-alpine
+       image: node:20-alpine
    ```
 
    You can pick any name for the service.
@@ -273,7 +273,7 @@ They would only need to clone your repo.
 
     services:
       app:
-        image: node:12-alpine
+        image: node:20-alpine
         command: sh -c "yarn install && yarn run dev"
     ```
 
@@ -284,7 +284,7 @@ They would only need to clone your repo.
 
     services:
       app:
-        image: node:12-alpine
+        image: node:20-alpine
         command: sh -c "yarn install && yarn run dev"
         ports:
           - 3000:3000
@@ -297,7 +297,7 @@ They would only need to clone your repo.
 
     services:
       app:
-        image: node:12-alpine
+        image: node:20-alpine
         command: sh -c "yarn install && yarn run dev"
         ports:
           - 3000:3000
@@ -315,7 +315,7 @@ They would only need to clone your repo.
 
     services:
       app:
-        image: node:12-alpine
+        image: node:20-alpine
         command: sh -c "yarn install && yarn run dev"
         ports:
           - 3000:3000
@@ -404,7 +404,7 @@ version: "3.7"
 
 services:
   app:
-    image: node:12-alpine
+    image: node:20-alpine
     command: sh -c "yarn install && yarn run dev"
     ports:
       - 3000:3000
@@ -449,10 +449,10 @@ Now that you have the `docker-compose.yml` file, try it.
    You should see output like the following results.
 
    ```output
-   Creating network "app_default" with the default driver
-   Creating volume "app_todo-mysql-data" with default driver
-   Creating app_app_1   ... done
-   Creating app_mysql_1 ... done
+   [+] Building 0.0s (0/0)
+   [+] Running 2/2
+   ✔ Container app-app-1    Started                                                                                                       0.9s 
+   ✔ Container app-mysql-1  Running
    ```
 
    The volume was created as well as a network.

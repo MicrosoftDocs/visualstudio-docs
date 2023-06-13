@@ -417,11 +417,10 @@ The final image is only the last stage being created, which can be overridden us
 
 ### React example
 
-When building React applications, you need a Node environment to compile the JavaScript code, SASS stylesheets, and more into static HTML, JavaScript, and CSS.
-If you aren't doing server-side rendering, you don't even need a Node environment for the production build.
+When building React applications, you need a Node environment to compile the JavaScript code, SASS stylesheets, and more into static HTML, JavaScript, and CSS. If you aren't doing server-side rendering, you don't even need a Node environment for the production build.
 
 ```dockerfile
-FROM node:12 AS build
+FROM node:20-alpine AS build
 WORKDIR /app
 COPY package* yarn.lock ./
 RUN yarn install
@@ -433,7 +432,7 @@ FROM nginx:alpine
 COPY --from=build /app/build /usr/share/nginx/html
 ```
 
-This example uses a `node:12` image to perform the build, which maximizes layer caching, and then copies the output into an *nginx* container.
+This example uses a `node:20` image to perform the build, which maximizes layer caching, and then copies the output into an *nginx* container.
 
 ## Clean up resources
 
@@ -446,4 +445,4 @@ You've learned about options to persist data for container apps.
 Next, try the next tutorial in this series:
 
 > [!div class="nextstepaction"]
-> [Deploy your Docker app to the Azure cloud](tutorial-deploy-docker-app-azure.md)
+> [Create multi-container apps with MySQL and Docker Compose](tutorial-multi-container-app-mysql.md)
