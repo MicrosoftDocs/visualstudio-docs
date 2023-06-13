@@ -205,7 +205,6 @@ Although this window is read-only, you can set breakpoints or bookmarks in it. T
 
 ::: moniker-end
 
-
 ### Code Definition shortcut menu
 
 The shortcut (or right-click) menu in the **Code Definition** window may contain the following commands:
