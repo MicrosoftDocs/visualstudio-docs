@@ -161,8 +161,8 @@ A Dockerfile is a text-based script of instructions that is used to create a con
 
 You've used the *Dockerfile* to build a new container image.
 You might have noticed that many "layers" were downloaded.
-The *Dockerfile* starts from the `node:12-alpine` image.
-Unless that is on your computer already, that image needed to be downloaded.
+The *Dockerfile* starts from the `node:20-alpine` image.
+Unless that image was on your computer already, that image needed to be downloaded.
 
 After the image was downloaded, the *Dockerfile* copies your application and uses `yarn` to install your application's dependencies.
 The `CMD` value in the *Dockerfile* specifies the default command to run when starting a container from this image.
