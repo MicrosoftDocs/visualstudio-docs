@@ -76,6 +76,8 @@
     href: about-benefits.md
   - name: Tools
     items:
+    - name: C# Dev Kit
+      href: vs-c-sharp-dev-kit.md    
     - name: Microsoft 365 apps for enterprise
       href: microsoft-365-apps-for-enterprise.md
     - name: Microsoft 365 developer
