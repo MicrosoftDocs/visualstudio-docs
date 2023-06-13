@@ -83,7 +83,7 @@ The connected service functionality adds all the needed references and connectio
 :::moniker range=">=vs-2022"
 
 > [!NOTE]
-> For .NET Framework projects, Connected Services UI is slightly different. To see the differences, compare to the [Visual Studio 2019 version of this page](./azure-cosmosdb-add-connected-service.md?view=vs-2019).
+> For .NET Framework projects, Connected Services UI is slightly different. To see the differences, compare to the [Visual Studio 2019 version of this page](./azure-cosmosdb-add-connected-service.md?view=vs-2019&preserve-view=true).
 
 1. Open your project in Visual Studio.
 

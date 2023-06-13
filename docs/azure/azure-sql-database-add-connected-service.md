@@ -38,9 +38,6 @@ The connected service functionality adds all the needed references and connectio
 
 ## Connect to Azure SQL Database using Connected Services
 
-> [!NOTE]
-> For .NET Framework projects, Connected Services UI is slightly different. To see the differences, compare to the [Visual Studio 2019 version of this page](./azure-sql-database-add-connected-service.md?view=vs-2019).
-
 1. Open your project in Visual Studio.
 
 1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add** to open the menu of available services.
@@ -145,7 +142,7 @@ For convenience, this command lets you jump to the SQL Server Object Explorer, s
 
 ## Next steps
 
-You can continue with the quickstarts for Azure SQL database, but instead of starting from the beginning, you can start after the initial connection is set up. If you're using Entity Framework, you can start at [Add the code to connect to Azure SQL Database](/azure/azure-sql/database/azure-sql-dotnet-entity-framework-core-quickstart?view=azuresql&tabs=visual-studio%2Cservice-connector%2Cportal#add-the-code-to-connect-to-azure-sql-database). If you're using `SqlClient` or ADO.NET data classes, you can start at [Add the code to connect to Azure SQL Database](/azure/azure-sql/database/azure-sql-dotnet-quickstart?view=azuresql&tabs=visual-studio%2Cpasswordless%2Cservice-connector%2Cportal#add-the-code-to-connect-to-azure-sql-database).
+You can continue with the quickstarts for Azure SQL database, but instead of starting from the beginning, you can start after the initial connection is set up. If you're using Entity Framework, you can start at [Add the code to connect to Azure SQL Database](/azure/azure-sql/database/azure-sql-dotnet-entity-framework-core-quickstart?view=azuresql&preserve-view=true&tabs=visual-studio%2Cservice-connector%2Cportal#add-the-code-to-connect-to-azure-sql-database). If you're using `SqlClient` or ADO.NET data classes, you can start at [Add the code to connect to Azure SQL Database](/azure/azure-sql/database/azure-sql-dotnet-quickstart?view=azuresql&preserve-view=true&tabs=visual-studio%2Cpasswordless%2Cservice-connector%2Cportal#add-the-code-to-connect-to-azure-sql-database).
 
 Your code won't exactly match what is used in the quickstarts, which use a different way of getting the connection string. The connection strings are secrets and are securely stored as explained in [Safe storage of app secrets in development in ASP.NET Core](/aspnet/core/security/app-secrets?tabs=windows). In particular, to read the connection string from the secrets store, you can add code as in [Read the secret via the configuration API](/aspnet/core/security/app-secrets?tabs=windows#read-the-secret-via-the-configuration-api). In ASP.NET Core projects, the connection string created by Connected Services is available in a configuration object. You can access it by a property on the `WebApplicationBuilder` class (`builder` in many project templates), as in the following example:
 

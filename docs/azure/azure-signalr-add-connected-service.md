@@ -87,7 +87,7 @@ The connected service functionality adds all the needed references and connectio
 ## Connect to Azure SignalR using Connected Services
 
 > [!NOTE]
-> For .NET Framework projects, Connected Services UI is slightly different. To see the differences, compare to the [Visual Studio 2019 version of this page](./azure-signalr-add-connected-service.md?view=vs-2019).
+> For .NET Framework projects, Connected Services UI is slightly different. To see the differences, compare to the [Visual Studio 2019 version of this page](./azure-signalr-add-connected-service.md?view=vs-2019&preserve-view=true).
 
 1. Open your project in Visual Studio.
 

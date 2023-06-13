@@ -87,7 +87,7 @@ The connected service functionality adds all the needed references and connectio
 ## Connect to Azure Application Insights using Connected Services
 
 > [!NOTE]
-> For .NET Framework projects, Connected Services UI is slightly different. To see the differences, compare to the [Visual Studio 2019 version of this page](./azure-app-insights-add-connected-service.md?view=vs-2019).
+> For .NET Framework projects, Connected Services UI is slightly different. To see the differences, compare to the [Visual Studio 2019 version of this page](./azure-app-insights-add-connected-service.md?view=vs-2019&preserve-view=true).
 
 1. Open your project in Visual Studio.
 
@@ -145,7 +145,7 @@ The connected service functionality adds all the needed references and connectio
 
 For ASP.NET Core projects, learn how you can enable monitoring for your app at [Application Insights for ASP.NET Core applications](/azure/azure-monitor/app/asp-net-core?tabs=netcorenew%2Cnetcore6#run-your-application).
 
-For ASP.NET projects, see [Configure Application Insights for your ASP.NET website](/azure/azure-monitor/app/asp-ne#add-client-side-monitoring).
+For ASP.NET projects, see [Configure Application Insights for your ASP.NET website](/azure/azure-monitor/app/asp-net#add-client-side-monitoring).
 
 The links take you to the section of the articles after the initial setup steps, which you've already done.
 
