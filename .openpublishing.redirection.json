@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docker/tutorials/tutorial-deploy-docker-app-azure.md",
+      "redirect_url": "/visualstudio/docker/tutorials/docker-tutorial",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/dotfuscator/capabilities.md",
       "redirect_url": "/visualstudio/ide/dotfuscator/index",
       "redirect_document_id": false

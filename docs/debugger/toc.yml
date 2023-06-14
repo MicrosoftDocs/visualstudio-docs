@@ -8,6 +8,8 @@
     href: debugger-feature-tour.md
   - name: Debugging techniques and tools
     href: write-better-code-with-visual-studio.md
+  - name: Debugger feature finder
+    href: find-your-debugging-task.yml
 - name: Quickstarts
   items:
   - name: Debug a C# or Visual Basic app
@@ -810,7 +812,3 @@
         href: thread-properties-dialog-box.md
       - name: About Spy++ dialog box
         href: about-microsoft-spy-increment.md
-- name: Resources
-  items:
-  - name: FAQ - Find your debugging feature
-    href: find-your-debugging-task.yml

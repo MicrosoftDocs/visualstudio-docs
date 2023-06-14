@@ -4,7 +4,7 @@ description: "Quickstart: Learn how to connect Unity and Visual Studio for cross
 ms.date: 08/26/2022
 ms.custom: kr2b-contr-experiment, devdivchpfy22
 ms.technology: vs-unity-tools
-ms.prod: visual-studio-dev16
+ms.prod: visual-studio
 ms.topic: quickstart
 ms.assetid: 66b5b4eb-13b5-4071-98d2-87fafa4598a8
 author: "therealjohn"

@@ -1,7 +1,7 @@
 ---
 title: "Debug .NET apps in Linux using WSL"
 description: Learn to run and debug your .NET apps in WSL without leaving Visual Studio.
-ms.date: "09/09/2022"
+ms.date: "06/06/2023"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugging, linux"
@@ -200,3 +200,16 @@ Supported tokens:
 
 >[!NOTE]
 > All paths are for WSL not Windows.
+
+## Pass a command line argument
+
+Use the `commandLineArgs` setting to pass a command line argument to WSL in the launch profile.
+
+In the following example, you pass two arguments to a DLL project named ConsoleApp.
+
+```json
+"WSL": {
+  "commandName": "WSL",
+  "commandLineArgs": "\"{OutDir}/ConsoleApp.dll\" arg1 arg2"
+}
+```

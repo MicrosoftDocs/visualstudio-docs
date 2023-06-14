@@ -4,7 +4,7 @@ description: Learn to use Visual Studio Tools for Unity's integration and produc
 
 ms.date: "12/10/2021"
 ms.technology: vs-unity-tools
-ms.prod: visual-studio-dev16
+ms.prod: visual-studio
 ms.topic: how-to
 ms.assetid: e67ec9a2-a449-413e-8930-9a471bd43a06
 author: therealjohn
