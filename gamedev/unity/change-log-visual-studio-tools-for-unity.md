@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows) | Microsoft Docs"
 description: View the change log for Visual Studio Tools for Unity, Windows. See changes from version 1.0.0.0 through 4.7.0.0 and beyond.
-ms.date: "12/12/2022"
+ms.date: "6/14/2023"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio
 ms.topic: "conceptual"
@@ -15,6 +15,41 @@ ms.workload:
 # Change log (Visual Studio Tools for Unity, Windows)
 
 Visual Studio Tools for Unity change log.
+
+## 17.6.1.0
+Released May 22, 2023
+
+### New Features
+
+- **Debugging:**
+
+  - Added support for "Step Into Specific".
+
+## 17.6.0.0
+Released May 16, 2023
+
+### Bug fixes
+
+- **Debugging:**
+
+  - Fixed an issue when using 'nq' format specifier with 'DebuggerDisplayAttribute'.
+
+  - Fixed a debugging issue with packages (related to symbol and relative file paths).
+
+## 17.5.1.0
+Released Feb 28, 2023
+
+### New Features
+
+- **Integration:**
+
+  - Added [`USP0020`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0020.md), The Unity runtime invokes Unity messages.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed [`UNT0033`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0033.md) to support all `OnPostprocessAllAssets` overloads.
 
 ## 17.5.0.0 
 Released December 13, 2022
