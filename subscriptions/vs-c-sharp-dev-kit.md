@@ -27,7 +27,7 @@ C# Dev Kit borrows some familiar concepts from Visual Studio to bring a more pro
 + The [IntelliCode for C# Dev Kit extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp) (optional), which brings AI-powered development to the editor.
 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot showing the C# Dev Kit extension relationship](_img/vs-c-sharp-dev-kit/extension-relationship.png "Screenshot showing the C# Dev Kit extension relationship")
+   > ![Screenshot showing the C# Dev Kit extension relationship.](_img/vs-c-sharp-dev-kit/extension-relationship.png "Screenshot showing the C# Dev Kit extension relationship")
 
 ## Learn more about the C# Dev Kit
 If you'd like to learn more about the C# Dev Kit, check out these resources:
