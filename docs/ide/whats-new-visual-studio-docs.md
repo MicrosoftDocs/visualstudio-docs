@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 05/04/2023
+ms.date: 06/13/2023
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -20,6 +20,136 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
+
+## May 2023
+
+### Debugger
+
+**New articles**
+
+- [Move the execution pointer to change the execution flow in the debugger](../debugger/move-the-execution-pointer-with-the-debugger.md)
+
+**Updated articles**
+
+- Update multithreaded debugging info:
+  - [Walkthrough: Debug a multithreaded app using the Threads window (C#, Visual Basic, C++)](../debugger/how-to-use-the-threads-window.md) 
+  - [Using the Tasks Window (C#, Visual Basic, C++)](../debugger/using-the-tasks-window.md)
+- Update Parallel Stacks info:
+  - [View the call stack and use the Call Stack window in the debugger](../debugger/how-to-use-the-call-stack-window.md)
+  - [View threads and tasks in the Parallel Stacks window (C#, Visual Basic, C++)](../debugger/using-the-parallel-stacks-window.md)
+  - [Walkthrough: Debugging a Parallel Application in Visual Studio (C#, Visual Basic, C++)](../debugger/walkthrough-debugging-a-parallel-application.md)
+- [Navigate through code by using the Visual Studio debugger](../debugger/navigating-through-code-with-the-debugger.md) - Update text and links
+- [Attach to running processes with the Visual Studio debugger](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) - Add Edge updates for Attach to Process
+- [Getting Started (Debug Interface Access SDK)](../debugger/debug-interface-access/getting-started-debug-interface-access-sdk.md) - Update DIA SDK filepaths and DLL names
+
+### Extensibility
+
+**New articles**
+
+Documentation for the VisualStudio.Extensibility SDK, currently in preview, were migrated from the [VS Extensibility GitHub repo](https://github.com/Microsoft/VSExtensibility), as follows:
+
+- [Add Visual Studio commands](../extensibility/visualstudio.extensibility/command/command.md)
+- [Metadata localization overview](../extensibility/visualstudio.extensibility/command/localize-metadata.md)
+- [Menus and Toolbars overview](../extensibility/visualstudio.extensibility/command/menus-and-toolbars.md)
+- [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md)
+- [Create Visual Studio dialogs](../extensibility/visualstudio.extensibility/dialog/dialog.md)
+- [Extend Visual Studio documents](../extensibility/visualstudio.extensibility/document/documents.md)
+- [Editor extensibility concepts](../extensibility/visualstudio.extensibility/editor/editor-concepts.md)
+- [Editor RPC support](../extensibility/visualstudio.extensibility/editor/editor-rpc.md)
+- [Use Visual Studio editor extensibility](../extensibility/visualstudio.extensibility/editor/editor.md)
+- [Create your first Visual Studio extension](../extensibility/visualstudio.extensibility/get-started/create-your-first-extension.md)
+- [Create your first VSSDK-compatible VisualStudio.Extensibility extension](../extensibility/visualstudio.extensibility/get-started/in-proc-extensions.md)
+- [Introduction to VisualStudio.Extensibility for VS SDK users](../extensibility/visualstudio.extensibility/get-started/oop-extensibility-model-overview.md)
+- [Create a simple extension](../extensibility/visualstudio.extensibility/get-started/tutorial-create-simple-extension.md)
+- [VisualStudio.Extensibility SDK](../extensibility/visualstudio.extensibility/index.yml)
+- [Rule-based activation constraints](../extensibility/visualstudio.extensibility/inside-the-sdk/activation-constraints.md)
+- [Tutorial: Advanced remote UI](../extensibility/visualstudio.extensibility/inside-the-sdk/advanced-remote-ui.md)
+- [Contributions and Configurations](../extensibility/visualstudio.extensibility/inside-the-sdk/contributions-and-configurations.md)
+- [Components of a VisualStudio.Extensibility extension](../extensibility/visualstudio.extensibility/inside-the-sdk/extension-anatomy.md)
+- [Inside Visual Studio Extensibility SDK](../extensibility/visualstudio.extensibility/inside-the-sdk/inside-the-sdk.md)
+- [Logging extension diagnostics](../extensibility/visualstudio.extensibility/inside-the-sdk/logging.md)
+- [Why Remote UI](../extensibility/visualstudio.extensibility/inside-the-sdk/remote-ui.md)
+- [Write to the Visual Studio output window](../extensibility/visualstudio.extensibility/output-window/output-window.md)
+- [Project query API concepts](../extensibility/visualstudio.extensibility/project/project-concepts.md)
+- [Query the project API](../extensibility/visualstudio.extensibility/project/project.md)
+- [Create Visual Studio tool windows](../extensibility/visualstudio.extensibility/tool-window/tool-window.md)
+- [Create Visual Studio user prompts](../extensibility/visualstudio.extensibility/user-prompt/user-prompts.md)
+- [About VisualStudio.Extensibility (Preview)](../extensibility/visualstudio.extensibility/visualstudio-extensibility.md)
+
+### Get started
+
+**Updated articles**
+
+- [Tutorial: Create your first Universal Windows Platform application in Visual Studio with XAML and C&#35;](../get-started/csharp/tutorial-uwp.md) - Update text and links
+- [What is Visual Studio?](../get-started/visual-studio-ide.md) - Revise overview article per feedback
+
+### IDE
+
+**New articles**
+
+- [What is Sticky Scroll for Visual Studio?](../ide/editor-sticky-scroll.md)
+
+**Updated articles**
+
+- Update text and links:
+  - [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md)
+  - [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md)
+- [Sign in to Visual Studio on Windows](../ide/signing-in-to-visual-studio.md) - Restructure the article
+- [Options dialog box: Text Editor \> General](../ide/reference/options-text-editor-general.md) - Add new Brace Pair Colorization & Sticky Scroll info
+- [Learn about the Spell Checker](../ide/text-spell-checker.md) - Remove preview tags and update with recent changes & examples
+
+### Install
+
+**Updated articles**
+
+- [Use command-line parameters to install, update, and manage Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md) - Add reference to winget configure using VS.DSC file
+
+### MSBuild
+
+**Updated articles**
+
+- [Property functions](../msbuild/property-functions.md) - Review and update info
+
+### Profiling
+
+**New articles**
+
+- [Reduce compute costs by using profiling tools to optimize code (C#, Visual Basic, C++, F#)](../profiling/optimize-code-using-profiling-tools.md)
+
+**Updated articles**
+
+- [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md) - Add info on ETW (Event Tracing for Windows) resource issues when profiling
+
+### Test
+
+**Updated articles**
+
+- Apply documentation improvements:
+  - [Code generation, compilation, and naming conventions in Microsoft Fakes](../test/code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md)
+  - [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)
+  - [Use shims to isolate your app for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md)
+  - [Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md)
+  - [Configure unit tests by using a *.runsettings* file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)
+- [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md) - Update settings info
+
+### Version control
+
+**Updated articles**
+
+- [How Visual Studio makes version control easy with Git](../version-control/git-with-visual-studio.md) - add new Performance & Productivity Enhancements section
+
+### Community contributors
+
+The following people contributed to Visual Studio content in May. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
+
+- [AraHaan](https://github.com/AraHaan) - Ara Haan ![There were 1 pull requests merged by .](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [Fjarik](https://github.com/Fjarik) - Jiri Falta ![There were 1 pull requests merged by Jiri Falta.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [heh-ad](https://github.com/heh-ad) - Helmes He ![There were 1 pull requests merged by Helmes He.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [hyoshioka0128](https://github.com/hyoshioka0128) - Hiroshi Yoshioka ![There were 1 pull requests merged by Hiroshi Yoshioka.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [MatthewSteeples](https://github.com/MatthewSteeples) - Matthew Steeples ![There were 1 pull requests merged by Matthew Steeples.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [mavaddat](https://github.com/mavaddat) - Mavaddat Javid ![There were 1 pull requests merged by Mavaddat Javid.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [pd-jam](https://github.com/pd-jam) -  ![There were 1 pull requests merged by .](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [XuZhixuan](https://github.com/XuZhixuan) - Xu Zhixuan ![There were 1 pull requests merged by f(x,z)=xzx.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 
 ## April 2023
 
@@ -83,16 +213,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [Which performance tool should I use? (C#, Visual Basic, C++, F#)](../profiling/choose-performance-tool.md) - Update info about choosing your performance tool
-
-### Community contributors
-
-The following people contributed to Visual Studio content in April. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
-
-- [jrdodds](https://github.com/jrdodds) - Jonathan Dodds (1)
-- [kmgallahan](https://github.com/kmgallahan) - Kevin Gallahan (1)
-- [robinhood2014](https://github.com/robinhood2014) - Brandon Taylor (1)
-- [soroosh-chabi](https://github.com/soroosh-chabi) - Soroosh Chabi (1)
-- [Tim-Maes](https://github.com/Tim-Maes) - Tim Maes (1)
 
 ## March 2023
 
@@ -181,96 +301,3 @@ The following people contributed to Visual Studio content in April. Thank you! T
 **New articles**
 
 - [XAML Hot Reload and its impact on performance diagnostic in Visual Studio](../xaml-tools/xaml-hot-reload-impact-performance.md)
-
-## February 2023
-
-### Data tools
-
-**Updated articles**
-
-- [Create a database and add tables in Visual Studio](../data-tools/create-a-sql-database-by-using-a-designer.md) - Update and add clarifications
-
-### Debugger
-
-**Updated articles**
-
-- [How to: Enable and disable Edit and Continue (C#, VB, C++)](../debugger/how-to-enable-and-disable-edit-and-continue.md) - Update configuration commands, Spy++ docs
-- [Inspect an exception using the Exception Helper](../debugger/exception-helper.md) - Add info to view exception stack frames in the call stack window
-- [View the call stack and use the Call Stack window in the debugger](../debugger/how-to-use-the-call-stack-window.md) - Add info to view exception stack frames in the call stack window
-
-### Designers
-
-**Updated articles**
-
-- [Disable DPI-awareness to fix HDPI / scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md) - Add 'What is DPI and why does it matter' section, plus other updates
-
-### Extensibility
-
-**Updated articles**
-
-- [Walkthrough: Publish a Visual Studio extension](../extensibility/walkthrough-publishing-a-visual-studio-extension.md) - Update to the 'Remove the extension' steps
-
-### Get started
-
-**New articles**
-
-- [Tutorial: Create your first Windows App SDK application in Visual Studio with XAML and C&#35;](../get-started/csharp/tutorial-wasdk.md)
-
-**Updated articles**
-
-- [Welcome to the Visual Studio IDE | Visual Basic](../get-started/visual-basic/visual-studio-ide.md) - Update text, links, and screenshots
-
-### IDE
-
-**New articles**
-
-- [Learn about the Text Spell Checker (Preview)](./text-spell-checker.md)
-
-**Updated articles**
-
-- [JavaScript IntelliSense](./javascript-intellisense.md) - Update content related to JavaScript IntelliSense language service
-- [Find references in your code](./finding-references.md) - Add 'Clear All Filters' info to the 'Filter By Reference Type' section
-- [How to: Manage editor modes](./how-to-manage-editor-modes.md) - Update the View.FullScreen keyboard shortcut
-- [Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)](./work-with-multi-factor-authentication.md) - Add troubleshooting steps
-
-### Install
-
-**Updated articles**
-
-- Update for the [17.5](/visualstudio/releases/2022/release-notes-v17.5) release:
-  - [Use command-line parameters to install, update, and manage Visual Studio](../install/use-command-line-parameters-to-install-visual-studio.md)
-  - [Command-line parameter examples for Visual Studio installation](../install/command-line-parameter-examples.md)
-  - [Create, maintain, and deploy a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
-  - [Create an offline installation package of Visual Studio for local installation](../install/create-an-offline-installation-of-visual-studio.md)
-  - [Import or export installation configurations](../install/import-export-installation-configurations.md)
-
-### JavaScript
-
-**Updated articles**
-
-- Update React, Angular, and Vue with ASP.NET Core for the [17.5](/visualstudio/releases/2022/release-notes-v17.5) release:
-  - [Tutorial: Create an ASP.NET Core app with React in Visual Studio](../javascript/tutorial-asp-net-core-with-react.md)
-  - [Tutorial: Create an ASP.NET Core app with Angular in Visual Studio](../javascript/tutorial-asp-net-core-with-angular.md)
-  - [Tutorial: Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md)
-
-### MSBuild
-
-**New articles**
-
-- [Fix intermittent build failures](../msbuild/fix-intermittent-build-failures.md)
-
-**Updated articles**
-
-- [Customize your build](../msbuild/customize-your-build.md) - Add code example and discussion of where to set properties
-
-### Profiling
-
-**Updated articles**
-
-- [Which performance tool should I use? (C#, Visual Basic, C++, F#)](../profiling/choose-performance-tool.md) - Clarify content on when to use performance tools
-
-### Test
-
-**Updated articles**
-
-- [Use the MSTest framework in unit tests](../test/using-microsoft-visualstudio-testtools-unittesting-members-in-unit-tests.md) - Add documentation for the DeploymentItem attribute
