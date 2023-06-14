@@ -33,6 +33,7 @@ Released May 16, 2023
 - **Debugging:**
 
   - Fixed an issue when using 'nq' format specifier with 'DebuggerDisplayAttribute'.
+
   - Fixed a debugging issue with packages (related to symbol and relative file paths).
 
 ## 17.5.1.0
