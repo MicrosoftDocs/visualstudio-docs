@@ -28,8 +28,8 @@ To get started using the Azure Dev/Test credits included in your subscription, v
 | MSDN Platforms | $100 monthly credit | Yes |
 | Visual Studio Enterprise - NFR* | $150 monthly credit | Yes |
 | Visual Studio Enterprise - FTE | $150 monthly credit | Yes |
-| Visual Studio Enterprise - Microsoft Partner Network | $150 monthly credit | Yes |
-| Visual Studio Professional - Microsoft Partner Network | Not available | |
+| Visual Studio Enterprise - Microsoft Cloud Partner Program | $150 monthly credit | Yes |
+| Visual Studio Professional - Microsoft Cloud Partner Program | Not available | |
 | Visual Studio Enterprise – Imagine (Standard) | Not available | |
 | Visual Studio Enterprise – Imagine (Premium) | Not available | |
 | Visual Studio Enterprise – BizSpark | $150 monthly credit | Yes |
