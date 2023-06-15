@@ -19,9 +19,9 @@
     - name: Microsoft Partner Network
       items:
       - name: Subscriptions for partners
-        href: program-mpn.md
+        href: program-mcpp.md
       - name: Manage subscriptions for MPN
-        href: manage-mpn-subscriptions.md
+        href: manage-mcpp-subscriptions.md
     - name: Microsoft for Startups
       href: program-startups.md
   - name: Get started with a new subscription
