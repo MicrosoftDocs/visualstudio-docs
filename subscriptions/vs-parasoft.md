@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 00c1f300-d04e-4695-815e-775ffbf0f931
-ms.date: 05/23/2023
+ms.date: 06/15/2023
 ms.topic: how-to
 description:  Learn how to activate the Parasoft Virtualize/SOA Test Professional subscription included in your Visual Studio subscription.
 ---
@@ -73,7 +73,7 @@ Test earlier and more often.  Simulate and test the behavior of unavailable evol
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | NA |
 ||
 
-\*  *Includes: Microsoft Partner Network (Enterprise).  
+\*  *Includes: Microsoft Cloud Partner Program (Enterprise).  
 Excludes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  MCT Software & Services, NFR Basic*
 
 > [!NOTE]

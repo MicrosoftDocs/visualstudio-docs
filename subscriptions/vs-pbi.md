@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 383fc910-3f4c-474a-a3f8-0f13525f05e9
-ms.date: 05/23/2023
+ms.date: 06/15/2023
 ms.topic: how-to
 description:  Learn about the Power BI Pro subscription included with selected Visual Studio subscriptions.
 ---
@@ -68,7 +68,7 @@ To use Power BI Pro, you need to set up an account or sign in using an existing 
 | Visual Studio Enterprise (monthly cloud) | Azure | Not available | NA |
 ||
 
-\*  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Most Valuable Professional (MVP), Regional Director (RD).  Excludes:  Microsoft Partner Network (MPN), FTE, Imagine, NFR Basic.*
+\*  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Service, Most Valuable Professional (MVP), Regional Director (RD).  Excludes:  Microsoft Cloud Partner Program, FTE, Imagine, NFR Basic.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
