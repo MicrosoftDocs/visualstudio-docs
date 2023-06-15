@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 5bba2205-d32f-413d-9b58-724a24993842
-ms.date: 05/24/2023
+ms.date: 06/15/2023
 ms.topic: how-to
 description:  Learn about the LinkedIn Learning benefit included in selected Visual Studio subscriptions.
 ---
@@ -81,7 +81,7 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 | MSDN Platforms (Standard) | VL, Retail | Not available | NA |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | NA |
 
-\*  *Excludes:  Visual Studio Dev Essentials, NFR, NFR Basic, Visual Studio Industry Partner, Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  MCT Software & Services.*
+\*  *Excludes:  Visual Studio Dev Essentials, NFR, NFR Basic, Visual Studio Industry Partner, Microsoft Cloud Partner Program, FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  MCT Software & Services.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.

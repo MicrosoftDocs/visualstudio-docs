@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: c4b13464-76be-40f1-ad60-ed79ee264b12
-ms.date: 04/03/2023
+ms.date: 06/15/2023
 ms.topic: how-to
 description: In this article, you learn how to download and install the Visual Studio IDE that's included in your Visual Studio subscription.
 ---
@@ -71,7 +71,7 @@ Here's how to download and install the IDE for your version of Visual Studio. We
 | Visual Studio Test Professional (Standard) | All | Not available | N/A |
 | MSDN Platforms (Standard) | All | Not available | N/A |
 
-\*  Includes the following subscriptions: *Not for Resale (NFR), NFR Basic, Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD)*. Excludes the following subscriptions: *MCT Software & Services*.
+\*  Includes the following subscriptions: *Not for Resale (NFR), NFR Basic, Visual Studio Industry Partner (VSIP), Microsoft Cloud Partner Program, FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD)*. Excludes the following subscriptions: *MCT Software & Services*.
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional annual subscriptions and Visual Studio Enterprise annual subscriptions in cloud subscriptions. If you're a current customer, there is no change to your ability to renew, increase, decrease, or cancel your subscription. If you're a new customer, we encourage you to go to the [Buy Visual Studio](https://visualstudio.microsoft.com/vs/pricing/) page to explore the various purchase options.
