@@ -16,7 +16,7 @@ ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
-# Learn Productivity Tips and Tricks for the Debugger in Visual Studio
+# Learn productivity tips and tricks for the debugger in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -126,7 +126,7 @@ If you need to save a dump file, select select **Debug > Save Dump As**.
 
 To analyze a dump file, choose **File > Open** in Visual Studio. To start debugging using the dump file, select **Debug with Managed Only**, **Debug with Native Only**, **Debug with Mixed**, or **Debug with Managed Memory**.
 
-For more information, see [Dump files](using-dump-files.md)
+For more information, see [Dump files](using-dump-files.md).
 
 ## Break into code on handled exceptions
 
@@ -151,7 +151,7 @@ By changing the execution flow, you can do things like test different code execu
 
 If you need to debug the kinds of issues that are common to multithreaded apps, it often helps to view the location of threads while debugging. You can do this easily using the **Show Threads in Source** button.
 
-#### To show threads in your source code
+To show threads in your source code:
 
 1. While debugging, click the **Show Threads in Source** button ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker") in the **Debug** toolbar.
 
