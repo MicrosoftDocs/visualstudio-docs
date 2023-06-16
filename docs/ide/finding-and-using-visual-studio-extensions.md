@@ -21,14 +21,14 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-[Extensions](../extensibility/index.yml)are code packages that run inside Visual Studio and provide new or improved features. Extensions can be controls, samples, templates, tools, or other components that add functionality to Visual Studio, for example, [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs) or [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs).
+[**Extensions**](../extensibility/index.yml) are code packages that run inside Visual Studio and provide new or improved features. Extensions can be controls, samples, templates, tools, or other components that add functionality to Visual Studio, for example, [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs) or [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs).
 
 ::: moniker range="vs-2022"
 
 For information about creating Visual Studio extensions, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md). For information about using extensions, see the individual extension page on [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs). And for information about finding extensions, see the [Where Are My Favorite Extensions in Visual Studio 2022?](https://devblogs.microsoft.com/visualstudio/where-are-my-favorite-extensions-in-visual-studio-2022/) blog post.
 
 > [!NOTE]
-> To learn more about upcoming changes to the Extensibility space, see the [Build Better Extensions with VisualStudio.Extensibility Preview 3!](https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility-preview-3/) blog post.
+> To learn more about a new extensibility model currently in preview, see the [Build Better Extensions with VisualStudio.Extensibility (Preview 3)](https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility-preview-3/) blog post.
 
 ::: moniker-end
 
