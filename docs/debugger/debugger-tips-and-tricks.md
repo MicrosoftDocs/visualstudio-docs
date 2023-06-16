@@ -62,9 +62,11 @@ If it is difficult or time-consuming to recreate a particular state in your app,
 
 For C#, Visual Basic, and C++ (C++/CLI code only), you can tell the debugger what information to show using the [DebuggerDisplay](../debugger/using-the-debuggerdisplay-attribute.md) attribute. For C++ code, you can do the same using [Natvis visualizations](create-custom-views-of-native-objects.md).
 
-## <a name="BKMK_reattach"></a> Reattach to a process
+## Attach to the same application repeatedly
 
 You can quickly reattach to processes that you were previously attached to by choosing **Debug** > **Reattach to Process** (**Shift**+**Alt**+**P**). When you choose this command, the debugger will immediately try to attach to the last processes you attached to by first attempting to match the previous process ID and if that fails, by matching to the previous process name. If no matches are found, or if several processes have the same name, the **Attach to Process** dialog box will open so you can select the correct process.
+
+For more information, see [Reattach to a process](attach-to-running-processes-with-the-visual-studio-debugger.md#BKMK_reattach)
 
 ## Change the execution flow
 
@@ -72,7 +74,7 @@ With the debugger paused on a line of code, use the mouse to grab the yellow arr
 
 ![Move the Execution Pointer](../debugger/media/dbg-tour-move-the-execution-pointer.gif "Move the Execution Pointer")
 
-By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger.
+By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger. For more information, see [Move the exeuction pointer](../debugger/move-the-execution-pointer-with-the-debugger.md).
 
 > [!WARNING]
 > Often you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer cannot revert your app to an earlier application state.
@@ -161,10 +163,7 @@ To find out how the debugger classifies code as user code, see [Just My Code](..
 
 ## Analyze memory usage
 
-If you need to optimize memory usage, find a memory leak, or create a heap dump, see:
-
-- [Choose a memory analysis tool](../profiling/analyze-memory-usage.md).
-- [Create a dump file](#create-a-dump-file)
+If you need to optimize memory usage or find a memory leak, see [Choose a memory analysis tool](../profiling/analyze-memory-usage.md).
 
 ## Create a dump file
 
