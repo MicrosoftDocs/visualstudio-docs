@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 588480a3-8806-4ea5-9915-c25974770069
-ms.date: 05/23/2023
+ms.date: 06/15/2023
 ms.topic: how-to
 description:  Learn about the Windows Developer Account included with your Visual Studio subscription.
 ---
@@ -53,7 +53,7 @@ We recommend that you create a "private" browser window for this process.  For e
 ||
 
 \*  *Includes:  Not for Resale (NFR), FTE, Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, Most Valuable Professional (MVP), Regional Director (RD).
-Excludes:  Microsoft Partner Network (MPN), Imagine, MCT Software & Services, NFR Basic.*
+Excludes:  Microsoft Cloud Partner Program, Imagine, MCT Software & Services, NFR Basic.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.

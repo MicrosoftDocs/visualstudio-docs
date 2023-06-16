@@ -25,7 +25,11 @@ sections:
             
              Set a breakpoint. For more information, see [Using breakpoints](using-breakpoints.md).
 
+<<<<<<< HEAD
           - **Does your variable have an unexpected value, or do you want inspect your app when it reaches a specific state?**
+=======
+          - **Does your variable have an unexpected value, or do you want to inspect your app when it reaches a specific state?**
+>>>>>>> a84ae3c1cf49bbb566a054b942971f1372002c0d
 
             Try a conditional breakpoint to control where and when a breakpoint gets activated by using conditional logic. Right-click on a breakpoint to add conditions. Set the condition to be true when the variable equals the unexpected value.  
             For more information, see [Breakpoint conditions](using-breakpoints.md#breakpoint-conditions).
@@ -154,7 +158,7 @@ sections:
            - **Need to analyze memory usage for native or managed applications?**
           
              Use the Visual Studio memory tool via live debugging, heap dumps, or the performance profiler.  
-             See [Measure memory usage](how-to-use-the-call-stack-window.md).
+             See [Choose a memory analysis tool](../profiling/analyze-memory-usage.md).
 
            - **Want to analyze memory usage for native or managed applications without attaching a debugger?**
              Use the Visual Studio performance profiler with the memory usage tool enabled.  
@@ -163,7 +167,7 @@ sections:
            - **Want to compare memory usage between two points in time?**
              
              Compare snapshots in the memory tool or compare two heap dumps using the diff functionality.
-             See [Measure memory usage](how-to-use-the-call-stack-window.md).
+             See [Analyze memory usage](../profiling/memory-usage-without-debugging2.md).
 
       - question: |
           External Code Debugging

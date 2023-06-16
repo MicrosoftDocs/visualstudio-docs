@@ -155,6 +155,21 @@ Sometimes, app developers ship apps without the matching symbol files (to reduce
 
 To find out how the debugger classifies code as user code, see [Just My Code](../debugger/just-my-code.md). To find out more about symbol files, see [Specify symbol (.pdb) and source files in the Visual Studio debugger](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
+## Analyze memory usage
+
+If you need to optimize memory usage, find a memory leak, or create a heap dump, see:
+
+- [Choose a memory analysis tool](../profiling/analyze-memory-usage.md).
+- [Create a dump file](../debugger/using-dump-files.md)
+
+## Create a dump file
+
+If you need to save a dump file, select select **Debug > Save Dump As**.
+
+To analyze a dump file, choose **File > Open** in Visual Studio. To start debugging, select **Debug with Managed Only**, **Debug with Native Only**, **Debug with Mixed**, or **Debug with Managed Memory**.
+
+For more information, see [Dump files](using-dump-files.md)
+
 ## Learn more
 
 For additional tips and tricks and more detailed information, see these blog posts:

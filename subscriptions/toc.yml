@@ -16,12 +16,12 @@
         href: vscloud-billing-faq.yml
       - name: Buying for CSPs
         href: vscloud-csp.md
-    - name: Microsoft Partner Network
+    - name: Microsoft Cloud Partner Program
       items:
       - name: Subscriptions for partners
-        href: program-mpn.md
-      - name: Manage subscriptions for MPN
-        href: manage-mpn-subscriptions.md
+        href: program-mcpp.md
+      - name: Manage subscriptions for Microsoft Cloud Partner Program
+        href: manage-mcpp-subscriptions.md
     - name: Microsoft for Startups
       href: program-startups.md
   - name: Get started with a new subscription
@@ -76,6 +76,8 @@
     href: about-benefits.md
   - name: Tools
     items:
+    - name: C# Dev Kit
+      href: vs-c-sharp-dev-kit.md    
     - name: Microsoft 365 apps for enterprise
       href: microsoft-365-apps-for-enterprise.md
     - name: Microsoft 365 developer
