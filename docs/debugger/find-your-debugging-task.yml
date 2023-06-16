@@ -21,21 +21,21 @@ sections:
       - question: |
           Breakpoints
         answer: |
-          - **Pause running code to inspect a line of code that may contain a bug**
+          - **How do I pause running code to inspect a line of code that may contain a bug?**
             
              Set a breakpoint. For more information, see [Using breakpoints](using-breakpoints.md).
 
-          - **Does your variable have an unexpected value, or do you want to inspect your app when it reaches a specific state?**
+          - **Does my variable have an unexpected value. Or, do I want to inspect my app when it reaches a specific state?**
 
              Try a conditional breakpoint to control where and when a breakpoint gets activated by using conditional logic. Right-click on a breakpoint to add conditions. Set the condition to be true when the variable equals the unexpected value.  
             
              For more information, see [Breakpoint conditions](using-breakpoints.md#breakpoint-conditions).
 
-          - **Need to log information to the Output window under configurable conditions without modifying or stopping your code?**
+          - **How do I log information to the Output window under configurable conditions without modifying or stopping my code?**
               
              Tracepoints allow you to log information to the Output window under configurable conditions without modifying or stopping your code.          
                     
-          -  **Want to know when the value of your variable changes?**
+          -  **How do I know when the value of my variable changes?**
           
              For C++, set a [data breakpoint](using-breakpoints.md#BKMK_set_a_data_breakpoint_native_cplusplus). 
              ::: moniker range=">= vs-2019"
@@ -44,27 +44,27 @@ sections:
           
              Otherwise, for C# and F# only, you can [track an object ID with a conditional breakpoint](using-breakpoints.md#using-object-ids-in-breakpoint-conditions-c-and-f).
           
-          - **Want to break execution only if another breakpoint is hit?**
+          - **How do I break execution only if another breakpoint is hit?**
           
             Set a Dependent Breakpoint that breaks execution only if another breakpoint is first hit. For more information, see [Dependent Breakpoint](using-breakpoints.md#Set-a-dependent-breakpoint).
 
-          - **Want the breakpoint to hit only once?**
+          - **Can I hit a breakpoint only once?**
  
             Set a temporary breakpoint which lets you break the code only once. For more information, see [Temporary Breakpoint](using-breakpoints.md#Set-a-Temporary-breakpoint).
           
-          - **Want to pause code inside a loop at a certain iteration?**
+          - **Can I pause code inside a loop at a certain iteration?**
           
             Set a Dependent breakpoint that breaks execution only if another breakpoint is first hit. For more information, see [Hit count](using-breakpoints.md#set-a-hit-count-condition).
           
-          - **Want to pause code at the start of a function when you know the function name but not its location?**
+          - **How can I pause code at the start of a function when I know the function name but not its location?**
           
             You can do this with a function breakpoint. For more information, see [Set function breakpoints](using-breakpoints.md#BKMK_Set_a_breakpoint_in_a_source_file).
           
-          - **Want to pause code at the start of multiple functions with the same name?**
+          - **How can I pause code at the start of multiple functions with the same name?**
           
             When you have multiple functions with the same name (overloaded functions or functions in different projects), you can use a [function breakpoint](using-breakpoints.md#BKMK_Set_a_breakpoint_in_a_source_file).
           
-          - **Manage and keep track of your breakpoints**
+          - **Manage and keep track of my breakpoints**
           
             Use the **Breakpoints** window. For more information, see [Manage breakpoints](using-breakpoints.md#BKMK_Specify_advanced_properties_of_a_breakpoint_).
           
@@ -83,17 +83,17 @@ sections:
       - question: |
           Navigate code
         answer: |
-          - **Learn the commands to step through your code while debugging**
+          - **How can I learn the commands to step through my code while debugging?**
           
             For more information, see [Navigate code with the debugger](navigating-through-code-with-the-debugger.md).
 
-          - **Need to run the code to a particular line while skipping breakpoints without removing or disabling them?**
+          - **Can I run the code to a particular line while skipping breakpoints without removing or disabling them?**
             
             You can use “Force Run To Cursor” for these scenarios. You can keep your breakpoints and the debugger will skip over them until it reaches the line of code with the cursor. 
             It will also skip any of the first-chance exceptions break conditions that may occur. 
             For more information, see [Navigate code with the debugger](navigating-through-code-with-the-debugger.md#force-run-to-a-cursor-location).
 
-          - **Does your line of code have calls to different methods and you need to step into a specific method?**
+          - **If my line of code has calls to different methods, can I step into a specific method?**
             
             Right-click on the line of code to bring up a context menu that allows you to select ‘Step Into Specific’. This will show a list of all the methods that you could step into. 
             You can now select the method of interest.  
@@ -101,20 +101,20 @@ sections:
       - question: |
           Inspect and Visualize data
         answer: |
-          - **Want to check the value of variables while running your app?**
+          - **How can I check the value of variables while running my app?**
           
             Hover over variables using [data tips](view-data-values-in-data-tips-in-the-code-editor.md) or [inspect variables in the Autos and Locals window](autos-and-locals-windows.md).
           
-          - **Observe the changing value of a specific variable**
+          - **Can I observe the changing value of a specific variable?**
           
             Set a watch on the variable. For more information, see [Set a watch on variables](watch-and-quickwatch-windows.md).
           
-          - **Need to view strings that are too long for the debugger window?**
+          - **How can I view strings that are too long for the debugger window?**
           
             String Visualizer shows strings that are too long for a data tip or debugger window. It can also help you identify malformed strings.  
             Built-in [string visualizer](view-strings-visualizer.md)  in Visual Studio include Text, XML, HTML, and JSON options.
                                 
-          - **Need to view large collection objects?**
+          - **How can I view large collection objects?**
           
             The DataSet Visualizer allows you to view the contents of a DataSet, DataTable, DataView, or DataViewManager. 
             The IEnumerable Visualizer allows you to view objects such as Arrays, List, etc.
@@ -124,11 +124,11 @@ sections:
       - question: |
           Debug an app that is already running
         answer: |
-          - **Need to debug running apps on local or remote computers, debug multiple processes simultaneously, debug apps that weren't created in Visual Studio, or debug any app you didn't start from Visual Studio?**  
+          - **How can I debug running apps on local or remote computers, debug multiple processes simultaneously, debug apps that weren't created in Visual Studio, or debug any app I didn't start from Visual Studio?**  
            
              See [Attach to a running processes](attach-to-running-processes-with-the-visual-studio-debugger.md).
 
-          - **Need to attach to the same application repeatedly?** 
+          - **How can I to attach to the same application repeatedly?** 
             
              You can use **Reattach to Process** (**Shift+Alt+P**) to easily allow you to start debugging your application in one click without needing to go through the Attach to Process dialog every time.
              See [Reattach to a process](attach-to-running-processes-with-the-visual-studio-debugger.md#BKMK_reattach)
@@ -136,32 +136,32 @@ sections:
       - question: |
           Debug multithreaded applications
         answer: |
-          - **Want to debug a multi-threaded application? or is your application in a hung state?**
+          - **How can I debug a multi-threaded application? Or, is my application in a hung state?**
 
             See [Parallel Stacks window](using-the-parallel-stacks-window.md) further troubleshooting
 
-          - **Want to view the order in which functions are called?**
+          - **How can I view the order in which functions are called?**
 
             See [How to view the call stack](how-to-use-the-call-stack-window.md).
        
       - question: |
           Analyze memory
         answer: |
-           - **Does your application have a memory leak?**   
+           - **Does my application have a memory leak?**   
 
              Take a snapshot and open it with memory tool to troubleshoot further.
              See [Measure memory usage](../profiling/memory-usage.md).
 
-           - **Need to analyze memory usage for native or managed applications?**
+           - **How can I analyze memory usage for native or managed applications?**
           
              Use the Visual Studio memory tool via live debugging, heap dumps, or the performance profiler.  
              See [Choose a memory analysis tool](../profiling/analyze-memory-usage.md).
 
-           - **Want to analyze memory usage for native or managed applications without attaching a debugger?**
+           - **How can I analyze memory usage for native or managed applications without attaching a debugger?**
              Use the Visual Studio performance profiler with the memory usage tool enabled.  
              See [Analyze memory usage](../profiling/memory-usage-without-debugging2.md).
 
-           - **Want to compare memory usage between two points in time?**
+           - **Can I compare memory usage between two points in time?**
              
              Compare snapshots in the memory tool or compare two heap dumps using the diff functionality.
              See [Analyze memory usage](../profiling/memory-usage-without-debugging2.md).
@@ -169,27 +169,27 @@ sections:
       - question: |
           External Code Debugging
         answer: |
-          - **Want to see only user code while debugging?**
+          - **Can I see only user code while debugging?**
   
             Just My Code is a Visual Studio debugging feature that automatically steps over calls to system, framework, and other non-user code. 
             In the Call Stack window, Just My Code collapses these calls into [External Code] frames. 
             See [Debug only user code with Just My Code](just-my-code.md)
 
-          - **Need to view or debug the raw assembly instructions that your program is executing?** 
+          - **How can I view or debug the raw assembly instructions that my program is executing?** 
           
             Use the Disassembly Window from Debug > Windows > Disassembly. You can step over one instruction at a time and even set breakpoints on individual assembly instructions.  
       
-          - **Need to see source code for .NET Libraries?**  
+          - **Can I see source code for .NET Libraries?**  
            
             Enable Microsoft Symbol Servers from Debug > Options > Symbols in order to download symbols and source for .NET Libraries.
             See [Specify symbol](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
          
-          - **Need to load PDBs from a specific or shared location or server?** 
+          - **How can I load PDBs from a specific or shared location or server?** 
 
             Configure your Symbol Servers from Debug > Options > Symbols. 
             See [Specify symbol](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 
-          - **Want to never load a specific PDB? Or always load one?**
+          - **How can I never load a specific PDB? Or, how can I always load one?**
 
             Configure your Include and Exclude Lists in Debug > Options > Symbols.  
             See [Specify symbol](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
@@ -197,11 +197,11 @@ sections:
       - question: |
           Configure debugging
         answer: |
-          - **Need to configure debugger settings?**
+          - **How do I configure debugger settings?**
           
             To configure debugger options and debugger project settings, see [Debugger settings and preparation](debugger-settings-and-preparation.md).
           
-          - **Want to customize information shown in the debugger?**
+          - **How can I customize information shown in the debugger?**
           
             You may want to show information other than the object type as the value in different debugger windows. For C#, Visual Basic, F#, and C++/CLI code, use the [DebuggerDisplay](using-the-debuggerdisplay-attribute.md) attribute. For more advanced options, you can also customize the UI by creating a [custom visualizer](create-custom-visualizers-of-data.md).
             For native C++, use the [NatVis framework](create-custom-views-of-native-objects.md).
@@ -209,29 +209,29 @@ sections:
       - question: |
           Additional tasks
         answer: |
-          - **Do you need to save a dump?**
+          - **Do I need to save a dump?**
 
              While stopped at an error or breakpoint during debugging, select **Debug > Save Dump As**.
              See [Dump files](using-dump-files.md)
 
-          - **Looking to analyze a dump file?**
+          - **How do I analyze a dump file?**
 
             Open the dump by choosing **File > Open** in Visual Studio. To start debugging, select **Debug with Managed Only**, **Debug with Native Only**, **Debug with Mixed**, or **Debug with Managed Memory**.
             See [Dump files](using-dump-files.md)
 
-          - **Need to edit code during a debugging session?**
+          - **Can I edit code during a debugging session?**
           
             Use [Edit and continue](edit-and-continue.md). For XAML, use [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md).
 
-          - **Need to debug on remote machines?**
+          - **How can I debug on remote machines?**
           
             See [Remote debugging](remote-debugging.md).
           
-          - **Need to fix performance issues?**
+          - **How can I fix performance issues?**
           
             See [First look at the profiling tools](../profiling/profiling-feature-tour.md)
 
-          - **Need to fix an exception?**
+          - **How do I fix an exception?**
 
             See [Fix an exception](write-better-code-with-visual-studio.md#fix-an-exception).
           
