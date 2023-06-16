@@ -21,7 +21,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow, which is also known as *code stepping*. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. By getting more familiar with debugger navigation commands and shortcuts, you can find and resolve app problems faster and more easily. For a list of the most common keyboard shortcuts related to code navigation and debugging, see the [Debug](../default-keyboard-shortcuts-in-visual-studio?view=vs-2022#bkmk_debug-popular-shortcuts) section in Keyboard shortcuts.
+The Visual Studio debugger can help you navigate through code to inspect the state of an app and show its execution flow, which is also known as *code stepping*. You can use keyboard shortcuts, debug commands, breakpoints, and other features to quickly get to the code you want to examine. By getting more familiar with debugger navigation commands and shortcuts, you can find and resolve app problems faster and more easily. For a list of the most common keyboard shortcuts related to code navigation and debugging, see the [Debug](../ide/default-keyboard-shortcuts-in-visual-studio?view=vs-2022#bkmk_debug-popular-shortcuts) section in Keyboard shortcuts.
 
 > [!NOTE]
 > If you're new to debugging code, you might want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before you read this article.
