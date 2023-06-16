@@ -22,6 +22,10 @@ ms.workload:
 
 Read this topic to learn a few productivity tips and tricks for the Visual Studio debugger. For a look at the basic features of the debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md). In this topic, we cover some areas that are not included in the feature tour.
 
+## Keyboard shortcuts
+
+For a list of the most common keyboard shortcuts related to debugging, see the [Debug](../default-keyboard-shortcuts-in-visual-studio?view=vs-2022#bkmk_debug-popular-shortcuts) section in Keyboard shortcuts.
+
 ## Pin data tips
 
 If you frequently hover over data tips while debugging, you may want to pin the data tip for the variable to give yourself quick access. The variable stays pinned even after restarting. To pin the data tip, click the pin icon while hovering over it. You can pin multiple variables.
@@ -64,20 +68,7 @@ For C#, Visual Basic, and C++ (C++/CLI code only), you can tell the debugger wha
 
 ## Attach to the same application repeatedly
 
-You can quickly reattach to processes that you were previously attached to by choosing **Debug** > **Reattach to Process** (**Shift**+**Alt**+**P**). When you choose this command, the debugger will immediately try to attach to the last processes you attached to by first attempting to match the previous process ID and if that fails, by matching to the previous process name. If no matches are found, or if several processes have the same name, the **Attach to Process** dialog box will open so you can select the correct process.
-
-For more information, see [Reattach to a process](attach-to-running-processes-with-the-visual-studio-debugger.md#BKMK_reattach)
-
-## Change the execution flow
-
-With the debugger paused on a line of code, use the mouse to grab the yellow arrow pointer on the left. Move the yellow arrow pointer to a different point in the code execution path. Then you use F5 or a step command to continue running the app.
-
-![Move the Execution Pointer](../debugger/media/dbg-tour-move-the-execution-pointer.gif "Move the Execution Pointer")
-
-By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger. For more information, see [Move the exeuction pointer](../debugger/move-the-execution-pointer-with-the-debugger.md).
-
-> [!WARNING]
-> Often you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer cannot revert your app to an earlier application state.
+When you are using the [attach to process](attach-to-running-processes-with-the-visual-studio-debugger.md#BKMK_reattach) feature, you can quickly reattach to a process that you were previously attached to by choosing **Debug** > **Reattach to Process** (**Shift**+**Alt**+**P**). When you choose this command, the debugger will immediately try to attach to the last process you attached to by first attempting to match the previous process ID and if that fails, by matching to the previous process name. If no matches are found, or if several processes have the same name, the **Attach to Process** dialog box will open so you can select the correct process.
 
 ## Track an out-of-scope object (C#, Visual Basic)
 
@@ -123,6 +114,20 @@ A string visualizer may help you find out whether a string is malformed, dependi
 
 For a few other types such as DataSet and DataTable objects that appear in the debugger windows, you can also open a built-in visualizer.
 
+## Analyze memory usage
+
+You can take and compare snapshots of the heap, optimize memory usage, and find a memory leak using memory usage tools. For more information, see [Choose a memory analysis tool](../profiling/analyze-memory-usage.md).
+
+## Create a dump file
+
+A *dump file* is a snapshot that shows the process that was executing and modules that were loaded for an app at a point in time. A dump with heap information also includes a snapshot of the app's memory at that point. Dumps are mostly used to debug issues from machines that developers don't have access to.
+
+If you need to save a dump file, select select **Debug > Save Dump As**.
+
+To analyze a dump file, choose **File > Open** in Visual Studio. To start debugging using the dump file, select **Debug with Managed Only**, **Debug with Native Only**, **Debug with Mixed**, or **Debug with Managed Memory**.
+
+For more information, see [Dump files](using-dump-files.md)
+
 ## Break into code on handled exceptions
 
 The debugger breaks into your code on unhandled exceptions. However, handled exceptions (such as exceptions that occur within a `try/catch` block) can also be a source of bugs and you may want to investigate when they occur. You can configure the debugger to break into code for handled exceptions as well by configuring options in the **Exception Settings** dialog box. Open this dialog box by choosing **Debug > Windows > Exception Settings**.
@@ -130,6 +135,17 @@ The debugger breaks into your code on unhandled exceptions. However, handled exc
 The **Exception Settings** dialog box allows you to tell the debugger to break into code on specific exceptions. In the illustration below, the debugger breaks into your code whenever a `System.NullReferenceException` occurs. For more information, see [Managing exceptions](../debugger/managing-exceptions-with-the-debugger.md).
 
 ![Exception Settings Dialog Box](../debugger/media/dbg-tips-exception-settings.png "ExceptionSettingsDialogBox")
+
+## Change the execution flow
+
+With the debugger paused on a line of code, use the mouse to grab the yellow arrow pointer on the left. Move the yellow arrow pointer to a different point in the code execution path. Then you use F5 or a step command to continue running the app.
+
+![Move the Execution Pointer](../debugger/media/dbg-tour-move-the-execution-pointer.gif "Move the Execution Pointer")
+
+By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger. For more information, see [Move the exeuction pointer](../debugger/move-the-execution-pointer-with-the-debugger.md).
+
+> [!WARNING]
+> Often you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer cannot revert your app to an earlier application state.
 
 ## Debug deadlocks and race conditions
 
@@ -160,20 +176,6 @@ You can load symbol information directly from the **Modules** window by right-cl
 Sometimes, app developers ship apps without the matching symbol files (to reduce the footprint), but keep a copy of the matching symbol files for the build so that they can debug a released version later.
 
 To find out how the debugger classifies code as user code, see [Just My Code](../debugger/just-my-code.md). To find out more about symbol files, see [Specify symbol (.pdb) and source files in the Visual Studio debugger](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
-
-## Analyze memory usage
-
-If you need to optimize memory usage or find a memory leak, see [Choose a memory analysis tool](../profiling/analyze-memory-usage.md).
-
-## Create a dump file
-
-A *dump file* is a snapshot that shows the process that was executing and modules that were loaded for an app at a point in time. A dump with heap information also includes a snapshot of the app's memory at that point. Dumps are mostly used to debug issues from machines that developers don't have access to.
-
-If you need to save a dump file, select select **Debug > Save Dump As**.
-
-To analyze a dump file, choose **File > Open** in Visual Studio. To start debugging using the dump file, select **Debug with Managed Only**, **Debug with Native Only**, **Debug with Mixed**, or **Debug with Managed Memory**.
-
-For more information, see [Dump files](using-dump-files.md)
 
 ## Learn more
 
