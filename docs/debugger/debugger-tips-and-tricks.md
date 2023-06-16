@@ -2,7 +2,7 @@
 title: "Tips and tricks in the debugger"
 description: Learn about some of the lesser-known features supported by the Visual Studio debugger
 
-ms.date: "04/26/2022"
+ms.date: "06/16/2023"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "stepping"
@@ -61,6 +61,10 @@ If it is difficult or time-consuming to recreate a particular state in your app,
 ## Configure the data to show in the debugger
 
 For C#, Visual Basic, and C++ (C++/CLI code only), you can tell the debugger what information to show using the [DebuggerDisplay](../debugger/using-the-debuggerdisplay-attribute.md) attribute. For C++ code, you can do the same using [Natvis visualizations](create-custom-views-of-native-objects.md).
+
+## <a name="BKMK_reattach"></a> Reattach to a process
+
+You can quickly reattach to processes that you were previously attached to by choosing **Debug** > **Reattach to Process** (**Shift**+**Alt**+**P**). When you choose this command, the debugger will immediately try to attach to the last processes you attached to by first attempting to match the previous process ID and if that fails, by matching to the previous process name. If no matches are found, or if several processes have the same name, the **Attach to Process** dialog box will open so you can select the correct process.
 
 ## Change the execution flow
 
@@ -160,13 +164,15 @@ To find out how the debugger classifies code as user code, see [Just My Code](..
 If you need to optimize memory usage, find a memory leak, or create a heap dump, see:
 
 - [Choose a memory analysis tool](../profiling/analyze-memory-usage.md).
-- [Create a dump file](../debugger/using-dump-files.md)
+- [Create a dump file](#create-a-dump-file)
 
 ## Create a dump file
 
+A *dump file* is a snapshot that shows the process that was executing and modules that were loaded for an app at a point in time. A dump with heap information also includes a snapshot of the app's memory at that point. Dumps are mostly used to debug issues from machines that developers don't have access to.
+
 If you need to save a dump file, select select **Debug > Save Dump As**.
 
-To analyze a dump file, choose **File > Open** in Visual Studio. To start debugging, select **Debug with Managed Only**, **Debug with Native Only**, **Debug with Mixed**, or **Debug with Managed Memory**.
+To analyze a dump file, choose **File > Open** in Visual Studio. To start debugging using the dump file, select **Debug with Managed Only**, **Debug with Native Only**, **Debug with Mixed**, or **Debug with Managed Memory**.
 
 For more information, see [Dump files](using-dump-files.md)
 
