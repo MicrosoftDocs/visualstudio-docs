@@ -24,7 +24,7 @@ Read this topic to learn a few productivity tips and tricks for the Visual Studi
 
 ## Keyboard shortcuts
 
-For a list of the most common keyboard shortcuts related to debugging, see the [Debug](../ide/default-keyboard-shortcuts-in-visual-studio?view=vs-2022#bkmk_debug-popular-shortcuts) section in Keyboard shortcuts.
+For a list of the most common keyboard shortcuts related to debugging, see the [Debug](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debug-popular-shortcuts) section in Keyboard shortcuts.
 
 ## Pin data tips
 
