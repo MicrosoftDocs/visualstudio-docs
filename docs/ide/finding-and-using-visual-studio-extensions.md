@@ -21,9 +21,9 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-[**Extensions**](../extensibility/index.yml) are code packages that run inside Visual Studio and provide new or improved features. Extensions can be controls, samples, templates, tools, or other components that add functionality to Visual Studio, for example, [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs) or [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs).
-
 ::: moniker range="vs-2022"
+
+[Extensions](../extensibility/index.yml) are code packages that run inside Visual Studio and provide new or improved features. Extensions can be controls, samples, templates, tools, or other components that add functionality to Visual Studio, for example, [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs-2022) or [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs).
 
 For information about creating Visual Studio extensions, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md). For information about using extensions, see the individual extension page on [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs). And for information about finding extensions, see the [Where Are My Favorite Extensions in Visual Studio 2022?](https://devblogs.microsoft.com/visualstudio/where-are-my-favorite-extensions-in-visual-studio-2022/) blog post.
 
@@ -33,6 +33,8 @@ For information about creating Visual Studio extensions, see [Visual Studio SDK]
 ::: moniker-end
 
 ::: moniker range="<=vs-2019"
+
+[Extensions](../extensibility/index.yml) are code packages that run inside Visual Studio and provide new or improved features. Extensions can be controls, samples, templates, tools, or other components that add functionality to Visual Studio, for example, [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs) or [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs).
 
 For information about creating Visual Studio extensions, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md). For information about using extensions, see the individual extension page on [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs).
 
@@ -62,7 +64,7 @@ If you try to install an extension that has dependencies, the installer verifies
 
 ### Install without using the Manage Extensions dialog box
 
-Extensions that have been packaged in *.vsix* files may be available in locations other than Visual Studio Marketplace. The **Extensions** > **Manage Extensions** dialog box can't detect these files, but you can install a *.vsix* file by double-clicking the file or selecting the file and pressing **Enter**. After that, just follow the instructions. When the extension is installed, you can use the **Manage Extensions** dialog box to enable it, disable it, or uninstall it.
+Extensions that have been packaged in *.vsix* files might be available in locations other than Visual Studio Marketplace. The **Extensions** > **Manage Extensions** dialog box can't detect these files, but you can install a *.vsix* file by double-clicking the file or selecting the file and pressing **Enter**. After that, just follow the instructions. When the extension is installed, you can use the **Manage Extensions** dialog box to enable it, disable it, or uninstall it.
 
 > [!NOTE]
 > - Visual Studio Marketplace contains both VSIX and MSI extensions. The Manage Extensions dialog box can't enable or disable MSI-based extensions.
@@ -79,7 +81,7 @@ If you want to stop using an extension, you can either disable it or uninstall i
 
 Most extensions are per-user and are installed in the *%LocalAppData%\Microsoft\VisualStudio\\<Visual Studio version\>\Extensions\\* folder. A few extensions are administrative extensions and are installed in the *\<Visual Studio installation folder>\Common7\IDE\Extensions\\* folder.
 
-To protect your system against extensions that may contain errors or malicious code, you can restrict per-user extensions to load only when Visual Studio is run with normal user permissions. This means that per-user extensions are disabled when Visual Studio is run with elevated permissions.
+To protect your system against extensions that might contain errors or malicious code, you can restrict per-user extensions to load only when Visual Studio is run with normal user permissions. This means that per-user extensions are disabled when Visual Studio is run with elevated permissions.
 
 To restrict when per-user extensions load:
 
@@ -119,7 +121,7 @@ When these notifications are shown, you can ignore the notification or take one 
 - Choose the **X** button at the end of the notification to dismiss the notification. A new notification will appear for future instances of the extension being associated with a crash or UI unresponsiveness.
 
 > [!NOTE]
-> A UI unresponsiveness or crash notification means only that one of the extension’s modules was on the stack when the UI was unresponsive or when the crash occurred. It does not necessarily mean that the extension itself was the culprit. It's possible that the extension called code that's part of Visual Studio, which in turn resulted in unresponsive UI or a crash. However, the notification may still be useful if the extension which led to the UI unresponsiveness or crash is not important to you. In this case, disabling the extension avoids the UI unresponsiveness or the crash in the future, without impacting your productivity.
+> A UI unresponsiveness or crash notification means only that one of the extension’s modules was on the stack when the UI was unresponsive or when the crash occurred. It doesn't necessarily mean that the extension itself was the culprit. It's possible that the extension called code that's part of Visual Studio, which in turn resulted in unresponsive UI or a crash. However, the notification might still be useful if the extension which led to the UI unresponsiveness or crash is not important to you. In this case, disabling the extension avoids the UI unresponsiveness or the crash in the future, without impacting your productivity.
 
 ## Samples
 
@@ -143,7 +145,11 @@ You can use the **Extensions** > **Manage Extensions** dialog box to perform the
 
 - Update the master copy of an installed sample when there's an update notification.
 
+## Next steps
+
+To learn how to create and publish an extension by using the [Visual Studio SDK](../extensibility/visual-studio-sdk.md), see the [**Visual Studio Extensibility**](../extensibility/index.yml) page.
+
 ## See also
 
 - [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs)
-- [Visual Studio SDK](../extensibility/visual-studio-sdk.md)
+- [Support for the Visual Studio SDK](../extensibility/support-for-the-visual-studio-sdk.md)
