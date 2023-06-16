@@ -1,7 +1,7 @@
 ---
 title: Find and install extensions
 description: Learn about extensions in Visual Studio and how to manage them so you have the controls, samples, templates, tools, and other components you need.
-ms.date: 06/17/2022
+ms.date: 06/16/2023
 ms.topic: conceptual
 f1_keywords:
 - vs.ExtensionManager
@@ -17,31 +17,34 @@ ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
-# Manage extensions for Visual Studio
+# Find, install, and manage extensions for Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Extensions are code packages that run inside Visual Studio and provide new or improved features. Extensions may be controls, samples, templates, tools, or other components that add functionality to Visual Studio, for example, [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs) or [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs).
+[Extensions](../extensibility/index.yml)are code packages that run inside Visual Studio and provide new or improved features. Extensions can be controls, samples, templates, tools, or other components that add functionality to Visual Studio, for example, [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs) or [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs).
 
 ::: moniker range="vs-2022"
 
-For information about creating Visual Studio extensions, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md). For information about using extensions, see the individual extension page on [Visual Studio Marketplace](https://marketplace.visualstudio.com). And for information about finding extensions, see the [Where Are My Favorite Extensions in Visual Studio 2022?](https://devblogs.microsoft.com/visualstudio/where-are-my-favorite-extensions-in-visual-studio-2022/) blog post.
+For information about creating Visual Studio extensions, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md). For information about using extensions, see the individual extension page on [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs). And for information about finding extensions, see the [Where Are My Favorite Extensions in Visual Studio 2022?](https://devblogs.microsoft.com/visualstudio/where-are-my-favorite-extensions-in-visual-studio-2022/) blog post.
+
+> [!NOTE]
+> To learn more about upcoming changes to the Extensibility space, see the [Build Better Extensions with VisualStudio.Extensibility Preview 3!](https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility-preview-3/) blog post.
 
 ::: moniker-end
 
 ::: moniker range="<=vs-2019"
 
-For information about creating Visual Studio extensions, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md). For information about using extensions, see the individual extension page on [Visual Studio Marketplace](https://marketplace.visualstudio.com).
+For information about creating Visual Studio extensions, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md). For information about using extensions, see the individual extension page on [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs).
 
 ::: moniker-end
 
 ## Manage Extensions dialog box
 
-Use the **Manage Extensions** dialog box to install and manage Visual Studio extensions. To open the **Manage Extensions** dialog, choose **Extensions** > **Manage Extensions**. Or, type **Extensions** in the search box and choose **Manage Extensions**.
+Use the **Manage Extensions** dialog box to install and manage Visual Studio extensions. To open the **Manage Extensions** dialog, choose **Extensions** > **Manage Extensions**. Or, type **Extensions** in the search box and select **Manage Extensions**.
 
 :::image type="content" source="media/finding-using-visual-studio-extensions/vs-2022/extensions-and-updates.png" alt-text="Screenshot of the Manage Extensions window in Visual Studio":::
 
-The pane on the left categorizes extensions by those that are installed, those available on Visual Studio Marketplace (**Online**), and those that have updates available. **Roaming Extension Manager** keeps a list of all the Visual Studio extensions you've installed on any machine or instance of Visual Studio. It's designed to let you find your favorite extensions more easily.
+The left pane categorizes extensions by those that are installed, those available on Visual Studio Marketplace (**Online**), and those that have updates available. **Roaming Extension Manager** keeps a list of all the Visual Studio extensions you've installed on any machine or instance of Visual Studio. It's designed to let you find your favorite extensions more easily.
 
 ## Find and install extensions
 
@@ -67,7 +70,7 @@ Extensions that have been packaged in *.vsix* files may be available in location
 
 ## Uninstall or disable an extension
 
-If you want to stop using an extension, you can either disable it or uninstall it. Disabling an extension keeps it installed but unloaded. Find the extension and click **Uninstall** or **Disable**. Restart Visual Studio to unload a disabled extension.
+If you want to stop using an extension, you can either disable it or uninstall it. Disabling an extension keeps it installed but unloaded. Find the extension and select **Uninstall** or **Disable**. Restart Visual Studio to unload a disabled extension.
 
 > [!NOTE]
 > You can disable VSIX extensions but not extensions that were installed using an MSI. MSI-installed extensions can only be uninstalled.
@@ -138,7 +141,7 @@ You can use the **Extensions** > **Manage Extensions** dialog box to perform the
 
 - View update notifications when source code changes are published for installed samples.
 
-- Update the master copy of an installed sample when there is an update notification.
+- Update the master copy of an installed sample when there's an update notification.
 
 ## See also
 
