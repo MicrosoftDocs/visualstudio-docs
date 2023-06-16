@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: badd1d4a-90a6-46de-a037-945a91e6019b
-ms.date: 05/23/2023
+ms.date: 06/15/2023
 ms.topic: how-to
 description:  Learn about the Visual Studio App Center benefit included in Visual Studio subscriptions.
 ---
@@ -48,7 +48,7 @@ Getting started with Visual Studio App Center is easy.
 | MSDN Platforms (Standard) | VL, Retail | Included | Yes |
 ||
 
-\*  *Includes:  Not for Resale (NFR), FTE, Visual Studio Industry Partner (VSIP), Imagine, Microsoft Partner Network (MPN), MCT Software & Services, MCT Software & Services Developer, BizSpark, Most Valuable Professional (MVP), Regional Director (RD).  Excludes:  NFR Basic*
+\*  *Includes:  Not for Resale (NFR), FTE, Visual Studio Industry Partner (VSIP), Imagine, Microsoft Cloud Partner Program, MCT Software & Services, MCT Software & Services Developer, BizSpark, Most Valuable Professional (MVP), Regional Director (RD).  Excludes:  NFR Basic*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.

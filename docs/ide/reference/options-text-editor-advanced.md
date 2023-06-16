@@ -1,7 +1,7 @@
 ---
 title: Options, Text Editor, Advanced
 description: Learn how to use the Advanced dialog box to change global settings for the Visual Studio text editor.
-ms.date: 11/10/2022
+ms.date: 06/15/2023
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Advanced
@@ -51,7 +51,7 @@ Selected by default, this option adds a margin view next to the scrollbar that s
 
 ## Responsive code completion
 
-Selected by default, toggle to turn off auto-complete mode.
+Selected by default, this option enables the editor to suggest possible completions for your code based on its context and language semantics. Toggle to turn off auto-complete mode. 
 
 ::: moniker range="vs-2022"
 

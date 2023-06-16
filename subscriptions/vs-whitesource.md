@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 5e5d3f1a-533d-42eb-960e-01bb6bc7ca16
-ms.date: 05/23/2023
+ms.date: 06/15/2023
 ms.topic: how-to
 description:  Learn how to activate the WhiteSource Bolt subscription included with your Visual Studio subscription.
 ---
@@ -45,7 +45,7 @@ Find and fix open source vulnerabilities and generate comprehensive inventory an
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
 ||
 
-\*  *Includes: Microsoft Partner Network (Enterprise).  Excludes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  MCT Software & Services, NFR Basic.*
+\*  *Includes: Microsoft Cloud Partner Program (Enterprise).  Excludes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  MCT Software & Services, NFR Basic.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.

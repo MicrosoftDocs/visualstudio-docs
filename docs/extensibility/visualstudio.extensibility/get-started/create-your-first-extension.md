@@ -16,7 +16,7 @@ This document is a quickstart that shows how to create your first extension usin
 
 ## Prerequisites
 
-* Visual Studio 2022 version 17.6 Preview 1 or higher with `.NET desktop development` workload.
+* Visual Studio 2022 version 17.7 Preview 1 or higher with `.NET desktop development` workload.
 
 * Install latest version of [VisualStudio.Extensibility Project System](https://marketplace.visualstudio.com/items?itemName=vsext.gladstone): With this extension, you can debug extension projects using F5. There is currently no other deployment mechanism supported.
 
