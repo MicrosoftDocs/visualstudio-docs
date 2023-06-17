@@ -1,8 +1,7 @@
 ---
 title: "Create projects & solutions"
 description: Learn how to create and use Visual Studio solutions and projects to store artifacts.
-ms.custom: "contperf-fy21q2"
-ms.date: 06/28/2022
+ms.date: 06/16/2023
 ms.topic: how-to
 f1_keywords:
 - vs.openprojectfromweb
@@ -20,11 +19,11 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In this article, you'll learn how to create and use Visual Studio projects from scratch to store the artifacts you need to build your apps.  If you aren't familiar with projects in Visual Studio, see this overview of [Projects and Solutions](solutions-and-projects-in-visual-studio.md).  To learn how to quickly create a project from a template, see [Create a project from a template](create-new-project.md).
+In this article, you'll learn how to create and use Visual Studio projects from scratch to store the artifacts you need to build your apps.  If you aren't familiar with projects in Visual Studio, see this overview of [Projects and Solutions](solutions-and-projects-in-visual-studio.md).  To learn how to quickly create a project from a template, see [Create a new project in Visual Studio](create-new-project.md).
 
 *Projects* hold the items needed to build your app in Visual Studio, such as source code files, bitmaps, icons, and component and service references. When you create a new project, Visual Studio creates a *solution* to contain the project. You can then add other new or existing projects to the solution if you want. You can also create [blank or empty solutions](#create-empty-solutions). Solutions can also contain files that aren't connected to any specific project.
 
-![Diagram showing the solution and project hierarchy.](./media/vside-proj-soln.png)
+![Diagram that shows the solution and project hierarchy.](./media/vside-proj-soln.png)
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Create projects in Visual Studio for Mac](/visualstudio/mac/create-new-projects).
@@ -35,7 +34,7 @@ You can view your solutions and projects in a tool window called **Solution Expl
 
 While you can construct a project yourself by adding the necessary files to it, Visual Studio offers a selection of project templates to give you a head start. Creating a new project from a template gives you a project with the essentials for that project type, and you can rename the files or add new or existing code and other resources to it as needed.
 
-That being said, solutions and projects are not required to develop apps in Visual Studio. You can also just open code that you have cloned from Git or downloaded elsewhere. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
+That being said, solutions and projects aren't required to develop apps in Visual Studio. You can also open code that you have cloned from Git or downloaded elsewhere. For more information, see [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md).
 
 ## Create a project from a project template
 
@@ -49,7 +48,7 @@ If you have a collection of code source files, you can easily add them to a proj
 
 1. In the **Create Project from Existing Code Files** wizard, select the project type you want in the **What type of project would you like to create?** drop-down list box, and then select the **Next** button.
 
-1. In the wizard, browse to the location of the files and then enter a name for the new project in the **Name** box. When you are done, select the **Finish** button.
+1. In the wizard, browse to the location of the files and then enter a name for the new project in the **Name** box. When you're done, select the **Finish** button.
 
 > [!NOTE]
 > This option works best for a relatively simple collection of files. Currently, only C++, Apache Cordova, Visual Basic, and C# project types are supported.
@@ -89,7 +88,7 @@ You can also create empty solutions that have no projects. This might be prefera
 
 2. On the **Create a new project** page, type **solution** into the search box.
 
-3. Select the **Blank Solution** template, and then click **Next**.
+3. Select the **Blank Solution** template, and then select **Next**.
 
 4. Enter **Name** and **Location** values for your solution, and then select **Create**.
 
@@ -121,5 +120,4 @@ You can access File Explorer in Windows by using Solution Explorer in Visual Stu
 - [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md)
 - [Manage project and solution properties](managing-project-and-solution-properties.md)
 - [Filtered solutions in Visual Studio](filtered-solutions.md)
-- [Microsoft's open source repositories on GitHub](https://github.com/Microsoft)
 - [Developer code samples](/samples/browse/)

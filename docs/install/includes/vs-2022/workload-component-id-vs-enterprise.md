@@ -49,8 +49,8 @@ Microsoft.NetCore.Component.Runtime.7.0 | .NET 7.0 Runtime | 17.6.33711.286 | Re
 Microsoft.NetCore.Component.SDK | .NET SDK | 17.6.33711.286 | Required
 Microsoft.NetCore.Component.Web | Web development tools for .NET | 17.6.33605.316 | Required
 Microsoft.VisualStudio.Component.Azure.ClientLibs | Azure libraries for .NET | 17.6.33605.316 | Required
-Microsoft.VisualStudio.Component.Common.Azure.ToolsproductArchx64 | Connectivity and publishing tools | 17.6.33605.316 | Required
-Microsoft.VisualStudio.Component.DockerToolsproductArchx64 | Container development tools | 17.6.33605.316 | Required
+Microsoft.VisualStudio.Component.Common.Azure.Tools | Connectivity and publishing tools | 17.6.33605.316 | Required
+Microsoft.VisualStudio.Component.DockerTools | Container development tools | 17.6.33605.316 | Required
 Microsoft.VisualStudio.Component.FSharp | F# language support | 17.6.33605.316 | Required
 Microsoft.VisualStudio.Component.FSharp.WebTemplates | F# language support for web projects | 17.6.33605.316 | Required
 Microsoft.VisualStudio.Component.IISExpress | IIS Express  | 17.6.33605.316 | Required
@@ -83,7 +83,7 @@ Microsoft.VisualStudio.Component.Azure.AuthoringTools | Azure Authoring Tools | 
 Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure Compute Emulator | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.Component.Azure.Powershell | Azure Powershell | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.Component.Azure.ResourceManager.Tools | Azure Resource Manager core tools | 17.6.33605.316 | Recommended
-Microsoft.VisualStudio.Component.Azure.ServiceFabric.ToolsproductArchx64 | Service Fabric Tools | 17.6.33605.316 | Recommended
+Microsoft.VisualStudio.Component.Azure.ServiceFabric.Tools | Service Fabric Tools | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.Component.Azure.Waverton | Azure Cloud Services core tools | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.Component.Azure.Waverton.BuildTools | Azure Cloud Services build tools | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.Component.Debugger.Snapshot | Snapshot Debugger | 17.6.33605.316 | Recommended
@@ -119,7 +119,7 @@ Microsoft.Component.MSBuild | MSBuild | 17.6.33605.316 | Recommended
 Microsoft.Net.Component.4.7.2.TargetingPack | .NET Framework 4.7.2 targeting pack | 17.6.33605.316 | Recommended
 Microsoft.Net.Component.4.8.SDK | .NET Framework 4.8 SDK | 17.6.33605.316 | Recommended
 Microsoft.Net.ComponentGroup.DevelopmentPrerequisites | .NET Framework 4.7.2 development tools | 17.6.33605.316 | Recommended
-Microsoft.VisualStudio.Component.Common.Azure.ToolsproductArchx64 | Connectivity and publishing tools | 17.6.33605.316 | Recommended
+Microsoft.VisualStudio.Component.Common.Azure.Tools | Connectivity and publishing tools | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.Component.ManagedDesktop.Core | Managed Desktop Workload Core | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.Component.MSODBC.SQL | SQL Server ODBC Driver | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.Component.MSSQL.CMDLnUtils | SQL Server Command Line Utilities | 17.6.33605.316 | Recommended
@@ -145,7 +145,7 @@ Component ID | Name | Version | Dependency type
 Microsoft.Component.PythonTools | Python language support | 17.6.33605.316 | Recommended
 Microsoft.Component.PythonTools.Web | Python web support | 17.6.33605.316 | Recommended
 Microsoft.Net.Component.4.7.2.TargetingPack | .NET Framework 4.7.2 targeting pack | 17.6.33605.316 | Recommended
-Microsoft.VisualStudio.Component.Common.Azure.ToolsproductArchx64 | Connectivity and publishing tools | 17.6.33605.316 | Recommended
+Microsoft.VisualStudio.Component.Common.Azure.Tools | Connectivity and publishing tools | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.Component.FSharp.Desktop | F# desktop language support | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.Component.JavaScript.TypeScript | JavaScript and TypeScript language support | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.Component.NuGet | NuGet package manager | 17.6.33605.316 | Recommended
@@ -155,7 +155,7 @@ Microsoft.VisualStudio.Component.TypeScript.TSServer | TypeScript Server | 17.6.
 Microsoft.VisualStudio.Component.WebDeploy | Web Deploy | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions | ASP.NET and web development | 17.6.33605.316 | Recommended
 Microsoft.ComponentGroup.PythonTools.NativeDevelopment | Python native development tools | 17.6.33605.316 | Optional
-Microsoft.VisualStudio.Component.Graphics.ToolsproductArchx64 | Graphics debugger and GPU profiler for DirectX | 17.6.33605.316 | Optional
+Microsoft.VisualStudio.Component.Graphics.Tools | Graphics debugger and GPU profiler for DirectX | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.TypeScript.SDK.4.9 | TypeScript 4.9 SDK | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.VC.CoreIde | C++ core features | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.VC.DiagnosticTools | C++ profiling tools | 17.6.33605.316 | Optional
@@ -165,7 +165,7 @@ Microsoft.VisualStudio.Component.Windows11SDK.22000 | Windows 11 SDK (10.0.22000
 
 ## .NET desktop development
 
-**ID:** Microsoft.VisualStudio.Workload.ManagedDesktopproductArchx64
+**ID:** Microsoft.VisualStudio.Workload.ManagedDesktop
 
 **Description:** Build WPF, Windows Forms, and console applications using C#, Visual Basic, and F# with .NET and .NET Framework.
 
@@ -221,9 +221,9 @@ Microsoft.VisualStudio.Component.AppInsights.Tools | Developer Analytics tools |
 Microsoft.VisualStudio.Component.ClassDesigner | Class Designer | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.CodeClone | Code Clone | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.CodeMap | Code Map | 17.6.33605.316 | Optional
-Microsoft.VisualStudio.Component.Common.Azure.ToolsproductArchx64 | Connectivity and publishing tools | 17.6.33605.316 | Optional
+Microsoft.VisualStudio.Component.Common.Azure.Tools | Connectivity and publishing tools | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.DependencyValidation.Enterprise | Live Dependency Validation | 17.6.33605.316 | Optional
-Microsoft.VisualStudio.Component.DockerToolsproductArchx64 | Container development tools | 17.6.33605.316 | Optional
+Microsoft.VisualStudio.Component.DockerTools | Container development tools | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.FSharp.Desktop | F# desktop language support | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.FSharp.WebTemplates | F# language support for web projects | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.GraphDocument | DGML editor | 17.6.33605.316 | Optional
@@ -239,7 +239,7 @@ Microsoft.VisualStudio.Component.TypeScript.SDK.4.9 | TypeScript 4.9 SDK | 17.6.
 Microsoft.VisualStudio.Component.Wcf.Tooling | Windows Communication Foundation | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.Web | ASP.NET and web development prerequisites | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.WebDeploy | Web Deploy | 17.6.33605.316 | Optional
-Microsoft.VisualStudio.ComponentGroup.ArchitectureTools.ManagedproductArchx64 | Architecture and analysis tools | 17.6.33605.316 | Optional
+Microsoft.VisualStudio.ComponentGroup.ArchitectureTools.Managed | Architecture and analysis tools | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.ComponentGroup.MSIX.Packaging | MSIX Packaging Tools | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.ComponentGroup.Web | ASP.NET and web development prerequisites | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.ComponentGroup.WindowsAppSDK.Cs | Windows App SDK C# Templates | 17.6.33605.316 | Optional
@@ -285,7 +285,7 @@ Component.MDD.Linux.GCC.arm | Legacy Embedded and IoT tools | 17.6.33605.316 | O
 
 ## Desktop development with C++
 
-**ID:** Microsoft.VisualStudio.Workload.NativeDesktopproductArchx64
+**ID:** Microsoft.VisualStudio.Workload.NativeDesktop
 
 **Description:** Build modern C++ apps for Windows using tools of your choice, including MSVC, Clang, CMake, or MSBuild.
 
@@ -298,10 +298,10 @@ Microsoft.VisualStudio.Component.Roslyn.Compiler | C# and Visual Basic Roslyn co
 Microsoft.VisualStudio.Component.TextTemplating | Text Template Transformation | 17.6.33605.316 | Required
 Microsoft.VisualStudio.Component.VC.CoreIde | C++ core features | 17.6.33605.316 | Required
 Microsoft.VisualStudio.Component.VC.Redist.14.Latest | C++ 2022 Redistributable Update | 17.6.33605.316 | Required
-Microsoft.VisualStudio.ComponentGroup.NativeDesktop.CoreproductArchx86 | C++ core desktop features | 17.6.33605.316 | Required
+Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Core | C++ core desktop features | 17.6.33605.316 | Required
 Component.Microsoft.VisualStudio.LiveShare.2022 | Live Share | 1.0.5843 | Recommended
 Microsoft.VisualStudio.Component.Debugger.JustInTime | Just-In-Time debugger | 17.6.33605.316 | Recommended
-Microsoft.VisualStudio.Component.Graphics.ToolsproductArchx64 | Graphics debugger and GPU profiler for DirectX | 17.6.33605.316 | Recommended
+Microsoft.VisualStudio.Component.Graphics.Tools | Graphics debugger and GPU profiler for DirectX | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.6.33625.640 | Recommended
 Microsoft.VisualStudio.Component.IntelliTrace.FrontEnd | IntelliTrace | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.Component.JavaScript.TypeScript | JavaScript and TypeScript language support | 17.6.33605.316 | Recommended
@@ -350,7 +350,7 @@ Microsoft.VisualStudio.ComponentGroup.WindowsAppSDK.Cpp | Windows App SDK C++ Te
 
 ## Game development with C++
 
-**ID:** Microsoft.VisualStudio.Workload.NativeGameproductArchx64
+**ID:** Microsoft.VisualStudio.Workload.NativeGame
 
 **Description:** Use the full power of C++ to build professional games powered by DirectX, Unreal, or Cocos2d.
 
@@ -362,7 +362,7 @@ Microsoft.VisualStudio.Component.VC.CoreIde | C++ core features | 17.6.33605.316
 Microsoft.VisualStudio.Component.VC.Redist.14.Latest | C++ 2022 Redistributable Update | 17.6.33605.316 | Required
 Microsoft.VisualStudio.Component.Windows10SDK | Windows Universal C Runtime | 17.6.33605.316 | Required
 Component.Unreal.Ide | IDE support for Unreal Engine | 17.6.33605.316 | Recommended
-Microsoft.VisualStudio.Component.Graphics.ToolsproductArchx64 | Graphics debugger and GPU profiler for DirectX | 17.6.33605.316 | Recommended
+Microsoft.VisualStudio.Component.Graphics.Tools | Graphics debugger and GPU profiler for DirectX | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.Component.HLSL | HLSL Tools | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.Component.IntelliCode | IntelliCode | 17.6.33625.640 | Recommended
 Microsoft.VisualStudio.Component.IntelliTrace.FrontEnd | IntelliTrace | 17.6.33605.316 | Recommended
@@ -487,7 +487,7 @@ Microsoft.VisualStudio.Component.TypeScript.SDK.4.9 | TypeScript 4.9 SDK | 17.6.
 
 ## ASP.NET and web development
 
-**ID:** Microsoft.VisualStudio.Workload.NetWebproductArchx64
+**ID:** Microsoft.VisualStudio.Workload.NetWeb
 
 **Description:** Build web applications using ASP.NET Core, ASP.NET, HTML/JavaScript, and Containers including Docker support.
 
@@ -509,8 +509,8 @@ Microsoft.NetCore.Component.Runtime.6.0 | .NET 6.0 Runtime (Long Term Support) |
 Microsoft.NetCore.Component.Runtime.7.0 | .NET 7.0 Runtime | 17.6.33711.286 | Required
 Microsoft.NetCore.Component.SDK | .NET SDK | 17.6.33711.286 | Required
 Microsoft.NetCore.Component.Web | Web development tools for .NET | 17.6.33605.316 | Required
-Microsoft.VisualStudio.Component.Common.Azure.ToolsproductArchx64 | Connectivity and publishing tools | 17.6.33605.316 | Required
-Microsoft.VisualStudio.Component.DockerToolsproductArchx64 | Container development tools | 17.6.33605.316 | Required
+Microsoft.VisualStudio.Component.Common.Azure.Tools | Connectivity and publishing tools | 17.6.33605.316 | Required
+Microsoft.VisualStudio.Component.DockerTools | Container development tools | 17.6.33605.316 | Required
 Microsoft.VisualStudio.Component.FSharp | F# language support | 17.6.33605.316 | Required
 Microsoft.VisualStudio.Component.FSharp.WebTemplates | F# language support for web projects | 17.6.33605.316 | Required
 Microsoft.VisualStudio.Component.IISExpress | IIS Express  | 17.6.33605.316 | Required
@@ -571,7 +571,7 @@ Microsoft.VisualStudio.Component.TestTools.WebLoadTest | Web performance and loa
 Microsoft.VisualStudio.Component.TypeScript.SDK.4.9 | TypeScript 4.9 SDK | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.Wcf.Tooling | Windows Communication Foundation | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.ComponentGroup.AdditionalWebProjectTemplates | Additional project templates (previous versions) | 17.6.33605.316 | Optional
-Microsoft.VisualStudio.ComponentGroup.ArchitectureTools.ManagedproductArchx64 | Architecture and analysis tools | 17.6.33605.316 | Optional
+Microsoft.VisualStudio.ComponentGroup.ArchitectureTools.Managed | Architecture and analysis tools | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.ComponentGroup.IISDevelopment | Development time IIS support | 17.6.33605.316 | Optional
 wasm.tools | .NET WebAssembly Build Tools | 7.0.523.17405 | Optional
 wasm.tools.net6 | .NET 6.0 WebAssembly Build Tools | 7.0.523.17405 | Optional
@@ -598,7 +598,7 @@ Microsoft.VisualStudio.Component.Roslyn.Compiler | C# and Visual Basic Roslyn co
 Microsoft.VisualStudio.Component.Roslyn.LanguageServices | C# and Visual Basic | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.Component.WebDeploy | Web Deploy | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.Component.AppInsights.Tools | Developer Analytics tools | 17.6.33605.316 | Optional
-Microsoft.VisualStudio.Component.Common.Azure.ToolsproductArchx64 | Connectivity and publishing tools | 17.6.33605.316 | Optional
+Microsoft.VisualStudio.Component.Common.Azure.Tools | Connectivity and publishing tools | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.TypeScript.SDK.4.9 | TypeScript 4.9 SDK | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.VC.CoreIde | C++ core features | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC v143 - VS 2022 C++ x64/x86 build tools (Latest) | 17.6.33605.316 | Optional
@@ -628,8 +628,8 @@ Microsoft.NetCore.Component.Runtime.7.0 | .NET 7.0 Runtime | 17.6.33711.286 | Re
 Microsoft.NetCore.Component.SDK | .NET SDK | 17.6.33711.286 | Required
 Microsoft.NetCore.Component.Web | Web development tools for .NET | 17.6.33605.316 | Required
 Microsoft.VisualStudio.Component.AppInsights.Tools | Developer Analytics tools | 17.6.33605.316 | Required
-Microsoft.VisualStudio.Component.Common.Azure.ToolsproductArchx64 | Connectivity and publishing tools | 17.6.33605.316 | Required
-Microsoft.VisualStudio.Component.DockerToolsproductArchx64 | Container development tools | 17.6.33605.316 | Required
+Microsoft.VisualStudio.Component.Common.Azure.Tools | Connectivity and publishing tools | 17.6.33605.316 | Required
+Microsoft.VisualStudio.Component.DockerTools | Container development tools | 17.6.33605.316 | Required
 Microsoft.VisualStudio.Component.FSharp | F# language support | 17.6.33605.316 | Required
 Microsoft.VisualStudio.Component.FSharp.WebTemplates | F# language support for web projects | 17.6.33605.316 | Required
 Microsoft.VisualStudio.Component.IISExpress | IIS Express  | 17.6.33605.316 | Required
@@ -705,12 +705,12 @@ Microsoft.VisualStudio.Component.Azure.ClientLibs | Azure libraries for .NET | 1
 Microsoft.VisualStudio.Component.Azure.Compute.Emulator | Azure Compute Emulator | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.Azure.Waverton | Azure Cloud Services core tools | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.Azure.Waverton.BuildTools | Azure Cloud Services build tools | 17.6.33605.316 | Optional
-Microsoft.VisualStudio.Component.Common.Azure.ToolsproductArchx64 | Connectivity and publishing tools | 17.6.33605.316 | Optional
+Microsoft.VisualStudio.Component.Common.Azure.Tools | Connectivity and publishing tools | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.Debugger.JustInTime | Just-In-Time debugger | 17.6.33605.316 | Optional
-Microsoft.VisualStudio.Component.DockerToolsproductArchx64 | Container development tools | 17.6.33605.316 | Optional
+Microsoft.VisualStudio.Component.DockerTools | Container development tools | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.FSharp | F# language support | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.FSharp.WebTemplates | F# language support for web projects | 17.6.33605.316 | Optional
-Microsoft.VisualStudio.Component.Graphics.ToolsproductArchx64 | Graphics debugger and GPU profiler for DirectX | 17.6.33605.316 | Optional
+Microsoft.VisualStudio.Component.Graphics.Tools | Graphics debugger and GPU profiler for DirectX | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.IISExpress | IIS Express  | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.JavaScript.Diagnostics | JavaScript diagnostics | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.JavaScript.TypeScript | JavaScript and TypeScript language support | 17.6.33605.316 | Optional
@@ -739,7 +739,7 @@ Microsoft.VisualStudio.ComponentGroup.WebToolsExtensions | ASP.NET and web devel
 
 ## Universal Windows Platform development
 
-**ID:** Microsoft.VisualStudio.Workload.UniversalproductArchx64
+**ID:** Microsoft.VisualStudio.Workload.Universal
 
 **Description:** Create applications for the Universal Windows Platform with C#, VB, or optionally C﻿+﻿+.
 
@@ -772,7 +772,7 @@ Microsoft.VisualStudio.Component.CodeClone | Code Clone | 17.6.33605.316 | Optio
 Microsoft.VisualStudio.Component.CodeMap | Code Map | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.DependencyValidation.Enterprise | Live Dependency Validation | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.GraphDocument | DGML editor | 17.6.33605.316 | Optional
-Microsoft.VisualStudio.Component.Graphics.ToolsproductArchx64 | Graphics debugger and GPU profiler for DirectX | 17.6.33605.316 | Optional
+Microsoft.VisualStudio.Component.Graphics.Tools | Graphics debugger and GPU profiler for DirectX | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.SQL.LocalDB.Runtime | SQL Server Express 2019 LocalDB | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.UWP.VC.ARM64 | C++ Universal Windows Platform support for v143 build tools (ARM64/ARM64EC) | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.UWP.VC.ARM64EC | C++ Universal Windows Platform support for v143 build tools (ARM64EC) | 17.6.33605.316 | Optional
@@ -790,7 +790,7 @@ Microsoft.VisualStudio.Component.Windows10SDK.18362 | Windows 10 SDK (10.0.18362
 Microsoft.VisualStudio.Component.Windows10SDK.19041 | Windows 10 SDK (10.0.19041.0) | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK.IpOverUsb | USB Device Connectivity | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.Component.Windows11SDK.22621 | Windows 11 SDK (10.0.22621.0) | 17.6.33605.316 | Optional
-Microsoft.VisualStudio.ComponentGroup.ArchitectureTools.ManagedproductArchx64 | Architecture and analysis tools | 17.6.33605.316 | Optional
+Microsoft.VisualStudio.ComponentGroup.ArchitectureTools.Managed | Architecture and analysis tools | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.ComponentGroup.UWP.VC | C++ (v143) Universal Windows Platform tools | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.ComponentGroup.UWP.VC.v141 | C++ (v141) Universal Windows Platform tools | 17.6.33605.316 | Optional
 Microsoft.VisualStudio.ComponentGroup.UWP.VC.v142 | C++ (v142) Universal Windows Platform tools | 17.6.33605.316 | Optional

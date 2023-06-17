@@ -218,7 +218,7 @@ Microsoft.VisualStudio.Component.VC.CoreBuildTools | C++ Build Tools core featur
 Microsoft.VisualStudio.Component.VC.CoreIde | C++ core features | 17.6.33605.316 | Required
 Microsoft.VisualStudio.Component.VC.Redist.14.Latest | C++ 2022 Redistributable Update | 17.6.33605.316 | Required
 Microsoft.VisualStudio.Component.Windows10SDK | Windows Universal C Runtime | 17.6.33605.316 | Required
-Microsoft.VisualStudio.ComponentGroup.NativeDesktop.CoreproductArchx86 | C++ core desktop features | 17.6.33605.316 | Required
+Microsoft.VisualStudio.ComponentGroup.NativeDesktop.Core | C++ core desktop features | 17.6.33605.316 | Required
 Microsoft.VisualStudio.Component.TestTools.BuildTools | Testing tools core features - Build Tools | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.Component.VC.ASAN | C++ AddressSanitizer | 17.6.33605.316 | Recommended
 Microsoft.VisualStudio.Component.VC.CMake.Project | C++ CMake tools for Windows | 17.6.33605.316 | Recommended
