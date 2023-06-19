@@ -11,7 +11,7 @@ ms.workload:
   - multiple
 ---
 
-# Enum.ToString
+# Slow Enum.ToString lookup
 
 This article describes performance insights for <xref:System.Enum.ToString%2A?displayProperty=nameWithType>.
 
