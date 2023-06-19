@@ -17,7 +17,7 @@ ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
-# Find and install extensions for Visual Studio
+# Find, install, and manage extensions for Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -79,7 +79,7 @@ If you want to stop using an extension, you can either disable it or uninstall i
 
 ## Manage extensions
 
-If manage extensions for an organization, or you want to learn more about automatic extension updates, unresponsiveness notifications, and more, you're in the right place.
+If you manage extensions for an organization, or you want to learn more about automatic extension updates, unresponsiveness notifications, and more, you're in the right place.
 
 ### Per-user and administrative extensions
 
