@@ -21,7 +21,7 @@ This article describes performance insights for <xref:System.Enum.ToString%2A?di
 
 ## Performance insight description
 
-Try a caching implementation to avoid the issue.
+Try a caching implementation instead of `Enum.ToString` to avoid the issue.
 
 ## How to investigate a warning
 

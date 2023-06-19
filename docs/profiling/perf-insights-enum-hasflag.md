@@ -17,7 +17,7 @@ This article describes performance insights for <xref:System.Enum.HasFlag%2A?dis
 
 ## Cause
 
-Using 'Enum.HasFlag' in a performance sensitive context can lead to unnecessary memory allocations, such as expensive boxings and type checks.
+Using `Enum.HasFlag` in a performance sensitive context can lead to unnecessary memory allocations, such as expensive boxings and type checks.
 
 ## Performance insight description
 
