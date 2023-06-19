@@ -50,7 +50,7 @@ The left pane categorizes extensions by those that are installed, those availabl
 
 ## Find and install extensions
 
-You can install extensions from [Visual Studio Marketplace](https://marketplace.visualstudio.com) or the Manage Extensions dialog box in Visual Studio.
+You can install extensions from [Visual Studio Marketplace](https://marketplace.visualstudio.com) or the **Manage Extensions** dialog box in Visual Studio.
 
 To install extensions from within Visual Studio:
 
@@ -67,7 +67,7 @@ If you try to install an extension that has dependencies, the installer verifies
 Extensions that have been packaged in *.vsix* files might be available in locations other than Visual Studio Marketplace. The **Extensions** > **Manage Extensions** dialog box can't detect these files, but you can install a *.vsix* file by double-clicking the file or selecting the file and pressing **Enter**. After that, just follow the instructions. When the extension is installed, you can use the **Manage Extensions** dialog box to enable it, disable it, or uninstall it.
 
 > [!NOTE]
-> - Visual Studio Marketplace contains both VSIX and MSI extensions. The Manage Extensions dialog box can't enable or disable MSI-based extensions.
+> - Visual Studio Marketplace contains both VSIX and MSI extensions. The **Manage Extensions** dialog box can't enable or disable MSI-based extensions.
 > - If an MSI-based extension includes an *extension.vsixmanifest* file, the extension appears in the **Manage Extensions** dialog box.
 
 ## Uninstall or disable an extension
