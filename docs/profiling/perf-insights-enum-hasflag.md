@@ -17,7 +17,7 @@ This article describes performance insights for <xref:System.Enum.HasFlag%2A?dis
 
 ## Cause
 
-`Enum.HasFlag` is resulting in slow lookups.
+`Enum.HasFlag` is resulting in slow performance.
 
 ## Performance insight description
 

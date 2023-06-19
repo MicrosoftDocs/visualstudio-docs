@@ -17,7 +17,7 @@ This article describes performance insights for <xref:System.Enum.ToString%2A?di
 
 ## Cause
 
-`Enum.ToString` method is resulting in slow lookups.
+`Enum.ToString` method is resulting in slow performance.
 
 ## Performance insight description
 
