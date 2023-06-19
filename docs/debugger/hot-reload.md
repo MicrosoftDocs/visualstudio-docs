@@ -120,11 +120,7 @@ For ASP.NET Core developers who are targeting .NET 6, there are additional capab
 
 ## Supported .NET Edits
 
-The .NET Hot Reload experience is powered by the [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md) mechanism. Improvements include support for additional types of edits that go beyond what was originally possible in older versions of Visual Studio. Improvements include:
-
-[!INCLUDE [dotnet-hot-reload-and-edit-continue](../debugger/includes/dotnet-hot-reload-and-edit-continue.md)]
-
-The preceding improvements are available to both Hot Reload and the Edit and Continue experiences.
+The .NET Hot Reload experience is powered by the [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md) mechanism and Roslyn. [Supported Edits](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) lists edits currently supported by Roslyn and potential future enhancements.
 
 ## Unsupported .NET scenarios
 
