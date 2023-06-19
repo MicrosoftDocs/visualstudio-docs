@@ -17,11 +17,11 @@ This article describes performance insights for <xref:System.Enum.ToString%2A?di
 
 ## Cause
 
-`Enum.ToString` method is expensive because it uses reflection to check if the enum is a flag.
+`Enum.ToString` method is resulting in slow lookups.
 
 ## Performance insight description
 
-Try a caching implementation instead of `Enum.ToString` to avoid the issue.
+`Enum.ToString` method is expensive because it uses reflection to check if the enum is a flag. Try a caching implementation instead of `Enum.ToString` to avoid the issue.
 
 ## How to investigate a warning
 
