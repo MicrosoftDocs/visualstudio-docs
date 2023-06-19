@@ -48,14 +48,18 @@
         href: cpu-insights.md
       - name: Performance insights
         items:
-        - name: String concatenation
-          href: perf-insights-string-concatenation.md
-        - name: Regex
-          href: perf-insights-regex.md
-        - name: ElementAt
-          href: perf-insights-elementat.md
         - name: Contains
           href: perf-insights-contains.md
+        - name: ElementAt
+          href: perf-insights-elementat.md
+        - name: HasFlag
+          href: perf-insights-enum-hasflag.md
+        - name: Regex
+          href: perf-insights-regex.md
+        - name: String concatenation
+          href: perf-insights-string-concatenation.md
+        - name: ToStrings
+          href: perf-insights-enum-tostring.md
   - name: File IO
     href: use-file-io.md
   - name: Memory usage
