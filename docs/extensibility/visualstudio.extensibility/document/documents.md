@@ -81,7 +81,7 @@ internal sealed class SubscribeCommand : Command, IToggleCommand
 {
     private IDisposable? subscription;
 
-    bool? IToggleCommand.IsChecked => this.subscription isn't null;
+    bool? IToggleCommand.IsChecked => this.subscription is not null;
 
     public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
     {

@@ -1,7 +1,7 @@
 ---
 title: Find and install extensions
 description: Learn about extensions in Visual Studio and how to manage them so you have the controls, samples, templates, tools, and other components you need.
-ms.date: 06/16/2023
+ms.date: 06/19/2023
 ms.topic: conceptual
 f1_keywords:
 - vs.ExtensionManager
@@ -40,9 +40,9 @@ For information about creating Visual Studio extensions, see [Visual Studio SDK]
 
 ::: moniker-end
 
-## Manage Extensions dialog box
+## Use the Manage Extensions dialog box
 
-Use the **Manage Extensions** dialog box to install and manage Visual Studio extensions. To open the **Manage Extensions** dialog, choose **Extensions** > **Manage Extensions**. Or, type **Extensions** in the search box and select **Manage Extensions**.
+In the Visual Studio IDE, the **Manage Extensions** dialog box is the tool you use to find, install, and manage Visual Studio extensions. To open the **Manage Extensions** dialog, choose **Extensions** > **Manage Extensions**. Or, type **Extensions** in the search box and select **Manage Extensions**.
 
 :::image type="content" source="media/finding-using-visual-studio-extensions/vs-2022/extensions-and-updates.png" alt-text="Screenshot of the Manage Extensions window in Visual Studio":::
 
@@ -50,13 +50,13 @@ The left pane categorizes extensions by those that are installed, those availabl
 
 ## Find and install extensions
 
-You can install extensions from [Visual Studio Marketplace](https://marketplace.visualstudio.com) or the Manage Extensions dialog box in Visual Studio.
+You can install extensions from [Visual Studio Marketplace](https://marketplace.visualstudio.com) or the **Manage Extensions** dialog box in Visual Studio.
 
 To install extensions from within Visual Studio:
 
 1. From **Extensions** > **Manage Extensions**, find the extension you want to install. (If you know the name or part of the name of the extension, you can search in the **Search** window.)
 
-2. Select **Download**.
+1. Select **Download**.
 
    The extension is scheduled for install. Your extension will be installed after all instances of Visual Studio have been closed.
 
@@ -67,7 +67,7 @@ If you try to install an extension that has dependencies, the installer verifies
 Extensions that have been packaged in *.vsix* files might be available in locations other than Visual Studio Marketplace. The **Extensions** > **Manage Extensions** dialog box can't detect these files, but you can install a *.vsix* file by double-clicking the file or selecting the file and pressing **Enter**. After that, just follow the instructions. When the extension is installed, you can use the **Manage Extensions** dialog box to enable it, disable it, or uninstall it.
 
 > [!NOTE]
-> - Visual Studio Marketplace contains both VSIX and MSI extensions. The Manage Extensions dialog box can't enable or disable MSI-based extensions.
+> - Visual Studio Marketplace contains both VSIX and MSI extensions. The **Manage Extensions** dialog box can't enable or disable MSI-based extensions.
 > - If an MSI-based extension includes an *extension.vsixmanifest* file, the extension appears in the **Manage Extensions** dialog box.
 
 ## Uninstall or disable an extension
@@ -77,7 +77,11 @@ If you want to stop using an extension, you can either disable it or uninstall i
 > [!NOTE]
 > You can disable VSIX extensions but not extensions that were installed using an MSI. MSI-installed extensions can only be uninstalled.
 
-## Per-user and administrative extensions
+## Manage extensions
+
+If you manage extensions for an organization, or you want to learn more about automatic extension updates, unresponsiveness notifications, and more, you're in the right place.
+
+### Per-user and administrative extensions
 
 Most extensions are per-user and are installed in the *%LocalAppData%\Microsoft\VisualStudio\\<Visual Studio version\>\Extensions\\* folder. A few extensions are administrative extensions and are installed in the *\<Visual Studio installation folder>\Common7\IDE\Extensions\\* folder.
 
@@ -87,11 +91,11 @@ To restrict when per-user extensions load:
 
 1. Open the extensions options page (**Tools** > **Options** > **Environment** > **Extensions**).
 
-2. Clear the **Load per user extensions when running as administrator** check box.
+1. Clear the **Load per user extensions when running as administrator** check box.
 
-3. Restart Visual Studio.
+1. Restart Visual Studio.
 
-## Automatic extension updates
+### Automatic extension updates
 
 Extensions are updated automatically when a new version is available on Visual Studio Marketplace. The new version of the extension is detected and installed in the background. The next time you open Visual Studio, the new version of the extension will be running.
 
@@ -101,7 +105,7 @@ If you wish to disable automatic updates, you can disable the feature for all ex
 
 - To disable automatic updates for a specific extension, uncheck the **Automatically update this extension** option in the extension's details pane on the right side of the **Manage Extensions** dialog.
 
-## Crash and unresponsiveness notifications
+### Crash and unresponsiveness notifications
 
 Visual Studio notifies you if it suspects that an extension was involved in a crash during a previous session. When Visual Studio crashes, it stores the exception stack. The next time Visual Studio launches, it examines the stack, starting with the leaf and working towards the base. If Visual Studio determines that a frame belongs to a module that is part of an installed and enabled extension, it shows a notification.
 
@@ -123,7 +127,7 @@ When these notifications are shown, you can ignore the notification or take one 
 > [!NOTE]
 > A UI unresponsiveness or crash notification means only that one of the extension’s modules was on the stack when the UI was unresponsive or when the crash occurred. It doesn't necessarily mean that the extension itself was the culprit. It's possible that the extension called code that's part of Visual Studio, which in turn resulted in unresponsive UI or a crash. However, the notification might still be useful if the extension which led to the UI unresponsiveness or crash is not important to you. In this case, disabling the extension avoids the UI unresponsiveness or the crash in the future, without impacting your productivity.
 
-## Samples
+### Samples
 
 When you install an online sample, the solution is stored in two locations:
 

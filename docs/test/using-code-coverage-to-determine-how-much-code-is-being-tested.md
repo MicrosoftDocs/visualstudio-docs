@@ -3,7 +3,7 @@ title: Code coverage testing
 description: Learn how to use the code coverage feature of Visual Studio to determine what proportion of your project code is being tested by coded tests.
 
 ms.custom: devdivchpfy22
-ms.date: 12/21/2022
+ms.date: 06/19/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - code coverage
@@ -20,9 +20,9 @@ ms.technology: vs-ide-test
 
 To determine what proportion of your project's code is being tested by coded tests such as unit tests, you can use the code coverage feature of Visual Studio. To effectively guard against bugs, your tests should exercise or 'cover' a large proportion of your code.
 
-Code coverage analysis is possible for both managed (CLR) and unmanaged (native) code.
+Code coverage analysis is possible for both managed (CLR) and unmanaged (native) code. Both static and dynamic instrumentation are supported. To use code coverage in command-line scenarios, use either [vstest.console.exe](#analyze-code-coverage-from-the-command-line) or [Microsoft.CodeCoverage.Console tool](../test/microsoft-code-coverage-console-tool.md), which is an extension for [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) that also supports native code.
 
-Code coverage option is available under the Test menu when you run test methods using Test Explorer. The results table shows the percentage of the code executed in each assembly, class, and procedure. The source editor highlights the tested code.
+Code coverage option is available under the Test menu when you run test methods using Test Explorer. The results table shows the percentage of the code executed in each assembly, class, and procedure. The source editor highlights the tested code. You can export the results in popular formats such as Cobertura.
 
 ## Requirements
 
@@ -103,7 +103,7 @@ You can merge the results of several runs, for example from runs that use differ
 
    The coverage coloring might be incorrect if the source code has changed since the *.coverage* file was generated.
 
-- **To make results readable as text**, choose **Export Code Coverage Results**. This generates a readable *.coveragexml* file, which you could process with other tools or send easily in mail.
+- **To make results readable as text**, choose **Export Code Coverage Results**. This generates a readable *.coveragexml* file, which you could process with other tools or send easily in mail. You can also select export formats such as Cobertura.
 
 - **To send results to someone else**, send either a *.coverage* file or an exported *.coveragexml* file. They can then import the file. If they have the same version of the source code, they can see coverage coloring.
 
