@@ -42,7 +42,7 @@ For information about creating Visual Studio extensions, see [Visual Studio SDK]
 
 ## Use the Manage Extensions dialog box
 
-The **Manage Extensions** dialog box is the tool you use to find, install, and manage Visual Studio extensions. To open the **Manage Extensions** dialog, choose **Extensions** > **Manage Extensions**. Or, type **Extensions** in the search box and select **Manage Extensions**.
+In the Visual Studio IDE, the **Manage Extensions** dialog box is the tool you use to find and install Visual Studio extensions. To open the **Manage Extensions** dialog, choose **Extensions** > **Manage Extensions**. Or, type **Extensions** in the search box and select **Manage Extensions**.
 
 :::image type="content" source="media/finding-using-visual-studio-extensions/vs-2022/extensions-and-updates.png" alt-text="Screenshot of the Manage Extensions window in Visual Studio":::
 
@@ -56,7 +56,7 @@ To install extensions from within Visual Studio:
 
 1. From **Extensions** > **Manage Extensions**, find the extension you want to install. (If you know the name or part of the name of the extension, you can search in the **Search** window.)
 
-2. Select **Download**.
+1. Select **Download**.
 
    The extension is scheduled for install. Your extension will be installed after all instances of Visual Studio have been closed.
 
@@ -87,9 +87,9 @@ To restrict when per-user extensions load:
 
 1. Open the extensions options page (**Tools** > **Options** > **Environment** > **Extensions**).
 
-2. Clear the **Load per user extensions when running as administrator** check box.
+1. Clear the **Load per user extensions when running as administrator** check box.
 
-3. Restart Visual Studio.
+1. Restart Visual Studio.
 
 ## Automatic extension updates
 
