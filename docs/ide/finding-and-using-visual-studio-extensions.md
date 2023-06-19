@@ -1,7 +1,7 @@
 ---
 title: Find and install extensions
 description: Learn about extensions in Visual Studio and how to manage them so you have the controls, samples, templates, tools, and other components you need.
-ms.date: 06/16/2023
+ms.date: 06/19/2023
 ms.topic: conceptual
 f1_keywords:
 - vs.ExtensionManager
@@ -17,7 +17,7 @@ ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
-# Find, install, and manage extensions for Visual Studio
+# Find and install extensions for Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -40,9 +40,9 @@ For information about creating Visual Studio extensions, see [Visual Studio SDK]
 
 ::: moniker-end
 
-## Manage Extensions dialog box
+## Use the Manage Extensions dialog box
 
-Use the **Manage Extensions** dialog box to install and manage Visual Studio extensions. To open the **Manage Extensions** dialog, choose **Extensions** > **Manage Extensions**. Or, type **Extensions** in the search box and select **Manage Extensions**.
+The **Manage Extensions** dialog box is the tool you use to find, install, and manage Visual Studio extensions. To open the **Manage Extensions** dialog, choose **Extensions** > **Manage Extensions**. Or, type **Extensions** in the search box and select **Manage Extensions**.
 
 :::image type="content" source="media/finding-using-visual-studio-extensions/vs-2022/extensions-and-updates.png" alt-text="Screenshot of the Manage Extensions window in Visual Studio":::
 
