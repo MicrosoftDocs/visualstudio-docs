@@ -48,18 +48,28 @@
         href: cpu-insights.md
       - name: Performance insights
         items:
-        - name: Contains
-          href: perf-insights-contains.md
-        - name: ElementAt
-          href: perf-insights-elementat.md
+        - name: ConcurrentDictionary.Count
+          href: perf-insights-concurrentdictionary-count.md
+        - name: ConcurrentDictionary.Keys
+          href: perf-insights-concurrentdictionary-keys.md
+        - name: ConcurrentDictionary.ToArray
+          href: perf-insights-concurrentdictionary-toarray.md
+        - name: ConcurrentDictionary.Values
+          href: perf-insights-concurrentdictionary-values.md
         - name: Enum.HasFlag
           href: perf-insights-enum-hasflag.md
-        - name: Regex
-          href: perf-insights-regex.md
-        - name: String concatenation
-          href: perf-insights-string-concatenation.md
         - name: Enum.ToString
           href: perf-insights-enum-tostring.md
+        - name: Enumerable.Contains
+          href: perf-insights-contains.md
+        - name: Enumerable.ElementAt
+          href: perf-insights-elementat.md
+        - name: Regex
+          href: perf-insights-regex.md
+        - name: String.StartsWith
+          href: perf-insights-string-startswith.md
+        - name: String concatenation
+          href: perf-insights-string-concatenation.md
   - name: File IO
     href: use-file-io.md
   - name: Memory usage
