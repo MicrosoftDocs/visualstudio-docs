@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: MSBuild documentation
-summary: MSBuild is a general purpose build system, and is the build system used by Visual Studio. MSBuild uses the project file to understand how to build your projects.
+summary: MSBuild is a general purpose build system used by Visual Studio and the .NET SDK.
 brand: visual-studio
 metadata:
    title: MSBuild documentation
