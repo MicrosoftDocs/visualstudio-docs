@@ -1,7 +1,6 @@
   - name: Microsoft Help Viewer
     items:
-    - name: Overview
-      displayName: Help Viewer
+    - name: Help Viewer
       href: overview.md
     - name: Install and Manage Local Content
       displayName: Offline books docs
