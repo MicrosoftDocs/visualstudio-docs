@@ -11,6 +11,7 @@ metadata:
    author: ghogen
    ms.author: ghogen
    manager: jmartens
+   uhfheaderId: MSDocsHeader-MSBuild
    monikerRange: ">=vs-2019"
 
 highlightedContent:
