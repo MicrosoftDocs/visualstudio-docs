@@ -4,7 +4,7 @@ description: Read an overview about Visual Studio Tools for Unity, which is a fr
 
 ms.date: "12/10/2021"
 ms.technology: vs-unity-tools
-ms.prod: visual-studio-dev16
+ms.prod: visual-studio
 ms.topic: overview
 ms.assetid: 6cabc626-5310-4622-a743-210a9abb5535
 author: therealjohn

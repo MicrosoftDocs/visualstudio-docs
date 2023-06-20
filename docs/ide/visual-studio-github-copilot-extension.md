@@ -1,7 +1,7 @@
 ---
 title: About the GitHub Copilot extension for Visual Studio
 description: Use Visual Studio and the GitHub Copilot extension together to take advantage of AI and generate detailed info about your code, along with suggested edits, and even new code snippets, too. 
-ms.date: 04/25/2023
+ms.date: 06/09/2023
 ms.topic: overview 
 ms.custom: template-overview; ai-gen-docs
 author: TerryGLee
@@ -33,8 +33,8 @@ You can also use GitHub Copilot to convert comments to code, create unit tests, 
 Here's a detailed look at what each technology can do for you:
 
 - **[IntelliSense](using-intellisense.md)** is a code completion feature built-in to Visual Studio, which provides suggestions based on the current context. Such suggestions include variable names, functions, and classes. IntelliSense is language-specific and works with a limited set of programming languages.
-- **[IntelliCode](/visualstudio/intellicode/)** is an extension for Visual Studio that uses AI to provide more intelligent code completions based on patterns found in your codebase. It goes beyond IntelliSense by analyzing your code to understand common practices and recommend suggestions accordingly.
-- **[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)** is an AI-powered code completion extension for Visual Studio that leverages a vast dataset of publicly available code to provide context-aware code suggestions, snippets, and even entire functions. It works with many programming languages and offers more advanced assistance compared to IntelliCode and IntelliSense.
+- **[IntelliCode](/visualstudio/intellicode/)** is an extension for Visual Studio that uses AI to provide more intelligent [whole line completions](/visualstudio/intellicode/visual-studio-whole-line-completions) based on patterns found in your codebase. It goes beyond IntelliSense by analyzing your code to understand common practices and recommend suggestions accordingly.
+- **[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)** is an AI-powered code completion extension for Visual Studio that leverages a vast dataset of publicly available code to provide context-aware code suggestions, snippets, and even entire functions. It works with many programming languages and offers more advanced assistance compared to IntelliCode and IntelliSense.
  
 While all three aim to improve developer productivity, GitHub Copilot stands out with its ability to understand the context of your code and provide more accurate and relevant suggestions. 
 
@@ -61,7 +61,7 @@ After installation, you can start using GitHub Copilot by typing code in the edi
 
 ## Future features
 
-GitHub Copilot is continuing to evolve; to find out more about a new experience that's coming soon, see the [GitHub Copilot chat for Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/github-copilot-chat-for-visual-studio-2022/) blog post. 
+GitHub Copilot is continuing to evolve; to find out more about the new experience that's coming soon, see the [GitHub Copilot chat for Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/github-copilot-chat-for-visual-studio-2022/) and the [IntelliSense list in Visual Studio 2022 can now steer GitHub Copilot code completions](https://devblogs.microsoft.com/visualstudio/github-copilot-visual-studio-intellisense/) blog posts. 
 
 ## Next steps
 

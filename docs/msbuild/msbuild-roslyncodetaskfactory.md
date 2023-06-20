@@ -179,7 +179,7 @@ If the `Code` element has the `Type` attribute of `Fragment` or `Method`, then p
         </ParameterGroup>
         <Task>
             <Using Namespace="System" />
-            <Code Type="Fragment" Language="C#">
+            <Code Type="Fragment" Language="cs">
               <![CDATA[
               Log.LogMessage(MessageImportance.High, "Hello from an inline task created by Roslyn!");
               Log.LogMessageFromText($"Parameter1: '{Parameter1}'", MessageImportance.High);
@@ -214,7 +214,7 @@ These inline tasks can combine paths and get the file name.
         </ParameterGroup>
         <Task>
             <Using Namespace="System" />
-            <Code Type="Fragment" Language="C#">
+            <Code Type="Fragment" Language="cs">
             <![CDATA[
             Combined = Path.Combine(Paths);
             ]]>
@@ -231,7 +231,7 @@ These inline tasks can combine paths and get the file name.
         </ParameterGroup>
         <Task>
             <Using Namespace="System" />
-            <Code Type="Fragment" Language="C#">
+            <Code Type="Fragment" Language="cs">
             <![CDATA[
             FileName = System.IO.Path.GetFileName(Path);
             ]]>

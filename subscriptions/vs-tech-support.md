@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 2e0fd8bb-8f20-487c-b350-b8fde405ea5e
-ms.date: 05/24/2023
+ms.date: 06/15/2023
 ms.topic: how-to
 description: Learn how to activate the technical support benefit included with your Visual Studio subscription.
 ---
@@ -117,7 +117,7 @@ To use your Visual Studio subscription technical support benefit for issues rela
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | NA |
 ||
 
-<sup>1</sup> *Includes: Imagine Premium, BizSpark. Excludes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Partner Network (MPN), FTE, MCT Software & Services Developer, Imagine Standard, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services. Excludes:  NFR Basic*
+<sup>1</sup> *Includes: Imagine Premium, BizSpark. Excludes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Cloud Partner Program, FTE, MCT Software & Services Developer, Imagine Standard, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services. Excludes:  NFR Basic*
 
 <sup>2</sup> *Includes: Imagine Standard.*
 

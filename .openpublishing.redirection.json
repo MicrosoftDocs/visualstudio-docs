@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docker/tutorials/tutorial-deploy-docker-app-azure.md",
+      "redirect_url": "/visualstudio/docker/tutorials/docker-tutorial",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/dotfuscator/capabilities.md",
       "redirect_url": "/visualstudio/ide/dotfuscator/index",
       "redirect_document_id": false
@@ -17774,5 +17779,15 @@
       "redirect_url": "/visualstudio/subscriptions",
       "redirect_document_id": false
     },
+    {
+      "source_path": "subscriptions/manage-mpn-subscriptions.md",
+      "redirect_url": "/visualstudio/subscriptions/manage-mcpp-subscriptions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "subscriptions/program-mpn.md",
+      "redirect_url": "/visualstudio/subscriptions/program-mcpp",
+      "redirect_document_id": false
+    }
   ]
 }

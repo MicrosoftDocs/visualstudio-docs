@@ -14,7 +14,7 @@ ms.custom: template-tutorial, contperf-fy22q3
 
 # Tutorial: Create a Docker app with Visual Studio Code
 
-This tutorial is the beginning of a four-part series introducing [Docker](https://www.docker.com) for use with Visual Studio Code (VS Code).  You'll learn to create and run Docker containers, [persist data](tutorial-persist-data-layer-docker-app-with-vscode.md), and deploy your containerized application to Azure.
+This tutorial is the beginning of a four-part series introducing [Docker](https://www.docker.com) for use with Visual Studio Code (VS Code).  You'll learn to create and run Docker containers, [persist data](tutorial-persist-data-layer-docker-app-with-vscode.md), and manage multiple containers with Docker Compose.
 
 VS Code offers a Docker extension that lets you work with a local Docker Desktop service. Docker Desktop runs on your computer and manages your local containers, which are compact virtualized environments that provide a platform for building and running apps.  Containers don't require the size and overhead of a complete operating system.
 
@@ -134,8 +134,8 @@ A Dockerfile is a text-based script of instructions that is used to create a con
 1. Create a file named *Dockerfile* in the same folder as the file *package.json* with the following contents.
 
    ```dockerfile
-   FROM node:12-alpine
-   RUN apk add --no-cache python2 g++ make
+   FROM node:20-alpine
+   RUN apk add --no-cache python3 g++ make
    WORKDIR /app
    COPY . .
    RUN yarn install --production
@@ -161,8 +161,8 @@ A Dockerfile is a text-based script of instructions that is used to create a con
 
 You've used the *Dockerfile* to build a new container image.
 You might have noticed that many "layers" were downloaded.
-The *Dockerfile* starts from the `node:12-alpine` image.
-Unless that is on your computer already, that image needed to be downloaded.
+The *Dockerfile* starts from the `node:20-alpine` image.
+Unless that image was on your computer already, that image needed to be downloaded.
 
 After the image was downloaded, the *Dockerfile* copies your application and uses `yarn` to install your application's dependencies.
 The `CMD` value in the *Dockerfile* specifies the default command to run when starting a container from this image.

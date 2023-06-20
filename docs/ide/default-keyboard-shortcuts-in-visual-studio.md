@@ -1,7 +1,7 @@
 ---
 title: Keyboard shortcuts
 description: Learn about the default keyboard shortcuts in Visual Studio that allow you to access a variety of commands and windows.
-ms.date: 03/03/2023
+ms.date: 06/19/2023
 ms.topic: reference
 helpviewer_keywords:
 - shortcut keys [Visual Studio], keyboard binding schemes
