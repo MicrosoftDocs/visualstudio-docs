@@ -1,7 +1,7 @@
 ---
 title: "Supported Code Changes (C# and Visual Basic) | Microsoft Docs"
 description: Understand what code changes are supported when you are using the Edit and Continue feature while debugging a C# or Visual Basic project in Visual Studio.
-ms.date: "01/18/2023"
+ms.date: "06/20/2023"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -43,11 +43,10 @@ The table below shows the changes that may be made to C# and Visual Basic code d
 
 ## .NET 6+ improvements
 
-Improvements in .NET 6+ and Visual Studio 2022 and later versions include support for more types of edits that go beyond what was originally possible in older versions of Visual Studio. Improvements include:
+Improvements in .NET 6+ and Visual Studio 2022 and later versions include support for more types of edits that go beyond what was originally possible in older versions of Visual Studio. These improvements are available to both Hot Reload and the Edit and Continue experiences.
 
-[!INCLUDE [dotnet-hot-reload-and-edit-continue](../debugger/includes/dotnet-hot-reload-and-edit-continue.md)]
+The .NET 6+ experience is powered by the [Edit and Continue](../debugger/edit-and-continue-visual-csharp.md) mechanism and Roslyn. [Supported Edits](https://github.com/dotnet/roslyn/blob/main/docs/wiki/EnC-Supported-Edits.md) lists the types of edits currently supported by Roslyn and potential future enhancements.
 
-The preceding improvements are available to both Hot Reload and the Edit and Continue experiences.
 ::: moniker-end
 
 ## Unsupported changes to code
