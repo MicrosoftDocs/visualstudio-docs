@@ -11,7 +11,7 @@ ms.workload:
   - multiple
 ---
 
-# Slow Enum.HasFlag lookup
+# Slow Enum.HasFlag performance
 
 This article describes performance insights for <xref:System.Enum.HasFlag%2A?displayProperty=nameWithType>.
 
