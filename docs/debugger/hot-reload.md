@@ -1,7 +1,7 @@
 ---
 title: "Write and debug code by using Hot Reload"
 description: "Hot Reload, similar to edit and continue, allows you to make changes to your code while running apps"
-ms.date: 11/22/2022
+ms.date: 06/20/2023
 ms.topic: conceptual
 helpviewer_keywords:
   - "Hot reload"
