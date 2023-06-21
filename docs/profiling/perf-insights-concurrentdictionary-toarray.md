@@ -13,7 +13,7 @@ ms.workload:
 
 # Slow ConcurrentDictionary.ToArray lookup
 
-This article describes performance insights for <xref:System.Collections.Concurrent.ConcurrentDictionary%601.ToArray?displayProperty=nameWithType>.
+This article describes performance insights for <xref:System.Collections.Concurrent.ConcurrentDictionary%601.ToArray%2A?displayProperty=nameWithType>.
 
 ## Cause
 
