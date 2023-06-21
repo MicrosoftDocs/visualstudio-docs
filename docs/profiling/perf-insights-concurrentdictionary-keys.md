@@ -13,7 +13,7 @@ ms.workload:
 
 # Slow ConcurrentDictionary.Keys lookup
 
-This article describes performance insights for <xref:System.Collections.Concurrent.ConcurrentDictionary.Keys%2A?displayProperty=nameWithType>.
+This article describes performance insights for <xref:System.Collections.Concurrent.ConcurrentDictionary%601.Keys?displayProperty=nameWithType>.
 
 ## Cause
 

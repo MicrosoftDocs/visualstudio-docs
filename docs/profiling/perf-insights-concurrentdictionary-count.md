@@ -13,7 +13,7 @@ ms.workload:
 
 # Slow ConcurrentDictionary.Count lookup
 
-This article describes performance insights for <xref:System.Collections.Concurrent.ConcurrentDictionary.Count%2A?displayProperty=nameWithType>.
+This article describes performance insights for <xref:System.Collections.Concurrent.ConcurrentDictionary%601.Count?displayProperty=nameWithType>.
 
 ## Cause
 
