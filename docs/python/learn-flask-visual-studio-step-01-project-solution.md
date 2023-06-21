@@ -305,7 +305,7 @@ def hello(name):
     return "Hello " + name + "! "+ msg + "."
 ```
 
-To change the type, prefix the variable with `int`, `float`, `path` (which accepts slashes to delineate folder names), and `uuid`. For details, see [Variable rules]([https://flask.palletsprojects.com/quickstart/#variable-rules)](https://flask.palletsprojects.com/en/2.3.x/quickstart/#variable-rules) in the Flask documentation.
+To change the type, prefix the variable with `int`, `float`, `path` (which accepts slashes to delineate folder names), and `uuid`. For details, see [Variable rules](https://flask.palletsprojects.com/quickstart/#variable-rules) in the Flask documentation.
 
 ### Question: Can Visual Studio generate a requirements.txt file from a virtual environment after I install other packages?
 
