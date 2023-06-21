@@ -16,10 +16,10 @@ metadata:
 
 highlightedContent:
    items:
-   - title: Download Visual Studio
+   - title: Visual Studio
      itemType: download
      url: https://visualstudio.microsoft.com/downloads/
-   - title: Download .NET SDK
+   - title: .NET SDK
      itemType: download
      url: https://dotnet.microsoft.com/download
    - title: About MSBuild
