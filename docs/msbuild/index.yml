@@ -21,7 +21,7 @@ highlightedContent:
      url: https://visualstudio.microsoft.com/downloads/
    - title: Download .NET SDK
      itemType: download
-     url: https://dotnet.microsoft.com//download
+     url: https://dotnet.microsoft.com/download
    - title: About MSBuild
      itemType: overview
      url: msbuild.md
