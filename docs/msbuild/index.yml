@@ -16,9 +16,12 @@ metadata:
 
 highlightedContent:
    items:
-   - title: Download MSBuild
+   - title: Download Visual Studio
      itemType: download
-     url: https://aka.ms/vs/17/release/vs_BuildTools.exe
+     url: https://visualstudio.microsoft.com/downloads/
+   - title: Download .NET SDK
+     itemType: download
+     url: https://dotnet.microsoft.com//download
    - title: About MSBuild
      itemType: overview
      url: msbuild.md
@@ -31,6 +34,9 @@ conceptualContent:
   items:
     - title: Key concepts
       links:
+        - text: How MSBuild works
+          itemType: concept
+          url: build-process-overview.md
         - text: Properties
           url: msbuild-properties.md
           itemType: concept
@@ -43,9 +49,6 @@ conceptualContent:
         - text: Tasks
           itemType: concept
           url: msbuild-tasks.md
-        - text: How MSBuild works
-          itemType: concept
-          url: build-process-overview.md
         - text: .NET builds
           itemType: overview
           url: /dotnet/core/project-sdk/overview
