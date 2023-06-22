@@ -1,7 +1,7 @@
 ---
 title: Projects and Solutions, Options dialog box
 description: Learn how to use the General page in the Projects and Solutions section to define the behavior of Visual Studio related to projects and solutions.
-ms.date: 05/25/2023
+ms.date: 06/21/2023
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Projects.General
@@ -80,6 +80,18 @@ When selected, you can rename all the references in a project to that of the cod
 ### Prompt for symbolic renaming when renaming files
 
 When selected, Visual Studio displays a message box asking whether or not it should also rename all references in the project to that of the code element.
+
+::: moniker range="vs-2022"
+
+## Enable namespace update when moving files
+
+When selected, Visual Studio automatically adjusts the namespace of a file when it is moved to a new location.
+
+### Prompt to update namespace when moving files
+
+When selected, Visual Studio displays a message box asking whether or not it should automatically adjust the namespace of a file when it is moved to a new location.
+
+::: moniker-end
 
 ## See also
 
