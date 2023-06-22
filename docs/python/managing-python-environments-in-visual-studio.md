@@ -82,7 +82,7 @@ To the right of each listed environment, is a control that opens an **Interactiv
 
 > [!Tip]
 > When you expand the **Python Environments** window wide enough, you'll get a fuller view of your environments that is more convenient to work with.
-> ![Screenshot of Python Environments window expanded view-2019](media/environments/environments-expanded-view-2019.png)
+> ![Screenshot of Python Environments window expanded view-2019.](media/environments/environments-expanded-view-2019.png)
 
 ::: moniker-end
 
@@ -90,7 +90,7 @@ To the right of each listed environment, is a control that opens an **Interactiv
 
 > [!Tip]
 > When you expand the **Python Environments** window wide enough, you'll get a fuller view of your environments that is more convenient to work with.
-> ![Screenshot of Python Environments window expanded view-2022](media/environments/environments-expanded-view-2022.png)
+> ![Screenshot of Python Environments window expanded view-2022.](media/environments/environments-expanded-view-2022.png)
 
 ::: moniker-end
 
@@ -144,7 +144,7 @@ A conda environment is one you create using the `conda` tool, or with integrated
 
 1. In the Add environment dialog, select the **Conda environment** tab:
 
-   ![Screenshot of Conda environment tab in the Add environment dialog-2019](media/environments/environments-conda-1-2019.png)
+   ![Screenshot of Conda environment tab in the Add environment dialog-2019.](media/environments/environments-conda-1-2019.png)
 
 1. Configure the following fields:
 
@@ -166,7 +166,7 @@ A conda environment is one you create using the `conda` tool, or with integrated
 
    The output includes with a few CLI instructions once creation is complete:
 
-   ![Screenshot after successful creation of a conda environment-2019](media/environments/environments-conda-2-2019.png)
+   ![Screenshot after successful creation of a conda environment-2019.](media/environments/environments-conda-2-2019.png)
 
 1. Within Visual Studio, you can activate a conda environment for a project as you would any other environment as described on [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
 
@@ -179,7 +179,7 @@ A conda environment is one you create using the `conda` tool, or with integrated
 
 1. In the Add environment dialog, select the **Conda environment** tab:
 
-   ![Screenshot of Conda environment tab in the Add environment dialog-2022](media/environments/environments-conda-1-2022.png)
+   ![Screenshot of Conda environment tab in the Add environment dialog-2022.](media/environments/environments-conda-1-2022.png)
 
 1. Configure the following fields:
 
@@ -199,7 +199,7 @@ A conda environment is one you create using the `conda` tool, or with integrated
 
 1. Select **Create**, and observe progress in the **Output** window. The output includes with a few CLI instructions once creation is complete:
 
-   ![Screenshot after a successful creation of a conda environment-2022](media/environments/environments-conda-2-2022.png)
+   ![Screenshot after a successful creation of a conda environment-2022.](media/environments/environments-conda-2-2022.png)
 
 1. Within Visual Studio, you can activate a conda environment for a project as you would any other environment as described on [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
 
@@ -239,17 +239,17 @@ Use the following steps to identify an environment that's installed in a non-sta
 
 1. In the Add environment dialog, select the **Existing environment** tab:
 
-   ![Screenshot of existing environment tab in the Add environment dialog-2019](media/environments/environments-custom-1-2019.png)
+   ![Screenshot of existing environment tab in the Add environment dialog-2019.](media/environments/environments-custom-1-2019.png)
 
 1. Select the **Environment** drop-down, then select **Custom**:
 
-   ![Screenshot of custom environment option in the Add environment dialog-2019](media/environments/environments-custom-2-2019.png)
+   ![Screenshot of custom environment option in the Add environment dialog-2019.](media/environments/environments-custom-2-2019.png)
 
 1. In the provided fields in the dialog box, enter or browse (using **...**) to the path of the interpreter under **Prefix path**, which fills in most of the other fields.
 
 1. After reviewing those values and modifying as necessary, select **Add**.
 
-   ![Screenshot of fields to specify details for a custom environment option in the Add environment dialog0-2019](media/environments/environments-custom-3-2019.png)
+   ![Screenshot of fields to specify details for a custom environment option in the Add environment dialog0-2019.](media/environments/environments-custom-3-2019.png)
 
 You can also review and modify details of the environment at any time in the **Python Environments** window.
 
@@ -265,20 +265,20 @@ You can also review and modify details of the environment at any time in the **P
 
 1. In the Add environment dialog, select the **Existing environment** tab:
 
-   ![Screenshot of existing environment tab in the Add environment dialog-2022](media/environments/environments-custom-1-2022.png)
+   ![Screenshot of existing environment tab in the Add environment dialog-2022.](media/environments/environments-custom-1-2022.png)
 
    For example, select an existing environment and the path to the existing environment.
 
 1. Select the **Environment** drop-down, then select **Custom**:
 
-   ![Screenshot of custom environment option in the Add environment dialog-2022](media/environments/environments-custom-2-2022.png)
+   ![Screenshot of custom environment option in the Add environment dialog-2022.](media/environments/environments-custom-2-2022.png)
 
    For example, Anaconda 2021.05 in C:\Users\user\Anaconda3\python.exe
 
 1. In the provided fields in the dialog box, enter or browse (using **...**) to the path of the interpreter under **Prefix path**, which fills in most of the other fields.
 
 1. After reviewing those values and modifying as necessary, select **Add**.
-   ![Screenshot of fields to specify details for a custom environment option in the Add environment dialog-2022](media/environments/environments-custom-3-2022.png)
+   ![Screenshot of fields to specify details for a custom environment option in the Add environment dialog-2022.](media/environments/environments-custom-3-2022.png)
 
 You can also review and modify details of the environment at any time in the **Python Environments** window.
 
@@ -292,7 +292,7 @@ You can also review and modify details of the environment at any time in the **P
 
 If Visual Studio finds registry entries for an environment, but the path to the interpreter is invalid, then the **Python Environments** window shows the name with a strikeout font:
 
-![Screenshot of the Python Environments window showing an invalid environment-2019-2022](media/environments/environments-invalid-entry-2019.png)
+![Screenshot of the Python Environments window showing an invalid environment-2019-2022.](media/environments/environments-invalid-entry-2019.png)
 
 To correct an environment you wish to keep, first try using its installer's **Repair** process. The installers for standard Python 3.x, for example, include that option.
 
@@ -305,7 +305,7 @@ Use the following steps to modify the registry directly. Visual Studio automatic
 1. Expand the node that matches the distribution, such as **Python Core** for CPython or **ContinuumAnalytics** for Anaconda. For IronPython, expand the version number node.
 1. Inspect the values under the **InstallPath** node:
 
-   ![Screenshot of registry entries for a typical CPython installation](media/environments/environments-registry-entries.png)
+   ![Screenshot of registry entries for a typical CPython installation.](media/environments/environments-registry-entries.png)
 
    - If the environment still exists on your computer, change the value of **ExecutablePath** to the correct location. Also correct the **(Default)** and **WindowedExecutablePath** values as necessary.
    - If the environment no longer exists on your computer and you want to remove it from the **Python Environments** window, delete the parent node of **InstallPath**, such as **3.6** in the image above.
@@ -315,11 +315,11 @@ Use the following steps to modify the registry directly. Visual Studio automatic
 
 To remove a Python project, navigate to the Python environment in the **Solution Explorer** window. Right-click on the Python environment you wish to remove, and select **Remove**.
 
-![Screenshot of right-click Remove Python environment](media/remove-environment.png)
+![Screenshot of right-click Remove Python environment.](media/remove-environment.png)
 
 If you would like to keep the Python environment but remove it from your project, select **Remove**. If you would like to delete it permanently, select **Delete**.
 
-![Screenshot of delete or remove Python environment pop-up](media/delete-or-remove-environment.png)
+![Screenshot of delete or remove Python environment pop-up.](media/delete-or-remove-environment.png)
 
 ## See also
 
