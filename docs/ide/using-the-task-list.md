@@ -41,7 +41,7 @@ To show or hide columns, on the shortcut menu, choose **Show Columns**. Select t
 To change the order of the columns, drag any column header to the location that you want.
 
 > [!TIP]
-> The **Project Rank** column denotes project dependencies. Projects with a rank of 1 do not depend on any other projects. Projects with a rank of 2 depend on one or more projects with a rank of 1, and so on. For more information, see [/dotnet/api/microsoft.visualstudio.shell.tablecontrol.standardtablecolumndefinitions.projectrank](StandardTableColumnDefinitions.ProjectRank Field).
+> The **Project Rank** column denotes project dependencies. Projects with a rank of 1 do not depend on any other projects. Projects with a rank of 2 depend on one or more projects with a rank of 1, and so on. For more information, see [Standard Table Column Definitions: Project Rank field](/dotnet/api/microsoft.visualstudio.shell.tablecontrol.standardtablecolumndefinitions.projectrank).
 
 ## Tokens and comments
 
