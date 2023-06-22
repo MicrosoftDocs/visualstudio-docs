@@ -90,7 +90,7 @@ To the right of each listed environment, is a control that opens an **Interactiv
 > [!Tip]
 > When you expand the **Python Environments** window wide enough, you'll get a fuller view of your environments that is more convenient to work with.
 > ![Python Environments window expanded view-2022](media/environments/environments-expanded-view-2022.png)
-> ::: moniker-end
+ ::: moniker-end
 
 > [!Note]
 > Although Visual Studio respects the system-site-packages option, it doesn't provide a way to change it from within Visual Studio.
