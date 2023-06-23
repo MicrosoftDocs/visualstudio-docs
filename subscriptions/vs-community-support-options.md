@@ -101,12 +101,12 @@ Getting started with Azure Community is easy.
 2. Locate the Azure Community tile in the Support section, and select the **Get Help** link.
 
 3. Choose the channel you want to use
-+ [Azure on Microsoft Q&A](https://go.microsoft.com/fwlink/p/?linkid=2201730&clcid=0x409)
-+ [Azure on Stack Overflow](https://go.microsoft.com/fwlink/?linkid=2223575&clcid=0x409)
-+ [Azure support on Twitter](https://go.microsoft.com/fwlink/p/?linkid=2202691&clcid=0x409)
+   + [Azure on Microsoft Q&A](https://go.microsoft.com/fwlink/p/?linkid=2201730&clcid=0x409)
+   + [Azure on Stack Overflow](https://go.microsoft.com/fwlink/?linkid=2223575&clcid=0x409)
+   + [Azure support on Twitter](https://go.microsoft.com/fwlink/p/?linkid=2202691&clcid=0x409)
 
 
-### See also
+## See also
 
 + [Visual Studio documentation](/visualstudio/)
 + [Azure DevOps Services documentation](/azure/devops/)
