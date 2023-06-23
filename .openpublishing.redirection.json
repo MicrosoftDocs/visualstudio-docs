@@ -17793,6 +17793,26 @@
       "source_path": "subscriptions/program-mpn.md",
       "redirect_url": "/visualstudio/subscriptions/program-mcpp",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "subscriptions/vs-azure-community.md",
+      "redirect_url": "/visualstudio/subscriptions/vs-community-support-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "subscriptions/vs-developer-community.md",
+      "redirect_url": "/visualstudio/subscriptions/vs-community-support-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "subscriptions/vs-microsoft-qa.md",
+      "redirect_url": "/visualstudio/subscriptions/vs-community-support-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "subscriptions/vs-microsoft-tech-community.md",
+      "redirect_url": "/visualstudio/subscriptions/vs-community-support-options",
+      "redirect_document_id": false
     }
   ]
 }
