@@ -1,7 +1,7 @@
 ---
-title: Working with Textures and Images
-description: Learn to use the Image Editor in Visual Studio to create and modify textures and images in formats like those that are used in DirectX app development.
-ms.date: 11/04/2016
+title: Learn about textures and images
+description: Learn about textures and images and how Visual Studio can help you create and modify them in formats like those that are used in DirectX app development.
+ms.date: 06/23/2023
 ms.topic: conceptual
 ms.assetid: b9fbc8fa-66d1-4055-8460-24d8b8fbe43e
 author: TerryGLee
@@ -11,24 +11,20 @@ ms.technology: vs-ide-designers
 ms.workload:
 - multiple
 ---
-# Work with textures and images
+# What are textures and images?
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
-You can use the Image Editor in Visual Studio to create and modify textures and images. The Image Editor supports rich texture and image formats like those that are used in DirectX app development.
-
-> [!NOTE]
-> The Image Editor doesn't support low-color images like icons or cursors. To create or modify those kinds of images, use the [Image Editor for icons (C++)](/cpp/windows/image-editor-for-icons).
-
-## Textures and images
 
 Textures and images are, at a basic level, just tables of data that are used to provide visual detail in graphics apps. The kind of detail that a texture or image provides depends on how it's used, but color samples, alpha (transparency) values, surface normals, and height values are common examples. The primary difference between a texture and an image is that a texture is meant to be used together with a representation of shape—typically a 3D model—to express a complete object or scene, but an image is typically a stand-alone representation of the object or scene.
 
 Any texture can be encoded and compressed in a number of ways that are orthogonal to the type of data that a texture holds, or to the dimensionality or "shape" of the texture. However, different encoding and compression methods yield better results for different kinds of data.
 
-You can use the Image Editor to create and modify textures and images in ways that resemble other image editors. The Image Editor also provides mipmapping and other features for use with 3D graphics, and supports many of the highly-compressed, hardware-accelerated texture formats that DirectX supports.
+You can use the [Image editor](image-editor.md) to create and modify textures and images in ways that resemble other image editors. The Image Editor also provides mipmapping and other features for use with 3D graphics, and supports many of the highly-compressed, hardware-accelerated texture formats that DirectX supports.
 
-Common kinds of textures include:
+> [!NOTE]
+> The Image Editor doesn't support low-color images like icons or cursors. To create or modify those kinds of images, use the [Image Editor for icons (C++)](/cpp/windows/image-editor-for-icons).
+
+Typical kinds of textures include the following:
 
 ### Texture maps
 
@@ -46,9 +42,6 @@ Height maps contain height-field data. They are used to provide a form of geomet
 
 Cube maps can contain different types of data—for example, colors or normals—but are organized as six textures on the faces of a cube. Because of this, cube maps are not sampled by supplying texture coordinates, but by supplying a vector whose origin is the center of the cube; the sample is taken at the point where the vector intersects the cube. Cube maps are used to provide an approximation of the environment that can be used to calculate reflections—this is known as *environment mapping*—or to provide texture to spherical objects with less distortion than basic, two-dimensional textures can provide.
 
-## Related topics
+## Next steps
 
-|Title|Description|
-|-----------|-----------------|
-|[Image Editor](../designers/image-editor.md)|Describes how to use the Image Editor to work with textures and images.|
-|[Image Editor examples](../designers/how-to-create-a-basic-texture.md)|Provides links to topics that demonstrate how to use the Image Editor to perform common image processing tasks.|
+Learn to use the [Image editor](image-editor.md) in Visual Studio to create and modify textures and images. The Image Editor supports rich texture and image formats like those that are used in DirectX app development.

@@ -135,3 +135,4 @@ Textures that are used in the context of Direct2D must conform to these Direct2D
 
 ## Next steps
 
+Visit the [Work with textures and images](working-with-textures-and-images.md) to learn more about how to use the Image Editor in Visual Studio to create or modify textures and images that are used in DirectX app development.
