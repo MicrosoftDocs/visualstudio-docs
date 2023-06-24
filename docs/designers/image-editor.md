@@ -1,7 +1,7 @@
 ---
-title: Image Editor
+title: Learn about the Image Editor
 description: Learn how to work with the Visual Studio Image Editor to view and modify texture and image resources that are used in DirectX app development.
-ms.date: 08/10/2018
+ms.date: 06/23/2023
 ms.topic: conceptual
 f1_keywords:
 - vs.graphics.designer.imageeditor
@@ -13,13 +13,11 @@ ms.technology: vs-ide-designers
 ms.workload:
 - multiple
 ---
-# Image editor
+# What is the Image Editor in Visual Studio?
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-This article describes how to work with the Visual Studio **Image Editor** to view and modify texture and image resources.
-
-You can use the **Image Editor** to work with the kinds of rich texture and image formats that are used in DirectX app development. This includes support for popular image file formats and color encodings, features such as alpha-channels and MIP-mapping, and many of the highly compressed, hardware-accelerated texture formats that DirectX supports.
+The **Image Editor** in Visual Studio is a tool that you can use to view and modify texture and image resources. Specifically, you can use the **Image Editor** to work with the kinds of rich texture and image formats that are used in DirectX app development. This includes support for popular image file formats and color encodings, features such as alpha-channels and MIP-mapping, and many of the highly compressed, hardware-accelerated texture formats that DirectX supports.
 
 ## Supported formats
 
@@ -43,7 +41,7 @@ This section describes how to add an image to your Visual Studio project and con
 
 1. In **Solution Explorer**, open the shortcut menu for the project that you want to add the image to, and then choose **Add** > **New Item**.
 
-2. In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select an appropriate file format for the image.
+1. In the **Add New Item** dialog box, under **Installed**, select **Graphics**, and then select an appropriate file format for the image.
 
    > [!NOTE]
    > If you don't see the **Graphics** category in the **Add New Item** dialog, you may need to install the **Image and 3D model editors** component. Close the dialog and then select **Tools** > **Get Tools and Features** from the menu bar, to open the **Visual Studio Installer**. Select the **Individual components** tab, and then select the **Image and 3D model editors** component under the **Games and Graphics** category. Select **Modify**.
@@ -52,9 +50,9 @@ This section describes how to add an image to your Visual Studio project and con
 
    For information about how to choose a file format based on your requirements, see [Choose the image format](#choose-the-image-format).
 
-3. Specify the **Name** of the image file and the **Location** where you want it to be created.
+1. Specify the **Name** of the image file and the **Location** where you want it to be created.
 
-4. Choose the **Add** button.
+1. Choose the **Add** button.
 
 ### Choose the image format
 
@@ -97,15 +95,13 @@ Before you begin to work with the image that you created, you can change its def
 > [!NOTE]
 > Before you save your work, make sure to set the **Color Format** property if you want to use a specific color format. If the file format supports compression, you can adjust the compression settings when you save the file for the first time or when you choose **Save As**.
 
-## Work with the Image Editor
-
-This section describes how to use the **Image Editor** to modify textures and images.
+## Work with the Image Editor to modify textures and images
 
 Commands that affect the state of the **Image Editor** are located on the **Image Editor Mode** toolbar together with advanced commands. The toolbar is located along the topmost edge of the **Image Editor** design surface. Drawing tools are located on the **Image Editor** toolbar along the leftmost edge of the **Image Editor** design surface.
 
 ### Image Editor Mode toolbar
 
-![Image Editor mode toolbar in Visual Studio](../designers/media/digit-tre-modal-toolbar.png)
+![Screenshot of the Image Editor mode toolbar in Visual Studio.](../designers/media/digit-tre-modal-toolbar.png)
 
 The following table describes the items on the **Image Editor Mode** toolbar, which are listed in the order in which they appear from left to right:
 
@@ -129,7 +125,7 @@ The following table describes the items on the **Image Editor Mode** toolbar, wh
 
 ### Image Editor toolbar
 
-![Image Editor toolbar](../designers/media/digit-tre-toolbar.png)
+![Screenshot of the Image Editor toolbar in Visual Studio.](../designers/media/digit-tre-toolbar.png)
 
 The following table describes the items on the **Image Editor** toolbar, which are listed in the order in which they appear from top to bottom:
 
@@ -282,10 +278,96 @@ The following table describes tool properties:
 |Decrease tool thickness|**[**|
 |Increase tool thickness|**]**|
 
-## Related topics
+## Image Editor examples
 
-|Title|Description|
-|-----------|-----------------|
-|[Working with 3D assets for games and apps](../designers/working-with-3-d-assets-for-games-and-apps.md)|Provides an overview of the tools that you can use in Visual Studio to work with graphics assets such as textures and images, 3D models, and shader effects.|
-|[Model editor](../designers/model-editor.md)|Describes how to use the Visual Studio Model Editor to work with 3D models.|
-|[Shader designer](../designers/shader-designer.md)|Describes how to use the Visual Studio Shader Designer to work with shaders.|
+The examples in this section show you how to use the Image Editor to create a basic texture and how to generate and modify MIP levels.
+
+### Create a basic texture
+
+You can use the Image Editor to create and modify images and textures for your game or app. For example, you can set the size of the texture, set the foreground and background colors, use the alpha channel (transparency), use the **Fill** and **Ellipse** tools, and set tool properties.
+
+In this example, the following steps show you how to create a texture that represents a "bullseye" target. When you're finished, the texture should look like the following image. To better demonstrate the transparency in the texture, the Image Editor was configured to use a green, checkered pattern to display it.
+
+![Images that depicts a "Bullseye" target with transparency shown in green.](../designers/media/digit-bullseye-texture-in-editor.png)
+
+Before you begin, make sure that the **Properties** window is displayed. You use the **Properties** window to set the image size, change tool properties, and specify colors while you work.
+
+#### Create a "bullseye" target texture
+
+1. Create a texture with which to work. For information about how to add a texture to your project, see [Image Editor](../designers/image-editor.md#get-started).
+
+1. Set the image size to 512x512 pixels. In the **Properties** window, set the values of the **Width** and **Height** properties to `512`.
+
+1. On the Image Editor toolbar, choose the **Fill** tool. The **Properties** window now displays the properties of the **Fill** tool together with the image properties.
+
+1. Set the foreground color to fully transparent black. In the **Properties** window, in the **Colors** property group, select **Foreground**. Set the values of the **R**, **G**, **B**, and **A** properties next to the color picker to `0`.
+
+1. On the Image Editor toolbar, choose the **Fill** tool, and then press and hold the **Shift** key and choose any point in the image. Using the **Shift** key causes the alpha value of the fill color to replace the color in the image; otherwise, the alpha value is used to blend the fill color together with the color in the image.
+
+    > [!IMPORTANT]
+    > This step, together with the color selection in the previous step, ensures that the base image is prepared for the "bullseye" target texture that you will draw. When the image is filled with transparent black—and because the border of the target is black—there will be no aliasing artifacts around the target.
+
+1. On the Image Editor toolbar, choose the **Ellipse** tool.
+
+1. Set the foreground color to fully opaque black. Set the values of the **R**, **G**, and **B** properties to `0` and the value of the **A** property to `255`.
+
+1. Set the background color to fully opaque white. In the **Properties** window, in the **Colors** property group, select **Background**. Set the values of the **R**, **G**, **B**, and **A** properties to `255`.
+
+1. Set the width of the outline of the ellipse. In the **Properties** window, in the **Appearance** property group, set the value of the **Width** property to `8`.
+
+1. Make sure that anti-aliasing is enabled. In the **Properties** window, in the **Appearance** property group, make sure that the **Anti-alias** property is set.
+
+1. Using the **Ellipse** tool, draw a circle from pixel coordinate `(3, 3)` to pixel coordinate `(508, 508)`. To draw the circle more easily, you can press and hold the **Shift** key while you draw.
+
+    > [!NOTE]
+    > The pixel coordinates of the current pointer location are displayed on the Visual Studio status bar.
+
+1. Change the background color. Set **R** to `44`, **G** to `165`, **B** to `211`, and **A** to `255`.
+
+1. Draw another circle from pixel coordinate `(64, 64)` to pixel coordinate `(448, 448)`.
+
+1. Change the background color back to fully opaque white. Set **R**, **G**, **B**, and **A** to `255`.
+
+1. Draw another circle from pixel coordinate `(128, 128)` to pixel coordinate `(384, 384)`.
+
+1. Change the background color. Set **R** to `255`, **G** and **B** to `64`, and **A** to `255`.
+
+1. Draw another circle from pixel coordinate `(192, 192)` to pixel coordinate `(320, 320)`.
+
+The "bullseye" target texture is complete. Here's the final image, shown with transparency.
+
+![Image that shows the "bullseye" target texture that's been completed by using this procedure.](../designers/media/gfx_image_demo_bullseye.png)
+
+To follow up, you can generate MIP levels for this texture. For information on how to do so, see the next section.
+
+# How to: Create and modify MIP levels
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+This document demonstrates how to use the **Image Editor** to generate and modify *MIP levels* for texture-space Level-of-Detail (LoD).
+
+## Generating MIP levels
+*Mipmapping* is a technique that's used to increase rendering speed and reduce aliasing artifacts on textured objects by pre-calculating and storing several copies of a texture in different sizes. Each copy, which is known as a MIP level, is half the width and height of the previous copy. When a texture is rendered on the surface of an object, the MIP level that corresponds most closely to the screen-space area of the textured surface is automatically chosen. This means that the graphics hardware doesn't have to filter oversized textures to maintain consistent visual quality. Although the memory cost of storing the MIP levels is about 33 percent more than that of the original texture alone, the performance and image-quality gains justify it.
+
+#### To generate MIP levels
+
+1. Begin with a basic texture, as described in [How to: Create a basic texture](../designers/how-to-create-a-basic-texture.md). For best results, specify a texture that has a width and height that are a power of two in size, for example, 256, 512, 1024, and so on.
+
+2. Generate the MIP levels. On the **Image Editor Mode** toolbar, choose **Advanced** > **Tools** > **Generate Mips**.
+
+     Notice that the **Go to Next Mip Level** and **Go to Previous Mip Level** buttons now appear on the **Image Editor Mode** toolbar. If the **Properties** window is displayed, also notice that the read-only properties **Mip Level** and **Mip Level Count** now appear in the image properties.
+
+## Modifying MIP levels
+To achieve special effects or increase image quality at specific levels of detail, you can modify each MIP level individually. For example, you can give a textured object a different appearance at a distance (greater distance corresponds to smaller MIP levels), or you can ensure that textures that contain text or symbols remain legible even at smaller MIP levels.
+
+#### To modify an individual MIP level
+
+1. Select the MIP level that you want to modify. On the **Image Editor Mode** toolbar, use the **Go to Next MIP Level** and **Go to Previous MIP Level** buttons to move between MIP levels.
+
+1. After you select the MIP level that you want to modify, you can use the drawing tools to modify it without changing the contents of other MIP levels. The drawing tools are available on the **Image Editor** toolbar. After you select a tool, you can change its properties in the **Properties** window. 
+
+> [!NOTE]
+> If you do not need to modify the contents of individual MIP levels—as you might do to achieve certain effects—we recommend that you generate mipmaps from the source texture at build time. This helps to ensure that MIP levels stay in sync with the source texture because modifications to a MIP level are not propagated to other levels automatically. For more information on how to generate mipmaps at build time, see [How to: Export a texture that contains mipmaps](../designers/how-to-export-a-texture-that-contains-mipmaps.md).
+
+## Next steps
+
+Visit the [Export textures](export-textures.md) page to learn how to use the Image Content Pipeline to export textures that contain [mipmaps](#export-a-texture-that-contains-mipmaps), or that have [premultiplied alpha](#how-to-export-a-texture-that-has-premultiplied-alpha), and even those that can be used with [Direct2D or JavaScript apps](#how-to-export-a-texture-for-use-with-direct2d-or-javascript-apps).

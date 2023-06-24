@@ -2,7 +2,7 @@
 title: Learn about textures and images
 description: Learn about textures and images and how Visual Studio can help you create and modify them in formats like those that are used in DirectX app development.
 ms.date: 06/23/2023
-ms.topic: conceptual
+ms.topic: overview
 ms.assetid: b9fbc8fa-66d1-4055-8460-24d8b8fbe43e
 author: TerryGLee
 ms.author: tglee
