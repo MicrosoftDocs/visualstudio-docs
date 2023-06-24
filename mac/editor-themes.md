@@ -1,10 +1,10 @@
 ---
 title: "Editor Themes"
-description: "This article describes how to edit the theme of the editor or add your own in Visual Studio for Mac"
+description: "This article describes how to edit the theme of the editor or add your own in Visual Studio for Mac."
 author: heiligerdankgesang 
 ms.author: dominicn
 manager: dominicn
-ms.date: 11/06/2018
+ms.date: 06/23/2023
 ms.assetid: 4C1B7952-CD45-4132-AD6B-01CF993D83F8
 ms.topic: reference
 ---
@@ -15,6 +15,9 @@ ms.topic: reference
 Editor themes can be changed to any of the 10 color schemes provided by default in Visual Studio for Mac via the **Visual Studio > Preferences > Text Editor > Color Themes** menu options:
 
 ![Color Theme Selection](media/source-editor-image17.png)
+
+In box themes are not user accessible at this time as they're embedded within the IDE as resources. You can definitely add themes or use themes you find elsewhere as a scaffold to make your own theme. There's no UI to create new or edit existing themes.
+The default editor theme is tied to whether the user picked the dark or light IDE theme. You can't change the colors without using themes. You can take a [theme file](https://github.com/mono/monodevelop/tree/master/main/src/core/MonoDevelop.Ide/MonoDevelop.Ide.Editor.Highlighting/themes) and modify it or create a brand new one.
 
 ## Adding new themes
 
