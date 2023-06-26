@@ -5,8 +5,8 @@ ms.date: 10/20/2022
 ms.topic: tutorial
 helpviewer_keywords:
   - "deployment, publish settings"
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-deployment
 ms.workload:

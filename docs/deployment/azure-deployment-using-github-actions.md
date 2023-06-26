@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
   - "deployment, GitHub Actions"
   - GitHub Actions, publish
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-deployment
 monikerRange: '>= vs-2019'

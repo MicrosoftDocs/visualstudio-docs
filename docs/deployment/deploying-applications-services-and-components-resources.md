@@ -12,8 +12,8 @@ dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-deployment
 ms.workload:
