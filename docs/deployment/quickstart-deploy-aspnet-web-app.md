@@ -6,8 +6,8 @@ ms.topic: quickstart
 ms.custom: devdivchpfy22
 helpviewer_keywords:
   - "deployment, web app"
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-deployment
 monikerRange: '>= vs-2019'
