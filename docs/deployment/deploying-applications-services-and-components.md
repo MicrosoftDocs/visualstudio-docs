@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "deploying applications [Visual Studio]"
   - "deploying applications [Visual Studio], about deploying applications"
   - "components [.NET Framework], deploying"
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-deployment
 ms.workload:

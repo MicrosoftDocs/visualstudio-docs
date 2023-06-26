@@ -108,18 +108,12 @@
       href: vs-pluralsight.md
   - name: Support
     items:
-    - name: Azure Community
-      href: vs-azure-community.md
+    - name: Community support
+      href: vs-community-support-options.md
     - name: Concierge Support
       href: vs-concierge-chat.md
     - name: Technical Support
       href: vs-tech-support.md
-    - name: Developer Community
-      href: vs-developer-community.md
-    - name: Microsoft Q&A
-      href: vs-microsoft-qa.md
-    - name: Microsoft Tech Community
-      href: vs-microsoft-tech-community.md
 - name: Software downloads
   items:
   - name: Product availability

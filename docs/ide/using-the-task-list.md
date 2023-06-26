@@ -1,7 +1,7 @@
 ---
 title: Use the Task List
 description: Learn how the Task List in Visual Studio can help you track and use code comments more efficiently.
-ms.date: 12/16/2022
+ms.date: 06/22/2023
 ms.topic: how-to
 f1_keywords:
 - TaskListWindow
@@ -39,6 +39,9 @@ To change the sort order of the list, select the header of any column. To furthe
 To show or hide columns, on the shortcut menu, choose **Show Columns**. Select the columns that you want to show or hide.
 
 To change the order of the columns, drag any column header to the location that you want.
+
+> [!TIP]
+> The **Project Rank** column denotes project dependencies. Projects with a rank of 1 do not depend on any other projects. Projects with a rank of 2 depend on one or more projects with a rank of 1, and so on. For more information, see [Standard Table Column Definitions: Project Rank field](/dotnet/api/microsoft.visualstudio.shell.tablecontrol.standardtablecolumndefinitions.projectrank).
 
 ## Tokens and comments
 
