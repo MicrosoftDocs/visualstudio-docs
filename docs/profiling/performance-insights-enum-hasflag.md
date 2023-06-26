@@ -23,7 +23,7 @@ This article describes performance insights for <xref:System.Enum.HasFlag%2A?dis
 
 Using `Enum.HasFlag` in a performance sensitive context can lead to unnecessary memory allocations, such as expensive boxings and type checks.
 
-.NET has [optimized](https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-core-2-1/) this method in .Net 5.0+. If you are building against these frameworks, then using `Enum.HasFlag` is typically fine. However, be aware that there are [caveats](https://github.com/dotnet/runtime/issues/55455) that you should investigate. If performance issues remain, use bitwise operations instead.
+.NET has [optimized](https://devblogs.microsoft.com/dotnet/performance-improvements-in-net-core-2-1/) this method in .NET 5.0+. If you are building against these frameworks, then using `Enum.HasFlag` is typically fine. However, be aware that there are [caveats](https://github.com/dotnet/runtime/issues/55455) that you should investigate. If performance issues remain, use bitwise operations instead.
 
 ## How to investigate a warning
 

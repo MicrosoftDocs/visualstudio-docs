@@ -29,7 +29,7 @@ If you don't need to consider thread-safety, `ConcurrentDictionary` can be more 
 
 ## How to investigate a warning
 
-In the CPU Usage tool, click **View source code** to go to the [call tree](../profiling/cpu-usage.md#BKMK_Call_tree_structure) and source line highlighting view, which shows where the most amount of time is spent in `ConcurrentDictionary.Values`. From this point, trace back to where the method is used and check whether you can use enumerate the key-value pairs instead.
+In the CPU Usage tool, click **View source code** to go to the [call tree](../profiling/cpu-usage.md#BKMK_Call_tree_structure) and source line highlighting view, which shows where the most amount of time is spent in `ConcurrentDictionary.Values`. From this point, trace back to where the method is used and check whether you can enumerate the key-value pairs instead.
 
 ## See also
 
