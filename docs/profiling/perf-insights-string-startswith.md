@@ -21,7 +21,7 @@ This article describes performance insights for <xref:System.String.StartsWith%2
 
 ## Performance insight description
 
-Avoid using `string.StartsWith(string-of-len-1)` or `string.EndsWith(string-of-len-1)` inside a performance-sensitive context because it leads to CPU/memory overhead. In addition to checking string length, you might choose to use `string.XxxWith(string, StringComparison.Ordinal)` or `string.XxxWith(string, StringComparison.OrdinalIgnoreCase)` instead.
+Avoid using `string.StartsWith(string-of-len-1)` or `string.EndsWith(string-of-len-1)` inside a performance-sensitive context because it involves a culture-sensitive comparison, which leads to more CPU/memory overhead. Instead, use overrides that specify the needed comparison, leveraging `StringComparison.Ordinal` or `StringComparison.OrdinalIgnoreCase` if possible.
 
 ## How to investigate a warning
 

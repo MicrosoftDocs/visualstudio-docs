@@ -21,9 +21,9 @@ This article describes performance insights for <xref:System.Collections.Concurr
 
 ## Performance insight description
 
-Some `ConcurrentDictionary` methods, such as `ConcurrentDictionary.ToArray`, are not concurrent and actually take a lock.
+Some `ConcurrentDictionary` methods, such as `ConcurrentDictionary.ToArray`, are not concurrent and actually lock the entire collection.
 
-If you need to use lots of `ConcurrentDictionary.ToArray` method calls, for example, one per request, do not use the default constructor. The default constructor uses concurrency level of 4 * number of cores on the box, and allows for resizing when more items are added. Use a smaller number as the concurrency level instead, and then check the overall memory usage.
+If you need to use lots of `ConcurrentDictionary.ToArray` method calls, for example, one per request, do not use the default constructor, and instead use a constructor that allows you to specify the concurrency value. The default constructor uses concurrency level equal to the number of cores on the box. Use a smaller number as the concurrency level instead, and then check the overall memory usage.
 
 If you don't need to consider thread-safety, `ConcurrentDictionary` can be more costly than `Dictionary`. So check whether you need to use `ConcurrentDictionary`.
 

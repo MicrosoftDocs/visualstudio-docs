@@ -21,9 +21,9 @@ This article describes performance insights for <xref:System.Collections.Concurr
 
 ## Performance insight description
 
-`ConcurrentDictionary.Keys` takes a lock and makes a copy. Enumerate key-value pairs for efficient access to keys or values and avoid using inside loops.
+`ConcurrentDictionary.Keys` takes a lock and makes a read-only copy of the list of keys. Enumerating the key-value pairs can be more efficient in many circumstances because it avoids locking the entire collection to copy all of the keys.
 
-If you need to use lots of `ConcurrentDictionary.Keys` method calls, for example, one per request, do not use the default constructor. The default constructor uses concurrency level of 4 * number of cores on the box, and allows for resizing when more items are added. Use a smaller number as the concurrency level instead, and then check the overall memory usage.
+If you need to use lots of `ConcurrentDictionary.Keys` method calls, for example, one per request, do not use the default constructor, and instead use a constructor that allows you to specify the concurrency value. The default constructor uses concurrency level equal to the number of cores on the box. Use a smaller number as the concurrency level instead, and then check the overall memory usage.
 
 If you don't need to consider thread-safety, `ConcurrentDictionary` can be more costly than `Dictionary`. So check whether you need to use `ConcurrentDictionary`.
 

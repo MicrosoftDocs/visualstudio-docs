@@ -23,7 +23,7 @@ This article describes performance insights for <xref:System.Collections.Concurr
 
 Some `ConcurrentDictionary` methods, such as `ConcurrentDictionary.Count`, are not concurrent and actually take a lock. Avoid calling this method frequently. If you need to use it, you might use a separate count in your code (for example, using `Interlocked.Increment`), or you might use an approximate count.
 
-If you need to use lots of `ConcurrentDictionary.Count` method calls, for example, one per request, do not use the default constructor. The default constructor uses concurrency level of 4 * number of cores on the box, and allows for resizing when more items are added. Use a smaller number as the concurrency level instead, and then check the overall memory usage.
+If you need to use lots of `ConcurrentDictionary.Count` method calls, for example, one per request, do not use the default constructor, and instead use a constructor that allows you to specify the concurrency value. The default constructor uses concurrency level equal to the number of cores on the box. Use a smaller number as the concurrency level instead, and then check the overall memory usage.
 
 If you don't need to consider thread-safety, `ConcurrentDictionary` can be more costly than `Dictionary`. So check whether you need to use `ConcurrentDictionary`.
 

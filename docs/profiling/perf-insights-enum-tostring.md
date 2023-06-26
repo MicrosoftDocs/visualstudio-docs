@@ -21,7 +21,9 @@ This article describes performance insights for <xref:System.Enum.ToString%2A?di
 
 ## Performance insight description
 
-`Enum.ToString` method is expensive because it uses reflection to check if the enum is a flag. If the app is repeatedly accessing the same value, try a caching implementation instead of `Enum.ToString` to avoid the issue.
+`Enum.ToString` method is expensive because it uses reflection to check if the enum is a flag. Reflection is a mechanism that allows you to inspect and manipulate the metadata of types, objects, properties, and methods at runtime. Reflection can be costly, especially when used excessively or in performance-critical scenarios.
+
+If the app is repeatedly accessing the same value, try a caching implementation instead of `Enum.ToString` to avoid the issue.
 
 ## How to investigate a warning
 
