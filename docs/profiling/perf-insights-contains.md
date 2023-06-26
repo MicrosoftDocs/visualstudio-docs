@@ -25,7 +25,7 @@ The `Enumerable.Contains` extension method is designed to try and use the fastes
 
 ## How to investigate a warning
 
-In the CPU Usage tool, click **View source code** to go to the [call tree](../profiling/cpu-usage.md#BKMK_Call_tree_structure) and source line highlighting view, which shows where the the most amount of time is spent in `Enumerable.Contains`. From this point, trace back to where the underlying enumerable collection is created and check whether a more appropriate data structure such as `HashSet` can be used instead.
+In the CPU Usage tool, click **View source code** to go to the [call tree](../profiling/cpu-usage.md#BKMK_Call_tree_structure) and source line highlighting view, which shows where the most amount of time is spent in `Enumerable.Contains`. From this point, trace back to where the underlying enumerable collection is created and check whether a more appropriate data structure such as `HashSet` can be used instead.
 
 ## See also
 
