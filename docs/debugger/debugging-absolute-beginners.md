@@ -311,7 +311,8 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
 ### Debug the app
 
 1. With the app still running, insert a breakpoint.
-    Right-click next to the `Console.WriteLine` method to get the context menu and select **Insert Breakpoint** from the fly-out menu.
+
+    Right-click next to the `Console.WriteLine` method to get the context menu and select **Breakpoint** > **Insert Breakpoint** from the fly-out menu.
 
     #### [C#](#tab/csharp)
 
@@ -346,6 +347,12 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
     "Spiral" is actually the correct value you were expecting to print to the console! So it is a good start that you can access this value in this code while running the app. In this scenario, we're using the incorrect API. We'll see if we can fix this while running code in the debugger.
 
 1. In the same code, while still debugging, put your cursor at the end of `theGalaxy.GalaxyType` and change it to `theGalaxy.GalaxyType.MyGType`. Although you can make this change, the code editor shows you an error indicating it can't compile this code. (In Visual Basic, you won't see the error, and this section of code works)
+
+1. Press **F11** (**Debug** > **Step Into** or the **Step Into** button in the Debug Toolbar) to execute the current line of code.
+
+    **F11** advances the debugger (and executes code) one statement at a time. **F10** (**Step Over**) is a similar command, and both are extremely useful when learning how to use the debugger.
+
+   The Edit and Continue dialog box appears, indicating that edits can't be compiled.
 
     :::image type="content" source="../debugger/media/beginners-edit.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and an Edit and Continue message box with the Edit button selected.":::
 
@@ -415,9 +422,7 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
 
     :::image type="content" source="../debugger/media/beginners-inspecting-data.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code in yellow and a small window showing the value of the type variable as 73 'I'.":::
 
-1. Now, press **F11** (**Debug** > **Step Into** or the **Step Into** button in the Debug Toolbar).
-
-    **F11** advances the debugger (and executes code) one statement at a time. **F10** (**Step Over**) is a similar command, and both are extremely useful when learning how to use the debugger.
+1. Now, press **F11** (**Debug** > **Step Into**).
 
 1. Press **F11** until you stop on line of code in the `switch` statement for a value of 'I' (`Select` statement for Visual Basic). Here, you see a clear problem resulting from a typo. You expected the code to advance to where it sets `MyGType` as an Irregular galaxy type, but the debugger instead skips this code completely and pauses on the `default` section of the `switch` statement (`Else` statement in Visual Basic).
 
