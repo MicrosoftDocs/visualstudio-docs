@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords:
   - "Publish tool"
   - ".NET applications, publishing"
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 monikerRange: '>= vs-2019'
 ms.technology: vs-ide-deployment
