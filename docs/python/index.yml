@@ -43,8 +43,6 @@ landingContent:
              url: managing-python-environments-in-visual-studio.md
            - text: Write C/C++ extensions for Python
              url: working-with-c-cpp-python-in-visual-studio.md
-      - linkListType: tutorial
-        links:
 
   # Card
   - title: Python web development
