@@ -32,7 +32,7 @@ Mipmapping provides automatic screen-space Level-of-Detail for textured surfaces
 
 **To export a texture that has mipmaps**
 
-1. Begin with a basic texture. Load an existing image file, or create one as described in [How to: Create a basic texture](../designers/how-to-create-a-basic-texture.md). To support mipmaps, specify a texture that has a width and height that are both the same power of two in size, for example, 64x64, 256x256, or 512x512.
+1. Begin with a basic texture. Load an existing image file, or create one as described in [Create a basic texture](../designers/how-to-create-a-basic-texture.md). To support mipmaps, specify a texture that has a width and height that are both the same power of two in size, for example, 64x64, 256x256, or 512x512.
 
 1. Configure the texture file you just created so that it's processed by the Image Content Pipeline. In **Solution Explorer**, open the shortcut menu for the texture file you created and then choose **Properties**. On the **Configuration Properties** > **General** page, set the **Item Type** property to **Image Content Pipeline**. Make sure that the **Content** property is set to **Yes** and **Exclude From Build** is set to **No**. Select **Apply**.
 
@@ -44,7 +44,7 @@ Mipmapping provides automatic screen-space Level-of-Detail for textured surfaces
 
 When you build the project, the Image Content Pipeline converts the source image from the working format to the output format that you specified, including MIP levels. The result is copied to the project's output directory.
 
-## How to: Export a texture that has premultiplied alpha
+## Export a texture that has premultiplied alpha
 
 The Image Content Pipeline can generate premultiplied alpha textures from a source image. These can be simpler to use and more robust than textures that don't contain premultiplied alpha.
 
@@ -68,7 +68,7 @@ Premultiplied alpha offers several advantages over conventional, non-premultipli
 
 **To create a texture that uses premultiplied alpha**
 
-1. Begin with a basic texture. Load an existing image file, or create one as described in [How to: Create a basic texture](../designers/how-to-create-a-basic-texture.md).
+1. Begin with a basic texture. Load an existing image file, or create one as described in [Create a basic texture](../designers/how-to-create-a-basic-texture.md).
 
 1. Configure the texture file so that it's processed by the Image Content Pipeline. In **Solution Explorer**, open the shortcut menu for the texture file and then choose **Properties**. On the **Configuration Properties** > **General** page, set the **Item Type** property to **Image Content Pipeline**. Make sure that the **Content** property is set to **Yes** and **Exclude From Build** is set to **No**, and then choose the **Apply** button. The **Image Content Pipeline** configuration property page appears.
 
@@ -78,7 +78,7 @@ Premultiplied alpha offers several advantages over conventional, non-premultipli
 
    When you build the project, the Image Content Pipeline converts the source image from the working format to the output format that you specified—this includes conversion of the image to premultiplied alpha format—and the result is copied to the project's output directory.
 
-## How to: Export a texture for use with Direct2D or JavaScript apps
+## Export a texture for use with Direct2D or JavaScript apps
 
 The Image Content Pipeline can generate textures that are compatible with Direct2D's internal rendering conventions. Textures of this kind are suitable for use in apps that use Direct2D, and in UWP apps created by using JavaScript.
 
@@ -98,7 +98,7 @@ This document demonstrates these activities:
 
 Textures that are used in the context of Direct2D must conform to these Direct2D internal rendering conventions:
 
-- Direct2D implements transparency and translucency by using premultiplied alpha. Textures used with Direct2D must contain premultiplied alpha, even if the texture doesn't use transparency or translucency. For more information about premultiplied alpha, see [How to: Export a texture that has Premultiplied Alpha](../designers/how-to-export-a-texture-that-has-premultiplied-alpha.md).
+- Direct2D implements transparency and translucency by using premultiplied alpha. Textures used with Direct2D must contain premultiplied alpha, even if the texture doesn't use transparency or translucency. For more information about premultiplied alpha, see the "[Export a texture that has Premultiplied Alpha](../designers/how-to-export-a-texture-that-has-premultiplied-alpha.md).
 
 - The texture must be supplied in *.dds* format, by using one of these block-compression formats:
 
@@ -112,7 +112,7 @@ Textures that are used in the context of Direct2D must conform to these Direct2D
 
 **To create a texture that's compatible with Direct2D rendering conventions**
 
-1. Begin with a basic texture. Load an existing image, or create a new one as described in [How to: Create a basic texture](../designers/how-to-create-a-basic-texture.md). To support block-compression in *.dds* format, specify a texture that has a width and height that are multiples of four in size, for example, 100x100, 128x128, or 256x192. Because mipmapping isn't supported, the texture doesn't have to be square and doesn't have to be a power of two in size.
+1. Begin with a basic texture. Load an existing image, or create a new one as described in [Create a basic texture](../designers/how-to-create-a-basic-texture.md). To support block-compression in *.dds* format, specify a texture that has a width and height that are multiples of four in size, for example, 100x100, 128x128, or 256x192. Because mipmapping isn't supported, the texture doesn't have to be square and doesn't have to be a power of two in size.
 
 1. Configure the texture file so that it's processed by the Image Content Pipeline. In **Solution Explorer**, open the shortcut menu for the texture file you created and then choose **Properties**. On the **Configuration Properties** > **General** page, set the **Item Type** property to **Image Content Pipeline**. Make sure that the **Content** property is set to **Yes** and **Exclude From Build** is set to **No**, and then choose the **Apply** button. The **Image Content Pipeline** configuration property page appears.
 
