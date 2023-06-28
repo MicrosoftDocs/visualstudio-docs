@@ -340,26 +340,28 @@ The "bullseye" target texture is complete. Here's the final image, shown with tr
 
 To follow up, you can generate MIP levels for this texture. For information on how to do so, see the next section.
 
-# How to: Create and modify MIP levels
+## How to: Create and modify MIP levels
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This document demonstrates how to use the **Image Editor** to generate and modify *MIP levels* for texture-space Level-of-Detail (LoD).
 
-## Generating MIP levels
+### Generating MIP levels
+
 *Mipmapping* is a technique that's used to increase rendering speed and reduce aliasing artifacts on textured objects by pre-calculating and storing several copies of a texture in different sizes. Each copy, which is known as a MIP level, is half the width and height of the previous copy. When a texture is rendered on the surface of an object, the MIP level that corresponds most closely to the screen-space area of the textured surface is automatically chosen. This means that the graphics hardware doesn't have to filter oversized textures to maintain consistent visual quality. Although the memory cost of storing the MIP levels is about 33 percent more than that of the original texture alone, the performance and image-quality gains justify it.
 
-#### To generate MIP levels
+**To generate MIP levels**
 
 1. Begin with a basic texture, as described in [How to: Create a basic texture](../designers/how-to-create-a-basic-texture.md). For best results, specify a texture that has a width and height that are a power of two in size, for example, 256, 512, 1024, and so on.
 
-2. Generate the MIP levels. On the **Image Editor Mode** toolbar, choose **Advanced** > **Tools** > **Generate Mips**.
+1. Generate the MIP levels. On the **Image Editor Mode** toolbar, choose **Advanced** > **Tools** > **Generate Mips**.
 
      Notice that the **Go to Next Mip Level** and **Go to Previous Mip Level** buttons now appear on the **Image Editor Mode** toolbar. If the **Properties** window is displayed, also notice that the read-only properties **Mip Level** and **Mip Level Count** now appear in the image properties.
 
-## Modifying MIP levels
+### Modifying MIP levels
+
 To achieve special effects or increase image quality at specific levels of detail, you can modify each MIP level individually. For example, you can give a textured object a different appearance at a distance (greater distance corresponds to smaller MIP levels), or you can ensure that textures that contain text or symbols remain legible even at smaller MIP levels.
 
-#### To modify an individual MIP level
+**To modify an individual MIP level**
 
 1. Select the MIP level that you want to modify. On the **Image Editor Mode** toolbar, use the **Go to Next MIP Level** and **Go to Previous MIP Level** buttons to move between MIP levels.
 
@@ -370,4 +372,4 @@ To achieve special effects or increase image quality at specific levels of detai
 
 ## Next steps
 
-Visit the [Export textures](export-textures.md) page to learn how to use the Image Content Pipeline to export textures that contain [mipmaps](#export-a-texture-that-contains-mipmaps), or that have [premultiplied alpha](#how-to-export-a-texture-that-has-premultiplied-alpha), and even those that can be used with [Direct2D or JavaScript apps](#how-to-export-a-texture-for-use-with-direct2d-or-javascript-apps).
+Visit the [Export textures](export-textures.md) page to learn how to use the Image Content Pipeline to export textures that contain [mipmaps](#export-a-texture-that-contains-mipmaps), or that have [premultiplied alpha](#how-to-export-a-texture-that-has-premultiplied-alpha), and even those that you want to use with [Direct2D or JavaScript apps](#how-to-export-a-texture-for-use-with-direct2d-or-javascript-apps).
