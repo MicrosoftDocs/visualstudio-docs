@@ -1,7 +1,7 @@
 ---
 title: Find code changes and other history with CodeLens
 description: Learn about CodeLens and how to use it explore the history of your code without having to leave the editor.
-ms.date: 05/05/2022
+ms.date: 06/29/2023
 ms.topic: conceptual
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.All_Languages.CodeLens
@@ -18,12 +18,12 @@ ms.workload:
 
 ::: moniker range="vs-2022"
 
-CodeLens lets you stay focused on your work while you find out what happened to your code&ndash;without leaving the editor. You can find references to a piece of code, changes to your code, linked bugs, Azure DevOps work items, code reviews, and unit tests.
+With CodeLens, you can stay focused on your work while you find out what happened to your code&ndash;all without leaving the editor. You can find references to a piece of code, changes to your code, linked bugs, Azure DevOps work items, code reviews, and unit tests.
 
 > [!NOTE]
 > CodeLens is available in Visual Studio Community edition, however, the *source control* indicators are not available in this edition.
 
-See where and how the individual parts of your code are used in your solution:
+CodeLens can show you both where and how the individual parts of your code are used in your solution.
 
 ![CodeLens indicators in the code editor](../ide/media/codelens-overview.png)
 
@@ -40,11 +40,9 @@ You can find references in C# or Visual Basic code.
    > [!NOTE]
    > If the indicator shows **0 references**, you have no references from C# or Visual Basic code. However, there may be references in other items such as *.xaml* and *.aspx* files.
 
-2. To view the referencing code, mouse over the reference in the list.
+1. To view the referencing code, mouse over the reference in the list.
 
-   ![CodeLens - Peek reference](../ide/media/codelens-peek-reference.png)
-
-3. To open the file that contains the reference, double-click the reference.
+1. To open the file that contains the reference, double-click the reference.
 
 ### Code maps
 
@@ -73,82 +71,46 @@ For file types other than *.cs* or *.vb*, you get CodeLens details for the entir
 
 Code element-level indicators let you see who changed your code and what changes they made. Code element-level indicators are available for C# and Visual Basic code.
 
-This is what you see when you use Team Foundation Version Control (TFVC) in Team Foundation Server or Azure DevOps Services:
+You can also view change history when you use Team Foundation Version Control (TFVC) in Team Foundation Server or Azure DevOps Services:
 
 ![CodeLens: Get change history for your code in TFVC](../ide/media/codelens-code-changes.png)
 
 The default time period is the last 12 months. If your code is stored in Team Foundation Server, you can change the time period by running the [TFSConfig command](/azure/devops/server/command-line/tfsconfig-cmd) with the [CodeIndex command](../ide/codeindex-command.md) and the **/indexHistoryPeriod** flag.
 
-To see a detailed history of all the changes, including those from more than a year ago, choose **Show all file changes**:
+To see a detailed history of all the changes, including those from more than a year ago, choose **Show all file changes**, which opens a **History** window.
 
-![Show all code changes](../ide/media/codelens-show-all-file-changes.png)
-
-The **History** window opens:
-
-![History window for all code changes](../ide/media/codelenscodechangeshistory.png)
-
-When your files are in a Git repository and you choose the code element-level changes indicator, this is what you see:
-
-![CodeLens: Get change history for your code in Git](../ide/media/codelens-code-changes-git.png)
+From the **History** window, you can view all your files that are in a Git repository. You can then select the code element-level changes indicator for more details.
 
 ### File-level indicators
 
-Find changes for an entire file in the file-level indicators at the bottom of the window:
-
-![CodeLens: Get code file details](../ide/media/codelens-file-level.png)
+You can also view the file-level indicators for an entire file.
 
 > [!NOTE]
 > File-level indicators are not available for C# and Visual Basic files.
 
-To get more details about a change, right-click that item. Depending on whether you are using TFVC or Git, there are options to compare the versions of the file, view details and track the changeset, get the selected version of the file, and email the author of that change. Some of these details appear in **Team Explorer** in Visual Studio 2019 [version 16.7](/visualstudio/releases/2019/release-notes-v16.7#whats-new-in-visual-studio-2019-version-167/) and earlier. In Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes-v16.8#whats-new-in-visual-studio-2019-version-168/) and later, these details will appear in **Git Changes**.
+To get more details about a change, right-click the item. Depending on whether you are using TFVC or Git, there are options to compare the versions of the file, view details and track the changeset, get the selected version of the file, and email the author of that change. Some of these details appear in **Team Explorer** if you have than enabled; otherwise, these details appear in **Git Changes**.
 
-You can also see who changed your code over time. This can help you find patterns in your team's changes and assess their impact.
-
-![CodeLens: See code changes history as a graph](../ide/media/codelens.png)
+You can also see who changed your code over time, which can help you find patterns in your team's changes and assess their impact.
 
 ### Find changes in your current branch
 
-Your team may have multiple branches, for example a main branch and a child development branch, to reduce the risk of breaking stable code.
-
-![CodeLens: Find changes in your current branch](../ide/media/codelensfirstbranchconceptual.png)
-
-You can find out how many people changed your code and how many changes were made in the main branch by pressing **Alt**+**6**:
-
-![CodeLens: Find how many changes in your branch](../ide/media/codelens-branch-changes.png)
+Your team might have multiple branches, for example a main branch and a child development branch, to reduce the risk of breaking stable code. You can find out how many people changed your code and how many changes were made in the main branch by pressing **Alt**+**6**:
 
 ### Find when your code was branched
 
 To find when your code was branched, navigate to your code in the child branch. Then, select the **changes** indicator or press **Alt**+**6**:
 
-![CodeLens: Find when your code was branched](../ide/media/codelens-first-branch.png)
-
 ### Find incoming changes from other branches
 
-![CodeLens: Find code changes in other branches](../ide/media/codelensbranchchangecheckinconceptual.png)
-
-You can view incoming changes. In the following screenshot, a bug fix was made in the "Dev" branch:
-
-![CodeLens: Change checked into another branch](../ide/media/codelens-branch-changes-dev.png)
-
-You can review the change without leaving your current branch ("Main"):
-
-![CodeLens: See incoming change from another branch](../ide/media/codelens-branch-changes-main.png)
+You can view incoming changes. And, you don't need to leave your current branch to review a change. 
 
 ### Find when changes got merged
 
-You can see when changes got merged, so you can determine which changes are included in your branch:
-
-![CodeLens - Find when changes got merged](../ide/media/codelensbranchmergedconceptual.png)
-
-For example, your code in the Main branch now has the bug fix from the "Dev" branch:
-
-![CodeLens - Merged changes between branches](../ide/media/codelens-branch-merged.png)
+You can see when changes got merged, so you can determine which changes are included in your branch.
 
 ### Compare an incoming change with your local version
 
-Compare an incoming change with your local version by pressing **Shift**+**F10**, or by double-clicking the changeset.
-
-![CodeLens: Compare incoming change with local](../ide/media/codelens-branch-incoming-change-menu.png)
+To compare an incoming change with your local version, double-click the changeset or press **Shift**+**F10**.
 
 ### Branch icons
 
@@ -169,29 +131,19 @@ The icon in the **Branch** column tells you how the branch is related to the bra
 
 Find linked work items by selecting the **work items** indicator or by pressing **Alt**+**8**.
 
-![CodeLens - Find work items for specific code](../ide/media/codelens-work-items.png)
-
 ## Linked code reviews
 
 Find linked code reviews by selecting the **reviews** indicator. To use the keyboard, hold down the **Alt** key and then press **Left arrow** or **Right arrow** to navigate the indicator options.
-
-![CodeLens - View code review requests](../ide/media/codelens-code-reviews.png)
 
 ## Linked bugs
 
 Find linked bugs by selecting the **bugs** indicator or by pressing **Alt**+**7**.
 
-![CodeLens - Find bugs linked to changesets](../ide/media/codelens-bugs-changesets.png)
-
 ## Contact the owner of an item
 
 Find the author of an item by selecting the **authors** indicator or by pressing **Alt**+**5**.
 
-![Contact the owner of an item](../ide/media/codelens-contact-item-owner.png)
-
-Open the shortcut menu for an item to see the contact options. If you have Lync, Skype for Business, or Teams installed, you see options similar to those in the following screenshot:
-
-![Contact options for an item](../ide/media/codelens-item-contact-menu.png)
+You can also open the shortcut menu for an item to see the contact options. (If you have Teams installed, you have additional communciation options available to you.) 
 
 ## Associated unit tests
 
@@ -199,25 +151,17 @@ You can discover unit tests that exist for your C# or Visual Basic code without 
 
 1. Go to application code that has associated [unit test code](../test/unit-test-your-code.md).
 
-2. If you have not already, build your application to load the CodeLens test indicators.
+1. If you haven't already, build your application to load the CodeLens test indicators.
 
-3. Review the tests for the code by pressing **Alt**+**3**.
+1. Review the tests for the code by pressing **Alt**+**3**.
 
-     ![CodeLens - Choose test status in code editor](../ide/media/codelens-choose-test-indicator.png)
+1. If you see a warning icon ![warning icon](../ide/media/codelenstestwarningicon.png), the tests haven't run yet, so run them.
 
-4. If you see a warning icon ![warning icon](../ide/media/codelenstestwarningicon.png), the tests haven't run yet, so run them.
+1. To review a test's definition, double-click the test item in the CodeLens indicator window to open the code file in the editor.
 
-     ![CodeLens - View unit tests not run yet](../ide/media/codelens-tests-not-yet-run.png)
+1. To review the test's results, choose the test status indicator (![test failed icon](../ide/media/codelenstestfailedicon.png) or ![test passed icon](../ide/media/codelenstestpassedicon.png)) or press **Alt**+**1**.
 
-5. To review a test's definition, double-click the test item in the CodeLens indicator window to open the code file in the editor.
-
-     ![CodeLens - Go to unit test definition](../ide/media/codelens-unit-test-definition.png)
-
-6. To review the test's results, choose the test status indicator (![test failed icon](../ide/media/codelenstestfailedicon.png) or ![test passed icon](../ide/media/codelenstestpassedicon.png)) or press **Alt**+**1**.
-
-     ![CodeLens - See unit test result](../ide/media/codelens-unit-test-result.png)
-
-7. To see how many people changed this test, who changed this test, or how many changes were made to this test, [find your code's history](#find-changes-in-your-code) and linked items.
+1. To see how many people changed this test, who changed this test, or how many changes were made to this test, [find your code's history](#find-changes-in-your-code) and linked items.
 
 ## Keyboard shortcuts
 
@@ -234,13 +178,7 @@ To use the keyboard to select indicators, press and hold the **Alt** key to disp
 
 **A:**  You can turn indicators off or on, except for the references indicator. Go to **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens**.
 
-When the indicators are turned on, you can also open the CodeLens options from the indicators.
-
-![CodeLens - Turn indicators off or on](../ide/media/codelensturnoffonindicatorsfromcode.png)
-
-Turn CodeLens file-level indicators on and off using the chevron icons at the bottom of the editor window.
-
-![Turn file-level indicators on and off](../ide/media/codelensfilelevelonandoff.png)
+When the indicators are turned on, you can also open the CodeLens options from the indicators. And, you can turn CodeLens file-level indicators on and off by using the chevron icons at the bottom of the editor window.
 
 ### Q: Where is CodeLens?
 
@@ -256,7 +194,6 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 
 > [!TIP]
 > CodeLens is available in Visual Studio Community edition, however, the *source control* indicators are not available in this edition.
-
 
 ### Q: Why don't I see the work item details for a commit?
 
