@@ -653,14 +653,10 @@
         items:
         - name: Work with textures and images
           href: designers/working-with-textures-and-images.md
-        - name: Image editor
+        - name: Use the Image Editor
           href: designers/image-editor.md
-        - name: Image editor examples
-          items:
-          - name: Create a basic texture
-            href: designers/how-to-create-a-basic-texture.md
-          - name: Create and modify MIP levels
-            href: designers/how-to-create-and-modify-mip-levels.md
+        - name: Export textures
+          href: designers/export-textures.md
       - name: 3D models
         items:
         - name: Work with 3D models
@@ -719,14 +715,6 @@
             href: designers/walkthrough-creating-a-realistic-3-d-billiard-ball.md
           - name: Export a shader
             href: designers/how-to-export-a-shader.md
-      - name: Export textures
-        items:
-        - name: Export a texture that contains mipmaps
-          href: designers/how-to-export-a-texture-that-contains-mipmaps.md
-        - name: Export a texture that has premultiplied alpha
-          href: designers/how-to-export-a-texture-that-has-premultiplied-alpha.md
-        - name: Export a texture for use with Direct2D or JavaScript apps
-          href: designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md
     - name: XAML files >>
       href: xaml-tools/index.yml
     - name: XML and XSLT files >>

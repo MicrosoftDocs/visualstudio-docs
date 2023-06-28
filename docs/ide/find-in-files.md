@@ -5,6 +5,7 @@ ms.date: 11/29/2021
 ms.topic: conceptual
 f1_keywords:
 - vs.findinfiles
+- vs.findreplace.findinfiles
 helpviewer_keywords:
 - objects [Visual Studio], finding
 - text searches, replacing text
