@@ -1,7 +1,7 @@
 ---
 title: Profiler command line - Instrument client .NET component, get time data
 description: Learn how to use the Visual Studio Profiling Tools command-line tools to collect timing data for a .NET Framework component of a stand-alone application.
-ms.date: 11/11/2022
+ms.date: 06/28/2023
 ms.topic: how-to
 ms.assetid: b7dcc27b-45c6-4302-9552-6fa5b1e94b56
 author: mikejo5000
