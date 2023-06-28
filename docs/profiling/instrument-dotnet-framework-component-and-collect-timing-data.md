@@ -11,16 +11,19 @@ ms.technology: vs-ide-debug
 ms.workload: 
   - dotnet
 ---
-# How to: Instrument a stand-alone .NET Framework component and collect timing data with the profiler from the command line
+# Instrument a stand-alone .NET Framework component and collect timing data with the profiler from the command line
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-This topic describes how to use Visual Studio command-line profiling tools to instrument a .NET Framework, .NET Core, or .NET 5+ component such as an .*exe* or .*dll* file, and to collect detailed timing data.
+This topic describes how to use Visual Studio command-line profiling tools to instrument a .NET Framework component such as an .*exe* or .*dll* file, and to collect detailed timing data.
+
+> [!NOTE]
+> For .NET Core and .NET 5+, see [Measure application performance from the command line](../profiling/profile-apps-from-command-line.md) for command line instrumentation scenarios. VSInstr is not supported for .NET Core and .NET 5+ binaries. Although VSInstr is supported for .NET Framework, we recommend using [VSDiagnostics.exe](../profiling/profile-apps-from-command-line.md) instead, since it provides dynamic instrumentation.
 
 > [!NOTE]
 > To get the path to the profiling tools, see [Specify the path to command line tools](/previous-versions/visualstudio/visual-studio-2017/profiling/specifying-the-path-to-profiling-tools-command-line-tools). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.
 
- To collect detailed timing data from a .NET Framework component by using the instrumentation method, you use the [VSInstr.exe](../profiling/vsinstr.md) tool to generate an instrumented version of the component and the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize profiling environment variables. You then start the profiler.
+ To collect detailed timing data from a .NET Framework by using the instrumentation method, you use the [VSInstr.exe](../profiling/vsinstr.md) tool to generate an instrumented version of the component and the [VSPerfCLREnv.cmd](../profiling/vsperfclrenv.md) tool to initialize profiling environment variables. You then start the profiler.
 
  When the instrumented component is executed, timing data is automatically collected to a data file. You can pause and resume data collection during the profiling session.
 

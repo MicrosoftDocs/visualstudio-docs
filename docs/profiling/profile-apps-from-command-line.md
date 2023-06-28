@@ -1,7 +1,7 @@
 ---
 title: "Measure performance from the command line"
 description: "Measure CPU performance and managed memory usage in your application from the command line."
-ms.date: 03/31/2023
+ms.date: 06/28/2023
 ms.topic: conceptual
 helpviewer_keywords: 
   - "Profiling Tools, command-line"
@@ -19,9 +19,12 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can collect performance information about an application by using command-line tools.
+You can collect performance information about an application by using command-line tools. You can collect performance data for CPU Usage, .NET memory allocation, instrumentation, and database queries.
 
 In the example described in this article, you collect performance information for Microsoft Notepad, but the same method can be used to profile any process.
+
+> [!NOTE]
+> For C/C++ instrumentation from the command line, see [Instrument a native stand-alone component](../profiling/instrument-native-component-and-collect-timing-data.md). For CPU usage data, you can use the procedures described in this article.
 
 ## Prerequisites
 
@@ -62,6 +65,12 @@ Profiling using the Visual Studio Diagnostics CLI tools works by attaching the p
 
    ```cmd
    VSDiagnostics.exe start 1 /attach:<pid> /loadConfig:AgentConfigs\CPUUsageLow.json
+   ```
+
+   Alternatively, you can also use the `/launch` command to start an executable. For example, use the following for instrumentation:
+
+   ```cmd
+   VSDiagnostics start <id> /launch:<ExeToProfile> /loadConfig:AgentConfigs\PerfInstrumentation.json
    ```
 
 1. Resize Notepad, or type something in it in order to make sure that some interesting profiling information is collected.
