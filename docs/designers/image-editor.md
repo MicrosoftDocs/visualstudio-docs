@@ -372,4 +372,4 @@ To achieve special effects or increase image quality at specific levels of detai
 
 ## Next steps
 
-Visit the [Export textures](export-textures.md) page to learn how to use the Image Content Pipeline to export textures that contain [mipmaps](#export-a-texture-that-contains-mipmaps), or that have [premultiplied alpha](#how-to-export-a-texture-that-has-premultiplied-alpha), and even those that you want to use with [Direct2D or JavaScript apps](#how-to-export-a-texture-for-use-with-direct2d-or-javascript-apps).
+Visit the [Export textures](export-textures.md) page to learn how to use the Image Content Pipeline to export textures that contain mipmaps, premultiplies alpha, and more.

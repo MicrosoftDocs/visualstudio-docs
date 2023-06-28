@@ -1,5 +1,5 @@
 ---
-title: Learn how to export textures
+title: Export texture formats with Image Content Pipeline
 description: Learn how to export textures, such as those that include mipmaps or premultipled alpha, as part of building your projects.
 ms.date: 06/23/2023
 ms.topic: how-to
@@ -10,7 +10,7 @@ ms.technology: vs-ide-designers
 ms.workload:
 - multiple
 ---
-# How to export textures of different types
+# Export rich texture formats by using the Image Content Pipeline in Visual Studio 
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
