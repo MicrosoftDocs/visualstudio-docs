@@ -74,7 +74,7 @@ The Joint Photographic Experts Group (JPEG) image format. A highly compressed, l
 
 **PNG Image (.png)**
 
-The Portable Network Graphics (PNG) image format. A moderately compressed, lossless image format that supports 24-bit color and alpha transparency. It is suitable for both natural and artificial images, but does not provide compression ratios as good as lossy formats such as JPG or GIF.
+The Portable Network Graphics (PNG) image format. A moderately compressed, lossless image format that supports 24-bit color and alpha transparency. It's suitable for both natural and artificial images, but doesn't provide compression ratios as good as lossy formats such as JPG or GIF.
 
 **TIFF Image (.tif)**
 
@@ -107,9 +107,9 @@ The following table describes the items on the **Image Editor Mode** toolbar, wh
 
 |Toolbar Item|Description|
 |------------------|-----------------|
-|**Select**|Enables selection of a rectangular region of an image. After you select a region, you can cut, copy, move, scale, rotate, flip, or delete it. When there is an active selection, drawing tools only affect the selected region.|
-|**Irregular Selection**|Enables selection of an irregular region of an image. After you select a region, you can cut, copy, move, scale, rotate, flip, or delete it. When there is an active selection, drawing tools only affect the selected region.|
-|**Wand Selection**|Enables selection of a similarly colored region of an image. The *tolerance*—that is, the maximum difference between adjacent colors within which they are considered similar—can be configured to include a smaller or wider range of similar colors. After you select a region, you can cut, copy, move, scale, rotate, flip, or delete it. When there is an active selection, drawing tools only affect the selected region.|
+|**Select**|Enables selection of a rectangular region of an image. After you select a region, you can cut, copy, move, scale, rotate, flip, or delete it. When there's an active selection, drawing tools only affect the selected region.|
+|**Irregular Selection**|Enables selection of an irregular region of an image. After you select a region, you can cut, copy, move, scale, rotate, flip, or delete it. When there's an active selection, drawing tools only affect the selected region.|
+|**Wand Selection**|Enables selection of a similarly colored region of an image. The *tolerance*—that is, the maximum difference between adjacent colors within which they're considered similar—can be configured to include a smaller or wider range of similar colors. After you select a region, you can cut, copy, move, scale, rotate, flip, or delete it. When there's an active selection, drawing tools only affect the selected region.|
 |**Pan**|Enables movement of the image relative to the window frame. In **Pan** mode, select a point on the image and then move it around.<br /><br /> You can temporarily activate **Pan** mode by pressing and holding the **Ctrl** key.|
 |**Zoom**|Enables the display of more or less image detail relative to the window frame. In **Zoom** mode, select a point on the image and then move it right or down to zoom in, or left or up to zoom out.<br /><br /> You can zoom in or out by pressing and holding **Ctrl** while you either use the mouse wheel or press the plus sign (**+**) or minus sign (**-**).|
 |**Zoom to Actual Size**|Displays the image by using a 1:1 relationship between the pixels of the image and the pixels of the screen.|
@@ -121,7 +121,7 @@ The following table describes the items on the **Image Editor Mode** toolbar, wh
 |**Red Channel**<br /><br /> **Green Channel**<br /><br /> **Blue Channel**<br /><br /> **Alpha Channel**|Enables or disables the specific color channel. **Note:**  By systematically enabling or disabling color channels, you can isolate problems that are related to one or more of them. For example, you could identify incorrect alpha transparency.|
 |**Background**|Enables or disables display of the background through transparent parts of the image. You can configure how the background is displayed by choosing from these options:<br /><br /> **Checkerboard**<br /> Uses a green color together with the specified background color to display the background as a checkerboard pattern. You can use this option to help make transparent parts of the image more apparent.<br /><br /> White Background<br /> Uses the color white to display the background.<br /><br /> Black Background<br /> Uses the color black to display the background.<br /><br /> Animate Background<br /> Pans the checkerboard pattern slowly. You can use this option to help make transparent parts of the image more apparent.|
 |**Properties**|Alternately opens or closes the **Properties** window.|
-|**Advanced**|Contains additional commands and options.<br /><br /> **Filters**<br /><br /> Provides several common image filters: **Black and White**, **Blur**, **Brighten**, **Darken**, **Edge Detection**, **Emboss**, **Invert Colors**, **Ripple**, **Sepia Tone**, and **Sharpen**.<br /><br /> **Graphics Engines**<br /><br /> **Render with D3D11**<br /> Uses Direct3D 11 to render the **Image Editor** design surface.<br /><br /> **Render with D3D11WARP**<br /> Uses Direct3D 11 Windows Advanced Rasterization Platform (WARP) to render the **Image Editor** design surface.<br /><br /> **Tools**<br /><br /> **Flip Horizontal**<br /> Transposes the image around its horizontal, or x, axis.<br /><br /> **Flip Vertical**<br /> Transposes the image around its vertical, or y, axis.<br /><br /> **Generate Mips**<br /> Generates MIP levels for an image. If MIP levels already exist, they are recreated from the largest MIP level. Any changes that were made to smaller MIP levels are lost. To save the MIP levels that you have generated, you must use the *.dds* format to save the image.<br /><br /> **View**<br /><br /> **Frame Rate**<br /> When enabled, displays the frame rate in the upper-right corner of the design surface. The frame rate is the number of frames that are drawn per second. **Tip:** You can choose the **Advanced** button to run the last command again.|
+|**Advanced**|Contains additional commands and options.<br /><br /> **Filters**<br /><br /> Provides several common image filters: **Black and White**, **Blur**, **Brighten**, **Darken**, **Edge Detection**, **Emboss**, **Invert Colors**, **Ripple**, **Sepia Tone**, and **Sharpen**.<br /><br /> **Graphics Engines**<br /><br /> **Render with D3D11**<br /> Uses Direct3D 11 to render the **Image Editor** design surface.<br /><br /> **Render with D3D11WARP**<br /> Uses Direct3D 11 Windows Advanced Rasterization Platform (WARP) to render the **Image Editor** design surface.<br /><br /> **Tools**<br /><br /> **Flip Horizontal**<br /> Transposes the image around its horizontal, or x, axis.<br /><br /> **Flip Vertical**<br /> Transposes the image around its vertical, or y, axis.<br /><br /> **Generate Mips**<br /> Generates MIP levels for an image. If MIP levels already exist, they're recreated from the largest MIP level. Any changes that were made to smaller MIP levels are lost. To save the MIP levels that you have generated, you must use the *.dds* format to save the image.<br /><br /> **View**<br /><br /> **Frame Rate**<br /> When enabled, displays the frame rate in the upper-right corner of the design surface. The frame rate is the number of frames that are drawn per second. **Tip:** You can choose the **Advanced** button to run the last command again.|
 
 ### Image Editor toolbar
 
@@ -136,7 +136,7 @@ The following table describes the items on the **Image Editor** toolbar, which a
 |**Airbrush**|Uses the active color selection to draw an anti-aliased stroke that blends together with the image and becomes more saturated as a function of time. You can set the color and thickness of the stroke in the **Properties** window.|
 |**Eyedropper**|Sets the active color selection to the color of the selected pixel.|
 |**Fill**|Uses the active color selection to fill a region of the image. The affected region is defined as the pixel where the fill is applied, together with every pixel that is connected to it by pixels of the same color and that is the same color itself. If the fill is applied within an active selection, then the affected region is constrained by the selection.<br /><br /> By default, the active color selection is blended together with the affected region of the image according to its alpha component. To use the active color selection to overwrite the affected region, press and hold the **Shift** key when you use the fill tool.|
-|**Eraser**|Sets pixels to the fully transparent color if the image supports an alpha channel. Otherwise, sets the pixels to the active background color.|
+|**Eraser**|Sets pixels to the fully transparent color if the image supports an alpha channel. Otherwise, **Eraser** sets the pixels to the active background color.|
 |**Line**, **Rectangle**, **Rounded Rectangle**, **Ellipse**|Draws a shape on the image. You can set the color and thickness of the outline in the **Properties** window.<br /><br /> To draw a primitive that has equal width and height, press and hold **Shift** as you draw.|
 |**Text**|Uses the foreground color selection to draw text. The background color is determined by the background color selection. For a transparent background, the alpha value of the background color selection must be 0. While the text region is active, you can set whether the text is drawn with an anti-aliased stroke, and you can set the text **Value**, **Font**, **Size**, and style—**Bold**, **Italics**, or **Underlined**—in the **Properties** window. The content and appearance of the text is finalized when the text region is no longer active.|
 |**Rotate**|Rotates the image 90 degrees clockwise.|
@@ -169,7 +169,7 @@ The following table describes image properties:
 |Height|The height of the image.|
 |Bits Per Pixel|The number of bits that represent each pixel. The value of this property depends on the **Color Format** of the image.|
 |Transparent Selection|**True** to blend the selection layer together with the main image, based on the alpha value of the selection layer; otherwise, **False**. This item is only available for images that support alpha.|
-|Format|The color format of the image. You can specify a variety of color formats, depending on the image format. The color format defines the number and kind of color channels that are included in the image, and also the size and encoding of various channels.|
+|Format|The color format of the image. You can specify various color formats, depending on the image format. The color format defines the number and kind of color channels that are included in the image, and also the size and encoding of various channels.|
 |Mip Level|The active MIP level. This item is only available for textures that have MIP levels.|
 |Mip Level Count|The total number of MIP levels in the image. This item is only available for textures that have MIP levels.|
 |Frame Count|The total number of frames in the image. This item is only available for images that support texture arrays.|
@@ -190,11 +190,11 @@ There are two ways to resize an image. In both cases, the **Image Editor** uses 
 
 ### Selected regions
 
-Selections in the **Image Editor** define regions of the image that are active. Active regions are affected by tools and transformations. When there is an active selection, areas outside the selected region are not affected by most tools and transformations. If there is not an active selection, the entire image is active.
+Selections in the **Image Editor** define regions of the image that are active. Active regions are affected by tools and transformations. When there's an active selection, areas outside the selected region aren't affected by most tools and transformations. If there isn't an active selection, the entire image is active.
 
 Most tools (**Pencil**, **Brush**, **Airbrush**, **Fill**, **Eraser**, and 2D primitives) and transformations (**Rotate**, **Trim**, **Invert Colors**, **Flip Horizontal**, and **Flip Vertical**) are constrained or defined by the active selection. However, some tools (**Eyedropper** and **Text**) and transformations (**Generate Mips**) aren't affected by any active selection. These tools always behave as if the entire image is the active selection.
 
-While you're selecting a region, you can press and hold **Shift** to make a proportional (square) selection. Otherwise, the selection is not constrained.
+While you're selecting a region, you can press and hold **Shift** to make a proportional (square) selection. Otherwise, the selection isn't constrained.
 
 #### Resize selections
 
@@ -231,8 +231,8 @@ The following table describes tool properties:
 |**Pencil**, **Brush**, **Airbrush**, **Eraser**|**Thickness**<br /> Defines the size of the area that is affected by the tool.|
 |**Text**|**Anti-alias**<br /> Draws text that has anti-aliased edges. This gives text a smoother appearance.<br /><br /> **Value**<br /> The text to be drawn.<br /><br /> **Font**<br /> The font used to draw the text.<br /><br /> **Size**<br /> The size of the text.<br /><br /> **Bold**<br /> Makes the font bold.<br /><br /> **Italics**<br /> Makes the font italic.<br /><br /> **Underlined**<br /> Makes the font underlined.|
 |**2D Primitive**|**Anti-alias**<br /> Draws primitives that have anti-aliased edges. This gives them a smoother appearance.<br /><br /> **Thickness**<br /> Defines the thickness of the line that forms the boundary of the primitive.<br /><br /> **Radius X**<br /> (Rounded rectangle only) Defines the rounding radius for the top and bottom edges of the primitive.<br /><br /> **Radius Y**<br /> (Rounded rectangle only) Defines the rounding radius for the left and right edges of the primitive.|
-|**Pencil**, **Brush**, **Airbrush**, **2D Primitive**|**Channels**<br /> Enables or disables specific color channels for viewing and drawing. If **View** is set for a specific color channel, that channel is visible in the image; otherwise, it is not visible. If **Draw** is set for a specific color channel, that channel is affected by drawing operations; otherwise, it is not.|
-|**Wand Selection**, **Fill**|**Tolerance**<br /> Defines the maximum difference between adjacent colors within which they are considered similar, so that fewer or more similar colors are made a part of the affected or selected region. By default, the value is 32, which means that adjacent pixels within 32 shades (lighter or darker) of the original color are considered to be part of the region.|
+|**Pencil**, **Brush**, **Airbrush**, **2D Primitive**|**Channels**<br /> Enables or disables specific color channels for viewing and drawing. If **View** is set for a specific color channel, that channel is visible in the image; otherwise, it isn't visible. If **Draw** is set for a specific color channel, that channel is affected by drawing operations; otherwise, it isn't.|
+|**Wand Selection**, **Fill**|**Tolerance**<br /> Defines the maximum difference between adjacent colors within which they're considered similar, so that fewer or more similar colors are made a part of the affected or selected region. By default, the value is 32, which means that adjacent pixels within 32 shades (lighter or darker) of the original color are considered to be part of the region.|
 
 ## Keyboard shortcuts
 
@@ -342,12 +342,11 @@ To follow up, you can generate MIP levels for this texture. For information on h
 
 ## How to: Create and modify MIP levels
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 This document demonstrates how to use the **Image Editor** to generate and modify *MIP levels* for texture-space Level-of-Detail (LoD).
 
 ### Generating MIP levels
 
-*Mipmapping* is a technique that's used to increase rendering speed and reduce aliasing artifacts on textured objects by pre-calculating and storing several copies of a texture in different sizes. Each copy, which is known as a MIP level, is half the width and height of the previous copy. When a texture is rendered on the surface of an object, the MIP level that corresponds most closely to the screen-space area of the textured surface is automatically chosen. This means that the graphics hardware doesn't have to filter oversized textures to maintain consistent visual quality. Although the memory cost of storing the MIP levels is about 33 percent more than that of the original texture alone, the performance and image-quality gains justify it.
+*Mipmapping* is a technique that's used to increase rendering speed and reduce aliasing artifacts on textured objects by precalculating and storing several copies of a texture in different sizes. Each copy, which is known as a MIP level, is half the width and height of the previous copy. When a texture is rendered on the surface of an object, the MIP level that corresponds most closely to the screen-space area of the textured surface is automatically chosen. This means that the graphics hardware doesn't have to filter oversized textures to maintain consistent visual quality. Although the memory cost of storing the MIP levels is about 33 percent more than that of the original texture alone, the performance and image-quality gains justify it.
 
 **To generate MIP levels**
 

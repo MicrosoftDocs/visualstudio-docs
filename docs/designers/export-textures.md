@@ -18,8 +18,6 @@ This article describes how to use the Image Content Pipeline to export textures,
 
 ## Export a texture that contains mipmaps
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-
 The Image Content Pipeline can generate mipmaps from a source image as part of your project's build phase. To achieve certain effects, sometimes you have to specify the image content of each MIP level manually. When you don't need to specify the image content of each MIP level manually, generating mipmaps at build time ensures that mipmap contents never become out-of-sync. It also eliminates the performance cost of generating mipmaps at run time.
 
 This article covers:
@@ -47,8 +45,6 @@ Mipmapping provides automatic screen-space Level-of-Detail for textured surfaces
 When you build the project, the Image Content Pipeline converts the source image from the working format to the output format that you specified, including MIP levels. The result is copied to the project's output directory.
 
 ## How to: Export a texture that has premultiplied alpha
-
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 The Image Content Pipeline can generate premultiplied alpha textures from a source image. These can be simpler to use and more robust than textures that don't contain premultiplied alpha.
 
