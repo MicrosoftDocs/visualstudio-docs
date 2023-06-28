@@ -4908,12 +4908,12 @@
     {
       "source_path": "docs/designers/how-to-export-a-texture-that-has-premultiplied-alpha.md",
       "redirect_url": "/visualstudio/designers/export-textures",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md",
       "redirect_url": "/visualstudio/designers/export-textures",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/designers/how-to-create-a-basic-texture.md",
@@ -4923,7 +4923,7 @@
     {
       "source_path": "docs/designers/how-to-create-and-modify-mip-levels.md",
       "redirect_url": "/visualstudio/designers/image-editor",
-      "redirect_document_id": true
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/designers/debugging-or-disabling-project-code-in-xaml-designer.md",
