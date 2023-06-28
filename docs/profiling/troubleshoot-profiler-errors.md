@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot profiling errors
 description: Learn how to resolve possible profiling errors with error message guidance
-ms.date: 05/18/2023
+ms.date: 06/28/2023
 ms.topic: how-to
 ms.assetid: 
 author: mikejo5000
@@ -104,6 +104,10 @@ The Visual Studio profiler uses Event Tracing for Windows (ETW) to collect its p
   ```
 
   Running this command increases the default number of sessions from 64 to 128 (256 is the max number of sessions allowed on a system).
+
+## Error: CPU Usage tool doesn’t work on ARM64 VM
+
+The Visual Studio profiler uses Event Tracing for Windows (ETW) to collect its performance information. Currently, collecting profile samples using ETW is unsupported on Windows for ARM64 when running in a Virtual Machine (VM). To work around this limitation, you can either use the CPU Usage tool on an actual ARM64 device or use the Instrumentation tool to capture timing information.
 
 ## See also
 
