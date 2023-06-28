@@ -336,7 +336,7 @@ Before you begin, make sure that the **Properties** window is displayed. You use
 
 The "bullseye" target texture is complete. Here's the final image, shown with transparency.
 
-![Image that shows the "bullseye" target texture that's been completed by using this procedure.](../designers/media/gfx_image_demo_bullseye.png)
+![Illustration that shows the "bullseye" target texture that's been completed by using this procedure.](../designers/media/gfx_image_demo_bullseye.png)
 
 To follow up, you can generate MIP levels for this texture. For information on how to do so, see the next section.
 
