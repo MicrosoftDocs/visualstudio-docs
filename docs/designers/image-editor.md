@@ -144,7 +144,7 @@ The following table describes the items on the **Image Editor** toolbar, which a
 
 ### Work with MIP levels
 
-Some image formats, for example, DirectDraw Surface (*.dds*), support MIP levels for texture-space Level-of-Detail (LOD). For information about how to generate and work with MIP levels, see [How to: Create and modify MIP levels](../designers/how-to-create-and-modify-mip-levels.md)
+Some image formats, for example, DirectDraw Surface (*.dds*), support MIP levels for texture-space Level-of-Detail (LOD).
 
 ### Work with transparency
 
@@ -178,7 +178,7 @@ The following table describes image properties:
 |Depth Slice|The current depth slice. Only the first slice can be viewed; all other slices are lost when you save the image.|
 
 > [!NOTE]
-> Because the **Rotate by** property applies to all tools and selected regions, it always appears at the bottom of the **Properties** window together with other tool properties. **Rotate by** is always displayed because the whole image is implicitly selected when there is no other selection or active tool. For more information about the **Rotate by** property, see [Tool properties](#tool -properties).
+> Because the **Rotate by** property applies to all tools and selected regions, it always appears at the bottom of the **Properties** window together with other tool properties. **Rotate by** is always displayed because the whole image is implicitly selected when there is no other selection or active tool. For more information about the **Rotate by** property, see [Tool properties](#tool-properties).
 
 ### Resize images
 
@@ -340,7 +340,7 @@ The "bullseye" target texture is complete. Here's the final image, shown with tr
 
 To follow up, you can generate MIP levels for this texture. For information on how to do so, see the next section.
 
-## How to: Create and modify MIP levels
+## Create and modify MIP levels
 
 This document demonstrates how to use the **Image Editor** to generate and modify *MIP levels* for texture-space Level-of-Detail (LoD).
 
@@ -350,7 +350,7 @@ This document demonstrates how to use the **Image Editor** to generate and modif
 
 **To generate MIP levels**
 
-1. Begin with a basic texture, as described in [How to: Create a basic texture](../designers/how-to-create-a-basic-texture.md). For best results, specify a texture that has a width and height that are a power of two in size, for example, 256, 512, 1024, and so on.
+1. Begin with a basic texture. For best results, specify a texture that has a width and height that are a power of two in size, for example, 256, 512, 1024, and so on.
 
 1. Generate the MIP levels. On the **Image Editor Mode** toolbar, choose **Advanced** > **Tools** > **Generate Mips**.
 
@@ -367,7 +367,7 @@ To achieve special effects or increase image quality at specific levels of detai
 1. After you select the MIP level that you want to modify, you can use the drawing tools to modify it without changing the contents of other MIP levels. The drawing tools are available on the **Image Editor** toolbar. After you select a tool, you can change its properties in the **Properties** window. 
 
 > [!NOTE]
-> If you do not need to modify the contents of individual MIP levels—as you might do to achieve certain effects—we recommend that you generate mipmaps from the source texture at build time. This helps to ensure that MIP levels stay in sync with the source texture because modifications to a MIP level are not propagated to other levels automatically. For more information on how to generate mipmaps at build time, see [How to: Export a texture that contains mipmaps](../designers/how-to-export-a-texture-that-contains-mipmaps.md).
+> If you do not need to modify the contents of individual MIP levels—as you might do to achieve certain effects—we recommend that you generate mipmaps from the source texture at build time. This helps to ensure that MIP levels stay in sync with the source texture because modifications to a MIP level are not propagated to other levels automatically.
 
 ## Next steps
 
