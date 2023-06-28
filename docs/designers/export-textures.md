@@ -30,7 +30,7 @@ This article covers:
 
 ### Export mipmaps
 
-Mipmapping provides automatic screen-space Level-of-Detail for textured surfaces in a 3D game or app. It enhances the rendering performance of a game or app by pre-computing down-sampled versions of a texture. Pre-computing down-sampled versions means that the entire texture does not have to be down-sampled each time it's sampled.
+Mipmapping provides automatic screen-space Level-of-Detail for textured surfaces in a 3D game or app. It enhances the rendering performance of a game or app by precomputing down-sampled versions of a texture. Precomputing down-sampled versions means that the entire texture doesn't have to be down-sampled each time it's sampled.
 
 **To export a texture that has mipmaps**
 
@@ -50,7 +50,7 @@ When you build the project, the Image Content Pipeline converts the source image
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The Image Content Pipeline can generate premultiplied alpha textures from a source image. These can be simpler to use and more robust than textures that do not contain premultiplied alpha.
+The Image Content Pipeline can generate premultiplied alpha textures from a source image. These can be simpler to use and more robust than textures that don't contain premultiplied alpha.
 
 This document demonstrates these activities:
 
@@ -112,13 +112,13 @@ Textures that are used in the context of Direct2D must conform to these Direct2D
 
   - BC3_UNORM compression
 
-- Mipmaps are not supported.
+- Mipmaps aren't supported.
 
 **To create a texture that's compatible with Direct2D rendering conventions**
 
-1. Begin with a basic texture. Load an existing image, or create a new one as described in [How to: Create a basic texture](../designers/how-to-create-a-basic-texture.md). To support block-compression in *.dds* format, specify a texture that has a width and height that are multiples of four in size, for example, 100x100, 128x128, or 256x192. Because mipmapping is not supported, the texture does not have to be square and does not have to be a power of two in size.
+1. Begin with a basic texture. Load an existing image, or create a new one as described in [How to: Create a basic texture](../designers/how-to-create-a-basic-texture.md). To support block-compression in *.dds* format, specify a texture that has a width and height that are multiples of four in size, for example, 100x100, 128x128, or 256x192. Because mipmapping isn't supported, the texture doesn't have to be square and doesn't have to be a power of two in size.
 
-1. Configure the texture file so that it's processed by the Image Content Pipeline. In **Solution Explorer**, open the shortcut menu for the texture file you just created and then choose **Properties**. On the **Configuration Properties** > **General** page, set the **Item Type** property to **Image Content Pipeline**. Make sure that the **Content** property is set to **Yes** and **Exclude From Build** is set to **No**, and then choose the **Apply** button. The **Image Content Pipeline** configuration property page appears.
+1. Configure the texture file so that it's processed by the Image Content Pipeline. In **Solution Explorer**, open the shortcut menu for the texture file you created and then choose **Properties**. On the **Configuration Properties** > **General** page, set the **Item Type** property to **Image Content Pipeline**. Make sure that the **Content** property is set to **Yes** and **Exclude From Build** is set to **No**, and then choose the **Apply** button. The **Image Content Pipeline** configuration property page appears.
 
 1. Set the output format to one of the block-compressed formats. On the **Configuration Properties** > **Image Content Pipeline** > **General** page, set the **Compress** property to **BC3_UNORM compression (/compress:BC3_UNORM)**. You could choose any of the other BC1, BC2, or BC3 formats, depending on your requirements. Direct2D doesn't currently support BC4, BC5, BC6, or BC7 textures. For more information about the different BC formats, see [Block compression (Direct3D 10)](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression).
 
