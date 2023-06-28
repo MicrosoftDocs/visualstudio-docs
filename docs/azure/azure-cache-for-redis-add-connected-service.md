@@ -84,6 +84,9 @@ The connected service functionality adds all the needed references and connectio
 
 :::moniker range=">=vs-2022"
 
+> [!NOTE]
+> For .NET Framework projects, Connected Services UI is slightly different. To see the differences, compare to the [Visual Studio 2019 version of this page](./azure-cache-for-redis-add-connected-service.md?view=vs-2019&preserve-view=true).
+
 1. Open your project in Visual Studio.
 
 1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add** to open the menu of available services.
@@ -140,6 +143,13 @@ The connected service functionality adds all the needed references and connectio
 
 :::moniker-end
 
+## Next steps
+
+For ASP.NET apps, common use cases for Azure cache for Redis are to cache session state or page output (HTTP responses). ASP.NET Core provides built-in services for these use cases, which should be used instead when you're using ASP.NET Core.
+
+To cache session state in an ASP.NET app, see [ASP.NET Session State Provider](/azure/azure-cache-for-redis/cache-aspnet-session-state-provider).
+
+To cache page output in an ASP.NET app, see [ASP.NET Output Cache Provider](/azure/azure-cache-for-redis/cache-aspnet-output-cache-provider).
 
 ## See also
 
