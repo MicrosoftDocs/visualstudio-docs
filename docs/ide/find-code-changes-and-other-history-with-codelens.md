@@ -21,24 +21,22 @@ ms.workload:
 With CodeLens, you can stay focused on your work while you find out what happened to your code&ndash;all without leaving the editor. You can find references to a piece of code, changes to your code, linked bugs, Azure DevOps work items, code reviews, and unit tests.
 
 > [!NOTE]
-> CodeLens is available in Visual Studio Community edition, however, the *source control* indicators are not available in this edition.
+> CodeLens is available in the Community edition of Visual Studio; however, the *source control* indicators are not available in this edition.
 
 CodeLens can show you both where and how the individual parts of your code are used in your solution.
 
-![CodeLens indicators in the code editor](../ide/media/codelens-overview.png)
+![Screenshot of the CodeLens indicators in the code editor.](../ide/media/codelens-overview.png)
 
 To choose the indicators that you want to see, or to turn CodeLens off and on, go to **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens**.
 
 ## Find references to your code
 
-You can find references in C# or Visual Basic code.
+You can find references in C# or Visual Basic code. Here's how.
 
-1. Choose the **references** indicator or press **Alt**+**2**.
-
-   ![CodeLens references](../ide/media/codelens-view-references.png)
+1. In the code editor, select the **references** indicator or press **Alt**+**2**.
 
    > [!NOTE]
-   > If the indicator shows **0 references**, you have no references from C# or Visual Basic code. However, there may be references in other items such as *.xaml* and *.aspx* files.
+   > If the indicator shows **0 references**, you don't have any references from your C# or Visual Basic code. However, there might be references in other items such as *.xaml* and *.aspx* files.
 
 1. To view the referencing code, mouse over the reference in the list.
 
@@ -54,14 +52,11 @@ Inspect your code's history to find out what happened to your code. Or, review c
 
 You need:
 
-- Visual Studio Enterprise or Professional edition
+- Either the Enterprise edition or the Professional edition of Visual Studio 2022
 
-<!-- TERRY: Look up branding on Team Foundation products -->
-- Git or Team Foundation Server / Team Foundation Version Control
+- [Git](https://git-scm.com/) or [Azure DevOps Server](/azure/devops/server/tfs-is-now-azure-devops-server?view=azure-devops) or [Team Foundation Version Control](/azure/devops/repos/tfvc/what-is-tfvc?view=azure-devops)
 
-For C# or Visual Basic code that's stored with Team Foundation Version Control (TFVC) or Git, you get CodeLens details at the class and method levels (*code element-level* indicators). If your Git repository is hosted in TfGit, you also get links to TFS work items.
-
-![Code element-level indicators](../ide/media/codelens-element-level-indicators.png)
+For C# or Visual Basic code that's stored with Team Foundation Version Control (TFVC) or Git, you get CodeLens details at the class and method levels (*code element-level* indicators).
 
 For file types other than *.cs* or *.vb*, you get CodeLens details for the entire file in one place at the bottom of the window (*file-level* indicators).
 
@@ -71,13 +66,13 @@ For file types other than *.cs* or *.vb*, you get CodeLens details for the entir
 
 Code element-level indicators let you see who changed your code and what changes they made. Code element-level indicators are available for C# and Visual Basic code.
 
-You can also view change history when you use Team Foundation Version Control (TFVC) in Team Foundation Server or Azure DevOps Services:
+You can also view change history when you use Team Foundation Version Control (TFVC) in Azure DevOps Services:
 
 ![CodeLens: Get change history for your code in TFVC](../ide/media/codelens-code-changes.png)
 
 The default time period is the last 12 months. If your code is stored in Team Foundation Server, you can change the time period by running the [TFSConfig command](/azure/devops/server/command-line/tfsconfig-cmd) with the [CodeIndex command](../ide/codeindex-command.md) and the **/indexHistoryPeriod** flag.
 
-To see a detailed history of all the changes, including those from more than a year ago, choose **Show all file changes**, which opens a **History** window.
+To see a detailed history of all the changes, including those changes from more than a year ago, select **Show all file changes**, which opens a **History** window.
 
 From the **History** window, you can view all your files that are in a Git repository. You can then select the code element-level changes indicator for more details.
 
@@ -88,7 +83,7 @@ You can also view the file-level indicators for an entire file.
 > [!NOTE]
 > File-level indicators are not available for C# and Visual Basic files.
 
-To get more details about a change, right-click the item. Depending on whether you are using TFVC or Git, there are options to compare the versions of the file, view details and track the changeset, get the selected version of the file, and email the author of that change. Some of these details appear in **Team Explorer** if you have than enabled; otherwise, these details appear in **Git Changes**.
+To get more details about a change, right-click the item. Depending on whether you're using TFVC or Git, there are options to compare the versions of the file, view details and track the changeset, get the selected version of the file, and email the author of that change. Some of these details appear in **Team Explorer** if you have than enabled; otherwise, these details appear in **Git Changes**.
 
 You can also see who changed your code over time, which can help you find patterns in your team's changes and assess their impact.
 
@@ -143,7 +138,7 @@ Find linked bugs by selecting the **bugs** indicator or by pressing **Alt**+**7*
 
 Find the author of an item by selecting the **authors** indicator or by pressing **Alt**+**5**.
 
-You can also open the shortcut menu for an item to see the contact options. (If you have Teams installed, you have additional communciation options available to you.) 
+You can also open the shortcut menu for an item to see the contact options. (If you have Teams installed, you have additional communication options available to you.) 
 
 ## Associated unit tests
 
@@ -341,7 +336,7 @@ This is what you see when you use Team Foundation Version Control (TFVC) in Team
 
 The default time period is the last 12 months. If your code is stored in Team Foundation Server, you can change the time period by running the [TFSConfig command](/azure/devops/server/command-line/tfsconfig-cmd) with the [CodeIndex command](../ide/codeindex-command.md) and the **/indexHistoryPeriod** flag.
 
-To see a detailed history of all the changes, including those from more than a year ago, choose **Show all file changes**:
+To see a detailed history of all the changes, including those changes from more than a year ago, choose **Show all file changes**:
 
 ![Show all code changes](../ide/media/codelens-show-all-file-changes.png)
 
@@ -362,15 +357,15 @@ Find changes for an entire file in the file-level indicators at the bottom of th
 > [!NOTE]
 > File-level indicators are not available for C# and Visual Basic files.
 
-To get more details about a change, right-click that item. Depending on whether you are using TFVC or Git, there are options to compare the versions of the file, view details and track the changeset, get the selected version of the file, and email the author of that change. Some of these details appear in **Team Explorer** in Visual Studio 2019 [version 16.7](/visualstudio/releases/2019/release-notes-v16.7#whats-new-in-visual-studio-2019-version-167/) and earlier. In Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes-v16.8#whats-new-in-visual-studio-2019-version-168/) and later, these details will appear in **Git Changes**.
+To get more details about a change, right-click that item. Depending on whether you're using TFVC or Git, there are options to compare the versions of the file, view details and track the changeset, get the selected version of the file, and email the author of that change. Some of these details appear in **Team Explorer** in Visual Studio 2019 [version 16.7](/visualstudio/releases/2019/release-notes-v16.7#whats-new-in-visual-studio-2019-version-167/) and earlier. In Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes-v16.8#whats-new-in-visual-studio-2019-version-168/) and later, these details appear in **Git Changes**.
 
-You can also see who changed your code over time. This can help you find patterns in your team's changes and assess their impact.
+You can also see who changed your code over time, which can help you find patterns in your team's changes and assess their impact.
 
 ![CodeLens: See code changes history as a graph](../ide/media/codelens.png)
 
 ### Find changes in your current branch
 
-Your team may have multiple branches, for example a main branch and a child development branch, to reduce the risk of breaking stable code.
+Your team might have multiple branches, for example a main branch and a child development branch, to reduce the risk of breaking stable code.
 
 ![CodeLens: Find changes in your current branch](../ide/media/codelensfirstbranchconceptual.png)
 
@@ -461,7 +456,7 @@ You can discover unit tests that exist for your C# or Visual Basic code without 
 
 1. Go to application code that has associated [unit test code](../test/unit-test-your-code.md).
 
-2. If you have not already, build your application to load the CodeLens test indicators.
+2. If you haven't already, build your application to load the CodeLens test indicators.
 
 3. Review the tests for the code by pressing **Alt**+**3**.
 
