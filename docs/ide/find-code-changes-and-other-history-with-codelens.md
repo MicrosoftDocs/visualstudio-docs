@@ -54,7 +54,7 @@ You need:
 
 - Either the Enterprise edition or the Professional edition of Visual Studio 2022
 
-- [Git](https://git-scm.com/) or [Azure DevOps Server](/azure/devops/server/tfs-is-now-azure-devops-server?view=azure-devops) or [Team Foundation Version Control](/azure/devops/repos/tfvc/what-is-tfvc?view=azure-devops)
+- [Git](https://git-scm.com/) or [Azure DevOps Server](/azure/devops/server/tfs-is-now-azure-devops-server?view=azure-devops&preserve-view=true) or [Team Foundation Version Control](/azure/devops/repos/tfvc/what-is-tfvc?view=azure-devops&preserve-view=true)
 
 For C# or Visual Basic code that's stored with Team Foundation Version Control (TFVC) or Git, you get CodeLens details at the class and method levels (*code element-level* indicators).
 
@@ -194,24 +194,6 @@ When the indicators are turned on, you can also open the CodeLens options from t
 
 **A:** This might happen because CodeLens can't find the work items in Azure Boards or TFS. Check that you're connected to the project that has those work items, and that you have permissions to see those work items. Work item details might also not show if the commit description has incorrect information about the work item IDs in Azure Boards or TFS.
 
-::: moniker range="<=vs-2019"
-
-### Q: Why don't I see the Skype indicators?
-
-**A:** Skype indicators don't appear if you're not signed into Skype for Business, don't have it installed, or don't have a supported configuration. However, you can still send email:
-
-![CodeLens - Contact changeset owner by mail](../ide/media/codelenscodesendmailchangesetnolync1.png)
-
-**Which Skype and Lync configurations are supported?**
-
-- Skype for Business (32-bit or 64-bit)
-
-- Lync 2010 or later alone (32-bit or 64-bit), but not Lync Basic 2013 with Windows 8.1
-
-CodeLens doesn't support having different versions of Lync or Skype installed. They might not be localized for all localized versions of Visual Studio.
-
-::: moniker-end
-
 ### Q: How do I change the font and color for CodeLens?
 
 **A:** Go to **Tools** > **Options** > **Environment** > **Fonts and Colors**.
@@ -222,11 +204,11 @@ To use the keyboard:
 
 1. Press **Alt**+**T**+**O** to open the **Options** dialog box.
 
-2. Press **Up Arrow** or **Down Arrow** to go to the **Environment** node, then press **Left Arrow** to expand the node.
+1. Press **Up Arrow** or **Down Arrow** to go to the **Environment** node, then press **Left Arrow** to expand the node.
 
-3. Press **Down Arrow** to go to **Fonts and Colors**.
+1. Press **Down Arrow** to go to **Fonts and Colors**.
 
-4. Press **Tab** to go to the **Show settings for** list, and then press **Down Arrow** to select **CodeLens**.
+1. Press **Tab** to go to the **Show settings for** list, and then press **Down Arrow** to select **CodeLens**.
 
 ### Q: Can I move the CodeLens heads-up display?
 
@@ -283,7 +265,7 @@ Contact your team about changes to your code without leaving the editor:
 
 To choose the indicators that you want to see, or to turn CodeLens off and on, go to **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens**.
 
-## Find references to your code
+## Find references to your code in Visual Studio 2019
 
 You can find references in C# or Visual Basic code.
 
@@ -294,11 +276,11 @@ You can find references in C# or Visual Basic code.
    > [!NOTE]
    > If the indicator shows **0 references**, you have no references from C# or Visual Basic code. However, there may be references in other items such as *.xaml* and *.aspx* files.
 
-2. To view the referencing code, mouse over the reference in the list.
+1. To view the referencing code, mouse over the reference in the list.
 
    ![CodeLens - Peek reference](../ide/media/codelens-peek-reference.png)
 
-3. To open the file that contains the reference, double-click the reference.
+1. To open the file that contains the reference, double-click the reference.
 
 ### Code maps
 
@@ -306,7 +288,7 @@ To see relationships between the code and its references, [create a code map](..
 
 ![CodeLens - References on code map](../ide/media/codelensmappedreferences.png)
 
-## Find changes in your code
+## Find changes in your code in Visual Studio 2019
 
 Inspect your code's history to find out what happened to your code. Or, review changes before they're merged into your code so you can better understand how changes in other branches might affect your code.
 
@@ -422,25 +404,25 @@ The icon in the **Branch** column tells you how the branch is related to the bra
 |![CodeLens: Merge from child branch icon](../ide/media/codelensbranchmergefromchildicon.png)|A merge from a child branch to the parent branch|
 |![CodeLens: Merge from unrelated branch icon](../ide/media/codelensbranchmergefromunrelatedicon.png)|A merge from an unrelated branch (baseless merge)|
 
-## Linked work items
+## Linked work items in Visual Studio 2019
 
 Find linked work items by selecting the **work items** indicator or by pressing **Alt**+**8**.
 
 ![CodeLens - Find work items for specific code](../ide/media/codelens-work-items.png)
 
-## Linked code reviews
+## Linked code reviews in Visual Studio 2019
 
 Find linked code reviews by selecting the **reviews** indicator. To use the keyboard, hold down the **Alt** key and then press **Left arrow** or **Right arrow** to navigate the indicator options.
 
 ![CodeLens - View code review requests](../ide/media/codelens-code-reviews.png)
 
-## Linked bugs
+## Linked bugs in Visual Studio 2019
 
 Find linked bugs by selecting the **bugs** indicator or by pressing **Alt**+**7**.
 
 ![CodeLens - Find bugs linked to changesets](../ide/media/codelens-bugs-changesets.png)
 
-## Contact the owner of an item
+## Contact the owner of an item in Visual Studio 2019
 
 Find the author of an item by selecting the **authors** indicator or by pressing **Alt**+**5**.
 
@@ -450,33 +432,33 @@ Open the shortcut menu for an item to see the contact options. If you have Lync,
 
 ![Contact options for an item](../ide/media/codelens-item-contact-menu.png)
 
-## Associated unit tests
+## Associated unit tests in Visual Studio 2019
 
 You can discover unit tests that exist for your C# or Visual Basic code without opening **Test Explorer**.
 
 1. Go to application code that has associated [unit test code](../test/unit-test-your-code.md).
 
-2. If you haven't already, build your application to load the CodeLens test indicators.
+1. If you haven't already, build your application to load the CodeLens test indicators.
 
-3. Review the tests for the code by pressing **Alt**+**3**.
+1. Review the tests for the code by pressing **Alt**+**3**.
 
      ![CodeLens - Choose test status in code editor](../ide/media/codelens-choose-test-indicator.png)
 
-4. If you see a warning icon ![warning icon](../ide/media/codelenstestwarningicon.png), the tests haven't run yet, so run them.
+1. If you see a warning icon ![warning icon](../ide/media/codelenstestwarningicon.png), the tests haven't run yet, so run them.
 
      ![CodeLens - View unit tests not run yet](../ide/media/codelens-tests-not-yet-run.png)
 
-5. To review a test's definition, double-click the test item in the CodeLens indicator window to open the code file in the editor.
+1. To review a test's definition, double-click the test item in the CodeLens indicator window to open the code file in the editor.
 
      ![CodeLens - Go to unit test definition](../ide/media/codelens-unit-test-definition.png)
 
-6. To review the test's results, choose the test status indicator (![test failed icon](../ide/media/codelenstestfailedicon.png) or ![test passed icon](../ide/media/codelenstestpassedicon.png)) or press **Alt**+**1**.
+1. To review the test's results, choose the test status indicator (![test failed icon](../ide/media/codelenstestfailedicon.png) or ![test passed icon](../ide/media/codelenstestpassedicon.png)) or press **Alt**+**1**.
 
      ![CodeLens - See unit test result](../ide/media/codelens-unit-test-result.png)
 
-7. To see how many people changed this test, who changed this test, or how many changes were made to this test, [find your code's history](#find-changes-in-your-code) and linked items.
+1. To see how many people changed this test, who changed this test, or how many changes were made to this test, [find your code's history](#find-changes-in-your-code) and linked items.
 
-## Keyboard shortcuts
+## Keyboard shortcuts in Visual Studio 2019
 
 To use the keyboard to select indicators, press and hold the **Alt** key to display the related number keys, then press the number that corresponds to the indicator you want to select.
 
@@ -485,7 +467,7 @@ To use the keyboard to select indicators, press and hold the **Alt** key to disp
 > [!NOTE]
 > To select the **reviews** indicator, hold down **Alt** while using the left and right arrow keys to navigate.
 
-## Q & A
+## Q & A for CodeLens in Visual Studio 2019
 
 ### Q: How do I turn CodeLens off or on or choose which indicators to see?
 
@@ -518,24 +500,6 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 
 **A:** This might happen because CodeLens can't find the work items in Azure Boards or TFS. Check that you're connected to the project that has those work items, and that you have permissions to see those work items. Work item details might also not show if the commit description has incorrect information about the work item IDs in Azure Boards or TFS.
 
-::: moniker range="<=vs-2019"
-
-### Q: Why don't I see the Skype indicators?
-
-**A:** Skype indicators don't appear if you're not signed into Skype for Business, don't have it installed, or don't have a supported configuration. However, you can still send email:
-
-![CodeLens - Contact changeset owner by mail](../ide/media/codelenscodesendmailchangesetnolync1.png)
-
-**Which Skype and Lync configurations are supported?**
-
-- Skype for Business (32-bit or 64-bit)
-
-- Lync 2010 or later alone (32-bit or 64-bit), but not Lync Basic 2013 with Windows 8.1
-
-CodeLens doesn't support having different versions of Lync or Skype installed. They might not be localized for all localized versions of Visual Studio.
-
-::: moniker-end
-
 ### Q: How do I change the font and color for CodeLens?
 
 **A:** Go to **Tools** > **Options** > **Environment** > **Fonts and Colors**.
@@ -546,11 +510,11 @@ To use the keyboard:
 
 1. Press **Alt**+**T**+**O** to open the **Options** dialog box.
 
-2. Press **Up Arrow** or **Down Arrow** to go to the **Environment** node, then press **Left Arrow** to expand the node.
+1. Press **Up Arrow** or **Down Arrow** to go to the **Environment** node, then press **Left Arrow** to expand the node.
 
-3. Press **Down Arrow** to go to **Fonts and Colors**.
+1. Press **Down Arrow** to go to **Fonts and Colors**.
 
-4. Press **Tab** to go to the **Show settings for** list, and then press **Down Arrow** to select **CodeLens**.
+1. Press **Tab** to go to the **Show settings for** list, and then press **Down Arrow** to select **CodeLens**.
 
 ### Q: Can I move the CodeLens heads-up display?
 
