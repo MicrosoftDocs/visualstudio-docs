@@ -33,8 +33,6 @@
   items:
   - name: Python in Visual Studio
     items:
-    - name: 0 - Install Python support
-      href: tutorial-working-with-python-in-visual-studio-step-00-installation.md
     - name: 1 - Create a new Python project
       href: tutorial-working-with-python-in-visual-studio-step-01-create-project.md
     - name: 2 - Writing and running code
