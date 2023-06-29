@@ -244,10 +244,9 @@ To use the keyboard:
 
 **A:** Rebuild your project to get CodeLens test indicators to load in your file. To improve performance, Visual Studio no longer fetches source information for test indicators when code files are loaded. Test indicators are loaded after a build, or when you navigate to a test by double-clicking on it in **Test Explorer**.
 
-## See also
-
 ::: moniker-end
 
+<!--Start Visual Studio 2019 content here-->
 ::: moniker range="vs-2019"
 
 CodeLens lets you stay focused on your work while you find out what happened to your code&ndash;without leaving the editor. You can find references to a piece of code, changes to your code, linked bugs, work items, code reviews, and unit tests.
