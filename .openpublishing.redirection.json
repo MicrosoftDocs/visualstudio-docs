@@ -6591,11 +6591,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/msbuild/index.md",
-      "redirect_url": "/visualstudio/msbuild/msbuild",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/msbuild/msbuild-glossary1.md",
       "redirect_url": "/visualstudio/msbuild/msbuild-glossary",
       "redirect_document_id": false
@@ -6987,7 +6982,12 @@
     },
     {
       "source_path": "docs/python/vs-tutorial-01-00.md",
-      "redirect_url": "/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-00-installation",
+      "redirect_url": "/visualstudio/python/installing-python-support-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/python/tutorial-working-with-python-in-visual-studio-step-00-installation.md",
+      "redirect_url": "/visualstudio/python/installing-python-support-in-visual-studio",
       "redirect_document_id": false
     },
     {
