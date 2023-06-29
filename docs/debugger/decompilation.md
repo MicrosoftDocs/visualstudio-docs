@@ -1,7 +1,7 @@
 ---
 title: Decompile .NET code while debugging | Microsoft Docs
 description: Generate and embed source code from .NET assemblies while debugging in Visual Studio. Extract and view the embedded source code.
-ms.date: 03/23/2023
+ms.date: 06/29/2023
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -25,7 +25,7 @@ When debugging a .NET application, you may find that you want to view source cod
 > [!NOTE]
 > * Source code generation (decompilation) is only available for .NET applications and is based on the open source [ILSpy](https://github.com/icsharpcode/ILSpy) project.
 > * Decompilation is only available in Visual Studio 2019 16.5 and later.
-> * Applying the [SuppressIldasmAttribute](/dotnet/api/system.runtime.compilerservices.suppressildasmattribute) attribute to an assembly or module prevents Visual Studio from attempting decompilation.
+> * Applying the [SuppressIldasmAttribute](/dotnet/api/system.runtime.compilerservices.suppressildasmattribute) attribute to an assembly or module prevents Visual Studio from attempting decompilation. Although the attribute is obsolete in .NET 6+, Visual Studio honors the attribute.
 
 ## Generate source code
 

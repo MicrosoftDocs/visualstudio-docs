@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot profiling errors
 description: Learn how to resolve possible profiling errors with error message guidance
-ms.date: 05/18/2023
+ms.date: 06/28/2023
 ms.topic: how-to
 ms.assetid: 
 author: mikejo5000
@@ -25,7 +25,7 @@ When opening a *diagsession* file, certain filters are applied such as hiding na
 - Ensure that your time selection has data in it. If you’ve changed your time selection in the graph above the data, select **Clear Selection** to reset it.
 - Next, if there's still no data, ensure that all categories and threads are enabled in their respective dropdowns.
 - If the application you are profiling is native code, then be sure to enable the **Show Native Code** option in the **Settings** drop-down. 
-- If you still have no data, then the trace you collected likely was too short for any data to be present. Make sure the program you're collecting data for does'nt complete too quickly (less than a second).
+- If you still have no data, then the trace you collected likely was too short for any data to be present. Make sure the program you're collecting data for doesn't complete too quickly (less than a second).
 
 See also: [Show External Code](../profiling/optimize-profiler-settings.md)
 
@@ -104,6 +104,10 @@ The Visual Studio profiler uses Event Tracing for Windows (ETW) to collect its p
   ```
 
   Running this command increases the default number of sessions from 64 to 128 (256 is the max number of sessions allowed on a system).
+
+## Error: CPU Usage tool doesn’t work on ARM64 VM
+
+The Visual Studio profiler uses Event Tracing for Windows (ETW) to collect its performance information. Currently, collecting profile samples using ETW is unsupported on Windows for ARM64 when running in a Virtual Machine (VM). To work around this limitation, you can either use the CPU Usage tool on an actual ARM64 device or use the Instrumentation tool to capture timing information.
 
 ## See also
 
