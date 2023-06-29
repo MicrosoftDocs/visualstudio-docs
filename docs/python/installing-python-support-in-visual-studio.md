@@ -53,7 +53,9 @@ Python support is available only on Visual Studio for Windows. On Mac and Linux,
    :::moniker-end
    :::moniker range="<=vs-2019"
 
-   ```*%ProgramFiles(x86)%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python*```
+   ```txt
+   *%ProgramFiles(x86)%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python*
+   ```
 
    where `<VS_version>` is 2019 or 2017 and `<VS_edition>` is Community, Professional, or Enterprise.
 
