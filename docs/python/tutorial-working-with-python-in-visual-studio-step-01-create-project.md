@@ -30,8 +30,6 @@ Visual Studio provides first-class language support for Python. This tutorial gu
 
 [!INCLUDE[tutorial-prereqs](includes/tutorial-prereqs.md)]
 
-- The [Python tools for Visual Studio workload is installed](installing-python-support-in-visual-studio.md).
-
 ## Step 1: Create a new Python project
 
 A *project* is how Visual Studio manages all the files that come together to produce a single application. Application files include source code, resources, and configurations. A project formalizes and maintains the relationships among all the project's files. The project also manages external resources that are shared between multiple projects. A project allows your application to effortlessly expand and grow. Using projects is much easier than manually managing relationships in unplanned folders, scripts, text files, and your memory.
