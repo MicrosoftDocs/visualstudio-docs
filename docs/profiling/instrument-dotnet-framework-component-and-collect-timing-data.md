@@ -18,7 +18,7 @@ ms.workload:
 This topic describes how to use Visual Studio command-line profiling tools to instrument a .NET Framework component such as an .*exe* or .*dll* file, and to collect detailed timing data.
 
 > [!NOTE]
-> For .NET Core and .NET 5+, see [Measure application performance from the command line](../profiling/profile-apps-from-command-line.md) for command line instrumentation scenarios. VSInstr is not supported for .NET Core and .NET 5+ binaries. Although VSInstr is supported for .NET Framework, we recommend using [VSDiagnostics.exe](../profiling/profile-apps-from-command-line.md) instead, since it provides dynamic instrumentation.
+> For .NET Core and .NET 5+, see [Measure application performance from the command line](../profiling/profile-apps-from-command-line.md) for command line instrumentation scenarios. VSInstr is not supported for .NET Core and .NET 5+ binaries. Starting in Visual Studio 2022 version 17.6, we recommend using [VSDiagnostics.exe](../profiling/profile-apps-from-command-line.md) for .NET Framework scenarios as well, since it provides dynamic instrumentation.
 
 > [!NOTE]
 > To get the path to the profiling tools, see [Specify the path to command line tools](/previous-versions/visualstudio/visual-studio-2017/profiling/specifying-the-path-to-profiling-tools-command-line-tools). On 64-bit computers, both 64-bit and 32-bit versions of the tools are available. To use the profiler command-line tools, you must add the tools path to the PATH environment variable of the Command Prompt window or add it to the command itself.

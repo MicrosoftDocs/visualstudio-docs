@@ -21,7 +21,7 @@ ms.workload:
 This article describes the procedures and options for collecting detailed performance data for a client (stand-alone) component such as a DLL by using the instrumentation method from the command line. Use the instrumentation method to collect detailed timing information. Instrumentation data is useful for analyzing I/O issues and for fine-grained analysis of application scenarios.
 
 > [!NOTE]
-> For .NET Core and .NET 5+, see [Measure application performance from the command line](../profiling/profile-apps-from-command-line.md) for command line instrumentation scenarios. VSInstr is not supported for .NET Core and .NET 5+ binaries. Although VSInstr is supported for .NET Framework, we recommend using [VSDiagnostics.exe](../profiling/profile-apps-from-command-line.md) instead, since it provides dynamic instrumentation.
+> For .NET Core and .NET 5+, see [Measure application performance from the command line](../profiling/profile-apps-from-command-line.md) for command line instrumentation scenarios. VSInstr is not supported for .NET Core and .NET 5+ binaries. Starting in Visual Studio 2022 version 17.6, we recommend using [VSDiagnostics.exe](../profiling/profile-apps-from-command-line.md) for .NET Framework scenarios as well, since it provides dynamic instrumentation.
 
 Using [VSInstr](../profiling/vsinstr.md), you can instrument DLLs for which you would like timing information and then use [VSPerfCmd](../profiling/vsperfcmd.md) to capture the trace. This will generate a *.vsp* file that can then be loaded and analyzed in Visual Studio.
 

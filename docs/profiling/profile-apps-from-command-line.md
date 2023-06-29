@@ -67,7 +67,7 @@ Profiling using the Visual Studio Diagnostics CLI tools works by attaching the p
    VSDiagnostics.exe start 1 /attach:<pid> /loadConfig:AgentConfigs\CPUUsageLow.json
    ```
 
-   Alternatively, you can use the `/launch` command to start an executable. In this scenario, you don't need to get the process ID and attach to it. For example, use the following to start an executable and collect instrumentation data:
+   Alternatively, you can use the `launch` command to start an executable. In this scenario, you don't need to get the process ID and attach to it. All tools support the `launch` command, although some due not support `attach`, such as the Instrumentation and .NET Allocation tool. For example, use the following to start an executable and collect instrumentation data:
 
    ```cmd
    VSDiagnostics start <id> /launch:<ExeToProfile> /loadConfig:AgentConfigs\PerfInstrumentation.json
