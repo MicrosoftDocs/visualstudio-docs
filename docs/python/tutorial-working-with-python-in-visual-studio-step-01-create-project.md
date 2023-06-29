@@ -21,7 +21,6 @@ Python is a popular programming language that is reliable, flexible, easy to lea
 
 Visual Studio provides first-class language support for Python. This tutorial guides you through the following steps:
 
-- [Step 0: Installation](tutorial-working-with-python-in-visual-studio-step-00-installation.md)
 - [Step 1: Create a Python project (this article)](#step-1-create-a-new-python-project)
 - [Step 2: Write and run code to see Visual Studio IntelliSense at work](tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)
 - [Step 3: Create more code in the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)
@@ -30,6 +29,8 @@ Visual Studio provides first-class language support for Python. This tutorial gu
 - [Step 6: Work with Git](tutorial-working-with-python-in-visual-studio-step-06-working-with-git.md)
 
 [!INCLUDE[tutorial-prereqs](includes/tutorial-prereqs.md)]
+
+- The [Python tools for Visual Studio workload is installed](installing-python-support-in-visual-studio.md).
 
 ## Step 1: Create a new Python project
 
