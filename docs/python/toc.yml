@@ -10,7 +10,7 @@
     href: data-science-and-analytical-applications-workload.md
 - name: Installation
   items:
-  - name: Installation
+  - name: Install Python workload
     href: installing-python-support-in-visual-studio.md
   - name: Install Python interpreters
     href: installing-python-interpreters.md
@@ -19,51 +19,51 @@
   - name: Create a web app with Flask
     href: ../ide/quickstart-python.md
     maintainContext: true
-  - name: Create a project from a template
-    href: quickstart-02-python-in-visual-studio-project-from-template.md
-  - name: Open and run Python code in a folder
+  - name: Open & run Python code in a folder
     href: quickstart-05-python-visual-studio-open-folder.md
-  - name: Create a project from existing code
+  - name: Create projects from a template
+    href: quickstart-02-python-in-visual-studio-project-from-template.md
+  - name: Create projects from existing code
     href: quickstart-01-python-in-visual-studio-project-from-existing-code.md
-  - name: Create a project from a repository
+  - name: Create projects from a repository
     href: quickstart-03-python-in-visual-studio-project-from-repository.md
-  - name: Create a project from a Cookiecutter template
+  - name: Create projects from a Cookiecutter template
     href: quickstart-04-python-in-visual-studio-project-from-cookiecutter.md
 - name: Tutorials
   items:
   - name: Python in Visual Studio
     items:
-    - name: 1 - Create a new Python project
+    - name: "1. Create a new Python project"
       href: tutorial-working-with-python-in-visual-studio-step-01-create-project.md
-    - name: 2 - Writing and running code
+    - name: "2. Write and run code"
       href: tutorial-working-with-python-in-visual-studio-step-02-writing-code.md
-    - name: 3 - Using the interactive REPL window
+    - name: "3. Use the interactive REPL window"
       href: tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md
-    - name: 4 - Running code in the debugger
+    - name: "4. Run code in the debugger"
       href: tutorial-working-with-python-in-visual-studio-step-04-debugging.md
-    - name: 5 - Installing packages and managing Python environments
+    - name: "5. Install packages & manage Python environments"
       href: tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md
-    - name: 6 - Working with Git
+    - name: "6. Work with Git"
       href: tutorial-working-with-python-in-visual-studio-step-06-working-with-git.md
   - name: Learn Django in Visual Studio
     items:
-    - name: 1 - Create a project and solution
+    - name: "1. Create a project & solution"
       href: learn-django-in-visual-studio-step-01-project-and-solution.md
-    - name: 2 - Create a Django app
+    - name: "2. Create a Django app"
       href: learn-django-in-visual-studio-step-02-create-an-app.md
-    - name: 3 - Serve static files and add pages
+    - name: "3. Serve static files & add pages
       href: learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md
-    - name: 4 - Use the Django Web Project template
+    - name: "4. Use Django Web Project template"
       href: learn-django-in-visual-studio-step-04-full-django-project-template.md
-    - name: 5 - Authenticate users
+    - name: "5. Authenticate users"
       href: learn-django-in-visual-studio-step-05-django-authentication.md
   - name: Learn Flask in Visual Studio
     items:
-    - name: 1 - Create a project and solution
+    - name: "1. Create a project & solution"
       href: learn-flask-visual-studio-step-01-project-solution.md
-    - name: 2 - Create a Flask app
+    - name: "2. Create a Flask app"
       href: learn-flask-visual-studio-step-02-create-app.md
-    - name: 3 - Serve static files and add pages
+    - name: "3. Serve static files & add pages"
       href: learn-flask-visual-studio-step-03-serve-static-files-add-pages.md
 - name: Concepts
   items:
