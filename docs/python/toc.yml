@@ -51,7 +51,7 @@
       href: learn-django-in-visual-studio-step-01-project-and-solution.md
     - name: "2. Create a Django app"
       href: learn-django-in-visual-studio-step-02-create-an-app.md
-    - name: "3. Serve static files & add pages
+    - name: "3. Serve static files & add pages"
       href: learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md
     - name: "4. Use Django Web Project template"
       href: learn-django-in-visual-studio-step-04-full-django-project-template.md
