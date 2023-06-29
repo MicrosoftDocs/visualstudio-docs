@@ -1,7 +1,7 @@
 ---
 title: Fix DPI display issues in Windows Form Designer
 description: Disable DPI awareness to fix scaling issues with Windows Forms Designer on HDPI monitors.
-ms.date: 02/28/2023
+ms.date: 06/29/2023
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
