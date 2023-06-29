@@ -89,9 +89,9 @@ Profiling using the Visual Studio Diagnostics CLI tools works by attaching the p
 
 Collection Agents are interchangeable components that collect different types of data depending on what you are trying to measure.
 
-For convenience, we recommend that you store that information in an agent configuration file. The configuration file is a *.json* file that contains at minimum the name of the *.dll* and its COM CLSID. You can find the example configuration files in the following folder:
+For convenience, we recommend that you store that information in an agent configuration file. The configuration file is a *.json* file that contains at minimum the name of the *.dll* and its COM CLSID. By default, you can find the example configuration files in the following folder:
 
-```<Visual Studio installation folder>Team Tools\DiagnosticsHub\Collector\AgentConfigs\```
+```Program Files\Microsoft Visual Studio\<version>\<sku>\Team Tools\DiagnosticsHub\Collector\AgentConfigs```
 
 CpuUsage configurations (Base/High/Low) correspond to data collected for the [CPU Usage](../profiling/cpu-usage.md) profiling tool.
 DotNetObjectAlloc configurations (Base/Low) correspond to data collected for the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md).
