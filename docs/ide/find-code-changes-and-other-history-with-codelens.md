@@ -1,7 +1,7 @@
 ---
 title: Find code changes and other history with CodeLens
 description: Learn about CodeLens and how to use it explore the history of your code without having to leave the editor.
-ms.date: 06/29/2023
+ms.date: 06/30/2023
 ms.topic: conceptual
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.All_Languages.CodeLens
@@ -58,17 +58,13 @@ You need:
 
 For C# or Visual Basic code that's stored with Team Foundation Version Control (TFVC) or Git, you get CodeLens details at the class and method levels (*code element-level* indicators).
 
-For file types other than *.cs* or *.vb*, you get CodeLens details for the entire file in one place at the bottom of the window (*file-level* indicators).
-
-![File-level CodeLens indicators](../ide/media/almcodelensfilelevelindicators.png)
+For file types other than *.cs* or *.vb*, you get CodeLens details for the entire file in one place (*file-level* indicators).
 
 ### Code element-level indicators
 
 Code element-level indicators let you see who changed your code and what changes they made. Code element-level indicators are available for C# and Visual Basic code.
 
-You can also view change history when you use Team Foundation Version Control (TFVC) in Azure DevOps Services:
-
-![CodeLens: Get change history for your code in TFVC](../ide/media/codelens-code-changes.png)
+You can also view change history when you use Team Foundation Version Control (TFVC) in Azure DevOps Services.
 
 The default time period is the last 12 months. If your code is stored in Team Foundation Server, you can change the time period by running the [TFSConfig command](/azure/devops/server/command-line/tfsconfig-cmd) with the [CodeIndex command](../ide/codeindex-command.md) and the **/indexHistoryPeriod** flag.
 
@@ -295,11 +291,9 @@ You need:
 
 - Visual Studio Enterprise or Professional edition
 
-- Azure DevOps Services, Team Foundation Server 2013 or later, or Git
+- [Git](https://git-scm.com/) or [Azure DevOps Server](/azure/devops/server/tfs-is-now-azure-devops-server?view=azure-devops&preserve-view=true) or [Team Foundation Version Control](/azure/devops/repos/tfvc/what-is-tfvc?view=azure-devops&preserve-view=true)
 
-- [Microsoft Teams](/MicrosoftTeams/) or [Skype for Business](/skypeforbusiness/) to contact your team from the code editor
-
-For C# or Visual Basic code that's stored with Team Foundation Version Control (TFVC) or Git, you get CodeLens details at the class and method levels (*code element-level* indicators). If your Git repository is hosted in TfGit, you also get links to TFS work items.
+For C# or Visual Basic code that's stored with Team Foundation Version Control (TFVC) or Git, you get CodeLens details at the class and method levels (*code element-level* indicators). 
 
 ![Code element-level indicators](../ide/media/codelens-element-level-indicators.png)
 
@@ -427,7 +421,7 @@ Find the author of an item by selecting the **authors** indicator or by pressing
 
 ![Contact the owner of an item](../ide/media/codelens-contact-item-owner.png)
 
-Open the shortcut menu for an item to see the contact options. If you have Lync, Skype for Business, or Teams installed, you see options similar to those in the following screenshot:
+Open the shortcut menu for an item to see the contact options. If you have Teams installed, you might see options similar to those in the following screenshot:
 
 ![Contact options for an item](../ide/media/codelens-item-contact-menu.png)
 
