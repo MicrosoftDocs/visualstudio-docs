@@ -627,6 +627,7 @@
         href: /dotnet/framework/winforms/controls/developing-windows-forms-controls-at-design-time
       - name: Disable DPI awareness
         href: designers/disable-dpi-awareness.md
+        items:
         - name: DPI scaling setting message
           href: designers/scaling-percentage-setting-message.md
       - name: Reference
