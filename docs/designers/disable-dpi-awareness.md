@@ -1,7 +1,7 @@
 ---
 title: Fix DPI display issues in Windows Form Designer
 description: Disable DPI awareness to fix scaling issues with Windows Forms Designer on HDPI monitors.
-ms.date: 02/28/2023
+ms.date: 06/29/2023
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
@@ -13,7 +13,7 @@ ms.custom: contperf-fy23q2; engagement-fy23
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In this article, you learn how to address rendering issues due to scaling limitations of the Windows Forms Designer on HDPI monitors by [running Visual Studio as a DPI-unaware process](#restart-visual-studio-as-a-dpi-unaware-process).   HDPI stands for high dots per inch, with each dot representing a physical device pixel.
+In this article, you learn how to address rendering issues due to scaling limitations of the Windows Forms Designer on HDPI monitors by [running Visual Studio as a DPI-unaware process](#restart-visual-studio-as-a-dpi-unaware-process). HDPI stands for high dots per inch, with each dot representing a physical device pixel.
 
 Higher pixel density creates sharper images, and display scaling sizes elements properly. Without proper scaling, user interface (UI) elements and text are too tiny to use effectively and can overlap. To help remedy this issue, Windows automatically scales the UI percentile to match the DPI setting. For example, a DPI setting of 100% represents 96 DPI and 125% is 120 DPI. Monitors used to ship with 96 pixels per inch, which Windows used as the baseline for 100% bitmap drawing. However, as display technology advanced, monitors now ship with panels of 300 DPI or higher.
 
@@ -23,7 +23,7 @@ When an application declares itself to be DPI-aware, it's a statement specifying
 
 By default, Visual Studio is a dots per inch (DPI)-aware application, which means the display scales automatically.  However, **Windows Forms Designer** is a DPI-unaware app, so it appears as a bitmap at 96 DPI. Without autoscaling support, issues and overlapping arises when opening forms on HDPI monitors, like in this image:
 
-![Windows Forms Designer on HDPI monitor](./media/win-forms-designer-hdpi-1.gif)
+![Screenshot of Windows Forms Designer on HDPI monitor that shows issues due to lack of autoscaling support.](./media/win-forms-designer-hdpi-1.gif)
 
 When you open a form in **Windows Forms Designer** on an HDPI monitor, Visual Studio displays an info bar that displays the monitor's current scaling percentage (for example, 150%/144 DPI), an option to restart Visual Studio at 100% scaling to match Windows Forms Designer, and further information.   Restarting at 100% scaling makes VS DPI-unaware, allowing for proper rendering without overlap.
 
@@ -31,7 +31,7 @@ When you open a form in **Windows Forms Designer** on an HDPI monitor, Visual St
 
 > [!TIP]
 > 1. If you closed the information bar and want to restart Visual Studio as DPI-unaware, [use the DevEnv.exe tool](#use-the-devenvexe-tool).
-> 2. If you aren't working in the designer, you can ignore the information bar. You can also [disable notifications](#disable-notifications) so that the information bar doesn't continue to appear.
+> 1. If you aren't working in the designer, you can ignore the information bar. You can also [disable notifications](#disable-notifications) so that the information bar doesn't continue to appear.
 
 ## Restart Visual Studio as a DPI-unaware process
 
