@@ -629,7 +629,7 @@
         href: designers/disable-dpi-awareness.md
         items:
         - name: DPI scaling setting message
-          href: designers/scaling-percentage-setting-message.md
+          href: designers/scaling-percentage-display-setting-message.md
       - name: Reference
         items:
         - name: System.Windows.Forms API >>
