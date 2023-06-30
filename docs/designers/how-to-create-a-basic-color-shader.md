@@ -102,7 +102,7 @@ Before you begin, make sure that the **Properties** window and the **Toolbox** a
 > [!NOTE]
 > To better demonstrate the effect of the shader in this illustration, an orange color has been specified by using the **MaterialDiffuse** parameter of the shader, and a metallic-looking finish has been specified by using the **MaterialSpecular** and **MaterialSpecularPower** parameters. For information about material parameters, see [Shader Designer](../designers/shader-designer.md#preview-shaders).
 
-![Phong Shader graph and a preview of its effect](../designers/media/digit-lighting-graph.png)
+![Phong Shader graph and a preview of its effect.](../designers/media/digit-lighting-graph.png)
 
 Certain shapes might provide better previews for some shaders. To learn more about previewing shaders, see [Shader Designer](../designers/shader-designer.md#preview-shaders).
 
