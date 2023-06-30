@@ -4461,6 +4461,36 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/designers/how-to-create-a-basic-lambert-shader.md",
+      "redirect_url": "/visualstudio/designers/how-to-create-a-basic-color-shader",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/how-to-create-a-basic-phong-shader.md",
+      "redirect_url": "/visualstudio/designers/how-to-create-a-basic-color-shader",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/how-to-create-a-basic-texture-shader.md",
+      "redirect_url": "/visualstudio/designers/how-to-create-a-basic-color-shader",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/how-to-create-a-grayscale-texture-shader.md",
+      "redirect_url": "/visualstudio/designers/how-to-create-a-basic-color-shader",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/how-to-create-a-geometry-based-gradient-shader.md",
+      "redirect_url": "/visualstudio/designers/how-to-create-a-basic-color-shader",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/walkthrough-creating-a-realistic-3-d-billiard-ball.md,
+      "redirect_url": "/visualstudio/designers/how-to-create-a-basic-color-shader",
+      "redirect_document_id": false
+    },	
+    {
       "source_path": "docs/debugger/how-to-change-the-graphics-diagnostics-playback-machine.md",
       "redirect_url": "/visualstudio/debugger/graphics/how-to-change-the-graphics-diagnostics-playback-machine",
       "redirect_document_id": false
