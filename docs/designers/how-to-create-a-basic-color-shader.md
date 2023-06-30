@@ -15,7 +15,7 @@ ms.workload:
 
 [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In this article, you learn how use the [Shader Designer](../designers/shader-designer.md) to create different kinds of shaders.
+In this article, you learn how to use the [Shader Designer](../designers/shader-designer.md) to create different kinds of shaders.
 
 ## Create basic flat color shaders
 
