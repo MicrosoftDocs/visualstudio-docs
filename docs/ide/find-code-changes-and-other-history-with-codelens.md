@@ -52,9 +52,9 @@ Inspect your code's history to find out what happened to your code. Or, review c
 
 You need:
 
-- Either the Enterprise edition or the Professional edition of Visual Studio 2022
+- Visual Studio [Enterprise](https://visualstudio.microsoft.com/vs/compare/) or Visual Studio [Professional](https://visualstudio.microsoft.com/vs/compare/)
 
-- [Git](https://git-scm.com/) or [Azure DevOps Server](/azure/devops/server/tfs-is-now-azure-devops-server?view=azure-devops&preserve-view=true) or [Team Foundation Version Control](/azure/devops/repos/tfvc/what-is-tfvc?view=azure-devops&preserve-view=true)
+- [Git](https://git-scm.com/) or [Azure DevOps Server](/azure/devops/server/whats-new?view=azure-devops-2022&preserve-view=true) (formerly [Team Foundation Server](/azure/devops/server/tfs-is-now-azure-devops-server?view=azure-devops&preserve-view=true)) or [Team Foundation Version Control](/azure/devops/repos/tfvc/what-is-tfvc?view=azure-devops&preserve-view=true)
 
 For C# or Visual Basic code that's stored with Team Foundation Version Control (TFVC) or Git, you get CodeLens details at the class and method levels (*code element-level* indicators).
 
@@ -66,7 +66,7 @@ Code element-level indicators let you see who changed your code and what changes
 
 You can also view change history when you use Team Foundation Version Control (TFVC) in Azure DevOps Services.
 
-The default time period is the last 12 months. If your code is stored in Team Foundation Server, you can change the time period by running the [TFSConfig command](/azure/devops/server/command-line/tfsconfig-cmd) with the [CodeIndex command](../ide/codeindex-command.md) and the **/indexHistoryPeriod** flag.
+The default time period is the last 12 months. 
 
 To see a detailed history of all the changes, including those changes from more than a year ago, select **Show all file changes**, which opens a **History** window.
 
@@ -177,9 +177,7 @@ When the indicators are turned on, you can also open the CodeLens options from t
 
 - Make sure CodeLens is turned on. Go to **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens**.
 
-- If your code is stored in TFS, make sure that code indexing is turned on by using the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](/azure/devops/server/command-line/tfsconfig-cmd).
-
-- DevOps-related indicators appear only when work items are linked to the code and when you have permissions to open linked work items. Confirm that you have [team member permissions](/azure/devops/organizations/security/view-permissions?view=vsts&preserve-view=true).
+- Azure DevOps-related indicators appear only when work items are linked to the code and when you have permissions to open linked work items. Confirm that you have [team member permissions](/azure/devops/organizations/security/view-permissions?view=vsts&preserve-view=true).
 
 - Unit test indicators don't appear when application code doesn't have unit tests. Test status indicators appear automatically in test projects. If you know that your application code has unit tests, but the test indicators don't appear, try building the solution (**Ctrl**+**Shift**+**B**).
 
@@ -188,7 +186,7 @@ When the indicators are turned on, you can also open the CodeLens options from t
 
 ### Q: Why don't I see the work item details for a commit?
 
-**A:** This might happen because CodeLens can't find the work items in Azure Boards or TFS. Check that you're connected to the project that has those work items, and that you have permissions to see those work items. Work item details might also not show if the commit description has incorrect information about the work item IDs in Azure Boards or TFS.
+**A:** This might happen because CodeLens can't find the work items in Azure Boards. Check that you're connected to the project that has those work items, and that you have permissions to see those work items. Work item details might also not show if the commit description has incorrect information about the work item IDs in Azure Boards.
 
 ### Q: How do I change the font and color for CodeLens?
 
@@ -231,10 +229,6 @@ To use the keyboard:
 ### Q: What's "Local Version"?
 
 **A:** The **Local Version** arrow points at the most recent changeset in your local version of a file. When the server has more recent changesets, they appear above or below the **Local Version** arrow, depending on the order used to sort the changesets.
-
-### Q: Can I manage how CodeLens processes code to show history and linked items?
-
-**A:** Yes. If your code is in TFS, use the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](/azure/devops/server/command-line/tfsconfig-cmd).
 
 ### Q: My CodeLens test indicators no longer appear in my file when I first open my solution. How can I load them?
 
@@ -289,9 +283,9 @@ Inspect your code's history to find out what happened to your code. Or, review c
 
 You need:
 
-- Visual Studio Enterprise or Professional edition
+- Visual Studio [Enterprise](https://visualstudio.microsoft.com/vs/compare/) or Visual Studio [Professional](https://visualstudio.microsoft.com/vs/compare/)
 
-- [Git](https://git-scm.com/) or [Azure DevOps Server](/azure/devops/server/tfs-is-now-azure-devops-server?view=azure-devops&preserve-view=true) or [Team Foundation Version Control](/azure/devops/repos/tfvc/what-is-tfvc?view=azure-devops&preserve-view=true)
+- [Git](https://git-scm.com/) or [Azure DevOps Server](/azure/devops/server/whats-new?view=azure-devops-2022&preserve-view=true) (formerly [Team Foundation Server](/azure/devops/server/tfs-is-now-azure-devops-server?view=azure-devops&preserve-view=true)) or [Team Foundation Version Control](/azure/devops/repos/tfvc/what-is-tfvc?view=azure-devops&preserve-view=true)
 
 For C# or Visual Basic code that's stored with Team Foundation Version Control (TFVC) or Git, you get CodeLens details at the class and method levels (*code element-level* indicators). 
 
@@ -305,11 +299,11 @@ For file types other than *.cs* or *.vb*, you get CodeLens details for the entir
 
 Code element-level indicators let you see who changed your code and what changes they made. Code element-level indicators are available for C# and Visual Basic code.
 
-This is what you see when you use Team Foundation Version Control (TFVC) in Team Foundation Server or Azure DevOps Services:
+This is what you see when you use Team Foundation Version Control (TFVC) or Azure DevOps Services:
 
 ![CodeLens: Get change history for your code in TFVC](../ide/media/codelens-code-changes.png)
 
-The default time period is the last 12 months. If your code is stored in Team Foundation Server, you can change the time period by running the [TFSConfig command](/azure/devops/server/command-line/tfsconfig-cmd) with the [CodeIndex command](../ide/codeindex-command.md) and the **/indexHistoryPeriod** flag.
+The default time period is the last 12 months. 
 
 To see a detailed history of all the changes, including those changes from more than a year ago, choose **Show all file changes**:
 
@@ -480,8 +474,6 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 
 - Make sure CodeLens is turned on. Go to **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens**.
 
-- If your code is stored in TFS, make sure that code indexing is turned on by using the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](/azure/devops/server/command-line/tfsconfig-cmd).
-
 - DevOps-related indicators appear only when work items are linked to the code and when you have permissions to open linked work items. Confirm that you have [team member permissions](/azure/devops/organizations/security/view-permissions?view=vsts&preserve-view=true).
 
 - Unit test indicators don't appear when application code doesn't have unit tests. Test status indicators appear automatically in test projects. If you know that your application code has unit tests, but the test indicators don't appear, try building the solution (**Ctrl**+**Shift**+**B**).
@@ -491,7 +483,7 @@ Turn CodeLens file-level indicators on and off using the chevron icons at the bo
 
 ### Q: Why don't I see the work item details for a commit?
 
-**A:** This might happen because CodeLens can't find the work items in Azure Boards or TFS. Check that you're connected to the project that has those work items, and that you have permissions to see those work items. Work item details might also not show if the commit description has incorrect information about the work item IDs in Azure Boards or TFS.
+**A:** This might happen because CodeLens can't find the work items in Azure Boards. Check that you're connected to the project that has those work items, and that you have permissions to see those work items. Work item details might also not show if the commit description has incorrect information about the work item IDs in Azure Boards.
 
 ### Q: How do I change the font and color for CodeLens?
 
@@ -534,10 +526,6 @@ To use the keyboard:
 ### Q: What's "Local Version"?
 
 **A:** The **Local Version** arrow points at the most recent changeset in your local version of a file. When the server has more recent changesets, they appear above or below the **Local Version** arrow, depending on the order used to sort the changesets.
-
-### Q: Can I manage how CodeLens processes code to show history and linked items?
-
-**A:** Yes. If your code is in TFS, use the [CodeIndex command](../ide/codeindex-command.md) with the [TFS Config command](/azure/devops/server/command-line/tfsconfig-cmd).
 
 ### Q: My CodeLens test indicators no longer appear in my file when I first open my solution. How can I load them?
 
