@@ -701,18 +701,6 @@
           - name: Create a basic color shader
             displayName: Shader designer example
             href: designers/how-to-create-a-basic-color-shader.md
-          - name: Create a basic Lambert shader
-            href: designers/how-to-create-a-basic-lambert-shader.md
-          - name: Create a basic Phong shader
-            href: designers/how-to-create-a-basic-phong-shader.md
-          - name: Create a basic texture shader
-            href: designers/how-to-create-a-basic-texture-shader.md
-          - name: Create a grayscale texture shader
-            href: designers/how-to-create-a-grayscale-texture-shader.md
-          - name: Create a geometry-based gradient shader
-            href: designers/how-to-create-a-geometry-based-gradient-shader.md
-          - name: 'Walkthrough: Create a realistic 3D billiard ball'
-            href: designers/walkthrough-creating-a-realistic-3-d-billiard-ball.md
           - name: Export a shader
             href: designers/how-to-export-a-shader.md
     - name: XAML files >>
