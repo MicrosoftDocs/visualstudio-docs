@@ -36,4 +36,4 @@ Here's what to do about it:
 
 ## Next steps
 
-For more details about HDPI scaling and step-by-step instructions on how to fix it, see [HDPI/scaling issues with Windows Forms Designer in Visual Studio](disable-dpi-awareness.md).
+For more information about HDPI scaling issues and detailed, step-by-step instructions on how to fix them, see [HDPI/scaling issues with Windows Forms Designer in Visual Studio](disable-dpi-awareness.md).
