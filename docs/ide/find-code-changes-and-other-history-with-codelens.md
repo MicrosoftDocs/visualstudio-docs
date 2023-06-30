@@ -158,8 +158,6 @@ You can discover unit tests that exist for your C# or Visual Basic code without 
 
 To use the keyboard to select indicators, press and hold the **Alt** key to display the related number keys, then press the number that corresponds to the indicator you want to select.
 
-![Keyboard access numbers](../ide/media/codelens-alt-keys.png)
-
 > [!NOTE]
 > To select the **reviews** indicator, hold down **Alt** while using the left and right arrow keys to navigate.
 
@@ -208,21 +206,13 @@ To use the keyboard:
 
 **A:** Yes, choose ![Dock icon](../ide/media/codelensdockwindow.png) to dock CodeLens as a window.
 
-![Dock button in CodeLens indicator window](../ide/media/codelensselectdockwindow.png)
-
-![Docked CodeLens References window](../ide/media/codelensreferencesdockedwindow.png)
-
 ### Q: How do I refresh the indicators?
 
 **A:** This depends on the indicator:
 
-- **References**: This indicator updates automatically when the code changes. If the **References** indicator is docked as a separate window, refresh the indicator by selecting **Refresh**:
+- **References**: This indicator updates automatically when the code changes. If the **References** indicator is docked as a separate window, refresh the indicator by selecting **Refresh**.
 
-   ![Refresh button in CodeLens References](../ide/media/codelensviewreferencesdocked.png)
-
-- **Team**: Refresh these indicators by selecting **Refresh CodeLens Team Indicators** from the right-click menu:
-
-   ![Refresh CodeLens Team Indicators menu item](../ide/media/codelensrefreshindicatorsfromcode.png)
+- **Team**: Refresh these indicators by selecting **Refresh CodeLens Team Indicators** from the right-click menu.
 
 - **Test**: [Find unit tests for your code](#associated-unit-tests) to refresh the **Test** indicator.
 
