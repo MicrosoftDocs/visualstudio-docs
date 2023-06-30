@@ -24,7 +24,7 @@ Provides a table of all the MSBuild XML Schema elements with their available att
 
  MSBuild uses project files to instruct the build engine what to build and how to build it. MSBuild project files are XML files that adhere to the MSBuild XML schema. This section documents the XML schema definition (*.xsd*) file for MSBuild.
 
-The schema link in an MSBuild project file is not required in Visual Studio 2017 and later. If present, it should be ` http://schemas.microsoft.com/developer/msbuild/2003` regardless of the version of Visual Studio.
+The schema link in an MSBuild project file is not required in Visual Studio 2017 and later. If present, it should be ` http://schemas.microsoft.com/developer/msbuild/2003` regardless of the version of Visual Studio. This value is not a live web destination; the MSBuild schema definition file (`.xsd` file) can be found at [Microsoft.Build.xsd](https://github.com/dotnet/msbuild/blob/main/src/MSBuild/Microsoft.Build.xsd).
 
 ## MSBuild XML schema elements
 
