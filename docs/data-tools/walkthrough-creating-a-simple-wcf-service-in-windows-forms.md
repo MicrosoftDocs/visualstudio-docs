@@ -137,7 +137,7 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
 1. From the **Toolbox**, drag a `TextBox` control, a `Label` control, and a `Button` control onto the form.
 
-     ![Screenshot showing adding controls to the form.](../data-tools/media/vs-2022/windows-communication-foundation-client-app.png)
+     [ ![Screenshot showing adding controls to the form.](../data-tools/media/vs-2022/windows-communication-foundation-client-app.png) ](../data-tools/media/vs-2022/windows-communication-foundation-client-app.png#lightbox)
 
 1. Double-click the `Button`, and add the following code in the `Click` event handler:
 
