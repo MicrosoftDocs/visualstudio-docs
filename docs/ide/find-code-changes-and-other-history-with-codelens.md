@@ -79,7 +79,7 @@ You can also view the file-level indicators for an entire file.
 > [!NOTE]
 > File-level indicators are not available for C# and Visual Basic files.
 
-To get more details about a change, right-click the item. Depending on whether you're using TFVC or Git, there are options to compare the versions of the file, view details and track the changeset, get the selected version of the file, and email the author of that change. Some of these details appear in **Team Explorer** if you have than enabled; otherwise, these details appear in **Git Changes**.
+To get more details about a change, right-click the item. Depending on whether you're using TFVC or Git, there are options to compare the versions of the file, view details and track the changeset, get the selected version of the file, and email the author of that change. Some of these details appear in **Team Explorer** if you have it enabled; otherwise, these details appear in **Git Changes**.
 
 You can also see who changed your code over time, which can help you find patterns in your team's changes and assess their impact.
 
@@ -226,7 +226,6 @@ To use the keyboard:
 
 ::: moniker-end
 
-<!--Start Visual Studio 2019 content here-->
 ::: moniker range="vs-2019"
 
 CodeLens lets you stay focused on your work while you find out what happened to your code&ndash;without leaving the editor. You can find references to a piece of code, changes to your code, linked bugs, work items, code reviews, and unit tests.
