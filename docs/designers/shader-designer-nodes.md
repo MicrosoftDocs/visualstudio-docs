@@ -1,7 +1,7 @@
 ---
 title: About Shader Designer nodes
 description: Learn about the various Shader Designer nodes that you can use to create graphics effects.
-ms.date: 11/04/2016
+ms.date: 06/30/2023
 ms.topic: overview
 ms.assetid: f5192fbd-c78f-40a8-a4d4-443209610268
 author: TerryGLee
