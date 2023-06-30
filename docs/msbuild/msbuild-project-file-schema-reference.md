@@ -48,7 +48,7 @@ The following table shows links to each version of the XSD schema:
 | 16.4 | [Microsoft.Build.xsd version 16.4.0.56107](https://github.com/dotnet/msbuild/blob/v16.4.0.56107/src/MSBuild/Microsoft.Build.xsd) | [raw](https://raw.githubusercontent.com/dotnet/msbuild/v16.4.0.56107/src/MSBuild/Microsoft.Build.xsd) |
 | 15.9 | [Microsoft.Build.xsd version 15.9.21.664](https://github.com/dotnet/msbuild/blob/v15.9.21.664/src/MSBuild/Microsoft.Build.xsd) | [raw](https://raw.githubusercontent.com/dotnet/msbuild/v15.9.21.664/src/MSBuild/Microsoft.Build.xsd) |
 
-You can also find the MSBuild XSD schema definition files in the Visual Studio installation folder under *Xml\Schemas\1033\MSBuild*.
+The top-level XSD file includes two other child XSD files, *Microsoft.Build.CommonTypes.xsd* and *Microsoft.Build.Core.xsd*. You can also find all the MSBuild XSD schema definition files in the Visual Studio installation folder under *Xml\Schemas\1033\MSBuild*.
 
 You can find more about MSBuild versions, including a table of corresponding .NET SDK versions, at [Overview of .NET, MSBuild, and Visual Studio versioning](/dotnet/core/porting/versioning-sdk-msbuild-vs).
 
