@@ -50,7 +50,7 @@ The following table shows links to each version of the XSD schema:
 
 The top-level XSD file includes two other child XSD files, *Microsoft.Build.CommonTypes.xsd* and *Microsoft.Build.Core.xsd*. You can also find all the MSBuild XSD schema definition files in the Visual Studio installation folder under *Xml\Schemas\1033\MSBuild*.
 
-You can find more about MSBuild versions, including a table of corresponding .NET SDK versions, at [Overview of .NET, MSBuild, and Visual Studio versioning](/dotnet/core/porting/versioning-sdk-msbuild-vs).
+For more about MSBuild versions, including a table of corresponding .NET SDK versions, see [Overview of .NET, MSBuild, and Visual Studio versioning](/dotnet/core/porting/versioning-sdk-msbuild-vs).
 
 ## MSBuild XML schema elements
 
