@@ -681,23 +681,8 @@
           href: designers/working-with-shaders.md
         - name: About the Shader Designer
           href: designers/shader-designer.md
-        - name: Shader Designer node options
-          items:
-          - name: Overview
-            displayName: Shader designer nodes
-            href: designers/shader-designer-nodes.md
-          - name: Constant nodes
-            href: designers/constant-nodes.md
-          - name: Parameter nodes
-            href: designers/parameter-nodes.md
-          - name: Texture nodes
-            href: designers/texture-nodes.md
-          - name: Math nodes
-            href: designers/math-nodes.md
-          - name: Utility nodes
-            href: designers/utility-nodes.md
-          - name: Filter nodes
-            href: designers/filter-nodes.md
+        - name: Shader Designer nodes
+          href: designers/shader-designer-nodes.md
         - name: Create shaders
           href: designers/how-to-create-a-basic-color-shader.md
         - name: Export shaders
