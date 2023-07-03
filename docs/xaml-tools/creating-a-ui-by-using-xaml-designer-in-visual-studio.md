@@ -27,6 +27,9 @@ For advanced users, you can even [customize the XAML Designer](https://github.co
 > [!NOTE]
 > Xamarin.Forms does not support a XAML designer. To view your Xamarin.Forms XAML UIs and edit them while the app is running, use XAML Hot Reload for Xamarin.Forms. For more information, see the [XAML Hot Reload for Xamarin.Forms (Preview)](/xamarin/xamarin-forms/xaml/hot-reload/) page.
 
+> [!NOTE]
+> WinUI 3 does not support a XAML designer at now, to view your WinUI 3 XAML UIs and edit them while the app is running, use XAML Hot Reload for WinUI 3. For more information, see the [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md) page.
+
 ## XAML Designer workspace
 
 The workspace in XAML Designer consists of several visual interface elements. These include the *artboard* (which is the visual design surface), XAML editor, Document Outline window (Objects and Timeline window in Blend for Visual Studio), and Properties window. To open the XAML Designer, right-click a XAML file in **Solution Explorer** and choose **View Designer**.
