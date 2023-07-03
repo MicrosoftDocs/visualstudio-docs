@@ -1,7 +1,7 @@
 ---
 title: Create UIs with Visual Studio XAML Designer
 description: Learn about the workspace UI and features of the XAML Designer in Blend for Visual Studio that provides a visual interface to help you design XAML-based apps.
-ms.date: 03/03/2020
+ms.date: 07/04/2023
 ms.topic: conceptual
 ms.custom: contperf-fy21q4
 f1_keywords:
@@ -28,7 +28,7 @@ For advanced users, you can even [customize the XAML Designer](https://github.co
 > Xamarin.Forms does not support a XAML designer. To view your Xamarin.Forms XAML UIs and edit them while the app is running, use XAML Hot Reload for Xamarin.Forms. For more information, see the [XAML Hot Reload for Xamarin.Forms (Preview)](/xamarin/xamarin-forms/xaml/hot-reload/) page.
 
 > [!NOTE]
-> WinUI 3 does not support a XAML designer at now, to view your WinUI 3 XAML UIs and edit them while the app is running, use XAML Hot Reload for WinUI 3. For more information, see the [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md) page.
+> WinUI 3 / .NET MAUI XAML designer is currently under development and does not support at now, to view your WinUI 3 / .NET MAUI XAML UIs and edit them while the app is running, use XAML Hot Reload for WinUI 3 / .NET MAUI. For more information, see the [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md) page.
 
 ## XAML Designer workspace
 
