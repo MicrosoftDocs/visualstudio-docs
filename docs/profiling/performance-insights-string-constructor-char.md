@@ -13,7 +13,7 @@ ms.workload:
 
 # Slow String(Char[]) initialization
 
-This article describes performance insights for <xref:System.String#ctor(Char[])?displayProperty=nameWithType>.
+This article describes performance insights for <xref:System.String#ctor(System.String.Char)?displayProperty=nameWithType>.
 
 ## Cause
 
