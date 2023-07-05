@@ -13,11 +13,11 @@ ms.workload:
 
 # Slow String(Char[]) initialization
 
-This article describes performance insights for <xref:System.String.%23ctor(System.Char[])?displayProperty=nameWithType>.
+This article describes performance insights for <xref:System.String.%23ctor(System.Char[])>.
 
 ## Cause
 
-`System.String(Char[])` is resulting in slow initialization.
+`String(Char[])` is resulting in slow initialization.
 
 ## Performance insight description
 
@@ -25,7 +25,7 @@ This constructor creates a new string from the specified character array. If you
 
 ## How to investigate a warning
 
-In the CPU Usage tool, click **View source code** to go to the [call tree](../profiling/cpu-usage.md#BKMK_Call_tree_structure) and source line highlighting view, which shows where the most amount of time is spent in `System.String(Char[])`. From this point, trace back to where the method is used and check whether you can use an in-place modification of strings by unsafe code or you can use char[] directly.
+In the CPU Usage tool, click **View source code** to go to the [call tree](../profiling/cpu-usage.md#BKMK_Call_tree_structure) and source line highlighting view, which shows where the most amount of time is spent in `String(Char[])`. From this point, trace back to where the method is used and check whether you can use an in-place modification of strings by unsafe code or you can use char[] directly.
 
 ## See also
 
