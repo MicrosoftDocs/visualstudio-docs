@@ -3,7 +3,7 @@ title: About the GitHub Copilot extension for Visual Studio
 description: Use Visual Studio and the GitHub Copilot extension together to take advantage of AI and generate detailed info about your code, along with suggested edits, and even new code snippets, too. 
 ms.date: 06/09/2023
 ms.topic: overview 
-ms.custom: template-overview; ai-gen-docs
+ms.custom: template-overview
 author: TerryGLee
 ms.author: tglee
 ms.manager: jmartens
@@ -11,14 +11,14 @@ ms.technology: vs-ai-tools
 ms.workload:
 - multiple
 monikerRange: vs-2022
+content_well_notification: 
+  - AI-contribution
 ---
 # What is the GitHub Copilot extension for Visual Studio?
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [**GitHub Copilot**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs) is an AI-powered pair programmer extension for Visual Studio that provides you with context-aware code completions, suggestions, and even entire code snippets. This powerful tool helps developers write code more efficiently, reduce the time spent on repetitive tasks, and minimize errors.
-
- [!INCLUDE [AI Generated Attribution](../includes/ai-generated-attribution.md)]
 
 ## How GitHub Copilot works
 
