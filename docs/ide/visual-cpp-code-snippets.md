@@ -108,7 +108,7 @@ private:
 };
 ```
 
-## for vs. forr vs rfor
+## for vs. forr vs. rfor
 
 There are three different **for** snippets that provide different kinds of `for` loops.
 
