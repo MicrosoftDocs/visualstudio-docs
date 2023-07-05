@@ -21,7 +21,7 @@ This article describes performance insights for <xref:System.String.#ctor(System
 
 ## Performance insight description
 
-This constructor creates a new string from the specified character array. Please consider in-place modification of strings by unsafe code or use char[] directly.
+This constructor creates a new string from the specified character array. If you need to use lots of calls to the `String(Char[])` constructor, please consider in-place modification of strings by unsafe code instead, or use char[] directly.
 
 ## How to investigate a warning
 
