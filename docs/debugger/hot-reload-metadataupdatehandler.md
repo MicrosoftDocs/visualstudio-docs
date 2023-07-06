@@ -28,9 +28,9 @@ static void ClearCache(Type[]? updatedTypes)
 static void UpdateApplication(Type[]? updatedTypes)
 ```
 
-MetadataUpdateHandler gives update handlers an opportunity to clear any caches that are inferred based on the application's metadata. After all ClearCache methods have been invoked, UpdateApplication is invoked for every handler that specifies one.
+`ClearCache` gives update handlers an opportunity to clear any caches that are inferred based on the application's metadata. After all `ClearCache` methods have been invoked, `UpdateApplication` is invoked for every handler that specifies one. You might use `UpdateApplication` to refresh the UI.
 
-For example, in a C# MAUI app, you must do something to reload the UI after you make any code change. If your UI code is written in C#, you could use MetadataUpdateHandler to reload the UI. To set this up, add *HotReloadService.cs* to your application using the following code.
+For example, in a C# MAUI app, you must do something to reload the UI after you make any code change. If your UI code is written in C#, you could use `UpdateApplication` to reload the UI. To set this up, add *HotReloadService.cs* to your application using the following code.
 
 ```csharp
 #if DEBUG
@@ -49,7 +49,7 @@ namespace YourAppNamespace {
 #endif
 ```
 
-Now, with the preceding code added, when you edit live code in Visual Studio, a metadata change occurs and the app dispatches the `UpdateApplicationEvent`.
+Now, with the preceding code added, when you edit live code in Visual Studio, a metadata change occurs and the app dispatches the `UpdateApplicationEvent`. So, you need to add code to register the event and perform the UI update.
 
 > [!NOTE]
 > For this scenario, XAML Hot Reload must be enabled.
