@@ -1,6 +1,6 @@
 ---
-title: "Enhance .NET Hot Reload"
-description: "Learn to use the MetadataUpdateHandler attribute to customize Hot Reload to support additional scenarios."
+title: "Extend .NET Hot Reload"
+description: "Learn to use the MetadataUpdateHandler attribute to extend .NET Hot Reload to support additional scenarios."
 ms.date: 06/20/2023
 ms.topic: conceptual
 helpviewer_keywords:
@@ -15,7 +15,7 @@ monikerRange: '>= vs-2022'
 ms.workload:
   - "multiple"
 ---
-# Enhance .NET Hot Reload using MetadataUpdateHandler (C#, Visual Basic)
+# Extend .NET Hot Reload using MetadataUpdateHandler (C#, Visual Basic)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -78,7 +78,7 @@ protected override void OnNavigatedTo(NavigatedToEventArgs args)
     }
 ```
 
-De-register the event handler in `OnNavigatedFrom`.
+Unsubscribe the event handler in `OnNavigatedFrom`.
 
 ```csharp
     protected override void OnNavigatedFrom(NavigatedFromEventArgs args)
