@@ -30,6 +30,8 @@ static void UpdateApplication(Type[]? updatedTypes)
 
 `ClearCache` gives update handlers an opportunity to clear any caches that are inferred based on the application's metadata. After all `ClearCache` methods have been invoked, `UpdateApplication` is invoked for every handler that specifies one. You might use `UpdateApplication` to refresh the UI.
 
+## Example
+
 For example, in a C# MAUI app, you must do something to reload the UI after you make any code change. If your UI code is written in C#, you could use `UpdateApplication` to reload the UI. To set this up, add *HotReloadService.cs* to your application using the following code.
 
 ```csharp
