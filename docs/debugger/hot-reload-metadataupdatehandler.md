@@ -91,7 +91,7 @@ Unsubscribe the event handler in `OnNavigatedFrom`.
     }
 ```
 
-In the file where you want to re-execute the build, handle the event.
+In the file where you want to re-execute the call to `Build`, handle the event.
 
 ```csharp
 private void ReloadUI(Type[] obj)
