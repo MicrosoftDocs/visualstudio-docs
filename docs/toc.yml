@@ -62,36 +62,30 @@
         href: install/automated-installation-with-response-file.md
       - name: Apply product keys when deploying 
         href: install/automatically-apply-product-keys-when-deploying-visual-studio.md
-      - name: Network considerations
-        items:
-        - name: Set up Visual Studio behind a firewall or proxy server
-          href: install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md
-        - name: Troubleshoot network errors
-          href: /troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors?toc=%2Fvisualstudio%2Ftoc.json
+      - name: Set up Visual Studio behind a firewall or proxy server
+        href: install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md
+      - name: Troubleshoot network errors
+        href: /troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors?toc=%2Fvisualstudio%2Ftoc.json
     - name: Manage global policies
       items:
       - name: Administrative Templates (ADMX)
         href: install/administrative-templates.md
       - name: Configure policies for enterprise deployments
-        href: install/set-defaults-for-enterprise-deployments.md
+        href: install/set-defaults-for-enterprise-deployments?toc=%2Fvisualstudio%2Ftoc.json
     - name: Manage & update installations
       items:
       - name: Applying administrator updates
         href: install/applying-administrator-updates.md
       - name: Enabling administrator updates
         href: install/enabling-administrator-updates.md
-      - name: Tools to detect & manage Visual Studio instances
-        href: install/tools-for-managing-visual-studio-instances.md
       - name: Update an instance installed from a network
         href: install/update-a-network-installation-of-visual-studio.md
       - name: Update using a minimal offline layout
         href: install/update-minimal-layout.md
       - name: Disable or move the package cache
         href: install/disable-or-move-the-package-cache.md
-    - name: Manage subscriptions
-      items:
-      - name: 'Visual Studio subscriptions: Administrator overview'
-        href: /visualstudio/subscriptions/admin-responsibilities
+      - name: Tools to detect & manage Visual Studio instances
+        href: install/tools-for-managing-visual-studio-instances.md
     - name: Reference
       items:
       - name: Visual Studio workload and component IDs
@@ -113,8 +107,6 @@
           href: install/workload-component-id-vs-test-agent.md
         - name: Visual Studio Test Controller
           href: install/workload-component-id-vs-test-controller.md
-      - name: Visual Studio build numbers and release dates
-        href: install/visual-studio-build-numbers-and-release-dates.md
   - name: Devices, VMs, and Containers
     items:
     - name: Use Visual Studio from an Azure virtual machine
