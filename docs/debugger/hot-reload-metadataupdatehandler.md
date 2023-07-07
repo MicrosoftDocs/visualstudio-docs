@@ -32,6 +32,48 @@ static void UpdateApplication(Type[]? updatedTypes)
 
 ## Example
 
+### Test .NET Hot Reload
+
+1. Create a new .NET MAUI project in Visual Studio. Choose the **.NET MAUI App** project template.
+
+1. In *App.xaml.cs*, replace the code to create the MainPage with the following code:
+
+   ```csharp
+   //MainPage = new MainPage(); // Template default code
+   MainPage = new NavigationPage(new MainPage());
+   ```
+
+1. In *MainPage.xaml.cs*, replace the `MainPage` constructor code with the following code:
+
+   ```csharp
+   public MainPage()
+   {
+      InitializeComponent();
+      Build();
+   }
+   void Build() => Content =
+      new Label
+      {
+         Text = "First line\nSecond line"
+      };
+
+   protected override void OnNavigatedTo(NavigatedToEventArgs args)
+   {
+      base.OnNavigatedTo(args);
+      Build();
+   }
+   ```
+
+1. Press **F5** to start the app.
+
+1. After the page loads, change the label text in the C# code to something like: "First line\nSecond line\nThird line"
+
+1. Select the **Hot Reload** ![Screenshot of the Hot Reload button.](../debugger/media/vs-2022/hot-reload-icon.png) button.
+
+   The updated text does not display in the running app. There's no Hot Reload support for this scenario by default!
+
+### Add the MetadataUpdateHandler
+
 For example, in a C# MAUI app, you must do something to reload the UI after you make any code change. If your UI code is written in C#, you could use `UpdateApplication` to reload the UI. To set this up, add *HotReloadService.cs* to your application using the following code.
 
 ```csharp
