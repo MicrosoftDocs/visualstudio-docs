@@ -19,7 +19,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can programmatically extend .NET Hot Reload support for additional scenarios that aren't typically supported, such as code changes that require clearing a cache or refreshing the UI. For example, to support hot reload with a JSON serializer, you need to clear its cache when a type is modified. You can use the <xref:System.Reflection.Metadata.MetadataUpdateHandlerAttribute> to refresh the application state, trigger a UI re-render, or perform similar actions.
+You can programmatically extend .NET Hot Reload support for additional scenarios that aren't typically supported, such as code changes that require clearing a cache or refreshing the UI. For example, to support hot reload with a JSON serializer, you need to clear its cache when a type is modified. For .NET MAUI developers, you may need to extend hot reload for edits/updates that don't trigger hot reload under normal conditions, such as editing a constructor, or an event handler for a UI element. You can use the <xref:System.Reflection.Metadata.MetadataUpdateHandlerAttribute> to refresh the application state, trigger a UI re-render, or perform similar actions.
 
 The type specified by this attribute should implement static methods matching the signature of one or more of the following:
 
@@ -43,6 +43,8 @@ static void UpdateApplication(Type[]? updatedTypes)
    MainPage = new NavigationPage(new MainPage());
    ```
 
+   Next, you will implement a Build method to simplify a UI update in C#. This method sets the `ContentPage.Content` and is called in the page's `OnNavigatedTo`. The `OnNavigatedTo` event must be hosted within Shell or a NavigationPage.
+
 1. In *MainPage.xaml.cs*, replace the `MainPage` constructor code with the following code:
 
    ```csharp
@@ -51,6 +53,7 @@ static void UpdateApplication(Type[]? updatedTypes)
       InitializeComponent();
       Build();
    }
+
    void Build() => Content =
       new Label
       {
@@ -70,11 +73,13 @@ static void UpdateApplication(Type[]? updatedTypes)
 
 1. Select the **Hot Reload** ![Screenshot of the Hot Reload button.](../debugger/media/vs-2022/hot-reload-icon.png) button.
 
-   The updated text does not display in the running app. There's no Hot Reload support for this scenario by default!
+   The updated text does not display in the running app. There's no Hot Reload support for this scenario by default.
+
+   ![Screenshot of Hot Reload not working.](../debugger/media/vs-2022/hot-reload-metadataupdatehandler-example.png)
 
 ### Add the MetadataUpdateHandler
 
-For example, in a C# MAUI app, you must do something to reload the UI after you make any code change. If your UI code is written in C#, you could use `UpdateApplication` to reload the UI. To set this up, add *HotReloadService.cs* to your application using the following code.
+In a .NET MAUI app, you must do something to reload the UI after you make any code change. If your UI code is written in C#, you could use the `UpdateApplication` method in `MetadataUpdateHandler` to reload the UI. To set this up, add *HotReloadService.cs* to your application using the following code.
 
 ```csharp
 #if DEBUG
@@ -82,7 +87,9 @@ For example, in a C# MAUI app, you must do something to reload the UI after you 
 namespace YourAppNamespace { 
     public static class HotReloadService
     {
+        #pragma warning disable CS8632 // The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
         public static event Action<Type[]?>? UpdateApplicationEvent;
+        #pragma warning restore CS8632 // The annotation for nullable reference types should only be used in code within a '#nullable' annotations context.
 
         internal static void ClearCache(Type[]? types) { }
         internal static void UpdateApplication(Type[]? types) {
@@ -93,21 +100,14 @@ namespace YourAppNamespace {
 #endif
 ```
 
+Make sure you replace `YourAppNamespace` with the namespace for the page you're targeting.
+
 Now, with the preceding code added, when you edit live code in Visual Studio, a metadata change occurs and the app dispatches the `UpdateApplicationEvent`. So, you need to add code to register the event and perform the UI update.
 
 > [!NOTE]
 > For this scenario, XAML Hot Reload must be enabled.
 
-In your MAUI app, implement a Build method to simplify the UI update. This method sets the `ContentPage.Content` and is called in the page's `OnNavigatedTo`. The `OnNavigatedTo` event must be hosted within Shell or a NavigationPage.
-
-```csharp
-void Build() => Content = 
-        new Grid { 
-
-        };
-````
-
-Call the Build method from the `OnNavigatedTo` event and register the `UpdateApplicationEvent` event handler.
+In *MainPage.xaml.cs*, add code to register the `UpdateApplicationEvent` event handler in the `OnNavigatedTo` event.
 
 ```csharp
 protected override void OnNavigatedTo(NavigatedToEventArgs args)
@@ -122,32 +122,30 @@ protected override void OnNavigatedTo(NavigatedToEventArgs args)
     }
 ```
 
-Unsubscribe the event handler in `OnNavigatedFrom`.
+Unsubscribe the event handler in `OnNavigatedFrom` and then add code to handle the event and re-execute the call to `Build`.
 
 ```csharp
-    protected override void OnNavigatedFrom(NavigatedFromEventArgs args)
-    {
-        base.OnNavigatedFrom(args);
+protected override void OnNavigatedFrom(NavigatedFromEventArgs args)
+   {
+   base.OnNavigatedFrom(args);
 
 #if DEBUG
-        HotReloadService.UpdateApplicationEvent -= ReloadUI;
+   HotReloadService.UpdateApplicationEvent -= ReloadUI;
 #endif
     }
-```
 
-In the file where you want to re-execute the call to `Build`, handle the event.
-
-```csharp
 private void ReloadUI(Type[] obj)
 {
-    MainThread.BeginInvokeOnMainThread(() =>
-    {
-        Build();
-    });
+   MainThread.BeginInvokeOnMainThread(() =>
+   {
+      Build();
+   });
 }
 ```
 
-Now, start the app. When you make a change to your C# in this page and hit the Hot Reload button, the UI gets refreshed!
+Now, start the app. When you make a change to the label text in your C# code and hit the Hot Reload button, the UI gets refreshed!
+
+![Screenshot of Hot Reload working.](../debugger/media/vs-2022/hot-reload-metadataupdatehandler-example-works.png)
 
 ## Additional resources
 
