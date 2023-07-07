@@ -43,7 +43,7 @@ static void UpdateApplication(Type[]? updatedTypes)
    MainPage = new NavigationPage(new MainPage());
    ```
 
-   Next, you will implement a Build method to simplify a UI update in C#. This method sets the `ContentPage.Content` and is called in the page's `OnNavigatedTo`. The `OnNavigatedTo` event must be hosted within Shell or a NavigationPage.
+   Next, you implement a Build method to simplify a UI update in C#. This method sets the `ContentPage.Content` and is called in the page's `OnNavigatedTo`. The `OnNavigatedTo` event must be hosted within Shell or a NavigationPage.
 
 1. In *MainPage.xaml.cs*, replace the `MainPage` constructor code with the following code:
 
@@ -79,7 +79,7 @@ static void UpdateApplication(Type[]? updatedTypes)
 
 ### Add the MetadataUpdateHandler
 
-In a .NET MAUI app, you must do something to reload the UI after you make any code change. If your UI code is written in C#, you could use the `UpdateApplication` method in `MetadataUpdateHandler` to reload the UI. To set this up, add *HotReloadService.cs* to your application using the following code.
+In a .NET MAUI app, you must do something to re-run C# UI code after you make a code change. If your UI code is written in C#, you could use the `UpdateApplication` method in `MetadataUpdateHandler` to reload the UI. To set this up, add *HotReloadService.cs* to your application using the following code.
 
 ```csharp
 #if DEBUG
