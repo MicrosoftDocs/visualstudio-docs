@@ -32,6 +32,8 @@ static void UpdateApplication(Type[]? updatedTypes)
 
 ## Example
 
+The following example shows a scenario for a .NET MAUI project that initially does not support hot reload, but then supports the feature after implementing `MetadataUpdateHandler`.
+
 ### Test .NET Hot Reload
 
 1. Create a new .NET MAUI project in Visual Studio. Choose the **.NET MAUI App** project template.
