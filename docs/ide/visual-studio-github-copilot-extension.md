@@ -40,10 +40,12 @@ While all three aim to improve developer productivity, GitHub Copilot stands out
 
 ## Prerequisites & supported programming languages
 
-To get started, all you need is Visual Studio 2022 [version 17.4.4](/visualstudio/releases/2022/release-history) or later, and a GitHub Copilot [subscription](https://docs.github.com/enterprise-cloud@latest/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot). 
+To get started, you need:
++ Visual Studio 2022 [version 17.4.4](/visualstudio/releases/2022/release-history) or later
++ a GitHub Copilot [subscription](https://docs.github.com/enterprise-cloud@latest/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot). 
 
-> [!TIP]
-> GitHub Copilot is free for verified students and for maintainers of popular open source projects on GitHub.
+  > [!TIP]
+  > GitHub Copilot is free for verified students and for maintainers of popular open source projects on GitHub.
 
 GitHub Copilot supports several programming languages and frameworks, including but not limited to: C#, C++, and Python.
 
@@ -65,5 +67,4 @@ GitHub Copilot is continuing to evolve; to find out more about the new experienc
 
 To learn more about the current GitHub Copilot extension for Visual Studio, consider exploring the following resources:
 
-- [GitHub Copilot extension: Getting started](https://docs.github.com/en/copilot/getting-started-with-github-copilot)
 - [GitHub Copilot: Your AI pair programmer](https://github.com/features/copilot)
