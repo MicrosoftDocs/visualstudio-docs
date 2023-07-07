@@ -111,7 +111,7 @@ public void AddIntegers_FromDynamicDataTest(int x, int y, int expected)
 }
 ```
 
-It is also possible to override the default generated display name, using the `DynamicDataDisplayName` property of the `DynamicData` attribute. The display name method signature must be `publc static string` and accept two parameters, the first of type `MethodInfo` and the second of type `object[]`.
+It is also possible to override the default generated display name, using the `DynamicDataDisplayName` property of the `DynamicData` attribute. The display name method signature must be `public static string` and accept two parameters, the first of type `MethodInfo` and the second of type `object[]`.
 
 ```csharp
 public static string GetCustomDynamicDataDisplayName(MethodInfo methodInfo, object[] data)
