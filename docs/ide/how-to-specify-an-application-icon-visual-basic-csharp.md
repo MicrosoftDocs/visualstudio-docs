@@ -36,9 +36,11 @@ You can access the `Icon` property from the **Application** section of the **Pro
     > [!TIP]
     > You might see your project's file name when you view **Project** > **Properties**. For example, if you're working on a project that's named "Calculator", Visual Studio displays **Project** > **Calculator Properties**.
 
-1. The **Project Designer** appears. Then, in the **Application** section, select **Win32 Resources**.
+1. The **Project Designer** appears. Then, in the **Application** section, select one of the following:
+   - For C#, select **Win32 Resources** 
+   - For Visual Basic, select **Resources**
 
-1. In the **Icon** section, select the **Browse** button, and then browse to the location of the icon file that you want.
+1. In the **Icon** section, select the **Browse** button to browse to the location of the icon file that you want.
 
 ::: moniker-end
 
@@ -53,9 +55,9 @@ You can access the `Icon` property from the **Application** section of the **Pro
 
 1. When the **Project Designer** appears, select the **Application** tab.
 
-1. In the **Icon** list, choose an icon (*.ico*) file.
-
-    **C#**&mdash;Near the **Icon** list, choose the **\<Browse...>** button, and then browse to the location of the icon file that you want.
+1. In the **Icon** section, choose an icon (*.ico*) file by using either of the following methods:
+    - For **Visual Basic**&mdash;In the **Icon** list, choose an icon (*.ico*) file.
+    - For **C#**&mdash;Near the **Icon** list, select the **\<Browse...>** button, and then browse to the location of the icon file that you want.
 
 ::: moniker-end
 
