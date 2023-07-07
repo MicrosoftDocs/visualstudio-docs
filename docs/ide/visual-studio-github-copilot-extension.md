@@ -59,9 +59,6 @@ GitHub Copilot supports several programming languages and frameworks, including 
 
 After installation, you can start using GitHub Copilot by typing code in the editor and observing the suggestions provided by AI.
 
-## Future features
-
-GitHub Copilot is continuing to evolve; to find out more about the new experience that's coming soon, see the [GitHub Copilot chat for Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/github-copilot-chat-for-visual-studio-2022/) and the [IntelliSense list in Visual Studio 2022 can now steer GitHub Copilot code completions](https://devblogs.microsoft.com/visualstudio/github-copilot-visual-studio-intellisense/) blog posts. 
 
 ## Next steps
 
