@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: d1257931-392a-4a65-bf26-177737505122
-ms.date: 05/23/2023
+ms.date: 07/05/2023
 ms.topic: how-to
 description:  Learn about and install Microsoft 365 apps for enterprise
 ---
@@ -16,7 +16,7 @@ Microsoft 365 apps for enterprise (formerly Office 365 Pro Plus) is available in
 Create your best work. Work anywhere with apps that are always updated. Microsoft 365 apps for enterprise is a subscription that comes with premium apps like Word, Excel, PowerPoint, OneNote, Outlook, Publisher, and Access. (Publisher and Access available on PC only). The apps can be installed on multiple devices, including PCs, Macs, iPads, iPhones, Android tablets, and Android phones. With a subscription, you get the latest versions of the apps and automatically receive updates when they happen.
 
 > [!NOTE]
-> When it's included in your Visual Studio subscription, you're licensed to use Microsoft 365 apps for enterprise for production use.  
+> When it's included in your Visual Studio subscription, you're licensed to use Microsoft 365 apps for enterprise for production use.  The term of the subscription is 12 months, so if the term of your Visual Studio subscription is longer than one year, the Microsoft 365 apps for enterprise offer may expire before you reach the end of your subscription, depending on when you activated the benefit.
 
 ## Activation steps
 
@@ -69,6 +69,11 @@ The process for activating your Microsoft 365 apps for enterprise subscription i
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
 Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your sign-in email address. If you don't see all your subscriptions, you may have one or more assigned to a different sign-in email address.  You need to sign in with that email address to see those subscriptions.
+
+## Frequently asked questions
+
+### Q: I have a three year Visual Studio subcription.  Is the Microsoft 365 apps for Enterprise benefit available for the full length of that subscription?
+A:  No.  The Microsoft 365 offer is a 12-month trial.  You can activate it at any time within the term of your Visual Studio subscription. 
 
 ## Support resources
 

@@ -4461,6 +4461,36 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/designers/constant-nodes.md",
+      "redirect_url": "/visualstudio/designers/shader-designer-nodes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/parameter-nodes.md",
+      "redirect_url": "/visualstudio/designers/shader-designer-nodes",
+      "redirect_document_id": false
+    },    
+    {
+      "source_path": "docs/designers/texture-nodes.md",
+      "redirect_url": "/visualstudio/designers/shader-designer-nodes",
+      "redirect_document_id": false
+    }, 
+    {
+      "source_path": "docs/designers/math-nodes.md",
+      "redirect_url": "/visualstudio/designers/shader-designer-nodes",
+      "redirect_document_id": false
+    }, 
+    {
+      "source_path": "docs/designers/utility-nodes.md",
+      "redirect_url": "/visualstudio/designers/shader-designer-nodes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/filter-nodes.md",
+      "redirect_url": "/visualstudio/designers/shader-designer-nodes",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/designers/how-to-create-a-basic-lambert-shader.md",
       "redirect_url": "/visualstudio/designers/how-to-create-a-basic-color-shader",
       "redirect_document_id": false

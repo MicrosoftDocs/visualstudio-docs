@@ -140,7 +140,7 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 	var control = new MyDialogControl(null);
 	#pragma warning restore CA2000 // Dispose objects before losing scope
 
-	await this.Extensibility.Shell().ShowDialogAsync(control, DialogOption.OKCancel. cancellationToken);
+	await this.Extensibility.Shell().ShowDialogAsync(control, DialogOption.OKCancel, cancellationToken);
 }
 ```
 

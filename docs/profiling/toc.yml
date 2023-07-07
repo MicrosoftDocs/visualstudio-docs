@@ -68,6 +68,8 @@
           href: perf-insights-elementat.md
         - name: Regex
           href: perf-insights-regex.md
+        - name: String(Char[])
+          href: performance-insights-string-constructor-char.md
         - name: String.StartsWith
           href: performance-insights-string-startswith.md
         - name: String concatenation
