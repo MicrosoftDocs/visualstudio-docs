@@ -1,0 +1,13 @@
+# are you a programmer? some terminal examples
+keybase prove twitter
+keybase id sammytizzy(sammyfilly)/ImpossibleClerk 
+keybase help
+
+# KBFS examples
+cat /keybase/public/ImpossibleClerk/plan.txt
+echo "dirty secret" > /keybase/private/yourname/diary.txt
+echo "Dear world, check me out." > /keybase/public/yourname/plan.txt
+
+# quick trick - this opens Finder in macOS
+open /keybase/private/yourname
+https://keybase.io/impossibleclerk/sigchain#
