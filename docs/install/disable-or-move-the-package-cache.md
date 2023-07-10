@@ -44,7 +44,7 @@ all packages, we recommend you repair Visual Studio before you disconnect from y
 "%ProgramFiles(x86)%\Microsoft Visual Studio\Installer\vs_installer.exe" repair --passive --norestart --cache
 ```
 
-You can also set the `KeepDownloadedPayloads` [registry policy](set-defaults-for-enterprise-deployments.md) to disable the cache
+You can also set the `KeepDownloadedPayloads` [registry policy](configure-policies-for-enterprise-deployments.md) to disable the cache
 before you install, modify, or repair Visual Studio.
 
 ## Move the package cache

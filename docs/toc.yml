@@ -48,50 +48,44 @@
       href: install/visual-studio-administrator-guide.md
     - name: Use the command line
       items:
-      - name: Use command-line parameters to install Visual Studio
+      - name: Install by using command-line parameters
         href: install/use-command-line-parameters-to-install-visual-studio.md
       - name: Command-line parameter examples
         href: install/command-line-parameter-examples.md
     - name: Deploy in an enterprise
       items:
-      - name: Create a network-based installation of Visual Studio
+      - name: Create a network-based installation
         href: install/create-a-network-installation-of-visual-studio.md
-      - name: Deploy Visual Studio from a layout onto a client machine
+      - name: Deploy from layouts to client machines
         href: install/deploy-a-layout-onto-a-client-machine.md        
-      - name: Automate Visual Studio installation with a response file
+      - name: Automate installation with a response file
         href: install/automated-installation-with-response-file.md
-      - name: Apply product keys when deploying Visual Studio
+      - name: Apply product keys when deploying 
         href: install/automatically-apply-product-keys-when-deploying-visual-studio.md
-      - name: Network considerations
-        items:
-        - name: Install and use Visual Studio behind a firewall or proxy server
-          href: install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md
-        - name: Troubleshoot network errors when you install or use Visual Studio
-          href: /troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors?toc=%2Fvisualstudio%2Ftoc.json
+      - name: Set up Visual Studio behind a firewall or proxy server
+        href: install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md
+      - name: Troubleshoot network errors
+        href: /troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors?toc=%2Fvisualstudio%2Ftoc.json
     - name: Manage global policies
       items:
       - name: Administrative Templates (ADMX)
         href: install/administrative-templates.md
-      - name: Configure policies for enterprise deployments of Visual Studio
-        href: install/set-defaults-for-enterprise-deployments.md
+      - name: Configure policies for enterprise deployments
+        href: install/configure-policies-for-enterprise-deployments.md
     - name: Manage & update installations
       items:
       - name: Applying administrator updates
         href: install/applying-administrator-updates.md
       - name: Enabling administrator updates
         href: install/enabling-administrator-updates.md
-      - name: Tools for detecting and managing Visual Studio instances
-        href: install/tools-for-managing-visual-studio-instances.md
-      - name: Update a Visual Studio instance installed from a network
+      - name: Update an instance installed from a network
         href: install/update-a-network-installation-of-visual-studio.md
-      - name: Update Visual Studio using a minimal offline layout
+      - name: Update using a minimal offline layout
         href: install/update-minimal-layout.md
       - name: Disable or move the package cache
         href: install/disable-or-move-the-package-cache.md
-    - name: Manage subscriptions
-      items:
-      - name: 'Visual Studio subscriptions: Administrator overview'
-        href: /visualstudio/subscriptions/admin-responsibilities
+      - name: Tools to detect & manage Visual Studio instances
+        href: install/tools-for-managing-visual-studio-instances.md
     - name: Reference
       items:
       - name: Visual Studio workload and component IDs
@@ -113,8 +107,6 @@
           href: install/workload-component-id-vs-test-agent.md
         - name: Visual Studio Test Controller
           href: install/workload-component-id-vs-test-controller.md
-      - name: Visual Studio build numbers and release dates
-        href: install/visual-studio-build-numbers-and-release-dates.md
   - name: Devices, VMs, and Containers
     items:
     - name: Use Visual Studio from an Azure virtual machine
@@ -681,23 +673,8 @@
           href: designers/working-with-shaders.md
         - name: About the Shader Designer
           href: designers/shader-designer.md
-        - name: Shader Designer node options
-          items:
-          - name: Overview
-            displayName: Shader designer nodes
-            href: designers/shader-designer-nodes.md
-          - name: Constant nodes
-            href: designers/constant-nodes.md
-          - name: Parameter nodes
-            href: designers/parameter-nodes.md
-          - name: Texture nodes
-            href: designers/texture-nodes.md
-          - name: Math nodes
-            href: designers/math-nodes.md
-          - name: Utility nodes
-            href: designers/utility-nodes.md
-          - name: Filter nodes
-            href: designers/filter-nodes.md
+        - name: Shader Designer nodes
+          href: designers/shader-designer-nodes.md
         - name: Create shaders
           href: designers/how-to-create-a-basic-color-shader.md
         - name: Export shaders

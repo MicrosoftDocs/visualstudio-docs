@@ -107,6 +107,8 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 
 1. Right-click the ASP.NET Core project in Solution Explorer and choose **Unload project**.
 
+1. Right-click the ASP.NET Core project again and choose **Edit Project File**.
+
    This opens the *.csproj* file for the project.
 
 1. In the *.csproj* file, update the project reference and add `<ReferenceOutputAssembly>` with the value set to `false`.
