@@ -1,7 +1,7 @@
 ---
 title: Windows Forms Designer tutorial
 description: Learn how to build an app using the various tools provided by Windows Forms Designer. The app is a custom control that uses many available layout features.
-ms.date: 07/06/2022
+ms.date: 07/10/2023
 ms.topic: tutorial
 helpviewer_keywords:
 - Windows Forms Designer, get started
@@ -40,7 +40,7 @@ The first step is to create the DemoCalculator control project.
 
    ![Windows Forms Control Library template in Visual Studio 2019](media/windows-forms-control-library-template.png)
 
-2. To rename the file, in **Solution Explorer**, right-click **UserControl1.vb** or **UserControl1.cs**, select **Rename**, and change the file name to DemoCalculator.vb or DemoCalculator.cs. Select **Yes** when you are asked if you want to rename all references to the code element "UserControl1".
+2. To rename the file, in **Solution Explorer**, right-click **UserControl1.vb** or **UserControl1.cs**, select **Rename**, and change the file name to DemoCalculator.vb or DemoCalculator.cs. Select **Yes** when you're asked if you want to rename all references to the code element "UserControl1".
 
 The Windows Forms Designer shows the designer surface for the DemoCalculator control. In this view, you can graphically design the appearance of the control by selecting controls and components from Toolbox and placing them on the designer surface. For more information about custom controls, see [Varieties of custom controls](/dotnet/framework/winforms/controls/varieties-of-custom-controls).
 
@@ -68,9 +68,9 @@ The DemoCalculator control contains several Windows Forms controls. In this proc
     > [!NOTE]
     > Several controls offer smart tags to facilitate design. For more information, see [Walkthrough: Perform common tasks using Smart Tags on Windows Forms controls](/dotnet/framework/winforms/controls/performing-common-tasks-using-smart-tags-on-wf-controls).
 
-5. Select the vertical border between the panels and drag it to the right, so that most of the space is taken by the left panel.
+5. Select the vertical border between the panels and drag it to the right, so that the left panel takes most of the space.
 
-    The `SplitContainer` divides the DemoCalculator control into two panels with a movable border separating them. The panel on the left will hold the calculator buttons and display, and the panel on the right will show a record of the arithmetic operations performed by the user.
+    The `SplitContainer` divides the DemoCalculator control into two panels with a movable border separating them. The panel on the left holds the calculator buttons and display, and the panel on the right shows a record of the arithmetic operations performed by the user.
 
 6. In the **Properties** window, change the value of the `BorderStyle` property to `Fixed3D`.
 
@@ -88,17 +88,17 @@ The DemoCalculator control contains several Windows Forms controls. In this proc
 
 12. From the **Containers** node **Toolbox**, drag a `TableLayoutPanel` control into the left panel of the `SplitContainer` control.
 
-    The `TableLayoutPanel` control appears on the designer surface with its smart tag panel open. The `TableLayoutPanel` control arranges its child controls in a grid. The `TableLayoutPanel` control will hold the DemoCalculator control's display and buttons. For more information, see [Walkthrough: Arrange controls using a TableLayoutPanel](/dotnet/framework/winforms/controls/walkthrough-arranging-controls-on-windows-forms-using-a-tablelayoutpanel).
+    The `TableLayoutPanel` control appears on the designer surface with its smart tag panel open. The `TableLayoutPanel` control arranges its child controls in a grid. The `TableLayoutPanel` control holds the DemoCalculator control's display and buttons. For more information, see [Walkthrough: Arrange controls using a TableLayoutPanel](/dotnet/framework/winforms/controls/walkthrough-arranging-controls-on-windows-forms-using-a-tablelayoutpanel).
 
 13. Select **Edit Rows and Columns** on the smart tag panel.
 
     The **Column and Row Styles** dialog box opens.
 
-14. Select the **Add** button until five columns are displayed. Select all five columns, and then select **Percent** in the **Size Type** box. Set the **Percent** value to **20**. This sets each column to the same width.
+14. Select the **Add** button until five columns are displayed. Select all five columns, and then select **Percent** in the **Size Type** box. Set the **Percent** value to **20**. This action sets each column to the same width.
 
 15. Under **Show**, select **Rows**.
 
-16. Select **Add** until five rows are displayed. Select all five rows, and the select **Percent** in the **Size Type** box. Set the **Percent** value to **20**. This sets each row to the same height.
+16. Select **Add** until five rows are displayed. Select all five rows, and the select **Percent** in the **Size Type** box. Set the **Percent** value to **20**. This action sets each row to the same height.
 
 17. Select **OK** to accept your changes, and then select the smart tag glyph to close the smart tag panel.
 
@@ -148,7 +148,7 @@ Now that the layout of the control is set up, you can populate the DemoCalculato
 
 14. Select **button10** and **button20**, and then press **Delete** to remove them from the layout.
 
-15. Select **button5** and **button15**, and then change the value of their `RowSpan` property to **2**. These will be the **Clear** and **=** buttons for the DemoCalculator control.
+15. Select **button5** and **button15**, and then change the value of their `RowSpan` property to **2**. These buttons represent the **Clear** and **=** buttons for the DemoCalculator control.
 
 ## Use the Document Outline window
 
@@ -240,7 +240,7 @@ When your control or form is populated with several controls, you may find it ea
 
 6. In the **Properties** window, expand the `Font` property node. Set `Size` to **14**, and set `Bold` to **true** for all the `Button` controls.
 
-This completes the design of the DemoCalculator control. All that remains is to provide the calculator logic.
+This set of instructions completes the design of the DemoCalculator control. All that remains is to provide the calculator logic.
 
 ## Implement event handlers
 
@@ -260,7 +260,7 @@ Because the DemoCalculator control inherits from the <xref:System.Windows.Forms.
 
 2. Select the border between the `SplitContainer` panels and drag it left and right. The `TableLayoutPanel` and all its child controls resize themselves to fit in the available space.
 
-3. When you are finished testing the control, select **Close**.
+3. When you're finished testing the control, select **Close**.
 
 ## Use the control on a form
 
@@ -288,7 +288,7 @@ To use the DemoCalculator control in an application, you need to place it on a f
 
 1. In **Toolbox**, expand the **DemoCalculatorLib Components** node.
 
-2. Drag the **DemoCalculator** control from **Toolbox** onto your form. Move the control to the upper-left corner of the form. When the control is close to the form's borders, *snaplines* will appear. Snaplines indicate the distance of the form's `Padding` property and the control's `Margin` property. Position the control at the location indicated by the snaplines.
+2. Drag the **DemoCalculator** control from **Toolbox** onto your form. Move the control to the upper-left corner of the form. When the control is close to the form's borders, *snaplines* appears. Snaplines indicate the distance of the form's `Padding` property and the control's `Margin` property. Position the control at the location indicated by the snaplines.
 
    For more information, see [Walkthrough: Arrange controls using snaplines](/dotnet/framework/winforms/controls/walkthrough-arranging-controls-on-windows-forms-using-snaplines).
 
@@ -308,10 +308,10 @@ To use the DemoCalculator control in an application, you need to place it on a f
 
 ## Next steps
 
-This article has demonstrated how to construct the user interface for a simple calculator. To continue, you can extend its functionality by implementing the calculator logic, then [publish the app using ClickOnce](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md). Or, continue on to a different tutorial where you [create a picture viewer using Windows Forms](../ide/tutorial-windows-forms-picture-viewer-layout.md).
+This article has demonstrated how to construct the user interface for a simple calculator. To continue, you can extend its functionality by implementing the calculator logic, then [publish the app by using ClickOnce](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md). Or, continue on to a different tutorial where you [create a picture viewer by using Windows Forms](../ide/tutorial-windows-forms-picture-viewer-layout.md).
 
 ## See also
 
 - [Windows Forms controls](/dotnet/framework/winforms/controls/)
 - [Accessibility for Windows Forms controls](/dotnet/framework/winforms/controls/providing-accessibility-information-for-controls-on-a-windows-form)
-- [Publish using ClickOnce](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
+- [Publish by using ClickOnce](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
