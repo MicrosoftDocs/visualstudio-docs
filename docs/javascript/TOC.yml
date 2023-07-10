@@ -34,6 +34,8 @@
     href: publish-nodejs-app-azure.md
 - name: How-to Guides
   items:
+  - name: Migrate from Node.js projects
+    href: migrate-nodejs-projects.md
   - name: Editor
     items:
     - name: Write and edit code
