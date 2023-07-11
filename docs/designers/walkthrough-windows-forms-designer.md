@@ -36,7 +36,7 @@ When you're finished, you'll have a custom control that's been assembled by usin
 
 The first step is to create the DemoCalculator control project.
 
-1. Open Visual Studio and create a new **Windows Forms Control Library** project by using C# and the .NET Framework. Name the project **DemoCalculatorLib**.
+1. Open Visual Studio and create a new **Windows Forms Control Library** project by using the .NET Framework template for either C# or Visual Basic. Name the project **DemoCalculatorLib**.
 
    ![Screenshot of the Windows Forms Control Library template in Visual Studio.](media/windows-forms-control-library-template.png)
 
