@@ -51,7 +51,7 @@ The following table describes the parameters for the `Exec` task.
 
 This task is useful when a specific MSBuild task for the job that you want to perform is not available. However, the `Exec` task, unlike a more specific task, cannot do additional processing or conditional operations based on the result of the tool or command that it runs.
 
-Instead of directly invoking a process, the `Exec` task calls *cmd.exe* or */bin/sh* depending on the OS.
+Instead of directly invoking a process, the `Exec` task calls *cmd.exe* or */bin/sh*, depending on the operating system.
 
 The parameters `IgnoreExitCode` and `IgnoreStandardErrorWarningFormat` affect the conditions under which the task returns `false`, indicating an error. With the default settings (`false` for both), the `Exec` task indicates a failure (returns `false`) either if the executable has a non-zero exit code, or if a diagnostic message is found in the executable's standard error stream. If you only want `Exec` to indicate failure if the executable returns a non-zero exit code, then set `IgnoreStandardErrorWarningFormat` to `true`.
 
