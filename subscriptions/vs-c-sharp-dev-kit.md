@@ -44,10 +44,11 @@ If you'd like to learn more about the C# Dev Kit, check out these resources:
 | Visual Studio Enterprise subscription with GitHub Enterprise   | VL | Available |  N/A |
 | Visual Studio Professional (Standard) | VL, Retail      | Available |  N/A  |
 | Visual Studio Professional subscription with GitHub Enterprise | VL | Available |  N/A |
+| Visual Studio Enterprise NFR\* | NFR | Available | N/A |
 | Visual Studio Test Professional (Standard) | VL, Retail | Not available  |  N/A  |
 | MSDN Platforms (Standard) | VL, Retail | Not available  |  N/A  |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
-| Visual Studio Enterprise NFR\* | NFR | Not available | N/A |
+
 
 \* *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, BizSpark, Imagine, Imagine Premium, Microsoft Cloud Partner Program, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services Developer, MCT Software & Services.*
 
