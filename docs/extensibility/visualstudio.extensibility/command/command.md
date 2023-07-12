@@ -52,7 +52,7 @@ The [`CommandConfiguration`](https://github.com/microsoft/VSExtensibility/tree/m
 | Placements | CommandPlacement[] | No | Specifies the existing groups within Visual Studio that the Command will be parented to. See at [Place a command in the IDE](#place-a-command-in-the-ide). Even without a placement, your command will still be available via the Visual Studio Search feature. Commands can also be placed onto [Menus, Toolbars, and Groups](menus-and-toolbars.md) defined in your extension. |
 | Icon | CommandIconConfiguration | No | Commands can be displayed in the UI as either just an Icon, an Icon with text, or just text. This property configures what that icon should be, if any, and how it should be displayed. |
 | Shortcuts | CommandShortcutConfiguration[] | No | Defines the set of key combinations that can be used to execute the command. Shortcuts can be scoped down to only be applicable to specific IDE contexts. See at [Shortcuts](#shortcuts). |
-| ClientContexts[] | String | No | Client contexts requested by the command. By default the Shell and Editor contexts are returned. A client context is a snapshot of specific IDE states at the time a command was originally executed. Since these commands are executed asynchronously this state could change between the time the user executed the command and the command handler running. See at [Client contexts](./../inside-the-sdk/activation-constraints.md#client-contexts). |
+| ClientContexts[] | String | No | Client contexts requested by the command. By default the Shell and Editor contexts are returned. A client context is a snapshot of specific IDE states at the time a command was originally executed. Since these commands are executed asynchronously this state could change between the time the user executed the command and the command handler running. See at [Client contexts](./../inside-the-sdk/activation-constraints.md#client-context-keys). |
 | Priority | uint | No | Describes the display order of the command relative to other commands parented to the same `CommandPlacement.KnownPlacements`. |
 
 ### Example
@@ -141,13 +141,13 @@ public override CommandConfiguration CommandConfiguration => new("%MyCommand.Dis
 
 ## Shortcuts
 
-Commands can be configured to be executed when a specific key combination is used. A Shortcut consists of one or two chords, where each chord consists of a `Microsoft.VisualStudio.Extensibility.Commands.ModifierKey` and one `Microsoft.VisualStudio.Extensibility.Commands.Key`. Possible values for `ModifierKey` are `LeftAlt`, `Shift`, `Control`, `ControlShift`, `ControlShiftLeftAlt`, and `None`, where `None` is only valid when used in the second chord of a Shortcut. The same `ModifierKey` doesn't need to be used for both chords in a Shortcut. The `Key` used in a chord can be almost any other keyboard key.
+Commands can be configured to be executed when a specific key combination is used. A Shortcut consists of one or two chords, where each chord consists of a `Microsoft.VisualStudio.Extensibility.Commands.ModifierKey` and one `Microsoft.VisualStudio.Extensibility.Commands.Key`. Possible values for `ModifierKey` are `LeftAlt`, `Shift`, `Control`, `ControlShift`, `ControlShiftLeftAlt`, and `None`, where `None` is only valid when used in the second chord of a shortcut. The same `ModifierKey` doesn't need to be used for both chords in a Shortcut. The `Key` used in a chord can be almost any other keyboard key.
 
 Many keyboard shortcuts are already used in Visual Studio. You shouldn't assign the same shortcut to more than one command because duplicate bindings are hard to detect and may also cause unpredictable results. Therefore, it's a good idea to verify the availability of a shortcut before you assign it.
 
-### Shortcut Activation Constraint
+### Shortcut activation constraint
 
-An activation constraint can be included in the configuration to have the Shortcut available in different contexts. These activation constraints are defined in the form of a `Guid`, and usually relate to an editor. When a Shortcut is given an activation constraint, it will only be available in that specific context. For example, use the `Guid` "{5EFC7975-14BC-11CF-9B2B-00AA00573819}" to make the Shortcut available in the Visual Studio editor. In this case the Shortcut would only be available when the Visual Studio editor is focused.
+An activation constraint can be included in the configuration to have the shortcut available in different contexts. These activation constraints are defined in the form of a `Guid`, and usually relate to an editor. When a shortcut is given an activation constraint, it will only be available in that specific context. For example, use the `Guid` "{5EFC7975-14BC-11CF-9B2B-00AA00573819}" to make the shortcut available in the Visual Studio editor. In this case the shortcut would only be available when the Visual Studio editor is focused.
 
 ### Shortcut sample
 

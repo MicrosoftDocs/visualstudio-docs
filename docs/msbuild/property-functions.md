@@ -39,7 +39,7 @@ $(ProjectOutputFolder.Substring(0,3))
 
 ### Static property functions
 
-In your build script, you can access the static properties and methods of many system classes. To get the value of a static property, use the following syntax, where `Class` is the name of the system class and `Property1 is the name of the property.
+In your build script, you can access the static properties and methods of many system classes. To get the value of a static property, use the following syntax, where `Class` is the name of the system class and `Property` is the name of the property.
 
 ```xml
 $([Class]::Property)

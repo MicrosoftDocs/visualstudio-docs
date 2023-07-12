@@ -86,6 +86,9 @@ The connected service functionality adds all the needed references and connectio
 
 ## Connect to Azure SignalR using Connected Services
 
+> [!NOTE]
+> For .NET Framework projects, Connected Services UI is slightly different. To see the differences, compare to the [Visual Studio 2019 version of this page](./azure-signalr-add-connected-service.md?view=vs-2019&preserve-view=true).
+
 1. Open your project in Visual Studio.
 
 1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add** to open the menu of available services.
@@ -128,6 +131,10 @@ The connected service functionality adds all the needed references and connectio
 
    If you click on the three dots next to the dependency you added, you can see various options such as **Connect** to reopen the wizard and change the connection. You can also click the three dots at the top right of the window to see options to start local dependencies, change settings, and more.
 :::moniker-end
+
+## Next steps
+
+Continue by following the Azure SignalR quickstart. You can skip the initial setup, since you've already done that, and continue with the section [Add Azure SignalR to the web app](/azure/azure-signalr/signalr-quickstart-dotnet-core#add-azure-signalr-to-the-web-app). The code you use varies depending on your version of ASP.NET Core, so you might have to modify the code in the tutorial to suit your project template if your ASP.NET Core version doesn't match the version used in the quickstart.
 
 ## See also
 

@@ -80,7 +80,7 @@ Make sure to install the following:
    This prevents opening the web page with the source weather data.
 
    >[!NOTE]
-   > *launch.json* stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, *launch.json* must be located under the *.vscode* folder.
+   > In Visual Studio, *launch.json* stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, *launch.json* must be located under the *.vscode* folder.
 
 ## Start the project
 
@@ -106,6 +106,8 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 1. Select the React project and choose **OK**.
 
 1. Right-click the ASP.NET Core project in Solution Explorer and choose **Unload project**.
+
+1. Right-click the ASP.NET Core project again and choose **Edit Project File**.
 
    This opens the *.csproj* file for the project.
 

@@ -12,26 +12,21 @@ metadata:
   ms.collection: collection
   author: cwebster-99 #Required; your GitHub user alias, with correct capitalization.
   ms.author: cowebster #Required; microsoft alias of author; optional team alias.
-  ms.date: 09/23/2021 #Required; mm/dd/yyyy format.
+  ms.date: 06/23/2023 #Required; mm/dd/yyyy format.
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
 landingContent:
 # Cards and links should be based on top customer tasks or top subjects
 # Start card title with a verb
+
   # Card (optional)
-  - title: Python in Visual Studio
+  - title: Get started with Python in Visual Studio
     linkLists:
       - linkListType: overview
         links:
-          - text: Overview of Python support
+          - text: What is Python Tools for Visual Studio
             url: overview-of-python-tools-for-visual-studio.md
-          - text: Tour the Visual Studio IDE
-            url: visual-studio-ide.md
-
-  # Card (optional)
-  - title: Get started
-    linkLists:
       - linkListType: get-started
         links:
            - text: Install Python in Visual Studio
@@ -48,16 +43,14 @@ landingContent:
              url: managing-python-environments-in-visual-studio.md
            - text: Write C/C++ extensions for Python
              url: working-with-c-cpp-python-in-visual-studio.md
-      - linkListType: tutorial
-        links:
-          - text: "Tutorial: Python in Visual Studio"
-            url: tutorial-working-with-python-in-visual-studio-step-00-installation.md
 
   # Card
   - title: Python web development
     linkLists:
       - linkListType: tutorial
         links:
+          - text: "Start using Python in Visual Studio"
+            url: tutorial-working-with-python-in-visual-studio-step-01-create-project.md
           - text: Create web apps with Django 
             url: learn-django-in-visual-studio-step-01-project-and-solution.md
           - text: Create web apps with Flask

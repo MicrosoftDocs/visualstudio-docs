@@ -4461,6 +4461,66 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/designers/constant-nodes.md",
+      "redirect_url": "/visualstudio/designers/shader-designer-nodes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/parameter-nodes.md",
+      "redirect_url": "/visualstudio/designers/shader-designer-nodes",
+      "redirect_document_id": false
+    },    
+    {
+      "source_path": "docs/designers/texture-nodes.md",
+      "redirect_url": "/visualstudio/designers/shader-designer-nodes",
+      "redirect_document_id": false
+    }, 
+    {
+      "source_path": "docs/designers/math-nodes.md",
+      "redirect_url": "/visualstudio/designers/shader-designer-nodes",
+      "redirect_document_id": false
+    }, 
+    {
+      "source_path": "docs/designers/utility-nodes.md",
+      "redirect_url": "/visualstudio/designers/shader-designer-nodes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/filter-nodes.md",
+      "redirect_url": "/visualstudio/designers/shader-designer-nodes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/how-to-create-a-basic-lambert-shader.md",
+      "redirect_url": "/visualstudio/designers/how-to-create-a-basic-color-shader",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/how-to-create-a-basic-phong-shader.md",
+      "redirect_url": "/visualstudio/designers/how-to-create-a-basic-color-shader",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/how-to-create-a-basic-texture-shader.md",
+      "redirect_url": "/visualstudio/designers/how-to-create-a-basic-color-shader",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/how-to-create-a-grayscale-texture-shader.md",
+      "redirect_url": "/visualstudio/designers/how-to-create-a-basic-color-shader",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/how-to-create-a-geometry-based-gradient-shader.md",
+      "redirect_url": "/visualstudio/designers/how-to-create-a-basic-color-shader",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/walkthrough-creating-a-realistic-3-d-billiard-ball.md",
+      "redirect_url": "/visualstudio/designers/how-to-create-a-basic-color-shader",
+      "redirect_document_id": false
+    },	
+    {
       "source_path": "docs/debugger/how-to-change-the-graphics-diagnostics-playback-machine.md",
       "redirect_url": "/visualstudio/debugger/graphics/how-to-change-the-graphics-diagnostics-playback-machine",
       "redirect_document_id": false
@@ -4899,6 +4959,31 @@
       "source_path": "docs/debugger/debug-xaml-in-blend.md",
       "redirect_url": "/visualstudio/xaml-tools/debug-xaml-in-blend",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/how-to-export-a-texture-that-contains-mipmaps.md",
+      "redirect_url": "/visualstudio/designers/export-textures",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/how-to-export-a-texture-that-has-premultiplied-alpha.md",
+      "redirect_url": "/visualstudio/designers/export-textures",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/how-to-export-a-texture-for-use-with-direct2d-or-javascipt-apps.md",
+      "redirect_url": "/visualstudio/designers/export-textures",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/designers/how-to-create-a-basic-texture.md",
+      "redirect_url": "/visualstudio/designers/image-editor",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/designers/how-to-create-and-modify-mip-levels.md",
+      "redirect_url": "/visualstudio/designers/image-editor",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/designers/debugging-or-disabling-project-code-in-xaml-designer.md",
@@ -6566,11 +6651,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "docs/msbuild/index.md",
-      "redirect_url": "/visualstudio/msbuild/msbuild",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "docs/msbuild/msbuild-glossary1.md",
       "redirect_url": "/visualstudio/msbuild/msbuild-glossary",
       "redirect_document_id": false
@@ -6962,7 +7042,12 @@
     },
     {
       "source_path": "docs/python/vs-tutorial-01-00.md",
-      "redirect_url": "/visualstudio/python/tutorial-working-with-python-in-visual-studio-step-00-installation",
+      "redirect_url": "/visualstudio/python/installing-python-support-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/python/tutorial-working-with-python-in-visual-studio-step-00-installation.md",
+      "redirect_url": "/visualstudio/python/installing-python-support-in-visual-studio",
       "redirect_document_id": false
     },
     {
@@ -17792,6 +17877,26 @@
     {
       "source_path": "subscriptions/program-mpn.md",
       "redirect_url": "/visualstudio/subscriptions/program-mcpp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "subscriptions/vs-azure-community.md",
+      "redirect_url": "/visualstudio/subscriptions/vs-community-support-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "subscriptions/vs-developer-community.md",
+      "redirect_url": "/visualstudio/subscriptions/vs-community-support-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "subscriptions/vs-microsoft-qa.md",
+      "redirect_url": "/visualstudio/subscriptions/vs-community-support-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "subscriptions/vs-microsoft-tech-community.md",
+      "redirect_url": "/visualstudio/subscriptions/vs-community-support-options",
       "redirect_document_id": false
     }
   ]

@@ -82,6 +82,9 @@ The connected service functionality adds all the needed references and connectio
 
 :::moniker range=">=vs-2022"
 
+> [!NOTE]
+> For .NET Framework projects, Connected Services UI is slightly different. To see the differences, compare to the [Visual Studio 2019 version of this page](./azure-cosmosdb-add-connected-service.md?view=vs-2019&preserve-view=true).
+
 1. Open your project in Visual Studio.
 
 1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add** to open the menu of available services.
@@ -92,7 +95,7 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot showing Azure Cosmos DB choices.](./media/azure-cosmosdb-add-connected-service/vs-2022/azure-cosmos-db-choices-2.png)
 
-   If you choose to use the Azure Cosmos DB Emulator, click **Next** to see the **Summary of changes** screen, which shows how your project is being modified. A NuGet package reference is added to your project and the connection code for the local emulator is added to your project.
+   If you choose to use the Azure Cosmos DB Emulator, click **Next** to see the **Summary of changes** screen, which shows how your project is being modified. A NuGet package reference is added to your project and the connection code for the local emulator is added to your project. Once you click **Finish** on the last screen, the container for the emulator is created; you'll see the image download status in the output window.
 
    If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign into your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
@@ -116,6 +119,8 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot showing "Specify connection string" screen.](./media/azure-cosmosdb-add-connected-service/connection-string.png)
 
+   The connection string is added as a secret and made available in the app configuration. In ASP.NET Core apps, you can access this connection string by using the `Configuration` property on the `WebApplicationBuild` object.
+
 1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
 
    ![Screenshot showing "Summary of changes" screen.](./media/azure-cosmosdb-add-connected-service/summary-of-changes.png)
@@ -129,7 +134,16 @@ The connected service functionality adds all the needed references and connectio
 
 ## Next steps
 
-Learn how to store secrets safely by following [Safe storage of app secrets in development in ASP.NET Core](/aspnet/core/security/app-secrets?tabs=windows). In particular, to read the connection string from the secrets store, you can add code as in [Read the secret via the configuration API](/aspnet/core/security/app-secrets?tabs=windows#read-the-secret-via-the-configuration-api).
+Learn how to store secrets safely by following [Safe storage of app secrets in development in ASP.NET Core](/aspnet/core/security/app-secrets?tabs=windows). In particular, to read the connection string from the secrets store, you can add code as in [Read the secret via the configuration API](/aspnet/core/security/app-secrets?tabs=windows#read-the-secret-via-the-configuration-api). The code might look like this, where `builder` is an instance of `WebApplicationBuild` that appears in *Program.cs* in ASP.NET Core project templates:
+
+```csharp
+// New instance of CosmosClient class using a connection string
+using CosmosClient client = new(
+    connectionString: builder.Configuration["CosmosDBConnectionString"]
+);
+```
+
+The `CosmosClient` provides access to Cosmos DB functionality through its various methods. Once you have an instance of `CosmosClient`, you can create a NoSQL database by following this guide: [Create a database in Azure Cosmos DB for NoSQL using .NET](/azure/cosmos-db/nosql/how-to-dotnet-create-database).
 
 ## See also
 

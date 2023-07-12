@@ -50,6 +50,8 @@ Want to know more about what else is new in this version? See our [release notes
 
 Want to know more about what else is new in this version? See our [release notes](/visualstudio/releases/2022/release-notes/).
 
+You can download and install a specific version from the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page.
+
 ::: moniker-end
 
 Ready to install? We'll walk you through it, step-by-step.
@@ -122,7 +124,7 @@ You will need to decide which version and edition of Visual Studio to install. T
 
 ::: moniker range=">=vs-2022"
 
-- You can download a bootstrapper for a very specific version from the [Visual Studio 2022 Release History page](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page and use it to install Visual Studio.
+- You can download a bootstrapper for a very specific version from the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page and use it to install Visual Studio.
 
 ::: moniker-end
 

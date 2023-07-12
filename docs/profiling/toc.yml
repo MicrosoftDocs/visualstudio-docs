@@ -48,14 +48,32 @@
         href: cpu-insights.md
       - name: Performance insights
         items:
-        - name: String concatenation
-          href: perf-insights-string-concatenation.md
+        - name: ConcurrentDictionary.Count
+          href: performance-insights-concurrentdictionary-count.md
+        - name: ConcurrentDictionary.Keys
+          href: performance-insights-concurrentdictionary-keys.md
+        - name: ConcurrentDictionary.ToArray
+          href: performance-insights-concurrentdictionary-toarray.md
+        - name: ConcurrentDictionary.Values
+          href: performance-insights-concurrentdictionary-values.md
+        - name: DateTime.Now
+          href: performance-insights-datetime-now.md
+        - name: Enum.HasFlag
+          href: performance-insights-enum-hasflag.md
+        - name: Enum.ToString
+          href: performance-insights-enum-tostring.md
+        - name: Enumerable.Contains
+          href: perf-insights-contains.md
+        - name: Enumerable.ElementAt
+          href: perf-insights-elementat.md
         - name: Regex
           href: perf-insights-regex.md
-        - name: ElementAt
-          href: perf-insights-elementat.md
-        - name: Contains
-          href: perf-insights-contains.md
+        - name: String(Char[])
+          href: performance-insights-string-constructor-char.md
+        - name: String.StartsWith
+          href: performance-insights-string-startswith.md
+        - name: String concatenation
+          href: perf-insights-string-concatenation.md
   - name: File IO
     href: use-file-io.md
   - name: Memory usage
@@ -90,10 +108,10 @@
       href: profile-apps-from-command-line.md
     - name: Collect detailed timing data
       href: collecting-detailed-timing-data-for-a-stand-alone-application.md
-    - name: Instrument a .NET Framework component and collect timing data
-      href: instrument-dotnet-framework-component-and-collect-timing-data.md
     - name: Instrument a native component and collect timing data
       href: instrument-native-component-and-collect-timing-data.md
+    - name: Instrument a .NET Framework component and collect timing data
+      href: instrument-dotnet-framework-component-and-collect-timing-data.md
     - name: Reference
       items:
       - name: VSInstr

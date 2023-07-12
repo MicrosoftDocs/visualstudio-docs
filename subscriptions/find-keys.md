@@ -35,9 +35,9 @@ Various key types are available, depending on the product.
 |    Custom Key | Custom keys provide special actions or information to activate or install the product. |
 |    VA 1.0  |  Multiple activation keys, similar to a MAK. |
 |    OEM Key |  Original Equipment Manufacturer keys that allow multiple activations. |
-|    DreamSpark Retail Key  | Retail keys for DreamSpark allow one activation. DreamSpark Retail keys are issued in batches and are primarily intended for student consumption. |
-|    DreamSpark Lab Key | Lab use keys for DreamSpark programs that allow multiple activations. DreamSpark Lab Keys are intended for use in university computer lab scenarios. |
-|    DreamSpark MAK Key | MAK keys for DreamSpark program customers. |
+|    ADT4T Retail Key  | Retail keys for Azure Dev Tools for Teaching allow activation on one device. These keys are issued in batches and are primarily intended for student consumption. |
+|    ADT4T Lab Key | Lab use keys for allow multiple activations. Azure Dev Tools for Teaching Lab Keys are intended for use in university computer lab scenarios. |
+|    ADT4T MAK Key | MAK keys for Azure Dev Tools for Teaching program customers. |
 |
 
 You can claim a key from the download page for the product, or you can search for the key you need on the [Product Keys](https://my.visualstudio.com/productkeys) page.

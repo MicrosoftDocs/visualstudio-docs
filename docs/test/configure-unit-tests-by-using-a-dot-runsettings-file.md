@@ -151,6 +151,7 @@ Each of the configuration elements is optional because it has a default value.
     <TargetPlatform>x86</TargetPlatform>
     <TargetFrameworkVersion>net6.0</TargetFrameworkVersion>
     <TestAdaptersPaths>%SystemDrive%\Temp\foo;%SystemDrive%\Temp\bar</TestAdaptersPaths>
+    <TestCaseFilter>(TestCategory != Integration) &amp; (TestCategory != UnfinishedFeature)</TestCaseFilter>
     <TestSessionTimeout>10000</TestSessionTimeout>
     <TreatNoTestsAsError>true</TreatNoTestsAsError>
 </RunConfiguration>
@@ -166,6 +167,7 @@ The **RunConfiguration** element can include the following elements:
 |**TargetPlatform**|x86|**Omit this whole tag to auto-detect.**<br /><br />This setting defines the architecture to use to run tests. Possible values are `x86`, `x64`, `ARM`, `ARM64`, `S390x`.<br /><br />When autodetecting, the architecture for AnyCPU DLLs may differ based on the runner. For .NET Framework runner (in Visual Studio, or vstest.console.exe in Developer command line), the default is x86. For .NET runner (dotnet test), the default is the current process architecture.<br /><br />|
 |**TreatTestAdapterErrorsAsWarnings**|false|false, true|
 |**TestAdaptersPaths**||One or more paths to the directory where the TestAdapters are located|
+|**TestCaseFilter**|| A filter expression in the format \<property>\<operator>\<value>[\|\&amp;\<Expression>]. The boolean operator **\&** should be represented by the HTML entity **\&amp;**. Expressions can be enclosed in parentheses. For detailed syntax on expression structure, see [vstest/docs/filter.md](https://github.com/microsoft/vstest/blob/main/docs/filter.md). |
 |**TestSessionTimeout**||Allows users to terminate a test session when it exceeds a given timeout. Setting a timeout ensures that resources are well consumed and test sessions are constrained to a set time. The setting is available in **Visual Studio 2017 version 15.5** and later.|
 |**DotnetHostPath**||Specify a custom path to dotnet host that is used to run the testhost. It's useful when you're building your own dotnet, for example when building the dotnet/runtime repository. Specifying this option skips looking for testhost.exe, and forces the use of testhost.dll.|
 |**TreatNoTestsAsError**|false| true or false <br>Specify a Boolean value, which defines the exit code when no tests are discovered. If the value is `true` and no tests are discovered, a nonzero exit code is returned. Otherwise, zero is returned.|
@@ -360,6 +362,9 @@ Each element of the file is optional because it has a default value.
 
     <!-- Path to Test Adapters -->
     <TestAdaptersPaths>%SystemDrive%\Temp\foo;%SystemDrive%\Temp\bar</TestAdaptersPaths>
+
+    <!-- TestCaseFilter expression -->
+    <TestCaseFilter>(TestCategory != Integration) &amp; (TestCategory != UnfinishedFeature)</TestCaseFilter>
 
     <!-- TestSessionTimeout was introduced in Visual Studio 2017 version 15.5 -->
     <!-- Specify timeout in milliseconds. A valid value should be greater than 0 -->

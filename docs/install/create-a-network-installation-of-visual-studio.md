@@ -178,7 +178,7 @@ Starting in June 2023, you'll be able to make your layouts available on an inter
      | **.ps1**| `application/postscript` |
      | **.vsix** | `application/octet-stream` |
      | **.xml**| `text/xml` |
-     | **.xml**| `application/x-zip-compressed` |
+     | **.zip**| `application/x-zip-compressed` |
 
 3. Lastly, to deploy this layout on the client, you need to [run a PowerShell script on the client to perform the initial installation](deploy-a-layout-onto-a-client-machine.md#install-from-an-internal-intranet-location). After Visual Studio has successfully installed onto the client from a webhosted layout, then [client updates for webhosted layouts can be updated via standard methods](update-a-network-installation-of-visual-studio.md).  
 

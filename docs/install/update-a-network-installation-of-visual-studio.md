@@ -153,5 +153,5 @@ We have other support options available, too. See our [Visual Studio Developer C
 * [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
-* [Configure policies for enterprise deployments of Visual Studio](set-defaults-for-enterprise-deployments.md)
+* [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md)
 * [Visual Studio product lifecycle and servicing](/visualstudio/productinfo/vs-servicing)

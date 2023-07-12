@@ -122,7 +122,7 @@ If **Memory Usage** does not give you the data that you need, other profiling to
    If you have trouble collecting or displaying data, see [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md).
 
 ## Analyze memory usage data
-The rows of Memory Usage summary table lists the snapshots that you have taken during the debugging session and provides links to more detailed views.
+The rows of the Memory Usage summary table list the snapshots that you have taken during the debugging session and provides links to more detailed views.
 
 ::: moniker range="<=vs-2019"
      
@@ -136,7 +136,7 @@ The rows of Memory Usage summary table lists the snapshots that you have taken d
 
 ::: moniker-end
 
- The name of the columns depend on the debugging mode you choose in the project properties: .NET, native, or mixed (both .NET and native).
+ The name of the column depends on the debugging mode you choose in the project properties: .NET, native, or mixed (both .NET and native).
 
 - The **Objects (Diff)** and **Allocations (Diff)** columns display the number of objects in .NET and native memory when the snapshot was taken.
 
@@ -166,7 +166,7 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 
  ::: moniker range=">=vs-2022"
 
- ![Screenshot of managed type report.](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-paths-to-root.png)
+[ ![Screenshot of managed type report.](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-paths-to-root.png "Managed type report")](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-paths-to-root.png#lightbox) 
 
  ::: moniker-end
 
@@ -200,11 +200,12 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 
  ::: moniker range=">=vs-2022"
 
- ![Screenshot of the Instances view in the Memory Usage tool.](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-instances.png)
+ [![Screenshot of the Instances view in the Memory Usage tool.](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-instances.png "Instances view in the Memory Usage tool")](../profiling/media/vs-2022/dbgdiag-mem-managed-types-report-instances.png#lightbox)
 
  ::: moniker-end
 
  The **Instances** view displays the instances of the selected object in the snapshot in the upper pane. The **Paths to Root** and **Referenced Objects** pane displays the objects that reference the selected instance and the types that the selected instance references. When the debugger is stopped at the point where the snapshot was taken, you can hover over the **Value** cell to display the values of the object in a tool tip.
+
 
 ### Native type reports
  Choose the current link of an **Allocations (Diff)** or **Heap Size (Diff)** cell in the Memory Usage summary table of the **Diagnostic Tools** window.
@@ -259,6 +260,23 @@ To analyze memory usage, click one of the links that opens up a detailed report 
 
 ::: moniker-end
 
+::: moniker range=">=vs-2022"
+### Memory Usage Insights
+
+The Memory Analysis tool also gives multiple powerful built-in auto insights. Select the **Insights** tab in the Managed types reports and it shows the applicable auto insights like **Duplicate strings** and  **Sparse arrays**.
+
+[![Screenshot of the insight view in the Memory Usage tool.](../profiling/media/vs-2022/dbgdiag-mem-managed-insights.png "Memory Usage insight")](../profiling/media/vs-2022/dbgdiag-mem-managed-insights.png#lightbox)
+
+The **Duplicate Strings** section shows the list of strings that get allocated multiple times on the heap. In addition, this section shows the total wasted memory, that is, the (number of instances - 1) times the size of the string.
+
+The **Sparse Arrays** section shows arrays that are mostly filled with zero elements, which can be inefficient in terms of performance and memory usage. The memory analysis tool will automatically detect these arrays and show you how much memory is being wasted due to these zero values.
+
+Certain types are known to have fields that can be read to determine the size of the native memory they're holding onto. The **Insights** tab shows fake native memory nodes in the object graph, which are retained by their parent objects such that the UI will recognize them and display their size and reference graph.
+
+[![Screenshot of the native insight view in the Memory Usage tool.](../profiling/media/vs-2022/dbgdiag-mem-native-insights.png "native insight view in the Memory Usage tool")](../profiling/media/vs-2022/dbgdiag-mem-native-insights.png#lightbox)
+
+::: moniker-end
+
 ### Change (Diff) reports
 
 - Choose the change link in a cell of the summary table of the **Memory Usage** tab on the **Diagnostic Tools** window.
@@ -299,7 +317,7 @@ The change report adds columns (marked with **(Diff)**) to the base report that 
 
 ::: moniker range=">=vs-2022"
 
-![Screenshot of Native Types Diff View.](../profiling/media/vs-2022/dbgdiag-mem-native-types-view-diff.png)
+[![Screenshot of Native Types Diff View.](../profiling/media/vs-2022/dbgdiag-mem-native-types-view-diff.png "Native Types Diff View")](../profiling/media/vs-2022/dbgdiag-mem-native-types-view-diff.png#ligtbox)
 
 ::: moniker-end
 
@@ -311,10 +329,10 @@ The change report adds columns (marked with **(Diff)**) to the base report that 
 
 ## Next steps
 
-In this tutorial, you've learned how to collect and analyze memory usage data. If you already completed the [tour of the profiler](../profiling/profiling-feature-tour.md), you may want to get a quick look at how to analyze CPU usage in your apps.
+In this tutorial, you've learned how to collect and analyze memory usage data. If you already completed the [tour of the profiler](../profiling/profiling-feature-tour.md), you may want to read about a general approach to optimizing code using the profiling tools.
 
 > [!div class="nextstepaction"]
-> [Analyze CPU usage](../profiling/beginners-guide-to-performance-profiling.md)
+> [Reduce compute costs by using profiling tools](../profiling/optimize-code-using-profiling-tools.md)
 
 In this tutorial, you've learned how to collect and analyze memory usage data while debugging. You may want to find out more about analyzing memory usage in release builds using the Performance Profiler.
 

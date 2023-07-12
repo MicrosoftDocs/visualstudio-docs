@@ -110,8 +110,12 @@
       href: mixed-code-and-missing-information-in-the-call-stack-window.md
   - name: Live code editing
     items:
-    - name: Hot Reload (.NET/C++)
-      href: hot-reload.md
+    - name: Hot Reload
+      items:
+      - name: Hot Reload (.NET/C++)
+        href: hot-reload.md
+      - name: Extend Hot Reload (.NET)
+        href: hot-reload-metadataupdatehandler.md
     - name: XAML Hot Reload
       items:
       - name: Write and debug running XAML code
@@ -396,6 +400,8 @@
       href: how-to-set-a-thread-name-in-native-code.md
     - name: Set a thread name in managed code
       href: how-to-set-a-thread-name-in-managed-code.md
+  - name: Measure memory usage in Visual Studio
+    href: ../profiling/memory-usage.md
   - name: IntelliTrace
     items:
     - name: IntelliTrace overview

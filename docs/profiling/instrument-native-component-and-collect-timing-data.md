@@ -11,7 +11,7 @@ ms.technology: vs-ide-debug
 ms.workload: 
   - cplusplus
 ---
-# How to: Instrument a native stand-alone component and collect timing data with the profiler from the command line
+# Instrument a native stand-alone component and collect timing data with the profiler from the command line
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

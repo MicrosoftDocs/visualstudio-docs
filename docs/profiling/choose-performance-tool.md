@@ -20,7 +20,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Visual Studio provides a variety of profiling tools to help you diagnose different kinds of app performance issues depending on your app type. In this article, we provide information to help you find the right tool for your scenario and application type.
+Visual Studio provides a variety of profiling tools to help you diagnose different kinds of app performance issues depending on your app type. In this article, we provide information to help you find the right tool for your scenario and application type. For a general approach to optimizing code using the profiling tools, see [Reduce compute costs by using profiling tools](../profiling/optimize-code-using-profiling-tools.md).
 
 ## Which tool should I use?
 
