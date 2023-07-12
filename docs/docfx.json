@@ -114,6 +114,9 @@
       "recommendations": true
     },
     "fileMetadata": {
+      "uhfHeaderId": {
+        "msbuild/**/**.md": "MSDocsHeader-MSBuild"
+      },
       "ms.prod": {
         "rtvs/**/**.md": "visual-studio-dev15",
         "vs-2015/**/**.md": "visual-studio-dev14"
