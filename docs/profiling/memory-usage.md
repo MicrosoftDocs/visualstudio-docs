@@ -329,10 +329,10 @@ The change report adds columns (marked with **(Diff)**) to the base report that 
 
 ## Next steps
 
-In this tutorial, you've learned how to collect and analyze memory usage data. If you already completed the [tour of the profiler](../profiling/profiling-feature-tour.md), you may want to get a quick look at how to analyze CPU usage in your apps.
+In this tutorial, you've learned how to collect and analyze memory usage data. If you already completed the [tour of the profiler](../profiling/profiling-feature-tour.md), you may want to read about a general approach to optimizing code using the profiling tools.
 
 > [!div class="nextstepaction"]
-> [Analyze CPU usage](../profiling/beginners-guide-to-performance-profiling.md)
+> [Reduce compute costs by using profiling tools](../profiling/optimize-code-using-profiling-tools.md)
 
 In this tutorial, you've learned how to collect and analyze memory usage data while debugging. You may want to find out more about analyzing memory usage in release builds using the Performance Profiler.
 
