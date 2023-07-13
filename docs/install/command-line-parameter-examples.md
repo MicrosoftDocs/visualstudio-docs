@@ -232,7 +232,7 @@ Use the [Windows Package Manager](/windows/package-manager/winget/) "winget" too
   winget install --id Microsoft.VisualStudio.2022.Community --override "--passive --config C:\my.vsconfig"
   ```
 
-You can also use [`winget configure`](/windows/package-manager/configuration/) and pass in a .yaml file to modify an existing Visual Studio installation. This approach uses the [Visual Studio PowerShell DSC provider](https://www.powershellgallery.com/packages/Microsoft.VisualStudio.DSC) that is [documented here](https://github.com/microsoft/VisualStudioDSC). 
+You can also use [`winget configure`](/windows/package-manager/configuration/) and pass in a `.yaml` file to modify an existing Visual Studio installation. This approach uses the [Visual Studio PowerShell DSC provider](https://www.powershellgallery.com/packages/Microsoft.VisualStudio.DSC) that is [documented here](https://github.com/microsoft/VisualStudioDSC). 
   
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 

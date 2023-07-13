@@ -61,7 +61,7 @@ You will need to make a plan for how you deploy Visual Studio across your organi
 
    - How are you licensing and [distributing entitlement subscriptions within your organization](/visualstudio/subscriptions/admin-responsibilities)? Does the installation require [product keys](/visualstudio/subscriptions/product-keys)?
 
-   - What [group policy settings](/visualstudio/install/configure-policies-for-enterprise-deployments) need to be configured on your client machines? Can you use the [Administrative Templates (ADMX)](./administrative-templates.md) or the [Microsoft Endpoint Manager (Intune) Settings Catalog](https://devblogs.microsoft.com/visualstudio/configure-visual-studio-policies-using-microsoft-endpoint-manager-intune/) to configure policies across your organization? 
+   - What [group policy settings](/visualstudio/install/configure-policies-for-enterprise-deployments) need to be configured on your client machines? Can you use the [Administrative Templates (ADMX)](./administrative-templates.md) or the [Microsoft Endpoint Manager (Intune) settings catalog](https://devblogs.microsoft.com/visualstudio/configure-visual-studio-policies-using-microsoft-endpoint-manager-intune/) to configure policies across your organization? 
 
    - Which [workloads and components](workload-and-component-ids.md) does your company need?  
    
@@ -90,7 +90,7 @@ The following resources will help you do the initial install of Visual Studio in
 
 - **[Install required certificates for offline installation](/visualstudio/install/install-certificates-for-visual-studio-offline)**. Install necessary certificates if the client machine is completely disconnected from the internet.
 
-- **[Configure the policies that govern machine wide Visual Studio behavior](/visualstudio/install/configure-policies-for-enterprise-deployments)**. Configure and deploy policies, such as opting in to Administrator Updates and removing out-of-support components, across your organization. The Visual Studio policies are available in the Microsoft Endpoint Manaer's settings catalog as well as the [Visual Studio Administrative Templates (ADMX)](./administrative-templates.md).
+- **[Configure the policies that govern machine wide Visual Studio behavior](/visualstudio/install/configure-policies-for-enterprise-deployments)**. Configure and deploy policies, such as opting in to Administrator Updates and removing out-of-support components, across your organization. The Visual Studio policies are available in the Microsoft Endpoint Manager's settings catalog as well as the [Visual Studio Administrative Templates (ADMX)](./administrative-templates.md).
 
 - **[Automatically apply product or subscription keys when deploying Visual Studio](automatically-apply-product-keys-when-deploying-visual-studio.md)**. You can programmatically apply a subscription or product key as part of a script that is used to automate the deployment of Visual Studio so that users don't need to activate the software separately. You can set this key either during an installation of Visual Studio or after an installation completes. 
 
