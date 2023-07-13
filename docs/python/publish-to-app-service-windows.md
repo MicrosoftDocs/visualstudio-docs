@@ -188,7 +188,7 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
 
 2. In the **Publish** dialog, select **Microsoft Azure App Service**:
 
-![Publish to Azure step 1](media/tutorials-common-publish-1.png)
+   ![Publish to Azure step 1](media/tutorials-common-publish-1.png)
 
 3. Select a target:
 
@@ -197,7 +197,7 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
 
 4. The App Service details appear in the **Publish** dialog's **Connection** tab below.
 
-![Publish to Azure step 2](media/tutorials-common-publish-2.png)
+   ![Publish to Azure step 2](media/tutorials-common-publish-2.png)
 
 5. Select **Next >** as needed to review additional settings.
 
