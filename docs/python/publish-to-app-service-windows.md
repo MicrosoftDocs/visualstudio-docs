@@ -140,7 +140,7 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
 
 1. In the **Publish** tab that appears, select the publishing target:
 
-   a. Your own Azure subscription: select **Microsoft Azure App Service**, then **Select Existing** followed by **Publish**. A dialog appears in which you can select the appropriate subscription and app service. If the App Service doesn't appear, use the downloaded publishing profile as described below for a temporary APp Service.
+   a. Your own Azure subscription: select **Microsoft Azure App Service**, then **Select Existing** followed by **Publish**. A dialog appears in which you can select the appropriate subscription and app service. If the App Service doesn't appear, use the downloaded publishing profile as described below for a temporary App Service.
 
    ![Publish to Azure step 1, Visual Studio 2017 and later, existing subscriptions](media/tutorials-common-publish-1a-2017.png)
 
