@@ -186,22 +186,22 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
 
 1. In **Solution Explorer**, right-click the project and select **Publish**.
 
-1. In the **Publish** dialog, select **Microsoft Azure App Service**:
+2. In the **Publish** dialog, select **Microsoft Azure App Service**:
 
 ![Publish to Azure step 1](media/tutorials-common-publish-1.png)
 
-1. Select a target:
+3. Select a target:
 
    - If you have an Azure subscription, select **Microsoft Azure App Service** as the publishing target, then in the following dialog select an existing App Service or select **New** to create a new one.
    - If you're using a temporary site from try.azurewebsites.net, select **Import** as the publishing target, then browse for the `.publishsettings` file downloaded from the site and select **OK**.
 
-1. The App Service details appear in the **Publish** dialog's **Connection** tab below.
+4. The App Service details appear in the **Publish** dialog's **Connection** tab below.
 
 ![Publish to Azure step 2](media/tutorials-common-publish-2.png)
 
-1. Select **Next >** as needed to review additional settings.
+5. Select **Next >** as needed to review additional settings.
 
-1. Select **Publish**. Once your application is deployed to Azure, your default browser opens on that site.
+6. Select **Publish**. Once your application is deployed to Azure, your default browser opens on that site.
 
 As part of this process, Visual Studio also does the following steps:
 
