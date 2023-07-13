@@ -51,7 +51,7 @@ Create the following multithreaded app project to use in this tutorial:
 
    In the **Configure your new project** window, type a name or use the default name in the **Project name** box. Then, choose **Next** or **Create**, whichever option is available.
 
-   For .NET Core, choose either the recommended target framework or .NET 6, and then choose **Create**.
+   For .NET Core or .NET 5+, choose either the recommended target framework or .NET 6, and then choose **Create**.
 
    A new console project appears. After the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called *Program.cs* or *MyThreadWalkthroughApp.cpp*.
 

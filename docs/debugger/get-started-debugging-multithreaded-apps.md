@@ -41,16 +41,16 @@ You'll first need a multithreaded application project. An example follows.
 
    On the start window, choose **Create a new project**.
 
-   On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#**, **C++**, or **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
+   On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#**, **C++**, or **Visual Basic** from the Language list, and then choose **Windows** from the Platform list.
 
-   After you apply the language and platform filters, choose the **Console App** template for .NET Core or C++, and then choose **Next**.
+   After you apply the language and platform filters, choose the **Console App** template for .NET or C++, and then choose **Next**.
 
    > [!NOTE]
    > If you don't see the correct template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
 
    In the **Configure your new project** window, type or enter *MyThreadWalkthroughApp* in the **Project name** box. Then, choose either **Next** or **Create**, whichever option is available.
 
-   For a .NET Core project, choose either the recommended target framework or .NET 6, and then choose **Create**.
+   For a .NET Core or .NET 5+ project, choose either the recommended target framework or .NET 6, and then choose **Create**.
 
    A new console project appears. After the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called *Program.cs*, *MyThreadWalkthroughApp.cpp*, or *Module1.vb*.
 
