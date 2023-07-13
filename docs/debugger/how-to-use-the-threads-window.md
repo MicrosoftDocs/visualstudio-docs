@@ -1,7 +1,7 @@
 ---
 title: Debug a multithreaded app
 description: Debug using the Threads window and the Debug Location toolbar in Visual Studio
-ms.date: 05/30/2023
+ms.date: 07/13/2023
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -130,7 +130,7 @@ Flag and unflag threads from the source code editor or from the **Threads** wind
 
 ### Flag and unflag threads in the Threads window
 
-In the **Threads** window, flagged threads have red flag icons next to them, while unflagged threads, if shown, have empty icons.
+In the **Threads** window, flagged threads have red flag icons next to them, while unflagged threads, if shown, have empty outline icons.
 
 ![Threads Window](../debugger/media/dbg-threads-window.png "Threads Window")
 
