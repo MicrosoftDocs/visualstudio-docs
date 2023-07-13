@@ -281,12 +281,12 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
     In this view, you can see easily see that thread 20272 is the Main thread and is currently located in external code, specifically *System.Console.dll*.
     ::: moniker-end
 
+    > [!NOTE]
+    > For more information on using the **Threads** window, see [Walkthrough: Debug a Multithreaded Application](../debugger/how-to-use-the-threads-window.md).
+
 3. Right-click entries in the **Parallel Stacks** or **Threads** window to see the available options on the shortcut menu.
 
     You can take various actions from these right-click menus, but for this tutorial we will show more of these details in the **Parallel Watch** window (next sections).
-
-    > [!NOTE]
-    > To see a list view with information on each thread, use the **Threads** window instead. See [Walkthrough: Debug a Multithreaded Application](../debugger/how-to-use-the-threads-window.md).
 
 ### Set a watch on a variable
 
@@ -305,6 +305,7 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
 4. Right-click on one of the rows in the window to see the available options.
 
 ### Flag and unflag threads
+
 You can flag threads to keep track of important threads and ignore the other threads.
 
 1. In the **Parallel Watch** window, hold down the **Shift** key and select multiple rows.
