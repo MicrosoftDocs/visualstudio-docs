@@ -38,7 +38,7 @@ This document is a quick walkthrough on how to create your first VS-SDK-compatib
 
 * Presing `F5` builds your extension and deploys it to the experimental instance of Visual Studio version you're using. The debugger should attach once your extension is loaded.
 
-* You can find the command in `Tools` menu as shown in the following image:
+* You can find the command in `Extensions` menu as shown in the following image:
 
   ![Screenshot showing sample extension command.](./media/extension-command-2.png)
 
@@ -73,7 +73,7 @@ The following example shows how the `DTE2` and `IBufferTagAggregatorFactoryServi
     
         public override CommandConfiguration CommandConfiguration => new("Sample Remote Command")
         {
-            Placements = new[] { CommandPlacement.KnownPlacements.ToolsMenu },
+            Placements = new[] { CommandPlacement.KnownPlacements.ExtensionsMenu },
             Icon = new(ImageMoniker.KnownValues.Extension, IconSettings.IconAndText),
         };
 ```

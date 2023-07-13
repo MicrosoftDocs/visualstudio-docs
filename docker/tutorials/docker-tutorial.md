@@ -80,7 +80,7 @@ Unless specified, any command labeled as **Bash** can run in a Bash window or th
    The Docker VS Code Extension shows you the containers running on your computer.
    You can access container logs and manage container lifecycle, such as stop and remove.
 
-   The container name, **modest_schockly** in this example, is randomly created.
+   The container name, **modest_shockley** in this example, is randomly created.
    Yours will have a different name.
 
 1. Right-click on **docker/getting-started** to open a context menu.
