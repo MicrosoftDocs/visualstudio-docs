@@ -273,7 +273,15 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
     - A new thread (on the right) is also starting but is stopped on `ThreadHelper.ThreadStart`.
     ::: moniker-end
 
-2. Right-click entries in the **Parallel Stacks** window to see the available options on the shortcut menu.
+2. To view the threads in a list view, select **Debug** > **Windows** > **Threads**.
+
+    ::: moniker range=">= vs-2022"
+    ![Threads Window](../debugger/media/vs-2022/dbg-multithreaded-threads-window.png "ThreadsWindow")
+
+    In this view, you can see easily see that thread 20272 is the Main thread and is currently located in external code, specifically *System.Console.dll*.
+    ::: moniker-end
+
+3. Right-click entries in the **Parallel Stacks** or **Threads** window to see the available options on the shortcut menu.
 
     You can take various actions from these right-click menus, but for this tutorial we will show more of these details in the **Parallel Watch** window (next sections).
 
