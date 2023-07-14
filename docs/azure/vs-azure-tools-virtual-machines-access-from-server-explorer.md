@@ -14,17 +14,12 @@ monikerRange: "<=vs-2019"
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-::: moniker range=">=vs-2022"
 > [!Important]
 > The Azure node of Server Explorer has been retired in Visual Studio 2022. You can use the Azure Portal or continue to use the Azure node of Server Explorer in previous versions of Visual Studio.
 >
 > Also, [Microsoft Azure Storage Explorer](/azure/vs-azure-tools-storage-manage-with-storage-explorer) is a free, standalone app from Microsoft. You can use it to work visually with Azure Storage data on Windows, macOS, and Linux.
 >
 > For more information about Visual Studio 2022, see our [release notes](/visualstudio/releases/2022/release-notes/).
-
-::: moniker-end
-
-::: moniker range="<=vs-2019"
 
 If you have virtual machines hosted by Azure, you can access them in Server Explorer. You must first sign in to your Azure subscription to view your mobile services. To sign in, open the shortcut menu for the Azure node in Server Explorer, and choose **Connect to Microsoft Azure**.
 
@@ -49,5 +44,3 @@ If you have virtual machines hosted by Azure, you can access them in Server Expl
    | Private Port |The port for network access internal to your application. |
    | Protocol |The protocol that the transport layer for this endpoint uses, either TCP or UDP. |
    | Public Port |The port that’s used for public access to your application. |
-
-::: moniker-end

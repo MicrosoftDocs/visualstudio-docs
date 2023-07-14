@@ -18,17 +18,11 @@ monikerRange: "<=vs-2019"
 
 ## Overview
 
-:::moniker range="<=vs-2019"
-
-If you've installed Azure Tools for Microsoft Visual Studio, you can view blob, queue, and table data from your storage accounts for Azure. The Azure **Storage** node in Server Explorer shows data that’s in your local storage emulator account and your other Azure storage accounts.
+If you've installed Azure workload for Microsoft Visual Studio 2019, you can view blob, queue, and table data from your storage accounts for Azure. The Azure **Storage** node in Server Explorer shows data that’s in your local storage emulator account and your other Azure storage accounts.
 
 To view Server Explorer in Visual Studio, on the menu bar, select **View** > **Server Explorer**. The **Storage** node shows all of the storage accounts that exist under each Azure subscription or certificate that you're connected to. If your storage account doesn't appear, you can add it by following the instructions [later in this article](#add-storage-accounts-by-using-server-explorer).
 
 Starting in Azure SDK 2.7, you can also use Cloud Explorer to view and manage your Azure resources. For more information, see [Managing Azure resources with Cloud Explorer](vs-azure-tools-resources-managing-with-cloud-explorer.md).
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
 
 > [!IMPORTANT]
 > Cloud Explorer has been retired in Visual Studio 2022. Instead, you can use the following alternatives:
@@ -43,9 +37,6 @@ Starting in Azure SDK 2.7, you can also use Cloud Explorer to view and manage yo
 >
 > For more information about Visual Studio 2022, see our [release notes](/visualstudio/releases/2022/release-notes/).
 
-::: moniker-end
-
-:::moniker range="<=vs-2019"
 ## View and manage storage resources in Visual Studio
 
 Server Explorer automatically shows a list of blobs, queues, and tables in your storage emulator account. The storage emulator account is listed in Server Explorer under the **Storage** node as the **Development** node.
@@ -308,8 +299,6 @@ In Server Explorer, open the shortcut menu for the account name, and then select
 If you delete a storage account, any saved key information for that account is also removed.
 
 If you delete a storage account from Server Explorer, it doesn’t affect your storage account or any data that it contains. It simply removes the reference from Server Explorer. To permanently delete a storage account, use the [Azure portal](https://portal.azure.com/).
-
-:::moniker-end
 
 ## Next steps
 
