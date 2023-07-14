@@ -33,7 +33,7 @@ You can also use GitHub Copilot to convert comments to code, create unit tests, 
 Here's a detailed look at what each technology can do for you:
 
 - **[IntelliSense](using-intellisense.md)** is a code completion feature built-in to Visual Studio, which provides suggestions based on the current context. Such suggestions include variable names, functions, and classes. IntelliSense is language-specific and works with a limited set of programming languages.
-- **[IntelliCode](/visualstudio/intellicode/)** is an extension for Visual Studio that uses AI to provide more intelligent whole line completions  based on patterns found in your codebase. It goes beyond IntelliSense by analyzing your code to understand common practices and recommend suggestions accordingly.
+- **[IntelliCode](/visualstudio/intellicode/)** is an extension for Visual Studio that uses AI to provide more intelligent whole line completions based on patterns found in your codebase. It goes beyond IntelliSense by analyzing your code to understand common practices and recommend suggestions accordingly.
 - **[GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)** is an AI-powered code completion extension for Visual Studio that leverages a vast dataset of publicly available code to provide context-aware code suggestions, snippets, and even entire functions. It works with many programming languages and offers more advanced assistance compared to IntelliCode and IntelliSense.
  
 While all three aim to improve developer productivity, GitHub Copilot stands out with its ability to understand the context of your code and provide more accurate and relevant suggestions. 
@@ -59,9 +59,9 @@ GitHub Copilot supports several programming languages and frameworks, including 
 
 After installation, you can start using GitHub Copilot by typing code in the editor and observing the suggestions provided by AI.
 
-
 ## Next steps
 
 To learn more about the current GitHub Copilot extension for Visual Studio, consider exploring the following resources:
 
+- [GitHub Copilot extension: Getting started](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=visualstudio)
 - [GitHub Copilot: Your AI pair programmer](https://github.com/features/copilot)
