@@ -120,9 +120,9 @@
         href: native-run-time-checks-customization.md
       - name: Write a run-time error reporting function
         href: how-to-write-a-run-time-error-reporting-function.md
-  - name: Specify symbol (.pdb) and source files in the debugger
+  - name: Symbol (.pdb) and source files in the debugger
     href: specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md
-  - name: Enable debugging and diagnostics with Source Link
+  - name: Source Link
     href: how-to-improve-diagnostics-debugging-with-sourcelink.md
   - name: User code (Just My Code)
     href: just-my-code.md
@@ -144,11 +144,11 @@
           href: project-settings-for-a-cpp-debug-configuration.md
         - name: Enable debug features in C++ (-D_DEBUG)
           href: enabling-debug-features-in-visual-cpp-d-debug.md
-      - name: Project settings for debug configurations (C#)
+      - name: Project settings (C#)
         href: project-settings-for-csharp-debug-configurations.md
-      - name: Project settings for debug configurations (.NET C#)
+      - name: Project settings (.NET C#)
         href: project-settings-for-csharp-debug-configurations-dotnetcore.md
-      - name: Project settings for debug configurations (Visual Basic)
+      - name: Project settings (Visual Basic)
         href: project-settings-for-a-visual-basic-debug-configuration.md
       - name: Property pages settings (Web projects)
         href: property-pages-settings-for-web-projects.md
@@ -246,8 +246,6 @@
         href: ../xaml-tools/xaml-hot-reload.md?toc=/visualstudio/debugger/toc.json
       - name: Troubleshooting XAML Hot Reload
         href: /troubleshoot/developer/visualstudio/tools-utilities/xaml-hot-reload-troubleshooting?toc=/visualstudio/debugger/toc.json
-    - name: Edit and Continue not supported for F#
-      href: edit-and-continue-not-supported-for-f-hash.md
     - name: Edit code and continue debugging
       href: edit-and-continue.md
     - name: Enable and disable Edit and Continue
@@ -274,6 +272,8 @@
         href: edit-and-continue-visual-basic.md
       - name: Apply edits in break mode with Edit and Continue
         href: how-to-apply-edits-in-break-mode-with-edit-and-continue.md
+    - name: Edit and Continue not supported for F#
+      href: edit-and-continue-not-supported-for-f-hash.md
   - name: Source code
     items:
     - name: Decompile .NET assemblies
