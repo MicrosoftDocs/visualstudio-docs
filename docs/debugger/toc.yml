@@ -300,7 +300,7 @@
       href: configure-the-windows-firewall-for-remote-debugging.md
     - name: Unblock the download on Windows Server
       href: remote-debugging-unblock-file-download.md
-    - name: Troubleshoot remote debugging
+    - name: Troubleshoot remote debugging >>
       href: /troubleshoot/developer/visualstudio/debuggers/troubleshooting-remote-debugging?toc=%2Fvisualstudio%2Fdebugger%2Ftoc.json
     - name: Remote debugging error reference
       items:
@@ -408,7 +408,7 @@
       href: debug-live-azure-kubernetes.md
     - name: FAQ for snapshot debugging
       href: debug-live-azure-apps-faq.yml
-    - name: Troubleshooting snapshot debugging
+    - name: Troubleshooting snapshot debugging >>
       href: /troubleshoot/developer/visualstudio/debuggers/debug-live-azure-apps-troubleshooting?toc=%2Fvisualstudio%2Fdebugger%2Ftoc.json
     - name: Time travel debugging for live Azure VM apps
       href: debug-live-azure-virtual-machines-time-travel-debugging.md
@@ -438,12 +438,12 @@
         href: deploy-windows-store-apps-from-visual-studio.md
       - name: Debug an installed app package
         href: debug-installed-app-package.md
-      - name: Inspect XAML properties while debugging
+      - name: Inspect XAML properties while debugging >>
         href: ../xaml-tools/inspect-xaml-properties-while-debugging.md
-      - name: Write and debug running XAML code
+      - name: Write and debug running XAML code >>
         href: ../xaml-tools/xaml-hot-reload.md
-      - name: Debug XAML in Blend
-        href: ../xaml-tools/debug-xaml-in-blend.md?toc=/visualstudio/debugger/toc.json
+      - name: Debug XAML in Blend >>
+        href: ../xaml-tools/debug-xaml-in-blend.md
       - name: How to trigger suspend, resume, and background events
         href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
     - name: Managed code (C#, Visual Basic, F#)
