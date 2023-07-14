@@ -8,6 +8,7 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 07/14/2023
 ms.author: ghogen
+monikerRange: "<=vs-2019"
 ---
 # Browse and manage storage resources by using Server Explorer
 

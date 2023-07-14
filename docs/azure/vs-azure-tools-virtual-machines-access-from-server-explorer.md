@@ -8,6 +8,7 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 8/31/2017
 ms.author: ghogen
+monikerRange: "<=vs-2019"
 ---
 # Accessing Azure Virtual Machines from Server Explorer
 

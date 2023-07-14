@@ -8,6 +8,7 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 01/22/2022
 ms.author: ghogen
+monikerRange: "<=vs-2019"
 ---
 # Manage the resources associated with your Azure accounts in Visual Studio Cloud Explorer
 
