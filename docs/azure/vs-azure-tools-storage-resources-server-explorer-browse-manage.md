@@ -6,7 +6,7 @@ manager: jmartens
 ms.technology: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
-ms.date: 8/24/2017
+ms.date: 07/14/2023
 ms.author: ghogen
 ---
 # Browse and manage storage resources by using Server Explorer
@@ -44,6 +44,7 @@ Starting in Azure SDK 2.7, you can also use Cloud Explorer to view and manage yo
 
 ::: moniker-end
 
+:::moniker range="<=vs-2019"
 ## View and manage storage resources in Visual Studio
 
 Server Explorer automatically shows a list of blobs, queues, and tables in your storage emulator account. The storage emulator account is listed in Server Explorer under the **Storage** node as the **Development** node.
@@ -306,6 +307,8 @@ In Server Explorer, open the shortcut menu for the account name, and then select
 If you delete a storage account, any saved key information for that account is also removed.
 
 If you delete a storage account from Server Explorer, it doesn’t affect your storage account or any data that it contains. It simply removes the reference from Server Explorer. To permanently delete a storage account, use the [Azure portal](https://portal.azure.com/).
+
+:::moniker-end
 
 ## Next steps
 
