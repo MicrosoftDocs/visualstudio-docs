@@ -38,17 +38,17 @@
     href: debugging-absolute-beginners.md
 - name: Code navigation
   items:
-  - name: Navigate through code with the debugger
+  - name: Navigation
     href: navigating-through-code-with-the-debugger.md
-  - name: Use breakpoints
+  - name: Breakpoints
     href: using-breakpoints.md
-  - name: Move the execution pointer
+  - name: Execution pointer
     href: move-the-execution-pointer-with-the-debugger.md
   - name: Troubleshooting breakpoints
     href: /troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints?toc=%2fvisualstudio%2fdebugger%2ftoc.json
 - name: Data inspection
   items:
-  - name: Inspect data in debugger windows
+  - name: Debugger windows
     href: debugger-windows.md
   - name: Inspect exceptions
     href: exception-helper.md
@@ -126,7 +126,7 @@
     href: specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md
   - name: Enable debugging and diagnostics with Source Link
     href: how-to-improve-diagnostics-debugging-with-sourcelink.md
-  - name: Debug user code
+  - name: User code (Just My Code)
     href: just-my-code.md
   - name: Debugger settings
     items:
@@ -208,7 +208,7 @@
         href: visualizer-advanced-scenarios.md
       - name: Visualizer API reference
         href: visualizer-api-reference.md
-  - name: restore hidden debugger commands
+  - name: Restore hidden debugger commands
     href: how-to-restore-hidden-debugger-commands.md
 - name: Tips and tricks
   items:
