@@ -144,14 +144,14 @@
           href: project-settings-for-a-cpp-debug-configuration.md
         - name: Enable debug features in C++ (-D_DEBUG)
           href: enabling-debug-features-in-visual-cpp-d-debug.md
-      - name: Property pages settings for Web projects
-        href: property-pages-settings-for-web-projects.md
-      - name: Project settings for C# debug configurations
+      - name: Project settings for debug configurations (C#)
         href: project-settings-for-csharp-debug-configurations.md
-      - name: Project settings for .NET C# debug configurations
+      - name: Project settings for debug configurations (.NET C#)
         href: project-settings-for-csharp-debug-configurations-dotnetcore.md
-      - name: Project settings for a Visual Basic debug configuration
+      - name: Project settings for debug configurations (Visual Basic)
         href: project-settings-for-a-visual-basic-debug-configuration.md
+      - name: Property pages settings (Web projects)
+        href: property-pages-settings-for-web-projects.md
     - name: DLL projects
       items:
       - name: Debug DLL projects
@@ -160,7 +160,7 @@
         href: how-to-debug-from-a-dll-project.md
       - name: Debug in mixed mode
         href: how-to-debug-in-mixed-mode.md
-    - name: 'Debugging preparation: Console projects'
+    - name: 'Debugger preparation: Console projects'
       href: debugging-preparation-console-projects.md
     - name: Debug an executable not part of a Visual Studio solution
       href: how-to-debug-an-executable-not-part-of-a-visual-studio-solution.md
