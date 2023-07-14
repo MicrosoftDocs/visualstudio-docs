@@ -42,7 +42,7 @@
     href: navigating-through-code-with-the-debugger.md
   - name: Breakpoints
     href: using-breakpoints.md
-  - name: Execution pointer
+  - name: Move the execution pointer
     href: move-the-execution-pointer-with-the-debugger.md
   - name: Troubleshooting breakpoints
     href: /troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints?toc=%2fvisualstudio%2fdebugger%2ftoc.json
@@ -54,22 +54,20 @@
     href: exception-helper.md
   - name: Inspect variables
     href: autos-and-locals-windows.md
-  - name: Watch variables
+  - name: Set a watch on variables
+    href: watch-and-quickwatch-windows.md
+  - name: Expressions in the debugger
     items:
-    - name: Set a watch on variables
-      href: watch-and-quickwatch-windows.md
-    - name: Expressions in the debugger
-      items:
-      - name: Use debugger expressions
-        href: expressions-in-the-debugger.md
-      - name: Format specifiers in C++
-        href: format-specifiers-in-cpp.md
-      - name: Context operator (C++)
-        href: context-operator-cpp.md
-      - name: Format specifiers in C#
-        href: format-specifiers-in-csharp.md
-      - name: Pseudovariables
-        href: pseudovariables.md
+    - name: Use debugger expressions
+      href: expressions-in-the-debugger.md
+    - name: Format specifiers in C++
+      href: format-specifiers-in-cpp.md
+    - name: Context operator (C++)
+      href: context-operator-cpp.md
+    - name: Format specifiers in C#
+      href: format-specifiers-in-csharp.md
+    - name: Pseudovariables
+      href: pseudovariables.md
   - name: View data values in DataTips
     href: view-data-values-in-data-tips-in-the-code-editor.md
   - name: View string values in a visualizer
