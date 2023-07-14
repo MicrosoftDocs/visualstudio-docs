@@ -21,6 +21,135 @@ ms.workload:
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
 
+## June 2023
+
+### Azure
+
+**Updated articles**
+
+- Add detailed Next Steps section for Connected Services:
+  - [Add Azure Application Insights by using Visual Studio Connected Services](../azure/azure-app-insights-add-connected-service.md) 
+  - [Add Azure Cache for Redis by using Visual Studio Connected Services](../azure/azure-cache-for-redis-add-connected-service.md) 
+  - [Add Azure Cosmos DB to your app by using Visual Studio Connected Services](../azure/azure-cosmosdb-add-connected-service.md) 
+  - [Add a connection to Azure SQL Database](../azure/azure-sql-database-add-connected-service.md) 
+
+### Data tools
+
+**Updated articles**
+
+- [Walkthrough: Create a simple WCF service in Windows Forms](../data-tools/walkthrough-creating-a-simple-wcf-service-in-windows-forms.md) - Update screenshots and procedures
+
+### Debugger
+
+**Updated articles**
+
+- [How to debug for absolute beginners](../debugger/debugging-absolute-beginners.md) - Update debugging steps
+- [Write and debug running code with Hot Reload in Visual Studio (C#, Visual Basic, C++)](../debugger/hot-reload.md) - Update supported edits content to point to Roslyn
+- [Learn productivity tips and tricks for the debugger in Visual Studio](../debugger/debugger-tips-and-tricks.md) - Add tips and tricks content for memory usage and creating dump files
+- [FAQ - Debugger feature finder](../debugger/find-your-debugging-task.yml) - Add Tips & Tricks content for both memory usage and creating dump files, and add new details to Find Your Feature content 
+  - updated debugger find your feature with new details
+- [Debug .NET Apps in WSL with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md) - Add info on passing a command line argument to WSL2
+
+### Designers
+
+**New articles**
+
+- [Scaling on your main display is set to X%](../designers/scaling-percentage-display-setting-message.md)
+- [Export rich texture formats by using the Image Content Pipeline in Visual Studio](../designers/export-textures.md)
+
+### Extensibility
+
+**New articles**
+
+- [Debug a Visual Studio extension](../extensibility/visualstudio.extensibility/get-started/debug-extensions.md)
+
+**Updated articles**
+
+- [Rule-based activation constraints](../extensibility/visualstudio.extensibility/inside-the-sdk/activation-constraints.md) - Update content for VS.Extensibility: Activation
+
+### IDE
+
+**Updated articles**
+
+- [Find code changes and other history with CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md)- Update text, links, and product mentions
+- [Options dialog box: Projects and Solutions \> General](../ide/reference/projects-and-solutions-options-dialog-box.md) - Remove deprecated options, add new options, and reorder info
+- [Find, install, and manage extensions for Visual Studio](../ide/finding-and-using-visual-studio-extensions.md) - Update text and links
+- [Customize startup](../ide/customizing-the-start-page-for-visual-studio.md) - Update user interface (UI) references 
+
+### Install
+
+**New articles**
+
+- [Deploy Visual Studio from a layout onto a client machine](../install/deploy-a-layout-onto-a-client-machine.md)
+
+**Updated articles**
+
+- Refactored layout documentation and added new intranet hosted layout functionality:
+  - [Configure installation default settings using a response file](../install/automated-installation-with-response-file.md)
+  - [Command-line parameter examples for Visual Studio installation](../install/command-line-parameter-examples.md)
+  - [Create and maintain a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md)
+  - [Create an offline installation package of Visual Studio for local installation](../install/create-an-offline-installation-of-visual-studio.md)
+  - [Update a Visual Studio client that was installed from a layout](../install/update-a-network-installation-of-visual-studio.md)
+- [Install and use Visual Studio and Azure Services behind a firewall or proxy server](../install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md) - Update to address customer feedback
+
+### JavaScript
+
+**Updated articles**
+
+- Updates to Node.js information:
+  - [Debug a JavaScript or TypeScript app in Visual Studio](../javascript/debug-nodejs.md) 
+  - [Unit testing JavaScript and TypeScript in Visual Studio](../javascript/unit-testing-javascript-with-visual-studio.md)
+
+### MSBuild
+
+**New articles**
+
+- [MSBuild documentation](../msbuild/index.yml)
+
+**Updated articles**
+
+- [MSBuild properties](../msbuild/msbuild-properties.md) - Review & update content
+- [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md) - Review, and split up long table
+- [MSBuild items](../msbuild/msbuild-items.md)
+
+### Profiling
+
+**New articles**
+
+- [Slow ConcurrentDictionary.Count lookup](../profiling/performance-insights-concurrentdictionary-count.md)
+- [Slow ConcurrentDictionary.Keys lookup](../profiling/performance-insights-concurrentdictionary-keys.md)
+- [Slow ConcurrentDictionary.ToArray lookup](../profiling/performance-insights-concurrentdictionary-toarray.md)
+- [Slow ConcurrentDictionary.Values lookup](../profiling/performance-insights-concurrentdictionary-values.md)
+- [Slow System.DateTime.Now performance](../profiling/performance-insights-datetime-now.md)
+- [Slow Enum.HasFlag performance](../profiling/performance-insights-enum-hasflag.md)
+- [Slow Enum.ToString performance](../profiling/performance-insights-enum-tostring.md)
+- [Slow String.StartsWith performance](../profiling/performance-insights-string-startswith.md)
+
+**Updated articles**
+
+- [Measure application performance from the command line](../profiling/profile-apps-from-command-line.md) - Update command-line instrumentation instructions 
+
+### Python
+
+**Updated articles**
+
+- Update Python environments information and resolve C++ doc bugs:
+  - [How to create and manage Python environments in Visual Studio](../python/managing-python-environments-in-visual-studio.md) 
+  - [Create a C++ extension for Python](../python/working-with-c-cpp-python-in-visual-studio.md) 
+
+### Version control
+
+**Updated articles**
+
+- [Browse Git repositories and compare branches in Visual Studio](../version-control/git-browse-repository.md) - Update text & add keyboard shortcuts
+
+## Community contributors
+
+The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
+
+- [shaggygi](https://github.com/shaggygi) - Greg Ingram ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [VeithBuergerhoff](https://github.com/VeithBuergerhoff) - Veith M. Bürgerhoff ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+
 ## May 2023
 
 ### Debugger
@@ -137,19 +266,6 @@ Documentation for the VisualStudio.Extensibility SDK, currently in preview, were
 **Updated articles**
 
 - [How Visual Studio makes version control easy with Git](../version-control/git-with-visual-studio.md) - add new Performance & Productivity Enhancements section
-
-### Community contributors
-
-The following people contributed to Visual Studio content in May. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
-
-- [AraHaan](https://github.com/AraHaan) - Ara Haan ![There were 1 pull requests merged by .](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [Fjarik](https://github.com/Fjarik) - Jiri Falta ![There were 1 pull requests merged by Jiri Falta.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [heh-ad](https://github.com/heh-ad) - Helmes He ![There were 1 pull requests merged by Helmes He.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [hyoshioka0128](https://github.com/hyoshioka0128) - Hiroshi Yoshioka ![There were 1 pull requests merged by Hiroshi Yoshioka.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [MatthewSteeples](https://github.com/MatthewSteeples) - Matthew Steeples ![There were 1 pull requests merged by Matthew Steeples.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [mavaddat](https://github.com/mavaddat) - Mavaddat Javid ![There were 1 pull requests merged by Mavaddat Javid.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [pd-jam](https://github.com/pd-jam) -  ![There were 1 pull requests merged by .](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [XuZhixuan](https://github.com/XuZhixuan) - Xu Zhixuan ![There were 1 pull requests merged by f(x,z)=xzx.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 
 ## April 2023
 
