@@ -143,7 +143,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Browse Git repositories and compare branches in Visual Studio](../version-control/git-browse-repository.md) - Update text & add keyboard shortcuts
 
-## Community contributors
+### Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
