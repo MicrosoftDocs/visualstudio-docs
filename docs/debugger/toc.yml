@@ -396,7 +396,7 @@
       href: how-to-set-a-thread-name-in-native-code.md
     - name: Set a thread name in managed code
       href: how-to-set-a-thread-name-in-managed-code.md
-  - name: Measure memory usage in Visual Studio
+  - name: Memory usage >>
     href: ../profiling/memory-usage.md
   - name: Azure services
     items:
@@ -492,7 +492,7 @@
         items:
         - name: Debug the OnStart method
           href: how-to-debug-the-onstart-method.md
-      - name: Debug F#
+      - name: F#
         href: debugging-f-hash.md
       - name: Error reference
         items:
@@ -582,9 +582,9 @@
             href: error-the-web-server-could-not-find-the-requested-resource.md
           - name: The web server is not configured correctly
             href: error-the-web-server-is-not-configured-correctly.md
-    - name: Python
+    - name: Python >>
       href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
-    - name: JavaScript and TypeScript
+    - name: JavaScript and TypeScript >>
       href: ../javascript/debug-nodejs.md
     - name: Web apps
       items:
@@ -604,7 +604,7 @@
         href: how-to-debug-a-self-hosted-wcf-service.md
   - name: Collaborate
     items:
-    - name: Write and debug code using Live Share
+    - name: Write and debug code using Live Share >>
       href: /visualstudio/liveshare/use/vs
 - name: Logging
   items:
