@@ -478,9 +478,9 @@
         items:
         - name: Debug WPF
           href: debugging-wpf.md
-        - name: Inspect XAML properties while debugging
+        - name: Inspect XAML properties while debugging >>
           href: ../xaml-tools/inspect-xaml-properties-while-debugging.md
-        - name: Write and debug running XAML code
+        - name: Write and debug running XAML code >>
           href: ../xaml-tools/xaml-hot-reload.md
         - name: Use the WPF Tree Visualizer
           href: how-to-use-the-wpf-tree-visualizer.md
