@@ -26,6 +26,9 @@ highlightedContent:
     - title: Create your first 3D app with Unity
       itemType: quickstart
       url: https://dotnet.microsoft.com/learn/games/unity-tutorial/intro
+    - title: C++ game development with Unreal Engine
+      itemType: learn
+      url: unreal/get-started/getting-started-with-visual-studio-tools-for-unreal.md
     - title: Learn more about .NET game development
       itemType: learn
       url: https://dotnet.microsoft.com/apps/gaming
