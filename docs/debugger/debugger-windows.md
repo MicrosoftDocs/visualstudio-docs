@@ -2,7 +2,7 @@
 title: "Inspect data using debugger windows | Microsoft Docs"
 description: There are many types of debugger windows that provide you information. This article provides a list of the types. For each there is a link to more information. 
 
-ms.date: "04/25/2018"
+ms.date: "07/14/2023"
 ms.topic: "conceptual"
 ms.assetid: 4c6fe8f1-b015-4989-bb31-72ebac390026
 author: "mikejo5000"
@@ -36,8 +36,6 @@ You can open most debugger windows while you are debugging your program. To see 
 |GPU Threads|-|[How to: Use the GPU Threads Window](../debugger/how-to-use-the-gpu-threads-window.md)|
 |Tasks|CTR:+SHIFT+D, K|[Using the Tasks Window](../debugger/using-the-tasks-window.md)|
 |Python Debug Interactive|SHIFT+ALT+I|[Python Interactive REPL](../python/python-interactive-repl-in-visual-studio.md)|
-|JavaScript Console|CTRL+ALT+V, C|[QuickStart: Debug JavaScript](../debugger/quickstart-debug-javascript-using-the-console.md)|
-|DOM Explorer|CTRL+ALT+V, D|[Debug layout using DOM Explorer](quickstart-debug-html-and-css.md)|
 |Live Visual Tree|-|[Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md)|
 |Live Property Explorer|-|[Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md)|
 |Processes|CTRL+ALT+Z|[Debug Threads and Processes](../debugger/debug-threads-and-processes.md)|
