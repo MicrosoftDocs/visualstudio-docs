@@ -20,7 +20,9 @@ The Microsoft Build Engine is a platform for building applications. This engine,
 
 Visual Studio uses MSBuild to load and build managed projects. The project files in Visual Studio (*.csproj*, *.vbproj*, *.vcxproj*, and others) contain MSBuild XML code that executes when you build a project by using the IDE. Visual Studio projects import all the necessary settings and build processes to do typical development work, but you can extend or modify them from within Visual Studio or by using an XML editor.
 
-To install MSBuild on a Windows system that doesn't have Visual Studio, go to Build Tools for Visual Studio 2022 on the [downloads page](https://visualstudio.microsoft.com/downloads/). Another way of getting MSBuild is to install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk). MSBuild is available with the .NET SDK on macOS, Windows, or Linux. You can also use the [.NET Core command-line interface (CLI)](/dotnet/core/tools/), which uses MSBuild, to build projects that target .NET Core and .NET 5 and later.
+To install MSBuild on a Windows system that doesn't have Visual Studio, go to **Build Tools for Visual Studio** on the [downloads page](https://visualstudio.microsoft.com/downloads/). Installing MSBuild by this method gives you *MSBuild.exe*.
+
+Another way of getting the equivalent to MSBuild is to install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk). The .NET build command `dotnet build` is available with the .NET SDK on macOS, Windows, or Linux. The .NET build command `dotnet build` is a thin wrapper over the .NET Core version of MSBuild.exe. You can use the [.NET Core command-line interface (CLI)](/dotnet/core/tools/), which uses MSBuild, to build projects that target .NET Core and .NET 5 and later. 
 
 ::: moniker range=">=vs-2022"
 Starting with Visual Studio 2022, when you build in Visual Studio, the 64-bit version of MSBuild is used.
@@ -66,7 +68,9 @@ MSBuild.exe MyProj.proj -property:Configuration=Debug
 > [!IMPORTANT]
 > Before you download a project, determine the trustworthiness of the code.
 
-For .NET Core and .NET 5 or later, you typically use `dotnet build` to invoke MSBuild. See [dotnet build](/dotnet/core/tools/dotnet-build).
+For .NET Core and .NET 5 or later, you typically use `dotnet build` to invoke MSBuild. See [dotnet build](/dotnet/core/tools/dotnet-build). If you install only the .NET SDK, and not Visual Studio or the Visual Studio Build Tools, then you have MSBuild only through `dotnet build`. 
+
+The command line for `dotnet build --help` lists the command line options specific to `dotnet build`, but you can still use all the command line options listed in the MSBuild command line reference. The options that are not processed by `dotnet build` are passed on to MSBuild.
 
 ## Project file
 
