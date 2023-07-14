@@ -87,7 +87,8 @@ Although **Solution Explorer** is where you manage project files, the _editor_ w
 
 ## Next step
 
-> [!div class="nextstepaction"] > [Use the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)
+> [!div class="nextstepaction"]
+> [Use the interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)
 
 ## Go deeper
 
