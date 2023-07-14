@@ -61,6 +61,8 @@ productDirectory:
           text: Get started with Unreal Engine
         - url: https://docs.unrealengine.com/4.27/en-US/ProductionPipelines/DevelopmentSetup/VisualStudioSetup/
           text: Setting up Visual Studio for Unreal Engine
+        - url: https://docs.unrealengine.com/4.27/en-US/ProductionPipelines/DevelopmentSetup/VisualStudioSetup/
+          text: Setting up IDE support for Unreal Engine
 
 conceptualContent:
   title: Level up with Visual Studio
