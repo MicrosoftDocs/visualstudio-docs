@@ -606,7 +606,7 @@
     items:
     - name: Write and debug code using Live Share
       href: /visualstudio/liveshare/use/vs
-- Logging
+- name: Logging
   items:
   - name: Log to Output window
     href: using-tracepoints.md
