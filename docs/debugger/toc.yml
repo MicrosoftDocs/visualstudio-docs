@@ -208,28 +208,6 @@
         href: visualizer-api-reference.md
   - name: Restore hidden debugger commands
     href: how-to-restore-hidden-debugger-commands.md
-- name: Tips and tricks
-  items:
-  - name: Debugger tips and tricks
-    href: debugger-tips-and-tricks.md
-  - name: Debug at design time
-    href: walkthrough-debugging-at-design-time.md
-  - name: Just-In-Time Debugger
-    items:
-    - name: Debug using the Just-In-Time Debugger
-      href: debug-using-the-just-in-time-debugger.md
-    - name: Disable the Just-In-Time Debugger
-      href: just-in-time-debugging-in-visual-studio.md
-  - name: View debugger data
-    items:
-    - name: Modules
-      items:
-      - name: View modules
-        href: how-to-use-the-modules-window.md
-      - name: Find which DLL your program crashed In
-        href: how-to-find-which-dll-your-program-crashed-in.md
-    - name: View script documents
-      href: how-to-view-script-documents.md
 - name: Scenarios
   items:
   - name: Live code editing
@@ -640,6 +618,28 @@
       href: using-saved-intellitrace-data.md
     - name: API Reference for IntelliTrace Extensibility
       href: api-reference-for-intellitrace-extensibility.md
+- name: Tips and tricks
+  items:
+  - name: Debugger tips and tricks
+    href: debugger-tips-and-tricks.md
+  - name: Debug at design time
+    href: walkthrough-debugging-at-design-time.md
+  - name: Just-In-Time Debugger
+    items:
+    - name: Debug using the Just-In-Time Debugger
+      href: debug-using-the-just-in-time-debugger.md
+    - name: Disable the Just-In-Time Debugger
+      href: just-in-time-debugging-in-visual-studio.md
+  - name: View debugger data
+    items:
+    - name: Modules
+      items:
+      - name: View modules
+        href: how-to-use-the-modules-window.md
+      - name: Find which DLL your program crashed In
+        href: how-to-find-which-dll-your-program-crashed-in.md
+    - name: View script documents
+      href: how-to-view-script-documents.md
 - name: Security
   href: debugger-security.md
 - name: Reference
