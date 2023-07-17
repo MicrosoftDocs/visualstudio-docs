@@ -82,5 +82,5 @@ To end a profiling session:
 
 ## Reference
 
-- [VSIntr](../profiling/vsinstr.md)
+- [VSInstr](../profiling/vsinstr.md)
 - [VSPerfCmd](../profiling/vsperfcmd.md)
