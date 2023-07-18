@@ -1,7 +1,7 @@
 ---
 title: "View threads in the debugger | Microsoft Docs"
 description: Use Threads to examine and control threads. You can group, sort, flag, freeze, thaw, and search for threads, select columns, and display call stacks. 
-ms.date: "05/30/2023"
+ms.date: "07/13/2023"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.threads"
@@ -96,7 +96,12 @@ In the **Threads** window, you can examine and work with threads in the applicat
 
 ### Switch to another thread
 
+::: moniker range=">= vs-2022"
+A yellow arrow indicates the current thread (and the location of the execution pointer). The original current thread marker also remains, as an outline.
+::: moniker-end
+::: moniker range="vs-2019"
 A yellow arrow indicates the current thread (and the location of the execution pointer). A green arrow with a curly tail indicates a non-current thread has the current debugger context.
+::: moniker-end
 
 #### To switch to another thread
 
