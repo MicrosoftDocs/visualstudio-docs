@@ -12,12 +12,38 @@ metadata:
   ms.author: ghogen
 
 landingContent:
-  - title: Deploy to Azure
+  - title: Work with Azure in Visual Studio
     linkLists:
       - linkListType: overview
         links:
-          - text: Overview of Azure integration
+          - text: Azure in Visual Studio
             url: overview-azure-integration.md
+          - text: Azure SDK for .NET and .NET Core Developers
+            url: /dotnet/azure
+  - title: Connect to Azure services
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Connected Services
+            url: overview-connected-services.md
+      - linkListType: tutorial
+        links:
+          - text: Azure Active Directory
+            url: /azure/active-directory/develop/vs-active-directory-add-connected-service
+          - text: Azure Cache for Redis
+            url: azure-cache-for-redis-add-connected-service.md
+          - text: Azure Cosmos DB
+            url: azure-cosmosdb-add-connected-service.md
+          - text: Azure Key Vault
+            url: /azure/key-vault/vs-key-vault-add-connected-service
+          - text: Azure SignalR
+            url: azure-signalr-add-connected-service.md
+          - text: Azure SQL Database
+            url: azure-sql-database-add-connected-service.md
+          - text: Azure Storage
+            url: vs-azure-tools-connected-services-storage.md
+  - title: Deploy to Azure
+    linkLists:
       - linkListType: tutorial
         links:
           - text: Deploy an ASP.NET Core app to Azure
@@ -30,8 +56,7 @@ landingContent:
             url: /azure/app-service/deploy-continuous-deployment
           - text: Continuous deployment to Azure with Azure Pipelines
             url: /azure/devops/pipelines/get-started-yaml
-
-  - title: Azure App Services, Logic Apps, and Azure Functions
+  - title: Azure Web Apps, App Service, and Azure Functions
     linkLists:
     - linkListType: tutorial
       links:
@@ -41,10 +66,6 @@ landingContent:
           url: /azure/logic-apps/quickstart-create-logic-apps-with-visual-studio
         - text: Process events with Azure Functions
           url: /azure/azure-functions/functions-create-your-first-function-visual-studio
-    - linkListType: overview
-      links:
-        - text: Azure SDK for .NET and .NET Core Developers
-          url: /dotnet/azure
 
   - title: Container development
     linkLists:
@@ -69,29 +90,6 @@ landingContent:
           url: vs-azure-tools-debug-cloud-services-virtual-machines.md
         - text: Measure performance for cloud services in Azure
           url: vs-azure-tools-performance-profiling-cloud-services.md
-
-  - title: Connected Services
-    linkLists:
-    - linkListType: overview
-      links:
-        - text: Overview 
-          url: overview-connected-services.md
-    - linkListType: tutorial
-      links:
-        - text: Azure Active Directory
-          url: /azure/active-directory/develop/vs-active-directory-add-connected-service
-        - text: Azure Cache for Redis
-          url: azure-cache-for-redis-add-connected-service.md
-        - text: Azure Cosmos DB
-          url: azure-cosmosdb-add-connected-service.md
-        - text: Azure Key Vault
-          url: /azure/key-vault/vs-key-vault-add-connected-service
-        - text: Azure SignalR
-          url: azure-signalr-add-connected-service.md
-        - text: Azure SQL Database
-          url: azure-sql-database-add-connected-service.md
-        - text: Azure Storage
-          url: vs-azure-tools-connected-services-storage.md
   - title: Azure Cloud Services
     linkLists:
     - linkListType: how-to-guide
@@ -108,15 +106,6 @@ landingContent:
           url: vs-azure-tools-publishing-a-cloud-service.md
         - text: Monitor and diagnose cloud services and virtual machines running in Azure
           url: vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md
-
-  - title: Cloud Explorer
-    linkLists:
-    - linkListType: how-to-guide
-      links:
-        - text: Access Azure storage accounts in Visual Studio
-          url: vs-azure-tools-storage-resources-server-explorer-browse-manage.md
-        - text: Access Virtual Machines from Visual Studio
-          url: vs-azure-tools-virtual-machines-access-from-server-explorer.md
 
   - title: Other Resources
     linkLists:

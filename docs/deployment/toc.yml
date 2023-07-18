@@ -18,8 +18,8 @@
       items:
       - name: Publish an ASP.NET Core app to Azure >>
         href: /azure/app-service/quickstart-dotnetcore?tabs=net60&pivots=development-environment-vs#publish-your-web-app
-      - name: Deploy an ASP.NET Core app with Entity Framework to Azure using GitHub Actions
-        href: /visualstudio/deployment/end-to-end-deployment-entity-framework-core-github-actions
+      - name: Deploy an ASP.NET Core app with Entity Framework to Azure using GitHub Actions >>
+        href: /visualstudio/azure/end-to-end-deployment-entity-framework-core-github-actions
       - name: Get publish settings from IIS
         href: tutorial-import-publish-settings-iis.md
       - name: Get publish settings from Azure
@@ -57,8 +57,8 @@
   items:
   - name: GitHub Actions CI/CD Publish
     items:
-    - name: Deploy to Azure using GitHub Actions
-      href: azure-deployment-using-github-actions.md
+    - name: Deploy to Azure using GitHub Actions >>
+      href: /visualstudio/azure/azure-deployment-using-github-actions
   - name: ClickOnce
     items:
     - name: Overview of ClickOnce security and deployment
