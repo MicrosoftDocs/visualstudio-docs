@@ -244,7 +244,7 @@ You'll first need a multithreaded application project. An example follows.
 
 4. Hover the pointer over the thread marker. A DataTip appears telling you the name and thread ID number for each stopped thread. In this case, the name is probably `<noname>`.
 
-   ![Screenshot of Thread ID in a DataTip](../debugger/media/dbg-multithreaded-thread-id-datatip.png "ThreadIDDataTip")
+   ![Screenshot of the Thread ID in a DataTip.](../debugger/media/dbg-multithreaded-thread-id-datatip.png "ThreadIDDataTip")
 
 5. Select the thread marker to see the available options on the shortcut menu.
 
@@ -255,7 +255,7 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
 1. Open the **Parallel Stacks** window by choosing **Debug** > **Windows** > **Parallel Stacks**. You should see something similar to the following. The exact information will differ depending on the current location of each thread, your hardware, and your programming language.
 
     ::: moniker range=">= vs-2022"
-    ![Screenshot of Parallel Stacks Window](../debugger/media/vs-2022/dbg-multithreaded-parallel-stacks.png "ParallelStacksWindow")
+    ![Screenshot of the Parallel Stacks Window.](../debugger/media/vs-2022/dbg-multithreaded-parallel-stacks.png "ParallelStacksWindow")
 
     In this example, from left to right we see this information for managed code:
 
@@ -276,7 +276,7 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
 2. To view the threads in a list view, select **Debug** > **Windows** > **Threads**.
 
     ::: moniker range=">= vs-2022"
-    ![Screenshot of Threads Window](../debugger/media/vs-2022/dbg-multithreaded-threads-window.png "ThreadsWindow")
+    ![Screenshot of the Threads Window.](../debugger/media/vs-2022/dbg-multithreaded-threads-window.png "ThreadsWindow")
 
     In this view, you can easily see that thread 20272 is the Main thread and is currently located in external code, specifically *System.Console.dll*.
     ::: moniker-end
