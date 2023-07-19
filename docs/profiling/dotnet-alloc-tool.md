@@ -76,19 +76,38 @@ For more information on how to make the tool more efficient, see [Optimizing Pro
 
 ## Understand your data
 
+In the following graphical view, the top graph shows the number of live objects in your app. The bottom **Object delta** graph shows the percentage change of app objects. Red bars denote when garbage collection took place.
+
+::: moniker range=">=vs-2022"
+![A graph for the Dotnet Allocation tool](../profiling/media/vs-2022/graph-dotnet-alloc.png "A graph for the Dotnet Allocation tool")
+::: moniker-end
+::: moniker range="vs-2019"
 ![A graph for the Dotnet Allocation tool](../profiling/media/graphdotnetalloc.png "A graph for the Dotnet Allocation tool")
+::: moniker-end
 
-In the preceding graphical view, the top graph shows the number of live objects in your app. The bottom **Object delta** graph shows the percentage change of app objects. Red bars denote when garbage collection took place.
+You can filter the tabular data to display activity for only a specified time range by selecting a time range.
 
+::: moniker range=">=vs-2022"
+![A filtered graph of the Dotnet Allocation time](../profiling/media/vs-2022/graphdotnetalloctimefiltered.png "A filtered graph of the Dotnet Allocation time")
+::: moniker-end
+::: moniker range="vs-2019"
 ![A filtered graph of the Dotnet Allocation time](../profiling/media/graphdotnetalloctimefiltered.png "A filtered graph of the Dotnet Allocation time")
+::: moniker-end
 
-You can filter the tabular data to display activity for only a specified time range. You can also zoom into or out of the graph.
+You can also zoom into or out of the graph.
 
 ### Allocation
 
-![The Allocation view expanded](../profiling/media/allocationexpandedlight.png "The Allocation view expanded")
-
 The **Allocation** view shows the location of objects that are allocating memory and how much memory those objects are allocating.
+
+::: moniker range=">=vs-2022"
+![The Allocation view expanded](../profiling/media/vs-2022/allocation-expanded-dark-theme.png "The Allocation view expanded")
+::: moniker-end
+::: moniker range="vs-2019"
+![The Allocation view expanded](../profiling/media/allocationexpandedlight.png "The Allocation view expanded")
+::: moniker-end
+
+The following information appears in the **Allocation** view:
 
 - The **Type** column is a list of classes and structures that take up memory. Double-click a type to view its backtrace as an inverted call tree. In the **Allocation** view only, you can see items within the selected category that take up memory.
 
