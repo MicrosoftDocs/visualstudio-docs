@@ -263,42 +263,42 @@
   items:
   - name: Visual Studio Installer Projects Extension and .NET 6.0
     href: installer-projects-net-core.md
-    - name: Custom bootstrapper
+- name: Custom bootstrapper
+    items:
+    - name: Application deployment prerequisites
+      href: application-deployment-prerequisites.md
+    - name: Deploy prerequisites for 64-bit applications
+      href: deploying-prerequisites-for-64-bit-applications.md
+    - name: Create bootstrapper packages
+      href: creating-bootstrapper-packages.md
+    - name: Create a product manifest
+      href: how-to-create-a-product-manifest.md
+    - name: Create a package manifest
+      href: how-to-create-a-package-manifest.md
+    - name: Create a localized bootstrapper package
+      href: how-to-create-a-localized-bootstrapper-package.md
+    - name: 'Walkthrough: Create a custom bootstrapper with a privacy prompt'
+       href: walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt.md
+    - name: Product and Package Schema Reference
       items:
-      - name: Application deployment prerequisites
-        href: application-deployment-prerequisites.md
-      - name: Deploy prerequisites for 64-bit applications
-        href: deploying-prerequisites-for-64-bit-applications.md
-      - name: Create bootstrapper packages
-        href: creating-bootstrapper-packages.md
-      - name: Create a product manifest
-        href: how-to-create-a-product-manifest.md
-      - name: Create a package manifest
-        href: how-to-create-a-package-manifest.md
-      - name: Create a localized bootstrapper package
-        href: how-to-create-a-localized-bootstrapper-package.md
-      - name: 'Walkthrough: Create a custom bootstrapper with a privacy prompt'
-        href: walkthrough-creating-a-custom-bootstrapper-to-show-a-privacy-prompt.md
-      - name: Product and Package Schema Reference
-        items:
-        - name: Overview of Product and Package Schema Reference
-          href: product-and-package-schema-reference.md
-        - name: <Product> Element (Bootstrapper)
-          href: product-element-bootstrapper.md
-        - name: <Package> Element (Bootstrapper)
-          href: package-element-bootstrapper.md
-        - name: <RelatedProducts> Element (Bootstrapper)
-          href: relatedproducts-element-bootstrapper.md
-        - name: <InstallChecks> Element (Bootstrapper)
-          href: installchecks-element-bootstrapper.md
-        - name: <Commands> Element (Bootstrapper)
-          href: commands-element-bootstrapper.md
-        - name: <PackageFiles> Element (Bootstrapper)
-          href: packagefiles-element-bootstrapper.md
-        - name: <Strings> Element (Bootstrapper)
-          href: strings-element-bootstrapper.md
-        - name: <Schedules> Element (Bootstrapper)
-          href: schedules-element-bootstrapper.md
+      - name: Overview of Product and Package Schema Reference
+        href: product-and-package-schema-reference.md
+       - name: <Product> Element (Bootstrapper)
+        href: product-element-bootstrapper.md
+      - name: <Package> Element (Bootstrapper)
+        href: package-element-bootstrapper.md
+      - name: <RelatedProducts> Element (Bootstrapper)
+        href: relatedproducts-element-bootstrapper.md
+      - name: <InstallChecks> Element (Bootstrapper)
+        href: installchecks-element-bootstrapper.md
+      - name: <Commands> Element (Bootstrapper)
+        href: commands-element-bootstrapper.md
+      - name: <PackageFiles> Element (Bootstrapper)
+        href: packagefiles-element-bootstrapper.md
+      - name: <Strings> Element (Bootstrapper)
+        href: strings-element-bootstrapper.md
+      - name: <Schedules> Element (Bootstrapper)
+        href: schedules-element-bootstrapper.md
 - name: Reference
   items:
   - name: Error - Project type not found
