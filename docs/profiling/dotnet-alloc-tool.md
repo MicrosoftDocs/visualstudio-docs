@@ -1,7 +1,7 @@
 ---
 title: Analyze memory usage for .NET objects | Microsoft Docs
 description: View how much memory your app uses and what code paths allocate the most memory by using the .NET Object Allocation tool.
-ms.date: 12/9/2019
+ms.date: 07/19/2023
 ms.topic: how-to
 helpviewer_keywords: 
   - memory allocation, memory usage
@@ -25,17 +25,32 @@ After running the tool, you can see the function execution paths where objects a
 
 1. Select the **.NET Object Allocation Tracking** check box.
 
+   ::: moniker range=">=vs-2022"
+   ![The Dotnet Object Allocation Tracking tool selected](../profiling/media/vs-2022/dotnet-alloc-tool-selected.png "The Dotnet Object Allocation Tracking tool selected")
+   ::: moniker-end
+   ::: moniker range="vs-2019"
    ![The Dotnet Object Allocation Tracking tool selected](../profiling/media/dotnetalloctoolselected.png "The Dotnet Object Allocation Tracking tool selected")
+   ::: moniker-end
 
 1. Select the **Start** button to run the tool.
 
 1. After the tool starts running, go through the scenario you want to profile in your app. Then select **Stop collection** or close your app to see your data.
 
+   ::: moniker range=">=vs-2022"
+   ![A window showing Stop collection](../profiling/media/vs-2022/stop-collection-dark-theme.png "A window showing Stop collection")
+   ::: moniker-end
+   ::: moniker range="vs-2019"
    ![A window showing Stop collection](../profiling/media/stopcollectionlighttheme.png "A window showing Stop collection")
+   ::: moniker-end
 
 1. Select the **Allocation** tab. Window contents similar to the following screenshot appear.
 
+   ::: moniker range=">=vs-2022"
+   ![The Allocation tab](../profiling/media/vs-2022/allocation-view.png "The Allocation tab")
+   ::: moniker-end
+   ::: moniker range="vs-2019"
    ![The Allocation tab](../profiling/media/allocationview.png "The Allocation tab")
+   ::: moniker-end
 
 You can now analyze the memory allocation of the objects.
 
