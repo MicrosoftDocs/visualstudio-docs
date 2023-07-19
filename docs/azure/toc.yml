@@ -26,7 +26,7 @@
   - name: Add Azure App Configuration
     href: vs-azure-tools-connected-services-app-configuration.md
   expanded: false
-- name: Deploy web app to Azure
+- name: Publish ASP.NET web app
   items:
   - name: Azure Container Apps >>
     href: /azure/container-apps/deploy-visual-studio?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
@@ -36,25 +36,25 @@
     href: ../containers/hosting-web-apps-in-docker.md
   - name: Azure Virtual Machine
     href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
-  - name: Continuous integration
+- name: Publish Azure Function Apps
+  items:
+  - name: Azure Function App >>
+    href: /azure/azure-functions/functions-create-your-first-function-visual-studio
+- name: Continuous integration
+  expanded: true
+  items:
+  - name: GitHub Actions
     items:
+    - name: Overview
+      href: overview-github-actions.md
+    - name: Deploy to Azure using GitHub Actions
+      href: azure-deployment-using-github-actions.md
+    - name: Deploy an ASP.NET Core app with Entity Framework to Azure with GitHub Actions
+      href: end-to-end-deployment-entity-framework-core-github-actions.md
     - name: Continuous deployment to Azure with Visual Studio and Git with ASP.NET Core
       href: /azure/app-service/deploy-continuous-deployment
     - name: Continuous deployment to Azure with Azure Pipelines
       href: /azure/devops/pipelines/get-started-yaml?view=vsts&preserve-view=true
-  expanded: false
-- name: Azure Function Apps
-  items:
-  - name: Azure Function App >>
-    href: /azure/azure-functions/functions-create-your-first-function-visual-studio
-- name: GitHub Actions
-  items:
-  - name: Overview
-    href: overview-github-actions.md
-  - name: Deploy to Azure using GitHub Actions
-    href: azure-deployment-using-github-actions.md
-  - name: Deploy an ASP.NET Core app with Entity Framework to Azure with GitHub Actions
-    href: end-to-end-deployment-entity-framework-core-github-actions.md
 - name: How to
   items:
   - name: Get publish profile from Azure App Service
