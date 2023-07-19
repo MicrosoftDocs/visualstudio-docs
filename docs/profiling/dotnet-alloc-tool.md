@@ -56,11 +56,21 @@ You can now analyze the memory allocation of the objects.
 
 During collection, the tracking tool can slow down the profiled app. If performance of the tracking tool or the app is slow, and if you don't need to track every object, you can adjust the sampling rate. To do so, select the gear symbol next to the tracking tool in the profiler summary page.
 
+::: moniker range=">=vs-2022"
+![Settings for the Dotnet Allocation tool](../profiling/media/vs-2022/dotnet-alloc-settings.png "Settings for the Dotnet Allocation tool")
+::: moniker-end
+::: moniker range="vs-2019"
 ![Settings for the Dotnet Allocation tool](../profiling/media/dotnetallocsettings.png "Settings for the Dotnet Allocation tool")
+::: moniker-end
 
 Adjust the sampling rate to the rate you want. This change helps speed up performance of your app during collection and analysis.
 
+::: moniker range=">=vs-2022"
+![An adjusted sampling rate](../profiling/media/vs-2022/adjusted-sampling-rate-dotnet-alloc-tool.png "An adjusted sampling rate")
+::: moniker-end
+::: moniker range="vs-2019"
 ![An adjusted sampling rate](../profiling/media/adjustedsamplingratedotnetalloctool.png "An adjusted sampling rate")
+::: moniker-end
 
 For more information on how to make the tool more efficient, see [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md).
 
