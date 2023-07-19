@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 3a8f9439-90e7-4a8a-a5a1-d0d6dcd1ba49
-ms.date: 05/23/2023
+ms.date: 07/19/2023
 ms.topic: conceptual
 description:  Learn whether your Visual Studio subscription includes Azure Dev/Test credits
 ---
@@ -30,9 +30,8 @@ To get started using the Azure Dev/Test credits included in your subscription, v
 | Visual Studio Enterprise - FTE | $150 monthly credit | Yes |
 | Visual Studio Enterprise - Microsoft Cloud Partner Program | $150 monthly credit | Yes |
 | Visual Studio Professional - Microsoft Cloud Partner Program | Not available | |
-| Visual Studio Enterprise – Imagine (Standard) | Not available | |
-| Visual Studio Enterprise – Imagine (Premium) | Not available | |
-| Visual Studio Enterprise – BizSpark | $150 monthly credit | Yes |
+| Visual Studio Enterprise – Azure Dev Tools for Teaching | Not available | |
+| Visual Studio Enterprise – Microsoft for Startups | $150 monthly credit | Yes |
 | Visual Studio Enterprise – MCT Software & Services | $100 monthly credit | Yes |
 | Visual Studio Enterprise – MCT Software & Services Developer | $150 monthly credit | Yes |
 
@@ -48,7 +47,7 @@ Not sure which subscription you're using?  Connect to [https://my.visualstudio.c
 
 ### Q:  Can I use my Azure credits for Azure OpenAI?
 
-A:  Yes, Azure credits can be used to pay for Azure OpenAI Service usage. However, you need to apply for access to Azure OpenAI Service first and specify your use case and mitigations.  Access is currently limited as we navigate high demand, upcoming product improvements, and [Microsoft’s commitment to responsible AI](https://www.microsoft.com/ai/responsible-ai?activetab=pivot1:primaryr6). For now, we're working with customers with an existing partnership with Microsoft, lower risk use cases, and those committed to incorporating mitigations.
+A:  Yes, Azure credits can be used to pay for Azure OpenAI Service usage. However, you need to apply for access to Azure OpenAI Service first and specify your use case and mitigations.  Access is currently limited as we navigate high demand, upcoming product improvements, and [Microsoft’s commitment to responsible AI](https://www.microsoft.com/ai/responsible-ai?activetab=pivot1:primaryr6). For now, we're working with customers with an existing partnership with Microsoft, lower risk use cases, and customers committed to incorporating mitigations.
 
 More specific information is included in the application form. We appreciate your patience as we work to responsibly enable broader access to Azure OpenAI.
 
