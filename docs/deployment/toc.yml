@@ -13,7 +13,7 @@
     - name: Tutorials
       expanded: true
       items:
-       - name: Deploy a .NET Windows application using ClickOnce
+      - name: Deploy a .NET Windows application using ClickOnce
         href: quickstart-deploy-using-clickonce-folder.md
       - name: Deploy a .NET Framework desktop app using ClickOnce
         href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
