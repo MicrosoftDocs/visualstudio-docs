@@ -135,29 +135,50 @@ The following symbols appear in the **Allocation**, **Call Tree**, and **Functio
 
 ### Call Tree
 
-![The Call Tree view](../profiling/media/calltreelight.png "The Call Tree view")
-
 The **Call Tree** view shows the function execution paths that contain objects allocating much memory.
 
+::: moniker range=">=vs-2022"
+![The Call Tree view](../profiling/media/vs-2022/dotnet-alloc-call-tree-dark-theme.png "The Call Tree view")
+::: moniker-end
+::: moniker range="vs-2019"
+![The Call Tree view](../profiling/media/calltreelight.png "The Call Tree view")
+::: moniker-end
+
+The following information appears in the **Call Tree* view:
+
 - The **Function Name** column shows the process or name of the function containing objects that allocate memory. The display is based on the level of the node you're inspecting.
-- The **Total (Allocations)** and **Total Size (Bytes)** columns show the number of allocated objects and the amount of memory that is used by a function and all other functions it calls.
+- The **Total (Allocations)** and **Total Size (Bytes)** columns show the number of allocated objects and the amount of memory that is used by a function and all other functions it calls. The **Total Size (Bytes)** column is hidden by default.
 - The **Self (Allocations)** and **Self-Size (Bytes)** columns show the number of allocated objects and the amount of memory that is used by a single selected function or allocation type.
-- The **Average Size (Bytes)** column shows the same information as it does in the **Allocations** view.
+- The **Average Size (Bytes)** column shows the same information as it does in the **Allocations** view. This column is hidden by default.
 - The **Module name** column shows the module that contains the function or process that is calling.
 
-   ![A hot path expanded](../profiling/media/hotpathlight.png "A hot path expanded")
+Additional options that appear in the **Call Tree** view include:
 
 - The **Expand Hot Path** button highlights a function execution pathway that contains many objects that are allocating memory. The algorithm starts at a node you select and highlights the path of the most allocations, guiding you in your investigation.
 - The **Show Hot Path** button shows or hides the flame symbols that indicate which nodes are part of the hot path.
 
-### Functions
+::: moniker range=">=vs-2022"
+   ![A hot path expanded](../profiling/media/vs-2022/dotnet-alloc-hot-path.png "A hot path expanded")
+::: moniker-end
+::: moniker range="vs-2019"
+   ![A hot path expanded](../profiling/media/hotpathlight.png "A hot path expanded")
+::: moniker-end
 
-![The Functions view](../profiling/media/functionslight.png "The Functions view")
+### Functions
 
 The **Functions** view shows processes, modules, and functions that are allocating memory.
 
+::: moniker range=">=vs-2022"
+![The Functions view](../profiling/media/vs-2022/dotnet-alloc-functions-dark-theme.png "The Functions view")
+::: moniker-end
+::: moniker range="vs-2019"
+![The Functions view](../profiling/media/functionslight.png "The Functions view")
+::: moniker-end
+
+Information that appears in the **Functions** view includes:
+
 - The **Name** column shows processes as the highest-level nodes. Underneath processes are modules, and underneath modules are functions.
-- These columns show the same information as they do in the **Allocation** and **Call tree** views:
+- The following columns, which show the same information as they do in the **Allocation** and **Call tree** views:
 
   - **Total (Allocations)**
   - **Self (Allocations)**
