@@ -283,22 +283,22 @@
     items:
     - name: Overview of Product and Package Schema Reference
       href: product-and-package-schema-reference.md
-     - name: <Product> Element (Bootstrapper)
-       href: product-element-bootstrapper.md
-     - name: <Package> Element (Bootstrapper)
-       href: package-element-bootstrapper.md
-     - name: <RelatedProducts> Element (Bootstrapper)
-       href: relatedproducts-element-bootstrapper.md
-     - name: <InstallChecks> Element (Bootstrapper)
-       href: installchecks-element-bootstrapper.md
-     - name: <Commands> Element (Bootstrapper)
-       href: commands-element-bootstrapper.md
-     - name: <PackageFiles> Element (Bootstrapper)
-       href: packagefiles-element-bootstrapper.md
-     - name: <Strings> Element (Bootstrapper)
-       href: strings-element-bootstrapper.md
-     - name: <Schedules> Element (Bootstrapper)
-       href: schedules-element-bootstrapper.md
+    - name: <Product> Element (Bootstrapper)
+      href: product-element-bootstrapper.md
+    - name: <Package> Element (Bootstrapper)
+      href: package-element-bootstrapper.md
+    - name: <RelatedProducts> Element (Bootstrapper)
+      href: relatedproducts-element-bootstrapper.md
+    - name: <InstallChecks> Element (Bootstrapper)
+      href: installchecks-element-bootstrapper.md
+    - name: <Commands> Element (Bootstrapper)
+      href: commands-element-bootstrapper.md
+    - name: <PackageFiles> Element (Bootstrapper)
+      href: packagefiles-element-bootstrapper.md
+    - name: <Strings> Element (Bootstrapper)
+      href: strings-element-bootstrapper.md
+    - name: <Schedules> Element (Bootstrapper)
+      href: schedules-element-bootstrapper.md
 - name: Reference
   items:
   - name: Error - Project type not found
