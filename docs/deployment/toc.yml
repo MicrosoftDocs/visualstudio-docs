@@ -297,7 +297,7 @@
       href: ../javascript/publish-nodejs-app-azure.md
 - name: Visual Studio Installer projects
   items:
-    name: Visual Studio Installer Projects Extension and .NET 6.0
+  - name: Visual Studio Installer Projects Extension and .NET 6.0
     href: installer-projects-net-core.md
 - name: Reference
   items:
