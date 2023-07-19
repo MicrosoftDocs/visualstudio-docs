@@ -36,7 +36,7 @@ To get started using the Azure Dev/Test credits included in your subscription, v
 | Visual Studio Enterprise – MCT Software & Services Developer | $150 monthly credit | Yes |
 
 \* *Includes: Not for Resale (NFR), Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP)
-Excludes:  NFR Basic*
+Excludes:  NFR Basic (includes programs such as Alumni, ISV, etc)*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
