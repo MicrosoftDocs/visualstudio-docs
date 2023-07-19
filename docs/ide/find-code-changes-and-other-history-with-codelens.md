@@ -85,11 +85,11 @@ You can also see who changed your code over time, which can help you find patter
 
 ### Find changes in your current branch
 
-Your team might have multiple branches, for example a main branch and a child development branch, to reduce the risk of breaking stable code. You can find out how many people changed your code and how many changes were made in the main branch by pressing **Alt**+**6**:
+Your team might have multiple branches, for example a main branch and a child development branch, to reduce the risk of breaking stable code. You can find out how many people changed your code and how many changes were made in the main branch by pressing **Alt**+**6**.
 
 ### Find when your code was branched
 
-To find when your code was branched, navigate to your code in the child branch. Then, select the **changes** indicator or press **Alt**+**6**:
+To find when your code was branched, navigate to your code in the child branch. Then, select the **changes** indicator (or press **Alt**+**6**).
 
 ### Find incoming changes from other branches
 
@@ -333,7 +333,7 @@ You can find out how many people changed your code and how many changes were mad
 
 ### Find when your code was branched
 
-To find when your code was branched, navigate to your code in the child branch. Then, select the **changes** indicator or press **Alt**+**6**:
+To find when your code was branched, navigate to your code in the child branch. Then, select the **changes** indicator (or press **Alt**+**6**):
 
 ![CodeLens: Find when your code was branched](../ide/media/codelens-first-branch.png)
 
