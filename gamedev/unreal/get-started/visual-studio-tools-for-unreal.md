@@ -2,7 +2,7 @@
 title: "Visual Studio Tools for Unreal Engine | Microsoft Docs"
 description: Read an overview about Visual Studio Tools for Unreal Engine, which is a free Visual Studio extension that helps you develop games with Unreal Engine.
 ms.date: "07/24/2023"
-ms.technology: vs-unreal-tools
+ms.technology: vs-unreal-engine-tools
 ms.prod: visual-studio
 ms.topic: overview
 author: TylerMSFT
@@ -11,9 +11,8 @@ manager: MarkL
 ms.workload: "unreal"
 ---
 # Visual Studio Tools for Unreal Engine
-![Screenshot of a computer, game controller, and icons for game play.](../media/hero.png)
 
-JTW: this page is like: https://learn.microsoft.com/visualstudio/gamedev/unity/get-started/visual-studio-tools-for-unity?pivots=windows
+![Screenshot of a computer, game controller, and icons for game play.](../media/hero.png)
 
 ## Overview
 

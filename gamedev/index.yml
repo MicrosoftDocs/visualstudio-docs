@@ -29,6 +29,9 @@ highlightedContent:
     - title: C++ game development with Unreal Engine
       itemType: learn
       url: unreal/get-started/getting-started-with-visual-studio-tools-for-unreal.md
+    - title: C++ game development with Unreal Engine
+      itemType: learn
+      url: unreal/get-started/visual-studio-tools-for-unreal.md
     - title: Learn more about .NET game development
       itemType: learn
       url: https://dotnet.microsoft.com/apps/gaming
