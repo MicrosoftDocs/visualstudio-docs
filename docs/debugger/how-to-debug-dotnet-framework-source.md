@@ -32,7 +32,7 @@ To debug .NET Framework source, you must:
 1. Under **Tools** (or **Debug**) > **Options** > **Debugging** > **General**, make sure you:
 
    - Deselect **Enable Just My Code**.
-   - Select **Enable Source Link support**
+   - Select **Enable Source Link support**.
 
 1. Under **Tools** (or **Debug**) > **Options** > **Debugging** > **Symbols**,  select **Microsoft Symbol Servers**.
 ::: moniker-end
