@@ -88,7 +88,7 @@ In the following graphical view, the top graph shows the number of live objects 
 You can filter the tabular data to display activity for only a specified time range by selecting a time range.
 
 ::: moniker range=">=vs-2022"
-![A filtered graph of the Dotnet Allocation time](../profiling/media/vs-2022/graphdotnetalloctimefiltered.png "A filtered graph of the Dotnet Allocation time")
+![A filtered graph of the Dotnet Allocation time](../profiling/media/vs-2022/graph-dotnet-alloc-time-filtered.png "A filtered graph of the Dotnet Allocation time")
 ::: moniker-end
 ::: moniker range="vs-2019"
 ![A filtered graph of the Dotnet Allocation time](../profiling/media/graphdotnetalloctimefiltered.png "A filtered graph of the Dotnet Allocation time")
@@ -158,7 +158,7 @@ Additional options that appear in the **Call Tree** view include:
 - The **Show Hot Path** button shows or hides the flame symbols that indicate which nodes are part of the hot path.
 
 ::: moniker range=">=vs-2022"
-   ![A hot path expanded](../profiling/media/vs-2022/dotnet-alloc-hot-path.png "A hot path expanded")
+   ![A hot path expanded](../profiling/media/vs-2022/dotnet-alloc-call-tree-hot-path.png "A hot path expanded")
 ::: moniker-end
 ::: moniker range="vs-2019"
    ![A hot path expanded](../profiling/media/hotpathlight.png "A hot path expanded")
@@ -214,7 +214,7 @@ The following information appears in the **Collection** view.
 When you select a row, this view also shows pie charts to visualize collected and survived objects by type.
 
 ::: moniker range=">=vs-2022"
-![The Collection view](../profiling/media/vs-2022/dotnet-alloc-collection-pie-chart.png "The Collection view")
+![Pie charts in the Collection view](../profiling/media/vs-2022/dotnet-alloc-collection-pie-charts.png "The Collection view")
 ::: moniker-end
 
 ### Filtering tools
