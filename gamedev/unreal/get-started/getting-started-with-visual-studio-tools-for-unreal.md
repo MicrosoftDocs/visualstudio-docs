@@ -1,5 +1,5 @@
 ---
-title: "Quickstart: Install & configure Visual Studio Tools for Unreal Engine"
+title: "Quickstart: Using Visual Studio Tools for Unreal Engine"
 description: "Quickstart: Learn how to connect Unreal Engine and Visual Studio. Visual Studio Tools for Unreal Engine offers support for writing and debugging C++ games."
 ms.date: 07/24/2023
 ms.custom: 
@@ -12,9 +12,9 @@ manager: Markl
 ms.workload: "unreal"
 ---
 
-# Quickstart: Configure Visual Studio Tools for Unreal Engine
+# Quickstart: Using Visual Studio Tools for Unreal Engine
 
-In this quickstart, you learn how to install the Visual Studio Tools for Unreal Engine (UE). The Visual Studio Tools for Unreal Engine are free and provide support for adding UE classes in Visual Studio, expanding UE macros, finding and viewing Blueprint references, and more. See [Visual Studio Tools for Unreal Engine](./visual-studio-tools-for-unreal.md) for more information about the capabilities of these tools.
+In this quickstart, you learn how to download a Unreal Engine (UE) game sample and then use the Visual Studio Tools for Unreal Engine to view Blueprints in Visual Studio, add UE classes in Visual Studio, view UE logging within Visual Studio, and view expanded UE macros from within Visual Studio. See [Visual Studio Tools for Unreal Engine](./visual-studio-tools-for-unreal.md) for an overview of these tools.
 
 ## Prerequisites
 
