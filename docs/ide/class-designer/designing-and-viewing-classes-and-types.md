@@ -269,3 +269,17 @@ To export a class diagram that you created from code in a project, save the diag
 1. Choose **Export** to finish exporting.
 
 To automatically update exported images that are linked from other documents, export the diagram again in Visual Studio.
+
+## Print class diagrams
+
+You can print a class diagram using the print feature of Visual Studio.
+
+### To print a class diagram
+
+1. Open the class diagram.
+
+2. Click **Print** on the **File** menu.
+
+The entire class diagram prints. You may need to adjust the settings in the **Page Setup** dialog box in order to print at an appropriate size.
+
+
