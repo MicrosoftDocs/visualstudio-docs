@@ -20,16 +20,18 @@ ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
-# Design and view classes and types with Class Designer
+# What is Class Designer?
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Design, visualize, and refactor classes and other types in your code with **Class Designer** in Visual Studio. Use class diagrams to create and edit classes in your C#, Visual Basic, or C++ project. You can also use class diagrams to understand your project structure better or reorganize your code.
+With the **Class Designer** tool in Visual Studio, you can design, visualize, and refactor class diagrams in C#, Visual Basic, or C++ projects. Class diagrams show the code elements and their relationships in a visual design surface, which can help you better understand your project structure and reorganize your code.
 
->[!NOTE]
->Class Designer is not available in .NET Core projects.
+> [!NOTE]
+> Class Designer is not available in .NET Core projects.
 
-## What you can do with class diagrams
+## About class diagrams
+
+Here's what you can do with class diagrams, in more detail:
 
 - **Design**: Edit your project's code by editing the class diagram. Add new elements and delete unwanted ones. Your changes are reflected in code.
 
@@ -44,7 +46,7 @@ Class diagrams show the details of types, for example, their constituent members
 > [!NOTE]
 > If your project contains a class diagram and your project references a type that's located in another project, the class diagram does not show the referenced type until you build the project for that type. Likewise, the diagram does not display changes to the code of the external entity until you rebuild the project for that entity.
 
-## Class diagram workflow
+### Class diagram workflow
 
 Class diagrams can help you understand the class structure of projects. These projects might have been created by other developers, or you just need a refresher on a project you created yourself. You can use class diagrams to customize, share, and present project information with others.
 
@@ -57,7 +59,70 @@ After you have fine-tuned one or more class diagrams, you can copy them into Mic
 > [!NOTE]
 > Class Designer does not track the location of your source files, so changing your project structure or moving source files in the project can cause Class Designer to lose track of the type, especially the source type of a typedef, base classes, or association types. You might get an error, like **Class Designer is unable to display this type**. If you do, drag the modified or relocated source code to the class diagram again to redisplay it.
 
-## See also
+## Add class diagrams to projects
 
-- [Features of the code editor](../writing-code-in-the-code-and-text-editor.md)
-- [Map dependencies across your solutions](../../modeling/map-dependencies-across-your-solutions.md)
+To design, edit, and refactor classes and other types, add a class diagram to your C#, Visual Basic, or C++ project. To visualize different parts of the code in a project, add multiple class diagrams to the project.
+
+::: moniker range="<=vs-2019"
+
+You can't create class diagrams from projects that share code across multiple apps. To create UML class diagrams, see [Create UML modeling projects and diagrams](https://devblogs.microsoft.com/devops/uml-designers-have-been-removed-layer-designer-now-supports-live-architectural-analysis/).
+
+::: moniker-end
+
+### Install the Class Designer component
+
+If you haven't installed the **Class Designer** component, follow these steps to install it.
+
+1. Open **Visual Studio Installer** from the Windows Start menu, or by selecting **Tools** > **Get Tools and Features** from the menu bar in Visual Studio.
+
+   **Visual Studio Installer** opens.
+
+1. Select the **Individual components** tab, and then scroll down to the **Code tools** category.
+
+1. Select **Class Designer** and then select **Modify**.
+
+   ::: moniker range="vs-2019"
+   :::image type="content" source="media/vs-2019/class-designer-component.png" alt-text="Screenshot of the Class Designer component in the Visual Studio Installer." lightbox="media/vs-2019/class-designer-component.png":::
+   ::: moniker-end
+   ::: moniker range="vs-2022"
+   :::image type="content" source="media/vs-2022/class-designer-component.png" alt-text="Screenshot of the Class Designer component in the Visual Studio Installer." lightbox="media/vs-2022/class-designer-component.png":::
+   ::: moniker-end
+
+   The **Class Designer** component starts installing.
+
+## Add a blank class diagram to a project
+
+1. In **Solution Explorer**, right-click the project node and then choose **Add** > **New Item**. Or, press **Ctrl**+**Shift**+**A**.
+
+   The **Add New Item** dialog opens.
+
+1. Expand **General**, and then select **Class Diagram** from the template list. For Visual C++ projects, look in the **Utility** category to find the **Class Diagram** template.
+
+   > [!NOTE]
+   > If you don't see the **Class Diagram** template, [follow the steps](#install-the-class-designer-component) to install the **Class Designer** component for Visual Studio.
+
+   The class diagram opens in Class Designer and appears as a file that has a *.cd* extension in **Solution Explorer**. You can drag shapes and lines to the diagram from **Toolbox**.
+
+To add multiple class diagrams, repeat the steps in this procedure.
+
+## Add a class diagram based on existing types
+
+In **Solution Explorer**, open a class file's context menu (right-click) and then choose **View Class Diagram**.
+
+-or-
+
+In **Class View**, open the namespace or type context menu and then choose **View Class Diagram**.
+
+> [!TIP]
+> If **Class View** is not open, open **Class View** from the **View** menu. Or, press **Ctrl**+**Shift**+**C**.
+
+## To display the contents of a complete project in a class diagram
+
+In **Solution Explorer** or Class View, right-click the project and choose **View**, then choose **View Class Diagram**.
+
+An auto-populated class diagram is created.
+
+> [!IMPORTANT]
+> Class Designer is not available in .NET Core projects.
+
+
