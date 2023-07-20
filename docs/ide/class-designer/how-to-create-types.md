@@ -142,4 +142,20 @@ Alternatively, follow these steps:
 
    The name is updated in the **Class Details** window, on the association line, in the **Properties** window, and in code.
 
+## Visualize a collection association in Class Designer
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+Properties and fields that are collections of other types can be displayed on the class diagram as a collection association. Unlike a regular association, which displays a field or property as a line linking the owning class to the field's type, a collection association is displayed as a line linking the owning class to the collected type.
+
+### To create a collection association
+
+1. In code, create a property or field whose type is itself a strongly-typed collection.
+
+2. In the class diagram, expand the class so that properties and fields are shown.
+
+3. In the class, right-click the field or property and choose **Show as Collection Association**.
+
+The property or field is shown as an association line linking to the collected type.
+
 
