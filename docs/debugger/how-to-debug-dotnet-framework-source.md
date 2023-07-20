@@ -29,8 +29,12 @@ To debug .NET Framework source, you must:
 
 ::: moniker range=">= vs-2022"
 
-1. Under **Tools** (or **Debug**) > **Options** > **Debugging** > **General**, make sure you deselect **Enable Just My Code**.
-1. Under **Tools** (or **Debug**) > **Options** > **Debugging** > **Symbols**, select **Enable Source Link support** and **Debugging** > **Symbols**.
+1. Under **Tools** (or **Debug**) > **Options** > **Debugging** > **General**, make sure you:
+
+   - Deselect **Enable Just My Code**.
+   - Select **Enable Source Link support**
+
+1. Under **Tools** (or **Debug**) > **Options** > **Debugging** > **Symbols**,  select **Microsoft Symbol Servers**.
 ::: moniker-end
 
 ::: moniker range="vs-2019"
@@ -71,6 +75,7 @@ To debug .NET Framework source, you must:
    - Select **Symbol Settings** to open the **Symbols** page. On the **Symbols** page, under **Symbol file (.pdb) locations**, select **Microsoft Symbol Servers** to access symbols from the public Microsoft Symbol Servers. Select the toolbar buttons to add other symbol locations and change the loading order. Select **OK** to close the dialog.
 
 ## See also
+
 - [Debugging managed code](../debugger/debugging-managed-code.md)
 - [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 - [Debug .NET and ASP.NET Core source code with Visual Studio](/aspnet/core/test/debug-aspnetcore-source)
