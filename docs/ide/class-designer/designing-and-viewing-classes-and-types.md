@@ -230,7 +230,7 @@ You can remove a type shape from the class diagram without affecting the type's 
 
      The shape is removed from the diagram and its underlying code is deleted from the project.
 
-## How to: Copy class diagram elements to a Microsoft Office document
+## Copy class diagram elements to a Microsoft Office document
 
 You can copy shapes from a .NET class diagram (*.cd* file) to other documents. You'll either get a copy of the shape or its underlying code, based on the kind of document where you paste it. To copy shapes from UML class diagrams in a modeling project, see [Export diagrams as images](../../modeling/export-diagrams-as-images.md).
 
@@ -252,4 +252,20 @@ Right-click the shape and choose **Copy Image**.
 
 You can also choose **Copy** instead of **Copy Image**. **Copy** copies the image as a regular bitmap. **Copy Image** copies the image as a vector-based image, which is better for most Office applications.
 
+## Export class diagrams as images
 
+To export a class diagram that you created from code in a project, save the diagram as an image. If you want to export UML class diagrams instead, see [Export diagrams as images](../../modeling/export-diagrams-as-images.md).
+
+### Export a diagram
+
+1. Open your class diagram (*.cd*) file.
+
+1. From the **Class Diagram** menu or the diagram surface shortcut menu, choose **Export Diagram as Image**.
+
+1. Select a diagram.
+
+1. Select the format that you want.
+
+1. Choose **Export** to finish exporting.
+
+To automatically update exported images that are linked from other documents, export the diagram again in Visual Studio.
