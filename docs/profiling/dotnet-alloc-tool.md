@@ -188,12 +188,34 @@ Information that appears in the **Functions** view includes:
 
 ### Collection
 
+The **Collection** view shows how many objects were collected or retained during garbage collection.
+
+::: moniker range=">=vs-2022"
+![The Collection view](../profiling/media/vs-2022/dotnet-alloc-collection-dark-theme.png "The Collection view")
+::: moniker-end
+::: moniker range="vs-2019"
 ![The Collection view](../profiling/media/collectionlight.png "The Collection view")
+::: moniker-end
 
-The **Collection** view shows how many objects were collected or retained during garbage collection. This view also shows pie charts to visualize collected and survived objects by type.
+The following information appears in the **Collection** view.
 
+- The **GC** column shows the ID of this garbage collection in the executable's lifecycle.
+- The **Generation** column shows the Generation of the garbage collection.
+- The **GC Type** column shows the type of this garbage collection.
+- The **GC Reason** column shows the reason for this garbage collection event.
+- The **Pause Duration** column shows the time that execution was blocked because the garbage collector needs exclusive use of the heap. For a background garbage collection, this value is small.
+- The **LOH Size** column shows the size of the Large Object Heap after the garbage collector was run.
+- The **POH Size** column shows the size of the Pinned Object Heap after the garbage collector was run.
+- The **Finalizable Serv (MB)** column shows the number of MB of objects that have finalizers (destructors) that survived the garbage collection.
+- The **Pinned Objects** column shows the number of pinned objects this garbage collection promoted.
 - The **Collected** column shows the number of objects that the garbage collector collected.
 - The **Survived** column shows the number of objects that survived after the garbage collector was run.
+
+When you select a row, this view also shows pie charts to visualize collected and survived objects by type.
+
+::: moniker range=">=vs-2022"
+![The Collection view](../profiling/media/vs-2022/dotnet-alloc-collection-pie-chart.png "The Collection view")
+::: moniker-end
 
 ### Filtering tools
 
