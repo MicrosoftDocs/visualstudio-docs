@@ -15,17 +15,25 @@ ms.technology: vs-ide-general
 ms.workload:
 - multiple
 ---
-# How to: View existing types in Class Designer
+# View types and relationships in Class Designer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+With Class Designer, you can manage class diagrams by performing the following actions:
+
+- View [existing types](#view-types-and-relationships-in-class-designer) and its members
+- Find an inheritance relationship between a base type and its derived types
+- Change the way the a represents an association relationship between two types
+
+## View existing types in Class Designer
 
 To see an existing type and its members, add its shape to a class diagram.
 
 You can see local and referenced types. A local type exists in the currently open project and is read/write. A referenced type exists in another project or in a referenced assembly and is read-only.
 
-To design new types on class diagrams, see [How to: Create types by using Class Designer](how-to-create-types.md).
+To design new types on class diagrams, see [Create types by using Class Designer](how-to-create-types.md).
 
-## To see types in a project on a class diagram
+### To see types in a project on a class diagram
 
 1. From a project in **Solution Explorer**, open an existing class diagram (.cd) file. Or if no class diagram exists, add a new class diagram to the project. See [How to: Add Class Diagrams to Projects](how-to-add-class-diagrams-to-projects.md).
 
@@ -57,8 +65,4 @@ When you first display a type on the diagram, its shape appears collapsed by def
 
 In **Solution Explorer** or **Class View**, right-click the project and choose **View**, then choose **View Class Diagram**. An auto-populated Class Diagram is created.
 
-## See also
 
-- [How to: View Inheritance Between Types](how-to-view-inheritance-between-types.md)
-- [How to: Customize Class Diagrams](how-to-customize-class-diagrams.md)
-- [Viewing Types and Relationships](designing-and-viewing-classes-and-types.md)
