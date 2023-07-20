@@ -43,7 +43,7 @@ After running the tool, you can see the function execution paths where objects a
    ![A window showing Stop collection](../profiling/media/stopcollectionlighttheme.png "A window showing Stop collection")
    ::: moniker-end
 
-1. Select the **Allocation** tab. Window contents similar to the following screenshot appear.
+1. Select the **Allocation** tab. Memory allocation data similar to the following appears.
 
    ::: moniker range=">=vs-2022"
    ![The Allocation tab](../profiling/media/vs-2022/allocation-view.png "The Allocation tab")
@@ -85,7 +85,7 @@ In the following graphical view, the top graph shows the number of live objects 
 ![A graph for the Dotnet Allocation tool](../profiling/media/graphdotnetalloc.png "A graph for the Dotnet Allocation tool")
 ::: moniker-end
 
-You can filter the tabular data to display activity for only a specified time range by selecting a time range.
+You can filter the tabular data to display activity for only a specified time range by selecting a time range. When you do this, the information that appears in the tabs is scoped to the filtered time range.
 
 ::: moniker range=">=vs-2022"
 ![A filtered graph of the Dotnet Allocation time](../profiling/media/vs-2022/graph-dotnet-alloc-time-filtered.png "A filtered graph of the Dotnet Allocation time")
@@ -144,7 +144,7 @@ The **Call Tree** view shows the function execution paths that contain objects
 ![The Call Tree view](../profiling/media/calltreelight.png "The Call Tree view")
 ::: moniker-end
 
-The following information appears in the **Call Tree* view:
+The following information appears in the **Call Tree** view:
 
 - The **Function Name** column shows the process or name of the function containing objects that allocate memory. The display is based on the level of the node you're inspecting.
 - The **Total (Allocations)** and **Total Size (Bytes)** columns show the number of allocated objects and the amount of memory that is used by a function and all other functions it calls. The **Total Size (Bytes)** column is hidden by default.
