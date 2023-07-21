@@ -34,9 +34,9 @@
     href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs
   - name: Azure Container Registry
     href: ../containers/hosting-web-apps-in-docker.md
-- name: Publish Azure Function Apps
+- name: Publish Azure Function app
   items:
-  - name: Azure Function App >>
+  - name: Azure Function Apps >>
     href: /azure/azure-functions/functions-create-your-first-function-visual-studio
 - name: Continuous integration
   expanded: true
