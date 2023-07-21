@@ -53,12 +53,6 @@
       href: /azure/app-service/deploy-continuous-deployment
     - name: Continuous deployment to Azure with Azure Pipelines
       href: /azure/devops/pipelines/get-started-yaml?view=vsts&preserve-view=true
-- name: How to
-  items:
-  - name: Get publish profile from Azure App Service
-    href: how-to-get-publish-profile-from-azure-app-service.md
-  - name: Sign in with your Azure subscription
-    href: how-to-sign-in-with-azure-subscription.md
 - name: Azure Cloud Services development
   items:
   - name: Use Cloud Services (extended support)
@@ -156,3 +150,9 @@
     href: vs-active-directory-webapi-what-happened.md
   - name: Diagnose errors during authentication
     href: vs-active-directory-error.md
+- name: How to
+  items:
+  - name: Get publish profile from Azure App Service
+    href: how-to-get-publish-profile-from-azure-app-service.md
+  - name: Sign in with your Azure subscription
+    href: how-to-sign-in-with-azure-subscription.md
