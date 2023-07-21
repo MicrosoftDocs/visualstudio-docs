@@ -28,10 +28,10 @@ highlightedContent:
       url: https://dotnet.microsoft.com/learn/games/unity-tutorial/intro
     - title: C++ game development with Unreal Engine
       itemType: learn
-      url: unreal/get-started/getting-started-with-visual-studio-tools-for-unreal.md
+      url: unreal/get-started/vs-tools-unreal-overview.md
     - title: C++ game development with Unreal Engine
       itemType: learn
-      url: unreal/get-started/visual-studio-tools-for-unreal.md
+      url: unreal/get-started/vs-tools-unreal-overview.md
     - title: Learn more about .NET game development
       itemType: learn
       url: https://dotnet.microsoft.com/apps/gaming
@@ -61,15 +61,10 @@ productDirectory:
     - title: Unreal Engine
       imageSrc: unreal/media/unreal-engine-logo.png
       links:
-        - url: https://www.unrealengine.com/features
-          text: Overview of Unreal Engine
-        - url: https://docs.unrealengine.com/4.27/en-US/Basics/GettingStarted/
-          text: Get started with Unreal Engine
-        - url: https://docs.unrealengine.com/4.27/en-US/ProductionPipelines/DevelopmentSetup/VisualStudioSetup/
-          text: Setting up Visual Studio for Unreal Engine
-        - url: https://docs.unrealengine.com/4.27/en-US/ProductionPipelines/DevelopmentSetup/VisualStudioSetup/
-          text: Setting up IDE support for Unreal Engine
-
+        - url: unreal/get-started/vs-tools-unreal-overview.md
+          text: Overview of Visual Studio Tools for Unreal Engine
+        - url: unreal/get-started/vs-tools-unreal-install.md
+          text: Install Visual Studio Tools for Unreal Engine
 conceptualContent:
   title: Level up with Visual Studio
   summary: Learn more about code editing, debugging, building, and more with Visual Studio.

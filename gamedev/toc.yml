@@ -27,6 +27,8 @@
 - name: Unreal Engine
   items:
     - name: Overview
-      href: unreal/get-started/visual-studio-tools-for-unreal.md
-    - name: Using Visual Studio Tools for Unreal Engine
-      href: unreal/get-started/getting-started-with-visual-studio-tools-for-unreal.md
+      href: unreal/get-started/vs-tools-unreal-overview.md
+    - name: Install Visual Studio Tools for Unreal Engine
+      href: unreal/get-started/vs-tools-unreal-install.md
+    - name: Quickstart: Visual Studio Tools for Unreal Engine
+      href: unreal/get-started/vs-tools-unreal-quickstart.md
