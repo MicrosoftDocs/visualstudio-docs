@@ -63,10 +63,10 @@
     href: how-to-sign-in-with-azure-subscription.md
 - name: Azure Cloud Services development
   items:
+  - name: Use Cloud Services (extended support)
+    href: cloud-services-extended-support.md
   - name: Work with cloud service projects
     items:
-    - name: Use Cloud Services (extended support)
-      href: cloud-services-extended-support.md
     - name: Create an Azure cloud service project
       href: vs-azure-tools-azure-project-create.md
     - name: Manage roles in Azure cloud services
