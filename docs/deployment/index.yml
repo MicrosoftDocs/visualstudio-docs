@@ -89,3 +89,24 @@ landingContent:
             url: ../containers/index.yml
           - text: Publish NuGet packages
             url: /nuget
+
+  # Card
+  - title: Deploy to Azure
+    linkLists: tutorial
+    links:
+      - text: ASP.NET Core app to App Service >>
+        href: /azure/app-service/quickstart-dotnetcore?tabs=net70&pivots=development-environment-vs#publish-your-web-app
+      - text: ASP.NET to App Service (.NET Framework)
+        url: /azure/app-service/app-service-web-get-started-dotnet
+      - text: ASP.NET web app to Azure Web Apps
+         url: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs
+      - text: ASP.NET Core web app to Azure Container Apps
+        url: /azure/container-apps/deploy-visual-studio
+      - text: Azure Logic Apps
+        url: /azure/logic-apps/quickstart-create-logic-apps-with-visual-studio
+      - text: Azure Functions
+        url: /azure/azure-functions/functions-create-your-first-function-visual-studio
+      - text: Deploy with GitHub Actions
+        href: ../azure/azure-deployment-using-github-actions.md
+      - text: Deploy Entity Framework Core app with GitHub Actions
+        href: ../azure/end-to-end-deployment-entity-framework-core-github-actions.md
