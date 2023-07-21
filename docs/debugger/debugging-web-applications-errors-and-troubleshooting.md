@@ -62,7 +62,7 @@ You may encounter the following errors when attempting to debug Web applications
 
 - For more information, see [Error: Timeout While Debugging Web Services](../debugger/error-timeout-while-debugging-web-services.md)
 
-## Error: Timeout While Debugging Web Services
+## Error: Unable to Start Debugging on the Web Server
 
 - For more information, see [Error: Unable to Start Debugging on the Web Server](../debugger/error-unable-to-start-debugging-on-the-web-server.md)
 
