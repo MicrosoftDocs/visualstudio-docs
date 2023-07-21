@@ -36,8 +36,6 @@
           href: quickstart-deploy-using-clickonce-folder.md
         - name: Deploy a .NET Framework desktop app using ClickOnce
           href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
-        - name: Create an installer package (Windows desktop)
-          href: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
         - name: Build .NET Windows ClickOnce applications from the command line
           href: building-dotnet-clickonce-applications-from-the-command-line.md
         - name: Build .NET Framework ClickOnce applications from the Command Line
@@ -250,8 +248,10 @@
           href: clickonce-unmanaged-api-reference.md
     - name: Visual Studio Installer projects
       items:
-    - name: Visual Studio Installer Projects Extension and .NET 6.0
-      href: installer-projects-net-core.md
+      - name: Visual Studio Installer Projects Extension and .NET 6.0
+        href: installer-projects-net-core.md
+      - name: Create an installer package (Windows desktop)
+        href: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
     - name: Custom bootstrapper
       items:
       - name: Application deployment prerequisites
