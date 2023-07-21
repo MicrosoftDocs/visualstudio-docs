@@ -12,7 +12,7 @@ metadata:
   ms.author: ghogen
 
 landingContent:
-  - title: Work with Azure in Visual Studio
+  - title: About Azure development
     linkLists:
       - linkListType: overview
         links:
