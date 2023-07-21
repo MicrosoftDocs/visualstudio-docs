@@ -71,7 +71,7 @@
         - name: Code access security for ClickOnce applications
           href: code-access-security-for-clickonce-applications.md
         - name: Enable ClickOnce security settings
-          href: how -to-enable-clickonce-security-settings.md
+          href: how-to-enable-clickonce-security-settings.md
         - name: Set a security zone for a ClickOnce application
           href: how-to-set-a-security-zone-for-a-clickonce-application.md
         - name: Set custom permissions for a ClickOnce application
