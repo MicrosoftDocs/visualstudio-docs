@@ -3831,6 +3831,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/debugging-web-applications-troubleshooting.md",
+      "redirect_url": "/visualstudio/debugger/debugging-web-applications-errors-and-troubleshooting",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/using-the-microsoft-monitoring-agent.md",
       "redirect_url": "/windows/uwp/diagnose-problems-after-deployment",
       "redirect_document_id": false
