@@ -42,7 +42,7 @@ You may encounter the following errors when attempting to debug Web applications
 
 This error occurs when the debugger tries to auto-attach to a Web application that is using an IP address. This occurs if you change Web site identification to use specific IP address in IIS.
 
-For more information, see [Error: Site Uses IP Address](../debugger/error-site-uses-ip-address.md)
+For more information, see [Error: Site Uses IP Address](/previous-versions/visualstudio/visual-studio-2017/debugger/error-site-uses-ip-address)
 
 ## A Security Check Failed Because the IIS Admin Service Did Not Respond
 
