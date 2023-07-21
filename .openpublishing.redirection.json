@@ -3831,6 +3831,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/error-a-security-check-failed-because-the-iis-admin-service-did-not-respond.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-a-security-check-failed-because-the-iis-admin-service-did-not-respond",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/debugging-web-applications-troubleshooting.md",
       "redirect_url": "/visualstudio/debugger/debugging-web-applications-errors-and-troubleshooting",
       "redirect_document_id": false
