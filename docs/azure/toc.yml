@@ -1,7 +1,7 @@
 - name: Azure Development with Visual Studio
   href: index.yml
   expanded: true
-- name: Overview
+- name: Overview of Azure Deployment
   href: overview-azure-integration.md
 - name: Connect to Azure services
   items:
@@ -31,11 +31,9 @@
   - name: Azure Container Apps >>
     href: /azure/container-apps/deploy-visual-studio?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
   - name: Azure App Service >>
-    href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?view=aspnetcore-2.1&preserve-view=true
+    href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
   - name: Azure Container Registry
     href: ../containers/hosting-web-apps-in-docker.md
-  - name: Azure Virtual Machine
-    href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
 - name: Publish Azure Function Apps
   items:
   - name: Azure Function App >>
@@ -52,9 +50,9 @@
     - name: Deploy an ASP.NET Core app with Entity Framework to Azure with GitHub Actions
       href: end-to-end-deployment-entity-framework-core-github-actions.md
     - name: Continuous deployment to Azure with Visual Studio and Git with ASP.NET Core
-      href: /azure/app-service/deploy-continuous-deployment
+      href: /azure/app-service/deploy-continuous-deployment?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
     - name: Continuous deployment to Azure with Azure Pipelines
-      href: /azure/devops/pipelines/get-started-yaml?view=vsts&preserve-view=true
+      href: /azure/devops/pipelines/get-started-yaml?view=vsts&preserve-view=true&toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
 - name: How to
   items:
   - name: Get publish profile from Azure App Service
