@@ -14,7 +14,7 @@ ms.workload: "unreal"
 
 # Visual Studio Tools for Unreal Engine
 
-![Screenshot of a computer, game controller, and icons for game play.](../media/hero.png)
+![Screenshot of a computer, game controller, and icons for game play.](../unity/media/hero.png)
 
 ## Overview
 

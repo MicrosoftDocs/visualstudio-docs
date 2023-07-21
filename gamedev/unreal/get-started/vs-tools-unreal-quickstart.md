@@ -24,8 +24,9 @@ See [Visual Studio Tools for Unreal Engine](./vs-tools-unreal-overview.md) for a
 
 The following must be installed:
 
-    - Visual Studio version 17.7 or higher
-    - UnReal Engine version 5 or higher.
+- Visual Studio version 17.7 or higher
+- UnReal Engine version 5 or higher.
+- Visual Studio Tools for Unreal Engine. See [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) for instructions on how to install it.
 
 ## Download and build the Lyra game sample in Visual Studio
 
@@ -53,7 +54,7 @@ Once you have downloaded the game sample, update `LyraStarterGame.uproject` to u
 1. From the Visual Studio main menu, choose **Build** > **Build Solution** to build the game solution.
 1. Change the **Solutions Configurations** dropdown to **Development editor**. This step enables the Blueprints Visual Studio Tools for Unreal Engine.
 
-:::image type="content" source="../media/ue-config.png" alt-text="Screenshot of Visual Studio with the Solutions Configurations dropdown expanded and Development Editor selected.":::
+:::image type="content" source="../media/ue-config-dropdown.png" alt-text="Screenshot of Visual Studio with the Solutions Configurations dropdown expanded and Development Editor selected.":::
 
 1. In Visual Studio, open `LyraCharacter.h`. You can either search for that file in the Search pane of the **Solution Explorer**, or find it under **Games** > **LyraStarterGame** > **Source** > **LyraGame** > **AbilitySystem** > **Abilities** > **LyraGameplayAbility.h**
 
