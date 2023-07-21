@@ -1,7 +1,7 @@
 ---
 title: "Reduce compute costs using profiling tools"
 description: "Learn how to optimize code using Visual Studio profiling tools such as the CPU Usage tool, Database tool, and the .NET Object Allocation tool."
-ms.date: 05/09/2023
+ms.date: 07/21/2023
 ms.topic: conceptual
 dev_langs:
   - "CSharp"
@@ -20,7 +20,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Reducing your compute time means reducing costs, so optimizing your code can save money. The CPU Usage tool can help you capture and visualize where compute resources are used in your application. The CPU Usage views such as the call tree and flame chart provide a nice graphical visualization of where time is spent in your app. In addition, auto insights may show precise optimizations that can have a large impact. Other profiling tools may also be used to give additional insights about what's happening with your app's performance.
+Reducing your compute time means reducing costs, so optimizing your code can save money. In this article, we also show how you can use various profiling tools, including CPU Usage, NET Object Allocation, and the Database tool, to help you accomplish this task.The CPU Usage tool can help you capture and visualize where compute resources are used in your application. The CPU Usage views such as the call tree and flame chart provide a nice graphical visualization of where time is spent in your app. In addition, auto insights may show precise optimizations that can have a large impact. Other tools can help you isolate issues.
 
 ## Start an investigation
 
