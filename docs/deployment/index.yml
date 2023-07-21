@@ -108,6 +108,6 @@ landingContent:
           - text: Azure Functions >>
             url: /azure/azure-functions/functions-create-your-first-function-visual-studio?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
           - text: Deploy with GitHub Actions >>
-            url: /visualstudio/azure/azure-deployment-using-github-actions.md
+            url: /visualstudio/azure/azure-deployment-using-github-actions
           - text: Deploy Entity Framework Core app with GitHub Actions >>
-            url: /visualstudio/azure/end-to-end-deployment-entity-framework-core-github-actions.md
+            url: /visualstudio/azure/end-to-end-deployment-entity-framework-core-github-actions
