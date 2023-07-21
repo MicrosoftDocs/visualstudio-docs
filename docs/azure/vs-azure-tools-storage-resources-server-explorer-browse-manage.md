@@ -6,8 +6,9 @@ manager: jmartens
 ms.technology: vs-azure
 ms.workload: azure-vs
 ms.topic: conceptual
-ms.date: 8/24/2017
+ms.date: 07/14/2023
 ms.author: ghogen
+monikerRange: "<=vs-2019"
 ---
 # Browse and manage storage resources by using Server Explorer
 
@@ -17,17 +18,11 @@ ms.author: ghogen
 
 ## Overview
 
-:::moniker range="<=vs-2019"
-
-If you've installed Azure Tools for Microsoft Visual Studio, you can view blob, queue, and table data from your storage accounts for Azure. The Azure **Storage** node in Server Explorer shows data that’s in your local storage emulator account and your other Azure storage accounts.
+If you've installed Azure workload for Microsoft Visual Studio 2019, you can view blob, queue, and table data from your storage accounts for Azure. The Azure **Storage** node in Server Explorer shows data that’s in your local storage emulator account and your other Azure storage accounts.
 
 To view Server Explorer in Visual Studio, on the menu bar, select **View** > **Server Explorer**. The **Storage** node shows all of the storage accounts that exist under each Azure subscription or certificate that you're connected to. If your storage account doesn't appear, you can add it by following the instructions [later in this article](#add-storage-accounts-by-using-server-explorer).
 
 Starting in Azure SDK 2.7, you can also use Cloud Explorer to view and manage your Azure resources. For more information, see [Managing Azure resources with Cloud Explorer](vs-azure-tools-resources-managing-with-cloud-explorer.md).
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
 
 > [!IMPORTANT]
 > Cloud Explorer has been retired in Visual Studio 2022. Instead, you can use the following alternatives:
@@ -41,8 +36,6 @@ Starting in Azure SDK 2.7, you can also use Cloud Explorer to view and manage yo
 > If needed, you can use the Azure Portal or continue to use the Azure node of Server Explorer in previous versions of Visual Studio.
 >
 > For more information about Visual Studio 2022, see our [release notes](/visualstudio/releases/2022/release-notes/).
-
-::: moniker-end
 
 ## View and manage storage resources in Visual Studio
 

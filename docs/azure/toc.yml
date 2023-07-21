@@ -125,6 +125,14 @@
       href: /azure/vs-azure-tools-storage-explorer-relnotes?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
     - name: Storage Explorer accessibility
       href: /azure/vs-azure-tools-storage-explorer-accessibility?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
+  - name: Cloud Explorer
+    items:
+    - name: Browse and manage storage resources by using Server Explorer
+      href: vs-azure-tools-storage-resources-server-explorer-browse-manage.md
+    - name: Manage the resources associated with your Azure accounts in Cloud Explorer
+      href: vs-azure-tools-resources-managing-with-cloud-explorer.md
+    - name: Access Azure virtual machines from Server Explorer
+      href: vs-azure-tools-virtual-machines-access-from-server-explorer.md
   expanded: false
 - name: Work with Azure Active Directory
   items:
@@ -138,11 +146,3 @@
     href: vs-active-directory-webapi-what-happened.md
   - name: Diagnose errors during authentication
     href: vs-active-directory-error.md
-- name: Cloud Explorer
-  items:
-  - name: Browse and manage storage resources by using Server Explorer
-    href: vs-azure-tools-storage-resources-server-explorer-browse-manage.md
-  - name: Manage the resources associated with your Azure accounts in Cloud Explorer
-    href: vs-azure-tools-resources-managing-with-cloud-explorer.md
-  - name: Access Azure virtual machines from Server Explorer
-    href: vs-azure-tools-virtual-machines-access-from-server-explorer.md

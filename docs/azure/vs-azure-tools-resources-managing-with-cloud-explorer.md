@@ -8,12 +8,12 @@ ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 01/22/2022
 ms.author: ghogen
+monikerRange: "<=vs-2019"
 ---
 # Manage the resources associated with your Azure accounts in Visual Studio Cloud Explorer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-::: moniker range=">=vs-2022"
 > [!Important]
 > Cloud Explorer has been retired in Visual Studio 2022. Instead, you can use the following alternatives:
 > - To debug Azure App Services or Azure Function apps, you can use the Connected Services or the Publish features available on all projects. 
@@ -25,10 +25,6 @@ ms.author: ghogen
 > If needed, you can use the Azure Portal or continue to use the Azure node of Server Explorer in previous versions of Visual Studio.
 >
 > For more information about Visual Studio 2022, see our [release notes](/visualstudio/releases/2022/release-notes/).
-
-::: moniker-end
-
-::: moniker range="<=vs-2019"
 
 Cloud Explorer enables you to view your Azure resources and resource groups, inspect their properties, and perform key developer diagnostics actions from within Visual Studio.
 
@@ -119,4 +115,3 @@ To locate resources with a specific name in your Azure account subscriptions, en
 
 As you enter characters in the **Search** box, only resources that match those characters appear in the resource tree.
 
-::: moniker-end
