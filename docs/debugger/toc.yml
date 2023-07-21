@@ -586,16 +586,10 @@
           href: debugging-web-applications-errors-and-troubleshooting.md
         - name: Verify IIS property settings
           href: how-to-verify-iis-property-settings.md
-        - name: Site uses IP address
-          href: error-site-uses-ip-address.md
-        - name: A security check failed because the IIS Admin service did not respond
-          href: error-a-security-check-failed-because-the-iis-admin-service-did-not-respond.md
         - name: ASP.NET not installed
           href: error-aspnet-not-installed.md
         - name: Debugging failed because integrated Windows authentication is not enabled
           href: error-debugging-failed-because-integrated-windows-authentication-is-not-enabled.md
-        - name: The Web server has been locked down and is blocking the DEBUG verb
-          href: error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb.md
         - name: Timeout while debugging Web services
           href: error-timeout-while-debugging-web-services.md
         - name: Unable to start debugging
