@@ -2,7 +2,7 @@
 title: "Debugging web apps -  errors and troubleshooting"
 description: Find links to reference pages to help debug web applications, such as a troubleshooting page and pages that describe each error that you may encounter.
 
-ms.date: "11/04/2016"
+ms.date: "07/21/2023"
 ms.topic: "reference"
 dev_langs:
   - "CSharp"
@@ -33,26 +33,48 @@ ms.workload:
 # Debugging Web Applications: Errors and Troubleshooting
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+For help to set properties for a web application using the IIS administration tool, see [Verify IIS property settings](../debugger/how-to-verify-iis-property-settings.md).
+
 You may encounter the following errors when attempting to debug Web applications.
 
-- [Troubleshooting](../debugger/debugging-web-applications-troubleshooting.md)
+## Error: Site Uses IP Address
 
-- [Error: Site Uses IP Address](../debugger/error-site-uses-ip-address.md)
+- For more information, see [Error: Site Uses IP Address](../debugger/error-site-uses-ip-address.md)
 
-- [Error: A Security Check Failed Because the IIS Admin Service Did Not Respond](../debugger/error-a-security-check-failed-because-the-iis-admin-service-did-not-respond.md)
+## Error: A Security Check Failed Because the IIS Admin Service Did Not Respond
 
-- [Error: ASP.NET Not Installed](../debugger/error-aspnet-not-installed.md)
+- For more information, see [Error: A Security Check Failed Because the IIS Admin Service Did Not Respond](../debugger/error-a-security-check-failed-because-the-iis-admin-service-did-not-respond.md)
 
-- [Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled](../debugger/error-debugging-failed-because-integrated-windows-authentication-is-not-enabled.md)
+## Error: ASP.NET Not Installed
 
-- [Error: The web server is not configured correctly](../debugger/error-the-web-server-is-not-configured-correctly.md)
+- For more information, see [Error: ASP.NET Not Installed](../debugger/error-aspnet-not-installed.md)
 
-- [Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb](../debugger/error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb.md)
+## Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled
 
-- [Error: Timeout While Debugging Web Services](../debugger/error-timeout-while-debugging-web-services.md)
+- For more information, see [Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled](../debugger/error-debugging-failed-because-integrated-windows-authentication-is-not-enabled.md)
 
-- [Error: Unable to Start Debugging on the Web Server](../debugger/error-unable-to-start-debugging-on-the-web-server.md)
+## Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb
+
+- For more information, see [Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb](../debugger/error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb.md)
+
+## Error: Timeout While Debugging Web Services
+
+- For more information, see [Error: Timeout While Debugging Web Services](../debugger/error-timeout-while-debugging-web-services.md)
+
+## Error: Timeout While Debugging Web Services
+
+- For more information, see [Error: Unable to Start Debugging on the Web Server](../debugger/error-unable-to-start-debugging-on-the-web-server.md)
+
+## Error: The Web Server Could Not Find the Requested Resource
+
+- For more information, see [Error: The Web Server Could Not Find the Requested Resource](../debugger/error-the-web-server-could-not-find-the-requested-resource.md)
+
+## Error: The web server is not configured correctly
+
+- For more information, see [Error: The web server is not configured correctly](../debugger/error-the-web-server-is-not-configured-correctly.md)
 
 ## See also
+
 - [Debugger Security](../debugger/debugger-security.md)
 - [Debugging Web Applications and Script](how-to-enable-debugging-for-aspnet-applications.md)
