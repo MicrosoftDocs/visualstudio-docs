@@ -1,7 +1,7 @@
 ---
 title: Debug ASP.NET Exceptions | Microsoft Docs
 description: Learn to configure so that the debugger stops for unhandled exceptions in your ASP.NET application. You can assure that the break occurs in non-system code.
-ms.date: 11/04/2016
+ms.date: 07/21/2023
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -25,21 +25,23 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Debugging exceptions is an important part of developing a robust [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] application. General information about how to debug exceptions is at [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md).
 
- To debug unhandled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] exceptions, you must make sure that the debugger stops for them. The [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] runtime has a top-level exception handler. Therefore, the debugger never breaks on unhandled exceptions by default. To break into the debugger when an exception is thrown, you must select **Break when an exception is: Thrown** setting for that specific exception in the **Exceptions** dialog box.
+ To debug unhandled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] exceptions, you must make sure that the debugger stops for them. The [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] runtime has a top-level exception handler. Therefore, the debugger never breaks on unhandled exceptions by default. To break into the debugger when an exception is thrown, you must select **Break when Thrown** setting for that specific exception in the **Exceptions** dialog box.
 
- If you have enabled Just My Code, **Break when an exception is: Thrown** does not cause the debugger to break immediately if an exception is thrown in a .NET method or other system code. Instead, execution continues until the debugger hits non-system code, then it breaks. As a result, you do not have to step through the system code when an exception occurs.
+ If you have enabled Just My Code, **Break when Thrown** does not cause the debugger to break immediately if an exception is thrown in a .NET method or other system code. Instead, execution continues until the debugger hits non-system code, then it breaks. As a result, you do not have to step through the system code when an exception occurs.
 
- Just My Code gives you another option that can be even more useful: **Break when an exception is: User-unhandled**. If you choose this setting for an exception, the debugger will break execution in user code, but only if the exception is not caught and handled by the user code. This setting negates the effect of the top-level [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] exception handler, because that handler is in non-user code.
+ Just My Code gives you another option that can be useful: **Continue When Unhandled in User Code**. If you disable this setting for an exception, the debugger will break execution in user code, but only if the exception is not caught and handled by the user code. This setting negates the effect of the top-level [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] exception handler, because that handler is in non-user code.
 
 ### To enable debugging of ASP.NET exceptions with Just My Code
 
-1. On the **Debug** menu, click **Exceptions**.
+1. On the **Debug** menu, click **Windows** > **Exception settings**.
 
      The **Exceptions** dialog box appears.
 
-2. On the **Common Language Runtime Exceptions** row, select **Thrown** or **User-unhandled**.
+1. Under **Common Language Runtime Exceptions**, select the row for the exception that you want to break when it is thrown.
 
-     To use the **User-unhandled** setting, **Just My Code** must be enabled..
+1. If you want to disable **Continue When Unhandled in User Code**, right-click the row and deselect the option, if it is already selected.
+
+     To use the **User-unhandled** setting, **Just My Code** must be enabled.
 
 ### To use best practices for ASP.NET exception handling
 
