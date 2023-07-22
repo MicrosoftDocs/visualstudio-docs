@@ -80,11 +80,10 @@ The error you are most likely to see for a type resolution issue is **Code could
 
 - Ensure that the type is in the correct scope so that Class Designer can locate it. Make sure that the code is not missing a `using`, `imports`, or `#include` statement. Also make sure that you have not moved the type (or a related type) out of the namespace in which it was originally located.
 
-### Troubleshoot other error messages
+> [!TIP]
+> For additional troubleshooting information, see [Class Designer errors](/troubleshoot/developer/visualstudio/ide/troubleshoot-class-designer-errors).
 
-You can find assistance with troubleshooting errors and warnings in the Microsoft Developer Network (MSDN) public forums. See the [Visual Studio Class Designer Forum](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsclassdesigner).
-
-## Limitations for C++ code elements
+## Learn about limitations for C++ code elements
 
 - When a C++ project is loaded, **Class Designer** functions in a read-only manner. You can change the class diagram, but you cannot save changes from the class diagram back to the source code.
 
@@ -108,9 +107,4 @@ You can find assistance with troubleshooting errors and warnings in the Microsof
 
 ## See also
 
-- [Designing and Viewing Classes and Types](designing-and-viewing-classes-and-types.md)
-- [Additional Information About Class Designer Errors](additional-information-about-errors.md)
-- [C++ Classes in Class Designer](visual-cpp-classes.md)
-- [C++ Structures in Class Designer](visual-cpp-structures.md)
-- [C++ Enumerations in Class Designer](visual-cpp-enumerations.md)
-- [C++ Typedefs in Class Designer](visual-cpp-typedefs.md)
+- [Design and view classes and types](designing-and-viewing-classes-and-types.md) 
