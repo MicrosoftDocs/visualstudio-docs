@@ -64,7 +64,7 @@ Rule-based UI Context can be used in various ways:
    <CommandFlag>DynamicVisibility</CommandFlag>
    ```
 
-3. In the Visibilities section of the VSCT, tie the appropriate commands to the new UIContext GUID defined in #1:
+3. In the VisibilityConstraints section of the VSCT, tie the appropriate commands to the new UIContext GUID defined in #1:
 
    ```xml
    <VisibilityConstraints>
