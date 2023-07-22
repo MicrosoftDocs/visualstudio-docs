@@ -300,7 +300,7 @@ You can resize a comment shape but you cannot change other aspects of its appear
 
 You can use the keyboard in addition to the mouse to perform navigational actions in **Class Designer** and in the **Class Details** window.
 
-## Use the mouse in Class Designer
+### Use the mouse in Class Designer
 
 The following mouse actions are supported in class diagrams:
 
@@ -314,7 +314,7 @@ The following mouse actions are supported in class diagrams:
 |**Ctrl** + Mouse Wheel|Class diagram|Zoom.|
 |**Ctrl**+**Shift** + click|Class diagram|Zoom.|
 
-## Use the mouse in the Class Details window
+### Use the mouse in the Class Details window
 
 Using a mouse, you can change the appearance of the **Class Details** window and the data it displays in the following ways:
 
@@ -328,7 +328,7 @@ Using a mouse, you can change the appearance of the **Class Details** window and
 
 - The **Class Details** window offers several buttons for creating new members in the current class and for navigating among the members' compartments in the **Class Details** window grid.
 
-## Use the keyboard in Class Designer
+### Use the keyboard in Class Designer
 
 The following keyboard actions are supported in class diagrams:
 
@@ -356,10 +356,10 @@ The following keyboard actions are supported in class diagrams:
 |**Shift**+**Tab**|All contexts|Navigates to previous child within the same parent (supports wrapping).|
 |**Spacebar**|All contexts|Toggles selection on the current element.|
 
-## Use the keyboard in the Class Details window
+### Use the keyboard in the Class Details window
 
 > [!NOTE]
-> The following key bindings were chosen to specifically to mimic the experience of typing code.
+> The following key bindings mimic the experience of typing code.
 
 Use the following keys to navigate the **Class Details** window:
 
