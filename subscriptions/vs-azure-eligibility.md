@@ -31,7 +31,7 @@ To get started using the Azure Dev/Test credits included in your subscription, v
 | Visual Studio Enterprise - Microsoft Cloud Partner Program | $150 monthly credit | Yes |
 | Visual Studio Professional - Microsoft Cloud Partner Program | Not available | |
 | Visual Studio Enterprise – Azure Dev Tools for Teaching | Not available | |
-| Visual Studio Enterprise – Microsoft for Startups | $150 monthly credit | Yes |
+| Visual Studio Enterprise – Microsoft for Startups | Not available | |
 | Visual Studio Enterprise – MCT Software & Services | $100 monthly credit | Yes |
 | Visual Studio Enterprise – MCT Software & Services Developer | $150 monthly credit | Yes |
 
