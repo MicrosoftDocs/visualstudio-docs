@@ -1,8 +1,11 @@
 - name: Azure Development with Visual Studio
   href: index.yml
   expanded: true
-- name: Overview of Azure Deployment
-  href: overview-azure-integration.md
+- name: Overview
+  expanded: true
+  items:
+  - name: Publish to Azure
+    href: overview-azure-integration.md
 - name: Connect to Azure services
   items:
   - name: Connected Services overview
@@ -47,9 +50,9 @@
       href: overview-github-actions.md
     - name: Deploy to Azure using GitHub Actions
       href: azure-deployment-using-github-actions.md
-  - name: Continuous deployment to Azure with Visual Studio and Git with ASP.NET Core
+  - name: ASP.NET Core and Git >>
     href: /azure/app-service/deploy-continuous-deployment
-  - name: Continuous deployment to Azure with Azure Pipelines
+  - name: Azure Pipelines >>
     href: /azure/devops/pipelines/get-started-yaml?view=vsts&preserve-view=true
 - name: Azure Cloud Services development
   items:
