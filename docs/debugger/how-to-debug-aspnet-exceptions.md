@@ -27,9 +27,9 @@ Debugging exceptions is an important part of developing a robust [!INCLUDE[vstec
 
  To debug unhandled [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] exceptions, you must make sure that the debugger stops for them. The [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] runtime has a top-level exception handler. Therefore, the debugger never breaks on unhandled exceptions by default. To break into the debugger when an exception is thrown, you must select **Break when Thrown** setting for that specific exception in the **Exceptions** dialog box.
 
- If you have enabled Just My Code, **Break when Thrown** does not cause the debugger to break immediately if an exception is thrown in a .NET method or other system code. Instead, execution continues until the debugger hits non-system code, then it breaks. As a result, you do not have to step through the system code when an exception occurs.
+ If you have enabled Just My Code, **Break when Thrown** doesn't cause the debugger to break immediately if an exception is thrown in a .NET method or other system code. Instead, execution continues until the debugger hits non-system code, then it breaks. As a result, you don't have to step through the system code when an exception occurs.
 
- Just My Code gives you another option that can be useful: **Continue When Unhandled in User Code**. If you disable this setting for an exception, the debugger will break execution in user code, but only if the exception is not caught and handled by the user code. This setting negates the effect of the top-level [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] exception handler, because that handler is in non-user code.
+ Just My Code gives you another option that can be useful: **Continue When Unhandled in User Code**. If you disable this setting for an exception, the debugger will break execution in user code, but only if the exception isn't caught and handled by the user code. This setting negates the effect of the top-level [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] exception handler, because that handler is in non-user code.
 
 ### To enable debugging of ASP.NET exceptions with Just My Code
 
@@ -37,9 +37,9 @@ Debugging exceptions is an important part of developing a robust [!INCLUDE[vstec
 
      The **Exceptions** dialog box appears.
 
-1. Under **Common Language Runtime Exceptions**, select the row for the exception that you want to break when it is thrown.
+1. Under **Common Language Runtime Exceptions**, select the row for the exception that you want to break when it's thrown.
 
-1. If you want to disable **Continue When Unhandled in User Code**, right-click the row and deselect the option, if it is already selected.
+1. If you want to disable **Continue When Unhandled in User Code**, right-click the row and deselect the option, if it's already selected.
 
      To use the **User-unhandled** setting, **Just My Code** must be enabled.
 

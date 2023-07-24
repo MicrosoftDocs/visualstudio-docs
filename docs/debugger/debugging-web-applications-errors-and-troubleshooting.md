@@ -40,25 +40,25 @@ You may encounter the following errors when attempting to debug Web applications
 
 ## Site Uses IP Address
 
-This error occurs when the debugger tries to auto-attach to a Web application that is using an IP address. This occurs if you change Web site identification to use specific IP address in IIS.
+This error occurs when the debugger tries to auto-attach to a Web application that is using an IP address. This issue occurs if you change Web site identification to use specific IP address in IIS.
 
 For more information, see [Error: Site Uses IP Address](/previous-versions/visualstudio/visual-studio-2017/debugger/error-site-uses-ip-address)
 
 ## A Security Check Failed Because the IIS Admin Service Did Not Respond
 
-This error occurs when the IIS Admin Service does not respond. This usually indicates that there is a problem with the IIS installation. First, verify that the service is running using the Services tool from Administrative Tools.
+This error occurs when the IIS Admin Service doesn't respond. This result usually indicates that there's a problem with the IIS installation. First, verify that the service is running using the Services tool from Administrative Tools.
 
 For more information, see [Error: A Security Check Failed Because the IIS Admin Service Did Not Respond](/previous-versions/visualstudio/visual-studio-2017/debugger/error-a-security-check-failed-because-the-iis-admin-service-did-not-respond).
 
 ## ASP.NET Not Installed
 
-This error occurs when ASP.NET is not installed correctly on the computer that you are trying to debug. This might mean that ASP.NET was never installed or that ASP.NET was installed first and IIS was installed later.
+This error occurs when ASP.NET isn't installed correctly on the computer that you are trying to debug. This result might mean that ASP.NET was never installed or that ASP.NET was installed first and IIS was installed later.
 
 For more information, see [Error: ASP.NET Not Installed](../debugger/error-aspnet-not-installed.md).
 
 ## Debugging Failed Because Integrated Windows Authentication Is Not Enabled
 
-Authentication of the user who requested debugging was prevented by an authentication error. This can occur when you try to step into a Web application or an XML Web service. One cause of this error is that integrated Windows authentication is not enabled. To enable it, follow the steps in "To enable integrated Windows authentication."
+Authentication of the user who requested debugging was prevented by an authentication error. This error can occur when you try to step into a Web application or an XML Web service. One cause of this error is that integrated Windows authentication isn't enabled. To enable it, follow the steps in "To enable integrated Windows authentication."
 
 For more information, see [Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled](../debugger/error-debugging-failed-because-integrated-windows-authentication-is-not-enabled.md).
 
@@ -86,11 +86,11 @@ Due to security considerations, IIS has returned a generic error.
 
 For more information, see [Error: The Web Server Could Not Find the Requested Resource](../debugger/error-the-web-server-could-not-find-the-requested-resource.md).
 
-## The web server is not configured correctly
+## The Web Server Is Not Configured Correctly
 
 An IIS configuration issue may result in this error.
 
-For more information, see [Error: The web server is not configured correctly](../debugger/error-the-web-server-is-not-configured-correctly.md).
+For more information, see [Error: The web server isn't configured correctly](../debugger/error-the-web-server-is-not-configured-correctly.md).
 
 ## See also
 
