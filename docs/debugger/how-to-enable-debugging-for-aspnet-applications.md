@@ -75,7 +75,7 @@ IIS Express is the default, and is preconfigured. If you're debugging on Local I
 ::: moniker range=">=vs-2022"
 ## Debug ASP.NET Core apps
 
-IIS Express is the default, and is preconfigured. If you're debugging on local IIS instead of IIS Express, make sure you meet the [requirements for local IIS debugging](#prerequisites-for-local-IIS-server). A default profile based on the project name is also present, which is configured for the Kestrel web server.
+IIS Express is the default, and is preconfigured. If you're debugging on local IIS instead of IIS Express, make sure you meet the [prerequisites for local IIS debugging](#prerequisites-for-local-iis-server). A default profile based on the project name is also present, which is configured for the Kestrel web server.
 
 1. Select the ASP.NET Core project in Visual Studio **Solution Explorer** and click the **Properties** icon, or press **Alt**+**Enter**, or right-click and choose **Properties**.
 
