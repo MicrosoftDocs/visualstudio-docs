@@ -4,12 +4,12 @@
 - name: Overview
   expanded: true
   items:
+  - name: Connected Services
+    href: overview-connected-services.md
   - name: Publish to Azure
     href: overview-azure-integration.md
 - name: Connect to Azure services
   items:
-  - name: Connected Services overview
-    href: overview-connected-services.md
   - name: Add Azure Active Directory (Azure AD)
     href: vs-active-directory-add-connected-service.md
   - name: Add Azure App Insights
