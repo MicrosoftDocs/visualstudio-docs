@@ -52,7 +52,7 @@ When Visual Studio completes the installation process, you're ready to set up Un
 
 Install the Unreal Engine Visual Studio Integration Tool plugin via the [Unreal Engine Marketplace](https://aka.ms/VSUEMarketplace). It allows you to see Blueprints assets in Visual Studio. The Marketplace provides instructions for installing the plugin.
 
-   :::image type="content" source="./media/ue-marketplace.png" alt-text="Screenshot of the Unreal Engine Marketplace with the Visual Studio Integration Tool plugin.":::
+   :::image type="content" source="../media/ue-marketplace.png" alt-text="Screenshot of the Unreal Engine Marketplace with the Visual Studio Integration Tool plugin.":::
 
 If your project isn't compatible with Unreal Engine Marketplace plugins, install the plugin manually by cloning and installing the plugin from the [GitHub vc-ue-extensions repo](https://aka.ms/VSUEGitHub). See the [README](https://github.com/microsoft/vc-ue-extensions#unreal-engine-plugin-for-visual-studio) in the repo for instructions to install the plugin.
 
@@ -66,11 +66,11 @@ We recommend that you keep Visual Studio updated for the latest bug fixes, featu
 
 1. From the Visual Studio main menu, select **Help** > **Check for Updates**.
 
-   :::image type="content" source="../../media/vs/check-for-updates.png" alt-text="Screenshot of the Check for Updates menu in Visual Studio Help menu.":::
+   :::image type="content" source="../../unity/media/vs/check-for-updates.png" alt-text="Screenshot of the Check for Updates menu in Visual Studio Help menu.":::
 
 1. If an update is available, the Visual Studio Installer shows a new version. Select **Update**.
 
-   :::image type="content" source="../../media/vs/click-to-update.png" alt-text="Screenshot of Visual Studio Installer with the Updates.":::
+   :::image type="content" source="../../unity/media/vs/click-to-update.png" alt-text="Screenshot of Visual Studio Installer with the Updates.":::
 
 ## Next steps
 
