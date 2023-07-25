@@ -2,7 +2,7 @@
 metadata:
   title: Live Unit Testing FAQ
   description: Review these Live Unit Testing frequently asked questions, including supported frameworks, configuration, and customization.
-  ms.date: 10/03/2017
+  ms.date: 07/25/2023
   ms.topic: faq
   helpviewer_keywords:
   - Live Unit Testing FAQ
@@ -253,7 +253,18 @@ sections:
           - Set the `LiveUnitTesting_TestPlatformLog` user environment variable to `1` to capture the Test Platform log. Detailed Test Platform log messages from Live Unit Testing runs can then be retrieved from `[Solution Root]\.vs\[Solution Name]\log\[VisualStudio Process ID]`.
           
           - Create a user-level environment variable named `VS_UTE_DIAGNOSTICS` and set it to 1 (or any value) and restart Visual Studio. Now you should see lots of logging in the **Output - Tests** tab in Visual Studio.
+
+  - name: Dev drives
+    questions:
+      - question: |
+          Does live unit testing support Dev Drive for the default workspace root?
+        answer: |
+          Yes, but you need to make sure it's enabled. If you are using a Dev Drive, make sure that the [projected file system (ProjFS)](/windows/dev-drive/#filters-for-common-scenarios) filter is enabled. For example, the following command enables ProjFS and Windows Defender:
           
+          ```cmd
+          fsutil devdrv setfiltersallowed PrjFlt, WdFilter
+          ```
+
 additionalContent: |
 
   ## See also
