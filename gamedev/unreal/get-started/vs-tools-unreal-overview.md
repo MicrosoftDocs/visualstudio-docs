@@ -45,4 +45,4 @@ Unreal Engine version 5.0 or higher.
 [Install Visual Studio Tools For Unreal Engine](vs-tools-unreal-install.md)\
 [Quickstart: Visual Studio Tools for Unreal Engine](vs-tools-unreal-quickstart.md)\
 [Overview of Unreal Engine](https://www.unrealengine.com/en-US/features)\
-[Get started with Unreal Engine](https://docs.unrealengine.com/4.27/en-US/Basics/GettingStarted/)\
+[Get started with Unreal Engine](https://docs.unrealengine.com/4.27/en-US/Basics/GettingStarted/)

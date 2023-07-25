@@ -52,13 +52,13 @@ Once you have downloaded the game sample, update `LyraStarterGame.uproject` to u
 1. From the Unreal Engine editor main menu, choose **Tools** > **Refresh Visual Studio Project**. This creates/refreshes the solution file for Visual Studio.
 1. From the Unreal Engine editor main menu, choose **File** > **Open Visual Studio**. This opens the game in Visual Studio. If you have multiple versions of Visual Studio on your machine, ensure that the right version opened. From the Visual Studio main menu, choose **Help** > **About Microsoft Visual Studio**. You need to use Visual Studio 2022 version 17.7 or higher. If the right version didn't open, manually open `LyraStarterGame.sln` in the correct version of Visual Studio.
 1. From the Visual Studio main menu, choose **Build** > **Build Solution** to build the game solution.
-1. Change the **Solutions Configurations** dropdown to **Development editor**. This enables the Blueprints Visual Studio Tools for Unreal Engine.
+1. Change the **Solutions Configurations** dropdown to **Development Editor**. This enables the Blueprints Visual Studio Tools for Unreal Engine.
 
 :::image type="content" source="../media/ue-config-dropdown.png" alt-text="Screenshot of Visual Studio with the Solutions Configurations dropdown expanded and Development Editor selected.":::
 
-1. In Visual Studio, open `LyraCharacter.h`. Search for that file in the Search pane of the **Solution Explorer**, or find it under **Games** > **LyraStarterGame** > **Source** > **LyraGame** > **AbilitySystem** > **Abilities** > **LyraGameplayAbility.h**
-
 ## View Blueprints
+
+1. In Visual Studio, open `LyraCharacter.h`. Search for that file in the Search pane of the **Solution Explorer**, or find it under **Games** > **LyraStarterGame** > **Source** > **LyraGame** > **AbilitySystem** > **Abilities** > **LyraGameplayAbility.h**
 
 In `LyraCharacter.h`, go to line 96. You should see the following code:
 
@@ -74,3 +74,16 @@ To view the properties of the `Character_Default_C` Blueprint, double-click it. 
 
 :::image type="content" source="../media/vs-blueprints-asset-viewer.png" alt-text="Screenshot of the Character_Default_C Blueprint asset viewer. It shows properties such as Actor, Camera, Character, Collision, and so on. ":::
 
+## View UE logging
+
+1. In Visual Studio, open `LyraGameplayAbility_RangedWeapon.cpp`. Search for that file in the Search pane of the **Solution Explorer**, or find it under **Games** > **LyraStarterGame** > **Source** > **LyraGame** > **Weapons** > **LyraGameplayAbility_RangedWeapon.cpp**
+
+In `LyraGameplayAbility_RangedWeapon.cpp`, go to line 477. You should see the following function: `void ULyraGameplayAbility_RangedWeapon::OnTargetDataReadyCallback`
+
+1. Create a new line at the beginning of the function and add `UE_LOG(LogLyra, Log, TEXT("shot fired"));`
+1. Run the sample game in Visual Studio: choose **Debug** > **Start Debugging**. The Unreal Editor will open with the Lyra game.
+1. In Visual Studio, open the UE logging window: from the Visual Studio main menu, choose **View** > **Other Windows** > **Unreal Engine Log**.
+1. Reduce the log noise by filtering the log to only show the `LogLyra` category. In the UE logging window, choose the **Categories** dropdown. Clear all of the log sources by choosing **(Select All)** at the top of the list, and then select **LogLyra**.
+1. In the Unreal Editor, choose the Play button on the toolbar (or Alt+P) to start the game.
+1. In the Lyra game, use the w,a,s,d keys to navigate to **Shooter Gym**. It will take a little bit to load.
+1.  
