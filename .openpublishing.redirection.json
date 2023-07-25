@@ -17918,6 +17918,11 @@
       "source_path": "subscriptions/vs-microsoft-tech-community.md",
       "redirect_url": "/visualstudio/subscriptions/vs-community-support-options",
       "redirect_document_id": false
-    }
+    },
+    {
+      "source_path": "subscriptions/account-removed.md",
+      "redirect_url": "/visualstudio/subscriptions/subscription-removed",
+      "redirect_document_id": false
+    }   
   ]
 }
