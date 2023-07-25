@@ -70,7 +70,7 @@ If a class diagram does not update with changes you have made in the code, you m
 
 - The type is located in a library referenced by an #import directive. A possible workaround is to manually add the generated code (the .tlh file) to an #include directive into the header file.
 
-- Ensure that **Class Designer** supports the type that you entered. See [Limitations for C++ Code Elements](#limitations-for-c-code-elements).
+- Ensure that **Class Designer** supports the type that you entered. See [Limitations for C++ code elements](#learn-about-limitations-for-c-code-elements).
 
 The error you are most likely to see for a type resolution issue is **Code could not be found for one or more shapes in class diagram '\<element>'**. This error message does not necessarily indicate that your code is in error. It indicates only that class designer was unable to display your code. Try the following measures:
 
