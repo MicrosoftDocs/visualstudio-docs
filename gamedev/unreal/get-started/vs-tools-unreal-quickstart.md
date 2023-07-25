@@ -80,10 +80,16 @@ To view the properties of the `Character_Default_C` Blueprint, double-click it. 
 
 In `LyraGameplayAbility_RangedWeapon.cpp`, go to line 477. You should see the following function: `void ULyraGameplayAbility_RangedWeapon::OnTargetDataReadyCallback`
 
-1. Create a new line at the beginning of the function and add `UE_LOG(LogLyra, Log, TEXT("shot fired"));`
-1. Run the sample game in Visual Studio: choose **Debug** > **Start Debugging**. The Unreal Editor will open with the Lyra game.
-1. In Visual Studio, open the UE logging window: from the Visual Studio main menu, choose **View** > **Other Windows** > **Unreal Engine Log**.
-1. Reduce the log noise by filtering the log to only show the `LogLyra` category. In the UE logging window, choose the **Categories** dropdown. Clear all of the log sources by choosing **(Select All)** at the top of the list, and then select **LogLyra**.
+1. Create a new line at the beginning of the function and insert `UE_LOG(LogLyra, Log, TEXT("shot fired"));`
+1. Run the sample game in Visual Studio: choose **Debug** > **Start Debugging**. The Unreal Editor will open with the Lyra game. Give it a few moments to load.
+1. In Visual Studio, open the UE logging window. From the Visual Studio main menu, choose **View** > **Other Windows** > **Unreal Engine Log**.
+1. Reduce the log noise by filtering the log to only show the `LogLyra` category. In the UE logging window, choose the **Categories** dropdown. Clear all of the log sources by choosing **(Select All)** at the top of the list. Then select **LogLyra**.
 1. In the Unreal Editor, choose the Play button on the toolbar (or Alt+P) to start the game.
-1. In the Lyra game, use the w,a,s,d keys to navigate to **Shooter Gym**. It will take a little bit to load.
-1.  
+1. In the Lyra game, use the w,a,s,d keys to navigate the player to the left to **Elimination**. It will take a while to load.
+1. In the Lyra game, click with your mouse to fire. In the UE logging window, you should see the following log message: `shot fired`.
+
+:::image type="content" source="../media/vs-ue-log.png" alt-text="A screenshot of the Unreal Engine Log in Visual Studio. It shows several 'shot fired' events that are prefaced by a timestamp and the text 'LogLyra' since that's that category the events were logged as."::: 
+
+The events will be at the bottom of the log so you may have to scroll down to see it.  If you find the font color hard to read, you can adjust it under **Tools** > **Options** > **Environment** > **Fonts and Colors**. Change the **Show settings for:** dropwon to **Unreal Engine Log**. Then in **Display items:**, select **Log** and change the **Item foreground** color.
+
+Having the UE logging window open while you're debugging is very convenient because you don't have to switch to the Unreal Editor to see them.
