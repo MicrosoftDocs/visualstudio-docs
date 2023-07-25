@@ -14481,6 +14481,86 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/class-designer/how-to-add-class-diagrams-to-projects.md",
+      "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/class-designer/how-to-customize-class-diagrams.md",
+      "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/class-designer/how-to-copy-class-diagram-elements-to-a-microsoft-office-document.md",
+      "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/class-designer/how-to-export-class-diagrams-as-images.md",
+      "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/class-designer/how-to-print-class-diagrams.md",
+      "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/class-designer/how-to-add-comments-to-class-diagrams.md",
+      "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/class-designer/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md",
+      "redirect_url": "/visualstudio/ide/class-designer/designing-and-viewing-classes-and-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/class-designer/how-to-create-inheritance-between-types.md",
+      "redirect_url": "/visualstudio/ide/class-designer/how-to-create-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/class-designer/how-to-create-associations-between-types.md",
+      "redirect_url": "/visualstudio/ide/class-designer/how-to-create-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/class-designer/how-to-visualize-a-collection-association.md",
+      "redirect_url": "/visualstudio/ide/class-designer/how-to-create-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/class-designer/how-to-view-inheritance-between-types.md",
+      "redirect_url": "/visualstudio/ide/class-designer/how-to-view-existing-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/class-designer/how-to-change-between-member-notation-and-association-notation.md",
+      "redirect_url": "/visualstudio/ide/class-designer/how-to-view-existing-types",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/class-designer/visual-cpp-classes.md",
+      "redirect_url": "/visualstudio/ide/class-designer/working-with-visual-cpp-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/class-designer/visual-cpp-structures.md",
+      "redirect_url": "/visualstudio/ide/class-designer/working-with-visual-cpp-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/class-designer/visual-cpp-enumerations.md",
+      "redirect_url": "/visualstudio/ide/class-designer/working-with-visual-cpp-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/class-designer/visual-cpp-typedefs.md",
+      "redirect_url": "/visualstudio/ide/class-designer/working-with-visual-cpp-code",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/azure/cognitive-services-connected-services.yml",
       "redirect_url": "/visualstudio/azure",
       "redirect_document_id": false
