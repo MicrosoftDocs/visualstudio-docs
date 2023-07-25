@@ -36,8 +36,6 @@
       href: sign-in-github.md
     - name: Connected identities
       href: use-connected-identities.md
-    - name: Alternate identities
-      href: vs-alternate-identity.md
     - name: Sign in problems
       href: sign-in-issues.md
     - name: Anonymizations of subscriber data
