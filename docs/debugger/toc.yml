@@ -36,78 +36,180 @@
     href: view-historical-application-state.md
   - name: Debugging for absolute beginners
     href: debugging-absolute-beginners.md
-- name: How-to guides
+- name: Code navigation
   items:
-  - name: Navigate code
+  - name: Navigation
+    href: navigating-through-code-with-the-debugger.md
+  - name: Breakpoints
+    href: using-breakpoints.md
+  - name: Move the execution pointer
+    href: move-the-execution-pointer-with-the-debugger.md
+  - name: Troubleshooting breakpoints
+    href: /troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints?toc=%2fvisualstudio%2fdebugger%2ftoc.json
+- name: Data inspection
+  items:
+  - name: Debugger windows
+    href: debugger-windows.md
+  - name: Inspect exceptions
+    href: exception-helper.md
+  - name: Inspect variables
+    href: autos-and-locals-windows.md
+  - name: Set a watch on variables
+    href: watch-and-quickwatch-windows.md
+  - name: Expressions in the debugger
     items:
-    - name: Navigate through code with the debugger
-      href: navigating-through-code-with-the-debugger.md
-    - name: Move the execution pointer
-      href: move-the-execution-pointer-with-the-debugger.md
-  - name: Pause code
+    - name: Use debugger expressions
+      href: expressions-in-the-debugger.md
+    - name: Format specifiers in C++
+      href: format-specifiers-in-cpp.md
+    - name: Context operator (C++)
+      href: context-operator-cpp.md
+    - name: Format specifiers in C#
+      href: format-specifiers-in-csharp.md
+    - name: Pseudovariables
+      href: pseudovariables.md
+  - name: View data values in DataTips
+    href: view-data-values-in-data-tips-in-the-code-editor.md
+  - name: View string values in a visualizer
+    href: view-strings-visualizer.md
+  - name: View .NET collections with the IEnumerable visualizer
+    href: view-data-in-tabular-visualizer.md
+  - name: Disassembly code
     items:
-    - name: Use breakpoints
-      href: using-breakpoints.md
-    - name: Troubleshooting breakpoints
-      href: /troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints?toc=%2fvisualstudio%2fdebugger%2ftoc.json
-  - name: Data inspection
+    - name: View disassembly code
+      href: how-to-use-the-disassembly-window.md
+    - name: Page up or down in memory
+      href: how-to-page-up-or-down-in-memory.md
+  - name: Register values
     items:
-    - name: Inspect data in debugger windows
-      href: debugger-windows.md
-    - name: Inspect exceptions
-      href: exception-helper.md
-    - name: Inspect variables
-      href: autos-and-locals-windows.md
-    - name: Watch variables
+    - name: View register values
+      href: how-to-use-the-registers-window.md
+    - name: About the Registers window
+      href: debugging-basics-registers-window.md
+    - name: Display and hide register groups
+      href: how-to-display-and-hide-register-groups.md
+    - name: Edit a register value
+      href: how-to-edit-a-register-value.md
+  - name: View memory for variables
+    href: memory-windows.md
+  - name: Inspect XAML properties while debugging
+    href: ../xaml-tools/inspect-xaml-properties-while-debugging.md?toc=/visualstudio/debugger/toc.json
+- name: Call stack
+  items:
+  - name: View the call stack
+    href: how-to-use-the-call-stack-window.md
+  - name: Create a visual map of the call stack
+    href: map-methods-on-the-call-stack-while-debugging-in-visual-studio.md
+  - name: Mixed code and missing information in the Call Stack window
+    href: mixed-code-and-missing-information-in-the-call-stack-window.md
+- name: Configuration
+  items:
+  - name: Exceptions
+    items:
+    - name: Manage exceptions with the debugger
+      href: managing-exceptions-with-the-debugger.md
+    - name: Continue execution after an exception
+      href: continuing-execution-after-an-exception.md
+    - name: Examine system code after an exception
+      href: how-to-examine-system-code-after-an-exception.md
+    - name: Native run-time checks
       items:
-      - name: Set a watch on variables
-        href: watch-and-quickwatch-windows.md
-      - name: Expressions in the debugger
+      - name: Use native run-time checks
+        href: how-to-use-native-run-time-checks.md
+      - name: Native run-time checks customization
+        href: native-run-time-checks-customization.md
+      - name: Write a run-time error reporting function
+        href: how-to-write-a-run-time-error-reporting-function.md
+  - name: Symbol (.pdb) and source files in the debugger
+    href: specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md
+  - name: Source Link
+    href: how-to-improve-diagnostics-debugging-with-sourcelink.md
+  - name: User code (Just My Code)
+    href: just-my-code.md
+  - name: Debugger settings
+    items:
+    - name: Debugger settings and preparation
+      href: debugger-settings-and-preparation.md
+    - name: Debugger project settings
+      items:
+      - name: Project settings
+        href: debugger-project-settings.md
+      - name: Specify debugger settings
+        href: how-to-specify-debugger-settings.md
+      - name: Set debug and release configurations
+        href: how-to-set-debug-and-release-configurations.md
+      - name: Project settings (C++)
         items:
-        - name: Use debugger expressions
-          href: expressions-in-the-debugger.md
-        - name: Format specifiers in C++
-          href: format-specifiers-in-cpp.md
-        - name: Context operator (C++)
-          href: context-operator-cpp.md
-        - name: Format specifiers in C#
-          href: format-specifiers-in-csharp.md
-        - name: Pseudovariables
-          href: pseudovariables.md
-    - name: View data values in DataTips
-      href: view-data-values-in-data-tips-in-the-code-editor.md
-    - name: View string values in a visualizer
-      href: view-strings-visualizer.md
-    - name: View .NET collections with the IEnumerable visualizer
-      href: view-data-in-tabular-visualizer.md
-    - name: Disassembly code
+        - name: Project settings for a C++ debug configuration
+          href: project-settings-for-a-cpp-debug-configuration.md
+        - name: Enable debug features in C++ (-D_DEBUG)
+          href: enabling-debug-features-in-visual-cpp-d-debug.md
+      - name: Project settings (C#)
+        href: project-settings-for-csharp-debug-configurations.md
+      - name: Project settings (.NET C#)
+        href: project-settings-for-csharp-debug-configurations-dotnetcore.md
+      - name: Project settings (Visual Basic)
+        href: project-settings-for-a-visual-basic-debug-configuration.md
+      - name: Property pages settings (Web projects)
+        href: property-pages-settings-for-web-projects.md
+    - name: DLL projects
       items:
-      - name: View disassembly code
-        href: how-to-use-the-disassembly-window.md
-      - name: Page up or down in memory
-        href: how-to-page-up-or-down-in-memory.md
-    - name: Register values
-      items:
-      - name: View register values
-        href: how-to-use-the-registers-window.md
-      - name: About the Registers window
-        href: debugging-basics-registers-window.md
-      - name: Display and hide register groups
-        href: how-to-display-and-hide-register-groups.md
-      - name: Edit a register value
-        href: how-to-edit-a-register-value.md
-    - name: View memory for variables
-      href: memory-windows.md
-    - name: Inspect XAML properties while debugging
-      href: ../xaml-tools/inspect-xaml-properties-while-debugging.md?toc=/visualstudio/debugger/toc.json
-  - name: Call stack
+      - name: Debug DLL projects
+        href: debugging-dll-projects.md
+      - name: Debug from a DLL project
+        href: how-to-debug-from-a-dll-project.md
+      - name: Debug in mixed mode
+        href: how-to-debug-in-mixed-mode.md
+    - name: 'Debugger preparation: Console projects'
+      href: debugging-preparation-console-projects.md
+    - name: Debug an executable not part of a Visual Studio solution
+      href: how-to-debug-an-executable-not-part-of-a-visual-studio-solution.md
+    - name: Debugging and the hosting process
+      href: debugging-and-the-hosting-process.md
+    - name: Specify a .NET Framework version for debugging
+      href: how-to-specify-a-dotnet-framework-version-for-debugging.md
+  - name: Custom views
     items:
-    - name: View the call stack
-      href: how-to-use-the-call-stack-window.md
-    - name: Create a visual map of the call stack
-      href: map-methods-on-the-call-stack-while-debugging-in-visual-studio.md
-    - name: Mixed code and missing information in the Call Stack window
-      href: mixed-code-and-missing-information-in-the-call-stack-window.md
+    - name: Create custom views of data
+      href: viewing-data-in-the-debugger.md
+    - name: Custom views (C++)
+      items:
+      - name: Create custom views of C++ objects
+        href: create-custom-views-of-native-objects.md
+      - name: C++ custom visualizer compatibility
+        href: visual-cpp-custom-visualizer-compatibility.md
+    - name: Custom views (.NET)
+      items:
+      - name: Create custom views of managed objects
+        href: create-custom-views-of-managed-objects.md
+      - name: Tell the debugger what to show
+        href: using-the-debuggerdisplay-attribute.md
+      - name: Tell the debugger what type to show
+        href: using-debuggertypeproxy-attribute.md
+    - name: Custom visualizers
+      items:
+      - name: Create custom visualizers of data
+        href: create-custom-visualizers-of-data.md
+      - name: Visualizer architecture
+        href: visualizer-architecture.md
+      - name: 'Walkthrough: Write a visualizer in C#'
+        href: walkthrough-writing-a-visualizer-in-csharp.md
+      - name: 'Walkthrough: Write a visualizer in Visual Basic'
+        href: walkthrough-writing-a-visualizer-in-visual-basic.md
+      - name: Install a visualizer
+        href: how-to-install-a-visualizer.md
+      - name: Test and debug a visualizer
+        href: how-to-test-and-debug-a-visualizer.md
+      - name: Visualizer security considerations
+        href: visualizer-security-considerations.md
+      - name: Advanced visualizer scenarios
+        href: visualizer-advanced-scenarios.md
+      - name: Visualizer API reference
+        href: visualizer-api-reference.md
+  - name: Restore hidden debugger commands
+    href: how-to-restore-hidden-debugger-commands.md
+- name: Scenarios
+  items:
   - name: Live code editing
     items:
     - name: Hot Reload
@@ -122,8 +224,6 @@
         href: ../xaml-tools/xaml-hot-reload.md?toc=/visualstudio/debugger/toc.json
       - name: Troubleshooting XAML Hot Reload
         href: /troubleshoot/developer/visualstudio/tools-utilities/xaml-hot-reload-troubleshooting?toc=/visualstudio/debugger/toc.json
-    - name: Edit and Continue not supported for F#
-      href: edit-and-continue-not-supported-for-f-hash.md
     - name: Edit code and continue debugging
       href: edit-and-continue.md
     - name: Enable and disable Edit and Continue
@@ -150,136 +250,8 @@
         href: edit-and-continue-visual-basic.md
       - name: Apply edits in break mode with Edit and Continue
         href: how-to-apply-edits-in-break-mode-with-edit-and-continue.md
-  - name: Log to Output window
-    href: using-tracepoints.md
-  - name: View debugger data
-    items:
-    - name: Modules
-      items:
-      - name: View modules
-        href: how-to-use-the-modules-window.md
-      - name: Find which DLL your program crashed In
-        href: how-to-find-which-dll-your-program-crashed-in.md
-    - name: View script documents
-      href: how-to-view-script-documents.md
-  - name: Tips and tricks
-    items:
-    - name: Debugger tips and tricks
-      href: debugger-tips-and-tricks.md
-    - name: Debug at design time
-      href: walkthrough-debugging-at-design-time.md
-    - name: Just-In-Time Debugger
-      items:
-      - name: Debug using the Just-In-Time Debugger
-        href: debug-using-the-just-in-time-debugger.md
-      - name: Disable the Just-In-Time Debugger
-        href: just-in-time-debugging-in-visual-studio.md
-  - name: Configure debugging
-    items:
-    - name: Exceptions
-      items:
-      - name: Manage exceptions with the debugger
-        href: managing-exceptions-with-the-debugger.md
-      - name: Continue execution after an exception
-        href: continuing-execution-after-an-exception.md
-      - name: Examine system code after an exception
-        href: how-to-examine-system-code-after-an-exception.md
-      - name: Native run-time checks
-        items:
-        - name: Use native run-time checks
-          href: how-to-use-native-run-time-checks.md
-        - name: Native run-time checks customization
-          href: native-run-time-checks-customization.md
-        - name: Write a run-time error reporting function
-          href: how-to-write-a-run-time-error-reporting-function.md
-    - name: Specify symbol (.pdb) and source files in the debugger
-      href: specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md
-    - name: Enable debugging and diagnostics with Source Link
-      href: how-to-improve-diagnostics-debugging-with-sourcelink.md
-    - name: Debug user code
-      href: just-my-code.md
-    - name: Debugger settings
-      items:
-      - name: Debugger settings and preparation
-        href: debugger-settings-and-preparation.md
-      - name: Debugger project settings
-        items:
-        - name: Project settings
-          href: debugger-project-settings.md
-        - name: Specify debugger settings
-          href: how-to-specify-debugger-settings.md
-        - name: Set debug and release configurations
-          href: how-to-set-debug-and-release-configurations.md
-        - name: Project settings (C++)
-          items:
-          - name: Project settings for a C++ debug configuration
-            href: project-settings-for-a-cpp-debug-configuration.md
-          - name: Enable debug features in C++ (-D_DEBUG)
-            href: enabling-debug-features-in-visual-cpp-d-debug.md
-        - name: Property pages settings for Web projects
-          href: property-pages-settings-for-web-projects.md
-        - name: Project settings for C# debug configurations
-          href: project-settings-for-csharp-debug-configurations.md
-        - name: Project settings for .NET C# debug configurations
-          href: project-settings-for-csharp-debug-configurations-dotnetcore.md
-        - name: Project settings for a Visual Basic debug configuration
-          href: project-settings-for-a-visual-basic-debug-configuration.md
-      - name: DLL projects
-        items:
-        - name: Debug DLL projects
-          href: debugging-dll-projects.md
-        - name: Debug from a DLL project
-          href: how-to-debug-from-a-dll-project.md
-        - name: Debug in mixed mode
-          href: how-to-debug-in-mixed-mode.md
-      - name: 'Debugging preparation: Console projects'
-        href: debugging-preparation-console-projects.md
-      - name: Debug an executable not part of a Visual Studio solution
-        href: how-to-debug-an-executable-not-part-of-a-visual-studio-solution.md
-      - name: Debugging and the hosting process
-        href: debugging-and-the-hosting-process.md
-      - name: Specify a .NET Framework version for debugging
-        href: how-to-specify-a-dotnet-framework-version-for-debugging.md
-    - name: Custom views
-      items:
-      - name: Create custom views of data
-        href: viewing-data-in-the-debugger.md
-      - name: Custom views (C++)
-        items:
-        - name: Create custom views of C++ objects
-          href: create-custom-views-of-native-objects.md
-        - name: C++ custom visualizer compatibility
-          href: visual-cpp-custom-visualizer-compatibility.md
-      - name: Custom views (managed)
-        items:
-        - name: Create custom views of managed objects
-          href: create-custom-views-of-managed-objects.md
-        - name: Tell the debugger what to show
-          href: using-the-debuggerdisplay-attribute.md
-        - name: Tell the debugger what type to show
-          href: using-debuggertypeproxy-attribute.md
-      - name: Custom visualizers
-        items:
-        - name: Create custom visualizers of data
-          href: create-custom-visualizers-of-data.md
-        - name: Visualizer architecture
-          href: visualizer-architecture.md
-        - name: 'Walkthrough: Write a visualizer in C#'
-          href: walkthrough-writing-a-visualizer-in-csharp.md
-        - name: 'Walkthrough: Write a visualizer in Visual Basic'
-          href: walkthrough-writing-a-visualizer-in-visual-basic.md
-        - name: Install a visualizer
-          href: how-to-install-a-visualizer.md
-        - name: Test and debug a visualizer
-          href: how-to-test-and-debug-a-visualizer.md
-        - name: Visualizer security considerations
-          href: visualizer-security-considerations.md
-        - name: Advanced visualizer scenarios
-          href: visualizer-advanced-scenarios.md
-        - name: Visualizer API reference
-          href: visualizer-api-reference.md
-    - name: restore hidden debugger commands
-      href: how-to-restore-hidden-debugger-commands.md
+    - name: Edit and Continue not supported for F#
+      href: edit-and-continue-not-supported-for-f-hash.md
   - name: Source code
     items:
     - name: Decompile .NET assemblies
@@ -306,7 +278,7 @@
       href: configure-the-windows-firewall-for-remote-debugging.md
     - name: Unblock the download on Windows Server
       href: remote-debugging-unblock-file-download.md
-    - name: Troubleshoot remote debugging
+    - name: Troubleshoot remote debugging >>
       href: /troubleshoot/developer/visualstudio/debuggers/troubleshooting-remote-debugging?toc=%2Fvisualstudio%2Fdebugger%2Ftoc.json
     - name: Remote debugging error reference
       items:
@@ -400,32 +372,8 @@
       href: how-to-set-a-thread-name-in-native-code.md
     - name: Set a thread name in managed code
       href: how-to-set-a-thread-name-in-managed-code.md
-  - name: Measure memory usage in Visual Studio
+  - name: Memory usage >>
     href: ../profiling/memory-usage.md
-  - name: IntelliTrace
-    items:
-    - name: IntelliTrace overview
-      href: intellitrace.md
-    - name: View snapshots with IntelliTrace
-      href: view-snapshots-with-intellitrace.md
-    - name: View events with IntelliTrace
-      href: walkthrough-using-intellitrace.md
-    - name: IntelliTrace features
-      href: intellitrace-features.md
-    - name: Historical debugging
-      href: historical-debugging.md
-    - name: Inspect your app using historical debugging
-      href: historical-debugging-inspect-app.md
-    - name: After deployment
-      items:
-      - name: Diagnose problems after deployment
-        href: diagnose-problems-after-deployment.md
-      - name: Using the IntelliTrace stand-alone collector
-        href: using-the-intellitrace-stand-alone-collector.md
-    - name: Using saved IntelliTrace data
-      href: using-saved-intellitrace-data.md
-    - name: API Reference for IntelliTrace Extensibility
-      href: api-reference-for-intellitrace-extensibility.md
   - name: Azure services
     items:
     - name: Debug Azure services
@@ -438,7 +386,7 @@
       href: debug-live-azure-kubernetes.md
     - name: FAQ for snapshot debugging
       href: debug-live-azure-apps-faq.yml
-    - name: Troubleshooting snapshot debugging
+    - name: Troubleshooting snapshot debugging >>
       href: /troubleshoot/developer/visualstudio/debuggers/debug-live-azure-apps-troubleshooting?toc=%2Fvisualstudio%2Fdebugger%2Ftoc.json
     - name: Time travel debugging for live Azure VM apps
       href: debug-live-azure-virtual-machines-time-travel-debugging.md
@@ -452,9 +400,9 @@
       href: /visualstudio/bridge/bridge-to-kubernetes-vs
     - name: Debug with Container Tools >>
       href: ../containers/edit-and-refresh.md
-  - name: Application types
+  - name: Work with...
     items:
-    - name: Debug 64-Bit applications
+    - name: 64-Bit applications
       href: debug-64-bit-applications.md
     - name: UWP apps
       items:
@@ -468,12 +416,12 @@
         href: deploy-windows-store-apps-from-visual-studio.md
       - name: Debug an installed app package
         href: debug-installed-app-package.md
-      - name: Inspect XAML properties while debugging
+      - name: Inspect XAML properties while debugging >>
         href: ../xaml-tools/inspect-xaml-properties-while-debugging.md
-      - name: Write and debug running XAML code
+      - name: Write and debug running XAML code >>
         href: ../xaml-tools/xaml-hot-reload.md
-      - name: Debug XAML in Blend
-        href: ../xaml-tools/debug-xaml-in-blend.md?toc=/visualstudio/debugger/toc.json
+      - name: Debug XAML in Blend >>
+        href: ../xaml-tools/debug-xaml-in-blend.md
       - name: How to trigger suspend, resume, and background events
         href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
     - name: Managed code (C#, Visual Basic, F#)
@@ -508,9 +456,9 @@
         items:
         - name: Debug WPF
           href: debugging-wpf.md
-        - name: Inspect XAML properties while debugging
+        - name: Inspect XAML properties while debugging >>
           href: ../xaml-tools/inspect-xaml-properties-while-debugging.md
-        - name: Write and debug running XAML code
+        - name: Write and debug running XAML code >>
           href: ../xaml-tools/xaml-hot-reload.md
         - name: Use the WPF Tree Visualizer
           href: how-to-use-the-wpf-tree-visualizer.md
@@ -520,7 +468,7 @@
         items:
         - name: Debug the OnStart method
           href: how-to-debug-the-onstart-method.md
-      - name: Debug F#
+      - name: F#
         href: debugging-f-hash.md
       - name: Error reference
         items:
@@ -600,9 +548,9 @@
             href: error-the-web-server-could-not-find-the-requested-resource.md
           - name: The web server is not configured correctly
             href: error-the-web-server-is-not-configured-correctly.md
-    - name: Python
+    - name: Python >>
       href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
-    - name: JavaScript and TypeScript
+    - name: JavaScript and TypeScript >>
       href: ../javascript/debug-nodejs.md
     - name: Web apps
       items:
@@ -622,8 +570,12 @@
         href: how-to-debug-a-self-hosted-wcf-service.md
   - name: Collaborate
     items:
-    - name: Write and debug code using Live Share
+    - name: Write and debug code using Live Share >>
       href: /visualstudio/liveshare/use/vs
+- name: Logging
+  items:
+  - name: Log to Output window
+    href: using-tracepoints.md
   - name: Dump files
     items:
     - name: Use dump files
@@ -632,8 +584,54 @@
       href: how-to-debug-managed-memory-dump.md
     - name: Dump File Summary Extensibility API
       href: dump-file-summary-extensibility-api.md
-  - name: Debugger security
-    href: debugger-security.md
+  - name: IntelliTrace
+    items:
+    - name: IntelliTrace overview
+      href: intellitrace.md
+    - name: View snapshots with IntelliTrace
+      href: view-snapshots-with-intellitrace.md
+    - name: View events with IntelliTrace
+      href: walkthrough-using-intellitrace.md
+    - name: IntelliTrace features
+      href: intellitrace-features.md
+    - name: Historical debugging
+      href: historical-debugging.md
+    - name: Inspect your app using historical debugging
+      href: historical-debugging-inspect-app.md
+    - name: After deployment
+      items:
+      - name: Diagnose problems after deployment
+        href: diagnose-problems-after-deployment.md
+      - name: Using the IntelliTrace stand-alone collector
+        href: using-the-intellitrace-stand-alone-collector.md
+    - name: Using saved IntelliTrace data
+      href: using-saved-intellitrace-data.md
+    - name: API Reference for IntelliTrace Extensibility
+      href: api-reference-for-intellitrace-extensibility.md
+- name: Tips and tricks
+  items:
+  - name: Debugger tips and tricks
+    href: debugger-tips-and-tricks.md
+  - name: Debug at design time
+    href: walkthrough-debugging-at-design-time.md
+  - name: Just-In-Time Debugger
+    items:
+    - name: Debug using the Just-In-Time Debugger
+      href: debug-using-the-just-in-time-debugger.md
+    - name: Disable the Just-In-Time Debugger
+      href: just-in-time-debugging-in-visual-studio.md
+  - name: View debugger data
+    items:
+    - name: Modules
+      items:
+      - name: View modules
+        href: how-to-use-the-modules-window.md
+      - name: Find which DLL your program crashed In
+        href: how-to-find-which-dll-your-program-crashed-in.md
+    - name: View script documents
+      href: how-to-view-script-documents.md
+- name: Security
+  href: debugger-security.md
 - name: Reference
   items:
   - name: Debugging User Interface Reference
