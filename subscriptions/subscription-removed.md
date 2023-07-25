@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 34eaceda-f5db-41d6-bc23-ecf55fe1768e
-ms.date: 03/21/2023
+ms.date: 07/25/2023
 ms.topic: troubleshooting
 ms.custom: kr2b-contr-experiment
 description: Learn what happens when your admin removes your Visual Studio subscription. This information includes how your benefits change and support resources.
@@ -27,7 +27,7 @@ The license for the Visual Studio IDE is dependent on a subscription being assig
 
 ### Individual Azure credits
 
-When your subscription is removed, you no longer accrue individual Azure credits.  The credits you already have accrued remain available for 30 days.  After that time, your assets will no longer be available. 
+When your subscription is removed, you no longer accrue individual Azure credits.  The credits you've already accrued remain available for 30 days.  After that time, your assets will no longer be available. 
 
 To avoid losing your assets, make sure to take one of the following steps if your subscription is removed:
 
@@ -51,15 +51,24 @@ The effects of having a subscription removed vary.
 
 + Benefits with a fixed length
 
-  Many of the benefits provided by our partners are offers that have a fixed length.  If you've activated them prior to the removal of your subscription, many of them will be unaffected and will remain available to you until the end of their normal term.  If you've been accessing those benefits through the subscriber portal, you need to access them directly on the partner site.  For example, let's say you received a Pluralsight subscription as part of a Visual Studio subscription.  When your Visual Studio subscription is removed, you still have any remaining time on the training subscription, but you need to sign in to Pluralsight's website directly.
+  Many of the benefits provided by our partners are offers that have a fixed length.  If you've activated them prior to the removal of your subscription, many of them are unaffected and remain available to you until the end of their normal term.  If you've been accessing those benefits through the subscriber portal, you need to access them directly on the partner site.  For example, let's say you received a Pluralsight subscription as part of a Visual Studio subscription.  When your Visual Studio subscription is removed, you still have any remaining time on the training subscription, but you need to sign in to Pluralsight's website directly.
 
-+ Benefits that require authentication
++ Benefits that require sign-in for each use are no longer available.
 
-  If you're using a benefit that's authenticated every time you sign in to Visual Studio, it isn't available if your subscription is removed.
++ Upon removal of your subscription, you lose the ability to activate any more benefits.  
 
-+ Benefits not previously activated
+## Visual Studio subscription assignments deleted by Microsoft
 
-  Upon removal of your subscription, you lose the ability to activate any additional benefits.  
+If you're a subscriptions admin, you might occasionally see in your dashboard that Microsoft has removed a subscription.  The reason says that the account is closed. 
+
+### Why an account may be removed  
+
++ Subscribers request closure of their Microsoft accounts. If a subscriber requests closure of a Microsoft account (MSA), subscriptions associated with that MSA are removed.  For more information including important things to consider before closing an account, see [How to close your Microsoft account](https://support.microsoft.com/account-billing/how-to-close-your-microsoft-account-c1b2d13f-4de6-6e1b-4a31-d9d668849979).
++ Subscribers are removed from Azure Active Directory tenant.  Subscriptions can automatically assign subscriptions through an Azure Active Directory group.  When they're removed from the group, their subscriptions are removed.
+
+### What happens when the account is closed?
+
+If the subscription is removed, the subscriber loses access to the subscription.  If a subscriber is removed from an Azure AD group, their subscription information is permanently removed within 180 days.  If a subscriber closes their MSA, their information is removed immediately.  
 
 ## Support resources
 
