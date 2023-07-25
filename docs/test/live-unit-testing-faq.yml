@@ -102,7 +102,7 @@ sections:
           Overriding `<OutputPath>`/`<IntermediateOutputPath>` conditionally based on `<BaseOutputPath>`/ `<BaseIntermediateOutputPath>`.
         answer: |
           > [!NOTE]
-          > To use this approach, each project needs to be able to build independently from one another. Don't have one project reference artifacts from another project during build. Don't have one project dynamically load assemblies from another project during runtime (for example call `Assembly.Loadfile("..\..\Project2\Release\Project2.dll")`).
+          > To use this approach, each project needs to be able to build independently from one another. For example, one project shouldn't reference artifacts from another project during build. One project shouldn't dynamically load assemblies from another project during runtime (for example, call `Assembly.Loadfile("..\..\Project2\Release\Project2.dll")`).
           
           During build, Live Unit Testing automatically overrides the `<BaseOutputPath>`/`<BaseIntermediateOutputPath>` variables to target the Live Unit Testing artifacts folder.
           
