@@ -531,38 +531,14 @@
     items:
     - name: Design classes in Class Designer
       href: ide/class-designer/designing-and-viewing-classes-and-types.md
-    - name: Add class diagrams to projects
-      href: ide/class-designer/how-to-add-class-diagrams-to-projects.md
-    - name: Customize class diagrams
-      href: ide/class-designer/how-to-customize-class-diagrams.md
-    - name: Copy class diagram elements to a Microsoft Office document
-      href: ide/class-designer/how-to-copy-class-diagram-elements-to-a-microsoft-office-document.md
-    - name: Export class diagrams as images
-      href: ide/class-designer/how-to-export-class-diagrams-as-images.md
-    - name: Print class diagrams
-      href: ide/class-designer/how-to-print-class-diagrams.md
-    - name: Add comments to class diagrams
-      href: ide/class-designer/how-to-add-comments-to-class-diagrams.md
-    - name: Create classes and types
       items:
+      - name: Create classes and types
+        href: ide/class-designer/designing-and-viewing-classes-and-types.md
       - name: Create types
         href: ide/class-designer/how-to-create-types.md
-      - name: Create inheritance between types
-        href: ide/class-designer/how-to-create-inheritance-between-types.md
-      - name: Create associations between types
-        href: ide/class-designer/how-to-create-associations-between-types.md
-      - name: Visualize a collection association
-        href: ide/class-designer/how-to-visualize-a-collection-association.md
-      - name: Create and configure type members
         href: ide/class-designer/creating-and-configuring-type-members.md
     - name: View types and relationships
-      items:
-      - name: View existing types
-        href: ide/class-designer/how-to-view-existing-types.md
-      - name: View inheritance between types
-        href: ide/class-designer/how-to-view-inheritance-between-types.md
-      - name: Member notation and association notation
-        href: ide/class-designer/how-to-change-between-member-notation-and-association-notation.md
+      href: ide/class-designer/how-to-view-existing-types.md
     - name: Refactor classes and types
       href: ide/class-designer/refactoring-classes-and-types.md
     - name: Implement an interface
@@ -572,19 +548,6 @@
     - name: Create a nullable type
       href: ide/class-designer/how-to-create-a-nullable-type.md
     - name: C++ in Class Designer
-      items:
-      - name: Work with Visual C++ code
-        href: ide/class-designer/working-with-visual-cpp-code.md
-      - name: C++ classes
-        href: ide/class-designer/visual-cpp-classes.md
-      - name: C++ structures
-        href: ide/class-designer/visual-cpp-structures.md
-      - name: C++ enumerations
-        href: ide/class-designer/visual-cpp-enumerations.md
-      - name: C++ typedefs
-        href: ide/class-designer/visual-cpp-typedefs.md
-    - name: Keyboard and mouse shortcuts
-      href: ide/class-designer/keyboard-and-mouse-shortcuts-in-the-class-diagram-and-class-details-window.md
     - name: Class Designer errors
       href: /troubleshoot/developer/visualstudio/ide/troubleshoot-class-designer-errors?toc=%2Fvisualstudio%2Ftoc.json
   - name: Improve your code
