@@ -258,3 +258,94 @@ The following table shows some examples of canonical specialized class connectio
 |`template <class T>`<br /><br /> `class C {};`<br /><br /> `template<>`<br /><br /> `class C<int> {};`<br /><br /> `class A : C<int> {};`<br /><br /> `class D : C<float> {};`|`A`<br /><br /> Class<br /><br /> ->C\<int><br /><br /> `C<int>`<br /><br /> Class<br /><br /> `C<T>`<br /><br /> Template Class<br /><br /> `D`<br /><br /> Class<br /><br /> ->C\<float>|
 |`class B {`<br /><br /> `template <class T>`<br /><br /> `T min (const T &a, const T &b);`<br /><br /> `};`|`B`<br /><br /> min \<T>|
 
+## C++ enumerations in Class Designer
+
+**Class Designer** supports C++ `enum` and scoped `enum class` types. Following is an example:
+
+```cpp
+enum CardSuit {
+   Diamonds = 1,
+   Hearts = 2,
+   Clubs = 3,
+   Spades = 4
+};
+
+// or...
+enum class CardSuit {
+   Diamonds = 1,
+   Hearts = 2,
+   Clubs = 3,
+   Spades = 4
+};
+```
+
+A C++ enumeration shape in a class diagram looks and works like a structure shape, except that the label reads **Enum** or **Enum class**, it is pink instead of blue, and it has a colored border on the left and top margins. Both enumeration shapes and structure shapes have square corners.
+
+For more information about using the `enum` type, see [Enumerations](/cpp/cpp/enumerations-cpp).
+
+## C++ typedefs in Class Designer
+
+[Typedef](/cpp/cpp/aliases-and-typedefs-cpp#typedefs) statements create one or more layers of indirection between a name and its underlying type. **Class Designer** supports C++ typedef types, which are declared with the keyword `typedef`, for example:
+
+```cpp
+typedef class coord
+{
+   void P(x,y);
+   unsigned x;
+   unsigned y;
+} COORD;
+```
+
+You can then use this type to declare an instance:
+
+`COORD OriginPoint;`
+
+### Class and struct shapes
+
+In **Class Designer**, a C++ typedef has the shape of the type specified in the typedef. If the source declares `typedef class`, the shape has rounded corners and the label **Class**. For `typedef struct`, the shape has square corners and the label **Struct**.
+
+Classes and structures can have nested typedefs declared within them. In **Class Designer**, class and structure shapes can show nested typedef declarations as nested shapes.
+
+Typedef shapes support the **Show as Association** and **Show as Collection Association** commands on the right-click menu (context menu).
+
+#### Class typedef example
+
+```cpp
+class B {};
+typedef B MyB;
+```
+
+![C++ class typedef in Class Designer](media/cpp-class-typedef.png)
+
+#### Struct typedef example
+
+```cpp
+typedef struct mystructtag
+{
+    int   i;
+    double f;
+} mystruct;
+```
+
+![C++ struct typedef in Class Designer](media/cpp-struct-typedef.png)
+
+### Unnamed typedefs
+
+Although you can declare a typedef without a name, **Class Designer** doesn't use the tag name that you specify. **Class Designer** uses the name that **Class View** generates. For example, the following declaration is valid, but it appears in **Class View** and **Class Designer** as an object named **__unnamed**:
+
+```cpp
+typedef class coord
+{
+   void P(x,y);
+   unsigned x;
+   unsigned y;
+};
+```
+
+> [!NOTE]
+> **Class Designer** does not display typedefs whose source type is a function pointer.
+
+## See also
+
+- [What is Class Designer?](designing-and-viewing-classes-and-types.md)
+- [Class Designer errors](/troubleshoot/developer/visualstudio/ide/troubleshoot-class-designer-errors)
