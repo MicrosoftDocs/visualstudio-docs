@@ -34,7 +34,8 @@ Visual Studio Tools for Unreal Engine provides features that enhance writing and
 
 ## Supported Visual Studio versions
 
-Visual Studio Tools for Unreal Engine is available for free and supports Visual Studio 2022 Version 17.7 Community, Professional, and Enterprise and newer.
+Visual Studio Tools for Unreal Engine is available for free and supports:
+- Visual Studio 2022 Version 17.7 Community, Professional, and Enterprise and newer.
 
 We recommend [downloading and using the latest version of Visual Studio.](https://visualstudio.microsoft.com/downloads/).
 
