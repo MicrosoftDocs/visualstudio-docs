@@ -96,7 +96,7 @@ sections:
           
           Live Unit Testing overrides those variables to ensure that build artifacts are dropped to a Live Unit Testing artifacts folder and will fail if your build process also overrides these variables.
           
-          There are two main approaches to make Live Unit Testing build successfully. For easier build configurations, you can base your output paths on `<BaseIntermediateOutputPath>`. For more complex configurations you can base your output paths on `<LiveUnitTestingBuildRootPath>`.
+          There are two main approaches to make Live Unit Testing build successfully. For easier build configurations, you can base your output paths on `<BaseIntermediateOutputPath>`. For more complex configurations, you can base your output paths on `<LiveUnitTestingBuildRootPath>`.
           
       - question: |
           Overriding `<OutputPath>`/`<IntermediateOutputPath>` conditionally based on `<BaseOutputPath>`/ `<BaseIntermediateOutputPath>`.
@@ -106,7 +106,7 @@ sections:
           
           During build, Live Unit Testing automatically overrides the `<BaseOutputPath>`/`<BaseIntermediateOutputPath>` variables to target the Live Unit Testing artifacts folder.
           
-          For example, if your build overrides the `<OutputPath>` as shown below:
+          For example, if your build overrides the `<OutputPath>` as shown here:
           
           ```xml
           <Project>
@@ -127,7 +127,7 @@ sections:
           </Project>
           ```
           
-          This ensures that `<OutputPath>` lies within the `<BaseOutputPath>` folder.
+          This configuration ensures that `<OutputPath>` lies within the `<BaseOutputPath>` folder.
           
           Don't override `<OutDir>` directly in your build process; override `<OutputPath>` instead to drop build artifacts to a specific location.
           
