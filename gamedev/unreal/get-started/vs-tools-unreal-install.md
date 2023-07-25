@@ -14,11 +14,15 @@ ms.workload: "unreal"
 
 # Install Visual Studio Tools for Unreal Engine
 
-This article helps you install the Visual Studio Tools for Unreal Engine. Visual Studio tools for Unreal Engine allows you to do the following from within Visual Studio: view Unreal Engine (UE) Blueprints, add UE classes, view UE logging, view expanded UE macros, and more.
+This article helps you install the Visual Studio Tools for Unreal Engine. These tools allow you to do the following from within Visual Studio:
+- view Unreal Engine (UE) Blueprints
+- add UE classes
+- view UE logging
+- view expanded UE macros
 
 ## Prerequisites
 
-You should have the following installed:
+You should have the following installed before you install the Visual Studio Tools for Unreal Engine:
 
 - Visual Studio version 17.7 or higher
 - UnReal Engine version 5 or higher. [Download instructions](https://www.unrealengine.com/download)
@@ -28,7 +32,7 @@ You should have the following installed:
 This article covers installing two tools for connecting Visual Studio and Unreal Engine:
 
 - **Visual Studio Tools for Unreal Engine** are installed with the Visual Studio installer. They enable you to add UE classes, view UE logging, and more, all from within Visual Studio.
-- **Unreal Engine Visual Studio Integration Tool plugin** is installed in Unreal Engine and works with Visual Studio to display information about Blueprints assets in C++ code.
+- **Unreal Engine Visual Studio Integration Tool plugin** is installed in Unreal Engine and works with Visual Studio to display information about Blueprint assets in C++ code.
 
 To install the Visual Studio Tools for Unreal Engine, follow these steps:
 
@@ -50,15 +54,15 @@ If you have difficulty with the installation, see the [Troubleshooting guide](ht
 
 When Visual Studio completes the installation process, you're ready to set up Unreal Engine for use with Visual Studio.
 
-Install the Unreal Engine Visual Studio Integration Tool plugin via the [Unreal Engine Marketplace](https://aka.ms/VSUEMarketplace). It allows you to see Blueprints assets in Visual Studio. The Marketplace provides instructions for installing the plugin.
+Install the Unreal Engine Visual Studio Integration Tool plugin via the [Unreal Engine Marketplace](https://aka.ms/VSUEMarketplace). It allows you to see Blueprints assets in Visual Studio. The Unreal Engine Marketplace provides instructions for installing the plugin.
 
    :::image type="content" source="../media/ue-marketplace.png" alt-text="Screenshot of the Unreal Engine Marketplace with the Visual Studio Integration Tool plugin.":::
 
 If your project isn't compatible with Unreal Engine Marketplace plugins, install the plugin manually by cloning and installing the plugin from the [GitHub vc-ue-extensions repo](https://aka.ms/VSUEGitHub). See the [README](https://github.com/microsoft/vc-ue-extensions#unreal-engine-plugin-for-visual-studio) in the repo for instructions to install the plugin.
 
-Rare provides the UnrealVS extension for Visual Studio. This extension makes it easier to build UE projects, set command line arguments, batch build projects, and so on. You don't need to install this plugin to use the Visual Studio Tools for Unreal Engine, but it does provide some convenience features. For more information, see [UnrealVS Extension](https://docs.unrealengine.com/5.2/using-the-unrealvs-extension-for-unreal-engine-cplusplus-projects/). 
+Rare provides the UnrealVS extension for Visual Studio. That extension makes it easier to build UE projects, set command line arguments, batch build projects, and so on. You don't need to install this plugin to use the Visual Studio Tools for Unreal Engine, but it does provide some convenience features. For more information, see [UnrealVS Extension](https://docs.unrealengine.com/5.2/using-the-unrealvs-extension-for-unreal-engine-cplusplus-projects/). 
 
-For more information about customizations you can make to the Visual Studio IDE to work better with Unreal Engine, see the **Recommended Settings** section at [Setting Up Visual Studio for Unreal Engine](https://docs.unrealengine.com/4.27/ProductionPipelines/DevelopmentSetup/VisualStudioSetup/).
+For more information about customizations you can make to the Visual Studio IDE to work well with Unreal Engine, see the **Recommended Settings** section at [Setting Up Visual Studio for Unreal Engine](https://docs.unrealengine.com/4.27/ProductionPipelines/DevelopmentSetup/VisualStudioSetup/).
 
 ## Check for updates
 

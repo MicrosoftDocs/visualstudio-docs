@@ -30,11 +30,13 @@ Visual Studio Tools for Unreal Engine provides features that enhance writing and
 * Visual Studio performance has been tuned for large projects
 * Be more productive with HLSL files via syntax highlighting and statement completion
 
-<sup>*</sup> Both macro expansion and the improved IntelliSense member list don't require Visual Studio Tools for Unreal Engine to be installed.
+<sup>*</sup> Macro expansion and improved IntelliSense work without installing Visual Studio Tools for Unreal Engine.
 
 ## Supported Visual Studio versions
 
-Visual Studio Tools for Unreal Engine is available for free and supports Visual Studio 2022 Version 17.7 Community, Professional, and Enterprise and newer. We recommend [downloading and using the latest version of Visual Studio.](https://visualstudio.microsoft.com/downloads/).
+Visual Studio Tools for Unreal Engine is available for free and supports Visual Studio 2022 Version 17.7 Community, Professional, and Enterprise and newer.
+
+We recommend [downloading and using the latest version of Visual Studio.](https://visualstudio.microsoft.com/downloads/).
 
 ## Supported Unreal Engine versions
 
