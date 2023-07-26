@@ -152,7 +152,7 @@ Properties and fields that are collections of other types can be displayed on th
 
 ### To create a collection association
 
-1. In code, create a property or field whose type is itself a strongly-typed collection.
+1. In code, create a property or field whose type is itself a strongly typed collection.
 
 1. In the class diagram, expand the class so that properties and fields are shown.
 
