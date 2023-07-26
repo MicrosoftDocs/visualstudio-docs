@@ -5,6 +5,10 @@ ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
 - VS.Clr.ClrAttributesDialog
+- vs.classdesigner.inheritanceline
+- vs.classdesigner.associationline
+- vs.classdesigner.collectionassociationline
+- vs.classdesigner.ShowAssociationException
 helpviewer_keywords:
 - custom attributes, applying
 - class diagrams, creating types

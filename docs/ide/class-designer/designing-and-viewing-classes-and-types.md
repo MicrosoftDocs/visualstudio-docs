@@ -6,6 +6,9 @@ ms.topic: conceptual
 f1_keywords:
 - vs.classdesigner.diagram
 - vs.classdesigner.enum
+- vs.classdesigner.exportdialog
+- vs.classdesigner.comment
+- vs.classdetails.window
 helpviewer_keywords:
 - Class Designer [Visual Studio]
 - Class Designer, about Class Designer

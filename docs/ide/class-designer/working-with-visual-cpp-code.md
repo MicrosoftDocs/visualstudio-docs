@@ -5,6 +5,9 @@ ms.date: 06/21/2017
 ms.topic: conceptual
 f1_keywords:
 - vs.classdesigner.cpplimitation
+- vs.classdesigner.inheritancelinelabel
+- vs.classdesigner.typedef
+- vs.classdesigner.aliasofline
 helpviewer_keywords:
 - C++, Class Designer
 - Class Designer, C++ support
