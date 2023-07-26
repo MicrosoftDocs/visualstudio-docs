@@ -546,6 +546,7 @@
     - name: Create a nullable type
       href: ide/class-designer/how-to-create-a-nullable-type.md
     - name: C++ in Class Designer
+      href: ide/class-designer/working-with-visual-cpp-code.md
     - name: Class Designer errors
       href: /troubleshoot/developer/visualstudio/ide/troubleshoot-class-designer-errors?toc=%2Fvisualstudio%2Ftoc.json
   - name: Improve your code
