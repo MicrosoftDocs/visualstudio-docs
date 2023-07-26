@@ -22,7 +22,7 @@ Incremental builds are builds that are optimized so that targets that have outpu
 
 If all output items are up-to-date, MSBuild skips the target. This *incremental build* of the target can significantly improve the build speed. If only some files are up-to-date, MSBuild executes the target but skips the up-to-date items, and thereby brings all items up-to-date. This process is known as a *partial incremental build*.
 
-1-to-1 mappings are typically produced by item transformations. For more information, see [Transforms](../msbuild/msbuild-transforms.md).
+1-to-1 mappings can only be produced by making the `Outputs` attribute a transformation of the `Inputs` attribute. For more information, see [Transforms](../msbuild/msbuild-transforms.md).
 
  Consider the following target.
 
