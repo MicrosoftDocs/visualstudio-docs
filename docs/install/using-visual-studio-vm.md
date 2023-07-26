@@ -32,9 +32,9 @@ Images for the most recent major versions, Visual Studio 2022, Visual Studio 201
 | Release version                                                                                                                                                | Editions              | Product version       |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|-----------------------|
 | [Visual Studio 2022](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2022?tab=Overview) | Enterprise, Community | Version 17.2        |
-| [Visual Studio 2022 (compatible with Microsoft Dev Box)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudioplustools?exp=ubp8&tab=Overview) | Enterprise, Professional | Version 17.5        |
+| [Visual Studio 2022 (Microsoft Dev Box compatible)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudioplustools?exp=ubp8&tab=Overview) | Enterprise, Professional | Version 17.5        |
 | [Visual Studio 2019: Latest (Version 16.11)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2019latest?tab=Overview) | Enterprise, Community | Version 16.11        |
-| [Visual Studio 2019 (compatible with Microsoft Dev Box)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2019plustools?exp=ubp8&tab=Overview) | Enterprise, Professional | Version 16.11        |
+| [Visual Studio 2019 (Microsoft Dev Box compatible)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2019plustools?exp=ubp8&tab=Overview) | Enterprise, Professional | Version 16.11        |
 | [Visual Studio 2017: Latest (Version 15.9)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio?tab=Overview)           | Enterprise, Community | Version 15.9      |
 | [Visual Studio 2015: Latest (Update 3)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio?tab=Overview)               | Enterprise, Community | Version 14.0.25431.01 |
 
