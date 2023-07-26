@@ -282,5 +282,5 @@ The following steps demonstrate inheritance:
 You can go deeper with these resources:
 
 - For more capabilities of Jinja templates, such as control flow, see [Jinja Template Designer Documentation](http://jinja.palletsprojects.com/en/2.10.x/templates/) (jinja.pocoo.org)
-- For  details on using `url_for`, see [url_for](https://flask.palletsprojects.com/en/2.3.x/#api-reference) within the Flask Application object documentation (flask.pocoo.org)
+- For  details on using `url_for`, see [url_for](https://flask.palletsprojects.com/#api-reference) within the Flask Application object documentation (flask.pocoo.org)
 - Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-flask](https://github.com/Microsoft/python-sample-vs-learning-flask)
