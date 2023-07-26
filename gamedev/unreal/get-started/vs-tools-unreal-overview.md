@@ -21,7 +21,7 @@ ms.workload: "unreal"
 Visual Studio Tools for Unreal Engine provides features that enhance writing and debugging C++ code for Unreal Engine, from within Visual Studio, such as:
 
 * Stream Unreal Engine logs
-* See Blueprint assets
+* See Blueprint references and assets
 * Expand Unreal Engine macros<sup>*</sup>
 * Unreal Engine name convention checker
 * Intellisense tuned for Unreal Engine projects<sup>*</sup>
