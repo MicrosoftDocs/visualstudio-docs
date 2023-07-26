@@ -22,16 +22,16 @@ Learn how to download a Unreal Engine (UE) game sample and use the Visual Studio
 The following must be installed:
 
 - Visual Studio version 17.7 or higher
-- UnReal Engine version 5 or higher.
+- UnReal Engine version 5 or higher (the example used in this quickstart requires UE5 or higher)
 - Visual Studio Tools for Unreal Engine. See [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) for instructions on how to install them.
 
 ## Download and build the Lyra game sample in Visual Studio
 
-Lyra is a sample 3D game project for learning about the frameworks in Unreal Engine. For instructions to download it, see the **Downloading the Lyra Starter Game** section at [Lyra Sample Game](https://docs.unrealengine.com/5.0/lyra-sample-game-in-unreal-engine/).
+Lyra is a sample 3D game project for learning about the frameworks in Unreal Engine for UE version 5.0 and higher. For instructions to download it, see the **Downloading the Lyra Starter Game** section at [Lyra Sample Game](https://docs.unrealengine.com/5.0/lyra-sample-game-in-unreal-engine/).
 
 ## Configure the Lyra game sample to use Visual Studio Tools for Unreal Engine
 
-Once you have downloaded the game sample, update `LyraStarterGame.uproject` to use the Visual Studio Tools plugin by following these steps:
+Once you have downloaded the game sample, update `LyraStarterGame.uproject` to use the Visual Studio Tools plugin. You can do this in the Unreal Editor from the main menu under **Edit** > **Plugins** and then find the Visual Studio Integration plugin and check the box next to it. But we'll do it by following these steps:
 1. Open the `LyraStarterGame.uproject` file in a text editor. It's in the directory where you installed the game sample.
 1. Add the following to the end of the `Plugins` section:
 
@@ -102,7 +102,7 @@ Long UE macros can be difficult to read. Visual Studio Tools for Unreal Engine e
 1. In `LyraGameplayAbility_RangedWeapon.cpp`, go to line 41. You should see the following macro: `UE_DEFINE_GAMEPLAY_TAG_STATIC(TAG_WeaponFireBlocked, "Ability.Weapon.NoFiring");`
 1. Hover the mouse pointer over `UE_DEFINE_GAMEPLAY_TAG_STATIC` to see the macro definition window appear:
 
-:::image type="content" source="../media/vs-ue-macro.png" alt-text="A screenshot in Visual Studio of the macro window. It shows the contents of the UE_DEFINE_GAMEPLAY_TAG_STATIC macro and has options at the bottom to copy, expand inline, visualize expansion, and search online":::
+:::image type="content" source="../media/vs-ue-macro-tooltip.png" alt-text="A screenshot in Visual Studio of the UE macro tooltip. It shows the UE_DEFINE_GAMEPLAY_TAG_STATIC macro and has options at the bottom to copy, expand inline, visualize expansion, and search online":::
 
 The options at the bottom allow you to copy the macro to the clipboard, expand the macro inline, visualize the expansion, and search online.
 
