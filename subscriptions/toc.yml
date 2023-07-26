@@ -36,8 +36,6 @@
       href: sign-in-github.md
     - name: Connected identities
       href: use-connected-identities.md
-    - name: Alternate identities
-      href: vs-alternate-identity.md
     - name: Sign in problems
       href: sign-in-issues.md
     - name: Anonymizations of subscriber data
@@ -188,8 +186,6 @@
       href: edit-license.md
     - name: Delete subscriptions
       href: delete-license.md
-    - name: Search for a subscription
-      href: search-license.md
     - name: Export subscriptions
       href: exporting-subscriptions.md
     - name: Overallocations
