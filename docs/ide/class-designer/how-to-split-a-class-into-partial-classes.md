@@ -17,7 +17,7 @@ dev_langs:
 ms.workload:
 - multiple
 ---
-# How to: Split a class into partial classes in Class Designer
+# Split a class into partial classes in Class Designer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -206,7 +206,7 @@ The following information appears in the **Collection** view.
 - The **Pause Duration** column shows the time that execution was blocked because the garbage collector needs exclusive use of the heap. For a background garbage collection, this value is small.
 - The **LOH Size** column shows the size of the Large Object Heap after the garbage collector was run.
 - The **POH Size** column shows the size of the Pinned Object Heap after the garbage collector was run.
-- The **Finalizable Serv (MB)** column shows the number of MB of objects that have finalizers (destructors) that survived the garbage collection.
+- The **Finalizable Surv (MB)** column shows the number of MB of objects that have finalizers (destructors) that survived the garbage collection.
 - The **Pinned Objects** column shows the number of pinned objects this garbage collection promoted.
 - The **Collected** column shows the number of objects that the garbage collector collected.
 - The **Survived** column shows the number of objects that survived after the garbage collector was run.
