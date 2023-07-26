@@ -65,13 +65,13 @@ Using the correct bootstrapper that corresponds to the version and edition of Vi
 vs_enterprise.exe --layout c:\localVSlayout --config c:\myconfig.vsconfig --lang en-US 
 ```
 
-* Use --config to install the workloads and components from a previously saved installation configuration file:
+Use --config to install the workloads and components from a previously saved installation configuration file:
 
   ```shell
   vs_enterprise.exe --config "C:\myconfig.vsconfig" --installPath "C:\VS"
   ```
 
-* Use --config to add workloads and components to an existing installation. This example uses the installer already on the client machine.
+Use --config to add workloads and components to an existing installation. This example uses the installer already on the client machine.
 
   ```shell
    "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --installPath "C:\VS" --config "C:\myconfig.vsconfig"
