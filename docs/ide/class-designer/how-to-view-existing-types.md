@@ -23,7 +23,7 @@ With Class Designer, you can manage class diagrams by performing the following a
 
 - View [existing types](#view-types-and-relationships-in-class-designer) and its members
 - Find an [inheritance relationship](#view-inheritance-between-types-in-class-designer) between a base type and its derived types
-- Change the way the a class diagram represents an [association relationship](#change-between-member-notation-and-association-notation-in-class-designer) between two types
+- Change the way a class diagram represents an [association relationship](#change-between-member-notation-and-association-notation-in-class-designer) between two types
 
 ## View existing types in Class Designer
 
