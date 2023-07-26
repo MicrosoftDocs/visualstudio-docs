@@ -17928,6 +17928,11 @@
       "source_path": "subscriptions/vs-alternate-identity.md",
       "redirect_url": "/visualstudio/subscriptions/use-connected-identities",
       "redirect_document_id": false
-    }      
+    },
+    {
+      "source_path": "subscriptions/search-license.md",
+      "redirect_url": "/visualstudio/subscriptions",
+      "redirect_document_id": false
+    }          
   ]
 }

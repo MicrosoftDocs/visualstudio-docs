@@ -186,8 +186,6 @@
       href: edit-license.md
     - name: Delete subscriptions
       href: delete-license.md
-    - name: Search for a subscription
-      href: search-license.md
     - name: Export subscriptions
       href: exporting-subscriptions.md
     - name: Overallocations
