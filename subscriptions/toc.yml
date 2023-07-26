@@ -38,8 +38,6 @@
       href: use-connected-identities.md
     - name: Sign in problems
       href: sign-in-issues.md
-    - name: Anonymizations of subscriber data
-      href: anonymization.md
   - name: Subscriptions portal overview
     href: using-the-subscriber-portal.md
   - name: Manage your subscriptions
