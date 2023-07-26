@@ -112,9 +112,18 @@ Here are the volumes that are mounted in your container:
 | **Remote debugger** | Contains the bits required to run the debugger in the container depending on the project type. This is explained in more detail in the [Debugging](#debugging) section.|
 | **App folder** | Contains the project folder where the Dockerfile is located.|
 | **Source folder** | Contains the build context that is passed to Docker commands.|
-| **NuGet packages folders** | Contains the NuGet packages and fallback folders that is read from the *obj\{project}.csproj.nuget.g.props* file in the project. |
+| **NuGet packages folders** | Contains the NuGet packages and fallback folders that are read from the *obj\{project}.csproj.nuget.g.props* file in the project. |
 
 For ASP.NET core web apps, there might be two additional folders for the SSL certificate and the user secrets, which is explained in more detail in the next section.
+
+## Enable detailed container tools logs
+
+For diagnostic purposes, you can enable certain Container Tools logs. These logs are enabled by certain environment variables. For single container projects, the environment variable is `MS_VS_CONTAINERS_TOOLS_LOGGING_ENABLED`, which then logs in `%tmp%\Microsoft.VisualStudio.Containers.Tools`. For Docker Compose projects, it is `MS_VS_DOCKER_TOOLS_LOGGING_ENABLED`, which then logs in `%tmp%\Microsoft.VisualStudio.DockerCompose.Tools`.
+
+:::moniker range=">=vs-2022"
+> [!CAUTION]
+> When logging is enabled and you're using a token proxy for Azure authentication, authentication credentials could be logged as plain text. See [Configure Azure authentication](container-tools-configure.md#configure-azure-authentication).
+:::moniker-end
 
 ## Debugging
 
