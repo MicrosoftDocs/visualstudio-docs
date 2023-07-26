@@ -14,7 +14,8 @@ ms.workload: "unreal"
 
 Learn how to download a Unreal Engine (UE) game sample and use the Visual Studio Tools for Unreal Engine to do the following:
 - [View UE Blueprints in Visual Studio](#view-ue-blueprints-in-visual-studio)\
-- [View UE logging in Visual Studio](#view-ue-logging-within-visual-studio)
+- [View UE logging in Visual Studio](#view-ue-logging-within-visual-studio)\
+- [View UE macros in Visual Studio](#view-ue-macros-in-visual-studio)
 
 ## Prerequisites
 
@@ -92,6 +93,30 @@ The events will be at the bottom of the log so you may have to scroll down to se
 If you find the font color hard to read, you can adjust it under **Tools** > **Options** > **Environment** > **Fonts and Colors**. Change the dropdown **Show settings for:** to **Unreal Engine Log**. Then in **Display items:**, select **Log** and change the **Item foreground** color.
 
 Having the UE logging window open while you're debugging is very convenient because you don't have to switch to the Unreal Editor to see them.
+
+## View UE macros in Visual Studio
+
+Long UE macros can be difficult to read. Visual Studio Tools for Unreal Engine expands UE macros so that you can read them more easily. You can also copy the expanded macro if you want to use it somewhere else or search for it or compare with another macro.
+
+1. In Visual Studio, open `LyraGameplayAbility_RangedWeapon.cpp`. Search for that file in the Search pane of the **Solution Explorer**, or find it under **Games** > **LyraStarterGame** > **Source** > **LyraGame** > **Weapons** > **LyraGameplayAbility_RangedWeapon.cpp**
+1. In `LyraGameplayAbility_RangedWeapon.cpp`, go to line 41. You should see the following macro: `UE_DEFINE_GAMEPLAY_TAG_STATIC(TAG_WeaponFireBlocked, "Ability.Weapon.NoFiring");`
+1. Hover the mouse pointer over `UE_DEFINE_GAMEPLAY_TAG_STATIC` to see the macro definition window appear:
+
+:::image type="content" source="../media/vs-ue-macro.png" alt-text="A screenshot in Visual Studio of the macro window. It shows the contents of the UE_DEFINE_GAMEPLAY_TAG_STATIC macro and has options at the bottom to copy, expand inline, visualize expansion, and search online":::
+
+The options at the bottom allow you to copy the macro to the clipboard, expand the macro inline, visualize the expansion, and search online.
+
+Choose **Expand inline**, to expand the macro, and all nested macros, in the code window.
+
+:::image type="content" source="../media/vs-ue-macro-expanded-inline.png" alt-text="A screenshot in Visual Studio of the code window. It shows the expanded contents of the UE_DEFINE_GAMEPLAY_TAG_STATIC macro, which has replaced the macro on that line in the code windows.":::
+
+You can press `Ctrl+Z` to undo the expansion.
+
+Choose **Search online** to open your browser with a search for C++ plus the name of the macro. In the previous example, this opens the browser to search for `C++ #define UE_DEFINE_GAMEPLAY_TAG_STATIC(TagName, Tag) static FNativeGameplayTag TagName(UE_PLUGIN_NAME, UE_MODULE_NAME,  …`
+
+Choose **Visualize the expansion** to open the **Macro Expansion** window. You can expand the nested macros that are part of the larger macro one step at a time. Scroll to the end of the expansion to see the macro expansion arrows in the upper-right corner of the window. Choose the right arrow to expand the next nested macro. Choose the left arrow to collapse the last nested macro that was expanded:
+
+:::image type="content" source="../media/vs-ue-macro-expansion.png" alt-text="A screenshot in Visual Studio of the macro expansion window. It displays the expanded contents of the UE_DEFINE_GAMEPLAY_TAG_STATIC macro and has two arrows in the upper right, which are highlighted, that allow you to expand or unexpand the macros embedded in the larger macro one step at a time":::
 
 ## Next Steps
 
