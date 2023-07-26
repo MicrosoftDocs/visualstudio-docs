@@ -52,9 +52,9 @@ Class diagrams can help you understand the class structure of projects. These pr
 
 The first step in presenting project information is to create a class diagram that displays what you want to show. For more information, see [Add a class diagram](how-to-add-class-diagrams-to-projects.md). You can create multiple class diagrams for a project that can be used to display a distinct view of the project, a chosen subset of the project's types, or a chosen subset of the members of types.
 
-In addition to defining what each class diagram shows, you can also change the way that information is presented; for more information, see [How to: Customize class diagrams](how-to-customize-class-diagrams.md).
+In addition to defining what each class diagram shows, you can also change the way that information is presented; for more information, see [Customize class diagrams](how-to-customize-class-diagrams.md).
 
-After you have fine-tuned one or more class diagrams, you can copy them into Microsoft Office documents and print them, or export them as image files. For more information, see [How to: Copy class diagram elements to a Microsoft Office document](how-to-copy-class-diagram-elements-to-a-microsoft-office-document.md), [How to: Print class diagrams](how-to-print-class-diagrams.md) and [How to: Export class diagrams as images](how-to-export-class-diagrams-as-images.md).
+After you have fine-tuned one or more class diagrams, you can copy them into Microsoft Office documents and print them, or export them as image files. For more information, see [Copy class diagram elements to a Microsoft Office document](how-to-copy-class-diagram-elements-to-a-microsoft-office-document.md), [Print class diagrams](how-to-print-class-diagrams.md) and [Export class diagrams as images](how-to-export-class-diagrams-as-images.md).
 
 > [!NOTE]
 > Class Designer does not track the location of your source files, so changing your project structure or moving source files in the project can cause Class Designer to lose track of the type, especially the source type of a typedef, base classes, or association types. You might get an error, like **Class Designer is unable to display this type**. If you do, drag the modified or relocated source code to the class diagram again to redisplay it.
@@ -116,7 +116,7 @@ In **Class View**, open the namespace or type context menu and then choose **Vie
 > [!TIP]
 > If **Class View** is not open, open **Class View** from the **View** menu. Or, press **Ctrl**+**Shift**+**C**.
 
-## To display the contents of a complete project in a class diagram
+### To display the contents of a complete project in a class diagram
 
 In **Solution Explorer** or Class View, right-click the project and choose **View**, then choose **View Class Diagram**.
 

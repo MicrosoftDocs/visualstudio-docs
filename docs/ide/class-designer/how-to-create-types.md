@@ -1,5 +1,5 @@
 ---
-title: 'How to: Create Types by using Class Designer'
+title: 'Create Types by using Class Designer'
 description: Learn how to design new types for C# and Visual Basic projects by creating them on a class diagram.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -92,7 +92,7 @@ To create an inheritance relationship between two types on a class diagram using
 
 1. From your project in **Solution Explorer**, open a class diagram (.cd) file.
 
-     If you don't have a class diagram, create it. See [How to: Add Class Diagrams to Projects](how-to-add-class-diagrams-to-projects.md).
+     If you don't have a class diagram, create it. See [Add Class Diagrams to Projects](how-to-add-class-diagrams-to-projects.md).
 
 1. In the **Toolbox**, under **Class Designer**, click **Inheritance**.
 

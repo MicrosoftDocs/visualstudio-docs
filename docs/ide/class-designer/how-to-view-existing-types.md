@@ -37,7 +37,7 @@ To design new types on class diagrams, see [Create types by using Class Designer
 
 1. From a project in **Solution Explorer**, open an existing class diagram (.cd) file. Or if no class diagram exists, add a new class diagram to the project. See [How to: Add Class Diagrams to Projects](how-to-add-class-diagrams-to-projects.md).
 
-2. From the project in **Solution Explorer**, drag a source code file to the class diagram.
+1. From the project in **Solution Explorer**, drag a source code file to the class diagram.
 
     > [!NOTE]
     > If your solution has a project that shares code across multiple apps, you can drag files or code to a class diagram only from these sources:
@@ -113,4 +113,4 @@ On the class diagram, right-click the association line, and choose **Show as Pro
 
 ## See also
 
-- ADD SOMETHING HERE!
+- [Refactor classes and types in Class Designer](refactoring-classes-and-types.md)
