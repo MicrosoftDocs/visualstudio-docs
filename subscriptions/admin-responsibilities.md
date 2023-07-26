@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: b26b31dc-1eeb-4871-9ce6-2c980e703f1e
-ms.date: 07/07/2022
+ms.date: 07/26/2023
 ms.topic: conceptual
 description:  Learn about responsibilities of subscriptions admins.
 ---
@@ -20,6 +20,21 @@ A Visual Studio subscriptions admin has four key responsibilities:
 2. **Assign Visual Studio subscriptions to specific, named individuals and encourage usage.** Your contract requires that Visual Studio subscriptions be assigned to specific, named individuals. Follow up with your subscribers to ensure they access and take full advantage of the benefits included in their Visual Studio subscription.
 3. **Accurately inventory your pre-production environment.** This is essential to ensure all users who interact with Visual Studio-licensed software are appropriately licensed with their own Visual Studio subscription. 
 4. **Track user assignment changes and acquire additional licenses on schedule.** Microsoft Volume Licensing (VL) Agreements and MPSA give you flexibility in how you use and assign Visual Studio subscriptions. In return, you're expected to track changes to software usage and user assignments and process orders for additional licenses on the schedule outlined in the agreement.  To help with this responsibility, there is a [Maximum Usage report](maximum-usage.md) you can run in the Visual Studio Subscription Administration Portal. 
+
+### Inventory of preproduction environment
+
+Visual Studio subscriptions simplify asset management by counting users rather than devices.
+
+Visual Studio admins must assign Visual Studio Subscriptions to **specific, named individuals**. Names that don't identify individual subscribers such as Dev1, Dev2, or the use of team names such as "FeatureTeam" are **not allowed**.
+
+Here are some ways to simplify taking inventory of your preproduction environment:
++ Review your user assignments. Microsoft provides a website called the [Visual Studio Administration Portal](https://manage.visualstudio.com/) to help you manage and track Visual Studio subscription assignments.
++ Use your on-premises or cloud-based Active Directory to list users. If you use Active Directory to manage user access, you may be able to identify development and test users by their directory membership.
++ Use automated tools to inventory systems. You may also need to use a software inventory tool to help manage your software assets and distinguish preproduction environments from production ones. Many customers with Microsoft System Center create naming conventions to help automate this part of the inventory process.
++ Get help with manual reconciliation. Enlist your staff to help reconcile your dev/test users with your development and test environment.
+
+> [!NOTE]
+> Visual Studio subscriptions software is not licensed for production environments, including any environment accessed by end users for more than acceptance testing or feedback, an environment connecting to a production database, supporting disaster recovery or production backup, or used for production during peak periods of activity. Exceptions to this include specific benefits for certain subscription levels, outlined in the [Visual Studio Licensing White Paper](https://aka.ms/vslicensing).  
 
 ## Benefits and limitations
 
