@@ -36,12 +36,8 @@
       href: sign-in-github.md
     - name: Connected identities
       href: use-connected-identities.md
-    - name: Alternate identities
-      href: vs-alternate-identity.md
     - name: Sign in problems
       href: sign-in-issues.md
-    - name: Anonymizations of subscriber data
-      href: anonymization.md
   - name: Subscriptions portal overview
     href: using-the-subscriber-portal.md
   - name: Manage your subscriptions
@@ -134,8 +130,6 @@
   items:
   - name: Administrator responsibilities
     href: admin-responsibilities.md
-  - name: Pre-production inventory
-    href: admin-inventory.md
   - name: Manage large teams and external contractors
     href: manage-teams.md
   - name: Track user assignments and process orders
@@ -188,8 +182,6 @@
       href: edit-license.md
     - name: Delete subscriptions
       href: delete-license.md
-    - name: Search for a subscription
-      href: search-license.md
     - name: Export subscriptions
       href: exporting-subscriptions.md
     - name: Overallocations
@@ -200,8 +192,6 @@
       href: assign-github.md
   - name: Troubleshoot
     items:
-    - name: Accounts removed by Microsoft
-      href: account-removed.md  
     - name: Expired subscriptions
       href: handle-expired-license.md
     - name: Subscriber sign-in scenarios 

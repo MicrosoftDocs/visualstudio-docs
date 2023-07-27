@@ -60,7 +60,7 @@ You can add these members to types on a class diagram and configure those member
 
 ## Open the Class Details window
 
-By default, the **Class Details** window appears automatically when you open a new class diagram. See [How to: Add class diagrams to projects](how-to-add-class-diagrams-to-projects.md)). You can also open the **Class Details** window in the following ways:
+By default, the **Class Details** window appears automatically when you open a new class diagram. See [Add class diagrams to projects](how-to-add-class-diagrams-to-projects.md)). You can also open the **Class Details** window in the following ways:
 
 - Right-click on any class in the diagram to display a context menu, and then select **Class Details**.
 
