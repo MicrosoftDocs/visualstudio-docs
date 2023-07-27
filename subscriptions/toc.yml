@@ -38,8 +38,6 @@
       href: use-connected-identities.md
     - name: Sign in problems
       href: sign-in-issues.md
-    - name: Anonymizations of subscriber data
-      href: anonymization.md
   - name: Subscriptions portal overview
     href: using-the-subscriber-portal.md
   - name: Manage your subscriptions
@@ -132,8 +130,6 @@
   items:
   - name: Administrator responsibilities
     href: admin-responsibilities.md
-  - name: Pre-production inventory
-    href: admin-inventory.md
   - name: Manage large teams and external contractors
     href: manage-teams.md
   - name: Track user assignments and process orders

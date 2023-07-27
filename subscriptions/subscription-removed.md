@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 34eaceda-f5db-41d6-bc23-ecf55fe1768e
-ms.date: 07/25/2023
+ms.date: 07/26/2023
 ms.topic: troubleshooting
 ms.custom: kr2b-contr-experiment
 description: Learn what happens when your admin removes your Visual Studio subscription. This information includes how your benefits change and support resources.
@@ -69,6 +69,26 @@ If you're a subscriptions admin, you might occasionally see in your dashboard th
 ### What happens when the account is closed?
 
 If the subscription is removed, the subscriber loses access to the subscription.  If a subscriber is removed from an Azure AD group, their subscription information is permanently removed within 180 days.  If a subscriber closes their MSA, their information is removed immediately.  
+
+### Anonymization of Visual Studio subscriber information
+
+When an event occurs that blocks a subscriber's use of a subscription, the user's personal information such as name and sign-in account is scrambled to render it unusable.  This "anonymization" is done to safeguard the subscriber's personal information.  These events can include:
++ Expiration of the subscription
++ Deletion of the subscribers sign-in account   
+
+[!INCLUDE [GDPR-related guidance](includes/gdpr-intro-sentence.md)]
+
+### When does anonymization occur?
+
+Events that make a subscription unusable to a subscriber triggers anonymization.  How quickly the anonymization occurs depends on the type of subscription and the triggering event.
+
+| Subscription Type  | Event triggering anonymization | When anonymization occurs |
+|--------------------|--------------------------------|---------------------------|
+| Visual Studio Dev Essentials | Subscriber opts out of the program or doesn't accept the terms of use | 30 days |
+| Visual Studio subscriptions purchased  through the Microsoft Store (retail) | Subscription expires or isn't activated  | 360 days |
+| Visual Studio subscriptions acquired through  Volume License, Visual Studio Marketplace  (cloud subscriptions), or programs such as MPN | Subscription expires or isn't assigned to a user | 180 days |
+| All subscriptions | An Azure Active Directory account or Microsoft  Account (MSA) used to sign into the subscription is closed | Immediately |
+| All subscriptions | A subscriber is removed from the tenant that is associated with the Azure Active Directory account | Immediately |
 
 ## Support resources
 
