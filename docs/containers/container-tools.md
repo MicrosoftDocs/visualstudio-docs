@@ -148,6 +148,8 @@ Once the develop and debug cycle of the app is completed, you can create a produ
 
 You can now pull the container from the registry to any host capable of running Docker images, for example [Azure Container Instances](/azure/container-instances/container-instances-tutorial-deploy-app).
 
+::: moniker-end
+
 ## Additional resources
 
 * [Container development with Visual Studio](./index.yml)
