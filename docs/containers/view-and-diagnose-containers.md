@@ -50,7 +50,7 @@ On the left side, you see the list of containers on your local machine. The cont
 
 If you're using Docker Compose and Visual Studio 2022 version 17.7 or later, you see a tree of nodes for your solution and its Docker Compose project, with a parent node for the solution and child nodes for each project, as you can see the following image:
 
-![Screenshot showing Docker Compose nodes in the Containers window.](./media/view-and-diagnose-containers/vs-2022/containers-logs-interleaved.png.png)
+![Screenshot showing Docker Compose nodes in the Containers window.](./media/view-and-diagnose-containers/vs-2022/containers-logs-interleaved.png)
 :::moniker-end
 
 ## View environment variables
