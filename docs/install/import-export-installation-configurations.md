@@ -65,6 +65,9 @@ Use `--config` to modify an existing installation to add or remove components. T
 "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --installPath "C:\VS" --config "C:\myconfig.vsconfig"
 ```
 
+> [!NOTE]
+> To add or remove components to an existing installation by using a config file (*.vsconfig), you'll need to **modify** your installed product and not update. Update just updates the components and not add or remove new ones.
+
 When you install Visual Studio programmatically or by using a command prompt, you can use various command-line parameters to control or customize the installation. To learn more, see [Install Visual Studio from the command line](use-command-line-parameters-to-install-visual-studio.md).
 
 ## Use a configuration file to initialize the contents of a layout
