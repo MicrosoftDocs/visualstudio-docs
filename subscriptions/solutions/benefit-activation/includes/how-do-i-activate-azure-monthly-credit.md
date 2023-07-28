@@ -19,7 +19,7 @@ sap.id: 8dedd10e-cb1c-2eb1-bcda-fe00b07ac903
 1. If you don't have an existing Azure subscription, you'll be asked to fill in the required personal information to create one.  
 1. Accept the subscriptions agreement and you’re ready to go. In the future, you can access your Azure subscription at [portal.azure.com](https://portal.azure.com/). 
 
-Read the [full activation instructions](https://learn.microsoft.com/azure/devtest/offer/quickstart-individual-credit#sign-in-through-visual-studio---myvisualstudiocombenefits).
+Read the [full activation instructions](https://learn.microsoft.com/azure/devtest/offer/quickstart-individual-credit#sign-in-through-visual-studio-myvisualstudiocombenefits).
 
 ## Geographic restrictions may apply 
 
