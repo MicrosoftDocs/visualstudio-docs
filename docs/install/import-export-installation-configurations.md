@@ -2,7 +2,7 @@
 title: Import or export installation configurations
 titleSuffix: ''
 description: Learn how to export your installation configuration to a .vsconfig file to share with others, and how to import it to clone.
-ms.date: 2/21/2023
+ms.date: 7/28/2023
 ms.topic: how-to
 helpviewer_keywords:
 - import installation configuration
@@ -57,9 +57,22 @@ When you're ready to import an installation configuration file, follow these ste
 
 1. Make sure you've got the workloads and components that you want, and then choose **Close**.
 
+## Use a configuration file to add components to an existing installation
+ 
+Use `--config` to modify an existing installation to add or remove components. This example uses the installer already on the client machine.
+
+```shell
+"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --installPath "C:\VS" --config "C:\myconfig.vsconfig"
+```
+
+> [!NOTE]
+> To add or remove components to an existing installation by using a config file (*.vsconfig), you'll need to **modify** your installed product and not update. **Update** just updates the components to the latest version; it doesn't add or remove new ones.
+
+When you install Visual Studio programmatically or by using a command prompt, you can use various command-line parameters to control or customize the installation. To learn more, see [Install Visual Studio from the command line](use-command-line-parameters-to-install-visual-studio.md).
+
 ## Use a configuration file to initialize the contents of a layout
 
-Using the correct bootstrapper that corresponds to the version and edition of Visual Studio that you want, open an administrator command prompt and run the following command.  
+Using the correct bootstrapper that corresponds to the version and edition of Visual Studio that you want, open an administrator command prompt and run the following command to use `-config` to configure the contents of a layout:
 
 ```shell
 vs_enterprise.exe --layout c:\localVSlayout --config c:\myconfig.vsconfig --lang en-US 
