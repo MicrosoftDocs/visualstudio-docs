@@ -2,7 +2,7 @@
 title: "Modify Visual Studio workloads, components, & language packs"
 titleSuffix: ''
 description: Learn how to modify Visual Studio, step-by-step.
-ms.date: 5/16/2023
+ms.date: 7/28/2023
 ms.topic: how-to
 ms.custom: vs-acquisition
 helpviewer_keywords:
@@ -132,6 +132,8 @@ Workloads contain the components you need for the programming language or platfo
 1. Choose **Modify**.
 
 1. After the modified workloads or components are installed, choose **Launch** from the Visual Studio Installer to open Visual Studio 2022.
+
+You can also use a [configuration file to modify an existing installation to add or remove components](import-export-installation-configurations.md#use-a-configuration-file-to-add-components-to-an-existing-installation). Learn more about using [installation configuration files to configure Visual Studio](import-export-installation-configurations.md).
 
 ::: moniker-end
 
