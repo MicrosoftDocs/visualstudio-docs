@@ -1,5 +1,5 @@
 ---
-title: "Visual Studio Tools for Unreal Engine | Microsoft Docs"
+title: "Quickstart: Visual Studio Tools for Unreal Engine | Microsoft Docs"
 description: Read an overview about Visual Studio Tools for Unreal Engine, which is a free Visual Studio extension that helps you develop games with Unreal Engine.
 ms.date: "07/24/2023"
 ms.topic: quickstart
@@ -10,7 +10,7 @@ ms.author: TWhitney
 manager: MarkL
 ---
 
-# Quickstart: Use Visual Studio Tools for Unreal Engine
+# Quickstart: Visual Studio Tools for Unreal Engine
 
 Learn how to download a Unreal Engine (UE) game sample and use the Visual Studio Tools for Unreal Engine to do the following:
 - [View UE Blueprints in Visual Studio](#view-ue-blueprints-in-visual-studio)\
@@ -23,7 +23,7 @@ The following must be installed:
 
 - Visual Studio version 17.7 or higher
 - UnReal Engine version 5 or higher (the example used in this quickstart requires UE5 or higher)
-- Visual Studio Tools for Unreal Engine. See [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) for instructions on how to install them.
+- Visual Studio Tools for Unreal Engine. See [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) for instructions how to install them.
 
 ## Download and build the Lyra game sample in Visual Studio
 
@@ -36,14 +36,14 @@ Once you have downloaded the game sample, update `LyraStarterGame.uproject` to u
 1. Add the following to the end of the `Plugins` section:
 
     ```json
-            ,{
-    			"Name": "VisualStudioTools",
-    			"Enabled": true,
-    			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/362651520df94e4fa65492dbcba44ae2",
-    			"SupportedTargetPlatforms": [
-    				"Win64"
-    			]
-    		}
+	,{
+		"Name": "VisualStudioTools",
+		"Enabled": true,
+		"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/362651520df94e4fa65492dbcba44ae2",
+		"SupportedTargetPlatforms": [
+			"Win64"
+		]
+	}
     ```
 
 1. Open the Lyra project in Unreal Engine.
