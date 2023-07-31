@@ -341,9 +341,17 @@ Use the following attributes to exclude an entire assembly of tests from Live Un
 - For NUnit: `[assembly: Category("SkipWhenLiveUnitTesting")]`
 - For MSTest: `[assembly: TestCategory("SkipWhenLiveUnitTesting")]`
 
+::: moniker range="<=vs-2019"
 ## Cancelling Live Unit Testing test runs
 
-//TODO
+Live Unit Testing keeps running tests whenever you make any code changes.
+If a run is in progress and you make more code changes, Live Unit Testing will queue another
+run waiting for the first run to complete.
+
+Whenever you save files, Live Unit Testing will instead cancel the first run
+and immediately schedule the queued run instead. This helps with scenarios where the
+first run would have taken very long to complete.
+::: moniker-end
 
 ## See also
 
