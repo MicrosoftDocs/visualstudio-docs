@@ -26,7 +26,7 @@
     href: getting-started-with-the-debugger-cpp.md
   - name: Learn to debug Visual Basic
     href: ../get-started/visual-basic/tutorial-debugger.md?toc=%2fvisualstudio%2fdebugger%2ftoc.json
-  - name: Running Python code in the debugger...
+  - name: Running Python code in the debugger >>
     href: ../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md
   - name: Debug a live Azure app
     href: debug-live-azure-applications.md
@@ -424,13 +424,13 @@
         href: ../xaml-tools/debug-xaml-in-blend.md
       - name: How to trigger suspend, resume, and background events
         href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
-    - name: Managed code (C#, Visual Basic, F#)
+    - name: .NET
       items:
       - name: Debugging preparation
         items:
-        - name: 'Debugging preparation: C#, F#, and Visual Basic project types'
+        - name: 'Debugging preparation: .NET'
           href: debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md
-        - name: 'Managed debugging: Recommended property settings'
+        - name: Recommended property settings
           href: managed-debugging-recommended-property-settings.md
         - name: 'Debugging preparation: Windows Forms applications'
           href: debugging-preparation-windows-forms-applications.md
@@ -492,10 +492,8 @@
         href: mfc-debugging-techniques.md
       - name: CRT debugging techniques >>
         href: /cpp/c-runtime-library/crt-debugging-techniques
-      - name: Native code debugging FAQs
-        items:
-        - name: Debugging native code FAQs
-          href: debugging-native-code-faqs.yml
+      - name: FAQ for debugging native code
+        href: debugging-native-code-faqs.yml
       - name: COM
         items:
         - name: COM server and container debugging
