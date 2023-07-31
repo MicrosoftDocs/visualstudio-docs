@@ -39,7 +39,7 @@ We recommend [downloading and using the latest version of Visual Studio.](https:
 
 ## Supported Unreal Engine versions
 
-Unreal Engine version 4.27 and 5.0 or higher.
+Unreal Engine version 4.27 and 5.0 or later.
 
 ## See also
 
