@@ -191,6 +191,12 @@ To enable Live Unit Testing, select **Test** > **Live Unit Testing** > **Start**
 
 At any time, you can temporarily pause or completely stop Live Unit Testing. You may want to do this, for example, if you're in the middle of a refactoring and know that your tests will be broken for a while.
 
+::: moniker range=">=vs-2022"
+> [!NOTE]
+> The first time you start Live Unit Testing, you will need to enable the namespaces/classes/projects that you want tested by Live Unit
+> Testing. 
+::: moniker-end
+
 ## View coverage visualization
 
 After it's enabled, Live Unit Testing updates each line of code in the Visual Studio editor to show you whether the code you're writing is covered by unit tests and whether the tests that cover it are passing. The following image shows lines of code with both passing and failing tests, as well as lines of code that are not covered by tests. Lines decorated with a green "✓" are covered only by passing tests, lines decorated with a red "x" are covered by one or more failing tests, and lines decorated by a blue  "➖" are not covered by any test.
@@ -283,6 +289,7 @@ There are some differences between Live Unit Testing automatically running and u
 - Live Unit Testing runs tests in each test assembly sequentially. In the **Test Explorer** window, you can choose to run multiple tests in parallel.
 ::: moniker-end
 
+::: moniker range="<=vs-2019"
 ## Large solutions
 
 If your solution has 10 or more projects, Visual Studio displays the following dialog when you:
@@ -293,6 +300,7 @@ If your solution has 10 or more projects, Visual Studio displays the following d
 ![Live Unit Testing dialog for large projects](media/lut-large-project.png)
 
 The dialog warns you that dynamic execution of large numbers of tests in large projects can severely impact performance. If you select **OK**, Live Unit Testing executes all tests in the solution. If you select **Cancel**, you can select the tests to execute. The following section explains how to do this.
+::: moniker-end
 
 ## Include and exclude test projects and test methods
 
