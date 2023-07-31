@@ -492,10 +492,8 @@
         href: mfc-debugging-techniques.md
       - name: CRT debugging techniques >>
         href: /cpp/c-runtime-library/crt-debugging-techniques
-      - name: Native code debugging FAQs
-        items:
-        - name: Debugging native code FAQs
-          href: debugging-native-code-faqs.yml
+      - name: FAQ for debugging native code
+        href: debugging-native-code-faqs.yml
       - name: COM
         items:
         - name: COM server and container debugging
