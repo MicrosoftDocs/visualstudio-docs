@@ -24,45 +24,45 @@ Starting in Visual Studio 2019 version 16.11, you can create new GitHub Actions 
 
 In Solution Explorer, right-click your GitHub.com hosted project and choose **Publish**.
 
-![right-click > Publish](./media/solution-explorer-publish.png)
+![right-click > Publish](./media/azure-deployment-using-github-actions/solution-explorer-publish.png)
 
 On the next screen, select **Azure** and then choose **Next**.
 
-![select Azure](./media/wizard-azure.png)
+![select Azure](./media/azure-deployment-using-github-actions/wizard-azure.png)
 
 Depending on your [project type](#which-project-types-are-supported), you get a different list of Azure services to pick from. Pick one of the [supported Azure services](#which-azure-services-are-supported) that fits your needs.
 
-![select the appropriate Azure service for your project](./media/wizard-pick-azure-service.png)
+![select the appropriate Azure service for your project](./media/azure-deployment-using-github-actions/wizard-pick-azure-service.png)
 
 On the final step of the wizard, select **CI/CD using GitHub Actions workflows (generates yml file)** and then choose **Finish**.
 
-![CI/CD using GitHub Actions workflows (generates yml file)](./media/wizard-final-step.png)
+![CI/CD using GitHub Actions workflows (generates yml file)](./media/azure-deployment-using-github-actions/wizard-final-step.png)
 
 Visual Studio generates a new GitHub Actions workflow and asks you to commit it and push it to GitHub.com.
 
-![commit and push](./media/summary-commit-and-push.png)
+![commit and push](./media/azure-deployment-using-github-actions/summary-commit-and-push.png)
 
 If you complete this step by using the [built-in Git tooling](../version-control/git-with-visual-studio.md?view=vs-2019&preserve-view=true#git-changes-window-in-visual-studio-2019), Visual Studio will detect the execution of the workflow.
 
-![workflow is running](./media/summary-workflow-running.png)
+![workflow is running](./media/azure-deployment-using-github-actions/summary-workflow-running.png)
 
 ## Setting the GitHub secrets
 
 For the generated workflow to successfully deploy to Azure, it may require access to a [publish profile](/azure/app-service/deploy-github-actions?tabs=applevel#configure-the-github-secret).
 
-![one github secret](./media/summary-one-github-secret.png)
+![one github secret](./media/azure-deployment-using-github-actions/summary-one-github-secret.png)
 
 A successful deployment may also require access to a [service principal](/azure/app-service/deploy-github-actions?tabs=userlevel#configure-the-github-secret).
 
-![two github secrets](./media/summary-two-github-secrets.png)
+![two github secrets](./media/azure-deployment-using-github-actions/summary-two-github-secrets.png)
 
 In all cases, Visual Studio tries to set the GitHub secret for you with the correct value. If it fails, it will let you know and give you the opportunity to try again.
 
-![github secret missing](./media/summary-one-github-secret-missing.png)
+![github secret missing](./media/azure-deployment-using-github-actions/summary-one-github-secret-missing.png)
 
 If it fails to set the secret again, Visual Studio gives you the opportunity to get access to the secret manually, so you can complete the process through your repo's page on github.com.
 
-![set missing github secret](./media/summary-set-github-secret.png)
+![set missing github secret](./media/azure-deployment-using-github-actions/summary-set-github-secret.png)
 
 ## Which project types are supported?
 
