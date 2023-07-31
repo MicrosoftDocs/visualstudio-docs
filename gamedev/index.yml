@@ -29,9 +29,6 @@ highlightedContent:
     - title: C++ game development with Unreal Engine
       itemType: learn
       url: unreal/get-started/vs-tools-unreal-overview.md
-    - title: C++ game development with Unreal Engine
-      itemType: learn
-      url: unreal/get-started/vs-tools-unreal-overview.md
     - title: Learn more about .NET game development
       itemType: learn
       url: https://dotnet.microsoft.com/apps/gaming
@@ -65,6 +62,8 @@ productDirectory:
           text: Overview of Visual Studio Tools for Unreal Engine
         - url: unreal/get-started/vs-tools-unreal-install.md
           text: Install Visual Studio Tools for Unreal Engine
+        - url: unreal/get-started/vs-tools-unreal-quickstart.md
+          text: Get started with Visual Studio Tools for Unreal Engine  
 conceptualContent:
   title: Level up with Visual Studio
   summary: Learn more about code editing, debugging, building, and more with Visual Studio.
