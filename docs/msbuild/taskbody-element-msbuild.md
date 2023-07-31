@@ -1,7 +1,6 @@
 ---
 title: Task Element of UsingTask (MSBuild) | Microsoft Docs
 description: Learn about the Task element of the MSBuild UsingTask, which contains the data that is passed to a UsingTask TaskFactory.
-ms.custom: SEO-VS-2020
 ms.date: 03/13/2017
 ms.topic: reference
 dev_langs:

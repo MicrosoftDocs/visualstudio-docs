@@ -1,7 +1,6 @@
 ---
 title: Migrate testsettings to runsettings
 description: Learn how to migrate testsettings to runsettings
-ms.custom: SEO-VS-2020
 ms.date: 03/18/2021
 ms.topic: conceptual
 f1_keywords:

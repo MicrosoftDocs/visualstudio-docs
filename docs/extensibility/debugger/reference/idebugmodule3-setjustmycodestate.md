@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugModule3::SetJustMyCodeState
 ms.assetid: 68f8166d-ef64-49ae-ad5e-79604f43bbd4
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

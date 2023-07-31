@@ -4,11 +4,11 @@ description: Use Google Test to create C++ unit tests in Visual Studio.
 ms.date: 01/19/2022
 ms-custom: devdivchpfy22
 ms.topic: how-to
-ms.author: corob
+ms.author: twhitney
 manager: markl
 ms.workload: 
   - cplusplus
-author: corob-msft
+author: tylermsft
 ---
 # How to use Google Test for C++ in Visual Studio
 
@@ -41,7 +41,6 @@ In Visual Studio 2017 and later, Google Test is integrated into the Visual Studi
 ![New Google Test Project](media/vs-2019/cpp-gtest-new-project-vs2019.png)
 
 ::: moniker-end
-
 
 ## Configure the test project
 

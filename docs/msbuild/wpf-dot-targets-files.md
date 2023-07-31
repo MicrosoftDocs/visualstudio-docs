@@ -1,7 +1,6 @@
 ---
 title: "WPF .Targets Files | Microsoft Docs"
 description: Learn how Windows Presentation Foundation (WPF) extends MSBuild by adding a set of WPF-specific tasks in a special .targets file, Microsoft.WinFX.targets.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

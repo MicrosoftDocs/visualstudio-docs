@@ -1,7 +1,6 @@
 ---
 title: 'How to: Clean a Build | Microsoft Docs'
 description: Learn how to use MSBuild to clean a build, deleting all intermediate and output files and leaving only the project and component files.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

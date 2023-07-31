@@ -2,7 +2,6 @@
 title: "Packaging Explorer: Add & remove features & items to package"
 titleSuffix: ""
 description: Add and remove features and items to a SharePoint package by using the Packaging Explorer in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:

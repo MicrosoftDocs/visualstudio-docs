@@ -1,0 +1,49 @@
+name: "generate what's new article"
+
+on:
+  schedule:
+    - cron: "0 2 1 * *" # The first of every month at 2 AM
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "The reason for running the workflow"
+        required: true
+        default: "Manual run"
+
+jobs:
+  create-what-is-new:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9
+
+      - name: "Print manual run reason"
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        run: |
+          echo "Reason: ${{ github.event.inputs.reason }}"
+      
+      # This step ensures that this workflow only runs in the private repo pair
+      - if: ${{ steps.visibility.outputs.is_public == 'true' }}
+        run: | 
+          echo "Public repo"
+          exit 1
+
+      - uses: dotnet/docs-tools/WhatsNew.Cli@main
+        env:
+          GitHubKey: ${{ secrets.GITHUB_TOKEN }}
+          OspoKey: ${{ secrets.OSPO_KEY }}
+        with:
+          owner: MicrosoftDocs
+          repo: visualstudio-docs-pr
+          savefile: './docs/ide/whats-new-visual-studio-docs.md'
+
+      - name: create-pull-request
+        uses: peter-evans/create-pull-request@153407881ec5c347639a548ade7d8ad1d6740e38
+        with:
+          branch: create-whatsnew-pull-request/patch
+          title: "What's new article"
+          commit-message: 'Bot 🤖 generated "What''s new article"'
+          body: "Automated creation of What's new article."

@@ -1,7 +1,6 @@
 ---
 title: "How to: Update a data source with data from a host control"
 description: Learn how you can bind a host control to a data source and update the data source with the changes that are made to the data in the control.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

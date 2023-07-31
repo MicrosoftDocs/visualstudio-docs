@@ -1,7 +1,6 @@
 ---
 title: MSBuild Task | Microsoft Docs
 description: Learn how the MSBuild task uses the same MSBuild process to build child projects from another MSBuild project.
-ms.custom: SEO-VS-2020
 ms.date: 07/30/2019
 ms.topic: reference
 f1_keywords:

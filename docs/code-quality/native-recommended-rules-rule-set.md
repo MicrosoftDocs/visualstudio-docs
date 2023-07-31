@@ -2,7 +2,6 @@
 title: Native Recommended Rules rule set
 ms.date: 11/04/2016
 description: Learn about the Visual Studio Native Recommended Rules rule set. See descriptions of rules for security, robustness, and other critical issues in native code.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 author: mikejo5000
 ms.author: mikejo

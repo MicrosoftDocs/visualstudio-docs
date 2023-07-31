@@ -1,7 +1,6 @@
 ---
 title: Code navigation commands
 description: Learn about the different options you have to navigate around in your code in the editor.
-ms.custom: SEO-VS-2020
 ms.date: 11/21/2019
 ms.topic: conceptual
 helpviewer_keywords:

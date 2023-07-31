@@ -1,14 +1,13 @@
 ---
 title: 'How to: Get a Service | Microsoft Docs'
 description: Learn how to get Visual Studio services to access different features. You can get most services by using a VSPackage.
-ms.custom: SEO-VS-2020
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
 - services, consuming
 ms.assetid: 1f000020-8fb7-4e39-8e1e-2e38c7fec3d4
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

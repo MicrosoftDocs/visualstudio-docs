@@ -1,7 +1,6 @@
 ---
 title: "Call code in VSTO Add-ins from other Office solutions"
 description: Learn how you can expose an object in your VSTO Add-in to other solutions, including other Microsoft Office solutions.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

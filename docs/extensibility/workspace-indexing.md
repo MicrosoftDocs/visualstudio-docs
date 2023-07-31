@@ -1,7 +1,6 @@
 ---
 title: "Workspace indexing in Visual Studio | Microsoft Docs"
 description: Learn about workspace indexing, which is the collection and persistent storage of data to support rich IDE features for an Open Folder workspace.
-ms.custom: SEO-VS-2020
 ms.date: "02/21/2018"
 ms.topic: "conceptual"
 author: "vukelich"

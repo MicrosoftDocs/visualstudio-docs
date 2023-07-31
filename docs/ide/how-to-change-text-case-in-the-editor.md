@@ -1,7 +1,6 @@
 ---
 title: Convert text to uppercase or lowercase
 description: Learn how to use menu commands or keyboard shortcuts to convert the case of selected text to all upper case or to all lower case.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

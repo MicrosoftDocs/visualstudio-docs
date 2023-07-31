@@ -1,7 +1,6 @@
 ---
 title: Create Add-In for Web Performance Test Results Viewer
 description: Learn how to create a Visual Studio add-in to extend the Web Performance Test Results Viewer's UI and implement the classes necessary to extend the UI.
-ms.custom: SEO-VS-2020
 ms.date: 10/20/2016
 ms.topic: how-to
 helpviewer_keywords: 

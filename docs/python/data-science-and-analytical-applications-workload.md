@@ -1,10 +1,10 @@
 ---
 title: Data Science and Analytical Applications workload
 description: This Visual Studio workload brings together Python, F#, and their respective runtime distributions including Anaconda. (R is also included in Visual Studio 2017 only.)
-ms.date: 07/28/2021
+ms.date: 1/5/2023
 ms.topic: overview
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 ms.workload:
@@ -17,18 +17,14 @@ ms.workload:
 
 The Data Science and Analytical Applications workload, which you select and install through the Visual Studio installer, brings together several languages and their respective runtime distributions:
 
-
 ::: moniker range="vs-2019"
 - [Python](../python/overview-of-python-tools-for-visual-studio.md)
-- [F# with the .NET framework](/dotnet/fsharp/)
+- [F# with the .NET Framework](/dotnet/fsharp/)
 ::: moniker-end
 
 ![Data Science and Analytics Applications workload in the Visual Studio installer](media/workload/data-science-workload.png)
 
-
-::: moniker range=">=vs-2019"
 Python is a primary scripting language used for data science. Python is easy to learn and is supported by a rich ecosystem of packages. Those packages address a wide range of scenarios such as data acquisition, cleaning, model training, deployment, and plotting. F# is also a powerful functional-first .NET language that's suited for a wide variety of data processing tasks.)
-::: moniker-end
 
 <!--Note link on the image because this one is large -->
 [![Screenshots of Visual Studio with R, Python, and F#](media/workload/data-science-workload-screens.png)](media/workload/data-science-workload-screens.png#lightbox)
@@ -37,20 +33,16 @@ Python is a primary scripting language used for data science. Python is easy to 
 
 By default, the workload installs the following options, which you can modify in the summary section for the workload in the Visual Studio installer:
 
-::: moniker range=">=vs-2019"
 - F# desktop language support
 - Python:
   - Python language support
   - Python web support
-::: moniker-end
+  - Python native development tools
 
 
 ## SQL Server integration
 
-
-::: moniker range=">=vs-2019"
 SQL Server supports using Python to do advanced analytics directly inside SQL Server. Python support is available in SQL Server 2017 CTP 2.0 and later.
-::: moniker-end
 
 You enjoy the following advantages by running your code where your data already lives:
 

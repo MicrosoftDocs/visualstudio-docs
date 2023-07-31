@@ -1,7 +1,6 @@
 ---
 title: ItemMetadata Element (MSBuild) | Microsoft Docs
 description: Learn about the MSBuild ItemMetadata element, which contains a user-defined item metadata key that has the metadata value.
-ms.custom: SEO-VS-2020
 ms.date: 03/13/2017
 ms.topic: reference
 dev_langs:

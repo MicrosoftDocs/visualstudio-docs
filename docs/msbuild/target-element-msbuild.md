@@ -1,7 +1,6 @@
 ---
 title: Target Element (MSBuild) | Microsoft Docs
 description: Learn about the MSBuild Target element, which contains a set of tasks for MSBuild to execute sequentially. 
-ms.custom: SEO-VS-2020
 ms.date: 06/13/2019
 ms.topic: reference
 f1_keywords:

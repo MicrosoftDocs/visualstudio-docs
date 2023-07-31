@@ -1,7 +1,6 @@
 ---
 title: "Workflow Designer - Pick Activity Designer"
 description: Learn how the Pick activity provides event-based control flow and executes one of several branches in response to a triggering event.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

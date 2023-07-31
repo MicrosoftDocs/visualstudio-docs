@@ -1,7 +1,6 @@
 ---
 title: Analyzing Threshold Rule Violations in Load Tests
 description: Learn how to view violations of threshold rules that you set up, so that you can analyze the violations. 
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:

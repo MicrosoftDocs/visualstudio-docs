@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically insert text into Word documents"
 description: Learn how you can programmatically insert text into a Microsoft Word document by using Visual Studio.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "08/14/2019"
 ms.topic: "how-to"

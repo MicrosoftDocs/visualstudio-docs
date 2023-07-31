@@ -1,7 +1,6 @@
 ---
 title: "VerifyFileHash  Task | Microsoft Docs"
 description: Learn how MSBuild uses the VerifyFileHash task to verify that a file matches the expected file hash, and fails if it doesn't match.
-ms.custom: SEO-VS-2020
 ms.date: "01/28/2019"
 ms.topic: "reference"
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: The DslDefinition.dsl File
 description: Learn about the structure of the DslDefinition.dsl file in the Dsl project of a DSL Tools solution, which defines a domain-specific language.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

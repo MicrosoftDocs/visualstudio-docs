@@ -1,12 +1,11 @@
 ---
 title: Image Service and Catalog | Microsoft Docs
 description: This article contains guidance and best practices for adopting the Visual Studio Image Service and Image Catalog.
-ms.custom: SEO-VS-2020
 ms.date: 04/01/2019
 ms.topic: conceptual
 ms.assetid: 34990c37-ae98-4140-9b1e-a91c192220d9
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
@@ -264,13 +263,9 @@ A \<Source> element can have exactly one of the following optional subelements:
 
   - Do not use this header if the image service can handle your image theming.
 
-
-::: moniker range=">=vs-2019"
 - **VsDpiAwareness.h**
 
   - Required if you use the DPI awareness helpers to get the current DPI.
-
-::: moniker-end
 
 ## How do I write new WPF UI?
 
@@ -332,9 +327,6 @@ CGlobalServiceProvider::HrQueryService(SID_SVsImageService, &spImgSvc);
 
  **Requesting the image**
 
-
-::: moniker range=">=vs-2019"
-
 ```cpp
 UINT dpiX, dpiY;
 HWND hwnd = // get the HWND where the image will be displayed
@@ -357,8 +349,6 @@ CComPtr<IVsUIObject> spImg;
 spImgSvc->GetImage(KnownMonikers::Blank, attributes, &spImg);
 ```
 
-::: moniker-end
-
 ## How do I update WinForms UI?
  Add the following to your code wherever appropriate to replace the raw loading of images. Switch values for returning Bitmaps versus Icons as needed.
 
@@ -377,9 +367,6 @@ IVsImageService2 imageService = (IVsImageService2)Package.GetGlobalService(typeo
 ```
 
  **Request the image**
-
-
-::: moniker range=">=vs-2019"
 
 ```csharp
 Control control = // get the control where the image will be displayed
@@ -405,8 +392,6 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
 // Icon icon = (Icon)GelUtilities.GetObjectData(uiObj);    // Use this if you need an icon
 ```
 
-::: moniker-end
-
 ## How do I use image monikers in a new tool window?
  The VSIX package project template was updated for Visual Studio 2015. To create a new tool window, right-click on the VSIX project and select **Add** > **New Item** (**Ctrl**+**Shift**+**A**). Under the Extensibility node for the project language, select **Custom Tool Window**, give the tool window a name, and press the **Add** button.
 
@@ -423,7 +408,7 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
 
 2. The command to open the tool window.
 
-    In the *.vsct* file for the package, edit the tool window's command button:
+   In the *.vsct* file for the package, edit the tool window's command button:
 
    ```xml
    <Button guid="guidPackageCmdSet" id="CommandId" priority="0x0100" type="Button">
@@ -438,13 +423,19 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
    </Button>
    ```
 
-   **How do I use image monikers in an existing tool window?**
+   Ensure the following also exists at the top of the file, after the `<Extern>` elements:
+   
+   ```xml
+   <Include href="KnownImageIds.vsct"/>
+   ```
 
-   Updating an existing tool window to use image monikers is similar to the steps for creating a new tool window.
+## How do I use image monikers in an existing tool window?
 
-   These are the key places to use monikers in a tool window. Follow the instructions for each:
+Updating an existing tool window to use image monikers is similar to the steps for creating a new tool window.
 
-3. The tool window tab when the tabs get small enough (also used in the **Ctrl**+**Tab** window switcher).
+These are the key places to use monikers in a tool window. Follow the instructions for each:
+
+1. The tool window tab when the tabs get small enough (also used in the **Ctrl**+**Tab** window switcher).
 
    1. Remove these lines (if they exist) in the constructor for the class that derives from the **ToolWindowPane** type:
 
@@ -455,7 +446,7 @@ Bitmap bitmap = (Bitmap)GelUtilities.GetObjectData(uiObj); // Use this if you ne
 
    2. See step #1 of the "How do I use image monikers in a new tool window?" section above.
 
-4. The command to open the tool window.
+2. The command to open the tool window.
 
    - See step #2 of the "How do I use image monikers in a new tool window?" section above.
 

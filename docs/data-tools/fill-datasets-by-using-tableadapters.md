@@ -1,7 +1,6 @@
 ---
 title: Fill datasets by using TableAdapters
 description: Fill datasets using TableAdapters. A TableAdapter component fills a dataset with data from the DB, based on one or more queries or stored procedures you specify.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -26,6 +25,8 @@ ms.workload:
 # Fill datasets by using TableAdapters
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 A TableAdapter component fills a dataset with data from the database, based on one or more queries or stored procedures that you specify. TableAdapters can also perform adds, updates, and deletes on the database to persist changes that you make to the dataset. You can also issue global commands that are unrelated to any specific table.
 

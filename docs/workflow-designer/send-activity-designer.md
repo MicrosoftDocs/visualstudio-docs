@@ -1,7 +1,6 @@
 ---
 title: "Workflow Designer - Send Activity Designer"
 description: Learn about the Send activity and how you can use the Send activity designer to create and configure a Send activity.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

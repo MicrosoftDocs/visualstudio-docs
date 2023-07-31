@@ -1,7 +1,6 @@
 ---
 title: "How to: Resize controls within worksheet cells"
 description: Learn how you can use Visual Studio to resize controls within Microsoft Excel worksheet cells both at design time and at run time.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

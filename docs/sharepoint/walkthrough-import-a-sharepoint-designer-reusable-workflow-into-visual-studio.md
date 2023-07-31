@@ -2,7 +2,6 @@
 title: "Walkthrough: Import a SharePoint Designer reusable workflow | Microsoft Docs"
 titleSuffix: ""
 description: In this walkthrough, import a reusable workflow created in SharePoint Designer into a Visual Studio SharePoint workflow project.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:

@@ -7,7 +7,6 @@ author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
 ms.technology: vs-ide-modeling
-ms.custom: SEO-VS-2020
 ms.workload:
 - multiple
 ---
@@ -86,6 +85,9 @@ The following image is the DSL definition used in this walkthrough.
     - `Field` - Give this an additional domain property named `Size`.
 
     - `Animal` - In the Properties window, set **Inheritance Modifier** to **Abstract**.
+
+    > [!NOTE]
+    > The **Named Domain Class** tool and the other tools mentioned in this section are found in the **Toolbox** tool window. You can open or hide this window with **View** > **Toolbox**.
 
 5. Use the **Domain Class** tool to create the following classes:
 

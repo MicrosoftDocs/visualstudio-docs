@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, HTML (Web Forms), Miscellaneous
 description: Learn how to use the Miscellaneous page in the HTML section to set preferences for how the HTML editor handles elements pasted into the page.
-ms.custom: SEO-VS-2020
 ms.date: 1/15/2019
 ms.technology: vs-ide-general
 ms.topic: reference

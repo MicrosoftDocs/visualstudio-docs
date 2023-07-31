@@ -1,7 +1,6 @@
 ---
 title: Generating Code from a Domain-Specific Language
 description: Learn how Domain-Specific Language Tools provides a powerful way to generate code, documents, and other artifacts from data represented in models.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: mgoertz-msft

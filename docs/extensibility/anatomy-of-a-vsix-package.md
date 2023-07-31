@@ -1,7 +1,7 @@
 ---
 title: Anatomy of a VSIX Package | Microsoft Docs
 description: Learn about the contents of a VSIX package in Visual Studio, a file that contains one or more Visual Studio extensions and a metadata manifest file. 
-ms.custom: SEO-VS-2020
+ms.custom: UpdateFrequency3
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,8 +9,8 @@ helpviewer_keywords:
 - vsix
 - packages
 ms.assetid: 8b86d62f-c274-4e91-82e0-38cdb9a423d5
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

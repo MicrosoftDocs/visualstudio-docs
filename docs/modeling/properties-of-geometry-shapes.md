@@ -1,7 +1,6 @@
 ---
 title: Properties of Geometry Shapes
 description: Learn how you can use geometry shapes to specify how instances of domain classes are displayed in a domain-specific language.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

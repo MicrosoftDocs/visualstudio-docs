@@ -1,7 +1,6 @@
 ---
 title: Debug On a High-Performance Cluster | Microsoft Docs
 description: Learn what is peculiar to debugging a multiprocessing program on a high-performance cluster. Two windows are especially useful, and there are special techniques.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

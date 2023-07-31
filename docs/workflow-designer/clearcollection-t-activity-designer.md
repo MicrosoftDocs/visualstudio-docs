@@ -1,7 +1,6 @@
 ---
 title: "Workflow Designer - ClearCollection&lt;T&gt; Activity Designer"
 description: Learn how you can use the ClearCollection <T> activity designer to create and configure a ClearCollection <T> activity.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

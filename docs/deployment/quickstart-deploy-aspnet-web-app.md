@@ -1,13 +1,13 @@
 ---
 title: Publish an ASP.NET web app
 description: Learn how to use the Publish tool to publish ASP.NET and ASP.NET Core to a website from Visual Studio. 
-ms.date: 01/30/2022
+ms.date: 01/25/2023
 ms.topic: quickstart
 ms.custom: devdivchpfy22
 helpviewer_keywords:
   - "deployment, web app"
-author: mikejo5000
-ms.author: mikejo
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-deployment
 monikerRange: '>= vs-2019'

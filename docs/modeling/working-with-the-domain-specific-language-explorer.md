@@ -1,7 +1,6 @@
 ---
 title: Working with the Domain-Specific Language Explorer
 description: Learn about the DSL Explorer, a tool that displays several kinds of information in a tree view and includes multiple nodes for defining a domain-specific language.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

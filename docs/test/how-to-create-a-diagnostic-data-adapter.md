@@ -1,7 +1,6 @@
 ---
 title: 'How to: Create a Diagnostic Data Adapter'
 description: Learn how to create a diagnostic data adapter by creating a class library using Visual Studio and adding Diagnostic Data Adapter APIs.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords:

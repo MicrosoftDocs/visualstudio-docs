@@ -1,7 +1,6 @@
 ---
 title: Localization tools
 description: Learn about the localization tools that are included in Visual Studio and how to use them to create localized applications in multiple languages.
-ms.custom: SEO-VS-2020
 ms.date: 02/15/2019
 ms.topic: reference
 helpviewer_keywords:

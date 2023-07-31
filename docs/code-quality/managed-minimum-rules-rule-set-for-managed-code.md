@@ -2,7 +2,6 @@
 title: Managed Minimum Rules rule set for managed code
 ms.date: 11/04/2016
 description: Learn about the Managed Minimum Rules rule set in Visual Studio, which focuses on security, robustness, and other critical issues. See rule descriptions.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 ms.assetid: 44a50c54-8dd3-42b2-8387-532a150e5a6c
 author: mikejo5000

@@ -1,7 +1,6 @@
 ---
 title: "Custom task panes"
 description: Learn that custom task panes give you a way to create your own task pane and provide users with a familiar interface to access your solution's features.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: Create a Windows Forms user control with data binding
 description: Understand how to create a Windows Forms user control that supports complex data binding, by implementing the ComplexBindingPropertiesAttribute class.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -21,6 +20,8 @@ ms.workload:
 # Create a Windows Forms user control that supports complex data binding
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 When displaying data on forms in Windows applications, you can choose existing controls from the **Toolbox**. Or, you can author custom controls if your application requires functionality that is not available in the standard controls. This walkthrough shows how to create a control that implements the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute>. Controls that implement the <xref:System.ComponentModel.ComplexBindingPropertiesAttribute> contain a `DataSource` and `DataMember` property that can be bound to data. Such controls are similar to a <xref:System.Windows.Forms.DataGridView> or <xref:System.Windows.Forms.ListBox>.
 

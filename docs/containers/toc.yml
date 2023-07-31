@@ -31,11 +31,13 @@
       href: deploy-app-service.md
     - name: Deploy to Docker Hub
       href: deploy-docker-hub.md
+    - name: Deploy without a Dockerfile
+      href: deploy-containerized.md
     - name: Customize container builds
       href: container-build.md
     expanded: true
   - name: Troubleshooting
-    href: troubleshooting-docker-errors.md
+    href: /troubleshoot/developer/visualstudio/ide/troubleshooting-docker-errors?toc=%2Fvisualstudio%2Fcontainers%2Ftoc.json
   - name: Reference
     items:
     - name: MSBuild properties for container projects

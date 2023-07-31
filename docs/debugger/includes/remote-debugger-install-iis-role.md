@@ -18,8 +18,16 @@ These steps show only a basic configuration of IIS. For more in-depth informatio
 
 For Windows Server operating systems, use the **Add Roles and Features** wizard via the **Manage** link or the **Dashboard** link in **Server Manager**. On the **Server Roles** step, check the box for **Web Server (IIS)**.
 
-![The Web Server IIS role is selected in the Select server roles step.](../media/remotedbg-server-roles-ws2012.png)
+![Screenshot showing the Web Server IIS role selected in the Select server roles step.](../media/remote-debug-server-roles-ws2022.png)
 
-On the **Role services** step, select the IIS role services you desire or accept the default role services provided. If you want to enable deployment using publish settings and Web Deploy, make sure that **IIS Management Scripts and Tools** is selected.
+(Windows Server 2022) In the dialog box that appears, choose **Add Features** to add the IIS Management Console.
+
+On the **Role services** step, select the IIS role services you desire or accept the default role services provided. If you want to enable deployment using publish settings and Web Deploy, make sure that the following features are selected:
+
+- **IIS Management Scripts and Tools**
+- **Management Service**
+- **IIS Management Console**
+
+![Screenshot showing IIS Management scripts and tools selected.](../media/remote-debug-server-config-add-scripts-and-tools.png)
 
 Proceed through the confirmation steps to install the web server role and services. A server/IIS restart is not required after installing the Web Server (IIS) role.

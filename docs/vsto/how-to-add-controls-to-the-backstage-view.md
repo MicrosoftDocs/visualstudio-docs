@@ -1,7 +1,6 @@
 ---
 title: "How to: Add controls to the Backstage view "
 description: Learn how you can use the Ribbon Designer to add controls to the menu that opens when you click the File tab.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

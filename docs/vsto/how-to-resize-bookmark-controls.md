@@ -1,7 +1,6 @@
 ---
 title: "How to: Resize Bookmark controls"
 description: Learn how you can use Visual Studio to set the size of a Bookmark control when you add it to a Microsoft Word document.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

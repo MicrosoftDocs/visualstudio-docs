@@ -1,7 +1,6 @@
 ---
 title: Configure the ClickOnce Trust Prompt Behavior | Microsoft Docs
 description: Learn how to configure the ClickOnce trust prompt to control whether end users are given the option of installing ClickOnce applications.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

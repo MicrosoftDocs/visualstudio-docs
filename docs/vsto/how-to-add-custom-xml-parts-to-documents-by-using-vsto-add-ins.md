@@ -1,7 +1,6 @@
 ---
 title: "Add custom XML parts to documents using VSTO Add-ins"
 description: Learn how you can store XML data in the following types of documents by creating a custom XML part in a VSTO Add-in.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

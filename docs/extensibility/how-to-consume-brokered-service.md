@@ -2,7 +2,6 @@
 title: 'How to: Consume a brokered service'
 description: Learn how to acquire and use a brokered service to access different features.
 monikerRange: '>= vs-2019'
-ms.custom: SEO-VS-2020
 ms.date: 01/11/2022
 ms.topic: how-to
 helpviewer_keywords:

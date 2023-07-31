@@ -1,7 +1,6 @@
 ---
 title: "Associate a form region with an Outlook message class"
 description: Learn how you can specify which Microsoft Office Outlook items display a form region by associating the form region with the message class of each item.
-ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 f1_keywords:

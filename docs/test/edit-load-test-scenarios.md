@@ -1,7 +1,6 @@
 ---
 title: Load Test Scenarios
 description: Learn how to edit load test scenarios, which enable you to configure tests to simulate complex, realistic workloads.
-ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
 ms.topic: conceptual
 helpviewer_keywords:

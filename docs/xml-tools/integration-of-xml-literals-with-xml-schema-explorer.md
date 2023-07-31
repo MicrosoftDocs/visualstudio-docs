@@ -1,7 +1,6 @@
 ---
 title: Integration of XML Literals with XML Schema Explorer
 description: Learn how to use support for XML literals in the XML Schema Explorer in Visual Studio to integrate XML fragments directly into your Visual Basic code.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 57a29998-c6e8-48ac-bdb0-5788e73f9164

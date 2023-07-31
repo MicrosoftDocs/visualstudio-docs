@@ -1,7 +1,6 @@
 ---
 title: Rename and move classes and types in Class Designer
 description: Learn how to rename and move classes and types using Class Designer and the Class Details window.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -36,9 +35,9 @@ When you refactor code, you make it easier to understand, maintain, and more eff
 
 |Task|Supporting Content|
 |----------| - |
-|**Refactoring classes:** You can use refactoring operations to split a class into partial classes or to implement an abstract base class.|-   [How to: Split a Class into Partial Classes](how-to-split-a-class-into-partial-classes.md)|
-|**Working with interfaces:** In Class Designer, you can implement an interface on the class diagram by connecting it to a class that provides code for the interface methods.|-   [How to: Implement an Interface](how-to-implement-an-interface.md)|
-|**Refactoring types, type members, and parameters:** By using Class Designer, you can rename types, override type members, or move them from one type to another. You can also create nullable types.|-   [Rename types and type members](#rename-types-and-type-members)<br />-   [Move type members from one type to another](#move-type-members-from-one-type-to-another)<br />-   [How to: Create a Nullable Type](how-to-create-a-nullable-type.md)|
+|**Refactoring classes:** You can use refactoring operations to split a class into partial classes or to implement an abstract base class.|-   [Split a Class into Partial Classes](how-to-split-a-class-into-partial-classes.md)|
+|**Working with interfaces:** In Class Designer, you can implement an interface on the class diagram by connecting it to a class that provides code for the interface methods.|-   [Implement an Interface](how-to-implement-an-interface.md)|
+|**Refactoring types, type members, and parameters:** By using Class Designer, you can rename types, override type members, or move them from one type to another. You can also create nullable types.|-   [Rename types and type members](#rename-types-and-type-members)<br />-   [Move type members from one type to another](#move-type-members-from-one-type-to-another)<br />-   [Create a Nullable Type](how-to-create-a-nullable-type.md)|
 
 ## Rename types and type members
 
@@ -50,7 +49,7 @@ In Class Designer, you can rename a type or a member of a type on the class diag
 
      The name of the member becomes editable.
 
-2. Type the new name for the type or type member
+1. Type the new name for the type or type member
 
 ### Rename in the Class Details window
 
@@ -58,9 +57,9 @@ In Class Designer, you can rename a type or a member of a type on the class diag
 
      The **Class Details** window appears.
 
-2. In the **Name** column, change the name of the type member
+1. In the **Name** column, change the name of the type member
 
-3. To move focus away from the cell, press the **Enter** key or click away from the cell.
+1. To move focus away from the cell, press the **Enter** key or click away from the cell.
 
     > [!NOTE]
     > In the **Class Details** window, you can change the name of a member but not a type.
@@ -71,7 +70,7 @@ In Class Designer, you can rename a type or a member of a type on the class diag
 
      The **Properties** window appears and displays properties for the type or type member.
 
-2. In the **Name** property, change the name of the type or type member.
+1. In the **Name** property, change the name of the type or type member.
 
      The new name propagates to all windows and code locations in the current project where the old name appeared.
 
@@ -81,10 +80,10 @@ Using **Class Designer**, you can move a type member from one type to another ty
 
 1. In a type that is visible on the design surface, right-click the member you want to move to another type, and then select **Cut**.
 
-2. Right-click the destination type and select **Paste**.
+1. Right-click the destination type and select **Paste**.
 
      The property is removed from the source type and appears in the destination type.
 
 ## See also
 
-- [Designing Classes and Types](designing-and-viewing-classes-and-types.md)
+- [Design classes in Class Designer](designing-and-viewing-classes-and-types.md)

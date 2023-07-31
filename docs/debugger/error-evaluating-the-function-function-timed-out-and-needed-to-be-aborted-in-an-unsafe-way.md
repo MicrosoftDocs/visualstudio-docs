@@ -1,7 +1,7 @@
 ---
 title: "Evaluating the function &apos;function&apos; timed out and needed to be aborted in an unsafe way | Microsoft Docs"
 description: "Full message text: Evaluating the function 'function' timed out and needed to be aborted in an unsafe way."
-ms.date: "06/18/2021"
+ms.date: "12/09/2022"
 ms.topic: "error-reference"
 ms.custom: "contperf-fy21q4"
 f1_keywords:
@@ -49,6 +49,9 @@ If the previous solutions don't fix the issue, go to **Tools** > **Options**, an
 
 If you are using Resharper, see this [issue](https://youtrack.jetbrains.com/issue/RSRP-476824) for suggestions.
 
+::: moniker range="vs-2019"
+
 ## Solution #5: Enable managed compatibility mode
 
 If you switch to the legacy debugging engine, you may be able to eliminate this error. Go to **Tools** > **Options**, and select the setting **Debugging** > **General** > **Use managed compatibility mode**. For more information, see [General debugging options](../debugger/general-debugging-options-dialog-box.md).
+::: moniker-end

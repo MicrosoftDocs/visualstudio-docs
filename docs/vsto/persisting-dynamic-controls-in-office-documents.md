@@ -1,7 +1,6 @@
 ---
 title: "Persist dynamic controls in Office documents"
 description: Learn how you can add code to your solution to re-create persistent dynamic controls when a user reopens a closed document.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

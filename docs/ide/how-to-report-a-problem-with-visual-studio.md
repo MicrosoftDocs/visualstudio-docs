@@ -50,10 +50,19 @@ Alternatively, report a problem in **Visual Studio Installer** if you can't inst
     ![Take a screenshot](../ide/media/feedback-screenshot.png)
     *Only Microsoft engineers can see the screenshot*
 
-1. <a name="trace"/>One of the best ways to help the Visual Studio engineering team solve the problem, is to provide a trace and heap dump files for them to look through. You can easily do that by recording the steps that resulted in the bug.
+1. <a name="trace"/>Video record the problem to provide a trace. 
 
-    ![Record your actions](../ide/media/feedback-recording.png)
-    *Only Microsoft engineers can see the recording*
+   One of the best ways to help the Visual Studio engineering team solve the problem is to provide a trace and heap dump files for them to look through. You can do that by recording the steps that resulted in the bug.
+   1. Click **Start recording**. Wait a moment for the permissions prompt.
+   2. Go through your steps to record the issue. 
+   3. When finished, find the small pop-up window and click **Stop recording**. 
+
+   ![Record your actions](../ide/media/feedback-recording.png)
+   *Only Microsoft engineers can see the recording*
+    
+   > [!Warning]
+   > There may be a several seconds delay between clicking **Start recording** and the prompt where Windows asks for permission to start a program with elevated permissions.
+
 
 5. Review the attached files and upload additional files if you believe it would help diagnose the issue.
 

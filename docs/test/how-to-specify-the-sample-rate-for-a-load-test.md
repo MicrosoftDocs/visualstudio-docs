@@ -1,7 +1,6 @@
 ---
 title: 'Specify sample rate for a load test run setting'
 description: Learn how to edit the Sample Rate for a run setting value in the Properties window using the Load Test Editor.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

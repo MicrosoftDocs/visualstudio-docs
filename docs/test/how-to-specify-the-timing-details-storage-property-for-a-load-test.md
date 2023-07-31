@@ -1,7 +1,6 @@
 ---
 title: Timing Details Storage property (load test run setting)
 description: Learn how to edit the Timing Details Storage property for a run setting. Valid values are All Individual Details, None, and Statistics Only.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

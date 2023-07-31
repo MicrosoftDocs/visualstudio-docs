@@ -5,8 +5,8 @@ description: A walkthrough of Flask basics in the context of Visual Studio proje
 ms.custom: devdivchpfy22
 ms.date: 02/04/2022
 ms.topic: tutorial
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -215,5 +215,5 @@ Answer: Yes, you can use subfolders and then refer to the relative path under *t
 
 ## Go deeper
 
-- [Flask Quickstart - Rendering Templates](https://flask.palletsprojects.com/en/1.0.x/quickstart/#rendering-templates) (flask.pocoo.org)
+- [Flask Quickstart - Rendering Templates](https://flask.palletsprojects.com/quickstart/#rendering-templates) (flask.pocoo.org)
 - Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-flask](https://github.com/Microsoft/python-sample-vs-learning-flask)

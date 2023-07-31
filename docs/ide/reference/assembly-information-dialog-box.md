@@ -1,7 +1,6 @@
 ---
 title: Assembly Information Dialog Box
 description: Learn about the Assembly Information dialog box and how it is used to specify the values of the .NET Framework global assembly attributes.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

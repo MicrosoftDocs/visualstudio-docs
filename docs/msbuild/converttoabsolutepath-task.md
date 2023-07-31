@@ -1,7 +1,6 @@
 ---
 title: ConvertToAbsolutePath Task | Microsoft Docs
 description: Use the MSBuild ConvertToAbsolutePath task to convert a relative path, or reference, into an absolute path.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically check spelling in documents"
 description:  Learn that to programmatically check the spelling in a document, you can use the CheckSpelling method.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

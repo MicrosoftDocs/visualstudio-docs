@@ -1,7 +1,6 @@
 ---
 title: "Walkthroughs using Word"
 description: Learn how you can use document-level customizations and VSTO Add-ins to automate Microsoft Word and customize the user interface (UI).
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

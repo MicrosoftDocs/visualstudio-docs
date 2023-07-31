@@ -1,7 +1,6 @@
 ---
 title: Writing a T4 Text Template
 description: Learn about T4 text templates and how to write a text template that includes directives, text blocks, and control blocks.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

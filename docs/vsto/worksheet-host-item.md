@@ -1,7 +1,6 @@
 ---
 title: "Worksheet host item"
 description: Learn that the Worksheet host item is a type that extends the Worksheet type from the primary interop assembly for Excel.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

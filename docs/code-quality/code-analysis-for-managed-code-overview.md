@@ -2,7 +2,6 @@
 title: Code analysis for managed code
 ms.date: 08/27/2020
 description: Learn about .NET Compiler Platform-based code analyzers in Visual Studio. Understand why these analyzers replace FxCop static analysis of managed assemblies.
-ms.custom: SEO-VS-2020
 ms.topic: conceptual
 helpviewer_keywords:
 - code analysis, managed code

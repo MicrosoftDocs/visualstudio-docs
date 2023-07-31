@@ -2,7 +2,6 @@
 title: "How to: Create a SharePoint Web Part by Using a Designer | Microsoft Docs"
 titleSuffix: ""
 description: Create a web part by adding a visual web part item to a SharePoint project, which opens the Visual Web Developer designer in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
@@ -29,13 +28,11 @@ ms.workload:
 
 1. On the menu bar, choose **File** >**New** > **Project**.
 
-::: moniker range=">=vs-2019"
 2. On the **Create a New Project** dialog select the *SharePoint Visual Web Part** for the particular version of SharePoint you have installed. For example, if you have SharePoint 2019 install select the **SharePoint 2019 - Visual Web Part** template.
     [!INCLUDE[new-project-dialog-search](../sharepoint/includes/new-project-dialog-search-md.md)]
 
 3. Change the name of the project if you would like to, and then choose the **Create** button.
 
-::: moniker-end
 4. On the **Specify the site and security level for debugging** page, specify the URL of a SharePoint site that's on the local computer, and then choose the **Finish** button.
 
      In **Solution Explorer**, a web part appears. After designing the web part in the Visual Web Developer designer, you'll test it on the site that you specify.

@@ -2,7 +2,7 @@
 title: "Create a Node.js and React app"
 description: Learn how to create a Node.js web application project from a Visual Studio template.
 ms.custom: vs-acquisition
-ms.date: 09/14/2021
+ms.date: 03/24/2023
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -30,7 +30,7 @@ In this tutorial, you learn how to:
 
 ::: moniker range=">=vs-2022"
 > [!IMPORTANT]
-> Starting in Visual Studio 2022, you can alternatively [create a React project](../javascript/tutorial-create-react-app.md) using the new [CLI-based project type](https://devblogs.microsoft.com/visualstudio/the-new-javascript-typescript-experience-in-vs-2022-preview-3/). Some of the information in this article applies only to the Node.js project type (.njsproj).
+> Starting in Visual Studio 2022, you can alternatively [create a React project](../javascript/tutorial-create-react-app.md) using the recommended [CLI-based project type](https://devblogs.microsoft.com/visualstudio/the-new-javascript-typescript-experience-in-vs-2022-preview-3/). Some of the information in this article applies only to the Node.js project type (.njsproj).
 ::: moniker-end
 
 Before you begin, here's a quick FAQ to introduce you to some key concepts:
@@ -88,7 +88,7 @@ This tutorial requires the following prerequisites:
   1. In the **Properties** pane, set the **Node.exe path** to reference a global or local installation of Node.js. You can specify the path to a local interpreter in each of your Node.js projects.
 
 ::: moniker range=">=vs-2022"
-This tutorial was tested with Node.js 14.17.5.
+This tutorial was tested with Node.js 18.5.0.
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 This tutorial was tested with Node.js 12.6.2.
@@ -157,7 +157,6 @@ First, create a Node.js web app project.
     (5) Project files such as *server.js* show up under the project node. *server.js* is the project startup file and that is why it shows up in **bold**. You can set the startup file by right-clicking a file in the project and selecting **Set as Node.js startup file**.
 ::: moniker-end
 
-
 ## Add npm packages
 
 This app requires the following npm modules to run correctly:
@@ -189,24 +188,24 @@ To install a package:
     The **Output** window in the Visual Studio lower pane shows package installation progress. Open the **Output** window by selecting **View** > **Output** or pressing **Ctrl**+**Alt**+**O**. In the **Show output from** field of the **Output** window, select **Npm**.
 
     When installed, the **react** package appears under the **npm** node in **Solution Explorer**.
-    
+
     The project's *package.json* file updates with the new package information, including the package version.
 
 Instead of using the UI to search for and add the rest of the packages one at a time, you can paste the required package code into *package.json*.
-    
+
 1. From **Solution Explorer**, open **package.json** in the Visual Studio editor. Add the following `dependencies` section before the end of the file:
 
     ```json
     "dependencies": {
-      "express": "~4.17.1",
-      "path": "~0.12.7",
-      "react": "~16.13.1",
-      "react-dom": "~16.13.1",
-      "ts-loader": "~7.0.1",
-      "typescript": "~3.8.3",
-      "webpack": "~4.42.1",
-      "webpack-cli": "~3.3.11"
-    }
+      "express": "^4.18.2",
+      "path": "^0.12.7",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "ts-loader": "^9.4.2",
+      "typescript": "^5.0.2",
+      "webpack": "^5.76.3",
+      "webpack-cli": "^5.0.1"
+    },
     ```
 
     If the file already has a `dependencies` section, replace it with the preceding JSON code. For more information on using the *package.json* file, see [package.json configuration](configure-packages-with-package-json.md).
@@ -243,6 +242,8 @@ Next, add four new files to your project.
 For this simple app, you add the new project files in the project root. For most apps, you add the files to subfolders and adjust relative path references accordingly.
 
 1. In **Solution Explorer**, select the project name and press **Ctrl**+**Shift**+**A**, or right-click the project name and select **Add** > **New Item**.
+
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
 
 1. In the **Add New Item** dialog box, choose **TypeScript JSX File**, type the name *app.tsx*, and select **Add** or **OK**.
 
@@ -374,15 +375,21 @@ Next, you add webpack configuration code to *webpack-config.js*. You add a simpl
 
 1. In the command prompt, enter the following webpack command:
 
-    `node_modules\.bin\webpack ./app.tsx --config webpack-config.js`
+    `node_modules\.bin\webpack --config webpack-config.js`
 
     The command prompt window shows the result.
 
     ![Screenshot that shows results of running the webpack command.](media/tutorial-nodejs-react-run-webpack-cmd.png)
 
-    If you see any errors instead of the preceding output, you must resolve them before your app will work. If your npm package versions are different than the versions this tutorial specifies, that can cause errors. One way to fix errors is to use the exact versions shown in the earlier step.
-    
-    Also, if one or more package versions are deprecated and result in an error, you might need to install a more recent version to fix errors. For information on using *package.json* to control npm package versions, see [package.json configuration](../javascript/configure-packages-with-package-json.md).
+    If you see any errors instead of the preceding output, you must resolve them before your app will work. If your npm package versions are different than the versions this tutorial specifies, that can cause errors. To fix the errors, try the following:
+
+    - Use the exact versions shown in the earlier step, if you didn't already
+
+      Or, if you still see errors:
+
+    - Install the most recent versions of the npm packages by right-clicking the npm node in Solution Explorer and choosing **Install npm packages**.
+
+    If one or more package versions are deprecated and result in an error, you might need to install a more recent version to fix errors. For information on using *package.json* to control npm package versions, see [package.json configuration](../javascript/configure-packages-with-package-json.md).
 
 1. In **Solution Explorer**, right-click the project node and select **Add** > **Existing Folder**.
 
@@ -406,7 +413,7 @@ Visual Studio versions starting with Visual Studio 2019 require a build script. 
 
    ```json
    "scripts": {
-    "build": "webpack-cli ./app.tsx --config webpack-config.js"
+    "build": "webpack-cli --config webpack-config.js"
    }
    ```
 
@@ -422,7 +429,6 @@ Visual Studio versions starting with Visual Studio 2019 require a build script. 
     ::: moniker range="=vs-2019"
     ![Screenshot that shows selecting Chrome as the debug target.](media/vs-2019/tutorial-nodejs-react-debug-target.png)
     ::: moniker-end
-
 
     If you know your preferred debug target is available on your machine, but it doesn't appear as an option, select **Browse With** from the debug target dropdown list. Select your default browser target in the list, and select **Set as Default**.
 
@@ -465,7 +471,6 @@ In the preceding section, you attached the debugger to server-side Node.js code.
 
 ### Enable the browser for debugging
 
-::: moniker range=">=vs-2019"
 You can use either Microsoft Edge or Google Chrome. Close all windows for the target browser. For Microsoft Edge, also shut down all instances of Chrome. Because both browsers share the Chromium code base, shutting down both browsers gives the best results.
 
 Other browser instances can prevent the browser from opening with debugging enabled. Browser extensions might prevent full debug mode. You might need to use Task Manager to find and end all running Chrome instances.
@@ -491,8 +496,6 @@ To start your browser with debugging enabled:
   or
   
   `chrome.exe --remote-debugging-port=9222`
-::: moniker-end
-
 
 The browser starts with debugging enabled. The app isn't running yet, so the browser page is empty.
 
@@ -541,9 +544,7 @@ The browser starts with debugging enabled. The app isn't running yet, so the bro
 
 1. Select your target browser as the debug target in Visual Studio, and then press **Ctrl**+**F5**, or select **Debug** > **Start Without Debugging**, to run the app in the browser.
 
-    ::: moniker range=">=vs-2019"
     If you created a debugging-enabled browser configuration with a friendly name, choose that browser as your debug target.
-    ::: moniker-end
 
     The app opens in a new browser tab.
 
@@ -554,21 +555,15 @@ The browser starts with debugging enabled. The app isn't running yet, so the bro
 
 1. In the **Attach to Process** dialog box, get a filtered list of browser instances that you can attach to.
 
-    ::: moniker range=">=vs-2019"
     Make sure the correct debugger for your target browser, **JavaScript (Chrome)** or **JavaScript (Microsoft Edge - Chromium)**, appears in the **Attach to** field. Type *chrome* or *edge* in the filter box to filter the results.
-    ::: moniker-end
-
 
 1. Select the browser process with the correct host port, **localhost** in this example. The port number **1337** or **localhost** might also appear in the **Title** field to help you select the correct process.
 
 1. Select **Attach**.
 
-    ::: moniker range=">=vs-2019"
     The following example shows an **Attach to Process** window for the Microsoft Edge browser.
 
     ![Screenshot showing the Attach to process dialog box.](../javascript/media/tutorial-nodejs-react-attach-to-process-edge.png)
-    ::: moniker-end
-
 
     > [!TIP]
     > If the debugger doesn't attach and you see the message **Unable to attach to the process. An operation is not legal in the current state.**, use Task Manager to close all instances of the target browser before starting the browser in debugging mode. Browser extensions may be running and preventing full debug mode.

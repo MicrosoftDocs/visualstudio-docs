@@ -1,7 +1,6 @@
 ---
 title: "Office UI customization walkthroughs"
 description: Learn how you can customize the user interface (UI) of Microsoft Office applications by using document-level customizations and VSTO Add-ins.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

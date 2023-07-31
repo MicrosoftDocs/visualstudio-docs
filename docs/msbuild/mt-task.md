@@ -1,7 +1,6 @@
 ---
 title: MT Task | Microsoft Docs
 description: Learn about the parameters and command-line options of the MSBuild MT task, which wraps the Microsoft Manifest Tool, mt.exe.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

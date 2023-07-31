@@ -1,7 +1,6 @@
 ---
 title: Define and consume activity delegates
 description: In Workflow Designer, learn how .NET Framework 4.5 includes an out-of-box designer for the InvokeDelegate activity you can use to define and consume activity delegates.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: c68e42ad-3ec0-4c2d-b104-fe36c6d83b5e

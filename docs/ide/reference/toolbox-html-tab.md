@@ -1,7 +1,6 @@
 ---
 title: Toolbox, HTML Tab
 description: Learn about the HTML components you'll find in the HTML tab of the Toolbox window.
-ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
 ms.topic: reference
 f1_keywords:

@@ -3,8 +3,8 @@ title: How to use Boost.Test for C++
 description: Use Boost.Test to create unit tests in Visual Studio.
 ms.date: 01/29/2020
 ms.topic: how-to
-author: corob-msft
-ms.author: corob
+author: tylermsft
+ms.author: twhitney
 manager: markl
 ms.workload: 
   - cplusplus

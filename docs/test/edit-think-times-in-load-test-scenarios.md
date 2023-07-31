@@ -1,7 +1,6 @@
 ---
 title: Think Times for load testing
 description: Learn how to edit think time, which simulates human behavior that causes people to wait between interactions with a website.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

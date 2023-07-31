@@ -1,7 +1,6 @@
 ---
 title: "Using Modules to Include Files in the Solution | Microsoft Docs"
 description: Use modules, or containers for files in a SharePoint solution, to deploy files to the SharePoint server regardless of their file type (such as master pages).
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 dev_langs:

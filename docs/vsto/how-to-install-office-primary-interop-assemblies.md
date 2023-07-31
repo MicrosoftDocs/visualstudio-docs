@@ -1,7 +1,7 @@
 ---
 title: "How to: Install Office primary interop assemblies"
 description: Learn how to install the Microsoft Office primary interop assemblies (PIAs) when you install Office.
-ms.custom: SEO-VS-2020, devdivchpfy22 
+ms.custom: devdivchpfy22 
 ms.date: "01/24/2022"
 ms.topic: "how-to"
 dev_langs:

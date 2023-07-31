@@ -1,7 +1,6 @@
 ---
 title: Open Project command
 description: Learn about the Open Project command and how it opens an existing project or solution.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Common MSBuild Project Items | Microsoft Docs
 description: Learn about common MSBuild project items. Items are named references to one or more files, and have metadata like file names, paths, and version numbers.
-ms.custom: SEO-VS-2020
 ms.date: 10/29/2020
 ms.topic: reference
 dev_langs:
@@ -81,11 +80,15 @@ Represents a reference to another project. `ProjectReference` items are transfor
 |Project|Optional string. A GUID for the reference, in the form {12345678-1234-1234-1234-123456781234}.|
 |OutputItemType|Optional string. Item type to emit target outputs into. Default is blank. If the Reference metadata is set to "true" (default) then target outputs will become references for the compiler.|
 |ReferenceOutputAssembly|Optional boolean. If set to `false`, does not include the output of the referenced project as a [Reference](#reference) of this project, but still ensures that the other project builds before this one. Defaults to `true`.|
+|Private|Optional boolean. Specifies whether the reference should be copied to the output folder. This attribute matches the **Copy Local** property of the reference that's in the Visual Studio IDE.|
 |SetConfiguration|Optional string. Sets the global property `Configuration` for the referenced project, for example `Configuration=Release`.|
 |SetPlatform|Optional string. Sets the global property `Platform` for the referenced project, for example `Platform=AnyCPU`.|
 |SetTargetFramework|Optional string. Sets the global property `TargetFramework` for the referenced project, for example `TargetFramework=netstandard2.0`.|
 |SkipGetTargetFrameworkProperties|Optional boolean. If `true`, builds the referenced project without negotiating the most compatible `TargetFramework` value. Defaults to `false`.|
 |Targets|Optional `string[]`. Semicolon separated list of targets in the referenced projects that should be built. Default is the value of `$(ProjectReferenceBuildTargets)` which defaults to empty, indicating the default targets.|
+
+> [!NOTE]
+> There is a difference between how project references work between .NET Framework and .NET Core (including .NET 5 and later). In .NET Framework projects, project references are not transitive. That is, if Project1 references Project2, and Project2 references Project3, you can't code against Project3 from Project1. However, in .NET Core (including .NET 5 and later), project references *are* transitive. You can code against Project3 in Project1.
 
 ## Compile
 
@@ -129,6 +132,7 @@ Represents files that are not compiled into the project, but may be embedded or 
 | IsAssembly | Optional boolean. Specifies whether the file is an assembly. |
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
 | CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1.  Never<br />2.  Always<br />3.  PreserveNewest |
+| TargetPath | Optional string. The output path (relative to the configuration- and/or platform-specific output directory) of an item, including the filename. This respects the `Link` metadata, if provided. If TargetPath is not provided, it is computed during the build process. See [AssignTargetPath](assigntargetpath-task.md). |
 
 ## None
 

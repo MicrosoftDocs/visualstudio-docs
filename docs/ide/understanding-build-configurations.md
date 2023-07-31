@@ -1,8 +1,7 @@
 ---
 title: Understand build configurations
 description: Learn how you need build configurations when you need to build your projects with different settings in Visual Studio.
-ms.custom: SEO-VS-2020
-ms.date: 12/06/2021
+ms.date: 11/03/2022
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 f1_keywords:
@@ -33,7 +32,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You need build configurations when you need to build your projects with different settings. For example, **Debug** and **Release** are configurations and different compiler options are used accordingly when building them.  One configuration is active and is indicated in the command bar at the top of the IDE.
+You need build configurations when you need to build your projects with different settings. For example, **Debug** and **Release** are build configurations, and different compiler options are used accordingly when building them.  One configuration is active and is indicated in the command bar at the top of the IDE.
 
 :::moniker range="<=vs-2019"
 ![Screenshot showing the active configuration in the main Visual Studio toolbar.](media/understanding-build-configurations/active-config.png)
@@ -62,7 +61,7 @@ By default, **Debug** and **Release** configurations are included in projects th
 
 A solution configuration specifies how projects in the solution are to be built and deployed. To modify a solution configuration or define a new one, in the **Configuration Manager**, under **Active solution configuration**, choose **Edit** or **New**.
 
-Each entry in the **Project contexts** box in a solution configuration represents a project in the solution. For every combination of **Active solution configuration** and **Active solution platform**, you can set how each project is used. (For more information about solution platforms, see [Understand build platforms](../ide/understanding-build-platforms.md).)
+Each entry in the **Project contexts** box in a solution configuration represents a project in the solution. For every combination of **Active solution configuration** and **Active solution platform**, you can set how each project is used.
 
 When you define a new solution configuration and select the **Create new project configurations** check box, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically assigns the new configuration to all of the projects. Likewise, when you define a new solution platform and select the **Create new project platforms** check box, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically assigns the new platform to all of the projects. Also, if you add a project that targets a new platform, Visual Studio adds that platform to the list of solution platforms and assigns it to all of the projects. You can still modify the settings for each project.
 
@@ -111,5 +110,5 @@ Visual Studio uses the following criteria to assign solution configurations.
 - [Compile and build](../ide/compiling-and-building-in-visual-studio.md)
 - [Solutions and projects](../ide/solutions-and-projects-in-visual-studio.md)
 - [C/C++ build reference](/cpp/build/reference/c-cpp-building-reference)
-- [Understanding build platforms](understanding-build-platforms.md)
+- [Configure projects to target platforms](how-to-configure-projects-to-target-platforms.md)
 - [Build configurations (Visual Studio for Mac)](/visualstudio/mac/configurations)

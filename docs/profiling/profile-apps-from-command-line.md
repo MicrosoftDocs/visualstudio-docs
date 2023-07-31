@@ -1,7 +1,7 @@
 ---
 title: "Measure performance from the command line"
 description: "Measure CPU performance and managed memory usage in your application from the command line."
-ms.date: 9/13/2021
+ms.date: 06/28/2023
 ms.topic: conceptual
 helpviewer_keywords: 
   - "Profiling Tools, command-line"
@@ -19,9 +19,12 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can collect performance information about an application by using command-line tools.
+You can collect performance information about an application by using command-line tools. You can collect performance data for CPU Usage, .NET memory allocation, instrumentation, and database queries.
 
 In the example described in this article, you collect performance information for Microsoft Notepad, but the same method can be used to profile any process.
+
+> [!NOTE]
+> For C/C++ instrumentation from the command line, see [Instrument a native stand-alone component](../profiling/instrument-native-component-and-collect-timing-data.md). For CPU usage data, you can use the procedures described in this article.
 
 ## Prerequisites
 
@@ -64,6 +67,12 @@ Profiling using the Visual Studio Diagnostics CLI tools works by attaching the p
    VSDiagnostics.exe start 1 /attach:<pid> /loadConfig:AgentConfigs\CPUUsageLow.json
    ```
 
+   Alternatively, you can use the `launch` command to start an executable. In this scenario, you don't need to get the process ID and attach to it. All tools support the `launch` command, although some do not support `attach`, such as the Instrumentation and .NET Allocation tool. For example, use the following to start an executable and collect instrumentation data:
+
+   ```cmd
+   VSDiagnostics start <id> /launch:<ExeToProfile> /loadConfig:AgentConfigs\PerfInstrumentation.json
+   ```
+
 1. Resize Notepad, or type something in it in order to make sure that some interesting profiling information is collected.
 
 1. Stop the collection session and send output to a file by typing the following command.
@@ -74,26 +83,15 @@ Profiling using the Visual Studio Diagnostics CLI tools works by attaching the p
 
 1. Locate the *.diagsession* file output from the previous command, and open it in Visual Studio (**File** > **Open**) to examine the information collected.
 
-   To analyze the results, see the documentation for the corresponding performance tool. For example, this might be the [CPU Usage](../profiling/cpu-usage.md), [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md), or the [Database](../profiling/analyze-database.md) tool.
+   To analyze the results, see the documentation for the corresponding performance tool. For example, this might be the [CPU Usage](../profiling/cpu-usage.md), [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md), [Instrumentation](../profiling/instrumentation.md), or the [Database](../profiling/analyze-database.md) tool.
 
 ## <a name="config_file"></a> Agent configuration files
 
 Collection Agents are interchangeable components that collect different types of data depending on what you are trying to measure.
 
-For convenience, we recommend that you store that information in an agent configuration file. The configuration file is a *.json* file that contains at minimum the name of the *.dll* and its COM CLSID. Here are the example configuration files that you can find in the following folder:
+For convenience, we recommend that you store that information in an agent configuration file. The configuration file is a *.json* file that contains at minimum the name of the *.dll* and its COM CLSID. By default, you can find the example configuration files in the following folder:
 
-```<Visual Studio installation folder>Team Tools\DiagnosticsHub\Collector\AgentConfigs\```
-
-Please see the following links to download and view agent configuration files:
-
-- https://aka.ms/vs/diaghub/agentconfig/cpubase
-- https://aka.ms/vs/diaghub/agentconfig/cpuhigh
-- https://aka.ms/vs/diaghub/agentconfig/cpulow
-- https://aka.ms/vs/diaghub/agentconfig/database
-- https://aka.ms/vs/diaghub/agentconfig/dotnetasyncbase
-- https://aka.ms/vs/diaghub/agentconfig/dotnetallocbase
-- https://aka.ms/vs/diaghub/agentconfig/dotnetalloclow
-- https://aka.ms/vs/diaghub/agentconfig/dotnetcountersbase
+```Program Files\Microsoft Visual Studio\<version>\<sku>\Team Tools\DiagnosticsHub\Collector\AgentConfigs```
 
 CpuUsage configurations (Base/High/Low) correspond to data collected for the [CPU Usage](../profiling/cpu-usage.md) profiling tool.
 DotNetObjectAlloc configurations (Base/Low) correspond to data collected for the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md).

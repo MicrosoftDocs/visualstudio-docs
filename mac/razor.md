@@ -1,8 +1,8 @@
 ---
 title: Create Razor web apps
 description: Provides information about Razor support in ASP.NET Core apps in Visual Studio for Mac.
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 05/03/2018
 ms.technology: vs-ide-general

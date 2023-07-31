@@ -1,7 +1,6 @@
 ---
 title: Visualize code
 description: Learn how you can use the visualization and modeling tools in Visual Studio to understand existing code and describe your application.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

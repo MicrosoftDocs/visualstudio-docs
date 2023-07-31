@@ -1,7 +1,6 @@
 ---
 title: "How to: Fill ListObject controls with data"
 description: Use data binding to quickly add data to your document. You can also disconnect the list object so it displays the data but is no longer bound to the data source.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

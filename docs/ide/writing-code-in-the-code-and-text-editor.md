@@ -1,7 +1,6 @@
 ---
 title: Code editor features
 description: Learn about the features that the code editor in Visual Studio provides to make it easier for you to write and manage your code and text.
-ms.custom: SEO-VS-2020
 ms.date: 01/31/2022
 ms.topic: conceptual
 helpviewer_keywords:
@@ -72,6 +71,8 @@ You can find a number of advanced features on the **Edit** > **Advanced** menu o
 ## Navigate and find code
 
 You can move around in the code editor in several different ways, including navigating backwards and forwards to previous insertion points, viewing the definition of a type or member, and jumping to a specific method using the navigation bar. For more information see [Navigate code](navigating-code.md).
+
+You can also set bookmarks to mark lines in your code so that you can quickly return to a specific location, or jump back and forth between locations. To learn more, see [Bookmark code](setting-bookmarks-in-code.md).
 
 ## Find references in your code base
 

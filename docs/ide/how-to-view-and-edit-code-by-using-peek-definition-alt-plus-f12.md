@@ -1,7 +1,6 @@
 ---
 title: Using Peek Definition
 description: Learn how to use the Peek Definition command to view and edit your code without having to switch context from the code you're currently writing.
-ms.custom: SEO-VS-2020
 ms.date: 01/10/2018
 ms.topic: how-to
 author: TerryGLee

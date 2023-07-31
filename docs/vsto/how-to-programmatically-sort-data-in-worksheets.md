@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically sort data in worksheets"
 description: Learn how you can use Visual Studio to programmatically sort data that is contained in worksheet ranges and lists at run time.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: Customizing Tools and the Toolbox
 description: Learn how you must define toolbox items for the elements that you want to let users add to their models.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:

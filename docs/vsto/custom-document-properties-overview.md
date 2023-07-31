@@ -1,7 +1,6 @@
 ---
 title: "Custom document properties overview"
 description: Learn that when you build a document-level project, Visual Studio adds two custom properties to the document in the project.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

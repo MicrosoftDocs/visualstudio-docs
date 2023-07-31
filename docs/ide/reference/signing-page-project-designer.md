@@ -1,7 +1,6 @@
 ---
 title: Signing Page, Project Designer
 description: Use the Signing page of the Project Designer to sign the application and deployment manifests and also to sign the assembly.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-deployment
 ms.topic: reference

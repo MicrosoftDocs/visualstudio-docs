@@ -1,7 +1,6 @@
 ---
 title: Workflow Designer - InvokeMethod Activity Designer
 description: Learn about the InvokeMethod activity and how you can use the InvokeMethod activity designer to create and configure an InvokeMethod activity.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

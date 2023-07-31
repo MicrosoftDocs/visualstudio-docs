@@ -1,7 +1,7 @@
 ---
 title: Unit testing fundamentals
 description: Learn how Visual Studio Test Explorer provides a flexible and efficient way to run your unit tests and view their results. 
-ms.date: 12/28/2021
+ms.date: 11/22/2022
 ms.topic: conceptual
 f1_keywords:
 - vs.UnitTest.CreateUnitTest
@@ -34,7 +34,7 @@ For an introduction to unit testing that takes you directly into coding, see one
 
 - [Write unit tests for C/C++ in Visual Studio](../test/writing-unit-tests-for-c-cpp.md)
 
-## The MyBank solution example
+## The Bank solution example
 
 In this article, we use the development of a fictional application called `MyBank` as an example. You don't need the actual code to follow the explanations in this topic. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code. However, the concepts are easily transferred to other languages and frameworks.
 
@@ -47,11 +47,11 @@ In this article, we use the development of a fictional application called `MyBan
 
 Our first attempt at a design for the `MyBank` application includes an accounts component that represents an individual account and its transactions with the bank, and a database component that represents the functionality to aggregate and manage the individual accounts.
 
-We create a `MyBank` solution that contains two projects:
+We create a `Bank` solution that contains two projects:
 
 - `Accounts`
 
-- `BankDb`
+- `BankDB`
 
 Our first attempt at designing the `Accounts` project contains a class to hold basic information about an account, an interface that specifies the common functionality of any type of account, like depositing and withdrawing assets from the account, and a class derived from the interface that represents a checking account. We begin the Accounts projects by creating the following source files:
 
@@ -123,20 +123,15 @@ For C#, it is often quicker to generate the unit test project and unit test stub
 
 ### Create the unit test project and unit tests manually
 
-A unit test project usually mirrors the structure of a single code project. In the MyBank example, you add two unit test projects named `AccountsTests` and `BankDbTests` to the `MyBanks` solution. The test project names are arbitrary, but adopting a standard naming convention is a good idea.
+A unit test project usually mirrors the structure of a single code project. In the MyBank example, you add two unit test projects named `AccountsTests` and `BankDbTests` to the `Bank` solution. The test project names are arbitrary, but adopting a standard naming convention is a good idea.
 
 **To add a unit test project to a solution:**
 
 1. In **Solution Explorer**, right-click on the solution and choose **Add** > **New** **Project**.
 
-
-::: moniker range=">=vs-2019"
-
 2. Type **test** in the project template search box to find a unit test project template for the test framework that you want to use. (In the examples in this topic, we use MSTest.)
 
 3. On the next page, name the project. To test the `Accounts` project of our example, you could name the project `AccountsTests`.
-
-::: moniker-end
 
 4. In your unit test project, add a reference to the code project under test, in our example to the Accounts project.
 
@@ -252,21 +247,11 @@ The **Test Explorer** toolbar helps you discover, organize, and run the tests th
 
 You can choose **Run All** to run all your tests (or press **Ctrl** + **R**, **V**), or choose **Run** to choose a subset of tests to run (**Ctrl** + **R**, **T**). Select a test to view the details of that test in the test details pane. Choose **Open Test** from the right-click menu (Keyboard: **F12**) to display the source code for the selected test.
 
-
-::: moniker range=">=vs-2019"
-
 If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
-
-::: moniker-end
 
 ### Run tests after every build
 
-
-::: moniker range=">=vs-2019"
-
 To run your unit tests after each local build, open the settings icon in the Test Explorer toolbar and select **Run Tests After Build**.
-
-::: moniker-end
 
 ### Filter and group the test list
 
@@ -313,33 +298,9 @@ Learn more details about [debugging unit tests](../debugger/debugger-feature-tou
 
 **Q: Can I create unit tests that take multiple sets of data as input to run the test?**
 
-**A:** Yes. *Data-driven test methods* let you test a range of values with a single unit test method. Use a `DataSource` attribute for the test method that specifies the data source and table that contains the variable values that you want to test.  In the method body, you assign the row values to variables using the `TestContext.DataRow[`*ColumnName*`]` indexer.
+**A:** Yes. *Data-driven test methods* let you test a range of values with a single unit test method. Use a `DataRow`, `DynamicData` or `DataSource` attribute for the test method that specifies the data source that contains the variable values that you want to test.
 
-> [!NOTE]
-> These procedures apply only to test methods that you write by using the Microsoft unit test framework for managed code. If you're using a different framework, consult the framework documentation for equivalent functionality.
-
-For example, assume we add an unnecessary method to the `CheckingAccount` class that is named `AddIntegerHelper`. `AddIntegerHelper` adds two integers.
-
-To create a data-driven test for the `AddIntegerHelper` method, we first create an Access database named *AccountsTest.accdb* and a table named `AddIntegerHelperData`. The `AddIntegerHelperData` table defines columns to specify the first and second operands of the addition and a column to specify the expected result. We fill a number of rows with appropriate values.
-
-```csharp
-[DataSource(
-    @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Projects\MyBank\TestData\AccountsTest.accdb",
-    "AddIntegerHelperData"
-)]
-[TestMethod()]
-public void AddIntegerHelper_DataDrivenValues_AllShouldPass()
-{
-    var target = new CheckingAccount();
-    int x = Convert.ToInt32(TestContext.DataRow["FirstNumber"]);
-    int y = Convert.ToInt32(TestContext.DataRow["SecondNumber"]);
-    int expected = Convert.ToInt32(TestContext.DataRow["Sum"]);
-    int actual = target.AddIntegerHelper(x, y);
-    Assert.AreEqual(expected, actual);
-}
-```
-
-The attributed method runs once for each row in the table. **Test Explorer** reports a test failure for the method if any of the iterations fail. The test results detail pane for the method shows you the pass/fail status method for each row of data.
+The attributed method runs once for each row in the data source. **Test Explorer** reports a test failure for the method if any of the iterations fail. The test results detail pane for the method shows you the pass/fail status method for each row of data.
 
 Learn more about [data-driven unit tests](../test/how-to-create-a-data-driven-unit-test.md).
 

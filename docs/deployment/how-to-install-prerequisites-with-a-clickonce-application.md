@@ -1,7 +1,6 @@
 ---
 title: Install prerequisites with a ClickOnce app
 description: Learn how to select prerequisite components to be packaged along with your ClickOnce application when it is installed.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -38,6 +37,8 @@ All [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applicatio
 ### To specify prerequisites to install with a ClickOnce application
 
 1. With a project selected in **Solution Explorer**, on the **Project** menu click **Properties**.
+
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 2. Select the **Publish** pane.
 

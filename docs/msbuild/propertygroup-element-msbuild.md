@@ -1,7 +1,6 @@
 ---
 title: PropertyGroup Element (MSBuild) | Microsoft Docs
 description: Learn about the MSBuild PropertyGroup element, which contains a set of user-defined Property elements.
-ms.custom: SEO-VS-2020
 ms.date: 03/13/2017
 ms.topic: reference
 f1_keywords:

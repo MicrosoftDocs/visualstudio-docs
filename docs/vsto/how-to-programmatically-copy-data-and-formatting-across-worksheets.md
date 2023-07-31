@@ -1,7 +1,6 @@
 ---
 title: "Copy data and formatting across worksheets programmatically"
 description: Learn how you can copy data from a range on one sheet to all the other sheets in a workbook by using the FillAcrossSheets method.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

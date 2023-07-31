@@ -1,7 +1,6 @@
 ---
 title: "Validate data when new row is added to ListObject control"
 description: Learn how you can use Visual Studio to validate data when a new row is added to a ListObject control.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

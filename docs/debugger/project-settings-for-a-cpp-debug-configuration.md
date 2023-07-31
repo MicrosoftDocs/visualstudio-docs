@@ -2,7 +2,7 @@
 title: "Project settings for a C++ debug config"
 description: Configure C and C++ debugging in Property Pages. This article describes the settings and tells you their category.
 
-ms.date: "06/07/2022"
+ms.date: "08/19/2022"
 ms.topic: "reference"
 f1_keywords:
   - "VC.Project.VCDebugSettings.WebBrowser.DebuggerType"
@@ -148,7 +148,7 @@ You can change the project settings for a C or C++ debug configuration in the **
 | **GPU Default Breakpoint Behavior** (GPU debugging only) | Specifies whether a breakpoint event should be raised for each thread in a SIMD warp. The default setting is to raise the breakpoint event only once per warp. |
 | **Amp Default Accelerator** | Specifies the default AMP accelerator when debugging GPU code. Choose **WARP software accelerator** to investigate if an issue is caused by the hardware or a driver instead of your code. |
 | **Deployment Directory** (Remote Windows Debugger) | Specifies the path on the remote computer where the project output will be copied prior to launch. The path can be a network share on the remote computer, or it can be a path to a folder on the remote computer. The default setting is empty, which means the project output is not copied to a network share. To enable deployment of the files, you must also select the **Deploy** check box in the Configuration Manager dialog box. For more information, see [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md). |
-| **Additional Files to Deploy** (Remote Windows Debugger) | If the Deployment Directory property is set, this is a semicolon-delimited list of additional files to copy to the deployment directory. The default setting is empty, which means that no additional files are copied to the deployment directory. To enable deployment of the files, you must also select the **Deploy** check box in the Configuration Manager dialog box. For more information, see [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md). |
+| **Additional Files to Deploy** (Remote Windows Debugger) | If the Deployment Directory property is set, this is a semicolon-delimited list of additional folders or files to copy to the deployment directory. The default setting is empty, which means that no additional folders or files are copied to the deployment directory. To copy the contents of a folder to the same folder in the Deployment Directory, specify a folder name. To enable deployment of the files, you must also select the **Deploy** check box in the Configuration Manager dialog box. For more information, see [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md). |
 | **Deploy Visual C++ Debug Runtime Libraries** (Remote Windows Debugger) | If the Deployment Directory property is set, this specifies whether the Visual C++ debug runtime libraries for the current platform should be copied to the network share. The default setting is Yes. |
 
 ## C/C++ folder (General category)

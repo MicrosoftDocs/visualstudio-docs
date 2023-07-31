@@ -1,7 +1,6 @@
 ---
 title: Stop Code Changes | Microsoft Docs
 description: Understand how to stop applying code changes while using the Edit and Continue feature during a Visual Studio debugging session.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

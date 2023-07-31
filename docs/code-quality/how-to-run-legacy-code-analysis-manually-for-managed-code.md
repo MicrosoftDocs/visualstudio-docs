@@ -1,7 +1,6 @@
 ---
 title: Run legacy code analysis manually (.NET)
 description: Learn how to detect possible defects in source code. See how to run legacy code analysis manually on managed code in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 

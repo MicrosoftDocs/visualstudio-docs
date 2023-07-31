@@ -1,7 +1,6 @@
 ---
 title: -Diff (devenv.exe)
 description: Learn how to use the Diff devenv command-line switch to compare two files.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:

@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically add an entry to Outlook contacts"
 description:  Learn how you can programmatically add an entry to Outlook contacts. This example creates a new contact and enters data into the new contact.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

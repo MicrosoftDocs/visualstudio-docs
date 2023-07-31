@@ -1,7 +1,6 @@
 ---
 title: Add code to DataSets in n-tier applications
 description: Add code to datasets in n-tier apps in Visual Studio. Create a partial class file for a dataset and add code to it (instead of to DatasetName.Dataset.Designer).
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -20,6 +19,8 @@ ms.workload:
 # Add code to DataSets in n-tier applications
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 You can extend the functionality of a dataset by creating a partial class file for the dataset and adding code to it (instead of adding code to the *DatasetName*.Dataset.Designer file). Partial classes enable code for a specific class to be divided among multiple physical files. For more information, see [Partial](/dotnet/visual-basic/language-reference/modifiers/partial) or [Partial classes and methods](/dotnet/csharp/programming-guide/classes-and-structs/partial-classes-and-methods).
 

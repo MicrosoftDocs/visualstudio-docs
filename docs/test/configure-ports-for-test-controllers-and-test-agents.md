@@ -1,7 +1,6 @@
 ---
 title: Configure Ports for Test Controllers and Test Agents
 description: Learn how to change the default incoming ports used by the test controller, the test agent, and the client to avoid conflicts with other software.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

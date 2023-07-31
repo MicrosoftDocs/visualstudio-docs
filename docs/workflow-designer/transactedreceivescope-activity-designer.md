@@ -1,7 +1,6 @@
 ---
 title: TransactedReceiveScope activity designer
 description: In Workflow Designer, learn how you can use the TransactedReceiveScope designer to create and configure a TransactedReceiveScope activity.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

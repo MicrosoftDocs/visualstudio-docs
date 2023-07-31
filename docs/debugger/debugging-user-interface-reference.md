@@ -1,7 +1,6 @@
 ---
 title: "Debugging User Interface Reference | Microsoft Docs"
 description: Review links to reference information about the various dialog boxes you might encounter in the debugging user interface of Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:

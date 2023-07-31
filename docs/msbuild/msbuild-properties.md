@@ -1,7 +1,6 @@
 ---
 title: MSBuild Properties | Microsoft Docs
 description: Learn how MSBuild name-value property pairs can pass values to tasks, evaluate conditions, and store values.
-ms.custom: SEO-VS-2020
 ms.date: 06/13/2022
 ms.topic: conceptual
 helpviewer_keywords:
@@ -48,6 +47,10 @@ Valid property names begin with an uppercase or lowercase letter or underscore (
 
  For more information, see [How to: Reference the name or location of the project file](../msbuild/how-to-reference-the-name-or-location-of-the-project-file.md) and [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md).
 
+## MSBuild internal properties
+
+Properties defined in standard import files that begin with an underscore (_) are private to MSBuild and should not be read, reset, or overridden in user code.
+
 ## Environment properties
 
  You can reference environment variables in project files just as you reference reserved properties. For example, to use the `PATH` environment variable in your project file, use $(Path). If the project contains a property definition that has the same name as an environment property, the property in the project overrides the value of the environment variable.
@@ -88,19 +91,149 @@ $(registry:Hive\MyKey\MySubKey)
 > [!WARNING]
 > In the .NET SDK version of MSBuild (`dotnet build`), registry properties are not supported.
 
+## Create properties during execution
+
+Properties positioned outside `Target` elements are assigned values during the evaluation phase of a build. During the subsequent execution phase, properties can be created or modified as follows:
+
+- A property can be emitted by any task. To emit a property, the [Task](../msbuild/task-element-msbuild.md) element must have a child [Output](../msbuild/output-element-msbuild.md) element that has a `PropertyName` attribute.
+
+- A property can be emitted by the [CreateProperty](../msbuild/createproperty-task.md) task. This usage is deprecated.
+
+- `Target` elements may contain `PropertyGroup` elements that may contain property declarations.
+
 ## Global properties
 
- MSBuild lets you set properties on the command line by using the **-property** (or **-p**) switch. These global property values override property values that are set in the project file. This includes environment properties, but does not include reserved properties, which cannot be changed.
+MSBuild lets you set properties on the command line by using the **-property** (or **-p**) switch. These global property values override property values that are set in the project file. This includes environment properties, but does not include reserved properties, which cannot be changed.
 
- The following example sets the global `Configuration` property to `DEBUG`.
+The following example sets the global `Configuration` property to `DEBUG`.
 
 ```cmd
 msbuild.exe MyProj.proj -p:Configuration=DEBUG
 ```
 
- Global properties can also be set or modified for child projects in a multi-project build by using the `Properties` attribute of the MSBuild task. Global properties are also forwarded to child projects unless the `RemoveProperties` attribute of the MSBuild task is used to specify the list of properties not to forward. For more information, see [MSBuild task](../msbuild/msbuild-task.md).
+Global properties can also be set or modified for child projects in a multi-project build by using the `Properties` attribute of the MSBuild task. Global properties are also forwarded to child projects unless the `RemoveProperties` attribute of the MSBuild task is used to specify the list of properties not to forward. For more information, see [MSBuild task](../msbuild/msbuild-task.md).
 
- If you specify a property by using the `TreatAsLocalProperty` attribute in a project tag, that global property value doesn't override the property value that's set in the project file. For more information, see [Project element (MSBuild)](../msbuild/project-element-msbuild.md) and [How to: Build the same source files with different options](../msbuild/how-to-build-the-same-source-files-with-different-options.md).
+## Local properties
+
+Local properties can be reset in a project. Global properties cannot. When a local property is set from the command line with the `-p` option, the setting in the project file takes precedence over the command line.
+
+You specify a local property by using the `TreatAsLocalProperty` attribute in a project tag. 
+
+The following code specifies that two properties are local:
+
+```xml
+<Project Sdk="Microsoft.Net.Sdk" TreatAsLocalProperty="Prop1;Prop2">
+```
+
+Local properties are not forwarded to child projects in a multi-project build. If you provide a value on the command-line with the `-p` option, child projects are given the value of the global property instead of the local value changed in the parent project, but the child project (or any of its imports) can also change it with their own `TreatAsLocalProperty`.
+
+### Example with local properties
+
+The following code example demonstrates the effect of `TreatAsLocalProperty`:
+
+```xml
+<!-- test1.proj -->
+<Project TreatAsLocalProperty="TreatedAsLocalProp">
+    <PropertyGroup>
+        <TreatedAsLocalProp>LocalOverrideValue</TreatedAsLocalProp>
+    </PropertyGroup>
+
+    <Target Name="Go">
+        <MSBuild Projects="$(MSBuildThisFileDirectory)\test2.proj" Targets="Go2" Properties="Inner=true" />
+    </Target>
+
+    <Target Name="Go2" BeforeTargets="Go">
+        <Warning Text="TreatedAsLocalProp($(MSBuildThisFileName)): $(TreatedAsLocalProp)" />
+    </Target>
+</Project>
+```
+
+```xml
+<!-- test2.proj -->
+<Project TreatAsLocalProperty="TreatedAsLocalProp">
+    <Target Name="Go2">
+        <Warning Text="TreatedAsLocalProp($(MSBuildThisFileName)): $(TreatedAsLocalProp)" />
+    </Target>
+</Project>
+```
+
+Suppose you build *test1.proj* command line, and give `TreatedAsLocalProperty` the global value `GlobalOverrideValue`:
+
+```cmd
+dotnet msbuild .\test1.proj -p:TreatedAsLocalProp=GlobalOverrideValue
+```
+
+The output is as follows:
+
+```output
+test1.proj(11,9): warning : TreatedAsLocalProp(test): LocalOverrideValue
+test2.proj(3,9): warning : TreatedAsLocalProp(test2): GlobalOverrideValue
+```
+
+The child project inherits the global value, but the parent project uses the locally set property.
+
+### Local properties and imports
+
+When `TreatAsLocalProperty` attribute is used on imported project, order is important when considering which value the property gets.
+
+The following code example shows the effect of `TreatAsLocalProperty` on an imported project:
+
+```xml
+<!-- importer.proj -->
+<Project>
+    <PropertyGroup>
+        <TreatedAsLocalProp>FirstOverrideValue</TreatedAsLocalProp>
+    </PropertyGroup>
+
+    <Import Project="import.props" />
+
+    <PropertyGroup>
+        <TreatedAsLocalProp Condition=" '$(TrySecondOverride)' == 'true' ">SecondOverrideValue</TreatedAsLocalProp>
+    </PropertyGroup>
+
+    <Target Name="Go">
+        <Warning Text="TreatedAsLocalProp($(MSBuildThisFileName)): $(TreatedAsLocalProp)" />
+    </Target>
+</Project>
+```
+
+```xml
+<!-- import.proj -->
+<Project TreatAsLocalProperty="TreatedAsLocalProp">
+    <PropertyGroup>
+        <TreatedAsLocalProp>ImportOverrideValue</TreatedAsLocalProp>
+    </PropertyGroup>
+
+    <!-- Here, TreatedAsLocalProp has the value "ImportOverrideValue"-->
+</Project>
+```
+
+Suppose you build `importer.proj` and set a global value for `TreatedAsLocalProp` as follows:
+
+```cmd
+dotnet msbuild .\importer.proj -p:TreatedAsLocalProp=GlobalOverrideValue
+```
+
+The output is:
+
+```output
+importer.proj(9,9): warning : TreatedAsLocalProp(importer.proj): GlobalOverrideValue
+
+Now suppose you build with the property `TrySecondOverride` to `true`:
+
+```cmd
+dotnet msbuild .\importer.proj -p:TreatedAsLocalProp=GlobalOverrideValue -p:TrySecondOverride=true
+```
+
+The output is:
+
+```output
+importer.proj(13,9): warning : TreatedAsLocalProp(importer.proj): SecondOverrideValue
+```
+
+The example shows that the property is treated as local *after* the imported project where the `TreatAsLocalProperty` attribute was used, not just within the imported file. The value of the property is affected by the global override value, but only *before* the imported project where `TreatAsLocalProperty` is used.
+
+For more information, see [Project element (MSBuild)](../msbuild/project-element-msbuild.md) and [How to: Build the same source files with different options](../msbuild/how-to-build-the-same-source-files-with-different-options.md).
 
 ## Property functions
 
@@ -113,16 +246,6 @@ msbuild.exe MyProj.proj -p:Configuration=DEBUG
 ```
 
  For more information, and a list of property functions, see [Property functions](../msbuild/property-functions.md).
-
-## Create properties during execution
-
- Properties positioned outside `Target` elements are assigned values during the evaluation phase of a build. During the subsequent execution phase, properties can be created or modified as follows:
-
-- A property can be emitted by any task. To emit a property, the [Task](../msbuild/task-element-msbuild.md) element must have a child [Output](../msbuild/output-element-msbuild.md) element that has a `PropertyName` attribute.
-
-- A property can be emitted by the [CreateProperty](../msbuild/createproperty-task.md) task. This usage is deprecated.
-
-- `Target` elements may contain `PropertyGroup` elements that may contain property declarations.
 
 ## Store XML in properties
 

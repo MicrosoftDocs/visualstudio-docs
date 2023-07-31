@@ -1,9 +1,8 @@
 ---
 title: "Tutorial: Create a 'math quiz' Windows Forms App"
 description: "Learn how to create a C# or Visual Basic Windows Forms project for a math quiz application. You'll use the Visual Studio IDE to add UI controls to a form."
-ms.custom: 
-- vs-acquisition
-ms.date: 01/20/2022
+ms.custom: vs-acquisition
+ms.date: 03/15/2023
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
@@ -35,7 +34,6 @@ You need Visual Studio to complete this tutorial. Visit the [Visual Studio downl
 ## Create your Windows Forms project
 
 When you create a math quiz, the first step is to create a Windows Forms App project.
-
 
 ::: moniker range="vs-2019"
 

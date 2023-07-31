@@ -1,7 +1,6 @@
 ---
 title: Connect host to generated directive processor
 description: Learn how you can expand your custom host so that it supports text templates that call directive processors.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

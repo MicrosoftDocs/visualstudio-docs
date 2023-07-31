@@ -4,8 +4,8 @@ description: Learn how to use common Visual Studio shell elements and 
 ms.date: 04/26/2017
 ms.topic: reference
 ms.assetid: 8d11b9a0-6175-4f2e-8e7f-79daee1bfd41
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

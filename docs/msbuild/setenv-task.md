@@ -1,7 +1,6 @@
 ---
 title: SetEnv task | Microsoft Docs
 description: Learn how MSBuild uses the SetEnv task to set or delete the value of a specified environment variable.
-ms.custom: SEO-VS-2020
 ms.date: 11/05/2018
 ms.topic: reference
 f1_keywords:

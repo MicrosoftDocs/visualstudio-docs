@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically list recently used workbook files"
 description: Learn how you can programmatically list recently used Microsoft Excel workbook files by using Visual Studio.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

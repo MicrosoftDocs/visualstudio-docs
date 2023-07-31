@@ -1,7 +1,6 @@
 ---
 title: Create WCF Data Service with WPF & Entity Framework
 description: Create a WCF Data Service with WPF and Entity Framework that's hosted in an ASP.NET web application, and then access it from a Windows Forms application.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -141,7 +140,6 @@ In the next step, you create and test the data service.
      ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfdataservicewalkthrough/vb/northwindcustomers.svc.vb" id="Snippet2":::
      ---
-
 
 6. On the menu bar, choose **Debug** > **Start Without Debugging** to run the service. A browser window opens and the XML schema for the service displays.
 

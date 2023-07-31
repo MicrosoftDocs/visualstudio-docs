@@ -1,7 +1,6 @@
 ---
 title: "Create a custom bootstrapper with a privacy prompt"
 description: Learn how to configure ClickOnce applications to automatically update when assemblies with newer file versions and assembly versions become available.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -113,7 +112,6 @@ You can configure ClickOnce applications to automatically update when assemblies
      ### [VB](#tab/vb)
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_ProTools/consentdialog/vb/form1.vb" id="Snippet2":::
      ---
-
 
 23. In the designer, double-click the **Cancel** button to generate the Click event handler.
 

@@ -1,7 +1,6 @@
 ---
 title: "Access local & remote data (ClickOnce apps)"
 description: Learn about the variety of options that ClickOnce gives for reading and writing data, both locally and remotely.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -51,6 +50,8 @@ Most applications consume or produce data. [!INCLUDE[ndptecclick](../deployment/
 > If your organization does not use Trusted Application Deployment and has turned off Permission Elevation, asserting permissions will fail.
 
  After your application has these permissions, it can access the Data Directory by using method calls on classes within the <xref:System.IO>. You can obtain the path of the Data Directory within a Windows Forms [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by using the <xref:System.Deployment.Application.ApplicationDeployment.DataDirectory%2A> property defined on the <xref:System.Deployment.Application.ApplicationDeployment.CurrentDeployment%2A> property of <xref:System.Deployment.Application.ApplicationDeployment>. This is the most convenient and recommended way to access your data. The following code example demonstrates how to do this for a text file named *CSV.txt* that you have included in your deployment as a data file.
+
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
 
  ### [C#](#tab/csharp)
  :::code language="csharp" source="../snippets/csharp/VS_Snippets_Winforms/ClickOnce.OpenDataFile/CS/Form1.cs" id="Snippet1":::

@@ -1,7 +1,6 @@
 ---
 title: Customize insert/update/delete behavior
 description: In this walkthrough, customize the insert, update, and delete behavior of entity classes using the LINQ (Language-Integrated Query) to SQL tools in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -18,6 +17,8 @@ ms.workload:
 # Walkthrough: Customize the insert, update, and delete behavior of entity classes
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 The [LINQ to SQL tools in Visual Studio](../data-tools/linq-to-sql-tools-in-visual-studio2.md) provides a visual design surface for creating and editing LINQ to SQL classes (entity classes) that are based on objects in a database. By using [LINQ to SQL](/dotnet/framework/data/adonet/sql/linq/index), you can use LINQ technology to access SQL databases. For more information, see [LINQ (Language-Integrated query)](/dotnet/csharp/linq/).
 

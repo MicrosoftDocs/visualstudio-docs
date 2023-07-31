@@ -1,7 +1,6 @@
 ---
 title: "Design changes to Office projects targeting .NET Framework"
 description: Learn about the changes introduced in Visual Studio to the design of Office projects that target the .NET Framework 4 or later.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

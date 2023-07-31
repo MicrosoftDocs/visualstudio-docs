@@ -1,7 +1,6 @@
 ---
 title: Add file header
 description: Learn how to use an EditorConfig file to add file headers to existing files, projects, and solutions.
-ms.custom: SEO-VS-2020
 ms.date: 07/10/2020
 ms.topic: reference
 author: mikadumont

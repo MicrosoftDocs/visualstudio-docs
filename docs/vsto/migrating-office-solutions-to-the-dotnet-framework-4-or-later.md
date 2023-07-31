@@ -1,7 +1,6 @@
 ---
 title: "Migrate Office solutions to the .NET Framework 4 or later"
 description: Learn how you can migrate Office solutions to the .NET Framework 4 or later so your project will continue to work.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

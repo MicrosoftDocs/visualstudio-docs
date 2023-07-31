@@ -53,6 +53,8 @@ landingContent:
             url: deploy-app-service.md
           - text: Deploy to Docker Hub
             url: deploy-docker-hub.md
+          - text: Deploy without a Dockerfile
+            url: deploy-containerized.md
 
   - title: Container development tasks
     linkLists:

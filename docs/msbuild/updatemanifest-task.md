@@ -1,7 +1,6 @@
 ---
 title: "UpdateManifest Task | Microsoft Docs"
 description: Learn how MSBuild uses the UpdateManifest task to update selected properties in a manifest and resign.
-ms.custom: SEO-VS-2020
 ms.date: "05/26/2022"
 ms.topic: "reference"
 dev_langs:

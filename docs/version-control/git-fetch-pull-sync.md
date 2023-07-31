@@ -1,7 +1,7 @@
 ---
 title: git fetch, pull, push, & sync
 description: Fetch, pull, push, and sync in Visual Studio by using Git or Azure DevOps.
-ms.date: 02/02/2022
+ms.date: 09/20/2022
 ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
@@ -56,7 +56,7 @@ But, as previously mentioned, always pull before you push. As a safe guard, Visu
 
 ## Sync
 
-Use this operation to both pull and push simultaneously.
+Use this operation to both pull, then push, sequentially.
 
 ## Next steps
 

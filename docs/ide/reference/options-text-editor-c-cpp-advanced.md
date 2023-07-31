@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, C/C++, Advanced
 description: Learn how to use the Advanced page in the C/C++ section to change the behavior related to IntelliSense and the browsing database.
-ms.custom: SEO-VS-2020
 ms.date: 10/08/2021
 ms.topic: reference
 f1_keywords:
@@ -11,8 +10,8 @@ f1_keywords:
 helpviewer_keywords:
   - "Text Editor Options dialog box, advanced"
 ms.assetid: 67c82ae5-fddd-49df-baec-8e7498b156f3
-author: corob-msft
-ms.author: corob
+author: tylermsft
+ms.author: twhitney
 manager: markl
 ms.workload:
   - "cplusplus"

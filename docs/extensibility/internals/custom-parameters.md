@@ -1,15 +1,14 @@
 ---
 title: Custom Parameters | Microsoft Docs
 description: Learn how to create custom parameters that control the operation of a wizard after a wizard has started, by modifying a .vsz file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - wizards, custom parameters
 - custom parameters
 ms.assetid: ba5c364b-66e6-47ea-9760-a0b70de8f0a0
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

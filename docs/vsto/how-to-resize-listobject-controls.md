@@ -1,7 +1,6 @@
 ---
 title: "How to: Resize ListObject controls"
 description: Learn how you can use Visual Studio to programmatically resize ListObject controls in a Microsoft Excel workbook.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

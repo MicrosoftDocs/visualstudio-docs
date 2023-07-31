@@ -1,8 +1,7 @@
 ---
 title: Create a simple WCF Service in Windows Forms
 description: In this walkthrough, create a Windows Communication Foundation (WCF) service in Visual Studio, test it, and then access it from a Windows Forms application.
-ms.date: 11/04/2016
-ms.custom: SEO-VS-2020
+ms.date: 06/30/2023
 ms.topic: conceptual
 dev_langs:
 - VB
@@ -36,9 +35,6 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
 1. Open Visual Studio.
 
-
-::: moniker range=">=vs-2019"
-
 2. On the start window, choose **Create a new project**.
 
 3. Type **wcf service library** in the search box on the **Create a new project** page. Select either the C# or Visual Basic template for **WCF Service Library**, and then click **Next**.
@@ -49,8 +45,6 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
    > If you don't see any templates, you may need to install the **Windows Communication Foundation** component of Visual Studio. Choose **Install more tools and features** to open Visual Studio Installer. Choose the **Individual components** tab, scroll down to **Development activities**, and then select **Windows Communication Foundation**. Click **Modify**.
 
 4. On the **Configure your new project** page, click **Create**.
-
-::: moniker-end
 
    > [!NOTE]
    > This creates a working service that can be tested and accessed. The following two steps demonstrate how you might modify the default method to use a different data type. In a real application, you would also add your own functions to the service.
@@ -123,31 +117,29 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
 ### Reference the WCF service
 
-1. On the **File** menu, point to **Add** and then click **New Project**.
+1. On the **File** menu, point to **Add > New Project**. Choose **Windows Forms App (.NET Framework)** project.
 
-2. In the **New Project** dialog box, expand the **Visual Basic** or **Visual C#** node, select **Windows**, and then select **Windows Forms Application**. Click **OK** to open the project.
+1. Right-click on the project node, and click **Add > Service Reference**. The **Add Service Reference** dialog box appears.
 
-     ![Windows Forms Application project](../data-tools/media/wcf7.png)
+1. In the **Add Service Reference** dialog box, click **Discover**.
 
-3. Right-click **WindowsApplication1** and click **Add Service Reference**. The **Add Service Reference** dialog box appears.
-
-4. In the **Add Service Reference** dialog box, click **Discover**.
-
-     ![The Add Service Reference dialog box](../data-tools/media/wcf8.png)
+     ![Screenshot showing the Add Service Reference dialog box.](../data-tools/media/vs-2022/add-service-reference-dialog-box.png)
 
      **Service1** displays in the **Services** pane.
 
-5. Click **OK** to add the service reference.
+1. Click **OK** to add the service reference.
 
 ### Build a client application
 
 1. In **Solution Explorer**, double-click **Form1.vb** or **Form1.cs** to open the Windows Forms Designer if it is not already open.
 
-2. From the **Toolbox**, drag a `TextBox` control, a `Label` control, and a `Button` control onto the form.
+1. Open the **Toolbox** by clicking on **View** > **Toolbox** (or **Ctrl**+**Alt**+**X** on the keyboard).
 
-     ![Adding controls to the form](../data-tools/media/wcf9.png)
+1. From the **Toolbox**, drag a `TextBox` control, a `Label` control, and a `Button` control onto the form.
 
-3. Double-click the `Button`, and add the following code in the `Click` event handler:
+     [ ![Screenshot showing adding controls to the form.](../data-tools/media/vs-2022/windows-communication-foundation-client-app.png) ](../data-tools/media/vs-2022/windows-communication-foundation-client-app.png#lightbox)
+
+1. Double-click the `Button`, and add the following code in the `Click` event handler:
 
      ### [C#](#tab/csharp)
      :::code language="csharp" source="../snippets/csharp/VS_Snippets_VBCSharp/wcfwalkthrough/cs/form1.cs" id="Snippet3":::
@@ -156,11 +148,11 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
      :::code language="vb" source="../snippets/visualbasic/VS_Snippets_VBCSharp/wcfwalkthrough/vb/form1.vb" id="Snippet3":::
      ---
 
-4. In **Solution Explorer**, right-click **WindowsApplication1** and click **Set as StartUp Project**.
+1. In **Solution Explorer**, right-click the project node (for example, **WindowsFormsApp1**), and click **Set as StartUp Project**.
 
-5. Press **F5** to run the project. Enter some text and click the button. The label displays "You entered:" and shows the text that you entered.
+1. Press **F5** to run the project. Enter some text and click the button. The label displays "You entered:" and shows the text that you entered.
 
-     ![The form showing the result](../data-tools/media/wcf10.png)
+     ![Screenshot of the running form showing the result.](../data-tools/media/vs-2022/windows-forms-app.png)
 
 ## See also
 

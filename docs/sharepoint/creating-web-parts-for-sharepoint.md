@@ -1,7 +1,6 @@
 ---
 title: "Creating Web Parts for SharePoint | Microsoft Docs"
 description: Create web parts for SharePoint. By using web parts, you can modify the content, appearance, and behavior of pages of a SharePoint site by using a browser.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: "How to: Remove managed code extensions from documents"
 description: Programmatically remove the customization assembly from a document or workbook that is part of a document-level customization for Microsoft Word or Excel.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

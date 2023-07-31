@@ -1,7 +1,6 @@
 ---
 title: "Block | Microsoft Docs"
 description: Find information about the Block symbol type (SymTagBlock), which identify nested scopes within functions in the Visual Studio debug interface access SDK.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

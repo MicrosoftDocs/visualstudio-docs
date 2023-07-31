@@ -38,14 +38,12 @@
   items:
   - name: Create a database
     href: create-a-sql-database-by-using-a-designer.md
-  - name: Connections
-    items:
-    - name: Add connections
-      href: add-new-connections.md
-    - name: Save and edit connection strings
-      href: how-to-save-and-edit-connection-strings.md
-    - name: Connect to data in an Access database
-      href: connect-to-data-in-an-access-database-windows-forms.md
+  - name: Connect to a database
+    href: add-new-connections.md
+  - name: Save and edit connection strings
+    href: how-to-save-and-edit-connection-strings.md
+  - name: Connect to data in an Access database
+    href: connect-to-data-in-an-access-database-windows-forms.md
   - name: Add .NET data sources
     href: add-new-data-sources.md
   - name: LINQ to SQL tools
@@ -202,13 +200,11 @@
     - name: Create a WCF Data Service with WPF and Entity Framework
       href: walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework.md
     - name: Troubleshoot service references
-      href: troubleshooting-service-references.md
+      href: /troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-service-references?toc=%2Fvisualstudio%2Fdata-tools%2Ftoc.json
     - name: Configure service reference dialog box
       href: configure-service-reference-dialog-box.md
     - name: Add, update, or remove a WCF Data Service reference
       href: how-to-add-update-or-remove-a-wcf-data-service-reference.md
-  - name: Upgrade .mdf files
-    href: upgrade-dot-mdf-files.md
 - name: Reference
   items:
   - name: O/R Designer (Linq to SQL)

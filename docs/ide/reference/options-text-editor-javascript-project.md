@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, JavaScript, Project
 description: Learn how to use the Project page of the Options dialog box to specify JavaScript and TypeScript project options in the Code Editor.
-ms.custom: SEO-VS-2020
 ms.date: 06/19/2020
 ms.technology: vs-javascript
 ms.topic: reference

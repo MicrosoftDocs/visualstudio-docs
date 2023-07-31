@@ -1,7 +1,6 @@
 ---
 title: Create a Windows Form to search data
 description: Read an example of how to create a Windows Form to search data. Create the Windows Form application, data source, and form. Add parameterization. Test the app.
-ms.custom: SEO-VS-2020
 ms.date: 06/07/2021
 ms.topic: conceptual
 helpviewer_keywords:
@@ -21,6 +20,8 @@ ms.workload:
 # Create a Windows Form to search data
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 A common application scenario is to display selected data on a form. For example, you might want to display the orders for a specific customer or the details of a specific order. In this scenario, a user enters information into a form, and then a query is executed with the user's input as a parameter; that is, the data is selected based on a parameterized query. The query returns only the data that satisfies the criteria entered by the user. This walkthrough shows how to create a query that returns customers in a specific city, and modify the user interface so that users can enter a city's name and press a button to execute the query.
 
@@ -67,9 +68,6 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 ## Create the Windows Forms application
 
-
-:::moniker range=">=vs-2019"
-
 Create a new **Windows Forms App (.NET Framework)** project for either C# or Visual Basic. Name the project **WindowsSearchForm**.
 
 ## Create the data source
@@ -97,8 +95,6 @@ This step creates a data source from a database using the **Data Source Configur
 1. Select the **Customers** table, and then click **Finish**.
 
      The **NorthwindDataSet** is added to your project, and the **Customers** table appears in the **Data Sources** window.
-
-:::moniker-end
 
 ## Create the form
 

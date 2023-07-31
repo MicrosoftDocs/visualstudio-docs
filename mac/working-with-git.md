@@ -1,8 +1,8 @@
 ---
 title: Working with Git
 description: Using Git in Visual Studio for Mac.
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 06/30/2022
 ms.assetid: 852B6A9D-AEFA-4EF4-A5DD-94A506019D20

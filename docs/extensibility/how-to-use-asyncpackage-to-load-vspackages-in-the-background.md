@@ -1,12 +1,11 @@
 ---
 title: Use AsyncPackage to load VSPackages in the background
 description: Learn how to use the AsyncPackage class that enables package loading on a background thread, which can prevent responsiveness issues from disk I/O.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: dedf0173-197e-4258-ae5a-807eb3abc952
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 ms.workload:
 - vssdk
 ---

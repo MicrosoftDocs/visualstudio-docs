@@ -1,7 +1,6 @@
 ---
 title: Create a Test Setting for a Distributed Load Test
 description: Learn how to configure test settings for your load tests so you can distribute those tests across multiple machines using test agents and test controllers.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

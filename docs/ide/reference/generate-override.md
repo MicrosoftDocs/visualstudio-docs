@@ -1,7 +1,6 @@
 ---
 title: Generate a method override
 description: Learn how to immediately generate the code for any method which can be overridden from a base class.
-ms.custom: SEO-VS-2020
 ms.date: 01/26/2018
 ms.topic: reference
 author: TerryGLee

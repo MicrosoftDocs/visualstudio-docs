@@ -1,7 +1,6 @@
 ---
 title: Disable URL Activation of ClickOnce apps
 description: Learn how to disable automatic start on install for your ClickOnce application, in case you want users to start the application from the Start menu.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

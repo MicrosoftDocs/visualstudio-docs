@@ -1,7 +1,6 @@
 ---
 title: Log Command Window Output Command
 description: Learn about the Log Command Window Output command and how it copies all input and output from the Command window into a file.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

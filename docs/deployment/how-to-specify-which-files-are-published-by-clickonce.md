@@ -1,7 +1,6 @@
 ---
 title: Specify files to publish (ClickOnce)
 description: Learn how to exclude files, mark files as data files or prerequisites, and create groups for conditional installation for a ClickOnce application.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 
@@ -49,6 +48,8 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
 2. Click the **Publish** tab.
+
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 3. Click the **Application Files** button to open the **Application Files** dialog box.
 

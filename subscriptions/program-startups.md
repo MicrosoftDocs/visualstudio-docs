@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 71af88da-b9fa-4d12-999c-7d461f3df0ec
-ms.date: 07/12/2022
+ms.date: 03/30/2023
 ms.topic: conceptual
 description:  Details on subscriptions offered through the Microsoft for Startups program.
 ---
@@ -39,7 +39,7 @@ For assistance with sales, subscriptions, accounts and billing for Visual Studio
 ## See also
 
 + [Visual Studio documentation](/visualstudio/)
-+ [Azure DevOps documentation](/azure/devops/)
++ [Azure DevOps Services documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
 

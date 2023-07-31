@@ -1,7 +1,6 @@
 ---
 title: "XDCMake Task | Microsoft Docs"
 description: Learn how MSBuild uses the XDCMake task to wrap the XML Documentation tool xdcmake.exe, which merges XML document comment files into an .xml file.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:

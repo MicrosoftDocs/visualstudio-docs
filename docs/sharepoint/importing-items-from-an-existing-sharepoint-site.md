@@ -1,7 +1,6 @@
 ---
 title: "Importing Items from an Existing SharePoint Site | Microsoft Docs"
 description: Import items from an existing SharePoint site with the Import SharePoint Solution Package project template, so you can reuse elements in a new SharePoint solution.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 f1_keywords:

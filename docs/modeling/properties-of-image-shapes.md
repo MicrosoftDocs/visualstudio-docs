@@ -1,7 +1,6 @@
 ---
 title: Properties of Image Shapes
 description: Learn about about image shapes and how you can use image shapes to specify how domain classes appear in a generated designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

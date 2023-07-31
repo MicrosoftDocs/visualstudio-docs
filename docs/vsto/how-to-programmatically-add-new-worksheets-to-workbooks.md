@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically add new worksheets to workbooks"
 description:  Learn how you can programmatically create a worksheet and then add the worksheet to the collection of worksheets in the workbook.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

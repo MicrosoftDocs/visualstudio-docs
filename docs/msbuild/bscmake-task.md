@@ -1,7 +1,6 @@
 ---
 title: BscMake Task | Microsoft Docs
 description: Learn about BscMake, which wrapped the Microsoft Browse Information Maintenance Utility tool bscmake.exe. The Visual Studio IDE no longer uses BscMake.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

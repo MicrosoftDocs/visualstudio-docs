@@ -1,7 +1,6 @@
 ---
 title: "Development best practices: COM, VSTO, & VBA add-ins in Office"
 description: Learn about the recommended best practices when developing COM, VSTO, and VBA add-ins for Microsoft Office.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "07/25/2017"
 ms.topic: "conceptual"

@@ -1,7 +1,6 @@
 ---
 title: "Changes required for Office projects migrated to .NET 4.5"
 description: Learn the changes you need to make to your project if the target framework changes to the .NET Framework 4 or later from an earlier version of the .NET Framework.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

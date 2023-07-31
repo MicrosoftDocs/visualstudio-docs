@@ -1,7 +1,6 @@
 ---
 title: Set load test run settings from the command line
 description: A load test can include run settings, which are properties that influence the way a load test runs. Learn how to load run settings from the command line.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

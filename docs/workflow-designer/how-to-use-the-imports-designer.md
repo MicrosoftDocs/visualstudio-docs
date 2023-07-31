@@ -1,7 +1,6 @@
 ---
 title: 'Workflow Designer - How to: Use the Imports Designer'
 description: Learn how the imports designer enables you to enter namespaces for the types that you will use in your expressions.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:

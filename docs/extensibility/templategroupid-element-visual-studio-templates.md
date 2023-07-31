@@ -1,7 +1,6 @@
 ---
 title: TemplateGroupID Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the TemplateGroupID element and how it specifies what kind of project an item templates will show up in.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -11,8 +10,8 @@ helpviewer_keywords:
 - TemplateGroupID element [Visual Studio Templates]
 - <TemplateGroupID> element [Visual Studio Templates]
 ms.assetid: bce7b49a-90bc-4691-aff3-a87e209f6d83
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.workload:
 - vssdk

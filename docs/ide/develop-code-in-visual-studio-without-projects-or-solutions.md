@@ -1,7 +1,6 @@
 ---
 title: Develop code without projects or solutions
 description: Learn how to develop code directly in Visual Studio without a need for projects or solutions.
-ms.custom: SEO-VS-2020
 ms.date: 04/29/2022
 ms.topic: how-to
 helpviewer_keywords:
@@ -34,14 +33,10 @@ You can open code into Visual Studio in the following ways:
 
 - On the context (right-click) menu of a folder containing code, choose the **Open in Visual Studio** command.
 
-
-::: moniker range=">=vs-2019"
 - Choose the **Open Folder** link on the start window.
 
     > [!IMPORTANT]
     > Not all code can be opened by using the **Open Folder** link from the Visual Studio start window. For example, if your code file was saved as part of a solution&mdash;in other words, in an .sln file&mdash;you must use one of the other options listed here to open your code.
-
-::: moniker-end
 
 - If you are a keyboard user, press **Ctrl**+**Shift**+**Alt**+**O** in Visual Studio.
 

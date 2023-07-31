@@ -1,7 +1,7 @@
 ---
 title: "Project Settings for React, Angular, and Vue projects | Microsoft Docs"
 description: Understand how to change the project settings for a JavaScript project (.esproj) that uses React, Angular, or Vue in Visual Studio, using the Debug tab and Build tab of the project property pages.
-ms.date: "07/26/2022"
+ms.date: "06/28/2023"
 ms.topic: "reference"
 dev_langs:
   - "JavaScript"
@@ -35,6 +35,14 @@ Under the General tab, the following properties are available.
 
 Specifies the command to run when you build the project. (**Build > Build Solution**, or when you run the project.) If used, this is typically an npm command.
 
+**Production Build Command**
+
+Specifies the command to run when you build the project, when the project is integrated with the ASP.NET Core Web API project. Generates production-ready files. By default, this command is `npm run build`.
+
+**Build Output Folder**
+
+Specifies the output folder for production build objects when the **Production Build Command** is used.
+
 **Clean Command**
 
 Specifies the command to run when you clean the project. (**Build > Clean Solution**) If used, this is typically an npm command.
@@ -43,7 +51,7 @@ Specifies the command to run when you clean the project. (**Build > Clean Soluti
 
 Specifies the working directory for the build command. This is the project root, by default.
 
-## Debug tab
+## Deploy tab
 
 **Startup Command**
 
@@ -52,6 +60,9 @@ Specifies the command to execute when you start the project. For example, an Ang
 **Working Directory**
 
 Specifies the working directory for the startup command. By default, this is the project root. Relative paths are relative to the project root.
+
+> [!NOTE]
+> In Visual Studio, *launch.json* stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, *launch.json* must be located under the *.vscode* folder.
 
 ## See also
 

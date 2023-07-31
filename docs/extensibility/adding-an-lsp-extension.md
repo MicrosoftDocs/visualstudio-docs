@@ -1,12 +1,11 @@
 ---
 title: Adding a Language Server Protocol extension | Microsoft Docs
 description: Learn how to create a Visual Studio extension that integrates a language server based on the Language Server Protocol (LSP).
-ms.custom: SEO-VS-2020
 ms.date: 07/05/2021
 ms.topic: conceptual
 ms.assetid: 52f12785-1c51-4c2c-8228-c8e10316cd83
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
@@ -373,8 +372,6 @@ When tracing is turned on the content is written to a file in the *%temp%\Visual
 ### Custom messages
 
 
-::: moniker range="vs-2019"
-
 There are APIs in place to facilitate passing messages to and receiving messages from the language server that are not part of the standard Language Server Protocol. To handle custom messages, implement [ILanguageClientCustomMessage2](/dotnet/api/microsoft.visualstudio.languageserver.client.ilanguageclientcustommessage2) interface in your language client class. [VS-StreamJsonRpc](https://github.com/Microsoft/vs-streamjsonrpc/blob/master/doc/index.md) library is used to transmit custom messages between your language client and language server. Since your LSP language client extension is just like any other Visual Studio extension, you can decide to add additional features (that are not supported by the LSP) to Visual Studio (using other Visual Studio APIs) in your extension through custom messages.
 
 #### Receive custom messages
@@ -488,8 +485,6 @@ public class MockLanguageClient : ILanguageClient, ILanguageClientCustomMessage2
   }
 }
 ```
-
-::: moniker-end
 
 The middle layer feature is still under development and not yet comprehensive.
 

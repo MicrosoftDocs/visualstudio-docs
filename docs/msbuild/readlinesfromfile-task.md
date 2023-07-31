@@ -1,7 +1,6 @@
 ---
 title: ReadLinesFromFile Task | Microsoft Docs
 description: Learn how MSBuild uses the ReadLinesFromFile task to read a list of items from a text file. The file must have one item on each line.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

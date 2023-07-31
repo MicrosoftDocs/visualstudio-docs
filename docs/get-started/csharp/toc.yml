@@ -21,6 +21,8 @@
     expanded: true
   - name: Create a web app
     href: tutorial-aspnet-core.md
+  - name: Create a Windows App SDK app
+    href: tutorial-wasdk.md
   - name: Create a UWP app
     href: tutorial-uwp.md
   - name: Create a WPF application

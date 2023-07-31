@@ -1,7 +1,6 @@
 ---
 title: Directly access the database with a TableAdapter
 description: Directly access a database with a TableAdapter, using methods such as Insert, Update, and Delete to manipulate data directly in the database.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -30,6 +29,8 @@ ms.workload:
 # Directly access the database with a TableAdapter
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 In addition to the `InsertCommand`, `UpdateCommand`, and `DeleteCommand`, TableAdapters are created with methods that can be run directly against the database. You can call these methods (`TableAdapter.Insert`, `TableAdapter.Update`, and `TableAdapter.Delete`) to manipulate data directly in the database.
 

@@ -2,7 +2,6 @@
 title: How to run code analysis manually for .NET
 ms.date: 05/13/2022
 description: "Learn how to manually run code analysis in Visual Studio 2019 version 16.5 or later versions. See how to run Roslyn analyzers on C# or Visual Basic code."
-ms.custom: SEO-VS-2020
 ms.topic: how-to
 helpviewer_keywords:
   - code analysis, running

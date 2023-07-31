@@ -1,12 +1,11 @@
 ---
 title: "Tutorial: Customize a Windows Forms app"
-description: "Learn how to customize the math quiz Windows Forms app. You'll also use the Visual Studio IDE to add event handlers to clear values."
-ms.custom: 
-- vs-acquisition
+description: "Learn how to customize the math quiz Windows Forms app. You'll also use the Visual Studio IDE to add event handlers to clear answer values."
+ms.custom: vs-acquisition
 dev_langs:
   - "CSharp"
   - "VB"
-ms.date: 01/20/2022
+ms.date: 04/20/2023
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
@@ -33,7 +32,7 @@ In this final tutorial, you learn how to:
 
 This tutorial builds on previous tutorials, starting with [Create a math quiz WinForms app](tutorial-windows-forms-math-quiz-create-project-add-controls.md). If you haven't completed those tutorials, go through them first.
 
-## Add Event handlers for the NumericUpDown controls
+## Add event handlers for the NumericUpDown controls
 
 The quiz contains <xref:System.Windows.Forms.NumericUpDown> controls that quiz takers use to enter numbers. When you enter an answer, you either need to select the default value first or delete that value manually. By adding an <xref:System.Windows.Forms.Control.Enter> event handler, you can make it easier to enter answers. This code selects and clears the current value in each NumericUpDown control as soon as the quiz taker selects it and starts to enter a different value.
 
@@ -70,9 +69,13 @@ The quiz contains <xref:System.Windows.Forms.NumericUpDown> controls that quiz t
 
    When the quiz taker selects the control, Visual Studio fires this event. This code selects the current answer. As soon as the quiz taker starts to enter a different answer, the current answer is cleared and replaced with the new answer.
 
+1. In **Windows Forms Designer**, select the addition problem's NumericUpDown control again.
+
+1. In the **Events** page of the **Properties** dialog box, find the **Click** event, and then select **answer_Enter** from the drop-down menu. This event handler is the one that you just added.
+
 1. In **Windows Forms Designer**, select the subtraction problem's NumericUpDown control.
 
-1. In the **Events** page of the **Properties** dialog box, find the **Enter** event, and then select **answer_Enter** from the drop-down menu. This event handler is the one that you just added.
+1. In the **Events** page of the **Properties** dialog box, find the **Enter** event, and then select **answer_Enter** from the drop-down menu. This event handler is the one that you just added. Repeat this step for the **Click** event.
 
 1. Repeat the previous two steps for the multiplication and division NumericUpDown controls.
 

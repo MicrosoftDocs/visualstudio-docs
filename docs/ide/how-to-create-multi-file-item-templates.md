@@ -1,7 +1,6 @@
 ---
 title: Creating multi-file item templates
 description: Learn how to create an item template in Visual Studio that is made up of multiple files.
-ms.custom: SEO-VS-2020
 ms.date: 01/02/2018
 ms.topic: how-to
 helpviewer_keywords:

@@ -1,10 +1,10 @@
 ---
 title: Configure Python web apps for IIS
 description: How to configure Python web apps to run with Internet Information Services from a Windows virtual machine.
-ms.date: 05/25/2022
+ms.date: 07/21/2023
 ms.topic: how-to
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -18,9 +18,6 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 When using Internet Information Services (IIS) as a web server on a Windows computer (including [Windows virtual machines on Azure](/azure/architecture/reference-architectures/n-tier/windows-vm)), Python apps must include specific settings in their *web.config* files so that IIS can properly process Python code. The computer itself must also have Python installed along with any packages the web app requires.
-
-> [!Note]
-> The previous article, is still available on [Managing App Service on Windows with the Python extensions](managing-python-on-azure-app-service.md).
 
 ## Install Python on Windows
 
@@ -38,7 +35,7 @@ Your app's *web.config* file instructs the IIS (7+) web server running on Window
 
 ### Configure the HttpPlatform handler
 
-The HttpPlatform module passes socket connections directly to a standalone Python process. This pass-through allows you to run any web server you like, but requires a startup script that runs a local web server. You specify the script in the `<httpPlatform>` element of *web.config*, where the `processPath` attribute points to the site extension's Python interpreter and the `arguments` attribute points to your script and any arguments you want to provide:
+The HttpPlatform module passes socket connections directly to a standalone Python process. This pass-through allows you to run any web server you like, but requires a startup script that runs a local web server, likely using a Python web framework such as Flask or Django. You specify the script in the `<httpPlatform>` element of *web.config*, where the `processPath` attribute points to the site extension's Python interpreter and the `arguments` attribute points to your startup script that runs a local web server, in this case `runserver.py`, and any arguments you want to provide:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

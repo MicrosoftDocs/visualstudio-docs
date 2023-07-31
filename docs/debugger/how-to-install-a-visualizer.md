@@ -1,7 +1,6 @@
 ---
 title: Install a Visualizer | Microsoft Docs
 description: Understand how to install a visualizer so that it will be available for debugging use in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 07/02/2021
 ms.topic: how-to
 dev_langs:
@@ -29,7 +28,6 @@ After you have created a visualizer, you must install the visualizer so that it 
 > [!NOTE]
 > In UWP apps, only the standard text, HTML, XML, and JSON visualizers are supported. Custom (user-created) visualizers are not supported.
 
-::: moniker range=">=vs-2019"
 ### To install a visualizer for Visual Studio 2019
 
 1. Locate the DLL that contains the visualizer you built.
@@ -64,8 +62,6 @@ After you have created a visualizer, you must install the visualizer so that it 
 
 > [!NOTE]
 > The procedure is different in Visual Studio 2017 and older. See the [previous version](how-to-install-a-visualizer.md?view=vs-2017&preserve-view=true) of this article.
-::: moniker-end
-
 
 ## See also
 - [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)

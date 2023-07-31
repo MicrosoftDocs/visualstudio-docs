@@ -1,7 +1,6 @@
 ---
 title: MSI and VSIX Deployment of a DSL
 description: Learn how you can install a domain-specific language (DSL) on your own computer or on other computers. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 author: mgoertz-msft

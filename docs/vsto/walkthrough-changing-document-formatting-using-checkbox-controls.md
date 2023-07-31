@@ -1,7 +1,6 @@
 ---
 title: "Change document formatting using CheckBox controls"
 description: Learn how to use Windows Forms controls in a document-level customization for Microsoft Word to change text formatting.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

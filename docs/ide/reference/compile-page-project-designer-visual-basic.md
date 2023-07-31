@@ -1,7 +1,6 @@
 ---
 title: Compile Page, Project Designer (Visual Basic)
 description: Learn how to specify compilation instructions in Visual Studio. You can also specify advanced compiler options and pre-build or post-build events on this page.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
 ms.topic: reference

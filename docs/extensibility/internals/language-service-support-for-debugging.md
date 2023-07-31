@@ -1,15 +1,14 @@
 ---
 title: Language Service Support for Debugging | Microsoft Docs
 description: Learn about language service features in the IVsLanguageDebugInfo interface that provide support for debugging in Visual Studio. 
-ms.custom: SEO-VS-2020 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugger, language support
 - language services, debugging support
 ms.assetid: 7a44067f-a410-4a6a-84d2-bda5184140bc
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

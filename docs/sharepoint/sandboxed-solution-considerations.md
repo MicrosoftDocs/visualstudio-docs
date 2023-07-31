@@ -1,7 +1,6 @@
 ---
 title: "Sandboxed Solution Considerations | Microsoft Docs"
 description: Explore sandboxed solutions, which are a feature in Microsoft SharePoint that enables site collection users to upload their own custom code solutions.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

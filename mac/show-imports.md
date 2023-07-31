@@ -1,8 +1,8 @@
 ---
 title: Show import items
 description: Use Show Import Items to expand IntelliSense in Visual Studio for Mac.
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 03/29/2019
 ms.assetid: C7782BF3-016F-4B41-8A81-85FC540A1A8F

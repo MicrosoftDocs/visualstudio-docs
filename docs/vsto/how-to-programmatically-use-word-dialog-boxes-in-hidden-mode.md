@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically use Word dialog boxes in hidden mode"
 description: Learn how you can use Visual Studio to programmatically use Microsoft Word dialog boxes in hidden mode.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

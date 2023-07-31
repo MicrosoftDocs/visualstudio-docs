@@ -1,7 +1,6 @@
 ---
 title: CreateVisualBasicManifestResourceName Task | Microsoft Docs
 description: Use the MSBuild CreateVisualBasicManifestResourceName task to create a Visual Basic-style manifest name from a given .resx file name or other resource.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:

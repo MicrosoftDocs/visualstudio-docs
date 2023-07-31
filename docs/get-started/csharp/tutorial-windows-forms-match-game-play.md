@@ -9,9 +9,8 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.topic: tutorial
-ms.date: 01/07/2022
-ms.custom: 
-- vs-acquisition
+ms.date: 03/16/2023
+ms.custom: vs-acquisition
 ---
 # Tutorial: Display a message in your matching game WinForms app
 
@@ -30,8 +29,10 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-This tutorial builds on previous tutorials, [Create a matching game application](tutorial-windows-forms-create-match-game.md), [Add icons to your matching game](tutorial-windows-forms-match-game-icons.md), and [Add a timer in your matching game](tutorial-windows-forms-match-game-labels.md)
-Do those tutorials first.
+This tutorial builds on these previous tutorials:
+1. [Create a matching game application](tutorial-windows-forms-create-match-game.md)
+1. [Add icons to your matching game](tutorial-windows-forms-match-game-icons.md)
+1. [Add a timer in your matching game](tutorial-windows-forms-match-game-labels.md)
 
 ## Keep pairs visible
 
@@ -42,31 +43,31 @@ Those labels continue to be displayed.
 1. Add the following `if` statement to the `label_Click()` event handler method.
    Put it near the end of the code just above the statement where you start the timer.
 
-   ### [C#](#tab/csharp)
-   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step7/cs/form1.cs" id="Snippet9":::
+  ### [C#](#tab/csharp)
+  :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step7/cs/form1.cs" id="Snippet9":::
 
-   ### [VB](#tab/vb)
-   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step7/vb/form1.vb" id="Snippet9":::
-   ---
+  ### [VB](#tab/vb)
+  :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step7/vb/form1.vb" id="Snippet9":::
+  ---
 
-   [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
+  [!INCLUDE [devlang-control-csharp-vb](../includes/devlang-control-csharp-vb.md)]
 
-   The `if` statement checks whether the icon in the first label that the player chooses is the same as the icon in the second label.
-   If the icons are the same, the program runs its three statements.
-   The first two statements reset the `firstClicked` and `secondClicked` reference variables.
-   They no longer keep track of any of the labels.
-   The third statement is a `return` statement, which skips the rest of the statements in the method without running them.
+  The `if` statement checks whether the icon in the first label that the player chooses is the same as the icon in the second label.
+  If the icons are the same, the program runs its three statements.
+  The first two statements reset the `firstClicked` and `secondClicked` reference variables.
+  They no longer keep track of any of the labels.
+  The third statement is a `return` statement, which skips the rest of the statements in the method without running them.
 
-1. Run the program, and then start choosing squares on the form.
+2. Run the program, and then start choosing squares on the form.
 
-   ![Screenshot of the Matching Game that you create in this tutorial.](../media/tutorial-windows-forms-create-match-game/match-game-final.png)
+  ![Screenshot of the Matching Game that you create in this tutorial.](../media/tutorial-windows-forms-create-match-game/match-game-final.png)
 
-If you choose a pair that doesn't match, the timer's Tick event triggers.
-Both icons disappear.
-
-If you choose a matching pair, the new `if` statement runs.
-The return statement causes the method to skip the code that starts the timer.
-The icons stay visible.
+  If you choose a pair that doesn't match, the timer's Tick event triggers.
+  Both icons disappear.
+    
+  If you choose a matching pair, the new `if` statement runs.
+  The return statement causes the method to skip the code that starts the timer.
+  The icons stay visible.
 
 ## Verify if a player won
 
@@ -76,37 +77,37 @@ This section adds a method to verify whether the player won.
 
 1. Add a `CheckForWinner()` method to the bottom of your code, below the `timer1_Tick()` event handler.
 
-   ### [C#](#tab/csharp)
-   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step8/cs/form1.cs" id="Snippet10":::
+  ### [C#](#tab/csharp)
+  :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step8/cs/form1.cs" id="Snippet10":::
 
-   ### [VB](#tab/vb)
-   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step8/vb/form1.vb" id="Snippet10":::
-   ---
+  ### [VB](#tab/vb)
+  :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step8/vb/form1.vb" id="Snippet10":::
+  ---
 
-   The method uses another `foreach` loop in C# or `For Each` loop in Visual Basic to go through each label in the <xref:System.Windows.Forms.TableLayoutPanel>.
-   It checks each label's icon color to verify whether it matches the background.
-   If the colors match, the icon remains invisible, and the player hasn't matched all of the icons remaining.
+  The method uses another `foreach` loop in C# or `For Each` loop in Visual Basic to go through each label in the <xref:System.Windows.Forms.TableLayoutPanel>.
+  It checks each label's icon color to verify whether it matches the background.
+  If the colors match, the icon remains invisible, and the player hasn't matched all of the remaining icons.
+    
+  In that case, the program uses a `return` statement to skip the rest of the method.
+  If the loop gets through all of the labels without executing the `return` statement, that means that all of the icons on the form were matched.
+  The program shows a [MessageBox](/dotnet/api/system.windows.messagebox) to congratulate the player on winning, and then calls the `Close()` method to end the game.
+    
+2. Have the label's <xref:System.Windows.Forms.Control.Click> event handler call the new `CheckForWinner()` method.
 
-   In that case, the program uses a `return` statement to skip the rest of the method.
-   If the loop gets through all of the labels without executing the `return` statement, that means that all of the icons on the form were matched.
-   The program shows a MessageBox to congratulate the player on winning, and then calls the `Close()` method to end the game.
+  ### [C#](#tab/csharp)
+  :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step8/cs/form1.cs" id="Snippet11":::
+        
+  ### [VB](#tab/vb)
+  :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step8/vb/form1.vb" id="Snippet11":::
+  ---
 
-   Have the label's <xref:System.Windows.Forms.Control.Click> event handler call the new `CheckForWinner()` method.
+  Be sure that your program checks for a winner immediately after it shows the second icon that the player chooses. Look for the line where you set the second chosen icon's color, and then call the `CheckForWinner()` method right after that line.
 
-   ### [C#](#tab/csharp)
-   :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial4step8/cs/form1.cs" id="Snippet11":::
+3. Save and run the program. Play the game and match all of the icons. When you win, the program displays a congratulatory message.
 
-   ### [VB](#tab/vb)
-   :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial4step8/vb/form1.vb" id="Snippet11":::
-   ---
+    ![Screenshot shows the Matching game with a MessageBox.](../media/tutorial-windows-forms-match-game-play/match-game-congratulations.png)
 
-   Be sure that your program checks for a winner immediately after it shows the second icon that the player chooses. Look for the line where you set the second chosen icon's color, and then call the `CheckForWinner()` method right after that line.
-
-1. Save and run the program. Play the game and match all of the icons. When you win, the program displays a congratulatory message.
-
-   ![Screenshot shows the Matching game with a MessageBox.](../media/tutorial-windows-forms-match-game-play/match-game-congratulations.png)
-
-   After you select **OK**, the Matching Game closes.
+    After you select **OK**, the Matching Game closes.
 
 ## Try other features
 

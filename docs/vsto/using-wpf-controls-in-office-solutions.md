@@ -1,7 +1,6 @@
 ---
 title: "Use WPF controls in Office solutions"
 description: Learn how you can use Windows Presentation Foundation (WPF) controls for designing user interfaces in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

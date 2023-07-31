@@ -1,7 +1,6 @@
 ---
 title: Export and save code maps
 description: Learn how you can save code maps as part of a Visual Studio project, as an image, or as an XPS file.
-ms.custom: SEO-VS-2020
 ms.date: 05/16/2018
 ms.topic: how-to
 author: mgoertz-msft

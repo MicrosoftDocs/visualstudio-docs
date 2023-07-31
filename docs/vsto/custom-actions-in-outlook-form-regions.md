@@ -1,7 +1,6 @@
 ---
 title: "Custom actions in Outlook form regions"
 description: Learn how action display buttons, like Reply and Reply All, enable users to respond to a Microsoft Office Outlook item.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

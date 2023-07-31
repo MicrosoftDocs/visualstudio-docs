@@ -1,7 +1,6 @@
 ---
 title: "How to: Map ListObject columns to data"
 description: Learn how you can map which columns you want to appear in the ListObject when you call the SetDataBinding method.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

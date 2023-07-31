@@ -2,8 +2,8 @@
 title: "Tutorial: Create UWP Apps with Visual Studio & C#"
 description: Create a UWP app in Visual Studio with XAML and C#
 titleSuffix: ""
-ms.custom: "vs-acquisition, get-started, SEO-VS-2020"
-ms.date: "09/14/2021"
+ms.custom: vs-acquisition, get-started
+ms.date: "05/31/2023"
 ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.devlang: CSharp
@@ -19,16 +19,16 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
+> [!NOTE]
+> If you're happy with your current functionality in the Universal Windows Platform (UWP), then there's no need to migrate your project type to Windows App SDK. WinUI 2.x, and the Windows SDK, support UWP project types. If you would like to get started with WinUI 3 and Windows App SDK, then you can follow the steps in the [Windows App SDK tutorial](tutorial-wasdk.md).
+
 In this introduction to the Visual Studio integrated development environment (IDE), you'll create a "Hello World" app that runs on any Windows 10 or later device. To do so, you'll use a Universal Windows Platform (UWP) project template, Extensible Application Markup Language (XAML), and the C# programming language.
 
-::: moniker range=">=vs-2019"
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
-::: moniker-end
 
 ## Create a project
 
 First, create a Universal Windows Platform project. The project type comes with all the template files you need, before you've even added anything!
-
 
 ::: moniker range="vs-2019"
 1. Open Visual Studio, and on the start window, choose **Create a new project**.
@@ -47,6 +47,11 @@ First, create a Universal Windows Platform project. The project type comes with 
 1. Accept the default **Target version** and **Minimum version** settings in the **New Universal Windows Platform Project** dialog box.
 
    ![Screenshot of the New Universal Windows Platform Project dialog box showing the default Target version and Minimum version settings.](media/vs-2019/new-uwp-project-target-minver-dialog.png)
+
+   > [!NOTE]
+   > If this is the first time you have used Visual Studio to create a UWP app, a **Settings** dialog box might appear. Choose **Developer mode**, and then choose **Yes**.<br><br>
+   > ![Screenshot showing the UWP Settings dialog box with the option for enabling Developer Mode.](media/enable-developer-mode.png)<br><br>Visual Studio installs an additional Developer Mode package for you. When the package installation is complete, close the **Settings** dialog box.
+
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
@@ -67,18 +72,17 @@ First, create a Universal Windows Platform project. The project type comes with 
 
    :::image type="content" source="media/vs-2022/new-uwp-project-target-minver-dialog.png" alt-text="Screenshot of the New Universal Windows Platform Project dialog box showing the default Target version and Minimum version settings.":::
 
-::: moniker-end
-
    > [!NOTE]
-   > If this is the first time you have used Visual Studio to create a UWP app, a **Settings** dialog box might appear. Choose **Developer mode**, and then choose **Yes**.<br><br>
-   > ![Screenshot showing the UWP Settings dialog box with the option for enabling Developer Mode.](media/enable-developer-mode.png)<br><br>Visual Studio installs an additional Developer Mode package for you. When the package installation is complete, close the **Settings** dialog box.
+   > If this is the first time you have used Visual Studio to create a UWP app, the **Enable Developer Mode for Windows** dialog will appear. Select **settings for developers** to open **Settings**. Turn on **Developer mode**, and then choose **Yes**.<br><br>
+   > ![Screenshot showing the UWP Settings dialog box with the option for enabling Developer Mode.](media/vs-2022/enable-developer-mode-settings.png)<br><br>Visual Studio installs an additional Developer Mode package for you. When the package installation is complete, close the **Settings** dialog box.
+
+::: moniker-end
 
 ## Create the application
 
 It's time to start developing. You'll add a button control, add an action to the button, and then start the "Hello World" app to see what it looks like.
 
 ### Add a button to the Design canvas
-
 
 ::: moniker range="vs-2019"
 
@@ -188,13 +192,13 @@ An "event handler" sounds complicated, but it's just another name for code that 
 
    ```C#
    private async void Button_Click(object sender, RoutedEventArgs e)
-         {
-             MediaElement mediaElement = new MediaElement();
-             var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
-             Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync("Hello, World!");
-             mediaElement.SetSource(stream, stream.ContentType);
-             mediaElement.Play();
-         }
+   {
+      MediaElement mediaElement = new MediaElement();
+      var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
+      Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync("Hello, World!");
+      mediaElement.SetSource(stream, stream.ContentType);
+      mediaElement.Play();
+   }
    ```
 
 ::: moniker-end
@@ -217,13 +221,13 @@ An "event handler" sounds complicated, but it's just another name for code that 
 
    ```C#
    private async void Button_Click(object sender, RoutedEventArgs e)
-         {
-             MediaElement mediaElement = new MediaElement();
-             var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
-             Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync("Hello, World!");
-             mediaElement.SetSource(stream, stream.ContentType);
-             mediaElement.Play();
-         }
+   {
+      MediaElement mediaElement = new MediaElement();
+      var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
+      Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync("Hello, World!");
+      mediaElement.SetSource(stream, stream.ContentType);
+      mediaElement.Play();
+   }
    ```
 
 ::: moniker-end

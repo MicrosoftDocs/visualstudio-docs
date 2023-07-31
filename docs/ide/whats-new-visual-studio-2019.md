@@ -7,12 +7,13 @@ helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
 ms.assetid: 00bec66b-bcee-46f5-91d9-f73a2b469744
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
-ms.topic: conceptual
+ms.topic: whats-new
+ms.custom: vs-acquisition
 ms.workload:
   - "multiple"
 ---
@@ -251,5 +252,5 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 * [What's new for C# 9.0](/dotnet/csharp/whats-new/csharp-9)
 * [What's new in .NET 5](/dotnet/core/dotnet-five)
 * [What's new in .NET Framework](/dotnet/framework/whats-new/)
-* [Microsoft Build conference](https://www.microsoft.com/build)
-* [Microsoft Ignite conference](https://www.microsoft.com/ignite)
+* [Microsoft Build conference](https://mybuild.microsoft.com/)
+* [Microsoft Ignite conference](https://ignite.microsoft.com/)

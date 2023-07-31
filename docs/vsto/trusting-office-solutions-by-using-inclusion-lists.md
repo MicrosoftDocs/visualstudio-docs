@@ -1,7 +1,6 @@
 ---
 title: "Trust Office solutions by using inclusion lists"
 description: Learn how inclusion lists enable users to grant trust to Office solutions that are signed with a certificate that identifies the publisher.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

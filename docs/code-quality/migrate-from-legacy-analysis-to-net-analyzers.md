@@ -1,6 +1,5 @@
 ---
 title: Migrate from FxCop to source analysis (.NET analyzers)
-ms.custom: SEO-VS-2020
 description: "Learn how to analyze code for the first time or how to migrate from binary analysis (FxCop) to the new way of analyzing managed code using source analysis (.NET analyzers)."
 ms.date: 09/17/2021
 ms.topic: conceptual

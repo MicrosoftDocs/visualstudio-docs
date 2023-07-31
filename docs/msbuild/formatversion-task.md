@@ -1,7 +1,6 @@
 ---
 title: FormatVersion Task | Microsoft Docs
 description: Learn about various ways the MSBuild FormatVersion tasks appends the revision number to the version number.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:

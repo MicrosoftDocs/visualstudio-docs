@@ -1,14 +1,13 @@
 ---
 title: Managing Configuration Options | Microsoft Docs
 description: Learn how to manage project and solution configuration settings in Visual Studio to control how your project will be built, packaged, deployed, and run. 
-ms.custom: SEO-VS-2020 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - configuration options
 ms.assetid: 596c28ee-f48d-4252-a5c4-f730c43a39e6
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

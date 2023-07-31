@@ -1,7 +1,6 @@
 ---
 title: ItemGroup Element (MSBuild) | Microsoft Docs
 description: Learn about the MSBuild ItemGroup element, which contains a set of user-defined Item elements. Every item must be a child of an ItemGroup.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

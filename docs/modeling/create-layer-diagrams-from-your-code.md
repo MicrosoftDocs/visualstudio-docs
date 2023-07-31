@@ -1,7 +1,7 @@
 ---
 title: Create dependency diagrams from your code
 description: Learn how you can create a dependency diagram in Visual Studio to visualize your software system's high-level, logical architecture. 
-ms.custom: SEO-VS-2020, devdivchpfy22
+ms.custom: devdivchpfy22
 ms.date: 01/12/2022
 ms.topic: how-to
 helpviewer_keywords:
@@ -28,7 +28,7 @@ A dependency diagram lets you organize Visual Studio solution items into logical
 
 Each layer might contain other layers that describe more detailed tasks. You can also specify the intended or existing *dependencies* between layers. These dependencies, represented as arrows, show the layers that use or can use the functionality represented by other layers. To maintain architectural control of the code, show the intended dependencies on the diagram and then validate the code against the diagram.
 
-[Video: Validate your architecture dependencies in real time](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4)
+[Video: Validate your architecture dependencies in real time](/events/visual-studio-visual-studio-2017-launch/t123)
 
 ## <a name="CreateDiagram"></a> Create a dependency diagram
 
@@ -160,7 +160,7 @@ Before you create a dependency diagram, ensure that your solution has a modeling
 ## See also
 
 - [Edition support for architecture and modeling tools](../modeling/what-s-new-for-design-in-visual-studio.md#edition-support-for-architecture-and-modeling-tools)
-- [Video: Validate your architecture dependencies in real time](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4)
+- [Video: Validate your architecture dependencies in real time](/events/visual-studio-visual-studio-2017-launch/t123)
 - [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md)
 - [Dependency Diagrams: Guidelines](../modeling/layer-diagrams-guidelines.md)
 - [Validate code with dependency diagrams](../modeling/validate-code-with-layer-diagrams.md)

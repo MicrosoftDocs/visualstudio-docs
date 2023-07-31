@@ -2,7 +2,6 @@
 title: Work with multiple containers using Docker Compose
 author: ghogen
 description: Learn how to use multiple containers with Docker Compose
-ms.custom: SEO-VS-2020
 ms.author: ghogen
 ms.date: 6/01/2022
 ms.technology: vs-container-tools
@@ -20,7 +19,6 @@ The completed sample that you'll create in this tutorial may be found on GitHub 
 
 ## Prerequisites
 
-
 ::: moniker range="vs-2019"
 
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
@@ -37,7 +35,6 @@ The completed sample that you'll create in this tutorial may be found on GitHub 
 ## Create a Web Application project
 
 In Visual Studio, create an **ASP.NET Core Web App** project, named `WebFrontEnd`, to create a web application with Razor pages.
-
 
 ::: moniker range="vs-2019"
 
@@ -135,7 +132,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
                }
                catch(RedisConnectionException)
                {
-                   result = $"Redis cache is not found.";
+                   result = "Redis cache is not found.";
                }
                return result;
            }
@@ -147,7 +144,6 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
 :::moniker-end
 
 ## Add code to call the Web API
-
 
 ::: moniker range="vs-2019"
 
@@ -232,6 +228,8 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
           context: .
           dockerfile: WebFrontEnd/Dockerfile
    ```
+
+   The `version` specified in the first line is the [Docker Compose file version](https://docs.docker.com/compose/compose-file/#version-top-level-element). You normally shouldn't change it, since it's used by the tools to understand how to interpret the file.
 
    The *.dockerignore* file contains file types and extensions that you don't want Docker to include in the container. These files are generally associated with the development environment and source control, not part of the app or service you're developing.
 
@@ -356,6 +354,8 @@ Congratulations, you're running a Docker Compose application with a custom Docke
           context: .
           dockerfile: WebFrontEnd/Dockerfile
    ```
+
+   The `version` specified in the first line is the [Docker Compose file version](https://docs.docker.com/compose/compose-file/#version-top-level-element). You normally shouldn't change it, since it's used by the tools to understand how to interpret the file.
 
    The *.dockerignore* file contains file types and extensions that you don't want Docker to include in the container. These files are generally associated with the development environment and source control, not part of the app or service you're developing.
 

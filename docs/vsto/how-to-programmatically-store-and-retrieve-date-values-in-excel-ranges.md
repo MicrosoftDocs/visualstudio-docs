@@ -1,7 +1,6 @@
 ---
 title: "Store & retrieve date values in Excel ranges programmatically"
 description: Learn how you can use Visual Studio to programmatically store and retrieve date values in Microsoft Excel ranges.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

@@ -1,7 +1,6 @@
 ---
 title: Configuring Load Test Run Settings
 description: Learn about run settings, which are properties that influence the way a load test runs. Run settings are organized by categories in the Properties window.
-ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
 ms.topic: how-to
 helpviewer_keywords:

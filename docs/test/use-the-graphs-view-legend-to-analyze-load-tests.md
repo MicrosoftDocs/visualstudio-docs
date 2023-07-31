@@ -1,7 +1,6 @@
 ---
 title: Using the Graphs View Legend to Analyze Load Tests
 description: Learn about the Graphs view of the Load Test Analyzer, which includes a legend panel that displays information for performance counters for a selected graph.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

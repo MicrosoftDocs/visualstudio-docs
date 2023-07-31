@@ -1,10 +1,10 @@
 ---
 title: Quickstart - Open a Python code folder
 description: In this quickstart, you open and run Python code from a folder without using a Visual Studio project (Visual Studio 2019 only).
-ms.date: 05/12/2022
+ms.date: 05/02/2023
 ms.topic: quickstart
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 ms.custom: devdivchpfy22
@@ -143,7 +143,8 @@ In such cases, you must also add a line to the launch configuration JSON file to
                 "webBrowserUrl": "",
                 "project": "contemplate_koans.py",
                 "projectTarget": "",
-                "name": "contemplate_koans.py"
+                "name": "contemplate_koans.py",
+                "workingDirectory": "python3"
             }    
         ]
     }

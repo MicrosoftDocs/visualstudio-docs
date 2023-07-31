@@ -1,7 +1,6 @@
 ---
 title: 'Load test: Set virtual user percentage using web cache data'
 description: Learn how to specify the percentage of new Users property in the Properties window. You edit load test scenario properties in the Load Test Editor.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

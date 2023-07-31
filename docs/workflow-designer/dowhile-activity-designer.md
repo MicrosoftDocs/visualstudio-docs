@@ -1,7 +1,6 @@
 ---
 title: "Workflow Designer - DoWhile Activity Designer"
 description: Learn how the DoWhile activity executes the activity contained in its Body at least once, until a specified condition evaluates to false.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

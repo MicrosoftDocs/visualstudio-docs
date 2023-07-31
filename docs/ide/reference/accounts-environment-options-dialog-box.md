@@ -1,7 +1,6 @@
 ---
 title: Accounts options reference
 description: Learn how to set some options related to the accounts you use when you sign in to Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 f1_keywords:

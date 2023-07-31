@@ -1,7 +1,6 @@
 ---
 title: "Application manifests for Office solutions"
 description: Learn how an application manifest is an XML file that describes the assemblies that are loaded into a Microsoft Office solution.
-ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: reference
 dev_langs:

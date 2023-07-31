@@ -1,7 +1,6 @@
 ---
 title: Record Screen and Voice During Tests
 description: Learn how to configure the diagnostic data adapter that records the screen and voice of the user who's running the test in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -57,10 +56,8 @@ The screen and voice recorder can be used with either manual or automated tests.
 
 7. Choose **OK**. The diagnostic trace collector settings are now configured and saved for your test settings.
 
-    ::: moniker range=">=vs-2019"
     > [!TIP]
     > To reset the configuration for this diagnostic data adapter, choose **Reset to default configuration** in Visual Studio.
-    ::: moniker-end
 
 ## See also
 

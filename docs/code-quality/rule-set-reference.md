@@ -2,7 +2,6 @@
 title: Code analysis rule set reference
 ms.date: 04/04/2018
 description: Learn about built-in rule sets in Visual Studio legacy code analysis. See resources on the rule sets. Find out how to use these sets in customized rule sets.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 helpviewer_keywords:
 - code analysis, rule sets reference

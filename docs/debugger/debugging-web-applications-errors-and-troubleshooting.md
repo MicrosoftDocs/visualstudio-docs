@@ -2,8 +2,8 @@
 title: "Debugging web apps -  errors and troubleshooting"
 description: Find links to reference pages to help debug web applications, such as a troubleshooting page and pages that describe each error that you may encounter.
 
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.date: "07/21/2023"
+ms.topic: "reference"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -33,26 +33,66 @@ ms.workload:
 # Debugging Web Applications: Errors and Troubleshooting
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+For help to set properties for a web application using the IIS administration tool, see [Verify IIS property settings](../debugger/how-to-verify-iis-property-settings.md).
+
 You may encounter the following errors when attempting to debug Web applications.
 
-- [Troubleshooting](../debugger/debugging-web-applications-troubleshooting.md)
+## Site Uses IP Address
 
-- [Error: Site Uses IP Address](../debugger/error-site-uses-ip-address.md)
+This error occurs when the debugger tries to auto-attach to a Web application that is using an IP address. This issue occurs if you change Web site identification to use specific IP address in IIS.
 
-- [Error: A Security Check Failed Because the IIS Admin Service Did Not Respond](../debugger/error-a-security-check-failed-because-the-iis-admin-service-did-not-respond.md)
+For more information, see [Error: Site Uses IP Address](/previous-versions/visualstudio/visual-studio-2017/debugger/error-site-uses-ip-address)
 
-- [Error: ASP.NET Not Installed](../debugger/error-aspnet-not-installed.md)
+## A Security Check Failed Because the IIS Admin Service Did Not Respond
 
-- [Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled](../debugger/error-debugging-failed-because-integrated-windows-authentication-is-not-enabled.md)
+This error occurs when the IIS Admin Service doesn't respond. This result usually indicates that there's a problem with the IIS installation. First, verify that the service is running using the Services tool from Administrative Tools.
 
-- [Error: The web server is not configured correctly](../debugger/error-the-web-server-is-not-configured-correctly.md)
+For more information, see [Error: A Security Check Failed Because the IIS Admin Service Did Not Respond](/previous-versions/visualstudio/visual-studio-2017/debugger/error-a-security-check-failed-because-the-iis-admin-service-did-not-respond).
 
-- [Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb](../debugger/error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb.md)
+## ASP.NET Not Installed
 
-- [Error: Timeout While Debugging Web Services](../debugger/error-timeout-while-debugging-web-services.md)
+This error occurs when ASP.NET isn't installed correctly on the computer that you are trying to debug. This result might mean that ASP.NET was never installed or that ASP.NET was installed first and IIS was installed later.
 
-- [Error: Unable to Start Debugging on the Web Server](../debugger/error-unable-to-start-debugging-on-the-web-server.md)
+For more information, see [Error: ASP.NET Not Installed](../debugger/error-aspnet-not-installed.md).
+
+## Debugging Failed Because Integrated Windows Authentication Is Not Enabled
+
+Authentication of the user who requested debugging was prevented by an authentication error. This error can occur when you try to step into a Web application or an XML Web service. One cause of this error is that integrated Windows authentication isn't enabled. To enable it, follow the steps in "To enable integrated Windows authentication."
+
+For more information, see [Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled](../debugger/error-debugging-failed-because-integrated-windows-authentication-is-not-enabled.md).
+
+## The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb
+
+Stepping into a Web application or XML Web service failed because the IIS lockdown tool has been run and URLScan has been installed and activated. This condition blocks IIS from receiving the DEBUG verb.
+
+For more information, see [Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb](/previous-versions/visualstudio/visual-studio-2017/debugger/error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb).
+
+## Timeout While Debugging Web Services
+
+When you are stepping into an XML Web service from calling code, the call may sometimes time out, with the result being that you cannot continue debugging.
+
+For more information, see [Error: Timeout While Debugging Web Services](../debugger/error-timeout-while-debugging-web-services.md).
+
+## Unable to Start Debugging on the Web Server
+
+When you try to debug an ASP.NET application running on a Web server, you may get this error message: Unable to start debugging on the Web server.
+
+For more information, see [Error: Unable to Start Debugging on the Web Server](../debugger/error-unable-to-start-debugging-on-the-web-server.md).
+
+## The Web Server Could Not Find the Requested Resource
+
+Due to security considerations, IIS has returned a generic error.
+
+For more information, see [Error: The Web Server Could Not Find the Requested Resource](../debugger/error-the-web-server-could-not-find-the-requested-resource.md).
+
+## The Web Server Is Not Configured Correctly
+
+An IIS configuration issue may result in this error.
+
+For more information, see [Error: The web server isn't configured correctly](../debugger/error-the-web-server-is-not-configured-correctly.md).
 
 ## See also
+
 - [Debugger Security](../debugger/debugger-security.md)
 - [Debugging Web Applications and Script](how-to-enable-debugging-for-aspnet-applications.md)

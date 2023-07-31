@@ -1,7 +1,6 @@
 ---
 title: Workflow Designer - Parallel Activity Designer
 description: Learn about the Parallel activity and how to use the Parallel activity designer to execute a collection of child activities concurrently.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Emulate real-world usage of a website for load testing
 description: Use load modeling options to more accurately predict the expected real-world usage of a website or application that you are load testing. 
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

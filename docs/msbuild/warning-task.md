@@ -1,7 +1,6 @@
 ---
 title: Warning Task | Microsoft Docs
 description: Learn how MSBuild uses the Warning task to log a warning during a build based on an evaluated conditional statement.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

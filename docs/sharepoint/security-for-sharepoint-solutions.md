@@ -1,7 +1,6 @@
 ---
 title: "Security for SharePoint Solutions | Microsoft Docs"
 description: Discover what features Visual Studio incorporates to help enhance the security of SharePoint applications.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

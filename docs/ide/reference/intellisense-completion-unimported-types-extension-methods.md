@@ -1,7 +1,6 @@
 ---
 title: IntelliSense completion for types & extension methods
 description: How to use IntelliSense completion for types and extension methods that you haven't imported yet with a `using` directive.
-ms.custom: SEO-VS-2020
 ms.date: 07/27/2020
 ms.topic: reference
 author: mikadumont

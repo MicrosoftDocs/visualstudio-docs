@@ -1,7 +1,6 @@
 ---
 title: Customizing project and item templates
 description: Learn how to customize your project and item templates after they've been created.
-ms.custom: SEO-VS-2021
 ms.date: 03/29/2018
 ms.topic: conceptual
 helpviewer_keywords:

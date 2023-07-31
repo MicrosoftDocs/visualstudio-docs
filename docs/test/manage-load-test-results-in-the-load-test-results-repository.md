@@ -1,7 +1,6 @@
 ---
 title: Manage Load Test Results
 description: Learn how to manage data gathered during a load test, which is stored in the Load Test Results Repository SQL database.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

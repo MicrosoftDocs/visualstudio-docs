@@ -1,15 +1,14 @@
 ---
 title: Context Parameters | Microsoft Docs
 description: Learn about context parameters in the Visual Studio integrated development environment (IDE) that define the state of a project when you add or implement a wizard. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - wizards, context parameters
 - context parameters
 ms.assetid: 1a062dcb-8a8f-40dd-bea9-3d10f9448966
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

@@ -1,7 +1,6 @@
 ---
 title: "Programmatically perform actions if email message is received"
 description: Learn how you can use Visual Studio to programmatically perform custom actions if an email is received in Microsoft Outlook.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

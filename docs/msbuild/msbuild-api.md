@@ -1,7 +1,6 @@
 ---
 title: MSBuild API | Microsoft Docs
 description: Learn about the public API surface MSBuild provides so that your program can perform builds and inspect projects.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: ghogen
@@ -29,7 +28,6 @@ There are several different versions of the MSBuild API, and for versions 15 and
 
 Documentation for the MSBuild API can be found by using the [.NET API Browser](/dotnet/api), or by browsing the namespaces in the following list.
 
-:::moniker range=">=vs-2019"
 | Namespace | Applies To | Description |
 |-----------| -----------| ----------- |
 | [Microsoft.Build.Construction](/dotnet/api/Microsoft.Build.Construction?view=msbuild-16&preserve-view=true) | All |  Contains types that the MSBuild object model uses to construct project roots with unevaluated values. Each project root corresponds to a project or targets file. |
@@ -52,6 +50,5 @@ Documentation for the MSBuild API can be found by using the [.NET API Browser](/
 | [Microsoft.Build.Tasks.Hosting](/dotnet/api/Microsoft.Build.Tasks.Hosting?view=msbuild-16&preserve-view=true) | All | Contains classes used internally by MSBuild. |
 | [Microsoft.Build.Tasks.Xaml](/dotnet/api/Microsoft.Build.Tasks.Xaml?view=msbuild-16&preserve-view=true) | .NET Framework only | Contains classes related to XAML build tasks. |
 | [Microsoft.Build.Utilities](/dotnet/api/Microsoft.Build.Utilities?view=msbuild-16&preserve-view=true) | All | Contains helper classes that you can use to create your own MSBuild loggers and tasks.|
-:::moniker-end
 
 In the previous table, All in the Applies To column means the types in the namespace are available in both the .NET Framework and the .NET Core versions of the MSBuild API.

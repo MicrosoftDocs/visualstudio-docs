@@ -1,7 +1,6 @@
 ---
 title: Reference the name or location of the project file
 description: Learn how to use MSBuild reserved properties to reference project file name or location without having to create your own properties.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

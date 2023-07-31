@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Collect data using a Windows Form"
 description: Open a Windows Form from a document-level customization for Microsoft Excel, collect information from the user, and write that information into a worksheet cell.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

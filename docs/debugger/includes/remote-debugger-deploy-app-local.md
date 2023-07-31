@@ -16,7 +16,14 @@
 
 1. In the **Publish** dialog box, select **Folder**, click **Browse**, and create a new folder, **C:\Publish**.
 
-   ::: moniker range=">=vs-2019"
+   ::: moniker range=">=vs-2022"
+
+   :::image type="content" source="../media/vs-2022/remote-debug-publish-local.png" alt-text="Screenshot of the Pick a publish target dialog in Visual Studio with the Folder `C:\Publish' selected as the publish target.":::
+
+   Click **Finish** to save the publish profile.
+   ::: moniker-end
+
+   ::: moniker range="vs-2019"
 
    :::image type="content" source="../media/vs-2019/remotedbg-publish-local.png" alt-text="Screenshot of the Pick a publish target dialog in Visual Studio with the Folder `C:\Publish' selected as the publish target.":::
 
@@ -26,17 +33,14 @@
 
 1. Switch to a debug configuration.
 
-   ::: moniker range=">=vs-2019"
    Choose **Edit** to edit the profile, and then choose **Settings**. Choose a **Debug** configuration, and then choose **Remove additional files at destination** under the **File Publish** options.
-   ::: moniker-end
 
+    ![Screenshot of the Settings tab in the Publish dialog box. Configuration is set to Debug and the Publish button is selected.](../media/remote-debug-publish-debug-config.png)
 
    > [!NOTE]
    > If you use a Release build, you disable debugging in the *web.config* file when you publish.
 
 1. Click **Publish**.
-
-    ![Screenshot of the Settings tab in the Publish dialog box. Configuration is set to Debug and the Publish button is selected.](../media/remotedbg_publish_debug_config.png)
 
     The application publishes a **Debug** configuration of the project to the local folder. Progress shows in the Output window.
 

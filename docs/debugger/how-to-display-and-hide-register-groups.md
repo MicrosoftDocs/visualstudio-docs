@@ -1,7 +1,6 @@
 ---
 title: Display and Hide Register Groups | Microsoft Docs
 description: The Registers window, which is available if address-level debugging is enabled, organizes registers into groups. Learn how to set which groups appear.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords: 

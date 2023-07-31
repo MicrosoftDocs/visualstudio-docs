@@ -1,7 +1,6 @@
 ---
 title: "Assertions in Managed Code | Microsoft Docs"
 description: Learn about assertions as a debugging tool for C#, Visual Basic, or F# managed code in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

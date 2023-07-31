@@ -1,7 +1,6 @@
 ---
 title: Delete Task | Microsoft Docs
 description: Learn about parameters and considerations for using the MSBuild Delete task to delete specified files.
-ms.custom: SEO-VS-2020
 ms.date: 07/08/2022
 ms.topic: reference
 f1_keywords:

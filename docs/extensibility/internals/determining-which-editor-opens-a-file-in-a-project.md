@@ -1,7 +1,6 @@
 ---
 title: Determining Which Editor Opens a File in a Project | Microsoft Docs
 description: Learn about the registry keys and Visual Studio SDK methods that are used by Visual Studio to determine which editor opens a file in a project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -10,8 +9,8 @@ helpviewer_keywords:
 - project types, determining which editor opens a file
 - persistence, determining which editor opens a file
 ms.assetid: acbcf4d8-a53a-4727-9043-696a47369479
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

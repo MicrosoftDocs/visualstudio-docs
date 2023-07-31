@@ -1,7 +1,6 @@
 ---
 title: Debug live ASP.NET Azure VM and scale sets
 description: Learn how to use the Snapshot Debugger in Visual Studio to set snappoints and take snapshots while debugging live ASP.NET apps on Azure VMs and scale sets.
-ms.custom: SEO-VS-2020
 ms.date: 02/06/2019
 ms.topic: how-to
 helpviewer_keywords: 
@@ -114,7 +113,7 @@ If it's difficult to recreate a particular state in your app, consider using a c
 
 #### To create a conditional snappoint
 
-1. Right-click a snappoint icon (the hollow ball) and choose **Settings**.
+1. Right-click a snappoint icon (the hollow sphere) and choose **Settings**.
 
    ![Choose Settings](../debugger/media/snapshot-snappoint-settings.png)
 

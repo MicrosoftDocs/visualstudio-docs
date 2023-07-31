@@ -1,7 +1,6 @@
 ---
 title: "How to: Cache data in a password-protected document"
 description: Learn that if you add data to the data cache in a document or workbook that is protected with a password, you can save changes to the cached data by overriding two methods in your project.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

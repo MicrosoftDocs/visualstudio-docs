@@ -1,7 +1,6 @@
 ---
 title: 'Workflow Designer - How to: Use the Argument Designer'
 description: Learn about the argument designer and how to use the argument designer to allow data to flow into and out of an activity.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: C# editor formatting options
 description: Learn how to use the Formatting options page and its subpages to set options for formatting code in the code editor when you're programming in C#.
-ms.custom: SEO-VS-2020
 ms.date: 04/15/2022
 ms.topic: reference
 f1_keywords:
@@ -52,7 +51,6 @@ These settings affect *when* the code editor applies formatting options to code.
 If you previously applied code style settings for C# files using the **Format Document** command in Visual Studio 2017, that functionality is now available as [**Code Cleanup**](../code-styles-and-code-cleanup.md#apply-code-styles).
 
 ::: moniker-end
-
 
 ## Indentation page
 

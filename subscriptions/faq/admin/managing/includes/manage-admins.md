@@ -34,4 +34,4 @@ To assign more administrators:
 8. Click on the  Role drop-down at the top of the pane, scroll down, and select  User Access Administrator.
 9. Click  Save.
 
-[Learn more](https://docs.microsoft.com/visualstudio/subscriptions/cloud-admin) about administration of cloud subscriptions.
+[Learn more](https://learn.microsoft.com/visualstudio/subscriptions/cloud-admin) about administration of cloud subscriptions.

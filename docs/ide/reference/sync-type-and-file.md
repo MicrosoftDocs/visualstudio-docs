@@ -1,7 +1,6 @@
 ---
 title: Rename a filename to match a type
 description: Learn how to use the Quick Actions and Refactorings menu to rename a type to match the filename, or rename a filename to match the type it contains.
-ms.custom: SEO-VS-2020
 ms.date: 01/26/2018
 ms.topic: reference
 author: TerryGLee

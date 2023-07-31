@@ -1,7 +1,6 @@
 ---
 title: "Improve the performance of a VSTO Add-in"
 description: Learn how to optimize VSTO Add-ins that you create for Office applications so that they quickly start up, shut down, open items, and perform other tasks.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

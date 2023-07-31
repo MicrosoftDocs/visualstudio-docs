@@ -2,7 +2,7 @@
 title: "Run profiling tools with or without the debugger | Microsoft Docs"
 description: "Learn about differences between the different modes available for profiling tools"
 ms.custom: devdivchpfy22
-ms.date: "01/20/2022"
+ms.date: "03/22/2023"
 ms.topic: "conceptual"
 ms.assetid: 3fcdccad-c1bd-4c67-bcec-bf33a8fb5d63
 author: "mikejo5000"
@@ -48,6 +48,9 @@ When you start debugging in Visual Studio by selecting **Debug** > **Start Debug
 - If you're running Visual Studio Enterprise, you can enable or disable IntelliTrace by going to **Tools** > **Options** > **IntelliTrace**.
 
 The diagnostic session ends when you stop debugging.
+
+>[!NOTE]
+>Use relaunch to skip the launch page and automatically run with your previous settings with **Alt+F2** or by clicking **Debug > Performance Profiler**.
 
 For more information, see:
 

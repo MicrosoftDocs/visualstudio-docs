@@ -15,7 +15,7 @@ translation.priority.ht:
   - "zh-tw"
 ---
 
-You should be able to debug your code with the symbols you generate on the Visual Studio computer. The performance of the remote debugger is much better when you use local symbols.  If you must   use remote symbols, you need to tell the remote debugging monitor to look for symbols on the remote machine.  
+You should be able to debug your code with the symbols you generate on the Visual Studio computer. The performance of the remote debugger is much better when you use local symbols. If you must use remote symbols, you need to tell the remote debugging monitor to look for symbols on the remote machine.
 
 Starting in Visual Studio 2013 Update 2, you can use the following msvsmon command-line switch to use remote symbols for managed code: `Msvsmon /FallbackLoadRemoteManagedPdbs`  
 

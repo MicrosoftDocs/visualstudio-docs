@@ -2,7 +2,6 @@
 title: "Configure live code analysis scope for .NET"
 ms.date: 05/13/2022
 description: Learn about background analysis in Visual Studio. See how to limit the analysis to the visible document, all open documents, or all files and projects.
-ms.custom: SEO-VS-2020
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "live code analysis"

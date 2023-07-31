@@ -1,7 +1,6 @@
 ---
 title: API Reference for Modeling SDK
 description: Learn how the Visual Studio Visualization and Modeling SDK provides the platform on which your domain-specific languages (DSLs) tools are built.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 author: mgoertz-msft

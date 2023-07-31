@@ -1,7 +1,6 @@
 ---
 title: "Office projects in the Visual Studio environment"
 description: Learn how Microsoft Office projects have a development experience that is similar to other types of projects in Visual Studio, such as Windows Forms projects. 
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Projects and Solutions, Locations dialog box
 description: Learn how to use the Locations page in the Projects and Solutions section to set default locations for projects, project templates, and item templates.
-ms.custom: SEO-VS-2020
 ms.date: 07/26/2019
 ms.topic: reference
 f1_keywords:

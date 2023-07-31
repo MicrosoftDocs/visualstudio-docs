@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Create a custom tab by using Ribbon XML"
 description: Learn how you can add buttons to the Add-Ins tab and automate Microsoft Word by using Ribbon (XML).
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

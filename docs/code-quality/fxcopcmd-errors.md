@@ -2,7 +2,6 @@
 title: FxCopCmd errors
 ms.date: 10/19/2016
 description: Learn about the error codes that the FxCopCmd command returns. See which type of error each code represents, and find out how to recognize fatal errors.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 helpviewer_keywords:
   - "FxCopCmd errors"

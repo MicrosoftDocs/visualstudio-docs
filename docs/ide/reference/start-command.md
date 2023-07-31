@@ -1,7 +1,6 @@
 ---
 title: Start Command
 description: Learn about the Start command and how it begins debugging the startup project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

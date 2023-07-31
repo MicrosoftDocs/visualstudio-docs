@@ -1,11 +1,10 @@
 ---
 title: Pull Members Up
 description: Learn how to use the Quick Actions and Refactorings menu to pull members up to the base type.
-ms.custom: SEO-VS-2020
 ms.date: 02/13/2019
 ms.topic: reference
-author: kendrahavens
-ms.author: kehavens
+author: mikadumont
+ms.author: midumont 
 manager: jmartens
 ms.technology: vs-ide-general
 dev_langs:

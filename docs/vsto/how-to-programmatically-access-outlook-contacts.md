@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically access Outlook contacts"
 description: Learn how you can programmatically access Outlook contacts. This example finds all contacts whose last names contain a specified search string.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:
@@ -31,7 +30,6 @@ ms.workload:
  ### [VB](#tab/vb)
  :::code language="vb" source="../vsto/codesnippet/VisualBasic/Trin_OL_AccessContacts/thisaddin.vb" id="Snippet1":::
  ---
-
 
 ## Compile the code
  This example requires:

@@ -1,7 +1,6 @@
 ---
 title: "Windows Forms controls on Office documents overview"
 description: Learn how Windows Forms controls are objects that users can interact with to enter or manipulate data.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: Reference (Visual Studio Debugging APIs) | Microsoft Docs
 description: The Visual Studio Debugging SDK references outline the basic model for the run-time architecture and functionality of the debugger and its components. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -9,8 +8,8 @@ helpviewer_keywords:
 - debugging [Debugging SDK], reference
 - Debugging SDK, reference
 ms.assetid: 9810fc50-43c7-4916-9916-1cf333037b51
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

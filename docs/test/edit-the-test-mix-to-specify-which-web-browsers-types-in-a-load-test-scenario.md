@@ -1,7 +1,6 @@
 ---
 title: Browser test mix for load testing
 description: Learn how to edit the browser mix, which gives you a way to simulate load more realistically in a load test scenario.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

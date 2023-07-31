@@ -1,7 +1,6 @@
 ---
 title: 'How to: Configure projects to target platforms'
 description: Learn how Visual Studio enables you to set up your applications to target different platforms, including the Arm64 platform.
-ms.custom: SEO-VS-2020
 ms.date: 07/27/2022
 ms.technology: vs-ide-compile
 ms.topic: how-to
@@ -153,7 +152,6 @@ For more information about the project file, see [MSBuild project file schema re
 
 ## See also
 
-- [Understand build platforms](../ide/understanding-build-platforms.md)
 - [/platform (C# compiler options)](/dotnet/csharp/language-reference/compiler-options/platform-compiler-option)
 - [64-bit applications](/dotnet/framework/64-bit-apps)
 - [Visual Studio IDE 64-Bit support](../ide/visual-studio-ide-64-bit-support.md)

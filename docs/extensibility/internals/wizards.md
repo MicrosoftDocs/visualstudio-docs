@@ -1,14 +1,13 @@
 ---
 title: Wizards | Microsoft Docs
 description: Learn how to list your wizard among the available wizards and templates in Visual Studio and about the requirements that your wizard must meet in the IDE.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - projects [Visual Studio SDK], providing wizard support
 ms.assetid: 59d9a77f-ee80-474b-a14f-90f477ab717b
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

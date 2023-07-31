@@ -1,7 +1,7 @@
 ---
 title: Select installation locations
 description: Learn how to reduce the installation footprint of Visual Studio on your system drive by changing the location of the download cache, shared components, SDKs, and tools to different drives. For example, move some files from the C drive to the D drive.
-ms.date: 09/14/2021
+ms.date: 11/28/2022
 ms.custom: vs-acquisition
 ms.topic: how-to
 helpviewer_keywords:
@@ -33,16 +33,10 @@ You can reduce the installation footprint of Visual Studio on your system drive 
 
 ::: moniker-end
 
-
-::: moniker range=">=vs-2019"
-
    > [!NOTE]
    > There are some tools and SDKs that have different rules on where they can be installed. Such tools and SDKs are installed on your system drive even if you choose another location.
 
-::: moniker-end
-
-Ready to get started? Here's how.
-
+## Get started
 
 ::: moniker range="vs-2019"
 
@@ -92,7 +86,7 @@ Ready to get started? Here's how.
 
       If you decide not to keep the download cache, the download cache location is only temporarily used. This action won't affect or delete files from previous installations.
 
-      For example, if you select the "Desktop development with C++" workload, the temporarily required size for the download cache location is 2.11 GB. As soon as the installation completes, downloaded cache files are removed, leaving only package metadata.
+      For example, if you select the "Desktop development with C++" workload, the temporarily required size for the download cache location is 1.28 GB. As soon as the installation completes, downloaded cache files are removed, leaving only package metadata.
 
     * Specify the folder path, including the drive, where you want to store the installation files and manifests from the download cache.
 
@@ -102,7 +96,7 @@ Ready to get started? Here's how.
 1. In the **Shared components, tools, and SDKs** section, select the folder where you want to store the files that are shared by side-by-side Visual Studio installations. SDKs and tools are also stored in this directory.
 
    > [!IMPORTANT]
-   > If you've installed Visual Studio on your computer before, you won't be able to change the Shared components, tools, and SDKs path and it will appear greyed out.
+   > If you've installed Visual Studio on your computer before, you won't be able to change the **Shared components, tools, and SDKs** path and it will appear greyed out.
 
 ::: moniker-end
 

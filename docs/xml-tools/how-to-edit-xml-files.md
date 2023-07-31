@@ -2,7 +2,6 @@
 title: 'How to: Edit XML Files'
 ms.date: 11/04/2016
 description: Learn how to use the XML editor in Visual Studio to edit files that contain XML or DTD content.
-ms.custom: SEO-VS-2020
 ms.topic: how-to
 ms.assetid: 07fa3ecf-6345-4d30-9d85-d5ef5b083319
 author: dzsquared
@@ -53,16 +52,11 @@ To edit an XML file, open the file you want to edit.
 
 ## Create an empty project for XML files
 
-
-::: moniker range=">=vs-2019"
-
 1. From the **File** menu, select **New** > **Project**.
 
 2. Enter **Empty Project** in the template search box, select the **Empty Project (.NET Framework)** template, and then select **Next**.
 
 3. Select **Create**.
-
-::: moniker-end
 
 4. Add XML files to the project.
 

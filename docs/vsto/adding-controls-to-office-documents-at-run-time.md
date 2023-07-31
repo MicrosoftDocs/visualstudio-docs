@@ -1,7 +1,6 @@
 ---
 title: "Add controls to Office documents at run time"
 description: Learn how you can add controls to a Microsoft Office Word document and Microsoft Office Excel workbook at run time.
-ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:

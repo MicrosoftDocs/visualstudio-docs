@@ -1,7 +1,6 @@
 ---
 title: Using and Providing Services | Microsoft Docs
 description: Learn about the services that the Visual Studio IDE offers for VSPackages to provide and use. These articles describe how to get and provide services.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,8 +8,8 @@ helpviewer_keywords:
 - Visual Studio, services
 - services
 ms.assetid: c0b415ba-b825-4da0-9faf-8a60a663e302
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

@@ -1,7 +1,6 @@
 ---
 title: Add Run Settings to a Load Test
 description: Learn to use additional settings for a load test, including the duration of the test, results collection detail level, and the counter sets that are collected.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

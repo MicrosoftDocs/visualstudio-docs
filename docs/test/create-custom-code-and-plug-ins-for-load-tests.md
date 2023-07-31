@@ -1,7 +1,6 @@
 ---
 title: Create custom code and plug-ins for load tests
 description: Learn how to use the load test API and the web performance test API to create custom plug-ins for tests to expand to the built-in functionality. 
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 f1_keywords: 

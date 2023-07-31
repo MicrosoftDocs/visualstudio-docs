@@ -1,7 +1,6 @@
 ---
 title: Test controller and test agent roles
 description: Learn how to create and configure a test setting that uses a test controller and test agent to distribute testing across several machines using Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 10/20/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -94,12 +93,7 @@ This article demonstrates how to create and configure a test setting that uses a
 
 7. Choose **Close**.
 
-
-::: moniker range=">=vs-2019"
-
 8. On the **Test** menu, choose **Select Settings File**. Browse to and select the *TestSettingDistributedTestWalkthrough.testsettings* file.
-
-::: moniker-end
 
 9. Run your test as usual.
 

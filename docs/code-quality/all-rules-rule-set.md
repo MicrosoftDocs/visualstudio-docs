@@ -2,7 +2,6 @@
 title: All Rules rule set
 ms.date: 11/04/2016
 description: Learn about the All Rules rule set, which contains all rules for native and managed code in Visual Studio. View resources that describe rules in this set.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 author: mikejo5000
 ms.author: mikejo

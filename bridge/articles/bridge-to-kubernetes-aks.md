@@ -16,7 +16,7 @@ In this tutorial, you'll use a specific AKS sample microservices web app to lear
 
 ## Before you begin
 
-This guide uses the [Todo App sample application](https://github.com/microsoft/mindaro/tree/master/samples/todo-app) to demonstrate connecting your development computer to a Kubernetes cluster running in AKS. If you already have your own application running on a Kubernetes cluster, see [Develop with Kubernetes](bridge-to-kubernetes-vs-code.md). If you are using another cluster, such as MiniKube running locally, see [Use Bridge to Kubernetes with a sample](bridge-to-kubernetes-sample.md).
+This guide uses the [Todo App sample application](https://github.com/Azure/Bridge-To-Kubernetes/tree/main/samples/todo-app) to demonstrate connecting your development computer to a Kubernetes cluster running in AKS. If you already have your own application running on a Kubernetes cluster, see [Develop with Kubernetes](bridge-to-kubernetes-vs-code.md). If you are using another cluster, such as MiniKube running locally, see [Use Bridge to Kubernetes with a sample](bridge-to-kubernetes-sample.md).
 
 ### Prerequisites
 

@@ -1,7 +1,6 @@
 ---
 title: ResolveAssemblyReference Task | Microsoft Docs
 description: Learn how MSBuild uses the ResolveAssemblyReference task to determine all assemblies that depend on the specified assemblies.
-ms.custom: SEO-VS-2020
 ms.date: 06/15/2022
 ms.topic: reference
 f1_keywords:

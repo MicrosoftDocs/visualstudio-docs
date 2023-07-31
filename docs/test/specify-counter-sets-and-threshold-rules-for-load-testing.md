@@ -1,7 +1,6 @@
 ---
 title: Counter Sets and Threshold Rules for load testing
 description: Learn how to specify counter sets and threshold rules in a load test. Add the servers under test to the list of computers on which to collect counters.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 helpviewer_keywords:

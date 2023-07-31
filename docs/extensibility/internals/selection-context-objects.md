@@ -1,15 +1,14 @@
 ---
 title: Selection Context Objects | Microsoft Docs
 description: Learn about the internals of how the Visual Studio IDE uses a global selection context object to determine what should be displayed in the IDE. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - selection, tracking
 - selection, context objects
 ms.assetid: 7308ea8f-a42c-47e5-954e-7dee933dce7a
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

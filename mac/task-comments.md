@@ -1,8 +1,8 @@
 ---
 title: "Task Comments"
 description: "Adding task comments to your code"
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 11/09/2020
 ms.topic: reference

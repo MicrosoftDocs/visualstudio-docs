@@ -1,14 +1,13 @@
 ---
 title: Create an Extension Pack
 description: Learn how to create an Extension Pack with the Extension Pack Item Template
-ms.custom: SEO-VS-2020
 ms.date: 07/27/2018
 ms.topic: tutorial
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - extensions
 ms.assetid: 5388EEBA-211D-4114-8CD9-70C899919F7E
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: Meng
 ms.workload:
 - vssdk
@@ -67,12 +66,7 @@ The Extension Pack item template creates an Extension Pack with set of extension
 
 Now that the extension is published, install it in Visual Studio and test it there.
 
-
-::: moniker range=">=vs-2019"
-
 1. In Visual Studio, on the **Extensions** menu, click **Managed Extensions**.
-
-::: moniker-end
 
 2. Click **Online** and then search for "Test Extension Pack".
 
@@ -88,12 +82,7 @@ Now that the extension is published, install it in Visual Studio and test it the
 
 To remove the extension from your computer:
 
-
-::: moniker range=">=vs-2019"
-
 1. In Visual Studio, on the **Extensions** menu, click **Managed Extensions**.
-
-::: moniker-end
 
 2. Select **Test Extension Pack** and then click **Uninstall**. The extension and its list of extensions included in the Extension Pack will then be scheduled for uninstall.
 

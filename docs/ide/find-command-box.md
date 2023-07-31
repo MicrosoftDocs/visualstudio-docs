@@ -1,7 +1,6 @@
 ---
 title: Find-Command Box
 description: Learn about the Find/Command box and how you can use it to search for text and run Visual Studio commands.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Simple data binding in a document-level project"
 description: Learn the basics of data binding in a document-level project and that a single data field in a SQL Server database is bound to a named range in Microsoft Excel.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

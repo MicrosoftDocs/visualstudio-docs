@@ -2,7 +2,7 @@
 title: Push to a remote branch in Visual Studio
 titleSuffix: ""
 description: Push to a remote in Visual Studio by using GitHub or Azure DevOps.
-ms.date: 11/10/2021
+ms.date: 12/01/2022
 ms.topic: how-to
 author: TerryGLee
 ms.author: tglee
@@ -11,15 +11,15 @@ ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.custom: version-control
 ---
-# Push from Visual Studio to a remote branch 
+# Push from Visual Studio to a remote branch
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-After you've authenticated to GitHub, Visual Studio can improve your GitHub workflow. One of those improvements is the ability to push (also known as publishing) a local project straight to GitHub with a single click. The final stage in a simple Git workflow is to push changes to your remote.
+After you've authenticated to GitHub, Visual Studio can improve your GitHub workflow. One of those improvements is the ability to push (also known as publish) a local project directly to GitHub with a single click. The final stage in a simple Git workflow is to push changes to your remote.
 
 A remote is a safe place to store your code in the cloud. It's typically referred to as **origin/main** (or origin/master), where "origin" is the default name for a remote. For more information about this terminology, see the [Git Branching - Remote Branches](https://git-scm.com/book/en/v2/Git-Branching-Remote-Branches) page on the Git website.
 
-While this article references GitHub repositories, you can work remotely with the Git provider of your choice, such as GitHub, GitLab, or Azure DevOps. 
+While this article references GitHub repositories, you can work remotely with the Git provider of your choice, such as GitHub, GitLab, or Azure DevOps.
 
 Here's how to push to a remote in Visual Studio.
 
@@ -31,7 +31,7 @@ Here's how to push to a remote in Visual Studio.
 
    :::image type="content" source="media/vs-2022/git-changes-window-outgoing-incoming.png" alt-text="The Git Changes window with the outgoing / incoming link text highlighted in Visual Studio 2022.":::
 
-   The "outgoing" text represents the number of commits that haven't yet been pushed to the remote, while the "incoming" text represents the commits that've been fetched but not yet pulled from the remote.
+   The "outgoing" text represents the number of commits that haven't yet been pushed to the remote, while the "incoming" text represents the commits that have been fetched but not yet pulled from the remote.
 
 1. To push to your remote, select **Push** button, or select **Push** from the **Git** menu.
 

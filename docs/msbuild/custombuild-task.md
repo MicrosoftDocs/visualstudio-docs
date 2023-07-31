@@ -1,7 +1,6 @@
 ---
 title: CustomBuild Task | Microsoft Docs
 description: This article describes the MSBuild CustomBuild task, which is used by MSBuild to support customizing the C++ build process.
-ms.custom: SEO-VS-2020
 ms.date: 03/10/2019
 ms.topic: reference
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Set Current Process
 description: Learn about the Set Current Process command and how it sets the specified process as the active process in the debugger.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

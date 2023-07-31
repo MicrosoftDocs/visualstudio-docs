@@ -1,14 +1,13 @@
 ---
 title: Command Implementation | Microsoft Docs
 description: Learn about command implementation in Visual Studio, how to set up a command group in a VSPackage, add a command to it, register the command, and implement it. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - commands, implementation
 ms.assetid: c782175c-cce4-4bd0-8374-4a897ceb1b3d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

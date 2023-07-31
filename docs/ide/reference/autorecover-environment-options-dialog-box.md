@@ -1,7 +1,6 @@
 ---
 title: AutoRecover, Environment, Options Dialog Box
 description: Learn about the AutoRecover, Environment, Options dialog box and how it's used to specify whether or not to automatically back up files.
-ms.custom: SEO-VS-2020
 ms.date: 08/14/2020
 ms.topic: reference
 f1_keywords:
@@ -47,7 +46,6 @@ Use this option to customize how often a file is automatically saved in the edit
 > If you are using Visual Studio 2019 version 16.1 or earlier, the file location is *%USERPROFILE%\Documents\Visual Studio [version]\Backup Files\\[projectname]*. For more information, see the [Visual Studio 2019 Release Notes History](/visualstudio/releases/2019/release-notes-history/) page.
 
 ::: moniker-end
-
 
 **Keep AutoRecover information for [n] days**
 

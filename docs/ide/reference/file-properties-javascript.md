@@ -1,7 +1,6 @@
 ---
 title: File Properties, JavaScript
 description: Learn how you can use file properties to indicate what actions the project system should perform on the files. 
-ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
 ms.technology: vs-javascript
 ms.topic: reference

@@ -1,7 +1,6 @@
 ---
 title: Properties of Compartment Shapes
 description: Learn that compartment shapes are one of the shapes you can use to display a domain class in a domain-specific language.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

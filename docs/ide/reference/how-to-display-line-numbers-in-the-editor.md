@@ -1,8 +1,7 @@
 ---
 title: Display line numbers for code
 description: Learn how to show or hide line numbering in your code.
-ms.custom: SEO-VS-2020
-ms.date: 07/08/2022
+ms.date: 07/06/2023
 ms.topic: how-to
 helpviewer_keywords:
 - line numbers, displaying
@@ -23,7 +22,7 @@ ms.workload:
 
 You can show or hide line numbers in your code. Here's how.
 
-1. On the menu bar, choose **Tools** > **Options**. Expand the **Text Editor** node, and then select either the language you're using or **All Languages** to turn on line numbers in all supported programming languages.
+1. On the menu bar, select **Tools** > **Options** > **Text Editor**, and then select either the language you're using or **All Languages** to turn on line numbers in all supported programming languages.
 
    > [!TIP]
    > You can also type **line number** in the [Search](../visual-studio-search.md) box, and then choose **Turn line numbers on or off** from the results.

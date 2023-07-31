@@ -1,7 +1,6 @@
 ---
 title: "ClickOnce Application Manifest | Microsoft Docs"
 description: Learn about the ClickOnce application manifest, which is an XML file that describes an application that is deployed using ClickOnce.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

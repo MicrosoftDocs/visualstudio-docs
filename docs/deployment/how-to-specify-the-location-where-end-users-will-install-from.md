@@ -1,7 +1,6 @@
 ---
 title: Specify location where end users install from
 description: Learn how to set the Installation URL property, which is where a published ClickOnce application is hosted for installation.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -39,6 +38,8 @@ The `Installation URL` property can be set on the **Publish** page of the **Proj
 1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
 2. Click the **Publish** tab.
+
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 3. In the Installation URL field, enter the installation location using a fully qualified URL using the format `https://www.contoso.com/ApplicationName`, or a UNC path using the format `\Server\ApplicationName`.
 

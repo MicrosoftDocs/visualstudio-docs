@@ -1,14 +1,13 @@
 ---
 title: Opening a Dynamic Tool Window | Microsoft Docs
 description: Learn about dynamic tool windows, which opens whenever a specific UI context applies and closes when the UI context no longer applies.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - tool windows, dynamic
 ms.assetid: 21547ba7-6e81-44df-9277-265bf34f877a
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

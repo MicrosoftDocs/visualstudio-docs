@@ -57,7 +57,6 @@ Tools.ImportandExportSettings /export:"c:\Files\MyFile.vssettings"
 ```
 
 
-
 ## See also
 
 - [Environment settings](../../ide/environment-settings.md)

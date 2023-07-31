@@ -1,7 +1,6 @@
 ---
 title: 'Walkthrough: Generating Code by using Text Templates'
 description: Learn that code generation allows you to produce program code that is strongly typed, and yet can be easily changed when the source model changes.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

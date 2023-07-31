@@ -1,7 +1,6 @@
 ---
 title: -NoSplash (devenv.exe)
 description: Learn how to use the NoSplash devenv command-line switch to prevent the splash screen from being shown.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -9,8 +8,8 @@ helpviewer_keywords:
   - "Devenv, /NoSplash switch"
   - "/NoSplash Devenv switch"
   - "NoSplash Devenv switch"
-author: DennisLee-DennisLee
-ms.author: v-dele
+author: TerryGLee
+ms.author: tglee
 manager: jmartens
 ms.workload:
   - "multiple"

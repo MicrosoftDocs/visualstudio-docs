@@ -1,7 +1,6 @@
 ---
 title: "Developing SharePoint Solutions | Microsoft Docs"
 description: Develop SharePoint solutions. Know the elements of a SharePoint project. Understand SharePoint project and project item properties.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: 'How to: Select the XML Schemas to Use'
 description: Learn how to use the the XML editor to select an XML schema from the schema cache that includes well-known XML schemas used for IntelliSense and XML document validation.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: d6fda3ef-d465-4788-8514-2f2d528d658c

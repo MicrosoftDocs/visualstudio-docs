@@ -2,7 +2,6 @@
 title: "Getting Started (SharePoint Development in Visual Studio) | Microsoft Docs"
 titleSuffix: ""
 description: Get started with SharePoint development in Visual Studio. SharePoint offers a web-based collaboration platform.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 dev_langs:
@@ -33,7 +32,7 @@ ms.workload:
 
 |Topic|Description|
 |-----------|-----------------|
-|[Additional information for SharePoint errors](../sharepoint/additional-information-for-sharepoint-errors.md)|Describes where to find help during SharePoint development and troubleshooting.|
+|[Additional information for SharePoint errors](troubleshooting-sharepoint-solutions.md)|Describes where to find help during SharePoint development and troubleshooting.|
 
 ## Related sections
 

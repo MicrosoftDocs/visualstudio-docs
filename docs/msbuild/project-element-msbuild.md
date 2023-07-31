@@ -1,7 +1,6 @@
 ---
 title: Project Element (MSBuild) | Microsoft Docs
 description: Learn about the MSBuild Project element, which is the required root element of an MSBuild project file.
-ms.custom: SEO-VS-2020
 ms.date: 03/13/2017
 ms.topic: reference
 f1_keywords:
@@ -33,7 +32,7 @@ Required root element of an MSBuild project file.
 <Project InitialTargets="TargetA;TargetB"
          DefaultTargets="TargetC;TargetD"
          TreatAsLocalProperty="PropertyA;PropertyB"
-         ToolsVersion=<version number>
+         ToolsVersion="<version number>"
          Sdk="name[/version]"
          xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <Sdk... />

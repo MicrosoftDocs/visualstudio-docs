@@ -1,9 +1,8 @@
 ---
 title: "Additional support for errors in Office solutions"
 description: Learn how you can use support resources to find answers to problems you encounter as you create Office solutions in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
-ms.topic: conceptual
+ms.topic: troubleshooting
 f1_keywords:
   - "VST.MSBuild.errAppInfoTaskInsertCtlFailed"
   - "VST.MSBuild.errAppInfoTaskDeleteCtlFailed"

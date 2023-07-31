@@ -1,11 +1,10 @@
 ---
 title: "Diagnosing extension UI delays in Visual Studio| Microsoft Docs"
 description: Visual Studio notifies you if UI delays could be caused by an extension. Learn how to diagnose what in your extension code is causing UI delays.
-ms.custom: SEO-VS-2020
 ms.date: "01/26/2018"
 ms.topic: "conceptual"
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload: "multiple"

@@ -1,12 +1,12 @@
 ---
 title: "Tutorial: Persist data in a container app using volumes in VS Code"
 description: In this tutorial, learn how to persist data, use bind mounts, and layer (Yarn) your app with VS Code.
-author: ucheNkadiCode
-ms.author: uchen
+author: ghogen
+ms.author: ghogen
 ms.prod: vs-code
 ms.topic: tutorial
 ms.date: 03/04/2022
-ms.custom: [template-tutorial, contperf-fy22q3]
+ms.custom: template-tutorial, contperf-fy22q3
 
 # Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
@@ -66,7 +66,7 @@ The files created in one container aren't available in another.
    cat /data.txt
    ```
 
-   The terminal shows a number between 1 and 1000.
+   The terminal shows a number between 1 and 10000.
 
    To use the command line to see this result, get the container ID by using the `docker ps` command, and run the following command.
 
@@ -112,7 +112,7 @@ Refer to the name of the volume, and Docker provides the right data.
    docker volume create todo-db
    ```
 
-1. Under **CONTAINERS**, select **getting-start** and right-click. Select **Stop** to stop the app container.
+1. Under **CONTAINERS**, select **getting-started** and right-click. Select **Stop** to stop the app container.
 
    To stop the container from the command line, use the `docker stop` command.
 
@@ -195,7 +195,7 @@ To run your container to support a development workflow, you'll take the followi
 1. In the `app` folder, run the following command.
 
    ```bash
-   docker run -dp 3000:3000 -w /app -v ${PWD}:/app node:12-alpine sh -c "yarn install && yarn run dev"
+   docker run -dp 3000:3000 -w /app -v ${PWD}:/app node:20-alpine sh -c "yarn install && yarn run dev"
    ```
 
    This command contains the following parameters.
@@ -203,7 +203,7 @@ To run your container to support a development workflow, you'll take the followi
    - `-dp 3000:3000` Same as before. Run in detached mode and create a port mapping.
    - `-w /app` Working directory inside the container.
    - `-v ${PWD}:/app"` Bind mount the current directory from the host in the container into the `/app` directory.
-   - `node:12-alpine` The image to use. This image is the base image for your app from the *Dockerfile*.
+   - `node:20-alpine` The image to use. This image is the base image for your app from the *Dockerfile*.
    - `sh -c "yarn install && yarn run dev"` A command. It starts a shell using `sh` and runs `yarn install` to install all dependencies. Then it runs `yarn run dev`. If you look in the `package.json`, the `dev` script is starting `nodemon`.
 
 1. You can watch the logs using `docker logs`.
@@ -214,9 +214,10 @@ To run your container to support a development workflow, you'll take the followi
 
    ```output
    $ nodemon src/index.js
-   [nodemon] 1.19.2
+   [nodemon] 2.0.20
    [nodemon] to restart at any time, enter `rs`
-   [nodemon] watching dir(s): *.*
+   [nodemon] watching path(s): *.*
+   [nodemon] watching extensions: js,mjs,json
    [nodemon] starting `node src/index.js`
    Using sqlite database at /etc/todos/todo.db
    Listening on port 3000
@@ -285,7 +286,7 @@ Once a layer changes, all downstream layers have to be recreated as well.
 Here's the *Dockerfile* again:
 
 ```dockerfile
-FROM node:12-alpine
+FROM node:20-alpine
 WORKDIR /app
 COPY . .
 RUN yarn install --production
@@ -303,7 +304,7 @@ The process only recreates the yarn dependencies if there was a change to the `p
    Here's the new file:
 
    ```dockerfile
-   FROM node:12-alpine
+   FROM node:20-alpine
    WORKDIR /app
    COPY package.json yarn.lock ./
    RUN yarn install --production
@@ -416,11 +417,10 @@ The final image is only the last stage being created, which can be overridden us
 
 ### React example
 
-When building React applications, you need a Node environment to compile the JavaScript code, SASS stylesheets, and more into static HTML, JavaScript, and CSS.
-If you aren't doing server-side rendering, you don't even need a Node environment for the production build.
+When building React applications, you need a Node environment to compile the JavaScript code, SASS stylesheets, and more into static HTML, JavaScript, and CSS. If you aren't doing server-side rendering, you don't even need a Node environment for the production build.
 
 ```dockerfile
-FROM node:12 AS build
+FROM node:20-alpine AS build
 WORKDIR /app
 COPY package* yarn.lock ./
 RUN yarn install
@@ -432,7 +432,7 @@ FROM nginx:alpine
 COPY --from=build /app/build /usr/share/nginx/html
 ```
 
-This example uses a `node:12` image to perform the build, which maximizes layer caching, and then copies the output into an *nginx* container.
+This example uses a `node:20` image to perform the build, which maximizes layer caching, and then copies the output into an *nginx* container.
 
 ## Clean up resources
 
@@ -445,4 +445,4 @@ You've learned about options to persist data for container apps.
 Next, try the next tutorial in this series:
 
 > [!div class="nextstepaction"]
-> [Deploy your Docker app to the Azure cloud](tutorial-deploy-docker-app-azure.md)
+> [Create multi-container apps with MySQL and Docker Compose](tutorial-multi-container-app-mysql.md)

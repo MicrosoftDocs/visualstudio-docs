@@ -1,7 +1,6 @@
 ---
 title: "ClickOnce Reference | Microsoft Docs"
 description: Use these reference articles to understand the structure of the XML files used to represent ClickOnce applications.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -51,6 +50,8 @@ The following pages describe the structure of the XML files used to represent Cl
 <xref:System.Deployment.Application>
 
  Provides links to reference documentation of the public classes that support ClickOnce within managed code.
+
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
 
  [Publish ClickOnce applications](../deployment/publishing-clickonce-applications.md)
 

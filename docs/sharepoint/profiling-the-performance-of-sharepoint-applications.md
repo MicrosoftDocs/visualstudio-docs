@@ -1,7 +1,6 @@
 ---
 title: "Profiling the Performance of SharePoint Applications | Microsoft Docs"
 description: Profile the performance of SharePoint applications if they are running slowly or inefficiently. Use Visual Studio profiling features to find problematic code.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Choose Toolbox Items, WPF Components
 description: Learn how to use the WPF Components tab to display the Windows Presentation Foundation controls available for selection on your local computer.
-ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
 ms.topic: reference
 f1_keywords:

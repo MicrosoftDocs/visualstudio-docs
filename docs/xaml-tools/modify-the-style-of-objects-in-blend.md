@@ -2,7 +2,6 @@
 title: Modify the style of objects
 titleSuffix: Blend for Visual Studio
 description: Learn how to modify the style of objects in Blend for Visual Studio by applying brushes, setting visual states, and applying reusable styles and templates.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 author: maddymontaquila

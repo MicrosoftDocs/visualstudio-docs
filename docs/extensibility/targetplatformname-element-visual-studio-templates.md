@@ -1,13 +1,12 @@
 ---
 title: TargetPlatformName Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the TargetPlatformName element and how it specifies the platform that the project template targets.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 ms.assetid: 3a6b1f45-b5d6-418e-add1-87ee8f15033d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.workload:
 - vssdk

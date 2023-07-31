@@ -1,7 +1,6 @@
 ---
 title: "Create & debug SharePoint workflow solution"
 description: In this walkthrough, create and debug a SharePoint workflow solution. Create a basic sequential workflow template. Create workflow activities and handle events.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:

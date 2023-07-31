@@ -60,22 +60,22 @@ tools:
   summary: "Products & services available via Visual Studio Subscriptions"
   items: 
     - title: Azure
-      imageSrc: https://docs.microsoft.com/media/logos/logo_azure.svg
+      imageSrc: https://learn.microsoft.com/media/logos/logo_azure.svg
       url: /azure/
     - title: Visual Studio IDE 
-      imageSrc: https://docs.microsoft.com/media/logos/logo_vs-ide.svg 
+      imageSrc: https://learn.microsoft.com/media/logos/logo_vs-ide.svg 
       url: /visualstudio/windows/ 
     - title: Azure DevOps Services 
-      imageSrc: https://docs.microsoft.com/media/logos/logo_vs-team-services.svg
+      imageSrc: https://learn.microsoft.com/media/logos/logo_vs-team-services.svg
       url: /azure/devops/
     - title: GitHub Enterprise
       imageSrc: ../subscriptions/_img/index-page/GitHub-Mark.svg
       url: ~/access-github.md
     - title: Visual Studio for Mac 
-      imageSrc: https://docs.microsoft.com/media/logos/logo_vs-mac.svg
+      imageSrc: https://learn.microsoft.com/media/logos/logo_vs-mac.svg
       url: /visualstudio/mac/ 
     - title: Visual Studio App Center
-      imageSrc: https://docs.microsoft.com/media/logos/logo_vs-mobile-center.svg
+      imageSrc: https://learn.microsoft.com/media/logos/logo_vs-mobile-center.svg
       url: /appcenter/ 
 
 

@@ -5,8 +5,8 @@ ms.date: "08/04/2017"
 ms.reviewer: "Jamie.Young"
 ms.topic: reference
 ms.assetid: d20a30c0-0dcc-4e2c-a809-31c8ea28c7df
-author: brickgeorge
-ms.author: brgeorge
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ---

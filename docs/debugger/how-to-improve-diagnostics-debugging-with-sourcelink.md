@@ -1,7 +1,6 @@
 ---
 title: Enable debugging and diagnostics with Source Link | Microsoft Docs
 description: Learn how to enable Source Link in your .NET project to improve debugging and diagnostics.
-ms.custom: SEO-VS-2022
 ms.date: 08/09/2022
 ms.topic: how-to
 dev_langs: 

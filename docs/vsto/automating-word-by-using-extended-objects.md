@@ -1,7 +1,6 @@
 ---
 title: "Automate Word by using extended objects"
 description: Learn how you can use host items and host controls in your solutions when you develop Word solutions in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:

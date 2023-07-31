@@ -23,4 +23,4 @@ When an invitation is sent from your GitHub org administrator, you will receive 
 
 After you accept the GitHub org invitation, the appearance of the benefit tile at <https://my.visualstudio.com/benefits> will change from “Pending” to “Activated” and you can now start using GitHub Enterprise. 
 
-[Read more](https://docs.microsoft.com/visualstudio/subscriptions/access-github) details on the GitHub Enterprise set up process. 
+[Read more](https://learn.microsoft.com/visualstudio/subscriptions/access-github) details on the GitHub Enterprise set up process. 

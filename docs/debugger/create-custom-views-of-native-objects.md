@@ -1,7 +1,7 @@
 ---
 title: Create custom views of C++ objects
 description: Use the Natvis framework to customize the way that Visual Studio displays native types in the debugger
-ms.date: 04/21/2022
+ms.date: 08/18/2022
 ms.topic: how-to
 f1_keywords: 
   - natvis
@@ -70,6 +70,8 @@ You can add a *.natvis* file to any C++ project.
 **To add a new *.natvis* file:**
 
 1. Select the C++ project node in **Solution Explorer**, and select **Project** > **Add new item**, or right-click the project and select **Add** > **New item**.
+
+   If you don't see all the item templates, choose **Show All Templates**.
 
 1. In the **Add New Item** dialog, select **Visual C++** > **Utility** > **Debugger visualization file (.natvis)**.
 
@@ -140,7 +142,6 @@ The *.natvis* files are evaluated in the following order:
 4. The user-specific Natvis directory (for example, *%USERPROFILE%\Documents\Visual Studio 2019\Visualizers*).
 
 ::: moniker-end
-
 
 5. The system-wide Natvis directory (*\<VS Installation Folder\>\Common7\Packages\Debugger\Visualizers*). This directory has the *.natvis* files that are installed with Visual Studio. If you have administrator permissions, you can add files to this directory.
 
@@ -489,6 +490,7 @@ You can also specify multi-dimensional arrays. In that case, the debugger needs 
       <Rank>$T2</Rank>
       <Size>_M_extent._M_base[$i]</Size>
       <ValuePointer>($T1*) _M_buffer_descriptor._M_data_ptr</ValuePointer>
+      <LowerBound>0</LowerBound>
     </ArrayItems>
   </Expand>
 </Type>
@@ -496,7 +498,11 @@ You can also specify multi-dimensional arrays. In that case, the debugger needs 
 
 - `Direction` specifies whether the array is in row-major or column-major order.
 - `Rank` specifies the rank of the array.
-- The `Size` element accepts the implicit `$i` parameter, which it substitutes with the dimension index to find the length of the array in that dimension. In the previous example, the expression `_M_extent.M_base[0]` should give the length of the 0th dimension, `_M_extent._M_base[1]` the 1st, and so on.
+- The `Size` element accepts the implicit `$i` parameter, which it substitutes with the dimension index to find the length of the array in that dimension.
+  - In the previous example, the expression `_M_extent.M_base[0]` should give the length of the 0th dimension, `_M_extent._M_base[1]` the 1st, and so on.
+- The `LowerBound` specifies the lower bound of each dimension of the array. For multi-dimensional arrays, you can specify an expression that uses the implicit `$i` parameter. The `$i` parameter will be substituted with the dimension index to find the lower bound of the array in that dimension.
+  - In the previous example, all dimensions will start at 0. However, if you had `($i == 1) ? 1000 : 100` as the lower bound, the 0th dimension will start at 100, and the 1st dimension will start at 1000.
+    - E.g. `[100, 1000], [100, 1001], [100, 1002], ... [101, 1000], [101, 1001],...`
 
 Here's how a two-dimensional `Concurrency::array` object looks in the debugger window:
 

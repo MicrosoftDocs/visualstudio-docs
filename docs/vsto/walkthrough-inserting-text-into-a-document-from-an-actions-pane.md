@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Insert text into a document from an actions pane"
 description: Create an actions pane in a Microsoft Word document. Learn that the actions pane contains two controls that collect input and then send the text to the document.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

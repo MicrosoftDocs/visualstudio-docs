@@ -1,7 +1,6 @@
 ---
 title: Pass data between forms
 description: In this Windows Forms controls walkthrough, get step-by-step instructions for passing data from one form to another.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -24,6 +23,8 @@ ms.workload:
 # Pass data between forms
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 This walkthrough provides step-by-step instructions for passing data from one form to another. Using the customers and orders tables from Northwind, one form allows users to select a customer, and a second form displays the selected customer's orders. This walkthrough shows how to create a method on the second form that receives data from the first form.
 

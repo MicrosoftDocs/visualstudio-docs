@@ -1,14 +1,13 @@
 ---
 title: Project Context | Microsoft Docs
 description: Learn how the Visual Studio IDE uses project context to determine how to perform operations when the user adds or works with projects and project items.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - projects [Visual Studio SDK], opening items
 ms.assetid: d1803f4a-24eb-44b0-b5d2-cb40c15534be
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

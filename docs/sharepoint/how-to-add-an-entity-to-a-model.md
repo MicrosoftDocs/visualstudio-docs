@@ -1,7 +1,6 @@
 ---
 title: "How to: Add an Entity to a Model | Microsoft Docs"
 description: Add an entity to a model by adding an entity control from the Visual Studio Toolbox onto the Business Data Connectivity (BDC) designer.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 f1_keywords:

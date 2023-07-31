@@ -1,7 +1,6 @@
 ---
 title: Analyzing Load Test Virtual User Activity
 description: Learn about the Details view, which displays the Virtual User Activity Chart. Analyze what individual virtual users did during the load test. 
-ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
 ms.topic: conceptual
 f1_keywords:

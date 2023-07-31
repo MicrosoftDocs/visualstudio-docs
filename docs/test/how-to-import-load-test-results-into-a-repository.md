@@ -1,7 +1,6 @@
 ---
 title: 'How to: Import Load Test Results into a Repository'
 description: Learn how to load information into the Load Test Results Repository by using the Open and Manage Load Test Results dialog box.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

@@ -1,7 +1,6 @@
 ---
 title: Add Custom Counter Sets for load testing
 description: When you create a load test with the Load Test Wizard, you add an initial set of counters. Learn how to add custom counter sets by using Load Test Editor.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

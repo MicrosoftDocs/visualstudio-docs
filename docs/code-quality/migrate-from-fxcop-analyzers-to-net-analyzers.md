@@ -1,6 +1,5 @@
 ---
 title: Migrate from FxCop analyzers to .NET analyzers
-ms.custom: SEO-VS-2020
 description: "Learn how to migrate from FxCop analyzers to .NET analyzers."
 ms.date: 03/06/2020
 ms.topic: conceptual

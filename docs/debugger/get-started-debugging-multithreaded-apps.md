@@ -2,7 +2,7 @@
 title: Learn to debug multithreaded applications
 description: Debug using the Parallel Stacks and Parallel Watch windows in Visual Studio
 ms.custom: 
-ms.date: 02/14/2020
+ms.date: 07/13/2023
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -37,25 +37,20 @@ You'll first need a multithreaded application project. An example follows.
 
 1. Open Visual Studio and create a new project.
 
-   ::: moniker range=">=vs-2019"
-
    If the start window is not open, choose **File** > **Start Window**.
 
    On the start window, choose **Create a new project**.
 
-   On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#**, **C++**, or **Visual Basic** from the Language list, and then choose **Windows** from the Platform list. 
+   On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#**, **C++**, or **Visual Basic** from the Language list, and then choose **Windows** from the Platform list.
 
-   After you apply the language and platform filters, choose the **Console App** template for .NET Core or C++, and then choose **Next**.
+   After you apply the language and platform filters, choose the **Console App** template for .NET or C++, and then choose **Next**.
 
    > [!NOTE]
-   > If you don't see the correct template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET Core cross-platform development** or **Desktop development with C++** workload, then choose **Modify**.
+   > If you don't see the correct template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
 
    In the **Configure your new project** window, type or enter *MyThreadWalkthroughApp* in the **Project name** box. Then, choose either **Next** or **Create**, whichever option is available.
 
-   For a .NET Core project, choose either the recommended target framework or .NET 6, and then choose **Create**.
-
-   ::: moniker-end
-
+   For a .NET Core or .NET 5+ project, choose either the recommended target framework or .NET 6, and then choose **Create**.
 
    A new console project appears. After the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called *Program.cs*, *MyThreadWalkthroughApp.cpp*, or *Module1.vb*.
 
@@ -206,7 +201,7 @@ You'll first need a multithreaded application project. An example follows.
 
 ## Debug the multithreaded app
 
-1. In the source code editor, look for one of the following code snippets:
+1. In the source code editor, look for the following code snippet:
 
     ### [C#](#tab/csharp)
     ```csharp
@@ -227,7 +222,7 @@ You'll first need a multithreaded application project. An example follows.
     ```
     ---
 
-1. Left-click in the left gutter of the `Thread.Sleep` or `std::this_thread::sleep_for` statement to insert a new breakpoint.
+1. Left-click in the left gutter of the `Thread.Sleep` or, for C++, `std::this_thread::sleep_for` statement to insert a new breakpoint.
 
     In the gutter, a red circle indicates that a breakpoint is set at this location.
 
@@ -241,13 +236,15 @@ You'll first need a multithreaded application project. An example follows.
 
 1. In the Debug Toolbar, select the **Show Threads in Source** button ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker").
 
-2. Press **F11** once to advance the debugger one line of code.
+2. Press **F11** twice to advance the debugger.
 
 3. Look at the gutter on the left side of the window. On this line, you will see a *thread marker* icon  ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker") that resembles two twisted threads. The thread marker indicates that a thread is stopped at this location.
 
     A thread marker may be partially concealed by a breakpoint.
 
 4. Hover the pointer over the thread marker. A DataTip appears telling you the name and thread ID number for each stopped thread. In this case, the name is probably `<noname>`.
+
+   ![Screenshot of the Thread ID in a DataTip.](../debugger/media/dbg-multithreaded-thread-id-datatip.png "ThreadIDDataTip")
 
 5. Select the thread marker to see the available options on the shortcut menu.
 
@@ -257,6 +254,16 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
 
 1. Open the **Parallel Stacks** window by choosing **Debug** > **Windows** > **Parallel Stacks**. You should see something similar to the following. The exact information will differ depending on the current location of each thread, your hardware, and your programming language.
 
+    ::: moniker range=">= vs-2022"
+    ![Screenshot of the Parallel Stacks Window.](../debugger/media/vs-2022/dbg-multithreaded-parallel-stacks.png "ParallelStacksWindow")
+
+    In this example, from left to right we see this information for managed code:
+
+    - The current thread (yellow arrow) has entered `ServerClass.InstanceMethod`. You can view the thread ID and stack frame of a thread by hovering over `ServerClass.InstanceMethod`.
+    - Thread 31724 is waiting on a lock owned by Thread 20272.
+    - The Main thread (left side) has stopped on [External Code], which you can view in detail if you choose **Show External Code**.
+    ::: moniker-end
+    ::: moniker range="vs-2019"
     ![Parallel Stacks Window](../debugger/media/dbg-multithreaded-parallel-stacks.png "ParallelStacksWindow")
 
     In this example, from left to right we see this information for managed code:
@@ -264,13 +271,22 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
     - The Main thread (left side) has stopped on `Thread.Start`, where the stop point is indicated by the thread marker icon ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker").
     - Two threads have entered the `ServerClass.InstanceMethod`, one of which is the current thread (yellow arrow), while the other thread has stopped in `Thread.Sleep`.
     - A new thread (on the right) is also starting but is stopped on `ThreadHelper.ThreadStart`.
+    ::: moniker-end
 
-2. Right-click entries in the **Parallel Stacks** window to see the available options on the shortcut menu.
+2. To view the threads in a list view, select **Debug** > **Windows** > **Threads**.
 
-    You can take various actions from these right-click menus, but for this tutorial we will show more of these details in the **Parallel Watch** window (next sections).
+    ::: moniker range=">= vs-2022"
+    ![Screenshot of the Threads Window.](../debugger/media/vs-2022/dbg-multithreaded-threads-window.png "ThreadsWindow")
+
+    In this view, you can easily see that thread 20272 is the Main thread and is currently located in external code, specifically *System.Console.dll*.
+    ::: moniker-end
 
     > [!NOTE]
-    > To see a list view with information on each thread, use the **Threads** window instead. See [Walkthrough: Debug a Multithreaded Application](../debugger/how-to-use-the-threads-window.md).
+    > For more information on using the **Threads** window, see [Walkthrough: Debug a Multithreaded Application](../debugger/how-to-use-the-threads-window.md).
+
+3. Right-click entries in the **Parallel Stacks** or **Threads** window to see the available options on the shortcut menu.
+
+    You can take various actions from these right-click menus, but for this tutorial we will show more of these details in the **Parallel Watch** window (next sections).
 
 ### Set a watch on a variable
 
@@ -289,6 +305,7 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
 4. Right-click on one of the rows in the window to see the available options.
 
 ### Flag and unflag threads
+
 You can flag threads to keep track of important threads and ignore the other threads.
 
 1. In the **Parallel Watch** window, hold down the **Shift** key and select multiple rows.

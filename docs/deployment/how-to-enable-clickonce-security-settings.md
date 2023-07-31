@@ -1,7 +1,6 @@
 ---
 title: Enable ClickOnce Security Settings | Microsoft Docs
 description: Learn how the Publish wizard automatically enables code access security for ClickOnce applications to publish the application.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -28,6 +27,8 @@ Code access security for ClickOnce applications must be enabled in order to publ
  In some cases, enabling code access security can impact performance when building or debugging your application; in these cases, you may wish to temporarily disable the security settings.
 
  ClickOnce security settings can be enabled or disabled on the **Security** page of the **Project Designer**.
+
+ [!INCLUDE[ndptecclick](../deployment/includes/dotnet-task-unsupported.md)]
 
 ### To enable ClickOnce security settings
 

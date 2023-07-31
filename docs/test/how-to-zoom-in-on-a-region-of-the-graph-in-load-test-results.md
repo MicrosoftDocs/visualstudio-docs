@@ -1,7 +1,6 @@
 ---
 title: Zoom in on load test result graphs
 description: Learn how to examine data generated during a load test run in finer detail by using zoom bars to zoom in and scroll to a region of the graph.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 f1_keywords: 

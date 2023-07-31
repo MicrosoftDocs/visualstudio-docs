@@ -1,7 +1,6 @@
 ---
 title: "Workflow Designer - Assign Activity Designer"
 description: Learn how you can use the Assign activity designer to create and configure an Assign activity, and how the Assign activity assigns a value to a variable or argument.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

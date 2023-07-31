@@ -5,8 +5,8 @@ description: Step 6 of a core walkthrough of Python in Visual Studio, covering V
 ms.date: 02/28/2022
 ms.custom: devdivchpfy22
 ms.topic: tutorial
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -21,7 +21,6 @@ ms.workload:
 **Previous step: [Install packages and manage your Python environment](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)**
 
 [!INCLUDE[..get-started/includes/git-source-control.md](../get-started/includes/git-source-control.md)]
-
 
 ## Tutorial review
 

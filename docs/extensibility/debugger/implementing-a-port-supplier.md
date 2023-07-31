@@ -1,15 +1,14 @@
 ---
 title: Implementing a Port Supplier | Microsoft Docs
 description: Learn about implementing a port supplier, which is necessary when debugging to a non-DCOM machine or when a new device requires support.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], implementing port suppliers
 - port suppliers, implementing
 ms.assetid: 6b8579df-58df-4c7f-8112-6015993e8765
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

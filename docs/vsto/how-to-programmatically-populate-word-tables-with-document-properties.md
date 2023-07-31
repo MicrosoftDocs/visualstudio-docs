@@ -1,7 +1,6 @@
 ---
 title: "Populate Word tables with document properties programmatically"
 description: Learn how you can use Visual Studio to programmatically populate a table with document properties in a Microsoft Word document.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

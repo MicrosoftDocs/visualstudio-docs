@@ -2,7 +2,7 @@
 title: Manage exceptions with the debugger | Microsoft Docs
 description: Learn how to specify which exceptions the debugger breaks on, at which point you want the debugger to break, and how breaks are handled.
 
-ms.date: 03/25/2022
+ms.date: 01/23/2023
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.exceptions

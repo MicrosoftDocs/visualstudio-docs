@@ -1,7 +1,6 @@
 ---
 title: Workflow Designer - FlowDecision Activity Designer
 description: Learn how the FlowDecision node is a conditional node that provides a branch for the flow of control into one of two alternatives.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

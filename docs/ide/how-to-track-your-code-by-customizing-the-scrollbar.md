@@ -1,7 +1,6 @@
 ---
 title: Scroll bar map mode and bar mode
 description: Learn how to track changes in your code through the customization of the scroll bar and also learn how to use Bar mode and Map mode.
-ms.custom: SEO-VS-2020
 ms.date: 03/20/2020
 ms.topic: how-to
 author: TerryGLee
@@ -72,3 +71,4 @@ The following image shows the **Show Preview Tooltip** option:
 ## See also
 
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Learn about the Editor Sticky Scroll feature](editor-sticky-scroll.md)

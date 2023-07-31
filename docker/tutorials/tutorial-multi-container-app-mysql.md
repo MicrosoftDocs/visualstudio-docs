@@ -1,19 +1,19 @@
 ---
 title: "Create multi-container apps with MySQL & Docker Compose"
 description: In this tutorial, learn how to create multi-container apps with MySQL and Docker Compose. Use multiple containers to scale your project.
-author: ucheNkadiCode
-ms.author: uchen
+author: ghogen
+ms.author: ghogen
 ms.prod: vs-code
 ms.topic: tutorial
-ms.date: 03/04/2022
-ms.custom: [template-tutorial, contperf-fy22q3]
+ms.date: 05/31/2023
+ms.custom: template-tutorial
 
-# Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
+# Under agreement with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
 
 # Tutorial: Create multi-container apps with MySQL and Docker Compose
 
-In this tutorial, you'll learn how to create multi-container apps. This tutorial builds on the getting started tutorials, [Create and share a Docker app with Visual Studio Code](docker-tutorial.md).  In this advanced tutorial, you'll update your application to work as described in this diagram and learn how to:
+In this tutorial, you'll learn how to create multi-container apps. This tutorial builds on the getting started tutorials, [Get started with Docker and Visual Studio Code](docker-tutorial.md).  In this advanced tutorial, you'll update your application to work as described in this diagram and learn how to:
 > [!div class="checklist"]
 > - Start MySQL.
 > - Run your app with MySQL.
@@ -25,22 +25,17 @@ In this tutorial, you'll learn how to create multi-container apps. This tutorial
 Using multiple containers allows you to dedicate containers for specialized tasks.  Each container should do one thing and do it well.
 
 Here are some reasons you might want to use multi-container apps:
+
 - Separate containers you to manage APIs and front-ends differently than databases.
 - Containers let you version and update versions in isolation.
 - While you might use a container for the database locally, you may want to use a managed service for the database in production.
 - Running multiple processes requires a process manager, which adds complexity to container startup/shutdown.
 
-
-
-
 ## Prerequisites
 
-This tutorial continues the series of tutorials, starting with [Create and share a Docker app with Visual Studio Code](docker-tutorial.md).
+This tutorial continues the series of tutorials, starting with [Create a container app](docker-tutorial.md).
 Start with that one, which includes prerequisites.
-Then do these tutorials:
-
-- [Persist data and layer Docker app](tutorial-persist-data-layer-docker-app-with-vscode.md).
-- [Deploy your Docker app to the Azure cloud](tutorial-deploy-docker-app-azure.md).
+Then do the tutorial [Persist data in your app](tutorial-persist-data-layer-docker-app-with-vscode.md).
 
 You also need the following items:
 
@@ -125,6 +120,8 @@ In this example, you create the network first and attach the MySQL container at 
    5 rows in set (0.00 sec)
    ```
 
+1. Enter `exit` when you're ready to return to the terminal command prompt.
+
 ## Run your app with MySQL
 
 The todo app supports the setting of environment variables to specify MySQL connection settings.
@@ -156,7 +153,7 @@ This procedure starts your app and connects that container to your MySQL contain
       -e MYSQL_USER=root 
       -e MYSQL_PASSWORD=<your-password> 
       -e MYSQL_DB=todos 
-      node:12-alpine 
+      node:20-alpine 
       sh -c "yarn install && yarn run dev"
     ```
 
@@ -186,9 +183,10 @@ This procedure starts your app and connects that container to your MySQL contain
    docker exec -ti <mysql-container-id> mysql -p todos
    ```
 
-   And in the MySQL shell, run the following command.
+   And in the MySQL shell, run the following commands.
 
    ```sql
+   use todos;
    select * from todo_items;
    ```
 
@@ -251,7 +249,7 @@ They would only need to clone your repo.
      -e MYSQL_USER=root 
      -e MYSQL_PASSWORD=<your-password> 
      -e MYSQL_DB=todos 
-     node:12-alpine 
+     node:20-alpine 
      sh -c "yarn install && yarn run dev"
    ```
 
@@ -262,7 +260,7 @@ They would only need to clone your repo.
 
    services:
      app:
-       image: node:12-alpine
+       image: node:20-alpine
    ```
 
    You can pick any name for the service.
@@ -275,7 +273,7 @@ They would only need to clone your repo.
 
     services:
       app:
-        image: node:12-alpine
+        image: node:20-alpine
         command: sh -c "yarn install && yarn run dev"
     ```
 
@@ -286,7 +284,7 @@ They would only need to clone your repo.
 
     services:
       app:
-        image: node:12-alpine
+        image: node:20-alpine
         command: sh -c "yarn install && yarn run dev"
         ports:
           - 3000:3000
@@ -299,7 +297,7 @@ They would only need to clone your repo.
 
     services:
       app:
-        image: node:12-alpine
+        image: node:20-alpine
         command: sh -c "yarn install && yarn run dev"
         ports:
           - 3000:3000
@@ -317,7 +315,7 @@ They would only need to clone your repo.
 
     services:
       app:
-        image: node:12-alpine
+        image: node:20-alpine
         command: sh -c "yarn install && yarn run dev"
         ports:
           - 3000:3000
@@ -406,7 +404,7 @@ version: "3.7"
 
 services:
   app:
-    image: node:12-alpine
+    image: node:20-alpine
     command: sh -c "yarn install && yarn run dev"
     ports:
       - 3000:3000
@@ -451,10 +449,10 @@ Now that you have the `docker-compose.yml` file, try it.
    You should see output like the following results.
 
    ```output
-   Creating network "app_default" with the default driver
-   Creating volume "app_todo-mysql-data" with default driver
-   Creating app_app_1   ... done
-   Creating app_mysql_1 ... done
+   [+] Building 0.0s (0/0)
+   [+] Running 2/2
+   ✔ Container app-app-1    Started                                                                                                       0.9s 
+   ✔ Container app-mysql-1  Running
    ```
 
    The volume was created as well as a network.

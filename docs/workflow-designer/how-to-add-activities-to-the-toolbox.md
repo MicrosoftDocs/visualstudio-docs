@@ -1,7 +1,6 @@
 ---
 title: Add Activities to the Toolbox
 description: In Workflow Designer, learn how to add activities to the Toolbox in your solution by adding them from within your current project or referencing them from a different project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: b3a8a785-5928-457a-8a50-30267e29503d

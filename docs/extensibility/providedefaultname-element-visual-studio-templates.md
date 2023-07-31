@@ -1,7 +1,6 @@
 ---
 title: ProvideDefaultName Element (Visual Studio Templates) | Microsoft Docs
 description: Learn about the ProvideDefaultName element and how it specifies if Visual Studio will generate a default Visual Studio name in the Add New Item or New Project dialog box.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
@@ -10,8 +9,8 @@ f1_keywords:
 helpviewer_keywords:
 - ProvideDefaultName element [Visual Studio project templates]
 ms.assetid: 7b0e7b20-fd6b-42e2-81d0-e5100cea0528
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.workload:
 - vssdk

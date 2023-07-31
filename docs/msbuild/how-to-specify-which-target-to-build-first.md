@@ -1,7 +1,6 @@
 ---
 title: 'How to: Specify Which Target to Build First | Microsoft Docs'
 description: Learn about how to specify initial targets or default targets to build first in MSBuild project files.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

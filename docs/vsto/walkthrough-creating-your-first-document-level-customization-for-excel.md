@@ -1,7 +1,6 @@
 ---
 title: "Create your first document-level customization for Excel"
 description: Create a document-level customization for Microsoft Excel. The features that you create in this kind of solution are available only when a specific workbook is open.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -57,7 +56,6 @@ ms.workload:
 
 2. On the **File** menu, point to **New**, and then click **Project**.
 
-::: moniker range=">=vs-2019"
 3. On the **Create a New Project** dialog select the **Excel VSTO Workbook** project.
 
      [!INCLUDE[new-project-dialog-search](../vsto/includes/new-project-dialog-search-md.md)]
@@ -67,7 +65,7 @@ ms.workload:
 5. Type **FirstWorkbookCustomization** in the **Name** box on the **Configure your new project** dialog and click **Create**.
 
 6. Select **Create a new document** from the **Visual Studio Tools for Office Project Wizard**, and click **OK**.
-::: moniker-end
+
    - [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstWorkbookCustomization** project, and adds the following files to the project.
 
    - *FirstWorkbookCustomization*.xlsx - Represents the Excel workbook in the project. Contains all the worksheets and charts.

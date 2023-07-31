@@ -16,14 +16,16 @@
         href: vscloud-billing-faq.yml
       - name: Buying for CSPs
         href: vscloud-csp.md
-    - name: Microsoft Partner Network
+    - name: Microsoft Cloud Partner Program
       items:
       - name: Subscriptions for partners
-        href: program-mpn.md
-      - name: Manage subscriptions for MPN
-        href: manage-mpn-subscriptions.md
+        href: program-mcpp.md
+      - name: Manage subscriptions for Microsoft Cloud Partner Program
+        href: manage-mcpp-subscriptions.md
     - name: Microsoft for Startups
       href: program-startups.md
+  - name: Get started with a new subscription
+    href: new-subscriber.md
   - name: Sign in to subscriber portal
     items:
     - name: Sign in with Microsoft Accounts
@@ -34,12 +36,8 @@
       href: sign-in-github.md
     - name: Connected identities
       href: use-connected-identities.md
-    - name: Alternate identities
-      href: vs-alternate-identity.md
     - name: Sign in problems
       href: sign-in-issues.md
-    - name: Anonymizations of subscriber data
-      href: anonymization.md
   - name: Subscriptions portal overview
     href: using-the-subscriber-portal.md
   - name: Manage your subscriptions
@@ -56,6 +54,8 @@
   href: access-github.md
 - name: Visual Studio IDE
   href: vs-ide-benefit.md
+- name: Sign in to use Visual Studio
+  href: use-visual-studio-without-key.md
 - name: Azure benefits
   items:
   - name: Azure DevTest offer
@@ -72,8 +72,8 @@
     href: about-benefits.md
   - name: Tools
     items:
-    - name: CloudPilot
-      href: vs-cloudpilot.md
+    - name: C# Dev Kit
+      href: vs-c-sharp-dev-kit.md    
     - name: Microsoft 365 apps for enterprise
       href: microsoft-365-apps-for-enterprise.md
     - name: Microsoft 365 developer
@@ -104,18 +104,12 @@
       href: vs-pluralsight.md
   - name: Support
     items:
-    - name: Azure Community
-      href: vs-azure-community.md
+    - name: Community support
+      href: vs-community-support-options.md
     - name: Concierge Support
       href: vs-concierge-chat.md
     - name: Technical Support
       href: vs-tech-support.md
-    - name: Developer Community
-      href: vs-developer-community.md
-    - name: Microsoft Q&A
-      href: vs-microsoft-qa.md
-    - name: Microsoft Tech Community
-      href: vs-microsoft-tech-community.md
 - name: Software downloads
   items:
   - name: Product availability
@@ -136,8 +130,6 @@
   items:
   - name: Administrator responsibilities
     href: admin-responsibilities.md
-  - name: Pre-production inventory
-    href: admin-inventory.md
   - name: Manage large teams and external contractors
     href: manage-teams.md
   - name: Track user assignments and process orders
@@ -190,8 +182,6 @@
       href: edit-license.md
     - name: Delete subscriptions
       href: delete-license.md
-    - name: Search for a subscription
-      href: search-license.md
     - name: Export subscriptions
       href: exporting-subscriptions.md
     - name: Overallocations
@@ -202,8 +192,6 @@
       href: assign-github.md
   - name: Troubleshoot
     items:
-    - name: Accounts removed by Microsoft
-      href: account-removed.md  
     - name: Expired subscriptions
       href: handle-expired-license.md
     - name: Subscriber sign-in scenarios 

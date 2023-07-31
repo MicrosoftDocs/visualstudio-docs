@@ -34,11 +34,7 @@ In this tutorial, you will:
 
 ## Prerequisites
 
-::: moniker range=">=vs-2019"
-
 You must have Visual Studio 2019 installed and the **.NET Core cross-platform development** workload.
-
-::: moniker-end
 
 
 
@@ -61,7 +57,6 @@ If you need to install the workload but already have Visual Studio, go to **Tool
 ## Create a project
 
 First, you'll create a .NET Core console application project. The project type comes with all the template files you'll need, before you've even added anything!
-
 
 ::: moniker range="vs-2019"
 

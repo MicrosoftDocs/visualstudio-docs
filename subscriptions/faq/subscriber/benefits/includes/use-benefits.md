@@ -15,4 +15,4 @@ The types of benefits vary.  So do the methods for activating and using them. Fo
 
 For each benefit available in the subscriber portal, we've provided information such as which subscriptions include them, and steps to activate the benefits.
 
-Check out our documentation to [learn more](https://docs.microsoft.com/visualstudio/subscriptions/about-benefits) (click on 'Subscriptions' in the left nav pane, and choose 'Benefits').
+Check out our documentation to [learn more](https://learn.microsoft.com/visualstudio/subscriptions/about-benefits) (click on 'Subscriptions' in the left nav pane, and choose 'Benefits').

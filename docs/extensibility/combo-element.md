@@ -1,15 +1,14 @@
 ---
 title: Combo Element | Microsoft Docs
 description: "The Combo element defines commands that appear in a combo box. There are four kinds: DropDownCombo, DynamicCombo, IndexCombo, and MRUCombo."
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Combos element (VSCT XML schema)
 - VSCT XML schema elements, Combos
 ms.assetid: 392e3063-f0a0-4130-9583-23bd2aa3fa36
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

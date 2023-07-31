@@ -4,26 +4,26 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: e2f2619c-7736-47e5-a066-5940d5994db9
-ms.date: 07/08/2022
+ms.date: 05/24/2023
 ms.topic: conceptual
 description:  Learn how to locate and download Microsoft software titles in Visual Studio subscriptions
 ---
 
 # Downloading software titles in Visual Studio subscriptions
 
-Depending on which Visual Studio subscription you have, a wide variety of Microsoft software titles may be available to you.  This article will explain how to locate and download the software you need to get the most out of your subscription. 
+Depending on which Visual Studio subscription you have, a wide variety of Microsoft software titles may be available to you.  This article explains how to locate and download the software you need to get the most out of your subscription. 
 
-Only the downloads included with your subscription are displayed for you on the [Downloads](https://my.visualstudio.com/downloads/featured) page.  If you have more than one subscription or program membership, the downloads shown will be for the **highest subscription** you hold, even if you're currently viewing a different subscription.  For example, if you have a Visual Studio Enterprise subscription and a Visual Studio Professional subscription both associated with the same sign-in email address, the downloads shown will be those included in the Enterprise subscription, even if you’re currently viewing your Professional subscription benefits.  
+Only the downloads included with your subscription are displayed for you on the [Downloads](https://my.visualstudio.com/downloads/featured) page.  If you have more than one subscription or program membership, the downloads shown are for the **highest subscription** you hold, even if you're currently viewing a different subscription.  For example, if you have a Visual Studio Enterprise and Professional subscriptions both associated with the same sign-in email address, the downloads shown are the ones included in the Enterprise subscription.  That's true even if you’re currently using your Professional subscription.  
 
 If your subscription is provided by your work or school, your subscriptions admin controls whether you have access to downloads. Disabling access to downloads also disables access to product keys. If you don't have access to downloads and product keys and need them, [contact your admin](contact-my-admin.md).
 
 ## How do I find downloads in the subscriber portal?
 
-When you visit the [Downloads](https://my.visualstudio.com/downloads/featured?wt.mc_id=o~msft~docs) page, you'll see popular downloads arranged in groups by product type.  You can select one of the popular downloads shown, or search for any product using the search bar at the top of the page.
+When you visit the [Downloads](https://my.visualstudio.com/downloads/featured?wt.mc_id=o~msft~docs) page, you see popular downloads arranged in groups by product type.  You can select one of the popular downloads shown, or search for any product using the search bar at the top of the page.
 > [!div class="mx-imgBorder"]
 > ![Subscriber downloads page](_img/subscriber-downloads/subscriber-downloads-resized.png "Screenshot of the Downloads page on the subscriber portal.")
 
-For example, if you choose **Visual Studio 2019** from the Developer Tools list, you'll see a list of available Visual Studio 2019 downloads.
+For example, if you choose **Visual Studio 2019** from the Developer Tools list, you see a list of available Visual Studio 2019 downloads.
 > [!div class="mx-imgBorder"]
 > ![Visual Studio 2019 downloads](_img/subscriber-downloads/vs2019-product-list.png "Screenshot of the list of available downloads for Visual Studio 2019.")
 
@@ -34,7 +34,7 @@ You easily select your architecture, language and file type using the available 
 
 ### Displaying download details
 
-Selecting the product name or on the **Info** link will display the details for that download and provide access to the release notes for the product.
+Selecting the product name or on the Info link displays the details for that download and providing access to the release notes for the product.
 > [!div class="mx-imgBorder"]
 > ![Visual Studio 2019 download details](_img/subscriber-downloads/vs2019-info.png "Screenshot of the Visual Studio Enterprise 2019 product details page.  The Info tab is selected.")
 

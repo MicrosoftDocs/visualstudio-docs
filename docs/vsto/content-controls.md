@@ -1,7 +1,6 @@
 ---
 title: "Content controls"
 description: Learn content controls and how content controls provide a way for you to design documents and templates.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

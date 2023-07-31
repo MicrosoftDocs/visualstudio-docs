@@ -1,15 +1,14 @@
 ---
 title: 'Walkthrough: Publish a Visual Studio extension | Microsoft Docs'
 description: Learn how to publish a Visual Studio extension to Visual Studio Marketplace, which allows developers to browse for new and updated extensions.
-ms.custom: SEO-VS-2020
-ms.date: 01/15/2021
+ms.date: 01/25/2023
 ms.topic: how-to
 helpviewer_keywords:
 - publishing web controls
 - web controls, publishing
 ms.assetid: a7816161-0490-4043-86f5-0f7331ed83b3
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:
@@ -179,13 +178,19 @@ Before you begin, make sure that you've built the new release version of your ex
 
 Visual Studio Marketplace supports granting additional users permissions to access and manage a publisher account.
 
-1. Navigate to the publisher account you wish to add additional users to.
+1. Ask the member that you want to add to sign in to their account on Marketplace and get the User ID. The User ID will be visible by hovering over email, as shown in the following image:
 
-2. Select **Members** and click on **Add**.
+   ![Screenshot that shows the user ID next to a user's name and email address in Marketplace.](media/marketplace-user-id.png)
+
+2. The member can copy the User ID by clicking the copy-to-clipboard button, and then share it with you.
+
+3. Navigate to the publisher account you wish to add additional users to.
+
+4. Select **Members** and click on **Add**.
 
    ![Add Additional User](media/add-users.png)
 
-3. You can then specify the email address of the user you wish to add and grant the right level of access under **Select a role**.  You can choose from the following options:
+5. You can then specify the User ID of the user you wish to add and grant the right level of access under **Select a role**.  You can choose from the following options:
 
    * **Creator**: The user can publish extensions, but cannot view or manage extensions published by other users.
 
@@ -221,13 +226,19 @@ Now that the extension is published, install it in Visual Studio and test it the
 
 You can remove the extension from Visual Studio Marketplace and from your computer.
 
-### To remove the extension from Visual Studio Marketplace
+### To remove/unpublish the extension from Visual Studio Marketplace
 
 1. Go to [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs).
 
-2. In the upper-right hand corner, click **Publish** extensions. Pick the publisher that you used to publish **TestPublish**. The listing for **TestPublish** appears.
+2. In the upper-right hand corner, click **Publish** extensions. Pick the publisher that you used to publish (eg: **TestPublish**). The listing for extensions will appear.
 
-3. Right-click on the extension entry and click **Remove**. You are asked to confirm if you want to remove the extension. Click **OK**.
+3. Click on extenion menu button → click **Remove**. You are asked to confirm if you want to remove the extension.
+
+![Screenshot that shows Remove menu item.](media/remove-extension.png)
+
+To prevent accidental unpublishing, you must confirm the remove operation by filling extension name in the warning dialog. Note that remove/unpublish action is non-reversible
+
+![Screenshot that shows warning.](media/remove-warning.png)
 
 ### To remove the extension from your computer
 

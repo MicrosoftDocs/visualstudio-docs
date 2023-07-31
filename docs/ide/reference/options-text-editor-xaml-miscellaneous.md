@@ -1,7 +1,6 @@
 ---
 title: Options, Text Editor, XAML, Miscellaneous
 description: Learn how to use the Miscellaneous page in the XML section to specify how elements and attributes are formatted in your XAML documents.
-ms.custom: SEO-VS-2020
 ms.date: 10/29/2018
 ms.topic: reference
 f1_keywords:

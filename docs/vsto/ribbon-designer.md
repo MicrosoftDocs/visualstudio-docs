@@ -1,7 +1,6 @@
 ---
 title: "Ribbon Designer"
 description: Learn how you can use the Ribbon Designer to add custom tabs, groups, and controls to the ribbon of a Microsoft Office application.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: "Add text & formatting to Word table cells programmatically"
 description:  Learn how you can programmatically add text and formatting to cells in Microsoft Office Word tables.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

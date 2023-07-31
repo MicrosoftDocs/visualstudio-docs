@@ -1,12 +1,11 @@
 ---
 title: Color Theming Tools | Microsoft Docs
 description: Learn about the VSIX Color Editor and VSIX Color Compiler tools that are provided in the Visual Studio SDK to help you create and manage color themes.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 89ab5741-c664-4b45-8662-3dd01a5761be
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

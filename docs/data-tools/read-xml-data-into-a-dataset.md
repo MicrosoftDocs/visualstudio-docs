@@ -1,7 +1,6 @@
 ---
 title: Read XML data into a dataset
 description: Read XML data into a dataset. In this walkthrough, you create a Windows application that loads XML data into a dataset.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -27,6 +26,8 @@ ms.workload:
 # Read XML data into a dataset
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 ADO.NET provides simple methods for working with XML data. In this walkthrough, you create a Windows application that loads XML data into a dataset. The dataset is then displayed in a <xref:System.Windows.Forms.DataGridView> control. Finally, an XML schema based on the contents of the XML file is displayed in a text box.
 

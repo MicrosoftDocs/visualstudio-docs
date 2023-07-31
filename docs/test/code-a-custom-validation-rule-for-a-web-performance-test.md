@@ -1,7 +1,6 @@
 ---
 title: Create custom validation rule for a web perf test
 description: Learn how to create your own validation rules, derived from a validation rule class, ValidationRule.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

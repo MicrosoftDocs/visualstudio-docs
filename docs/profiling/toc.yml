@@ -4,6 +4,8 @@
   items:
   - name: First look at profiling tools
     href: profiling-feature-tour.md
+  - name: Which tool should I use?
+    href: choose-performance-tool.md
   - name: Run profiling tools with or without the debugger
     href: running-profiling-tools-with-or-without-the-debugger.md
 - name: Tutorials
@@ -12,6 +14,8 @@
     href: beginners-guide-to-performance-profiling.md
   - name: Measure memory usage in Visual Studio
     href: memory-usage.md
+  - name: Reduce compute costs using profiling tools
+    href: optimize-code-using-profiling-tools.md
 - name: Concepts
   items:
   - name: Understanding performance collection methods
@@ -34,14 +38,42 @@
     href: events-viewer.md
   - name: CPU Usage
     items:
-    - name: CPU usage
+    - name: CPU Usage
       href: cpu-usage.md
-    - name: Performance insights
+    - name: Flame Graph 
+      href: flame-graph.md
+    - name: CPU Insights
       items:
-      - name: String concatenation
-        href: perf-insights-string-concatenation.md
-      - name: Regex
-        href: perf-insights-regex.md
+      - name: CPU Insights  
+        href: cpu-insights.md
+      - name: Performance insights
+        items:
+        - name: ConcurrentDictionary.Count
+          href: performance-insights-concurrentdictionary-count.md
+        - name: ConcurrentDictionary.Keys
+          href: performance-insights-concurrentdictionary-keys.md
+        - name: ConcurrentDictionary.ToArray
+          href: performance-insights-concurrentdictionary-toarray.md
+        - name: ConcurrentDictionary.Values
+          href: performance-insights-concurrentdictionary-values.md
+        - name: DateTime.Now
+          href: performance-insights-datetime-now.md
+        - name: Enum.HasFlag
+          href: performance-insights-enum-hasflag.md
+        - name: Enum.ToString
+          href: performance-insights-enum-tostring.md
+        - name: Enumerable.Contains
+          href: perf-insights-contains.md
+        - name: Enumerable.ElementAt
+          href: perf-insights-elementat.md
+        - name: Regex
+          href: perf-insights-regex.md
+        - name: String(Char[])
+          href: performance-insights-string-constructor-char.md
+        - name: String.StartsWith
+          href: performance-insights-string-startswith.md
+        - name: String concatenation
+          href: perf-insights-string-concatenation.md
   - name: File IO
     href: use-file-io.md
   - name: Memory usage
@@ -56,12 +88,36 @@
         items:
         - name: LOH allocations
           href: perf-insights-loh-allocations.md
+        - name: Excessive induced GCs
+          href: perf-insights-excessive-induced-gcs.md
+        - name: High LOH fragmentation
+          href: perf-insights-high-loh-fragmentation.md
     - name: Analyze memory usage without the debugger
       href: memory-usage-without-debugging2.md
     - name: Custom native ETW heap events
       href: custom-native-etw-heap-events.md
+  - name: Instrumentation
+    items:
+    - name: Instrumentation
+      href: instrumentation-overview.md
+    - name: Analyze instrumentation data
+      href: instrumentation.md
   - name: Measure performance from the command-line
-    href: profile-apps-from-command-line.md
+    items:
+    - name: Measure performance from the command-line
+      href: profile-apps-from-command-line.md
+    - name: Collect detailed timing data
+      href: collecting-detailed-timing-data-for-a-stand-alone-application.md
+    - name: Instrument a native component and collect timing data
+      href: instrument-native-component-and-collect-timing-data.md
+    - name: Instrument a .NET Framework component and collect timing data
+      href: instrument-dotnet-framework-component-and-collect-timing-data.md
+    - name: Reference
+      items:
+      - name: VSInstr
+        href: vsinstr.md
+      - name: VSPerfCmd
+        href: vsperfcmd.md
   - name: Analyze GPU usage
     href: gpu-usage.md
   - name: Analyze Resource Consumption
@@ -235,4 +291,8 @@
           href: cvwritemessage-function.md
     - name: Concurrency Visualizer Command-Line Utility (CVCollectionCmd)
       href: concurrency-visualizer-command-line-utility-cvcollectioncmd.md
+- name: Reference
+  items:
+  - name: Troubleshoot possible profiler errors
+    href: troubleshoot-profiler-errors.md
 - name: Resources

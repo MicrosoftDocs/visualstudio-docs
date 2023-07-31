@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically delete appointments"
 description: Learn how you can programmatically delete apppointments in Microsoft Outlook. This example deletes one instance of a recurring appointment.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

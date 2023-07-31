@@ -1,7 +1,6 @@
 ---
 title: "Collapse ranges or selections in documents programmatically"
 description:  Learn that if you are working with a Range or Selection object, you might want to change the selection to an insertion point before inserting text.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

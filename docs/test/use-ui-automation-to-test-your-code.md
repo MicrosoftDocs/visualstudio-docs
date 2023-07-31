@@ -1,8 +1,7 @@
 ---
 title: Coded UI tests
 description: Learn how to create a Coded UI test in Visual Studio by performing the test manually while Coded UI Test Builder runs in the background.
-ms.custom: SEO-VS-2020
-ms.date: 12/04/2018
+ms.date: 03/22/2023
 ms.topic: conceptual
 f1_keywords:
 - vs.codedUITest
@@ -59,7 +58,6 @@ To access the Coded UI test tools and templates, install the **Coded UI test** c
 1. Create a Coded UI test project.
 
    Coded UI tests must be contained in a Coded UI test project. If you don't already have a Coded UI test project, create one. Choose **File** > **New** > **Project**. Search for and select the **Coded UI Test Project** project template.
-
 
    > [!NOTE]
    > If you don't see the **Coded UI Test Project** template, you need to [install the Coded UI test component](../test/use-ui-automation-to-test-your-code.md#install-the-coded-ui-test-component).
@@ -432,9 +430,7 @@ You can analyze Coded UI tests using Coded UI test logs. Coded UI test logs filt
 
 ## What's next?
 
-::: moniker range=">=vs-2019"
 **Additional options for running Coded UI tests:** You can run Coded UI tests directly from Visual Studio, as described earlier in this topic. Additionally, you can run automated UI tests using Azure Pipelines. When Coded UI tests are automated, they have to interact with the desktop when you run them, unlike other automated tests.
-::: moniker-end
 
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
 

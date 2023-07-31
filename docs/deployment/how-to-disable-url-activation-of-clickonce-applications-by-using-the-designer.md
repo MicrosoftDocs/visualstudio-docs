@@ -1,7 +1,6 @@
 ---
 title: Disable URL activation of ClickOnce apps using Designer
 description: Learn how to disable automatic start on install for a ClickOnce application using Visual Studio, so that users must start the application from the Start menu.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -36,6 +35,8 @@ Typically, a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] a
 1. Right-click your project name in **Solution Explorer**, and click **Properties**.
 
 2. On the **Properties** page, click the **Publish** tab.
+
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 3. Click **Options**.
 

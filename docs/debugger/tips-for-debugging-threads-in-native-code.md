@@ -1,7 +1,6 @@
 ---
 title: "Tips for Debugging Threads in Native Code | Microsoft Docs"
 description: Read a list of tips for debugging threads in native code if you are debugging multithreaded apps in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:

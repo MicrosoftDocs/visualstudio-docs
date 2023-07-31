@@ -7,8 +7,8 @@ helpviewer_keywords:
 - IDebugExtendedField::GetExtendedKind
 - GetExtendedKind
 ms.assetid: 20dc1c13-3cc0-4bb4-9c99-fa85587c86c3
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

@@ -1,7 +1,6 @@
 ---
 title: Test-first development with Generate From Usage
 description: Learn how to incorporate the Test-first development approach through the use of the Generate From Usage feature.
-ms.custom: SEO-VS-2020
 ms.date: 10/09/2017
 dev_langs:
 - VB
@@ -38,7 +37,6 @@ The **Generate From Usage** feature can be used with test frameworks that integr
 2. In **Solution Explorer**, right-click the solution icon at the top, choose **Add** > **New Project**.
 
 3. Create a new **Unit Test Project (.NET Framework)** project.
-
 
 ### Add a reference to the Class Library project
 

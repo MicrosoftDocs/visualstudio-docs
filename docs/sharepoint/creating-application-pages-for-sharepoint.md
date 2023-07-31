@@ -1,7 +1,6 @@
 ---
 title: "Creating Application Pages for SharePoint | Microsoft Docs"
 description: Create application pages for SharePoint. An application page is an ASP.NET web page that's designed for use in a SharePoint website.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

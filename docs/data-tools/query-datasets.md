@@ -1,7 +1,6 @@
 ---
 title: Query datasets
 description: Understand query datasets. Learn about dataset case sensitivity. Find a specific row in a data table, find rows by column values, and access related records.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -18,6 +17,9 @@ ms.workload:
 # Query datasets
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
+
 To search for specific records in a dataset, use the `FindBy` method on the DataTable, write your own foreach statement to loop over the table's Rows collection, or use [LINQ to DataSet](/dotnet/framework/data/adonet/linq-to-dataset).
 
 ## Dataset case sensitivity

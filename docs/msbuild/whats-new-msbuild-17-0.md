@@ -1,7 +1,7 @@
 ---
 title: What's New in MSBuild 17.0  | Microsoft Docs
 description: Learn about the changed and updated features and properties for MSBuild 17.0, and link to release notes.
-ms.date: 10/25/2021
+ms.date: 11/11/2022
 ms.topic: conceptual
 author: ghogen
 ms.author: ghogen

@@ -1,7 +1,6 @@
 ---
 title: Convert Get method to or from a property
 description: Learn how to use the Quick Actions and Refactorings menu to convert a Get method (and optionally your Set method) into a property.
-ms.custom: SEO-VS-2020
 ms.date: 03/10/2020
 ms.topic: reference
 ms.devlang: csharp

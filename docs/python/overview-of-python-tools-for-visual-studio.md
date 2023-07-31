@@ -2,11 +2,11 @@
 title: Python support in Visual Studio on Windows
 titleSuffix: ""
 description: Summary of Python features in Visual Studio, making it the best Python IDE on Windows (also known as Python Tools for Visual Studio, PTVS).
-ms.date: 12/11/2021
+ms.date: 12/12/2022
 ms.custom: devdivchpfy22
 ms.topic: overview
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -29,19 +29,13 @@ To get started:
 - Follow the [installation instructions](installing-python-support-in-visual-studio.md) to set up the Python workload.
 - Familiarize yourself with the Python capabilities of Visual Studio through the sections in this article.
 
-
-
-::: moniker range=">=vs-2019"
-
 - Go through one or more of the Quickstarts to create a project. If you're unsure, start with [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md) or [Create a web app with Flask](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json).
-::: moniker-end
 
 - Follow the [Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) tutorial for a full end-to-end experience.
 
 ## Support for multiple interpreters
 
 Visual Studio's **Python Environments** window (shown below in a wide, expanded view) gives you a single place to manage all of your global Python environments, conda environments, and virtual environments. Visual Studio automatically detects installations of Python in standard locations, and allows you to configure custom installations. With each environment, you can easily manage packages, open an interactive window for that environment, and access environment folders.
-
 
 ::: moniker range="vs-2019"
 
@@ -97,10 +91,8 @@ For more information:
 
 ## Project system, and project and item templates
 
-::: moniker range=">=vs-2019"
 > [!Note]
 > Visual Studio 2019 supports opening a folder containing Python code and running that code without creating Visual Studio project and solution files. For more information, see [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md). There are, however, benefits to using a project file, as explained in this section.
-::: moniker-end
 
 ::: moniker range="vs-2022"
 > [!Note]

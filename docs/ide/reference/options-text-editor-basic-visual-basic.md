@@ -1,7 +1,6 @@
 ﻿---
 title: Options, Text Editor, Basic (VB), Advanced
 description: Learn how to use the Advanced page in the Basic section to change the default settings of the Analysis, Import Directives, and Highlighting properties.
-ms.custom: SEO-VS-2020
 ms.date: 05/20/2022
 ms.topic: reference
 f1_keywords:
@@ -108,12 +107,10 @@ When selected, vertical lines appear in the editor that line up with structured 
 
 ## Editor Help
 
-::: moniker range=">=vs-2019"
 **Inline Parameter Name Hints**
 When selected, inserts parameter name hints for literals, casted literals, and object instantiations prior to each argument in function calls.
 
 ![Inline Parameter Name Hints for Visual Basic](media/inline-parameter-name-hints-visualbasic.png)
-::: moniker-end
 
 **Pretty Listing (reformatting) of code**
 The text editor reformats your code as appropriate. When this option is selected, the code editor will:

@@ -1,8 +1,7 @@
 ---
 title: Set debug and release configurations | Microsoft Docs
 description: Set debug and release configurations in Visual Studio. You build the debug version for debugging and the release version for the final release distribution.
-ms.custom: SEO-VS-2020
-ms.date: 02/23/2022
+ms.date: 01/20/2023
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.builds
@@ -72,7 +71,6 @@ Each project type may have a different way of setting these options.
 
 ::: moniker range=">=vs-2022"
 ### Generate symbol files for a C# or ASP.NET Core project (.NET Core, .NET 5+ only)
-
 
 For detailed information on project settings for debug configurations in C#, see [Project settings for a C# debug configuration](../debugger/project-settings-for-csharp-debug-configurations.md). (For .NET projects in Visual Basic, symbol files are configured the same as in .NET Framework.)
 

@@ -1,7 +1,6 @@
 ---
 title: "Associate a web page with an Outlook folder"
 description:  Learn how you can associate a web page with Microsoft Office Outlook folder. This example checks for a folder named HtmlView in Outlook.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

@@ -33,6 +33,7 @@
       "overwrite": [],
       "externalReference": [],
       "globalMetadata": {
+         "uhfHeaderId": "MSDocsHeader-VisualStudio",
         "breadcrumb_path": "/visualstudio/gamedev/breadcrumb/toc.json",
         "extendBreadcrumb": true,
         "feedback_system": "GitHub",

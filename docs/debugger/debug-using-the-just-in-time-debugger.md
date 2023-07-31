@@ -1,8 +1,7 @@
 ---
 title: Debug using the Just-In-Time Debugger | Microsoft Docs
 description: Debug using the Just-In-Time Debugger in Visual Studio. Just-In-Time debugging can launch Visual Studio automatically when an app errors or crashes.
-ms.custom: SEO-VS-2020
-ms.date: 12/20/2021
+ms.date: 12/13/2022
 ms.topic: how-to
 helpviewer_keywords: 
   - debugging [Visual Studio], Just-In-Time
@@ -27,6 +26,7 @@ Just-In-Time debugging works for Windows desktop apps. It does not work for Univ
 
 ## <a name="BKMK_Enabling"></a> Enable or disable Just-In-Time debugging in Visual Studio
 
+
 >[!NOTE]
 >To enable or disable Just-In-Time debugging, you must be running Visual Studio as an administrator. Enabling or disabling Just-In-Time debugging sets a registry key, and administrator privileges may be required to change that key. To open Visual Studio as an administrator, right-click the Visual Studio app and choose **Run as administrator**.
 
@@ -37,6 +37,10 @@ You can configure Just-In-Time debugging from the Visual Studio **Tools** > **Op
 1. On the **Tools** or **Debug** menu, select **Options** > **Debugging** > **Just-In-Time**.
 
    ![Enable or disable JIT debugging](../debugger/media/dbg-jit-enable-or-disable.png "Enable or disable JIT debugging")
+
+
+>[!NOTE]
+>If the Just-In-Time menu option is not shown, make sure the Just-In-Time debugger is installed using the Visual Studio Installer.
 
 1. In the **Enable Just-In-Time debugging for these types of code** box, select the types of code you want Just-In-Time debugging to debug: **Managed**, **Native**, and/or **Script**.
 
@@ -52,7 +56,7 @@ Just-In-Time debugging may still be enabled even if Visual Studio is no longer i
 
 1. From the Windows **Start** menu, run the **Registry Editor** (*regedit.exe*).
 
-2. In the **Registry Editor** window for 64-bit computers, locate and delete the following registry entries:
+2. In the **Registry Editor** window, locate and delete the following registry entries if they exist:
 
     - **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\\.NETFramework\DbgManagedDebugger**
 
@@ -60,7 +64,7 @@ Just-In-Time debugging may still be enabled even if Visual Studio is no longer i
 
     :::image type="content" source="../debugger/media/dbg-jit-registry.png" alt-text="JIT registry key" border="true":::
 
-3. If the following registry entries are present, or your computer is running a 32-bit operating system, delete the following entries:
+3. Also delete the following registry entries if they exist:
 
     - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\DbgManagedDebugger**
 

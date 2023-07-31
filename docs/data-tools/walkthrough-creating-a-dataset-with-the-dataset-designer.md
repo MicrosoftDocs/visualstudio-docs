@@ -1,7 +1,6 @@
 ---
 title: Create a Dataset with the Dataset Designer
 description: In this walkthrough, create a dataset using the Dataset Designer. Understand the process of creating a new project and adding a new DataSet item to it.
-ms.custom: SEO-VS-2020
 ms.date: 09/11/2017
 ms.topic: conceptual
 helpviewer_keywords:
@@ -20,6 +19,8 @@ ms.workload:
 # Walkthrough: Create a Dataset with the Dataset Designer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 In this walkthrough you create a dataset using the **Dataset Designer**. The article takes you through the process of creating a new project and adding a new **DataSet** item to it. You'll learn how to create tables based on tables in a database without using a wizard.
 

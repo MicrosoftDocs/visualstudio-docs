@@ -1,7 +1,6 @@
 ---
 title: Using Different Web Browsers with Coded UI Tests
 description: Learn how to customize your test and play it back using different browsers for your web applications.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.author: mikejo
@@ -51,14 +50,9 @@ To play back tests on non-IE web browsers, you must install the **Selenium compo
 
 ### Install Selenium components
 
-
-::: moniker range=">=vs-2019"
-
 1. On the **Extensions** menu, choose **Manage Extensions**.
 
 2. In the **Manage Extensions** dialog box, search for `Selenium components for Cross Browser Testing`.
-
-::: moniker-end
 
 3. Highlight the extension and choose **Download**.
 

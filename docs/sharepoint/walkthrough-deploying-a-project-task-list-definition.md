@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Deploying a Project Task List Definition | Microsoft Docs"
 description: In this walkthrough, use Visual Studio to create, customize, debug, and deploy a SharePoint list to track project tasks.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

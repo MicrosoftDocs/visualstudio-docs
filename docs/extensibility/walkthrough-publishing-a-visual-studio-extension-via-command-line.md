@@ -1,15 +1,14 @@
 ---
 title: Publish extension using command line
 description: Learn how to use the command line to publish an extension to the Visual Studio Marketplace, which allows developers to browse for new and updated extensions.
-ms.custom: SEO-VS-2020
 ms.date: 07/12/2018
 ms.topic: how-to
 helpviewer_keywords:
 - publishing extensions
 - extension, publishing
 ms.assetid: 6ff9efc4-919d-4071-a80d-6dbdd2ceb2f8
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

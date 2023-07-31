@@ -11,4 +11,4 @@ ms.faqid: q5_3
 
 ## How do I get started?
 
-To learn how to set up your Azure credits, please see the \'Activation steps\' section of our [Azure credit article](https://docs.microsoft.com/visualstudio/subscriptions/vs-azure).
+To learn how to set up your Azure credits, please see the \'Activation steps\' section of our [Azure credit article](https://learn.microsoft.com/visualstudio/subscriptions/vs-azure).

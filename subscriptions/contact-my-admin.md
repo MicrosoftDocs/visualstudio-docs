@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 64455e79-229a-42f0-9d65-c2cca8ab8513
-ms.date: 07/08/2022
+ms.date: 04/24/2023
 ms.topic: how-to
 description: Learn how to contact your subscription admin for assistance with questions or issues. 
 ---
@@ -17,18 +17,17 @@ If your Visual Studio subscription is provided to you by your work or school, ch
 + Enabling access to software downloads
 + Other functions related to your subscription
 
-Many organizations are large and complex, so you may not be aware of who your admin is when you need help.  We provide a feature in the subscriber portal to assist you with contacting your admin(s).   
+Many organizations are large and complex, so you may not be aware of who your admin is.  We provide a feature in the subscriber portal to assist you with contacting your admin(s).   
 
 ## How to contact your admin
 
 1. Sign in to the subscriber portal at <https://my.visualstudio.com>
-2. Select the **Subscriptions** tab. 
-3. Select the **Contact my Admin** button at the top right. 
+2. Select the **Contact my Admin** button. 
    > [!div class="mx-imgBorder"]
-   > ![Contact my Admin](_img/contact-my-admin/contact-my-admin-button.png "Screenshot of the subscriptions page in the subscriber portal.  The Contact my admin button is highlighted.")
-4. Enter the message for your admin.
-5. If you'd like to receive a copy of the message sent to your admin, choose the **Send me a copy** checkbox. 
-6. Finally, select **Send**.
+   > ![Screenshot of the benefits page in the subscriber portal.  The Contact my admin button is highlighted.](_img/contact-my-admin/contact-my-admin-button.png "The Contact My Admin button allows you to contact your company's subscription admins.")
+0. Enter the message for your admin.
+0. If you'd like to receive a copy of the message sent to your admin, choose the **Send me a copy** checkbox. 
+0. Finally, select **Send**.
 
 > [!NOTE]
 > **Super admins:**  To set the email address to which "Contact my Admin" requests are sent, specify that address in the [Agreement Preferences](admin-preferences.md#contact-email-address).
@@ -40,7 +39,7 @@ Many organizations are large and complex, so you may not be aware of who your ad
 ## See also
 
 + [Visual Studio documentation](/visualstudio/)
-+ [Azure DevOps documentation](/azure/devops/)
++ [Azure DevOps Services documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
 

@@ -1,7 +1,6 @@
 ---
 title: Debug the OnStart Method | Microsoft Docs
 description: Learn how to debug the OnStart method of a Windows service in Visual Studio—by launching the debugger from inside the method. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

@@ -1,8 +1,7 @@
 ---
 title: Test-driven development walkthrough
 description: Learn how to develop a tested method in C# using Microsoft Test Framework, which you can easily adapt for other languages or test frameworks, such as NUnit.
-ms.custom: SEO-VS-2020
-ms.date: 07/24/2019
+ms.date: 10/17/2022
 ms.topic: conceptual
 ms.author: mikejo
 manager: jmartens
@@ -157,18 +156,10 @@ To improve our confidence that the code works in all cases, add tests that try a
 
     ```csharp
     [TestMethod]
-    public void RooterTestNegativeInputx()
+    public void RooterTestNegativeInput()
     {
         Rooter rooter = new Rooter();
-        try
-        {
-            rooter.SquareRoot(-10);
-        }
-        catch (System.ArgumentOutOfRangeException)
-        {
-            return;
-        }
-        Assert.Fail();
+        Assert.ThrowsException<ArgumentOutOfRangeException>(() => rooter.SquareRoot(-1));
     }
     ```
 

@@ -1,7 +1,6 @@
 ---
 title: "Create SharePoint Solutions | Microsoft Docs"
 description: Create SharePoint applications in Visual Studio as an alternative to creating them in SharePoint Designer.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 dev_langs:

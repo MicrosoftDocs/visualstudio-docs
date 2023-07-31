@@ -1,7 +1,6 @@
 ---
 title: MSBuild Transforms | Microsoft Docs
 description: Learn about how MSBuild uses transforms, one-to-one conversions of one item list to another, to build projects more efficiently.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:

@@ -11,6 +11,6 @@ ms.faqid: q2_4
 
 ## Where can I find older versions of Visual Studio? 
 
-If you're looking for previous releases of Visual Studio 2019 specifically, you can find download links to the releases as well as instructions in the [Visual Studio 2019 Releases](https://docs.microsoft.com/visualstudio/releases/2019/history?branch=updates%2Fhistory) article.
+If you're looking for previous releases of Visual Studio 2019 specifically, you can find download links to the releases as well as instructions in the [Visual Studio 2019 Releases](https://learn.microsoft.com/visualstudio/releases/2019/history?branch=updates%2Fhistory) article.
 
 If you need earlier versions of Visual Studio, such as Visual Studio 2017, see [Visual Studio Older Downloads](https://visualstudio.microsoft.com/vs/older-downloads/).

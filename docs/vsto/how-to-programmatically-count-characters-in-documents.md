@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically count characters in documents"
 description: Learn how you can determine the number of characters in a document by using the Count property of the Characters collection.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

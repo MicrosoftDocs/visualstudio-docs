@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Program against events of a NamedRange control"
 description: Learn how you can add a NamedRange control to a Microsoft Excel worksheet and program against its events by using Office development tools in Visual Studio.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

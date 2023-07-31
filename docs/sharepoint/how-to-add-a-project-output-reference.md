@@ -1,7 +1,6 @@
 ---
 title: "How to: Add a Project Output Reference | Microsoft Docs"
 description: Learn to add a project output reference so that you can deploy non-SharePoint project assemblies (or .xap files in Silverlight projects) to SharePoint.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

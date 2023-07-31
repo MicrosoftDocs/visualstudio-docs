@@ -1,7 +1,6 @@
 ---
 title: Touch Task | Microsoft Docs
 description: Learn about parameters and usage of the MSBuild Touch task, which sets the access and modification times of files.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

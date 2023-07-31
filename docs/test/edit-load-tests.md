@@ -1,7 +1,6 @@
 ---
 title: Editing Load Tests
 description: Learn about the differences between scenarios, counter sets, and run settings, which define load tests.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

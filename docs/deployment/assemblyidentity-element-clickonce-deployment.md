@@ -1,7 +1,6 @@
 ---
 title: "&lt;assemblyIdentity&gt; Element (ClickOnce Deployment) | Microsoft Docs"
 description: The assemblyIdentity element is required in ClickOnce deployment. It contains no child elements and has attributes described in this article.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:

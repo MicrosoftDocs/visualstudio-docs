@@ -1,7 +1,6 @@
 ---
 title: Options, Windows Forms Designer, General
 description: Learn how to use the General page to set preferences for the grids and other features of the Windows Forms Designer in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 07/07/2022
 ms.topic: reference
 f1_keywords:
@@ -40,7 +39,7 @@ Enables optimized code generation. Some controls may not be compatible with this
 ## High-DPI Support
 
 **DPI Scaling Notifications**\
-Show a message in Windows Form Designer that can restart Visual Studio with 100% scaling. For more information, see [Disable DPI-awareness in Visual Studio](/dotnet/framework/winforms/disable-dpi-awareness-visual-studio).
+Show a message in Windows Form Designer that can restart Visual Studio with 100% scaling. 
 
 ## Layout Settings
 

@@ -1,7 +1,6 @@
 ---
 title: "Accessibility in Office projects"
 description: Learn how Microsoft Office projects include many accessibility features that enable you to build custom solutions that meet standard accessibility requirements.
-ms.custom: SEO-VS-2020
 ms.date: 02/02/2017
 ms.topic: conceptual
 dev_langs:

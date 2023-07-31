@@ -2,7 +2,7 @@
 title: Using Visual Studio on an Azure Virtual Machine
 titleSuffix: ''
 description: Learn how to use Visual Studio on an Azure Virtual Machine
-ms.date: 07/23/2022
+ms.date: 07/26/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - azure services
@@ -32,7 +32,9 @@ Images for the most recent major versions, Visual Studio 2022, Visual Studio 201
 | Release version                                                                                                                                                | Editions              | Product version       |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|-----------------------|
 | [Visual Studio 2022](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2022?tab=Overview) | Enterprise, Community | Version 17.2        |
+| [Visual Studio 2022 (Microsoft Dev Box compatible)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudioplustools?exp=ubp8&tab=Overview) | Enterprise, Professional | Version 17.5        |
 | [Visual Studio 2019: Latest (Version 16.11)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2019latest?tab=Overview) | Enterprise, Community | Version 16.11        |
+| [Visual Studio 2019 (Microsoft Dev Box compatible)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio2019plustools?exp=ubp8&tab=Overview) | Enterprise, Professional | Version 16.11        |
 | [Visual Studio 2017: Latest (Version 15.9)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio?tab=Overview)           | Enterprise, Community | Version 15.9      |
 | [Visual Studio 2015: Latest (Update 3)](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudio?tab=Overview)               | Enterprise, Community | Version 14.0.25431.01 |
 
@@ -45,7 +47,7 @@ For more information, see the [Visual Studio Servicing Policy](/visualstudio/pro
 
 Each image contains the recommended feature set for that Visual Studio edition. Generally, the installation includes:
 
-* All available workloads, including each workload’s recommended optional components
+* All available workloads, including each workload’s recommended optional components. [Learn more about workloads, components, and SDKs included Visual Studio](workload-and-component-ids.md).
 * .NET 4.6.2, .NET 4.7, and .NET 4.8 SDKs, Targeting Packs, and Developer Tools
 * Visual F#
 * GitHub Extension for Visual Studio

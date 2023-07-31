@@ -1,7 +1,6 @@
 ---
 title: Validate code with dependency diagrams
 description: Learn that to make sure that code doesn't conflict with its design, you should validate your code with dependency diagrams in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 09/28/2018
 ms.topic: conceptual
 helpviewer_keywords:
@@ -237,4 +236,4 @@ The following section describes the syntax that is used in these errors, explain
 
 - [Live dependency validation in Visual Studio](https://devblogs.microsoft.com/devops/live-dependency-validation-in-visual-studio-2017/)
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)
-- [Video: Validate your architecture dependencies in real time](https://sec.ch9.ms/sessions/69613110-c334-4f25-bb36-08e5a93456b5/170ValidateArchitectureDependenciesWithVisualStudio.mp4)
+- [Video: Validate your architecture dependencies in real time](/events/visual-studio-visual-studio-2017-launch/t123)

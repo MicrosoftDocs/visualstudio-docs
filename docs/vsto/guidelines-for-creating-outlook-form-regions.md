@@ -1,7 +1,6 @@
 ---
 title: "Guidelines for creating Outlook form regions"
 description: Learn about the guidelines for creating Outlook form regions that can help you optimize your form regions and avoid potential problems.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

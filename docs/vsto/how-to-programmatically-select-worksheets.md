@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically select worksheets"
 description: Use Visual Studio to programmatically select Microsoft Excel worksheets with the worksheet host item or the sheets collection of the Excel workbook.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

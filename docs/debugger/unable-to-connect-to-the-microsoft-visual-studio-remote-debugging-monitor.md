@@ -69,7 +69,7 @@ If these values are correct and the message mentions **Windows Authentication** 
 
 ## <a name="connection_terminated"></a> Connection with the remote endpoint was terminated
 
-If you are debugging an Azure App Service app, try following instructions in [Remote debug ASP.NET Core on Azure](/learn/modules/dotnet-debug-visual-studio-azure-web-apps/) to connect to Azure App Service.
+If you are debugging an Azure App Service app, try following instructions in [Remote debug ASP.NET Core on Azure](../debugger/remote-debugging-azure-app-service.md) to connect to Azure App Service.
 
 If you are using **Attach to Process** to debug:
 

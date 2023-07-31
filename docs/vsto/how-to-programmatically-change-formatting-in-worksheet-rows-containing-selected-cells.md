@@ -1,7 +1,6 @@
 ---
 title: "Change formats in rows containing selected cells through code"
 description:  Learn how you can change the font of an entire row that contains a selected cell so that the text is bold.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

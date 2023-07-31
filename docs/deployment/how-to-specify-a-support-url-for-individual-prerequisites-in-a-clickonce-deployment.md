@@ -1,7 +1,6 @@
 ---
 title: Support URL for prerequisites in ClickOnce deployment
 description: Learn how a ClickOnce deployment tests for prerequisites for the ClickOnce application to run and how the deployment deals with missing prerequisites.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 

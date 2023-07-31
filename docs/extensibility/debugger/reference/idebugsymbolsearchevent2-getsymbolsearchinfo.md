@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugSymbolSearchEvent2::GetSymbolSearchInfo
 ms.assetid: ae9eb72b-f2aa-43b8-87ca-da19d2e78d17
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

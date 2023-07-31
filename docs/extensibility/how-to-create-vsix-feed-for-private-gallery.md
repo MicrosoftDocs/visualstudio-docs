@@ -22,7 +22,6 @@ You can use the Visual Studio VSSDK command line utility tool to create an ATOM 
 VsixUtil  createVsixFeed 
 ```
 
-
 ## Syntax
 
 ```csharp

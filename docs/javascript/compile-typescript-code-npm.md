@@ -1,7 +1,7 @@
 ---
 title: Compile and build TypeScript code using npm
 description: Learn how to add TypeScript support to your Visual Studio projects by using the Node Package Manager (npm).
-ms.date: 01/10/2022
+ms.date: 05/26/2023
 ms.topic: conceptual
 ms.custom: devdivchpfy22
 author: "mikejo5000"
@@ -19,7 +19,7 @@ ms.workload:
 
 You can add TypeScript support to your projects using the TypeScript SDK or by using npm. The TypeScript SDK is available by default in the Visual Studio installer.
 
-For projects developed in Visual Studio 2019, we encourage you to use the TypeScript npm package for greater portability across different platforms and environments.
+We encourage you to use the TypeScript npm package for greater portability across different platforms and environments.
 
 For ASP.NET Core projects, it's recommended that you use the [NuGet package](../javascript/compile-typescript-code-nuget.md) instead.
 
@@ -40,6 +40,8 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
    Check the **npm** option in the **Output** window to see package installation progress. The installed package shows up under the **npm** node in Solution Explorer.
 
 1. If your project doesn't already include it, add a *tsconfig.json* file to your project root. To add the file, right-click the project node and choose **Add > New Item**. Choose the **TypeScript JSON Configuration File**, and then click **Add**.
+
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
 
    Visual Studio adds the *tsconfig.json* file to the project root. You can use this file to [configure options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for the TypeScript compiler.
 
@@ -98,7 +100,9 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
    For an example of using webpack with React and a webpack configuration file, see [Create a web app with Node.js and React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
 
+   ::: moniker range="vs-2019"
    For an example of using Vue.js with TypeScript, see [Create a Vue.js application](create-application-with-vuejs.md).
+   ::: moniker-end
 
 1. If you need to configure options such as the startup page, path to the Node.js runtime, application port, or runtime arguments, right-click the project node in Solution Explorer, and choose **Properties**.
 
@@ -115,7 +119,7 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 
 ### Run the application
 
-For instructions to run the app after you compile it, see [Create a Node.js and Express app](./tutorial-nodejs.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json#run-the-app).
+For instructions to run the app after you compile it, see [Create a Node.js and Express app](../javascript/tutorial-nodejs.md#start-your-app).
 
 ## Automate build tasks
 

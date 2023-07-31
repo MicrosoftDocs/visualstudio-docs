@@ -1,7 +1,6 @@
 ---
 title: Use Edit and Continue (C#) | Microsoft Docs
 description: Use Edit and Continue to make and apply changes to your code in break mode while debugging, without stopping and restarting the debug session in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 10/04/2018
 ms.topic: how-to
 dev_langs: 

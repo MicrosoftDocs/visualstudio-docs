@@ -2,7 +2,7 @@
 title: "Tutorial: Create a simple Visual Basic (VB) console app"
 description: "In this tutorial, you learn how to create a Visual Basic console application in Visual Studio."
 ms.custom: "vs-acquisition, get-started"
-ms.date: 02/09/2022
+ms.date: 02/24/2023
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: tutorial
@@ -20,9 +20,6 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-
-::: moniker range=">=vs-2019"
-
 This article shows how you'll use Visual Studio to create a simple Visual Basic application, a *console app*. In this app, you ask the user for their name, and then display it back with the current time. You'll also explore some features of the [Visual Studio integrated development environment (IDE)](visual-studio-ide.md), including [source control in Git](/visualstudio/version-control). Visual Basic is a type-safe programming language that's designed to be easy to learn. A console app takes input and displays output in a command-line window, also known as a console.
 
 In this tutorial, you learn how to:
@@ -35,16 +32,9 @@ In this tutorial, you learn how to:
 > - Add Git source control
 > - Clean up resources
 
-::: moniker-end
-
 ## Prerequisites
 
-
-::: moniker range=">=vs-2019"
-
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
-
-::: moniker-end
 
 ## Create a project
 
@@ -56,7 +46,6 @@ First, you'll create a Visual Basic app project. The default project template in
 > Some of the screenshots in this tutorial use the dark theme. If you aren't using the dark theme but would like to, see the [Personalize the Visual Studio IDE and Editor](../../ide/quickstart-personalize-the-ide.md) page to learn how.
 
 ::: moniker-end
-
 
 ::: moniker range="vs-2019"
 
@@ -140,7 +129,6 @@ There are two ways to run this code, inside Visual Studio in *debug mode*, and f
 
 ### Run the app in debug mode
 
-
 ::: moniker range="vs-2019"
 
    :::image type="content" source="media/vs-2019/vb-ide-default-code.png" alt-text="Screenshot showing the default 'Hello World!' code.":::
@@ -165,14 +153,13 @@ There are two ways to run this code, inside Visual Studio in *debug mode*, and f
 
 1. When the app runs in the Microsoft Visual Studio Debug Console, "Hello World!" displays. Press any key to close the debug console window and end the app:
 
-    :::image type="content" source="media/vs-2022/vb-console-hello-world-press-any-key.png" alt-text="Screenshot showing 'Hello World!' and the 'Press any key to close this window' messages.":::
+    :::image type="content" source="media/vs-2022/vb-console-window-hello-world.png" alt-text="Screenshot showing 'Hello World!' and the 'Press any key to close this window' messages.":::
 
 ::: moniker-end
 
 ### Run the app as a standalone
 
 To see the output outside of Visual Studio, in a system console window, build and run the executable (.exe file). 
-
 
 ::: moniker range="vs-2019"
 
@@ -192,7 +179,7 @@ To see the output outside of Visual Studio, in a system console window, build an
 
 1. In **Solution Explorer**, right-click on **WhatIsYourName** and choose **Open File in File Explorer**.
 
-1. In **File Explorer**, navigate to the **bin\Debug\core6.0** directory and run **WhatIsYourName.exe**.
+1. In **File Explorer**, navigate to the **bin\Debug\net6.0** directory and run **WhatIsYourName.exe**.
 
 1. The `Main` procedure terminates after its single statement executes and the console window closes immediately. To keep the console visible until the user presses a key, see the next section.
 
@@ -201,7 +188,6 @@ To see the output outside of Visual Studio, in a system console window, build an
 ## Add code to ask for user input
 
 Next, you'll add Visual Basic code that prompts you for your name and then displays it along with the current date and time. In addition, you'll add code that pauses the console window until the user presses a key.
-
 
 ::: moniker range="vs-2019"
 
@@ -253,11 +239,11 @@ Next, you'll add Visual Basic code that prompts you for your name and then displ
 
    :::image type="content" source="media/vs-2022/vb-code-window-whatisyourname-dark.png" alt-text="Screenshot showing the code for the 'Program.vb' file in the 'WhatIsYourName' project loaded in the Visual Basic code editor.":::
 
-1. Select the **WhatIsYourName** button or press **F5** to build and run your first app in Debug mode.
+1. Select the **WhatIsYourName** button or press **F5** to build and run your app in Debug mode.
 
 1. When the debug console window opens, enter your name. Your console window should look similar to the following screenshot:
 
-   :::image type="content" source="media/vs-2022/vb-console-enter-your-name.png" alt-text="Screenshot showing the debug console window with 'Please enter your name', the date and time, and 'Press any key to continue' messages.":::
+   :::image type="content" source="media/vs-2022/vb-console-user-input-enter-your-name.png" alt-text="Screenshot showing the debug console window with 'Please enter your name', the date and time, and 'Press any key to continue' messages.":::
 
 1. Press any key to end the app, and then press any key to close the debug console window.
 

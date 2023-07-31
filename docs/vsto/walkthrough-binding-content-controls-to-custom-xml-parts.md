@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Bind content controls to custom XML parts"
 description: Learn how to bind content controls in a document-level customization for Word to XML data that is stored in the document.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

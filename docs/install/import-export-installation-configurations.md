@@ -2,7 +2,7 @@
 title: Import or export installation configurations
 titleSuffix: ''
 description: Learn how to export your installation configuration to a .vsconfig file to share with others, and how to import it to clone.
-ms.date: 04/28/2022
+ms.date: 7/28/2023
 ms.topic: how-to
 helpviewer_keywords:
 - import installation configuration
@@ -21,10 +21,7 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can configure Visual Studio across your organization with installation configuration files. To do so, export the workload and component information to a .vsconfig file by using the Visual Studio installer. You can then import the configuration into new or existing installations, and share them with others, too.
-
-Here's how.
-
+You can use installation configuration files to configure Visual Studio. To do so, export the workloads and components information to a *.vsconfig* file by using the Visual Studio Installer. You can then import the configuration into new or existing installations, use them to create or modify a layout or an offline installation, and share them with others.
 
 ## Export a configuration
 
@@ -60,11 +57,30 @@ When you're ready to import an installation configuration file, follow these ste
 
 1. Make sure you've got the workloads and components that you want, and then choose **Close**.
 
-::: moniker range=">=vs-2019"
+## Use a configuration file to add components to an existing installation
+ 
+Use `--config` to modify an existing installation to add or remove components. This example uses the installer already on the client machine.
+
+```shell
+"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --installPath "C:\VS" --config "C:\myconfig.vsconfig"
+```
+
+> [!NOTE]
+> To add or remove components to an existing installation by using a config file (*.vsconfig), you'll need to **modify** your installed product and not update. **Update** just updates the components to the latest version; it doesn't add or remove new ones.
+
+When you install Visual Studio programmatically or by using a command prompt, you can use various command-line parameters to control or customize the installation. To learn more, see [Install Visual Studio from the command line](use-command-line-parameters-to-install-visual-studio.md).
+
+## Use a configuration file to initialize the contents of a layout
+
+Using the correct bootstrapper that corresponds to the version and edition of Visual Studio that you want, open an administrator command prompt and run the following command to use `-config` to configure the contents of a layout:
+
+```shell
+vs_enterprise.exe --layout c:\localVSlayout --config c:\myconfig.vsconfig --lang en-US 
+```
 
 ## Automatically install missing components
 
-**New in Visual Studio 2019**: Save a .vsconfig file to your solution root directory and then open a solution. Visual Studio automatically detects the missing components and prompts you to install them.
+Save a .vsconfig file to your solution root directory and then open a solution. Visual Studio automatically detects the missing components and prompts you to install them.
 
 ![Solution Explorer suggests additional components](../install/media/vs-2019/solution-explorer-config-file.png)
 
@@ -78,8 +94,6 @@ You can also generate a .vsconfig file right from Solution Explorer.
 
 1. Make sure you've got the workloads and components that you want, and then choose **Export**.
 
-   ::: moniker-end
-
 > [!NOTE]
 > For more information, see the [Configure Visual Studio across your organization with .vsconfig](https://devblogs.microsoft.com/setup/configure-visual-studio-across-your-organization-with-vsconfig/) blog post.
 
@@ -90,4 +104,4 @@ You can also generate a .vsconfig file right from Solution Explorer.
 * [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Update a networked-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
 * [Control updates to Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
-* [Set defaults for enterprise deployments](set-defaults-for-enterprise-deployments.md)
+* [Configure policies for enterprise deployments](configure-policies-for-enterprise-deployments.md)

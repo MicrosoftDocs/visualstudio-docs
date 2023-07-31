@@ -1,7 +1,6 @@
 ---
 title: Create parameterized TableAdapter queries
 description: Understand how to create parameterized TableAdapter queries. A parameterized query returns data that meets the conditions of a WHERE clause within the query.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -25,6 +24,8 @@ ms.workload:
 # Create parameterized TableAdapter queries
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 A parameterized query returns data that meets the conditions of a WHERE clause within the query. For example, you can parameterize a customer list to display only customers in a certain city by adding `WHERE City = @City` to the end of the SQL statement that returns a list of customers.
 

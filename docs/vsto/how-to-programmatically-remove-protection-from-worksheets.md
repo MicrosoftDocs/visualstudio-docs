@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically remove protection from worksheets"
 description: Learn how you can use Visual Studio to programmatically remove protection from a Microsoft Excel worksheet.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

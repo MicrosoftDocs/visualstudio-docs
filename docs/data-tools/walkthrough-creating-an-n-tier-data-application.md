@@ -1,7 +1,6 @@
 ---
 title: 'Walkthrough: Creating an N-tier Data Application'
 description: In this walkthrough, create an N-tier data application. N-tier data applications are apps that access data and are separated into many logical layers, or tiers.
-ms.custom: SEO-VS-2020
 ms.date: 11/22/2021
 ms.topic: conceptual
 dev_langs:
@@ -21,6 +20,8 @@ ms.workload:
 # Walkthrough: Create an n-tier data application
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 *N-tier* data applications are applications that access data and are separated into multiple logical layers, or *tiers*. Separating application components into discrete tiers increases the maintainability and scalability of the application. It does this by enabling easier adoption of new technologies that can be applied to a single tier without requiring you to redesign the whole solution. N-tier architecture includes a presentation tier, a middle-tier, and a data tier. The middle tier typically includes a data access layer, a business logic layer, and shared components such as authentication and validation. The data tier includes a relational database. N-tier applications usually store sensitive information in the data access layer of the middle-tier to maintain isolation from end users who access the presentation tier. For more information, see [N-tier data applications overview](../data-tools/n-tier-data-applications-overview.md).
 

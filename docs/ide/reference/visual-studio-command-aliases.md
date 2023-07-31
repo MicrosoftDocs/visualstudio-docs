@@ -1,7 +1,6 @@
 ---
 title: Command Aliases
 description: Learn how to use command aliases to type fewer characters when you want to execute a command.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

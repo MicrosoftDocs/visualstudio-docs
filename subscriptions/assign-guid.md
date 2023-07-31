@@ -3,7 +3,7 @@ title: Assign specific GUIDs to Visual Studio subscribers | Microsoft Docs
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.date: 07/08/2022
+ms.date: 03/24/2023
 ms.topic: conceptual
 ms.assetid: f9c82d7d-55bd-4e41-a170-6077b28ba5af
 description:  Learn how admins can  assign specific subscription GUID to subscribers
@@ -11,7 +11,7 @@ description:  Learn how admins can  assign specific subscription GUID to subscri
 
 # Assign specific subscriptions in the Visual Studio Subscriptions Administration Portal
 
-Admins can now use the Visual Studio Subscriptions Administration Portal to assign specific subscriptions to individual subscribers.  This can be useful in situations where the organization has temporary staff or vendors that need access to a subscription for a short period.  Admins can assign a subscription that has already been partially used, leaving their new subscriptions for longer term use.  
+Admins can now use the Visual Studio Subscriptions Administration Portal to assign specific subscriptions to individual subscribers.  These assignments can be useful in situations where the organization has temporary staff or vendors that need access to a subscription for a short period.  Admins can assign a subscription that has already been partially used, leaving their new subscriptions for longer term use.  
 
 Watch the video or read on to learn how to assign specific subscriptions GUIDs to users. 
 
@@ -30,16 +30,16 @@ Assigning specific subscriptions to individuals uses two existing admin processe
 
 To perform the export:
 1. Sign in to the [Administration Portal](https://manage.visualstudio.com).
-2. Select the **Export** tab. and the file will download to your local machine. The file will include the name of the agreement that contains your user subscriptions, and the date of the export.
+2. Select the **Export** tab. A file downloads to your local machine. The file includes the name of the agreement that contains your user subscriptions, and the date of the export.
 > [!div class="mx-imgBorder"]
 > ![Export subscribers](_img/exporting-subscriptions/exporting-subscriptions.png "Screenshot of the manage portal.  The Export menu is highlighted.")
 
 ### Identify the GUIDs you want to assign
 
-If you've used the Export tool before, you'll notice there are new fields in the spreadsheet.  This information will help you decide which ones you want to assign to users.  
+If you've used the Export tool before, notice there are new fields in the spreadsheet.  This information helps you decide which ones you want to assign to users.  
 
-+ **Subscription Status**: This field will indicate either "assigned" or "unassigned".  If a subscription has a status of "assigned", it'll also have user information associated with it, such as name, email, etc. 
-+ **Usage Status**: The usage status will indicate either "new", meaning it has never been assigned to a user, or "used" which indicates it has been assigned to a user at some point.  
++ **Subscription Status**: This field indicates either "assigned" or "unassigned".  If a subscription has a status of "assigned", it also has user information associated with it, such as name, email, etc. 
++ **Usage Status**: The usage status indicates either "new", meaning it has never been assigned to a user, or "used" which indicates it has been assigned to a user at some point.  
 
 You can use the values in these fields along with other information in the spreadsheet to determine which subscriptions you want to assign to individual users. You can apply a filter in Excel to help narrow the list by status, subscription level, expiration date, etc. 
 
@@ -60,7 +60,7 @@ The final step is to download the **Bulk add** template, fill out the required i
 
 ### Q: How do I change which subscription is currently assigned to an individual user?
 
-A: If you want to change which GUID is assigned to a user, you must first delete the subscription for that user.  For more information, see our [Delete subscriptions](delete-license.md) article.  After deleting the subscription for that user, use the process outlined above to export the list and upload the new subscription information.  
+A: If you want to change which GUID is assigned to a user, you must first delete the subscription for that user.  For more information, see our [Delete subscriptions](delete-license.md) article.  After deleting the subscription for that user, use the process outlined in this article to export the list and upload the new subscription information.  
 
 ## Resources
 
@@ -69,7 +69,7 @@ A: If you want to change which GUID is assigned to a user, you must first delete
 ## See also
 
 + [Visual Studio documentation](/visualstudio/)
-+ [Azure DevOps documentation](/azure/devops/)
++ [Azure DevOps Services documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
 

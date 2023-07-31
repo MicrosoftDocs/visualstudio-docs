@@ -1,7 +1,6 @@
 ---
 title: Simple data app with WPF and Entity Framework 6
 description: In this walkthrough, see how to create a simple forms-over-data app in Visual Studio with Windows Presentation Foundation (WPF) and Entity Framework 6.
-ms.custom: SEO-VS-2020
 ms.date: 07/19/2022
 ms.topic: conceptual
 dev_langs:

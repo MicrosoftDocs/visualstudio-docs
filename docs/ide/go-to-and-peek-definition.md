@@ -1,7 +1,6 @@
 ---
 title: Viewing type definitions
 description: Learn about the Go To Definition and Peek Definition features that enable you to easily view the definition of a type or member.
-ms.custom: SEO-VS-2020
 ms.date: 01/10/2018
 ms.topic: conceptual
 helpviewer_keywords:

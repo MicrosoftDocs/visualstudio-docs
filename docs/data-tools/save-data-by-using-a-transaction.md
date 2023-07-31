@@ -1,7 +1,6 @@
 ---
 title: 'How to: Save data by using a transaction'
 description: Review how to save data by using a transaction with DataSet tools in Visual Studio. You save data in a transaction by using the System.Transactions namespace.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -23,6 +22,8 @@ ms.workload:
 # How to: Save data by using a transaction
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 You save data in a transaction by using the <xref:System.Transactions> namespace. Use the <xref:System.Transactions.TransactionScope> object to participate in a transaction that is automatically managed for you.
 

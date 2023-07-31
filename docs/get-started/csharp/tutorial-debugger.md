@@ -2,7 +2,7 @@
 title: "Tutorial: Debug C# code"
 description: Learn features of the Visual Studio debugger and how to start the debugger, step through code, and inspect data in a C# application.
 ms.custom: "debug-experiment, vs-acquisition, get-started"
-ms.date: 11/29/2021
+ms.date: 12/13/2022
 ms.technology: "vs-ide-debug"
 ms.topic: tutorial
 dev_langs:
@@ -46,13 +46,7 @@ You must have Visual Studio 2019 installed and the **.NET Core cross-platform de
 
 ::: moniker-end
 
-
-
-::: moniker range=">=vs-2019"
-
 If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
-
-::: moniker-end
 
 ::: moniker range="<=vs-2019"
 
@@ -69,7 +63,6 @@ If you already have Visual Studio but the **.NET desktop development** workload 
 ## Create a project
 
 First, you'll create a .NET Core console application project. The project type comes with all the template files you'll need, before you've even added anything!
-
 
 ::: moniker range="vs-2019"
 
@@ -98,9 +91,7 @@ First, you'll create a .NET Core console application project. The project type c
 
 ::: moniker range=">=vs-2022"
 
-1. Open Visual Studio.
-
-   If the start window isn't open, choose **File** > **Start Window**.
+1. Open Visual Studio.  If the start window isn't open, choose **File** > **Start Window**.
 
 1. On the start window, choose **Create a new project**.
 

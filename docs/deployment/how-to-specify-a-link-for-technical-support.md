@@ -1,7 +1,6 @@
 ---
 title: Specify a Link for Technical Support | Microsoft Docs
 description: Learn about the Support URL property for publishing a ClickOnce application, which identifies a Web page or file share where users get information.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -36,6 +35,8 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
 2. Click the **Publish** tab.
+
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 3. Click the **Options** button to open the **Publish Options** dialog box.
 

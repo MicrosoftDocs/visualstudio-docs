@@ -1,7 +1,6 @@
 ---
 title: Manage external tools
 description: Learn how to add and manage new external tools that you can access through the Tools menu. 
-ms.custom: SEO-VS-2020
 ms.date: 11/20/2017
 ms.topic: conceptual
 f1_keywords:
@@ -25,14 +24,9 @@ You can call external tools from inside Visual Studio by using the **Tools** men
 
 The **Tools** menu contains several built-in commands, including:
 
-
-::: moniker range=">=vs-2019"
-
 * **Code Snippets Manager** to [Organize Code Snippets](code-snippets.md)
 * **Customize** to [Customize menus and toolbars](how-to-customize-menus-and-toolbars-in-visual-studio.md)
 * **Options** to [Set a variety of different options for the Visual Studio IDE and other tools](reference/options-dialog-box-visual-studio.md)
-
-::: moniker-end
 
 ## Add new tools to the Tools menu
 

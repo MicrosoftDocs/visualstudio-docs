@@ -1,8 +1,8 @@
 ---
 title: "Remote debugging"
 description: Debug a Visual Studio application that has been deployed on a different computer by using the Visual Studio remote debugger.
-ms.custom: ['remotedebugging', 'SEO-VS-2020']
-ms.date: 06/22/2022
+ms.custom: remotedebugging
+ms.date: 12/20/2022
 ms.topic: conceptual
 f1_keywords:
   - "vs.debug.remote.overview"
@@ -32,7 +32,7 @@ For in-depth instructions on remote debugging, see these topics.
 
 |Scenario|Link|
 |-|-|-|
-|Azure App Service|[Remote debug ASP.NET Core on Azure](/learn/modules/dotnet-debug-visual-studio-azure-web-apps/) or, for Visual Studio Enterprise, the [Snapshot Debugger](../debugger/debug-live-azure-applications.md)|
+|Azure App Service|[Remote debug ASP.NET Core on Azure](../debugger/remote-debugging-azure-app-service.md) or, for Visual Studio Enterprise, the [Snapshot Debugger](../debugger/debug-live-azure-applications.md)|
 |Azure VM|[Remote debug ASP.NET on an Azure VM](../debugger/remote-debugging-azure.md)|
 |Azure Service Fabric|[Debug an Azure Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application)|
 |ASP.NET|[Remote debug ASP.NET Core](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) or [Remote Debug ASP.NET](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
@@ -70,7 +70,6 @@ You can find the remote debugger (*msvsmon.exe*) on a computer with Visual Studi
    *Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Remote Debugger\x86\msvsmon.exe*
 
    ::: moniker-end
-
 
 2. Share the **Remote Debugger** folder on the Visual Studio computer.
 

@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Complex data binding in VSTO Add-in project"
 description: Learn how to add controls to a Microsoft Excel worksheet and bind the controls to data at run time.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

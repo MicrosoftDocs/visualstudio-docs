@@ -16,5 +16,5 @@ The software downloads available depends on the subscription(s) you have. If you
 
 Check out this [list of the downloads available by subscription level](https://download.microsoft.com/download/1/5/4/15454442-CF17-47B9-A65D-DF84EF88511B/Visual_Studio_by_Subscription_Level.xlsx). For more information about downloads, see the following articles:
 
-- [Product availability](https://docs.microsoft.com/visualstudio/subscriptions/product-availability)
-- [Download software](https://docs.microsoft.com/visualstudio/subscriptions/download-software)
+- [Product availability](https://learn.microsoft.com/visualstudio/subscriptions/product-availability)
+- [Download software](https://learn.microsoft.com/visualstudio/subscriptions/download-software)

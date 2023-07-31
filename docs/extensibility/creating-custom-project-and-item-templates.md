@@ -1,12 +1,12 @@
 ---
 title: Creating Custom Project and Item Templates | Microsoft Docs
 description: Learn how template creation templates in the Visual Studio SDK let you include templates in larger extensions.
-ms.custom: SEO-VS-2020
+ms.custom: UpdateFrequency3
 ms.date: 3/16/2019
 ms.topic: overview
 ms.assetid: 586da5dc-f678-402b-afd0-0332959fd7a6
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

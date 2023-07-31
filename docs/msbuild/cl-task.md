@@ -1,7 +1,6 @@
 ---
 title: CL Task | Microsoft Docs
 description: Describes the purpose and parameters of the MSBuild CL task, which wraps the Microsoft C++ compiler tool, cl.exe.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -167,7 +166,13 @@ Wraps the Microsoft C++ compiler tool, *cl.exe*. The compiler produces executabl
 
   - **CompileAsCpp** - **/TP**
 
-    For more information, see [/Tc, /Tp, /TC, /TP (Specify source file type)](/cpp/build/reference/tc-tp-tc-tp-specify-source-file-type).
+  - **CompileAsCppModule** - **/interface**
+
+  - **CompileAsCppModuleInternalPartition** - **/internalPartition**
+
+  - **CompileAsHeaderUnit** - **/exportHeader**
+
+    For more information, see [/Tc, /Tp, /TC, /TP (Specify source file type)](/cpp/build/reference/tc-tp-tc-tp-specify-source-file-type), [/interface (Treat the input file as a module interface unit)](/cpp/build/reference/interface), [/internalPartition (Treat the input file as an internal partition unit)](/cpp/build/reference/internal-partition) and [/exportHeader (Create header units)](/cpp/build/reference/module-exportheader).
 
 - **CompileAsManaged**
 

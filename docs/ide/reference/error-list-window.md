@@ -1,7 +1,6 @@
 ---
 title: Error List Window
 description: Learn about the Error List window and how to use it to perform tasks related to resolving the errors it displays.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

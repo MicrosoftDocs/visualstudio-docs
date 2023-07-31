@@ -1,7 +1,6 @@
 ---
 title: Specify Start menu name for a ClickOnce app
 description: Learn how to change the display name for your ClickOnce application by setting Product name in the Publish Options dialog box.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -38,6 +37,8 @@ When a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applica
 1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
 
 2. Click the **Publish** tab.
+
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
 3. Click the **Options** button to open the **Publish Options** dialog box.
 

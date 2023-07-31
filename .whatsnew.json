@@ -7,9 +7,6 @@
         "relativeLinkPrefix": "../"
     },
     "inclusionCriteria": {
-        "additionalMicrosoftOrgs": [
-            "ASP.NET"
-        ],
         "labels": [
             "-label:CLA"
         ],

@@ -1,8 +1,7 @@
 ---
 title: "Visualizer Security Considerations | Microsoft Docs"
 description: A visualizer for Visual Studio debugger must run with full trust. As you write yours, be aware of possible security threats and take appropriate precautions.
-ms.custom: SEO-VS-2020
-ms.date: "11/04/2016"
+ms.date: "12/21/2022"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -25,9 +24,13 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Writing a Visualizer involves possible security threats. No known exploit currently exists for these potential threats, but developers should be aware of them and take appropriate security precautions, as described here, to guard against future exploits.
 
- Debugger visualizers require greater privileges than are allowed by a partial trust application. Visualizers will not load when you are stopped in code with partial trust. To debug using a visualizer, you must run the code with full trust.
+Debugger visualizers require greater privileges than are allowed by a partial trust application. Visualizers will not load when you are stopped in code with partial trust. To debug using a visualizer, you must run the code with full trust.
+
+> [!NOTE]
+> Code Access Security (CAS) has been deprecated across all versions of .NET Framework and .NET. Recent versions of .NET do not honor CAS annotations and produce errors if CAS-related APIs are used. Developers should seek alternative means of accomplishing security tasks.
 
 ## Possible Malicious Debuggee Component
+
  Visualizers consist of at least two classes: one on the debugger side and one on the debuggee side. Visualizers are often deployed in separate assemblies put in special directories, but they can also be loaded out of the debuggee. When this occurs, the debugger takes code out of the debuggee and runs it inside the debugger with full trust.
 
  Running debuggee-side code with full trust becomes problematic when the debuggee is not fully trusted. If a visualizer tries to load a partial trust assembly from the debuggee into the debugger, Visual Studio will terminate the visualizer.
@@ -37,6 +40,7 @@ Writing a Visualizer involves possible security threats. No known exploit curren
  To mitigate this vulnerability, be mindful of the interfaces exposed by your visualizer.
 
 ## See also
+
 - [Visualizer Architecture](../debugger/visualizer-architecture.md)
 - [How to: Write a Visualizer](create-custom-visualizers-of-data.md)
 - [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)

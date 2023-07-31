@@ -1,7 +1,6 @@
 ---
 title: "Native Run-Time Checks Customization | Microsoft Docs"
 description: "Learn ways to customize run-time checking, including: specifying a message destination, writing an error reporting function, and querying for error information."
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

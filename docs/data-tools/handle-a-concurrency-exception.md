@@ -1,7 +1,6 @@
 ---
 title: Handle a concurrency exception
 description: Handle a concurrency exception (System.Data.DBConcurrencyException), which is raised when two users try to change the same data in a database at the same time.
-ms.custom: SEO-VS-2020
 ms.date: 09/11/2017
 ms.topic: how-to
 dev_langs:
@@ -25,6 +24,8 @@ ms.workload:
 # Handle a concurrency exception
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 Concurrency exceptions (<xref:System.Data.DBConcurrencyException?displayProperty=fullName>) are raised when two users attempt to change the same data in a database at the same time. In this walkthrough, you create a Windows application that illustrates how to catch a <xref:System.Data.DBConcurrencyException>, locate the row that caused the error, and learn a strategy for how to handle it.
 

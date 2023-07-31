@@ -2,7 +2,6 @@
 title: Code Analysis Application Errors
 ms.date: 11/04/2016
 description: Learn about the error messages that the managed code analysis tool generates in Visual Studio. View error codes and corresponding descriptions.
-ms.custom: SEO-VS-2020
 ms.topic: reference
 helpviewer_keywords:
 - errors [Visual Studio ALM], code analysis

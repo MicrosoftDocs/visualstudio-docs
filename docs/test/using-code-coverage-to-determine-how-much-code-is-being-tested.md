@@ -2,8 +2,8 @@
 title: Code coverage testing
 description: Learn how to use the code coverage feature of Visual Studio to determine what proportion of your project code is being tested by coded tests.
 
-ms.custom: SEO-VS-2020, devdivchpfy22
-ms.date: 06/26/2022
+ms.custom: devdivchpfy22
+ms.date: 06/19/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - code coverage
@@ -20,9 +20,9 @@ ms.technology: vs-ide-test
 
 To determine what proportion of your project's code is being tested by coded tests such as unit tests, you can use the code coverage feature of Visual Studio. To effectively guard against bugs, your tests should exercise or 'cover' a large proportion of your code.
 
-Code coverage analysis is possible for both managed (CLI) and unmanaged (native) code.
+Code coverage analysis is possible for both managed (CLR) and unmanaged (native) code. Both static and dynamic instrumentation are supported. To use code coverage in command-line scenarios, use either [vstest.console.exe](#analyze-code-coverage-from-the-command-line) or [Microsoft.CodeCoverage.Console tool](../test/microsoft-code-coverage-console-tool.md), which is an extension for [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage) that also supports native code.
 
-Code coverage option is available under the Test menu when you run test methods using Test Explorer. The results table shows the percentage of the code executed in each assembly, class, and procedure. The source editor highlights the tested code.
+Code coverage option is available under the Test menu when you run test methods using Test Explorer. The results table shows the percentage of the code executed in each assembly, class, and procedure. The source editor highlights the tested code. You can export the results in popular formats such as Cobertura.
 
 ## Requirements
 
@@ -73,6 +73,22 @@ You can also have the results displayed for lines by choosing **Add/Remove Colum
 > [!TIP]
 > A line of code can contain more than one code block. If this is the case, and the test run exercises all the code blocks in the line, it is counted as one line. If some but not all code blocks in the line are exercised, it is counted as a partial line.
 
+::: moniker range=">=vs-2022"
+## Filter code coverage results
+
+The **Code Coverage Results** window usually shows the result for the entire solution. The results can be filtered to show the results for only the files that have been updated in the current branch. 
+
+- **To view the changeset Report**, select the **Configure Code Coverage Views** icon in the **Code Coverage Results** window. Then select **Changeset Report** from the **Report Content** drop-down. Update the Active Repository and Base Branch to compare against for it to provide the comparison report.
+
+From the search box in the **Code Coverage Results** window, there are several ways the report can be filtered.
+- To **Search by name** (Show only those which matches search string in the window), enter the search string in the search box.
+- To **Filter by type** enter the name of the type in the search box.
+- To **Show all** clear the search box.
+- To **Show 100% fully covered**, enter "Covered (%Lines)":"100" in the search box.
+- To **Show (>0% && < 100%) partially covered**, enter "Partially Covered (%Lines)":"<##" replacing the ## with the percentage covered.
+- To **Show 0% covered**, enter "Not Covered (%Lines)":"0" in the search box.
+::: moniker-end
+
 ## Manage code coverage results
 
 The **Code Coverage Results** window usually shows the result of the most recent run. The results will vary if you change your test data, or if you run only some of your tests each time.
@@ -87,7 +103,7 @@ You can merge the results of several runs, for example from runs that use differ
 
    The coverage coloring might be incorrect if the source code has changed since the *.coverage* file was generated.
 
-- **To make results readable as text**, choose **Export Code Coverage Results**. This generates a readable *.coveragexml* file, which you could process with other tools or send easily in mail.
+- **To make results readable as text**, choose **Export Code Coverage Results**. This generates a readable *.coveragexml* file, which you could process with other tools or send easily in mail. You can also select export formats such as Cobertura.
 
 - **To send results to someone else**, send either a *.coverage* file or an exported *.coveragexml* file. They can then import the file. If they have the same version of the source code, they can see coverage coloring.
 
@@ -149,7 +165,6 @@ public class ExampleClass1
 [ExcludeFromCodeCoverage]
 class ExampleClass2 { ... }
 ```
-
 
 ### [VB](#tab/vb)
 

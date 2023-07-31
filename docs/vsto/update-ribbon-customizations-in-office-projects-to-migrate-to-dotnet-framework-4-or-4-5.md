@@ -1,7 +1,6 @@
 ---
 title: "Update Ribbon customizations migrated to .NET Framework 4.5"
 description: Learn that you must make changes to your project code if the target framework is changed to the .NET Framework 4 or later.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

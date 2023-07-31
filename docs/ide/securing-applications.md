@@ -1,7 +1,6 @@
 ---
 title: Security
 description: Learn about some security concepts and the security features that can help you effectively develop secure applications.
-ms.custom: SEO-VS-2021
 ms.date: 10/26/2018
 ms.topic: conceptual
 helpviewer_keywords:

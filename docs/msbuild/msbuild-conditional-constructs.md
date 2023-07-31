@@ -1,7 +1,6 @@
 ---
 title: MSBuild Conditional Constructs | Microsoft Docs
 description: Learn how MSBuild provides a mechanism for conditional processing with the Choose, When, and Otherwise elements.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 dev_langs:

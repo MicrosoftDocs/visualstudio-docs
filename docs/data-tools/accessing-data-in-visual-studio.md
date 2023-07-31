@@ -1,7 +1,6 @@
 ---
 title: Work with data in Visual Studio
 description: Work with data in Visual Studio. Create apps that connect to data in other database products or services over local machines, LANs, or public or private clouds.
-ms.custom: SEO-VS-2020
 ms.date: 07/26/2022
 ms.topic: conceptual
 helpviewer_keywords:
@@ -126,7 +125,9 @@ Most of the other SQL and NoSQL database products that are listed here can be ho
 
 ## .NET languages
 
-All .NET data access, including in .NET Core, is based on ADO.NET, a set of classes that defines an interface for accessing any kind of data source, both relational and non-relational. Visual Studio has several tools and designers that work with ADO.NET to help you connect to databases, manipulate the data, and present the data to the user. The documentation in this section describes how to use those tools. You can also program directly against the ADO.NET command objects. For more information about calling the ADO.NET APIs directly, see [ADO.NET](/dotnet/framework/data/adonet/index).
+The data access technology described in the Visual Studio documentation uses ADO.NET. ADO.NET is a legacy data access framework and is not recommended for modern data applications. We recommend targeting .NET Core or .NET 5 and later and using [Entity Framework Core](/ef/) for data access development.
+
+ADO.NET is a set of classes that defines an interface for accessing any kind of data source, both relational and non-relational. Visual Studio has several tools and designers that work with ADO.NET to help you connect to databases, manipulate the data, and present the data to the user. The documentation in this section describes how to use those tools. You can also program directly against the ADO.NET command objects. For more information about calling the ADO.NET APIs directly, see [ADO.NET](/dotnet/framework/data/adonet/index).
 
 For data-access documentation related to ASP.NET, see [Working with Data](https://www.asp.net/web-forms/overview/presenting-and-managing-data) on the ASP.NET site. For a tutorial on using Entity Framework with ASP.NET MVC, see [Getting Started with Entity Framework 6 Code First using MVC 5](/aspnet/mvc/overview/getting-started/getting-started-with-ef-using-mvc/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application).
 
@@ -140,7 +141,6 @@ If you are connecting to Azure services, be sure to download the latest [Azure S
 
 For a database to be consumable in ADO.NET, it must have a custom *ADO.NET data provider* or else must expose an ODBC or OLE DB interface. Microsoft provides a [list of ADO.NET data providers](/dotnet/framework/data/adonet/ado-net-overview) for SQL Server products, as well as ODBC and OLE DB providers.
 
-::: moniker range=">=vs-2019"
 > [!NOTE]
 >If you're using Visual Studio to connect to databases using OLEDB or ODBC data providers, you will need to be aware that versions of Visual Studio prior to Visual Studio 2022 are all 32-bit processes. This means some of the data tools in Visual Studio will only be able to connect to OLEDB or ODBC databases using 32-bit data providers. This includes the Microsoft Access 32-bit OLEDB data provider as well as other third-party 32-bit providers.
 >
@@ -149,8 +149,6 @@ For a database to be consumable in ADO.NET, it must have a custom *ADO.NET data 
 >If you need to maintain 32-bit applications that connect to OLEDB or ODBC databases, you will still be able to build and run the application with Visual Studio 2022. However, if you need to use any of the Visual Studio Data Tools such as Server Explorer, Data Source Wizard, or the DataSet Designer, you will need to use an earlier version of Visual Studio that is still a 32-bit process. The last version of Visual Studio that was a 32-bit process was Visual Studio 2019.
 >
 >If you plan on converting the project to be a 64-bit process, it’s recommended that you use the 64-bit Microsoft Access Database Engine, also called Access Connectivity Engine (ACE). Please see [OLE DB Provider for Jet and ODBC driver are 32-bit versions only](/office/troubleshoot/access/jet-odbc-driver-available-32-bit-version) for more information.
-
-::: moniker-end
 
 ### Data modeling
 

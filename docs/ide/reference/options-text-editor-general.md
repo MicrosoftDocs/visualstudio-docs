@@ -1,8 +1,7 @@
 ---
 title: Options, Text Editor, General
 description: Learn how to use the General page to change global settings for the Visual Studio code and text editor.
-ms.custom: SEO-VS-2020
-ms.date: 07/26/2022
+ms.date: 05/19/2023
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor
@@ -67,7 +66,11 @@ When selected, this setting enables you to move text by selecting and then dragg
 
 ### Select subword on double click
 
-When you toggle this setting, a double-click selects only a subword instead of a whole word. (This can be helpful when you're using medial capitals, as an example.)
+When you select this setting, a double-click selects only a subword instead of a whole word. (This can be helpful when you're using medial capitals, as an example.)
+
+### Cut or Copy the current line without selection
+
+When you select this setting, you can cut or copy the current line where your cursor is positioned without having to first select the text or code on that line.
 
 ::: moniker-end
 
@@ -81,7 +84,7 @@ When the code editor is selected, a vertical yellow line appears in the selectio
 
 ### Auto-detect UTF-8 encoding without signature
 
-By default, the editor detects encoding by searching for byte order marks or charset tags. If neither is found in the current document, the code editor tries to auto-detect UTF-8 encoding by scanning byte sequences. To disable the auto-detection of encoding, clear this option.
+By default, the editor detects encoding by searching for byte order marks or charset tags. If neither is found in the current document, the code editor tries to autodetect UTF-8 encoding by scanning byte sequences. To disable the autodetection of encoding, clear this option.
 
 ### Follow project coding conventions
 
@@ -90,13 +93,44 @@ When selected, the project's specified [coding conventions](../create-portable-c
 > [!TIP]
 > To learn more about coding conventions and how they are applied, see the [Create portable, custom editor settings with EditorConfig](../create-portable-custom-editor-options.md) page.
 
+::: moniker range="vs-2022"
+
+### Enable audio cues
+
+When selected, Visual Studio plays an audio cue when the caret in the editor arrives on a line with an error, breakpoint, or warning. When you view a file in the Diff view, Visual Studio also plays a cue when the caret arrives on a line that's been added or removed.
+
+> [!NOTE]
+> You can also individually enable or modify these audio cues by using the Sound Control Panel in Windows.
+
+::: moniker-end
+
 ### Enable mouse click to perform Go to Definition
 
 When selected, you can press **Ctrl** and hover over an element while clicking the mouse. Doing so takes you to the definition of the selected element. You can also choose either **Alt** or **Ctrl** + **Alt** from the **Use modifier key** drop-down.
 
 #### Open definition in peek view
 
-Select this check box to display the element's definition in a window without navigating away from your current location in the code editor. For more information, see [How to: View and edit code by using Peek Definition](../how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
+Select this checkbox to display the element's definition in a window without navigating away from your current location in the code editor. For more information, see [How to: View and edit code by using Peek Definition](../how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
+
+::: moniker range="vs-2022"
+
+## Sticky scroll
+
+The Sticky scroll section of **Tools** > **Options** > **Text Editor** > **General** includes the following options.
+
+### Group the current scopes within a scrollable region of the editor window
+
+Select this checkbox to enable [Sticky Scroll](../editor-sticky-scroll.md) to *stick* scopes to the top of the editor so that they're always in view while you *scroll* through your code. Scopes include namespaces, classes, methods, loop initialization statements, and conditionals. First introduced in Visual Studio 2022 [version 17.5](/visualstudio/releases/2022/release-notes-v17.5), supported programming languages and code formats for Sticky Scroll include C#, C++, XAML, and JSON. 
+
+### Maximum sticky lines
+
+Set to a default of **5**, you can increase or decrease the number of lines that you want to see in the Sticky Scroll header area.
+
+### When number of scopes exceeds the maximum
+
+The default is **Prefer outer scopes**, which shows higher-level scopes. You can change it to **Prefer inner scopes**, which pushes out higher-level scopes as you scroll through deeply nested code. For more information, see the "[Inner and outer scopes](../editor-sticky-scroll.md#inner-and-outer-scopes)" section of the [What is Sticky Scroll for Visual Studio](../editor-sticky-scroll.md) page.
+
+::: moniker-end
 
 ## Display
 
@@ -175,6 +209,12 @@ internal readonly ImmutableArray<char> ZeroWidthCharacters = ImmutableArray.Crea
 });
 ```
 
+### Enable brace pair colorization
+
+When selected, braces are color-matched so that you can visually distinguish each set of opening and closing braces in your code. Brace colorization makes it easier to see your code's scope or find any missing braces. Released in Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-notes-v17.6), brace pair colorization is supported for C#, C++, TypeScript, JavaScript, Visual Basic, and Razor.
+
+:::image type="content" source="media/vs-2022/brace-pair-colorization.png" alt-text="Screenshot of an example of brace pair colorization in Visual Studio.":::
+
 ::: moniker-end
 
 ### Selection margin
@@ -197,11 +237,17 @@ When selected, displays a gray box around the line of code in which the cursor i
 
 When selected, vertical lines appear in the editor that line up with structured code blocks, which lets you easily identify the individual blocks of code.
 
-::: moniker range=">=vs-2019"
-
 ### Show error squiggles
 
 When selected, different-colored wavy underlines, known as squiggles, appear in your code. (Red squiggles denote syntax errors, blue denotes compiler errors, green denotes warnings, and purple denotes other types of errors.)
+
+::: moniker range="vs-2022"
+
+### Show selection matches
+
+When selected, Visual Studio automatically highlights matching strings after you select text in the editor. Specifically, anytime a single line of text of 100 characters or less is selected, any matches are highlighted.
+
+::: moniker-end
 
 ### Show file health indicator
 
@@ -220,8 +266,6 @@ Use this control to toggle the editing context settings altogether, or personali
 - Insert/Overwrite
 - Tab/Space
 - Line endings
-
-::: moniker-end
 
 ## See also
 

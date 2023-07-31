@@ -1,7 +1,6 @@
 ---
 title: Collect diagnostic information using test settings
 description: Learn how to use Test settings in Visual Studio to collect extra data when you run your tests. Learn about several diagnostic data adapters.
-ms.custom: SEO-VS-2020
 ms.date: 10/03/2016
 ms.topic: how-to
 helpviewer_keywords: 

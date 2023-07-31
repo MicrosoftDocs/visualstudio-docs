@@ -1,7 +1,6 @@
 ---
 title: "Add Actions pane to Word documents or Excel workbooks"
 description: Learn that to add an actions pane to a Microsoft Office Word document or a Microsoft Excel workbook, you should first create a Windows Forms user control.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

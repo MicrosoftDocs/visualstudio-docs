@@ -1,8 +1,8 @@
 ---
 title: Create a unit test project
 description: Learn how to create a unit test project. The test project can be in the same solution as the production code, or it can be in a separate solution.
-ms.custom: SEO-VS-2020, devdivchpfy22
-ms.date: 01/13/2022
+ms.custom: devdivchpfy22
+ms.date: 02/22/2023
 ms.topic: how-to
 ms.author: mikejo
 manager: jmartens
@@ -24,16 +24,16 @@ Unit tests often mirror the structure of the code under test. For example, a uni
 
 1. On the **File** menu, select **New** > **Project**, or press **Ctrl**+**Shift**+**N**.
 
-
-::: moniker range=">=vs-2019"
-
 2. On the **Create a new project** page, type **unit test** into the search box. Select the project template for the test framework that you want to use, for example **MSTest Test Project** or **NUnit Test Project**, and then select **Next**.
 
-   ![Test project templates in Visual Studio 2019](media/vs-2019/test-project-templates.png)
+   ::: moniker range=">=vs-2022"
+   ![Screenshot of test project templates in Visual Studio 2022.](media/vs-2022/test-project-templates.png)
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   ![Screenshot of test project templates in Visual Studio 2019.](media/vs-2019/test-project-templates.png)
+   ::: moniker-end
 
 3. On the **Configure your new project** page, enter a name for your project, and then select **Create**.
-
-::: moniker-end
 
 4. In your unit test project, add a reference to the code under test. To add a reference to a code project in the same solution:
 

@@ -1,7 +1,6 @@
 ---
 title: "How to: Include Files by Using a Module | Microsoft Docs"
 description: Know how to include files by using a module, which is a container that lets you deploy files such as ASPX master pages, text files, or images to SharePoint.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

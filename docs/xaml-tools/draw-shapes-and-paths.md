@@ -1,7 +1,6 @@
 ---
 title: Draw shapes and paths
 description: Use the features of the XAML Designer in Blend for Visual Studio to draw paths and shapes, modify them, and combine them.
-ms.custom: SEO-VS-2020
 titleSuffix: Blend for Visual Studio
 ms.date: 07/11/2022
 ms.topic: conceptual

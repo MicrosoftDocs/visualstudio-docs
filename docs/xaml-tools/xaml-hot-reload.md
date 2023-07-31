@@ -45,7 +45,7 @@ XAML Hot Reload is especially helpful in these scenarios:
 |Supported Application Types|Operating System and Tools|
 |-|-|-|
 |Windows Presentation Foundation (WPF) |.NET Framework 4.6+ and .NET Core</br>Windows 7 and later |
-|Universal Windows apps (UWP)|Windows 10 and later, with the [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk) 14393+ and later|
+|Universal Windows apps (UWP)|Windows 10 and later, with the [Windows 10 SDK](https://developer.microsoft.com/windows/downloads/windows-sdk/) 14393+ and later|
 
 If you're using **Xamarin.Forms**, see [XAML Hot Reload for Xamarin.Forms](/xamarin/xamarin-forms/xaml/hot-reload).
 

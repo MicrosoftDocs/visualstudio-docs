@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with TypeScript"
 description: In this tutorial, you create an app using ASP.NET Core and TypeScript
-ms.date: 06/7/2022
+ms.date: 05/23/2023
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -17,7 +17,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In this tutorial for Visual Studio development ASP.NET Core and TypeScript, you create a simple web application, add some TypeScript code, and then run the app.
+In this tutorial for Visual Studio development using ASP.NET Core and TypeScript, you create a simple web application, add some TypeScript code, and then run the app.
 
 ::: moniker range=">=vs-2022"
 
@@ -65,7 +65,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 1. Create a new project.
 
     ::: moniker range=">=vs-2022"
-    In Visual Studio 2022, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project, and then choose **Next**.
+    In Visual Studio 2022, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Web App (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project, and then choose **Next**.
 
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
     ::: moniker-end
@@ -88,6 +88,8 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
    Visual Studio adds the NuGet package under the **Dependencies** node in Solution Explorer.
 
 1. Right-click the project node and choose **Add > New Item**. Choose the **TypeScript JSON Configuration File**, and then click **Add**.
+
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
 
    Visual Studio adds the *tsconfig.json* file to the project root. You can use this file to [configure options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for the TypeScript compiler.
 
@@ -117,6 +119,8 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 1. In Solution Explorer, right-click the project node and choose **Add > New Folder**. Use the name *scripts* for the new folder.
 
 1. Right-click the *scripts* folder and choose **Add > New Item**. Choose the **TypeScript File**, type the name *app.ts* for the filename, and then click **Add**.
+
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
 
    Visual Studio adds *app.ts* to the *scripts* folder.
 
@@ -170,7 +174,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
 1. Open the *Views/Shared* folder, and then open *_Layout.cshtml*.
 
-1. Add the following script reference before the call to `@RenderSection("Scripts", required: false)`:
+1. Add the following script reference before the call to `@RenderSectionAsync("Scripts", required: false)`:
 
     ```js
     <script src="~/js/app.js"></script>
@@ -208,6 +212,11 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
    You may need to respond to a message to enable script debugging.
 
+   > [!NOTE]
+   > Chrome or Edge is required for client-side script debugging.
+
+1. When the page loads, press **Click Me**.
+
    The application pauses at the breakpoint. Now, you can inspect variables and use debugger features.
 
 ## Add TypeScript support for a third-party library
@@ -221,7 +230,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
    ```json
    "devDependencies": {
-      "@types/jquery": "3.3.33"
+      "@types/jquery": "3.5.1"
    }
    ```
 
@@ -233,6 +242,8 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
    > In some scenarios, Solution Explorer may indicate that an npm package is out of sync with *package.json* due to a known issue described [here](https://github.com/aspnet/Tooling/issues/479). For example, the package may appear as not installed when it is installed. In most cases, you can update Solution Explorer by deleting *package.json*, restarting Visual Studio, and re-adding the *package.json* file as described earlier in this article.
 
 1. In Solution Explorer, right-click the scripts folder and choose **Add** > **New Item**.
+
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
 
 1. Choose **TypeScript File**, type *library.ts*, and choose **Add**.
 

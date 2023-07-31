@@ -1,15 +1,14 @@
 ---
 title: Exposing Project Objects | Microsoft Docs
 description: Learn how to expose objects for custom project types in Visual Studio by providing automation objects that allow access to the project using automation interfaces.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - project objects, exposing
 - extensibility, project objects
 ms.assetid: 5bb24967-434a-4ef4-87a0-2f3250c9e22d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

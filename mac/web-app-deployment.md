@@ -2,8 +2,8 @@
 title: "ASP.NET Core Web App Deployment"
 description: "Information about ASP.NET Core Web Application Deployment in Visual Studio for Mac."
 ms.topic: how-to
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 01/25/2019
 ms.assetid: d746292d-0570-424a-bf43-e16ab85bbf0d

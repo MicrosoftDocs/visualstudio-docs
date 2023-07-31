@@ -1,7 +1,6 @@
 ---
 title: "How to: Attach managed code extensions to documents"
 description: Learn how you can attach a customization assembly to an existing Microsoft Office Word document or Microsoft Office Excel workbook. 
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

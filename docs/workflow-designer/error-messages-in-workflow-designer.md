@@ -1,7 +1,6 @@
 ---
 title: Error Messages in Workflow Designer
 description: Learn about the types of error messages that you can encounter when working with Workflow Designer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

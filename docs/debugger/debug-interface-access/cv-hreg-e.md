@@ -1,7 +1,6 @@
 ---
 title: "CV_HREG_e | Microsoft Docs"
 description: Get reference information about the CV_HREG_e enumeration type, which specifies a target register in the debug interface access SDK.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: "Information rights management & managed code extensions"
 description: Learn about Information Rights Management (IRM), a feature that can help you prevent unauthorized people from viewing or altering sensitive information.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

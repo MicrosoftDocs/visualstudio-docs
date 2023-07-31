@@ -1,7 +1,6 @@
 ---
 title: "Integrating Business Data into SharePoint | Microsoft Docs"
 description: Read a high-level summary about how to integrate business data into SharePoint by creating a model for the business data connectivity (BDC) service.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: overview
 dev_langs:

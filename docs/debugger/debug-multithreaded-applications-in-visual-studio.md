@@ -2,7 +2,7 @@
 title: "Debug multithreaded applications | Microsoft Docs"
 description: Debug multithreaded applications in Visual Studio. Review tools and other articles about debugging multithreaded apps.
 
-ms.date: "11/06/2018"
+ms.date: "07/13/2023"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.gputthreads"
@@ -52,49 +52,53 @@ Debugging a multithreaded application that has a user interface can be especiall
 
 ## Articles about debugging multithreaded apps
 
- [Get started debugging a multithreaded application](../debugger/get-started-debugging-multithreaded-apps.md)
+- [Get started debugging a multithreaded application](../debugger/get-started-debugging-multithreaded-apps.md)
 
-A tour of thread debugging features, emphasizing features in the **Parallel Stacks** window and the **Parallel Watch** window.
+  A tour of thread debugging features, emphasizing features in the **Parallel Stacks** window and the **Parallel Watch** window.
 
- [Tools for debugging threads and processes](../debugger/debug-threads-and-processes.md)
+- [Tools for debugging threads and processes](../debugger/debug-threads-and-processes.md)
 
-Lists the features of the tools for debugging threads and processes.
+  Lists the features of the tools for debugging threads and processes.
 
- [Debug multiple processes](../debugger/debug-multiple-processes.md)
+- [Debug multiple processes](../debugger/debug-multiple-processes.md)
 
-Explains how to debug multiple processes.
+  Explains how to debug multiple processes.
 
- [Walkthrough: Debug using the Threads window](../debugger/how-to-use-the-threads-window.md).
+- [Walkthrough: Debug using the Threads window](../debugger/how-to-use-the-threads-window.md).
 
-Walkthrough that shows how to use the **Threads** window and the **Debug Location** toolbar.
+  Walkthrough that shows how to use the **Threads** window and the **Debug Location** toolbar.
 
- [Walkthrough: Debug a parallel application](../debugger/walkthrough-debugging-a-parallel-application.md)
+- [Walkthrough: Debug a parallel application](../debugger/walkthrough-debugging-a-parallel-application.md)
 
-Walkthrough that shows how to use the **Parallel Stacks** and **Tasks** windows.
+  Walkthrough that shows how to use the **Parallel Stacks** and **Tasks** windows.
 
- [How to: Switch to another thread while debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md)
+- [How to: Switch to another thread while debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md)
 
-Several ways to switch the debugging context to another thread.
+  Several ways to switch the debugging context to another thread.
 
- [How to: Flag and unflag threads](../debugger/how-to-flag-and-unflag-threads.md)
+- [Follow a single thread while debugging](../debugger/get-started-debugging-multithreaded-apps.md#follow-a-single-thread-with-conditional-breakpoints)
 
-Mark or flag threads that you want to give special attention to while debugging.
+  Several ways to switch the debugging context to another thread.
 
- [How to: Debug on a high-performance cluster](../debugger/how-to-debug-on-a-high-performance-cluster.md)
+- [How to: Flag and unflag threads](../debugger/how-to-flag-and-unflag-threads.md)
 
-Techniques for debugging an application that runs on a high-performance cluster.
+  Mark or flag threads that you want to give special attention to while debugging.
 
- [Tips for debugging threads in native code](../debugger/tips-for-debugging-threads-in-native-code.md)
+- [How to: Debug on a high-performance cluster](../debugger/how-to-debug-on-a-high-performance-cluster.md)
 
-Simple techniques that can be useful for debugging native threads.
+  Techniques for debugging an application that runs on a high-performance cluster.
 
- [How to: Set a thread name in native code](../debugger/how-to-set-a-thread-name-in-native-code.md)
+- [Tips for debugging threads in native code](../debugger/tips-for-debugging-threads-in-native-code.md)
 
-Give your thread a name that you view in the **Threads** window.
+  Simple techniques that can be useful for debugging native threads.
 
- [How to: Set a thread name in managed code](../debugger/how-to-set-a-thread-name-in-managed-code.md)
+- [How to: Set a thread name in native code](../debugger/how-to-set-a-thread-name-in-native-code.md)
 
-Give your thread a name that you view in the **Threads** window.
+  Give your thread a name that you view in the **Threads** window.
+
+- [How to: Set a thread name in managed code](../debugger/how-to-set-a-thread-name-in-managed-code.md)
+
+  Give your thread a name that you view in the **Threads** window.
 
 ## See also
 

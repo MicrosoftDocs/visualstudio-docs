@@ -2,7 +2,7 @@
 title: "Tips and tricks in the debugger"
 description: Learn about some of the lesser-known features supported by the Visual Studio debugger
 
-ms.date: "04/26/2022"
+ms.date: "06/16/2023"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "stepping"
@@ -16,11 +16,15 @@ ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
-# Learn Productivity Tips and Tricks for the Debugger in Visual Studio
+# Learn productivity tips and tricks for the debugger in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Read this topic to learn a few productivity tips and tricks for the Visual Studio debugger. For a look at the basic features of the debugger, see [First look at the debugger](../debugger/debugger-feature-tour.md). In this topic, we cover some areas that are not included in the feature tour.
+
+## Keyboard shortcuts
+
+For a list of the most common keyboard shortcuts related to debugging, see the [Debug](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debug-popular-shortcuts) section in Keyboard shortcuts.
 
 ## Pin data tips
 
@@ -50,7 +54,7 @@ If it is difficult or time-consuming to recreate a particular state in your app,
 
 #### To create a conditional breakpoint
 
-1. Right-click a breakpoint icon (the red ball) and choose **Conditions**.
+1. Right-click a breakpoint icon (the red sphere) and choose **Conditions**.
 
 2. In the **Breakpoint Settings** window, type an expression.
 
@@ -62,16 +66,9 @@ If it is difficult or time-consuming to recreate a particular state in your app,
 
 For C#, Visual Basic, and C++ (C++/CLI code only), you can tell the debugger what information to show using the [DebuggerDisplay](../debugger/using-the-debuggerdisplay-attribute.md) attribute. For C++ code, you can do the same using [Natvis visualizations](create-custom-views-of-native-objects.md).
 
-## Change the execution flow
+## Attach to the same application repeatedly
 
-With the debugger paused on a line of code, use the mouse to grab the yellow arrow pointer on the left. Move the yellow arrow pointer to a different point in the code execution path. Then you use F5 or a step command to continue running the app.
-
-![Move the Execution Pointer](../debugger/media/dbg-tour-move-the-execution-pointer.gif "Move the Execution Pointer")
-
-By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger.
-
-> [!WARNING]
-> Often you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer cannot revert your app to an earlier application state.
+When you are using the [attach to process](attach-to-running-processes-with-the-visual-studio-debugger.md#BKMK_reattach) feature, you can quickly reattach to a process that you were previously attached to by choosing **Debug** > **Reattach to Process** (**Shift**+**Alt**+**P**). When you choose this command, the debugger will immediately try to attach to the last process you attached to by first attempting to match the previous process ID and if that fails, by matching to the previous process name. If no matches are found, or if several processes have the same name, the **Attach to Process** dialog box will open so you can select the correct process.
 
 ## Track an out-of-scope object (C#, Visual Basic)
 
@@ -117,6 +114,20 @@ A string visualizer may help you find out whether a string is malformed, dependi
 
 For a few other types such as DataSet and DataTable objects that appear in the debugger windows, you can also open a built-in visualizer.
 
+## Analyze memory usage
+
+You can take and compare snapshots of the heap, optimize memory usage, and find a memory leak using memory usage tools. For more information, see [Choose a memory analysis tool](../profiling/analyze-memory-usage.md).
+
+## Create a dump file
+
+A *dump file* is a snapshot that shows the process that was executing and modules that were loaded for an app at a point in time. A dump with heap information also includes a snapshot of the app's memory at that point. Dumps are mostly used to debug issues from machines that developers don't have access to.
+
+If you need to save a dump file, select select **Debug > Save Dump As**.
+
+To analyze a dump file, choose **File > Open** in Visual Studio. To start debugging using the dump file, select **Debug with Managed Only**, **Debug with Native Only**, **Debug with Mixed**, or **Debug with Managed Memory**.
+
+For more information, see [Dump files](using-dump-files.md).
+
 ## Break into code on handled exceptions
 
 The debugger breaks into your code on unhandled exceptions. However, handled exceptions (such as exceptions that occur within a `try/catch` block) can also be a source of bugs and you may want to investigate when they occur. You can configure the debugger to break into code for handled exceptions as well by configuring options in the **Exception Settings** dialog box. Open this dialog box by choosing **Debug > Windows > Exception Settings**.
@@ -125,11 +136,22 @@ The **Exception Settings** dialog box allows you to tell the debugger to break i
 
 ![Exception Settings Dialog Box](../debugger/media/dbg-tips-exception-settings.png "ExceptionSettingsDialogBox")
 
+## Change the execution flow
+
+With the debugger paused on a line of code, use the mouse to grab the yellow arrow pointer on the left. Move the yellow arrow pointer to a different point in the code execution path. Then you use F5 or a step command to continue running the app.
+
+![Move the Execution Pointer](../debugger/media/dbg-tour-move-the-execution-pointer.gif "Move the Execution Pointer")
+
+By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger. For more information, see [Move the exeuction pointer](../debugger/move-the-execution-pointer-with-the-debugger.md).
+
+> [!WARNING]
+> Often you need to be careful with this feature, and you see a warning in the tooltip. You may see other warnings, too. Moving the pointer cannot revert your app to an earlier application state.
+
 ## Debug deadlocks and race conditions
 
 If you need to debug the kinds of issues that are common to multithreaded apps, it often helps to view the location of threads while debugging. You can do this easily using the **Show Threads in Source** button.
 
-#### To show threads in your source code
+To show threads in your source code:
 
 1. While debugging, click the **Show Threads in Source** button ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker") in the **Debug** toolbar.
 
@@ -140,7 +162,6 @@ If you need to debug the kinds of issues that are common to multithreaded apps, 
 3. Hover the pointer over the thread marker. A DataTip appears. The DataTip tells you the name and thread ID number for each stopped thread.
 
     You can also view the location of threads in the [Parallel Stacks window](../debugger/get-started-debugging-multithreaded-apps.md).
-
 
 ## <a name="modules_window"></a> Get more familiar with how the debugger attaches to your app (C#, C++, Visual Basic, F#)
 

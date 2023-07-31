@@ -1,7 +1,6 @@
 ---
 title: "Creating an Association Between Entities | Microsoft Docs"
 description: Create an association between entities in your Business Data Connectivity (BDC) model. Learn about association methods and types of associations.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 f1_keywords:

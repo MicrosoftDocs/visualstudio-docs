@@ -13,7 +13,6 @@ helpviewer_keywords:
 - walkthroughs [Visual Studio ALM], modeling software
 author: mgoertz-msft
 ms.author: mgoertz
-ms.custom: SEO-VS-2020
 manager: jmartens
 ms.technology: vs-ide-modeling
 ms.workload:

@@ -1,7 +1,6 @@
 ---
 title: Go To Line
 description: Learn about the Go To Line dialog box and how it lets you move to a specific line in the active document.
-ms.custom: SEO-VS-2020
 ms.date: 05/18/2018
 ms.topic: reference
 helpviewer_keywords:

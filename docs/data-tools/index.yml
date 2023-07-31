@@ -70,9 +70,9 @@ landingContent:
         links:
           - text: Azure SQL database
             url: /azure/sql-database/sql-database-connect-query-dotnet-visual-studio
-          - text: Cosmos DB - .NET console app
+          - text: Azure Cosmos DB - .NET console app
             url: /azure/cosmos-db/sql-api-get-started
-          - text: Cosmos DB - .NET web app
+          - text: Azure Cosmos DB - .NET web app
             url: /azure/cosmos-db/sql-api-dotnet-application
           - text: Azure Data Lake Analytics
             url: /azure/data-lake-analytics/data-lake-analytics-data-lake-tools-get-started

@@ -1,7 +1,6 @@
 ---
 title: Debug UWP apps on remote machines | Microsoft Docs
 description: Review how to use Visual Studio to run, debug, profile, and test a Universal Windows Platform (UWP) app remotely on another computer or device.
-ms.custom: SEO-VS-2020
 ms.date: 10/05/2018
 ms.topic: how-to
 dev_langs: 

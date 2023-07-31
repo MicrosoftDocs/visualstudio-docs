@@ -1,7 +1,6 @@
 ---
 title: Create item templates
 description: Learn how to use the Export Template Wizard to create an item template in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 01/02/2018
 ms.topic: how-to
 helpviewer_keywords:
@@ -120,12 +119,7 @@ In some cases you may want to create an item template manually, from scratch.
 
 7. In **Windows Explorer**, select the files you want to include in your template. Right-click the selection, and choose **Send to** > **Compressed (zipped) folder**. The files that you selected are compressed into a *.zip* file.
 
-
-::: moniker range=">=vs-2019"
-
 8. Copy the *.zip* file and paste it in the user item template location. The default directory is *%USERPROFILE%\Documents\Visual Studio 2019\Templates\ItemTemplates*. For more information, see [How to: Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md).
-
-::: moniker-end
 
 ## See also
 

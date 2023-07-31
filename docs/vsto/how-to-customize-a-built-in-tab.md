@@ -1,7 +1,6 @@
 ---
 title: "How to: Customize a built-in tab"
 description: Learn how you can add groups and controls to a built-in tab. A built-in tab is a tab that's already on the Ribbon of a Microsoft Office application.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: Task Element of Target (MSBuild) | Microsoft Docs
 description: Learn about the Task element of MSBuild Target, which creates and executes an instance of an MSBuild task. 
-ms.custom: SEO-VS-2020
 ms.date: 03/13/2017
 ms.topic: reference
 dev_langs:

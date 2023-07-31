@@ -1,7 +1,6 @@
 ---
 title: 'How to: Modify the Pivot Point of a 3D Model'
 description: Learn how to use the Model Editor to modify the pivot point of a 3D model, which is the point that defines the center of the object for rotation and scaling.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: c20b4ec8-29f5-4ca5-bc39-d4548ca6f573

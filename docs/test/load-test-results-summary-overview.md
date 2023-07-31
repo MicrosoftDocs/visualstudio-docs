@@ -1,7 +1,6 @@
 ---
 title: Load Test Results Summary Overview
 description: Learn how to view the load test summary. The load test summary provides the key results in a compact and easy to read format.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:

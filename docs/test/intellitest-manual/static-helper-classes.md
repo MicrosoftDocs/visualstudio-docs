@@ -1,7 +1,6 @@
 ---
 title: Static helper classes | Microsoft IntelliTest Developer Test Tool
 description: Learn about the static helper classes that IntelliTest provides for authoring parameterized unit tests.
-ms.custom: SEO-VS-2020
 ms.date: 05/02/2017
 ms.topic: reference
 helpviewer_keywords:

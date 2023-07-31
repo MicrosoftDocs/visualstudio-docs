@@ -1,7 +1,7 @@
 ---
 title: Automatically apply product keys
 description: Learn how to apply product keys programmatically when you deploy Visual Studio.
-ms.date: 11/19/2021
+ms.date: 7/7/2023
 ms.topic: conceptual
 ms.assetid: d79260be-6234-4fd3-89b5-a9756b4a93c1
 author: anandmeg
@@ -17,7 +17,6 @@ ms.technology: vs-installation
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 You can apply your product key programmatically as part of a script that is used to automate the deployment of Visual Studio. You can set a product key on a device programmatically either during an installation of Visual Studio or after an installation completes.
-
 
 ::: moniker range="vs-2019"
 
@@ -60,27 +59,25 @@ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE
 
 ::: moniker-end
 
-
 ::: moniker range="vs-2022"
 
-The following example shows a command line for applying the license for Visual Studio 2022 Enterprise, which has an MPC of 09660, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
+The following example shows a command line for applying the license for Visual Studio 2022 Enterprise, which has an MPC of 09660, a product key of `AAAAA-BBBBB-CCCCC-DDDDD-EEEEE`, and assumes a default installation location:
 
 ```shell
-"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 09660
+"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDD-EEEEE 09660
 ```
 
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 
-The following example shows a command line for applying the license for Visual Studio 2019 Enterprise, which has an MPC of 09260, a product key of `AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE`, and assumes a default installation location:
+The following example shows a command line for applying the license for Visual Studio 2019 Enterprise, which has an MPC of 09260, a product key of `AAAAA-BBBBB-CCCCC-DDDDD-EEEEE`, and assumes a default installation location:
 
 ```shell
-"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDDD-EEEEEE 09260
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDD-EEEEE 09260
 ```
 
 ::: moniker-end
-
 
 ::: moniker range="vs-2022"
 
@@ -99,7 +96,6 @@ The following example shows a command line for applying the license for Visual S
 | Visual Studio Professional 2019      | 09262 |
 
 ::: moniker-end
-
 
 ::: moniker range="vs-2019"
 

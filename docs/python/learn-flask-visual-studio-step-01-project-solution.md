@@ -5,8 +5,8 @@ description: A walkthrough of Flask basics in the context of Visual Studio proje
 ms.custom: devdivchpfy22
 ms.date: 02/01/2022
 ms.topic: tutorial
-author: rjmolyneaux
-ms.author: rmolyneaux
+author: cwebster-99
+ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
 
@@ -22,9 +22,6 @@ ms.workload:
 
 Flask is called a "micro" framework because it doesn't directly provide features like form validation, database abstraction, authentication, and so on. Such features are instead provided by special Python packages called Flask *extensions*. The extensions integrate seamlessly with Flask so that they appear as if they're part of Flask itself. For example, Flask itself doesn't provide a page template engine. Templating is provided by extensions such as Jinja and Jade, as demonstrated in this tutorial.
 
-
-::: moniker range=">=vs-2019"
-
 In this tutorial, you learn how to:
 
 - Create a basic Flask project in a Git repository using the "Blank Flask Web Project" template (step 1).
@@ -33,7 +30,6 @@ In this tutorial, you learn how to:
 - Use the Flask Web Project template to create an app with multiple pages and responsive design (step 4).
 
 Over the course of these steps you create a single Visual Studio solution that contains two separate projects. You create the project using different Flask project templates that are included with Visual Studio. By keeping the projects in the same solution, you can easily switch back and forth between different files for comparison.
-::: moniker-end
 
 > [!Note]
 > This tutorial differs from the [Flask Quickstart](../ide/quickstart-python.md?toc=/visualstudio/python/toc.json&bc=/visualstudio/python/_breadcrumb/toc.json) in that you learn more about Flask as well as how to use the different Flask project templates that provide a more extensive starting point for your own projects. For example, the project templates automatically install the Flask package when creating a project, rather than needing you to install the package manually as shown in the Quickstart.
@@ -188,7 +184,7 @@ Now that you've configured source control for your project, you can create the v
 
 1. Select **Create** to accept the defaults. (You can change the name of the virtual environment if you want, which just changes the name of its subfolder, but `env` is a standard convention.)
 
-1. Consent to administrator privileges if prompted, then be patient for a few minutes while Visual Studio downloads and installs packages, which for Flask and its dependencies means expanding about a thousand files in over 100 subfolders. You can see progress in the Visual Studio **Output** window. While you're waiting, ponder the Question sections that follow. You can also see a description of Flask's dependencies on the [Flask installation](https://flask.palletsprojects.com/en/1.0.x/installation/#installation) page (flask.pcocoo.org).
+1. Consent to administrator privileges if prompted, then be patient for a few minutes while Visual Studio downloads and installs packages, which for Flask and its dependencies means expanding about a thousand files in over 100 subfolders. You can see progress in the Visual Studio **Output** window. While you're waiting, ponder the Question sections that follow. You can also see a description of Flask's dependencies on the [Flask installation](https://flask.palletsprojects.com/installation/#installation) page (flask.pcocoo.org).
 
 1. On the Visual Studio Git controls (on the status bar), select the changes indicator (that shows **99&#42;**) which opens the **Changes** page in **Team Explorer**.
 
@@ -209,7 +205,6 @@ Now that you've configured source control for your project, you can create the v
 1. In **Solution Explorer**, right-click the **Python Environments** node and select **Add Environment**.
 
     ![Add Virtual environment command in Solution Explorer](media/flask/step-01-add-virtual-environment-command.png)
-
 
 1. Select **Create** to accept the defaults, in the Add Virtual Environment dialog. (You can change the name of the virtual environment if you want, which just changes the name of its subfolder, but `env` is a standard convention.)
 
@@ -282,7 +277,7 @@ Second, open a command window, navigate to the folder like *BasicProject* that c
 
 ### Question: What is the purpose of the __name__ argument to the Flask class?
 
-Answer: The argument is the name of the app's module or package, and tells Flask where to look for templates, static files, and other resources that belong to the app. For apps contained in a single module, `__name__` is always the proper value. It's also important for extensions that need debugging information. For more information, and additional arguments, see the [Flask class documentation](https://flask.palletsprojects.com/en/1.0.x/api/#flask.Flask) (flask.pocoo.org).
+Answer: The argument is the name of the app's module or package, and tells Flask where to look for templates, static files, and other resources that belong to the app. For apps contained in a single module, `__name__` is always the proper value. It's also important for extensions that need debugging information. For more information, and additional arguments, see the [Flask class documentation](https://flask.palletsprojects.com/api/#flask.Flask) (flask.pocoo.org).
 
 ### Question: Can a function have more than one route decorator?
 
@@ -300,7 +295,7 @@ def hello():
 
 ### Question: How does Flask work with variable URL routes and query parameters?
 
-Answer: In a route, you mark any variable with `<variable_name>`, and Flask passes the variable to the function using a named argument in the URL path. For example, a route in the form of `/hello/<name>` generates a string argument called `name` to the function. Query parameters are available through the `request.args` property, specifically through the `request.args.get` method. For more information, see [The Request object](https://flask.palletsprojects.com/en/1.1.x/quickstart/#the-request-object) in the Flask documentation.
+Answer: In a route, you mark any variable with `<variable_name>`, and Flask passes the variable to the function using a named argument in the URL path. For example, a route in the form of `/hello/<name>` generates a string argument called `name` to the function. Query parameters are available through the `request.args` property, specifically through the `request.args.get` method. 
 
 ```python
 # URL: /hello/<name>?message=Have%20a%20nice%20day
@@ -310,7 +305,7 @@ def hello(name):
     return "Hello " + name + "! "+ msg + "."
 ```
 
-To change the type, prefix the variable with `int`, `float`, `path` (which accepts slashes to delineate folder names), and `uuid`. For details, see [Variable rules](https://flask.palletsprojects.com/en/1.0.x/quickstart/#variable-rules) in the Flask documentation.
+To change the type, prefix the variable with `int`, `float`, `path` (which accepts slashes to delineate folder names), and `uuid`. For details, see [Variable rules](https://flask.palletsprojects.com/quickstart/#variable-rules) in the Flask documentation.
 
 ### Question: Can Visual Studio generate a requirements.txt file from a virtual environment after I install other packages?
 
@@ -340,8 +335,3 @@ At this point, the basic Flask project contains the startup code and page code i
 
 > [!div class="nextstepaction"]
 > [Create a Flask app with views and page templates](learn-flask-visual-studio-step-02-create-app.md)
-
-## Go deeper
-
-- [Flask Quickstart](https://flask.palletsprojects.com/en/1.0.x/quickstart/) (flask.pocoo.org)
-- Tutorial source code on GitHub: [Microsoft/python-sample-vs-learning-flask](https://github.com/Microsoft/python-sample-vs-learning-flask)

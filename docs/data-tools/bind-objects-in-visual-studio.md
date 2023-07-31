@@ -1,7 +1,6 @@
 ---
 title: Data bind custom objects
 description: Bind objects as data sources in Visual Studio. Use design-time tools for working with custom objects as the data source in your application.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -23,6 +22,8 @@ ms.workload:
 # Bind objects as data sources in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
 
 Visual Studio provides design-time tools for working with custom objects as the data source in your application. When you want to store data from a database in an object that you bind to UI controls, the recommended approach is to use Entity Framework to generate the class or classes. Entity Framework auto-generates all the boilerplate change-tracking code, which means that any changes to the local objects are automatically persisted to the database when you call AcceptChanges on the DbSet object. For more information, see [Entity Framework Documentation](https://ef.readthedocs.org/en/latest/).
 

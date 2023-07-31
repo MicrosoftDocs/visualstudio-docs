@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically add and delete worksheet comments"
 description: Learn how you can programmatically add and delete comments in Microsoft Office Excel worksheets. You can only add comments to single cells, not to multi-cell ranges.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

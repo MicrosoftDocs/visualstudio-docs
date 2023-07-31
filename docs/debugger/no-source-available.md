@@ -1,7 +1,6 @@
 ---
 title: "No Source Available | Microsoft Docs"
 description: Learn what you can do when your project does not have source code for the code that you want to view.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:

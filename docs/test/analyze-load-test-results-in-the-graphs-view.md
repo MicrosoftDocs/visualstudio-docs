@@ -1,7 +1,6 @@
 ---
 title: Analyze load test results - Graphs view (Load Test Analyzer)
 description: Learn how to display test results as graphs. Each graph is displayed in a panel with the graph name in a drop-down list. 
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: conceptual
 f1_keywords:

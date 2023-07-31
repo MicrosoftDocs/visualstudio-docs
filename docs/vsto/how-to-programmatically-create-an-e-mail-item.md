@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically create an email item"
 description: Learn how you can programmatically create an email message in Microsoft Outlook by using Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

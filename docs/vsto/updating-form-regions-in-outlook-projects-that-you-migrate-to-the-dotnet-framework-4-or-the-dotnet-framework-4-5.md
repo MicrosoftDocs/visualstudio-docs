@@ -1,7 +1,6 @@
 ---
 title: "Update Outlook form regions when migrated to .NET Framework 4.5"
 description: You must modify your code if the target framework of an Outlook VSTO Add-in project with a form regions is changed to the .NET Framework 4 or later.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"

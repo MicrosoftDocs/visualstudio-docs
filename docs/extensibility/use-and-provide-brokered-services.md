@@ -2,7 +2,6 @@
 title: Using and providing brokered services
 description: Learn about the brokered services that the Visual Studio IDE and extensions provide and use. These articles describe how to get and provide brokered services.
 monikerRange: '>= vs-2019'
-ms.custom: SEO-VS-2020
 ms.date: 01/06/2022
 ms.topic: conceptual
 helpviewer_keywords:

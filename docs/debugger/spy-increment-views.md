@@ -1,7 +1,6 @@
 ---
 title: "Spy++ Views | Microsoft Docs"
 description: Learn about views in the Spy++ debugging tool. Spy ++ displays tree views of the windows, messages, processes, and threads available on your computer.
-ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:

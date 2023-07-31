@@ -1,15 +1,14 @@
 ---
 title: 'How to: Implement Nested Projects | Microsoft Docs'
 description: Learn how to implement nested projects in Visual Studio by raising events from the solution and parent projects to build a project hierarchy.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - nested projects, implementing
 - projects [Visual Studio SDK], nesting
 ms.assetid: d20b8d6a-f0e0-4115-b3a3-edda893ae678
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

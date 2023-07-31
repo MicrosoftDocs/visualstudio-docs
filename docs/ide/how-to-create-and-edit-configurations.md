@@ -1,7 +1,6 @@
 ---
 title: 'How to: Create and edit configurations'
 description: Learn how you can use Visual Studio to create and edit several build configurations for your solution.
-ms.custom: SEO-VS-2020
 ms.date: 05/05/2022
 ms.technology: vs-ide-compile
 ms.topic: how-to
@@ -141,7 +140,7 @@ You create a new project configuration when you want to add a new type of build.
 ## See also
 
 - [Understand build configurations](../ide/understanding-build-configurations.md)
-- [Understanding build platforms](understanding-build-platforms.md)
+- [Configure projects to target platforms](how-to-configure-projects-to-target-platforms.md)
 - [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
 - [Manage project and solution properties](managing-project-and-solution-properties.md)
 - [Create and edit configurations (Visual Studio for Mac)](/visualstudio/mac/create-and-edit-configurations)

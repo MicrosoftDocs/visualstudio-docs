@@ -2,7 +2,7 @@
 title: "Modify Visual Studio workloads, components, & language packs"
 titleSuffix: ''
 description: Learn how to modify Visual Studio, step-by-step.
-ms.date: 09/14/2021
+ms.date: 7/28/2023
 ms.topic: how-to
 ms.custom: vs-acquisition
 helpviewer_keywords:
@@ -23,12 +23,7 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-::: moniker range=">=vs-2019"
-
 It's easy to modify Visual Studio so that it includes only what you want, when you want it. To do so, open the Visual Studio Installer, and then add or remove workloads, components, and language packs.
-
-::: moniker-end
-
 
 ## Prerequisites
 
@@ -42,7 +37,6 @@ It's easy to modify Visual Studio so that it includes only what you want, when y
 
 To modify your Visual Studio installation, you first need to launch the Visual Studio Installer, and then select a Visual Studio installation to modify.
 
-
 ::: moniker range="vs-2019"
 
 1. Find the **Visual Studio Installer** on your computer.
@@ -54,7 +48,7 @@ To modify your Visual Studio installation, you first need to launch the Visual S
      > [!NOTE]
      > You can also find the Visual Studio Installer in the following location:
      >
-     > `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
+     > `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`
 
     You might have to update the installer before continuing. If so, follow the prompts.
 
@@ -77,7 +71,7 @@ To modify your Visual Studio installation, you first need to launch the Visual S
 
      ![Screenshot showing the result of a Start menu search for the Visual Studio Installer.](media/vs-2022/vs-installer.png "Search for the Visual Studio Installer")
 
-   - Run the Visual Studio Installer executable, which is located at this path: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\vs_installer.exe`
+   - Run the Visual Studio Installer executable, which is located at this path: `C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe`
 
    - If you have Visual Studio open, select **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer.
 
@@ -92,7 +86,6 @@ To modify your Visual Studio installation, you first need to launch the Visual S
 ::: moniker-end
 
 ## Change workloads or individual components
-
 
 ::: moniker range="vs-2019"
 
@@ -139,6 +132,8 @@ Workloads contain the components you need for the programming language or platfo
 1. Choose **Modify**.
 
 1. After the modified workloads or components are installed, choose **Launch** from the Visual Studio Installer to open Visual Studio 2022.
+
+You can also use a [configuration file to modify an existing installation to add or remove components](import-export-installation-configurations.md#use-a-configuration-file-to-add-components-to-an-existing-installation). Learn more about using [installation configuration files to configure Visual Studio](import-export-installation-configurations.md).
 
 ::: moniker-end
 

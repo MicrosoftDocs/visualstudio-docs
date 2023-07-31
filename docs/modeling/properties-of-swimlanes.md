@@ -1,7 +1,6 @@
 ---
 title: Properties of Swimlanes
 description: Learn how swimlanes divide a diagram into vertical or horizontal areas, and how you can define other shapes to be displayed inside swimlanes.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

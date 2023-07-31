@@ -1,7 +1,6 @@
 ---
 title: View Script Documents | Microsoft Docs
 description: Understand how to view JavaScript server-side script documents in Visual Studio using Solution Explorer.
-ms.custom: SEO-VS-2020
 ms.date: 11/05/2019
 ms.topic: how-to
 dev_langs: 

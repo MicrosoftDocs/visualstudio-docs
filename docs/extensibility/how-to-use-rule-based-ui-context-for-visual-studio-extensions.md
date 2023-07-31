@@ -2,12 +2,11 @@
 title: Use rule-based UI context for Visual Studio extensions
 titleSuffix: ""
 description: Learn how to use Rules-based UI Contexts, which allows extension authors to define conditions when a UI Context is activated and VSPackages are loaded.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: 8dd2cd1d-d8ba-49b9-870a-45acf3a3259d
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 ms.workload:
 - vssdk
 ---
@@ -65,7 +64,7 @@ Rule-based UI Context can be used in various ways:
    <CommandFlag>DynamicVisibility</CommandFlag>
    ```
 
-3. In the Visibilities section of the VSCT, tie the appropriate commands to the new UIContext GUID defined in #1:
+3. In the VisibilityConstraints section of the VSCT, tie the appropriate commands to the new UIContext GUID defined in #1:
 
    ```xml
    <VisibilityConstraints>
@@ -131,7 +130,7 @@ Here are the various types of term that are supported:
 |Term|Description|
 |-|-|
 |{nnnnnnnn-nnnn-nnnn-nnnn-nnnnnnnnnnnn}|The GUID refers to a UI Context. The term will be true whenever the UI Context is active and false otherwise.|
-|HierSingleSelectionName:\<pattern>|The term will be true whenever the selection in the active hierarchy is a single item and the name of the selected item matches the .Net regular expression given by "pattern".|
+|HierSingleSelectionName:\<pattern>|The term will be true whenever the selection in the active hierarchy is a single item and the name of the selected item matches the .NET regular expression given by "pattern".|
 |UserSettingsStoreQuery:\<query>|"query" represents a full path into the user settings store, which must evaluate to a non-zero value. The query is split into a "collection" and "propertyName" at the last slash.|
 |ConfigSettingsStoreQuery:\<query>|"query" represents a full path into the config settings store, which must evaluate to a non-zero value. The query is split into a "collection" and "propertyName" at the last slash.|
 |ActiveProjectFlavor:\<projectTypeGuid>|The term will be true whenever the currently selected project is flavored (aggregated) and has a flavor matching the given project type GUID.|

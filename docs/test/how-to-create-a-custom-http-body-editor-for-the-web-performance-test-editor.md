@@ -1,7 +1,6 @@
 ---
 title: Create a HTTP body editor for a web performance test
 description: Learn how to create a custom content editor that enables you to edit the string body content or the binary body content of a web service request.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

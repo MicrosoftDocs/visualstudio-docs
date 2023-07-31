@@ -1,8 +1,8 @@
 ---
 title: "IntelliSense"
 description: "Information on using IntelliSense in Visual Studio for Mac"
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 08/16/2019
 ms.topic: reference

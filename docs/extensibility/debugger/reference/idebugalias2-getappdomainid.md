@@ -7,8 +7,8 @@ helpviewer_keywords:
 - GetAppDomainId
 - IDebugAlias2::GetAppDomainId
 ms.assetid: 23581aaa-5a53-4859-b264-eca49fc44bcd
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

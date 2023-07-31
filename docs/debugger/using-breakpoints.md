@@ -1,8 +1,7 @@
 ---
 title: Use breakpoints in the debugger | Microsoft Docs
 description: Learn about breakpoints, one of the most important debugging techniques. The article covers breakpoint actions, tracepoints, conditions, and much more.
-ms.custom: SEO-VS-2020
-ms.date: 12/08/2021
+ms.date: 12/13/2022
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.breakpointswin
@@ -43,13 +42,15 @@ ms.workload:
 Breakpoints are one of the most important debugging techniques in your developer's toolbox. You set breakpoints wherever you want to pause debugger execution. For example, you may want to see the state of code variables or look at the call stack at a certain breakpoint.  If you are trying to resolve a warning or issue while using breakpoints, see [Troubleshoot breakpoints in the Visual Studio debugger](../debugger/troubleshooting-breakpoints.md).
 
 > [!NOTE]
-> If you know the task or problem you're trying to solve, but you need to know what kind of breakpoint to use, see [FAQ - Find your debugging feature](../debugger/find-your-debugging-task.yml#pause-running-code).
+> If you know the task or problem you're trying to solve, but you need to know what kind of breakpoint to use, see [FAQ - Find your debugging feature](../debugger/find-your-debugging-task.yml#breakpoints).
 
 ## <a name="BKMK_Overview"></a> Set breakpoints in source code
 
 You can set a breakpoint on any line of executable code. For example, in the following C# code, you could set a breakpoint on the line of code with the variable assignment (`int testInt = 1`), the `for` loop, or any code inside the `for` loop. You can't set a breakpoint on method signatures, declarations for a namespace or class, or variable declarations if there's no assignment and no getter/setter.
 
-To set a breakpoint in source code, click in the far left margin next to a line of code. You can also select the line and press **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert breakpoint**. The breakpoint appears as a red dot in the left margin.
+To set a breakpoint in source code:
+
+- Click in the far left margin next to a line of code. You can also select the line and press **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert breakpoint**. The breakpoint appears as a red dot in the left margin.
 
 For most languages including C#, breakpoint and current execution lines are automatically highlighted. For C++ code, you can turn on highlighting of breakpoint and current lines by selecting **Tools** (or **Debug**) > **Options** > **Debugging** >  **Highlight entire source line for breakpoints and current statement (C++ only)**.
 
@@ -310,9 +311,10 @@ Choose **Close** or press **Ctrl+Enter** to close the Breakpoint Settings window
 ![Dependent Breakpoint](../debugger/media/dbg-dependent-breakpoint.png "DependentBreakpoint")
 
 You can also use the right-click context menu to set the dependent breakpoint.
+
 1. Right-click in the far left margin next to a line of code and select **Insert Dependent Breakpoint** from the context menu.
 
-![Dependentbreakpoint context](../debugger/media/dbg_dependent-breakpoint-context.png "DependentBreakpointContext")
+   ![Dependentbreakpoint context](../debugger/media/dbg_dependent-breakpoint-context.png "DependentBreakpointContext")
 
 - Dependent breakpoints don't work if there is only a single breakpoint in your application. 
 - Dependent breakpoints are converted to normal line breakpoint if the prerequisite breakpoint is deleted. 
@@ -326,14 +328,15 @@ This breakpoint lets you break the code only once. When debugging, the Visual St
 1. Hover over the breakpoint symbol, choose the **Settings** icon, and then select **Remove breakpoint once hit** in the Breakpoint Settings window.
 2. Choose **Close** or press **Ctrl+Enter** to close the Breakpoint Settings window. Or, from the Breakpoints window, choose **OK** to close the dialog.
 
-![Temporary breakpoint](../debugger/media/dbg_temporary-breakpoint.png "TemporaryBreakpoint")
+   ![Temporary breakpoint](../debugger/media/dbg_temporary-breakpoint.png "TemporaryBreakpoint")
 
 You can also use the right-click context menu to set the temporary breakpoint.
+
 1. Right-click in the far left margin next to a line of code and select **Insert Temporary Breakpoint** from the context menu.
 
-![Temporary breakpoint context](../debugger/media/dbg_temporary-breakpoint-context.png "TemporaryBreakpointContext")
+   ![Temporary breakpoint context](../debugger/media/dbg_temporary-breakpoint-context.png "TemporaryBreakpointContext")
 
-or simply use the shortcut **F9 + Shift + Alt, T** and  set the temporary breakpoint on line desired.
+Or, simply use the shortcut **F9 + Shift + Alt, T** and  set the temporary breakpoint on line desired.
 ::: moniker-end
 
 ## <a name="BKMK_Specify_advanced_properties_of_a_breakpoint_"></a> Manage breakpoints in the Breakpoints window

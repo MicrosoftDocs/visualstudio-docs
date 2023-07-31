@@ -92,7 +92,7 @@ The *debugee-side* varies depending on the example, so it's shown separately in 
 
 ## Using the new Async API
 
-For compatibility reasons, the `Show` method that gets overwritten by your `DialogDebuggerVisualizer` still receives an object provider instance of type `IVisualizerObjectProvider`. However, this type also implements the `IAsyncVisualizerObjectProvider` interface. Therefore, it's safe to cast it when using VS 2022 17.2 onward. That provider adds an async implementation of the methods present in `IVisualizerObjectProvider2`.
+For compatibility reasons, the `Show` method that gets overridden by your `DialogDebuggerVisualizer` still receives an object provider instance of type `IVisualizerObjectProvider`. However, this type also implements the `IAsyncVisualizerObjectProvider` interface. Therefore, it's safe to cast it when using VS 2022 17.2 onward. That provider adds an async implementation of the methods present in `IVisualizerObjectProvider2`.
 
 ## Handling long serialization time
 

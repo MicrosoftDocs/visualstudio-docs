@@ -1,7 +1,6 @@
 ---
 title: MIDL Task | Microsoft Docs
 description: Learn about the MSBuild MIDL task, which wraps the Microsoft Interface Definition Language (MIDL) compiler tool, midl.exe. 
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

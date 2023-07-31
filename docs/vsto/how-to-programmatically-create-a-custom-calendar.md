@@ -1,7 +1,6 @@
 ---
 title: "How to: Programmatically create a custom calendar"
 description: Use this example to programmatically create a new Calendar folder named PersonalCalendar, and then create a new Appointment item and add it to the Calendar folder.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "how-to"
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: ItemDefinitionGroup Element (MSBuild) | Microsoft Docs
 description: Learn how MSBuild uses the ItemDefinitionGroup element to define a set of item definitions, metadata values that are applied to all items in the project.
-ms.custom: SEO-VS-2020
 ms.date: 03/13/2017
 ms.topic: reference
 f1_keywords:

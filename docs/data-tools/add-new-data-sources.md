@@ -1,8 +1,7 @@
 ---
 title: Add new data sources
 description: Add new data sources in Visual Studio. A data source is a .NET object that connects to a data store and make the data available to a .NET application.
-ms.custom: SEO-VS-2020
-ms.date: 04/12/2022
+ms.date: 06/01/2023
 ms.topic: how-to
 f1_keywords:
 - vs.datasource.datasourcefieldspicker
@@ -21,10 +20,10 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-:::moniker range=">=vs-2019"
+[!INCLUDE [Data access tech note](./includes/data-technology-note.md)]
+
 > [!NOTE]
 > The features described in this article apply to .NET Framework Windows Forms and WPF development. The features are not supported for .NET Core development, for both WPF and Windows Forms.
-:::moniker-end
 
 In the context of .NET data tools in Visual Studio, the term *data source* refers to .NET objects that connect to a data store and make the data available to a .NET application. The Visual Studio designers can consume the output of the data source to generate the boilerplate code that binds the data to forms when you drag and drop database objects from the **Data Sources** window. This kind of data source can be:
 
@@ -102,15 +101,15 @@ You can create a data source from the following types of services:
 - Web services
 
     > [!NOTE]
-    > The items that appear in the **Data Sources** window are dependent on the data that the service returns. Some services might not provide enough information for the **Data Source Configuration Wizard** to create bindable objects. For example, if the service returns an untyped dataset, no items appear in the **Data Sources** window when you complete the wizard. This is because untyped datasets do not provide a schema, and therefore the wizard does not have enough information to create the data source.
+    > The items that appear in the **Data Sources** window are dependent on the data that the service returns. Some services might not provide enough information for the **Data Source Configuration Wizard** to create bindable objects. For example, if the service returns an untyped dataset, no items appear in the **Data Sources** window when you complete the wizard. This is because untyped datasets do not provide a schema, and therefore the wizard doesn't have enough information to create the data source.
 
 ## Data source for an object
 
-You can create a data source from any object that exposes one or more public properties by running the **Data Source Configuration Wizard** and then selecting the **Object** data-source type. All public properties of an object are displayed in the **Data Sources** window. If you are using Entity Framework and have generated a model, this is where you find the entity classes that are the data sources for your application.
+You can create a data source from any object that exposes one or more public properties by running the **Data Source Configuration Wizard** and then selecting the **Object** data-source type. All public properties of an object are displayed in the **Data Sources** window. If you're using Entity Framework and have generated a model, this is where you find the entity classes that are the data sources for your application.
 
 On the **Select the Data Objects** page, expand the nodes in the tree view to locate the objects that you want to bind to. The tree view contains nodes for your project and for assemblies and other projects that are referenced by your project.
 
-If you want to bind to an object in an assembly or project that does not appear in the tree view, click **Add Reference** and use the **Add Reference Dialog Box** to add a reference to the assembly or project. After you add the reference, the assembly or project is added to the tree view.
+If you want to bind to an object in an assembly or project that doesn't appear in the tree view, click **Add Reference** and use the **Add Reference Dialog Box** to add a reference to the assembly or project. After you add the reference, the assembly or project is added to the tree view.
 
 > [!NOTE]
 > You may need to build the project that contains your objects before the objects appear in the tree view.

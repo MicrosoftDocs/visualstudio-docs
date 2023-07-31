@@ -1,14 +1,13 @@
 ---
 title: Use a shortcut key with an editor extension
 description: Learn how to add a view adornment to a text view by using a shortcut key. This walkthrough is based on the viewport adornment editor template.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - link keystrokes to commands
 ms.assetid: cf6cc6c6-5a65-4f90-8f14-663decf74672
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

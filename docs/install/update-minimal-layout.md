@@ -25,7 +25,7 @@ The minimal layout tool generates a layout tailored specifically to your team's 
 > [!IMPORTANT]
 > These instructions assume that you've previously created and used layouts. For more information about how to do so, see the [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md) page.
 >
-> For a better understanding of the Visual Studio lifecycle, see the [Visual Studio Product Lifecycle and Servicing](/visualstudio/releases/2019/servicing) page.
+> For a better understanding of the Visual Studio lifecycle, see the [Visual Studio Product Lifecycle and Servicing](/visualstudio/productinfo/vs-servicing) page.
 >
 
 This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The layout can be deployed to network/offline machines to update Visual Studio instances. During [normal layout creation](update-a-network-installation-of-visual-studio.md), all the packages for that particular release are downloaded. Normal layout creation is required for repairing, uninstalling, and other standard operations on Visual Studio instances. The minimal layout downloads only updated packages, so it's smaller and easier to copy to offline machines.
@@ -65,8 +65,6 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 
 #### Options
 
-::: moniker range=">=vs-2019"
-
 | Options                                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                 | Required/Optional               | Example                                                                                                                                                          |
 |-----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | --targetLocation &lt;dir&gt;                        | Specifies a directory in which to create a minimal offline layout.                                                                                                                                                                                                                                                                                                                                                                          | Required                        | --targetLocation c:\VSLayout\                                                                                                                                    |
@@ -79,8 +77,6 @@ This tool creates update layouts for Visual Studio 2017 (15.9) and onwards. The 
 | --includeRecommended                                | Includes the recommended components for any workloads that are installed, but not the optional components.                                                                                                                                                                                                                                                                                                                                  | Optional                        | For a  specific workload: <br> --add Microsoft.VisualStudio.Workload. ManagedDesktop;includeRecommended <br><br> To apply to all workloads: --includeRecommended |
 | --includeOptional                                   | Includes the optional components for any workloads that are installed, including the recommended components.                                                                                                                                                                                                                                                                                                                                | Optional                        | For a specific workload: <br>--add Microsoft.VisualStudio.Workload. ManagedDesktop;includeOptional <br><br> To apply to all workloads: --includeOptional         |
 
-::: moniker-end
-
 
 ### Generating a minimal layout
 
@@ -92,8 +88,6 @@ Create a minimal layout using the **generate** command for your specified range 
 Before creating the layout, you can find out the total size of the download and the number of packages included by using the **preview** command. This command takes the same options as the **generate** command, and the details are written to the console.
 
 Let's walk through a few examples of how to preview, generate, and regenerate a minimal layout:
-
-::: moniker range=">=vs-2019"
 
 * First, here's an example of how to preview a layout for Visual Studio Enterprise versions 16.4.0 to 16.4.4 for English only.
 
@@ -133,8 +127,6 @@ A few other examples using the **generate** command:
   MinimalLayout.exe generate --targetLocation c:\VSLayout\ --productIds Microsoft.VisualStudio.Product.Enterprise --baseVersion 16.4.0 --targetVersion 16.4.4 --add Microsoft.VisualStudio.Workload.ManagedDesktop;includeOptional --languages en-US fr-FR
   ```
 
-::: moniker-end
-
 
 ### How to maintain a minimal layout
 
@@ -169,7 +161,6 @@ Navigate to the folder and identify the bootstrapper application name. The name 
 | Microsoft.VisualStudio.Product.BuildTools   | vs_buildtools.exe   |
 
 The update is applied to a Visual Studio instance in two steps. Start by updating the Visual Studio Installer, then update Visual Studio.
-
 
 ::: moniker range="vs-2019"
 
@@ -225,4 +216,4 @@ The update is applied to a Visual Studio instance in two steps. Start by updatin
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
 * [How to define settings in a response file](automated-installation-with-response-file.md)
 * [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
-* [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing/)
+* [Visual Studio product lifecycle and servicing](/visualstudio/productinfo/vs-servicing)

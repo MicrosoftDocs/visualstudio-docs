@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: bb2fa359-8170-4db0-a0c5-d49fc692b0aa
-ms.date: 07/13/2022
+ms.date: 04/03/2023
 ms.topic: conceptual
 description:  Learn about the effects of upgrading or downloading your Visual Studio subscription level.
 ---
@@ -21,24 +21,24 @@ Based on whether you upgrade or downgrade, and which subscription level you have
 
 ## How do my benefits change?
 
-The changes you'll see for a specific benefit depend on the benefit itself.  We'll look at some examples, and discuss effects of upgrades and downgrades for each.
+The changes you see for a specific benefit depends on the benefit itself.  This article looks at some examples, and discusses effects of upgrades and downgrades for each.
 
 ### Visual Studio IDE
 
 For information about which version of Visual Studio is included in your subscription(s), check out our [Visual Studio subscription benefits page](https://visualstudio.microsoft.com/vs/benefits/). Visit the [Compare Visual Studio 2019 Editions](https://visualstudio.microsoft.com/vs/compare/) page to learn about the differences between the editions included in your subscription(s).
  
-UPGRADES:  You'll have access to the level of the IDE provided in your new subscription.  To use it, you'll want to uninstall the lower version and install the new, higher version.  
+UPGRADES:  You have access to the level of the IDE provided in your new subscription.  To use it, uninstall the lower version and install the new, higher version.  
 
-DOWNGRADES: You still have perpetual use rights for the version provided in the higher subscription level.  You won't be able to sign in to access that version of the IDE, though, so you'll need to activate it with a product key **before** you lose access to the higher level subscription.  You can get a product key by visiting the [product keys page](https://my.visualstudio.com/productkeys) in the subscriber portal.  If you've already claimed product keys for Visual Studio, you can also export the list of keys you've claimed. Learn more about [finding and claiming product keys](find-keys.md).
+DOWNGRADES: You still have perpetual use rights for the version provided in the higher subscription level.  You can't sign in to access that version of the IDE, though, so you need to activate it with a product key **before** you lose access to the higher level subscription.  You can get a product key by visiting the [product keys page](https://my.visualstudio.com/productkeys) in the subscriber portal.  If you've already claimed product keys for Visual Studio, you can also export the list of keys you've claimed. Learn more about [finding and claiming product keys](find-keys.md).
 
 ### Individual Azure credits
 
 The allotment of individual Azure credits varies by subscription level.  You may receive anywhere from $0 to $150 in credits per month, depending on your subscription level.  
 
-There are three scenarios you may encounter if your Visual Studio subscription changes.  In addition to potential upgrades or downgrades, your company's subscriptions admin(s) may assign you a subscription at the same level you have now, but with a different subscription ID.  In all three of these cases, the effects on your Azure subscriptions are the same -- only the amounts of individual credits may change. 
+There are three scenarios you may encounter if your Visual Studio subscription changes.  In addition to potential upgrades or downgrades, your company's subscriptions admin(s) may assign you a subscription at the same level you have now, but with a different subscription ID.  In all three of these cases, the effects on your Azure subscriptions are the same--only the amounts of individual credits may change. 
 
-Changing your Visual Studio subscription will break the link with your Azure subscription that receives the credits and a new Azure subscription will be created when you activate the benefit in your new subscription.  When that happens, the old Azure subscription will be subject to eventual deactivation.  To avoid this, choose one of the following workarounds:
-+ Convert the subscription to pay-as-you-go.  For details, https://azure.microsoft.com/offers/ms-azr-0023p/.  You'll need to attach a payment instrument such as a credit card to this subscription. 
+Changing your Visual Studio subscription breaks the link with your Azure subscription that receives the credits and a new Azure subscription is created when you activate the benefit in your new subscription.  When that happens, the old Azure subscription is subject to eventual deactivation.  To avoid losing your assets, choose one of the following workarounds:
++ Convert the subscription to pay-as-you-go.  For details, https://azure.microsoft.com/offers/ms-azr-0023p/.  You need to attach a payment instrument such as a credit card to this subscription. 
 + Create a new Azure subscription using the benefit in your new Visual Studio subscription, and transfer any existing Azure assets in the old Azure subscription to the new one. 
   > [!IMPORTANT]
   > It is important that you move your Azure assets to your new Azure subscription or change the existing Azure subscription to pay-as-you-go to avoid loss of your existing Azure assets. 
@@ -56,13 +56,13 @@ The effects of changing subscription levels on other benefits can vary widely.
 
 #### Benefits with a fixed length
 
-Many of the benefits provided by our partners are offers that have a fixed length.  If you've activated them prior to any changes in your subscription level, many of them will be unaffected and will remain available to you until the end of their normal term.  For example, if you've activated a six month subscription to a training benefit as part of an Enterprise subscription, and your Visual Studio subscription is downgraded to Visual Studio Professional, you'll still have any remaining time on the training subscription.  
+Many of the benefits provided by our partners are offers that have a fixed length.  If you've activated them prior to any changes in your subscription level, many of them are unaffected and remain available to you until the end of their normal term.  For example, if you've activated a six month subscription to a training benefit as part of an Enterprise subscription, and your Visual Studio subscription is downgraded to Visual Studio Professional, you still have any remaining time on the training subscription.  
 
 #### Benefits that require authentication
 
 If you're using a benefit that's authenticated every time you sign in to Visual Studio, those benefits won't be available if your subscription level is downgraded.  
 
-#### Benefits that are not available in lower subscription levels
+#### Benefits that aren't available in lower subscription levels
 
 If you're using benefits offered in your current subscription but not in the subscription to which yours is downgraded, you may lose access to those benefits.  
 

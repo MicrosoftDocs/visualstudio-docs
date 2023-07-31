@@ -1,8 +1,8 @@
 ---
 title: Code formatting
 description: "This article describes the various options that can be used to modify the text editor behavior in Visual Studio for Mac"
-author: jmatthiesen
-ms.author: jomatthi
+author: heiligerdankgesang 
+ms.author: dominicn
 manager: dominicn
 ms.date: 03/03/2022
 ms.custom: devdivchpfy22

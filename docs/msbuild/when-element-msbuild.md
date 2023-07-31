@@ -1,8 +1,7 @@
 ---
 title: When Element (MSBuild) | Microsoft Docs
 description: Learn about the MSBuild When element, which specifies a possible block of code for the Choose element to select.
-ms.custom: SEO-VS-2020
-ms.date: 03/13/2017
+ms.date: 08/10/2022
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#When
@@ -10,7 +9,6 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - <When> Element [MSBuild]
 - When Element [MSBuild]
@@ -77,50 +75,96 @@ Specifies a possible block of code for the `Choose` element to select.
 
 ## Example
 
- The following project uses the `Choose` element to select which set of property values in the `When` elements to set. If the `Condition` attributes of both `When` elements evaluate to `false`, the property values in the `Otherwise` element are set.
+ The following project uses the `Choose` element to select which set of property values in the `When` elements to set. If the `Condition` attributes of both `When` elements evaluate to `false`, the property values in the `Otherwise` element are set. When running the example, try passing in various property settings from the command line, such as `msbuild myproj.proj -p:Configuration=Test;Platform=x86`, and see what the output path looks like. The example supposes the requirement is to set certain properties for debug and release builds, including the output folder based on the bitness of the platform rather than the actual platform name, and also support the 'Test' and 'Retail' configurations, but treat 'Retail' as 'Release'.
 
 ```xml
-<Project
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+<Project>
     <PropertyGroup>
-        <Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
-        <OutputType>Exe</OutputType>
-        <RootNamespace>ConsoleApplication1</RootNamespace>
-        <AssemblyName>ConsoleApplication1</AssemblyName>
-        <WarningLevel>4</WarningLevel>
+       <Configuration Condition="$(Configuration) == ''">Debug</Configuration>
+       <Platform Condition="$(Platform) == ''">x64</Platform>
     </PropertyGroup>
-    <Choose>
-        <When Condition=" '$(Configuration)'=='debug' ">
+
+  <Choose>
+     <When Condition="$(Configuration)=='Test'">
+        <PropertyGroup>
+            <DebugSymbols>true</DebugSymbols>
+            <DebugType>full</DebugType>
+            <Optimize>false</Optimize>
+            <DefineConstants>DEBUG;TRACE</DefineConstants>
+        </PropertyGroup>
+        <Choose>
+          <When Condition="$(Platform)=='x86' Or $(Platform) == 'ARM32'">
             <PropertyGroup>
-                <DebugSymbols>true</DebugSymbols>
-                <DebugType>full</DebugType>
-                <Optimize>false</Optimize>
-                <OutputPath>.\bin\Debug\</OutputPath>
-                <DefineConstants>DEBUG;TRACE</DefineConstants>
+                <OutputPath>.\bin\Test\32-bit\</OutputPath>
             </PropertyGroup>
-            <ItemGroup>
-                <Compile Include="UnitTesting\*.cs" />
-                <Reference Include="NUnit.dll" />
-            </ItemGroup>
-        </When>
-        <When Condition=" '$(Configuration)'=='retail' ">
+          </When>
+          <When Condition="$(Platform)=='x64' Or $(Platform) == 'ARM64'">
             <PropertyGroup>
-                <DebugSymbols>false</DebugSymbols>
-                <Optimize>true</Optimize>
-                <OutputPath>.\bin\Release\</OutputPath>
-                <DefineConstants>TRACE</DefineConstants>
+                <OutputPath>.\bin\Test\64-bit\</OutputPath>
             </PropertyGroup>
-        </When>
-        <Otherwise>
+          </When>
+          <!-- For any other platform, use the platform name -->
+          <Otherwise>
             <PropertyGroup>
-                <DebugSymbols>true</DebugSymbols>
-                <Optimize>false</Optimize>
-                <OutputPath>.\bin\$(Configuration)\</OutputPath>
-                <DefineConstants>DEBUG;TRACE</DefineConstants>
+              <OutputPath>.\bin\Test\$(Platform)\</OutputPath>
             </PropertyGroup>
-        </Otherwise>
-    </Choose>
-    <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+          </Otherwise>
+        </Choose>
+      </When>
+      <When Condition="$(Configuration)=='Retail' Or $(Configuration)=='Release'">
+        <PropertyGroup>
+            <DebugSymbols>false</DebugSymbols>
+            <Optimize>true</Optimize>
+            <DefineConstants>TRACE</DefineConstants>
+        </PropertyGroup>
+        <Choose>
+          <When Condition="$(Platform)=='x86' Or $(Platform) == 'ARM32'">
+             <PropertyGroup>
+                <OutputPath>.\bin\Release\32-bit\</OutputPath>
+             </PropertyGroup>
+          </When>
+          <When Condition="$(Platform)=='x64' Or $(Platform) == 'ARM64'">
+             <PropertyGroup>
+                <OutputPath>.\bin\Release\64-bit\</OutputPath>
+             </PropertyGroup>
+          </When>
+          <!-- For any other platform, use the platform name -->
+          <Otherwise>
+            <PropertyGroup>
+                <OutputPath>.\bin\Release\$(Platform)\</OutputPath>
+            </PropertyGroup>
+          </Otherwise>
+        </Choose>
+      </When>
+      <!-- For any other configuration, use debug properties-->
+      <Otherwise>
+        <PropertyGroup>
+            <DebugSymbols>true</DebugSymbols>
+            <DebugType>full</DebugType>
+            <Optimize>false</Optimize>
+            <DefineConstants>DEBUG;TRACE</DefineConstants>
+        </PropertyGroup>
+        <Choose>
+          <When Condition="$(Platform)=='x86' Or $(Platform)=='ARM32'">
+            <PropertyGroup>
+              <OutputPath>.\bin\$(Configuration)\32-bit\</OutputPath>
+            </PropertyGroup>
+          </When>
+          <When Condition="$(Platform)=='x64' Or $(Platform)=='ARM64'">
+            <PropertyGroup>
+              <OutputPath>.\bin\$(Configuration)\64-bit\</OutputPath>
+            </PropertyGroup>
+          </When>
+        </Choose>
+       </Otherwise>
+  </Choose>
+
+  <Target Name="ShowProperties">
+    <Message Text="DebugSymbols: $(DebugSymbols)"/>
+    <Message Text="Optimize: $(Optimize)"/>
+    <Message Text="DefineConstants: $(DefineConstants)"/>
+    <Message Text="OutputPath: $(OutputPath)"/>
+  </Target>
 </Project>
 ```
 

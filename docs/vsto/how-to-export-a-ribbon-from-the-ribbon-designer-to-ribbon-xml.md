@@ -1,7 +1,6 @@
 ---
 title: "How to: Export a ribbon from the Ribbon Designer to Ribbon XML"
 description: Learn that to customize the ribbon, you can export the ribbon from the designer to Ribbon XML and edit the XML directly.
-ms.custom: SEO-VS-2020
 titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "how-to"

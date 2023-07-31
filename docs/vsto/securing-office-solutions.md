@@ -1,7 +1,6 @@
 ---
 title: "Secure Office solutions"
 description: Learn how the security model for Office solutions involves several technologies, including the Visual Studio Tools for Office runtime and ClickOnce. 
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

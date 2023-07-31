@@ -1,7 +1,6 @@
 ---
 title: INTERCEPT_EXCEPTION_ACTION | Microsoft Docs
 description: The INTERCEPT_EXCEPTION_ACTION enumeration specifies what action to take when intercepting exceptions in Visual Studio debugging.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -9,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - INTERCEPT_EXCEPTION_ACTION enumeration
 ms.assetid: e647f1eb-2932-4447-8c78-3b0d706fb972
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

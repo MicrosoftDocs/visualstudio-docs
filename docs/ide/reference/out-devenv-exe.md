@@ -1,7 +1,6 @@
 ---
 title: -Out (devenv.exe)
 description: Learn how to use the Out devenv command-line switch to specify a file to store and display errors when you run, run and exit, upgrade, build, rebuild, clean, or deploy a solution.
-ms.custom: SEO-VS-2020
 ms.date: 12/10/2018
 ms.topic: reference
 helpviewer_keywords:

@@ -20,5 +20,5 @@ You can obtain product keys in two places:
 
 For more information about obtaining and using product keys, please see these articles:
 
-- [Product keys overview](https://docs.microsoft.com/visualstudio/subscriptions/product-keys)
-- [Find and claim keys](https://docs.microsoft.com/visualstudio/subscriptions/find-keys)
+- [Product keys overview](https://learn.microsoft.com/visualstudio/subscriptions/product-keys)
+- [Find and claim keys](https://learn.microsoft.com/visualstudio/subscriptions/find-keys)

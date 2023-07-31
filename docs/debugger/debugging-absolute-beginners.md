@@ -1,7 +1,7 @@
 ---
 title: "Debugging code for absolute beginners"
 description: "If you're debugging for the first time, learn a few principles to help you run your app in debugging mode with Visual Studio."
-ms.date: 06/28/2022
+ms.date: 06/26/2023
 ms.topic: tutorial
 helpviewer_keywords:
   - "debugger"
@@ -62,7 +62,7 @@ When you normally run an app, you see errors and incorrect results only after th
 
 Running an app within a debugger, also called *debugging mode*, means that the debugger actively monitors everything that’s happening as the program runs. It also allows you to pause the app at any point to examine its state and then step through your code line by line to watch every detail as it happens.
 
-In Visual Studio, you enter debugging mode by using **F5** (or the **Debug** > **Start Debugging** menu command or the **Start Debugging** button :::image type="content" source="../debugger/media/dbg-tour-start-debugging.png" alt-text="Icon showing Start Debugging button."::: in the Debug Toolbar). If any exceptions occur, Visual Studio’s Exception Helper takes you to the exact point where the exception occurred and provides other helpful information. For more information on how to handle exceptions in your code, see [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md).
+In Visual Studio, you enter debugging mode by using **F5** (or the **Debug** > **Start Debugging** menu command or the **Start Debugging** button :::image type="content" source="../debugger/media/dbg-tour-start-debugging.png" alt-text="Icon showing Start Debugging button."::: in the Debug Toolbar). If any exceptions occur, Visual Studio’s Exception Helper takes you to the exact point where the exception occurred and provides other helpful information. For more information on how to handle exceptions in your code, see [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md#fix-an-exception).
 
 If you didn't get an exception, you probably have a good idea of where to look for the problem in your code. This is where you use *breakpoints* with the debugger to give yourself a chance to examine your code more carefully. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should pause your running code so you can take a look at the values of variables, or the behavior of memory, the sequence in which code runs.
 
@@ -74,21 +74,19 @@ To help illustrate these concepts, we take you through some example code that al
 
 Next, we'll create an application that has a few bugs.
 
-1. You must have Visual Studio installed, and the **.NET Core cross platform development** workload installed.
+1. You must have Visual Studio installed, and the **.NET desktop development** workload installed.
 
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
 
-    If you need to install the workload but already have Visual Studio, click **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **.NET Core cross platform development** workload, then choose **Modify**.
+    If you need to install the workload but already have Visual Studio, click **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **.NET desktop development** workload, then choose **Modify**.
 
 1. Open Visual Studio.
 
-    On the start window, choose **Create a new project**. Type **console** in the search box, select either **C#** or **Visual Basic** as the language, and then choose **Console App** for .NET Core. Choose **Next**. Type a project name like **ConsoleApp_FirstApp** and click **Next**.
+    On the start window, choose **Create a new project**. Type **console** in the search box, select either **C#** or **Visual Basic** as the language, and then choose **Console App** for .NET. Choose **Next**. Type a project name like **ConsoleApp_FirstApp** and click **Next**.
 
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
 
-    ::: moniker-end
-
-    If you don't see the **Console App** project template for .NET Core, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET Core cross platform development** workload, then choose **Modify**.
+    If you don't see the **Console App** project template for .NET, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
 
     Visual Studio creates the console project, which appears in **Solution Explorer** in the right pane.
 
@@ -313,7 +311,8 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
 ### Debug the app
 
 1. With the app still running, insert a breakpoint.
-    Right-click next to the `Console.WriteLine` method to get the context menu and select **Insert Breakpoint** from the fly-out menu.
+
+    Right-click next to the `Console.WriteLine` method to get the context menu and select **Breakpoint** > **Insert Breakpoint** from the fly-out menu.
 
     #### [C#](#tab/csharp)
 
@@ -348,6 +347,12 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
     "Spiral" is actually the correct value you were expecting to print to the console! So it is a good start that you can access this value in this code while running the app. In this scenario, we're using the incorrect API. We'll see if we can fix this while running code in the debugger.
 
 1. In the same code, while still debugging, put your cursor at the end of `theGalaxy.GalaxyType` and change it to `theGalaxy.GalaxyType.MyGType`. Although you can make this change, the code editor shows you an error indicating it can't compile this code. (In Visual Basic, you won't see the error, and this section of code works)
+
+1. Press **F11** (**Debug** > **Step Into** or the **Step Into** button in the Debug Toolbar) to execute the current line of code.
+
+    **F11** advances the debugger (and executes code) one statement at a time. **F10** (**Step Over**) is a similar command, and both are extremely useful when learning how to use the debugger.
+
+   The Edit and Continue dialog box appears, indicating that edits can't be compiled.
 
     :::image type="content" source="../debugger/media/beginners-edit.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and an Edit and Continue message box with the Edit button selected.":::
 
@@ -417,9 +422,7 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
 
     :::image type="content" source="../debugger/media/beginners-inspecting-data.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code in yellow and a small window showing the value of the type variable as 73 'I'.":::
 
-1. Now, press **F11** (**Debug** > **Step Into** or the **Step Into** button in the Debug Toolbar).
-
-    **F11** advances the debugger (and executes code) one statement at a time. **F10** (**Step Over**) is a similar command, and both are extremely useful when learning how to use the debugger.
+1. Now, press **F11** (**Debug** > **Step Into**).
 
 1. Press **F11** until you stop on line of code in the `switch` statement for a value of 'I' (`Select` statement for Visual Basic). Here, you see a clear problem resulting from a typo. You expected the code to advance to where it sets `MyGType` as an Irregular galaxy type, but the debugger instead skips this code completely and pauses on the `default` section of the `switch` statement (`Else` statement in Visual Basic).
 

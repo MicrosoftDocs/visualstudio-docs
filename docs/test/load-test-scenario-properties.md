@@ -1,7 +1,6 @@
 ---
 title: Load Test Scenario Properties
 description: Learn how to change your load test scenario property settings in Visual Studio to one of the various load test scenario properties in this article.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: reference
 helpviewer_keywords:

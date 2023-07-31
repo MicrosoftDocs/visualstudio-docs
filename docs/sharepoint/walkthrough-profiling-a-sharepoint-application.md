@@ -1,7 +1,6 @@
 ---
 title: "Walkthrough: Profiling a SharePoint Application | Microsoft Docs"
 description: In this walkthrough, use the profiling tools in Visual Studio to optimize the performance of a SharePoint application.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: Create load test perf report using MS Word
 description: Learn how to manually create Microsoft Word load test reports by copying and pasting data from the Load Test Results summary view and graphs view.
-ms.custom: SEO-VS-2020
 ms.date: 10/19/2016
 ms.topic: how-to
 helpviewer_keywords: 

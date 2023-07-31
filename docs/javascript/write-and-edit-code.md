@@ -1,7 +1,7 @@
 ---
 title: Introduction to editing for JavaScript developers
 description: This introduction to the code editor in Visual Studio shows some of the ways that Visual Studio makes writing, navigating, and understanding JavaScript code easier.
-ms.date: 03/25/2021
+ms.date: 06/05/2023
 ms.topic: how-to
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -19,7 +19,7 @@ ms.workload:
 In this short introduction to the code editor in Visual Studio, we'll look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
 
 > [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free. Depending on the type of app development you're doing, you may need to install the **Node.js development workload** with Visual Studio. For more information in getting the language service for TypeScript, see [TypeScript support](../javascript/javascript-in-vs-2019.md#typescript-support).
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free. If you are developing Node.js applications, you need to install the **Node.js development workload** with Visual Studio. For more information in getting the language service for TypeScript, see [TypeScript support](../javascript/javascript-in-vs-2019.md#typescript-support).
 
 This article assumes you're already familiar with JavaScript development. If you aren't, we suggest you look at a tutorial such as [Create a Node.js and Express app](../javascript/tutorial-nodejs.md) first.
 
@@ -28,6 +28,8 @@ This article assumes you're already familiar with JavaScript development. If you
 You can use the IDE to add new files to your project.
 
 1. With your project open in Visual Studio, right-click on a folder or your project node in Solution Explorer (right pane), and choose **Add** > **New Item**.
+
+   If you don't see all the item templates, choose **Show All Templates**, and then choose the item template.
 
 1. In the **New File** dialog box, under the **General** category, choose the file type that you want to add, such as **JavaScript File**, and then choose **Open**.
 

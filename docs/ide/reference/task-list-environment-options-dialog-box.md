@@ -1,7 +1,6 @@
 ---
 title: Task List, Environment, Options Dialog Box
 description: Learn how to use the Task List page in the Environment section to add, delete, and change the comment tokens that generate Task List reminders.
-ms.custom: SEO-VS-2020
 ms.date: 03/28/2019
 ms.topic: reference
 f1_keywords:

@@ -1,7 +1,6 @@
 ---
 title: Bind WPF controls to a WCF data service
 description: Bind WPF controls to a WCF data service in Visual Studio. The controls are bound to customer records that are encapsulated in a WCF data service.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:

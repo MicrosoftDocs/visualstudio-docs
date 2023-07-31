@@ -37,7 +37,7 @@ The following table shows the MSBuild properties available for container project
 | DockerImageLabels | The default set of labels applied to the Docker image. | com.microsoft.created-by=visual-studio;com.microsoft.visual-studio.project-name=$(MSBuildProjectName) |1.5.4 or newer|
 | DockerFastModeProjectMountDirectory|In **Fast Mode**, this property controls where the project output directory is volume-mounted into the running container.|C:\app (Windows) or /app (Linux)|1.9.2 or newer|
 | DockerfileBuildArguments | Additional arguments passed to the [Docker build](https://docs.docker.com/engine/reference/commandline/build/) command. | Not applicable. |1.0.1872750 or newer|
-| DockerfileContext | The default context used when building the Docker image, as a path relative to the Dockerfile. | Set by Visual Studio. |1.0.1872750 or newer|
+| DockerfileContext | The default context used when building the Docker image, as a path relative to the Dockerfile. | Set by Visual Studio when Docker support is added to a project. In .NET Framework projects, set to "." (the project folder), and in .NET Core projects, it is set to the relative path to the solution folder (usually ".."). |1.0.1872750 or newer|
 | DockerfileFastModeStage | The Dockerfile stage (that is, target) to be used when building the image in debug mode. | First stage found in the Dockerfile (base) |
 | DockerfileFile | Describes the default Dockerfile that will be used to build/run the container for the project. This can be a path as well. | Dockerfile |1.0.1872750 or newer|
 | DockerfileRunArguments | Additional arguments passed to the [Docker run](https://docs.docker.com/engine/reference/commandline/run/) command. | Not applicable. |1.0.1872750 or newer|
@@ -71,6 +71,11 @@ The following project file shows examples of some of these settings.
 
 </Project>
 ```
+
+> [!NOTE]
+> The Docker context, which you can set by providing a value for `DockerfileContext`, is usually different in Visual Studio for projects targeting .NET Core (including .NET 5 and later) from what `docker build` uses when you run it from the command line. The departure from the behavior of `docker build` is necessary to ensure that build artifacts at the solution level can be included.
+>
+> When you call `docker build`, you always specify a build context, and you can optionally specify a path to the Dockerfile. The default is that the Dockerfile is in the root of the context, but you can use the `-f` flag to specify an alternate location. For example, you can build with `docker build -f Dockerfile ..` from the project directory, or `docker build -f ProjectName/Dockerfile .` from the solution directory.
 
 ## Next steps
 

@@ -1,7 +1,6 @@
 ---
 title: "Ribbon object model overview"
 description: Learn how the Visual Studio Tools for Office runtime exposes a strongly typed object model you can use to get and set the properties of Ribbon controls at run time. 
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:

@@ -1,7 +1,6 @@
 ---
 title: Exempt from Windows Information Protection
 description: Learn about exempting Visual Studio from Windows Information Protection while still allowing it to use enterprise data. 
-ms.custom: SEO-VS-2020
 ms.date: 06/01/2018
 ms.topic: conceptual
 author: TerryGLee

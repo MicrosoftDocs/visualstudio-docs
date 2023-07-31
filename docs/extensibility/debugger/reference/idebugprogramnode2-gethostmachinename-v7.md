@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugProgramNode2::GetHostMachineName_V7
 - IDebugProgramNode2::GetHostMachineNameIDebugProgramNode2::GetHostMachineName
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ms.workload:

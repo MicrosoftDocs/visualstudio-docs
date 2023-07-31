@@ -1,7 +1,7 @@
 ---
 title: Options, Text Editor, Advanced
 description: Learn how to use the Advanced dialog box to change global settings for the Visual Studio text editor.
-ms.date: 08/09/2022
+ms.date: 06/15/2023
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Advanced
@@ -51,7 +51,7 @@ Selected by default, this option adds a margin view next to the scrollbar that s
 
 ## Responsive code completion
 
-Selected by default, toggle to turn off auto-complete mode.
+Selected by default, this option enables the editor to suggest possible completions for your code based on its context and language semantics. Toggle to turn off auto-complete mode. 
 
 ::: moniker range="vs-2022"
 
@@ -95,11 +95,14 @@ Select this option to disable the new [multi-caret selection](../finding-and-rep
 
 ## Use adaptive formatting
 
-Based on your most recently updated file, Visual Studio recognizes whether you prefer to use tabs or spaces for code indentation. The adaptive formatting option is selected by default. When unselected, Visual Studio uses the settings in **Tools** > **Options** > **Text Editor** > **All Languages** > **[Tabs](options-text-editor-all-languages-tabs.md)** instead.
+Based on your most recently updated file, Visual Studio recognizes whether you prefer to use tabs or spaces to indent code. The adaptive formatting option is selected by default. When unselected, Visual Studio uses the settings in **Tools** > **Options** > **Text Editor** > **All Languages** > **[Tabs](options-text-editor-all-languages-tabs.md)** instead.
+
+> [!TIP]
+> You can also change how Visual Studio manages your preferred indent style by using an .*editorconfig* file. For more information, see [Create portable, custom editor settings with EditorConfig](../create-portable-custom-editor-options.md).
 
 ## Fallback support for C#, C++, Java, and TypeScript GoTo symbol navigation
 
-Select this option to disable TextMate fallback support for symbol search, which can help improve system performance.
+Select this option to disable TextMate fallback support for symbol search, which can help improve system performance. (Available in Visual Studio 2022 version 17.0 through 17.3 only.)
 
 ::: moniker-end
 

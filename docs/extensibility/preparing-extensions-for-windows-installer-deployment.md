@@ -1,14 +1,13 @@
 ---
 title: Preparing Extensions for Windows Installer Deployment | Microsoft Docs
 description: Learn how to prepare a project whose default output is a VSIX package for inclusion in a Setup project.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - vsix msi
 ms.assetid: 5ee2d1ba-478a-4cb7-898f-c3b4b2ee834e
-author: leslierichardson95
-ms.author: lerich
+author: maiak
+ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ms.workload:

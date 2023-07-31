@@ -1,8 +1,7 @@
 ---
 title: Debug .NET Framework source | Microsoft Docs
 description: Learn how to debug .NET Framework source. You must configure for it and download debugging symbols.
-ms.custom: SEO-VS-2020
-ms.date: 11/19/2018
+ms.date: 07/20/2023
 ms.topic: how-to
 helpviewer_keywords: 
   - debugging, .NET Framework source
@@ -26,7 +25,19 @@ To debug .NET Framework source, you must:
 
   You can choose to download debugging symbols immediately, or set options for later downloading. If you don't download symbols immediately, they'll download the next time you start debugging your app. While debugging, you can also use the **Modules** or **Call Stack** windows to download and load symbols.
 
-### To enable stepping into .NET Framework source
+## Enable stepping into .NET Framework source
+
+::: moniker range=">= vs-2022"
+
+1. Under **Tools** (or **Debug**) > **Options** > **Debugging** > **General**, make sure you:
+
+   - Deselect **Enable Just My Code**.
+   - Select **Enable Source Link support**.
+
+1. Under **Tools** (or **Debug**) > **Options** > **Debugging** > **Symbols**,  select **Microsoft Symbol Servers**.
+::: moniker-end
+
+::: moniker range="vs-2019"
 
 1. Under **Tools** (or **Debug**) > **Options** > **Debugging** > **General**, select **Enable .NET Framework source stepping**.
 
@@ -35,8 +46,9 @@ To debug .NET Framework source, you must:
    - If you did not have a local symbol cache set, a warning dialog box tells you that a default symbol cache has been set. Select **OK**.
 
 1. Select **OK** to close the **Options** dialog.
+::: moniker-end
 
-### To set or change symbol source locations and loading behavior
+## Set or change symbol source locations and loading behavior
 
 1. Select the **Symbols** category under **Tools** (or **Debug**) > **Options** > **Debugging**.
 
@@ -50,7 +62,7 @@ To debug .NET Framework source, you must:
 
 1. Select **OK** to close the **Options** dialog.
 
-### To load symbols from the Modules or Call Stack windows
+## Load symbols from the Modules or Call Stack windows
 
 1. During debugging, open the window by selecting **Debug** > **Windows** > **Modules** (or press **Ctrl + Alt + U**) or **Debug** > **Windows** > **Call Stack** (**Ctrl + Alt + C**).
 
@@ -62,7 +74,8 @@ To debug .NET Framework source, you must:
 
    - Select **Symbol Settings** to open the **Symbols** page. On the **Symbols** page, under **Symbol file (.pdb) locations**, select **Microsoft Symbol Servers** to access symbols from the public Microsoft Symbol Servers. Select the toolbar buttons to add other symbol locations and change the loading order. Select **OK** to close the dialog.
 
-### See also
+## See also
+
 - [Debugging managed code](../debugger/debugging-managed-code.md)
 - [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 - [Debug .NET and ASP.NET Core source code with Visual Studio](/aspnet/core/test/debug-aspnetcore-source)

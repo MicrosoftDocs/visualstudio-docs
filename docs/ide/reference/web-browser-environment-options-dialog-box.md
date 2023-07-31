@@ -1,7 +1,6 @@
 ---
 title: Web Browser, Environment, Options Dialog Box
 description: Learn how to use the Web Browser page in the Environment section to set options for both the internal Web browser and Internet Explorer.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:

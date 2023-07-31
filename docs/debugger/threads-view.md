@@ -1,8 +1,7 @@
 ---
 title: "Threads View | Microsoft Docs"
 description: Understand the Threads view in the Spy++ debugging tool. The Threads view is a flat listing of all threads associated with windows on your system.
-ms.custom: SEO-VS-2020
-ms.date: "11/04/2016"
+ms.date: "12/21/2022"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.externaltools.spyplus.threadsview"
@@ -23,7 +22,7 @@ The Threads view is a flat listing of all threads associated with windows on you
 
 ## Procedures
 
-#### To open the Threads view
+### To open the Threads view
 
 1. From the **Spy** menu, choose **Threads**.
 
@@ -32,14 +31,23 @@ The Threads view is a flat listing of all threads associated with windows on you
 
    The figure above shows the Threads view.
 
+### To open properties for a thread
+
+To find out more about a thread listed in Threads view, use the [Thread Properties Dialog Box](../debugger/thread-properties-dialog-box.md).
+
+1. Select a thread from the tree displayed in Threads view.
+
+2. From the **View** menu, choose **Properties**.
+
+   Properties dialog boxes are not modal, so you can click on another item in a view window and the dialog box will show information on the selected item.
+
 ## In This Section
+
  [Searching for a Thread in Threads View](../debugger/how-to-search-for-a-thread-in-threads-view.md)
  Explains how to find a specific thread in Threads view.
 
- [Displaying Thread Properties](../debugger/how-to-display-thread-properties.md)
- Explains how to show more information about a thread.
-
 ## Related Sections
+
  [Spy++ Views](../debugger/spy-increment-views.md)
  Explains the Spy++ tree views of windows, messages, processes, and threads.
 

@@ -1,7 +1,6 @@
 ---
 title: Debug XSLT style sheets
 description: Learn how to use the XSLT debugger in Visual Studio to debug an XSLT style sheet by following the steps in this walkthrough.
-ms.custom: SEO-VS-2020
 ms.date: 03/05/2019
 ms.topic: how-to
 ms.assetid: 3db9fa5a-f619-4cb6-86e7-64b364e58e5d

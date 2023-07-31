@@ -1,7 +1,6 @@
 ---
 title: References Page, Project Designer (Visual Basic)
 description: Learn how to use the References page of the Project Designer to manage your project's references, web references, and imported namespaces.
-ms.custom: SEO-VS-2020
 ms.date: 06/21/2017
 ms.topic: reference
 f1_keywords:

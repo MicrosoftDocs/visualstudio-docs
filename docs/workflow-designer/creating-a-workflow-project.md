@@ -1,7 +1,6 @@
 ---
 title: Create a Workflow Foundation project
 description: Learn how to create libraries and applications with the project templates available in Visual Studio.
-ms.custom: SEO-VS-2020
 ms.date: 06/25/2018
 ms.topic: conceptual
 helpviewer_keywords:

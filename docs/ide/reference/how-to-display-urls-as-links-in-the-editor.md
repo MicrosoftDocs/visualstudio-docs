@@ -1,7 +1,6 @@
 ---
 title: 'How to: Display URLs as Links in the Editor'
 description: Learn how to display URLs as links in the code editor.
-ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

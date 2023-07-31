@@ -2,7 +2,6 @@
 title: "Create user control for SharePoint app page or web part"
 titleSuffix: ""
 description: Create custom user controls that provide custom functionality for your SharePoint solution, and reuse that functionality within a web part or application page.
-ms.custom: SEO-VS-2020
 ms.date: "02/02/2017"
 ms.topic: how-to
 dev_langs:
