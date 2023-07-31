@@ -5,7 +5,7 @@ ms.date: 07/26/2023
 ms.custom: 
 ms.technology: 
 ms.prod: visual-studio
-ms.topic: quickstart
+ms.topic: how=-to
 author: "TylerMSFT"
 ms.author: "twhitney"
 manager: Markl
