@@ -7,7 +7,6 @@ ms.topic: quickstart
 author: TylerMSFT
 ms.author: TWhitney
 manager: MarkL
-ms.workload: "unreal"
 ---
 
 # Quickstart: Use Visual Studio Tools for Unreal Engine

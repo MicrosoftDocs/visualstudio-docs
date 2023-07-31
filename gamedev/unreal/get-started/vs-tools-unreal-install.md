@@ -2,14 +2,12 @@
 title: "Install Visual Studio Tools for Unreal Engine"
 description: "Learn how to connect Unreal Engine and Visual Studio. Visual Studio Tools for Unreal Engine offers support for writing and debugging C++ Unreal Engine games."
 ms.date: 07/26/2023
-ms.custom: 
 ms.technology: 
 ms.prod: visual-studio
-ms.topic: how=-to
+ms.topic: get-started
 author: "TylerMSFT"
 ms.author: "twhitney"
 manager: Markl
-ms.workload: "unreal"
 ---
 
 # Install Visual Studio Tools for Unreal Engine

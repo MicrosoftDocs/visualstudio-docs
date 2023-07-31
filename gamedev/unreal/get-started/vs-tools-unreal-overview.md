@@ -2,14 +2,12 @@
 title: "Visual Studio Tools for Unreal Engine"
 description: "Learn about Visual Studio Tools for Unreal Engine."
 ms.date: 07/24/2023
-ms.custom: 
 ms.technology: 
 ms.prod: visual-studio
-ms.topic: conceptual
+ms.topic: overview
 author: "TylerMSFT"
 ms.author: "twhitney"
 manager: Markl
-ms.workload: "unreal"
 ---
 
 # Visual Studio Tools for Unreal Engine
