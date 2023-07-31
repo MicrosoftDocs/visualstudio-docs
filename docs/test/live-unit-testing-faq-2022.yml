@@ -49,6 +49,10 @@ sections:
           - If you are using MSTest-based tests in your projects, make sure that you remove the reference to `Microsoft.VisualStudio.QualityTools.UnitTestFramework`, and add references to the latest MSTest NuGet packages, `MSTest.TestAdapter` (a minimum version of 1.1.11 is required) and `MSTest.TestFramework` (a minimum version of 1.1.11 is required). For more information, see the "Supported test frameworks" section of the [Use Live Unit Testing in Visual Studio](live-unit-testing.md#supported-test-frameworks) article.
           
           - At least one project in your solution should have either a NuGet reference or direct reference to the xUnit, NUnit, or MSTest test framework. This project should also reference a corresponding Visual Studio test adapters NuGet package.
+
+          - If Projected File System isn't enabled on Windows, Live Unit Testing will report a issue starting ProjFS.
+
+          - If the [Workspace Root] property points to a DevDrive, ProjFS needs to be explicitly enabled. Running `CLI CMD` should enable ProjFS integration as specified in (LINK_TO_DOCUMENTATION).
           ```
 
       - question: |
