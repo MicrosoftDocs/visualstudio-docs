@@ -21,7 +21,7 @@ Learn how to download a Unreal Engine (UE) game sample and use the Visual Studio
 
 The following must be installed:
 
-- Visual Studio version 17.7 or higher
+- Visual Studio version 17.7 or later
 - UnReal Engine version 5 or higher (the example used in this quickstart requires UE5 or higher)
 - Visual Studio Tools for Unreal Engine. See [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) for instructions on how to install them.
 
