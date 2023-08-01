@@ -9,6 +9,7 @@ author: mikejo5000
 ms.author: mikejo
 ms.workload:
 - dotnet
+monikerRange: '<=vs-2019'
 ---
 # How to configure and use Live Unit Testing
 
