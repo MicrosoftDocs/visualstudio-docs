@@ -51,11 +51,6 @@ sections:
           
           - At least one project in your solution should have either a NuGet reference or direct reference to the xUnit, NUnit, or MSTest test framework. This project should also reference a corresponding Visual Studio test adapters NuGet package.
 
-          - If Projected File System isn't enabled on Windows, Live Unit Testing will report a issue starting ProjFS.
-
-          - If the [Workspace Root] property points to a DevDrive, ProjFS needs to be explicitly enabled. Running `CLI CMD` should enable ProjFS integration as specified in (LINK_TO_DOCUMENTATION).
-          ```
-
       - question: |
           Why is my project not building?
         answer: |
@@ -75,14 +70,22 @@ sections:
           
           -	If you are using MSTest-based tests in your projects, make sure that you remove the reference to Microsoft.VisualStudio.QualityTools.UnitTestFramework, and add references to the latest MSTest NuGet packages, MSTest.TestAdapter (a minimum version of 1.1.11 is required) and MSTest.TestFramework (a minimum version of 1.1.11 is required). For more information, see the "Supported test frameworks" section of the Use Live Unit Testing in Visual Studio article.
           
-          -	At least one project in your solution should have either a NuGet reference or direct reference to the xUnit, NUnit, or MSTest test framework. This project should also reference a corresponding Visual Studio test adapters NuGet package. The Visual Studio test adapter can also be referenced through a .runsettings file. The .runsettings file must have an entry like the following example: [FROM ORIGINAL DOCUMENTATION]
+          -	At least one project in your solution should have either a NuGet reference or direct reference to the xUnit, NUnit, or MSTest test framework. This project should also reference a corresponding Visual Studio test adapters NuGet package. The Visual Studio test adapter can also be referenced through a .runsettings file. The .runsettings file must have an entry like the following example:
+          
+          ```xml
+          <RunSettings>
+              <RunConfiguration>
+                    <TestAdaptersPaths>path-to-your-test-adapter</TestAdaptersPaths>
+              </RunConfiguration>
+          </RunSettings>
+          ```
 
       - question: |
           Why are my tests failing to run? 
         answer: |
           - A common issue is that not all of the files are copied to the test folder. You might have to add some [Live Unit Testing Test Dependency] items to the csproj files.
           
-          - Another issue are timeouts. Since Live Unit Testing runs tests indefinitely, it automatically aborts a run if the tests run for too long.
+          - Another issue are timeouts. Since Live Unit Testing runs tests indefinitely, it automatically aborts a run if the tests run for too long. You may increase the timeout in the project’s [Wizard].
 
   - name: Incorrect coverage after upgrade
     questions:
@@ -187,6 +190,26 @@ sections:
           - Set the `LiveUnitTesting_TestPlatformLog` user environment variable to `1` to capture the Test Platform log. Detailed Test Platform log messages from Live Unit Testing runs can then be retrieved from `[Solution Root]\.vs\[Solution Name]\log\[VisualStudio Process ID]`.
           
           - Create a user-level environment variable named `VS_UTE_DIAGNOSTICS` and set it to 1 (or any value) and restart Visual Studio. Now you should see lots of logging in the **Output - Tests** tab in Visual Studio.
+
+  - name: Workspace folder
+    questions:
+      - question: |
+          Can I edit the files under the workspace folder?
+        answer: |
+          No, you should not open or edit the files under the build and test directories of the workspace folder.
+          Live Unit Testing should manage all of the files in the src folder, in order to keep them in sync between
+          the [Repository Root] and [Workspace Root].
+
+  - name: Dev drives
+    questions:
+      - question: |
+          Does live unit testing support Dev Drive for the default workspace root?
+        answer: |
+          Yes, but you need to make sure it's enabled. If you are using a Dev Drive, make sure that the [projected file system (ProjFS)](/windows/dev-drive/#filters-for-common-scenarios) filter is enabled. For example, the following command enables ProjFS and Windows Defender:
+          
+          ```cmd
+          fsutil devdrv setfiltersallowed PrjFlt, WdFilter
+          ```
           
 additionalContent: |
 
