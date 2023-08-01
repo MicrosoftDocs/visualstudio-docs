@@ -86,7 +86,7 @@ If your repository has a single build folder, the ignore file should list that f
 # WILL NOT COPY THE ARTIFACTS FOLDER TO THE LIVE UNIT TESTING WORKSPACE
 ```
 
-If your repository includes some additional tools in the build folder, these should be then excludes in the set of matching patterns:
+If your repository includes some additional tools in the build folder, these should be then excluded in the set of matching patterns:
 
 ```
 [AA]RTIFACTS/
@@ -139,12 +139,21 @@ The configurable options include:
 ## Customize your build for Live Unit Testing
 
 For more complex solutions it might be necessary to further customize the build. For example, it might not be necessary to build translation files during test runs and in order to speed up your builds you can disable their build with Live Unit Testing. You can do that by manipulating the project files.
+
 ### Add Live Unit Testing overrides
-// TODO //
 
-If your solution requires custom steps to build for instrumentation (Live Unit Testing) that are not required for the "regular" non-instrumented build, then you can add code to your project or .targets files that checks for the BuildingForLiveUnitTesting property and performs custom pre/post build steps. You can also choose to remove certain build steps (like publishing or generating packages) or to add build steps (like copying prerequisites) to a Live Unit Testing build based on this project property. Customizing your build based on this property does not alter your regular build in any way, and only impacts Live Unit Testing builds.
+If your solution requires custom steps to build for instrumentation (Live Unit Testing) that are not required for the "regular" non-instrumented build, then you can add code to your project or .targets files that checks for the BuildingForLiveUnitTesting property and performs custom pre/post build steps.
 
-For example, there may be a target that produces NuGet packages during a regular build. You probably do not want NuGet packages to be generated after every edit you make. So you can disable that target in the Live Unit Testing build by doing something like the following:
+For example you can write the following to add an additional target only executed for Live Unit Testing:
+
+```xml
+<Target Name="GenerateNuGetPackages" BeforeTargets="AfterBuild" Condition="'$(BuildingForLiveUnitTesting)' == 'true'">
+    <Exec Command='"$(MSBuildThisFileDirectory)..\tools\GenPac" '/>
+</Target>
+```
+
+You can use the `BuildingForLiveUnitTesting` to disable some tasks that should not be executed for test builds.
+For example, Live Unit Testing sets `<RunAnalyzers>false</RunAnalyzers>` in order to disable analyzers for tests.
 
 ### Live Unit Testing Test dependencies
 
@@ -191,11 +200,65 @@ To enable Live Unit Testing, select **Test** > **Live Unit Testing** > **Start**
 
 At any time, you can temporarily pause or completely stop Live Unit Testing. You may want to do this, for example, if you're in the middle of a refactoring and know that your tests will be broken for a while.
 
-::: moniker range=">=vs-2022"
-> [!NOTE]
-> The first time you start Live Unit Testing, you will need to enable the namespaces/classes/projects that you want tested by Live Unit
-> Testing. 
-::: moniker-end
+## Include and exclude test projects and test methods
+
+When you start Live Unit Testing, the Live Unit Testing tool window should show up and prompt you to select the set of tests that you want tested by Live Unit Testing.
+
+![Tool window shown when Live Unit Testing starts for the first time](./media/lut-v2/Start-LUT-ToolWindow.png)
+
+For smaller solutions where the unit tests take very little time to execute, you can click the **include all tests** button, to make Live Unit Testing keep running all tests.
+
+For larger solutions with many test projects, you can control which projects and individual methods in a project participate in Live Unit Testing by editing the playlist. For example, if you have a solution with hundreds of test projects, you can select a targeted set of test projects to participate in Live Unit Testing.
+
+You select what Live Unit Testing should run by editing a Live Unit Testing playlist, a feature working just like playlists in the test explorer.
+
+There are multiple ways to edit the Live Unit Testing playlist.
+
+1. Live Unit Testing tool window
+2. The code editor window
+3. The solution explorer
+4. Programatically in test code.
+
+Live Unit Testing saves include/exclude state as a user setting and remembers it when a solution is closed and reopened.
+
+### Live Unit Testing tool window
+
+You can use the playlist editor for the Live Unit Testing tab to include or exclude projects, namespaces or classes from execution. Click on the edit playlist button in the tool window.
+
+You can check, uncheck the tree view elements, to include exclude tests. For example, if you check a single test, Live Unit Testing will run it on changes. If you select a class, then all tests in that class will be run and any new tests added to that class will be run as well.
+
+![Live Unit Testing playlist editor](./media/lut-v2/Edit-LUT-Playlist.png)
+
+### The code editor window
+
+You can use the code editor window to include or exclude individual test methods. Right-click on the signature or body of the test method in the code editor window, and then select one of the following options:
+
+- **Live Unit Testing** > **Include \<selected method>**
+- **Live Unit Testing** > **Exclude \<selected method>**
+- **Live Unit Testing** > **Exclude All But \<selected method>**
+
+### The solution explorer
+
+To select the individual projects in unit tests, do the following after Live Unit Testing is started:
+
+1. Right-click the solution in **Solution Explorer** and choose **Live Unit Testing** > **Exclude** to exclude the entire solution.
+1. Right-click each test project that you'd like to include in the tests and choose **Live Unit Testing** > **Include**.
+
+### Programatically in test code.
+
+You can apply the <xref:System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute> attribute to programmatically exclude methods, classes, or structures from reporting their coverage in Live Unit Testing.
+
+Use the following attributes to exclude individual methods from Live Unit Testing:
+
+- For xUnit: `[Trait("Category", "SkipWhenLiveUnitTesting")]`
+- For NUnit: `[Category("SkipWhenLiveUnitTesting")]`
+- For MSTest: `[TestCategory("SkipWhenLiveUnitTesting")]`
+
+Use the following attributes to exclude an entire assembly of tests from Live Unit Testing:
+
+- For xUnit: `[assembly: AssemblyTrait("Category", "SkipWhenLiveUnitTesting")]`
+- For NUnit: `[assembly: Category("SkipWhenLiveUnitTesting")]`
+- For MSTest: `[assembly: TestCategory("SkipWhenLiveUnitTesting")]`
 
 ## View coverage visualization
 
@@ -289,67 +352,6 @@ There are some differences between Live Unit Testing automatically running and u
 - Live Unit Testing runs tests in each test assembly sequentially. In the **Test Explorer** window, you can choose to run multiple tests in parallel.
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-## Large solutions
-
-If your solution has 10 or more projects, Visual Studio displays the following dialog when you:
-
-- start Live Unit Testing and there is no persisted data
-- select **Tools** > **Options** > **Live Unit Testing** > **Delete Persisted Data**
-
-![Live Unit Testing dialog for large projects](media/lut-large-project.png)
-
-The dialog warns you that dynamic execution of large numbers of tests in large projects can severely impact performance. If you select **OK**, Live Unit Testing executes all tests in the solution. If you select **Cancel**, you can select the tests to execute. The following section explains how to do this.
-::: moniker-end
-
-## Include and exclude test projects and test methods
-
-Live Unit Testing playlist is a feature working just like playlists in the test explorer. For solutions with many test projects, you can control which projects and individual methods in a project participate in Live Unit Testing by editing the playlist. For example, if you have a solution with hundreds of test projects, you can select a targeted set of test projects to participate in Live Unit Testing. 
-
-There are multiple ways to edit the Live Unit Testing playlist.
-//TODO add screenshots //
-1. Live Unit Testing tool window
-2. The code editor window
-3. The solution explorer
-4. Programatically in test code.
-
-Live Unit Testing saves include/exclude state as a user setting and remembers it when a solution is closed and reopened.
-
-### Live Unit Testing tool window
-// TODO
-
-### The code editor window
-
-You can use the code editor window to include or exclude individual test methods. Right-click on the signature or body of the test method in the code editor window, and then select one of the following options:
-
-- **Live Unit Testing** > **Include \<selected method>**
-- **Live Unit Testing** > **Exclude \<selected method>**
-- **Live Unit Testing** > **Exclude All But \<selected method>**
-
-### The solution explorer
-
-To select the individual projects in unit tests, do the following after Live Unit Testing is started:
-
-1. Right-click the solution in **Solution Explorer** and choose **Live Unit Testing** > **Exclude** to exclude the entire solution.
-1. Right-click each test project that you'd like to include in the tests and choose **Live Unit Testing** > **Include**.
-
-### Programatically in test code.
-
-You can apply the <xref:System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute> attribute to programmatically exclude methods, classes, or structures from reporting their coverage in Live Unit Testing.
-
-Use the following attributes to exclude individual methods from Live Unit Testing:
-
-- For xUnit: `[Trait("Category", "SkipWhenLiveUnitTesting")]`
-- For NUnit: `[Category("SkipWhenLiveUnitTesting")]`
-- For MSTest: `[TestCategory("SkipWhenLiveUnitTesting")]`
-
-Use the following attributes to exclude an entire assembly of tests from Live Unit Testing:
-
-- For xUnit: `[assembly: AssemblyTrait("Category", "SkipWhenLiveUnitTesting")]`
-- For NUnit: `[assembly: Category("SkipWhenLiveUnitTesting")]`
-- For MSTest: `[assembly: TestCategory("SkipWhenLiveUnitTesting")]`
-
-::: moniker range="<=vs-2019"
 ## Cancelling Live Unit Testing test runs
 
 Live Unit Testing keeps running tests whenever you make any code changes.
@@ -359,11 +361,10 @@ run waiting for the first run to complete.
 Whenever you save files, Live Unit Testing will instead cancel the first run
 and immediately schedule the queued run instead. This helps with scenarios where the
 first run would have taken very long to complete.
-::: moniker-end
 
 ## See also
 
 - [Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
 - [Live Unit Testing blog](https://devblogs.microsoft.com/visualstudio/live-unit-testing-in-visual-studio-2017-enterprise/)
-- [Live Unit Testing FAQ](live-unit-testing-faq.yml)
+- [Live Unit Testing FAQ](live-unit-testing-faq-2022.yml)
 
