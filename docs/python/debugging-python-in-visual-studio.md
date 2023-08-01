@@ -1,7 +1,7 @@
 ---
 title: Debug Python code
 description: Visual Studio provides rich debugging for Python code, including setting breakpoints, stepping, inspecting values, looking at exceptions, and debugging in the interactive window.
-ms.date: 01/17/2022
+ms.date: 07/28/2023
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
@@ -12,9 +12,10 @@ ms.workload:
   - python
   - data-science
 ---
+
 # Debug your Python code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio provides a comprehensive debugging experience for Python, including attaching to running processes, evaluating expressions in the **Watch** and **Immediate** windows, inspecting local variables, breakpoints, step in/out/over statements, **Set Next Statement**, and more.
 
@@ -55,7 +56,7 @@ Clicking the red dot or right-clicking the line of code and selecting **Breakpoi
 
 You can customize the conditions under which a breakpoint is triggered, such as breaking only when a variable is set to a certain value or value range. To set conditions, right-click the breakpoint's red dot, select **Condition**, then create expressions using Python code. For full details on this feature in Visual Studio, see [Breakpoint conditions](../debugger/using-breakpoints.md#breakpoint-conditions).
 
-When setting conditions, you can also set **Action** and create a message to log to the output window, optionally continuing execution automatically. Logging a message creates what is called a *tracepoint* without adding logging code to your application directly:
+When setting conditions, you can also set **Action** and create a message to log to the output window, optionally continuing execution automatically. Logging a message creates what is called a _tracepoint_ without adding logging code to your application directly:
 
 ![Creating a tracepoint with a breakpoint](media/debugging-tracepoint.png)
 
@@ -63,15 +64,15 @@ When setting conditions, you can also set **Action** and create a message to log
 
 Once stopped at a breakpoint, you have various ways to step through code or run blocks of code before breaking again. These commands are available in a number of places, including the top debug toolbar, the **Debug** menu, on the right-click context menu in the code editor, and through keyboard shortcuts (though not all commands are in all places):
 
-| Feature | Keystroke | Description |
-| --- | --- | --- |
-| **Continue** | **F5** | Runs code until the next breakpoint is reached. |
-| **Step Into** | **F11** | Runs the next statement and stops. If the next statement is a call to a function, the debugger stops at the first line of the function being called. |
-| **Step Over** | **F10** | Runs the next statement, including making a call to a function (running all its code) and applying any return value. Stepping over allows you to easily skip functions that you do not need to debug. |
-| **Step Out** | **Shift**+**F11** | Runs code until the end of the current function, then steps to the calling statement.  This command is useful when you don't need to debug the remainder of the current function. |
-| **Run to Cursor** | **Ctrl**+**F10** | Runs code up to the location of the caret in the editor. This command allows you to easily skip over a segment of code that you don't need to debug. |
-| **Set Next Statement** | **Ctrl**+**Shift**+**F10** | Changes the current run point in the code to the location of the  caret. This command allows you to omit a segment of code from being run at all, such as when you know the code is faulty or produces an unwanted side-effect. |
-| **Show Next Statement** | **Alt**+**Num** **&#42;**| Returns you to the next statement to run. This command is helpful if you've been looking around in your code and don't remember where the debugger is stopped. |
+| Feature                 | Keystroke                  | Description                                                                                                                                                                                                                    |
+| ----------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Continue**            | **F5**                     | Runs code until the next breakpoint is reached.                                                                                                                                                                                |
+| **Step Into**           | **F11**                    | Runs the next statement and stops. If the next statement is a call to a function, the debugger stops at the first line of the function being called.                                                                           |
+| **Step Over**           | **F10**                    | Runs the next statement, including making a call to a function (running all its code) and applying any return value. Stepping over allows you to easily skip functions that you do not need to debug.                          |
+| **Step Out**            | **Shift**+**F11**          | Runs code until the end of the current function, then steps to the calling statement. This command is useful when you don't need to debug the remainder of the current function.                                               |
+| **Run to Cursor**       | **Ctrl**+**F10**           | Runs code up to the location of the caret in the editor. This command allows you to easily skip over a segment of code that you don't need to debug.                                                                           |
+| **Set Next Statement**  | **Ctrl**+**Shift**+**F10** | Changes the current run point in the code to the location of the caret. This command allows you to omit a segment of code from being run at all, such as when you know the code is faulty or produces an unwanted side-effect. |
+| **Show Next Statement** | **Alt**+**Num** **\***     | Returns you to the next statement to run. This command is helpful if you've been looking around in your code and don't remember where the debugger is stopped.                                                                 |
 
 ### Inspect and modify values
 
@@ -115,7 +116,7 @@ The **Debug** > **Windows** > **Exception Settings** menu command brings up a wi
 
 ![Exceptions window in the Visual Studio debugger](media/debugging-exception-settings.png)
 
-The checkbox for each exception controls whether the debugger *always* breaks when it's raised. Check this box when you want to break more often for a particular exception.
+The checkbox for each exception controls whether the debugger _always_ breaks when it's raised. Check this box when you want to break more often for a particular exception.
 
 By default, most exceptions break when an exception handler cannot be found in the source code. To change this behavior, right-click any exception and modify the **Continue When Unhandled in User Code** option. Clear this box when you want to break less often for an exception.
 
@@ -129,22 +130,22 @@ By default, the debugger starts your program with the standard Python launcher, 
 
 ### Launch mode options
 
-| Option | Description |
-| --- | --- |
-| **Standard Python launcher** | Uses debugging code written in portable Python that is compatible with CPython, IronPython, and variants such as Stackless Python. It provides the best experience for debugging pure Python code. When you attach to a running *python.exe* process, this launcher is used. This launcher also provides [mixed-mode debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md) for CPython, allowing you to step seamlessly between C/C++ code and Python code. |
-| **Web launcher** | Starts your default browser on launch and enables debugging of templates. See the [Web template debugging](python-web-application-project-templates.md#debugging) section for more information. |
-| **Django Web launcher** | Identical to the Web launcher and shown only for backwards compatibility. |
-| **IronPython (.NET) launcher** | Uses the .NET debugger, which only works with IronPython but allows for stepping between any .NET language project, including C# and VB. This launcher is used if you attach to a running .NET process that is hosting IronPython. |
+| Option                         | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Standard Python launcher**   | Uses debugging code written in portable Python that is compatible with CPython, IronPython, and variants such as Stackless Python. It provides the best experience for debugging pure Python code. When you attach to a running _python.exe_ process, this launcher is used. This launcher also provides [mixed-mode debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md) for CPython, allowing you to step seamlessly between C/C++ code and Python code. |
+| **Web launcher**               | Starts your default browser on launch and enables debugging of templates. See the [Web template debugging](python-web-application-project-templates.md#debugging) section for more information.                                                                                                                                                                                                                                                                         |
+| **Django Web launcher**        | Identical to the Web launcher and shown only for backwards compatibility.                                                                                                                                                                                                                                                                                                                                                                                               |
+| **IronPython (.NET) launcher** | Uses the .NET debugger, which only works with IronPython but allows for stepping between any .NET language project, including C# and VB. This launcher is used if you attach to a running .NET process that is hosting IronPython.                                                                                                                                                                                                                                      |
 
 ### Run options (search paths, startup arguments, and environment variables)
 
-| Option | Description |
-| --- | --- |
-| **Search Paths** | These values match what's shown in the project's **Search Paths** node in **Solution Explorer**. You can modify this value here, but it's easier to use **Solution Explorer** that lets you browse folders and automatically converts paths to relative form. |
-| **Script Arguments** | These arguments are added to the command used to launch your script, appearing after your script's filename. The first item here is available to your script as `sys.argv[1]`, the second as `sys.argv[2]`, and so on. |
+| Option                    | Description                                                                                                                                                                                                                                                                                                                |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Search Paths**          | These values match what's shown in the project's **Search Paths** node in **Solution Explorer**. You can modify this value here, but it's easier to use **Solution Explorer** that lets you browse folders and automatically converts paths to relative form.                                                              |
+| **Script Arguments**      | These arguments are added to the command used to launch your script, appearing after your script's filename. The first item here is available to your script as `sys.argv[1]`, the second as `sys.argv[2]`, and so on.                                                                                                     |
 | **Interpreter Arguments** | These arguments are added to the launcher command line before the name of your script. Common arguments here are `-W ...` to control warnings, `-O` to slightly optimize your program, and `-u` to use unbuffered IO. IronPython users are likely to use this field to pass `-X` options, such as `-X:Frames` or `-X:MTA`. |
-| **Interpreter Path** | Overrides the path associated with the current environment. The value may be useful for launching your script with a non-standard interpreter. |
-| **Environment Variables** | In this multi-line text box, add entries of the form \<NAME>=\<VALUE>. Because this setting is applied last, on top of any existing global environment variables, and after `PYTHONPATH` is set according to the **Search Paths** setting, it can be used to manually override any of those other variables. |
+| **Interpreter Path**      | Overrides the path associated with the current environment. The value may be useful for launching your script with a non-standard interpreter.                                                                                                                                                                             |
+| **Environment Variables** | In this multi-line text box, add entries of the form \<NAME>=\<VALUE>. Because this setting is applied last, on top of any existing global environment variables, and after `PYTHONPATH` is set according to the **Search Paths** setting, it can be used to manually override any of those other variables.               |
 
 ## Immediate and Interactive windows
 
@@ -158,24 +159,24 @@ The **Python Debug Interactive** window (**Debug** > **Windows** > **Python Debu
 
 The **Debug Interactive** window supports special meta-commands in addition to the [standard REPL commands](python-interactive-repl-in-visual-studio.md#meta-commands):
 
-| Command | Arguments | Description |
-| --- | --- | --- |
-| `$continue`, `$cont`, `$c` | Starts running the program from the current statement. |
-| `$down`, `$d` | Move the current frame one level down in the stack trace. |
-| `$frame` | | Displays the current frame ID.
-| `$frame` | frame ID | Switches the current frame to the specified frame ID.
-| `$load` | Loads commands from file and executes until complete |
-| `$proc` |  | Displays the current process ID. |
-| `$proc` | process ID | Switches the current process to the specified process ID. |
-| `$procs` | | Lists the processes currently being debugged. |
-| `$stepin`, `$step`, `$s` | Steps into the next function call, if possible. |
-| `$stepout`, `$return`, `$r` | Steps out of the current function. |
-| `$stepover`, `$until`, `$unt` | Steps over the next function call. |
-| `$thread` | | Displays the current thread ID. |
-| `$thread` | thread ID | Switches the current thread to the specified thread ID. |
-| `$threads` | | Lists the threads currently being debugged. |
-| `$up`, `$u` | | Move up the current frame one level in the stack trace. |
-| `$where`, `$w`, `$bt` | Lists the frames for the current thread. |
+| Command                       | Arguments                                                 | Description                                               |
+| ----------------------------- | --------------------------------------------------------- | --------------------------------------------------------- |
+| `$continue`, `$cont`, `$c`    | Starts running the program from the current statement.    |
+| `$down`, `$d`                 | Move the current frame one level down in the stack trace. |
+| `$frame`                      |                                                           | Displays the current frame ID.                            |
+| `$frame`                      | frame ID                                                  | Switches the current frame to the specified frame ID.     |
+| `$load`                       | Loads commands from file and executes until complete      |
+| `$proc`                       |                                                           | Displays the current process ID.                          |
+| `$proc`                       | process ID                                                | Switches the current process to the specified process ID. |
+| `$procs`                      |                                                           | Lists the processes currently being debugged.             |
+| `$stepin`, `$step`, `$s`      | Steps into the next function call, if possible.           |
+| `$stepout`, `$return`, `$r`   | Steps out of the current function.                        |
+| `$stepover`, `$until`, `$unt` | Steps over the next function call.                        |
+| `$thread`                     |                                                           | Displays the current thread ID.                           |
+| `$thread`                     | thread ID                                                 | Switches the current thread to the specified thread ID.   |
+| `$threads`                    |                                                           | Lists the threads currently being debugged.               |
+| `$up`, `$u`                   |                                                           | Move up the current frame one level in the stack trace.   |
+| `$where`, `$w`, `$bt`         | Lists the frames for the current thread.                  |
 
 The standard debugger windows such as **Processes**, **Threads**, and **Call Stack** aren't synchronized with the **Debug Interactive** window. Changing the active process, thread, or frame in the **Debug Interactive** window doesn't affect the other debugger windows. Similarly, changing the active process, thread, or frame in the other debugger windows doesn't affect the **Debug Interactive** window.
 
@@ -210,7 +211,7 @@ To manage your ptvsd installation:
 
 1. Enter "ptvsd" in the search box and examine the installed version of ptvsd:
 
-    ![Checking the ptvsd version in the Python Environments window](media/debugging-experimental-check-ptvsd.png)
+   ![Checking the ptvsd version in the Python Environments window](media/debugging-experimental-check-ptvsd.png)
 
 1. If the version is lower than 4.1.1a9 (the version bundled with Visual Studio), select the **X** to the right of the package to uninstall the older version. Visual Studio then uses its bundled version. (You can also uninstall from PowerShell using `pip uninstall ptvsd`.)
 
@@ -219,13 +220,14 @@ To manage your ptvsd installation:
 ## Troubleshooting
 
 ### For Visual Studio 2019 (Version 16.4 and earlier) upgrade ptvsd
+
 If you have issues with the debugger, first upgrade your version of the debugger as follows:
 
 1. Navigate to the **Packages** tab in the **Python Environments** window.
 
 1. Enter `ptvsd --upgrade` in the search box, then select **Run command: pip install ptvsd --upgrade**. (You can also use the same command from PowerShell.)
 
-    ![Giving the ptvsd upgrade command in the Python Environments window](media/debugging-experimental-upgrade-ptvsd.png)
+   ![Giving the ptvsd upgrade command in the Python Environments window](media/debugging-experimental-upgrade-ptvsd.png)
 
    If issues persist, please file an issue on the [PTVS GitHub repository](https://github.com/Microsoft/ptvs/issues).
 
@@ -242,19 +244,19 @@ The following steps enable debugging in the current Visual Studio session:
 
 1. Enter the following command:
 
-    ```ps
-    DebugAdapterHost.Logging /On /OutputWindow
-    ```
+   ```ps
+   DebugAdapterHost.Logging /On /OutputWindow
+   ```
 
 1. Start debugging and go through whatever steps are necessary to reproduce your issue. During this time, debug logs appear in the **Output** window under **Debug Adapter Host Log**. You can then copy the logs from that window and paste into a GitHub issue, email, etc.
 
-    ![Debugger logging output in the Output window](media/debugger-logging-output.png)
+   ![Debugger logging output in the Output window](media/debugger-logging-output.png)
 
 1. If Visual Studio stops responding or you aren't otherwise able to access the **Output** window, restart Visual Studio, open a command window, and enter the following command:
 
-    ```ps
-    DebugAdapterHost.Logging /On
-    ```
+   ```ps
+   DebugAdapterHost.Logging /On
+   ```
 
 1. Start debugging and reproduce your issue again. The debugger logs can then be found in `%temp%\DebugAdapterHostLog.txt`.
 
