@@ -70,7 +70,7 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "WebApplication3.dll"]
 ```
 
-The preceding *Dockerfile* is based on the [Microsoft Container Registry (MCR)](https://azure.microsoft.com/blog/microsoft-syndicates-container-catalog/) .NET 6 image image, and includes instructions for modifying the base image by building your project and adding it to the container. If you're using the .NET Framework, the base image will be different. 
+The preceding *Dockerfile* is based on the [Microsoft Container Registry (MCR)](https://azure.microsoft.com/blog/microsoft-syndicates-container-catalog/) .NET 6 image and includes instructions for modifying the base image by building your project and adding it to the container. If you're using the .NET Framework, the base image will be different. 
 
 When the new project dialog's **Configure for HTTPS** check box is checked, the *Dockerfile* exposes two ports. One port is used for HTTP traffic; the other port is used for HTTPS. If the check box isn't checked, a single port (80) is exposed for HTTP traffic.
 
