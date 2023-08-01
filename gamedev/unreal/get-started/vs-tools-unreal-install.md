@@ -12,7 +12,7 @@ manager: Markl
 
 # Install Visual Studio Tools for Unreal Engine
 
-This article helps you install the Visual Studio Tools for Unreal Engine. These tools allow you to do the following from within Visual Studio:
+This article helps you install Visual Studio Tools for Unreal Engine. These tools allow you to do the following from within Visual Studio:
 - view Unreal Engine (UE) Blueprints
 - add UE classes
 - view UE logging
@@ -20,15 +20,10 @@ This article helps you install the Visual Studio Tools for Unreal Engine. These 
 
 ## Prerequisites
 
-You should have the following installed before you install the Visual Studio Tools for Unreal Engine:
+You should have the following installed before you install Visual Studio Tools for Unreal Engine:
 
-<<<<<<< HEAD
-- Visual Studio version 17.7 or higher [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
-- UnReal Engine version 4.27 and 5.0 or higher. [Download instructions](https://www.unrealengine.com/download)
-=======
-- Visual Studio version 17.7 or later
-- UnReal Engine version 4.27 and 5.0 or later. [Download instructions](https://www.unrealengine.com/download)
->>>>>>> 994c0d7cdcbcfd4fa47ab716bec19a4316798f89
+- Visual Studio version 17.7 or later [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
+- Unreal Engine version 4.27 and 5.0 or later. [Download instructions](https://www.unrealengine.com/download)
 
 ## Install Visual Studio Tools for Unreal Engine
 
@@ -37,7 +32,7 @@ This article covers installing two tools for connecting Visual Studio and Unreal
 - **Visual Studio Tools for Unreal Engine** are installed with the Visual Studio installer. They enable you to add UE classes, view UE logging, and more, all from within Visual Studio.
 - **Unreal Engine Visual Studio Integration Tool plugin** is installed in Unreal Engine and works with Visual Studio to display information about Blueprint assets in C++ code.
 
-To install the Visual Studio Tools for Unreal Engine, follow these steps:
+To install Visual Studio Tools for Unreal Engine, follow these steps:
 
 1. Type "Visual Studio Installer" in the Windows search box.
 1. Look for the installer under the Apps results and double-click it.
@@ -61,7 +56,7 @@ Install the Unreal Engine Visual Studio Integration Tool plugin via the [Unreal 
 
 If your project isn't compatible with Unreal Engine Marketplace plugins, install the plugin manually by cloning and installing the plugin from the [GitHub vc-ue-extensions repo](https://aka.ms/VSUEGitHub). See the [README](https://github.com/microsoft/vc-ue-extensions#unreal-engine-plugin-for-visual-studio) in the repo for instructions to install the plugin. If you have difficulty with the UE plugin, see the [Troubleshooting guide](https://github.com/microsoft/vc-ue-extensions/blob/main/Docs/Troubleshooting.md)
 
-Epic Games provides the UnrealVS extension for Visual Studio. That extension makes it easier to build UE projects, set command line arguments, batch build projects, and so on. You don't need to install this plugin to use the Visual Studio Tools for Unreal Engine, but it does provide some convenience features. For more information, see [UnrealVS Extension](https://docs.unrealengine.com/using-the-unrealvs-extension-for-unreal-engine-cplusplus-projects/).
+Epic Games provides the UnrealVS extension for Visual Studio. That extension makes it easier to build UE projects, set command line arguments, batch build projects, and so on. You don't need to install this plugin to use Visual Studio Tools for Unreal Engine, but it does provide some convenience features. For more information, see [UnrealVS Extension](https://docs.unrealengine.com/using-the-unrealvs-extension-for-unreal-engine-cplusplus-projects/).
 
 For more information about customizations you can make to the Visual Studio IDE to work well with Unreal Engine, see the **Recommended Settings** section at [Setting Up Visual Studio for Unreal Engine](https://docs.unrealengine.com/en-US/setting-up-visual-studio-development-environment-for-cplusplus-projects-in-unreal-engine/).
 

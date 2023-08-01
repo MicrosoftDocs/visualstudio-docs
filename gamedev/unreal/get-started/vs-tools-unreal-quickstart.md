@@ -12,9 +12,9 @@ manager: MarkL
 
 # Quickstart: Visual Studio Tools for Unreal Engine
 
-Learn how to download a Unreal Engine (UE) game sample and use the Visual Studio Tools for Unreal Engine to do the following:
-- [View UE Blueprints in Visual Studio](#view-ue-blueprints-in-visual-studio)\
-- [View UE logging in Visual Studio](#view-ue-logging-within-visual-studio)\
+Learn how to download a Unreal Engine (UE) game sample and use Visual Studio Tools for Unreal Engine to:
+- [View UE Blueprints in Visual Studio](#view-ue-blueprints-in-visual-studio)
+- [View UE logging in Visual Studio](#view-ue-logging-within-visual-studio)
 - [View UE macros in Visual Studio](#view-ue-macros-in-visual-studio)
 
 ## Prerequisites
@@ -22,7 +22,7 @@ Learn how to download a Unreal Engine (UE) game sample and use the Visual Studio
 The following must be installed:
 
 - Visual Studio version 17.7 or later
-- UnReal Engine version 5 or later (the example used in this quickstart requires UE5 or later)
+- Unreal Engine version 5 or later (the example used in this quickstart requires UE5 or later)
 - Visual Studio Tools for Unreal Engine. See [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) for instructions how to install them.
 
 ## Download and build the Lyra game sample in Visual Studio
@@ -82,9 +82,9 @@ In `LyraGameplayAbility_RangedWeapon.cpp`, go to line 477. You should see the fo
 1. Run the sample game in Visual Studio: choose **Debug** > **Start Debugging**. The Unreal Editor will open with the Lyra game. Give it a few moments to load.
 1. In Visual Studio, open the UE logging window: from the Visual Studio main menu, choose **View** > **Other Windows** > **Unreal Engine Log**.
 1. Reduce the log noise by filtering to only show the `LogLyra` category events: in the UE logging window, choose the **Categories** dropdown. Clear all of the log sources by choosing **(Select All)** at the top of the list. Then select **LogLyra**.
-1. In the Unreal Editor, choose the Play button on the toolbar (or Alt+P) to start the game.
-1. In the Lyra game, use the w,a,s,d keys to navigate the player to the left to **Elimination**. Once you hover over the entry portal, wait for the game to load.
-1. In the Lyra game, click with your mouse to fire. In the UE logging window, you should see the following log message: `shot fired`.
+1. In the Unreal Editor, choose the Play button on the toolbar (or `Alt+p`) to start the game.
+1. In the Lyra game, use the `w`, `a`, `s`, `d` keys to navigate the player to the left to the **Elimination** portal. When you hover over that entry portal, the game will load.
+1. In the Lyra game, click your mouse button to fire. In the UE logging window, you should see the following log message: `shot fired`.
 
 :::image type="content" source="../media/vs-ue-log.png" alt-text="A screenshot of the Unreal Engine Log in Visual Studio. It shows several 'shot fired' events that are prefaced by a timestamp and the text 'LogLyra' since that's that category the events were logged as."::: 
 
@@ -110,7 +110,7 @@ Choose **Expand inline**, to expand the macro, and all nested macros, in the cod
 
 :::image type="content" source="../media/vs-ue-macro-expanded-inline.png" alt-text="A screenshot in Visual Studio of the code window. It shows the expanded contents of the UE_DEFINE_GAMEPLAY_TAG_STATIC macro, which has replaced the macro on that line in the code windows.":::
 
-You can press `Ctrl+Z` to undo the expansion.
+You can press `Ctrl+z` to undo the expansion.
 
 Choose **Search online** to open your browser with a search for C++ plus the name of the macro. In the previous example, this opens the browser to search for `C++ #define UE_DEFINE_GAMEPLAY_TAG_STATIC(TagName, Tag) static FNativeGameplayTag TagName(UE_PLUGIN_NAME, UE_MODULE_NAME,  …`
 
@@ -120,4 +120,4 @@ Choose **Visualize the expansion** to open the **Macro Expansion** window. You c
 
 ## Next Steps
 
-See [Visual Studio Tools for Unreal Engine](./vs-tools-unreal-overview.md) for an overview of the Visual Studio Tools for Unreal Engine features.
+See [Visual Studio Tools for Unreal Engine](./vs-tools-unreal-overview.md) for an overview of Visual Studio Tools for Unreal Engine features.
