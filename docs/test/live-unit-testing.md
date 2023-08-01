@@ -333,5 +333,5 @@ first run would have taken very long to complete.
 
 - [Code testing tools](https://visualstudio.microsoft.com/vs/testing-tools/)
 - [Live Unit Testing blog](https://devblogs.microsoft.com/visualstudio/live-unit-testing-in-visual-studio-2017-enterprise/)
-- [Live Unit Testing FAQ](live-unit-testing-faq-2022.yml)
+- [Live Unit Testing FAQ](live-unit-testing-faq.yml)
 

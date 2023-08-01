@@ -97,43 +97,23 @@ At any time, you can temporarily pause or completely stop Live Unit Testing. You
 
 After it's enabled, Live Unit Testing updates each line of code in the Visual Studio editor to show you whether the code you're writing is covered by unit tests and whether the tests that cover it are passing. The following image shows lines of code with both passing and failing tests, as well as lines of code that are not covered by tests. Lines decorated with a green "✓" are covered only by passing tests, lines decorated with a red "x" are covered by one or more failing tests, and lines decorated by a blue  "➖" are not covered by any test.
 
-::: moniker range="<=vs-2019"
 ![Code coverage in Visual Studio](./media/lut-codewindow.png)
-::: moniker-end
-::: moniker range=">=vs-2022"
-![Code coverage in Visual Studio](./media/vs-2022/lut-code-window.png)
-::: moniker-end
 
 Live Unit Testing coverage visualization is updated immediately when you modify code in the code editor. While processing the edits, visualization changes to indicate that the data is not up-to-date by adding a round timer image below the passing, failing, and not covered symbols, as the following image shows.
 
-::: moniker range="<=vs-2019"
 ![Code coverage in Visual Studio with timer icon](./media/lut-codeupdating.png)
-::: moniker-end
-::: moniker range=">=vs-2022"
-![Code coverage in Visual Studio with timer icon](./media/vs-2022/lut-code-updating.png)
-::: moniker-end
 
 ## Get information about test status
 
 By hovering over the succeeded or failed symbol in the code window, you can see how many tests are hitting that line. To see the status of the individual tests, select the symbol:
 
-::: moniker range="<=vs-2019"
 ![Test status for a symbol in Visual Studio](./media/lut-failedinfo.png)
-::: moniker-end
-::: moniker range=">=vs-2022"
-![Test status for a symbol in Visual Studio](./media/vs-2022/lut-failed-info.png)
-::: moniker-end
 
 In addition to providing the names and result of tests, the tooltip lets you rerun or debug the set of tests. If you select one or more of the tests in the tooltip, you can also run or debug just those tests. This allows you to debug your tests without having to leave the code window. When debugging, in addition to observing any breakpoints you may have already set, program execution pauses when the debugger executes an <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> method that returns an unexpected result.
 
 When you hover over a failed test in the tooltip, it expands to provide additional info about the failure, as shown in the following image. To navigate directly to a failed test, double-click it in the tooltip.
 
-::: moniker range="<=vs-2019"
 ![Failed test tooltip info in Visual Studio](./media/lut-failedmsg.png)
-::: moniker-end
-::: moniker range=">=vs-2022"
-![Failed test tooltip info in Visual Studio](./media/vs-2022/lut-failed-message.png)
-::: moniker-end
 
 When you navigate to the failed test, Live Unit Testing visually indicates in the method signature the tests that have:
 
@@ -143,12 +123,7 @@ When you navigate to the failed test, Live Unit Testing visually indicates in th
 
 Non-test methods are not decorated with a symbol. The following image illustrates all four types of methods.
 
-::: moniker range="<=vs-2019"
 ![Test methods in Visual Studio with pass or fail symbol](media/lut-testsource.png)
-::: moniker-end
-::: moniker range=">=vs-2022"
-![Test methods in Visual Studio with pass or fail symbol](media/vs-2022/lut-test-source.png)
-::: moniker-end
 
 ## Diagnose and correct test failures
 
@@ -165,14 +140,7 @@ For example, the test failure shown in the previous image was caused by an incor
 
 You may notice in the **Live Unit Testing** window that some tests are faded out. For example, when you stop and restart Live Unit Testing, the **Live Unit Testing** window fades out all the tests, as the following image shows. Faded-out test results indicate that the test was not a part of the latest Live Unit Test run. Tests only run when a change to the test or the test's dependencies is detected. If there is no change, it avoids unnecessarily running the test. In this case, the grayed out test result is still "up-to-date" though it was not a part of the latest run.
 
-::: moniker range="vs-2019"
-
 ![Faded out tests in Test Explorer](media/vs-2019/lut-test-explorer.png)
-::: moniker-end
-::: moniker range=">=vs-2022"
-![Faded out tests in Test Explorer](media/vs-2022/lut-test-explorer.png)
-
-::: moniker-end
 
 You can rerun any tests that appear faded by making a code change.
 
