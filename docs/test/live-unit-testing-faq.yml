@@ -60,7 +60,7 @@ sections:
           
           -	If [Repository Root] property does not point towards the repository root, the workspace will be populated with the wrong set of files.
           
-          -	For git repositories [Exclude files] property most likely will avoid copying the files specified in the gitignore. However, it’s possible to check in files into the git repository that are ignored or it’s possible  to run tools that auto generate files, but these are not generated during the build. In such cases the “<Custom>” option should be chosen and a custom set of rules that only list the artifacts folders should be listed.
+          -	For git repositories [Exclude files] property most likely will avoid copying the files specified in the gitignore. However, it’s possible to check in files into the git repository that are ignored or it’s possible  to run tools that auto generate files, but these are not generated during the build. In such cases the “&lt;Custom&gt;” option should be chosen and a custom set of rules that only list the artifacts folders should be listed.
           
           Besides the issues listed above, there are some project configurations that might be problematic to build.
           

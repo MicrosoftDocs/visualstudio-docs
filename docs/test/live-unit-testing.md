@@ -64,7 +64,7 @@ By default, Live Unit Testing excludes one of the two patterns of files:
 1. For git repositories, files specified in the gitignore are not copied to the Live Unit Testing workspace.
 2. For non-git repositories, a basic list of folders, such as bin/ obj/ are not copied to the Live Unit Testing workspace.
 
-For more complex repositories you might need to specify your own ignore file. You can do this by selecting the “<Custom>” option from the wizard. Then, when you click next you should be shown the content of a custom ignore file that Live Unit Testing will create once you finish the wizard (the lutignore file).
+For more complex repositories you might need to specify your own ignore file. You can do this by selecting the “&lt;Custom&gt;” option from the wizard. Then, when you click next you should be shown the content of a custom ignore file that Live Unit Testing will create once you finish the wizard (the lutignore file).
 
 > [!NOTE]
 > A custom lutignore file is needed for some git repositories, as it is possible to check in files into the git repository that are also ignored by the gitignore file. Without a custom lutignore file Live Unit Testing will not copy these files and that might lead to build failures.
