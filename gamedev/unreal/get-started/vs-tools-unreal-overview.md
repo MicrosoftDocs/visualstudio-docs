@@ -3,7 +3,6 @@ title: "Visual Studio Tools for Unreal Engine"
 description: "Learn about Visual Studio Tools for Unreal Engine."
 ms.date: 07/24/2023
 ms.prod: visual-studio
-ms.technology: vs-unreal-tools
 ms.topic: overview
 author: "TylerMSFT"
 ms.author: "twhitney"
@@ -25,10 +24,10 @@ Visual Studio Tools for Unreal Engine provides features that enhance writing and
 * Intellisense tuned for Unreal Engine projects<sup>*</sup>
 * Add Unreal Engine classes inside Visual Studio
 * See Unreal header tool warnings in Visual Studio
-* Visual Studio performance has been tuned for large projects
+* Visual Studio performance has been tuned for large projects<sup>*</sup>
 * Be more productive with HLSL files via syntax highlighting and statement completion
 
-<sup>*</sup> Macro expansion and improved IntelliSense work without installing Visual Studio Tools for Unreal Engine.
+<sup>*</sup> These features are available in Visual Studio 17.7 or later without installing Visual Studio Tools for Unreal Engine.
 
 ## Supported Visual Studio versions
 

@@ -3,7 +3,6 @@ title: "Install Visual Studio Tools for Unreal Engine"
 description: "Learn how to connect Unreal Engine and Visual Studio. Visual Studio Tools for Unreal Engine offers support for writing and debugging C++ Unreal Engine games."
 ms.date: 07/26/2023
 ms.prod: visual-studio
-ms.technology: vs-unreal-tools
 ms.topic: get-started
 author: "TylerMSFT"
 ms.author: "twhitney"
@@ -23,7 +22,7 @@ This article helps you install Visual Studio Tools for Unreal Engine. These tool
 You should have the following installed before you install Visual Studio Tools for Unreal Engine:
 
 - Visual Studio version 17.7 or later [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/)
-- Unreal Engine version 4.27 and 5.0 or later. [Download instructions](https://www.unrealengine.com/download)
+- Unreal Engine version 4.27 or 5.0 or later. [Download instructions](https://www.unrealengine.com/download)
 
 ## Install Visual Studio Tools for Unreal Engine
 

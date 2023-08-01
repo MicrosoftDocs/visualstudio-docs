@@ -4,7 +4,6 @@ description: Read an overview about Visual Studio Tools for Unreal Engine, which
 ms.date: "07/24/2023"
 ms.topic: quickstart
 ms.prod: visual-studio
-ms.technology: vs-unreal-tools
 author: TylerMSFT
 ms.author: TWhitney
 manager: MarkL
@@ -38,11 +37,7 @@ Once you have downloaded the game sample, update `LyraStarterGame.uproject` to u
     ```json
 	,{
 		"Name": "VisualStudioTools",
-		"Enabled": true,
-		"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/362651520df94e4fa65492dbcba44ae2",
-		"SupportedTargetPlatforms": [
-			"Win64"
-		]
+		"Enabled": true
 	}
     ```
 
