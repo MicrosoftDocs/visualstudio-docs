@@ -1,7 +1,7 @@
 ---
 title: WriteCodeFragment Task | Microsoft Docs
-description: Learn how MSBuild uses the WriteCodeFragment task to generates a temporary code file from the specified generated code fragment.
-ms.date: 11/04/2016
+description: Learn how MSBuild uses the WriteCodeFragment task to generate a temporary code file from the specified generated code fragment.
+ms.date: 07/26/2023
 ms.topic: reference
 dev_langs:
 - VB
@@ -29,14 +29,79 @@ Generates a temporary code file from the specified generated code fragment. Does
 
 |Parameter|Description|
 |---------------|-----------------|
-|`AssemblyAttributes`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Description of the attributes to write. The item `Include` value is the full type name of the attribute, for example, "System.AssemblyVersionAttribute".<br /><br /> Each metadata is the name-value pair of a parameter, which must be of type `String`. Some attributes only allow positional constructor arguments. However, you can use such arguments in any attribute. To set positional constructor attributes, use metadata names that resemble "_Parameter1", "_Parameter2", and so on.<br /><br /> A parameter index cannot be skipped.|
-|`Language`|Required `String` parameter.<br /><br /> Specifies the language of the code to generate.<br /><br /> `Language` can be any language for which a CodeDom provider is available, for example, "C#" or "VisualBasic". The emitted file will have the default file name extension for that language.|
+|`AssemblyAttributes`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Description of the attributes to write. The item `Include` value is the full type name of the attribute, for example, `System.AssemblyVersionAttribute`.<br /><br /> Each metadata is the name-value pair of a parameter. Parameters are assumed to be of type `String` in MSBuild 17.6 and earlier, but in MSBuild 17.7 and later, you can also use types other than `String` that are part of `mscorlib`. For example, you can use `true` and `false` Boolean values, integers, enums, and floating point types. The type is automatically inferred from the syntax. For a type not in `mscorlib`, specify the type for the parameter by providing metadata values in the form `{parameter}_TypeName`.<br/><br/>Some attributes only allow positional constructor arguments. However, you can use such arguments in any attribute. To set positional constructor attributes, use metadata names that resemble `_Parameter1`, `_Parameter2`, and so on.  A parameter index can't be skipped.<br/><br/>In MSBuild 17.7 or later, you can also specify metadata of the form `{parameter}_IsLiteral` to instruct the task to interpret the parameter value text as is, without surrounding with quotes (as is done in the default case for string values). |
+|`Language`|Required `String` parameter.<br /><br /> Specifies the language of the code to generate.<br /><br /> `Language` can be any language for which a CodeDom provider is available, for example, "C#" or "VisualBasic." The emitted file will have the default file name extension for that language.|
 |`OutputDirectory`|Optional <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the destination folder for the generated code, typically the intermediate folder.|
-|`OutputFile`|Optional <xref:Microsoft.Build.Framework.ITaskItem> output parameter.<br /><br /> Specifies the path of the file that was generated. If this parameter is set by using a file name, the destination folder is prepended to the file name. If it is set by using a root, the destination folder is ignored.<br /><br /> If this parameter is not set, the output file name is the destination folder, an arbitrary file name, and the default file name extension for the specified language.|
+|`OutputFile`|Optional <xref:Microsoft.Build.Framework.ITaskItem> output parameter.<br /><br /> Specifies the path of the file that was generated. If this parameter is set by using a file name, the destination folder is prepended to the file name. If it's set by using a root, the destination folder is ignored.<br /><br /> If this parameter isn't set, the output file name is the destination folder, an arbitrary file name, and the default file name extension for the specified language.|
 
 ## Remarks
 
- In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
+In addition to having the parameters that are listed in the table, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
+
+In MSBuild 17.7 and later, this task was updated to support a greater variety of parameter types for assembly-level attributes. MSBuild 17.6 and earlier supported only `String` as a parameter type for assembly-level attributes. With MSBuild 17.7 and later, you can construct any .NET assembly attribute, not only those whose parameters were string types, as in earlier versions of MSBuild.
+
+For example, to define the assembly-level attribute `CLSCompliant(true)`, which uses a Boolean parameter, you can use the following syntax:
+
+```xml
+<ItemGroup>
+    <AssemblyAttribute Include="System.CLSCompliantAttribute">
+        <_Parameter1>true</_Parameter1>
+    </AssemblyAttribute>
+</ItemGroup>
+```
+
+The code generated depends on the target language. For C#, it would be as follows:
+
+```csharp
+[assembly: System.CLSCompliantAttribute(true)]
+```
+
+Types defined in `mscorlib` are automatically inferred, such as Boolean in the previous example. You can define metadata of the form `{parameter}_TypeName` to specify types that can't be inferred.
+
+```xml
+<ItemGroup>
+    <AssemblyAttribute Include="Microsoft.Owin.OwinStartup">
+        <_Parameter1>Microsoft.Examples.Startup</_Parameter1>
+        <_Parameter1_TypeName>System.Type</_Parameter1_TypeName>
+    </AssemblyAttribute>
+</ItemGroup>
+```
+
+The code generated in C# is as follows:
+
+```csharp
+[assembly: Microsoft.Owin.OwinStartup(typeof(Microsoft.Examples.Startup))]
+```
+
+For more complicated parameter values, you can use the `{parameter}_IsLiteral`.
+
+```xml
+<ItemGroup>
+    <AssemblyAttribute Include="NUnit.Framework.Parallelizable">
+        <_Parameter1>NUnit.Framework.ParallelScope.Fixtures</_Parameter1>
+        <_Parameter1_IsLiteral>true</_Parameter1_IsLiteral>
+    </AssemblyAttribute>
+</ItemGroup>
+```
+
+The previous example produces the following assembly attribute in C#:
+
+```output
+[assembly: NUnit.Framework.Parallelizable(NUnit.Framework.ParallelScope.Fixtures)]
+```
+
+You can use any syntax that would normally be allowed in an attribute declaration in the language of the project. For an array parameter, you can use code like the following:
+
+```xml
+<ItemGroup>
+  <AssemblyAttribute Include="TestAttribute">
+    <_Parameter1>new int[] { 1, 3, 5 } /* odd numbers */</_Parameter1>
+    <_Parameter1_IsLiteral>true</_Parameter1_IsLiteral>
+  </AssemblyAttribute>
+</ItemGroup>
+```
+
+When you use `IsLiteral`, the syntax is interpreted by the appropriate compiler, and is therefore language-specific. If you have situations where more than one language share the same MSBuild import files and/or project files, you might need to use conditional syntax to ensure the code compiles with the relevant project-specific language.
 
 ## See also
 
