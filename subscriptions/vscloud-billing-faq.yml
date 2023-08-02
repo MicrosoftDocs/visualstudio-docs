@@ -5,7 +5,7 @@ metadata:
   ms.author: amast
   manager: shve
   ms.assetid: 21e0471d-ad59-4d21-9c6f-13f7147569af
-  ms.date: 03/28/2023
+  ms.date: 08/02/2023
   ms.topic: conceptual
   description:  Billing questions for cloud subscriptions.
     
@@ -86,8 +86,8 @@ sections:
            How are annual cloud subscription charges processed?
         answer: |
           At each purchase, we bill the full quantity purchased immediately. Charges aren't spread over the year and there's no prorating. If you buy annual cloud subscriptions
-          at different times in the year, you'll have subscriptions renewing in different months. We don't make all of a customer's annual cloud subscriptions coterminothere's
-          common with Microsoft volume licensing agreement purchasing.
+          at different times in the year, you'll have subscriptions renewing in different months. We don't make all of a customer's annual cloud subscriptions coterminous 
+          in the way that's common with Microsoft volume licensing agreement purchasing.
           
       - question: |
            How do cancellations work?
