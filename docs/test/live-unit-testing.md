@@ -39,39 +39,39 @@ In some cases, you may need to explicitly restore the NuGet packages referenced 
 
 ## Configure
 
-The first time you start Live Unit Testing for a solution you will be presented with a setup wizard, that lets you configure the way that Live Unit Testing should build and run tests.
+The first time you start Live Unit Testing for a solution you are presented with a setup wizard, that lets you configure the way that Live Unit Testing should build and run tests.
 
 > [!TIP]
 > When Live Unit Testing is stopped, you can also open the setup wizard by going to **Test > Live Unit Testing > Configure Live Unit Testing for solution**.
 
-When Live Unit Testing runs it creates a workspace, which is a copy of the original repository. Live Unit Testing then applies any unsaved changes that you made in Visual Studio to the workspace, performs a build, a test run and reports on the latest code coverage.
+When Live Unit Testing runs it creates a workspace, which is a copy of the original repository. Live Unit Testing then applies any unsaved changes that you made in Visual Studio to the workspace, performs a build, a test run, and reports on the latest code coverage.
 The first thing that you should configure using the wizard is where the files should be copied from and where they should be copied to.
 
 ![Live Unit Testing configuration wizard page 1](./media/lut-v2/Configure-LUT-Wizard-1.png)
 
 ### Repository root
-This specifies the folder which will be copied to create the Live Unit Testing workspace. It should be the root folder of the repository, i.e. contain all sources, binaries, tools.
+This specifies the folder that will be copied to create the Live Unit Testing workspace. It should be the root folder of the repository, that is, it contain all sources, binaries, and tools.
 In cases where the solution file is not present under the repository root, the repository root might need to be changed. 
 
 ### Worskpace root
 This specifies the folder where Live Unit Testing keeps a clone of the repository.
-Watch out for path too long exceptions. By default, this is created under your home folder, however if for example you normally need to create your repository under the C:\ drive, the workspace root could be adjusted to something like C:\lut\Repo.
+Watch out for exceptions indicating that the path is too long. By default, the root is created under your home folder. However, as an example, if you normally need to create your repository under the *C:\* drive, the workspace root could be adjusted to something like *C:\lut\Repo*.
 
 ### Specify the excluded files
-Not all the files should be copied to the Live Unit Testing workspace. Any artifacts that are generated during the build should be excluded from the copying, so that the regular builds do not interfere with the Live Unit Testing builds and the regular nuget restore does not interfere with the Live Unit Testing nuget restore.
+Not all the files should be copied to the Live Unit Testing workspace. Any artifacts that are generated during the build should be excluded from the copying, so that the regular builds don't interfere with the Live Unit Testing builds, and the regular `nuget restore` command does not interfere with the Live Unit Testing `nuget restore` command.
 
 By default, Live Unit Testing excludes one of the two patterns of files:
-1. For git repositories, files specified in the gitignore are not copied to the Live Unit Testing workspace.
-2. For non-git repositories, a basic list of folders, such as bin/ obj/ are not copied to the Live Unit Testing workspace.
+- For git repositories, files specified in the *gitignore* file are not copied to the Live Unit Testing workspace.
+- For non-git repositories, a basic list of folders, such as *bin/* and *obj/* aren't copied to the Live Unit Testing workspace.
 
-For more complex repositories you might need to specify your own ignore file. You can do this by selecting the “&lt;Custom&gt;” option from the wizard. Then, when you click next you should be shown the content of a custom ignore file that Live Unit Testing will create once you finish the wizard (the lutignore file).
+For more complex repositories, you might need to specify your own ignore file. You can do this by selecting the “&lt;Custom&gt;” option from the wizard. Then, when you click **Next** you are shown the content of a custom ignore file that Live Unit Testing will create once you finish the wizard (the *lutignore* file).
 
 > [!NOTE]
-> A custom lutignore file is needed for some git repositories, as it is possible to check in files into the git repository that are also ignored by the gitignore file. Without a custom lutignore file Live Unit Testing will not copy these files and that might lead to build failures.
+> A custom *lutignore* file is needed for some git repositories, because it's possible to check files into the git repository that are also ignored by the *gitignore* file. Without a custom *lutignore* file, Live Unit Testing will not copy these files and that might lead to build failures.
 
 #### *Lutignore file structure*
 
-The lutignore file uses the same format as a [gitignore file]. It should contain rules that match folders/files generated during the build, so that they’re not copied into the workspace. 
+The *lutignore* file uses the same format as a *gitignore* file. It should contain rules that match the folders/files generated during the build, so that they’re not copied into the workspace. 
 For most of the default project templates the following ignore file would be sufficient:
 
 ```
@@ -87,7 +87,7 @@ If your repository has a single build folder, the ignore file should list that f
 # WILL NOT COPY THE ARTIFACTS FOLDER TO THE LIVE UNIT TESTING WORKSPACE
 ```
 
-If your repository includes some additional tools in the build folder, these should be then excluded in the set of matching patterns:
+If your repository includes some additional tools in the build folder, these should then be excluded in the set of matching patterns:
 
 ```
 [AA]RTIFACTS/
@@ -99,14 +99,14 @@ If your repository includes some additional tools in the build folder, these sho
 ### Build options
 
 The second part of the wizard configuration page is to configure the build options.
-1. Generate PDBs – to speed up the build Live Unit Testing does not generate PDBs during builds. These are symbol files and allow you to navigate to the stack traces when test failures occur. 
-2. Build using multiple CPU cores – by default Live Unit Testing will perform builds using multiple CPU cores. This significantly improves the build times. If that slows down your machine or if your solution fails to be built using multiple processors, then this option should be deselected.
+- Generate PDBs – To speed up the build Live Unit Testing does not generate PDBs during builds. These are symbol files and allow you to navigate to the stack traces when test failures occur. 
+- Build using multiple CPU cores – By default, Live Unit Testing performs builds using multiple CPU cores. This significantly improves the build times. If that slows down your machine or if your solution fails to be built using multiple processors, then this option should be deselected.
 
 ### Test run options
 
-The last part of the wizard configuration page is to setup the test run options.
-1. Test case timeout – some of the tests might take a long time to run. Setting this field will automatically abort runs if any of the tests exceeds a given time duration. Note that the tests can be automatically cancelled.
-2. Use multiple processors – by default Live Unit Testing will try to use multiple processors to speed up the run performance. If that slows down your machine or if your solution cannot run tests in parallel then this option should be deselected. This could happen if for instance multiple tests try to write/read from the same file paths.
+The last part of the wizard configuration page is to set up the test run options.
+- Test case timeout – Some of the tests might take a long time to run. Setting this field will automatically abort runs if any of the tests exceeds a given time duration. Note that the tests can be automatically cancelled.
+- Use multiple processors – By default, Live Unit Testing tries to use multiple processors to speed up the run performance. If that slows down your machine or if your solution cannot run tests in parallel, then this option should be deselected. For example, this could happen if multiple tests try to write/read from the same file paths.
 
 ### More configuration
 
@@ -139,11 +139,11 @@ The configurable options include:
 
 ## Customize your build for Live Unit Testing
 
-For more complex solutions it might be necessary to further customize the build. For example, it might not be necessary to build translation files during test runs and in order to speed up your builds you can disable their build with Live Unit Testing. You can do that by manipulating the project files.
+For more complex solutions, it might be necessary to further customize the build. For example, it might not be necessary to build translation files during test runs, and, to speed up your builds, you can disable the translation file build with Live Unit Testing. You can do that by manipulating the project files.
 
 ### Add Live Unit Testing overrides
 
-If your solution requires custom steps to build for instrumentation (Live Unit Testing) that are not required for the "regular" non-instrumented build, then you can add code to your project or .targets files that checks for the BuildingForLiveUnitTesting property and performs custom pre/post build steps.
+If your solution requires custom steps to build for instrumentation (Live Unit Testing) that are not required for the "regular" non-instrumented build, then you can add code to your project or *.targets* files that checks for the `BuildingForLiveUnitTesting` property and performs custom pre/post build steps.
 
 For example you can write the following to add an additional target only executed for Live Unit Testing:
 
@@ -153,21 +153,21 @@ For example you can write the following to add an additional target only execute
 </Target>
 ```
 
-You can use the `BuildingForLiveUnitTesting` to disable some tasks that should not be executed for test builds.
+You can use the `BuildingForLiveUnitTesting` property to disable some tasks that shouldn't be executed for test builds.
 For example, Live Unit Testing sets `<RunAnalyzers>false</RunAnalyzers>` in order to disable analyzers for tests.
 
 ### Live Unit Testing Test dependencies
 
 It’s possible that not all of the files were copied that are required for the tests to run. Live Unit Testing creates a separate folder where it runs tests.
 That allows builds to occur, while the tests are running, but not all files from the build folder are copied to the test folder.
-Typically you will add the test dependencies for one of two reasons:
-1. Your tests depend on files under the source tree (for instance the tests examine the contents of the resx files, or maybe read some config files).
-2. Your tests depend on some libraries they reference. For instance, a test runs an executable that’s built as a dependency.
+Typically, you add the test dependencies for one of two reasons:
+- Your tests depend on files under the source tree. For example, the tests examine the contents of the *resx* files, or maybe read some config files.
+- Your tests depend on some libraries they reference. For example, a test runs an executable that’s built as a dependency.
 
 > [!Note]
-> Test dependencies must exist within the directory specified as `Repository Root` in the Configuration Wizard.
+> Test dependencies must exist within the directory specified as **Repository Root** in the setup wizard.
 
-In both cases Live Unit Testing by default will not copy these files in order to minimize the amount of files that have to be copied in order to run a test. You need to explicitly specify these files using the LiveUnitTestingTestDependency property if they are needed for a test run.
+In both cases, Live Unit Testing by default will not copy these files for the purpose of minimizing the amount of files that have to be copied to run a test. You need to explicitly specify these files using the `LiveUnitTestingTestDependency` property if they are needed for a test run.
 For example, let’s say that we have the following layout:
 
 ```
@@ -179,7 +179,7 @@ ARTIFACTS/
   TEST_PROJECT/NET472/DEBUG/
 ```
 
-By default when you build these projects with Live Unit Testing, it will only copy `Artifacts/Test_Project` to the test folder. To add sources or the console_utility to the test folder you should add the following to the test_project.csproj:
+By default, when you build these projects with Live Unit Testing, it will only copy `Artifacts/Test_Project` to the test folder. To add sources or the console_utility to the test folder, add the following to the *test_project.csproj*:
 
 ```
 <LiveUnitTestingTestDependency Include=”$(RepoRoot)/Src/ConsoleUtility” />
@@ -203,7 +203,7 @@ At any time, you can temporarily pause or completely stop Live Unit Testing. You
 
 ## Include and exclude test projects and test methods
 
-When you start Live Unit Testing, the Live Unit Testing tool window should show up and prompt you to select the set of tests that you want tested by Live Unit Testing.
+When you start Live Unit Testing, the Live Unit Testing tool window appears and prompts you to select the set of tests that you want tested by Live Unit Testing.
 
 ![Tool window shown when Live Unit Testing starts for the first time](./media/lut-v2/Start-LUT-ToolWindow.png)
 
@@ -211,41 +211,41 @@ For smaller solutions where the unit tests take very little time to execute, you
 
 For larger solutions with many test projects, you can control which projects and individual methods in a project participate in Live Unit Testing by editing the playlist. For example, if you have a solution with hundreds of test projects, you can select a targeted set of test projects to participate in Live Unit Testing.
 
-You select what Live Unit Testing should run by editing a Live Unit Testing playlist, a feature working just like playlists in the test explorer.
+You choose what Live Unit Testing should run by editing a Live Unit Testing playlist, a feature that works just like playlists in the test explorer.
 
 There are multiple ways to edit the Live Unit Testing playlist.
 
-1. Live Unit Testing tool window
-2. The code editor window
-3. The solution explorer
-4. Programatically in test code.
+- Live Unit Testing tool window
+- The code editor window
+- Solution Explorer
+- Programmatically in test code.
 
-Live Unit Testing saves include/exclude state as a user setting and remembers it when a solution is closed and reopened.
+Live Unit Testing saves the include/exclude state as a user setting and remembers it when a solution is closed and reopened.
 
 ### Live Unit Testing tool window
 
-You can use the playlist editor for the Live Unit Testing tab to include or exclude projects, namespaces or classes from execution. Click on the edit playlist button in the tool window.
+You can use the playlist editor for the Live Unit Testing tab to include or exclude projects, namespaces or classes from execution. Click on the **Edit playlist** button in the tool window.
 
-You can check, uncheck the tree view elements, to include exclude tests. For example, if you check a single test, Live Unit Testing will run it on changes. If you select a class, then all tests in that class will be run and any new tests added to that class will be run as well.
+You can select, or deselect, the tree view elements to include or exclude tests. For example, if you check a single test, Live Unit Testing will run it on changes. If you select a class, then all tests in that class will run and any new tests added to that class will run as well.
 
 ![Live Unit Testing playlist editor](./media/lut-v2/Edit-LUT-Playlist.png)
 
 ### The code editor window
 
-You can use the code editor window to include or exclude individual test methods. Right-click on the signature or body of the test method in the code editor window, and then select one of the following options:
+You can use the code editor window to include or exclude individual test methods. Right-click the signature or body of the test method in the code editor window, and then select one of the following options:
 
 - **Live Unit Testing** > **Include \<selected method>**
 - **Live Unit Testing** > **Exclude \<selected method>**
 - **Live Unit Testing** > **Exclude All But \<selected method>**
 
-### The solution explorer
+### Solution Explorer
 
 To select the individual projects in unit tests, do the following after Live Unit Testing is started:
 
 1. Right-click the solution in **Solution Explorer** and choose **Live Unit Testing** > **Exclude** to exclude the entire solution.
 1. Right-click each test project that you'd like to include in the tests and choose **Live Unit Testing** > **Include**.
 
-### Programatically in test code.
+### Programatically in test code
 
 You can apply the <xref:System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute> attribute to programmatically exclude methods, classes, or structures from reporting their coverage in Live Unit Testing.
 
@@ -322,12 +322,12 @@ There are some differences between Live Unit Testing automatically running and u
 ## Cancelling Live Unit Testing test runs
 
 Live Unit Testing keeps running tests whenever you make any code changes.
-If a run is in progress and you make more code changes, Live Unit Testing will queue another
+If a run is in progress and you make more code changes, Live Unit Testing queues another
 run waiting for the first run to complete.
 
-Whenever you save files, Live Unit Testing will instead cancel the first run
-and immediately schedule the queued run instead. This helps with scenarios where the
-first run would have taken very long to complete.
+Whenever you save files, Live Unit Testing cancels the first run
+and immediately schedules the queued run instead. This helps with scenarios where the
+first run would have taken a long time to complete.
 
 ## See also
 
