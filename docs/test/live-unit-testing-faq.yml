@@ -43,9 +43,9 @@ sections:
       - question: |
           Why doesn't Live Unit Testing work when I turn it on?
         answer: |
-          The Output window (when the Live Unit Testing drop-down is selected) should tell you why Live Unit Testing is not working. Live Unit Testing may not work for one of the following reasons:
+          The Output window (when the Live Unit Testing drop-down is selected) should tell you why Live Unit Testing isn't working. Live Unit Testing may not work for one of the following reasons:
           
-          - If NuGet packages referenced by the projects in the solution have not been restored, Live Unit Testing will not work. Doing an explicit build of the solution or restoring NuGet packages in the solution before turning on Live Unit Testing should resolve this issue.
+          - If NuGet packages referenced by the projects in the solution haven't been restored, Live Unit Testing won't work. Performing an explicit build of the solution or restoring NuGet packages in the solution before turning on Live Unit Testing should resolve this issue.
           
           - If you are using MSTest-based tests in your projects, make sure that you remove the reference to `Microsoft.VisualStudio.QualityTools.UnitTestFramework`, and add references to the latest MSTest NuGet packages, `MSTest.TestAdapter` (a minimum version of 1.1.11 is required) and `MSTest.TestFramework` (a minimum version of 1.1.11 is required). For more information, see the "Supported test frameworks" section of the [Use Live Unit Testing in Visual Studio](live-unit-testing.md#supported-test-frameworks) article.
           
@@ -54,23 +54,23 @@ sections:
       - question: |
           Why is my project not building?
         answer: |
-          The build errors should be reported to the output window (when the Live Unit Testing drop-down is selected). There are a few common issues caused by incorrect [Wizard] configuration that can cause build issues in Live Unit Testing.
+          The build errors get reported to the Output window when the Live Unit Testing drop-down is selected. There are a few common issues caused by incorrect configuration  in the [setup wizard](../test/live-unit-testing.md#configure) that can cause build issues in Live Unit Testing.
           
-          -	If [Workspace Root] property is too long, it’s possible that the build will fail due to path too long exceptions.
+          -	If the [Workspace Root](../test/live-unit-testing.md#worskpace-root) property is too long, it’s possible that the build will fail due to exceptions indicating that the path is too long.
           
-          -	If [Repository Root] property does not point towards the repository root, the workspace will be populated with the wrong set of files.
+          -	If the [Repository Root](../test/live-unit-testing.md#repository-root) property doesn't point towards the repository root, the workspace will be populated with the wrong set of files.
           
-          -	For git repositories [Exclude files] property most likely will avoid copying the files specified in the gitignore. However, it’s possible to check in files into the git repository that are ignored or it’s possible  to run tools that auto generate files, but these are not generated during the build. In such cases the “&lt;Custom&gt;” option should be chosen and a custom set of rules that only list the artifacts folders should be listed.
+          - For git repositories, the [Exclude files](../test/live-unit-testing.md#specify-the-excluded-files) property usually avoids copying the files specified in the *gitignore* file. However, it’s possible to check in files to the git repository that are ignored, or it’s possible to run tools that auto generate files, but these are not generated during the build. In these cases, the "&lt;Custom&gt;" option should be chosen and a custom set of rules that only list the artifacts folders should be listed.
           
-          Besides the issues listed above, there are some project configurations that might be problematic to build.
+          Besides the issues described previously, the following project configurations that might not build correctly.
           
-          -	If project dependencies are specified as a global solution configuration and not as ProjectReferences for each project, Live Unit Testing might end up building the incorrect set of projects. To fix this add explicit references between projects.
+          - If project dependencies are specified as a global solution configuration and not as `ProjectReferences` for each project, Live Unit Testing might end up building the incorrect set of projects. To fix this, add explicit references between projects.
           
-          -	Until a [Live Unit Testing playlist] is chosen, Live Unit Testing will not build any projects. To fix this include some tests in the Live Unit Testing playlist.
+          - Until a [Live Unit Testing playlist](../test/live-unit-testing.md#specify-the-excluded-files) is chosen, Live Unit Testing will not build any projects. To fix this, include some tests in the Live Unit Testing playlist.
           
-          -	If you are using MSTest-based tests in your projects, make sure that you remove the reference to Microsoft.VisualStudio.QualityTools.UnitTestFramework, and add references to the latest MSTest NuGet packages, MSTest.TestAdapter (a minimum version of 1.1.11 is required) and MSTest.TestFramework (a minimum version of 1.1.11 is required). For more information, see the "Supported test frameworks" section of the Use Live Unit Testing in Visual Studio article.
+          - If you're using MSTest-based tests in your projects, make sure that you remove the reference to `Microsoft.VisualStudio.QualityTools.UnitTestFramework`, and add references to the latest MSTest NuGet packages, `MSTest.TestAdapter` (a minimum version of 1.1.11 is required) and `MSTest.TestFramework` (a minimum version of 1.1.11 is required). For more information, see [Supported test frameworks](../test/live-unit-testing.md#supported-test-frameworks).
           
-          -	At least one project in your solution should have either a NuGet reference or direct reference to the xUnit, NUnit, or MSTest test framework. This project should also reference a corresponding Visual Studio test adapters NuGet package. The Visual Studio test adapter can also be referenced through a .runsettings file. The .runsettings file must have an entry like the following example:
+          - At least one project in your solution should have either a NuGet reference or direct reference to the xUnit, NUnit, or MSTest test framework. This project should also reference a corresponding Visual Studio test adapters NuGet package. The Visual Studio test adapter can also be referenced through a *.runsettings* file. The *.runsettings* file must have an entry like the following example:
           
           ```xml
           <RunSettings>
@@ -83,9 +83,9 @@ sections:
       - question: |
           Why are my tests failing to run? 
         answer: |
-          - A common issue is that not all of the files are copied to the test folder. You might have to add some [Live Unit Testing Test Dependency] items to the csproj files.
+          - A common issue is that not all of the files are copied to the test folder. You might have to add some [Live Unit Testing Test Dependency](../test/live-unit-testing.md#live-unit-testing-test-dependencies) items to the *csproj* files.
           
-          - Another issue are timeouts. Since Live Unit Testing runs tests indefinitely, it automatically aborts a run if the tests run for too long. You may increase the timeout in the project’s [Wizard].
+          - Another issue is timeouts. Since Live Unit Testing runs tests indefinitely, it automatically aborts a run if the tests run for too long. You may increase the timeout in the project’s [Wizard](../test/live-unit-testing.md#configure).
 
   - name: Incorrect coverage after upgrade
     questions:
@@ -105,7 +105,7 @@ sections:
       - question: |
           Can I customize my Live Unit Testing builds?
         answer: |
-          If your solution requires custom steps to build for instrumentation (Live Unit Testing) that are not required for the "regular" non-instrumented build, then you can add code to your project or *.targets* files that checks for the `BuildingForLiveUnitTesting` property and performs custom pre/post build steps. You can also choose to remove certain build steps (like publishing or generating packages) or to add build steps (like copying prerequisites) to a Live Unit Testing build based on this project property. Customizing your build based on this property does not alter your regular build in any way, and only impacts Live Unit Testing builds.
+          If your solution requires custom steps to build for instrumentation (Live Unit Testing) that aren't required for the "regular" non-instrumented build, then you can add code to your project or *.targets* files that checks for the `BuildingForLiveUnitTesting` property and performs custom pre/post build steps. You can also choose to remove certain build steps (like publishing or generating packages) or to add build steps (like copying prerequisites) to a Live Unit Testing build based on this project property. Customizing your build based on this property doesn't alter your regular build in any way, and only impacts Live Unit Testing builds.
           
           For example, there may be a target that produces NuGet packages during a regular build. You probably do not want NuGet packages to be generated after every edit you make. So you can disable that target in the Live Unit Testing build by doing something like the following:  
           
@@ -122,9 +122,9 @@ sections:
         answer: |
           There are several differences:
           
-          - Running or debugging tests from the **Test Explorer** window runs regular binaries, whereas Live Unit Testing runs instrumented binaries. If you want to debug instrumented binaries, adding a [Debugger.Launch](xref:System.Diagnostics.Debugger.Launch) method call in your test method causes the debugger to launch whenever that method is executed (including when it is executed by Live Unit Testing), and you can then attach and debug the instrumented binary. However, our hope is that instrumentation is transparent to you for most user scenarios, and that you do not need to debug instrumented binaries.
+          - Running or debugging tests from the **Test Explorer** window runs regular binaries, whereas Live Unit Testing runs instrumented binaries. If you want to debug instrumented binaries, adding a [Debugger.Launch](xref:System.Diagnostics.Debugger.Launch) method call in your test method causes the debugger to launch whenever that method is executed (including when it is executed by Live Unit Testing), and you can then attach and debug the instrumented binary. However, we hope that the instrumentation is transparent to you for most user scenarios, and that you don't need to debug instrumented binaries.
           
-          - Live Unit Testing does not create a new application domain to run tests, but tests run from the **Test Explorer** window do create a new application domain.
+          - Live Unit Testing doesn't create a new application domain to run tests, but tests run from the **Test Explorer** window do create a new application domain.
           
           - Live Unit Testing runs tests in each test assembly sequentially. In **Test Explorer**, you can choose to run multiple tests in parallel.
           
@@ -138,7 +138,7 @@ sections:
         answer: |
           See the "Include and exclude test projects and test methods" section of the [Use Live Unit Testing in Visual Studio](live-unit-testing.md#include-and-exclude-test-projects-and-test-methods) article for the user-specific setting. Including or excluding tests is useful when you want to run a specific set of tests for a particular edit session or to persist your own personal preferences.
           
-          For solution-specific settings, you can apply the <xref:System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute?displayProperty=fullName> attribute programmatically to exclude methods, properties, classes, or structures from being instrumented by Live Unit Testing. Additionally, you can also set the `<ExcludeFromCodeCoverage>` property to `true` in your project file to exclude the whole project from being instrumented. Live Unit Testing will still run the tests that have not been instrumented, but their coverage will not be visualized.
+          For solution-specific settings, you can apply the <xref:System.Diagnostics.CodeAnalysis.ExcludeFromCodeCoverageAttribute?displayProperty=fullName> attribute programmatically to exclude methods, properties, classes, or structures from being instrumented by Live Unit Testing. Additionally, you can also set the `<ExcludeFromCodeCoverage>` property to `true` in your project file to exclude the whole project from being instrumented. Live Unit Testing will still run the tests that haven't been instrumented, but their coverage will not be visualized.
           
           You can also check whether `Microsoft.CodeAnalysis.LiveUnitTesting.Runtime` is loaded in the current application domain and disable tests based on why. For example, you can do something like the following with xUnit:
           
@@ -197,8 +197,8 @@ sections:
           Can I edit the files under the workspace folder?
         answer: |
           No, you should not open or edit the files under the build and test directories of the workspace folder.
-          Live Unit Testing should manage all of the files in the src folder, in order to keep them in sync between
-          the [Repository Root] and [Workspace Root].
+          Live Unit Testing should manage all of the files in the *src* folder, to keep them in sync between
+          the [Repository Root](../test/live-unit-testing.md#repository-root) and [Workspace Root](../test/live-unit-testing.md#workspace-root).
 
   - name: Dev drives
     questions:
