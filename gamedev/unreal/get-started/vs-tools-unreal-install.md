@@ -1,7 +1,7 @@
 ---
 title: "Install Visual Studio Tools for Unreal Engine"
 description: "Learn how to connect Unreal Engine and Visual Studio. Visual Studio Tools for Unreal Engine offers support for writing and debugging C++ Unreal Engine games."
-ms.date: 07/26/2023
+ms.date: 08/02/2023
 ms.prod: visual-studio
 ms.topic: get-started
 author: "TylerMSFT"
@@ -37,7 +37,7 @@ To install Visual Studio Tools for Unreal Engine, follow these steps:
 1. Look for the installer under the Apps results and double-click it.
 1. Select **Modify**.
 1. Select the **Workloads** tab, then select the **Game development with C++** workload.
-1. In the **Installations details** pane, ensure that under **Game development with C++** > **Optional** that **IDE support for Unreal Engine** is selected. If you work with the High-Level Shader Language, ensure that **HLSL Tools** is selected.
+1. In the **Installations details** pane, ensure that under **Game development with C++** > **Optional** that **IDE support for Unreal Engine** is selected (this installs what these docs refer to as the Visual Studio Tools for Unreal Engine). If you work with the High-Level Shader Language, ensure that **HLSL Tools** is also selected.
 1. Select the **Individual components** tab at the top of the dialog.
 1. Under **Installation details**, Expand **Desktop development with C++**.
 1. Ensure that under **Optional** that **Windows 10 SDK 10.0.18362.0**, or higher, is selected.
