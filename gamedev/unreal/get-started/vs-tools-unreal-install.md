@@ -37,7 +37,7 @@ To install Visual Studio Tools for Unreal Engine, follow these steps:
 1. Look for the installer under the Apps results and double-click it.
 1. Select **Modify**.
 1. Select the **Workloads** tab, then select the **Game development with C++** workload.
-1. If your workflow includes working with the High-Level Shader Language (HLSL), then in the **Installations details** pane on the right, ensure that under **Game development with C++** > **Optional** that **IDE support for Unreal Engine** and **HLSL Tools** are selected.
+1. In the **Installations details** pane, ensure that under **Game development with C++** > **Optional** that **IDE support for Unreal Engine** is selected. If you work with the High-Level Shader Language, ensure that **HLSL Tools** is selected.
 1. Select the **Individual components** tab at the top of the dialog.
 1. Under **Installation details**, Expand **Desktop development with C++**.
 1. Ensure that under **Optional** that **Windows 10 SDK 10.0.18362.0**, or higher, is selected.

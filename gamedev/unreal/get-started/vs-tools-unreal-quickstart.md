@@ -53,14 +53,10 @@ Once you have downloaded the game sample, update `LyraStarterGame.uproject` to u
 You can view, but not edit, UE Blueprints from within Visual Studio. This is useful because you can see UE Blueprints without having to switch between the Unreal Editor and Visual Studio. To try it out, follow these steps:
 
 1. In Visual Studio, open `LyraCharacter.h`. Search for that file in the Search pane of the **Solution Explorer**, or find it under **Games** > **LyraStarterGame** > **Source** > **LyraGame** > **AbilitySystem** > **Abilities** > **LyraGameplayAbility.h**
-1. In `LyraCharacter.h`, go to line 96. You should see the following code:
-
-    ```cpp
-    class LYRAGAME_API ALyraCharacter : public AModularCharacter, public IAbilitySystemInterface, public IGameplayCueInterface, public IGameplayTagAssetInterface, public ILyraTeamAgentInterface
-    ```
+1. In `LyraCharacter.h`, go to line 96. You should see the following code: `class LYRAGAME_API ALyraCharacter : public AModularCharacter, public IAbilitySystemInterface, public IGameplayCueInterface, public IGameplayTagAssetInterface, public ILyraTeamAgentInterface`
 1. There are four Blueprint classes that extend this class. You should see a link just above the `ALyraCharacter` class definition that says: `4 derived Blueprint classes`. Click that link to view the four Blueprint classes that extend this class:
     :::image type="content" source="../media/vs-blueprints-link.png" alt-text="Screenshot of the ALyra Character class, which has a link above it that says 4 derived blueprint classes. It has been selected, showing Blueprints such as B_ShootingTarget_C, Character_Default_C, and so on, along with their Asset Paths.":::
-1. To view the properties of the `Character_Default_C` Blueprint, double-click it. This opens the Blueprint asset viewer. You can view the various properties of the Blueprint, but you can't change them.
+1. To view the properties of the `Character_Default_C` Blueprint, double-click it to open the Blueprint asset viewer. You can view the various properties of the Blueprint, but you can't change them.
     :::image type="content" source="../media/vs-blueprints-asset-viewer.png" alt-text="Screenshot of the Character_Default_C Blueprint asset viewer. It shows properties such as Actor, Camera, Character, Collision, and so on. ":::
 
 ## View UE logging within Visual Studio
@@ -69,10 +65,10 @@ You can now view UE logging within Visual Studio. This is useful because you can
 
 1. In Visual Studio, open `LyraGameplayAbility_RangedWeapon.cpp`. Search for that file in the Search pane of the **Solution Explorer**, or find it under **Games** > **LyraStarterGame** > **Source** > **LyraGame** > **Weapons** > **LyraGameplayAbility_RangedWeapon.cpp**
 1. In `LyraGameplayAbility_RangedWeapon.cpp`, go to line 477. You should see the following function: `void ULyraGameplayAbility_RangedWeapon::OnTargetDataReadyCallback`
-1. Create a new line at the beginning of the function and insert `UE_LOG(LogLyra, Log, TEXT("shot fired"));` This will create a log entry, associated with the category `LogLyra`, that says `shot fired` when this function is called.
+1. Create a new line at the beginning of the function and insert `UE_LOG(LogLyra, Log, TEXT("shot fired"));` This creates a log entry, associated with the category `LogLyra`, that says `shot fired` when this function is called.
 1. Run the sample game in Visual Studio by choosing **Debug** > **Start Debugging**. The Unreal Editor will open with the Lyra game. Give it a few moments to load.
 1. In Visual Studio, open the UE logging window by choosing **View** > **Other Windows** > **Unreal Engine Log** from the Visual Studio main menu.
-1. Reduce log noise by filtering to only show the `LogLyra` category events: in the UE logging window, choose the **Categories** dropdown. Clear all of the log sources by choosing **(Select All)** at the top of the list. Then select **LogLyra**.
+1. Reduce log noise by filtering to only show the `LogLyra` category events as follows: in the UE logging window, choose the **Categories** dropdown. Clear all of the log sources by choosing **(Select All)** at the top of the list. Then select **LogLyra**.
 1. In the Unreal Editor, choose the Play button on the toolbar (or `Alt+p`) to start the game.
 1. In the Lyra game, use the `w`, `a`, `s`, `d` keys to navigate the player to the left to the **Elimination** portal. When you hover over that entry portal, the game will load.
 1. In the Lyra game, click your mouse button to fire. In the UE logging window, you should see the following log message: `shot fired`.
