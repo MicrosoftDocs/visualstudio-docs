@@ -11,7 +11,7 @@ manager: MarkL
 
 # Quickstart: Visual Studio Tools for Unreal Engine
 
-Learn how to download a Unreal Engine (UE) game sample and use Visual Studio Tools for Unreal Engine to:
+Download a Unreal Engine (UE) game sample and use Visual Studio Tools for Unreal Engine to:
 - [View UE Blueprints in Visual Studio](#view-ue-blueprints-in-visual-studio)
 - [View UE logging in Visual Studio](#view-ue-logging-within-visual-studio)
 - [View UE macros in Visual Studio](#view-ue-macros-in-visual-studio)
@@ -71,7 +71,8 @@ You can now view UE logging within Visual Studio. This is useful because you can
 1. Reduce log noise by filtering to only show the `LogLyra` category events as follows: in the UE logging window, choose the **Categories** dropdown. Clear all of the log sources by choosing **(Select All)** at the top of the list. Then select **LogLyra**.
 1. In the Unreal Editor, choose the Play button on the toolbar (or `Alt+p`) to start the game.
 1. In the Lyra game, use the `w`, `a`, `s`, `d` keys to navigate the player to the left to the **Elimination** portal. When you hover over that entry portal, the game will load.
-1. In the Lyra game, click your mouse button to fire. In the UE logging window, you should see the following log message: `shot fired`.
+1. In the Lyra game, click your mouse button to fire. In the UE logging window, you should see the following log message: `shot fired`:
+
     :::image type="content" source="../media/vs-ue-log.png" alt-text="A screenshot of the Unreal Engine Log in Visual Studio. It shows several 'shot fired' events that are prefaced by a timestamp and the text 'LogLyra' since that's that category the events were logged as.":::
 
 The events will be at the bottom of the log so you may have to scroll down to see them. You could also choose the **Clear** button to clear the log and then fire again to see the log message.
