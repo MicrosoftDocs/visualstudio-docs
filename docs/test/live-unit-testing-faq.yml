@@ -174,7 +174,7 @@ sections:
       - question: |
           Why do I not see any icons in the editor even though Live Unit Testing seems to be running the tests based on the messages in the Output window?
         answer: |
-          You might not see icons in the editor if the assemblies that Live Unit Testing is operating on aren't instrumented for any reason. For example, Live Unit Testing is not compatible with projects that set `<UseHostCompilerIfAvailable>false</UseHostCompilerIfAvailable>`. In this case, your build process needs to be updated to either remove this setting or to change it to `true` for Live Unit Testing to work. 
+          You might not see icons in the editor if the assemblies that Live Unit Testing is operating on aren't instrumented for any reason. For example, Live Unit Testing isn't compatible with projects that set `<UseHostCompilerIfAvailable>false</UseHostCompilerIfAvailable>`. In this case, your build process needs to be updated to either remove this setting or to change it to `true` for Live Unit Testing to work. 
 
   - name: Capture logs
     questions:

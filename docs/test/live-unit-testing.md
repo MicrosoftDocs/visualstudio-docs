@@ -145,7 +145,7 @@ For more complex solutions, it might be necessary to further customize the build
 
 If your solution requires custom steps to build for instrumentation (Live Unit Testing) that are not required for the "regular" non-instrumented build, then you can add code to your project or *.targets* files that checks for the `BuildingForLiveUnitTesting` property and performs custom pre/post build steps.
 
-For example you can write the following to add an additional target only executed for Live Unit Testing:
+For example, you can write the following to add an additional target only executed for Live Unit Testing:
 
 ```xml
 <Target Name="GenerateNuGetPackages" BeforeTargets="AfterBuild" Condition="'$(BuildingForLiveUnitTesting)' == 'true'">
@@ -207,7 +207,7 @@ When you start Live Unit Testing, the Live Unit Testing tool window appears and 
 
 ![Tool window shown when Live Unit Testing starts for the first time](./media/lut-v2/Start-LUT-ToolWindow.png)
 
-For smaller solutions where the unit tests take very little time to execute, you can click the **include all tests** button, to make Live Unit Testing keep running all tests.
+For smaller solutions where the unit tests take very little time to execute, you can click the **Include all tests** button, which makes Live Unit Testing run all tests.
 
 For larger solutions with many test projects, you can control which projects and individual methods in a project participate in Live Unit Testing by editing the playlist. For example, if you have a solution with hundreds of test projects, you can select a targeted set of test projects to participate in Live Unit Testing.
 
