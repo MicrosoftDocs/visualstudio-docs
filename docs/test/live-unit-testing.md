@@ -50,7 +50,7 @@ The first thing that you should configure using the wizard is where the files sh
 ![Screenshot of Live Unit Testing configuration wizard page 1](./media/lut-v2/Configure-LUT-Wizard-1.png)
 
 ### Repository root
-This specifies the folder that will be copied to create the Live Unit Testing workspace. It should be the root folder of the repository, that is, it contain all sources, binaries, and tools.
+This specifies the folder that will be copied to create the Live Unit Testing workspace. It should be the root folder of the repository, that is, it should contain all sources, binaries, and tools.
 In cases where the solution file is not present under the repository root, the repository root might need to be changed. 
 
 ### Worskpace root
