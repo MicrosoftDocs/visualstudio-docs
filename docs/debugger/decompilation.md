@@ -65,7 +65,7 @@ Extracted source files appear in the miscellaneous files in **Solution Explorer*
 
 ## SourceLink
 
-For .NET libraries or for NuGet packages enabled for SourceLink, you can also step into source code, set breakpoints, and use all the debugger’s features. For more information, see [Improving debug-time productivity with SourceLink](https://devblogs.microsoft.com/dotnet/improving-debug-time-productivity-with-source-link/).
+For .NET libraries or for NuGet packages enabled for SourceLink, you can also step into source code, set breakpoints, and use all the debugger’s features. For more information, see [Enable debugging and diagnostics with Source Link](../debugger/how-to-improve-diagnostics-debugging-with-sourcelink.md) and [Improving debug-time productivity with SourceLink](https://devblogs.microsoft.com/dotnet/improving-debug-time-productivity-with-source-link/).
 
 ## Known limitations
 
