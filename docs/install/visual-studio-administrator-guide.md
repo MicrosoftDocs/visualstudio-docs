@@ -2,7 +2,7 @@
 title: Visual Studio administrator guide
 titleSuffix: ''
 description: Learn more about how to deploy Visual Studio in an enterprise environment.
-ms.date: 6/6/2023
+ms.date: 8/4/2023
 ms.topic: overview
 helpviewer_keywords:
 - network installation, Visual Studio
@@ -57,18 +57,18 @@ You will need to make a plan for how you deploy Visual Studio across your organi
 
 ### Plan for how Visual Studio should be installed and initialized 
 
-   - How does Visual Studio get originally installed on the machine? The action of installing Visual Studio requires administrative privileges on the machine. Do users have the ability to install the product themselves or will an IT admin need to facilitate it through an elevated process?
+   - How does Visual Studio get originally installed on the machine? The action of _initially_ installing Visual Studio requires administrative privileges on the machine. Do users have the ability to install the product themselves or will an IT admin need to facilitate it through an elevated process?
 
    - How are you licensing and [distributing entitlement subscriptions within your organization](/visualstudio/subscriptions/admin-responsibilities)? Does the installation require [product keys](/visualstudio/subscriptions/product-keys)?
 
-   - What [group policy settings](/visualstudio/install/configure-policies-for-enterprise-deployments) need to be configured on your client machines? Can you use the [Administrative Templates (ADMX)](./administrative-templates.md) or the [Microsoft Endpoint Manager (Intune) settings catalog](https://devblogs.microsoft.com/visualstudio/configure-visual-studio-policies-using-microsoft-endpoint-manager-intune/) to configure policies across your organization? 
+   - What [group policy settings](/visualstudio/install/configure-policies-for-enterprise-deployments) need to be configured on your client machines? Can you use the [Administrative Templates (ADMX)](./administrative-templates.md) or the [Microsoft Intune settings catalog](https://devblogs.microsoft.com/visualstudio/configure-visual-studio-policies-using-microsoft-endpoint-manager-intune/) to configure policies across your organization? 
 
    - Which [workloads and components](workload-and-component-ids.md) does your company need?  
    
 ### Plan for how Visual Studio will be regularly updated
 
    - Where should your client machines acquire the product updates from? This often depends on if clients have access to the internet or not. Should they get their updates from an IT managed and maintained [company-wide network layout](update-a-network-installation-of-visual-studio.md), or should they acquire the updates from the internet? 
-   - Who is allowed to update the client machines? Currently, the action of updating Visual Studio requires administrative privileges on the machine. Are users allowed to update their machines, or does an admin need to invoke it centrally or programatically via a system context process? 
+   - Who is allowed to update the client machines? By default, the action of updating Visual Studio requires administrative privileges on the machine, although starting in August 2023, an admin can delegate update capability to standard users by configuring the [`AllowStandardUserControl` policy](https://aka.ms/vs/setup/policies). Are users allowed to update their machines, or does an admin need to invoke it centrally or programatically via a system context process? 
    - When should the updates happen? Should it be left to the user's discretion to decide when to update, or are there organizational policies that govern timeliness of updates? 
 
 > [!Tip] 
@@ -90,7 +90,7 @@ The following resources will help you do the initial install of Visual Studio in
 
 - **[Install required certificates for offline installation](/visualstudio/install/install-certificates-for-visual-studio-offline)**. Install necessary certificates if the client machine is completely disconnected from the internet.
 
-- **[Configure the policies that govern machine wide Visual Studio behavior](/visualstudio/install/configure-policies-for-enterprise-deployments)**. Configure and deploy policies, such as opting in to Administrator Updates and removing out-of-support components, across your organization. The Visual Studio policies are available in the Microsoft Endpoint Manager's settings catalog as well as the [Visual Studio Administrative Templates (ADMX)](./administrative-templates.md).
+- **[Configure the policies that govern machine wide Visual Studio behavior](/visualstudio/install/configure-policies-for-enterprise-deployments)**. Configure and deploy policies across your organization, such as opting in to Administrator Updates, allowing standard users to update, and removing out-of-support components. The Visual Studio policies are available in the [Microsoft Intune settings catalog](/mem/intune/configuration/settings-catalog) as well as the [Visual Studio Administrative Templates (ADMX)](./administrative-templates.md).
 
 - **[Automatically apply product or subscription keys when deploying Visual Studio](automatically-apply-product-keys-when-deploying-visual-studio.md)**. You can programmatically apply a subscription or product key as part of a script that is used to automate the deployment of Visual Studio so that users don't need to activate the software separately. You can set this key either during an installation of Visual Studio or after an installation completes. 
 
@@ -104,6 +104,8 @@ The following resources will help you keep your Visual Studio updated, current, 
 
 - **[Make sure you have configured the long-term servicing channel (LTSC) properly](update-visual-studio.md#configure-source-location-of-updates-1)** if you want to tightly control when and where updates come from.
 
+- **[Make sure you have enabled standard users the flexibility to update on demand](/visualstudio/install/configure-policies-for-enterprise-deployments)** if your organizational allows it.
+
 - **[Enable Administrator Updates using Microsoft Endpoint Configuration Manager (SCCM and Intune)](enabling-administrator-updates.md)**. [Visual Studio administrator updates are available and deployable](applying-administrator-updates.md) through the [Microsoft Endpoint Manager](/mem/configmgr/core/understand/microsoft-endpoint-manager-faq) software collection which includes all Intune and SCCM managed devices that are enrolled in [Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb). This is our recommended approach for how enterprises stay secure. [Learn more here](https://aka.ms/vs/admin/updates/au/blog).
 
 - **[Keep your layout (network installation) updated](create-a-network-installation-of-visual-studio.md#maintaining-your-layout)** on a regular basis so that it remains current and secure with the latest product updates. Layouts are meant to be used as both as an installation point for new client installs of Visual Studio as well as a source of updated product bits for installations that are already deployed to client workstations. Visual Studio releases security updates on patch Tuesday, the second Tuesday of the month, and we strongly recommend that you update your layouts on a monthly cadence immediately afterwards.
@@ -116,7 +118,7 @@ The following resources will help you keep your Visual Studio updated, current, 
 
 ## Configure Visual Studio
 
-- **Configure policies that affect the behavior of Visual Studio** Use the [Visual Studio Administrative Templates (ADMX)](./administrative-templates.md) to easily configure Visual Studio policies on client machines across your organization. This includes [configuring policies that govern acquisition behavior](./configure-policies-for-enterprise-deployments.md) such as where some packages shared with other versions or instances are installed, where and whether packages are cached, if administrator updates should be enabled or how they should be applied, which update channels are available and how they're presented to the client, if unsupported components should be removed during an update, and how notifications appear or don't appear. This also includes configuring policies that govern customer feedback, [telemetry](https://aka.ms/vs/admx/telemetry), and [Live Share](https://aka.ms/vsls-policies) behavior.
+- **Configure policies that affect the behavior of Visual Studio** Use the [Microsoft Intune settings catalog](/mem/intune/configuration/settings-catalog) or the [Visual Studio Administrative Templates (ADMX)](./administrative-templates.md) to easily configure Visual Studio policies on client machines across your organization. This includes [configuring policies that govern installation and update behavior](./configure-policies-for-enterprise-deployments.md) such as who is allowed to update, where some packages shared with other versions or instances are installed, where and whether packages are cached, if administrator updates should be enabled or how they should be applied, which update channels are available and how they're presented to the client, if unsupported components should be removed during an update, and how notifications appear or don't appear. This also includes configuring policies that govern customer feedback, [telemetry](https://aka.ms/vs/admx/telemetry), [Live Share](https://aka.ms/vsls-policies), and [Dev Tunnels](https://aka.ms/devtunnels/vs/admx)behavior.
 
 - **[Create custom bootstrapper packages](../deployment/creating-bootstrapper-packages.md)**. Learn advanced techniques for how to create custom bootstrapper packages to further control your installation configuration by creating product and package manifests. 
 
