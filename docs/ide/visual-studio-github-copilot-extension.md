@@ -57,8 +57,8 @@ GitHub Copilot supports several programming languages and frameworks, including 
 1. Select the **GitHub Copilot** extension, and then select the **Download** button.
 1. Restart Visual Studio to complete the installation process.
 
-  > [!NOTE]
-  > For more information about activation & authorization, see the [Installing the Visual Studio extension](https://docs.github.com/en/copilot/getting-started-with-github-copilot?tool=visualstudio#installing-the-visual-studio-extension) section in GitHub Docs.
+   > [!NOTE]
+   > For more information about activation & authorization, see the [Installing the Visual Studio extension](https://docs.github.com/en/copilot/getting-started-with-github-copilot?tool=visualstudio#installing-the-visual-studio-extension) section in GitHub Docs.
 
 After installation, you can start using GitHub Copilot by typing code in the editor and observing the suggestions provided by AI.
 
