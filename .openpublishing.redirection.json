@@ -1100,11 +1100,6 @@
         "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/set-a-unique-automation-property-for-windows-store-controls-for-testing.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/set-a-unique-automation-property-for-windows-store-controls-for-testing",
-        "redirect_document_id": false
-    },
-    {
         "source_path": "docs/test/specify-counter-sets-and-threshold-rules-for-load-testing.md",
         "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/specify-counter-sets-and-threshold-rules-for-load-testing",
         "redirect_document_id": false
