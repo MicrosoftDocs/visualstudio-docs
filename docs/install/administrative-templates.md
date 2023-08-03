@@ -50,7 +50,7 @@ For cloud connected environments that are managed by Microsoft Intune, you have 
 1. You can access Visual Studio policies through the [settings catalog](/mem/intune/configuration/settings-catalog).
 2. You can also [import the Visual Studio Administrative Templates (ADMX)](/mem/intune/configuration/administrative-templates-import-custom#add-the-admx-and-adml-files) into your **Devices** > **Configuration profiles**, and then [create a customized **Configuration profile**](/mem/intune/configuration/administrative-templates-import-custom#create-a-profile-using-your-imported-files) based on the imported ADMX files. The Visual Studio Administrative Templates (ADMX) depend on the [Windows administrative template (Windows.admx)](/mem/intune/configuration/administrative-templates-windows), so make sure you manually import that one in too.
 
-For machines within a corporate network, you can use the [Group Policy editor]((/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn265982(v=ws.11))) or [Microsoft Endpoint Manager (SCCM)](/mem/configmgr/core/understand/introduction) to deploy Visual Studio policies.
+For machines within a corporate network, you can use the [Group Policy editor](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn265982(v=ws.11)) or [Microsoft Endpoint Manager (SCCM)](/mem/configmgr/core/understand/introduction) to deploy Visual Studio policies.
 
 [!INCLUDE [install_get_support_md](includes/install_get_support_md.md)]
 
