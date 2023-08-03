@@ -48,7 +48,7 @@ Configure Live Unit Testing by selecting **Tools** > **Options** from the top-le
 
 The following image shows the Live Unit Testing configuration options available in the dialog:
 
-![Live Unit Testing configuration options](./media/lut-options.png)
+![Screenshot of Live Unit Testing configuration options](./media/lut-options.png)
 
 The configurable options include:
 
@@ -97,23 +97,23 @@ At any time, you can temporarily pause or completely stop Live Unit Testing. You
 
 After it's enabled, Live Unit Testing updates each line of code in the Visual Studio editor to show you whether the code you're writing is covered by unit tests and whether the tests that cover it are passing. The following image shows lines of code with both passing and failing tests, as well as lines of code that are not covered by tests. Lines decorated with a green "✓" are covered only by passing tests, lines decorated with a red "x" are covered by one or more failing tests, and lines decorated by a blue  "➖" are not covered by any test.
 
-![Code coverage in Visual Studio](./media/lut-codewindow.png)
+![Screenshot of code coverage in Visual Studio](./media/lut-codewindow.png)
 
 Live Unit Testing coverage visualization is updated immediately when you modify code in the code editor. While processing the edits, visualization changes to indicate that the data is not up-to-date by adding a round timer image below the passing, failing, and not covered symbols, as the following image shows.
 
-![Code coverage in Visual Studio with timer icon](./media/lut-codeupdating.png)
+![Screenshot of code coverage in Visual Studio with timer icon](./media/lut-codeupdating.png)
 
 ## Get information about test status
 
 By hovering over the succeeded or failed symbol in the code window, you can see how many tests are hitting that line. To see the status of the individual tests, select the symbol:
 
-![Test status for a symbol in Visual Studio](./media/lut-failedinfo.png)
+![Screenshot of test status for a symbol in Visual Studio](./media/lut-failedinfo.png)
 
 In addition to providing the names and result of tests, the tooltip lets you rerun or debug the set of tests. If you select one or more of the tests in the tooltip, you can also run or debug just those tests. This allows you to debug your tests without having to leave the code window. When debugging, in addition to observing any breakpoints you may have already set, program execution pauses when the debugger executes an <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> method that returns an unexpected result.
 
 When you hover over a failed test in the tooltip, it expands to provide additional info about the failure, as shown in the following image. To navigate directly to a failed test, double-click it in the tooltip.
 
-![Failed test tooltip info in Visual Studio](./media/lut-failedmsg.png)
+![Screenshot of failed test tooltip info in Visual Studio](./media/lut-failedmsg.png)
 
 When you navigate to the failed test, Live Unit Testing visually indicates in the method signature the tests that have:
 
@@ -123,7 +123,7 @@ When you navigate to the failed test, Live Unit Testing visually indicates in th
 
 Non-test methods are not decorated with a symbol. The following image illustrates all four types of methods.
 
-![Test methods in Visual Studio with pass or fail symbol](media/lut-testsource.png)
+![Screenshot of test methods in Visual Studio with pass or fail symbol](media/lut-testsource.png)
 
 ## Diagnose and correct test failures
 
@@ -140,7 +140,7 @@ For example, the test failure shown in the previous image was caused by an incor
 
 You may notice in the **Live Unit Testing** window that some tests are faded out. For example, when you stop and restart Live Unit Testing, the **Live Unit Testing** window fades out all the tests, as the following image shows. Faded-out test results indicate that the test was not a part of the latest Live Unit Test run. Tests only run when a change to the test or the test's dependencies is detected. If there is no change, it avoids unnecessarily running the test. In this case, the grayed out test result is still "up-to-date" though it was not a part of the latest run.
 
-![Faded out tests in Test Explorer](media/vs-2019/lut-test-explorer.png)
+![Screenshot of faded out tests in Test Explorer](media/vs-2019/lut-test-explorer.png)
 
 You can rerun any tests that appear faded by making a code change.
 
@@ -157,7 +157,7 @@ If your solution has 10 or more projects, Visual Studio displays the following d
 - start Live Unit Testing and there is no persisted data
 - select **Tools** > **Options** > **Live Unit Testing** > **Delete Persisted Data**
 
-![Live Unit Testing dialog for large projects](media/lut-large-project.png)
+![Screenshot of Live Unit Testing dialog for large projects](media/lut-large-project.png)
 
 The dialog warns you that dynamic execution of large numbers of tests in large projects can severely impact performance. If you select **OK**, Live Unit Testing executes all tests in the solution. If you select **Cancel**, you can select the tests to execute. The following section explains how to do this.
 
