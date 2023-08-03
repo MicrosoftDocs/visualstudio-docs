@@ -19,6 +19,9 @@ ms.workload:
 Tracepoints allow you to log information to the Output window under configurable conditions without modifying or stopping your
 code. This feature is supported for both managed languages (C#, Visual Basic, F#) and native code as well as languages such as JavaScript and Python.
 
+> [!NOTE]
+> For information on logging information to the Output window programmatically using .NET APIs, see [Send messages to the Output window](../debugger/diagnostic-messages-in-the-output-window).
+
 ## Let&#39;s take an example
 
 ::: moniker range="vs-2019"
