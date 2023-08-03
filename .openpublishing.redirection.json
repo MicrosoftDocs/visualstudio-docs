@@ -830,11 +830,6 @@
         "redirect_document_id": false
     },
     {
-        "source_path": "docs/test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md",
-        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/editing-coded-ui-tests-using-the-coded-ui-test-editor",
-        "redirect_document_id": false
-    },
-    {
         "source_path": "docs/test/emulate-real-world-usage-of-a-web-site-in-a-load-test-using-test-mix-models.md",
         "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/emulate-real-world-usage-of-a-web-site-in-a-load-test-using-test-mix-models",
         "redirect_document_id": false
