@@ -51,7 +51,7 @@ Epic Games provides the UnrealVS extension for Visual Studio. The extension make
 
 Install the Unreal Engine Visual Studio Integration Tool plugin via the [Unreal Engine Marketplace](https://aka.ms/VSUEMarketplace) website. It allows you to see Blueprints assets in Visual Studio. The Unreal Engine Marketplace provides instructions for installing the plugin.
 
-   :::image type="content" source="../media/ue-marketplace.png" alt-text="Screenshot of the Unreal Engine Marketplace with the Visual Studio Integration Tool plugin." lightbox="../media/ue-marketplace.png":::
+   :::image type="content" source="../media/unreal-engine-marketplace.png" alt-text="Screenshot of the Unreal Engine Marketplace with the Visual Studio Integration Tool plugin." lightbox="../media/unreal-engine-marketplace.png":::
 
 If your project isn't compatible with Unreal Engine Marketplace plugins, install the plugin manually by cloning and installing the plugin from the [GitHub vc-ue-extensions repo](https://aka.ms/VSUEGitHub). See the [README](https://github.com/microsoft/vc-ue-extensions#unreal-engine-plugin-for-visual-studio) in the repo for instructions to install the plugin. If you have difficulty with the UE plugin, see the [Troubleshooting guide](https://github.com/microsoft/vc-ue-extensions/blob/main/Docs/Troubleshooting.md)
 
