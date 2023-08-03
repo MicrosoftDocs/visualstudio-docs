@@ -144,8 +144,6 @@
     href: quickstart-create-a-load-test-project.md
   - name: Create a web service test
     href: how-to-create-a-web-service-test.md
-  - name: Configure load tests
-    href: edit-load-tests.md
 - name: UI automation using Coded UI test
   items:
   - name: Overview
