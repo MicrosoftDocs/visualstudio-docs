@@ -15,10 +15,10 @@ manager: Markl
 
 ## Overview
 
-Visual Studio Tools for Unreal Engine provides features that enhance writing and debugging C++ code for Unreal Engine, from within Visual Studio, such as:
+Visual Studio Tools for Unreal Engine makes it easier to write and debug C++ code for Unreal Engine from within Visual Studio, with features such as:
 
 * Stream Unreal Engine logs
-* See Blueprint references and assets
+* View Blueprint references and assets
 * Expand Unreal Engine macros<sup>*</sup>
 * Unreal Engine name convention checker
 * Intellisense tuned for Unreal Engine projects<sup>*</sup>
@@ -32,6 +32,7 @@ Visual Studio Tools for Unreal Engine provides features that enhance writing and
 ## Supported Visual Studio versions
 
 Visual Studio Tools for Unreal Engine is available for free and supports:
+
 - Visual Studio 2022 Version 17.7 or later.
 
 We recommend [downloading and using the latest version of Visual Studio.](https://visualstudio.microsoft.com/downloads/).
