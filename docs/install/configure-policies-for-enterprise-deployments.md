@@ -1,7 +1,7 @@
 ---
 title: Configure policies for enterprise deployments
 description: Learn about domain policies and other configuration operations for enterprise deployments of Visual Studio.
-ms.date: 05/16/2023
+ms.date: 8/4/2023
 ms.topic: conceptual
 f1_keywords:
 - gpo
