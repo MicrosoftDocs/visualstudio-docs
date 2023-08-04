@@ -1,7 +1,7 @@
 ---
 title: Enable & configure ClickOnce security | Microsoft Docs
 description: Learn how the Publish wizard automatically enables code access security for ClickOnce applications to publish the application.
-ms.date: 11/04/2016
+ms.date: 08/04/2023
 ms.topic: how-to
 dev_langs: 
   - VB
