@@ -21,11 +21,11 @@ You can also view information about container images using the **Containers** wi
 :::moniker range="vs-2019"
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019 version 16.4](https://visualstudio.microsoft.com/downloads) or later.
+- [Visual Studio 2019 version 16.4](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) or later.
 :::moniker-end
 :::moniker range=">=vs-2022"
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) or [Visual Studio 2019 version 16.4](https://visualstudio.microsoft.com/downloads) or later.
+- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) or [Visual Studio 2019 version 16.4](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) or later.
 - For the Docker Compose node, [Visual Studio 2022 version 17.7 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) and Docker v2, which is installed with Docker Desktop and is on by default.
 
 :::moniker-end
