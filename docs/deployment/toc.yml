@@ -96,8 +96,22 @@
           href: accessing-local-and-remote-data-in-clickonce-applications.md
         - name: Deploy COM components with ClickOnce
           href: deploying-com-components-with-clickonce.md
-        - name: Specify ClickOnce Publish properties
-          href: how-to-specify-where-visual-studio-copies-the-files.md
+        - name: Configure Publish properties
+          items:
+          - name: Specify ClickOnce Publish properties
+            href: how-to-specify-where-visual-studio-copies-the-files.md
+          - name: Specify Technical Support
+            items:
+            - name: Specify a link for Technical Support
+              href: how-to-specify-a-link-for-technical-support.md
+            - name: Specify a support URL for individual prerequisites
+              href: how-to-specify-a-support-url-for-individual-prerequisites-in-a-clickonce-deployment.md
+          - name: Publish Page
+            items:
+            - name: Specify a publish page for a ClickOnce application
+              href: how-to-specify-a-publish-page-for-a-clickonce-application.md
+            - name: Customize the default web page for a ClickOnce application
+              href: how-to-customize-the-default-web-page-for-a-clickonce-application.md
         - name: Specify files
           items:
           - name: Specify which files are published by ClickOnce
@@ -114,18 +128,6 @@
           href: how-to-change-the-publish-language-for-a-clickonce-application.md
         - name: Specify a Start Menu name for a ClickOnce application
           href: how-to-specify-a-start-menu-name-for-a-clickonce-application.md
-        - name: Specify Technical Support
-          items:
-          - name: Specify a link for Technical Support
-            href: how-to-specify-a-link-for-technical-support.md
-          - name: Specify a support URL for individual prerequisites
-            href: how-to-specify-a-support-url-for-individual-prerequisites-in-a-clickonce-deployment.md
-        - name: Publish Page
-          items:
-          - name: Specify a publish page for a ClickOnce application
-            href: how-to-specify-a-publish-page-for-a-clickonce-application.md
-          - name: Customize the default web page for a ClickOnce application
-            href: how-to-customize-the-default-web-page-for-a-clickonce-application.md
         - name: Enable AutoStart for CD Installations
           href: how-to-enable-autostart-for-cd-installations.md
         - name: Create file associations For a ClickOnce application
