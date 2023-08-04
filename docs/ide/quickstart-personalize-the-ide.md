@@ -128,12 +128,12 @@ Next, change the text color for these items:
 
 ## Next steps
 
-Explore the other customization options in the [**Options**](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) dialog box to truly make Visual Studio your own.
+Explore the other customization options in the [**Fonts and Colors** > **Options**](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) dialog box to truly make Visual Studio your own.
 
 ::: moniker range="vs-2022"
 
 > [!TIP]
-> Looking for info on how to download VS Code color themes and then import them into Visual Studio? Check out the [Introducing a Collection of New Visual Studio Themes](https://devblogs.microsoft.com/visualstudio/custom-themes/) blog post for all the details.
+> Looking for info on how to download [VS Code](https://code.visualstudio.com/docs) color themes and then import them into Visual Studio? Check out the [Introducing a Collection of New Visual Studio Themes](https://devblogs.microsoft.com/visualstudio/custom-themes/) blog post for all the details.
 
 ::: moniker-end
 
