@@ -26,7 +26,7 @@ You can also view information about container images using the **Containers** wi
 :::moniker range=">=vs-2022"
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 - [Visual Studio 2022](https://visualstudio.microsoft.com/downloads) or [Visual Studio 2019 version 16.4](https://visualstudio.microsoft.com/downloads) or later.
-- For the Docker Compose node, [Visual Studio 2022 version 17.7 or later](https://visualstudio.microsoft.com/downloads) and Docker v2, which is installed with Docker Desktop and on by default.
+- For the Docker Compose node, [Visual Studio 2022 version 17.7 or later](https://visualstudio.microsoft.com/downloads) and Docker v2, which is installed with Docker Desktop and is on by default.
 
 :::moniker-end
 
@@ -48,7 +48,7 @@ On the left side, you see the list of containers on your local machine. The cont
 
 :::moniker range=">=vs-2022"
 
-If you're using Docker Compose and Visual Studio 2022 version 17.7 or later, you see a tree of nodes for your solution and its Docker Compose project, with a parent node for the solution and child nodes for each project, as you can see the following image:
+If you're using Docker Compose and Visual Studio 2022 version 17.7 or later, you see a tree of nodes for your solution and its Docker Compose project, with a parent node for the solution and child nodes for each project.
 
 ![Screenshot showing Docker Compose nodes in the Containers window.](./media/view-and-diagnose-containers/vs-2022/containers-logs-interleaved.png)
 :::moniker-end
@@ -102,7 +102,7 @@ The **Volumes** tab shows the volumes (mounted filesystem nodes) on the containe
 
 ## View logs
 
-The **Logs** tab shows the results of the `docker logs` command. By default, the tab shows stdout and stderr streams on a container, but you can configure the output. For details, see [Docker logging](https://docs.docker.com/config/containers/logging/).  By default, the **Logs** tab streams the logs, but you can pause that by choosing the **Stream** button on the tab. If you press **Stream** again, the streaming resumes from where it left off.
+The **Logs** tab shows the results of the `docker logs` command. By default, the tab shows stdout and stderr streams on a container, but you can configure the output. For details, see [Docker logging](https://docs.docker.com/config/containers/logging/).  By default, the **Logs** tab streams the logs, but you can pause that by choosing the **Stream** button on the tab. If you select **Stream** again, the streaming resumes from where it left off.
 
 :::moniker range="vs-2019"
 ![Screenshot of Logs tab in Containers window.](media/view-and-diagnose-containers/containers-logs.png)
