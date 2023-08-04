@@ -30,7 +30,7 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
 
 |Option|Registry setting value|Description|
 |------------|----------------------------|-----------------|
-|Enable the trust prompt.|`Enabled`|The ClickOnce trust prompt is display so that end users can grant trust to ClickOnce applications.|
+|Enable the trust prompt.|`Enabled`|The ClickOnce trust prompt is displayed so that end users can grant trust to ClickOnce applications.|
 |Restrict the trust prompt.|`AuthenticodeRequired`|The ClickOnce trust prompt is only displayed if ClickOnce applications are signed with a certificate that identifies the publisher.|
 |Disable the trust prompt.|`Disabled`|The ClickOnce trust prompt is not displayed for any ClickOnce applications that are not signed with an explicitly trusted certificate.|
 
@@ -234,9 +234,9 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
 - [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md)
 - [ClickOnce and Authenticode](../deployment/clickonce-and-authenticode.md)
 - [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md)
-- [How to: Enable ClickOnce security settings](../deployment/how-to-enable-clickonce-security-settings.md)
-- [How to: Set a security zone for a ClickOnce application](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md)
-- [How to: Set custom permissions for a ClickOnce application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md)
-- [How to: Debug a ClickOnce application with restricted permissions](securing-clickonce-applications.md)
-- [How to: Add a trusted publisher to a client computer for ClickOnce applications](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md)
-- [How to: Re-sign application and deployment manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)
+- [Enable and configure ClickOnce security settings](../deployment/how-to-enable-clickonce-security-settings.md)
+- [Set a security zone for a ClickOnce application](../deployment/how-to-enable-clickonce-security-settings.md#set-a-security-zone-for-a-clickonce-application)
+- [Set custom permissions for a ClickOnce application](../deployment/how-to-enable-clickonce-security-settings.md#set-custom-permissions-for-a-clickonce-application)
+- [Debug a ClickOnce application with restricted permissions](securing-clickonce-applications.md)
+- [Add a trusted publisher to a client computer for ClickOnce applications](../deployment/how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md)
+- [Re-sign application and deployment manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md)

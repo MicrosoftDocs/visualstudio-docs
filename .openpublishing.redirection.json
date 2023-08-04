@@ -1,6 +1,36 @@
 {
   "redirections": [
     {
+      "source_path": "docs/deployment/how-to-automatically-increment-the-clickonce-publish-version.md",
+      "redirect_url": "/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/how-to-set-the-clickonce-publish-version.md",
+      "redirect_url": "/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/how-to-specify-the-clickonce-offline-or-online-install-mode.md",
+      "redirect_url": "/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/how-to-specify-the-location-where-end-users-will-install-from.md",
+      "redirect_url": "/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/how-to-set-a-security-zone-for-a-clickonce-application.md",
+      "redirect_url": "/visualstudio/deployment/how-to-enable-clickonce-security-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/deployment/how-to-set-custom-permissions-for-a-clickonce-application.md",
+      "redirect_url": "/visualstudio/deployment/how-to-enable-clickonce-security-settings",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/deployment/azure-deployment-using-github-actions.md",
       "redirect_url": "/visualstudio/azure/azure-deployment-using-github-actions",
       "redirect_document_id": true

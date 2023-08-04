@@ -70,12 +70,8 @@
           href: trusted-application-deployment-overview.md
         - name: Code access security for ClickOnce applications
           href: code-access-security-for-clickonce-applications.md
-        - name: Enable ClickOnce security settings
+        - name: Enable and configure ClickOnce security
           href: how-to-enable-clickonce-security-settings.md
-        - name: Set a security zone for a ClickOnce application
-          href: how-to-set-a-security-zone-for-a-clickonce-application.md
-        - name: Set custom permissions for a ClickOnce application
-          href: how-to-set-custom-permissions-for-a-clickonce-application.md
         - name: Add a trusted publisher to a client computer
           href: how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md
         - name: Re-sign application and deployment manifests
@@ -90,6 +86,8 @@
           href: publishing-clickonce-applications.md
         - name: Publish a ClickOnce application using the Publish Wizard
           href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
+        - name: Build ClickOnce applications from the command line
+          href: building-clickonce-applications-from-the-command-line.md
         - name: Create ClickOnce applications for others to deploy
           href: creating-clickonce-applications-for-others-to-deploy.md
         - name: Deploy apps for test and production servers without resigning
@@ -98,18 +96,28 @@
           href: accessing-local-and-remote-data-in-clickonce-applications.md
         - name: Deploy COM components with ClickOnce
           href: deploying-com-components-with-clickonce.md
-        - name: Build ClickOnce applications from the command line
-          href: building-clickonce-applications-from-the-command-line.md
-        - name: Specify where Visual Studio copies the files
-          href: how-to-specify-where-visual-studio-copies-the-files.md
-        - name: Specify the location where end users will install from
-          href: how-to-specify-the-location-where-end-users-will-install-from.md
-        - name: Specify the ClickOnce offline or online install mode
-          href: how-to-specify-the-clickonce-offline-or-online-install-mode.md
-        - name: Set the ClickOnce publish version
-          href: how-to-set-the-clickonce-publish-version.md
-        - name: Automatically increment the ClickOnce publish version
-          href: how-to-automatically-increment-the-clickonce-publish-version.md
+        - name: Configure Publish properties
+          items:
+          - name: Specify ClickOnce Publish properties
+            href: how-to-specify-where-visual-studio-copies-the-files.md
+          - name: Specify Technical Support
+            items:
+            - name: Specify a link for Technical Support
+              href: how-to-specify-a-link-for-technical-support.md
+            - name: Specify a support URL for individual prerequisites
+              href: how-to-specify-a-support-url-for-individual-prerequisites-in-a-clickonce-deployment.md
+          - name: Publish Page
+            items:
+            - name: Specify a publish page for a ClickOnce application
+              href: how-to-specify-a-publish-page-for-a-clickonce-application.md
+            - name: Customize the default web page for a ClickOnce application
+              href: how-to-customize-the-default-web-page-for-a-clickonce-application.md
+          - name: Change the publish language for a ClickOnce application
+            href: how-to-change-the-publish-language-for-a-clickonce-application.md
+          - name: Specify a Start Menu name for a ClickOnce application
+            href: how-to-specify-a-start-menu-name-for-a-clickonce-application.md
+          - name: Enable AutoStart for CD Installations
+            href: how-to-enable-autostart-for-cd-installations.md
         - name: Specify files
           items:
           - name: Specify which files are published by ClickOnce
@@ -122,24 +130,6 @@
           href: how-to-include-prerequisites-with-a-clickonce-application.md
         - name: Manage updates for a ClickOnce application
           href: how-to-manage-updates-for-a-clickonce-application.md
-        - name: Change the publish language for a ClickOnce application
-          href: how-to-change-the-publish-language-for-a-clickonce-application.md
-        - name: Specify a Start Menu name for a ClickOnce application
-          href: how-to-specify-a-start-menu-name-for-a-clickonce-application.md
-        - name: Specify Technical Support
-          items:
-          - name: Specify a link for Technical Support
-            href: how-to-specify-a-link-for-technical-support.md
-          - name: Specify a support URL for individual prerequisites
-            href: how-to-specify-a-support-url-for-individual-prerequisites-in-a-clickonce-deployment.md
-        - name: Publish Page
-          items:
-          - name: Specify a publish page for a ClickOnce application
-            href: how-to-specify-a-publish-page-for-a-clickonce-application.md
-          - name: Customize the default web page for a ClickOnce application
-            href: how-to-customize-the-default-web-page-for-a-clickonce-application.md
-        - name: Enable AutoStart for CD Installations
-          href: how-to-enable-autostart-for-cd-installations.md
         - name: Create file associations For a ClickOnce application
           href: how-to-create-file-associations-for-a-clickonce-application.md
         - name: Retrieve query string information in an online ClickOnce application
@@ -160,16 +150,16 @@
             href: walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md
           - name: 'Walkthrough: Download assemblies on demand'
             href: walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api.md
-        - name: 'Walkthrough: Download satellite assemblies on demand using the Designer'
-          href: walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md
+          - name: 'Walkthrough: Download satellite assemblies on demand using the Designer'
+            href: walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md
+          - name: 'Walkthrough: Download satellite assemblies on demand'
+            href: walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md
         - name: Manual Deployment
           items:
           - name: 'Walkthrough: Manually deploy a ClickOnce application'
             href: walkthrough-manually-deploying-a-clickonce-application.md
           - name: 'Walkthrough: Manually deploy an app that does not require re-signing'
             href: walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required.md
-        - name: 'Walkthrough: Download satellite assemblies on demand'
-          href: walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md
         - name: 'Walkthrough: Create a custom installer'
           href: walkthrough-creating-a-custom-installer-for-a-clickonce-application.md
       - name: Update Strategy
