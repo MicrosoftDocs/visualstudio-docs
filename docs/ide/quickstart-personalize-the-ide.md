@@ -1,9 +1,8 @@
 ---
 title: Set the Visual Studio dark theme and change text colors
-description: Learn how to change the default Visual Studio color theme to dark mode and change font colors in the code editor.
-ms.date: 08/24/2022
+description: Learn how to change the default Visual Studio color theme in the IDE and how to change the font colors in the code editor.
+ms.date: 08/04/2023
 ms.topic: how-to
-ms.custom: contperf-fy21q1
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
@@ -17,9 +16,10 @@ ms.workload:
 
 ::: moniker range="vs-2022"
 
-In this how-to article, we'll customize the Visual Studio color theme. Then, we'll customize the colors for two different types of text in the code editor.
+This how-to article shows you how to change the [color theme](#set-the-color-theme-for-the-ide) in the Visual Studio IDE, and how to change the [font colors](#change-text-colors-in-the-editor) in the editor.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+> [!TIP]
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
 
 ## Set the color theme for the IDE
 
@@ -57,7 +57,7 @@ The default color theme for Visual Studio's user interface is **Blue**. Let's ch
 
    The color theme for the entire Visual Studio development environment (IDE) changes to **Dark**.
 
-   ![Visual Studio 2019 in dark theme](media/vs-2019/dark-theme.png)
+   ![Screenshot of Visual Studio 2019 in dark theme.](media/vs-2019/dark-theme.png)
 
 > [!TIP]
 > You can create your own themes by installing the **Visual Studio Color Theme Designer** from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-madsk.ColorThemeDesigner).
@@ -102,7 +102,7 @@ Now we'll customize some text colors for the editor. First, let's create a new X
 
    Notice that the line numbers are a turquoise-blue color, and the XML attributes (such as `id="bk101"`) are a light blue color. We're going to change the text color for these items.
 
-   ![XML file font colors](media/quickstart-personalize-xml-file.png)
+   ![Screenshot of an XML file's font colors.](media/quickstart-personalize-xml-file.png)
 
 1. To open the **Options** dialog box, choose **Tools** > **Options** from the menu bar.
 
@@ -120,7 +120,7 @@ Now we'll customize some text colors for the editor. First, let's create a new X
 
    The line numbers are now an olive color, and the XML attributes are a bright, lime green. If you open another file type, such as a C++ or C# code file, you'll see that the line numbers also appear in the olive color.
 
-   ![XML file with new font colors](media/quickstart-personalize-xml-file-new-colors.png)
+   ![Screenshot of an XML file with new font colors.](media/quickstart-personalize-xml-file-new-colors.png)
 
 We explored just a couple ways of customizing the colors in Visual Studio. We hope that you'll explore the other customization options in the [**Options**](../ide/reference/fonts-and-colors-environment-options-dialog-box.md) dialog box, to truly make Visual Studio your own.
 
@@ -133,7 +133,6 @@ We explored just a couple ways of customizing the colors in Visual Studio. We ho
 
 ## See also
 
-- [How to: Change fonts, colors, and themes in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
-- [How to: Change text case in the editor](../ide/how-to-change-text-case-in-the-editor.md)
-- [How to: Customize window layouts and personalize tabs](customizing-window-layouts-in-visual-studio.md)
-- [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
+- [Change fonts, colors, and themes in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
+- [Change text case in the editor](../ide/how-to-change-text-case-in-the-editor.md)
+- [Customize window layouts and personalize tabs](customizing-window-layouts-in-visual-studio.md)
