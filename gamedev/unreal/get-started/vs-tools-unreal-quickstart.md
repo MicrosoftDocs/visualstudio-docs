@@ -55,9 +55,7 @@ You can view, but not edit, UE Blueprints from within Visual Studio. This is use
 1. In Visual Studio, open `LyraCharacter.h`. Either search for that file in the Search pane of the **Solution Explorer** or find it under **Games** > **LyraStarterGame** > **Source** > **LyraGame** > **AbilitySystem** > **Abilities** > **LyraGameplayAbility.h**
 1. In `LyraCharacter.h`, go to line 96. You should see the following class: `class LYRAGAME_API ALyraCharacter : public AModularCharacter ...`
 1. There are four Blueprint classes that extend this class. You should see a link just above the `ALyraCharacter` class definition that says: `4 derived Blueprint classes`. Click that link to view the four Blueprint classes that extend this class:
-    :::image type="content" source="../media/vs-blueprints-link.png" alt-text="Screenshot of the blueprints link above the Alyra Character class." lightbox="../media/vs-blueprints-link.png":::
-Screenshot of the ALyra Character class, which has a link above it that says 4 derived blueprint classes. It has been selected, showing Blueprints such as B_ShootingTarget_C, Character_Default_C, and so on, along with their Asset Paths.
-:::image-end:::
+    :::image type="content" source="../media/vs-blueprints-link.png" alt-text="Screenshot of the blueprints link above the Alyra Character class." lightbox="../media/vs-blueprints-link.png":::Screenshot of the ALyra Character class, which has a link above it that says 4 derived blueprint classes. It has been selected, showing Blueprints such as B_ShootingTarget_C, Character_Default_C, and so on, along with their Asset Paths.:::image-end:::
 1. To view the properties of the `Character_Default_C` Blueprint, double-click it to open the Blueprint asset viewer. You can view the various properties of the Blueprint, but you can't change them:
     :::image type="content" source="../media/vs-blueprints-asset-viewer.png" alt-text="Screenshot of the Character_Default_C Blueprint asset viewer. It shows properties such as Actor, Camera, Character, Collision, and so on. ":::
 
