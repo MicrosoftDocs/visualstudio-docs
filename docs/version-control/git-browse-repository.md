@@ -1,7 +1,7 @@
 ---
 title: "Browse repos, compare branches & commits"
 description: Browse any Git repository in Visual Studio by using the Git Repository window.
-ms.date: 06/07/2023
+ms.date: 08/07/2023
 ms.topic: how-to
 author: houghj16
 ms.author: tglee
