@@ -29,7 +29,7 @@ The default color theme for the Visual Studio user interface is **Dark**. Here's
 
 1. In the options list, select **Environment** > **General**.
 
-1. In the **Color theme** list, choose between the default **Dark** theme, the **Blue** theme, the **Blue (Extra Contrast)** theme, and the **Light** theme. Or, choose the **Use system setting** option to select the theme that Windows uses.
+1. In the **Color theme** list, choose between the **Blue** theme, the **Blue (Extra Contrast)** theme, the default **Dark** theme, and the **Light** theme. Or, choose the **Use system setting** option to select the theme that Windows uses.
 
    :::image type="content" source="media/vs-2022/fonts-colors-theme.png" alt-text="Screenshot of the Options dialog box where you can change the color theme.":::
 
@@ -66,7 +66,9 @@ The default color theme for Visual Studio's user interface is **Blue**. Here's h
 
 ## Change text colors in the editor
 
-Here's how to customize some text colors for the editor. First, create a new XML file to see the default colors.
+Here's how to customize some text colors for the editor. 
+
+First, create a new XML file to see the default colors:
 
 1. From the menu bar, choose **File** > **New** > **File**.
 
