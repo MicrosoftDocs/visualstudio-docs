@@ -24,3 +24,11 @@
         href: unity/change-log-visual-studio-tools-for-unity.md
       - name: Visual Studio for Mac
         href: unity/change-log-visual-studio-tools-for-unity-mac.md
+- name: Unreal Engine
+  items:
+    - name: Overview
+      href: unreal/get-started/vs-tools-unreal-overview.md
+    - name: Install Visual Studio Tools for Unreal Engine
+      href: unreal/get-started/vs-tools-unreal-install.md
+    - name: Quickstart-Visual Studio Tools for Unreal Engine
+      href: unreal/get-started/vs-tools-unreal-quickstart.md
