@@ -120,7 +120,7 @@ Next, change the text color for these items:
 
 1. Before you exit out of the dialog box, you can also change the color of XML attributes. In the **Display items** list, scroll down to **XML Attribute** and select it. In the **Item foreground** box, choose **Lime**. Choose **OK** to save the selections and close the dialog box.
 
-   The line numbers are now an olive color, and the XML attributes are a bright, lime green. If you open another file type, such as a C++ or C# code file, you'll see that the line numbers also appear in the olive color.
+   The line numbers are now an olive color, and the XML attributes are a bright, lime green. If you open another file type, such as a C++ or C# code file, the line numbers also appear in the olive color.
 
    ![Screenshot of an XML file with new font colors.](media/quickstart-personalize-xml-file-new-colors.png)
 
