@@ -114,7 +114,7 @@ Now we'll customize some text colors for the editor. First, let's create a new X
 
     :::image type="content" source="media/vs-2022/personalize-line-number-color.png" alt-text="Screenshot of the Fonts and Colors category in the Options dialog box.":::
 
-   Some languages have their own specific fonts and colors settings. If you are a C++ developer and you want to change the color used for functions, for example, you can look for **C++ Functions** in the **Display items** list.
+   Some languages have their own specific fonts and colors settings. If you're a C++ developer and you want to change the color used for functions, for example, you can look for **C++ Functions** in the **Display items** list.
 
 1. Before we exit out of the dialog box, let's also change the color of XML attributes. In the **Display items** list, scroll down to **XML Attribute** and select it. In the **Item foreground** box, choose **Lime**. Choose **OK** to save our selections and close the dialog box.
 
