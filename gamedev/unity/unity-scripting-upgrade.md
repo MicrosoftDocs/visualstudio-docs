@@ -21,7 +21,7 @@ With the release of Unity 2017.1, Unity introduced an experimental version of it
 ## Prerequisites
 
 * [Unity 2022.2 or above](https://unity3d.com/) (2022.1.7 recommended)
-* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta/)
+* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/)
 
 ## Enabling the .NET 4.x scripting runtime in Unity
 

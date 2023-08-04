@@ -86,7 +86,7 @@ For other data-related technologies, Visual Studio 2022 supports the following:
 - PostgreSQL on container (local-only option)
 - MongoDB on container (local-only option)
 
-Apart from Connected Services, the following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the underlying data store. The **Azure development** workload in [Visual Studio](https://visualstudio.microsoft.com/downloads) enables you to work with Azure data stores directly from Visual Studio.
+Apart from Connected Services, the following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the underlying data store. The **Azure development** workload in [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) enables you to work with Azure data stores directly from Visual Studio.
 
 ![Azure development workload](media/azure-development-workload.png)
 

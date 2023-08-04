@@ -37,7 +37,7 @@ To install these components by using the manual installer, download and run the 
 
 [!INCLUDE[workloads-components-header-2022_md](includes/workloads-components-header-2022.md)]
 
-To install these components by using the manual installer, download and run the [Build Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022).
+To install these components by using the manual installer, download and run the [Build Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta/#build-tools-for-visual-studio-2022).
 
 [!INCLUDE[Visual Studio Build Tools 2022](includes/vs-2022/workload-component-id-vs-build-tools.md)]
 

@@ -32,7 +32,7 @@ Visual Studio Tools for Unity includes a rich set of features that enhances writ
 Visual Studio Tools for Unity is available for free and supports Visual Studio 2017 Community, Professional, and Enterprise and newer. We recommend [downloading and using the latest version of Visual Studio.](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta).
 :::zone-end
 :::zone pivot="macos"
-Visual Studio Tools for Unity is available for free and included in every installation of Visual Studio for Mac 2017 and newer. We recommend [downloading and using the latest version of Visual Studio for Mac.](https://visualstudio.microsoft.com/downloads/).
+Visual Studio Tools for Unity is available for free and included in every installation of Visual Studio for Mac 2017 and newer. We recommend [downloading and using the latest version of Visual Studio for Mac.](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta).
 :::zone-end
 
 Visit the Visual Studio Tools for Unity [getting started with Tools For Unity.](getting-started-with-visual-studio-tools-for-unity.md) for more information about installation and setup.

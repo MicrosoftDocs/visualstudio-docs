@@ -32,7 +32,7 @@ In order to install, update, or modify Visual Studio, the account performing the
 
 Visual Studio must be closed before performing an update. We highly recommend saving your work before performing an update.
 
-Visual Studio must first be installed on the machine before you can update it. To install the current version of Visual Studio from Microsoft hosted servers, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page. If you are currently using another instance of Visual Studio, you can either [install a new instance of Visual Studio side-by-side to your existing installation](../install/install-visual-studio-versions-side-by-side.md), or you can [uninstall the previous instance of Visual Studio](../install/uninstall-visual-studio.md) before installing this new one.
+Visual Studio must first be installed on the machine before you can update it. To install the current version of Visual Studio from Microsoft hosted servers, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page. If you are currently using another instance of Visual Studio, you can either [install a new instance of Visual Studio side-by-side to your existing installation](../install/install-visual-studio-versions-side-by-side.md), or you can [uninstall the previous instance of Visual Studio](../install/uninstall-visual-studio.md) before installing this new one.
 
 ::: moniker range="vs-2019"
 
