@@ -70,12 +70,8 @@
           href: trusted-application-deployment-overview.md
         - name: Code access security for ClickOnce applications
           href: code-access-security-for-clickonce-applications.md
-        - name: Enable ClickOnce security settings
+        - name: Enable and configure ClickOnce security
           href: how-to-enable-clickonce-security-settings.md
-        - name: Set a security zone for a ClickOnce application
-          href: how-to-set-a-security-zone-for-a-clickonce-application.md
-        - name: Set custom permissions for a ClickOnce application
-          href: how-to-set-custom-permissions-for-a-clickonce-application.md
         - name: Add a trusted publisher to a client computer
           href: how-to-add-a-trusted-publisher-to-a-client-computer-for-clickonce-applications.md
         - name: Re-sign application and deployment manifests
@@ -100,16 +96,8 @@
           href: deploying-com-components-with-clickonce.md
         - name: Build ClickOnce applications from the command line
           href: building-clickonce-applications-from-the-command-line.md
-        - name: Specify where Visual Studio copies the files
+        - name: Specify ClickOnce Publish properties
           href: how-to-specify-where-visual-studio-copies-the-files.md
-        - name: Specify the location where end users will install from
-          href: how-to-specify-the-location-where-end-users-will-install-from.md
-        - name: Specify the ClickOnce offline or online install mode
-          href: how-to-specify-the-clickonce-offline-or-online-install-mode.md
-        - name: Set the ClickOnce publish version
-          href: how-to-set-the-clickonce-publish-version.md
-        - name: Automatically increment the ClickOnce publish version
-          href: how-to-automatically-increment-the-clickonce-publish-version.md
         - name: Specify files
           items:
           - name: Specify which files are published by ClickOnce
