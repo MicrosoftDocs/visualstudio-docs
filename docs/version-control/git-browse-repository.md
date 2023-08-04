@@ -31,8 +31,9 @@ The **Git Repository** window contains three main sections, as numbered in the p
 
    - **Incoming** shows incoming commits that your team has been contributing.
    - **Outgoing** shows your local commits that you still haven't pushed.
-   - **Local History** shows the rest of commits tracked by your local repository.
-1. **Commit**: Selecting any commit in the **Graph** section opens its details. You can check the changes that a commit has introduced by selecting them, which shows a difference. For example, the previous screenshot shows the changes that one commit introduced to the *Files.csproj* file.
+   - **Local History** shows the rest of commits tracked by your local repository. 
+
+1. **Commit**: Selecting any commit in the **Graph** section opens its details. You can check the changes that a commit has introduced by selecting them, which shows a difference. For example, the previous screenshot shows the changes that one commit introduced to the *Resize.cs* file.
 
 The **Alt**+**Up arrow** or **Alt**+**Down arrow** keyboard shortcuts allow you to jump between these sections.
 
@@ -46,6 +47,19 @@ You can browse through any local or remote branch without having to switch your 
 > To display your commit in full screen, detach your **Commit** tab and maximize the **Commit** window by using the **Maximize** button. You can also select your favorite diff configuration by selecting **Diff Configuration** (the gear icon).
 >
 > :::image type="content" source="media/vs-2022/git-repository-commit-details-full-screen.png" alt-text="Screenshot of full-screen commit details with diff configurations." lightbox="media/vs-2022/git-repository-commit-details-full-screen.png":::
+
+### Multi-graph branch view
+
+**New with 17.7**: When you open the Git Repo window, you start in the single branch view. You can then select any branch to add both the branch and its commits to the graph by using the multi-branch graph. There are visual cues that make it more efficient to interact with multiple branches. For example, there's both line coloring and branch labels on the left side of the **Local History** view that help make it easier to trace which commits belong to each branch. You can use the list of branches at the top of the table to scroll between branches more easily and know immediately which branches appear in the graph.
+
+
+
+With multi-branch graph view, you can also perform the following actions:
+
+- Get more space to view the graph and history table by collapsing the Branches panel using the Collapse icon that appears in the upper-right corner.
+- Maximize your Commit details by using the Expand icon in the upper right corner.
+- See avatars for your author in Azure DevOps repos.
+- See the graph updates more smoothly when switching which branches are in view.
 
 <a name="compare-commits"/>
 
