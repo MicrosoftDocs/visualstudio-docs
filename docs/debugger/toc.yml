@@ -392,11 +392,11 @@
       href: debug-live-azure-virtual-machines-time-travel-debugging.md
   - name: Linux debugging
     items:
-    - name: Debug .NET Core apps in WSL 2
+    - name: Debug .NET apps in WSL 2
       href: debug-dotnet-core-in-wsl-2.md
-    - name: Debug .NET Core on Linux using SSH
+    - name: Debug .NET on Linux using SSH
       href: remote-debugging-dotnet-core-linux-with-ssh.md
-    - name: Debug .NET Core on AKS >>
+    - name: Debug .NET on AKS >>
       href: /visualstudio/bridge/bridge-to-kubernetes-vs
     - name: Debug with Container Tools >>
       href: ../containers/edit-and-refresh.md
