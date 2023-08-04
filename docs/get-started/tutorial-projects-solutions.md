@@ -26,7 +26,7 @@ As an educational exercise to understand the concept of a project, you'll constr
 
 ::: moniker range="vs-2019"
 
-If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
 
 ::: moniker-end
 

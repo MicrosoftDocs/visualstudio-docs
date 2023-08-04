@@ -36,7 +36,7 @@ Visual Studio must first be installed on the machine before you can update it. T
 
 ::: moniker range="vs-2019"
 
-We encourage you to update to the most [recent release](/visualstudio/releases/2019/release-notes/) of Visual Studio 2019 so that you always get the latest features, security fixes, and improvements. And if you'd like to try out our newest version, consider downloading and installing [Visual Studio 2022](https://visualstudio.microsoft.com/downloads).
+We encourage you to update to the most [recent release](/visualstudio/releases/2019/release-notes/) of Visual Studio 2019 so that you always get the latest features, security fixes, and improvements. And if you'd like to try out our newest version, consider downloading and installing [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta).
 
 There are several different ways to update an installation of Visual Studio. You can update through the Visual Studio Installer, you can check for updates or use the Notification hub in the IDE, or you can update by running a [specific version of the bootstrapper](/visualstudio/releases/2019/history). Here's how to update Visual&nbsp;Studio&nbsp;2019 using these various methods.
 

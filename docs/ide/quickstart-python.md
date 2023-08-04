@@ -21,7 +21,7 @@ In this 5-10 minute introduction to Visual Studio as a Python IDE, you create a 
 
 ::: moniker range="vs-2019"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free. In the installer, make sure to select the **Python development** workload.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free. In the installer, make sure to select the **Python development** workload.
 
 ::: moniker-end
 
