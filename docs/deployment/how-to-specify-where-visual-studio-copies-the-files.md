@@ -105,7 +105,7 @@ The [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] `Publish V
  The `Publish Version` property can be set on the **Publish** page of the **Project Designer**.
 
 > [!NOTE]
-> There is a project option that will automatically increment the `Publish Version` property each time the application is published; this option is enabled by default. For more information, see [How to: Automatically Increment the ClickOnce Publish Version](../deployment/how-to-automatically-increment-the-clickonce-publish-version.md).
+> There is a project option that will automatically increment the `Publish Version` property each time the application is published; this option is enabled by default. For more information, see [Automatically Increment the ClickOnce Publish Version](../deployment/how-to-specify-where-visual-studio-copies-the-files.md#automatically-increment-the-clickonce-publish-version).
 
 ### Change the publish version
 
