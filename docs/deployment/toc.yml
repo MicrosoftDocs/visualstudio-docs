@@ -112,6 +112,12 @@
               href: how-to-specify-a-publish-page-for-a-clickonce-application.md
             - name: Customize the default web page for a ClickOnce application
               href: how-to-customize-the-default-web-page-for-a-clickonce-application.md
+          - name: Change the publish language for a ClickOnce application
+            href: how-to-change-the-publish-language-for-a-clickonce-application.md
+          - name: Specify a Start Menu name for a ClickOnce application
+            href: how-to-specify-a-start-menu-name-for-a-clickonce-application.md
+          - name: Enable AutoStart for CD Installations
+            href: how-to-enable-autostart-for-cd-installations.md
         - name: Specify files
           items:
           - name: Specify which files are published by ClickOnce
@@ -124,12 +130,6 @@
           href: how-to-include-prerequisites-with-a-clickonce-application.md
         - name: Manage updates for a ClickOnce application
           href: how-to-manage-updates-for-a-clickonce-application.md
-        - name: Change the publish language for a ClickOnce application
-          href: how-to-change-the-publish-language-for-a-clickonce-application.md
-        - name: Specify a Start Menu name for a ClickOnce application
-          href: how-to-specify-a-start-menu-name-for-a-clickonce-application.md
-        - name: Enable AutoStart for CD Installations
-          href: how-to-enable-autostart-for-cd-installations.md
         - name: Create file associations For a ClickOnce application
           href: how-to-create-file-associations-for-a-clickonce-application.md
         - name: Retrieve query string information in an online ClickOnce application
