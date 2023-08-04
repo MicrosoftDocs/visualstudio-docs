@@ -86,6 +86,8 @@
           href: publishing-clickonce-applications.md
         - name: Publish a ClickOnce application using the Publish Wizard
           href: how-to-publish-a-clickonce-application-using-the-publish-wizard.md
+        - name: Build ClickOnce applications from the command line
+          href: building-clickonce-applications-from-the-command-line.md
         - name: Create ClickOnce applications for others to deploy
           href: creating-clickonce-applications-for-others-to-deploy.md
         - name: Deploy apps for test and production servers without resigning
@@ -94,8 +96,6 @@
           href: accessing-local-and-remote-data-in-clickonce-applications.md
         - name: Deploy COM components with ClickOnce
           href: deploying-com-components-with-clickonce.md
-        - name: Build ClickOnce applications from the command line
-          href: building-clickonce-applications-from-the-command-line.md
         - name: Specify ClickOnce Publish properties
           href: how-to-specify-where-visual-studio-copies-the-files.md
         - name: Specify files
