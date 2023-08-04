@@ -150,16 +150,16 @@
             href: walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md
           - name: 'Walkthrough: Download assemblies on demand'
             href: walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api.md
-        - name: 'Walkthrough: Download satellite assemblies on demand using the Designer'
-          href: walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md
+          - name: 'Walkthrough: Download satellite assemblies on demand using the Designer'
+            href: walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md
+          - name: 'Walkthrough: Download satellite assemblies on demand'
+            href: walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md
         - name: Manual Deployment
           items:
           - name: 'Walkthrough: Manually deploy a ClickOnce application'
             href: walkthrough-manually-deploying-a-clickonce-application.md
           - name: 'Walkthrough: Manually deploy an app that does not require re-signing'
             href: walkthrough-manually-deploying-a-clickonce-app-no-re-signing-required.md
-        - name: 'Walkthrough: Download satellite assemblies on demand'
-          href: walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md
         - name: 'Walkthrough: Create a custom installer'
           href: walkthrough-creating-a-custom-installer-for-a-clickonce-application.md
       - name: Update Strategy

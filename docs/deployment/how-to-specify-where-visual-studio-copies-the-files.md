@@ -99,10 +99,9 @@ The `Install Mode` can be set on the **Publish** page of the **Project Designer*
 
 ## Set the ClickOnce publish version
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] `Publish Version` property determines whether or not the application that you are publishing will be treated as an update. Each time version is incremented, the application will be published as an update.
 
- The `Publish Version` property can be set on the **Publish** page of the **Project Designer**.
+The `Publish Version` property can be set on the **Publish** page of the **Project Designer**.
 
 > [!NOTE]
 > There is a project option that will automatically increment the `Publish Version` property each time the application is published; this option is enabled by default. For more information, see [Automatically Increment the ClickOnce Publish Version](../deployment/how-to-specify-where-visual-studio-copies-the-files.md#automatically-increment-the-clickonce-publish-version).
