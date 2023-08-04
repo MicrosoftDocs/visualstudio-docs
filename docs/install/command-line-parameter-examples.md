@@ -1,7 +1,7 @@
 ---
 title: Command-line parameter examples for installation
 description: Customize these examples to create your own command-line installation of Visual Studio.
-ms.date: 8/4/2023
+ms.date: 8/8/2023
 ms.topic: conceptual
 ms.assetid: 837F31AA-F121-46e9-9996-F8BCE768E579
 author: anandmeg
@@ -54,7 +54,7 @@ For lists of the workloads and components that you can install by using the comm
    \\layoutserver\share\path\vs_enterprise.exe update --wait --passive --norestart --installPath "C:\installPathVS"
    ```
  
-Alternatively, you can also update your Visual Studio instance in one step by using the installer on the client. [Standard users, if they've been granted appropriate permissions](https://aka.ms/vs/setup/policies), can programmatically execute the update command using the installer, but they aren't allowed to use the --passive or --quiet switch. Be aware that you can't initiate the installer programmatically from the same directory that the installer resides in.
+Alternatively, you can also update your Visual Studio instance in one step by using the installer on the client. [Standard users, if they've been granted appropriate permissions](https://aka.ms/vs/setup/policies), can programmatically execute the update command using the installer, but they aren't allowed to use the `--passive` or `--quiet` switch. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.
  
    ```shell
    "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" update --passive --norestart --installPath "C:\installPathVS"
@@ -138,7 +138,7 @@ If you choose to use a custom layout as the update channel, then be aware of the
 
 ## Using --remove
 
-* Remove the Profiling Tools component from the default installed Visual Studio instance. This example uses the installer already installed on the client machine. [Standard users, if they've been granted appropriate permissions](https://aka.ms/vs/setup/policies), can programmatically execute the modify command using the installer, but they aren't allowed to use the --passive or --quiet switch. Be aware that you can't initiate the installer programmatically from the same directory that the installer resides in.
+* Remove the Profiling Tools component from the default installed Visual Studio instance. This example uses the installer already installed on the client machine. [Standard users, if they've been granted appropriate permissions](https://aka.ms/vs/setup/policies), can programmatically execute the modify command using the installer, but they aren't allowed to use the `--passive` or `--quiet` switch. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.
 
   ```shell
   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify ^
@@ -151,7 +151,7 @@ You can't use `--remove` in the same command as `--layout`. In other words, it's
 
 ## Using --removeOos
 
-Using the [latest installer](update-visual-studio.md#install-the-latest-and-greatest-installer), you can modify an installation and remove all [components that have transitioned to an out-of-support state](out-of-support-components.md) from the default installed Visual Studio instance. This example uses the installer already installed on the client machine to configure the removeOos setting. [Standard users, if they've been granted appropriate permissions](https://aka.ms/vs/setup/policies), can programmatically execute the modify command using the installer, but they aren't allowed to use the --passive or --quiet switch. Be aware that you can't initiate the installer programmatically from the same directory that the installer resides in.
+Using the [latest installer](update-visual-studio.md#install-the-latest-and-greatest-installer), you can modify an installation and remove all [components that have transitioned to an out-of-support state](out-of-support-components.md) from the default installed Visual Studio instance. This example uses the installer already installed on the client machine to configure the removeOos setting. [Standard users, if they've been granted appropriate permissions](https://aka.ms/vs/setup/policies), can programmatically execute the modify command using the installer, but they aren't allowed to use the `--passive` or `--quiet` switch. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.
 
   ```shell
    "C:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe" modify ^
@@ -213,7 +213,7 @@ All of these examples assume you're installing a new product using a bootstrappe
   vs_enterprise.exe --config "C:\my.vsconfig" --installPath "C:\VS"
   ```
 
-* Use --config to add workloads and components to an existing installation. This example uses the installer already installed on the client machine. [Standard users, if they've been granted appropriate permissions](https://aka.ms/vs/setup/policies), can programmatically execute the modify command using the installer, but they aren't allowed to use the --passive or --quiet switch. Be aware that you can't initiate the installer programmatically from the same directory that the installer resides in.
+* Use --config to add workloads and components to an existing installation. This example uses the installer already installed on the client machine. [Standard users, if they've been granted appropriate permissions](https://aka.ms/vs/setup/policies), can programmatically execute the modify command using the installer, but they aren't allowed to use the `--passive` or `--quiet` switch. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.
 
   ```shell
    "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --installPath "C:\VS" --config "C:\my.vsconfig"

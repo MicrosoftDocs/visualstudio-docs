@@ -2,7 +2,7 @@
 title: Visual Studio administrator guide
 titleSuffix: ''
 description: Learn more about how to deploy Visual Studio in an enterprise environment.
-ms.date: 8/4/2023
+ms.date: 8/8/2023
 ms.topic: overview
 helpviewer_keywords:
 - network installation, Visual Studio

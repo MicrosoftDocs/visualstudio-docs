@@ -1,7 +1,7 @@
 ---
 title: Configure policies for enterprise deployments
 description: Learn about domain policies and other configuration operations for enterprise deployments of Visual Studio.
-ms.date: 8/4/2023
+ms.date: 8/8/2023
 ms.topic: conceptual
 f1_keywords:
 - gpo
@@ -51,7 +51,7 @@ The registry settings in this section control how and where the Visual Studio pr
 
 | **Name**                         | **Type**                    | **Default**                                         | **Description**       |
 |----------------------------------|-----------------------------|-----------------------------------------------------|----------------------------|
-| `AllowStandardUserControl`       | `REG_DWORD`                 | 0  | **Allows users without administrator permissions to manage their Visual Studio installations**: if set to 1, users without administrator permissions can update or rollback an update without needing to supply an administrator password. If set to 2, then users without administrator permissions can use all functionality in the Visual Studio installer, including modify and install from Available tab.  |
+| `AllowStandardUserControl`       | `REG_DWORD`                 | 0  | **Allows users without administrator permissions to manage their Visual Studio installations**: if set to 1, users without administrator permissions can update or rollback an update without needing to supply an administrator password. If set to 2, users without administrator permissions can use all functionality in the Visual Studio Installer, including modify and install from the **Available** tab.  |
 | `CachePath`                      | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%<br>\Microsoft<br>\VisualStudio<br>\Packages  | **Package manifest and payload cache path**: the Visual Studio Installer enforces a 50 character limit for the path of this storage cache directory. For more information, see [Disable or move the package cache](disable-or-move-the-package-cache.md) page   |
 | `KeepDownloadedPayloads`         | `REG_DWORD`                 | 1                                                   | **Keep package payloads after installation**:  disabling the policy removes any cached package payloads for the instance you repair or modify. You can change the value anytime. For more information, see [Disable or move the package cache](disable-or-move-the-package-cache.md) page.   |
 | `SharedInstallationPath`         | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramFiles(x86)%<br>\Microsoft Visual Studio<br>\Shared  | **Shared installation path**: the directory where some packages shared across versions of instances of Visual Studio are installed. You can change the value anytime, but it will only affect future installs. Any products already installed to the old location must not be moved or they might not function correctly. The Visual Studio Installer enforces a 150 character limit for the path.     |
