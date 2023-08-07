@@ -1,7 +1,7 @@
 ---
 title: "Reduce compute costs using profiling tools"
 description: "Learn how to optimize code using Visual Studio profiling tools such as the CPU Usage tool, Database tool, and the .NET Object Allocation tool."
-ms.date: 07/21/2023
+ms.date: 08/07/2023
 ms.topic: conceptual
 dev_langs:
   - "CSharp"
@@ -20,12 +20,12 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Reducing your compute time means reducing costs, so optimizing your code can save money. In this article, we also show how you can use various profiling tools, including CPU Usage, NET Object Allocation, and the Database tool, to help you accomplish this task.The CPU Usage tool can help you capture and visualize where compute resources are used in your application. The CPU Usage views such as the call tree and flame chart provide a nice graphical visualization of where time is spent in your app. In addition, auto insights may show precise optimizations that can have a large impact. Other tools can help you isolate issues.
+Reducing your compute time means reducing costs, so optimizing your code can save money. In this article, we also show how you can use various profiling tools, including CPU Usage, NET Object Allocation, and the Database tool, to help you accomplish this task. Rather than providing step-by-step instructions, the intent here is to show you how to use the profiling tools effectively and how to interpret the data. The CPU Usage tool can help you capture and visualize where compute resources are used in your application. The CPU Usage views such as the call tree and flame chart provide a nice graphical visualization of where time is spent in your app. In addition, auto insights may show precise optimizations that can have a large impact. Other tools can help you isolate issues.
 
 ## Start an investigation
 
 - To reduce compute costs, start your investigation by taking a CPU usage trace. The CPU Usage tool is often helpful to begin performance investigations and to optimize code to reduce cost.
-- If you would like additional insights to help isolate issues or improve the performance, considering collecting a trace using one of the other profiling tools. For example:
+- Next, if you would like additional insights to help isolate issues or improve the performance, considering collecting a trace using one of the other profiling tools. For example:
   - Take a look at the memory usage. For .NET, try the .NET Object Allocation tool first. For either .NET or C++, you can look at the Memory Usage tool.
   - If your app is using File I/O, use the File I/O tool.
   - If you're using ADO.NET or Entity Framework, you can try the Database tool to examine SQL queries, precise query time, et al.
@@ -47,9 +47,13 @@ Start by collecting a trace with the CPU Usage tool. When the diagnostic data lo
 
 You can also view the hot path in the **Call Tree** view. To open this view, use the **Open details** link in the report and then select **Call Tree**.
 
-In this view, you see the hot path again, which shows high CPU usage for the `GetBlogTitleX` method in the app, using about a 60% share of the app's CPU usage. Two external calls to LINQ DLLs are using most of the CPU time. This is the first clue that you may want to look for a LINQ query as an area to optimize.
+In this view, you see the hot path again, which shows high CPU usage for the `GetBlogTitleX` method in the app, using about a 60% share of the app's CPU usage. However, the **Self CPU** value for `GetBlogTitleX` is low, only about .10%. Unlike **Total CPU**, the **Self CPU** value excludes time spent in other functions, so we know to look farther down the Call Tree view for the real bottleneck.
 
 :::image type="content" source="./media/optimize-code-cpu-usage-call-tree.png" alt-text="Screenshot of Call Tree view in the CPU Usage tool.":::
+
+`GetBlogTitleX` makes external calls to two LINQ DLLs, which are using most of the CPU time, as evidenced by the very high **Self CPU** values. This is the first clue that you may want to look for a LINQ query as an area to optimize.
+
+:::image type="content" source="./media/optimize-code-cpu-usage-call-tree-self-cpu.png" alt-text="Screenshot of Call Tree view in the CPU Usage tool with Self CPU highlighted.":::
 
 To get a visualized call tree and a different view of the data, switch to the **Flame Graph** view (select from the same list as the **Call Tree**). Here again, it looks like the `GetBlogTitleX` method is responsible for a lot of the app's CPU usage (shown in yellow). External calls to the LINQ DLLs show up beneath the `GetBlogTitleX` box, and they are using all of the CPU time for the method.
 
@@ -57,13 +61,13 @@ To get a visualized call tree and a different view of the data, switch to the **
 
 ## Gather additional data
 
-If the CPU Usage tool does not provide enough information to isolate the problem, or you would like additional insights to help improve the performance, you may decide to use one of the other profiling tools. For example, since we identified the LINQ DLLs, we'll first try the Database tool. You can multi-select this tool along with CPU Usage. When you've collected a trace, select the **Queries** tab in the diagnostics page.
+Often, other tools can provide additional information to help the analysis and isolate the problem. For example, since we identified the LINQ DLLs, we'll first try the Database tool. You can multi-select this tool along with CPU Usage. When you've collected a trace, select the **Queries** tab in the diagnostics page.
 
 In the Queries tab for the Database trace, you can see the first row shows the longest query, 2446 ms. The **Records** column shows how many records the query reads. We can use this information for later comparison.
 
 :::image type="content" source="./media/optimize-code-database.png" alt-text="Screenshot of Database queries in the Database tool.":::
 
-By examining the SELECT statement generated by LINQ in the Query column, you identify the first row as the query associated with the `GetBlogTitleX` method. The full query string in the Query column is:
+By examining the SELECT statement generated by LINQ in the Query column, you identify the first row as the query associated with the `GetBlogTitleX` method. Hover over the Query column to view the full query string. The full query string is:
 
 ```sql
 SELECT "b"."Url", "b"."BlogId", "p"."PostId", "p"."Author", "p"."BlogId", "p"."Content", "p"."Date", "p"."MetaData", "p"."Title"
