@@ -47,7 +47,7 @@ The first time you start Live Unit Testing for a solution you are presented with
 When Live Unit Testing runs it creates a workspace, which is a copy of the original repository. Live Unit Testing then applies any unsaved changes that you made in Visual Studio to the workspace, performs a build, a test run, and reports on the latest code coverage.
 The first thing that you should configure using the wizard is where the files should be copied from and where they should be copied to.
 
-![Screenshot of Live Unit Testing configuration wizard page 1](./media/lut-v2/configure-lut-wizard-1.png)
+![Screenshot of Live Unit Testing configuration wizard page 1](./media/lut-v2/configure-live-unit-testing-wizard.png)
 
 ### Repository root
 This specifies the folder that will be copied to create the Live Unit Testing workspace. It should be the root folder of the repository, that is, it should contain all sources, binaries, and tools.
@@ -117,7 +117,7 @@ Configure Live Unit Testing by selecting **Tools** > **Options** from the top-le
 
 The following image shows the Live Unit Testing configuration options available in the dialog:
 
-![Screenshot of Live Unit Testing configuration options](./media/lut-v2/tools-options-lut.png)
+![Screenshot of Live Unit Testing configuration options](./media/lut-v2/tools-options-live-unit-testing.png)
 
 The configurable options include:
 
@@ -205,7 +205,7 @@ At any time, you can temporarily pause or completely stop Live Unit Testing. You
 
 When you start Live Unit Testing, the Live Unit Testing tool window appears and prompts you to select the set of tests that you want tested by Live Unit Testing.
 
-![Screenshot of tool window shown when Live Unit Testing starts for the first time](./media/lut-v2/start-lut-toolwindow.png)
+![Screenshot of tool window shown when Live Unit Testing starts for the first time](./media/lut-v2/start-live-unit-testing-tool-window.png)
 
 For smaller solutions where the unit tests take very little time to execute, you can click the **Include all tests** button, which makes Live Unit Testing run all tests.
 
@@ -228,7 +228,7 @@ You can use the playlist editor for the Live Unit Testing tab to include or excl
 
 You can select, or deselect, the tree view elements to include or exclude tests. For example, if you check a single test, Live Unit Testing will run it on changes. If you select a class, then all tests in that class will run and any new tests added to that class will run as well.
 
-![Screenshot of Live Unit Testing playlist editor](./media/lut-v2/edit-lut-playlist.png)
+![Screenshot of Live Unit Testing playlist editor](./media/lut-v2/edit-live-unit-testing-playlist.png)
 
 ### The code editor window
 
