@@ -30,7 +30,7 @@ You can configure the ClickOnce trust prompt to control whether end users are gi
 
 |Option|Registry setting value|Description|
 |------------|----------------------------|-----------------|
-|Enable the trust prompt.|`Enabled`|The ClickOnce trust prompt is display so that end users can grant trust to ClickOnce applications.|
+|Enable the trust prompt.|`Enabled`|The ClickOnce trust prompt is displayed so that end users can grant trust to ClickOnce applications.|
 |Restrict the trust prompt.|`AuthenticodeRequired`|The ClickOnce trust prompt is only displayed if ClickOnce applications are signed with a certificate that identifies the publisher.|
 |Disable the trust prompt.|`Disabled`|The ClickOnce trust prompt is not displayed for any ClickOnce applications that are not signed with an explicitly trusted certificate.|
 
