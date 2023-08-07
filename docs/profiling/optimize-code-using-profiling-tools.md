@@ -113,7 +113,7 @@ foreach (var x in db.Posts.Where(p => p.Author.Contains("Fred Smith")).Select(b 
 In this code, you made several changes to help optimize the query:
 
 - Add the `Where` clause and eliminate one of the `foreach` loops.
-- Project only the Title property, which is all you need in this example.
+- Project only the Title property in the `Select` statement, which is all you need in this example.
 
 Next, retest using the profiling tools.
 
