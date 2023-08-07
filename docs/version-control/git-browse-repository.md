@@ -56,13 +56,6 @@ You can browse through any local or remote branch without having to switch your 
 
 There's both line coloring and branch labels on the left side of the **Local History** view that help make it easier to trace which commits belong to each branch. You can use the list of branches at the top of the table to scroll between branches more easily and know immediately which branches appear in the graph.
 
-With multi-branch graph view, you can also perform the following actions:
-
-- Get more space to view the graph and history table by collapsing the Branches panel using the Collapse icon that appears in the upper-right corner.
-- Maximize your Commit details by using the Expand icon in the upper right corner.
-- See avatars for your author in Azure DevOps repos.
-- See the graph updates more smoothly when switching which branches are in view.
-
 <a name="compare-commits"/>
 
 ## Compare commits
