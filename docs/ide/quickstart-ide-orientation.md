@@ -22,7 +22,7 @@ To develop any type of app or learn a language, you’ll be working in the Visua
 
 ## Download and install
 
-To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads) and install it on your system.
+To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) and install it on your system.
 
 In the Visual Studio Installer, you'll choose and install *workloads*, which are groups of features you need for the programming languages or platforms you want. To follow along this tutorial, be sure to select the **.NET desktop development** workload during installation. 
 

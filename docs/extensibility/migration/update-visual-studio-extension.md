@@ -26,7 +26,7 @@ Visual Studio 2022 is a 64-bit application and introduces some breaking changes 
 
 ## Install Visual Studio and compile extensions
 
-Install Visual Studio 2022 from [Visual Studio 2022 downloads](https://visualstudio.microsoft.com/downloads).
+Install Visual Studio 2022 from [Visual Studio 2022 downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta).
 
 ### Extensions written in a .NET language
 
