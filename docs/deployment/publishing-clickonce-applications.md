@@ -50,11 +50,11 @@ When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.m
 
 |Title|Description|
 |-----------|-----------------|
-|[How to: Specify where Visual Studio copies the files](../deployment/how-to-specify-where-visual-studio-copies-the-files.md)|Describes how to set where Visual Studio puts the application files and manifests.|
-|[How to: Specify the location where end users will install from](../deployment/how-to-specify-the-location-where-end-users-will-install-from.md)|Describes how to set the location where users go to download and install the application.|
-|[How to: Specify the ClickOnce offline or online install mode](../deployment/how-to-specify-the-clickonce-offline-or-online-install-mode.md)|Describes how to set whether the application will be available offline or online.|
-|[How to: Set the ClickOnce publish version](../deployment/how-to-set-the-clickonce-publish-version.md)|Describes how to set the ClickOnce **Publish Version** property, which determines whether or not the application that you are publishing will be treated as an update.|
-|[How to: Automatically increment the ClickOnce publish version](../deployment/how-to-automatically-increment-the-clickonce-publish-version.md)|Describes how to automatically increment the Revision number of the **PublishVersion** each time you publish the application.|
+|[Specify where Visual Studio copies the files](../deployment/how-to-specify-where-visual-studio-copies-the-files.md)|Describes how to set where Visual Studio puts the application files and manifests.|
+|[Specify the location where end users will install from](../deployment/how-to-specify-where-visual-studio-copies-the-files.md#specify-the-location-where-end-users-will-install-from)|Describes how to set the location where users go to download and install the application.|
+|[Specify the ClickOnce offline or online install mode](../deployment/how-to-specify-where-visual-studio-copies-the-files.md#specify-the-clickonce-offline-or-online-install-mode)|Describes how to set whether the application will be available offline or online.|
+|[Set the ClickOnce publish version](../deployment/how-to-specify-where-visual-studio-copies-the-files.md#set-the-clickonce-publish-version)|Describes how to set the ClickOnce **Publish Version** property, which determines whether or not the application that you are publishing will be treated as an update.|
+|[Automatically increment the ClickOnce publish version](../deployment/how-to-specify-where-visual-studio-copies-the-files.md#automatically-increment-the-clickonce-publish-version)|Describes how to automatically increment the Revision number of the **PublishVersion** each time you publish the application.|
 
  For more information, see [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)
 
