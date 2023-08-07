@@ -1,7 +1,7 @@
 ---
 title: "Browse repos, compare branches & commits"
 description: Browse any Git repository in Visual Studio by using the Git Repository window.
-ms.date: 08/07/2023
+ms.date: 08/08/2023
 ms.topic: how-to
 author: houghj16
 ms.author: tglee
@@ -48,9 +48,9 @@ You can browse through any local or remote branch without having to switch your 
 >
 > :::image type="content" source="media/vs-2022/git-repository-commit-details-full-screen.png" alt-text="Screenshot of full-screen commit details with diff configurations." lightbox="media/vs-2022/git-repository-commit-details-full-screen.png":::
 
-### Multi-graph branch view
+### Multi-branch graph view
 
-**[New with version 17.7](/visualstudio/releases/2022/release-notes)**: When you open the Git Repo window, you start in the single branch view. You can then select any branch to add both the branch and its commits to a multi-branch graph view, which addes visual cues that make it more efficient to interact with multiple branches. 
+**[New with version 17.7](/visualstudio/releases/2022/release-notes)**: When you open the Git Repo window, you start in the single branch view. You can then select any branch to add both the branch and its commits to a multi-branch graph view, which adds visual cues that make it more efficient to interact with multiple branches. 
 
 :::image type="content" source="media/vs-2022/git-repository-multigraph-branch-view.png" alt-text="Screenshot of the multi-graph branch view in Visual Studio." lightbox="media/vs-2022/git-repository-multigraph-branch-view.png":::
 
