@@ -1,7 +1,7 @@
 ---
 title: Configure policies for enterprise deployments
 description: Learn about domain policies and other configuration operations for enterprise deployments of Visual Studio.
-ms.date: 05/16/2023
+ms.date: 8/8/2023
 ms.topic: conceptual
 f1_keywords:
 - gpo
@@ -22,20 +22,21 @@ ms.technology: vs-installation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can configure certain aspects of Visual Studio's deployment and update behavior. Some of these configurations are particular to an installed instance of Visual Studio, and some of the configurations can be global and apply to all instances of Visual Studio on the client machine. The configurable behaviors include:
+You can configure certain aspects of Visual Studio's deployment and update behavior via policies. Some of these configurations are particular to an installed instance of Visual Studio, and some of the configurations can be global and apply to all instances of Visual Studio on the client machine. The configurable behaviors include:
 
+- If users without administrator permissions should be allowed to update or modify Visual Studio
+- If unsupported components should be removed from the machine
 - Where some packages shared with other versions or instances are installed
 - Where and whether packages are cached
 - If administrator updates should be enabled and how they should be applied
 - Which update channels are available and how they're presented to the client
 - How notifications appear or don't appear
-- If unsupported components should be removed from the machine
 
-You can set these global behaviors by using [Administrative Templates ADMX](administrative-templates.md) and then distributing these policies across the organization, or by setting registry values directly on the client machine. You can configure per instance behaviors by using [command-line options](use-command-line-parameters-to-install-visual-studio.md) on the client machine.
+You can use the [Visual Studio Administrative Templates ADMX](administrative-templates.md) to configure and deploy these policies across the organization by using [Microsoft Intune](/mem/intune/fundamentals/whats-new#visual-studio-admx-settings-are-in-the-settings-catalog-and-administrative-templates-) or by setting registry values directly on the client machine. You can configure per instance behaviors by using [command-line options](use-command-line-parameters-to-install-visual-studio.md) on the client machine.
 
 ## Registry keys
 
-There are several locations where you can set enterprise defaults to enable their control either through Group Policy or directly in the registry. Visual Studio looks sequentially to see if any enterprise policies have been set; as soon as a policy value is discovered in the order below, the remaining keys are ignored. All of these policies are included in the [Visual Studio Administrative Templates (ADMX)](administrative-templates.md) which can be downloaded [here](https://aka.ms/vs/admx/details). 
+There are several locations in the registry where you can set these policies. Visual Studio looks sequentially to see if any enterprise policies have been set; as soon as a policy value is discovered in the order below, the remaining keys are ignored.  
 
 1. `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\Setup`
 2. `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup`
@@ -50,6 +51,7 @@ The registry settings in this section control how and where the Visual Studio pr
 
 | **Name**                         | **Type**                    | **Default**                                         | **Description**       |
 |----------------------------------|-----------------------------|-----------------------------------------------------|----------------------------|
+| `AllowStandardUserControl`       | `REG_DWORD`                 | 0  | **Allows users without administrator permissions to manage their Visual Studio installations**: if set to 1, users without administrator permissions can update or rollback an update without needing to supply an administrator password. If set to 2, users without administrator permissions can use all functionality in the Visual Studio Installer, including modify and install from the **Available** tab.  |
 | `CachePath`                      | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramData%<br>\Microsoft<br>\VisualStudio<br>\Packages  | **Package manifest and payload cache path**: the Visual Studio Installer enforces a 50 character limit for the path of this storage cache directory. For more information, see [Disable or move the package cache](disable-or-move-the-package-cache.md) page   |
 | `KeepDownloadedPayloads`         | `REG_DWORD`                 | 1                                                   | **Keep package payloads after installation**:  disabling the policy removes any cached package payloads for the instance you repair or modify. You can change the value anytime. For more information, see [Disable or move the package cache](disable-or-move-the-package-cache.md) page.   |
 | `SharedInstallationPath`         | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramFiles(x86)%<br>\Microsoft Visual Studio<br>\Shared  | **Shared installation path**: the directory where some packages shared across versions of instances of Visual Studio are installed. You can change the value anytime, but it will only affect future installs. Any products already installed to the old location must not be moved or they might not function correctly. The Visual Studio Installer enforces a 150 character limit for the path.     |

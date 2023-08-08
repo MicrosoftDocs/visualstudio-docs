@@ -27,7 +27,7 @@ It's easy to modify Visual Studio so that it includes only what you want, when y
 
 ## Prerequisites
 
-- To install, modify, or update Visual Studio, you must run the Visual Studio Installer as an administrator. If you try to modify Visual Studio as a typical user, you'll get a User Account Control notice prompting you for admin credentials. For more information, see [User permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
+- By default, in order to install, update, or modify Visual Studio, the account performing the update must have administrative permissions on the machine and also must have permissions to the source where the product updates are located (either the internet or an internal location). If you are logged in as a typical user and try to perform one of these commands, then you'll get a User Account Control notice prompting you for admin credentials. Starting in August 2023, an admin can delegate control of modifying Visual Studio to standard users by configuring the [`AllowStandardUserControl` policy](https://aka.ms/vs/setup/policies). For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
 
 - The following procedures assume you have an internet connection. For more about how to modify a previously created [offline installation](create-an-offline-installation-of-visual-studio.md) of Visual Studio, see:
   - [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
