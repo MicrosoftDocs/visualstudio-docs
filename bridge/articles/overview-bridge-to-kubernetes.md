@@ -176,6 +176,6 @@ To get started using Bridge to Kubernetes to connect to your local development c
 [azure-cli]: /cli/azure/install-azure-cli?view=azure-cli-latest&preserve-view=true
 [bridge-to-kubernetes-vs]: bridge-to-kubernetes.md
 [kubectl-port-forward]: https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#port-forward
-[visual-studio]: https://visualstudio.microsoft.com/downloads/
+[visual-studio]: https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta
 [btk-extension]: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.mindaro
 [using-config-yaml]: configure-bridge-to-kubernetes.md

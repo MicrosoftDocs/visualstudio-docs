@@ -19,7 +19,7 @@ ms.workload:
 This article shows you how to change the [color theme](#set-the-color-theme-for-the-ide) in the Visual Studio IDE, and how to change the [font colors](#change-text-colors-in-the-editor) in the editor.
 
 > [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
 
 ## Set the color theme for the IDE
 
@@ -45,7 +45,7 @@ The default color theme for the Visual Studio user interface is **Dark**. Here's
 
 This article shows you how to customize the Visual Studio color theme from the blue theme to the dark theme. Then, it shows you how to customize the colors for two different types of text in the code editor.
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
 
 ## Set the color theme for the IDE
 

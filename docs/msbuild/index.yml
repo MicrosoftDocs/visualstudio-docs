@@ -18,7 +18,7 @@ highlightedContent:
    items:
    - title: Visual Studio
      itemType: download
-     url: https://visualstudio.microsoft.com/downloads/
+     url: https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta
    - title: .NET SDK
      itemType: download
      url: https://dotnet.microsoft.com/download
