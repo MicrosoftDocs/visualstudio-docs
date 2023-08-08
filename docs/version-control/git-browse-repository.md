@@ -1,7 +1,7 @@
 ---
 title: "Browse repos, compare branches & commits"
 description: Browse any Git repository in Visual Studio by using the Git Repository window.
-ms.date: 06/07/2023
+ms.date: 08/08/2023
 ms.topic: how-to
 author: houghj16
 ms.author: tglee
@@ -31,8 +31,9 @@ The **Git Repository** window contains three main sections, as numbered in the p
 
    - **Incoming** shows incoming commits that your team has been contributing.
    - **Outgoing** shows your local commits that you still haven't pushed.
-   - **Local History** shows the rest of commits tracked by your local repository.
-1. **Commit**: Selecting any commit in the **Graph** section opens its details. You can check the changes that a commit has introduced by selecting them, which shows a difference. For example, the previous screenshot shows the changes that one commit introduced to the *Files.csproj* file.
+   - **Local History** shows the rest of commits tracked by your local repository. 
+
+1. **Commit**: Selecting any commit in the **Graph** section opens its details. You can check the changes that a commit has introduced by selecting them, which shows a difference. For example, the previous screenshot shows the changes that one commit introduced to the *Resize.cs* file.
 
 The **Alt**+**Up arrow** or **Alt**+**Down arrow** keyboard shortcuts allow you to jump between these sections.
 
@@ -46,6 +47,14 @@ You can browse through any local or remote branch without having to switch your 
 > To display your commit in full screen, detach your **Commit** tab and maximize the **Commit** window by using the **Maximize** button. You can also select your favorite diff configuration by selecting **Diff Configuration** (the gear icon).
 >
 > :::image type="content" source="media/vs-2022/git-repository-commit-details-full-screen.png" alt-text="Screenshot of full-screen commit details with diff configurations." lightbox="media/vs-2022/git-repository-commit-details-full-screen.png":::
+
+### Multi-branch graph view
+
+**[New with version 17.7](/visualstudio/releases/2022/release-notes)**: When you open the Git Repo window, you start in the single branch view. You can then select any branch to add both the branch and its commits to a multi-branch graph view, which adds visual cues that make it more efficient to interact with multiple branches. 
+
+:::image type="content" source="media/vs-2022/git-repository-multigraph-branch-view.png" alt-text="Screenshot of the multi-graph branch view in Visual Studio." lightbox="media/vs-2022/git-repository-multigraph-branch-view.png":::
+
+There's both line coloring and branch labels on the left side of the **Local History** view that help make it easier to trace which commits belong to each branch. You can use the list of branches at the top of the table to scroll between branches more easily and know immediately which branches appear in the graph.
 
 <a name="compare-commits"/>
 
