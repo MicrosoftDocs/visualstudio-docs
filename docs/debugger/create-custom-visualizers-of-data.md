@@ -35,9 +35,10 @@ This article provides a high-level overview of visualizer creation. For detailed
 - [Walkthrough: Write a visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)
 - [Walkthrough: Write a visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md)
 - [Install a visualizer](../debugger/how-to-install-a-visualizer.md)
+- (C/C++) [C/C++ custom visualizer sample](https://github.com/Microsoft/ConcordExtensibilitySamples/tree/master/CppCustomVisualizer) or the [SQLite native Debugger Visualizer](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/SqliteVisualizer) sample.
 
 > [!NOTE]
-> To create a custom visualizer for native code, see the [C/C++ custom visualizer sample](https://github.com/Microsoft/ConcordExtensibilitySamples/tree/master/CppCustomVisualizer) or the [SQLite native Debugger Visualizer](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/SqliteVisualizer) sample. Custom visualizers are not supported for UWP and Windows 8.x apps.
+> Custom visualizers are not supported for UWP and Windows 8.x apps.
 
 ## Overview
 
