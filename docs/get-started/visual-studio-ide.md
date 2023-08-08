@@ -39,7 +39,7 @@ To install Visual Studio, select the following button, and [choose the edition o
 To install Visual Studio, select the following button, and [choose the edition of Visual Studio](#choose-your-visual-studio-edition) to download.
 
  > [!div class="button"]
- > [Download Visual Studio](https://visualstudio.microsoft.com/downloads)
+ > [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
 
 ::: moniker-end
 
@@ -148,7 +148,7 @@ Select the following button to install Visual Studio, and choose the edition of 
 Select the following button to install Visual Studio, and choose the edition of Visual Studio.
 
  > [!div class="button"]
- > [Download Visual Studio](https://visualstudio.microsoft.com/downloads)
+ > [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
 
 ::: moniker-end
 

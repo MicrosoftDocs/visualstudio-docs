@@ -18,7 +18,7 @@ The tools included in Visual Studio for developing with Docker containers are ea
 ## Prerequisites
 
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
+* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
 * [.NET Core Development Tools](https://dotnet.microsoft.com/download/dotnet-core/) for development with .NET Core.
 * To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
 
@@ -42,7 +42,7 @@ In Visual Studio 2019 version 16.4 and later, the **Containers** window is avail
 ## Prerequisites
 
 * [Docker Desktop](https://www.docker.com/get-docker)
-* [Visual Studio 2022](https://visualstudio.microsoft.com/downloads) with the **Web Development**, **Azure Tools** workload, and/or **.NET desktop development** workload installed
+* [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET desktop development** workload installed
 * To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
 
 ## Docker support in Visual Studio

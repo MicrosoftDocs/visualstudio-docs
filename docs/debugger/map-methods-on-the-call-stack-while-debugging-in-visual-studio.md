@@ -41,7 +41,7 @@ Create a code map to visually trace the call stack while you're debugging. You c
 For details of commands and actions you can use with code maps, see [Browse and rearrange code maps](../modeling/browse-and-rearrange-code-maps.md).
 
 >[!IMPORTANT]
->You can create code maps only in [Visual Studio Enterprise edition](https://visualstudio.microsoft.com/downloads).
+>You can create code maps only in [Visual Studio Enterprise edition](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta).
 
 Here's a quick look at a code map:
 

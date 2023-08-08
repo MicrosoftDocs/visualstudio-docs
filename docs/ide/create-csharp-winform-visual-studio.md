@@ -22,7 +22,7 @@ In this tutorial, you'll create a simple C# application that has a Windows-based
 
 ::: moniker range="vs-2019"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
 
 > [!NOTE]
 > Some of the screenshots in this tutorial use the dark theme. If you aren't using the dark theme but would like to, see the [Personalize the Visual Studio IDE and Editor](../ide/quickstart-personalize-the-ide.md) page to learn how.
@@ -31,7 +31,7 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 
 ::: moniker range="vs-2022"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio 2022 downloads](https://visualstudio.microsoft.com/downloads) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio 2022 downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
 
 ::: moniker-end
 

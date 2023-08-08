@@ -21,7 +21,7 @@ ms.workload:
 You can debug JavaScript and TypeScript code using Visual Studio. You can hit breakpoints, attach the debugger, inspect variables, view the call stack, and use other debugging features.
 
 > [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free. If you are developing Node.js applications, you need to install the **Node.js development workload** with Visual Studio.
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free. If you are developing Node.js applications, you need to install the **Node.js development workload** with Visual Studio.
 
 ## Debug server-side script
 
