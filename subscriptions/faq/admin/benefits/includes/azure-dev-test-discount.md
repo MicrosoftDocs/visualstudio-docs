@@ -1,12 +1,13 @@
 ---
 title: How do my developers get 50% off Azure Dev/Test workloads?
 description: If your organization has an Enterprise Agreement for Azure, your developers can choose...
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.faqid: group2_5
 ms.topic: include
 ms.assetid: 86308cf3-909b-47a0-9230-5d1a93a2f87a
 author: evanwindom
 ms.author: amast
-ms.date: 05/03/2021
+ms.date: 08/08/2023
 ---
 
 ## How do my developers get 50% off Azure dev/test workloads?

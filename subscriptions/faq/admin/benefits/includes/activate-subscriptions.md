@@ -7,7 +7,7 @@ ms.topic: include
 ms.assetid: 1530ca0a-f23f-44f1-9bde-792ea1265085
 author: evanwindom
 ms.author: amast
-ms.date: 02/15/2023
+ms.date: 08/08/2023
 ---
 
 ## How do my end users activate their Visual Studio subscription?

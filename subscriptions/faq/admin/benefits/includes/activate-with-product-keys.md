@@ -7,7 +7,7 @@ ms.topic: include
 ms.assetid: 248726b6-1e50-481c-aabf-0f509da5d710
 author: evanwindom
 ms.author: amast
-ms.date: 02/15/2023
+ms.date: 08/08/2023
 ---
 
 ## How do my developers activate software using product keys from their Visual Studio subscription?

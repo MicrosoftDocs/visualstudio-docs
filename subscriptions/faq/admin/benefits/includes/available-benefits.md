@@ -7,7 +7,7 @@ ms.topic: include
 ms.assetid: e8b196c2-6118-47d1-8363-ceae3d9b6fb2
 author: evanwindom
 ms.author: amast
-ms.date: 11/10/2020
+ms.date: 08/08/2023
 ---
 
 ## What benefits and software are available to my subscribers after a Visual Studio subscription has been assigned?
