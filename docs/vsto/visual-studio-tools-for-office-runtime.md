@@ -22,9 +22,9 @@ ms.workload:
 
 The Visual Studio 2010 Tools for Office Runtime (VSTO Runtime) ships with various versions of Visual Studio and Microsoft Office and follows the support lifecycle of the parent product.
 
-It is also [available to download](https://aka.ms/VSTORuntimeDownload) and install independently. The versions of VSTO Runtime that are available on the download center follow the support lifecycle of the latest version of Microsoft Office that was available at the time of its release.
+It's also [available to download](https://aka.ms/VSTORuntimeDownload) and install independently. The versions of VSTO Runtime that are available on the download center follow the support lifecycle of the latest version of Microsoft Office that was available at the time of its release.
 
-It is recommended that developers install the latest version of the VSTO Runtime with their applications. It will be supported when running with supported versions Office. If the VSTO Runtime needs to be serviced, only the latest version will be updated.
+It's recommended that developers install the latest version of the VSTO Runtime with their applications. It is supported when running with supported versions Office. If the VSTO Runtime needs to be serviced, only the latest version is updated.
 
 The following is a list of the VSTO Runtime releases and the corresponding version of Office for which its support lifecycle follows: 
 
@@ -45,4 +45,4 @@ The following is a list of the VSTO Runtime releases and the corresponding versi
 | 10.0.60828 | 01/12/2018 | Microsoft Office 2019 / <br>Microsoft Office 2021 / <br>Office 365 |
 | 10.0.60910 | 08/08/2024 | Microsoft Office 2013 / <br>Microsoft Office 2016 / <br>Microsoft Office 2019 / <br>Microsoft Office 2021 / <br>Office 365 |
 
-For more information on the Office Support Lifecycle please see [Lifecycle FAQ - Office, Office 365, and Microsoft 365](/lifecycle/faq/office).
+For more information on the Office Support Lifecycle, see [Lifecycle FAQ - Office, Office 365, and Microsoft 365](/lifecycle/faq/office).
