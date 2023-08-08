@@ -14,7 +14,7 @@
     href: tutorial-create-angular-app.md
   - name: Create a Vue.js app
     href: tutorial-create-vue-app.md
-  - name: Create a Vue.js project
+  - name: Create a Vue.js app (.njsproj)
     href: quickstart-vuejs-with-nodejs.md
 - name: Tutorials
   items:
@@ -54,7 +54,7 @@
     href: npm-package-management.md
   - name: Develop without projects or solutions ("Open Folder")
     href: develop-javascript-code-without-solutions-projects.md
-  - name: Create a Vue.js application
+  - name: Create a Vue.js application (.njsproj)
     href: create-application-with-vuejs.md
   - name: Use the Node.js interactive REPL
     href: nodejs-interactive-repl.md
