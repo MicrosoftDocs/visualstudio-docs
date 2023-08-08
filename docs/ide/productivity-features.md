@@ -24,7 +24,7 @@ Save time digging through menus by quickly searching for anything you need, incl
 
 - **Mock code using task list**. If you don't have enough requirements to complete a piece of code, use Task List to track code comments that use tokens such as `TODO` and `HACK`, or custom tokens, and to manage shortcuts that take you directly to a predefined location in code. For more information, see [Use the Task List](../ide/using-the-task-list.md).
 
-- **Use Solution Explorer shortcuts**. If you're new to Visual Studio, these shortcuts will come in handy and save you time while you're coming up to speed on a new codebase. For the full list of shortcuts, see [Default keyboard shortcuts in Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_solutionexplorerGLOBAL).
+- **Use Solution Explorer shortcuts**. If you're new to Visual Studio, these shortcuts come in handy and save you time while you're coming up to speed on a new codebase. For the full list of shortcuts, see [Default keyboard shortcuts in Visual Studio](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_solutionexplorerGLOBAL).
 
 - **[Identify and customize keyboard shortcuts in Visual Studio](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)**. You can identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use. You can always find and change a keyboard shortcut in the Options dialog box.
 
@@ -107,9 +107,9 @@ You can search across the IDE for commands, files, and options, in addition to f
 
 ## Debug code
 
-Debugging can consume a lot of time, but the following tips can help you speed up the process.
+Debugging can take time, but the following tips can help you speed up the process.
 
-- **Use the Visual Studio debugger tools**. In the Visual Studio context, when you *debug your app*, it usually means that you are running the application in debugger mode. The debugger provides many ways to see what your code is doing while it runs. See [First look at the Visual Studio Debugger](../debugger/debugger-feature-tour.md) for a guide to getting started.
+- **Use the Visual Studio debugger tools**. In the Visual Studio context, when you *debug your app*, it usually means that you're running the application in debugger mode. The debugger provides many ways to see what your code is doing while it runs. See [First look at the Visual Studio Debugger](../debugger/debugger-feature-tour.md) for a guide to getting started.
 
 - **Set temporary breakpoints**. You can create a temporary breakpoint in the current line of code and start the debugger simultaneously. When you hit that line of code, the debugger enters break mode. For more information, see [Navigate through code with the debugger](../debugger/navigating-through-code-with-the-debugger.md).
 
@@ -125,7 +125,7 @@ Debugging can consume a lot of time, but the following tips can help you speed u
 
 - **Clear the Immediate window**. You can erase the contents of the [Immediate window](../ide/reference/immediate-window.md) at design time by entering `>cls` or `>Edit.ClearAll`
 
-     For more information about additional commands, see [Visual Studio command aliases](../ide/reference/visual-studio-command-aliases.md).
+     For more information about other commands, see [Visual Studio command aliases](../ide/reference/visual-studio-command-aliases.md).
 
 - **[Find code changes and other history with CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md)**. CodeLens lets you stay focused on your work while you find out what happened to your code&mdash;without leaving the editor. You can find references to a piece of code, changes to your code, linked bugs, work items, code reviews, and unit tests.
 
@@ -160,5 +160,5 @@ At any one time, you may be working in multiple code files and moving among seve
 - [Visual Studio tips and tricks blog post](https://devblogs.microsoft.com/visualstudio/visual-studio-tips-and-tricks/)
 - [Default keyboard shortcuts for frequently used commands](default-keyboard-shortcuts-in-visual-studio.md)
 - [How to: Customize menus and toolbars](../ide/how-to-customize-menus-and-toolbars-in-visual-studio.md)
-- [Walkthrough: Create a simple application](../get-started/csharp/tutorial-wpf.md)
+- [Walkthrough: Create an application](../get-started/csharp/tutorial-wpf.md)
 - [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md)

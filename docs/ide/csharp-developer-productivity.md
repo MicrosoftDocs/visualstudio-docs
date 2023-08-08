@@ -134,9 +134,9 @@ You can use an EditorConfig file to codify coding conventions and have them trav
 
 ::: moniker-end
 
-- The [**code inference feature**](/visualstudio/intellicode/code-style-inference) of [IntelliCode](/visualstudio/intellicode/overview) for Visual Studio infers your code styles from existing code. It then creates a non-empty EditorConfig file with your code-style preferences already defined.
+- The [**code inference feature**](/visualstudio/intellicode/code-style-inference) of [IntelliCode](/visualstudio/intellicode/overview) for Visual Studio infers your code styles from existing code. It then creates a nonempty EditorConfig file with your code-style preferences already defined.
 
-- Configure the severity level of a code style rule directly through the editor. If you currently do not have an .editorconfig file, Visual Studio generates one for you. Place your cursor on the error, warning, or suggestion and type **Ctrl**+**.** to open the **Quick Actions and Refactorings** menu. Select **Configure or Suppress issues**. Then select the rule and choose the severity level you would like to configure for that rule. This will update your existing EditorConfig with the rule’s new severity.
+- Configure the severity level of a code style rule directly through the editor. If you don't have an .editorconfig file, Visual Studio generates one for you. Place your cursor on the error, warning, or suggestion and type **Ctrl**+**.** to open the **Quick Actions and Refactorings** menu. Select **Configure or Suppress issues**. Then select the rule and choose the severity level you would like to configure for that rule. This action updates your existing EditorConfig with the rule’s new severity.
 
 ::: moniker range="vs-2022"
 
@@ -206,7 +206,7 @@ For more information, see [code generation features](code-generation-in-visual-s
 
 You can [install .NET analyzers](../code-quality/install-net-analyzers.md) to flag code issues. Or, write your own refactoring or code fix with [Roslyn analyzers](../code-quality/install-roslyn-analyzers.md).
 
-Several community members have written free extensions that add additional code inspections:
+Several community members have written free extensions that add more code inspections:
 
 ::: moniker range="vs-2022"
 
@@ -269,7 +269,7 @@ For more information, see [Unit test basics](../test/unit-test-basics.md).
 
 ## Debugging
 
-Some of Visual Studio's debugging capabilities include the following:
+Visual Studio includes the following debugging capabilities:
 
 - The ability to search for a string within the **Watch**, **Autos**, and **Locals** windows.
 - *Run to click*, which lets you hover next to a line of code, hit the green 'play' icon that appears, and run your program until it reaches that line.
@@ -323,7 +323,7 @@ Here's a list of editor and productivity features to make writing code more effi
 | Add usings for types in reference assemblies and NuGet packages | Shows an error light bulb with a code fix to install a NuGet package for an unreferenced type | **Tools** > **Options** > **Text Editor** > **C#** > **Advanced** > **Suggest usings for types in reference assemblies** and **Suggest usings for types in NuGet packages** |
 | Enable full solution analysis | See all errors in your solution in the **Error List** | **Tools** > **Options** > **Text Editor** > **C#** > **Advanced** > **Enable full solution analysis** |
 | Enable navigation to decompiled sources | Allow Go To Definition on types/members from external sources and use the ILSpy decompiler to show method bodies | **Tools** > **Options** > **Text Editor** > **C#** > **Advanced** > **Enable navigation to decompiled sources** |
-| Completion/Suggestion Mode | Changes the completion behavior in [IntelliSense](using-intellisense.md). Developers with IntelliJ backgrounds tend to use a non-default setting here. | **Edit** > **IntelliSense** > **Toggle Completion Mode** (or press **Ctrl**+**Alt**+**Space** in the editor) |
+| Completion/Suggestion Mode | Changes the completion behavior in [IntelliSense](using-intellisense.md). Developers with IntelliJ backgrounds tend to use a nondefault setting here. | **Edit** > **IntelliSense** > **Toggle Completion Mode** (or press **Ctrl**+**Alt**+**Space** in the editor) |
 | [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) | Displays code reference information and change history in the editor. (Source control CodeLens indicators aren't available in Visual Studio Community edition.) | **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens** |
 | [Code snippets](../ide/visual-csharp-code-snippets.md) | Help stub out common boilerplate code | Type a snippet name and press **Tab** twice. |
 | [Paste JSON or XML as classes](reference/paste-json-xml.md) | Copy any JSON or XML text fragment to the clipboard and paste it as strongly typed .NET classes into any C# code file. | **Edit** > **Paste Special** > **Paste JSON As Classes** (or **Paste XML As Classes**) |
