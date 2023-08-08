@@ -37,7 +37,7 @@ The following new features support Vue.js application development in Visual Stud
     > [!IMPORTANT]
     > This article requires features that are only available starting in Visual Studio 2017 version 15.8.
 
-    If a required version is not already installed, install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta).
+    If a required version isn't already installed, install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta).
 
     If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
 
@@ -45,7 +45,7 @@ The following new features support Vue.js application development in Visual Stud
 
 * You must have the Node.js runtime installed.
 
-    If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page. (After you create a project, right-click the project node and choose **Properties**).
+    If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it doesn't detect an installed runtime, you can configure your project to reference the installed runtime in the properties page. (After you create a project, right-click the project node and choose **Properties**).
 
 ## Create a Vue.js project using Node.js
 
@@ -60,13 +60,13 @@ Vue.js provides an official CLI for quickly scaffolding projects. If you would l
 
 ### Create a new ASP.NET Core project
 
-For this example, you use an empty ASP.NET Core Application (C#). However, you can choose from a variety of projects and programming languages.
+For this example, you use an empty ASP.NET Core Application (C#). However, you can choose from various projects and programming languages.
 
 #### Create an Empty project
 
 * Open Visual Studio and create a new project.
 
-    In Visual Studio 2019, choose **Create a new project** in the start window. If the start window is not open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Empty**, and then choose **Next**. On the next screen, name the project **client-app**, and then choose **Next**.
+    In Visual Studio 2019, choose **Create a new project** in the start window. If the start window isn't open, choose **File** > **Start Window**. Type **web app**, choose **C#** as the language, then choose **ASP.NET Core Empty**, and then choose **Next**. On the next screen, name the project **client-app**, and then choose **Next**.
 
     Choose either the recommended target framework or .NET 6, and then choose **Create**.
 
@@ -92,9 +92,9 @@ To install the vue-cli npm module, open a command prompt and type `npm install -
 1. Type `vue init webpack client-app` and follow steps when prompted to answer additional questions.
 
     > [!NOTE]
-    > For *.vue* files, you need to use WebPack or a similar framework with a loader to do the conversion. TypeScript and Visual Studio does not know how to compile *.vue* files. The same is true for bundling; TypeScript doesn't know how to convert ES2015 modules (that is, `import` and `export` statements) into a single final *.js* file to load in the browser. Again, WebPack is the best choice here. To drive this process from within Visual Studio using MSBuild, you need to do start from a Visual Studio template. At present, there is no ASP.NET template for Vue.js development in-the-box.
+    > For *.vue* files, you need to use Webpack or a similar framework with a loader to do the conversion. TypeScript and Visual Studio does not know how to compile *.vue* files. The same is true for bundling; TypeScript doesn't know how to convert ES2015 modules (that is, `import` and `export` statements) into a single final *.js* file to load in the browser. Again, Webpack is the best choice here. To drive this process from within Visual Studio using MSBuild, you need to do start from a Visual Studio template. At present, there is no ASP.NET template for Vue.js development in-the-box.
 
-#### Modify the webpack configuration to output the built files to wwwroot
+#### Modify the Webpack configuration to output the built files to wwwroot
 
 * Open the file *./client-app/config/index.js*, and change the `build.index` and `build.assetsRoot` to wwwroot path:
 
@@ -112,7 +112,7 @@ To install the vue-cli npm module, open a command prompt and type `npm install -
 
 1. On **Pre-build event command line**, type `npm --prefix ./client-app run build`.
 
-#### Configure webpack's output module names
+#### Configure Webpack's output module names
 
 * Open the file *./client-app/build/webpack.base.conf.js*, and add the following properties to the output property:
 
@@ -154,7 +154,7 @@ These steps require vue-cli 3.0, which is currently in beta.
     };
     ```
 
-    The preceding code configures webpack and sets the wwwroot folder.
+    The preceding code configures Webpack and sets the wwwroot folder.
 
 #### Build with vue-cli 3.0
 
