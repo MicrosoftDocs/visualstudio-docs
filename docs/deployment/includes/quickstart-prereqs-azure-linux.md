@@ -2,7 +2,7 @@
 
 ::: moniker range=">=vs-2019"
 
-* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads) installed with the appropriate workloads for your language of choice:
+* [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) installed with the appropriate workloads for your language of choice:
   * ASP.NET: **ASP.NET and web development**
 ::: moniker-end
 

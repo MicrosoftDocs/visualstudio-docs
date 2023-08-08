@@ -70,7 +70,7 @@ When upgrading from one minor version of Visual Studio to the next, the Visual S
 
 You can manually use another bootstrapper to install a new instance of Visual Studio, or you can select one of the options from the Visual Studio Installer's **Available** tab.  
 
-1. To use another bootstrapper, you can download and run one of the Visual Studio 2022 bootstrapper files from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads) or the [Visual Studio 2022 releases](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page for the minor version that you would like to install side-by-side with your existing version of Visual Studio.
+1. To use another bootstrapper, you can download and run one of the Visual Studio 2022 bootstrapper files from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) or the [Visual Studio 2022 releases](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page for the minor version that you would like to install side-by-side with your existing version of Visual Studio.
 
 ::: moniker-end
 

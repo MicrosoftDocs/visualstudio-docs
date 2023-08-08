@@ -39,7 +39,7 @@ Before you begin, here's a quick FAQ to introduce you to some key concepts:
 
 Make sure to install the following:
 
-- Visual Studio 2022 **version 17.4** or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/) page to install it for free.
+- Visual Studio 2022 **version 17.4** or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 - npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
 - npx ([https://www.npmjs.com/package/npx](https://www.npmjs.com/package/npx))

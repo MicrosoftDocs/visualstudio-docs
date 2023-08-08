@@ -107,7 +107,7 @@ With Visual Studio Tools for Xamarin, you can target Android, iOS, and Windows i
 
 |**Learn more**|
 |--------------------|
-|[Download Visual Studio](https://visualstudio.microsoft.com/downloads/) (VisualStudio.com)|
+|[Download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) (VisualStudio.com)|
 |[Install cross-platform mobile development with C++](/cpp/cross-platform/install-visual-cpp-for-cross-platform-mobile-development)|
 |[Learn more about using C++ to target multiple platforms](https://visualstudio.microsoft.com/vs/cplusplus-mdd/) (VisualStudio.com)|
 |[Install what you need, and then create a C++ native activity application for Android](/cpp/cross-platform/create-an-android-native-activity-app)|

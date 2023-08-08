@@ -21,7 +21,7 @@ This article helps you install Visual Studio Tools for Unreal Engine. These tool
 
 You should have the following installed before you install Visual Studio Tools for Unreal Engine:
 
-- Visual Studio version 17.7 or later. To install, see [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/)
+- Visual Studio version 17.7 or later. To install, see [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
 - Unreal Engine version 4.27 or 5.0 or later. To install, see [Download instructions](https://www.unrealengine.com/download)
 
 ## Install Visual Studio Tools for Unreal Engine

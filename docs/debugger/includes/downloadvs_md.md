@@ -14,4 +14,4 @@ translation.priority.ht:
   - "zh-cn"
   - "zh-tw"
 ---
-[Download Visual Studio Community](https://visualstudio.microsoft.com/vs/#downloadvs) or [compare Visual Studio editions](https://visualstudio.microsoft.com/vs/compare/)
+[Download Visual Studio Community](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) or [compare Visual Studio editions](https://visualstudio.microsoft.com/vs/compare/)
