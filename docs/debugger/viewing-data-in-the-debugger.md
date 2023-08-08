@@ -1,7 +1,7 @@
 ---
 title: "Create custom views of data in the debugger | Microsoft Docs"
 description: Learn the various ways  to inspect and modify program state in Visual Studio debugger. These include the Autos and Watch windows, DataTips, and Visualizers.  
-ms.date: "01/09/2019"
+ms.date: "08/08/2023"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -35,7 +35,7 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger provides 
  Visualizers enable you to view the contents of an object or variable in a meaningful way. In the Visual Studio debugger, a visualizer refers to the different windows that you can open using the magnifying glass ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon") icon. For example, the HTML visualizer shows how an HTML string would be interpreted and displayed in a browser. You can access visualizers from DataTips, the **Watch** window, the **Autos** window, and the **Locals** window. The **QuickWatch** dialog box also provides a visualizer. For more information:
 
 - To create a visualizer for .NET objects, see [Custom visualizers](../debugger/create-custom-visualizers-of-data.md).
-- To create a visualizer for C/C++ objects, see [UIVisualizer element](../debugger/create-custom-views-of-native-objects.md#BKMK_UIVisualizer) within the [Natvis](../debugger/create-custom-views-of-native-objects.md) documentation.
+- To create a visualizer for C/C++ objects, see [UIVisualizer element](../debugger/create-custom-views-of-native-objects.md#BKMK_UIVisualizer) within the [Natvis](../debugger/create-custom-views-of-native-objects.md) documentation. Also, see the [C/C++ custom visualizer sample](https://github.com/Microsoft/ConcordExtensibilitySamples/tree/master/CppCustomVisualizer) or the [SQLite native Debugger Visualizer](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/SqliteVisualizer) sample.
 
 ## See also
 

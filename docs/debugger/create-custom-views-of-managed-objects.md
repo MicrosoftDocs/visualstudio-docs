@@ -39,10 +39,10 @@ In .NET Framework 2.0 code, Visual Basic does not support the DebuggerBrowsable 
 
 ## Visualizers
 
-You can write a visualizer to display any managed data type. For more information, see [Custom visualizers](create-custom-visualizers-of-data.md).
+You can write a visualizer to display any .NET data type. For more information, see [Custom visualizers](create-custom-visualizers-of-data.md).
 
 > [!NOTE]
-> For C++ code, you can add custom data type expansions using the Natvis framework, as described in [Create custom views of C++ objects in the debugger](create-custom-views-of-native-objects.md).
+> To create a visualizer for C/C++ objects, see [UIVisualizer element](../debugger/create-custom-views-of-native-objects.md#BKMK_UIVisualizer) within the [Natvis](../debugger/create-custom-views-of-native-objects.md) documentation. Also, see the [C/C++ custom visualizer sample](https://github.com/Microsoft/ConcordExtensibilitySamples/tree/master/CppCustomVisualizer) or the [SQLite native Debugger Visualizer](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/SqliteVisualizer) sample.
 
 ## See also
 

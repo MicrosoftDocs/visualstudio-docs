@@ -45,7 +45,7 @@ You can write a custom visualizer for an object of any managed class except for 
 
 The architecture of a debugger visualizer has two parts:
 
-- The *debugger side* runs within the Visual Studio debugger, and creates and displays the visualizer user interface. 
+- The *debugger side* runs within the Visual Studio debugger, and creates and displays the visualizer user interface.
 
   Because Visual Studio executes on the .NET Framework Runtime, this component has to be written for .NET Framework. For this reason, it is not possible to write it for .NET Core.
 
@@ -75,7 +75,7 @@ To create the visualizer user interface on the debugger side, you create a class
 
 1. Apply <xref:System.Diagnostics.DebuggerVisualizerAttribute>, giving it the visualizer to display (<xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>).
 
-#### Special debugger side considerations for .NET 5.0+
+### Special debugger side considerations for .NET 5.0+
 
 Custom Visualizers transfer data between the *debuggee* and *debugger* sides through binary serialization using
 the <xref:System.Runtime.Serialization.Formatters.Binary.BinaryFormatter> class by default. However, that kind of
