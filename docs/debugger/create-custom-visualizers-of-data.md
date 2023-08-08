@@ -1,5 +1,5 @@
 ---
-title: "Create custom data visualizers | Microsoft Docs"
+title: "Custom data visualizers for .NET debugging | Microsoft Docs"
 description: Visual Studio debugger visualizers are components that display data. Learn about the six standard visualizers, and about how you can write or download others. 
 ms.date: "07/29/2021"
 ms.topic: "conceptual"
@@ -22,22 +22,22 @@ ms.technology: vs-ide-debug
 ms.workload:
   - "multiple"
 ---
-# Create custom data visualizers
+# Custom data visualizers for the Visual Studio debugger (.NET)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
- A *visualizer* is part of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger user interface that displays a variable or object in a manner appropriate to its data type. For example, an HTML visualizer interprets an HTML string and displays the result as it would appear in a browser window. A bitmap visualizer interprets a bitmap structure and displays the graphic it represents. Some visualizers let you modify as well as view the data.
+A *visualizer* is part of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger user interface that displays a variable or object in a manner appropriate to its data type. For example, an HTML visualizer interprets an HTML string and displays the result as it would appear in a browser window. A bitmap visualizer interprets a bitmap structure and displays the graphic it represents. Some visualizers let you modify as well as view the data.
 
- The [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger includes six standard visualizers. The text, HTML, XML, and JSON visualizers work on string objects. The WPF Tree visualizer displays the properties of a WPF object visual tree. The dataset visualizer works for DataSet, DataView, and DataTable objects.
+The [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger includes six standard visualizers. The text, HTML, XML, and JSON visualizers work on string objects. The WPF Tree visualizer displays the properties of a WPF object visual tree. The dataset visualizer works for DataSet, DataView, and DataTable objects.
 
 More visualizers may be available for download from Microsoft, third parties, and the community. You can also write your own visualizers and install them in the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger.
 
 In the debugger, a visualizer is represented by a magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon"). You can select the icon in a **DataTip**, debugger **Watch** window, or **QuickWatch** dialog box, and then select the appropriate visualizer for the corresponding object.
 
-## Write custom visualizers
+> [!NOTE]
+> To create a custom visualizer for native code, see the [SQLite native Debugger Visualizer](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/SqliteVisualizer) sample. Custom visualizers are not supported for UWP and Windows 8.x apps.
 
- > [!NOTE]
- > To create a custom visualizer for native code, see the [SQLite native Debugger Visualizer](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/SqliteVisualizer) sample. Custom visualizers are not supported for UWP and Windows 8.x apps.
+## Overview
 
 You can write a custom visualizer for an object of any managed class except for <xref:System.Object> and <xref:System.Array>.
 
@@ -61,9 +61,12 @@ You can write a visualizer for a generic type only if the type is an open type. 
 
 Custom visualizers may have security considerations. See [Visualizer security considerations](../debugger/visualizer-security-considerations.md).
 
-The following steps give a high-level overview of visualizer creation. For detailed instructions, see [Walkthrough: Write a visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md) or [Walkthrough: Write a visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md).
+The following steps give a high-level overview of visualizer creation. For detailed instructions, see the following:
 
-### To create the debugger side
+- [Walkthrough: Write a visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md), or
+- [Walkthrough: Write a visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md).
+
+## Create the debugger side user interface
 
 To create the visualizer user interface on the debugger side, you create a class that inherits from <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer>, and override the <xref:Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer.Show%2A?displayProperty=fullName> method to display the interface. You can use <xref:Microsoft.VisualStudio.DebuggerVisualizers.IDialogVisualizerService> to display Windows forms, dialogs, and controls in your visualizer.
 
@@ -104,7 +107,7 @@ section to learn what other changes are required on the *debuggee-side* when usi
 > [!NOTE]
 > If you would like more information on the issue, see the [BinaryFormatter security guide](/dotnet/standard/serialization/binaryformatter-security-guide).
 
-### To create the visualizer object source for the debuggee side
+## Create the visualizer object source for the debuggee side
 
 In the debugger side code, edit the <xref:System.Diagnostics.DebuggerVisualizerAttribute>, giving it the type to visualize (the debuggee-side object source) (<xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource>). The `Target` property sets the object source. If you omit the object source, the visualizer will use a default object source.
 
@@ -122,7 +125,7 @@ In the debuggee-side code:
 
    These are the only supported TFMs.
 
-#### Special debuggee side considerations for .NET 5.0+
+### Special debuggee side considerations for .NET 5.0+
 
 > [!IMPORTANT]
 > Additional steps might be needed for a visualizer to work starting in .NET 5.0 due to security concerns regarding the underlying binary

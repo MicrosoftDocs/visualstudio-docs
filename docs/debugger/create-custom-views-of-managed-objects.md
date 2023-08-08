@@ -1,5 +1,5 @@
 ---
-title: "Create custom views of managed objects | Microsoft Docs"
+title: "Create custom views of .NET objects | Microsoft Docs"
 description: Visual Studio debugger displays data in its variable windows. Learn to customize how data types—including custom types—are displayed. 
 ms.date: "01/08/2019"
 ms.topic: "conceptual"
@@ -26,7 +26,7 @@ ms.technology: vs-ide-debug
 ms.workload:
   - "dotnet"
 ---
-# Create custom views of managed objects (C#, Visual Basic, F#, C++/CLI)
+# Create custom views of .NET objects (C#, Visual Basic, F#, C++/CLI)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can customize the way Visual Studio displays data types in debugger variable windows.
