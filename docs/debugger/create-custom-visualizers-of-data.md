@@ -32,8 +32,8 @@ In addition to the [standard built-in visualizers](../debugger/view-strings-visu
 
 This article provides a high-level overview of visualizer creation. For detailed instructions, see the following:
 
-- [Walkthrough: Write a visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md), or
-- [Walkthrough: Write a visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md).
+- [Walkthrough: Write a visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)
+- [Walkthrough: Write a visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md)
 - [Install a visualizer](../debugger/how-to-install-a-visualizer.md)
 
 > [!NOTE]
