@@ -36,6 +36,6 @@ The DataSet Visualizer allows you to view the contents of a DataSet, DataTable, 
 ## See also
 
 - [Debugger Security](../debugger/debugger-security.md)
-- [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)
+- [Create Custom Visualizers for .NET objects](../debugger/create-custom-visualizers-of-data.md)
 - [Debugger Windows](../debugger/debugger-windows.md)
 - [View data values in Data Tips](../debugger/view-data-values-in-data-tips-in-the-code-editor.md)

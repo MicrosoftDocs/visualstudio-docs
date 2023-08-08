@@ -42,6 +42,5 @@ Debugger visualizers require greater privileges than are allowed by a partial tr
 ## See also
 
 - [Visualizer Architecture](../debugger/visualizer-architecture.md)
-- [How to: Write a Visualizer](create-custom-visualizers-of-data.md)
-- [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)
+- [Create custom visualizers for .NET objects](../debugger/create-custom-visualizers-of-data.md)
 - [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)
