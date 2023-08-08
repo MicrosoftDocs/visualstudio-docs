@@ -57,4 +57,4 @@ An easier way to debug a visualizer is to run the visualizer from a test driver.
 ## See also
 - [Walkthrough: Writing a Visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)
 - [How to: Install a Visualizer](../debugger/how-to-install-a-visualizer.md)
-- [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)
+- [Create Custom Visualizers for .NET objects](../debugger/create-custom-visualizers-of-data.md)

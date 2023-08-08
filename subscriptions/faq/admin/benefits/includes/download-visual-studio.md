@@ -1,12 +1,13 @@
 ---
 title: How do my developers download Visual Studio?
 description: Learn how developers can download Visual Studio using Visual Studio subscriptions
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.faqid: group2_3
 ms.topic: include
 ms.assetid: ee7e5ba2-a4b5-4db0-bd05-583dca51c75e
 author: evanwindom
 ms.author: amast
-ms.date: 11/10/2020
+ms.date: 08/08/2023
 ---
 
 ## How do my developers download Visual Studio?
