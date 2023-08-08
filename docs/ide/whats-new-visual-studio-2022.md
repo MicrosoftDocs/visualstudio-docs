@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2022"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2022."
-ms.date: 08/18/2023
+ms.date: 08/08/2023
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -124,6 +124,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 Review the following blog posts to learn more about the improvements we've made to Visual Studio 2022, to date:
 
+* [Visual Studio 2022 17.7 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-7-now-available/)
 * [Visual Studio 2022 17.6 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-6-now-available/)
 * [Visual Studio 2022 17.5 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-5-released/)
 * [Visual Studio 2022 17.4 is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-4/)
