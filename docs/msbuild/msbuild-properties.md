@@ -218,6 +218,7 @@ The output is:
 
 ```output
 importer.proj(9,9): warning : TreatedAsLocalProp(importer.proj): GlobalOverrideValue
+```
 
 Now suppose you build with the property `TrySecondOverride` to `true`:
 
