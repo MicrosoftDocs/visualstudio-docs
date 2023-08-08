@@ -1,7 +1,7 @@
 ---
 title: Run as administrator
 description: Learn how to run Visual Studio as an administrator.
-ms.date: 11/23/2022
+ms.date: 8/8/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio, user permissions
@@ -28,17 +28,18 @@ You can do nearly everything in the Visual Studio IDE as a typical user. You nee
 
 |Area|Task|For more information|
 |----------|----------| - |
-|Installation|Install or modify Visual Studio.|[Install Visual Studio](../install/install-visual-studio.md), [Modify Visual Studio](../install/modify-visual-studio.md)|
-||Install, update, or remove local Help content.|[Install and manage local Help content](../help-viewer/install-manage-local-content.md)|
+|Installation|Initial installation and configuration of Visual Studio|[Install Visual Studio](../install/install-visual-studio.md), [Configure Visual Studio policies](https://aka.ms/vs/setup/policies)|
+|Installation|Modify or update Visual Studio. Requires administrator permissions by default, but can be configured and delegated to [standard users](https://aka.ms/vs/setup/policies).|[Update Visual Studio](../install/update-visual-studio.md), [Modify Visual Studio](../install/modify-visual-studio.md)|
+|Help|Install, update, or remove local Help content.|[Install and manage local Help content](../help-viewer/install-manage-local-content.md)|
 |Toolbox|Add classic COM controls to **Toolbox**.|[Toolbox](../ide/reference/toolbox.md)|
 |Building|Use post-build events that register a component, or include a registration step when you build C++ projects. |[Understand custom build steps and build events](/cpp/build/understanding-custom-build-steps-and-build-events)|
 |Debugging|Debug applications that run with elevated permissions.|[Debugger settings and preparation](../debugger/debugger-settings-and-preparation.md)|
-||Debug applications that a run under a different user account, such as ASP.NET websites.|[Debug ASP.NET and AJAX applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)|
-||Debug in Zone for XAML Browser Applications (XBAP).|[WPF host (PresentationHost.exe)](/dotnet/framework/wpf/app-development/wpf-host-presentationhost-exe)|
-||Use the emulator to debug cloud service projects for Microsoft Azure.|[Debug a cloud service in Visual Studio](/azure/vs-azure-tools-debug-cloud-services-virtual-machines)|
-||Configure a firewall for remote debugging.|[Remote debugging](../debugger/remote-debugging.md)|
+|Debugging|Debug applications that run under a different user account, such as ASP.NET websites.|[Debug ASP.NET and AJAX applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)|
+|Debugging|Debug in Zone for XAML Browser Applications (XBAP).|[WPF host (PresentationHost.exe)](/dotnet/framework/wpf/app-development/wpf-host-presentationhost-exe)|
+|Debugging|Use the emulator to debug cloud service projects for Microsoft Azure.|[Debug a cloud service in Visual Studio](/azure/vs-azure-tools-debug-cloud-services-virtual-machines)|
+|Debugging|Configure a firewall for remote debugging.|[Remote debugging](../debugger/remote-debugging.md)|
 |Performance tools|Attaching to an elevated application.|[Measure application performance](../profiling/beginners-guide-to-performance-profiling.md)|
-||Use the GPU Profiler.|[GPU profiling](../profiling/gpu-usage.md)|
+|Profiling|Use the GPU Profiler.|[GPU profiling](../profiling/gpu-usage.md)|
 |Deployment|Deploy a web application to Internet Information Services (IIS) on a local computer.|[ASP.NET web deployment using Visual Studio](/aspnet/web-forms/overview/deployment/visual-studio-web-deployment/introduction)|
 |Development|Developing SharePoint Solutions.|[Create SharePoint solutions](../sharepoint/create-sharepoint-solutions.md)|
 

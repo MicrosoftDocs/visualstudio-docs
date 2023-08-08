@@ -1,7 +1,7 @@
 ---
 title: Use Visual Studio search
 description: Learn to use Visual Studio search to find settings, menus, code, and more.
-ms.date: 07/31/2023
+ms.date: 08/08/2023
 ms.topic: how-to
 helpviewer_keywords:
 - environments [Visual Studio], navigation
