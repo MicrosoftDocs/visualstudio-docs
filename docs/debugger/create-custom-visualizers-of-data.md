@@ -34,9 +34,10 @@ This article provides a high-level overview of visualizer creation. For detailed
 
 - [Walkthrough: Write a visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md), or
 - [Walkthrough: Write a visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md).
+- [Install a visualizer](../debugger/how-to-install-a-visualizer.md)
 
 > [!NOTE]
-> To create a custom visualizer for native code, see the [SQLite native Debugger Visualizer](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/SqliteVisualizer) sample. Custom visualizers are not supported for UWP and Windows 8.x apps.
+> To create a custom visualizer for native code, see the [C/C++ custom visualizer sample](https://github.com/Microsoft/ConcordExtensibilitySamples/tree/master/CppCustomVisualizer) or the [SQLite native Debugger Visualizer](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/SqliteVisualizer) sample. Custom visualizers are not supported for UWP and Windows 8.x apps.
 
 ## Overview
 
@@ -139,7 +140,7 @@ it returns helps to determine the object's serialization format (binary or JSON)
 
 - [Walkthrough: Write a visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)
 - [Walkthrough: Write a visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md)
-- [How to: Install a visualizer](../debugger/how-to-install-a-visualizer.md)
-- [How to: Test and debug a visualizer](../debugger/how-to-test-and-debug-a-visualizer.md)
+- [Install a visualizer](../debugger/how-to-install-a-visualizer.md)
+- [Test and debug a visualizer](../debugger/how-to-test-and-debug-a-visualizer.md)
 - [Visualizer API reference](../debugger/visualizer-api-reference.md)
 - [View data in the debugger](../debugger/viewing-data-in-the-debugger.md)
