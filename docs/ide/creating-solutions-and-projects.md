@@ -1,7 +1,7 @@
 ---
 title: "Create projects & solutions"
 description: Learn how to create and use Visual Studio solutions and projects to store artifacts.
-ms.date: 06/16/2023
+ms.date: 08/08/2023
 ms.topic: how-to
 f1_keywords:
 - vs.openprojectfromweb
@@ -59,6 +59,14 @@ If you have a file that applies to multiple projects, such as a readme file for 
 
 > [!TIP]
 > A solution file is a structure for organizing projects in Visual Studio. It contains the state of that information in two files: an *.sln* (text-based, shared) file, and an *.suo* (binary, hidden, user-specific solution options) file. Thus, a solution isn't something that should be copied and renamed; instead, it's best to create a new solution and then add existing items to it.
+
+::: moniker range=">=vs-2022"
+
+### Compare files
+
+Starting with [version 17.7](/visualstudio/releases/2022/release-notes), you can compare files in Solution Explorer by using the right-click context menu options. For more information, see the [**File comparison**](use-solution-explorer.md#file-comparison) section of the [Learn about Solution Explorer](use-solution-explorer.md) page.
+
+::: moniker-end
 
 ## Create a .NET project that targets a specific version of the .NET Framework
 
