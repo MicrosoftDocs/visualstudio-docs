@@ -13,7 +13,7 @@ dev_langs:
   - JavaScript
 ms.workload:
   - "nodejs"
-monikerRange: '<= vs-2019'
+monikerRange: '=vs-2019'
 ---
 # Create a Vue.js application using Node.js Tools for Visual Studio
 
