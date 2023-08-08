@@ -1,7 +1,7 @@
 ---
 title: "Custom data visualizers for .NET debugging | Microsoft Docs"
 description: Visual Studio debugger visualizers are components that display data. Learn about the six standard visualizers, and about how you can write or download others. 
-ms.date: "07/29/2021"
+ms.date: "08/08/2023"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.visualizer.troubleshoot"
@@ -26,13 +26,14 @@ ms.workload:
 
 [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-A *visualizer* is part of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger user interface that displays a variable or object in a manner appropriate to its data type. For example, an HTML visualizer interprets an HTML string and displays the result as it would appear in a browser window. A bitmap visualizer interprets a bitmap structure and displays the graphic it represents. Some visualizers let you modify as well as view the data.
+A *visualizer* is part of the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger user interface that displays a variable or object in a manner appropriate to its data type. For example, a bitmap visualizer interprets a bitmap structure and displays the graphic it represents. Some visualizers let you modify as well as view the data. In the debugger, a visualizer is represented by a magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon"). You can select the icon in a **DataTip**, debugger **Watch** window, or **QuickWatch** dialog box, and then select the appropriate visualizer for the corresponding object.
 
-The [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger includes six standard visualizers. The text, HTML, XML, and JSON visualizers work on string objects. The WPF Tree visualizer displays the properties of a WPF object visual tree. The dataset visualizer works for DataSet, DataView, and DataTable objects.
+In addition to the [standard built-in visualizers](../debugger/view-strings-visualizer.md), more visualizers may be available for download from Microsoft, third parties, and the community. You can also write your own visualizers and install them in the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger.
 
-More visualizers may be available for download from Microsoft, third parties, and the community. You can also write your own visualizers and install them in the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger.
+This article provides a high-level overview of visualizer creation. For detailed instructions, see the following:
 
-In the debugger, a visualizer is represented by a magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon"). You can select the icon in a **DataTip**, debugger **Watch** window, or **QuickWatch** dialog box, and then select the appropriate visualizer for the corresponding object.
+- [Walkthrough: Write a visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md), or
+- [Walkthrough: Write a visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md).
 
 > [!NOTE]
 > To create a custom visualizer for native code, see the [SQLite native Debugger Visualizer](https://github.com/Microsoft/VSSDK-Extensibility-Samples/tree/master/SqliteVisualizer) sample. Custom visualizers are not supported for UWP and Windows 8.x apps.
@@ -60,11 +61,6 @@ The debuggee side and debugger side communicate with each other through <xref:Sy
 You can write a visualizer for a generic type only if the type is an open type. This restriction is the same as the restriction when using the `DebuggerTypeProxy` attribute. For details, see [Use the DebuggerTypeProxy attribute](../debugger/using-debuggertypeproxy-attribute.md).
 
 Custom visualizers may have security considerations. See [Visualizer security considerations](../debugger/visualizer-security-considerations.md).
-
-The following steps give a high-level overview of visualizer creation. For detailed instructions, see the following:
-
-- [Walkthrough: Write a visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md), or
-- [Walkthrough: Write a visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md).
 
 ## Create the debugger side user interface
 
