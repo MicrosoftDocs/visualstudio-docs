@@ -113,7 +113,7 @@ The debuggee side code contains the object source that gets visualized. The data
 
 In the debuggee-side code:
 
-- To let the visualizer edit data objects, the object source must inherit from from <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> and override the `TransferData` or `CreateReplacementObject` methods.
+- To let the visualizer edit data objects, the object source must inherit from <xref:Microsoft.VisualStudio.DebuggerVisualizers.VisualizerObjectSource> and override the `TransferData` or `CreateReplacementObject` methods.
 
 - If you need to support multi-targeting in your visualizer, you can use the following Target Framework Monikers (TFMs) in the debuggee-side project file.
 
