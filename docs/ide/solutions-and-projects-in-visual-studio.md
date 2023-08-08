@@ -2,7 +2,7 @@
 title: 'What are Visual Studio solutions & projects?'
 description: Learn about Visual Studio projects and solutions, how to create new projects from a template, and how to view & manage projects in Solution Explorer.
 ms.custom: "contperf-fy21q2"
-ms.date: 08/26/2022
+ms.date: 08/08/2023
 ms.topic: conceptual
 f1_keywords:
 - vs.openproject
@@ -83,6 +83,14 @@ After you create a new project, you can use **[Solution Explorer](use-solution-e
 The [toolbar](use-solution-explorer.md#solution-explorer-toolbar) across the top of **Solution Explorer** has buttons to switch from a solution view to a folder view, filter pending changes, show all files, collapse all nodes, view [properties](managing-project-and-solution-properties.md) pages, preview code in the [code editor](writing-code-in-the-code-and-text-editor.md), and more.
 
 Many menu commands are available from the [right-click context menu](use-solution-explorer.md#solution-node-context-menu-options) on various items in **Solution Explorer**. These commands include building a project, managing NuGet packages, adding a reference, renaming a file, and running tests, just to name a few. For more information, see [Learn about Solution Explorer](use-solution-explorer.md).
+
+::: moniker range=">=vs-2022"
+
+### Compare files
+
+Starting with [version 17.7](/visualstudio/releases/2022/release-notes), you can also compare files in Solution Explorer by using the right-click context menu options. For more information, see the [**File comparison**](use-solution-explorer.md#file-comparison) section of the [Learn about Solution Explorer](use-solution-explorer.md) page.
+
+::: moniker-end
 
 For ASP.NET Core projects, you can customize how files are nested in **Solution Explorer**. For more information, see [File nesting in Solution Explorer](file-nesting-solution-explorer.md).
 
