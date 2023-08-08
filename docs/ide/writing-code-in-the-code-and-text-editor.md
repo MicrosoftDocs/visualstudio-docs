@@ -94,7 +94,7 @@ There are numerous ways that Visual Studio can help you generate, fix, and refac
 
 Visual Studio offers a few time-savers when it comes to copying and pasting code, as follows:
 
-- **Copy and trim indentation**: Starting with [version 17.7](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.7), Visual Studio automatically fixes code indentation when you copy the code from Visual Studio and paste it into another application. 
+- **Copy and trim indentation**: Starting with [version 17.7](/visualstudio/releases/2022/release-notes-v17.7), Visual Studio automatically fixes code indentation when you copy the code from Visual Studio and paste it into another application. 
 
     :::image type="content" source="media/vs-2022/copy-trim-indentation.png" alt-text="Screenshot that shows a before and after comparison to highlight the Copy and Trim Indentation feature.":::
 

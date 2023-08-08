@@ -327,7 +327,7 @@ Here's a list of editor and productivity features to make writing code more effi
 | [CodeLens](../ide/find-code-changes-and-other-history-with-codelens.md) | Displays code reference information and change history in the editor. (Source control CodeLens indicators aren't available in Visual Studio Community edition.) | **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens** |
 | [Code snippets](../ide/visual-csharp-code-snippets.md) | Help stub out common boilerplate code | Type a snippet name and press **Tab** twice. |
 | [Paste JSON or XML as classes](reference/paste-json-xml.md) | Copy any JSON or XML text fragment to the clipboard and paste it as strongly typed .NET classes into any C# code file. | **Edit** > **Paste Special** > **Paste JSON As Classes** (or **Paste XML As Classes**) |
-| [Copy and trim indentation](writing-code-in-the-code-and-text-editor.md#copy-and-paste-code) | Copy code from Visual Studio to another program (Outlook, Teams, etc.), without having to manually fix indentation after you paste your code. Available in Visual Studio 2022 [version 17.7](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.7) and later. |
+| [Copy and trim indentation](writing-code-in-the-code-and-text-editor.md#copy-and-paste-code) | Copy code from Visual Studio to another program (Outlook, Teams, etc.), without having to manually fix indentation after you paste your code. Available in Visual Studio 2022 [version 17.7](/visualstudio/releases/2022/release-notes-v17.7) and later. |
 
 ## See also
 
