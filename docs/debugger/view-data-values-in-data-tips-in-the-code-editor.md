@@ -116,7 +116,7 @@ You can also toggle property names and filter out non-pinned properties when vie
 
 ## Visualize complex data types
 
-A magnifying glass icon next to a variable or element in a data tip means that one or more [visualizers](../debugger/create-custom-visualizers-of-data.md), such as the [Text Visualizer](../debugger/string-visualizer-dialog-box.md), are available for the variable. Visualizers display information in a more meaningful, sometimes graphical, manner.
+A magnifying glass icon next to a variable or element in a data tip means that one or more visualizers, such as the [Text Visualizer](../debugger/string-visualizer-dialog-box.md), are available for the variable. Visualizers display information in a more meaningful, sometimes graphical, manner.
 
 To view the element using the default visualizer for the data type, select the magnifying glass icon ![Visualizer icon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon"). Select the arrow next to the magnifying glass icon to select from a list of visualizers for the data type.
 
@@ -148,4 +148,4 @@ You can export data tips to an XML file, which you can share or edit using a tex
 - [First look at debugging](../debugger/debugger-feature-tour.md)
 - [Viewing Data in the Debugger](../debugger/viewing-data-in-the-debugger.md)
 - [Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md)
-- [Create Custom Visualizers](../debugger/create-custom-visualizers-of-data.md)
+- [Create Custom Visualizers for .NET objects](../debugger/create-custom-visualizers-of-data.md)

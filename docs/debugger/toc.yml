@@ -72,7 +72,7 @@
     href: view-data-values-in-data-tips-in-the-code-editor.md
   - name: View string values in a visualizer
     href: view-strings-visualizer.md
-  - name: View .NET collections with the IEnumerable visualizer
+  - name: View .NET collections in a tabular visualizer
     href: view-data-in-tabular-visualizer.md
   - name: Disassembly code
     items:
@@ -188,7 +188,7 @@
         href: using-debuggertypeproxy-attribute.md
     - name: Custom visualizers
       items:
-      - name: Create custom visualizers of data
+      - name: Create custom visualizers of data (.NET)
         href: create-custom-visualizers-of-data.md
       - name: Visualizer architecture
         href: visualizer-architecture.md
