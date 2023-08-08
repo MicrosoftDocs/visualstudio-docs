@@ -30,7 +30,7 @@ A *visualizer* is part of the [!INCLUDE[vs_current_short](../code-quality/includ
 
 In addition to the [standard built-in visualizers](../debugger/view-strings-visualizer.md), more visualizers may be available for download from Microsoft, third parties, and the community. You can also write your own visualizers and install them in the [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)] debugger.
 
-This article provides a high-level overview of visualizer creation. For detailed instructions, see the following:
+This article provides a high-level overview of visualizer creation. For detailed instructions, see the following articles instead:
 
 - [Walkthrough: Write a visualizer in C#](../debugger/walkthrough-writing-a-visualizer-in-csharp.md)
 - [Walkthrough: Write a visualizer in Visual Basic](../debugger/walkthrough-writing-a-visualizer-in-visual-basic.md)
