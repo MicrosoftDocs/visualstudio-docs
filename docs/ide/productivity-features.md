@@ -1,7 +1,7 @@
 ---
 title: Productivity guide
 description: Learn about the keyboard shortcuts and productivity features in Visual Studio that can help you efficiently write code, debug code, and handle errors.
-ms.date: 09/23/2022
+ms.date: 08/08/2023
 ms.topic: conceptual
 author: TerryGLee
 ms.author: tglee
@@ -63,6 +63,11 @@ Write code more quickly by using the following features.
 - **Change brace formatting with Formatting/New Lines**. Use the **Formatting**  options page to set options  for formatting code in the code editor, including new lines. For more information on how to use this setting in C#, see [Options dialog box: Text Editor > C# > Code Style > Formatting](../ide/reference/options-text-editor-csharp-formatting.md). For C++, see [Set your C++ coding preferences in Visual Studio](/cpp/ide/how-to-set-preferences). For Python, see [Format Python code](../python/formatting-python-code.md).
 
 - **Change your indentation with Tabs**. Use custom editor settings, tailored to each codebase, to enforce consistent coding styles for multiple developers working on the same project across different editors and IDEs. Ensure your whole team follows the same language conventions, naming conventions, and formatting rules. Since these custom settings are portable and travel with your code, you can enforce coding styles even outside of Visual Studio. For more information, see [Options, Text Editor, All Languages, Tabs](../ide/reference/options-text-editor-all-languages-tabs.md#tabs).
+
+::: moniker range=">=vs-2022" 
+- [**Try automatic copy and trim indentation**](writing-code-in-the-code-and-text-editor.md#copy-and-paste-code). Copy code from Visual Studio to another program (Outlook, Teams, etc.), without having to manually fix indentation after you paste your code. Available in Visual Studio 2022 [version 17.7](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.7) and later.
+::: moniker-end 
+
 
 ## Navigate within your code and the IDE
 
