@@ -1,7 +1,7 @@
 ---
 title: Code editor features
 description: Learn about the features that the code editor in Visual Studio provides to make it easier for you to write and manage your code and text.
-ms.date: 01/31/2022
+ms.date: 08/08/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - code, editing [Visual Studio]
@@ -87,6 +87,20 @@ There are numerous ways that Visual Studio can help you generate, fix, and refac
 - You can use [Quick Actions](quick-actions.md) to generate code such as classes and properties, or to introduce a local variable. You can also use Quick Actions to [improve code](common-quick-actions.md), for example to remove unnecessary casts and unused variables, or to add null checks before accessing variables.
 
 - You can [refactor code](refactoring-in-visual-studio.md) to rename a variable, re-order method parameters, or synchronize a type with its filename, to name a few.
+
+::: moniker range=">=vs-2022" 
+
+## Copy and paste code
+
+Visual Studio offers a few time-savers when it comes to copying and pasting code, as follows:
+
+- **Copy and trim indentation**: Starting with [version 17.7](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-v17.7), Visual Studio automatically fixes code indentation when you copy the code from Visual Studio and paste it into another application. 
+
+    :::image type="content" source="media/vs-2022/copy-trim-indentation.png" alt-text="Screenshot that shows a before and after comparison to highlight the Copy and Trim Indentation feature.":::
+
+- **[Paste JSON or XML as classes](reference/paste-json-xml.md)**. Copy any JSON or XML text fragment to the clipboard and then paste it as strongly typed .NET classes into any C# or Visual Basic code file. To do so, use **Edit** > **Paste Special** > **Paste JSON As Classes** (or **Paste XML As Classes**).
+
+::: moniker-end
 
 ## Customize the editor
 
