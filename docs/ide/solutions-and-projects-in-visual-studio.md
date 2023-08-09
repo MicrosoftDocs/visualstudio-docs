@@ -86,7 +86,7 @@ Many menu commands are available from the [right-click context menu](use-solutio
 
 ::: moniker range=">=vs-2022"
 
-Starting with [version 17.7](/visualstudio/releases/2022/release-notes), you can also compare files in Solution Explorer by using the right-click context menu options. For more information, see the [**File comparison**](use-solution-explorer.md#file-comparison) section of the [Learn about Solution Explorer](use-solution-explorer.md) page.
+Starting with [version 17.7](/visualstudio/releases/2022/release-notes), you can also compare files in Solution Explorer by using the right-click context menu options. For more information, see [**The file comparison tool**](use-solution-explorer.md#the-file-comparison-tool) section of the [Learn about Solution Explorer](use-solution-explorer.md) page.
 
 ::: moniker-end
 
