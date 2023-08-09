@@ -131,17 +131,16 @@ Visual Studio remembers your choice so that you get the experience that best sui
 > [!TIP]
 > You can configure the [keyboard shortcuts](default-keyboard-shortcuts-in-visual-studio.md) for the **Project.AddNewItem** command and the **AddQuickFile** command from **Tools** > **Options** > **Environment** > **Keyboard**.
 
-## File comparison
+## The file comparison tool
 
-Starting with the Visual Studio 2022 version [17.7](/visualstudio/releases/2022/release-notes/) release, you can now select two files in Solution Explorer and compare them by using the new **Compare Selected** option.
+Starting with the Visual Studio 2022 version [17.7](/visualstudio/releases/2022/release-notes/) release, you can now select two files in Solution Explorer and compare them by using the new **Compare With** and **Compare Selected** options.
 
-:::image type="content" source="media/vs-2022/file-comparison.png" alt-text="Screenshot of the file comparison tool from the right-click context menu in Solution Explorer.":::
+:::image type="content" source="media/vs-2022/file-comparison.png" alt-text="Screenshot of the file comparison tool from the right-click context menu in Solution Explorer." lightbox="media/vs-2022/file-comparison.png":::
 
 You can compare files in the following ways: 
 
-- Multi-select two files by holding down the **Ctrl** button and then right-clicking and selecting the **Compare Selected** from the context menu. 
-- Right-click a single file (for example, `File1`) and then select the **Select for Compare** option from the context menu. Then, navigate to the second file (for example, `File2`) in Solution Explorer, right-click the second file, and press **Compare with File1**.
-- Right-click a single file, select **Compare With…** from the context menu, which opens File Explorer. Navigate to any file and select it for comparison. 
+- Right-click a single file, select **Compare With…** from the context menu, which opens File Explorer. Then, navigate to any file and select it for comparison.
+- Multi-select two files by holding down the **Ctrl** button. Then, right-click and select **Compare Selected** from the context menu.
 
 No matter which way you choose to compare your files, the file comparison tool should make it easier to compare your files without having to leave your IDE.
 
