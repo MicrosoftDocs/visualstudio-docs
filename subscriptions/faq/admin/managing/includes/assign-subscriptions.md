@@ -1,12 +1,13 @@
 ---
 title: How do I assign Visual Studio subscriptions?
 description: You can assign subscriptions to your end users one at a time, or using the Bulk add feature to quickly and easily upload a larger...
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.faqid: group1_3
 ms.topic: include
 ms.assetid: 59eb35fd-ec94-41ce-b24c-a8a120976bac
 author: evanwindom
 ms.author: amast
-ms.date: 12/03/2020
+ms.date: 08/09/2023
 ---
 
 ## How do I assign Visual Studio subscriptions?
