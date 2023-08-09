@@ -1,13 +1,14 @@
 ---
 title: How do I manage administrators?
 description: If you are a Super Admin you can add or remove other Super Admins or Administrators. Administrators can only add or remove subscribers...
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.faqid: group1_2
 ms.topic: include
 ms.assetid: 11274272-d834-44c7-acdb-09c9ba2f852d
 ms.technology: 
 author: evanwindom
 ms.author: amast
-ms.date: 3/3/2020
+ms.date: 08/09/2023
 ---
 
 ## How do I manage administrators?
