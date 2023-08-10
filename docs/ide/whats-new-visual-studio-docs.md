@@ -97,7 +97,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - Update procedural content:
   - [Step 2: Write and run code](../python/tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)
   - [Step 3: Use the Interactive REPL window](../python/tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)
-- [Publishing to Azure App Service on Linux](../python/publish-to-app-service-windows.md) - Update platform requirements and procedural content
+- [Publishing to Azure App Service on Linux](../python/publish-to-app-service-windows.md) - Update platform requirements and procedures
 
 ### Test
 
@@ -105,7 +105,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Live Unit Testing frequently asked questions](../test/live-unit-testing-faq.yml) - Add Dev Drive content to Live Unit Testing FAQ
 
-## Community contributors
+### Community contributors
 
 The following people contributed to Visual Studio content in May. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
 
