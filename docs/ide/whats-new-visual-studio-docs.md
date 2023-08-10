@@ -138,7 +138,7 @@ The following people contributed to Visual Studio content in May. Thank you! To 
 
 **Updated articles**
 
-- [Walkthrough: Create a simple WCF service in Windows Forms](../data-tools/walkthrough-creating-a-simple-wcf-service-in-windows-forms.md) - Update screenshots and procedures
+- [Walkthrough: Create a WCF service in Windows Forms](../data-tools/walkthrough-creating-a-simple-wcf-service-in-windows-forms.md) - Update screenshots and procedures
 
 ### Debugger
 
@@ -148,7 +148,6 @@ The following people contributed to Visual Studio content in May. Thank you! To 
 - [Write and debug running code with Hot Reload in Visual Studio (C#, Visual Basic, C++)](../debugger/hot-reload.md) - Update supported edits content to point to Roslyn
 - [Learn productivity tips and tricks for the debugger in Visual Studio](../debugger/debugger-tips-and-tricks.md) - Add tips and tricks content for memory usage and creating dump files
 - [FAQ - Debugger feature finder](../debugger/find-your-debugging-task.yml) - Add Tips & Tricks content for both memory usage and creating dump files, and add new details to Find Your Feature content 
-  - updated debugger find your feature with new details
 - [Debug .NET Apps in WSL with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md) - Add info on passing a command line argument to WSL2
 
 ### Designers
@@ -262,7 +261,7 @@ The following people contributed to Visual Studio content in May. Thank you! To 
   - [View threads and tasks in the Parallel Stacks window (C#, Visual Basic, C++)](../debugger/using-the-parallel-stacks-window.md)
   - [Walkthrough: Debugging a Parallel Application in Visual Studio (C#, Visual Basic, C++)](../debugger/walkthrough-debugging-a-parallel-application.md)
 - [Navigate through code by using the Visual Studio debugger](../debugger/navigating-through-code-with-the-debugger.md) - Update text and links
-- [Attach to running processes with the Visual Studio debugger](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) - Add Edge updates for Attach to Process
+- [Attach to running processes with the Visual Studio debugger](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) - Add Microsoft Edge updates for Attach to Process
 - [Getting Started (Debug Interface Access SDK)](../debugger/debug-interface-access/getting-started-debug-interface-access-sdk.md) - Update DIA SDK filepaths and DLL names
 
 ### Extensibility
@@ -283,7 +282,7 @@ Documentation for the VisualStudio.Extensibility SDK, currently in preview, were
 - [Create your first Visual Studio extension](../extensibility/visualstudio.extensibility/get-started/create-your-first-extension.md)
 - [Create your first VSSDK-compatible VisualStudio.Extensibility extension](../extensibility/visualstudio.extensibility/get-started/in-proc-extensions.md)
 - [Introduction to VisualStudio.Extensibility for VS SDK users](../extensibility/visualstudio.extensibility/get-started/oop-extensibility-model-overview.md)
-- [Create a simple extension](../extensibility/visualstudio.extensibility/get-started/tutorial-create-simple-extension.md)
+- [Create an extension](../extensibility/visualstudio.extensibility/get-started/tutorial-create-simple-extension.md)
 - [VisualStudio.Extensibility SDK](../extensibility/visualstudio.extensibility/index.yml)
 - [Rule-based activation constraints](../extensibility/visualstudio.extensibility/inside-the-sdk/activation-constraints.md)
 - [Tutorial: Advanced remote UI](../extensibility/visualstudio.extensibility/inside-the-sdk/advanced-remote-ui.md)
