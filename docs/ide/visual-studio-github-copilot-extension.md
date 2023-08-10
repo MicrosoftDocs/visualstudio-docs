@@ -30,7 +30,7 @@ You can also use GitHub Copilot to convert comments to code, create unit tests, 
 
 ## Exploring GitHub Copilot Chat
 
-In this section, we present a video tutorial that shows you GitHub Copilot in action. <br><br>*Video length: 1.19 minutes*
+To see GitHub Copilot in action, check out the following video tutorial. <br><br>*Video length: 1.19 minutes*
 
 > [!VIDEO https://www.youtube.com/embed/kc_A12G4Elk]
 
