@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: "What's new in the Visual Studio docs"
-ms.date: 07/14/2023
+ms.date: 08/10/2023
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -21,6 +21,107 @@ ms.workload:
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
 
+## July 2023
+
+### Containers
+
+**Updated articles**
+
+- Update 'Containers token proxy' content:
+  - [How to customize Docker containers in Visual Studio](../containers/container-build.md)
+  - [How to configure Visual Studio Container Tools](../containers/container-tools-configure.md)
+
+### Debugger
+
+**New articles**
+
+- [Extend .NET Hot Reload using MetadataUpdateHandler (C#, Visual Basic)](../debugger/hot-reload-metadataupdatehandler.md)
+
+**Updated articles**
+
+- Update articles on Threads window for multi-threaded debugging:
+  - [Debug multithreaded applications in Visual Studio](../debugger/debug-multithreaded-applications-in-visual-studio.md) 
+  - [Get started debugging multithreaded applications (C#, Visual Basic, C++)](../debugger/get-started-debugging-multithreaded-apps.md) 
+- [How to: Debug .NET Framework source](../debugger/how-to-debug-dotnet-framework-source.md) - Update instructions for debugging .NET Framework source code
+
+### Designers
+
+**Updated articles**
+
+- [Tutorial: Get started with Windows Forms Designer](../designers/walkthrough-windows-forms-designer.md) - Update text and screenshots
+
+### IDE
+
+**Updated articles**
+
+- [How to: Specify an application icon (Visual Basic, C#)](../ide/how-to-specify-an-application-icon-visual-basic-csharp.md) - Update text and links
+- [View the structure of code by using different tool windows](../ide/viewing-the-structure-of-code.md) - Revise the list of supported programming languages
+
+### Install
+
+**Updated articles**
+
+- [Import or export installation configurations](../install/import-export-installation-configurations.md) - Add vsconfig examples
+
+### JavaScript
+
+**New articles**
+
+- [Migrate Node.js projects in Visual Studio](../javascript/migrate-nodejs-projects.md)
+
+### MSBuild
+
+**Updated articles**
+
+- [MSBuild project file schema reference](../msbuild/msbuild-project-file-schema-reference.md) - Add table of MSBuild XSD schema versions and links
+
+### Profiling
+
+**New articles**
+
+- [Slow String(Char[]) initialization](../profiling/performance-insights-string-constructor-char.md)
+
+**Updated articles**
+
+- [Analyze memory usage by using the .NET Object Allocation tool](../profiling/dotnet-alloc-tool.md) - Update text, screenshots, and links
+- [Measure memory usage in Visual Studio (C#, Visual Basic, C++, F#)](../profiling/memory-usage.md) - Update the memory analysis details
+
+### Python
+
+**Updated articles**
+
+- Update debugging and environment content:
+  - [Debug your Python code](../python/debugging-python-in-visual-studio.md)
+  - [Work with the Python Interactive window](../python/python-interactive-repl-in-visual-studio.md)
+  - [Select a Python environment for a project in Visual Studio](../python/selecting-a-python-environment-for-a-project.md)
+- Update procedural content:
+  - [Step 2: Write and run code](../python/tutorial-working-with-python-in-visual-studio-step-02-writing-code.md)
+  - [Step 3: Use the Interactive REPL window](../python/tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)
+- [Publishing to Azure App Service on Linux](../python/publish-to-app-service-windows.md) - Update platform requirements and procedures
+
+### Test
+
+**Updated articles**
+
+- [Live Unit Testing frequently asked questions](../test/live-unit-testing-faq.yml) - Add Dev Drive content to Live Unit Testing FAQ
+
+### Community contributors
+
+The following people contributed to Visual Studio content in May. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
+
+- [alexvitkov](https://github.com/alexvitkov) - Alex Vitkov ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [AndyStevenson7](https://github.com/AndyStevenson7) - Andrew Stevenson ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [CCXXXI](https://github.com/CCXXXI) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [ErikEJ](https://github.com/ErikEJ) - Erik Ejlskov Jensen ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [gqqnbig](https://github.com/gqqnbig) - QQ喵 ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [jrdodds](https://github.com/jrdodds) - Jonathan Dodds ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [matei-tm](https://github.com/matei-tm) - Mircea-Tiberiu Matei ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [milkmanmatty](https://github.com/milkmanmatty) - MilkmanMatty ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [shaggygi](https://github.com/shaggygi) - Greg Ingram ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [shigeooooooooooo](https://github.com/shigeooooooooooo) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [soroshsabz](https://github.com/soroshsabz) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+- [Yumee-Dev](https://github.com/Yumee-Dev) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
+
 ## June 2023
 
 ### Azure
@@ -37,7 +138,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Walkthrough: Create a simple WCF service in Windows Forms](../data-tools/walkthrough-creating-a-simple-wcf-service-in-windows-forms.md) - Update screenshots and procedures
+- [Walkthrough: Create a WCF service in Windows Forms](../data-tools/walkthrough-creating-a-simple-wcf-service-in-windows-forms.md) - Update screenshots and procedures
 
 ### Debugger
 
@@ -47,7 +148,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Write and debug running code with Hot Reload in Visual Studio (C#, Visual Basic, C++)](../debugger/hot-reload.md) - Update supported edits content to point to Roslyn
 - [Learn productivity tips and tricks for the debugger in Visual Studio](../debugger/debugger-tips-and-tricks.md) - Add tips and tricks content for memory usage and creating dump files
 - [FAQ - Debugger feature finder](../debugger/find-your-debugging-task.yml) - Add Tips & Tricks content for both memory usage and creating dump files, and add new details to Find Your Feature content 
-  - updated debugger find your feature with new details
 - [Debug .NET Apps in WSL with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md) - Add info on passing a command line argument to WSL2
 
 ### Designers
@@ -143,13 +243,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Browse Git repositories and compare branches in Visual Studio](../version-control/git-browse-repository.md) - Update text & add keyboard shortcuts
 
-### Community contributors
-
-The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
-
-- [shaggygi](https://github.com/shaggygi) - Greg Ingram ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-- [VeithBuergerhoff](https://github.com/VeithBuergerhoff) - Veith M. Bürgerhoff ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
-
 ## May 2023
 
 ### Debugger
@@ -168,7 +261,7 @@ The following people contributed to the Visual Studio docs during this period. T
   - [View threads and tasks in the Parallel Stacks window (C#, Visual Basic, C++)](../debugger/using-the-parallel-stacks-window.md)
   - [Walkthrough: Debugging a Parallel Application in Visual Studio (C#, Visual Basic, C++)](../debugger/walkthrough-debugging-a-parallel-application.md)
 - [Navigate through code by using the Visual Studio debugger](../debugger/navigating-through-code-with-the-debugger.md) - Update text and links
-- [Attach to running processes with the Visual Studio debugger](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) - Add Edge updates for Attach to Process
+- [Attach to running processes with the Visual Studio debugger](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) - Add Microsoft Edge updates for Attach to Process
 - [Getting Started (Debug Interface Access SDK)](../debugger/debug-interface-access/getting-started-debug-interface-access-sdk.md) - Update DIA SDK filepaths and DLL names
 
 ### Extensibility
@@ -189,7 +282,7 @@ Documentation for the VisualStudio.Extensibility SDK, currently in preview, were
 - [Create your first Visual Studio extension](../extensibility/visualstudio.extensibility/get-started/create-your-first-extension.md)
 - [Create your first VSSDK-compatible VisualStudio.Extensibility extension](../extensibility/visualstudio.extensibility/get-started/in-proc-extensions.md)
 - [Introduction to VisualStudio.Extensibility for VS SDK users](../extensibility/visualstudio.extensibility/get-started/oop-extensibility-model-overview.md)
-- [Create a simple extension](../extensibility/visualstudio.extensibility/get-started/tutorial-create-simple-extension.md)
+- [Create an extension](../extensibility/visualstudio.extensibility/get-started/tutorial-create-simple-extension.md)
 - [VisualStudio.Extensibility SDK](../extensibility/visualstudio.extensibility/index.yml)
 - [Rule-based activation constraints](../extensibility/visualstudio.extensibility/inside-the-sdk/activation-constraints.md)
 - [Tutorial: Advanced remote UI](../extensibility/visualstudio.extensibility/inside-the-sdk/advanced-remote-ui.md)
@@ -266,66 +359,3 @@ Documentation for the VisualStudio.Extensibility SDK, currently in preview, were
 **Updated articles**
 
 - [How Visual Studio makes version control easy with Git](../version-control/git-with-visual-studio.md) - add new Performance & Productivity Enhancements section
-
-## April 2023
-
-### Deployment
-
-**New articles**
-
-- [Build .NET ClickOnce applications from the command line](../deployment/building-dotnet-clickonce-applications-from-the-command-line.md)
-
-**Updated articles**
-
-- [Build ClickOnce applications from the command line](../deployment/building-clickonce-applications-from-the-command-line.md) - Add link to new Command-Line Build for .NET ClickOnce article
-
-### Designers
-
-**Updated articles**
-
-- [Fix HDPI/scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md) - Shorten text to improve readability
-
-### Extensibility
-
-**Updated articles**
-
-- [VSIX extension schema 2.0 reference](../extensibility/vsix-extension-schema-2-0-reference.md) - Add information about placeholders in VSIX manifest files
-
-### Get started
-
-**Updated articles**
-
-- [What is Visual Studio?](../get-started/visual-studio-ide.md) - Revise the Overview content
-
-### IDE
-
-**New articles**
-
-- [What is the GitHub Copilot extension for Visual Studio?](../ide/visual-studio-github-copilot-extension.md)
-
-**Updated articles**
-
-- [Bookmark code in Visual Studio](../ide/setting-bookmarks-in-code.md) - Update text, links, and screenshots
-- [Sign in to Visual Studio on Windows](../ide/signing-in-to-visual-studio.md) - Update text and screenshots
-- [Make code work in Visual Studio](../ide/find-and-fix-code-errors.md) - Update text and links
-- [Optimize Visual Studio startup time](../ide/optimize-visual-studio-startup-time.md) - Update text, links, and refresh for revised UI
-- [How to: Change fonts, colors, and themes in Visual Studio](../ide/how-to-change-fonts-and-colors-in-visual-studio.md) - Update text
-- [Walkthrough: Create a code snippet in Visual Studio](../ide/walkthrough-creating-a-code-snippet.md) - Add more detail to procedural instructions
-
-### Install
-
-**Updated articles**
-
-- [Create, maintain, and deploy a network installation of Visual Studio](../install/create-a-network-installation-of-visual-studio.md) - Update the useLatestInstaller content & add link to Community edition
-
-### MSBuild
-
-**Updated articles**
-
-- [MSBuild batching](../msbuild/msbuild-batching.md) - Document metadata-self referencing behavioral differences
-
-### Profiling
-
-**Updated articles**
-
-- [Which performance tool should I use? (C#, Visual Basic, C++, F#)](../profiling/choose-performance-tool.md) - Update info about choosing your performance tool
