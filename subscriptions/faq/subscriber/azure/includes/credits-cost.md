@@ -1,14 +1,15 @@
 ---
 title: How much does it cost?
-description: There is no cost to use these credits. They are included in your Visual Studio subscription. When you run out of the credit that's...
+description: Learn about using your Azure credits, and what to do when you run out.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 40528a58-d5ed-4c53-91d6-ce873017bead
 author: evanwindom
 ms.author: amast
-ms.date: 4/3/2020
+ms.date: 08/10/2023
 ms.faqid: q5_2
 ---
 
 ## How much does it cost?
 
-There is no cost to use these credits. They are included in your Visual Studio subscription. When you run out of the credit that's allotted for the month, you won't be able to continue using it until it resets the next month.
+There's no cost to use these credits. They're included in your Visual Studio subscription. When you run out of the credit that's allotted for the month, you won't be able to continue using it until it resets the next month.

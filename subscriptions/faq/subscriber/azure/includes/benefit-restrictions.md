@@ -1,14 +1,15 @@
 ---
 title: Are there any geographic or service restrictions impacting this benefit?
-description: Azure subscriptions created via the Visual Studio Subscriptions benefit may be impacted by restrictions that aren't imposed on paid...
+description: Learn about restrictions on Azure use in Visual Studio subscriptions
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 09dac7bc-fe92-424e-bf3c-c58637799027
 author: evanwindom
 ms.author: amast
-ms.date: 4/3/2020
+ms.date: 08/10/2023
 ms.faqid: q5_6
 ---
 
 ## Are there any geographic or service restrictions impacting this benefit?
 
-Azure subscriptions created via the Visual Studio Subscriptions benefit may be impacted by restrictions that aren't imposed on paid subscriptions. Certain geographies may not be available for creating VMs and Azure services, and certain service types may not be available. There may be a lower default quota than on paid subscriptions.
+Azure subscriptions created via the Visual Studio Subscriptions benefit may be restricted in ways paid subscriptions aren't. Certain geographies may not be available for creating VMs and Azure services, and certain service types may not be available. There may be a lower default quota than on paid subscriptions.
