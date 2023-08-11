@@ -4,6 +4,7 @@ description: Read an overview about Visual Studio Tools for Unreal Engine, which
 ms.date: "08/01/2023"
 ms.topic: quickstart
 ms.prod: visual-studio
+ms.technology: vs-unreal-engine-tools
 author: TylerMSFT
 ms.author: TWhitney
 manager: MarkL
