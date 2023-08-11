@@ -24,7 +24,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-This article describes the difference between a *project* and a *solution* in Visual Studio. It also briefly covers the [Solution Explorer](use-solution-explorer.md) tool window and how to create a new project.
+This article describes the difference between a *project* and a *solution* in Visual Studio. It also briefly covers how to create a new project and how to use the [Solution Explorer](use-solution-explorer.md) tool window to interact with your projects and solutions.
 
 ## Projects
 
@@ -41,11 +41,11 @@ Project files are based on the [MSBuild XML schema](../msbuild/msbuild-project-f
 
 ### Create new projects
 
-The easiest way to create a new project is to use a project template for the project type you want. A project template includes a basic set of pregenerated code files, config files, assets, and settings. Use **File** > **New** > **Project** to select a project template. For more information, see [Create a new project](create-new-project.md).
+The easiest way to create a new project is to use a project template for the project type you want. A project template includes a basic set of pregenerated code files, config files, assets, and settings. Use **File** > **New** > **Project** to select a project template. For more information, see [Create a new project in Visual Studio](create-new-project.md).
 
-You can also create a custom project template that you can use to create new projects from. For more information, see [What are project and item templates?](creating-project-and-item-templates.md).
+You can also create a custom project template that you can use to create new projects from. For more information, see [Create project and item templates](creating-project-and-item-templates.md).
 
-When you create a new project, Visual Studio saves it to its default location, *%USERPROFILE%\source\repos*. To change this location, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions /> Locations](reference/projects-solutions-locations-options.md).
+When you create a new project, Visual Studio saves it to its default location, *%USERPROFILE%\source\repos*. To change this location, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
 
 ## Solutions
 
@@ -65,7 +65,7 @@ Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solu
 
 ### Solution folder
 
-A "solution folder" is a virtual folder that's only in **Solution Explorer**, where you can use it to group projects in a solution. If you want to locate a solution file on a computer, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions /> Locations](reference/projects-solutions-locations-options.md).
+A "solution folder" is a virtual folder that's only in **Solution Explorer**, where you can use it to group projects in a solution. If you want to locate a solution file on a computer, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
 
 > [!TIP]
 > For an example of a project and solution created from scratch, complete with step-by-step instructions and sample code, see [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md).
