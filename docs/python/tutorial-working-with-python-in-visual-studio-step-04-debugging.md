@@ -2,7 +2,7 @@
 title: Python in Visual Studio tutorial step 4, debugging
 titleSuffix: ""
 description: Step 4 of a core walkthrough of Python capabilities in Visual Studio, covering how to run Python code in the debugger.
-ms.date: 02/28/2022
+ms.date: 08/11/2023
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
@@ -14,69 +14,70 @@ ms.workload:
   - data-science
 ms.custom: devdivchpfy22
 ---
+
 # Step 4: Run code in the debugger
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 **Previous step: [Use the Interactive REPL window](tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md)**
 
 Visual Studio provides capabilities to manage projects, a rich editing experience, the **Interactive** window, and full-featured debugging for Python code. In the debugger, you can run your code step by step, including every iteration of a loop. You can also pause the program whenever certain conditions are true. At any point when the program is paused in the debugger, you can examine the entire program state and change the value of variables. Such actions are essential for tracking down program bugs, and also provide helpful aids for following the exact program flow.
 
-1. Replace the code in the *PythonApplication1.py* file with the following code. This variation of the code expands `make_dot_string` so that you can examine its discrete steps in the debugger. It also places the `for` loop into a `main` function and runs it explicitly by calling that function:
+1. Replace the code in the _PythonApplication1.py_ file with the following code. This variation of the code expands `make_dot_string` so that you can examine its discrete steps in the debugger. It also places the `for` loop into a `main` function and runs it explicitly by calling that function:
 
-    ```python
-    from math import cos, radians
+   ```python
+   from math import cos, radians
 
-    # Create a string with spaces proportional to a cosine of x in degrees
-    def make_dot_string(x):
-        rad = radians(x)                             # cos works with radians
-        numspaces = int(20 * cos(rad) + 20)          # scale to 0-40 spaces
-        st = ' ' * numspaces + 'o'                   # place 'o' after the spaces
-        return st
+   # Create a string with spaces proportional to a cosine of x in degrees
+   def make_dot_string(x):
+       rad = radians(x)                             # cos works with radians
+       numspaces = int(20 * cos(rad) + 20)          # scale to 0-40 spaces
+       st = ' ' * numspaces + 'o'                   # place 'o' after the spaces
+       return st
 
-    def main():
-        for i in range(0, 1800, 12):
-            s = make_dot_string(i)
-            print(s)
+   def main():
+       for i in range(0, 1800, 12):
+           s = make_dot_string(i)
+           print(s)
 
-    main()
-    ```
+   main()
+   ```
 
 1. Check that the code works properly by pressing **F5** or selecting the **Debug** > **Start Debugging** menu command. This command runs the code in the debugger. As of yet, nothing has been done to pause the program while it's running, it will just print a wave pattern for a few iterations. Press any key to close the output window.
 
-    > [!Tip]
-    > To close the output window automatically when the program completes, select the **Tools** > **Options** menu command, expand the **Python** node, select **Debugging**, and then clear the option **Wait for input when process exits normally**:
-    >
-    > ![Python debugging option to close the output window on normal program exit](media/vs-getting-started-python-22-debugging5.png)
-    >
-    > For more information about debugging and how to set script and interpreter arguments, see [Debug your Python code](debugging-python-in-visual-studio.md).
+   > [!Tip]
+   > To close the output window automatically when the program completes, select the **Tools** > **Options** menu command, expand the **Python** node, select **Debugging**, and then clear the option **Wait for input when process exits normally**:
+   >
+   > ![Python debugging option to close the output window on normal program exit](media/vs-getting-started-python-22-debugging5.png)
+   >
+   > For more information about debugging and how to set script and interpreter arguments, see [Debug your Python code](debugging-python-in-visual-studio.md).
 
 1. Set a breakpoint on the `for` statement by clicking once in the gray margin by that line, or by placing the caret in that line and using the **Debug** > **Toggle Breakpoint** command (**F9**). A red dot appears in the gray margin to indicate the breakpoint (as noted by the arrow below):
 
-    ![Setting a breakpoint](media/vs-getting-started-python-18-debugging1.png)
+   ![Setting a breakpoint](media/vs-getting-started-python-18-debugging1.png)
 
 1. Start the debugger again (**F5**) and see that running the code stops on the line with that breakpoint. Here you can inspect the call stack and examine variables. Variables that are in-scope appear in the **Autos** window when they're defined; you can also switch to the **Locals** view at the bottom of that window to show all variables that Visual Studio finds in the current scope (including functions), even before they're defined:
 
-    ![Breakpoint UI experience for Python](media/vs-getting-started-python-19-debugging2b.png)
+   ![Breakpoint UI experience for Python](media/vs-getting-started-python-19-debugging2b.png)
 
 1. Observe the debugging toolbar (shown below) along the top of the Visual Studio window. This toolbar provides quick access to the most common debugging commands (which can also be found on the **Debug** menu):
 
-    ![Essential debugging toolbar buttons](media/vs-getting-started-python-20-debugging3.png)
+   ![Essential debugging toolbar buttons](media/vs-getting-started-python-20-debugging3.png)
 
-    The buttons from left to right as follows:
+   The buttons from left to right as follows:
 
-    |Button|Command|
-    |-------|---------|
-    |**Continue** (**F5**)|Runs the program until the next breakpoint or until program completion.|
-    |**Break All** (**Ctrl**+**Alt**+**Break**)|Pauses a long-running program.|
-    |**Stop Debugging** (**Shift**+**F5**)|Stops the program wherever it is, and exits the debugger.|
-    |**Restart** (**Ctrl**+**Shift**+**F5**)|Stops the program wherever it is, and restarts it from the beginning in the debugger.|
-    |**Show Next Statement** (**Alt**+**Num** **&#42;**)|Switches to the next line of code to run. This is helpful when you navigate around within your code during a debugging session and want to quickly return to the point where the debugger is paused.|
-    |**Step Into** (**F11**)|Runs the next line of code, entering into called functions.|
-    |**Step Over** (**F10**)|Runs the next line of code without entering into called functions.|
-    |**Step Out** (**Shift**+**F11**)|Runs the remainder of the current function and pauses in the calling code.|
+   | Button                                           | Command                                                                                                                                                                                              |
+   | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+   | **Continue** (**F5**)                            | Runs the program until the next breakpoint or until program completion.                                                                                                                              |
+   | **Break All** (**Ctrl**+**Alt**+**Break**)       | Pauses a long-running program.                                                                                                                                                                       |
+   | **Stop Debugging** (**Shift**+**F5**)            | Stops the program wherever it is, and exits the debugger.                                                                                                                                            |
+   | **Restart** (**Ctrl**+**Shift**+**F5**)          | Stops the program wherever it is, and restarts it from the beginning in the debugger.                                                                                                                |
+   | **Show Next Statement** (**Alt**+**Num** **\***) | Switches to the next line of code to run. This is helpful when you navigate around within your code during a debugging session and want to quickly return to the point where the debugger is paused. |
+   | **Step Into** (**F11**)                          | Runs the next line of code, entering into called functions.                                                                                                                                          |
+   | **Step Over** (**F10**)                          | Runs the next line of code without entering into called functions.                                                                                                                                   |
+   | **Step Out** (**Shift**+**F11**)                 | Runs the remainder of the current function and pauses in the calling code.                                                                                                                           |
 
-1. Step over the `for` statement using **Step Over**. *Stepping* means that the debugger runs the current line of code, including any function calls, and then immediately pauses again. Notice in the code, how the variable `i` is now defined in the **Locals** and **Autos** windows.
+1. Step over the `for` statement using **Step Over**. _Stepping_ means that the debugger runs the current line of code, including any function calls, and then immediately pauses again. Notice in the code, how the variable `i` is now defined in the **Locals** and **Autos** windows.
 
 1. Step over the next line of code, which calls `make_dot_string` and pauses. **Step Over** here specifically means that the debugger runs the whole of `make_dot_string` and pauses when it returns. The debugger doesn't stop inside that function unless a separate breakpoint exists there.
 
@@ -92,9 +93,9 @@ Visual Studio provides capabilities to manage projects, a rich editing experienc
 
 1. To continue running the program until the next breakpoint is reached, use **Continue** (**F5**). Because you have a breakpoint in the `for` loop, you break on the next iteration.
 
-1. Stepping through hundreds of iterations of a loop can be tedious, so Visual Studio lets you add a *condition* to a breakpoint. The debugger then pauses the program at the breakpoint only when the condition is met. For example, you can use a condition with the breakpoint on the `for` statement so that it pauses only when the value of `i` exceeds 1600. To set the condition, right-click the red breakpoint dot and select **Conditions** (**Alt**+**F9** > **C**). In the **Breakpoint Settings** popup that appears, enter `i > 1600` as the expression and select **Close**. Press **F5** to continue and observe that the program runs many iterations before the next break.
+1. Stepping through hundreds of iterations of a loop can be tedious, so Visual Studio lets you add a _condition_ to a breakpoint. The debugger then pauses the program at the breakpoint only when the condition is met. For example, you can use a condition with the breakpoint on the `for` statement so that it pauses only when the value of `i` exceeds 1600. To set the condition, right-click the red breakpoint dot and select **Conditions** (**Alt**+**F9** > **C**). In the **Breakpoint Settings** popup that appears, enter `i > 1600` as the expression and select **Close**. Press **F5** to continue and observe that the program runs many iterations before the next break.
 
-    ![Setting a breakpoint condition](media/vs-getting-started-python-21-debugging4.png)
+   ![Setting a breakpoint condition](media/vs-getting-started-python-21-debugging4.png)
 
 1. To run the program to completion, disable the breakpoint by right-clicking the dot in the margin and selecting **Disable breakpoint** (**Ctrl**+**F9**). Then select **Continue** (or press **F5**) to run the program. When the program ends, Visual Studio stops its debugging session and returns to its editing mode. You can also delete the breakpoint by selecting its dot or by right-clicking the dot and selecting **Delete breakpoint**. It also deletes any condition you've previously set.
 
