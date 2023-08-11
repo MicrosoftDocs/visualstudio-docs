@@ -1,8 +1,7 @@
 ---
 title: 'What are Visual Studio solutions & projects?'
 description: Learn about Visual Studio projects and solutions, how to create new projects from a template, and how to view & manage projects in Solution Explorer.
-ms.custom: "contperf-fy21q2"
-ms.date: 08/08/2023
+ms.date: 08/11/2023
 ms.topic: conceptual
 f1_keywords:
 - vs.openproject
@@ -25,14 +24,14 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In this article, you'll learn what  a *project* and a *solution* is in Visual Studio. It also briefly covers the [Solution Explorer](use-solution-explorer.md) tool window and how to create a new project.
+This article describes the difference between a *project* and a *solution* in Visual Studio. It also briefly covers the [Solution Explorer](use-solution-explorer.md) tool window and how to create a new project.
 
 > [!NOTE]
 > This topic applies to Visual Studio on Windows. For Visual Studio for Mac, see [Projects and solutions in Visual Studio for Mac](/visualstudio/mac/projects-and-solutions).
 
 ## Projects
 
-When you create an app or website in Visual Studio, you start with a *project*. In a logical sense, a project contains all files that are compiled into an executable, library, or website. Those files can include source code, icons, images, data files, and more. A project also contains compiler settings and other configuration files that might be needed by various services or components that your program communicates with.
+When you create an app or website in Visual Studio, you start with a *project*. In a logical sense, a project contains all files that are compiled into an executable, library, or website. Those files can include source code, icons, images, data files, and more. A project also contains compiler settings and other configuration files that your program might need to communicate with various services or components.
 
 ### Project file
 
@@ -45,7 +44,7 @@ Project files are based on the [MSBuild XML schema](../msbuild/msbuild-project-f
 
 ### Create new projects
 
-The easiest way to create a new project is to use a project template for the project type you want. A project template includes a basic set of pre-generated code files, config files, assets, and settings. Use **File** > **New** > **Project** to select a project template. For more information, see [Create a new project](create-new-project.md).
+The easiest way to create a new project is to use a project template for the project type you want. A project template includes a basic set of pregenerated code files, config files, assets, and settings. Use **File** > **New** > **Project** to select a project template. For more information, see [Create a new project](create-new-project.md).
 
 You can also create a custom project template that you can use to create new projects from. For more information, see [Create project and item templates](../ide/creating-project-and-item-templates.md).
 
@@ -53,7 +52,7 @@ When you create a new project, Visual Studio saves it to its default location, *
 
 ## Solutions
 
-A project is contained within a *solution*. Despite its name, a solution isn't an "answer". It's simply a container for one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project.
+A project is contained within a *solution*. Despite its name, a solution isn't an "answer." It's simply a container for one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project.
 
 ### Solution file
 
