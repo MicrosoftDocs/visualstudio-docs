@@ -1,11 +1,12 @@
 ---
 title: How do I use my benefits?
-description: Just as the types of benefits vary, so do the methods for activating and using them. For example, many of our benefits are provided by...
+description: Learn how to activate all of your available benefits. 
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 9109bf1e-f725-439d-a870-13741e0dbc90
 author: evanwindom
 ms.author: amast
-ms.date: 04/20/2021
+ms.date: 08/11/2023
 ms.faqid: q3_2
 ---
 
@@ -15,4 +16,4 @@ The types of benefits vary.  So do the methods for activating and using them. Fo
 
 For each benefit available in the subscriber portal, we've provided information such as which subscriptions include them, and steps to activate the benefits.
 
-Check out our documentation to [learn more](https://learn.microsoft.com/visualstudio/subscriptions/about-benefits) (click on 'Subscriptions' in the left nav pane, and choose 'Benefits').
+Check out our documentation to [learn more](https://learn.microsoft.com/visualstudio/subscriptions/about-benefits) (select 'Subscriptions' in the left nav pane, and choose 'Benefits').
