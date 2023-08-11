@@ -226,7 +226,7 @@ Start the Developer Command Prompt for Visual Studio 2019 Community Edition on a
 
 Start the Developer PowerShell for the Community Edition of [Visual Studio 2022 version 17.1](/visualstudio/releases/2022/release-notes#1710--visual-studio-2022-version-171-newreleasebutton) or later on a 64-bit machine, creating build outputs that target arm64:
 ```powershell
-& 'C:\Program Files (x86)\Microsoft Visual Studio\2022\Community\Common7\Tools\Launch-VsDevShell.ps1' -Arch arm64 -HostArch amd64
+& 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\Launch-VsDevShell.ps1' -Arch arm64 -HostArch amd64
 ```
 
 ### SkipAutomaticLocation
