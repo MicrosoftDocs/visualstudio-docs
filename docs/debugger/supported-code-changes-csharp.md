@@ -1,7 +1,7 @@
 ---
 title: "Supported Code Changes (C# and Visual Basic) | Microsoft Docs"
 description: Understand what code changes are supported when you are using the Edit and Continue feature while debugging a C# or Visual Basic project in Visual Studio.
-ms.date: "06/20/2023"
+ms.date: "08/11/2023"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
