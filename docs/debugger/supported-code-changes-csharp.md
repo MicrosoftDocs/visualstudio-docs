@@ -103,15 +103,21 @@ Unsupported apps and platforms include Silverlight 5 and Windows 8.1. Unsupporte
 
 - Mixed-mode (native/managed) debugging.
 
-- SQL debugging.
+- Debugging on ARM64 without targeting .NET 6 or later.
 
-- Debugging a Dr. Watson dump.
+- Debugging with the **COR_ENABLE_PROFILING** environment variable set.
 
-- Debugging an embedded runtime application.
+- Debugging an application using attach to process (**Debug > Attach to Process**) instead of running the application by choosing **Start** from the **Debug** menu. If you wish to use Edit and Continue when attaching to a process, the **COMPLUS_ForceENC** environment variable must be set prior to launching the process (`set COMPLUS_ForceENC=1`).
 
-- Debugging an application using attach to process (**Debug > Attach to Process**) instead of running the application by choosing **Start** from the **Debug** menu.
+- Debugging with non-deterministic (for example, time based) assembly versions. If you wish to use Edit and Continue, consider setting the version only in Release (or CI) builds and keep the version in Debug builds constant.
 
 - Debugging optimized code.
+
+- SQL debugging.
+
+- Debugging a dump file.
+
+- Debugging an embedded runtime application.
 
 - Debugging an old version of your code after a new version failed to build because of build errors.
 
