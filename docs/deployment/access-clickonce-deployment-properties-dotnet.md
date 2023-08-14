@@ -1,7 +1,7 @@
 ---
 title: Access ClickOnce deployment properties for .NET
 description: "Learn how to access ClickOnce deployment properties for .NET Core 3.1, .NET 5 and later."
-ms.date: 11/21/2022
+ms.date: 08/10/2023
 ms.topic: how-to
 helpviewer_keywords:
   - "deployment properties, ClickOnce for .NET 5+"
