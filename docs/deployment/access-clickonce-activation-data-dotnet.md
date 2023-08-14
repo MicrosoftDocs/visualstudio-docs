@@ -40,7 +40,7 @@ The following environments variables are set:
   `ClickOnce_ActivationData_0`
   `ClickOnce_ActivationData_1`
 
-  The scenarios fixed by this change always use the 0-index element, so the variable will always be ClickOnce_ActivationData_0, but the code is flexible and is able to pass all activation data to .NET app.
+  The scenarios fixed by this change always use the zero-index element, so the variable will always be `ClickOnce_ActivationData_0`, but the code is flexible and is able to pass all activation data to .NET app.
 
 ## Access properties
 

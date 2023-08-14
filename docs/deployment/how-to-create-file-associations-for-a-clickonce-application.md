@@ -23,6 +23,9 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications can be associated with one or more file name extensions, so that the application will be started automatically when the user opens a file of those types. Adding file name extension support to a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application is straightforward.
 
+> [!NOTE]
+> To create file associations in a .NET ClickOnce app (instead of .NET Framework), see [Access ClickOnce activation data for .NET on Windows](../deployment/access-clickonce-activation-data-dotnet.md).
+
 ### To create file associations for a ClickOnce application
 
 1. Create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application normally, or use your existing [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application.
