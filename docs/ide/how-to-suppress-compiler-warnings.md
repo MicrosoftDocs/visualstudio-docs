@@ -171,7 +171,13 @@ This command-line setting sets a global property value; setting `$(NoWarn)` in t
 
 ## Suppress MSBuild warnings
 
-How you suppress MSBuild warnings (`MSB` error codes) depends on what type of project you have and what version of MSBuild you're using. Check the Project element, the top-level element in your project file. If it has an `Sdk` attribute, then you have what is called an SDK project. For these projects, you can suppress MSBuild warnings using the same methods described previously. The only difference is that you must specify the full error code (including the `MSB` prefix), instead of just using a number.
+How you suppress MSBuild warnings (`MSB` error codes) depends on what type of project you have and what version of MSBuild you're using. Check the Project element, the top-level element in your project file. If it has an `Sdk` attribute, then you have what is called an SDK project.
+
+```xml
+<Project Sdk="Microsoft.Net.Sdk">
+```
+
+For these projects, you can suppress MSBuild warnings using the same methods described previously. You must specify the full error code (including the `MSB` prefix), instead of just using a number. Also, the message is not eliminated; it still shows as an informational message, but it's been demoted from a warning.
 
 If your project is not an SDK project, or if your MSBuild version is 16.8 or earlier, then whether you're building in Visual Studio, or from the command line, the property you can use to suppress MSBuild warnings is `MSBuildWarningsAsMessages`. You can suppress build warnings by editing the project file or specifying the `MSBuildWarningsAsMessages` option at the MSBuild command line. When you use `MSBuildWarningsAsMessages`, use the full MSBuild error code, including the `MSB` prefix.
 
@@ -193,7 +199,7 @@ Also, some warnings have specific properties you can set to disable the warning.
   </PropertyGroup>
 ```
 
-When possible, use the more explicit property, because an error code by itself is not as readily understood.
+When possible, use the more explicit property, because an error code by itself is not as readily understood. The error reference page for the code usually contains the property that is used to disable it.
 
 ## Suppress warnings for NuGet packages
 
