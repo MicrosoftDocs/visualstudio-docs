@@ -1,7 +1,7 @@
 ---
 title: Debug user code with Just My Code | Microsoft Docs
 description: Just My Code is a debugging feature that automatically steps over calls to non-user code. Learn how to enable, disable, and use this feature.
-ms.date: 04/21/2023
+ms.date: 08/14/2023
 ms.topic: how-to
 ms.assetid: 0f0df097-bbaf-46ad-9ad1-ef5f40435079
 author: mikejo5000
@@ -141,10 +141,10 @@ For code stepping behavior, Just My Code in C++ considers only these functions t
 > For code stepping support in Just My Code, C++ code must be compiled using the MSVC compilers in Visual Studio 15.8 Preview 3 or later, and the /JMC compiler switch must be enabled (it is enabled by default). For additional details, see [Customize C++ call stack and code stepping behavior](#BKMK_CPP_Customize_call_stack_behavior) and this [blog post](https://devblogs.microsoft.com/cppblog/announcing-jmc-stepping-in-visual-studio/). For code compiled using an older compiler, *.natstepfilter* files are the only way to customize code stepping, which is independent of Just My Code. See [Customize C++ stepping behavior](#BKMK_CPP_Customize_stepping_behavior).
 
 <a name="BKMK_CPP_Stepping_behavior"></a>
-During C++ debugging:
+During C++ debugging, non-user code is skipped by default. During C++ debugging:
 
-- **Debug** > **Step Into** (or **F11**) on non-user code steps over the code to the next line of user code.
-- **Debug** > **Step Out** (or **Shift**+**F11**) on non-user code runs to the next line of user code.
+- **Debug** > **Step Into** (or **F11**) on non-user code steps over the code or runs to the next line of user code, if **Step Into** is called from non-user code.
+- **Debug** > **Step Out** (or **Shift**+**F11**) on non-user code runs to the next line of user code (outside of the current stack frame).
 
 If there's no more user code, debugging continues until it ends, hits another breakpoint, or throws an error.
 
@@ -198,16 +198,19 @@ A *.natjmc* file is an XML file with this syntax:
 
 |Attribute|Description|
 |---------------|-----------------|
-|`Name`|Required. The fully qualified name of the function to treat as external code.|
+|`Name`|Required. The fully qualified name of the function to treat as external code. ou can use the Windows wildcard characters `?` and `*` when specifying the path.|
 |`Module`|Optional. The name or full path to the module that contains the function. You can use this attribute to disambiguate functions with the same name.|
 |`ExceptionImplementation`|When set to `true`, the call stack displays the function that threw the exception rather than this function.|
 
 ### <a name="BKMK_CPP_Customize_stepping_behavior"></a> Customize C++ stepping behavior independent of Just My Code settings
 
-In C++ projects, you can specify functions to step over by listing them as non-user code in *\*.natstepfilter* files. Functions listed in *\*.natstepfilter* files are not dependent on Just My Code settings.
+In C++ projects, you can specify functions to step over by listing them as *NoStepInto* functions in *\*.natstepfilter* files. Functions listed in *\*.natstepfilter* files are not dependent on Just My Code settings. A NoStepInto function tells the debugger to step over the function, even if it calls some StepInto functions or other user code. Unlike functions listed in *.natjmc*, the debugger will step into the first line of user code inside the NoStepInto function.
 
 - To specify non-user code for all local Visual Studio users, add the *.natstepfilter* file to the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.
 - To specify non-user code for an individual user, add the *.natstepfilter* file to the *%USERPROFILE%\My Documents\\<Visual Studio version\>\Visualizers* folder.
+
+> [!NOTE]
+> Some third-party extensions may disable *.natstepfilter* functionality.
 
 A *.natstepfilter* file is an XML file with this syntax:
 
@@ -230,9 +233,19 @@ A *.natstepfilter* file is an XML file with this syntax:
 |Element|Description|
 |-------------|-----------------|
 |`Function`|Required. Specifies one or more functions as non-user functions.|
-|`Name`|Required. An ECMA-262 formatted regular expression specifying the full function name to match. For example:<br /><br /> `<Name>MyNS::MyClass.*</Name>`<br /><br /> tells the debugger that all methods in `MyNS::MyClass` are to be considered non-user code. The match is case-sensitive.|
+|`Name`|Required. An ECMA-262 formatted regular expression specifying the full function name to match. For example:<br /><br /> `<Name>MyNS::MyClass::.*</Name>`<br /><br /> tells the debugger that all methods in `MyNS::MyClass` are to be considered non-user code. The match is case-sensitive.|
 |`Module`|Optional. An ECMA-262 formatted regular expression specifying the full path to the module containing the function. The match is case-insensitive.|
 |`Action`|Required. One of these case-sensitive values:<br /><br /> `NoStepInto`  - tells the debugger to step over the function.<br /> `StepInto`  - tells the debugger to step into the function, overriding any other `NoStepInto` for the matched function.|
+
+### Additional information on *.natstepfilter* and *.natjmc* files
+
+- Starting in Visual Studio 2022 version 17.6, you can add *.natjms* and *.natstepfilter* files directly to the solution or project.
+
+- Syntax errors in *.natstepfilter* and *.natjmc* files are not reported in the debugger's Output window.
+
+- Unlike *.natvis* files, *.natstepfilter* and *.natjmc* files are not hot-reloaded. Instead, these files are reloaded near the beginning of the debug session.
+
+- For template functions, the use of &lt;*&;gt/&lt.* in the name may be helpful.
 
 ## <a name="BKMK_JavaScript_Just_My_Code"></a> JavaScript Just My Code
 
