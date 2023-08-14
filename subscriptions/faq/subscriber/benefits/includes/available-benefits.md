@@ -1,14 +1,15 @@
 ---
 title: Why can't I find certain benefits?
-description: Available benefits vary by subscription level and are subject to change. To see which benefits are included for each subscription...
+description: Find out why some benefits may not be visible in your subscription. 
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 61513da1-8850-48b9-829d-8643ecb9dc4c
 author: evanwindom
 ms.author: amast
-ms.date: 04/20/2021
+ms.date: 08/11/2023
 ms.faqid: q3_1
 ---
 
 ## Why can't I find certain benefits? 
 
-Available benefits vary by subscription level and are subject to change. To see which benefits are included for each paid subscription level, please visit [https://visualstudio.microsoft.com/vs/benefits/](https://visualstudio.microsoft.com/vs/benefits/). You can select the subscription you're interested in, and then see which benefits are available in the various categories - Tools, Azure, Software and Downloads, Services, Training, and Support.
+Available benefits vary by subscription level and are subject to change. To see which benefits are included for each paid subscription level, visit [https://visualstudio.microsoft.com/vs/benefits/](https://visualstudio.microsoft.com/vs/benefits/). You can select the subscription you're interested in, and then see which benefits are available in the various categories - Tools, Azure, Software and Downloads, Services, Training, and Support.

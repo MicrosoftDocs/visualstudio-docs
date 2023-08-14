@@ -1,14 +1,15 @@
 ---
 title: Should I sign in using my work email or my personal email?
-description: To access a subscription, you should sign in with the email address to which the subscription is assigned. In most cases the...
+description: Learn how to choose which ID to use to sign in to your subscription.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 68d39644-b5ce-4824-bd24-dd5bb27198dc
 author: evanwindom
 ms.author: amast
-ms.date: 4/3/2020
+ms.date: 08/11/2023
 ms.faqid: q1_1
 ---
 
 ## Should I sign in using my work email or my personal email?
 
-To access a subscription, you should sign in with the email address to which the subscription is assigned. In most cases the subscription was assigned by your work or school, so you will want to use your work or school email and credentials to sign in to the [Subscriber Portal](https://my.visualstudio.com/benefits).
+To access a subscription, you should sign in with the email address to which the subscription is assigned. In most cases, your work or school assigns your subscription, so you should use your work or school credentials to sign in to the [Subscriber Portal](https://my.visualstudio.com/benefits).
