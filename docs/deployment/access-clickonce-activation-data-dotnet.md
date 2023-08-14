@@ -35,16 +35,16 @@ The following environments variables are set:
 
 - `ClickOnce_ActivationData_<n>`
 
-  For each element in array, a new environment variable gets added, with a zero-based index, that is:
+  For each element in array, a new environment variable gets added with a zero-based index, that is:
 
   `ClickOnce_ActivationData_0`
   `ClickOnce_ActivationData_1`
 
-  The scenarios that are fixed by this change always use the 0-index element, so the variable will always be ClickOnce_ActivationData_0, but the code is flexible and is able to pass all activation data to .NET app.
+  The scenarios fixed by this change always use the 0-index element, so the variable will always be ClickOnce_ActivationData_0, but the code is flexible and is able to pass all activation data to .NET app.
 
 ## Access properties
 
-You can read these environment variables to discover `ActivationData`` content, using the following code:
+You can read these environment variables to discover `ActivationData` content, using the following code:
 
 ```csharp
 string value = Environment.GetEnvironmentVariable("ClickOnce_ActivationData_0");
