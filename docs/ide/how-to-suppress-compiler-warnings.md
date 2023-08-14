@@ -14,11 +14,21 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can declutter a build log by filtering out one or more kinds of compiler warnings. For example, you might want to review only some of the output that's generated when you set the build log verbosity to **Normal**, **Detailed**, or **Diagnostic**. For more information about verbosity, see [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md).
+You can turn off most compiler warnings in various ways. With Visual Studio, you can specify which warnings you want to suppress by specifying the warning codes in the Project Designer (project property pages). You can also suppress warnings by setting certain properties directly in the project file.
+
+Some compilers and build tools also have options to specify the warning level. This lets you control categories of warnings with one setting. For those options, see the documentation for the specific language and compiler you're using:
+
+- [Warning levels in C#](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/errors-warnings#warninglevel)
+- [Warning levels in C++](/cpp/build/reference/compiler-option-warning-level)
+
+If your goal is to see more concise and focused output in your build log, you might want to change the build log verbosity. The available settings are **Normal**, **Detailed**, or **Diagnostic**. For more information about verbosity, see [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md).
+
+> [!CAUTION]
+> Note that warnings are intended to be an indication of a potential problem with your code, so you should understand the risks of disabling any particular warning. Visual Studio settings disable warnings at the project level. You might want to use a more targeted approach to disabling warnings than Visual Studio provides. Most compilers provide ways to disable warnings just for certain lines of code, so that you can still review the warnings if they occur elsewhere in the same project.
 
 ## Suppress specific warnings for Visual C# or F\#
 
-Use the **Build** properties to suppress specific warnings for C# and F# projects. 
+Use the **Build** properties to suppress specific warnings for an entire C# and F# project. If you want to suppress a warning only in a specific part of the code in C#, use [#pragma warning](/dotnet/csharp/language-reference/preprocessor-directives#pragma-warning). For F#, use [#nowarn](/dotnet/fsharp/language-reference/compiler-directives#preprocessor-directives) preprocessor directive to disable a warning for an entire source file.
 
 :::moniker range=">=vs-2022"
 
@@ -49,7 +59,7 @@ Use the **Build** properties to suppress specific warnings for C# and F# project
 
 ## Suppress specific warnings for C++
 
-Use the **Configuration Properties** property page to suppress specific warnings for C++ projects.
+You can suppress warnings in a C++ project by using the project properties; you use the **Configuration Properties** property page to suppress specific warnings for an entire C++ project. You can also suppress warnings in specific files by using `#pragma warning`. This article covers the project-level control, but if your intent is to disable a warning in a particular file or just around a few lines of code, but you want to continue to see other occurrences of the same warning, you should consider using `#pragma warning`. See [#pragma warning](/cpp/preprocessor/warning).
 
 1. In **Solution Explorer**, choose the project or source file in which you want to suppress warnings.
 
@@ -65,11 +75,13 @@ Use the **Configuration Properties** property page to suppress specific warnings
 
 1. Choose the **OK** button, and then rebuild the solution.
 
+If the warning is from another tool, refer to the documentation for the specific tool to find out how you can suppress warnings for that tool. For example, the C++ linker has some warnings you can disable using the `/IGNORE` linker option. See [/IGNORE (Ignore specific warnings)](/cpp/build/reference/ignore-ignore-specific-warnings) and to set this option, see [/link (Pass options to linker)](/cpp/build/reference/link-pass-options-to-linker).
+
 ## Suppress warnings for Visual Basic
 
-You can hide specific compiler warnings for Visual Basic by editing the *.vbproj* file for the project. To suppress warnings by *category*, you can use the [Compile property page](../ide/reference/compile-page-project-designer-visual-basic.md). For more information, see [Configure warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).
+You can hide specific compiler warnings for Visual Basic by editing the *.vbproj* file for the project. To suppress warnings by *category*, you can use the [Compile property page](../ide/reference/compile-page-project-designer-visual-basic.md). If you want to disable a warning in a specific part of a code file, use [#Disable and #Enable directives](/dotnet/visual-basic/language-reference/directives/disable-enable). For more information, see [Configure warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).
 
-### To suppress specific warnings for Visual Basic
+### To suppress specific warnings for an entire Visual Basic project
 
 This example shows you how to edit the *.vbproj* file to suppress specific compiler warnings.
 
@@ -125,6 +137,63 @@ This example shows you how to edit the *.vbproj* file to suppress specific compi
     The **Output** window no longer shows the warnings that you specified.
 
 For more information, see the [/nowarn compiler option](/dotnet/visual-basic/reference/command-line-compiler/nowarn) for the Visual Basic command-line compiler.
+
+## Suppress a warning by editing the project file
+
+Using the Visual Studio property designer to suppress warnings results in a change to the project file.
+At times, it can be more convenient to hand-edit the project file to accomplish the task of disabling a warning. Additionally, MSBuild warnings (error codes with the `MSB` prefix) can't be suppressed in any other way.
+
+To suppress warnings by editing the project file:
+
+1. Open the project file in the Visual Studio editor. Some older project types require you to unload the project before you open the project file; newer project types support directly opening and editing the project file by double-clicking or selecting it and pressing Enter.
+1. In a new `PropertyGroup` section, use the `NoWarn` property. List the errors you want to suppress, separated by commas or semicolons. For compiler warnings, you can omit the language code and enter only the number, but for clarity, we recommend using the full code. For MSBuild warnings, specify the full code, including the `MSB` prefix.
+
+   The following code adds warnings CS0028 and CS0618 to the list of the suppressed warnings:
+
+   ```xml
+   <PropertyGroup>
+      // Other properties
+      <NoWarn>$(NoWarn);CS0028;CS0618</NoWarn>
+   </PropertyGroup>
+   ```
+
+   The use of the property reference is helpful since this would add those numbers to any previously set value for `NoWarn` rather than overwriting it.
+
+See [NoWarn](/dotnet/csharp/language-reference/compiler-options/errors-warnings#nowarn).
+
+## Suppress a warning from the build command line
+
+If you're building a project from the command line, you can also suppress warnings by using `-p:NoWarn` at the MSBuild command line. Use quotes around lists of multiple warning codes.
+
+`MSBuild.exe -p:NoWarn="CS0028;CS0618" MyProject.csproj`
+
+This command-line setting sets a global property value; setting `$(NoWarn)` in the project file. See [MSBuild](../msbuild/msbuild.md) and [MSBuild command line reference](../msbuild/msbuild-command-line-reference.md).
+
+## Suppress MSBuild warnings
+
+How you suppress MSBuild warnings (`MSB` error codes) depends on what type of project you have and what version of MSBuild you're using. Check the Project element, the top-level element in your project file. If it has an `Sdk` attribute, then you have what is called an SDK project. For these projects, you can suppress MSBuild warnings using the same methods described previously. The only difference is that you must specify the full error code (including the `MSB` prefix), instead of just using a number.
+
+If your project is not an SDK project, or if your MSBuild version is 16.8 or earlier, then whether you're building in Visual Studio, or from the command line, the property you can use to suppress MSBuild warnings is `MSBuildWarningsAsMessages`. You can suppress build warnings by editing the project file or specifying the `MSBuildWarningsAsMessages` option at the MSBuild command line. When you use `MSBuildWarningsAsMessages`, use the full MSBuild error code, including the `MSB` prefix.
+
+```xml
+<PropertyGroup>
+    <MSBuildWarningsAsMessages>$(MSBuildWarningsAsMessages);MSB3270</MSBuildWarningsAsMessages>
+</PropertyGroup>
+```
+
+Note that `MSBuildWarningsAsMessages` is only for most warnings with codes with the `MSB` prefix. Some MSBuild warnings can't be suppressed by setting this property. To disable them, use the command line option `warnAsMessage`.
+
+Also, some warnings have specific properties you can set to disable the warning. For example, `MSB3253` is disabled by setting the property 
+
+```xml
+ <PropertyGroup>
+    <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+        None
+    </ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+  </PropertyGroup>
+```
+
+When possible, use the more explicit property, because an error code by itself is not as readily understood.
 
 ## Suppress warnings for NuGet packages
 
