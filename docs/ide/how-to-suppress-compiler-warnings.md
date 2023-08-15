@@ -18,7 +18,7 @@ With Visual Studio, you can specify which warnings you want to suppress by speci
 
 Some compilers and build tools also have options to specify the warning level. This lets you control categories of warnings with one setting. For those options, see the documentation for the specific language and compiler you're using:
 
-- [Warning levels in C#](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/errors-warnings#warninglevel)
+- [Warning levels in C#](/dotnet/csharp/language-reference/compiler-options/errors-warnings#warninglevel)
 - [Warning levels in C++](/cpp/build/reference/compiler-option-warning-level)
 
 If your goal is to see more concise and focused output in your build log, you might want to change the build log verbosity. The available settings are **Normal**, **Detailed**, or **Diagnostic**. For more information about verbosity, see [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md).
