@@ -46,6 +46,8 @@
           href: clickonce-deployment-dotnet.md
         - name: Access ClickOnce deployment properties for .NET
           href: access-clickonce-deployment-properties-dotnet.md
+        - name: Access ClickOnce activation data for .NET
+          href: access-clickonce-activation-data-dotnet.md
       - name: Choose a ClickOnce deployment strategy
         href: choosing-a-clickonce-deployment-strategy.md
       - name: ClickOnce cache overview
