@@ -14,7 +14,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-With Visual Studio, you can specify which warnings you want to suppress by specifying the warning codes in the Project Designer (project property pages). You can also suppress warnings by setting certain properties directly in the project file, via the command line, and in code when you want to suppress a warning in one location only.
+With Visual Studio, you can specify which warnings you want to suppress by specifying the warning codes in the Project Designer (project property pages). You can also suppress warnings by setting certain properties directly in the project file, via the command line, or in code when you want to suppress a warning in one location only.
 
 Some compilers and build tools also have options to specify the warning level. This lets you control categories of warnings with one setting. For those options, see the documentation for the specific language and compiler you're using:
 
@@ -145,7 +145,7 @@ At times, it can be more convenient to hand-edit the project file to accomplish 
 
 To suppress warnings by editing the project file:
 
-1. Open the project file in the Visual Studio editor. Some older project types require you to unload the project before you open the project file; newer project types support directly opening and editing the project file by double-clicking or selecting it and pressing Enter.
+1. To open the project file in the Visual Studio editor, right-click on the project node, and choose **Edit project file**. Some project types require you to unload the project before you can edit the project file. If you need to unload the project, right-click on the project node and choose **Unload project**.
 1. In a new `PropertyGroup` section, use the `NoWarn` property. List the errors you want to suppress, separated by commas or semicolons. For compiler warnings, you can omit the language code and enter only the number, but for clarity, we recommend using the full code. For MSBuild warnings, specify the full code, including the `MSB` prefix.
 
    The following code adds warnings CS0028 and CS0618 to the list of the suppressed warnings:
