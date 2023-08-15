@@ -1,7 +1,7 @@
 ---
 title: 'How to: Use Environment Variables in a Build | Microsoft Docs'
 description: Learn how to access environment variables in MSBuild project files, and use environment variables to set build options without modifying the project file.
-ms.date: 05/09/2022
+ms.date: 08/15/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - environment variables, referencing
@@ -21,7 +21,7 @@ When you build projects, it is often necessary to set build options using inform
 
 ## Reference environment variables
 
- All environment variables are available to the Microsoft Build Engine (MSBuild) project file as properties.
+ All environment variables that are valid MSBuild property names are available to the Microsoft Build Engine (MSBuild) project file as properties. Valid property names are described in [MSBuild properties](msbuild-properties.md). For example, environment variables that begin with a number are not available in MSBuild.
 
 > [!NOTE]
 > If the project file contains an explicit definition of a property that has the same name as an environment variable, the property in the project file overrides the value of the environment variable.
