@@ -75,11 +75,7 @@
   - name: View .NET collections in a tabular visualizer
     href: view-data-in-tabular-visualizer.md
   - name: Disassembly code
-    items:
-    - name: View disassembly code
-      href: how-to-use-the-disassembly-window.md
-    - name: Page up or down in memory
-      href: how-to-page-up-or-down-in-memory.md
+    href: how-to-use-the-disassembly-window.md
   - name: Register values
     items:
     - name: View register values
