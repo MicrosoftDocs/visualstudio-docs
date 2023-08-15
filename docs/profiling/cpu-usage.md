@@ -1,7 +1,7 @@
 ---
 title: Analyze CPU usage in the Performance Profiler
 description: Learn about the CPU Usage performance tool, which shows the CPU time and percentage spent executing code in C++, C#, Visual Basic, and JavaScript apps.
-ms.date: 12/02/2022
+ms.date: 08/15/2023
 ms.topic: how-to
 ms.assetid: 7501a20d-04a1-480f-a69c-201524aa709d
 author: mikejo5000
@@ -212,7 +212,7 @@ Expand the generated methods to show what's going on:
 ::: moniker range=">=vs-2022"
 ### Collect call counts (.NET)
 
-If you want to view call counts in the Functions view, you can enable the setting before you start the profiler. This setting is supported for .NET project types excluding WPF and UWP.
+If you want to view call counts in the Functions view, you can enable the setting before you start the profiler. This setting is supported for .NET project types and requires launching the process under the profiler. The attach scenario is not supported.
 
 1. Select the **Settings** icon for CPU Usage in the Performance Profiler.
 
