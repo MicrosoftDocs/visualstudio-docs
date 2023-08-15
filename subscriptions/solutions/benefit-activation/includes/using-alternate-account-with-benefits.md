@@ -1,11 +1,12 @@
 ---
 title: How do I activate benefits with an alternate account?
 description: How to use an alternate identity with Visual Studio subscriptions benefits
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 595cec83-3939-4030-bcf2-73249f0b3c1a
 author: larissacrawford
 ms.author: amast
-ms.date: 4/05/2023
+ms.date: 08/15/2023
 user.type: subscriber
 tags: benefit
 subscription.type: vl, cloud, retail, partner
@@ -17,4 +18,4 @@ The email associated with your Visual Studio subscription is the only sign-in op
 
 Read more about [how to use alternate account](https://learn.microsoft.com/visualstudio/subscriptions/vs-alternate-identity).
 
-If you're having trouble using it or have additional questions, open a case with Visual Studio Subscriptions support by clicking the "Online request" link on this page.
+If you're having trouble using it or have other questions, open a case with Visual Studio Subscriptions support by clicking the "Online request" link on this page.

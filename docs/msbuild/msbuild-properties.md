@@ -1,7 +1,7 @@
 ---
 title: MSBuild Properties | Microsoft Docs
 description: Learn how MSBuild name-value property pairs can pass values to tasks, evaluate conditions, and store values.
-ms.date: 06/13/2022
+ms.date: 08/15/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, properties
