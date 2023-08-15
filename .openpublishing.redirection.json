@@ -466,6 +466,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/how-to-page-up-or-down-in-memory.md",
+      "redirect_url": "/visualstudio/debugger/how-to-use-the-disassembly-window",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/debugging-and-the-hosting-process.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/debugging-and-the-hosting-process",
       "redirect_document_id": false
