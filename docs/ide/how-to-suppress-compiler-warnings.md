@@ -157,7 +157,7 @@ To suppress warnings by editing the project file:
    </PropertyGroup>
    ```
 
-   The use of the property reference is helpful since this would add those numbers to any previously set value for `NoWarn` rather than overwriting it.
+   Referencing the previous value of `$(NoWarn)` as shown in the previous example adds those numbers to any previously set value for `NoWarn`, rather than overwriting it.
 
 See [NoWarn](/dotnet/csharp/language-reference/compiler-options/errors-warnings#nowarn).
 
