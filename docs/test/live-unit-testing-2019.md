@@ -15,15 +15,14 @@ monikerRange: 'vs-2019'
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-As you're developing an application, Live Unit Testing automatically runs any affected unit tests in the background and presents the results and code coverage in real time. As you modify your code, Live Unit Testing provides feedback on how your changes affected existing tests and whether the new code you added is covered by one or more existing tests. This feedback reminds you to write unit tests as you make bug fixes or add new features.
+While you develop an application, Live Unit Testing automatically runs any affected unit tests in the background and presents the results and code coverage in real time. When you modify your code, Live Unit Testing provides feedback on how your changes affected existing tests and whether the new code you added is covered by one or more existing tests. This feedback reminds you to write unit tests as you make bug fixes or add new features.
 
 > [!NOTE]
 > Starting in Visual Studio 2022 version 17.3, Live Unit Testing has been updated. For new content, see [Configure and use Live Unit Testing during application development](./live-unit-testing.md).
 
 When you use Live Unit Testing for your tests, it persists data about the status of your tests. Using persisted data allows Live Unit Testing to offer superior performance while running your tests dynamically in response to code changes.
 
-> [!NOTE]
-> Live Unit Testing is available for C# and Visual Basic projects that target .NET Core or .NET Framework in the Enterprise edition of Visual Studio.
+Live Unit Testing is available for C# and Visual Basic projects that target .NET Core or .NET Framework in the Enterprise edition of Visual Studio.
 
 ## Supported test frameworks
 
@@ -46,8 +45,7 @@ In some cases, you might need to explicitly restore the NuGet packages reference
 
 Configure Live Unit Testing by selecting **Tools** > **Options** on the top-level Visual Studio menu bar. Then in the left pane of the **Options** dialog, select **Live Unit Testing**.
 
-> [!TIP]
-> After Live Unit Testing is enabled (see the next section, [Start, pause, and stop Live Unit Testing](#start-pause-and-stop)), you can also open the **Options** dialog. Select **Test** > **Live Unit Testing** > **Options**.
+After Live Unit Testing is enabled (see the next section, [Start, pause, and stop](#start-pause-and-stop)), you can also open the **Options** dialog. Select **Test** > **Live Unit Testing** > **Options**.
 
 The following image shows the Live Unit Testing configuration options available in the dialog.
 
@@ -82,8 +80,7 @@ To enable Live Unit Testing, select **Test** > **Live Unit Testing** > **Start**
 
 - **Stop** completely stops Live Unit Testing. Live Unit Testing discards all data that it collected.
 
-> [!NOTE]
-> If you start Live Unit Testing in a solution that doesn't include a unit test project, the **Pause** and **Stop** options appear on the **Live Unit Testing** menu, but Live Unit Testing doesn't start. The **Output** window displays a message that begins, "No supported test adapters are referenced by this solution...".
+If you start Live Unit Testing in a solution that doesn't include a unit test project, the **Pause** and **Stop** options appear on the **Live Unit Testing** menu, but Live Unit Testing doesn't start. The **Output** window displays a message that begins, "No supported test adapters are referenced by this solution...".
 
 At any time, you can temporarily pause or completely stop Live Unit Testing. You might want to take these actions, for example, if you're in the middle of refactoring and know that your tests will be broken for a while.
 
@@ -133,8 +130,7 @@ For example, the test failure shown in the previous image was caused by an incor
 
 **Live Unit Testing**, similar to **Test Explorer**, provides an interface that lets you run and debug tests and analyze test results. When Live Unit Testing is enabled, the status of unit tests in **Test Explorer** is updated immediately. You don't need to explicitly run the unit tests. When Live Unit Testing isn't enabled or is stopped, **Live Unit Testing** displays the status of unit tests the last time a test was run. After you restart Live Unit Testing, a source code change is required to rerun the tests.
 
-> [!TIP]
-> Start Live Unit Testing by selecting **Test** > **Live Unit Testing** > **Start** on the top-level Visual Studio menu. You can also open the **Live Unit Testing** window by using **View** > **Other Windows** > **Live Unit Testing** window.
+You can start Live Unit Testing by selecting **Test** > **Live Unit Testing** > **Start** on the top-level Visual Studio menu. You can also open the **Live Unit Testing** window by using **View** > **Other Windows** > **Live Unit Testing** window.
 
 You might notice in the **Live Unit Testing** window that some tests are faded out. For example, when you stop and restart Live Unit Testing, the **Live Unit Testing** window fades out all the tests, as the following image shows.
 
