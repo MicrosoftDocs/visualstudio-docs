@@ -164,7 +164,7 @@ Typically, you add the test dependencies for one of two reasons:
 > [!Note]
 > Test dependencies must exist within the directory specified as **Repository Root** in the setup wizard.
 
-In both cases, Live Unit Testing by default won't copy these files for the purpose of minimizing the amount of files that have to be copied to run a test. You need to explicitly specify these files by using the `LiveUnitTestingTestDependency` property if they're needed for a test run. For example, let's say that we have the following layout:
+In both cases, Live Unit Testing by default won't copy these files for the purpose of minimizing the number of files that have to be copied to run a test. You need to explicitly specify these files by using the `LiveUnitTestingTestDependency` property if they're needed for a test run. For example, let's say that we have the following layout:
 
 ```
 SRC/
