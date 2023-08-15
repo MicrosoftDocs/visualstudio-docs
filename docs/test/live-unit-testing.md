@@ -65,7 +65,7 @@ By default, Live Unit Testing excludes one of the two patterns of files:
 - For Git repositories, files specified in the *gitignore* file aren't copied to the Live Unit Testing workspace.
 - For non-Git repositories, a basic list of folders, such as *bin/* and *obj/*, aren't copied to the Live Unit Testing workspace.
 
-For more complex repositories, you might need to specify your own ignore file. Select the “&lt;Custom&gt;” option from the wizard. After you select **Next**, the content of a custom ignore file that Live Unit Testing creates after you finish the wizard appears. It's the *lutignore* file.
+For more complex repositories, you might need to specify your own ignore file. Select the "&lt;Custom&gt;" option from the wizard. After you select **Next**, the content of a custom ignore file that Live Unit Testing creates after you finish the wizard appears. It's the *lutignore* file.
 
 > [!NOTE]
 > A custom *lutignore* file is needed for some Git repositories because it's possible to check files into the Git repository that are also ignored by the *gitignore* file. Without a custom *lutignore* file, Live Unit Testing won't copy these files, which might lead to build failures.
@@ -112,7 +112,7 @@ The last part of the wizard configuration page is where you set up the test run 
 
 ### More configuration
 
-Configure Live Unit Testing by selecting **Tools** > **Options** on the top-level Visual Studio menu bar. On the left pane of the **Options** dialog, select **Live Unit Testing** .
+Configure Live Unit Testing by selecting **Tools** > **Options** on the top-level Visual Studio menu bar. On the left pane of the **Options** dialog, select **Live Unit Testing**.
 
 After Live Unit Testing is enabled (see [Start, pause, and stop Live Unit Testing](#start-pause-and-stop)), you can also open the **Options** dialog by selecting **Test** > **Live Unit Testing** > **Options**.
 
@@ -175,7 +175,7 @@ ARTIFACTS/
   TEST_PROJECT/NET472/DEBUG/
 ```
 
-By default, when you build these projects with Live Unit Testing, it only copies `Artifacts/Test_Project` to the test folder. To add sources or the console_utility to the test folder, add the following sample to the `test_project.csproj`:
+By default, when you build these projects with Live Unit Testing, it only copies `Artifacts/Test_Project` to the test folder. To add sources or the console_utility to the test folder, add the following sample to `test_project.csproj`:
 
 ```
 <LiveUnitTestingTestDependency Include=”$(RepoRoot)/Src/ConsoleUtility” />
