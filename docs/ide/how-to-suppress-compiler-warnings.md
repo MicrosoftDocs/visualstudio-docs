@@ -141,9 +141,9 @@ For more information, see the [/nowarn compiler option](/dotnet/visual-basic/ref
 ## Suppress a warning by editing the project file
 
 Using the Visual Studio property designer to suppress warnings results in a change to the project file.
-At times, it can be more convenient to hand-edit the project file to accomplish the task of disabling a warning. Additionally, MSBuild warnings (error codes with the `MSB` prefix) can't be suppressed in any other way.
+At times, it can be more convenient to hand-edit the project file to accomplish the task of disabling a warning. The project file is processed by MSBuild, Microsoft's build engine. See [MSBuild](msbuild.md).
 
-To suppress warnings by editing the project file:
+Also, in Visual Studio 2019 version 16.7 and earlier, MSBuild warnings (error codes with the `MSB` prefix) can't be suppressed in any other way.
 
 1. To open the project file in the Visual Studio editor, right-click on the project node, and choose **Edit project file**. Some project types require you to unload the project before you can edit the project file. If you need to unload the project, right-click on the project node and choose **Unload project**.
 1. In a new `PropertyGroup` section, use the `NoWarn` property. List the errors you want to suppress, separated by commas or semicolons. For compiler warnings, you can omit the language code and enter only the number, but for clarity, we recommend using the full code. For MSBuild warnings, specify the full code, including the `MSB` prefix.
@@ -203,7 +203,7 @@ When possible, use the more explicit property, because an error code by itself i
 
 ## Suppress warnings for NuGet packages
 
-In some cases, you may want to suppress NuGet compiler warnings for a single NuGet package, instead of for an entire project. The warning serves a purpose, so you don't want to suppress it at the project level. For example, one of the NuGet warnings tells you that the package may not be fully compatible with your project. If you suppress it at the project level and later add an additional NuGet package, you would never know if it was producing the compatibility warning.
+In some cases, you might want to suppress NuGet compiler warnings for a single NuGet package, instead of for an entire project. The warning serves a purpose, so you don't want to suppress it at the project level. For example, one of the NuGet warnings tells you that the package may not be fully compatible with your project. If you suppress it at the project level and later add an additional NuGet package, you would never know if it was producing the compatibility warning.
 
 ### To suppress a specific warning for a single NuGet package
 
