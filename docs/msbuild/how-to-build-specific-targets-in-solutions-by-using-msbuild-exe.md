@@ -21,7 +21,7 @@ You can use *MSBuild.exe* to build specific targets of specific projects in a so
 
 ## To build a specific target of a specific project in a solution
 
-1. At the command line, change directory to the solution folder and type `MSBuild.exe <SolutionName>.sln`. Use your solution name.
+1. At the command line, change directory to the solution folder and type `MSBuild.exe <SolutionName>.sln`, but don't hit enter yet. Use your solution name.
 
 2. Specify the target after the `-target:` switch in the format \<ProjectName>:\<TargetName>. If the project name contains any of the characters `%`, `$`, `@`, `;`, `.`, `(`, `)`, or `'`, replace them with an `_` in the specified target name.
 
