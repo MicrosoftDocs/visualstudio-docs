@@ -50,4 +50,4 @@ Certain properties should be set the same way for all managed debugging scenario
 
 ## See also
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
-- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
+- [Managed debugging: Recommended project settings](../debugger/managed-debugging-recommended-property-settings.md)

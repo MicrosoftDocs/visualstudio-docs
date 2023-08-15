@@ -428,8 +428,6 @@
       items:
       - name: Debugging preparation
         items:
-        - name: 'Debugging preparation: .NET'
-          href: debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md
         - name: Recommended property settings
           href: managed-debugging-recommended-property-settings.md
         - name: 'Debugging preparation: Windows Forms applications'

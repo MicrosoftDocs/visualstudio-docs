@@ -71,5 +71,5 @@ Debug.Fail("a clever output string goes here")
 ## See also
 
 - [Debugger Security](debugger-security.md)
-- [C#, F#, and Visual Basic Project Types](debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
+- [Managed debugging: Recommended project settings](managed-debugging-recommended-property-settings.md)
 - [Debugging Managed Code](debugging-managed-code.md)

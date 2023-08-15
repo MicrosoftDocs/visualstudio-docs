@@ -466,6 +466,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md",
+      "redirect_url": "/visualstudio/debugger/managed-debugging-recommended-property-settings",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/graphics/0x-2x-4x-msaa-variants.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/0x-2x-4x-msaa-variants",
       "redirect_document_id": false
