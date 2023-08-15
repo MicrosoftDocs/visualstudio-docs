@@ -1,11 +1,12 @@
 ---
 title: How do I activate my monthly Azure credit?
-description: How do I activate the monthly Azure credit included with my Visual Studio subscription? 
+description: Learn how to activate the monthly Azure credit included with your Visual Studio subscription.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: aa53b1d3-8e88-4d8c-8385-23f15a7b660b
 author: larissacrawford
 ms.author: amast
-ms.date: 04/27/2023
+ms.date: 08/15/2023
 user.type: subscriber
 tags: benefit, azure
 subscription.type: vl, cloud, retail, partner
@@ -16,7 +17,7 @@ sap.id: 8dedd10e-cb1c-2eb1-bcda-fe00b07ac903
 
 1. Sign in to the [subscriber portal](https://my.visualstudio.com/benefits) 
 1. Locate the Azure tile for the monthly credit on the Benefits page, and select the Activate link at the bottom of the benefit tile. If you can’t locate the Azure monthly credit tile, use the [benefits comparison page](https://visualstudio.microsoft.com/vs/benefits/#azure?cat=visual-studio-enterprise-subscription) to verify that your subscription includes a monthly credit. 
-1. If you don't have an existing Azure subscription, you'll be asked to fill in the required personal information to create one.  
+1. If you don't have an existing Azure subscription, you're asked to fill in the required personal information to create one.  
 1. Accept the subscriptions agreement and you’re ready to go. In the future, you can access your Azure subscription at [portal.azure.com](https://portal.azure.com/). 
 
 Read the [full activation instructions](https://learn.microsoft.com/azure/devtest/offer/quickstart-individual-credit#sign-in-through-visual-studio-myvisualstudiocombenefits).
