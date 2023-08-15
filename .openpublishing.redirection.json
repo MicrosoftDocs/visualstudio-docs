@@ -466,6 +466,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/how-to-use-edit-and-continue-csharp.md",
+      "redirect_url": "/visualstudio/debugger/edit-and-continue-visual-csharp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-apply-edits-in-break-mode-with-edit-and-continue.md",
+      "redirect_url": "/visualstudio/debugger/edit-and-continue-visual-basic",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/how-to-page-up-or-down-in-memory.md",
       "redirect_url": "/visualstudio/debugger/how-to-use-the-disassembly-window",
       "redirect_document_id": false
