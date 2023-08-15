@@ -1,7 +1,7 @@
 ---
 title: ClickOnce for .NET 5 and later on Windows
 description: "Learn about differences between ClickOnce for .NET Core 3.1, .NET 5 and later versus ClickOnce for .NET Framework."
-ms.date: 11/22/2022
+ms.date: 08/14/2023
 ms.topic: how-to
 helpviewer_keywords:
   - "deployment, ClickOnce for .NET 5+"
@@ -37,7 +37,9 @@ Starting in .NET 7, you can access properties in the `ApplicationDeployment` cla
 
 ## Mage.exe
 
-In .NET Core 3.1 and .NET 5 and later, use *dotnetmage.exe* instead of [Mage.exe](../deployment/clickonce-security-and-deployment.md#clickonce-tools) to create the ClickOnce deployment.
+In .NET Core 3.1 and .NET 5 and later, use *dotnet-mage.exe* instead of [Mage.exe](../deployment/clickonce-security-and-deployment.md#clickonce-tools) to create the ClickOnce deployment.
+
+To access activation data using *dotnet-mage.exe*, see [Access ClickOnce activation data for .NET](../deployment/access-clickonce-activation-data-dotnet.md).
 
 ## Unsupported Publish properties on .NET Core 3.1 and .NET 5 and later
 
