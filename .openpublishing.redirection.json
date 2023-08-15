@@ -466,6 +466,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/debugging-and-the-hosting-process.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/debugging-and-the-hosting-process",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md",
       "redirect_url": "/visualstudio/debugger/managed-debugging-recommended-property-settings",
       "redirect_document_id": false
