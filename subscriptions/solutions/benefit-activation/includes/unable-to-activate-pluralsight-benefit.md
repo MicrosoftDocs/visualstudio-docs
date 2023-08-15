@@ -1,11 +1,12 @@
 ---
 title: Unable to activate my Pluralsight benefit
 description: I'm having issues with my Pluralsight benefit included with my Visual Studio subscription
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 7e5d8886-538c-4e29-9c4c-8989cf4e09dd
 author: larissacrawford
 ms.author: amast
-ms.date: 04/28/2023
+ms.date: 08/15/2023
 user.type: subscriber
 tags: benefit, pluralsight
 subscription.type: vl, cloud, retail, partner

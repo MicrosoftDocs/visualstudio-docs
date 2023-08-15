@@ -1,11 +1,12 @@
 ---
 title: Getting an error while trying to activate my Azure monthly credit
-description: I'm getting an error while trying to activate my Azure monthly credit included with my Visual Studio subscription.
+description: Learn what to do if you encounter an error while activating monthly Azure credits.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: eed8114a-651a-47e2-bb24-130acd2a76d0
 author: larissacrawford
 ms.author: amast
-ms.date: 04/27/2023
+ms.date: 08/15/2023
 user.type: subscriber
 tags: benefit, azure
 subscription.type: vl, cloud, retail, partner
@@ -22,6 +23,6 @@ If you receive the error "You can't activate this Visual Studio benefit more tha
 
 When you activate your monthly credit, we link the email that you used during activation with your Visual Studio subscription.  
 
-You may have associated an [alternate account](https://learn.microsoft.com/visualstudio/subscriptions/vs-alternate-identity) with your Visual Studio subscription. Adding an alternate account to your Visual Studio subscription allows you to access the subscription benefits, like Azure DevOps and Azure, with a different identity than that which the subscription is assigned to.  
+You may have associated an [alternate account](https://learn.microsoft.com/visualstudio/subscriptions/vs-alternate-identity) with your Visual Studio subscription. Adding an alternate account to your Visual Studio subscription allows you to access some subscription benefits with a different identity than that which the subscription is assigned to.  
 
 You need to sign into the [Azure portal](https://portal.azure.com/) with the email you set up the account with. For example, if you activated your monthly credit with your alternate account, you must always sign into your Azure subscription with that email. You can check if you've added an alternate account at the bottom of the [subscriptions page](https://my.visualstudio.com/subscriptions) in the portal.

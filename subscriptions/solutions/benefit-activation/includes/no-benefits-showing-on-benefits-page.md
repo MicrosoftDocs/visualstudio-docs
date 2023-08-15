@@ -1,11 +1,12 @@
 ---
 title: There are no benefits showing on the benefits page in the subscriptions portal
-description: I don't see any Visual Studio subscription benefits in the portal
+description: Learn why you might not see any Visual Studio subscription benefits in the portal
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 6c908d36-ea52-4b6a-a63a-e4fee977c83c
 author: larissacrawford
 ms.author: amast
-ms.date: 4/05/2023
+ms.date: 08/15/2023
 user.type: subscriber
 tags: benefit
 subscription.type: vl, cloud, retail, partner
