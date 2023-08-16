@@ -187,7 +187,7 @@ Install [Python support in Visual Studio](../python/overview-of-python-tools-for
 
 - [Django and SQL Database on Azure](/azure/app-service/app-service-web-get-started-python)
 - [Django and MySQL on Azure](/azure/app-service-web/web-sites-python-ptvs-django-mysql)
-- Work with [blobs](/azure/storage/blobs/storage-quickstart-blobs-python), [files](/azure/storage/files/storage-python-how-to-use-file-storage), [queues](/azure/storage/queues/storage-python-how-to-use-queue-storage), and [tables (Cosmo DB)](/azure/cosmos-db/table-storage-how-to-use-python).
+- Work with [blobs](/azure/storage/blobs/storage-quickstart-blobs-python), [files](/azure/storage/files/storage-python-how-to-use-file-storage), [queues](/azure/storage/queues/storage-quickstart-queues-python), and [tables (Cosmo DB)](/azure/cosmos-db/table-storage-how-to-use-python).
 
 ## Related topics
 
