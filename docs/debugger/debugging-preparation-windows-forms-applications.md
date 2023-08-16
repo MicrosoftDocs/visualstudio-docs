@@ -65,7 +65,7 @@ The Windows Forms App project template creates a Windows Forms application. Debu
 
 ## See also
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
-- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
+- [Managed debugging: Recommended project settings](../debugger/managed-debugging-recommended-property-settings.md)
 - [How to: Set Debug and Release Configurations](../debugger/how-to-set-debug-and-release-configurations.md)
 - [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)
 - [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
