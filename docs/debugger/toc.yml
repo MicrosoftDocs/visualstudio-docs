@@ -160,8 +160,6 @@
       href: debugging-preparation-console-projects.md
     - name: Debug an executable not part of a Visual Studio solution
       href: how-to-debug-an-executable-not-part-of-a-visual-studio-solution.md
-    - name: Debugging and the hosting process
-      href: debugging-and-the-hosting-process.md
     - name: Specify a .NET Framework version for debugging
       href: how-to-specify-a-dotnet-framework-version-for-debugging.md
   - name: Custom views
