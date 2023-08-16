@@ -1,11 +1,12 @@
 ---
 title: I can't find the IDE feature I want to use
 description: If you can't find the IDE feature you want to use, you may be using the incorrect version of Visual Studio
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 986a4c63-610b-4d33-8b22-48452964da8b
 author: evanwindom
 ms.author: amast
-ms.date: 05/01/2023
+ms.date: 08/16/2023
 user.type: subscriber
 tags: download, activate, licensing
 subscription.type: vl, cloud, retail, partner

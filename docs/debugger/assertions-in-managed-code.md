@@ -243,5 +243,5 @@ Trace.Assert(stacksize > 0, "Out of stack space. Bytes left:", "inctemp failed o
 - [Debugger Security](../debugger/debugger-security.md)
 - [Tracing and Instrumenting Applications](/dotnet/framework/debug-trace-profile/tracing-and-instrumenting-applications)
 - [How to: Compile Conditionally with Trace and Debug](/dotnet/framework/debug-trace-profile/how-to-compile-conditionally-with-trace-and-debug)
-- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
+- [Managed debugging: Recommended project settings](../debugger/managed-debugging-recommended-property-settings.md)
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
