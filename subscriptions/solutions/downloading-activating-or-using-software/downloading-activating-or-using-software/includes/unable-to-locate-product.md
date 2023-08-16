@@ -1,11 +1,12 @@
 ---
 title: Unable to locate a product
 description: I'm unable to locate a product to download with my Visual Studio subscription.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: a3635d25-8f9d-4cf8-a9c3-db41d155f989
 author: evanwindom
 ms.author: amast
-ms.date: 04/28/2023
+ms.date: 08/16/2023
 user.type: subscriber
 tags: download, activate
 subscription.type: vl, cloud, retail, partner
