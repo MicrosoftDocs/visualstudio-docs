@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docs/data-tools/walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/deployment/how-to-automatically-increment-the-clickonce-publish-version.md",
       "redirect_url": "/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files",
       "redirect_document_id": false
