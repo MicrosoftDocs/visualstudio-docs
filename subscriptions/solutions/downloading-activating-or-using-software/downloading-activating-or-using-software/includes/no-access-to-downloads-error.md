@@ -1,11 +1,12 @@
 ---
 title: You don't have access to downloads error is showing on the Downloads tab
 description: Why you may see the "You don't have access to downloads" error on Downloads tab in subscriptions portal
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: fac62be6-ac8a-4e78-9698-9d8fa2ca27fb
 author: larissacrawford
 ms.author: amast
-ms.date: 04/28/2023
+ms.date: 08/16/2023
 user.type: subscriber
 tags: downloads
 subscription.type: vl, cloud, retail, partner
