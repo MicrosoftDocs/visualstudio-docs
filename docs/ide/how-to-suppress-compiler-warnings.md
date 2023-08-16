@@ -140,8 +140,7 @@ For more information, see the [/nowarn compiler option](/dotnet/visual-basic/ref
 
 ## Suppress a warning by editing the project file
 
-Using the Visual Studio property designer to suppress warnings results in a change to the project file.
-At times, it can be more convenient to hand-edit the project file to accomplish the task of disabling a warning. The project file is processed by MSBuild, Microsoft's build engine. See [MSBuild](msbuild.md).
+Using the Visual Studio property designer to suppress warnings results in a change to the project file. At times, it can be more convenient to hand-edit the project file to accomplish the task of disabling a warning. The project file is processed by MSBuild, Microsoft's build engine. See [MSBuild](../msbuild/msbuild.md).
 
 Also, in Visual Studio 2019 version 16.7 and earlier, MSBuild warnings (error codes with the `MSB` prefix) can't be suppressed in any other way.
 
