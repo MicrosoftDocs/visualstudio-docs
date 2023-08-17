@@ -1,10 +1,11 @@
 ---
 title: My agreement was renewed, but the subscribers didn’t transfer
 description: The super admin or admin expected the subscribers on the new agreement but they’re not reflecting there
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.assetid: a95181b0-b64c-4c29-a90e-928962c06d81
 author: evanwindom 
 ms.author: amast 
-ms.date: 05/02/2023
+ms.date: 08/17/2023
 user.type: admin 
 tags: renewal, transfer
 subscription.type: vl, cloud, retail, partner 

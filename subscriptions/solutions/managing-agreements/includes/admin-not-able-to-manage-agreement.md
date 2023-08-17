@@ -1,11 +1,12 @@
 ---
 title: I’m unable to manage my agreement
 description: The super admin or admin had permissions to the agreement to manage it, but they no longer can access it because the agreement has expired.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 1e42ee75-fbf6-4dce-b844-44f94efb80d6
 author: evanwindom
 ms.author: amast
-ms.date: 05/02/2023
+ms.date: 08/16/2023
 user.type: admin
 tags: agreement
 subscription.type: vl, cloud, retail, partner
