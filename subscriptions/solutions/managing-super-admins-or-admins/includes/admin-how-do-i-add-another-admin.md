@@ -1,11 +1,12 @@
 ---
 title: How can I add another super admin or admin?
 description: An admin wants to add another admin to the agreement.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: bd89a871-2f8b-405f-9a49-b0338063f8f1
 author: evanwindom
 ms.author: amast
-ms.date: 05/03/2023
+ms.date: 08/17/2023
 user.type: admin
 tags: super, admin
 subscription.type: vl, cloud, retail, partner
