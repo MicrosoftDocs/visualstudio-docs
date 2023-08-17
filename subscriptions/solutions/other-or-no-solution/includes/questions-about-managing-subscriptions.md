@@ -1,11 +1,12 @@
 ---
 title: Questions about managing subscriptions on manage.visualstudio.com
 description: Where to get assistance with management of subscriptions 
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 42009ea6-f7ba-4bc3-978a-55d566753408
 author: larissacrawford
 ms.author: amast
-ms.date: 05/22/2023
+ms.date: 08/17/2023
 user.type: subscriber
 tags: no-solution
 subscription.type: vl, cloud, retail, partner
