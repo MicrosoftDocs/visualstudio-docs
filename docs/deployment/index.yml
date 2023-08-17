@@ -37,8 +37,6 @@ landingContent:
             url: quickstart-deploy-aspnet-web-app.md
           - text: Get publish settings from IIS
             url: tutorial-import-publish-settings-iis.md
-          - text: Azure App Service
-            url: /azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app
           - text: Publish with Git
             url: /azure/app-service/deploy-continuous-deployment
 
