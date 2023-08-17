@@ -6,7 +6,7 @@
   items:
   - name: Connected Services
     href: overview-connected-services.md
-  - name: Publish to Azure
+  - name: About Azure in Visual Studio
     href: overview-azure-integration.md
 - name: Connect to Azure services
   items:

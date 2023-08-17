@@ -11,7 +11,7 @@ ms.date: 08/01/2022
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
-# Overview: Connected Services
+# About Connected Services
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
