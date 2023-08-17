@@ -44,7 +44,7 @@ This article provides a high-level overview of visualizer creation. For detailed
 
 You can write a custom visualizer for an object of any managed class except for <xref:System.Object> and <xref:System.Array>.
 
-The architecture of a debugger visualizer has two parts:
+The [architecture](../debugger/visualizer-architecture.md) of a debugger visualizer has two parts:
 
 - The *debugger side* runs within the Visual Studio debugger, and creates and displays the visualizer user interface.
 
