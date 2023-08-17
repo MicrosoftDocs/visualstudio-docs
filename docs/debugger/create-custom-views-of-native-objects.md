@@ -1,7 +1,7 @@
 ---
 title: Create custom views of C++ objects
 description: Use the Natvis framework to customize the way that Visual Studio displays native types in the debugger
-ms.date: 08/18/2022
+ms.date: 08/17/2023
 ms.topic: how-to
 f1_keywords: 
   - natvis
@@ -207,7 +207,10 @@ The errors appear in the **Output** window.
 
 ## <a name="BKMK_Syntax_reference"></a> Natvis syntax reference
 
+The following elements and attributes can be used in the Natvis file.
+
 ### <a name="BKMK_AutoVisualizer"></a> AutoVisualizer element
+
 The `AutoVisualizer`  element is the root node of the *.natvis* file, and contains the namespace `xmlns:` attribute.
 
 ```xml
