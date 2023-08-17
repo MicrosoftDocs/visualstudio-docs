@@ -1,10 +1,11 @@
 ---
 title: Where can I find out the status of a new or existing agreement?
 description: The super admin or admin is trying to locate the status of a new agreement
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.assetid: b1bca6ef-1f5f-40df-bef1-13054d3cbb3a  
 author: evanwindom 
 ms.author: amast 
-ms.date: 05/02/2023
+ms.date: 08/16/2023
 user.type: admin 
 tags: agreement, status
 subscription.type: vl, cloud, retail, partner 
