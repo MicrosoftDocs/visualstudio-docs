@@ -1,11 +1,12 @@
 ---
 title: Renew Visual Studio subscriptions through Azure Dev Tools for Teaching
 description: Help and resources for renewing Visual Studio subscriptions through Azure Dev Tools for Teaching.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 47a1faa1-87fc-48e5-8d8d-c8c9cf6d4890
 author: larissacrawford
 ms.author: amast
-ms.date: 05/03/2023
+ms.date: 08/17/2023
 user.type: subscriber, admin
 tags: renewal
 subscription.type: Azure Dev Tools for Teaching
