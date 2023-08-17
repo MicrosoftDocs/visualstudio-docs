@@ -102,10 +102,10 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 11. Make sure the remote debugger is running on the target machine (If it's not, search for **Remote Debugger** in the **Start** menu). The remote debugger window looks like this.
 
     ::: moniker range=">= vs-2022"
-    ![Remote Debugger window](../debugger/media/vs-2022/remote-debugger-window.png "Remote Debugger window")
+    ![Remote Debugger window for VS 2022](../debugger/media/vs-2022/remote-debugger-window.png "Remote Debugger window")
     ::: moniker-end
     ::: moniker range="<= vs-2019"
-    ![Remote Debugger window](../debugger/media/remotedebuggerwindow.png "Remote Debugger window")
+    ![Remote Debugger window for VS 2019](../debugger/media/remotedebuggerwindow.png "Remote Debugger window")
     ::: moniker-end
 
 12. In Visual Studio, start debugging (**Debug > Start Debugging**, or **F5**).
