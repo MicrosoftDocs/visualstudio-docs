@@ -1,14 +1,15 @@
 ## YamlMime:Landing
 title: Azure development with Visual Studio
+summary: Learn how to connect your apps to Azure services, deploy your apps and services to Azure, and develop Azure cloud services.
 metadata:
   title: Azure development with Visual Studio
-  description: Tutorials and conceptual articles about connecting apps and services to Azure and developing services that run in the Azure cloud.
+  description: Tutorials and conceptual articles about using Visual Studio to connect apps and services to Azure and develop services that run in the Azure cloud.
   author: ghogen
   manager: jmartens
   ms.prod: visual-studio-windows
   ms.technology: vs-azure
   ms.topic: landing-page
-  ms.date: 10/27/2021
+  ms.date: 08/17/2023
   ms.author: ghogen
 
 landingContent:
