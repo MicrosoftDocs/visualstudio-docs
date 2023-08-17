@@ -1,7 +1,7 @@
 ---
 title: About the GitHub Copilot extension for Visual Studio
 description: Use Visual Studio and the GitHub Copilot extension together to take advantage of AI and generate detailed info about your code, along with suggested edits, and even new code snippets, too. 
-ms.date: 08/03/2023
+ms.date: 08/10/2023
 ms.topic: overview 
 ms.custom: template-overview
 author: TerryGLee
@@ -27,6 +27,12 @@ GitHub Copilot works by utilizing advanced machine learning models trained on a 
 :::image type="content" source="media/vs-2022/github-copilot-extension-example.gif" alt-text="Animated screenshot that shows the code completion capabilities of the GitHub Copilot extension.":::
 
 You can also use GitHub Copilot to convert comments to code, create unit tests, create SQL queries, and more. 
+
+## Exploring GitHub Copilot Chat
+
+To see GitHub Copilot in action, check out the following video tutorial. <br><br>*Video length: 1.19 minutes*
+
+> [!VIDEO https://www.youtube.com/embed/kc_A12G4Elk]
 
 ## How GitHub Copilot compares to IntelliSense and IntelliCode
 
@@ -68,3 +74,4 @@ To learn more about the current GitHub Copilot extension for Visual Studio, cons
 
 - [GitHub Copilot extension: Getting started](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=visualstudio)
 - [GitHub Copilot: Your AI pair programmer](https://github.com/features/copilot)
+- [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/)

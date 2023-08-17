@@ -1,11 +1,12 @@
 ---
 title: Windows developer technical support
 description: Get technical support for Windows developer benefit
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 92d406c7-96e1-45a9-8259-d07d2a04a23e 
 author: evanwindom
 ms.author: amast
-ms.date: 05/01/2023
+ms.date: 08/16/2023
 user.type: subscriber
 tags: redirect
 subscription.type: vl, cloud, retail, partner

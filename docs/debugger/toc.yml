@@ -75,11 +75,7 @@
   - name: View .NET collections in a tabular visualizer
     href: view-data-in-tabular-visualizer.md
   - name: Disassembly code
-    items:
-    - name: View disassembly code
-      href: how-to-use-the-disassembly-window.md
-    - name: Page up or down in memory
-      href: how-to-page-up-or-down-in-memory.md
+    href: how-to-use-the-disassembly-window.md
   - name: Register values
     items:
     - name: View register values
@@ -164,8 +160,6 @@
       href: debugging-preparation-console-projects.md
     - name: Debug an executable not part of a Visual Studio solution
       href: how-to-debug-an-executable-not-part-of-a-visual-studio-solution.md
-    - name: Debugging and the hosting process
-      href: debugging-and-the-hosting-process.md
     - name: Specify a .NET Framework version for debugging
       href: how-to-specify-a-dotnet-framework-version-for-debugging.md
   - name: Custom views
@@ -240,16 +234,10 @@
       items:
       - name: Edit and Continue for C#
         href: edit-and-continue-visual-csharp.md
-      - name: Use Edit and Continue (C#)
-        href: how-to-use-edit-and-continue-csharp.md
       - name: Supported Code Changes
         href: supported-code-changes-csharp.md
     - name: Edit and Continue (Visual Basic)
-      items:
-      - name: Edit and Continue for Visual Basic
-        href: edit-and-continue-visual-basic.md
-      - name: Apply edits in break mode with Edit and Continue
-        href: how-to-apply-edits-in-break-mode-with-edit-and-continue.md
+      href: edit-and-continue-visual-basic.md
     - name: Edit and Continue not supported for F#
       href: edit-and-continue-not-supported-for-f-hash.md
   - name: Source code
@@ -428,8 +416,6 @@
       items:
       - name: Debugging preparation
         items:
-        - name: 'Debugging preparation: .NET'
-          href: debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md
         - name: Recommended property settings
           href: managed-debugging-recommended-property-settings.md
         - name: 'Debugging preparation: Windows Forms applications'

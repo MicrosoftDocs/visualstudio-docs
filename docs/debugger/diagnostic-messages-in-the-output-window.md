@@ -53,5 +53,5 @@ The **Output** window can also display information about:
 - [Debugger security](../debugger/debugger-security.md)
 - [Output window](../ide/reference/output-window.md)
 - [Trace and instrument applications](/dotnet/framework/debug-trace-profile/tracing-and-instrumenting-applications)
-- [C#, F#, and Visual Basic project types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
+- [C#, F#, and Visual Basic project types](../debugger/managed-debugging-recommended-property-settings.md)
 - [Debugging managed code](../debugger/debugging-managed-code.md)
