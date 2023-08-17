@@ -1,6 +1,6 @@
 ---
 title: GitHub Actions
-description: Learn about how you can develop GitHub Actions in Visual Studio
+description: Learn about how you can set up CI/CD deployment to Azure using GitHub Actions in Visual Studio
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
@@ -11,7 +11,7 @@ ms.date: 12/06/2021
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
-# An overview of the GitHub Actions integration in Visual Studio
+# GitHub Actions deployment to Azure in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -1,6 +1,6 @@
 ---
-title: Azure integration
-description: Learn about how you can develop Azure applications and services in Visual Studio and deploy them to the cloud.
+title: Azure integration in Visual Studio
+description: Learn about how you can connect your apps to Azure services in Visual Studio and deploy them to the cloud.
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure

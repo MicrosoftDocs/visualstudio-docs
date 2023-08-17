@@ -2,7 +2,7 @@
 title: Azure Development with Visual Studio
 metadata:
   title: Azure Development
-  description: Tutorials and conceptual articles about connecting apps and services to Azure and developing Azure services.
+  description: Tutorials and conceptual articles about connecting apps and services to Azure and developing services that run in the Azure cloud.
   author: ghogen
   manager: jmartens
   ms.prod: visual-studio-windows
