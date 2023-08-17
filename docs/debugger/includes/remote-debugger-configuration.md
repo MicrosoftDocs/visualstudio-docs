@@ -20,15 +20,27 @@ translation.priority.ht:
 
    If you are planning to attach to a process which is running as an administrator, or is running under a different user account (such as IIS), right-click the **Remote Debugger** app and select **Run as administrator**. For more information, see [Run the remote debugger as an administrator](../remote-debugging-errors-and-troubleshooting.md#run-the-remote-debugger-as-an-administrator).
 
-1. The first time you start the remote debugger (or before you have configured it), the **Remote Debugging Configuration** dialog box appears.  
+1. The first time you start the remote debugger (or before you have configured it), the **Remote Debugging Configuration** wizard appears.  
   
+    ::: moniker range=">= vs-2022"
+    In most scenarios, choose **Next** until you get to the **Configure the Windows Firewall** page of the wizard.
+
+    ![Remote Debugger configuration](../media/vs-2022/remote-debugger-configuration-wizard-page.png "Remote Debugger configuration")  
+    ::: moniker-end
+    ::: moniker range="vs-2019"
     ![Remote Debugger configuration](../media/remotedebuggerconfwizardpage.png "Remote Debugger configuration")  
-  
-1. If the Windows Web Services API is not installed, which happens only on Windows Server 2008 R2, select the **Install** button.  
+
+    If the Windows Web Services API is not installed, which happens only on Windows Server 2008 R2, select the **Install** button.  
+    ::: moniker-end
   
 1. Select at least one network type you want to use the remote tools on. If the computers are connected through a domain, you must choose the first item. If the computers are connected through a workgroup or homegroup, choose the second or third item as appropriate.  
-  
-1. Select **Configure remote debugging** to configure the firewall and start the remote debugger.  
+
+   ::: moniker range=">= vs-2022"
+   Next, select **Finish** to start the remote debugger.
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   Next, select **Configure remote debugging** to start the remote debugger.  
+   ::: moniker-end
   
 1. When configuration is complete, the **Remote Debugger** window appears.
   
