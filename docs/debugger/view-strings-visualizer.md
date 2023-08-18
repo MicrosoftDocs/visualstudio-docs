@@ -1,7 +1,7 @@
 ---
 title: "View strings in a string visualizer | Microsoft Docs"
 description: Use the string visualizer in Visual Studio debugger to view text strings, XML, HTML, and JSON. You can view other object types, including DataSet and DataTable.
-ms.date: "04/08/2019"
+ms.date: "08/17/2023"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -25,7 +25,7 @@ ms.workload:
 
 While you are debugging in Visual Studio, you can view strings with the built-in string visualizer. The string visualizer shows strings that are too long for a data tip or debugger window. It can also help you identify malformed strings.
 
-The built-in string visualizers include plain text, XML, HTML, and JSON options. You can also open built-in visualizers for a few other types, such as [DataSet, DataTable, and DataView](../debugger/dataset-visualizer-dialog-box.md) objects, from the **Autos** or other debugger windows.
+The built-in string visualizers include plain text, XML, HTML, and JSON options. You can also open built-in tabular visualizers for a several .NET types, such as [DataSet and IEnumerable](../debugger/view-data-in-tabular-visualizer.md)) objects, from the **Autos** or other debugger windows.
 
 > [!NOTE]
 > If you need to inspect XAML or WPF UI elements in a visualizer, see or [Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md) or [How to use the WPF tree visualizer](../debugger/how-to-use-the-wpf-tree-visualizer.md).

@@ -1,11 +1,12 @@
 ---
 title: My issue isn't listed 
 description: Solution shown when 'issue not listed' category is selected or no solution is found
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: c1537b27-0ae4-4bf3-b1e4-ff05f8e14359
 author: evanwindom
 ms.author: amast
-ms.date: 05/22/2023
+ms.date: 08/17/2023
 user.type: subscriber, admin
 tags: no-solution
 subscription.type: vl, cloud, retail, partner

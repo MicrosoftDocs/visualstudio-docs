@@ -1,11 +1,12 @@
 ---
 title: Missing subscriptions
 description: The super admin or admin discovered some subscriptions removed, but they don't know who removed them.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 002442ae-e4c0-4a05-853b-fb32516b1bbc
 author: evanwindom
 ms.author: amast
-ms.date: 05/02/2023
+ms.date: 08/17/2023
 user.type: admin
 tags: missing
 subscription.type: vl, cloud, retail, partner
