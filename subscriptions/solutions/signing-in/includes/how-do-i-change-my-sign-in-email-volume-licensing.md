@@ -1,9 +1,10 @@
 ---
 title: How do I change my sign-in email for my Visual Studio subscription?
 description: How to change the sign-in email for Visual Studio subscriptions
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 author: larissacrawford
 ms.author: amast
-ms.date: 05/03/2023
+ms.date: 08/18/2023
 ms.assetid: 522e5fc5-037b-4723-a7d7-decc9c42c377
 ms.topic: include
 user.type: subscriber
