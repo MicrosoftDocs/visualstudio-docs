@@ -25,10 +25,10 @@ translation.priority.ht:
     ::: moniker range=">= vs-2022"
     In most scenarios, choose **Next** until you get to the **Configure the Windows Firewall** page of the wizard.
 
-    ![Remote Debugger configuration](../media/vs-2022/remote-debugger-configuration-wizard-page.png "Remote Debugger configuration")  
+    ![Screenshot of remote debugger configuration](../media/vs-2022/remote-debugger-configuration-wizard-page.png "Remote Debugger configuration")  
     ::: moniker-end
     ::: moniker range="vs-2019"
-    ![Remote Debugger configuration](../media/remotedebuggerconfwizardpage.png "Remote Debugger configuration")  
+    ![Screenshot of remote debugger configuration](../media/remotedebuggerconfwizardpage.png "Remote Debugger configuration")  
 
     If the Windows Web Services API is not installed, which happens only on Windows Server 2008 R2, select the **Install** button.  
     ::: moniker-end
@@ -45,10 +45,10 @@ translation.priority.ht:
 1. When configuration is complete, the **Remote Debugger** window appears.
   
     ::: moniker range=">= vs-2022"
-    ![Remote Debugger window](../media/vs-2022/remote-debugger-window.png "Remote Debugger window")
+    ![Screenshot of remote debugger window](../media/vs-2022/remote-debugger-window.png "Remote Debugger window")
     ::: moniker-end
     ::: moniker range="<= vs-2019"
-    ![Remote Debugger window](../media/remotedebuggerwindow.png "Remote Debugger window")
+    ![Screenshot of remote debugger window](../media/remotedebuggerwindow.png "Remote Debugger window")
     ::: moniker-end
   
     The remote debugger is now waiting for a connection. Use the server name and port number shown to set the remote connection configuration in Visual Studio.  
