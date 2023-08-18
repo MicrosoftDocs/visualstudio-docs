@@ -197,8 +197,6 @@
       href: how-to-connect-to-data-in-a-service.md
     - name: Create a WCF Service in Windows Forms
       href: walkthrough-creating-a-simple-wcf-service-in-windows-forms.md
-    - name: Create a WCF Data Service with WPF and Entity Framework
-      href: walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework.md
     - name: Troubleshoot service references
       href: /troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-service-references?toc=%2Fvisualstudio%2Fdata-tools%2Ftoc.json
     - name: Configure service reference dialog box

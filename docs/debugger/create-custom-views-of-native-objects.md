@@ -1,7 +1,7 @@
 ---
 title: Create custom views of C++ objects
 description: Use the Natvis framework to customize the way that Visual Studio displays native types in the debugger
-ms.date: 08/18/2022
+ms.date: 08/17/2023
 ms.topic: how-to
 f1_keywords: 
   - natvis
@@ -95,7 +95,7 @@ The Visual Studio debugger loads *.natvis* files in C++ projects automatically, 
 
 **To install and register a *.natvis* file via a VSIX package:**
 
-A VSIX package can install and register *.natvis* files. No matter where are they installed, all registered *.natvis* files are automatically picked up during debugging.
+A VSIX package can install and register *.natvis* files. No matter where they are installed, all registered *.natvis* files are automatically picked up during debugging.
 
 1. Include the *.natvis* file in the VSIX package. For example, for the following project file:
 
@@ -168,10 +168,10 @@ Natvis visualizations use C++ expressions to specify the data items to display. 
 - To control how an expression displays, you can use any of the format specifiers described in [Format specifiers in C++](format-specifiers-in-cpp.md#BKMK_Visual_Studio_2012_format_specifiers). Format specifiers are ignored when the entry is used internally by Natvis, such as the `Size` expression in a [ArrayItems expansion](../debugger/create-custom-views-of-native-objects.md#BKMK_ArrayItems_expansion).
 
 >[!NOTE]
-> Because the natvis document is XML, your expressions cannot directly use the ampersand, greater than, less than, or shift operators. You must escape these characters in both the item body and the condition statements. For example:<br>
-> \<Item Name="HiByte"\>(byte)(_flags \&gt;\&gt; 24),x\</Item\><br>
-> \<Item Name="HiByteStatus" Condition="(_flags \&amp; 0xFF000000) == 0"\>"None"\</Item\><br>
-> \<Item Name="HiByteStatus" Condition="(_flags \&amp; 0xFF000000) != 0"\>"Some"\</Item\>
+> Because the Natvis document is XML, your expressions cannot directly use the ampersand, greater than, less than, or shift operators. You must escape these characters in both the item body and the condition statements. For example:<br>
+> `\<Item Name="HiByte"\>(byte)(_flags \&gt;\&gt; 24),x\</Item\>`<br>
+> `\<Item Name="HiByteStatus" Condition="(_flags \&amp; 0xFF000000) == 0"\>"None"\</Item\>`<br>
+> `\<Item Name="HiByteStatus" Condition="(_flags \&amp; 0xFF000000) != 0"\>"Some"\</Item\>`
 
 ## Natvis views
 
@@ -207,7 +207,10 @@ The errors appear in the **Output** window.
 
 ## <a name="BKMK_Syntax_reference"></a> Natvis syntax reference
 
+The following elements and attributes can be used in the Natvis file.
+
 ### <a name="BKMK_AutoVisualizer"></a> AutoVisualizer element
+
 The `AutoVisualizer`  element is the root node of the *.natvis* file, and contains the namespace `xmlns:` attribute.
 
 ```xml
