@@ -145,7 +145,7 @@ Using the Visual Studio property designer to suppress warnings results in a chan
 Also, in Visual Studio 2019 version 16.7 and earlier, MSBuild warnings (error codes with the `MSB` prefix) can't be suppressed in any other way.
 
 1. To open the project file in the Visual Studio editor, right-click on the project node, and choose **Edit project file**. Some project types require you to unload the project before you can edit the project file. If you need to unload the project, right-click on the project node and choose **Unload project**.
-1. In a new `PropertyGroup` section, use the `NoWarn` property. List the errors you want to suppress, separated by commas or semicolons. For compiler warnings, you can omit the language code and enter only the number, but for clarity, we recommend using the full code. For MSBuild warnings, specify the full code, including the `MSB` prefix.
+1. In a new `PropertyGroup` section, use the `NoWarn` property. List the errors you want to suppress, separated by commas or semicolons. For compiler warnings, you can omit the language code and enter only the number, but for clarity, we recommend using the full code. For warnings from other tools in the build, specify the full code, including the prefix (such as `MSB` for warnings issued by MSBuild itself).
 
    The following code adds warnings CS0028 and CS0618 to the list of the suppressed warnings:
 
