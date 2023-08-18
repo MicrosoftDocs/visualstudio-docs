@@ -25,7 +25,7 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To debug a Visual Studio application that has been deployed on a different computer, install and run the remote tools on the computer where you deployed your app, configure your project to connect to the remote computer from Visual Studio, and then run your app.
 
-![Screenshot of remote debugger components](../debugger/media/remote-debugger-client-apps.png "Remote_debugger_components")
+![Screenshot of remote debugger components.](../debugger/media/remote-debugger-client-apps.png "Remote_debugger_components")
 
 For information about remote debugging Universal Windows Apps (UWP), see [Debug an Installed App Package](debug-installed-app-package.md).
 
@@ -102,10 +102,10 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 11. Make sure the remote debugger is running on the target machine (If it's not, search for **Remote Debugger** in the **Start** menu). The remote debugger window looks like this.
 
     ::: moniker range=">= vs-2022"
-    ![Screenshot of remote debugger window for VS 2022](../debugger/media/vs-2022/remote-debugger-window.png "Remote Debugger window")
+    ![Screenshot of remote debugger window for VS 2022.](../debugger/media/vs-2022/remote-debugger-window.png "Remote Debugger window")
     ::: moniker-end
     ::: moniker range="<= vs-2019"
-    ![Screenshot of remote debugger window for VS 2019](../debugger/media/remotedebuggerwindow.png "Remote Debugger window")
+    ![Screenshot of remote debugger window for VS 2019.](../debugger/media/remotedebuggerwindow.png "Remote Debugger window")
     ::: moniker-end
 
 12. In Visual Studio, start debugging (**Debug > Start Debugging**, or **F5**).

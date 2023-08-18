@@ -25,10 +25,10 @@ translation.priority.ht:
     ::: moniker range=">= vs-2022"
     In most scenarios, choose **Next** until you get to the **Configure the Windows Firewall** page of the wizard.
 
-    ![Screenshot of remote debugger configuration](../media/vs-2022/remote-debugger-configuration-wizard-page.png "Remote Debugger configuration")  
+    ![Screenshot of remote debugger configuration.](../media/vs-2022/remote-debugger-configuration-wizard-page.png "Remote Debugger configuration")  
     ::: moniker-end
     ::: moniker range="vs-2019"
-    ![Screenshot of remote debugger configuration](../media/remotedebuggerconfwizardpage.png "Remote Debugger configuration")  
+    ![Screenshot of remote debugger configuration.](../media/remotedebuggerconfwizardpage.png "Remote Debugger configuration")  
 
     If the Windows Web Services API is not installed, which happens only on Windows Server 2008 R2, select the **Install** button.  
     ::: moniker-end
