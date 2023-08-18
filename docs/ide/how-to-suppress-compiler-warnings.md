@@ -142,7 +142,7 @@ For more information, see the [/nowarn compiler option](/dotnet/visual-basic/ref
 
 Using the Visual Studio property designer to suppress warnings results in a change to the project file. At times, it can be more convenient to hand-edit the project file to accomplish the task of disabling a warning. The project file is processed by MSBuild, Microsoft's build engine. See [MSBuild](../msbuild/msbuild.md).
 
-Also, in Visual Studio 2019 version 16.7 and earlier, MSBuild warnings (error codes with the `MSB` prefix) can't be suppressed in any other way.
+Also, in Visual Studio 2019 version 16.7 and earlier, some warnings from tools other than the compiler can't be suppressed in any other way.
 
 1. To open the project file in the Visual Studio editor, right-click on the project node, and choose **Edit project file**. Some project types require you to unload the project before you can edit the project file. If you need to unload the project, right-click on the project node and choose **Unload project**.
 1. In a new `PropertyGroup` section, use the `NoWarn` property. List the errors you want to suppress, separated by commas or semicolons. For compiler warnings, you can omit the language code and enter only the number, but for clarity, we recommend using the full code. For warnings from other tools in the build, specify the full code, including the prefix (such as `MSB` for warnings issued by MSBuild itself).
@@ -162,23 +162,19 @@ See [NoWarn](/dotnet/csharp/language-reference/compiler-options/errors-warnings#
 
 ## Suppress a warning from the build command line
 
-If you're building a project from the command line, you can also suppress warnings by using `-p:NoWarn` at the MSBuild command line. Use quotes around lists of multiple warning codes.
+If you're building a project from the command line, you can also suppress warnings by using `-warnAsMessage` at the MSBuild command line. Use quotes around lists of multiple warning codes.
 
-`MSBuild.exe -p:NoWarn="CS0028;CS0618" MyProject.csproj`
+`MSBuild.exe -warnAsMessage="CS0028;CS0618" MyProject.csproj`
 
-This command-line setting sets a global property value; setting `$(NoWarn)` in the project file. See [MSBuild](../msbuild/msbuild.md) and [MSBuild command line reference](../msbuild/msbuild-command-line-reference.md).
+See [MSBuild command line reference](../msbuild/msbuild-command-line-reference.md).
 
-## Suppress MSBuild warnings
+## Suppress tool warnings
 
-How you suppress MSBuild warnings (`MSB` error codes) depends on what type of project you have and what version of MSBuild you're using. Check the Project element, the top-level element in your project file. If it has an `Sdk` attribute, then you have what is called an SDK project.
+How you suppress warnings from tools other than the compiler, such as MSBuild, depends on what type of project you have and what version of MSBuild you're using.
 
-```xml
-<Project Sdk="Microsoft.Net.Sdk">
-```
+With MSBuild 16.8 and later, in projects that use an SDK or the standard imports, you can suppress tool warnings using the same methods described previously. You must specify the full error code (including the prefix such as `MSB` for MSBuild), not just a number as you can with a compiler warning. Also, the message is not eliminated; it still shows as an informational message, but it's been demoted from a warning.
 
-For these projects, you can suppress MSBuild warnings using the same methods described previously. You must specify the full error code (including the `MSB` prefix), instead of just using a number. Also, the message is not eliminated; it still shows as an informational message, but it's been demoted from a warning.
-
-If your project is not an SDK project, or if your MSBuild version is 16.8 or earlier, then whether you're building in Visual Studio, or from the command line, the property you can use to suppress MSBuild warnings is `MSBuildWarningsAsMessages`. You can suppress build warnings by editing the project file or specifying the `MSBuildWarningsAsMessages` option at the MSBuild command line. When you use `MSBuildWarningsAsMessages`, use the full MSBuild error code, including the `MSB` prefix.
+With MSBuild 16.7 and earlier, and in any project that doesn't use an SDK or the standard imports, those warnings aren't suppressed using `NoWarn`. In such cases, the property you can use to suppress tool warnings is `MSBuildWarningsAsMessages`. You can suppress build warnings by editing the project file or specifying the `MSBuildWarningsAsMessages` option at the MSBuild command line. When you use `MSBuildWarningsAsMessages`, use the full MSBuild error code, including the `MSB` prefix.
 
 ```xml
 <PropertyGroup>
@@ -186,9 +182,9 @@ If your project is not an SDK project, or if your MSBuild version is 16.8 or ear
 </PropertyGroup>
 ```
 
-Note that `MSBuildWarningsAsMessages` is only for most warnings with codes with the `MSB` prefix. Some MSBuild warnings can't be suppressed by setting this property. To disable them, use the command line option `warnAsMessage`.
+Note that some MSBuild warnings can't be suppressed by setting  `MSBuildWarningsAsMessages`. To disable them, use the command-line option `warnAsMessage`.
 
-Also, some warnings have specific properties you can set to disable the warning. For example, `MSB3253` is disabled by setting the property 
+Also, some warnings have specific properties you can set to disable the warning. For example, `MSB3253` is disabled by setting the property:
 
 ```xml
  <PropertyGroup>
