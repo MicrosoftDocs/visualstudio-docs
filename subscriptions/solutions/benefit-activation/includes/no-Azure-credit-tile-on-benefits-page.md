@@ -1,11 +1,12 @@
 ---
 title: There's no Azure credit benefit tile showing on the benefits page in the subscriptions portal
-description: I don't see a monthly Azure credit benefit tile in the Visual Studio Subscriptions portal
+description: Learn why you may not see the Azure monthly credit benefit in your subscription
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: db265562-b393-4547-a6e7-1e2e215e0169
 author: larissacrawford
 ms.author: amast
-ms.date: 4/05/2023
+ms.date: 08/15/2023
 user.type: subscriber
 tags: benefit
 subscription.type: vl, cloud, retail, partner
@@ -13,7 +14,7 @@ sap.id: 8dedd10e-cb1c-2eb1-bcda-fe00b07ac903
 ---
 
 ## Why don't I see an Azure credit benefit tile on my benefits page?
-Certain Visual Studio subscriptions that come as a benefit of other programs as well as Visual Studio monthly subscriptions don't include the Azure credit benefit. If you don't see the Azure credit tile on the [benefits tab](https://my.visualstudio.com/benefits) in the subscriptions portal, check if you're [eligible for the benefit](https://learn.microsoft.com/visualstudio/subscriptions/vs-azure-eligibility).
+Certain Visual Studio subscriptions that come as a benefit of other programs and Visual Studio monthly subscriptions don't include the Azure credit benefit. If you don't see the Azure credit tile on the [benefits tab](https://my.visualstudio.com/benefits) in the subscriptions portal, check if you're [eligible for the benefit](https://learn.microsoft.com/visualstudio/subscriptions/vs-azure-eligibility).
 
 If you're eligible, make sure that your Visual Studio Subscription is active on the [Subscriptions tab](https://my.visualstudio.com/subscriptions).
 

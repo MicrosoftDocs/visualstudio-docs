@@ -1,11 +1,12 @@
 ---
 title: Unable to see my monthly Azure credit in the Azure portal
 description: I'm unable to see my monthly Azure credit after logging into the Azure portal 
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 48420a4c-11b4-4bbd-a509-2c939d24e81a
 author: larissacrawford
 ms.author: amast
-ms.date: 04/28/2023
+ms.date: 08/15/2023
 user.type: subscriber
 tags: benefit, azure
 subscription.type: vl, cloud, retail, partner

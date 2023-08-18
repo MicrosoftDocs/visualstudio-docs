@@ -1,11 +1,12 @@
 ---
 title: Unable to download or activate Visual Studio Code
 description: Unable to download or activate Visual Studio Code from the subscriber portal
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 681cc2da-fd75-4ca2-a1c8-278fb9629881
 author: evanwindom
 ms.author: amast
-ms.date: 04/28/2023
+ms.date: 08/16/2023
 user.type: subscriber
 tags: download, activate
 subscription.type: vl, cloud, retail, partner

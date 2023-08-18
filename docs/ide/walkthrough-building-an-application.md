@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial: Build an application'
 description: Become more familiar with several options that you can configure when you build applications with Visual Studio.
-ms.date: 05/10/2022
+ms.date: 08/15/2023
 ms.technology: vs-ide-compile
 ms.topic: tutorial
 author: ghogen
@@ -193,8 +193,11 @@ You can change how much information about the build process appears in the **Out
      :::moniker range="<=vs-2019"
      ![Screenshot of Options command on the Tools menu.](../ide/media/exploreide-toolsoptionsmenu.png)
      :::moniker-end
+
      :::moniker range=">=vs-2022"
+
      ![Screenshot of Tools, Options menu item.](media/vs-2022/build-tutorial-tools-options-menu-item.png)
+
      :::moniker-end
 
 1. Choose the **Projects and Solutions** category, and then choose the **Build and Run** page.

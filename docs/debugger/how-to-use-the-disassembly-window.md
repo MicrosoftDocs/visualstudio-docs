@@ -2,7 +2,7 @@
 title: View Disassembly Code in the debugger | Microsoft Docs
 description: Use the Disassembly window in Visual Studio to show assembly code corresponding to the instructions created by the compiler.
 
-ms.date: 10/30/2018
+ms.date: 08/15/2023
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.disassembly
@@ -67,8 +67,25 @@ To turn optional information on or off, right-click in the **Disassembly** windo
 
 A yellow arrow in the left margin marks the current execution point. For native code, the execution point corresponds to the CPU's program counter. This location shows the next instruction that will be executed in your program.
 
+## Page up or down in memory
+
+When you view memory contents in a **Memory** window or the **Disassembly** window, you can use the vertical scrollbar to move up or down in the memory space.
+
+1. To page down (move to a higher memory address), click the vertical scrollbar below the scroll box.
+
+2. To page up (move to a lower memory address), click the vertical scrollbar above the thumb.
+
+   You will also notice that the vertical scrollbar operates in a nonstandard manner. The address space of a modern computer is very large, and it would be easy to get lost by grabbing the scrollbar thumb and dragging it to a random location. For this reason, the thumb is "springloaded" and always remains in the center of the scrollbar. In native code applications, you can page up or down, but cannot scroll about freely.
+
+   In managed applications, disassembly is limited to one function and you can scroll normally.
+
+   You will notice that the higher addresses appear at the bottom of the window. To view a higher address, you must move down, not up.
+
+### Move up or down one instruction
+
+- Click the arrow at the top or bottom of the vertical scrollbar.
+
 ## See also
 
-* [Paging up or down in memory](../debugger/how-to-page-up-or-down-in-memory.md)
 * [Viewing data in the debugger](../debugger/viewing-data-in-the-debugger.md)
 * [How to: Use the Registers window](../debugger/how-to-use-the-registers-window.md)

@@ -27,7 +27,7 @@ A Windows service is a program that runs in the background under Microsoft Windo
 
 ## See also
 - [Debugging Managed Code](../debugger/debugging-managed-code.md)
-- [C#, F#, and Visual Basic Project Types](../debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md)
+- [Managed debugging: Recommended project settings](../debugger/managed-debugging-recommended-property-settings.md)
 - [Project Settings for  C# Debug Configurations](../debugger/project-settings-for-csharp-debug-configurations.md)
 - [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
 - [How to: Debug the OnStart Method](../debugger/how-to-debug-the-onstart-method.md)

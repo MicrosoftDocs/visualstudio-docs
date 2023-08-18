@@ -466,6 +466,31 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/how-to-use-edit-and-continue-csharp.md",
+      "redirect_url": "/visualstudio/debugger/edit-and-continue-visual-csharp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-apply-edits-in-break-mode-with-edit-and-continue.md",
+      "redirect_url": "/visualstudio/debugger/edit-and-continue-visual-basic",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/how-to-page-up-or-down-in-memory.md",
+      "redirect_url": "/visualstudio/debugger/how-to-use-the-disassembly-window",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugging-and-the-hosting-process.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/debugging-and-the-hosting-process",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugging-preparation-csharp-f-hash-and-visual-basic-project-types.md",
+      "redirect_url": "/visualstudio/debugger/managed-debugging-recommended-property-settings",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/graphics/0x-2x-4x-msaa-variants.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/debugger/graphics/0x-2x-4x-msaa-variants",
       "redirect_document_id": false

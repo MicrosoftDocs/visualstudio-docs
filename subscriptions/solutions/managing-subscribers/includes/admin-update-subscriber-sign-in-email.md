@@ -1,11 +1,12 @@
 ---
 title: Update subscriber sign-in email address
 description: Super admin or admin wants to update the subscribers domain in bulk.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: c1220a33-26b0-4bf9-be97-ab2b3055e351
 author: evanwindom
 ms.author: amast
-ms.date: 05/02/2023
+ms.date: 08/17/2023
 user.type: admin
 tags: email
 subscription.type: vl, cloud, retail, partner
@@ -36,9 +37,9 @@ If you assign subscriptions by using Azure AD groups, any email address or name 
 2. Make the necessary updates.
 
 ## Impact of sign-in email updates
-Changing the sign-in email can have negative impacts for your subscribers, including:
-- Sign-in issues with the Visual Studio IDE.
-- Sign-in issues with Azure DevOps.
-- Issues with the monthly Azure dev/test individual credit.
+Changing the sign-in email can have negative effects for your subscribers, including:
++ Sign-in issues with the Visual Studio IDE.
++ Sign-in issues with Azure DevOps.
+ Issues with the monthly Azure dev/test individual credit.
 
-[Read more about how changing the sign-in email](https://learn.microsoft.com/visualstudio/subscriptions/subscription-level-changes) can impact subscriber's associated benefits.
+[Read more about how changing the sign-in email](https://learn.microsoft.com/visualstudio/subscriptions/subscription-level-changes) can affect subscriber's associated benefits.

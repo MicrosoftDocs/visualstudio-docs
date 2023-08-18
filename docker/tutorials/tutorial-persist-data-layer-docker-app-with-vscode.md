@@ -442,7 +442,18 @@ Keep everything that you've done so far to continue this series of tutorials.
 
 You've learned about options to persist data for container apps.
 
-Next, try the next tutorial in this series:
+What do you want to do next? 
 
-> [!div class="nextstepaction"]
-> [Create multi-container apps with MySQL and Docker Compose](tutorial-multi-container-app-mysql.md)
+- Work with multiple containers by using Docker Compose:
+
+  [Create multi-container apps with MySQL and Docker Compose](tutorial-multi-container-app-mysql.md)
+
+- Deploy to Azure Container Apps:
+
+  - [Quickstart: Deploy to Azure Container Apps using Visual Studio Code](/azure/container-apps/deploy-visual-studio-code)
+
+  - [Tutorial: Deploy to Azure Container Apps](/azure/container-apps/tutorial-deploy-first-app-cli?tabs=bash)
+
+- Deploy to Azure App Service
+
+  - [Deploy a containerized app to Azure](https://code.visualstudio.com/docs/containers/app-service)

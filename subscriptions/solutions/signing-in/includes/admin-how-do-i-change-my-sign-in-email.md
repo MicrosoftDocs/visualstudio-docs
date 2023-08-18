@@ -1,11 +1,12 @@
 ---
 title: How do I update my sign-in email address?
 description: Super admin or admin wants to update their sign-in email without losing permissions
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 8270ddd8-3954-4c75-9f08-644777fef57f
 author: evanwindom
 ms.author: amast
-ms.date: 05/03/2023
+ms.date: 08/18/2023
 user.type: admin
 tags: email
 subscription.type: vl, cloud, retail, partner
