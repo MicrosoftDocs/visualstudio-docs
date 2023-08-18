@@ -1,7 +1,7 @@
 ---
 title: Remote Testing in Visual Studio
 description: Learn how to use remote testing in Visual Studio Test Explorer to run tests from remote environments including containers, WSL2, or over SSH connections. This topic covers how to configure remote testing with a testenvironments.json for either local containers, WSL2, or SSH connections.
-ms.date: 08/26/2021
+ms.date: 08/18/2023
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -18,6 +18,7 @@ ms.workload:
 Remote testing enables developers to connect Visual Studio 2022 to remote environments for running and debugging tests. This functionality is useful for cross-platform developers who deploy code to multiple different target environments such as different Windows or Linux operating systems. For example, normally a developer would have to push changes to a CI pipeline to get feedback from a test running on Linux. With this feature, you can run Linux tests right from Visual Studio by connecting the Test Explorer to a remote environment.
 
 Requirements for using this experimental version of remote testing:
+
 * Visual Studio 2022 Update 17.0 Preview 3 or later
 * Only available for .NET tests.
   * If you're interested in remote testing support for other languages, please [file a suggestion](../ide/suggest-a-feature.md) or upvote an existing suggestion. [Supporting C++ remote testing](https://developercommunity.visualstudio.com/t/run-c-unit-tests-on-linux-with-visual-studio/1403357).
@@ -28,6 +29,7 @@ Requirements for using this experimental version of remote testing:
 ## Set up the remote testing environment
 
 Environments are specified using `testenvironments.json` in the root of your solution. The json file structure follows the schema described here:
+
 ```json
 {
     "version": "1", // value must be 1
@@ -62,6 +64,7 @@ For a Dockerfile, the environment can be specified in `testEnvironments.json` in
 ```
 
 The following example shows `testenvironments.json` for a local container image named \<mcr.microsoft.com/dotnet/core/sdk\>.
+
 ```json
 {
     "version": "1",
@@ -76,6 +79,7 @@ The following example shows `testenvironments.json` for a local container image 
 ```
 
 The following example shows a Dockerfile for running tests targeting .NET 5.0. The second line makes sure the debugger can connect and run in your container.
+
 ```
 FROM mcr.microsoft.com/dotnet/core/sdk:5.0
 
@@ -85,7 +89,23 @@ RUN wget https://aka.ms/getvsdbgsh && \
 
 The container must have a built image on your local machine. You can build a container using the following command (including the "." at the end): `docker build -t <docker image name> -f <path to Dockerfile> .`
 
+The following example shows the use of dockerFile instead of dockerImage.
+
+```json
+{
+    "version": "1",
+    "environments": [
+        {
+            "name": "GitServiceUnix",
+            "type": "docker",
+            "dockerFile": "Dockerfile.test"
+        }
+    ]
+}
+```
+
 ### Local WSL2 connections
+
 To remotely run tests on WSL2, you must [enable WSL2 integration](/windows/wsl/install-win10) on your local machine.
 
 The environment can be specified in `testEnvironments.json` in the root of your solution using the following schema and replacing \<Ubuntu\> with whatever WSL2 Distribution you've installed.
