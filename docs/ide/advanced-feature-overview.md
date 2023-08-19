@@ -2,7 +2,7 @@
 title: Advanced features
 description: Learn about the advanced features that might be more appropriate for experienced developers, or those developers who are already familiar with Visual Studio.
 ms.custom: vs-acquisition
-ms.date: 11/04/2021
+ms.date: 8/19/2023
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
@@ -153,6 +153,14 @@ How you open a project from a GitHub repo by using Visual Studio 2019 depends on
 And, for a step-by-step tutorial on how to connect to a Git or Azure DevOps repository by using Visual Studio, see the [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md?view=vs-2019&preserve-view=true) page.
 
 ::: moniker-end
+
+## Optimize the Visual Studio experience on Microsoft Dev Box
+
+> [!NOTE]
+> This feature is currently in public preview. This information relates to a feature that may be substantially modified before it's released. Microsoft makes no warranties, expressed or implied, with respect to the information provided here.
+
+With [Visual Studio 17.7 Preview 3](https://visualstudio.microsoft.com/vs/preview/), you can [enable precaching of Visual Studio caches in dev box images](/azure/dev-box/how-to-generate-visual-studio-caches.md#enable-visual-studio-caches-in-dev-box-images). As a result, Visual Studio will load your solution and enable key IDE features faster on your dev box. 
+You can also improve the Git performance on large repositories by [enabling Git commit-graph optimizations in dev box images](/azure/dev-box/how-to-generate-visual-studio-caches.md#enable-git-commit-graph-optimizations-in-dev-box-images).
 
 ## Next steps
 
