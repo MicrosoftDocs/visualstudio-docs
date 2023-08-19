@@ -2,7 +2,7 @@
 title: "Remote Debug a C# or VB project | Microsoft Docs"
 description: Learn how to debug a Visual Studio C# or Visual Basic application from a remote computer by following these step-by-step instructions.
 ms.custom: remotedebugging
-ms.date: "08/22/2022"
+ms.date: "08/17/2023"
 ms.topic: "conceptual"
 dev_langs:
   - "C++"
@@ -25,13 +25,13 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To debug a Visual Studio application that has been deployed on a different computer, install and run the remote tools on the computer where you deployed your app, configure your project to connect to the remote computer from Visual Studio, and then run your app.
 
-![Remote debugger components](../debugger/media/remote-debugger-client-apps.png "Remote_debugger_components")
+![Screenshot of remote debugger components.](../debugger/media/remote-debugger-client-apps.png "Remote_debugger_components")
 
 For information about remote debugging Universal Windows Apps (UWP), see [Debug an Installed App Package](debug-installed-app-package.md).
 
 ## Requirements
 
-The remote debugger is supported on Windows 7 and newer (not phone) and versions of Windows Server starting with Windows Server 2008 Service Pack 2. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
+The remote debugger is supported on Windows 7 and newer and on versions of Windows Server starting with Windows Server 2008 Service Pack 2. For a complete list of requirements, see [Requirements](../debugger/remote-debugging.md#requirements_msvsmon).
 
 > [!NOTE]
 > Debugging between two computers connected through a proxy is not supported. Debugging over a high latency or low bandwidth connection, such as dialup Internet, or over the Internet across countries/regions is not recommended and may fail or be unacceptably slow.
@@ -51,13 +51,14 @@ The remote debugger is supported on Windows 7 and newer (not phone) and versions
 > If you need to add permissions for additional users, change the authentication mode, or port number for the remote debugger, see [Configure the remote debugger](../debugger/remote-debugging.md#configure_msvsmon).
 
 ## <a name="remote_csharp"></a> Remote debug the project
+
 The debugger cannot deploy Visual C# or Visual Basic desktop applications to a remote machine, but you can still debug them remotely as follows. The following procedure assumes that you want to debug it on a computer named **MJO-DL**, as shown in the illustration below.
 
 1. Create a WPF project named **MyWpf**.
 
 2. Set a breakpoint somewhere in the code that is easily reached.
 
-    For example, you might set a breakpoint in a button handler. To do this, open MainWindow.xaml, and add a Button control from the Toolbox, then double-click the button to open it's handler.
+    For example, you might set a breakpoint in a button handler. To do this, open MainWindow.xaml, and add a Button control from the Toolbox, then double-click the button to open its handler.
 
 3. In Solution Explorer, right-click the project and choose **Properties**.
 
@@ -91,7 +92,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 
 9. Create a folder on the remote computer that is the same path as the **Debug** folder on your Visual Studio computer: **\<source path>\MyWPF\MyWPF\bin\Debug**.
 
-10. Copy the executable that you just built from your Visual Studio computer to the newly-created folder on the remote computer.
+10. Copy the executable that you just built from your Visual Studio computer to the newly created folder on the remote computer.
 
     > [!CAUTION]
     > Do not make changes to the code or rebuild (or you must repeat this step). The executable you copied to the remote machine must exactly match your local source and symbols.
@@ -100,7 +101,12 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 
 11. Make sure the remote debugger is running on the target machine (If it's not, search for **Remote Debugger** in the **Start** menu). The remote debugger window looks like this.
 
-     ![Screenshot of the Visual Studio 2017 Remote Debugger window. One action is listed that indicates the debugger is running on the target machine.](../debugger/media/remotedebuggerwindow.png)
+    ::: moniker range=">= vs-2022"
+    ![Screenshot of remote debugger window for VS 2022.](../debugger/media/vs-2022/remote-debugger-window.png "Remote Debugger window")
+    ::: moniker-end
+    ::: moniker range="<= vs-2019"
+    ![Screenshot of remote debugger window for VS 2019.](../debugger/media/remotedebuggerwindow.png "Remote Debugger window")
+    ::: moniker-end
 
 12. In Visual Studio, start debugging (**Debug > Start Debugging**, or **F5**).
 
@@ -110,7 +116,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 
      You should see that the WPF application's main window is open on the remote computer.
 
-14. If necessary, take action to hit the breakpoint. You should see that the breakpoint is active. If it isn't, the symbols for the application haven't loaded. Retry, and if that doesn't work, get information about loading symbols and how troubleshoot them at [Understanding symbol files and Visual Studio's symbol settings](https://devblogs.microsoft.com/devops/understanding-symbol-files-and-visual-studios-symbol-settings/).
+14. If necessary, take action to hit the breakpoint. You should see that the breakpoint is active. If it isn't, the symbols for the application haven't loaded. Retry, and if that doesn't work, get information about loading symbols and how to troubleshoot them at [Understanding symbol files and Visual Studio's symbol settings](https://devblogs.microsoft.com/devops/understanding-symbol-files-and-visual-studios-symbol-settings/).
 
 15. On the Visual Studio machine, you should see that execution has stopped at the breakpoint.
 
@@ -121,6 +127,7 @@ The debugger cannot deploy Visual C# or Visual Basic desktop applications to a r
 [!INCLUDE [remote-debugger-symbols](../debugger/includes/remote-debugger-symbols.md)]
 
 ## See also
+
 - [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Configure the Windows Firewall for Remote Debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)

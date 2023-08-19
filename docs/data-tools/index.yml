@@ -42,8 +42,6 @@ landingContent:
             url: create-a-simple-data-application-with-wpf-and-entity-framework-6.md
           - text: n-Tier data application
             url: walkthrough-creating-an-n-tier-data-application.md
-          - text: WCF Data Service with WPF and Entity Framework
-            url: walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework.md
       - linkListType: concept
         links:
           - text: ADO.NET
