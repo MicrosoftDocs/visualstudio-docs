@@ -2,7 +2,7 @@
 title: Using Visual Studio on an Azure Virtual Machine
 titleSuffix: ''
 description: Learn how to use Visual Studio on an Azure Virtual Machine
-ms.date: 07/26/2023
+ms.date: 08/19/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - azure services
@@ -42,6 +42,8 @@ Images for the most recent major versions, Visual Studio 2022, Visual Studio 201
 > In accordance with Microsoft servicing policy, the originally released (RTW) version of Visual Studio 2015 has expired for servicing. Visual Studio 2015 Update 3 is the only remaining version offered for the Visual Studio 2015 product line.
 
 For more information, see the [Visual Studio Servicing Policy](/visualstudio/productinfo/vs-servicing-vs).
+
+[Windows client for developers (Microsoft Dev Box compatible)](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoftvisualstudio.windowsplustools?tab=Overview), a Windows 11 Enterprise image is meant to be used as a starting point for creating custom Dev Box images, and contains additional tools and settings to optimize the developer experience. This image doesn't include Visual Studio. For Visual Studio developers, we recommend using our [Visual Studio 2022](https://azuremarketplace.microsoft.com/marketplace/apps/microsoftvisualstudio.visualstudioplustools?exp=ubp8&tab=Overview) or [Visual Studio 2019](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoftvisualstudio.visualstudio2019plustools?tab=Overview) Dev Box compatible images as a starting point.
 
 ## What features are installed?
 
