@@ -59,7 +59,6 @@ To enable this workflow, go to Visual Studio's Options dialog **(Tools > Options
 **Windows authentication broker**
 
 Once the Windows authentication broker workflow is enabled, you can sign in or add accounts to Visual Studio as you normally would, via the Account Settings dialog **(File > Account Settings…)**.   
-
 </br>
 :::image type="content" source="media/vs-2022/add-personalization-account-wam.png" alt-text="Add a new personalization account to Visual Studio." border="false":::
 
