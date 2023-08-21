@@ -1,11 +1,12 @@
 ---
 title: Help me purchase from the Microsoft Store
 description: Help me purchase Visual Studio subscriptions from the Microsoft Store
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: f56c7642-f945-4bdf-b48e-9d548b08d91d
 author: larissacrawford
 ms.author: amast
-ms.date: 05/03/2023
+ms.date: 08/17/2023
 user.type: subscriber
 tags: purchasing
 subscription.type: retail
@@ -20,9 +21,9 @@ Standard retail subscriptions can be purchased through the Microsoft Store.
 
 Retail Visual Studio subscriptions available through the Microsoft Store include: 
 
-* [Visual Studio Enterprise](https://www.microsoft.com/p/visual-studio-enterprise-subscription/dg7gmgf0dst4?activetab=pivot%3aoverviewtab)
-* [Visual Studio Professional](https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab) 
-* [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab)
++ [Visual Studio Enterprise](https://www.microsoft.com/p/visual-studio-enterprise-subscription/dg7gmgf0dst4?activetab=pivot%3aoverviewtab)
++ [Visual Studio Professional](https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab) 
++ [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab)
 
 Each of these subscriptions offers the option to make an initial purchase or to renew an existing subscription. Renewal pricing reflects a significant discount and is only available for existing subscriptions.  
 
