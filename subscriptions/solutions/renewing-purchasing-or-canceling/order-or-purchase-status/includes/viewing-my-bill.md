@@ -1,10 +1,11 @@
 ---
 title: View the invoice for Visual Studio subscriptions
 description: View the invoice for Visual Studio subscriptions
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.assetid: feecb0a9-e03d-4747-aba3-efc66ade4421
 author: larissacrawford
 ms.author: amast 
-ms.date: 05/03/2023
+ms.date: 08/17/2023
 user.type: subscriber
 tags: invoice, billing
 subscription.type: vl, cloud, retail, partner 
@@ -21,7 +22,7 @@ Your Azure invoice can include payments for Azure services and some types of Vis
 Monthly (and annual if purchased before December 2018) subscriptions are billed through Azure, you can find your invoice in the same Azure billing section.
 
 ## Understanding spending limit in Azure
-The spending limit feature in Azure allows you to set a spending limit to automatically turn off services. By default the spending limit is applied to the Azure Dev/Test individual credit benefit. Read more about the [Azure spending limit](https://learn.microsoft.com/azure/cost-management-billing/manage/spending-limit).
+The spending limit feature in Azure allows you to set a spending limit to automatically disable services. By default the spending limit is applied to the Azure Dev/Test individual credit benefit. Read more about the [Azure spending limit](https://learn.microsoft.com/azure/cost-management-billing/manage/spending-limit).
 
 You're billed monthly for services if:
 + You've removed the spending cap on your Azure subscription

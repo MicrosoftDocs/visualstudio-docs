@@ -1,11 +1,12 @@
 ---
 title: Help me purchase monthly Visual Studio subscriptions from marketplace.visualstudio.com
 description: Help me purchase monthly Visual Studio subscriptions from marketplace.visualstudio.com
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 4d0c9d82-5bda-4021-b219-5e1cf948f325
 author: larissacrawford
 ms.author: amast
-ms.date: 05/03/2023
+ms.date: 08/17/2023
 user.type: subscriber, admin
 tags: purchasing
 subscription.type: cloud
@@ -22,8 +23,8 @@ Read more details on [how to purchase monthly subscriptions](https://learn.micro
 
 Billing is handled through your Microsoft Azure subscription. If you don’t have an Azure subscription yet, it’s free to set up and can be done as part of your first purchase.  
 
-* [Visual Studio Professional - monthly subscription](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-monthly) 
-* [Visual Studio Enterprise - monthly subscription](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-monthly) 
++ [Visual Studio Professional - monthly subscription](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-monthly) 
++ [Visual Studio Enterprise - monthly subscription](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-monthly) 
 
 Read more about [monthly Visual Studio Subscriptions Azure billing](https://learn.microsoft.com/visualstudio/subscriptions/vscloud-billing-faq). 
 
