@@ -1,7 +1,7 @@
 ---
 title: Multi-factor authentication with Visual Studio sign-ins
 titleSuffix: "" 
-ms.date: 08/20/2023
+ms.date: 08/22/2023
 ms.topic: how-to
 description: "Learn how to use Visual Studio with accounts that require multi-factor authentication (MFA)."
 author: anandmeg
@@ -43,7 +43,7 @@ To enable this workflow, go to Visual Studio's Options dialog **(Tools > Options
 
 :::image type="content" source="media/vs-2022/windows-authentication-broker.png" alt-text="Select web authentication broker from the dropdown.":::
 
-Windows authentication broker uses [Web Account Manager(WAM)](/entra/msal/dotnet/acquiring-tokens/desktop-mobile/wam.md) and offers many benefits such as security, MFA support, single sign-on, and seamless integration across applications.
+Windows authentication broker uses [Web Account Manager(WAM)](/entra/msal/dotnet/acquiring-tokens/desktop-mobile/wam) and offers many benefits such as security, MFA support, single sign-on, and seamless integration across applications.
 
 ### Enabling system web browser
 
