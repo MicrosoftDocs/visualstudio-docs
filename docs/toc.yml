@@ -144,7 +144,7 @@
   - name: F#  >>
     href: /dotnet/fsharp/
   expanded: true
-- name: AI 
+- name: AI-assisted development 
   items:
   - name: GitHub Copilot
     href: ide/visual-studio-github-copilot-extension.md
