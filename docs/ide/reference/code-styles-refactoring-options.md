@@ -16,7 +16,7 @@ ms.technology: vs-ide-general
 
 The code refactoring options in this article apply to both C# and Visual Basic.
 
-The options described in this article do not have a severity and don't appear in the Error List as warnings or suggestions. Instead, they're only used during a refactoring.
+The options described in this article don't have a severity and don't appear in the Error List as warnings or suggestions. Instead, they're only used during a refactoring in Visual Studio.
 
 ## Refactoring options
 
@@ -41,7 +41,7 @@ dotnet_style_operator_placement_when_wrapping = end_of_line
 | **Introduced version**   | Visual Studio 2022                            |                                              |
 | **Option values**        | `end_of_line`                                 | Place operator at the end of a line.         |
 |                          | `beginning_of_line`                           | Place operator on a new line.                |
-| **Default value**        | `end_of_line`                                 |                                              |
+| **Default value**        | `beginning_of_line`                           |                                              |
 
 Code examples:
 
