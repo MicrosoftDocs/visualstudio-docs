@@ -1,4 +1,4 @@
-- name: Azure Development with Visual Studio
+- name: Develop applications for Azure with Visual Studio
   href: index.yml
   expanded: true
 - name: Overview
@@ -6,7 +6,7 @@
   items:
   - name: Connected Services
     href: overview-connected-services.md
-  - name: About Azure in Visual Studio
+  - name: Develop applications for Azure with Visual Studio
     href: overview-azure-integration.md
 - name: Connect to Azure services
   items:
