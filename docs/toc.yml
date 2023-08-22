@@ -507,7 +507,7 @@
         href: ide/cpp-editorconfig-properties.md
       - name: .NET coding conventions
         items:
-        - name: .NET coding conventions >>
+        - name: .NET code style rules >>
           href: /dotnet/fundamentals/code-analysis/code-style-rule-options
         - name: .NET code refactoring conventions
           href: ide/reference/code-styles-refactoring-options.md
