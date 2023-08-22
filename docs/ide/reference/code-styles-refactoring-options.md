@@ -22,7 +22,6 @@ The options described in this article don't have a severity and don't appear in 
 
 Use these options to customize how you want operators placed when wrapping lines of code during a refactor:
 
-- [dotnet\_style\_operator\_placement\_when_wrapping](#dotnet_style_operator_placement_when_wrapping)
 
 Example *.editorconfig* file:
 
