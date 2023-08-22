@@ -22,7 +22,8 @@ As an example, to ensure that your custom analyzer works on all versions of Visu
 
 | Roslyn package version | Minimum supported Visual Studio version |
 | - | - |
-| 4.7.0 | Visual Studio 2022 Version 17.7 (Preview) |
+| 4.8.0 | Visual Studio 2022 version 17.8 (Preview) |
+| 4.7.0 | Visual Studio 2022 version 17.7 |
 | 4.6.0 | Visual Studio 2022 version 17.6 |
 | 4.5.0 | Visual Studio 2022 version 17.5 |
 | 4.4.0 | Visual Studio 2022 version 17.4 |
