@@ -32,7 +32,7 @@ ms.workload:
 The **Disassembly** window shows assembly code corresponding to the instructions created by the compiler. If you're debugging managed code, these assembly instructions correspond to the native code created by the Just-in-Time (JIT) compiler, not the Microsoft intermediate language (MSIL) created by the Visual Studio compiler.
 
 > [!NOTE]
-> To take full advantage of the **Disassembly** window, understand or learn the basics of [assembly-language programming](https://wikipedia.org/wiki/Assembly_language).
+> To take full advantage of the **Disassembly** window, understand or learn the basics of [assembly-language programming](https://wikipedia.org/wiki/Assembly_language). Reference material for Intel instruction sets are found in the 2nd volume of the [architecture manuals](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html#three-volume). This material generally applies to AMD instruction sets as well.
 
 This feature is only available if address-level debugging is enabled. It isn't available for script or SQL debugging.
 
