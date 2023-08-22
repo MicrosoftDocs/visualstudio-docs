@@ -1,15 +1,16 @@
 ---
 title: Python support in Visual Studio on Windows
 titleSuffix: ""
-description: Summary of Python features in Visual Studio, making it the best Python IDE on Windows (also known as Python Tools for Visual Studio, PTVS).
-ms.date: 12/12/2022
+description: Summary of Python features in Visual Studio, making it the best Python IDE on Windows (also known as Python Tools for Visual Studio, PTVS) that you can use to edit, debug, and test code, and then publish an app.
+ms.date: 8/22/2023
 ms.custom: devdivchpfy22
 ms.topic: overview
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
-
+dev_langs:
+ - Python
 ms.workload:
   - python
   - data-science
@@ -20,7 +21,7 @@ ms.workload:
 
 Python is a popular programming language that is reliable, flexible, easy to learn, free to use on all operating systems, and supported by both a strong developer community and many free libraries. Python supports all manners of development, including web applications, web services, desktop apps, scripting, and scientific computing. Scientists, casual developers, professional developers, and many universities alike use Python for programming. You can learn more about the language on [python.org](https://www.python.org) and [Python for Beginners](https://www.python.org/about/gettingstarted/).
 
-Visual Studio is a powerful Python IDE on Windows. Visual Studio provides [open-source](https://github.com/Microsoft/ptvs) support for the Python language through the **Python Development** and **Data Science** workloads (Visual Studio 2017 and later) and the free Python Tools for Visual Studio extension (Visual Studio 2015 and earlier).
+Visual Studio is a powerful Python IDE on Windows. Visual Studio provides [open-source](https://github.com/Microsoft/ptvs) support for the Python language through the **Python Development** and **Data Science** workloads (Visual Studio 2017 and later) and the free Python Tools for Visual Studio extension (Visual Studio 2015 and earlier). [Tour the Visual Studio IDE](../ide/quickstart-ide-orientation.md) to familiarize yourself with the IDE features that you'll use to write and edit Python code.
 
 Visual Studio doesn't support Python on Mac now. But it's available on Mac and Linux through Visual Studio Code. (see [questions and answers](#questions-and-answers)).
 
@@ -86,7 +87,7 @@ Visual Studio also supports IPython/Jupyter in the REPL, including inline plots,
 
 For more information:
 
-- [Interactive window](python-interactive-repl-in-visual-studio.md)
+- [Python Interactive REPL](python-interactive-repl-in-visual-studio.md)
 - [IPython in Visual Studio](interactive-repl-ipython.md)
 
 ## Project system, and project and item templates
@@ -118,7 +119,7 @@ For more information:
 
 ## Full-featured debugging
 
-One of Visual Studio's strengths is its powerful debugger. For Python in particular, Visual Studio includes Python/C++ mixed-mode debugging, remote debugging on Linux, debugging within the **Interactive** window, and debugging Python unit tests.
+One of Visual Studio's strengths is its powerful debugger. For Python in particular, Visual Studio includes Python/C++ [mixed-mode debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md), remote debugging on Linux, debugging within the **Interactive** window, and debugging Python unit tests.
 
    ![Visual Studio debugger for Python showing an exception popup](media/debugging-exception-popup.png)
 

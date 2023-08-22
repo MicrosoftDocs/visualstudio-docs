@@ -4,8 +4,6 @@
   items:
   - name: Overview of Python support
     href: overview-of-python-tools-for-visual-studio.md
-  - name: Tour the Visual Studio IDE
-    href: visual-studio-ide.md
   - name: Data science and analytical applications workload
     href: data-science-and-analytical-applications-workload.md
 - name: Installation
