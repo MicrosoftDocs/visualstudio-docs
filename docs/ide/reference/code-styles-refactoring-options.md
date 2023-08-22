@@ -20,8 +20,6 @@ The options described in this article don't have a severity and don't appear in 
 
 For .NET code style rules that apply during build and refactoring, that is, those that have an ID of the form `IDEXXXX`, see [Code style rules](/dotnet/fundamentals/code-analysis/style-rules/).
 
-Use this option to customize how you want operators placed when wrapping lines of code during a refactor.
-
 Example *.editorconfig* file:
 
 ```ini
@@ -30,7 +28,9 @@ Example *.editorconfig* file:
 dotnet_style_operator_placement_when_wrapping = end_of_line
 ```
 
-### dotnet\_style\_operator\_placement\_when_wrapping
+## dotnet\_style\_operator\_placement\_when_wrapping
+
+Use this option to customize how you want operators placed when wrapping lines of code during a refactor.
 
 | Property                 | Value                                         | Description                                  |
 |--------------------------|-----------------------------------------------|----------------------------------------------|
