@@ -18,6 +18,8 @@ The code refactoring options in this article apply to both C# and Visual Basic.
 
 The options described in this article don't have a severity and don't appear in the Error List as warnings or suggestions. Instead, they're only used during a refactoring in Visual Studio.
 
+For .NET code style rules that apply during build and refactoring, that is, those that have an ID of the form `IDEXXXX`, see [Code style rules](/dotnet/fundamentals/code-analysis/style-rules/).
+
 ## Refactoring options
 
 Use these options to customize how you want operators placed when wrapping lines of code during a refactor:
