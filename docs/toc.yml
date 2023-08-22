@@ -508,7 +508,7 @@
       - name: .NET coding conventions
         items:
         - name: .NET code style rules >>
-          href: /dotnet/fundamentals/code-analysis/code-style-rule-options
+          href: /dotnet/fundamentals/code-analysis/style-rules/
         - name: .NET code refactoring conventions
           href: ide/reference/code-styles-refactoring-options.md
     - name: Customize the scroll bar
