@@ -57,6 +57,10 @@ Determines how much information from the build process is displayed in the **Out
 
 Determines how much information is written to the build log file, which is located at *\\\<ProjectName>\Debug\\\<ProjectName>.log*.
 
+**Run build at low process priority**
+
+Instructs Visual Studio to run all compile and link processes at "Below normal" priority, as managed by the operating system. Selecting this option increases the responsiveness of your computer during the execution of a build, but increases the length of time it takes to complete a build. For information how process priority works on Windows, see [Scheduling priorities](/windows/win32/procthread/scheduling-priorities).
+
 ## See also
 
 - [Compiling and Building](../../ide/compiling-and-building-in-visual-studio.md)
