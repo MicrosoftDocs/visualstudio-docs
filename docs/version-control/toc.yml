@@ -38,6 +38,10 @@
     href: git-multi-repository-support.md
   - name: Resolve merge conflicts
     href: git-resolve-conflicts.md
+- name: Reference
+  items:
+  - name: Git Changes with no active repo set
+    href: git-changes-with-no-active-repo.md
 - name: Resources
   items:
   - name: Create a GitHub account
