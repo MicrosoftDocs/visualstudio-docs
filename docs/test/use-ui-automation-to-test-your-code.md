@@ -36,4 +36,4 @@ For the most current documentation, see [Use Coded UI tests to test your code](/
 - Coded UI test component
 
 > [!NOTE]
-> * Visual Studio 2019 is the last version to provide test creation via the recorder. Only basic minimal support for Coded UI Test is available in Visual Studio 2022.
+> \* Visual Studio 2019 is the last version to provide test creation via the recorder. Only basic minimal support for Coded UI Test is available in Visual Studio 2022.
