@@ -760,6 +760,81 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/test/analyzing-coded-ui-tests-using-coded-ui-test-logs.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/analyzing-coded-ui-tests-using-coded-ui-test-logs",
+      "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/test/anatomy-of-a-coded-ui-test.md",
+        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/anatomy-of-a-coded-ui-test",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/test/best-practices-for-coded-ui-tests.md",
+        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/best-practices-for-coded-ui-tests",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/test/creating-a-data-driven-coded-ui-test.md",
+        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/creating-a-data-driven-coded-ui-test",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/test/editing-coded-ui-tests-using-the-coded-ui-test-editor.md",
+        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/editing-coded-ui-tests-using-the-coded-ui-test-editor",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/test/enable-coded-ui-testing-of-your-controls.md",
+        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/enable-coded-ui-testing-of-your-controls",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel.md",
+        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/extending-coded-ui-tests-and-action-recordings-to-support-microsoft-excel",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/test/making-coded-ui-tests-wait-for-specific-events-during-playback.md",
+        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/making-coded-ui-tests-wait-for-specific-events-during-playback",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/test/set-a-unique-automation-property-for-windows-store-controls-for-testing.md",
+        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/set-a-unique-automation-property-for-windows-store-controls-for-testing",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings.md",
+        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/supported-configurations-and-platforms-for-coded-ui-tests-and-action-recordings",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/test/test-uwp-app-with-coded-ui-test.md",
+        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/test-uwp-app-with-coded-ui-test",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/test/testing-a-large-application-with-multiple-ui-maps.md",
+        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/testing-a-large-application-with-multiple-ui-maps",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/test/using-different-web-browsers-with-coded-ui-tests.md",
+        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/using-different-web-browsers-with-coded-ui-tests",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/test/using-html5-controls-in-coded-ui-tests.md",
+        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/using-html5-controls-in-coded-ui-tests",
+        "redirect_document_id": false
+    },
+    {
+        "source_path": "docs/test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test.md",
+        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test",
+        "redirect_document_id": false
+    },
+    {
       "source_path": "docs/test/troubleshooting-code-coverage.md",
       "redirect_url": "/troubleshoot/developer/visualstudio/ide/troubleshooting-code-coverage",
       "redirect_document_id": false
