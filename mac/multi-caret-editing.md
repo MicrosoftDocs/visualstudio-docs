@@ -7,9 +7,9 @@ manager: dominicn
 ms.date: 08/19/2019
 ms.topic: reference
 ---
-# Multi-caret editing
+# Multi-caret editing in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 Multi-caret editing allows you to add _n_ number of insertion points at a single time. When in multi-caret mode, you can add additional carets to your document with either mouse clicks or keyboard commands. The primary caret is a red cursor, and the secondary carets are in a light-blue color. Multi-caret edit mode is disabled with the `ESC` key.
 

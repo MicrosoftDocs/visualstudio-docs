@@ -12,7 +12,7 @@ ms.assetid: DB8DC9FE-FF21-4061-8A96-3F9FC08A4F8F
 ---
 # Update Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 Visual Studio for Mac distributes updates for the IDE and supported frameworks regularly. These updates can be in the form of new features, improvements, and bug fixes.
 

@@ -8,9 +8,9 @@ ms.date: 03/29/2019
 ms.assetid: C7782BF3-016F-4B41-8A81-85FC540A1A8F
 ms.topic: reference
 ---
-# Show import items
+# Show import items in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 Visual Studio for Mac can show all available types, even if they aren't imported to your project, in your IntelliSense completion list. By selecting an item which isn't imported, the correct `using` statement will be added to your source file.
 

@@ -8,9 +8,9 @@ manager: dominicn
 ms.date: 06/30/2022
 ms.assetid: 49917483-28AA-4598-A847-71F1F2E0DCB5
 ---
-# Version control & source control with Git
+# Version control & source control with Git in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 Version control is a system for managing files over many different versions, and - in software development - is generally contributed to by many developers. The principal purpose of any version control system (_VCS_) is to find a solution that enables all users to work on the codebase at the same time.
 
