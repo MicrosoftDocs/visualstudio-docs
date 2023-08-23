@@ -1,7 +1,7 @@
 ---
 title: "AssignCulture Task | Microsoft Docs"
 description: Use the MSBuild AssignCulture task to produce item that have a metadata named Culture containing the corresponding culture identifier.
-ms.date: "11/04/2016"
+ms.date: 08/23/2023
 ms.topic: "reference"
 f1_keywords:
   - "http://schemas.microsoft.com/developer/msbuild/2003#AssignCulture"
@@ -35,7 +35,9 @@ The following table describes the parameters of the `AssignCulture` task.
 |`AssignedFilesWithCulture`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the subset of the items from the `AssignedFiles` parameter that have a `Culture` metadata entry.|
 |`AssignedFilesWithNoCulture`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the subset of the items from the `AssignedFiles` parameter that do not have a `Culture` metadata entry.|
 |`CultureNeutralAssignedFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the same list of items that is produced in the `AssignedFiles` parameter, except with the culture removed from the file name.<br /><br /> The task only removes the culture from the file name if it is a valid culture identifier.|
-|`Files`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the list of files with embedded culture names to assign a culture to.|
+|`Files`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the list of files with embedded culture names to assign a culture to. The task tries to figure out if this is a culture-specific resource, and if so, what culture. To skip this detection process and force a file to be culture-neutral, apply the metadata entry `WithCulture` to `false`.
+
+WithCulture is a bool that, if false bypasses detection and treats the resource as neutral|
 
 ## Remarks
 
