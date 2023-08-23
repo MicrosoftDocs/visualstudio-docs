@@ -50,7 +50,7 @@ To install MSBuild on a system that doesn't have Visual Studio, go to Build Tool
 
 ## Create an MSBuild project
 
- The Visual Studio project system is based on MSBuild. This makes it easy to create a new project file using Visual Studio. In this section, you create a Visual C# project file. You can choose to create a Visual Basic project file instead. In the context of this walkthrough, the difference between the two project files is minor.
+ The Visual Studio project system is based on MSBuild. This makes it easy to create a new project file using Visual Studio. In this section, you create a C# project file. You can choose to create a Visual Basic project file instead. In the context of this walkthrough, the difference between the two project files is minor.
 
 **To create a project file**
 
