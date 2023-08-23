@@ -2,7 +2,7 @@
 title: Python support in Visual Studio on Windows
 titleSuffix: ""
 description: Summary of Python features in Visual Studio, making it the best Python IDE on Windows (also known as Python Tools for Visual Studio, PTVS) that you can use to edit, debug, and test code, and then publish an app.
-ms.date: 8/22/2023
+ms.date: 8/23/2023
 ms.custom: devdivchpfy22
 ms.topic: overview
 author: cwebster-99
@@ -87,7 +87,7 @@ Visual Studio also supports IPython/Jupyter in the REPL, including inline plots,
 
 For more information:
 
-- [Python Interactive REPL](python-interactive-repl-in-visual-studio.md)
+- [Python Interactive window](python-interactive-repl-in-visual-studio.md)
 - [IPython in Visual Studio](interactive-repl-ipython.md)
 
 ## Project system, and project and item templates
