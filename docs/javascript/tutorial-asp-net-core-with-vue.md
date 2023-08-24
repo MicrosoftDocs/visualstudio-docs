@@ -81,7 +81,7 @@ Make sure to install the following:
 To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
 
 - The ASP.NET Core API project running
-- The Vue CLI running the vue-cli-service serve command
+- The Vite CLI showing a message such as `VITE v4.4.9 ready in 780 ms`
 
 >[!NOTE]
 > Check console output for messages, such as a message instructing you to update your version of Node.js.
