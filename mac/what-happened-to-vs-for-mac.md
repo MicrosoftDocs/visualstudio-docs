@@ -32,10 +32,10 @@ The following notes outline the timeline for support.
     :::column-end::: 
 :::row-end:::
 :::row::: 
-    :::column::: 
+    :::column span="1"::: 
         After&nbsp;May&nbsp;2024
     :::column-end::: 
-    :::column::: 
+    :::column span="4":::
         You can continue to use Visual Studio for Mac after its end-of-life date, but you won't receive any updates including for security. 
     :::column-end::: 
 :::row-end:::
