@@ -52,8 +52,6 @@ You can access resources secured via CA policies such as MFA in Visual Studio. T
 
 >[!NOTE]
 >Web Account Manager(WAM) is only available on Windows 10 and above, as well as Windows Server 2019 and above.
->
->Windows authentication broker option is available in [Visual Studio version 17.5](/visualstudio/releases/2022/release-notes-v17.5), but we recommend using [Visual Studio version 17.7](/visualstudio/releases/2022/release-notes) or later for an optimal experience.
 
 To enable this workflow, go to Visual Studio's Options dialog **(Tools > Options…)**, select the **Accounts** tab, and then select **Windows authentication broker** from the **Add and reauthenticate accounts using:** dropdown. 
 
