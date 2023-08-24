@@ -58,8 +58,7 @@ Make sure to install the following:
    Compared to the [standalone React template](../javascript/tutorial-create-react-app.md), you see some new and modified files for integration with ASP.NET Core:
 
    - aspnetcore-https.js
-   - aspnetcore-react.js
-   - setupProxy.js
+   - vite.config.js
    - App.js (modified)
    - App.test.js (modified)
 
@@ -161,14 +160,14 @@ If you see this issue, most likely the frontend started before the backend. Once
 
 If the weather data does not load correctly, you may also need to verify that your ports are correct.
 
-1. Make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `url` property.
+1. Make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core **webapi** project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
 
-   If there are multiple `url` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:5173`.
+   If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:7183`.
 
-1. Then, go to the *vite.config.js* file for your React project (look in the *src* folder). Update the `port` property to match the `url` property in  *launchSettings.json*. When you update it, that value should look similar to this:
+1. Then, go to the *vite.config.js* file for your React project. Update the `target` property to match the `applicationUrl` property in *launchSettings.json*. When you update it, that value should look similar to this:
 
    ```js
-   port: 5173,
+   target: 'https://localhost:7183/',
    ```
 
 ### Privacy error
@@ -183,4 +182,4 @@ Try deleting the React certificates from *%appdata%\local\asp.net\https* or *%ap
 
 ## Next steps
 
-For more information about SPA applications in ASP.NET Core, see the React section under [Developing Single Page Apps](/aspnet/core/client-side/spa/intro#developing-single-page-apps). The linked article provides additional context for project files such as *aspnetcore-https.js*, *aspnetcore-react.js*, and *setupProxy.js*, although details of the implementation are different based on the template differences. For example, instead of a ClientApp folder, the React files are contained in a separate project.
+For more information about SPA applications in ASP.NET Core, see the React section under [Developing Single Page Apps](/aspnet/core/client-side/spa/intro#developing-single-page-apps). The linked article provides additional context for project files such as *aspnetcore-https.js*, although details of the implementation are different based on the template differences. For example, instead of a ClientApp folder, the React files are contained in a separate project.
