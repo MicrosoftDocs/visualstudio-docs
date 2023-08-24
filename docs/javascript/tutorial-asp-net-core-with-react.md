@@ -34,7 +34,7 @@ You can use the method described in this article to create ASP.NET Core Single P
 
 Make sure to install the following:
 
-- Visual Studio 2022 version 17.5 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- Visual Studio 2022 version 17.7 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 - npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
 - npx ([https://www.npmjs.com/package/npx](https://www.npmjs.com/package/npx))
@@ -152,7 +152,7 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 You may see the following error:
 
 ```cmd
-[HPM] Error occurred while trying to proxy request /weatherforecast from localhost:4200 to https://localhost:5001 (ECONNREFUSED) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while trying to proxy request /weatherforecast from localhost:4200 to https://localhost:7183 (ECONNREFUSED) (https://nodejs.org/api/errors.html#errors_common_system_errors)
 ```
 
 If you see this issue, most likely the frontend started before the backend. Once you see the backend command prompt up and running, just refresh the React App in the browser.
@@ -161,15 +161,25 @@ If you see this issue, most likely the frontend started before the backend. Once
 
 If the weather data does not load correctly, you may also need to verify that your ports are correct.
 
-1. Make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
+1. Make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `url` property.
 
-   If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:7049`.
+   If there are multiple `url` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:5173`.
 
-1. Then, go to the *setupProxy.js* file for your React project (look in the *src* folder). Update the target property to match the `applicationUrl` property in  *launchSettings.json*. When you update it, that value should look similar to this:
+1. Then, go to the *vite.config.js* file for your React project (look in the *src* folder). Update the `port` property to match the `url` property in  *launchSettings.json*. When you update it, that value should look similar to this:
 
    ```js
-   target: 'https://localhost:7049',
+   port: 5173,
    ```
+
+### Privacy error
+
+You may see the following certificate error:
+
+```
+Your connection isn't private
+```
+
+Try deleting the React certificates from *%appdata%\local\asp.net\https* or *%appdata%\roaming\asp.net\https*, and then retry.
 
 ## Next steps
 
