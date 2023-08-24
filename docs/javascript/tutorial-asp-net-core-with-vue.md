@@ -177,7 +177,7 @@ If the weather data does not load correctly, you may also need to verify that yo
 
    or:
 
-### Outdated version of Vite
+### Outdated version of Vue
 
 If you see the console message **Could not find the file 'C:\Users\Me\source\repos\vueprojectname\package.json'** when you create the project, you may need to update your version of the Vite CLI. After you update the Vite CLI, you may also need to delete the *.vuerc* file in *C:\Users\\[yourprofilename\]*.
 
