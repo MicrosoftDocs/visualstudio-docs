@@ -1,7 +1,7 @@
 ---
 title: "Create a Vue.js app"
 description: In this tutorial, learn how to create a simple Vue.js application in Visual Studio.
-ms.date: 05/26/2023
+ms.date: 08/24/2023
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
@@ -57,9 +57,9 @@ Choose **Build** > **Build Solution**  to build the project.
 
 ## Start Your Project
 
-Press **F5** or select the **Start** button at the top of the window, and you'll see a command prompt:
+Press **F5** or select the **Start** button at the top of the window, and you'll see a command prompt such as:
 
-- npm running the vue-cli-service start command
+- VITE v4.4.9 ready in 780 ms
 
    >[!NOTE]
    > Check console output for messages, such as a message instructing you to update your version of Node.js.
