@@ -1,7 +1,7 @@
 ---
 title: Multi-factor authentication with Visual Studio sign-ins
 titleSuffix: "" 
-ms.date: 08/22/2023
+ms.date: 08/24/2023
 ms.topic: how-to
 description: "Learn how to use Visual Studio with accounts that require multi-factor authentication (MFA)."
 author: anandmeg
@@ -32,18 +32,21 @@ These issues can cause your instance of Visual Studio to prompt reauthentication
 
 ## Using Visual Studio with MFA policies
 
-You can access resources secured via CA policies such as MFA in Visual Studio. To use this enhanced workflow, you'll need to opt into using your system's default web browser as the mechanism to add and reauthenticate Visual Studio accounts. 
+You can access resources secured via CA policies such as MFA in Visual Studio. To use this enhanced workflow, you'll need to opt into using your system's default web browser or the Windows authentication broker as the mechanism to add and reauthenticate Visual Studio accounts. 
 
 > [!WARNING]
 > Not using this workflow could trigger a degraded experience resulting in multiple additional authentication prompts when adding or reauthenticating Visual Studio accounts. 
 
 ### Enabling Windows authentication broker
 
+>[!NOTE]
+>Web Account Manager(WAM) is only available on Windows 10 and above, as well as Windows Server 2019 and above.
+
 To enable this workflow, go to Visual Studio's Options dialog **(Tools > Options…)**, select the **Accounts** tab, and then select **Windows authentication broker** from the **Add and reauthenticate accounts using:** dropdown. 
 
 :::image type="content" source="media/vs-2022/windows-authentication-broker.png" alt-text="Select web authentication broker from the dropdown.":::
 
-Windows authentication broker uses [Web Account Manager(WAM)](/entra/msal/dotnet/acquiring-tokens/desktop-mobile/wam) and offers many benefits such as security, MFA support, single sign-on, and seamless integration across applications.
+Windows authentication broker uses [Web Account Manager(WAM)](/entra/msal/dotnet/acquiring-tokens/desktop-mobile/wam) and offers many benefits such as security, improved MFA support, and seamless integration between accounts added to the OS and Visual Studio.
 
 ### Enabling system web browser
 
@@ -58,7 +61,7 @@ To enable this workflow, go to Visual Studio's Options dialog **(Tools > Options
 
 **Windows authentication broker**
 
-Once the Windows authentication broker workflow is enabled, you can sign in or add accounts to Visual Studio as you normally would, via the Account Settings dialog **(File > Account Settings…)**.   
+Once the Windows authentication broker workflow is enabled, you can sign in or add accounts to Visual Studio as you normally would, via the Account Settings dialog **(File > Account Settings…)**. Web Account Manager(WAM) simplifies the sign in experience by allowing users to log in with accounts known to Windows, such as the account signed into your Windows session.
 
 :::image type="content" source="media/vs-2022/add-personalization-account-wam.png" alt-text="Add additional accounts to Visual Studio with the Windows authentication broker workflow.":::
 
