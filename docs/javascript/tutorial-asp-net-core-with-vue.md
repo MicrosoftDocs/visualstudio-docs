@@ -165,17 +165,15 @@ Try deleting the Vue certificates from *%appdata%\local\asp.net\https* or *%appd
 
 If the weather data does not load correctly, you may also need to verify that your ports are correct.
 
-1. Make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `url` or `applicationUrl` property.
+1. Make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core **webapi** project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
 
-   If there are multiple `url` or `applicationUrl` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:5173`.
+   If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:7142`.
 
-1. Then, go to the *vite.config.js* file for your Vue project. Update the url or target property to match the `url` or `applicationUrl` property in *launchSettings.json*. When you update it, that value should look similar to this:
+1. Then, go to the *vite.config.js* file for your Vue project. Update the `target` property to match the `applicationUrl` property in *launchSettings.json*. When you update it, that value should look similar to this:
 
    ```js
-   url: 'https://localhost:5173',
+   target: 'https://localhost:7142/',
    ```
-
-   or:
 
 ### Outdated version of Vue
 
