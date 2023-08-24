@@ -22,7 +22,7 @@ The following notes outline the timeline for support.
 
 :::row::: 
     :::column span="1"::: 
-        Until&nbsp;May&nbsp;2024
+        Before Sept 1 2024
     :::column-end::: 
     :::column span="4":::
         + You can still create and maintain Mono, .NET 6, and .NET 7 applications. You can also continue to develop, maintain, and publish your apps to app stores.  
@@ -33,17 +33,13 @@ The following notes outline the timeline for support.
 :::row-end:::
 :::row::: 
     :::column span="1"::: 
-        After&nbsp;May&nbsp;2024
+        After Aug 31 2024
     :::column-end::: 
     :::column span="4":::
         You can continue to use Visual Studio for Mac after its end-of-life date, but you won't receive any updates including for security. 
     :::column-end::: 
 :::row-end:::
 
-|Time|Supported scenarios|
-|-|-|
-|Until&nbsp;May&nbsp;2024|<li> You can still create and maintain Mono, .NET 6, and .NET 7 applications. You can also continue to develop, maintain, and publish your apps to app stores. <br/><li> Microsoft Customer Service and Support remain available for Visual Studio for Mac. <br/><li> Microsoft continues to provide updates so you can reliably maintain and publish your mobile applications using the latest Xcode, iOS, and Android versions. Microsoft also releases security updates for Visual Studio for Mac.<br/><br/>However, Microsoft doesn't plan to add support for [.NET 8](/dotnet/core/whats-new/dotnet-8/) or [C#12](/dotnet/csharp/whats-new/csharp-12/) to Visual Studio for Mac.  We won't extended to any other workloads before retirement either.|
-|After&nbsp;May&nbsp;2024|You can continue to use Visual Studio for Mac after its end-of-life date, but you won't receive any updates including for security. |
 
 ## Newer options for developing on the Mac
 
