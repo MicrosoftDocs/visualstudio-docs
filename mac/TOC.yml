@@ -1,9 +1,12 @@
 - name: Visual Studio for Mac Docs
   href: index.yml
 - name: Overview
+  expanded: true
   items:
   - name: IDE tour
     href: ide-tour.md
+  - name: "What's happening to VS for Mac"
+    href: what-happened-to-vs-for-mac.md
 - name: Installation
   items:
   - name: Install
