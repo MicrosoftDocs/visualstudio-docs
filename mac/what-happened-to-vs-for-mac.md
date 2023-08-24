@@ -24,7 +24,8 @@ The following notes outline the timeline for support.
     :::column span="1"::: 
         Before Sept 1 2024
     :::column-end::: 
-    :::column span="4"::: You can still:
+    :::column span="4"::: 
+        You can still:
         + Create and maintain Mono, .NET 6, and .NET 7 applications. You can also continue to develop, maintain, and publish your apps to app stores.  
         + Access Microsoft Customer Service and Support for Visual Studio for Mac. 
         + Install product updates we release so you can reliably maintain and publish your mobile applications using the latest Xcode, iOS, and Android versions. Microsoft also releases security updates for Visual Studio for Mac.
