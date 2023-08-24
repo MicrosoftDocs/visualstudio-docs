@@ -39,7 +39,7 @@ You can access resources secured via CA policies such as MFA in Visual Studio. T
 
 ::: moniker range="=vs-2022"
 
-You can access resources secured via CA policies such as MFA in Visual Studio. To use this enhanced workflow, you'll need to opt into using your system's default web browser or the Windows authentication broker (available in Visual Studio version 17.5, but we recommend using version 17.7 or later for an optimal experience) as the mechanism to add and reauthenticate Visual Studio accounts. 
+You can access resources secured via CA policies such as MFA in Visual Studio. To use this enhanced workflow, you'll need to opt into using your system's default web browser or the Windows authentication broker (available in [Visual Studio version 17.5](/visualstudio/releases/2022/release-notes-v17.5), but we recommend using [Visual Studio version 17.7](/visualstudio/releases/2022/release-notes) for an optimal experience) as the mechanism to add and reauthenticate Visual Studio accounts. 
 
 ::: moniker-end
 
@@ -52,7 +52,8 @@ You can access resources secured via CA policies such as MFA in Visual Studio. T
 
 >[!NOTE]
 >Web Account Manager(WAM) is only available on Windows 10 and above, as well as Windows Server 2019 and above.
->Windows authentication broker option is available in [Visual Studio version 17.5](/visualstudio/releases/2022/release-notes-v17.5), but we recommend using [version 17.7](/visualstudio/releases/2022/release-notes) or later for an optimal experience.
+>
+>Windows authentication broker option is available in [Visual Studio version 17.5](/visualstudio/releases/2022/release-notes-v17.5), but we recommend using [Visual Studio version 17.7](/visualstudio/releases/2022/release-notes) or later for an optimal experience.
 
 To enable this workflow, go to Visual Studio's Options dialog **(Tools > Options…)**, select the **Accounts** tab, and then select **Windows authentication broker** from the **Add and reauthenticate accounts using:** dropdown. 
 
@@ -81,9 +82,9 @@ Once the Windows authentication broker workflow is enabled, you can sign in or a
 
 :::image type="content" source="media/vs-2022/add-personalization-account-wam.png" alt-text="Add additional accounts to Visual Studio with the Windows authentication broker workflow.":::
 
-::: moniker-end
-
 **System web browser**
+
+::: moniker-end
 
 Once the system web browser workflow is enabled, you can sign in or add accounts to Visual Studio as you normally would, via the Account Settings dialog **(File > Account Settings…)**.   
 </br>
