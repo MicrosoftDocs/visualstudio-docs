@@ -161,7 +161,7 @@ And, for a step-by-step tutorial on how to connect to a Git or Azure DevOps repo
 > [!NOTE]
 > This feature is currently in public preview. This information relates to a feature that may be substantially modified before it's released. Microsoft makes no warranties, expressed or implied, with respect to the information provided here.
 
-With [Visual Studio 17.7 Preview 3](https://visualstudio.microsoft.com/vs/preview/), you can [enable precaching of Visual Studio caches in dev box images](/azure/dev-box/how-to-generate-visual-studio-caches#enable-visual-studio-caches-in-dev-box-images). As a result, Visual Studio will load your solution and enable key IDE features faster on your dev box. 
+With [Visual Studio 17.7 Preview 3](https://visualstudio.microsoft.com/vs/preview/), you can [pregenerate Visual Studio caches and include them in your dev box image](/azure/dev-box/how-to-generate-visual-studio-caches#enable-visual-studio-caches-in-dev-box-images). As a result, Visual Studio will load your solution and enable key IDE features faster on your dev box. 
 You can also improve the Git performance on large repositories by [enabling Git commit-graph optimizations in dev box images](/azure/dev-box/how-to-generate-visual-studio-caches#enable-git-commit-graph-optimizations-in-dev-box-images).
 
 ::: moniker-end
