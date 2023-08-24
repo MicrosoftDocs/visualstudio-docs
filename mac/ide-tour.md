@@ -43,7 +43,7 @@ To continue exploring features, let's create a new project.
 
    ![Select a template](media/vsmac-2022/ide-tour-select-template.png)
 
-1. On the **Configure your new Console Application** window, ensure **.NET 7.0** appears in the **Target framework** dropdown, and then select **Next**.
+1. On the **Configure your new Console Application** window, ensure **.NET 7.0** appears in the **Target framework** dropdown, and then select **Continue**.
 
    ![Target framework](media/vsmac-2022/ide-tour-target-framework-7.png)
 
