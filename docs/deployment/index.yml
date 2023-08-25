@@ -29,21 +29,19 @@ landingContent:
             url: publish-overview.md
 
   # Card
-  - title: ASP.NET web app deployment
+  - title: ASP.NET web apps
     linkLists:
       - linkListType: tutorial
         links:
           - text: Publish tool
             url: quickstart-deploy-aspnet-web-app.md
-          - text: Azure
-            url: /azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app
           - text: Get publish settings from IIS
             url: tutorial-import-publish-settings-iis.md
           - text: Publish with Git
             url: /azure/app-service/deploy-continuous-deployment
 
   # Card
-  - title: C++ app deployment
+  - title: C++ applications
     linkLists:
       - linkListType: how-to-guide
         links:
@@ -53,7 +51,7 @@ landingContent:
             url: /cpp/windows/walkthrough-deploying-a-visual-cpp-application-by-using-a-setup-project
 
   # Card
-  - title: .NET./.NET Core app deployment
+  - title: .NET./.NET Core apps
     linkLists:
       - linkListType: tutorial
         links:
@@ -69,7 +67,7 @@ landingContent:
             url: /windows/msix/desktop/desktop-to-uwp-packaging-dot-net
 
   # Card
-  - title: .NET Framework desktop app deployment
+  - title: .NET Framework desktop apps
     linkLists:
       - linkListType: tutorial
         links:
@@ -78,6 +76,25 @@ landingContent:
           - text: Installer package
             url: deploying-applications-services-and-components.md#create-an-installer-package-windows-desktop
 
+  # Card
+  - title: Deploy to Azure
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: ASP.NET Core app to App Service
+            url: /azure/app-service/quickstart-dotnetcore?tabs=net70&pivots=development-environment-vs&toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json#publish-your-web-app
+          - text: ASP.NET to App Service (.NET Framework)
+            url: /azure/app-service/app-service-web-get-started-dotnet?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
+          - text: ASP.NET web app to Azure Web Apps
+            url: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
+          - text: ASP.NET Core web app to Azure Container Apps
+            url: /azure/container-apps/deploy-visual-studio?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
+          - text: Azure Functions
+            url: /azure/azure-functions/functions-create-your-first-function-visual-studio?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
+          - text: Deploy with GitHub Actions
+            url: ../azure/azure-deployment-using-github-actions.md
+          - text: Deploy Entity Framework Core app with GitHub Actions
+            url: ../azure/end-to-end-deployment-entity-framework-core-github-actions.md
   # Card
   - title: Additional deployment types
     linkLists:
@@ -89,25 +106,3 @@ landingContent:
             url: ../containers/index.yml
           - text: Publish NuGet packages
             url: /nuget
-
-  # Card
-  - title: Deploy to Azure
-    linkLists:
-      - linkListType: tutorial
-        links:
-          - text: ASP.NET Core app to App Service >>
-            url: /azure/app-service/quickstart-dotnetcore?tabs=net70&pivots=development-environment-vs&toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json#publish-your-web-app
-          - text: ASP.NET to App Service (.NET Framework) >>
-            url: /azure/app-service/app-service-web-get-started-dotnet?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
-          - text: ASP.NET web app to Azure Web Apps >>
-            url: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
-          - text: ASP.NET Core web app to Azure Container Apps >>
-            url: /azure/container-apps/deploy-visual-studio?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
-          - text: Azure Logic Apps >>
-            url: /azure/logic-apps/quickstart-create-logic-apps-with-visual-studio?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
-          - text: Azure Functions >>
-            url: /azure/azure-functions/functions-create-your-first-function-visual-studio?toc=/visualstudio/azure/toc.json&bc=/visualstudio/azure/breadcrumb/toc.json
-          - text: Deploy with GitHub Actions
-            url: ../azure/azure-deployment-using-github-actions.md
-          - text: Deploy Entity Framework Core app with GitHub Actions >>
-            url: ../azure/end-to-end-deployment-entity-framework-core-github-actions.md
