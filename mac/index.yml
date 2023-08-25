@@ -1,14 +1,14 @@
 ### YamlMime:Hub
 
 title: Visual Studio for Mac documentation
-summary: Learn how to use Visual Studio for Mac to develop apps and games for iOS, Android, and web using .NET.
+summary: "Learn how to use Visual Studio for Mac to develop apps and games for iOS, Android, and web using .NET. <br> Important! Visual Studio for Mac is scheduled for retirement on August 31st, 2024 in accordance with Microsoft’s [Modern Lifecycle Policy. While you can continue to work with Visual Studio for Mac, there are several other options for developers on Mac such as the preview version of the new C# Dev Kit extension for VS Code."
 brand: visual-studio
 metadata:
   title: Visual Studio for Mac documentation | Microsoft Docs
   description: This article introduces the features of Visual Studio for Mac.
   author: heiligerdankgesang
   ms.author: dominicn
-  ms.date: 11/18/2021
+  ms.date: 08/18/2023
   ms.topic: hub-page
 
 highlightedContent:
