@@ -1,5 +1,5 @@
 ---
-title: Azure development in Visual Studio
+title: Azure development with Visual Studio
 description: Learn about how you can connect your apps to Azure services in Visual Studio and deploy them to the cloud.
 author: ghogen
 manager: jmartens
