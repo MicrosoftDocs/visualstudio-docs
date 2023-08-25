@@ -60,7 +60,7 @@ Determines how much information is written to the build log file, which is locat
 :::moniker range=">=vs-2022"
 **Run build at low process priority**
 
-Instructs Visual Studio to run all compile and link processes at "Below normal" priority, as managed by the operating system. Selecting this option increases the responsiveness of your computer during the execution of a build, but increases the length of time it takes to complete a build. For information how process priority works on Windows, see [Scheduling priorities](/windows/win32/procthread/scheduling-priorities).
+Instructs Visual Studio to run all compile and link processes at "Below normal" priority, as managed by the operating system. Selecting this option increases the responsiveness of your computer during the execution of a build, but increases the length of time it takes to complete a build. For information about how process priority works on Windows, see [Scheduling priorities](/windows/win32/procthread/scheduling-priorities).
 :::moniker-end
 
 ## See also
