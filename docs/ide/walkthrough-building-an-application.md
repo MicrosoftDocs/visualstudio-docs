@@ -39,7 +39,7 @@ You can change or create configurations and platform settings by using the **Con
 
 1. In the **New Solution Configuration** dialog box, name the new configuration `Test`, copy settings from the existing **Debug** configuration, and then choose the **OK** button.
 
-   ![Screenshot of the New Solution Configuration Dialog Box](../ide/media/buildwalk_newsolutionconfigdlgbox.png)
+   ![Screenshot of the New Solution Configuration Dialog Box.](../ide/media/buildwalk_newsolutionconfigdlgbox.png)
 
 1. In the **Active solution platform** list, choose **\<New...\>**.
 
