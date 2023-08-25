@@ -78,7 +78,7 @@ You can quickly verify or change the active solution configuration by using the 
 
    ![Screenshot showing creating a new project platform in the Configuration Manager.](media/vs-2022/build-tutorial-configuration-manager-platform-new.png)
 
-1. In the **New Platform Platform** dialog box, choose **x64**, and don't copy settings from the x86 platform.
+1. In the **New Project Platform** dialog box, choose **x64**, and don't copy settings from the x86 platform.
 
    ![Screenshot of New solution platform dialog box.](media/vs-2022/build-tutorial-project-configuration-manager-new-project-platform.png)
  
