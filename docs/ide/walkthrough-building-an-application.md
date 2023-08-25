@@ -179,10 +179,10 @@ You can temporarily hide certain warning messages during a build rather than hav
 3. On the **Compile** page, select the **Disable all warnings** check box.
 
      :::moniker range="<=vs-2019"
-     ![Compile page, Project Designer](../ide/media/buildwalk_vbsuppresswarnings.png)
+     ![Compile page, Project Designer.](../ide/media/buildwalk_vbsuppresswarnings.png)
      :::moniker-end
      :::moniker range=">=vs-2022"
-     ![Screenshot of disabling warnings in the Compile tab of the Project Designer](media/vs-2022/build-tutorial-disable-warnings-vb.png)
+     ![Screenshot of disabling warnings in the Compile tab of the Project Designer.](media/vs-2022/build-tutorial-disable-warnings-vb.png)
      :::moniker-end
 
      For more information, see [Configure warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).
@@ -192,10 +192,10 @@ You can temporarily hide certain warning messages during a build rather than hav
    The **Output** window displays only summary information for the build (no warnings).
 
    :::moniker range="<=vs-2019"
-   ![Screenshot of Output Window for Visual Basic with no build warnings](../ide/media/buildwalk_visualbasicbuildwarnings.png)
+   ![Screenshot of Output Window for Visual Basic with no build warnings.](../ide/media/buildwalk_visualbasicbuildwarnings.png)
    :::moniker-end
    :::moniker range=">=vs-2022"
-   ![Screenshot of Output window for Visual Basic with no build warnings](media/vs-2022/build-tutorial-build-output-vb-no-warning.png)
+   ![Screenshot of Output window for Visual Basic with no build warnings.](media/vs-2022/build-tutorial-build-output-vb-no-warning.png)
    :::moniker-end
 
    For more information, see [How to: Suppress compiler warnings](../ide/how-to-suppress-compiler-warnings.md).
@@ -273,10 +273,10 @@ For more information, see [How to: Change the build output directory](../ide/how
 1. Build the application.
 
     :::moniker range="<=vs-2019"
-    ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png)
+    ![Build Solution command on the Build menu.](../ide/media/exploreide-buildsolution.png)
     :::moniker-end
     :::moniker range=">=vs-2022"
-    ![Screenshot of Build Solution command on the Build menu](media/vs-2022/build-tutorial-build-menu.png)
+    ![Screenshot of Build Solution command on the Build menu.](media/vs-2022/build-tutorial-build-menu.png)
     :::moniker-end
 
 ### Specify a release build for C\#
@@ -308,10 +308,10 @@ For more information, see [How to: Change the build output directory](../ide/how
 1. Build the application.
 
     :::moniker range="<=vs-2019"
-    ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png)
+    ![Build Solution command on the Build menu.](../ide/media/exploreide-buildsolution.png)
     :::moniker-end
     :::moniker range=">=vs-2022"
-    ![Screenshot of Build Solution command on the Build menu](media/vs-2022/build-tutorial-build-menu.png)
+    ![Screenshot of Build Solution command on the Build menu.](media/vs-2022/build-tutorial-build-menu.png)
     :::moniker-end
 
    The executable file is copied to the network path that you specified. Its path would be `\\myserver\builds\\FileName.exe`.
