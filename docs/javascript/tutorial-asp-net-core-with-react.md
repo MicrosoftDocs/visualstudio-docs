@@ -156,7 +156,7 @@ If the weather data does not load correctly, you may also need to verify that yo
 
    If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It looks similar to `https://localhost:7183`.
 
-1. Open the *vite.config.js* file for your React project. Update the `target` property to match the `applicationUrl` property in *launchSettings.json*. The updated value looks similar to the following:
+1. Open the *vite.config.js* file for the React project. Update the `target` property to match the `applicationUrl` property in *launchSettings.json*. The updated value looks similar to the following:
 
    ```js
    target: 'https://localhost:7183/',
