@@ -27,12 +27,7 @@ You can use the method described in this article to create ASP.NET Core Single P
 - Put the client app in a separate project, outside from the ASP.NET Core project
 - Create the client project based on the framework CLI installed on your computer
 
-> [!NOTE]
-> A simplified, updated template is available starting in Visual Studio 2022 version 17.5. This template creates two projects in the initial solution and eliminates several configuration steps compared to the previous template. This article describes the project creation process using the template in Visual Studio 2022 version 17.7, which uses the Vite CLI.
-
 ## Prerequisites
-
-Make sure to install the following:
 
 - Visual Studio 2022 version 17.7 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
@@ -41,7 +36,7 @@ Make sure to install the following:
 
 ## Create the frontend app
 
-1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
+1. In the Start window, select **Create a new project**. <!-- Avoid parenthetical clauses. https://review.learn.microsoft.com/en-us/help/contribute/localization-mt-guidance?branch=main-->
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project":::
 
@@ -83,7 +78,7 @@ Make sure to install the following:
 
 ## Start the project
 
-To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
+To start the project, press **F5** or select the **Start** button at the top of the window. You see two command prompts appear:
 
 - The ASP.NET Core API project running
 - The Vite CLI showing a message such as `VITE v4.4.9 ready in 780 ms`
@@ -97,9 +92,6 @@ You should see a React app appear, that is populated via the API. If you don't s
 
 Starting in Visual Studio 2022 version 17.3, you can publish the integrated solution using the Visual Studio Publish tool.
 
->[!NOTE]
-> To use publish, create your JavaScript project using Visual Studio 2022 version 17.3 or later.
-
 1. In Solution Explorer, right-click the ASP.NET Core project and choose **Add** > **Project Reference**.
 
 1. Select the React project and choose **OK**.
@@ -112,7 +104,7 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 
 1. In the *.csproj* file, update the project reference and add `<ReferenceOutputAssembly>` with the value set to `false`.
 
-   When you've updated the reference, it should look like this (substituting your own project folder and project name).
+   When you've updated the reference, it should look like the following. <!-- You can avoid this headache and simplify the instructions by just telling them what to name it -->  The project folder and project name differ.
 
    ```xml
    <ProjectReference Include="..\reactprojectfolder\reactprojectname.esproj">
@@ -162,9 +154,9 @@ If the weather data does not load correctly, you may also need to verify that yo
 
 1. Make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core **webapi** project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
 
-   If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:7183`.
+   If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It looks similar to `https://localhost:7183`.
 
-1. Then, go to the *vite.config.js* file for your React project. Update the `target` property to match the `applicationUrl` property in *launchSettings.json*. When you update it, that value should look similar to this:
+1. Open the *vite.config.js* file for your React project. Update the `target` property to match the `applicationUrl` property in *launchSettings.json*. The updated value looks similar to the following:
 
    ```js
    target: 'https://localhost:7183/',
