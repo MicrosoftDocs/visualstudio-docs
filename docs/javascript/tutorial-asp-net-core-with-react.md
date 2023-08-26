@@ -90,15 +90,13 @@ You should see a React app appear, that is populated via the API. If you don't s
 
 ## Publish the project
 
-Starting in Visual Studio 2022 version 17.3, you can publish the integrated solution using the Visual Studio Publish tool.
-
-1. In Solution Explorer, right-click the ASP.NET Core project and choose **Add** > **Project Reference**.
+1. In Solution Explorer, right-click the ASP.NET Core project and select **Add** > **Project Reference**.
 
 1. Select the React project and choose **OK**.
 
-1. Right-click the ASP.NET Core project in Solution Explorer and choose **Unload project**.
+1. Right-click the ASP.NET Core project in Solution Explorer and select **Unload project**.
 
-1. Right-click the ASP.NET Core project again and choose **Edit Project File**.
+1. Right-click the ASP.NET Core project again and select **Edit Project File**.
 
    This opens the *.csproj* file for the project.
 
