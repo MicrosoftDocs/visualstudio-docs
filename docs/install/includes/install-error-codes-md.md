@@ -28,6 +28,7 @@ ms.topic: include
 | 8004 | Target directory failure |
 | 8005 | Verifying source payloads failure |
 | 8006 | Visual Studio processes running |
+| 8010 | Operating System not supported.  Refer to the [System Requirements](/visualstudio/releases/2022/system-requirements) |
 | -1073720687 | Connectivity failure |
 | -1073741510 | Microsoft Visual Studio Installer was terminated (by the user or external process) |
 | Other<br>(for example:<br>-1, 1, 1603) | Failure condition occurred - check the logs for more information |
