@@ -27,9 +27,6 @@ You can use the method described in this article to create ASP.NET Core Single P
 - Put the client app in a separate project, outside from the ASP.NET Core project
 - Create the client project based on the framework CLI installed on your computer
 
-> [!NOTE]
-> A simplified, updated template is available starting in Visual Studio 2022 version 17.5. This template creates two projects in the initial solution and eliminates several configuration steps compared to the previous template. This article describes the project creation process using the new template.
-
 ## Prerequisites
 
 Make sure to install the following:
@@ -82,7 +79,7 @@ Make sure to install the following:
 
 ## Start the project
 
-To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
+To start the project, press **F5** or select the **Start** button at the top of the window. You see two command prompts appear:
 
 - The ASP.NET Core API project running
 - The Angular CLI running the ng start command
@@ -90,7 +87,7 @@ To start the project, press **F5** or select the **Start** button at the top of 
 >[!NOTE]
 > Check console output for messages, such as a message instructing you to update your version of Node.js.
 
-You should see an Angular app appear, that is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
+You see an Angular app appear, populated using the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
 
 ## Publish the project
 

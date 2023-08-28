@@ -28,7 +28,7 @@ You can use the method described in this article to create ASP.NET Core Single P
 - Create the client project based on the framework CLI installed on your computer
 
 > [!NOTE]
-> A simplified, updated template is available starting in Visual Studio 2022 version 17.5. This template creates two projects in the initial solution and eliminates several configuration steps compared to the previous template. This article describes the project creation process using the template in Visual Studio 2022 version 17.7, which uses the Vite CLI.
+> This article describes the project creation process using the template in Visual Studio 2022 version 17.7, which uses the Vite CLI.
 
 ## Prerequisites
 
@@ -78,7 +78,7 @@ Make sure to install the following:
 
 ## Start the project
 
-To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
+To start the project, press **F5** or select the **Start** button at the top of the window. You see two command prompts appear:
 
 - The ASP.NET Core API project running
 - The Vite CLI showing a message such as `VITE v4.4.9 ready in 780 ms`
@@ -86,7 +86,7 @@ To start the project, press **F5** or select the **Start** button at the top of 
 >[!NOTE]
 > Check console output for messages, such as a message instructing you to update your version of Node.js.
 
-You should see the Vue app appear, that is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
+The Vue app appears, populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
 
 ## Publish the project
 
@@ -105,7 +105,7 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 
 1. In the *.csproj* file, update the project reference and add `<ReferenceOutputAssembly>` with the value set to `false`.
 
-   When you've updated the reference, it should look like this (substituting your own project folder and project name).
+   When you've updated the reference, it looks like this (substituting your own project folder and project name).
 
    ```xml
    <ProjectReference Include="..\vueprojectfolder\vueprojectname.esproj">
