@@ -88,8 +88,6 @@
         href: office-projects-in-the-visual-studio-environment.md
       - name: Properties in Office Projects
         href: properties-in-office-projects.md
-      - name: Application and Deployment Manifests in Office Solutions
-        href: application-and-deployment-manifests-in-office-solutions.md
       - name: Target Office Applications Through Primary Interop Assemblies
         href: how-to-target-office-applications-through-primary-interop-assemblies.md
       - name: Using Office Functionality Inside of Visual Studio
@@ -284,8 +282,6 @@
             href: how-to-populate-worksheets-with-data-from-a-database.md
           - name: Populate Documents with Data from a Database
             href: how-to-populate-documents-with-data-from-a-database.md
-          - name: Populate Documents with Data from Services
-            href: how-to-populate-documents-with-data-from-services.md
           - name: 'Walkthrough: Binding to Data from a Service in a VSTO add-in Project'
             href: walkthrough-binding-to-data-from-a-service-in-a-vsto-add-in-project.md
           - name: Populate Documents with Data from Objects
@@ -294,8 +290,6 @@
             href: how-to-scroll-through-database-records-in-a-worksheet.md
           - name: Update a Data Source with Data from a Host Control
             href: how-to-update-a-data-source-with-data-from-a-host-control.md
-          - name: 'Walkthrough: Simple Data Binding in a Document-Level Project'
-            href: walkthrough-simple-data-binding-in-a-document-level-project.md
           - name: 'Walkthrough: Simple Data Binding in VSTO add-in Project'
             href: walkthrough-simple-data-binding-in-vsto-add-in-project.md
           - name: 'Walkthrough: Complex Data Binding in VSTO add-in Project'
@@ -456,8 +450,6 @@
           href: worksheet-host-item.md
         - name: Chart Control
           href: chart-control.md
-        - name: ListObject Control
-          href: listobject-control.md
         - name: NamedRange Control
           href: namedrange-control.md
         - name: XmlMappedRange Control
@@ -572,8 +564,6 @@
           href: walkthrough-designing-an-outlook-form-region.md
         - name: 'Walkthrough: Importing a Form Region That Is Designed in Outlook'
           href: walkthrough-importing-a-form-region-that-is-designed-in-outlook.md
-        - name: Accessing a Form Region at Run Time
-          href: accessing-a-form-region-at-run-time.md
         - name: Prevent Outlook from Displaying a Form Region
           href: how-to-prevent-outlook-from-displaying-a-form-region.md
         - name: Custom Actions in Outlook Form Regions
@@ -792,8 +782,6 @@
         href: security-and-deployment-walkthroughs.md
     - name: General Reference (Office Development in Visual Studio)
       items:
-      - name: General Reference (Office Development in Visual Studio)
-        href: general-reference-office-development-in-visual-studio.md
       - name: Office Primary Interop Assemblies
         href: office-primary-interop-assemblies.md
       - name: Application Manifests for Office Solutions
