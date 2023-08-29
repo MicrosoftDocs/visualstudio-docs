@@ -18,14 +18,14 @@ ms.workload:
 
 [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-> [!Note]
-> Linux is the only operating system option for running Python apps in App Service. Python on Windows is no longer supported, see [App Service Linux Docs - Python Support](https://github.com/Azure/app-service-linux-docs/blob/master/Runtime_Support/python_support.md). You can, however, build your own custom Windows container image and run that in App Service. For more information, see [use a custom Docker image](https://learn.microsoft.com/azure/app-service/tutorial-custom-container).
+> [!NOTE]
+> Linux is the only operating system option for running Python apps in App Service. Python on Windows is no longer supported, see [App Service Linux Docs - Python Support](https://github.com/Azure/app-service-linux-docs/blob/master/Runtime_Support/python_support.md). You can, however, build your own custom Windows container image and run that in App Service. For more information, see [use a custom Docker image](../app-service/tutorial-custom-container).
 
 Visual Studio provides the capability to publish a Python web app directly to Azure App Service on Linux. Publishing to Azure App Service on Linux means copying the necessary files to the server and setting up an appropriate `web.config` file that instructs the web server how to launch your app.
 
 The publishing process differs between Visual Studio 2017 and later and Visual Studio 2015. Specifically, Visual Studio 2015 automates some of the steps, including the creation of `web.config`, but this automation limits long-term flexibility and control. Visual Studio 2017 and later requires more manual steps but provides more exact control over your Python environment. Both options are described here.
 
-> [!Note]
+> [!NOTE]
 > For background on the changes between Visual Studio 2015 and Visual Studio 2017 and later, see the blog post, [Publish to Azure in Visual Studio 2017](https://devblogs.microsoft.com/python/publish-to-azure-in-vs-2017/).
 
 ## Prerequisites
@@ -44,7 +44,7 @@ Publishing to Azure requires a target App Service. For this purpose you can crea
 
 If you don't already have a subscription, start with a [free full Azure account](https://azure.microsoft.com/free/), which includes generous credits for Azure services. Also consider signing up for [Visual Studio Dev Essentials](https://azure.microsoft.com/pricing/member-offers/vs-dev-essentials/), which gives you $25 credit every month for a full year.
 
-> [!Tip]
+> [!TIP]
 > Although Azure asks for a credit card to verify your account, the card is not charged. You can also set a [spending limit](/azure/billing/billing-spending-limit) equal to your free credits to guarantee that no extra charges occur. In addition, Azure provides a free App Service plan tier that's ideal for simple test apps as described in the next section.
 
 ### Using a subscription
@@ -181,7 +181,7 @@ Publishing to Azure App Service from Visual Studio 2017 and later copies only th
 
 ## Publishing to App Service - Visual Studio 2015
 
-> [!Note]
+> [!NOTE]
 > A short video of this process can be found on [Visual Studio Python Tutorial: Building a Website](https://www.youtube.com/watch?v=FJx5mutt1uk&list=PLReL099Y5nRdLgGAdrb_YeTdEnd23s6Ff&index=6) (youtube.com, 3m10s).
 
 1. In **Solution Explorer**, right-click the project and select **Publish**.
