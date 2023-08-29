@@ -178,7 +178,7 @@ There are many different ways to update an installation of Visual Studio. You ca
 1. If you chose **View details**, then in the subsequent **Update available** dialog box, choose **Update**.
 
 >[!NOTE]
->The **Update on Close** command that is found in both the update notification message box or in the **Notification** hub is not a permanent setting; it applies only to the current update. In other words, the **Update on close** deferral must be chosen each time you acknowledge or dismiss the notification that the update is available. 
+>The **Update on Close** command that is found in both the update notification message box or in the **Notification** hub is not a permanent setting; it applies only to the current update. It is a way to defer the update to when you voluntarily close Visual Studio. Refer to the next section to learn how to configure this setting permanently. 
 
 ## Manually check for updates in the IDE
 
