@@ -15,6 +15,7 @@ ms.workload:
   - "nodejs"
 monikerRange: '>= vs-2022'
 ---
+
 # Create an Angular app
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
