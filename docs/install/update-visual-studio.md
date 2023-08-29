@@ -195,7 +195,7 @@ There are several different settings that can be customized to control the updat
 
 ### Always Update on Close and other download behaviors
 
-1. On the menu bar, choose **Tools** > **Options**. Expand **Environment**, and then choose **Product Updates**. Observe the acquisition configuration options that are available to set in this dialog.
+1. On the menu bar, choose **Tools** > **Options**. Expand **Environment**, and then choose **Product Updates**. Observe the configuration options that are available to set in this dialog.
 
     ![Screenshot showing the Updates settings in the Options window of the Visual Studio IDE.](media/vs-2022/update-settings-options.png)
 
