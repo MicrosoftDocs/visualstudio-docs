@@ -34,8 +34,6 @@
         href: getting-started-programming-vsto-add-ins.md
       - name: VBA and Office Solutions in Visual Studio Compared
         href: vba-and-office-solutions-in-visual-studio-compared.md
-      - name: Common Tasks in Office Programming
-        href: common-tasks-in-office-programming.md
       - name: Additional Resources for Developing Office Solutions
         href: additional-resources-for-developing-office-solutions.md
       - name: Visual Studio Tools for Office Runtime Lifecycle Policy
@@ -94,8 +92,6 @@
         href: application-and-deployment-manifests-in-office-solutions.md
       - name: Target Office Applications Through Primary Interop Assemblies
         href: how-to-target-office-applications-through-primary-interop-assemblies.md
-      - name: Set Up Configuration Information for an Office Solution
-        href: how-to-set-up-configuration-information-for-an-office-solution.md
       - name: Using Office Functionality Inside of Visual Studio
         items:
         - name: Using Office Functionality Inside of Visual Studio
@@ -226,8 +222,6 @@
             href: walkthrough-updating-the-controls-on-a-ribbon-at-run-time.md
           - name: Customizing a Ribbon for Outlook
             href: customizing-a-ribbon-for-outlook.md
-          - name: Customizing a Ribbon for InfoPath
-            href: customizing-a-ribbon-for-infopath.md
           - name: Accessing the Ribbon at Run Time
             href: accessing-the-ribbon-at-run-time.md
           - name: Change the Position of a Tab on the Ribbon
@@ -256,8 +250,6 @@
             href: walkthrough-binding-data-to-controls-on-a-word-actions-pane.md
           - name: 'Walkthrough: Binding Data to Controls on an Excel Actions Pane'
             href: walkthrough-binding-data-to-controls-on-an-excel-actions-pane.md
-          - name: 'Walkthrough: Inserting Text into a Document from an Actions Pane'
-            href: walkthrough-inserting-text-into-a-document-from-an-actions-pane.md
         - name: Custom Task Panes
           items:
           - name: Custom Task Panes
@@ -304,8 +296,6 @@
             href: how-to-update-a-data-source-with-data-from-a-host-control.md
           - name: 'Walkthrough: Simple Data Binding in a Document-Level Project'
             href: walkthrough-simple-data-binding-in-a-document-level-project.md
-          - name: 'Walkthrough: Complex Data Binding in a Document-Level Project'
-            href: walkthrough-complex-data-binding-in-a-document-level-project.md
           - name: 'Walkthrough: Simple Data Binding in VSTO add-in Project'
             href: walkthrough-simple-data-binding-in-vsto-add-in-project.md
           - name: 'Walkthrough: Complex Data Binding in VSTO add-in Project'
@@ -338,10 +328,6 @@
             items:
             - name: Accessing Data in Documents on the Server
               href: accessing-data-in-documents-on-the-server.md
-            - name: 'Walkthrough: Inserting Data into a Workbook on a Server'
-              href: walkthrough-inserting-data-into-a-workbook-on-a-server.md
-            - name: 'Walkthrough: Retrieving Cached Data from a Workbook on a Server'
-              href: walkthrough-retrieving-cached-data-from-a-workbook-on-a-server.md
             - name: 'Walkthrough: Changing Cached Data in a Workbook on a Server'
               href: walkthrough-changing-cached-data-in-a-workbook-on-a-server.md
         - name: XML Schemas and Data in Document-Level Customizations
@@ -402,8 +388,6 @@
             href: how-to-programmatically-protect-workbooks.md
           - name: Programmatically List Recently Used Workbook Files
             href: how-to-programmatically-list-recently-used-workbook-files.md
-          - name: Programmatically Open Text Files as Workbooks
-            href: how-to-programmatically-open-text-files-as-workbooks.md
         - name: Working with Worksheets
           items:
           - name: Working with Worksheets
@@ -496,8 +480,6 @@
           href: how-to-map-listobject-columns-to-data.md
         - name: Fill ListObject Controls with Data
           href: how-to-fill-listobject-controls-with-data.md
-        - name: 'Walkthrough: Programming Against Events of a NamedRange Control'
-          href: walkthrough-programming-against-events-of-a-namedrange-control.md
       - name: Understanding Coauthoring and Add-Ins
         href: understanding-coauthoring-and-addins.md
       - name: Globalization and Localization of Excel Solutions
@@ -510,8 +492,6 @@
         href: walkthrough-creating-your-first-vsto-add-in-for-excel.md
       - name: 'Walkthrough: Adding Controls to a Worksheet at Run Time in VSTO add-in Project'
         href: walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md
-    - name: InfoPath Solutions
-      href: infopath-solutions.md
     - name: Outlook Solutions
       items:
       - name: Outlook Solutions
@@ -628,8 +608,6 @@
           href: how-to-programmatically-open-visio-documents.md
         - name: Programmatically Close Visio Documents
           href: how-to-programmatically-close-visio-documents.md
-        - name: Programmatically Save Visio Documents
-          href: how-to-programmatically-save-visio-documents.md
         - name: Programmatically Print Visio Documents
           href: how-to-programmatically-print-visio-documents.md
       - name: Working with Visio Shapes
@@ -676,8 +654,6 @@
             href: how-to-programmatically-check-spelling-in-documents.md
           - name: Programmatically Add Headers and Footers to Documents
             href: how-to-programmatically-add-headers-and-footers-to-documents.md
-          - name: Programmatically Remove All Comments from Documents
-            href: how-to-programmatically-remove-all-comments-from-documents.md
         - name: Working with Text in Documents
           items:
           - name: Working with Text in Documents
@@ -738,8 +714,6 @@
           href: bookmark-control.md
         - name: XMLNode Control
           href: xmlnode-control.md
-        - name: XMLNodes Control
-          href: xmlnodes-control.md
         - name: Add Content Controls to Word Documents
           href: how-to-add-content-controls-to-word-documents.md
         - name: Add Bookmark Controls to Word Documents
@@ -806,8 +780,6 @@
       items:
       - name: Samples and Walkthroughs
         href: office-development-samples-and-walkthroughs.md
-      - name: Office Development Samples
-        href: office-development-samples.md
       - name: Walkthroughs Using Word
         href: walkthroughs-using-word.md
       - name: Walkthroughs Using Excel
