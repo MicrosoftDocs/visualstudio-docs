@@ -40,7 +40,7 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 
 0. In this step, you have the chance to identify areas of interest to you.  To expedite the account creation process, select **Not sure yet.  I’m open!**  (You can identify areas of interest later.)
 
-0. When you provided your email address, you were sent a message containing a confirmation code.  The message is from “Linkedin Messages”.  Enter the code from the message and select **Verify**.  If you don’t find it in your inbox, check your junk mail folders.  
+0. When you provided your email address, you were sent a message containing a confirmation code.  The message is from “Linkedin Messages.”  Enter the code from the message and select **Verify**.  If you don’t find it in your inbox, check your junk mail folders.  
 
 0. If you would like to import your contacts from the email account you entered earlier, you can do that now.  Otherwise, select **Skip**. (If you choose to skip this step, you're asked to confirm your choice.  Select **Yes**.)
 
@@ -73,15 +73,15 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 
 | Subscription Level | Channels | Benefit | Renewable? |
 |--------------------|----------|---------|------------|
-| Visual Studio Enterprise (Standard)   | VL, Azure, Retail\* | 6 months |  No.  Available to new subscribers only |
-| Visual Studio Enterprise subscription with GitHub Enterprise   | VL | 6 months |  No.  Available to new subscribers only |
-| Visual Studio Professional (Standard) | VL, Azure, Retail | 3 months | No.  Available to new subscribers only |
-| Visual Studio Professional subscription with GitHub Enterprise | VL | 3 months | No.  Available to new subscribers only |
+| Visual Studio Enterprise (Standard)   | VL, Azure, Retail\* | Six months |  No.  Available to new subscribers only |
+| Visual Studio Enterprise subscription with GitHub Enterprise   | VL | Six months |  No.  Available to new subscribers only |
+| Visual Studio Professional (Standard) | VL, Azure, Retail | Three months | No.  Available to new subscribers only |
+| Visual Studio Professional subscription with GitHub Enterprise | VL | Three months | No.  Available to new subscribers only |
 | Visual Studio Test Professional (Standard) | VL, Retail | Not available |  NA |
 | MSDN Platforms (Standard) | VL, Retail | Not available | NA |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | NA |
 
-\*  *Excludes:  Visual Studio Dev Essentials, NFR, NFR Basic, Visual Studio Industry Partner, Microsoft Cloud Partner Program, FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  MCT Software & Services.*
+\*  *Excludes:  NFR, NFR Basic, Visual Studio Industry Partner, Microsoft Cloud Partner Program, FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD).  MCT Software & Services.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
