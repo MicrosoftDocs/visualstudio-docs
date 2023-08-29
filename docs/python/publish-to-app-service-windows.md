@@ -19,11 +19,8 @@ ms.workload:
 [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 > [!NOTE]
-> Linux is the only operating system option for running Python apps in App Service. Python on Windows is no longer supported, see [App Service Linux Docs - Python Support](https://github.com/Azure/app-service-linux-docs/blob/master/Runtime_Support/python_support.md). You can, however, build your own custom Windows container image and run that in App Service. For more information, see [use a custom Docker image](../azure/app-service/tutorial-custom-container).
-> [use a custom Docker image](./azure/app-service/tutorial-custom-container).
-> [use a custom Docker image](/azure/app-service/tutorial-custom-container).
-> [use a custom Docker image](azure/app-service/tutorial-custom-container).
-> 
+> Linux is the only operating system option for running Python apps in App Service. Python on Windows is no longer supported, see [App Service Linux Docs - Python Support](https://github.com/Azure/app-service-linux-docs/blob/master/Runtime_Support/python_support.md). You can, however, build your own custom Windows container image and run that in App Service. For more information, see [use a custom Docker image](/azure/app-service/tutorial-custom-container).
+
 Visual Studio provides the capability to publish a Python web app directly to Azure App Service on Linux. Publishing to Azure App Service on Linux means copying the necessary files to the server and setting up an appropriate `web.config` file that instructs the web server how to launch your app.
 
 The publishing process differs between Visual Studio 2017 and later and Visual Studio 2015. Specifically, Visual Studio 2015 automates some of the steps, including the creation of `web.config`, but this automation limits long-term flexibility and control. Visual Studio 2017 and later requires more manual steps but provides more exact control over your Python environment. Both options are described here.
