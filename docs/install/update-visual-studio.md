@@ -24,7 +24,7 @@ ms.workload:
 
 This topic discusses how to update a client installation of Visual Studio on Windows. For Visual Studio for Mac, see [Update Visual Studio for Mac](/visualstudio/mac/update).
 
-Visual Studio must first be [installed on the machine](visualstudio/install/install-visual-studio.md) before you can update it. 
+Visual Studio must first be [installed on the machine](../install/install-visual-studio.md) before you can update it. 
 
 If you are an IT Administrator and want to configure your organization's clients to update from a network layout, refer to the [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide), particularly the section on [manage and update a network installation](../install/update-a-network-installation-of-visual-studio.md).
 
@@ -116,7 +116,7 @@ There are several different settings that can be customized to control the updat
 1. Observe the configuration options that are available to set in this dialog. You can choose the **Automatically download updates** setting, which allows updates to download while your machine is idle. There are also two installation modes to choose from: **Install while downloading**, and **Download all, then install**.   Choose the installation mode and the automatic download setting you want for your Visual Studio updates.
 
 ### Configure source location of updates
-If you're in an enterprise environment, then it's possible to configure the location that your client instances look for updates. This is useful in situations where your client installed from a network layout, but you later want the clients to get updates from a different network layout. The ability to configure update locations requires the presence of the newer Visual Studio 2022 installer, which can be obtained by [acquiring the latest installer on the client machine](#install-the-latest-and-greatest-installer), or by an administrator [pushing the latest installer out through a network layout](create-a-network-installation-of-visual-studio.md#ensure-your-layout-is-using-the-latest-installer). For more information about how to use this feature, refer to the [Visual Studio 2022 documentation on configuring source location of updates](/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1).  
+If you're in an enterprise environment, then it's possible to configure the location that your client instances look for updates. This is useful in situations where your client installed from a network layout, but you later want the clients to get updates from a different network layout. The ability to configure update locations requires the presence of the newer Visual Studio 2022 installer, which can be obtained by [acquiring the latest installer on the client machine](#use-the-latest-and-greatest-installer), or by an administrator [pushing the latest installer out through a network layout](create-a-network-installation-of-visual-studio.md#ensure-your-layout-is-using-the-latest-installer). For more information about how to use this feature, refer to the [Visual Studio 2022 documentation on configuring source location of updates](/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1).  
 
 ::: moniker-end
 
@@ -178,7 +178,7 @@ There are many different ways to update an installation of Visual Studio. You ca
 1. If you chose **View details**, then in the subsequent **Update available** dialog box, choose **Update**.
 
 >[!NOTE]
->The **Update on Close** command that is found in both the update notification message box or in the **Notification** hub is not a permanent setting; it applies only to the current update. It is a way to defer the update to when you voluntarily close Visual Studio. Refer to the next section to learn how to configure this setting permanently. 
+>The **Update on Close** command that is found in both the update notification message box or in the **Notification** hub is not a permanent setting; it applies only to the current update. It is a way to defer the update to when you voluntarily close Visual Studio. Refer to the [Customize update settings](#always-update-on-close-and-other-download-behaviors) section to learn how to configure this setting permanently. 
 
 ## Manually check for updates in the IDE
 
@@ -243,7 +243,7 @@ If you are part of an organization that centralizes management of software insta
 
 ## Remove out-of-support components
 
-Using the [latest Visual Studio 2022 installer](#install-the-latest-and-greatest-installer), you can now bulk remove [components that have transitioned to an out-of-support state](/visualstudio/install/out-of-support-components). You can manually remove them by using the installer as described below, you can remove them [programmatically](./use-command-line-parameters-to-install-visual-studio.md), or you can have them removed via machine wide [policy](/visualstudio/install/set-defaults-for-enterprise-deployments). Learn more about [removing out-of-support components](https://aka.ms/vs/removeoos/blog) and how it can help keep your software environment secure.
+Using the [latest Visual Studio 2022 installer](#use-the-latest-and-greatest-installer), you can now bulk remove [components that have transitioned to an out-of-support state](/visualstudio/install/out-of-support-components). You can manually remove them by using the installer as described below, you can remove them [programmatically](./use-command-line-parameters-to-install-visual-studio.md), or you can have them removed via machine wide [policy](/visualstudio/install/set-defaults-for-enterprise-deployments). Learn more about [removing out-of-support components](https://aka.ms/vs/removeoos/blog) and how it can help keep your software environment secure.
 
 To bulk remove out-of-support components manually through the UI you can 
 
