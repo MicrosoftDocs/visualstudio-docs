@@ -75,7 +75,7 @@ There are several different ways to update an installation of Visual Studio. You
 
     ![Screenshot showing the 'Visual Studio 2019 update' message in the IDE.](media/vs-2019/update-visual-studio-ide-message.png "The 'Visual Studio 2019 update' message in the IDE")
 
-1. If you chose **View details**, then in the subsequent **Update downloaded and ready to install** dialog box, choose **Update** to update now.
+1. If you chose **View details**, then in the subsequent dialog box, choose **Update** to update now.
 
      ![Screenshot showing the Update button in the 'Update downloaded and ready to install' dialog box.](media/vs-2019/update-ready-install.png "Choose the Update button in the 'Update downloaded and ready to install' dialog box")
 
@@ -89,7 +89,7 @@ There are several different ways to update an installation of Visual Studio. You
 
      ![Screenshot showing the Notification hub in Visual Studio 2019.](media/vs-2019/notification-hub-details-and-update-on-close.png "The Notification hub in Visual Studio 2019")
 
-1. If you chose **View details**, then in the subsequent **Update available** dialog box, choose **Update**.
+1. If you chose **View details**, then in the subsequent dialog box, choose **Update**.
 
 ## Manually check for updates
 
