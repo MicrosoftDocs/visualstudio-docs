@@ -24,6 +24,8 @@ ms.workload:
 
 This topic discusses how to update a client installation of Visual Studio on Windows. For Visual Studio for Mac, see [Update Visual Studio for Mac](/visualstudio/mac/update).
 
+Visual Studio must first be [installed on the machine](visualstudio/install/install-visual-studio.md) before you can update it. 
+
 If you are an IT Administrator and want to configure your organization's clients to update from a network layout, refer to the [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide), particularly the section on [manage and update a network installation](../install/update-a-network-installation-of-visual-studio.md).
 
 ## Before you update
@@ -32,13 +34,11 @@ By default, in order to install, update, or modify Visual Studio, the account pe
 
 Visual Studio must be closed before performing an update. We highly recommend saving your work before performing an update.
 
-Visual Studio must first be installed on the machine before you can update it. To install the current version of Visual Studio from Microsoft hosted servers, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page. If you are currently using another instance of Visual Studio, you can either [install a new instance of Visual Studio side-by-side to your existing installation](../install/install-visual-studio-versions-side-by-side.md), or you can [uninstall the previous instance of Visual Studio](../install/uninstall-visual-studio.md) before installing this new one.
-
 ::: moniker range="vs-2019"
 
 We encourage you to update to the most [recent release](/visualstudio/releases/2019/release-notes/) of Visual Studio 2019 so that you always get the latest features, security fixes, and improvements. And if you'd like to try out our newest version, consider downloading and installing [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta).
 
-There are several different ways to update an installation of Visual Studio. You can update through the Visual Studio Installer, you can check for updates or use the Notification hub in the IDE, or you can update by running a [specific version of the bootstrapper](/visualstudio/releases/2019/history). Here's how to update Visual&nbsp;Studio&nbsp;2019 using these various methods.
+There are several different ways to update an installation of Visual Studio. You can update through the Visual Studio Installer, you can check for updates or use the Notification hub in the IDE, you can configure Visual Studio to update on close, you can update by running a [specific version of the bootstrapper](/visualstudio/releases/2019/history), you can update Visual Studio programmatically, or you can be part of an organization that uses Administrator updates. Here's how to update Visual&nbsp;Studio&nbsp;2019 using these various methods.
 
 ## Use the Visual Studio Installer
 
@@ -51,7 +51,7 @@ There are several different ways to update an installation of Visual Studio. You
    You might have to update the installer before continuing. If so, follow the prompts. 
    
 >[!NOTE]
->Visual Studio setup features and bug fixes are typically implemented in the installer. The installer is now shipping in the most current release of all currently supported Visual Studio products. This means that in general (unless otherwise specified), all new setup functionality often just works seamlessly in older versions of the product.    
+>Visual Studio setup features and bug fixes are typically implemented in the installer. The installer is now shipping in the most current release of all currently supported Visual Studio products. This means that in general (unless otherwise specified), all new setup functionality is just automatically availalbe and works seamlessly in older versions of the product.    
 
 1. In the installer, look for the instance of Visual Studio that you want to update.
 
@@ -71,7 +71,7 @@ There are several different ways to update an installation of Visual Studio. You
 
 ## Use the message box in the IDE
 
-1.  When you open Visual Studio, the IDE checks to see if an update is available. In certain situations, a **Visual Studio 2019 update** message will briefly appear. If you want to update now, then choose **View details**. If you want to defer the update until when you close Visual Studio, choose **Update on Close**.
+1.  When you open Visual Studio, the IDE checks to see if an update is available. In certain situations, a **Visual Studio 2019 update** message will briefly appear. If you want to update now, then choose **View details**. If you want to defer the update until when you close Visual Studio, choose **Update on close**.
    
     ![Screenshot showing the 'Visual Studio 2019 update' message in the IDE.](media/vs-2019/update-visual-studio-ide-message.png "The 'Visual Studio 2019 update' message in the IDE")
 
@@ -79,20 +79,20 @@ There are several different ways to update an installation of Visual Studio. You
 
      ![Screenshot showing the Update button in the 'Update downloaded and ready to install' dialog box.](media/vs-2019/update-ready-install.png "Choose the Update button in the 'Update downloaded and ready to install' dialog box")
 
-## Use the Notifications hub
+## Use the Notifications hub in the IDE
 
 1. Choose the notification icon from the lower-right corner of the Visual Studio IDE to open the **Notifications** hub.
 
    ![Screenshot showing the notification icon in the Visual Studio IDE.](media/vs-2019/notification-bar.png "The notification icon in the Visual Studio IDE")
 
-1. In the **Notifications hub**, choose the update that you want to install. If you want to update now, then choose **View details** and then in the subsequent dialog box, choose **Update** to update now. If you want to defer the update until when you close Visual Studio, choose **Update on Close**. 
+1. In the **Notifications hub**, choose the update that you want to install. If you want to update now, then choose **View details** and then in the subsequent dialog box, choose **Update** to update now. If you want to defer the update until when you close Visual Studio, choose **Update on close**. 
 
      ![Screenshot showing the Notification hub in Visual Studio 2019.](media/vs-2019/notification-hub-details-and-update-on-close.png "The Notification hub in Visual Studio 2019")
 
 >[!NOTE]
->The **Update on Close** command that is found in both the update notification message box or in the **Notification** hub is not a permanent setting; it applies only to the current update. In other words, the **Update on close** deferral must be chosen each time you acknowledge or dismiss the notification that the update is available.
+>The **Update on close** command that is found in both the update notification message box or in the **Notification** hub is not a permanent setting; it applies only to the current update. It is a way to defer the update to when you voluntarily close Visual Studio. In Visual Studio 2019, the **Update on close** deferral must be chosen each time you acknowledge or dismiss the notification that the update is available. 
 
-## Manually check for updates
+## Manually check for updates in the IDE
 
 1. You can check to see if an update is available by choosing **Help** from the menu bar, and then choosing **Check for Updates**.  You can also use the search box by pressing **Ctrl**+**Q**, typing "check for updates", and then choosing the search result that matches. In the subsequent **Update available** dialog box, choose **Update**.
 
@@ -124,7 +124,7 @@ If you're in an enterprise environment, then it's possible to configure the loca
 
 We encourage you to update to the most [recent release](/visualstudio/releases/2022/release-notes) of Visual Studio 2022 so that you always get the latest features, security fixes, and improvements.
 
-There are several different ways to update an installation of Visual Studio. You can update through the Visual Studio Installer, you can check for updates or use the notification hub in the IDE, or you can update by running a [specific version of the bootstrapper](/visualstudio/releases/2022/release-history). Here's how to update Visual&nbsp;Studio&nbsp;2022 using these various methods.
+There are many different ways to update an installation of Visual Studio. You can update through the Visual Studio Installer, you can check for updates or use the notification hub in the IDE, you configure Visual Studio to update upon close, you can update by running a [specific version of the bootstrapper](/visualstudio/releases/2022/release-history), you can update Visual Studio programmatically, or you can be part of an organization that uses Administrator updates. Here's how to update Visual&nbsp;Studio&nbsp;2022 using these various methods.
 
 ## Use the Visual Studio Installer
 
@@ -137,7 +137,7 @@ There are several different ways to update an installation of Visual Studio. You
    If you're prompted to update the Visual Studio Installer before continuing, do so by following the prompts.
    
 >[!NOTE]
->Visual Studio setup features and bug fixes are typically implemented in the installer. The installer is now shipping in the most current release of all currently supported Visual Studio products. This means that in general (unless otherwise specified), all new setup functionality often just works seamlessly in older versions of the product.
+>Visual Studio setup features and bug fixes are typically implemented in the installer. The installer is now shipping in the most current release of all currently supported Visual Studio products. This means that in general (unless otherwise specified), all new setup functionality is just automatically availalbe and works seamlessly in older versions of the product.
 
 1. In the Visual Studio Installer, look for the installation of Visual Studio that you want to update. 
 
@@ -165,7 +165,7 @@ There are several different ways to update an installation of Visual Studio. You
 
      ![Screenshot showing the Update button in the 'Update available' dialog box in Visual Studio 2022.](media/vs-2022/update-ready-install-visual-studio-community-from-ide.png "Choose the Update button in the 'Update available' dialog box")
 
-## Use the Notifications hub
+## Use the Notifications hub in the IDE
 
 1. Choose the notification icon from the lower-right corner of the Visual Studio IDE to open the **Notifications hub**.
 
@@ -180,7 +180,7 @@ There are several different ways to update an installation of Visual Studio. You
 >[!NOTE]
 >The **Update on Close** command that is found in both the update notification message box or in the **Notification** hub is not a permanent setting; it applies only to the current update. In other words, the **Update on close** deferral must be chosen each time you acknowledge or dismiss the notification that the update is available. 
 
-## Manually check for updates
+## Manually check for updates in the IDE
 
 1. You can check to see if an update is available by choosing **Help** from the menu bar, and then choosing **Check for Updates**.  You can also use the search box by pressing **Ctrl**+**Q**, typing "check for updates", and then choosing the search result that matches. In the subsequent **Update available** dialog box, choose **Update**.
 
@@ -233,6 +233,14 @@ By choosing the correct value in the **Update channel** dropdown, you can contro
 
 ::: moniker-end
 
+## Programmatically update Visual Studio
+
+You can use either the bootstrapper or the installer to programmatically update Visual Studio.  for more information, refer to the [online command line documenation](/visualstudio/install/use-command-line-parameters-to-install-visual-studio).
+
+## Administrator updates
+
+If you are part of an organization that centralizes management of software installations, then your enterprise administrator might control how Visual Studio updates your machine. For more about how to control or configure the types of updates your machine can accept, see [Using Configuration Manager to deploy Visual Studio updates](../install/applying-administrator-updates.md#using-configuration-manager-to-deploy-visual-studio-updates).
+
 ## Remove out-of-support components
 
 Using the [latest Visual Studio 2022 installer](#install-the-latest-and-greatest-installer), you can now bulk remove [components that have transitioned to an out-of-support state](/visualstudio/install/out-of-support-components). You can manually remove them by using the installer as described below, you can remove them [programmatically](./use-command-line-parameters-to-install-visual-studio.md), or you can have them removed via machine wide [policy](/visualstudio/install/set-defaults-for-enterprise-deployments). Learn more about [removing out-of-support components](https://aka.ms/vs/removeoos/blog) and how it can help keep your software environment secure.
@@ -250,7 +258,7 @@ You can also configure a specific Visual Studio instance to _persistently_ remov
 
    :::image type="content" source="media/vs-2022/remove-all-out-support-components-during-future-updates.png" alt-text="Screenshot of Remove all out-of-state components during future updates option in the Update Settings dialog.":::
    
-## Install the latest and greatest installer
+## Use the latest and greatest installer
 
 The most current release of the installer in the latest version of Visual Studio typically has the most robust and reliable feature set. This functionality will often seamlessly work on lower versioned products. In order to manually acquire the latest version of the installer onto a client machine (like if you wanted the functionality of the latest Visual Studio 2022 installer to govern a Visual Studio 2019 installation), you can do one of the following: 
 
@@ -263,10 +271,6 @@ The most current release of the installer in the latest version of Visual Studio
       ```shell
       vs_enterprise.exe --update --quiet
       ```
-
-## Administrator updates
-
-If you are part of an organization that centralizes management of software installations, then your enterprise administrator might control how Visual Studio updates your machine. For more about how to control or configure the types of updates your machine can accept, see [Using Configuration Manager to deploy Visual Studio updates](../install/applying-administrator-updates.md#using-configuration-manager-to-deploy-visual-studio-updates).
 
 ## Update from the Microsoft Catalog
 
