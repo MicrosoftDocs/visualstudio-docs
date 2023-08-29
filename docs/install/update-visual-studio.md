@@ -71,8 +71,8 @@ There are several different ways to update an installation of Visual Studio. You
 
 ## Use the message box in the IDE
 
-1.  When you open Visual Studio, the IDE checks to see if an update is available. In certain situations, a **Visual Studio 2019 update** message will briefly appear. If you want to update now, then choose **View details**. If you want to defer the update until when you close Visual Studio, choose Update on Close.
-
+1.  When you open Visual Studio, the IDE checks to see if an update is available. In certain situations, a **Visual Studio 2019 update** message will briefly appear. If you want to update now, then choose **View details**. If you want to defer the update until when you close Visual Studio, choose **Update on Close**.
+   
     ![Screenshot showing the 'Visual Studio 2019 update' message in the IDE.](media/vs-2019/update-visual-studio-ide-message.png "The 'Visual Studio 2019 update' message in the IDE")
 
 1. If you chose **View details**, then in the subsequent dialog box, choose **Update** to update now.
@@ -85,11 +85,12 @@ There are several different ways to update an installation of Visual Studio. You
 
    ![Screenshot showing the notification icon in the Visual Studio IDE.](media/vs-2019/notification-bar.png "The notification icon in the Visual Studio IDE")
 
-1. In the **Notifications hub**, choose the update that you want to install. If you want to update now, then choose **View details**. If you want to defer the update until when you close Visual studio, choose **Update on Close**.
+1. In the **Notifications hub**, choose the update that you want to install. If you want to update now, then choose **View details** and then in the subsequent dialog box, choose **Update** to update now. If you want to defer the update until when you close Visual Studio, choose **Update on Close**. 
 
      ![Screenshot showing the Notification hub in Visual Studio 2019.](media/vs-2019/notification-hub-details-and-update-on-close.png "The Notification hub in Visual Studio 2019")
 
-1. If you chose **View details**, then in the subsequent dialog box, choose **Update**.
+>[!NOTE]
+>The **Update on Close** command that is found in both the update notification message box or in the **Notification** hub is not a permanent setting; it applies only to the current update. In other words, the **Update on close** deferral must be chosen each time you acknowledge or dismiss the notification that the update is available.
 
 ## Manually check for updates
 
@@ -116,12 +117,6 @@ There are several different settings that can be customized to control the updat
 
 ### Configure source location of updates
 If you're in an enterprise environment, then it's possible to configure the location that your client instances look for updates. This is useful in situations where your client installed from a network layout, but you later want the clients to get updates from a different network layout. The ability to configure update locations requires the presence of the newer Visual Studio 2022 installer, which can be obtained by [acquiring the latest installer on the client machine](#install-the-latest-and-greatest-installer), or by an administrator [pushing the latest installer out through a network layout](create-a-network-installation-of-visual-studio.md#ensure-your-layout-is-using-the-latest-installer). For more information about how to use this feature, refer to the [Visual Studio 2022 documentation on configuring source location of updates](/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1).  
-
-## Update on close
-
-In Visual Studio 2019 version 16.9, we introduced the concept of **Update on Close**.  When an update is available, the update notification UI in the IDE provides a way to defer the update to when you voluntarily close Visual Studio. The **Update on Close** button appears in the update notification message box, and it also can be selected in the notification hub. The **Update on Close** command is not a permanent setting; it applies only to the current update. In other words, the **Update on Close** deferral must be chosen each time you acknowledge or dismiss the notification that the update is available.
-
-   ![Screenshot showing the Update on Close option in the update notification message box.](media/vs-2019/update-on-close.png)
 
 ::: moniker-end
 
@@ -182,6 +177,9 @@ There are several different ways to update an installation of Visual Studio. You
 
 1. If you chose **View details**, then in the subsequent **Update available** dialog box, choose **Update**.
 
+>[!NOTE]
+>The **Update on Close** command that is found in both the update notification message box or in the **Notification** hub is not a permanent setting; it applies only to the current update. In other words, the **Update on close** deferral must be chosen each time you acknowledge or dismiss the notification that the update is available. 
+
 ## Manually check for updates
 
 1. You can check to see if an update is available by choosing **Help** from the menu bar, and then choosing **Check for Updates**.  You can also use the search box by pressing **Ctrl**+**Q**, typing "check for updates", and then choosing the search result that matches. In the subsequent **Update available** dialog box, choose **Update**.
@@ -195,15 +193,15 @@ If you're an Enterprise or Professional customer, you can update your instance o
 
 There are several different settings that can be customized to control the update behavior, such as how and when the product bits are downloaded and installed, or where the update source location is.  
 
-### Installation and download behaviors
+### Always Update on Close and other download behaviors
 
-1. On the menu bar, choose **Tools** > **Options**.
-
-1. Expand **Environment**, and then choose **Product Updates**.
+1. On the menu bar, choose **Tools** > **Options**. Expand **Environment**, and then choose **Product Updates**. Observe the acquisition configuration options that are available to set in this dialog.
 
     ![Screenshot showing the Updates settings in the Options window of the Visual Studio IDE.](media/vs-2022/update-settings-options.png)
 
-1. Observe the configuration options that are available to set in this dialog. You can choose the **Automatically download updates** setting, which allows updates to download while your machine is idle. There are also two installation modes to choose from: **Install while downloading**, and **Download all, then install**.   Choose the installation mode and the automatic download setting you want for your Visual Studio updates.
+  - You can choose the **Automatically download updates** setting, which allows updates to download while your machine is idle.
+  - You can configure Visual Studio to automatically apply the latest available update upon close. This setting is configurable on a per instance basis of Visual Studio. For example, you can set your Preview instance to apply updates when Visual Studio closes, but your other Visual Studio instances can continue to be updated on demand. After you configure Visual Studio to **Always update on close**, Visual Studio updates will begin once Visual Studio and all related processes are closed. If any extensions have been scheduled for install or update, the Visual Studio update will not start until the next time Visual Studio closes.
+  - There are also two installation modes to choose from: **Install while downloading**, and **Download all, then install**. 
 
 ### Configure source location of updates
 With Visual Studio 2022, you can now configure where your clients will get their updates from. These update source locations are called "channels", and you can find more information about channel purpose and availability in the [Visual Studio Release Rhythm](/visualstudio/productinfo/release-rhythm) documentation. Microsoft makes both the Current and the Preview channels available to everyone, and the [long term servicing channels (LTSCs) are available to Enterprise and Professional customers for about 18 months](/visualstudio/productinfo/vs-servicing#long-term-servicing-channel-ltsc-support). IT Administrators can also configure the update source locations, such as network layouts, that the clients should have access to. Refer to the [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide) for additional approach recommendations, and to the [modifySettings command documentation](/visualstudio/install/use-command-line-parameters-to-install-visual-studio#modifysettings-command-and-command-line-parameters) for how to access this functionality programmatically.  
@@ -232,19 +230,8 @@ By choosing the correct value in the **Update channel** dropdown, you can contro
  * Each instance of Visual Studio has the ability to independently configure its source for updates. So, if you have two instances of Visual Studio 2022 installed, each can update from a different channel. 
  * IT Administrators can control the text in the **Update channel** dropdown. For example, they can add network layout locations as update sources. They can also suppress Microsoft hosted locations from being available as update source options. This functionality works for Visual Studio 2019 installs too. For information on how to configure these update locations, refer to the [Set defaults for enterprise deployments](/visualstudio/install/set-defaults-for-enterprise-deployments?#configuring-source-location-for-updates) page.
 
-## Update on close
 
-When an update is available, the update notification UI in the IDE provides a way to defer the update until you voluntarily close Visual Studio. The **Update on Close** button appears in the update notification message box, and it also can be selected in the **Notification** hub. The **Update on Close** command is not a permanent setting; it applies only to the current update. In other words, the **Update on Close** deferral must be chosen each time you acknowledge or dismiss the notification that the update is available.
-
-   ![Screenshot showing the Update on Close option in the update notification message box.](media/vs-2022/update-on-close.png)
-   
-### Always update on close
-
-In Visual Studio 2022, you can configure Visual Studio to automatically apply available updates on close. This setting is configurable on a per instance basis of Visual Studio. For example, you can set your Preview instance to apply updates when Visual Studio closes, but your other Visual Studio instances can continue to be updated on demand. You can configure this setting in the **Tools > Options > Product Updates > Update settings** dialog.
-
-   ![Screenshot showing the Always update on close option in the update settings dialog box.](media/vs-2022/persistent-update-on-close.png)
-   
-After you configure Visual Studio to **always update on close**, Visual Studio updates will begin once Visual Studio and all related processes are closed. If any extensions have been scheduled for install or update, the Visual Studio update will not start until the next time Visual Studio closes.
+::: moniker-end
 
 ## Remove out-of-support components
 
@@ -263,14 +250,11 @@ You can also configure a specific Visual Studio instance to _persistently_ remov
 
    :::image type="content" source="media/vs-2022/remove-all-out-support-components-during-future-updates.png" alt-text="Screenshot of Remove all out-of-state components during future updates option in the Update Settings dialog.":::
    
-
-::: moniker-end
-
 ## Install the latest and greatest installer
 
 The most current release of the installer in the latest version of Visual Studio typically has the most robust and reliable feature set. This functionality will often seamlessly work on lower versioned products. In order to manually acquire the latest version of the installer onto a client machine (like if you wanted the functionality of the latest Visual Studio 2022 installer to govern a Visual Studio 2019 installation), you can do one of the following: 
 
-1. [Download any bootstrapper for the latest version of Visual Studio](/visualstudio/install/install-visual-studio#step-2---download-visual-studio) and then either
+1. [Download any recent bootstrapper for the latest version of Visual Studio](/visualstudio/install/install-visual-studio#step-2---download-visual-studio) and then either
 
     - Double click on the bootstrapper to initiate the installation. The latest installer will get installed onto the machine first. Once the "Choose Workloads" screen pops up, simply cancel the installation.  
 
@@ -279,8 +263,6 @@ The most current release of the installer in the latest version of Visual Studio
       ```shell
       vs_enterprise.exe --update --quiet
       ```
-   
-1. Download the latest Administrator Update from the [Microsoft Update Catalog](https://catalog.update.microsoft.com) into the installation directory on your machine.  Double click on it to initiate the update, wait for it to update the installer, and then cancel out of the update once the "Choose Workloads" screen pops up.
 
 ## Administrator updates
 
