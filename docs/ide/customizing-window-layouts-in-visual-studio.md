@@ -1,7 +1,7 @@
 ---
 title: Customize window layouts and personalize document tabs
 description: Learn how to customize tabs and windows in Visual Studio to create layouts that work best for your development workflows.
-ms.date: 08/24/2022
+ms.date: 08/30/2023
 ms.topic: conceptual
 f1_keywords:
 - vs.windows
@@ -111,7 +111,7 @@ Tool windows support a feature named **Auto Hide**, which causes a window to sli
 If you have a second monitor and your operating system supports it, you can select which monitor displays a window. You can even group multiple windows together in *rafts* on other monitors.
 
 > [!TIP]
-> You can create multiple instances of **Solution Explorer** and move them to another monitor. Right-click the [**Solution** node](use-solution-explorer.md#solution-node-context-menu-options) and select **New Solution Explorer View**. To close the extra instances, double-click each one while pressing the **Ctrl** key.
+> You can create multiple instances of **Solution Explorer** and move them to another monitor. Right-click the [**Solution** node](use-solution-explorer.md#solution-explorer-ui) and select **[New Solution Explorer View](use-solution-explorer.md#solution-node-menu-options)**. To close the extra instances, double-click each one while pressing the **Ctrl** key.
 
 #### Reset, name, and switch between window layouts
 
@@ -147,7 +147,7 @@ First, create a user interface (UI) project. The idea is to maximize the space f
 
 Next, add a new SQL Server database project to the solution.
 
-1. Right-click the **Solution** node in **Solution Explorer** to open its [context menu](use-solution-explorer.md#the-add-context-menu-fly-out), select **Add**, and then select **New Project**.
+1. Right-click the **Solution** node in **Solution Explorer** to open its [context menu](use-solution-explorer.md#solution-explorer-context-menu), select **Add**, and then select **New Project**.
 
 1. In the **Add a new project** dialog, select **SQL** from the **All project types** drop-down list, and then select **SQL Server Database Project**.
 
