@@ -40,7 +40,7 @@ You can also name and save a custom layout and then switch between layouts with 
 
 ### Tool and document windows
 
-The IDE has two basic window types, *tool windows* and *document windows*. Tool windows include **Solution Explorer**, **Server Explorer**, **Output Window**, **Error List**, the designers, the debugger windows, and so on. Document windows contain source code files, arbitrary text files, config files, and so on. Tool windows can be resized and dragged by their title bar. Document windows can be dragged by their tab. Right-click on the tab or title bar to set other options on the window.
+The IDE has two basic window types, *tool windows* and *document windows*. Tool windows include **Solution Explorer**, **Server Explorer**, **Output Window**, **Error List**, the designers, the debugger windows, and so on. Document windows contain source code files, arbitrary text files, config files, and so on. You can resize or drag tool windows by their title bar. You can drag document windows by their tab. Right-click on the tab or title bar to set other options on the window.
 
 The **Window** menu shows options for docking, floating, and hiding windows in the IDE. Right-click on a window tab or title bar to see more options for that specific window. You can display more than one instance of certain tool windows at a time. For example, you can display more than one web browser window, and you can create extra instances of some tool windows by selecting **New Window** on the **Window** menu.
 
@@ -74,7 +74,7 @@ To arrange tool and document windows, you can place your cursor on the title bar
 
 #### Dock windows
 
-When you select and drag the title bar of a tool window or the tab of document window, a guide diamond appears. During the drag operation, when the mouse cursor is over one of the arrows in the diamond, a shaded area appears that shows you where the window will be docked if you release the mouse button.
+When you select and drag the title bar of a tool window or the tab of document window, a guide diamond appears. During the drag operation, when the mouse cursor is over one of the arrows in the diamond, a shaded area appears that shows you where the window can be docked if you release the mouse button.
 
 To move a dockable window without snapping it into place, press the **Ctrl** key while you drag the window.
 
@@ -92,7 +92,7 @@ The following screenshot shows **Solution Explorer** being docked in a new locat
 
 :::image type="content" source="media/docked-diamond-solution-explorer-example-sml.png" alt-text="Screenshot of what appears in the IDE when you want to dock Solution Explorer in a new position." lightbox="media/docked-diamond-solution-explorer-example-lrg.png":::
 
-### Close and auto-hide tool windows
+### Close and autohide tool windows
 
 You can close a tool window by selecting the **X** in the upper right of the title bar. To reopen the window, select the tool windows you want by using **View** on the menu bar, or by using its associated keyboard shortcut.
 
@@ -129,7 +129,7 @@ Visual Studio enables you to save up to 10 custom window layouts and quickly swi
 
 ##### Create a project and customize the layout
 
-First, we'll create a user interface (UI) project. The idea is to maximize the space for the designer window by moving other tool windows out of the way.
+First, create a user interface (UI) project. The idea is to maximize the space for the designer window by moving other tool windows out of the way.
 
 1. Create a new C# **WPF Application** project.
 
@@ -145,7 +145,7 @@ First, we'll create a user interface (UI) project. The idea is to maximize the s
 
 ##### Create a database project and layout
 
-Next, we'll add a new SQL Server database project to the solution.
+Next, add a new SQL Server database project to the solution.
 
 1. Right-click the **Solution** node in **Solution Explorer** to open its [context menu](use-solution-explorer.md#the-add-context-menu-fly-out), select **Add**, and then select **New Project**.
 
@@ -157,7 +157,7 @@ Next, we'll add a new SQL Server database project to the solution.
 
    When you do so, Visual Studio displays the **SQL Server Object Explorer** window, which enables you to access tables, views and other objects in your database. You can either float this window or leave it docked. Adjust the other tool windows the way you want them. For added realism, you can add an actual database, but it's not necessary for this walk-through.
 
-1. When your layout is how you want it, select **Window** from the menu bar, and then select **Save Window Layout**. Name this layout "DB Project". (We won't bother with a debug mode layout for this project.)
+1. When your layout is how you want it, select **Window** from the menu bar, and then select **Save Window Layout**. Name this layout "DB Project". (Don't bother with a debug mode layout for this project.)
 
 ##### Switch between the layouts
 
@@ -218,7 +218,7 @@ You can apply vertical document tabs in the following ways:
 
 ### Color document tabs
 
-Visual Studio 2022 includes new personalization options you can use to help you code more efficiently. Now, you can color file tabs by project so that you don't have to hunt for your open files.
+Visual Studio 2022 includes new personalization options that can help you code more efficiently. Now, you can color file tabs by project so that you don't have to hunt for your open files.
 
 To use color tabs, navigate to **Tools** > **Options** > **Environment** > **Tabs and Windows**, and then select **Colorize document tabs by project**.
 
@@ -244,7 +244,7 @@ The following screenshot shows an example of how to personalize the color scheme
 
 ### Multiple rows of tabs
 
-We’ve added the capability to wrap tabs into multiple rows so you can have more horizontal tabs open at a time. Pinned tabs will show in a separate row from unpinned tabs.
+We’ve added the capability to wrap tabs into multiple rows so you can have more horizontal tabs open at a time. Pinned tabs show up in a separate row from unpinned tabs.
 
 :::image type="content" source="media/vs-2022/tabs-multiple-rows-sml.png" alt-text="Screenshot of an example of tabs arranged in multiple rows." lightbox="media/vs-2022/tabs-multiple-rows-lrg.png":::
 
