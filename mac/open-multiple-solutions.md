@@ -11,7 +11,7 @@ ms.topic: how-to
 ---
 # Open multiple solutions or instances of Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 By default, all applications on a Mac, including Visual Studio for Mac, are _single-instance_ apps. If the application you want to use is already open (illustrated by a dot under the icon in the dock), selecting the icon again opens the running instance, rather than a new one. If you require more instances of the application, you can prompt the system to open it for you, as described in the [next section](#open-a-second-instance-of-visual-studio-for-mac).
 

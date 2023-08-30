@@ -8,9 +8,9 @@ ms.date: 11/06/2018
 ms.topic: reference
 ms.assetid: E8E0831E-E076-44B1-A82A-A325382916A6
 ---
-# Block selection
+# Block selection in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 Visual Studio for Mac makes it straightforward to select, cut, copy, and paste sections of your code. Rectangular blocks of code can be highlighted and selected by using the **Option + Drag** command on the code block. The formatting within this block selection is retained when pasting the block.
 

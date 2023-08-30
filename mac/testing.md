@@ -13,7 +13,7 @@ manager: dominicn
 ---
 # Testing tools in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 Visual Studio for Mac testing tools can help you and your team develop and sustain high standards of code excellence. Unit tests can be written and run using the Microsoft unit test framework (MSTest), xUnit, or NUnit.
 

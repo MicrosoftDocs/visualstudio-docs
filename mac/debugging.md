@@ -12,7 +12,7 @@ ms.topic: conceptual
 ---
 # Debugging with Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 Visual Studio for Mac has debuggers with support for .NET Core, .NET Framework, Unity, and Xamarin applications.
 

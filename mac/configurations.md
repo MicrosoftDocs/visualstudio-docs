@@ -8,9 +8,9 @@ ms.date: 09/18/2019
 ms.topic: conceptual
 ms.assetid: 78107CFA-9308-4293-A92A-9B552A259E15
 ---
-# Understanding build configurations
+# Understanding build configurations in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 You can store different configurations of solution and project properties to use in different kinds of builds during the development process. Projects created by Visual Studio for Mac using a template will typically include Debug and Release configurations that support debugging of an app and deployment of an app, respectively. 
 

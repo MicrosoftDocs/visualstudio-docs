@@ -12,7 +12,7 @@ ms.topic: how-to
 ---
 # Install a preview version of Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 Before a new version of Visual Studio for Mac is officially released, it's available as a preview. The preview release gives you a chance to try out new features and get the latest bug fixes before they're fully incorporated into the product. You can learn more about what's new in the latest preview release by seeing the [Preview Release notes](https://aka.ms/vsmac-preview-release-notes).
 

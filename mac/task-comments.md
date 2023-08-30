@@ -8,9 +8,9 @@ ms.date: 11/09/2020
 ms.topic: reference
 ms.assetid: 562DCB46-D8FA-4DC4-AAEA-F274448C4CD2
 ---
-# Task Comments
+# Task Comments in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 ::: moniker range="vsmac-2022"
 > [!NOTE]
 > This feature is currently not available on Visual Studio 2022 for Mac and will be enabled again in an upcoming release.
