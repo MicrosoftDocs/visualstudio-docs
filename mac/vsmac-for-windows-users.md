@@ -10,7 +10,7 @@ ms.assetid: 61CB6883-08CE-470F-8599-6F7570DB756E
 ---
 # Visual Studio for Mac for Windows users
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 Migrating from one operating system to another can be daunting. There are often subtle differences in cross-platform applications, from the user interface to the categorization of menu items. Here you'll learn the most common differences between Visual Studio for Mac and Visual Studio for Windows. You'll also learn a few different conventions between macOS and Windows.
 

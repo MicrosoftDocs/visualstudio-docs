@@ -12,7 +12,7 @@ ms.topic: how-to
 ---
 # Install Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 To start developing native, cross-platform .NET apps on macOS, install Visual Studio for Mac following the steps below.
 

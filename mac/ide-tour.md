@@ -11,7 +11,7 @@ ms.topic: overview
 ---
 # Visual Studio for Mac IDE tour
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 ::: moniker range="vsmac-2022"
 

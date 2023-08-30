@@ -9,9 +9,9 @@ ms.custom: devdivchpfy22
 ms.assetid: 4071689D-1C21-42D7-8963-550E7BCB4B67
 ms.topic: how-to
 ---
-# Adding and removing project items
+# Adding and removing project items in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 You can add new project items to your project by right-clicking on the Project node in the **Solution Window** and browsing to **Add > New File**:
 
