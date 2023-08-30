@@ -12,13 +12,13 @@ ms.assetid: 6958B102-8527-4B40-BC65-3505DB63F9D3
 
  [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
 
-The Microsoft Build Engine is a platform for building applications. The engine, which is also known as MSBuild, was developed by Microsoft and allows for the building of .NET applications. The Mono framework also has its own implementation of Microsoft's Build Engine, called **xbuild**. At this time, however, xbuild has been phased out in favor of using MSBuild on all operating systems.
+The Microsoft Build Engine, which is also known as MSBuild, is a platform for building .NET applications.  The Mono framework also has its own implementation of Microsoft's Build Engine, called **xbuild**. At this time, however, xbuild has been phased out in favor of using MSBuild on all operating systems.
 
 **MSBuild** is used as the build system for projects in Visual Studio for Mac and works by taking a set of inputs, such as source files, and transforms them to outputs, such as executables. It achieves this output by invoking tools such as the compiler.
 
 ## MSBuild file
 
-MSBuild uses an XML file, called a project file, that defines the *Items* that are part of your project (such as image resources), and the *Properties* required to build your project. This project file will always have a file extension ending in `proj`, such as `.csproj` for C# projects.
+MSBuild uses an XML project file that defines the *Items* that are part of your project (such as image resources), and the *Properties* required to build your project. This project file always has a file extension ending in `proj`, such as `.csproj` for C# projects.
 
 ### Viewing the MSBuild file
 
@@ -40,7 +40,7 @@ All MSBuild files contain a mandatory root `Project` element, like so:
 </Project>
 ```
 
-Typically, the project will also import a `.targets` file. This file contains many of the rules that describe how to process and build the various files. The import usually appear towards the bottom of your `proj` file, and for C# projects look something like this:
+Typically, the project also imports a `.targets` file. This file contains many of the rules that describe how to process and build the various files. The import usually appear towards the bottom of your `proj` file, and for C# projects look something like this:
 
 ```xml
 <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
@@ -72,7 +72,7 @@ For example, the PropertyGroup for a simple console application might look like 
 </PropertyGroup>
 ```
 
-Properties can be referred to from expressions using the `$()` syntax. For example, `$(Foo)` will be evaluated as the value of the `Foo` property. If the property has not been set, it will evaluate as an empty string, without any error.
+Properties can be referred to from expressions using the `$()` syntax. For example, `$(Foo)` is evaluated as the value of the `Foo` property. If the property has not been set, it evaluates as an empty string, without any error.
 
 #### Items
 
@@ -93,7 +93,7 @@ For example, the following code snippet creates the iOS Launch Screens. The Laun
   </ItemGroup>
  ```
 
- Item sets can be referred to from expressions using the `@()` syntax. For example, `@(BundleResource)` will be evaluated as the BundleResource item set, which means all of the BundleResource items. If there are no items of this type, it will be empty, without any error.
+ Item sets can be referred to from expressions using the `@()` syntax. For example, `@(BundleResource)` will be evaluated as the BundleResource item set, which means all of the BundleResource items. If there are no items of this type, it is empty, without any error.
 
 ## Resources for learning MSBuild
 
