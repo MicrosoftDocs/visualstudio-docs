@@ -8,9 +8,9 @@ ms.date: 11/09/2020
 ms.assetid: 4AD51385-B0A8-4BA7-B2D4-BF2BD167A142
 ms.topic: overview
 ---
-# Managing References in a Project
+# Managing References in a Project in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 Visual Studio for Mac provides two means of adding additional references to your project:
 

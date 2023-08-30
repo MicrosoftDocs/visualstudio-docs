@@ -11,7 +11,7 @@ ms.assetid: FB253757-DB00-4889-A6BF-E44722E25BD1
 ---
 # Compiling and building in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 Visual Studio for Mac can be used to build applications and create assemblies during the development of your project. It's important to build your code often to allow you to quickly identify type mismatches, erroneous syntax, misspelled keywords, and other compile-time errors. By building then debugging, you can also find and fix run-time errors such as logic, IO, and divide-by-zero errors.
 

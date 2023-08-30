@@ -11,9 +11,9 @@ no-loc: [Blazor, "Blazor WebAssembly"]
 ms.topic: how-to
 monikerRange: ">=vsmac-2022"
 ---
-# Getting Started with ASP.NET Core
+# Getting Started with ASP.NET Core in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 Visual Studio for Mac makes it easy to develop your app's service with its support for the latest ASP.NET Core Web development platform. ASP.NET Core runs on the latest evolution of the .NET platform and runtime. It's been tuned for fast performance, factored for small install sizes, and reimagined to run on Linux and macOS, as well as Windows.
 

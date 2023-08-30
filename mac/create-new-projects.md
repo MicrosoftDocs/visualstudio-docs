@@ -9,9 +9,9 @@ ms.custom: devdivchpfy22
 ms.topic: how-to
 ms.assetid: 5880BB10-0A12-47E2-8A82-7A2D59C4D579
 ---
-# Create a new project
+# Create a new project in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 ## Opening the project creation dialog
 

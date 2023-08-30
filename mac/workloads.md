@@ -10,7 +10,7 @@ ms.assetid: DDC39599-8C5D-4CB9-8DA5-229E085384CA
 ---
 # Visual Studio for Mac Workloads
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 Visual Studio for Mac comes pre-installed with workloads for developing the following types of app:
 

@@ -10,9 +10,9 @@ ms.assetid: D2717D3A-9225-40A8-8155-7D0143B2CA60
 no-loc: [Blazor, "Blazor WebAssembly"]
 ms.topic: how-to
 ---
-# Create Blazor web apps
+# Create Blazor web apps in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 This guide offers an introduction to creating your first Blazor web app. For more in-depth guidance, see [Introduction to ASP.NET Core Blazor](/aspnet/core/blazor/index).
 
