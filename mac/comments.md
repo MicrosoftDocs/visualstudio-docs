@@ -9,9 +9,9 @@ ms.custom: devdivchpfy22
 ms.assetid: 0FE5E929-1846-4F48-B5E3-70990FAF9504
 ms.topic: reference
 ---
-# Comments
+# Comments in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 While debugging or experimenting with code, you might want to comment blocks of code either temporarily or long term.
 

@@ -10,7 +10,7 @@ ms.assetid: 48E06A61-7294-4EC8-A09D-1763C32AD910
 ---
 # Default keyboard shortcuts in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 For information about keyboard accessibility, see [How to: Use Keyboard Navigation](~/accessibility-keyboard.md).
 

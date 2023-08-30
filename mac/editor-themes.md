@@ -8,9 +8,9 @@ ms.date: 06/23/2023
 ms.assetid: 4C1B7952-CD45-4132-AD6B-01CF993D83F8
 ms.topic: reference
 ---
-# Editor themes
+# Editor themes in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 Editor themes can be changed to any of the 10 color schemes provided by default in Visual Studio for Mac via the **Visual Studio > Preferences > Text Editor > Color Themes** menu options:
 

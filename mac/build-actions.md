@@ -8,9 +8,9 @@ ms.date: 09/18/2019
 ms.topic: conceptual
 ms.assetid: 5399BCB1-E317-4C7B-87B1-C531E985DE6E
 ---
-# Configure build actions
+# Configure build actions in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 All files in a Visual Studio for Mac project have a build action. The build action controls what happens to the file when the project is compiled. 
 

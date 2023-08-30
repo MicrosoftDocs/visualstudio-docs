@@ -8,9 +8,9 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 05/06/2018
 ---
-# Azure
+# Azure in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 Visual Studio for Mac allows you to connect to Azure in a variety of ways:
 

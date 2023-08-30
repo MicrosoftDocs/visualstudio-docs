@@ -10,7 +10,7 @@ ms.assetid: db2dc420-63d2-44ef-bdda-a351561dc900
 ---
 # Visual Studio for Mac 8.10 and .NET on Apple Silicon machines
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 On Apple Silicon machines (also known as M1, M2, or ARM), Visual Studio for Mac 8.10 does not support the .NET 6 Arm64 SDK. .NET 5 and .NET Core 3.1 x64 SDKs are supported. .NET 6 x64 SDK is required for building projects since the .NET 5 x64 and .NET Core 3.1 x64 SDKs are not supported for building on Apple Silicon machines.
 

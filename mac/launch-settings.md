@@ -8,9 +8,9 @@ ms.date: 05/02/2022
 ms.custom: devdivchpfy22
 ms.assetid: a556f9d7-86a8-408e-aa54-392584845889
 ---
-# launchSettings.json
+# launchSettings.json in Visual Studio for Mac
 
-[!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+[!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 When you're developing ASP.NET Core projects, you can configure how your project should be started in development scenarios by customizing the contents of the launchSettings.json file. In Visual Studio for Mac, you can update this file by using the project options UI or by directly editing it. This file is the same configuration file that you can use when running Visual Studio on Windows or from the command line through `dotnet`. This file is stored in your project under the Properties folder.
 

@@ -10,7 +10,7 @@ ms.assetid: 6F2ECF5A-E195-4890-8399-12A88C7D62FD
 ---
 # Visual Studio Customer Experience Improvement Program
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 The Visual Studio Customer Experience Improvement Program (VSCEIP) is a program designed to help Microsoft improve Visual Studio for Mac over time. This program collects information about computer hardware and how people use Visual Studio for Mac, without interrupting the users in their tasks at the computer. The information that is collected helps Microsoft identify which features to improve. This article describes how to opt in or out of the VSCEIP.
 
