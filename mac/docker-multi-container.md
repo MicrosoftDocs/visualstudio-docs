@@ -25,25 +25,25 @@ Looking for steps on the Windows version of Visual Studio, read [Tutorial: Creat
 1. Create a new solution by going to **File > New Solution**.
 1. Under **Web and Console > App** choose the **Web Application** template:
 ![Create a new ASP.NET application](media/docker-quickstart-1.png)
-1. Select the target framework. In this example we will use .NET Core 3.1:
+1. Select the target framework. In this example we use .NET Core 3.1:
 ![Set target framework](media/docker-quickstart-2.png)
 1. Enter the project details, such as Project Name (_DockerDemoFrontEnd_ in this example) and Solution Name (_DockerDemo_). The created project contains all the basics you need to build and run an ASP.NET Core web site.
 1. In the Solution Window, right click the DockerDemoFrontEnd project and select **Add > Add Docker Support**:
 ![Add docker support](media/docker-quickstart-3.png)
 
-Visual Studio for Mac will automatically add a new project to your solution called **docker-compose** and add a **Dockerfile** to your existing project.
+Visual Studio for Mac automatically adds a new project to your solution called **docker-compose** and add a **Dockerfile** to your existing project.
 
 ## Create an ASP.NET Core Web API and Add Docker Support
 
-Next we will create a second project which will act as our backend API. The **.NET Core API** template includes a controller that allows us to handle RESTful requests.
+Next, we create a second project that acts as our backend API. The **.NET Core API** template includes a controller that allows us to handle RESTful requests.
 
 1. Add a new project to the existing solution by right-clicking on the solution and choosing **Add > Add New Project**.
 1. Under **Web and Console > App** choose the **API** template.
-1. Select the target framework. In this example we will use .NET Core 3.1.
+1. Select the target framework. In this example, we use .NET Core 3.1.
 1. Enter the project details, such as Project Name (_MyWebAPI_ in this example).
 1. Once created, go to the Solution Window and right click the MyWebAPI project and select **Add > Add Docker Support**.
 
-The **docker-compose.yml** file in the **docker-compose** project will be automatically updated to include the API project alongside the existing Web App project. When we build and run the **docker-compose** project, each of these projects will be deployed to a separate Docker container.
+The **docker-compose.yml** file in the **docker-compose** project is automatically updated to include the API project alongside the existing Web App project. When we build and run the **docker-compose** project, each of these projects is deployed to a separate Docker container.
 
 ```yaml
 version: '3.4'
