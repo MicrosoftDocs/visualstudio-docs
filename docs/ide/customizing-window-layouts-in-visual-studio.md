@@ -185,7 +185,7 @@ These layouts automatically roam between Visual Studio [editions](https://visual
 You can personalize tabs to interact with document windows in several different ways.  For example, you can view a preview of a file in the editor without opening the file, you can group your tabs, arrange them in multiple rows, and more.
 
 > [!TIP]
-> To learn more about how to manage tabs, see the following blog post: [Too many tabs open? No problem!](https://devblogs.microsoft.com/visualstudio/too-many-tabs-open-no-problem/)
+> To learn more about how to manage tabs in Visual Studio 2022 and later, see the following blog post: [Too many tabs open? No problem!](https://devblogs.microsoft.com/visualstudio/too-many-tabs-open-no-problem/)
 
 ### Preview tab
 
