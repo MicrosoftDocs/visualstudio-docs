@@ -32,15 +32,23 @@ Before you write code against an external component or connected service, your p
 
 How you add a reference depends on the project type for the code you're working on:
 
-- If you see a **Dependencies** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to select **Add Project Reference**. You can also right-click the project node and select **Add** > **Project Reference**.
+- If you see a **Dependencies** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to select **Add Project Reference**. 
 
   :::image type="content" source="media/add-project-reference.png" alt-text="Screenshot of the Add Project Reference option from the right-click context menu.":::
+  
+  ::: moniker range="<=vs-2019" 
+  You can also right-click the [project node](use-solution-explorer.md#solution-explorer-ui) and select **Add** > **Project Reference**.
+  ::: moniker-end
 
-- If you see a **References** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to select **Add Reference**. Or, right-click the project node and select **Add** > **Reference**.
+- If you see a **References** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to select **Add Reference**. 
 
   :::image type="content" source="media/add-reference.png" alt-text="Screenshot of the Add Reference option from the right-click context menu.":::
 
-    For more information, see [How to: Add or remove references](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md).
+  ::: moniker range="<=vs-2019" 
+  Or, right-click the [project node](use-solution-explorer.md#solution-explorer-ui) and select **Add** > **Reference**.
+  ::: moniker-end
+
+  For more information, see [How to: Add or remove references](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md).
 
 You can add a reference to the following types of components and services:
 
