@@ -65,7 +65,7 @@ You can use the method described in this article to create ASP.NET Core Single P
 
 1. In Solution Explorer, right-click the ***ReactWithASP.Server*** project and choose **Properties**.
 
-   :::image type="content" source="media/vs-2022/react-choose-template2.png" alt-text="Screenshot showing choosing a template":::
+   :::image type="content" source="media/vs-2022/react-choose-template2.png" alt-text="Screenshot showing choosing a template again":::
 
    :::image type="content" source="media/vs-2022/asp-net-core-project-properties.png" alt-text="Screenshot showing Open project properties":::
 
