@@ -147,9 +147,9 @@ If you see this issue, most likely the frontend started before the backend. Once
 
 ### Verify ports
 
-If the weather data does not load correctly, you may also need to verify that your ports are correct.
+If the weather data doesn't load correctly, you may also need to verify that your ports are correct.
 
-1. Make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core **webapi** project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
+1. Make sure that the port numbers match. Go to the *launchSettings.json* file in the ASP.NET Core **ReactWithASP.Server** project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
 
    If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It looks similar to `https://localhost:7183`.
 
