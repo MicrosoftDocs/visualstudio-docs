@@ -12,6 +12,9 @@ ms.technology: vs-ide-modeling
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
+> [!NOTE]
+> To create and edit code maps, you need Visual Studio Enterprise edition. However, in Visual Studio Community and Professional editions, you can open diagrams that were generated in Enterprise edition, but you cannot edit them, see [Version support for architecture and modeling tools](analyze-and-model-your-architecture.md#VersionSupport).
+
 To create a code map in Visual Studio Enterprise, first install the **Code Map** and **Live Dependency Validation** components:
 
 1. Open **Visual Studio Installer**. You can open it from the Windows Start menu, or within Visual Studio by selecting **Tools** > **Get Tools and Features**.
