@@ -58,7 +58,7 @@ You can add a reference to the following types of components and services:
 
 ## UWP app references
 
-The [Universal Windows Platform](/windows/uwp/get-started/universal-application-platform-guide) (UWP) provides a common app platform for every device that runs Windows. For learn how to create a UWP app, see [Tutorial: Create your first Universal Windows Platform application in Visual Studio with XAML and C#](../get-started/csharp/tutorial-uwp.md).
+The [Universal Windows Platform](/windows/uwp/get-started/universal-application-platform-guide) (UWP) provides a common app platform for every device that runs Windows. To learn how to create a UWP app, see [Tutorial: Create your first Universal Windows Platform application in Visual Studio with XAML and C#](../get-started/csharp/tutorial-uwp.md).
 
 ### Project references
 
