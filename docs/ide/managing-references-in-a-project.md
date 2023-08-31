@@ -32,11 +32,11 @@ Before you write code against an external component or connected service, your p
 
 How you add a reference depends on the project type for the code you're working on:
 
-- If you see a **Dependencies** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to choose **Add Project Reference**. You can also right-click the project node and select **Add** > **Project Reference**.
+- If you see a **Dependencies** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to select **Add Project Reference**. You can also right-click the project node and select **Add** > **Project Reference**.
 
   :::image type="content" source="media/add-project-reference.png" alt-text="Screenshot of the Add Project Reference option from the right-click context menu.":::
 
-- If you see a **References** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to choose **Add Reference**. Or, right-click the project node and select **Add** > **Reference**.
+- If you see a **References** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to select **Add Reference**. Or, right-click the project node and select **Add** > **Reference**.
 
   :::image type="content" source="media/add-reference.png" alt-text="Screenshot of the Add Reference option from the right-click context menu.":::
 
@@ -80,18 +80,18 @@ If you determine that the Extension SDK being referenced by your app isn't suppo
 1. Go to the site of the vendor who owns the unsupported Extension SDK, and install the version of the Extension SDK with dependencies that are compatible with the version of the platform your project is targeting.
 
     > [!NOTE]
-    > One way to find out whether an Extension SDK has dependencies on other Extension SDKs is by looking in **Reference Manager**. Restart Visual Studio, create a new C# UWP app project, and then right-click on the project and choose **Add Reference**. Go to the **Windows** tab, then the **Extensions** sub-tab, and select the Extension SDK. Look at the right pane in the **Reference Manager**. If it has dependencies, they will be listed there.
+    > One way to find out whether an Extension SDK has dependencies on other Extension SDKs is by looking in **Reference Manager**. Restart Visual Studio, create a new C# UWP app project, and then right-click on the project and select **Add Reference**. Go to the **Windows** tab, then the **Extensions** sub-tab, and select the Extension SDK. Look at the right pane in the **Reference Manager**. If it has dependencies, they will be listed there.
 
     > [!IMPORTANT]
     > If your project is targeting Windows 10 specifically, and the Extension SDK installed in the previous step has a dependency on the Microsoft Visual C++ Runtime Package, the version of Microsoft Visual C++ Runtime Package that is compatible with Windows 10 is v14.0, and is installed with Visual Studio.
 
-1. If the Extension SDK you installed in the previous step has dependencies on other Extension SDKs, go to the sites of the vendors who own the dependencies, and install the versions of these dependencies that are compatible with the version of the platform your project is targeting.
+1. If the Extension SDK you installed in the previous step has dependencies on other Extension SDKs, go to the sites of the vendors who own the dependencies, and then install the versions of these dependencies that are compatible with the version of the platform your project is targeting.
 
 1. Restart Visual Studio and open your app.
 
-1. Right-click on the **References** or **Dependencies** node in the project that caused the error and choose **Add Reference**.
+1. Right-click on the **References** or **Dependencies** node in the project that caused the error, and then select **Add Reference**.
 
-1. Select the **Windows** tab and then the **Extensions** subtab, then uncheck the checkboxes for the old Extension SDKs, and check the checkboxes for the new Extension SDKs. Select **OK**.
+1. Select the **Windows** tab and then the **Extensions** subtab, uncheck the checkboxes for the old Extension SDKs, and then check the checkboxes for the new Extension SDKs. Select **OK**.
 
 ## Add a reference at design time
 
@@ -110,7 +110,7 @@ When you make a reference to an assembly in your project, Visual Studio searches
 
 At run time, components must be either in the output path of the project or in the Global Assembly Cache (GAC). If the project contains a reference to an object that isn't in one of these locations, you must copy the reference to the output path of the project when you build the project. The <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> property indicates whether this copy has to be made. If the value is **True**, the reference is copied to the project directory when you build the project. If the value is **False**, the reference isn't copied.
 
-If you deploy an application that contains a reference to a custom component that is registered in the GAC, the component won't be deployed with the application, regardless of the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> setting. In earlier versions of Visual Studio, you could set the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> property on a reference to ensure that the assembly was deployed. Now, you must manually add the assembly to the \Bin folder. This action puts all custom code under scrutiny, which reduces the risk of publishing custom code with which you aren't familiar.
+If you deploy an application that contains a reference to a custom component that is registered in the GAC, the component won't be deployed with the application, regardless of the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> setting. In earlier versions of Visual Studio, you could set the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> property on a reference to ensure that the assembly was deployed. Now, you must manually add the assembly to the \Bin folder. This action puts all custom code under scrutiny, thereby reducing the risk of publishing custom code with which you aren't familiar.
 
 By default, the <xref:Microsoft.VisualStudio.VCProjectEngine.VCProjectReference.CopyLocal%2A> property is set to **False** if the assembly or component is in the global assembly cache or is a framework component. Otherwise, the value is set to **True**. Project-to-project references are always set to **True**.
 
