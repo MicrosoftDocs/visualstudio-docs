@@ -202,7 +202,8 @@ In such cases, you must also add a line to the launch configuration JSON file to
 
 ## Next steps
 
-> [!div class="nextstepaction"] > [Tutorial: Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
+> [!div class="nextstepaction"]
+> [Tutorial: Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
 
 ## See also
 
