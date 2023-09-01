@@ -8,9 +8,9 @@ ms.date: 10/18/2019
 ms.assetid: 047f5e36-f38e-4bf6-a1c5-3fde32978b7d
 ms.topic: how-to
 ---
-# Tutorial: Extending an existing ASP.NET Core web application
+# Tutorial: Extending an existing ASP.NET Core web application in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 In these tutorials, you will be working with the [eShopOnWeb reference app](https://github.com/dotnet-architecture/eShopOnWeb). Each step consists of a video and a tutorial doc.
 

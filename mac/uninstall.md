@@ -12,7 +12,7 @@ ms.topic: how-to
 ---
 # Uninstall Visual Studio for Mac 
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 You can use this guide to uninstall each component in Visual Studio for Mac individually by navigating to the relevant section. We recommend you use the scripts provided in the [Uninstall scripts](#uninstall-scripts) section to uninstall everything.
 

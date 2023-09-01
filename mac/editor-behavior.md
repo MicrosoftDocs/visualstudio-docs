@@ -9,9 +9,9 @@ ms.custom: devdivchpfy22
 ms.topic: reference
 ms.assetid: 81EE4460-26EB-4BB0-9297-932E1F88E4B8
 ---
-# Editor Behavior
+# Editor Behavior in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 Editor behaviors can be set to allow code to be formatted as it's written. These actions are set under **Visual Studio > Preferences > Text Editor > Behavior**, and some of the more commonly used functions are described below:
 
