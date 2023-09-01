@@ -9,9 +9,9 @@ ms.topic: overview
 ---
 # What's happening to Visual Studio for Mac?
 
-Visual Studio for Mac is scheduled for retirement by August 31, 2024 in accordance with Microsoft’s [Modern Lifecycle Policy](/lifecycle/policies/modern).  Visual Studio for Mac 17.6 will continue to be supported until August 31, 2024, with servicing updates for security issues and updated platforms from Apple.  You can continue using Visual Studio for Mac as you have.
+Visual Studio for Mac is scheduled for retirement by August 31, 2024 in accordance with Microsoft’s [Modern Lifecycle Policy](/lifecycle/policies/modern).  Visual Studio for Mac 17.6 will continue to be supported until August 31, 2024, with servicing updates for security issues and updated platforms from Apple. 
 
-While the decision has been made to retire Visual Studio for Mac, **we remain committed to our developers on Mac** with alternatives like the [C# Dev Kit for VS Code](https://code.visualstudio.com/docs/csharp/get-started) and other extensions that allow you to take advantage of our ongoing investments in .NET development on a Mac. We encourage you to continue to provide your feedback in the [Visual Studio Developer Community](https://aka.ms/feedback/suggest?space=8)  regarding our planned investments in C# Dev Kit, .NET MAUI, and Unity Extensions for VS Code, Visual Studio for Windows, and Microsoft Dev Box.
+While the decision has been made to retire Visual Studio for Mac, **we remain committed to our developers on Mac and .NET MAUI ** with alternatives like the [C# Dev Kit for VS Code](https://code.visualstudio.com/docs/csharp/get-started) and other extensions that allow you to take advantage of our ongoing investments in .NET development on a Mac. 
 
 ## Support timeline
 
@@ -41,10 +41,9 @@ The following notes outline the timeline for support.
 
 ## Alternative options for developing on the Mac
 
-Today, [Visual Studio Code](https://code.visualstudio.com/docs/editor/whyvscode) is a great place for Mac users to do cloud-native .NET development with things like Azure Functions, and more.  As of 2023, premier support is available in VS Code for [.NET cloud, MAUI, and Mobile C# development through the C# Dev Kit](https://code.visualstudio.com/docs/csharp/get-started). Additionally, the [C# Dev Kit for MAUI](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-maui) offers support for designing, editing, and debugging Unity scripts as well. These extensions operate natively across all supported platforms, including macOS, and the experience using these are continuously improved as they move from preview to General Availability and beyond.
+[Visual Studio Code](https://code.visualstudio.com/docs/editor/whyvscode) is a great place for cloud-native .NET development on the Mac with things like Azure Functions, and more.  As of 2023, premier support is available in VS Code for [.NET cloud, MAUI, and Mobile C# development through the C# Dev Kit](https://code.visualstudio.com/docs/csharp/get-started). Additionally, the [C# Dev Kit for MAUI](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-maui) offers support for designing, editing, and debugging Unity scripts as well. These extensions operate natively across all supported platforms, including macOS, and the experience using these are continuously improved as they move from preview to General Availability and beyond.  We are continuing to invest in making these a great experience for C#, MAUI and Unity development on VS Code. We encourage you submit suggestions and report issues for these extensions in the [VS Code GitHub project repository](https://github.com/microsoft/vscode-dotnettools/issues).
 
 Visual Studio continues to be the premier tool of choice for .NET/C# development. If you prefer to use a full-fledged IDE, you can use the same license for Visual Studio for Mac on **Visual Studio on Windows** in a VM either on a Mac or in the cloud. You can use VM hosts like Parallels to set up Windows and work in Visual Studio (Windows).  A [cloud-hosted VM from Microsoft Dev Box](/azure/dev-box/overview-what-is-microsoft-dev-box) provides access to the full power of Visual Studio through your Web or native RDP client from a Mac without the overhead of running a virtual machine on your local machine.  
-  
 
 ## Get support 
 
