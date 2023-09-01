@@ -25,7 +25,8 @@ Once you've [installed Python support in Visual Studio 2022](installing-python-s
 
 > [!Note]
 > Visual Studio 2017 and earlier require you to create a Visual Studio project to run Python code, which you can easily do using a built-in project template. See [Quickstart: Create a Python project from existing code](quickstart-01-python-in-visual-studio-project-from-existing-code.md).
-> ::: moniker-end
+
+::: moniker-end
 
 ::: moniker range="vs-2019"
 

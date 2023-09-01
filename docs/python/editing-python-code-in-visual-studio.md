@@ -143,7 +143,8 @@ To customize the colors, go to **Tools** > **Options** > **Environment** > **Fon
 
 > [!Tip]
 > To disable code coloring, go to **Tools** > **Options** > **Text Editor** > **Python** > **Advanced** and clear **Miscellaneous Options** > **Color names based on type**. See [Options - Miscellaneous options](python-support-options-and-settings-in-visual-studio.md#miscellaneous-options).
-> ::: moniker-end
+
+::: moniker-end
 
 ## Code snippets
 
