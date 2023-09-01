@@ -12,8 +12,6 @@
         href: getting-started-office-development-in-visual-studio.md
       - name: Office Solutions Development Overview
         href: office-solutions-development-overview-vsto.md
-      - name: Changes to the Design of Office Projects that Target the .NET Framework 4 or the .NET Framework 4.5
-        href: changes-to-the-design-of-office-projects-that-target-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md
       - name: Features Available by Office Application and Project Type
         href: features-available-by-office-application-and-project-type.md
       - name: Configuring a Computer to Develop Office Solutions
@@ -40,20 +38,14 @@
         href: visual-studio-tools-for-office-runtime.md
     - name: Upgrading and Migrating Office Solutions
       items:
-      - name: Upgrading and Migrating Office Solutions
-        href: upgrading-and-migrating-office-solutions.md
       - name: Migrating Office Solutions to the .NET Framework 4 or later
         items:
         - name: Migrating Office Solutions to the .NET Framework 4 or later
           href: migrating-office-solutions-to-the-dotnet-framework-4-or-later.md
-        - name: Required Changes to Run Office Projects
-          href: required-changes-to-run-office-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md
         - name: Updating Excel and Word Projects
           href: updating-excel-and-word-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md
         - name: Updating Ribbon Customizations in Office Projects
           href: ./update-ribbon-customizations-in-office-projects-to-migrate-to-dotnet-framework-4-or-4-5.md
-        - name: Updating Form Regions in Outlook Projects
-          href: updating-form-regions-in-outlook-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md
     - name: Architecture of Office Solutions in Visual Studio
       items:
       - name: Architecture of Office Solutions in Visual Studio
@@ -100,10 +92,6 @@
           href: information-rights-management-and-managed-code-extensions-overview.md
         - name: Permit Code to Run Behind Documents with Restricted Permissions
           href: how-to-permit-code-to-run-behind-documents-with-restricted-permissions.md
-        - name: Password Protection on Office Documents
-          href: password-protection-on-office-documents.md
-        - name: Open Office Solutions without Running Code
-          href: how-to-open-office-solutions-without-running-code.md
     - name: Developing Office Solutions
       items:
       - name: Developing Office Solutions
@@ -122,8 +110,6 @@
           href: events-in-office-projects.md
         - name: Create Event Handlers in Office Projects
           href: how-to-create-event-handlers-in-office-projects.md
-        - name: Collaborative Development of Office Solutions
-          href: collaborative-development-of-office-solutions.md
       - name: Programming VSTO Add-Ins
         items:
         - name: Programming VSTO Add-Ins
@@ -146,8 +132,6 @@
           items:
           - name: Combining VBA and Document-Level Customizations
             href: combining-vba-and-document-level-customizations.md
-          - name: Expose Code to VBA in a Visual Basic Project
-            href: how-to-expose-code-to-vba-in-a-visual-basic-project.md
           - name: Expose Code to VBA in a Visual C# Project
             href: how-to-expose-code-to-vba-in-a-visual-csharp-project.md
           - name: 'Walkthrough: Calling Code from VBA in a Visual Basic Project'
@@ -160,8 +144,6 @@
             href: managing-documents-on-a-server-by-using-the-serverdocument-class.md
           - name: Remove Managed Code Extensions from Documents
             href: how-to-remove-managed-code-extensions-from-documents.md
-          - name: Attach Managed Code Extensions to Documents
-            href: how-to-attach-managed-code-extensions-to-documents.md
       - name: Office UI Customization
         items:
         - name: Office UI Customization
@@ -202,8 +184,6 @@
             items:
             - name: Adding Controls to Office Documents at Run Time
               href: adding-controls-to-office-documents-at-run-time.md
-            - name: Persisting Dynamic Controls in Office Documents
-              href: persisting-dynamic-controls-in-office-documents.md
         - name: Ribbon Overview
           items:
           - name: Ribbon Overview
@@ -226,8 +206,6 @@
             href: how-to-change-the-position-of-a-tab-on-the-ribbon.md
           - name: Customize a Built-in Tab
             href: how-to-customize-a-built-in-tab.md
-          - name: Add Controls to the Backstage View
-            href: how-to-add-controls-to-the-backstage-view.md
           - name: Add a Dialog Box Launcher to a Ribbon Group
             href: how-to-add-a-dialog-box-launcher-to-a-ribbon-group.md
           - name: Export a Ribbon from the Ribbon Designer to Ribbon XML
@@ -286,8 +264,6 @@
             href: walkthrough-binding-to-data-from-a-service-in-a-vsto-add-in-project.md
           - name: Populate Documents with Data from Objects
             href: how-to-populate-documents-with-data-from-objects.md
-          - name: Scroll Through Database Records in a Worksheet
-            href: how-to-scroll-through-database-records-in-a-worksheet.md
           - name: Update a Data Source with Data from a Host Control
             href: how-to-update-a-data-source-with-data-from-a-host-control.md
           - name: 'Walkthrough: Simple Data Binding in VSTO add-in Project'
@@ -312,12 +288,6 @@
               href: caching-data.md
             - name: Cache Data for Use Offline or on a Server
               href: how-to-cache-data-for-use-offline-or-on-a-server.md
-            - name: Programmatically Cache a Data Source in an Office Document
-              href: how-to-programmatically-cache-a-data-source-in-an-office-document.md
-            - name: Cache Data in a Password-Protected Document
-              href: how-to-cache-data-in-a-password-protected-document.md
-            - name: 'Walkthrough: Creating a Master Detail Relation Using a Cached Dataset'
-              href: walkthrough-creating-a-master-detail-relation-using-a-cached-dataset.md
           - name: Accessing Data in Documents on the Server
             items:
             - name: Accessing Data in Documents on the Server
@@ -356,8 +326,6 @@
         href: how-to-create-and-modify-custom-document-properties.md
       - name: Target the Office Multilingual User Interface
         href: how-to-target-the-office-multilingual-user-interface.md
-      - name: Accessibility in Office Projects
-        href: accessibility-in-office-projects.md
     - name: Excel Solutions
       items:
       - name: Excel Solutions
@@ -408,16 +376,12 @@
             href: how-to-programmatically-remove-protection-from-worksheets.md
           - name: Programmatically Add and Delete Worksheet Comments
             href: how-to-programmatically-add-and-delete-worksheet-comments.md
-          - name: Programmatically Display Worksheet Comments
-            href: how-to-programmatically-display-worksheet-comments.md
           - name: Programmatically Group Rows in a Worksheet
             href: how-to-programmatically-group-rows-in-a-worksheet.md
           - name: Programmatically Change Formatting in Worksheet Rows Containing Selected Cells
             href: how-to-programmatically-change-formatting-in-worksheet-rows-containing-selected-cells.md
           - name: Programmatically Copy Data and Formatting across Worksheets
             href: how-to-programmatically-copy-data-and-formatting-across-worksheets.md
-          - name: Programmatically Check Spelling in Worksheets
-            href: how-to-programmatically-check-spelling-in-worksheets.md
           - name: Programmatically Sort Data in Worksheets
             href: how-to-programmatically-sort-data-in-worksheets.md
         - name: Working with Ranges
@@ -452,16 +416,12 @@
           href: chart-control.md
         - name: NamedRange Control
           href: namedrange-control.md
-        - name: XmlMappedRange Control
-          href: xmlmappedrange-control.md
         - name: Add Chart Controls to Worksheets
           href: how-to-add-chart-controls-to-worksheets.md
         - name: Add ListObject Controls to Worksheets
           href: how-to-add-listobject-controls-to-worksheets.md
         - name: Add NamedRange Controls to Worksheets
           href: how-to-add-namedrange-controls-to-worksheets.md
-        - name: Add XMLMappedRange Controls to Worksheets
-          href: how-to-add-xmlmappedrange-controls-to-worksheets.md
         - name: Resize NamedRange Controls
           href: how-to-resize-namedrange-controls.md
         - name: Resize ListObject Controls
@@ -500,16 +460,12 @@
             href: how-to-programmatically-access-outlook-contacts.md
           - name: Programmatically Search for a Specific Contact
             href: how-to-programmatically-search-for-a-specific-contact.md
-          - name: Programmatically Add an Entry to Outlook Contacts
-            href: how-to-programmatically-add-an-entry-to-outlook-contacts.md
           - name: Programmatically Search for an E-Mail Address in Contacts
             href: how-to-programmatically-search-for-an-e-mail-address-in-contacts.md
           - name: Programmatically Delete Outlook Contacts
             href: how-to-programmatically-delete-outlook-contacts.md
         - name: Working with Mail Items
           items:
-          - name: Working with Mail Items
-            href: working-with-mail-items.md
           - name: Programmatically Create an E-Mail Item
             href: how-to-programmatically-create-an-e-mail-item.md
           - name: Programmatically Send E-Mail
@@ -542,8 +498,6 @@
             href: working-with-calendar-items.md
           - name: Programmatically Create Appointments
             href: how-to-programmatically-create-appointments.md
-          - name: Programmatically Delete Appointments
-            href: how-to-programmatically-delete-appointments.md
           - name: Programmatically Create a Custom Calendar
             href: how-to-programmatically-create-a-custom-calendar.md
           - name: Programmatically Create a Meeting Request
@@ -556,8 +510,6 @@
           href: creating-outlook-form-regions.md
         - name: Guidelines for Creating Outlook Form Regions
           href: guidelines-for-creating-outlook-form-regions.md
-        - name: Add a Form Region to an Outlook Add-in Project
-          href: how-to-add-a-form-region-to-an-outlook-add-in-project.md
         - name: Associating a Form Region with an Outlook Message Class
           href: associating-a-form-region-with-an-outlook-message-class.md
         - name: 'Walkthrough: Designing an Outlook Form Region'
@@ -672,8 +624,6 @@
             href: how-to-programmatically-set-search-options-in-word.md
           - name: Programmatically Loop Through Found Items in Documents
             href: how-to-programmatically-loop-through-found-items-in-documents.md
-          - name: Programmatically Restore Selections After Searches
-            href: how-to-programmatically-restore-selections-after-searches.md
           - name: Programmatically Count Characters in Documents
             href: how-to-programmatically-count-characters-in-documents.md
           - name: Programmatically Hide Text in Documents
@@ -702,16 +652,10 @@
           href: content-controls.md
         - name: Bookmark Control
           href: bookmark-control.md
-        - name: XMLNode Control
-          href: xmlnode-control.md
         - name: Add Content Controls to Word Documents
           href: how-to-add-content-controls-to-word-documents.md
         - name: Add Bookmark Controls to Word Documents
           href: how-to-add-bookmark-controls-to-word-documents.md
-        - name: Add XMLNode Controls to Word Documents
-          href: how-to-add-xmlnode-controls-to-word-documents.md
-        - name: Add XMLNodes Controls to Word Documents
-          href: how-to-add-xmlnodes-controls-to-word-documents.md
         - name: Protect Parts of Documents by Using Content Controls
           href: how-to-protect-parts-of-documents-by-using-content-controls.md
         - name: Resize Bookmark Controls
@@ -740,8 +684,6 @@
         href: granting-trust-to-office-solutions.md
       - name: Granting Trust to Documents
         href: granting-trust-to-documents.md
-      - name: Secure Deployment
-        href: secure-deployment.md
       - name: Trusting Office Solutions by Using Inclusion Lists
         href: trusting-office-solutions-by-using-inclusion-lists.md
       - name: Configure Inclusion List Security
@@ -774,12 +716,8 @@
         href: walkthroughs-using-word.md
       - name: Walkthroughs Using Excel
         href: walkthroughs-using-excel.md
-      - name: Data in Office Solutions Walkthroughs
-        href: data-in-office-solutions-walkthroughs.md
       - name: Office UI Customization Walkthroughs
         href: office-ui-customization-walkthroughs.md
-      - name: Security and Deployment Walkthroughs
-        href: security-and-deployment-walkthroughs.md
     - name: General Reference (Office Development in Visual Studio)
       items:
       - name: Office Primary Interop Assemblies
@@ -830,16 +768,10 @@
         href: deployment-manifests-for-office-solutions.md
       - name: User Interface Reference (Office Development in Visual Studio)
         items:
-        - name: User Interface Reference (Office Development in Visual Studio)
-          href: user-interface-reference-office-development-in-visual-studio.md
         - name: Microsoft Office Word Keyboard, Microsoft Office Keyboard Settings, Options Dialog Box
           href: microsoft-office-word-keyboard-microsoft-office-keyboard-settings-options-dialog-box.md
         - name: Microsoft Office Excel Keyboard, Microsoft Office Keyboard Settings, Options Dialog Box
           href: microsoft-office-excel-keyboard-microsoft-office-keyboard-settings-options-dialog-box.md
-        - name: Project Upgrade, Options Dialog Box
-          href: project-upgrade-options-dialog-box.md
-        - name: Publish Page, Project Designer (Office Development in Visual Studio)
-          href: publish-page-project-designer-office-development-in-visual-studio.md
         - name: Publish Wizard (Office Development in Visual Studio)
           href: publish-wizard-office-development-in-visual-studio.md
       - name: Error Messages (Office Development in Visual Studio)
@@ -850,8 +782,6 @@
           href: microsoft-office-is-not-installed-on-this-computer.md
         - name: The workbook used to create this project contains ActiveX controls that the designer cannot load
           href: the-workbook-used-to-create-this-project-contains-activex-controls-that-the-designer-cannot-load.md
-        - name: One or more properties in the .ofs file are not valid for the message class selected
-          href: one-or-more-properties-in-the-dot-ofs-file-are-not-valid-for-the-message-class-selected.md
         - name: Enable access to VBA to create or open a Visual Studio Tools for the Microsoft Office System project
           href: enable-access-to-vba-to-create-or-open-a-visual-studio-tools-for-office-system-project.md
     - name: Managed Reference (Office Development in Visual Studio)
