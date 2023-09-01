@@ -100,9 +100,6 @@
     "externalReference": [],
     "globalMetadata": {
       "uhfHeaderId": "MSDocsHeader-VisualStudioMac",
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/visualstudio-docs",
-      "feedback_product_url": "https://aka.ms/feedback/report?space=41",
       "contributors_to_exclude": [
         "conceptdev",
         "meganbradley",
