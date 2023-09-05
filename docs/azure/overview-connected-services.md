@@ -11,13 +11,13 @@ ms.date: 08/01/2022
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
-# About Connected Services
+# About Visual Connected Services
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Connected Services is a collection of tools in Visual Studio that help you connect your application to the following:
+Developers are building apps with an increasing number of services, yet the service technologies are evolving just as fast.  Visual Studio offers a modern service consumption experience, **Connected Services**, that enables each service the ability to tailor their consumption experience, prompting the developer for the relevant questions they need to get started quickly.  Connected Services includes a collection of tools in Visual Studio that help you connect your application to the following:
 
-* Azure services
+* [Azure services](#azure)
 * OpenAPI endpoints
 * gRPC (Remote Procedure Call) endpoints
 * Windows Communication Foundation (WCF) endpoints
@@ -33,18 +33,7 @@ Get started by right-clicking on the project node, and choosing **Add > Connecte
 
 Supported project types vary by the type of service. You'll see the options that apply to your project type in the listed selections.
 
-## Connect your app to gRPC, OpenAPI and WCF endpoints
-
-Use Connected Services to connect your application to any of the following services:
-
-| Name | ASP.NET Link | Description |
-|-|-|-|
-| [OpenAPI](https://github.com/OAI/OpenAPI-Specification) endpoints | [Develop ASP.NET Core apps with OpenAPI](/aspnet/core/web-api/Microsoft.dotnet-openapi) | A standard format for describing the capabilities of a service in computer-readable and human-readable form. |
-| [gRPC](https://grpc.io/docs/) endpoints | [Introduction to gRPC services on .NET](/aspnet/core/grpc/) | An open-source real-time procedure calling service. |
-| [WCF](/dotnet/framework/wcf/) endpoints | n/a | A .NET Framework solution supporting programming with a distributed network of services. |
-
-Visual Studio will generate any necessary client or server code to facilitate the communication.
-
+<a name="azure"/>
 ## Connect your app to Azure services
 
 Use Connected Services to connect your application to live Azure services emulators and other local alternatives to Azure services. Visual Studio currently supports the following:
@@ -66,9 +55,22 @@ Use Connected Services to connect your application to live Azure services emulat
 > [!NOTE]
 > Using Publish you can deploy your application to Azure hosting services like Azure VMs, Azure App Service, Azure Functions and Azure Container Registry
 
-## Support for Azure emulators and local alternatives
+### Support for Azure emulators and local alternatives
 
 Visual Studio makes it easier to develop Azure applications locally by easing the transition from locally emulated services to services running in the cloud. You can use Connected Services to connect your application to local emulators, some of which run in a local container, and other local alternatives to Azure services. Visual Studio currently supports the following:
+
+
+## Connect your app to gRPC, OpenAPI and WCF endpoints
+
+Use Connected Services to connect your application to any of the following services:
+
+| Name | ASP.NET Link | Description |
+|-|-|-|
+| [OpenAPI](https://github.com/OAI/OpenAPI-Specification) endpoints | [Develop ASP.NET Core apps with OpenAPI](/aspnet/core/web-api/Microsoft.dotnet-openapi) | A standard format for describing the capabilities of a service in computer-readable and human-readable form. |
+| [gRPC](https://grpc.io/docs/) endpoints | [Introduction to gRPC services on .NET](/aspnet/core/grpc/) | An open-source real-time procedure calling service. |
+| [WCF](/dotnet/framework/wcf/) endpoints | n/a | A .NET Framework solution supporting programming with a distributed network of services. |
+
+Visual Studio generates any necessary client or server code to facilitate the communication.
 
 | Name | Description |
 | - | - |
