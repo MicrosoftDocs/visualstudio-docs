@@ -329,7 +329,7 @@ These settings are specific to the test adapter that runs test methods that have
 |**MapNotRunnableToFailed**|true|A value indicating whether a not runnable result is mapped to failed test.|
 |**Parallelize**|Used to set the parallelization settings:<br /><br />**Workers**: The number of threads/workers to be used for parallelization, which is by default **the number of processors on the current machine**.<br /><br />**SCOPE**: The scope of parallelization. You can set it to **MethodLevel**. By default, it's **ClassLevel**.<br /><br />`<Parallelize><Workers>32</Workers><Scope>MethodLevel</Scope></Parallelize>`|
 |**TestTimeout**|0|Gets specified global test case timeout.|
-|**TreatDiscoveryWarningsAsErrors**|false|To report test discovery warnings as errors, set this valie to **true**.|
+|**TreatDiscoveryWarningsAsErrors**|false|To report test discovery warnings as errors, set this value to **true**.|
 |**TreatClassAndAssemblyCleanupWarningsAsErrors**|false|To see your failures in class cleanups as errors, set this value to **true**.|
 |**DeployTestSourceDependencies**|true|A value indicating whether the test source references are to be deployed.|
 |**DeleteDeploymentDirectoryAfterTestRunIsComplete**|true|To retain the deployment directory after a test run, set this value to **false**.|
