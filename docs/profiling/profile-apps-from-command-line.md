@@ -1,7 +1,7 @@
 ---
 title: "Measure performance from the command line"
 description: "Measure CPU performance and managed memory usage in your application from the command line."
-ms.date: 06/28/2023
+ms.date: 09/06/2023
 ms.topic: conceptual
 helpviewer_keywords: 
   - "Profiling Tools, command-line"
@@ -48,6 +48,18 @@ Profiling using the Visual Studio Diagnostics CLI tools works by attaching the p
    ::: moniker range="vs-2019"
    ```<Visual Studio installation folder>\2019\Enterprise\Team Tools\DiagnosticsHub\Collector\```
    ::: moniker-end
+
+   For the remote tools, the collection agent executable is in this location:
+
+   ::: moniker range=">= vs-2022"
+   ```Program Files\Microsoft Visual Studio 17.0\Team Tools\DiagnosticsHub\Collector\```
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   ```Program Files\Microsoft Visual Studio 16.0\Team Tools\DiagnosticsHub\Collector\```
+   ::: moniker-end
+
+   > [!NOTE]
+   > When using the command line in remote scenarios, you need to run the command-line instructions on the remote machine. If you want to attach to the remote machine from Visual Studio, use the Performance Profiler in Visual Studio instead.
 
 1. Start *VSDiagnostics.exe* by typing the following command.
 
