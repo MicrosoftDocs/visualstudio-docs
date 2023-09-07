@@ -27,28 +27,26 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Azure development with Visual Studio](../azure/index.yml) - Improve Azure and deployment landing pages and TOC
-- [Deploy your application to Azure using GitHub Actions workflows created by Visual Studio](../azure/azure-deployment-using-github-actions.md) - Add information about GitHub Actions in Solution Explorer
-- [GitHub Actions deployment to Azure in Visual Studio](../azure/overview-github-actions.md) - GitHub Actions in Solution Explorer
+- Add information about GitHub Actions in Solution Explorer:
+  - [Deploy your application to Azure using GitHub Actions workflows created by Visual Studio](../azure/azure-deployment-using-github-actions.md) 
+  - [GitHub Actions deployment to Azure in Visual Studio](../azure/overview-github-actions.md)
 
 ### Containers
 
 **Updated articles**
 
-- [Quickstart: Docker in Visual Studio](../containers/container-tools.md) - Containers 17.7 updates
-- [Use the Containers window](../containers/view-and-diagnose-containers.md) - Containers 17.7 updates
+- Update Containers info for the Visual Studio 2022 version 17.7 release:
+  - [Quickstart: Docker in Visual Studio](../containers/container-tools.md)
+  - [Use the Containers window](../containers/view-and-diagnose-containers.md)
 
 ### Debugger
 
 **Updated articles**
 
-- [Remote Debugging a C# or Visual Basic project in Visual Studio](../debugger/remote-debugging-csharp.md) - Update remote debugging for C# and VB
-- [Edit and Continue (Visual Basic)](../debugger/edit-and-continue-visual-basic.md) - Remove several debugging articles
-- [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md) - Remove several debugging articles
-- [View disassembly code in the Visual Studio debugger (C#, C++, Visual Basic, F#)](../debugger/how-to-use-the-disassembly-window.md) - Remove several debugging articles
-- [Debug only user code with Just My Code](../debugger/just-my-code.md) - Updates for C++ Just My Code for 17.6 and other details of behavior
-- [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md) - Improve supported code changes documentation.
-- [Custom data visualizers for the Visual Studio debugger (.NET)](../debugger/create-custom-visualizers-of-data.md) - Updates for SEO for custom visualizers
+- [Remote Debugging a C# or Visual Basic project in Visual Studio](../debugger/remote-debugging-csharp.md) - Update remote debugging for C# and Visual Basic
+- [Debug only user code with Just My Code](../debugger/just-my-code.md) - Updates for C++ for Visual Studio 2022 version 17.6 and for other details of behavior
+- [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md) - Apply text revisions
+- [Custom data visualizers for the Visual Studio debugger (.NET)](../debugger/create-custom-visualizers-of-data.md) - Updates for search engine optimization and for custom visualizers
 
 ### Deployment
 
@@ -58,9 +56,9 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Deployment documentation # Required; page title displayed in search results. Include the brand. < 60 chars.](../deployment/index.yml) - Improve Azure and deployment landing pages and TOC
-- [How to: Enable and configure ClickOnce security settings in Visual Studio](../deployment/how-to-enable-clickonce-security-settings.md) - Refactor ClickOnce articles describing configuration in the Wizard
-- [Specify ClickOnce Publish properties](../deployment/how-to-specify-where-visual-studio-copies-the-files.md) - Refactor ClickOnce articles describing configuration in the Wizard
+- Refactor to describe configuration in the Wizard:
+  - [How to: Enable and configure ClickOnce security settings in Visual Studio](../deployment/how-to-enable-clickonce-security-settings.md) 
+  - [Specify ClickOnce Publish properties](../deployment/how-to-specify-where-visual-studio-copies-the-files.md) 
 
 ### IDE
 
@@ -70,27 +68,28 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Manage references in a project](../ide/managing-references-in-a-project.md) - (freshness) Update links, text, and screenshots
-- [Customize window layouts and personalize tabs](../ide/customizing-window-layouts-in-visual-studio.md) - (freshness) Update links and text
-- [Tutorial: Build an application](../ide/walkthrough-building-an-application.md) - Update article procedure
+- [Visual Studio Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md) - Revise 64-bit file path for PowerShell
+- [Learn about Solution Explorer](../ide/use-solution-explorer.md) - Add new File Comparison section
+- [Use Visual Studio search](../ide/visual-studio-search.md) - Add new All-In-One Search section
+- Add new Copy & Trim Indentation info:
+  - [Productivity guide for Visual Studio](../ide/productivity-features.md) 
+  - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
 - [Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)](../ide/work-with-multi-factor-authentication.md) - Add Windows authentication broker workflow
-- [Features of Visual Studio](../ide/advanced-feature-overview.md) - Cross link to vs caches on dev box article and add link to new image
-- [How to: Suppress compiler warnings](../ide/how-to-suppress-compiler-warnings.md) - Improve article about suppressing warnings
-- [What are solutions and projects in Visual Studio?](../ide/solutions-and-projects-in-visual-studio.md) - (freshness) Update links and text
-- [Visual Studio Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md) - revise 64-bit file path for PowerShell in VS2022
-- [Title not found in: ](../ide/whats-new-visual-studio-docs.md) - update with July 2023 data
-- [Productivity guide for Visual Studio](../ide/productivity-features.md) - add new Copy & Trim Indentation info
-- [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md) - add new Copy & Trim Indentation info
-- [Learn about Solution Explorer](../ide/use-solution-explorer.md) - Release 17.7 to main
-- [Personalize the Visual Studio IDE and the editor](../ide/quickstart-personalize-the-ide.md) - (freshness) Update links and text
-- [Use Visual Studio search](../ide/visual-studio-search.md) - add All-In-One Search content
+- [Tutorial: Build an application](../ide/walkthrough-building-an-application.md) - Update article procedure
+- [Manage references in a project](../ide/managing-references-in-a-project.md) - Update links, text, and screenshots
+- Update links and text:
+  - [Customize window layouts and personalize tabs](../ide/customizing-window-layouts-in-visual-studio.md) 
+  - [Personalize the Visual Studio IDE and the editor](../ide/quickstart-personalize-the-ide.md)
+  - [What are solutions and projects in Visual Studio?](../ide/solutions-and-projects-in-visual-studio.md)
+- [Features of Visual Studio](../ide/advanced-feature-overview.md) - Revise links
+- [How to: Suppress compiler warnings](../ide/how-to-suppress-compiler-warnings.md) - Revise text
 
 ### Install
 
 **Updated articles**
 
-- [Update Visual Studio](../install/update-visual-studio.md) - Fixed update documentation
-- [Administrative Templates (ADMX)](../install/administrative-templates.md) - Updates for Standard User and Intune settings catalog
+- [Update Visual Studio](../install/update-visual-studio.md) - Revise update information
+- [Administrative Templates (ADMX)](../install/administrative-templates.md) - Update info for the Standard User and Intune settings catalog
 
 ### JavaScript
 
@@ -103,7 +102,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [WriteCodeFragment task](../msbuild/writecodefragment-task.md) - WriteCodeFragment AssemblyAttribute parameter now allows extended syntax
+- [WriteCodeFragment task](../msbuild/writecodefragment-task.md) - Add extended syntax information for the WriteCodeFragment AssemblyAttribute parameter
 
 ### Profiling
 
@@ -115,11 +114,12 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Install debugging symbols for Python interpreters](../python/debugging-symbols-for-mixed-mode-c-cpp-python.md) - Additional PTVS Doc Updates
-- [Python projects in Visual Studio](../python/managing-python-projects-in-visual-studio.md) - Additional PTVS Doc Updates
-- [Automatically reformat Python code in Visual Studio](../python/formatting-python-code.md) - Continued refresh of stale Python docs
-- [Lint Python code](../python/linting-python-code.md) - Continued refresh of stale Python docs
-- [Step 4: Run code in the debugger](../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md) - Continued refresh of stale Python docs
+- Apply text revisions:
+  - [Install debugging symbols for Python interpreters](../python/debugging-symbols-for-mixed-mode-c-cpp-python.md)
+  - [Python projects in Visual Studio](../python/managing-python-projects-in-visual-studio.md)
+  - [Automatically reformat Python code in Visual Studio](../python/formatting-python-code.md)
+  - [Lint Python code](../python/linting-python-code.md)
+  - [Step 4: Run code in the debugger](../python/tutorial-working-with-python-in-visual-studio-step-04-debugging.md)
 
 ### Test
 
@@ -131,13 +131,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [Remote Testing (experimental preview)](../test/remote-testing.md) - Update remote testing article with example of using dockerFile in test environment
-- [Configure and use Live Unit Testing](../test/live-unit-testing-2019.md)
-  - [AQ] edit pass: Live unit testing articles
-  - Lut v2 docs
-- [Configure and use Live Unit Testing](../test/live-unit-testing.md)
-  - [AQ] edit pass: Live unit testing articles
-  - Lut v2 docs
-- [Live Unit Testing frequently asked questions](../test/live-unit-testing-faq.yml) - Lut v2 docs
+- [Configure and use Live Unit Testing](../test/live-unit-testing.md) - Revise text
 
 ### Version control
 
@@ -147,13 +141,12 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Browse Git repositories and compare branches in Visual Studio](../version-control/git-browse-repository.md) - Release 17.7 to main
+- [Browse Git repositories and compare branches in Visual Studio](../version-control/git-browse-repository.md) - Add new "Multi-branch graph" info
 
-## Community contributors
+### Community contributors
 
 The following people contributed to Visual Studio content last month. Thank you! To learn more about how you can help too, see the [Microsoft Docs contributor guide](/contribute/).
 
-- [learn-build-service-prod](https://github.com/learn-build-service-prod) -  ![5 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-5-green)
 - [Cazka](https://github.com/Cazka) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [joaonunatingscode](https://github.com/joaonunatingscode) - João Nunes ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [seldonwilson](https://github.com/seldonwilson) - Daniel Wilson ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
