@@ -117,14 +117,15 @@ You might find it useful to use item metadata to construct the destination file 
   </PropertyGroup>
 
   <ItemGroup>
-    <FilesToRename Include="files\**\*.txt" />    
+    <FilesToRename Include="files\**\*.txt" />
+    <RenamedFiles Include="@(FilesToRename -> '%(RelativeDir)%(Filename).$(NewExtension)')" />    
   </ItemGroup>
 
   <Target Name="MoveFiles" AfterTargets="Build">
-    <Message Text="Renaming files @(FilesToRename)"/>
+    <Message Text="Renaming files @(FilesToRename) to @(RenamedFiles)"/>
     <Move SourceFiles="@(FilesToRename)"
           OverwriteReadOnlyFiles="true"
-          DestinationFiles="%(RelativeDir)%(Filename).$(NewExtension)" />
+          DestinationFiles="@(RenamedFiles)" />
   </Target>
 
 </Project>
