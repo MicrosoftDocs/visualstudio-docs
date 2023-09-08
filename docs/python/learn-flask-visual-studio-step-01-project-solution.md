@@ -338,5 +338,4 @@ Answer: In addition to the **Debug** menu commands and toolbar buttons, you can 
 
 At this point, the basic Flask project contains the startup code and page code in the same file. It's best to separate these two concerns, and to also separate HTML and data by using templates.
 
-> [!div class="nextstepaction"]
-> [Create a Flask app with views and page templates](learn-flask-visual-studio-step-02-create-app.md)
+> [!div class="nextstepaction"] > [Create a Flask app with views and page templates](learn-flask-visual-studio-step-02-create-app.md)
