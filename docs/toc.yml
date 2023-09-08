@@ -42,7 +42,7 @@
     href: install/repair-visual-studio.md
   - name: Uninstall Visual Studio
     href: install/uninstall-visual-studio.md
-  - name: Build & release numbers
+  - name: Release dates & build numbers
     href: /visualstudio/releases/2022/release-history?toc=%2Fvisualstudio%2Ftoc.json#release-dates-and-build-numbers
   - name: Visual Studio administrator guide
     items:
