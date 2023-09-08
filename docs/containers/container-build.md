@@ -3,7 +3,7 @@ title: How to customize Docker containers in Visual Studio
 author: ghogen
 description: Information about the Visual Studio build process for containers, called fast mode, which is necessary to understand how to modify the Dockerfile to customize your container images for both debug and production builds.
 ms.author: ghogen
-ms.date: 06/25/2022
+ms.date: 09/8/2023
 ms.technology: vs-container-tools
 ms.topic: how-to
 ---
@@ -113,6 +113,9 @@ Here are the volumes that are mounted in your container:
 | **App folder** | Contains the project folder where the Dockerfile is located.|
 | **Source folder** | Contains the build context that is passed to Docker commands.|
 | **NuGet packages folders** | Contains the NuGet packages and fallback folders that are read from the *obj\{project}.csproj.nuget.g.props* file in the project. |
+| **HotReloadAgent** | Contains the bits required to run the Hot Reload agent. |
+| **HotReloadProxy** | Contains the Hot Reload proxy. |
+| **TokenService.Proxy** | Contains the files required to support the Token Service proxy. |
 
 For ASP.NET core web apps, there might be two additional folders for the SSL certificate and the user secrets, which is explained in more detail in the next section.
 
