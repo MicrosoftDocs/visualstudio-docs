@@ -86,9 +86,9 @@ Python development isn't presently supported in Visual Studio for Mac. On Mac an
 
 1.  Configure your new project by entering following information and then select **Create**:
 
-        - **Name**: set the name of the Visual Studio project to **BasicProject**. This name is also used for the Flask project.
-        - **Location**: specify a location in which to create the Visual Studio solution and project.
-        - **Solution name**: set to **LearningFlask**, which is appropriate for the solution as a container for multiple projects in this tutorial.
+    - **Name**: set the name of the Visual Studio project to **BasicProject**. This name is also used for the Flask project.
+    - **Location**: specify a location in which to create the Visual Studio solution and project.
+    - **Solution name**: set to **LearningFlask**, which is appropriate for the solution as a container for multiple projects in this tutorial.
 
 ::: moniker-end
 
