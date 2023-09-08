@@ -213,7 +213,8 @@ Answer: Yes, you can use subfolders and then refer to the relative path under _t
 
 ## Next steps
 
-> [!div class="nextstepaction"] > [Serve static files, add pages, and use template inheritance](learn-flask-visual-studio-step-03-serve-static-files-add-pages.md)
+> [!div class="nextstepaction"]
+> [Serve static files, add pages, and use template inheritance](learn-flask-visual-studio-step-03-serve-static-files-add-pages.md)
 
 ## Go deeper
 

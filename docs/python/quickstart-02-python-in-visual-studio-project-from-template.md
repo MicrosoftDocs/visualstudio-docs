@@ -148,7 +148,8 @@ Using templates can save you significant time when starting a project or creatin
 
 ## Next steps
 
-> [!div class="nextstepaction"] > [Tutorial: Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
+> [!div class="nextstepaction"]
+> [Tutorial: Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
 
 ## See also
 

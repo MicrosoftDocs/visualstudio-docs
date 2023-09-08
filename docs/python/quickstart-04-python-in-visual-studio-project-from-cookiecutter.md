@@ -41,7 +41,8 @@ Once you've [installed Python support in Visual Studio](installing-python-suppor
 
 ## Next steps
 
-> [!div class="nextstepaction"] > [Tutorial: Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
+> [!div class="nextstepaction"]
+> [Tutorial: Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
 
 ## See also
 

@@ -28,7 +28,8 @@ If desired, run the program by pressing **Ctrl**+**F5** or selecting **Debug** >
 
 ## Next steps
 
-> [!div class="nextstepaction"] > [Tutorial: Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
+> [!div class="nextstepaction"]
+> [Tutorial: Work with Python in Visual Studio](tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
 
 ## See also
 

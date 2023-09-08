@@ -277,7 +277,8 @@ Answer: When Django looks for a template referred to in the `render` function, i
 
 ## Next steps
 
-> [!div class="nextstepaction"] > [Serve static files, add pages, and use template inheritance](learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md)
+> [!div class="nextstepaction"]
+> [Serve static files, add pages, and use template inheritance](learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md)
 
 ## Go deeper
 

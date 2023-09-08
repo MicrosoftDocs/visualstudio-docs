@@ -302,7 +302,8 @@ Answer: In addition to the **Debug** menu commands and toolbar buttons, you can 
 
 At this point, the basic Django project doesn't contain any apps. You'll create an app in the next step. Since you'll work with Django apps more than the Django project, you won't need to know more about the boilerplate files for now.
 
-> [!div class="nextstepaction"] > [Create a Django app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md)
+> [!div class="nextstepaction"]
+> [Create a Django app with views and page templates](learn-django-in-visual-studio-step-02-create-an-app.md)
 
 ## Go deeper
 

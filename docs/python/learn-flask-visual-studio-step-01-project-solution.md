@@ -61,7 +61,7 @@ Python development isn't presently supported in Visual Studio for Mac. On Mac an
 
 1.  In Visual Studio, select **File** > **New** > **Project**, search for "Flask", and select the **Blank Flask Web Project** template. (The template is also found under **Python** > **Web** in the left-hand list.)
 
-    ![New project dialog in Visual Studio for the Blank Flask Web Project](media/flask/step01-new-blank-project.png)
+    ![VS 2019 New project dialog in Visual Studio for the Blank Flask Web Project](media/flask/step01-new-blank-project.png)
 
 1.  In the fields at the bottom of the dialog, enter the following information (as shown in the previous graphic), then select **OK**:
 
@@ -77,10 +77,12 @@ Python development isn't presently supported in Visual Studio for Mac. On Mac an
 
 1.  Select the option **I will install them myself**. You create the virtual environment shortly to make sure it's excluded from source control. (The environment can always be created from _requirements.txt_.)
     ::: moniker-end
-    ::: moniker range="vs-2022"
+
+::: moniker range="vs-2022"
+
 1.  In Visual Studio, select **File** > **New** > **Project** and search for "Flask". Then, select the **Blank Flask Web Project** template and select **Next**.
 
-    ![New project dialog in Visual Studio for the Blank Flask Web Project](media/flask/step-01-new-blank-project-vs-2022.png)
+    ![VS 2022 New project dialog in Visual Studio for the Blank Flask Web Project](media/flask/step-01-new-blank-project-vs-2022.png)
 
 1.  Configure your new project by entering following information and then select **Create**:
 
@@ -88,7 +90,7 @@ Python development isn't presently supported in Visual Studio for Mac. On Mac an
         - **Location**: specify a location in which to create the Visual Studio solution and project.
         - **Solution name**: set to **LearningFlask**, which is appropriate for the solution as a container for multiple projects in this tutorial.
 
-    ::: moniker-end
+::: moniker-end
 
 ## Step 1-2: Examine the Git controls and publish to a remote repository
 
@@ -124,7 +126,8 @@ Because you selected the **Create new Git repository** in the **New Project** di
 
 > [!Tip]
 > To quickly navigate within **Team Explorer**, select the header (that reads **Changes** or **Push** in the images above) to see a pop-up menu of the available pages.
-> ::: moniker-end
+
+::: moniker-end
 
 ::: moniker range="vs-2022"
 In this step, you familiarize yourself with Visual Studio's Git controls and the **Team Explorer** window in which you work with source control.
@@ -335,4 +338,5 @@ Answer: In addition to the **Debug** menu commands and toolbar buttons, you can 
 
 At this point, the basic Flask project contains the startup code and page code in the same file. It's best to separate these two concerns, and to also separate HTML and data by using templates.
 
-> [!div class="nextstepaction"] > [Create a Flask app with views and page templates](learn-flask-visual-studio-step-02-create-app.md)
+> [!div class="nextstepaction"]
+> [Create a Flask app with views and page templates](learn-flask-visual-studio-step-02-create-app.md)
