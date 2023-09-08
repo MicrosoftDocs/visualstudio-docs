@@ -32,15 +32,17 @@ For related videos, see the [blog post announcement](https://devblogs.microsoft.
 
 To use Copilot with the debugging features, you must have Visual Studio 2022 version 17.7.4 or later, and a GitHub Copilot subscription.
 
-For detailed information and installation instructions, see [Prerequisites & supported programming languages](../ide/visual-studio-github-copilot-extension?view=vs-2022#prerequisites--supported-programming-languages).
+For detailed information and installation instructions, see [Prerequisites & supported programming languages](../ide/visual-studio-github-copilot-extension.md?view=vs-2022#prerequisites--supported-programming-languages).
 
 ## Get help with exceptions
 
 Copilot has access to exceptions, call stack, local variables, and code. By forming good questions based on the right parts of the data Visual Studio has when you’re at an exception, Copilot Chat can provide useful insights and fixes for the issue.
 
-When you see an exception, select the **Ask Copilot** link to get AI-generated answers related to the specific exception and context. If you have more questions, just ask Copilot!
+When you see an exception, select the **Ask Copilot** link to get AI-generated answers related to the specific exception and context.
 
-[![Screenshot of Ask Copilot option in Exception Helper.](../debugger/media/vs-2022/debug-with-copilot-exception-chat.png "Ask Copilot option in Exception Helper.")](../debugger/media/vs-2022/debug-with-copilot-exception-helper.png#lightbox)
+[![Screenshot of Ask Copilot option in Exception Helper.](../debugger/media/vs-2022/debug-with-copilot-exception-helper.png "Ask Copilot option in Exception Helper.")](../debugger/media/vs-2022/debug-with-copilot-exception-helper.png#lightbox)
+
+If you have more questions, just ask Copilot!
 
 [![Screenshot of Chat window after choosing Ask Copilot.](../debugger/media/vs-2022/debug-with-copilot-exception-chat.png "Ask Copilot option in Exception Helper.")](../debugger/media/vs-2022/debug-with-copilot-exception-helper.png#lightbox)
 
