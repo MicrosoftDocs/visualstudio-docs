@@ -148,6 +148,8 @@
   items:
   - name: GitHub Copilot
     href: ide/visual-studio-github-copilot-extension.md
+  - name: Debug with Copilot
+    href: ide/debug-with-copilot.md
 - name: Develop
   items:
   - name: Organize and edit code
