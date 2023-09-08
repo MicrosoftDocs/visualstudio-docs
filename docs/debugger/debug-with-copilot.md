@@ -34,6 +34,14 @@ To use Copilot with the debugging features, you must have Visual Studio 2022 ver
 
 For detailed information and installation instructions, see [Prerequisites & supported programming languages](../ide/visual-studio-github-copilot-extension.md?view=vs-2022#prerequisites--supported-programming-languages).
 
+## Get help with Top Insights
+
+Copilot provides detailed information in the CPU Usage auto insights. It provides detailed information and insights for specific methods and properties, such as `String.Concat` and many other methods. With Copilot, ask questions about functions on the identified hot paths in your code, which can help you produce more efficient or cost-effective code.
+
+When the CPU Usage tool provides auto insights in the Top Insights section, select **Ask Copilot** to learn from Copilot and start asking questions.
+
+![Animation of using Copilot with CPU Usage.](../debugger/media/vs-2022/debug-with-copilot-top-insights.gif "Using Copilot with CPU Usage.")
+
 ## Get help with exceptions
 
 Copilot has access to exceptions, call stack, local variables, and code. By forming good questions based on the right parts of the data Visual Studio has when you’re at an exception, Copilot Chat can provide useful insights and fixes for the issue.
@@ -45,14 +53,6 @@ When you see an exception, select the **Ask Copilot** link to get AI-generated a
 If you have more questions, just ask Copilot!
 
 [![Screenshot of Chat window after choosing Ask Copilot.](../debugger/media/vs-2022/debug-with-copilot-exception-chat.png "Ask Copilot option in Exception Helper.")](../debugger/media/vs-2022/debug-with-copilot-exception-helper.png#lightbox)
-
-## Get help with Top Insights
-
-Copilot provides detailed information in the CPU Usage auto insights. It provides detailed information and insights for specific methods and properties, such as `String.Concat` and many other methods. With Copilot, ask questions about functions on the identified hot paths in your code, which can help you produce more efficient or cost-effective code.
-
-When the CPU Usage tool provides auto insights in the Top Insights section, select **Ask Copilot** to learn from Copilot and start asking questions.
-
-![Animation of using Copilot with CPU Usage.](../debugger/media/vs-2022/debug-with-copilot-top-insights.gif "Using Copilot with CPU Usage.")
 
 ## Get help with debugging
 
