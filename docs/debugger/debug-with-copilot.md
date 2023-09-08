@@ -32,7 +32,7 @@ For related videos, see the [blog post announcement](https://devblogs.microsoft.
 
 To use Copilot with the debugging features, you must have Visual Studio 2022 version 17.7.4 or later, and a GitHub Copilot subscription.
 
-For detailed information and installation instructions, see [Prerequisites & supported programming languages](../ide/visual-studio-github-copilot-extension.md?view=vs-2022#prerequisites--supported-programming-languages).
+For detailed information and installation instructions, see [Prerequisites & supported programming languages](../ide/visual-studio-github-copilot-extension.md#prerequisites--supported-programming-languages).
 
 ## AI-assisted auto insights
 
