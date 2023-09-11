@@ -30,9 +30,11 @@ For related videos, see the [blog post announcement](https://devblogs.microsoft.
 
 ## Prerequisites
 
-To use the private preview of Copilot with the debugging features, you must have Visual Studio 2022 version 17.7.4 or later, and a GitHub Copilot subscription.
+To use the private preview of Copilot with the debugging features, you must have Visual Studio 2022 version 17.7.4 or later, a GitHub Copilot subscription, and the Copilot extensions for Visual Studio installed.
 
 For detailed information and installation instructions, see [Prerequisites & supported programming languages](../ide/visual-studio-github-copilot-extension.md#prerequisites--supported-programming-languages).
+
+[![Screenshot of Copilot extensions.](../debugger/media/vs-2022/debug-with-copilot-extensions.png "Copilot extensions.")](../debugger/media/vs-2022/debug-with-copilot-extensions.png#lightbox)
 
 ## AI-assisted auto insights
 
@@ -63,4 +65,3 @@ Copilot understands call stacks, frames, variable names, and values. As a result
 And Copilot answers!
 
 ![Screenshot of answered question.](../debugger/media/vs-2022/debug-with-copilot-question-answered.png "Answered Question.")
-
