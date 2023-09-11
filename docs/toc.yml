@@ -42,6 +42,16 @@
     href: install/repair-visual-studio.md
   - name: Uninstall Visual Studio
     href: install/uninstall-visual-studio.md
+  - name: Error when testing or deploying minimal layout
+    href: install/error-test-deploy-minimal-layout.md
+  - name: Update deployed via Configuration Manager fails to install
+    href: install/update-deployed-via-configuration-manager-fails-install.md
+  - name: Unable to update Visual Studio using the help menu
+    href: install/unable-update-using-help-menu.md
+  - name: Unable to install VS Admin updates through SCCM and WSUS
+    href: unable-install-vs-admin-updates-sccm-wsus.md
+  - name: Installer fails to perform repair or update
+    href: install/installer-fails-perform-repair-update.md
   - name: Visual Studio administrator guide
     items:
     - name: Overview
