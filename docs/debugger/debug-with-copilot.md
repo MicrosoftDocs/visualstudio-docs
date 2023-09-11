@@ -1,7 +1,7 @@
 ---
 title: Debug with Copilot | Microsoft Docs
 description: Use Copilot to help debug your apps and provide performance insights.
-ms.date: 09/08/2023
+ms.date: 09/11/2023
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -23,14 +23,14 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-GitHub Copilot chat for Visual Studio 2022 supports many interactive debugging scenarios, including AI-assisted chat for debugging questions related to your variables, the call stack, and other code elements, along with highly targeted help associated with an **Ask Copilot** link.
+The private preview of GitHub Copilot chat for Visual Studio 2022 supports many interactive debugging scenarios, including AI-assisted chat for debugging questions related to your variables, the call stack, and other code elements, along with highly targeted help associated with an **Ask Copilot** link.
 
 For related videos, see the [blog post announcement](https://devblogs.microsoft.com/visualstudio/simplified-code-refinement-and-debugging-with-github-copilot-chat/
 ).
 
 ## Prerequisites
 
-To use Copilot with the debugging features, you must have Visual Studio 2022 version 17.7.4 or later, and a GitHub Copilot subscription.
+To use the private preview of Copilot with the debugging features, you must have Visual Studio 2022 version 17.7.4 or later, and a GitHub Copilot subscription.
 
 For detailed information and installation instructions, see [Prerequisites & supported programming languages](../ide/visual-studio-github-copilot-extension.md#prerequisites--supported-programming-languages).
 
@@ -44,7 +44,7 @@ When the CPU Usage tool provides auto insights in the Top Insights section, sele
 
 ## AI-assisted exceptions
 
-Copilot has access to exceptions, call stack, local variables, and code. By forming good questions based on the right parts of the data Visual Studio has when you’re at an exception, Copilot Chat can provide useful insights and fixes for the issue.
+Copilot has access to exceptions, call stack, local variables, and code. By asking good questions based on the relevant exception data that Visual Studio has when you’re at an exception, Copilot Chat can provide useful insights and fixes for the issue.
 
 When you see an exception, select the **Ask Copilot** link to get AI-generated answers related to the specific exception and context.
 
