@@ -5,7 +5,7 @@ ms.date: 09/07/2023
 ms.technology: vs-ide-compile
 ms.topic: how-to
 helpviewer_keywords:
-  - msbuild logs"
+  - MSBuild logs"
 author: tylermsft
 ms.author: twhitney
 manager: jmartens
@@ -15,7 +15,7 @@ dev_langs:
  - CPP
 ms.workload:
   - "multiple"
-ms.description: "Generate build logs for msbuild projects to collect helpful information when troubleshooting issues."
+ms.description: "Generate build logs for MSBuild projects to collect helpful information when troubleshooting issues."
 ---
 # Troubleshoot and create logs for MSBuild problems
 
@@ -31,10 +31,10 @@ If a project property appears to be set to particular value, but has no effect o
 1. Run the following command, after substituting the values for your solution path, configuration, and project name:
 
     ```cmd
-    msbuild /p:SolutionDir="c:\MySolutionDir\";Configuration="MyConfiguration";Platform="Win32" /pp:out.xml MyProject.vcxproj
+    MSBuild /p:SolutionDir="c:\MySolutionDir\";Configuration="MyConfiguration";Platform="Win32" /pp:out.xml MyProject.vcxproj
     ```
 
-    This command produces a "preprocessed" msbuild project file (out.xml). You can search that file for a specific property to see where it is defined.
+    This command produces a "preprocessed" MSBuild project file (out.xml). You can search that file for a specific property to see where it is defined.
 
 The last definition of a property is what the build consumes. If property is set twice, the second value overwrites the first. Also, MSBuild evaluates the project in several passes:
 
@@ -97,22 +97,22 @@ If you are building in the Visual Studio IDE (with detailed output window verbos
 ## Create a detailed log
 
 1. From the Visual Studio main menu, go to **Tools** > **Options** > **Projects and Solutions** >**Build and Run**.
-1. Set **Msbuild project build verbosity** to **Detailed** in both combo boxes. The top one controls build verbosity in the **Output Window** and the second one controls build verbosity in the \<projectname\>.log file that is created in each project's Intermediate directory during build.
+1. Set **MSBuild project build verbosity** to **Detailed** in both combo boxes. The top one controls build verbosity in the **Output Window** and the second one controls build verbosity in the \<projectname\>.log file that is created in each project's Intermediate directory during build.
 2. From a Visual Studio developer command prompt, enter one of these commands, substituting your actual path and configuration values:
 
     ```cmd
-    Msbuild /p:Configuration="MyConfiguration";Platform="x86" /fl MySolution.sln
+    MSBuild /p:Configuration="MyConfiguration";Platform="x86" /fl MySolution.sln
     ```
 
     or
 
     ```cmd
-    Msbuild /p:/p:SolutionDir="c:\MySolutionDir\";Configuration="MyConfiguration";Platform="Win32" /fl MyProject.vcxproj
+    MSBuild /p:/p:SolutionDir="c:\MySolutionDir\";Configuration="MyConfiguration";Platform="Win32" /fl MyProject.vcxproj
     ```
 
-    An Msbuild.log file will be created in the directory that you ran msbuild from.
+    An MSBuild.log file will be created in the directory that you ran MSBuild from.
 
-## Providing MSBuild Binary Logs for investigation
+## Provide MSBuild binary logs for investigation
 
 MSBuild has the ability to capture a detailed binary log file.  If you are having a build issue and are able to provide a binary log, this can be very helpful for investigating the issue.
 
@@ -121,7 +121,7 @@ However, you should be aware what type of information is captured in the binary 
 > [!NOTE]
 > Some build environments make secrets available using environment variables. Before sharing a binary log, make sure it does not expose API tokens or other important secrets.
 
-### Capturing Binary Logs for command-line builds
+### Capture binary logs for command-line builds
 
 You can create a binary log by passing the `-bl` parameter to MSBuild (`MSBuild.exe` or `dotnet build`). You can explore the contents of the generated .binlog file using [MSBuild Structured Log Viewer](http://msbuildlog.com/) or in your browser using [Live Structured Log Viewer](https://live.msbuildlog.com). Note: We don't capture any data from binary logs viewed on your browser.
 
@@ -135,7 +135,7 @@ MSBuild.exe -bl:ServiceRelease.binlog -p:Configuration=Release
 
 [More details about binary logs](https://github.com/dotnet/msbuild/blob/main/documentation/wiki/Binary-Log.md)
 
-## Capturing Binary Logs Through Visual Studio
+## Capture binary logs through Visual Studio
 
 To capture logs for all MSBuild invocations:
 
