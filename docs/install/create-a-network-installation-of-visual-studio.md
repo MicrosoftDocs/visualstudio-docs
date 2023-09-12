@@ -371,7 +371,7 @@ There are several ways to enable your layout to include and provide the latest i
      "channelId": "VisualStudio.16.Release",
      "productId": "Microsoft.VisualStudio.Product.Enterprise",
    
-     "useLatestInstaller": true
+     "useLatestInstaller": true,
      "removeOos": true
      
    }
