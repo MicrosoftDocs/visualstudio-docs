@@ -58,7 +58,7 @@ As you enter a path, auto completion tries to locate the correct path and file n
 This example opens the style file "Test1.css" in the source code editor.
 
 ```console
->File.OpenFile "C:\My Projects\project1\Test1.css" /e:"Source Code (text) Editor"
+File.OpenFile "C:\My Projects\project1\Test1.css" /e:"Source Code (text) Editor"
 ```
 
 ## See also
