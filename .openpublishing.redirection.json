@@ -1,6 +1,231 @@
 {
   "redirections": [
     {
+      "source_url": "docs/extensibility/internals/legacy-language-service-extensibility.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/legacy-language-service-extensibility",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/migrating-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/migrating-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/legacy-language-service-essentials.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/legacy-language-service-essentials",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/developing-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/developing-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/model-of-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/model-of-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/legacy-language-service-interfaces.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/legacy-language-service-interfaces",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/intercepting-legacy-language-service-commands.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/intercepting-legacy-language-service-commands",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/important-commands-for-language-service-filters.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/important-commands-for-language-service-filters",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/registering-a-legacy-language-service2.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/registering-a-legacy-language-service2",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/checklist-creating-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/checklist-creating-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/legacy-language-service-features2.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/legacy-language-service-features2",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/syntax-coloring-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/syntax-coloring-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/implementing-syntax-coloring.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/implementing-syntax-coloring",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/how-to-use-built-in-colorable-items.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/how-to-use-built-in-colorable-items",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/custom-colorable-items.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/custom-colorable-items",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/automatic-formatting-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/automatic-formatting-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/parameter-info-in-a-legacy-language-service1.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/parameter-info-in-a-legacy-language-service1",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/statement-completion-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/statement-completion-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/outlining-and-hidden-text-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/outlining-and-hidden-text-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/how-to-support-outlining-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/how-to-support-outlining-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/how-to-provide-hidden-text-support-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/how-to-provide-hidden-text-support-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/how-to-provide-expanded-outlining-support-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/how-to-provide-expanded-outlining-support-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/language-service-support-for-debugging.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/language-service-support-for-debugging",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/implementing-a-legacy-language-service1.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/implementing-a-legacy-language-service1",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/legacy-language-service-overview.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/legacy-language-service-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/implementing-a-legacy-language-service2.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/implementing-a-legacy-language-service2",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/registering-a-legacy-language-service1.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/registering-a-legacy-language-service1",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/legacy-language-service-parser-and-scanner.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/legacy-language-service-parser-and-scanner",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/walkthrough-creating-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/walkthrough-creating-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/legacy-language-service-features1.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/legacy-language-service-features1",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/brace-matching-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/brace-matching-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/commenting-code-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/commenting-code-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/custom-document-properties-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/custom-document-properties-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/outlining-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/outlining-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/reformatting-code-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/reformatting-code-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/support-for-code-snippets-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/support-for-code-snippets-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/parameter-info-in-a-legacy-language-service2.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/parameter-info-in-a-legacy-language-service2",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/quick-info-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/quick-info-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/member-completion-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/member-completion-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/word-completion-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/word-completion-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/support-for-the-autos-window-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/support-for-the-autos-window-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/support-for-the-navigation-bar-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/support-for-the-navigation-bar-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/syntax-colorizing-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/syntax-colorizing-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_url": "docs/extensibility/internals/validating-breakpoints-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/validating-breakpoints-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "docs/data-tools/walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework",
       "redirect_document_id": false
