@@ -732,13 +732,6 @@ To output operations in JSON, a popular and portable format for storing object d
    ![Screenshot of Newtonsoft J SON NuGet package information in the NuGet Package Manager.](media/vs-2019/calculator2-nuget-newtonsoft-json-dark2.png)
    
    Visual Studio downloads the package and adds it to the project. A new entry appears in the References node in **Solution Explorer**.
-
-    Add a `using` directive for `Newtonsoft.Json` at the beginning of *CalculatorLibrary.cs*.
-
-   ```csharp
-   using Newtonsoft.Json;
-   ```
-
    ::: moniker-end
 
    ::: moniker range=">=vs-2022"
@@ -748,6 +741,12 @@ To output operations in JSON, a popular and portable format for storing object d
    Visual Studio downloads the package and adds it to the project. A new entry appears in a **Packages** node in **Solution Explorer**.
    ::: moniker-end
 
+   Add a `using` directive for `Newtonsoft.Json` at the beginning of *CalculatorLibrary.cs*.
+
+   ```csharp
+   using Newtonsoft.Json;
+   ```
+   
 1. Create the `JsonWriter` member object, and replace the `Calculator` constructor with the following code:
 
    ```csharp
@@ -974,7 +973,6 @@ Here's the complete code for the *CalculatorLibrary.cs* file, after you complete
 ```csharp
 using System;
 using System.IO;
-using System.Diagnostics;
 using Newtonsoft.Json;
 
 namespace CalculatorLibrary
@@ -1142,7 +1140,7 @@ namespace CalculatorProgram
 Here's the complete code for the *CalculatorLibrary.cs* file, after you complete all the steps:
 
 ```csharp
-using System.Diagnostics;
+using Newtonsoft.Json;
 
 namespace CalculatorLibrary
 {
