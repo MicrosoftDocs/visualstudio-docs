@@ -180,7 +180,7 @@ You can view and search your *.binlog* files by using the [MSBuild Structured Lo
 
 ## Next steps
 
-* [More technical info](Building-Testing-and-Debugging-on-Full-Framework-MSBuild.md#logs)
+* [Building, testing, and debugging on full framework MSBuild](https://github.com/dotnet/msbuild/blob/main/documentation/wiki/Building-Testing-and-Debugging-on-Full-Framework-MSBuild.md#logs)
 * [Design time builds logs](https://github.com/dotnet/project-system/blob/main/docs/repo/debugging/design-time-builds.md#gathering-full-fidelity-binlogs)
 
 ## See also
