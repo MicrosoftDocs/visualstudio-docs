@@ -38,7 +38,7 @@ The following notes outline the timeline for support.
     :::column-end::: 
 :::row-end:::
 
-<a name="stable"/>
+<a name="stable" />
 
 ## Preview vs stable builds of Visual Studio for Mac
  
