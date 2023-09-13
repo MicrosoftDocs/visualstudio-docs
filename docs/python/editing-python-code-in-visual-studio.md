@@ -1,7 +1,7 @@
 ---
 title: Edit Python code
 description: For Python, Visual Studio provides rich IntelliSense, code snippets, and navigation features, alongside formatting, linting, and refactoring.
-ms.date: 01/18/2022
+ms.date: 09/01/2023
 ms.topic: conceptual
 author: cwebster-99
 ms.author: cowebster
@@ -12,9 +12,10 @@ ms.workload:
   - python
   - data-science
 ---
+
 # Edit Python code
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Because you spend much of your development time in the code editor, [Python support in Visual Studio](installing-python-support-in-visual-studio.md) provides functionality to help you be more productive. Features include IntelliSense syntax highlighting, autocompletion, signature help, method overrides, search, and navigation.
 
@@ -73,7 +74,7 @@ Typing @ starts a decorator and shows potential decorators. Many of these items 
 
 ### Type hints
 
-*Visual Studio 2017 version 15.7 and later.*
+_Visual Studio 2017 version 15.7 and later._
 
 "Type hints" in Python 3.5+ ([PEP 484](https://www.python.org/dev/peps/pep-0484/) (python.org) is an annotation syntax for functions and classes that indicate the types of arguments, return values, and class attributes. IntelliSense displays type hints when you hover over functions calls, arguments, and variables that have those annotations.
 
@@ -107,7 +108,7 @@ Using the **Run Mypy** command on this code generates the following error:
 ![Example result of mypy validating type hints](media/code-editing-type-hints-validation-error.png)
 
 > [!Tip]
-> For versions of Python before 3.5, Visual Studio also displays type hints that you supply through Typeshed *stub files* (*.pyi*). You can use stub files whenever you don't want to include type hints directly in your code, or when you want to create type hints for a library that doesn't use them directly. For more information, see [Create stubs for Python modules](https://github.com/python/mypy/wiki/Creating-Stubs-For-Python-Modules) in the mypy project wiki.
+> For versions of Python before 3.5, Visual Studio also displays type hints that you supply through Typeshed _stub files_ (_.pyi_). You can use stub files whenever you don't want to include type hints directly in your code, or when you want to create type hints for a library that doesn't use them directly. For more information, see [Create stubs for Python modules](https://github.com/python/mypy/wiki/Creating-Stubs-For-Python-Modules) in the mypy project wiki.
 >
 > Visual Studio includes a bundles set of Typeshed files for Python 2 and 3, so additional downloads aren't necessary. However, if you want to use a different set of files, you can specify the path in the **Tools** > **Options** > **Python** > **Language Server** options. See [Options - Language Server](python-support-options-and-settings-in-visual-studio.md#language-server-options).
 >
@@ -128,6 +129,8 @@ Hovering the mouse pointer over an identifier displays a Quick Info tooltip. Dep
 
 ![Quick Info in the Visual Studio editor](media/code-editing-quick-info.png)
 
+::: moniker range="<=vs-2019"
+
 ### Code coloring
 
 Code coloring uses information from code analysis to color variables, statements, and other parts of your code. For example, variables that refer to modules or classes may be shown in a different color than functions or other values, and parameter names appear in a different color than local or global variables. (By default, functions aren't shown in bold):
@@ -141,9 +144,11 @@ To customize the colors, go to **Tools** > **Options** > **Environment** > **Fon
 > [!Tip]
 > To disable code coloring, go to **Tools** > **Options** > **Text Editor** > **Python** > **Advanced** and clear **Miscellaneous Options** > **Color names based on type**. See [Options - Miscellaneous options](python-support-options-and-settings-in-visual-studio.md#miscellaneous-options).
 
+::: moniker-end
+
 ## Code snippets
 
-Code snippets are fragments of code that can be inserted into your files by typing a shortcut and pressing **Tab**, or using the **Edit** > **IntelliSense** > **Insert Code Snippet** and **Surround With** commands, selecting **Python**, then selecting the desired snippet.
+Code snippets are fragments of code that can be inserted into your files by typing a shortcut and pressing **Tab**, or using the **Edit** > **IntelliSense** > **Insert Snippet** and **Surround With** commands, selecting **Python**, then selecting the desired snippet.
 
 For example, `class` is a shortcut for a code snippet that inserts a class definition. You see the snippet appear in the autocompletion list when you type `class`:
 

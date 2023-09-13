@@ -1,11 +1,12 @@
 ---
 title: Renew retail Visual Studio subscriptions through the Microsoft store
 description: Renew retail Visual Studio subscriptions purchased from the Microsoft store.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Evan Windom and Larissa Crawford of Red Door Collaborative and Sharvari Dighe.
 ms.topic: include
 ms.assetid: 3b36270b-aa3b-4c05-b12e-4df8d6f823c1
 author: larissacrawford
 ms.author: amast
-ms.date: 05/03/2023
+ms.date: 08/17/2023
 user.type: subscriber
 tags: renewal
 subscription.type: retail
@@ -22,9 +23,9 @@ If your subscription isn't expired, your expiration date can be found on the Sub
 
 Retail Visual Studio subscriptions available to renew through the Microsoft Store include: 
 
-* [Visual Studio Enterprise](https://www.microsoft.com/en-us/p/visual-studio-enterprise-subscription/DG7GMGF0DST4/0003?rtc=1&activetab=pivot:overviewtab) 
-* [Visual Studio Professional](https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab) 
-* [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab) 
++ [Visual Studio Enterprise](https://www.microsoft.com/en-us/p/visual-studio-enterprise-subscription/DG7GMGF0DST4/0003?rtc=1&activetab=pivot:overviewtab) 
++ [Visual Studio Professional](https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab) 
++ [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab) 
 
 Each of these subscriptions offers the option to make an initial purchase or to renew an existing subscription. Renewal pricing reflects a significant discount and is only available for existing subscriptions.  
 

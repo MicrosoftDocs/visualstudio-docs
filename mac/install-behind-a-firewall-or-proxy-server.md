@@ -11,7 +11,7 @@ ms.date: 01/10/2022
 ---
 # Install and use Visual Studio for Mac behind a firewall or proxy server
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 If you or your organization uses security measures such as a firewall or a proxy server, then there are domains that you might want to add to an "allow list" and ports and protocols that you might want to open so that you have the best experience when you install and use Visual Studio for Mac and Azure Services.
 

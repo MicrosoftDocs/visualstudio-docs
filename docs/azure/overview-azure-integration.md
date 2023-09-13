@@ -1,6 +1,6 @@
 ---
-title: Azure integration
-description: Learn about how you can develop Azure applications and services in Visual Studio and deploy them to the cloud.
+title: Azure development with Visual Studio
+description: Learn about how you can connect your apps to Azure services in Visual Studio and deploy them to the cloud.
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
@@ -11,7 +11,7 @@ ms.date: 10/19/2021
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
-# Overview: Azure integration
+# About Azure development in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -55,7 +55,11 @@ The following screenshot shows a typical Visual Studio dialog where you can brow
 
 ## Deploy an application to Azure using Publish or GitHub Actions
 
-Right-click on your project in [Solution Explorer](../ide/use-solution-explorer.md) and pick **Publish** from the context menu. The Publish wizard will guide you through the experience and if your project is hosted on GitHub.com you will automatically also be given the opportunity to configure CI/CD using GitHub Actions.
+:::moniker range=">=vs-2022"
+Whenever you open a project from a GitHub repo in Visual Studio 2022 version 17.7 and later, any GitHub Actions in the repo are shown under the GitHub Actions node in Solution Explorer.
+:::moniker-end
+
+Visual Studio has special support for GitHub Actions that deploy your project. You can generate a deployment action that will publish your application to Azure. Right-click on your project in [Solution Explorer](../ide/use-solution-explorer.md), and pick **Publish** from the context menu. The Publish wizard will guide you through the experience, and if your project is hosted on GitHub, you will automatically also be given the opportunity to configure CI/CD using GitHub Actions. See [Overview of GitHub Actions in Visual Studio](overview-github-actions.md).
 
 ## Configure Azure dependencies to be emulated locally and connect to real services at deployment time
 

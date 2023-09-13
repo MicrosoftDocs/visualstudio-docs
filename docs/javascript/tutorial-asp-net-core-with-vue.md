@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: In this tutorial, you create an app using ASP.NET Core and Vue
-ms.date: 04/25/2023
+ms.date: 08/23/2023
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -28,20 +28,19 @@ You can use the method described in this article to create ASP.NET Core Single P
 - Create the client project based on the framework CLI installed on your computer
 
 > [!NOTE]
-> A simplified, updated template is available starting in Visual Studio 2022 version 17.5. This template creates two projects in the initial solution and eliminates several configuration steps compared to the previous template. This article describes the project creation process using the new template.
+> This article describes the project creation process using the template in Visual Studio 2022 version 17.7, which uses the Vite CLI.
 
 ## Prerequisites
 
 Make sure to install the following:
 
-- Visual Studio 2022 version 17.5 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- Visual Studio 2022 version 17.7 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
-- npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
-- Vue CLI ([https://cli.vuejs.org/](https://cli.vuejs.org/))  
+- npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js.
 
 ## Create the frontend app
 
-1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**. 
+1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project":::
 
@@ -58,13 +57,13 @@ Make sure to install the following:
    Compared to the [standalone Vue template](../javascript/tutorial-create-vue-app.md), you see some new and modified files for integration with ASP.NET Core:
 
    - aspnetcore-https.js
-   - vue.config.json (modified)
+   - vite.config.json (modified)
    - HelloWorld.vue (modified)
    - package.json (modified)
 
 ## Set the project properties
 
-1. In Solution Explorer, right-click the ASP.NET Core project and choose **Properties**.
+1. In Solution Explorer, right-click the ASP.NET Core project (webapi) and choose **Properties**.
 
    :::image type="content" source="media/vs-2022/asp-net-core-project-properties.png" alt-text="Screenshot showing Open project properties"::: 
 
@@ -79,15 +78,15 @@ Make sure to install the following:
 
 ## Start the project
 
-To start the project, press **F5** or select the **Start** button at the top of the window. You will see two command prompts appear:
+To start the project, press **F5** or select the **Start** button at the top of the window. You see two command prompts appear:
 
 - The ASP.NET Core API project running
-- The Vue CLI running the vue-cli-service serve command
+- The Vite CLI showing a message such as `VITE v4.4.9 ready in 780 ms`
 
 >[!NOTE]
 > Check console output for messages, such as a message instructing you to update your version of Node.js.
 
-You should see the Vue app appear, that is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
+The Vue app appears, populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
 
 ## Publish the project
 
@@ -106,7 +105,7 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 
 1. In the *.csproj* file, update the project reference and add `<ReferenceOutputAssembly>` with the value set to `false`.
 
-   When you've updated the reference, it should look like this (substituting your own project folder and project name).
+   When you've updated the reference, it looks like this (substituting your own project folder and project name).
 
    ```xml
    <ProjectReference Include="..\vueprojectfolder\vueprojectname.esproj">
@@ -145,40 +144,50 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 You may see the following error:
 
 ```
-[HPM] Error occurred while trying to proxy request /weatherforecast from localhost:4200 to https://localhost:5001 (ECONNREFUSED) (https://nodejs.org/api/errors.html#errors_common_system_errors)
+[HPM] Error occurred while trying to proxy request /weatherforecast from localhost:4200 to https://localhost:5173 (ECONNREFUSED) (https://nodejs.org/api/errors.html#errors_common_system_errors)
 ```
 
 If you see this issue, most likely the frontend started before the backend. Once you see the backend command prompt up and running, just refresh the Vue app in the browser.
 
-Otherwise, if the port is in use, try 5002 in *launchSettings.json* and *vue.config.js*.
+Otherwise, if the port is in use, try incrementing the port number by **1** in *launchSettings.json* and *vite.config.js*.
+
+### Privacy error
+
+You may see the following certificate error:
+
+```
+Your connection isn't private
+```
+
+Try deleting the Vue certificates from *%appdata%\local\asp.net\https* or *%appdata%\roaming\asp.net\https*, and then retry.
 
 ### Verify ports
 
 If the weather data does not load correctly, you may also need to verify that your ports are correct.
 
-1. Make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
+1. Make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core **webapi** project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
 
-   If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:5001`.
+   If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:7142`.
 
-1. Then, go to the *vue.config.js* file for your Vue project. Update the target property to match the `applicationUrl` property in *launchSettings.json*. When you update it, that value should look similar to this:
+1. Then, go to the *vite.config.js* file for your Vue project. Update the `target` property to match the `applicationUrl` property in *launchSettings.json*. When you update it, that value should look similar to this:
 
    ```js
-   target: 'https://localhost:5001',
+   target: 'https://localhost:7142/',
    ```
 
 ### Outdated version of Vue
 
-If you see the console message **Could not find the file 'C:\Users\Me\source\repos\vueprojectname\package.json'** when you create the project, you may need to update your version of the Vue CLI. After you update the Vue CLI, you may also need to delete the *.vuerc* file in *C:\Users\\[yourprofilename\]*.
+If you see the console message **Could not find the file 'C:\Users\Me\source\repos\vueprojectname\package.json'** when you create the project, you may need to update your version of the Vite CLI. After you update the Vite CLI, you may also need to delete the *.vuerc* file in *C:\Users\\[yourprofilename\]*.
 
 ### Docker
 
-If you enable Docker support while creating the web API project, the backend may start up using the Docker profile and not listen on the configured port 5001. To resolve:
+If you enable Docker support while creating the web API project, the backend may start up using the Docker profile and not listen on the configured port 5173. To resolve:
 
-Edit the Docker profile in the launchSettings.json by adding the following properties:
+Edit the Docker profile in the *launchSettings.json* by adding the following properties:
 
 ```json
-"httpPort": 5003, 
-"sslPort": 5001  
+"httpPort": 5175, 
+"sslPort": 5173  
 ```
 
 Alternatively, reset using the following method:

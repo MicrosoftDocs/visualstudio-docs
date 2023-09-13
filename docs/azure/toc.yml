@@ -1,12 +1,12 @@
-- name: Azure Development with Visual Studio
+- name: Develop applications for Azure with Visual Studio
   href: index.yml
   expanded: true
 - name: Overview
   expanded: true
   items:
-  - name: Connected Services
+  - name: What is Visual Studio Connected Services?
     href: overview-connected-services.md
-  - name: Publish to Azure
+  - name: Develop Azure applications
     href: overview-azure-integration.md
 - name: Connect to Azure services
   items:
@@ -29,31 +29,31 @@
   - name: Add Azure App Configuration
     href: vs-azure-tools-connected-services-app-configuration.md
   expanded: false
-- name: Publish ASP.NET web app
+- name: Deploy to Azure
   items:
-  - name: Azure Container Apps >>
-    href: /azure/container-apps/deploy-visual-studio
-  - name: Azure App Service >>
-    href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs
-  - name: Azure Container Registry
-    href: ../containers/hosting-web-apps-in-docker.md
-- name: Publish Azure Function app
-  items:
-  - name: Azure Function Apps >>
-    href: /azure/azure-functions/functions-create-your-first-function-visual-studio
-- name: Continuous integration
-  expanded: true
-  items:
-  - name: GitHub Actions
+  - name: ASP.NET web app
     items:
-    - name: Overview
-      href: overview-github-actions.md
-    - name: Deploy to Azure using GitHub Actions
-      href: azure-deployment-using-github-actions.md
-  - name: ASP.NET Core and Git >>
-    href: /azure/app-service/deploy-continuous-deployment
-  - name: Azure Pipelines >>
-    href: /azure/devops/pipelines/get-started-yaml?view=vsts&preserve-view=true
+    - name: Azure Container Apps >>
+      href: /azure/container-apps/deploy-visual-studio
+    - name: Azure App Service >>
+      href: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs
+    - name: Azure Container Registry
+      href: ../containers/hosting-web-apps-in-docker.md
+  - name: Azure Function app
+    href: /azure/azure-functions/functions-create-your-first-function-visual-studio
+  - name: Continuous integration
+    expanded: true
+    items:
+    - name: GitHub Actions
+      items:
+      - name: Overview
+        href: overview-github-actions.md
+      - name: Deploy to Azure using GitHub Actions
+        href: azure-deployment-using-github-actions.md
+    - name: ASP.NET Core and Git >>
+      href: /azure/app-service/deploy-continuous-deployment
+    - name: Azure Pipelines >>
+      href: /azure/devops/pipelines/get-started-yaml?view=vsts&preserve-view=true
 - name: Azure Cloud Services development
   items:
   - name: Use Cloud Services (extended support)

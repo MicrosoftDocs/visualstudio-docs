@@ -1,7 +1,7 @@
 ---
 title: "Create a Vue.js app"
 description: In this tutorial, learn how to create a simple Vue.js application in Visual Studio.
-ms.date: 05/26/2023
+ms.date: 08/24/2023
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
@@ -25,10 +25,9 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
 Make sure to install the following:
 
-- Visual Studio 2022 Preview 2 or later. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- Visual Studio 2022 or later. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
 - npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
 - Vue.js ([Installation | Vue.js (vuejs.org)](https://v3.vuejs.org/guide/installation.html#npm))
-- Vue.js CLI ([(Installation | Vue.js (vuejs.org)](https://v3.vuejs.org/guide/installation.html#cli))
 
 ## Create your app
 
@@ -57,9 +56,9 @@ Choose **Build** > **Build Solution**  to build the project.
 
 ## Start Your Project
 
-Press **F5** or select the **Start** button at the top of the window, and you'll see a command prompt:
+Press **F5** or select the **Start** button at the top of the window, and you'll see a command prompt such as:
 
-- npm running the vue-cli-service start command
+- VITE v4.4.9 ready in 780 ms
 
    >[!NOTE]
    > Check console output for messages, such as a message instructing you to update your version of Node.js.

@@ -15,6 +15,7 @@ ms.workload:
   - "nodejs"
 monikerRange: '>= vs-2022'
 ---
+
 # Create an Angular app
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
@@ -25,7 +26,7 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
 Make sure to install the following:
 
-- Visual Studio 2022 Preview 2 or later. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- Visual Studio 2022 or later. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
 - npm ([https://www.npmjs.com/](https://www.npmjs.com/package/npm)), which is included with Node.js
 - Angular CLI ([https://angular.io/cli](https://angular.io/cli))
   This can be the version of your choice

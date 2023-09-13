@@ -27,57 +27,78 @@ You can change or create configurations and platform settings by using the **Con
 
 ### Create a build configuration
 
+:::moniker range="vs-2019"
+
 1. Open the **Configuration Manager** dialog box.
 
-   :::moniker range="<=vs-2019"
    ![Screenshot of the Build menu, Configuration Manager command.](../ide/media/buildwalk_configurationmanagerdialogbox.png)
-   :::moniker-end
-   :::moniker range=">=vs-2022"
-   ![Screenshot of the Build menu Configuration Manager command.](media/vs-2022/build-tutorial-configuration-manager-menu.png)
-   :::moniker-end
 
 1. In the **Active solution configuration** list, choose **\<New...\>**.
 
+   ![Screenshot showing creating a new solution configuration.](media/vs-2022/build-tutorial-active-solution-configuration-new.png)
+
 1. In the **New Solution Configuration** dialog box, name the new configuration `Test`, copy settings from the existing **Debug** configuration, and then choose the **OK** button.
 
-   :::moniker range="<=vs-2019"
-   ![Screenshot of the New Solution Configuration Dialog Box](../ide/media/buildwalk_newsolutionconfigdlgbox.png)
-   :::moniker-end
-   :::moniker range=">=vs-2022"
-   ![Screenshot showing creating a Test configuration in the New Solution Configuration dialog box.](media/vs-2022/build-tutorial-create-test-configuration.png)
-   :::moniker-end
+   ![Screenshot of the New Solution Configuration Dialog Box.](../ide/media/buildwalk_newsolutionconfigdlgbox.png)
 
 1. In the **Active solution platform** list, choose **\<New...\>**.
 
 1. In the **New Solution Platform** dialog box, choose **x64**, and don't copy settings from the x86 platform.
 
-   :::moniker range="<=vs-2019"
    ![Screenshot of New solution platform dialog box.](../ide/media/buildwalk_newsolutionplatform.png)
-   :::moniker-end
-   :::moniker range=">=vs-2022"
-   ![Screenshot of New solution platform dialog box.](media/vs-2022/build-tutorial-new-solution-platform.png)
-   :::moniker-end
 
 1. Choose the **OK** button.
 
    The active solution configuration has been changed to **Test** with the active solution platform set to x64.
 
-   :::moniker range="<=vs-2019"
    ![Screenshot of Configuration Manager with Test configuration.](../ide/media/buildwalk_configmanagertestconfig.png)
-   :::moniker-end
-   :::moniker range=">=vs-2022"
-   ![Screenshot of Configuration Manager with Test configuration.](media/vs-2022/build-tutorial-configuration-manager.png)
-   :::moniker-end
 
 1. Choose **Close**.
 
 You can quickly verify or change the active solution configuration by using the **Solution Configurations** list on the **Standard** toolbar.
 
-:::moniker range="<=vs-2019"
 ![Screenshot of Solution Configurations dropdown list on the Standard toolbar.](../ide/media/buildwalk_standardtoolbarsolutioncongfig.png)
 :::moniker-end
+
 :::moniker range=">=vs-2022"
+
+1. Open the **Configuration Manager** dialog box.
+
+   ![Screenshot of the Build menu Configuration Manager command.](media/vs-2022/build-tutorial-configuration-manager-menu.png)
+
+1. In the **Active solution configuration** list, choose **\<New...\>**.
+
+   ![Screenshot showing creating a new solution configuration.](media/vs-2022/build-tutorial-active-solution-configuration-new.png)
+
+1. In the **New Solution Configuration** dialog box, name the new configuration `Test`, copy settings from the existing **Debug** configuration, and then choose the **OK** button.
+
+   ![Screenshot showing creating a Test configuration in the New Solution Configuration dialog box.](media/vs-2022/build-tutorial-create-test-configuration.png)
+ 
+1. In the **Platform** column, expand the dropdown list, and choose **\<New...\>** to create a new project platform.
+
+   ![Screenshot showing creating a new project platform in the Configuration Manager.](media/vs-2022/build-tutorial-configuration-manager-platform-new.png)
+
+1. In the **New Project Platform** dialog box, choose **x64**, and don't copy settings from the x86 platform.
+
+   ![Screenshot of New solution platform dialog box.](media/vs-2022/build-tutorial-project-configuration-manager-new-project-platform.png)
+ 
+   If the **x64** solution platform already exists, uncheck the **Create active solution platform** box.
+
+1. Choose the **OK** button.
+
+   The active solution configuration has been changed to **Test** with the active solution platform set to x64.
+
+   ![Screenshot of Configuration Manager with Test configuration.](media/vs-2022/build-tutorial-configuration-manager.png)
+ 
+1. Choose **Close**.
+
+You can quickly verify or change the active solution configuration by using the **Solution Configurations** list on the **Standard** toolbar.
+
 ![Screenshot of Solution Configurations dropdown list on the Standard toolbar.](media/vs-2022/build-tutorial-configuration-dropdown.png)
+
+> [!NOTE]
+> If you don't see the active solution configuration or the active platform shown in the toolbar, choose the small arrow-like icon on the far right of the toolbar, and then choose **Add or remove buttons**. Be sure that **Solution Configurations** and **Solution Platforms** are enabled.
+
 :::moniker-end
 
 ## Build the application
@@ -158,10 +179,10 @@ You can temporarily hide certain warning messages during a build rather than hav
 3. On the **Compile** page, select the **Disable all warnings** check box.
 
      :::moniker range="<=vs-2019"
-     ![Compile page, Project Designer](../ide/media/buildwalk_vbsuppresswarnings.png)
+     ![Compile page, Project Designer.](../ide/media/buildwalk_vbsuppresswarnings.png)
      :::moniker-end
      :::moniker range=">=vs-2022"
-     ![Screenshot of disabling warnings in the Compile tab of the Project Designer](media/vs-2022/build-tutorial-disable-warnings-vb.png)
+     ![Screenshot of disabling warnings in the Compile tab of the Project Designer.](media/vs-2022/build-tutorial-disable-warnings-vb.png)
      :::moniker-end
 
      For more information, see [Configure warnings in Visual Basic](../ide/configuring-warnings-in-visual-basic.md).
@@ -171,10 +192,10 @@ You can temporarily hide certain warning messages during a build rather than hav
    The **Output** window displays only summary information for the build (no warnings).
 
    :::moniker range="<=vs-2019"
-   ![Screenshot of Output Window for Visual Basic with no build warnings](../ide/media/buildwalk_visualbasicbuildwarnings.png)
+   ![Screenshot of Output Window for Visual Basic with no build warnings.](../ide/media/buildwalk_visualbasicbuildwarnings.png)
    :::moniker-end
    :::moniker range=">=vs-2022"
-   ![Screenshot of Output window for Visual Basic with no build warnings](media/vs-2022/build-tutorial-build-output-vb-no-warning.png)
+   ![Screenshot of Output window for Visual Basic with no build warnings.](media/vs-2022/build-tutorial-build-output-vb-no-warning.png)
    :::moniker-end
 
    For more information, see [How to: Suppress compiler warnings](../ide/how-to-suppress-compiler-warnings.md).
@@ -252,10 +273,10 @@ For more information, see [How to: Change the build output directory](../ide/how
 1. Build the application.
 
     :::moniker range="<=vs-2019"
-    ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png)
+    ![Build Solution command on the Build menu.](../ide/media/exploreide-buildsolution.png)
     :::moniker-end
     :::moniker range=">=vs-2022"
-    ![Screenshot of Build Solution command on the Build menu](media/vs-2022/build-tutorial-build-menu.png)
+    ![Screenshot of Build Solution command on the Build menu.](media/vs-2022/build-tutorial-build-menu.png)
     :::moniker-end
 
 ### Specify a release build for C\#
@@ -287,10 +308,10 @@ For more information, see [How to: Change the build output directory](../ide/how
 1. Build the application.
 
     :::moniker range="<=vs-2019"
-    ![Build Solution command on the Build menu](../ide/media/exploreide-buildsolution.png)
+    ![Build Solution command on the Build menu.](../ide/media/exploreide-buildsolution.png)
     :::moniker-end
     :::moniker range=">=vs-2022"
-    ![Screenshot of Build Solution command on the Build menu](media/vs-2022/build-tutorial-build-menu.png)
+    ![Screenshot of Build Solution command on the Build menu.](media/vs-2022/build-tutorial-build-menu.png)
     :::moniker-end
 
    The executable file is copied to the network path that you specified. Its path would be `\\myserver\builds\\FileName.exe`.

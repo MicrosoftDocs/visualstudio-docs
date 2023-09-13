@@ -11,7 +11,7 @@ ms.topic: overview
 ---
 # Visual Studio for Mac IDE tour
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 ::: moniker range="vsmac-2022"
 
@@ -43,7 +43,7 @@ To continue exploring features, let's create a new project.
 
    ![Select a template](media/vsmac-2022/ide-tour-select-template.png)
 
-1. On the **Configure your new Console Application** window, ensure **.NET 7.0** appears in the **Target framework** dropdown, and then select **Next**.
+1. On the **Configure your new Console Application** window, ensure **.NET 7.0** appears in the **Target framework** dropdown, and then select **Continue**.
 
    ![Target framework](media/vsmac-2022/ide-tour-target-framework-7.png)
 

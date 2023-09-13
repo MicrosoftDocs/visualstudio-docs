@@ -42,6 +42,8 @@
     href: install/repair-visual-studio.md
   - name: Uninstall Visual Studio
     href: install/uninstall-visual-studio.md
+  - name: Release dates & build numbers
+    href: /visualstudio/releases/2022/release-history?toc=%2Fvisualstudio%2Ftoc.json#release-dates-and-build-numbers
   - name: Visual Studio administrator guide
     items:
     - name: Overview
@@ -74,10 +76,10 @@
         href: install/configure-policies-for-enterprise-deployments.md
     - name: Manage & update installations
       items:
-      - name: Applying administrator updates
-        href: install/applying-administrator-updates.md
       - name: Enabling administrator updates
         href: install/enabling-administrator-updates.md
+      - name: Applying administrator updates
+        href: install/applying-administrator-updates.md
       - name: Update an instance installed from a network
         href: install/update-a-network-installation-of-visual-studio.md
       - name: Update using a minimal offline layout
@@ -86,8 +88,6 @@
         href: install/disable-or-move-the-package-cache.md
       - name: Tools to detect & manage Visual Studio instances
         href: install/tools-for-managing-visual-studio-instances.md
-    - name: Reference
-      items:
       - name: Visual Studio workload and component IDs
         items:
         - name: Overview
@@ -106,7 +106,7 @@
         - name: Visual Studio Test Agent
           href: install/workload-component-id-vs-test-agent.md
         - name: Visual Studio Test Controller
-          href: install/workload-component-id-vs-test-controller.md
+          href: install/workload-component-id-vs-test-controller.md        
   - name: Devices, VMs, and Containers
     items:
     - name: Use Visual Studio from an Azure virtual machine
@@ -144,8 +144,10 @@
   - name: F#  >>
     href: /dotnet/fsharp/
   expanded: true
-- name: 'AI: GitHub Copilot'
-  href: ide/visual-studio-github-copilot-extension.md
+- name: AI-assisted development 
+  items:
+  - name: GitHub Copilot
+    href: ide/visual-studio-github-copilot-extension.md
 - name: Develop
   items:
   - name: Organize and edit code
@@ -505,8 +507,12 @@
         href: ide/create-portable-custom-editor-options.md
       - name: C++ EditorConfig formatting conventions
         href: ide/cpp-editorconfig-properties.md
-      - name: .NET coding conventions >>
-        href: /dotnet/fundamentals/code-analysis/code-style-rule-options
+      - name: .NET coding conventions
+        items:
+        - name: .NET code style rules >>
+          href: /dotnet/fundamentals/code-analysis/style-rules/
+        - name: .NET code refactoring conventions
+          href: ide/reference/code-styles-refactoring-options.md
     - name: Customize the scroll bar
       href: ide/how-to-track-your-code-by-customizing-the-scrollbar.md
     - name: Set bookmarks in code

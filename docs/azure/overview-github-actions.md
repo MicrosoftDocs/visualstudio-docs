@@ -1,21 +1,36 @@
 ---
 title: GitHub Actions
-description: Learn about how you can develop GitHub Actions in Visual Studio
+description: Learn about how you can set up CI/CD deployment to Azure using GitHub Actions in Visual Studio
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
 ms.custom: vs-azure
 ms.workload: azure-vs
 ms.topic: overview
-ms.date: 12/06/2021
+ms.date: 08/17/2023
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
-# An overview of the GitHub Actions integration in Visual Studio
+# GitHub Actions deployment to Azure in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 [GitHub Actions](https://github.com/features/actions) is the Continuous Integration / Continuous Delivery (CI/CD) solution offered by GitHub. You can host your code for free on GitHub.com and you can use GitHub Actions to automatically build, test and deploy your application when code changes are made.
+
+:::moniker range=">=vs-2022"
+
+## GitHub Actions in Solution Explorer
+
+Whenever you open a project from a GitHub repo in Visual Studio 2022 version 17.7 and later, any GitHub Actions in the repo are shown under the GitHub Actions node in Solution Explorer.
+
+![Screenshot showing GitHub Actions node in Solution Explorer.](./media/overview-azure-integration/github-actions-in-solution-explorer.png)
+
+If you double-click on the action YML file, or select and press **Enter** to open it, the GitHub Actions tab opens with information about the action, including secrets and hosting information in Azure.
+
+![Screenshot of GitHub Actions tab.](./media/overview-azure-integration/github-actions-tab.png)
+
+You can also right-click on the YML file to open it in GitHub, or choose **Edit** to open the YML file itself locally.
+:::moniker-end
 
 ## Visual Studio generates working GitHub Actions workflows for you
 
