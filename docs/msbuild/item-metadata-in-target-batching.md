@@ -57,6 +57,7 @@ The following example contains an item list named `Res` that is divided into two
         <AL Resources="@(Res)"
             TargetType="library"
             OutputAssembly="%(Culture)\MyApp.resources.dll">
+        </AL>
 
     </Target>
 
