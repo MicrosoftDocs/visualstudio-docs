@@ -9,7 +9,7 @@ ms.topic: overview
 ---
 # What's happening to Visual Studio for Mac?
 
-Visual Studio for Mac is scheduled for retirement by August 31, 2024 in accordance with Microsoft’s [Modern Lifecycle Policy](/lifecycle/policies/modern).  Visual Studio for Mac 17.6 will continue to be supported until August 31, 2024, with servicing updates for security issues and updated platforms from Apple. We recommend that you [switch to a stable build](#stable) for the latest security and reliability updates. 
+Visual Studio for Mac is scheduled for retirement by August 31, 2024 in accordance with Microsoft’s [Modern Lifecycle Policy](/lifecycle/policies/modern).  Visual Studio for Mac 17.6 will continue to be supported until August 31, 2024, with servicing updates for security issues and updated platforms from Apple. We recommend that you [switch to a stable build](#preview-vs-stable-builds-of-visual-studio-for-mac) for the latest security and reliability updates. 
 
 While the decision has been made to retire Visual Studio for Mac, **we remain committed to our developers on Mac and .NET MAUI** with alternatives like the [C# Dev Kit for Visual Studio Code](https://code.visualstudio.com/docs/csharp/get-started) and other extensions you can use to take advantage of our ongoing investments in .NET development. 
 
