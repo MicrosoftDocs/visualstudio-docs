@@ -3,7 +3,7 @@ title: How to customize Docker containers in Visual Studio
 author: ghogen
 description: Information about the Visual Studio build process for containers, called fast mode, which is necessary to understand how to modify the Dockerfile to customize your container images for both debug and production builds.
 ms.author: ghogen
-ms.date: 08/23/2023
+ms.date: 09/8/2023
 ms.technology: vs-container-tools
 ms.topic: how-to
 ---
@@ -105,14 +105,31 @@ Warmup will only happen in **Fast** mode, so the running container will have the
 
 For debugging to work in containers, Visual Studio uses volume mapping to map the debugger and NuGet folders from the host machine. Volume mapping is described in the Docker documentation [here](https://docs.docker.com/storage/volumes/). You can view the volume mappings for a container by using the [Containers window in Visual Studio](view-and-diagnose-containers.md).
 
+:::moniker range="<=vs-2019"
 Here are the volumes that are mounted in your container:
 
 |Volume|Description|
 |-|-|
-| **Remote debugger** | Contains the bits required to run the debugger in the container depending on the project type. This is explained in more detail in the [Debugging](#debugging) section.|
 | **App folder** | Contains the project folder where the Dockerfile is located.|
-| **Source folder** | Contains the build context that is passed to Docker commands.|
 | **NuGet packages folders** | Contains the NuGet packages and fallback folders that are read from the *obj\{project}.csproj.nuget.g.props* file in the project. |
+| **Remote debugger** | Contains the bits required to run the debugger in the container depending on the project type. This is explained in more detail in the [Debugging](#debugging) section.|
+| **Source folder** | Contains the build context that is passed to Docker commands.|
+
+:::moniker-end
+
+::: moniker range=">=vs-2022"
+Here are the volumes that are mounted in your container. What you see in your containers might differ depending on the minor version of Visual Studio 2022 you are using.
+
+|Volume|Description|
+|-|-|
+| **App folder** | Contains the project folder where the Dockerfile is located.|
+| **HotReloadAgent** | Contains the files for the hot reload agent. |
+| **HotReloadProxy** | Contains the files required to run a service that enables the host reload agent to communicate with Visual Studio on the host. |
+| **NuGet packages folders** | Contains the NuGet packages and fallback folders that are read from the *obj\{project}.csproj.nuget.g.props* file in the project. |
+| **Remote debugger** | Contains the bits required to run the debugger in the container depending on the project type. This is explained in more detail in the [Debugging](#debugging) section.|
+| **Source folder** | Contains the build context that is passed to Docker commands.|
+| **TokenService.Proxy** | Contains the files required to run a service the enables VisualStudioCredential to communicate with Visual Studio on the host. |
+:::moniker-end
 
 For ASP.NET core web apps, there might be two additional folders for the SSL certificate and the user secrets, which is explained in more detail in the next section.
 
