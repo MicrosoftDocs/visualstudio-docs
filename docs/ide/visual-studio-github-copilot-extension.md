@@ -28,7 +28,7 @@ GitHub Copilot works by utilizing advanced machine learning models trained on a 
 
 You can also use GitHub Copilot to convert comments to code, create unit tests, create SQL queries, and more. 
 
-## Exploring GitHub Copilot Chat
+## Exploring GitHub Copilot
 
 To see GitHub Copilot in action, check out the following video tutorial. <br><br>*Video length: 1.19 minutes*
 
