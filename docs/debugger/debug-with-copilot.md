@@ -1,7 +1,7 @@
 ---
 title: Debug with Copilot | Microsoft Docs
 description: Use Copilot to help debug your apps and provide performance insights.
-ms.date: 09/11/2023
+ms.date: 09/14/2023
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.technology: vs-ide-debug
+ms.technology: vs-ai-tools
 monikerRange: '>= vs-2022'
 ms.workload: 
   - multiple
@@ -30,9 +30,11 @@ For related videos, see the [blog post announcement](https://devblogs.microsoft.
 
 ## Prerequisites
 
-To use the private preview of Copilot with the debugging features, you must have Visual Studio 2022 version 17.7.4 or later, a GitHub Copilot subscription, and the Copilot extensions for Visual Studio installed.
+To use the private preview of Copilot with the debugging features, you must have Visual Studio 2022 version 17.7.4 or later, a GitHub Copilot subscription, and the Copilot extensions for Visual Studio installed:
 
-For detailed information and installation instructions, see [Prerequisites & supported programming languages](../ide/visual-studio-github-copilot-extension.md#prerequisites--supported-programming-languages).
+- [GitHub Copilot installation instructions](https://docs.github.com/en/copilot/getting-started-with-github-copilot?tool=visualstudio)
+- [GitHub Copilot Chat installation instructions](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat?tool=visualstudio)
+- [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot)
 
 [![Screenshot of Copilot extensions.](../debugger/media/vs-2022/debug-with-copilot-extensions.png "Copilot extensions.")](../debugger/media/vs-2022/debug-with-copilot-extensions.png#lightbox)
 
