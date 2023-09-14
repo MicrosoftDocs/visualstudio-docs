@@ -12,7 +12,7 @@ description: Learn how to use Bridge to Kubernetes to connect your development c
 
 # Use Bridge to Kubernetes with AKS
 
-In this tutorial, you'll use a specific AKS sample microservices web app to learn how to use Bridge to Kubernetes to debug locally in a single pod that's part of an Azure Kubernetes Service (AKS) cluster.
+In this tutorial, you use a specific AKS sample microservices web app to learn how to use Bridge to Kubernetes to debug locally in a single pod that's part of an Azure Kubernetes Service (AKS) cluster.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ This guide uses the [Todo App sample application](https://github.com/Azure/Bridg
 
 ## Create a Kubernetes cluster
 
-Create an AKS cluster in a [supported region][supported-regions]. The below commands create a resource group called `MyResourceGroup` and an AKS cluster called `MyAKS`.
+Create an AKS cluster in a [supported region][supported-regions]. The following commands create a resource group called `MyResourceGroup` and an AKS cluster called `MyAKS`.
 
 ```azurecli-interactive
 az group create \
@@ -53,7 +53,7 @@ npm install stats-api\
 
 ## Connect to your cluster and deploy the app
 
-On your development computer, download and configure the Kubernetes CLI to connect to your Kubernetes cluster using [az aks get-credentials][az-aks-get-credentials].
+On your development computer, download and configure the Kubernetes CLI to connect to your Kubernetes cluster using [`az aks get-credentials`][az-aks-get-credentials].
 
 ```azurecli
 az aks get-credentials --resource-group MyResourceGroup --name MyAKS
@@ -64,18 +64,18 @@ kubectl apply -f deployment.yaml --namespace todo-app
 
 ## Try out the app
 
-On the same terminal you were using earlier run below command and copy the IP for front end service under the External IP columnd.
+On the same terminal you were using earlier, run the following command and copy the IP for front end service under the External IP column.
 
 ```azurecli
 kubectl get services
 ```
 
 To try out the app, open the url:
-(your external IP from above command goes here).nip.io
+`{your external IP from above command goes here}.nip.io`
 
 ## Debug stats-api service
 
-On the same terminal you were using earlier type below ot open stats-api in vscode.
+On the same terminal you were using earlier, type the following command to open stats-api in VS Code.
 
 ```azurecli
 code ./stats-api
@@ -108,7 +108,7 @@ Choose **Run Script: dev** as the launch task.
 
 ![Screenshot showing the choose the debugger launch task window.](media/bridge-to-kubernetes-sample/launch-task.png)
 
-You have the option of running isolated or not isolated. If you run isolated, only your requests are routed to your local process; other developers can use the cluster without being affected. If you don't run isolated, all traffic is redirected to your local process. For more information on this option, see [Using routing capabilities for developing in isolation](overview-bridge-to-kubernetes.md#using-routing-capabilities-for-developing-in-isolation). For this example, we will proceed with non-isolated. If you chose isolation, task.json will have the prefix you should use to route request to your machine.
+You have the option of running isolated or not isolated. If you run isolated, only your requests are routed to your local process; other developers can use the cluster without being affected. If you don't run isolated, all traffic is redirected to your local process. For more information on this option, see [Using routing capabilities for developing in isolation](overview-bridge-to-kubernetes.md#using-routing-capabilities-for-developing-in-isolation). For this example, we proceed with non-isolated. If you chose isolation, task.json has the prefix you should use to route request to your machine.
 
 ![Screenshot showing the choose isolation option window.](media/bridge-to-kubernetes-sample/isolation.png)
 
@@ -128,7 +128,7 @@ Your development computer is connected when the VS Code status bar turns orange 
 
 ![Screenshot showing the choose the debugging with Bridge to Kubernetes window.](media/bridge-to-kubernetes-sample/debugging.png)
 
-Navigate to the frontend entry point of your todo-app. Using that external IP you found earlier (your external IP from get services command).nip.io. Note, if you selected isolation mode, you will need to use (your prefix - can be found in task.json).(your external IP from get services command).nip.io.
+Navigate to the frontend entry point of your todo-app. Using that external IP you found earlier `{your external IP from get services command}.nip.io`. Note, if you selected isolation mode, you need to use `{your prefix - can be found in task.json}.{your external IP from get services command}.nip.io`.
 
 Make a request to the stats-api by choosing the **stats** link.
 
@@ -140,9 +140,9 @@ Press play and let the request continue complete transparently.
 
 ## Clean up
 
-When you stop the debugger all changes to the cluster are reverted. Note, if you were running with isolation on, the routing manager pod will be left there to expedite the start of the debugger the next time around.
+When you stop the debugger, all changes to the cluster are reverted. Note, if you were running with isolation on, the routing manager pod will be left there to expedite the start of the debugger the next time around.
 
-You can leave your AKS cluster on for future debugging or you can delete it with below command.
+You can leave your AKS cluster on for future debugging or you can delete it with following command.
 
 ```azurecli-interactive
 az aks delete --name MyAKS --resource-group MyResourceGroup
