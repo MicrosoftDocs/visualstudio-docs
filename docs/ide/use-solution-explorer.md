@@ -150,7 +150,7 @@ Also included with the Visual Studio 2022 version [17.7](/visualstudio/releases/
 
 :::image type="content" source="media/vs-2022/solution-explorer-collapse-descendants.png" alt-text="Screenshot of the Collapse All Descendants command from the right-click context menu in Solution Explorer.":::
 
-You can find the **Collapse All Descendants** command on the right-click context menu for any item in Solution Explorer that has descendants. You can also use the **Ctrl**+**Left Arrow** keyboard shortcut to use the command.
+You can find the **Collapse All Descendants** command on the right-click context menu for any item in Solution Explorer that has descendants. You can also press **Ctrl**+**Left Arrow** to use the command.
 
 ::: moniker-end
 
