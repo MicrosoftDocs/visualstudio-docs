@@ -190,7 +190,7 @@ Repeat the process with the other projects that you want to control using Docker
 If you work with a large number of services, you can save time and computing resources by selecting which subset of services you want to start in your debugging session. See [Start a subset of Compose services](launch-profiles.md).
 
 > [!NOTE]
-> Note that remote docker hosts are not supported in Visual Studio tooling.
+> Note that remote Docker hosts are not supported in Visual Studio tooling.
 
 ## Service Fabric support
 
