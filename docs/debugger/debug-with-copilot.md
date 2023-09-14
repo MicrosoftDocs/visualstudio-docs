@@ -30,11 +30,10 @@ For related videos, see the [blog post announcement](https://devblogs.microsoft.
 
 ## Prerequisites
 
-To use the private preview of Copilot with the debugging features, you must have Visual Studio 2022 version 17.7.4 or later, a GitHub Copilot subscription, and the Copilot extensions for Visual Studio installed:
+To use the private preview of Copilot with the debugging features, you must have Visual Studio 2022 version 17.7.4 or later, a [GitHub Copilot subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot), and the Copilot extensions for Visual Studio installed:
 
 - [GitHub Copilot installation instructions](https://docs.github.com/en/copilot/getting-started-with-github-copilot?tool=visualstudio)
 - [GitHub Copilot Chat installation instructions](https://docs.github.com/en/copilot/github-copilot-chat/using-github-copilot-chat?tool=visualstudio)
-- [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot)
 
 [![Screenshot of Copilot extensions.](../debugger/media/vs-2022/debug-with-copilot-extensions.png "Copilot extensions.")](../debugger/media/vs-2022/debug-with-copilot-extensions.png#lightbox)
 
