@@ -9,7 +9,7 @@ ms.topic: overview
 ---
 # What's happening to Visual Studio for Mac?
 
-Visual Studio for Mac is scheduled for retirement by August 31, 2024 in accordance with Microsoft’s [Modern Lifecycle Policy](/lifecycle/policies/modern).  Visual Studio for Mac 17.6 will continue to be supported until August 31, 2024, with servicing updates for security issues and updated platforms from Apple. 
+Visual Studio for Mac is scheduled for retirement by August 31, 2024 in accordance with Microsoft’s [Modern Lifecycle Policy](/lifecycle/policies/modern).  Visual Studio for Mac 17.6 will continue to be supported until August 31, 2024, with servicing updates for security issues and updated platforms from Apple. We recommend that you [switch to a stable build](#preview-vs-stable-builds-of-visual-studio-for-mac) for the latest security and reliability updates. 
 
 While the decision has been made to retire Visual Studio for Mac, **we remain committed to our developers on Mac and .NET MAUI** with alternatives like the [C# Dev Kit for Visual Studio Code](https://code.visualstudio.com/docs/csharp/get-started) and other extensions you can use to take advantage of our ongoing investments in .NET development. 
 
@@ -38,6 +38,16 @@ The following notes outline the timeline for support.
     :::column-end::: 
 :::row-end:::
 
+
+## Preview vs stable builds of Visual Studio for Mac
+ 
+There will be no preview builds now that Visual Studio for Mac is on track for retirement on August 31, 2024. The preview channel is also no longer being updated. 
+
+We recommend that you switch to a stable build for the latest security and reliability updates. Here's how:
+1.  Download the [stable Visual Studio for Mac installer](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio-mac/?sku=communitymac&rel=17).
+2.  Run the installer.
+3.  Launch Visual Studio from `/Applications/Visual Studio.app`.
+4.  You can now delete `/Applications/Visual Studio (Preview).app`.
 
 ## Alternative options for developing on the Mac
 
