@@ -45,8 +45,9 @@ There will be no preview builds now that Visual Studio for Mac is on track for r
 
 We recommend that you switch to a stable build for the latest security and reliability updates. Here's how:
 1.  Download the [stable Visual Studio for Mac installer](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio-mac/?sku=communitymac&rel=17).
-2.  After you run the installer, launch Visual Studio from `/Applications/Visual Studio.app`.
-3.  You can now delete “/Applications/Visual Studio (Preview).app”.
+2.  Run the installer.
+3.  Launch Visual Studio from `/Applications/Visual Studio.app`.
+4.  You can now delete `/Applications/Visual Studio (Preview).app`.
 
 ## Alternative options for developing on the Mac
 
