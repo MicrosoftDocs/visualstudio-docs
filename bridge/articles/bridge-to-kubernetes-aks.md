@@ -91,7 +91,7 @@ Next, configure bridge: open the Command Palette (**CTRL**+**SHIFT**+**P** or **
 
 ![Screenshot showing the Bridge to Kubernetes Configure command window.](media/bridge-to-kubernetes-sample/bridge-configure.png)
 
-You are prompted to configure the service you want to replace, the port to forward from your development computer, and the launch task to use.
+You're prompted to configure the service you want to replace, the port to forward from your development computer, and the launch task to use.
 
 Choose the `stats-api` service.
 
@@ -100,7 +100,7 @@ Choose the `stats-api` service.
 > [!IMPORTANT]
 > You can only redirect services that have a single pod.
 
-After you select your service, you are prompted to enter the TCP port for your local application. For this example, enter 3001.
+After you select your service, you're prompted to enter the TCP port for your local application. For this example, enter 3001.
 
 ![Screenshot showing the enter the port number window.](media/bridge-to-kubernetes-sample/enter-port.png)
 
@@ -124,7 +124,7 @@ To start debugging, select the Debug icon on the left and select **Run Script: d
 > [!NOTE]
 > You will be prompted to allow the EndpointManager to run elevated and modify your hosts file.
 
-Your development computer is connected when the VS Code status bar turns orange and the Kubernetes extension shows you are connected. Once your development computer is connected, traffic starts redirecting to your development computer for the stats-api you are replacing.
+Your development computer is connected when the VS Code status bar turns orange and the Kubernetes extension shows you're connected. Once your development computer is connected, traffic starts redirecting to your development computer for the stats-api you're replacing.
 
 ![Screenshot showing the choose the debugging with Bridge to Kubernetes window.](media/bridge-to-kubernetes-sample/debugging.png)
 
