@@ -148,9 +148,9 @@ No matter which way you choose to compare your files, the file comparison tool s
 
 Also included with the Visual Studio 2022 version [17.7](/visualstudio/releases/2022/release-notes-v17.7) release is the **Collapse All Descendants** command. This command recursively collapses all nodes under a selection so that you can tidy up deeply nested hierarchies as you navigate your project structure. 
 
-:::image type="content" source="media/vs-2022/solution-explorer-collapse-descendants.png" alt-text="Screenshot of the new Collapse All Descendants tool from the right-click context menu in Solution Explorer.":::
+:::image type="content" source="media/vs-2022/solution-explorer-collapse-descendants.png" alt-text="Screenshot of the Collapse All Descendants command from the right-click context menu in Solution Explorer.":::
 
-You can find **Collapse All Descendants** command on the right-click context menu for any item in Solution Explorer that has descendants. To use the command, select it from the context menu or press **Ctrl**+**Left Arrow**.
+You can find the **Collapse All Descendants** command on the right-click context menu for any item in Solution Explorer that has descendants. You can also use the **Ctrl**+**Left Arrow** keyboard shortcut to use the command.
 
 ::: moniker-end
 
