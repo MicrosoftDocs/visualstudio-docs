@@ -12,7 +12,7 @@ description: Learn how to use Bridge to Kubernetes to connect your development c
 
 # Use Bridge to Kubernetes with AKS
 
-In this tutorial, you'll use a specific AKS sample microservices web app to learn how to use Bridge to Kubernetes to debug locally in a single pod that's part of an Azure Kubernetes Service (AKS) cluster.
+In this tutorial, you use a specific AKS sample microservices web app to learn how to use Bridge to Kubernetes to debug locally in a single pod that's part of an Azure Kubernetes Service (AKS) cluster.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ This guide uses the [Todo App sample application](https://github.com/Azure/Bridg
 
 ## Create a Kubernetes cluster
 
-Create an AKS cluster in a [supported region][supported-regions]. The below commands create a resource group called `MyResourceGroup` and an AKS cluster called `MyAKS`.
+Create an AKS cluster in a [supported region][supported-regions]. The following commands create a resource group called `MyResourceGroup` and an AKS cluster called `MyAKS`.
 
 ```azurecli-interactive
 az group create \
@@ -46,14 +46,14 @@ az aks create \
 Download the code and install dependencies
 
 ```azurecli-interactive
-git clone https://github.com/Microsoft/mindaro
-cd mindaro/samples/todo-app
+git clone https://github.com/Azure/Bridge-To-Kubernetes
+cd Bridge-To-Kubernetes/samples/todo-app
 npm install stats-api\
 ```
 
 ## Connect to your cluster and deploy the app
 
-On your development computer, download and configure the Kubernetes CLI to connect to your Kubernetes cluster using [az aks get-credentials][az-aks-get-credentials].
+On your development computer, download and configure the Kubernetes CLI to connect to your Kubernetes cluster using [`az aks get-credentials`][az-aks-get-credentials].
 
 ```azurecli
 az aks get-credentials --resource-group MyResourceGroup --name MyAKS
@@ -64,18 +64,18 @@ kubectl apply -f deployment.yaml --namespace todo-app
 
 ## Try out the app
 
-On the same terminal you were using earlier run below command and copy the IP for front end service under the External IP columnd.
+On the same terminal you were using earlier, run the following command and copy the IP for front end service under the External IP column.
 
 ```azurecli
 kubectl get services
 ```
 
 To try out the app, open the url:
-(your external IP from above command goes here).nip.io
+`{your external IP from above command goes here}.nip.io`
 
 ## Debug stats-api service
 
-On the same terminal you were using earlier type below ot open stats-api in vscode.
+On the same terminal you were using earlier, type the following command to open stats-api in VS Code.
 
 ```azurecli
 code ./stats-api
@@ -91,7 +91,7 @@ Next, configure bridge: open the Command Palette (**CTRL**+**SHIFT**+**P** or **
 
 ![Screenshot showing the Bridge to Kubernetes Configure command window.](media/bridge-to-kubernetes-sample/bridge-configure.png)
 
-You are prompted to configure the service you want to replace, the port to forward from your development computer, and the launch task to use.
+You're prompted to configure the service you want to replace, the port to forward from your development computer, and the launch task to use.
 
 Choose the `stats-api` service.
 
@@ -100,7 +100,7 @@ Choose the `stats-api` service.
 > [!IMPORTANT]
 > You can only redirect services that have a single pod.
 
-After you select your service, you are prompted to enter the TCP port for your local application. For this example, enter 3001.
+After you select your service, you're prompted to enter the TCP port for your local application. For this example, enter 3001.
 
 ![Screenshot showing the enter the port number window.](media/bridge-to-kubernetes-sample/enter-port.png)
 
@@ -108,7 +108,7 @@ Choose **Run Script: dev** as the launch task.
 
 ![Screenshot showing the choose the debugger launch task window.](media/bridge-to-kubernetes-sample/launch-task.png)
 
-You have the option of running isolated or not isolated. If you run isolated, only your requests are routed to your local process; other developers can use the cluster without being affected. If you don't run isolated, all traffic is redirected to your local process. For more information on this option, see [Using routing capabilities for developing in isolation](overview-bridge-to-kubernetes.md#using-routing-capabilities-for-developing-in-isolation). For this example, we will proceed with non-isolated. If you chose isolation, task.json will have the prefix you should use to route request to your machine.
+You have the option of running isolated or not isolated. If you run isolated, only your requests are routed to your local process; other developers can use the cluster without being affected. If you don't run isolated, all traffic is redirected to your local process. For more information on this option, see [Using routing capabilities for developing in isolation](overview-bridge-to-kubernetes.md#using-routing-capabilities-for-developing-in-isolation). For this example, we proceed with non-isolated. If you chose isolation, task.json has the prefix you should use to route request to your machine.
 
 ![Screenshot showing the choose isolation option window.](media/bridge-to-kubernetes-sample/isolation.png)
 
@@ -124,11 +124,11 @@ To start debugging, select the Debug icon on the left and select **Run Script: d
 > [!NOTE]
 > You will be prompted to allow the EndpointManager to run elevated and modify your hosts file.
 
-Your development computer is connected when the VS Code status bar turns orange and the Kubernetes extension shows you are connected. Once your development computer is connected, traffic starts redirecting to your development computer for the stats-api you are replacing.
+Your development computer is connected when the VS Code status bar turns orange and the Kubernetes extension shows you're connected. Once your development computer is connected, traffic starts redirecting to your development computer for the stats-api you're replacing.
 
 ![Screenshot showing the choose the debugging with Bridge to Kubernetes window.](media/bridge-to-kubernetes-sample/debugging.png)
 
-Navigate to the frontend entry point of your todo-app. Using that external IP you found earlier (your external IP from get services command).nip.io. Note, if you selected isolation mode, you will need to use (your prefix - can be found in task.json).(your external IP from get services command).nip.io.
+Navigate to the frontend entry point of your todo-app. Using that external IP you found earlier `{your external IP from get services command}.nip.io`. Note, if you selected isolation mode, you need to use `{your prefix - can be found in task.json}.{your external IP from get services command}.nip.io`.
 
 Make a request to the stats-api by choosing the **stats** link.
 
@@ -140,9 +140,9 @@ Press play and let the request continue complete transparently.
 
 ## Clean up
 
-When you stop the debugger all changes to the cluster are reverted. Note, if you were running with isolation on, the routing manager pod will be left there to expedite the start of the debugger the next time around.
+When you stop the debugger, all changes to the cluster are reverted. Note, if you were running with isolation on, the routing manager pod will be left there to expedite the start of the debugger the next time around.
 
-You can leave your AKS cluster on for future debugging or you can delete it with below command.
+You can leave your AKS cluster on for future debugging or you can delete it with following command.
 
 ```azurecli-interactive
 az aks delete --name MyAKS --resource-group MyResourceGroup
@@ -160,9 +160,7 @@ Learn more about Bridge to Kubernetes at [How Bridge to Kubernetes works][btk-ho
 [azure-cloud-shell]: /azure/cloud-shell/overview
 [az-aks-get-credentials]: /cli/azure/aks?view=azure-cli-latest&preserve-view=true#az-aks-get-credentials
 [az-aks-vs-code]: https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-aks-tools
-[bike-sharing-github]: https://github.com/Microsoft/mindaro
 [preview-terms]: https://azure.microsoft.com/support/legal/preview-supplemental-terms/
-[server-js-breakpoint]: https://github.com/Microsoft/mindaro/blob/master/samples/BikeSharingApp/Bikes/server.js#L233
 [supported-regions]: https://azure.microsoft.com/global-infrastructure/services/?products=kubernetes-service
 [troubleshooting]: /azure/dev-spaces/troubleshooting#fail-to-restore-original-configuration-of-deployment-on-cluster
 [vs-code]: https://code.visualstudio.com/download

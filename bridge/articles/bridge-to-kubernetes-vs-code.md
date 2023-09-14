@@ -6,7 +6,7 @@ manager: jmartens
 ms.technology: bridge
 ms.custom: "contperf-fy22q1"
 title: Use Bridge to Kubernetes to run and debug locally with Kubernetes (VS Code)
-ms.date: 08/11/2022
+ms.date: 09/14/2023
 description: Learn how to use Bridge to Kubernetes to connect your development computer to a Kubernetes cluster and use local tunnel debugging to debug Kubernetes services on your local machine.
 ---
 
@@ -146,7 +146,7 @@ var response = await client.SendAsync(request);
 > [!NOTE]
 > To avoid affecting code at every request, you can create a class that inherits from [System.Net.Http.DelegatingHandler](/dotnet/api/system.net.http.delegatinghandler) and override the `SendAsync` method with code similar to the preceding example. You can find code using this technique on the web; one example is [Properly Propagating "kubernetes-route-as" in Bridge to Kubernetes](https://blogs.u2u.be/lander/post/2020/11/25/properly-propagating-kubernetes-route-as-in-bridge-to-kubernetes).
 
-For Node.js services, you can use code similar to the following, taken from the todo-app sample in the [mindaro repo](https://github.com/Microsoft/mindaro):
+For Node.js services, you can use code similar to the following, taken from the todo-app sample in the [Bridge to Kubernetes repo](https://github.com/Azure/Bridge-To-Kubernetes):
 
 ```js
     server.get("/api/stats", function (req, res) {
