@@ -1,7 +1,7 @@
 ---
 title: Introduction to editing in the code editor
 description: Learn how to use the code editor in Visual Studio to add code to a file, and also how to write code, navigate to it, and refactor it.
-ms.date: 06/02/2022
+ms.date: 09/14/2023
 ms.technology: vs-ide-general
 ms.custom: vs-acquisition,  get-started
 ms.topic: tutorial
@@ -65,7 +65,7 @@ Start by creating a new file and adding some code to it.
 
 1. From the **File** menu on the menu bar, choose **New** > **File**, or select the **Ctrl**+**N** keys.
 
-1. In the **New File** dialog box, under the **General** category, choose **Visual C# Class**, and then choose **Open**.
+1. In the **New File** dialog box, under the **General** category, choose **C# Class**, and then choose **Open**.
 
    A new file opens in the editor with the skeleton of a C# class.
 
@@ -344,11 +344,11 @@ Nobody gets code right the first time, and one of the things you might have to c
 
    :::image type="content" source="media/vs-2022/tutorial-rename-start.png" alt-text="Screenshot of the Rename pop-up box within the editor of Visual Studio 2022.":::
 
-1. Enter the desired name **unsortedWords**. You'll see that the reference to `unsortedWords` in the `query` assignment statement is also automatically renamed. Before you select the **Enter** key or choose **Apply**, select the **Include comments** checkbox in the **Rename** pop-up box.
+1. Enter the desired name **unsortedWords**. You'll see that the reference to `unsortedWords` in the `query` assignment statement is also automatically renamed. Before you select the **Enter** key, select the **Include comments** checkbox in the **Rename** pop-up box.
 
    :::image type="content" source="media/vs-2022/tutorial-rename.png" alt-text="Screenshot of the Rename pop-up box in Visual Studio 2022.":::
 
-1. Select the **Enter** key, or choose **Apply** in the **Rename** dialog box.
+1. Select the **Enter** key.
 
    Both occurrences of `someWords` in your code have been renamed, as well as the text `someWords` in your code comment.
 
