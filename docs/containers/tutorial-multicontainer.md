@@ -406,7 +406,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 
 1. Expand the **Solution Containers** node, and choose the node for your Docker Compose project to view combined logs in the **Logs** tab of this window.
 
-   ![Screenshot showing viewing the Logs tab in the Containers window](./media/tutorial-multicontainer/vs-2022/containers-window-logs.png)
+   :::image type="content" alt-text="Screenshot showing viewing the Logs tab in the Containers window." source="./media/tutorial-multicontainer/vs-2022/containers-window-logs.png" lightbox="./media/tutorial-multicontainer/vs-2022/containers-window-logs.png":::
 
    You can also select the node for an individual container to view logs, environment variables, the filesystem, and other details.
 
