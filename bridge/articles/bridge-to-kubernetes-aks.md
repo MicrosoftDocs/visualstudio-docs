@@ -46,8 +46,8 @@ az aks create \
 Download the code and install dependencies
 
 ```azurecli-interactive
-git clone https://github.com/Microsoft/mindaro
-cd mindaro/samples/todo-app
+git clone https://github.com/Azure/Bridge-To-Kubernetes
+cd Bridge-To-Kubernetes/samples/todo-app
 npm install stats-api\
 ```
 
@@ -160,9 +160,7 @@ Learn more about Bridge to Kubernetes at [How Bridge to Kubernetes works][btk-ho
 [azure-cloud-shell]: /azure/cloud-shell/overview
 [az-aks-get-credentials]: /cli/azure/aks?view=azure-cli-latest&preserve-view=true#az-aks-get-credentials
 [az-aks-vs-code]: https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-aks-tools
-[bike-sharing-github]: https://github.com/Microsoft/mindaro
 [preview-terms]: https://azure.microsoft.com/support/legal/preview-supplemental-terms/
-[server-js-breakpoint]: https://github.com/Microsoft/mindaro/blob/master/samples/BikeSharingApp/Bikes/server.js#L233
 [supported-regions]: https://azure.microsoft.com/global-infrastructure/services/?products=kubernetes-service
 [troubleshooting]: /azure/dev-spaces/troubleshooting#fail-to-restore-original-configuration-of-deployment-on-cluster
 [vs-code]: https://code.visualstudio.com/download
