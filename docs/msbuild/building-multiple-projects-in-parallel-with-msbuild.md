@@ -1,7 +1,7 @@
 ---
 title: Building Multiple Projects in Parallel with MSBuild | Microsoft Docs
 description: Learn about the MSBuild settings you can use to build multiple projects faster by running them in parallel.
-ms.date: 11/04/2016
+ms.date: 09/14/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - parallel project builds
@@ -44,28 +44,32 @@ msbuild.exe myproj.proj -maxcpucount:3
 
 `BuildInParallel` is an optional boolean parameter on an MSBuild task. When `BuildInParallel` is set to `true` (its default value is `true`), multiple worker processes are generated to build as many projects at the same time as possible. For this to work correctly, the `-maxcpucount` switch must be set to a value greater than 1, and the system must be at least dual-core or have two or more processors.
 
-The following is an example, taken from *microsoft.common.targets*, about how to set the `BuildInParallel` parameter.
+The following example shows how to build a target in a project file with multiple different property values in parallel by using the `BuildInParallel` parameter.
+
+Here's the project file `do_it.proj` with a target that just prints a different message for each `SourceValue`:
 
 ```xml
-<PropertyGroup>
-    <BuildInParallel Condition="'$(BuildInParallel)' ==
-        ''">true</BuildInParallel>
-</PropertyGroup>
-<MSBuild
-    Projects="@(_MSBuildProjectReferenceExistent)"
-    Targets="GetTargetPath"
-    BuildInParallel="$(BuildInParallel)"
-    Properties="%(_MSBuildProjectReferenceExistent.SetConfiguration);
-        %(_MSBuildProjectReferenceExistent.SetPlatform)"
-    Condition="'@(NonVCProjectReference)'!='' and
-        ('$(BuildingSolutionFile)' == 'true' or
-        '$(BuildingInsideVisualStudio)' == 'true' or
-        '$(BuildProjectReferences)' != 'true') and
-        '@(_MSBuildProjectReferenceExistent)' != ''"
-    ContinueOnError="!$(BuildingProject)">
-    <Output TaskParameter="TargetOutputs"
-        ItemName="_ResolvedProjectReferencePaths"/>
-</MSBuild>
+<Project>
+   <Target Name="DoIt">
+      <Message Text="For this invocation SourceValue='$(SourceValue)'" Importance="High" />
+   </Target>
+</Project>
+```
+
+The following project builds a specified target `DoIt` in `do_it.proj` in parallel, using the item list and `AdditionalProperties` metadata to specify different values of the property `SourceValue`.
+
+```xml
+<Project>
+   <ItemGroup>
+      <_Project Include="do_it.proj" AdditionalProperties="SourceValue=Test1" />
+      <_Project Include="do_it.proj" AdditionalProperties="SourceValue=Test2" />
+      <_Project Include="do_it.proj" AdditionalProperties="SourceValue=Test3" />
+      <_Project Include="do_it.proj" AdditionalProperties="SourceValue=Test4" />
+   </ItemGroup>
+   <Target Name="Build">
+      <MSBuild Projects="@(_Project)" Targets="DoIt" BuildInParallel="true" />
+    </Target>
+</Project>
 ```
 
 ## See also
