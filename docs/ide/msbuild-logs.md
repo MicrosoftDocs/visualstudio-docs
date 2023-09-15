@@ -160,7 +160,7 @@ MSBuild binary logs are then captured to a location specified via `MSBUILDDEBUGP
 > [!NOTE]
 > Logs are recorded for each MSBuild invocation (including design time builds) and kept in the folder without removing older ones - so the number of log files can grow quickly. It is recommended to set the opt-in environment variable only for the short duration of reproducing the issue to be investigated (though it's understandable that some nondeterministic issues might need multiple reproduction attempts).
 
-## Create a binary MSBuild log by using the Project System Tools extension
+### Create a binary MSBuild log by using the Project System Tools extension
 
 See [this guide](https://github.com/dotnet/project-system-tools) in the Project System Tools repo for capturing binlogs through Visual Studio.
 
