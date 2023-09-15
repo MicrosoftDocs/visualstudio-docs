@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 08/10/2021
+ms.date: 08/04/2023
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
