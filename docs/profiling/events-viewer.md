@@ -89,7 +89,7 @@ You can instrument your code with custom ETW events and enable them to show up i
 
 1. Open the Performance Profiler (**Alt + F2**), enable the Events Viewer, and then select the Settings icon (gear icon) next to it.
 
-   ![Screenshot of the events viewer settings icon](../profiling/media/event-viewer-settings-icon.png "Events viewer settings icon")
+   ![Screenshot of the events viewer settings icon](../profiling/media/vs-2022/events-viewer-settings-icon.png "Events viewer settings icon")
 
 1. In the dialog box, enable the first row under **Additional Providers**, and then take one of the following actions:
 
@@ -98,13 +98,13 @@ You can instrument your code with custom ETW events and enable them to show up i
 
      For a native custom event, the row should look similar to the following illustration.
 
-     ![Screenshot of the events viewer settings](../profiling/media/event-viewer-settings-icon.png "Events viewer settings")
+     ![Screenshot of the events viewer settings](../profiling/media/vs-2022/events-viewer-settings.png "Events viewer settings")
 
 1. Select **OK**.
 
    The custom event will appear in the Events Viewer when you collect a diagnostics trace and open it. The following illustration shows the custom events in the Events Viewer with filtering set to show only the custom event.
 
-   ![Screenshot of the events viewer showing custom events](../profiling/media/events-viewer-showing-custom-events.png "Events viewer showing custom events")
+   ![Screenshot of the events viewer showing custom events](../profiling/media/vs-2022/events-viewer-showing-custom-events.png "Events viewer showing custom events")
 
 Here's an example of custom event code for C++.
 
