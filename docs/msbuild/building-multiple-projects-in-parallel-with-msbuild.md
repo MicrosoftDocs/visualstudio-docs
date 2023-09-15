@@ -70,7 +70,7 @@ The following project builds a specified target `DoIt` in `do_it.proj` in parall
    </ItemGroup>
    <Target Name="Build">
       <MSBuild Projects="@(_Project)" Targets="DoIt" BuildInParallel="true" />
-    </Target>
+   </Target>
 </Project>
 ```
 
