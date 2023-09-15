@@ -116,9 +116,9 @@ If you are building in the Visual Studio IDE (with detailed output window verbos
 
 ## Provide MSBuild binary logs for investigation
 
-MSBuild has the ability to capture a detailed binary log file.  If you are having a build issue and are able to provide a binary log, the log can be helpful for investigating the issue.
+MSBuild has the ability to capture a detailed binary log file. If you are having a build issue and are able to provide a binary log, the log can be helpful for investigating the issue.
 
-However, you should be aware what type of information is captured in the binary log to make sure you are not inadvertently sharing more than you intend.  The binary log captures almost everything your build does, including the contents of your project files and any files (such as `.props` and `.targets`) that they import, all tasks that are run during the build as well as the input and output, as well as all environment variables.  It generally doesn't include the contents of the source files that are compiled, but it does capture their full names and paths.
+However, you should be aware what type of information is captured in the binary log to make sure you are not inadvertently sharing more than you intend.  The binary log captures almost everything your build does, including the contents of your project files and any files (such as `.props` and `.targets`) that they import, all tasks that are run during the build as well as the input and output, as well as environment variables that have been accessed in that MSBuild session. It generally doesn't include the contents of the source files that are compiled, but it does capture their full names and paths.
 
 > [!NOTE]
 > Some build environments make secrets available using environment variables. Before sharing a binary log, make sure it does not expose API tokens or other important secrets.
@@ -179,12 +179,6 @@ See [this guide](https://github.com/dotnet/project-system-tools) in the Project 
    ![Build logging context menu](../ide/media/build-logging-context-menu.png)
 
 You can view and search your *.binlog* files by using the [MSBuild Structured Log Viewer](http://www.msbuildlog.com/).
-
-## Next steps
-
-- [Building, testing, and debugging on full framework MSBuild](https://github.com/dotnet/msbuild/blob/main/documentation/wiki/Building-Testing-and-Debugging-on-Full-Framework-MSBuild.md#logs)
-
-- [Design time builds logs](https://github.com/dotnet/project-system/blob/main/docs/repo/debugging/design-time-builds.md#gathering-full-fidelity-binlogs)
 
 ## See also
 
