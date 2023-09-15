@@ -87,13 +87,15 @@ You can instrument your code with custom ETW events and enable them to show up i
 
 1. Build the custom event code.
 
-1. Open the Performance Profiler (**Alt + F2**), enable the Events Viewer, and then select the Settings icon (gear icon) next to it.
+   An example of C++ custom event code is provided at the end of this section.
+
+1. Open the Performance Profiler (**Alt + F2**), enable the Events Viewer, and then select the **Settings** icon (gear icon) next to it.
 
    ![Screenshot of the events viewer settings icon](../profiling/media/vs-2022/events-viewer-settings-icon.png "Events viewer settings icon")
 
 1. In the dialog box, enable the first row under **Additional Providers**, and then take one of the following actions:
 
-   - For native custom event code, set the **Provider GUID** based on the GUID for the custom event code, and leave the **Provider Name** value empty.
+   - For native custom event code, set the **Provider GUID** based on the GUID for the custom event code, and leave the **Provider Name** value empty or it's default value.
    - For C# custom event code, set the same **Provider Name** value that you used when declaring your event code. This name gets converted into a GUID in the background, so leave the **Provider GUID** empty.
 
      For a native custom event, the row should look similar to the following illustration.
@@ -102,7 +104,7 @@ You can instrument your code with custom ETW events and enable them to show up i
 
 1. Select **OK**.
 
-   The custom event will appear in the Events Viewer when you collect a diagnostics trace and open it. The following illustration shows the custom events in the Events Viewer with filtering set to show only the custom event.
+   The custom event appears in the Events Viewer when you collect a diagnostics trace and open it. The following illustration shows the custom events in the Events Viewer with filtering set to show only the custom event.
 
    ![Screenshot of the events viewer showing custom events](../profiling/media/vs-2022/events-viewer-showing-custom-events.png "Events viewer showing custom events")
 
