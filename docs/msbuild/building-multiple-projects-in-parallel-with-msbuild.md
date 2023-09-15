@@ -42,7 +42,7 @@ msbuild.exe myproj.proj -maxcpucount:3
 
 ## BuildInParallel task parameter
 
-`BuildInParallel` is an optional boolean parameter on an MSBuild task. When `BuildInParallel` is set to `true` (its default value is `true`), multiple worker processes are generated to build as many projects at the same time as possible. For this to work correctly, the `-maxcpucount` switch must be set to a value greater than 1, and the system must be at least dual-core or have two or more processors.
+`BuildInParallel` is an optional boolean parameter on an MSBuild task. When `BuildInParallel` is set to `true` (its default value is `true`), multiple worker processes are generated to build as many projects at the same time as possible. For this to work correctly, the `-maxcpucount` switch must be set to a value greater than 1.
 
 Building in parallel only works for a single invocation of the MSBuild task, so if you invoke task batching, the parallelism is limited to each batch. See [MSBuild batching](msbuild-batching.md).
 
