@@ -137,11 +137,11 @@ MSBuild.exe -bl:ServiceRelease.binlog -p:Configuration=Release
 
 See also [More details about binary logs](https://github.com/dotnet/msbuild/blob/main/documentation/wiki/Binary-Log.md).
 
-## Capture binary logs through Visual Studio
+### Capture binary logs through Visual Studio
 
 To capture logs for all MSBuild invocations:
 
-1. Set `MSBUILDDEBUGENGINE` environment variable to `'1'` and (optionally) set `MSBUILDDEBUGPATH` to an existing destination folder to store the captured logs. Then start Visual Studio from the same shell to inherit the environment:
+Set `MSBUILDDEBUGENGINE` environment variable to `'1'` and (optionally) set `MSBUILDDEBUGPATH` to an existing destination folder to store the captured logs. Then start Visual Studio from the same shell to inherit the environment:
 
    ```batch
    SET MSBUILDDEBUGENGINE=1
