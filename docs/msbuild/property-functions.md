@@ -144,7 +144,7 @@ In MSBuild running on .NET Framework (`MSBuild.exe`), only the following methods
 - [System.OperatingSystem::IsFreeBSD](xref:System.OperatingSystem.IsFreeBSD*)
 - [System.OperatingSystem::IsFreeBSDVersionAtLeast](xref:System.OperatingSystem.IsFreeBSDVersionAtLeast*)
 - [System.OperatingSystem::IsMacOS](xref:System.OperatingSystem.IsMacOS*)
-- [System.OperatingSystem::IsMacOSVersionAtLeast](System.OperatingSystem.IsMacOSVersionAtLeast*)
+- [System.OperatingSystem::IsMacOSVersionAtLeast](xref:System.OperatingSystem.IsMacOSVersionAtLeast*)
 - [System.OperatingSystem::IsWindows](xref:System.OperatingSystem.IsWindows*)
 - [System.OperatingSystem::IsWindowsVersionAtLeast](xref:System.OperatingSystem.IsWindowsVersionAtLeast*)
 
