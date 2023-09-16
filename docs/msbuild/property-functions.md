@@ -130,7 +130,7 @@ In addition, you can use the following static methods and properties:
 - [System.IO.File::ReadAllText](xref:System.IO.File.ReadAllText*)
 
 :::moniker range="vs-2022"
-### System.OperatingSystem property functions
+#### System.OperatingSystem property functions
 
 The `System.OperatingSystem` property functions return information about the operating system on which MSBuild is running. For example, if your project targets Linux and you build it on macOS, the property functions will return information about macOS.
 
