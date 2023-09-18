@@ -365,6 +365,7 @@ When this application runs, a message box appears after a user chooses a radio b
         <Button Content="Display" HorizontalAlignment="Left" Margin="377,270,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
    </Grid>
    ```
+
 1. Enter the following code:
 
     ```csharp
