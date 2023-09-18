@@ -355,6 +355,7 @@ When this application runs, a message box appears after a user chooses a radio b
     ```
 
    When you double-click the **Display button**, `Click="Button_Click"` will be added to the XAML.
+   
    The XAML markup should now look similar to the following example:
 
    ```xaml
