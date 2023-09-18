@@ -2,7 +2,7 @@
 title: "Hello World app with WPF in C#"
 description: Create a simple Windows Desktop .NET app in C# with Visual Studio using the Windows Presentation Foundation (WPF) UI framework.
 ms.custom: "vs-acquisition, get-started"
-ms.date: 10/31/2022
+ms.date: 9/18/2023
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 ms.topic: tutorial
@@ -90,9 +90,9 @@ After you create the project, you can customize it. To do so, choose **Propertie
 
    :::image type="content" source="media/vs-2022/explore-ide-name-project.png" alt-text="Screenshot of the 'Configure your new project' dialog with 'HelloWPFApp' entered in the Project name field.":::
 
-1. In the **Additional information** window, **.NET 6.0 (Long-term support)** should already be selected for your target framework. If not, select **.NET 6.0 (Long-term support)**. Then, choose **Create**.
+1. In the **Additional information** window, **.NET 7.0 (Standard Term Support)** should already be selected for your target framework. If not, select **.NET 7.0 (Standard Term Support)**. Then, choose **Create**.
 
-   :::image type="content" source="media/vs-2022/wpf-target-framework.png" alt-text="In the 'Screenshot of the Additional information window with '.NET 6.0 (Long-term support)' selected in the Framework field.":::
+   :::image type="content" source="media/vs-2022/wpf-target-framework.png" alt-text="In the 'Screenshot of the Additional information window with '.NET 7.0 (Standard Term Support)' selected in the Framework field.":::
 
 Visual Studio creates the HelloWPFApp project and solution, and **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view.
 
@@ -227,7 +227,7 @@ Next, you'll add display text for each RadioButton control. The following proced
 
 ### Add display text for each radio button
 
-1. Update the **Content** attribute for the `HelloButton` and `GoodbyeButton` to `"Hello"` and `"Goodbye"` in the XAML. The XAML markup should now look similar to the following example:
+1. Update the **Content** attribute for the two radio buttons `HelloButton` and `GoodbyeButton` to `"Hello"` and `"Goodbye"` in the XAML. The XAML markup should now look similar to the following example:
 
    ```xaml
    <Grid>
@@ -354,6 +354,17 @@ When this application runs, a message box appears after a user chooses a radio b
     }
     ```
 
+   When you double-click the **Display button**, `Click="Button_Click"` will be added to the XAML.
+   The XAML markup should now look similar to the following example:
+
+   ```xaml
+   <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="252,47,0,0" TextWrapping="Wrap" Text="Select a message option and then choose the Display button." VerticalAlignment="Top"/>
+        <RadioButton x:Name="HelloButton" Content="Hello" IsChecked="True" HorizontalAlignment="Left" Margin="297,161,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="GoodbyeButton" Content="Goodbye" HorizontalAlignment="Left" Margin="488,161,0,0" VerticalAlignment="Top"/>
+        <Button Content="Display" HorizontalAlignment="Left" Margin="377,270,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+   </Grid>
+   ```
 1. Enter the following code:
 
     ```csharp
