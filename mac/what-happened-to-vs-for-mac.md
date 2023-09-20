@@ -34,7 +34,7 @@ The following notes outline the timeline for support.
         **After Aug 31, 2024**
     :::column-end::: 
     :::column span="3":::
-        Visual Studio for Mac is no longer be supported or maintained starting August 31st, 2024. Starting that date, Visual Studio for Mac remains available as a legacy installation only via my.visualstudio.com for users with Visual Studio subscriptions. 
+        Visual Studio for Mac will no longer be supported or maintained after August 31, 2024. Visual Studio for Mac will still be available as a legacy installation only via my.visualstudio.com for users with Visual Studio subscriptions. 
     :::column-end::: 
 :::row-end:::
 
