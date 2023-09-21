@@ -20,6 +20,14 @@ helpviewer_keywords:
 - Visual Studio, call hierarchy window
 - class view
 - object browser
+- icons, in Object Browser
+- signal icons
+- Class View tool, symbols
+- graphic symbols
+- IntelliSense, icons
+- icons, IntelliSense
+- symbols, Object Browser icons
+- Object Browser, icons in Class View
 author: TerryGLee
 ms.author: tglee
 manager: jmartens
