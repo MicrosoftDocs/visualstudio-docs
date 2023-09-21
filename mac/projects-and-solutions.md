@@ -10,7 +10,7 @@ ms.assetid: 8254505D-D96E-48BD-8A5E-CF6A917897EA
 ---
 # Projects and Solutions in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 This article provides an overview of the *project* and *solution* concepts in Visual Studio for Mac.
 

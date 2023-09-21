@@ -8,9 +8,9 @@ ms.date: 02/23/2022
 ms.assetid: 2C4AAC2E-3B4A-4496-8BE0-1F5A7F81D1CA
 ms.topic: overview
 ---
-# Accessibility
+# Accessibility in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 There are a number of accessibility tools and features built right into macOS to assist you when using Visual Studio for Mac. These features include a high-contrast mode, keyboard navigation, and VoiceOver (the macOS screen reader).
 

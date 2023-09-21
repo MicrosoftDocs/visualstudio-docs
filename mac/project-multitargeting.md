@@ -8,9 +8,9 @@ ms.date: 12/12/2019
 ms.topic: how-to
 ms.assetid: 2a561af4-f1fe-493e-9a53-aa6d77d15498
 ---
-# Projects with multiple target frameworks
+# Projects with multiple target frameworks in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 In Visual Studio for Mac, you can configure a Xamarin or .NET Core project to run on any one of several versions of the .NET Framework, and on any one of several system platforms. For example, you could target a project to run on both .NET Framework 4.6 and .NET Core 3.1. 
 
 For more information about target frameworks, see [Target frameworks](/dotnet/standard/frameworks).

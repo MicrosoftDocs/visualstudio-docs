@@ -2,7 +2,7 @@
 title: "First look at the debugger"
 description: "Get started debugging applications using the Visual Studio debugger"
 ms.topic: conceptual
-ms.date: 09/22/2022
+ms.date: 09/14/2023
 helpviewer_keywords:
   - "debugger"
 author: mikejo5000
@@ -157,9 +157,6 @@ While paused in the debugger, hover over an object with the mouse and you see it
 If the variable has properties, you can expand the object to see all its properties.
 
 Often, when debugging, you want a quick way to check property values on objects, and the data tips are a good way to do it.
-
-> [!TIP]
-> In most supported languages, you can edit code in the middle of a debugging session. For more info, see [Edit and Continue](../debugger/edit-and-continue.md).
 
 ## Inspect variables with the Autos and Locals windows
 

@@ -4,7 +4,7 @@
 - name: Overview
   expanded: true
   items:
-  - name: Connected Services
+  - name: What is Visual Studio Connected Services?
     href: overview-connected-services.md
   - name: Develop Azure applications
     href: overview-azure-integration.md

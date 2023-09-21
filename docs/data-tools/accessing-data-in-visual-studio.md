@@ -1,7 +1,7 @@
 ---
 title: Work with data in Visual Studio
 description: Work with data in Visual Studio. Create apps that connect to data in other database products or services over local machines, LANs, or public or private clouds.
-ms.date: 07/26/2022
+ms.date: 09/14/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - data [Visual Studio]

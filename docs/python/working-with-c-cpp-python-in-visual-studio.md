@@ -2,7 +2,7 @@
 title: Write C++ extensions for Python
 description: This article walks you through how to create a C++ extension for Python by using Visual Studio, CPython, and PyBind11, including mixed-mode debugging.
 ms.custom: devdivchpfy22
-ms.date: 06/22/2023
+ms.date: 09/01/2023
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
@@ -297,11 +297,11 @@ The C++ module might fail to compile for the following reasons:
 
 - Error: Unable to locate _Python.h_ (**E1696: cannot open source file "Python.h"** and/or **C1083: Cannot open include file: "Python.h": No such file or directory**)
 
-  Solution: Verify that the path **C/C++** > **General** > **Additional Include Directories** in the project properties points to your Python installation's _include_ folder. See step 6 under [Create the core C++ project](#create-the-core-c-projects).
+  Solution: Verify that the path **C/C++** > **General** > **Additional Include Directories** in the project properties points to your Python installation's _include_ folder. See step 6 under [Create the core C++ project](#create-the-core-c-projects). For more information on accessing your Python installation configuration information, see [Python's documentation](https://docs.python.org/3/library/sysconfig.html).
 
 - Error: Unable to locate Python libraries
 
-  Solution: Verify that the path: **Linker** > **General** > **Additional Library Directories** in the project properties points to your Python installation's _libs_ folder. See step 6 under [Create the core C++ project](#create-the-core-c-projects).
+  Solution: Verify that the path: **Linker** > **General** > **Additional Library Directories** in the project properties points to your Python installation's _libs_ folder. See step 6 under [Create the core C++ project](#create-the-core-c-projects). For more information on accessing your Python installation configuration information, see [Python's documentation](https://docs.python.org/3/library/sysconfig.html).
 
 - Linker errors related to target architecture
   Solution: Change the C++ target's project architecture to match that of your Python installation. For example, if you're targeting Win32 with the C++ project but your Python installation is 64-bit, change the C++ project to x64.

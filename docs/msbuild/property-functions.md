@@ -129,6 +129,33 @@ In addition, you can use the following static methods and properties:
 - [System.IO.File::GetLastWriteTime](xref:System.IO.File.GetLastWriteTime*)
 - [System.IO.File::ReadAllText](xref:System.IO.File.ReadAllText*)
 
+:::moniker range="vs-2022"
+#### System.OperatingSystem property functions
+
+The `System.OperatingSystem` property functions return information about the operating system on which MSBuild is running. For example, if your project targets Linux and you build it on macOS, the property functions will return information about macOS.
+
+In MSBuild running on .NET (`dotnet build`), all static methods of the `System.OperatingSystem` class will be callable as static property functions.
+
+In MSBuild running on .NET Framework (`MSBuild.exe`), only the following methods of `System.OperatingSystem` will be callable as static property functions. MSBuild implements them internally, because `System.OperatingSystem` does not define them on .NET Framework. Methods for operating systems for which there is no .NET SDK, such as `System.OperatingSystem::IsTvOS`, are not callable.
+
+- [System.OperatingSystem::IsOSPlatform](xref:System.OperatingSystem.IsOSPlatform*)
+- [System.OperatingSystem::IsOSPlatformVersionAtLeast](xref:System.OperatingSystem.IsOSPlatformVersionAtLeast*)
+- [System.OperatingSystem::IsLinux](xref:System.OperatingSystem.IsLinux*)
+- [System.OperatingSystem::IsFreeBSD](xref:System.OperatingSystem.IsFreeBSD*)
+- [System.OperatingSystem::IsFreeBSDVersionAtLeast](xref:System.OperatingSystem.IsFreeBSDVersionAtLeast*)
+- [System.OperatingSystem::IsMacOS](xref:System.OperatingSystem.IsMacOS*)
+- [System.OperatingSystem::IsMacOSVersionAtLeast](xref:System.OperatingSystem.IsMacOSVersionAtLeast*)
+- [System.OperatingSystem::IsWindows](xref:System.OperatingSystem.IsWindows*)
+- [System.OperatingSystem::IsWindowsVersionAtLeast](xref:System.OperatingSystem.IsWindowsVersionAtLeast*)
+
+The following example shows the usage of these property functions.
+
+```xml
+<IsWindows>$([System.OperatingSystem]::IsWindows())</IsWindows>
+```
+
+:::moniker-end
+
 ### Calling instance methods on static properties
 
 If you access a static property that returns an object instance, you can invoke the instance methods of that object. To invoke an instance method, use the following syntax, where `Class` is the name of the system class, `Property` is the name of the property, `Method` is the name of the method, and `(Parameters)` is the parameter list for the method:

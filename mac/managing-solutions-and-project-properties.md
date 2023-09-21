@@ -8,9 +8,9 @@ ms.date: 11/09/2020
 ms.topic: how-to
 ms.assetid: 75247EB8-323A-4AFD-A451-6703A03D5D1F
 ---
-# Managing Project and Solution Properties
+# Managing Project and Solution Properties in Visual Studio for Mac
 
- [!INCLUDE [Visual Studio for Mac](~/includes/applies-to-version/vs-mac-only.md)]
+ [!INCLUDE [Retirement announcement for Visual Studio for Mac](includes/vsmac-retirement.md)]
 
 ## Project options
 

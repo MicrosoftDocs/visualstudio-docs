@@ -65,7 +65,7 @@ public int AddIntegers(int first, int second)
 For inline tests, MSTest uses `DataRow` to specify values used by the data-driven test. The test in this example runs successively for each data row.
 
 ```csharp
-[DataTestMethod]
+[TestMethod]
 [DataRow(1, 1, 2)]
 [DataRow(2, 2, 4)]
 [DataRow(3, 3, 6)]

@@ -1,9 +1,9 @@
 ---
 title: Work with multiple containers using Docker Compose
 author: ghogen
-description: Learn how to use multiple containers with Docker Compose
+description: Learn how to use multiple containers with Docker Compose and create a custom launch profile.
 ms.author: ghogen
-ms.date: 6/01/2022
+ms.date: 9/8/2023
 ms.technology: vs-container-tools
 ms.topic: tutorial
 ---
@@ -326,7 +326,7 @@ Congratulations, you're running a Docker Compose application with a custom Docke
       </div>
       ```
 
-      This code will display the value of the counter returned from the Web API project.
+      This code displays the value of the counter returned from the Web API project.
 
 ## Add Docker Compose support
 
@@ -401,6 +401,14 @@ Congratulations, you're running a Docker Compose application with a custom Docke
 1. Press **F5**. Here's what you see when launched:
 
    ![Screenshot of running web app.](media/tutorial-multicontainer/vs-2022/webfrontend-counter.png)
+
+1. You can monitor the containers using the **Containers** window. If you don't see the window, use the search box, press **Ctrl**+**K**, **Ctrl**+**O**, or press **Ctrl**+**Q**. Under **Feature search**, search for `containers`, and choose **View** > **Other Windows** > **Containers** from the list.
+
+1. Expand the **Solution Containers** node, and choose the node for your Docker Compose project to view combined logs in the **Logs** tab of this window.
+
+   :::image type="content" alt-text="Screenshot showing viewing the Logs tab in the Containers window." source="./media/tutorial-multicontainer/vs-2022/containers-window-logs.png" lightbox="./media/tutorial-multicontainer/vs-2022/containers-window-logs.png":::
+
+   You can also select the node for an individual container to view logs, environment variables, the filesystem, and other details.
 
 ## Set up launch profiles
 
