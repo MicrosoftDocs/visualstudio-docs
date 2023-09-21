@@ -25868,9 +25868,6 @@
             "source_path": "docs/ide/class-view-and-object-browser-icons.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/class-view-and-object-browser-icons",
             "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
         },
         {
             "source_path": "docs/ide/code-snippet-functions.md",
