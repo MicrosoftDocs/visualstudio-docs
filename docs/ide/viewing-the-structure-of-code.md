@@ -243,7 +243,3 @@ The shortcut (or right-click) menu in the **Code Definition** window may contain
 ## Document Outline window
 
 You can use the **Document Outline** window in conjunction with designer views, such as the designer for a XAML page or a Windows Form designer, or with HTML pages. This window displays the elements in a tree view, so that you can view the logical structure of the form or page and find controls that are deeply embedded or hidden.
-
-## See also
-
-- [Class View and Object Browser icons](../ide/class-view-and-object-browser-icons.md)

@@ -527,12 +527,8 @@
         href: ide/codeindex-command.md
     - name: Editor support for other languages
       href: ide/adding-visual-studio-editor-support-for-other-languages.md
-  - name: Code views
-    items:
-    - name: View the structure of code
-      href: ide/viewing-the-structure-of-code.md
-    - name: Class View and Object Browser icons
-      href: ide/class-view-and-object-browser-icons.md
+  - name: View the structure of code
+    href: ide/viewing-the-structure-of-code.md
   - name: Use the Task List
     href: ide/using-the-task-list.md
   - name: Class Designer
