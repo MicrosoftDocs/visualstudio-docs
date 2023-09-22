@@ -72,4 +72,4 @@ Provides a table of Command Table Compiler schema elements, with allowed child e
 
 ## See also
 - [How VSPackages add user interface elements](../extensibility/internals/how-vspackages-add-user-interface-elements.md)
-- [Command routing in VSPackages](../extensibility/internals/command-routing-in-vspackages.md)
+- [Command design](../extensibility/internals/command-design.md)

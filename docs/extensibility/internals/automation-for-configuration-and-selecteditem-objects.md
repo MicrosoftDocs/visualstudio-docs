@@ -33,5 +33,5 @@ You do not have to provide an implementation for the `SelectedItem` object becau
 ## See also
 
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage%2A>
-- [Contribute to the automation model](../../extensibility/internals/contributing-to-the-automation-model.md)
+- [Contribute to the automation model](../../extensibility/internals/automation-model-overview.md)
 - [Understand build configurations](../../ide/understanding-build-configurations.md)

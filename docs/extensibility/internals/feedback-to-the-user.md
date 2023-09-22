@@ -58,4 +58,4 @@ In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated d
 ## See also
 - [Selection and currency in the IDE](../../extensibility/internals/selection-and-currency-in-the-ide.md)
 - [Selection context objects](../../extensibility/internals/selection-context-objects.md)
-- [Hierarchies and selection](../../extensibility/internals/hierarchies-and-selection.md)
+- [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)

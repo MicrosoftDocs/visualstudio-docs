@@ -236,14 +236,11 @@ This section contains information about Visual Studio namespaces, related namesp
 - [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)
  Links to topics for the Source Control Plug-in API.
 
-- [Command-Line Switches](../extensibility/command-line-switches-visual-studio-sdk.md)
- Links to topics that discuss how developers can automate several tasks from the command line.
+- [Command-Line Switches](../extensibility/devenv-command-line-switches-for-vspackage-development.md)
+ Information about how you can automate several tasks from the command line.
 
 - [Error Handling and Return Values](../extensibility/error-handling-and-return-values.md)
  Explains the error architecture for VSPackages, which is the same as that employed in other Windows programming.
-
-- [Objects](../extensibility/objects.md)
- Gives a list of the objects that are used in the environment.
 
 - [Glossary](../extensibility/visual-studio-sdk-glossary.md)
  Gives a list of helpful terms and their definitions for use when you are reading the Visual Studio SDK documentation.

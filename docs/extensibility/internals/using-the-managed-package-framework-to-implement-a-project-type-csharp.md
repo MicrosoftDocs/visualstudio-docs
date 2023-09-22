@@ -67,7 +67,7 @@ To add this project to your VSPackage solution, do the following:
 10. Build the project.
 
 ## Hierarchy Classes
-The following table summarizes the classes in the MPFProj that support project hierarchies. For more information, see [Hierarchies and Selection](../../extensibility/internals/hierarchies-and-selection.md).
+The following table summarizes the classes in the MPFProj that support project hierarchies. For more information, see [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md).
 
 |Class name|
 |----------------|
