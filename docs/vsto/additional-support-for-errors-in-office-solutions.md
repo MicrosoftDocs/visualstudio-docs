@@ -85,8 +85,6 @@ Provides a forum for questions about the Office developer tools in Visual Studio
 
 Provides access to Knowledge Base (KB) articles, downloads and updates, support Webcasts, and other services.
 
-[Additional resources for developing Office solutions](../vsto/additional-resources-for-developing-office-solutions.md)
-
 Provides links to additional resources for learning more about developing Office solutions and Office development with Visual Studio.
 
 ## See also
@@ -94,4 +92,3 @@ Provides links to additional resources for learning more about developing Office
 - [Troubleshoot errors in Office solutions](../vsto/troubleshooting-errors-in-office-solutions.md)
 - [Troubleshoot Office solution security](../vsto/troubleshooting-office-solution-security.md)
 - [Troubleshoot Office solution deployment](../vsto/troubleshooting-office-solution-deployment.md)
-- [Additional resources for developing Office solutions](../vsto/additional-resources-for-developing-office-solutions.md)

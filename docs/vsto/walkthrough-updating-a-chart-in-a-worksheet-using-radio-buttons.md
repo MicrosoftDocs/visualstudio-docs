@@ -269,7 +269,7 @@ ms.workload:
 
 - Using a button to populate a text box. For more information, see [Walkthrough: Display text in a text box in a worksheet using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-worksheet-using-a-button.md).
 
-- Change formatting on a worksheet by using check boxes. For more information, see [Walkthrough: Change worksheet formatting using CheckBox controls](../vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md).
+- Change formatting on a worksheet by using check boxes. 
 
 ## See also
 - [Walkthroughs using Excel](../vsto/walkthroughs-using-excel.md)

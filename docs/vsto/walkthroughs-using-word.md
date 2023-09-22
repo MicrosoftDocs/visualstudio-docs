@@ -37,9 +37,6 @@ ms.workload:
 - [Walkthrough: Display text in a text box in a document using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-document-using-a-button.md)
  Demonstrates how to use buttons and text boxes on Word documents.
 
-- [Walkthrough: Update a chart in a document using radio buttons](../vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md)
- Demonstrates how to change chart styles in a Word document by using option buttons in a document-level customization.
-
 - [Walkthrough: Create shortcut menus for bookmarks](../vsto/walkthrough-creating-shortcut-menus-for-bookmarks.md)
  Demonstrates how to create a shortcut menu that can be used to format the text in a bookmark.
 

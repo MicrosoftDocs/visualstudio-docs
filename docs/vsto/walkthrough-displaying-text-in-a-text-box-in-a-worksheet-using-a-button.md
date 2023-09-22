@@ -110,7 +110,7 @@ ms.workload:
 
 - Deploying the project. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-- Using check boxes to change formatting. For more information, see [Walkthrough: Change worksheet formatting using CheckBox controls](../vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md).
+- Using check boxes to change formatting. 
 
 ## See also
 - [How to: Add Windows Forms controls to Office documents](../vsto/how-to-add-windows-forms-controls-to-office-documents.md)
