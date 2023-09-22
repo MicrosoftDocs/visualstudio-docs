@@ -33,5 +33,5 @@ ms.workload:
 ## See also
 - [Work with folders](../vsto/working-with-folders.md)
 - [How to: Programmatically search within a specific folder](../vsto/how-to-programmatically-search-within-a-specific-folder.md)
-- [How to: Programmatically search for a specific contact](/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-search-for-a-specific-contact.md)
+- [How to: Programmatically search for a specific contact](/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-search-for-a-specific-contact)
 - [How to: Programmatically create custom folder items](../vsto/how-to-programmatically-create-custom-folder-items.md)

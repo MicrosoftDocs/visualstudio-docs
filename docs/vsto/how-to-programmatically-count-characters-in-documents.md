@@ -67,5 +67,5 @@ ms.workload:
      ---
 
 ## See also
-- [How to: Programmatically retrieve start and end characters in ranges](/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-retrieve-start-and-end-characters-in-ranges.md)
+- [How to: Programmatically retrieve start and end characters in ranges](/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-retrieve-start-and-end-characters-in-ranges)
 - [How to: Programmatically define and select ranges in documents](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)

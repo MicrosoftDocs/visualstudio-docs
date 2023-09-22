@@ -94,7 +94,7 @@ Some limitations of using Windows Forms controls on documents are unique to docu
 Certain Windows Forms controls are removed from the **Toolbox** when an Excel worksheet or Word document is open in the Visual Studio designer. This is because of technical limitations or because the functionality is already available within Word or Excel. Excel and Word projects support all of the Windows Forms controls and other components that appear in the **Toolbox** when the document has focus, and you can also add third-party controls to a worksheet or document.
 
 > [!NOTE]
-> All controls are removed from the **Toolbox** when a document is protected. For information about document protection, see [Document protection in document-level solutions](/previous-versions/visualstudio/visual-studio-2017/vsto/document-protection-in-document-level-solutions.md).
+> All controls are removed from the **Toolbox** when a document is protected. For information about document protection, see [Document protection in document-level solutions](/previous-versions/visualstudio/visual-studio-2017/vsto/document-protection-in-document-level-solutions).
 
 > [!NOTE]
 > Third-party controls must have the <xref:System.Runtime.InteropServices.ComVisibleAttribute> attribute set to **true** in order to be used in an Office solution.
