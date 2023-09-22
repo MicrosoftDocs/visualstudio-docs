@@ -29,7 +29,6 @@ ms.workload:
 |----------|---------------|
 |Define ranges based on various criteria and select them.|[How to: Programmatically define and select ranges in documents](../vsto/how-to-programmatically-define-and-select-ranges-in-documents.md)|
 |Get the characters that begin and end a range.|[How to: Programmatically retrieve start and end characters in ranges](../vsto/how-to-programmatically-retrieve-start-and-end-characters-in-ranges.md)|
-|Select a paragraph without including the paragraph mark, and move the text.|[How to: Programmatically exclude paragraph marks when creating ranges](../vsto/how-to-programmatically-exclude-paragraph-marks-when-creating-ranges.md)|
 |Make a range larger or smaller.|[How to: Programmatically extend ranges in documents](../vsto/how-to-programmatically-extend-ranges-in-documents.md)|
 |Move a range to a different location and size.|[How to: Programmatically reset ranges in Word documents](../vsto/how-to-programmatically-reset-ranges-in-word-documents.md)|
 |Reduce a range or section to consist of only the insertion point.|[How to: Programmatically collapse ranges or selections in documents](../vsto/how-to-programmatically-collapse-ranges-or-selections-in-documents.md)|

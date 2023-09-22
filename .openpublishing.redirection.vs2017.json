@@ -25867,7 +25867,7 @@
         {
             "source_path": "docs/ide/class-view-and-object-browser-icons.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/class-view-and-object-browser-icons",
-            "redirect_document_id": false,
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/ide/code-snippet-functions.md",
@@ -39640,10 +39640,7 @@
         {
             "source_path": "docs/vsto/additional-resources-for-developing-office-solutions.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/additional-resources-for-developing-office-solutions",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/additional-support-for-errors-in-office-solutions.md",
@@ -40304,10 +40301,7 @@
         {
             "source_path": "docs/vsto/how-autosave-impacts-office-solutions.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-autosave-impacts-office-solutions",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/how-to-add-a-custom-task-pane-to-an-application.md",
@@ -40840,10 +40834,7 @@
         {
             "source_path": "docs/vsto/how-to-programmatically-close-visio-documents.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-close-visio-documents",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/how-to-programmatically-close-workbooks.md",
@@ -41032,10 +41023,7 @@
         {
             "source_path": "docs/vsto/how-to-programmatically-exclude-paragraph-marks-when-creating-ranges.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-exclude-paragraph-marks-when-creating-ranges",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/how-to-programmatically-extend-ranges-in-documents.md",
@@ -41096,10 +41084,7 @@
         {
             "source_path": "docs/vsto/how-to-programmatically-list-recently-used-workbook-files.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-list-recently-used-workbook-files",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/how-to-programmatically-loop-through-found-items-in-documents.md",
@@ -41184,10 +41169,7 @@
         {
             "source_path": "docs/vsto/how-to-programmatically-print-visio-documents.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-print-visio-documents",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/how-to-programmatically-print-worksheets.md",
@@ -41464,10 +41446,7 @@
         {
             "source_path": "docs/vsto/how-to-resize-bookmark-controls.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-resize-bookmark-controls",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/how-to-resize-controls-within-worksheet-cells.md",
@@ -42272,10 +42251,7 @@
         {
             "source_path": "docs/vsto/walkthrough-binding-to-data-from-a-service-in-a-vsto-add-in-project.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/walkthrough-binding-to-data-from-a-service-in-a-vsto-add-in-project",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/walkthrough-calling-code-from-vba-in-a-visual-basic-project.md",
@@ -42320,10 +42296,7 @@
         {
             "source_path": "docs/vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/walkthrough-collecting-data-using-a-windows-form.md",
@@ -42344,10 +42317,7 @@
         {
             "source_path": "docs/vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/walkthrough-complex-data-binding-in-vsto-add-in-project",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/walkthrough-creating-a-custom-tab-by-using-ribbon-xml.md",
@@ -42544,10 +42514,7 @@
         {
             "source_path": "docs/vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/walkthrough-updating-a-chart-in-a-worksheet-using-radio-buttons.md",
@@ -42758,6 +42725,182 @@
             ]
         },
         {
+            "source_path": "docs/vsto/accessibility-in-office-projects.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/accessibility-in-office-projects?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/changes-to-the-design-of-office-projects-that-target-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/changes-to-the-design-of-office-projects-that-target-the-dotnet-framework-4-or-the-dotnet-framework-4-5?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/collaborative-development-of-office-solutions.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/collaborative-development-of-office-solutions?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/data-in-office-solutions-walkthroughs.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/data-in-office-solutions-walkthroughs?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-add-a-form-region-to-an-outlook-add-in-project?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/how-to-add-controls-to-the-backstage-view.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-add-controls-to-the-backstage-view?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/how-to-add-xmlmappedrange-controls-to-worksheets.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-add-xmlmappedrange-controls-to-worksheets?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/how-to-add-xmlnode-controls-to-word-documents.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-add-xmlnode-controls-to-word-documents?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/how-to-add-xmlnodes-controls-to-word-documents.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-add-xmlnodes-controls-to-word-documents?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/how-to-attach-managed-code-extensions-to-documents.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-attach-managed-code-extensions-to-documents?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/how-to-cache-data-in-a-password-protected-document.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-cache-data-in-a-password-protected-document?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-expose-code-to-vba-in-a-visual-basic-project?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/how-to-open-office-solutions-without-running-code.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-open-office-solutions-without-running-code?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-add-an-entry-to-outlook-contacts?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-cache-a-data-source-in-an-office-document?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/how-to-programmatically-check-spelling-in-worksheets.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-check-spelling-in-worksheets?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/how-to-programmatically-delete-appointments.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-delete-appointments?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/how-to-programmatically-display-worksheet-comments.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-display-worksheet-comments?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/how-to-programmatically-restore-selections-after-searches.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-restore-selections-after-searches?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/how-to-scroll-through-database-records-in-a-worksheet.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-scroll-through-database-records-in-a-worksheet?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/one-or-more-properties-in-the-dot-ofs-file-are-not-valid-for-the-message-class-selected .md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/one-or-more-properties-in-the-dot-ofs-file-are-not-valid-for-the-message-class-selected?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/password-protection-on-office-documents.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/password-protection-on-office-documents?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/persisting-dynamic-controls-in-office-documents.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/persisting-dynamic-controls-in-office-documents?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/project-upgrade-options-dialog-box.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/project-upgrade-options-dialog-box?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/publish-page-project-designer-office-development-in-visual-studio.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/publish-page-project-designer-office-development-in-visual-studio?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/required-changes-to-run-office-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/required-changes-to-run-office-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/secure-deployment.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/secure-deployment?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/security-and-deployment-walkthroughs.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/security-and-deployment-walkthroughs?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/updating-form-regions-in-outlook-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/updating-form-regions-in-outlook-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/upgrading-and-migrating-office-solutions.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/upgrading-and-migrating-office-solutions?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/user-interface-reference-office-development-in-visual-studio.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/user-interface-reference-office-development-in-visual-studio?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/walkthrough-creating-a-master-detail-relation-using-a-cached-dataset.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/walkthrough-creating-a-master-detail-relation-using-a-cached-dataset?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/working-with-mail-items.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/working-with-mail-items?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/xmlmappedrange-control.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/xmlmappedrange-control?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+          {
+            "source_path": "docs/vsto/xmlnode-control.md",
+            "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/xmlnode-control?view=vs-2017&preserve-view=true",
+            "redirect_document_id": false
+          },
+
+          {
             "source_path": "docs/workflow-designer/add-correlationinitializers-dialog-box.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/workflow-designer/add-correlationinitializers-dialog-box",
             "redirect_document_id": false,

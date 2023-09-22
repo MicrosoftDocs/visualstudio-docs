@@ -32,8 +32,6 @@
         href: getting-started-programming-vsto-add-ins.md
       - name: VBA and Office Solutions in Visual Studio Compared
         href: vba-and-office-solutions-in-visual-studio-compared.md
-      - name: Additional Resources for Developing Office Solutions
-        href: additional-resources-for-developing-office-solutions.md
       - name: Visual Studio Tools for Office Runtime Lifecycle Policy
         href: visual-studio-tools-for-office-runtime.md
     - name: Upgrading and Migrating Office Solutions
@@ -166,14 +164,10 @@
               href: how-to-add-windows-forms-controls-to-office-documents.md
             - name: 'Walkthrough: Changing Document Formatting Using CheckBox Controls'
               href: walkthrough-changing-document-formatting-using-checkbox-controls.md
-            - name: 'Walkthrough: Changing Worksheet Formatting Using CheckBox Controls'
-              href: walkthrough-changing-worksheet-formatting-using-checkbox-controls.md
             - name: 'Walkthrough: Displaying Text in a Text Box in a Document Using a Button'
               href: walkthrough-displaying-text-in-a-text-box-in-a-document-using-a-button.md
             - name: 'Walkthrough: Displaying Text in a Text Box in a Worksheet Using a Button'
               href: walkthrough-displaying-text-in-a-text-box-in-a-worksheet-using-a-button.md
-            - name: 'Walkthrough: Updating a Chart in a Document Using Radio Buttons'
-              href: walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md
             - name: 'Walkthrough: Updating a Chart in a Worksheet Using Radio Buttons'
               href: walkthrough-updating-a-chart-in-a-worksheet-using-radio-buttons.md
             - name: Resize Controls Within Worksheet Cells
@@ -260,16 +254,12 @@
             href: how-to-populate-worksheets-with-data-from-a-database.md
           - name: Populate Documents with Data from a Database
             href: how-to-populate-documents-with-data-from-a-database.md
-          - name: 'Walkthrough: Binding to Data from a Service in a VSTO add-in Project'
-            href: walkthrough-binding-to-data-from-a-service-in-a-vsto-add-in-project.md
           - name: Populate Documents with Data from Objects
             href: how-to-populate-documents-with-data-from-objects.md
           - name: Update a Data Source with Data from a Host Control
             href: how-to-update-a-data-source-with-data-from-a-host-control.md
           - name: 'Walkthrough: Simple Data Binding in VSTO add-in Project'
             href: walkthrough-simple-data-binding-in-vsto-add-in-project.md
-          - name: 'Walkthrough: Complex Data Binding in VSTO add-in Project'
-            href: walkthrough-complex-data-binding-in-vsto-add-in-project.md
         - name: Custom XML Parts Overview
           items:
           - name: Custom XML Parts Overview
@@ -304,8 +294,6 @@
             href: how-to-map-schemas-to-worksheets-inside-visual-studio.md
         - name: Using Local Database Files in Office Solutions Overview
           href: using-local-database-files-in-office-solutions-overview.md
-      - name: How AutoSave Impacts Office Solutions
-        href: how-autosave-impacts-office-solutions.md
       - name: Troubleshooting Office Solutions
         items:
         - name: Troubleshooting Office Solutions
@@ -348,8 +336,6 @@
             href: how-to-programmatically-save-workbooks.md
           - name: Programmatically Protect Workbooks
             href: how-to-programmatically-protect-workbooks.md
-          - name: Programmatically List Recently Used Workbook Files
-            href: how-to-programmatically-list-recently-used-workbook-files.md
         - name: Working with Worksheets
           items:
           - name: Working with Worksheets
@@ -548,10 +534,6 @@
           href: how-to-programmatically-create-new-visio-documents.md
         - name: Programmatically Open Visio Documents
           href: how-to-programmatically-open-visio-documents.md
-        - name: Programmatically Close Visio Documents
-          href: how-to-programmatically-close-visio-documents.md
-        - name: Programmatically Print Visio Documents
-          href: how-to-programmatically-print-visio-documents.md
       - name: Working with Visio Shapes
         items:
         - name: Working with Visio Shapes
@@ -604,8 +586,6 @@
             href: how-to-programmatically-define-and-select-ranges-in-documents.md
           - name: Programmatically Retrieve Start and End Characters in Ranges
             href: how-to-programmatically-retrieve-start-and-end-characters-in-ranges.md
-          - name: Programmatically Exclude Paragraph Marks When Creating Ranges
-            href: how-to-programmatically-exclude-paragraph-marks-when-creating-ranges.md
           - name: Programmatically Extend Ranges in Documents
             href: how-to-programmatically-extend-ranges-in-documents.md
           - name: Programmatically Reset Ranges in Word Documents
@@ -658,8 +638,6 @@
           href: how-to-add-bookmark-controls-to-word-documents.md
         - name: Protect Parts of Documents by Using Content Controls
           href: how-to-protect-parts-of-documents-by-using-content-controls.md
-        - name: Resize Bookmark Controls
-          href: how-to-resize-bookmark-controls.md
         - name: 'Walkthrough: Creating a Template By Using Content Controls'
           href: walkthrough-creating-a-template-by-using-content-controls.md
         - name: 'Walkthrough: Binding Content Controls to Custom XML Parts'

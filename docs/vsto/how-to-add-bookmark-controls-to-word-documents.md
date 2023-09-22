@@ -142,4 +142,3 @@ ms.workload:
 - [Programmatic limitations of host items and host controls](../vsto/programmatic-limitations-of-host-items-and-host-controls.md)
 - [Program VSTO Add-ins](../vsto/programming-vsto-add-ins.md)
 - [Program document-level customizations](../vsto/programming-document-level-customizations.md)
-- [How to: Resize Bookmark controls](../vsto/how-to-resize-bookmark-controls.md)
