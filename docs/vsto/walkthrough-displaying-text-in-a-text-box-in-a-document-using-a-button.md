@@ -110,7 +110,7 @@ ms.workload:
 
 - Using a combo box to change formatting. For more information, see [Walkthrough: Change document formatting using CheckBox controls](../vsto/walkthrough-changing-document-formatting-using-checkbox-controls.md).
 
-- Using radio buttons to select chart styles. For more information, see [Walkthrough: Update a chart in a document using radio buttons](../vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md).
+- Using radio buttons to select chart styles. 
 
 ## See also
 - [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)

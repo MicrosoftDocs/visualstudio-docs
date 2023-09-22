@@ -25,7 +25,7 @@ You can access data in document-level Office projects in the same way that you a
 
 [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]
 
-The following example shows how to add data-bound controls in document-level projects using a designer. For an example of how to add data-bound controls in application-level projects at run time, see [Walkthrough: Complex data binding in VSTO Add-in project](../vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md).
+The following example shows how to add data-bound controls in document-level projects using a designer. 
 
 ## Add a data-bound control to a worksheet at design time
 

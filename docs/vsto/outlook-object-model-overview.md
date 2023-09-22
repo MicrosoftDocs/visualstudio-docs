@@ -112,7 +112,7 @@ ms.workload:
 ### ContactItem object
  The <xref:Microsoft.Office.Interop.Outlook.ContactItem>object represents a contact in the **Contacts** folder. <xref:Microsoft.Office.Interop.Outlook.ContactItem> objects contain a variety of contact information for the people they represent, such as street addresses, e-mail addresses, and phone numbers.
 
- For an example that shows how to create a new contact, see [How to: Programmatically add an entry to Outlook contacts](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md). For an example that shows how to search for an existing contact, see [How to: Programmatically search for a specific contact](../vsto/how-to-programmatically-search-for-a-specific-contact.md).
+ For an example that shows how to create a new contact, see [How to: Programmatically add an entry to Outlook contacts](../vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md). For an example that shows how to search for an existing contact, see [How to: Programmatically search for a specific contact](/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-search-for-a-specific-contact).
 
 ## <a name="refdoc"></a> Use the Outlook object model documentation
  For complete information about the Outlook object model, you can refer to the Outlook primary interop assembly (PIA) reference and the VBA object model reference.
@@ -131,7 +131,7 @@ ms.workload:
 
 |Title|Description|
 |-----------|-----------------|
-|[Work with contact items](../vsto/working-with-contact-items.md)|Provides topics that show how to perform tasks with contacts.|
+|[Work with contact items](/previous-versions/visualstudio/visual-studio-2017/vsto/working-with-contact-items)|Provides topics that show how to perform tasks with contacts.|
 |[Work with mail items](../vsto/working-with-mail-items.md)|Provides topics that show how to perform tasks with mail items.|
 |[Work with folders](../vsto/working-with-folders.md)|Provides topics that show how to perform tasks with folders.|
 |[Work with calendar items](../vsto/working-with-calendar-items.md)|Provides topics that show how to perform tasks with calendar items.|

@@ -87,6 +87,6 @@ ms.workload:
 
 ## See also
 - [Office UI customization](../vsto/office-ui-customization.md)
-- [Walkthrough: Create Shortcut menus for bookmarks](../vsto/walkthrough-creating-shortcut-menus-for-bookmarks.md)
+- [Walkthrough: Create Shortcut menus for bookmarks](/previous-versions/visualstudio/visual-studio-2017/vsto/walkthrough-creating-shortcut-menus-for-bookmarks)
 - [Optional parameters in Office solutions](../vsto/optional-parameters-in-office-solutions.md)
 - [Customize context menus in Office 2010](/previous-versions/office/developer/office-2010/ee691832(v=office.14))
