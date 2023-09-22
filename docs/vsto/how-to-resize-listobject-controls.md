@@ -104,5 +104,4 @@ ms.workload:
 - [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
 - [ListObject control](../vsto/listobject-control.md)
 - [How to: Add ListObject controls to worksheets](../vsto/how-to-add-listobject-controls-to-worksheets.md)
-- [How to: Resize Bookmark controls](../vsto/how-to-resize-bookmark-controls.md)
 - [How to: Resize NamedRange controls](../vsto/how-to-resize-namedrange-controls.md)

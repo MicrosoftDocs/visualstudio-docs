@@ -63,15 +63,9 @@ ms.workload:
 - [Walkthrough: Display text in a text box in a document using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-document-using-a-button.md)
  Demonstrates how to use buttons and text boxes on Word documents.
 
-- [Walkthrough: Update a chart in a document using Radio buttons](../vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md)
- Demonstrates how to change chart styles in a Word document by using option buttons in a document-level customization.
-
 ## Controls on Excel worksheets
 - [Walkthrough: Add controls to a worksheet at run time in VSTO add-in project](../vsto/walkthrough-adding-controls-to-a-worksheet-at-run-time-in-vsto-add-in-project.md)
  Demonstrates how to add controls to a worksheet by using a VSTO Add-in.
-
-- [Walkthrough: Change worksheet formatting using CheckBox controls](../vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md)
- Demonstrates the basics of using check boxes on an Excel worksheet to change formatting.
 
 - [Walkthrough: Display text in a text box in a worksheet using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-worksheet-using-a-button.md)
  Demonstrates the basics of using buttons and text boxes on Excel worksheets.
