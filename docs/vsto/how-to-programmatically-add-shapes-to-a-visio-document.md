@@ -43,4 +43,4 @@ ms.workload:
 - [Visio solutions](../vsto/visio-solutions.md)
 - [Visio object model overview](../vsto/visio-object-model-overview.md)
 - [Work with Visio shapes](../vsto/working-with-visio-shapes.md)
-- [How to: Programmatically copy and paste shapes in a Visio document](../vsto/how-to-programmatically-copy-and-paste-shapes-in-a-visio-document.md)
+- [How to: Programmatically copy and paste shapes in a Visio document](/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-copy-and-paste-shapes-in-a-visio-document.md)

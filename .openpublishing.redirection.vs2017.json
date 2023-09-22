@@ -39717,10 +39717,7 @@
         {
             "source_path": "docs/vsto/associating-a-form-region-with-an-outlook-message-class.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/associating-a-form-region-with-an-outlook-message-class",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/automating-excel-by-using-extended-objects.md",
@@ -39869,10 +39866,7 @@
         {
             "source_path": "docs/vsto/custom-actions-in-outlook-form-regions.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/custom-actions-in-outlook-form-regions",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/custom-document-properties-overview.md",
@@ -40061,10 +40055,7 @@
         {
             "source_path": "docs/vsto/document-protection-in-document-level-solutions.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/document-protection-in-document-level-solutions",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/enable-access-to-vba-to-create-or-open-a-visual-studio-tools-for-office-system-project.md",
@@ -40285,10 +40276,7 @@
         {
             "source_path": "docs/vsto/guidelines-for-creating-outlook-form-regions.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/guidelines-for-creating-outlook-form-regions",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/host-items-and-host-controls-overview.md",
@@ -40666,10 +40654,7 @@
         {
             "source_path": "docs/vsto/how-to-prevent-outlook-from-displaying-a-form-region.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-prevent-outlook-from-displaying-a-form-region",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/how-to-programmatically-access-outlook-contacts.md",
@@ -40770,10 +40755,7 @@
         {
             "source_path": "docs/vsto/how-to-programmatically-associate-a-web-page-with-an-outlook-folder.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-associate-a-web-page-with-an-outlook-folder",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/how-to-programmatically-attach-files-to-outlook-e-mail-items.md",
@@ -40855,10 +40837,7 @@
         {
             "source_path": "docs/vsto/how-to-programmatically-copy-and-paste-shapes-in-a-visio-document.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-copy-and-paste-shapes-in-a-visio-document",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/how-to-programmatically-copy-data-and-formatting-across-worksheets.md",
@@ -40975,10 +40954,7 @@
         {
             "source_path": "docs/vsto/how-to-programmatically-delete-outlook-contacts.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-delete-outlook-contacts",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/how-to-programmatically-delete-worksheets-from-workbooks.md",
@@ -41254,10 +41230,7 @@
         {
             "source_path": "docs/vsto/how-to-programmatically-retrieve-start-and-end-characters-in-ranges.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-retrieve-start-and-end-characters-in-ranges",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/how-to-programmatically-retrieve-unread-messages-from-the-inbox.md",
@@ -41310,18 +41283,12 @@
         {
             "source_path": "docs/vsto/how-to-programmatically-search-for-a-specific-contact.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-search-for-a-specific-contact",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/how-to-programmatically-search-for-an-e-mail-address-in-contacts.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-search-for-an-e-mail-address-in-contacts",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/how-to-programmatically-search-for-and-replace-text-in-documents.md",
@@ -42354,10 +42321,7 @@
         {
             "source_path": "docs/vsto/walkthrough-creating-shortcut-menus-for-bookmarks.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/walkthrough-creating-shortcut-menus-for-bookmarks",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/walkthrough-creating-your-first-document-level-customization-for-excel.md",
@@ -42450,10 +42414,7 @@
         {
             "source_path": "docs/vsto/walkthrough-importing-a-form-region-that-is-designed-in-outlook.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/walkthrough-importing-a-form-region-that-is-designed-in-outlook",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/walkthrough-inserting-data-into-a-workbook-on-a-server.md",
@@ -42591,10 +42552,7 @@
         {
             "source_path": "docs/vsto/working-with-contact-items.md",
             "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/working-with-contact-items",
-            "redirect_document_id": false,
-            "monikers": [
-                "vs-2017"
-            ]
+            "redirect_document_id": false
         },
         {
             "source_path": "docs/vsto/working-with-documents.md",

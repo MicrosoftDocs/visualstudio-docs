@@ -84,7 +84,7 @@ ms.workload:
      ---
 
 ## See also
-- [Document protection in document-level solutions](../vsto/document-protection-in-document-level-solutions.md)
+- [Document protection in document-level solutions](/previous-versions/visualstudio/visual-studio-2017/vsto/document-protection-in-document-level-solutions.md)
 - [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)
 - [How to: Permit code to run behind documents with restricted permissions](../vsto/how-to-permit-code-to-run-behind-documents-with-restricted-permissions.md)
 - [How to: Add Bookmark controls to Word documents](../vsto/how-to-add-bookmark-controls-to-word-documents.md)

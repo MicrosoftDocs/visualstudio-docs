@@ -25,7 +25,7 @@ ms.workload:
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
 
 ## Document protection
- Microsoft Office Word and Microsoft Office Excel offer document protection features that you can use in your projects. However, if document protection is enabled while the document is open in Visual Studio, it can prevent you from making some design changes. For more information, see [Document protection in document-level solutions](../vsto/document-protection-in-document-level-solutions.md).
+ Microsoft Office Word and Microsoft Office Excel offer document protection features that you can use in your projects. However, if document protection is enabled while the document is open in Visual Studio, it can prevent you from making some design changes. For more information, see [Document protection in document-level solutions](/previous-versions/visualstudio/visual-studio-2017/vsto/document-protection-in-document-level-solutions.md).
 
 ## Information rights management
  Information Rights Management (IRM) is available in Microsoft Office Word and Microsoft Office Excel. IRM can help you prevent unauthorized people from viewing or altering sensitive information. However, IRM can also prevent your code from running. For more information, see [Information rights management and managed code extensions overview](../vsto/information-rights-management-and-managed-code-extensions-overview.md).
@@ -34,7 +34,7 @@ ms.workload:
  Microsoft Office Word documents and Microsoft Office Excel workbooks can be set so that they cannot be opened by someone who does not know the password. Password protection is handled differently in Word and Excel, and can affect your development process. For more information, see [Password protection on Office documents](../vsto/password-protection-on-office-documents.md).
 
 ## See also
-- [Document protection in document-level solutions](../vsto/document-protection-in-document-level-solutions.md)
+- [Document protection in document-level solutions](/previous-versions/visualstudio/visual-studio-2017/vsto/document-protection-in-document-level-solutions.md)
 - [Information rights management and managed code extensions overview](../vsto/information-rights-management-and-managed-code-extensions-overview.md)
 - [Password protection on Office documents](../vsto/password-protection-on-office-documents.md)
 - [How to: Open Office solutions without running code](../vsto/how-to-open-office-solutions-without-running-code.md)

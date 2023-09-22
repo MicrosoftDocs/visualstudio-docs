@@ -24,7 +24,7 @@ ms.workload:
 |Task|Procedure|
 |----------|---------------|
 |Add shapes from a stencil to a Visio document.|[How to: Programmatically add shapes to a Visio document](../vsto/how-to-programmatically-add-shapes-to-a-visio-document.md)|
-|Copy shapes from one Visio page and paste them in another page.|[How to: Programmatically copy and paste shapes in a Visio document](../vsto/how-to-programmatically-copy-and-paste-shapes-in-a-visio-document.md)|
+|Copy shapes from one Visio page and paste them in another page.|[How to: Programmatically copy and paste shapes in a Visio document](/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-copy-and-paste-shapes-in-a-visio-document.md)|
 
 ## See also
 - [Visio solutions](../vsto/visio-solutions.md)

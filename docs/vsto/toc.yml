@@ -84,8 +84,6 @@
         items:
         - name: Using Office Functionality Inside of Visual Studio
           href: using-office-functionality-inside-of-visual-studio.md
-        - name: Document Protection in Document-Level Solutions
-          href: document-protection-in-document-level-solutions.md
         - name: Information Rights Management and Managed Code Extensions Overview
           href: information-rights-management-and-managed-code-extensions-overview.md
         - name: Permit Code to Run Behind Documents with Restricted Permissions
@@ -438,18 +436,8 @@
         items:
         - name: Outlook Object Model Overview
           href: outlook-object-model-overview.md
-        - name: Working with Contact Items
-          items:
-          - name: Working with Contact Items
-            href: working-with-contact-items.md
-          - name: Programmatically Access Outlook Contacts
-            href: how-to-programmatically-access-outlook-contacts.md
-          - name: Programmatically Search for a Specific Contact
-            href: how-to-programmatically-search-for-a-specific-contact.md
-          - name: Programmatically Search for an E-Mail Address in Contacts
-            href: how-to-programmatically-search-for-an-e-mail-address-in-contacts.md
-          - name: Programmatically Delete Outlook Contacts
-            href: how-to-programmatically-delete-outlook-contacts.md
+        - name: Programmatically Access Outlook Contacts
+          href: how-to-programmatically-access-outlook-contacts.md
         - name: Working with Mail Items
           items:
           - name: Programmatically Create an E-Mail Item
@@ -472,8 +460,6 @@
             href: how-to-programmatically-search-within-a-specific-folder.md
           - name: Programmatically Retrieve a Folder by Name
             href: how-to-programmatically-retrieve-a-folder-by-name.md
-          - name: Programmatically Associate a Web Page with an Outlook Folder
-            href: how-to-programmatically-associate-a-web-page-with-an-outlook-folder.md
           - name: Programmatically Create Custom Folder Items
             href: how-to-programmatically-create-custom-folder-items.md
           - name: Programmatically Move Items in Outlook
@@ -494,18 +480,8 @@
         items:
         - name: Creating Outlook Form Regions
           href: creating-outlook-form-regions.md
-        - name: Guidelines for Creating Outlook Form Regions
-          href: guidelines-for-creating-outlook-form-regions.md
-        - name: Associating a Form Region with an Outlook Message Class
-          href: associating-a-form-region-with-an-outlook-message-class.md
         - name: 'Walkthrough: Designing an Outlook Form Region'
           href: walkthrough-designing-an-outlook-form-region.md
-        - name: 'Walkthrough: Importing a Form Region That Is Designed in Outlook'
-          href: walkthrough-importing-a-form-region-that-is-designed-in-outlook.md
-        - name: Prevent Outlook from Displaying a Form Region
-          href: how-to-prevent-outlook-from-displaying-a-form-region.md
-        - name: Custom Actions in Outlook Form Regions
-          href: custom-actions-in-outlook-form-regions.md
       - name: 'Walkthrough: Creating Your First VSTO Add-In for Outlook'
         href: walkthrough-creating-your-first-vsto-add-in-for-outlook.md
     - name: PowerPoint Solutions
@@ -540,8 +516,6 @@
           href: working-with-visio-shapes.md
         - name: Programmatically Add Shapes to a Visio Document
           href: how-to-programmatically-add-shapes-to-a-visio-document.md
-        - name: Programmatically Copy and Paste Shapes in a Visio Document
-          href: how-to-programmatically-copy-and-paste-shapes-in-a-visio-document.md
     - name: Word Solutions
       items:
       - name: Word Solutions
@@ -584,8 +558,6 @@
             href: working-with-text-in-documents.md
           - name: Programmatically Define and Select Ranges in Documents
             href: how-to-programmatically-define-and-select-ranges-in-documents.md
-          - name: Programmatically Retrieve Start and End Characters in Ranges
-            href: how-to-programmatically-retrieve-start-and-end-characters-in-ranges.md
           - name: Programmatically Extend Ranges in Documents
             href: how-to-programmatically-extend-ranges-in-documents.md
           - name: Programmatically Reset Ranges in Word Documents
@@ -642,8 +614,6 @@
           href: walkthrough-creating-a-template-by-using-content-controls.md
         - name: 'Walkthrough: Binding Content Controls to Custom XML Parts'
           href: walkthrough-binding-content-controls-to-custom-xml-parts.md
-        - name: 'Walkthrough: Creating Shortcut Menus for Bookmarks'
-          href: walkthrough-creating-shortcut-menus-for-bookmarks.md
       - name: 'Walkthrough: Creating Your First Document-Level Customization For Word'
         href: walkthrough-creating-your-first-document-level-customization-for-word.md
       - name: 'Walkthrough: Creating Your First VSTO Add-in for Word'

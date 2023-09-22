@@ -28,14 +28,14 @@ ms.workload:
 |----------|---------------|
 |Search for strings in the subject field of messages in the **Inbox**.|[How to: Programmatically search within a specific folder](../vsto/how-to-programmatically-search-within-a-specific-folder.md)|
 |Get a reference to a folder and display the contents.|[How to: Programmatically retrieve a folder by name](../vsto/how-to-programmatically-retrieve-a-folder-by-name.md)|
-|Create a folder that displays a Web page in the Preview pane.|[How to: Programmatically associate a web page with an Outlook folder](../vsto/how-to-programmatically-associate-a-web-page-with-an-outlook-folder.md)|
+|Create a folder that displays a Web page in the Preview pane.|[How to: Programmatically associate a web page with an Outlook folder](/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-associate-a-web-page-with-an-outlook-folder.md)|
 |Create a folder that has the current user ID for a name.|[How to: Programmatically create custom folder items](../vsto/how-to-programmatically-create-custom-folder-items.md)|
 |Move messages that match certain criteria to a specified folder.|[How to: Programmatically move items in Outlook](../vsto/how-to-programmatically-move-items-in-outlook.md)|
 
  For more information about Outlook tasks and the Outlook object model, see [Outlook object model overview](../vsto/outlook-object-model-overview.md).
 
 ## See also
-- [Work with contact items](../vsto/working-with-contact-items.md)
+- [Work with contact items](/previous-versions/visualstudio/visual-studio-2017/vsto/working-with-contact-items.md)
 - [Work with mail items](../vsto/working-with-mail-items.md)
 - [Work with calendar items](../vsto/working-with-calendar-items.md)
 - [Outlook solutions](../vsto/outlook-solutions.md)
