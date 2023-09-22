@@ -50,7 +50,7 @@ In C#, the completion list includes extension methods that are in scope.
 > [!NOTE]
 > The completion list does not display all extension methods for <xref:System.String> objects.
 
-Extension methods use a different icon than instance methods. For a list icon reference guide, see [Class View and Object Browser icons](../ide/class-view-and-object-browser-icons.md). When an instance method and extension method with the same name are both in scope, the completion list displays the extension method icon.
+Extension methods use a different icon than instance methods. When an instance method and extension method with the same name are both in scope, the completion list displays the extension method icon.
 
 ### Filtered completion lists
 

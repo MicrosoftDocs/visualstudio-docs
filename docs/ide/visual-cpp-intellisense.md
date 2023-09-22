@@ -31,8 +31,6 @@ You can use the menu items and keyboard shortcuts shown in the following image t
 
 When you start typing a keyword, type, function, variable name, or other program element that the compiler recognizes, the editor offers to complete the word for you.
 
-For a list of the icons and their meanings, see [Class View and Object Browser icons](../ide/class-view-and-object-browser-icons.md).
-
 ![Visual C&#43;&#43; Complete Word window](../ide/media/vs2015_cpp_complete_word.png)
 
 The first time that you invoke member list, it only shows members that are accessible for the current context. If you press **Ctrl**+**J** after that, it shows all members regardless of accessibility. If you invoke it a third time, an even wider list of program elements is shown. You can turn off member list in the **Options** dialog box, under **Text Editor** > **C/C++** > **General** > **Auto list members**.
