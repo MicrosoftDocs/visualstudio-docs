@@ -3,8 +3,8 @@ title: Customize the IDE
 description: Learn how to personalize the Visual Studio IDE in ways that best support your own development style and requirements.
 ms.date: 08/24/2022
 ms.topic: conceptual
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

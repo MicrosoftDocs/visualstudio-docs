@@ -8,8 +8,8 @@ helpviewer_keywords:
 f1_keywords:
 - vs.csharp.refactoring.preview
 ms.devlang: CSharp
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
