@@ -4,8 +4,8 @@ description: Learn about the various Shader Designer nodes that you can use to c
 ms.date: 06/30/2023
 ms.topic: overview
 ms.assetid: f5192fbd-c78f-40a8-a4d4-443209610268
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-designers
 ms.workload:
