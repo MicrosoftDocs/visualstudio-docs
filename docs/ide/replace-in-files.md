@@ -10,8 +10,8 @@ helpviewer_keywords:
 - text searches, replacing text
 - find and replace
 - replace in files
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
