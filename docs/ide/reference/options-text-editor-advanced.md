@@ -10,8 +10,8 @@ helpviewer_keywords:
 - Code Editor
 - Text Editor [Visual Studio]
 - editors, global settings
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
