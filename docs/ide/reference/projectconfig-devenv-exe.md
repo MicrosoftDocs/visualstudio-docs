@@ -16,8 +16,8 @@ helpviewer_keywords:
 - projects [Visual Studio], build configuration
 - projects [Visual Studio], cleaning
 ms.assetid: 6b54ef59-ffed-4f62-a645-1279ede97ebf
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
