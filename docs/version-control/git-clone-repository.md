@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Clone a repo in Visual Studio by using Git or Azure DevOps.
 ms.date: 02/28/2023
 ms.topic: how-to
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
