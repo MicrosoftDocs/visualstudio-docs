@@ -4,8 +4,8 @@ description: Use the Sticky Scroll feature in Visual Studio to quickly view code
 ms.date: 05/18/2023
 ms.topic: overview 
 ms.custom: template-overview
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 ms.manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

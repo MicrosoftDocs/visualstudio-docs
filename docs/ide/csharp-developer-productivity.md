@@ -1,8 +1,8 @@
 ---
 title: Productivity tips for .NET developers
 description: An overview of navigation, code analysis, unit testing, and other features to help you write better .NET code faster.
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 ms.date: 08/08/2023
