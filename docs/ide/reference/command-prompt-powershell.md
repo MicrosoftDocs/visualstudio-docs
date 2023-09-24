@@ -1,8 +1,8 @@
 ---
 title: 'Command-line shells & prompt for developers'
 description:  Start from the Tools > Command Line menu. Select the Visual Studio Developer Command Prompt, Developer PowerShell, or terminal to use .NET and C++ tools more easily.
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 ms.date: 08/11/2023
 ms.topic: conceptual
 ms.custom: contperf-fy21q4

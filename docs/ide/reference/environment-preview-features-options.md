@@ -7,8 +7,8 @@ f1_keywords:
 - VS.ToolsOptionsPages.Environment.PreviewFeatures
 helpviewer_keywords:
 - Preview Features Options dialog box
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
