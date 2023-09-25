@@ -4,8 +4,8 @@ description: Learn about the AI-assisted development tools in Visual Studio, suc
 ms.date: 09/25/2023
 ms.topic: overview 
 ms.custom: template-overview
-author: meghaanand
-ms.author: anandmeg
+author: anandmeg
+ms.author: meghaanand
 ms.manager: jmartens
 ms.technology: vs-ai-tools
 ms.workload:
@@ -44,27 +44,27 @@ GitHub Copilot is an AI pair programmer available as two extensions in the Visua
 
 - **[GitHub Copilot extension in Visual Studio](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)**, adds enhanced AI-assistance to the development process by generating whole lines or blocks of code based on the context provided by the developer. It leverages AI models trained on billions of lines of open-source code to provide autocomplete-style code suggestions as you code, in real-time, right in the editor. You can get suggestions from GitHub Copilot in the IDE either by starting to write the code you want to use, or by writing a function signature or a natural language comment in your code file describing what you want the code to do. It helps you write code faster and with less work. 
 
-  Get started with the [GitHub Copilot in Visual Studio](visual-studio-github-copilot-extension). Note that it requires Visual Studio 2022 17.5.5 or later. 
-
   :::image type="content" source="media/vs-2022/github-copilot-completions-visual-studio.gif" alt-text="Animated screenshot that shows the code completion capabilities of the GitHub Copilot extension.":::
+
+  Get started with the [GitHub Copilot in Visual Studio](visual-studio-github-copilot-extension.md). Note that it requires Visual Studio 2022 17.5.5 or later. 
 
 - **[GitHub Copilot’s Chat extension in Visual Studio]()** is a fully integrated AI-powered chat experience from GitHub Copilot right within the Visual Studio IDE. It enables developers to interact with GitHub Copilot using a chat interface within the IDE. By asking coding-related questions in natural language, developers can receive context-specific code suggestions, get an in-depth analysis and explanation of how a code block works, generate unit test, find issues and get proposed fixes. It enables you to get coding information and support without leaving the IDE, helping you make informed decisions and write better code.  
   
-  All [GitHub Copilot for Individuals](https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) users now have access to GitHub Copilot Chat beta.
- [GitHub Copilot for Business](https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot-for-business) users can [sign up for the waitlist](https://aka.ms/GHCopilotXPPSignup) for access to GitHub Copilot Chat.
-  
   :::image type="content" source="media/vs-2022/copilot-chat-visual-studioo.gif" alt-text="Animated screenshot that shows the capabilities of the GitHub Copilot Chat extension.":::
+
+  All [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) users have access to GitHub Copilot Chat. [Learn more](https://github.blog/2023-09-20-github-copilot-chat-beta-now-available-for-all-individuals/#how-developers-can-access-github-copilot-chat-beta).
+  All [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business) have access to a limited GitHub Copilot Chat beta. [Learn more](https://github.blog/2023-07-20-github-copilot-chat-beta-now-available-for-every-organization/).
 
 ## AI capabilities side-by-side
 
 The following table compares the capabilities of GitHub Copilot (and GitHub Copilot Chat) and IntelliCode.
 
-| **AI-assistance feature** | **[GitHub Copilot](visual-studio-github-copilot-extension.md)** | **[IntelliCode](/visualstudio/intellicode/intellicode-visual-studio)** |
+| **AI-assistance feature** | **GitHub Copilot** | **IntelliCode** |
 |---------------------------|--------------------|-----------------|
 | Extension | Downloadable extensions: <br/>- GitHub Copilot completions ([get started](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)) <br/>- GitHub Copilot Chat ([get started](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.VSGitHubCopilot)) | Built-in by default in most [workloads](../install/modify-visual-studio.md#change-workloads-or-individual-components) & available through the Visual Studio Installer |
 | [Subscription-based](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) | Yes | No |                                                                                        |
 | User interface   | Inline <br/>Chat window | Inline |
-| Context-aware AI-assisted [IntelliSense](https://learn.microsoft.com/en-us/visualstudio/ide/using-intellisense?view=vs-2022) | Yes | Yes |
+| Context-aware AI-assisted [IntelliSense](using-intellisense.md) | Yes | Yes |
 | Whole-line completions in gray text | Yes | Yes |
 | Whole function & multi-line completions in gray text | Yes | No |
 | Whole-line completions in gray text | Yes | Yes |
