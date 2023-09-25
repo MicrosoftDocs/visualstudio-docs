@@ -62,7 +62,7 @@ The following table compares the capabilities of GitHub Copilot (and GitHub Copi
 | **AI-assistance feature** | **GitHub Copilot** | **IntelliCode** |
 |---------------------------|--------------------|-----------------|
 | Extension | Downloadable extensions: <br/>- GitHub Copilot completions ([get started](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)) <br/>- GitHub Copilot Chat ([get started](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.VSGitHubCopilot)) | Built-in by default in most [workloads](../install/modify-visual-studio.md#change-workloads-or-individual-components) & available through the Visual Studio Installer |
-| [Subscription-based](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) | Yes | No |                                                                                        |
+| [Subscription-based](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) | Yes | No |
 | User interface   | Inline <br/>Chat window | Inline |
 | Context-aware AI-assisted [IntelliSense](using-intellisense.md) | Yes | Yes |
 | Whole-line completions in gray text | Yes | Yes |
