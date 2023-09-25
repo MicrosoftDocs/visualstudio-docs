@@ -146,6 +146,8 @@
   expanded: true
 - name: AI-assisted development 
   items:
+  - name: AI-assisted development in Visual Studio
+    href: ide/ai-assisted-development-visual-studio.md
   - name: GitHub Copilot
     href: ide/visual-studio-github-copilot-extension.md
   - name: Debug with Copilot
