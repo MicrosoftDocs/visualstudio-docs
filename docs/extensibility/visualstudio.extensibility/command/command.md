@@ -104,7 +104,7 @@ Commands support adding icons to their menu item, either in addition to or inste
 
 ### CommandIconConfiguration
 
-The [`CommandIconConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration) has two parameters:
+The [`CommandIconConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandiconconfiguration) has two parameters:
 
 | Parameter | Type | Required | Description |
 | --------- |----- | -------- | ----------- |
