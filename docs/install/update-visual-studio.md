@@ -235,7 +235,7 @@ By choosing the correct value in the **Update channel** dropdown, you can contro
 
 ## Programmatically update Visual Studio
 
-You can use either the bootstrapper or the installer to programmatically update Visual Studio. For more information, see the [online command line documenation](/visualstudio/install/use-command-line-parameters-to-install-visual-studio).
+You can use either the bootstrapper or the installer to programmatically update Visual Studio. For more information, see the [online command line documentation](/visualstudio/install/use-command-line-parameters-to-install-visual-studio).
 
 ## Administrator updates
 
