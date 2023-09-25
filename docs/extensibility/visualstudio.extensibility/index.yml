@@ -74,7 +74,7 @@ landingContent:
       - linkListType: reference
         links:
           - text: API reference
-            url: https://github.com/microsoft/VSExtensibility/blob/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md
+            url: https://learn.microsoft.com/dotnet/api/microsoft.visualstudio.extensibility?view=vs-extensibility
 
   # Card
   - title: Discover what's new

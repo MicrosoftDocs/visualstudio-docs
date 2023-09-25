@@ -29,7 +29,7 @@ This overview covers these top scenarios for working with commands:
 
 ## Create a command
 
-Creating a command with the new Extensibility Model begins with extending the base class [`Microsoft.VisualStudio.Extensibility.Commands.Command`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.md/#command-type), adorning the class with the `VisualStudioContribution` attribute, and implementing the `CommandConfiguration` property.
+Creating a command with the new Extensibility Model begins with extending the base class [`Microsoft.VisualStudio.Extensibility.Commands.Command`](/dotnet/api/microsoft.visualstudio.extensibility.commands.command), adorning the class with the `VisualStudioContribution` attribute, and implementing the `CommandConfiguration` property.
 
 ```csharp
 [VisualStudioContribution]
@@ -42,7 +42,7 @@ public class MyCommand : Command
 
 ### CommandConfiguration class
 
-The [`CommandConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#commandconfiguration-type) class has a few parameters that you should become familiar with:
+The [`CommandConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration) class has a few parameters that you should become familiar with:
 
 | Parameter | Type | Required | Description |
 | --------- |----- | -------- | ----------- |
@@ -100,15 +100,15 @@ public override CommandConfiguration CommandConfiguration => new("%MyCommand.Dis
 
 ## Add an icon to a command
 
-Commands support adding icons to their menu item, either in addition to or instead of the display name of the command. To add an icon to your command, set the `Icon` property on your command's [`Microsoft.VisualStudio.Extensibility.Commands.CommandConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#CommandConfiguration-type).
+Commands support adding icons to their menu item, either in addition to or instead of the display name of the command. To add an icon to your command, set the `Icon` property on your command's [`Microsoft.VisualStudio.Extensibility.Commands.CommandConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration).
 
 ### CommandIconConfiguration
 
-The [`CommandIconConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#CommandIconConfiguration-type) has two parameters:
+The [`CommandIconConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration) has two parameters:
 
 | Parameter | Type | Required | Description |
 | --------- |----- | -------- | ----------- |
-| IconName | ImageMoniker | Yes | You can either use a custom moniker for an image that you added following the [Adding custom images](#use-a-custom-image-for-the-command-icon) section or reference a Visual Studio [ImageMoniker](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#ImageMoniker-type) like `ImageMonikers.KnownValues.AddItem` |
+| IconName | ImageMoniker | Yes | You can either use a custom moniker for an image that you added following the [Adding custom images](#use-a-custom-image-for-the-command-icon) section or reference a Visual Studio [ImageMoniker](/dotnet/api/microsoft.visualstudio.extensibility.imagemoniker) like `ImageMonikers.KnownValues.AddItem` |
 | IconSettings | IconSettings | Yes | Configures how the command will be displayed. For example `IconSettings.IconAndText` displays the icon alongside the command's display name, whereas `IconSettings.IconOnly` will only show the command's icon and not its DisplayName if parented to a toolbar. |
 
 ### ImageMoniker.KnownValues example
@@ -168,7 +168,7 @@ You can configure visibility and the enabled/disabled state of a command, and se
 
 ### Visibility
 
-The visibility of a command can be controlled by setting the `VisibleWhen` property on your command's [`Microsoft.VisualStudio.Extensibility.Commands.CommandConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#CommandConfiguration-type).
+The visibility of a command can be controlled by setting the `VisibleWhen` property on your command's [`Microsoft.VisualStudio.Extensibility.Commands.CommandConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration).
 
 The attribute supports specifying a condition through a number of individual parameters that together specify the condition and all its logic and inputs. To specify the condition, you specify an expression in one parameter, define a set of terms (strings) used in the expression in another parameter, and what values those terms should be replaced with upon evaluation in a third parameter. The combination of the expression, terms, and values is called a *rule-based activation constraint* and is fully described at [Rule-based activation constraints](../inside-the-sdk/activation-constraints.md#rule-based-activation-constraints).
 
@@ -185,7 +185,7 @@ public override CommandConfiguration CommandConfiguration => new("My command")
 
 ### Enabled/disabled state
 
-The enabled/disabled state of a command can be controlled by setting the `EnabledWhen` property on your command's [`Microsoft.VisualStudio.Extensibility.Commands.CommandConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#CommandConfiguration-type).
+The enabled/disabled state of a command can be controlled by setting the `EnabledWhen` property on your command's [`Microsoft.VisualStudio.Extensibility.Commands.CommandConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration).
 
 This type of configuration is called a *rule-based activation constraint* and is fully described at [Using rule based activation constraints](../inside-the-sdk/activation-constraints.md#rule-based-activation-constraints).
 
@@ -211,7 +211,7 @@ Command flags help define additional properties on your commands that are used a
 
 ## Change the display name of a command
 
-While the display name for a command is initially set in the [`CommandConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#CommandConfiguration-type) (see [Creating a Command](#create-a-command)), it can be changed at runtime by setting the `DisplayName` property in your command. The `ToolTipText` property can be updated in a similar way.
+While the display name for a command is initially set in the [`CommandConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandconfiguration) (see [Creating a Command](#create-a-command)), it can be changed at runtime by setting the `DisplayName` property in your command. The `ToolTipText` property can be updated in a similar way.
 
 ### Change DisplayName example
 
