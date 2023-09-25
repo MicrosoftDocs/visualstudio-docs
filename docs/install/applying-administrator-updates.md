@@ -2,7 +2,7 @@
 title: Applying administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager
 titleSuffix: ''
 description: Learn how to apply administrator updates to Visual Studio.
-ms.date: 6/6/2023
+ms.date: 9/25/2023
 ms.topic: overview
 ms.assetid: 9a3fdb28-db3d-4970-bc17-7417a985f0fb
 author: anandmeg
@@ -132,17 +132,8 @@ Administrator updates may return the following return codes: 
 
 For an exhaustive list of client error codes, see [Use command-line parameters to install Visual Studio](./use-command-line-parameters-to-install-visual-studio.md#error-codes).
 
-## Feedback and support
-
-[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
-
-You can use the following methods to provide feedback about Visual Studio administrator updates or report issues that affect the updates:
-
-* Refer to the [Troubleshooting Visual Studio installation and upgrade issues](../install/troubleshooting-installation-issues.md) guidance.
-* Ask questions to the community at the [Visual Studio Setup Q&A Forum](/answers/topics/vs-setup.html).
-* Go to the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/), and check whether your issue is listed in the FAQ.  You can also select the [Support Link](https://visualstudio.microsoft.com/vs/support/#talktous) button for chat help.
-* [Provide feature feedback or report a problem](https://aka.ms/vs/wsus/feedback) to the Visual Studio team regarding this experience of applying administrator updates.
-* Contact your organization’s technical account manager for Microsoft.
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)
+[!INCLUDE[install_get_support_md](includes/install_get_support_admin_updates_md.md)
 
 ## See also
 
