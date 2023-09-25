@@ -34,6 +34,7 @@ Get started by right-clicking on the project node, and choosing **Add > Connecte
 Supported project types vary by the type of service. You'll see the options that apply to your project type in the listed selections.
 
 <a name="azure"/>
+
 ## Connect your app to Azure services
 
 Use Connected Services to connect your application to live Azure services emulators and other local alternatives to Azure services. Visual Studio currently supports the following:
