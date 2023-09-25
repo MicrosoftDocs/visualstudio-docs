@@ -72,15 +72,8 @@ Error codes for Visual Studio Administrator updates are defined on the [Applying
 
 The [Visual Studio Client Detector Utility](https://support.microsoft.com/help/5001148) must be installed on the client machines in order for the Visual Studio administrator updates to be properly recognized and received. This utility is used to determine where the Visual Studio instances are located on disk. This utility was included and installed with all Visual Studio product updates that were released on or after May 12, 2020.  It's included as a pre-requisite with all the Visual Studio administrator updates, and it's also available on the [Microsoft Update Catalog](https://catalog.update.microsoft.com) to deploy and install independently.
 
-[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
-
-You can use the following methods to provide feedback about Visual Studio administrator updates or report issues that affect the updates:
-
-* Refer to the [Troubleshooting Visual Studio installation and upgrade issues](../install/troubleshooting-installation-issues.md) guidance.
-* Ask questions to the community at the [Visual Studio Setup Q&A Forum](/answers/topics/vs-setup.html).
-* Go to the [Visual Studio support page](https://visualstudio.microsoft.com/vs/support/), and check whether your issue is listed in the FAQ.  You can also select the [Support Link](https://visualstudio.microsoft.com/vs/support/#talktous) button for chat help.
-* [Provide feature feedback or report a problem](https://aka.ms/vs/wsus/feedback) to the Visual Studio team regarding this experience of enabling administrator updates.
-* Contact your organization’s technical account manager for Microsoft.
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)
+[!INCLUDE[install_get_support_md](includes/install_get_support_admin_updates_md.md)
 
 ## See also
 
