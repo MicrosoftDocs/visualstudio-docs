@@ -117,7 +117,7 @@ After you create a custom editor, you can add more features to it.
 
 13. Expose an Automation Object Model from your editor by implementing the `IDispatch` interface.
 
-     For more information, see [Contributing to the Automation Model](../extensibility/internals/contributing-to-the-automation-model.md).
+     For more information, see [Automation model overview](../extensibility/internals/automation-model-overview.md).
 
 ## Robust programming
 
@@ -152,4 +152,4 @@ After you create a custom editor, you can add more features to it.
 
 ## See also
 
-- [Contribute to the automation model](../extensibility/internals/contributing-to-the-automation-model.md)
+- [Automation model overview](../extensibility/internals/automation-model-overview.md)

@@ -37,20 +37,6 @@
       href: whats-new-visual-studio-2019-sdk.md
     - name: Synchronously autoloaded extensions
       href: synchronously-autoloaded-extensions.md
-  - name: What's New Visual Studio 2017 SDK
-    items:
-    - name: What's New Visual Studio 2017 SDK
-      href: what-s-new-in-the-visual-studio-2017-sdk.md
-    - name: Breaking Changes in Extensibility
-      href: breaking-changes-2017.md
-    - name: Ngen support in VSIX v3
-      href: ngen-support.md
-    - name: Install outside the extensions folder
-      href: set-install-root.md
-    - name: Migrate debugger COM registration
-      href: migrate-debugger-com-registration.md
-    - name: Frequently Asked Questions
-      href: faq-2017.yml
   - name: Roundtrip Extensions for Visual Studio
     href: how-to-roundtrip-VSIXs.md
   - name: Language Server Protocol
@@ -247,8 +233,6 @@
       href: managing-universal-windows-projects.md
   - name: Extend Solutions
     items:
-    - name: Extend Solutions
-      href: extending-solutions.md
     - name: Extend the Solution Explorer Filter
       href: extending-the-solution-explorer-filter.md
     - name: Managing Project Loading in a Solution
@@ -385,16 +369,12 @@
       href: writing-to-the-user-settings-store.md
   - name: Extend Properties and the Property Window
     items:
-    - name: Extend Properties and the Property Window
-      href: extending-properties-and-the-property-window.md
     - name: Exposing Properties to the Properties Window
       href: exposing-properties-to-the-properties-window.md
     - name: Getting Project Properties
       href: getting-project-properties.md
   - name: Extend Other Parts of Visual Studio
     items:
-    - name: Extend Other Parts of Visual Studio
-      href: extending-other-parts-of-visual-studio.md
     - name: Creating an Extension with a VSPackage
       href: creating-an-extension-with-a-vspackage.md
     - name: Creating a WPF Toolbox Control
@@ -822,8 +802,6 @@
         href: how-to-turn-off-compatibility-warnings-for-source-control-plug-ins.md
     - name: Command-Line Switches (Visual Studio SDK)
       items:
-      - name: Command-Line Switches (Visual Studio SDK)
-        href: command-line-switches-visual-studio-sdk.md
       - name: Devenv Command-Line Switches for VSPackage Development
         href: devenv-command-line-switches-for-vspackage-development.md
       - name: Adding Command-Line Switches
@@ -832,8 +810,6 @@
       href: error-handling-and-return-values.md
     - name: Objects
       items:
-      - name: Objects
-        href: objects.md
       - name: VSCodeWindow Object
         href: vscodewindow-object.md
       - name: VSCodeWindowManager Object

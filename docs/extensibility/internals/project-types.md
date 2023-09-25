@@ -48,20 +48,17 @@ ms.workload:
 
  Provides information about how to add support for source-control systems to your project types.
 
-- [Nesting Projects](../../extensibility/internals/nesting-projects.md)
-
- Explains how your project types can support *nesting*, so that projects can be grouped together in **Solution Explorer**.
-
 - [Upgrading Projects](../../extensibility/internals/upgrading-projects.md)
 
  Describes how your project type can participate in the Upgrade Wizard to upgrade project files from an earlier version of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
 
-- [Architecture](../../extensibility/internals/project-types-architecture.md)
+- [Elements of a project model](../../extensibility/internals/elements-of-a-project-model.md)
 
  Provides detailed technical information about project types.
 
 ## Related Sections
-- [Hierarchies and Selection](../../extensibility/internals/hierarchies-and-selection.md)
+
+- [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)
 
  Provides an overview of how the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) displays a project as a hierarchy.
 

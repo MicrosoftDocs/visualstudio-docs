@@ -1,6 +1,301 @@
 {
   "redirections": [
     {
+      "source_path": "docs/extensibility/what-s-new-in-the-visual-studio-2017-sdk.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/what-s-new-in-the-visual-studio-2017-sdk",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/breaking-changes-2017.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/breaking-changes-2017",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/ngen-support.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/ngen-support",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/set-install-root.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/set-install-root",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/migrate-debugger-com-registration.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/migrate-debugger-com-registration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/faq-2017.yml",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/faq-2017",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/objects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/objects",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/command-line-switches-visual-studio-sdk.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/command-line-switches-visual-studio-sdk",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/extending-solutions.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/extending-solutions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/extending-properties-and-the-property-window.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/extending-properties-and-the-property-window",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/extending-other-parts-of-visual-studio.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/extending-other-parts-of-visual-studio",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/filtering-the-additem-dialog-box-for-nested-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/filtering-the-additem-dialog-box-for-nested-projects",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/nesting-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/nesting-projects",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/how-to-implement-nested-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/how-to-implement-nested-projects",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/considerations-for-unloading-and-reloading-nested-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/considerations-for-unloading-and-reloading-nested-projects",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/wizard-support-for-nested-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/wizard-support-for-nested-projects",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/implementing-command-handling-for-nested-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/implementing-command-handling-for-nested-projects",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/elimination-of-tilde-sak-files.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/elimination-of-tilde-sak-files",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/application-of-settings-across-multiple-project-connections.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/application-of-settings-across-multiple-project-connections",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/creating-parent-container-folders-for-solutions.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/creating-parent-container-folders-for-solutions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/removal-of-source-control-information-from-dot-proj-and-dot-sln-files.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/removal-of-source-control-information-from-dot-proj-and-dot-sln-files",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/contributing-to-the-automation-model.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/contributing-to-the-automation-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/command-routing-in-vspackages.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/command-routing-in-vspackages",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/hierarchies-and-selection.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/hierarchies-and-selection",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/project-types-architecture.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/project-types-architecture",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/command-contracts-in-interop-assemblies.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/command-contracts-in-interop-assemblies",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/optional-comparison-of-local-project-folder-to-source-control-store.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/optional-comparison-of-local-project-folder-to-source-control-store",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/determining-command-status-by-using-interop-assemblies.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/determining-command-status-by-using-interop-assemblies",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/task-class-internal-members.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/task-class-internal-members",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/m-action-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/m-action-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/m-contingentproperties-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/m-contingentproperties-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/m-parent-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/m-parent-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/m-stateflags-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/m-stateflags-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/m-stateobject-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/m-stateobject-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/m-taskid-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/m-taskid-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/s-taskidcounter-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/s-taskidcounter-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/task-state-canceled-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/task-state-canceled-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/task-state-executed-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/task-state-executed-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/task-state-faulted-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/task-state-faulted-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/task-state-ran-to-completion-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/task-state-ran-to-completion-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/task-state-waiting-on-children-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/task-state-waiting-on-children-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/setnotificationforwaitcompletion-method.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/setnotificationforwaitcompletion-method",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/notifydebuggerofwaitcompletion-method.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/notifydebuggerofwaitcompletion-method",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/taskscheduler-class-internal-members.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/taskscheduler-class-internal-members",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/getscheduledtasksfordebugger-method.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/getscheduledtasksfordebugger-method",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/gettaskschedulersfordebugger-method.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/gettaskschedulersfordebugger-method",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/contingentproperties-class-internal-members.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/contingentproperties-class-internal-members",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/m-children-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/m-children-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/asynctaskmethodbuilder-structure-internal-members.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/asynctaskmethodbuilder-structure-internal-members",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/asynctaskmethodbuilder-objectidfordebugger-property.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/asynctaskmethodbuilder-objectidfordebugger-property",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/asynctaskmethodbuilder-m-builder-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/asynctaskmethodbuilder-m-builder-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/asynctaskmethodbuilder-tresult-structure-internal-members.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/asynctaskmethodbuilder-tresult-structure-internal-members",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/asynctaskmethodbuilder-tresult-objectidfordebugger-property.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/asynctaskmethodbuilder-tresult-objectidfordebugger-property",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/asynctaskmethodbuilder-tresult-m-task-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/asynctaskmethodbuilder-tresult-m-task-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/asyncvoidmethodbuilder-structure-internal-members.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/asyncvoidmethodbuilder-structure-internal-members",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/asyncvoidmethodbuilder-objectidfordebugger-property.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/asyncvoidmethodbuilder-objectidfordebugger-property",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/asyncvoidmethodbuilder-m-objectidfordebugger-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/asyncvoidmethodbuilder-m-objectidfordebugger-field",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "docs/extensibility/internals/legacy-language-service-extensibility.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/legacy-language-service-extensibility",
       "redirect_document_id": "false"
