@@ -74,7 +74,7 @@ landingContent:
       - linkListType: reference
         links:
           - text: API reference
-            url: https://learn.microsoft.com/dotnet/api/microsoft.visualstudio.extensibility?view=vs-extensibility
+            url: https://learn.microsoft.com/dotnet/api/microsoft.visualstudio.extensibility
 
   # Card
   - title: Discover what's new
