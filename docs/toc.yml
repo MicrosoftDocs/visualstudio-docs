@@ -152,6 +152,16 @@
     href: ide/visual-studio-github-copilot-extension.md
   - name: Debug with Copilot
     href: debugger/debug-with-copilot.md
+  - name: IntelliCode
+    items:
+    - name: Overview
+      href: ide/intellicode-visual-studio.md
+    - name: Whole-line autocompletions
+      href: ide/visual-studio-whole-line-completions.md
+    - name: Suggestions
+      href: ide/intellicode-suggestions.md
+    - name: Privacy
+      href: ide/intellicode-privacy.md
 - name: Develop
   items:
   - name: Organize and edit code
