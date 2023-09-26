@@ -21,7 +21,7 @@ The following notes outline the timeline for support.
     :::column span="1"::: 
         **On or before** <br/> **Aug 31, 2024**
     :::column-end::: 
-    :::column span="3"::: 
+    :::column span="4"::: 
         Users can still:
         + Create and maintain Mono, .NET 6, and .NET 7 applications. You can also continue to develop, maintain, and publish your apps to app stores.  
         + Access Microsoft Customer Service and Support for Visual Studio for Mac. If you have any support agreements, you can continue to have access to technical support during this period.  
@@ -33,7 +33,7 @@ The following notes outline the timeline for support.
     :::column span="1"::: 
         **After Aug 31, 2024**
     :::column-end::: 
-    :::column span="3":::
+    :::column span="4":::
         Visual Studio for Mac will no longer be supported or maintained after August 31, 2024. Visual Studio for Mac will still be available as a legacy installation only via my.visualstudio.com for users with Visual Studio subscriptions. 
     :::column-end::: 
 :::row-end:::
