@@ -28,11 +28,11 @@ For C# developers, IntelliCode can learn patterns from your code.
 
 IntelliCode provides AI-assisted IntelliSense for multiple languages. IntelliCode suggestions appear at the top of the completion list with a star icon next to them:
 
-![Screenshot of starred IntelliSense suggestions using IntelliCode in Visual Studio](media/starred-intellisense-suggestions.png)
+![Screenshot of starred IntelliSense suggestions using IntelliCode in Visual Studio](media/intellicode/starred-intellisense-suggestions.png)
 
 The completion list suggests the most likely correct API for a developer to use rather than presenting a simple alphabetical list of members. To provide this dynamic list, IntelliCode uses the developer's current code context and patterns based on thousands of highly rated, open-source projects on GitHub. The results form a model that predicts the most likely and most relevant API calls.
 
-![Screenshot of C# whole-line autocompletions in Visual Studio](media/intellicode-vs-wlc-small.png)
+![Screenshot of C# whole-line autocompletions in Visual Studio](media/intellicode/intellicode-visual-studio-whole-line-completions-small.png)
 C# developers in Visual Studio 2022 and higher also benefit from [whole-line autocompletions](visual-studio-whole-line-completions.md), which predict the next chunk of your code based on your current code so far, and present it as an inline prediction. 
 
 > [!NOTE]
@@ -87,8 +87,8 @@ If disabling extensions that override IntelliSense UI doesn't solve the problem 
 
 IntelliCode captures some anonymized usage and error-reporting data to help improve the product. No user-defined code is sent to Microsoft, but we do collect information about your use of the IntelliCode results.  For base model suggestions, which are open source or .NET types and members, we capture whether you selected an IntelliCode suggestion and log the name of the suggestion. Microsoft uses the data to monitor the quality of the base model. For custom models, we capture whether you selected an IntelliCode suggestion but *don't* log the names of your user-defined types or methods.
 
-To turn off data collection for IntelliCode, opt out of the [Visual Studio Experience Improvement Program](/visualstudio/ide/visual-studio-experience-improvement-program). From the menu bar, select **Help** > **Send Feedback** > **Settings**. In the **Visual Studio Experience Improvement Program** dialog, select **No, I would not like to participate** and then select **OK**.
+To turn off data collection for IntelliCode, opt out of the [Visual Studio Experience Improvement Program](visual-studio-experience-improvement-program.md). From the menu bar, select **Help** > **Send Feedback** > **Settings**. In the **Visual Studio Experience Improvement Program** dialog, select **No, I would not like to participate** and then select **OK**.
 
 ## See also
 
-- [IntelliCode extension for Visual Studio Code](intellicode-visual-studio-code.md)
+- [IntelliCode extension for Visual Studio Code](/visualstudio/intellicode/intellicode-visual-studio-code)
