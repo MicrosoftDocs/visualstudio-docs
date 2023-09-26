@@ -18,11 +18,6 @@ This feature supports C# in Visual Studio 2022.
 
 ![Screenshot of Whole Line Completion by IntelliCode in Visual Studio.](media/intellicode/intellicode-visual-studio-whole-line-completions-small.png)
 
-For Visual Studio Code, several options are available:
-
-* [An extension available in Visual Studio Code provides similar capabilities for Python, TypeScript, and JavaScript](intellicode-visual-studio-code-completions.md).
-* Users of [C# Dev Kit in Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit), may install [IntelliCode for C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.vscodeintellicode-csharp) for whole-line autocompletions in C#.
-
 ## How it works
 
 IntelliCode uses a large scale transformer model, trained on around half a million public, open-source repos from GitHub. This model makes predictions on what you type next based on a rich knowledge of what you have coded so far, including:
