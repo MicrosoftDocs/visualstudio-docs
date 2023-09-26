@@ -16,7 +16,7 @@ monikerRange: vs-2022
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In this article, you’ll learn about the AI-assisted development capabilities you can use in Visual Studio to enhance your productivity and efficiency such as [IntelliCode](/visualstudio/intellicode/intellicode-visual-studio) and [GitHub Copilot](visual-studio-github-copilot-extension.md).
+In this article, you’ll learn about the AI-assisted development capabilities you can use in Visual Studio to enhance your productivity and efficiency such as [GitHub Copilot](visual-studio-github-copilot-extension.md) and [IntelliCode](/visualstudio/intellicode/intellicode-visual-studio).
 
 ## How does AI-assisted development help?
 
