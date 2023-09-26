@@ -19,7 +19,7 @@ The following notes outline the timeline for support.
 
 :::row::: 
     :::column span="1"::: 
-        **On or before Aug 31, 2024**
+        **On or before** <br/> **Aug 31, 2024**
     :::column-end::: 
     :::column span="3"::: 
         Users can still:
