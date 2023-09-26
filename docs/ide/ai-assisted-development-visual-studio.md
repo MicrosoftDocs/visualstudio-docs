@@ -1,6 +1,6 @@
 ---
 title: AI-assisted development in Visual Studio
-description: Learn about the AI-assisted development tools in Visual Studio, such as Intellicode, GitHub Copilot, and Github Copilot Chat, and how they can help you write code more efficiently.
+description: Learn about the AI-assisted development tools in Visual Studio, such as GitHub Copilot, Github Copilot Chat, and IntelliCode, and how they can help you write code more efficiently.
 ms.date: 09/25/2023
 ms.topic: overview 
 ms.custom: template-overview
