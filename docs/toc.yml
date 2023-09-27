@@ -150,6 +150,8 @@
     href: ide/ai-assisted-development-visual-studio.md
   - name: GitHub Copilot
     href: ide/visual-studio-github-copilot-extension.md
+  - name: GitHub Copilot Chat
+    href: ide/visual-studio-github-copilot-chat.md
   - name: Debug with Copilot
     href: debugger/debug-with-copilot.md
 - name: Develop

@@ -82,7 +82,7 @@ The interactive code assistant view of Copilot Chat in Visual Studio enables you
 
 1. Type your coding related question in the **Ask Copilot** text box, and then press **Enter** or select **Send** to ask your question.
 
-    :::image type="content" source="media/vs-2022/copilot-chat-inline-chat.png" alt-text="Screenshot of inline chat "Ask Copilot" in the editor window.":::
+    :::image type="content" source="media/vs-2022/copilot-chat-inline-chat.png" alt-text="Screenshot of inline chat interface in the editor window.":::
 
 1. You'll see code suggestions from Copilot Chat in Visual Studio diff view. You can review and refine what is being proposed and apply to your code by selecting **Accept** or discard by selecting **Cancel**.
     
