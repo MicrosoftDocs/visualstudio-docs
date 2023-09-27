@@ -6,8 +6,8 @@ ms.date: 04/24/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - performance [Visual Studio]
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 f1_keywords:

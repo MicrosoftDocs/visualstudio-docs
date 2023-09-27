@@ -3,8 +3,8 @@ title: Scroll bar map mode and bar mode
 description: Learn how to track changes in your code through the customization of the scroll bar and also learn how to use Bar mode and Map mode.
 ms.date: 03/20/2020
 ms.topic: how-to
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
