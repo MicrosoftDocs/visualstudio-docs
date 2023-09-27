@@ -9,8 +9,8 @@ helpviewer_keywords:
 - editors, line numbers
 - code, line number displaying
 ms.assetid: 40b38559-b8de-4041-91f2-68986767c976
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

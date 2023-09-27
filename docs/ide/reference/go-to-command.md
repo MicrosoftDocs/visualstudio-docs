@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Debug.Goto command
 - Go To command
 ms.assetid: 201e1dd2-6701-467d-8cc1-faec2ef20511
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

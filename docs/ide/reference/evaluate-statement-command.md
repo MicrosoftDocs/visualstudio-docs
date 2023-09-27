@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Debug.EvaluateStatement command
 - Evaluate Statement command
 ms.assetid: 032039bc-9477-4f93-9b9d-66d4be0e90f4
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
