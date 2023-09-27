@@ -55,20 +55,21 @@ Use Connected Services to connect your application to live Azure services emulat
 > [!NOTE]
 > Using Publish you can deploy your application to Azure hosting services like Azure VMs, Azure App Service, Azure Functions and Azure Container Registry
 
-### Support for Azure emulators and local alternatives
+## Databases and data providers
+
+Visual Studio provides options to connect to on-premises databases, locally emulated versions of data providers, as well as Azure database services.
+
+| Name | Description |
+| - | - |
+| [Azure Cosmos DB Emulator on container](/azure/cosmos-db/introduction) | Azure Cosmos DB emulator running in a local container. |
+| [MongoDB on container](/azure/cosmos-db/introduction) | MongoDB document databases provides high reliability and easy scalability. This option makes it available in a local container. |
+| [PostgreSQL on container](/azure/postgresql/overview) | PostgreSQL is an object-relational database system that provides reliability and data integrity. This option makes it available in a local container. |
+| [SQLite](/ef/core/providers/sqlite/?tabs=dotnet-core-cli) | SQLite is an in-process library that provides a self-contained, transactional SQL database engine with no configuration. |
+| [SQL Server Database](/sql/sql-server/) | On-premises SQL Server Database. |
+
+## Support for Azure emulators and local alternatives
 
 Visual Studio makes it easier to develop Azure applications locally by easing the transition from locally emulated services to services running in the cloud. You can use Connected Services to connect your application to local emulators, some of which run in a local container, and other local alternatives to Azure services. Visual Studio currently supports the following:
-
-
-## Connect your app to gRPC, OpenAPI and WCF endpoints
-
-Use Connected Services to connect your application to any of the following services:
-
-| Name | ASP.NET Link | Description |
-|-|-|-|
-| [OpenAPI](https://github.com/OAI/OpenAPI-Specification) endpoints | [Develop ASP.NET Core apps with OpenAPI](/aspnet/core/web-api/Microsoft.dotnet-openapi) | A standard format for describing the capabilities of a service in computer-readable and human-readable form. |
-| [gRPC](https://grpc.io/docs/) endpoints | [Introduction to gRPC services on .NET](/aspnet/core/grpc/) | An open-source real-time procedure calling service. |
-| [WCF](/dotnet/framework/wcf/) endpoints | n/a | A .NET Framework solution supporting programming with a distributed network of services. |
 
 Visual Studio generates any necessary client or server code to facilitate the communication.
 
@@ -82,23 +83,15 @@ Visual Studio generates any necessary client or server code to facilitate the co
 | [Secrets.json](/aspnet/core/security/app-secrets?tabs=windows) | Local alternative for Key Vault. |
 | [SQL Server Express LocalDB](/sql/database-engine/configure-windows/sql-server-express-localdb) | Local alternative to Azure SQL Database. |
 
-## Databases and data providers
+## Connect your app to gRPC, OpenAPI and WCF endpoints
 
-Visual Studio provides options to connect to on-premises databases, locally emulated versions of data providers, as well as Azure database services.
+Use Connected Services to connect your application to any of the following services:
 
-| Name | Description |
-| - | - |
-| [Azure Cosmos DB Emulator on container](/azure/cosmos-db/introduction) | Azure Cosmos DB emulator running in a local container. |
-| [MongoDB on container](/azure/cosmos-db/introduction) | MongoDB document databases provides high reliability and easy scalability. This option makes it available in a local container. |
-| [PostgreSQL on container](/azure/postgresql/overview) | PostgreSQL is an object-relational database system that provides reliability and data integrity. This option makes it available in a local container. |
-| [SQLite](/ef/core/providers/sqlite/?tabs=dotnet-core-cli) | SQLite is an in-process library that provides a self-contained, transactional SQL database engine with no configuration. |
-| [SQL Server Database](/sql/sql-server/) | On-premises SQL Server Database. |
-
-## How it works
-
-Visual Studio creates two new files visible in Solution Explorer under Properties called *serviceDependencies.json* and *serviceDependencies.local.json*. Both of these files are safe to check in as they do not contain any secrets.
-
-Visual Studio also creates a file called *serviceDependencies.local.json.user* which is not visible in Solution Explorer by default. This file contains information that could be considered a secret (for example, resource IDs in Azure) and we do not recommend you check it in.
+| Name | ASP.NET Link | Description |
+|-|-|-|
+| [OpenAPI](https://github.com/OAI/OpenAPI-Specification) endpoints | [Develop ASP.NET Core apps with OpenAPI](/aspnet/core/web-api/Microsoft.dotnet-openapi) | A standard format for describing the capabilities of a service in computer-readable and human-readable form. |
+| [gRPC](https://grpc.io/docs/) endpoints | [Introduction to gRPC services on .NET](/aspnet/core/grpc/) | An open-source real-time procedure calling service. |
+| [WCF](/dotnet/framework/wcf/) endpoints | n/a | A .NET Framework solution supporting programming with a distributed network of services. |
 
 ## Containers
 
@@ -113,3 +106,9 @@ During development, you usually use a local emulator, a local database, or a moc
 If you click those links, Visual Studio will present a few screens that ask for the connection information to the "real" service running in the cloud that your cloud app will use instead of the local service. For example, if you initially configured an app to run with a locally running instance of SQL LocalDB, you would have provided a connection string name and an initial value that referenced that LocalDB database. After your app is first deployed to a cloud environment, you can use the **Configure** links to specify the connection string to use in the cloud. For Azure deployment scenarios, Visual Studio also gives the option of using an [Azure Key Vault](/azure/key-vault/general/overview) to securely store the connection string and other secrets.
 
 ![Screenshot showing the options presented to replace the SQL LocalDB service with a real database connection.](media/vs-2022/configure-dependency.png)
+
+## How it works
+
+Visual Studio creates two new files visible in Solution Explorer under Properties called *serviceDependencies.json* and *serviceDependencies.local.json*. Both of these files are safe to check in as they do not contain any secrets.
+
+Visual Studio also creates a file called *serviceDependencies.local.json.user* which is not visible in Solution Explorer by default. This file contains information that could be considered a secret (for example, resource IDs in Azure) and we do not recommend you check it in.
