@@ -20,15 +20,23 @@ In this article, you’ll learn about the AI-assisted development capabilities y
 
 ## How does AI-assisted development help?
 
-AI-assisted development enables you to code faster through **code generation**, **code completion**, and **code prediction**.
+- **Code faster by using AI-assistance**:
 
-Additionally, AI-assisted development is available for:
+  - Code generation and completions
+  - Code predictions based on your programming patterns 
+  - Code refactoring throug AI-driven context-aware suggestions & recommendations
 
-- **Coding help**: get AI-assisted code explanations
-- **Profiling**: optimizing your code performance
-- **Debugging**: use AI to identify & resolve issues
-- **Code refactoring**: AI-driven context-aware suggestions & recommendations
-- **Code reviews/analysis**: find issues faster
+- **Understand code better** through:
+
+  - Human-readable code explanations generated on-demand
+  - Easy-to-understand answers and snippets for your programming questions
+
+- AI assisted **code profiling and debugging**:
+   -  Optimized performance based on AI recommendations
+   -  AI-identified bugs & resolutions
+  
+- **Code reviews/analysis**
+
 
 ## GitHub Copilot & IntelliCode
 
