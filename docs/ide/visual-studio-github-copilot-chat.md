@@ -16,11 +16,11 @@ monikerRange: vs-2022
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-[GitHub Copilot Chat extension in Visual Studio](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)** is a fully integrated AI-powered chat experience from [GitHub Copilot](visual-studio-github-copilot-extension.md) right within the Visual Studio IDE. It enables you to get coding information and support, such as, syntax, programming concepts, test cases, debugging, and more, without leaving the IDE. It provides AI assistance to help you make informed decisions and write better code.
+[GitHub Copilot Chat extension in Visual Studio](https://aka.ms/VSXGHCopilot) is a fully integrated AI-powered chat experience from [GitHub Copilot](visual-studio-github-copilot-extension.md) right within the Visual Studio IDE. It enables you to get coding information and support, such as syntax, programming concepts, test cases, debugging, and more, without leaving the IDE.
   
 ## Why use Copilot Chat in Visual Studio?
 
-With tight integration in Visual Studio, Copilot Chat understands what you're working on and can help you with development tasks like:
+Copilot Chat provides AI assistance to help you make informed decisions and write better code. With tight integration in Visual Studio, Copilot Chat understands what you're working on and can help you with development tasks like:
 
 - **Code explanations**: get in-depth analysis and explanation of how a code block works
 - **Code help**: get answers to programming-related questions in natural language or code snippet format
@@ -49,15 +49,18 @@ To get started, you need:
 ## Use Copilot Chat in Visual Studio
 
 You can ask your coding related questions in natural language and GitHub Copilot Chat will answer these in your development context.
+There are two places you can ask Copilot these questions; in a [chat window](#ask-questions-in-the-chat-window), or directly inline in the code that you're looking to modify, using [inline code assistance](#ask-questions-in-the-inline-code-assistant). For questions where your goal is to modify or add to the code file you have open in the editor, the inline code assistant will usually work best, whereas more general coding questions are best answered in the chat pane.
 
 ### Ask questions in the chat window
+
+The chat window of Copilot Chat in Visual Studio enables you to ask your questions and see answers in the chat pane. It is usually the best way to work with Copilot on programming help and general coding questions.
 
 1. In Visual Studio, select **View** > **GitHub Copilot Chat**.
 1. In the Copilot Chat window, type a coding related question in the **Ask Copilot** text box. Press **Enter** or select **Send** to ask your question.
     
     :::image type="content" source="media/vs-2022/copilot-chat-window-ask-copilot-textbox.png" alt-text="Screenshot of Copilot Chat window.":::
 
-1. If Copilot Chat offers a code suggestion you want to use, select **Copy code block** to copy the code suggestion, or select **Insert** to insert the code suggestion in your code file.
+1. If Copilot Chat offers a code suggestion you want to use, select **Copy code block** to copy the code suggestion, or select **Insert** to insert the code suggestion in your code file. Using the insert button lets you preview the code in the target location so you can easily see what's being updated
     
     :::image type="content" source="media/vs-2022/copilot-chat-copy-code-insert-code.png" alt-text="Screenshot of the options to copy code block or insert code for the code suggestions from Copilot Chat.":::
 
@@ -66,9 +69,9 @@ You can ask your coding related questions in natural language and GitHub Copilot
 
     :::image type="content" source="media/vs-2022/copilot-chat-window-diff-view-editor.png" alt-text="Screenshot of code suggestions in diff view in the editor window":::
 
-### Ask questions in the inline chat
+### Ask questions in the inline code assistant
 
-The interactive code assistant view of Copilot Chat in Visual Studio enables you to ask your questions and see answers inline with the code in the editor window itself. With inline chat, you don't have to go back and forth to the chat window.
+The interactive code assistant view of Copilot Chat in Visual Studio enables you to ask your questions and see answers inline with the code in the editor window itself. With inline chat, you don't have to go back and forth to the chat window. It is usually the best way to work with Copilot on questions that add to or update a currently open code file.
 
 1. In Visual Studio, right click in your editor window and select **Ask Copilot** to bring up the interactive code assistant view of Copilot Chat in the editor itself.
     
