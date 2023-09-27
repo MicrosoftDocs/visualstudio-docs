@@ -2,7 +2,7 @@
 title: Enabling administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager
 titleSuffix: ''
 description: Learn more about how to deploy administrator updates to Visual Studio.
-ms.date: 12/1/2022
+ms.date: 9/27/2023
 ms.topic: overview
 ms.assetid: 546fbad6-f12b-49cf-bccc-f2e63e051a18
 author: anandmeg
@@ -27,25 +27,20 @@ Every time a new Visual Studio update is released, Microsoft will publish a Visu
 
 Configuration Manager (SCCM) can be set up to synchronize and download the Visual Studio administrator updates from the Windows Server Update Services (WSUS) catalog.  SCCM can then deploy the administrator updates to Visual Studio client machines across the organization.  
 
-* First, to run Configuration Manager (SCCM), you'll need a current licensed version of Windows Server running Microsoft Endpoint Configuration Manager (current branch) and Windows Server Update Services (WSUS). You can’t use WSUS itself to deploy these updates; it must be used in conjunction with SCCM.
-
+* To run Configuration Manager (SCCM), you'll need a current licensed version of Windows Server running Microsoft Endpoint Configuration Manager (current branch) and Windows Server Update Services (WSUS). You can’t use WSUS itself to deploy these updates; it must be used in conjunction with SCCM.
 * SCCM must be configured to receive notifications when Visual Studio administrator update packages are available. To do that, use the following steps, and for more information, see [Introduction to software updates in Microsoft Endpoint Configuration Manager (SCCM)](/mem/configmgr/sum/understand/software-updates-introduction).
-
   1. In the SCCM console, select **Administration** (bottom-left), then select **Site Configuration** (middle left), then select **Sites**, and select your site server.
-
   2. On the **Home** tab ribbon at the top, in the **Settings** group button, select **Configure Site Components**, and then select **Software Update Point**.
-
   3. In the **Software Update Point Component Properties** dialog box:
-
     * On the **Products** tab, under the **Developer Tools, Runtimes, and Redistributables** hierarchy, choose the versions of Visual Studio you want to synchronize.
-
     * On the **Classifications** tab, make sure “Security Updates”, “Feature Packs”, and “Updates” are selected.
-
-  4. Next, synchronize the software updates with the WSUS server by choosing **Software Library** (bottom-left), and then on the **Home** tab ribbon at the top, select the **Synchronize Software Updates** button. Synchronizing Software Updates will make the available Visual Studio administrator updates visible in, and able to be deployed from, the SCCM console.
+  4. Synchronize the software updates with the WSUS server by choosing **Software Library** (bottom-left), and then on the **Home** tab ribbon at the top, select the **Synchronize Software Updates** button. Synchronizing Software Updates will make the available Visual Studio administrator updates visible in, and able to be deployed from, the SCCM console.
 
 Only Visual Studio _security_ Administrator updates are published to WSUS by default. If you want to deploy feature or quality administrator updates through SCCM, you'll need to [manually import them from the Microsoft Catalog](/mem/configmgr/sum/get-started/synchronize-software-updates#import-updates-from-the-microsoft-update-catalog), and then deploy them.
 
-After you perform these steps, you can use the software update management capabilities of Configuration Manager (SCCM) to deploy the Visual Studio administrator updates. The different types and characteristics of Visual Studio administrator updates are described in [Applying administrator updates](./applying-administrator-updates.md), which provides guidance about how and when they should be distributed throughout your organization. For more information about Configuration Manager (SCCM) functionality and options, see [Deploy software updates in Microsoft Endpoint Configuration Manager (SCCM)](/mem/configmgr/sum/deploy-use/deploy-software-updates).
+After you perform these steps, you can use the software update management capabilities of Configuration Manager (SCCM) to deploy the Visual Studio administrator updates. The different types and characteristics of Visual Studio administrator updates are described in [Applying administrator updates](./applying-administrator-updates.md), which provides guidance on how and when they should be distributed throughout your organization. 
+
+For more information about Configuration Manager (SCCM) functionality and options, see [Deploy software updates in Microsoft Endpoint Configuration Manager (SCCM)](/mem/configmgr/sum/deploy-use/deploy-software-updates).
 
 ## Enable (or disable) client machines' ability to receive Visual Studio administrator updates
 
