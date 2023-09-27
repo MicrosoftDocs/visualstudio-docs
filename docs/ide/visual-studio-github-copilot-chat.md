@@ -16,8 +16,12 @@ monikerRange: vs-2022
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-[GitHub Copilot Chat extension in Visual Studio](https://aka.ms/VSXGHCopilot) is a fully integrated AI-powered chat experience from [GitHub Copilot](visual-studio-github-copilot-extension.md) right within the Visual Studio IDE. It enables you to get coding information and support, such as syntax, programming concepts, test cases, debugging, and more, without leaving the IDE.
-  
+[**GitHub Copilot**](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs) and [GitHub Copilot Chat](https://aka.ms/VSXGHCopilot) extensions in Visual Studio enable enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping developers code more productively and efficiently.
+
+In this article, you'll learn about the Copilot Chat extension in Visual Studio, a fully integrated AI-powered chat experience from [GitHub Copilot](visual-studio-github-copilot-extension.md) right within the Visual Studio IDE. It enables you to get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, debugging, and more, without leaving the IDE.
+
+For more information on the GitHub Copilot extension in Visual Studio, see [About the GitHub Copilot extension for Visual Studio](visual-studio-github-copilot-extension.md).
+
 ## Why use Copilot Chat in Visual Studio?
 
 Copilot Chat provides AI assistance to help you make informed decisions and write better code. With tight integration in Visual Studio, Copilot Chat understands what you're working on and can help you with development tasks like:
