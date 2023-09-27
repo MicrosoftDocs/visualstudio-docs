@@ -54,7 +54,7 @@ You can ask your coding related questions in natural language and GitHub Copilot
 
 There are two places you can ask Copilot these questions; in a [chat window](#ask-questions-in-the-chat-window), or directly inline in the code that you're looking to modify, using [inline code assistance](#ask-questions-in-the-inline-code-assistant). For questions where your goal is to modify or add to the code file you have open in the editor, the inline code assistant will usually work best, whereas more general coding questions are best answered in the chat pane.
 
-### Ask questions using the chat window
+### Ask questions in the chat window
 
 The chat window of Copilot Chat in Visual Studio enables you to ask your questions and see answers in the chat pane. It is usually the best way to work with Copilot on programming help and general coding questions.
 
@@ -72,7 +72,7 @@ The chat window of Copilot Chat in Visual Studio enables you to ask your questio
 
     :::image type="content" source="media/vs-2022/copilot-chat-window-diff-view-editor.png" alt-text="Screenshot of code suggestions in diff view in the editor window":::
 
-### Ask questions using the interactive code assistant
+### Ask questions in the interactive code assistant
 
 The interactive code assistant view of Copilot Chat in Visual Studio enables you to ask your questions and see answers inline with the code in the editor window itself. With inline chat, you don't have to go back and forth to the chat window. It is usually the best way to work with Copilot on questions that add to or update a currently open code file.
 
