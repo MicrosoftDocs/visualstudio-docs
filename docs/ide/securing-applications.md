@@ -7,8 +7,8 @@ helpviewer_keywords:
 - security [Visual Studio], applications
 - application design, securability
 ms.assetid: 7d32c4cf-8bec-4307-a2a8-42f0ceddf3eb
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

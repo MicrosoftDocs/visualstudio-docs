@@ -15,8 +15,8 @@ helpviewer_keywords:
 - /UseEnv Devenv switch
 - Devenv, /UseEnv
 ms.assetid: 2dd14603-a61b-42d2-ba31-427a0ee8a799
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
