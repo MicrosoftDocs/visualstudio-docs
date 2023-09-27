@@ -7,8 +7,8 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - app.config files, adding to C# projects
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

@@ -9,8 +9,8 @@ helpviewer_keywords:
 - peek definition
 - type definition [Visual Studio]
 - member definition [Visual Studio]
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
