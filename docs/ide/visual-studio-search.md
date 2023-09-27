@@ -14,8 +14,8 @@ helpviewer_keywords:
 - IDE navigator
 ms.assetid: 3870a8fd-4afa-4f1e-a811-9fdf41a9e82d
 monikerRange: ">=vs-2019"
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
