@@ -86,7 +86,7 @@ The following table compares the capabilities of GitHub Copilot (and GitHub Copi
 | Solve code problems with Natural language driven dev assistance | Yes, with Chat extension enabled | No |
 | Code debugging | Yes, with Chat extension enabled <br/>([Learn more](../debugger/debug-with-copilot.md))| No |
 | Measure app performance through profiling | Yes, with Chat extension enabled <br/>([Learn more](https://devblogs.microsoft.com/visualstudio/simplified-code-refinement-and-debugging-with-github-copilot-chat/#cpu-usage-auto-insights-in-the-profiler)) | No |
-| Measure app performance through profiling | Yes. <br/>([Learn more](](https://devblogs.microsoft.com/visualstudio/simplified-code-refinement-and-debugging-with-github-copilot-chat/#cpu-usage-auto-insights-in-the-profiler))) | Yes |
+| Measure app performance through profiling | Yes. <br/>([Learn more](https://devblogs.microsoft.com/visualstudio/simplified-code-refinement-and-debugging-with-github-copilot-chat/#cpu-usage-auto-insights-in-the-profiler))) | Yes |
 | API usage examples | No | Yes |
 | Languages supported | Supports several programming languages and frameworks, including but not limited to: C#, C++, Python, JavaScript, and TypeScript| C#, XAML, C++, Javascript, Typescript, Visual Basic |
 
