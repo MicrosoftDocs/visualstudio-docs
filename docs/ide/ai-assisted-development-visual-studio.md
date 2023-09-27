@@ -31,7 +31,7 @@ In this article, you’ll learn about the AI-assisted development capabilities y
   - Human-readable code explanations generated on-demand
   - Easy-to-understand answers and snippets for your programming questions
 
-- AI assisted **code profiling and debugging**:
+- Get help **profiling and debugging** your code:
    -  Optimized performance based on AI recommendations
    -  AI-identified bugs & resolutions
   
