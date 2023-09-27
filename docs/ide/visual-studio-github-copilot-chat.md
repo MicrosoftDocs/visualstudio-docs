@@ -55,7 +55,7 @@ You can ask your coding related questions in natural language and GitHub Copilot
 1. In Visual Studio, select **View** > **GitHub Copilot Chat**.
 1. In the Copilot Chat window, type a coding related question in the **Ask Copilot** text box.
     
-    :::image type="content" source="media/vs-2022/copilot-chat-window-ask-copilot-textbox.png" alt-text="Screenshot of Copilot Chat window.":::
+    :::image type="content" source="media/vs-2022/copilot-chat-window-ask-copilot-textbox1.png" alt-text="Screenshot of Copilot Chat window.":::
 
 1. Press **Enter** or select **Send** to ask your question.
     
