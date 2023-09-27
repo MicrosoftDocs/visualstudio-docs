@@ -14,7 +14,7 @@ monikerRange: ">=vs-2019"
 
 # Azure development with Visual Studio
 
-Application development can be much easier if you take advantage of cloud services to handle many common issues that your or your application development teams would otherwise have to implement. When you use cloud services hosted in the Azure cloud, you leverage a reliable, testable, and highly available cloud environment that is managed by Microsoft instead of spending many months and years implementing the same common functionality that should ideally be done by someone else, so that you can focus on what is truly unique to your application.
+Application development can be easier if you use cloud services to handle many issues that your would otherwise have to implement. When you use cloud services hosted in the Azure cloud, you use a reliable, and highly available cloud environment that is managed by Microsoft to handle much of the infrastructure that many apps and services need, so that you can focus development efforts on what is unique to your application.
 
 With Visual Studio, you can both develop apps that run in the Azure cloud, and connect to Azure services in your on-premises, desktop, and mobile apps. Visual Studio is the most full-featured and complete environment for Windows developers to connect .NET applications and services, and ASP.NET web applications to Azure services and develop ASP.NET web sites and applications. Visual Studio also supports development in other technology stacks, such as Node.js and Python, which you can use to create web sites and web applications that you can deploy to Azure using the Azure command-line interface (CLI). C++ developers can access Azure services such as Azure storage using a C++ client library, and IoT device developers using C and C++ can connect devices and services to Azure. See [Cloud and web programming in Visual C++](/cpp/cloud/cloud-and-web-programming-in-visual-cpp).
 
@@ -24,11 +24,11 @@ In this article, you learn about how Visual Studio can help with Azure developme
 
 Visual Studio **Connected Services** is the name the features that support connecting your projects (web and on-premises) to Azure services. Read more about the Azure services you can connect to and manage from Visual Studio at [About Visual Studio Connected Services](overview-connected-services.md).
 
-You can perform many common Azure operations right from the Visual Studio IDE. Instead of using the Azure Portal, you can provision resources in Azure, create resource groups, browse and view Azure resources, and of course, deploy your applications and services. Once your project is connected to Azure services or deployed, the **Connected Services** tab displays information about your resources, and contains convenient links to your deployments. See [Work with Azure in Visual Studio](overview-azure-integration.md).
+You can perform many common Azure operations right from the Visual Studio IDE. Instead of using the Azure Portal, you can provision resources in Azure, create resource groups, browse and view Azure resources, and deploy your applications and services. Once your project is connected to Azure services or deployed, the **Connected Services** tab displays information about your resources, and contains convenient links to your deployments. See [Work with Azure in Visual Studio](overview-azure-integration.md).
 
 ## Azure deployment support
 
-With Visual Studio you can deploy your application to Azure, on demand, with the click of a button. This is great during development and testing, where CI/CD might not be already configured. 
+With Visual Studio you can deploy your application to Azure, on demand, with the click of a button. This convenience is great during development and testing, where CI/CD might not be already configured. 
 
 If you need help configuring CI/CD for a GitHub repo for the first time, Visual Studio can help you get started with GitHub Action starter workflows. Learn more at [Deploy your application to Azure using GitHub Actions workflows created by Visual Studio](azure-deployment-using-github-actions.md).
 
@@ -48,7 +48,7 @@ Once you've containerized your app, it's easy to deploy the containers to Azure 
 
 ## Connecting to storage and databases
 
-Managing files and data can be a lot easier with Azure storage, which you can use to store everything where it can be accessed by web sites, desktop apps, or mobile apps.
+Managing files and data can be a lot easier with Azure storage, which you can use to store everything where it's available to web sites, desktop apps, or mobile apps.
 
 Azure also provides many different data services suited to different needs, from a cloud-hosted SQL database that makes for an easy transition from an on-premises SQL Server, to big data solutions that can scale up to the largest requirements.
 
@@ -67,7 +67,7 @@ Connecting to Azure SQL database and other Azure database offering such as Cosmo
 
 ### Connect to web and data services
 
-Data providers are making services available via standard protocols, such as OData. You can connect to these, or if you are creating web services yourself, you can choose ASP.NET Web API, Azure Functions, or Azure API Management, and add those connections. For a list of supported services and protocols and how to connect to them, see [Connect your app to gRPC, OpenAPI, and WCF endpoints](overview-connected-services.md#connect-your-app-to-grpc-openapi-and-wcf-endpoints).
+Data providers are making services available via standard protocols, such as OData and gRPC. You can connect to these services, or if you are creating web services yourself, you can choose ASP.NET Web API, Azure Functions, or Azure API Management, and add those connections. For a list of supported services and protocols and how to connect to them, see [Connect your app to gRPC, OpenAPI, and WCF endpoints](overview-connected-services.md#connect-your-app-to-grpc-openapi-and-wcf-endpoints).
 
 ## ASP.NET Core Web application scenarios
 
@@ -85,7 +85,7 @@ Learn more at [What is Azure Cache for Redis?](/azure/azure-cache-for-redis/cach
 
 ### Authenticating users
 
-Most web sites need some kind of user management and authentication mechanism, either site-specific or provided by an identity provider which which a user has an existing account. Built-in user authentication is supported in Azure App Service. Learn more at [Authentication and authorization in Azure App Service and Azure Functions](/azure/app-service/overview-authentication-authorization) and get started with [Add app authentication to your web app running on Azure App Service](/azure/app-service/scenario-secure-app-authentication-app-service). Microsoft Entra, previously known as Azure Active Directory (Azure AD), is a full-featured cloud-based identity management service. Learn more at [What is Microsoft Entra](/azure/active-directory/fundamentals/whatis).
+Most web sites need some kind of user management and authentication mechanism, either site-specific or provided by an identity provider with which a user has an existing account. Built-in user authentication is supported in Azure App Service. Learn more at [Authentication and authorization in Azure App Service and Azure Functions](/azure/app-service/overview-authentication-authorization) and get started with [Add app authentication to your web app running on Azure App Service](/azure/app-service/scenario-secure-app-authentication-app-service). Microsoft Entra, previously known as Azure Active Directory (Azure AD), is a full-featured cloud-based identity management service. Learn more at [What is Microsoft Entra](/azure/active-directory/fundamentals/whatis).
 
 Supported authentication providers include:
 
@@ -101,7 +101,7 @@ Your ASP.NET web app deployed to Azure might need configuration for all environm
 
 ### Secrets management
 
-Secure storage of passwords and other secrets, such as access keys to databases and tokens for API providers, is a common problem for which Azure Key Vault provides a secure solution. You can use Azure Key Vault to store secrets for your app running in Azure, and also during development, you can use the Key Vault in Azure, or a local store (`secrets.json`) for local execution, testing, and debugging. This lets you quickly get started during design and development without any dependencies on the cloud, but then transition to later stages of testing and production with no disruption. Learn how to get started at [Add Key Vault to your web application by using Visual Studio Connected Services](/azure/key-vault/general/vs-key-vault-add-connected-service).
+Secure storage of passwords and other secrets, such as access keys to databases and tokens for API providers, is a common problem for which Azure Key Vault provides a secure solution. You can use Azure Key Vault to store secrets for your app running in Azure, and also during development, you can use the Key Vault in Azure, or a local store (`secrets.json`) for local execution, testing, and debugging. Get started during design and development without any dependencies on the cloud, but then transition to later stages of testing and production with no disruption. Learn more at [Azure Key Vault](/azure/key-vault) and get started at [Connect Key Vault to your web application by using Visual Studio Connected Services](/azure/key-vault/general/vs-key-vault-add-connected-service).
 
 ### Data migration using Entity Framework
 
@@ -115,7 +115,7 @@ ASP.NET web apps can benefit from running worker services. There's no additional
 
 ## Other web application technologies
 
-Developers who use JavaScript and Python can use Visual Studio or [Visual Studio Code](https://code.visualstudio.com/docs) for Azure development. With either development environment, you'll [install the Azure CLI](/cli/azure/install-azure-cli) and can follow tutorials in the documentation for Azure CLI and you can find quickstarts and tutorials in the documentation for every Azure service that helps you add the connection code manually.
+Developers who use JavaScript and Python can use Visual Studio or [Visual Studio Code](https://code.visualstudio.com/docs) for Azure development. With either development environment, [install the Azure CLI](/cli/azure/install-azure-cli) and follow tutorials in the documentation for Azure CLI, and find quickstarts and tutorials in the documentation for every Azure service that help you add the connection code manually.
 
 Node.js offers another option for web application development with server-side JavaScript. Learn more at [What is Azure for JavaScript developers](/azure/developer/javascript/core/what-is-azure-for-javascript-development) Get started with [Deploy a Node.js web app in Azure](/azure/app-service/quickstart-nodejs?tabs=windows&pivots=development-environment-vscode).
 
@@ -133,7 +133,7 @@ If you need easy containers, try [Azure Container Apps](/azure/container-apps/de
 
 If you need advanced containers, try [Azure Kubernetes Service](/azure/aks).
 
-If you want added control on top of you APIs, try [Azure API Management](/azure/api-management/api-management-key-concepts).
+If you want added control on top of your APIs, try [Azure API Management](/azure/api-management/api-management-key-concepts).
 
 If you want to support multiple long client connections, try [Azure SignalR Service](/azure/azure-signalr/signalr-overview).
 
