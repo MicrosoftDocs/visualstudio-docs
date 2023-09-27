@@ -52,7 +52,7 @@ To install the GitHub Copilot Chat extension in Visual Studio:
 
 You can ask your coding related questions in natural language and GitHub Copilot Chat will answer these in your development context.
 
-There are two places you can ask Copilot these questions; in a [chat window](#ask-questions-in-the-chat-window), or directly inline in the code that you're looking to modify, using [inline code assistance](#ask-questions-in-the-inline-code-assistant). For questions where your goal is to modify or add to the code file you have open in the editor, the inline code assistant will usually work best, whereas more general coding questions are best answered in the chat pane.
+There are two places you can ask Copilot these questions; in a [chat window](#ask-questions-in-the-chat-window), or directly inline in the code that you're looking to modify, using [inline code assistance](#ask-questions-in-the-interactive-code-assistant). For questions where your goal is to modify or add to the code file you have open in the editor, the inline code assistant will usually work best, whereas more general coding questions are best answered in the chat pane.
 
 ### Ask questions in the chat window
 
