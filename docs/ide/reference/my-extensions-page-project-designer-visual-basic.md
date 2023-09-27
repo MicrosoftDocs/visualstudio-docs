@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Project Designer, My Extensions page
 - My Extensions page in Project Designer
 ms.assetid: 2f08494e-84c1-444b-872b-900fbbcf0364
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

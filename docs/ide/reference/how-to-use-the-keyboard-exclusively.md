@@ -11,8 +11,8 @@ helpviewer_keywords:
 - dialog boxes [Visual Studio], shortcut keys
 - accessibility [Visual Studio]
 ms.assetid: d71a4cc1-d352-4164-8538-3f9fa070a331
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

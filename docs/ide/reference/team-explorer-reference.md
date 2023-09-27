@@ -3,8 +3,8 @@ title: Team Explorer reference
 description: Learn about the various functions in Team Explorer to manage work and coordinate with other team members to develop a project.
 ms.date: 11/02/2022
 ms.topic: reference
-ms.author: tglee
-author: TerryGLee
+ms.author: ghogen
+author: ghogen
 ms.manager: jmartens
 monikerRange: "<=vs-2019"
 ---

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - Settings page in Project Designer
 - Project Designer, Settings page
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

@@ -37,8 +37,8 @@ helpviewer_keywords:
 - line numbers
 - virtual space
 ms.assetid: 49ee7306-9d46-4170-850f-a1716171752d
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

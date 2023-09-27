@@ -4,8 +4,8 @@ description: Learn about textures and images and how Visual Studio can help you 
 ms.date: 06/23/2023
 ms.topic: overview
 ms.assetid: b9fbc8fa-66d1-4055-8460-24d8b8fbe43e
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-designers
 ms.workload:

@@ -4,8 +4,8 @@ description: Use Visual Studio and the GitHub Copilot extension together to take
 ms.date: 08/10/2023
 ms.topic: overview 
 ms.custom: template-overview
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 ms.manager: jmartens
 ms.technology: vs-ai-tools
 ms.workload:

@@ -26,8 +26,8 @@ helpviewer_keywords:
 - find text
 - replace text
 - multi-caret selection
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

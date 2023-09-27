@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Manage any Git repository in Visual Studio by using the Git Repository window.
 ms.date: 11/18/2022
 ms.topic: how-to
-author: houghj16
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general

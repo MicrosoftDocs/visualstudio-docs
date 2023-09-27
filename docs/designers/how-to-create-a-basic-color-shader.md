@@ -4,8 +4,8 @@ description: Learn how to use Shader Designer to create different types of shade
 ms.date: 06/04/2023
 ms.topic: how-to
 ms.assetid: c301328a-079a-49e8-b688-4749c01657c0
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-designers
 ms.workload:

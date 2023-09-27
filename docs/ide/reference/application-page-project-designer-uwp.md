@@ -7,8 +7,8 @@ f1_keywords:
 - AppPackage.Properties.Application
 helpviewer_keywords:
 - Application page [UWP project]
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

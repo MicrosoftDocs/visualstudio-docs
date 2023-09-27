@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Web applications, accessibility"
   - "accessibility, Web applications"
 ms.assetid: 426bf023-bb34-43c4-9edb-c307191c8170
-author: TerryGLee
-ms.author: tglee
+author: j-martens
+ms.author: jmartens
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

@@ -7,8 +7,8 @@ f1_keywords:
 - vs.externaltools
 helpviewer_keywords:
 - external tools [Visual Studio]
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

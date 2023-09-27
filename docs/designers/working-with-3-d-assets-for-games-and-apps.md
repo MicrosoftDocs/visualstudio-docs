@@ -4,8 +4,8 @@ description: Learn about the Visual Studio tools that you can use to create or m
 ms.date: 11/04/2016
 ms.topic: conceptual
 ms.assetid: 910d673b-c884-4eeb-9928-0e89f3d38cb6
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-designers
 ms.workload:

@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Push to a remote in Visual Studio by using GitHub or Azure DevOps.
 ms.date: 12/01/2022
 ms.topic: how-to
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general

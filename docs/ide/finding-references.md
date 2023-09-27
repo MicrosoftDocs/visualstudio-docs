@@ -6,8 +6,8 @@ ms.topic: conceptual
 helpviewer_keywords:
 - code editor, find all references
 - find all references
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

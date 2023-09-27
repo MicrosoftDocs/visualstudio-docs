@@ -10,8 +10,8 @@ helpviewer_keywords:
 - Debug.ListRegisters command
 - ListRegisters command
 ms.assetid: 19a9d789-f6c9-46b3-b1f6-4934fc33e055
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

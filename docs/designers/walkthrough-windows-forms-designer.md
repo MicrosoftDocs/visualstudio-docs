@@ -5,8 +5,8 @@ ms.date: 07/10/2023
 ms.topic: tutorial
 helpviewer_keywords:
 - Windows Forms Designer, get started
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-designers
 ---

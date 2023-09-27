@@ -7,8 +7,8 @@ f1_keywords:
 - VS.CallHierarchy
 helpviewer_keywords:
 - Call Hierarchy
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
