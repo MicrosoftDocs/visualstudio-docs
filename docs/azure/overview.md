@@ -16,7 +16,7 @@ monikerRange: ">=vs-2019"
 
 Application development can be much easier if you take advantage of cloud services to handle many common issues that your or your application development teams would otherwise have to implement. When you use cloud services hosted in the Azure cloud, you leverage a reliable, testable, and highly available cloud environment that is managed by Microsoft instead of spending many months and years implementing the same common functionality that should ideally be done by someone else, so that you can focus on what is truly unique to your application.
 
-With Visual Studio, you can both develop apps that run in the Azure cloud, and connect to Azure services in your on-premises, desktop, and mobile apps. Visual Studio is the most full-featured and complete environment for Windows developers to connect .NET applications and services, and ASP.NET web applications to Azure services and develop ASP.NET web sites and applications. Visual Studio also supports development in other technology stacks, such as Node.js and Python, which you can use to create web sites and web applications that you can deploy to Azure using the Azure command-line interface (CLI). C++ developers can access Azure services such as Azure storage using a C++ client library, and IoT device developers using C and C++ can connect devices and services to Azure. See [Cloud and web programming in Visual C++](/cpp/cloud/cloud-and-web-programming-in-visual-cpp?view=msvc-170).
+With Visual Studio, you can both develop apps that run in the Azure cloud, and connect to Azure services in your on-premises, desktop, and mobile apps. Visual Studio is the most full-featured and complete environment for Windows developers to connect .NET applications and services, and ASP.NET web applications to Azure services and develop ASP.NET web sites and applications. Visual Studio also supports development in other technology stacks, such as Node.js and Python, which you can use to create web sites and web applications that you can deploy to Azure using the Azure command-line interface (CLI). C++ developers can access Azure services such as Azure storage using a C++ client library, and IoT device developers using C and C++ can connect devices and services to Azure. See [Cloud and web programming in Visual C++](/cpp/cloud/cloud-and-web-programming-in-visual-cpp).
 
 In this article, you learn about how Visual Studio can help with Azure development, whether you're getting a web site up and running, connecting to services like databases, secrets management, caching, or storage. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
@@ -81,7 +81,7 @@ Azure Cache for Redis provides an in-memory data store for Azure services, web s
 - Cache output (this can reduce CPU usage)
 - Cache session state
 
-Learn more at [What is Azure Cache for Redis?](/azure/azure-cache-for-redis/cache-overview) or get started with [Connect to Azure Cache for Redis by using Visual Studio Connected Services](azure-cache-for-redis-add-connected-services.md).
+Learn more at [What is Azure Cache for Redis?](/azure/azure-cache-for-redis/cache-overview) or get started with [Connect to Azure Cache for Redis by using Visual Studio Connected Services](azure-cache-for-redis-add-connected-service.md).
 
 ### Authenticating users
 
@@ -115,7 +115,7 @@ ASP.NET web apps can benefit from running worker services. There's no additional
 
 ## Other web application technologies
 
-Developers who use JavaScript and Python can use Visual Studio or [Visual Studio Code](https://code.visualstudio.com/docs) for Azure development. With either development environment, you'll install the [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) and can follow tutorials in the documentation for Azure CLI and you can find quickstarts and tutorials in the documentation for every Azure service that helps you add the connection code manually.
+Developers who use JavaScript and Python can use Visual Studio or [Visual Studio Code](https://code.visualstudio.com/docs) for Azure development. With either development environment, you'll [install the Azure CLI](/cli/azure/install-azure-cli) and can follow tutorials in the documentation for Azure CLI and you can find quickstarts and tutorials in the documentation for every Azure service that helps you add the connection code manually.
 
 Node.js offers another option for web application development with server-side JavaScript. Learn more at [What is Azure for JavaScript developers](/azure/developer/javascript/core/what-is-azure-for-javascript-development) Get started with [Deploy a Node.js web app in Azure](/azure/app-service/quickstart-nodejs?tabs=windows&pivots=development-environment-vscode).
 

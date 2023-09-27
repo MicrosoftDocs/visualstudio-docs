@@ -1,6 +1,6 @@
 ---
 title: Work with Azure with Visual Studio
-description: Learn about how you can connect your apps to Azure services in Visual Studio and deploy them to the cloud.
+description: Learn about how you can provision Azure resources, browse existing Azure resources, and deploy applications to Azure services with Visual Studio.
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
