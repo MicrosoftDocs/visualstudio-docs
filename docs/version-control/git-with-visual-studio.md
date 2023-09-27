@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Learn how Git makes source control in Visual Studio more productive.
 ms.date: 05/17/2023
 ms.topic: overview
-author: houghj16
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general

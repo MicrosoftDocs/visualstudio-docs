@@ -5,8 +5,8 @@ ms.date: 01/02/2018
 ms.topic: how-to
 helpviewer_keywords:
 - item templates [Visual Studio], creating
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ---

@@ -6,8 +6,8 @@ ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.Profiles
 ms.assetid: 4e69f97b-2bd2-4619-a5f9-92ca2e814de3
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

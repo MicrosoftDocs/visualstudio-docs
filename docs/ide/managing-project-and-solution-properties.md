@@ -3,8 +3,8 @@ title: Manage project and solution properties
 description: Learn how to manage both the project properties and the solution properties in Visual Studio.
 ms.date: 05/26/2023
 ms.topic: conceptual
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

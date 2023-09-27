@@ -9,8 +9,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - Generate From Usage
 - Test-First Development
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
