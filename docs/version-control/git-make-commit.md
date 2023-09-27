@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Make a Git commit in Visual Studio by using Git providers such as GitHub or Azure DevOps.
 ms.date: 05/26/2023
 ms.topic: how-to
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general

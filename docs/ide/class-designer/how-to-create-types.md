@@ -17,8 +17,8 @@ helpviewer_keywords:
 - types [Visual Studio], class diagrams
 - attributes [Visual Studio], applying custom
 ms.assetid: 94458c31-28bc-40e2-9737-85868788a0e5
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

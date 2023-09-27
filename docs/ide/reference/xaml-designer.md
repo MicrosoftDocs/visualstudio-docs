@@ -6,8 +6,8 @@ ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.XAMLDesigner
 - VS.ToolsOptionsPages.XAML_Designer.General
-author: TerryGLee
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

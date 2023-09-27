@@ -15,8 +15,8 @@ helpviewer_keywords:
 - documents, searching
 - files, searching
 - Find in Files tab, Find and Replace window
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

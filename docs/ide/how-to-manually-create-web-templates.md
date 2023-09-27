@@ -8,8 +8,8 @@ helpviewer_keywords:
 - templates [Visual Studio], Web
 - Web templates [Visual Studio]
 - project templates [Visual Studio], Web
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ---

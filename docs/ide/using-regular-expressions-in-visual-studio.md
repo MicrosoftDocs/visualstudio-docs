@@ -12,8 +12,8 @@ f1_keywords:
 helpviewer_keywords:
 - regular expressions [Visual Studio]
 - regular expressions
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

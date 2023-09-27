@@ -6,8 +6,8 @@ ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.XML.Miscellaneous
 ms.assetid: b6538cbe-badd-4313-a1fb-39e906736bbe
-author: TerryGLee
-ms.author: tglee
+author: maddymontaquila
+ms.author: maleger
 manager: jmartens
 ms.technology: vs-ide-general
 ---

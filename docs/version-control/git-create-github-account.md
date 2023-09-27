@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Create a GitHub account to use with Visual Studio so that you can manage your code and collaborate with your team.
 ms.date: 10/29/2021
 ms.topic: how-to
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general

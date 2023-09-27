@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "list source command"
   - "ListSource command"
 ms.assetid: e45f08d2-f4a3-49c3-9452-aa60508e2f74
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

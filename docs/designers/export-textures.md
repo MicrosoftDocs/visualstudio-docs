@@ -3,8 +3,8 @@ title: Export texture formats with Image Content Pipeline
 description: Learn how to export textures, such as those that include mipmaps or premultipled alpha, as part of building your projects.
 ms.date: 06/23/2023
 ms.topic: how-to
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-designers
 ms.workload:

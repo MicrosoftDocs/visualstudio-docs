@@ -5,8 +5,8 @@ ms.date: 01/16/2019
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.F%2523.Advanced"
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

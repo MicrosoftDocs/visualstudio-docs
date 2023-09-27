@@ -5,8 +5,8 @@ ms.date: 07/26/2019
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Projects.Locations
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - Windows Forms Designer options
 - Options dialog box, Windows Forms Designer
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ---

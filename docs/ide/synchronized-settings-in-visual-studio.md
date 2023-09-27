@@ -4,8 +4,8 @@ description: Learn how to synchronize your Visual Studio settings across multipl
 ms.date: 05/20/2022
 ms.topic: conceptual
 ms.assetid: a3d2ea29-be5d-4012-9820-44b06adbb7dd
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

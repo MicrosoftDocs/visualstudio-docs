@@ -7,8 +7,8 @@ f1_keywords:
 - vs.findcommandbox
 helpviewer_keywords:
 - Find/Command box
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
