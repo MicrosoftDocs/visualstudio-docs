@@ -132,8 +132,9 @@ Administrator updates may return the following return codes: 
 
 For an exhaustive list of client error codes, see [Use command-line parameters to install Visual Studio](./use-command-line-parameters-to-install-visual-studio.md#error-codes).
 
-[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)
-[!INCLUDE[install_get_support_md](includes/install_get_support_admin_updates_md.md)
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
+
+[!INCLUDE[install_get_support_admin_updates_md](includes/install_get_support_admin_updates_md.md)]
 
 ## See also
 
