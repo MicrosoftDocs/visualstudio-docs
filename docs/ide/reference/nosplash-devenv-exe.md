@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Devenv, /NoSplash switch"
   - "/NoSplash Devenv switch"
   - "NoSplash Devenv switch"
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.workload:
   - "multiple"
