@@ -31,7 +31,7 @@ This guide is designed to cover the top user scenarios when working with Tool Wi
 
 ## Create a tool window
 
-Creating a tool window with the new Extensibility Model is as simple as extending the base class [`Microsoft.VisualStudio.Extensibility.ToolWindows.ToolWindow`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.md/#toolwindow-type) and adorning your class with the attribute [`Microsoft.VisualStudio.Extensibility.VisualStudioContribution`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#T-Microsoft-VisualStudio-Extensibility-VisualStudioContributionAttribute).
+Creating a tool window with the new Extensibility Model is as simple as extending the base class [`Microsoft.VisualStudio.Extensibility.ToolWindows.ToolWindow`](/dotnet/api/microsoft.visualstudio.extensibility.toolwindows.toolwindow) and adorning your class with the attribute [`Microsoft.VisualStudio.Extensibility.VisualStudioContribution`](/dotnet/api/microsoft.visualstudio.extensibility.visualstudiocontributionattribute).
 
 ```csharp
 [VisualStudioContribution]
@@ -40,12 +40,12 @@ public class MyToolWindow : ToolWindow
 
 ### ToolWindow attribute
 
-The `ToolWindow` abstract class requires the implementation of the [`ToolWindowConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.md/#P-Microsoft-VisualStudio-Extensibility-ToolWindows-ToolWindow-ToolWindowConfiguration) configuration, which has a few properties that you should become familiar with:
+The `ToolWindow` abstract class requires the implementation of the [`ToolWindowConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.toolwindows.toolwindowconfiguration) configuration, which has a few properties that you should become familiar with:
 
 | Parameter | Type | Required | Description | Default Value |
 | --------- |----- | -------- | ----------- | ------------- |
-| Placement | ToolWindowPlacement | No | The location in Visual Studio where the tool window should be opened the first time. [`ToolWindowPlacement.DockedTo`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#M-Microsoft-VisualStudio-Extensibility-ToolWindows-ToolWindowPlacement-DockedTo-System-Guid-) allows docking the tool window to a GUID matching an old VSIX-style tool window ID. See more about [ToolWindowPlacement](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#T-Microsoft-VisualStudio-Extensibility-ToolWindows-ToolWindowPlacement). | ToolWindowPlacement.Floating |
-| DockDirection | Dock | No | The direction relative to the placement where the tool window should be docked when opened the first time. See [Dock](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#T-Microsoft-VisualStudio-Extensibility-ToolWindows-Dock). | Dock.None |
+| Placement | ToolWindowPlacement | No | The location in Visual Studio where the tool window should be opened the first time. [`ToolWindowPlacement.DockedTo`](/dotnet/api/microsoft.visualstudio.extensibility.toolwindows.toolwindowplacement.dockedto) allows docking the tool window to a GUID matching an old VSIX-style tool window ID. See more about [ToolWindowPlacement](/dotnet/api/microsoft.visualstudio.extensibility.toolwindows.toolwindowplacement). | ToolWindowPlacement.Floating |
+| DockDirection | Dock | No | The direction relative to the placement where the tool window should be docked when opened the first time. See [Dock](/dotnet/api/microsoft.visualstudio.extensibility.toolwindows.dock). | Dock.None |
 | AllowAutoCreation | Bool | No | Specifies whether or not the tool window can be created automatically. Setting this to false means that tool windows that are open when Visual Studio is closed will not be automatically restored when Visual Studio is opened again. | `true` |
 
 ### Example
@@ -170,7 +170,7 @@ Another way of controlling the visibility of a tool window, besides using comman
 
 ### ToolWindowVisibleWhenAttribute
 
-The attribute [`Microsoft.VisualStudio.Extensibility.ToolWindows.ToolWindowVisibleWhenAttribute`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#toolwindowvisiblewhenattribute-type) has a few parameters that you should become familiar with:
+The attribute [`Microsoft.VisualStudio.Extensibility.ToolWindows.ToolWindowConfiguration.VisibleWhenAttribute`](/dotnet/api/microsoft.visualstudio.extensibility.toolwindows.toolwindowconfiguration.visiblewhen) has a few parameters that you should become familiar with:
 
 | Parameter | Type | Required | Description |
 | --------- |----- | -------- | ----------- |
