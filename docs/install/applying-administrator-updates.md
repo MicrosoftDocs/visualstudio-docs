@@ -107,11 +107,11 @@ For an exhaustive list of all the supported administrator update behaviors, refe
 
 There are three main methods of configuring administrator updates: via [policies](#policies)) via a [configuration file](#configuration-file) on the client machine, or via a [modification of the Administrator Update deployment package within SCCM Configuration Manager or Microsoft Endpoint Manager](#manually-updating-the-administrator-updates-package-in-sccm-or-intune).   
 
-### Policies
+#### Policies
 
 Administrator updates look for specific policy configuration such as **AdministratorUpdatesEnabled** as described in [Configure policies for enterprise deployments](./configure-policies-for-enterprise-deployments.md#controlling-administrator-updates). Admin access on the client computer is required to configure policies.
 
-### Configuration file
+#### Configuration file
 
 Some settings can be preserved on the client machine in an optional configuration file, which has the benefit of setting it only once and having it apply to all future administrator updates. The configuration file approach behaves like a registry key and is machine wide, which means it will apply to all installs of Visual Studio installed on the client machine. The standard location for the configuration file is at `C:\ProgramData\Microsoft\VisualStudio\updates.config`. However, if you wish to use another location to store the file, you can do so by configuring the **UpdateConfigurationFile** policy and set the value to the path of your config file. 
 
@@ -124,11 +124,11 @@ Some settings can be preserved on the client machine in an optional configuratio
   "checkPendingReboot" :  "true" 
   ```
 
-### Manually updating the Administrator Updates Package in SCCM or Intune
+#### Manually updating the Administrator Updates Package in SCCM or Intune
 
 The command-line parameters of an individual administrator update package can be manually modified in either SCCM or Microsoft Endpoint Manager by the IT Admin. We don't generally recommend this approach, although it's technically possible.
 
-## Verification, reports, and troubleshooting error codes
+## Verification, error codes, and troubleshooting
 
 ### Determining that Visual Studio was updated
 
