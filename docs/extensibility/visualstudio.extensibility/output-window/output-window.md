@@ -121,7 +121,7 @@ public override async Task InitializeAsync(CancellationToken cancellationToken)
 
 ## Write to the Output window
 
-The [`OutputWindow`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.md#outputwindow-type) instance obtained in [Get an Output window channel](#get-an-output-window-channel) has a [`System.IO.TextWriter`](/dotnet/api/system.io.textwriter) property called `Writer`, which supports familiar operations for writing text, such as:
+The [`OutputWindow`](/dotnet/api/microsoft.visualstudio.extensibility.documents.outputwindow) instance obtained in [Get an Output window channel](#get-an-output-window-channel) has a [`System.IO.TextWriter`](/dotnet/api/system.io.textwriter) property called `Writer`, which supports familiar operations for writing text, such as:
 
 - [`Write()`](/dotnet/api/system.io.textwriter.write)
 - [`WriteAsync()`](/dotnet/api/system.io.textwriter.writeasync)

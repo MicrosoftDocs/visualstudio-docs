@@ -28,7 +28,7 @@ This overview covers these top scenarios for working with menus and toolbars:
 
 ## Create a menu
 
-To create a menu with the new Extensibility Model, add a static [`Microsoft.VisualStudio.Extensibility.Commands.MenuConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#MenuConfiguration-type) property, adorning the class with the `VisualStudioContribution` attribute. This static property can be placed on any class in your Extension project. In the new Extensibility Model samples, they exist on the `Extension` class for simplicity. Menus without any visible children won't be visible in the UI.
+To create a menu with the new Extensibility Model, add a static [`Microsoft.VisualStudio.Extensibility.Commands.MenuConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.menuconfiguration) property, adorning the class with the `VisualStudioContribution` attribute. This static property can be placed on any class in your Extension project. In the new Extensibility Model samples, they exist on the `Extension` class for simplicity. Menus without any visible children won't be visible in the UI.
 
 ```csharp
 [VisualStudioContribution]
@@ -41,7 +41,7 @@ public class ExtensionEntrypoint : Extension
 
 ### MenuConfiguration class
 
-The [`MenuConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#MenuConfiguration-type) class has a few parameters that you should become familiar with:
+The [`MenuConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.menuconfiguration) class has a few parameters that you should become familiar with:
 
 | Parameter | Type | Required | Description |
 | --------- |----- | -------- | ----------- |
@@ -145,7 +145,7 @@ In the two previous examples, the resulting menu would be identical in the IDE. 
 
 ## Create a toolbar
 
-To create a toolbar with the new Extensibility Model, add a static [`Microsoft.VisualStudio.Extensibility.Commands.ToolbarConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#ToolbarConfiguration-type) property, adorning the class with the `VisualStudioContribution` attribute. This static property can be placed on any class in your Extension project. In the new Extensibility Model samples they exist on the `Extension` class for simplicity.
+To create a toolbar with the new Extensibility Model, add a static [`Microsoft.VisualStudio.Extensibility.Commands.ToolbarConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.toolbarconfiguration) property, adorning the class with the `VisualStudioContribution` attribute. This static property can be placed on any class in your Extension project. In the new Extensibility Model samples they exist on the `Extension` class for simplicity.
 
 ```csharp
 [VisualStudioContribution]
@@ -160,7 +160,7 @@ Leaving the `Placement` property of the `ToolbarConfiguration` as `null` will pl
 
 ### ToolbarConfiguration class
 
-The [`ToolbarConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#ToolbarConfiguration-type) class has a few parameters that you should become familiar with:
+The [`ToolbarConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.toolbarconfiguration) class has a few parameters that you should become familiar with:
 
 | Parameter | Type | Required | Description |
 | --------- |----- | -------- | ----------- |
@@ -226,7 +226,7 @@ In the two examples here, the resulting toolbar would be identical in the IDE. T
 
 A group is a visual grouping of items where a separator will be placed in between the last and first items of adjacent groups. In the sections above, it describes how to create groups inside of the context of the `Children` property of a `MenuConfiguration` or `ToolbarConfiguration`. It is also possible to define groups inside of their own `CommandGroupConfiguration`. This is useful when you would like to parent a group to an existing menu or toolbar in Visual Studio without defining you're own menu or toolbar. It can also be useful if you would like to format your code in a way that separates your group definitions from your menu and toolbar definitions.
 
-To create a group with the new Extensibility Model, add a static [`Microsoft.VisualStudio.Extensibility.Commands.CommandGroupConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#CommandGroupConfiguration-type) property. This static property can be placed on any class in your Extension project. In the new Extensibility Model samples they exist on the `Extension` class for simplicity. If a `CommandGroupConfiguration` specifies a `Placement`, it should also be adorned with the `VisualStudioContribution` attribute.
+To create a group with the new Extensibility Model, add a static [`Microsoft.VisualStudio.Extensibility.Commands.CommandGroupConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandgroupconfiguration) property. This static property can be placed on any class in your Extension project. In the new Extensibility Model samples they exist on the `Extension` class for simplicity. If a `CommandGroupConfiguration` specifies a `Placement`, it should also be adorned with the `VisualStudioContribution` attribute.
 
 ```csharp
 public static CommandGroupConfiguration MyGroup => new();
@@ -237,7 +237,7 @@ private static CommandGroupConfiguration MyGroupWithPlacement => new(GroupPlacem
 
 ### CommandGroupConfiguration class
 
-The [`CommandGroupConfiguration`](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Contracts.md/#CommandGroupConfiguration-type) class has a few parameters that you should become familiar with:
+The [`CommandGroupConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.commands.commandgroupconfiguration) class has a few parameters that you should become familiar with:
 
 | Parameter | Type | Required | Description |
 | --------- |----- | -------- | ----------- |
