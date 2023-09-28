@@ -63,7 +63,7 @@ By default, the client machine's SYSTEM account will be downloading and installi
 
 Error codes for Visual Studio Administrator updates are defined on the [Applying Administrator Updates](/visualstudio/install/applying-administrator-updates#error-codes-and-conditions) page. 
 
-**Visual Studio Client Detector Utility**
+### Visual Studio Client Detector Utility
 
 The [Visual Studio Client Detector Utility](https://support.microsoft.com/help/5001148) must be installed on the client machines in order for the Visual Studio administrator updates to be properly recognized and received. This utility is used to determine where the Visual Studio instances are located on disk. 
 
