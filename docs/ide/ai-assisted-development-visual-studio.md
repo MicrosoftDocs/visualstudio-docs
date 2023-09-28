@@ -12,7 +12,7 @@ ms.workload:
 - multiple
 monikerRange: vs-2022
 ---
-# About AI-assisted development in Visual Studio
+# AI-assisted development in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -27,11 +27,10 @@ The following table describes key ways in which an AI assistant can help you dev
        **Code faster**
     :::column-end::: 
     :::column span="2"::: 
-       Let AI help you with:
-       + Code generation and completions
-       + Code predictions based on your programming patterns 
+       Let AI help you:
+       + Get inspired by generation code (for example, how write code to perform a task by describing it in natural language)
+       + Go faster by code completions predicted based on your programming patterns
        + Code refactoring through AI-driven context-aware recommendations
-       + Code reviews/analysis
     :::column-end::: 
 :::row-end:::
 :::row::: 
@@ -40,7 +39,7 @@ The following table describes key ways in which an AI assistant can help you dev
     :::column-end::: 
     :::column span="2":::
        Ask the AI assistant for:
-        + Human-readable explanations of code sections
+        + Human-readable explanations of code sections (for example, when you're trying to understand someone else's code)
         + Answers to your programming questions and code snippets 
     :::column-end::: 
 :::row-end:::
@@ -50,7 +49,7 @@ The following table describes key ways in which an AI assistant can help you dev
     :::column-end::: 
     :::column span="2":::
        Get help profiling and debugging your code:
-        +  Optimized performance based on AI recommendations
+        +  Optimize performance based on AI suggestions
         +  AI-identified bugs & resolutions
     :::column-end::: 
 :::row-end:::
