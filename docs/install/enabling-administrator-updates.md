@@ -69,9 +69,11 @@ The [Visual Studio Client Detector Utility](https://support.microsoft.com/help/5
 
 The Visual Studio Client Detector Utility is included and installed with all Visual Studio product updates that were released on or after May 12, 2020.  It's included as a prerequisite with all the Visual Studio administrator updates, and it's also available on the [Microsoft Update Catalog](https://catalog.update.microsoft.com) to deploy and install independently.
 
-[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
+## Support or troubleshooting
 
-[!INCLUDE[install_get_support_admin_updates_md](includes/install_get_support_admin_updates_md.md)]
+Sometimes, things can go wrong. If your Visual Studio installation fails, see [Troubleshoot Visual Studio installation and upgrade issues](troubleshooting-installation-issues.md) for step-by-step guidance. 
+
+You can also [provide feedback about Visual Studio administrator updates or report issues that affect the updates](troubleshoot-installation-issues#administrator-updates).
 
 ## Next steps
 

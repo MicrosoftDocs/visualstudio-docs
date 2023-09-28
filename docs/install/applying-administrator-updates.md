@@ -168,7 +168,7 @@ For an exhaustive list of client error codes, see [Use command-line parameters
 
 Sometimes, things can go wrong. If your Visual Studio installation fails, see [Troubleshoot Visual Studio installation and upgrade issues](troubleshooting-installation-issues.md) for step-by-step guidance. 
 
-You can also [provide feedback about Visual Studio administrator updates or report issues that affect the updates](troubleshoot-installation-issues.md#administrator-updates).
+You can also [provide feedback about Visual Studio administrator updates or report issues that affect the updates](troubleshoot-installation-issues#administrator-updates).
 
 ## Next steps
 
