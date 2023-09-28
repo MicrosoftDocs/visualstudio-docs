@@ -2,7 +2,7 @@
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.date: 11/28/2022
+ms.date: 9/28/2023
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ms.topic: include
