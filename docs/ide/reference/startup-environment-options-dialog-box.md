@@ -6,8 +6,8 @@ ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Environment.Startup"
 ms.assetid: 9d517203-3c62-4660-b7b4-ea7d032dcb1e
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - editor options
 - configure editor
 - editor settings
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

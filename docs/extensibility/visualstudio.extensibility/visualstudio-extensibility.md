@@ -112,9 +112,9 @@ A Visual Studio solution containing all samples can be found at [Samples.sln](ht
 
 ## API Docs
 
-* [Microsoft.VisualStudio.Extensibility](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.md)
-* [Microsoft.VisualStudio.Extensibility.Editor](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md)
-* [Microsoft.VisualStudio.ProjectSystem.Query](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.ProjectSystem.Query.md)
+* [Microsoft.VisualStudio.Extensibility](/dotnet/api/microsoft.visualstudio.extensibility)
+* [Microsoft.VisualStudio.Extensibility.Editor](/dotnet/api/microsoft.visualstudio.extensibility.editor)
+* [Microsoft.VisualStudio.ProjectSystem.Query](/dotnet/api/microsoft.visualstudio.projectsystem.query)
 
 ## Send feedback
 

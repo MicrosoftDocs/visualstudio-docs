@@ -6,8 +6,8 @@ ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.U-SQL.IntelliSense"
   - "VS.ToolsOptionsPages.Text_Editor.HQL.IntelliSense"
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

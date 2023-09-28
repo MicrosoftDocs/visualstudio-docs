@@ -8,8 +8,8 @@ helpviewer_keywords:
 - Devenv, /SafeMode switch
 - SafeMode switch
 ms.assetid: b191f6a5-8f12-47ec-bcc7-b68149a22aa8
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

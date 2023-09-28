@@ -1,5 +1,5 @@
 ---
-title: Debug with Copilot | Microsoft Docs
+title: Debug with GitHub Copilot
 description: Use Copilot to help debug your apps and provide performance insights.
 ms.date: 09/14/2023
 ms.topic: how-to
@@ -19,7 +19,7 @@ monikerRange: '>= vs-2022'
 ms.workload: 
   - multiple
 ---
-# Debug your app with Copilot
+# Debug your app with GitHub Copilot in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

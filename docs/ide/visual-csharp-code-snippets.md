@@ -8,8 +8,8 @@ helpviewer_keywords:
 - code snippets [C#]
 - Code Snippet Inserter [C#]
 - C#, code snippets
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

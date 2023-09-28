@@ -5,8 +5,8 @@ ms.date: 08/09/2019
 ms.topic: overview
 helpviewer_keywords:
 - Windows Forms Designer
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-designers
 ---
