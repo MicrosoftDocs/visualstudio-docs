@@ -73,7 +73,7 @@ The Visual Studio Client Detector Utility is included and installed with all Vis
 
 Sometimes, things can go wrong. If your Visual Studio installation fails, see [Troubleshoot Visual Studio installation and upgrade issues](troubleshooting-installation-issues.md) for step-by-step guidance. 
 
-You can also [provide feedback about Visual Studio administrator updates or report issues that affect the updates](troubleshoot-installation-issues#administrator-updates).
+You can also [provide feedback about Visual Studio administrator updates or report issues that affect the updates](/troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues#administrator-updates).
 
 ## Next steps
 
