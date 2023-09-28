@@ -28,7 +28,7 @@ The following table describes key ways in which an AI assistant can help you dev
     :::column-end::: 
     :::column span="2"::: 
        Let AI help you:
-       + Get inspired by generation code (for example, how write code to perform a task by describing it in natural language)
+       + Get inspired by generation code (for example, how to write code to perform a task by describing it in natural language)
        + Predicting what you'll code next based on your programming patterns (completions)
        + Code refactoring through AI-driven context-aware recommendations
     :::column-end::: 
@@ -112,7 +112,7 @@ The following table compares the capabilities of GitHub Copilot (and GitHub Copi
 | Measure app performance through profiling | **Yes**, with Chat extension enabled. <br/>[Learn more](https://devblogs.microsoft.com/visualstudio/simplified-code-refinement-and-debugging-with-github-copilot-chat/#cpu-usage-auto-insights-in-the-profiler) | No |
 | Measure app performance through profiling | **Yes** <br/>[Learn more](https://devblogs.microsoft.com/visualstudio/simplified-code-refinement-and-debugging-with-github-copilot-chat/#cpu-usage-auto-insights-in-the-profiler) | **Yes** |
 | API usage examples | No | **Yes** |
-| Languages supported | Supports several programming languages and frameworks, including but not limited to: C#, C++, Python, JavaScript, and TypeScript| C#, XAML, C++, Javascript, Typescript, Visual Basic |
+| Languages supported | Supports several programming languages and frameworks, including but not limited to: C#, C++, Python, JavaScript, and TypeScript| C#, XAML, C++, JavaScript, TypeScript, Visual Basic |
 
 ## Next steps
 
