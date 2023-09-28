@@ -20,14 +20,14 @@ In this article, you’ll learn about the AI-assisted development capabilities y
 
 ## How does AI-assisted development help?
 
-1. **Code faster by using AI-assistance**:
+Here are some of the key ways in which an AI assistant can help you in Visual Studio: 
 
+1. **Code faster by using AI-assistance**:
   - Code generation and completions
   - Code predictions based on your programming patterns 
   - Code refactoring throug AI-driven context-aware suggestions & recommendations
 
 1. **Understand code better** through:
-
   - Human-readable code explanations generated on-demand
   - Easy-to-understand answers and snippets for your programming questions
 
