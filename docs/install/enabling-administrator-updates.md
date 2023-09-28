@@ -32,11 +32,11 @@ Configuration Manager (SCCM) can be set up to synchronize and download the Visua
   1. In the SCCM console, select **Administration** (bottom-left), then select **Site Configuration** (middle left), then select **Sites**, and select your site server.
   2. On the **Home** tab ribbon at the top, in the **Settings** group button, select **Configure Site Components**, and then select **Software Update Point**.
   3. In the **Software Update Point Component Properties** dialog box:
-    * On the **Products** tab, under the **Developer Tools, Runtimes, and Redistributables** hierarchy, choose the versions of Visual Studio you want to synchronize.
-    * On the **Classifications** tab, make sure “Security Updates”, “Feature Packs”, and “Updates” are selected.
+      - On the **Products** tab, under the **Developer Tools, Runtimes, and Redistributables** hierarchy, choose the versions of Visual Studio you want to synchronize.
+      - On the **Classifications** tab, make sure “Security Updates”, “Feature Packs”, and “Updates” are selected.
   4. Synchronize the software updates with the WSUS server by choosing **Software Library** (bottom-left), and then on the **Home** tab ribbon at the top, select the **Synchronize Software Updates** button. Synchronizing Software Updates will make the available Visual Studio administrator updates visible in, and able to be deployed from, the SCCM console.
 
-Only Visual Studio _security_ Administrator updates are published to WSUS by default. If you want to deploy feature or quality administrator updates through SCCM, you'll need to [manually import them from the Microsoft Catalog](/mem/configmgr/sum/get-started/synchronize-software-updates#import-updates-from-the-microsoft-update-catalog), and then deploy them.
+  Only Visual Studio _security_ Administrator updates are published to WSUS by default. If you want to deploy feature or quality administrator updates through SCCM, you'll need to [manually import them from the Microsoft Catalog](/mem/configmgr/sum/get-started/synchronize-software-updates#import-updates-from-the-microsoft-update-catalog), and then deploy them.
 
 After you perform these steps, you can use the software update management capabilities of Configuration Manager (SCCM) to deploy the Visual Studio administrator updates. The different types and characteristics of Visual Studio administrator updates are described in [Applying administrator updates](./applying-administrator-updates.md), which provides guidance on how and when they should be distributed throughout your organization. 
 
@@ -46,13 +46,13 @@ For more information about Configuration Manager (SCCM) functionality and option
 
 The client machines must be configured properly if they're going to recognize and accept Visual Studio administrator updates via either SCCM or Intune. 
 
-**Encoding administrator intent on the client machines**
+### Encoding administrator intent on the client machines
 
 The client computers must be enabled to receive Visual Studio administrator updates. This step is necessary to make sure that the updates aren't unintentionally or accidentally pushed out to unsuspecting client computers.
 
 The **AdministratorUpdatesEnabled** policy, implemented via a registry key, is designed for the administrator to encode administrator intent. For details on how to set this policy, refer to [Configure policies for enterprise deployments](configure-policies-for-enterprise-deployments.md#controlling-administrator-updates). Admin access on the client computer is required to create and set the value of this policy.
 
-**Ensuring the account has the right privileges and permissions**
+### Ensuring the account has the right privileges and permissions
 
 By default, the client machine's SYSTEM account will be downloading and installing the Visual Studio administrator updates. Thus, the SYSTEM account must have administrative privileges to the machine. Additionally, depending on [where the client is configured to obtain the product sources from](/visualstudio/install/update-visual-studio#configure-source-location-of-updates-1), the SYSTEM account must also either have access to the [Visual Studio endpoints](/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server) on the internet, or have sufficient permissions to read from the network layout location in order to download the updated product bits. 
 
@@ -75,7 +75,7 @@ Sometimes, things can go wrong. If your Visual Studio installation fails, see [T
 
 You can also [provide feedback about Visual Studio administrator updates or report issues that affect the updates](/troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues#administrator-updates).
 
-## Next steps
+## See also
 
 To learn more, explore the following additional resources:
 

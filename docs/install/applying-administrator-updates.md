@@ -86,32 +86,32 @@ The most common configuration options are as follows:
 
 - [**Windows Update for Business Microsoft Update opt-in**](/windows/deployment/update/waas-manage-updates-wufb)**
 
-Cloud connected client machines that are managed by Intune must be configured for Windows Update for Business and opted into the [AllowMUUpdateServicePolicy](/windows/client-management/mdm/policy-csp-update#update-allowmuupdateservice) in order to receive Visual Studio administrator updates through the Windows Update for Business Microsoft Update channel. 
+    Cloud connected client machines that are managed by Intune must be configured for Windows Update for Business and opted into the [AllowMUUpdateServicePolicy](/windows/client-management/mdm/policy-csp-update#update-allowmuupdateservice) in order to receive Visual Studio administrator updates through the Windows Update for Business Microsoft Update channel. 
 
 - [**Visual Studio administrator update opt-in**](../install/enabling-administrator-updates.md#encoding-administrator-intent-on-the-client-machines)
 
-This registry key is required for the client machine to receive administrator updates through either the WSUS or Windows Update for Business Microsoft Update channels. It's a machine-wide registry key, which means it applies to all instances of Visual Studio installed on the box.
+    This registry key is required for the client machine to receive administrator updates through either the WSUS or Windows Update for Business Microsoft Update channels. It's a machine-wide registry key, which means it applies to all instances of Visual Studio installed on the box.
 
 - **Source location of the updated product bits**
 
-When executing the update, the client machines will download the updated product bits from either the internet via the Microsoft CDN or from a network layout share that the admin has prepared and maintained. In both of these cases, the account on the client machine that is executing the update (typically SYSTEM, but [can be customized to USER](/mem/configmgr/apps/deploy-use/create-applications#bkmk_dt-ux)) must have both administrative privileges on the machine and access to the source location of product bits. 
-* If the product is being sourced from the internet, then the SYSTEM account executing the update must have access to at least the [Visual Studio endpoints](/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server). 
-* If the product is being sourced from a network layout location then the following conditions must be true before the administrator update can be successfully deployed:
-* The account executing the update must have permissions to the network share. For example, if SYSTEM accounts are executing the administrator updates, then you'll need to give the "Domain Computers" group permissions to the network layout share.  
-* The client machine must have, at some point, already run the bootstrapper from that network layout location. Ideally, the original client install would have happened using the bootstrapper from the network layout, but it's also possible to have just installed an update using an updated bootstrapper in that same network location. Either one of these actions would embed, on the client machine, a connection with that particular layout location.
-* The network layout location (where the client is connected to) must be [updated to contain the updated product bits](../install/update-a-network-installation-of-visual-studio.md) that the administrator update wants to deploy.
+    When executing the update, the client machines will download the updated product bits from either the internet via the Microsoft CDN or from a network layout share that the admin has prepared and maintained. In both of these cases, the account on the client machine that is executing the update (typically SYSTEM, but [can be customized to USER](/mem/configmgr/apps/deploy-use/create-applications#bkmk_dt-ux)) must have both administrative privileges on the machine and access to the source location of product bits. 
+    * If the product is being sourced from the internet, then the SYSTEM account executing the update must have access to at least the [Visual Studio endpoints](/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server). 
+    * If the product is being sourced from a network layout location then the following conditions must be true before the administrator update can be successfully deployed:
+    * The account executing the update must have permissions to the network share. For example, if SYSTEM accounts are executing the administrator updates, then you'll need to give the "Domain Computers" group permissions to the network layout share.  
+    * The client machine must have, at some point, already run the bootstrapper from that network layout location. Ideally, the original client install would have happened using the bootstrapper from the network layout, but it's also possible to have just installed an update using an updated bootstrapper in that same network location. Either one of these actions would embed, on the client machine, a connection with that particular layout location.
+    * The network layout location (where the client is connected to) must be [updated to contain the updated product bits](../install/update-a-network-installation-of-visual-studio.md) that the administrator update wants to deploy.
 
 For an exhaustive list of all the supported administrator update behaviors, refer to the [Controlling Administrator Update Group Policies](./configure-policies-for-enterprise-deployments.md#controlling-administrator-updates) or the [Use command-line parameters to update Visual Studio](./use-command-line-parameters-to-install-visual-studio.md#administrator-update-command-and-command-line-parameters) documentation.
 
 ### Methods for configuring an administrator update
 
-There are three main methods of configuring administrator updates: via policies, via a configuration file on the client machine, or via a modification of the Administrator Update deployment package within SCCM Configuration Manager or Microsoft Endpoint Manager.   
+There are three main methods of configuring administrator updates: via [policies](#policies)) via a [configuration file](#configuration-file) on the client machine, or via a [modification of the Administrator Update deployment package within SCCM Configuration Manager or Microsoft Endpoint Manager](#manually-updating-the-administrator-updates-package-in-sccm-or-intune).   
 
-**Policies**
+### Policies
 
 Administrator updates look for specific policy configuration such as **AdministratorUpdatesEnabled** as described in [Configure policies for enterprise deployments](./configure-policies-for-enterprise-deployments.md#controlling-administrator-updates). Admin access on the client computer is required to configure policies.
 
-**Configuration file**
+### Configuration file
 
 Some settings can be preserved on the client machine in an optional configuration file, which has the benefit of setting it only once and having it apply to all future administrator updates. The configuration file approach behaves like a registry key and is machine wide, which means it will apply to all installs of Visual Studio installed on the client machine. The standard location for the configuration file is at `C:\ProgramData\Microsoft\VisualStudio\updates.config`. However, if you wish to use another location to store the file, you can do so by configuring the **UpdateConfigurationFile** policy and set the value to the path of your config file. 
 
@@ -124,7 +124,7 @@ Some settings can be preserved on the client machine in an optional configuratio
   "checkPendingReboot" :  "true" 
   ```
 
-**Manually updating the Administrator Updates Package in SCCM or Intune**
+### Manually updating the Administrator Updates Package in SCCM or Intune
 
 The command-line parameters of an individual administrator update package can be manually modified in either SCCM or Microsoft Endpoint Manager by the IT Admin. We don't generally recommend this approach, although it's technically possible.
 
@@ -170,7 +170,7 @@ Sometimes, things can go wrong. If your Visual Studio installation fails, see [T
 
 You can also [provide feedback about Visual Studio administrator updates or report issues that affect the updates](/troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues#administrator-updates).
 
-## Next steps
+## See also
 
 To learn more, explore the following additional resources:
 
