@@ -23,7 +23,7 @@ In this article, you’ll learn about the AI-assisted development capabilities y
 Some of the key ways in which an AI assistant can help you with development tasks in Visual Studio are in the following table: 
 
 :::row::: 
-    :::column span="1"::: 
+    :::column span="2"::: 
        **Code faster**
     :::column-end::: 
     :::column span="3"::: 
@@ -35,23 +35,23 @@ Some of the key ways in which an AI assistant can help you with development task
     :::column-end::: 
 :::row-end:::
 :::row::: 
-    :::column span="1"::: 
+    :::column span="2"::: 
         **Understand code better**
     :::column-end::: 
     :::column span="3":::
-        + Ask AI for human-readable explanations of code sections
-        + Get easy-to-understand answers and code snippets for your programming questions 
+       Ask the AI assistant for:
+        + Human-readable explanations of code sections
+        + Answers to your programming questions and code snippets 
     :::column-end::: 
 :::row-end:::
 :::row::: 
-    :::column span="1"::: 
-        **Profile and debug** quicker
+    :::column span="2"::: 
+        **Profile and debug quicker** 
     :::column-end::: 
     :::column span="3":::
-       Get help **profiling and debugging** your code:
+       Get help profiling and debugging your code:
         +  Optimized performance based on AI recommendations
         +  AI-identified bugs & resolutions
-  
     :::column-end::: 
 :::row-end:::
 
