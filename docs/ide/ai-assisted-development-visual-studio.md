@@ -29,7 +29,7 @@ The following table describes key ways in which an AI assistant can help you dev
     :::column span="2"::: 
        Let AI help you:
        + Get inspired by generation code (for example, how write code to perform a task by describing it in natural language)
-       + Go faster by code completions predicted based on your programming patterns
+       + Predicting what you'll code next based on your programming patterns (completions)
        + Code refactoring through AI-driven context-aware recommendations
     :::column-end::: 
 :::row-end:::
