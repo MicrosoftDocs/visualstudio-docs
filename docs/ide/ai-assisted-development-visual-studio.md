@@ -30,7 +30,7 @@ The following table describes key ways in which an AI assistant can help you dev
        Let AI help you with:
        + Code generation and completions
        + Code predictions based on your programming patterns 
-       + Code refactoring through AI-driven context-aware suggestions & recommendations
+       + Code refactoring through AI-driven context-aware recommendations
        + Code reviews/analysis
     :::column-end::: 
 :::row-end:::
