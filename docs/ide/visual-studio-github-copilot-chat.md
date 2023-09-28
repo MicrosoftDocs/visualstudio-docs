@@ -74,7 +74,7 @@ The chat window of Copilot Chat in Visual Studio enables you to ask your questio
    If you ask a question for help with understanding your code, **Copy code block** and **Insert** options won't be available. 
 1. If you select **Insert**, you'll see the code suggestions in normal Visual Studio diff view pattern. You can review and refine what is being proposed and apply to your code by selecting **Accept** or discard by selecting **Cancel**.
 
-    :::image type="content" source="media/vs-2022/copilot-chat-window-diff-view-editor.png" alt-text="Screenshot of code suggestions in diff view in the editor window":::
+    :::image type="content" source="media/vs-2022/copilot-chat-window-diff-view-editor.png" alt-text="Screenshot of code suggestions in diff view in the editor window.":::
 
 ### Ask questions in the interactive code assistant
 
