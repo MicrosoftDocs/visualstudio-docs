@@ -164,11 +164,9 @@ Administrator updates may return the following return codes: 
 
 For an exhaustive list of client error codes, see [Use command-line parameters to install Visual Studio](./use-command-line-parameters-to-install-visual-studio.md#error-codes).
 
-### Support or troubleshooting
+[!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
-Sometimes, things can go wrong. If your Visual Studio installation fails, see [Troubleshoot Visual Studio installation and upgrade issues](troubleshooting-installation-issues.md) for step-by-step guidance. 
-
-You can also [provide feedback about Visual Studio administrator updates or report issues that affect the updates](/troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues#administrator-updates).
+[!INCLUDE[install_get_admin_updates_support_md](includes/install_get_admin_updates_support_md.md)]
 
 ## See also
 
