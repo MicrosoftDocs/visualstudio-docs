@@ -18,7 +18,7 @@ The Visual Studio Editor extensibility object model is composed of a few integra
 
 ## ITextViewSnapshot
 
-[ITextViewSnapshot](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md#T-Microsoft-VisualStudio-Extensibility-Editor-UI-ITextViewSnapshot) contains the URI and version information necessary to acquire an [ITextDocumentSnapshot](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md##T-Microsoft-VisualStudio-Extensibility-Editor-Data-ITextDocumentSnapshot) as well as some properties of the text view, such as selections.
+[ITextViewSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewsnapshot) contains the URI and version information necessary to acquire an [ITextDocumentSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextdocumentsnapshot) as well as some properties of the text view, such as selections.
 
 - This object is immutable and will never change after it is created.
 - You can use `ITextViewSnapshot.GetTextDocumentAsync()` to get the content from the document. Calling this method is expensive and only should be done if you need the document content.
@@ -26,7 +26,7 @@ The Visual Studio Editor extensibility object model is composed of a few integra
 
 ## ITextDocumentSnapshot
 
-[ITextDocumentSnapshot](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md##T-Microsoft-VisualStudio-Extensibility-Editor-Data-ITextDocumentSnapshot) contains the content of the text document from a point in time or version.
+[ITextDocumentSnapshot](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextdocumentsnapshot) contains the content of the text document from a point in time or version.
 
 - This object is immutable and will never change after it is created.
 - `ITextDocumentSnapshot` can't be changed directly. All changes are requested via mutation. See [Make changes in a text document from an extension](editor.md#make-changes-in-a-text-document-from-an-extension).

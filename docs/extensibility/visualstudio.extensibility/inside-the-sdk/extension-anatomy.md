@@ -40,8 +40,8 @@ Currently the SDK supports a limited set of components to be contributed:
 * [Tool windows](../tool-window/tool-window.md)
 * [Text view opened closed listeners](../editor/editor.md) for tracking text view created, closed events.
 * [Text view change listeners](../editor/editor.md) for tracking changes to an open text view.
-* [Margin providers](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.Editor.md#T-Microsoft-VisualStudio-Extensibility-Editor-ITextViewMarginProvider)
-* [Debugger visualizers](https://github.com/microsoft/VSExtensibility/tree/main/docs/new-extensibility-model/api/Microsoft.VisualStudio.Extensibility.md#T-Microsoft-VisualStudio-Extensibility-DebuggerVisualizers-DebuggerVisualizerProvider)
+* [Margin providers](/dotnet/api/microsoft.visualstudio.extensibility.editor.itextviewmarginprovider)
+* [Debugger visualizers](/dotnet/api/microsoft.visualstudio.extensibility.debuggervisualizers.debuggervisualizerprovider)
 
 Instances for these classes are created as part of the extensibility framework provided by the SDK using a dependency injection library, and constructors can be used to retrieve instances of services provided by either the SDK or by the extension itself to share state across components.
 
