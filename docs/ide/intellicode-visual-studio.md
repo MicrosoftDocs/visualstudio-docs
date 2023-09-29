@@ -16,20 +16,20 @@ Visual Studio IntelliCode enhances software development using artificial intelli
 
 In addition to providing member suggestions, IntelliCode also provides *argument completion*. This capability stars the most likely argument names that you'll use when you call a method and places those suggestions at the top of the completion list. The completion list appears when you start typing inside the parentheses or press **Ctrl**+**Space**.
 
-![Screenshot of argument completion in IntelliCode for Visual Studio](media/intellicode/argument-completion.png)
+![Screenshot of argument completion in IntelliCode for Visual Studio.](media/intellicode/argument-completion.png)
 
 IntelliCode locally tracks your edits, detects when you're performing a repetitive action, and offers [suggestions](intellicode-suggestions.md) to apply that same action in other, similar places (C# only).
-  ![Screenshot of suggestions for C# in Visual Studio](media/intellicode/refactorings-illustrated.png)
+  ![Screenshot of suggestions for C# in Visual Studio.](media/intellicode/refactorings-illustrated.png)
 
 ## Context-aware code autocompletions
 
 IntelliCode provides AI-assisted IntelliSense for multiple languages. IntelliCode suggestions appear at the top of the completion list with a star icon next to them:
 
-![Screenshot of starred IntelliSense suggestions using IntelliCode in Visual Studio](media/intellicode/starred-intellisense-suggestions.png)
+![Screenshot of starred IntelliSense suggestions using IntelliCode in Visual Studio.](media/intellicode/starred-intellisense-suggestions.png)
 
 The completion list suggests the most likely correct API for a developer to use rather than presenting a simple alphabetical list of members. To provide this dynamic list, IntelliCode uses the developer's current code context and patterns based on thousands of highly rated, open-source projects on GitHub. The results form a model that predicts the most likely and most relevant API calls.
 
-![Screenshot of C# whole-line autocompletions in Visual Studio](media/intellicode/intellicode-visual-studio-whole-line-completions-small.png)
+![Screenshot of C# whole-line autocompletions in Visual Studio.](media/intellicode/intellicode-visual-studio-whole-line-completions-small.png)
 
 C# developers in Visual Studio 2022 and higher also benefit from [whole-line autocompletions](visual-studio-whole-line-completions.md), which predict the next chunk of your code based on your current code so far, and present it as an inline prediction. 
 

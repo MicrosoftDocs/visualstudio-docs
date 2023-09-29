@@ -26,7 +26,7 @@ IntelliCode uses a large scale transformer model, trained on around half a milli
 - Functions in nearby code
 - The IntelliSense list
 
-The model runs on your local machine, which allows the feature to be available in offline and air-gapped environments. The feature supports C# .  
+The model runs on your local machine, which allows the feature to be available in offline and air-gapped environments. The feature supports C#.  
 
 ## Two modes
 
