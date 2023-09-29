@@ -18,7 +18,7 @@ Application development can be easier if you use cloud services to handle many i
 
 With Visual Studio, you can both develop apps that run in the Azure cloud, and connect to Azure services from your on-premises, desktop, and mobile apps. Visual Studio is the most full-featured and complete environment for Windows developers to connect .NET and ASP.NET applications to Azure services. Visual Studio also supports development in other technology stacks, such as Node.js and Python, which you can use to create web sites and web applications that you can deploy to Azure using the Azure command-line interface (CLI). C++ developers can access Azure services such as Azure storage using a C++ client library, and IoT device developers using C and C++ can connect devices and services to Azure. See [Cloud and web programming in Visual C++](/cpp/cloud/cloud-and-web-programming-in-visual-cpp).
 
-In this article, you learn about how Visual Studio can help with Azure development, whether you're getting a web site up and running, connecting to services like databases, secrets management, caching, or storage. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+In this article, you learn about how Visual Studio can help with Azure development, whether you're getting a web site up and running, connecting to services like storage, databases, secrets management, or using services that add value like caching. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
 
 ## Connect to Azure services
 
