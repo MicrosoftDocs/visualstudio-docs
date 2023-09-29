@@ -32,7 +32,7 @@ When you want to use an Azure service in your application, it usually requires m
 
 Visual Studio **Connected Services** is the name for the step-by-step wizards you can use to connect your projects (web and on-premises) to Azure services. Read more about the Azure services you can connect to and manage from Visual Studio at [About Visual Studio Connected Services](overview-connected-services.md).
 
-You can perform all the required Azure operations right from the Visual Studio IDE as you go through the Connected Services wizards. Instead of using the [Azure Portal](https://portal.azure.com), you can provision resources in Azure, create resource groups, browse and view Azure resources, and deploy your applications and services. Once your project is connected to Azure services or deployed, the **Connected Services** tab displays information about your resources, and contains convenient links to your deployments. See [Work with Azure in Visual Studio](overview-azure-integration.md).
+You can perform all the required Azure operations right from the Visual Studio IDE as you go through the Connected Services wizards. Instead of using the [Azure portal](https://portal.azure.com), you can provision resources in Azure, create resource groups, browse and view Azure resources, and deploy your applications and services. Once your project is connected to Azure services or deployed, the **Connected Services** tab displays information about your resources, and contains convenient links to your deployments. See [Work with Azure in Visual Studio](overview-azure-integration.md).
 
 ## Deploy your applications to the Azure cloud
 
