@@ -40,7 +40,7 @@ What are you deploying?
 | Azure App Service (.NET Framework) | [Deploy an ASP.NET web app (.NET Framework)](/azure/app-service/quickstart-dotnetcore?toc=%2Fvisualstudio%2Fazure%2Ftoc.json&bc=%2Fvisualstudio%2Fazure%2Fbreadcrumb%2Ftoc.json&tabs=netframework48&pivots=development-environment-vs) |
 | Azure Container Apps | [Deploy to Azure Container Apps using Visual Studio](/azure/container-apps/deploy-visual-studio) |
 | Azure Functions | [Create your first C# function in Azure using Visual Studio](/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure) |
-| Azure Container Registry | [Deploy an ASP.NET container to a container registry using Visual Studio](../containers/hosting-web-apps-in-docker) |
+| Azure Container Registry | [Deploy an ASP.NET container to a container registry using Visual Studio](../containers/hosting-web-apps-in-docker.md) |
 
 If you need help configuring CI/CD for a GitHub repo for the first time, Visual Studio can help you get started with GitHub Action starter workflows. Learn more at [Deploy your application to Azure using GitHub Actions workflows created by Visual Studio](azure-deployment-using-github-actions.md). Read more about setting up CI/CD for deployment to Azure at [Continuous deployment to Azure App Service](/azure/app-service/deploy-continuous-deployment?tabs=github).
 
