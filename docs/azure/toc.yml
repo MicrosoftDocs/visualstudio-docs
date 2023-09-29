@@ -4,29 +4,31 @@
 - name: Overview
   expanded: true
   items:
-  - name: What is Visual Studio Connected Services?
+  - name: Azure application development
+    href: overview.md
+  - name: Connected Services
     href: overview-connected-services.md
-  - name: Develop Azure applications
+  - name: Work with Azure
     href: overview-azure-integration.md
 - name: Connect to Azure services
   items:
-  - name: Add Azure Active Directory (Azure AD)
+  - name: Azure Active Directory (Azure AD)
     href: vs-active-directory-add-connected-service.md
-  - name: Add Azure App Insights
+  - name: App Insights
     href: azure-app-insights-add-connected-service.md
-  - name: Add Azure Cache for Redis
+  - name: Azure Cache for Redis
     href: azure-cache-for-redis-add-connected-service.md
-  - name: Add Azure CosmosDB
+  - name: CosmosDB
     href: azure-cosmosdb-add-connected-service.md
-  - name: Add Azure Key Vault
+  - name: Key Vault
     href: /azure/key-vault/vs-key-vault-add-connected-service
-  - name: Add Azure SignalR
+  - name: SignalR
     href: azure-signalr-add-connected-service.md
-  - name: Add Azure SQL Database
+  - name: SQL Database
     href: azure-sql-database-add-connected-service.md
-  - name: Add Azure Storage
+  - name: Storage
     href: vs-azure-tools-connected-services-storage.md
-  - name: Add Azure App Configuration
+  - name: App Configuration
     href: vs-azure-tools-connected-services-app-configuration.md
   expanded: false
 - name: Deploy to Azure
