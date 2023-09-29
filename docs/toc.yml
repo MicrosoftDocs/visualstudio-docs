@@ -148,9 +148,9 @@
   items:
   - name: AI in Visual Studio
     href: ide/ai-assisted-development-visual-studio.md
-  - name: GitHub Copilot in Visual Studio
+  - name: Use GitHub Copilot inline
     href: ide/visual-studio-github-copilot-extension.md
-  - name: GitHub Copilot Chat in Visual Studio
+  - name: Use GitHub Copilot Chat window
     href: ide/visual-studio-github-copilot-chat.md
   - name: Debug with Copilot
     href: debugger/debug-with-copilot.md
