@@ -16,9 +16,11 @@ monikerRange: ">=vs-2019"
 
 Application development can be easier if you use cloud services to handle many issues that you would otherwise have to implement. When you use cloud services hosted in the Azure cloud, you use a reliable and highly available cloud environment that is managed by Microsoft to handle much of the infrastructure that many apps and services need, so that you can focus development efforts on what is unique to your application.
 
-With Visual Studio, you can both develop apps that run in the Azure cloud, and connect to Azure services from your on-premises, desktop, and mobile apps. Visual Studio is the most full-featured and complete environment for Windows developers to connect .NET and ASP.NET applications to Azure services. Visual Studio also supports development in other technology stacks, such as Node.js and Python, which you can use to create web sites and web applications that you can deploy to Azure using the Azure command-line interface (CLI). C++ developers can access Azure services such as Azure storage using a C++ client library, and IoT device developers using C and C++ can connect devices and services to Azure. See [Cloud and web programming in Visual C++](/cpp/cloud/cloud-and-web-programming-in-visual-cpp).
-
 In this article, you learn about how Visual Studio can help with Azure development, whether you're getting a web site up and running, connecting to services like storage, databases, secrets management, or using services that add value like caching. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+
+## Supported technologies and languages
+
+With Visual Studio, you can both develop apps that run in the Azure cloud, and connect to Azure services from your on-premises, desktop, and mobile apps. Visual Studio is the most full-featured and complete environment for Windows developers to connect .NET and ASP.NET applications to Azure services. Visual Studio also supports development in other technology stacks, such as Node.js and Python, which you can use to create web sites and web applications that you can deploy to Azure using the Azure command-line interface (CLI). C++ developers can access Azure services such as Azure storage using a C++ client library, and IoT device developers using C and C++ can connect devices and services to Azure. See [Cloud and web programming in Visual C++](/cpp/cloud/cloud-and-web-programming-in-visual-cpp).
 
 ## Connect to Azure services
 
