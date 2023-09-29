@@ -12,7 +12,7 @@ ms.workload:
 - multiple
 monikerRange: vs-2022
 ---
-# About AI-assisted development in Visual Studio
+# AI-assisted development in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
@@ -20,15 +20,39 @@ In this article, you’ll learn about the AI-assisted development capabilities y
 
 ## How does AI-assisted development help?
 
-AI-assisted development enables you to code faster through **code generation**, **code completion**, and **code prediction**.
+The following table describes key ways in which an AI assistant can help you develop in Visual Studio: 
 
-Additionally, AI-assisted development is available for:
-
-- **Coding help**: get AI-assisted code explanations
-- **Profiling**: optimizing your code performance
-- **Debugging**: use AI to identify & resolve issues
-- **Code refactoring**: AI-driven context-aware suggestions & recommendations
-- **Code reviews/analysis**: find issues faster
+:::row::: 
+    :::column span="1"::: 
+       **Code faster**
+    :::column-end::: 
+    :::column span="2"::: 
+       Let AI help you:
+       + Get inspired by generation code (for example, how to write code to perform a task by describing it in natural language)
+       + Predicting what you'll code next based on your programming patterns (completions)
+       + Code refactoring through AI-driven context-aware recommendations
+    :::column-end::: 
+:::row-end:::
+:::row::: 
+    :::column span="1"::: 
+        **Understand code better**
+    :::column-end::: 
+    :::column span="2":::
+       Ask the AI assistant for:
+        + Human-readable explanations of code sections (for example, when you're trying to understand someone else's code)
+        + Answers to your programming questions and code snippets 
+    :::column-end::: 
+:::row-end:::
+:::row::: 
+    :::column span="1"::: 
+        **Profile and debug quicker** 
+    :::column-end::: 
+    :::column span="2":::
+       Get help profiling and debugging your code:
+        +  Optimize performance based on AI suggestions
+        +  AI-identified bugs & resolutions
+    :::column-end::: 
+:::row-end:::
 
 ## GitHub Copilot & IntelliCode
 
@@ -74,21 +98,21 @@ The following table compares the capabilities of GitHub Copilot (and GitHub Copi
 
 | **AI-assistance feature** | **GitHub Copilot** | **IntelliCode** |
 |---------------------------|:--------------------:|:-----------------:|
-| Extension | Downloadable extensions: <br/>- GitHub Copilot completions ([get started](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)) <br/>- GitHub Copilot Chat ([get started](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.VSGitHubCopilot)) | Built-in by default in most [workloads](../install/modify-visual-studio.md#change-workloads-or-individual-components) & available through the Visual Studio Installer |
-| Subscription-based | Yes <br/>([Learn more](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot))| No |
+| Extension | Downloadable extensions: <br/>- GitHub Copilot completions ([download](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs)) <br/>- GitHub Copilot Chat add-on ([download](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.VSGitHubCopilot)) | Built-in by default in most [workloads](../install/modify-visual-studio.md#change-workloads-or-individual-components) & available through the Visual Studio Installer |
+| Subscription-based | **Yes** <br/>[Learn more](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot)| No |
 | User interface   | Inline <br/>Chat window | Inline |
-| Context-aware AI-assisted [IntelliSense](using-intellisense.md) | Yes | Yes |
-| Whole-line completions in gray text | Yes | Yes |
-| Whole function & multi-line completions in gray text | Yes | No |
-| Whole-line completions in gray text | Yes | Yes |
-| Repeated edits detection | No | Yes |
-| Convert Natural language comments to code| Yes | No |
-| Solve code problems with Natural language driven dev assistance | Yes, with Chat extension enabled | No |
-| Code debugging | Yes, with Chat extension enabled <br/>([Learn more](../debugger/debug-with-copilot.md))| No |
-| Measure app performance through profiling | Yes, with Chat extension enabled <br/>([Learn more](https://devblogs.microsoft.com/visualstudio/simplified-code-refinement-and-debugging-with-github-copilot-chat/#cpu-usage-auto-insights-in-the-profiler)) | No |
-| Measure app performance through profiling | Yes. <br/>([Learn more](https://devblogs.microsoft.com/visualstudio/simplified-code-refinement-and-debugging-with-github-copilot-chat/#cpu-usage-auto-insights-in-the-profiler))) | Yes |
-| API usage examples | No | Yes |
-| Languages supported | Supports several programming languages and frameworks, including but not limited to: C#, C++, Python, JavaScript, and TypeScript| C#, XAML, C++, Javascript, Typescript, Visual Basic |
+| Context-aware AI-assisted [IntelliSense](using-intellisense.md) | **Yes** | **Yes** |
+| Whole-line completions in gray text | **Yes** | **Yes** |
+| Whole function & multi-line completions in gray text | **Yes** | No |
+| Whole-line completions in gray text | **Yes** | **Yes** |
+| Repeated edits detection | No | **Yes** |
+| Convert Natural language comments to code| **Yes** | No |
+| Solve code problems with Natural language driven dev assistance | **Yes**, with Chat extension enabled. | No |
+| Code debugging | **Yes**, with Chat extension enabled. <br/>[Learn more](../debugger/debug-with-copilot.md)| No |
+| Measure app performance through profiling | **Yes**, with Chat extension enabled. <br/>[Learn more](https://devblogs.microsoft.com/visualstudio/simplified-code-refinement-and-debugging-with-github-copilot-chat/#cpu-usage-auto-insights-in-the-profiler) | No |
+| Measure app performance through profiling | **Yes** <br/>[Learn more](https://devblogs.microsoft.com/visualstudio/simplified-code-refinement-and-debugging-with-github-copilot-chat/#cpu-usage-auto-insights-in-the-profiler) | **Yes** |
+| API usage examples | No | **Yes** |
+| Languages supported | Supports several programming languages and frameworks, including but not limited to: C#, C++, Python, JavaScript, and TypeScript| C#, XAML, C++, JavaScript, TypeScript, Visual Basic |
 
 ## Next steps
 
