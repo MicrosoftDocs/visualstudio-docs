@@ -56,7 +56,7 @@ Make sure you have completed the following steps in Visual Studio before debuggi
    > [!NOTE]
    > Make sure the state of your local code matches what was deployed to Azure. This ensures that the local symbol files and source code line up with the deployed app.
 
-1) Navigate to **Debug -> Options** from the top Visual Studio menu. Make sure that **Enable Just My code** is unchecked, and then select **OK**.
+1) Navigate to **Debug -> Options** from the top Visual Studio menu. Ensure that **Enable Just My code** is *unchecked* (as shown below), and then select **OK**.
 
     Changing this setting allows Visual Studio to debug the optimized code that was deployed to Azure using the necessary symbol files from your local bin folder. Symbol files are used by the debugger as a bridge between compiled, executing code and the source code in Visual Studio, which is why it's important that your local source code matched the deploy app.
 
