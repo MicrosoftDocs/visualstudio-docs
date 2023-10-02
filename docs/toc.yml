@@ -144,8 +144,8 @@
   - name: F#  >>
     href: /dotnet/fsharp/
 - name: AI-assisted development 
-  items:
   expanded: true
+  items:
   - name: About AI in Visual Studio
     href: ide/ai-assisted-development-visual-studio.md
   - name: GitHub Copilot
