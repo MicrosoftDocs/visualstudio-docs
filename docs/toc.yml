@@ -151,9 +151,9 @@
   - name: GitHub Copilot
     expanded: true
     items:
-    - name: Use GitHub Copilot inline
+    - name: Use GitHub Copilot 
       href: ide/visual-studio-github-copilot-extension.md
-    - name: Use GitHub Copilot Chat window
+    - name: Use GitHub Copilot Chat 
       href: ide/visual-studio-github-copilot-chat.md
     - name: Debug with Copilot
       href: debugger/debug-with-copilot.md
