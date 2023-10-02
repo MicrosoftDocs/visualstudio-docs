@@ -4,14 +4,14 @@
 - name: Overview
   expanded: true
   items:
-  - name: Azure application development
+  - name: About Azure development in Visual Studio
     href: overview.md
-  - name: Connected Services
-    href: overview-connected-services.md
-  - name: Work with Azure
-    href: overview-azure-integration.md
 - name: Connect to Azure services
   items:
+  - name: 'What are Connected Services?'
+    href: overview-connected-services.md
+  - name: 'Find & provision Azure resources'
+    href: overview-azure-integration.md
   - name: Azure Active Directory (Azure AD)
     href: vs-active-directory-add-connected-service.md
   - name: App Insights
