@@ -98,7 +98,7 @@ It's time to start developing. You'll add a button control, add an action to the
 
 An "event handler" sounds complicated, but it's just another name for code that is called when an event happens. In this case, it adds an action triggered by the "Hello World!" button.
 
-1. In **Solution Explorer**, double-click *MainPage.xaml.cs*, the code-behind page.
+1. In **Solution Explorer**, double-click *MainWindow.xaml.cs*, the code-behind page.
 
 1. Edit the event handler code in the C# editor window that opens.
 
