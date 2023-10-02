@@ -17,7 +17,9 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: Develop Azure applications with Visual Studio
+          - text: Develop Azure applications
+            url: overview.md
+          - text: Work with Azure
             url: overview-azure-integration.md
           - text: Azure SDK for .NET
             url: /dotnet/azure
