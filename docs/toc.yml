@@ -146,7 +146,7 @@
 - name: AI-assisted development 
   items:
   expanded: true
-- name: About AI in Visual Studio
+  - name: About AI in Visual Studio
     href: ide/ai-assisted-development-visual-studio.md
   - name: GitHub Copilot
     items:
@@ -157,15 +157,15 @@
     - name: Debug with Copilot
       href: debugger/debug-with-copilot.md
   - name: IntelliCode
-    items:
     expanded: true
-    - name: Overview
+    items:
+    - name: 'What is IntelliCode?'
       href: ide/intellicode-visual-studio.md
-    - name: Whole-line autocompletions
+    - name: 'IntelliCode: Whole-line autocompletions'
       href: ide/visual-studio-whole-line-completions.md
-    - name: Suggestions
+    - name: 'IntelliCode: Suggestions'
       href: ide/intellicode-suggestions.md
-    - name: Privacy
+    - name: 'Privacy & IntelliCode'
       href: ide/intellicode-privacy.md
 - name: Develop
   items:
