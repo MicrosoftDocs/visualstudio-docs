@@ -32,7 +32,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [About Visual Studio Connected Services](../azure/overview-connected-services.md)
-  - New Azure overview article
+  - Restructure and reorder for clarity
 
 ### Containers
 
@@ -58,7 +58,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [Use Visual Studio editor extensibility](../extensibility/visualstudio.extensibility/editor/editor.md) - update API reference links
-- [Automation model overview](../extensibility/internals/automation-model-overview.md) - Extensibility content reduction
+- [Automation model overview](../extensibility/internals/automation-model-overview.md) - Merge with another article
 
 ### Get started
 
@@ -82,7 +82,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md)
   - Add overview doc on AI-assisted development in Visual Studio
 - [How to: Customize the scroll bar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md) - add Table of Annotations section to list scroll bar colors
-- [Troubleshoot and create logs for MSBuild problems](../ide/msbuild-logs.md) - MSBuild binlogs: integrate wiki content
+- [Troubleshoot and create logs for MSBuild problems](../ide/msbuild-logs.md) - Improve guidance for binary logs
 
 ### Install
 
