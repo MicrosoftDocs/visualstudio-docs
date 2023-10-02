@@ -146,15 +146,17 @@
   expanded: true
 - name: AI-assisted development 
   items:
-  - name: AI in Visual Studio
+  - name: About AI in Visual Studio
     href: ide/ai-assisted-development-visual-studio.md
-  - name: Use GitHub Copilot inline
-    href: ide/visual-studio-github-copilot-extension.md
-  - name: Use GitHub Copilot Chat window
-    href: ide/visual-studio-github-copilot-chat.md
-  - name: Debug with Copilot
-    href: debugger/debug-with-copilot.md
-  - name: IntelliCode
+  - name: Use GitHub Copilot
+    items:
+    - name: Use GitHub Copilot inline
+      href: ide/visual-studio-github-copilot-extension.md
+    - name: Use GitHub Copilot Chat window
+      href: ide/visual-studio-github-copilot-chat.md
+    - name: Debug with Copilot
+      href: debugger/debug-with-copilot.md
+  - name: Use IntelliCode
     items:
     - name: Overview
       href: ide/intellicode-visual-studio.md
