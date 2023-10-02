@@ -12,8 +12,8 @@ helpviewer_keywords:
 - Command mode in Command window
 - IDE Command window
 ms.assetid: 48711628-1909-4713-a73e-d7b714c77f8a
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

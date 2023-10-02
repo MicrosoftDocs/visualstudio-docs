@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Complete word
 - List members
 - IntelliSense [Visual Studio]
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
@@ -30,7 +30,7 @@ A list of valid members from a type (or namespace) appears after you type a trig
 
 After selecting an item, you can insert it into your code by pressing **Tab** or by typing a space. If you select an item and type a period, the item appears followed by the period, which brings up another member list. When you select an item but before you insert it, you get Quick Info for the item.
 
-In the member list, the icon to the left represents the type of the member, such as namespace, class, function, or variable. For a list of icons, see [Class View and Object Browser icons](../ide/class-view-and-object-browser-icons.md). The list may be quite long, so you can press **PgUp** and **PgDn** to move up or down in the list.
+In the member list, the icon to the left represents the type of the member, such as namespace, class, function, or variable. The list may be quite long, so you can press **PgUp** and **PgDn** to move up or down in the list.
 
 ![Visual Studio Member List](../ide/media/vs2015_intellisense.png)
 

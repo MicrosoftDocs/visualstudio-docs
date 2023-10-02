@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Toolbox, HTML tab
 - HTML Designer, setting options
 - HTML tab in Toolbox
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

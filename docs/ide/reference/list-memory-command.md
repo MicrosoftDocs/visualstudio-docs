@@ -10,8 +10,8 @@ helpviewer_keywords:
 - ListMemory command
 - list memory command
 ms.assetid: a84de361-a6a6-4f6d-96aa-a0d4a424371e
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

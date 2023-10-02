@@ -3,8 +3,8 @@ title: Add explicit cast
 description: Learn how to automatically add an explicit cast to an expression based on the context of your code. 
 ms.date: 03/26/2020
 ms.topic: reference
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

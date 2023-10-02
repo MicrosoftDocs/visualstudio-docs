@@ -1,8 +1,8 @@
 ---
 title: Productivity tips for .NET developers
 description: An overview of navigation, code analysis, unit testing, and other features to help you write better .NET code faster.
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 ms.date: 08/08/2023
@@ -134,7 +134,7 @@ You can use an EditorConfig file to codify coding conventions and have them trav
 
 ::: moniker-end
 
-- The [**code inference feature**](/visualstudio/intellicode/code-style-inference) of [IntelliCode](/visualstudio/intellicode/overview) for Visual Studio infers your code styles from existing code. It then creates a nonempty EditorConfig file with your code-style preferences already defined.
+- The **code inference feature** of [IntelliCode](/visualstudio/intellicode/intellicode-visual-studio) for Visual Studio infers your code styles from existing code. It then creates a nonempty EditorConfig file with your code-style preferences already defined.
 
 - Configure the severity level of a code style rule directly through the editor. If you don't have an .editorconfig file, Visual Studio generates one for you. Place your cursor on the error, warning, or suggestion and type **Ctrl**+**.** to open the **Quick Actions and Refactorings** menu. Select **Configure or Suppress issues**. Then select the rule and choose the severity level you would like to configure for that rule. This action updates your existing EditorConfig with the rule’s new severity.
 
@@ -247,7 +247,7 @@ Visual Studio has many features to help you search and [navigate your code](../i
 
 ## Improved IntelliSense
 
-Use [IntelliCode](/visualstudio/intellicode/overview/) for Visual Studio to get [context-aware code completions](/visualstudio/intellicode/intellicode-visual-studio) instead of just an alphabetical list. You can also train a [custom IntelliSense model](/visualstudio/intellicode/custom-model-faq) based on your own domain-specific libraries.
+Use [IntelliCode](/visualstudio/intellicode/intellicode-visual-studio) for Visual Studio to get context-aware code completions instead of just an alphabetical list. 
 
 ## Unit testing
 

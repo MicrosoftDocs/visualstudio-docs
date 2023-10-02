@@ -51,7 +51,6 @@ ms.workload:
 |[Program document-level customizations](../vsto/programming-document-level-customizations.md)|Provides an overview of the programming model of document-level customizations and related programming tasks.|
 |[Office UI customization](../vsto/office-ui-customization.md)|Describes the different ways that you can customize the UI of Office applications by using VSTO Add-ins and document-level customizations.|
 |[Data in Office solutions](../vsto/data-in-office-solutions.md)|Describes the different ways that you can work with data in Office solutions, such as binding data to controls and caching data in document-level customizations.|
-|[How AutoSave impacts Office solutions](./how-autosave-impacts-office-solutions.md)|Describes adjustments you might need to make to Office Solutions when AutoSave is enabled.|
 |[Troubleshoot Office solutions](../vsto/troubleshooting-office-solutions.md)|Provides tips for solving common problems that you might encounter when creating Office solutions.|
 |[Threading support in Office](../vsto/threading-support-in-office.md)|Provides an overview of working with multiple threads in Office solutions.|
 |[Accessibility in Office projects](../vsto/accessibility-in-office-projects.md)|Describes the accessibility features that are available in Office solutions.|

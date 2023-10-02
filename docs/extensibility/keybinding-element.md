@@ -24,7 +24,7 @@ The KeyBinding element specifies keyboard shortcuts for the commands.
 ## Syntax
 
 ```
-<Keybinding guid="MyGuid" id="MyId" Editor="MyEditor" key1="B" key2="x" mod1="Control" mod2="Alt" />
+<KeyBinding guid="MyGuid" id="MyId" editor="MyEditor" key1="B" key2="x" mod1="Control" mod2="Alt" />
 ```
 
 ## Attributes and elements

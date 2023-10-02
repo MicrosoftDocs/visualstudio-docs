@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "ShowWebBrowser command"
   - "View.ShowWebBrowser command"
 ms.assetid: c6a4fbd6-8e9d-45cc-8b2f-93990d065e78
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

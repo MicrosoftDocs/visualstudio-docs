@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Visual Studio, color themes
 - color themes, Visual Studio
 ms.assetid: 60d91ba1-244b-4c43-847f-60b744f1352a
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

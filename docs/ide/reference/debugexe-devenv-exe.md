@@ -9,8 +9,8 @@ helpviewer_keywords:
 - /DebugExe [devenv.exe]
 - debugging executables
 ms.assetid: cd700006-1648-418f-924b-4b1e5c1412ab
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

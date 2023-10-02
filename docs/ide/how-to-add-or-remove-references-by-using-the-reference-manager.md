@@ -17,8 +17,8 @@ helpviewer_keywords:
 - referencing components, removing references
 - references [Visual Studio], removing
 - referencing components, assemblies not listed
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

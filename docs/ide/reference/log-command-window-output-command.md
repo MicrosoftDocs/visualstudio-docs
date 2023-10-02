@@ -9,8 +9,8 @@ helpviewer_keywords:
 - log Command window output command
 - View.LogCommandWindowOutput command
 ms.assetid: d4ecec35-5af4-4954-8d60-2cd24583fbb4
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

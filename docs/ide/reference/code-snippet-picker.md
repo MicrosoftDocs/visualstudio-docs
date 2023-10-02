@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Code Snippet Picker
 - IntelliSense code snippets, Code Snippet Picker
 - code snippets, Code Snippet Picker
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

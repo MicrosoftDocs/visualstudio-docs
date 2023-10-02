@@ -3,8 +3,8 @@ title: Scroll bar map mode and bar mode
 description: Learn how to track changes in your code through the customization of the scroll bar and also learn how to use Bar mode and Map mode.
 ms.date: 03/20/2020
 ms.topic: how-to
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
@@ -14,7 +14,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-When you are working with long code files, it can be hard to keep track of where everything is in the file. You can customize the scroll bar of the code editor to give you an overall picture of what's happening in your code.
+When you're working with long code files, it can be hard to keep track of where everything is in the file. You can customize the scroll bar of the code editor to give you an overall picture of what's happening in your code.
 
 ## Annotations
 
@@ -42,13 +42,70 @@ Here's the scroll bar after replacing all the instances of the string. The red m
 
 ![Visual Studio scroll bar after replacing a string with errors](../ide/media/enhancedscrollbarreplace.png)
 
+### Table of annotations 
+
+Curious as to which scroll bar annotations and their associated colors match which actions? See the following tables for details.
+
+#### Code changes
+
+Code changes are annotated in the far-left side of the vertical scroll bar. 
+
+**Tracked files (in a Git repository)**
+
+|Color     | Default annotation     | Status | Settings name  |
+|----------|------------------------|--------|----------------|
+| Green    | :::image type="content" source="media/scroll-bar-git-track-addition-green-outline.png" alt-text="Screenshot of the default annotation in scroll bar that indicates a tracked addition that's saved."::: | Unsaved  | Track additions in files under source control |
+| Green    | :::image type="content" source="media/scroll-bar-git-track-addition-green-solid.png" alt-text="Screenshot of the default annotation in scroll bar that indicates a tracked addition that's unsaved.":::| Saved  | Track additions in files under source control |
+| Red      | :::image type="content" source="media/scroll-bar-git-track-deletion-red-solid.png" alt-text="Screenshot of the default annotation in scroll bar that indicates a tracked deletion.":::| Deleted  | Track deletions in files under source control |
+| Blue     | :::image type="content" source="media/scroll-bar-git-track-modification-blue-outline.png" alt-text="Screenshot of the default annotation in scroll bar that indicates a tracked modification that's unsaved.":::| Unsaved | Track modifications in files under source control |
+| Blue     | :::image type="content" source="media/scroll-bar-git-track-modification-blue-solid.png" alt-text="Screenshot of the default annotation in scroll bar that indicates a tracked modification that's saved.":::| Saved  | Track modifications in files under source control |
+
+**Untracked files (not in a Git repository)**
+
+|Color     | Default annotation     | Status | Settings name  |
+|----------|------------------------|--------|----------------|
+| Gold    | :::image type="content" source="media/scroll-bar-track-changes-gold-outline.png" alt-text="Screenshot of the default annotation in scroll bar that indicates change in a file before it's saved."::: | Unsaved  | Track changes in files before save |
+| Green    | :::image type="content" source="media/scroll-bar-track-changes-green-solid.png" alt-text="Screenshot of the default annotation in scroll bar that indicates a change in a file after it's saved.":::| Saved  | Track changes in files after save |
+| Blue     | :::image type="content" source="media/scroll-bar-track-reverted-changes-blue-solid.png" alt-text="Screenshot of the default annotation in scroll bar that indicates a reverted change in a file.":::| Reverted  | Track reverted changes in files |
+
+#### Marks
+
+Marks are annotated in the middle section of the vertical scroll bar. 
+
+|Color     | Default annotation     | Settings name  |
+|----------|------------------------|-----------------|
+| Dark grey  | :::image type="content" source="media/scroll-bar-bookmark-dark-grey-solid.png" alt-text="Screenshot of the default annotation in scroll bar that indicates a bookmark in a file.":::  | Bookmark |
+| Yellow  | :::image type="content" source="media/scroll-bar-find-match-yellow-solid.png" alt-text="Screenshot of the default annotation in scroll bar that indicates a find match status.":::| Find match |
+| Dark red | :::image type="content" source="media/scroll-bar-breakpoint-dark-red-solid.png" alt-text="Screenshot of the default annotation in scroll bar that indicates a breakpoint in a file.":::| Breakpoint |
+| Light grey | :::image type="content" source="media/scroll-bar-selection-match-light-grey-solid.png" alt-text="Screenshot of the default annotation in scroll bar that indicates a selection match in a file.":::| Selection match |
+| Blue  | :::image type="content" source="media/scroll-bar-view-definition-blue-solid.png" alt-text="Screenshot of the default annotation in scroll bar that indicates a view definition mark in a file.":::| View definition |
+
+#### Error, Warning, Information, or Suggestion
+
+Errors, warnings, information, and suggestions are annotated in the far-right side of the vertical scroll bar.
+
+|Color     | Default annotation     | Settings name  |
+|----------|------------------------|-----------------|
+| Red  | :::image type="content" source="media/scroll-bar-syntax-error-red-solid.png" alt-text="Screenshot of the default annotation in scroll bar that indicates a syntax error in a file.":::  | Syntax error |
+| Green  | :::image type="content" source="media/scroll-bar-warning-green-solid.png" alt-text="Screenshot of the default annotation in scroll bar that indicates a warning in a file.":::| Warning |
+| Blue | :::image type="content" source="media/scroll-bar-information-blue-solid.png" alt-text="Screenshot of the default annotation in scroll bar that indicates information in a file.":::| Information |
+| Light grey | :::image type="content" source="media/scroll-bar-suggestion-light-grey-solid.png" alt-text="Screenshot of the default annotation in scroll bar that indicates a suggestion in a file.":::| Suggestion ellipses (...) |
+
+#### Caret position
+
+The caret position is also annotated in the far-right side of the vertical scroll bar. 
+
+|Color     | Default annotation     | Settings name  |
+|----------|------------------------|-----------------|
+| Dark blue  | :::image type="content" source="media/scroll-bar-caret-dark-blue-solid.png" alt-text="Screenshot of the default annotation in scroll bar that indicates an overview caret in a file.":::  | Overview caret |
+
 ## Display modes
 
 The scroll bar has two modes: bar mode and map mode.
 
 ### Bar mode
 
-*Bar mode* displays annotation indicators on the scroll bar. Clicking on the scroll bar scrolls the page up or down but does not jump to that location in the file.
+*Bar mode* displays annotation indicators on the scroll bar. Clicking on the scroll bar scrolls the page up or down but doesn't jump to that location in the file.
 
 ### Map mode
 

@@ -23,8 +23,8 @@ helpviewer_keywords:
 - toolbars [Visual Studio], customizing
 - toolbars [Visual Studio], customizing in the IDE
 ms.assetid: b570ae2f-5302-45dc-9cc9-8d4d1ad50603
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

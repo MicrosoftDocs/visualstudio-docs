@@ -3,8 +3,8 @@ title: Git Changes window with no active repo
 description: Learn what to do with Git in Visual Studio when there's no active repo set
 ms.date: 08/23/2023
 ms.topic: ui-reference
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general

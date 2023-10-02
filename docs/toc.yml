@@ -42,6 +42,8 @@
     href: install/repair-visual-studio.md
   - name: Uninstall Visual Studio
     href: install/uninstall-visual-studio.md
+  - name: Release dates & build numbers
+    href: /visualstudio/releases/2022/release-history?toc=%2Fvisualstudio%2Ftoc.json#release-dates-and-build-numbers
   - name: Visual Studio administrator guide
     items:
     - name: Overview
@@ -74,10 +76,10 @@
         href: install/configure-policies-for-enterprise-deployments.md
     - name: Manage & update installations
       items:
-      - name: Applying administrator updates
-        href: install/applying-administrator-updates.md
       - name: Enabling administrator updates
         href: install/enabling-administrator-updates.md
+      - name: Applying administrator updates
+        href: install/applying-administrator-updates.md
       - name: Update an instance installed from a network
         href: install/update-a-network-installation-of-visual-studio.md
       - name: Update using a minimal offline layout
@@ -86,8 +88,6 @@
         href: install/disable-or-move-the-package-cache.md
       - name: Tools to detect & manage Visual Studio instances
         href: install/tools-for-managing-visual-studio-instances.md
-    - name: Reference
-      items:
       - name: Visual Studio workload and component IDs
         items:
         - name: Overview
@@ -106,7 +106,7 @@
         - name: Visual Studio Test Agent
           href: install/workload-component-id-vs-test-agent.md
         - name: Visual Studio Test Controller
-          href: install/workload-component-id-vs-test-controller.md
+          href: install/workload-component-id-vs-test-controller.md        
   - name: Devices, VMs, and Containers
     items:
     - name: Use Visual Studio from an Azure virtual machine
@@ -146,8 +146,24 @@
   expanded: true
 - name: AI-assisted development 
   items:
-  - name: GitHub Copilot
+  - name: AI in Visual Studio
+    href: ide/ai-assisted-development-visual-studio.md
+  - name: Use GitHub Copilot inline
     href: ide/visual-studio-github-copilot-extension.md
+  - name: Use GitHub Copilot Chat window
+    href: ide/visual-studio-github-copilot-chat.md
+  - name: Debug with Copilot
+    href: debugger/debug-with-copilot.md
+  - name: IntelliCode
+    items:
+    - name: Overview
+      href: ide/intellicode-visual-studio.md
+    - name: Whole-line autocompletions
+      href: ide/visual-studio-whole-line-completions.md
+    - name: Suggestions
+      href: ide/intellicode-suggestions.md
+    - name: Privacy
+      href: ide/intellicode-privacy.md
 - name: Develop
   items:
   - name: Organize and edit code
@@ -525,12 +541,8 @@
         href: ide/codeindex-command.md
     - name: Editor support for other languages
       href: ide/adding-visual-studio-editor-support-for-other-languages.md
-  - name: Code views
-    items:
-    - name: View the structure of code
-      href: ide/viewing-the-structure-of-code.md
-    - name: Class View and Object Browser icons
-      href: ide/class-view-and-object-browser-icons.md
+  - name: View the structure of code
+    href: ide/viewing-the-structure-of-code.md
   - name: Use the Task List
     href: ide/using-the-task-list.md
   - name: Class Designer

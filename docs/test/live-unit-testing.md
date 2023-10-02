@@ -20,7 +20,7 @@ While you develop an application, Live Unit Testing automatically runs any affec
 
 When you use Live Unit Testing for your tests, it persists data about the status of your tests. Using persisted data allows Live Unit Testing to offer superior performance while running your tests dynamically in response to code changes.
 
-Live Unit Testing is available for C# and Visual Basic projects that target .NET Core or .NET Framework in the Enterprise edition of Visual Studio.
+Live Unit Testing is available only in the Enterprise edition of Visual Studio for projects that target .NET Core or .NET Framework.
 
 ## Supported test frameworks
 

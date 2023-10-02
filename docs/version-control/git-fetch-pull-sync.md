@@ -1,10 +1,10 @@
 ---
 title: git fetch, pull, push, & sync
 description: Fetch, pull, push, and sync in Visual Studio by using Git or Azure DevOps.
-ms.date: 09/20/2022
+ms.date: 09/12/2023
 ms.topic: how-to
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
@@ -32,7 +32,7 @@ You can also use the button controls in the **Git Changes** window to perform th
 
 From left to right, the button controls include **Fetch**, **Pull**, **Push**, and **Sync**.
 
-Additionally, there's also an **ellipsis** (**...**) button control for additional operations. When you select it, a context menu appears. You can use it to fine-tune your fetch, pull, push, and sync operations.
+Additionally, there's also an **ellipsis** (**...**) button control for more operations. When you select it, a context menu appears. You can use it to fine-tune your fetch, pull, push, and sync operations.
 
 :::image type="content" source="media/vs-2022/git-changes-window-ellipsis.png" alt-text="The context menu that appears after you select the ellipsis button control in the Git Changes window in Visual Studio 2022.":::
 

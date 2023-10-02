@@ -7,8 +7,8 @@ helpviewer_keywords:
 - project templates [Visual Studio], locations
 - item templates [Visual Studio], locations
 - template locations [Visual Studio]
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ---

@@ -6,8 +6,8 @@ ms.topic: conceptual
 ms.custom: contperf-fy22q4
 helpviewer_keywords:
 - solution explorer [Visual Studio]
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:
@@ -133,7 +133,7 @@ Visual Studio remembers your choice so that you get the experience that best sui
 
 ## The file comparison tool
 
-Starting with the Visual Studio 2022 version [17.7](/visualstudio/releases/2022/release-notes/) release, you can now select two files in Solution Explorer and compare them by using the new **Compare With** and **Compare Selected** options.
+Starting with the Visual Studio 2022 version [17.7](/visualstudio/releases/2022/release-notes-v17.7) release, you can now select two files in Solution Explorer and compare them by using the new **Compare With** and **Compare Selected** options.
 
 :::image type="content" source="media/vs-2022/file-comparison.png" alt-text="Screenshot of the file comparison tool from the right-click context menu in Solution Explorer." lightbox="media/vs-2022/file-comparison.png":::
 
@@ -143,6 +143,14 @@ You can compare files in the following ways:
 - Multi-select two files by holding down the **Ctrl** button. Then, right-click and select **Compare Selected** from the context menu.
 
 No matter which way you choose to compare your files, the file comparison tool should make it easier to compare your files without having to leave your IDE.
+
+## The Collapse All Descendants command
+
+Also included with the Visual Studio 2022 version [17.7](/visualstudio/releases/2022/release-notes-v17.7) release is the **Collapse All Descendants** command. This command recursively collapses all nodes under a selection so that you can tidy up deeply nested hierarchies as you navigate your project structure. 
+
+:::image type="content" source="media/vs-2022/solution-explorer-collapse-descendants.png" alt-text="Screenshot of the Collapse All Descendants command from the right-click context menu in Solution Explorer.":::
+
+You can find the **Collapse All Descendants** command on the right-click context menu for any item in Solution Explorer that has descendants. You can also press **Ctrl**+**Left Arrow** to use the command.
 
 ::: moniker-end
 

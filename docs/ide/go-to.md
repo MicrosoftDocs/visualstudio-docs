@@ -8,8 +8,8 @@ helpviewer_keywords:
 - code editor, go to line
 - go to line
 - go to
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

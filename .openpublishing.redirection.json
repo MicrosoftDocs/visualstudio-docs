@@ -1,6 +1,526 @@
 {
   "redirections": [
     {
+      "source_path": "docs/extensibility/what-s-new-in-the-visual-studio-2017-sdk.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/what-s-new-in-the-visual-studio-2017-sdk",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/breaking-changes-2017.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/breaking-changes-2017",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/ngen-support.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/ngen-support",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/set-install-root.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/set-install-root",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/migrate-debugger-com-registration.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/migrate-debugger-com-registration",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/faq-2017.yml",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/faq-2017",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/objects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/objects",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/command-line-switches-visual-studio-sdk.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/command-line-switches-visual-studio-sdk",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/extending-solutions.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/extending-solutions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/extending-properties-and-the-property-window.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/extending-properties-and-the-property-window",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/extending-other-parts-of-visual-studio.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/extending-other-parts-of-visual-studio",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/filtering-the-additem-dialog-box-for-nested-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/filtering-the-additem-dialog-box-for-nested-projects",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/nesting-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/nesting-projects",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/how-to-implement-nested-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/how-to-implement-nested-projects",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/considerations-for-unloading-and-reloading-nested-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/considerations-for-unloading-and-reloading-nested-projects",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/wizard-support-for-nested-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/wizard-support-for-nested-projects",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/implementing-command-handling-for-nested-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/implementing-command-handling-for-nested-projects",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/elimination-of-tilde-sak-files.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/elimination-of-tilde-sak-files",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/application-of-settings-across-multiple-project-connections.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/application-of-settings-across-multiple-project-connections",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/creating-parent-container-folders-for-solutions.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/creating-parent-container-folders-for-solutions",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/removal-of-source-control-information-from-dot-proj-and-dot-sln-files.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/removal-of-source-control-information-from-dot-proj-and-dot-sln-files",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/contributing-to-the-automation-model.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/contributing-to-the-automation-model",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/command-routing-in-vspackages.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/command-routing-in-vspackages",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/hierarchies-and-selection.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/hierarchies-and-selection",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/project-types-architecture.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/project-types-architecture",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/command-contracts-in-interop-assemblies.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/command-contracts-in-interop-assemblies",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/optional-comparison-of-local-project-folder-to-source-control-store.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/optional-comparison-of-local-project-folder-to-source-control-store",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/determining-command-status-by-using-interop-assemblies.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/determining-command-status-by-using-interop-assemblies",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/parallel-extension-internals-for-the-dotnet-framework",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/task-class-internal-members.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/task-class-internal-members",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/m-action-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/m-action-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/m-contingentproperties-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/m-contingentproperties-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/m-parent-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/m-parent-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/m-stateflags-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/m-stateflags-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/m-stateobject-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/m-stateobject-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/m-taskid-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/m-taskid-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/s-taskidcounter-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/s-taskidcounter-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/task-state-canceled-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/task-state-canceled-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/task-state-executed-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/task-state-executed-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/task-state-faulted-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/task-state-faulted-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/task-state-ran-to-completion-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/task-state-ran-to-completion-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/task-state-waiting-on-children-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/task-state-waiting-on-children-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/setnotificationforwaitcompletion-method.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/setnotificationforwaitcompletion-method",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/notifydebuggerofwaitcompletion-method.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/notifydebuggerofwaitcompletion-method",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/taskscheduler-class-internal-members.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/taskscheduler-class-internal-members",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/getscheduledtasksfordebugger-method.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/getscheduledtasksfordebugger-method",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/gettaskschedulersfordebugger-method.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/gettaskschedulersfordebugger-method",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/contingentproperties-class-internal-members.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/contingentproperties-class-internal-members",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/m-children-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/m-children-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/asynctaskmethodbuilder-structure-internal-members.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/asynctaskmethodbuilder-structure-internal-members",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/asynctaskmethodbuilder-objectidfordebugger-property.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/asynctaskmethodbuilder-objectidfordebugger-property",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/asynctaskmethodbuilder-m-builder-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/asynctaskmethodbuilder-m-builder-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/asynctaskmethodbuilder-tresult-structure-internal-members.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/asynctaskmethodbuilder-tresult-structure-internal-members",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/asynctaskmethodbuilder-tresult-objectidfordebugger-property.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/asynctaskmethodbuilder-tresult-objectidfordebugger-property",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/asynctaskmethodbuilder-tresult-m-task-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/asynctaskmethodbuilder-tresult-m-task-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/asyncvoidmethodbuilder-structure-internal-members.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/asyncvoidmethodbuilder-structure-internal-members",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/asyncvoidmethodbuilder-objectidfordebugger-property.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/asyncvoidmethodbuilder-objectidfordebugger-property",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/debugger/asyncvoidmethodbuilder-m-objectidfordebugger-field.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/debugger/asyncvoidmethodbuilder-m-objectidfordebugger-field",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/legacy-language-service-extensibility.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/legacy-language-service-extensibility",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/migrating-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/migrating-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/legacy-language-service-essentials.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/legacy-language-service-essentials",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/developing-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/developing-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/model-of-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/model-of-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/legacy-language-service-interfaces.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/legacy-language-service-interfaces",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/intercepting-legacy-language-service-commands.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/intercepting-legacy-language-service-commands",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/important-commands-for-language-service-filters.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/important-commands-for-language-service-filters",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/registering-a-legacy-language-service2.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/registering-a-legacy-language-service2",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/checklist-creating-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/checklist-creating-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/legacy-language-service-features2.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/legacy-language-service-features2",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/syntax-coloring-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/syntax-coloring-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/implementing-syntax-coloring.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/implementing-syntax-coloring",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/how-to-use-built-in-colorable-items.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/how-to-use-built-in-colorable-items",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/custom-colorable-items.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/custom-colorable-items",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/automatic-formatting-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/automatic-formatting-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/parameter-info-in-a-legacy-language-service1.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/parameter-info-in-a-legacy-language-service1",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/statement-completion-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/statement-completion-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/outlining-and-hidden-text-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/outlining-and-hidden-text-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/how-to-support-outlining-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/how-to-support-outlining-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/how-to-provide-hidden-text-support-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/how-to-provide-hidden-text-support-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/how-to-provide-expanded-outlining-support-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/how-to-provide-expanded-outlining-support-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/language-service-support-for-debugging.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/language-service-support-for-debugging",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/implementing-a-legacy-language-service1.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/implementing-a-legacy-language-service1",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/legacy-language-service-overview.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/legacy-language-service-overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/implementing-a-legacy-language-service2.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/implementing-a-legacy-language-service2",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/registering-a-legacy-language-service1.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/registering-a-legacy-language-service1",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/legacy-language-service-parser-and-scanner.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/legacy-language-service-parser-and-scanner",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/walkthrough-creating-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/walkthrough-creating-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/walkthrough-getting-a-list-of-installed-code-snippets-legacy-implementation",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/legacy-language-service-features1.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/legacy-language-service-features1",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/brace-matching-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/brace-matching-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/commenting-code-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/commenting-code-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/custom-document-properties-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/custom-document-properties-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/outlining-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/outlining-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/reformatting-code-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/reformatting-code-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/support-for-code-snippets-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/support-for-code-snippets-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/parameter-info-in-a-legacy-language-service2.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/parameter-info-in-a-legacy-language-service2",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/quick-info-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/quick-info-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/member-completion-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/member-completion-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/word-completion-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/word-completion-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/support-for-the-autos-window-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/support-for-the-autos-window-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/support-for-the-navigation-bar-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/support-for-the-navigation-bar-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/syntax-colorizing-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/syntax-colorizing-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/extensibility/internals/validating-breakpoints-in-a-legacy-language-service.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/validating-breakpoints-in-a-legacy-language-service",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "docs/data-tools/walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/data-tools/walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework",
       "redirect_document_id": false
@@ -1355,181 +1875,7 @@
       "redirect_url": "/troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-office-solution-security",
       "redirect_document_id": false
     },
-    {
-      "source_path": "docs/vsto/accessibility-in-office-projects.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/accessibility-in-office-projects?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/changes-to-the-design-of-office-projects-that-target-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/changes-to-the-design-of-office-projects-that-target-the-dotnet-framework-4-or-the-dotnet-framework-4-5?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/collaborative-development-of-office-solutions.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/collaborative-development-of-office-solutions?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/data-in-office-solutions-walkthroughs.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/data-in-office-solutions-walkthroughs?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/how-to-add-a-form-region-to-an-outlook-add-in-project.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-add-a-form-region-to-an-outlook-add-in-project?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/how-to-add-controls-to-the-backstage-view.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-add-controls-to-the-backstage-view?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/how-to-add-xmlmappedrange-controls-to-worksheets.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-add-xmlmappedrange-controls-to-worksheets?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/how-to-add-xmlnode-controls-to-word-documents.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-add-xmlnode-controls-to-word-documents?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/how-to-add-xmlnodes-controls-to-word-documents.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-add-xmlnodes-controls-to-word-documents?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/how-to-attach-managed-code-extensions-to-documents.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-attach-managed-code-extensions-to-documents?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/how-to-cache-data-in-a-password-protected-document.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-cache-data-in-a-password-protected-document?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-expose-code-to-vba-in-a-visual-basic-project?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/how-to-open-office-solutions-without-running-code.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-open-office-solutions-without-running-code?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/how-to-programmatically-add-an-entry-to-outlook-contacts.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-add-an-entry-to-outlook-contacts?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-cache-a-data-source-in-an-office-document?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/how-to-programmatically-check-spelling-in-worksheets.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-check-spelling-in-worksheets?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/how-to-programmatically-delete-appointments.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-delete-appointments?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/how-to-programmatically-display-worksheet-comments.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-display-worksheet-comments?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/how-to-programmatically-restore-selections-after-searches.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-programmatically-restore-selections-after-searches?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/how-to-scroll-through-database-records-in-a-worksheet.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/how-to-scroll-through-database-records-in-a-worksheet?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/one-or-more-properties-in-the-dot-ofs-file-are-not-valid-for-the-message-class-selected .md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/one-or-more-properties-in-the-dot-ofs-file-are-not-valid-for-the-message-class-selected?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/password-protection-on-office-documents.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/password-protection-on-office-documents?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/persisting-dynamic-controls-in-office-documents.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/persisting-dynamic-controls-in-office-documents?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/project-upgrade-options-dialog-box.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/project-upgrade-options-dialog-box?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/publish-page-project-designer-office-development-in-visual-studio.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/publish-page-project-designer-office-development-in-visual-studio?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/required-changes-to-run-office-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/required-changes-to-run-office-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/secure-deployment.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/secure-deployment?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/security-and-deployment-walkthroughs.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/security-and-deployment-walkthroughs?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/updating-form-regions-in-outlook-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/updating-form-regions-in-outlook-projects-that-you-migrate-to-the-dotnet-framework-4-or-the-dotnet-framework-4-5?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/upgrading-and-migrating-office-solutions.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/upgrading-and-migrating-office-solutions?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/user-interface-reference-office-development-in-visual-studio.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/user-interface-reference-office-development-in-visual-studio?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/walkthrough-creating-a-master-detail-relation-using-a-cached-dataset.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/walkthrough-creating-a-master-detail-relation-using-a-cached-dataset?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/working-with-mail-items.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/working-with-mail-items?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/xmlmappedrange-control.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/xmlmappedrange-control?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "docs/vsto/xmlnode-control.md",
-      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/vsto/xmlnode-control?view=vs-2017&preserve-view=true",
-      "redirect_document_id": false
-    },
+
     {
       "source_path": "docs/debugger/troubleshoot-data-breakpoint-errors.md",
       "redirect_url": "visualstudio/debugger/troubleshooting-breakpoints",

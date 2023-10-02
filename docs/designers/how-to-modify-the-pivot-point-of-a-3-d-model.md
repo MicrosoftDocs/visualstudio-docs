@@ -4,8 +4,8 @@ description: Learn how to use the Model Editor to modify the pivot point of a 3D
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: c20b4ec8-29f5-4ca5-bc39-d4548ca6f573
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-designers
 ms.workload:

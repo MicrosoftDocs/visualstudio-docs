@@ -31,9 +31,6 @@ ms.workload:
 - [Walkthrough: Collect data using a Windows Form](../vsto/walkthrough-collecting-data-using-a-windows-form.md)
  Illustrates using a Windows Form to collect user input and then sending the input to a cell in an Excel worksheet.
 
-- [Walkthrough: Change worksheet formatting using CheckBox controls](../vsto/walkthrough-changing-worksheet-formatting-using-checkbox-controls.md)
- Demonstrates the basics of using check boxes on an Excel worksheet to change formatting.
-
 - [Walkthrough: Display text in a text box in a worksheet using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-worksheet-using-a-button.md)
  Demonstrates the basics of using buttons and text boxes on Excel worksheets.
 
@@ -68,5 +65,3 @@ ms.workload:
 - [Walkthrough: Synchronize a custom task pane with a Ribbon button](../vsto/walkthrough-synchronizing-a-custom-task-pane-with-a-ribbon-button.md)
  Demonstrates how to create a custom task pane that users can hide or display by clicking a toggle button on the ribbon.
 
-- [Walkthrough: Complex data binding in VSTO Add-in project](../vsto/walkthrough-complex-data-binding-in-vsto-add-in-project.md)
- Demonstrates how to bind a table in a SQL Server database to a <xref:Microsoft.Office.Tools.Excel.ListObject> in a VSTO Add-in for Excel.

@@ -13,8 +13,8 @@ helpviewer_keywords:
 - Window.NextDocumentWindowNav
 - IDE navigator
 ms.assetid: 6c36b6eb-c93f-496b-af08-4199f7afd8bd
-author: TerryGLee
-ms.author: tglee
+author: anandmeg
+ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

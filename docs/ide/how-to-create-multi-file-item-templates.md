@@ -7,8 +7,8 @@ helpviewer_keywords:
 - Visual Studio templates, creating multi-file item templates
 - multi-file item templates
 - item templates, creating multi-file item templates
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ---

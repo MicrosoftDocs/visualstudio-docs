@@ -164,7 +164,7 @@ ms.workload:
 
 - Use a button to populate a text box. For more information, see [Walkthrough: Display text in a text box in a document using a button](../vsto/walkthrough-displaying-text-in-a-text-box-in-a-document-using-a-button.md).
 
-- Using radio buttons to select chart styles. For more information, see [Walkthrough: Update a chart in a document using radio buttons](../vsto/walkthrough-updating-a-chart-in-a-document-using-radio-buttons.md).
+- Using radio buttons to select chart styles. 
 
 ## See also
 - [Walkthroughs using Word](../vsto/walkthroughs-using-word.md)
