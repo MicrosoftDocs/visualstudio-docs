@@ -149,6 +149,7 @@
   - name: About AI in Visual Studio
     href: ide/ai-assisted-development-visual-studio.md
   - name: GitHub Copilot
+    expanded: true
     items:
     - name: Use GitHub Copilot inline
       href: ide/visual-studio-github-copilot-extension.md
@@ -157,7 +158,6 @@
     - name: Debug with Copilot
       href: debugger/debug-with-copilot.md
   - name: IntelliCode
-    expanded: true
     items:
     - name: 'What is IntelliCode?'
       href: ide/intellicode-visual-studio.md
