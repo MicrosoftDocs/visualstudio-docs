@@ -143,12 +143,12 @@
     href: python/
   - name: F#  >>
     href: /dotnet/fsharp/
-  expanded: true
 - name: AI-assisted development 
   items:
-  - name: About AI in Visual Studio
+  expanded: true
+- name: About AI in Visual Studio
     href: ide/ai-assisted-development-visual-studio.md
-  - name: Use GitHub Copilot
+  - name: GitHub Copilot
     items:
     - name: Use GitHub Copilot inline
       href: ide/visual-studio-github-copilot-extension.md
@@ -156,8 +156,9 @@
       href: ide/visual-studio-github-copilot-chat.md
     - name: Debug with Copilot
       href: debugger/debug-with-copilot.md
-  - name: Use IntelliCode
+  - name: IntelliCode
     items:
+    expanded: true
     - name: Overview
       href: ide/intellicode-visual-studio.md
     - name: Whole-line autocompletions
