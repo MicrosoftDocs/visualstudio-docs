@@ -16,7 +16,7 @@ helpviewer_keywords:
 - go to
 author: ghogen
 ms.author: ghogen
-manager: tglee
+manager: j-martens
 ms.workload:
 - multiple
 ---

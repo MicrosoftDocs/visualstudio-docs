@@ -2,8 +2,8 @@
 ms.date: 02/24/2023
 ms.technology: vs-ide-general
 ms.custom: vs-get-started, devdivchpfy22
-ms.author: tglee
-author: TerryGLee
+ms.author: ghogen
+author: ghogen
 manager: jmartens
 ms.topic: include
 ---
