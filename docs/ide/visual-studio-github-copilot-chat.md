@@ -38,7 +38,7 @@ Copilot Chat provides AI assistance to help you make informed decisions and writ
 To get started, you need:
 + Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-history) or later
 + Active [subscription](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot) to [GitHub Copilot for Individuals](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-individuals) or [GitHub Copilot for Business](https://docs.github.com/copilot/overview-of-github-copilot/about-github-copilot-for-business)
-+ [**GitHub Copilot** extension enabled in Visual Studio](visual-studio-github-copilot-extension.md#installation-instructions)
++ [**GitHub Copilot** extension](visual-studio-github-copilot-extension.md#installation-instructions) in Visual Studio
 
 ## Install the Visual Studio extension
 
