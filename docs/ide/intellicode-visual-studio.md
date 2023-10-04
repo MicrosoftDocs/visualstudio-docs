@@ -2,7 +2,7 @@
 title: IntelliCode for Visual Studio
 titleSuffix: ""
 description: Read an overview of IntelliCode for Visual Studio. Understand preview features, supported languages, prerequisites, troubleshooting issues, and telemetry.
-ms.date: 09/26/2023
+ms.date: 10/04/2023
 ms.prod: visual-studio-family
 ms.technology: intellicode
 ms.topic: conceptual
@@ -12,7 +12,9 @@ manager: jmartens
 ---
 # IntelliCode: AI-assisted code development in Visual Studio
 
-Visual Studio IntelliCode enhances software development using artificial intelligence, for instance by delivering [context-aware code autocompletions](#context-aware-code-autocompletions), including whole-line completions in gray text. IntelliCode is included by default in most Visual Studio workloads and is available through the Visual Studio installer. This feature predicts the most likely correct method or property for the developer to use instead of just an alphabetical list. It uses the developer's current code context and patterns to provide this dynamic list.
+[GitHub Copilot](visual-studio-github-copilot-extension.md), [GitHub Copilot Chat](visual-studio-github-copilot-chat.md), and IntelliCode enable [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when writing code. 
+
+In this article, you'll learn about how Visual Studio IntelliCode enhances software development using artificial intelligence, for instance by delivering [context-aware code autocompletions](#context-aware-code-autocompletions), including whole-line completions in gray text. IntelliCode is included by default in most Visual Studio workloads and is available through the Visual Studio installer. This feature predicts the most likely correct method or property for the developer to use instead of just an alphabetical list. It uses the developer's current code context and patterns to provide this dynamic list.
 
 In addition to providing member suggestions, IntelliCode also provides *argument completion*. This capability stars the most likely argument names that you'll use when you call a method and places those suggestions at the top of the completion list. The completion list appears when you start typing inside the parentheses or press **Ctrl**+**Space**.
 
