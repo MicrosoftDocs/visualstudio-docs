@@ -3,8 +3,8 @@ title: Exempt from Windows Information Protection
 description: Learn about exempting Visual Studio from Windows Information Protection while still allowing it to use enterprise data. 
 ms.date: 06/01/2018
 ms.topic: conceptual
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

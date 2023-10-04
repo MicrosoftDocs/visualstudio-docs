@@ -17,27 +17,11 @@ While the decision has been made to retire Visual Studio for Mac, **we remain co
 
 The following notes outline the timeline for support. 
 
-:::row::: 
-    :::column span="1"::: 
-        **On or before Aug 31, 2024**
-    :::column-end::: 
-    :::column span="3"::: 
-        Users can still:
-        + Create and maintain Mono, .NET 6, and .NET 7 applications. You can also continue to develop, maintain, and publish your apps to app stores.  
-        + Access Microsoft Customer Service and Support for Visual Studio for Mac. If you have any support agreements, you can continue to have access to technical support during this period.  
-        + Install product updates we release so you can reliably maintain and publish your mobile applications using the latest Xcode, iOS, and Android versions. Microsoft also releases security updates for Visual Studio for Mac.
-        Microsoft doesn't plan to add support for [.NET 8](/dotnet/core/whats-new/dotnet-8/) or [C#12](/dotnet/csharp/whats-new/csharp-12/) to Visual Studio for Mac.  We won't extend to any other workloads before retirement either.
-    :::column-end::: 
-:::row-end:::
-:::row::: 
-    :::column span="1"::: 
-        **After Aug 31, 2024**
-    :::column-end::: 
-    :::column span="3":::
-        Visual Studio for Mac will no longer be supported or maintained after August 31, 2024. Visual Studio for Mac will still be available as a legacy installation only via my.visualstudio.com for users with Visual Studio subscriptions. 
-    :::column-end::: 
-:::row-end:::
 
+|Key&nbsp;dates|What's happens when| 
+|-----------|--------------------------|
+| **On or before** <br/> **Aug 31, 2024**   | Users can still: <br/><ul><li>Create and maintain Mono, .NET 6, and .NET 7 applications. You can also continue to develop, maintain, and publish your apps to app stores. <br/><li> Access Microsoft Customer Service and Support for Visual Studio for Mac. If you have any support agreements, you can continue to have access to technical support during this period. <br/><li> Install product updates we release so you can reliably maintain and publish your mobile applications using the latest Xcode, iOS, and Android versions. Microsoft also releases security updates for Visual Studio for Mac. </ul>Microsoft doesn't plan to add support for [.NET 8](/dotnet/core/whats-new/dotnet-8/) or [C#12](/dotnet/csharp/whats-new/csharp-12/) to Visual Studio for Mac.  We won't extend to any other workloads before retirement either. | 
+|**After&nbsp;Aug&nbsp;31,&nbsp;2024** | Visual Studio for Mac will no longer be supported or maintained after August 31, 2024. Visual Studio for Mac will still be available as a legacy installation only via my.visualstudio.com for users with Visual Studio | 
 
 ## Preview vs stable builds of Visual Studio for Mac
  

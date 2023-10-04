@@ -16,8 +16,8 @@ helpviewer_keywords:
 - Class Designer, limitations
 - Class Designer, tasks in C++
 ms.assetid: f5b40921-2ef7-4de0-b595-45b44c79ffa6
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

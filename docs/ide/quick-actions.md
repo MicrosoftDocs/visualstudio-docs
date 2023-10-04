@@ -3,8 +3,8 @@ title: Quick Actions, light bulbs, and screwdrivers
 description: Learn how to use a single Quick Action to refactor, generate, or otherwise modify your code.
 ms.date: 08/29/2022
 ms.topic: conceptual
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 dev_langs:

@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - surround-with snippets
 - snippets [C#], surround with
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

@@ -4,8 +4,8 @@ description: Learn how to use the Model Editor to create a basic 3D model, inclu
 ms.date: 11/04/2016
 ms.topic: how-to
 ms.assetid: a0d97966-2df8-449b-a8cf-5a19684dc773
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-designers
 ms.workload:

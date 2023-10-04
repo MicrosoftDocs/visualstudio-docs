@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Debug.ListDisassembly command"
   - "list disassembly command"
 ms.assetid: eb363e35-e86a-4121-966f-991210c27e2a
-author: TerryGLee
-ms.author: tglee
+author: Mikejo5000
+ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 ms.workload:

@@ -143,13 +143,30 @@
     href: python/
   - name: F#  >>
     href: /dotnet/fsharp/
-  expanded: true
 - name: AI-assisted development 
+  expanded: true
   items:
+  - name: About AI in Visual Studio
+    href: ide/ai-assisted-development-visual-studio.md
   - name: GitHub Copilot
-    href: ide/visual-studio-github-copilot-extension.md
-  - name: Debug with Copilot
-    href: debugger/debug-with-copilot.md
+    expanded: true
+    items:
+    - name: Use GitHub Copilot 
+      href: ide/visual-studio-github-copilot-extension.md
+    - name: Use GitHub Copilot Chat 
+      href: ide/visual-studio-github-copilot-chat.md
+    - name: Debug with Copilot
+      href: debugger/debug-with-copilot.md
+  - name: IntelliCode
+    items:
+    - name: 'What is IntelliCode?'
+      href: ide/intellicode-visual-studio.md
+    - name: 'IntelliCode: Whole-line autocompletions'
+      href: ide/visual-studio-whole-line-completions.md
+    - name: 'IntelliCode: Suggestions'
+      href: ide/intellicode-suggestions.md
+    - name: 'Privacy & IntelliCode'
+      href: ide/intellicode-privacy.md
 - name: Develop
   items:
   - name: Organize and edit code

@@ -14,9 +14,9 @@ helpviewer_keywords:
 - peek definition
 - go to line
 - go to
-author: TerryGLee
-ms.author: tglee
-manager: tglee
+author: ghogen
+ms.author: ghogen
+manager: j-martens
 ms.workload:
 - multiple
 ---

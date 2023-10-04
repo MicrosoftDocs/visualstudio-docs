@@ -6,8 +6,8 @@ ms.date: 08/08/2023
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
-author: TerryGLee
-ms.author: tglee
+author: ghogen
+ms.author: ghogen
 manager: jmartens
 ms.technology:
 ms.prod: visual-studio-windows
