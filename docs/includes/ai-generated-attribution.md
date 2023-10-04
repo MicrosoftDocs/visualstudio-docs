@@ -1,8 +1,8 @@
 ---
-author: TerryGLee
+author: anandmeg
+ms.author: meghaanand
 ms.topic: include
-ms.date: 04/21/2023
-ms.author: tglee
+ms.date: 09/21/2023
 ---
 
 > [!NOTE]
