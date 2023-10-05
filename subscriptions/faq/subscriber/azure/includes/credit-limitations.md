@@ -23,6 +23,6 @@ The monthly credit doesn't apply toward purchase of the following services:
 - Visual Studio App Center
 - Third-party branded products
 - Products sold through the [Visual Studio Marketplace](https://marketplace.visualstudio.com/)
-- Products otherwise sold separately from Azure (for example, Azure Active Directory Premium)
+- Products otherwise sold separately from Azure (for example, Entra ID P2)
 
 To purchase these services, you need to remove your [spending limit](https://learn.microsoft.com/azure/billing/billing-spending-limit) and provide a credit card for billing.
