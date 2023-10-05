@@ -66,16 +66,14 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Tutorial: Create a simple WPF application with C\#](../get-started/csharp/tutorial-wpf.md) - Fix GitHub issue to add buttonclick to XAML and update .NET 7
 
-### IDE
+### AI
 
 **New articles**
 
 - [AI-assisted development with Visual Studio](../ide/ai-assisted-development-visual-studio.md)
 - [Visual Studio GitHub CoPilot Chat](../ide/visual-studio-github-copilot-chat.md)
-- [IntelliCode privacy](../ide/intellicode-privacy.md)
-- [IntelliCode suggestions](../ide/intellicode-suggestions.md)
-- [IntelliCode in Visual Studio](../ide/intellicode-visual-studio.md)
-- [IntelliCode Whole line autocompletions](../ide/visual-studio-whole-line-completions.md)
+
+### IDE
 
 **Updated articles**
 
