@@ -79,8 +79,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md)
-  - Add overview doc on AI-assisted development in Visual Studio
 - [How to: Customize the scroll bar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md) - add Table of Annotations section to list scroll bar colors
 - [Troubleshoot and create logs for MSBuild problems](../ide/msbuild-logs.md) - Improve guidance for binary logs
 
@@ -122,8 +120,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
 
-- [learn-build-service-prod](https://github.com/learn-build-service-prod) -  ![9 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-9-green)
-- [TerryGLee](https://github.com/TerryGLee) - Terry G. Lee ![5 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-5-green)
 - [BBreiden](https://github.com/BBreiden) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [chausner](https://github.com/chausner) -  ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
 - [K4PS3](https://github.com/K4PS3) - khaled ![1 pull requests.](https://img.shields.io/badge/Merged%20Pull%20Requests-1-green)
