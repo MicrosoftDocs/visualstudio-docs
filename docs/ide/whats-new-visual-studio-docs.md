@@ -23,6 +23,13 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 ## September 2023
 
+### AI
+
+**New articles**
+
+- [AI-assisted development with Visual Studio](../ide/ai-assisted-development-visual-studio.md)
+- [Visual Studio GitHub CoPilot Chat](../ide/visual-studio-github-copilot-chat.md)
+
 ### Azure
 
 **New articles**
@@ -65,13 +72,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 **Updated articles**
 
 - [Tutorial: Create a simple WPF application with C\#](../get-started/csharp/tutorial-wpf.md) - Fix GitHub issue to add buttonclick to XAML and update .NET 7
-
-### AI
-
-**New articles**
-
-- [AI-assisted development with Visual Studio](../ide/ai-assisted-development-visual-studio.md)
-- [Visual Studio GitHub CoPilot Chat](../ide/visual-studio-github-copilot-chat.md)
 
 ### IDE
 
