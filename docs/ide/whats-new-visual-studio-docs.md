@@ -178,7 +178,7 @@ The following people contributed to the Visual Studio docs during this period. T
 - Add new Copy & Trim Indentation info:
   - [Productivity guide for Visual Studio](../ide/productivity-features.md) 
   - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
-- [Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)](../ide/work-with-multi-factor-authentication.md) - Add Windows authentication broker workflow
+- [Sign in to Visual Studio with accounts that require multifactor authentication (MFA)](../ide/work-with-multi-factor-authentication.md) - Add Windows authentication broker workflow
 - [Tutorial: Build an application](../ide/walkthrough-building-an-application.md) - Update article procedure
 - [Manage references in a project](../ide/managing-references-in-a-project.md) - Update links, text, and screenshots
 - Update links and text:
