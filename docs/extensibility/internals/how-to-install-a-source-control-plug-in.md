@@ -21,12 +21,12 @@ Creating a source-control plug-in involves three steps:
 
 1. Create a DLL with the functions defined in the Source Control Plug-in API reference section of this documentation.
 
-2. Implement the Source Control Plug-in API-defined functions. When [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] calls for it, make interfaces and dialog boxes available from the plug-in.
+2. Implement the Source Control Plug-in API-defined functions. When Visual Studio calls for it, make interfaces and dialog boxes available from the plug-in.
 
 3. Register the DLL by making appropriate registry entries.
 
 ## Integration with Visual Studio
- [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] supports source control plug-ins that conform to the Source Control Plug-in API.
+ Visual Studio supports source control plug-ins that conform to the Source Control Plug-in API.
 
 ### Register the source control plug-in
  Before a running integrated development environment (IDE) can call into the source control system, it must first find the source control plug-in DLL that exports the API.
@@ -47,7 +47,7 @@ Creating a source-control plug-in involves three steps:
 
 2. The following optional registry entries can be used to modify the behavior of your source control plug-in. These entries go in the same subkey as **SccServerName** and **SccServerPath**.
 
-   - The **HideInVisualStudioregistry** entry can be used if you do not want your source control-plug-in to appear in the **Plug-in Selection** list of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. This entry will also affect automatic switching to the source control plug-in. One possible use for this entry is if you supply a source control package that replaces your source control plug-in but you want to make it easier for the user to migrate from using the source control plug-in to the source control package. When the source control package is installed, it sets this registry entry, which hides the plug-in.
+   - The **HideInVisualStudioregistry** entry can be used if you do not want your source control-plug-in to appear in the **Plug-in Selection** list of Visual Studio. This entry will also affect automatic switching to the source control plug-in. One possible use for this entry is if you supply a source control package that replaces your source control plug-in but you want to make it easier for the user to migrate from using the source control plug-in to the source control package. When the source control package is installed, it sets this registry entry, which hides the plug-in.
 
       **HideInVisualStudio** is a DWORD value and is set to *1* to hide the plug-in or *0* to show the plug-in. If the registry entry does not appear, the default behavior is to show the plug-in.
 
@@ -84,10 +84,10 @@ Creating a source-control plug-in involves three steps:
    |HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider\InstalledSCCProviders\Microsoft Visual SourceSafe|SOFTWARE\Microsoft\SourceSafe|
 
    > [!NOTE]
-   > There can be multiple source control plug-ins registered in this way. This is how [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] finds all installed Source Control Plug-in API-based plug-ins.
+   > There can be multiple source control plug-ins registered in this way. This is how Visual Studio finds all installed Source Control Plug-in API-based plug-ins.
 
 ## How an IDE locates the DLL
- The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE has two ways of finding the source control plug-in DLL:
+ The Visual Studio IDE has two ways of finding the source control plug-in DLL:
 
 - Find the default source control plug-in and connect to it silently.
 
@@ -103,14 +103,14 @@ Creating a source-control plug-in involves three steps:
  A source control plug-in needs to support both ways of finding the DLL and, consequently, sets **ProviderRegKey**, overwriting any previous setting. More importantly, it must add itself to the list of **InstalledSccProviders** so the user can have a choice of which source control plug-in to use.
 
 > [!NOTE]
-> Because the **HKEY_LOCAL_MACHINE** key is used, only one source control plug-in can be registered as the default source control plug-in on a given machine (however, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] allows users to determine which source control plug-in they want to actually use for a particular solution). During your installation process, check to see if a source control plug-in is already set; if so, ask the user whether or not to set the new source control plug-in being installed as the default. During uninstallation, do not remove other registry subkeys that are common to all source control plug-ins in **HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider**; remove only your particular SCC subkey.
+> Because the **HKEY_LOCAL_MACHINE** key is used, only one source control plug-in can be registered as the default source control plug-in on a given machine (however, Visual Studio allows users to determine which source control plug-in they want to actually use for a particular solution). During your installation process, check to see if a source control plug-in is already set; if so, ask the user whether or not to set the new source control plug-in being installed as the default. During uninstallation, do not remove other registry subkeys that are common to all source control plug-ins in **HKEY_LOCAL_MACHINE\SOFTWARE\SourceCodeControlProvider**; remove only your particular SCC subkey.
 
 ## How the IDE detects version 1.2/1.3 support
- How does [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] detect whether a plug-in supports Source Control Plug-in API version 1.2 and 1.3 functionality? To declare advanced capability, the source control plug-in must implement the corresponding function:
+ How does Visual Studio detect whether a plug-in supports Source Control Plug-in API version 1.2 and 1.3 functionality? To declare advanced capability, the source control plug-in must implement the corresponding function:
 
- First, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] checks the value returned by calling the [SccGetVersion](../../extensibility/sccgetversion-function.md). It must be greater than or equal to 1.2.
+ First, Visual Studio checks the value returned by calling the [SccGetVersion](../../extensibility/sccgetversion-function.md). It must be greater than or equal to 1.2.
 
- Next, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] determines whether the particular new capability is supported by examining the `lpSccCaps` argument on the [SccInitialize](../../extensibility/sccinitialize-function.md).
+ Next, Visual Studio determines whether the particular new capability is supported by examining the `lpSccCaps` argument on the [SccInitialize](../../extensibility/sccinitialize-function.md).
 
  If both of these conditions are met, the new functions supported in versions 1.2 and 1.3 can be called.
 

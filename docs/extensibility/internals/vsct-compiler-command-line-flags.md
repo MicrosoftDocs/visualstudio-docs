@@ -20,7 +20,7 @@ ms.workload:
 The Visual Studio Command Table (VSCT) compiler provides command-line switches to ensure successful compilation of .vsct files.
 
 ## Command Line Parameters
- To view basic VSCT help from a [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] **Command** window, navigate to the *Visual Studio SDK installation path*\VisualStudioIntegration\Tools\Bin\ folder and type:
+ To view basic VSCT help from a Visual Studio **Command** window, navigate to the *Visual Studio SDK installation path*\VisualStudioIntegration\Tools\Bin\ folder and type:
 
 ```
 vsct /?

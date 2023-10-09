@@ -16,7 +16,7 @@ ms.workload:
 # IDebugProgramDestroyEventFlags2
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-Enables a debug engine to override the default behavior of the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] UI when you end a debug session.
+Enables a debug engine to override the default behavior of the Visual Studio UI when you end a debug session.
 
 ## Syntax
 
@@ -35,7 +35,7 @@ IDebugProgramDestroyEventFlags2 : IUnknown
 |[GetFlags](../../../extensibility/debugger/reference/idebugprogramdestroyeventflags2-getflags.md)|Retrieves the program destroy flags.|
 
 ## Remarks
- The default behavior of the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] UI is to go back to design mode after all programs have sent a program destroy event. This interface enables a debug engine to change that behavior.
+ The default behavior of the Visual Studio UI is to go back to design mode after all programs have sent a program destroy event. This interface enables a debug engine to change that behavior.
 
 ## Requirements
  Header: Msdbg.h

@@ -58,7 +58,7 @@ Determines whether to check that the target directory where the project is to be
 ## Remarks
  `CreateNewFolder` is an optional element. The default value is `true`.
 
- The value specified in the `CreateNewFolder` element is only honored by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] if the underlying project system supports it.
+ The value specified in the `CreateNewFolder` element is only honored by Visual Studio if the underlying project system supports it.
 
 ## Example
  The following code example specifies not to create a new folder when a project is created from the template.

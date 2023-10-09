@@ -25,7 +25,7 @@ IDebugBreakpointChecksumRequest2 : IUnknown
 ```
 
 ## Notes for Implementers
- Implemented by the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] Debug package and consumed by debug engines.
+ Implemented by the Visual Studio Debug package and consumed by debug engines.
 
 ## Methods
  The following table shows the methods of `IDebugBreakpointChecksumRequest2`.

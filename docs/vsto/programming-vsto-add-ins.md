@@ -47,7 +47,7 @@ ms.workload:
  For general information about VSTO Add-ins and other types of solutions you can create by using the Office development tools in Visual Studio, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
 
 ## Use the ThisAddIn class
- You can start writing your VSTO Add-in code in the `ThisAddIn` class. Visual Studio automatically generates this class in the *ThisAddIn.vb* (in [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)]) or *ThisAddIn.cs* (in C#) code file in your VSTO Add-in project. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] automatically instantiates this class for you when the Microsoft Office application loads your VSTO Add-in.
+ You can start writing your VSTO Add-in code in the `ThisAddIn` class. Visual Studio automatically generates this class in the *ThisAddIn.vb* (in Visual Basic) or *ThisAddIn.cs* (in C#) code file in your VSTO Add-in project. The  Visual Studio Tools for Office runtime  automatically instantiates this class for you when the Microsoft Office application loads your VSTO Add-in.
 
  There are two default event handlers in the `ThisAddIn` class. To run code when the VSTO Add-in is loaded, add code to the `ThisAddIn_Startup` event handler. To run code just before the VSTO Add-in is unloaded, add code to the `ThisAddIn_Shutdown` event handler. For more information about these event handlers, see [Events in Office projects](../vsto/events-in-office-projects.md).
 
@@ -110,7 +110,7 @@ Dim newWorkbook As Excel.Workbook = Globals.ThisAddIn.Application.Workbooks.Add(
 - [Visio object model overview](../vsto/visio-object-model-overview.md)
 
 ### <a name="AccessingDocuments"></a> Access a document when the Office application starts
- Not all [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)] applications automatically open a document when you start them, and none of the [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] applications open a document when you start them. Therefore, don't add code in the `ThisAdd-In_Startup` event handler if the code requires a document to be open. Instead, add that code to an event that the Office application raises when a user creates or opens a document. That way, you can guarantee that a document is open before your code performs operations on it.
+ Not all Office 2010 applications automatically open a document when you start them, and none of the  Office 2013  applications open a document when you start them. Therefore, don't add code in the `ThisAdd-In_Startup` event handler if the code requires a document to be open. Instead, add that code to an event that the Office application raises when a user creates or opens a document. That way, you can guarantee that a document is open before your code performs operations on it.
 
  The following code example works with a document in Word only when the user creates a document or opens an existing document.
 
@@ -133,9 +133,9 @@ Dim newWorkbook As Excel.Workbook = Globals.ThisAddIn.Application.Workbooks.Add(
 |Customize a feature in the Microsoft Office system by implementing an extensibility interface.|Override the <xref:Microsoft.Office.Tools.AddInBase.RequestService%2A> method to return an instance of a class that implements the interface. For more information, see [Customize UI features by using extensibility interfaces](../vsto/customizing-ui-features-by-using-extensibility-interfaces.md). **Note:**  To customize the ribbon UI, you can also override the <xref:Microsoft.Office.Tools.AddInBase.CreateRibbonExtensibilityObject%2A> method.|
 
 ### Understand the design of the ThisAddIn class
- In projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], <xref:Microsoft.Office.Tools.AddIn> is an interface. The `ThisAddIn` class derives from the <xref:Microsoft.Office.Tools.AddInBase> class. This base class redirects all calls to its members to an internal implementation of the <xref:Microsoft.Office.Tools.AddIn> interface in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
+ In projects that target the .NET Framework 4, <xref:Microsoft.Office.Tools.AddIn> is an interface. The `ThisAddIn` class derives from the <xref:Microsoft.Office.Tools.AddInBase> class. This base class redirects all calls to its members to an internal implementation of the <xref:Microsoft.Office.Tools.AddIn> interface in the  Visual Studio Tools for Office runtime .
 
- In VSTO Add-in projects for Outlook, the `ThisAddIn` class derives from the `Microsoft.Office.Tools.Outlook.OutlookAddIn` class in projects that target the .NET Framework 3.5, and from <xref:Microsoft.Office.Tools.Outlook.OutlookAddInBase> in projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]. These base classes provide some additional functionality to support form regions. For more information about form regions, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).
+ In VSTO Add-in projects for Outlook, the `ThisAddIn` class derives from the `Microsoft.Office.Tools.Outlook.OutlookAddIn` class in projects that target the .NET Framework 3.5, and from <xref:Microsoft.Office.Tools.Outlook.OutlookAddInBase> in projects that target the .NET Framework 4. These base classes provide some additional functionality to support form regions. For more information about form regions, see [Create Outlook form regions](../vsto/creating-outlook-form-regions.md).
 
 ## Customize the user interface of Microsoft Office applications
  You can programmatically customize the UI of Microsoft Office applications by using a VSTO Add-in. For example, you can customize the ribbon, display a custom task pane, or create a custom form region in Outlook. For more information, see [Office UI customization](../vsto/office-ui-customization.md).

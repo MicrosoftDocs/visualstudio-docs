@@ -18,14 +18,14 @@ ms.workload:
 # Application manifests for Office solutions
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-  An application manifest is an XML file that describes the assemblies that are loaded into a Microsoft Office solution. The Microsoft Office development tools in Visual Studio use the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] application manifest schema defined in the [ClickOnce application manifest](../deployment/clickonce-application-manifest.md) reference.
+  An application manifest is an XML file that describes the assemblies that are loaded into a Microsoft Office solution. The Microsoft Office development tools in Visual Studio use the ClickOnce application manifest schema defined in the [ClickOnce application manifest](../deployment/clickonce-application-manifest.md) reference.
 
- Application manifests for Office solutions use the following [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] elements and attributes.
+ Application manifests for Office solutions use the following ClickOnce elements and attributes.
 
 |Element|Description|Attributes|
 |-------------|-----------------|----------------|
 |[&#60;assembly&#62; Element &#40;ClickOnce Application&#41;](../deployment/assembly-element-clickonce-deployment.md)|Required. Top-level element.|**manifestVersion**|
-|[&#60;assemblyIdentity&#62; Element &#40;ClickOnce Application&#41;](../deployment/assemblyidentity-element-clickonce-deployment.md)|Required. Identifies the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] application's primary assembly.|**name**<br /><br /> **version**<br /><br /> **publicKeyToken**<br /><br /> **processorArchitecture**<br /><br /> **language**|
+|[&#60;assemblyIdentity&#62; Element &#40;ClickOnce Application&#41;](../deployment/assemblyidentity-element-clickonce-deployment.md)|Required. Identifies the ClickOnce application's primary assembly.|**name**<br /><br /> **version**<br /><br /> **publicKeyToken**<br /><br /> **processorArchitecture**<br /><br /> **language**|
 |[&#60;trustInfo&#62; Element &#40;ClickOnce Application&#41;](../deployment/trustinfo-element-clickonce-application.md)|Identifies the application security requirements.|None|
 |[&#60;entryPoint&#62; Element &#40;ClickOnce Application&#41;](../deployment/entrypoint-element-clickonce-application.md)|Required. Identifies the application code entry point for execution.|**name**<br /><br /> **dependencyName**<br /><br /> **customHostSpecified**|
 |[&#60;dependency&#62; Element &#40;ClickOnce Application&#41;](../deployment/dependency-element-clickonce-deployment.md)|Required. Identifies each dependency required for the application to run. Optionally identifies assemblies that need to be preinstalled.|None|
@@ -91,7 +91,7 @@ ms.workload:
  You can manually edit application and deployment manifests in Office solutions. Afterwards, you must re-sign the application and deployment manifests by using the Manifest Generation and Editing Tool (*mage.exe* and *mageui.exe*). For more information, see [How to: Re-sign application and deployment manifests](../deployment/how-to-re-sign-application-and-deployment-manifests.md).
 
 ## File location
- An application manifest is specific to a single version of a solution. For this reason, application manifests should be stored separately from deployment manifests. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] places the version-specific files in a subdirectory named after the associated version in the *Application Files* subdirectory in the publish folder.
+ An application manifest is specific to a single version of a solution. For this reason, application manifests should be stored separately from deployment manifests. Visual Studio places the version-specific files in a subdirectory named after the associated version in the *Application Files* subdirectory in the publish folder.
 
 ## File name syntax
  The name of an application manifest file should be the full name and extension of the application as identified in the **assemblyIdentity** element, followed by the extension *.manifest*. For example, an application manifest that refers to the *OutlookAddIn1.dll* customization would use the following file name syntax.

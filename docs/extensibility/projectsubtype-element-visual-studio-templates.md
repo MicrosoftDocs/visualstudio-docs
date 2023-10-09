@@ -56,18 +56,18 @@ Classifies the template into a subcategory of the value specified in the `Projec
 
  The `ProjectSubType` element provides a subcategory to the [ProjectType](../extensibility/projecttype-element-visual-studio-templates.md) element. This value can include:
 
-- `SmartDevice-NETCFv1`: Specifies that the template targets the [!INCLUDE[Compact](../extensibility/includes/compact_md.md)] version 1.0.
+- `SmartDevice-NETCFv1`: Specifies that the template targets the .NET Compact Framework version 1.0.
 
-- `SmartDevice-NETCFv2`: Specifies that the template targets the [!INCLUDE[Compact](../extensibility/includes/compact_md.md)] version 2.0.
+- `SmartDevice-NETCFv2`: Specifies that the template targets the .NET Compact Framework version 2.0.
 
   If a template contains a `ProjectType` element with a value of `Web`, the `ProjectSubType` element specifies the programming language of the template. This element can have the following values:
 
-- `CSharp`: Specifies that the template creates a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Web project or item.
+- `CSharp`: Specifies that the template creates a Visual C# Web project or item.
 
-- `VisualBasic`: Specifies that the template creates a [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] Web project or item.
+- `VisualBasic`: Specifies that the template creates a Visual Basic Web project or item.
 
 ## Example
- The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] device application targeting the [!INCLUDE[Compact](../extensibility/includes/compact_md.md)] version 2.0.
+ The following example shows the metadata for a project template for a Visual C# device application targeting the .NET Compact Framework version 2.0.
 
 ```
 <VSTemplate Type="Project" Version="3.0.0"

@@ -37,7 +37,7 @@ ms.workload:
 
 4. In the **Create** dialog box, choose the **Announcements** type, name the announcement **TestAnnouncements**, and then choose the **Create** button.
 
-5. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create an event receiver project.
+5. In Visual Studio, create an event receiver project.
 
 6. In the **What type of event receiver do you want?** list, choose **List Item Events**.
 

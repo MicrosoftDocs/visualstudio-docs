@@ -22,13 +22,13 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-  Several SharePoint project type templates are available in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] for creating SharePoint sites and site elements. For a list of the available project types, see [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md). Following is a description of the elements and properties of a SharePoint project.
+  Several SharePoint project type templates are available in Visual Studio for creating SharePoint sites and site elements. For a list of the available project types, see [SharePoint project and project item templates](../sharepoint/sharepoint-project-and-project-item-templates.md). Following is a description of the elements and properties of a SharePoint project.
 
  For information about SharePoint add-ins, see [Build SharePoint add-ins](/sharepoint/dev/sp-add-ins/sharepoint-add-ins).
 
 ## Elements of a SharePoint project
 
- The nodes under a SharePoint project are known as *SharePoint items*. SharePoint items may also contain one or more subfiles, referred to as *SharePoint item files*, such as [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] configuration files, .aspx forms, and more.
+ The nodes under a SharePoint project are known as *SharePoint items*. SharePoint items may also contain one or more subfiles, referred to as *SharePoint item files*, such as XML configuration files, .aspx forms, and more.
 
  Instead of creating projects by using project templates that are already populated with project item files, you can use the **Empty Project** template to create an empty SharePoint project and then add project items manually. SharePoint projects can also optionally contain one or more feature files (for activation in SharePoint) and a package file in which to distribute the project.
 
@@ -53,13 +53,13 @@ ms.workload:
 
 #### Package node
 
- The **Package** node contains a single file that serves as the distribution mechanism for the SharePoint project. This file, known as a *solution package*, is .CAB-based with a .WSP extension. A solution package is a deployable, reusable file that contains a set of features, site definitions, and assemblies that apply to SharePoint sites, and that you can enable or disable individually. The **Package** node also always contains a file that is named Package.wspdef, an [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] definition file for the package. Once a package is deployed to the server that's running SharePoint, the SharePoint administrator can install it and activate its features.
+ The **Package** node contains a single file that serves as the distribution mechanism for the SharePoint project. This file, known as a *solution package*, is .CAB-based with a .WSP extension. A solution package is a deployable, reusable file that contains a set of features, site definitions, and assemblies that apply to SharePoint sites, and that you can enable or disable individually. The **Package** node also always contains a file that is named Package.wspdef, an XML definition file for the package. Once a package is deployed to the server that's running SharePoint, the SharePoint administrator can install it and activate its features.
 
  You can view or change the package's contents in the Package Designer either by double-clicking the package node or by opening its shortcut menu and then choosing **Open**. For more information, see [Create SharePoint solution packages](../sharepoint/creating-sharepoint-solution-packages.md).
 
 ## SharePoint project and project item properties
 
- SharePoint projects, just like other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] projects, display properties in the Properties window and the Properties Page. The properties that are displayed depend on the node that is selected.
+ SharePoint projects, just like other Visual Studio projects, display properties in the Properties window and the Properties Page. The properties that are displayed depend on the node that is selected.
 
  When a SharePoint project, project item, or project item file node is selected in **Solution Explorer**, the following properties appear in the Properties window or the Properties Page:
 
@@ -69,7 +69,7 @@ ms.workload:
 |-------------------|-----------------|
 |Active Deployment Configuration|Specifies the series of steps performed during deployment. For more information, see [How to: Edit a SharePoint deployment configuration](../sharepoint/how-to-edit-a-sharepoint-deployment-configuration.md).|
 |Assembly Deployment Target|Determines where *SharePoint application assemblies* are located. Valid assembly location values are either *GlobalAssemblyCache* (default), or *WebApplication*.<br /><br /> If the *Sandboxed Solution* property is set to **true**, then this property is disabled.|
-|Auto-retract after debugging|Specifies whether the deployed solution automatically retracts from SharePoint after running the application in debug mode in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. When selected, the solution retracts when the IDE goes back to design view after debugging. When cleared, the solution does not retract. For more information, see [Retracting a Solution](/previous-versions/office/developer/sharepoint-2010/aa543958(v=office.14)).|
+|Auto-retract after debugging|Specifies whether the deployed solution automatically retracts from SharePoint after running the application in debug mode in Visual Studio. When selected, the solution retracts when the IDE goes back to design view after debugging. When cleared, the solution does not retract. For more information, see [Retracting a Solution](/previous-versions/office/developer/sharepoint-2010/aa543958(v=office.14)).|
 |Edit Configurations|Specifies the deployment configuration to use for the project. For more information, see [How to: Edit a SharePoint deployment configuration](../sharepoint/how-to-edit-a-sharepoint-deployment-configuration.md) and [Deploy, publish, and upgrade SharePoint solution packages](../sharepoint/deploying-publishing-and-upgrading-sharepoint-solution-packages.md).|
 |Enable Silverlight Debugging (instead of Script debugging)|When selected, the Silverlight debugger attaches to the debugging process. When cleared, the Script debugger attaches to the debugging process. For more information, see [Silverlight Debugging Overview](/previous-versions/windows/).|
 |Include Assembly in Package|Specifies whether the project assembly is packaged at build time or not.|
@@ -78,7 +78,7 @@ ms.workload:
 |Project File|The name of the file containing build, configuration, and other information about the project.|
 |Project Folder|The location of the project file on the system. (Read-only.)|
 |Sandboxed Solution|Specifies whether the project should be deployed as a *sandboxed solution*, also known as a *user-created solution*. Sandboxed solutions are not necessarily trustworthy. A value of **true** means that the project is deployed as a sandboxed solution, a value of **false** means that the project is deployed as a farm solution. For more information, see [Sandboxed Solution Considerations](../sharepoint/sandboxed-solution-considerations.md) and [Differences Between Sandboxed and Farm Solutions](../sharepoint/differences-between-sandboxed-and-farm-solutions.md).|
-|Site URL|Specifies the [!INCLUDE[TLA2#tla_url](../sharepoint/includes/tla2sharptla-url-md.md)] of the target site for this project.|
+|Site URL|Specifies the URL of the target site for this project.|
 |Startup Item|Specifies the first item in the project to run.|
 
  When you choose a SharePoint item file (such as a workflow or a feature in the Features node), the following properties appear in the Properties window:
@@ -100,7 +100,7 @@ ms.workload:
 |-------------------|-----------------|
 |Build Action|Specifies how the file relates to the build and deployment processes. For more information, see [File Properties](/previous-versions/visualstudio/visual-studio-2010/0c6xyb66\(v\=vs.100\)).|
 |Copy to Output Directory|Specifies whether the source file(s) will be copied to the Output directory. Can be one of the following values:<br /><br /> -   *Do not copy*<br />-   *Copy always*<br />-   *Copy if newer*<br /><br /> For more information, see [File Properties](/previous-versions/visualstudio/visual-studio-2010/0c6xyb66\(v\=vs.100\)).|
-|Custom Tool|Specifies the name of a tool, if any, that transforms the file at design time and puts the output of the transformation into another file. For example, a dataset (.[!INCLUDE[TLA2#tla_xsd](../sharepoint/includes/tla2sharptla-xsd-md.md)]) file has a default custom tool. For more information, see [File Properties](/previous-versions/visualstudio/visual-studio-2010/0c6xyb66\(v\=vs.100\)).|
+|Custom Tool|Specifies the name of a tool, if any, that transforms the file at design time and puts the output of the transformation into another file. For example, a dataset (.XSD) file has a default custom tool. For more information, see [File Properties](/previous-versions/visualstudio/visual-studio-2010/0c6xyb66\(v\=vs.100\)).|
 |Custom Tool Namespace|The namespace into which the output of the custom tool is copied. For more information, see [File Properties](/previous-versions/visualstudio/visual-studio-2010/0c6xyb66\(v\=vs.100\)).|
 |Deployment Location|The fully-qualified path of the file on the SharePoint server. This path is composed of the Deployment Root and Deployment Path sub-properties.|
 |Deployment Path|The relative path of the file on the SharePoint Server file, such as Workflow1\\. The fully-qualified path for the file is created by concatenating the *Deployment Path* value to the end of the *Deployment Root* value.<br /><br /> Selecting a value of *RootFile* for the *Deployment Type* property changes the *Deployment Root* property to \<SharePointRoot>\\, resulting in a fully-qualified path of \<SharePointRoot>\Workflow1\\. For more information, see [Packaging and Deploying SharePoint Solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md).|
@@ -113,8 +113,8 @@ ms.workload:
 
 |Title|Description|
 |-----------|-----------------|
-|[SharePoint Project and Project Item Templates](../sharepoint/sharepoint-project-and-project-item-templates.md)|Describes the SharePoint project and project item templates available to you in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].|
-|[How to: Add Items to a SharePoint Project](../sharepoint/how-to-add-items-to-a-sharepoint-project.md)|Describes how to add new or existing items to a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project.|
+|[SharePoint Project and Project Item Templates](../sharepoint/sharepoint-project-and-project-item-templates.md)|Describes the SharePoint project and project item templates available to you in Visual Studio.|
+|[How to: Add Items to a SharePoint Project](../sharepoint/how-to-add-items-to-a-sharepoint-project.md)|Describes how to add new or existing items to a Visual Studio SharePoint project.|
 |[Walkthrough: Create a site column, content type, and list for SharePoint](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md)|Leads you step-by-step in creating a customer field, content type, list definition, and list instance.|
 |[How to: Create an Event receiver](../sharepoint/how-to-create-an-event-receiver.md)|Describes how to add an event receiver for the project created in [Walkthrough: Create a site column, content type, and list for SharePoint](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md).|
 |[Create SharePoint workflow solutions](../sharepoint/creating-sharepoint-workflow-solutions.md)|Describes how to create workflow projects that includes workflow association forms and workflow initiation forms.|
@@ -123,13 +123,13 @@ ms.workload:
 |[Create reusable controls for web parts or application pages](../sharepoint/creating-reusable-controls-for-web-parts-or-application-pages.md)|Describes how to create user controls that can be consumed by application pages and Web Parts that run in SharePoint.|
 |[Integrate business data into SharePoint](../sharepoint/integrating-business-data-into-sharepoint.md)|Describes how to integrate data from Web services and back-end server applications into a SharePoint application.|
 |[Create site definitions for SharePoint](../sharepoint/creating-site-definitions-for-sharepoint.md)|Describes how to create site definitions: templates that are used to create SharePoint sites.|
-|[Importing Items from an Existing SharePoint Site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)|Describes how to import items such as content types and modules from an existing SharePoint site into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project.|
-|[Using Modules to Include Files in the Solution](../sharepoint/using-modules-to-include-files-in-the-solution.md)|Describes how to use modules to deploy files from your [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] project to the SharePoint site.|
+|[Importing Items from an Existing SharePoint Site](../sharepoint/importing-items-from-an-existing-sharepoint-site.md)|Describes how to import items such as content types and modules from an existing SharePoint site into a Visual Studio SharePoint project.|
+|[Using Modules to Include Files in the Solution](../sharepoint/using-modules-to-include-files-in-the-solution.md)|Describes how to use modules to deploy files from your Visual Studio project to the SharePoint site.|
 |[Browse SharePoint connections using Server Explorer](../sharepoint/browsing-sharepoint-connections-using-server-explorer.md)|Describes how to browse local SharePoint sites by using Server Explorer.|
 |[Provide packaging and deployment information in project items](../sharepoint/providing-packaging-and-deployment-information-in-project-items.md)|Describes how to use project item properties to provide packaging and deployment information for projects, such as safe control entries, project output references, and feature properties.|
 |[How to: Add and remove mapped folders](../sharepoint/how-to-add-and-remove-mapped-folders.md)|Describes how mapped folders can be added to your project to provide easier access to SharePoint resources.|
 |[Sandboxed solution considerations](../sharepoint/sandboxed-solution-considerations.md)|Describes the issues associated with sandboxed solutions.|
-|[Security for SharePoint Solutions](../sharepoint/security-for-sharepoint-solutions.md)|Describes security considerations for developing SharePoint solutions in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].|
+|[Security for SharePoint Solutions](../sharepoint/security-for-sharepoint-solutions.md)|Describes security considerations for developing SharePoint solutions in Visual Studio.|
 |[URL picker dialog box &#40;SharePoint development in Visual Studio&#41;](../sharepoint/url-picker-dialog-box-sharepoint-development-in-visual-studio.md)|Describes a dialog box that you can use to add path references to resources in your project or on the local SharePoint server.|
 
 ## See also

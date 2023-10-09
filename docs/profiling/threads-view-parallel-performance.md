@@ -44,7 +44,7 @@ While threads are executing, the Concurrency Visualizer collects samples. When a
 
 Concurrency Visualizer categorizes thread and context-switch events, and searches the call stacks of threads for well-known blocking APIs. It displays the thread categories in the active legend at lower-left in the **Threads** view. In most cases, you can identify the root cause of a blocking event by examining the call stacks that correspond to context-switch events.
 
-If there's no call stack match, Concurrency Visualizer uses the wait reason provided by [!INCLUDE[TLA#tla_mswin](../code-quality/includes/tlasharptla_mswin_md.md)]. However, the [!INCLUDE[TLA#tla_mswin](../code-quality/includes/tlasharptla_mswin_md.md)] category may be based on an implementation detail, and may not reflect user intent. For example, [!INCLUDE[TLA#tla_mswin](../code-quality/includes/tlasharptla_mswin_md.md)] reports the wait reason for blocking on a native slim reader-writer lock as I/O instead of Synchronization.
+If there's no call stack match, Concurrency Visualizer uses the wait reason provided by Windows. However, the Windows category may be based on an implementation detail, and may not reflect user intent. For example, Windows reports the wait reason for blocking on a native slim reader-writer lock as I/O instead of Synchronization.
 
 **Threads** view also shows dependencies between threads. For example, if you identify a thread that's blocked on a synchronization object, you can find the thread that unblocked it. You can examine the call stack for the unblocking thread at the point when it unblocked the other one.
 

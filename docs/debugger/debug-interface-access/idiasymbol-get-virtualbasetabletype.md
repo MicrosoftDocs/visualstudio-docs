@@ -41,7 +41,7 @@ HRESULT get_virtualBaseTableType(
 > A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## Remarks
- A virtual base table pointer (`vbtptr`) is a hidden pointer in a [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] vtable that handles inheritance from virtual base classes. A `vbtptr` can have different sizes depending on the inherited classes.
+ A virtual base table pointer (`vbtptr`) is a hidden pointer in a Visual C++ vtable that handles inheritance from virtual base classes. A `vbtptr` can have different sizes depending on the inherited classes.
 
  This method returns an [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md) object that can be used to determine the size of the vbtptr.
 

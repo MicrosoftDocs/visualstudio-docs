@@ -40,7 +40,7 @@ You can find open source examples of VS SDK extensions on GitHub at [Visual Stud
 ## Included Support
 
 ### Visual Studio Product Support
- Some support is included with the purchase of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] products. For more information, see [Visual Studio Support](https://msdn.microsoft.com/vstudio/cc136615.aspx). Microsoft maintains a dedicated support team to answer questions about [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extensibility.
+ Some support is included with the purchase of Visual Studio products. For more information, see [Visual Studio Support](https://msdn.microsoft.com/vstudio/cc136615.aspx). Microsoft maintains a dedicated support team to answer questions about Visual Studio extensibility.
 
 ### MSDN Subscription Support
  MSDN subscription packages may also include some support. For more information, see [MSDN Subscriber Support](https://msdn.microsoft.com/subscriptions/aa718661.aspx).
@@ -51,7 +51,7 @@ You can find open source examples of VS SDK extensions on GitHub at [Visual Stud
 
 Support can also be purchased. A variety of support offerings are available under the Developer Tools category at [Microsoft Help and Support Centers](https://support.microsoft.com/supportforbusiness/productselection?fltadd=sps-business-1&sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8).
 
-Customers who want to use the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] to develop complex packages can consider purchasing a Premier Support contract with Microsoft. For more information, see [Microsoft Premier Support](https://support.microsoft.com/premier). For small companies, [Advanced Support for Partners](https://partner.microsoft.com/support/advanced-cloud-support) may be an attractive alternative to a traditional Premier Support offering.
+Customers who want to use the Visual Studio SDK to develop complex packages can consider purchasing a Premier Support contract with Microsoft. For more information, see [Microsoft Premier Support](https://support.microsoft.com/premier). For small companies, [Advanced Support for Partners](https://partner.microsoft.com/support/advanced-cloud-support) may be an attractive alternative to a traditional Premier Support offering.
 
 > [!NOTE]
 > Standard support cannot be used for consultation or to obtain advice.

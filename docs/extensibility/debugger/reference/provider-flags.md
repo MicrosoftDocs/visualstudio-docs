@@ -57,16 +57,16 @@ typedef DWORD PROVIDER_FLAGS;
  No flags specified.
 
  `PFLAG_REMOTE_PORT`\
- Caller wants a list of programs on a different machine than [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)].
+ Caller wants a list of programs on a different machine than Visual Studio.
 
  `PFLAG_DEBUGGEE`\
- The process is currently being debugged by this instance of [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)].
+ The process is currently being debugged by this instance of Visual Studio.
 
  `PFLAG_ATTACH_TODEBUGGEE`\
- [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] is attached to the program being debugged but did not launch it.
+ Visual Studio is attached to the program being debugged but did not launch it.
 
  `PFLAG_REASON_WATCH`\
- [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] is watching for events.
+ Visual Studio is watching for events.
 
  `PFLAG_GET_PROGRAM_NODES`\
  Caller wants the `ProgramNodes` field of the [PROVIDER_PROCESS_DATA](../../../extensibility/debugger/reference/provider-process-data.md) structure.

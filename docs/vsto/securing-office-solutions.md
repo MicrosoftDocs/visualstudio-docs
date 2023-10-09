@@ -20,7 +20,7 @@ ms.workload:
 # Secure Office solutions
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-  The security model for Office solutions involves several technologies: the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)], [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)], the Trust Center in Microsoft Office, and the Internet Explorer restricted sites zone. The following sections describe how the different security features work:
+  The security model for Office solutions involves several technologies: the  Visual Studio Tools for Office runtime , ClickOnce, the Trust Center in Microsoft Office, and the Internet Explorer restricted sites zone. The following sections describe how the different security features work:
 
 - [Grant trust to Office solutions](#GrantingTrustToSolutions)
 
@@ -52,7 +52,7 @@ ms.workload:
  You can use Windows Installer to create an MSI file to install Office solutions into the Program Files directory, which requires administrator rights. For Office solutions in the Program Files directory, the Visual Studio 2010 Tools for Office runtime considers these Office solutions to be trusted and does not show the ClickOnce trust prompt.
 
 ## <a name="Security"></a> Specific security considerations for Office solutions
- The security features provided by the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], and Microsoft Office can help to protect against a variety of possible security threats in Office solutions. For more information, see [Specific security considerations for Office solutions](../vsto/specific-security-considerations-for-office-solutions.md).
+ The security features provided by the .NET Framework 4, the .NET Framework 4.5, and Microsoft Office can help to protect against a variety of possible security threats in Office solutions. For more information, see [Specific security considerations for Office solutions](../vsto/specific-security-considerations-for-office-solutions.md).
 
 ## <a name="SecurityDuringDeployment"></a> Security during development
  To make your development process easier, Visual Studio sets the security policy that is required to run and debug your solution on your computer every time that you build a project. In some scenarios, you might need to take additional security steps to develop the project.
@@ -74,13 +74,13 @@ ms.workload:
  There can be many temporary certificates after a while, so you should clear the temporary certificates occasionally.
 
 ## <a name="VisualStudioToolsForOfficeRuntime"></a> Visual Studio Tools for Office runtime
- The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] has features to verify the identity of the publisher and the permissions that are granted to a customization. It verifies these permissions through a sequence of security checks.
+ The  Visual Studio Tools for Office runtime  has features to verify the identity of the publisher and the permissions that are granted to a customization. It verifies these permissions through a sequence of security checks.
 
 ### Security during customization loading
- When a document-level customization is loaded, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] always checks whether the document is in the trusted locations list. In addition, the runtime checks whether the solution requests FullTrust in the application manifest. It performs no additional security checks while the customization is loading.
+ When a document-level customization is loaded, the  Visual Studio Tools for Office runtime  always checks whether the document is in the trusted locations list. In addition, the runtime checks whether the solution requests FullTrust in the application manifest. It performs no additional security checks while the customization is loading.
 
 ### Sequence of security checks during installation
- When an Office solution is installed or updated, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] performs a set of security checks in a specific sequence to make a trust decision. A solution is installed or updated only if the runtime determines that the solution is trusted.
+ When an Office solution is installed or updated, the  Visual Studio Tools for Office runtime  performs a set of security checks in a specific sequence to make a trust decision. A solution is installed or updated only if the runtime determines that the solution is trusted.
 
  You can start the installation process in one of four ways: by running the Setup program, by opening the deployment manifest, by opening the Microsoft Office application host, or by running *VSTOInstaller.exe*.
 
@@ -88,11 +88,11 @@ ms.workload:
 
  ![VSTO security - installing from Microsoft Office](../vsto/media/host-install.png "VSTO security - installing from Microsoft Office")
 
- The next set of security checks are from the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] and ClickOnce. To pass these checks, Office solutions must request FullTrust permissions, be signed with a certificate that is not listed in the Untrusted Publisher list, and be in a location that is not in the Internet Explorer restricted zone. If the certificate is in the Trusted Publisher list, then the solution is installed immediately. Otherwise, if it did not fail one of the checks, the solution continues to the final set of checks.
+ The next set of security checks are from the  Visual Studio Tools for Office runtime  and ClickOnce. To pass these checks, Office solutions must request FullTrust permissions, be signed with a certificate that is not listed in the Untrusted Publisher list, and be in a location that is not in the Internet Explorer restricted zone. If the certificate is in the Trusted Publisher list, then the solution is installed immediately. Otherwise, if it did not fail one of the checks, the solution continues to the final set of checks.
 
  ![VSTO security for installing solutions](../vsto/media/installing.png "VSTO security for installing solutions")
 
- If the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] trust prompt is allowed and the solution has not yet been granted trust, the runtime will allow the trust decision to be made by the end user. If the user grants trust to the solution, an entry is added to the user inclusion list. All solutions in the user inclusion list have full trust and can be installed and run.
+ If the ClickOnce trust prompt is allowed and the solution has not yet been granted trust, the runtime will allow the trust decision to be made by the end user. If the user grants trust to the solution, an entry is added to the user inclusion list. All solutions in the user inclusion list have full trust and can be installed and run.
 
  Starting in Visual Studio 2010, the inclusion list is bypassed if the Office solution is installed by using Windows Installer (MSI) into the Program Files directory. For more information, see [Trust Office solutions by using inclusion lists](../vsto/trusting-office-solutions-by-using-inclusion-lists.md).
 

@@ -24,13 +24,13 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-When you build a document-level project, Visual Studio adds two custom properties to the document in the project: \_AssemblyLocation and \_AssemblyName. When a user opens a document, the Microsoft Office application checks for these custom document properties. If they exist in the document, the application loads the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)], which starts the customization. For more information, see [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md).
+When you build a document-level project, Visual Studio adds two custom properties to the document in the project: \_AssemblyLocation and \_AssemblyName. When a user opens a document, the Microsoft Office application checks for these custom document properties. If they exist in the document, the application loads the  Visual Studio Tools for Office runtime , which starts the customization. For more information, see [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md).
 
  [!INCLUDE[appliesto_alldoc](../vsto/includes/appliesto-alldoc-md.md)]
 
 ## \_AssemblyName
 
-This property contains the CLSID of an interface in the Office solution loader component of the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]. The CLSID value is 4E3C66D5-58D4-491E-A7D4-64AF99AF6E8B. You should never change this value.
+This property contains the CLSID of an interface in the Office solution loader component of the  Visual Studio Tools for Office runtime . The CLSID value is 4E3C66D5-58D4-491E-A7D4-64AF99AF6E8B. You should never change this value.
 
 ## \_AssemblyLocation
 
@@ -46,7 +46,7 @@ This property contains a string that provides details about the deployment manif
 
      ExcelWorkbook1.vsto|74744e4b-e4d6-41eb-84f7-ad20346fe2d9|vstolocal
 
-  The *SolutionID* is a GUID that the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] uses to identify the solution. The *SolutionID* is automatically generated when you build the project. The **vstolocal** term indicates to the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] that the assembly should be loaded from the same folder as the document.
+  The *SolutionID* is a GUID that the  Visual Studio Tools for Office runtime  uses to identify the solution. The *SolutionID* is automatically generated when you build the project. The **vstolocal** term indicates to the  Visual Studio Tools for Office runtime  that the assembly should be loaded from the same folder as the document.
 
 ## See also
 

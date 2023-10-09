@@ -20,7 +20,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Use the **Build** page of the **Project Designer** to specify the project's build configuration properties. This page applies to [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] projects only.
+Use the **Build** page of the **Project Designer** to specify the project's build configuration properties. This page applies to Visual C# projects only.
 
 To access the **Build** page, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **View**, **Property Pages** on the menu. When the Project Designer appears, choose the **Build** tab.
 
@@ -132,7 +132,7 @@ Specifies the name of a file into which documentation comments will be processed
 
 **Register for COM interop**
 
-Indicates that your managed application will expose a COM object (a COM callable wrapper) that allows a COM object to interact with your managed application. The **Output type** property in the [Application page](../../ide/reference/application-page-project-designer-visual-basic.md) of the **Project Designer** for this application must be set to **Class Library** in order for the **Register for COM interop** property to be available. For an example class that you might include in your [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] application and expose as a COM object, see [Example COM Class](/dotnet/csharp/programming-guide/interop/example-com-class).
+Indicates that your managed application will expose a COM object (a COM callable wrapper) that allows a COM object to interact with your managed application. The **Output type** property in the [Application page](../../ide/reference/application-page-project-designer-visual-basic.md) of the **Project Designer** for this application must be set to **Class Library** in order for the **Register for COM interop** property to be available. For an example class that you might include in your Visual C# application and expose as a COM object, see [Example COM Class](/dotnet/csharp/programming-guide/interop/example-com-class).
 
 **Generate serialization assembly**
 

@@ -47,7 +47,7 @@ HRESULT EnumInterfacesImplemented( 
  If successful, returns S_OK or returns S_FALSE if there are no interfaces implemented on this class. Otherwise, returns an error code.
 
 ## Remarks
- Each element of the enumeration is an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object describing an interface. Note that unmanaged [!INCLUDE[vcprvc](../../../code-quality/includes/vcprvc_md.md)] code does not use interfaces as a discrete entity so this method always returns a null value for unmanaged [!INCLUDE[vcprvc](../../../code-quality/includes/vcprvc_md.md)] code.
+ Each element of the enumeration is an [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md) object describing an interface. Note that unmanaged Visual C++ code does not use interfaces as a discrete entity so this method always returns a null value for unmanaged Visual C++ code.
 
 ## See also
 - [IDebugClassField](../../../extensibility/debugger/reference/idebugclassfield.md)

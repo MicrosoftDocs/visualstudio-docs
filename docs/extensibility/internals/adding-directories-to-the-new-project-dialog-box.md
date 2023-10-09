@@ -22,7 +22,7 @@ When you create new project types, you also can register a new directory in the 
 
  The `TemplatesDir` value specifies the full path of the directory that contains the project templates. These files can be either *.vsz* files or typical template files to be cloned.
 
- If you specify `TemplatesLocalizedSubDir`, it must be the resource ID of a string that names the subdirectory of `TemplatesDir` that holds localized templates. Because [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] loads the string resource from a satellite DLL if you have one, each satellite DLL can contain a different subdirectory name. The `SortPriority` value specifies a sorting priority.
+ If you specify `TemplatesLocalizedSubDir`, it must be the resource ID of a string that names the subdirectory of `TemplatesDir` that holds localized templates. Because Visual Studio loads the string resource from a satellite DLL if you have one, each satellite DLL can contain a different subdirectory name. The `SortPriority` value specifies a sorting priority.
 
 ```
 NoRemove NewProjectTemplates

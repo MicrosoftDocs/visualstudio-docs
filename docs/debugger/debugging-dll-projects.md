@@ -43,7 +43,7 @@ You usually call a DLL from another project. When you debug the calling project,
 
 ## <a name="vxtskdebuggingdllprojectschangingdefaultconfigurations"></a> DLL debug configuration
 
-When you use a Visual Studio project template to create an app, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically creates required settings for Debug and Release build configurations. You can change these settings if necessary. For more information, see the following articles:
+When you use a Visual Studio project template to create an app, Visual Studio automatically creates required settings for Debug and Release build configurations. You can change these settings if necessary. For more information, see the following articles:
 
 - [Project settings for a C++ debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
 - [Project settings for .NET C# debug configurations](../debugger/project-settings-for-csharp-debug-configurations-dotnetcore.md)
@@ -105,7 +105,7 @@ For more information, see [First look at the debugger](../debugger/debugger-feat
 
 The app that calls a DLL can be:
 
-- An app from a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] project in the same or a different solution from the DLL.
+- An app from a Visual Studio project in the same or a different solution from the DLL.
 - An existing app that is already deployed and running on a test or production computer.
 - Located on the web and accessed through a URL.
 - A web app with a web page that embeds the DLL.

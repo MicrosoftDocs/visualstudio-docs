@@ -19,11 +19,11 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)], you can provide a deeply integrated source control solution by implementing a source control VSPackage. This section describes the features of source control VSPackages and provides an overview of the implementation steps.
+In the Visual Studio SDK, you can provide a deeply integrated source control solution by implementing a source control VSPackage. This section describes the features of source control VSPackages and provides an overview of the implementation steps.
 
 ## The Source Control VSPackage
 
-Visual Studio supports two types of source control solutions. In all versions of Visual Studio, you can still integrate a Source Control Plug-in API-based plug-in. You can also create a VSPackage for source control that provides a deep-integration, [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] path suitable for source control solutions that require a high level of sophistication and autonomy.
+Visual Studio supports two types of source control solutions. In all versions of Visual Studio, you can still integrate a Source Control Plug-in API-based plug-in. You can also create a VSPackage for source control that provides a deep-integration, Visual Studio SDK path suitable for source control solutions that require a high level of sophistication and autonomy.
 
 A VSPackage can add almost any kind of functionality to Visual Studio. A source control VSPackage provides a complete source control feature for Visual Studio, from the UI presented to the user to the back-end communication with the source control system.
 

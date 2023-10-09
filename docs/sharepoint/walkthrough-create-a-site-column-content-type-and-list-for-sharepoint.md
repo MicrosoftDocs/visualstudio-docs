@@ -45,14 +45,14 @@ ms.workload:
 
 - Supported editions of Windows and SharePoint.
 
-- [!INCLUDE[vsprvs-current](../sharepoint/includes/vsprvs-current-md.md)]
+- Visual Studio 2019
 
 ## Create custom site columns
- This example creates a list for managing patients in a hospital. First, you must create a SharePoint project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and add site columns to it, as follows.
+ This example creates a list for managing patients in a hospital. First, you must create a SharePoint project in Visual Studio and add site columns to it, as follows.
 
 #### To create the project
 
-1. On the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] **File** menu, choose **New** > **Project**.
+1. On the Visual Studio **File** menu, choose **New** > **Project**.
 
 2.  On the **Create a New Project** dialog select the **SharePoint Empty Project** for the particular version of SharePoint you have installed. For example, if you have SharePoint 2016 install select the **SharePoint 2016 - Empty Project** template.
     [!INCLUDE[new-project-dialog-search](../sharepoint/includes/new-project-dialog-search-md.md)]
@@ -213,7 +213,7 @@ ms.workload:
 
 3. On the Quick Navigation bar, choose the **Patients** link to display the **Patients** list.
 
-     The column names in the list should match those that you entered on the **Views** tab in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+     The column names in the list should match those that you entered on the **Views** tab in Visual Studio.
 
 4. Choose the **Add new item** link to create a patient information card.
 

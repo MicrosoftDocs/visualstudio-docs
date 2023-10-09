@@ -37,7 +37,7 @@ ms.workload:
 |Application pages|Create an application page if you want the page to contain custom code or you want the page to be shared across multiple sites. Otherwise, a site page might be the best choice.|
 |Site pages|Create a site page if you want to perform any of the following tasks:<br /><br /> -   Add the page to a SharePoint library.<br />-   Enable the page to host features such as dynamic Web Parts and Web Part Zones.<br />-   Enable users to customize the page by using SharePoint Designer.<br /><br /> Do not create a site page if you want the page to contain custom code. Although you can add custom code to a site page, the code stops running when the user customizes the page by using SharePoint Designer.|
 |Master pages|Create a master page if you want to define a common structure for site pages and application pages.|
-|Page layouts|Page layouts are specific to [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] and enable you to further define a common structure for site pages and application pages.|
+|Page layouts|Page layouts are specific to  Microsoft SharePoint Server and enable you to further define a common structure for site pages and application pages.|
 
  For an overview of each type of page, see [Building Block: Pages and the User Interface](/previous-versions/office/developer/sharepoint-2010/ee539040(v=office.14)), and [Page Layouts and Master Pages](/previous-versions/office/developer/sharepoint-2010/ms543497(v=office.14)).
 

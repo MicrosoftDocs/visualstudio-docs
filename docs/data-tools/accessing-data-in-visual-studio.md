@@ -203,7 +203,7 @@ Install [Python support in Visual Studio](../python/overview-of-python-tools-for
 
 [ADO.NET Entity Framework](/ef/ef6/)&mdash;Describes how to create data applications that allow developers to program against a conceptual model instead of directly against a relational database.
 
-[WCF Data Services 4.5](/dotnet/framework/data/wcf/index)&mdash;Describes how to use [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] to deploy data services on the web or an intranet that implement the [Open Data Protocol (OData)](https://www.odata.org/).
+[WCF Data Services 4.5](/dotnet/framework/data/wcf/index)&mdash;Describes how to use WCF Data Services to deploy data services on the web or an intranet that implement the [Open Data Protocol (OData)](https://www.odata.org/).
 
 [Data in Office Solutions](../vsto/data-in-office-solutions.md)&mdash;Contains links to topics that explain how data works in Office solutions. This includes information about schema-oriented programming, data caching, and server-side data access.
 

@@ -59,7 +59,7 @@ ms.workload:
 ## VSTO Add-in example
 
 ### Description
- The following code example illustrates **appAddin** elements in an Outlook solution deployed using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
+ The following code example illustrates **appAddin** elements in an Outlook solution deployed using ClickOnce. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
 
 ### Code
 

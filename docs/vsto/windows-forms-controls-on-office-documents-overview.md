@@ -69,7 +69,7 @@ On a Windows Form.
 - When you want to get input from the user, and prevent the user from doing anything in the document until the input is received.
 
 ## Add Windows Forms controls programmatically
- You can add Windows Forms controls to Word documents and Excel worksheets at run time. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] provides helper methods for adding the most common Windows Forms controls. These helper methods enable you to quickly add controls to your Office document and access the combined Windows Forms control functionality and Office-related functionality of these controls.
+ You can add Windows Forms controls to Word documents and Excel worksheets at run time. The  Visual Studio Tools for Office runtime  provides helper methods for adding the most common Windows Forms controls. These helper methods enable you to quickly add controls to your Office document and access the combined Windows Forms control functionality and Office-related functionality of these controls.
 
  For more information, see [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md).
 
@@ -114,7 +114,7 @@ On a Windows Form.
 
  When an Excel workbook that contains static controls is opened, the workbook displays a bitmap of the control in an ActiveX control until the customization code runs and loads the actual control. Excel creates this bitmap and stores it in the workbook whenever the workbook is saved. The bitmap shows the control as it appeared the last time the workbook was saved, including any data that the control was displaying. For more information about the ActiveX control that contains Windows Forms controls and bitmaps, see [Limitations of Windows Forms controls on Office documents](../vsto/limitations-of-windows-forms-controls-on-office-documents.md).
 
- In certain conditions, the code does not load and only the bitmap is displayed, such as when the user opens the workbook in design mode. Also, if the user opens the workbook on a computer that does not have the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] installed, the customization cannot run to load the controls and therefore only the bitmap of the control is visible. You should always remove personal information from controls on workbooks before saving the workbook and sending it to another user to ensure that your personal information is not accidentally disclosed.
+ In certain conditions, the code does not load and only the bitmap is displayed, such as when the user opens the workbook in design mode. Also, if the user opens the workbook on a computer that does not have the  Visual Studio Tools for Office runtime  installed, the customization cannot run to load the controls and therefore only the bitmap of the control is visible. You should always remove personal information from controls on workbooks before saving the workbook and sending it to another user to ensure that your personal information is not accidentally disclosed.
 
 ### Match control size to cell size on an Excel worksheet
  You can set the control to be resized automatically when the size of the parent cell is changed. For more information, see [How to: Resize controls within worksheet cells](../vsto/how-to-resize-controls-within-worksheet-cells.md).

@@ -31,7 +31,7 @@ ms.workload:
 
 - [Changes to the design of Office projects that target the .NET Framework 4 or the .NET Framework 4.5](../vsto/changes-to-the-design-of-office-projects-that-target-the-dotnet-framework-4-or-the-dotnet-framework-4-5.md)
 
- Describes the new design of Office projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, and lists breaking changes to code in Office projects that you migrate to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.
+ Describes the new design of Office projects that target the .NET Framework 4 or later, and lists breaking changes to code in Office projects that you migrate to the .NET Framework 4 or later.
 
 - [Features available by Office application and project type](../vsto/features-available-by-office-application-and-project-type.md)
 
@@ -72,7 +72,7 @@ ms.workload:
 
 - [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md)
 
- Provides information about how to create an Office project and configure your project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+ Provides information about how to create an Office project and configure your project in Visual Studio.
 
 - [Develop Office solutions](../vsto/developing-office-solutions.md)
 

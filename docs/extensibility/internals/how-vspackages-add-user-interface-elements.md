@@ -280,7 +280,7 @@ The [UsedCommands element](../../extensibility/usedcommands-element.md) enables 
 ## Interface element appearance
 Considerations for selecting and positioning command elements are as follows:
 
-- [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] offers many UI elements that appear differently depending on placement.
+- Visual Studio offers many UI elements that appear differently depending on placement.
 
 - A UI element that is defined by using the `DefaultInvisible` flag will not be displayed in the IDE unless it is either displayed by its VSPackage implementation of the <xref:EnvDTE.IDTCommandTarget.QueryStatus%2A> method, or associated with a particular UI context in the `VisibilityConstraints` section.
 

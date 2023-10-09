@@ -42,7 +42,7 @@ ms.workload:
 
 - [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
-- [!INCLUDE[Outlook_14_short](../vsto/includes/outlook-14-short-md.md)] or newer.
+-  Outlook 2010  or newer.
 
   ![link to video](../vsto/media/playvideo.gif "link to video") For a video version of this topic, see [Video how to: Design an Outlook form region](/previous-versions/visualstudio/visual-studio-2008/cc837160(v=vs.90)).
 
@@ -51,7 +51,7 @@ ms.workload:
 
 ### To create a new Outlook VSTO Add-in project
 
-1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create an Outlook VSTO Add-in project with the name **MapItAddIn**.
+1. In Visual Studio, create an Outlook VSTO Add-in project with the name **MapItAddIn**.
 
 2. In the **New Project** dialog box, select **Create directory for solution**.
 

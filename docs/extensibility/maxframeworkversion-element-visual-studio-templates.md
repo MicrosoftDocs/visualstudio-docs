@@ -59,7 +59,7 @@ Specifies the maximum version of the .NET Framework that is required by the temp
 
 ## Example
 
-The following example illustrates the metadata for a standard [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] class template.
+The following example illustrates the metadata for a standard Visual C# class template.
 
 ```xml
 <VSTemplate Type="Item" Version="3.0.0"

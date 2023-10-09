@@ -36,7 +36,7 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
-- Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
+- Supported editions of Microsoft Windows and SharePoint.
 
 - Visual Studio.
 
@@ -47,7 +47,7 @@ ms.workload:
 
 #### To set the value of the outcome column in the workflow
 
-1. Load the completed project from the topic [Walkthrough: Creating a Workflow with Association and Initiation Forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md) into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Load the completed project from the topic [Walkthrough: Creating a Workflow with Association and Initiation Forms](../sharepoint/walkthrough-creating-a-workflow-with-association-and-initiation-forms.md) into Visual Studio.
 
 2. Open the code for *Workflow1.cs* or *Workflow1.vb* (depending on your programming language).
 
@@ -75,7 +75,7 @@ ms.workload:
 
 2. In the **Templates** pane, choose the **Application Page** template, use the default name for the project item (**ApplicationPage1.aspx**), and choose the **Add** button.
 
-3. In the [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] of ApplicationPage1.aspx, replace the `PlaceHolderMain` section with the following:
+3. In the XML of ApplicationPage1.aspx, replace the `PlaceHolderMain` section with the following:
 
     ```aspx-csharp
     <asp:Content ID="Main" ContentPlaceHolderID="PlaceHolderMain" runat="server">

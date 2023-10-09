@@ -34,16 +34,16 @@ ms.workload:
 # ClickOnce unmanaged API reference
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] unmanaged public APIs from dfshim.dll.
+ClickOnce unmanaged public APIs from dfshim.dll.
 
 ## CleanOnlineAppCache
- Cleans or uninstalls all online applications from the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application cache.
+ Cleans or uninstalls all online applications from the ClickOnce application cache.
 
 ### Return value
  If successful, returns S_OK; otherwise, returns an HRESULT that represents the failure. If a managed exception occurs, returns 0x80020009 (DISP_E_EXCEPTION).
 
 ### Remarks
- Calling CleanOnlineAppCache will start the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] service if it is not already running.
+ Calling CleanOnlineAppCache will start the ClickOnce service if it is not already running.
 
 ## GetDeploymentDataFromManifest
  Retrieves deployment information from the manifest and activation URL.

@@ -34,7 +34,7 @@ The Windows Installer installs and uninstalls applications or software products 
 
 5. Validate the installation package.
 
-   This documentation is concerned primarily with the first and third steps of the process. During these steps you organize your VSPackage features into WICs so you can frame your versioning and servicing strategy to account for subsequent versions of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. The remaining three steps are covered in detail in Windows Installer documentation in the Platform SDK.
+   This documentation is concerned primarily with the first and third steps of the process. During these steps you organize your VSPackage features into WICs so you can frame your versioning and servicing strategy to account for subsequent versions of Visual Studio. The remaining three steps are covered in detail in Windows Installer documentation in the Platform SDK.
 
 ## Key Terms
  Following are definitions of key terms related to the Windows Installer technology.

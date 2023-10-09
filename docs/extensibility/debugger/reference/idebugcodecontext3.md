@@ -28,7 +28,7 @@ IDebugCodeContext3 : IDebugCodeContext2
 ```
 
 ## Notes for Implementers
- Implemented by debug engines and consumed by the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] Debug package.
+ Implemented by debug engines and consumed by the Visual Studio Debug package.
 
 ## Methods
  In addition to the methods on the `IDebugCodeContext2` interface, this interface implements the following methods:

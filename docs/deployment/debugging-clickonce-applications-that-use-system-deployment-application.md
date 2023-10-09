@@ -23,7 +23,7 @@ ms.workload:
 # Debug ClickOnce applications that use System.Deployment.Application
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment allows you to configure how an application is updated. However, if you need to use and customize advanced [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment features, you'll need to access the deployment object model provided by <xref:System.Deployment.Application>. You can use the <xref:System.Deployment.Application> APIs for advanced tasks such as:
+In Visual Studio, ClickOnce deployment allows you to configure how an application is updated. However, if you need to use and customize advanced ClickOnce deployment features, you'll need to access the deployment object model provided by <xref:System.Deployment.Application>. You can use the <xref:System.Deployment.Application> APIs for advanced tasks such as:
 
 - Creating an "Update Now" option in your application
 
@@ -33,7 +33,7 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
 
 - Guaranteeing that the client application is always up-to-date
 
-  Because the <xref:System.Deployment.Application> APIs work only when an application is deployed with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] technology, the only way to debug them is to deploy the application using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], attach to it, then debug it. It can be difficult to attach the debugger early enough, because this code often runs when the application starts up and executes before you can attach the debugger. A solution is to place breaks (or stops, for Visual Basic projects) before your update check code or on-demand code.
+  Because the <xref:System.Deployment.Application> APIs work only when an application is deployed with ClickOnce technology, the only way to debug them is to deploy the application using ClickOnce, attach to it, then debug it. It can be difficult to attach the debugger early enough, because this code often runs when the application starts up and executes before you can attach the debugger. A solution is to place breaks (or stops, for Visual Basic projects) before your update check code or on-demand code.
 
   The recommended debugging technique is as follows:
 
@@ -74,7 +74,7 @@ In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)]
 
     For example, assume you are developing a Windows Forms application, and you have an event handler for this method with the update logic in it. To debug this, simply attach before the button is pressed, then set a breakpoint (make sure that you open the appropriate archived file and set the breakpoint there).
 
-   Use the <xref:System.Deployment.Application.ApplicationDeployment.IsNetworkDeployed%2A> property to invoke the <xref:System.Deployment.Application> APIs only when the application is deployed; the APIs shouldn't be invoked during debugging in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+   Use the <xref:System.Deployment.Application.ApplicationDeployment.IsNetworkDeployed%2A> property to invoke the <xref:System.Deployment.Application> APIs only when the application is deployed; the APIs shouldn't be invoked during debugging in Visual Studio.
 
 ## See also
 - <xref:System.Deployment.Application>

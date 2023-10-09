@@ -55,19 +55,19 @@ Events\
 Displays the events for an object.
 
 > [!NOTE]
-> This **Properties** window toolbar control is only available when a form or control designer is active in the context of a [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] project. When editing XAML files, events appear on a separate tab of the properties window.
+> This **Properties** window toolbar control is only available when a form or control designer is active in the context of a Visual C# project. When editing XAML files, events appear on a separate tab of the properties window.
 
 Messages\
 Lists all Windows messages. Allows you to add or delete specified handler functions for the messages provided for the selected class.
 
 > [!NOTE]
-> This **Properties** window toolbar control is only available when **Class View** is the active window in the context of a [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] project.
+> This **Properties** window toolbar control is only available when **Class View** is the active window in the context of a Visual C++ project.
 
 Overrides\
 Lists all virtual functions for the selected class and allows you to add or delete overriding functions.
 
 > [!NOTE]
-> This **Properties** window toolbar control is only available when **Class View** is the active window in the context of a [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] project.
+> This **Properties** window toolbar control is only available when **Class View** is the active window in the context of a Visual C++ project.
 
 Description pane\
 Shows the property type and a short description of the property. You can turn the description of the property off and on using the Description command on the shortcut menu.

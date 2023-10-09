@@ -28,7 +28,7 @@ ms.workload:
 
 2. In **Server Explorer**, choose the **SharePoint Connections** node, and then, on the menu bar, choose **Tools** > **Add SharePoint Connection**.
 
-3. In the **Add SharePoint Connection** box, enter the [!INCLUDE[TLA2#tla_url](../sharepoint/includes/tla2sharptla-url-md.md)] for the SharePoint site (for example, http://testserver/sites/unittests).
+3. In the **Add SharePoint Connection** box, enter the URL for the SharePoint site (for example, http://testserver/sites/unittests).
 
 ### To delete a SharePoint site from the SharePoint connections node
 

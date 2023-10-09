@@ -55,7 +55,7 @@ The fully qualified name of the class that implements the `IWizard` interface.
  `FullClassName` is a required child element of `WizardExtension`.
 
 ## Example
- The following example illustrates the metadata for the standard project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application.
+ The following example illustrates the metadata for the standard project template for a Visual C# Windows application.
 
 ```
 <VSTemplate Version="3.0.0" Type="Item"

@@ -38,7 +38,7 @@ HRESULT loadAndValidateDataFromPdb ( 
 
 `pcsig70`
 
-[in] The GUID signature to verify against the .pdb file signature. Only .pdb files in [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] and later have GUID signatures.
+[in] The GUID signature to verify against the .pdb file signature. Only .pdb files in Visual C++ and later have GUID signatures.
 
 `sig`
 

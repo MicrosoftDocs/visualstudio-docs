@@ -62,7 +62,7 @@ Specifies the name of the template as it appears in the **New Project** or **Add
  `Name` is a required child element of `TemplateData`.
 
 ## Example
- The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] application.
+ The following example shows the metadata for a project template for a Visual C# application.
 
 ```xml
 <VSTemplate Type="Project" Version="3.0.0"

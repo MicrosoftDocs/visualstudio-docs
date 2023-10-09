@@ -22,7 +22,7 @@ ms.workload:
 # Command Window
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-The **Command** window is used to execute commands or aliases directly in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). You can execute both menu commands and commands that do not appear on any menu. To display the **Command** window, choose **Other Windows** from the **View** menu, and select **Command Window**.
+The **Command** window is used to execute commands or aliases directly in the Visual Studio integrated development environment (IDE). You can execute both menu commands and commands that do not appear on any menu. To display the **Command** window, choose **Other Windows** from the **View** menu, and select **Command Window**.
 
 ## Displaying the Values of Variables
 To check the value of a variable `varA`, use the [Print Command](../../ide/reference/print-command.md):
@@ -70,7 +70,7 @@ In the **Command** window, an equals sign (=) is interpreted as a comparison ope
 In the **Immediate** window, by contrast, an equals sign (=) is interpreted as an assignment operator. So, for example, the command `>Debug.EvaluateStatement(varA=varB)` will assign to variable `varA` the value of variable `varB`.
 
 ## Parameters, Switches, and Values
-Some [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] commands have required and optional arguments, switches and values. Certain rules apply when dealing with such commands. The following is an example of a rich command to clarify the terminology.
+Some Visual Studio commands have required and optional arguments, switches and values. Certain rules apply when dealing with such commands. The following is an example of a rich command to clarify the terminology.
 
 ```cmd
 Edit.ReplaceInFiles /case /pattern:regex var[1-3]+ oldpar

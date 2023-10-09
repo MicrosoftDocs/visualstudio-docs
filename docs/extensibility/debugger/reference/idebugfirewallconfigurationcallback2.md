@@ -16,7 +16,7 @@ ms.workload:
 # IDebugFirewallConfigurationCallback2
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-Enables a debug engine that uses DCOM to ask the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] UI to make sure that the firewall will not block remote debugging.
+Enables a debug engine that uses DCOM to ask the Visual Studio UI to make sure that the firewall will not block remote debugging.
 
 ## Syntax
 

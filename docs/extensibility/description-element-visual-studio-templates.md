@@ -62,7 +62,7 @@ Specifies the description of the template as it appears in either the **New Proj
  `Description` is a required child element of the `TemplateData` element.
 
 ## Example
- The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] application.
+ The following example shows the metadata for a project template for a Visual C# application.
 
 ```
 <VSTemplate Type="Project" Version="3.0.0"

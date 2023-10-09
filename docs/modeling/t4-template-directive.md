@@ -38,7 +38,7 @@ Any valid compiler options.
 
 Ignored for run-time (preprocessed) templates.
 
-These options are applied when the template has been converted into [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] or [!INCLUDE[vb_current_short](../debugger/includes/vb_current_short_md.md)], and the resulting code is compiled.
+These options are applied when the template has been converted into Visual C# or Visual Basic, and the resulting code is compiled.
 
 ## culture attribute
 
@@ -130,7 +130,7 @@ Valid values:
 
 `VB`
 
-The `language` attribute specifies the language ([!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)]) to use for the source code in statement and expression blocks. The intermediate code file from which the output is generated will use this language. This language is not related to the language that your template generates, which can be any kind of text.
+The `language` attribute specifies the language (Visual Basic or Visual C#) to use for the source code in statement and expression blocks. The intermediate code file from which the output is generated will use this language. This language is not related to the language that your template generates, which can be any kind of text.
 
 For example:
 

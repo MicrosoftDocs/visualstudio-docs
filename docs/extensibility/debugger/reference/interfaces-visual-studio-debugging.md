@@ -34,7 +34,7 @@ Methods are listed alphabetically under each interface in the table of contents 
 ## Related Sections
 - [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)
 
- Contains documentation for the interfaces, enumerators, and structures of the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] Debugging SDK.
+ Contains documentation for the interfaces, enumerators, and structures of the Visual Studio Debugging SDK.
 
 ## See also
 - [API Reference](../../../extensibility/debugger/reference/api-reference-visual-studio-debugging.md)

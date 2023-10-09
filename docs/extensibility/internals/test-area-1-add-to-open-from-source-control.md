@@ -20,9 +20,9 @@ ms.workload:
 This source-control plug-in test area covers placing solutions or projects under source control and retrieving them from source control.
 
 ## Command Menu Access
- The following [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment menu paths are used in the test cases:
+ The following Visual Studio integrated development environment menu paths are used in the test cases:
 
-- For [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)], open from source control: **File**, **Open**, **Project**/**Solution**; look in the [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)] location.
+- For Visual SourceSafe, open from source control: **File**, **Open**, **Project**/**Solution**; look in the Visual SourceSafe location.
 
 - For other source control plug-ins, open from source control: **File**, **Source Control**, **Open from Source Control**.
 
@@ -32,7 +32,7 @@ This source-control plug-in test area covers placing solutions or projects under
 
 - Add from source control: **File**, **Source Control**, **Add Project from Source Control**.
 
-- For [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)], add from source control is also available from **File**, **Add**, **Existing Project**; look in the [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)] location.
+- For Visual SourceSafe, add from source control is also available from **File**, **Add**, **Existing Project**; look in the Visual SourceSafe location.
 
   > [!NOTE]
   > A path of a local file or a local IIS (web server) can be used in this test.

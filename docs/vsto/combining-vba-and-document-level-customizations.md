@@ -104,9 +104,9 @@ Globals.Sheet1.Application.Run("MyMacro")
 ## Enable VBA code to call into the customization assembly
  There are two different ways that you can expose members in a customization assembly to VBA code in the document:
 
-- You can expose members of a host item class in a [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] project to VBA. To do this, set the **EnableVbaCallers** property of the host item to **True** in the **Properties** window while the host item (that is, the document, worksheet, or workbook) is open in the designer. Visual Studio automatically performs all of the work required to enable VBA code to call members of the class.
+- You can expose members of a host item class in a Visual Basic project to VBA. To do this, set the **EnableVbaCallers** property of the host item to **True** in the **Properties** window while the host item (that is, the document, worksheet, or workbook) is open in the designer. Visual Studio automatically performs all of the work required to enable VBA code to call members of the class.
 
-- You can expose members in any public class in a Visual C# project, or members in a non-host item class in a [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] project, to VBA. This option provides you with more freedom to choose which classes you expose to VBA, but it also requires more manual steps.
+- You can expose members in any public class in a Visual C# project, or members in a non-host item class in a Visual Basic project, to VBA. This option provides you with more freedom to choose which classes you expose to VBA, but it also requires more manual steps.
 
    To do this, you must perform the following main steps:
 
@@ -118,7 +118,7 @@ Globals.Sheet1.Application.Run("MyMacro")
 
   For detailed instructions, see [How to: Expose code to VBA in a Visual Basic project](../vsto/how-to-expose-code-to-vba-in-a-visual-basic-project.md) and [How to: Expose code to VBA in a Visual C&#35; project](../vsto/how-to-expose-code-to-vba-in-a-visual-csharp-project.md).
 
-  The **EnableVbaCallers** and **ReferenceAssemblyFromVbaProject** properties are available only in the **Properties** window at design time; they cannot be used at run time. To view the properties, open the designer for a host item in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. For more information about the specific tasks that Visual Studio performs when you set these properties, see [Tasks performed by the host item properties](#PropertyTasks).
+  The **EnableVbaCallers** and **ReferenceAssemblyFromVbaProject** properties are available only in the **Properties** window at design time; they cannot be used at run time. To view the properties, open the designer for a host item in Visual Studio. For more information about the specific tasks that Visual Studio performs when you set these properties, see [Tasks performed by the host item properties](#PropertyTasks).
 
 > [!NOTE]
 > If the workbook or document does not already contain VBA code or if VBA code in the document is not trusted to run, you will receive an error message when you set the **EnableVbaCallers** or **ReferenceAssemblyFromVbaProject** property to **True**. This is because Visual Studio cannot modify the VBA project in the document in this situation.
@@ -128,7 +128,7 @@ Globals.Sheet1.Application.Run("MyMacro")
 
 - For all projects, Visual Studio adds a global method named `GetManagedClass`.
 
-- For [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] projects in which you expose members of a host item class by using the **EnableVbaCallers** property, Visual Studio also adds a property named `CallVSTOAssembly` to the `ThisDocument`, `ThisWorkbook`, `Sheet1`, `Sheet2`, or `Sheet3` module in the VBA project.
+- For Visual Basic projects in which you expose members of a host item class by using the **EnableVbaCallers** property, Visual Studio also adds a property named `CallVSTOAssembly` to the `ThisDocument`, `ThisWorkbook`, `Sheet1`, `Sheet2`, or `Sheet3` module in the VBA project.
 
   You can use the `CallVSTOAssembly` property or `GetManagedClass` method to access public members of the class that you exposed to VBA code in the project.
 
@@ -232,7 +232,7 @@ GetManagedClass(pdispInteropObject Object) As Object
 
    - The type library for your customization assembly.
 
-   - The Microsoft Visual Studio Tools for Office Execution Engine 9.0 Type Library. This type library is included in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
+   - The Microsoft Visual Studio Tools for Office Execution Engine 9.0 Type Library. This type library is included in the  Visual Studio Tools for Office runtime .
 
    When the **ReferenceAssemblyFromVbaProject** property is set back to **False**, Visual Studio performs the following tasks:
 

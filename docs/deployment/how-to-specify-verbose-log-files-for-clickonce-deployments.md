@@ -21,12 +21,12 @@ ms.workload:
 # How to: Specify verbose log files for ClickOnce deployments
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] maintains activity log files for all deployments. These logs document details pertaining to installing, initializing, updating, and uninstalling a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment. To increase the detail that [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] writes to these log files, use Registry Editor (*regedit.exe*) to specify the verbosity level.
+ClickOnce maintains activity log files for all deployments. These logs document details pertaining to installing, initializing, updating, and uninstalling a ClickOnce deployment. To increase the detail that ClickOnce writes to these log files, use Registry Editor (*regedit.exe*) to specify the verbosity level.
 
 > [!CAUTION]
 > If you use Registry Editor incorrectly, you may cause serious problems that may require you to reinstall the operating system. Use Registry Editor at your own risk.
 
- The following procedure describes how to specify the verbosity level for [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] log files for the current user. To reduce the level of verbosity, remove this registry value.
+ The following procedure describes how to specify the verbosity level for ClickOnce log files for the current user. To reduce the level of verbosity, remove this registry value.
 
 ### To specify verbose log files
 

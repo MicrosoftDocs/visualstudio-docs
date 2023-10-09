@@ -16,13 +16,13 @@ ms.workload:
 # Web Site Support Templates
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] Web site project and item templates provide reusable and customizable Web site project and item stubs that accelerate the development process by removing the need to create new Web site projects and items from scratch. For more information on [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] templates, see [Creating Project and Item Templates](../../ide/creating-project-and-item-templates.md).
+Visual Studio Web site project and item templates provide reusable and customizable Web site project and item stubs that accelerate the development process by removing the need to create new Web site projects and items from scratch. For more information on Visual Studio templates, see [Creating Project and Item Templates](../../ide/creating-project-and-item-templates.md).
 
 ## Project Template Folder
  Web project templates are typically installed on [*Visual Studio Installation Path*]\Common7\IDE\ProjectTemplates\Web\\, each in a subfolder that is named after the web programming language.
 
 ## Project File
- The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) requires a project file extension as a way to map a template to the correct project type. Because Web projects do not have a project file, the dummy project file extension .webproj is registered to map the template to the project type.
+ The Visual Studio integrated development environment (IDE) requires a project file extension as a way to map a template to the correct project type. Because Web projects do not have a project file, the dummy project file extension .webproj is registered to map the template to the project type.
 
  Optionally, a language name string can be added to the template, to enable the Web project system to set the language default in the **Add New Item** dialog box for items based on the template. The string must be the first line of the file. It must match both the name registered under AddItemLanguageName in the IntelliSense engine registration, and the name registered under Project Subtype(VsTemplate). For more information, see [Web Site Support Attributes](../../extensibility/internals/web-site-support-attributes.md).
 

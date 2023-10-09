@@ -71,7 +71,7 @@ ms.workload:
   The generated class includes event handlers that are called when the document is opened or closed. To run code when the document is opened, add code to the `Startup` event handler. To run code just before the document is closed, add code to the `Shutdown` event handler. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
 
 ### Understand the design of the generated classes
- In projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], the host item types in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] are interfaces, so the generated classes cannot derive their implementation from them. Instead, the generated classes derive most of their members from the following base classes:
+ In projects that target the .NET Framework 4 or the .NET Framework 4.5, the host item types in the  Visual Studio Tools for Office runtime  are interfaces, so the generated classes cannot derive their implementation from them. Instead, the generated classes derive most of their members from the following base classes:
 
 - `ThisDocument`: derives from <xref:Microsoft.Office.Tools.Word.DocumentBase>.
 
@@ -79,7 +79,7 @@ ms.workload:
 
 - `Sheet` *n*: derives from <xref:Microsoft.Office.Tools.Excel.WorksheetBase>.
 
-  These base classes redirect all calls to their members to internal implementations of the corresponding host item interfaces in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]. For example, if you call the <xref:Microsoft.Office.Tools.Word.DocumentBase.Protect%2A> method of the `ThisDocument` class, the <xref:Microsoft.Office.Tools.Word.DocumentBase> class redirects this call to the internal implementation of the <xref:Microsoft.Office.Tools.Word.Document> interface in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
+  These base classes redirect all calls to their members to internal implementations of the corresponding host item interfaces in the  Visual Studio Tools for Office runtime . For example, if you call the <xref:Microsoft.Office.Tools.Word.DocumentBase.Protect%2A> method of the `ThisDocument` class, the <xref:Microsoft.Office.Tools.Word.DocumentBase> class redirects this call to the internal implementation of the <xref:Microsoft.Office.Tools.Word.Document> interface in the  Visual Studio Tools for Office runtime .
 
 ## Access the object model of the host application
  To access the object model of the host application, use members of the generated class in your project. Each of these classes corresponds to an object in the object model of Excel or Word, and they contain most of the same properties, methods, and events. For example, the `ThisDocument` class in a document-level project for Word provides most of the same members as the <xref:Microsoft.Office.Interop.Word.Document> object in the Word object model.
@@ -157,7 +157,7 @@ Globals.ThisDocument.Save()
 ## Get extended objects from native Office objects in document-level customizations
  Many event handlers for Office events receive a native Office object that represents the workbook, worksheet, or document that raised the event. In some cases, you might want to run some code only if the workbook or document in your document-level customization raised the event. For example, in a document-level customization for Excel, you might want to run some code when the user activates one of the worksheets in the customized workbook, but not when the user activates a worksheet in some other workbook that happens to be open at the same time.
 
- When you have a native Office object, you can test whether that object has been extended into a *host item* or *host control* in a document-level customization. Host items and host controls are types provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] that add functionality to objects that exist natively in the Word or Excel object models (called *native Office objects*). Collectively, host items and host controls are also called *extended objects*. For more information about host items and host controls, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).
+ When you have a native Office object, you can test whether that object has been extended into a *host item* or *host control* in a document-level customization. Host items and host controls are types provided by the  Visual Studio Tools for Office runtime  that add functionality to objects that exist natively in the Word or Excel object models (called *native Office objects*). Collectively, host items and host controls are also called *extended objects*. For more information about host items and host controls, see [Host items and host controls overview](../vsto/host-items-and-host-controls-overview.md).
 
 ## Understand the GetVstoObject and HasVstoObject methods
  To test a native Office object, use the `HasVstoObject` and `GetVstoObject` methods in your project:

@@ -31,7 +31,7 @@ Localization is the process of making your application appropriate for a specifi
 
  Localizing your application results in the creation of one or more satellite assemblies. Each assembly contains UI strings, images, and other resources specific to a given culture. (Your application's main executable file contains the strings for the default culture for your application.)
 
- This topic describes three ways to deploy a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application for other cultures:
+ This topic describes three ways to deploy a ClickOnce application for other cultures:
 
 - Include all satellite assemblies in a single deployment.
 
@@ -40,9 +40,9 @@ Localization is the process of making your application appropriate for a specifi
 - Download satellite assemblies on demand.
 
 ## Including All Satellite Assemblies in a Deployment
- Instead of publishing multiple [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments, you can publish a single [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment that contains all of the satellite assemblies.
+ Instead of publishing multiple ClickOnce deployments, you can publish a single ClickOnce deployment that contains all of the satellite assemblies.
 
- This method is the default in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. To use this method in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you do not have to do any additional work.
+ This method is the default in Visual Studio. To use this method in Visual Studio, you do not have to do any additional work.
 
  To use this method with *MageUI.exe*, you must set the culture for your application to **neutral** in *MageUI.exe*. Next, you must manually include all of the satellite assemblies in your deployment. In *MageUI.exe*, you can add the satellite assemblies by using the **Populate** button on the **Files** tab of your application manifest.
 
@@ -54,11 +54,11 @@ Localization is the process of making your application appropriate for a specifi
 ## Generate one deployment for each culture
  In this deployment strategy, you generate multiple deployments. In each deployment, you include only the satellite assembly needed for a specific culture, and you mark the deployment as specific to that culture.
 
- To use this method in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], set the **Publish Language** property on the **Publish** tab to the desired region. [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] will automatically include the satellite assembly required for the region you select, and will exclude all other satellite assemblies from the deployment.
+ To use this method in Visual Studio, set the **Publish Language** property on the **Publish** tab to the desired region. Visual Studio will automatically include the satellite assembly required for the region you select, and will exclude all other satellite assemblies from the deployment.
 
  [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
- You can accomplish the same thing by using the *MageUI.exe* tool in the Microsoft [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. Use the **Populate** button on the **Files** tab of your application manifest to exclude all other satellite assemblies from the application directory, and then set the **Culture** field on the **Name** tab for your deployment manifest in *MageUI.exe*. These steps not only include the correct satellite assembly, but they also set the `language` attribute on the `assemblyIdentity` element in your deployment manifest to the corresponding culture.
+ You can accomplish the same thing by using the *MageUI.exe* tool in the Microsoft Windows Software Development Kit (SDK). Use the **Populate** button on the **Files** tab of your application manifest to exclude all other satellite assemblies from the application directory, and then set the **Culture** field on the **Name** tab for your deployment manifest in *MageUI.exe*. These steps not only include the correct satellite assembly, but they also set the `language` attribute on the `assemblyIdentity` element in your deployment manifest to the corresponding culture.
 
  After publishing the application, you must repeat this step for each additional culture your application supports. You must make sure that you publish to a different Web server directory or file share directory every time, because each application manifest will reference a different satellite assembly, and each deployment manifest will have a different value for the `language`attribute.
 
@@ -67,16 +67,16 @@ Localization is the process of making your application appropriate for a specifi
 
  [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
 
- Downloading satellite assemblies on demand differs slightly from downloading other types of assemblies on demand. For more information and code examples on how to enable this scenario using the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] tools for [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], see [Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API](../deployment/walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md).
+ Downloading satellite assemblies on demand differs slightly from downloading other types of assemblies on demand. For more information and code examples on how to enable this scenario using the Windows SDK tools for ClickOnce, see [Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API](../deployment/walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api.md).
 
- You can also enable this scenario in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].  For more information, see [Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API Using the Designer](../deployment/walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md).
+ You can also enable this scenario in Visual Studio.  For more information, see [Walkthrough: Downloading Satellite Assemblies on Demand with the ClickOnce Deployment API Using the Designer](../deployment/walkthrough-downloading-satellite-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md).
 
 ## Testing localized ClickOnce applications before deployment
  A satellite assembly will be used for a Windows Forms application only if the <xref:System.Threading.Thread.CurrentUICulture%2A> property for the main thread of the application is set to the satellite assembly's culture. Customers in local markets will probably already be running a localized version of Windows with their culture set to the appropriate default.
 
  You have three options for testing localized deployments before you make your application available to customers:
 
-- You can run your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application on the appropriate localized versions of Windows.
+- You can run your ClickOnce application on the appropriate localized versions of Windows.
 
 - You can set the <xref:System.Threading.Thread.CurrentUICulture%2A> property programmatically in your application. (This property must be set before you call the <xref:System.Windows.Forms.Application.Run%2A> method.)
 

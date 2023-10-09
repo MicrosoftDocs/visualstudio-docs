@@ -28,7 +28,7 @@ To see which editions of Visual Studio support this feature, see [Edition suppor
 
 ## What is a dependency diagram?
 
-Like a traditional architecture diagram, a dependency diagram identifies the major components or functional units of the design and their interdependencies. Each node on the diagram, called a *layer*, represents a logical group of namespaces, projects, or other artifacts. You can draw the dependencies that should exist in your design. Unlike a traditional architecture diagram, you can verify that the actual dependencies in the source code conform to the intended dependencies that you have specified. By making validation part of a regular build on [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)], you can ensure that the program code continues to adhere to the system's architecture through future changes. See [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md).
+Like a traditional architecture diagram, a dependency diagram identifies the major components or functional units of the design and their interdependencies. Each node on the diagram, called a *layer*, represents a logical group of namespaces, projects, or other artifacts. You can draw the dependencies that should exist in your design. Unlike a traditional architecture diagram, you can verify that the actual dependencies in the source code conform to the intended dependencies that you have specified. By making validation part of a regular build on Team Foundation Server, you can ensure that the program code continues to adhere to the system's architecture through future changes. See [Dependency Diagrams: Reference](../modeling/layer-diagrams-reference.md).
 
 ## How to design or update your app with dependency diagrams
 

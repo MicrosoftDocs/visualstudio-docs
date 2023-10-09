@@ -48,7 +48,7 @@ NoRemove Projects
  The `SortPriority` value specifies a sorting priority.
 
 ## Add items to an existing project
- You can also add items to an existing project. For example, for a [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] project, you can add items to the *\<root>\Program Files\Microsoft Visual Studio\VC#\CSharpProjectItems\LocalProjectItems* folder. In this case, `%GUID_Project%` is the GUID for a C# project ({FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}).
+ You can also add items to an existing project. For example, for a Visual C# project, you can add items to the *\<root>\Program Files\Microsoft Visual Studio\VC#\CSharpProjectItems\LocalProjectItems* folder. In this case, `%GUID_Project%` is the GUID for a C# project ({FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}).
 
  You can also extend an existing project by programming a project subtype. With a project subtype, you can extend a project without writing a new project type. For more information about project subtypes, see [Project subtypes](../../extensibility/internals/project-subtypes.md).
 

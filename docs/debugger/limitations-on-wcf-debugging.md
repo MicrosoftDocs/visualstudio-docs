@@ -57,7 +57,7 @@ This topic describes limitations on these scenarios.
 ## Limitations on Automatic Attach to a Service
  Automatically attaching to a service has the following limitations:
 
-- The service must be part of the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] solution you are debugging.
+- The service must be part of the Visual Studio solution you are debugging.
 
 - The service must be hosted. It may be part of a Web Site project (File System and HTTP), Web Application project (File System and HTTP), or WCF Service Library project. WCF Service Library projects can be either Service Libraries or Workflow Service Libraries.
 
@@ -72,9 +72,9 @@ This topic describes limitations on these scenarios.
   ```
 
 ## Self-Hosting
- A *self-hosted service* is a WCF service that does not run inside IIS, the WCF Service Host, or the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Development Server. For information about how to debug a self-hosted service, see [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md).
+ A *self-hosted service* is a WCF service that does not run inside IIS, the WCF Service Host, or the ASP.NET Development Server. For information about how to debug a self-hosted service, see [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md).
 
- To enable debugging of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5 applications, [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5 must be installed before [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] is installed. If [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] is installed before [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5, an error occurs when you try to debug a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] 3.0 or 3.5 application. The error message is, "Unable to Automatically Step Into the Server." To fix this problem, use the Windows **Control Panel** > **Programs and Features** to repair your [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] installation.
+ To enable debugging of ASP.NET 3.0 or 3.5 applications, ASP.NET 3.0 or 3.5 must be installed before Visual Studio 2010 is installed. If Visual Studio 2010 is installed before ASP.NET 3.0 or 3.5, an error occurs when you try to debug a ASP.NET 3.0 or 3.5 application. The error message is, "Unable to Automatically Step Into the Server." To fix this problem, use the Windows **Control Panel** > **Programs and Features** to repair your Visual Studio 2010 installation.
 
 ## See also
 - [Debugging WCF Services](../debugger/debugging-wcf-services.md)

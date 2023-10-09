@@ -38,7 +38,7 @@ You can change the appearance and behavior of the explorer for your domain-speci
 
 #### To add an icon to an explorer node
 
-1. Create a [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] solution by using the Task Flow solution template.
+1. Create a Domain-Specific Language Tools solution by using the Task Flow solution template.
 
 2. Put a .bmp file that contains a 16x16-pixel icon in the **Dsl\Resources** folder in the solution.
 

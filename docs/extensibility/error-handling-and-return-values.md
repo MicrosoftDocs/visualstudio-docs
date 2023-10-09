@@ -18,7 +18,7 @@ ms.workload:
 # Error handling and return values
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-VSPackages and COM use the same architecture for errors. The `SetErrorInfo` and `GetErrorInfo` functions are part of the Win32 application programming interface (API). Any VSPackage in the integrated development environment (IDE) can call these global Win32 APIs to record rich error information when receiving an error notification. The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides interop assemblies to manage error information.
+VSPackages and COM use the same architecture for errors. The `SetErrorInfo` and `GetErrorInfo` functions are part of the Win32 application programming interface (API). Any VSPackage in the integrated development environment (IDE) can call these global Win32 APIs to record rich error information when receiving an error notification. The Visual Studio SDK provides interop assemblies to manage error information.
 
 ## Interop methods
  As a convenience, the IDE provides a method, <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A>, to use instead of calling the Win32 APIs. In managed code use <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A>. When an error `HRESULT` arrives at the level where the error message should be displayed (this is often the object implementing an <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> command handler), the IDE uses another method, <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ReportErrorInfo%2A>, to display the appropriate message box. In managed code use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ReportErrorInfo%2A> method.
@@ -27,7 +27,7 @@ VSPackages and COM use the same architecture for errors. The `SetErrorInfo` and 
 
  All objects that are related to VSPackages and that are involved in extending the IDE, including editor factories, editors, hierarchies, and offered services, should support rich error information. While the IDE does not require these VSPackage objects to implement `ISupportErrorInfo`, it is always encouraged.
 
- The IDE is responsible for reporting error information and displaying it to a user of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] whenever an `HRESULT` is propagated to the IDE. The IDE is also the mechanism for creating `ErrorInfo` objects.
+ The IDE is responsible for reporting error information and displaying it to a user of Visual Studio whenever an `HRESULT` is propagated to the IDE. The IDE is also the mechanism for creating `ErrorInfo` objects.
 
 ## General guidelines
  You can use the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A> and <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ReportErrorInfo%2A> methods to set and report errors that are internal to your VSPackage implementation as well. However, as a general rule, follow these guidelines for handling error messages in your VSPackage:
@@ -39,7 +39,7 @@ VSPackages and COM use the same architecture for errors. The `SetErrorInfo` and 
 - Let the IDE display errors to users through the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ReportErrorInfo%2A> method.
 
 ## Error information in the IDE
- The following rules indicate how to handle error information in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] IDE:
+ The following rules indicate how to handle error information in the Visual Studio IDE:
 
 - As a defensive strategy to guarantee that stale error info is not reported to users, functions that call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.ReportErrorInfo%2A> method should first call the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShell.SetErrorInfo%2A> method. Pass in `null` to clear cached error messages before calling anything that might set new error information.
 
