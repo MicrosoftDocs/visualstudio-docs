@@ -41,7 +41,7 @@ Specifies the configuration settings to display or modify. The settings are **De
 
  **Platform**
 
-Specifies the platform settings to display or modify. The settings are **Any CPU** (default for [!INCLUDE[win8_appname_long](../../debugger/includes/win8_appname_long_md.md)] apps), **x64**, **ARM**, **x86**, or a user-defined platform. For more information, see [How to: Set debug and release configurations in Visual Studio](../../debugger/how-to-set-debug-and-release-configurations.md).
+Specifies the platform settings to display or modify. The settings are **Any CPU** (default for Windows 8.x Store apps), **x64**, **ARM**, **x86**, or a user-defined platform. For more information, see [How to: Set debug and release configurations in Visual Studio](../../debugger/how-to-set-debug-and-release-configurations.md).
 
 ## General Page
 

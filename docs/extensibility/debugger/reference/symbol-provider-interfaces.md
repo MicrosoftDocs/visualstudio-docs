@@ -18,7 +18,7 @@ ms.workload:
 # Symbol Provider Interfaces
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-The following are the Symbol Handling Interfaces for the [!INCLUDE[vsipsdk](../../../extensibility/includes/vsipsdk_md.md)].
+The following are the Symbol Handling Interfaces for the Visual Studio SDK.
 
 ## Discussion
  These interfaces are used to evaluate variables in a call stack during break mode. They are implemented only for common language runtime symbol providers (SP).

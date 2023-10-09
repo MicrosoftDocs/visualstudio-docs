@@ -20,7 +20,7 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This section contains information about special considerations for Microsoft Office Excel solutions that will be run on computers that have non-English settings for Windows. Most aspects of globalizing and localizing Microsoft Office solutions are the same as you encounter when you create other kinds of solutions using Visual Studio. For general information, see [Globalize and localizing applications](../ide/globalizing-and-localizing-applications.md).
 
- By default, host controls in Microsoft Office Excel work correctly in any Windows regional setting, as long as all data that is passed or manipulated using managed code is formatted using English (United States) formatting. In projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], this behavior is controlled by the common language runtime (CLR).
+ By default, host controls in Microsoft Office Excel work correctly in any Windows regional setting, as long as all data that is passed or manipulated using managed code is formatted using English (United States) formatting. In projects that target the .NET Framework 4 or the .NET Framework 4.5, this behavior is controlled by the common language runtime (CLR).
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
 
@@ -53,7 +53,7 @@ ms.workload:
  Windows Forms controls are initialized before application-level VSTO Add-ins are started by the host application. In these situations, the culture should be changed before setting the UI controls.
 
 ## Install the language packs
- If you have non-English settings for Windows, you can install the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] Language Packs to see [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] messages in the same language as Windows. If any end users run your solutions with non-English settings for Windows, they must have the correct language pack to see runtime messages in the same language as Windows. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] Language Packs are available from the [Microsoft download center](https://www.microsoft.com/download).
+ If you have non-English settings for Windows, you can install the  Visual Studio Tools for Office runtime  Language Packs to see  Visual Studio Tools for Office runtime  messages in the same language as Windows. If any end users run your solutions with non-English settings for Windows, they must have the correct language pack to see runtime messages in the same language as Windows. The  Visual Studio Tools for Office runtime  Language Packs are available from the [Microsoft download center](https://www.microsoft.com/download).
 
  In addition, the redistributable .NET Framework Language Packs are necessary for ClickOnce messages. The .NET Framework Language Packs are available from the [Microsoft download center](https://www.microsoft.com/download).
 

@@ -25,11 +25,11 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If you use Internet Information Services (IIS) on Windows Server, and your deployment contains a file type that Windows does not recognize, such as a Microsoft Word file, IIS will refuse to transmit that file, and your deployment will not succeed.
 
- Additionally, some Web servers and Web application software, such as [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)], contain a list of files and file types that you cannot download. For example, [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] prevents the download of all *Web.config* files. These files may contain sensitive information such as user names and passwords.
+ Additionally, some Web servers and Web application software, such as ASP.NET, contain a list of files and file types that you cannot download. For example, ASP.NET prevents the download of all *Web.config* files. These files may contain sensitive information such as user names and passwords.
 
- Although this restriction should cause no problems for downloading core [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] files such as manifests and assemblies, this restriction may prevent you from downloading data files included as part of your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. In [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)], you can resolve this error by removing the handler that prohibits downloading of such files from the IIS configuration manager. See the IIS server documentation for additional details.
+ Although this restriction should cause no problems for downloading core ClickOnce files such as manifests and assemblies, this restriction may prevent you from downloading data files included as part of your ClickOnce application. In ASP.NET, you can resolve this error by removing the handler that prohibits downloading of such files from the IIS configuration manager. See the IIS server documentation for additional details.
 
- Some Web servers might block files with extensions such as *.dll*, *.config*, and *.mdf*. Windows-based applications typically include files with some of these extensions. If a user attempts to run a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application that accesses a blocked file on a Web server, an error will result. Rather than unblocking all file extensions, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] publishes every application file with a *.deploy* file extension by default. Therefore, the administrator only needs to configure the Web server to unblock the following three file extensions:
+ Some Web servers might block files with extensions such as *.dll*, *.config*, and *.mdf*. Windows-based applications typically include files with some of these extensions. If a user attempts to run a ClickOnce application that accesses a blocked file on a Web server, an error will result. Rather than unblocking all file extensions, ClickOnce publishes every application file with a *.deploy* file extension by default. Therefore, the administrator only needs to configure the Web server to unblock the following three file extensions:
 
 - *.application*
 
@@ -42,23 +42,23 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
   You will have to configure *.manifest*, *.application*, and *.deploy*, for example, if you are using IIS where you have not installed the .NET Framework, or if you are using another Web server (for example, Apache).
 
 ## ClickOnce and Secure Sockets Layer (SSL)
- A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application will work fine over SSL, except when Internet Explorer raises a prompt about the SSL certificate. The prompt can be raised when there is something wrong with the certificate, such as when the site names do not match or the certificate has expired. To make [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] work over an SSL connection, make sure that the certificate is up-to-date, and that the certificate data matches the site data.
+ A ClickOnce application will work fine over SSL, except when Internet Explorer raises a prompt about the SSL certificate. The prompt can be raised when there is something wrong with the certificate, such as when the site names do not match or the certificate has expired. To make ClickOnce work over an SSL connection, make sure that the certificate is up-to-date, and that the certificate data matches the site data.
 
 ## ClickOnce and proxy authentication
- [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] provides support for Windows Integrated proxy authentication starting in .NET Framework 3.5. No specific machine.config directives are required. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] does not provide support for other authentication protocols such as Basic or Digest.
+ ClickOnce provides support for Windows Integrated proxy authentication starting in .NET Framework 3.5. No specific machine.config directives are required. ClickOnce does not provide support for other authentication protocols such as Basic or Digest.
 
  You can also apply a hotfix to .NET Framework 2.0 to enable this feature. For more information, see [FIX: Error message when you try to install a ClickOnce application that you created in the .NET Framework 2.0 onto a client computer that is configured to use a proxy server: "Proxy authentication required"](https://support.microsoft.com/help/917952/fix-error-message-when-you-try-to-install-a-clickonce-application-that).
 
  For more information, see [\<defaultProxy> element (network settings)](/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings).
 
 ## ClickOnce and Web browser compatibility
- Currently, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] installations will launch only if the URL to the deployment manifest is opened using Internet Explorer. A deployment whose URL is launched from another application, such as Microsoft Office Outlook, will launch successfully only if Internet Explorer is set as the default Web browser.
+ Currently, ClickOnce installations will launch only if the URL to the deployment manifest is opened using Internet Explorer. A deployment whose URL is launched from another application, such as Microsoft Office Outlook, will launch successfully only if Internet Explorer is set as the default Web browser.
 
 > [!NOTE]
 > Mozilla Firefox is supported if the deployment provider is not blank or the Microsoft .NET Framework Assistant extension is installed. This extension is packaged with .NET Framework 3.5 SP1. For XBAP support, the NPWPF plug-in is activated when needed.
 
 ## Activate ClickOnce applications through browser scripting
- If you have developed a custom Web page that launches a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application using Active Scripting, you may find that the application will not launch on some machines. Internet Explorer contains a setting called **Automatic prompting for file downloads**, which affects this behavior. This setting is available on the **Security** Tab in its **Options** menu that affects this behavior. It is called **Automatic prompting for file downloads**, and it is listed underneath the **Downloads** category. The property is set to **Enable** by default for intranet Web pages, and to **Disable** by default for Internet Web pages. When this setting is set to **Disable**, any attempt to activate a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application programmatically (for example, by assigning its URL to the `document.location` property) will be blocked. Under this circumstance, users can launch applications only through a user-initiated download, for example, by clicking a hyperlink set to the application's URL.
+ If you have developed a custom Web page that launches a ClickOnce application using Active Scripting, you may find that the application will not launch on some machines. Internet Explorer contains a setting called **Automatic prompting for file downloads**, which affects this behavior. This setting is available on the **Security** Tab in its **Options** menu that affects this behavior. It is called **Automatic prompting for file downloads**, and it is listed underneath the **Downloads** category. The property is set to **Enable** by default for intranet Web pages, and to **Disable** by default for Internet Web pages. When this setting is set to **Disable**, any attempt to activate a ClickOnce application programmatically (for example, by assigning its URL to the `document.location` property) will be blocked. Under this circumstance, users can launch applications only through a user-initiated download, for example, by clicking a hyperlink set to the application's URL.
 
 ## Additional server configuration issues
 
@@ -76,7 +76,7 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
 > You can make NTLM (NT challenge-response) authentication work if the site prompts for credentials other than your default credentials, and, in the security dialog box, you click **OK** when you are prompted if you want to save the supplied credentials for future sessions. However, this workaround will not work for basic authentication.
 
 ## Use third-party Web servers
- If you are deploying a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application from a Web server other than IIS, you may experience a problem if the server is returning the incorrect content type for key [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] files, such as the deployment manifest and application manifest. To resolve this problem, see your Web server's Help documentation about how to add new content types to the server, and make sure that all the file name extension mappings listed in the following table are in place.
+ If you are deploying a ClickOnce application from a Web server other than IIS, you may experience a problem if the server is returning the incorrect content type for key ClickOnce files, such as the deployment manifest and application manifest. To resolve this problem, see your Web server's Help documentation about how to add new content types to the server, and make sure that all the file name extension mappings listed in the following table are in place.
 
 |File name extension|Content type|
 |-------------------------|------------------|
@@ -90,25 +90,25 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
  If you use Visual Studio to publish a ClickOnce application, you cannot specify a mapped drive as the installation location. However, you can modify the ClickOnce application to install from a mapped drive by using the Manifest Generator and Editor (Mage.exe and MageUI.exe). For more information, see [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool) and [MageUI.exe (Manifest Generation and Editing Tool, Graphical Client)](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client).
 
 ## FTP protocol not supported for installing applications
- [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] supports installing applications from any HTTP 1.1 Web server or file server. FTP, the File Transfer Protocol, is not supported for installing applications. You can use FTP to publish applications only. The following table summarizes these differences:
+ ClickOnce supports installing applications from any HTTP 1.1 Web server or file server. FTP, the File Transfer Protocol, is not supported for installing applications. You can use FTP to publish applications only. The following table summarizes these differences:
 
 | URL Type | Description |
 |----------| - |
-| ftp:// | You can publish a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by using this protocol. |
-| http:// | You can install a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by using this protocol. |
-| https:// | You can install a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by using this protocol. |
-| file:// | You can install a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application by using this protocol. |
+| ftp:// | You can publish a ClickOnce application by using this protocol. |
+| http:// | You can install a ClickOnce application by using this protocol. |
+| https:// | You can install a ClickOnce application by using this protocol. |
+| file:// | You can install a ClickOnce application by using this protocol. |
 
 ## Windows XP SP2: Windows Firewall
- By default, Windows XP SP2 enables the Windows Firewall. If you are developing your application on a computer that has Windows XP installed, you are still able to publish and run [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications from the local server that is running IIS. However, you cannot access that server that is running IIS from another computer unless you open the Windows Firewall. See Windows Help for instructions on managing the Windows Firewall.
+ By default, Windows XP SP2 enables the Windows Firewall. If you are developing your application on a computer that has Windows XP installed, you are still able to publish and run ClickOnce applications from the local server that is running IIS. However, you cannot access that server that is running IIS from another computer unless you open the Windows Firewall. See Windows Help for instructions on managing the Windows Firewall.
 
 ## Windows Server: Enable FrontPage server extensions
  FrontPage Server Extensions from Microsoft is required for publishing applications to a Windows Web server that uses HTTP.
 
- By default, Windows Server does not have FrontPage Server Extensions installed. If you want to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to publish to a Windows Server Web server that uses HTTP with FrontPage Server Extensions, you must install FrontPage Server Extensions first. You can perform the installation by using the Manage Your Server administration tool in Windows Server.
+ By default, Windows Server does not have FrontPage Server Extensions installed. If you want to use Visual Studio to publish to a Windows Server Web server that uses HTTP with FrontPage Server Extensions, you must install FrontPage Server Extensions first. You can perform the installation by using the Manage Your Server administration tool in Windows Server.
 
 ## Windows Server: Locked-down content types
- IIS on [!INCLUDE[WinXPSvr](../debugger/includes/winxpsvr_md.md)] locks down all file types except for certain known content types (for example, *.htm*, *.html*, *.txt*, and so on). To enable deployment of [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications using this server, you need to change the IIS settings to allow downloading files of type *.application*, *.manifest*, and any other custom file types used by your application.
+ IIS on Windows Server 2003 locks down all file types except for certain known content types (for example, *.htm*, *.html*, *.txt*, and so on). To enable deployment of ClickOnce applications using this server, you need to change the IIS settings to allow downloading files of type *.application*, *.manifest*, and any other custom file types used by your application.
 
  If you deploy using an IIS server, run *inetmgr.exe* and add new File Types for the default Web page:
 
@@ -119,12 +119,12 @@ If you use Internet Information Services (IIS) on Windows Server, and your deplo
   For specific instructions on configuring MIME types on Windows Server, see [How to add a MIME type to a Web site or application](/iis/configuration/system.webserver/staticcontent/mimemap#how-to-add-a-mime-type-to-a-web-site-or-application).
 
 ## Content type mappings
- When publishing over HTTP, the content type (also known as MIME type) for the *.application* file should be "application/x-ms-application." If you have .NET Framework 2.0 installed on the server, this will be set for you automatically. If this is not installed, then you need to create a MIME type association for the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application vroot (or entire server).
+ When publishing over HTTP, the content type (also known as MIME type) for the *.application* file should be "application/x-ms-application." If you have .NET Framework 2.0 installed on the server, this will be set for you automatically. If this is not installed, then you need to create a MIME type association for the ClickOnce application vroot (or entire server).
 
  If you deploy using an IIS server, run <em>inetmgr.</em>exe and add a new content type of "application/x-ms-application" for the *.application* extension.
 
 ## HTTP compression issues
- With [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)], you can perform downloads that use HTTP compression, a Web server technology that uses the GZIP algorithm to compress a data stream before sending the stream to the client. The client—in this case, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]—decompresses the stream before reading the files.
+ With ClickOnce, you can perform downloads that use HTTP compression, a Web server technology that uses the GZIP algorithm to compress a data stream before sending the stream to the client. The client—in this case, ClickOnce—decompresses the stream before reading the files.
 
  If you are using IIS, you can easily enable HTTP compression. However, when you enable HTTP compression, it is only enabled for certain file types—namely, HTML and text files. To enable compression for assemblies (*.dll*), XML (*.xml*), deployment manifests (*.application*), and application manifests (*.manifest*), you must add these file types to the list of types for IIS to compress. Until you add the file types to your deployment, only text and HTML files will be compressed.
 

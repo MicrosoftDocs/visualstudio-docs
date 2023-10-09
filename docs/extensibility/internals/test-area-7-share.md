@@ -32,7 +32,7 @@ This test area covers sharing items between locations via the **Share** command.
 - If there is a Remote Site Web project.
 
 ## Command Menu Access
- The following [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment menu paths are used in the test cases.
+ The following Visual Studio integrated development environment menu paths are used in the test cases.
 
  Share: **File**->**Source Control**->**Share**.
 

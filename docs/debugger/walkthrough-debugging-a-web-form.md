@@ -29,10 +29,10 @@ ms.workload:
 # Walkthrough: Debugging a Web Form
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-The steps in this walkthrough show you how to debug an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Web application, also known as a Web Form. It shows you how to start and stop execution, set breakpoints, and examine variables in the **Watch** window.
+The steps in this walkthrough show you how to debug an ASP.NET Web application, also known as a Web Form. It shows you how to start and stop execution, set breakpoints, and examine variables in the **Watch** window.
 
 > [!NOTE]
-> To complete this walkthrough, you must have Administrator privileges on the server computer. By default, the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] process, aspnet_wp.exe or w3wp.exe, runs as an [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] process. To debug [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)], you must have Administrator privileges on the computer where [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] runs it. For more information, see [System Requirements](../debugger/aspnet-debugging-system-requirements.md).
+> To complete this walkthrough, you must have Administrator privileges on the server computer. By default, the ASP.NET process, aspnet_wp.exe or w3wp.exe, runs as an ASP.NET process. To debug ASP.NET, you must have Administrator privileges on the computer where ASP.NET runs it. For more information, see [System Requirements](../debugger/aspnet-debugging-system-requirements.md).
 
 The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/environment-settings.md#reset-settings).
 
@@ -52,7 +52,7 @@ The dialog boxes and menu commands you see might differ from those described in 
 
 6. Click **OK**.
 
-    [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] creates a new project, and displays the default HTML source code. It also creates a new virtual directory named **WebSite** under **Default Web Site** in IIS.
+    Visual Studio creates a new project, and displays the default HTML source code. It also creates a new virtual directory named **WebSite** under **Default Web Site** in IIS.
 
 7. Click the **Design** tab on the bottom margin.
 
@@ -66,7 +66,7 @@ The dialog boxes and menu commands you see might differ from those described in 
 
 11. Double-click the button control you dropped.
 
-     This takes you to the code page: Default.aspx.cs for C# or Default.aspx.vb for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)]. The cursor should be in the function `Button1_Click`.
+     This takes you to the code page: Default.aspx.cs for C# or Default.aspx.vb for Visual Basic. The cursor should be in the function `Button1_Click`.
 
 12. In the `Button1_Click` function, add the following code:
 
@@ -112,7 +112,7 @@ The dialog boxes and menu commands you see might differ from those described in 
 
 4. In Internet Explorer, click the button.
 
-    In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], this takes you to the line where you set your breakpoint on the code page Default.aspx.cs or Default.aspx.vb. This line should be highlighted in yellow. You can now view the variables in your application and control its execution. Your application stops executing and waits for a command from you.
+    In Visual Studio, this takes you to the line where you set your breakpoint on the code page Default.aspx.cs or Default.aspx.vb. This line should be highlighted in yellow. You can now view the variables in your application and control its execution. Your application stops executing and waits for a command from you.
 
 5. On the **Debug** menu, click **Windows**, then click **Watch**, and then click **Watch1**.
 
@@ -142,7 +142,7 @@ The dialog boxes and menu commands you see might differ from those described in 
 
 ## To attach to the Web Form for debugging
 
-1. In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you can attach the debugger to a running process. For most effective debugging, compile the executable as a Debug version with symbol (PDB) files.
+1. In Visual Studio, you can attach the debugger to a running process. For most effective debugging, compile the executable as a Debug version with symbol (PDB) files.
 
 2. In the Default.aspx.cs or Default.aspx.vb window, click in the left margin to again set a breakpoint at the line you added:
 
@@ -161,11 +161,11 @@ The dialog boxes and menu commands you see might differ from those described in 
 
     The Web Form starts to run under Internet Explorer, but the debugger is not attached.
 
-4. Attach to the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] process. For more information, see [Debugging Deployed Web Applications](../debugger/debugging-deployed-web-applications.md).
+4. Attach to the ASP.NET process. For more information, see [Debugging Deployed Web Applications](../debugger/debugging-deployed-web-applications.md).
 
 5. In Internet Explorer, click the button on your form.
 
-    In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], you should hit the breakpoint in Default.aspx.cs, Default.aspx.vb, or Default.aspx.
+    In Visual Studio, you should hit the breakpoint in Default.aspx.cs, Default.aspx.vb, or Default.aspx.
 
 6. When you are finished debugging, on the **Debug** menu, click **Stop Debugging**.
 

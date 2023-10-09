@@ -18,15 +18,15 @@ ms.workload:
 # Get started with debugger extensibility
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-The [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] provides the information that you need to create and customize debugger components used to debug programs from within the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] environment.
+The Visual Studio SDK provides the information that you need to create and customize debugger components used to debug programs from within the Visual Studio environment.
 
- [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging has added improvements derived from the extensive usability testing performed on previous [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debuggers. You can use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging to step through a multi-language application, or you can implement on-the-fly editing of variables while debugging applications and multi-language solutions.
+ Visual Studio debugging has added improvements derived from the extensive usability testing performed on previous Visual Studio debuggers. You can use Visual Studio debugging to step through a multi-language application, or you can implement on-the-fly editing of variables while debugging applications and multi-language solutions.
 
- [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging is executed out-of-process with the program being debugged and is therefore less intrusive in the process space of the application. Consequently, it is easier to write components that interact with the debugger without affecting your debugging program.
+ Visual Studio debugging is executed out-of-process with the program being debugged and is therefore less intrusive in the process space of the application. Consequently, it is easier to write components that interact with the debugger without affecting your debugging program.
 
- To best use the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)], you should be familiar with the following items:
+ To best use the Visual Studio SDK, you should be familiar with the following items:
 
-- The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE)
+- The Visual Studio integrated development environment (IDE)
 
 - The C++ programming language
 
@@ -37,7 +37,7 @@ The [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] provides the
  Outlines the process of implementing debugging in your product, depending on your compiler and its output.
 
  [Debugger components](../../extensibility/debugger/debugger-components.md)
- Provides an overview of the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging components, which include the debug engine (DE), expression evaluator (EE), and symbol handler (SH).
+ Provides an overview of the Visual Studio debugging components, which include the debug engine (DE), expression evaluator (EE), and symbol handler (SH).
 
  [Debugger concepts](../../extensibility/debugger/debugger-concepts.md)
  Describes the main debugging architectural concepts.

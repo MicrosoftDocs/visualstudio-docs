@@ -154,7 +154,7 @@ A Windows Form is one of the most common managed applications. A Windows Form cr
 10. On the **Debug** menu, choose **Stop Debugging**.
 
 ## Attach to Your Windows Form Application for Debugging
- In [!INCLUDE[vs_current_short](../code-quality/includes/vs_current_short_md.md)], you can attach the debugger to a running process. If you are using an Express Edition, this feature is not supported.
+ In Visual Studio, you can attach the debugger to a running process. If you are using an Express Edition, this feature is not supported.
 
 #### To attach to the Windows Form Application for debugging
 

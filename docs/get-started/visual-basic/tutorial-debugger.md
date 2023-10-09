@@ -325,7 +325,7 @@ In this article, we use the keyboard shortcuts, because it's a good way to get f
    ![Screenshot showing the Run to Click button with tooltip highlighted on the left side of the code editor window.](../visual-basic/media/get-started-run-to-click-vb.png)
 
    > [!NOTE]
-   > The **Run to Click** button is new in [!include[vs_dev15](../../misc/includes/vs_dev15_md.md)]. (If you don't see the green arrow button, use **F11** in this example instead to advance the debugger to the right place.)
+   > The **Run to Click** button is new in Visual Studio 2017. (If you don't see the green arrow button, use **F11** in this example instead to advance the debugger to the right place.)
 
 2. Click the **Run to Click** button :::image type="icon" source="../../debugger/media/dbg-tour-run-to-click.png":::.
 

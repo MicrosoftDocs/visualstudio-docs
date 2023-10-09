@@ -38,4 +38,4 @@ This section describes the various features of a source control VSPackage. It ou
 ## Related Sections
 - [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)
 
- Discusses how to create a source control VSPackage that not only supplies source control functionality but can be used to customize the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] source control UI.
+ Discusses how to create a source control VSPackage that not only supplies source control functionality but can be used to customize the Visual Studio source control UI.

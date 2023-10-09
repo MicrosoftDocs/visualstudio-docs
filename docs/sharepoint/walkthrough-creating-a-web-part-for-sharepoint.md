@@ -50,7 +50,7 @@ This walkthrough illustrates the following tasks:
 
 First, create a Empty SharePoint project. Later, you will add a Web Part to the project by using the **Web Part** item template.
 
-1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by using the **Run as Administrator** option.
+1. Start Visual Studio by using the **Run as Administrator** option.
 
 2. On the men bar, choose **File** > **New** > **Project**.
 

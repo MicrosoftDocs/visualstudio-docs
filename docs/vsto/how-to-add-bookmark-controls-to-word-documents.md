@@ -69,7 +69,7 @@ ms.workload:
 
 #### To add a Bookmark control to a document in Word
 
-1. In the document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, put the cursor where you want to add the bookmark, or select the text that you want the bookmark to enclose.
+1. In the document that is hosted in the Visual Studio designer, put the cursor where you want to add the bookmark, or select the text that you want the bookmark to enclose.
 
 2. On the **Insert** tab of the Ribbon, in the **Links** group, click the **Bookmark** button.
 

@@ -21,7 +21,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-For .NET Framework projects, *service reference* enables a project to access one or more [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)]. Use the **Add Service Reference** dialog box to search for [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] in the current solution, locally, on a local area network, or on the Internet.
+For .NET Framework projects, *service reference* enables a project to access one or more WCF Data Services. Use the **Add Service Reference** dialog box to search for WCF Data Services in the current solution, locally, on a local area network, or on the Internet.
 
 For .NET Core projects, you can use the **Connected Services** node in **Solution Explorer** to access the **Microsoft WCF Web Service Reference Provider**, which lets you manage Windows Communication Foundation (WCF) data service references.
 
@@ -93,7 +93,7 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
 1. Click **Discover**.
 
-    All services (both [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] and WCF services) in the current solution are added to the **Services** list.
+    All services (both WCF Data Services and WCF services) in the current solution are added to the **Services** list.
 
 1. In the **Services** list, expand the node for the service that you want to use and select an entity set.
 
@@ -115,7 +115,7 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
 1. Click **Discover**.
 
-    All services (both [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] and WCF services) in the current solution are added to the **Services** list.
+    All services (both WCF Data Services and WCF services) in the current solution are added to the **Services** list.
 
 1. In the **Services** list, expand the node for the service that you want to use and select an entity set.
 
@@ -127,7 +127,7 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
 ## Update a service reference
 
-The Entity Data Model for a [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)] sometimes changes. When this happens, you must update the service reference.
+The Entity Data Model for a WCF Data Services sometimes changes. When this happens, you must update the service reference.
 
 ### To update a service reference
 

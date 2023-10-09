@@ -29,7 +29,7 @@ ms.workload:
 # How to: Create Office projects in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-  You can use [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] to create VSTO Add-in and document-level customizations for Microsoft Office applications. For more information about these types of projects, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
+  You can use Visual Studio to create VSTO Add-in and document-level customizations for Microsoft Office applications. For more information about these types of projects, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
 
@@ -37,12 +37,12 @@ ms.workload:
 
 ### To create a VSTO Add-in project
 
-1. On the **File** menu, choose **New** > **Project**. If your integrated development environment (IDE) is set to use [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)] development settings, on the **File** menu, choose **New** > **Project**.
+1. On the **File** menu, choose **New** > **Project**. If your integrated development environment (IDE) is set to use Visual Basic development settings, on the **File** menu, choose **New** > **Project**.
 
     The **New Project** dialog box appears.
 
    > [!NOTE]
-   > Office projects target the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)] by default. For more information, see [.NET Framework client profile](/dotnet/framework/deployment/client-profile).
+   > Office projects target the .NET Framework 4.5 by default. For more information, see [.NET Framework client profile](/dotnet/framework/deployment/client-profile).
 
 2. In the templates pane, under the node for the language you want to use, expand **Office/SharePoint**.
 
@@ -138,7 +138,7 @@ ms.workload:
    - Percent sign (%)
 
    > [!NOTE]
-   > If you use an existing document in a [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] project, only use documents that were created in or converted to [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)]. Similarly, if you use an existing document in a Word 2010 project, only use documents that were created in or converted to Word 2010. Certain features will be disabled in the document if you use a document that was created in an earlier version of Word. If you try to write code that uses these features, you might encounter errors in your project. To convert a document, open it in [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or Word 2010, on the **File** tab on the ribbon, choose **Info** > **Convert**.
+   > If you use an existing document in a  Word 2013  project, only use documents that were created in or converted to  Word 2013 . Similarly, if you use an existing document in a Word 2010 project, only use documents that were created in or converted to Word 2010. Certain features will be disabled in the document if you use a document that was created in an earlier version of Word. If you try to write code that uses these features, you might encounter errors in your project. To convert a document, open it in  Word 2013  or Word 2010, on the **File** tab on the ribbon, choose **Info** > **Convert**.
 
 8. Choose **Finish**.
 

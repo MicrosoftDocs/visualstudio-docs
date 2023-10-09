@@ -28,7 +28,7 @@ This issue could be because of network problems or to problems on the SQL Server
 
 There are two accounts involved:
 
-- The application account is the user account that [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is running as.
+- The application account is the user account that Visual Studio is running as.
 
 - The connection account is the identity used to make the connection to SQL Server. This account isn't necessarily the same as the identity that Visual Studio is running as if the connection is using SQL authentication.
 

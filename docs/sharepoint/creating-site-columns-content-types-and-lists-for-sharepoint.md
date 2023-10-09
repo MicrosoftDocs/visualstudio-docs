@@ -39,7 +39,7 @@ ms.workload:
 
  A list is a collection of information in SharePoint that you can share with others. Lists consist of rows of columns that contain data. Some examples of lists include: a task list, a contacts list, and an announcements list.
 
- The new Content Type and List designers in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] make creating site content types and lists much easier and more intuitive than in the earlier version of Visual Studio. The UI enables you to visually construct content types and lists in a familiar manner, and lets you sort and group data in lists and use group headings. For more information about content types, see [Content Types](/previous-versions/office/developer/sharepoint-2010/ms479905(v=office.14)). For more information about lists, see [List Forms](/previous-versions/office/developer/sharepoint-2010/aa543232(v=office.14)) and [List Views](/previous-versions/office/developer/sharepoint-2010/ff604021(v=office.14)).
+ The new Content Type and List designers in Visual Studio make creating site content types and lists much easier and more intuitive than in the earlier version of Visual Studio. The UI enables you to visually construct content types and lists in a familiar manner, and lets you sort and group data in lists and use group headings. For more information about content types, see [Content Types](/previous-versions/office/developer/sharepoint-2010/ms479905(v=office.14)). For more information about lists, see [List Forms](/previous-versions/office/developer/sharepoint-2010/aa543232(v=office.14)) and [List Views](/previous-versions/office/developer/sharepoint-2010/ff604021(v=office.14)).
 
 ## Related topics
 

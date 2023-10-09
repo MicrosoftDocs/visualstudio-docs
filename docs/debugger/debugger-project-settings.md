@@ -43,7 +43,7 @@ Certain project settings also affect debugging. These settings determine such th
  Lists properties available in the **Property Pages** dialog box for web projects.
 
  [Project Settings for a Visual Basic Debug Configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
- Lists properties available in the **Property Pages** dialog box for [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] projects.
+ Lists properties available in the **Property Pages** dialog box for Visual Basic projects.
 
 ## Related Sections
  [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
@@ -53,7 +53,7 @@ Certain project settings also affect debugging. These settings determine such th
  Describes how to debug UWP apps. (Windows Dev Center)
 
  [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
- Describes the debugger-related property settings, and the preparation needed in order to debug your program with the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger.
+ Describes the debugger-related property settings, and the preparation needed in order to debug your program with the Visual Studio debugger.
 
 ## See also
  [Debugger Security](../debugger/debugger-security.md)

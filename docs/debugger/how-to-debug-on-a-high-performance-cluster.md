@@ -25,7 +25,7 @@ ms.workload:
 
 Debugging a multiprocessing program on a high-performance cluster is like debugging an ordinary program on a remote computer. However, there are some additional considerations. For general remote setup requirements, see [Remote Debugging](../debugger/remote-debugging.md).
 
- When you debug on a high-performance cluster, you can use all the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugging windows and techniques that are available for remote debugging. Because you are debugging remotely, however, the external console window is not available.
+ When you debug on a high-performance cluster, you can use all the Visual Studio debugging windows and techniques that are available for remote debugging. Because you are debugging remotely, however, the external console window is not available.
 
  The **Threads** window and **Processes** window are especially useful for debugging parallel applications. For tips on how to use these windows, see [How to: Use the Processes Window](/previous-versions/visualstudio/visual-studio-2010/7h8h5sdw(v=vs.100)) and [Walkthrough: Debug using the Threads Window](../debugger/how-to-use-the-threads-window.md).
 

@@ -17,7 +17,7 @@ ms.workload:
 # Project Persistence
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-Persistence is a key design consideration for your project. Most projects use project items that represent files; [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] also supports projects whose data is non-file-based. Both the files owned by the project and the project file must be persisted. The IDE instructs the project to save itself or a project item.
+Persistence is a key design consideration for your project. Most projects use project items that represent files; Visual Studio also supports projects whose data is non-file-based. Both the files owned by the project and the project file must be persisted. The IDE instructs the project to save itself or a project item.
 
  Templates for projects are passed to the project factory. The templates should support the initialization of all project items according to the requirements of the specific project type. These templates can later be saved as project files and managed by the IDE through the solution. For more information, see [Creating Project Instances By Using Project Factories](../../extensibility/internals/creating-project-instances-by-using-project-factories.md) and [Solutions](../../extensibility/internals/solutions-overview.md).
 
@@ -34,7 +34,7 @@ Persistence is a key design consideration for your project. Most projects use pr
 
  The IDE calls the `IPersistFileFormat` interface on the project to indicate that the project should persist its project items as appropriate. Therefore, the object owns all aspects of its file and format. This includes the name of the format of the object.
 
- In the case where items are not files, `IPersistFileFormat` is still how non-file-based items are persisted. Project files, such as .vbp files for [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] projects or .vcproj files for [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] projects, must also be persisted.
+ In the case where items are not files, `IPersistFileFormat` is still how non-file-based items are persisted. Project files, such as .vbp files for Visual Basic projects or .vcproj files for Visual C++ projects, must also be persisted.
 
  For save actions, the IDE examines the running document table (RDT) and the hierarchy passes the commands to the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem> and the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem2> interfaces. The <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem.IsItemDirty%2A> method is implemented to determine whether the item has been modified. If the item has, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem.SaveItem%2A> method is implemented to save the modified item.
 

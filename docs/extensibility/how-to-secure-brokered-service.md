@@ -18,10 +18,10 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Brokered services default to only being available to the local user and to the processes involved in the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] session that activated it.
+Brokered services default to only being available to the local user and to the processes involved in the Visual Studio session that activated it.
 Under these defaults, security considerations for brokered services are no different than other code running in these processes, which include:
 
-- From a threat model perspective, extensions that run within the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] process are assumed to be fully trusted. Extensions that run out of process should treat Visual Studio service calls as crossing a trust boundary.
+- From a threat model perspective, extensions that run within the Visual Studio process are assumed to be fully trusted. Extensions that run out of process should treat Visual Studio service calls as crossing a trust boundary.
 - Your code must validate arguments at entry points to confirm they fall in expected patterns/ranges.
 - When reading data from disk, consider that the data may have been tampered with.
 - When receiving data from a network or the Internet, be cautious when parsing or deserializing the data to avoid common vulnerabilities.
@@ -139,18 +139,18 @@ Read more about [consuming brokered services](how-to-consume-brokered-service.md
 
 ## Consuming other VS services or other APIs
 
-Calling standard [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] services, 3rd party libraries or standard .NET APIs is allowed in brokered services that are exposed to Live Share guests, but such calls should be carefully written and all inputs validated first.
+Calling standard Visual Studio services, 3rd party libraries or standard .NET APIs is allowed in brokered services that are exposed to Live Share guests, but such calls should be carefully written and all inputs validated first.
 
 File paths or URLs should be carefully checked to ensure they are valid and fall within the expected sub-paths that the guest has authorization to access.
 For example if your brokered service allows reading from or writing to files based on a path, the path should be checked to fall under the open solution and that the guest actually has write permissions if applicable.
 Validating file paths properly can be difficult considering `..` and other means to make it look like a path starts with the right prefix but then escape the allowed solution directory.
 
 Make use of the <xref:Microsoft.ServiceHub.Framework.Services.AuthorizationServiceClient> described in the above section as appropriate to assert that the client has permission before calling any API that does not have its own permission checks built in.
-**Only brokered services built into [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] should be assumed to contain their own authorization checks**, and this relies on your acquiring these brokered services using the contextual service broker as described in the above section.
+**Only brokered services built into Visual Studio should be assumed to contain their own authorization checks**, and this relies on your acquiring these brokered services using the contextual service broker as described in the above section.
 
-All other APIs, including non-brokered [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] services or brokered services obtained with the global service broker, may execute as you direct them without regard to your Live Share guest's permission level, making your own authorization check critical to protecting the security of the Live Share host.
+All other APIs, including non-brokered Visual Studio services or brokered services obtained with the global service broker, may execute as you direct them without regard to your Live Share guest's permission level, making your own authorization check critical to protecting the security of the Live Share host.
 
-Avoid exposing functionality from your brokered service that another [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] brokered service already exposes as it increases the attack surface.
+Avoid exposing functionality from your brokered service that another Visual Studio brokered service already exposes as it increases the attack surface.
 
 ## Sharing state across brokered service instances
 

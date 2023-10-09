@@ -163,16 +163,16 @@ Indicates that the field is optional.
 Indicates that the field is a reference argument. This is specifically for method arguments.
 
 `FIELD_MOD_HIDDEN`\
-Indicates that the field must be hidden or presented in another context; for example, [!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)] static locals.
+Indicates that the field must be hidden or presented in another context; for example, Visual Basic static locals.
 
 `FIELD_MOD_MARSHALASOBJECT`\
 Indicates that the field represents an object with an `IUnknown` interface.
 
 `FIELD_MOD_SPECIAL_NAME`\
-Indicates that the field has a special name, for example, `.ctor` for a constructor ([!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)] only).
+Indicates that the field has a special name, for example, `.ctor` for a constructor (Visual Basic only).
 
 `FIELD_MOD_HIDEBYSIG`\
-Indicates that the field has the `Overloads` keyword applied to it ([!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)] only).
+Indicates that the field has the `Overloads` keyword applied to it (Visual Basic only).
 
 `FIELD_MOD_WRITEONLY`\
 Indicates that the field is write-only. This value is not included in `FIELD_MOD_ALL`, as the only use of such write-only fields is for function evaluation. A user must explicitly ask for `FIELD_MOD_WRITEONLY` fields.

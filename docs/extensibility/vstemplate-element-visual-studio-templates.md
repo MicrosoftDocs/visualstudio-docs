@@ -38,7 +38,7 @@ Contains all the metadata about the project template, item template, or starter 
 | Attribute | Description |
 |-----------| - |
 | `Type` | Identifies the template as a project template or an item template. This attribute can have a value of `Project` or `Item`. |
-| `Version` | Specifies a version number for the template. Templates in [!INCLUDE[vs_dev10_long](../code-quality/includes/vs_dev10_long_md.md)] and [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] have a `Version` attribute value of `3.0.0`. |
+| `Version` | Specifies a version number for the template. Templates in Visual Studio 2010 and Visual Studio 2012 have a `Version` attribute value of `3.0.0`. |
 
 ### Child elements
 
@@ -56,7 +56,7 @@ Contains all the metadata about the project template, item template, or starter 
  The `VSTemplate` element is the root element of *.vstemplate* files.
 
 ## Example
- The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] application.
+ The following example shows the metadata for a project template for a Visual C# application.
 
 ```xml
 <VSTemplate Type="Project" Version="3.0.0"

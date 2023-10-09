@@ -26,7 +26,7 @@ ms.workload:
 
  This walkthrough illustrates the following tasks:
 
-- Creating a SharePoint list definition sequential workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+- Creating a SharePoint list definition sequential workflow project in Visual Studio.
 
 - Creating workflow activities.
 
@@ -85,7 +85,7 @@ ms.workload:
 
 #### To create a SharePoint sequential workflow project
 
-1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start Visual Studio.
 
 2. On the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box.
 
@@ -254,7 +254,7 @@ ms.workload:
 5. Save the project.
 
 ## Test the SharePoint workflow template
- When you start the debugger, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] deploys the workflow template to the SharePoint server and associates the workflow with the **Shared Documents** list. To test the workflow, start an instance of the workflow from a document in the **Shared Documents** list.
+ When you start the debugger, Visual Studio deploys the workflow template to the SharePoint server and associates the workflow with the **Shared Documents** list. To test the workflow, start an instance of the workflow from a document in the **Shared Documents** list.
 
 #### To test the SharePoint workflow template
 
@@ -272,7 +272,7 @@ ms.workload:
 
      This uploads the selected document into the **Shared Documents** list and starts the workflow.
 
-6. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], verify that the debugger stops at the breakpoint next to the `onWorkflowActivated` method.
+6. In Visual Studio, verify that the debugger stops at the breakpoint next to the `onWorkflowActivated` method.
 
 7. Choose the **F5** key to continue execution.
 

@@ -16,7 +16,7 @@ ms.workload:
 # Extend properties
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] **Properties** window is a universal property browser for COM and COM+ components and supports all [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] products. The **Properties** window works with `ITypeInfo` type information and COM+ metadata to list the design-time properties for the currently selected object in any other window in the integrated development environment (IDE).
+The Visual Studio **Properties** window is a universal property browser for COM and COM+ components and supports all Visual Studio products. The **Properties** window works with `ITypeInfo` type information and COM+ metadata to list the design-time properties for the currently selected object in any other window in the integrated development environment (IDE).
 
  The **Properties** window, which can be opened by pressing **F4** on the keyboard, or selecting **Properties Window** on the **View** menu, is used to view and edit configuration-independent, design-time properties and events of selected objects. Configuration-dependent properties, associated with solutions and projects, are displayed on [Property pages](../../extensibility/internals/property-pages.md). For more information, [Manage configuration options](../../extensibility/internals/managing-configuration-options.md).
 
@@ -53,11 +53,11 @@ Properties window
 ## Related sections
 - [Project types](../../extensibility/internals/project-types.md)
 
- Discusses projects as the building blocks of the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE.
+ Discusses projects as the building blocks of the Visual Studio IDE.
 
 - [Compile and build](../../ide/compiling-and-building-in-visual-studio.md)
 
- Describes how you can use the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] platform for continuously testing and debugging applications as you build them.
+ Describes how you can use the Visual Studio platform for continuously testing and debugging applications as you build them.
 
 - [IDispatch](/previous-versions/windows/desktop/api/oaidl/nn-oaidl-idispatch)
 
@@ -69,8 +69,8 @@ Properties window
 
 - [Solutions and projects](../../ide/solutions-and-projects-in-visual-studio.md)
 
- Explains how [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] efficiently manages the items such as references, data connections, folders, and files that are required by your development effort through solutions and projects.
+ Explains how Visual Studio efficiently manages the items such as references, data connections, folders, and files that are required by your development effort through solutions and projects.
 
 - [Extend other parts of Visual Studio](../../extensibility/extending-other-parts-of-visual-studio.md)
 
- Explains how to use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] services to create UI elements that match the rest of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+ Explains how to use Visual Studio services to create UI elements that match the rest of Visual Studio.

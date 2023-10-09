@@ -16,7 +16,7 @@ ms.workload:
 # Supporting Source Control
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] supports file checkouts, check-ins, and other source control operations for your project or editor. As a source control client, [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is designed to interact with a source control package, such as [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)], which provides archiving, versioning, and control facilities for a dynamically defined set of files.
+Visual Studio supports file checkouts, check-ins, and other source control operations for your project or editor. As a source control client, Visual Studio is designed to interact with a source control package, such as Visual SourceSafe, which provides archiving, versioning, and control facilities for a dynamically defined set of files.
 
 ## In This Section
 - [Model for Source Control Packages](../../extensibility/internals/model-for-source-control-packages.md)
@@ -58,4 +58,4 @@ ms.workload:
 ## Related Sections
 - [Project Types](../../extensibility/internals/project-types.md)
 
- Provides an overview of projects as the basic building blocks of the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). Links are provided to additional topics that explain how projects control building and compiling code.
+ Provides an overview of projects as the basic building blocks of the Visual Studio integrated development environment (IDE). Links are provided to additional topics that explain how projects control building and compiling code.

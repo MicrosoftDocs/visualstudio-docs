@@ -34,7 +34,7 @@ Validating data is the process of confirming that the values being entered into 
 
 You can confirm that data that's being written to a dataset is valid by building validation checks into the dataset itself. The dataset can check the data no matter how the update is being performed — whether directly by controls in a form, within a component, or in some other way. Because the dataset is part of your application (unlike the database backend), it's a logical place to build application-specific validation.
 
-The best place to add validation to your application is in the dataset's partial class file. In [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] or [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)], open the **Dataset Designer** and double-click the column or table for which you want to create validation. This action opens up the code file, where you can create a <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> event handler.
+The best place to add validation to your application is in the dataset's partial class file. In Visual Basic or Visual C#, open the **Dataset Designer** and double-click the column or table for which you want to create validation. This action opens up the code file, where you can create a <xref:System.Data.DataTable.ColumnChanging> or <xref:System.Data.DataTable.RowChanging> event handler.
 
 ### [C#](#tab/csharp)
 ```csharp

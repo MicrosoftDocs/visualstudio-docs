@@ -25,7 +25,7 @@ ms.workload:
 # Architecture of document-level customizations
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-  [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] includes projects for creating document-level customizations for Microsoft Office Word and Microsoft Office Excel. This topic describes the following aspects of document-level customizations:
+  Visual Studio 2013 includes projects for creating document-level customizations for Microsoft Office Word and Microsoft Office Excel. This topic describes the following aspects of document-level customizations:
 
 - [Understand customizations](#UnderstandingCustomizations)
 
@@ -40,7 +40,7 @@ ms.workload:
 ## <a name="UnderstandingCustomizations"></a> Understand customizations
  When you use the Office developer tools in Visual Studio to build a document-level customization, you create a managed code assembly that is associated with a specific document. A document or workbook with a linked assembly is said to have managed code extensions. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).
 
- When a user opens the document, the assembly is loaded by the Microsoft Office application. After the assembly is loaded, the customization can respond to events while the document is open. The customization can also call into the object model to automate and extend the application while the document is open, and it can use any of the classes in the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)].
+ When a user opens the document, the assembly is loaded by the Microsoft Office application. After the assembly is loaded, the customization can respond to events while the document is open. The customization can also call into the object model to automate and extend the application while the document is open, and it can use any of the classes in the .NET Framework.
 
  The assembly communicates with the application's COM components through the primary interop assembly of the application. For more information, see [Office primary interop assemblies](../vsto/office-primary-interop-assemblies.md) and [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).
 
@@ -55,7 +55,7 @@ ms.workload:
 #### Design time
  The design-time experience includes the following steps:
 
-1. The developer creates a document-level project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. The project includes the document and the assembly that runs behind the document. The document might already exist (created by a designer), or a new document can be created along with the project.
+1. The developer creates a document-level project in Visual Studio. The project includes the document and the assembly that runs behind the document. The document might already exist (created by a designer), or a new document can be created along with the project.
 
 2. The designer—either the developer who creates the project or someone else—creates the final look and feel of the document for the end user.
 
@@ -69,11 +69,11 @@ ms.workload:
 3. The assembly responds to events as the user works in the document or workbook.
 
 #### Developer and end-user perspective compared
- Because the developer works primarily in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], and the end user works in Word or Excel, there are two ways of understanding document-level customizations.
+ Because the developer works primarily in Visual Studio, and the end user works in Word or Excel, there are two ways of understanding document-level customizations.
 
 |Developer's Perspective|End User's Perspective|
 |-----------------------------|----------------------------|
-|Using [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], the developer writes code that is accessible to Word and Excel.<br /><br /> Although it might seem that the developer is creating an executable file that runs Word or Excel, the process actually works the other way around. The document is associated with an assembly and contains a pointer to that assembly. When the document opens, Word or Excel locates the assembly and runs the code in response to all handled events.|Those who use the solution simply open the document or workbook (or create a new document from a template) just as they would open any other Microsoft Office file.<br /><br /> The assembly provides customizations in the document or workbook such as automatically populating it with current data, or showing a dialog box to request information.|
+|Using Visual Studio, the developer writes code that is accessible to Word and Excel.<br /><br /> Although it might seem that the developer is creating an executable file that runs Word or Excel, the process actually works the other way around. The document is associated with an assembly and contains a pointer to that assembly. When the document opens, Word or Excel locates the assembly and runs the code in response to all handled events.|Those who use the solution simply open the document or workbook (or create a new document from a template) just as they would open any other Microsoft Office file.<br /><br /> The assembly provides customizations in the document or workbook such as automatically populating it with current data, or showing a dialog box to request information.|
 
 ### Supported document formats for document-level customizations
  When you create a customization project, you can choose the format of the document that you want to use in the project. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
@@ -102,7 +102,7 @@ ms.workload:
  Customizations use deployment manifests and application manifests to identify and load the most current version of the customization assembly. The deployment manifest points to the current application manifest. The application manifest points to the customization assembly, and specifies the entry point class (or classes) to execute in the assembly. For more information, see [Application and deployment manifests in Office solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md).
 
 ### Visual Studio Tools for Office Runtime
- To run document-level customizations that are created by using the Office developer tools in Visual Studio, end-user computers must have the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] installed. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] includes unmanaged components that load the customization assembly, and also a set of managed assemblies. These managed assemblies provide the object model that your customization code uses to automate and extend the host application.
+ To run document-level customizations that are created by using the Office developer tools in Visual Studio, end-user computers must have the  Visual Studio Tools for Office runtime  installed. The  Visual Studio Tools for Office runtime  includes unmanaged components that load the customization assembly, and also a set of managed assemblies. These managed assemblies provide the object model that your customization code uses to automate and extend the host application.
 
  For more information, see [Visual Studio tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).
 
@@ -116,7 +116,7 @@ ms.workload:
  ![2007 Office customization architecture](../vsto/media/office07-custom.png "2007 Office customization architecture")
 
 > [!NOTE]
-> In Office solutions that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], solutions call into the object model of the host application by using primary interop assembly (PIA) type information that is embedded in the solution assembly, instead of calling into the PIA directly. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).
+> In Office solutions that target the .NET Framework 4, solutions call into the object model of the host application by using primary interop assembly (PIA) type information that is embedded in the solution assembly, instead of calling into the PIA directly. For more information, see [Design and create Office solutions](../vsto/designing-and-creating-office-solutions.md).
 
 ### Loading process
  The following steps occur when a user opens a document that is part of a Microsoft Office solution.
@@ -125,19 +125,19 @@ ms.workload:
 
 2. If there are managed code extensions, the application loads *VSTOEE.dll*, which loads *VSTOLoader.dll*. These are unmanaged DLLs that are the loader components for the Visual Studio 2010 Tools for Office runtime. For more information, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).
 
-3. *VSTOLoader.dll* loads the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] and starts the managed portion of the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
+3. *VSTOLoader.dll* loads the .NET Framework and starts the managed portion of the  Visual Studio Tools for Office runtime .
 
-4. If the document is opened from a location other than the local computer, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] verifies that the location of the document is in the **Trusted Locations** list in the **Trust Center Settings** for that particular Office application. If the document location is not in a trusted location, the customization is not trusted, and the load process stops here.
+4. If the document is opened from a location other than the local computer, the  Visual Studio Tools for Office runtime  verifies that the location of the document is in the **Trusted Locations** list in the **Trust Center Settings** for that particular Office application. If the document location is not in a trusted location, the customization is not trusted, and the load process stops here.
 
-5. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] installs the solution if it has not been installed yet, downloads the most recent application and deployment manifests, and performs a series of security checks. For more information, see [Secure Office solutions](../vsto/securing-office-solutions.md).
+5. The  Visual Studio Tools for Office runtime  installs the solution if it has not been installed yet, downloads the most recent application and deployment manifests, and performs a series of security checks. For more information, see [Secure Office solutions](../vsto/securing-office-solutions.md).
 
-6. If the customization is trusted to run, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] uses the deployment manifest and application manifest to check for assembly updates. If a new version of the assembly is available, the runtime downloads the new version of the assembly to the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] cache on the client computer. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
+6. If the customization is trusted to run, the  Visual Studio Tools for Office runtime  uses the deployment manifest and application manifest to check for assembly updates. If a new version of the assembly is available, the runtime downloads the new version of the assembly to the ClickOnce cache on the client computer. For more information, see [Deploy an Office solution](../vsto/deploying-an-office-solution.md).
 
-7. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] creates a new application domain in which to load the customization assembly.
+7. The  Visual Studio Tools for Office runtime  creates a new application domain in which to load the customization assembly.
 
-8. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] loads the customization assembly into the application domain.
+8. The  Visual Studio Tools for Office runtime  loads the customization assembly into the application domain.
 
-9. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] calls the **Startup** event handler in your customization assembly. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
+9. The  Visual Studio Tools for Office runtime  calls the **Startup** event handler in your customization assembly. For more information, see [Events in Office projects](../vsto/events-in-office-projects.md).
 
 ## See also
 - [Architecture of Office solutions in Visual Studio](../vsto/architecture-of-office-solutions-in-visual-studio.md)

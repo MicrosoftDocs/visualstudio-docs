@@ -57,7 +57,7 @@ Specifies whether or not the **Place code in separate file** check box is enable
 
  The `SupportsCodeSeparation` element is only available for Web item templates.
 
- Code separation, or the code-behind page model, allows you to keep the markup in one file and the programming code in another file. [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] and other .NET languages use this model.
+ Code separation, or the code-behind page model, allows you to keep the markup in one file and the programming code in another file. ASP.NET and other .NET languages use this model.
 
 ## Example
  The following example specifies to display the **Place code in separate file** option.

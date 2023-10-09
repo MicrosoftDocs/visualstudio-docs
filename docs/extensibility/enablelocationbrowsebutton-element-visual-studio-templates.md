@@ -57,7 +57,7 @@ Specifies whether the **Browse** button is available in the **New Project** dial
  In the **New Project** dialog box, the **Location** text box specifies the directory where a new project is saved. The **Browse** button helps you modify this directory by displaying the **Project Location** dialog box, which enables you to easily navigate to a different directory that is available from your computer, and then choose it as the directory where the new project is saved.
 
 ## Example
- The following example illustrates the metadata for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application.
+ The following example illustrates the metadata for a Visual C# Windows application.
 
 ```xml
 <VSTemplate Type="Project" Version="3.0.0"

@@ -78,7 +78,7 @@ You can package an existing extension, or an extension that does not already hav
 
 8. Build the solution.
 
-    [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] builds a *.vsix* file that contains a VSIX manifest file, a [Content_Types]*.xml* file, and all of the extension assets that you added to the project.
+    Visual Studio builds a *.vsix* file that contains a VSIX manifest file, a [Content_Types]*.xml* file, and all of the extension assets that you added to the project.
 
 ## See also
 

@@ -57,7 +57,7 @@ Specifies the number of parent categories that will display the template in the 
  `NumberOfParentCategoriesToRollUp` is an optional element.
 
 ## Example
- This example illustrates the metadata for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application. If a template with this metadata is placed two folder levels below the top level [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] node, the template will appear in the top level node in the **New Project** dialog box. If the `NumberOfParentCategoriesToRollUp` is not set, the template only appears in the node in which it is physically located.
+ This example illustrates the metadata for a Visual C# Windows application. If a template with this metadata is placed two folder levels below the top level Visual C# node, the template will appear in the top level node in the **New Project** dialog box. If the `NumberOfParentCategoriesToRollUp` is not set, the template only appears in the node in which it is physically located.
 
 ```xml
 <VSTemplate Type="Project" Version="3.0.0"

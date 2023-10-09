@@ -69,7 +69,7 @@ The following procedure assumes that you have created a DSL. The first few steps
 
 #### Forward a property from another element
 
-1. Create a [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] solution that contains at least two classes, which in this example are called **Book** and **Author**. There should be a relationship of either kind between **Book** and **Author**.
+1. Create a Domain-Specific Language Tools solution that contains at least two classes, which in this example are called **Book** and **Author**. There should be a relationship of either kind between **Book** and **Author**.
 
     The multiplicity of the source role (the role at the **Book** side) should be 0..1 or 1..1, so that each **Book** has one **Author**.
 

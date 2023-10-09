@@ -52,7 +52,7 @@ HRESULT UnmarshalDebuggeeInterface(
  If successful, returns `S_OK`; otherwise, returns an error code.
 
 ## Remarks
- This method is used when the debug engine is running in the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] process space and the program being debugged is running in its own process space.
+ This method is used when the debug engine is running in the Visual Studio process space and the program being debugged is running in its own process space.
 
 ## See also
 - [IDebugProviderProgramNode2](../../../extensibility/debugger/reference/idebugproviderprogramnode2.md)

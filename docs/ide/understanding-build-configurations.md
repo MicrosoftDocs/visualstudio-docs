@@ -53,9 +53,9 @@ To create, select, modify, or delete a configuration, you can use the **Configur
 ![Screenshot of Configuration Manager dialog.](media/understanding-build-configurations/config-manager.png)
 
 > [!NOTE]
-> If you can't find solution configuration settings on the toolbar and can't access the **Configuration Manager**, it might be because you're using [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] development settings. For more information, see [How to: Manage configurations with Visual Basic developer settings applied](../ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md).
+> If you can't find solution configuration settings on the toolbar and can't access the **Configuration Manager**, it might be because you're using Visual Basic development settings. For more information, see [How to: Manage configurations with Visual Basic developer settings applied](../ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md).
 
-By default, **Debug** and **Release** configurations are included in projects that are created by using [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] templates. A **Debug** configuration supports the debugging of an app, and a **Release** configuration builds a version of the app that can be deployed. For more information, see [How to: Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md). You can also create custom solution configurations and project configurations. For more information, see [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md).
+By default, **Debug** and **Release** configurations are included in projects that are created by using Visual Studio templates. A **Debug** configuration supports the debugging of an app, and a **Release** configuration builds a version of the app that can be deployed. For more information, see [How to: Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md). You can also create custom solution configurations and project configurations. For more information, see [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md).
 
 ## Solution configurations
 
@@ -63,7 +63,7 @@ A solution configuration specifies how projects in the solution are to be built 
 
 Each entry in the **Project contexts** box in a solution configuration represents a project in the solution. For every combination of **Active solution configuration** and **Active solution platform**, you can set how each project is used.
 
-When you define a new solution configuration and select the **Create new project configurations** check box, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically assigns the new configuration to all of the projects. Likewise, when you define a new solution platform and select the **Create new project platforms** check box, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically assigns the new platform to all of the projects. Also, if you add a project that targets a new platform, Visual Studio adds that platform to the list of solution platforms and assigns it to all of the projects. You can still modify the settings for each project.
+When you define a new solution configuration and select the **Create new project configurations** check box, Visual Studio automatically assigns the new configuration to all of the projects. Likewise, when you define a new solution platform and select the **Create new project platforms** check box, Visual Studio automatically assigns the new platform to all of the projects. Also, if you add a project that targets a new platform, Visual Studio adds that platform to the list of solution platforms and assigns it to all of the projects. You can still modify the settings for each project.
 
 The active solution configuration also provides context to the IDE. For example, if you're working on a project and the configuration specifies that it will be built for a mobile device, the **Toolbox** displays only items that can be used in a mobile device project.
 

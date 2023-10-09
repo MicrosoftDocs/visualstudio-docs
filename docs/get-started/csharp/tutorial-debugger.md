@@ -360,7 +360,7 @@ Mostly, we use the keyboard shortcuts here, because it's a good way to get fast 
      ![Screenshot of the 'Run to Click' button.](../csharp/media/get-started-run-to-click.png "Run to Click")
 
    > [!NOTE]
-   > The **Run to Click** button is new in [!include[vs_dev15](../../misc/includes/vs_dev15_md.md)]. (If you don't see the green arrow button, use **F11** in this example instead to advance the debugger to the right place.)
+   > The **Run to Click** button is new in Visual Studio 2017. (If you don't see the green arrow button, use **F11** in this example instead to advance the debugger to the right place.)
 
 1. Click the **Run to Click** button ![Image of the 'Run to Click' button.](../../debugger/media/dbg-tour-run-to-click.png "RunToClick").
 

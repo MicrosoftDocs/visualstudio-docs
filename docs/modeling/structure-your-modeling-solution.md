@@ -18,7 +18,7 @@ To use models effectively in a development project, the team members must be abl
 
 To start on a project or subproject quickly, it is useful to have a project template that follows the project structure that you have chosen. This topic describes how to create and use such a template.
 
-This topic assumes that you are working on a project that is large enough to require several team members, and perhaps has several teams. The code and models of the project are stored on a source control system such as [!INCLUDE[esprtfs](../code-quality/includes/esprtfs_md.md)]. At least some team members use Visual Studio to develop models, and other team members can view the models by using other Visual Studio versions.
+This topic assumes that you are working on a project that is large enough to require several team members, and perhaps has several teams. The code and models of the project are stored on a source control system such as Team Foundation Server. At least some team members use Visual Studio to develop models, and other team members can view the models by using other Visual Studio versions.
 
 To see which versions of Visual Studio support each tool and modeling feature, see [Version support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 

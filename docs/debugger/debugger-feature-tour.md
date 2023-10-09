@@ -81,7 +81,7 @@ While in the debugger, hover over a line of code until the **Run to Click** (Run
 ::: moniker-end
 
 > [!NOTE]
-> The **Run to Click** (Run execution to here) button is available starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
+> The **Run to Click** (Run execution to here) button is available starting in Visual Studio 2017.
 
 Click the **Run to Click** (Run execution to here) button. The debugger advances to the line of code where you clicked.
 

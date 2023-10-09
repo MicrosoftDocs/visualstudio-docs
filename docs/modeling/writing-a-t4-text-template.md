@@ -51,7 +51,7 @@ Hello
 ```
 
 ## Control blocks
- Control blocks are sections of program code that are used to transform the templates. The default language is C#, but to use [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)], you can write this directive at the beginning of the file:
+ Control blocks are sections of program code that are used to transform the templates. The default language is C#, but to use Visual Basic, you can write this directive at the beginning of the file:
 
 ```
 <#@ template language="VB" #>
@@ -236,7 +236,7 @@ private void WriteSquareLine(int i)
 
  **Load a file as a navigable model**. A more powerful method is to read the data as a model, which your text template code can navigate. For example, you can load an XML file and navigate it with XPath expressions. You could also use [xsd.exe](/dotnet/standard/serialization/xml-schema-definition-tool-xsd-exe) to create a set of classes with which you can read the XML data.
 
- **Edit the model file in a diagram or form.** [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] provides tools that let you edit a model as a diagram or Windows form. This makes it easier to discuss the model with users of the generated application. [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] also creates a set of strongly-typed classes that reflect the structure of the model. For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).
+ **Edit the model file in a diagram or form.** Domain-Specific Language Tools provides tools that let you edit a model as a diagram or Windows form. This makes it easier to discuss the model with users of the generated application. Domain-Specific Language Tools also creates a set of strongly-typed classes that reflect the structure of the model. For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).
 
 ### Relative file paths in design-time templates
  In a [design-time text template](../modeling/design-time-code-generation-by-using-t4-text-templates.md), if you want to reference a file in a location relative to the text template, use `this.Host.ResolvePath()`. You must also set `hostspecific="true"` in the `template` directive:

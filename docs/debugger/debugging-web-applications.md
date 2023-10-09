@@ -24,7 +24,7 @@ This article provides links to help you debug different types of web application
 
 - Debug ASP.NET applications
 
-  For steps that are required to enable debugging of [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] applications, see [Debug ASP.NET applications](how-to-enable-debugging-for-aspnet-applications.md).
+  For steps that are required to enable debugging of ASP.NET applications, see [Debug ASP.NET applications](how-to-enable-debugging-for-aspnet-applications.md).
 
 - Debug client-side script in ASP.NET
 

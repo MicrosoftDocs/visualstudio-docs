@@ -44,12 +44,12 @@ ms.workload:
 |Feature|Supported project types|Supported Microsoft Office applications|
 |-------------|-----------------------------|---------------------------------------------|
 |Actions pane|Document-level customizations|Excel<br /><br /> Word|
-|Custom task panes|VSTO Add-ins|Excel<br /><br /> [!INCLUDE[InfoPath_15_short](../vsto/includes/infopath-15-short-md.md)]<br /><br /> [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)]<br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Word|
-|Custom Ribbon UI|Document-level customizations<br /><br /> VSTO Add-ins|Excel<br /><br /> [!INCLUDE[InfoPath_15_short](../vsto/includes/infopath-15-short-md.md)]<br /><br /> [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)]<br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Project<br /><br /> Word<br /><br /> Visio|
-|Backstage view|Document-level customizations<br /><br /> VSTO Add-ins|Excel<br /><br /> [!INCLUDE[InfoPath_15_short](../vsto/includes/infopath-15-short-md.md)].<br /><br /> [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)]<br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Project<br /><br /> Word<br /><br /> Visio|
+|Custom task panes|VSTO Add-ins|Excel<br /><br />  InfoPath 2013 <br /><br />  InfoPath 2010 <br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Word|
+|Custom Ribbon UI|Document-level customizations<br /><br /> VSTO Add-ins|Excel<br /><br />  InfoPath 2013 <br /><br />  InfoPath 2010 <br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Project<br /><br /> Word<br /><br /> Visio|
+|Backstage view|Document-level customizations<br /><br /> VSTO Add-ins|Excel<br /><br />  InfoPath 2013 .<br /><br />  InfoPath 2010 <br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Project<br /><br /> Word<br /><br /> Visio|
 |Outlook form regions|VSTO Add-ins|Outlook|
 |Controls on documents|Document-level customizations<br /><br /> VSTO Add-ins|Excel<br /><br /> Word|
-|Shortcut menus|Document-level customizations<br /><br /> VSTO Add-ins|Excel<br /><br /> [!INCLUDE[InfoPath_15_short](../vsto/includes/infopath-15-short-md.md)]<br /><br /> [!INCLUDE[InfoPath_14_short](../vsto/includes/infopath-14-short-md.md)]<br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Project<br /><br /> Word<br /><br /> Visio<br /><br /> Excel|
+|Shortcut menus|Document-level customizations<br /><br /> VSTO Add-ins|Excel<br /><br />  InfoPath 2013 <br /><br />  InfoPath 2010 <br /><br /> Outlook<br /><br /> PowerPoint<br /><br /> Project<br /><br /> Word<br /><br /> Visio<br /><br /> Excel|
 
 ## <a name="Actions"></a> Actions panes and custom task panes
  Task panes are user interface panels that are typically docked to one side of a window in a Microsoft Office application. Almost all Microsoft Office applications include built-in task panes. An example of a task pane is the Help task pane in Word.

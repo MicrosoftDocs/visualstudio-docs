@@ -22,7 +22,7 @@ ms.workload:
 # &lt;entryPoint&gt; element (Office development in Visual Studio)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-  Each `entryPoint` element of the `vstav3` namespace identifies a customization assembly that should be run when this [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] application is installed.
+  Each `entryPoint` element of the `vstav3` namespace identifies a customization assembly that should be run when this ClickOnce application is installed.
 
 ## Syntax
 
@@ -46,14 +46,14 @@ ms.workload:
  `entryPoint` has the following element.
 
 ### assemblyIdentity
- Required. The `assemblyIdentity` element in the `vstav3` namespace refers to an existing `assemblyIdentity` element in the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] application manifest.
+ Required. The `assemblyIdentity` element in the `vstav3` namespace refers to an existing `assemblyIdentity` element in the ClickOnce application manifest.
 
  The role of `assemblyIdentity` and its attributes is defined in [&#60;assemblyIdentity&#62; element &#40;ClickOnce application&#41;](../deployment/assemblyidentity-element-clickonce-application.md).
 
 ## Document-level customization example
 
 ### Description
- The following code example illustrates `entryPoint` elements in an application manifest for a document-level Office solution deployed using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
+ The following code example illustrates `entryPoint` elements in an application manifest for a document-level Office solution deployed using ClickOnce. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
 
 ### Code
 
@@ -95,7 +95,7 @@ ms.workload:
 ## VSTO Add-in example
 
 ### Description
- The following code example illustrates an `entryPoint` element in an application manifest for an application-level Office solution deployed using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
+ The following code example illustrates an `entryPoint` element in an application manifest for an application-level Office solution deployed using ClickOnce. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
 
 ### Code
 

@@ -16,7 +16,7 @@ ms.workload:
 # Core Interfaces
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-The following interfaces are the core interfaces for extending debugger by using the [!INCLUDE[vsipsdk](../../../extensibility/includes/vsipsdk_md.md)].
+The following interfaces are the core interfaces for extending debugger by using the Visual Studio SDK.
 
 ## Discussion
  These interfaces are primarily used to create the debug engine (DE). They are organized here by categories:
@@ -99,7 +99,7 @@ The following interfaces are the core interfaces for extending debugger by using
 |[IEnumDebugCodeContexts2](../../../extensibility/debugger/reference/ienumdebugcodecontexts2.md)|DE|Represents an enumeration over a set of code contexts.|
 
 ## <a name="CoreServer"></a> Core Server
- These interfaces represent the machine on which a program is being debugged. These are implemented by [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] but can be called into by debug engines.
+ These interfaces represent the machine on which a program is being debugged. These are implemented by Visual Studio but can be called into by debug engines.
 
 |Interface|Implemented by|Description|
 |---------------|--------------------|-----------------|
@@ -159,14 +159,14 @@ The following interfaces are the core interfaces for extending debugger by using
 | [IDebugLoadCompleteEvent2](../../../extensibility/debugger/reference/idebugloadcompleteevent2.md) | DE | Sent by the DE when a program has completed loading. |
 | [IDebugMessageEvent2](../../../extensibility/debugger/reference/idebugmessageevent2.md) | DE | Sent by the DE to have the IDE display an informational message to the user. |
 | [IDebugModuleLoadEvent2](../../../extensibility/debugger/reference/idebugmoduleloadevent2.md) | DE | Sent by the DE when a module is loaded or unloaded. |
-| [IDebugNoSymbolsEvent2](../../../extensibility/debugger/reference/idebugnosymbolsevent2.md) | DE | Signals the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] debugger UI to warn the user that symbols could not be located for the launched executable. |
+| [IDebugNoSymbolsEvent2](../../../extensibility/debugger/reference/idebugnosymbolsevent2.md) | DE | Signals the Visual Studio debugger UI to warn the user that symbols could not be located for the launched executable. |
 | [IDebugOutputStringEvent2](../../../extensibility/debugger/reference/idebugoutputstringevent2.md) | DE | Sent by the DE to have the IDE display an arbitrary string. |
 | [IDebugPortEvents2](../../../extensibility/debugger/reference/idebugportevents2.md) | VS, DE | Sent by a port to communicate port events to any listener. |
 | [IDebugProcessCreateEvent2](../../../extensibility/debugger/reference/idebugprocesscreateevent2.md) | DE, PS | Sent by the DE or port when a process has been created. |
 | [IDebugProcessDestroyEvent2](../../../extensibility/debugger/reference/idebugprocessdestroyevent2.md) | DE, PS | Sent by the DE or port when a process has been destroyed. |
 | [IDebugProgramCreateEvent2](../../../extensibility/debugger/reference/idebugprogramcreateevent2.md) | DE, PS | Sent by the DE or port when a program has been created. |
 | [IDebugProgramDestroyEvent2](../../../extensibility/debugger/reference/idebugprogramdestroyevent2.md) | DE, PS | Sent by the DE or port when a program has been destroyed. |
-| [IDebugProgramDestroyEventFlags2](../../../extensibility/debugger/reference/idebugprogramdestroyeventflags2.md) | DE | Enables a debug engine to override the default behavior of the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] UI when you end a debug session. |
+| [IDebugProgramDestroyEventFlags2](../../../extensibility/debugger/reference/idebugprogramdestroyeventflags2.md) | DE | Enables a debug engine to override the default behavior of the Visual Studio UI when you end a debug session. |
 | [IDebugProgramNameChangedEvent2](../../../extensibility/debugger/reference/idebugprogramnamechangedevent2.md) | DE | Sent from the debug engine (DE) to the session debug manager (SDM) when the name of a program changes. |
 | [IDebugPropertyCreateEvent2](../../../extensibility/debugger/reference/idebugpropertycreateevent2.md) | DE | Sent by the DE when a new property (represented by the `IDebugProperty2` interface) has been created. |
 | [IDebugPropertyDestroyEvent2](../../../extensibility/debugger/reference/idebugpropertydestroyevent2.md) | DE | Sent by the DE when a property has been destroyed. |
@@ -212,7 +212,7 @@ The following interfaces are the core interfaces for extending debugger by using
 | Interface | Implemented by | Description |
 | - |----------------| - |
 | [IDebugDefaultPort2](../../../extensibility/debugger/reference/idebugdefaultport2.md) | VS, PS | Represents the default port on the local computer. |
-| [IDebugFirewallConfigurationCallback2](../../../extensibility/debugger/reference/idebugfirewallconfigurationcallback2.md) | VS | Enables a debug engine that uses DCOM to ask the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] UI to make sure that the firewall will not block remote debugging. |
+| [IDebugFirewallConfigurationCallback2](../../../extensibility/debugger/reference/idebugfirewallconfigurationcallback2.md) | VS | Enables a debug engine that uses DCOM to ask the Visual Studio UI to make sure that the firewall will not block remote debugging. |
 | [IDebugPort2](../../../extensibility/debugger/reference/idebugport2.md) | VS, PS | Represents a port. |
 | [IDebugPortEvents2](../../../extensibility/debugger/reference/idebugportevents2.md) | PS | Sent by a port to communicate port events to any listener. |
 | [IDebugPortEx2](../../../extensibility/debugger/reference/idebugportex2.md) | PS | Represents a port that can launch and terminate processes. |
@@ -221,7 +221,7 @@ The following interfaces are the core interfaces for extending debugger by using
 | [IDebugPortRequest2](../../../extensibility/debugger/reference/idebugportrequest2.md) | VS | Represents a request for a port from which a new port will be created or located. |
 | [IDebugPortSupplier2](../../../extensibility/debugger/reference/idebugportsupplier2.md) | PS | Represents a supplier of ports. |
 | [IDebugPortSupplier3](../../../extensibility/debugger/reference/idebugportsupplier3.md) | PS | Represents a supplier of ports that can persist (save to disk) information about the ports it created. |
-| [IDebugPortSupplierDescription2](../../../extensibility/debugger/reference/idebugportsupplierdescription2.md) | PS | Enables the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] UI to display text inside the **Transport Information** section of the **Attach to Process** dialog box. |
+| [IDebugPortSupplierDescription2](../../../extensibility/debugger/reference/idebugportsupplierdescription2.md) | PS | Enables the Visual Studio UI to display text inside the **Transport Information** section of the **Attach to Process** dialog box. |
 | [IDebugWindowsComputerPort2](../../../extensibility/debugger/reference/idebugwindowscomputerport2.md) | VS | Allows querying for information about the target computer. |
 | [IEnumDebugPorts2](../../../extensibility/debugger/reference/ienumdebugports2.md) | VS, PS | Represents an enumeration over a set of ports. |
 | [IEnumDebugPortSuppliers2](../../../extensibility/debugger/reference/ienumdebugportsuppliers2.md) | VS | Represents an enumeration over a set of port suppliers. |

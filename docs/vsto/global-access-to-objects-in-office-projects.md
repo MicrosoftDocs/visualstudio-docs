@@ -53,7 +53,7 @@ ms.workload:
 
 - All Outlook form regions in an Outlook VSTO Add-in project. You can access the form regions by using the `Globals.FormRegions` property. For more information, see [Access a form region at run time](../vsto/accessing-a-form-region-at-run-time.md).
 
-- A factory object that enables you to create Ribbon controls, and host items at run time in projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]. You can access this object by using the `Globals.Factory` property. This object is an instance of a class that implements one the following interfaces:
+- A factory object that enables you to create Ribbon controls, and host items at run time in projects that target the .NET Framework 4 or the .NET Framework 4.5. You can access this object by using the `Globals.Factory` property. This object is an instance of a class that implements one the following interfaces:
 
   - [Microsoft.Office.Tools.Factory](xref:Microsoft.Office.Tools.Factory)
 

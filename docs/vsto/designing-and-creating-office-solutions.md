@@ -36,22 +36,22 @@ Visual Studio provides project templates that you can use to create several diff
 ## Choose a .NET Framework version
  After selecting the project type that best fits your requirements, you can choose which version of the .NET Framework to use in your development process. You can target the following .NET Framework versions in Office projects:
 
-- [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]
+- .NET Framework 4
 
-- [!INCLUDE[net_client_v40_long](../vsto/includes/net-client-v40-long-md.md)]
+- .NET Framework 4 Client Profile
 
-- [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)]
+- .NET Framework 4.5
 
-  The .NET Framework version that you choose for your project is required on end-user computers for your solution to run. For example, if your project targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] is required on end-user computers. In this example, your solution will not run if only the .NET Framework 3.5 is installed on end-user computers.
+  The .NET Framework version that you choose for your project is required on end-user computers for your solution to run. For example, if your project targets the .NET Framework 4, the .NET Framework 4 is required on end-user computers. In this example, your solution will not run if only the .NET Framework 3.5 is installed on end-user computers.
 
-  If you migrate a VSTO Add-in project that targets the .NET Framework 3.5, Visual Studio changes the target framework of your project to [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later depending on the version of Office that you have installed.
+  If you migrate a VSTO Add-in project that targets the .NET Framework 3.5, Visual Studio changes the target framework of your project to .NET Framework 4 or later depending on the version of Office that you have installed.
 
   However, after Visual Studio changes the target framework, you might need to modify some of the code in your project if it uses certain features. For more information about how to change the target framework, see [How to: Target a version of the .NET Framework](../ide/visual-studio-multi-targeting-overview.md). For more information about changes you might need to make in your project, see [Migrate Office solutions to the .NET Framework 4 or later](../vsto/migrating-office-solutions-to-the-dotnet-framework-4-or-later.md).
 
   If Visual Studio changes the target .NET Framework for your project and you are using ClickOnce to deploy your solution, make sure that you also select the corresponding version of the .NET Framework in the **Prerequisites** dialog box. This selection does not change automatically when you change the target framework for your project. For more information, see [How to: Install prerequisites on end-user computers to run Office solutions](/previous-versions/bb608608(v=vs.110)).
 
 > [!NOTE]
-> You cannot target the .NET Framework 3.5 or earlier in Office projects that you create by using [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)]. Office projects that you create by using [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)] require features that were first introduced in the [!INCLUDE[net_client_v40_long](../vsto/includes/net-client-v40-long-md.md)]
+> You cannot target the .NET Framework 3.5 or earlier in Office projects that you create by using Visual Studio 2013. Office projects that you create by using Visual Studio 2013 require features that were first introduced in the .NET Framework 4 Client Profile
 
 ### Understand when the Office PIAs are required on end-user computers
  By default, Office primary interop assemblies (PIAs) do not need to be installed on end-user computers if the **Embed Interop Types** property of each Office PIA reference in the project is set to **True**, which is the default value. In this scenario, the type information for the PIA types that are used by your solution is embedded into the solution assembly when you build the project. At run time, the embedded type information is used instead of the PIAs to call into the Office application's COM-based object model. For more information about how types from PIAs are embedded into your solution, see [Type equivalence and embedded interop types](/dotnet/framework/interop/type-equivalence-and-embedded-interop-types).
@@ -61,17 +61,17 @@ Visual Studio provides project templates that you can use to create several diff
 ### Understand the client profile
  The .NET Framework Client Profile is a subset of the full .NET Framework. You can target the .NET Framework Client Profile if you need to use only the client features in the .NET Framework and you want to provide the fastest possible deployment experience for your Office solution. For more information, see [.NET Framework client profile](/dotnet/framework/deployment/client-profile).
 
- When you create an Office project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], the [!INCLUDE[net_client_v40_long](../vsto/includes/net-client-v40-long-md.md)] is targeted by default. If you want to develop for the full [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)], you must set this option after the project is created. For more information, see [How to: Target a version of the .NET Framework](../ide/visual-studio-multi-targeting-overview.md).
+ When you create an Office project that targets the .NET Framework 4, the .NET Framework 4 Client Profile is targeted by default. If you want to develop for the full .NET Framework 4, you must set this option after the project is created. For more information, see [How to: Target a version of the .NET Framework](../ide/visual-studio-multi-targeting-overview.md).
 
 ## Create solutions for the 64-bit edition of Microsoft Office
  Microsoft Office is available in 64-bit and 32-bit editions. To create Office solutions that can run in either edition, the platform target setting for your project must be set to **Any CPU**. This is the default value for Office projects. For more information, see [Build Office solutions](../vsto/building-office-solutions.md).
 
- There are separate 64-bit and 32-bit versions of the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] that are used by the 64-bit and 32-bit editions of Microsoft Office. For more information, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).
+ There are separate 64-bit and 32-bit versions of the  Visual Studio Tools for Office runtime  that are used by the 64-bit and 32-bit editions of Microsoft Office. For more information, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).
 
 ## Assemblies in Office solutions
  When you create an Office project by using the Office development tools in Visual Studio, the code that you write is eventually compiled into an assembly. The assembly is deployed to a shared server or to a directory on the client computer.
 
- Assemblies in Office solutions are loaded by an Office application. After the assembly is loaded, code in the assembly can respond to events that are raised in the application, for example, when a user clicks a menu item. Code in the assembly can also call into the object model to automate and extend the application, and it can use any of the classes in the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)]. For more information, see [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md) and [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).
+ Assemblies in Office solutions are loaded by an Office application. After the assembly is loaded, code in the assembly can respond to events that are raised in the application, for example, when a user clicks a menu item. Code in the assembly can also call into the object model to automate and extend the application, and it can use any of the classes in the .NET Framework. For more information, see [Architecture of document-level customizations](../vsto/architecture-of-document-level-customizations.md) and [Architecture of VSTO Add-ins](../vsto/architecture-of-vsto-add-ins.md).
 
  Office solutions use deployment manifests and application manifests to identify the assembly. The manifests contain information about the assembly's name, version, and location, so that the application can find, link to, and run the correct assembly. For more information, see [Application and deployment manifests in Office solutions](../vsto/application-and-deployment-manifests-in-office-solutions.md).
 

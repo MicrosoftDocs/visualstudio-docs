@@ -57,15 +57,15 @@ This error applies to .NET projects. The managed code rules settings are not as 
 
 **Code Analysis is not enabled on active configuration. Switch to configuration {0} and build project {1} before checking in.**
 
-In [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the active configuration does not have code analysis enabled, but there is at least one code analysis enabled.
+In Visual Studio, the active configuration does not have code analysis enabled, but there is at least one code analysis enabled.
 
 **You must enable Code Analysis for managed binaries in project {0} properties and build before checking in.**
 
-This error applies to [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] .NET applications. The policy requires managed code analysis to be performed, but it is not enabled in the current project on the client.
+This error applies to Visual C++ .NET applications. The policy requires managed code analysis to be performed, but it is not enabled in the current project on the client.
 
 **You must enable Code Analysis in project {0} properties and build before checking in.**
 
-This error applied to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] projects and web projects. The policy requires managed code analysis to be performed, but it is not enabled in the current project on the client.
+This error applied to Visual Studio projects and web projects. The policy requires managed code analysis to be performed, but it is not enabled in the current project on the client.
 
 **You must enable C/C++ Code Analysis in project {0} properties and build before checking in.**
 

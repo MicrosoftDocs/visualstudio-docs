@@ -96,7 +96,7 @@ A command group is a collection of commands that always appear together on a men
    </CommandTable>
    ```
 
-    A command group can be included on more than one menu. The parent menu can be one that you created, one that is supplied by [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] (as described in *ShellCmdDef.vsct* or *SharedCmdDef.vsct*), or one that is defined in another VSPackage. The number of parenting layers is unlimited as long as the parent menu is eventually connected to [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] or to a shortcut menu that is displayed by a VSPackage.
+    A command group can be included on more than one menu. The parent menu can be one that you created, one that is supplied by Visual Studio (as described in *ShellCmdDef.vsct* or *SharedCmdDef.vsct*), or one that is defined in another VSPackage. The number of parenting layers is unlimited as long as the parent menu is eventually connected to Visual Studio or to a shortcut menu that is displayed by a VSPackage.
 
     The following example puts the group on the **Solution Explorer** toolbar, to the right of the other buttons.
 

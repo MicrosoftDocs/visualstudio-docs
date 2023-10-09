@@ -39,7 +39,7 @@ If no filename is specified, the command will open the file dialog so that user 
 Auto completion tries to locate the correct path and file name as you type.
 
 ## Example
-This example adds the [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] project, TestProject1, to the current solution.
+This example adds the Visual Basic project, TestProject1, to the current solution.
 
 ```cmd
 >File.AddExistingProject "c:\visual studio projects\TestProject1.vbproj"

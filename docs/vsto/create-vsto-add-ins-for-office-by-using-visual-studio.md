@@ -80,11 +80,11 @@ ms.workload:
 
 - [Build Office solutions](building-office-solutions.md)
 
- Provides information about the differences between building Office projects and other types of projects in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+ Provides information about the differences between building Office projects and other types of projects in Visual Studio.
 
 - [Debug Office projects](debugging-office-projects.md)
 
- Provides information about the differences between debugging Office projects and other types of projects in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+ Provides information about the differences between debugging Office projects and other types of projects in Visual Studio.
 
 - [Secure Office solutions](securing-office-solutions.md)
 
@@ -104,7 +104,7 @@ ms.workload:
 
 - [Managed reference &#40;Office development in Visual Studio&#41;](managed-reference-office-development-in-visual-studio.md)
 
- Provides links to information about API namespaces and types that are used in Office projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)]. For API reference documentation about the namespaces and types that are used in Office projects that target the .NET Framework 3.5, see the following reference section in the Visual Studio 2008 documentation: [2007 system managed reference](managed-reference-office-development-in-visual-studio.md).
+ Provides links to information about API namespaces and types that are used in Office projects that target the .NET Framework 4. For API reference documentation about the namespaces and types that are used in Office projects that target the .NET Framework 3.5, see the following reference section in the Visual Studio 2008 documentation: [2007 system managed reference](managed-reference-office-development-in-visual-studio.md).
 
 - [Unmanaged API reference &#40;Office development in Visual Studio&#41;](unmanaged-api-reference-office-development-in-visual-studio.md)
 
