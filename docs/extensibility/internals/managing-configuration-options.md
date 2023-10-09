@@ -21,7 +21,7 @@ When you create a new project type, you must manage project and solution configu
 ## In This Section
 - [Overview](../../extensibility/internals/configuration-options-overview.md)
 
- Describes how projects in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] can support multiple configurations.
+ Describes how projects in Visual Studio can support multiple configurations.
 
 - [Property Pages](../../extensibility/internals/property-pages.md)
 
@@ -41,7 +41,7 @@ When you create a new project type, you must manage project and solution configu
 
 - [Project Configuration for Managing Deployment](../../extensibility/internals/project-configuration-for-managing-deployment.md)
 
- Defines the act of deployment and the two ways [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] supports projects that support deployment.
+ Defines the act of deployment and the two ways Visual Studio supports projects that support deployment.
 
 - [Project Configuration for Output](../../extensibility/internals/project-configuration-for-output.md)
 
@@ -50,4 +50,4 @@ When you create a new project type, you must manage project and solution configu
 ## Related Sections
 - [Project Types](../../extensibility/internals/project-types.md)
 
- Provides an overview of projects as the basic building blocks of the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). Links are provided to additional topics that explain how projects control building and compiling code.
+ Provides an overview of projects as the basic building blocks of the Visual Studio integrated development environment (IDE). Links are provided to additional topics that explain how projects control building and compiling code.

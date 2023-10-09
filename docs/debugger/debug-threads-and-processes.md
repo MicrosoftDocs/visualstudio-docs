@@ -33,10 +33,10 @@ ms.workload:
 
  Perfect parallel processing is not always possible. Threads sometimes must be synchronized. One thread may have to wait for a result from another thread, or one thread may need exclusive access to a resource that another thread is using. Synchronization problems are a common cause of bugs in multithreaded applications. Sometimes threads may end up waiting for a resource that never becomes available. This results in a condition called *deadlock*.
 
- The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger provides powerful but easy-to-use tools for debugging threads and processes.
+ The Visual Studio debugger provides powerful but easy-to-use tools for debugging threads and processes.
 
 ## Tools and features
-The tools you need to use in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] depend on what type of code you are trying to debug:
+The tools you need to use in Visual Studio depend on what type of code you are trying to debug:
 
 - For processes, the primary tools are the **Attach to Process** dialog box, the **Processes** window, and the **Debug Location** toolbar.
 

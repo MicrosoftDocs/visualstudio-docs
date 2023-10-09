@@ -18,7 +18,7 @@ ms.workload:
 # CATIDs for objects that are typically used to extend projects
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-The following table lists CATIDs that are used to extend `Project` and `ProjectItem` automation objects for [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)], [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)], and [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] projects. These CATIDs are defined in *VSLangProj.olb*.
+The following table lists CATIDs that are used to extend `Project` and `ProjectItem` automation objects for Visual Basic, Visual C#, and Visual C++ projects. These CATIDs are defined in *VSLangProj.olb*.
 
 ## Listing of CATIDs
 
@@ -28,7 +28,7 @@ The following table lists CATIDs that are used to extend `Project` and `ProjectI
 |<xref:VSLangProj.PrjCATID.prjCATIDProjectItem>|{610D4615-D0D5-11D2-8599-006097C68E81}|
 
 ## Visual Basic CATIDs
- The following table lists CATIDs that are used to extend [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] browse objects. They are all defined in *VSLangProj.olb*.
+ The following table lists CATIDs that are used to extend Visual Basic browse objects. They are all defined in *VSLangProj.olb*.
 
 |Name|GUID|
 |----------|----------|
@@ -39,7 +39,7 @@ The following table lists CATIDs that are used to extend `Project` and `ProjectI
 |<xref:VSLangProj.PrjBrowseObjectCATID.prjCATIDVBReferenceBrowseObject>|{2289B812-8191-4e81-B7B3-174045AB0CB5}|
 
 ## Visual C# CATIDs
- The following CATIDs can be used to extend [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] browse objects. They are all defined in *VSLangProj.olb*.
+ The following CATIDs can be used to extend Visual C# browse objects. They are all defined in *VSLangProj.olb*.
 
 |Name|GUID|
 |----------|----------|
@@ -50,7 +50,7 @@ The following table lists CATIDs that are used to extend `Project` and `ProjectI
 |<xref:VSLangProj.PrjBrowseObjectCATID.prjCATIDCSharpReferenceBrowseObject>|{2F0FA3B8-C855-4a4e-95A5-CB45C67D6C27}|
 
 ## C++ CATIDs
- The following [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] project system CATIDs are not exposed in type libraries in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] .NET 2003 and have to be included in your code whenever you want to extend these project objects. These CATIDs will be included in the type libraries in later releases of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+ The following Visual C++ project system CATIDs are not exposed in type libraries in Visual Studio .NET 2003 and have to be included in your code whenever you want to extend these project objects. These CATIDs will be included in the type libraries in later releases of Visual Studio.
 
 |Name|GUID|
 |----------|----------|
@@ -66,7 +66,7 @@ const LPOLESTR CVCFolderNode::s_wszCATID = L"{EE8299CA-19B6-4f20-ABEA-E1FD9A33B6
 const LPOLESTR CVCFileNode::s_wszCATID = L"{EE8299C9-19B6-4f20-ABEA-E1FD9A33B683}";
 ```
 
- The following [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] project system CATIDs are also not exposed in the type libraries in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] .NET 2003 and have to be included in your code whenever you want to extend these project objects. These CATIDs are available only in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] .NET 2003 and will not be available in the later releases of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+ The following Visual C++ project system CATIDs are also not exposed in the type libraries in Visual Studio .NET 2003 and have to be included in your code whenever you want to extend these project objects. These CATIDs are available only in Visual Studio .NET 2003 and will not be available in the later releases of Visual Studio.
 
 |Name|GUID|
 |----------|----------|
@@ -84,12 +84,12 @@ const LPOLESTR CVCActiveXReferenceNode::s_wszCATID = L"{9E8182D3-C60A-44f4-A74B-
 const LPOLESTR CVCReferences::s_wszCATID = L"{FE8299CA-19B6-4f20-ABEA-E1FD9A33B683}";
 ```
 
- The GUIDs for the [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] project types are shown in the following table.
+ The GUIDs for the Visual C# and Visual Basic project types are shown in the following table.
 
 | Project type | GUID |
 | - | - |
-| [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] | {FAE04EC0-301F-11D3-BF4B-00C04F79EFBC} |
-| [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] | {F184B08F-C81C-45F6-A57F-5ABD9991F28F} |
+| Visual C# | {FAE04EC0-301F-11D3-BF4B-00C04F79EFBC} |
+| Visual Basic | {F184B08F-C81C-45F6-A57F-5ABD9991F28F} |
 
 ## See also
 - [Add project and project item templates](../../extensibility/internals/adding-project-and-project-item-templates.md)

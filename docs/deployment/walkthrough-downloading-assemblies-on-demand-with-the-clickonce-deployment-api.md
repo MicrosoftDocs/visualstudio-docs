@@ -22,7 +22,7 @@ ms.workload:
 # Walkthrough: Download assemblies on demand with the ClickOnce deployment API
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application are downloaded when the application is first run. However, you may have parts of your application that are used by a small set of your users. In this case, you want to download an assembly only when you create one of its types. The following walkthrough demonstrates how to mark certain assemblies in your application as "optional", and how to download them by using classes in the <xref:System.Deployment.Application> namespace when the common language runtime (CLR) demands them.
+By default, all of the assemblies included in a ClickOnce application are downloaded when the application is first run. However, you may have parts of your application that are used by a small set of your users. In this case, you want to download an assembly only when you create one of its types. The following walkthrough demonstrates how to mark certain assemblies in your application as "optional", and how to download them by using classes in the <xref:System.Deployment.Application> namespace when the common language runtime (CLR) demands them.
 
  [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
 
@@ -42,7 +42,7 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
 
 1. Create a directory named ClickOnceOnDemand.
 
-2. Open the Windows SDK Command Prompt or the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Command Prompt.
+2. Open the Windows SDK Command Prompt or the Visual Studio Command Prompt.
 
 3. Change to the ClickOnceOnDemand directory.
 
@@ -130,9 +130,9 @@ By default, all of the assemblies included in a [!INCLUDE[ndptecclick](../deploy
 
 #### To test your on-demand assembly
 
-1. Upload your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment to a Web server.
+1. Upload your ClickOnce deployment to a Web server.
 
-2. Start your application deployed with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] from a Web browser by entering the URL to the deployment manifest. If you call your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application `ClickOnceOnDemand`, and you upload it to the root directory of adatum.com, your URL would look like this:
+2. Start your application deployed with ClickOnce from a Web browser by entering the URL to the deployment manifest. If you call your ClickOnce application `ClickOnceOnDemand`, and you upload it to the root directory of adatum.com, your URL would look like this:
 
    ```
    http://www.adatum.com/ClickOnceOnDemand/ClickOnceOnDemand.application

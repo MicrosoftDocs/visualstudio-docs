@@ -30,7 +30,7 @@ Debugging isn't possible because a kernel debugger is enabled on the system
 
  This message occurs when you try to debug managed code:
 
-- on a [!INCLUDE[win7](../debugger/includes/win7_md.md)] or [!INCLUDE[wiprlhext](../debugger/includes/wiprlhext_md.md)] system that has been started in debug mode.
+- on a Windows 7 or Windows Vista system that has been started in debug mode.
 
 - the application uses the CLR version CLR 2.0, 3.0, or 3.5.
 
@@ -42,11 +42,11 @@ Debugging isn't possible because a kernel debugger is enabled on the system
 
    —or—
 
-- Disable kernel debugging and debug in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+- Disable kernel debugging and debug in Visual Studio.
 
    —or—
 
-- Debug using the Kernel Debugger instead of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+- Debug using the Kernel Debugger instead of Visual Studio.
 
    —or—
 

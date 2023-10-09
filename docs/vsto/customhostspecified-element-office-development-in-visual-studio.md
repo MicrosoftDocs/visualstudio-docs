@@ -33,7 +33,7 @@ ms.workload:
 ## Elements and attributes
  The `customHostSpecified` element is required for Office solutions. This element is in the `co.v1` namespace and specifies that this deployment contains a component that will be deployed inside of a custom host, and is not a stand-alone application.
 
- This element is a child of the first `<entrypoint>` element in the application manifest. There can be no other child elements in that `<entrypoint>` element or [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] will raise a validation error during installation.
+ This element is a child of the first `<entrypoint>` element in the application manifest. There can be no other child elements in that `<entrypoint>` element or ClickOnce will raise a validation error during installation.
 
  This element has no attributes and no child elements.
 

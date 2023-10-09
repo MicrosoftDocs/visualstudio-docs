@@ -55,7 +55,7 @@ Specifies whether to create the project and perform parameter replacement in the
  `CreateInPlace` is an optional element. The default value is `true`.
 
 ## Example
- The following example illustrates the metadata for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] template.
+ The following example illustrates the metadata for a Visual C# template.
 
 ```
 <VSTemplate Type="Project" Version="3.0.0"

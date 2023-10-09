@@ -23,7 +23,7 @@ ms.workload:
 
  This walkthrough demonstrates the following tasks:
 
-- Creating a site definition by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] project template.
+- Creating a site definition by using the Visual Studio project template.
 
 - Creating a SharePoint site by using a site definition in SharePoint.
 
@@ -41,7 +41,7 @@ ms.workload:
 - Visual Studio.
 
 ## Create a site definition solution
- First, create the site definition project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+ First, create the site definition project in Visual Studio.
 
 #### To create a site definition project
 
@@ -108,7 +108,7 @@ ms.workload:
     </table>
     ```
 
-6. Under *VisualWebPart1.ascx*, open the *VisualWebPart1.ascx.cs* file (for [!INCLUDE[csprcs](../sharepoint/includes/csprcs-md.md)]) or *VisualWebPart1.ascx.vb* (for [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)]) , and then add the following code:
+6. Under *VisualWebPart1.ascx*, open the *VisualWebPart1.ascx.cs* file (for Visual C#) or *VisualWebPart1.ascx.vb* (for Visual Basic) , and then add the following code:
 
      ### [C#](#tab/csharp)
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/testsitedef/sitedefinition/visualwebpart1/visualwebpart1usercontrol.ascx.cs" id="Snippet1":::

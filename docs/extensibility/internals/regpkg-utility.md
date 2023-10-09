@@ -20,7 +20,7 @@ ms.workload:
 > [!NOTE]
 > The preferred way to register packages in Visual Studio is by using .pkgdef files. This allows for extension deployment without having to access the system registry, which is a requirement for VSIX deployment. Pkgdef files are created by using the [CreatePkgDef Utility](../../extensibility/internals/createpkgdef-utility.md). For more information on Visual Studio package deployment, see [Shipping Visual Studio Extensions](../../extensibility/shipping-visual-studio-extensions.md).
 
- The RegPkg.exe utility registers a VSPackage with [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and prepares it for deployment. This utility is used behind the scenes during VSPackage development. It runs as part of the build process so that you can build and run a VSPackage in the experimental hive.
+ The RegPkg.exe utility registers a VSPackage with Visual Studio and prepares it for deployment. This utility is used behind the scenes during VSPackage development. It runs as part of the build process so that you can build and run a VSPackage in the experimental hive.
 
  RegPkg can generate system registry scripts in several formats. You can incorporate these scripts in deployment projects such as .msi projects or Windows Installer XML Toolset files.
 
@@ -31,7 +31,7 @@ RegPkg [/root:<root>] [/regfile:<regfile>] [/rgsfile:<rgsfile> [/rgm]] [/vrgfile
 ```
 
  /root:root
- Performs registration under the specified [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] root.
+ Performs registration under the specified Visual Studio root.
 
  /regfile:FileName
  Creates a .reg file rather than updating the registry.  Cannot be used with /vrgfile or /rgsfile or /wixfile.

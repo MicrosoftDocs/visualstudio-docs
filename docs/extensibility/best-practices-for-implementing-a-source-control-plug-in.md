@@ -18,7 +18,7 @@ ms.workload:
 # Best practices for implementing a source control plug-in
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-The following technical details can help you reliably implement a source control plug-in in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+The following technical details can help you reliably implement a source control plug-in in Visual Studio.
 
 ## Memory management issues
  In most cases, the integrated development environment (IDE), which is the caller, releases and allocates memory. The source control plug-in returns strings and other items in caller-allocated buffers. Exceptions are noted in descriptions of specific functions where they occur.

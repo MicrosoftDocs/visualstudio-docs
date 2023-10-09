@@ -20,27 +20,27 @@ ms.workload:
 
 A brokered service is a service acquired via an <xref:Microsoft.ServiceHub.Framework.IServiceBroker>,
 and is exposed as an RPC-compatible interface to enable the service and its client to exist in distinct AppDomains, processes or even across machines (in the case of Live Share).
-The brokered service may be proffered from the main [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] process or some of its auxiliary processes, and may be consumed by any of these processes by a [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] extension.
+The brokered service may be proffered from the main Visual Studio process or some of its auxiliary processes, and may be consumed by any of these processes by a Visual Studio extension.
 
-More (non-brokered) [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] services are available via the <xref:System.IServiceProvider> interface
+More (non-brokered) Visual Studio services are available via the <xref:System.IServiceProvider> interface
 as described in [Using and Providing Services](../using-and-providing-services.md).
-Such services are typically only available in the main [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] process but expose a larger set of functionality than brokered services.
+Such services are typically only available in the main Visual Studio process but expose a larger set of functionality than brokered services.
 
-A [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] extension running on a Live Share guest may provide additional functionality by accessing a subset of these services as proffered by the Live Share host.
+A Visual Studio extension running on a Live Share guest may provide additional functionality by accessing a subset of these services as proffered by the Live Share host.
 Authorization checks apply over Live Share connections to mitigate the risk of an ill-behaving Live Share guest compromising the security of the Live Share host.
 Authors of brokered services who choose to expose their services over Live Share should take care to implement authorization checks as described in [How to provide a brokered service](../how-to-provide-brokered-service.md).
 
 ## Service broker
 
-[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] has one global <xref:Microsoft.ServiceHub.Framework.IServiceBroker>, analogous to (and retrievable from) the <xref:Microsoft.VisualStudio.Shell.ServiceProvider.GlobalProvider%2A> that exposes other service.
+Visual Studio has one global <xref:Microsoft.ServiceHub.Framework.IServiceBroker>, analogous to (and retrievable from) the <xref:Microsoft.VisualStudio.Shell.ServiceProvider.GlobalProvider%2A> that exposes other service.
 It may also be retrieved via MEF.
 
-There may be other more context specific service brokers proffered by specific [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] features that want to aggregate the global one with one of their own that offers additional services (or perhaps suppresses some).
+There may be other more context specific service brokers proffered by specific Visual Studio features that want to aggregate the global one with one of their own that offers additional services (or perhaps suppresses some).
 
 An <xref:Microsoft.ServiceHub.Framework.IServiceBroker> is (intentionally) a black box that allows a client to get services that may be local, in another process, or on another machine.
 Service brokers may be aggregates of one or many others, with policies applied.
 
-Based on the context the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] process is in, this global service broker is an aggregate of a changing set of other service brokers.
+Based on the context the Visual Studio process is in, this global service broker is an aggregate of a changing set of other service brokers.
 Context changes within the process may change the set of brokered services that may be activated.
 For example when a solution is loaded a service specifically related to the active solution may become available.
 That same service may be available in an Open Folder view as well, albeit with a different backing implementation.
@@ -81,7 +81,7 @@ Because the moniker is included in the service's descriptor, a client can typica
 A descriptor adds the behavior necessary to set up an RPC connection between the brokered service and its client
 or when required to serialize RPC calls to/from a <xref:System.IO.Stream>.
 
-[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] recommends using the <xref:Microsoft.ServiceHub.Framework.ServiceJsonRpcDescriptor> derived type for brokered services which utilizes the StreamJsonRpc library when the client and service require RPC to communicate.
+Visual Studio recommends using the <xref:Microsoft.ServiceHub.Framework.ServiceJsonRpcDescriptor> derived type for brokered services which utilizes the StreamJsonRpc library when the client and service require RPC to communicate.
 StreamJsonRpc applies certain restrictions on the service interface as [described here](https://github.com/microsoft/vs-streamjsonrpc/blob/main/doc/dynamicproxy.md).
 
 A descriptor rarely needs to be used directly.
@@ -98,7 +98,7 @@ A <xref:Microsoft.ServiceHub.Framework.ServiceJsonRpcDescriptor> isn't serializa
 Every brokered service is registered with a selection of flags from <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ServiceAudience>.
 These flags control which clients and over which connections the brokered service will be exposed to.
 
-A typical selection is <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ServiceAudience.Local?displayProperty=nameWithType>, which exposes the service to any local process within a [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] session.
+A typical selection is <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ServiceAudience.Local?displayProperty=nameWithType>, which exposes the service to any local process within a Visual Studio session.
 With this setting, the service is always activated locally, even if a Live Shared session is active.
 
 When the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ServiceAudience.LiveShareGuest?displayProperty=nameWithType> flag is added, a Live Share guest that requests that brokered service will get a proxy to that brokered service over the remote connection with the Live Share host.

@@ -17,7 +17,7 @@ ms.workload:
 # Project Types
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] includes several project types for languages such as [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)]. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] also lets you create your own project types.
+Visual Studio includes several project types for languages such as Visual C# and Visual Basic. Visual Studio also lets you create your own project types.
 
 ## In This Section
 - [Essentials](../../extensibility/internals/project-type-essentials.md)
@@ -30,7 +30,7 @@ ms.workload:
 
 - [Adding a Command to the Solution Explorer Toolbar](../../extensibility/adding-a-command-to-the-solution-explorer-toolbar.md)
 
- Details the steps that you must follow to add a button to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] **Solution Explorer** toolbar.
+ Details the steps that you must follow to add a button to the Visual Studio **Solution Explorer** toolbar.
 
 - [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md)
 
@@ -50,7 +50,7 @@ ms.workload:
 
 - [Upgrading Projects](../../extensibility/internals/upgrading-projects.md)
 
- Describes how your project type can participate in the Upgrade Wizard to upgrade project files from an earlier version of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+ Describes how your project type can participate in the Upgrade Wizard to upgrade project files from an earlier version of Visual Studio.
 
 - [Elements of a project model](../../extensibility/internals/elements-of-a-project-model.md)
 
@@ -60,7 +60,7 @@ ms.workload:
 
 - [Hierarchies in Visual Studio](../../extensibility/internals/hierarchies-in-visual-studio.md)
 
- Provides an overview of how the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) displays a project as a hierarchy.
+ Provides an overview of how the Visual Studio integrated development environment (IDE) displays a project as a hierarchy.
 
 - [Project Subtypes](../../extensibility/internals/project-subtypes.md)
 
@@ -68,4 +68,4 @@ ms.workload:
 
 - [Projects](../../extensibility/internals/projects.md)
 
- Describes how to extend the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] project system.
+ Describes how to extend the Visual Studio project system.

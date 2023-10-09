@@ -29,21 +29,21 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-There are a variety of issues with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] security, application versioning, and manifest syntax and semantics that can cause a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment not to succeed.
+There are a variety of issues with ClickOnce security, application versioning, and manifest syntax and semantics that can cause a ClickOnce deployment not to succeed.
 
 ## ClickOnce and Windows Vista User Account Control
 
-In [!INCLUDE[windowsver](../deployment/includes/windowsver_md.md)], applications by default run as a standard user, even if the current user is logged in with an account that has administrator permissions. If an application must perform an action that requires administrator permissions, it tells the operating system, which then prompts the user to enter their administrator credentials. This feature, which is named User Account Control (UAC), prevents applications from making changes that may affect the entire operating system without a user's explicit approval. Windows applications declare that they require this permission elevation by specifying the `requestedExecutionLevel` attribute in the `trustInfo` section of their application manifest.
+In Windows Vista, applications by default run as a standard user, even if the current user is logged in with an account that has administrator permissions. If an application must perform an action that requires administrator permissions, it tells the operating system, which then prompts the user to enter their administrator credentials. This feature, which is named User Account Control (UAC), prevents applications from making changes that may affect the entire operating system without a user's explicit approval. Windows applications declare that they require this permission elevation by specifying the `requestedExecutionLevel` attribute in the `trustInfo` section of their application manifest.
 
-Due to the risk of exposing applications to security elevation attacks, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications cannot request permission elevation if UAC is enabled for the client. Any [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application that attempts to set its `requestedExecutionLevel` attribute to `requireAdministrator` or `highestAvailable` will not install on [!INCLUDE[windowsver](../deployment/includes/windowsver_md.md)].
+Due to the risk of exposing applications to security elevation attacks, ClickOnce applications cannot request permission elevation if UAC is enabled for the client. Any ClickOnce application that attempts to set its `requestedExecutionLevel` attribute to `requireAdministrator` or `highestAvailable` will not install on Windows Vista.
 
-In some cases, your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application may attempt to run with administrator permissions because of installer detection logic on [!INCLUDE[windowsver](../deployment/includes/windowsver_md.md)]. In this case, you can set the `requestedExecutionLevel` attribute in the application manifest to `asInvoker`. This will cause the application itself to run without elevation. [!INCLUDE[vs_orcas_long](../debugger/includes/vs_orcas_long_md.md)] automatically adds this attribute to all application manifests.
+In some cases, your ClickOnce application may attempt to run with administrator permissions because of installer detection logic on Windows Vista. In this case, you can set the `requestedExecutionLevel` attribute in the application manifest to `asInvoker`. This will cause the application itself to run without elevation. Visual Studio 2008 automatically adds this attribute to all application manifests.
 
 If you are developing an application that requires administrator permissions for the entire lifetime of the application, you should consider deploying the application by using Windows Installer (MSI) technology instead. For more information, see [Windows Installer basics](../extensibility/internals/windows-installer-basics.md).
 
 ## Online application quotas and partial trust applications
 
-If your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application runs online instead of through an installation, it must fit within the quota set aside for online applications. Also, a network application that runs in partial trust, such as with a restricted set of security permissions, cannot be larger than half of the quota size.
+If your ClickOnce application runs online instead of through an installation, it must fit within the quota set aside for online applications. Also, a network application that runs in partial trust, such as with a restricted set of security permissions, cannot be larger than half of the quota size.
 
 For more information, and instructions about how to change the online application quota, see [ClickOnce cache overview](../deployment/clickonce-cache-overview.md).
 
@@ -53,19 +53,19 @@ You may experience problems if you assign strong names to your assembly and incr
 
 For example, say that you have a strong-named assembly in its own project with version 1.0.0.0. After compiling the assembly, you add it as a reference to the project that contains your main application. If you update the assembly, increment the version to 1.0.0.1, and try to deploy it without also recompiling the application, the application will not be able to load the assembly at run time.
 
-This error can occur only if you are editing your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests manually; you should not experience this error if you generate your deployment using Visual Studio.
+This error can occur only if you are editing your ClickOnce manifests manually; you should not experience this error if you generate your deployment using Visual Studio.
 
 ## Specify individual .NET Framework assemblies in the manifest
 
-Your application will fail to load if you have manually edited a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment to reference an older version of a .NET Framework assembly. For example, if you added a reference to the System.Net assembly for a version of the .NET Framework prior to the version specified in the manifest, then an error would occur. In general, you should not attempt to specify references to individual .NET Framework assemblies, as the version of the .NET Framework against which your application runs is specified as a dependency in the application manifest.
+Your application will fail to load if you have manually edited a ClickOnce deployment to reference an older version of a .NET Framework assembly. For example, if you added a reference to the System.Net assembly for a version of the .NET Framework prior to the version specified in the manifest, then an error would occur. In general, you should not attempt to specify references to individual .NET Framework assemblies, as the version of the .NET Framework against which your application runs is specified as a dependency in the application manifest.
 
 ## Manifest parsing issues
 
-The manifest files that are used by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] are XML files, and they must be both well-formed and valid: they must obey the XML syntax rules and only use elements and attributes defined in the relevant XML schema.
+The manifest files that are used by ClickOnce are XML files, and they must be both well-formed and valid: they must obey the XML syntax rules and only use elements and attributes defined in the relevant XML schema.
 
-Something that can cause problems in a manifest file is selecting a name for your application that contains a special character, such as a single or double quotation mark. The application's name is part of its [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] identity. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] currently does not parse identities that contain special characters. If your application fails to activate, make sure that you are using only alphabetical and numeric characters for the name, and attempt to deploy it again.
+Something that can cause problems in a manifest file is selecting a name for your application that contains a special character, such as a single or double quotation mark. The application's name is part of its ClickOnce identity. ClickOnce currently does not parse identities that contain special characters. If your application fails to activate, make sure that you are using only alphabetical and numeric characters for the name, and attempt to deploy it again.
 
-If you have manually edited your deployment or application manifests, you may have unintentionally corrupted them. Corrupted manifest will prevent a correct [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] installation. You can debug such errors at run time by clicking **Details** on the **ClickOnce Error** dialog box, and reading the error message in the log. The log will list one of the following messages:
+If you have manually edited your deployment or application manifests, you may have unintentionally corrupted them. Corrupted manifest will prevent a correct ClickOnce installation. You can debug such errors at run time by clicking **Details** on the **ClickOnce Error** dialog box, and reading the error message in the log. The log will list one of the following messages:
 
 - A description of the syntax error, and the line number and character position where the error occurred.
 
@@ -79,13 +79,13 @@ When you update an application manifest, you must re-sign both the application m
 
 ### Precautions with deployment provider usage
 
-The [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest has a `deploymentProvider` property which points to the full path of the location from where the application should be installed and serviced:
+The ClickOnce deployment manifest has a `deploymentProvider` property which points to the full path of the location from where the application should be installed and serviced:
 
 ```xml
 <deploymentProvider codebase="http://myserver/myapp.application" />
 ```
 
-This path is set when [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] creates the application and is compulsory for installed applications. The path points to the standard location where the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] installer will install the application from and search for updates. If you use the **xcopy** command to copy a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application to a different location, but do not change the `deploymentProvider` property, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will still refer back to the original location when it tries to download the application.
+This path is set when ClickOnce creates the application and is compulsory for installed applications. The path points to the standard location where the ClickOnce installer will install the application from and search for updates. If you use the **xcopy** command to copy a ClickOnce application to a different location, but do not change the `deploymentProvider` property, ClickOnce will still refer back to the original location when it tries to download the application.
 
 If you want to move or copy an application, you must also update the `deploymentProvider` path, so that the client actually installs from the new location. Updating this path is mostly a concern if you have installed applications. For online applications that are always launched through the original URL, setting the `deploymentProvider` is optional. If `deploymentProvider` is set, it will be honored; otherwise, the URL used to start the application will be used as the base URL to download application files.
 

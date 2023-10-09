@@ -108,7 +108,7 @@ ms.workload:
 | Title | Description |
 | - | - |
 | [Excel object model overview](../vsto/excel-object-model-overview.md) | Provides an overview of the main types provided by the Excel object model. |
-| [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md) | Provides information about extended objects (provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]) that you can use in Excel solutions. |
+| [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md) | Provides information about extended objects (provided by the  Visual Studio Tools for Office runtime ) that you can use in Excel solutions. |
 | [Globalization and localization of Excel solutions](../vsto/globalization-and-localization-of-excel-solutions.md) | Contains information about special considerations for Excel solutions that will be run on computers that have non-English settings for Windows. |
 | [Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md) | Describes how you can add Windows Forms controls to Excel worksheets. |
 | [Walkthrough: Create your first document-level customization for Excel](../vsto/walkthrough-creating-your-first-document-level-customization-for-excel.md) | Demonstrates how to create a basic document-level customization for Excel. |

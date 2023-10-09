@@ -282,7 +282,7 @@ You can create a forward merge directive in the Component Model solution. If you
 
 ### To create a forward merge directive
 
-1. Create a [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] solution by using the Component Model template.
+1. Create a Domain-Specific Language Tools solution by using the Component Model template.
 
 2. Display the **DSL Explorer** by opening DslDefinition.dsl.
 

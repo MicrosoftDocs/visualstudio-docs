@@ -19,7 +19,7 @@ ms.workload:
 The following design decisions should be considered for projects when implementing source control.
 
 ## Will information be shared or private?
- The most important design decision you can make is what information is sharable and what is private. For example, the list of files for the project is shared, but within this list of files, some users might want to have private files. Compiler settings are shared, but the start-up project is generally private. Settings are either purely shared, shared with an override, or purely private. By design, private items, such as Solution user options (.suo) files, are not checked into [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)]. Be sure to store any private information in private files such as the .suo file, or a specific private file you create, for example, a .csproj.user file for Visual C# or a .vbproj.user file for Visual Basic.
+ The most important design decision you can make is what information is sharable and what is private. For example, the list of files for the project is shared, but within this list of files, some users might want to have private files. Compiler settings are shared, but the start-up project is generally private. Settings are either purely shared, shared with an override, or purely private. By design, private items, such as Solution user options (.suo) files, are not checked into Visual SourceSafe. Be sure to store any private information in private files such as the .suo file, or a specific private file you create, for example, a .csproj.user file for Visual C# or a .vbproj.user file for Visual Basic.
 
  This decision is not all-inclusive and can be made on an item-by-item basis.
 

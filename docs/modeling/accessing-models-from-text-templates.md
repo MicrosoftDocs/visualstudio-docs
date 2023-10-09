@@ -57,7 +57,7 @@ Here is a list of elements in the model:
 
 - A property in `this` contains the root element. From there, your code can navigate to other elements of the model. The name of the property is usually the same as the root domain class of your DSL. In this example, it is `this.ExampleModel`.
 
-- Although the language in which the code fragments are written is C#, you can generate text of any kind. You can alternatively write the code in [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] by adding the property `language="VB"` to the `template` directive.
+- Although the language in which the code fragments are written is C#, you can generate text of any kind. You can alternatively write the code in Visual Basic by adding the property `language="VB"` to the `template` directive.
 
 - To debug the template, add `debug="true"` to the `template` directive. The template will open in another instance of Visual Studio if an exception occurs. If you want to break into the debugger at a specific point in the code, insert the statement `System.Diagnostics.Debugger.Break();`
 

@@ -18,7 +18,7 @@ ms.workload:
 
 It is important to design your VSPackage installer for flexibility. For example, you might need to release a security patch in the future, or you might change a business strategy that requires thorough side-by-side versioning support.
 
-In [Supporting Multiple Versions of Visual Studio](../../extensibility/supporting-multiple-versions-of-visual-studio.md), you can read about the advantages and issues of supporting side-by-side installations of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] with either shared or side-by-side installations of your VSPackage. In short, side-by-side VSPackages give you the most flexibility to support new features of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+In [Supporting Multiple Versions of Visual Studio](../../extensibility/supporting-multiple-versions-of-visual-studio.md), you can read about the advantages and issues of supporting side-by-side installations of Visual Studio with either shared or side-by-side installations of your VSPackage. In short, side-by-side VSPackages give you the most flexibility to support new features of Visual Studio.
 
 The scenarios discussed in this topic are not your only choices, but they are presented as suggested best practices.
 
@@ -32,11 +32,11 @@ Once you identify and populate a component, assign a `GUID`, and deploy the comp
 
 Reference counting occurs on the component level. Consequently, mixing shared and private resources in one component makes it impossible to update private resources, such as an executable file, without also overwriting shared resources. This scenario creates backward-compatibility issues and restricts you from creating side-by-side capability.
 
-For example, registry values used to register your VSPackage with the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)] should be kept in a component separate from one used to register your VSPackage with Visual Studio. Shared files or registry values go in yet another component.
+For example, registry values used to register your VSPackage with the Visual Studio SDK should be kept in a component separate from one used to register your VSPackage with Visual Studio. Shared files or registry values go in yet another component.
 
 ## Scenario 1: Shared VSPackage
 
-In this scenario, a shared VSPackage (a single binary that supports multiple versions of Visual Studio is shipped in a Windows Installer package. Registering with each version of Visual Studio is controlled by user-selectable features. It also means that when assigned to separate features, each component can be selected individually for installation or uninstallation, putting the user in control of integrating the VSPackage into different versions of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. (See [Windows Installer Features](/windows/desktop/Msi/windows-installer-features) for more information on using features in Windows Installer packages.)
+In this scenario, a shared VSPackage (a single binary that supports multiple versions of Visual Studio is shipped in a Windows Installer package. Registering with each version of Visual Studio is controlled by user-selectable features. It also means that when assigned to separate features, each component can be selected individually for installation or uninstallation, putting the user in control of integrating the VSPackage into different versions of Visual Studio. (See [Windows Installer Features](/windows/desktop/Msi/windows-installer-features) for more information on using features in Windows Installer packages.)
 
 ![VS Shared VSPackage installer](../../extensibility/internals/media/vs_sharedpackage.gif "VS_SharedPackage")
 
@@ -50,7 +50,7 @@ As shown in the illustration, shared components are made part of the Feat_Common
 In this scenario, an updated version of the VSPackage installer in scenario 1 is shipped. For the sake of discussion, the update adds support for Visual Studio, but it could also be a simpler security patch or bug-fix service pack. Windows Installer's rules for installing newer components require that unchanged components already on the system are not recopied. In this case, a system with version 1.0 already present will overwrite the updated component Comp_MyVSPackage.dll and let users choose to add the new feature Feat_VS2005 with its component Comp_VS2005_Reg.
 
 > [!CAUTION]
-> Whenever a VSPackage is shared among multiple versions of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], it is essential that subsequent releases of the VSPackage maintain backward compatibility with prior versions of Visual Studio. Where you cannot maintain backward compatibility, you must use side-by-side, private VSPackages. For more information, see [Supporting Multiple Versions of Visual Studio](../../extensibility/supporting-multiple-versions-of-visual-studio.md).
+> Whenever a VSPackage is shared among multiple versions of Visual Studio, it is essential that subsequent releases of the VSPackage maintain backward compatibility with prior versions of Visual Studio. Where you cannot maintain backward compatibility, you must use side-by-side, private VSPackages. For more information, see [Supporting Multiple Versions of Visual Studio](../../extensibility/supporting-multiple-versions-of-visual-studio.md).
 
 ![VS Shared VS Package Update installer](../../extensibility/internals/media/vs_sharedpackageupdate.gif "VS_SharedPackageUpdate")
 
@@ -68,7 +68,7 @@ Each installer also includes code that is shared between the two installers. If 
 
 In this scenario, your VSPackage for Visual Studio suffered from a security vulnerability and you need to issue an update. As in scenario 2, you can create a new .msi file that updates an existing installation to include the security fix, as well as deploy new installations with the security fix already in place.
 
-In this case, the VSPackage is a managed VSPackage installed in the global assembly cache (GAC). When you rebuild it to include the security fix, you must change the revision number portion of the assembly version number. The registration information for the new assembly version number overwrites the previous version, causing [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to load the fixed assembly.
+In this case, the VSPackage is a managed VSPackage installed in the global assembly cache (GAC). When you rebuild it to include the security fix, you must change the revision number portion of the assembly version number. The registration information for the new assembly version number overwrites the previous version, causing Visual Studio to load the fixed assembly.
 
 ![VS Side-by-Side VS Package Update installer](../../extensibility/internals/media/vs_sbys_packageupdate.gif "VS_SbyS_PackageUpdate")
 

@@ -49,7 +49,7 @@ Specifies the most recently used (MRU) paths in the **New Project** and **Add Ne
 
 ## Remarks
 
- This element should only be used for templates produced through the [!INCLUDE[vsipprvsip](../extensibility/includes/vsipprvsip_md.md)].
+ This element should only be used for templates produced through the Visual Studio Industry Partner (VSIP) program.
 
 ## See also
 

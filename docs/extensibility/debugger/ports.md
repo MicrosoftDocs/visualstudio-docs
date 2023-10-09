@@ -27,7 +27,7 @@ In the debugger architecture, a *port*:
 
 - Is represented by an [IDebugPort2](../../extensibility/debugger/reference/idebugport2.md) interface, which is created by passing an [IDebugPortRequest2](../../extensibility/debugger/reference/idebugportrequest2.md) argument to [AddPort](../../extensibility/debugger/reference/idebugportsupplier2-addport.md).
 
-  [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] supplies a default port that handles all Windows-based processes, both native and managed. A custom port must be set up for connections with external devices that are not Windows-based. To supply such custom ports, you must also set up a custom port supplier.
+  Visual Studio supplies a default port that handles all Windows-based processes, both native and managed. A custom port must be set up for connections with external devices that are not Windows-based. To supply such custom ports, you must also set up a custom port supplier.
 
 ## See also
 - [Servers](../../extensibility/debugger/servers-visual-studio-sdk.md)

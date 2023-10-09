@@ -16,7 +16,7 @@ ms.workload:
 # IDebugNoSymbolsEvent2
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-Signals the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] debugger UI to warn the user that symbols could not be located for the launched executable.
+Signals the Visual Studio debugger UI to warn the user that symbols could not be located for the launched executable.
 
 ## Syntax
 
@@ -25,7 +25,7 @@ IDebugNoSymbolsEvent2 : IUnknown
 ```
 
 ## Notes for Implementers
- Implemented by debug engines and consumed by the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] debugger UI.
+ Implemented by debug engines and consumed by the Visual Studio debugger UI.
 
 ## Requirements
  Header: Msdbg.h

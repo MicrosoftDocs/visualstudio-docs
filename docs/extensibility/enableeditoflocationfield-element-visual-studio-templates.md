@@ -55,7 +55,7 @@ Specifies if the user can edit the location field.
  In the **New Project** dialog box, the **Location** text box specifies the directory where a new project is saved.
 
 ## Example
- The following example illustrates the metadata for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application.
+ The following example illustrates the metadata for a Visual C# Windows application.
 
 ```
 <VSTemplate Type="Project" Version="3.0.0"

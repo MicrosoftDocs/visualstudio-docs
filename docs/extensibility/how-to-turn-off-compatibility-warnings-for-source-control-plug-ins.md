@@ -18,7 +18,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-A user may see several compatibility warnings when employing source control in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. The warnings presented depend on the capabilities of the source control plug-in and can be disabled as detailed here.
+A user may see several compatibility warnings when employing source control in Visual Studio. The warnings presented depend on the capabilities of the source control plug-in and can be disabled as detailed here.
 
 ### To disable the warning: "To ensure optimal source control integration with Visual Studio"
 
@@ -26,7 +26,7 @@ A user may see several compatibility warnings when employing source control in [
 
    **HKEY_CURRENT_USER\Software\Microsoft\VisualStudio\8.0\SourceControl\DontDisplayCheckDotNETCompatible = dword:00000001**
 
-   This warning is displayed for all non-[!INCLUDE[vsvss](../extensibility/includes/vsvss_md.md)] plug-ins.
+   This warning is displayed for all non-Visual SourceSafe plug-ins.
 
 ### To disable the warning: "The installed source control provider does not support all the capabilities"
 

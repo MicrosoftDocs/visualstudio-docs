@@ -17,7 +17,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The following are lists of the Visual Studio editions that are supported with [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] in the authoring and deployment environments. For more information on these editions, see the Microsoft Visual Studio [Developer Center](https://visualstudio.microsoft.com/).
+The following are lists of the Visual Studio editions that are supported with Domain-Specific Language Tools in the authoring and deployment environments. For more information on these editions, see the Microsoft Visual Studio [Developer Center](https://visualstudio.microsoft.com/).
 
 ## Authoring Edition
 
@@ -33,7 +33,7 @@ To define a DSL, you must have installed the following components:
 
 ## Deployment Editions
 
-[!INCLUDE[dsl](../modeling/includes/dsl_md.md)] supports the following configurations for deploying the domain-specific languages that you build:
+Domain-Specific Language Tools supports the following configurations for deploying the domain-specific languages that you build:
 
 - Visual Studio Enterprise
 

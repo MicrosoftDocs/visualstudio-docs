@@ -148,21 +148,21 @@ Describes the minimum security permissions required for the application to run o
 
    `requireAdministrator`, requesting full administrator permissions.
 
-   [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications will only install with a value of `asInvoker`. Installing with any other value will fail.
+   ClickOnce applications will only install with a value of `asInvoker`. Installing with any other value will fail.
 
 - `uiAccess`
 
    Optional. Indicates whether the application requires access to protected user interface elements. Values are either `true` or `false`, and the default is false. Only signed applications should have a value of true.
 
 ## Remarks
- If a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application asks for more permissions than the client computer will grant by default, the common language runtime's Trust Manager will ask the user if she wants to grant the application this elevated level of trust. If she says no, the application will not run; otherwise, it will run with the requested permissions.
+ If a ClickOnce application asks for more permissions than the client computer will grant by default, the common language runtime's Trust Manager will ask the user if she wants to grant the application this elevated level of trust. If she says no, the application will not run; otherwise, it will run with the requested permissions.
 
  All permissions requested using `defaultAssemblyRequest` and `assemblyRequest` will be granted without user prompting if the deployment manifest has a valid Trust License.
 
  For more information about Permission Elevation, see [Securing ClickOnce Applications](../deployment/securing-clickonce-applications.md). For more information about policy deployment, see [Trusted Application Deployment Overview](../deployment/trusted-application-deployment-overview.md).
 
 ## Examples
- The following three code examples illustrate `trustInfo` elements for the default named security zones—Internet, LocalIntranet, and FullTrust—for use in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment's application manifest.
+ The following three code examples illustrate `trustInfo` elements for the default named security zones—Internet, LocalIntranet, and FullTrust—for use in a ClickOnce deployment's application manifest.
 
  The first example illustrates the `trustInfo` element for the default permissions available in the Internet security zone.
 

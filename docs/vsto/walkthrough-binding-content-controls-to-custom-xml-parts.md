@@ -59,14 +59,14 @@ ms.workload:
 
 1. Create a Word document project with the name **EmployeeControls**. Create a new document for the solution. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the new Word document in the designer and adds the **EmployeeControls** project to **Solution Explorer**.
+     Visual Studio opens the new Word document in the designer and adds the **EmployeeControls** project to **Solution Explorer**.
 
 ## Add content controls to the document
  Create a table that contains three different types of content controls where the user can view or edit information about an employee.
 
 ### To add content controls to the document
 
-1. In the Word document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, on the Ribbon, choose the **Insert** tab.
+1. In the Word document that is hosted in the Visual Studio designer, on the Ribbon, choose the **Insert** tab.
 
 2. In the **Tables** group, choose **Table**, and insert a table with 2 columns and 3 rows.
 
@@ -184,7 +184,7 @@ ms.workload:
 ## Attach the XML schema to the document
  You must attach the XML schema to the document to bind the <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> to the valid values of the `title` element.
 
-### To attach the XML schema to the document ( [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)])
+### To attach the XML schema to the document (  Word 2013 )
 
 1. Activate **EmployeeControls.docx** in the designer.
 

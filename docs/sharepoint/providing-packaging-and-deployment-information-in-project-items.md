@@ -30,7 +30,7 @@ ms.workload:
 # Provide packaging and deployment information in project items
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-  All SharePoint project items in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] have properties that you can use to provide additional data when the project is deployed to SharePoint. These properties are as follows:
+  All SharePoint project items in Visual Studio have properties that you can use to provide additional data when the project is deployed to SharePoint. These properties are as follows:
 
 - Feature Properties
 
@@ -55,7 +55,7 @@ ms.workload:
 
  Identical feature property values from all project items are merged together in the feature manifest. However, if two different project items specify the same feature property key with non-matching values, a validation error occurs.
 
- To add feature properties directly to the feature file (*.feature*), call the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint object model method <xref:Microsoft.VisualStudio.SharePoint.Features.IPropertyCollection.Add%2A>. If you use this method, be aware that the same rule about adding identical feature property values in Feature Properties also applies to properties added directly to the feature file.
+ To add feature properties directly to the feature file (*.feature*), call the Visual Studio SharePoint object model method <xref:Microsoft.VisualStudio.SharePoint.Features.IPropertyCollection.Add%2A>. If you use this method, be aware that the same rule about adding identical feature property values in Feature Properties also applies to properties added directly to the feature file.
 
 ## Feature receiver
  Feature receivers are code that executes when certain events occur to a project item's containing feature. For example, you can define feature receivers that execute when the feature is installed, activated, or upgraded. One way to add a feature receiver is to add it directly to a feature as described in [Walkthrough: Add feature event receivers](../sharepoint/walkthrough-add-feature-event-receivers.md). Another way is to reference a feature receiver class name and assembly in the **Feature Receiver** property.
@@ -68,7 +68,7 @@ ms.workload:
 
  At solution build time, the feature receiver property values in the feature and its projects merge together to set the ReceiverAssembly and ReceiverClass attributes of the Feature element in the feature manifest of the SharePoint solution (*.wsp*) file. Therefore, if the Assembly and Class Name property values of a project item and a feature are both specified, the project item and feature property values must match. If the values do not match, you will receive a validation error. If you want a project item to reference a feature receiver assembly other than the one its feature uses, move it to another feature.
 
- If you reference a feature receiver assembly that is not already on the server, you must also include the assembly file itself in the package; [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] does not add it for you. When you deploy the feature, the assembly file is copied to either the system's [!INCLUDE[TLA#tla_gac](../sharepoint/includes/tlasharptla-gac-md.md)] or the Bin folder in the SharePoint physical directory. For more information, see how to: [How to: Add and remove additional assemblies](../sharepoint/how-to-add-and-remove-additional-assemblies.md).
+ If you reference a feature receiver assembly that is not already on the server, you must also include the assembly file itself in the package; Visual Studio does not add it for you. When you deploy the feature, the assembly file is copied to either the system's global assembly cache (GAC) or the Bin folder in the SharePoint physical directory. For more information, see how to: [How to: Add and remove additional assemblies](../sharepoint/how-to-add-and-remove-additional-assemblies.md).
 
  For more information about feature receivers, see [Feature Event Receiver](/previous-versions/office/developer/sharepoint-2007/bb862634(v=office.12)) and [Feature Events](/previous-versions/office/developer/sharepoint-2010/ms469501(v=office.14)).
 
@@ -82,7 +82,7 @@ ms.workload:
 ## Safe control entries
  SharePoint provides a security mechanism, called safe control entries, to limit the access of untrusted users to certain controls. By design, SharePoint allows untrusted users to upload and create ASPX pages on the SharePoint server. To prevent these   users from adding unsafe code to ASPX pages, SharePoint limits their access to *safe controls*. Safe controls are ASPX controls and Web parts designated as secure and that can be used by any user on your site. For more information, see [Step 4: Add your Web Part to the Safe Controls List](/previous-versions/office/developer/sharepoint-2007/ms581321(v=office.12)).
 
- Every SharePoint project item in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] has a property called **Safe Control Entries** that has two Boolean subproperties: **Safe** and **Safe Against Script**. The Safe property specifies whether untrusted users can access a control. The Safe Against Script property specifies whether untrusted users can view and change a control's properties.
+ Every SharePoint project item in Visual Studio has a property called **Safe Control Entries** that has two Boolean subproperties: **Safe** and **Safe Against Script**. The Safe property specifies whether untrusted users can access a control. The Safe Against Script property specifies whether untrusted users can view and change a control's properties.
 
  Safe control entries are referenced on an assembly basis. You add safe control entries to a project's assembly by entering them in the project item's **Safe Control Entries** property. However, you can also add safe control entries to a project's assembly through the **Advanced** tab in the **Package Designer** when you add an additional assembly to the package. For more information, see [How to: Mark controls as safe controls](../sharepoint/how-to-mark-controls-as-safe-controls.md) or [Registering a Web Part Assembly as a Safe Control](/previous-versions/office/developer/sharepoint2003/dd587360(v=office.11)).
 

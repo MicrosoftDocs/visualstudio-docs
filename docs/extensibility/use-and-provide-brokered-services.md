@@ -25,7 +25,7 @@ and is exposed as an RPC-compatible interface to enable the service and its clie
 
 VS Packages can offer services of their own by using the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.IBrokeredServiceContainer> interface.
 
-[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] offers important brokered services, such as the following:
+Visual Studio offers important brokered services, such as the following:
 
 |Brokered service|Description|
 |-----------------|-----------------|
@@ -35,7 +35,7 @@ VS Packages can offer services of their own by using the <xref:Microsoft.VisualS
 
 ## In this section
 - [Brokered Service Essentials](internals/brokered-service-essentials.md)
- Presents the important elements of a Visual Studio brokered service and how they differ from other [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] services.
+ Presents the important elements of a Visual Studio brokered service and how they differ from other Visual Studio services.
 
 - [Discovering Available Brokered Services](internals/discover-available-brokered-services.md)
  Describes how to discover the available set of brokered services.

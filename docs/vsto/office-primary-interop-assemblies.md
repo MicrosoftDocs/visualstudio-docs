@@ -91,7 +91,7 @@ If you've installed and registered the PIAs in the global assembly cache, these 
 
 ## Primary interop assemblies for Microsoft Office applications
 
-The following table lists the primary interop assemblies that are available for [!INCLUDE[Office_16_short](../vsto/includes/office-16-short-md.md)], [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] and [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)].
+The following table lists the primary interop assemblies that are available for  Office 2016 ,  Office 2013  and Office 2010.
 
 <br/>
 
@@ -111,7 +111,7 @@ The following table lists the primary interop assemblies that are available for 
 |Microsoft Publisher 14.0 Object Library<br /><br /> Microsoft Publisher 15.0 Object Library|Microsoft.Office.Interop.Publisher.dll|
 |Microsoft SharePoint Designer 14.0 Web Object Reference Library|Microsoft.Office.Interop.SharePointDesigner.dll|
 |Microsoft SharePoint Designer 14.0 Page Object Reference Library|Microsoft.Office.Interop.SharePointDesignerPage.dll|
-|Microsoft Smart Tags 2.0 Type Library **Note:**  Smart tags are deprecated in [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)] and [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)].|Microsoft.Office.Interop.SmartTag.dll|
+|Microsoft Smart Tags 2.0 Type Library **Note:**  Smart tags are deprecated in  Excel 2010  and  Word 2010 .|Microsoft.Office.Interop.SmartTag.dll|
 |Microsoft Visio 14.0 Type Library<br /><br /> Microsoft Visio 15.0 Type Library|Microsoft.Office.Interop.Visio.dll|
 |Microsoft Visio 14.0 Save As Web Type Library<br /><br /> Microsoft Visio 15.0 Save As Web Type Library|Microsoft.Office.Interop.Visio.SaveAsWeb.dll|
 |Microsoft Visio 14.0 Drawing Control Type Library<br /><br /> Microsoft Visio 15.0 Drawing Control Type Library|Microsoft.Office.Interop.VisOcx.dll|
@@ -122,7 +122,7 @@ The following table lists the primary interop assemblies that are available for 
 
 When you install and register the Office PIAs in the global assembly cache (either with Office or by installing the redistributable package for the PIAs), the binding redirect assemblies are also installed only in the global assembly cache. These assemblies ensure that the correct version of the primary interop assemblies is loaded at run time.
 
-For example, when a solution that references a [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)] assembly runs on a computer that has the [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] version of the same primary interop assembly, the binding redirect assembly instructs the [!INCLUDE[dnprdnshort](../sharepoint/includes/dnprdnshort-md.md)] runtime to load the [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] version of the primary interop assembly.
+For example, when a solution that references a Office 2010 assembly runs on a computer that has the  Office 2013  version of the same primary interop assembly, the binding redirect assembly instructs the .NET Framework runtime to load the  Office 2013  version of the primary interop assembly.
 
 For more information, see [How to: Enable and disable automatic binding redirection](/dotnet/framework/configure-apps/how-to-enable-and-disable-automatic-binding-redirection).
 

@@ -50,7 +50,7 @@ You can also define menu commands and other tools that help users edit the DSL, 
 
 Typically, a domain-specific language is created when a development team has to write similar code for several products. For example, a company that specializes in baggage handling systems might define a baggage track DSL from which they can generate some of the code for each installation. The benefits of the DSL are that it can be understood by their customers, that the code generated from it is reliable, and that the system can be rapidly updated if the customers' requirements change.
 
-[!INCLUDE[dsl](../modeling/includes/dsl_md.md)] lets you create a domain-specific language that has your own graphical designer and your own diagram notation, and then use the language to generate appropriate source code for each project.
+Domain-Specific Language Tools lets you create a domain-specific language that has your own graphical designer and your own diagram notation, and then use the language to generate appropriate source code for each project.
 
 ## Domain-Specific Development
 
@@ -72,23 +72,23 @@ A graphical domain-specific language must include the following features:
 
 ### Notation
 
-A domain-specific language must have a reasonably small set of elements that can be easily defined and extended to represent domain-specific constructs. A notation consists of shapes, which represent the elements, and connectors, which represent the relationships between elements, on a graphical diagram surface. In [!INCLUDE[dsl](../modeling/includes/dsl_md.md)], the shapes can be extended and refined to represent the elements of your domain-specific language.
+A domain-specific language must have a reasonably small set of elements that can be easily defined and extended to represent domain-specific constructs. A notation consists of shapes, which represent the elements, and connectors, which represent the relationships between elements, on a graphical diagram surface. In Domain-Specific Language Tools, the shapes can be extended and refined to represent the elements of your domain-specific language.
 
 ### Domain Model
 
-A domain-specific language must combine the set of elements and the relationships between them into a coherent grammar. It must also define whether combinations of elements and relationships are valid. For example, programming languages typically prevent circular inheritance, in which one class is derived from a second class and the second class is derived from the first class. Constraints can also be used to express business logic, for example, one person cannot be a dependent of himself. [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] uses constraints to express the kinds of restrictions that most domain-specific languages require.
+A domain-specific language must combine the set of elements and the relationships between them into a coherent grammar. It must also define whether combinations of elements and relationships are valid. For example, programming languages typically prevent circular inheritance, in which one class is derived from a second class and the second class is derived from the first class. Constraints can also be used to express business logic, for example, one person cannot be a dependent of himself. Domain-Specific Language Tools uses constraints to express the kinds of restrictions that most domain-specific languages require.
 
 ### Artifact Generation
 
-One of the main purposes of a domain-specific language is to generate an artifact, for example, source code, an XML file, or some other usable data. Typically, a change in the model means a change in the artifact. You can use [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] to generate artifacts and to regenerate them when you change the model.
+One of the main purposes of a domain-specific language is to generate an artifact, for example, source code, an XML file, or some other usable data. Typically, a change in the model means a change in the artifact. You can use Domain-Specific Language Tools to generate artifacts and to regenerate them when you change the model.
 
 ### Serialization
 
-A domain-specific language must be persisted in some form that can be edited, saved, closed, and reloaded. [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] uses an XML format that lets you define and customize how your domain-specific language is serialized or persisted.
+A domain-specific language must be persisted in some form that can be edited, saved, closed, and reloaded. Domain-Specific Language Tools uses an XML format that lets you define and customize how your domain-specific language is serialized or persisted.
 
 ### Integration with Visual Studio
 
-Because [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] is hosted in Visual Studio, it extends many Visual Studio windows and controls. It also lets you customize the behavior of menu commands, toolbox items, and other elements of the user interface.
+Because Domain-Specific Language Tools is hosted in Visual Studio, it extends many Visual Studio windows and controls. It also lets you customize the behavior of menu commands, toolbox items, and other elements of the user interface.
 
 You can also create a Model Bus Adapter for your domain-specific language. This adapter lets you reference a model and elements within a model, and lets you write code that can access and update an instance of the DSL. By using the powerful Model Bus mechanism, you can write Visual Studio extensions that work with multiple models. You can also write stand-alone applications that work with models. For more information, see [Integrating Models by using Visual Studio Modelbus](../modeling/integrating-models-by-using-visual-studio-modelbus.md).
 

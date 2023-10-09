@@ -18,7 +18,7 @@ ms.workload:
 # Ribbon object model overview
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-  The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] exposes a strongly typed object model that you can use to get and set the properties of Ribbon controls at run time. For example, you can dynamically populate menu controls, or show and hide controls contextually. You can also add tabs, groups, and controls to a ribbon, but only before the ribbon is loaded by the Office application. For information, see [Set properties that become read-only](#SettingReadOnlyProperties).
+  The  Visual Studio Tools for Office runtime  exposes a strongly typed object model that you can use to get and set the properties of Ribbon controls at run time. For example, you can dynamically populate menu controls, or show and hide controls contextually. You can also add tabs, groups, and controls to a ribbon, but only before the ribbon is loaded by the Office application. For information, see [Set properties that become read-only](#SettingReadOnlyProperties).
 
  [!INCLUDE[appliesto_ribbon](../vsto/includes/appliesto-ribbon-md.md)]
 
@@ -116,7 +116,7 @@ ms.workload:
 
  In Visual C# projects that you upgraded from Visual Studio 2008, the constructor appears in the Ribbon code file.
 
- In Visual Basic projects, or in Visual C# projects that you created in [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)], the constructor appears in the Ribbon Designer code file. This file is named *YourRibbonItem*.Designer.cs or *YourRibbonItem*.Designer.vb. To see this file in Visual Basic projects, you must first click the **Show All Files** button in Solution Explorer.
+ In Visual Basic projects, or in Visual C# projects that you created in Visual Studio 2013, the constructor appears in the Ribbon Designer code file. This file is named *YourRibbonItem*.Designer.cs or *YourRibbonItem*.Designer.vb. To see this file in Visual Basic projects, you must first click the **Show All Files** button in Solution Explorer.
 
 ### Set properties in the CreateRibbonExtensibilityObject method
  You can set the properties of a `Ribbon` control when you override the `CreateRibbonExtensibilityObject` method in the `ThisAddin`, `ThisWorkbook`, or `ThisDocument` class of your project. For more information about the `CreateRibbonExtensibilityObject` method, see [Ribbon Overview](../vsto/ribbon-overview.md).
@@ -188,7 +188,7 @@ ms.workload:
 |Parameter|Description|
 |---------------|-----------------|
 |*sender*|An <xref:System.Object> that represents the control that raised the event.|
-|*e*|A <xref:Microsoft.Office.Tools.Ribbon.RibbonControlEventArgs> that contains a <xref:Microsoft.Office.Core.IRibbonControl>. Use this control to access any property that is not available in the Ribbon object model provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].|
+|*e*|A <xref:Microsoft.Office.Tools.Ribbon.RibbonControlEventArgs> that contains a <xref:Microsoft.Office.Core.IRibbonControl>. Use this control to access any property that is not available in the Ribbon object model provided by the  Visual Studio Tools for Office runtime .|
 
 ## See also
 - [Access the ribbon at run time](../vsto/accessing-the-ribbon-at-run-time.md)

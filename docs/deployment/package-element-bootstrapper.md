@@ -144,7 +144,7 @@ The `Package` element is the top-level XML element inside of a package file.
 | Attribute | Description |
 |--------------------| - |
 | `Culture` | Required. Defines the culture for this package, which determines the language to be used. This attribute is a key into the `Strings` element, which lists culture-specific strings for product names and error messages during the installation. |
-| `Name` | Required. The name of the package displayed to the developer within a tool such as [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. This attribute is a key into the `Strings` element, which should contain a `String` element with the `Name` and `Culture` properties set to match the `Name` and `Culture` properties of `Package`. |
+| `Name` | Required. The name of the package displayed to the developer within a tool such as Visual Studio. This attribute is a key into the `Strings` element, which should contain a `String` element with the `Name` and `Culture` properties set to match the `Name` and `Culture` properties of `Package`. |
 | `LicenseAgreement` | Optional. Specifies the name of the file in the distribution package which contains the End-User License Agreement (EULA).  This file can be either plain text (*.txt*) or Rich Text Format. (*.rtf*) |
 
 ## Example

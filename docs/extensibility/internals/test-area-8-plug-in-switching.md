@@ -17,10 +17,10 @@ ms.workload:
 # Test Area 8: Plug-in Switching
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) has the user interface (UI) to change the current source control plug-in. This test area provides test cases for the process of picking which plug-in to use for solution source control.
+The Visual Studio integrated development environment (IDE) has the user interface (UI) to change the current source control plug-in. This test area provides test cases for the process of picking which plug-in to use for solution source control.
 
 ## Command Menu Access
- The following [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment menu paths are used in the test cases.
+ The following Visual Studio integrated development environment menu paths are used in the test cases.
 
 - Current source control plug-in: **Tools** -> **Options** -> **Source Control** -> **Plug-in Selection**.
 
@@ -39,7 +39,7 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
 
 | Action | Test Steps | Expected Results to Verify |
 | - | - | - |
-| Automatic source control plug-in change | 1.  Select plug-in under test as current (**Tools** -> **Options** -> **Source Control** -> **Plug-in Selection**.)<br />2.  Create a new project.<br />3.  Add the solution to source control.<br />4.  Select another plug-in (for example, [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)]).<br />5.  Accept unloading solution prompt.<br />6.  Reopen the solution from disk. | Solution is opened.<br /><br /> Plug-in under test is the current source control plug-in. |
+| Automatic source control plug-in change | 1.  Select plug-in under test as current (**Tools** -> **Options** -> **Source Control** -> **Plug-in Selection**.)<br />2.  Create a new project.<br />3.  Add the solution to source control.<br />4.  Select another plug-in (for example, Visual SourceSafe).<br />5.  Accept unloading solution prompt.<br />6.  Reopen the solution from disk. | Solution is opened.<br /><br /> Plug-in under test is the current source control plug-in. |
 
 ### Case 8b: Solution-based Change
 
@@ -48,7 +48,7 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated deve
 
 | Action | Test Steps | Expected Results to Verify |
 |----------------------------------| - | - |
-| Change of plug-in for a solution | 1.  Select plug-in under test as current (**Tools** -> **Options** -> **Source Control** -> **Plug-in Selection**).<br />2.  Create a new project and solution.<br />3.  Add the solution to source control.<br />4.  Unbind the solution from source control (using the **Change Source Control** dialog box).<br />5.  Select another plug-in (for example, [!INCLUDE[vsvss](../../extensibility/includes/vsvss_md.md)]).<br />6.  Reload the solution from disk if unloaded.<br />7.  Add the solution to source control.<br />8.  Unbind the solution from source control (using **Change Source Control** dialog box).<br />9. Select plug-in under test again.<br />10. Reload solution from disk if unloaded.<br />11. Bind the solution to the original location (using the **Change Source Control** dialog box). | Solution is added to source control by using the selected plug-in. |
+| Change of plug-in for a solution | 1.  Select plug-in under test as current (**Tools** -> **Options** -> **Source Control** -> **Plug-in Selection**).<br />2.  Create a new project and solution.<br />3.  Add the solution to source control.<br />4.  Unbind the solution from source control (using the **Change Source Control** dialog box).<br />5.  Select another plug-in (for example, Visual SourceSafe).<br />6.  Reload the solution from disk if unloaded.<br />7.  Add the solution to source control.<br />8.  Unbind the solution from source control (using **Change Source Control** dialog box).<br />9. Select plug-in under test again.<br />10. Reload solution from disk if unloaded.<br />11. Bind the solution to the original location (using the **Change Source Control** dialog box). | Solution is added to source control by using the selected plug-in. |
 
 ## See also
 - [Test Guide for Source Control Plug-ins](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)

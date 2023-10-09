@@ -45,7 +45,7 @@ HRESULT get_checksumType ( 
 |1|`CALG_MD5`|checksum generated with the MD5 hashing algorithm.|
 |2|`CALG_SHA1`|checksum generated with the SHA1 hashing algorithm.|
 
- The `CryptoAPI` labels are from the `ALG_ID` enumeration. For more information on hashing algorithms, consult the `CryptoAPI` section of the Microsoft [!INCLUDE[winsdkshort](../../debugger/debug-interface-access/includes/winsdkshort_md.md)].
+ The `CryptoAPI` labels are from the `ALG_ID` enumeration. For more information on hashing algorithms, consult the `CryptoAPI` section of the Microsoft Windows SDK.
 
  To obtain the actual checksum bytes for the source file, call the [IDiaSourceFile::get_checksum](../../debugger/debug-interface-access/idiasourcefile-get-checksum.md) method.
 

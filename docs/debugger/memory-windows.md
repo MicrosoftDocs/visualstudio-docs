@@ -51,7 +51,7 @@ Like other debugger windows, the **Memory** windows are available only during a 
 
 1. Start debugging by selecting the green arrow, pressing **F5**, or selecting **Debug** > **Start Debugging**.
 
-2. Under **Debug** > **Windows** > **Memory**, select **Memory 1**, **Memory 2**, **Memory 3**, or **Memory 4**. (Some editions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] offer only one **Memory** window.)
+2. Under **Debug** > **Windows** > **Memory**, select **Memory 1**, **Memory 2**, **Memory 3**, or **Memory 4**. (Some editions of Visual Studio offer only one **Memory** window.)
 
 ## Move around in the Memory window
 

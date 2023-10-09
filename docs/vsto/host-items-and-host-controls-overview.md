@@ -47,7 +47,7 @@ ms.workload:
  [!INCLUDE[appliesto_controls](../vsto/includes/appliesto-controls-md.md)]
 
 ## Host items
- Host items are types that are at the top of object model hierarchies in Office projects. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] defines the following host items for Word and Excel solutions:
+ Host items are types that are at the top of object model hierarchies in Office projects. The  Visual Studio Tools for Office runtime  defines the following host items for Word and Excel solutions:
 
 - <xref:Microsoft.Office.Tools.Word.Document>
 
@@ -161,7 +161,7 @@ ms.workload:
 > Do not programmatically remove controls during the `Shutdown` event handler of the document or worksheet. The UI elements are no longer available when the `Shutdown` event occurs. If you want to remove controls before the application closes, add your code to another event handler such as `BeforeClose` or `BeforeSave`.
 
 ### Program against host control events
- One way that host controls extend Office objects is by adding events. For example, the <xref:Microsoft.Office.Interop.Excel.Range> object in Excel and <xref:Microsoft.Office.Interop.Word.Bookmark> object in Word do not have events, but the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] extends these objects by adding programmable events. You can access and code against these events the same way you access events of controls on Windows Forms: through the event drop-down list in Visual Basic and the event property page in C#. For more information, see [Walkthrough: Program against events of a NamedRange control](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md).
+ One way that host controls extend Office objects is by adding events. For example, the <xref:Microsoft.Office.Interop.Excel.Range> object in Excel and <xref:Microsoft.Office.Interop.Word.Bookmark> object in Word do not have events, but the  Visual Studio Tools for Office runtime  extends these objects by adding programmable events. You can access and code against these events the same way you access events of controls on Windows Forms: through the event drop-down list in Visual Basic and the event property page in C#. For more information, see [Walkthrough: Program against events of a NamedRange control](../vsto/walkthrough-programming-against-events-of-a-namedrange-control.md).
 
 > [!NOTE]
 > You should not set the <xref:Microsoft.Office.Interop.Excel._Application.EnableEvents%2A> property of the <xref:Microsoft.Office.Interop.Excel.Application> object in Excel to **false**. Setting this property to **false** prevents Excel from raising any events, including the events of host controls.

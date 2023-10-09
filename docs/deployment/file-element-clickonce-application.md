@@ -104,7 +104,7 @@ Identifies all nonassembly files downloaded and used by the application.
 |`flags`|Optional. The string representation of the type library flags for this type library. Specifically, it should be one of "RESTRICTED", "CONTROL", "HIDDEN" and "HASDISKIMAGE".|
 
 ## comClass
- The `comClass` element is an optional child of the `file` element, but is required if the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application contains a COM component it intends to deploy using registration-free COM. The element has the following attributes.
+ The `comClass` element is an optional child of the `file` element, but is required if the ClickOnce application contains a COM component it intends to deploy using registration-free COM. The element has the following attributes.
 
 |Attribute|Description|
 |---------------|-----------------|
@@ -120,7 +120,7 @@ Identifies all nonassembly files downloaded and used by the application.
 |`miscStatusThumbnail`|Optional. Duplicates in an assembly manifest the information provided by DVASPECT_THUMBNAIL. It can provide a thumbnail of an object displayable in a browsing tool. The value can be a comma-delimited list of the attribute values from the following table. You can use this attribute if the COM class is an OCX class that requires `MiscStatus` registry key values.|
 
 ## comInterfaceExternalProxyStub
- The `comInterfaceExternalProxyStub` element is an optional child of the `file` element, but may be required if the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application contains a COM component it intends to deploy using registration-free COM. The element contains the following attributes.
+ The `comInterfaceExternalProxyStub` element is an optional child of the `file` element, but may be required if the ClickOnce application contains a COM component it intends to deploy using registration-free COM. The element contains the following attributes.
 
 |Attribute|Description|
 |---------------|-----------------|
@@ -132,7 +132,7 @@ Identifies all nonassembly files downloaded and used by the application.
 |`proxyStubClass32`|Optional. Maps an IID to a CLSID in 32-bit proxy DLLs.|
 
 ## comInterfaceProxyStub
- The `comInterfaceProxyStub` element is an optional child of the `file` element, but may be required if the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application contains a COM component it intends to deploy using registration-free COM. The element contains the following attributes.
+ The `comInterfaceProxyStub` element is an optional child of the `file` element, but may be required if the ClickOnce application contains a COM component it intends to deploy using registration-free COM. The element contains the following attributes.
 
 |Attribute|Description|
 |---------------|-----------------|
@@ -145,7 +145,7 @@ Identifies all nonassembly files downloaded and used by the application.
 |`threadingModel`|Optional. Optional. The threading model used by in-process COM classes. If this property is null, no threading model is used. The component is created on the main thread of the client and calls from other threads are marshaled to this thread. The following list shows the valid values:<br /><br /> `Apartment`, `Free`, `Both`, and `Neutral`.|
 
 ## windowClass
- The `windowClass` element is an optional child of the `file` element, but may be required if the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application contains a COM component it intends to deploy using registration-free COM. The element refers to a window class defined by the COM component that must have a version applied to it. The element contains the following attributes.
+ The `windowClass` element is an optional child of the `file` element, but may be required if the ClickOnce application contains a COM component it intends to deploy using registration-free COM. The element refers to a window class defined by the COM component that must have a version applied to it. The element contains the following attributes.
 
 |Attribute|Description|
 |---------------|-----------------|
@@ -154,7 +154,7 @@ Identifies all nonassembly files downloaded and used by the application.
 ## hash
  The `hash` element is an optional child of the `file` element. The `hash` element has no attributes.
 
- [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] uses an algorithmic hash of all the files in an application as a security check, to ensure that none of the files were changed after deployment. If the `hash` element is not included, this check will not be performed. Therefore, omitting the `hash` element is not recommended.
+ ClickOnce uses an algorithmic hash of all the files in an application as a security check, to ensure that none of the files were changed after deployment. If the `hash` element is not included, this check will not be performed. Therefore, omitting the `hash` element is not recommended.
 
  If a manifest contains a file that is not hashed, that manifest cannot be digitally signed, because users cannot verify the contents of an unhashed file.
 
@@ -166,14 +166,14 @@ Identifies all nonassembly files downloaded and used by the application.
 
 | Attribute | Description |
 |-------------| - |
-| `Algorithm` | The algorithm used to calculate the digest for this file. Currently the only value used by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is `urn:schemas-microsoft-com:HashTransforms.Identity`. |
+| `Algorithm` | The algorithm used to calculate the digest for this file. Currently the only value used by ClickOnce is `urn:schemas-microsoft-com:HashTransforms.Identity`. |
 
 ## dsig:DigestMethod
  The `dsig:DigestMethod` element is a required child of the `hash` element. The `dsig:DigestMethod` element has the following attributes.
 
 | Attribute | Description |
 |-------------| - |
-| `Algorithm` | The algorithm used to calculate the digest for this file. Currently the only value used by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is `http://www.w3.org/2000/09/xmldsig#sha1`. |
+| `Algorithm` | The algorithm used to calculate the digest for this file. Currently the only value used by ClickOnce is `http://www.w3.org/2000/09/xmldsig#sha1`. |
 
 ## dsig:DigestValue
  The `dsig:DigestValue` element is a required child of the `hash` element. The `dsig:DigestValue` element has no attributes. Its text value is the computed hash for the specified file.
@@ -182,7 +182,7 @@ Identifies all nonassembly files downloaded and used by the application.
  This element identifies all the nonassembly files that make up the application and, in particular, the hash values for file verification. This element can also include Component Object Model (COM) isolation data associated with the file. If a file changes, the application manifest file also must be updated to reflect the change.
 
 ## Example
- The following code example illustrates `file` elements in an application manifest for an application deployed using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)].
+ The following code example illustrates `file` elements in an application manifest for an application deployed using ClickOnce.
 
 ```xml
 <file name="Icon.ico" size="9216">

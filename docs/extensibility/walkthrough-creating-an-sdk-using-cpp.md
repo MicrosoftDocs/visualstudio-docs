@@ -180,7 +180,7 @@ This walkthrough shows how to create a native C++ math library SDK, package the 
 
      The correct result appears.
 
-    This walkthrough showed how to create and use an Extension SDK to call into a [!INCLUDE[wrt](../extensibility/includes/wrt_md.md)] library and a non-[!INCLUDE[wrt](../extensibility/includes/wrt_md.md)] library.
+    This walkthrough showed how to create and use an Extension SDK to call into a Windows Runtime library and a non-Windows Runtime library.
 
 ## Next steps
 

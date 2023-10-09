@@ -20,7 +20,7 @@ ms.workload:
 # Registering Project and Item Templates
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-Project types must register the directories where their project and project-item templates are located. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] uses the registration information associated with your project types to determine what to show in the **Add New Project** and **Add New Item** dialog boxes.
+Project types must register the directories where their project and project-item templates are located. Visual Studio uses the registration information associated with your project types to determine what to show in the **Add New Project** and **Add New Item** dialog boxes.
 
  For more information about templates, see [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md).
 
@@ -57,15 +57,15 @@ Project types must register the directories where their project and project-item
 |--------------------------|-----------| - |
 | @ | REG_SZ | Resource ID for Add Item templates. |
 | TemplatesDir | REG_SZ | Path of the project items displayed in the dialog box for the **Add New Item** wizard. |
-| TemplatesLocalizedSubDir | REG_SZ | Resource ID of a string that names the subdirectory of TemplatesDir that holds localized templates. Because [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] loads the string resource from satellite DLLs if you have them, each satellite DLL can contain a different localized subdirectory name. |
+| TemplatesLocalizedSubDir | REG_SZ | Resource ID of a string that names the subdirectory of TemplatesDir that holds localized templates. Because Visual Studio loads the string resource from satellite DLLs if you have them, each satellite DLL can contain a different localized subdirectory name. |
 | SortPriority | REG_DWORD | Set SortPriority to govern the order in which templates are displayed in the **Add New Item** dialog box. Larger SortPriority values appear earlier in the template list. |
 
 ### Registering file filters
- Optionally, you can register filters that [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] uses when it prompts for file names. For example, the [!INCLUDE[csprcs](../../data-tools/includes/csprcs_md.md)] filter for the **Open File** dialog box is:
+ Optionally, you can register filters that Visual Studio uses when it prompts for file names. For example, the Visual C# filter for the **Open File** dialog box is:
 
  **Visual C# Files (\*.cs,\*.resx,\*.settings,\*.xsd,\*.wsdl);\*.cs,\*.resx,\*.settings,\*.xsd,\*.wsdl)**
 
- To support registration of multiple filters, each filter is registered in its own subkey under HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\\<*Version*>\Projects\\{\<*ProjectGUID*>}\Filters\\<*Subkey*>. The subkey name is arbitrary; [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] ignores the subkey's name and uses just its values.
+ To support registration of multiple filters, each filter is registered in its own subkey under HKEY_LOCAL_MACHINE\Software\Microsoft\VisualStudio\\<*Version*>\Projects\\{\<*ProjectGUID*>}\Filters\\<*Subkey*>. The subkey name is arbitrary; Visual Studio ignores the subkey's name and uses just its values.
 
  You can control the contexts in which a filter is used by setting flags, shown in the following table. If a filter does not have any flags set, it will be listed after the common filters in the **Add Existing Item** dialog box and the **Open File** dialog box, but it will not be used in the **Find in Files** dialog box.
 

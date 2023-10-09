@@ -69,7 +69,7 @@ ms.workload:
 ## Document-level customization example
 
 ### Description
- The following code example illustrates the **addin** element in a document-level Office solution that is deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
+ The following code example illustrates the **addin** element in a document-level Office solution that is deployed by using ClickOnce. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
 
 ### Code
 
@@ -133,7 +133,7 @@ ms.workload:
 ## VSTO Add-in example
 
 ### Description
- The following code example illustrates the **addin** element in an application-level Office solution that is deployed by using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
+ The following code example illustrates the **addin** element in an application-level Office solution that is deployed by using ClickOnce. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
 
 ### Code
 

@@ -23,7 +23,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-To debug a running [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] app, the Visual Studio debugger must attach to the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] process by name.
+To debug a running ASP.NET app, the Visual Studio debugger must attach to the ASP.NET process by name.
 
 **To find out which process is running an ASP.NET app:**
 
@@ -38,7 +38,7 @@ To debug a running [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)]
     - *inetinfo.exe* is older ASP applications running in-process.
 
 >[!NOTE]
->Visual Studio 2012 and earlier [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] code can be on the file system and run on the test server *WebDev.WebServer.exe* or *WebDev.WebServer40.exe*. In this case, for local debugging, attach to *WebDev.WebServer.exe* or *WebDev.WebServer40.exe* instead of the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] process.
+>Visual Studio 2012 and earlier ASP.NET code can be on the file system and run on the test server *WebDev.WebServer.exe* or *WebDev.WebServer40.exe*. In this case, for local debugging, attach to *WebDev.WebServer.exe* or *WebDev.WebServer40.exe* instead of the ASP.NET process.
 
 **See also:**
 

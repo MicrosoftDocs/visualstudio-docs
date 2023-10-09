@@ -50,7 +50,7 @@ Prior knowledge of the following concepts is also helpful, but not required to c
 
 - [WCF Data Services](/dotnet/framework/data/wcf/wcf-data-services-overview).
 
-- Data models in [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)].
+- Data models in WCF Data Services.
 
 - Entity Data Models and the ADO.NET Entity Framework. For more information, see [Entity Framework overview](/dotnet/framework/data/adonet/ef/overview).
 
@@ -163,7 +163,7 @@ Add several buttons to the window by modifying the XAML in the WPF designer. Lat
 
    The window opens in the WPF designer.
 
-2. In the [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] view of the designer, add the following code between the `<Grid>` tags:
+2. In the XAML view of the designer, add the following code between the `<Grid>` tags:
 
    ```xaml
    <Grid.RowDefinitions>

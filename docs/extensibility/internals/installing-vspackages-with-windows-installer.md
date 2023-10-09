@@ -17,9 +17,9 @@ ms.workload:
 # Installing VSPackages With Windows Installer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-Integrating your VSPackage into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] requires more than just copying files to a user's computer. Your VSPackage's installer must install the VSPackage and its dependent files, and register and integrate them into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. Your VSPackage can take advantage of integration features such as displaying an icon on the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] splash screen and About dialog box.
+Integrating your VSPackage into Visual Studio requires more than just copying files to a user's computer. Your VSPackage's installer must install the VSPackage and its dependent files, and register and integrate them into Visual Studio. Your VSPackage can take advantage of integration features such as displaying an icon on the Visual Studio splash screen and About dialog box.
 
- Microsoft Windows Installer files are the recommended way to distribute your VSPackages. Easy-to-use Windows Installer packages can run on any Windows operating system supported by [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. For more information, see [Windows Installer](/previous-versions/2kt85ked(v=vs.120)).
+ Microsoft Windows Installer files are the recommended way to distribute your VSPackages. Easy-to-use Windows Installer packages can run on any Windows operating system supported by Visual Studio. For more information, see [Windows Installer](/previous-versions/2kt85ked(v=vs.120)).
 
 ## In This Section
 - [Windows Installer Basics](../../extensibility/internals/windows-installer-basics.md)
@@ -28,15 +28,15 @@ Integrating your VSPackage into [!INCLUDE[vsprvs](../../code-quality/includes/vs
 
 - [VSPackage Setup Scenarios](../../extensibility/internals/vspackage-setup-scenarios.md)
 
- Discusses different ways you can support side-by-side installations of both your VSPackages and [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+ Discusses different ways you can support side-by-side installations of both your VSPackages and Visual Studio.
 
 - [Authoring a Windows Installer Package](../../extensibility/internals/authoring-a-windows-installer-package.md)
 
- Provides an overview of the typical steps installers follow to correctly install and integrate VSPackages into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+ Provides an overview of the typical steps installers follow to correctly install and integrate VSPackages into Visual Studio.
 
 - [Detecting System Requirements](../../extensibility/internals/detecting-system-requirements.md)
 
- Describes how an installer can detect [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and its components and cancel setup if VSPackage requirements are not met.
+ Describes how an installer can detect Visual Studio and its components and cancel setup if VSPackage requirements are not met.
 
 - [Component Management](../../extensibility/internals/component-management.md)
 
@@ -60,7 +60,7 @@ Integrating your VSPackage into [!INCLUDE[vsprvs](../../code-quality/includes/vs
 
 - [Commands That Must Be Run After Installation](../../extensibility/internals/commands-that-must-be-run-after-installation.md)
 
- Explains how to run post-installation commands to integrate VSPackages into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+ Explains how to run post-installation commands to integrate VSPackages into Visual Studio.
 
 - [Uninstalling a VSPackage With Windows Installer](../../extensibility/internals/uninstalling-a-vspackage-with-windows-installer.md)
 

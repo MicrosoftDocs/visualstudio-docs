@@ -20,7 +20,7 @@ ms.workload:
 
 You can search for text and run Visual Studio commands from the **Find/Command** box. The **Find/Command** box is still available as a toolbar control, but is no longer visible by default. You can display the **Find/Command** box by choosing **Add or Remove Buttons** on the **Standard** toolbar and then choosing **Find**.
 
-To run a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command, preface it with a greater than (**>**) sign.
+To run a Visual Studio command, preface it with a greater than (**>**) sign.
 
 The **Find/Command** box retains the last 20 items entered and displays them in a drop-down list. You can navigate through the list by choosing the **arrow keys**.
 
@@ -32,7 +32,7 @@ By default, when you specify text in the **Find/Command** box and then choose th
 
 ## Entering commands
 
-To use the **Find/Command** box to issue a single [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] command or alias rather than search for text, preface the command with a greater than (**>**) symbol. For example:
+To use the **Find/Command** box to issue a single Visual Studio command or alias rather than search for text, preface the command with a greater than (**>**) symbol. For example:
 
 ```
 >File.NewFile c:\temp\MyFile /t:"General\Text File"

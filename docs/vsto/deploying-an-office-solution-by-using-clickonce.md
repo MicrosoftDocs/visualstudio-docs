@@ -76,7 +76,7 @@ ms.workload:
 
 8. In the **Choose which prerequisites to install** list, select the check boxes for **Windows Installer 4.5** and the appropriate .NET Framework package.
 
-    For example, if your solution targets the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], select the check boxes for **Windows Installer 4.5** and **Microsoft .NET Framework 4.5 Full**.
+    For example, if your solution targets the .NET Framework 4.5, select the check boxes for **Windows Installer 4.5** and **Microsoft .NET Framework 4.5 Full**.
 
 9. If your solution targets the .NET Framework 4.5, also select the **Visual Studio 2010 Tools for Office Runtime** check box.
 

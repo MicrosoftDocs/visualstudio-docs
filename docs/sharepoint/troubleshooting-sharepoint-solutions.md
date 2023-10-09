@@ -26,7 +26,7 @@ ms.workload:
 # Troubleshoot SharePoint solutions
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-  The following problems or alerts might occur when you debug SharePoint solutions by using the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger. For more information, see [Debugging SharePoint 2007 Workflow Solutions](/previous-versions/bb386166(v=vs.100)).
+  The following problems or alerts might occur when you debug SharePoint solutions by using the Visual Studio debugger. For more information, see [Debugging SharePoint 2007 Workflow Solutions](/previous-versions/bb386166(v=vs.100)).
 
 ## Token restrictions in sandboxed visual web parts
 
@@ -74,7 +74,7 @@ ms.workload:
 
 ## Errors when creating custom fields
 
- In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], custom fields are defined in XML. Errors can occur if a field isn't defined or referenced by using a specific format.
+ In Visual Studio, custom fields are defined in XML. Errors can occur if a field isn't defined or referenced by using a specific format.
 
 ### Error message
 
@@ -106,7 +106,7 @@ ms.workload:
 
 ## New non-English site definitions do not appear in site creation page after deployment
 
- After you create and deploy a site definition by using a non-English version of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] (that is, a version with a locale [!INCLUDE[TLA2#tla_id](../sharepoint/includes/tla2sharptla-id-md.md)] other than 1033), the **SharePoint Customizations** tab doesn't appear in the **Template Selection** box and the new site template doesn't appear in the **New SharePoint Site** page.
+ After you create and deploy a site definition by using a non-English version of Visual Studio (that is, a version with a locale  ID  other than 1033), the **SharePoint Customizations** tab doesn't appear in the **Template Selection** box and the new site template doesn't appear in the **New SharePoint Site** page.
 
 ### Error message
 
@@ -114,11 +114,11 @@ ms.workload:
 
 ### Resolution
 
- This problem occurs because of an incorrect value in the **Path** property for the webtemp site definition configuration file, such as *webtemp_SiteDefinitionProject1.xml*. In the **Path** property for the webtemp file, located under the **Deployment Location**, change 1033 to the appropriate locale [!INCLUDE[TLA2#tla_id](../sharepoint/includes/tla2sharptla-id-md.md)]. For example, to use a Japanese locale change the value to 1041. For more information, see [Locale IDs Assigned by Microsoft](/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c).
+ This problem occurs because of an incorrect value in the **Path** property for the webtemp site definition configuration file, such as *webtemp_SiteDefinitionProject1.xml*. In the **Path** property for the webtemp file, located under the **Deployment Location**, change 1033 to the appropriate locale  ID . For example, to use a Japanese locale change the value to 1041. For more information, see [Locale IDs Assigned by Microsoft](/openspecs/windows_protocols/ms-lcid/a9eac961-e77d-41a6-90a5-ce1a8b0cdb9c).
 
 ## Error appears when a workflow project is deployed on a clean system
 
- This problem occurs if you deploy a workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] on a clean system. A clean system is a computer that has a fresh installation of [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] and SharePoint but no deployed workflow projects.
+ This problem occurs if you deploy a workflow project in Visual Studio on a clean system. A clean system is a computer that has a fresh installation of Visual Studio and SharePoint but no deployed workflow projects.
 
 ### Error message
 
@@ -136,11 +136,11 @@ ms.workload:
 
 ## User must refresh application page in browser while debugging to view updated image
 
- If you are debugging a SharePoint solution that contains an application page with a control that displays an image, such as an [!INCLUDE[TLA2#tla_html](../sharepoint/includes/tla2sharptla-html-md.md)] Image control, you must refresh the page in the browser to display any changes that were made to the image.
+ If you are debugging a SharePoint solution that contains an application page with a control that displays an image, such as an HTML Image control, you must refresh the page in the browser to display any changes that were made to the image.
 
 ## Error: The site location is not valid
 
- This problem can occur if [!INCLUDE[moss_14_short](../sharepoint/includes/moss-14-short-md.md)] is not installed. It might also occur if you do not have administrator access to the SharePoint Web site that is specified in the **SharePoint Customization Wizard**.
+ This problem can occur if  SharePoint Server is not installed. It might also occur if you do not have administrator access to the SharePoint Web site that is specified in the **SharePoint Customization Wizard**.
 
 ### Error message
 
@@ -148,9 +148,9 @@ ms.workload:
 
 ### Resolution
 
-- Install [!INCLUDE[moss_14_short](../sharepoint/includes/moss-14-short-md.md)].
+- Install  SharePoint Server.
 
-- Ensure that you have administrator access to the SharePoint Web site. For more information, see the [!INCLUDE[TLA2#tla_office](../sharepoint/includes/tla2sharptla-office-md.md)] Online article [Assign or remove administrators of service applications in SharePoint Server](/sharepoint/administration/assign-or-remove-administrators-of-service-applications).
+- Ensure that you have administrator access to the SharePoint Web site. For more information, see the  Office  Online article [Assign or remove administrators of service applications in SharePoint Server](/sharepoint/administration/assign-or-remove-administrators-of-service-applications).
 
 ## Site deletion web event does not occur in event receiver project
 
@@ -247,13 +247,13 @@ ms.workload:
 
 ### Resolution
 
- This error is the result of field ID collisions that occur because the Import Reusable Workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] does not change task form field IDs. If you deploy an imported workflow on the same server that contains the original workflow, field ID collisions occur.
+ This error is the result of field ID collisions that occur because the Import Reusable Workflow project in Visual Studio does not change task form field IDs. If you deploy an imported workflow on the same server that contains the original workflow, field ID collisions occur.
 
  To resolve this issue, use the Find and Replace feature to change the value of the Field ID attribute in all of the imported workflow files.
 
 ## Error appears when a renamed imported list instance is run
 
- This problem occurs if you rename an imported list instance and then run it in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+ This problem occurs if you rename an imported list instance and then run it in Visual Studio.
 
 ### Error message
 
@@ -261,13 +261,13 @@ ms.workload:
 
 ### Resolution
 
- When you import a list instance, an attribute named CustomSchema is added to the Elements.xml file of the list instance. Elements.xml includes the path of a custom schema.xml for the list instance. When you rename the list instance in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], the deployment path for the custom schema.xml changes, but the path value of the CustomSchema attribute is not updated. As a result, the list instance cannot find the *schema.xml* file in the old path that is specified by the CustomSchema attribute when the feature is activated.
+ When you import a list instance, an attribute named CustomSchema is added to the Elements.xml file of the list instance. Elements.xml includes the path of a custom schema.xml for the list instance. When you rename the list instance in Visual Studio, the deployment path for the custom schema.xml changes, but the path value of the CustomSchema attribute is not updated. As a result, the list instance cannot find the *schema.xml* file in the old path that is specified by the CustomSchema attribute when the feature is activated.
 
  To resolve this issue, update the path of the deployment location of the *schema.xml* file in the CustomSchema attribute.
 
 ## SharePoint debugging session terminated by IIS
 
- This problem occurs if you set a breakpoint in a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint solution, choose the **F5** key to run it, and then remain at a breakpoint longer than 90 seconds.
+ This problem occurs if you set a breakpoint in a Visual Studio SharePoint solution, choose the **F5** key to run it, and then remain at a breakpoint longer than 90 seconds.
 
 ### Error message
 
@@ -293,7 +293,7 @@ ms.workload:
 
  This problem occurs if you take the following steps.
 
-1. Create a list definition that has a list instance in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Create a list definition that has a list instance in Visual Studio.
 
 2. Choose the **F5** key to run the solution.
 
@@ -313,7 +313,7 @@ ms.workload:
 
 ## Original SharePoint solution is replaced by an exported version
 
- If you export a SharePoint solution, import the solution into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], and then deploy the solution back to the same site from which it was exported, the original SharePoint solution is replaced. This problem does not occur if you deploy the solution to a server that does not have the original solution activated on it.
+ If you export a SharePoint solution, import the solution into Visual Studio, and then deploy the solution back to the same site from which it was exported, the original SharePoint solution is replaced. This problem does not occur if you deploy the solution to a server that does not have the original solution activated on it.
 
 ### Error message
 
@@ -321,7 +321,7 @@ ms.workload:
 
 ### Resolution
 
- To avoid overwriting a solution on the site from which it was exported, change the GUIDs of the SolutionID and the Feature IDs of all the imported features in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] project.
+ To avoid overwriting a solution on the site from which it was exported, change the GUIDs of the SolutionID and the Feature IDs of all the imported features in the Visual Studio project.
 
 ## Error appears when debugging starts
 

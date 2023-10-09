@@ -21,7 +21,7 @@ ms.workload:
 # Manage documents on a server by using the ServerDocument class
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-  You can use the `ServerDocument` class in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] to manage several aspects of document-level customizations, even if Microsoft Office Word and Microsoft Office Excel are not installed. You can perform the following tasks:
+  You can use the `ServerDocument` class in the  Visual Studio Tools for Office runtime  to manage several aspects of document-level customizations, even if Microsoft Office Word and Microsoft Office Excel are not installed. You can perform the following tasks:
 
 - Access and modify data in the data cache of a document or workbook. For more information, see [Work with cached data in the document](#CachedData).
 
@@ -32,7 +32,7 @@ ms.workload:
 ## Understand the ServerDocument class
  The `ServerDocument` class is designed to be used on computers that do not have Office installed. Therefore, you typically use this class in applications that do not integrate with Office, such as Console projects or Windows Forms projects, rather than Office projects. Use the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class in the *Microsoft.VisualStudio.Tools.Applications.ServerDocument.dll* assembly.
 
- The `ServerDocument` class can be used to operate on document-level customizations that were created by using [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)].
+ The `ServerDocument` class can be used to operate on document-level customizations that were created by using Visual Studio 2013.
 
  For more information about the Visual Studio 2010 Tools for Office Runtime and the Office extensions for the .NET Framework, see [Visual Studio Tools for Office runtime overview](../vsto/visual-studio-tools-for-office-runtime-overview.md).
 

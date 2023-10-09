@@ -58,7 +58,7 @@ First, create an Outlook VSTO Add-in project.
 
 ### To create a new Outlook VSTO Add-in project
 
-1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create an Outlook VSTO Add-in project with the name **Ribbon_Update_At_Runtime**.
+1. In Visual Studio, create an Outlook VSTO Add-in project with the name **Ribbon_Update_At_Runtime**.
 
 2. In the **New Project** dialog box, select **Create directory for solution**.
 

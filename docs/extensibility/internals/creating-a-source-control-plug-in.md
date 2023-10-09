@@ -18,7 +18,7 @@ ms.workload:
 # Create a source control plug-in
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-The Visual Studio SDK provides resources that enable you to add source control capability to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE). It lets you use any plug-in DLL that complies with the Source Control Plug-in API outlined in this documentation.
+The Visual Studio SDK provides resources that enable you to add source control capability to the Visual Studio integrated development environment (IDE). It lets you use any plug-in DLL that complies with the Source Control Plug-in API outlined in this documentation.
 
 ## In this section
 - [Get started](../../extensibility/internals/getting-started-with-source-control-plug-ins.md)
@@ -27,7 +27,7 @@ The Visual Studio SDK provides resources that enable you to add source control c
 
 - [Architecture](../../extensibility/internals/source-control-plug-in-architecture.md)
 
- Uses an architecture diagram to explain the integration of a source control plug-in with the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE.
+ Uses an architecture diagram to explain the integration of a source control plug-in with the Visual Studio IDE.
 
 - [Test guide](../../extensibility/internals/test-guide-for-source-control-plug-ins.md)
 
@@ -36,7 +36,7 @@ The Visual Studio SDK provides resources that enable you to add source control c
 ## Related sections
 - [Create a source control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)
 
- Discusses how to create a source control VSPackage that not only supplies source control functionality but replaces [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] source control UI.
+ Discusses how to create a source control VSPackage that not only supplies source control functionality but replaces Visual Studio source control UI.
 
 - [Source control plug-ins](../../extensibility/source-control-plug-ins.md)
 
@@ -44,4 +44,4 @@ The Visual Studio SDK provides resources that enable you to add source control c
 
 - [Source control](../../extensibility/internals/source-control.md)
 
- Discusses the options for implementing source control as an integrated feature of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+ Discusses the options for implementing source control as an integrated feature of Visual Studio.

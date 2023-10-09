@@ -19,7 +19,7 @@ ms.workload:
 
 There are several ways to create an XML-based Visual Studio command table configuration (*.vsct*) file.
 
-- You can create a new VSPackage in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] package template.
+- You can create a new VSPackage in the Visual Studio package template.
 
 - You can use the XML-based command table configuration compiler, *Vsct.exe*, to generate a file from an existing *.ctc* file.
 
@@ -31,7 +31,7 @@ There are several ways to create an XML-based Visual Studio command table config
 
 ### To manually create a new .vsct file
 
-1. Start [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+1. Start Visual Studio.
 
 2. On the **File** menu, point to **New**, and then click **File**.
 
@@ -53,7 +53,7 @@ There are several ways to create an XML-based Visual Studio command table config
 
 ## How to: Create a .vsct File from an existing .ctc file
 
-You can create an XML-based *.vsct* file from an existing command table *.ctc* source file. By doing this, you can take advantage of the new XML-based [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] command table (VSCT) compiler format.
+You can create an XML-based *.vsct* file from an existing command table *.ctc* source file. By doing this, you can take advantage of the new XML-based Visual Studio command table (VSCT) compiler format.
 
 ### To create a .vsct file from a .ctc file
 
@@ -65,7 +65,7 @@ You can create an XML-based *.vsct* file from an existing command table *.ctc* s
 
 4. Place the files in the same directory.
 
-5. In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] command prompt window, navigate to the directory.
+5. In the Visual Studio command prompt window, navigate to the directory.
 
 6. Type
 
