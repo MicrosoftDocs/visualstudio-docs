@@ -83,7 +83,7 @@ Starting in Visual Studio 2015, you do not install the Visual Studio SDK from th
 
 4. In the `<Buttons>` section, find the `<Button>` node. Then, in the `<Strings>` node, change the `<ButtonText>` element to `Test Command`.
 
-    Notice that the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Package template has generated a `Button` element that has its parent set to `MyMenuGroup`. As a result, this command appears on your menu.
+    Notice that the Visual Studio Package template has generated a `Button` element that has its parent set to `MyMenuGroup`. As a result, this command appears on your menu.
 
 ## Build and test the extension
 

@@ -40,7 +40,7 @@ ms.workload:
 
 ### To protect a content control at design time
 
-1. In the document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, select the content control that you want to protect.
+1. In the document that is hosted in the Visual Studio designer, select the content control that you want to protect.
 
 2. In the **Properties** window, set one or both of the following properties:
 
@@ -84,7 +84,7 @@ ms.workload:
 
 ### To protect an area of a document at design time
 
-1. In the document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, select the area that you want to protect.
+1. In the document that is hosted in the Visual Studio designer, select the area that you want to protect.
 
 2. On the Ribbon, click the **Developer** tab.
 

@@ -48,7 +48,7 @@ ms.workload:
 
 ### To create a new Word VSTO Add-in project in Visual Studio
 
-1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start Visual Studio.
 
 2. On the **File** menu, point to **New**, and then click **Project**.
 
@@ -62,7 +62,7 @@ ms.workload:
 
 7. Click **OK**.
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstWordAddIn** project and opens the ThisAddIn code file in the editor.
+     Visual Studio creates the **FirstWordAddIn** project and opens the ThisAddIn code file in the editor.
 
 ## Write code to add text to the saved document
  Next, add code to the ThisAddIn code file. The new code uses the object model of Word to add boilerplate text to each saved document. By default, the ThisAddIn code file contains the following generated code:

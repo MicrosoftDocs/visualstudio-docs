@@ -22,7 +22,7 @@ ms.workload:
 # &lt;assemblyIdentity&gt; element (ClickOnce application)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-Identifies the application deployed in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.
+Identifies the application deployed in a ClickOnce deployment.
 
 ## Syntax
 
@@ -51,7 +51,7 @@ Identifies the application deployed in a [!INCLUDE[ndptecclick](../deployment/in
 ## Examples
 
 ### Description
- The following code example illustrates an `assemblyIdentity` element in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. This code example is part of a larger example provided in [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md).
+ The following code example illustrates an `assemblyIdentity` element in a ClickOnce application manifest. This code example is part of a larger example provided in [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md).
 
 ### Code
 

@@ -20,7 +20,7 @@ ms.workload:
 # Walkthrough: Import items from an existing SharePoint site
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-  This walkthrough demonstrates how to import items from an existing SharePoint site into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project.
+  This walkthrough demonstrates how to import items from an existing SharePoint site into a Visual Studio SharePoint project.
 
  This walkthrough demonstrates the following tasks:
 
@@ -28,14 +28,14 @@ ms.workload:
 
 - Exporting a SharePoint site to a .wsp file.
 
-- Importing the .wsp file into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint by using the .wsp Import project.
+- Importing the .wsp file into Visual Studio SharePoint by using the .wsp Import project.
 
   [!INCLUDE[note_settings_general](../sharepoint/includes/note-settings-general-md.md)]
 
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
-- Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
+- Supported editions of Microsoft Windows and SharePoint.
 
 - Visual Studio.
 
@@ -71,7 +71,7 @@ ms.workload:
 13. The **Test Column** column appears under the Custom Columns heading in the Site Column Gallery.
 
 ## Exporting the SharePoint site
- Next, obtain a SharePoint setup (.wsp) file that contains the SharePoint items and elements that you want to import into your [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint project. If you do not already have a .wsp file, then you must create one from an existing SharePoint site. For this example, you will export the default SharePoint site into a .wsp file.
+ Next, obtain a SharePoint setup (.wsp) file that contains the SharePoint items and elements that you want to import into your Visual Studio SharePoint project. If you do not already have a .wsp file, then you must create one from an existing SharePoint site. For this example, you will export the default SharePoint site into a .wsp file.
 
 > [!IMPORTANT]
 > If you receive a runtime error performing the following procedure, you have to perform the procedure on a system that has access to the SharePoint site.
@@ -86,7 +86,7 @@ ms.workload:
 
 4. For this example, leave the **Include Content** check box clear.
 
-     If you select this box, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] saves all lists and document libraries, and their contents, to the .wsp file. Although this is useful in some circumstances, it is not required for this example.
+     If you select this box, Visual Studio saves all lists and document libraries, and their contents, to the .wsp file. Although this is useful in some circumstances, it is not required for this example.
 
 5. When the operation completes successfully, choose the **solution gallery** link to view the .wsp file.
 
@@ -101,7 +101,7 @@ ms.workload:
 
 ### To import a .wsp file
 
-1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box. If your IDE is set to use Visual Basic development settings, on the menu bar, choose **File** > **New Project**.
+1. In Visual Studio, on the menu bar, choose **File** > **New** > **Project** to display the **New Project** dialog box. If your IDE is set to use Visual Basic development settings, on the menu bar, choose **File** > **New Project**.
 
 2. Expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.
 
@@ -109,7 +109,7 @@ ms.workload:
 
     The **SharePoint Customization Wizard** appears.
 
-4. On the **Specify the site and security level for debugging** page, enter the [!INCLUDE[TLA2#tla_url](../sharepoint/includes/tla2sharptla-url-md.md)] for the second SharePoint subsite that you created earlier. You will add the new custom Field item, http://<em>system name</em>/columntest2, to that subsite.
+4. On the **Specify the site and security level for debugging** page, enter the URL for the second SharePoint subsite that you created earlier. You will add the new custom Field item, http://<em>system name</em>/columntest2, to that subsite.
 
 5. In the **What is the trust level for this SharePoint solution?** section, leave the selection as **Deploy as a sandboxed solution**.
 
@@ -129,7 +129,7 @@ ms.workload:
 
 ### To deploy the project
 
-1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], choose the **F5** key to deploy and run the *.wsp* import project.
+1. In Visual Studio, choose the **F5** key to deploy and run the *.wsp* import project.
 
 2. On the SharePoint site, open the **Site Actions** menu, and then choose **Site Settings** to display the Site Settings page.
 

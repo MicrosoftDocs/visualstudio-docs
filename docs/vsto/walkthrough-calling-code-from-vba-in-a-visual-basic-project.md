@@ -92,7 +92,7 @@ ms.workload:
 
 ### To create a new project
 
-1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start Visual Studio.
 
 2. On the **File** menu, point to **New**, and then click **Project**. If your IDE is set to use Visual Basic development settings, on the **File** menu, click **New Project**.
 
@@ -112,7 +112,7 @@ ms.workload:
 
 9. Click **Finish**.
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the **DocumentWithVBA** document in the designer and adds the **CallingCodeFromVBA** project to **Solution Explorer**.
+     Visual Studio opens the **DocumentWithVBA** document in the designer and adds the **CallingCodeFromVBA** project to **Solution Explorer**.
 
 ## Trust the location of the document
  Before you can expose code in your solution to VBA code in the document, you must trust VBA in the document to run. There are several ways to do this. For this walkthrough, trust the location of the document in the **Trust Center** in Word.

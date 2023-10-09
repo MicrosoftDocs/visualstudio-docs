@@ -48,7 +48,7 @@ ms.workload:
 
 ### To create a new Excel VSTO Add-in project
 
-1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], create an Excel VSTO Add-in project with the name **ExcelDynamicControls**. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
+1. In Visual Studio, create an Excel VSTO Add-in project with the name **ExcelDynamicControls**. For more information, see [How to: Create Office Projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
 2. Add a reference to the **Microsoft.Office.Tools.Excel.v4.0.Utilities.dll** assembly. This reference is required to programmatically add a Windows Forms control to a worksheet later in this walkthrough.
 

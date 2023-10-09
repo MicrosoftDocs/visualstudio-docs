@@ -715,7 +715,7 @@ In this walkthrough, you create a custom host in an executable application that 
    ```
    ---
 
-4. For [!INCLUDE[vbprvb](../code-quality/includes/vbprvb_md.md)] only, open the **Project** menu, and click **CustomHost Properties**. In the **Startup object** list, click **CustomHost.Program**.
+4. For Visual Basic only, open the **Project** menu, and click **CustomHost Properties**. In the **Startup object** list, click **CustomHost.Program**.
 
 5. On the **File** menu, click **Save All**.
 

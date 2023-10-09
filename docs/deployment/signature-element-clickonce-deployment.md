@@ -37,7 +37,7 @@ Contains the necessary information to digitally sign this deployment manifest.
  If you want to sign your manifest, hashes must be provided for all files. A manifest with files that are not hashed cannot be signed, because users cannot verify the contents of unhashed files.
 
 ## Example
- The following code example illustrates a `Signature` element in a deployment manifest used in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.
+ The following code example illustrates a `Signature` element in a deployment manifest used in a ClickOnce deployment.
 
 ```xml
 <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">

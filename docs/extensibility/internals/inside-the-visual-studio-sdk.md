@@ -96,7 +96,7 @@ For more information, see [Projects](../../extensibility/internals/projects.md) 
  Templates contain the project structure and basic files that are required to build a particular kind of application, control, library, or class. When you want to develop software that resembles one of the templates, create a project that is based on the template and then modify the files in that project.
 
 > [!NOTE]
-> This template architecture is not supported for [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] projects.
+> This template architecture is not supported for Visual C++ projects.
 
  For more information, see [Adding Project and Project Item Templates](../../extensibility/internals/adding-project-and-project-item-templates.md).
 

@@ -21,7 +21,7 @@ dev_langs:
 # IDebugMethodField::GetThis
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-Gets the `this` (`Me` in [!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)]) pointer of the object containing the method.
+Gets the `this` (`Me` in Visual Basic) pointer of the object containing the method.
 
 ## Syntax
 
@@ -47,7 +47,7 @@ HRESULT GetThis( 
  If successful, returns S_OK; otherwise, returns an error code.
 
 ## Remarks
- In object-oriented languages, there is typically an implied pointer to the current instantiation of a class. This is known as `this` in C#/C++ and as `Me` in [!INCLUDE[vbprvb](../../../code-quality/includes/vbprvb_md.md)].
+ In object-oriented languages, there is typically an implied pointer to the current instantiation of a class. This is known as `this` in C#/C++ and as `Me` in Visual Basic.
 
 ## See also
 - [IDebugMethodField](../../../extensibility/debugger/reference/idebugmethodfield.md)

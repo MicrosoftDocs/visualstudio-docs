@@ -20,7 +20,7 @@ ms.workload:
 This test area covers test cases for retrieving items from the version store via the Get command. These test cases can be applied to both local and to Web projects.
 
 ## Command Menu Access
- The following [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment menu paths are used in the test cases.
+ The following Visual Studio integrated development environment menu paths are used in the test cases.
 
 ##### Get Latest Version:
 

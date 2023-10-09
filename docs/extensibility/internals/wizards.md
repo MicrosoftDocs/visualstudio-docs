@@ -16,15 +16,15 @@ ms.workload:
 # Wizards
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-After you create a wizard, you typically want to add it to the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment (IDE) so that others can use it. The added wizard then appears in the **Add New Project** or **Add New Item** dialog boxes. To see the **Add New Project** or **Add New Item** dialog boxes, right-click an open solution in **Solution Explorer**, point to **Add**, and then click **New Project** or **New Item**.
+After you create a wizard, you typically want to add it to the Visual Studio integrated development environment (IDE) so that others can use it. The added wizard then appears in the **Add New Project** or **Add New Item** dialog boxes. To see the **Add New Project** or **Add New Item** dialog boxes, right-click an open solution in **Solution Explorer**, point to **Add**, and then click **New Project** or **New Item**.
 
- Wizards can be implemented in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] to let users select from a tree view of available values when they open the **Add New Project** dialog box or the **Add New Item** dialog box, or when they right-click an item in **Solution Explorer**.
+ Wizards can be implemented in Visual Studio to let users select from a tree view of available values when they open the **Add New Project** dialog box or the **Add New Item** dialog box, or when they right-click an item in **Solution Explorer**.
 
  In your wizard, you can provide the option of localizing the name of a new project or item, and you can determine the icon that users will see when they select the wizard. You can also control the order in which new items appear relative to other available items; items do not have to be organized alphabetically.
 
  You can also supply a wizard that starts differently, based on custom parameters that are passed to the wizard when it is opened.
 
- The topics in this section discuss the files that you implement to cause the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] **Add New Project** and **Add New Item** dialog boxes to list your wizard among the available wizards and templates, and the requirements that your wizard must meet to operate correctly in the IDE.
+ The topics in this section discuss the files that you implement to cause the Visual Studio **Add New Project** and **Add New Item** dialog boxes to list your wizard among the available wizards and templates, and the requirements that your wizard must meet to operate correctly in the IDE.
 
 ## In This Section
 - [Template Directory Description (.Vsdir) Files](../../extensibility/internals/template-directory-description-dot-vsdir-files.md)
@@ -54,4 +54,4 @@ After you create a wizard, you typically want to add it to the [!INCLUDE[vsprvs]
 
 - [Extending Projects](../../extensibility/extending-projects.md)
 
- Describes how to use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] projects and solutions to organize code files and resource files, and how to implement source control.
+ Describes how to use Visual Studio projects and solutions to organize code files and resource files, and how to implement source control.

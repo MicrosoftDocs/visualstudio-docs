@@ -25,7 +25,7 @@ When Visual Studio loads a <xref:Microsoft.VisualStudio.Shell.Package>, it passe
 
 ## Getting a service from an initialized VSPackage
 
-1. Every Visual Studio extension starts with a VSIX deployment project, which will contain the extension assets. Create a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] VSIX project named `GetServiceExtension`. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".
+1. Every Visual Studio extension starts with a VSIX deployment project, which will contain the extension assets. Create a Visual Studio VSIX project named `GetServiceExtension`. You can find the VSIX project template in the **New Project** dialog by searching for "vsix".
 
 2. Now add a custom command item template named **GetServiceCommand**. In the **Add New Item** dialog, go to **Visual C#** > **Extensibility** and select **Custom Command**. In the **Name** field at the bottom of the window, change the command file name to *GetServiceCommand.cs*. For more information about how to create a custom command, [Create an extension with a menu command](../extensibility/creating-an-extension-with-a-menu-command.md)
 

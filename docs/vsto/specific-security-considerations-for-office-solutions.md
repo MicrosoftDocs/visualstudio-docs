@@ -85,7 +85,7 @@ ms.workload:
 ### Specify which Add-ins to trust when using Exchange
  When Outlook is used with Exchange, administrators can specify that certain VSTO Add-ins can run without encountering the object model guard. Outlook VSTO Add-ins created by using Office solutions in Visual Studio cannot be trusted individually; they can only be trusted as a group.
 
- Outlook trusts a VSTO Add-in based on a hash code of the entry point DLL of the VSTO Add-in. All Outlook VSTO Add-ins that target the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] use the same entry point DLL (*VSTOLoader.dll*). This means that if an administrator trusts any VSTO Add-in that targets the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] to run without encountering the object model guard, then all other VSTO Add-ins that target the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] are also trusted. For more information about trusting specific VSTO Add-ins to run without encountering the object model guard, see [Specify the method Outlook uses to manage virus prevention features](/previous-versions/office/office-2007-resource-kit/cc179194(v=office.12)).
+ Outlook trusts a VSTO Add-in based on a hash code of the entry point DLL of the VSTO Add-in. All Outlook VSTO Add-ins that target the  Visual Studio Tools for Office runtime  use the same entry point DLL (*VSTOLoader.dll*). This means that if an administrator trusts any VSTO Add-in that targets the  Visual Studio Tools for Office runtime  to run without encountering the object model guard, then all other VSTO Add-ins that target the  Visual Studio Tools for Office runtime  are also trusted. For more information about trusting specific VSTO Add-ins to run without encountering the object model guard, see [Specify the method Outlook uses to manage virus prevention features](/previous-versions/office/office-2007-resource-kit/cc179194(v=office.12)).
 
 ## Permission changes do not take effect immediately
  If the administrator adjusts permissions for a document or assembly, users must quit and then restart all Office applications for those changes to be enforced.
@@ -105,9 +105,9 @@ ms.workload:
 
 - Managed and unmanaged real-time data components.
 
-  The following procedures describe how users can use the **Trust Center** to restrict VSTO Add-ins from loading in Microsoft [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] and Microsoft Office 2010. These procedures do not affect VSTO Add-ins or customizations created by using Office development tools in Visual Studio.
+  The following procedures describe how users can use the **Trust Center** to restrict VSTO Add-ins from loading in Microsoft  Office 2013  and Microsoft Office 2010. These procedures do not affect VSTO Add-ins or customizations created by using Office development tools in Visual Studio.
 
-#### To disable VSTO Add-ins in Microsoft Office 2010 and Microsoft [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] applications
+#### To disable VSTO Add-ins in Microsoft Office 2010 and Microsoft  Office 2013  applications
 
 1. Choose the **File** tab.
 

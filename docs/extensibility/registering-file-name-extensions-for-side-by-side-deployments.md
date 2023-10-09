@@ -16,7 +16,7 @@ ms.workload:
 # Register file name extensions for side-by-side deployments
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-For VSPackages deployed in a side-by-side environment, you must register file name extensions to associate the files with the correct version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Unless you use a version-specific file name extension, registration enables users to open your project and project item files in the appropriate version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+For VSPackages deployed in a side-by-side environment, you must register file name extensions to associate the files with the correct version of Visual Studio. Unless you use a version-specific file name extension, registration enables users to open your project and project item files in the appropriate version of Visual Studio.
 
 ## In this section
 - [About file name extensions](../extensibility/about-file-name-extensions.md)
@@ -29,8 +29,8 @@ For VSPackages deployed in a side-by-side environment, you must register file na
  Discusses how to register verbs.
 
 - [Manage side-by-side file associations](../extensibility/managing-side-by-side-file-associations.md)
- Discusses how to handle side-by-side installations in which a particular version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] should be invoked to open a file.
+ Discusses how to handle side-by-side installations in which a particular version of Visual Studio should be invoked to open a file.
 
 ## Related sections
 - [Support multiple versions of Visual Studio](../extensibility/supporting-multiple-versions-of-visual-studio.md)
- Describes issues related to multiple versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and your VSPackage during development and deployment to end users.
+ Describes issues related to multiple versions of Visual Studio and your VSPackage during development and deployment to end users.

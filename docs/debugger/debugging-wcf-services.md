@@ -30,7 +30,7 @@ ms.workload:
  Explains debugger support for stepping into a WCF Service.
 
  [How to: Debug a Self-Hosted WCF Service](../debugger/how-to-debug-a-self-hosted-wcf-service.md)
- Describes how to debug a WCF Service that runs outside IIS or the [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] Development server.
+ Describes how to debug a WCF Service that runs outside IIS or the ASP.NET Development server.
 
 ## See also
 - [Debugger Security](../debugger/debugger-security.md)

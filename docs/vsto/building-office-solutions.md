@@ -92,14 +92,14 @@ ms.workload:
  For document-level projects, you must also add the fully qualified location of the document to the Office trusted folders list. For more information, see [Grant trust to documents](../vsto/granting-trust-to-documents.md).
 
 ## Change the platform target
- By default, the platform target for Office projects is **Any CPU**. Typically, you should not change this setting. Office solutions that are built with the **Any CPU** platform target setting run in 32-bit and 64-bit versions of Microsoft [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] or [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)].
+ By default, the platform target for Office projects is **Any CPU**. Typically, you should not change this setting. Office solutions that are built with the **Any CPU** platform target setting run in 32-bit and 64-bit versions of Microsoft  Office 2013  or Office 2010.
 
- You should set the platform target to x64 only if you are creating a solution that will run only in 64-bit versions of Microsoft [!INCLUDE[Office_15_short](../vsto/includes/office-15-short-md.md)] or [!INCLUDE[office14_long](../vsto/includes/office14-long-md.md)], and your solution calls native 64-bit APIs. For more information about changing the platform target setting, see [How to: Configure projects to target platforms](../ide/how-to-configure-projects-to-target-platforms.md).
+ You should set the platform target to x64 only if you are creating a solution that will run only in 64-bit versions of Microsoft  Office 2013  or Office 2010, and your solution calls native 64-bit APIs. For more information about changing the platform target setting, see [How to: Configure projects to target platforms](../ide/how-to-configure-projects-to-target-platforms.md).
 
  If you set the platform target to x64, the solution will not run in 32-bit versions of Windows or Office. The x64 platform target requires the solution to run in a 64-bit process.
 
 ## Use the Clean command
- To remove the built project files from the development computer, you can use the **Clean** command on the **Build** menu in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. The **Clean** command deletes all files in the build output location. For application-level projects, the **Clean** command also removes the registry entries that are created by the build process.
+ To remove the built project files from the development computer, you can use the **Clean** command on the **Build** menu in Visual Studio. The **Clean** command deletes all files in the build output location. For application-level projects, the **Clean** command also removes the registry entries that are created by the build process.
 
 ## Related topics
 

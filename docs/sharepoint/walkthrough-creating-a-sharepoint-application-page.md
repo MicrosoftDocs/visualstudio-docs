@@ -43,7 +43,7 @@ This walkthrough illustrates the following tasks:
 
 First, create an **Empty SharePoint Project**. Later, you will add an **Application Page** item to this project.
 
-1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start Visual Studio.
 
 2. Open the **New Project** dialog box, expand the **Office/SharePoint** node under the language that you want to use, and then choose the **SharePoint Solutions** node.
 

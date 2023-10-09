@@ -48,7 +48,7 @@ HRESULT GetLanguageInfo ( 
 [out] Returns the name of the language that implements the method associated with this stack frame.
 
 `pguidLanguage`\
-[out] Returns the `GUID` of the language. For the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] languages, for example, the following can be returned:
+[out] Returns the `GUID` of the language. For the Visual Studio languages, for example, the following can be returned:
 
 - `guidVBScriptLang`\
 

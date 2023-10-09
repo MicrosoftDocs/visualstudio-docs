@@ -20,18 +20,18 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-  If your project contains a Ribbon customization that was created by using the **Ribbon (Visual Designer)** project item, you must make the following changes to your project code if the target framework is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.
+  If your project contains a Ribbon customization that was created by using the **Ribbon (Visual Designer)** project item, you must make the following changes to your project code if the target framework is changed to the .NET Framework 4 or later.
 
 - Modify the generated Ribbon code.
 
 - Modify any code that instantiates Ribbon controls at run time, handles Ribbon events, or sets the position of a Ribbon component programmatically.
 
 ## Update the generated Ribbon code
- If the target framework of your project is changed to the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must change the generated code for the Ribbon item by performing the following steps. The code files you need to update depend on the programming language and how you created the project:
+ If the target framework of your project is changed to the .NET Framework 4 or later, you must change the generated code for the Ribbon item by performing the following steps. The code files you need to update depend on the programming language and how you created the project:
 
-- In Visual Basic projects, or in Visual C# projects that you created in either [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)] or [!INCLUDE[vs_dev10_long](../sharepoint/includes/vs-dev10-long-md.md)] perform all of the steps in the Ribbon code-behind file (*YourRibbonItem*.Designer.cs or *YourRibbonItem*.Designer.vb). To see the code-behind file in Visual Basic projects, click the **Show All Files** button in **Solution Explorer**.
+- In Visual Basic projects, or in Visual C# projects that you created in either Visual Studio 2012 or Visual Studio 2010 perform all of the steps in the Ribbon code-behind file (*YourRibbonItem*.Designer.cs or *YourRibbonItem*.Designer.vb). To see the code-behind file in Visual Basic projects, click the **Show All Files** button in **Solution Explorer**.
 
-- In Visual C# projects that you created in Visual Studio 2008 and then upgraded to [!INCLUDE[vs_dev12](../vsto/includes/vs-dev12-md.md)], perform the first two steps in the Ribbon code file (*YourRibbonItem*.cs or *YourRibbonItem*.vb), and perform the remaining steps in the Ribbon code-behind file.
+- In Visual C# projects that you created in Visual Studio 2008 and then upgraded to Visual Studio 2013, perform the first two steps in the Ribbon code file (*YourRibbonItem*.cs or *YourRibbonItem*.vb), and perform the remaining steps in the Ribbon code-behind file.
 
 ### To change the generated Ribbon code
 
@@ -58,7 +58,7 @@ ms.workload:
     ```
     ---
 
-     The following code example shows the default constructor of a Ribbon class in a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.
+     The following code example shows the default constructor of a Ribbon class in a project that targets the .NET Framework 4 or later.
 
     ### [C#](#tab/csharp)
     ```csharp
@@ -96,7 +96,7 @@ ms.workload:
     ```
     ---
 
-     In a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must use the following code instead.
+     In a project that targets the .NET Framework 4 or later, you must use the following code instead.
 
     ### [C#](#tab/csharp)
     ```csharp
@@ -116,7 +116,7 @@ ms.workload:
      For example, assume that your file contains the following line of code that handles the <xref:Microsoft.Office.Tools.Ribbon.RibbonButton.Click> event in a project that targets the .NET Framework 3.5.
 
     \<CodeContentPlaceHolder>8</CodeContentPlaceHolder>
-     In a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must use the following code instead.
+     In a project that targets the .NET Framework 4 or later, you must use the following code instead.
 
     \<CodeContentPlaceHolder>9</CodeContentPlaceHolder>
      For a full list of the Ribbon delegates, see [Handle Ribbon events](#ribbonevents).
@@ -124,7 +124,7 @@ ms.workload:
 5. In Visual Basic projects, locate the `ThisRibbonCollection` class at the end of the file. Modify the declaration of this class so that it no longer inherits from `Microsoft.Office.Tools.Ribbon.RibbonReadOnlyCollection`.
 
 ## <a name="ribboncontrols"></a> Instantiate Ribbon controls
- You must modify any code that dynamically instantiates Ribbon controls. In projects that target the .NET Framework 3.5, Ribbon controls are classes that you can instantiate directly in certain scenarios. In projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, these controls are interfaces that you cannot instantiate directly. You must create the controls by using methods that are provided by the <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> object.
+ You must modify any code that dynamically instantiates Ribbon controls. In projects that target the .NET Framework 3.5, Ribbon controls are classes that you can instantiate directly in certain scenarios. In projects that target the .NET Framework 4 or later, these controls are interfaces that you cannot instantiate directly. You must create the controls by using methods that are provided by the <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> object.
 
  There are two ways to access the <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> object:
 
@@ -132,13 +132,13 @@ ms.workload:
 
 - By using the `Globals.Factory.GetRibbonFactory` method. Use this approach from code outside your Ribbon class. For more information about the Globals class, see [Global access to objects in Office projects](../vsto/global-access-to-objects-in-office-projects.md).
 
-  The following code example demonstrates how to create a <xref:Microsoft.Office.Tools.Ribbon.RibbonButton> in a Ribbon class in a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.
+  The following code example demonstrates how to create a <xref:Microsoft.Office.Tools.Ribbon.RibbonButton> in a Ribbon class in a project that targets the .NET Framework 4 or later.
 
 \<CodeContentPlaceHolder>10</CodeContentPlaceHolder>
 \<CodeContentPlaceHolder>11</CodeContentPlaceHolder>
- The following table lists the controls you can create programmatically and the method to use to create the controls in projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.
+ The following table lists the controls you can create programmatically and the method to use to create the controls in projects that target the .NET Framework 4 or later.
 
-|Control|RibbonFactory method to use in [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] and later projects|
+|Control|RibbonFactory method to use in .NET Framework 4 and later projects|
 |-------------| - |
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonButton>|<xref:Microsoft.Office.Tools.Ribbon.RibbonFactory.CreateRibbonButton%2A>|
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonButtonGroup>|<xref:Microsoft.Office.Tools.Ribbon.RibbonFactory.CreateRibbonButtonGroup%2A>|
@@ -159,18 +159,18 @@ ms.workload:
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonToggleButton>|<xref:Microsoft.Office.Tools.Ribbon.RibbonFactory.CreateRibbonToggleButton%2A>|
 
 ## <a name="ribbonevents"></a> Handle Ribbon events
- You must modify any code that handles events of Ribbon controls. In projects that target the .NET Framework 3.5, these events are handled by the generic <xref:System.EventHandler%601> delegate. In projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, these events are now handled by other delegates.
+ You must modify any code that handles events of Ribbon controls. In projects that target the .NET Framework 3.5, these events are handled by the generic <xref:System.EventHandler%601> delegate. In projects that target the .NET Framework 4 or later, these events are now handled by other delegates.
 
- The following table lists the Ribbon events and the delegates that are associated with them in projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later.
+ The following table lists the Ribbon events and the delegates that are associated with them in projects that target the .NET Framework 4 or later.
 
-|Event|Delegate to use in [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] and later projects|
+|Event|Delegate to use in .NET Framework 4 and later projects|
 |-----------| - |
 |<xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon.LoadImage> event in a generated Ribbon class|<xref:Microsoft.Office.Tools.Ribbon.RibbonLoadImageEventHandler>|
 |<xref:Microsoft.Office.Tools.Ribbon.OfficeRibbon.Load>|<xref:Microsoft.Office.Tools.Ribbon.RibbonUIEventHandler>|
 |<xref:Microsoft.Office.Tools.Ribbon.RibbonButton.Click><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonCheckBox.Click><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonComboBox.ItemsLoading><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonComboBox.TextChanged><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown.ButtonClick><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown.ItemsLoading><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonDropDown.SelectionChanged><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonEditBox.TextChanged><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.ButtonClick><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.Click><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonGallery.ItemsLoading><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonGroup.DialogLauncherClick><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonMenu.ItemsLoading><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonSplitButton.Click><br /><br /> <xref:Microsoft.Office.Tools.Ribbon.RibbonToggleButton.Click>|<xref:Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler>|
 
 ## Set the position of a Ribbon component programmatically
- You must modify any code that sets the position of Ribbon groups, tabs, or controls. In projects that target the .NET Framework 3.5, you can use the `AfterOfficeId` and `BeforeOfficeId` methods of the static `Microsoft.Office.Tools.Ribbon.RibbonPosition` class to assign the `Position` property of a group, tab, or control. In projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must access these methods by using the <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory.RibbonPosition%2A> property provided by the <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> object.
+ You must modify any code that sets the position of Ribbon groups, tabs, or controls. In projects that target the .NET Framework 3.5, you can use the `AfterOfficeId` and `BeforeOfficeId` methods of the static `Microsoft.Office.Tools.Ribbon.RibbonPosition` class to assign the `Position` property of a group, tab, or control. In projects that target the .NET Framework 4 or later, you must access these methods by using the <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory.RibbonPosition%2A> property provided by the <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> object.
 
  There are two ways to access the <xref:Microsoft.Office.Tools.Ribbon.RibbonFactory> object:
 
@@ -191,7 +191,7 @@ Me.tab1.Position = RibbonPosition.AfterOfficeId("TabHome")
 ```
 ---
 
- The following code example demonstrates the same task in a project that targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)].
+ The following code example demonstrates the same task in a project that targets the .NET Framework 4.
 
 ### [C#](#tab/csharp)
 ```csharp

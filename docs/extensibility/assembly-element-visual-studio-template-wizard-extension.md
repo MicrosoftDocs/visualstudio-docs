@@ -56,7 +56,7 @@ Specifies the name or strong name of the assembly that implements the `IWizard` 
  `Assembly` is a required child element of `WizardExtension`.
 
 ## Example
- The following example illustrates the metadata for the standard project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application.
+ The following example illustrates the metadata for the standard project template for a Visual C# Windows application.
 
 ```xml
 <VSTemplate Version="3.0.0" Type="Item"

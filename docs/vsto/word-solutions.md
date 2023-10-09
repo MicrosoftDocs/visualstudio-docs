@@ -108,7 +108,7 @@ ms.workload:
 |Title|Description|
 |-----------|-----------------|
 |[Word object model overview](../vsto/word-object-model-overview.md)|Provides an overview of the main types provided by the Word object model.|
-|[Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)|Provides information about extended objects (provided by the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)]) that you can use in Word solutions.|
+|[Automate Word by using extended objects](../vsto/automating-word-by-using-extended-objects.md)|Provides information about extended objects (provided by the  Visual Studio Tools for Office runtime ) that you can use in Word solutions.|
 |[Windows Forms controls on Office documents overview](../vsto/windows-forms-controls-on-office-documents-overview.md)|Describes how you can add Windows Forms controls to Word documents.|
 |[Walkthrough: Create your first document-level customization for Word](../vsto/walkthrough-creating-your-first-document-level-customization-for-word.md)|Demonstrates how to create a basic document-level customization for Word.|
 |[Walkthrough: Create your first VSTO Add-in for Word](../vsto/walkthrough-creating-your-first-vsto-add-in-for-word.md)|Demonstrates how to create a basic VSTO Add-in for Word.|

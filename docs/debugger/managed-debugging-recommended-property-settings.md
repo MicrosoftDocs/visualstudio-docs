@@ -27,7 +27,7 @@ Certain properties should be set the same way for all managed debugging scenario
 
  The following tables display recommended property settings.
 
- Settings not listed here may vary among the different managed project types. For example, **Start Action** will be set differently in a Windows Forms project than in a [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] project.
+ Settings not listed here may vary among the different managed project types. For example, **Start Action** will be set differently in a Windows Forms project than in a ASP.NET project.
 
 ### Configuration Properties on the Build (C#) or Compile (Visual Basic) tab
 

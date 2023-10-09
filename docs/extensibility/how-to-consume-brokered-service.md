@@ -32,7 +32,7 @@ Brokered services themselves should use the <xref:Microsoft.ServiceHub.Framework
 
 ### The global service broker
 
-[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] offers two ways to acquire the global service broker.
+Visual Studio offers two ways to acquire the global service broker.
 
 Use <xref:Microsoft.VisualStudio.Shell.ServiceProvider.GlobalProvider%2A>.<xref:Microsoft.VisualStudio.Shell.ServiceExtensions.GetServiceAsync%2A> to request the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.SVsBrokeredServiceContainer>:
 
@@ -72,8 +72,8 @@ Retrieval of a brokered service is typically done with the <xref:Microsoft.Servi
 
 The <xref:Microsoft.ServiceHub.Framework.IServiceBroker.GetProxyAsync%2A> method will require a <xref:Microsoft.ServiceHub.Framework.ServiceRpcDescriptor> and the service interface as a generic type argument.
 The documentation on the brokered service you are requesting should indicate where to get the descriptor and which interface to use.
-For brokered services included with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], the interface to use should appear in the IntelliSense documentation on the descriptor.
-Learn how to find descriptors for [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] brokered services in [Discovering Available Brokered Services](internals/discover-available-brokered-services.md).
+For brokered services included with Visual Studio, the interface to use should appear in the IntelliSense documentation on the descriptor.
+Learn how to find descriptors for Visual Studio brokered services in [Discovering Available Brokered Services](internals/discover-available-brokered-services.md).
 
 ```csharp
 IServiceBroker broker; // Acquired as described earlier in this topic
@@ -104,7 +104,7 @@ If your code requires a brokered service and cannot complete its work when the s
 
 Some brokered services accept or require a client RPC target for "callbacks".
 Such an option or requirement should be in the documentation of that particular brokered service.
-For [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] brokered services this information should be included in the IntelliSense documentation on the descriptor.
+For Visual Studio brokered services this information should be included in the IntelliSense documentation on the descriptor.
 
 In such case, a client may provide one using <xref:Microsoft.ServiceHub.Framework.ServiceActivationOptions.ClientRpcTarget?displayProperty=nameWithType> like this:
 
@@ -378,9 +378,9 @@ Mock<IFileSystem> mockFileSystem = new Mock<IFileSystem>();
 sbc.Proffer(VisualStudioServices.VS2022.FileSystem, (ServiceMoniker moniker, ServiceActivationOptions options, IServiceBroker serviceBroker, CancellationToken cancellationToken) => new ValueTask<object?>(mockFileSystem.Object));
 ```
 
-The mocked brokered service container does not require a proffered service to be registered first as [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] itself does.
+The mocked brokered service container does not require a proffered service to be registered first as Visual Studio itself does.
 
-Your code under test can acquire the brokered service as normal, except that under the test it will get your mock instead of the real one it would get while running under [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]:
+Your code under test can acquire the brokered service as normal, except that under the test it will get your mock instead of the real one it would get while running under Visual Studio:
 
 ```cs
 IBrokeredServiceContainer sbc = await AsyncServiceProvider.GlobalProvider.GetServiceAsync<SVsBrokeredServiceContainer, IBrokeredServiceContainer>();

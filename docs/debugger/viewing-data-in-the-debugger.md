@@ -24,7 +24,7 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger provides many tools for inspecting and modifying the state of your program. Most of these tools function only in break mode.
+The Visual Studio debugger provides many tools for inspecting and modifying the state of your program. Most of these tools function only in break mode.
 
 ## Create custom views of data in variable windows and DataTips
 

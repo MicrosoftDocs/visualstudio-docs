@@ -22,7 +22,7 @@ ms.workload:
 
 ### To add a new project item to a SharePoint solution
 
-1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], open or create a SharePoint solution.
+1. In Visual Studio, open or create a SharePoint solution.
 
 2. In **Solution Explorer**, choose the project's node.
 
@@ -36,7 +36,7 @@ ms.workload:
 
 ### To add an existing project item to a SharePoint solution
 
-1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], open or create a SharePoint solution.
+1. In Visual Studio, open or create a SharePoint solution.
 
 2. In **Solution Explorer**, choose the project's node.
 

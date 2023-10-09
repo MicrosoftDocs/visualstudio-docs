@@ -50,7 +50,7 @@ Identifies application information used to create a shell presence and an **Add 
  The description element is required in all deployment configurations.
 
 ## Example
- The following code example illustrates a `description` element in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment manifest. This code example is part of a larger example provided for the [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md) topic.
+ The following code example illustrates a `description` element in a ClickOnce deployment manifest. This code example is part of a larger example provided for the [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md) topic.
 
 ```xml
 <description

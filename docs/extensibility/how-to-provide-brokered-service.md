@@ -360,7 +360,7 @@ This service descriptor is an instance of a <xref:Microsoft.ServiceHub.Framework
 The descriptor must be made available to all clients that will use a proxy to access this service.
 Proffering the service also requires this descriptor.
 
-[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] defines one such derived type and recommends its use for all services: <xref:Microsoft.ServiceHub.Framework.ServiceJsonRpcDescriptor>.
+Visual Studio defines one such derived type and recommends its use for all services: <xref:Microsoft.ServiceHub.Framework.ServiceJsonRpcDescriptor>.
 This descriptor utilizes <xref:StreamJsonRpc> for its RPC connections and creates a high-performance local proxy for local services that emulates some of the remote behaviors such as wrapping exceptions thrown by the service in <xref:StreamJsonRpc.RemoteInvocationException>.
 
 The <xref:Microsoft.ServiceHub.Framework.ServiceJsonRpcDescriptor> supports configuring the <xref:StreamJsonRpc.JsonRpc> class for JSON or MessagePack encoding of the JSON-RPC protocol.
@@ -409,10 +409,10 @@ Over time you may want to increment the version of your service.
 In such a case you should define a descriptor for each version you wish to support, using a unique version-specific <xref:Microsoft.ServiceHub.Framework.ServiceMoniker> for each one.
 Supporting multiple versions simultaneously can be good for backward compatibility and can usually be done with just one RPC interface.
 
-[!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] follows this pattern with its <xref:Microsoft.VisualStudio.VisualStudioServices> class by defining the original <xref:Microsoft.ServiceHub.Framework.ServiceRpcDescriptor> as a `virtual` property under the nested class that represents the first release that added that brokered service.
-When we need to change the wire protocol or add/change functionality of the service, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] declares an `override` property in a later versioned nested class that returns a new <xref:Microsoft.ServiceHub.Framework.ServiceRpcDescriptor>.
+Visual Studio follows this pattern with its <xref:Microsoft.VisualStudio.VisualStudioServices> class by defining the original <xref:Microsoft.ServiceHub.Framework.ServiceRpcDescriptor> as a `virtual` property under the nested class that represents the first release that added that brokered service.
+When we need to change the wire protocol or add/change functionality of the service, Visual Studio declares an `override` property in a later versioned nested class that returns a new <xref:Microsoft.ServiceHub.Framework.ServiceRpcDescriptor>.
 
-For a service defined and proffered by a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] extension, it may suffice to declare another descriptor property next to the original.
+For a service defined and proffered by a Visual Studio extension, it may suffice to declare another descriptor property next to the original.
 For example suppose your 1.0 service used the UTF8 (JSON) formatter and you realize that switching to MessagePack would deliver a significant performance benefit.
 As changing the formatter is a wire protocol-breaking change, it requires incrementing the brokered service version number and a second descriptor.
 The two descriptors together might look like this:
@@ -508,7 +508,7 @@ This <xref:Microsoft.ServiceHub.Framework.Services.IAuthorizationService> *must*
 
 Proffering a brokered service to the global brokered service container will throw unless the service has first been registered.
 Registration provides a means for the container to know in advance which brokered services may be available and which VS Package to load when they are requested in order to execute the proffering code.
-This allows [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] to start up quickly, without loading all extensions in advance, yet be able to load the required extension when requested by a client of its brokered service.
+This allows Visual Studio to start up quickly, without loading all extensions in advance, yet be able to load the required extension when requested by a client of its brokered service.
 
 Registration can be done by applying the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ProvideBrokeredServiceAttribute> to your <xref:Microsoft.VisualStudio.Shell.AsyncPackage>-derived class.
 This is the only place where the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ServiceAudience> may be set.
@@ -518,19 +518,19 @@ This is the only place where the <xref:Microsoft.VisualStudio.Shell.ServiceBroke
 ```
 
 The default <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ProvideBrokeredServiceAttribute.Audience> is <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ServiceAudience.Process?displayProperty=nameWithType>, which exposes your brokered service only to other code within the same process.
-By setting <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ServiceAudience.Local?displayProperty=nameWithType>, you opt in to exposing your brokered service to other processes belonging to the same [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] session.
+By setting <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ServiceAudience.Local?displayProperty=nameWithType>, you opt in to exposing your brokered service to other processes belonging to the same Visual Studio session.
 
 If your brokered service *must* be exposed to Live Share guests, the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ProvideBrokeredServiceAttribute.Audience> must include <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ServiceAudience.LiveShareGuest?displayProperty=nameWithType> and the <xref:Microsoft.VisualStudio.Shell.ServiceBroker.ProvideBrokeredServiceAttribute.AllowTransitiveGuestClients?displayProperty=nameWithType> property set to `true`.
 **Setting these flags can introduce serious security vulnerabilities** and should not be done without first conforming to the guidance in [How to Secure a Brokered Service](how-to-secure-brokered-service.md).
 
 When you increment the version on your <xref:Microsoft.ServiceHub.Framework.ServiceMoniker>, you must register each version of your brokered service that you intend to respond to client requests for.
-By supporting more than the most recent version of your brokered service, you help maintain backward compatibility for clients of your older brokered service version, which may be especially useful when considering the Live Share scenario where each version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that is sharing the session may be a different version.
+By supporting more than the most recent version of your brokered service, you help maintain backward compatibility for clients of your older brokered service version, which may be especially useful when considering the Live Share scenario where each version of Visual Studio that is sharing the session may be a different version.
 
 ## <a name="MEF"></a> Use MEF to proffer and register your service
 
-**This requires [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] 2022 Update 2 or later.**
+**This requires Visual Studio 2022 Update 2 or later.**
 
-A brokered service may be exported via MEF instead of using a [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Package as described in the previous two sections.
+A brokered service may be exported via MEF instead of using a Visual Studio Package as described in the previous two sections.
 This has tradeoffs to consider:
 
 Tradeoff | Package proffer | MEF export

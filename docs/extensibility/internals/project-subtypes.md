@@ -17,10 +17,10 @@ ms.workload:
 # Project Subtypes
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-Project subtypes let you customize or flavor the behavior of the project systems of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. Customizations include saving additional data in the project file, adding or filtering items in the **Add New Item** dialog box, controlling how assemblies are debugged and deployed, and extending the project **Property Pages** dialog box. VSPackages implement project subtypes using COM aggregation.
+Project subtypes let you customize or flavor the behavior of the project systems of Visual Studio. Customizations include saving additional data in the project file, adding or filtering items in the **Add New Item** dialog box, controlling how assemblies are debugged and deployed, and extending the project **Property Pages** dialog box. VSPackages implement project subtypes using COM aggregation.
 
 > [!NOTE]
-> The Visual C++ project system does not support project subtypes. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] itself uses project subtypes to implement SQL Server and Smart Device projects.
+> The Visual C++ project system does not support project subtypes. Visual Studio itself uses project subtypes to implement SQL Server and Smart Device projects.
 
 ## In This Section
 
@@ -30,7 +30,7 @@ Project subtypes let you customize or flavor the behavior of the project systems
 
 - [Initialization Sequence of Project Subtypes](../../extensibility/internals/initialization-sequence-of-project-subtypes.md)
 
-  Describes the programmatic project subtype initialization sequence by [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] environment.
+  Describes the programmatic project subtype initialization sequence by Visual Studio environment.
 
 - [Properties and Methods Extended by Project Subtypes](../../extensibility/internals/properties-and-methods-extended-by-project-subtypes.md)
 
@@ -68,4 +68,4 @@ Project subtypes let you customize or flavor the behavior of the project systems
 
 - [Project Types](../../extensibility/internals/project-types.md)
 
-  Provides links to topics detailing [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] projects.
+  Provides links to topics detailing Visual Studio projects.

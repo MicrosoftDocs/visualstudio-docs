@@ -43,7 +43,7 @@ The top-level element for the deployment manifest.
 |`manifestVersion`|Required. This attribute must be set to `1.0`.|
 
 ## Example
- The following code example illustrates an `assembly` element in a deployment manifest for an application deployed using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]. This code example is part of a larger example provided for the [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md) topic.
+ The following code example illustrates an `assembly` element in a deployment manifest for an application deployed using ClickOnce. This code example is part of a larger example provided for the [ClickOnce Deployment Manifest](../deployment/clickonce-deployment-manifest.md) topic.
 
 ```xml
 <asmv1:assembly

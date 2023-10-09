@@ -26,7 +26,7 @@ ms.workload:
 # Walkthrough: Manually deploy a ClickOnce application
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, or you need to use advanced deployment features, such as Trusted Application Deployment, you should use the *Mage.exe* command-line tool to create your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests. This walkthrough describes how to create a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment by using either the command-line version (*Mage.exe*) or the graphical version (*MageUI.exe*) of the Manifest Generation and Editing Tool.
+If you cannot use Visual Studio to deploy your ClickOnce application, or you need to use advanced deployment features, such as Trusted Application Deployment, you should use the *Mage.exe* command-line tool to create your ClickOnce manifests. This walkthrough describes how to create a ClickOnce deployment by using either the command-line version (*Mage.exe*) or the graphical version (*MageUI.exe*) of the Manifest Generation and Editing Tool.
 
  [!INCLUDE[ndptecclick](../deployment/includes/dotnet-dotnetmage-exe.md)]
 
@@ -35,7 +35,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 
 - Install *Mage.exe* and *MageUI.exe*.
 
-   *Mage.exe* and *MageUI.exe* are part of the [!INCLUDE[winsdklong](../deployment/includes/winsdklong_md.md)]. You must either have the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] installed or the version of the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] included with Visual Studio. For more information, see [Windows SDK](https://www.microsoft.com/download/details.aspx?id=8279) on MSDN.
+   *Mage.exe* and *MageUI.exe* are part of the Windows Software Development Kit (SDK). You must either have the Windows SDK installed or the version of the Windows SDK included with Visual Studio. For more information, see [Windows SDK](https://www.microsoft.com/download/details.aspx?id=8279) on MSDN.
 
 - Provide an application to deploy.
 
@@ -64,11 +64,11 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 
 - Determine whether the application requires prerequisites on the client computer.
 
-   [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications deployed from Visual Studio can include a prerequisite installation bootstrapper (*setup.exe*) with your deployment. This walkthrough creates the two manifests required for a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment. You can create a prerequisite bootstrapper by using the [GenerateBootstrapper task](../msbuild/generatebootstrapper-task.md).
+   ClickOnce applications deployed from Visual Studio can include a prerequisite installation bootstrapper (*setup.exe*) with your deployment. This walkthrough creates the two manifests required for a ClickOnce deployment. You can create a prerequisite bootstrapper by using the [GenerateBootstrapper task](../msbuild/generatebootstrapper-task.md).
 
 ### To deploy an application with the Mage.exe command-line tool
 
-1. Create a directory where you will store your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment files.
+1. Create a directory where you will store your ClickOnce deployment files.
 
 2. In the deployment directory you just created, create a version subdirectory. If this is the first time that you are deploying the application, name the version subdirectory **1.0.0.0**.
 
@@ -77,7 +77,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 
 3. Copy all of your application files to the version subdirectory, including executable files, assemblies, resources, and data files. If necessary, you can create additional subdirectories that contain additional files.
 
-4. Open the [!INCLUDE[winsdkshort](../debugger/debug-interface-access/includes/winsdkshort_md.md)] or Visual Studio command prompt and change to the version subdirectory.
+4. Open the Windows SDK or Visual Studio command prompt and change to the version subdirectory.
 
 5. Create the application manifest with a call to *Mage.exe*. The following statement creates an application manifest for code compiled to run on the Intel x86 processor.
 
@@ -98,7 +98,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 
 7. Change to the root of the deployment directory.
 
-8. Generate the deployment manifest with a call to *Mage.exe*. By default, *Mage.exe* will mark your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment as an installed application, so that it can be run both online and offline. To make the application available only when the user is online, use the `-Install` option with a value of `false`. If you use the default, and users will install your application from a Web site or file share, make sure that the value of the `-ProviderUrl` option points to the location of the application manifest on the Web server or share.
+8. Generate the deployment manifest with a call to *Mage.exe*. By default, *Mage.exe* will mark your ClickOnce deployment as an installed application, so that it can be run both online and offline. To make the application available only when the user is online, use the `-Install` option with a value of `false`. If you use the default, and users will install your application from a Web site or file share, make sure that the value of the `-ProviderUrl` option points to the location of the application manifest on the Web server or share.
 
    ```cmd
    mage -New Deployment -Processor x86 -Install true -Publisher "My Co." -ProviderUrl "\\myServer\myShare\AppToDeploy.application" -AppManifest 1.0.0.0\AppToDeploy.exe.manifest -ToFile AppToDeploy.application
@@ -116,7 +116,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 
 ### To deploy an application with the MageUI.exe graphical tool
 
-1. Create a directory where you will store your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment files.
+1. Create a directory where you will store your ClickOnce deployment files.
 
 2. In the deployment directory you just created, create a version subdirectory. If this is the first time that you are deploying the application, name the version subdirectory **1.0.0.0**.
 
@@ -190,7 +190,7 @@ If you cannot use Visual Studio to deploy your [!INCLUDE[ndptecclick](../deploym
 29. Provide your users with the URL, UNC, or physical media required to install your application. If you provide a URL or a UNC, you must give your users the full path the deployment manifest. For example, if AppToDeploy is deployed to http://webserver01/ in the AppToDeploy directory, the full URL path would be http://webserver01/AppToDeploy/AppToDeploy.application.
 
 ## Next steps
- When you need to deploy a new version of the application, create a new directory named after the new version—for example, 1.0.0.1—and copy the new application files into the new directory. Next, you need to follow the previous steps to create and sign a new application manifest, and update and sign the deployment manifest. Be careful to specify the same higher version in both the *Mage.exe* `-New` and `-Update` calls, as [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] only updates higher versions, with the left-most integer most significant. If you used *MageUI.exe*, you can update the deployment manifest by opening it, selecting the **Application Reference** tab, go to the **Select Manifest** button, and then selecting the updated application manifest.
+ When you need to deploy a new version of the application, create a new directory named after the new version—for example, 1.0.0.1—and copy the new application files into the new directory. Next, you need to follow the previous steps to create and sign a new application manifest, and update and sign the deployment manifest. Be careful to specify the same higher version in both the *Mage.exe* `-New` and `-Update` calls, as ClickOnce only updates higher versions, with the left-most integer most significant. If you used *MageUI.exe*, you can update the deployment manifest by opening it, selecting the **Application Reference** tab, go to the **Select Manifest** button, and then selecting the updated application manifest.
 
 ## See also
 - [Mage.exe (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)

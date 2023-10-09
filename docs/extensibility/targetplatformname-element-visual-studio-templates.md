@@ -14,7 +14,7 @@ ms.workload:
 # TargetPlatformName Element (Visual Studio Templates)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-Specifies the platform that the project template targets. This element is used to specify that a project template is used to create [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps.
+Specifies the platform that the project template targets. This element is used to specify that a project template is used to create Windows 8.x Store apps.
 
 ## Syntax
 
@@ -49,7 +49,7 @@ Specifies the platform that the project template targets. This element is used t
  The text must be **Windows**.
 
 ## Example
- This example specifies that the project template targets [!INCLUDE[win8](../debugger/includes/win8_md.md)] or later.
+ This example specifies that the project template targets Windows 8 or later.
 
 ```xml
 <VSTemplate Type="Project" Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">

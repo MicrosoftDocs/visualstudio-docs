@@ -20,7 +20,7 @@ ms.workload:
 This source-control plug-in test area covers sending updated items to the version store via the **Check In** command.
 
 ## Command Menu Access
- The following [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] integrated development environment menu paths are used in the test cases.
+ The following Visual Studio integrated development environment menu paths are used in the test cases.
 
 ##### Check In:
  **File**, **Source Control**, **Check In**.

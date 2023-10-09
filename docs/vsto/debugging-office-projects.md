@@ -23,7 +23,7 @@ ms.workload:
 # Debug Office projects
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-  You can debug Office projects by using the same Microsoft [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] tools you use for other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] projects. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger features, such as the ability to insert breakpoints and view variables in the **Locals** window, are also available when you debug Office projects. For more information about [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugging tools, see [Debug in Visual Studio](../debugger/debugger-feature-tour.md).
+  You can debug Office projects by using the same Microsoft Visual Studio tools you use for other Visual Studio projects. Visual Studio debugger features, such as the ability to insert breakpoints and view variables in the **Locals** window, are also available when you debug Office projects. For more information about Visual Studio debugging tools, see [Debug in Visual Studio](../debugger/debugger-feature-tour.md).
 
 > [!TIP]
 > To simplify debugging, close any open instances of the Office application before you build and debug it.
@@ -33,7 +33,7 @@ ms.workload:
 [!include[Add-ins note](includes/addinsnote.md)]
 
 ## Start and stop the debugger
- You can start debugging an Office project just like you start debugging other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] projects; for example, you can press the **F5** key. When you start debugging a VSTO Add-in project, a new process for the targeted Office application is started and the VSTO Add-in is loaded.
+ You can start debugging an Office project just like you start debugging other Visual Studio projects; for example, you can press the **F5** key. When you start debugging a VSTO Add-in project, a new process for the targeted Office application is started and the VSTO Add-in is loaded.
 
  When you start debugging a document-level project, the document or workbook opens in a new Word or Excel process.
 
@@ -86,14 +86,14 @@ ms.workload:
  Soft disabling can occur when a VSTO Add-in produces an error that does not cause the application to unexpectedly close. For example, an application might soft disable a VSTO Add-in if it throws an unhandled exception while the <xref:Microsoft.Office.Tools.AddIn.Startup> event handler is executing. When a VSTO Add-in is soft disabled, it appears in the **Inactive Application Add-ins** list in the application, and the application changes the value of the **LoadBehavior** registry entry for the VSTO Add-in to indicate that it is unloaded. For more information about the **LoadBehavior** registry entry, see [Registry entries for VSTO Add-ins](../vsto/registry-entries-for-vsto-add-ins.md).
 
 ## Troubleshoot installation errors by using the Event Viewer
- The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] writes messages to the Event Viewer in Windows for all exceptions that are thrown when you install or uninstall Office solutions. You can use these messages to resolve installation and deployment problems.
+ The  Visual Studio Tools for Office runtime  writes messages to the Event Viewer in Windows for all exceptions that are thrown when you install or uninstall Office solutions. You can use these messages to resolve installation and deployment problems.
 
 ## Troubleshoot startup errors by using a log file and error messages
- The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] can write all errors that occur during startup to a log file or display each error in a message box. By default, these options are turned off. You can turn on the options by creating environment variables.
+ The  Visual Studio Tools for Office runtime  can write all errors that occur during startup to a log file or display each error in a message box. By default, these options are turned off. You can turn on the options by creating environment variables.
 
  To display each error in a message box, create an environment variable named `VSTO_SUPPRESSDISPLAYALERTS` and set it to 0 (zero). You can suppress the messages by deleting the environment variable or setting it to 1 (one).
 
- To write the errors to a log file, create an environment variable named `VSTO_LOGALERTS` and set it to 1 (one). The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] creates the log file in the folder that contains the deployment manifest for the VSTO Add-in, or in the folder that contains the document or workbook that is associated with the customization. If that fails, the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] creates the log file in  the local *%TEMP%* folder. For application-level VSTO Add-ins, the default name is *add-in name*.vsto.log. For document-level projects, the name of the log file is *document name*.*extension*.log, such as ExcelWorkbook1.xlsx.log. To stop logging errors, delete the environment variable or set it to 0 (zero).
+ To write the errors to a log file, create an environment variable named `VSTO_LOGALERTS` and set it to 1 (one). The  Visual Studio Tools for Office runtime  creates the log file in the folder that contains the deployment manifest for the VSTO Add-in, or in the folder that contains the document or workbook that is associated with the customization. If that fails, the  Visual Studio Tools for Office runtime  creates the log file in  the local *%TEMP%* folder. For application-level VSTO Add-ins, the default name is *add-in name*.vsto.log. For document-level projects, the name of the log file is *document name*.*extension*.log, such as ExcelWorkbook1.xlsx.log. To stop logging errors, delete the environment variable or set it to 0 (zero).
 
 ## See also
 

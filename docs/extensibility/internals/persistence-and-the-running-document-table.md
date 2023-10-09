@@ -19,7 +19,7 @@ ms.workload:
 # Persistence and the Running Document Table
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-In the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE, projects are completely responsible for managing the persistence of their project items, which they accomplish using the service, <xref:Microsoft.VisualStudio.Shell.Interop.SVsRunningDocumentTable>. Documents are the basic unit of persistence in the Visual Studio environment. Projects coordinate the opening, saving, and renaming of documents with the running document table (RDT), a resource that tracks the state of all open documents.
+In the Visual Studio IDE, projects are completely responsible for managing the persistence of their project items, which they accomplish using the service, <xref:Microsoft.VisualStudio.Shell.Interop.SVsRunningDocumentTable>. Documents are the basic unit of persistence in the Visual Studio environment. Projects coordinate the opening, saving, and renaming of documents with the running document table (RDT), a resource that tracks the state of all open documents.
 
 ## Managing Persistence
  Projects control the environment's persistence service by implementing the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistHierarchyItem> interface. While the environment never directly asks a document to persist itself, it asks the owning project (or hierarchy) to save the document. This makes it possible for the project to save its project item data into local files, remote files, a database, a repository, or other medium.

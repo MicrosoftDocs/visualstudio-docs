@@ -28,7 +28,7 @@ ms.workload:
 
 - Supported editions of Microsoft Windows and SharePoint.
 
-- [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)].
+- Visual Studio 2012.
 
 ## Create a Silverlight application and Silverlight web part
  First, create a Silverlight application in Visual Studio. The Silverlight application retrieves data from the SharePoint Announcements list by using the ListData.svc service.

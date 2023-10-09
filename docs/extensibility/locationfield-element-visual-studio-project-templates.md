@@ -65,7 +65,7 @@ Specifies whether or not the **Location** text box in the **New Project** dialog
  The value specified in the `Location` element is only honored by the dialog box if the underlying project system supports it.
 
 ## Example
- The following example illustrates the metadata for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] template.
+ The following example illustrates the metadata for a Visual C# template.
 
 ```
 <VSTemplate Type="Project" Version="3.0.0"

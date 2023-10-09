@@ -23,7 +23,7 @@ ms.workload:
 # Walkthrough: Download assemblies on demand with the ClickOnce deployment API using the Designer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application are downloaded when the application is first run. However, there might be parts of your application that are used by a small set of the users. In this case, you want to download an assembly only when you create one of its types. The following walkthrough demonstrates how to mark certain assemblies in your application as "optional", and how to download them by using classes in the <xref:System.Deployment.Application> namespace when the common language runtime demands them.
+By default, all the assemblies included in a ClickOnce application are downloaded when the application is first run. However, there might be parts of your application that are used by a small set of the users. In this case, you want to download an assembly only when you create one of its types. The following walkthrough demonstrates how to mark certain assemblies in your application as "optional", and how to download them by using classes in the <xref:System.Deployment.Application> namespace when the common language runtime demands them.
 
  [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
 
@@ -37,7 +37,7 @@ By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deploymen
 
 ### To create a project that uses an on-demand assembly with Visual Studio
 
-1. Create a new Windows Forms project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. On the **File** menu, point to **Add**, and then click **New Project**. Choose a **Class Library** project in the dialog box and name it `ClickOnceLibrary`.
+1. Create a new Windows Forms project in Visual Studio. On the **File** menu, point to **Add**, and then click **New Project**. Choose a **Class Library** project in the dialog box and name it `ClickOnceLibrary`.
 
    > [!NOTE]
    > In Visual Basic, we recommend that you modify the project properties to change the root namespace for this project to `Microsoft.Samples.ClickOnceOnDemand` or to a namespace of your choice. For simplicity, the two projects in this walkthrough are in the same namespace.
@@ -99,7 +99,7 @@ By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deploymen
 
 ### To mark assemblies as optional in your ClickOnce application by using Manifest Generation and Editing Tool — Graphical Client (MageUI.exe)
 
-1. Create your [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] manifests as described in [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).
+1. Create your ClickOnce manifests as described in [Walkthrough: Manually deploy a ClickOnce application](../deployment/walkthrough-manually-deploying-a-clickonce-application.md).
 
 2. Before closing MageUI.exe, select the tab that contains your deployment's application manifest, and within that tab select the **Files** tab.
 
@@ -109,7 +109,7 @@ By default, all the assemblies included in a [!INCLUDE[ndptecclick](../deploymen
 
 To test your on-demand assembly:
 
-1. Start your application deployed with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)].
+1. Start your application deployed with ClickOnce.
 
 2. When your main form appears, press the <xref:System.Windows.Forms.Button>. You should see a string in a message box window that reads, "Hello, World!"
 

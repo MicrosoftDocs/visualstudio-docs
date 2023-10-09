@@ -22,9 +22,9 @@ ms.workload:
 # Choose a ClickOnce update strategy
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-[!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] can provide automatic application updates. A [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application periodically reads its deployment manifest file to see whether updates to the application are available. If available, the new version of the application is downloaded and run. For efficiency, only those files that have changed are downloaded.
+ClickOnce can provide automatic application updates. A ClickOnce application periodically reads its deployment manifest file to see whether updates to the application are available. If available, the new version of the application is downloaded and run. For efficiency, only those files that have changed are downloaded.
 
- When designing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, you have to determine which strategy the application will use to check for available updates. There are three basic strategies that you can use: checking for updates on application startup, checking for updates after application startup (running in a background thread), or providing a user interface for updates.
+ When designing a ClickOnce application, you have to determine which strategy the application will use to check for available updates. There are three basic strategies that you can use: checking for updates on application startup, checking for updates after application startup (running in a background thread), or providing a user interface for updates.
 
  In addition, you can determine how often the application will check for updates, and you can make updates required.
 
@@ -103,7 +103,7 @@ ms.workload:
 
 ## Provide a user interface for updates
 
- When using this strategy, the application developer provides a user interface that enables the user to choose when or how often the application will check for updates. For example, you might provide a "Check for Updates Now" command, or an "Update Settings" dialog box that has choices for different update intervals. The [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment APIs provide a framework for programming your own update user interface. For more information, see the <xref:System.Deployment.Application> namespace.
+ When using this strategy, the application developer provides a user interface that enables the user to choose when or how often the application will check for updates. For example, you might provide a "Check for Updates Now" command, or an "Update Settings" dialog box that has choices for different update intervals. The ClickOnce deployment APIs provide a framework for programming your own update user interface. For more information, see the <xref:System.Deployment.Application> namespace.
 
  [!INCLUDE[ndptecclick](../deployment/includes/dotnet-support-application-deployment-api.md)]
 
@@ -113,7 +113,7 @@ ms.workload:
 
 ## Block update checking
 
- It is also possible to prevent your application from ever checking for updates. For example, you might have a simple application that will never be updated, but you want to take advantage of the ease of installation provide by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment.
+ It is also possible to prevent your application from ever checking for updates. For example, you might have a simple application that will never be updated, but you want to take advantage of the ease of installation provide by ClickOnce deployment.
 
  You should also block update checking if your application uses deployment APIs to perform its own updates; see "Provide a user interface for updates" earlier in this topic.
 
@@ -123,7 +123,7 @@ ms.workload:
 
 ## Permission elevation and updates
 
- If a new version of a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application requires a higher level of trust to run than the previous version, [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will prompt the user, asking him if he wants the application to be granted this higher level of trust. If the user declines to grant the higher trust level, the update will not install. [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] will prompt the user to install the application again when it is next restarted. If the user declines to grant the higher level of trust at this point, and the update is not marked as required, the old version of the application will run. However, if the update is required, the application will not run again until the user accepts the higher trust level.
+ If a new version of a ClickOnce application requires a higher level of trust to run than the previous version, ClickOnce will prompt the user, asking him if he wants the application to be granted this higher level of trust. If the user declines to grant the higher trust level, the update will not install. ClickOnce will prompt the user to install the application again when it is next restarted. If the user declines to grant the higher level of trust at this point, and the update is not marked as required, the old version of the application will run. However, if the update is required, the application will not run again until the user accepts the higher trust level.
 
  No prompting for trust levels will occur if you use Trusted Application Deployment. For more information, see [Trusted application deployment overview](../deployment/trusted-application-deployment-overview.md).
 

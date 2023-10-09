@@ -25,7 +25,7 @@ When a user opens project items, the IDE assigns to the Miscellaneous Files proj
 
  A project-specific editor typically requires that the user have special knowledge or use special interfaces from the project. For more information, see [How to: Open Project-Specific Editors](../../extensibility/how-to-open-project-specific-editors.md).
 
- A standard editor can open any file of a specific extension in any project. The user can customize some standard editors, such as the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] text editor, for projects but still retain their public character. Standard editors are created by using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method.
+ A standard editor can open any file of a specific extension in any project. The user can customize some standard editors, such as the Visual Studio text editor, for projects but still retain their public character. Standard editors are created by using the <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument.OpenStandardEditor%2A> method.
 
  If no project in the solution responds that it can open a project item, the IDE provides a special project called the Miscellaneous Files project that opens any file.
 

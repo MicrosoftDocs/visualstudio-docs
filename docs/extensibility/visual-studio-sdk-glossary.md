@@ -16,7 +16,7 @@ ms.workload:
 # Visual Studio SDK glossary
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-This glossary provides definitions for terms that are used in the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] documentation.
+This glossary provides definitions for terms that are used in the Visual Studio SDK documentation.
 
 ## Terms
 

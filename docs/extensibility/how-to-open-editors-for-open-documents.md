@@ -16,7 +16,7 @@ ms.workload:
 # How to: Open editors for open documents
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-Before a project opens a document window, the project first must determine whether the file is already open in the document window for another editor. The file can be either open in a project-specific editor, or one of the standard editors registered with [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+Before a project opens a document window, the project first must determine whether the file is already open in the document window for another editor. The file can be either open in a project-specific editor, or one of the standard editors registered with Visual Studio.
 
 ## Open a project-specific editor
  Use the following procedure to open a project-specific editor for a file that is already open.
@@ -35,7 +35,7 @@ Before a project opens a document window, the project first must determine wheth
 
    - If only the document data object exists, the project should determine whether it can use the document data object for its view. If the document data object is compatible, complete the steps discussed in [Open a project-specific editor](../extensibility/how-to-open-project-specific-editors.md).
 
-     If the document data object is not compatible, an error should be displayed to the user that indicates that the file is currently in use. This error should only be displayed in transient cases, such as when a file is being compiled at the same time the user is trying to open the file by using an editor other than the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] core text editor. The core text editor can share document data object with the compiler.
+     If the document data object is not compatible, an error should be displayed to the user that indicates that the file is currently in use. This error should only be displayed in transient cases, such as when a file is being compiled at the same time the user is trying to open the file by using an editor other than the Visual Studio core text editor. The core text editor can share document data object with the compiler.
 
 3. If the document is not open because there is no document data object or document view object, complete the steps in [Open a project-specific editor](../extensibility/how-to-open-project-specific-editors.md).
 

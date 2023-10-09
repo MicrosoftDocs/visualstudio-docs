@@ -62,8 +62,8 @@ You can use the Concurrency Visualizer command-line utility (*CVCollectionCmd.ex
 | Tag | Description | Values |
 |-------------------------| - | - |
 | Config | Demarcates the overall config file. | Must contain these elements:<br /><br /> -   MinorVersion<br />-   MajorVersion |
-| MajorVersion | Specifies the major version of the config file. | Must be 1 for [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] projects. If not 1, the utility will not work. |
-| MinorVersion | Specifies the minor version of the config file. | Must be 0 for [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)] projects. If not 0, the utility will not work. |
+| MajorVersion | Specifies the major version of the config file. | Must be 1 for Visual Studio 2012 projects. If not 1, the utility will not work. |
+| MinorVersion | Specifies the minor version of the config file. | Must be 0 for Visual Studio 2012 projects. If not 0, the utility will not work. |
 | IncludeEnvSymbolPath | Sets a value that determines whether the environment symbol path (_NT_SYMBOL_PATH) is used. | -   True<br />-   False |
 | DeleteEtlsAfterAnalysis | Sets a value that determines whether the ETL files are deleted when analysis completes. | -   True<br />-   False |
 | SymbolPath | Specifies the path of the symbol server. For more information, see [Use the Microsoft Symbol Server to obtain debug symbol files](/windows/win32/dxtecharts/debugging-with-symbols). | A directory name or URL. |

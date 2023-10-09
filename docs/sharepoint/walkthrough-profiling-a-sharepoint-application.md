@@ -40,7 +40,7 @@ ms.workload:
 
 - Supported editions of Microsoft Windows and SharePoint.
 
-- [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)].
+- Visual Studio 2012.
 
 ## Create a SharePoint project
  First, create a SharePoint project.

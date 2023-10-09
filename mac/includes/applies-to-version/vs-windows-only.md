@@ -5,4 +5,4 @@ ms.date: 04/21/2022
 ms.author: ghogen
 ---
 
-[!INCLUDE [Applies to](../../includes/applies-md.md)] [!INCLUDE [Visual Studio](./_vs-windows.md)] [!INCLUDE [Visual Studio for Mac](./_not-vs-mac.md)]
+  **Applies to:**   [!INCLUDE [Visual Studio](./_vs-windows.md)] [!INCLUDE [Visual Studio for Mac](./_not-vs-mac.md)]

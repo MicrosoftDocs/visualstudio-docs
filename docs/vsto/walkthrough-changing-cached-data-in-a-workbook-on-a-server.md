@@ -51,7 +51,7 @@ ms.workload:
 
 - [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
-- [!INCLUDE[Excel_14_short](../vsto/includes/excel-14-short-md.md)].
+-  Excel 2010 .
 
 - Access to a running instance of Microsoft SQL Server or Microsoft SQL Server Express that has the AdventureWorksLT sample database attached to it. You can download the AdventureWorksLT database from the [SQL Server Samples GitHub repo](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks). For more information about attaching a database, see the following topics:
 
@@ -64,7 +64,7 @@ ms.workload:
 
 ### To create the class library project
 
-1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start Visual Studio.
 
 2. On the **File** menu, point to **New**, and then click **Project**.
 
@@ -80,7 +80,7 @@ ms.workload:
 
 8. Click **OK**.
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] adds the **AdventureWorksDataSet** project to **Solution Explorer** and opens the **Class1.cs** or **Class1.vb** code file.
+     Visual Studio adds the **AdventureWorksDataSet** project to **Solution Explorer** and opens the **Class1.cs** or **Class1.vb** code file.
 
 9. In **Solution Explorer**, right-click **Class1.cs** or **Class1.vb**, and then click **Delete**. You do not need this file for this walkthrough.
 
@@ -142,7 +142,7 @@ ms.workload:
 
 7. Ensure that **Create a new document** is selected, and click **OK**.
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the **AdventureWorksReport** workbook in the designer and adds the **AdventureWorksReport** project to **Solution Explorer**.
+     Visual Studio opens the **AdventureWorksReport** workbook in the designer and adds the **AdventureWorksReport** project to **Solution Explorer**.
 
 ## Add the dataset to data sources in the Excel workbook project
  Before you can display the dataset in the Excel workbook, you must first add the dataset to data sources in the Excel workbook project.
@@ -241,7 +241,7 @@ ms.workload:
 
 5. Click **OK**.
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] adds the **DataWriter** project to **Solution Explorer** and opens the **Program.cs** or **Module1.vb** code file.
+     Visual Studio adds the **DataWriter** project to **Solution Explorer** and opens the **Program.cs** or **Module1.vb** code file.
 
 ## Change data in the cached dataset by using the console application
  Use the <xref:Microsoft.VisualStudio.Tools.Applications.ServerDocument> class in the console application to read the data into a local `AdventureWorksLTDataSet` object, modify this data, and then save it back to the cached dataset.

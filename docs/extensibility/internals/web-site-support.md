@@ -20,7 +20,7 @@ A Web site project system is a project system that creates Web projects. Web pro
 
  Web site project systems are created by adding templates and registration attributes to an existing project system. One of these attributes selects the IntelliSense provider for the language. The IntelliSense provider implementation handles references and calls the language compiler when a smart Web page that is not cached is requested.
 
- The language compiler used to compile Web pages must be registered with [!INCLUDE[vstecasp](../../code-quality/includes/vstecasp_md.md)]. You can use the [\<compiler> Element](/dotnet/framework/configure-apps/file-schema/compiler/compiler-element) in a Web.config file to register the compiler, as in the following example:
+ The language compiler used to compile Web pages must be registered with ASP.NET. You can use the [\<compiler> Element](/dotnet/framework/configure-apps/file-schema/compiler/compiler-element) in a Web.config file to register the compiler, as in the following example:
 
 ```
 <system.codedom>  <compilers>    <compiler language="py;IronPython" extension=".py"       type="IronPython.CodeDom.PythonProvider, IronPython,       Version=1.0.2391.18146, Culture=neutral,       PublicKeyToken=b03f5f7f11d50a3a" />  </compilers></system.codedom>
@@ -33,7 +33,7 @@ A Web site project system is a project system that creates Web projects. Web pro
 
 - [Web Site Support Attributes](../../extensibility/internals/web-site-support-attributes.md)
 
- Presents the registration attributes that connect a Web site project to [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and [!INCLUDE[vstecasp](../../code-quality/includes/vstecasp_md.md)].
+ Presents the registration attributes that connect a Web site project to Visual Studio and ASP.NET.
 
 ## Related Sections
 - [Web Projects](../../extensibility/internals/web-projects.md)

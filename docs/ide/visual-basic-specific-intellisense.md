@@ -41,7 +41,7 @@ You can manually invoke completion by invoking List Members, Complete Word, or *
 
 ## IntelliSense in Zone
 
-IntelliSense in Zone assists Visual Basic developers who need to deploy applications through [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] and are constrained to partial trust settings. This feature:
+IntelliSense in Zone assists Visual Basic developers who need to deploy applications through ClickOnce and are constrained to partial trust settings. This feature:
 
 - Enables you to choose the permissions the application will run with.
 

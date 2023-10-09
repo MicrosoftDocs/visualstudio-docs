@@ -63,4 +63,4 @@ Provides links to information about creating Office solutions.
 
 [General reference &#40;Office development in Visual Studio&#41;](../vsto/general-reference-office-development-in-visual-studio.md)
 
-Provides links to information about user interface elements in Office projects, application and deployment manifests for Office projects, and APIs in the [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)].
+Provides links to information about user interface elements in Office projects, application and deployment manifests for Office projects, and APIs in the  Visual Studio Tools for Office runtime .

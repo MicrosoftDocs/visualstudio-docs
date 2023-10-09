@@ -68,7 +68,7 @@ The following commands take arguments or switches:
 | [Set Current Stack Frame](../../ide/reference/set-current-stack-frame-command.md) | Allows you to view a particular stack frame. |
 | [Set Current Thread](../../ide/reference/set-current-thread-command.md) | Allows you to view a particular thread. |
 | [Set Radix](../../ide/reference/set-radix-command.md) | Determines the number of bytes to view. |
-| [Shell](../../ide/reference/shell-command.md) | Launches programs from within [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] as though the command has been executed from the command prompt. |
+| [Shell](../../ide/reference/shell-command.md) | Launches programs from within Visual Studio as though the command has been executed from the command prompt. |
 | [ShowWebBrowser Command](../../ide/reference/showwebbrowser-command.md) | Displays the URL you specify in a web browser window either within the integrated development environment (IDE) or external to the IDE. |
 | [Start](../../ide/reference/start-command.md) | Begins the debug process and allows you to specify how errors are handled. |
 | [Path](../../ide/reference/symbol-path-command.md) | Sets the list of directories for the debugger to search for symbols. |

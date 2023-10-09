@@ -27,7 +27,7 @@ Server-side script files are visible in Solution Explorer. Client-side script fi
 For some application types that dynamically generate pages, it is easier to enter break mode and debug when you set a breakpoint from a script document that is loaded in the browser. Similarly, you can add the `debugger` statement from a loaded script document to enter break mode. This article shows how to view these documents.
 
 > [!NOTE]
-> Previous to [!INCLUDE[vs_dev11_long](../data-tools/includes/vs_dev11_long_md.md)], client-side script files generated from server-side script appeared in the Script Explorer window.
+> Previous to Visual Studio 2012, client-side script files generated from server-side script appeared in the Script Explorer window.
 
 ### To view a server-side script document
 

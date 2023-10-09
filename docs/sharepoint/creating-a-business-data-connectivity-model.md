@@ -27,7 +27,7 @@ ms.workload:
  To create a new model, create a **Business Data Connectivity Model** project or add a **Business Data Connectivity Model** item to an **Empty SharePoint Project**.
 
 > [!NOTE]
-> You must have [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)] installed on your computer.
+> You must have  Microsoft SharePoint Server installed on your computer.
 
  Visual Studio adds a folder to the project. This folder has the name that you specify for the **Business Data Connectivity Model** item in the **Add New Item** dialog box. If you create a new **Business Data Connectivity Model** project, Visual Studio names the folder **BdcModel1**.
 

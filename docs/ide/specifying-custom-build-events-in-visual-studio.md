@@ -41,7 +41,7 @@ For best results, follow these formatting tips:
 
 - Enclose file paths in quotation marks.
 
-   Example (for [!INCLUDE[win8](../debugger/includes/win8_md.md)]): "%ProgramFiles(x86)%\Microsoft SDKs\Windows\v8.0A\Bin\NETFX 4.0 Tools\gacutil.exe" -if "$(TargetPath)"
+   Example (for Windows 8): "%ProgramFiles(x86)%\Microsoft SDKs\Windows\v8.0A\Bin\NETFX 4.0 Tools\gacutil.exe" -if "$(TargetPath)"
 
 - Separate multiple commands by using line breaks.
 

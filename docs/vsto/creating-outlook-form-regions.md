@@ -165,7 +165,7 @@ ms.workload:
   Outlook uses this information to load the form regions.
 
 ## <a name="Debugging"></a> Debug a form region
- You can debug an Outlook VSTO Add-in that contains a form region just as you would debug other [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] projects. When you start the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] debugger, Visual Studio automatically starts Outlook.
+ You can debug an Outlook VSTO Add-in that contains a form region just as you would debug other Visual Studio projects. When you start the Visual Studio debugger, Visual Studio automatically starts Outlook.
 
  To view the form region, you must open the appropriate Outlook item. For example, if an adjoining form region is appended to the bottom of a mail item, open a mail item.
 

@@ -54,7 +54,7 @@ ms.workload:
 
 - [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
-- Microsoft [!INCLUDE[Outlook_15_short](../vsto/includes/outlook-15-short-md.md)] or Microsoft Outlook 2010.
+- Microsoft  Outlook 2013  or Microsoft Outlook 2010.
 
 ## Create the project
  Custom task panes are implemented in VSTO Add-ins. Start by creating a VSTO Add-in project for Outlook.
@@ -63,7 +63,7 @@ ms.workload:
 
 1. Create an **Outlook Add-in** project with the name **OutlookMailItemTaskPane**. Use the **Outlook Add-in** project template. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the *ThisAddIn.cs* or *ThisAddIn.vb* code file and adds the **OutlookMailItemTaskPane** project to **Solution Explorer**.
+     Visual Studio opens the *ThisAddIn.cs* or *ThisAddIn.vb* code file and adds the **OutlookMailItemTaskPane** project to **Solution Explorer**.
 
 ## Design the user interface of the custom task pane
  There is no visual designer for custom task panes, but you can design a user control with the UI you want. The custom task pane in this VSTO Add-in has a simple UI that contains a <xref:System.Windows.Forms.TextBox> control. Later in this walkthrough, you will add the user control to the custom task pane.

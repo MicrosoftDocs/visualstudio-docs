@@ -51,11 +51,11 @@ Notice that delayed loading may also improve start-up performance.
 
 You can program VSPackage commands to be visible or hidden, depending on the current state of the VSPackage data or the actions that are currently relevant. You can enable the VSPackage to set the state of its commands, typically by using an implementation of the <xref:EnvDTE.IDTCommandTarget.QueryStatus%2A> method from the <xref:Microsoft.VisualStudio.OLE.Interop.IOleCommandTarget> interface, but this requires the VSPackage to be loaded before it can execute the code. Instead, we recommend that you enable the IDE to manage the visibility of the commands without loading the package. To do this, in the .vsct file, associate commands with one or more special UI contexts. These UI contexts are identified by a GUID known as a *command context GUID*.
 
-[!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] monitors changes that result from user actions such as loading a project or going from editing to building. As changes occur, the appearance of the IDE is automatically modified. The following table shows four major contexts of IDE change that [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] monitors.
+Visual Studio monitors changes that result from user actions such as loading a project or going from editing to building. As changes occur, the appearance of the IDE is automatically modified. The following table shows four major contexts of IDE change that Visual Studio monitors.
 
 | Type of Context | Description |
 |-------------------------| - |
-| Active Project Type | For most project types, this `GUID` value is the same as the GUID of the VSPackage that implements the project. However, [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] projects use the Project Type `GUID` as the value. |
+| Active Project Type | For most project types, this `GUID` value is the same as the GUID of the VSPackage that implements the project. However, Visual C++ projects use the Project Type `GUID` as the value. |
 | Active Window | Typically, this is the last active document window that establishes the current UI context for key bindings. However, it could also be a tool window that has a key binding table that resembles the internal Web browser. For multi-tabbed document windows such as the HTML editor, every tab has a different command context `GUID`. |
 | Active Language Service | The language service that is associated with the file that is currently displayed in a text editor. |
 | Active Tool Window | A tool window that is open and has focus. |

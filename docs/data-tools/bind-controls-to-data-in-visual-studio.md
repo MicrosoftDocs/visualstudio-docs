@@ -35,7 +35,7 @@ In the context of data binding, a data source represents the data in memory that
 | Dataset | Yes | Yes | No |
 | Entity Data Model | Yes<sup>1</sup> | Yes | Yes |
 | LINQ to SQL classes | No<sup>2</sup> | No<sup>2</sup> | No<sup>2</sup> |
-| Services (including [!INCLUDE[ssAstoria](../data-tools/includes/ssastoria_md.md)], WCF services, and web services) | Yes | Yes | Yes |
+| Services (including WCF Data Services, WCF services, and web services) | Yes | Yes | Yes |
 | Object | Yes | Yes | Yes |
 | SharePoint | Yes | Yes | Yes |
 

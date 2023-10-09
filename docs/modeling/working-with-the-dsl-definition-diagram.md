@@ -22,10 +22,10 @@ ms.workload:
 # Working with the DSL Definition Diagram
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-The diagram of a [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] definition is an important tool for defining the domain-specific language. You can add elements to your domain model and define relationships on the diagram, and you can modify the layout of the diagram to make it more readable.
+The diagram of a Domain-Specific Language Tools definition is an important tool for defining the domain-specific language. You can add elements to your domain model and define relationships on the diagram, and you can modify the layout of the diagram to make it more readable.
 
 ## The Layout of the Diagram
- The [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] definition diagram has two partitions, the **Classes and Relationships** partition and the **Diagram Elements** partition. The **Classes and Relationships** partition displays domain classes, domain relationships, and inheritance. The **Diagram Elements** partition displays shape classes, connector classes, swimlane classes, and the generated designer diagram.
+ The Domain-Specific Language Tools definition diagram has two partitions, the **Classes and Relationships** partition and the **Diagram Elements** partition. The **Classes and Relationships** partition displays domain classes, domain relationships, and inheritance. The **Diagram Elements** partition displays shape classes, connector classes, swimlane classes, and the generated designer diagram.
 
  Domain classes can appear in multiple locations in the **Classes and Relationships** partitions. A domain class definition displays an inheritance tree if it is the base class for other domain classes, and a relationships tree if it is the source of embedding or reference relationships. Domain class placeholders appear as the targets of embedding or reference relationships. By default, placeholder elements are displayed with the **Domain Properties** compartment collapsed. They do not show inheritance, or embedding or reference relationships.
 

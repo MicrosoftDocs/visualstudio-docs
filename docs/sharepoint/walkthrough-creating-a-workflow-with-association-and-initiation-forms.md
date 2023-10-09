@@ -35,7 +35,7 @@ ms.workload:
 
   This walkthrough illustrates the following tasks:
 
-- Creating a SharePoint list definition sequential workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+- Creating a SharePoint list definition sequential workflow project in Visual Studio.
 
 - Creating a workflow schedule.
 
@@ -50,17 +50,17 @@ ms.workload:
 > [!NOTE]
 > Although this walkthrough uses a sequential workflow project, the process is the same for state machine workflows.
 >
-> Also, your computer might show different names or locations for some of the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] user interface elements in the following instructions. The [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
+> Also, your computer might show different names or locations for some of the Visual Studio user interface elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md).
 
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
-- Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
+- Supported editions of Microsoft Windows and SharePoint.
 
 - Visual Studio.
 
 ## Create a SharePoint sequential workflow project
- First, create a sequential workflow project in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. A sequential workflow is a series of steps that executes in order until the last activity finishes. In this procedure, you will create a sequential workflow that applies to the Shared Documents list in SharePoint. The workflow's wizard lets you associate the workflow with either the site or the list definition and lets you determine when the workflow will start.
+ First, create a sequential workflow project in Visual Studio. A sequential workflow is a series of steps that executes in order until the last activity finishes. In this procedure, you will create a sequential workflow that applies to the Shared Documents list in SharePoint. The workflow's wizard lets you associate the workflow with either the site or the list definition and lets you determine when the workflow will start.
 
 #### To create a SharePoint sequential workflow project
 
@@ -132,7 +132,7 @@ ms.workload:
 3. Expand the **ExpenseReportAssocForm.aspx** file in **Solution Explorer** to display its dependent files.
 
     > [!NOTE]
-    > If your project is in [!INCLUDE[vbprvb](../sharepoint/includes/vbprvb-md.md)], you must choose the **View All Files** button to perform this step.
+    > If your project is in Visual Basic, you must choose the **View All Files** button to perform this step.
 
 4. Open the shortcut menu for the ExpenseReportAssocForm.aspx file and choose **View Code**.
 
@@ -400,7 +400,7 @@ ms.workload:
 
 9. Choose the **F5** key to debug the program.
 
-     This compiles the application, packages it, deploys it, activates its features, recycles the [!INCLUDE[TLA2#tla_iis5](../sharepoint/includes/tla2sharptla-iis5-md.md)] application pool, and then starts the browser at the location specified in the **Site Url** property.
+     This compiles the application, packages it, deploys it, activates its features, recycles the  IIS  application pool, and then starts the browser at the location specified in the **Site Url** property.
 
 ## Associating the workflow to the documents list
  Next, display the workflow association form by associating the workflow with the **SharedDocuments** list on the SharePoint site.

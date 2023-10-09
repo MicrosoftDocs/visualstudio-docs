@@ -56,7 +56,7 @@ objMyObject = MyPrj.Object 'You call .Object to get to special Project
 objMyObject.MySpecialMethodOrProperty
 ```
 
- The following code lists the names of all of the properties in the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] environment **General** option on the **Tools** menu:
+ The following code lists the names of all of the properties in the Visual Studio environment **General** option on the **Tools** menu:
 
 ```vb
 dim objDTE

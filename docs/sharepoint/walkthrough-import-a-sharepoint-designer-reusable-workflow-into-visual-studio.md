@@ -23,11 +23,11 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-  This walkthrough demonstrates how to import a reusable workflow created in SharePoint Designer 2010 into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint workflow project.
+  This walkthrough demonstrates how to import a reusable workflow created in SharePoint Designer 2010 into a Visual Studio SharePoint workflow project.
 
- Workflows created in SharePoint Designer, or *declarative workflows*, consist of [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] statements instead of code. SharePoint Designer 2010 introduces *reusable workflows*, which are portable, declarative workflows that can be used by different lists in SharePoint sites.
+ Workflows created in SharePoint Designer, or *declarative workflows*, consist of XML statements instead of code. SharePoint Designer 2010 introduces *reusable workflows*, which are portable, declarative workflows that can be used by different lists in SharePoint sites.
 
- Workflows created in [!INCLUDE[vs_dev11_long](../sharepoint/includes/vs-dev11-long-md.md)], such as sequential and state machine workflows, are called *code workflows*. Code workflows consist of XML files and code modules in which users can customize the workflow's behavior.
+ Workflows created in Visual Studio 2012, such as sequential and state machine workflows, are called *code workflows*. Code workflows consist of XML files and code modules in which users can customize the workflow's behavior.
 
  Visual Studio allows you to import reusable workflows created in SharePoint Designer 2010 and convert them to code workflows for use in your SharePoint sites.
 
@@ -37,7 +37,7 @@ ms.workload:
 
 - Exporting the SharePoint Designer reusable workflow to a *.wsp* file and into SharePoint.
 
-- Importing the *.wsp* file into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by using the Import Reusable Workflow project.
+- Importing the *.wsp* file into Visual Studio by using the Import Reusable Workflow project.
 
 - Altering the workflow by adding code.
 
@@ -48,11 +48,11 @@ ms.workload:
 ## Prerequisites
  You need the following components to complete this walkthrough:
 
-- Supported editions of [!INCLUDE[TLA#tla_win](../sharepoint/includes/tlasharptla-win-md.md)] and SharePoint.
+- Supported editions of Microsoft Windows and SharePoint.
 
 - Visual Studio.
 
-- Microsoft [!INCLUDE[TLA2#tla_office](../sharepoint/includes/tla2sharptla-office-md.md)] SharePoint Designer 2010.
+- Microsoft  Office  SharePoint Designer 2010.
 
 ## Create target SharePoint subsites
  First you create two new SharePoint subsites: one to host the reusable workflows from SharePoint Designer, another to host the converted workflows.
@@ -73,7 +73,7 @@ ms.workload:
 
     This opens the new subsite into SharePoint Designer. Close this instance of SharePoint Designer and go back to the first instance (the top-level site).
 
-6. Repeat steps 3 - 5 to create the second subsite, this time replacing the word **subsite** in the [!INCLUDE[TLA2#tla_url](../sharepoint/includes/tla2sharptla-url-md.md)] with **SPD2**.
+6. Repeat steps 3 - 5 to create the second subsite, this time replacing the word **subsite** in the URL with **SPD2**.
 
 ## Create a SharePoint Designer reusable workflow
  Because SharePoint does not include any reusable workflows that you can use for this example, you will create one. In this simple workflow, when a user enters a new task in the Task list that has a specific title, the task is assigned to that user.
@@ -121,7 +121,7 @@ ms.workload:
      The action statement now reads **Set Assigned To to Current Item:CreatedBy**.
 
 ## Save and deploy the reusable workflow
- Because [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] can import only *.wsp* files, you must save the reusable workflow as a *.wsp* file and deploy it to SharePoint before importing it into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+ Because Visual Studio can import only *.wsp* files, you must save the reusable workflow as a *.wsp* file and deploy it to SharePoint before importing it into Visual Studio.
 
 > [!IMPORTANT]
 > If you receive a runtime error performing the following procedure, you have to perform the procedure on a system that has access to the SharePoint site.
@@ -149,11 +149,11 @@ ms.workload:
 9. In the **File Download** dialog box, choose the **Save** button to save the *.wsp* file on your local system.
 
 ## Import the .wsp file into Visual Studio
- Import the *.wsp* file into [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by using an Import Reusable Workflow project. This project converts the workflow from a reusable, declarative workflow into a code workflow. After the workflow is converted, you will use code to modify its behavior.
+ Import the *.wsp* file into Visual Studio by using an Import Reusable Workflow project. This project converts the workflow from a reusable, declarative workflow into a code workflow. After the workflow is converted, you will use code to modify its behavior.
 
 #### To import a workflow from a .wsp file and modify it
 
-1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], on the menu bar, choose **File** > **New** > **Project**.
+1. In Visual Studio, on the menu bar, choose **File** > **New** > **Project**.
 
 2. In the **New Project** dialog box, expand the **SharePoint** node under either **Visual C#** or **Visual Basic**, and then choose the **2010** node.
 
@@ -161,7 +161,7 @@ ms.workload:
 
     The SharePoint Customization Wizard appears.
 
-4. On the **Specify the site and security level for debugging** page, enter the [!INCLUDE[TLA2#tla_url](../sharepoint/includes/tla2sharptla-url-md.md)] for the second SharePoint subsite that you created previously: http://<em>system name</em>/SPD2.
+4. On the **Specify the site and security level for debugging** page, enter the URL for the second SharePoint subsite that you created previously: http://<em>system name</em>/SPD2.
 
 5. In the **What is the trust level for this SharePoint solution?** section, choose the **Deploy as a farm solution** option button, and then choose the **Next** button.
 
@@ -233,7 +233,7 @@ ms.workload:
 
 #### To deploy the project and associate the workflow
 
-1. In [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], choose the **F5** key to run and deploy the converted workflow project.
+1. In Visual Studio, choose the **F5** key to run and deploy the converted workflow project.
 
 2. On the QuickLaunch bar, choose the **Tasks** link to display the Tasks list.
 

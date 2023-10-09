@@ -52,7 +52,7 @@ typedef DWORD PROCESS_INFO_FLAGS;
 Indicates that the process is a system process.
 
 `PIFLAG_DEBUGGER_ATTACHED`\
-Indicates that the process is being debugged by a debugger. It may be a [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] debugger, or it may be some other debugger, for example, WinDbg.
+Indicates that the process is being debugged by a debugger. It may be a Visual Studio debugger, or it may be some other debugger, for example, WinDbg.
 
 `PIFLAG_PROCESS_STOPPED`\
 Indicates the process is stopped. Valid only if `PIFLAG_DEBUGGER_ATTACHED` is also specified. Available in Visual Studio 2005 and later.

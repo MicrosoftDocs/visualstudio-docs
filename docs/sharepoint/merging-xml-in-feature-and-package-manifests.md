@@ -18,20 +18,20 @@ ms.workload:
 # Merge XML in feature and package manifests
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-  Features and packages are defined by [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] manifest files. These packaged manifests are a combination of data generated from designers and custom [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] entered in the manifest template by users. At packaging time, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] merges the custom [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] statements with the designer-provided [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] to form the packaged [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] manifest file. Similar elements, with the exceptions noted later in Merge Exceptions, are merged to avoid [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] validation errors after you deploy the files to SharePoint, and to make the manifest files smaller and more efficient.
+  Features and packages are defined by XML manifest files. These packaged manifests are a combination of data generated from designers and custom XML entered in the manifest template by users. At packaging time, Visual Studio merges the custom XML statements with the designer-provided XML to form the packaged XML manifest file. Similar elements, with the exceptions noted later in Merge Exceptions, are merged to avoid XML validation errors after you deploy the files to SharePoint, and to make the manifest files smaller and more efficient.
 
 ## Modify the manifests
- You cannot directly modify the packaged manifest files until you disable the feature or package designers. However, you can manually add custom [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] elements to the manifest template either through the feature and package designers or the [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] editor. For more information, see [How to: Customize a SharePoint Feature](../sharepoint/how-to-customize-a-sharepoint-feature.md) and [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md).
+ You cannot directly modify the packaged manifest files until you disable the feature or package designers. However, you can manually add custom XML elements to the manifest template either through the feature and package designers or the XML editor. For more information, see [How to: Customize a SharePoint Feature](../sharepoint/how-to-customize-a-sharepoint-feature.md) and [How to: Customize a SharePoint solution package](../sharepoint/how-to-customize-a-sharepoint-solution-package.md).
 
 ## Feature and package manifest merge process
- When combining custom elements together with designer-provided elements, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] uses the following process. [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] checks whether each element has a unique key value. If an element has no unique key value, it is appended to the packaged manifest file. Similarly, elements that have multiple keys cannot be merged. Therefore, they are appended to the manifest file.
+ When combining custom elements together with designer-provided elements, Visual Studio uses the following process. Visual Studio checks whether each element has a unique key value. If an element has no unique key value, it is appended to the packaged manifest file. Similarly, elements that have multiple keys cannot be merged. Therefore, they are appended to the manifest file.
 
- If an element has a unique key, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] compares the values of the designer and custom keys. If the values match, they merge into a single value. If the values differ, the designer key value is discarded and the custom key value is used. Collections are also merged. For example, if the designer-generated [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] and the custom [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] both contain an Assemblies collection, the packaged manifest contains only one Assemblies collection.
+ If an element has a unique key, Visual Studio compares the values of the designer and custom keys. If the values match, they merge into a single value. If the values differ, the designer key value is discarded and the custom key value is used. Collections are also merged. For example, if the designer-generated XML and the custom XML both contain an Assemblies collection, the packaged manifest contains only one Assemblies collection.
 
 ## Merge exceptions
- [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] merges most designer [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] elements together with similar custom [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] elements as long as they have a single, unique identifying attribute. However, some elements lack the unique identifier required for [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] merging. These elements are known as *merge exceptions*. In these cases, [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] does not merge the custom [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] elements together with the designer-provided [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] elements, but instead appends them to the packaged manifest file.
+ Visual Studio merges most designer XML elements together with similar custom XML elements as long as they have a single, unique identifying attribute. However, some elements lack the unique identifier required for XML merging. These elements are known as *merge exceptions*. In these cases, Visual Studio does not merge the custom XML elements together with the designer-provided XML elements, but instead appends them to the packaged manifest file.
 
- Following is a list of merge exceptions for feature and package [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] manifest files.
+ Following is a list of merge exceptions for feature and package XML manifest files.
 
 |Designer|XML Element|
 |--------------|-----------------|
@@ -53,7 +53,7 @@ ms.workload:
 |CustomUpgradeActionParameter|Name|
 
 > [!NOTE]
-> Because the only way to modify the CustomUpgradeAction element is in the custom [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] editor, the effect of not merging is low.
+> Because the only way to modify the CustomUpgradeAction element is in the custom XML editor, the effect of not merging is low.
 
 ## Package manifest elements
  The following table is a list of all package manifest elements that can be merged and their unique key that is used for matching.

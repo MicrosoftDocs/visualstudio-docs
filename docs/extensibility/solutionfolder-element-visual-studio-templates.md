@@ -58,7 +58,7 @@ Groups projects in multi-project templates.
 |`SolutionFolder`|Groups projects in multi-project templates.|
 
 ## Remarks
- Multi-project templates act as containers for two or more projects. The `SolutionFolder` element is used to organize the projects in the template into groups. The folders specified by `SolutionFolder` elements are created as solution folders in the project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. For more information on multi-project templates, see [How to: Create Multi-Project Templates](../ide/how-to-create-multi-project-templates.md).
+ Multi-project templates act as containers for two or more projects. The `SolutionFolder` element is used to organize the projects in the template into groups. The folders specified by `SolutionFolder` elements are created as solution folders in the project in Visual Studio. For more information on multi-project templates, see [How to: Create Multi-Project Templates](../ide/how-to-create-multi-project-templates.md).
 
 ## Example
  This example uses the `SolutionFolder` element to divide the multi-project template into two groups, `Math Classes` and `Graphics Classes`. The template contains four projects, two of which are placed in each solution folder.

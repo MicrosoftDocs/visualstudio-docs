@@ -22,7 +22,7 @@ ms.workload:
 # Debugging Preparation: C++ Project Types
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-This section describes how to debug the basic project types created by the [!INCLUDE[vcprvc](../code-quality/includes/vcprvc_md.md)] project templates.
+This section describes how to debug the basic project types created by the Visual C++ project templates.
 
  Note that those project types that create DLLs as their output have been grouped into [Debugging DLL Projects](../debugger/debugging-dll-projects.md) because of the common features they share.
 
@@ -53,11 +53,11 @@ This section describes how to debug the basic project types created by the [!INC
  [In this topic](../debugger/debugging-preparation-visual-cpp-project-types.md#BKMK_In_this_topic)
 
 ## <a name="BKMK_Win32_Projects"></a> Win32 projects
- Win32 applications are traditional Windows programs written in C or C++. Debugging this type of application in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is straightforward.
+ Win32 applications are traditional Windows programs written in C or C++. Debugging this type of application in Visual Studio is straightforward.
 
  Win32 applications include MFC applications and ATL projects. They use Windows APIs and may use MFC or ATL, but they do not use the common language runtime (CLR). They can, however, call managed code that uses the CLR.
 
- The following procedure explains how to debug a Win32 project from within [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. Another way to debug a Win32 application is to start the application outside of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and attach to it. For more information, see [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
+ The following procedure explains how to debug a Win32 project from within Visual Studio. Another way to debug a Win32 application is to start the application outside of Visual Studio and attach to it. For more information, see [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
 
 ### <a name="BKMK_To_debug_a_C_or_C___Win32_application"></a> To debug a C or C++ Win32 application
 

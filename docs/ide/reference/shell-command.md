@@ -24,7 +24,7 @@ ms.workload:
 # Shell Command
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-Launches executable programs from within [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+Launches executable programs from within Visual Studio.
 
 ## Syntax
 

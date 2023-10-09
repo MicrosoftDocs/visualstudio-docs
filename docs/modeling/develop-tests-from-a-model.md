@@ -15,7 +15,7 @@ ms.workload:
 # Develop tests from a model
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-You can use requirements and architectural models to help you organize the tests of your system and its components. This practice helps ensure that you test the requirements that are important to the users and other stakeholders, and it helps you update the tests quickly when the requirements change. If you use [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)], you can also maintain links between the models and the tests.
+You can use requirements and architectural models to help you organize the tests of your system and its components. This practice helps ensure that you test the requirements that are important to the users and other stakeholders, and it helps you update the tests quickly when the requirements change. If you use Microsoft Test Manager, you can also maintain links between the models and the tests.
 
  To see which versions of Visual Studio support these features, see [Version support for architecture and modeling tools](../modeling/analyze-and-model-your-architecture.md#VersionSupport).
 
@@ -34,7 +34,7 @@ You can use requirements and architectural models to help you organize the tests
  You can create and maintain a relationship between system tests and a requirements model. To establish this relationship, you write tests that correspond to the main elements of the requirements model. Visual Studio helps you maintain that relationship by letting you create links between the tests and parts of the model. For more information about requirements models, see [Model user requirements](../modeling/model-user-requirements.md).
 
 ### Write Tests for Each Use Case
- If you use [!INCLUDE[TCMext](../misc/includes/tcmext_md.md)], you can create a group of tests for each use case that you defined in your requirements model. For example, if you have a use case Order a Meal, which includes Create Order and Add Item to Order, you can create tests for both the overall and the more detailed of these use cases.
+ If you use Microsoft Test Manager, you can create a group of tests for each use case that you defined in your requirements model. For example, if you have a use case Order a Meal, which includes Create Order and Add Item to Order, you can create tests for both the overall and the more detailed of these use cases.
 
  These guidelines might be helpful:
 
@@ -51,13 +51,13 @@ You can use requirements and architectural models to help you organize the tests
 - When you design the tests, separate the choice of test data from the code or script that determines whether the postcondition has been achieved. For example, a test of a simple arithmetic function might be: Input 4; verify that the output is 2. Instead, design the script as: Choose an input; multiply the output by itself, and verify that the result is the original input. This style enables you to vary the test inputs without changing the main body of the test.
 
 #### Linking tests to use cases
- If you are using [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)] to design and run your tests, you can organize your tests under requirement, use case, or user story work items. You can link these work items to use cases in your model. This enables you to quickly trace requirements changes to the tests, and helps you track the progress of each use case.
+ If you are using Test Manager to design and run your tests, you can organize your tests under requirement, use case, or user story work items. You can link these work items to use cases in your model. This enables you to quickly trace requirements changes to the tests, and helps you track the progress of each use case.
 
 ###### To link tests to a use case
 
-1. In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it.
+1. In Test Manager, create a requirement and base a test suite on it.
 
-    The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with Team Foundation. For more information, see [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts&preserve-view=true).
+    The requirement that you create is a work item in Team Foundation Server. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with Team Foundation. For more information, see [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts&preserve-view=true).
 
 2. Link the requirement work item to one or more use cases in your model.
 
@@ -127,7 +127,7 @@ Assert (countAfter == countBefore = 1);
  From a testing point of view, a requirements model can be seen as a shorthand for the tests. Therefore, it's important to maintain the relationship between tests and model throughout the project.
 
 ## <a name="Attaching"></a> Attaching Test Cases to Model Elements
- If your project uses [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], you can link tests to the elements in your model. This lets you quickly find the tests affected by a change in the requirements, and helps you track the extent to which a requirement has been realized.
+ If your project uses Test Manager, you can link tests to the elements in your model. This lets you quickly find the tests affected by a change in the requirements, and helps you track the extent to which a requirement has been realized.
 
  You can link tests to all kinds of element. Here are some examples:
 
@@ -143,9 +143,9 @@ Assert (countAfter == countBefore = 1);
 
 #### To link tests to a model element or relationship
 
-1. In [!INCLUDE[TCMlong](../modeling/includes/tcmlong_md.md)], create a requirement and base a test suite on it.
+1. In Test Manager, create a requirement and base a test suite on it.
 
-    The requirement that you create is a work item in [!INCLUDE[vstsTfsShort](../modeling/includes/vststfsshort_md.md)]. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with Team Foundation. For more information, see [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts&preserve-view=true).
+    The requirement that you create is a work item in Team Foundation Server. It might be a User Story, Requirement, or Use Case work item, depending on the process template that your project uses with Team Foundation. For more information, see [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts&preserve-view=true).
 
 2. Link the requirement work item to one or more elements in your model.
 

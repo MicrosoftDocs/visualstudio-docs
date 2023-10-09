@@ -17,15 +17,15 @@ ms.workload:
 # Roadmap for extending the debugger
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-This documentation provides guide and reference information for extending the [!INCLUDE[vs_current_short](../../code-quality/includes/vs_current_short_md.md)] debugger with the [!INCLUDE[vsipsdk](../../extensibility/includes/vsipsdk_md.md)].
+This documentation provides guide and reference information for extending the Visual Studio debugger with the Visual Studio SDK.
 
- [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] debugging documentation includes samples, a comprehensive reference, and several representative scenarios that demonstrate typical ways to customize the debugger.
+ Visual Studio debugging documentation includes samples, a comprehensive reference, and several representative scenarios that demonstrate typical ways to customize the debugger.
 
  Your compiler and its output determine what's required to set up debugging in your product. If your compiler:
 
-- Targets the Windows native operating system and writes a *.PDB* file, you can debug programs with the native code debug engine (DE), which is integrated into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. You don't need to implement a DE or expression evaluator. The expression evaluator is written for the syntax of the C++ programming language.
+- Targets the Windows native operating system and writes a *.PDB* file, you can debug programs with the native code debug engine (DE), which is integrated into Visual Studio. You don't need to implement a DE or expression evaluator. The expression evaluator is written for the syntax of the C++ programming language.
 
-- Produces Microsoft intermediate language (MSIL) output, you can debug programs with the managed code debug engine DE, which is also integrated into [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. Thus, you need only implement an expression evaluator. A sample expression evaluator is provided for you. For more information, see the following topics:
+- Produces Microsoft intermediate language (MSIL) output, you can debug programs with the managed code debug engine DE, which is also integrated into Visual Studio. Thus, you need only implement an expression evaluator. A sample expression evaluator is provided for you. For more information, see the following topics:
 
    [Expression evaluation](../../extensibility/debugger/expression-evaluation-visual-studio-debugging-sdk.md)
 

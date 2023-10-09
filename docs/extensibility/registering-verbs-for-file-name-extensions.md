@@ -38,7 +38,7 @@ The association of a file name extension with an application generally has a pre
 > [!NOTE]
 > When registering standard verbs, do not set the default value for the Open key. The default value contains the display string on the menu. The operating system supplies this string for standard verbs.
 
- Project files should be registered to start a new instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] when a user opens the file. The following example illustrates a standard verb registration for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] project.
+ Project files should be registered to start a new instance of Visual Studio when a user opens the file. The following example illustrates a standard verb registration for a Visual C# project.
 
 ```
 [HKEY_CLASSES_ROOT\.csproj]
@@ -69,7 +69,7 @@ The association of a file name extension with an application generally has a pre
 @="\"C:\\Program Files\\Common Files\\Microsoft Shared\\MSEnv\\VSLauncher.exe\" \"%1\""
 ```
 
- To open a file in an existing instance of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], register a DDEEXEC key. The following example illustrates a standard verb registration for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] *.cs* file.
+ To open a file in an existing instance of Visual Studio, register a DDEEXEC key. The following example illustrates a standard verb registration for a Visual C# *.cs* file.
 
 ```
 [HKEY_CLASSES_ROOT\.cs]
