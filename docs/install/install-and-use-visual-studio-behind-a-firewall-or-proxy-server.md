@@ -1,7 +1,7 @@
 ---
 title: Install and use behind a firewall or proxy server
 description: Review the domain URLs, ports, and protocols that you might want to add to an allowlist or open if your organization uses a firewall or a proxy server
-ms.date: 06/02/2023
+ms.date: 10/10/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - network installation, Visual Studio
@@ -50,7 +50,7 @@ Because the Visual Studio Installer downloads files from various domains and the
 | marketplace.visualstudio.com          | Visual Studio Extensions download location  |
 | \*.gallerycdn.vsassets.io             | Visual Studio Extensions download location  |
 | visualstudio.microsoft.com            | Documentation location                      |
-| learn.microsoft.com                    | Documentation location                      |
+| learn.microsoft.com                   | Documentation location                      |
 | msdn.microsoft.com                    | Documentation location                      |
 | www\.microsoft.com                    | Documentation location                      |
 | \*.windows.net                        | Sign-in location                            |
@@ -58,6 +58,7 @@ Because the Visual Studio Installer downloads files from various domains and the
 | \*.live.com                           | Sign-in location                            |
 | github-releases.githubusercontent.com | Linux Development                           |
 | az837173.vo.msecnd.net                | Development with Azure Storage              |
+| github.com/git-for-windows            | Git for Windows                             |
 
 #### Non-Microsoft domains
 
@@ -67,9 +68,11 @@ Because the Visual Studio Installer downloads files from various domains and the
 | cocos2d-x.org                     | Game development with C++ (Cocos)                                                                                                           |
 | download.epicgames.com            | Game development with C++ (Unreal Engine)                                                                                                   |
 | download.oracle.com               | Mobile development with JavaScript (Java SDK) <br /><br />Mobile Development with .NET (Java SDK)                                           |
+| public-cdn.cloud.unity3d.com      | Game development with Unity (Unity)                                                                                                         |
 | download.unity3d.com              | Game development with Unity (Unity)                                                                                                         |
 | netstorage.unity3d.com            | Game development with Unity (Unity)                                                                                                         |
 | dl.google.com                     | Mobile development with JavaScript (Android SDK and NDK, Emulator) <br /><br />Mobile Development with .NET (Android SDK and NDK, Emulator) |
+| ib-downloads-official.s3.amazonaws.com | Game development with C++ (IncrediBuild)                                                                                               |
 | www\.incredibuild.com             | Game development with C++ (IncrediBuild)                                                                                                    |
 | incredibuildvs2017i.azureedge.net | Game development with C++ (IncrediBuild)                                                                                                    |
 | www\.python.org                   | Python development (Python) <br /><br />Data science and analytical applications (Python)                                                   |
@@ -77,7 +80,8 @@ Because the Visual Studio Installer downloads files from various domains and the
 | developer.apple.com               | Xamarin.iOS provisioning                                                                                                                    |
 | appstoreconnect.apple.com         | Xamarin.iOS provisioning                                                                                                                    |
 | idmsa.apple.com                   | Xamarin.iOS provisioning                                                                                                                    |
-| akamaized.net                      | Content Delivery Network (Akamai Technologies)                                                                                              |
+| akamaized.net                     | Content Delivery Network (Akamai Technologies)                                                                                              |
+| developer.arm.com                 | ARM Development                                                                                                                             |
 
 ## Use Visual Studio and Azure Services
 

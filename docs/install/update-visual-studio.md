@@ -42,6 +42,8 @@ There are several different ways to update an installation of Visual Studio. You
 
 ## Use the Visual Studio Installer
 
+Visual Studio setup features and bug fixes are typically implemented in the installer. The installer is now shipping in the most current release of all currently supported Visual Studio products. This means that in general (unless otherwise specified), all new setup functionality is automatically available and works seamlessly in older versions of the product.  
+
 1. Find the **Visual Studio Installer** on your computer. 
 
    In the Windows Start menu, you can search for "installer".
@@ -50,9 +52,6 @@ There are several different ways to update an installation of Visual Studio. You
 
    You might have to update the installer before continuing. If so, follow the prompts. 
    
->[!NOTE]
->Visual Studio setup features and bug fixes are typically implemented in the installer. The installer is now shipping in the most current release of all currently supported Visual Studio products. This means that in general (unless otherwise specified), all new setup functionality is automatically available and works seamlessly in older versions of the product.    
-
 1. In the installer, look for the instance of Visual Studio that you want to update.
 
    For example, if you previously installed Visual&nbsp;Studio Community&nbsp;2019 and there's an update for it, then an **Update available** message appears in the installer.
