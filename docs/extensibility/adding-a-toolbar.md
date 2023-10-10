@@ -38,21 +38,19 @@ This walkthrough shows how to add a toolbar to the Visual Studio IDE.
     ```xml
     <IDSymbol name="Toolbar" value="0x1000" />
     <IDSymbol name="ToolbarGroup" value="0x1050" />
-
     ```
 
 2. At the top of the Commands section, create a Menus section. Add a Menu element to the Menus section to define your toolbar.
 
     ```xml
     <Menus>
-        <Menu guid="guidToolbarTestCommandPackageCmdSet" id="Toolbar"
-            type="Toolbar" >
+        <Menu guid="guidToolbarTestCommandPackageCmdSet" id="Toolbar" type="Toolbar">
             <CommandFlag>DefaultDocked</CommandFlag>
             <Strings>
                 <ButtonText>Test Toolbar</ButtonText>
                 <CommandName>Test Toolbar</CommandName>
             </Strings>
-          </Menu>
+        </Menu>
     </Menus>
     ```
 
@@ -61,9 +59,8 @@ This walkthrough shows how to add a toolbar to the Visual Studio IDE.
 3. In the [Groups](../extensibility/groups-element.md) section, after the existing group entry, define a [Group](../extensibility/group-element.md) element to contain the commands for the toolbar.
 
     ```xml
-    <Group guid="guidToolbarTestCommandPackageCmdSet" id="ToolbarGroup"
-          priority="0x0000">
-      <Parent guid="guidToolbarTestCommandPackageCmdSet" id="Toolbar"/>
+    <Group guid="guidToolbarTestCommandPackageCmdSet" id="ToolbarGroup" priority="0x0000">
+        <Parent guid="guidToolbarTestCommandPackageCmdSet" id="Toolbar" />
     </Group>
     ```
 
@@ -72,7 +69,7 @@ This walkthrough shows how to add a toolbar to the Visual Studio IDE.
     ```xml
     <Button guid="guidToolbarTestCommandPackageCmdSet" id="ToolbarTestCommandId" priority="0x0100" type="Button">
         <Parent guid= "guidToolbarTestCommandPackageCmdSet" id="ToolbarGroup" />
-                <Icon guid="guidImages" id="bmpPic1" />
+        <Icon guid="guidImages" id="bmpPic1" />
         <Strings>
             <ButtonText>Invoke ToolbarTestCommand</ButtonText>
         </Strings>
