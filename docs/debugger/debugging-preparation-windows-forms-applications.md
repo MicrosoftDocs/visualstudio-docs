@@ -27,9 +27,9 @@ ms.workload:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-The Windows Forms App project template creates a Windows Forms application. Debugging this type of application in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] is straightforward. For information on creating a project of this type, see [Create a Windows Form App](../ide/create-csharp-winform-visual-studio.md).
+The Windows Forms App project template creates a Windows Forms application. Debugging this type of application in Visual Studio is straightforward. For information on creating a project of this type, see [Create a Windows Form App](../ide/create-csharp-winform-visual-studio.md).
 
- When you create a Windows Forms project with the project template, [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] automatically creates required settings for the Debug and Release configurations. If necessary, you can change these settings. These settings can be changed in the **\<project name> Property Pages** dialog box (**My Project** in Visual Basic).
+ When you create a Windows Forms project with the project template, Visual Studio automatically creates required settings for the Debug and Release configurations. If necessary, you can change these settings. These settings can be changed in the **\<project name> Property Pages** dialog box (**My Project** in Visual Basic).
 
  For more information, see [Recommended Property Settings](../debugger/managed-debugging-recommended-property-settings.md).
 
@@ -41,11 +41,11 @@ The Windows Forms App project template creates a Windows Forms application. Debu
 |-----------------------|-----------------|
 |**Start Action**|-   Set to **Start project,** most of the time. Set to **Start external program** if you want to start another executable when you start debugging (usually for debugging DLLs).|
 
- You can debug Windows Forms applications from inside [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)], or by attaching to an already running application. For more information about attaching, see [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
+ You can debug Windows Forms applications from inside Visual Studio, or by attaching to an already running application. For more information about attaching, see [Attach to Running Processes](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
 
 ### To debug a C#, F#, or Visual Basic Windows Forms application
 
-1. Open the project in [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
+1. Open the project in Visual Studio.
 
 2. Create breakpoints as needed.
 

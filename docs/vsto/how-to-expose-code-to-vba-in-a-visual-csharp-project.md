@@ -86,14 +86,14 @@ ms.workload:
    [System.Runtime.InteropServices.ComVisible(true)]
    ```
 
-9. Open the document (for Word) or worksheet (for Excel) in the designer in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+9. Open the document (for Word) or worksheet (for Excel) in the designer in Visual Studio.
 
 10. In the **Properties** window, select the **ReferenceAssemblyFromVbaProject** property, and change the value to **True**.
 
     > [!NOTE]
     > If the workbook or document does not already contain VBA code or if VBA code in the document is not trusted to run, you will receive an error message when you set the **ReferenceAssemblyFromVbaProject** property to **True**. This is because Visual Studio cannot modify the VBA project in the document in this situation.
 
-11. Click **OK** in the message that is displayed. This message reminds you that if you add VBA code to the workbook or document when running the project from [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)], the VBA code will be lost the next time that you build the project. This is because the document in the build output folder is overwritten every time that you build the project.
+11. Click **OK** in the message that is displayed. This message reminds you that if you add VBA code to the workbook or document when running the project from Visual Studio, the VBA code will be lost the next time that you build the project. This is because the document in the build output folder is overwritten every time that you build the project.
 
      At this point, Visual Studio configures the project so that the VBA project can call into the assembly. Visual Studio also adds a method named `GetManagedClass` to the VBA project. You can call this method from anywhere in the VBA project to access the class that you exposed to VBA.
 

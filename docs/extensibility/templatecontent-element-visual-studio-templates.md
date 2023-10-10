@@ -65,7 +65,7 @@ Element hierarchy:
  `TemplateContent` is a required element.
 
 ## Example
- The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] application.
+ The following example shows the metadata for a project template for a Visual C# application.
 
 ```xml
 <VSTemplate Type="Project" Version="3.0.0"

@@ -45,7 +45,7 @@ You need the following components to complete this walkthrough:
 
 First, create a web part project by using the **Visual Web Part** project template.
 
-1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] by using the **Run as Administrator** option.
+1. Start Visual Studio by using the **Run as Administrator** option.
 
 2. On the menu bar, choose **File** > **New** > **Project**.
 
@@ -148,7 +148,7 @@ When you run the project, the SharePoint site opens. The web part is automatical
 
 1. In Visual Studio, choose the **F5** key.
 
-     The SharePoint site opens, and the [!INCLUDE[wss_14_long](../sharepoint/includes/wss-14-long-md.md)] Quick Launch bar appears on the page.
+     The SharePoint site opens, and the  Microsoft SharePoint Foundation Quick Launch bar appears on the page.
 
 2. On the Quick Launch bar, under **Lists**, choose the **Calendar** link.
 

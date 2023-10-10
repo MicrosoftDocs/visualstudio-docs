@@ -24,7 +24,7 @@ dev_langs:
 This method gets the machine utilities for a server.
 
 > [!NOTE]
-> This method is obsolete: do not use ([!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] always returns `E_NOTIMPL` if this method is called). It is retained for historical reasons.
+> This method is obsolete: do not use (Visual Studio always returns `E_NOTIMPL` if this method is called). It is retained for historical reasons.
 
 ## Syntax
 
@@ -50,7 +50,7 @@ HRESULT GetMachineUtilities_V7(
  Always returns `E_NOTIMPL`, indicating that the method is not implemented.
 
 ## Remarks
- [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] always returns `E_NOTIMPL` if this method is called.
+ Visual Studio always returns `E_NOTIMPL` if this method is called.
 
 ## See also
 - [IDebugCoreServer2](../../../extensibility/debugger/reference/idebugcoreserver2.md)

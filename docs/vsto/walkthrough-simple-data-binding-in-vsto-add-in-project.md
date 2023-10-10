@@ -42,7 +42,7 @@ You need the following components to complete this walkthrough:
 
 - [!INCLUDE[vsto_vsprereq](../vsto/includes/vsto-vsprereq-md.md)]
 
-- [!INCLUDE[Word_15_short](../vsto/includes/word-15-short-md.md)] or [!INCLUDE[Word_14_short](../vsto/includes/word-14-short-md.md)].
+-  Word 2013  or  Word 2010 .
 
 - Access to a running instance of SQL Server 2005 or SQL Server 2005 Express that has the `AdventureWorksLT` sample database attached to it. You can download the `AdventureWorksLT` database from the [SQL Server Samples GitHub repo](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks). For more information about attaching a database, see the following topics:
 
@@ -62,7 +62,7 @@ The first step is to create a Word VSTO Add-in project.
 
      Visual Studio opens the *ThisAddIn.vb* or *ThisAddIn.cs* file and adds the **Populating Documents from a Database** project to **Solution Explorer**.
 
-2. If your project targets the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or the [!INCLUDE[net_v45](../vsto/includes/net-v45-md.md)], add a reference to the *Microsoft.Office.Tools.Word.v4.0.Utilities.dll* assembly. This reference is required to programmatically add Windows Forms controls to the document later in this walkthrough.
+2. If your project targets the .NET Framework 4 or the .NET Framework 4.5, add a reference to the *Microsoft.Office.Tools.Word.v4.0.Utilities.dll* assembly. This reference is required to programmatically add Windows Forms controls to the document later in this walkthrough.
 
 ## Create a data source
 

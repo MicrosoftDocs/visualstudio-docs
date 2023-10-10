@@ -39,7 +39,7 @@ If the content your VSIX package includes a VSPackage that adds menu commands or
 ```
 
 > [!NOTE]
-> The VSIX-supported project templates in the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] generate a VSIX manifest and name it *source.extension.vsixmanifest*. When Visual Studio builds the project, it copies the content of that file into Extension.VsixManifest in the VSIX package.
+> The VSIX-supported project templates in the Visual Studio SDK generate a VSIX manifest and name it *source.extension.vsixmanifest*. When Visual Studio builds the project, it copies the content of that file into Extension.VsixManifest in the VSIX package.
 
 ## The Extension.vsixlangpack file
 

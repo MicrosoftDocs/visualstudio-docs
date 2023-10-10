@@ -27,7 +27,7 @@ IDebugEventCallback2 : IUnknown
 ```
 
 ## Notes for Implementers
- [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] implements this interface to receive events from a debug engine.
+ Visual Studio implements this interface to receive events from a debug engine.
 
 ## Notes for Callers
  A debug engine typically receives this interface when the SDM calls [Attach](../../../extensibility/debugger/reference/idebugprogram2-attach.md), [Attach](../../../extensibility/debugger/reference/idebugengine2-attach.md), or [LaunchSuspended](../../../extensibility/debugger/reference/idebugenginelaunch2-launchsuspended.md). A debug engine sends events to the SDM by calling [Event](../../../extensibility/debugger/reference/idebugeventcallback2-event.md).

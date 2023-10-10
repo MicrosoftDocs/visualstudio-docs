@@ -59,7 +59,7 @@ ms.workload:
 
 ### To add a content control to a document by using the Toolbox
 
-1. In the document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, put the cursor where you want to add the content control, or select the text that you want the content control to replace.
+1. In the document that is hosted in the Visual Studio designer, put the cursor where you want to add the content control, or select the text that you want the content control to replace.
 
 2. Open the **Toolbox** and click the **Word Controls** tab.
 
@@ -83,7 +83,7 @@ ms.workload:
 
 #### To add a content control to a document in Word
 
-1. In the document that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, put the cursor where you want to add the content control, or select the text that you want the content control to replace.
+1. In the document that is hosted in the Visual Studio designer, put the cursor where you want to add the content control, or select the text that you want the content control to replace.
 
 2. On the Ribbon, click the **Developer** tab.
 

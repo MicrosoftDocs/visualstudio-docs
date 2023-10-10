@@ -26,7 +26,7 @@ The automation model consists of a set of objects against which you can write a 
 
  For more information, see [Extend the Visual Studio environment](/previous-versions/esk3eey8(v=vs.140)).
 
- The environment provides a model for different functional areas. For instance, there is a code model for various elements that you might find in code. There is a document model for various document elements. One area, the project area, is of particular interest to VSPackage providers. You will likely want your new project types to contribute to the automation model in much the same way as [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] and [!INCLUDE[vbprvb](../../code-quality/includes/vbprvb_md.md)] contribute to the automation model. That process is outlined in [Provide automation for VSPackages](../../extensibility/internals/providing-automation-for-vspackages.md).
+ The environment provides a model for different functional areas. For instance, there is a code model for various elements that you might find in code. There is a document model for various document elements. One area, the project area, is of particular interest to VSPackage providers. You will likely want your new project types to contribute to the automation model in much the same way as Visual C++ and Visual Basic contribute to the automation model. That process is outlined in [Provide automation for VSPackages](../../extensibility/internals/providing-automation-for-vspackages.md).
 
  Places where you can consider extending the automation model of the environment:
 
@@ -45,9 +45,9 @@ For more information on automation, see [Automation and extensibility for Visual
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio provides a set of automation interfaces for customizing the environment. The automation model is the object model that enables end users to create Visual Studio add-ins and extensions.
 
- In addition, it is appropriate for you, as a VSPackage developer, to contribute to the automation model; by doing this, you enable end users of your VSPackage to create add-ins and generally provide a consistent user model experience when they use your VSPackage in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+ In addition, it is appropriate for you, as a VSPackage developer, to contribute to the automation model; by doing this, you enable end users of your VSPackage to create add-ins and generally provide a consistent user model experience when they use your VSPackage in Visual Studio.
 
- To make the end-user experience consistent, you can follow a set of guidelines as you design your VSPackage so that the automation model for your VSPackage follows the ideas in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
+ To make the end-user experience consistent, you can follow a set of guidelines as you design your VSPackage so that the automation model for your VSPackage follows the ideas in Visual Studio.
 
 ## In this section
 

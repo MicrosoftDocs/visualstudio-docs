@@ -51,7 +51,7 @@ typedef struct tagPROVIDER_PROCESS_DATA {
  A [PROGRAM_NODE_ARRAY](../../../extensibility/debugger/reference/program-node-array.md) structure that contains an array of program nodes.
 
  `fIsDebuggerPresent`\
- Nonzero (`TRUE`) if the [!INCLUDE[vsprvs](../../../code-quality/includes/vsprvs_md.md)] debugger is running, zero (`FALSE`) if it is not.
+ Nonzero (`TRUE`) if the Visual Studio debugger is running, zero (`FALSE`) if it is not.
 
 ## Remarks
  This structure is passed to the [GetProviderProcessData](../../../extensibility/debugger/reference/idebugprogramprovider2-getproviderprocessdata.md) method where it is filled in.

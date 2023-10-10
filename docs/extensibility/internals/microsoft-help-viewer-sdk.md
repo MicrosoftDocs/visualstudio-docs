@@ -358,7 +358,7 @@ In the following table, any string that appears between brackets is a placeholde
 | \< meta name="Microsoft.Help.Id" content="[TopicID]"/> | Sets the identifier for this topic. This tag is required, and must be used just once in a topic. The ID must be unique among topics in the catalog that have the same locale setting. In another topic, you can create a link to this topic by using this ID. |
 | \< meta name="Microsoft.Help.F1" content="[System.Windows.Controls.Primitives.IRecyclingItemContainerGenerator]"/> | Specifies the F1 keyword for this topic. You can specify multiple F1 keywords for a topic, or you can omit this tag if you do not want this topic to be displayed when an application user presses F1. Typically, just one F1 keyword is specified for a topic. "F" keywords from earlier versions of Help can be converted to this property. |
 | \< meta name="Description" content="[topic description]" /> | Provides a short summary of the content in this topic. If this tag is used in a topic, it must be used just once. This property is accessed directly by the query library; it is not stored in the index file. |
-| meta name="Microsoft.Help.TocParent" content="[parent_Id]"/> | Specifies the parent topic of this topic in the table of contents. This tag is required, and must be used just once in a topic. The value is the Microsoft.Help.Id of the parent. A topic can have just one location in the table of contents. "-1" is considered the topic ID for the TOC root. In [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)], that page is Help Viewer home page. This is the same reason we specifically add TocParent=-1 to some topics to ensure that they show up at the top level. The Help Viewer home page is a system page and so non-replaceable. If a VSP tries to add a page with an ID of -1, it may get added to the content set, but Help Viewer will always use the system page - Help Viewer Home |
+| meta name="Microsoft.Help.TocParent" content="[parent_Id]"/> | Specifies the parent topic of this topic in the table of contents. This tag is required, and must be used just once in a topic. The value is the Microsoft.Help.Id of the parent. A topic can have just one location in the table of contents. "-1" is considered the topic ID for the TOC root. In Visual Studio 2013, that page is Help Viewer home page. This is the same reason we specifically add TocParent=-1 to some topics to ensure that they show up at the top level. The Help Viewer home page is a system page and so non-replaceable. If a VSP tries to add a page with an ID of -1, it may get added to the content set, but Help Viewer will always use the system page - Help Viewer Home |
 | \< meta name="Microsoft.Help.TocOrder" content="[positive integer]"/> | Specifies where in the table of contents this topic appears relative to its peer topics. This tag is required, and must be used just once in a topic. The value is an integer. A topic that specifies a lower-value integer appears above a topic that specifies a higher-value integer. |
 | \< meta name="Microsoft.Help.Product" content="[product code]"/> | Specifies the product that this topic describes. If this tag is used in a topic, it must be used just once. This information can also be supplied as a parameter that is passed to the Help Indexer. |
 | \< meta name="Microsoft.Help.ProductVersion" content="[version number]"/> | Specifies the version of the product that this topic describes. If this tag is used in a topic, it must be used just once. This information can also be supplied as a parameter that is passed to the Help Indexer. |
@@ -455,7 +455,7 @@ Note: variables noted by "{n}" have code dependencies - removing or changing the
 | CopyRight | © 2013 Microsoft Corporation. All rights reserved. |
 | SendFeedback | \<a href="{0}" {1}>Send Feedback\</a> on this topic to Microsoft. |
 | FeedbackLink | |
-| LogoTitle | [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] |
+| LogoTitle | Visual Studio 2013 |
 | LogoFileName | vs_logo_bk.gif |
 | LogoFileNameHC | vs_logo_wh.gif |
 | Feature: | **Disclaimer** |
@@ -689,17 +689,17 @@ This walkthrough demonstrates how to incorporate Help content into a Visual Stud
 
 **Requirements**
 
-1. [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)]
+1. Visual Studio 2013
 
 2. [Visual Studio 2013 Isolated Shell Redist](https://visualstudio.microsoft.com/vs/older-downloads/isolated-shell/)
 
 **Overview**
 
-The [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] Shell is a version of the [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] IDE on which you can base an application. Such applications contain the Isolated Shell together with extensions that you create. Use Isolated Shell project templates, which are included in the [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] SDK, to build extensions.
+The Visual Studio 2013 Shell is a version of the Visual Studio 2013 IDE on which you can base an application. Such applications contain the Isolated Shell together with extensions that you create. Use Isolated Shell project templates, which are included in the Visual Studio 2013 SDK, to build extensions.
 
 The basic steps for creating an Isolated Shell-based application and its Help:
 
-1. Obtain the [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] ISO Shell redistributable (a Microsoft download).
+1. Obtain the Visual Studio 2013 ISO Shell redistributable (a Microsoft download).
 
 2. In Visual Studio, create a Help extension that is based on the Isolated Shell, for example, the Contoso Help extension that is described later in this walkthrough.
 
@@ -724,7 +724,7 @@ Define the content store in the registry. For the Integrated Shell, change Visua
 
 - HKLM\SOFTWARE\Wow6432Node\Microsoft\Help\v2.3\Catalogs\VisualStudio15\en-US
 
-   Key: CatalogName String value: [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] Documentation
+   Key: CatalogName String value: Visual Studio 2013 Documentation
 
 **Create the Project**
 
@@ -780,7 +780,7 @@ To test this as if deployed:
 
     For ISO Shell - create a Contoso content store C:\ProgramData\Microsoft\HelpLibrary2\Catalogs\ContosoDev12
 
-    For [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] Integrated Shell, create folder C:\ProgramData\Microsoft\HelpLibrary2\Catalogs\VisualStudio15
+    For Visual Studio 2013 Integrated Shell, create folder C:\ProgramData\Microsoft\HelpLibrary2\Catalogs\VisualStudio15
 
 6. Create CatalogType.xml and add to the content store (previous step) containing:
 
@@ -797,11 +797,11 @@ To test this as if deployed:
 
     C:ProgramDataMicrosoftHelpLibrary2CatalogsVisualStudio15
 
-    [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] Integrated Shell:
+    Visual Studio 2013 Integrated Shell:
 
     C:ProgramDataMicrosoftHelpLibrary2CatalogsVisualStudio15en-US
 
-    Key: CatalogName String value: [!INCLUDE[vs_dev12](../../extensibility/includes/vs_dev12_md.md)] Documentation. For ISO Shell, this is the name of your catalog.
+    Key: CatalogName String value: Visual Studio 2013 Documentation. For ISO Shell, this is the name of your catalog.
 
 8. Copy your content (cabs or MSHC and MSHA) to a local folder.
 

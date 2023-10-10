@@ -124,7 +124,7 @@ Add several buttons to the window by modifying the XAML in the WPF Designer. Lat
 
     The window opens in the **WPF Designer**.
 
-2. In the [!INCLUDE[TLA#tla_titlexaml](../data-tools/includes/tlasharptla_titlexaml_md.md)] view of the designer, add the following code between the `<Grid>` tags:
+2. In the XAML view of the designer, add the following code between the `<Grid>` tags:
 
    ```xaml
    <Grid.RowDefinitions>

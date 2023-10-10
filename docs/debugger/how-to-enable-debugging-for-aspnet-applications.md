@@ -182,9 +182,9 @@ ASP.NET projects have *web.config* files by default, which contain both app conf
    </configuration>
    ```
 
-[!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] automatically detects any changes to *web.config* files and applies the new configuration settings. You don't have to restart the computer or the IIS server for changes to take effect.
+ASP.NET automatically detects any changes to *web.config* files and applies the new configuration settings. You don't have to restart the computer or the IIS server for changes to take effect.
 
-A website can contain several virtual directories and subdirectories, with *web.config* files in each one. [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] apps inherit configuration settings from *web.config* files at higher levels in the URL path. The hierarchical *web.config* file settings apply to all [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)] apps below them in the hierarchy. Setting a different configuration in a *web.config* file lower in the hierarchy overrides the settings in the higher file.
+A website can contain several virtual directories and subdirectories, with *web.config* files in each one. ASP.NET apps inherit configuration settings from *web.config* files at higher levels in the URL path. The hierarchical *web.config* file settings apply to all ASP.NET apps below them in the hierarchy. Setting a different configuration in a *web.config* file lower in the hierarchy overrides the settings in the higher file.
 
 For example, if you specify `debug="true"` in <em>www.microsoft.com/aaa/web.config</em>, any app in the *aaa* folder or in any subfolder of *aaa* inherits that setting, except if one of those apps overrides the setting with its own *web.config* file.
 

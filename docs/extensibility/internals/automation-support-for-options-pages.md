@@ -17,7 +17,7 @@ ms.workload:
 # Automation support for Options pages
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-VSPackages can provide custom **Options** dialog boxes to the **Tools** menu (**Tools Options** pages) in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] and can make them available to the automation model.
+VSPackages can provide custom **Options** dialog boxes to the **Tools** menu (**Tools Options** pages) in Visual Studio and can make them available to the automation model.
 
 ## Tools Options pages
  To create a **Tools Options** page, a VSPackage must provide a user control implementation returned to the environment through the VSPackage's implementation of the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage%2A> method. (Or, for managed-code, the <xref:Microsoft.VisualStudio.Shell.Interop.IVsPackage.GetPropertyPage%2A> method.)

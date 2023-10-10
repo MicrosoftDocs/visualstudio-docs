@@ -55,7 +55,7 @@ If `false`, specifies that the template will only be displayed under the specifi
  `ShowByDefault` is an optional element. The default value is `true`.
 
 ## Example
- The following example illustrates the metadata for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] template.
+ The following example illustrates the metadata for a Visual C# template.
 
 ```xml
 <VSTemplate Type="Project" Version="3.0.0"

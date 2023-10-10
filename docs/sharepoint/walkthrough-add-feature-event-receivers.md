@@ -83,7 +83,7 @@ This walkthrough demonstrates how to add an event receiver to a feature in a Sha
 
      This adds a code file under Feature1. In this case, it is named either *Feature1.EventReceiver.cs* or *Feature1.EventReceiver.vb*, depending on your project's development language.
 
-3. If your project is written in [!INCLUDE[csprcs](../sharepoint/includes/csprcs-md.md)], add the following code at the top of the event receiver if it is not already there:
+3. If your project is written in Visual C#, add the following code at the top of the event receiver if it is not already there:
 
      :::code language="csharp" source="../sharepoint/codesnippet/CSharp/featureevttest2/features/feature1/feature1.eventreceiver.cs" id="Snippet1":::
 

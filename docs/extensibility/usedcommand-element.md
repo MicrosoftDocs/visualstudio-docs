@@ -17,7 +17,7 @@ ms.workload:
 # UsedCommand Element
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-Enables a VSPackage to access a command that is defined in another .vsct file. For example, if your VSPackage uses the standard **Copy** command, which is defined by the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] shell, you can add the command to a menu or toolbar without re-implementing it.
+Enables a VSPackage to access a command that is defined in another .vsct file. For example, if your VSPackage uses the standard **Copy** command, which is defined by the Visual Studio shell, you can add the command to a menu or toolbar without re-implementing it.
 
 ## Syntax
 
@@ -49,7 +49,7 @@ Enables a VSPackage to access a command that is defined in another .vsct file. F
 |[UsedCommands Element](../extensibility/usedcommands-element.md)|Groups UsedCommand elements and other UsedCommands groupings.|
 
 ## Remarks
- By adding a command to the `<UsedCommands>` element, a VSPackage informs the [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] environment that the VSPackage requires the command. You should add a `<UsedCommand>` element for any command your package requires that might not be included in all versions and configurations of Visual Studio. For example, if your package calls a command that is specific to Visual C++, the command will not be available to users of Visual Web Developer unless you include a `<UsedCommand>` element for the command.
+ By adding a command to the `<UsedCommands>` element, a VSPackage informs the Visual Studio environment that the VSPackage requires the command. You should add a `<UsedCommand>` element for any command your package requires that might not be included in all versions and configurations of Visual Studio. For example, if your package calls a command that is specific to Visual C++, the command will not be available to users of Visual Web Developer unless you include a `<UsedCommand>` element for the command.
 
 ## Example
 

@@ -20,12 +20,12 @@ ms.workload:
 # Optimizing Menu and Toolbar Commands
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-The addition of VSPackages and their corresponding commands to [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] may cause a crowded UI. [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] provides ways to help minimize UI command confusion.
+The addition of VSPackages and their corresponding commands to Visual Studio may cause a crowded UI. Visual Studio provides ways to help minimize UI command confusion.
 
 ## In This Section
 - [Making Commands Available](../../extensibility/internals/making-commands-available.md)
 
- Provides general guidelines for minimizing crowding of the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] UI when you add VSPackages.
+ Provides general guidelines for minimizing crowding of the Visual Studio UI when you add VSPackages.
 
 - [Placement Guidelines](../../extensibility/internals/command-placement-guidelines.md)
 

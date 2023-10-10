@@ -26,7 +26,7 @@ ms.workload:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Deployment of legacy COM components has traditionally been a difficult task. Components need to be globally registered and thus can cause undesirable side effects between overlapping applications. This situation is generally not a problem in .NET Framework applications because components are completely isolated to an application or are side-by-side compatible. Visual Studio allows you to deploy isolated COM components on the Windows XP or higher operating system.
 
- [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] provides an easy and safe mechanism for deploying your .NET applications. However, if your applications use legacy COM components, you will need to take additional steps for deploying them. This topic describes how to deploy isolated COM components and reference native components (for example, from Visual Basic 6.0 or Visual C++).
+ ClickOnce provides an easy and safe mechanism for deploying your .NET applications. However, if your applications use legacy COM components, you will need to take additional steps for deploying them. This topic describes how to deploy isolated COM components and reference native components (for example, from Visual Basic 6.0 or Visual C++).
 
  For more information on deploying isolated COM components, see [Simplify App Deployment with ClickOnce and Registration-Free COM](https://web.archive.org/web/20050326005413/msdn.microsoft.com/msdnmag/issues/05/04/RegFreeCOM/default.aspx).
 
@@ -38,18 +38,18 @@ Deployment of legacy COM components has traditionally been a difficult task. Com
  When the manifest generator encounters an isolated COM reference, it enumerates all of the `CoClass` entries in the component's type library, matching each entry with its corresponding registration data, and generating manifest definitions for all the COM classes in the type library file.
 
 ## Deploy registration-free COM components using ClickOnce
- [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment technology is well-suited for deploying isolated COM components, because both [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] and registration-free COM require that a component have a manifest in order to be deployed.
+ ClickOnce deployment technology is well-suited for deploying isolated COM components, because both ClickOnce and registration-free COM require that a component have a manifest in order to be deployed.
 
- Typically, the author of the component should provide a manifest. If not, however, Visual Studio is capable of generating a manifest automatically for a COM component. The manifest generation is performed during the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] Publish process; for more information, see [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md). This feature also allows you to leverage legacy components that you authored in earlier development environments such as Visual Basic 6.0.
+ Typically, the author of the component should provide a manifest. If not, however, Visual Studio is capable of generating a manifest automatically for a COM component. The manifest generation is performed during the ClickOnce Publish process; for more information, see [Publishing ClickOnce Applications](../deployment/publishing-clickonce-applications.md). This feature also allows you to leverage legacy components that you authored in earlier development environments such as Visual Basic 6.0.
 
- There are two ways that [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deploys COM components:
+ There are two ways that ClickOnce deploys COM components:
 
 - Use the bootstrapper to deploy your COM components; this works on all supported platforms.
 
 - Use native component isolation (also known as registration-free COM) deployment. However, this will only work on a Windows XP or higher operating system.
 
 ### Example of isolating and deploying a simple COM component
- In order to demonstrate registration-free COM component deployment, this example will create a Windows-based application in Visual Basic that references an isolated native COM component created using Visual Basic 6.0, and deploy it using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)].
+ In order to demonstrate registration-free COM component deployment, this example will create a Windows-based application in Visual Basic that references an isolated native COM component created using Visual Basic 6.0, and deploy it using ClickOnce.
 
  First you will need to create the native COM component:
 
@@ -125,7 +125,7 @@ Deployment of legacy COM components has traditionally been a difficult task. Com
 > [!NOTE]
 > You can simulate the absence of a COM component by temporarily unregistering it. Open a command prompt, go to your system folder by typing `cd /d %windir%\system32`, then unregister the component by typing `regsvr32 /u VB6Hello.dll`. You can register it again by typing `regsvr32 VB6Hello.dll`.
 
- The final step is to publish the application using [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)]:
+ The final step is to publish the application using ClickOnce:
 
 ##### To publish an application update with an isolated COM component
 

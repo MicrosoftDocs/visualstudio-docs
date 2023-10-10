@@ -16,7 +16,7 @@ ms.workload:
 # Source Control
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-This section discusses the options for implementing source control as an integrated feature of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)], either through a source control plug-in or a source control VSPackage.
+This section discusses the options for implementing source control as an integrated feature of Visual Studio, either through a source control plug-in or a source control VSPackage.
 
 ## In This Section
 - [Essentials](../../extensibility/internals/source-control-integration-essentials.md)
@@ -29,11 +29,11 @@ This section discusses the options for implementing source control as an integra
 
 - [Creating a Source Control Plug-in](../../extensibility/internals/creating-a-source-control-plug-in.md)
 
- Discusses how to create a source control plug-in that supplies source control functionality through the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] source control user interface (UI).
+ Discusses how to create a source control plug-in that supplies source control functionality through the Visual Studio source control user interface (UI).
 
 - [Creating a Source Control VSPackage](../../extensibility/internals/creating-a-source-control-vspackage.md)
 
- Discusses how to create a source control VSPackage that not only supplies source control functionality but can be used to customize the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] source control UI.
+ Discusses how to create a source control VSPackage that not only supplies source control functionality but can be used to customize the Visual Studio source control UI.
 
 ## Related Sections
 - [Source Control Plug-ins](../../extensibility/source-control-plug-ins.md)
@@ -42,4 +42,4 @@ This section discusses the options for implementing source control as an integra
 
 - [Extending Projects](../../extensibility/extending-projects.md)
 
- Describes how to use [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] projects and solutions to organize code files and resource files, and how to implement source control.
+ Describes how to use Visual Studio projects and solutions to organize code files and resource files, and how to implement source control.

@@ -122,7 +122,7 @@ Identifies a platform or assembly dependency that is required for the applicatio
 
 | Attribute | Description |
 |-----------------------| - |
-| `dependencyType` | Required. Specifies the dependency type. Valid values are `preprequisite` and `install`. An `install` assembly is installed as part of the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application. A `prerequisite` assembly must be present in the global assembly cache (GAC) before the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application can install. |
+| `dependencyType` | Required. Specifies the dependency type. Valid values are `preprequisite` and `install`. An `install` assembly is installed as part of the ClickOnce application. A `prerequisite` assembly must be present in the global assembly cache (GAC) before the ClickOnce application can install. |
 | `allowDelayedBinding` | Required. Specifies whether the assembly can be loaded programmatically at run time. |
 | `group` | Optional. If the `dependencyType` attribute is set to `install`, designates a named group of assemblies that only install on demand. For more information, see [Walkthrough: Downloading Assemblies on Demand with the ClickOnce Deployment API Using the Designer](../deployment/walkthrough-downloading-assemblies-on-demand-with-the-clickonce-deployment-api-using-the-designer.md).<br /><br /> If set to `framework` and the `dependencyType` attribute is set to `prerequisite`, designates the assembly as part of the .NET Framework. The global assemby cache (GAC) is not checked for this assembly when installing on .NET Framework 4 and later versions. |
 | `codeBase` | Required when the `dependencyType` attribute is set to `install`. The path to the dependent assembly. May be either an absolute path, or a path relative to the manifest's code base. This path must be a valid URI in order for the assembly manifest to be valid. |
@@ -142,7 +142,7 @@ Identifies a platform or assembly dependency that is required for the applicatio
 ### hash
  The `hash` element is an optional child of the `assemblyIdentity` element. The `hash` element has no attributes.
 
- [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] uses an algorithmic hash of all the files in an application as a security check, to ensure that none of the files were changed after deployment. If the `hash` element is not included, this check will not be performed. Therefore, omitting the `hash` element is not recommended.
+ ClickOnce uses an algorithmic hash of all the files in an application as a security check, to ensure that none of the files were changed after deployment. If the `hash` element is not included, this check will not be performed. Therefore, omitting the `hash` element is not recommended.
 
 ### dsig:Transforms
  The `dsig:Transforms` element is a required child of the `hash` element. The `dsig:Transforms` element has no attributes.
@@ -152,14 +152,14 @@ Identifies a platform or assembly dependency that is required for the applicatio
 
 | Attribute | Description |
 |-------------| - |
-| `Algorithm` | The algorithm used to calculate the digest for this file. Currently the only value used by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is `urn:schemas-microsoft-com:HashTransforms.Identity`. |
+| `Algorithm` | The algorithm used to calculate the digest for this file. Currently the only value used by ClickOnce is `urn:schemas-microsoft-com:HashTransforms.Identity`. |
 
 ### dsig:DigestMethod
  The `dsig:DigestMethod` element is a required child of the `hash` element. The `dsig:DigestMethod` element has the following attributes.
 
 | Attribute | Description |
 |-------------| - |
-| `Algorithm` | The algorithm used to calculate the digest for this file. Currently the only value used by [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] is `http://www.w3.org/2000/09/xmldsig#sha1`. |
+| `Algorithm` | The algorithm used to calculate the digest for this file. Currently the only value used by ClickOnce is `http://www.w3.org/2000/09/xmldsig#sha1`. |
 
 ### dsig:DigestValue
  The `dsig:DigestValue` element is a required child of the `hash` element. The `dsig:DigestValue` element has no attributes. Its text value is the computed hash for the specified file.
@@ -168,7 +168,7 @@ Identifies a platform or assembly dependency that is required for the applicatio
  All assemblies used by your application must have a corresponding `dependency` element. Dependent assemblies do not include assemblies that must be preinstalled in the global assembly cache as platform assemblies.
 
 ## Example
- The following code example illustrates `dependency` elements in a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application manifest. This code example is part of a larger example provided for the [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md) topic.
+ The following code example illustrates `dependency` elements in a ClickOnce application manifest. This code example is part of a larger example provided for the [ClickOnce Application Manifest](../deployment/clickonce-application-manifest.md) topic.
 
 ```xml
 <dependency>

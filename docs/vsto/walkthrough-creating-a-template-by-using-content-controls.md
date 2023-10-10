@@ -57,14 +57,14 @@ ms.workload:
 
 1. Create a Word template project with the name **MyBuildingBlockTemplate**. In the wizard, create a new document in the solution. For more information, see [How to: Create Office projects in Visual Studio](../vsto/how-to-create-office-projects-in-visual-studio.md).
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] opens the new Word template in the designer and adds the **MyBuildingBlockTemplate** project to **Solution Explorer**.
+     Visual Studio opens the new Word template in the designer and adds the **MyBuildingBlockTemplate** project to **Solution Explorer**.
 
 ## Create the employee table
  Create a table that contains four different types of content controls where the user can enter information about an employee.
 
 ### To create the employee table
 
-1. In the Word template that is hosted in the [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] designer, on the Ribbon, click the **Insert** tab.
+1. In the Word template that is hosted in the Visual Studio designer, on the Ribbon, click the **Insert** tab.
 
 2. In the **Tables** group, click **Table**, and insert a table with two columns and four rows.
 
@@ -132,7 +132,7 @@ ms.workload:
 11. In the **Controls** group, click the **Rich Text** button ![RichTextContentControl](../vsto/media/richtextcontrol.gif "RichTextContentControl") to add a <xref:Microsoft.Office.Tools.Word.RichTextContentControl> to the last cell.
 
 ## Populate the combo box and drop-down list programmatically
- You can initialize content controls at design time by using the **Properties** window in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. You can also initialize them at run time, which enables you to set their initial states dynamically. For this walkthrough, use code to populate the entries in the <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl> and <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> at run time so that you can see how these objects work.
+ You can initialize content controls at design time by using the **Properties** window in Visual Studio. You can also initialize them at run time, which enables you to set their initial states dynamically. For this walkthrough, use code to populate the entries in the <xref:Microsoft.Office.Tools.Word.ComboBoxContentControl> and <xref:Microsoft.Office.Tools.Word.DropDownListContentControl> at run time so that you can see how these objects work.
 
 ### To modify the UI of the content controls programmatically
 

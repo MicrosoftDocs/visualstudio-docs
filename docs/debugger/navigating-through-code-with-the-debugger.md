@@ -198,7 +198,7 @@ While the debugger is paused, you can hover over a statement in source code or t
 ![Screenshot that shows Run to Click and the green arrow.](../debugger/media/dbg-run-to-click.png)
 
 > [!NOTE]
-> **Run to Click** is available starting in [!include[vs_dev15](../misc/includes/vs_dev15_md.md)].
+> **Run to Click** is available starting in Visual Studio 2017.
 
 ::: moniker range=">= vs-2022"
 ### Force run to click 
@@ -208,7 +208,7 @@ While the debugger is paused, you can hover over a statement in source code whil
 ![Screenshot that shows Force Run to Click.](../debugger/media/dbg-force-run-to-cursor.png)
 
 > [!NOTE]
-> **Force Run to Click** is available starting in [!include[vs_dev17](../misc/includes/vs_dev17_md.md)].
+> **Force Run to Click** is available starting in Visual Studio 2022.
 ::: moniker-end
 
 ### Manually break into code

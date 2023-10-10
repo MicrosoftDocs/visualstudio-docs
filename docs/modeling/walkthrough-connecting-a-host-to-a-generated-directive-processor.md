@@ -29,7 +29,7 @@ In this walkthrough, you expand your custom host so that it supports text templa
 
 This walkthrough includes the following tasks:
 
-- Using [!INCLUDE[dsl](../modeling/includes/dsl_md.md)] to generate a directive processor that is based on a domain model.
+- Using Domain-Specific Language Tools to generate a directive processor that is based on a domain model.
 
 - Connecting a custom text template host to the generated directive processor.
 
@@ -42,7 +42,7 @@ To define a DSL, you must have installed the following components:
 | Component | Link |
 |-|-|
 | Visual Studio | [http://go.microsoft.com/fwlink/?LinkId=185579](https://visualstudio.microsoft.com/) |
-| [!INCLUDE[vssdk_current_short](../modeling/includes/vssdk_current_short_md.md)] | [http://go.microsoft.com/fwlink/?LinkId=185580](/azure/devops/integrate/index) |
+| Visual Studio SDK | [http://go.microsoft.com/fwlink/?LinkId=185580](/azure/devops/integrate/index) |
 | Visual Studio Visualization and Modeling SDK | |
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]

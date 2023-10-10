@@ -57,7 +57,7 @@ Contains the registration elements for customizing the template wizard.
  `WizardExtension` is an optional child element of `VSTemplate`.
 
 ## Example
- The following example illustrates the metadata for the standard project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application.
+ The following example illustrates the metadata for the standard project template for a Visual C# Windows application.
 
 ```
 <VSTemplate Version="3.0.0" Type="Item"

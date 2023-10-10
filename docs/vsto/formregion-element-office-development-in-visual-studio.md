@@ -55,7 +55,7 @@ ms.workload:
 |`name`|Required. Identifies the form that is associated with the form region.|
 
 ## Example
- The following code example illustrates a `formRegion` element in an application manifest for an Outlook VSTO Add-in deployed using [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)]. There are three message classes associated with this one form region. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
+ The following code example illustrates a `formRegion` element in an application manifest for an Outlook VSTO Add-in deployed using ClickOnce. There are three message classes associated with this one form region. This code example is part of a larger example provided in [Application manifests for Office solutions](../vsto/application-manifests-for-office-solutions.md).
 
 ```xml
 <vstov4:formRegion

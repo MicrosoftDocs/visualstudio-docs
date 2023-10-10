@@ -24,31 +24,31 @@ ms.workload:
 # Troubleshoot ClickOnce deployments
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-This topic helps you diagnose and resolve the most common issues with [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments.
+This topic helps you diagnose and resolve the most common issues with ClickOnce deployments.
 
- In most cases, a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application will download to a user's computer and run without any problems. There are some cases, however, where Web server or application configuration issues can cause unforeseen problems.
+ In most cases, a ClickOnce application will download to a user's computer and run without any problems. There are some cases, however, where Web server or application configuration issues can cause unforeseen problems.
 
 ## Deployment considerations
 
  [How to: Set a custom log file location for ClickOnce deployment errors](../deployment/how-to-set-a-custom-log-file-location-for-clickonce-deployment-errors.md)
 
- Describes how to redirect all [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] activation failures on a machine to a single log file.
+ Describes how to redirect all ClickOnce activation failures on a machine to a single log file.
 
  [How to: Specify verbose log files for ClickOnce deployments](../deployment/how-to-specify-verbose-log-files-for-clickonce-deployments.md)
 
- Describes how to increase the detail that [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] writes to log files.
+ Describes how to increase the detail that ClickOnce writes to log files.
 
  [Server and client configuration issues in ClickOnce deployments](../deployment/server-and-client-configuration-issues-in-clickonce-deployments.md)
 
- Describes various issues with the configuration of your Web server that could cause difficulty downloading [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] applications.
+ Describes various issues with the configuration of your Web server that could cause difficulty downloading ClickOnce applications.
 
  [Security, versioning, and manifest issues in ClickOnce deployments](../deployment/security-versioning-and-manifest-issues-in-clickonce-deployments.md)
 
- Describes miscellaneous issues surrounding [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployments.
+ Describes miscellaneous issues surrounding ClickOnce deployments.
 
  [Troubleshoot specific errors in ClickOnce deployments](../deployment/troubleshooting-specific-errors-in-clickonce-deployments.md)
 
- Describes specific scenarios in which a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] deployment cannot succeed, and provides steps for resolving them.
+ Describes specific scenarios in which a ClickOnce deployment cannot succeed, and provides steps for resolving them.
 
  [Debug ClickOnce applications that use System.Deployment.Application](../deployment/debugging-clickonce-applications-that-use-system-deployment-application.md)
 

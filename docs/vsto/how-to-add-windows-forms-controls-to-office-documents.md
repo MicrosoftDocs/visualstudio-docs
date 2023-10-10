@@ -125,7 +125,7 @@ ms.workload:
 1. Use a method that has the name Add\<*control class*> (where *control class* is the class name of the Windows Forms control that you want to add, such as <xref:Microsoft.Office.Tools.Word.ControlExtensions.AddButton%2A>).
 
     > [!NOTE]
-    > In VSTO Add-in projects that target the [!INCLUDE[net_v40_short](../sharepoint/includes/net-v40-short-md.md)] or later, you must add a reference to the *Microsoft.Office.Tools.Excel.v4.0.Utilities.dll* or *Microsoft.Office.Tools.Word.v4.0.Utilities.dll* assembly before you can access the Add\<*control class*> methods.
+    > In VSTO Add-in projects that target the .NET Framework 4 or later, you must add a reference to the *Microsoft.Office.Tools.Excel.v4.0.Utilities.dll* or *Microsoft.Office.Tools.Word.v4.0.Utilities.dll* assembly before you can access the Add\<*control class*> methods.
 
      The following code example demonstrates how to add a <xref:Microsoft.Office.Tools.Word.Controls.Button> to the first paragraph of the active document by using a Word VSTO Add-in.
 

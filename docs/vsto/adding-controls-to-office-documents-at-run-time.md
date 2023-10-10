@@ -101,7 +101,7 @@ When a document is saved and then closed, all dynamically created host controls 
 > Helper methods are not provided for the following host controls, because these controls cannot be added programmatically to documents: <xref:Microsoft.Office.Tools.Excel.XmlMappedRange>, <xref:Microsoft.Office.Tools.Word.XMLNode>, and <xref:Microsoft.Office.Tools.Word.XMLNodes>.
 
 ## <a name="WindowsForms"></a> Add Windows Forms controls to documents
- When you programmatically add a Windows Forms control to a document, you must provide the location of the control and a name that uniquely identifies the control. The [!INCLUDE[vsto_runtime](../vsto/includes/vsto-runtime-md.md)] provides helper methods for each control. These methods are overloaded so that you can pass either a range or specific coordinates for the location of the control.
+ When you programmatically add a Windows Forms control to a document, you must provide the location of the control and a name that uniquely identifies the control. The  Visual Studio Tools for Office runtime  provides helper methods for each control. These methods are overloaded so that you can pass either a range or specific coordinates for the location of the control.
 
  When a document is saved and then closed, all dynamically created Windows Forms controls are removed from the document. You can add code to your solution to re-create the controls when the document is reopened. If you create dynamic Windows Forms controls by using a VSTO Add-in, the ActiveX wrappers for the controls are left in the document. For more information, see [Persist dynamic controls in Office documents](../vsto/persisting-dynamic-controls-in-office-documents.md).
 

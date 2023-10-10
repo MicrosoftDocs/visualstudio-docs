@@ -50,7 +50,7 @@ ms.workload:
 
 ### To create a new Outlook project in Visual Studio
 
-1. Start [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+1. Start Visual Studio.
 
 2. On the **File** menu, point to **New**, and then click **Project**.
 
@@ -64,7 +64,7 @@ ms.workload:
 
 7. Click **OK**.
 
-     [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] creates the **FirstOutlookAddIn** project and opens the **ThisAddIn** code file in the editor.
+     Visual Studio creates the **FirstOutlookAddIn** project and opens the **ThisAddIn** code file in the editor.
 
 ## Write code that adds text to each new mail message
  Next, add code to the ThisAddIn code file. The new code uses the object model of Outlook to add text to each new mail message. By default, the ThisAddIn code file contains the following generated code:

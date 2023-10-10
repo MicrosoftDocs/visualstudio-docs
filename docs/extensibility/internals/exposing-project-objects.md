@@ -22,7 +22,7 @@ Custom project types can provide automation objects in order to allow access to 
 
 You can create custom root-level automation objects that you can access late-bound from the root DTE object using `DTE.<customObjectName>` or `DTE.GetObject("<customObjectName>")`. For example, Visual C++ creates a C++ project-specific project collection called *VCProjects* that you can access using `DTE.VCProjects` or `DTE.GetObject("VCProjects")`. You can also create a `Project.Object`, which is unique for the project type, a `Project.CodeModel`, which can be queried for its most-derived object, and a `ProjectItem`, which exposes `ProjectItem.Object` and a `ProjectItem.FileCodeModel`.
 
-It is a common convention for projects to expose a custom, project-specific project collection. For example, [!INCLUDE[vcprvc](../../code-quality/includes/vcprvc_md.md)] creates a C++ specific project collection that you can then access using `DTE.VCProjects` or `DTE.GetObject("VCProjects")`. You can also create a `Project.Object`, which is unique for the project type, a `Project.CodeModel`, which can be queried for its most-derived object, a `ProjectItem`, which exposes `ProjectItem.Object`, and a `ProjectItem.FileCodeModel`.
+It is a common convention for projects to expose a custom, project-specific project collection. For example, Visual C++ creates a C++ specific project collection that you can then access using `DTE.VCProjects` or `DTE.GetObject("VCProjects")`. You can also create a `Project.Object`, which is unique for the project type, a `Project.CodeModel`, which can be queried for its most-derived object, a `ProjectItem`, which exposes `ProjectItem.Object`, and a `ProjectItem.FileCodeModel`.
 
 ## To contribute a VSPackage-specific object for a project
 

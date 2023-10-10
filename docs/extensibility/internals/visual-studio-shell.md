@@ -17,7 +17,7 @@ ms.workload:
 # Visual Studio Shell
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] shell is the primary agent of integration in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. The shell provides necessary functionality to enable VSPackages to share common services. Because the architectural goal of [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] is to vest primary functionality in the VSPackages, the shell is a framework to provide basic functionality and support cross-communication among its component VSPackages.
+The Visual Studio shell is the primary agent of integration in Visual Studio. The shell provides necessary functionality to enable VSPackages to share common services. Because the architectural goal of Visual Studio is to vest primary functionality in the VSPackages, the shell is a framework to provide basic functionality and support cross-communication among its component VSPackages.
 
 ## Shell Responsibilities
  The shell has the following key responsibilities:
@@ -48,7 +48,7 @@ The [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] shell is the pr
 
   - The User Context attributes that drive Dynamic Help
 
-  The shell also mediates communication among installed VSPackages and current services. It supports the core features of the shell and makes them available to all VSPackages integrated in [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)]. These core features include the following items:
+  The shell also mediates communication among installed VSPackages and current services. It supports the core features of the shell and makes them available to all VSPackages integrated in Visual Studio. These core features include the following items:
 
 - **About** dialog box and splash screen
 

@@ -49,7 +49,7 @@ When you publish an application by using ClickOnce, the `Publish Location` prope
 
 ## Specify the location where end users will install from
 
-When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, the location where users go to download and install the application is not necessarily the location where you initially publish the application. For example, in some organizations a developer might publish an application to a staging server, and then an administrator would move the application to a Web server.
+When publishing a ClickOnce application, the location where users go to download and install the application is not necessarily the location where you initially publish the application. For example, in some organizations a developer might publish an application to a staging server, and then an administrator would move the application to a Web server.
 
 In this case, you can use the `Installation URL` property to specify the Web server where users will go to download the application. This is necessary so that the application manifest knows where to look for updates.
 
@@ -70,7 +70,7 @@ The `Installation URL` property can be set on the **Publish** page of the **Proj
 
 ## Specify the ClickOnce offline or online install mode
 
-The `Install Mode` for a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application determines whether the application will be available offline or online. When you choose **The application is available online only**, the user must have access to the [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] publishing location (either a Web page or a file share) in order to run the application. When you choose **The application is available offline as well**, the application adds entries to the **Start** menu and the **Add or Remove Programs** dialog box; the user is able to run the application when they are not connected.
+The `Install Mode` for a ClickOnce application determines whether the application will be available offline or online. When you choose **The application is available online only**, the user must have access to the ClickOnce publishing location (either a Web page or a file share) in order to run the application. When you choose **The application is available offline as well**, the application adds entries to the **Start** menu and the **Add or Remove Programs** dialog box; the user is able to run the application when they are not connected.
 
 The `Install Mode` can be set on the **Publish** page of the **Project Designer**.
 
@@ -99,7 +99,7 @@ The `Install Mode` can be set on the **Publish** page of the **Project Designer*
 
 ## Set the ClickOnce publish version
 
-The [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] `Publish Version` property determines whether or not the application that you are publishing will be treated as an update. Each time version is incremented, the application will be published as an update.
+The ClickOnce `Publish Version` property determines whether or not the application that you are publishing will be treated as an update. Each time version is incremented, the application will be published as an update.
 
 The `Publish Version` property can be set on the **Publish** page of the **Project Designer**.
 
@@ -121,7 +121,7 @@ The `Publish Version` property can be set on the **Publish** page of the **Proje
 
 ## Automatically increment the ClickOnce publish version
 
-When publishing a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, changing the `Publish Version` property causes the application to be published as an update. By default, Visual Studio automatically increments the `Revision` number of the `Publish Version` each time you publish the application.
+When publishing a ClickOnce application, changing the `Publish Version` property causes the application to be published as an update. By default, Visual Studio automatically increments the `Revision` number of the `Publish Version` each time you publish the application.
 
 You can disable this behavior on the **Publish** page of the **Project Designer**.
 

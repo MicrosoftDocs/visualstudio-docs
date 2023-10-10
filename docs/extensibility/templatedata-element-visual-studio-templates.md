@@ -66,7 +66,7 @@ Categorizes the template and defines how it displays in either the **New Project
 | [SupportsMasterPage](../extensibility/supportsmasterpage-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether the template supports a master page for web projects. |
 | [SupportsCodeSeparation](../extensibility/supportscodeseparation-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether the template supports code separation, or the code-behind page model, for web projects. |
 | [SupportsLanguageDropDown](../extensibility/supportslanguagedropdown-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies whether the template is identical for multiple languages, and whether the **Language** option is available from the **New Project** dialog box. |
-| [TargetPlatformName](../extensibility/targetplatformname-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies the platform that the project template targets. This element specifies that a project template is used to create [!INCLUDE[win8_appname_long](../debugger/includes/win8_appname_long_md.md)] apps. |
+| [TargetPlatformName](../extensibility/targetplatformname-element-visual-studio-templates.md) | Optional element.<br /><br /> Specifies the platform that the project template targets. This element specifies that a project template is used to create Windows 8.x Store apps. |
 
 ### Parent Elements
 
@@ -80,7 +80,7 @@ Categorizes the template and defines how it displays in either the **New Project
  If you do not include an optional element, the default value for that element is used.
 
 ## Example
- The following example shows the metadata for a project template for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] application.
+ The following example shows the metadata for a project template for a Visual C# application.
 
 ```
 <VSTemplate Type="Project" Version="3.0.0"

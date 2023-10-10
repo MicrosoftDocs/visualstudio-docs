@@ -25,13 +25,13 @@ ms.workload:
 
  [!INCLUDE[appliesto_all](../vsto/includes/appliesto-all-md.md)]
 
- When a user starts an Office solution that has not been granted trust for that user, the Microsoft Office solution prompts him or her for a security decision with a [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] trust prompt. If the user decides to trust the solution, the customization runs and the user is not prompted the next time.
+ When a user starts an Office solution that has not been granted trust for that user, the Microsoft Office solution prompts him or her for a security decision with a ClickOnce trust prompt. If the user decides to trust the solution, the customization runs and the user is not prompted the next time.
 
 ## Inclusion list and Windows Installer
  Installing Office solutions into the *Program Files* directory by using Windows Installer requires administrator rights. For Office solutions in the *Program Files* directory, the Visual Studio Tools for Office runtime no longer checks the inclusion list because the Office solutions have already been granted FullTrust permission.
 
 ## ClickOnce trust prompt
- By using the [!INCLUDE[ndptecclick](../vsto/includes/ndptecclick-md.md)] implementation for Office solutions, administrators can configure the trust prompt level to allow prompting, disable prompting, or require a trusted certificate. This configuration is done by using a registry key that controls access to the inclusion list.
+ By using the ClickOnce implementation for Office solutions, administrators can configure the trust prompt level to allow prompting, disable prompting, or require a trusted certificate. This configuration is done by using a registry key that controls access to the inclusion list.
 
  If prompting is disabled, only solutions that have a trusted and known certificate can be installed. If the prompting level is set to Authenticode required, the solution must be signed with a certificate from a known authority, but it does not require a certificate that chains to a trusted root authority (a trusted certificate). If prompting is allowed, the solution could be signed with a certificate with an unknown identity. In this scenario, the trust decision is deferred to the end user, and a temporary certificate would be sufficient to install a solution.
 

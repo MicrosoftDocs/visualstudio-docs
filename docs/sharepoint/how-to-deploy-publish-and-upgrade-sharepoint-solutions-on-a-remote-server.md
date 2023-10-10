@@ -45,9 +45,9 @@ ms.workload:
      The **Status** column on the **Solution Gallery** page indicates that the application is active.
 
 ## To upgrade a sandboxed SharePoint solution on a remote SharePoint server
- If a sandboxed SharePoint solution is already published on a remote server, the following process enables you to upgrade it after you make changes to the application in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)].
+ If a sandboxed SharePoint solution is already published on a remote server, the following process enables you to upgrade it after you make changes to the application in Visual Studio.
 
-1. Rename the SharePoint package in [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)]. To do this, in **Solution Explorer** open the package. It appears in the **Package Explorer**.
+1. Rename the SharePoint package in Visual Studio. To do this, in **Solution Explorer** open the package. It appears in the **Package Explorer**.
 
 2. In **Package Explorer**, in the **Name** box, change the package name to a unique name.
 

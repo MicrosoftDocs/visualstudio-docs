@@ -29,7 +29,7 @@ Designer implementations that need to provide support for the undo feature:
 
 For more information on writing designers using .NET Framework, see [Extend Design-Time Support](/previous-versions/37899azc(v=vs.140)).
 
-The [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] provides a default undo infrastructure by:
+The Visual Studio SDK provides a default undo infrastructure by:
 
 - Providing undo management implementations through the <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine> and <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine.UndoUnit> classes.
 
@@ -79,7 +79,7 @@ To obtain undo support, an object implementing a designer must instantiate and i
 
 - <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>
 
-   Designers using Visual Studio CodeDOM serialization may choose to use <xref:System.ComponentModel.Design.Serialization.CodeDomComponentSerializationService> provided with the [!INCLUDE[vsipsdk](../extensibility/includes/vsipsdk_md.md)] as its implementation of the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>.
+   Designers using Visual Studio CodeDOM serialization may choose to use <xref:System.ComponentModel.Design.Serialization.CodeDomComponentSerializationService> provided with the Visual Studio SDK as its implementation of the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService>.
 
    In this case, the <xref:System.IServiceProvider> class provided to the <xref:Microsoft.VisualStudio.Shell.Design.OleUndoEngine> constructor should return this object as an implementation of the <xref:System.ComponentModel.Design.Serialization.IDesignerSerializationService> class.
 
