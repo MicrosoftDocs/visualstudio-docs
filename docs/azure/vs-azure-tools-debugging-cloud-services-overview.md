@@ -12,6 +12,9 @@ ms.technology: vs-ide-debug
 # Learn the various ways to debug an Azure cloud service
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+ [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
+
 This article provides links to the various ways to debug an Azure cloud service.
 
 ## Debugging an Azure cloud service in Visual Studio

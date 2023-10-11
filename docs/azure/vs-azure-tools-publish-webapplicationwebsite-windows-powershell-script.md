@@ -12,6 +12,9 @@ ms.author: ghogen
 # Publish-WebApplicationWebSite (Windows PowerShell script)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+ [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
+
 ## Syntax
 Publishes a web project to an Azure website. The script creates the required resources in your Azure subscription if they don't exist.
 
