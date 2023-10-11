@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 8fda431f-9227-4dca-b060-a278feaedba5
-ms.date: 05/24/2023
+ms.date: 10/11/2023
 ms.topic: conceptual
 description:  Learn how you can take advantage of Microsoft Dev Box via your Visual Studio subscription 
 ---
