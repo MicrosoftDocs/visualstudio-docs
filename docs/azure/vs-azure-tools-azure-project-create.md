@@ -13,7 +13,7 @@ ms.author: ghogen
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
- [!INCLUDE [Cloud Services](./includes/cloud-services-legacy-note.md)]
+ [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
 Visual Studio provides a project template that lets you create an [Azure cloud service](/azure/cloud-services/cloud-services-choose-me), which is a simple general-purpose Azure service. Once the project has been created, Visual Studio enables you to configure, debug, and deploy the cloud service to Azure.
 
