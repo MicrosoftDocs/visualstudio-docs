@@ -1,19 +1,16 @@
 ---
 description: "Specifies the kind of field contained in an IDebugField object."
-title: FIELD_KIND | Microsoft Docs
+title: FIELD_KIND
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - FIELD_KIND
 helpviewer_keywords:
 - FIELD_KIND enumeration
-ms.assetid: fd522b9c-52e2-42fa-939d-343347d5c3b1
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

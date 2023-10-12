@@ -10,8 +10,6 @@ author: maddymontaquila
 ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
-ms.workload:
-  - "multiple"
 monikerRange: ">=vs-2019"
 ---
 # XAML data binding diagnostics

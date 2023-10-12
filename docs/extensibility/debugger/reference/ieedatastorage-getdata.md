@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the specified number of bytes from the object."
-title: IEEDataStorage::GetData | Microsoft Docs
+title: IEEDataStorage::GetData
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEEDataStorage::GetData
 helpviewer_keywords:
 - IEEDataStorage::GetData
-ms.assetid: 4d384039-73d4-40b4-ace6-a2474c546397
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

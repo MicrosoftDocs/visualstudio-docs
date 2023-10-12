@@ -1,5 +1,5 @@
 ---
-title: "Create SharePoint Solutions | Microsoft Docs"
+title: "Create SharePoint Solutions"
 description: Create SharePoint applications in Visual Studio as an alternative to creating them in SharePoint Designer.
 ms.date: "02/02/2017"
 ms.topic: overview
@@ -12,8 +12,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Create SharePoint solutions
 

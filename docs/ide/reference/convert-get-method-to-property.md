@@ -13,8 +13,6 @@ f1_keywords:
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- dotnet
 ---
 # Convert Get method to property / Convert property to Get method refactorings
 

@@ -7,8 +7,6 @@ author: madskristensen
 ms.author: madsk
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
 ---
 # Suggest a feature for Visual Studio
 

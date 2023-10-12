@@ -1,5 +1,5 @@
 ---
-title: "Creating a Business Data Connectivity Model | Microsoft Docs"
+title: "Creating a Business Data Connectivity Model"
 description: Create a Business Data Connectivity (BDC) model or customize an existing BDC model by using Visual Studio. Each SharePoint project can contain only one model.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -15,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Create a business data connectivity model
 

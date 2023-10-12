@@ -3,7 +3,6 @@ title: Admin responsibilities in Visual Studio subscriptions | Visual Studio Mar
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: b26b31dc-1eeb-4871-9ce6-2c980e703f1e
 ms.date: 07/26/2023
 ms.topic: conceptual
 description:  Learn about responsibilities of subscriptions admins.

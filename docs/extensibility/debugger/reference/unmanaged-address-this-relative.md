@@ -1,19 +1,16 @@
 ---
 description: "This structure represents an address that is relative to a this pointer (Me in Visual Basic)."
-title: UNMANAGED_ADDRESS_THIS_RELATIVE | Microsoft Docs
+title: UNMANAGED_ADDRESS_THIS_RELATIVE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - UNMANAGED_ADDRESS_THIS_RELATIVE
 helpviewer_keywords:
 - UNMANAGED_ADDRESS_THIS_RELATIVE structure
-ms.assetid: e6a91ace-2d47-4ff9-aefb-8d8b68eab0b2
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

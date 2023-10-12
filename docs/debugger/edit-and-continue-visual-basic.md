@@ -1,5 +1,5 @@
 ---
-title: "Edit and Continue (Visual Basic) | Microsoft Docs"
+title: "Edit and Continue (Visual Basic)"
 description: Edit and Continue is available for Visual Basic projects. Learn what edits are supported, and how to can control whether, and when, your edits are applied.
 ms.date: "08/15/2023"
 ms.topic: "conceptual"
@@ -14,13 +14,10 @@ helpviewer_keywords:
   - "debugging [Visual Basic], Edit and Continue"
   - "Visual Basic, Edit and Continue"
   - "64-bit Edit and Continue"
-ms.assetid: 7e90f34f-e699-45ab-a4c9-a4b527c498c8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Edit and Continue (Visual Basic)
 

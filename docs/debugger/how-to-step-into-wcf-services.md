@@ -1,5 +1,5 @@
 ---
-title: Step into WCF Services | Microsoft Docs
+title: Step into WCF Services
 description: Step into a Windows Communication Foundation (WCF) service. If it's in the same Visual Studio solution as the client, hit breakpoints inside the WCF service.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -11,13 +11,10 @@ dev_langs:
 helpviewer_keywords: 
   - debugging, WCF
   - WCF, debugging
-ms.assetid: 9893ad01-54af-499f-85a6-9d1cfe6eb640
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How to: Step into WCF Services
 

@@ -13,8 +13,6 @@ author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Application Page, Project Designer (Visual Basic)
 

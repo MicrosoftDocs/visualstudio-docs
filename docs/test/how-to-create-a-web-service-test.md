@@ -7,7 +7,6 @@ helpviewer_keywords:
   - Web performance tests, creating Web service tests
   - Web services [Visual Studio ALM], creating
   - service tests, Web
-ms.assetid: fbcd57ee-06ad-4260-8694-09f8e0f93e39
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens

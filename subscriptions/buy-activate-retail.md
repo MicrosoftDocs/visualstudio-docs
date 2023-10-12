@@ -1,9 +1,8 @@
 ---
-title: Visual Studio subscriptions available in the Microsoft Store | Microsoft Docs
+title: Visual Studio subscriptions available in the Microsoft Store
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 76654645-08ee-445d-b9ee-123126d1f0fb
 ms.date: 03/28/2023
 ms.topic: how-to
 description:  Learn how to purchase Visual Studio subscriptions in the Microsoft Store and activate them in the Visual Studio subscriptions portal.

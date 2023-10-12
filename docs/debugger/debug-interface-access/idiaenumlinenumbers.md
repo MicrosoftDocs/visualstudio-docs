@@ -1,19 +1,16 @@
 ---
 description: "Enumerates the various line numbers contained in the data source."
-title: "IDiaEnumLineNumbers | Microsoft Docs"
+title: "IDiaEnumLineNumbers"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumLineNumbers interface"
-ms.assetid: cdf07b4f-19e4-4dcd-8af8-c2dbca586a7c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaEnumLineNumbers
 

@@ -10,8 +10,6 @@ ms.author: anva
 manager: tinali
 ms.technology: vs-ide-sdk
 monikerRange: ">=vs-2022"
-ms.workload:
-- vssdk
 feedback_system: GitHub
 ---
 

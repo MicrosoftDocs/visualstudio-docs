@@ -5,10 +5,8 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 04/24/2022
-ms.custom: devdivchpfy22
 ms.technology: vs-ide-install
 ms.topic: how-to
-ms.assetid: DB8DC9FE-FF21-4061-8A96-3F9FC08A4F8F
 ---
 # Update Visual Studio for Mac
 

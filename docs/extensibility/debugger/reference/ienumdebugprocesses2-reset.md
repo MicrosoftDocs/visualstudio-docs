@@ -1,19 +1,16 @@
 ---
 description: "Resets the processes enumeration to the first element."
-title: IEnumDebugProcesses2::Reset | Microsoft Docs
+title: IEnumDebugProcesses2::Reset
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugProcesses2::Reset
 helpviewer_keywords:
 - IEnumDebugProcesses2::Reset
-ms.assetid: 31cbde4f-0bba-497a-9969-d2c342ef4a7b
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

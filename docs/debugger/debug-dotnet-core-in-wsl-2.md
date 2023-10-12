@@ -11,8 +11,6 @@ ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
 monikerRange: '>= vs-2019'
-ms.workload:
-  - "multiple"
 ---
 # Debug .NET Apps in WSL with Visual Studio
 

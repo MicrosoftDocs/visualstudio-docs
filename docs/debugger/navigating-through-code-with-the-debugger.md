@@ -1,7 +1,6 @@
 ---
 title: "Navigate code with the debugger"
 description: "Learn how to use the Visual Studio debugger to troubleshoot your code. Topics include entering break mode, stepping through code, and running to a target."
-
 ms.date: 06/16/2023
 ms.topic: how-to
 f1_keywords: 
@@ -14,8 +13,6 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # Navigate through code by using the Visual Studio debugger
 

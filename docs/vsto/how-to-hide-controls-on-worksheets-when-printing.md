@@ -1,5 +1,5 @@
 ---
-title: "How to: Hide controls on worksheets when printing"
+title: "Hide controls on worksheets when printing"
 description: Learn that you can hide the controls when printing a Microsoft Office Excel worksheet that contains Windows Forms controls. 
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -15,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Hide controls on worksheets when printing
 

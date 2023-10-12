@@ -1,5 +1,5 @@
 ---
-title: Run UWP apps in the simulator | Microsoft Docs
+title: Run UWP apps in the simulator
 description: Understand how to run Universal Windows Platform (UWP) apps in the Visual Studio simulator, which is a desktop application that simulates a UWP app.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -8,14 +8,11 @@ dev_langs:
   - VB
   - FSharp
   - C++
-ms.assetid: 81b69bf8-ec87-4bb6-9ad4-1fa7b7802d16
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 monikerRange: '<= vs-2019'
-ms.workload: 
-  - uwp
 ---
 # Run UWP apps in the simulator
 

@@ -1,19 +1,16 @@
 ---
 description: "This interface represents a collection of objects implementing the IDebugObject interface."
-title: IEnumDebugObjects | Microsoft Docs
+title: IEnumDebugObjects
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugObjects
 helpviewer_keywords:
 - IEnumDebugObjects interface
-ms.assetid: 0950364c-6c8a-4b6c-ba37-c6aa359fa72c
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IEnumDebugObjects
 

@@ -1,18 +1,15 @@
 ---
-title: Modules | Microsoft Docs
+title: Modules
 description: This article describes the definition and role of a module in the debugger architecture in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - modules
 - debugging [Debugging SDK], modules
-ms.assetid: c4cf2809-dbdb-4e75-9273-b3d3d77b67d0
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Modules
 

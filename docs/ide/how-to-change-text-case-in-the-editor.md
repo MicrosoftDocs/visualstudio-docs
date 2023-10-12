@@ -6,13 +6,10 @@ ms.topic: how-to
 helpviewer_keywords:
 - editors, text case
 - text, case
-ms.assetid: b04d1327-a45e-4c12-a0d0-67672b3fa855
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # How to: Change text case in the editor
 

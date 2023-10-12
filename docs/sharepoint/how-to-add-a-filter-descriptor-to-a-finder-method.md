@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a Filter Descriptor to a Finder Method | Microsoft Docs"
+title: "Add a Filter Descriptor to a Finder Method"
 description: Know how to add a filter descriptor to a Finder method using the BDC Method Details window in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -15,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Add a filter descriptor to a Finder method
 

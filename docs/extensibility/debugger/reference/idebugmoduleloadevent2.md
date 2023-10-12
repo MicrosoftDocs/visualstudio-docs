@@ -1,19 +1,16 @@
 ---
 description: "This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a module is loaded or unloaded."
-title: IDebugModuleLoadEvent2 | Microsoft Docs
+title: IDebugModuleLoadEvent2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugModuleLoadEvent2
 helpviewer_keywords:
 - IDebugModuleLoadEvent2 interface
-ms.assetid: 7d26fb23-5d49-4ba7-b7c5-3aed4d7be81e
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugModuleLoadEvent2
 

@@ -1,5 +1,5 @@
 ---
-title: "How to: Export a ribbon from the Ribbon Designer to Ribbon XML"
+title: "Export a ribbon from the Ribbon Designer to Ribbon XML"
 description: Learn that to customize the ribbon, you can export the ribbon from the designer to Ribbon XML and edit the XML directly.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -19,8 +19,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Export a ribbon from the Ribbon Designer to Ribbon XML
 

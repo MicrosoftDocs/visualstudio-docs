@@ -1,5 +1,5 @@
 ---
-title: Error Handling and Return Values | Microsoft Docs
+title: Error Handling and Return Values
 description: Learn how the Visual Studio SDK provides interop assemblies to record rich error information when receiving an error notification.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - errors [Visual Studio SDK], handling
 - error handling
 - return values
-ms.assetid: b2d9079d-39a6-438a-8010-290056694b5c
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Error handling and return values
 

@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically loop through found items in documents"
+title: "Programmatically loop through found items in documents"
 description: Learn how you can programmatically loop through found items in a Microsoft Word document by using Visual Studio.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -15,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically loop through found items in documents
 

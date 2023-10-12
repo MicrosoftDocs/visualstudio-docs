@@ -1,5 +1,5 @@
 ---
-title: "Mixed Mode Debugging Is Only Supported when Using Microsoft .NET Framework 2.0 or 3.0 | Microsoft Docs"
+title: "Mixed Mode Debugging Is Only Supported when Using Microsoft .NET Framework 2.0 or 3.0"
 description: Versions of the Microsoft .NET Framework earlier than 2.0 do not provide support for mixed-mode debugging of 64-bit processes. See this article for workarounds.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -10,13 +10,10 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: f607af6f-57fe-472a-a32e-b6202067aa96
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "dotnet"
 ---
 # Mixed Mode Debugging Is Only Supported when Using Microsoft .NET Framework 2.0 or 3.0
 

@@ -4,13 +4,10 @@ description: Use the features of the XAML Designer in Blend for Visual Studio to
 titleSuffix: Blend for Visual Studio
 ms.date: 07/11/2022
 ms.topic: conceptual
-ms.assetid: d5378c59-e2e5-49f0-91f1-aa82d984a33c
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
-ms.workload:
-- multiple
 ---
 # Draw shapes and paths
 

@@ -1,18 +1,15 @@
 ---
 description: "Retrieves the specified extended field kind."
-title: IDebugExtendedField::GetExtendedKind | Microsoft Docs
+title: IDebugExtendedField::GetExtendedKind
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugExtendedField::GetExtendedKind
 - GetExtendedKind
-ms.assetid: 20dc1c13-3cc0-4bb4-9c99-fa85587c86c3
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

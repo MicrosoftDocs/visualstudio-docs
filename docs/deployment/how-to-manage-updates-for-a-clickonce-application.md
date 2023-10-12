@@ -1,5 +1,5 @@
 ---
-title: Manage Updates for a ClickOnce Application | Microsoft Docs
+title: Manage Updates for a ClickOnce Application
 description: Learn about options to check for updates automatically or programmatically for your ClickOnce applications.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -14,13 +14,10 @@ helpviewer_keywords:
   - ClickOnce deployment, updates
   - updating data, ClickOnce
   - application updates
-ms.assetid: a3f23f05-e7f1-4620-b23c-2d68f9643684
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # How to: Manage updates for a ClickOnce application
 

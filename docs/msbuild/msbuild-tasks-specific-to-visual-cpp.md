@@ -1,5 +1,5 @@
 ---
-title: MSBuild Tasks Specific to C++ | Microsoft Docs
+title: MSBuild Tasks Specific to C++
 description: See MSBuild tasks that are available when C++ is installed, which MSBuild uses when building C++ code.
 ms.date: 03/10/2019
 ms.topic: reference
@@ -7,16 +7,12 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, tasks specific to C++
-ms.assetid: 05410f0c-7356-4692-bc00-20664421c9ff
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- cplusplus
 ---
 # MSBuild tasks specific to C++
 

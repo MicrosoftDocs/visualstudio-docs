@@ -1,5 +1,5 @@
 ---
-title: "Context operator in the debugger (C++) | Microsoft Docs"
+title: "Context operator in the debugger (C++)"
 description: You may need to provide context for a C++ name that is in an outer scope and is hidden by a local name. Learn how to use the context operator to do this. 
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -17,13 +17,10 @@ helpviewer_keywords:
   - "context operator, in expressions"
   - "debugging [C++], expressions"
   - "native expression evaluator"
-ms.assetid: 73cc9afe-f4a4-474e-bb89-5a33fb5e570c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "cplusplus"
 ---
 # Context Operator in the Visual Studio Debugger (C++)
 

@@ -9,8 +9,6 @@ f1_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
 ---
 # Options, Text Editor, HTML (Web Forms), Formatting
 

@@ -1,19 +1,16 @@
 ---
 description: "The METADATA_TYPE structure specifies information about a field type taken from metadata."
-title: METADATA_TYPE | Microsoft Docs
+title: METADATA_TYPE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - METADATA_TYPE
 helpviewer_keywords:
 - METADATA_TYPE structure
-ms.assetid: 2d8b78f6-0aef-4d79-809a-cff9b2c24659
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

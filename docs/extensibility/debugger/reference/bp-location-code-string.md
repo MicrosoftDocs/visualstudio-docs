@@ -1,19 +1,16 @@
 ---
 description: "Used for setting code breakpoints based on a string that the user can enter from the integrated development environment (IDE)."
-title: BP_LOCATION_CODE_STRING | Microsoft Docs
+title: BP_LOCATION_CODE_STRING
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_LOCATION_CODE_STRING
 helpviewer_keywords:
 - BP_LOCATION_CODE_STRING structure
-ms.assetid: a4cd71c6-5052-45fe-907b-ebc6ca1df2e4
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Format specifiers in the debugger (C#) | Microsoft Docs"
+title: "Format specifiers in the debugger (C#)"
 description: Use a format specifier to change the format in which a value is displayed in the Watch window. This article provides usage details.
 ms.date: "11/21/2018"
 ms.topic: "conceptual"
@@ -20,13 +20,10 @@ helpviewer_keywords:
   - "Watch window, format specifiers in C#"
   - "format specifiers, debugger"
   - "debugger, format specifiers recognized by"
-ms.assetid: 345c8589-5f36-4d34-a58c-e56271687dd6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "dotnet"
 ---
 # Format specifiers in C# in the Visual Studio debugger
 

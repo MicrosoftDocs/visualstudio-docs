@@ -1,5 +1,5 @@
 ---
-title: "How to: Import a Master Page or Theme | Microsoft Docs"
+title: "Import a Master Page or Theme"
 description: Make templates for master pages and themes in SharePoint Designer, then import into Visual Studio to give pages on your SharePoint site a consistent appearance.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Import a master page or theme
 

@@ -1,5 +1,5 @@
 ---
-title: Debug ASP.NET Exceptions | Microsoft Docs
+title: Debug ASP.NET Exceptions
 description: Learn to configure so that the debugger stops for unhandled exceptions in your ASP.NET application. You can assure that the break occurs in non-system code.
 ms.date: 07/21/2023
 ms.topic: how-to
@@ -12,13 +12,10 @@ helpviewer_keywords:
   - debugging [Visual Studio], ASP.NET exceptions
   - ASP.NET, exceptions
   - exceptions, ASP.NET
-ms.assetid: 1810096e-de8c-435e-be3d-f365d0cd0a6a
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - aspnet
 ---
 # How to: Debug ASP.NET Exceptions
 

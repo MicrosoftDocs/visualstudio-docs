@@ -1,5 +1,5 @@
 ---
-title: Sample Implementation of Expression Evaluation | Microsoft Docs
+title: Sample Implementation of Expression Evaluation
 description: Learn how Visual Studio calls ParseText to produce an IDebugExpression2 object for a Watch windows expression.
 ms.date: 11/04/2016
 ms.topic: sample
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - expression evaluators
 - debugging [Debugging SDK], expression evaluators
 - expression evaluation, examples
-ms.assetid: 2a5f04b8-6c65-4232-bddd-9093653a22c4
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Sample implementation of expression evaluation
 

@@ -1,6 +1,6 @@
 ---
 title: Add code to DataSets in n-tier applications
-description: Add code to datasets in n-tier apps in Visual Studio. Create a partial class file for a dataset and add code to it (instead of to DatasetName.Dataset.Designer).
+description: Add code to ADO.NET datasets in n-tier apps in Visual Studio. Create a partial class file for a dataset and add code to it (instead of to DatasetName.Dataset.Designer).
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -8,13 +8,10 @@ dev_langs:
 - CSharp
 helpviewer_keywords:
 - n-tier applications, extending DataSets
-ms.assetid: d43c2ccd-4902-43d8-b1a8-d10ca5d3210c
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Add code to DataSets in n-tier applications
 

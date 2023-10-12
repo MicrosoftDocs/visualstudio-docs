@@ -1,6 +1,6 @@
 ---
 description: "The Internet Connection Firewall on the local machine, the machine you are running Visual Studio from, is not set up to allow remote debugging."
-title: "Firewall on Local Machine | Microsoft Docs"
+title: "Firewall on Local Machine"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:
@@ -14,8 +14,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Error: Firewall on Local Machine
 

@@ -16,8 +16,6 @@ ms.author: ghogen
 manager: jmartens
 monikerRange: '>= vs-2019'
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # Overview of Publish
 

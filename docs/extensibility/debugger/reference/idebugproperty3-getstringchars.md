@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the string associated with this property and stores it in a user-supplied buffer."
-title: IDebugProperty3::GetStringChars | Microsoft Docs
+title: IDebugProperty3::GetStringChars
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProperty3::GetStringChars
 helpviewer_keywords:
 - IDebugProperty3::GetStringChars
-ms.assetid: 832c37f3-85cb-4227-8ab2-f27a80eafe90
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

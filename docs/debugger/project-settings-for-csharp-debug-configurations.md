@@ -1,7 +1,6 @@
 ---
-title: "Project Settings for a C# debug config | Microsoft Docs"
+title: "Project Settings for a C# debug config"
 description: Understand how to change the project settings for a C# debug configuration in Visual Studio, using the Debug tab and Build tab of the project property pages.
-
 ms.date: "01/13/2022"
 ms.topic: "reference"
 dev_langs:
@@ -16,13 +15,10 @@ helpviewer_keywords:
   - "projects [Visual Studio], debug configurations"
   - "project configurations, debug"
   - "debugging [C#], debugger settings"
-ms.assetid: e30ca810-66e9-4d6e-9cf6-9f285cd0b100
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "dotnet"
 ---
 # Project settings for C# debug configurations
 

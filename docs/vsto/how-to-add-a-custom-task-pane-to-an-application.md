@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a custom task pane to an application"
+title: "Add a custom task pane to an application"
 description: Learn how you can add a custom task pane to the applications by using the Visual Studio Tools for Office (VSTO) Add-in.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Add a custom task pane to an application
 

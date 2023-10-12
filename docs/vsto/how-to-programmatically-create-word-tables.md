@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically create Word tables"
+title: "Programmatically create Word tables"
 description: Learn how to use the Add method of the Tables collection to add a table at the specified range in a Microsoft Word document.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically create Word tables
 

@@ -1,17 +1,13 @@
 ---
 title: "Troubleshooting and known issues (VS Tools for Unity)"
 description: Read about troubleshooting in Visual Studio Tools for Unity. See descriptions of known issues, and learn about solutions to those issues.
-
 ms.date: "04/04/2022"
 ms.technology: vs-unity-tools
 ms.prod: visual-studio
 ms.topic: troubleshooting
-ms.assetid: 8f5db192-8d78-4627-bd07-dbbc803ac554
 author: therealjohn
 ms.author: johmil
 manager: crdun
-ms.workload:
-  - "unity"
 ---
 # Troubleshooting and known issues (Visual Studio Tools for Unity)
 

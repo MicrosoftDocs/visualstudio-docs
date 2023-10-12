@@ -1,9 +1,8 @@
 ---
-title: Partners managing Visual Studio subscriptions for customers | Microsoft Docs
+title: Partners managing Visual Studio subscriptions for customers
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 6866dfab-c4fa-428e-bb0d-7b202c81f770
 ms.date: 03/23/2023
 ms.topic: conceptual
 description:  Learn how partners manage Visual Studio subscriptions for their customers.

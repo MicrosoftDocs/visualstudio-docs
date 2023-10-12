@@ -1,19 +1,16 @@
 ---
 description: "IDiaStackFrame::get_functionStart retrieves a flag that indicates whether the block contains the entry point of a function."
-title: "IDiaStackFrame::get_functionStart | Microsoft Docs"
+title: "IDiaStackFrame::get_functionStart"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackFrame::get_functionStart"
-ms.assetid: e3e6e88b-0594-4d82-9457-480239a2e85a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaStackFrame::get_functionStart
 

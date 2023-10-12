@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically group rows in a worksheet"
+title: "Programmatically group rows in a worksheet"
 description: Learn how you can programmatically group one or more whole rows in Microsoft Excel by using a NamedRange control or a native Excel range object.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -20,8 +20,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically group rows in a worksheet
 

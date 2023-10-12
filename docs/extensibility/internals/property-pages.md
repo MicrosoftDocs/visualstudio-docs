@@ -1,5 +1,5 @@
 ---
-title: Property Pages | Microsoft Docs
+title: Property Pages
 description: Learn about working with Properties Pages for your new project type in the Visual Studio SDK, which allow users to view and change project properties.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - configuration options, changing properties
 - property pages
 - property pages, changing configuration options
-ms.assetid: b9b3e6e8-1e30-4c89-9862-330265dcf38c
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Property Pages
 

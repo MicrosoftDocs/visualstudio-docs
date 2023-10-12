@@ -1,19 +1,16 @@
 ---
 description: "Gets the size of the object in bytes."
-title: IDebugObject::GetSize | Microsoft Docs
+title: IDebugObject::GetSize
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugObject::GetSize
 helpviewer_keywords:
 - IDebugObject::GetSize method
-ms.assetid: 89af423b-36eb-479d-b2de-2693455eca15
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

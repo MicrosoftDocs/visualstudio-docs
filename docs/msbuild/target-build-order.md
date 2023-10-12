@@ -1,17 +1,14 @@
 ---
-title: Target Build Order | Microsoft Docs
+title: Target Build Order
 description: Learn how to specify the order in which MSBuild targets are run, if the input to one target depends on the output of another target.
 ms.date: 09/12/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - msbuild, build order
-ms.assetid: f4a26339-9f9a-497a-9aa6-0797183d450d
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 
 # Target build order

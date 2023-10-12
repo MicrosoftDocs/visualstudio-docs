@@ -1,9 +1,8 @@
 ---
-title: Manage Visual Studio subscriptions from Microsoft Cloud Partner Program | Microsoft Docs
+title: Manage Visual Studio subscriptions from Microsoft Cloud Partner Program
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 83efe4ee-9a9d-4776-b27c-852d89dadafd
 ms.date: 06/14/2023
 ms.topic: how-to
 description: How Microsoft Cloud Partner Program partners assign Visual Studio subscriptions to end users.

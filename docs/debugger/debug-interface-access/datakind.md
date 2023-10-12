@@ -1,19 +1,16 @@
 ---
 description: "Indicates the particular scope of a data value."
-title: "DataKind | Microsoft Docs"
+title: "DataKind"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "DataKind enumeration"
-ms.assetid: b64be708-22d6-4360-99e7-8f4e6b196de7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # DataKind
 

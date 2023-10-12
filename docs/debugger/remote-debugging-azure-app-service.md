@@ -8,10 +8,6 @@ ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
 monikerRange: '>= vs-2022'
-ms.workload:
-  - "aspnet"
-  - "dotnetcore"
-  - "azure"
 ---
 # Remote Debug ASP.NET Core on Azure App Service
 

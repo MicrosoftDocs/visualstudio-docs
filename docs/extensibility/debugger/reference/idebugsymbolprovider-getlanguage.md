@@ -1,19 +1,16 @@
 ---
 description: "This method gets the language that was used to compile the code at the debug address."
-title: IDebugSymbolProvider::GetLanguage | Microsoft Docs
+title: IDebugSymbolProvider::GetLanguage
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugSymbolProvider::GetLanguage
 helpviewer_keywords:
 - IDebugSymbolProvider::GetLanguage method
-ms.assetid: e4142183-3d8b-418f-907f-4ee4c753d8ce
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

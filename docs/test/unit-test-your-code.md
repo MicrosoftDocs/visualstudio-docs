@@ -10,8 +10,6 @@ helpviewer_keywords:
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-test
-ms.workload:
-- multiple
 author: mikejo5000
 ---
 # Unit test tools and tasks

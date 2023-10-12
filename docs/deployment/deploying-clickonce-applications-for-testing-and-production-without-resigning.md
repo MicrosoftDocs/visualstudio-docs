@@ -14,13 +14,10 @@ helpviewer_keywords:
   - "update location [ClickOnce]"
   - "deploymentProvider tag"
   - "manifests [ClickOnce]"
-ms.assetid: 1218a98d-1ad5-4eef-95dd-0e0b3c44168c
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # Deploy ClickOnce applications for testing and production servers without resigning
 

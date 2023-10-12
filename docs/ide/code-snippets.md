@@ -17,8 +17,6 @@ dev_langs:
 - CSharp
 - VB
 - CPP
-ms.workload:
-- multiple
 ---
 # Code snippets
 

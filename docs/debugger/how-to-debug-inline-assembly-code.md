@@ -1,5 +1,5 @@
 ---
-title: Debug Inline Assembly Code | Microsoft Docs
+title: Debug Inline Assembly Code
 description: When you debug inline assembly code, use the Disassembly window to see the assembly instructions, and use the Registers window to view the register values.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -14,13 +14,10 @@ helpviewer_keywords:
   - assembly language, debugging inline assembly code
   - debugging [C++], inline assembly code
   - inline assembly, debugging
-ms.assetid: cc5664e0-0b38-40c1-bb65-04ae720c2adb
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How to: Debug Inline Assembly Code
 

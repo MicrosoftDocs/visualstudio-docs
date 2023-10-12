@@ -1,19 +1,16 @@
 ---
 description: "Specifies flags that control expression evaluation."
-title: EVALFLAGS | Microsoft Docs
+title: EVALFLAGS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - EVALFLAGS
 helpviewer_keywords:
 - EVALFLAGS enumeration
-ms.assetid: 7b2cb14a-511a-4fef-9e4f-308139719fba
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

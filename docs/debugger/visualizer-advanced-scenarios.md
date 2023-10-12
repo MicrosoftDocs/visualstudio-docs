@@ -1,5 +1,5 @@
 ---
-title: "Advanced Visualizer Scenarios | Microsoft Docs"
+title: "Advanced Visualizer Scenarios"
 description: Visual Studio debugger visualizers advanced scenarios and examples for them. 
 ms.date: "05/09/2022"
 ms.topic: "conceptual"
@@ -16,8 +16,6 @@ helpviewer_keywords:
 author: "mpeyrotc"
 ms.author: "mapeyrot"
 manager: caslan
-ms.workload:
-  - "multiple"
 ---
 # Advanced visualizer scenarios
 

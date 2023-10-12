@@ -1,19 +1,16 @@
 ---
 description: "Specifies whether the breakpoint is at a code location, is a data location, or is another type of breakpoint."
-title: BP_TYPE | Microsoft Docs
+title: BP_TYPE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_TYPE
 helpviewer_keywords:
 - BP_TYPE enumeration
-ms.assetid: ef07191e-7966-43ab-96fb-1a0b1db3115d
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

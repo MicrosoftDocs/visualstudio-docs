@@ -1,5 +1,5 @@
 ---
-title: "Supported Code Changes (C# and Visual Basic) | Microsoft Docs"
+title: "Supported Code Changes (C# and Visual Basic)"
 description: Understand what code changes are supported when you are using the Edit and Continue feature while debugging a C# or Visual Basic project in Visual Studio.
 ms.date: "08/11/2023"
 ms.topic: "conceptual"
@@ -10,13 +10,10 @@ dev_langs:
 helpviewer_keywords:
   - "Edit and Continue [C#], supported code changes"
   - "Edit and Continue [Visual Basic], supported code changes"
-ms.assetid: c7a48ea9-5a7f-4328-a9d7-f0e76fac399d
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "dotnet"
 ---
 # Supported code changes (C# and Visual Basic)
 

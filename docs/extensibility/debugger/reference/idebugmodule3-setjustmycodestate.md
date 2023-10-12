@@ -1,19 +1,16 @@
 ---
 description: "Marks the module as being user code or not."
-title: IDebugModule3::SetJustMyCodeState | Microsoft Docs
+title: IDebugModule3::SetJustMyCodeState
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugModule3::SetJustMyCodeState
 helpviewer_keywords:
 - IDebugModule3::SetJustMyCodeState
-ms.assetid: 68f8166d-ef64-49ae-ad5e-79604f43bbd4
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

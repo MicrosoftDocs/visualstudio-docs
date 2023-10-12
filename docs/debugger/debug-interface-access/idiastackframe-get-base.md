@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the base address of the frame."
-title: "IDiaStackFrame::get_base | Microsoft Docs"
+title: "IDiaStackFrame::get_base"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackFrame::get_base method"
-ms.assetid: f27477d7-26fe-4c1c-a08a-c52cb20c8293
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaStackFrame::get_base
 

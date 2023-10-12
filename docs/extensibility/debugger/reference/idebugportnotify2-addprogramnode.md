@@ -1,19 +1,16 @@
 ---
 description: "Registers a program that can be debugged with the port it is running on."
-title: IDebugPortNotify2::AddProgramNode | Microsoft Docs
+title: IDebugPortNotify2::AddProgramNode
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortNotify2::AddProgramNode
 helpviewer_keywords:
 - IDebugPortNotify2::AddProgramNode
-ms.assetid: 34c0e949-1eb9-4108-9cb8-a3eb87fcf190
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

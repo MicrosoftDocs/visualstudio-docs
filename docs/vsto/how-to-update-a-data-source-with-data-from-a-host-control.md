@@ -1,5 +1,5 @@
 ---
-title: "How to: Update a data source with data from a host control"
+title: "Update a data source with data from a host control"
 description: Learn how you can bind a host control to a data source and update the data source with the changes that are made to the data in the control.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -16,8 +16,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Update a data source with data from a host control
 

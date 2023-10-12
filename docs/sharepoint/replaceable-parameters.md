@@ -1,5 +1,5 @@
 ---
-title: "Replaceable Parameters | Microsoft Docs"
+title: "Replaceable Parameters"
 description: Review replaceable parameters (tokens), which specify values inside project files for SharePoint solution items whose actual values aren't known at design time.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -15,7 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload: "office"
 ---
 # Replaceable parameters
 

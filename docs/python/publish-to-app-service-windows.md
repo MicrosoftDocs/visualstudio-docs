@@ -7,11 +7,6 @@ author: cwebster-99
 ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
-
-ms.workload:
-  - python
-  - data-science
-  - azure
 ---
 
 # Publishing to Azure App Service on Linux

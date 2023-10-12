@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the children of the symbol that are valid at a specified address."
-title: "IDiaSymbol::findChildrenExByAddr | Microsoft Docs"
+title: "IDiaSymbol::findChildrenExByAddr"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::findChildrenExByAddr"
-ms.assetid: c1e7885d-2d15-4529-9ac2-32dd22efe31c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::findChildrenExByAddr
 

@@ -1,18 +1,15 @@
 ---
-title: MSBuild Transforms | Microsoft Docs
+title: MSBuild Transforms
 description: Learn about how MSBuild uses transforms, one-to-one conversions of one item list to another, to build projects more efficiently.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, transforms
 - transforms [MSBuild]
-ms.assetid: d0bcfc3c-14fa-455e-805c-63ccffa4a3bf
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # MSBuild transforms
 

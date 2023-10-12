@@ -1,19 +1,16 @@
 ---
 description: "Designates thunk types."
-title: "THUNK_ORDINAL | Microsoft Docs"
+title: "THUNK_ORDINAL"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "Thunk_Ordinal enumeration"
-ms.assetid: 026f98a9-36b8-41ef-8a72-12d7cbc2d362
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # THUNK_ORDINAL
 

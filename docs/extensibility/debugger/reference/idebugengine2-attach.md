@@ -1,19 +1,16 @@
 ---
 description: "Attaches a debug engine (DE) to a program or programs."
-title: IDebugEngine2::Attach | Microsoft Docs
+title: IDebugEngine2::Attach
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngine2::Attach
 helpviewer_keywords:
 - IDebugEngine2::Attach
-ms.assetid: 173dcbda-5019-4c5e-bca9-a071838b5739
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

@@ -1,18 +1,15 @@
 ---
-title: Command Routing Algorithm | Microsoft Docs
+title: Command Routing Algorithm
 description: Learn about the order of command resolution in Visual Studio as commands are handled by different components and routed from the innermost to the outermost context.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - commands, routing
 - command routing
-ms.assetid: 998b616b-bd08-45cb-845f-808efb8c33bc
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Command routing algorithm
 

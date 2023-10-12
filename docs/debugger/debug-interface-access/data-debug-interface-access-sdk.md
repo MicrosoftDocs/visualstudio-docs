@@ -1,6 +1,6 @@
 ---
 description: "All variables, such as parameters, local variables, global variables, and class members, are identified by SymTagData symbols."
-title: "Data (Debug Interface Access SDK) | Microsoft Docs"
+title: "Data (Debug Interface Access SDK)"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -10,13 +10,10 @@ helpviewer_keywords:
   - "local variables [C++], as symbols"
   - "class members [C++], as symbols"
   - "Data symbol"
-ms.assetid: 0f17e96a-2e06-42c9-a877-3e5e670ee0ef
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Data (Debug Interface Access SDK)
 

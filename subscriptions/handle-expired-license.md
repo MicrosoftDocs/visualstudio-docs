@@ -1,9 +1,8 @@
 ---
-title: Handle expired licenses in Visual Studio subscriptions | Microsoft Docs
+title: Handle expired licenses in Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 2b8a4ad5-e5b3-48a3-bb65-23a5cd3f22e9
 ms.date: 03/21/2023
 ms.topic: conceptual
 description: Learn how admins can handle expired Visual Studio subscriptions

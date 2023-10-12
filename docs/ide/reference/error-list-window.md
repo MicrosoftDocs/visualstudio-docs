@@ -8,13 +8,10 @@ helpviewer_keywords:
 - build errors
 - Error List window
 - errors [Visual Studio], Error List window
-ms.assetid: b7f6d45a-733b-4ad8-bc2f-737a37509e56
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Error List Window
 

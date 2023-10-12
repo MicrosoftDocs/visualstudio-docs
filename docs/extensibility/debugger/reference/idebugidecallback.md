@@ -1,17 +1,14 @@
 ---
 description: "Enables an expression evaluator (EE) to display a message in the debugger's output window."
-title: IDebugIDECallback | Microsoft Docs
+title: IDebugIDECallback
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugIDECallback interface
-ms.assetid: 8d31adc0-1c44-4658-8d4f-f4b73e35f4a6
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugIDECallback
 

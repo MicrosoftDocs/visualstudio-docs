@@ -1,19 +1,16 @@
 ---
 description: "This structure represents an address."
-title: DEBUG_ADDRESS | Microsoft Docs
+title: DEBUG_ADDRESS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - DEBUG_ADDRESS
 helpviewer_keywords:
 - DEBUG_ADDRESS structure
-ms.assetid: 79f5e765-9aac-4b6e-82ef-bed88095e9ba
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

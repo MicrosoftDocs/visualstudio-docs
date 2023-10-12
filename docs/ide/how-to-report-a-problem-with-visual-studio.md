@@ -3,13 +3,10 @@ title: Report a problem with Visual Studio
 description: "Find out how to report a problem with Visual Studio"
 ms.date: 10/07/2021
 ms.topic: how-to
-ms.assetid: bee01179-cde5-4419-9095-190ee0ba5902
 author: madskristensen
 ms.author: madsk
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
 ---
 # Report a problem with the Visual Studio product or installer
 

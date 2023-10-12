@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - Projects and Solutions Options dialog box
 - Options dialog box, Projects and Solutions
-ms.assetid: 2801f24e-a138-488a-ae3c-e1f99a678ac0
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Options dialog box: Projects and Solutions \> General
 

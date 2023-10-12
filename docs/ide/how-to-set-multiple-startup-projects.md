@@ -1,17 +1,14 @@
 ---
-title: 'How to: Set multiple startup projects'
+title: 'Set multiple startup projects'
 description: Learn how Visual Studio allows you to specify how more than one project is run when you start the debugger.
 ms.date: 11/03/2022
 ms.topic: how-to
 helpviewer_keywords:
 - startup projects, setting multiple startup projects
-ms.assetid: 6131eb80-8745-4eb9-bdab-433e69b41651
 ms.technology: vs-ide-compile
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.workload:
-- multiple
 ---
 # How to: Set multiple startup projects
 

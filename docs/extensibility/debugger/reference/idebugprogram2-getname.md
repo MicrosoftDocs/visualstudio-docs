@@ -1,19 +1,16 @@
 ---
 description: "IDebugProgram2::GetName gets the name of the program."
-title: IDebugProgram2::GetName | Microsoft Docs
+title: IDebugProgram2::GetName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgram2::GetName
 helpviewer_keywords:
 - IDebugProgram2::GetName
-ms.assetid: a54cbf13-b3e3-4c9f-8b8d-13573232dfb0
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

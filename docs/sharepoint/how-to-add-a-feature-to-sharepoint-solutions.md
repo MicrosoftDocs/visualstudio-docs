@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a Feature to SharePoint Solutions | Microsoft Docs"
+title: "Add a Feature to SharePoint Solutions"
 description: Understand how to add a feature to SharePoint solutions in Visual Studio. You can add more feature items to organize different types of SharePoint files.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -12,8 +12,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Add a feature to SharePoint solutions
 

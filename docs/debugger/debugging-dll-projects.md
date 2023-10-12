@@ -1,5 +1,5 @@
 ---
-title: "Debug DLL projects | Microsoft Docs"
+title: "Debug DLL projects"
 description: Debug dynamic-link library (DLL) files in Visual Studio. Use Visual Studio to create, build, configure, and debug DLLs.
 ms.date: "04/18/2022"
 ms.topic: "conceptual"
@@ -13,13 +13,10 @@ helpviewer_keywords:
   - "templates, debugging DLLs"
   - "DLLs, debugging"
   - "debugging [Visual Studio], DLLs"
-ms.assetid: 433cab30-d191-460b-96f7-90d2530ca243
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Debug DLLs in Visual Studio (C#, C++, Visual Basic, F#)
 

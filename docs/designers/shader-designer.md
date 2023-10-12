@@ -6,13 +6,10 @@ ms.topic: conceptual
 f1_keywords:
 - vs.graphics.designer.effectdesigner
 - vs.graphics.shaderdesigner
-ms.assetid: 5db09a16-b82c-4ba3-8ec9-630cdc109397
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-designers
-ms.workload:
-- multiple
 ---
 # Shader Designer
 

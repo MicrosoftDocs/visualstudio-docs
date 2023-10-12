@@ -1,7 +1,6 @@
 ---
 title: "Move the execution pointer in the debugger"
 description: "Learn how to move the execution pointer in the debugger and change the execution flow."
-
 ms.date: 05/25/2023
 ms.topic: how-to
 helpviewer_keywords: 
@@ -10,8 +9,6 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # Move the execution pointer to change the execution flow in the debugger
 

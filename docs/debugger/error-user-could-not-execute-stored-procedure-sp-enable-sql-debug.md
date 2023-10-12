@@ -1,6 +1,6 @@
 ---
 description: "The Stored Procedure sp_enable_sql_debug could not execute on the server."
-title: "User Could Not Execute Stored Procedure sp_enable_sql_debug | Microsoft Docs"
+title: "User Could Not Execute Stored Procedure sp_enable_sql_debug"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 dev_langs:
@@ -12,8 +12,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Error: User Could Not Execute Stored Procedure sp_enable_sql_debug
 

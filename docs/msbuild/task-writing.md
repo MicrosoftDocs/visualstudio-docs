@@ -1,5 +1,5 @@
 ---
-title: Task Writing | Microsoft Docs
+title: Task Writing
 description: Learn about how you can create your own tasks to provide the code that runs during the MSBuild build process.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - MSBuild, writing tasks
 - tasks, creating for MSBuild
 - MSBuild, creating tasks
-ms.assetid: 3ebc5f87-8f00-46fc-82a1-228f35a6823b
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Task writing
 

@@ -1,18 +1,15 @@
 ---
-title: Getting Started with Source Control Plug-ins | Microsoft Docs
+title: Getting Started with Source Control Plug-ins
 description: Learn about creating a source control plug-in that implements the functions defined in the Source Control Plug-in API for use in source code version control. 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control plug-ins, getting started
 - getting started, source control plug-ins
-ms.assetid: 46ac1f9f-4ecc-4a72-88d3-4c7e1647e1cb
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Get started with source control plug-ins
 

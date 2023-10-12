@@ -1,19 +1,16 @@
 ---
 description: "Receives callbacks from the DIA symbol locating procedure, thus enabling a user interface to report on the progress of the location attempt."
-title: "IDiaLoadCallback | Microsoft Docs"
+title: "IDiaLoadCallback"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaLoadCallback interface"
-ms.assetid: 2f18c64c-2cf0-43fc-a447-21e82702ca2a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaLoadCallback
 

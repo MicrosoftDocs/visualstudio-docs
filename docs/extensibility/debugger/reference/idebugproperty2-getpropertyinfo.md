@@ -1,19 +1,16 @@
 ---
 description: "Gets the DEBUG_PROPERTY_INFO structure that describes a property."
-title: IDebugProperty2::GetPropertyInfo | Microsoft Docs
+title: IDebugProperty2::GetPropertyInfo
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProperty2::GetPropertyInfo
 helpviewer_keywords:
 - IDebugProperty2::GetPropertyInfo
-ms.assetid: 39d6e942-df72-4c84-a5d9-a386d112714c
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

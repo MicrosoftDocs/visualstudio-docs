@@ -1,7 +1,6 @@
 ---
-title: "View variable values in data tips | Microsoft Docs"
+title: "View variable values in data tips"
 description: Use data tips to conveniently view information about variables, including arrays and structures, while debugging. You can also modify values.
-
 ms.date: "04/26/2022"
 ms.topic: "conceptual"
 dev_langs:
@@ -13,13 +12,10 @@ dev_langs:
 helpviewer_keywords:
   - "debugging [Visual Studio], data tips"
   - "data tips tool"
-ms.assetid: ffa7bd18-439b-4685-a9b3-c7884b5de41f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # View data values in DataTips in the code editor
 

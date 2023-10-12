@@ -1,19 +1,16 @@
 ---
 description: "This interface represents a position in a source file document."
-title: IDebugDocumentContext2 | Microsoft Docs
+title: IDebugDocumentContext2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentContext2
 helpviewer_keywords:
 - IDebugDocumentContext2
-ms.assetid: 2a446c71-8100-4c09-a1cc-fd446bd74030
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugDocumentContext2
 

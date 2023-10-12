@@ -1,19 +1,16 @@
 ---
 description: "Reads ULONGLONG values in a property set."
-title: "IDiaPropertyStorage::ReadULONGLONG | Microsoft Docs"
+title: "IDiaPropertyStorage::ReadULONGLONG"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaPropertyStorage::ReadULONGLONG"
-ms.assetid: f80a2e24-5744-4fec-bab0-3ed51aef6e58
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaPropertyStorage::ReadULONGLONG
 

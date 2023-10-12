@@ -1,19 +1,16 @@
 ---
 description: "This method is called to display the specified value."
-title: IDebugCustomViewer::DisplayValue | Microsoft Docs
+title: IDebugCustomViewer::DisplayValue
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCustomViewer::DisplayValue
 helpviewer_keywords:
 - IDebugCustomViewer::DisplayValue
-ms.assetid: 7a538248-5ced-450e-97cd-13fabe35fb1c
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

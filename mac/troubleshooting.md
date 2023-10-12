@@ -6,7 +6,6 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 06/18/2019
-ms.assetid: CE860D79-E29E-4B93-B094-BE74B35FC1C2
 ---
 # Troubleshooting in Visual Studio for Mac
 

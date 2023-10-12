@@ -1,5 +1,5 @@
 ---
-title: "Cannot Change Value Dialog Box | Microsoft Docs"
+title: "Cannot Change Value Dialog Box"
 description: Review the Cannot Change Value dialog box, which appears in Visual Studio if you try to change a variable to an illegal value in a debugger window or QuickWatch.
 ms.date: "11/04/2016"
 ms.topic: "ui-reference"
@@ -13,13 +13,10 @@ dev_langs:
 helpviewer_keywords:
   - "Cannot Change Value dialog box"
   - "variables [debugger], editing"
-ms.assetid: 19e930c2-5fbf-4c83-aae8-a1dc3f8fcae8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Cannot Change Value Dialog Box
 

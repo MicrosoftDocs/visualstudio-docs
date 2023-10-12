@@ -1,6 +1,6 @@
 ---
 title: 'Walkthrough: Creating an N-tier Data Application'
-description: In this walkthrough, create an N-tier data application. N-tier data applications are apps that access data and are separated into many logical layers, or tiers.
+description: In this walkthrough, create an N-tier data application with ADO.NET and the .NET Framework with Visual Studio. N-tier data applications are apps that access data and are separated into many logical layers, or tiers.
 ms.date: 11/22/2021
 ms.topic: conceptual
 dev_langs:
@@ -9,13 +9,10 @@ dev_langs:
 helpviewer_keywords:
 - n-tier applications, creating
 - n-tier applications, walkthroughs
-ms.assetid: d15e4d31-2839-48d9-9e0e-2e73404d82a2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Walkthrough: Create an n-tier data application
 

@@ -1,9 +1,8 @@
 ---
-title: Signing in to Visual Studio Subscriptions May Fail When Using Aliases | Microsoft Docs
+title: Signing in to Visual Studio Subscriptions May Fail When Using Aliases
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 97bf7474-c6c2-49b3-b2c9-f1b2808eed1a
 ms.date: 07/07/2022
 ms.topic: conceptual
 description: Sign-in may fail if aliases or friendly names are used

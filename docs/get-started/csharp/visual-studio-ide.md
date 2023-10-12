@@ -3,15 +3,13 @@ title: Overview for C# developers
 description: Learn about the Visual Studio integrated development environment and how it can be tailored to C# developers.
 ms.date: 01/31/2023
 ms.technology: vs-ide-general
-ms.custom: vs-acquisition, get-started
+ms.custom: vs-acquisition
 ms.topic: overview
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 dev_langs:
 - CSharp
-ms.workload:
-- dotnet
 ---
 # Welcome to the Visual Studio IDE | C\#
 

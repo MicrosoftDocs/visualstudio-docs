@@ -1,7 +1,6 @@
 ---
-title: "Recommended debugger property settings for C#, VB | Microsoft Docs"
+title: "Recommended debugger property settings for C#, VB"
 description: See the build and compile property settings that should be the same for all managed debugging. Other settings can vary depending on project type.
-
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -12,13 +11,10 @@ dev_langs:
 helpviewer_keywords:
   - "debugging [Visual Studio], managed"
   - "debugging managed code, recommended property settings"
-ms.assetid: 3d14a8d4-2925-44d0-be41-ec546d411db9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "dotnet"
 ---
 # Managed Debugging: Recommended Property Settings
 

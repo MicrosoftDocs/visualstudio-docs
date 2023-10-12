@@ -1,19 +1,16 @@
 ---
 description: "This method informs the process that a session is no longer debugging the process."
-title: IDebugProcessEx2::Detach | Microsoft Docs
+title: IDebugProcessEx2::Detach
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcessEx2::Detach
 helpviewer_keywords:
 - IDebugProcessEx2::Detach method
-ms.assetid: 66d54c2c-9302-47c8-9975-f30ed988ab29
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

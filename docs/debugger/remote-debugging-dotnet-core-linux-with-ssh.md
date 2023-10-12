@@ -9,8 +9,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Debug .NET Core on Linux using SSH by attaching to a process
 

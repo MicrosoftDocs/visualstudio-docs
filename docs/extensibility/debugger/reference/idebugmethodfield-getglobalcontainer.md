@@ -1,19 +1,16 @@
 ---
 description: "Gets the global container of the method."
-title: IDebugMethodField::GetGlobalContainer | Microsoft Docs
+title: IDebugMethodField::GetGlobalContainer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugMethodField::GetGlobalContainer
 helpviewer_keywords:
 - IDebugMethodField::GetGlobalContainer method
-ms.assetid: 041ac5aa-0b80-4310-b9ae-b88f8e7e0e5f
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

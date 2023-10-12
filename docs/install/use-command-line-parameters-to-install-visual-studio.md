@@ -8,12 +8,9 @@ f1_keywords:
 - command-line parameters
 - switches
 - command prompt
-ms.assetid: 480f3cb4-d873-434e-a8bf-82cff7401cf2
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---

@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically extend ranges in documents"
+title: "Programmatically extend ranges in documents"
 description: Learn how you can programmatically extend start and end point ranges in a Microsoft Word document at the document level or application level.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically Extend ranges in documents
 

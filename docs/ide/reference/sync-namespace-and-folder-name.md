@@ -9,8 +9,6 @@ manager: jmartens
 ms.technology: vs-ide-general
 dev_langs:
   - CSharp
-ms.workload: 
-  - "dotnet"
 ---
 # Sync namespace and folder name
 

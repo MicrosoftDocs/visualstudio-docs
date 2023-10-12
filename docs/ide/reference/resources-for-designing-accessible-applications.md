@@ -8,13 +8,10 @@ helpviewer_keywords:
   - "Windows applications, accessibility"
   - "Web applications, accessibility"
   - "accessibility, Web applications"
-ms.assetid: 426bf023-bb34-43c4-9edb-c307191c8170
 author: j-martens
 ms.author: jmartens
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
 ---
 # Resources for designing accessible applications
 

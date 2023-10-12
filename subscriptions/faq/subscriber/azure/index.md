@@ -2,7 +2,6 @@
 title: Azure Monthly Credit
 description: FAQs list for subscribers using Azure
 ms.topic: conceptual
-ms.assetid: 1d2c7d71-478b-4221-85c2-1c238a22e9a2
 author: evanwindom
 ms.author: amast
 ms.date: 10/17/2022

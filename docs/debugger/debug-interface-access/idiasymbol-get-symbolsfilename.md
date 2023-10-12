@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the name of the file from which the symbols were loaded."
-title: "IDiaSymbol::get_symbolsFileName | Microsoft Docs"
+title: "IDiaSymbol::get_symbolsFileName"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_symbolsFileName method"
-ms.assetid: c1aa39ee-d645-431e-bf5f-0640c0998934
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_symbolsFileName
 

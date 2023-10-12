@@ -1,19 +1,16 @@
 ---
 description: "IDiaStackFrame::get_lengthSavedRegisters retrieves the number of bytes of saved registers pushed on the stack."
-title: "IDiaStackFrame::get_lengthSavedRegisters | Microsoft Docs"
+title: "IDiaStackFrame::get_lengthSavedRegisters"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackFrame::get_lengthSavedRegisters method"
-ms.assetid: b75fad6e-1ef4-44e6-89e3-c31c6fba10b3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaStackFrame::get_lengthSavedRegisters
 

@@ -1,5 +1,5 @@
 ---
-title: Customize all .NET builds | Microsoft Docs
+title: Customize all .NET builds
 description: Learn how to customize all .NET builds on a system governed by an installation of MSBuild.
 ms.date: 02/28/2023
 ms.topic: how-to
@@ -10,8 +10,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Customize all .NET builds
 

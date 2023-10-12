@@ -1,17 +1,14 @@
 ---
-title: Solution Configuration | Microsoft Docs
+title: Solution Configuration
 description: Learn how to implement the solution configurations supported by your project type, which direct the behavior of the Start (F5) key and Build commands.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - solution configurations
-ms.assetid: f22cfc75-3e31-4e0d-88a9-3ca99539203b
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Solution Configuration
 

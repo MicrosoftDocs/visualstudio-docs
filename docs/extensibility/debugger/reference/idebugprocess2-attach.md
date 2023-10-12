@@ -1,19 +1,16 @@
 ---
 description: "Attaches the session debug manager (SDM) to the process."
-title: IDebugProcess2::Attach | Microsoft Docs
+title: IDebugProcess2::Attach
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcess2::Attach
 helpviewer_keywords:
 - IDebugProcess2::Attach
-ms.assetid: 40d78417-fde2-45c3-96c9-16e06bd9008d
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

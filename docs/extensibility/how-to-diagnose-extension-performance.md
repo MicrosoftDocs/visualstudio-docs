@@ -1,15 +1,12 @@
 ---
-title: "How to: Diagnose extension performance| Microsoft Docs"
+title: "Diagnose extension performance| Microsoft Docs"
 description: Visual Studio notifies users of slow extensions. Learn how extension impact is calculated and how extension impact can be analyzed locally.
 ms.date: "11/08/2016"
 ms.topic: how-to
-ms.assetid: 46b0a1e3-7e69-47c9-9d8d-a1815d6c3896
 author: "BertanAygun"
 ms.author: "bertaygu"
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-  - "bertaygu"
 ---
 # Measuring extension impact in startup
 

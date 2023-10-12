@@ -1,5 +1,5 @@
 ---
-title: Evaluating Expressions | Microsoft Docs
+title: Evaluating Expressions
 description: Learn about evaluating expressions, which are created from strings passed down from the Autos, Watch, QuickWatch, or Immediate windows.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - expressions [Debugging SDK], evaluating
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation
-ms.assetid: 5ccfcc80-dea5-48a1-8bae-6a26f8d3bc56
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Evaluate expressions
 

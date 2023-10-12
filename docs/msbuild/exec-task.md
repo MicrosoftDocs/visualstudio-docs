@@ -1,5 +1,5 @@
 ---
-title: Exec Task | Microsoft Docs
+title: Exec Task
 description: Learn to use the MSBuild Exec task to run a specified program or command by using the specified arguments.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,13 +12,10 @@ dev_langs:
 helpviewer_keywords:
 - Exec task [MSBuild]
 - MSBuild, Exec task
-ms.assetid: c9b7525a-b1c9-40fc-8bce-77a5b8f960d8
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Exec task
 

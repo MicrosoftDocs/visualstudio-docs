@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the source file name."
-title: "IDiaSourceFile::get_fileName | Microsoft Docs"
+title: "IDiaSourceFile::get_fileName"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSourceFile::get_fileName method"
-ms.assetid: a5cb8927-23c6-469e-8f78-f2787d85dba4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSourceFile::get_fileName
 

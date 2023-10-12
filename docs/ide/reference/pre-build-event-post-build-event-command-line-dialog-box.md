@@ -29,12 +29,9 @@ helpviewer_keywords:
 - $(SolutionFileName)
 - $(ProjectName)
 - build events, macros
-ms.assetid: d49b2c57-24bf-4fb2-8351-5c4b6cca938f
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.workload:
-- multiple
 ---
 # Pre-build event/post-build event command line dialog box
 
