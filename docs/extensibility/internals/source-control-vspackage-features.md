@@ -1,17 +1,14 @@
 ---
-title: Source Control VSPackage Features | Microsoft Docs
+title: Source Control VSPackage Features
 description: Learn about features of a source control VSPackage, including registration/selection details, and about some of the main source control-related features.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control packages, features
-ms.assetid: 26c3ffda-22b8-4345-9fb6-2883f37699aa
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Source Control VSPackage Features
 

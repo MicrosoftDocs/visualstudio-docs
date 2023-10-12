@@ -6,8 +6,6 @@ ms.topic: reference
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-test
-ms.workload:
-- multiple
 author: mikejo5000
 ---
 # Use the MSTest framework in unit tests

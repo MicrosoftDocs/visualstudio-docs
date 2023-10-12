@@ -6,13 +6,10 @@ ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
-ms.assetid: 03ff1146-706e-4780-91cb-56a83df63eea
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Walkthrough: Customize the insert, update, and delete behavior of entity classes
 

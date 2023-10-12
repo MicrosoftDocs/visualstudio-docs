@@ -11,8 +11,6 @@ manager: jmartens
 ms.technology: vs-javascript
 dev_langs:
   - JavaScript
-ms.workload:
-  - "nodejs"
 ---
 # Tutorial: Create a Node.js and React app in Visual Studio
 

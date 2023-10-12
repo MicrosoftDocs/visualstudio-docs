@@ -1,5 +1,5 @@
 ---
-title: 'How to: Clean a Build | Microsoft Docs'
+title: 'Clean a Build'
 description: Learn how to use MSBuild to clean a build, deleting all intermediate and output files and leaving only the project and component files.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -8,13 +8,10 @@ helpviewer_keywords:
 - MSBuild, cleaning a build
 - directories [.NET Framework], for output items
 - output, removing items
-ms.assetid: 999ba473-b0c4-45c7-930a-63ea7a510509
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # How to: Clean a build
 

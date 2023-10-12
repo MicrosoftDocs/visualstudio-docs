@@ -1,5 +1,5 @@
 ---
-title: "Deploying Prerequisites for 64-bit Applications | Microsoft Docs"
+title: "Deploying Prerequisites for 64-bit Applications"
 description: Learn about the redistributables that you can use as prerequisites for ClickOnce deployment of applications on 64-bit platforms.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -13,13 +13,10 @@ helpviewer_keywords:
   - "64-bit [Visual Studio]"
   - "64-bit programming [Visual Studio]"
   - "64-bit applications [Visual Studio]"
-ms.assetid: 87399e20-5510-41e4-b5b7-4a87c5773f21
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # Deploy prerequisites for 64-bit applications
 

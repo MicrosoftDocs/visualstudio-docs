@@ -1,6 +1,6 @@
 ---
 description: "The Debug Interface Access (DIA) SDK supplies you with instructional documentation and a sample that illustrates how to use the DIA API."
-title: "Getting Started (Debug Interface Access SDK) | Microsoft Docs"
+title: "Getting Started (Debug Interface Access SDK)"
 ms.date: "05/09/2023"
 ms.topic: "reference"
 dev_langs:
@@ -8,13 +8,10 @@ dev_langs:
 helpviewer_keywords:
   - ".dbg files"
   - "DBG files"
-ms.assetid: cb3d040a-2846-40d7-bdbc-8a5beb5dd2f6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Getting Started (Debug Interface Access SDK)
 

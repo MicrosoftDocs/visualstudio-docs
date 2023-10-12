@@ -18,13 +18,10 @@ helpviewer_keywords:
 - TableAdapter.Update method
 - saving data
 - TableAdapters
-ms.assetid: 012c5924-91f7-4790-b2a6-f51402b7014b
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Directly access the database with a TableAdapter
 

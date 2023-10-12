@@ -19,8 +19,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Add custom XML parts to documents by using VSTO Add-ins
 

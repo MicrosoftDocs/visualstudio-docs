@@ -7,9 +7,6 @@ author: cwebster-99
 ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
-ms.workload:
-  - python
-  - data-science
 ---
 # Install data science support in Visual Studio
 

@@ -1,7 +1,6 @@
 ---
-title: Examine system code after an exception | Microsoft Docs
+title: Examine system code after an exception
 description: Learn how to examine code in a system call to find the cause of the exception. The procedure applies even if symbols for the system code have not been loaded.
-
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -12,13 +11,10 @@ dev_langs:
 helpviewer_keywords: 
   - debugging, exceptions
   - exceptions, debugging
-ms.assetid: a38ad49b-7cf3-483d-91c4-eb3116eba50c
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How to: Examine System Code After an Exception
 

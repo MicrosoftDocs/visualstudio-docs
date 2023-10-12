@@ -1,6 +1,6 @@
 ---
 description: "A program database file (extension .pdb) is a binary file that contains type and symbolic debugging information gathered over the course of compiling and linking the project."
-title: "Querying the .Pdb File | Microsoft Docs"
+title: "Querying the .Pdb File"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -8,13 +8,10 @@ dev_langs:
 helpviewer_keywords:
   - "PDB files"
   - ".pdb files, querying"
-ms.assetid: 8da07d1c-2712-45f9-8fbf-f34040408a8a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Querying the .Pdb File
 

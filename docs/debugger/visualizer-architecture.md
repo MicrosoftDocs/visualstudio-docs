@@ -1,5 +1,5 @@
 ---
-title: "Visualizer Architecture | Microsoft Docs"
+title: "Visualizer Architecture"
 description: A visualizer displays a specific type of data element, and may allow editing also. Learn about the architecture of a visualizer.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -8,13 +8,10 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: 6aad395f-7170-4d9e-b2b8-a5faf453380e
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Visualizer Architecture
 

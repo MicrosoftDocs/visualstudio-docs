@@ -1,16 +1,12 @@
 ---
 title: "View previous app state using IntelliTrace"
 description: "Learn how to take snapshots, and view snapshots with IntelliTrace step-back"
-
 ms.date: 09/19/2018
 ms.topic: tutorial
-ms.assetid: 7c60d929-d993-49dc-9db3-43b30be9912b
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Inspect previous app states using IntelliTrace step-back in Visual Studio (Visual Studio Enterprise)
 

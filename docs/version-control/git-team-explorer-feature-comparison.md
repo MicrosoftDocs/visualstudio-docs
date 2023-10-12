@@ -10,7 +10,6 @@ ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
 monikerRange: "vs-2019"
-ms.custom: version-control
 ---
 # Compare the Git experience to Team Explorer in Visual Studio 2019
 

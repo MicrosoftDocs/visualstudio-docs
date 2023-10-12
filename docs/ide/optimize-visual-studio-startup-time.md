@@ -7,13 +7,10 @@ helpviewer_keywords:
 - startup time [Visual Studio]
 - optimizing performance [Visual Studio]
 - speed up start time [Visual Studio]
-ms.assetid: d1508121-8499-4084-8eb5-fa89fa7b17d3
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Optimize Visual Studio startup time
 

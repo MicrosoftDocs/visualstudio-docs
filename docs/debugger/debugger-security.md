@@ -1,5 +1,5 @@
 ---
-title: "Debugger Security | Microsoft Docs"
+title: "Debugger Security"
 description: Learn the security risks posed by debugging, risks both to the debugging machine and to the machine being debugged. Follow the recommendations to minimize risk. 
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -12,13 +12,10 @@ helpviewer_keywords:
   - "debugging [Visual Studio], security"
   - "debugger, security"
   - "security [Visual Studio], debugging best practices"
-ms.assetid: d4fc3c43-e844-419c-8dbb-551cc2a9b09e
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Debugger Security
 

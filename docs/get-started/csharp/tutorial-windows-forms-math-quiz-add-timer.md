@@ -11,8 +11,6 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Tutorial: Add a timer to a math quiz WinForms app
 

@@ -1,18 +1,15 @@
 ---
 description: "Constructs a field instance given an array of type arguments."
-title: IDebugGenericFieldDefinition::ConstructInstantiation | Microsoft Docs
+title: IDebugGenericFieldDefinition::ConstructInstantiation
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - ConstructInstantiation
 - IDebugGenericFieldDefinition::ConstructInstantiation
-ms.assetid: ef8ae261-a98b-4dc2-93b3-7c5191818ba2
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

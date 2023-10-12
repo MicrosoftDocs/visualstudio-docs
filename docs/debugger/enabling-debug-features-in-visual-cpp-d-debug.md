@@ -1,5 +1,5 @@
 ---
-title: "Enabling Debug Features in C++ projects (-D_DEBUG) | Microsoft Docs"
+title: "Enabling Debug Features in C++ projects (-D_DEBUG)"
 description: In Visual C++ you enable debugging features by defining _DEBUG. Learn how to do this, and learn how to link an MFC program in order to debug it.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -17,13 +17,10 @@ helpviewer_keywords:
   - "MFC libraries, debug version"
   - "debug builds, MFC"
   - "_DEBUG macro"
-ms.assetid: 276e2254-7274-435e-ba4d-67fcef4f33bc
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "cplusplus"
 ---
 # Enabling Debug Features in C++ projects (/D_DEBUG)
 

@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically access Outlook contacts"
+title: "Programmatically access Outlook contacts"
 description: Learn how you can programmatically access Outlook contacts. This example finds all contacts whose last names contain a specified search string.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -12,8 +12,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically access Outlook contacts
 

@@ -1,17 +1,14 @@
 ---
 description: "This method queries for a specified property value of the debugging process."
-title: IDebugProcessQueryProperties::QueryProperty | Microsoft Docs
+title: IDebugProcessQueryProperties::QueryProperty
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugProcessQueryProperties::QueryProperty
-ms.assetid: 9a91707d-a590-44ef-b122-69d9816a7a79
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

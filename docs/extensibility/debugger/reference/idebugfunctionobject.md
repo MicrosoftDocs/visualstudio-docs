@@ -1,19 +1,16 @@
 ---
 description: "This interface represents a function."
-title: IDebugFunctionObject | Microsoft Docs
+title: IDebugFunctionObject
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugFunctionObject
 helpviewer_keywords:
 - IDebugFunctionObject interface
-ms.assetid: 8d94e97c-a9d1-400c-8a98-a44b5385b33a
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugFunctionObject
 

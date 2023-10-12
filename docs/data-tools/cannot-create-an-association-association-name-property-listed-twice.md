@@ -4,12 +4,9 @@ description: 'Cannot create an association - property listed twice. View informa
 ms.date: 11/04/2016
 ms.topic: error-reference
 ms.technology: vs-data-tools
-ms.assetid: 3ced8bda-210e-4caf-9d8f-96cdbba19251
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.workload:
-  - "data-storage"
 ---
 # Cannot create an association &lt;association name&gt; - property listed twice
 

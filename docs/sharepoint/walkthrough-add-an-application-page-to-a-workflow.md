@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Add an Application Page to a Workflow | Microsoft Docs"
+title: "Walkthrough: Add an Application Page to a Workflow"
 description: In this walkthrough, add an application page to a SharePoint workflow solution. Amend the workflow code. Create, code, and test the application page.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -15,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Walkthrough: Add an application page to a workflow
 

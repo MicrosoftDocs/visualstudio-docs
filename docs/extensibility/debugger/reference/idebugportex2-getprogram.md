@@ -1,19 +1,16 @@
 ---
 description: "Gets the program associated with a program node."
-title: IDebugPortEx2::GetProgram | Microsoft Docs
+title: IDebugPortEx2::GetProgram
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortEx2::GetProgram
 helpviewer_keywords:
 - IDebugPortEx2::GetProgram
-ms.assetid: cd83a111-bfd5-4eae-b576-526466c6b6ec
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

@@ -3,7 +3,6 @@ title: Microsoft 365 apps for enterprise in Visual Studio subscriptions�
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: d1257931-392a-4a65-bf26-177737505122
 ms.date: 07/05/2023
 ms.topic: how-to
 description:  Learn about and install Microsoft 365 apps for enterprise

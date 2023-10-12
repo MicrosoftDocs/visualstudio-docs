@@ -1,19 +1,16 @@
 ---
 description: "This interface represents a single stack frame in a call stack in a particular thread."
-title: IDebugStackFrame2 | Microsoft Docs
+title: IDebugStackFrame2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugStackFrame2
 helpviewer_keywords:
 - IDebugStackFrame2 interface
-ms.assetid: bd212a6a-dcc6-4756-a77a-e8dfda38b104
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugStackFrame2
 

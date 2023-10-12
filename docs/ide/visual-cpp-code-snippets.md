@@ -8,8 +8,6 @@ ms.author: twhitney
 manager: markl
 dev_langs:
  - CPP
-ms.workload:
-  - "cplusplus"
 ---
 # Visual C++ code snippets
 

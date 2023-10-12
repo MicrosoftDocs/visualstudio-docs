@@ -5,13 +5,10 @@ ms.date: 03/28/2019
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.ExtensionManager
-ms.assetid: c73859eb-3c33-4f39-86bf-6788387b5937
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Options dialog box: Environment \> Extensions
 

@@ -1,13 +1,11 @@
 ---
-title: "Workspaces and language services in Visual Studio | Microsoft Docs"
+title: "Workspaces and language services in Visual Studio"
 description: Learn how language services can provide Open Folder users the same rich language features they are used to when working with solutions and projects.
 ms.date: "02/21/2018"
 ms.topic: "conceptual"
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
-ms.workload:
-  - "vssdk"
 ---
 # Workspaces and language services
 

@@ -5,9 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 02/28/2022
-ms.custom: devdivchpfy22
 ms.topic: how-to
-ms.assetid: 5880BB10-0A12-47E2-8A82-7A2D59C4D579
 ---
 # Create a new project in Visual Studio for Mac
 

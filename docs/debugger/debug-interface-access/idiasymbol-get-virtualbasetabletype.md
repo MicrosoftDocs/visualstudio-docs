@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the type of a virtual base table pointer."
-title: "IDiaSymbol::get_virtualBaseTableType | Microsoft Docs"
+title: "IDiaSymbol::get_virtualBaseTableType"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_virtualBaseTableType method"
-ms.assetid: e0581c4f-0343-49b5-9754-a48477460e9f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_virtualBaseTableType
 

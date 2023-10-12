@@ -1,18 +1,15 @@
 ---
-title: Entering Break Mode | Microsoft Docs
+title: Entering Break Mode
 description: Learn about the process that occurs for a breakpoint encountered in a function, running to the line of source code at the cursor, or running to a breakpoint.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - break mode
 - debugging [Debugging SDK], entering break mode
-ms.assetid: e9a8a241-cd21-4d4e-999a-283554c288b1
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Enter break mode
 

@@ -12,13 +12,10 @@ helpviewer_keywords:
   - "troubleshooting ClickOnce deployments"
   - "ClickOnce deployment, troubleshooting"
   - "Windows applications, ClickOnce deployments"
-ms.assetid: 929e5fcc-dd56-409c-bb57-00bd9549b20b
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # Server and client configuration issues in ClickOnce deployments
 

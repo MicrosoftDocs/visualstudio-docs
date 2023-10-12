@@ -1,18 +1,15 @@
 ---
-title: 'New Project Generation: Under the Hood, Part One | Microsoft Docs'
+title: 'New Project Generation: Under the Hood, Part One'
 description: Take a detailed look at what happens in the Visual Studio integrated development environment (IDE) as you create your own project type (Part 1 of 2).
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - projects [Visual Studio], new project dialog
 - projects [Visual Studio], new project generation
-ms.assetid: 66778698-0258-467d-8b8b-c351744510eb
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # New Project Generation: Under the Hood, Part One
 

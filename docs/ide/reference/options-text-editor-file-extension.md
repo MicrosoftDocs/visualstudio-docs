@@ -10,13 +10,10 @@ helpviewer_keywords:
 - Editing Experience
 - Options dialog box
 - Editing Experience, selecting
-ms.assetid: 05298fc5-fc4e-4bb2-b942-1f7d2dcdff0f
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Options, Text Editor, File Extension
 

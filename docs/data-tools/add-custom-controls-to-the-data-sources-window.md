@@ -12,7 +12,6 @@ helpviewer_keywords:
 - LookupBindingPropertiesAttribute class, using
 - ComplexBindingPropertiesAttribute class, using
 - Data Sources Window, selecting controls
-ms.assetid: 8c43e7d2-ba94-4d9b-96de-3aa971955afd
 author: ghogen
 ms.author: ghogen
 manager: jmartens

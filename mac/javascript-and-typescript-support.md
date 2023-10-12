@@ -7,7 +7,6 @@ manager: dominicn
 ms.date: 05/03/2018
 ms.technology: vs-ide-general
 ms.topic: how-to
-ms.assetid: 61432695-5B12-4257-B250-48D37EED106D
 ---
 # JavaScript and TypeScript support in Visual Studio for Mac
 

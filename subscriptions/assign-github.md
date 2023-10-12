@@ -1,9 +1,8 @@
 ---
-title: Set up Visual Studio subscriptions with GitHub Enterprise | Microsoft Docs
+title: Set up Visual Studio subscriptions with GitHub Enterprise
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: f271d623-dcde-442a-865c-4dca5ad8a9c5
 ms.date: 03/20/2023
 ms.topic: conceptual
 description: Managing subscriptions in the Visual Studio subscriptions with GitHub Enterprise

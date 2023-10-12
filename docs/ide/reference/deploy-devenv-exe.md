@@ -8,13 +8,10 @@ helpviewer_keywords:
 - Deploy Devenv switch
 - deploying applications [Visual Studio], after build
 - /Deploy Devenv switch
-ms.assetid: e47c8723-df08-4645-aa2d-0c956e7ccca2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # /Deploy (devenv.exe)
 

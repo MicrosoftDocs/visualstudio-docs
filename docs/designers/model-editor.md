@@ -6,13 +6,10 @@ ms.topic: conceptual
 f1_keywords:
 - vs.graphics.designer.3dscene
 - vs.graphics.modelviewer
-ms.assetid: 5edf1a30-9307-43c3-9b8b-831217be0104
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-designers
-ms.workload:
-- multiple
 ---
 # Model editor
 

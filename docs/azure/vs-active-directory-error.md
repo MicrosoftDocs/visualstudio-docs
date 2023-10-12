@@ -5,11 +5,10 @@ author: ghogen
 manager: jillfra
 ms.prod: visual-studio-windows
 ms.technology: vs-azure
-ms.workload: azure-vs
 ms.topic: reference
 ms.date: 12/14/2021
 ms.author: ghogen
-ms.custom: aaddev, vs-azure
+ms.custom: aaddev
 ---
 # Diagnosing errors with the Azure Active Directory Connected Service
 

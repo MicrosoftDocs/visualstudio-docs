@@ -1,17 +1,14 @@
 ---
 description: "This interface is an extension interface implemented by IDebugProcess2 implementers."
-title: IDebugProcessQueryProperties | Microsoft Docs
+title: IDebugProcessQueryProperties
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugProcessQueryProperties
-ms.assetid: ce29a248-81a0-42c0-99a7-1606e8c548ec
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

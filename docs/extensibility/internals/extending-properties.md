@@ -1,17 +1,14 @@
 ---
-title: Extending Properties | Microsoft Docs
+title: Extending Properties
 description: Learn about the interfaces that you must implement and call to extend the list of properties in the Visual Studio Properties window.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Properties window, providing support
-ms.assetid: 68e2cbd4-861c-453f-8c9f-4ab6afc80e67
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Extend properties
 

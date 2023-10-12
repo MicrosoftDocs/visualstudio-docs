@@ -14,8 +14,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Create a Windows Forms user control that supports complex data binding
 

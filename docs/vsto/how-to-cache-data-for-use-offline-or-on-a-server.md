@@ -1,5 +1,5 @@
 ---
-title: "How to: Cache data for use offline or on a server"
+title: "Cache data for use offline or on a server"
 description: Mark a data item to be cached in the document, so that it's available offline. This makes it possible for the data in the document to be manipulated by other code.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -17,8 +17,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Cache data for use offline or on a server
 

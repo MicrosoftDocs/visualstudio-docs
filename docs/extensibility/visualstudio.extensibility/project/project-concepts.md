@@ -7,7 +7,6 @@ monikerRange: ">=vs-2022"
 ms.technology: vs-ide-sdk
 ms.topic: conceptual
 ms.date: 02/13/2023
-ms.custom: template-concept
 ---
 
 # Project query API concepts

@@ -1,17 +1,14 @@
 ---
 description: "Specifies whether the this pointer is flagged as restricted."
-title: "IDiaSymbol::get_restrictedType | Microsoft Docs"
+title: "IDiaSymbol::get_restrictedType"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: c48b00a6-26b0-47b0-b824-fe44dedbc756
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_restrictedType
 

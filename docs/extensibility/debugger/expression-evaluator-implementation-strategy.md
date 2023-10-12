@@ -1,18 +1,15 @@
 ---
-title: Expression Evaluator Implementation Strategy | Microsoft Docs
+title: Expression Evaluator Implementation Strategy
 description: Learn about a strategy for creating an expression evaluator by first implementing code to display local variables in the Locals window.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - expression evaluation, implementation strategy
 - debug engines, implementation strategies
-ms.assetid: 1bccaeb3-8109-4128-ae79-16fd8fbbaaa2
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Expression evaluator implementation strategy
 

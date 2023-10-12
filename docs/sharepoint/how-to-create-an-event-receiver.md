@@ -1,5 +1,5 @@
 ---
-title: "How to: Create an Event Receiver | Microsoft Docs"
+title: "Create an Event Receiver"
 description: Create an event receiver so that you can respond when a user interacts with SharePoint items such as lists or list items.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -17,8 +17,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Create an event receiver
 

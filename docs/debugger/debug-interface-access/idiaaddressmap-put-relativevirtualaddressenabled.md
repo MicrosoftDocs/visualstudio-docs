@@ -1,19 +1,16 @@
 ---
 description: "Allows the client to enable or disable the calculation and use of relative virtual addresses (RVA)."
-title: "IDiaAddressMap::put_relativeVirtualAddressEnabled | Microsoft Docs"
+title: "IDiaAddressMap::put_relativeVirtualAddressEnabled"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaAddressMap::put_relativeVirtualAddressEnabled method"
-ms.assetid: 767c078e-8ad7-4940-9e00-cae7704aadee
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaAddressMap::put_relativeVirtualAddressEnabled
 

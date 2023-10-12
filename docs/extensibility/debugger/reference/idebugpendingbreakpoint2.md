@@ -1,19 +1,16 @@
 ---
 description: "This interface represents a breakpoint that is ready to bind to a code location."
-title: IDebugPendingBreakpoint2 | Microsoft Docs
+title: IDebugPendingBreakpoint2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPendingBreakpoint2
 helpviewer_keywords:
 - IDebugPendingBreakpoint2 interface
-ms.assetid: d416b095-917e-475e-b796-ec0a03ffb8da
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugPendingBreakpoint2
 

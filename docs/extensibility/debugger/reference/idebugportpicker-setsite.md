@@ -1,17 +1,14 @@
 ---
 description: "Sets the service provider."
-title: IDebugPortPicker::SetSite | Microsoft Docs
+title: IDebugPortPicker::SetSite
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugPortPicker::SetSite
-ms.assetid: 7319e187-adfe-4b3f-aec9-521356fb5a8a
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

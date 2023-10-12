@@ -1,5 +1,5 @@
 ---
-title: View memory for variables in the debugger | Microsoft Docs
+title: View memory for variables in the debugger
 description: Learn how to use Memory windows as you debug, to see the memory space your app is using. Other windows show variables and where they reside in memory.
 ms.date: 3/24/2023
 ms.topic: how-to
@@ -18,13 +18,10 @@ helpviewer_keywords:
   - memory [Visual Studio], debugging
   - debugging [Visual Studio], Memory window
   - buffers, viewing
-ms.assetid: 7f7a0439-10e4-4966-bb2d-51f04cda4fe2
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # Use the Memory windows in the Visual Studio debugger (C#, C++, Visual Basic, F#)
 

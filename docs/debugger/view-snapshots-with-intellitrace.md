@@ -9,8 +9,6 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # View snapshots with IntelliTrace step-back (Visual Studio Enterprise) (C#, Visual Basic, C++)
 

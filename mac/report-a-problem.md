@@ -6,7 +6,6 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 06/18/2019
-ms.assetid: 1C7AC52E-754E-473F-A5B5-00C3A40DAACD
 ---
 # Report a problem or suggestions for Visual Studio for Mac
 

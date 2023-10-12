@@ -9,7 +9,6 @@ ms.custom: vs-acquisition
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload: multiple
 f1_keywords:
   - "Win8ExpressDesktopBlock"
   - "w8trefactor"

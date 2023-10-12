@@ -1,15 +1,12 @@
 ---
-title: Language Server Protocol Overview | Microsoft Docs
+title: Language Server Protocol Overview
 description: Learn about how the language server protocol provides a useful framework for exposing language features to a variety of tools.
 ms.date: 11/14/2017
 ms.topic: conceptual
-ms.assetid: 6a7d93c2-31ea-4bae-8b29-6988a567ddf2
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Language Server Protocol
 

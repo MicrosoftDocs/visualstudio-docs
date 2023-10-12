@@ -1,4 +1,4 @@
-﻿---
+---
 title: Options, Text Editor, Basic (VB), Advanced
 description: Learn how to use the Advanced page in the Basic section to change the default settings of the Analysis, Import Directives, and Highlighting properties.
 ms.date: 05/20/2022
@@ -13,13 +13,10 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Basic.VB_Specific
 helpviewer_keywords:
 - Basic Text Editor Options dialog box
-ms.assetid: 5a8cafca-f7b4-4a2d-92ce-6894a7673d00
 author: akhera99
 ms.author: midumont
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Options, Text Editor, Basic (Visual Basic), Advanced
 

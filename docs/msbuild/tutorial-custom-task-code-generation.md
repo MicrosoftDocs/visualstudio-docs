@@ -1,5 +1,5 @@
 ---
-title: Create a custom task | Microsoft Docs
+title: Create a custom task
 description: Learn how to use MSBuild to create a custom task for code generation that properly handles incremental build and clean operations.
 ms.date: 02/17/2022
 ms.topic: tutorial
@@ -10,8 +10,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Tutorial: Create a custom task for code generation
 

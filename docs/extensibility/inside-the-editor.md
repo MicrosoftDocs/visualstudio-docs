@@ -5,13 +5,10 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - architecture
-ms.assetid: 822cbb8d-7ab4-40ee-bd12-44016ebcce81
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Inside the editor
 

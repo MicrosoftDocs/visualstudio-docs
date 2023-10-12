@@ -1,5 +1,5 @@
 ---
-title: Feedback to the User | Microsoft Docs
+title: Feedback to the User
 description: Learn how to provide visual feedback to the user about available functionality in the Visual Studio integrated development environment (IDE).
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -8,13 +8,10 @@ helpviewer_keywords:
 - environment, context
 - IDE, context
 - IDE, user feedback
-ms.assetid: 2d472a24-3813-4f5f-9783-b491ad8a71ad
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Feedback to the user
 

@@ -1,19 +1,16 @@
 ---
 description: "This function initializes the source control plug-in and provides capabilities and limits to the integrated development environment (IDE)."
-title: SccInitialize Function | Microsoft Docs
+title: SccInitialize Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccInitialize
 helpviewer_keywords:
 - SccInitialize function
-ms.assetid: 5bc0d28b-2c68-4d43-9e51-541506a8f76e
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # SccInitialize Function
 

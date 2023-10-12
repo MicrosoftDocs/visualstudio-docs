@@ -6,8 +6,6 @@ ms.topic: reference
 ms.author: twhitney
 manager: jmartens
 ms.technology: vs-ide-test
-ms.workload:
-  - "multiple"
 author: tylermsft
 ---
 # Microsoft.VisualStudio.TestTools.CppUnitTestFramework API reference

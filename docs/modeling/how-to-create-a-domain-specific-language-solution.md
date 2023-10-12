@@ -1,5 +1,5 @@
 ---
-title: 'How to: Create a Domain-Specific Language Solution'
+title: 'Create a Domain-Specific Language Solution'
 description: Learn how to create a domain-specific language (DSL) by using a specialized Visual Studio solution.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -13,8 +13,6 @@ author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
 ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
 ---
 # How to: Create a Domain-Specific Language Solution
 

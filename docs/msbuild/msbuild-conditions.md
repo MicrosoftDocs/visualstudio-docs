@@ -1,5 +1,5 @@
 ---
-title: MSBuild Conditions | Microsoft Docs
+title: MSBuild Conditions
 description: Learn how MSBuild supports a specific set of conditions that can be applied wherever a Condition attribute is allowed.
 ms.date: 11/10/2022
 ms.topic: reference
@@ -12,13 +12,10 @@ helpviewer_keywords:
 - conditions [MSBuild]
 - Exists, MSBuild condition function
 - HasTrailingSlash, MSBuild condition function
-ms.assetid: 9d7aa308-b667-48ed-b4c9-a61e49eb0a85
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # MSBuild conditions
 

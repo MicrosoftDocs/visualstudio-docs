@@ -1,9 +1,8 @@
 ---
-title: Product availability for downloads in Visual Studio subscriptions | Microsoft Docs
+title: Product availability for downloads in Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: abf271b5-7547-4695-a46f-72b2878ba8d4
 ms.date: 05/24/2023
 ms.topic: conceptual
 description:  Learn what products are available as software downloads in Visual Studio subscriptions

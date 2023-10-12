@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the virtual address (VA) of a thunk target."
-title: "IDiaSymbol::get_targetVirtualAddress | Microsoft Docs"
+title: "IDiaSymbol::get_targetVirtualAddress"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_targetVirtualAddress method"
-ms.assetid: a0a5ce72-95f8-443e-bb4b-8c21194faad0
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_targetVirtualAddress
 

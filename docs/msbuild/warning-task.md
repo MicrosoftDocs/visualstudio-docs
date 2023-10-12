@@ -1,5 +1,5 @@
 ---
-title: Warning Task | Microsoft Docs
+title: Warning Task
 description: Learn how MSBuild uses the Warning task to log a warning during a build based on an evaluated conditional statement.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - Warning task [MSBuild]
 - MSBuild, Warning task
-ms.assetid: 96ba5507-8b43-4f54-a1d7-9b15644dd56c
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Warning task
 

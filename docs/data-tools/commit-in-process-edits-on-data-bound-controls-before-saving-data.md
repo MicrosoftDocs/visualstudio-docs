@@ -13,13 +13,10 @@ helpviewer_keywords:
 - hierarchical update, committing edited records
 - BindingSource class, committing edited records
 - EndEdit method
-ms.assetid: 61af4798-eef7-468c-b229-5e1497febb2f
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Commit in-process edits on data-bound controls before saving data
 

@@ -1,14 +1,11 @@
 ---
 title: Isolating Code Under Test with Microsoft Fakes
 description: Learn how Microsoft Fakes helps you isolate the code you are testing by replacing other parts of the application with stubs or shims.
-ms.custom: devdivchpfy22
 ms.date: 05/23/2023
 ms.topic: how-to
 ms.author: oscalles
 manager: aajohn
 ms.technology: vs-ide-test
-ms.workload: 
-  - multiple
 author: ocallesp
 dev_langs: 
   - VB

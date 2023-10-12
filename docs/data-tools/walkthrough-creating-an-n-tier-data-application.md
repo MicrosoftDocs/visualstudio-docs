@@ -9,13 +9,10 @@ dev_langs:
 helpviewer_keywords:
 - n-tier applications, creating
 - n-tier applications, walkthroughs
-ms.assetid: d15e4d31-2839-48d9-9e0e-2e73404d82a2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Walkthrough: Create an n-tier data application
 

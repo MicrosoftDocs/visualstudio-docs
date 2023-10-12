@@ -5,12 +5,10 @@ author: ghogen
 manager: jillfra
 ms.prod: visual-studio-windows
 ms.technology: vs-azure
-ms.custom: "devx-track-csharp, aaddev, vs-azure"
-ms.workload: azure-vs
+ms.custom: devx-track-csharp
 ms.topic: how-to
 ms.date: 12/14/2021
 ms.author: ghogen
-
 ---
 # Add an Azure Active Directory by using Connected Services in Visual Studio
 

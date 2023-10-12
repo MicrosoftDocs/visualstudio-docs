@@ -1,19 +1,16 @@
 ---
 description: "Requests that the program stop execution the next time one of its threads attempts to run."
-title: IDebugProgram2::CauseBreak | Microsoft Docs
+title: IDebugProgram2::CauseBreak
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgram2::CauseBreak
 helpviewer_keywords:
 - IDebugProgram2::CauseBreak
-ms.assetid: 07d353fc-68ab-4297-a18f-3d3c7a80e121
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

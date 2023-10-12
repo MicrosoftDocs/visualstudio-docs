@@ -1,17 +1,14 @@
 ---
-title: Item Definitions | Microsoft Docs
+title: Item Definitions
 description: Learn how MSBuild uses ItemGroup and ItemDefinitionGroup to declare metadata for items in project files.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - msbuild, item definitions
-ms.assetid: 8e3dc223-f9e5-4974-aa0e-5dc7967419cb
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Item definitions
 

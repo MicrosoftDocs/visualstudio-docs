@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically protect workbooks"
+title: "Programmatically protect workbooks"
 description: Learn how you can protect a Microsoft Excel workbook so that users cannot add or delete worksheets, and also unprotect the workbook programmatically.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -17,8 +17,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically protect workbooks
 

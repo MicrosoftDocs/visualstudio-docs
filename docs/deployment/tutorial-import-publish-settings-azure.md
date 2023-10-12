@@ -9,8 +9,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # Get publish settings from Azure and import into Visual Studio
 

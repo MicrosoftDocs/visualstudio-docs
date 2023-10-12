@@ -1,5 +1,5 @@
 ---
-title: "Compiland | Microsoft Docs"
+title: "Compiland"
 description: Find reference information about the Compiland symbol type (SymTagCompiland) in the Visual Studio debug interface access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -8,13 +8,10 @@ dev_langs:
 helpviewer_keywords:
   - "compiland symbol"
   - "compilands, compiland symbol"
-ms.assetid: c798eb2b-664a-41ec-ae90-5e9d292507ca
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Compiland
 

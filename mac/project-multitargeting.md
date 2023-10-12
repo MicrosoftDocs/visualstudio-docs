@@ -6,7 +6,6 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 12/12/2019
 ms.topic: how-to
-ms.assetid: 2a561af4-f1fe-493e-9a53-aa6d77d15498
 ---
 # Projects with multiple target frameworks in Visual Studio for Mac
 

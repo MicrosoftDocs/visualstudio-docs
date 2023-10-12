@@ -1,7 +1,6 @@
 ---
-title: "Use dump files in the debugger | Microsoft Docs"
+title: "Use dump files in the debugger"
 description: A dump file is a snapshot of an executing app and loaded modules. Consider creating a dump file for situations where you don't have debug access to the app.
-
 ms.date: "06/26/2023"
 ms.topic: "conceptual"
 f1_keywords:
@@ -17,14 +16,10 @@ helpviewer_keywords:
   - "crash dumps"
   - "dump files"
   - "dumps"
-ms.assetid: b71be6dc-57e0-4730-99d2-b540a0863e49
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.custom: devdivchpfy22
-ms.workload:
-  - "multiple"
 ---
 # Dump files in the Visual Studio debugger
 

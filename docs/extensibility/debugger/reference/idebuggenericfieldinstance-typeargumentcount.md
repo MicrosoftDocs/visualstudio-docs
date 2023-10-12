@@ -1,18 +1,15 @@
 ---
 description: "Returns the number of type parameter arguments for this instance."
-title: IDebugGenericFieldInstance::TypeArgumentCount | Microsoft Docs
+title: IDebugGenericFieldInstance::TypeArgumentCount
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - TypeArgumentCount
 - IDebugGenericFieldInstance::TypeArgumentCount
-ms.assetid: e662c5ea-a5c1-478e-a268-5980dadffcd1
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

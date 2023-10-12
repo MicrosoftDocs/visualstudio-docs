@@ -1,19 +1,16 @@
 ---
 description: "Opens and prepares the debug data associated with the .exe/.dll file."
-title: "IDiaDataSource::loadDataForExe | Microsoft Docs"
+title: "IDiaDataSource::loadDataForExe"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaDataSource::loadDataForExe method"
-ms.assetid: d94a1068-f53f-44b5-b6fb-00dec361a7f2
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaDataSource::loadDataForExe
 

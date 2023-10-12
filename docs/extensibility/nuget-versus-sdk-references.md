@@ -7,8 +7,6 @@ author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- multiple
 ---
 # NuGet versus SDK as a project reference
 

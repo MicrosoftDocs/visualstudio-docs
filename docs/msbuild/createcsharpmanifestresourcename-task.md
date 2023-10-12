@@ -1,5 +1,5 @@
 ---
-title: CreateCSharpManifestResourceName Task | Microsoft Docs
+title: CreateCSharpManifestResourceName Task
 description: Use the MSBuild CreateCSharpManifestResourceName task to create a C#-style manifest name from a given .resx file name or other resource.
 ms.date: 11/15/2020
 ms.topic: reference
@@ -7,17 +7,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, CreateCSharpManifestResourceName task
 - CreateCSharpManifestResourceName task [MSBuild]
-ms.assetid: 2ace88c1-d757-40a7-8158-c1d3f5ff0511
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # CreateCSharpManifestResourceName task
 

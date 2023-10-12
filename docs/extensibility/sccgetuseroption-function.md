@@ -1,19 +1,16 @@
 ---
 description: "This function retrieves a variety of user-specific options."
-title: SccGetUserOption Function | Microsoft Docs
+title: SccGetUserOption Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccGetUserOption
 helpviewer_keywords:
 - SccGetUserOption function
-ms.assetid: 17863747-1901-4c53-a2b3-ed996085e120
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # SccGetUserOption Function
 

@@ -5,12 +5,10 @@ author: ghogen
 manager: jillfra
 ms.prod: visual-studio-windows
 ms.technology: vs-azure
-ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 12/14/2021
 ms.author: ghogen
-ms.custom: "devx-track-csharp, aaddev, vs-azure"
-
+ms.custom: devx-track-csharp
 ---
 # Getting Started with Azure Active Directory (ASP.NET MVC Projects)
 

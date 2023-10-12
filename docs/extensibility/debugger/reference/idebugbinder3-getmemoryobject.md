@@ -1,19 +1,16 @@
 ---
 description: "This method retrieves a memory object that represents the memory that this object is bound to."
-title: IDebugBinder3::GetMemoryObject | Microsoft Docs
+title: IDebugBinder3::GetMemoryObject
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBinder3::GetMemoryObject
 helpviewer_keywords:
 - IDebugBinder3::GetMemoryObject method
-ms.assetid: 71d959c7-45df-485f-b0ee-f1c0439d54fb
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

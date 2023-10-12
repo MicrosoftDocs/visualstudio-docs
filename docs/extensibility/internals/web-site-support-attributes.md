@@ -1,17 +1,14 @@
 ---
-title: Web Site Support Attributes | Microsoft Docs
+title: Web Site Support Attributes
 description: Learn about the web site support attributes that are necessary for extending the functionality of Visual Studio using web site projects.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - web site projects, registration
-ms.assetid: 46d52e2c-ca2a-4bbd-8500-5b0129768aec
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Web Site Support Attributes
 

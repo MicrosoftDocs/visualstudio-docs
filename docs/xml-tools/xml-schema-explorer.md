@@ -3,13 +3,10 @@ title: XML Schema Explorer
 description: Learn about the features of the XML Schema Explorer that is integrated with Visual Studio and the XML editor.
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.assetid: 2fc39e98-b194-456b-a452-cfafb0a52d66
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
-ms.workload:
-- multiple
 ---
 # XML Schema Explorer
 

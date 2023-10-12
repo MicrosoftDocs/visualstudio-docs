@@ -1,5 +1,5 @@
 ---
-title: Touch Task | Microsoft Docs
+title: Touch Task
 description: Learn about parameters and usage of the MSBuild Touch task, which sets the access and modification times of files.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, Touch task
 - Touch task [MSBuild]
-ms.assetid: 8a978645-1393-4904-ae69-42afabd8c109
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Touch task
 

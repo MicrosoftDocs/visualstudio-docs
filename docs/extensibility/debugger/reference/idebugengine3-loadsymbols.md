@@ -1,19 +1,16 @@
 ---
 description: "Loads (as necessary) symbols for all modules being debugged by this debugging engine."
-title: IDebugEngine3::LoadSymbols | Microsoft Docs
+title: IDebugEngine3::LoadSymbols
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngine3::LoadSymbols
 helpviewer_keywords:
 - IDebugEngine3::LoadSymbols
-ms.assetid: c846a440-1d91-4d48-b8f1-82e902ae152b
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

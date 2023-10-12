@@ -1,5 +1,5 @@
 ---
-title: Expose Lists of Symbols Provided to the Object Manager | Microsoft Docs
+title: Expose Lists of Symbols Provided to the Object Manager
 description: Learn how to implement the IVsSimpleObjectList2 interface to expose lists of symbols to the object manager in Visual Studio and update symbol-browsing tools.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -9,13 +9,10 @@ helpviewer_keywords:
 - symbols, call browser
 - lists, symbols for the object manager
 - symbols, exposing lists to the object manager
-ms.assetid: 19757068-bdaa-4e7e-85d6-f8ce5026a859
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # How to: Expose Lists of symbols provided by the library to the object manager
 

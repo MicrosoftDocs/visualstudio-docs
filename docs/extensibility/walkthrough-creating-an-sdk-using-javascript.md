@@ -1,15 +1,12 @@
 ---
-title: 'Walkthrough: Creating an SDK using JavaScript | Microsoft Docs'
+title: 'Walkthrough: Creating an SDK using JavaScript'
 description: Learn how to use JavaScript to create a simple math SDK as a Visual Studio Extension by using this walkthrough.
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: a8c89d5d-5b78-4435-817f-c5f25ca6d715
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Walkthrough: Create an SDK using JavaScript
 

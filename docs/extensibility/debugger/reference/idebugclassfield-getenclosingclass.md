@@ -1,19 +1,16 @@
 ---
 description: "Gets the class that encloses this class."
-title: IDebugClassField::GetEnclosingClass | Microsoft Docs
+title: IDebugClassField::GetEnclosingClass
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugClassField::GetEnclosingClass
 helpviewer_keywords:
 - IDebugClassField::GetEnclosingClass method
-ms.assetid: a0c12e3c-9ea0-4dfb-9e45-8cea18725022
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

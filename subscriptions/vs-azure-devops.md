@@ -1,9 +1,8 @@
 ---
-title: Azure DevOps benefits for Visual Studio subscribers | Microsoft Docs
+title: Azure DevOps benefits for Visual Studio subscribers
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: fe826200-9600-4b29-a64e-0d66ba3caf3d
 ms.date: 06/15/2023
 ms.topic: conceptual
 description:  Understand how you can use Azure DevOps as a Visual Studio subscriber.

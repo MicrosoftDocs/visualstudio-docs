@@ -1,6 +1,6 @@
 ---
 description: "Windows file sharing has been configured so that you will connect to the remote computer using a different user name."
-title: "Windows file sharing has been configured... | Microsoft Docs"
+title: "Windows file sharing has been configured..."
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:
@@ -14,8 +14,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Error: Windows file sharing has been configured...
 

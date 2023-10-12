@@ -5,8 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 06/05/2023
-ms.assetid: 7DC64A52-AA41-4F3A-A8A1-8A20BCD81CC7
-ms.custom: video, devdivchpfy22
+ms.custom: video
 ms.topic: overview
 ---
 # Visual Studio for Mac IDE tour

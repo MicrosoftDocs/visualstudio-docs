@@ -1,5 +1,5 @@
 ---
-title: "Limitations on WCF Debugging | Microsoft Docs"
+title: "Limitations on WCF Debugging"
 description: Learn the ways to begin debugging a WCF service, the required conditions, and the debugging limitations.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -11,13 +11,10 @@ dev_langs:
 helpviewer_keywords:
   - "debugging, WCF"
   - "WCF, debugging limitations"
-ms.assetid: 8e0333c4-1ddc-4abe-8f1c-d19bf6a2a07a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Limitations on WCF Debugging
 

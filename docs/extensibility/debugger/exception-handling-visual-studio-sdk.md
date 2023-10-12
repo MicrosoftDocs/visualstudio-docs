@@ -1,17 +1,14 @@
 ---
-title: Exception Handling (Visual Studio SDK) | Microsoft Docs
+title: Exception Handling (Visual Studio SDK)
 description: Learn about the process that occurs when exceptions are thrown. This article describes all the steps involved.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], exception handling
-ms.assetid: 7279dc16-db14-482c-86b8-7b3da5a581d2
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Exception handling (Visual Studio SDK)
 

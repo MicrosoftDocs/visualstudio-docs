@@ -16,13 +16,10 @@ helpviewer_keywords:
 - data validation
 - validating data, datasets
 - updating datasets, validating data
-ms.assetid: 79500596-1e4d-478e-a991-a636fd73a622
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Validate data in datasets
 

@@ -11,8 +11,6 @@ helpviewer_keywords:
   - "unit tests"
   - "Test Explorer FAQ"
 ms.author: mikejo
-ms.workload:
-  - "multiple"
 author: MikeJo5000
 manager: jmartens
 ms.technology: vs-ide-test

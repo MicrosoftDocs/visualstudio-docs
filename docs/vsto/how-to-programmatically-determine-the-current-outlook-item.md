@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically determine the current Outlook item"
+title: "Programmatically determine the current Outlook item"
 description: Learn how you can programmatically determine the current Microsoft Outlook item. This example uses the Explorer.SelectionChange event.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -16,8 +16,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically determine the current Outlook item
 

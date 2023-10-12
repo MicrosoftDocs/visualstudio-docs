@@ -2,7 +2,6 @@
 title: "&lt;description&gt; element (Office development in Visual Studio)"
 description: Learn that the description element of the vstov4 namespace stores the description for the Office solution that appears in the COM add-ins dialog box.
 titleSuffix: ""
-
 ms.date: "02/02/2017"
 ms.topic: "reference"
 dev_langs:
@@ -16,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # &lt;description&gt; element (Office development in Visual Studio)
 

@@ -1,17 +1,14 @@
 ---
-title: Starting a Build from within the IDE | Microsoft Docs
+title: Starting a Build from within the IDE
 description: Learn how to use the Microsoft.VisualStudio.Shell.Interop.IVsBuildManagerAccessor to start builds for custom project systems.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - build
-ms.assetid: 936317aa-63b7-4eb0-b9db-b260a0306196
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Start a build from within the IDE
 

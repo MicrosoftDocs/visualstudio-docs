@@ -1,5 +1,5 @@
 ---
-title: "DebugBreak and __debugbreak | Microsoft Docs"
+title: "DebugBreak and __debugbreak"
 description: Learn how to use the DebugBreak function and the __debugbreak intrinsic to cause your program to break, just as though a breakpoint were set. 
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -14,13 +14,10 @@ helpviewer_keywords:
   - "debugging [C++], DebugBreak function"
   - "DebugBreak function"
   - "breakpoints, DebugBreak function"
-ms.assetid: 9787c795-df94-4f48-bc8d-3bf899b67421
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # DebugBreak and __debugbreak
 

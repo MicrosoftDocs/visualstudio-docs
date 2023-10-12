@@ -11,13 +11,10 @@ helpviewer_keywords:
 - data [Visual Studio], binding to objects
 - object binding
 - binding, to objects
-ms.assetid: ed743ce6-73af-45e5-a8ff-045eddaccc86
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Bind objects as data sources in Visual Studio
 

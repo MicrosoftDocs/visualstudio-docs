@@ -9,8 +9,6 @@ f1_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.workload:
-  - "multiple"
 ---
 # Options dialog box: Text Editor \> JavaScript/TypeScript \> Code Validation
 

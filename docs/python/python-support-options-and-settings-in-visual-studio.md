@@ -15,9 +15,6 @@ author: cwebster-99
 ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
-ms.workload:
-  - python
-  - data-science
 ---
 # Options for Python in Visual Studio
 

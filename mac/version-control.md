@@ -6,7 +6,6 @@ author: ghogen
 ms.author: ghogen
 manager: dominicn
 ms.date: 06/30/2022
-ms.assetid: 49917483-28AA-4598-A847-71F1F2E0DCB5
 ---
 # Version control & source control with Git in Visual Studio for Mac
 

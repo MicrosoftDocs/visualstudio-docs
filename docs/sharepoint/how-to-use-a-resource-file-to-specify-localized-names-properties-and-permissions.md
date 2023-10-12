@@ -1,5 +1,5 @@
 ---
-title: "How to use a Resource File in a SharePoint project | Microsoft Docs"
+title: "How to use a Resource File in a SharePoint project"
 titleSuffix: ""
 description: Use a resource file in a SharePoint project so that you can provide localized names, define properties, and apply permissions for objects defined in a BDC model.
 ms.date: "02/02/2017"
@@ -20,8 +20,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to use a Resource File in a SharePoint project
 

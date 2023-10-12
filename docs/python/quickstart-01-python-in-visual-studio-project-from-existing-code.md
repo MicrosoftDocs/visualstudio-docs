@@ -7,10 +7,6 @@ author: cwebster-99
 ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
-ms.custom: devdivchpfy22
-ms.workload:
-  - python
-  - data-science
 ---
 
 # Quickstart: Create a Python project from existing code

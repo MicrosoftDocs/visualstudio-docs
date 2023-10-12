@@ -1,19 +1,16 @@
 ---
 description: "This interface provides multi-threaded debugging support."
-title: IDebugEngineProgram2 | Microsoft Docs
+title: IDebugEngineProgram2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngineProgram2
 helpviewer_keywords:
 - IDebugEngineProgram2 interface
-ms.assetid: 151003a9-2e4d-4acf-9f4d-365dfa6b9596
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugEngineProgram2
 

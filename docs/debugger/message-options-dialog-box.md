@@ -6,13 +6,10 @@ ms.topic: "ui-reference"
 helpviewer_keywords:
   - "message options, Spy++"
   - "Spy++, message options"
-ms.assetid: 88ad85af-3f56-4df1-98b6-fab34c1e5874
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Message Options dialog box
 

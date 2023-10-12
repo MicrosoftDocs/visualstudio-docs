@@ -6,13 +6,10 @@ ms.topic: how-to
 dev_langs:
 - VB
 - CSharp
-ms.assetid: 7b1a91cf-8b5a-4fc0-ac36-0dc2d336fa1b
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Query datasets
 

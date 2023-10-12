@@ -1,19 +1,16 @@
 ---
 description: "This method converts either an object location or a memory address to a memory context."
-title: IDebugBinder::GetMemoryContext | Microsoft Docs
+title: IDebugBinder::GetMemoryContext
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBinder::GetMemoryContext
 helpviewer_keywords:
 - IDebugBinder::GetMemoryContext method
-ms.assetid: 801c5b60-acff-4822-b23d-e9c7bbca8a0f
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

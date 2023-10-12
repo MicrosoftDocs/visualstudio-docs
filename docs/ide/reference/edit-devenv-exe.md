@@ -7,13 +7,10 @@ helpviewer_keywords:
 - Edit Devenv switch
 - Devenv, /Edit switch
 - /Edit Devenv switch
-ms.assetid: 02b3d6e7-a2b1-4d83-a747-aa8c2fb758b7
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # /Edit (devenv.exe)
 

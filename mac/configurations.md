@@ -6,7 +6,6 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 09/18/2019
 ms.topic: conceptual
-ms.assetid: 78107CFA-9308-4293-A92A-9B552A259E15
 ---
 # Understanding build configurations in Visual Studio for Mac
 

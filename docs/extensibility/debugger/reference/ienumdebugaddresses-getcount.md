@@ -1,19 +1,16 @@
 ---
 description: "This method returns the number of elements in the addresses enumeration."
-title: IEnumDebugAddresses::GetCount | Microsoft Docs
+title: IEnumDebugAddresses::GetCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugAddresses::GetCount
 helpviewer_keywords:
 - IEnumDebugAddresses::GetCount method
-ms.assetid: f2ca8ff8-539f-457c-83f8-9bbf97618065
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

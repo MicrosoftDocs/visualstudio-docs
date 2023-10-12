@@ -7,8 +7,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-designers
-ms.workload:
-  - "multiple"
 ms.custom: engagement-fy23
 ---
 # Scaling on your main display is set to X%

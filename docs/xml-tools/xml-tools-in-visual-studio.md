@@ -27,13 +27,10 @@ helpviewer_keywords:
 - XSD schemas
 - XSL, style sheets
 - XMLDataDocument class
-ms.assetid: 1fd5de47-2d61-4180-9539-c2c4bf9ab768
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
-ms.workload:
-- multiple
 ---
 # Overview of XML tools in Visual Studio
 

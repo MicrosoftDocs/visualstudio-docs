@@ -1,19 +1,16 @@
 ---
 description: "Reads instructions starting from the current position in the disassembly stream."
-title: IDebugDisassemblyStream2::Read | Microsoft Docs
+title: IDebugDisassemblyStream2::Read
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDisassemblyStream2::Read
 helpviewer_keywords:
 - IDebugDisassemblyStream2::Read
-ms.assetid: 7db5f6bb-73ee-45bc-b187-c1b6aa2dfdd5
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

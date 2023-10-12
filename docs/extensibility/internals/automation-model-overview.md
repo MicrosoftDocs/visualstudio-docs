@@ -1,18 +1,15 @@
 ---
-title: Automation Model Overview | Microsoft Docs
+title: Automation Model Overview
 description: Learn about the Visual Studio automation model that consists of a set of objects against which you can write a Visual Studio add-in or extension.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - automation [Visual Studio SDK], about automation
 - extensibility
-ms.assetid: 12b6d6db-0d22-4aaa-aa7d-1365f759b7b0
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Automation model overview
 

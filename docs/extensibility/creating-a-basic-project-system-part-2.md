@@ -1,5 +1,5 @@
 ---
-title: Creating a Basic Project System, Part 2 | Microsoft Docs
+title: Creating a Basic Project System, Part 2
 description: Learn how to add a Visual Studio template, a property page, and other features to a project created in a previous article.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - writing a project system
 - project system
 - tutorial
-ms.assetid: aee48fc6-a15f-4fd5-8420-7f18824de220
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Create a basic project system, part 2
 

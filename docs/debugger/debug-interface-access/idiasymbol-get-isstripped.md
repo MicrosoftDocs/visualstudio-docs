@@ -1,19 +1,16 @@
 ---
 description: "Retrieves flag indicating whether private symbols were stripped from the symbol file."
-title: "IDiaSymbol::get_isStripped | Microsoft Docs"
+title: "IDiaSymbol::get_isStripped"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_isStripped method"
-ms.assetid: cc2c4a0b-ab9f-4b79-a8ff-a3badb0405d6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_isStripped
 

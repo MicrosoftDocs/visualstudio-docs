@@ -1,19 +1,16 @@
 ---
 description: "This function cleans up any allocations or open connections created by a previous call to the SccInitialize in preparation for shutting down the source control plug-in."
-title: SccUninitialize Function | Microsoft Docs
+title: SccUninitialize Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccUninitialize
 helpviewer_keywords:
 - SccUninitialize function
-ms.assetid: 17cf5337-d251-4422-bc96-93fe7d48f2ae
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # SccUninitialize Function
 

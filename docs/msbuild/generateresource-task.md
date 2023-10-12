@@ -1,5 +1,5 @@
 ---
-title: GenerateResource Task | Microsoft Docs
+title: GenerateResource Task
 description: Use the MSBuild GenerateResource task to convert between .txt or .resx files and common language runtime binary .resources files.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, GenerateResource task
 - GenerateResource task [MSBuild]
-ms.assetid: c0aff32f-f2cc-46f6-9c3e-a5c9f8f912b1
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # GenerateResource task
 

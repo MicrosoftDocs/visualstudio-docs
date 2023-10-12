@@ -1,5 +1,5 @@
 ---
-title: 'How to: Register a Library with the Object Manager | Microsoft Docs'
+title: 'Register a Library with the Object Manager'
 description: Learn how to register a library with the Visual Studio object manager so that you can view symbols in browsing tools, such as Class View and Object Browser.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -9,13 +9,10 @@ helpviewer_keywords:
 - IVsSimpleLibrary2 interface, registering library with object manager
 - IVsObjectManager2 interface, registering library with object manager
 - libraries, symbol-browsing tools
-ms.assetid: f124dd05-cb0f-44ad-bb2a-7c0b34ef4038
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # How to: Register a library with the object manager
 

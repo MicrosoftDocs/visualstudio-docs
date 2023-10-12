@@ -1,17 +1,14 @@
 ---
-title: MSBuild Concepts | Microsoft Docs
+title: MSBuild Concepts
 description: Learn to specify build components and processes by using MSBuild properties, items, tasks, and targets.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, concepts
-ms.assetid: 083b8ba3-e4ad-45af-bb5d-3bc81d406131
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # MSBuild concepts
 

@@ -1,19 +1,16 @@
 ---
 description: "Returns a copy of the current DEBUG_PROPERTY_INFO enumeration as a separate object."
-title: IEnumDebugPropertyInfo2::Clone | Microsoft Docs
+title: IEnumDebugPropertyInfo2::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugPropertyInfo2::Clone
 helpviewer_keywords:
 - IEnumDebugPropertyInfo2::Clone
-ms.assetid: 0ede1667-1071-4aa4-b887-260ea103d724
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

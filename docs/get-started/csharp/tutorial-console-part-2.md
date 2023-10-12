@@ -1,7 +1,7 @@
 ---
 title: "Tutorial 2: Extend your C# console app"
 description: "Learn how to develop a C# console app in Visual Studio, step-by-step."
-ms.custom: "vs-acquisition, get-started"
+ms.custom: vs-acquisition
 ms.date: 1/5/2023
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
@@ -13,9 +13,6 @@ manager: jmartens
 monikerRange: ">=vs-2019"
 dev_langs:
   - CSharp
-ms.workload:
-  - "dotnet"
-  - "dotnetcore"
 ---
 # Tutorial: Extend C# console app and debug in Visual Studio (part 2 of 2)
 

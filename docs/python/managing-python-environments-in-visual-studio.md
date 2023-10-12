@@ -8,9 +8,6 @@ author: cwebster-99
 ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
-ms.workload:
-  - python
-  - data-science
 ---
 
 # How to create and manage Python environments in Visual Studio

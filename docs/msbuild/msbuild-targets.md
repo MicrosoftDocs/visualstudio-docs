@@ -1,17 +1,14 @@
 ---
-title: MSBuild Targets | Microsoft Docs
+title: MSBuild Targets
 description: Learn how MSBuild uses targets to group tasks together and allow the build process to be factored into smaller units.
 ms.date: 06/01/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, targets
-ms.assetid: 8060b4d2-e4a9-48cf-a437-852649ceb417
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # MSBuild targets
 

@@ -1,19 +1,16 @@
 ---
 description: "Specifies the type of an object from the expression evaluator."
-title: OBJECT_TYPE | Microsoft Docs
+title: OBJECT_TYPE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - OBJECT_TYPE
 helpviewer_keywords:
 - OBJECT_TYPE enumeration
-ms.assetid: c4d246f9-8a98-44ec-b2bb-ff5c684f668e
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

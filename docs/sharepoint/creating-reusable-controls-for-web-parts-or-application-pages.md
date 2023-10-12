@@ -1,5 +1,5 @@
 ---
-title: "Creating Reusable Controls for Web Parts or Application Pages | Microsoft Docs"
+title: "Creating Reusable Controls for Web Parts or Application Pages"
 titleSuffix: ""
 description: Create custom, reusable controls (user controls) in Visual Studio that can be consumed by application pages and web parts that run in SharePoint.
 ms.date: "02/02/2017"
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Create reusable controls for web parts or application pages
 

@@ -8,7 +8,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: bridge
-ms.custom: "contperf-fy22q1"
 ---
 
 # Configure Bridge to Kubernetes

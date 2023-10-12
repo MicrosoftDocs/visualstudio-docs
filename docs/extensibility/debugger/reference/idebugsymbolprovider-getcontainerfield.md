@@ -1,19 +1,16 @@
 ---
 description: "This method gets the field that contains the debug address."
-title: IDebugSymbolProvider::GetContainerField | Microsoft Docs
+title: IDebugSymbolProvider::GetContainerField
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugSymbolProvider::GetContainerField
 helpviewer_keywords:
 - IDebugSymbolProvider::GetContainerField method
-ms.assetid: d6b56b4f-a96b-4fa7-87c1-bac4e58fa766
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

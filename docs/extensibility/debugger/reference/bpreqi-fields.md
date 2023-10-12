@@ -1,19 +1,16 @@
 ---
 description: "Specifies the information to be retrieved about a breakpoint request."
-title: BPREQI_FIELDS | Microsoft Docs
+title: BPREQI_FIELDS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BPREQI_FIELDS
 helpviewer_keywords:
 - BPREQI_FIELDS enumeration
-ms.assetid: 679e771e-4a79-484e-af37-f962ef4aa245
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

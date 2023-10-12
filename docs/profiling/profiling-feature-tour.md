@@ -9,13 +9,10 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords:
   - "diagnostic tools"
-ms.assetid: d2ee0301-ea78-43d8-851a-71b7b2043d73
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # First look at profiling tools (C#, Visual Basic, C++, F#)
 

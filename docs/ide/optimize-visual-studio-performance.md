@@ -12,8 +12,6 @@ manager: jmartens
 ms.technology: vs-ide-general
 f1_keywords:
 - vs.performancecenter
-ms.workload:
-- multiple
 ---
 # Optimize Visual Studio performance
 

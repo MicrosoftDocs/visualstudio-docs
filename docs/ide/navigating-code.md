@@ -17,8 +17,6 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: j-martens
-ms.workload:
-- multiple
 ---
 # Navigate code
 

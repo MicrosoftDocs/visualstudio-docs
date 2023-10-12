@@ -4,7 +4,6 @@ description: Learn about the concepts that are the building blocks of the iconog
 ms.date: "08/04/2017"
 ms.reviewer: "Jamie.Young"
 ms.topic: reference
-ms.assetid: d20a30c0-0dcc-4e2c-a809-31c8ea28c7df
 author: maiak
 ms.author: maiak
 manager: jmartens

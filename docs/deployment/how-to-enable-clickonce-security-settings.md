@@ -1,5 +1,5 @@
 ---
-title: Enable & configure ClickOnce security | Microsoft Docs
+title: Enable & configure ClickOnce security
 description: Learn how the Publish wizard automatically enables code access security for ClickOnce applications to publish the application.
 ms.date: 08/04/2023
 ms.topic: how-to
@@ -11,13 +11,10 @@ helpviewer_keywords:
   - security [Visual Studio], ClickOnce applications
   - ClickOnce deployment, security settings
   - security settings, ClickOnce deployment
-ms.assetid: 73cd3e9d-cd72-4ad2-8cae-94d6bb6b01e0
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # How to: Enable and configure ClickOnce security settings in Visual Studio
 

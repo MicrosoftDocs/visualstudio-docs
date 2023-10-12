@@ -12,12 +12,9 @@ helpviewer_keywords:
   - "pre-build events"
   - "Build Events dialog box"
   - "post-build events"
-ms.assetid: 3a81a7c7-39f9-47a8-ba5a-b351227f380e
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.workload:
-  - "multiple"
 ---
 # Build Events Dialog Box (Visual Basic)
 

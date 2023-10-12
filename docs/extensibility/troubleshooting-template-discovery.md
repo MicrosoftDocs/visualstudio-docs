@@ -1,5 +1,5 @@
 ---
-title: Troubleshoot template discovery in Visual Studio | Microsoft Docs
+title: Troubleshoot template discovery in Visual Studio
 description: Learn how to enable diagnostic logging to troubleshoot deploying custom projects and templates in the Visual Studio SDK.
 ms.date: 01/02/2018
 ms.topic: how-to
@@ -7,8 +7,6 @@ author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Troubleshooting template installation
 

@@ -11,13 +11,10 @@ helpviewer_keywords:
 - Visual Studio commands
 - pre-defined command aliases
 - command aliases
-ms.assetid: de8bb378-8c1c-4087-a9a5-537fa8314c19
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Visual Studio Command Aliases
 

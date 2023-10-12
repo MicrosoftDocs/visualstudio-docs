@@ -14,8 +14,6 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 monikerRange: ">=vs-2019"
 ---
 # Options dialog box: Text Editor \> Advanced

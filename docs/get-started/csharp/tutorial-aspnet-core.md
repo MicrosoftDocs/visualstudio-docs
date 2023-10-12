@@ -8,13 +8,9 @@ ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.date: 02/23/2023
 ms.prod: visual-studio-windows
-ms.workload:
-  - "aspnet"
-  - "dotnetcore"
 dev_langs:
   - CSharp
 ms.devlang: CSharp
-ms.custom: "vs-acquistion, get-started"
 ---
 # Tutorial: Get started with C# and ASP.NET Core in Visual Studio
 

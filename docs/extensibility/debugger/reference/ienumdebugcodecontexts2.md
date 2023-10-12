@@ -1,19 +1,16 @@
 ---
 description: "This interface enumerates the code contexts associated with the debug session, or with a particular program or document."
-title: IEnumDebugCodeContexts2 | Microsoft Docs
+title: IEnumDebugCodeContexts2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugCodeContexts2
 helpviewer_keywords:
 - IEnumDebugCodeContexts2
-ms.assetid: 72915146-215f-4c99-a034-131b2b474e0e
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IEnumDebugCodeContexts2
 

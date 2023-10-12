@@ -9,8 +9,6 @@ manager: jmartens
 ms.technology: vs-ide-general
 dev_langs:
   - CSharp
-ms.workload:
-  - "dotnet"
 ---
 # Use expression body or block body for lambda expressions
 

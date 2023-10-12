@@ -10,8 +10,6 @@ author: maddymontaquila
 ms.author: maleger
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- uwp
 ---
 # XAML Designer options page
 

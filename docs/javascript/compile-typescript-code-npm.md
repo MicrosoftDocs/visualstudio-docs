@@ -3,15 +3,12 @@ title: Compile and build TypeScript code using npm
 description: Learn how to add TypeScript support to your Visual Studio projects by using the Node Package Manager (npm).
 ms.date: 05/26/2023
 ms.topic: conceptual
-ms.custom: devdivchpfy22
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-javascript
 dev_langs:
   - JavaScript
-ms.workload:
-  - nodejs
 ---
 # Compile TypeScript code (Node.js)
 

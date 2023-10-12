@@ -1,19 +1,16 @@
 ---
 description: "This interface enumerates the programs running in the current debug session."
-title: IEnumDebugPrograms2 | Microsoft Docs
+title: IEnumDebugPrograms2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugPrograms2
 helpviewer_keywords:
 - IEnumDebugPrograms2
-ms.assetid: 7fbb8fb7-db64-4546-a364-dc668430c8af
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IEnumDebugPrograms2
 

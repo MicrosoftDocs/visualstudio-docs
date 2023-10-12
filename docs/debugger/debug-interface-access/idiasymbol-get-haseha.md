@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a flag that specifies whether the function contains asynchronous (structured) exception handling."
-title: "IDiaSymbol::get_hasEHa | Microsoft Docs"
+title: "IDiaSymbol::get_hasEHa"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_hasEHa method"
-ms.assetid: cb61dfd9-fe69-461c-8185-288440454864
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_hasEHa
 

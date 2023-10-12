@@ -1,7 +1,6 @@
 ---
-title: "Log info with tracepoints | Microsoft Docs"
+title: "Log info with tracepoints"
 description: Set tracepoints to log info to Output without modifying or stopping your code. Just specify an output string under the Action checkbox in Breakpoint Settings.
-ms.custom: devdivchpfy22
 ms.date: 08/26/2022
 ms.topic: "how-to"
 helpviewer_keywords:
@@ -9,8 +8,6 @@ helpviewer_keywords:
 author: MikeJo5000
 ms.author: mikejo
 manager: AndSter
-ms.workload:
-  - "multiple"
 ---
 # Log info to the Output window using tracepoints in Visual Studio
 

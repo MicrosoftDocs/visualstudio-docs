@@ -28,13 +28,10 @@ helpviewer_keywords:
 - Code Editor
 - Text Editor [Visual Studio]
 - editors, global settings
-ms.assetid: 4ac21e48-3243-4141-9058-7eaf12b3cde7
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Options dialog box: Text Editor \> General
 

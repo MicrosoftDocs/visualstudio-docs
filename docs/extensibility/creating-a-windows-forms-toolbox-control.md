@@ -1,5 +1,5 @@
 ---
-title: Creating a Windows Forms Toolbox Control | Microsoft Docs
+title: Creating a Windows Forms Toolbox Control
 description: This walkthrough shows how to use the Windows Forms Toolbox Control template to create a simple counter control using the Visual Studio SDK.
 ms.date: 3/16/2019
 ms.topic: how-to
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - winforms
 - toolbox
 - windows forms
-ms.assetid: 0be6ffc1-8afd-4d02-9a5d-e27dde05fde6
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Create a Windows Forms Toolbox Control
 

@@ -1,17 +1,14 @@
 ---
-title: Item Functions | Microsoft Docs
+title: Item Functions
 description: Learn how MSBuild code in tasks and targets can call item functions to get information about the items in the project.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - msbuild, Item functions
-ms.assetid: 5e6df3cc-2db8-4cbd-8fdd-3ffd03ac0876
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Item functions
 

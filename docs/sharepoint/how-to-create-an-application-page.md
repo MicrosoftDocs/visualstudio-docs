@@ -1,5 +1,5 @@
 ---
-title: "How to: Create an Application Page | Microsoft Docs"
+title: "Create an Application Page"
 description: Create an ASP.NET web page (also known as an application page) in Visual Studio for one or more SharePoint sites.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Create an application page
 

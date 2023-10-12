@@ -1,5 +1,5 @@
 ---
-title: "How to: Resize NamedRange controls"
+title: "Resize NamedRange controls"
 description: Learn how you can use Visual Studio to programmatically resize NamedRange controls in a Microsoft Excel workbook.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Resize NamedRange controls
 

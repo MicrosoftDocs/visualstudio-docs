@@ -1,7 +1,6 @@
 ---
-title: "Property settings for Web projects | Microsoft Docs"
+title: "Property settings for Web projects"
 description: Know how to change the property settings for a web site debug configuration in the Property Pages dialog box of Visual Studio.
-
 ms.date: "01/14/2022"
 ms.topic: "reference"
 dev_langs:
@@ -16,13 +15,10 @@ helpviewer_keywords:
   - "projects [Visual Studio], debug configurations"
   - "debugging Web applications, project settings"
   - "debug configurations, Web projects"
-ms.assetid: 8ec5160a-6408-4f47-8d41-f0e20e79a3b9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Property Pages Settings for Web Projects
 

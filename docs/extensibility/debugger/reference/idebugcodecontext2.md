@@ -1,19 +1,16 @@
 ---
 description: "This interface represents the starting position of a code instruction."
-title: IDebugCodeContext2 | Microsoft Docs
+title: IDebugCodeContext2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCodeContext2
 helpviewer_keywords:
 - IDebugCodeContext2 interface
-ms.assetid: 3670439e-2171-405d-9d77-dedb0f1cba93
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugCodeContext2
 

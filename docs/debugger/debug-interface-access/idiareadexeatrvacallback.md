@@ -1,19 +1,16 @@
 ---
 description: "Enables a client application to supply bytes of an executable file as specified by a relative virtual address."
-title: "IDiaReadExeAtRVACallback | Microsoft Docs"
+title: "IDiaReadExeAtRVACallback"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaReadExeAtRVACallback interface"
-ms.assetid: b2892513-3952-4f99-9b98-60cb9b1fdc91
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaReadExeAtRVACallback
 
