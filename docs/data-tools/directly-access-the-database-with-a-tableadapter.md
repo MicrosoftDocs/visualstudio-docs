@@ -1,6 +1,6 @@
 ---
 title: Directly access the database with a TableAdapter
-description: Directly access a database with a TableAdapter, using methods such as Insert, Update, and Delete to manipulate data directly in the database.
+description: Directly access a database with an ADO .NET TableAdapter in .NET Framework applications with Visual Studio, using methods such as Insert, Update, and Delete to manipulate data directly in the database.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:

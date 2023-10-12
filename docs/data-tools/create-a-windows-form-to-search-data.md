@@ -1,6 +1,6 @@
 ---
 title: Create a Windows Form to search data
-description: Read an example of how to create a Windows Form to search data. Create the Windows Form application, data source, and form. Add parameterization. Test the app.
+description: Read an example of how to create a Windows Form to search data .NET Framework applications with ADO.NET in Visual Studio. Create the Windows Form application, data source, and form. Add parameterization. Test the app.
 ms.date: 06/07/2021
 ms.topic: conceptual
 helpviewer_keywords:
