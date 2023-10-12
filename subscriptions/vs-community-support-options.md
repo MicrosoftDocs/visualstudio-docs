@@ -1,11 +1,10 @@
 ---
-title: Community support offerings in Visual Studio subscriptions | Microsoft Docs
+title: Community support offerings in Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
 ms.date: 06/21/2023
 ms.topic: conceptual
-ms.assetid: 1e04b8e8-6250-423a-81d0-5dce5379fd3f
 description:  Learn about the various community-based support offerings in Visual Studio subscriptions
 ---
 

@@ -6,7 +6,6 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 09/18/2019
 ms.topic: conceptual
-ms.assetid: 5399BCB1-E317-4C7B-87B1-C531E985DE6E
 ---
 # Configure build actions in Visual Studio for Mac
 

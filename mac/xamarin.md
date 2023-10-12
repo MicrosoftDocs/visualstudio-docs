@@ -5,7 +5,6 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 06/18/2019
-ms.assetid: 339F6051-5F90-48DC-8237-EBBC8A03A32B
 ms.topic: how-to
 ---
 # Xamarin mobile app development in Visual Studio for Mac

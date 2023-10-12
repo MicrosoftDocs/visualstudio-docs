@@ -1,5 +1,5 @@
 ---
-title: "MFC Debugging Techniques | Microsoft Docs"
+title: "MFC Debugging Techniques"
 description: "Learn techniques for debugging MFC programs, including: coded breakpoints, tracing, memory leak detection, object memory dumps, and program size reduction."
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -20,13 +20,10 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "debugging [MFC]"
-ms.assetid: b154fc31-5e90-4734-8cbd-58dd9fe1f750
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # MFC Debugging Techniques
 

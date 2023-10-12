@@ -3,13 +3,10 @@ title: 'Walkthrough: Using XSLT IntelliSense'
 description: Learn how to use XSLT IntelliSense to auto-complete the values of some attributes by following the steps in this walkthrough.
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: 079d95ac-2eaf-4ae1-9cd3-2c81a961a942
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
-ms.workload:
-- multiple
 ---
 # Walkthrough: Using XSLT IntelliSense
 

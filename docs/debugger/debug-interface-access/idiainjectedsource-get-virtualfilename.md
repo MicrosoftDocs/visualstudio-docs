@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the name given to non-file source code; that is, code that was injected."
-title: "IDiaInjectedSource::get_virtualFilename | Microsoft Docs"
+title: "IDiaInjectedSource::get_virtualFilename"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaInjectedSource::get_virtualFilename method"
-ms.assetid: b9977075-8fd1-4b11-bfff-d87e9f2586dc
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaInjectedSource::get_virtualFilename
 

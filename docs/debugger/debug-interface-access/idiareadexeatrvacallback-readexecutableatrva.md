@@ -1,19 +1,16 @@
 ---
 description: "Reads the specified number of bytes starting at the specified relative virtual address (RVA) from the executable file."
-title: "IDiaReadExeAtRVACallback::ReadExecutableAtRVA | Microsoft Docs"
+title: "IDiaReadExeAtRVACallback::ReadExecutableAtRVA"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaReadExeAtRVACallback::ReadExecutableAtRVA method"
-ms.assetid: 3c1e965f-8f05-41a8-86d8-01830b2377c9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaReadExeAtRVACallback::ReadExecutableAtRVA
 

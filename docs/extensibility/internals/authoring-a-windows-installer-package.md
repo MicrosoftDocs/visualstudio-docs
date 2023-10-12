@@ -1,18 +1,15 @@
 ---
-title: Authoring a Windows Installer Package | Microsoft Docs
+title: Authoring a Windows Installer Package
 description: Learn how to author a Windows Installer package for Visual Studio that consists of database tables containing file and registry data.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - .msi files, VSPackages
 - msi files, VSPackages
-ms.assetid: 0ce7c21d-0d3f-47fe-a0bb-eed506e32609
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Author a Windows Installer package
 

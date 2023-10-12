@@ -5,7 +5,6 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 03/29/2019
-ms.assetid: C7782BF3-016F-4B41-8A81-85FC540A1A8F
 ms.topic: reference
 ---
 # Show import items in Visual Studio for Mac

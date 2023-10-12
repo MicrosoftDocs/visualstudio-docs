@@ -1,5 +1,5 @@
 ---
-title: Building Multiple Projects in Parallel with MSBuild | Microsoft Docs
+title: Building Multiple Projects in Parallel with MSBuild
 description: Learn about the MSBuild settings you can use to build multiple projects faster by running them in parallel.
 ms.date: 09/14/2023
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - parallel project builds
 - building multiple projects in parallel
 - msbuild, building projects in parallel
-ms.assetid: c8c9aadc-33ad-4aa1-b07d-b879e9eabda0
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Build multiple projects in parallel with MSBuild
 

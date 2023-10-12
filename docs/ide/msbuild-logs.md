@@ -13,8 +13,6 @@ dev_langs:
  - CSharp
  - VB
  - CPP
-ms.workload:
-  - "multiple"
 ms.description: "Generate build logs for MSBuild projects to collect helpful information when troubleshooting issues."
 ---
 # Troubleshoot and create logs for MSBuild problems

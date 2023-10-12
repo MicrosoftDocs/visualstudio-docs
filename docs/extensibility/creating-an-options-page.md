@@ -1,17 +1,14 @@
 ---
-title: Creating an Options Page | Microsoft Docs
+title: Creating an Options Page
 description: Learn how to create a simple Tools/Options page that uses a property grid to examine and set properties.
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
 - Tools Options pages [Visual Studio SDK], creating
-ms.assetid: 9f4e210c-4b47-4daa-91fa-1c301c4587f9
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Create an options page
 

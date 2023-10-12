@@ -1,19 +1,16 @@
 ---
 description: "Gets the DEBUG_REFERENCE_INFO structure that describes a reference."
-title: IDebugReference2::GetReferenceInfo | Microsoft Docs
+title: IDebugReference2::GetReferenceInfo
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugReference2::GetReferenceInfo
 helpviewer_keywords:
 - IDebugReference2::GetReferenceInfo
-ms.assetid: ae611714-f114-4cf2-b5bb-37461e6ff289
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

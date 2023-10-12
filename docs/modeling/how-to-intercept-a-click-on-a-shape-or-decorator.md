@@ -1,9 +1,6 @@
 ---
-title: 'How to: Intercept a click on a shape or decorator in a DSL'
+title: 'Intercept a click on a shape or decorator in a DSL'
 description: Learn how to intercept a click on a shape or an icon decorator, and how you can intercept clicks, double-clicks, drags, and other gestures.
-ms.custom: 
-- SEO-VS-2020
-- kr2b-contr-experiment
 ms.date: 06/24/2022
 ms.topic: how-to
 helpviewer_keywords:
@@ -12,8 +9,6 @@ author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
 ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
 ---
 
 # How to: Intercept a click on a shape or decorator

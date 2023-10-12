@@ -1,17 +1,14 @@
 ---
-title: Web Site Support | Microsoft Docs
+title: Web Site Support
 description: Learn about web site project systems, which are created by adding templates and registration attributes to an existing project system.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - web site projects
-ms.assetid: ce9f4266-bb64-4c09-be88-4bd6413f60d0
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Web Site Support
 

@@ -1,5 +1,5 @@
 ---
-title: 'How to: Select the Files to Build | Microsoft Docs'
+title: 'Select the Files to Build'
 description: Learn how to select the files to build in the MSBuild project file by listing each file separately or using wildcards.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - MSBuild, wildcards
 - MSBuild, including files
 - Include attribute [MSBuild]
-ms.assetid: f5ff182f-7b3a-46fb-9335-37df54cfb8eb
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # How to: Select the files to build
 

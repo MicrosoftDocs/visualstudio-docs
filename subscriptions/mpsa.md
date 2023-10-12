@@ -1,9 +1,8 @@
 ---
-title: Visual Studio Subscriptions in MPSA | Microsoft Docs
+title: Visual Studio Subscriptions in MPSA
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: b331c837-3524-42b7-820e-b4fdd5e12793
 ms.date: 03/03/2023
 ms.topic: conceptual
 description:  Learn about managing Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA)

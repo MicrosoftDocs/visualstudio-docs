@@ -5,15 +5,12 @@ ms.date: 11/11/2022
 ms.topic: how-to
 helpviewer_keywords:
 - code snippets, distributing
-ms.assetid: 5f717abd-e167-47ae-818c-6b0bae100ceb
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 dev_langs:
 - VB
-ms.workload:
-- multiple
 ---
 # How to: Distribute code snippets
 

@@ -1,19 +1,16 @@
 ---
 description: "This interface represents a pointer object."
-title: IDebugPointerObject | Microsoft Docs
+title: IDebugPointerObject
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPointerObject
 helpviewer_keywords:
 - IDebugPointerObject interface
-ms.assetid: 257fa167-b46e-4ffb-9a12-272efbf26702
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugPointerObject
 

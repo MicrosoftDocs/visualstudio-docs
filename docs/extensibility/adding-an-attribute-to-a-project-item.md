@@ -1,17 +1,14 @@
 ---
-title: Adding an Attribute to a Project Item | Microsoft Docs
+title: Adding an Attribute to a Project Item
 description: Learn how to add an attribute to a project item in Visual Studio by using the Shell Interop methods GetItemAttribute and SetItemAttribute. 
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - attributes [Visual Studio], adding to a project item
-ms.assetid: 404a71d5-cce5-44e7-9eaf-d747c794fedb
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Add an attribute to a project item
 

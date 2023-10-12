@@ -5,13 +5,10 @@ ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.cv.performance.cvcollectioncmd"
-ms.assetid: 476601be-1608-4014-af15-5aba6ccbed1c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Concurrency Visualizer command-line utility (CVCollectionCmd)
 

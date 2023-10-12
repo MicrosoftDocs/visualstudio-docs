@@ -10,8 +10,6 @@ f1_keywords:
 author: tylermsft
 ms.author: twhitney
 manager: markl
-ms.workload:
-  - "cplusplus"
 ---
 # Options, Text Editor, C/C++, Experimental
 

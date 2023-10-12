@@ -5,13 +5,10 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - extensions
-ms.assetid: 6b151891-c06d-40b1-9867-42298caa8492
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Get started with language service and editor extensions
 

@@ -5,13 +5,10 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.ServiceModel.Activities.InitializeCorrelation.UI"
-ms.assetid: 4c54f34c-ee84-42a6-abb0-ec260c1ccb76
 author: jodavis
 ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
-ms.workload:
-  - "multiple"
 ---
 # InitializeCorrelation Activity Designer
 

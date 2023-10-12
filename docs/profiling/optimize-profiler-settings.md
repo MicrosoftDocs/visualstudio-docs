@@ -1,5 +1,5 @@
 ---
-title: Optimizing Profiler settings | Microsoft Docs
+title: Optimizing Profiler settings
 description: Learn how the Performance Profiler and Diagnostic Tools window in Visual Studio have many different settings which affect the overall performance of the tools.
 ms.date: 02/28/2023
 ms.topic: how-to
@@ -8,8 +8,6 @@ helpviewer_keywords:
 author: MikeJo5000
 ms.author: mikejo 
 manager: AndSter
-ms.workload: 
-  - multiple
 ---
 # Optimizing Profiler settings
 

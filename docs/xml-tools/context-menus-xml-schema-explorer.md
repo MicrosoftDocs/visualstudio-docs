@@ -3,13 +3,10 @@ title: Context Menus in XML Schema Explorer
 description: Learn about the Context Menus in XML Schema Explorer that contain items for performing schema-specific searches and other operations.
 ms.date: 11/04/2016
 ms.topic: reference
-ms.assetid: 42ab17ca-b8c1-40d7-beda-d033f66fe874
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
-ms.workload:
-- multiple
 ---
 # Context menus (XML Schema Explorer)
 

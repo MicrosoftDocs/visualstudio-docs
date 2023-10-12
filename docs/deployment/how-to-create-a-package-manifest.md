@@ -1,5 +1,5 @@
 ---
-title: Create a Package Manifest | Microsoft Docs
+title: Create a Package Manifest
 description: Learn about using a bootstrapper package to deploy prerequisites for your ClickOnce application, which contains a package manifest for each locale.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -13,13 +13,10 @@ helpviewer_keywords:
   - package files [ClickOnce]
   - prerequisites, custom bootstrapper package
   - dependencies, custom bootstrapper packages
-ms.assetid: 5aecc507-2764-42f2-ae6f-c227971cf0af
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # How to: Create a package manifest
 

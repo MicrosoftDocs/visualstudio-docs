@@ -1,9 +1,8 @@
 ---
-title:  Contact your subscription admin in the Subscriber Portal | Microsoft Docs
+title:  Contact your subscription admin in the Subscriber Portal
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 64455e79-229a-42f0-9d65-c2cca8ab8513
 ms.date: 04/24/2023
 ms.topic: how-to
 description: Learn how to contact your subscription admin for assistance with questions or issues. 

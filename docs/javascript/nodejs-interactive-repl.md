@@ -10,8 +10,6 @@ manager: jmartens
 ms.technology: vs-javascript
 dev_langs:
   - JavaScript
-ms.workload:
-  - "nodejs"
 ---
 # Work with the Node.js interactive window
 

@@ -1,5 +1,5 @@
 ---
-title: MSBuild Response Files | Microsoft Docs
+title: MSBuild Response Files
 description: Learn about MSBuild response or .rsp files, text files that contain MSBuild.exe command-line switches.
 ms.date: 07/08/2022
 ms.topic: reference
@@ -12,13 +12,10 @@ helpviewer_keywords:
 - MSBuild, response files
 - MSBuild, .rsp files
 - .rsp files
-ms.assetid: 9f53987b-20ee-470a-ab62-fce997bb5e15
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # MSBuild response files
 

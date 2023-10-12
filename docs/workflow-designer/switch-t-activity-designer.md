@@ -6,13 +6,10 @@ ms.topic: reference
 f1_keywords:
 - System.Activities.Presentation.ModelItemKeyValuePair.UI
 - System.Activities.Statements.Switch`1.UI
-ms.assetid: 18a6c96e-49a9-4356-ab61-fbd7e3ab44bb
 author: jodavis
 ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
 ---
 # Switch\<T> Activity Designer
 

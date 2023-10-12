@@ -1,19 +1,16 @@
 ---
 description: "Represents the reasons that Edit and Continue is not available."
-title: EncUnavailableReason | Microsoft Docs
+title: EncUnavailableReason
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - EncUnavailableReason
 helpviewer_keywords:
 - EncUnavailableReason enumeration
-ms.assetid: c10aa4c0-d7e0-4de1-b8ff-7e050985eb12
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

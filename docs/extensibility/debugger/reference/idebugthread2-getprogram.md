@@ -1,19 +1,16 @@
 ---
 description: "Gets the program in which a thread is running."
-title: IDebugThread2::GetProgram | Microsoft Docs
+title: IDebugThread2::GetProgram
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugThread2::GetProgram
 helpviewer_keywords:
 - IDebugThread2::GetProgram
-ms.assetid: 8c9c5ea1-2031-472e-bc8f-30e22e754566
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

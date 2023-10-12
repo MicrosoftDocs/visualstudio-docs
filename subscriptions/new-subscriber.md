@@ -1,9 +1,8 @@
 ---
-title: Get started with your new Visual Studio subscription | Microsoft Docs
+title: Get started with your new Visual Studio subscription
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: d15cd684-042d-445d-8786-98d2c80ea513
 ms.date: 03/30/2023
 ms.topic: how-to
 description:  Learn how to get started with your new Visual Studio subscription

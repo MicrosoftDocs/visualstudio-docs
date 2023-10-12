@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Create a simple Visual Basic (VB) console app"
 description: "In this tutorial, you learn how to create a Visual Basic console application in Visual Studio."
-ms.custom: "vs-acquisition, get-started"
+ms.custom: vs-acquisition
 ms.date: 02/24/2023
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
@@ -12,8 +12,6 @@ ms.author: meghaanand
 manager: jmartens
 dev_langs:
   - vb
-ms.workload:
-  - "multiple"
 # Customer intent: As a novice, I want to create my first app so that I see how Visual Basic works.
 ---
 # Tutorial: Create a simple Visual Basic (VB) console app

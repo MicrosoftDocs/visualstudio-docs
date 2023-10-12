@@ -1,15 +1,12 @@
 ---
-title: PerfTips | Microsoft Docs
+title: PerfTips
 description: Learn how to use the Visual Studio debugger PerfTips and integrated Diagnostic Tools to monitor and analyze your app performance while debugging.
 ms.date: 9/11/2020
 ms.topic: how-to
-ms.assetid: 509d2d4f-48a5-4cdf-acad-6f7b75421303
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # PerfTips
 

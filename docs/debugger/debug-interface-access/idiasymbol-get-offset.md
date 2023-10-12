@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the offset of the symbol location."
-title: "IDiaSymbol::get_offset | Microsoft Docs"
+title: "IDiaSymbol::get_offset"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_offset method"
-ms.assetid: 8292bb08-4dc8-4663-beb4-258f5d5a448d
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_offset
 

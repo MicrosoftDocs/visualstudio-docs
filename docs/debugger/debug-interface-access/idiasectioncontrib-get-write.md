@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a flag that indicates whether the section can be modified."
-title: "IDiaSectionContrib::get_write | Microsoft Docs"
+title: "IDiaSectionContrib::get_write"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSectionContrib::get_write method"
-ms.assetid: 7e75348e-c12c-44ec-b004-e97767580a3f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSectionContrib::get_write
 

@@ -1,17 +1,14 @@
 ---
-title: Supported Event Types | Microsoft Docs
+title: Supported Event Types
 description: Learn about the event types that Visual Studio debugging supports, including asynchronous events, synchronous events, and stopping events.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], supported events
-ms.assetid: a3c0386d-551e-4734-9a0c-368d1c2e6671
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Supported event types
 

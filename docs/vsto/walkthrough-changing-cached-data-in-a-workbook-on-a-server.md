@@ -17,8 +17,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # Walkthrough: Change cached data in a workbook on a server
 

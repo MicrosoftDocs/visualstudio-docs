@@ -1,19 +1,16 @@
 ---
 description: "Gets the program's properties."
-title: IDebugProgram2::GetDebugProperty | Microsoft Docs
+title: IDebugProgram2::GetDebugProperty
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgram2::GetDebugProperty
 helpviewer_keywords:
 - IDebugProgram2::GetDebugProperty
-ms.assetid: d194224e-f0e6-46ab-85d4-9e2639e28946
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

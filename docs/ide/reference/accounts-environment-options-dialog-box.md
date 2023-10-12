@@ -5,13 +5,10 @@ ms.date: 12/10/2018
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.RoamingSettings
-ms.assetid: 3cfe09d2-1120-46e8-b882-f7056acb778b
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Accounts, Environment, Options dialog box
 

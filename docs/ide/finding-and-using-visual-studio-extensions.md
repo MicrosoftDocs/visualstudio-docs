@@ -9,13 +9,10 @@ helpviewer_keywords:
 - install extensions
 - install packages
 - managing extensions visual studio
-ms.assetid: 4ca92d93-31b9-47ef-8109-4a429d9e2ca3
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Find, install, and manage extensions for Visual Studio
 

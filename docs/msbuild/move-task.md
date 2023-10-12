@@ -1,5 +1,5 @@
 ---
-title: Move Task | Microsoft Docs
+title: Move Task
 description: Learn about the parameters and settings for the MSBuild Move task, which moves files to new locations.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -10,13 +10,10 @@ dev_langs:
 helpviewer_keywords:
 - MSBuild, Move task
 - Move task [MSBuild]
-ms.assetid: d1405347-1309-4f18-b565-905408093d59
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Move task
 

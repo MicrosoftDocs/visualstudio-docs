@@ -5,14 +5,12 @@ author: Mikejo5000
 ms.author: mikejo
 ms.date: 08/11/2023
 ms.topic: conceptual
-ms.custom: contperf-fy21q4
 helpviewer_keywords:
   - "Visual Studio command prompt"
   - "command prompt, Visual Studio"
   - "Developer Command Prompt"
   - "Developer PowerShell"
   - "Visual Studio terminal"
-ms.assetid: 94fcf524-9045-4993-bfb2-e2d8bad44219
 no-loc: cmdlet
 monikerRange: ">=vs-2019"
 ---

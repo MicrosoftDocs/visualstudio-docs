@@ -7,13 +7,10 @@ helpviewer_keywords:
 - source control plug-ins, best practices
 - best practices, source control plug-ins
 - source control [Visual Studio SDK], plug-ins
-ms.assetid: 85e73b73-29dc-464f-8734-ed308742c435
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Best practices for implementing a source control plug-in
 

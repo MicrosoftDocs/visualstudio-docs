@@ -15,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Add and remove features and items to a Package by using the Packaging Explorer
 

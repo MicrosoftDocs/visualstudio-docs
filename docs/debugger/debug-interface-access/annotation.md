@@ -1,5 +1,5 @@
 ---
-title: "Annotation | Microsoft Docs"
+title: "Annotation"
 description: Find reference information about the Annotation symbol type (SymTagAnnotation) in the Visual Studio debug interface access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -8,13 +8,10 @@ dev_langs:
 helpviewer_keywords:
   - "SymTabAnnotation symbol"
   - "Annotation symbol"
-ms.assetid: eb9f759b-98a5-45fc-b085-91f1f2666e72
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Annotation
 

@@ -12,13 +12,10 @@ helpviewer_keywords:
   - Publish Page property
   - publishing, ClickOnce
   - ClickOnce deployment, specifying publish page
-ms.assetid: 9d70eebb-bdee-4b42-8e7e-7a07e199bdf7
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # How to: Specify a publish page for a ClickOnce application
 

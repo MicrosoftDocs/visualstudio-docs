@@ -1,5 +1,5 @@
 ---
-title: VSInstr | Microsoft Docs
+title: VSInstr
 description: Learn how the VSInstr tool is used to instrument binaries and about other various VSInstr tool options.
 ms.date: 11/11/2022
 ms.topic: reference
@@ -12,13 +12,10 @@ helpviewer_keywords:
   - VSInstr
   - VSInstr tool
   - performance tools, VSInstr tool
-ms.assetid: 7b1334f7-f9b0-4a82-a145-d0607bfa8467
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # VSInstr
 

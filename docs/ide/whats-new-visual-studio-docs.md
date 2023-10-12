@@ -5,15 +5,12 @@ ms.date: 10/02/2023
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
-ms.assetid: 89844796-621B-4EF5-9D76-197084B011CB
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: conceptual
-ms.workload:
-  - "multiple"
 ---
 # What's new in Visual Studio docs
 

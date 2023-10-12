@@ -1,5 +1,5 @@
 ---
-title: "Securing ClickOnce Applications | Microsoft Docs"
+title: "Securing ClickOnce Applications"
 description: Learn about the implications of code access security constraints in the .NET Framework that can limit access to code for your ClickOnce applications.
 ms.date: "02/17/2017"
 ms.topic: "conceptual"
@@ -11,13 +11,10 @@ helpviewer_keywords:
   - "Windows applications, ClickOnce security"
   - "ClickOnce deployment, security"
   - "deploying applications, ClickOnce security"
-ms.assetid: a05b5f2f-d1f2-471a-8096-8b11f7554265
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # Secure ClickOnce applications
 

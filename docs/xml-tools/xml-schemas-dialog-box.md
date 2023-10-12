@@ -5,13 +5,10 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - vs.xmleditor.schemasdialog
-ms.assetid: 0271fa26-2205-49bd-96e0-ae1441571808
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
-ms.workload:
-- multiple
 ---
 # XML Schemas dialog box
 

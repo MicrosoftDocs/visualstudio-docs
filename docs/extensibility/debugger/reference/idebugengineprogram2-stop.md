@@ -1,19 +1,16 @@
 ---
 description: "Stops all threads running in this program."
-title: IDebugEngineProgram2::Stop | Microsoft Docs
+title: IDebugEngineProgram2::Stop
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngineProgram2::Stop
 helpviewer_keywords:
 - IDebugEngineProgram2::Stop
-ms.assetid: 6e1c3d56-fb67-4a5b-80f9-8ee5131972bf
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

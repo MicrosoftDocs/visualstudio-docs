@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the symbol that represents the type for this symbol."
-title: "IDiaSymbol::get_type | Microsoft Docs"
+title: "IDiaSymbol::get_type"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_type method"
-ms.assetid: 1c6a4176-dd4e-4c22-8b8f-0e559fc078ba
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_type
 

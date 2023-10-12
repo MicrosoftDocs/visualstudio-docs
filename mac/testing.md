@@ -2,7 +2,6 @@
 title: Visual Studio for Mac testing tools
 description: Creating and running tests using Visual Studio for Mac.
 ms.date: 03/03/2022
-ms.custom: devdivchpfy22
 ms.topic: conceptual
 helpviewer_keywords:
 - testing tools [Visual Studio for Mac]

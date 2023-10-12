@@ -13,13 +13,10 @@ helpviewer_keywords:
   - ClickOnce deployment, signtool.exe
   - ClickOnce applications, re-signing setup.exe
   - ClickOnce deployment, re-signing setup.exe
-ms.assetid: 545a4005-d283-4110-9821-c78a9833c250
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # How to: Sign setup files with SignTool.exe (ClickOnce)
 

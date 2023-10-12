@@ -1,6 +1,6 @@
 ---
 description: "This error occurs when you're trying to debug a Transact-SQL or SQLCLR procedure and the debugger doesn't receive debugging messages from the SQL Server."
-title: "Transact-SQL execution ended without debugging | Microsoft Docs"
+title: "Transact-SQL execution ended without debugging"
 ms.date: "11/08/2018"
 ms.topic: "error-reference"
 f1_keywords:
@@ -15,8 +15,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Error: Transact-SQL execution ended without debugging
 

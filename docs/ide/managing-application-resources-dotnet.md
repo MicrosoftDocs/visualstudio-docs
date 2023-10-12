@@ -16,8 +16,6 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Manage application resources (.NET)
 

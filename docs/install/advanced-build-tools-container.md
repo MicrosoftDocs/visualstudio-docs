@@ -3,12 +3,9 @@ title: Advanced example for containers
 description: Learn about an advanced example for Docker containers. This example Dockerfile uses a specific version tag of the microsoft/dotnet-framework image.
 ms.date: 04/28/2022
 ms.topic: conceptual
-ms.assetid: e03835db-a616-41e6-b339-92b41d0cfc70
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---

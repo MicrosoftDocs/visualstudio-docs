@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the specified record."
-title: "IDiaEnumDebugStreamData::Item | Microsoft Docs"
+title: "IDiaEnumDebugStreamData::Item"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumDebugStreamData::Item method"
-ms.assetid: 761e61a5-44a6-4d5d-a98e-c2e9b89d2343
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaEnumDebugStreamData::Item
 

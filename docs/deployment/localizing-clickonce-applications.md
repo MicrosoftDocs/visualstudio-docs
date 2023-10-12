@@ -1,5 +1,5 @@
 ---
-title: "Localizing ClickOnce Applications | Microsoft Docs"
+title: "Localizing ClickOnce Applications"
 description: Learn about three ways to localize your ClickOnce application to a version appropriate for a specific culture.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -16,13 +16,10 @@ helpviewer_keywords:
   - "ClickOnce deployment, localization"
   - "Windows Forms, ClickOnce applications"
   - "console applications, ClickOnce applications"
-ms.assetid: c92b193b-054d-4923-834b-d4226a4c7a1a
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # Localize ClickOnce applications
 

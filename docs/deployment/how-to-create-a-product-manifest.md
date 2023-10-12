@@ -1,5 +1,5 @@
 ---
-title: Create a Product Manifest | Microsoft Docs
+title: Create a Product Manifest
 description: Learn how to deploy prerequisites for your ClickOnce application with a package that contains a single product manifest and a package manifest for each locale.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -13,13 +13,10 @@ helpviewer_keywords:
   - product files [Windows Installer]
   - prerequisites, custom bootstrapper package
   - dependencies, custom bootstrapper package
-ms.assetid: 2d316aaa-8bc0-4ce5-90ab-23b3eac0b5dd
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # How to: Create a product manifest
 

@@ -1,5 +1,5 @@
 ---
-title: "IntelliTrace | Microsoft Docs"
+title: "IntelliTrace"
 description: Use IntelliTrace to record and trace your code's execution history in Visual Studio. Record specific events, examine related code, and debug errors.
 ms.date: "09/19/2018"
 ms.topic: "conceptual"
@@ -18,8 +18,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IntelliTrace for Visual Studio Enterprise (C#, Visual Basic, C++)
 

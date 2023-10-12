@@ -1,5 +1,5 @@
 ---
-title: Program Nodes | Microsoft Docs
+title: Program Nodes
 description: This article describes the definition and role of a program node in the debugger architecture in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -8,13 +8,10 @@ helpviewer_keywords:
 - debugging [Debugging SDK], program nodes
 - program nodes, adding
 - program nodes, superceding
-ms.assetid: 1c5a5c13-c14d-42c3-af11-4c63f1032c8d
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Program nodes
 

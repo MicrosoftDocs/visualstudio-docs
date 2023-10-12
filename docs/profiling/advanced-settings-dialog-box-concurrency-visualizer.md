@@ -1,17 +1,14 @@
 ---
-title: "Advanced Settings Dialog Box (Concurrency Visualizer) | Microsoft Docs"
+title: "Advanced Settings Dialog Box (Concurrency Visualizer)"
 description: Use Advanced Settings in Concurrency Visualizer to control trace content. There are tabs for symbols, Just My Code, buffering, and more.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.cv.settings"
-ms.assetid: bb3d90aa-5f08-4953-9be0-be6cea11633d
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Advanced Settings dialog box (Concurrency Visualizer)
 

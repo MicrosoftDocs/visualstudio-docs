@@ -1,15 +1,12 @@
 ---
-title: Use the Concurrency Visualizer Markers SDK | Microsoft Docs
+title: Use the Concurrency Visualizer Markers SDK
 description: Learn how to use the Concurrency Visualizer markers SDK in Visual Studio to create spans and write flags, messages, and alerts. 
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: 19a45032-f8a7-4137-890e-2ceeec938b8d
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How To: Use the Concurrency Visualizer markers SDK
 

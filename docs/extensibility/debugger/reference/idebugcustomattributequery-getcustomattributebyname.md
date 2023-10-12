@@ -1,18 +1,15 @@
 ---
 description: "Retrieves a custom attribute given its name."
-title: IDebugCustomAttributeQuery::GetCustomAttributeByName | Microsoft Docs
+title: IDebugCustomAttributeQuery::GetCustomAttributeByName
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugCustomAttributeQuery::GetCustomAttributeByName
 - GetCustomAttributeByName
-ms.assetid: 6779727c-d10a-4abe-9acd-d0a1eb0737e7
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

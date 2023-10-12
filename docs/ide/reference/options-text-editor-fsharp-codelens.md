@@ -9,8 +9,6 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- dotnet
 ---
 # Options, Text Editor, F#, CodeLens
 

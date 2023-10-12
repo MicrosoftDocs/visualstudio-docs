@@ -5,7 +5,6 @@ ms.prod: visual-studio
 ms.technology: 
 ms.date: 10/19/2021
 ms.topic: error-reference
-ms.custom: contperf-fy21q4
 recommendations: false
 robots: noindex,nofollow
 f1_keywords:

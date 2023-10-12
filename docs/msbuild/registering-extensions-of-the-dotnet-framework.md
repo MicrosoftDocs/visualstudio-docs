@@ -1,5 +1,5 @@
 ---
-title: Registering Extensions of the .NET Framework | Microsoft Docs
+title: Registering Extensions of the .NET Framework
 description: Learn how to add a folder containing an assembly that extends a specific version of the .NET Framework to the system registry.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - Add References dialog box, registering extensions of the .NET Framework
 - MSBuild, registering extensions of the .NET Framework
 - .NET Framework extensions, registering
-ms.assetid: deee6f53-ea87-4b88-a120-bea589822e03
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- dotnet
 ---
 # Register extensions of the .NET Framework
 

@@ -9,12 +9,9 @@ f1_keywords:
 helpviewer_keywords:
 - Project Designer, Debug page
 - Debug page in Project Designer
-ms.assetid: ef11eae9-df96-4e20-aabd-2678ba317140
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.workload:
-- multiple
 ---
 # Debug Page, Project Designer
 

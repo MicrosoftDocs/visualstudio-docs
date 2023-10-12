@@ -1,5 +1,5 @@
 ---
-title: "ParallelCustomBuild Task | Microsoft Docs"
+title: "ParallelCustomBuild Task"
 description: Learn how MSBuild uses the ParallelCustomBuild task to run parallel instances of the CustomBuild task.
 ms.date: "03/10/2019"
 ms.topic: "reference"
@@ -9,15 +9,12 @@ dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
   - "C++"
 helpviewer_keywords:
   - "MSBuild (C++), ParallelCustomBuild task"
   - "ParallelCustomBuild task (MSBuild (C++))"
 author: tylermsft
 ms.author: twhitney
-ms.workload:
-  - "multiple"
 ---
 # ParallelCustomBuild task
 

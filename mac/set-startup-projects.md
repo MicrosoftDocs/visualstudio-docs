@@ -7,7 +7,6 @@ manager: dominicn
 ms.date: 11/09/2020
 ms.topic: how-to
 ms.prod: visual-studio-mac
-ms.assetid: fd354fff-ce6b-4505-a815-84a2311e39ba
 ---
 # Set multiple startup projects in Visual Studio for Mac
 

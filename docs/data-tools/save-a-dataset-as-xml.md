@@ -11,13 +11,10 @@ helpviewer_keywords:
 - data [Visual Studio], saving as XML
 - datasets [Visual Basic], saving as XML
 - saving data
-ms.assetid: 68b8327c-ae05-49ff-b9ba-99183e70b52c
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Save a dataset as XML
 

@@ -1,5 +1,5 @@
 ---
-title: "Creating Site Definitions for SharePoint | Microsoft Docs"
+title: "Creating Site Definitions for SharePoint"
 description: Create site definitions for SharePoint. Site definitions determine the appearance and behavior of the SharePoint site and its default content and functionality.
 ms.date: "02/02/2017"
 ms.topic: overview
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Create site definitions for SharePoint
 

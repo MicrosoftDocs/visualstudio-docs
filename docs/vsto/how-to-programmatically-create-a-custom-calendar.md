@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically create a custom calendar"
+title: "Programmatically create a custom calendar"
 description: Use this example to programmatically create a new Calendar folder named PersonalCalendar, and then create a new Appointment item and add it to the Calendar folder.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically create a custom calendar
 

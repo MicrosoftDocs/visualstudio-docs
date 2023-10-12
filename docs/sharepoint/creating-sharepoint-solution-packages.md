@@ -1,5 +1,5 @@
 ---
-title: "Creating SharePoint Solution Packages | Microsoft Docs"
+title: "Creating SharePoint Solution Packages"
 description: Create and customize deployment packages for SharePoint solutions using the Package Designer. Explore packaging tools, designer options, and folder structure.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Create SharePoint solution packages
 

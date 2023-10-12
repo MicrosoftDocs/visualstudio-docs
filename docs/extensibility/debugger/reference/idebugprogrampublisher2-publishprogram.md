@@ -1,19 +1,16 @@
 ---
 description: "This method makes a program available for debug engines (DEs) and the session debug manager."
-title: IDebugProgramPublisher2::PublishProgram | Microsoft Docs
+title: IDebugProgramPublisher2::PublishProgram
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgramPublisher2::PublishProgram
 helpviewer_keywords:
 - IDebugProgramPublisher2::PublishProgram
-ms.assetid: 92ff63f0-e869-4040-b3ae-b2c899e708ff
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

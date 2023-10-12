@@ -1,17 +1,14 @@
 ---
-title: Enabling a Program to Be Debugged | Microsoft Docs
+title: Enabling a Program to Be Debugged
 description: Learn about how to launch your debug engine or attach the debug engine to an existing program to debug a program.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], enabling for programs
-ms.assetid: 61d24820-0cd9-48b6-8674-6813f7493237
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Enable a program to be debugged
 

@@ -1,5 +1,5 @@
 ---
-title: MultiToolTask Task | Microsoft Docs
+title: MultiToolTask Task
 description: Access a table that describes the required and optional parameters of the MSBuild MultiToolTask task.
 ms.date: 03/10/2019
 ms.topic: reference
@@ -9,15 +9,12 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 - C++
 helpviewer_keywords:
 - MSBuild (C++), MultiToolTask task
 - MultiToolTask task (MSBuild (C++))
 author: ghogen
 ms.author: ghogen
-ms.workload:
-- multiple
 ---
 # MultiToolTask task
 

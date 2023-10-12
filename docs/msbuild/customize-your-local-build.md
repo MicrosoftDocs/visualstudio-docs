@@ -1,18 +1,15 @@
 ---
-title: Customize your local build | Microsoft Docs
+title: Customize your local build
 description: Learn about how you can modify the build process just for your own local build, without affecting files that you share with a source code repository.
 ms.date: 02/28/2023
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, transforms
 - transforms [MSBuild]
-ms.assetid: d0bceb3b-14fb-455c-805a-63acefa4b3ed
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 
 # Customize your local build

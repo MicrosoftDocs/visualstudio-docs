@@ -17,8 +17,6 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Identify and customize keyboard shortcuts in Visual Studio
 

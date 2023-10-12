@@ -1,17 +1,14 @@
 ---
-title: 'Walkthrough: Highlighting Text | Microsoft Docs'
+title: 'Walkthrough: Highlighting Text'
 description: Learn how to highlight every occurrence of the current word in a text file by adding visual effects to the editor in this walkthrough.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - highlight text
-ms.assetid: 64b772ad-4392-42e9-a237-5137f0384bf0
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Walkthrough: Highlight text
 

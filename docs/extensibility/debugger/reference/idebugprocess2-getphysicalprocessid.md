@@ -1,19 +1,16 @@
 ---
 description: "Gets the system process identifier."
-title: IDebugProcess2::GetPhysicalProcessId | Microsoft Docs
+title: IDebugProcess2::GetPhysicalProcessId
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcess2::GetPhysicalProcessId
 helpviewer_keywords:
 - IDebugProcess2::GetPhysicalProcessId
-ms.assetid: 77da6e10-75af-4308-97dd-c44416ca52d7
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

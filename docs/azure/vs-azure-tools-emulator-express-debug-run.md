@@ -5,7 +5,6 @@ author: mikejo5000
 manager: jmartens
 ms.technology: vs-azure
 ms.topic: how-to
-ms.workload: azure-vs
 ms.date: 03/06/2017
 ms.author: mikejo
 ---

@@ -5,8 +5,6 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 02/28/2022
-ms.custom: devdivchpfy22
-ms.assetid: 4071689D-1C21-42D7-8963-550E7BCB4B67
 ms.topic: how-to
 ---
 # Adding and removing project items in Visual Studio for Mac

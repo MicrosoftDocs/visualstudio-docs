@@ -8,7 +8,6 @@ ms.author: ghogen
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.custom: version-control
 ---
 # Create a Git branch in Visual Studio
 

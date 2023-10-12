@@ -9,13 +9,10 @@ helpviewer_keywords:
 - WCF data service references
 - ADO.NET service references
 - ADO.NET Data Service reference
-ms.assetid: 892ebf37-3af4-472e-8744-92837677d611
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # How to: Add, update, or remove a WCF data service reference
 

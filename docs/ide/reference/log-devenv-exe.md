@@ -7,13 +7,10 @@ helpviewer_keywords:
 - Devenv, /Log switch
 - Log switch [devenv.exe]
 - /Log Devenv switch
-ms.assetid: ae23c4ae-2376-4fe3-b8d2-81d34e61c8ba
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # /Log (devenv.exe)
 

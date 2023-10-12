@@ -1,5 +1,5 @@
 ---
-title: "Creating Pages for SharePoint | Microsoft Docs"
+title: "Creating Pages for SharePoint"
 description: Create application pages for SharePoint by using a template in Visual Studio. Create site pages, master pages, and page layouts by using SharePoint Designer.
 ms.date: "02/02/2017"
 ms.topic: overview
@@ -17,8 +17,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Create pages for SharePoint
 

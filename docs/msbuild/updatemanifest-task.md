@@ -1,5 +1,5 @@
 ---
-title: "UpdateManifest Task | Microsoft Docs"
+title: "UpdateManifest Task"
 description: Learn how MSBuild uses the UpdateManifest task to update selected properties in a manifest and resign.
 ms.date: "05/26/2022"
 ms.topic: "reference"
@@ -7,17 +7,13 @@ dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
 helpviewer_keywords:
   - "MSBuild, UpdateManifest task"
   - "UpdateManifest task [MSBuild]"
-ms.assetid: 1291fd33-b89e-4e15-8fb1-69f9625cf2d2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-  - "multiple"
 ---
 # UpdateManifest task
 

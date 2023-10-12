@@ -1,5 +1,5 @@
 ---
-title: Project Element (Visual Studio Templates) | Microsoft Docs
+title: Project Element (Visual Studio Templates)
 description: Learn about the Project element and how it specifies the files or directories to add to the project.
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
@@ -9,12 +9,9 @@ f1_keywords:
 helpviewer_keywords:
 - Project element [Visual Studio Templates]
 - <Project> element [Visual Studio Templates]
-ms.assetid: 1da15ea6-26e2-462b-a03e-584ef4996579
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.workload:
-- vssdk
 ---
 # Project element (Visual Studio templates)
 

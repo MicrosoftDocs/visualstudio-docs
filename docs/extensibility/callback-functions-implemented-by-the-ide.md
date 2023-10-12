@@ -1,18 +1,15 @@
 ---
-title: Callback Functions Implemented by the IDE | Microsoft Docs
+title: Callback Functions Implemented by the IDE
 description: Learn about the callback functions which the plug-in can call at appropriate times during a source control operation to pass information to the IDE.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - source control plug-ins, callback functions
 - callback functions, source control plug-ins
-ms.assetid: 4a8833f0-6ac0-4ea7-9400-8275aa991468
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Callback functions implemented by the IDE
 

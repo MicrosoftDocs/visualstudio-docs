@@ -9,7 +9,6 @@ author: "tylermsft"
 ms.author: "twhitney"
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload: ["vssdk"]
 ---
 # Visual Studio C++ Project system extensibility and toolset integration
 

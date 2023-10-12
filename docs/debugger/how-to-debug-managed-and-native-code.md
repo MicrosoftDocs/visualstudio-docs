@@ -1,7 +1,6 @@
 ---
 title: "Tutorial: Debug C# and C++ code (mixed mode)"
 description: Learn how to debug a native DLL from a .NET Core or .NET Framework app using mixed-mode debugging
-
 ms.date: 04/15/2022
 ms.topic: tutorial
 dev_langs:
@@ -13,9 +12,6 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "dotnet"
-  - "cplusplus"
 ---
 # Tutorial: Debug C# and C++ in the same debugging session
 

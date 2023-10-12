@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # Update Excel and Word projects that You migrate to the .NET Framework 4.5
 

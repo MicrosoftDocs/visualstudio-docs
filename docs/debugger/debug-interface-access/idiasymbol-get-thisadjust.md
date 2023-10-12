@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the logical this adjustor for the method."
-title: "IDiaSymbol::get_thisAdjust | Microsoft Docs"
+title: "IDiaSymbol::get_thisAdjust"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_thisAdjust method"
-ms.assetid: 56b9a147-e8c0-4d4b-a42a-398214dd5f86
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_thisAdjust
 

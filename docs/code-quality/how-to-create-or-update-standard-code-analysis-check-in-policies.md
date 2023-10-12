@@ -11,8 +11,6 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-code-analysis
-ms.workload: 
-  - multiple
 ---
 # How to: Create or Update Standard Code Analysis Check-in Policies
 

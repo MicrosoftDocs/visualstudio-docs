@@ -1,5 +1,5 @@
 ---
-title: Using multiple profiler tools simultaneously | Microsoft Docs
+title: Using multiple profiler tools simultaneously
 description: Learn how the Performance Profiler was designed with the idea that multiple tools can be used in the same session to aid in understanding performance issues.
 ms.date: 4/29/2020
 ms.topic: how-to
@@ -8,8 +8,6 @@ helpviewer_keywords:
 author: MikeJo5000
 ms.author: mikejo 
 manager: AndSter
-ms.workload: 
-  - multiple
 ---
 # Using multiple profiler tools simultaneously
 

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Add Feature Event Receivers | Microsoft Docs"
+title: "Walkthrough: Add Feature Event Receivers"
 description: In this walkthrough, add feature event receivers, which are methods that execute when a SharePoint feature is installed, activated, deactivated, or removed.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -16,8 +16,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Walkthrough: Add feature event receivers
 

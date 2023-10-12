@@ -8,8 +8,6 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 
 # Sign in to Visual Studio with accounts that require multi-factor authentication (MFA)

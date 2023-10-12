@@ -1,15 +1,12 @@
 ---
-title: Notifications and Progress for Visual Studio | Microsoft Docs
+title: Notifications and Progress for Visual Studio
 description: Learn about several ways to inform users what is happening in Visual Studio regarding their software development tasks.
 ms.date: 11/04/2016
 ms.topic: reference
-ms.assetid: f0ef65e9-0f1f-45f4-9f25-6e2398691168
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 f1_keywords:
  - vs.UserNotificationsToolWindowPane
 ---

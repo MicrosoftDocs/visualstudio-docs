@@ -16,13 +16,10 @@ helpviewer_keywords:
   - "ClickOnce deployment, on-demand download"
   - "localization, ClickOnce deployment"
   - "ClickOnce deployment, localization"
-ms.assetid: fdaa553f-a27e-44eb-a4e2-08c122105a87
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # Walkthrough: Download satellite assemblies on demand with the ClickOnce deployment API
 

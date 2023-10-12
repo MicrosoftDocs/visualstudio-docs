@@ -12,8 +12,6 @@ f1_keywords:
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- dotnet
 ---
 # Generate a class or type in Visual Studio
 

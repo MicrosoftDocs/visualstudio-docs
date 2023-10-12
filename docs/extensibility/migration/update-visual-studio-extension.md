@@ -8,10 +8,7 @@ ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 monikerRange: "vs-2022"
-ms.workload:
-- vssdk
 feedback_system: GitHub
-ms.custom: UpdateFrequency3
 ---
 # Update a Visual Studio extension for Visual Studio 2022
 

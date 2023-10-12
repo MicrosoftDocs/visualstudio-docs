@@ -8,8 +8,6 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-test
 monikerRange: '>= vs-2022'
-ms.workload: 
-  - multiple
 ---
 # Remote Testing (experimental preview)
 

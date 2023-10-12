@@ -1,9 +1,8 @@
 ---
-title: C# Dev Kit for Visual Studio Code | Microsoft Docs
+title: C# Dev Kit for Visual Studio Code
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 945c7032-7ae6-4466-beef-50796c9c2d18
 ms.date: 06/15/2023
 ms.topic: how-to
 description:  Learn about C# Dev Kit for Visual Studio Code

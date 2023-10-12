@@ -1,19 +1,16 @@
 ---
 description: "Specifies what information to retrieve about a debug reference object."
-title: DEBUGREF_INFO_FLAGS | Microsoft Docs
+title: DEBUGREF_INFO_FLAGS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - DEBUGREF_INFO_FLAGS
 helpviewer_keywords:
 - DEBUGREF_INFO_FLAGS enumeration
-ms.assetid: 1b043327-302a-4f6d-b51d-f94f9d7c7f9d
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

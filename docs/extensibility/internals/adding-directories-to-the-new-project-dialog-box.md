@@ -1,17 +1,14 @@
 ---
-title: Adding Directories to the New Project Dialog Box | Microsoft Docs
+title: Adding Directories to the New Project Dialog Box
 description: Learn how to add directories to the New Project dialog box in Visual Studio, so that you can create new project types and display them for use as templates.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - New Project dialog box, extending
-ms.assetid: 53b328f5-20bb-49a3-bf9e-1818f4fbdf50
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Add directories to the New Project dialog box
 

@@ -1,5 +1,5 @@
 ---
-title: "Edit and Continue (Visual C#) | Microsoft Docs"
+title: "Edit and Continue (Visual C#)"
 description: Edit and Continue is available for Visual C# projects. Learn what edits are supported, and how to can control whether, and when, your edits are applied.
 ms.date: "02/22/2022"
 ms.topic: "conceptual"
@@ -12,13 +12,10 @@ helpviewer_keywords:
   - "debugger, Edit and Continue"
   - "Edit and Continue [C#]"
   - "debugging [C#], Edit and Continue"
-ms.assetid: 591bd1b7-ef10-4d10-817b-3f92ca4be006
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "dotnet"
 ---
 # Edit and Continue (Visual C#)
 

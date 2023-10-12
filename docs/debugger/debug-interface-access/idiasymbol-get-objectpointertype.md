@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the type of the object pointer for a class method."
-title: "IDiaSymbol::get_objectPointerType | Microsoft Docs"
+title: "IDiaSymbol::get_objectPointerType"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_objectPointerType method"
-ms.assetid: bce193b9-67b0-4c35-96e5-6a664937322e
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_objectPointerType
 

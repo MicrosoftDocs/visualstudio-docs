@@ -1,19 +1,16 @@
 ---
 description: "Skips over the specified number of elements in the code contexts enumeration."
-title: IEnumDebugCodeContexts2::Skip | Microsoft Docs
+title: IEnumDebugCodeContexts2::Skip
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugCodeContexts2::Skip
 helpviewer_keywords:
 - IEnumDebugCodeContexts2::Skip
-ms.assetid: 3451a3eb-bf5b-4ec5-acc9-aa5a24363801
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

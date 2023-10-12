@@ -1,5 +1,5 @@
 ---
-title: "Debugger Settings and Preparation | Microsoft Docs"
+title: "Debugger Settings and Preparation"
 description: This section tells you how to prepare to use Visual Studio debugger, and describes relevant properties. Follow the links to the information you need.
 ms.date: "08/01/2018"
 ms.topic: "reference"
@@ -13,13 +13,10 @@ dev_langs:
 helpviewer_keywords:
   - "debugger, setting options"
   - "debug builds, setting up"
-ms.assetid: f15a1400-b204-418d-8878-ab7755470fd7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Debugger Settings and Preparation
 

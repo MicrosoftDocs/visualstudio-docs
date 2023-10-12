@@ -4,13 +4,10 @@ titleSuffix: Blend for Visual Studio
 description: Learn how to generate sample data from scratch or from an existing class in Blend for Visual Studio.
 ms.date: 03/06/2018
 ms.topic: conceptual
-ms.assetid: 87d31b6c-4607-4121-bb7d-cfc80390ab93
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
-ms.workload:
-- multiple
 ---
 # Display data in Blend for Visual Studio
 

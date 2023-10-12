@@ -1,5 +1,5 @@
 ---
-title: "How to: Create an Association between Entities | Microsoft Docs"
+title: "Create an Association between Entities"
 description: Define relationships between entities in your Business Data Connectivity (BDC) model by creating associations in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -21,8 +21,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Create an association between entities
 

@@ -1,17 +1,14 @@
 ---
-title: Attaching Directly to a Program | Microsoft Docs
+title: Attaching Directly to a Program
 description: Learn how Visual Studio implements attaching a debug engine to a process that is already running by using this procedure in the Visual Studio IDE.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - debug engines, attaching to programs
-ms.assetid: ad2b7db8-821c-440c-ba07-c55c6a395e0f
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Attach directly to a program
 

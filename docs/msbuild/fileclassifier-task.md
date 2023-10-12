@@ -1,5 +1,5 @@
 ---
-title: "FileClassifier Task | Microsoft Docs"
+title: "FileClassifier Task"
 description: Use the MSBuild FileClassifier task to classify a set of source resources that will be embedded into an assembly.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,18 +7,14 @@ dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
 helpviewer_keywords:
   - "classifying a resource set to embed in an assembly [WPF MSBuild]"
   - "non-localizable resources [WPF MSBuild], classifying to embed in an assembly"
   - "FileClassifier task [WPF MSBuild]"
-ms.assetid: 14e03310-fcc0-4bb2-a84d-cda12be66367
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-  - "multiple"
 ---
 # FileClassifier task
 

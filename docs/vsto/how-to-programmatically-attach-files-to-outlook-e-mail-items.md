@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically attach files to Outlook email items"
+title: "Programmatically attach files to Outlook email items"
 description: Learn how you can attach files to Microsoft Office Outlook items. This example attaches a file to a new mail item and sends it to Armando Pinto.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -16,8 +16,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically attach files to Outlook email items
 

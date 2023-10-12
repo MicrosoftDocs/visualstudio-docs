@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a flag that specifies whether the function or thunk layer has been marked as static."
-title: "IDiaSymbol::get_isStatic | Microsoft Docs"
+title: "IDiaSymbol::get_isStatic"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_isStatic method"
-ms.assetid: 3be5fe1b-46e8-4b07-90d8-4929dbbe7ff7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_isStatic
 

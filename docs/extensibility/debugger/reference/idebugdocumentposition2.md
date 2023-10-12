@@ -1,19 +1,16 @@
 ---
 description: "This interface represents an abstract position in a source file."
-title: IDebugDocumentPosition2 | Microsoft Docs
+title: IDebugDocumentPosition2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentPosition2
 helpviewer_keywords:
 - IDebugDocumentPosition2 interface
-ms.assetid: 0e838ced-12bb-4efc-b811-2b7c034b77b0
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugDocumentPosition2
 

@@ -19,8 +19,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "aspnet"
 ---
 # Error: ASP.NET Not Installed
 

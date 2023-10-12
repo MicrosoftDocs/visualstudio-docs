@@ -10,8 +10,6 @@ manager: jmartens
 ms.technology: vs-javascript
 dev_langs:
   - JavaScript
-ms.workload:
-  - "nodejs"
 ---
 # Publish a Node.js application to Azure (Linux App Service)
 

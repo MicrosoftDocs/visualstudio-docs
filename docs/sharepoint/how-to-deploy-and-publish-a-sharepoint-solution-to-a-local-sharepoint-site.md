@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Deploy and publish a SharePoint solution to a local SharePoint site
 

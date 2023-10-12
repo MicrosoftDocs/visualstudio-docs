@@ -1,6 +1,6 @@
 ---
 description: "Due to security considerations, IIS has returned a generic error."
-title: "The Web Server Could Not Find the Requested Resource | Microsoft Docs"
+title: "The Web Server Could Not Find the Requested Resource"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 dev_langs:
@@ -14,8 +14,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Error: The Web Server Could Not Find the Requested Resource
 

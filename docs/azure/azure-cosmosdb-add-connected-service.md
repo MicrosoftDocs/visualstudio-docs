@@ -1,10 +1,9 @@
 ---
-title: Add Azure Cosmos DB by using Connected Services | Microsoft Docs
+title: Add Azure Cosmos DB by using Connected Services
 description: Add Azure Cosmos DB support to your app by using the Visual Studio to add a connected service
 author: AngelosP
 manager: jmartens
 ms.technology: vs-azure
-ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 05/15/2023
 ms.author: angelpe

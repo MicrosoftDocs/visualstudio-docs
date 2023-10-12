@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically copy worksheets"
+title: "Programmatically copy worksheets"
 description: Learn how you can create a copy of a worksheet, and insert that worksheet before or after an existing worksheet in the workbook.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically copy worksheets
 

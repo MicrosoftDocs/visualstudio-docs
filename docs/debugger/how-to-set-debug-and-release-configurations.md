@@ -1,5 +1,5 @@
 ---
-title: Set debug and release configurations | Microsoft Docs
+title: Set debug and release configurations
 description: Set debug and release configurations in Visual Studio. You build the debug version for debugging and the release version for the final release distribution.
 ms.date: 01/20/2023
 ms.topic: how-to
@@ -26,13 +26,10 @@ helpviewer_keywords:
   - debug configurations
   - release builds, switching to debug build
   - Visual Basic projects, debug and release builds
-ms.assetid: 57b6bbb7-f2af-48f7-8773-127d75034ed2
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # Set debug and release configurations in Visual Studio
 

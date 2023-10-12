@@ -6,8 +6,7 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 03/02/2022
 ms.technology: vs-ide-install
-ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
-ms.custom: video, devdivchpfy22
+ms.custom: video
 ms.topic: how-to
 ---
 # Install Visual Studio for Mac

@@ -1,15 +1,12 @@
 ---
-title: Creating a Software Development Kit | Microsoft Docs
+title: Creating a Software Development Kit
 description: Learn about the general infrastructure of SDKs and how to create a platform SDK and an extension SDK.
 ms.date: 08/31/2021
 ms.topic: how-to
-ms.assetid: 8496afb4-1573-4585-ac67-c3d58b568a12
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Create a software development kit
 

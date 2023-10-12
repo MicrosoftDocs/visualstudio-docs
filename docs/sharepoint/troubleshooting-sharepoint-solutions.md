@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting SharePoint Solutions | Microsoft Docs"
+title: "Troubleshooting SharePoint Solutions"
 description: See what problems or alerts might occur when you debug SharePoint solutions by using the Visual Studio debugger.
 ms.date: "02/22/2017"
 ms.topic: "conceptual"
@@ -19,8 +19,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 
 # Troubleshoot SharePoint solutions

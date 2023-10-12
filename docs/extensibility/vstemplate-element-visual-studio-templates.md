@@ -1,5 +1,5 @@
 ---
-title: VSTemplate Element (Visual Studio Templates) | Microsoft Docs
+title: VSTemplate Element (Visual Studio Templates)
 description: Learn about the VSTemplate element and how it contains all the metadata about the project template, item template, or starter kit.
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
@@ -8,12 +8,9 @@ f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#VSTemplate
 helpviewer_keywords:
 - VSTemplate element [Visual Studio project templates]
-ms.assetid: f8ac561b-3b0b-4246-9ec9-118d2447e9a9
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.workload:
-- vssdk
 ---
 # VSTemplate element (Visual Studio Templates)
 

@@ -1,18 +1,15 @@
 ---
-title: MSBuild | Microsoft Docs
+title: MSBuild
 description: Learn about how the Microsoft Build Engine (MSBuild) platform provides a project file with an XML schema to control builds.
 ms.date: 3/15/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, about MSBuild
 - MSBuild, overview
-ms.assetid: e39f13f7-1e1d-4435-95ca-0c222bca071c
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # MSBuild
 

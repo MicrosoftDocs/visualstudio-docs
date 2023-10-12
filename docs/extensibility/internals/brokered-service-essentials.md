@@ -6,13 +6,10 @@ ms.date: 01/06/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - brokered services, essentials
-ms.assetid: d2d4d867-0ba0-4e7e-8557-edbcb65d8400
 author: aarnott
 ms.author: andarno
 manager: ansonh
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Brokered service essentials
 

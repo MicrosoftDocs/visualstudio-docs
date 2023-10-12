@@ -9,13 +9,10 @@ helpviewer_keywords:
 - Debug.ListMemory command
 - ListMemory command
 - list memory command
-ms.assetid: a84de361-a6a6-4f6d-96aa-a0d4a424371e
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # List Memory Command
 

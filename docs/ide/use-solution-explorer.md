@@ -3,15 +3,12 @@ title: Learn about Solution Explorer
 description: Learn how you can use Solution Explorer and its context menu to manage the projects and files in a solution.
 ms.date: 08/08/2023
 ms.topic: conceptual
-ms.custom: contperf-fy22q4
 helpviewer_keywords:
 - solution explorer [Visual Studio]
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Learn about Solution Explorer
 

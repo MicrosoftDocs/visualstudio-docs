@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the number of bits or bytes of memory used by the object represented by this symbol."
-title: "IDiaSymbol::get_length | Microsoft Docs"
+title: "IDiaSymbol::get_length"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_length method"
-ms.assetid: cc62f028-d195-4fbf-93bc-10b08bef52d2
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_length
 

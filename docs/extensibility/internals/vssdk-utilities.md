@@ -1,17 +1,14 @@
 ---
-title: VSSDK Utilities | Microsoft Docs
+title: VSSDK Utilities
 description: These articles describe the tools that ship with the VSSDK, including RegPkg, CreatePkgDef, CreateExpInstance, Color Theming Tools, and Image Service Tools.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Architecture, Visual Studio Integration
-ms.assetid: a469208a-cb70-4d87-a79b-d2086fc4fae4
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # VSSDK Utilities
 

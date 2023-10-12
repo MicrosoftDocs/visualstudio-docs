@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a flag that specifies whether the symbol refers to managed code."
-title: "IDiaSymbol::get_managed | Microsoft Docs"
+title: "IDiaSymbol::get_managed"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_managed method"
-ms.assetid: a69d00be-2a89-415c-b116-385c422e2fd5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "dotnet"
 ---
 # IDiaSymbol::get_managed
 

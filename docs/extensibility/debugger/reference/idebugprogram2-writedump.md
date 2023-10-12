@@ -1,19 +1,16 @@
 ---
 description: "Writes a dump to a file."
-title: IDebugProgram2::WriteDump | Microsoft Docs
+title: IDebugProgram2::WriteDump
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgram2::WriteDump
 helpviewer_keywords:
 - IDebugProgram2::WriteDump
-ms.assetid: 375afb8c-882d-44db-bfa7-e2c9eb555122
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

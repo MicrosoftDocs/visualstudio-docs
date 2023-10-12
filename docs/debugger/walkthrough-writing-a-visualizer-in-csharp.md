@@ -1,7 +1,6 @@
 ---
-title: "Write a visualizer in C# | Microsoft Docs"
+title: "Write a visualizer in C#"
 description: Follow a walkthrough to create a simple visualizer in C#. It shows the steps required both with and without using the Visualizer item template.
-
 ms.date: "07/02/2021"
 ms.topic: "conceptual"
 dev_langs:
@@ -9,13 +8,10 @@ dev_langs:
 helpviewer_keywords:
   - "visualizers, writing"
   - "walkthroughs [Visual Studio], visualizers"
-ms.assetid: 53467461-8e0f-45ee-9bc4-374bbaeaf00f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "dotnet"
 ---
 # Walkthrough: Writing a Visualizer in C\#
 

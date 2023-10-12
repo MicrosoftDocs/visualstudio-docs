@@ -1,19 +1,16 @@
 ---
 description: "Destroys the unique ID associated with this property, indicating that the caller no longer cares to identify this property uniquely from all other properties."
-title: IDebugProperty3::DestroyObjectID | Microsoft Docs
+title: IDebugProperty3::DestroyObjectID
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProperty3::DestroyObjectID
 helpviewer_keywords:
 - IDebugProperty3::DestroyObjectID
-ms.assetid: bd08f356-cc67-4717-98c9-c3d00cad2040
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

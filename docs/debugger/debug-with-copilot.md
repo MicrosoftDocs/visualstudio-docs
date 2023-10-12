@@ -16,8 +16,6 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ai-tools
 monikerRange: '>= vs-2022'
-ms.workload: 
-  - multiple
 ---
 # Debug your app with GitHub Copilot in Visual Studio
 

@@ -5,15 +5,13 @@ description: Learn how Visual Studio is a powerful integrated development enviro
 ms.date: 05/05/2023
 ms.technology: vs-ide-general
 ms.topic: overview
-ms.custom: vs-acquisition,  vs-get-started
+ms.custom: vs-acquisition
 f1_keywords:
 - vs.startpage
 - VS.StartPage.HowDoI
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
 ---
 # What is Visual Studio?
 

@@ -1,15 +1,12 @@
 ---
-title: 'Walkthrough: Displaying Light Bulb Suggestions | Microsoft Docs'
+title: 'Walkthrough: Displaying Light Bulb Suggestions'
 description: Learn how to create a light bulb in the Visual Studio editor that appears on the current word and has two suggested actions by using this walkthrough.
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: 99e5566d-450e-4660-9bca-454e1c056a02
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Walkthrough: Display light bulb suggestions
 

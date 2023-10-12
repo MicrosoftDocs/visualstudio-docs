@@ -17,8 +17,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically add pictures and Word Art to documents
 

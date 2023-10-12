@@ -1,17 +1,14 @@
 ---
-title: Properties Window Buttons | Microsoft Docs
+title: Properties Window Buttons
 description: Learn about buttons displayed by default on the toolbar for the Properties window and about the implementation of the buttons.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Properties window, buttons
-ms.assetid: bdd2e3a7-ae6e-4e88-be1a-e0e3b7ddbbcc
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Properties Window Buttons
 

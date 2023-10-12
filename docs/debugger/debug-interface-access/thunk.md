@@ -1,6 +1,6 @@
 ---
 description: "Each thunk is identified by a SymTagThunk tag."
-title: "Thunk | Microsoft Docs"
+title: "Thunk"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -8,13 +8,10 @@ dev_langs:
 helpviewer_keywords:
   - "thunk properties [DIA SDK]"
   - "thunk symbol"
-ms.assetid: 01abb95f-d89a-465c-a4eb-8e8509598c95
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Thunk
 

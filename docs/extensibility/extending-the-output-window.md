@@ -1,17 +1,14 @@
 ---
-title: Extending the Output Window | Microsoft Docs
+title: Extending the Output Window
 description: Learn how to extend the Output window in the Visual Studio SDK and to create and manage your own custom panes.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - Output window, about Output window
-ms.assetid: b02fa88c-f92a-4ff6-ba5f-2eb4d48a643a
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Extend the Output window
 

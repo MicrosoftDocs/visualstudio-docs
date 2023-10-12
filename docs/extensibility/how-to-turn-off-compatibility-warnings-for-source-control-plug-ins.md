@@ -6,13 +6,10 @@ ms.topic: how-to
 helpviewer_keywords:
 - source control plug-ins, turning off compatibility warnings
 - compatibility warnings, turning off
-ms.assetid: ba318e12-921b-4b7a-a8c2-12c712be1dbf
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # How to: Turn off compatibility warnings for source control plug-ins
 

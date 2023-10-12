@@ -1,10 +1,9 @@
 ---
-title: Add a connection to Azure SQL Database | Microsoft Docs
+title: Add a connection to Azure SQL Database
 description: Add Azure SQL Database connection to your app by using the Visual Studio Connected Services
 author: AngelosP
 manager: jmartens
 ms.technology: vs-azure
-ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 05/15/2023
 ms.author: angelpe

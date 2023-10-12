@@ -1,15 +1,12 @@
 ---
 title: Configure and use Live Unit Testing
 description: Learn about Live Unit Testing during application development, including supported frameworks and how to configure Live Unit Testing.
-ms.custom: SEO-VS-2020
 ms.date: 08/01/2023
 ms.topic: how-to
 helpviewer_keywords:
 - Live Unit Testing
 author: mikejo5000
 ms.author: mikejo
-ms.workload:
-- dotnet
 monikerRange: '>=vs-2022'
 ---
 # Configure and use Live Unit Testing

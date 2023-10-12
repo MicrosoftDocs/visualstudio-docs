@@ -1,5 +1,5 @@
 ---
-title: XmlPeek Task | Microsoft Docs
+title: XmlPeek Task
 description: Learn how MSBuild uses the XmlPeek task to return values as specified by XPath Query from an XML file.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,17 +7,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - XmlPeek task [MSBuild]
 - MSBuild, XmlPeek task
-ms.assetid: 19196031-a3bc-41b5-9c4a-f2572630e179
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # XmlPeek task
 

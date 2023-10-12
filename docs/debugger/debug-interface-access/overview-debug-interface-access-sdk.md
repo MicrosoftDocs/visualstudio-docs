@@ -1,6 +1,6 @@
 ---
 description: "Use the DIA SDK to access the Microsoft debug information."
-title: "Overview (Debug Interface Access SDK) | Microsoft Docs"
+title: "Overview (Debug Interface Access SDK)"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -16,13 +16,10 @@ helpviewer_keywords:
   - "COM objects, in DIA SDK"
   - "compilands"
   - "executable images"
-ms.assetid: 720b4479-a8bc-4fec-860e-80c1a0780405
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Overview (Debug Interface Access SDK)
 

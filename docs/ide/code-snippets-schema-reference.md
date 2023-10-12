@@ -8,13 +8,10 @@ helpviewer_keywords:
 - snippets [Visual Studio], schema reference
 - code snippets [Visual Studio], schema reference
 - IntelliSense Code Snippets, XML Schema
-ms.assetid: 58a60621-725f-4763-93b7-62ea5424ef88
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Code snippets schema reference
 

@@ -4,7 +4,6 @@ titleSuffix: Blend for Visual Studio
 description: Learn how to create an animation in Blend for Visual Studio by using a storyboard with a timeline and keyframes to animate an object in XAML Designer.
 ms.date: 07/31/2019
 ms.topic: how-to
-ms.assetid: fb88fa26-e835-47f5-9771-2f279441c83c
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens

@@ -5,7 +5,6 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 10/18/2019
-ms.assetid: 047f5e36-f38e-4bf6-a1c5-3fde32978b7d
 ms.topic: how-to
 ---
 # Tutorial: Extending an existing ASP.NET Core web application in Visual Studio for Mac

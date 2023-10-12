@@ -15,8 +15,6 @@ dev_langs:
  - CSharp
  - VB
  - CPP
-ms.workload:
-  - "multiple"
 ms.description: "Collect ETL traces using perfview.exe and create minidumps to send to Microsoft, for troubleshooting issues with Visual Studio"
 ---
 # Collect an ETL trace with PerfView and create minidumps with all call stacks

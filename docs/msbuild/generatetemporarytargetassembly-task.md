@@ -1,5 +1,5 @@
 ---
-title: GenerateTemporaryTargetAssembly Task | Microsoft Docs
+title: GenerateTemporaryTargetAssembly Task
 description: Use the MSBuild GenerateTemporaryTargetAssembly task to generate an assembly if a project references a type that is declared locally.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,19 +7,15 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - build process [WPF MSBuild], XAML page refers to a locally declared type
 - GenerateTemporaryTargetAssembly task [WPF MSBuild]
 - GenerateTemporaryTargetAssembly task [WPF MSBuild], parameters
 - creating an assembly [WPF MSBuild], XAML page refers to a locally declared type
-ms.assetid: 92b6539c-6897-45e0-8989-0c234bbfe782
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # GenerateTemporaryTargetAssembly task
 

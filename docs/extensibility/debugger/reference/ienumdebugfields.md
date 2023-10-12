@@ -1,19 +1,16 @@
 ---
 description: "This interface represents a collection of objects implementing the IDebugField interface."
-title: IEnumDebugFields | Microsoft Docs
+title: IEnumDebugFields
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugFields
 helpviewer_keywords:
 - IEnumDebugFields interface
-ms.assetid: 403c2a51-3ba5-431f-a1dd-2f3b2046c00c
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IEnumDebugFields
 

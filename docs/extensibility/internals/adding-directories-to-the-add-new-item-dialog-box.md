@@ -1,17 +1,14 @@
 ---
-title: Adding Directories to the Add New Item Dialog Box | Microsoft Docs
+title: Adding Directories to the Add New Item Dialog Box
 description: Learn how to add directories to the Add New Item dialog box in Visual Studio by using a registry script to register the directories.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - Add New Item dialog box, extending
-ms.assetid: 67ae8af6-3752-49e8-8ce3-007aca5f7982
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Add directories to the Add New Item dialog box
 

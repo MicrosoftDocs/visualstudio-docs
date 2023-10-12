@@ -1,5 +1,5 @@
 ---
-title: "&lt;compatibleFrameworks&gt; Element (ClickOnce Deployment) | Microsoft Docs"
+title: "&lt;compatibleFrameworks&gt; Element (ClickOnce Deployment)"
 description: The compatibleFrameworks element identifies the versions of the .NET Framework where this application can install and run.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,13 +9,10 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<compatibleFrameworks> element [ClickOnce deployment manifest]"
-ms.assetid: f6c3ee55-9e65-403d-8664-3ebde872c7d4
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # &lt;compatibleFrameworks&gt; element (ClickOnce deployment)
 

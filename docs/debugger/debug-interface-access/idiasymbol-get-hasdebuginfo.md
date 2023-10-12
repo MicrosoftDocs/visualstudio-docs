@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a flag that specifies if the Compiland) contains debugging information."
-title: "IDiaSymbol::get_hasDebugInfo | Microsoft Docs"
+title: "IDiaSymbol::get_hasDebugInfo"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_hasDebugInfo method"
-ms.assetid: 84cd2b67-0d83-4589-9ecb-a4bcbeed55f5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_hasDebugInfo
 

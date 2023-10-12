@@ -4,8 +4,6 @@ description: "A publish profile is a file that contains information and settings
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
-ms.custom: vs-azure
-ms.workload: azure-vs
 ms.topic: how-to
 ms.date: 10/19/2021
 ms.author: ghogen

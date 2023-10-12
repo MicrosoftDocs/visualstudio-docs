@@ -5,13 +5,10 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - System.Activities.Statements.ForEach`1.UI
-ms.assetid: 67097b3a-fcf5-4a72-beb1-2c7784151a86
 author: jodavis
 ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
 ---
 # ForEach&lt;T&gt; Activity Designer
 

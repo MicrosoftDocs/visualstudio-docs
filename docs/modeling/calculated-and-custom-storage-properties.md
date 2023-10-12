@@ -1,9 +1,6 @@
 ---
 title: Calculated and custom DSL storage properties
 description: Learn how all domain properties in a domain-specific language (DSL) can be displayed to the user on the diagram and in your language explorer.
-ms.custom:
-- SEO-VS-2020
-- kr2b-contr-experiment
 ms.date: 06/22/2022
 ms.topic: how-to
 helpviewer_keywords:
@@ -12,8 +9,6 @@ author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
 ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
 ---
 
 # Calculated and custom storage properties

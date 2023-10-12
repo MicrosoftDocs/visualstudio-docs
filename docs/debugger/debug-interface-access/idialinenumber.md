@@ -1,19 +1,16 @@
 ---
 description: "Accesses information that describes the process of mapping from a block of bytes of image text to a source file line number."
-title: "IDiaLineNumber | Microsoft Docs"
+title: "IDiaLineNumber"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaLineNumber interface"
-ms.assetid: 1071f7d0-1f8c-4384-933f-c49c7eb930bd
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaLineNumber
 

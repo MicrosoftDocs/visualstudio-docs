@@ -5,8 +5,6 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 05/02/2022
-ms.assetid: 5C800815-0B13-4B27-B017-95FCEF1A0EA2
-ms.custom: conceptual, devdivchpfy22
 ---
 # Install and manage NuGet packages in Visual Studio for Mac
 

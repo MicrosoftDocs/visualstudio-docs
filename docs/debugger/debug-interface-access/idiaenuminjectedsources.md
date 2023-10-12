@@ -1,19 +1,16 @@
 ---
 description: "Enumerate the various injected sources contained in the data source."
-title: "IDiaEnumInjectedSources | Microsoft Docs"
+title: "IDiaEnumInjectedSources"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumInjectedSources interface"
-ms.assetid: f97e2392-22e1-48da-b7ce-ad94c8b684b0
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaEnumInjectedSources
 

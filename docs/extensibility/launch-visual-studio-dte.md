@@ -8,8 +8,6 @@ author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Launch Visual Studio using DTE
 

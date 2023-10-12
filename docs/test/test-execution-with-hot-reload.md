@@ -7,9 +7,6 @@ author: vritant24
 ms.author: vrbhardw
 manager: manishj
 ms.technology: vs-ide-test
-ms.workload: 
-  - VB
-  - CSharp
 ---
 # Test Execution with Hot Reload
 

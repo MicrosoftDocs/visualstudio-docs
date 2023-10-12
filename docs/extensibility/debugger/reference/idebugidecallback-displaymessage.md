@@ -1,17 +1,14 @@
 ---
 description: "Sends the specified message string to the debugger's output window."
-title: IDebugIDECallback::DisplayMessage | Microsoft Docs
+title: IDebugIDECallback::DisplayMessage
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugIDECallback::DisplayMessage
-ms.assetid: c19b48ee-b370-4fce-91fe-f82bf1e63179
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

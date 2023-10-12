@@ -5,7 +5,6 @@ author: ghogen
 ms.author: ghogen
 manager: dominicn
 ms.date: 03/03/2022
-ms.custom: devdivchpfy22
 ms.topic: how-to
 ---
 # Customizing the IDE in Visual Studio for Mac

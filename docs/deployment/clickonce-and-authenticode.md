@@ -1,5 +1,5 @@
 ---
-title: "ClickOnce and Authenticode | Microsoft Docs"
+title: "ClickOnce and Authenticode"
 description: Learn about certificates Authenticode uses to verify the authenticity of applications. Learn how certificates are validated and stored.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -13,13 +13,10 @@ helpviewer_keywords:
   - "Authenticode, ClickOnce"
   - "ClickOnce deployment, certificates"
   - "ClickOnce deployment, security"
-ms.assetid: ab5b6712-f32a-4e33-842f-e88ab4818ccf
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # ClickOnce and Authenticode
 

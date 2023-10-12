@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the text from the specified position in the document."
-title: IDebugDocumentText2::GetText | Microsoft Docs
+title: IDebugDocumentText2::GetText
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentText2::GetText
 helpviewer_keywords:
 - IDebugDocumentText2::GetText
-ms.assetid: f8c15a58-da77-473e-a721-7a094e306c63
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp
