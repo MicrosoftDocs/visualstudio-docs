@@ -1,5 +1,5 @@
 ---
-title: Add code to TableAdapters in n-tier applications
+title: Add code to ADO.NET TableAdapters in n-tier .NET Framework applications
 description: Add code to ADO.NET table adapters in n-tier applications. Create a partial class file for TableAdapter and add code to it (instead of to DatasetName.DataSet.Designer).
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -14,7 +14,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Add code to TableAdapters in n-tier applications
+# Add code to ADO.NET TableAdapters in n-tier .NET Framework applications
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

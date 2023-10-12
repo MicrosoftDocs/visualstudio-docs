@@ -1,5 +1,5 @@
 ---
-title: Turn off constraints while filling a dataset
+title: Turn off constraints while filling an ADO.NET dataset (.NET Framework)
 description: Know how to turn off constraints while filling a dataset. Suspend update constraints programmatically or by using the Dataset Designer when developing .NET Framework applications with Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -20,7 +20,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Turn off constraints while filling a dataset
+# Turn off constraints while filling an ADO.NET dataset (.NET Framework)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

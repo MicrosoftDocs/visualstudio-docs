@@ -1,5 +1,5 @@
 ---
-title: Save data with the TableAdapter DBDirect methods
+title: Save data with the ADO.NET TableAdapter DBDirect methods (.NET Framework)
 description: In this tutorial, run SQL statements directly against a database by using the DBDirect methods of a ADO.NET TableAdapter in a .NET Framework application.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -16,7 +16,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Save data with the TableAdapter DBDirect methods
+# Save data with the ADO.NET TableAdapter DBDirect methods (.NET Framework)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: Create a simple WCF Service in Windows Forms
+title: Create a simple WCF Service in Windows Forms (.NET Framework)
 description: In this walkthrough, create a Windows Communication Foundation (WCF) service in Visual Studio, test it, and then access it from a Windows Forms application.
 ms.date: 06/30/2023
 ms.topic: conceptual
@@ -16,7 +16,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Walkthrough: Create a simple WCF service in Windows Forms
+# Walkthrough: Create a simple WCF service in Windows Forms (.NET Framework)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

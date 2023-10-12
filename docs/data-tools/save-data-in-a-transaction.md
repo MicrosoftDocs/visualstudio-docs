@@ -1,8 +1,6 @@
 ---
-title: 'Walkthrough: Save data in a transaction'
-
+title: 'Walkthrough: Save data in a transaction in an ADO.NET application (.NET Framework)'
 description: In this walkthrough about .NET Framework application development in Visual Studio, see how to save data in a transaction by using the System.Transactions namespace.
-
 ms.date: 09/08/2017
 ms.topic: how-to
 dev_langs:
@@ -19,7 +17,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Walkthrough: Save data in a transaction
+# Walkthrough: Save data in a transaction in an ADO.NET application (.NET Framework)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

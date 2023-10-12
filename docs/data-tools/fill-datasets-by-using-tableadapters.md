@@ -1,5 +1,5 @@
 ---
-title: Fill datasets by using TableAdapters
+title: Fill datasets by using ADO.NET TableAdapters (.NET Framework)
 description: Fill datasets using TableAdapters. A TableAdapter component fills a dataset with data from the DB, based on one or more queries or stored procedures you specify.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -19,7 +19,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Fill datasets by using TableAdapters
+# Fill datasets by using ADO.NET TableAdapters (.NET Framework)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

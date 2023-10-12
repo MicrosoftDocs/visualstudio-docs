@@ -1,5 +1,5 @@
 ---
-title: Hierarchical update
+title: Hierarchical update in ADO.NET development (.NET Framework)
 description: Review hierarchical updates, which involve saving updated data (from a dataset with 2+ related tables) back to a DB while keeping referential integrity rules.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -21,7 +21,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Hierarchical update
+# Hierarchical update in ADO.NET development (.NET Framework)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

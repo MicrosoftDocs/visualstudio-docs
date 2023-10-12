@@ -1,5 +1,5 @@
 ---
-title: N-tier Data Applications Overview
+title: N-tier ADO.NET Data applications overview (.NET Framework)
 description: Read an N-tier data application overview. Also called distributed applications or multitier applications, these are data applications separated into many tiers.
 ms.date: 11/04/2016
 ms.topic: overview
@@ -13,7 +13,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# N-tier data applications overview
+# N-tier ADO.NET data applications overview (.NET Framework)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

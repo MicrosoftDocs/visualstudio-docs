@@ -1,5 +1,5 @@
 ---
-title: Add custom controls to the Data Sources window
+title: Add custom controls to the Data Sources window using ADO.NET (.NET Framework)
 description: Add custom controls to the Data Sources window with ADO.NET in Visual Studio. Customize the bindable controls list. Add associated controls.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -17,7 +17,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Add custom controls to the Data Sources window
+# Add custom controls to the Data Sources window using ADO.NET (.NET Framework)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

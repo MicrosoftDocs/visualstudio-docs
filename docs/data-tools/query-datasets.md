@@ -1,6 +1,6 @@
 ---
-title: Query datasets
-description: In .NET Framework application development with Visual Studio, understand ADO.NET query datasets. Learn about dataset case sensitivity. Find a specific row in a data table, find rows by column values, and access related records.
+title: Query ADO.NET datasets (.NET Framework)
+description: In .NET Framework application development with Visual Studio, understand how to query ADO.NET datasets. Learn about dataset case sensitivity. Find a specific row in a data table, find rows by column values, and access related records.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -11,7 +11,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Query datasets
+# Query ADO.NET datasets (.NET Framework)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

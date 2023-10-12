@@ -1,5 +1,5 @@
 ---
-title: Customize captions for data-bound controls
+title: Customize captions for data-bound controls in ADO.NET applications (.NET Framework)
 description: Customize how Visual Studio creates captions for data-bound controls in .NET Framework applications. Modify the smart captioning behavior of the Data Sources window. Turn off smart captioning.
 ms.date: 11/03/2017
 ms.topic: how-to
@@ -13,7 +13,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Customize how Visual Studio creates captions for data-bound controls
+# Customize how Visual Studio creates captions for data-bound controls in ADO.NET applications (.NET Framework)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
