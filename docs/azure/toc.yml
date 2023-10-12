@@ -21,7 +21,7 @@
   - name: CosmosDB
     href: azure-cosmosdb-add-connected-service.md
   - name: Key Vault
-    href: /azure/key-vault/vs-key-vault-add-connected-service
+    href: vs-key-vault-add-connected-service.md
   - name: SignalR
     href: azure-signalr-add-connected-service.md
   - name: SQL Database
