@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 8fda431f-9227-4dca-b060-a278feaedba5
-ms.date: 05/24/2023
+ms.date: 10/11/2023
 ms.topic: conceptual
 description:  Learn how you can take advantage of Microsoft Dev Box via your Visual Studio subscription 
 ---
@@ -28,7 +28,6 @@ Dev Box includes key capabilities designed to meet the needs of DevCenter Owners
 Visual Studio subscribers now have several ways to use Azure subscriptions to pay for Dev Box services:
 + [Azure DevTest individual credits](/azure/devtest/offer/quickstart-individual-credit).  Subscribers who receive Azure DevTest individual credits as part of their subscriptions can use those credits to pay for Dev Box services.  The amount of the monthly credit depends on the subscription level.
 + [Azure DevTest Pay-as-you-Go subscriptions](https://azure.microsoft.com/offers/ms-azr-0023p/).  You can create Azure subscriptions and attach a payment instrument to have a seamless way to pay for your Windows Virtual Desktop usage. 
-+ [Azure Enterprise Agreement DevTest offer](/azure/devtest/offer/quickstart-create-enterprise-devtest-subscriptions).  With this offer, subscribers with Enterprise Agreements can pay for Dev Box with Azure at discounted pricing. 
 
 ## See also
 
