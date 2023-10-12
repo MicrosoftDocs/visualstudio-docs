@@ -1,17 +1,14 @@
 ---
-title: Properties Window Object List | Microsoft Docs
+title: Properties Window Object List
 description: Learn about the interfaces used to interact with the object list in the Properties window in the Visual Studio IDE.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Properties window, object list
-ms.assetid: 6c159c9d-345d-4b23-8ddd-9839d338b62f
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Properties Window Object List
 

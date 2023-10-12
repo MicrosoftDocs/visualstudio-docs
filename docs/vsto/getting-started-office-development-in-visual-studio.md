@@ -2,7 +2,6 @@
 title: "Get started (Office development in Visual Studio)"
 description: Learn how you can start using the Microsoft Office developer tools in Visual Studio to build Office solutions.
 titleSuffix: ""
-
 ms.date: "08/14/2019"
 ms.topic: "conceptual"
 dev_langs:
@@ -14,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # Get started (Office development in Visual Studio)
 

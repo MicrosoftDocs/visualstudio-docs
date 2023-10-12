@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
   - "Set Current Thread command"
   - "Debug.SetCurrentThread command"
-ms.assetid: 9917ed1d-6c30-4d94-b2f0-69acce74f1b2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
 ---
 # Set Current Thread Command
 

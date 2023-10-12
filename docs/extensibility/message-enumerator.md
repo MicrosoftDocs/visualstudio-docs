@@ -1,18 +1,15 @@
 ---
-title: Message Enumerator | Microsoft Docs
+title: Message Enumerator
 description: The members of this enumerator are used for the TEXTOUTPROC function, which is a callback function that the IDE provides when it calls the SccOpenProject.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - message enumerator
 - source control plug-ins, message enumeration
-ms.assetid: 4a4faa0d-d352-40ea-a21d-c09ea286a8e1
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Message enumerator
 

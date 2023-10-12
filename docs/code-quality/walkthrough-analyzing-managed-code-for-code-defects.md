@@ -1,5 +1,5 @@
 ---
-title: Walkthrough Analyzing Managed Code for Code Defects | Microsoft Docs
+title: Walkthrough Analyzing Managed Code for Code Defects
 ms.date: 01/29/2018
 description: Learn how to use legacy code analysis to analyze .NET managed code assemblies. See how to check for defects and for conformance with .NET design guidelines.
 ms.topic: "conceptual"
@@ -10,8 +10,6 @@ author: mikadumont
 ms.author: midumont
 manager: jmartens
 ms.technology: vs-ide-code-analysis
-ms.workload:
-  - "dotnet"
 ---
 # Walkthrough: Use static code analysis to find code defects
 

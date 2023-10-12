@@ -1,19 +1,16 @@
 ---
 description: "Gets a description of the stack frame."
-title: IDebugStackFrame2::GetInfo | Microsoft Docs
+title: IDebugStackFrame2::GetInfo
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugStackFrame2::GetInfo
 helpviewer_keywords:
 - IDebugStackFrame2::GetInfo
-ms.assetid: 19c6870b-b94e-453c-bf19-82ce95b79d26
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

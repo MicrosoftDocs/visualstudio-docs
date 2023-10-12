@@ -16,8 +16,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Unable to Connect to the Microsoft Visual Studio Remote Debugging Monitor
 

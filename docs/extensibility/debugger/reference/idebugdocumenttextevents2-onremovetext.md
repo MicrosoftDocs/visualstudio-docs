@@ -1,19 +1,16 @@
 ---
 description: "Notifies the debug package that text has been removed from the document."
-title: IDebugDocumentTextEvents2::onRemoveText | Microsoft Docs
+title: IDebugDocumentTextEvents2::onRemoveText
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentTextEvents2::OnRemoveText
 helpviewer_keywords:
 - IDebugDocumentTextEvents2::onRemoveText
-ms.assetid: 1ebeabb2-52a1-4ccc-83cd-9ae7c3541783
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

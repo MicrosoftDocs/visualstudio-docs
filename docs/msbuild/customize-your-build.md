@@ -1,5 +1,5 @@
 ---
-title: Customize your build | Microsoft Docs
+title: Customize your build
 description: Learn about several extensibility hooks you can use to customize MSBuild projects that use the standard build process. 
 ms.date: 03/22/2023
 ms.topic: conceptual
@@ -10,8 +10,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Customize your build
 

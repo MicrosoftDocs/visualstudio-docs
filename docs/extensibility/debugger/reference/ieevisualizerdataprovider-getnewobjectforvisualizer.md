@@ -1,19 +1,16 @@
 ---
 description: "This method gets a new object for the visualizer."
-title: IEEVisualizerDataProvider::GetNewObjectForVisualizer | Microsoft Docs
+title: IEEVisualizerDataProvider::GetNewObjectForVisualizer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEEVisualizerDataProvider::GetNewObjectForVisualizer
 helpviewer_keywords:
 - IEEVisualizerDataProvider::GetNewObjectForVisualizer method
-ms.assetid: a898d549-4898-4fde-aad1-e8bb89129652
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

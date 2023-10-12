@@ -2,7 +2,6 @@
 title: "Write JavaScript code in Visual Studio without a solution or project"
 titleSuffix: ""
 description: Visual Studio provides support for creating code without a dependence on a project file or solution file
-
 ms.date: "01/23/2023"
 ms.topic: "how-to"
 ms.devlang: javascript
@@ -12,8 +11,6 @@ manager: jmartens
 ms.technology: vs-javascript
 dev_langs:
   - JavaScript
-ms.workload:
-  - "nodejs"
 ---
 # Develop JavaScript and TypeScript code in Visual Studio without solutions or projects
 

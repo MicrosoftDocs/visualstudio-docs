@@ -1,19 +1,16 @@
 ---
 description: "This interface represents a stream of instructions."
-title: IDebugDisassemblyStream2 | Microsoft Docs
+title: IDebugDisassemblyStream2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDisassemblyStream2
 helpviewer_keywords:
 - IDebugDisassemblyStream2 interface
-ms.assetid: b03cab0c-3f0b-4cc6-88dc-acb3b48c567a
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugDisassemblyStream2
 

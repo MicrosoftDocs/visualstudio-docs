@@ -1,19 +1,16 @@
 ---
 description: "This method gets extended information about a field."
-title: IDebugField::GetExtendedInfo | Microsoft Docs
+title: IDebugField::GetExtendedInfo
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugField::GetExtendedInfo
 helpviewer_keywords:
 - IDebugField::GetExtendedInfo method
-ms.assetid: 46c0dd4d-4fd5-4efd-a908-71e4248e8e8d
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

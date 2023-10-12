@@ -1,19 +1,16 @@
 ---
 description: "Retrieves line numbers within specified compiland and source file identifiers."
-title: "IDiaSession::findLines | Microsoft Docs"
+title: "IDiaSession::findLines"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession::findLines method"
-ms.assetid: d6e84916-fd55-457e-b057-57f97b51fe73
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSession::findLines
 

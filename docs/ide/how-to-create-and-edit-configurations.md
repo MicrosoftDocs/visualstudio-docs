@@ -1,5 +1,5 @@
 ---
-title: 'How to: Create and edit configurations'
+title: 'Create and edit configurations'
 description: Learn how you can use Visual Studio to create and edit several build configurations for your solution.
 ms.date: 08/15/2023
 ms.technology: vs-ide-compile
@@ -14,12 +14,9 @@ helpviewer_keywords:
 - Configuration Manager
 - project build configurations, creating
 - project build configurations, editing
-ms.assetid: 19be121c-148e-4ece-bbfc-d20b08cfc3f7
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.workload:
-- multiple
 ---
 # How to: Create and edit configurations
 

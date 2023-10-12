@@ -1,5 +1,5 @@
 ---
-title: Displaying Files By Using the Open With Command | Microsoft Docs
+title: Displaying Files By Using the Open With Command
 description: Learn how a project can call the Open With command in the Visual Studio integrated development environment (IDE) to display files. 
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - project types, supporting Open With command
 - Open With command
 - persistence, supporting Open With command
-ms.assetid: 53794bc3-1b73-4d40-954e-cfade1abddcf
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Display files by using the Open With command
 

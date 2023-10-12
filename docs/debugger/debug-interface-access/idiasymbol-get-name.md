@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the name of the symbol."
-title: "IDiaSymbol::get_name | Microsoft Docs"
+title: "IDiaSymbol::get_name"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_name method"
-ms.assetid: 050ec02f-b7b3-48fc-8e35-58bdf7d938b0
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_name
 

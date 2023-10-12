@@ -1,15 +1,12 @@
 ---
-title: Image Service and Catalog | Microsoft Docs
+title: Image Service and Catalog
 description: This article contains guidance and best practices for adopting the Visual Studio Image Service and Image Catalog.
 ms.date: 04/01/2019
 ms.topic: conceptual
-ms.assetid: 34990c37-ae98-4140-9b1e-a91c192220d9
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Image service and catalog
 

@@ -7,13 +7,10 @@ ms.topic: reference
 helpviewer_keywords:
 - brokered services, Visual Studio
 - Visual Studio, brokered services
-ms.assetid: 724eb24b-b87c-4971-a2e7-adee7afc03b2
 author: aarnott
 ms.author: andarno
 manager: ansonh
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Discovering available brokered services
 

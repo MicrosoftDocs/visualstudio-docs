@@ -6,7 +6,6 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 04/28/2022
 ms.topic: reference
-ms.assetid: 61CB6883-08CE-470F-8599-6F7570DB756E
 ---
 # Visual Studio for Mac for Windows users
 

@@ -10,8 +10,6 @@ ms.technology: vs-ide-general
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- dotnet
 ---
 # Refactoring to convert LINQ to a foreach statement
 

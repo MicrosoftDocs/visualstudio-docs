@@ -1,17 +1,14 @@
 ---
 description: "Given a corresponding tag value, this method returns an enumeration of symbols that are contained in this stub function."
-title: "IDiaSymbol::findSymbolsForAcceleratorPointerTag | Microsoft Docs"
+title: "IDiaSymbol::findSymbolsForAcceleratorPointerTag"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: fb66852c-c5f7-4140-b9fe-20cb4e51a9fe
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::findSymbolsForAcceleratorPointerTag
 

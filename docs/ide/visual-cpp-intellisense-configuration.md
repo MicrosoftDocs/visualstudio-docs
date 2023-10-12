@@ -6,8 +6,6 @@ ms.topic: conceptual
 author: tylermsft
 ms.author: twhitney
 manager: markl
-ms.workload:
-  - "cplusplus"
 ---
 # Configure a C++ project for IntelliSense
 

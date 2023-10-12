@@ -1,18 +1,15 @@
 ---
-title: Implementing and Registering a Port Supplier | Microsoft Docs
+title: Implementing and Registering a Port Supplier
 description: Learn how to implement and register a port supplier, which tracks and supplies ports, which manage processes.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], registering port suppliers
 - port suppliers, registering
-ms.assetid: fb057052-ee16-4272-8e16-a4da5dda0ad4
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Implement and register a port supplier
 

@@ -6,12 +6,10 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ms.topic: tutorial
-ms.workload:
-  - "multiple"
 dev_langs:
   - VB
 ms.date: 02/24/2023
-ms.custom: "vs-acquisition, get-started"
+ms.custom: vs-acquisition
 ---
 # Tutorial: Create a WinForms app with Visual Basic
 

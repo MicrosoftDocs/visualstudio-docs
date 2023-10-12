@@ -1,5 +1,5 @@
 ---
-title: "How to: Build SharePoint Solutions | Microsoft Docs"
+title: "Build SharePoint Solutions"
 description: Build a SharePoint solution. In Visual Studio, building a SharePoint solution isn't different from building other applications.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Build SharePoint solutions
 

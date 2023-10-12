@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the number of bytes of code."
-title: "IDiaInjectedSource::get_length | Microsoft Docs"
+title: "IDiaInjectedSource::get_length"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaInjectedSource::get_length method"
-ms.assetid: 38b88b8b-c2e0-4b2d-8b8b-9ff373733e78
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaInjectedSource::get_length
 

@@ -1,5 +1,5 @@
 ---
-title: Stop Code Changes | Microsoft Docs
+title: Stop Code Changes
 description: Understand how to stop applying code changes while using the Edit and Continue feature during a Visual Studio debugging session.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -12,13 +12,10 @@ helpviewer_keywords:
   - Stop Applying Code Changes command
   - code changes, stopping application of
   - Edit and Continue, stopping code changes
-ms.assetid: 9e72a50c-bb0a-4eaa-9ac1-d00930b68d38
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How to: Stop Code Changes
 

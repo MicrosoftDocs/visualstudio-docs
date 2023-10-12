@@ -6,13 +6,10 @@ ms.topic: conceptual
 helpviewer_keywords:
 - Workflow Designer, creating a workflow project
 - creating a workflow project
-ms.assetid: 235a125e-ebe7-4a98-bf77-86c8558728fb
 author: jodavis
 ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
 ---
 # Workflow project templates
 

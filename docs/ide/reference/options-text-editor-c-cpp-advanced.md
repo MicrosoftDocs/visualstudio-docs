@@ -9,12 +9,9 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.Advanced"
 helpviewer_keywords:
   - "Text Editor Options dialog box, advanced"
-ms.assetid: 67c82ae5-fddd-49df-baec-8e7498b156f3
 author: tylermsft
 ms.author: twhitney
 manager: markl
-ms.workload:
-  - "cplusplus"
 ---
 # Options, Text Editor, C/C++, Advanced
 

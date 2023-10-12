@@ -1,18 +1,15 @@
 ---
-title: 'How to: Add validation to entity classes'
+title: 'Add validation to entity classes'
 description: Review how to add validation to entity classes. Add validation for changes to a value in a specific column. Add validation for updates to an entity class.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
 - VB
 - CSharp
-ms.assetid: 61107da9-7fa3-4dba-b101-ae46536f52c4
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # How to: Add validation to entity classes
 

@@ -10,13 +10,10 @@ helpviewer_keywords:
 - /R Devenv switch
 - Devenv, /Run switch
 - R Devenv switch (/R)
-ms.assetid: b1f22f9d-39a5-4918-8a2a-4b5c1e872665
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # /Run (devenv.exe)
 

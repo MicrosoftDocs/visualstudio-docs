@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the relative virtual address (RVA) of a thunk target."
-title: "IDiaSymbol::get_targetRelativeVirtualAddress | Microsoft Docs"
+title: "IDiaSymbol::get_targetRelativeVirtualAddress"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_targetRelativeVirtualAddress method"
-ms.assetid: 49a159f3-6943-44d3-90a3-0dba51e8a7ec
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_targetRelativeVirtualAddress
 

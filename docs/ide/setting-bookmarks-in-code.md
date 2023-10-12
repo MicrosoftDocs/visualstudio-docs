@@ -6,13 +6,10 @@ ms.date: 04/26/2023
 ms.topic: how-to
 f1_keywords:
 - VS.BookmarkWindow
-ms.assetid: a752ed5f-5cf9-4bf2-865a-2131ca600ed5
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ms.custom: engagement-fy23
 ---
 # Bookmark code in Visual Studio

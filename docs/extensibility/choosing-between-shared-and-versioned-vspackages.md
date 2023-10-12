@@ -1,5 +1,5 @@
 ---
-title: Choosing Between Shared and Versioned VSPackages | Microsoft Docs
+title: Choosing Between Shared and Versioned VSPackages
 description: Learn about side-by-side installations of VSPackages through shared or versioned strategies, with multiple versions of Visual Studio and of the .NET Framework.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - SxS
 - side-by-side installation
 - installation [Visual Studio SDK], side-by-side
-ms.assetid: e3128ac3-2e92-48e9-87ab-3b6c9d80e8c9
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Choose between shared and versioned VSPackages
 

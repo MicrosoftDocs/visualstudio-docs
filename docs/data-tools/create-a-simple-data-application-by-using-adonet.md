@@ -6,13 +6,10 @@ ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
-ms.assetid: 2222841f-e443-4a3d-8c70-4506aa905193
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Create a simple data application by using ADO.NET
 

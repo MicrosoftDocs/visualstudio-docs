@@ -5,13 +5,10 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.ServiceModel.Activities.CorrelationScope.UI"
-ms.assetid: 75f20664-9042-464d-8e2b-148d365a2286
 author: jodavis
 ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
-ms.workload:
-  - "multiple"
 ---
 # CorrelationScope Activity Designer
 

@@ -1,5 +1,5 @@
 ---
-title: "FormatUrl Task | Microsoft Docs"
+title: "FormatUrl Task"
 description: Learn about how to use the MSBuild FormatUrl task to convert an input URL to a correct output URL format.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,17 +7,13 @@ dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
 helpviewer_keywords:
   - "MSBuild, FormatUrl task"
   - "FormatUrl task [MSBuild]"
-ms.assetid: 81114b67-520f-43b5-8891-224f68a78516
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-  - "multiple"
 ---
 # FormatUrl task
 

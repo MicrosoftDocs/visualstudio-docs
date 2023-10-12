@@ -14,13 +14,10 @@ helpviewer_keywords:
 - data views, filtering
 - sorting datasets, using data views
 - dataset filtering, using data views
-ms.assetid: f4f100f1-776d-46dc-b2fd-5b35b98d9561
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Filter and sort data in a Windows Forms application
 

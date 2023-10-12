@@ -1,18 +1,15 @@
 ---
-title: Type Visualizer and Custom Viewer | Microsoft Docs
+title: Type Visualizer and Custom Viewer
 description: Learn about type visualizer components and the custom viewers, which display data in a specific format, and the differences between them.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], custom viewer
 - debugging [Debugging SDK], type visualizer
-ms.assetid: fd3691e6-9c78-4767-846f-43f85ada4375
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Type visualizer and custom viewer
 

@@ -5,8 +5,6 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 05/02/2022
-ms.custom: devdivchpfy22
-ms.assetid: a556f9d7-86a8-408e-aa54-392584845889
 ---
 # launchSettings.json in Visual Studio for Mac
 

@@ -9,8 +9,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Create a simple data application with WPF and Entity Framework 6
 

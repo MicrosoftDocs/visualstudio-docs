@@ -1,19 +1,16 @@
 ---
 description: "Attaches to the associated program or defers the attach process to the Attach method."
-title: IDebugProgramNodeAttach2::OnAttach | Microsoft Docs
+title: IDebugProgramNodeAttach2::OnAttach
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgramNodeAttach2::OnAttach
 helpviewer_keywords:
 - IDebugProgramNodeAttach2::OnAttach
-ms.assetid: 5fe52761-a508-4ab5-abdb-334fb6590334
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

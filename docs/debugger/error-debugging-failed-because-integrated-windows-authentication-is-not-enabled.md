@@ -1,6 +1,6 @@
 ---
 description: "Authentication of the user who requested debugging was prevented by an authentication error."
-title: "Debugging Failed Because Integrated Windows Authentication Is Not Enabled | Microsoft Docs"
+title: "Debugging Failed Because Integrated Windows Authentication Is Not Enabled"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:
@@ -17,8 +17,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Error: Debugging Failed Because Integrated Windows Authentication Is Not Enabled
 

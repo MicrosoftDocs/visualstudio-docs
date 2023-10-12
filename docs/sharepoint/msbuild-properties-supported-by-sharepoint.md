@@ -1,5 +1,5 @@
 ---
-title: "MSBuild Properties Supported by SharePoint | Microsoft Docs"
+title: "MSBuild Properties Supported by SharePoint"
 description: Read a list of MSBuild property names and descriptions that are supported by and are specific to SharePoint.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -12,8 +12,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # MsBuild properties supported by SharePoint
 

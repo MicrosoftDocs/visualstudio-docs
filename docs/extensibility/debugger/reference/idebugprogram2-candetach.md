@@ -1,19 +1,16 @@
 ---
 description: "Determines if a debug engine (DE) can detach from the program."
-title: IDebugProgram2::CanDetach | Microsoft Docs
+title: IDebugProgram2::CanDetach
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgram2::CanDetach
 helpviewer_keywords:
 - IDebugProgram2::CanDetach
-ms.assetid: dcd9ab6c-49e5-447e-aa7c-89f571f4a052
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

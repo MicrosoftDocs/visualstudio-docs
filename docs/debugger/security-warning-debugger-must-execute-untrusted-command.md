@@ -1,6 +1,6 @@
 ---
 description: "This warning dialog box appears when you are using Source Server."
-title: "Security Warning: Debugger Must Execute Untrusted Command | Microsoft Docs"
+title: "Security Warning: Debugger Must Execute Untrusted Command"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -10,13 +10,10 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: e5c004b3-b364-4098-ac98-770076ca9981
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Security Warning: Debugger Must Execute Untrusted Command
 

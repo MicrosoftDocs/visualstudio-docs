@@ -11,13 +11,10 @@ helpviewer_keywords:
 - data [Visual Studio], saving
 - saving data, tutorials
 - data [Visual Studio], TableAdapter
-ms.assetid: 74a6773b-37e1-4d96-a39c-63ee0abf49b1
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Save data with the TableAdapter DBDirect methods
 

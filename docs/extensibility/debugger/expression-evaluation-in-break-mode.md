@@ -1,5 +1,5 @@
 ---
-title: Expression Evaluation in Break Mode | Microsoft Docs
+title: Expression Evaluation in Break Mode
 description: Learn about the process that occurs when the debugger is in break mode and must conduct expression evaluation.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - break mode, expression evaluation
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation, break mode
-ms.assetid: 34fe5b58-15d5-4387-a266-72120f90a4b6
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Expression evaluation in break mode
 

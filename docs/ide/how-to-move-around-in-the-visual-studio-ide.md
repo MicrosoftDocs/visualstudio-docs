@@ -12,13 +12,10 @@ helpviewer_keywords:
 - windows [Visual Studio], navigating
 - Window.NextDocumentWindowNav
 - IDE navigator
-ms.assetid: 6c36b6eb-c93f-496b-af08-4199f7afd8bd
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # How to: Move around in the Visual Studio IDE
 

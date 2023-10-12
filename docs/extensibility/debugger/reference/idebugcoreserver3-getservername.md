@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the name of the server."
-title: IDebugCoreServer3::GetServerName | Microsoft Docs
+title: IDebugCoreServer3::GetServerName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCoreServer3::GetServerName
 helpviewer_keywords:
 - IDebugCoreServer3::GetServerName
-ms.assetid: 0fc3fcf5-d6a3-4a00-bf14-458b8645714e
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

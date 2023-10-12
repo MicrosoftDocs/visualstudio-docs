@@ -1,17 +1,14 @@
 ---
 description: "Sets the locale for the port supplier."
-title: IDebugPortSupplierLocale2::SetLocale | Microsoft Docs
+title: IDebugPortSupplierLocale2::SetLocale
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugPortSupplierLocale2::SetLocale
-ms.assetid: 21e88510-caac-405e-ba45-cb00e19a28bc
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

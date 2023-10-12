@@ -1,5 +1,5 @@
 ---
-title: Re-sign Application and Deployment Manifests | Microsoft Docs
+title: Re-sign Application and Deployment Manifests
 description: Learn how to re-sign both the application and deployment manifests with a certificate after changes are made to deployment properties.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -13,13 +13,10 @@ helpviewer_keywords:
   - deploying applications, signing manifests
   - ClickOnce deployment, signing manifests
   - Office development in Visual Studio, signing manifests
-ms.assetid: d53bceb9-4d3b-4c22-b909-8f370e7231fb
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # How to: Re-sign application and deployment manifests
 

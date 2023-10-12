@@ -1,15 +1,12 @@
 ---
-title: Layout for Visual Studio | Microsoft Docs
+title: Layout for Visual Studio
 description: Learn about layout for Visual Studio dialogs, including unthemed dialogs and new dialogs that have a themed appearance. 
 ms.date: 11/04/2016
 ms.topic: reference
-ms.assetid: c19e3022-047c-43b6-a046-a82717efed4f
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Layout for Visual Studio
 

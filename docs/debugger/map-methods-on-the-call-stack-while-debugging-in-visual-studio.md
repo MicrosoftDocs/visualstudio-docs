@@ -1,5 +1,5 @@
 ---
-title: Create a visual map of the call stack | Microsoft Docs
+title: Create a visual map of the call stack
 description: Create a code map to visually trace the call stack as you debug. Make notes on the map to track what the code is doing, so you can focus on finding bugs.
 ms.date: 11/26/2018
 ms.topic: how-to
@@ -24,13 +24,10 @@ helpviewer_keywords:
   - Call Stack window, show on code map
   - debugging [Visual Studio], tracing the call stack visually
   - debugging [Visual Studio], visualizing the call stack
-ms.assetid: d6a72e5e-f88d-46fc-94a3-1789d34805ef
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # Create a visual map of the call stack while debugging (C#, Visual Basic, C++, JavaScript)
 

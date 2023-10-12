@@ -1,5 +1,5 @@
 ---
-title: "Creating ClickOnce Applications for Others to Deploy | Microsoft Docs"
+title: "Creating ClickOnce Applications for Others to Deploy"
 description: Learn about customer hosted ClickOnce applications developed in .NET Framework 3.5 and previous versions of the .NET Framework.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -19,13 +19,10 @@ helpviewer_keywords:
   - "trust applications, ClickOnce"
   - "ClickOnce applications, deployed by others"
   - "ClickOnce applications, previous .NET Framework"
-ms.assetid: d20766c7-4ef3-45ab-8aa0-3f15b61eccaa
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # Create ClickOnce applications for others to deploy
 

@@ -1,7 +1,6 @@
 ---
-title: "Debug a Web Form | Microsoft Docs"
+title: "Debug a Web Form"
 description: Follow a walkthrough to see how to debug an ASP.NET Web application (Web Form), including how to set breakpoints and examine variables.
-
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -18,13 +17,10 @@ helpviewer_keywords:
   - "ASP.NET Web pages, debugging"
   - "debugging ASP.NET Web applications, Web Forms"
   - "debugging [Visual Studio], Web Forms"
-ms.assetid: e2b4fa14-8f5b-444d-a903-54070b784bd4
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Walkthrough: Debugging a Web Form
 

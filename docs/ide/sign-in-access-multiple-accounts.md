@@ -7,8 +7,6 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Access multiple accounts associated with the Visual Studio sign-in account
 

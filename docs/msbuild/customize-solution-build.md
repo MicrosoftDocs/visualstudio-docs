@@ -1,18 +1,15 @@
 ---
-title: Customize the solution build | Microsoft Docs
+title: Customize the solution build
 description: Learn how to customize the solution build done by MSBuild, for command-line builds of solutions.
 ms.date: 02/28/2023
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, transforms
 - transforms [MSBuild]
-ms.assetid: d0bceb3b-14fb-455c-805a-63acefa4b3ed
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 
 # Customize the solution build

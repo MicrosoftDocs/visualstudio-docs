@@ -1,5 +1,5 @@
 ---
-title: Debug from a DLL Project | Microsoft Docs
+title: Debug from a DLL Project
 description: You can start the debugging of a DLL project from the project itself, by specifying the calling app in the project properties. See this article for details.
 ms.date: 4/21/2023
 ms.topic: how-to
@@ -13,13 +13,10 @@ helpviewer_keywords:
   - debugging DLLs
   - DLLs, debugging projects
   - debugging [Visual Studio], DLLs
-ms.assetid: 40a94339-d3f7-4ab9-b8a1-b8cf82942f44
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How to: Debug from a DLL project in Visual Studio (C#, C++, Visual Basic, F#)
 

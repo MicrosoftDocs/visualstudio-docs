@@ -1,17 +1,14 @@
 ---
-title: 'Walkthrough: Displaying QuickInfo Tooltips | Microsoft Docs'
+title: 'Walkthrough: Displaying QuickInfo Tooltips'
 description: Learn how to display QuickInfo for text content by using this walkthrough. QuickInfo displays method signatures and descriptions for a method name.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - QuickInfo
-ms.assetid: 23fb8384-4f12-446f-977f-ce7910347947
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 dev_langs:
 - csharp
 - vb

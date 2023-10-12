@@ -1,19 +1,16 @@
 ---
 description: "IDebugPortEx2::TerminateProcess terminates a process."
-title: IDebugPortEx2::TerminateProcess | Microsoft Docs
+title: IDebugPortEx2::TerminateProcess
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortEx2::TerminateProcess
 helpviewer_keywords:
 - IDebugPortEx2::TerminateProcess
-ms.assetid: bf8fa94c-6d9d-4e4f-ac08-3b44ba5ace68
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

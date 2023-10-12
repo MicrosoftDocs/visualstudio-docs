@@ -1,19 +1,16 @@
 ---
 description: "IDiaStackWalkFrame::get_registerValue retrieves the value of a register."
-title: "IDiaStackWalkFrame::get_registerValue | Microsoft Docs"
+title: "IDiaStackWalkFrame::get_registerValue"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackWalkFrame::get_registerValue method"
-ms.assetid: ca3c20a9-934a-4b2c-a7f6-7d06e8611ff2
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaStackWalkFrame::get_registerValue
 

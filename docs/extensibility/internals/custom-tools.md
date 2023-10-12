@@ -1,5 +1,5 @@
 ---
-title: Custom Tools | Microsoft Docs
+title: Custom Tools
 description: Learn how to create custom tools in Visual Studio that associate a tool with an item in a project and run that tool whenever the file is saved.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - VSPackages, custom tools
 - tools [Visual Studio], custom
 - custom tools
-ms.assetid: d669f154-9b23-48b6-b9f6-7419c8dd61a6
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Custom tools
 

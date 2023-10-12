@@ -1,17 +1,14 @@
 ---
-title: "Spy++ Toolbar | Microsoft Docs"
+title: "Spy++ Toolbar"
 description: Understand the user interface elements in the Spy++ toolbar, which appears under the menu bar. To display or hide the toolbar, on the View menu, click Toolbar.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "Spy++ toolbar"
-ms.assetid: 949c18fb-bb25-42ed-9130-c4a47869f24d
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Spy++ Toolbar
 

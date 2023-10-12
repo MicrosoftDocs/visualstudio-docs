@@ -1,5 +1,5 @@
 ---
-title: "How to: Add and Remove Additional Assemblies | Microsoft Docs"
+title: "Add and Remove Additional Assemblies"
 description: Learn to add and remove additional assemblies in SharePoint solution packages. Also add or delete safe controls and class resources.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Add and remove additional assemblies
 

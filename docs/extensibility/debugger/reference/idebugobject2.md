@@ -1,19 +1,16 @@
 ---
 description: "This interface provides additional information about an object."
-title: IDebugObject2 | Microsoft Docs
+title: IDebugObject2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugObject2
 helpviewer_keywords:
 - IDebugObject2 interface
-ms.assetid: ef640967-8adb-4793-994d-ae1736510891
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugObject2
 

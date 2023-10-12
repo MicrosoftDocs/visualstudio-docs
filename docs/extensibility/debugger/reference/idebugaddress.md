@@ -1,19 +1,16 @@
 ---
 description: "This interface represents the address of an item."
-title: IDebugAddress | Microsoft Docs
+title: IDebugAddress
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugAddress
 helpviewer_keywords:
 - IDebugAddress interface
-ms.assetid: bc709ff7-4966-4f36-9af2-690efe2cea1d
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugAddress
 

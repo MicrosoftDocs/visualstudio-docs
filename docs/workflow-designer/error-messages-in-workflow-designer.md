@@ -7,13 +7,10 @@ f1_keywords:
 - WFDErrorMessages.UI
 - System.Activities.Presentation.ErrorActivity.UI
 - System.Activities.Presentation.View.ErrorView.UI
-ms.assetid: 4d8bbc2e-34fc-477f-9140-4adfd70c34a0
 author: jodavis
 ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
 ---
 # Error Messages in Workflow Designer
 

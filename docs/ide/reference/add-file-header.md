@@ -7,8 +7,6 @@ author: mikadumont
 ms.author: midumont
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- dotnet
 ---
 # Add file header
 

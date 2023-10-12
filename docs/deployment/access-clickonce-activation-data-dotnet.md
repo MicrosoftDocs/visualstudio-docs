@@ -11,8 +11,6 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
 monikerRange: '>= vs-2022'
-ms.workload:
-  - "multiple"
 ---
 # Access ClickOnce activation data for .NET on Windows
 

@@ -8,8 +8,6 @@ ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
 monikerRange: '>= vs-2022'
-ms.workload:
-  - "multiple"
 ---
 
 # Instrument your .NET applications in Visual Studio (C#, C++, Visual Basic, F#)

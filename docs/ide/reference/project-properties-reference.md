@@ -6,13 +6,10 @@ ms.topic: reference
 helpviewer_keywords:
 - user interface [Visual Studio], projects
 - projects [Visual Studio], user interface
-ms.assetid: eec49aec-5474-48a7-889d-709045b9a475
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # What is the .NET Project Designer?
 

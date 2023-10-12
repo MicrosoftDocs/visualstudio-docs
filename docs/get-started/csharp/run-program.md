@@ -1,7 +1,7 @@
 ---
 title: "How to run a program (C#)"
 description: "Beginner's guide on how to run a C# program in Visual Studio."
-ms.custom: "vs-acquisition, get-started"
+ms.custom: vs-acquisition
 ms.date: 3/8/2023
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
@@ -12,9 +12,6 @@ ms.author: ghogen
 manager: jmartens
 dev_langs:
   - CSharp
-ms.workload:
-  - "dotnet"
-  - "dotnetcore"
 ---
 # How to: Run a C# program in Visual Studio
 

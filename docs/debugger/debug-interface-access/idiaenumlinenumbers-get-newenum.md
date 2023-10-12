@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the System.Runtime.InteropServices.ComTypes.IEnumVARIANT version of the line numbers enumerator."
-title: "IDiaEnumLineNumbers::get__NewEnum | Microsoft Docs"
+title: "IDiaEnumLineNumbers::get__NewEnum"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumLineNumbers::get__NewEnum method"
-ms.assetid: 8b15f76b-a431-4f60-8bed-3206256b0d10
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaEnumLineNumbers::get__NewEnum
 

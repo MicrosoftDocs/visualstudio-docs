@@ -1,5 +1,5 @@
 ---
-title: Events Viewer | Microsoft Docs
+title: Events Viewer
 description: Learn about the generic events viewer, which helps you better diagnose how your app is doing within the Visual Studio profiler.
 ms.date: 09/15/2023
 ms.topic: how-to
@@ -8,8 +8,6 @@ helpviewer_keywords:
 author: MikeJo5000
 ms.author: mikejo 
 manager: AndSter
-ms.workload: 
-  - multiple
 ---
 # Events viewer
 

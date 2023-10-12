@@ -1,19 +1,16 @@
 ---
 description: "Gets the result of expression evaluation."
-title: IDebugExpressionEvaluationCompleteEvent2::GetResult | Microsoft Docs
+title: IDebugExpressionEvaluationCompleteEvent2::GetResult
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExpressionEvaluationCompleteEvent2::GetResult
 helpviewer_keywords:
 - IDebugExpressionEvaluationCompleteEvent2::GetResult
-ms.assetid: d9ad3e22-b6b2-421e-9a43-6bb8c70d12a9
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

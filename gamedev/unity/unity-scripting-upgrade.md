@@ -5,12 +5,8 @@ author: therealjohn
 ms.author: johmil
 ms.date: 08/26/2022
 ms.topic: how-to
-ms.assetid: E2C9420F-A5D5-4472-9020-2B63FB27A133
 ms.technology: vs-unity-tools
 ms.prod: visual-studio
-ms.custom: devdivchpfy22
-ms.workload:
-  - "unity"
 ---
 # Using .NET 4.x in Unity
 

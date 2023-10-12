@@ -1,18 +1,15 @@
 ---
-title: "Creating Forwarding Loggers | Microsoft Docs"
+title: "Creating Forwarding Loggers"
 description: Create MSBuild forwarding loggers to improve logging efficiency by letting you choose the events you want to monitor when you build projects.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "MSBuild, forwarding loggers"
   - "MSBuild, logging"
-ms.assetid: 3aebf9c8-b62c-4cb2-b2d6-8cdfcd369a24
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-  - "multiple"
 ---
 # Create forwarding loggers
 

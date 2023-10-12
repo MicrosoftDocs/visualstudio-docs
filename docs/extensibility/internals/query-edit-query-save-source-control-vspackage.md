@@ -1,5 +1,5 @@
 ---
-title: Query Edit Query Save (Source Control VSPackage) | Microsoft Docs
+title: Query Edit Query Save (Source Control VSPackage)
 description: Learn about the role of Query-Edit Query-Save events and how they are handled by the source control VSPackage.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - QEQS events
 - Query Edit Query Save events
 - source control packages, Query Edit Query Save events
-ms.assetid: c360d2ad-fe42-4d65-899d-d1588cc8a322
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Query Edit Query Save (Source Control VSPackage)
 

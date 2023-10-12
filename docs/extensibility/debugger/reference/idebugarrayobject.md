@@ -1,19 +1,16 @@
 ---
 description: "This interface represents an array object."
-title: IDebugArrayObject | Microsoft Docs
+title: IDebugArrayObject
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugArrayObject
 helpviewer_keywords:
 - IDebugArrayObject method
-ms.assetid: a1c8e77e-dee1-4748-a516-6ab032a8f54f
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugArrayObject
 

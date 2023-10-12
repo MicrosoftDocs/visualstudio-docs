@@ -7,12 +7,10 @@ manager: jmartens
 ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.prod: visual-studio-windows
-ms.workload:
-  - "dotnet"
 dev_langs:
   - "VB"
 ms.date: 10/31/2022
-ms.custom: "vs-acquisition, get-started"
+ms.custom: vs-acquisition
 ---
 # Tutorial: Create a WPF application with Visual Basic
 

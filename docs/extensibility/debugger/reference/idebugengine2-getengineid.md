@@ -1,19 +1,16 @@
 ---
 description: "Gets the GUID of the debug engine (DE)."
-title: IDebugEngine2::GetEngineID | Microsoft Docs
+title: IDebugEngine2::GetEngineID
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngine2::GetEngineID
 helpviewer_keywords:
 - IDebugEngine2::GetEngineID
-ms.assetid: 0d5674c8-a9b9-4b72-8211-d2d68695775a
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

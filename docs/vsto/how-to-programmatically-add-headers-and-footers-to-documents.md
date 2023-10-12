@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically add headers and footers to documents"
+title: "Programmatically add headers and footers to documents"
 description:  Learn how you can add text to headers and footers in your document by using the Headers property and Footers property of the Section.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -16,8 +16,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically add headers and footers to documents
 

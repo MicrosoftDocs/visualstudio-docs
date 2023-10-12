@@ -3,7 +3,6 @@ title: Maintain a Visual Studio subscription for Azure access
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 9530fd98-36c9-4da7-815c-b0d84635e07c
 ms.date: 05/23/2023
 ms.topic: how-to
 description:  Learn how to renew an expired subscription, purchase a new one, or transfer your Azure resources.

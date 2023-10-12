@@ -1,5 +1,5 @@
 ---
-title: "Localizing SharePoint Solutions | Microsoft Docs"
+title: "Localizing SharePoint Solutions"
 description: Localize SharePoint solutions by removing hard-coded strings from the code and abstracting them into XML-based resource (.resx) files containing translated strings.
 ms.date: 04/20/2023
 ms.topic: overview
@@ -17,8 +17,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Localize SharePoint solutions
 

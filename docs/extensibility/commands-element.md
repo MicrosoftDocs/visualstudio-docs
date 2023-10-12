@@ -1,5 +1,5 @@
 ---
-title: Commands Element | Microsoft Docs
+title: Commands Element
 description: "The Commands element represents the collection of commands on the VSPackage toolbar and can have these sections: menus, groups, buttons, combos, and bitmaps."
 ms.date: 11/04/2016
 ms.topic: reference
@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - Commands element (VSCT XML schema)
 - VSCT XML schema elements, Commands
-ms.assetid: 47cf16a5-d78b-452e-86f6-b5893856dddf
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Commands element
 

@@ -1,17 +1,14 @@
 ---
 description: "Represents a pointer in a parse tree, and extends the IDebugPointerObject interface."
-title: IDebugPointerObject3 | Microsoft Docs
+title: IDebugPointerObject3
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugPointerObject3 interface
-ms.assetid: 11d26af4-1079-435e-96fa-d5269cbea8eb
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugPointerObject3
 

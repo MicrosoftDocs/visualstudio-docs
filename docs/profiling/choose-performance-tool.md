@@ -13,8 +13,6 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Which performance tool should I use? (C#, Visual Basic, C++, F#)
 

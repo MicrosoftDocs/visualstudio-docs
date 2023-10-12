@@ -1,5 +1,5 @@
 ---
-title: Exposing Types to Visual Designers | Microsoft Docs
+title: Exposing Types to Visual Designers
 description: Learn how to expose class and type definitions, including those in custom tools, so that Visual Studio can make them available to visual designers.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - types [Visual Studio SDK], exposing to visual designers
 - designers [Visual Studio SDK], exposing types
 - custom tools, exposing types to visual designers
-ms.assetid: a7a32ad4-3a0a-4eb8-a6ac-491c42885639
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Expose types to visual designers
 

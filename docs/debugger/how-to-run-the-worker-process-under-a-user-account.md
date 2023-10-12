@@ -1,7 +1,6 @@
 ---
-title: Run a worker process under a user account | Microsoft Docs
+title: Run a worker process under a user account
 description: Set up your computer so that you can run the ASP.NET worker process (aspnet_wp.exe or w3wp.exe) under a user account in Visual Studio.
-
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs: 
@@ -15,13 +14,10 @@ helpviewer_keywords:
   - tools, aspnet_wp.exe
   - ASP.NET, tools
   - aspnet_wp.exe
-ms.assetid: b58e97b1-e62a-4318-aea4-52276ea20735
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How to: Run the Worker Process Under a User Account
 

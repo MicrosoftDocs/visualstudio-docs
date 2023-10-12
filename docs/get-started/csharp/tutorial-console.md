@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Create a simple C# console app "
 description: "Learn how to create a C# console app in Visual Studio, step-by-step."
-ms.custom: "vs-acquisition, get-started"
+ms.custom: vs-acquisition
 ms.date: 01/25/2023
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
@@ -12,9 +12,6 @@ ms.author: meghaanand
 manager: jmartens
 dev_langs:
   - CSharp
-ms.workload:
-  - "dotnet"
-  - "dotnetcore"
 ---
 # Tutorial: Create a simple C# console app in Visual Studio (part 1 of 2)
 

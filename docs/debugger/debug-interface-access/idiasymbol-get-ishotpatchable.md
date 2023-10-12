@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a flag indicating whether the module was compiled with the /hotpatch (Create Hotpatchable Image)) compiler switch."
-title: "IDiaSymbol::get_isHotpatchable | Microsoft Docs"
+title: "IDiaSymbol::get_isHotpatchable"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_isHotpatchable method"
-ms.assetid: b7b6f490-1cf2-4a68-9237-b152dac84d3c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_isHotpatchable
 

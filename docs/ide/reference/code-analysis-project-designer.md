@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - Code Analysis page in Project Designer
 - Project Designer, Code Analysis page
-ms.assetid: 71743d26-4da5-4f7d-a403-7ab96cf2ef2e
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Code Analysis, Project Designer
 

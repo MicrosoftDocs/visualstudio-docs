@@ -1,18 +1,15 @@
 ---
-title: MSBuild Tasks | Microsoft Docs
+title: MSBuild Tasks
 description: Learn how MSBuild uses tasks, or units of executable code that perform atomic build operations, during the build process.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - tasks
 - MSBuild, tasks
-ms.assetid: 5d3cc4a7-e5db-4f73-b707-8b6882fddcf8
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # MSBuild tasks
 

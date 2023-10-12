@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the lines in a specified compiland that contain a specified relative virtual address (RVA)."
-title: "IDiaSession::findLinesByRVA | Microsoft Docs"
+title: "IDiaSession::findLinesByRVA"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession::findLinesByRVA method"
-ms.assetid: 06f53b0b-b5b4-42cf-9252-dcee0dbe2d71
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSession::findLinesByRVA
 

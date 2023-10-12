@@ -8,12 +8,9 @@ f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#FullClassName
 helpviewer_keywords:
 - FullClassName element [Visual Studio project template]
-ms.assetid: 651e1010-d529-4856-85ff-c77ceca5d2ed
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.workload:
-- vssdk
 ---
 # FullClassName element (Visual Studio template wizard extension)
 

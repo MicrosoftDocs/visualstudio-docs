@@ -9,8 +9,6 @@ manager: jmartens
 ms.technology: vs-ide-general
 dev_langs:
   - CSharp
-ms.workload:
-  - "dotnet"
 ---
 # Convert between regular string and verbatim string literals refactoring
 

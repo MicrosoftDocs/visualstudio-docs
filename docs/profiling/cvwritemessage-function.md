@@ -1,5 +1,5 @@
 ---
-title: CvWriteMessage Function | Microsoft Docs
+title: CvWriteMessage Function
 description: See reference information for the Concurrency Visualizer SDK function CvWriteMessage (C library).
 ms.date: 11/04/2016
 ms.topic: reference
@@ -21,13 +21,10 @@ helpviewer_keywords:
   - CvWriteMessageA method
   - CvWriteMessageVA method
   - CvWriteMessageExA method
-ms.assetid: e20ae7be-bfa7-437a-b8c1-fa0f1baa7f83
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # CvWriteMessage function
 

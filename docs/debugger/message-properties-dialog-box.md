@@ -6,13 +6,10 @@ ms.topic: "ui-reference"
 helpviewer_keywords:
   - "message options"
   - "message options, General"
-ms.assetid: 58e9dc24-baf6-4ab8-916c-aea28b72e3b0
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Message Properties dialog box
 

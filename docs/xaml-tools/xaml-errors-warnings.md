@@ -3,13 +3,10 @@ title: XAML Errors and Warnings
 description: Learn about XAML errors and warnings in Visual Studio, including how errors are categorized, how to get error information, and how to find options for fixing them.
 ms.date: 03/06/2018
 ms.topic: error-reference
-ms.assetid: 34eac8a0-7ec5-4c40-b97a-0126ed367931
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
-ms.workload:
-  - "multiple"
 ---
 # XAML errors and warnings
 

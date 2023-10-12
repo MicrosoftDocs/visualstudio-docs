@@ -6,13 +6,10 @@ ms.topic: how-to
 helpviewer_keywords:
   - code analysis, running
   - run code analysis
-ms.assetid: 5086d228-f92e-4515-9708-c5b89b9e9a03
 author: mikadumont
 ms.author: midumont
 manager: jmartens
 ms.technology: vs-ide-code-analysis
-ms.workload:
-  - dotnet
 ---
 # Run code analysis manually for .NET
 

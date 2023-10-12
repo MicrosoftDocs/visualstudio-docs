@@ -15,13 +15,10 @@ helpviewer_keywords:
 - Properties window, overrides
 - virtual functions, Properties window
 - Properties window
-ms.assetid: e6e0fa4f-75c4-4a52-af15-281cd61876ca
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Properties window
 

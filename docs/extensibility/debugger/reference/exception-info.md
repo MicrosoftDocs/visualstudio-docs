@@ -1,19 +1,16 @@
 ---
 description: "Describes an exception or run-time error thrown by the program being debugged."
-title: EXCEPTION_INFO | Microsoft Docs
+title: EXCEPTION_INFO
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - EXCEPTION_INFO
 helpviewer_keywords:
 - EXCEPTION_INFO structure
-ms.assetid: d046957a-b97d-420b-b46b-c67cbaef709e
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

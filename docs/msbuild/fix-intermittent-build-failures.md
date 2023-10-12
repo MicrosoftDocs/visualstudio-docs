@@ -1,5 +1,5 @@
 ---
-title: 'How to: Diagnose and resolve build race conditions'
+title: 'Diagnose and resolve build race conditions'
 description: Learn how to diagnose and fix race conditions in your MSBuild parallel builds.
 ms.date: 01/31/2023
 ms.topic: how-to
@@ -9,8 +9,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Fix intermittent build failures
 

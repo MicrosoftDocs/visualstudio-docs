@@ -1,19 +1,16 @@
 ---
 description: "This interface represents bytes of memory."
-title: IDebugMemoryBytes2 | Microsoft Docs
+title: IDebugMemoryBytes2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugMemoryBytes2
 helpviewer_keywords:
 - IDebugMemoryBytes2 interface
-ms.assetid: d7647575-0e06-4190-88f5-ca40b82209a4
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugMemoryBytes2
 

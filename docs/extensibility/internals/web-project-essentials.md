@@ -1,17 +1,14 @@
 ---
-title: Web Project Essentials | Microsoft Docs
+title: Web Project Essentials
 description: Learn the internal details about how web projects work in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - web projects, essentials
-ms.assetid: ca2f4e43-322c-4431-8680-52da846940bc
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Web Project Essentials
 

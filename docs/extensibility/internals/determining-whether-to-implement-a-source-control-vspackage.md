@@ -5,13 +5,10 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control packages, about source control packages
-ms.assetid: 60b3326e-e7e2-4729-95fc-b682e7ad5c99
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Determine whether to implement a source control VSPackage
 

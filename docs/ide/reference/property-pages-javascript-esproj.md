@@ -1,5 +1,5 @@
 ---
-title: "Project Settings for React, Angular, and Vue projects | Microsoft Docs"
+title: "Project Settings for React, Angular, and Vue projects"
 description: Understand how to change the project settings for a JavaScript project (.esproj) that uses React, Angular, or Vue in Visual Studio, using the Debug tab and Build tab of the project property pages.
 ms.date: "06/28/2023"
 ms.topic: "reference"

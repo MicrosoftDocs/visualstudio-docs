@@ -1,5 +1,5 @@
 ---
-title: MSBuild Command-Line Reference | Microsoft Docs
+title: MSBuild Command-Line Reference
 description: Learn how to use MSBuild.exe command line to build a project or solution file, and several switches you can include.
 ms.date: 2/9/2023
 ms.topic: reference
@@ -7,18 +7,14 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, msbuild.exe
 - MSBuild, command line reference
 - msbuild.exe
-ms.assetid: edaa65ec-ab8a-42a1-84cb-d76d5b2f4584
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # MSBuild command-line reference
 

@@ -19,13 +19,10 @@ helpviewer_keywords:
 - views, line numbers
 - views, changing mode
 - views, outlining
-ms.assetid: 1fb48027-d870-439f-8b72-4a0321390748
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # How to: Manage editor modes
 

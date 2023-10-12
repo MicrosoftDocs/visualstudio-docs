@@ -18,8 +18,6 @@ author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- dotnet
 ---
 # Options dialog box: Text Editor \> C# \> Code Style \> Formatting
 

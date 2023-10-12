@@ -1,5 +1,5 @@
 ---
-title: WizardData Element (Visual Studio Templates) | Microsoft Docs
+title: WizardData Element (Visual Studio Templates)
 description: Learn about the WizardData element and how it specifies a custom XML.
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
@@ -9,12 +9,9 @@ f1_keywords:
 helpviewer_keywords:
 - WizardData element [Visual Studio Templates]
 - <WizardData> element [Visual Studio Templates]
-ms.assetid: d0403a16-5d07-4fe5-b474-19ae3d9fd3ab
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.workload:
-- vssdk
 ---
 # WizardData Element (Visual Studio Templates)
 

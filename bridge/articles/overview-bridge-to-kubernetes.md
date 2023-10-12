@@ -1,7 +1,6 @@
 ---
 title: What is Bridge to Kubernetes?
 ms.technology: bridge
-ms.custom: "contperf-fy22q1"
 ms.date: 08/11/2022
 ms.topic: overview
 description: "Describes the processes for using Bridge to Kubernetes to connect your development computer to your Kubernetes cluster"

@@ -1,5 +1,5 @@
 ---
-title: "Stop Statements in Visual Basic | Microsoft Docs"
+title: "Stop Statements in Visual Basic"
 description: Review the Visual Basic Stop statement, which provides a programmatic alternative to setting a breakpoint in Visual Studio.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -12,13 +12,10 @@ helpviewer_keywords:
   - "debugging managed code, Stop statements vs breakpoints"
   - "Stop statements, about Stop statements"
   - "debugging [Visual Basic], Stop statements vs. breakpoints"
-ms.assetid: 4ad3fe5c-3dfb-4913-b2eb-a0b635751c18
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Stop statements in Visual Basic
 

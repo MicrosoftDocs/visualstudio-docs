@@ -8,8 +8,6 @@ author: maddymontaquila
 ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
-ms.workload:
-- multiple
 ---
 # Modify the style of objects in Blend for Visual Studio
 

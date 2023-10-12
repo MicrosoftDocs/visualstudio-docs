@@ -1,16 +1,12 @@
 ---
-title: "Run profiling tools with or without the debugger | Microsoft Docs"
+title: "Run profiling tools with or without the debugger"
 description: "Learn about differences between the different modes available for profiling tools"
-ms.custom: devdivchpfy22
 ms.date: "03/22/2023"
 ms.topic: "conceptual"
-ms.assetid: 3fcdccad-c1bd-4c67-bcec-bf33a8fb5d63
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Run profiling tools with or without the debugger (C#, Visual Basic, C++, F#)
 

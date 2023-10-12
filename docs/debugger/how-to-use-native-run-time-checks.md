@@ -1,5 +1,5 @@
 ---
-title: Use Native Run-Time Checks | Microsoft Docs
+title: Use Native Run-Time Checks
 description: Use native run-time checks in Visual Studio to catch common run-time errors, such as stack pointer corruption, overruns of local arrays, and stack corruption.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -32,13 +32,10 @@ helpviewer_keywords:
   - debugging arrays
   - stack pointers
   - arrays [Visual Studio], debugging
-ms.assetid: dc7b2f1e-5ff6-42e0-89b3-dc9dead83ee1
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - cplusplus
 ---
 # How to: Use Native Run-Time Checks
 

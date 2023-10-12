@@ -1,19 +1,16 @@
 ---
 description: "Obtains the custom attributes bytes given the name of the custom attribute."
-title: IDebugCustomAttributeQuery2::GetCustomAttributeByName | Microsoft Docs
+title: IDebugCustomAttributeQuery2::GetCustomAttributeByName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCustomAttributeQuery2::GetCustomAttributeByName
 helpviewer_keywords:
 - IDebugCustomAttributeQuery2::GetCustomAttributeByName
-ms.assetid: 7428dfeb-8929-41b2-9b99-cb343a86c02d
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

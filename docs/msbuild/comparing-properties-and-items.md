@@ -1,17 +1,14 @@
 ---
-title: Comparing Properties and Items | Microsoft Docs
+title: Comparing Properties and Items
 description: Learn how MSBuild properties and items pass information to tasks, evaluate conditions, and store values that the project file can reference.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - msbuild, msbuild properties
-ms.assetid: b9da45ae-d6a6-4399-8628-397deed31486
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Compare properties and items
 

@@ -1,19 +1,16 @@
 ---
 description: "This interface enumerates DEBUG_REFERENCE_INFO structures."
-title: IEnumDebugReferenceInfo2 | Microsoft Docs
+title: IEnumDebugReferenceInfo2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugReferenceInfo2
 helpviewer_keywords:
 - IEnumDebugReferenceInfo2
-ms.assetid: 7ed01441-686f-4032-8268-a4c750f19f85
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IEnumDebugReferenceInfo2
 

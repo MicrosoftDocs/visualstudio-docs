@@ -1,5 +1,5 @@
 ---
-title: "Debugging WCF Services | Microsoft Docs"
+title: "Debugging WCF Services"
 description: Find links to articles about debugging Windows Communication Foundation (WCF) services in Visual Studio.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -11,13 +11,10 @@ dev_langs:
 helpviewer_keywords:
   - "debugging, WCF"
   - "WCF, debugging"
-ms.assetid: 6c8974d0-2c15-4d9f-a7f3-cabd4b204cda
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Debugging WCF Services
 

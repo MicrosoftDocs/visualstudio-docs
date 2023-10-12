@@ -1,19 +1,16 @@
 ---
 description: "This interface represents an object that the binder creates to encapsulate the values of symbols and expressions."
-title: IDebugObject | Microsoft Docs
+title: IDebugObject
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugObject
 helpviewer_keywords:
 - IDebugObject interface
-ms.assetid: 05cd8bf4-c9ee-4b49-b782-2263c33067d6
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugObject
 

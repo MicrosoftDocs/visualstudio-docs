@@ -1,19 +1,16 @@
 ---
 description: "Gets the derived-most property of a property."
-title: IDebugProperty2::GetDerivedMostProperty | Microsoft Docs
+title: IDebugProperty2::GetDerivedMostProperty
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProperty2::GetDerivedMostProperty
 helpviewer_keywords:
 - IDebugProperty2::GetDerivedMostProperty
-ms.assetid: cc86b461-62d1-4340-8209-c65037fd8b02
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

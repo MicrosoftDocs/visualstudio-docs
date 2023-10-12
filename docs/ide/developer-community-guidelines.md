@@ -1,15 +1,12 @@
 ---
 title: Developer Community guidelines
 description: Learn how to properly submit issues and suggestions, what to expect after submitting issues, and how best to interact with the Visual Studio Developer Community.
-ms.custom: kr2b-contr-experiment
 ms.date: 6/30/2020
 ms.topic: conceptual
 author: madskristensen
 ms.author: madsk
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
 ---
 # Developer Community guidelines
 

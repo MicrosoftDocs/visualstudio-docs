@@ -1,19 +1,16 @@
 ---
 description: "This method returns the number of argument types associated with this object."
-title: IDebugBinder3::GetTypeArgumentCount | Microsoft Docs
+title: IDebugBinder3::GetTypeArgumentCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBinder3::GetTypeArgumentCount
 helpviewer_keywords:
 - IDebugBinder3::GetTypeArgumentCount method
-ms.assetid: caf68de6-6f7c-4efd-b803-121347a5032e
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically create appointments"
+title: "Programmatically create appointments"
 description: Learn how you can programmatically create appointments and then add recipients to the appointment meeting request in Microsoft Outlook.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically create appointments
 

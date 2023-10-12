@@ -1,18 +1,15 @@
 ---
-title: Visual Studio Command Table (.Vsct) Files | Microsoft Docs
+title: Visual Studio Command Table (.Vsct) Files
 description: Learn about command table configuration files, which are text files that describe the set of commands that a VSPackage contains.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - VSCT files, overview
 - Visual Studio command table configuration files (VSCT), overview
-ms.assetid: 1313adb4-add4-4e74-90e2-f4be522f5259
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Visual Studio Command Table (.Vsct) Files
 

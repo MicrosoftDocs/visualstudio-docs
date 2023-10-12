@@ -1,5 +1,5 @@
 ---
-title: The Experimental Instance | Microsoft Docs
+title: The Experimental Instance
 description: Learn how the Visual Studio SDK provides an experimental space to run untested applications in debug mode.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - experimental builds
 - VSPackages, experimental builds
 - VSIP, experimental builds
-ms.assetid: ead0df4e-6f88-4b42-9297-581b7902f050
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # The Experimental Instance
 

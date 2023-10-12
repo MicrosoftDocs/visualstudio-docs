@@ -1,5 +1,5 @@
 ---
-title: Continuing Execution After an Exception | Microsoft Docs
+title: Continuing Execution After an Exception
 description: Learn what happens when the debugger breaks execution because of an unhandled exception. You may be able to continue execution in the same thread. 
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -20,13 +20,10 @@ helpviewer_keywords:
   - threading [Visual Studio], continuing execution after exceptions
   - Exceptions dialog box
   - programs, executing
-ms.assetid: 6fe97aac-2131-4615-bd92-d3afee741558
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # Continuing Execution After an Exception
 

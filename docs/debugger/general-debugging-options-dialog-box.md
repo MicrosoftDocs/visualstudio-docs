@@ -1,5 +1,5 @@
 ---
-title: "General, Debugging, Options Dialog Box | Microsoft Docs"
+title: "General, Debugging, Options Dialog Box"
 description: Set Visual Studio debugger options to meet your debugging needs. You can configure break behavior, debugging levels, display behavior, and much else.
 ms.date: "12/09/2022"
 ms.topic: "reference"
@@ -16,13 +16,10 @@ dev_langs:
   - "JScript"
 helpviewer_keywords:
   - "Options dialog box, debugging"
-ms.assetid: b33aee0b-43c3-4c26-8ed4-bc673f491503
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # General debugging options
 

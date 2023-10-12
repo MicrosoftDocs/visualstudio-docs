@@ -1,5 +1,5 @@
 ---
-title: Display custom info using DebuggerDisplay | Microsoft Docs
+title: Display custom info using DebuggerDisplay
 description: Use an instance of DebuggerDisplayAttribute to control how an object, property, or field is displayed in the debugger variable windows.
 ms.date: 04/22/2022
 ms.topic: how-to
@@ -7,13 +7,10 @@ helpviewer_keywords:
   - attributes, debugger
   - DebuggerDisplay attribute
   - DebuggerDisplayAttribute class
-ms.assetid: f4eb7c76-af4e-493b-9ab6-9cb05949d9b3
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # Tell the debugger what to show using the DebuggerDisplay Attribute (C#, Visual Basic, F#, C++/CLI)
 

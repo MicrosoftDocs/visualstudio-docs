@@ -1,5 +1,5 @@
 ---
-title: "CV_CFL_LANG | Microsoft Docs"
+title: "CV_CFL_LANG"
 description: Get information about the CV_CFL_LANG enumeration type, which specifies the code language of the application or linked module in the debug interface access SDK.
 ms.date: "4/04/2023"
 ms.topic: "reference"
@@ -7,13 +7,10 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "CV_CFL_LANG enumeration"
-ms.assetid: 4e8e0613-ad02-4de9-9f46-e4753c5b0251
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # CV_CFL_LANG
 

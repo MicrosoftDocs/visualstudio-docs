@@ -1,17 +1,14 @@
 ---
-title: Model for Source Control Packages | Microsoft Docs
+title: Model for Source Control Packages
 description: This model represents a source control implementation. The article shows the names of the classes to make it easier to see how source control is carried out.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], model
-ms.assetid: 6164b2d3-a622-4de8-bef3-a6de985e9ebd
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Model for Source Control Packages
 

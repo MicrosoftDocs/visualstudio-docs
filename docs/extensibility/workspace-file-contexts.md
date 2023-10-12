@@ -1,13 +1,11 @@
 ---
-title: "Workspace file contexts in Visual Studio | Microsoft Docs"
+title: "Workspace file contexts in Visual Studio"
 description: Learn about file context providers that implement the IFileContextProvider interface to support insights into Open Folder workspaces.
 ms.date: "02/21/2018"
 ms.topic: "conceptual"
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
-ms.workload:
-  - "vssdk"
 ---
 # Workspace file contexts
 

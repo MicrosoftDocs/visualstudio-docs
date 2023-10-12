@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically print documents"
+title: "Programmatically print documents"
 description: Learn how you can print an entire Microsoft Word document, or part of a document, to your default printer.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically print documents
 

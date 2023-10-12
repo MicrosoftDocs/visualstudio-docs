@@ -1,19 +1,16 @@
 ---
 description: "The IDebugBreakpointRequest3 interface represents the information necessary to create and bind any type of breakpoint."
-title: IDebugBreakpointRequest3 | Microsoft Docs
+title: IDebugBreakpointRequest3
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBreakpointRequest3
 helpviewer_keywords:
 - IDebugBreakpointRequest3
-ms.assetid: 8a042beb-b319-48e3-b3c8-9c8336ab371b
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugBreakpointRequest3
 

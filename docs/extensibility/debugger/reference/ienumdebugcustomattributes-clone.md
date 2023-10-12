@@ -1,19 +1,16 @@
 ---
 description: "Creates an enumerator that contains the same enumeration state as the current custom attributes enumerator."
-title: IEnumDebugCustomAttributes::Clone | Microsoft Docs
+title: IEnumDebugCustomAttributes::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumCustomAttributes::Clone
 helpviewer_keywords:
 - IEnumDebugCustomAttributes::Clone
-ms.assetid: e6825000-e195-42b4-b296-bfe1e533d79b
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp
