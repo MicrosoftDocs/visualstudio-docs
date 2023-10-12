@@ -1,13 +1,11 @@
 ---
-title: "DirectX 12 Support in Visual Studio | Microsoft Docs"
+title: "DirectX 12 Support in Visual Studio"
 description: "DirectX 12 users are recommended to use PIX on Windows for a full graphical debugging experience"
 ms.date: "09/29/2020"
 ms.topic: "conceptual"
 author: "davidcongruili"
 ms.author: "davidli1"
 manager: mluparu
-ms.workload:
-  - "multiple"
 ---
 # DirectX 12 Support in Visual Studio
 

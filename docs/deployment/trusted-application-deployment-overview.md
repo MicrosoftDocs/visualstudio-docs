@@ -1,5 +1,5 @@
 ---
-title: "Trusted Application Deployment Overview | Microsoft Docs"
+title: "Trusted Application Deployment Overview"
 description: Learn how to deploy ClickOnce applications that have elevated permissions by using the Trusted Application Deployment technology.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -11,13 +11,10 @@ helpviewer_keywords:
   - "ClickOnce deployment, install without prompting"
   - "ClickOnce deployment, security"
   - "trusted application deployment"
-ms.assetid: b24a1702-8fbe-45b1-87a0-9618a0708f1d
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # Trusted Application Deployment overview
 

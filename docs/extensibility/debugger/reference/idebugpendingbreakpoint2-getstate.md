@@ -1,6 +1,6 @@
 ---
 description: "Gets the state of the pending breakpoint."
-title: IDebugPendingBreakpoint2::GetState | Microsoft Docs
+title: IDebugPendingBreakpoint2::GetState
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - GetState method
 - IDebugPendingBreakpoint2::GetState method
-ms.assetid: e88d543f-2e83-4ba7-86ca-f874e39955ff
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

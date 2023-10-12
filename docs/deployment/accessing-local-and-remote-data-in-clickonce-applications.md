@@ -10,13 +10,10 @@ dev_langs:
 helpviewer_keywords:
   - "ClickOnce deployment, data"
   - "data access, ClickOnce applications"
-ms.assetid: be5cbe12-6cb6-49c9-aa59-a1624e1eef3d
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # Access local and remote data in ClickOnce applications
 

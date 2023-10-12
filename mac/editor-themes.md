@@ -5,7 +5,6 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 06/23/2023
-ms.assetid: 4C1B7952-CD45-4132-AD6B-01CF993D83F8
 ms.topic: reference
 ---
 # Editor themes in Visual Studio for Mac

@@ -17,8 +17,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Deploy, publish, and upgrade SharePoint solution packages
 

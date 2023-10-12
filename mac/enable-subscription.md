@@ -6,7 +6,6 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 01/21/2020
 ms.topic: how-to
-ms.assetid: 898DFEB8-5757-4CCE-8AD2-8BC7706F5855
 ---
 # Enable Subscription in Visual Studio for Mac
 

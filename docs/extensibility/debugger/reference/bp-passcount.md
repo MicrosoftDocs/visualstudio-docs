@@ -1,19 +1,16 @@
 ---
 description: "Describes the count and conditions upon which a conditional breakpoint is fired."
-title: BP_PASSCOUNT | Microsoft Docs
+title: BP_PASSCOUNT
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_PASSCOUNT
 helpviewer_keywords:
 - BP_PASSCOUNT structure
-ms.assetid: 791ac175-b897-4c70-873e-240da7e0ac89
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

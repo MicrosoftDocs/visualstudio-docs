@@ -10,13 +10,10 @@ helpviewer_keywords:
   - "Help Viewer, Contents tab"
   - "Contents tab [Help Viewer]"
   - "table of contents filtering [Help Viewer]"
-ms.assetid: 8b98464d-2b05-4710-ad68-5647e78c6b7b
 author: jasonchlus
 ms.author: jasonchlus
 manager: jmartens
 ms.technology: vs-help-viewer
-ms.workload:
-  - "multiple"
 ---
 # How to: Find topics in the table of contents
 

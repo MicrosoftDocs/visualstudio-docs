@@ -5,13 +5,10 @@ ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - source control plug-ins, strings used for finding
-ms.assetid: c1e31f76-42a1-4c3d-afb2-664044ef12fd
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Strings Used as Keys for Finding a Source Control Plug-in
 

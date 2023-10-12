@@ -1,5 +1,5 @@
 ---
-title: "&lt;fileAssociation&gt; Element (ClickOnce Application) | Microsoft Docs"
+title: "&lt;fileAssociation&gt; Element (ClickOnce Application)"
 description: The fileAssociation element identifies a file extension to be associated with the application. The fileAssociation element is optional.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -10,13 +10,10 @@ dev_langs:
 helpviewer_keywords:
   - "<fileAssociation> element [ClickOnce application manifest]"
   - "manifests [ClickOnce], fileAssociation element"
-ms.assetid: 8f951b4f-54f9-412e-a9e5-af4e379fcf08
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # &lt;fileAssociation&gt; element (ClickOnce application)
 

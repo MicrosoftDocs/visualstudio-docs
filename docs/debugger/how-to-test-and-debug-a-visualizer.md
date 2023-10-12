@@ -1,5 +1,5 @@
 ---
-title: Test and Debug a Visualizer | Microsoft Docs
+title: Test and Debug a Visualizer
 description: Test and debug a visualizer by running it from a test driver (visualizer development host) or by installing in Visual Studio and calling it from a debugger window.
 ms.date: 07/02/2021
 ms.topic: how-to
@@ -12,13 +12,10 @@ helpviewer_keywords:
   - visualizers, testing
   - visualizers, debugging
   - debugging [Visual Studio], visualizers
-ms.assetid: 5cc12ce8-c819-48e4-b487-98d403001b28
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How to: Test and Debug a Visualizer
 

@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a flag that specifies whether the public symbol refers to a function."
-title: "IDiaSymbol::get_function | Microsoft Docs"
+title: "IDiaSymbol::get_function"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_function method"
-ms.assetid: 48b3a318-3211-410f-8570-c02ee210f0a5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_function
 

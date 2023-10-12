@@ -1,19 +1,16 @@
 ---
 description: "Gets the field to which the custom attribute is attached."
-title: IDebugCustomAttribute::GetParentField | Microsoft Docs
+title: IDebugCustomAttribute::GetParentField
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCustomAttribute::GetParentField
 helpviewer_keywords:
 - IDebugCustomAttribute::GetParentField
-ms.assetid: bcdfdf37-bfcf-4988-a7b8-4c731d0af1b0
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

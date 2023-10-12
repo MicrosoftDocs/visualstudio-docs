@@ -12,7 +12,6 @@ author: ankitvarmait
 ms.author: anva
 manager: tinali
 ms.technology: vs-ide-sdk
-ms.custom: kr2b-contr-experiment
 ---
 
 # Visual Studio SDK analyzer error VsixCompatibility1001

@@ -1,5 +1,5 @@
 ---
-title: Install a Visualizer | Microsoft Docs
+title: Install a Visualizer
 description: Understand how to install a visualizer so that it will be available for debugging use in Visual Studio.
 ms.date: 07/02/2021
 ms.topic: how-to
@@ -12,13 +12,10 @@ dev_langs:
 helpviewer_keywords:
   - debugger, visualizers
   - visualizers, installing
-ms.assetid: 3310ef43-515c-4d97-b0f9-51047247d3da
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - multiple
 ---
 # How to: Install a Visualizer
 

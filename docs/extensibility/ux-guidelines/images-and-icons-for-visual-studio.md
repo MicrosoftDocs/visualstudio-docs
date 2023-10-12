@@ -1,15 +1,12 @@
 ---
-title: Images and Icons for Visual Studio | Microsoft Docs
+title: Images and Icons for Visual Studio
 description: Learn about the design concepts used to create the images and icons for Visual Studio. 
 ms.date: 04/26/2017
 ms.topic: reference
-ms.assetid: f410325e-9cf2-4f39-b6d7-b672121c2691
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Images and Icons for Visual Studio
 

@@ -1,5 +1,5 @@
 ---
-title: "Output Window, Debugging, Options Dialog Box | Microsoft Docs"
+title: "Output Window, Debugging, Options Dialog Box"
 description: You can specify which types of debugging information appear in the Output window. Learn where to do this, and the types of information that you can control.
 ms.date: "11/04/2016"
 ms.topic: "ui-reference"
@@ -12,13 +12,10 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: d67387c2-39e9-4790-93bc-e41bff12fb9c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Output Window, Debugging, Options Dialog Box
 

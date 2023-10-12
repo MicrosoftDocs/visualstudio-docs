@@ -1,5 +1,5 @@
 ---
-title: Customize your build by folder or solution | Microsoft Docs
+title: Customize your build by folder or solution
 description: Learn about the special imports Directory.Build.props and Directory.Build.targets that you can use to customize the build system.
 ms.date: 02/28/2023
 ms.topic: how-to
@@ -10,8 +10,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Customize the build by folder
 

@@ -11,13 +11,10 @@ helpviewer_keywords:
 - TextMate bundle
 - TextMate language grammar
 - language support
-ms.assetid: d78c43ee-4ef2-42e5-984e-d137de4e7e92
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Add Visual Studio editor support for other languages
 

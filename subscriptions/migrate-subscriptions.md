@@ -1,9 +1,8 @@
 ---
-title: Migrate Visual Studio subscriptions to a new agreement | Microsoft Docs
+title: Migrate Visual Studio subscriptions to a new agreement
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 80e3b300-f2fc-40d4-bbb2-c831a2fa5d34
 ms.date: 03/24/2023
 ms.topic: how-to
 description:  This article describes how admins can migrate assigned subscriptions from one agreement to another.

@@ -8,7 +8,6 @@ ms.author: madsk
 manager: pchapman
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-sdk
-ms.custom: cookbook
 ---
 # Best practices checklist to publish a Visual Studio extension
 

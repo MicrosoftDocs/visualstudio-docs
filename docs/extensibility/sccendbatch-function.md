@@ -1,19 +1,16 @@
 ---
 description: "This function concludes a batch of source control operations."
-title: SccEndBatch Function | Microsoft Docs
+title: SccEndBatch Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccEndBatch
 helpviewer_keywords:
 - SccEndBatch function
-ms.assetid: 100e7833-fe0a-45c0-9fca-3e61fd1165b7
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # SccEndBatch function
 

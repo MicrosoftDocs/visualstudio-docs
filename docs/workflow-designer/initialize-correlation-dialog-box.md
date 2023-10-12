@@ -5,13 +5,10 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - InitializeCorrelation.UI
-ms.assetid: 2a0a1cd3-7b9e-493e-9264-fcf85289ffcf
 author: jodavis
 ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
 ---
 # Initialize Correlation Dialog Box
 

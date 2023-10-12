@@ -4,8 +4,6 @@ description: Learn about how you can set up CI/CD deployment to Azure using GitH
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
-ms.custom: vs-azure
-ms.workload: azure-vs
 ms.topic: overview
 ms.date: 08/17/2023
 ms.author: ghogen

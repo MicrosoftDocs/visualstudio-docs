@@ -1,17 +1,14 @@
 ---
 description: "Represents an enhanced version of an expression evaluator (EE)."
-title: IDebugExpressionEvaluator2 | Microsoft Docs
+title: IDebugExpressionEvaluator2
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugExpressionEvaluator2 interface
-ms.assetid: cebe649f-1c77-4d33-854f-30d4f00eceb4
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugExpressionEvaluator2
 

@@ -18,8 +18,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # Walkthrough: Automate an application from a custom task pane
 

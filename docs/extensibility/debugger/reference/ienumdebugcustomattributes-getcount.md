@@ -1,19 +1,16 @@
 ---
 description: "Gets the number of custom attributes in an enumerator."
-title: IEnumDebugCustomAttributes::GetCount | Microsoft Docs
+title: IEnumDebugCustomAttributes::GetCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumCustomAttributes::GetCount
 helpviewer_keywords:
 - IEnumDebugCustomAttributes::GetCount
-ms.assetid: fafe826f-4ebf-4572-b2a3-d5dd2916c12f
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

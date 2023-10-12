@@ -11,13 +11,10 @@ helpviewer_keywords:
 - IntelliSense [C#], wavy underlines
 - wavy underlines
 - Text Editor Options dialog box, IntelliSense
-ms.assetid: 3466dedb-e5f4-424c-8dd8-e4941b2f4fc2
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- dotnet
 ---
 # Options, Text Editor, C#, IntelliSense
 

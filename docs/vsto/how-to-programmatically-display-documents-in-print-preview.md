@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically display documents in Print Preview"
+title: "Programmatically display documents in Print Preview"
 description: Learn how you can programmatically display documents in Print Preview in a Microsoft Word document.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically display documents in Print Preview
 

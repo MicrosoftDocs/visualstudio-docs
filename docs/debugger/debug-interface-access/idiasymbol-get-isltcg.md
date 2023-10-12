@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a flag that specifies whether the Compiland) has been linked with the linker switch /LTCG (Link-time Code Generation)(/cpp/build/reference/ltcg-link-time-code-generation), which aids in whole program optimization."
-title: "IDiaSymbol::get_isLTCG | Microsoft Docs"
+title: "IDiaSymbol::get_isLTCG"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_isLTCG method"
-ms.assetid: 5f7f05b8-6b71-4958-9e1e-e4924ef9c59b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_isLTCG
 

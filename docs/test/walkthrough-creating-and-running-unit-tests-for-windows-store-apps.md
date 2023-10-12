@@ -11,8 +11,6 @@ helpviewer_keywords:
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-test
-ms.workload:
-- uwp
 author: mikejo5000
 ---
 # Walkthrough: Create and run unit tests for UWP apps

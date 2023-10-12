@@ -1,19 +1,16 @@
 ---
 description: "Resets an enumeration sequence of source files to the beginning."
-title: "IDiaEnumSourceFiles::Reset | Microsoft Docs"
+title: "IDiaEnumSourceFiles::Reset"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumSourceFiles::Reset method"
-ms.assetid: 1df2aeae-2c84-4c35-817e-b85d43022ae2
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaEnumSourceFiles::Reset
 

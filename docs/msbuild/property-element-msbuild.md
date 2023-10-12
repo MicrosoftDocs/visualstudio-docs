@@ -1,5 +1,5 @@
 ---
-title: Property Element (MSBuild) | Microsoft Docs
+title: Property Element (MSBuild)
 description: Learn about the MSBuild Property element, which contains a user-defined property name and value that must be specified as a child of a PropertyGroup element.
 ms.date: 03/13/2017
 ms.topic: reference
@@ -7,17 +7,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - <Property> Element [MSBuild]
 - Property Element [MSBuild]
-ms.assetid: 69ab08ab-3e76-41dd-a01b-49aa1d2e0cac
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Property element (MSBuild)
 

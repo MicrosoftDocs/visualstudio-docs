@@ -1,19 +1,16 @@
 ---
 description: "Maps data from the section number to segments of address space."
-title: "IDiaSegment | Microsoft Docs"
+title: "IDiaSegment"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSegment interface"
-ms.assetid: 384ae0e1-077e-4d4f-98de-ac43c32c882f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSegment
 

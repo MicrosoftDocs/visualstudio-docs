@@ -1,5 +1,5 @@
 ---
-title: "How to: Change the position of a tab on the ribbon"
+title: "Change the position of a tab on the ribbon"
 description: You can change the order of custom tabs on a ribbon and position custom tabs before or after a built-in tab on the ribbon by using the Tab Collection Editor.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -12,8 +12,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Change the position of a tab on the ribbon
 

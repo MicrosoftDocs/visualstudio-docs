@@ -11,8 +11,6 @@ author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Develop code in Visual Studio without projects or solutions
 

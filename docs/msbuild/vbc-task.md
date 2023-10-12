@@ -1,5 +1,5 @@
 ---
-title: Vbc Task | Microsoft Docs
+title: Vbc Task
 description: Learn how MSBuild uses the Vbc task to wrap vbc.exe, which produces executables, dynamic-link libraries, or code modules.
 ms.date: 04/12/2018
 ms.topic: reference
@@ -9,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - Vbc task [MSBuild]
 - MSBuild, Vbc task
-ms.assetid: 595278b1-2782-4577-b1ba-b4b5ab5625a3
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 
 # Vbc task

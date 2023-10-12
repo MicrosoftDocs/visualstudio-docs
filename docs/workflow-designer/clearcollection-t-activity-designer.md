@@ -5,13 +5,10 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.ClearCollection`1.UI"
-ms.assetid: db0e5da2-7b5a-4f1a-864c-f3aeeeeb51a7
 author: jodavis
 ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
-ms.workload:
-  - "multiple"
 ---
 # ClearCollection\<T> Activity Designer
 

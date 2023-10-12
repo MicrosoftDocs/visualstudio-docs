@@ -1,5 +1,5 @@
 ---
-title: Debug in Mixed Mode | Microsoft Docs
+title: Debug in Mixed Mode
 description: See how to enable mixed-mode debugging (managed and native code together) in the property pages of the calling app's project.
 ms.date: 04/15/2022
 ms.topic: how-to
@@ -12,13 +12,10 @@ helpviewer_keywords:
   - debugging DLLs
   - debugging [Visual Studio], mixed-mode
   - mixed-mode debugging
-ms.assetid: 2859067d-7fcc-46b0-a4df-8c2101500977
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How to: Debug in mixed mode (C#, C++, Visual Basic)
 

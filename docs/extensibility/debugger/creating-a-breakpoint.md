@@ -1,18 +1,15 @@
 ---
-title: Creating a Breakpoint | Microsoft Docs
+title: Creating a Breakpoint
 description: Learn about the method calls that the session debug manager makes when the module that is needed to bind a breakpoint is loaded.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - breakpoints, creating
 - debugging [Debugging SDK], creating breakpoints
-ms.assetid: 6f9f87bb-192e-45e0-9a7a-ffe729e87f7d
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Create a breakpoint
 

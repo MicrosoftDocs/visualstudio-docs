@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the memory location where the image should be based."
-title: "IDiaImageData::get_imageBase | Microsoft Docs"
+title: "IDiaImageData::get_imageBase"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaImageData::get_imageBase method"
-ms.assetid: 4ba3d9e4-b205-4ee6-a41d-6996972f1f85
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaImageData::get_imageBase
 

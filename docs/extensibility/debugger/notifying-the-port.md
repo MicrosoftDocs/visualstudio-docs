@@ -1,17 +1,14 @@
 ---
-title: Notifying the Port | Microsoft Docs
+title: Notifying the Port
 description: Learn how the port is notified after launching a program. This article contains a detailed description.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - ports, notification
-ms.assetid: f9fce48e-7d4e-4627-a0fb-77b75428146a
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Notify the port
 

@@ -1,19 +1,16 @@
 ---
 description: "Skips a specified number of injected sources in an enumeration sequence."
-title: "IDiaEnumInjectedSources::Skip | Microsoft Docs"
+title: "IDiaEnumInjectedSources::Skip"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumInjectedSources::Skip method"
-ms.assetid: 4aad6a51-f2d3-4064-b216-60d830d0a560
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaEnumInjectedSources::Skip
 

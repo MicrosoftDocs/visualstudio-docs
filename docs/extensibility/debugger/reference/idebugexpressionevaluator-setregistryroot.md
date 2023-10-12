@@ -1,19 +1,16 @@
 ---
 description: "This method sets the registry root."
-title: IDebugExpressionEvaluator::SetRegistryRoot | Microsoft Docs
+title: IDebugExpressionEvaluator::SetRegistryRoot
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExpressionEvaluator::SetRegistryRoot
 helpviewer_keywords:
 - IDebugExpressionEvaluator::SetRegistryRoot method
-ms.assetid: 790886d8-1975-4d3c-9a75-cd86c1faf4ca
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

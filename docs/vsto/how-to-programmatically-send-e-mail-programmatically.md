@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically send email"
+title: "Programmatically send email"
 description: Use Visual Studio to programmatically send an email from Microsoft Outlook. This example sends an email message to contacts that have the domain name example.com.
 ms.date: "08/14/2019"
 ms.topic: "how-to"
@@ -15,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically send email
 

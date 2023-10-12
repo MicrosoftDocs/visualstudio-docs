@@ -1,15 +1,12 @@
 ---
-title: Diagnose problems after deployment | Microsoft Docs
+title: Diagnose problems after deployment
 description: Diagnose problems after deployment using IntelliTrace in Visual Studio. Include build information with your release. Release and monitor your app to find the problem.
 ms.date: 04/10/2018
 ms.topic: how-to
-ms.assetid: a3463eab-a352-4d17-8551-adbaad526db0
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - multiple
 ---
 # Diagnose problems after deployment using IntelliTrace (C#, Visual Basic)
 

@@ -1,5 +1,5 @@
 ---
-title: Best Practices for Security in VSPackages | Microsoft Docs
+title: Best Practices for Security in VSPackages
 description: Learn about the best practices for security in a VSPackage, the basic unit of security and deployment for a Visual Studio application.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - security [Visual Studio SDK]
 - security best practices, VSPackages
 - best practices, security
-ms.assetid: 212a0504-cf6c-4e50-96b0-f2c1c575c0ff
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Best practices for security in VSPackages
 

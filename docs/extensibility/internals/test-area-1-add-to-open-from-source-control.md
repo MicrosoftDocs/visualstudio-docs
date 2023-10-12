@@ -1,18 +1,15 @@
 ---
-title: 'Test Area 1: Add To-Open From Source Control | Microsoft Docs'
+title: 'Test Area 1: Add To-Open From Source Control'
 description: This source-control plug-in test area covers placing solutions or projects under source control and retrieving them from source control.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], adding and opening solutions
 - source control plug-ins, adding and opening solutions
-ms.assetid: 5b3b5b08-5e9b-41be-ac72-c63957faed22
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Test Area 1: Add To/Open From Source Control
 

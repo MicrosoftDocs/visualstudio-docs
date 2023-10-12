@@ -5,8 +5,6 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 04/26/2022
-ms.assetid: E4CFD03C-03AF-48CA-B409-6DB1CA45E991
-ms.custom: devdivchpfy22
 ms.topic: how-to
 ---
 # Sign in to Visual Studio for Mac

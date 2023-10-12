@@ -13,12 +13,9 @@ helpviewer_keywords:
   - "cl.exe compiler, file extensions"
   - "extensions, files built by C or C++ compiler"
   - "BuildLog.htm"
-ms.assetid: 56420efd-6a95-464e-b890-e2b38c48d66a
 author: tylermsft
 ms.author: twhitney
 manager: markl
-ms.workload:
-  - "cplusplus"
 ---
 # VC++ Project Settings, Projects and Solutions, Options Dialog Box
 

@@ -1,5 +1,5 @@
 ---
-title: Specify a Link for Technical Support | Microsoft Docs
+title: Specify a Link for Technical Support
 description: Learn about the Support URL property for publishing a ClickOnce application, which identifies a Web page or file share where users get information.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -15,13 +15,10 @@ helpviewer_keywords:
   - ClickOnce deployment, specifying support Web page address
   - customer support, ClickOnce applications
   - URLs, ClickOnce applications
-ms.assetid: 500aebee-545e-4831-a78b-b8671a008015
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # How to: Specify a link for Technical Support
 

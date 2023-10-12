@@ -1,5 +1,5 @@
 ---
-title: "Getting Started (SharePoint Development in Visual Studio) | Microsoft Docs"
+title: "Getting Started (SharePoint Development in Visual Studio)"
 titleSuffix: ""
 description: Get started with SharePoint development in Visual Studio. SharePoint offers a web-based collaboration platform.
 ms.date: "02/02/2017"
@@ -15,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Get started (SharePoint development in Visual Studio)
 

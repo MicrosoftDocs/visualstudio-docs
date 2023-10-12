@@ -3,13 +3,10 @@ title: Profiler command line - Instrument native component, get timing data
 description: Learn how to use the Visual Studio Profiling Tools command-line tools to collect detailed timing data for a native component such as a C++ .exe or .dll file.
 ms.date: 11/11/2022
 ms.topic: how-to
-ms.assetid: 36883074-9be8-4e90-a66f-7e87f21fcd30
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - cplusplus
 ---
 # Instrument a native stand-alone component and collect timing data with the profiler from the command line
 

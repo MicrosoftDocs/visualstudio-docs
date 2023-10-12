@@ -8,13 +8,10 @@ f1_keywords:
 - IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie
 helpviewer_keywords:
 - IDebugInterceptExceptionCompleteEvent2::GetInterceptCookie
-ms.assetid: 07b20866-e598-4783-9ecc-6aa8625c8804
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

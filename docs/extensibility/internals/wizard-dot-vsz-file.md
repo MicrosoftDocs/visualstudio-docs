@@ -1,5 +1,5 @@
 ---
-title: Wizard (.Vsz) File | Microsoft Docs
+title: Wizard (.Vsz) File
 description: Learn about the .vsz files that the IDE uses to start wizards. The files contain information about which wizard to call and what to pass to the wizard.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - .vsz files
 - vsz files
 - wizards, files
-ms.assetid: 72e1d0f3-eef1-455e-b803-96827f030f50
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Wizard (.Vsz) File
 

@@ -1,19 +1,16 @@
 ---
 description: "This function determines the parent project path of a specified project."
-title: SccGetParentProjectPath Function | Microsoft Docs
+title: SccGetParentProjectPath Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccGetParentProjectPath
 helpviewer_keywords:
 - SccGetParentProjectPath function
-ms.assetid: 62a71579-36b3-48b9-a1c8-04ab100efa08
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # SccGetParentProjectPath function
 

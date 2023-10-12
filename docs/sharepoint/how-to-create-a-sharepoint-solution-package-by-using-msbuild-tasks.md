@@ -12,8 +12,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Create a SharePoint Solution Package by using MSBuild tasks
 

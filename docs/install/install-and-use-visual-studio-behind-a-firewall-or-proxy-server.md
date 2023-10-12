@@ -8,12 +8,9 @@ helpviewer_keywords:
 - administrator guide, Visual Studio
 - installing Visual Studio, administrator guide
 - list of domains, locations, URLs
-ms.assetid:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---

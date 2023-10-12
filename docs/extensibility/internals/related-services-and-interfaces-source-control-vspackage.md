@@ -7,13 +7,10 @@ ms.topic: reference
 helpviewer_keywords:
 - source control packages, interfaces
 - interfaces, source control packages
-ms.assetid: 3e96e838-5675-46bb-99cf-40d420086038
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Related Services and Interfaces (Source Control VSPackage)
 

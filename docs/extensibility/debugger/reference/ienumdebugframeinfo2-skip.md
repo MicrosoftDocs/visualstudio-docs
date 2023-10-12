@@ -1,19 +1,16 @@
 ---
 description: "Skips over the specified number of FRAMEINFO elements."
-title: IEnumDebugFrameInfo2::Skip | Microsoft Docs
+title: IEnumDebugFrameInfo2::Skip
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugFrameInfo2::Skip
 helpviewer_keywords:
 - IEnumDebugFrameInfo2::Skip
-ms.assetid: 68cd3948-022a-41ad-bd9f-9ab776cf6248
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

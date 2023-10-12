@@ -1,16 +1,12 @@
 ---
-title: Getting Started with Roslyn Analyzers | Microsoft Docs
+title: Getting Started with Roslyn Analyzers
 description: Use these resources to get started with Roslyn analyzers in Visual Studio; includes a tutorial and several examples.
-ms.custom: UpdateFrequency3
 ms.date: 04/02/2018
 ms.topic: conceptual
-ms.assetid: 367c2ec8-3059-46a5-9d1c-57bead0419e7
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Get started with Roslyn analyzers
 

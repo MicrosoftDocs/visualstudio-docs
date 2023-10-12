@@ -1,5 +1,5 @@
 ---
-title: "How to: Create and modify custom document properties"
+title: "Create and modify custom document properties"
 description: Learn how you can create and modify custom document properties if there is additional information you want to store with the document.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Create and modify custom document properties
 

@@ -13,13 +13,10 @@ helpviewer_keywords:
 - Solution Explorer, miscellaneous files
 - Miscellaneous Files folder
 - files [Visual Studio], miscellaneous
-ms.assetid: 5b96640b-8efe-48a4-8d0a-1ae3f9587e44
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Miscellaneous files
 

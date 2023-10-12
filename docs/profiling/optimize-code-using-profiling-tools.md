@@ -13,8 +13,6 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 monikerRange: '>= vs-2022'
-ms.workload:
-  - "multiple"
 ---
 # Reduce compute costs by using profiling tools to optimize code (C#, Visual Basic, C++, F#)
 

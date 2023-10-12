@@ -1,5 +1,5 @@
 ---
-title: Resources in VSPackages | Microsoft Docs
+title: Resources in VSPackages
 description: Learn which types of localized resources can be embedded in VSPackages. You can also embed resources in native satellite UI DLLs or managed satellite DLLs.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - managed VSPackages, resources in
 - resources, managed VSPackages
 - VSPackages, managed resources
-ms.assetid: cc8c17a6-b190-4856-b001-0c1104f104b2
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Resources in VSPackages
 

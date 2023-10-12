@@ -1,5 +1,5 @@
 ---
-title: "Using the Tasks Window | Microsoft Docs"
+title: "Using the Tasks Window"
 description: Tasks are asynchronous operations that can run concurrently. Multiple tasks can run on the same thread. Use Tasks to view task and WinJS.Promise object information.
 ms.date: "05/30/2023"
 ms.topic: "conceptual"
@@ -12,13 +12,10 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "debugger, parallel tasks window"
-ms.assetid: bd5e0612-a0dc-41cf-a7af-1e87d0d5c35f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Using the Tasks Window (C#, Visual Basic, C++)
 

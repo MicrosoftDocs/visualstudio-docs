@@ -12,8 +12,6 @@ helpviewer_keywords:
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-test
-ms.workload:
-- dotnet
 author: mikejo5000
 ---
 # Walkthrough: Create and run unit tests for managed code

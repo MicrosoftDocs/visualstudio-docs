@@ -12,13 +12,10 @@ helpviewer_keywords:
 - editors, line breaks
 - line break characters
 - Visual Studio, line break characters
-ms.assetid: 8f9b3ffc-7b8d-44f4-87cb-dc29105be12d
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Encodings and line endings
 

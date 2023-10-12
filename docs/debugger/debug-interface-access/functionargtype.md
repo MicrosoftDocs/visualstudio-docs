@@ -1,19 +1,16 @@
 ---
 description: "Each parameter of a function is identified by a SymTagFunctionArgType symbol."
-title: "FunctionArgType | Microsoft Docs"
+title: "FunctionArgType"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "FunctionArgType symbol"
-ms.assetid: 9f072fd3-0b99-405c-af99-fd44cd56fd73
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # FunctionArgType
 

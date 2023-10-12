@@ -99,8 +99,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Default F1 page for MSBuild errors
 

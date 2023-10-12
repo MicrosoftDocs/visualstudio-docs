@@ -12,13 +12,10 @@ helpviewer_keywords:
   - ClickOnce deployment default Web page
   - deploying applications [ClickOnce], publishing
   - publishing, ClickOnce
-ms.assetid: 418de18c-bee9-4f24-9cd9-0252d175070d
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # How to: Customize the default Web page for a ClickOnce application
 

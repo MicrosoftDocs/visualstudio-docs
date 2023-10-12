@@ -1,5 +1,5 @@
 ---
-title: "UnregisterAssembly Task | Microsoft Docs"
+title: "UnregisterAssembly Task"
 description: Learn how MSBuild uses the UnregisterAssembly task to unregister specified assemblies for COM interop purposes.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -9,17 +9,13 @@ dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
 helpviewer_keywords:
   - "MSBuild, UnregisterAssembly task"
   - "UnregisterAssembly task [MSBuild]"
-ms.assetid: 04f549dd-3591-4dda-9c3a-cf6ede9df2c3
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-  - "multiple"
 ---
 # UnregisterAssembly task
 

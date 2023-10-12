@@ -1,6 +1,6 @@
 ---
 description: "Retrieves a list of paths that are searched for symbols as well as the results of searching each path."
-title: IDebugModule3::GetSymbolInfo | Microsoft Docs
+title: IDebugModule3::GetSymbolInfo
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - GetSymbolInfo method
 - IDebugModule3::GetSymbolInfo method
-ms.assetid: dda5e8e1-6878-4aa9-9ee4-e7d0dcc11210
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

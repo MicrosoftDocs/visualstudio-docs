@@ -8,13 +8,10 @@ helpviewer_keywords:
 - ResetSettings switch
 - /ResetSettings Devenv switch
 - settings [Visual Studio], resetting
-ms.assetid: 1d41021c-6f58-4bd5-b122-d1c995812192
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # /ResetSettings (devenv.exe)
 

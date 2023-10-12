@@ -1,5 +1,5 @@
 ---
-title: 'How to: Build Incrementally | Microsoft Docs'
+title: 'Build Incrementally'
 description: Learn how to use MSBuild to build incrementally, so previously built components that are still up-to-date aren't rebuilt.
 ms.date: 05/16/2022
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - MSBuild, incremental builds
 - incremental builds
 - MSBuild, building incrementally
-ms.assetid: 8d82d7d8-a2f1-4df6-9d2f-80b9e0cb3ac3
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # How to: Build incrementally
 

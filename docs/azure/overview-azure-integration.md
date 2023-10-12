@@ -4,8 +4,6 @@ description: Learn about how you can provision Azure resources, browse existing 
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
-ms.custom: vs-azure
-ms.workload: azure-vs
 ms.topic: overview
 ms.date: 10/19/2021
 ms.author: ghogen

@@ -1,19 +1,16 @@
 ---
 description: "This interface represents a process running on a port."
-title: IDebugProcess2 | Microsoft Docs
+title: IDebugProcess2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcess2
 helpviewer_keywords:
 - IDebugProcess2 interface
-ms.assetid: 99f6cd06-4076-45ee-b2ae-fa2ad627fd18
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugProcess2
 

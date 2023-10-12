@@ -1,5 +1,5 @@
 ---
-title: "&lt;Package&gt; Element (Bootstrapper) | Microsoft Docs"
+title: "&lt;Package&gt; Element (Bootstrapper)"
 description: The Package element is the top-level XML element inside of a package file. The Package element is required. 
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -10,13 +10,10 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<package> element [bootstrapper]"
-ms.assetid: ecd06658-ad02-4440-bccd-88437b7fb816
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # &lt;Package&gt; element (bootstrapper)
 

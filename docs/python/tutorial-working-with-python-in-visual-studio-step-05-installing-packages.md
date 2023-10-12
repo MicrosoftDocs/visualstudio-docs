@@ -8,11 +8,6 @@ author: cwebster-99
 ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
-
-ms.workload:
-  - python
-  - data-science
-ms.custom: devdivchpfy22
 ---
 # Step 5: Install packages in your Python environment
 

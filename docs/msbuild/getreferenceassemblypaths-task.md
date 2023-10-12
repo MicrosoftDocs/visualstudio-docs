@@ -1,5 +1,5 @@
 ---
-title: "GetReferenceAssemblyPaths Task | Microsoft Docs"
+title: "GetReferenceAssemblyPaths Task"
 description: Use the MSBuild GetReferenceAssemblyPaths task to return the reference assembly paths of the various frameworks.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,14 +7,10 @@ dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
-ms.assetid: 178ef49c-5dee-405b-a14b-a37f41dc0609
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-  - "multiple"
 ---
 # GetReferenceAssemblyPaths task
 

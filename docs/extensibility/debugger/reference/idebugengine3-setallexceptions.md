@@ -1,19 +1,16 @@
 ---
 description: "This method sets the state of all outstanding exceptions."
-title: IDebugEngine3::SetAllExceptions | Microsoft Docs
+title: IDebugEngine3::SetAllExceptions
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngine3::SetAllExceptions
 helpviewer_keywords:
 - IDebugEngine3::SetAllExceptions
-ms.assetid: 8f03a6ac-a854-42f7-933c-a2df1b351975
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

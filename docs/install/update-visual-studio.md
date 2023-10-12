@@ -15,8 +15,6 @@ f1_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
 ---
 # Update Visual Studio
 

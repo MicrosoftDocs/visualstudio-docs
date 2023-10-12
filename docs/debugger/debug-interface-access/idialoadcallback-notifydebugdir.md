@@ -1,19 +1,16 @@
 ---
 description: "Called when a debug directory was found in the .exe file."
-title: "IDiaLoadCallback::NotifyDebugDir | Microsoft Docs"
+title: "IDiaLoadCallback::NotifyDebugDir"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaLoadCallback::NotifyDebugDir method"
-ms.assetid: bd04e2f6-0dbf-4742-a556-96f2cd99aa19
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaLoadCallback::NotifyDebugDir
 

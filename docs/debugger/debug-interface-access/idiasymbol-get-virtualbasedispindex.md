@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the index of the symbol in the virtual base displacement table."
-title: "IDiaSymbol::get_virtualBaseDispIndex | Microsoft Docs"
+title: "IDiaSymbol::get_virtualBaseDispIndex"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_virtualBaseDispIndex method"
-ms.assetid: 5561a3cb-2c82-41cf-9217-3ee2b1e1d1d1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_virtualBaseDispIndex
 

@@ -6,8 +6,6 @@ ms.topic: conceptual
 author: tylermsft
 ms.author: twhitney
 manager: markl
-ms.workload:
-- cplusplus
 ---
 # Visual C++ IntelliSense features
 

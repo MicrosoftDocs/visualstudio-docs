@@ -1,18 +1,15 @@
 ---
-title: 'Test Area 8: Plug-in Switching | Microsoft Docs'
+title: 'Test Area 8: Plug-in Switching'
 description: This source control test area provides test cases for the process of picking which plug-in to use for solution source control in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], switching plug-ins
 - source control plug-ins, switching
-ms.assetid: 01370792-b5da-4e46-9ce2-7dd326587141
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Test Area 8: Plug-in Switching
 

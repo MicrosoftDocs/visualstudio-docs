@@ -1,19 +1,16 @@
 ---
 description: "This method determines whether the visualizer can have the data object it represents updated."
-title: IEEVisualizerDataProvider::CanSetObjectForVisualizer | Microsoft Docs
+title: IEEVisualizerDataProvider::CanSetObjectForVisualizer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEEVisualizerDataProvider::CanSetObjectForVisualizer
 helpviewer_keywords:
 - IEEVisualizerDataProvider::CanSetObjectForVisualizer method
-ms.assetid: 70fd3c6f-2f82-43a3-993b-c1dc8aa080bf
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

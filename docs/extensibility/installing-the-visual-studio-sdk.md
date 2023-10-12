@@ -1,16 +1,12 @@
 ---
-title: Installing the Visual Studio SDK | Microsoft Docs
+title: Installing the Visual Studio SDK
 description: Learn about the options to install the Visual Studio Software Development Kit, including during Visual Studio installation.
-ms.custom: devdivchpfy22, UpdateFrequency3
 ms.date: 08/26/2022
 ms.topic: overview
-ms.assetid: c730edb6-5099-4c16-85a8-08def09f1455
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Install the Visual Studio SDK
 

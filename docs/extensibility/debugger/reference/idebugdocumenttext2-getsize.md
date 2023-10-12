@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the size of the text at this position in the document."
-title: IDebugDocumentText2::GetSize | Microsoft Docs
+title: IDebugDocumentText2::GetSize
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDocumentText2::GetSize
 helpviewer_keywords:
 - IDebugDocumentText2::GetSize
-ms.assetid: bf515a8f-dcee-4004-8f81-543d547ceaae
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

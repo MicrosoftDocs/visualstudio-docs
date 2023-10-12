@@ -7,8 +7,6 @@ author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- dotnet
 ---
 # Implement an interface in Visual Studio
 

@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a specified symbol type that contains, or is closest to, a specified relative virtual address (RVA)."
-title: "IDiaSession::findSymbolByRVA | Microsoft Docs"
+title: "IDiaSession::findSymbolByRVA"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSession::findSymbolByRVA method"
-ms.assetid: 14fb2903-b771-44d6-b0a8-44e0097c58ce
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSession::findSymbolByRVA
 

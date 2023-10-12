@@ -9,9 +9,6 @@ ms.custom: vs-acquisition
 ms.technology: vs-ide-general
 dev_langs:
   - FSharp
-ms.workload:
-  - "aspnet"
-  - "dotnetcore"
 ---
 # Tutorial: Create an ASP.NET Core web service in F#
 

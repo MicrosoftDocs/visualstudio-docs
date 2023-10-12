@@ -6,7 +6,6 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 05/06/2018
 ms.topic: reference
-ms.assetid: A018A314-C1C4-4F36-BCB6-2D434208FCFE
 ---
 # Source editor in Visual Studio for Mac
 

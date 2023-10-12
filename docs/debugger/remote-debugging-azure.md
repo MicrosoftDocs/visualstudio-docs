@@ -1,17 +1,12 @@
 ---
-title: "Remote Debug ASP.NET Core on IIS and an Azure VM | Microsoft Docs"
+title: "Remote Debug ASP.NET Core on IIS and an Azure VM"
 description: Learn how to set up and configure a Visual Studio ASP.NET Core app, deploy it to IIS using an Azure VM, and attach the remote debugger from Visual Studio. 
-ms.custom: "remotedebugging"
 ms.date: 08/30/2022
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "aspnet"
-  - "dotnetcore"
-  - "azure"
 ---
 # Remote Debug ASP.NET Core on IIS using an Azure VM from Visual Studio
 

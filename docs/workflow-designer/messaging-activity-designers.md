@@ -3,13 +3,10 @@ title: "Workflow Designer - Messaging Activity Designers"
 description: Learn how to use Messaging activity designers to create and configure messaging activities that send and receive Windows Communication Foundation (WCF) messages.
 ms.date: 11/04/2016
 ms.topic: reference
-ms.assetid: 897e63cf-a42f-4edd-876f-c4ccfffaf6d6
 author: jodavis
 ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
-ms.workload:
-  - "multiple"
 ---
 # Messaging activity designers
 

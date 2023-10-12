@@ -10,13 +10,10 @@ helpviewer_keywords:
 - localization [Visual Studio]
 - world-ready applications
 - international applications [Visual Studio]
-ms.assetid: 4d9815ae-3e80-4b4d-933d-f8309aee18d5
 author: j-martens
 ms.author: jmartens
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Develop globalized and localized apps
 

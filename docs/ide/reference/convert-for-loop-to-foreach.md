@@ -10,8 +10,6 @@ ms.technology: vs-ide-general
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- dotnet
 ---
 # Refactoring to convert between a for loop and a foreach statement
 

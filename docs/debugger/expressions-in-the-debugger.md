@@ -1,5 +1,5 @@
 ---
-title: "Expressions in the debugger | Microsoft Docs"
+title: "Expressions in the debugger"
 description: Learn which language expressions are not supported by the expression evaluators in the Visual Studio debugger.
 ms.date: "08/24/2021"
 ms.topic: "conceptual"
@@ -14,13 +14,10 @@ helpviewer_keywords:
   - "debugger, evaluating expressions"
   - "debugging [Visual Studio], expression evaluation"
   - "debugging [Visual Studio], variable evaluation"
-ms.assetid: 70f9b531-44c7-4d77-980d-5eddbf2bff41
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Expressions in the Visual Studio debugger
 

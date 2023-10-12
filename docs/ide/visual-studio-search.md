@@ -12,14 +12,11 @@ helpviewer_keywords:
 - windows [Visual Studio], navigating
 - Window.QuickLaunch
 - IDE navigator
-ms.assetid: 3870a8fd-4afa-4f1e-a811-9fdf41a9e82d
 monikerRange: ">=vs-2019"
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Use Visual Studio search
 

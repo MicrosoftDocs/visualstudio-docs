@@ -11,13 +11,10 @@ helpviewer_keywords:
   - ClickOnce applications, multiple .NET Framework versions
   - ClickOnce deployment, multiple .NET Framework versions
   - deploying applications [ClickOnce], multiple .NET Framework versions
-ms.assetid: e0a8c330-21bc-4eb2-b936-fd0f3c3221f1
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - dotnet
 ---
 # How to: Use ClickOnce to deploy applications that can run on multiple versions of the .NET Framework
 

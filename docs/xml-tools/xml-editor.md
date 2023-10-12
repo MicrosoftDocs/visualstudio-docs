@@ -7,8 +7,6 @@ author: dzsquared
 ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
-ms.workload:
-- multiple
 ---
 # XML editor
 

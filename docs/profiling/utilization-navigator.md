@@ -1,17 +1,14 @@
 ---
-title: "Utilization Navigator | Microsoft Docs"
+title: "Utilization Navigator"
 description: Learn how you can use the Utilization Navigator in the Concurrency Visualizer to select an interval of time in a trace.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.cv.performance.utilizationnavigator"
-ms.assetid: 522a981a-37ef-4cdd-a04c-f1e7525a2aab
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Utilization Navigator
 

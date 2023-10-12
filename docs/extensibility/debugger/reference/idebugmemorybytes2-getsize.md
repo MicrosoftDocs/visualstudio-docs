@@ -1,6 +1,6 @@
 ---
 description: "Retrieves the size, in bytes, of the memory represented by this IDebugMemoryBytes2 object."
-title: IDebugMemoryBytes2::GetSize | Microsoft Docs
+title: IDebugMemoryBytes2::GetSize
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugMemoryBytes2::GetSize method
 - GetSize method
-ms.assetid: dae64c5f-5b54-40c3-b32f-ec3b16c093f7
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

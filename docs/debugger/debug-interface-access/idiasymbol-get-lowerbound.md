@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the lower bound of a FORTRAN array dimension."
-title: "IDiaSymbol::get_lowerBound | Microsoft Docs"
+title: "IDiaSymbol::get_lowerBound"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_lowerBound method"
-ms.assetid: e9a6440b-d068-4de4-a240-6723d20812b9
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_lowerBound
 

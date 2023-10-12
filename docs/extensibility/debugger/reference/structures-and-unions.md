@@ -1,17 +1,14 @@
 ---
-title: Structures and Unions | Microsoft Docs
+title: Structures and Unions
 description: This article links to reference descriptions of structures and unions in the Visual Studio Debugging SDK.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - structures [Visual Studio SDK]
-ms.assetid: 9ff0a8f8-1ee6-4fdd-8b80-206436ff589b
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Structures and Unions
 

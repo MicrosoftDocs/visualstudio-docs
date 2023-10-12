@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the lexical parent identifier of the symbol."
-title: "IDiaSymbol::get_lexicalParentId | Microsoft Docs"
+title: "IDiaSymbol::get_lexicalParentId"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_lexicalParentId method"
-ms.assetid: 6c0c2874-cc47-4e4f-ad9c-02a18a108d9d
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_lexicalParentId
 

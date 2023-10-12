@@ -1,5 +1,5 @@
 ---
-title: "GPU usage | Microsoft Docs"
+title: "GPU usage"
 description: Learn how to use the GPU Usage tool in the Performance Profiler to better understand the high-level hardware usage of your Direct3D app.
 ms.date: "11/01/2018"
 ms.topic: "conceptual"
@@ -7,8 +7,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # GPU usage
 

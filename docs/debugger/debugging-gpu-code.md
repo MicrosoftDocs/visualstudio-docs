@@ -1,5 +1,5 @@
 ---
-title: "Debugging GPU Code | Microsoft Docs"
+title: "Debugging GPU Code"
 description: Learn about debugging C++ code that's running on the graphics processing unit (GPU) in Visual Studio.
 ms.date: "02/22/2022"
 ms.topic: "conceptual"
@@ -8,13 +8,10 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: c7e77a5a-cb57-4b11-9187-ecc89acc8775
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Debugging GPU Code
 

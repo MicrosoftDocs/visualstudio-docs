@@ -3,13 +3,10 @@ title: XML editor Schema Cache
 description: Learn about the schema cache provided by the XML Editor that includes standard XML schemas used for IntelliSense and XML document validation.
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.assetid: 35a7fcad-f3bf-4a96-9008-4306e7276223
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
-ms.workload:
-- multiple
 ---
 # Schema cache
 

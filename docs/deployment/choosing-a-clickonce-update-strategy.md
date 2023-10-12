@@ -1,5 +1,5 @@
 ---
-title: "Choosing a ClickOnce Update Strategy | Microsoft Docs"
+title: "Choosing a ClickOnce Update Strategy"
 description: Learn how a ClickOnce application supports automatic updates and which update strategies you can use.
 ms.date: "01/27/2023"
 ms.topic: "conceptual"
@@ -11,13 +11,10 @@ helpviewer_keywords:
   - "application updates, ClickOnce"
   - "updates, ClickOnce"
   - "ClickOnce deployment, update strategies"
-ms.assetid: d8b6e7bb-4ea0-47f3-91cd-48580bdceccc
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # Choose a ClickOnce update strategy
 

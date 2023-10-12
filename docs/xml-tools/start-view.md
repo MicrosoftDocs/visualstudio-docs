@@ -3,13 +3,10 @@ title: XML Schema Designer Start View
 description: Learn about the commands that are available in the Start View of the XML Schema (XSD) Designer.
 ms.date: 11/04/2016
 ms.topic: reference
-ms.assetid: f25e7a2f-7469-4279-b2f4-ee2dfd4d3af1
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
-ms.workload:
-- multiple
 ---
 # Start View
 

@@ -1,5 +1,5 @@
 ---
-title: "Supported Code Changes (C++) | Microsoft Docs"
+title: "Supported Code Changes (C++)"
 description: Understand what code changes are supported when you are using the Edit and Continue feature while debugging a C++ project in Visual Studio.
 ms.date: "02/18/2020"
 ms.topic: "conceptual"
@@ -15,13 +15,10 @@ helpviewer_keywords:
   - "code changes, handling in Edit and Continue"
   - "what's new [C++], supported code changes"
   - "code changes"
-ms.assetid: f5754363-8a56-417b-b904-b05d9dd26d03
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "cplusplus"
 ---
 # Supported Code Changes (C++)
 

@@ -1,5 +1,5 @@
 ---
-title: "Pseudovariables | Microsoft Docs"
+title: "Pseudovariables"
 description: Review pseudovariables in the Visual Studio debugger. Pseudovariables are terms used to display certain data in a variable window or the QuickWatch dialog box.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -12,13 +12,10 @@ helpviewer_keywords:
   - "Watch window, pseudovariables"
   - "debugging [Visual Studio], pseudovariables"
   - "pseudovariables"
-ms.assetid: fae84f68-2138-4144-9bd4-c9e271b6182a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Pseudovariables in the Visual Studio debugger
 

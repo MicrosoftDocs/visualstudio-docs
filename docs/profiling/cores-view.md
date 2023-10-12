@@ -1,5 +1,5 @@
 ---
-title: "Cores View | Microsoft Docs"
+title: "Cores View"
 description: Learn about the information provided by Cores View. It can help you use thread affinity or thread pool management to optimize cache performance.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -11,13 +11,10 @@ f1_keywords:
   - "vs.cv.cores.zoom"
 helpviewer_keywords:
   - "Concurrency Visualizer, Cores View"
-ms.assetid: e47af672-9785-4899-bd45-4d9dda3c396f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Cores View
 

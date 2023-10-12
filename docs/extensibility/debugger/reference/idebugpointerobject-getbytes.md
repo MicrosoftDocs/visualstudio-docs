@@ -1,19 +1,16 @@
 ---
 description: "Gets the value pointed to as a series of consecutive bytes."
-title: IDebugPointerObject::GetBytes | Microsoft Docs
+title: IDebugPointerObject::GetBytes
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPointerObject::GetBytes
 helpviewer_keywords:
 - IDebugPointerObject::GetBytes method
-ms.assetid: e986c188-87fb-4b51-86e9-ee6a0035bdab
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

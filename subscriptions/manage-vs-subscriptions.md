@@ -3,7 +3,6 @@ title:  Manage Visual Studio Subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 196c6d04-9a33-47d5-b0f1-038e7c3a7ac9
 ms.date: 03/30/2023
 ms.topic: conceptual
 description: Learn how to get the most out of your Visual Studio subscriptions

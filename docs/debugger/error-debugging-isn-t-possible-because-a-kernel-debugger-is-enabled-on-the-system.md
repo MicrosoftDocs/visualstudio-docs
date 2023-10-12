@@ -1,5 +1,5 @@
 ---
-title: "Debugging Isn&apos;t Possible Because a Kernel Debugger is Enabled on the System | Microsoft Docs"
+title: "Debugging Isn&apos;t Possible Because a Kernel Debugger is Enabled on the System"
 description: "This message occurs when you try to debug managed code on a Windows 7 or Windows Vista system that has been started in debug mode, and the application uses the CLR version CLR 2.0, 3.0, or 3.5."
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
@@ -16,8 +16,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Error: Debugging Isn&#39;t Possible Because a Kernel Debugger is Enabled on the System
 

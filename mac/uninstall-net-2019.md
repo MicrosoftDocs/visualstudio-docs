@@ -6,7 +6,6 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 11/08/2021
 ms.topic: how-to
-ms.assetid: db2dc420-63d2-44ef-bdda-a351561dc900
 ---
 # Visual Studio for Mac 8.10 and .NET on Apple Silicon machines
 

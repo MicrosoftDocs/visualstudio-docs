@@ -11,8 +11,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 
 # MSBuild and Visual Studio format for diagnostic messages

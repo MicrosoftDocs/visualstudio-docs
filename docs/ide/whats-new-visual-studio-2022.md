@@ -12,8 +12,6 @@ manager: jmartens
 ms.technology:
 ms.prod: visual-studio-windows
 ms.topic: whats-new
-ms.workload:
-  - "multiple"
 ---
 # What's new in Visual Studio 2022
 

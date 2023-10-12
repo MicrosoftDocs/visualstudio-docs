@@ -10,8 +10,6 @@ ms.technology: vs-ide-general
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- dotnet
 ---
 # Move a type to a matching file refactoring
 

@@ -1,19 +1,16 @@
 ---
 description: "Retrieves an array of compiler-specific type identifier values for this symbol."
-title: "IDiaSymbol::get_typeIds | Microsoft Docs"
+title: "IDiaSymbol::get_typeIds"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_typeIds method"
-ms.assetid: 5166e647-fde5-4efe-92bf-77f8ae3fbc9b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_typeIds
 

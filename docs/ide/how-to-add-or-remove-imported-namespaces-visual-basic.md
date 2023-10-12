@@ -9,13 +9,10 @@ helpviewer_keywords:
 - namespaces [Visual Studio], imported
 - imported namespaces [Visual Studio]
 - references [Visual Studio], imported namespaces
-ms.assetid: 44cebec3-0ea0-47c2-8406-4edeab6a997e
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # How to: Add or remove imported namespaces (Visual Basic)
 

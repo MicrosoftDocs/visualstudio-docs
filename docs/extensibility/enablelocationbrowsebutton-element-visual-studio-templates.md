@@ -9,12 +9,9 @@ f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#EnableLocationBrowseButton
 helpviewer_keywords:
 - EnableLocationBrowseButton [Visual Studio project templates]
-ms.assetid: a12d10d8-af49-482a-af77-e084fd07a47d
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.workload:
-- vssdk
 ---
 # EnableLocationBrowseButton element (Visual Studio templates)
 

@@ -1,5 +1,5 @@
 ---
-title: Verify IIS Property Settings | Microsoft Docs
+title: Verify IIS Property Settings
 description: Learn how to verify IIS property settings that you set for a web application using the IIS administration tool.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -14,13 +14,10 @@ helpviewer_keywords:
   - IIS administration tool
   - Web applications, setting properties
   - properties [debugger], setting with IIS administration tool
-ms.assetid: 9efc50bf-02fb-4750-9b3e-f03c38f10d8b
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How to: Verify IIS Property Settings
 

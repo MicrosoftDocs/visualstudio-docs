@@ -20,13 +20,10 @@ helpviewer_keywords:
 - designers, customizing environment
 - defaults, colors
 - printers, customizing
-ms.assetid: c767d302-51ed-47a8-a527-c07bce2aa485
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Fonts and Colors, Environment, Options dialog box
 

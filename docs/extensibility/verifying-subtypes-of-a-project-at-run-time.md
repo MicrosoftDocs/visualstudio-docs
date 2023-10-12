@@ -1,18 +1,15 @@
 ---
-title: Verifying Subtypes of a Project at Run Time | Microsoft Docs
+title: Verifying Subtypes of a Project at Run Time
 description: Learn how to have your VSPackage verify the presence of a specified custom project subtype that it depends on.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - project subtypes
 - check subtypes
-ms.assetid: b87780ec-36a3-4e9a-9ee2-7abdc26db739
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Verify subtypes of a project at run time
 

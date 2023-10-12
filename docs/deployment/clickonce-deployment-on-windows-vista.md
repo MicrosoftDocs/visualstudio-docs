@@ -1,5 +1,5 @@
 ---
-title: "ClickOnce Deployment on Windows Vista | Microsoft Docs"
+title: "ClickOnce Deployment on Windows Vista"
 description: Learn how Visual Studio generates external UAC manifest for ClickOnce and Registration-Free COM applications, which require an external manifest.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -12,13 +12,10 @@ helpviewer_keywords:
   - "ClickOnce deployment, Windows"
   - "manifest generation"
   - "Windows, ClickOnce deployment"
-ms.assetid: b21a0ebc-0ff6-4f49-8993-7d1ad3f8cac2
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # ClickOnce deployment on Windows Vista
 

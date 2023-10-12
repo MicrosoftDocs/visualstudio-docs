@@ -1,5 +1,5 @@
 ---
-title: GetOutputFileName Task | Microsoft Docs
+title: GetOutputFileName Task
 description: Use the MSBuild GetOutputFileName helper task to specify output file name options for cl.exe and other tools.
 ms.date: 03/10/2019
 ms.topic: reference
@@ -9,15 +9,12 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 - C++
 helpviewer_keywords:
 - MSBuild (C++), GetOutputFileName task
 - GetOutputFileName task (MSBuild (C++))
 author: ghogen
 ms.author: ghogen
-ms.workload:
-- multiple
 ---
 # GetOutputFileName task
 

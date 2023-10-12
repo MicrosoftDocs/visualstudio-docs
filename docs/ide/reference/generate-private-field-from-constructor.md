@@ -9,8 +9,6 @@ manager: jmartens
 dev_langs: 
   - CSharp 
   - VB
-ms.workload:  
-  - "dotnet" 
 --- 
 # Generate private field and property from constructor
 

@@ -1,5 +1,5 @@
 ---
-title: Localizing Menu Commands | Microsoft Docs
+title: Localizing Menu Commands
 description: Learn how to provide localized text for menu and toolbar commands by creating localized .vsct files and localized .resx files for your VSPackage.
 ms.date: 10/08/2019
 ms.topic: how-to
@@ -10,13 +10,10 @@ helpviewer_keywords:
 - menu commands
 - localize visual studio
 - localize vsct
-ms.assetid: b04ee0f6-82ea-47e6-853a-72382267d6da
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Localize menu commands
 

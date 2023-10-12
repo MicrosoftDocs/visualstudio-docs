@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Debugger Extensibility | Microsoft Docs
+title: Getting Started with Debugger Extensibility
 description: Get started creating and customizing debugger components used to debug programs from within the Visual Studio environment.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - getting started, Debugging SDK
 - debugging [Debugging SDK], getting started
 - Debugging SDK, getting started
-ms.assetid: d6ce6f43-1409-4bf7-93cd-f3464ca23504
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Get started with debugger extensibility
 

@@ -18,13 +18,10 @@ helpviewer_keywords:
   - "managed call stacks"
   - "mixed-mode debugging, call stack"
   - "stepping, out of managed code"
-ms.assetid: dd628427-e8d6-4fc2-b524-9d6393ea5376
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Mixed Code and Missing Information in the Call Stack Window
 

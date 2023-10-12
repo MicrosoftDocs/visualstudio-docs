@@ -1,5 +1,5 @@
 ---
-title: The Structure of the [Content_types].xml File | Microsoft Docs
+title: The Structure of the [Content_types].xml File
 description: Learn about the structure of the content types file, which contains information about the kinds of content in a VSIX package.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -8,13 +8,10 @@ helpviewer_keywords:
 - content types
 - opc
 - vsix
-ms.assetid: 9c399598-b9fa-4da7-84b5-defbf82e9335
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # The Structure of the [Content_types].xml File
 

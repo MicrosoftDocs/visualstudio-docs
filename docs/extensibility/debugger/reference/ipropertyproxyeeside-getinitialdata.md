@@ -1,19 +1,16 @@
 ---
 description: "Returns the initial data for this object."
-title: IPropertyProxyEESide::GetInitialData | Microsoft Docs
+title: IPropertyProxyEESide::GetInitialData
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IPropertyProxyEESide::GetInitialData
 helpviewer_keywords:
 - IPropertyProxyEESide::GetInitialData
-ms.assetid: 36cceb19-2604-4ef9-b42b-5dd30cbe24b1
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the virtual table shape symbol identifier of the symbol."
-title: "IDiaSymbol::get_virtualTableShapeId | Microsoft Docs"
+title: "IDiaSymbol::get_virtualTableShapeId"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_virtualTableShapeId method"
-ms.assetid: cbee9944-817a-4805-9c08-fac8e0da58b7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_virtualTableShapeId
 

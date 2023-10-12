@@ -15,13 +15,10 @@ helpviewer_keywords:
   - "Windows Forms, localization"
   - "ClickOnce deployment, localization"
   - "walkthroughs, localization"
-ms.assetid: 82b85a47-b223-4221-a17c-38a52c3fb6e2
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # Walkthrough: Download satellite assemblies on demand with the ClickOnce deployment API using the Designer
 

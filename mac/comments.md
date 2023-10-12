@@ -5,8 +5,6 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 03/03/2022
-ms.custom: devdivchpfy22
-ms.assetid: 0FE5E929-1846-4F48-B5E3-70990FAF9504
 ms.topic: reference
 ---
 # Comments in Visual Studio for Mac

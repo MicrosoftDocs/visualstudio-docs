@@ -1,5 +1,5 @@
 ---
-title: "How to: Add an Entity to a Model | Microsoft Docs"
+title: "Add an Entity to a Model"
 description: Add an entity to a model by adding an entity control from the Visual Studio Toolbox onto the Business Data Connectivity (BDC) designer.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -17,8 +17,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Add an entity to a model
 

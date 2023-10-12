@@ -1,5 +1,5 @@
 ---
-title: 'How to: Add a Dependency to a VSIX Package | Microsoft Docs'
+title: 'Add a Dependency to a VSIX Package'
 description: Learn how to set up a VSIX package deployment that installs any dependencies that are not already present on the target computer.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -8,13 +8,10 @@ helpviewer_keywords:
 - package assembly
 - package dll
 - vsix reference
-ms.assetid: 8f20177b-dab9-43a3-b959-81a591b451d6
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # How to: Add a dependency to a VSIX package
 

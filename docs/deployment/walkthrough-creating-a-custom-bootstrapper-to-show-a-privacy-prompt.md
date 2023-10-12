@@ -14,13 +14,10 @@ helpviewer_keywords:
   - "deploying applications [Visual Studio], custom prerequisites"
   - "Windows Installer deployment, prerequisites"
   - "prerequisites [.NET Framework], custom bootstrapper package"
-ms.assetid: 2f3edd6a-84d1-4864-a1ae-6a13c5732aae
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # Walkthrough: Create a custom bootstrapper with a privacy prompt
 

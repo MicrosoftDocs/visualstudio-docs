@@ -13,8 +13,6 @@ author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
 ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
 ---
 # Find potential problems using code map analyzers
 

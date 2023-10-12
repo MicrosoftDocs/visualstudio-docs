@@ -5,13 +5,10 @@ ms.date: "11/04/2016"
 ms.topic: "ui-reference"
 helpviewer_keywords:
   - "Window Properties dialog box"
-ms.assetid: c70e9429-fb0c-452a-9626-79f168393e44
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Window Properties dialog box
 

@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the number of items in the table."
-title: "IDiaTable::get_Count | Microsoft Docs"
+title: "IDiaTable::get_Count"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaTable::get_Count method"
-ms.assetid: bb47abe8-6706-4679-bc52-79f6444dae7e
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaTable::get_Count
 

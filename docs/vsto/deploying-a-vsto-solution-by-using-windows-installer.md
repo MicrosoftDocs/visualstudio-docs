@@ -19,8 +19,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # Deploying a VSTO Solution Using Windows Installer
 

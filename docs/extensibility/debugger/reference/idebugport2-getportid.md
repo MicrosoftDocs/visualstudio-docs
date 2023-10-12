@@ -1,19 +1,16 @@
 ---
 description: "Gets the port identifier."
-title: IDebugPort2::GetPortId | Microsoft Docs
+title: IDebugPort2::GetPortId
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPort2::GetPortId
 helpviewer_keywords:
 - IDebugPort2::GetPortId
-ms.assetid: 837cb924-c113-4224-aa86-3e02b33dfa70
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

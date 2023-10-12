@@ -1,5 +1,5 @@
 ---
-title: Common MSBuild Project Properties | Microsoft Docs
+title: Common MSBuild Project Properties
 description: Learn about common MSBuild project properties that can be defined or used in project files or included in .targets files that MSBuild provides.
 ms.date: 01/18/2018
 ms.topic: reference
@@ -7,19 +7,15 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - msbuild, common properties
 - msbuild, project file properties
 - ExcludeDeploymentUrl property
 - project file properties (MSBuild)
-ms.assetid: 9857505d-ae15-42f1-936d-6cd7fb9dd276
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Common MSBuild project properties
 

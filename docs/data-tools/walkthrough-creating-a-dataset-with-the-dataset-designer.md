@@ -13,8 +13,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Walkthrough: Create a Dataset with the Dataset Designer
 

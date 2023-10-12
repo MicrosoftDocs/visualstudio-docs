@@ -10,13 +10,10 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: b7495655-54c0-4315-8422-43bf63b8c22e
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Mixed mode debugging for x64 processes is only supported when using Microsoft.NET Framework 4 or greater
 

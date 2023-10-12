@@ -3,13 +3,10 @@ title: Troubleshoot profiling errors
 description: Learn how to resolve possible profiling errors with error message guidance
 ms.date: 06/28/2023
 ms.topic: how-to
-ms.assetid: 
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Troubleshoot profiling errors and fix issues
 

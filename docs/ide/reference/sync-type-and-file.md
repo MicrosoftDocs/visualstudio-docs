@@ -10,8 +10,6 @@ ms.technology: vs-ide-general
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- dotnet
 ---
 # Sync a type to a filename, or a filename to a type refactoring
 

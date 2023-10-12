@@ -1,5 +1,5 @@
 ---
-title: Adding Command-Line Switches | Microsoft Docs
+title: Adding Command-Line Switches
 description: Learn how to add command-line switches that are applied to a VSPackage when the devenv.exe command is executed.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -8,13 +8,10 @@ helpviewer_keywords:
 - command-line switches, retrieving
 - IVsAppCommandLine::GetOption method
 - command line, switches
-ms.assetid: 8bbbd87e-76fe-4fb5-8ef9-65f5e31967cf
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Add command-line switches
 

@@ -8,12 +8,9 @@ ms.topic: reference
 helpviewer_keywords:
 - <RequiredFrameworkVersion> (Visual Studio Templates)
 - RequiredFrameworkVersion (Visual Studio Templates)
-ms.assetid: 08a4f609-51a5-4723-b89f-99277fb18871
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.workload:
-- vssdk
 ---
 # RequiredFrameworkVersion element (Visual Studio templates)
 

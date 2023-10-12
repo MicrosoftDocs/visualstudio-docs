@@ -1,5 +1,5 @@
 ---
-title: "Packaging and Deploying SharePoint Solutions | Microsoft Docs"
+title: "Packaging and Deploying SharePoint Solutions"
 description: Package and deploy SharePoint solutions, which are deployed to a SharePoint server by using a solution package (.wsp) file.
 ms.date: "02/02/2017"
 ms.topic: overview
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Package and deploy SharePoint solutions
 

@@ -1,17 +1,12 @@
 ---
 title: Control the visibility of an icon or decorator in a DSL
 description: Learn how you can control the visibility of an icon or decorator depending on the state of properties in the model.
-ms.custom:
-- SEO-VS-2020
-- kr2b-contr-experiment
 ms.date: 06/24/2022
 ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
 ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
 ---
 
 # Control the visibility of an icon or decorator

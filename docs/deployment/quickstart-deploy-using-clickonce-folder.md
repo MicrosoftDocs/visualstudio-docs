@@ -5,14 +5,11 @@ ms.date: 09/26/2022
 ms.topic: quickstart
 helpviewer_keywords:
   - "deployment, local folder, ClickOnce"
-ms.assetid: adb461c4-812a-4b8c-b2ab-96002379f6a9
 author: john-hart
 ms.author: JohnHart
 manager: jmartens
 ms.technology: vs-ide-deployment
 monikerRange: '>= vs-2019'
-ms.workload:
-  - "multiple"
 ---
 # Deploy a .NET Windows desktop application using ClickOnce
 
