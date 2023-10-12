@@ -82,6 +82,27 @@ landingContent:
           - text: Set a watch on variables
             url: watch-and-quickwatch-windows.md
 
+  - title: Measure performance
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: Get started analyzing CPU usage
+            url: ../profiling/beginners-guide-to-performance-profiling.md
+          - text: Get started measuring memory usage
+            url: ../profiling/memory-usage.md
+      - linkListType: overview
+        links:
+          - text: First look at profiling tools
+            url: ../profiling/profiling-feature-tour.md
+          - text: Which tool should I use?
+            url: ../profiling/choose-performance-tool.md
+          - text: Ways to run profiling tools
+            url: running-profiling-tools-with-or-without-the-debugger.md
+      - linkListType: concept
+        links:
+         - text: Understanding performance collection methods
+           url: ../profiling/understanding-performance-collection-methods-perf-profiler.md
+
   # Card
   - title: Collaborate
     linkLists:
