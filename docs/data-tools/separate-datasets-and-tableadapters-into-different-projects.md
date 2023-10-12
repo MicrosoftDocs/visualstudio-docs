@@ -1,6 +1,6 @@
 ---
 title: Use separate projects error
-description: Learn how to separate datasets and TableAdapters into different projects, so you can quickly separate application layers and generate N-tier data applications when developing ADO.NET .NET Framework applications in Visual Studio.
+description: Learn how to separate ADO.NET datasets and TableAdapters into different projects, so you can quickly separate application layers and generate N-tier data applications when developing .NET Framework applications in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:

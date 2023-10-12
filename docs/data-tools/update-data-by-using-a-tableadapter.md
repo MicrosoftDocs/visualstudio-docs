@@ -1,6 +1,6 @@
 ---
 title: Update data by using a TableAdapter
-description: Update data in a dataset in ADO.NET .NET Framework application development in Visual Studio. Send the data back to the database by calling the Update method of a TableAdapter.
+description: Update data in a dataset in .NET Framework application development in Visual Studio. Send the data back to the database by calling the Update method of a ADO.NET TableAdapter.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:

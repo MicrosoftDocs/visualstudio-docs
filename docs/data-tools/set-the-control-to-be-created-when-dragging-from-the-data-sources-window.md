@@ -1,6 +1,6 @@
 ---
 title: Set control to create when dragging
-description: Discover how to set the control to be created when you drag from the Data Sources window onto the WPF designer or Windows Forms designer when developing ADO.NET .NET Framework applications in Visual Studio.
+description: Discover how to set the control to be created when you drag from the Data Sources window onto the WPF designer or Windows Forms designer when developing .NET Framework applications in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
