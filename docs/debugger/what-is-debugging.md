@@ -1,7 +1,6 @@
 ---
 title: "What is debugging?"
 description: "Understand what it means to debug an app"
-ms.custom: "debug-experiment"
 ms.date: "10/17/2018"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -10,8 +9,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # What is debugging?
 

@@ -10,8 +10,6 @@ ms.technology: vs-ide-general
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.General
 - VS.ToolsOptionsPages.Text_Editor.Basic.Code_Style.General
-ms.workload:
-- multiple
 ---
 # Code style preferences
 

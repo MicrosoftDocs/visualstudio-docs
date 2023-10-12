@@ -1,5 +1,5 @@
 ---
-title: Using Visual Studio Interop Assemblies | Microsoft Docs
+title: Using Visual Studio Interop Assemblies
 description: Learn how Visual Studio interop assemblies allow managed applications to access the COM interfaces that provide Visual Studio extensibility.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - Visual Studio, interop assemblies
 - interop assemblies, Visual Studio
 - managed VSPackages, interop assemblies
-ms.assetid: 1043eb95-4f0d-4861-be21-2a25395b3b3c
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Using Visual Studio Interop Assemblies
 

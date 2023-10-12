@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically display a string in a worksheet cell"
+title: "Programmatically display a string in a worksheet cell"
 description: Learn how you can programmatically display a string in a Microsoft Excel worksheet cell by using either a NamedRange control or a native Excel range object.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically display a string in a worksheet cell
 

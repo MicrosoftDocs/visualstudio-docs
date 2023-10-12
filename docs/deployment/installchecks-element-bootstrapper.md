@@ -1,5 +1,5 @@
 ---
-title: "&lt;InstallChecks&gt; Element (Bootstrapper) | Microsoft Docs"
+title: "&lt;InstallChecks&gt; Element (Bootstrapper)"
 description: The InstallChecks element supports starting a variety of tests on the local computer to make sure that all prerequisites for an application have been installed.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -10,13 +10,10 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<InstallChecks> element [bootstrapper]"
-ms.assetid: ad329c87-b0ad-4304-84de-ae9496514c42
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # &lt;InstallChecks&gt; element (bootstrapper)
 

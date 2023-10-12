@@ -4,8 +4,6 @@ description: Learn about how you can add connections to Azure services in Visual
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
-ms.custom: vs-azure
-ms.workload: azure-vs
 ms.topic: overview
 ms.date: 08/01/2022
 ms.author: ghogen

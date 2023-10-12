@@ -7,8 +7,6 @@ manager: jmartens
 ms.technology: vs-ide-general
 ms.topic: tutorial
 ms.date: 02/28/2023
-ms.custom: 
-- vs-acquisition
 ---
 # Tutorial: Add UI controls to the picture viewer Windows Forms app in Visual Studio
 

@@ -1,19 +1,16 @@
 ---
 description: "This function retrieves a copy of one or more files for viewing and compiling but not for editing."
-title: SccGet Function | Microsoft Docs
+title: SccGet Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccGet
 helpviewer_keywords:
 - SccGet function
-ms.assetid: 09a18bd2-b788-411a-9da6-067d806e46f6
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # SccGet function
 

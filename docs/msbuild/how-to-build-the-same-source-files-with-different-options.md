@@ -8,13 +8,10 @@ helpviewer_keywords:
 - MSBuild, properties
 - project properties, modifying
 - Hello World example [Visual Studio]
-ms.assetid: d14f1212-ddd9-434f-b138-f840011b0fb2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # How to: Build the same source files with different options
 

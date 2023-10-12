@@ -1,18 +1,15 @@
 ---
-title: Extending Projects | Microsoft Docs
+title: Extending Projects
 description: Learn how to create your own custom project types in the Visual Studio SDK and how to manage different types of Visual Studio solutions.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - solutions [Visual Studio]
 - projects [Visual Studio]
-ms.assetid: 096d273d-4fe9-4f24-9b00-470bfbdf4bdf
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Extend projects
 

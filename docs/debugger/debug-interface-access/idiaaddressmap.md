@@ -1,19 +1,16 @@
 ---
 description: "Provides control over how the DIA SDK computes virtual and relative virtual addresses for debug objects."
-title: "IDiaAddressMap | Microsoft Docs"
+title: "IDiaAddressMap"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaAddressMap interface"
-ms.assetid: e6467529-508c-4328-85d7-89444ae4d1c1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaAddressMap
 

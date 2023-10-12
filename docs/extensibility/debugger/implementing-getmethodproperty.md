@@ -1,18 +1,15 @@
 ---
-title: Implementing GetMethodProperty | Microsoft Docs
+title: Implementing GetMethodProperty
 description: Learn how Visual Studio obtains information about the current method on the stack frame by using the GetDebugProperty of the debug engine.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - GetMethodProperty method
 - IDebugExpressionEvaluator2 property
-ms.assetid: 6305874f-a2c4-4432-834c-07530ea84bff
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Implement GetMethodProperty
 

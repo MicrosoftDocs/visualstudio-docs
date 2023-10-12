@@ -11,8 +11,6 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.workload:
-  - "multiple"
 ---
 # /NoSplash (devenv.exe)
 

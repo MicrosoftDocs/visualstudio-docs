@@ -1,7 +1,6 @@
 ---
-title: Manage exceptions with the debugger | Microsoft Docs
+title: Manage exceptions with the debugger
 description: Learn how to specify which exceptions the debugger breaks on, at which point you want the debugger to break, and how breaks are handled.
-
 ms.date: 01/23/2023
 ms.topic: how-to
 f1_keywords: 
@@ -28,13 +27,10 @@ helpviewer_keywords:
   - common language runtime, exceptions
   - native run-time checks
   - exceptions, debugging
-ms.assetid: 43a77fa8-37d0-4c98-a334-0134dbca4ece
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # Manage exceptions with the debugger in Visual Studio
 

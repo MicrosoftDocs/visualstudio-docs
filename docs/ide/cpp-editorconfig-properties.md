@@ -11,8 +11,6 @@ dev_langs:
  - CPP
 ms.prod: visual-studio-windows
 ms.topic: reference
-ms.workload:
-  - "cplusplus"
 monikerRange: vs-2019
 ---
 # C++ EditorConfig formatting conventions

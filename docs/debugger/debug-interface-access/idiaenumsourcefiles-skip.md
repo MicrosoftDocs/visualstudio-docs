@@ -1,19 +1,16 @@
 ---
 description: "Skips a specified number of source files in an enumeration sequence."
-title: "IDiaEnumSourceFiles::Skip | Microsoft Docs"
+title: "IDiaEnumSourceFiles::Skip"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumSourceFiles::Skip method"
-ms.assetid: 4821e6dd-d33f-403d-857d-e3ae81e4a9e3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaEnumSourceFiles::Skip
 

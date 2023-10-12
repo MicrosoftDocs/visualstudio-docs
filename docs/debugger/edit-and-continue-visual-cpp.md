@@ -1,5 +1,5 @@
 ---
-title: "Edit and Continue (C++) | Microsoft Docs"
+title: "Edit and Continue (C++)"
 description: Edit and Continue is available for C++ projects. Learn what edits are supported, and how to can control whether, and when, your edits are applied.
 ms.date: "05/31/2018"
 ms.topic: "conceptual"
@@ -12,13 +12,10 @@ helpviewer_keywords:
   - "Edit and Continue [C++]"
   - "debugging [C++], Edit and Continue"
   - "C/C++, Edit and Continue"
-ms.assetid: 1815251e-a877-433e-9e5e-69bd9ba254c7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "cplusplus"
 ---
 # Edit and Continue (C++)
 

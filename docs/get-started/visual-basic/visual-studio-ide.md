@@ -3,15 +3,13 @@ title: Overview for Visual Basic developers
 description: Learn about using Visual Studio to edit, debug, and build code, and then publish an app as a Visual Basic developer.
 ms.date: 01/31/2023
 ms.technology: vs-ide-general
-ms.custom: vs-acquisition, get-started
+ms.custom: vs-acquisition
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 dev_langs:
 - VB
-ms.workload:
-- dotnet
 ---
 # Welcome to the Visual Studio IDE | Visual Basic
 

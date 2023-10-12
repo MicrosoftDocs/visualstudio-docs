@@ -11,13 +11,10 @@ helpviewer_keywords:
   - disallowURLActivation
   - URL activation, ClickOnce applications
   - ClickOnce deployment, URL activation
-ms.assetid: a337a582-e67c-409a-b52e-607cd1a8fc57
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # How to: Disable URL activation of ClickOnce applications by using the Designer
 

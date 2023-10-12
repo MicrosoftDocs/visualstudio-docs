@@ -1,5 +1,5 @@
 ---
-title: GenerateApplicationManifest Task | Microsoft Docs
+title: GenerateApplicationManifest Task
 description: Use the MSBuild GenerateApplicationManifest task to generates a ClickOnce application manifest or a native manifest.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,18 +9,14 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, GenerateApplicationManifest task
 - HostInBrowser property (MSBuild)
 - GenerateApplicationManifest task [MSBuild]
-ms.assetid: a494102b-0cb2-4755-8e2a-d2c0f39fac1d
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # GenerateApplicationManifest task
 

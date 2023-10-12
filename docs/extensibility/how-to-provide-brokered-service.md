@@ -1,18 +1,15 @@
 ---
-title: 'How to: Provide a brokered service'
+title: 'Provide a brokered service'
 description: Learn how to design, create, register, and proffer a brokered service for consumption by yourself and others.
 monikerRange: '>= vs-2019'
 ms.date: 01/07/2022
 ms.topic: how-to
 helpviewer_keywords:
 - brokered services, providing
-ms.assetid: e09556bb-41e4-46e2-a14d-47e09d67f8a1
 author: aarnott
 ms.author: andarno
 manager: ansonh
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # How to: Provide a brokered service
 

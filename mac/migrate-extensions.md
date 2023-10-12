@@ -6,7 +6,6 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 12/14/2020
 ms.technology: vs-ide-general
-ms.assetid: 5DA76197-7859-421f-AC45-401F22F5D794
 ms.topic: how-to
 ---
 # Troubleshooting: How do I release a new version of my existing extension in Visual Studio for Mac?

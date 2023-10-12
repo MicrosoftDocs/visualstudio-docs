@@ -14,8 +14,6 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - uwp
 ---
 # How to trigger suspend, resume, and background events while debugging UWP apps in Visual Studio
 

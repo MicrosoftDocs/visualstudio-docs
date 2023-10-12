@@ -1,5 +1,5 @@
 ---
-title: "Symbol Load Information Dialog Box | Microsoft Docs"
+title: "Symbol Load Information Dialog Box"
 description: Review the Symbol Load Information dialog box, which opens in the Visual Studio debugger when you right-click on the Modules window and choose Symbol Load Information.
 ms.date: "11/04/2016"
 ms.topic: "ui-reference"
@@ -10,13 +10,10 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-ms.assetid: 414580a0-175e-4a61-b82e-6755c8f7d208
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Symbol Load Information Dialog Box
 

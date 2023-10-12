@@ -1,5 +1,5 @@
 ---
-title: "Multiple Categories Are Present | Microsoft Docs"
+title: "Multiple Categories Are Present"
 description: Learn that when a section that contains more than one kind of activity for a given time range, two colors are displayed, one vertically stacked on the other.
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
@@ -7,13 +7,10 @@ f1_keywords:
   - "vs.cv.threads.timeline.multicategory"
 helpviewer_keywords:
   - "Concurrency Visualizer, Multiple Categories Are Present"
-ms.assetid: f5c7ec07-8052-4df7-a0ca-7ec8bb3eee18
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Multiple categories are present
 

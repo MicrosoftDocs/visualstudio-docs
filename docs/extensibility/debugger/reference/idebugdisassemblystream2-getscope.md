@@ -1,19 +1,16 @@
 ---
 description: "Gets the scope of the disassembly stream."
-title: IDebugDisassemblyStream2::GetScope | Microsoft Docs
+title: IDebugDisassemblyStream2::GetScope
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDisassemblyStream2::GetScope
 helpviewer_keywords:
 - IDebugDisassemblyStream2::GetScope
-ms.assetid: 71c6e632-642a-42d8-a995-77e4ac190a5b
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

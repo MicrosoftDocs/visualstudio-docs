@@ -1,19 +1,16 @@
 ---
 description: "Returns the next set of DEBUG_PROPERTY_INFO elements from the enumeration."
-title: IEnumDebugPropertyInfo2::Next | Microsoft Docs
+title: IEnumDebugPropertyInfo2::Next
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugPropertyInfo2::Next
 helpviewer_keywords:
 - IEnumDebugPropertyInfo2::Next
-ms.assetid: 4eb8c7c3-aadf-4187-abee-c0620308a3eb
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

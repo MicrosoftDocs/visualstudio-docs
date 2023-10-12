@@ -1,5 +1,5 @@
 ---
-title: 'How to: Open Project-Specific Editors | Microsoft Docs'
+title: 'Open Project-Specific Editors'
 description: Learn how to implement the OpenItem method with a project-specific editor so that a project can open a file bound to an editor for that project.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - project types, opening a project-specific editor
 - editors [Visual Studio SDK], opening project-specific editors
 - projects [Visual Studio SDK], opening folders
-ms.assetid: 83e56d39-c97b-4c6b-86d6-3ffbec97e8d1
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # How to: Open project-specific editors
 

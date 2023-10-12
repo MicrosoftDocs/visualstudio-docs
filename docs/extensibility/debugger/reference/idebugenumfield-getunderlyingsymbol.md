@@ -1,19 +1,16 @@
 ---
 description: "This method returns an IDebugField that represents the name of the enumeration."
-title: IDebugEnumField::GetUnderlyingSymbol | Microsoft Docs
+title: IDebugEnumField::GetUnderlyingSymbol
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEnumField::GetUnderlyingSymbol
 helpviewer_keywords:
 - IDebugEnumField::GetUnderlyingSymbol method
-ms.assetid: c3b8a117-6708-4cfd-8ffc-5f007d706bc5
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

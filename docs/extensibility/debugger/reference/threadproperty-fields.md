@@ -1,19 +1,16 @@
 ---
 description: "Specifies what information about a thread is to be retrieved."
-title: THREADPROPERTY_FIELDS | Microsoft Docs
+title: THREADPROPERTY_FIELDS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - THREADPROPERTY_FIELDS
 helpviewer_keywords:
 - THREADPROPERTY_FIELDS enumeration
-ms.assetid: 5b88acb9-03ea-4c29-a788-f0087dccbe23
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

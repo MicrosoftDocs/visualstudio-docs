@@ -21,8 +21,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # How to: Add or remove references by using the Reference Manager
 

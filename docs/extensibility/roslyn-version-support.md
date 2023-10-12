@@ -9,8 +9,6 @@ author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # .NET compiler platform package version reference
 

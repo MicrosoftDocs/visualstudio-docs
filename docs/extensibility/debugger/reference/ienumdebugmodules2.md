@@ -1,19 +1,16 @@
 ---
 description: "This interface enumerates a list of modules."
-title: IEnumDebugModules2 | Microsoft Docs
+title: IEnumDebugModules2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugModules2
 helpviewer_keywords:
 - IEnumDebugModules2
-ms.assetid: 4fe28074-a960-41ad-b74d-b57f04c0c0ad
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IEnumDebugModules2
 

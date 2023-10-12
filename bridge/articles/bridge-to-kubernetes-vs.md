@@ -6,7 +6,6 @@ ms.author: ghogen
 author: ghogen
 manager: jmartens
 ms.technology: bridge
-ms.custom: "contperf-fy22q1"
 ms.topic: tutorial 
 ms.date: 08/11/2022
 ---

@@ -1,5 +1,5 @@
 ---
-title: TemplateID Element (Visual Studio Templates) | Microsoft Docs
+title: TemplateID Element (Visual Studio Templates)
 description: Learn about the TemplateID element and how it specifies an identifier for an item template that is categorized into a group of item templates by the TemplateGroupID element.
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
@@ -9,12 +9,9 @@ f1_keywords:
 helpviewer_keywords:
 - <TemplateID> element [Visual Studio Templates]
 - TemplateID element [Visual Studio Templates]
-ms.assetid: 6ca24b4e-0325-4a9e-855e-0cbbe7361d8f
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.workload:
-- vssdk
 ---
 # TemplateID Element (Visual Studio Templates)
 

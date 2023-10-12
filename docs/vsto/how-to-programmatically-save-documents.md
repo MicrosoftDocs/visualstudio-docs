@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically save documents"
+title: "Programmatically save documents"
 description: Learn how you can use Visual Studio to programmatically save a document without changing the name of the document, or with a new name.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically save documents
 

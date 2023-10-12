@@ -1,5 +1,5 @@
 ---
-title: "Guidelines for Importing Reusable Workflows | Microsoft Docs"
+title: "Guidelines for Importing Reusable Workflows"
 description: Review guidelines for importing reusable workflows that were created in SharePoint Designer into Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -15,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Guidelines for importing reusable workflows
 

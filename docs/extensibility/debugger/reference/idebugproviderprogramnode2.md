@@ -1,19 +1,16 @@
 ---
 description: "This interface marshals program-related interfaces across process boundaries."
-title: IDebugProviderProgramNode2 | Microsoft Docs
+title: IDebugProviderProgramNode2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProviderProgramNode2
 helpviewer_keywords:
 - IDebugProviderProgramNode2
-ms.assetid: f0bca1cc-afbe-44cf-b5aa-d078aa685d24
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugProviderProgramNode2
 

@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure a computer to develop Office solutions"
+title: "Configure a computer to develop Office solutions"
 description: Learn how to configure a development computer so that you can use the Microsoft Office developer tools in Visual Studio.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Configure a computer to develop Office solutions
 

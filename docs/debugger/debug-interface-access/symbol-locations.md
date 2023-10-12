@@ -1,6 +1,6 @@
 ---
 description: "Most symbols have a defined location within the image file."
-title: "Symbol Locations | Microsoft Docs"
+title: "Symbol Locations"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -8,13 +8,10 @@ dev_langs:
 helpviewer_keywords:
   - "LocationType values"
   - "symbols [DIA SDK], locations"
-ms.assetid: 7c8cd8fe-169e-4161-9cff-5e9015984add
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Symbol Locations
 

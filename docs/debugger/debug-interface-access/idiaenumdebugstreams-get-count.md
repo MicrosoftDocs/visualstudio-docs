@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the number of debug streams."
-title: "IDiaEnumDebugStreams::get_Count | Microsoft Docs"
+title: "IDiaEnumDebugStreams::get_Count"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumDebugStreams::get_Count method"
-ms.assetid: 5c13fa9a-b35e-47b0-806f-1f53bfe1ba89
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaEnumDebugStreams::get_Count
 

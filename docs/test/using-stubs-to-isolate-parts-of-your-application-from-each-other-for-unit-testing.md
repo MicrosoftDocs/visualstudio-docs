@@ -6,8 +6,6 @@ ms.topic: how-to
 ms.author: oscalles
 manager: aajohn
 ms.technology: vs-ide-test
-ms.workload: 
-  - multiple
 author: ocallesp
 dev_langs: 
   - CSharp

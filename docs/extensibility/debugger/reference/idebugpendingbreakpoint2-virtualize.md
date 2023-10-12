@@ -1,6 +1,6 @@
 ---
 description: "Toggles the virtualized state of this pending breakpoint."
-title: IDebugPendingBreakpoint2::Virtualize | Microsoft Docs
+title: IDebugPendingBreakpoint2::Virtualize
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - Virtualize method
 - IDebugPendingBreakpoint2::Virtualize method
-ms.assetid: 58c8e9a5-4494-47c2-bddb-56f628da6a2d
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

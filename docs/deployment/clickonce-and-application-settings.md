@@ -1,5 +1,5 @@
 ---
-title: "ClickOnce and Application Settings | Microsoft Docs"
+title: "ClickOnce and Application Settings"
 description: Learn how application settings files work in a ClickOnce application and how ClickOnce migrates settings when the user upgrades to the next version.
 ms.date: "08/03/2022"
 ms.topic: "conceptual"
@@ -9,13 +9,10 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "ClickOnce deployment, application settings"
-ms.assetid: 891caba6-faef-4a3c-8f71-60e6fadb60eb
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # ClickOnce and application settings
 

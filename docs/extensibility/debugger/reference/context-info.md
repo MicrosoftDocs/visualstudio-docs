@@ -1,19 +1,16 @@
 ---
 description: "This structure describes a memory context or code context."
-title: CONTEXT_INFO | Microsoft Docs
+title: CONTEXT_INFO
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - CONTEXT_INFO
 helpviewer_keywords:
 - CONTEXT_INFO structure
-ms.assetid: 6b513f4e-e7b0-4969-adf0-2205ccc1e09b
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

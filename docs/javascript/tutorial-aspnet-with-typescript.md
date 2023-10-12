@@ -10,8 +10,6 @@ manager: jmartens
 ms.technology: vs-javascript
 dev_langs:
   - JavaScript
-ms.workload:
-  - "nodejs"
 ---
 # Tutorial: Create an ASP.NET Core app with TypeScript in Visual Studio
 

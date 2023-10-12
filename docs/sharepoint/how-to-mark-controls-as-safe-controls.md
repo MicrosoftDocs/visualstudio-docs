@@ -1,5 +1,5 @@
 ---
-title: "How to: Mark Controls as Safe Controls | Microsoft Docs"
+title: "Mark Controls as Safe Controls"
 description: Mark controls as safe controls in the Safe Control Entries property of a SharePoint project item or in the Package Designer when you add an assembly.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Mark controls as safe controls
 

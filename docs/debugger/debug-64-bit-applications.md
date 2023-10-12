@@ -1,5 +1,5 @@
 ---
-title: Debug 64-Bit Applications | Microsoft Docs
+title: Debug 64-Bit Applications
 description: Learn how to debug a 64-bit application with Visual Studio. There are tips for troubleshooting unexpected debugging delays. 
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -11,13 +11,10 @@ dev_langs:
 helpviewer_keywords: 
   - debugging [Visual Studio], 64-bit
   - 64-bit debugging
-ms.assetid: db648e5f-6375-4e2d-aa98-eb7261958927
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 monikerRange: "<=vs-2019"
 ---
 # Debug 64-Bit Applications

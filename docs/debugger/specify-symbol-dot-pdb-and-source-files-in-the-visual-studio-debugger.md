@@ -3,7 +3,6 @@ title: "Symbol / PDB files in the Visual Studio debugger"
 titleSuffix: ""
 description: "Learn how to configure symbol & source files and how to configure them in the Visual Studio debugger."
 ms.date: "05/26/2023"
-ms.custom: "contperf-fy21q4"
 ms.topic: "how-to"
 f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.Native"
@@ -24,13 +23,10 @@ helpviewer_keywords:
   - "dbg files"
   - "pdb files"
   - "debugger"
-ms.assetid: 1105e169-5272-4e7c-b3e7-cda1b7798a6b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Specify symbol (.pdb) and source files in the Visual Studio debugger (C#, C++, Visual Basic, F#)
 

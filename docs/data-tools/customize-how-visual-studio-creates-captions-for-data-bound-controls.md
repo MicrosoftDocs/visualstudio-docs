@@ -8,13 +8,10 @@ helpviewer_keywords:
 - smart captions
 - captions, data-bound
 - Data Sources Window, label captions
-ms.assetid: 6d4d15f8-4d78-42fd-af64-779ae98d62c8
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Customize how Visual Studio creates captions for data-bound controls
 

@@ -1,19 +1,16 @@
 ---
 description: "Represents a numeric alias for a variable."
-title: IDebugAlias | Microsoft Docs
+title: IDebugAlias
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugAlias
 helpviewer_keywords:
 - IDebugAlias interface
-ms.assetid: 3cc4c9a4-7805-4239-b00e-eb4a024f3c55
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugAlias
 

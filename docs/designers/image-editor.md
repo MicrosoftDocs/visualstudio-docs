@@ -10,8 +10,6 @@ author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-designers
-ms.workload:
-- multiple
 ---
 # What is the Image Editor in Visual Studio?
 

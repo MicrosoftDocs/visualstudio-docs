@@ -1,5 +1,5 @@
 ---
-title: "IntelliTrace Features | Microsoft Docs"
+title: "IntelliTrace Features"
 description: Learn about IntelliTrace features in Visual Studio. Use IntelliTrace to record events and method calls in your application.
 ms.date: "09/19/2018"
 ms.topic: "conceptual"
@@ -20,8 +20,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IntelliTrace Features (C#, Visual Basic, C++)
 

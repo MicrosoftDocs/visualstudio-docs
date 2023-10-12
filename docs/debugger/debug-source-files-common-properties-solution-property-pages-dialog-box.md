@@ -17,13 +17,10 @@ helpviewer_keywords:
   - "debugging [Visual Studio], specifying source and symbol files"
   - "source files, specifying in debugger"
   - "debugger, source files"
-ms.assetid: 0af11464-eeb1-4d0b-87a6-0cc96779afb1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Debug Source Files, Common Properties, Solution Property Pages Dialog Box
 

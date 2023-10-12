@@ -1,5 +1,5 @@
 ---
-title: Breakpoint Errors | Microsoft Docs
+title: Breakpoint Errors
 description: Learn about the process when a breakpoint attempts to bind to code but fails and how to troubleshoot breakpoint errors.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - breakpoints, errors
 - debugging [Debugging SDK], breakpoint errors
 - errors [Debugging SDK]
-ms.assetid: 79221c6b-a924-4c8e-a778-e312e4e0c0c8
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Breakpoint errors
 

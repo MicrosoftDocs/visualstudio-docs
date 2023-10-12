@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the type of the target CPU."
-title: "IDiaSymbol::get_machineType | Microsoft Docs"
+title: "IDiaSymbol::get_machineType"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_machineType method"
-ms.assetid: 30870b10-6f32-45c6-a0d7-020dea707710
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_machineType
 

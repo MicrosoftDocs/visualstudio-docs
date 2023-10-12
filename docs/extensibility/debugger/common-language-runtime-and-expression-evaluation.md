@@ -1,18 +1,15 @@
 ---
-title: Common Language Runtime and Expression Evaluation | Microsoft Docs
+title: Common Language Runtime and Expression Evaluation
 description: Learn how the Common Language Runtime interacts with the debug engine and how to integrate a proprietary programming language into the Visual Studio IDE.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation, and common language runtime
-ms.assetid: b36c1eb5-1aaf-48a6-b287-ee7a273d2b1c
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Common language runtime and expression evaluation
 

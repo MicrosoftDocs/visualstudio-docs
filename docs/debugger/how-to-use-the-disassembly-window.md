@@ -1,7 +1,6 @@
 ---
-title: View Disassembly Code in the debugger | Microsoft Docs
+title: View Disassembly Code in the debugger
 description: Use the Disassembly window in Visual Studio to show assembly code corresponding to the instructions created by the compiler.
-
 ms.date: 08/15/2023
 ms.topic: how-to
 f1_keywords: 
@@ -17,13 +16,10 @@ helpviewer_keywords:
   - breakpoints, Disassembly window
   - Disassembly window
   - machine code
-ms.assetid: eaf84dd0-c82d-481b-af51-690b74e7794c
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # View disassembly code in the Visual Studio debugger (C#, C++, Visual Basic, F#)
 

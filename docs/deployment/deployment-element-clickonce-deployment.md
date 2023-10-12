@@ -1,5 +1,5 @@
 ---
-title: "&lt;deployment&gt; Element (ClickOnce Deployment) | Microsoft Docs"
+title: "&lt;deployment&gt; Element (ClickOnce Deployment)"
 description: The deployment element identifies the attributes used for the deployment of updates and exposure to the system.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -16,13 +16,10 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<deployment> element [ClickOnce deployment manifest]"
-ms.assetid: 4fafa9c2-97a0-4cea-b8fd-9746dca33af4
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # &lt;deployment&gt; element (ClickOnce deployment)
 

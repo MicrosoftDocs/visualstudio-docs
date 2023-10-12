@@ -11,13 +11,10 @@ helpviewer_keywords:
   - ClickOnce deployment, data
   - deploying applications [ClickOnce], data files
   - data access, ClickOnce applications
-ms.assetid: 89ee46ef-bc8c-4ab0-a2ac-1220f9da06fc
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # How to: Include a data file in a ClickOnce application
 

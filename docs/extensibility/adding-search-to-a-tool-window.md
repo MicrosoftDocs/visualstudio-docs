@@ -1,17 +1,14 @@
 ---
-title: Adding Search to a Tool Window | Microsoft Docs
+title: Adding Search to a Tool Window
 description: Learn how to add search functionality, including a search box, filtering, and a progress indicator, to a tool window in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - tool windows, adding search
-ms.assetid: f78c4892-8060-49c4-8ecd-4360f1b4d133
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Add search to a tool window
 

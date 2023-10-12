@@ -10,8 +10,6 @@ author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Supporting EditorConfig for your language service
 

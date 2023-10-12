@@ -1,17 +1,14 @@
 ---
-title: Expression Evaluation Context | Microsoft Docs
+title: Expression Evaluation Context
 description: Learn about expression evaluation context, which represents a context for expression evaluation and exists when a program has stopped at a breakpoint.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - expression evaluation, context
-ms.assetid: a2fd3758-09bd-45ae-8ecc-2d276c0036ba
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Expression evaluation context
 

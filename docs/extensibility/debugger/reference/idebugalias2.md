@@ -1,17 +1,14 @@
 ---
 description: "Represents a numeric alias for a variable, and enables an expression evaluator (EE) to obtain the application domain for the alias."
-title: IDebugAlias2 | Microsoft Docs
+title: IDebugAlias2
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugAlias2 interface
-ms.assetid: 5252dcbb-8bfe-4d8a-a8e5-b022b194df19
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugAlias2
 

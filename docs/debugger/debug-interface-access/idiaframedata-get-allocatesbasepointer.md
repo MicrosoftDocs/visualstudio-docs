@@ -1,19 +1,16 @@
 ---
 description: "IDiaFrameData::get_allocatesBasePointer retrieves a flag that indicates whether the base pointer is allocated for code in this address range."
-title: "IDiaFrameData::get_allocatesBasePointer | Microsoft Docs"
+title: "IDiaFrameData::get_allocatesBasePointer"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaFrameData::get_allocatesBasePointer method"
-ms.assetid: 8a33db5d-008c-4fe5-b64f-210c9b77f686
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaFrameData::get_allocatesBasePointer
 

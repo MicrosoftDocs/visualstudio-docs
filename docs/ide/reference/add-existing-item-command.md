@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - File.AddExistingItem command
 - Add Existing Item command
-ms.assetid: 41f56131-d4c7-4f81-83b7-bdac713ea870
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Add Existing Item Command
 

@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a list of the code contexts for a given position in a source file."
-title: IDebugProgram2::EnumCodeContexts | Microsoft Docs
+title: IDebugProgram2::EnumCodeContexts
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgram2::EnumCodeContexts
 helpviewer_keywords:
 - IDebugProgram2::EnumCodeContexts
-ms.assetid: 478e06a2-07bb-4841-8887-deab0f42ebd0
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

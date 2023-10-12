@@ -1,18 +1,15 @@
 ---
 description: "Creates an object that uses a constructor given evaluation flag settings and a timeout value."
-title: IDebugFunctionObject2::CreateObject | Microsoft Docs
+title: IDebugFunctionObject2::CreateObject
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugFunctionObject2::CreateObject
 - CreateObject
-ms.assetid: 148de615-941e-4b64-ab11-75b692aae465
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

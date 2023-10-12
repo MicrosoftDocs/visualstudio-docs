@@ -1,19 +1,16 @@
 ---
 description: "Provides an address map to support image layout translations."
-title: "IDiaAddressMap::set_addressMap | Microsoft Docs"
+title: "IDiaAddressMap::set_addressMap"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaAddressMap::set_addressMap method"
-ms.assetid: 81e82073-089b-43d5-af39-49d7a4907c7a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaAddressMap::set_addressMap
 

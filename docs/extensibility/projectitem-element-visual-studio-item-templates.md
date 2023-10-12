@@ -1,5 +1,5 @@
 ---
-title: ProjectItem Element (Visual Studio Item Templates) | Microsoft Docs
+title: ProjectItem Element (Visual Studio Item Templates)
 description: Learn about the ProjectItem element for item templates and how it accepts different attributes depending on whether the template is for a project or an item.
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
@@ -9,12 +9,9 @@ f1_keywords:
 helpviewer_keywords:
 - <ProjectItem> element [Visual Studio item templates]
 - ProjectItem element [Visual Studio item templates]
-ms.assetid: 9ed94112-0c38-49df-b728-0dd2d0d1eb47
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.workload:
-- vssdk
 ---
 # ProjectItem element (Visual Studio item templates)
 

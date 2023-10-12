@@ -1,19 +1,16 @@
 ---
 description: "Creates a copy of a data object specific to the expression evaluator (EE)."
-title: IPropertyProxyEESide::CreateReplacementObject | Microsoft Docs
+title: IPropertyProxyEESide::CreateReplacementObject
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IPropertyProxyEESide::CreateReplacementObject
 helpviewer_keywords:
 - IPropertyProxyEESide::CreateReplacementObject
-ms.assetid: 0cfe79b8-c3f1-48b0-a225-e39dee2c92fe
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

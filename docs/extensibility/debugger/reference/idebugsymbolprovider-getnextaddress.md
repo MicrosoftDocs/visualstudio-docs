@@ -1,19 +1,16 @@
 ---
 description: "Gets the debug address that follows a given debug address in a method."
-title: IDebugSymbolProvider::GetNextAddress | Microsoft Docs
+title: IDebugSymbolProvider::GetNextAddress
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugSymbolProvider::GetNextAddress
 helpviewer_keywords:
 - IDebugSymbolProvider::GetNextAddress method
-ms.assetid: 704eeb94-cb13-49d1-82b6-7d83ed0f19c0
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

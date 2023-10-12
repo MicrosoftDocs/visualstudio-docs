@@ -8,8 +8,6 @@ f1_keywords:
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-test
-ms.workload:
-- multiple
 author: mikejo5000
 ---
 # Generate unit tests for fuzz testing by using IntelliTest

@@ -1,5 +1,5 @@
 ---
-title: MSBuild Project File Schema Reference | Microsoft Docs
+title: MSBuild Project File Schema Reference
 description: See a table listing all the MSBuild XML Schema elements with their available attributes and child elements.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,16 +7,12 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, file schema
-ms.assetid: d9a68146-1f43-4621-ac78-2c8c3f400936
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # MSBuild project file schema reference
 

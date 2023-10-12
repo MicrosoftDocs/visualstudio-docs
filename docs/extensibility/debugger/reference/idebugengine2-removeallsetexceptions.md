@@ -1,19 +1,16 @@
 ---
 description: "Removes the list of exceptions the IDE has set for a particular run-time architecture or language."
-title: IDebugEngine2::RemoveAllSetExceptions | Microsoft Docs
+title: IDebugEngine2::RemoveAllSetExceptions
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngine2::RemoveAllSetExceptions
 helpviewer_keywords:
 - IDebugEngine2::RemoveAllSetExceptions
-ms.assetid: 165fbe89-802d-4d99-85ca-c10fd6cccc09
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

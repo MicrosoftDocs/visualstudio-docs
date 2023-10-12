@@ -1,18 +1,15 @@
 ---
-title: Handling Specialized Deployment | Microsoft Docs
+title: Handling Specialized Deployment
 description: Learn how to handle the specialized deployment of an application project in Visual Studio. For example, a deployment to a Web server or a device.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - deploying applications [Visual Studio SDK]
 - specialized deployment
-ms.assetid: de068b6a-e806-45f0-9dec-2458fbb486f7
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Handle specialized deployment
 

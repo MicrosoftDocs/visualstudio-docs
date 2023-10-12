@@ -1,19 +1,16 @@
 ---
 description: "Retrieves data describing a section contribution, that is, a contiguous block of memory contributed to the image by a compiland."
-title: "IDiaSectionContrib | Microsoft Docs"
+title: "IDiaSectionContrib"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSectionContrib interface"
-ms.assetid: 371d40f6-ca0e-4d7e-9210-64d3768996c6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSectionContrib
 

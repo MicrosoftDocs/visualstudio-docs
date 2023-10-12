@@ -1,18 +1,15 @@
 ---
-title: Exposing Events in the Visual Studio SDK | Microsoft Docs
+title: Exposing Events in the Visual Studio SDK
 description: Learn about the Visual Studio SDK methods and registry entries that expose events for projects and project items.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - events [Visual Studio], exposing
 - automation [Visual Studio SDK], exposing events
-ms.assetid: 70bbc258-c221-44f8-b0d7-94087d83b8fe
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Expose events in the Visual Studio SDK
 

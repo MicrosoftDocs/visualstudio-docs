@@ -6,13 +6,10 @@ ms.topic: conceptual
 f1_keywords:
 - TypeBrowser.UI
 - ActivityTypeResolver.UI
-ms.assetid: 864b60b6-a070-4e5c-aa5b-a25341b57ea6
 author: jodavis
 ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
-ms.workload:
-- dotnet
 ---
 # Browse and Select a .NET Type Dialog Box
 

@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically hide text in documents"
+title: "Programmatically hide text in documents"
 description: Learn how you can hide text in a Microsoft Word document by setting the Hidden property of the Font for a particular range of text.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically hide text in documents
 

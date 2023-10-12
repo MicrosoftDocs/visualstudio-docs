@@ -1,5 +1,5 @@
 ---
-title: "C/C++ Assertions | Microsoft Docs"
+title: "C/C++ Assertions"
 description: Read about how C/C++ assertions work in Visual Studio debugging. An assertion specifies a condition that you expect to be true at a point in your program.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -23,13 +23,10 @@ helpviewer_keywords:
   - "_DEBUG macro"
   - "Assertion Failed dialog box"
   - "failures, finding locations"
-ms.assetid: 2d7b0121-71aa-414b-bbb6-ede1093d0bfc
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "cplusplus"
 ---
 # C/C++ Assertions
 

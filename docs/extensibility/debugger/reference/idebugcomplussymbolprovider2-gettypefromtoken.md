@@ -1,18 +1,15 @@
 ---
 description: "IDebugComPlusSymbolProvider2::GetTypeFromToken retrieves a type given its token."
-title: IDebugComPlusSymbolProvider2::GetTypeFromToken | Microsoft Docs
+title: IDebugComPlusSymbolProvider2::GetTypeFromToken
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider2::GetTypeFromToken
 - GetTypeFromToken
-ms.assetid: 4452bc5d-0225-40e0-a467-c472a5c7c4ee
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

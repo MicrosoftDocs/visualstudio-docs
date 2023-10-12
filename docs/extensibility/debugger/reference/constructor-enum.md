@@ -1,19 +1,16 @@
 ---
 description: "Selects different types of constructors."
-title: CONSTRUCTOR_ENUM | Microsoft Docs
+title: CONSTRUCTOR_ENUM
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - CONSTRUCTOR_ENUM
 helpviewer_keywords:
 - CONSTRUCTOR_ENUM enumeration
-ms.assetid: 6d335b2c-66bc-460c-a4a6-4f3f1b697c2c
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

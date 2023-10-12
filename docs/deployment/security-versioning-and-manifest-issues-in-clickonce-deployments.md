@@ -22,8 +22,6 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # Security, versioning, and manifest issues in ClickOnce deployments
 

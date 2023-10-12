@@ -1,5 +1,5 @@
 ---
-title: Session Debug Manager | Microsoft Docs
+title: Session Debug Manager
 description: Learn about the session debug manager, which manages multiple debug engines debugging programs in multiple processes across any number of machines.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -10,13 +10,10 @@ helpviewer_keywords:
 - session debug manager
 - session debug manager, debug engine multiplexing
 - session debug manager, delegating
-ms.assetid: fbb1928d-dddc-43d1-98a4-e23b0ecbae09
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Session debug manager
 

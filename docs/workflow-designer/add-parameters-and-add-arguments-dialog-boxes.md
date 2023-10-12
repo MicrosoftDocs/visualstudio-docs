@@ -5,13 +5,10 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - AddParameters.UI
-ms.assetid: a21fb4fe-134b-40b0-8497-86b842940ca1
 author: jodavis
 ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
 ---
 # Add Parameters and Add Arguments Dialog Boxes
 

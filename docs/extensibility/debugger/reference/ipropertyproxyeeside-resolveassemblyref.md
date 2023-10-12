@@ -1,19 +1,16 @@
 ---
 description: "Determines the location of the specified managed assembly reference."
-title: IPropertyProxyEESide::ResolveAssemblyRef | Microsoft Docs
+title: IPropertyProxyEESide::ResolveAssemblyRef
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IPropertyProxyEESide::ResolveAssemblyRef
 helpviewer_keywords:
 - IPropertyProxyEESide::ResolveAssemblyRef
-ms.assetid: 662ca0a6-dad0-4c00-a718-bb3bbc5bd9da
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

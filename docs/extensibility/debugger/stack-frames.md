@@ -1,5 +1,5 @@
 ---
-title: Stack Frames | Microsoft Docs
+title: Stack Frames
 description: This article describes the definition and role of a stack frame in the debugger architecture in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - stack frames, debugging
 - debugging [Debugging SDK], stack frames
 - stack frames
-ms.assetid: b5e439d4-1e9d-4e13-9cad-bb8b136d4ca8
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Stack frames
 

@@ -6,13 +6,10 @@ ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
-ms.assetid: c83ba0bb-5425-4d47-8891-6b4dbf937701
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Typed vs. untyped datasets
 

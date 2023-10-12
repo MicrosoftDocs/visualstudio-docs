@@ -1,6 +1,6 @@
 ---
 description: "Gets the pending breakpoint from which the specified bound breakpoint was created."
-title: IDebugBoundBreakpoint2::GetPendingBreakpoint | Microsoft Docs
+title: IDebugBoundBreakpoint2::GetPendingBreakpoint
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugBoundBreakpoint2::GetPendingBreakpoint method
 - GetPendingBreakpoint method
-ms.assetid: 22f94f81-f8d9-46de-96e9-fae6f3c24903
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

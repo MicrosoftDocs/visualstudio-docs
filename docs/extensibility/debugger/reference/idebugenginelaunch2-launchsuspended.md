@@ -1,19 +1,16 @@
 ---
 description: "This method launches a process by means of the debug engine (DE)."
-title: IDebugEngineLaunch2::LaunchSuspended | Microsoft Docs
+title: IDebugEngineLaunch2::LaunchSuspended
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugEngineLaunch2::LaunchSuspended
 helpviewer_keywords:
 - IDebugEngineLaunch2::LaunchSuspended
-ms.assetid: 5dd2643e-c20a-470e-9024-2a423eb39856
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

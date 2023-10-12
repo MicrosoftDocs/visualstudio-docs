@@ -8,13 +8,10 @@ f1_keywords:
 - IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
 helpviewer_keywords:
 - IDebugEngineProgram2::WatchForExpressionEvaluationOnThread
-ms.assetid: 01d05e77-8cac-4d1b-b19f-25756767ed27
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

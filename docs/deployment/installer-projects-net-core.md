@@ -11,8 +11,6 @@ author: MSLukeWest
 ms.author: lukewest
 manager: MSLukeWest
 monikerRange: '>= vs-2019'
-ms.workload:
-  - "multiple"
 ---
 # Visual Studio Installer Projects Extension and .NET 6.0
 

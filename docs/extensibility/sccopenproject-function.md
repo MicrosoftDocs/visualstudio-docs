@@ -1,19 +1,16 @@
 ---
 description: "This function opens an existing source control project or creates a new one."
-title: SccOpenProject Function | Microsoft Docs
+title: SccOpenProject Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccOpenProject
 helpviewer_keywords:
 - SccOpenProject function
-ms.assetid: d609510b-660a-46d7-b93d-2406df20434d
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # SccOpenProject Function
 

@@ -1,17 +1,14 @@
 ---
-title: Binding Breakpoints | Microsoft Docs
+title: Binding Breakpoints
 description: Learn how the IDE formulates the request for a breakpoint and prompts the debug session to create the breakpoint when a user sets a breakpoint.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - breakpoints, binding
-ms.assetid: 70737387-c52f-4dae-8865-77d4b203bf25
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Bind breakpoints
 

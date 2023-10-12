@@ -10,8 +10,6 @@ ms.technology: vs-ide-general
 dev_langs:
   - CSharp
   - VB
-ms.workload:
-  - "dotnet"
 ---
 # Invert conditional expressions and conditional AND/OR operators
 

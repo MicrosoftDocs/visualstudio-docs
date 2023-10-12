@@ -1,17 +1,14 @@
 ---
-title: Adding Items to the Add New Item Dialog Boxes | Microsoft Docs
+title: Adding Items to the Add New Item Dialog Boxes
 description: Learn how to add items to the Add New Item dialog box in Visual Studio, so that you can display templates and project elements for use in your projects.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - Add New Item dialog box, adding items
-ms.assetid: 2f70863b-425b-4e65-86b4-d6a898e29dc7
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Add items to the Add New Item dialog box
 

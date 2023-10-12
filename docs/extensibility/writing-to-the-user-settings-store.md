@@ -1,15 +1,12 @@
 ---
-title: Writing to the User Settings Store | Microsoft Docs
+title: Writing to the User Settings Store
 description: Learn how to add Notepad to Visual Studio as an external tool by reading from and writing to the user settings store by using this walkthrough.
 ms.date: 05/23/2019
 ms.topic: how-to
-ms.assetid: efd27f00-7fe5-45f8-9b97-371af732be97
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Writing to the User Settings Store
 

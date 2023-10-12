@@ -1,17 +1,14 @@
 ---
 description: "Enumerates the available expression evaluators given the language and vendor identifiers."
-title: IDebugSettingsCallback2::EnumEEs | Microsoft Docs
+title: IDebugSettingsCallback2::EnumEEs
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugSettingsCallback2::EnumEEs
-ms.assetid: 9f884c49-426f-461b-b547-9d909486e73f
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

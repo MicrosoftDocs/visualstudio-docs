@@ -1,5 +1,5 @@
 ---
-title: MSBuild Task | Microsoft Docs
+title: MSBuild Task
 description: Learn how the MSBuild task uses the same MSBuild process to build child projects from another MSBuild project.
 ms.date: 07/30/2019
 ms.topic: reference
@@ -9,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild task [MSBuild]
 - MSBuild, MSBuild task
-ms.assetid: 76577f6c-7669-44ad-a840-363e37a04d34
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # MSBuild task
 

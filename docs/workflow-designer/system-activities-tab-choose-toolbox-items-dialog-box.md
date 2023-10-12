@@ -6,13 +6,10 @@ ms.topic: reference
 f1_keywords:
 - VS.CHOOSEITEMS.SYSTEM.ACTIVITIES_COMPONENTS
 - VS.CHOOSEITEMS.SYSTEM.ACTIVITIES COMPONENTS
-ms.assetid: cef390cd-eeda-42e6-9d2e-18c8325a4f06
 author: jodavis
 ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
 ---
 # System.Activities tab, Choose Toolbox Items dialog box
 

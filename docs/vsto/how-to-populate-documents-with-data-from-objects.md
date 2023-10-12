@@ -1,5 +1,5 @@
 ---
-title: "How to: Populate documents with data from objects"
+title: "Populate documents with data from objects"
 description: Learn how you can use the data from an object in your solution, and you can use Windows Forms controls to display the data in a document.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Populate documents with data from objects
 

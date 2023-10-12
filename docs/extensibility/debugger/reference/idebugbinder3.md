@@ -1,19 +1,16 @@
 ---
 description: "This interface provides access to types, aliases, and custom visualizer services."
-title: IDebugBinder3 | Microsoft Docs
+title: IDebugBinder3
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBinder3
 helpviewer_keywords:
 - IDebugBinder3 interface
-ms.assetid: 92353a74-dc74-4f93-8762-61d6b220478c
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugBinder3
 

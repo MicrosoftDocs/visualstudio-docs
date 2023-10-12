@@ -1,5 +1,5 @@
 ---
-title: "ClickOnce Reference | Microsoft Docs"
+title: "ClickOnce Reference"
 description: Use these reference articles to understand the structure of the XML files used to represent ClickOnce applications.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -10,13 +10,10 @@ dev_langs:
 helpviewer_keywords:
   - "ClickOnce, reference"
   - "manifests [ClickOnce]"
-ms.assetid: 2a7d5704-5e8c-452c-9ef3-5e8ec5e952fe
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # ClickOnce reference
 

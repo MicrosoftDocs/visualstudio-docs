@@ -15,13 +15,10 @@ helpviewer_keywords:
   - "ClickOnce deployment, SDK tools"
   - "manual ClickOnce deployments"
   - "manifests [ClickOnce]"
-ms.assetid: ccee6551-a1b9-4ca2-8845-9c1cf4ac2560
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # Walkthrough: Manually deploy a ClickOnce application
 

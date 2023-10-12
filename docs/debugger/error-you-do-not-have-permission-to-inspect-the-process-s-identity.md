@@ -1,6 +1,6 @@
 ---
 description: "You do not have permission to inspect the process's identity."
-title: "You do not have permission to inspect the process&apos;s identity | Microsoft Docs"
+title: "You do not have permission to inspect the process&apos;s identity"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 dev_langs:
@@ -12,8 +12,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Error: You do not have permission to inspect the process&#39;s identity
 

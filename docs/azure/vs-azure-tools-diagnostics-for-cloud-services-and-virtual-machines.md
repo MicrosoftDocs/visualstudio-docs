@@ -5,7 +5,6 @@ author: ghogen
 manager: jmartens
 ms.technology: vs-azure
 ms.topic: conceptual
-ms.workload: azure-vs
 ms.date: 06/28/2018
 ms.author: mikejo
 ---

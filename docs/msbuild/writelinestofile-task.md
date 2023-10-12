@@ -1,5 +1,5 @@
 ---
-title: WriteLinesToFile Task | Microsoft Docs
+title: WriteLinesToFile Task
 description: Learn how MSBuild uses the WriteLinesToFile task to write the paths of the specified items to the specified text file.
 ms.date: 09/20/2018
 ms.topic: reference
@@ -9,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - WriteLinesToFile task [MSBuild]
 - MSBuild, WriteLinesToFile task
-ms.assetid: 9c8862ac-8da5-4437-9430-ecc30421f1c9
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # WriteLinesToFile task
 

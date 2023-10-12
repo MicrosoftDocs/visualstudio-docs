@@ -1,6 +1,6 @@
 ---
 description: "Writes the specified number of bytes of memory, starting at the specified address."
-title: IDebugMemoryBytes2::WriteAt | Microsoft Docs
+title: IDebugMemoryBytes2::WriteAt
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugMemoryBytes2::WriteAt method
 - WriteAt method
-ms.assetid: 61cc3704-47fa-4d9b-aa62-bb4585ac8fb1
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

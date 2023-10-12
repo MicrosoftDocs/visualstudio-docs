@@ -7,8 +7,6 @@ ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.workload:
-- multiple
 ---
 # How to: Suppress compiler warnings
 

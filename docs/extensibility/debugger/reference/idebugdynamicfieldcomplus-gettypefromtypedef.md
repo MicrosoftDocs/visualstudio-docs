@@ -1,18 +1,15 @@
 ---
 description: "IDebugDynamicFieldCOMPlus::GetTypeFromTypeDef retrieves a type given its token."
-title: IDebugDynamicFieldCOMPlus::GetTypeFromTypeDef | Microsoft Docs
+title: IDebugDynamicFieldCOMPlus::GetTypeFromTypeDef
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - GetTypeFromTypeDef
 - IDebugDynamicFieldCOMPlus::GetTypeFromTypeDef
-ms.assetid: 7f6cd3d3-f4da-4893-be91-8dd104be8010
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

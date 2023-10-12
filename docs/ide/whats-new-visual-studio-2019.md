@@ -6,7 +6,6 @@ ms.date: 08/04/2023
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
-ms.assetid: 00bec66b-bcee-46f5-91d9-f73a2b469744
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
@@ -14,8 +13,6 @@ ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 ms.topic: whats-new
 ms.custom: vs-acquisition
-ms.workload:
-  - "multiple"
 ---
 # What's new in Visual Studio 2019
 

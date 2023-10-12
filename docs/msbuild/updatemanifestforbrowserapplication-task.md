@@ -1,5 +1,5 @@
 ---
-title: "UpdateManifestForBrowserApplication Task | Microsoft Docs"
+title: "UpdateManifestForBrowserApplication Task"
 description: Learn how MSBuild runs the UpdateManifestForBrowserApplication task to add the hostInBrowser element to the application manifest.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,19 +7,15 @@ dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
 helpviewer_keywords:
   - "UpdateManifestForBrowserApplication task [WPF MSBuild]"
   - "adding the <hostInBrowser /> element to the application manifest [WPF MSBuild]"
   - "building XBAP projects [WPF MSBuild]"
   - "UpdateManifestForBrowserApplication task [WPF MSBuild], parameters"
-ms.assetid: 653339f7-654b-4d64-a26a-5c9f27036895
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-  - "multiple"
 ---
 # UpdateManifestForBrowserApplication task
 

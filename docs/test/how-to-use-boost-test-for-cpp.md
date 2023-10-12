@@ -6,8 +6,6 @@ ms.topic: how-to
 author: tylermsft
 ms.author: twhitney
 manager: markl
-ms.workload: 
-  - cplusplus
 ---
 # How to use Boost.Test for C++ in Visual Studio
 

@@ -1,19 +1,16 @@
 ---
 description: "Specifies what information to retrieve about a memory context."
-title: CONTEXT_INFO_FIELDS | Microsoft Docs
+title: CONTEXT_INFO_FIELDS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - CONTEXT_INFO_FIELDS
 helpviewer_keywords:
 - CONTEXT_INFO_FIELDS enumeration
-ms.assetid: ef436bd3-738e-47e8-828c-8febce752439
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

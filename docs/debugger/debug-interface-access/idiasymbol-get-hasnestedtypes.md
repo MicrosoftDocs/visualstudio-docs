@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a flag that specifies whether the user-defined data type has nested type definitions."
-title: "IDiaSymbol::get_hasNestedTypes | Microsoft Docs"
+title: "IDiaSymbol::get_hasNestedTypes"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_hasNestedTypes method"
-ms.assetid: 1a8306bd-10dd-40a9-81fc-01f71c348484
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_hasNestedTypes
 

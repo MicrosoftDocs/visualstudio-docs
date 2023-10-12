@@ -8,7 +8,6 @@ ms.author: madsk
 manager: pchapman
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-sdk
-ms.custom: cookbook
 ---
 # Progress bars for backgrounds tasks in Visual Studio extensions
 

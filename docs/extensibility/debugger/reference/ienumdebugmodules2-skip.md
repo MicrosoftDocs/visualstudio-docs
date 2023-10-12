@@ -1,19 +1,16 @@
 ---
 description: "Skips over the specified number of elements in the modules enumeration."
-title: IEnumDebugModules2::Skip | Microsoft Docs
+title: IEnumDebugModules2::Skip
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugModules2::Skip
 helpviewer_keywords:
 - IEnumDebugModules2::Skip
-ms.assetid: 61dc42f4-8544-45bb-8da0-fb22cccec7da
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

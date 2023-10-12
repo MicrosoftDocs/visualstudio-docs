@@ -1,19 +1,16 @@
 ---
 description: "Get the process that this program is running in."
-title: IDebugProgram2::GetProcess | Microsoft Docs
+title: IDebugProgram2::GetProcess
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgram2::GetProcess
 helpviewer_keywords:
 - IDebugProgram2::GetProcess
-ms.assetid: 1d602485-ebaf-451c-9165-f2e226f20a90
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

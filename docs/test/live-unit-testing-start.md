@@ -9,8 +9,6 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-test
-ms.workload: 
-  - dotnet
 ---
 # Get started with Live Unit Testing
 

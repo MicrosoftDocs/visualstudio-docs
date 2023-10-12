@@ -6,8 +6,6 @@ ms-custom: devdivchpfy22
 ms.topic: how-to
 ms.author: twhitney
 manager: markl
-ms.workload: 
-  - cplusplus
 author: tylermsft
 ---
 # How to use Google Test for C++ in Visual Studio

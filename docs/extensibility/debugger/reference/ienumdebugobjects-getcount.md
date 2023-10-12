@@ -1,19 +1,16 @@
 ---
 description: "This method returns the number of IDebugObject elements in the enumeration."
-title: IEnumDebugObjects::GetCount | Microsoft Docs
+title: IEnumDebugObjects::GetCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugObjects::GetCount
 helpviewer_keywords:
 - IEnumDebugObjects::GetCount method
-ms.assetid: 9cbc5db4-03ae-479f-a664-13cad66ad210
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

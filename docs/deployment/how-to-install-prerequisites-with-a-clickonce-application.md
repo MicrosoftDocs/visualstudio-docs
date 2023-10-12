@@ -11,13 +11,10 @@ helpviewer_keywords:
   - deploying applications [ClickOnce], prerequisites
   - prerequisites, ClickOnce
   - components, bootstrapping
-ms.assetid: e964fca5-fdfd-47cf-a1c9-7fb96b1c88b5
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # How to: Install prerequisites with a ClickOnce application
 

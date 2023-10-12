@@ -1,19 +1,16 @@
 ---
 description: "Selects the case option for matching names."
-title: NAME_MATCH | Microsoft Docs
+title: NAME_MATCH
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - NAME_MATCH
 helpviewer_keywords:
 - NAME_MATCH enumeration
-ms.assetid: 3842c417-a3c9-4259-a05f-52b64b829ef6
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

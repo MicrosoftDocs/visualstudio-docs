@@ -1,19 +1,16 @@
 ---
 description: "Attempts to determine why an auto-attach failed."
-title: IDebugCoreServer3::DiagnoseWebDebuggingError | Microsoft Docs
+title: IDebugCoreServer3::DiagnoseWebDebuggingError
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCoreServer3::DiagnoseWebDebuggingError
 helpviewer_keywords:
 - IDebugCoreServer3::DiagnoseWebDebuggingError
-ms.assetid: 8c4570ca-ae55-42f2-bbaa-8d8e75d2fa19
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

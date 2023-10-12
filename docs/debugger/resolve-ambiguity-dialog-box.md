@@ -1,5 +1,5 @@
 ---
-title: "Resolve Ambiguity Dialog Box | Microsoft Docs"
+title: "Resolve Ambiguity Dialog Box"
 description: Review Visual Studio's Resolve Ambiguity dialog box, which appears when the debugger cannot choose the location to display.
 ms.date: "11/04/2016"
 ms.topic: "ui-reference"
@@ -14,13 +14,10 @@ helpviewer_keywords:
   - "Resolve Ambiguity dialog box"
   - "debugger, Resolve Ambiguity dialog box"
   - "debugging [C++], resolving ambiguity"
-ms.assetid: d9f47455-a116-4c84-8bad-2dfbf4d77f74
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Resolve Ambiguity Dialog Box
 

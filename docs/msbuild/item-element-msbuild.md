@@ -1,5 +1,5 @@
 ---
-title: Item Element (MSBuild) | Microsoft Docs
+title: Item Element (MSBuild)
 description: Learn how MSBuild uses the Item element to contain a user-defined item and its metadata. Every item must be a child of an ItemGroup element.
 ms.date: 03/13/2017
 ms.topic: reference
@@ -7,17 +7,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - Item Element [MSBuild]
 - <Item> Element [MSBuild]
-ms.assetid: dcef5f91-0613-4bfc-8ee9-d7004bb6d3a9
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Item element (MSBuild)
 

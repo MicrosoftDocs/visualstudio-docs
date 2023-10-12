@@ -1,5 +1,5 @@
 ---
-title: "Debugging SharePoint Solutions | Microsoft Docs"
+title: "Debugging SharePoint Solutions"
 description: Debug SharePoint solutions using the Visual Studio debugger. Explore the F5 debug and deployment process, debug workflows, and debug feature event receivers.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -15,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Debug SharePoint solutions
 

@@ -1,17 +1,14 @@
 ---
 description: "The following interfaces are the core interfaces for extending debugger by using the VS SDK."
-title: Core Interfaces | Microsoft Docs
+title: Core Interfaces
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], core interfaces
-ms.assetid: 666b9116-8550-4bdd-bc15-55fc57de87df
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Core Interfaces
 

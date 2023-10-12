@@ -13,8 +13,6 @@ ms.technology: vs-ide-modeling
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- multiple
 ---
 # Invoke text transformation in the build process
 

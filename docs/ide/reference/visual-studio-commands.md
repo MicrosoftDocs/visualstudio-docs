@@ -7,13 +7,10 @@ helpviewer_keywords:
 - Visual Studio, commands
 - commands, Visual Studio
 - command syntax
-ms.assetid: 76ffa394-ee89-4629-aba9-1a62b72e6cc1
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Visual Studio commands
 

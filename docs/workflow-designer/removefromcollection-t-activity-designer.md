@@ -5,13 +5,10 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.RemoveFromCollection`1.UI"
-ms.assetid: 6617ba26-c8bc-4aed-b746-112bf490d288
 author: jodavis
 ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
-ms.workload:
-  - "multiple"
 ---
 # RemoveFromCollection\<T> Activity Designer
 

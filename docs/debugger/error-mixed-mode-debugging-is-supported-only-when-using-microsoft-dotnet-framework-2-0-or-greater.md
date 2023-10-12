@@ -1,6 +1,6 @@
 ---
 description: "To debug mixed native and managed code, you must have .NET Framework version 2.0, 3.0, 3.5, or 4.0."
-title: "Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater | Microsoft Docs"
+title: "Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:
@@ -14,8 +14,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "dotnet"
 ---
 # Error: Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater
 

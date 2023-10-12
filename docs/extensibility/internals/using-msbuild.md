@@ -1,5 +1,5 @@
 ---
-title: Using MSBuild | Microsoft Docs
+title: Using MSBuild
 description: MSBuild supplies an extensible XML format for creating project files that fully describe project items to be built, build tasks, and build configurations.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - VSPackages, compiling with MSBuild
 - MSBuild, extensibility
 - packages, compiling with MSBuild
-ms.assetid: 9d38c388-1f64-430e-8f6c-e88bc99a4260
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Using MSBuild
 

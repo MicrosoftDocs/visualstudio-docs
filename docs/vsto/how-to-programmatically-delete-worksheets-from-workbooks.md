@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically delete worksheets from workbooks"
+title: "Programmatically delete worksheets from workbooks"
 description: Learn how you can programmatically delete any worksheet in a Microsoft Excel workbook by using the worksheet host item, for example.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically delete worksheets from workbooks
 

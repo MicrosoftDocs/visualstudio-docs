@@ -1,5 +1,5 @@
 ---
-title: Upgrading Projects | Microsoft Docs
+title: Upgrading Projects
 description: Learn about the interfaces that the Visual Studio SDK provides to implement upgrade support in your projects.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - upgrading VSPackages
 - upgrading applications, strategies
 - VSPackages, upgrade support
-ms.assetid: e01cb44a-8105-4cf4-8223-dfae65f8597a
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Upgrading Projects
 

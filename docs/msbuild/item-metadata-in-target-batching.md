@@ -1,5 +1,5 @@
 ---
-title: Item Metadata in Target Batching | Microsoft Docs
+title: Item Metadata in Target Batching
 description: Learn how MSBuild uses item metadata in target batching to perform dependency analysis on the inputs and outputs of a build target.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - batching [MSBuild]
 - MSBuild, target batching
 - target batching [MSBuild]
-ms.assetid: f3cc4186-6a4c-4161-bbe5-1ec638b4925b
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Item metadata in target batching
 

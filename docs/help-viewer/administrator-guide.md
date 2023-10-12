@@ -3,13 +3,10 @@ title: Help Viewer administrator guide
 description: Read the Microsoft Help Viewer administrator guide. Deploy local Help content from the internet, or deploy pre-installed local Help content on client computers.
 ms.date: 11/01/2017
 ms.topic: conceptual
-ms.assetid: 4340c69f-b96b-4932-bb82-38b16a5ab149
 author: jasonchlus
 ms.author: jasonchlus
 manager: jmartens
 ms.technology: vs-help-viewer
-ms.workload:
-  - "multiple"
 ---
 # Help Viewer administrator guide
 

@@ -8,12 +8,9 @@ f1_keywords:
 - cs.AdvancedBuildSettings
 helpviewer_keywords:
 - Build options [C#], advanced
-ms.assetid: 141f2dee-1563-4ce6-ba37-32920b082519
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.workload:
-- dotnet
 ---
 # Advanced Build Settings dialog box (C#)
 

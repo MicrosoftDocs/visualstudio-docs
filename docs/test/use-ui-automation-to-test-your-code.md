@@ -17,8 +17,6 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-test
-ms.workload:
-- multiple
 ---
 # Use Coded UI tests to test your code
 

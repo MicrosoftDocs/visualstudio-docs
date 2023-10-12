@@ -6,7 +6,6 @@ ms.topic: conceptual
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 2dc938b5-37e9-4dfc-8676-5d0a91d366ab
 ---
 
 # What's new in Visual Studio subscriptions

@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the file name of the compiland source file."
-title: "IDiaSymbol::get_sourceFileName | Microsoft Docs"
+title: "IDiaSymbol::get_sourceFileName"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_sourceFileName method"
-ms.assetid: 0f5dce88-829e-4df3-8acd-8d71076ad167
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_sourceFileName
 

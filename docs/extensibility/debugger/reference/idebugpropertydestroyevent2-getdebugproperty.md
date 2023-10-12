@@ -1,19 +1,16 @@
 ---
 description: "Gets the property to be destroyed."
-title: IDebugPropertyDestroyEvent2::GetDebugProperty | Microsoft Docs
+title: IDebugPropertyDestroyEvent2::GetDebugProperty
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPropertyDestroyEvent2::GetDebugProperty
 helpviewer_keywords:
 - IDebugPropertyDestroyEvent2::GetDebugProperty
-ms.assetid: c96ae785-0ac8-4df4-8df3-15a8d7e13687
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

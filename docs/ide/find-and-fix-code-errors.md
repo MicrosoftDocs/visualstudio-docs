@@ -3,13 +3,10 @@ title: Fix program errors and improve code
 description: This article describes some basic ways Visual Studio can help you find and fix problems in your code, including build errors, code analysis, debugging tools, and unit tests.
 ms.date: 04/25/2023
 ms.topic: conceptual
-ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Make code work in Visual Studio
 

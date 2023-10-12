@@ -1,5 +1,5 @@
 ---
-title: CL Task | Microsoft Docs
+title: CL Task
 description: Describes the purpose and parameters of the MSBuild CL task, which wraps the Microsoft C++ compiler tool, cl.exe.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -12,17 +12,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild (C++), CL task
 - CL task (MSBuild (C++))
-ms.assetid: 651ba971-b755-4f03-a549-4816beb3cc0d
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # CL task
 

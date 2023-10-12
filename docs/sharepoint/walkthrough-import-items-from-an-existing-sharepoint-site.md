@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Import Items from an Existing SharePoint Site | Microsoft Docs"
+title: "Walkthrough: Import Items from an Existing SharePoint Site"
 titleSuffix: ""
 description: In this walkthrough, import items from an existing SharePoint site into a Visual Studio SharePoint project.
 ms.date: "02/02/2017"
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Walkthrough: Import items from an existing SharePoint site
 

@@ -1,5 +1,5 @@
 ---
-title: "How to: Configure inclusion list security"
+title: "Configure inclusion list security"
 description: Configure the ClickOnce trust prompt to control whether end users are given the option of installing Office solutions by saving a trust decision to the inclusion list.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Configure inclusion list security
 

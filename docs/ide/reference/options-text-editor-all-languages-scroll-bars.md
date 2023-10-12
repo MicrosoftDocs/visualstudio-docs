@@ -32,8 +32,6 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Options, Text Editor, All Languages, Scroll Bars
 

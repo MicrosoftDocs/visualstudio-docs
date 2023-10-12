@@ -1,18 +1,14 @@
 ---
 title: "Debug ASP.NET Core"
 description: "Debug ASP.NET Core using the Visual Studio debugger"
-
 ms.date: 08/06/2018
 ms.topic: quickstart
 helpviewer_keywords:
   - "debugger"
-ms.assetid: f4cea2e1-08dc-47ac-aba2-3b8c338e607f
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "aspnet"
 ---
 # Quickstart: Debug ASP.NET Core with the Visual Studio debugger
 

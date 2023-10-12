@@ -1,5 +1,5 @@
 ---
-title: "MergeLocalizationDirectives Task | Microsoft Docs"
+title: "MergeLocalizationDirectives Task"
 description: Learn how MSBuild uses the MergeLocalizationDirectives task to merge the localization attributes and comments of XAML binary format files into a single file.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,19 +7,15 @@ dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
 helpviewer_keywords:
   - "localizing XAML [WPF MSBuild], moving comments and attributes to a separate file"
   - "MergeLocalizationDirectives task [WPF MSBuild], parameters"
   - "MergeLocalizationDirectives task [WPF MSBuild]"
   - "moving localization comments and attributes to a separate file [WPF MSBuild]"
-ms.assetid: 9095b4f1-88da-4194-914b-ee1456826830
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-  - "multiple"
 ---
 # MergeLocalizationDirectives task
 

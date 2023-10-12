@@ -12,8 +12,6 @@ author: mikadumont
 ms.author: midumont
 manager: jmartens
 ms.technology: vs-ide-code-analysis
-ms.workload:
-  - "dotnet"
 ---
 # Configure live code analysis for .NET
 

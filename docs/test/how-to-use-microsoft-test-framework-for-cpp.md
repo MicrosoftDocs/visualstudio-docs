@@ -5,8 +5,6 @@ ms.date: 02/16/2021
 ms.topic: how-to
 ms.author: twhitney
 manager: markl
-ms.workload: 
-  - cplusplus
 author: tylermsft
 ---
 # Use the Microsoft Unit Testing Framework for C++ in Visual Studio

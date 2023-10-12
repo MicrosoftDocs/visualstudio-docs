@@ -2,7 +2,7 @@
 title: "Tutorial: Create UWP Apps with Visual Studio & C#"
 description: Create a UWP app in Visual Studio with XAML and C#
 titleSuffix: ""
-ms.custom: vs-acquisition, get-started
+ms.custom: vs-acquisition
 ms.date: "05/31/2023"
 ms.technology: vs-ide-general
 ms.topic: tutorial
@@ -12,8 +12,6 @@ ms.author: meghaanand
 manager: jmartens
 dev_langs:
   - CSharp
-ms.workload:
-  - "multiple"
 ---
 # Tutorial: Create your first Universal Windows Platform application in Visual Studio with XAML and C&#35;
 

@@ -7,13 +7,10 @@ helpviewer_keywords:
 - RunExit Devenv switch
 - Devenv, /RunExit switch
 - /RunExit Devenv switch
-ms.assetid: bfc94875-5fc0-4110-b961-d59c0b403790
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # /RunExit (devenv.exe)
 

@@ -1,5 +1,5 @@
 ---
-title: Extending User Settings and Options | Microsoft Docs
+title: Extending User Settings and Options
 description: Learn about extending user settings and options in the Visual Studio SDK by using the resources in this article.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -8,13 +8,10 @@ helpviewer_keywords:
 - user settings [Visual Studio SDK]
 - Options dialog box, controlling with the Visual Studio SDK
 - VSPackages, user preferences
-ms.assetid: 5bb6277a-8c9d-48c8-9b4e-1cb3052caded
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Extend user settings and options
 

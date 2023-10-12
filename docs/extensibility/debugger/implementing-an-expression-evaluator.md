@@ -1,18 +1,15 @@
 ---
-title: Implementing an Expression Evaluator | Microsoft Docs
+title: Implementing an Expression Evaluator
 description: Learn about evaluating an expression, which involves the debug engine, the symbol provider, the binder object, and the expression evaluator.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - expression evaluators
 - debugging [Debugging SDK], expression evaluators
-ms.assetid: e9ada7be-845e-4baa-bf8f-e4890e7ba490
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Implement an expression evaluator
 

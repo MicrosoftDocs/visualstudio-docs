@@ -9,8 +9,6 @@ manager: jmartens
 ms.technology: vs-ide-general
 dev_langs:
   - CSharp
-ms.workload:
-  - "dotnet"
 ---
 # DateTime and TimeSpan completion by using the IntelliSense menu
 
