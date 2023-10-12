@@ -10,13 +10,10 @@ f1_keywords:
 - VC.Project.ImageContentTask.Compress
 - VC.Project.ShaderGraphContentTask.ContentOutput
 - VC.Project.ImageContentTask.GenerateMips
-ms.assetid: ea587909-e434-46a8-abf8-9b3e95a58b4f
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-designers
-ms.workload:
-- multiple
 ---
 # How to: Use 3D assets in your game or app
 

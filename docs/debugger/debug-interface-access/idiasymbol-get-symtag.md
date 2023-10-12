@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the symbol type classifier."
-title: "IDiaSymbol::get_symTag | Microsoft Docs"
+title: "IDiaSymbol::get_symTag"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_symTag method"
-ms.assetid: 139a35bd-faeb-4878-be72-394dedfbb18f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_symTag
 

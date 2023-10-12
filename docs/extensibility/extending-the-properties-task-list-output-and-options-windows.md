@@ -10,13 +10,10 @@ helpviewer_keywords:
 - properties window
 - tutorials
 - tool windows
-ms.assetid: 06990510-5424-44b8-9fd9-6481acec5c76
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Extend the Properties, Task List, Output, and Options windows
 

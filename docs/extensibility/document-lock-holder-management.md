@@ -1,17 +1,14 @@
 ---
-title: Document Lock Holder Management | Microsoft Docs
+title: Document Lock Holder Management
 description: Learn how to place an edit lock on a document in the running document table without the user seeing an open document in a document window.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - document locking
-ms.assetid: fa1ce513-eb7d-42bc-b6e8-cb2433d051d5
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Document lock holder management
 

@@ -5,9 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 04/27/2022
-ms.custom: devdivchpfy22
 ms.technology: vs-ide-install
-ms.assetid: 4EB95F75-BC2E-4982-9564-2975805712D8
 ms.topic: how-to
 ---
 # Uninstall Visual Studio for Mac 

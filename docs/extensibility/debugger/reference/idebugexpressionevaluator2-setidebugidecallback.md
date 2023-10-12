@@ -1,18 +1,15 @@
 ---
 description: "Enables a debug engine to pass a callback to the expression evaluator during initialization."
-title: IDebugExpressionEvaluator2::SetIDebugIDECallback | Microsoft Docs
+title: IDebugExpressionEvaluator2::SetIDebugIDECallback
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugExpressionEvaluator2::SetIDebugIDECallback
 - SetIDebugIDECallback
-ms.assetid: f01c40ad-ef4b-477b-8304-602c6972bc88
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

@@ -4,7 +4,6 @@ description: Learn how to use Windows PowerShell scripts from Visual Studio to p
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
-ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/22/2021
 ms.author: ghogen

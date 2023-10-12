@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the number records in the debug data stream."
-title: "IDiaEnumDebugStreamData::get_Count | Microsoft Docs"
+title: "IDiaEnumDebugStreamData::get_Count"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumDebugStreamData::get_Count method"
-ms.assetid: 74ff3a85-3cc2-4aa8-ad9a-7f335b795ed1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaEnumDebugStreamData::get_Count
 

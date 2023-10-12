@@ -1,17 +1,14 @@
 ---
-title: 'Walkthrough: Customizing the Text View | Microsoft Docs'
+title: 'Walkthrough: Customizing the Text View'
 description: Learn how to customize a text view by modifying any of the several properties in its editor-format map by using this walkthrough.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - customizing the view
-ms.assetid: 32d32ac8-22ff-4de7-af69-bd46ec4ad9bf
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Walkthrough: Customize the text view
 

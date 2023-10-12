@@ -5,13 +5,10 @@ ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - link keystrokes to commands
-ms.assetid: cf6cc6c6-5a65-4f90-8f14-663decf74672
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Walkthrough: Use a shortcut key with an editor extension
 

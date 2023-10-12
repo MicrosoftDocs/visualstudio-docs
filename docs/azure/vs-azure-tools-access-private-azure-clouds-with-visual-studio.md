@@ -4,7 +4,6 @@ description: Learn how to access private cloud resources by using Visual Studio.
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
-ms.workload: azure-vs
 ms.topic: how-to
 ms.date: 11/13/2017
 ms.author: ghogen

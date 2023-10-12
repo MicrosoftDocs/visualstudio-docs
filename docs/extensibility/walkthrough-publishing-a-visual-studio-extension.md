@@ -1,18 +1,15 @@
 ---
-title: 'Walkthrough: Publish a Visual Studio extension | Microsoft Docs'
+title: 'Walkthrough: Publish a Visual Studio extension'
 description: Learn how to publish a Visual Studio extension to Visual Studio Marketplace, which allows developers to browse for new and updated extensions.
 ms.date: 01/25/2023
 ms.topic: how-to
 helpviewer_keywords:
 - publishing web controls
 - web controls, publishing
-ms.assetid: a7816161-0490-4043-86f5-0f7331ed83b3
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Walkthrough: Publish a Visual Studio extension
 

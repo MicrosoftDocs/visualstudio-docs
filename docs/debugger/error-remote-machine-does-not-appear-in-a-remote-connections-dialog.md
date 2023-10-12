@@ -1,6 +1,6 @@
 ---
 description: "If the remote machine does not appear in the Remote Connections dialog, check the following common causes."
-title: "Remote machine does not appear in a Remote Connections dialog | Microsoft Docs"
+title: "Remote machine does not appear in a Remote Connections dialog"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 dev_langs:
@@ -12,8 +12,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Error: Remote machine does not appear in a Remote Connections dialog
 

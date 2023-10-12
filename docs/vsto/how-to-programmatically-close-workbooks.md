@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically close workbooks"
+title: "Programmatically close workbooks"
 description:  Learn how you can close the active workbook or you can specify a workbook to close programmatically.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically close workbooks
 

@@ -16,13 +16,10 @@ helpviewer_keywords:
 - Class Designer [Visual Studio], creating classes
 - types [Visual Studio], class diagrams
 - attributes [Visual Studio], applying custom
-ms.assetid: 94458c31-28bc-40e2-9737-85868788a0e5
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Create types by using Class Designer
 

@@ -1,19 +1,16 @@
 ---
 description: "Gets the type of this object."
-title: IDebugObject2::GetField | Microsoft Docs
+title: IDebugObject2::GetField
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugObject2::GetField
 helpviewer_keywords:
 - IDebugObject2::GetField method
-ms.assetid: add6a6b5-e752-47dd-9613-29206ea809b0
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

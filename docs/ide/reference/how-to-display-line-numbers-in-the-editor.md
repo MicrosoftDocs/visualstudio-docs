@@ -8,13 +8,10 @@ helpviewer_keywords:
 - Code Editor, line numbers
 - editors, line numbers
 - code, line number displaying
-ms.assetid: 40b38559-b8de-4041-91f2-68986767c976
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # How to: Display line numbers in the editor
 

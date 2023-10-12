@@ -1,5 +1,5 @@
 ---
-title: Support for the Visual Studio SDK | Microsoft Docs
+title: Support for the Visual Studio SDK
 description: Learn about the support options that are available for customers about how to extend the Visual Studio IDE.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -9,13 +9,10 @@ helpviewer_keywords:
 - Help, Visual Studio SDK
 - newsgroups, Visual Studio SDK support
 - Web sites, Visual Studio SDK support
-ms.assetid: d9011f5a-cb53-418f-9d8f-74b15b9fc5f5
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Support for the Visual Studio SDK
 

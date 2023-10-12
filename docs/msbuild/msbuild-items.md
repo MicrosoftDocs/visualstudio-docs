@@ -1,17 +1,14 @@
 ---
-title: MSBuild Items | Microsoft Docs
+title: MSBuild Items
 description: Learn how to use the MSBuild items, item types, and work with lists of items by using and modifying item metadata.
 ms.date: 06/01/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, Items
-ms.assetid: d762eff4-c92a-4b5f-a944-1ca30aa22319
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # MSBuild items
 

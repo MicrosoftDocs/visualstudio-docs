@@ -1,5 +1,5 @@
 ---
-title: "How to: Add a Creator Method | Microsoft Docs"
+title: "Add a Creator Method"
 description: Know how to add a Creator method, which adds new data to the data source of an entity in the Business Data Connectivity (BDC) service in SharePoint.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -17,8 +17,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Add a Creator method
 

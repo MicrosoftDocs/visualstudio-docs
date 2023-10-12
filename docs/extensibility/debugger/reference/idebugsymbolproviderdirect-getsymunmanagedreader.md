@@ -1,18 +1,15 @@
 ---
 description: "Retrieves a symbol reader for unmanaged code."
-title: IDebugSymbolProviderDirect::GetSymUnmanagedReader | Microsoft Docs
+title: IDebugSymbolProviderDirect::GetSymUnmanagedReader
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - GetSymUnmanagedReader
 - IDebugSymbolProviderDirect::GetSymUnmanagedReader
-ms.assetid: 147bacfa-f66c-43e0-8a72-e601058dc57f
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

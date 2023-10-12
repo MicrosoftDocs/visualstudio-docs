@@ -4,7 +4,6 @@ description: Learn how to set up and configure roles for Azure cloud services us
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
-ms.workload: azure-vs
 ms.topic: how-to
 ms.date: 03/21/2017
 ms.author: ghogen

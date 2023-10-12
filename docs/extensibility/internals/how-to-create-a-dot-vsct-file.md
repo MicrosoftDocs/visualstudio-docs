@@ -1,17 +1,14 @@
 ---
-title: 'How to: Create a .Vsct File | Microsoft Docs'
+title: 'Create a .Vsct File'
 description: Learn how to manually create a .vsct file, an XML-based Visual Studio command table configuration file.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - VSCT files, creating
-ms.assetid: b955f51c-f9f9-49c3-a8e4-63b6eb0e0341
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # How to: Create a .vsct file
 

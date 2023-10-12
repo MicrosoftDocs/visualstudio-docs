@@ -8,11 +8,6 @@ author: cwebster-99
 ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
-
-ms.workload:
-  - python
-  - data-science
-ms.custom: devdivchpfy22
 ---
 
 # Step 3: Use the Interactive REPL window

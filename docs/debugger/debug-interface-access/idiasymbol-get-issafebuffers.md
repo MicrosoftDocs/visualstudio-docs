@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a flag that specifies whether the preprocesser directive for a safe buffer is used."
-title: "IDiaSymbol::get_isSafeBuffers | Microsoft Docs"
+title: "IDiaSymbol::get_isSafeBuffers"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_isSafeBuffers method"
-ms.assetid: f29e373d-e7bb-4181-ab9f-bf708d401d83
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_isSafeBuffers
 

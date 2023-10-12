@@ -1,19 +1,16 @@
 ---
 description: "This method cancels asynchronous expression evaluation as started by a call to the EvaluateAsync) method."
-title: IDebugExpression2::Abort | Microsoft Docs
+title: IDebugExpression2::Abort
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExpression2::Abort
 helpviewer_keywords:
 - IDebugExpression2::Abort
-ms.assetid: 4fcb712e-1bdb-4b75-a440-35cc79ee147e
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

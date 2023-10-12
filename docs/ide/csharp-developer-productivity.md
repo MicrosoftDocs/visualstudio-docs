@@ -9,8 +9,6 @@ ms.date: 08/08/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - editor
-ms.workload:
-- dotnet
 ---
 # Visual Studio productivity guide for C# developers
 

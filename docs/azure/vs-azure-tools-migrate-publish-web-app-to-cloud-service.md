@@ -4,7 +4,6 @@ description: Learn how to migrate and publish your web application to an Azure c
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
-ms.workload: azure-vs
 ms.topic: how-to
 ms.date: 11/10/2017
 ms.author: ghogen

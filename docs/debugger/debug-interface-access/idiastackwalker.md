@@ -1,19 +1,16 @@
 ---
 description: "Provides methods to do a stack walk using information in the .pdb file."
-title: "IDiaStackWalker | Microsoft Docs"
+title: "IDiaStackWalker"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackWalker interface"
-ms.assetid: 4a61a22a-9cf8-4ea1-9e6e-b42f96872d40
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaStackWalker
 

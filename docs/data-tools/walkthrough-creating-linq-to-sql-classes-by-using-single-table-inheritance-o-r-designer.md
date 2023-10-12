@@ -6,13 +6,10 @@ ms.topic: conceptual
 dev_langs:
 - VB
 - CSharp
-ms.assetid: 63bc6328-e0df-4655-9ce3-5ff74dbf69a4
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Walkthrough: Create LINQ to SQL classes by using single-table inheritance (O/R Designer)
 

@@ -1,5 +1,5 @@
 ---
-title: "Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network. | Microsoft Docs"
+title: "Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network."
 description: "This behavior occurs if one of the following conditions is true: (1) Your connection to the remote computer was broken. (2) Your user account on the remote computer is disabled. (3) Your password on the remote computer has expired."
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
@@ -16,8 +16,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Error: Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network.
 

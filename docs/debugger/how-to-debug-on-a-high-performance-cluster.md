@@ -1,5 +1,5 @@
 ---
-title: Debug On a High-Performance Cluster | Microsoft Docs
+title: Debug On a High-Performance Cluster
 description: Learn what is peculiar to debugging a multiprocessing program on a high-performance cluster. Two windows are especially useful, and there are special techniques.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -11,13 +11,10 @@ dev_langs:
 helpviewer_keywords: 
   - cluster debugging
   - high-performance debugging
-ms.assetid: a2f0eb07-840e-4f95-a1b1-9509217e5b8f
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How to: Debug On a High-Performance Cluster (C#, Visual Basic, C++)
 

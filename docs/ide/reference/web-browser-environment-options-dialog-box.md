@@ -16,13 +16,10 @@ helpviewer_keywords:
 - home page
 - Options dialog box, Web settings
 - Internet Explorer, setting options
-ms.assetid: 586db4eb-032d-4cb5-93a6-a7c14de1ae49
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Options dialog box: Environment \> Web Browser
 

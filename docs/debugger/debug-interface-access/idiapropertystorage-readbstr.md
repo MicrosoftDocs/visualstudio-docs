@@ -1,19 +1,16 @@
 ---
 description: "Reads BSTR values in a property set."
-title: "IDiaPropertyStorage::ReadBSTR | Microsoft Docs"
+title: "IDiaPropertyStorage::ReadBSTR"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaPropertyStorage::ReadBSTR"
-ms.assetid: 7214643b-3286-48ed-90aa-0fe95b4cae5b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaPropertyStorage::ReadBSTR
 

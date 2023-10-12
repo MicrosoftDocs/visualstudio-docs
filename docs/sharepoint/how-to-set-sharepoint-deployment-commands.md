@@ -1,5 +1,5 @@
 ---
-title: "How to: Set SharePoint Deployment Commands | Microsoft Docs"
+title: "Set SharePoint Deployment Commands"
 description: Understand how to customize the deployment process by setting SharePoint pre-deployment and post-deployment commands.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -12,8 +12,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Set SharePoint deployment commands
 

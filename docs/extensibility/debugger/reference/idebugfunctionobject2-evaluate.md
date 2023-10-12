@@ -1,17 +1,14 @@
 ---
 description: "IDebugFunctionObject2::Evaluate calls the function and returns the resulting value as an object."
-title: IDebugFunctionObject2::Evaluate | Microsoft Docs
+title: IDebugFunctionObject2::Evaluate
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugFunctionObject2::Evaluate
-ms.assetid: bc54c652-904b-4297-a6db-faa329684881
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

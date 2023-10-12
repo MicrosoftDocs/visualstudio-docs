@@ -1,7 +1,6 @@
 ---
-title: "Prepare to debug Windows Forms apps | Microsoft Docs"
+title: "Prepare to debug Windows Forms apps"
 description: Take preparation steps to debug Windows Forms applications, which are created by the Windows Forms project template in Visual Studio.
-
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 dev_langs:
@@ -15,13 +14,10 @@ helpviewer_keywords:
   - "debugging [Visual Studio], Windows applications"
   - "debugging [C#], Windows applications"
   - "debugging [Visual Basic], Windows applications"
-ms.assetid: 7092ee7f-8378-4def-aef8-1695bd97cf14
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Debugging Preparation: Windows Forms Applications
 

@@ -1,5 +1,5 @@
 ---
-title: Debug Optimized Code | Microsoft Docs
+title: Debug Optimized Code
 description: If possible, don't build a Win32 Release target until your program is debugged, because optimization can complicate debugging. See the details in this article.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -16,13 +16,10 @@ helpviewer_keywords:
   - optimization, debug builds
   - debug builds, optimizing
   - optimized code, debugging
-ms.assetid: fc8eeeb8-6629-4c9b-99f7-2016aee81dff
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How to: Debug Optimized Code
 

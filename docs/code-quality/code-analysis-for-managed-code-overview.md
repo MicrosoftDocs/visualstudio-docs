@@ -10,8 +10,6 @@ author: mikadumont
 ms.author: midumont
 manager: jmartens
 ms.technology: vs-ide-code-analysis
-ms.workload:
-- dotnet
 ---
 # Overview of code analysis for .NET in Visual Studio
 

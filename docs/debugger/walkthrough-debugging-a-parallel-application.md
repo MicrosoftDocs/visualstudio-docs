@@ -1,5 +1,5 @@
 ---
-title: "Debug a parallel application | Microsoft Docs"
+title: "Debug a parallel application"
 description: Debug using the Parallel Tasks and Parallel Stacks windows in Visual Studio
 ms.date: "05/04/2023"
 ms.topic: "conceptual"
@@ -16,13 +16,10 @@ helpviewer_keywords:
   - "debugging, parallel applications"
   - "parallel applications, debugging [Visual Basic]"
   - "parallel applications, debugging [C#]"
-ms.assetid: 2820ac4c-c893-4d87-8c62-83981d561493
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Walkthrough: Debugging a Parallel Application in Visual Studio (C#, Visual Basic, C++)
 

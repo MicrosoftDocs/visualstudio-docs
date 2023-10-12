@@ -1,6 +1,6 @@
 ---
 description: "Retrieves a value that tells whether the function was compiled with stack frame run-time error checking. This is the /RTCs flag."
-title: "IDiaSymbol::get_isRTCs | Microsoft Docs"
+title: "IDiaSymbol::get_isRTCs"
 ms.date: "04/27/2021"
 ms.topic: "reference"
 dev_langs:
@@ -11,8 +11,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_isRTCs
 

@@ -6,7 +6,6 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 11/08/2021
 ms.topic: how-to
-ms.assetid: 18f722bc-3d9d-4c75-9e77-d66b64784c8d
 ---
 # Visual Studio for Mac 17.0 Previews and .NET on Apple Silicon machines
 

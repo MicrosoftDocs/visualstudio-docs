@@ -1,17 +1,14 @@
 ---
-title: Commands That Must Be Run After Installation | Microsoft Docs
+title: Commands That Must Be Run After Installation
 description: Learn about the commands that must be run as part of your installation of an extension deployed through a .msi file in Visual Studio. 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - post-install commands
-ms.assetid: c9601f2e-2c6e-4da9-9a6e-e707319b39e2
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Commands that must be run after installation
 

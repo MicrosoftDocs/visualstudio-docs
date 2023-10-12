@@ -1,5 +1,5 @@
 ---
-title: MSBuild Task Reference | Microsoft Docs
+title: MSBuild Task Reference
 description: Learn about the tasks that are included with MSBuild, which provide code that runs during the build process.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,16 +7,12 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, tasks
-ms.assetid: b3144b27-a426-4259-b8ae-5f7991b202b6
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # MSBuild task reference
 

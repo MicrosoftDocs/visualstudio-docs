@@ -1,5 +1,5 @@
 ---
-title: Commands, Menus, and Toolbars | Microsoft Docs
+title: Commands, Menus, and Toolbars
 description: Learn about commands, menus, and toolbars in Visual Studio, including what they are and how they work in VSPackages. 
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - menus [Visual Studio SDK], commands
 - commands [Visual Studio]
 - toolbars [Visual Studio], commands
-ms.assetid: 07b4ed90-dbbd-40df-b6c9-8395fd6f2ab6
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Commands, menus, and toolbars
 

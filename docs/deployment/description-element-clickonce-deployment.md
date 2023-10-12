@@ -1,5 +1,5 @@
 ---
-title: "&lt;description&gt; Element (ClickOnce Deployment) | Microsoft Docs"
+title: "&lt;description&gt; Element (ClickOnce Deployment)"
 description: The description element identifies application information used to create a shell presence and an Add or Remove Programs item in Control Panel.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -11,13 +11,10 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<description> element [ClickOnce deployment manifest]"
-ms.assetid: 18f6919e-a3ab-4942-a57d-167fabfac44e
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # &lt;description&gt; element (ClickOnce deployment)
 

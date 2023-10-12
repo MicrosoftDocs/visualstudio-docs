@@ -15,13 +15,10 @@ helpviewer_keywords:
 - Class Designer, C++ support
 - Class Designer, limitations
 - Class Designer, tasks in C++
-ms.assetid: f5b40921-2ef7-4de0-b595-45b44c79ffa6
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- cplusplus
 ---
 # Work with C++ code in Class Designer
 

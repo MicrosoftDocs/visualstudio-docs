@@ -1,18 +1,15 @@
 ---
 description: "Creates a type from the specified primitive type."
-title: IDebugComPlusSymbolProvider::CreateTypeFromPrimitive | Microsoft Docs
+title: IDebugComPlusSymbolProvider::CreateTypeFromPrimitive
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider::CreateTypeFromPrimitive
 - CreateTypeFromPrimitive
-ms.assetid: 37213cc2-a038-42ea-9b28-3ae40d4cfe69
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

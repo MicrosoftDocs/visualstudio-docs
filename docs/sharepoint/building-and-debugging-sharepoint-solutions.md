@@ -1,5 +1,5 @@
 ---
-title: "Building and Debugging SharePoint Solutions | Microsoft Docs"
+title: "Building and Debugging SharePoint Solutions"
 description: Learn to build and debug SharePoint solutions, and understand how it's different from building and debugging other types of projects in Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: overview
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Build and debug SharePoint solutions
 

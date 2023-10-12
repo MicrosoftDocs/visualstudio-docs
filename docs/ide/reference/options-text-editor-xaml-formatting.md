@@ -24,13 +24,10 @@ helpviewer_keywords:
 - tag wrapping, XAML view settings
 - WPF Designer, XAML formatting
 - XAML view settings, attribute spacing
-ms.assetid: ad3820b1-0d94-4807-a74c-c3467ed973a2
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- uwp
 ---
 # Options, Text Editor, XAML, Formatting
 

@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the offset part of an address location."
-title: "IDiaSymbol::get_addressOffset | Microsoft Docs"
+title: "IDiaSymbol::get_addressOffset"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_addressOffset method"
-ms.assetid: c15639b0-7f37-46c7-891b-40273b7f6319
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_addressOffset
 

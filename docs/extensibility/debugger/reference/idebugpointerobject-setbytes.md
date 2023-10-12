@@ -1,19 +1,16 @@
 ---
 description: "Sets the value pointed to from a series of consecutive bytes."
-title: IDebugPointerObject::SetBytes | Microsoft Docs
+title: IDebugPointerObject::SetBytes
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPointerObject::SetBytes
 helpviewer_keywords:
 - IDebugPointerObject::SetBytes method
-ms.assetid: 8c578b38-38d7-46f3-bb2e-8a730fccd334
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

@@ -1,19 +1,16 @@
 ---
 description: "This method retrieves the exception associated with an object, if any."
-title: IDebugBinder3::GetExceptionObjectAndType | Microsoft Docs
+title: IDebugBinder3::GetExceptionObjectAndType
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBinder3::GetExceptionObjectAndType
 helpviewer_keywords:
 - IDebugBinder3::GetExceptionObjectAndType method
-ms.assetid: 2a313fe1-4ee1-4f01-af86-382d6c661a8f
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

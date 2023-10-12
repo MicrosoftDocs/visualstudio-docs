@@ -4,7 +4,6 @@ description: Browsing and managing storage resources by using Server Explorer
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
-ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 07/14/2023
 ms.author: ghogen

@@ -4,13 +4,10 @@ description: Learn how to build a real world Roslyn analyzer to catch common err
 titleSuffix: ""
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.assetid: 0b0afa22-3fca-4d59-908e-352464c1d903
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Roslyn analyzers and code-aware library for ImmutableArrays
 

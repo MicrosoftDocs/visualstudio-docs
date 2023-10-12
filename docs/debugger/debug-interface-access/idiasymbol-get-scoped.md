@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a flag that specifies whether the user-defined data type appears in a non-global lexical scope."
-title: "IDiaSymbol::get_scoped | Microsoft Docs"
+title: "IDiaSymbol::get_scoped"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_scoped method"
-ms.assetid: 588163f7-958e-4072-bf66-db5c5f07d3cb
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_scoped
 

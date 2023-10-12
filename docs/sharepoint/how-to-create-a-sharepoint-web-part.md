@@ -1,5 +1,5 @@
 ---
-title: "How to: Create a SharePoint Web Part | Microsoft Docs"
+title: "Create a SharePoint Web Part"
 description: Create and customize a web part by using a designer, or by adding a web part item to any SharePoint project and then editing the code file for the web part.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Create a SharePoint web part
 

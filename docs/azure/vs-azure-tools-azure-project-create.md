@@ -4,7 +4,6 @@ description: Learn now to create an Azure cloud service project with Visual Stud
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
-ms.workload: azure-vs
 ms.topic: how-to
 ms.date: 03/19/2019
 ms.author: ghogen

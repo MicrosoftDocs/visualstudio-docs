@@ -1,18 +1,15 @@
 ---
-title: Command Availability | Microsoft Docs
+title: Command Availability
 description: Learn how command context, which changes based on the current project, current editor, and other factors, determines which commands are available in Visual Studio.
 ms.date: 03/22/2018
 ms.topic: conceptual
 helpviewer_keywords:
 - commands, context
 - menu items, visibility contexts
-ms.assetid: c74e3ccf-d771-48c8-a2f9-df323b166784
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Command availability
 

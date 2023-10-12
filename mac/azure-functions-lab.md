@@ -6,7 +6,6 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 11/06/2020
 ms.technology: vs-ide-install
-ms.assetid: 38FD2070-5151-482E-B0A9-993715128736
 ms.topic: how-to
 ---
 # Tutorial: Getting started with Azure Functions & Visual Studio for Mac

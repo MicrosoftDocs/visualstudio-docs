@@ -1,19 +1,16 @@
 ---
 description: "This interface specifies an error message to be reported to the user."
-title: IDebugErrorEvent2 | Microsoft Docs
+title: IDebugErrorEvent2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugErrorEvent2
 helpviewer_keywords:
 - IDebugErrorEvent2 interface
-ms.assetid: 275b6f38-b3d4-4cae-8491-491177f524fb
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugErrorEvent2
 

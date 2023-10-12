@@ -1,6 +1,6 @@
 ---
 description: "Toggles the enabled state of the pending breakpoint."
-title: IDebugPendingBreakpoint2::Enable | Microsoft Docs
+title: IDebugPendingBreakpoint2::Enable
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPendingBreakpoint2::Enable method
 - Enable method
-ms.assetid: 09e32d05-464b-40a6-a41d-76f2759cf2cd
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

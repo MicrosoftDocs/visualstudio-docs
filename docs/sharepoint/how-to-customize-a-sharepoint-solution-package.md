@@ -1,5 +1,5 @@
 ---
-title: "How to: Customize a SharePoint Solution Package | Microsoft Docs"
+title: "Customize a SharePoint Solution Package"
 description: Use the Package Designer to make and customize a SharePoint solution package (.wsp). View or overwrite the packaged manifest file. Change the manifest template.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -17,8 +17,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Customize a SharePoint solution package
 

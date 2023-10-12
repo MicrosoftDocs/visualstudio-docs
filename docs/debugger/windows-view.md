@@ -1,5 +1,5 @@
 ---
-title: "Windows View | Microsoft Docs"
+title: "Windows View"
 description: Windows View shows a tree of all windows and controls. Use it as a starting point to obtain information about windows of interest.
 ms.date: "12/21/2022"
 ms.topic: "conceptual"
@@ -7,13 +7,10 @@ f1_keywords:
   - "vs.externaltools.spyplus.windowsview"
 helpviewer_keywords:
   - "Windows view"
-ms.assetid: 154786ce-c803-4bfb-8198-f7962a900363
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Windows View
 

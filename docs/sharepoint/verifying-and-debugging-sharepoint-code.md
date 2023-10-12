@@ -1,5 +1,5 @@
 ---
-title: "Verifying and Debugging SharePoint Code | Microsoft Docs"
+title: "Verifying and Debugging SharePoint Code"
 description: Verify and debug SharePoint code. Use IntelliTrace to examine past events and current state in your solution. Use unit testing to ensure your methods work correctly.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -15,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Verify and debug SharePoint code
 

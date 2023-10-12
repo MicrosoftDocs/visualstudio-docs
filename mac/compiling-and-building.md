@@ -5,9 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 03/03/2022
-ms.custom: devdivchpfy22
 ms.topic: how-to
-ms.assetid: FB253757-DB00-4889-A6BF-E44722E25BD1
 ---
 # Compiling and building in Visual Studio for Mac
 

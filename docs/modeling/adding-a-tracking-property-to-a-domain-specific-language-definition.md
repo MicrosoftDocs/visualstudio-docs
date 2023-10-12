@@ -11,8 +11,6 @@ author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
 ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
 ---
 # Add a Tracking Property to a Domain-Specific Language Definition
 

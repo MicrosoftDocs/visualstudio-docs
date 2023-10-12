@@ -1,5 +1,5 @@
 ---
-title: "&lt;assemblyIdentity&gt; Element (ClickOnce Application) | Microsoft Docs"
+title: "&lt;assemblyIdentity&gt; Element (ClickOnce Application)"
 description: The assemblyIdentity element is required in ClickOnce application. It contains no child elements and has attributes described in this article.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -11,13 +11,10 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<assemblyIdentity> element [ClickOnce application manifest]"
-ms.assetid: f48e9531-efac-4d11-8166-f63a5ece1ac5
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # &lt;assemblyIdentity&gt; element (ClickOnce application)
 

@@ -1,9 +1,8 @@
 ---
-title: Organization name change impacts on Visual Studio subscriptions | Microsoft Docs
+title: Organization name change impacts on Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: bda8772c-cc0b-4949-8419-1084331cc54b
 ms.date: 03/21/2023
 ms.topic: how-to
 description:  Learn what to do if your email domain changes to ensure uninterrupted access to the admin portal and subscriptions. 

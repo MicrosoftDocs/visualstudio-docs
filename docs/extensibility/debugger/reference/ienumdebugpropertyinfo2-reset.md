@@ -1,19 +1,16 @@
 ---
 description: "Resets the enumeration to the first DEBUG_PROPERTY_INFO element."
-title: IEnumDebugPropertyInfo2::Reset | Microsoft Docs
+title: IEnumDebugPropertyInfo2::Reset
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugPropertyInfo2::Reset
 helpviewer_keywords:
 - IEnumDebugPropertyInfo2::Reset
-ms.assetid: fa4201c1-4633-4596-93aa-bd415c4ed71a
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

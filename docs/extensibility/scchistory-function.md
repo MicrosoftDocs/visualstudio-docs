@@ -1,19 +1,16 @@
 ---
 description: "This function displays the history of the specified files."
-title: SccHistory Function | Microsoft Docs
+title: SccHistory Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccHistory
 helpviewer_keywords:
 - SccHistory function
-ms.assetid: a636d9d3-47c1-4b48-ac6b-bcfde19d6cf9
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # SccHistory Function
 

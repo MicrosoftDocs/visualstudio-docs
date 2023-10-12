@@ -10,8 +10,6 @@ author: mikadumont
 ms.author: midumont
 manager: jmartens
 ms.technology: vs-ide-code-analysis
-ms.workload:
-  - "dotnet"
 ---
 # Overview of legacy analysis for managed code in Visual Studio
 

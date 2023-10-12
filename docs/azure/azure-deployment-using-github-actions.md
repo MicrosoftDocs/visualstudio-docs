@@ -11,8 +11,6 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-deployment
 monikerRange: '>= vs-2019'
-ms.workload:
-  - "multiple"
 ---
 # Deploy your application to Azure using GitHub Actions workflows created by Visual Studio
 

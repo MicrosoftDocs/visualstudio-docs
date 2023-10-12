@@ -11,13 +11,10 @@ helpviewer_keywords:
   - Start menu resource name
   - Start menu name
   - ClickOnce deployment, Start menu name
-ms.assetid: 4b5183b2-2fd4-4433-9310-4a73bb12c4e3
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # How to: Specify a Start menu name for a ClickOnce application
 

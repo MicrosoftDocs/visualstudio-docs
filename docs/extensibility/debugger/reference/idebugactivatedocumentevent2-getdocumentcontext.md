@@ -1,6 +1,6 @@
 ---
 description: "Gets the document context that describes the position in the document that is to be made active by the debug package."
-title: IDebugActivateDocumentEvent2::GetDocumentContext | Microsoft Docs
+title: IDebugActivateDocumentEvent2::GetDocumentContext
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - GetDocumentContext method
 - IDebugActivateDocumentEvent2::GetDocumentContext method
-ms.assetid: e7472069-7337-4ef4-8f8a-8c027a2e22f4
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

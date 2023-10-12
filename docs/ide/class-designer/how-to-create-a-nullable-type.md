@@ -6,7 +6,6 @@ ms.topic: how-to
 helpviewer_keywords:
 - nullable types, Class Designer
 - Class Designer [Visual Studio], nullable types
-ms.assetid: 84673a89-3f6d-4668-919e-1c0f56182fe5
 author: ghogen
 ms.author: ghogen
 manager: jmartens
@@ -14,8 +13,6 @@ ms.technology: vs-ide-general
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- multiple
 ---
 # Create a nullable type in Class Designer
 

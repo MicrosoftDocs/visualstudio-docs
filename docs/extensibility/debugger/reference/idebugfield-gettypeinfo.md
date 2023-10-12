@@ -1,19 +1,16 @@
 ---
 description: "This method gets type-independent information about the symbol or type."
-title: IDebugField::GetTypeInfo | Microsoft Docs
+title: IDebugField::GetTypeInfo
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugField::GetTypeInfo
 helpviewer_keywords:
 - IDebugField::GetTypeInfo method
-ms.assetid: bb5acfa3-04c3-4088-be84-9ff8926cd16f
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

@@ -11,12 +11,9 @@ helpviewer_keywords:
 - Project Designer, Build Events page
 - pre-build events
 - post-build events
-ms.assetid: 3fff9ae5-213c-46ea-a660-1d70acb6c922
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.workload:
-- dotnet
 ---
 # Build Events Page, Project Designer (C#)
 

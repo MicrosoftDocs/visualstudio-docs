@@ -1,5 +1,5 @@
 ---
-title: "Unable to Automatically Step Into the Server | Microsoft Docs"
+title: "Unable to Automatically Step Into the Server"
 description: "Unable to Automatically Step Into the Server. The debugger was not notified before the remote procedure was executed."
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
@@ -17,8 +17,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Error: Unable to Automatically Step Into the Server
 

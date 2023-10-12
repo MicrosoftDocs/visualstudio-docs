@@ -1,5 +1,5 @@
 ---
-title: Evaluating a Watch Window Expression | Microsoft Docs
+title: Evaluating a Watch Window Expression
 description: Learn how Visual Studio calls the debug engine to determine the current value of each expression in its watch list when execution pauses.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - Watch window expressions
 - Watch window, expressions
 - expression evaluation, Watch window expressions
-ms.assetid: b07e72c7-60d3-4b30-8e3f-6db83454c348
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Evaluate a watch window expression
 

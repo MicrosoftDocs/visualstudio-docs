@@ -1,19 +1,16 @@
 ---
 description: "Returns a copy of the current code contexts enumeration as a separate object."
-title: IEnumDebugCodeContexts2::Clone | Microsoft Docs
+title: IEnumDebugCodeContexts2::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugCodeContexts2::Clone
 helpviewer_keywords:
 - IEnumDebugCodeContexts2::Clone
-ms.assetid: 22c98975-4294-4fbd-a345-16f65fe1200d
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

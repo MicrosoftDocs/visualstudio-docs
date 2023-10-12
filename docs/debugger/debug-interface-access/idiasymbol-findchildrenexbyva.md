@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the children of the symbol that are valid at a specified virtual address."
-title: "IDiaSymbol::findChildrenExByVA | Microsoft Docs"
+title: "IDiaSymbol::findChildrenExByVA"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::findChildrenExByVA"
-ms.assetid: 29080009-36e4-4697-acd7-50f2e3e1bf1b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::findChildrenExByVA
 

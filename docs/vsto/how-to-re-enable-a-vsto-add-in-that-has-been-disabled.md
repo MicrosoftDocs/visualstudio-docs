@@ -1,5 +1,5 @@
 ---
-title: "How to: Re-enable a VSTO Add-in that has been disabled"
+title: "Re-enable a VSTO Add-in that has been disabled"
 description: Learn how you can use Visual Studio to re-enable a VSTO Add-in that has been disabled in a Microsoft Office application.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -16,8 +16,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Re-enable a VSTO Add-in that has been disabled
 

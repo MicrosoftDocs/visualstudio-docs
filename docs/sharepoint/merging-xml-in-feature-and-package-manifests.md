@@ -1,5 +1,5 @@
 ---
-title: "Merging XML in Feature and Package Manifests | Microsoft Docs"
+title: "Merging XML in Feature and Package Manifests"
 description: Merge designer-generated and user-added XML code in SharePoint feature and package manifests. Learn feature and package manifest elements, and merge exceptions.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -12,8 +12,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Merge XML in feature and package manifests
 

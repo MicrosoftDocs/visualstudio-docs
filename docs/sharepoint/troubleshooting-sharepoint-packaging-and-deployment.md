@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting SharePoint Packaging and Deployment | Microsoft Docs"
+title: "Troubleshooting SharePoint Packaging and Deployment"
 description: Understand and fix various problems that you might encounter when you package and deploy SharePoint solutions.
 ms.date: 02/22/2017
 ms.topic: "conceptual"
@@ -23,8 +23,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Troubleshoot SharePoint packaging and deployment
 

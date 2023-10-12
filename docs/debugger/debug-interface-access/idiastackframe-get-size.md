@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the size of the stack frame in bytes."
-title: "IDiaStackFrame::get_size | Microsoft Docs"
+title: "IDiaStackFrame::get_size"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackFrame::get_size method"
-ms.assetid: 71e2f5ab-4aa8-4922-aa8a-b7db97ee143c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaStackFrame::get_size
 

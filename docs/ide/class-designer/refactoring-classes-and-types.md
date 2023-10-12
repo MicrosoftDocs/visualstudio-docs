@@ -14,13 +14,10 @@ helpviewer_keywords:
 - types [Visual Studio], refactoring
 - Class Designer [Visual Studio], refactoring classes
 - refactoring, classes
-ms.assetid: dcf07bb4-fa3b-4224-9dec-566fd924a8ce
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Refactor classes and types in Class Designer
 

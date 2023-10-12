@@ -1,6 +1,6 @@
 ---
 description: "Friend classes and friend functions are identified by SymTagFriend symbols."
-title: "Friend (Debug Interface Access SDK) | Microsoft Docs"
+title: "Friend (Debug Interface Access SDK)"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -9,13 +9,10 @@ helpviewer_keywords:
   - "friend functions [DIA SDK]"
   - "friend classes [DIA SDK]"
   - "Friend symbol"
-ms.assetid: 5147a170-41ce-4727-8ace-c318e8d11647
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Friend (Debug Interface Access SDK)
 

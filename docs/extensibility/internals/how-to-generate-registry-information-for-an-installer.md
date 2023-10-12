@@ -1,5 +1,5 @@
 ---
-title: 'How to: Generate Registry Information for an Installer | Microsoft Docs'
+title: 'Generate Registry Information for an Installer'
 description: Learn how to use the RegPkg.exe utility in Visual Studio to generate VSPackage registry information for incorporation in a Windows installer setup package.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - registration, VSPackages
 - VSPackages, registering
 - VSPackages, registration manifests
-ms.assetid: b1b41012-a777-4ccf-81a6-3b41f0e96583
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # How to: Generate registry information for an installer
 

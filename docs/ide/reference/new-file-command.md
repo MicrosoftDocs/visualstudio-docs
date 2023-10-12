@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - File.NewFile command
 - New File command
-ms.assetid: 767868d6-a525-425b-a43b-2198f636ab6b
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # New File Command
 

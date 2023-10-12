@@ -1,5 +1,5 @@
 ---
-title: "SharePoint Project and Project Item Templates | Microsoft Docs"
+title: "SharePoint Project and Project Item Templates"
 description: Review descriptions of the available SharePoint project and project item templates and how they are used.
 ms.date: "02/22/2017"
 ms.topic: "conceptual"
@@ -20,8 +20,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # SharePoint project and project item templates
 

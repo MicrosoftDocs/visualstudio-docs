@@ -10,12 +10,9 @@ helpviewer_keywords:
   - "builds [Visual Studio], setting up"
   - "run actions"
   - "debugger, run options"
-ms.assetid: c884976e-c0df-4c6d-8e3a-856ea2bd547c
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.workload:
-  - "multiple"
 ---
 # Options dialog box: Projects and Solutions \> Build and Run
 

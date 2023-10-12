@@ -4,7 +4,6 @@ description: Learn how to upgrade an Azure project in Visual Studio to the curre
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
-ms.workload: azure-vs
 ms.topic: conceptual
 ms.date: 11/18/2016
 ms.author: ghogen

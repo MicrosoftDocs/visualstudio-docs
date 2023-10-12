@@ -13,8 +13,6 @@ f1_keywords:
 dev_langs:
   - CSharp
   - VB
-ms.workload:
-  - "dotnet"
 ---
 # Change a method signature refactoring
 

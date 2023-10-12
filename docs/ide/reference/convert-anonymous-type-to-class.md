@@ -10,8 +10,6 @@ ms.technology: vs-ide-general
 dev_langs:
   - CSharp
   - VB
-ms.workload:
-  - "dotnet"
 monikerRange: '>= vs-2019'
 ---
 # Convert anonymous type to class

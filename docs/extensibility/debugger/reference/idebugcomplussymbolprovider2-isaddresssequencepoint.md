@@ -1,18 +1,15 @@
 ---
 description: "Determines if the specified debug address is a sequence point."
-title: IDebugComPlusSymbolProvider2::IsAddressSequencePoint | Microsoft Docs
+title: IDebugComPlusSymbolProvider2::IsAddressSequencePoint
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugComPlusSymbolProvider2::IsAddressSequencePoint
 - IsAddressSequencePoint
-ms.assetid: 89b27c57-5295-428b-8229-a402500d8cd3
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

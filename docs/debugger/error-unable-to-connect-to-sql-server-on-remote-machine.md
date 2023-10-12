@@ -1,6 +1,6 @@
 ---
 description: "Unable to connect to SQL Server on remote machine name*."
-title: "Unable to connect to SQL Server on remote machine | Microsoft Docs"
+title: "Unable to connect to SQL Server on remote machine"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:
@@ -15,8 +15,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Error: Unable to connect to SQL Server on remote machine
 

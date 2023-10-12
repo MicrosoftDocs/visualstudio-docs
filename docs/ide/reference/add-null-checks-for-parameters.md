@@ -8,8 +8,6 @@ ms.author: midumont
 manager: jmartens 
 dev_langs: 
   - CSharp 
-ms.workload:  
-  - "dotnet" 
 --- 
 # Add null checks for all parameters 
 

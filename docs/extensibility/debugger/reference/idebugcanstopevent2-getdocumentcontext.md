@@ -1,19 +1,16 @@
 ---
 description: "Gets the document context that describes the location of this event."
-title: IDebugCanStopEvent2::GetDocumentContext | Microsoft Docs
+title: IDebugCanStopEvent2::GetDocumentContext
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCanStopEvent2::GetDocumentContext
 helpviewer_keywords:
 - IDebugCanStopEvent2::GetDocumentContext
-ms.assetid: 936a6c4e-30c5-4c7e-9ad5-910cc605a4b5
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

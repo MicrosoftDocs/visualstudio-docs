@@ -9,13 +9,10 @@ helpviewer_keywords:
 - Option Explicit statement, setting in the IDE
 - Option Compare statement, setting in the IDE
 - Option Strict statement, setting in the IDE
-ms.assetid: 2465cd9d-18b6-4c4a-b1ea-86dbab23fc79
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Visual Basic Defaults, Projects, Options Dialog Box
 

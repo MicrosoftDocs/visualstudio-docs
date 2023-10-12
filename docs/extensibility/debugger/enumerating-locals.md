@@ -1,18 +1,15 @@
 ---
-title: Enumerating Locals | Microsoft Docs
+title: Enumerating Locals
 description: Learn about the details of how Visual Studio uses IDebugProperty2::EnumChildren to populate the Locals window.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], enumerating locals
 - expression evaluation, enumerating locals
-ms.assetid: 254a88e7-d3a7-447a-bd0c-8985e73d85cf
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Enumerate locals
 

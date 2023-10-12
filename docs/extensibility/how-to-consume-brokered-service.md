@@ -1,18 +1,15 @@
 ---
-title: 'How to: Consume a brokered service'
+title: 'Consume a brokered service'
 description: Learn how to acquire and use a brokered service to access different features.
 monikerRange: '>= vs-2019'
 ms.date: 01/11/2022
 ms.topic: how-to
 helpviewer_keywords:
 - brokered services, consuming
-ms.assetid: 2ff7c882-64f5-4545-8622-83bf6199336f
 author: aarnott
 ms.author: andarno
 manager: ansonh
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # How to: Consume a brokered service
 

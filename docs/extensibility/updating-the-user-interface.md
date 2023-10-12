@@ -1,18 +1,15 @@
 ---
-title: Updating the User Interface | Microsoft Docs
+title: Updating the User Interface
 description: Learn how to add code to update the user interface after you implement a new command in your VSPackage.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - user interfaces, updating
 - commands, updating UI
-ms.assetid: 376e2f56-e7bf-4e62-89f5-3dada84a404b
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Updating the User Interface
 

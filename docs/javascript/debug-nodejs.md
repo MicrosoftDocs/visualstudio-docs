@@ -8,11 +8,8 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-javascript
-ms.custom: devdivchpfy22
 dev_langs:
   - JavaScript
-ms.workload:
-  - "nodejs"
 ---
 # Debug a JavaScript or TypeScript app in Visual Studio
 

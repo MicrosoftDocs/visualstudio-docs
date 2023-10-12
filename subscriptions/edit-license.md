@@ -1,9 +1,8 @@
 ---
-title: Edit Visual Studio subscriptions in the Administration Portal | Microsoft Docs
+title: Edit Visual Studio subscriptions in the Administration Portal
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 97ac8e4d-7a03-42f8-98cb-15bcaa90ef65
 ms.date: 03/20/2023
 ms.topic: how-to
 description:  Learn how admins can edit subscription assignments.

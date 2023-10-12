@@ -1,18 +1,15 @@
 ---
-title: Expression Evaluation (Visual Studio Debugging SDK) | Microsoft Docs
+title: Expression Evaluation (Visual Studio Debugging SDK)
 description: During break mode, the IDE evaluates expressions involving program variables. Learn how the debug engine parses and evaluates an expression.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation
-ms.assetid: 5044ced5-c18c-4534-b0bf-cc3e50cd57ac
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Expression evaluation (Visual Studio Debugging SDK)
 

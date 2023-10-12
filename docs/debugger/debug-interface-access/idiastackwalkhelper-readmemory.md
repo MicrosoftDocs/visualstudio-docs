@@ -1,19 +1,16 @@
 ---
 description: "Reads a block of data from the executable's image in memory."
-title: "IDiaStackWalkHelper::readMemory | Microsoft Docs"
+title: "IDiaStackWalkHelper::readMemory"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackWalkHelper2::readMemory method"
-ms.assetid: e1eb90aa-49b7-476c-9e70-7e8f08994cbe
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaStackWalkHelper::readMemory
 

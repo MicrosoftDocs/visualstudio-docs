@@ -1,18 +1,15 @@
 ---
-title: Symbols Element | Microsoft Docs
+title: Symbols Element
 description: The Symbols element defines GUIDs and IDs that are used by other VSCT elements. This article contains an example.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - Symbols element (VSCT XML schema)
 - VSCT XML schema elements, Symbols
-ms.assetid: 1cda43d8-42a5-4b1b-a3c8-cf0401c3202f
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Symbols Element
 

@@ -10,8 +10,6 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
 ---
 # Options, Text Editor, U-SQL, IntelliSense
 

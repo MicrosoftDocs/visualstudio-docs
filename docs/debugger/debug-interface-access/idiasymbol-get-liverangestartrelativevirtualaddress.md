@@ -1,19 +1,16 @@
 ---
 description: "Returns the beginning of the address range in which the local symbol is valid."
-title: "IDiaSymbol::get_liveRangeStartRelativeVirtualAddress | Microsoft Docs"
+title: "IDiaSymbol::get_liveRangeStartRelativeVirtualAddress"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_liveRangeStartRelativeVirtualAddress"
-ms.assetid: 1da52539-9872-4c20-8eaa-74b6cb5f3b02
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_liveRangeStartRelativeVirtualAddress
 

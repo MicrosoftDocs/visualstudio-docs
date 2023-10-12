@@ -6,7 +6,6 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 11/09/2020
 ms.topic: reference
-ms.assetid: 0FE27C0C-A861-4133-A74E-8D0505CF5342
 ---
 # Code snippets in Visual Studio for Mac
 

@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the bit position of location."
-title: "IDiaSymbol::get_bitPosition | Microsoft Docs"
+title: "IDiaSymbol::get_bitPosition"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_bitPosition method"
-ms.assetid: b0059407-8655-497b-81ca-025595989371
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_bitPosition
 

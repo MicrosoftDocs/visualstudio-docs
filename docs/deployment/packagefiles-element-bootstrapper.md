@@ -1,5 +1,5 @@
 ---
-title: "&lt;PackageFiles&gt; Element (Bootstrapper) | Microsoft Docs"
+title: "&lt;PackageFiles&gt; Element (Bootstrapper)"
 description: Learn about the PackageFiles element, which contains PackageFile elements that define the installation packages executed as a result of the Command element.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -10,13 +10,10 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<PackageFiles> element [bootstrapper]"
-ms.assetid: 3ea252d7-18a3-47d8-af83-47feebcfe82b
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # &lt;PackageFiles&gt; element (bootstrapper)
 

@@ -15,13 +15,10 @@ helpviewer_keywords:
 - types [Visual Studio], viewing
 - classes [Visual Studio], viewing
 - class designer
-ms.assetid: 40ed2c9d-0ce0-4b95-ad78-5dec2065ccea
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # What is Class Designer?
 

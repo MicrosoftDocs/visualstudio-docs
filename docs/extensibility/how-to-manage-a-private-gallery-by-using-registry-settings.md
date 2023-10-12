@@ -6,13 +6,10 @@ ms.topic: how-to
 helpviewer_keywords:
 - VSIX private galleries, managing
 - managing VSIX private galleries
-ms.assetid: 86b86442-4293-4cad-9fe2-876eef65f426
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # How to: Manage a private gallery by using registry settings
 

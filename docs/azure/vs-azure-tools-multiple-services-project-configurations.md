@@ -4,7 +4,6 @@ description: Learn how to configure an Azure cloud service project by changing t
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
-ms.workload: azure-vs
 ms.topic: how-to
 ms.date: 11/11/2017
 ms.author: ghogen

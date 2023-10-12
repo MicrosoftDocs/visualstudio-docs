@@ -1,5 +1,5 @@
 ---
-title: 'How to: Specify Which Target to Build First | Microsoft Docs'
+title: 'Specify Which Target to Build First'
 description: Learn about how to specify initial targets or default targets to build first in MSBuild project files.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - DefaultTargets attribute [MSBuild]
 - MSBuild, specifying the defalut target
 - MSBuild, DefaultTargets attribute
-ms.assetid: a580ba5b-2919-42d2-ae38-1af991e0205a
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # How to: Specify which target to build first
 

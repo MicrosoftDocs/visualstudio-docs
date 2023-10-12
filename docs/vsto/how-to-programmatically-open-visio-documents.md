@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically open Visio documents"
+title: "Programmatically open Visio documents"
 description: Learn how you can use Visual Studio to programmatically open a Visio document with the Open or OpenEx methods.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically open Visio documents
 

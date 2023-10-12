@@ -1,5 +1,5 @@
 ---
-title: Name Element (Visual Studio Templates) | Microsoft Docs
+title: Name Element (Visual Studio Templates)
 description: Learn about the Name element and how it specifies the name of the template as it appears in the New Project or Add New Item dialog box.
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
@@ -8,12 +8,9 @@ f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#Name
 helpviewer_keywords:
 - Name element [Visual Studio project templates]
-ms.assetid: 48788dbf-7da0-4443-8061-aab966fc22c8
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.workload:
-- vssdk
 ---
 # Name element (Visual Studio templates)
 

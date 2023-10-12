@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the location in virtual memory of the image."
-title: "IDiaImageData::get_virtualAddress | Microsoft Docs"
+title: "IDiaImageData::get_virtualAddress"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaImageData::get_virtualAddress method"
-ms.assetid: 67ecdc8c-d342-4d0b-b02a-c6b88e22fd02
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaImageData::get_virtualAddress
 

@@ -1,5 +1,5 @@
 ---
-title: "Debugging F# | Microsoft Docs"
+title: "Debugging F#"
 description: Review a list of differences between debugging F# compared with debugging other managed languages in Visual Studio.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -11,13 +11,10 @@ dev_langs:
 helpviewer_keywords:
   - "Debugging [F#]"
   - "F#, debugging"
-ms.assetid: 20bcd51c-2d06-4281-9a1e-ef2b91d1a779
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Debugging F\#
 

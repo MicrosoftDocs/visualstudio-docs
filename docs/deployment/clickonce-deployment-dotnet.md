@@ -10,8 +10,6 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
 monikerRange: '>= vs-2019'
-ms.workload:
-  - "multiple"
 ---
 # ClickOnce for .NET on Windows
 

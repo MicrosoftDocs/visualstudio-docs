@@ -2,17 +2,12 @@
 title: Learn Django tutorial in Visual Studio, step 1, Django basics
 titleSuffix: ""
 description: A walkthrough of Django basics in the context of Visual Studio projects, demonstrating the support Visual Studio provides for Django development.
-ms.custom: devdivchpfy22
 ms.date: 09/08/2023
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
-
-ms.workload:
-  - python
-  - data-science
 ---
 
 # Tutorial: Get started with the Django web framework in Visual Studio

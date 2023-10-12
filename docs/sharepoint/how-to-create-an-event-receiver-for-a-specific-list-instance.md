@@ -1,5 +1,5 @@
 ---
-title: "How to: Create an Event Receiver for a Specific List Instance | Microsoft Docs"
+title: "Create an Event Receiver for a Specific List Instance"
 titleSuffix: ""
 description: Create an event receiver for a specific list instance. A list instance event receiver responds to events that occur in any instance of a list definition.
 ms.date: "02/02/2017"
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Create an event receiver for a specific list instance
 

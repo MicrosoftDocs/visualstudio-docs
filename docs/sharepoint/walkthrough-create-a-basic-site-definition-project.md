@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Create a Basic Site Definition Project | Microsoft Docs"
+title: "Walkthrough: Create a Basic Site Definition Project"
 description: In this SharePoint walkthrough, see how to create a basic site definition that contains a visual Web part with some controls.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Walkthrough: Create a basic site definition project
 

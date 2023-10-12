@@ -1,6 +1,6 @@
 ---
 description: "Reads a sequence of bytes, starting at a given location."
-title: IDebugMemoryBytes2::ReadAt | Microsoft Docs
+title: IDebugMemoryBytes2::ReadAt
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugMemoryBytes2::ReadAt method
 - ReadAt method
-ms.assetid: b413684d-4155-4bd4-ae30-ffa512243b5f
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

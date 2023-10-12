@@ -1,5 +1,5 @@
 ---
-title: Deploy an ASP.NET Core Docker container to Docker Hub | Microsoft Docs
+title: Deploy an ASP.NET Core Docker container to Docker Hub
 description: Learn how to use Visual Studio Container Tools to deploy an ASP.NET Core web app to Docker Hub
 author: ghogen
 manager: jmartens

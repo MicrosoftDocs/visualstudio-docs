@@ -1,5 +1,5 @@
 ---
-title: CustomParameter Element (Visual Studio Templates) | Microsoft Docs
+title: CustomParameter Element (Visual Studio Templates)
 description: Learn about the CustomParameter element and how it contains a custom parameter name and value to use when a project or item is created from the template.
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
@@ -8,12 +8,9 @@ f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#CustomParameter
 helpviewer_keywords:
 - CustomParameters element [Visual Studio project templates]
-ms.assetid: 743c4489-74ac-403a-bbaa-eed7d785a3ac
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.workload:
-- vssdk
 ---
 # CustomParameter element (Visual Studio templates)
 

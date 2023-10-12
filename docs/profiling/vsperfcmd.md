@@ -1,5 +1,5 @@
 ---
-title: VSPerfCmd | Microsoft Docs
+title: VSPerfCmd
 description: Learn how the VSPerfCmd.exe tool is used to start and stop performance data collection. Also learn about various VSPerfCmd tool options.
 ms.date: 11/11/2022
 ms.topic: reference
@@ -9,13 +9,10 @@ helpviewer_keywords:
   - command line, tools
   - profiling tools,VSPerfCmd
   - VSPerfCmd tool
-ms.assetid: 778bc105-7643-46c4-a338-f3620e31125a
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # VSPerfCmd
 

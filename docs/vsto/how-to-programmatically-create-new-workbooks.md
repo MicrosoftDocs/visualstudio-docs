@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically create new workbooks"
+title: "Programmatically create new workbooks"
 description: Learn how you can programmatically create a new Microsoft Excel workbook by using Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically create new workbooks
 

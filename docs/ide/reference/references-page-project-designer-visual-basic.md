@@ -10,13 +10,10 @@ f1_keywords:
 helpviewer_keywords:
 - References page in Project Designer
 - Project Designer, References page
-ms.assetid: 5a47c595-e084-401c-86e1-74e0bf74fd86
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # References Page, Project Designer (Visual Basic)
 

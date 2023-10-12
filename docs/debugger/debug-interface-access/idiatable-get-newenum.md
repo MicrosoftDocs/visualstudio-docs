@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the System.Runtime.InteropServices.ComTypes.IEnumVARIANT version of the table's enumerator."
-title: "IDiaTable::get__NewEnum | Microsoft Docs"
+title: "IDiaTable::get__NewEnum"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaTable::get__NewEnum method"
-ms.assetid: ee89bba8-5d5c-4a0b-aa0d-1aad56baa380
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaTable::get__NewEnum
 

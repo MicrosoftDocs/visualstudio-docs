@@ -1,5 +1,5 @@
 ---
-title: RegisterAssembly Task | Microsoft Docs
+title: RegisterAssembly Task
 description: Learn how MSBuild uses the RegisterAssembly task to read the metadata within a specified assembly and add the necessary entries to the registry.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, RegisterAssembly task
 - RegisterAssembly task [MSBuild]
-ms.assetid: ba5f19ac-6764-4d28-9b79-a86de58f8987
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # RegisterAssembly task
 

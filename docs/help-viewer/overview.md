@@ -14,13 +14,10 @@ helpviewer_keywords:
   - "Help Viewer, window components"
   - "Help Viewer, navigating"
   - "toolbar [Help Viewer]"
-ms.assetid: 74e41666-2ce8-4ac0-a0e5-3723d1e322c2
 author: jasonchlus
 ms.author: jasonchlus
 manager: jmartens
 ms.technology: vs-help-viewer
-ms.workload:
-  - "multiple"
 ---
 # Microsoft Help Viewer
 

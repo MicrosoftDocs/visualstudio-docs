@@ -1,6 +1,6 @@
 ---
 description: "These are the enumerations and structures used by the DIA SDK."
-title: "Enumerations and Structures | Microsoft Docs"
+title: "Enumerations and Structures"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -10,13 +10,10 @@ helpviewer_keywords:
   - "DIA SDK, enumerations"
   - "structures [DIA SDK]"
   - "DIA SDK, structures"
-ms.assetid: d17eed2d-d8fd-4a47-82d3-8125c0624010
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Enumerations and Structures
 

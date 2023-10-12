@@ -12,13 +12,10 @@ helpviewer_keywords:
   - deploying applications [ClickOnce], Publish wizard
   - Windows applications, ClickOnce deployments
   - publishing, ClickOnce
-ms.assetid: 2e4aa67c-4445-4f7b-9e03-9acb95829127
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # Deploy a .NET Framework desktop application using the ClickOnce Publish wizard
 

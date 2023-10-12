@@ -1,5 +1,5 @@
 ---
-title: "How to: Change the namespace of a domain-specific language"
+title: "Change the namespace of a domain-specific language"
 description: Provides information about how to change the namespace of a domain-specific language.
 ms.date: 10/31/2018
 ms.topic: how-to
@@ -10,8 +10,6 @@ author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
 ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
 ---
 # How to: Change the namespace of a domain-specific language
 

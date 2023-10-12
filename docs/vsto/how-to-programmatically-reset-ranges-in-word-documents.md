@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically reset ranges in Word documents"
+title: "Programmatically reset ranges in Word documents"
 description: Learn how you can use Visual Studio to programmatically resize an existing range in a Microsoft Word document.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically reset ranges in Word documents
 

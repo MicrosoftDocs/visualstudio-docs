@@ -7,13 +7,10 @@ helpviewer_keywords:
 - /upgrade Devenv switch
 - Devenv, /upgrade switch
 - upgrade Devenv switch
-ms.assetid: 3468045c-5cc9-4157-9a9d-622452145d27
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # /Upgrade (devenv.exe)
 

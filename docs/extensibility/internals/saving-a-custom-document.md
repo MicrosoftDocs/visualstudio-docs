@@ -1,5 +1,5 @@
 ---
-title: Saving a Custom Document | Microsoft Docs
+title: Saving a Custom Document
 description: Learn about the process that occurs for a custom document for a project type that you add to the Visual Studio IDE.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - persistence, saving custom documents
 - projects [Visual Studio SDK], saving custom documents
 - editors [Visual Studio SDK], saving custom documents
-ms.assetid: 040b36d6-1f0a-4579-971c-40fbb46ade1d
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Saving a Custom Document
 

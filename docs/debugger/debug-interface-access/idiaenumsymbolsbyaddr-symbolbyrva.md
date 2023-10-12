@@ -1,19 +1,16 @@
 ---
 description: "Positions the enumerator by performing a lookup by relative virtual address (RVA)."
-title: "IDiaEnumSymbolsByAddr::symbolByRVA | Microsoft Docs"
+title: "IDiaEnumSymbolsByAddr::symbolByRVA"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumSymbolsByAddr::symbolByRVA method"
-ms.assetid: f7828029-f2ee-4ccd-afac-785adc60a4c8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaEnumSymbolsByAddr::symbolByRVA
 

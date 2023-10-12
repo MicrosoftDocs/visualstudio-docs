@@ -1,5 +1,5 @@
 ---
-title: MSBuild Special Characters | Microsoft Docs
+title: MSBuild Special Characters
 description: Learn about the MSBuild reserved characters for special use in specific contexts, and when and how to escape these characters.
 ms.date: 06/12/2019
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - escape characters
 - escape
 - MSBuild Escape Characters
-ms.assetid: 545e6a59-1093-4514-935e-78679a46fb3c
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # MSBuild special characters
 

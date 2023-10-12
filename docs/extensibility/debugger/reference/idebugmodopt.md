@@ -1,17 +1,14 @@
 ---
 description: "Represents a debug optional modifier."
-title: IDebugModOpt | Microsoft Docs
+title: IDebugModOpt
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugModOpt interface
-ms.assetid: ebd525e3-d140-4071-9d8c-41871de4125e
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugModOpt
 

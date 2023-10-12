@@ -1,5 +1,5 @@
 ---
-title: "Assertions in Managed Code | Microsoft Docs"
+title: "Assertions in Managed Code"
 description: Learn about assertions as a debugging tool for C#, Visual Basic, or F# managed code in Visual Studio.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -17,13 +17,10 @@ helpviewer_keywords:
   - "assertions, side effects"
   - "Trace.Listeners property"
   - "assertions, managed code"
-ms.assetid: 70ab2522-6486-4076-a1a9-e0f11cd0f3a1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "dotnet"
 ---
 # Assertions in Managed Code
 

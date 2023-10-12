@@ -1,5 +1,5 @@
 ---
-title: "Debugging Errors and Warning Dialog Boxes | Microsoft Docs"
+title: "Debugging Errors and Warning Dialog Boxes"
 description: See a list of errors and warning dialog boxes that you might encounter while debugging your application in Visual Studio.
 ms.date: "11/04/2016"
 ms.topic: "ui-reference"
@@ -16,13 +16,10 @@ helpviewer_keywords:
   - "debugging [Visual Studio], errors"
   - "debugger, errors"
   - "errors [Visual Studio], debugger"
-ms.assetid: 73baaf39-3026-48c9-be48-8b9ba0063cde
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Debugging Errors and Warning Dialog Boxes
 

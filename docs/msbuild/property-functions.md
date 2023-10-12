@@ -1,17 +1,14 @@
 ---
-title: Property Functions | Microsoft Docs
+title: Property Functions
 description: Learn how to use property functions, which are calls to .NET Framework methods that appear in MSBuild property definitions.
 ms.date: 05/10/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, property functions
-ms.assetid: 2253956e-3ae0-4bdc-9d3a-4881dfae4ddb
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Property functions
 

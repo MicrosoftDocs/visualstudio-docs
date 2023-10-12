@@ -1,5 +1,5 @@
 ---
-title: "Developing SharePoint Solutions | Microsoft Docs"
+title: "Developing SharePoint Solutions"
 description: Develop SharePoint solutions. Know the elements of a SharePoint project. Understand SharePoint project and project item properties.
 ms.date: "02/02/2017"
 ms.topic: overview
@@ -15,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Develop SharePoint solutions
 

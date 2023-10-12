@@ -8,10 +8,7 @@ ms.topic: quickstart
 author: cwebster-99
 ms.author: cowebster
 manager: jmartens
-ms.custom: [vs-acquisition]
-ms.workload:
-  - python
-  - data-science
+ms.custom: vs-acquisition
 ---
 # Quickstart: Create your first Python web app using Visual Studio
 

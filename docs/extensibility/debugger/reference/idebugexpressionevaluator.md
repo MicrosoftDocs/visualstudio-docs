@@ -1,19 +1,16 @@
 ---
 description: "This interface represents the expression evaluator."
-title: IDebugExpressionEvaluator | Microsoft Docs
+title: IDebugExpressionEvaluator
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExpressionEvaluator
 helpviewer_keywords:
 - IDebugExpressionEvaluator interface
-ms.assetid: 0636d8c3-625a-49fa-94b6-516f22b7e1bc
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugExpressionEvaluator
 

@@ -3,7 +3,6 @@ title: Using the Subscriber Portal in Visual Studio subscriptions| Microsoft Doc
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 8470f035-2a82-4052-9a12-6f24ce796861
 ms.date: 07/13/2022
 ms.topic: overview
 description: Learn about the full range of benefits available to you on the Visual Studio subscriptions portal

@@ -14,13 +14,10 @@ helpviewer_keywords:
 - tiers, n-tier applications
 - typed datasets, n-tier applications
 - multiple tier applications
-ms.assetid: f6ae2ee0-ea5f-4a79-8f4b-e21c115afb20
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Work with datasets in n-tier applications
 

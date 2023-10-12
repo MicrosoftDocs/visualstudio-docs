@@ -1,19 +1,16 @@
 ---
 description: "Specifies whether the data breakpoint is being emulated or implemented in hardware."
-title: BP_RES_DATA_FLAGS | Microsoft Docs
+title: BP_RES_DATA_FLAGS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_RES_DATA_FLAGS
 helpviewer_keywords:
 - BP_RES_DATA_FLAGS enumeration
-ms.assetid: d97611e2-def6-45a9-ad7d-eedf2ad4c82b
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

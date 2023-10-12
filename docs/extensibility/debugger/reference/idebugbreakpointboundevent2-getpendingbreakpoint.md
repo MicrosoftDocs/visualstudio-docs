@@ -1,19 +1,16 @@
 ---
 description: "Gets the pending breakpoint that is being bound."
-title: IDebugBreakpointBoundEvent2::GetPendingBreakpoint | Microsoft Docs
+title: IDebugBreakpointBoundEvent2::GetPendingBreakpoint
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBreakpointBoundEvent2::GetPendingBreakpoint
 helpviewer_keywords:
 - IDebugBreakpointBoundEvent2::GetPendingBreakpoint
-ms.assetid: 6da7ed86-b412-4964-b6a3-0687a66f63fe
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp
