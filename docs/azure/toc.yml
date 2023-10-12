@@ -143,14 +143,6 @@
   expanded: false
 - name: Work with Azure Active Directory
   items:
-  - name: Get started with .NET MVC projects
-    href: vs-active-directory-dotnet-getting-started.md
-  - name: What happened to my .NET MVC project?
-    href: vs-active-directory-dotnet-what-happened.md
-  - name: Get started with WebAPI projects
-    href: vs-active-directory-webapi-getting-started.md
-  - name: What happened to my WebAPI project?
-    href: vs-active-directory-webapi-what-happened.md
   - name: Diagnose errors during authentication
     href: vs-active-directory-error.md
 - name: How to
