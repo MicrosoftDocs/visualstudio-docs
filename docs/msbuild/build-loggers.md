@@ -1,5 +1,5 @@
 ---
-title: Build Loggers | Microsoft Docs
+title: Build Loggers
 description: Use MSBuild loggers to manage and customize the output of your build and display messages, errors, or warnings in response to specific build events.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - MSBuild, writing loggers
 - MSBuild, logging
 - logging [MSBuild]
-ms.assetid: fa34810d-185a-4d22-92bd-9852915e5f1d
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Build loggers
 

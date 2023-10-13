@@ -20,8 +20,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # First look at deployment in Visual Studio
 

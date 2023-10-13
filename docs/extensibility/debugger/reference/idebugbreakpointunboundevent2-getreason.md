@@ -1,19 +1,16 @@
 ---
 description: "Gets the reason the breakpoint was unbound."
-title: IDebugBreakpointUnboundEvent2::GetReason | Microsoft Docs
+title: IDebugBreakpointUnboundEvent2::GetReason
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBreakpointUnboundEvent2::GetReason
 helpviewer_keywords:
 - IDebugBreakpointUnboundEvent2::GetReason
-ms.assetid: 0f8a4fec-d3eb-417d-8516-4f7b51904033
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

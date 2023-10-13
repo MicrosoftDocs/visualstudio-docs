@@ -10,12 +10,9 @@ helpviewer_keywords:
 - building with Visual Basic developer settings (Visual Studio)
 - debug builds
 - release builds
-ms.assetid: eaea6e0b-6c61-4869-8d63-d372c745a23c
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.workload:
-- multiple
 ---
 # How to: Manage build configurations with Visual Basic developer settings applied
 

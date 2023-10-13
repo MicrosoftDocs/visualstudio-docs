@@ -1,18 +1,15 @@
 ---
-title: 'How to: Use the Same Target in Multiple Project Files | Microsoft Docs'
+title: 'Use the Same Target in Multiple Project Files'
 description: Learn how to save a target in an MSBuild project file and import it into any other project that needs to use the target.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, importing
 - MSBuild, using the same target in multiple project files
-ms.assetid: 163734bd-1bfd-4093-a730-7741fc21742d
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # How to: Use the same target in multiple project files
 

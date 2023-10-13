@@ -1,5 +1,5 @@
 ---
-title: SGen Task | Microsoft Docs
+title: SGen Task
 description: Learn how MSBuild uses the SGen task to create an XML serialization assembly for types, by wrapping the XML Serializer Generator tool Sgen.exe. 
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - SGen task [MSBuild]
 - MSBuild, SGen task
-ms.assetid: 22c5ade4-4159-4667-b891-0c1aa06f4df5
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # SGen task
 

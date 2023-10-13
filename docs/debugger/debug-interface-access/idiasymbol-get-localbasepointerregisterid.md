@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the ID of the register that holds a base pointer to local variables on the stack."
-title: "IDiaSymbol::get_localBasePointerRegisterId | Microsoft Docs"
+title: "IDiaSymbol::get_localBasePointerRegisterId"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_localBasePointerRegisterId method"
-ms.assetid: 9cbcaf00-9ace-45e1-b164-7a9439e08083
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_localBasePointerRegisterId
 

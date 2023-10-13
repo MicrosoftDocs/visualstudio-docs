@@ -1,5 +1,5 @@
 ---
-title: Specify Debugger Settings | Microsoft Docs
+title: Specify Debugger Settings
 description: Specify various settings for debugger behavior in Visual Studio, such as how to display variables, what warnings are presented, and how to set breakpoints.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -14,13 +14,10 @@ helpviewer_keywords:
   - debugger, setting options
   - debugging [Visual Studio], debugger settings
   - options, debugging
-ms.assetid: ea172841-7fef-47bf-bd02-e7da4c3c7109
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How to: Specify Debugger Settings
 

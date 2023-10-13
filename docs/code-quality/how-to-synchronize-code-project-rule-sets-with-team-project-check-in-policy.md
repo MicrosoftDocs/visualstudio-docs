@@ -5,13 +5,10 @@ description: Learn how to synchronize a Visual Studio code project rule set with
 ms.topic: how-to
 f1_keywords: 
   - vs.codeanalysis.selecttfsruleset
-ms.assetid: 9b02f934-2db6-41ec-aaff-9c31ceec2f04
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-code-analysis
-ms.workload: 
-  - multiple
 ---
 # How to: Synchronize Code Project Rule Sets with an Azure DevOps Project Check-in Policy
 

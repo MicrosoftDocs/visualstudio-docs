@@ -1,14 +1,12 @@
 ---
 title: Connect to a database or open an MDF file
-description: Connect to a database or data service, or connect to a database opened from an MDF file in Visual Studio.
+description: Connect to a database or data service with ADO.NET in Visual Studio, or connect to a database opened from an MDF file in Visual Studio.
 ms.date: 03/07/2023
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Connect to a database
 

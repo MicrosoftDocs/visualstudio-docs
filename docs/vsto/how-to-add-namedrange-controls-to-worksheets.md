@@ -1,5 +1,5 @@
 ---
-title: "How to: Add NamedRange controls to worksheets"
+title: "Add NamedRange controls to worksheets"
 description: Learn how you can add NamedRange controls to a Microsoft Office Excel worksheet at design time and at run time in document-level projects.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Add NamedRange controls to worksheets
 

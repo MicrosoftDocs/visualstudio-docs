@@ -1,6 +1,6 @@
 ---
 title: Create user controls that support simple data binding
-description: Learn to create a Windows Forms user control that supports simple data binding, using the DefaultBindingPropertyAttribute class in Visual Studio.
+description: Learn to create a Windows Forms user control that supports simple data binding in a .NET Framework application, using the DefaultBindingPropertyAttribute class in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: conceptual
 dev_langs:
@@ -9,13 +9,10 @@ dev_langs:
 helpviewer_keywords:
 - custom controls [Visual Studio], Data Sources Window
 - Data Sources Window, controls
-ms.assetid: b1488366-6dfb-454e-9751-f42fd3f3ddfb
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Create a Windows Forms user control that supports simple data binding
 

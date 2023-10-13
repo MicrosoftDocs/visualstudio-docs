@@ -5,13 +5,10 @@ description: Learn how to use a code analysis check-in policy to verify that cod
 ms.topic: how-to
 helpviewer_keywords: 
   - code analysis, check-in policies
-ms.assetid: d1b3b04f-4dd9-40e6-b2d4-b414d33fb647
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-code-analysis
-ms.workload: 
-  - multiple
 ---
 # How to: Enforce maintainable code with a code analysis check-in policy
 

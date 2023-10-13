@@ -7,13 +7,10 @@ helpviewer_keywords:
 - code snippets [Visual Studio], functions
 - snippets [Visual Studio], functions
 - IntelliSense code snippets, functions
-ms.assetid: c0a2bf21-8fa5-4457-9281-f599beb53e7d
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Code snippet functions
 

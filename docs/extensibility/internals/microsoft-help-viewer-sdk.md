@@ -1,15 +1,12 @@
 ---
-title: Microsoft Help Viewer SDK | Microsoft Docs
+title: Microsoft Help Viewer SDK
 description: Learn about Visual Studio Help Viewer tasks, such as creating an article, creating a Help Viewer content-branding package, and deploying a set of articles.
 ms.date: 11/04/2016
 ms.topic: conceptual
-ms.assetid: 620d7dcd-d462-475e-a449-fbfa06ff12c5
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Microsoft Help Viewer SDK
 

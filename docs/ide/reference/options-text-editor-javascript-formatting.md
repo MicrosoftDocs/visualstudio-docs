@@ -11,12 +11,9 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Formatting.Spacing"
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Formatting.General"
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Formatting.New_Lines"
-ms.assetid: 28a0aef1-9353-4d94-95a5-54b42e15c0dc
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
-ms.workload:
-  - "multiple"
 ---
 # Options dialog box: Text Editor \> JavaScript \> Formatting
 

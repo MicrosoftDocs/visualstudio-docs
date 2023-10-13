@@ -1,19 +1,16 @@
 ---
 description: "Specifies the structure of the breakpoint resolution location."
-title: BP_RESOLUTION_LOCATION | Microsoft Docs
+title: BP_RESOLUTION_LOCATION
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - BP_RESOLUTION_LOCATION
 helpviewer_keywords:
 - BP_RESOLUTION_LOCATION structure
-ms.assetid: 21dc5246-69c1-43e3-855c-9cd4e596c0e6
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

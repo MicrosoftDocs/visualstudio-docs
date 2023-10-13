@@ -1,17 +1,14 @@
 ---
-title: Search for a Window in Windows View | Microsoft Docs
+title: Search for a Window in Windows View
 description: Search for a specific window in the Spy++ tool's Windows view by using its handle, caption, class, or a combination of its caption and class in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 
   - windows, searching in Windows view
-ms.assetid: 30306970-b861-4315-acf8-f86a43d4e73b
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How to: Search for a Window in Windows View
 

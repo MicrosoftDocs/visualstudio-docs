@@ -1,5 +1,5 @@
 ---
-title: "CompilandDetails | Microsoft Docs"
+title: "CompilandDetails"
 description: Find reference information about the CompilandDetails symbol type (SymTagCompilandDetails) in the Visual Studio debug interface access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,13 +7,10 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "CompilandDetails symbol"
-ms.assetid: ddc7d794-c622-4c63-b2a6-72f8b2d0022a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # CompilandDetails
 

@@ -5,12 +5,9 @@ titleSuffix: ""
 ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
-ms.assetid: 6f0e4986-3157-4bba-aed3-c28413ebe976
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.workload:
-- vssdk
 ---
 # RequiredPlatformVersion element (Visual Studio templates)
 

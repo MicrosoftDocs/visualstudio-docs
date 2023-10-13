@@ -7,8 +7,6 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-test
-ms.workload:
-  - multiple
 ---
 # Debug and analyze unit tests with Test Explorer
 

@@ -1,17 +1,14 @@
 ---
-title: Supplying Undo Support to Designers | Microsoft Docs
+title: Supplying Undo Support to Designers
 description: Learn how to provide Undo support in designers, either automatically or by using features in the Visual Studio SDK.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - designers [Visual Studio SDK], undo support
-ms.assetid: 43eb1f14-b129-404a-8806-5bf9b099b67b
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Supply undo support to designers
 

@@ -1,5 +1,5 @@
 ---
-title: Creating a Basic Project System, Part 1 | Microsoft Docs
+title: Creating a Basic Project System, Part 1
 description: Learn how to create a project type named extension.myproj. In Visual Studio, projects are containers used to organize source code files and other assets.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - writing a project system
 - project system
 - tutorial
-ms.assetid: 882a10fa-bb1c-4b01-943a-7a3c155286dd
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Create a basic project system, part 1
 

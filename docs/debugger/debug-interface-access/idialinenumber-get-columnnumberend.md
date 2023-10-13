@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the one-based source column number where the expression or statement ends."
-title: "IDiaLineNumber::get_columnNumberEnd | Microsoft Docs"
+title: "IDiaLineNumber::get_columnNumberEnd"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaLineNumber::get_columnNumberEnd method"
-ms.assetid: 02fa56c1-87b6-405a-adee-3bb6bc62de2d
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaLineNumber::get_columnNumberEnd
 

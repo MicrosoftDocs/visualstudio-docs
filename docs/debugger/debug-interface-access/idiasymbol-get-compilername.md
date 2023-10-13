@@ -1,19 +1,16 @@
 ---
 description: "Returns the name of the compiler used to generate the Compiland)."
-title: "IDiaSymbol::get_compilerName | Microsoft Docs"
+title: "IDiaSymbol::get_compilerName"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_compilerName method"
-ms.assetid: 66eaaf72-68d4-40ee-b132-97bea9fe395c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_compilerName
 

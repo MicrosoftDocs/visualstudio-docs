@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically add rows and columns to Word tables"
+title: "Programmatically add rows and columns to Word tables"
 description:  Learn how you can use the Add method of the Rows object to add rows to the table. You can also use the Add method of the Columns object to add columns.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -15,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically add rows and columns to Word tables
 

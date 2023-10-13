@@ -1,5 +1,5 @@
 ---
-title: "When Breakpoint Is Hit Dialog Box | Microsoft Docs"
+title: "When Breakpoint Is Hit Dialog Box"
 description: Use When Breakpoint is Hit to specify an action on breaking. You can specify that a message be printed, and that execution should continue afterwards.
 ms.date: "11/04/2016"
 ms.topic: "ui-reference"
@@ -12,13 +12,10 @@ dev_langs:
   - "C++"
   - "JScript"
   - "SQL"
-ms.assetid: 476e3d98-cf35-4338-b124-cd0f3010d854
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # When Breakpoint Is Hit Dialog Box
 

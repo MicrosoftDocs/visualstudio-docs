@@ -1,5 +1,5 @@
 ---
-title: TaskExtension Base Class | Microsoft Docs
+title: TaskExtension Base Class
 description: Learn about the parameters that the Microsoft.Build.Tasks.TaskExtension base class adds to the tasks that inherit from it.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,17 +7,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, tool task base class
 - tool task base class [MSBuild]
-ms.assetid: 08bb8059-b7e2-4565-89ba-d9034d4f0e16
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # TaskExtension base class
 

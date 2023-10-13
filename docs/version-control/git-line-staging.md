@@ -9,7 +9,6 @@ ms.author: ghogen
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.custom: version-control
 monikerRange: vs-2022
 ---
 # Stage lines of code in Visual Studio

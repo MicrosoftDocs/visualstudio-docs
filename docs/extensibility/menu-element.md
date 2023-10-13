@@ -1,18 +1,15 @@
 ---
-title: Menu Element | Microsoft Docs
+title: Menu Element
 description: The Menu element defines one menu item. The kinds of menu are Context, Menu, MenuController, MenuControllerLatched, Toolbar, and ToolWindowToolbar.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - VSCT XML schema elements, Menus
 - Menus element (VSCT XML schema)
-ms.assetid: ce0560f3-b4c9-4ab2-a99c-d4e10f37b9e0
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Menu element
 

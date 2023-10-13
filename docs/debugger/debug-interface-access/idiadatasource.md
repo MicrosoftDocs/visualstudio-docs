@@ -1,19 +1,16 @@
 ---
 description: "Initiates access to a source of debugging symbols."
-title: "IDiaDataSource | Microsoft Docs"
+title: "IDiaDataSource"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaDataSource interface"
-ms.assetid: 6260ac76-4f9d-4144-ba22-32f8620b32c2
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaDataSource
 

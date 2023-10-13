@@ -4,12 +4,9 @@ titleSuffix: ''
 description: Learn how to apply administrator updates to Visual Studio.
 ms.date: 9/28/2023
 ms.topic: overview
-ms.assetid: 9a3fdb28-db3d-4970-bc17-7417a985f0fb
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---

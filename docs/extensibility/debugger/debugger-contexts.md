@@ -1,17 +1,14 @@
 ---
-title: Debugger Contexts | Microsoft Docs
+title: Debugger Contexts
 description: "Learn how the Visual Studio debug engine operates within distinct contexts: code context, documentation context or position, and expression evaluation context."
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], contexts
-ms.assetid: 79808036-b680-4e4c-9c61-4ed43aa11323
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Debugger contexts
 

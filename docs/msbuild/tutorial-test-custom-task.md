@@ -1,5 +1,5 @@
 ---
-title: Test a custom task | Microsoft Docs
+title: Test a custom task
 description: Learn how to test an MSBuild custom task
 ms.date: 03/17/2022
 ms.topic: tutorial
@@ -9,8 +9,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Tutorial: Test a custom task
 

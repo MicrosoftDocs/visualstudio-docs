@@ -1,14 +1,11 @@
 ---
-title: "Visual Studio Open Folder extensibility overview | Microsoft Docs"
+title: "Visual Studio Open Folder extensibility overview"
 description: Learn about extensibility for the Open Folder feature, which allows users to open a codebase in Visual Studio without project or solution files.
 ms.date: "02/21/2018"
 ms.topic: overview
-ms.assetid: 94c3f8bf-1de3-40ea-aded-7f40c4b314c7
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
-ms.workload:
-  - "vssdk"
 ---
 # Open Folder extensibility
 

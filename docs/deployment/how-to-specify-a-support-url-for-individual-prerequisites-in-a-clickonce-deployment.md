@@ -10,13 +10,10 @@ dev_langs:
 helpviewer_keywords: 
   - ClickOnce deployment, prerequisites
   - ClickOnce deployment, URLs
-ms.assetid: 590742c3-a286-4160-aa75-7a441bb2207b
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # How to: Specify a support URL for individual prerequisites in a ClickOnce deployment
 

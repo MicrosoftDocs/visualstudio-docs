@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a flag indicating whether the module was converted from a Common Intermediate Language (CIL) module to a native module."
-title: "IDiaSymbol::get_isCVTCIL | Microsoft Docs"
+title: "IDiaSymbol::get_isCVTCIL"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_isCVTCIL method"
-ms.assetid: 711b81fd-9549-44dc-9761-5eb862ed64c0
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_isCVTCIL
 

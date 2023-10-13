@@ -4,12 +4,9 @@ titleSuffix: ''
 description: Learn more about how to deploy administrator updates to Visual Studio.
 ms.date: 9/27/2023
 ms.topic: overview
-ms.assetid: 546fbad6-f12b-49cf-bccc-f2e63e051a18
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---

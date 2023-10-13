@@ -8,8 +8,6 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Tutorial: Create a math quiz WinForms app
 

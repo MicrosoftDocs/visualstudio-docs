@@ -1,19 +1,16 @@
 ---
 description: "This interface is sent by the debug engine (DE) to the session debug manager (SDM) when a program is attached to."
-title: IDebugProgramCreateEvent2 | Microsoft Docs
+title: IDebugProgramCreateEvent2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgramCreateEvent2
 helpviewer_keywords:
 - IDebugProgramCreateEvent2 interface
-ms.assetid: b19a7934-6179-4a68-9075-bd7dcd640b05
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugProgramCreateEvent2
 

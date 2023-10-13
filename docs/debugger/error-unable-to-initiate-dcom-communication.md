@@ -1,6 +1,6 @@
 ---
 description: "A DCOM error occurred when the local machine tried to communicate with the remote machine."
-title: "Unable to initiate DCOM communication | Microsoft Docs"
+title: "Unable to initiate DCOM communication"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:
@@ -14,8 +14,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Error: Unable to initiate DCOM communication
 

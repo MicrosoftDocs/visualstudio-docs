@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a flag that specifies whether the symbol refers to Microsoft Intermediate Language (MSIL) code."
-title: "IDiaSymbol::get_msil | Microsoft Docs"
+title: "IDiaSymbol::get_msil"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_msil method"
-ms.assetid: 43a8e003-6856-4726-aa16-c0d4dae7299b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_msil
 

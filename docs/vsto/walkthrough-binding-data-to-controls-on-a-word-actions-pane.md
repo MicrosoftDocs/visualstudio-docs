@@ -18,8 +18,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # Walkthrough: Bind data to controls on a Word actions pane
 

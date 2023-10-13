@@ -1,5 +1,5 @@
 ---
-title: Viewing GPU Threads in the Debugger | Microsoft Docs
+title: Viewing GPU Threads in the Debugger
 description: Use the GPU Threads window to examine and work with threads that are running on the GPU in the application that you are debugging in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -12,13 +12,10 @@ dev_langs:
   - C++
 helpviewer_keywords: 
   - debugger, GPU threads window
-ms.assetid: c647c502-a9f0-48e0-a430-976744a5fa51
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How to: Use the GPU Threads Window (C++)
 

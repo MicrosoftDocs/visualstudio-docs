@@ -1,5 +1,5 @@
 ---
-title: Specify ClickOnce Publish properties | Microsoft Docs
+title: Specify ClickOnce Publish properties
 description: Learn how to set the Publish properties for a ClickOnce application, such as the location where the application files and manifest are put, and the installation URL.
 ms.date: 08/04/2023
 ms.topic: how-to
@@ -10,13 +10,10 @@ dev_langs:
 helpviewer_keywords: 
   - publishing, specifying location
   - Publish Location property
-ms.assetid: 6c552700-dda3-49fe-af98-4717344fda07
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # Specify ClickOnce Publish properties
 

@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the variety of a user-defined type (UDT)."
-title: "IDiaSymbol::get_udtKind | Microsoft Docs"
+title: "IDiaSymbol::get_udtKind"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_udtKind method"
-ms.assetid: 4002f887-aea6-4475-b302-67c57079fe0a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_udtKind
 

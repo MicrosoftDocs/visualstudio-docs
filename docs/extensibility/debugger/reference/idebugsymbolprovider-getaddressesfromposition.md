@@ -1,19 +1,16 @@
 ---
 description: "This method maps a document position into an array of debug addresses."
-title: IDebugSymbolProvider::GetAddressesFromPosition | Microsoft Docs
+title: IDebugSymbolProvider::GetAddressesFromPosition
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugSymbolProvider::GetAddressesFromPosition
 helpviewer_keywords:
 - IDebugSymbolProvider::GetAddressesFromPosition method
-ms.assetid: 1b0f02cb-8ace-4614-88f3-0e10239012b3
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

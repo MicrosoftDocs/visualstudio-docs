@@ -1,18 +1,15 @@
 ---
-title: Displaying Locals | Microsoft Docs
+title: Displaying Locals
 description: Learn about the list of local variables and arguments, collectively called the locals of the method, which are displayed when execution pauses.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation, displaying locals
-ms.assetid: 62264cec-845b-4233-aed7-0b038fa79250
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Display locals
 

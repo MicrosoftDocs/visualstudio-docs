@@ -1,17 +1,14 @@
 ---
 description: "Retrieves the register type."
-title: "IDiaSymbol::get_registerType | Microsoft Docs"
+title: "IDiaSymbol::get_registerType"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-ms.assetid: f1c98ab0-8aef-4a07-a686-28b8a54418ef
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_registerType
 

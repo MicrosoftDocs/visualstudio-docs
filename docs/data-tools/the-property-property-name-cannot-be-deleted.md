@@ -3,13 +3,10 @@ title: The property cannot be deleted
 description: 'The property cannot be deleted. View information about this Visual Studio Object Relational Designer (O/R Designer) message.'
 ms.date: 11/04/2016
 ms.topic: error-reference
-ms.assetid: 55873f74-7834-4ec1-8815-eeeb65618d87
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-  - "data-storage"
 ---
 # The property \<property name> cannot be deleted
 

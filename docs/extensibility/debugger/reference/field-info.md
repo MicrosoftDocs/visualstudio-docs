@@ -1,19 +1,16 @@
 ---
 description: "This structure describes a local variable, parameter, or other field."
-title: FIELD_INFO | Microsoft Docs
+title: FIELD_INFO
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - FIELD_INFO
 helpviewer_keywords:
 - FIELD_INFO structure
-ms.assetid: bfafef6d-0c83-43d7-a779-1f0d24b166a1
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

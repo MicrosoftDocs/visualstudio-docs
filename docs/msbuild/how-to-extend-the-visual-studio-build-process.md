@@ -1,7 +1,6 @@
 ---
 title: Extend the build process
 description: Learn various ways to modify the build process so that you can control and customize how your projects build.
-
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
@@ -9,13 +8,10 @@ helpviewer_keywords:
 - MSBuild, overriding DependsOn properties
 - MSBuild, extending Visual Studio builds
 - MSBuild, DependsOn properties
-ms.assetid: cb077613-4a59-41b7-96ec-d8516689163c
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # How to: Extend the Visual Studio build process
 

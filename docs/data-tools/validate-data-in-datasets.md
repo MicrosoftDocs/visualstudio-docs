@@ -1,6 +1,6 @@
 ---
 title: Validate data in datasets
-description: Learn to validate data in datasets. Validating data involves confirming that values entered into data objects conform to constraints within a dataset's schema.
+description: Learn to validate data in ADO.NET datasets in .NET Framework application development with Visual Studio. Validating data involves confirming that values entered into data objects conform to constraints within a dataset's schema.
 ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
@@ -16,13 +16,10 @@ helpviewer_keywords:
 - data validation
 - validating data, datasets
 - updating datasets, validating data
-ms.assetid: 79500596-1e4d-478e-a991-a636fd73a622
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Validate data in datasets
 

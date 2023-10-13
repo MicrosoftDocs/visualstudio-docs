@@ -10,13 +10,10 @@ helpviewer_keywords:
 - windows [Visual Studio], accessibility
 - dialog boxes [Visual Studio], shortcut keys
 - accessibility [Visual Studio]
-ms.assetid: d71a4cc1-d352-4164-8538-3f9fa070a331
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # How to use the keyboard exclusively
 

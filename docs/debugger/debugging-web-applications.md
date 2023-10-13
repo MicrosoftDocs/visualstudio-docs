@@ -1,5 +1,5 @@
 ---
-title: "Debugging Web Applications | Microsoft Docs"
+title: "Debugging Web Applications"
 description: Find links to help you debug different types of web applications, such as ASP.NET apps, JavaScript and TypeScript apps, or AJAX script apps.
 ms.date: "11/05/2019"
 ms.topic: "conceptual"
@@ -8,13 +8,10 @@ helpviewer_keywords:
   - "ASP.NET debugging, Web services"
   - "debugging [ASP.NET], about debugging ASP.NET Web applications"
   - "ASP.NET Web pages, debugging"
-ms.assetid: a096a90d-6d0d-4752-9fb5-417635ccab3e
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Debugging Web Applications
 

@@ -1,19 +1,16 @@
 ---
 description: "IDiaStackWalkHelper::put_registerValue sets the value of a register."
-title: "IDiaStackWalkHelper::put_registerValue | Microsoft Docs"
+title: "IDiaStackWalkHelper::put_registerValue"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackWalkHelper2::put_registerValue method"
-ms.assetid: 8f02ce54-ef59-455f-8aa6-dc26761c7aff
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaStackWalkHelper::put_registerValue
 

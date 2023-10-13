@@ -1,5 +1,5 @@
 ---
-title: Project Type Design Decisions | Microsoft Docs
+title: Project Type Design Decisions
 description: Learn about the item, project file persistence, and commitment mechanic design decisions to make before you extend Visual Studio by creating a new project type.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -8,13 +8,10 @@ helpviewer_keywords:
 - project types, commitment mechanics
 - project types, items
 - project types, design decisions
-ms.assetid: f68671fe-fd7a-4e56-a0b5-330b0f1fedb1
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Project Type Design Decisions
 

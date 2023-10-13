@@ -1,18 +1,15 @@
 ---
-title: Ports | Microsoft Docs
+title: Ports
 description: This article describes the definition and role of a port in the debugger architecture in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - ports
 - debugging [Debugging SDK], ports
-ms.assetid: 1d7f3aa7-7eff-4cab-bc53-0a566b1a9363
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Ports
 

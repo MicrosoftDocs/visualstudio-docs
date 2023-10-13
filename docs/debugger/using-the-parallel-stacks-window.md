@@ -1,5 +1,5 @@
 ---
-title: "View threads in the Parallel Stacks window | Microsoft Docs"
+title: "View threads in the Parallel Stacks window"
 description: Use Parallel Stacks to help debug multithreaded applications. You can view stack information for all threads, and task-centered call stack information.
 ms.date: "11/20/2018"
 ms.topic: "conceptual"
@@ -12,13 +12,10 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "debugger, parallel tasks window"
-ms.assetid: f50efb78-5206-4803-bb42-426ef8133f2f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # View threads and tasks in the Parallel Stacks window (C#, Visual Basic, C++)
 

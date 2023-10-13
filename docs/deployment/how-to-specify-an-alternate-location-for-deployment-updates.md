@@ -10,13 +10,10 @@ dev_langs:
 helpviewer_keywords: 
   - ClickOnce deployment, updates
   - deployment update, alternative locations
-ms.assetid: 7faacd35-2638-492d-80f6-6b57e5f820de
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # How to: Specify an alternate location for deployment updates
 

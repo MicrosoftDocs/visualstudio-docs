@@ -1,17 +1,14 @@
 ---
-title: Incremental Builds | Microsoft Docs
+title: Incremental Builds
 description: Learn about MSBuild incremental builds, which are optimized so that up-to-date output files aren't executed.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - msbuild, incremental builds
-ms.assetid: 325e28c7-4838-4e3f-b672-4586adc7500c
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Incremental builds
 

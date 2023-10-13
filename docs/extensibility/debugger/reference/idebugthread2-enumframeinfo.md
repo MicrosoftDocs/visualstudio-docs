@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a list of the stack frames for this thread."
-title: IDebugThread2::EnumFrameInfo | Microsoft Docs
+title: IDebugThread2::EnumFrameInfo
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugThread2::EnumFrameInfo
 helpviewer_keywords:
 - IDebugThread2::EnumFrameInfo
-ms.assetid: 17914a71-10ea-4b6f-8982-e364f87dca53
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

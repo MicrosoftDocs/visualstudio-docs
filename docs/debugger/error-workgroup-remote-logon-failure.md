@@ -1,5 +1,5 @@
 ---
-title: "Workgroup Remote Logon Failure | Microsoft Docs"
+title: "Workgroup Remote Logon Failure"
 description: "This error can occur when you are debugging from a machine on a workgroup and you try to connect to remote machine."
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
@@ -18,8 +18,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Error: Workgroup Remote Logon Failure
 

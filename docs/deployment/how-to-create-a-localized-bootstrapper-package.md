@@ -1,5 +1,5 @@
 ---
-title: Create a Localized Bootstrapper Package | Microsoft Docs
+title: Create a Localized Bootstrapper Package
 description: Learn how to create localized versions of the bootstrapper package in ClickOnce by creating two more files for each locale.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -7,13 +7,10 @@ helpviewer_keywords:
   - localized bootstrapper packages
   - dependencies, creating localized bootstrapper packages
   - prerequisites, creating localized bootstrapper packages
-ms.assetid: 66a1bc7e-6540-4164-963d-557196a69d8a
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # How to: Create a localized bootstrapper package
 

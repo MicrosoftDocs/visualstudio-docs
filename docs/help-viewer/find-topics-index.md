@@ -10,13 +10,10 @@ helpviewer_keywords:
   - "using the index [Help Viewer]"
   - "index filtering [Help Viewer]"
   - "Help Viewer, index filtering"
-ms.assetid: cb071e93-f297-459c-a6fa-8ae0dabc42a4
 author: jasonchlus
 ms.author: jasonchlus
 manager: jmartens
 ms.technology: vs-help-viewer
-ms.workload:
-  - "multiple"
 ---
 # Find topics by using the Help Viewer index
 

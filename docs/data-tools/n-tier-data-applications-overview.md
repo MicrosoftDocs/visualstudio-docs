@@ -8,13 +8,10 @@ helpviewer_keywords:
 - middle tier
 - data tier
 - n-tier applications, about n-tier applications
-ms.assetid: 1020581d-eaaa-41a2-aca4-bf4c212895f6
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # N-tier data applications overview
 

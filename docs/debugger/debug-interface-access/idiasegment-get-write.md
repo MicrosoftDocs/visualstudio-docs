@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a flag that indicates whether the segment can be modified."
-title: "IDiaSegment::get_write | Microsoft Docs"
+title: "IDiaSegment::get_write"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSegment::get_write method"
-ms.assetid: 5fcda988-6be1-4b2f-8660-b59aa78fc35d
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSegment::get_write
 

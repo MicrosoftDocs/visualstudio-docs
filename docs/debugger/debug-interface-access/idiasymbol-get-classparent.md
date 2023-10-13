@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a reference to the class parent of the symbol."
-title: "IDiaSymbol::get_classParent | Microsoft Docs"
+title: "IDiaSymbol::get_classParent"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_classParent method"
-ms.assetid: 99db875a-caae-4d60-ae70-64bc8a9f6fba
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_classParent
 

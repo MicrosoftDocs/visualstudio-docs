@@ -5,13 +5,10 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "MessageContent.UI"
-ms.assetid: 7e4237c3-90a1-4149-bd8a-3643d1dde0df
 author: jodavis
 ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
-ms.workload:
-  - "multiple"
 ---
 # Content Definition Dialog Box
 

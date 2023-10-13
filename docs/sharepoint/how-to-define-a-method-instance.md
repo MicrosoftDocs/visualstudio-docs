@@ -1,5 +1,5 @@
 ---
-title: "How to: Define a Method Instance | Microsoft Docs"
+title: "Define a Method Instance"
 description: Understand how to define a method instance for a method in your business data connectivity (BDC) model.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -15,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Define a method instance
 

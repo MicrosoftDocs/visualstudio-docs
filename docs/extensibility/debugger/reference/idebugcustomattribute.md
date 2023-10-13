@@ -1,19 +1,16 @@
 ---
 description: "This interface represents a custom attribute, and it can provide the name, parent, and class type of the attribute."
-title: IDebugCustomAttribute | Microsoft Docs
+title: IDebugCustomAttribute
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugCustomAttribute
 helpviewer_keywords:
 - IDebugCustomAttribute interface
-ms.assetid: c5ae41e9-00b9-4cca-871d-b8de9ef390d1
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugCustomAttribute
 

@@ -1,19 +1,16 @@
 ---
 description: "Determines if any session has enabled the provider."
-title: marker_series::is_enabled Method | Microsoft Docs
+title: marker_series::is_enabled Method
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords: 
 - cvmarkersobj/Concurrency, diagnostic::marker_series::is_enabled
 helpviewer_keywords: 
 - Concurrency, diagnostic::marker_series::is_enabled method
-ms.assetid: 8ce4dd50-ca29-4c72-98d6-582693f7d501
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # marker_series::is_enabled method
 

@@ -1,5 +1,5 @@
 ---
-title: "How to: Access and Constrain the Current Selection"
+title: "Access and Constrain the Current Selection"
 description: Learn how you can determine what element the user right-clicked when you write a command or gesture handler for your domain-specific language.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -9,8 +9,6 @@ author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
 ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
 ---
 # How to: Access and Constrain the Current Selection
 

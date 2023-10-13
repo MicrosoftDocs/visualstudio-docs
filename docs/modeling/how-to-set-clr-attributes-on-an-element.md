@@ -1,9 +1,6 @@
 ---
-title: "How to: Set CLR attributes on an element by using DSL Explorer"
+title: "Set CLR attributes on an element by using DSL Explorer"
 description: Learn how to add any attribute that inherits from System.Attribute. Custom attributes can be added to domain elements, shapes, connectors, and diagrams.
-ms.custom:
-- SEO-VS-2020
-- kr2b-contr-experiment
 ms.date: 06/24/2022
 ms.topic: how-to
 f1_keywords:
@@ -14,8 +11,6 @@ author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
 ms.technology: vs-ide-modeling
-ms.workload:
-  - "multiple"
 ---
 
 # How to: Set CLR attributes on an element

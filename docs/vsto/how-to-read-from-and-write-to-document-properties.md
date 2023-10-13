@@ -1,5 +1,5 @@
 ---
-title: "How to: Read from and write to document properties"
+title: "Read from and write to document properties"
 description: Learn how you can use Visual Studio to get or set document properties in Microsoft Excel and Microsoft Word.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -15,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Read from and write to document properties
 

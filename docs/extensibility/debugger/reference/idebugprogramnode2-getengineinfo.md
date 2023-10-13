@@ -1,19 +1,16 @@
 ---
 description: "Gets the name and identifier of the debug engine (DE) running a program."
-title: IDebugProgramNode2::GetEngineInfo | Microsoft Docs
+title: IDebugProgramNode2::GetEngineInfo
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgramNode2::GetEngineInfo
 helpviewer_keywords:
 - IDebugProgramNode2::GetEngineInfo
-ms.assetid: 664e7fe5-9100-4b7d-9dc5-e5a4dd0d0451
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

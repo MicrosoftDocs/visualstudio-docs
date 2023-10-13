@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the original type for this symbol."
-title: "IDiaSymbol::get_unmodifiedType | Microsoft Docs"
+title: "IDiaSymbol::get_unmodifiedType"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_unmodifiedType method"
-ms.assetid: bf914dc0-ff84-4f5d-9f75-1733b17f3be0
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_unmodifiedType
 

@@ -1,5 +1,5 @@
 ---
-title: "JIT Optimization and Debugging | Microsoft Docs"
+title: "JIT Optimization and Debugging"
 description: Code that is optimized is more difficult to debug than code that isn't. Learn about JIT optimization, and about when and how to suppress it.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -11,13 +11,10 @@ dev_langs:
 helpviewer_keywords:
   - "debugging [Visual Studio], optimized code"
   - "optimized code, debugging"
-ms.assetid: 19bfabf3-1a2e-49dc-8819-a813982e86fd
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # JIT Optimization and Debugging
 

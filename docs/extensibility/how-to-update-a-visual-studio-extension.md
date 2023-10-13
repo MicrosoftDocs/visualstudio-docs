@@ -1,5 +1,5 @@
 ---
-title: 'How to: Update a Visual Studio Extension | Microsoft Docs'
+title: 'Update a Visual Studio Extension'
 description: Learn how to update a Visual Studio extension on your system by using Extensions and Updates to install the updated version.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - update package
 - update extension
 - new package version
-ms.assetid: 93f79774-7b79-4dd6-94ad-13698f72c257
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # How to: Update a Visual Studio extension
 

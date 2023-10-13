@@ -1,5 +1,5 @@
 ---
-title: "Debugging Native Code | Microsoft Docs"
+title: "Debugging Native Code"
 description: Learn about common debugging problems and high-level techniques for native applications in Visual Studio.
 ms.date: "02/07/2023"
 ms.topic: "conceptual"
@@ -13,13 +13,10 @@ helpviewer_keywords:
   - "debugging [C++], native code"
   - "debugging [Visual Studio], native code"
   - "native code, debugging"
-ms.assetid: d94eee90-7e0d-4cac-88c1-9831030daa5e
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "cplusplus"
 ---
 # Debugging Native Code
 

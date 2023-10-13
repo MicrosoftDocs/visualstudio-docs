@@ -1,18 +1,15 @@
 ---
-title: 'How to: Secure a brokered service'
+title: 'Secure a brokered service'
 description: Learn how to secure a brokered service for consumption over Live Share.
 monikerRange: '>= vs-2019'
 ms.date: 01/11/2022
 ms.topic: how-to
 helpviewer_keywords:
 - brokered services, providing
-ms.assetid: c766c23d-3768-44ec-b778-c323369ac40d
 author: aarnott
 ms.author: andarno
 manager: ansonh
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # How to: Secure a brokered service
 

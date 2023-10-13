@@ -1,5 +1,5 @@
 ---
-title: 'How to: Manage editor windows'
+title: 'Manage editor windows'
 description: Learn how to split windows and open several windows at once so you can display your code in the way that works best for you.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -8,13 +8,10 @@ helpviewer_keywords:
 - windows, managing editor windows
 - editors, windows management
 - Code Editor, windows management
-ms.assetid: 340143d4-8a71-490d-823e-162b276f4c6d
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # How to: Manage editor windows
 

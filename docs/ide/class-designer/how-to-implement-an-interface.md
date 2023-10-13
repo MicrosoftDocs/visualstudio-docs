@@ -6,13 +6,10 @@ ms.topic: how-to
 helpviewer_keywords:
 - interfaces [Visual Studio], implementing
 - interfaces [Visual Studio]
-ms.assetid: 81d2cf46-7f60-448c-83e3-1d16bb88ca36
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Implement an interface in Class Designer
 

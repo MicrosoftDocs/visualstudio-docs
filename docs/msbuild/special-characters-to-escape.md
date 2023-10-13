@@ -1,5 +1,5 @@
 ---
-title: Special Characters to Escape | Microsoft Docs
+title: Special Characters to Escape
 description: Learn about special characters that must be escaped only if they have special meaning in the context in which they are being used.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,17 +7,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - special characters to escape
 - msbuild, special characters to escape
-ms.assetid: 5b5172c3-41e4-4f38-a16f-2aeac831a5fc
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Special characters to escape
 

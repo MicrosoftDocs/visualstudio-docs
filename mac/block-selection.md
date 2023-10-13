@@ -6,7 +6,6 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 11/06/2018
 ms.topic: reference
-ms.assetid: E8E0831E-E076-44B1-A82A-A325382916A6
 ---
 # Block selection in Visual Studio for Mac
 

@@ -1,19 +1,16 @@
 ---
 description: "Creates an enumerator for selected local variables of the method."
-title: IDebugMethodField::EnumLocals | Microsoft Docs
+title: IDebugMethodField::EnumLocals
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugMethodField::EnumLocals
 helpviewer_keywords:
 - IDebugMethodField::EnumLocals method
-ms.assetid: b0456a6d-2b96-49e2-a871-516571b4f6a5
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - Edit.FindInFiles command
 - find in files command
-ms.assetid: 2fc78bfe-b339-4599-97f9-4cafd8a194d9
 author: Mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 monikerRange: "<=vs-2019"
 ---
 # Find in Files Command

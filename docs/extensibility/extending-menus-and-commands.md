@@ -1,5 +1,5 @@
 ---
-title: Extending Menus and Commands | Microsoft Docs
+title: Extending Menus and Commands
 description: Learn about commands, which add actions and processes to Visual Studio. The VSPackage project template shows how to implement a very basic command.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - menus, common tasks
 - VSPackages, menu tasks
 - .vsct files, common menu tasks
-ms.assetid: 7b2be4b9-e3fe-4412-874f-ae72ebc84c4b
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Extend menus and commands
 

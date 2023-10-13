@@ -6,8 +6,6 @@ ms.topic: conceptual
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-test
-ms.workload:
-  - multiple
 author: mikejo5000
 ---
 # Configure unit tests by using a *.runsettings* file

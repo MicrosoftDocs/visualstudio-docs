@@ -1,19 +1,16 @@
 ---
 description: "This structure provides information about processes running on a machine."
-title: PROVIDER_PROCESS_DATA | Microsoft Docs
+title: PROVIDER_PROCESS_DATA
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - PROVIDER_PROCESS_DATA
 helpviewer_keywords:
 - PROVIDER_PROCESS_DATA structure
-ms.assetid: ec2362ed-4a0c-4a09-9d66-8ff04e4f41ee
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

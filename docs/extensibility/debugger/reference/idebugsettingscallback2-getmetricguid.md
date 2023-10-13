@@ -1,17 +1,14 @@
 ---
 description: "Retrieves the unique identifier of a metric given its name."
-title: IDebugSettingsCallback2::GetMetricGuid | Microsoft Docs
+title: IDebugSettingsCallback2::GetMetricGuid
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugSettingsCallback2::GetMetricGuid
-ms.assetid: 91092763-3362-4857-adf0-231bc1254206
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

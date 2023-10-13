@@ -1,19 +1,16 @@
 ---
 description: "This interface represents a type of a variable."
-title: IDebugDynamicField | Microsoft Docs
+title: IDebugDynamicField
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugDynamicField
 helpviewer_keywords:
 - IDebugDynamicField interface
-ms.assetid: caffbd95-7596-4714-84b1-b964e89a78bb
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugDynamicField
 

@@ -1,19 +1,16 @@
 ---
 description: "This interface represents a module—that is, an executable unit of a program—such as a DLL."
-title: IDebugModule2 | Microsoft Docs
+title: IDebugModule2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugModule2
 helpviewer_keywords:
 - IDebugModule2 interface
-ms.assetid: 24c2a126-f4ab-4891-8509-8ef99b994c08
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugModule2
 

@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Import a SharePoint Designer reusable workflow | Microsoft Docs"
+title: "Walkthrough: Import a SharePoint Designer reusable workflow"
 titleSuffix: ""
 description: In this walkthrough, import a reusable workflow created in SharePoint Designer into a Visual Studio SharePoint workflow project.
 ms.date: "02/02/2017"
@@ -16,8 +16,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Walkthrough: Import a SharePoint Designer reusable workflow
 

@@ -1,17 +1,14 @@
 ---
-title: VSPackages | Microsoft Docs
+title: VSPackages
 description: Learn about VSPackages, which are software modules that extend the Visual Studio IDE by providing UI elements, services, projects, editors, and designers.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - VSPackages
-ms.assetid: cad0893a-9c5f-45b7-952a-e2294f83e324
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # VSPackages
 

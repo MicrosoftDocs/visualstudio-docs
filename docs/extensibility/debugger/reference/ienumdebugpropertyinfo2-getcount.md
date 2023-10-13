@@ -1,19 +1,16 @@
 ---
 description: "Returns the number of DEBUG_PROPERTY_INFO elements in the enumeration."
-title: IEnumDebugPropertyInfo2::GetCount | Microsoft Docs
+title: IEnumDebugPropertyInfo2::GetCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugPropertyInfo2::GetCount
 helpviewer_keywords:
 - IEnumDebugPropertyInfo2::GetCount
-ms.assetid: 9b0b3ce6-08cb-46fd-a6d9-92b36e60da19
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

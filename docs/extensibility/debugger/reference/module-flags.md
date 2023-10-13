@@ -1,19 +1,16 @@
 ---
 description: "Used to describe a module."
-title: MODULE_FLAGS | Microsoft Docs
+title: MODULE_FLAGS
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - MODULE_FLAGS
 helpviewer_keywords:
 - MODULE_FLAGS enumeration
-ms.assetid: 0e555b42-b846-4dbb-812e-8e3d11c85b2d
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

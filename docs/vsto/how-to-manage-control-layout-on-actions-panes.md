@@ -1,5 +1,5 @@
 ---
-title: "How to: Manage control layout on actions panes"
+title: "Manage control layout on actions panes"
 description: Learn how you can manage control layout on action panes by writing code to properly stack the user controls.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Manage control layout on actions panes
 

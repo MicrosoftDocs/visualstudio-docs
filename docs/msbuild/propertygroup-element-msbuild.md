@@ -1,5 +1,5 @@
 ---
-title: PropertyGroup Element (MSBuild) | Microsoft Docs
+title: PropertyGroup Element (MSBuild)
 description: Learn about the MSBuild PropertyGroup element, which contains a set of user-defined Property elements.
 ms.date: 03/13/2017
 ms.topic: reference
@@ -9,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - <PropertyGroup> element [MSBuild]
 - PropertyGroup element [MSBuild]
-ms.assetid: ff1e6c68-b9a1-4263-a1ce-dc3b829a64d4
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # PropertyGroup element (MSBuild)
 

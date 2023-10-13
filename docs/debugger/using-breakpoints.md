@@ -1,5 +1,5 @@
 ---
-title: Use breakpoints in the debugger | Microsoft Docs
+title: Use breakpoints in the debugger
 description: Learn about breakpoints, one of the most important debugging techniques. The article covers breakpoint actions, tracepoints, conditions, and much more.
 ms.date: 12/13/2022
 ms.topic: how-to
@@ -27,13 +27,10 @@ f1_keywords:
   - vs.debug.breakpt.location.file
 helpviewer_keywords: 
   - breakpoints, about breakpoints
-ms.assetid: 020b2e97-3b3e-4b2c-872d-b5c6025e120e
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # Use breakpoints in the Visual Studio debugger
 

@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically add comments to text in documents"
+title: "Programmatically add comments to text in documents"
 description:  Programmatically add comments to text in documents. The Comments property of the Document class adds a comment to a range of text in a Microsoft Word document.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically add comments to text in documents
 

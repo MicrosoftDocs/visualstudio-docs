@@ -9,7 +9,6 @@ ms.author: ghogen
 ms.manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.custom: version-control
 ---
 # Push from Visual Studio to a remote branch
 

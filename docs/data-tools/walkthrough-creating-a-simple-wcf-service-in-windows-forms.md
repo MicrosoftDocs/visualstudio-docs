@@ -11,13 +11,10 @@ helpviewer_keywords:
 - WCF, Visual Studio tools for
 - WCF services
 - WCF services, walkthrough
-ms.assetid: 5fef1a64-27a4-4f10-aa57-29023e28a2d6
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Walkthrough: Create a simple WCF service in Windows Forms
 

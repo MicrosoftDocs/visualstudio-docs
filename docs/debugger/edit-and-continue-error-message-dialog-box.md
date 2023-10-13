@@ -13,13 +13,10 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "Edit and Continue Error Message dialog box"
-ms.assetid: f98c91c0-447a-4533-85b6-87170a0dc4c3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Edit and Continue error message
 

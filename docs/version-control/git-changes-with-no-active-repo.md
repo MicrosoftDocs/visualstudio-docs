@@ -8,7 +8,6 @@ ms.author: ghogen
 manager: jmartens
 ms.prod: visual-studio-windows
 ms.technology: vs-ide-general
-ms.custom: version-control
 ---
 
 # Git Changes window with no active repo set

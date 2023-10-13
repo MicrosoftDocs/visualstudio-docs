@@ -7,8 +7,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # How to: View and edit code by using Peek Definition (Alt+F12)
 

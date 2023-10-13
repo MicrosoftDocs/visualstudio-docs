@@ -1,18 +1,15 @@
 ---
-title: 'Walkthrough: Creating an Inline Task | Microsoft Docs'
+title: 'Walkthrough: Creating an Inline Task'
 description: Walk through creating an MSBuild task inline in the project file, without having to create a separate assembly to host the task.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, tutorial
 - MSBuild, tasks
-ms.assetid: 438194cb-668c-41a9-a7e2-c118d14c1ea7
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Walkthrough: Create an inline task
 

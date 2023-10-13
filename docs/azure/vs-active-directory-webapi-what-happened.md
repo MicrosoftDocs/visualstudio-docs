@@ -3,13 +3,12 @@ title: Changes made to WebAPI projects when connecting to Azure AD
 description: Describes what happens to your WebAPI project when you connect to Azure AD using Visual Studio
 author: ghogen
 manager: jillfra
-ms.workload: azure-vs
 ms.prod: visual-studio-windows
 ms.technology: vs-azure
 ms.topic: reference
 ms.date: 12/14/2021
 ms.author: ghogen
-ms.custom: "devx-track-csharp, aaddev, vs-azure"
+ms.custom: devx-track-csharp
 ---
 # What happened to my WebAPI project (Visual Studio Azure Active Directory connected service)
 

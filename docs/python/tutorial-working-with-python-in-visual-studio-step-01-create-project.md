@@ -8,10 +8,7 @@ author: cwebster-99
 ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
-ms.custom: vs-acquisition, devdivchpfy22
-ms.workload:
-  - python
-  - data-science
+ms.custom: vs-acquisition
 ---
 # Tutorial: Work with Python in Visual Studio
 

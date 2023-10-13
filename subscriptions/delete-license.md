@@ -1,5 +1,5 @@
 ---
-title:  Delete Visual Studio subscription assignments in the Subscriptions Admin Portal | Microsoft Docs
+title:  Delete Visual Studio subscription assignments in the Subscriptions Admin Portal
 author: evanwindom
 ms.author: amast
 manager: shve

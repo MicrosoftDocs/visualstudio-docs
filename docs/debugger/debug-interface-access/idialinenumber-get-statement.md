@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a flag indicating that this line information describes the beginning of a statement, rather than an expression, in the program source."
-title: "IDiaLineNumber::get_statement | Microsoft Docs"
+title: "IDiaLineNumber::get_statement"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaLineNumber::get_statement method"
-ms.assetid: 22b8ee29-79ef-427f-bd05-00d255ab836b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaLineNumber::get_statement
 

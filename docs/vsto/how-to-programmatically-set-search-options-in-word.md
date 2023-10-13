@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically set search options in Word"
+title: "Programmatically set search options in Word"
 description: Learn how you can use Visual Studio to programmatically set search options for selections in Microsoft Word.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -15,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically set search options in Word
 

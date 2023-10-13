@@ -1,6 +1,6 @@
 ---
 description: "Gets the message to be displayed."
-title: IDebugMessageEvent2::GetMessage | Microsoft Docs
+title: IDebugMessageEvent2::GetMessage
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - GetMessage method
 - IDebugMessageEvent2::GetMessage method
-ms.assetid: 9fca7285-f7f1-422d-8565-92bf0e0db60a
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

@@ -1,19 +1,16 @@
 ---
 description: "Gets the breakpoint that became unbound."
-title: IDebugBreakpointUnboundEvent2::GetBreakpoint | Microsoft Docs
+title: IDebugBreakpointUnboundEvent2::GetBreakpoint
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugBreakpointUnboundEvent2::GetBreakpoint
 helpviewer_keywords:
 - IDebugBreakpointUnboundEvent2::GetBreakpoint
-ms.assetid: ad73a207-b778-4dc5-b645-5ec668a63333
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

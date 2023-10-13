@@ -1,18 +1,15 @@
 ---
-title: Visualizing and Viewing Data | Microsoft Docs
+title: Visualizing and Viewing Data
 description: Learn how type visualizers and custom viewers present data to a developer. The expression evaluator supports third-party type visualizers.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], viewing data
 - debugging [Debugging SDK], visualizing data
-ms.assetid: 699dd0f5-7569-40b3-ade6-d0fe53e832bc
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Visualizing and viewing data
 

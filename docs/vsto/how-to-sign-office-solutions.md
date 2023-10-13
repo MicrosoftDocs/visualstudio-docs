@@ -1,5 +1,5 @@
 ---
-title: "How to: Sign Office solutions"
+title: "Sign Office solutions"
 description: Learn how you can grant trust to your Microsoft Office solution by using a certificate as evidence.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Sign Office solutions
 

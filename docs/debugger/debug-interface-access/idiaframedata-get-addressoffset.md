@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the offset part of the code address for the frame."
-title: "IDiaFrameData::get_addressOffset | Microsoft Docs"
+title: "IDiaFrameData::get_addressOffset"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaFrameData::get_addressOffset method"
-ms.assetid: b68e2e68-6483-4936-bf97-1b0a13cb75e2
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaFrameData::get_addressOffset
 

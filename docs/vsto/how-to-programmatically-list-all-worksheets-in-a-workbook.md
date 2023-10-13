@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically list all worksheets in a workbook"
+title: "Programmatically list all worksheets in a workbook"
 description: Learn how you can programmatically list all worksheets in a Microsoft Excel workbook by using Visual Studio.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically list all worksheets in a workbook
 

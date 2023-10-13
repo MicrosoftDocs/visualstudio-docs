@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the number of frame data elements."
-title: "IDiaEnumFrameData::get_Count | Microsoft Docs"
+title: "IDiaEnumFrameData::get_Count"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumFrameData::get_Count method"
-ms.assetid: 94374d27-e335-4e90-a442-233181ab8e58
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaEnumFrameData::get_Count
 

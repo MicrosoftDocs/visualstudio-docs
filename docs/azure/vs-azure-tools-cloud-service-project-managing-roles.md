@@ -4,7 +4,6 @@ description: Learn how to add and remove roles in Azure cloud services with Visu
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
-ms.workload: azure-vs
 ms.topic: how-to
 ms.date: 03/21/2017
 ms.author: ghogen

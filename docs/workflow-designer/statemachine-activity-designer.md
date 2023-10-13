@@ -6,13 +6,10 @@ ms.topic: reference
 f1_keywords:
 - StateMachine Designer
 - System.Activities.Statements.StateMachine.UI
-ms.assetid: 474d5fb3-1049-4b3f-bc6b-7524dbbe1672
 author: jodavis
 ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
 ---
 # StateMachine Activity Designer
 

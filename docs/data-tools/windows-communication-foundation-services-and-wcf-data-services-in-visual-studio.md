@@ -30,13 +30,10 @@ helpviewer_keywords:
 - type sharing in WCF services
 - WCF services, endpoints
 - service method, called asynchronously[Visual Studio]
-ms.assetid: d56f12cb-e139-4fec-b3e4-488383356642
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Windows Communication Foundation Services and WCF Data Services in Visual Studio
 

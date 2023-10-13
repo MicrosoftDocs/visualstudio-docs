@@ -5,13 +5,10 @@ ms.date: 12/06/2022
 ms.topic: conceptual
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
-ms.assetid: 6b491d88-f79e-4686-8841-857624bdcfda
 author: j-martens
 ms.author: jmartens
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-  - "multiple"
 ---
 # Accessibility tips and tricks for Visual Studio
 

@@ -3,14 +3,10 @@ title: Override Help Viewer defaults
 description: Learn about Help Content Manager overrides, which change the default behavior of Help Viewer and help-related features in the Visual Studio IDE.
 ms.date: 05/17/2022
 ms.topic: conceptual
-ms.assetid: 95fe6396-276b-4ee5-b03d-faacec42765f
 author: jasonchlus
 ms.author: jasonchlus
 manager: jmartens
 ms.technology: vs-help-viewer
-ms.custom: kr2b-contr-experiment
-ms.workload:
-  - "multiple"
 ---
 # Override Help Viewer defaults
 

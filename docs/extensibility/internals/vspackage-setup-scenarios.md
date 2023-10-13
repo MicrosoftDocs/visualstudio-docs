@@ -1,5 +1,5 @@
 ---
-title: VSPackage Setup Scenarios | Microsoft Docs
+title: VSPackage Setup Scenarios
 description: Learn about best practices for supporting side-by-side installations of Visual Studio with either shared or side-by-side installations of your VSPackage.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -9,8 +9,6 @@ author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # VSPackage Setup Scenarios
 

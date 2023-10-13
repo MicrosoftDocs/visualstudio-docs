@@ -1,6 +1,6 @@
 ---
 description: "The debug engine (DE) can send this optional event to the session debug manager (SDM) when a program has stopped."
-title: IDebugStopCompleteEvent2 | Microsoft Docs
+title: IDebugStopCompleteEvent2
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
@@ -9,8 +9,6 @@ author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugStopCompleteEvent2
 

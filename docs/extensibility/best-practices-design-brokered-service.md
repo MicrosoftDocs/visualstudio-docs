@@ -6,13 +6,10 @@ ms.date: 01/07/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - brokered services, providing
-ms.assetid: e186883e-9390-4dc0-9f21-62662a16df11
 author: aarnott
 ms.author: andarno
 manager: ansonh
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Best practices for designing a brokered service
 

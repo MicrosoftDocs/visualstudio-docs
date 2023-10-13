@@ -1,5 +1,5 @@
 ---
-title: "Creating SharePoint Workflow Solutions | Microsoft Docs"
+title: "Creating SharePoint Workflow Solutions"
 description: Create SharePoint workflow solutions using tools to make custom workflows that manage the lifecycle of documents and list items in SharePoint websites.
 ms.date: "02/02/2017"
 ms.topic: overview
@@ -20,8 +20,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Create SharePoint workflow solutions
 

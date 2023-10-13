@@ -36,13 +36,10 @@ helpviewer_keywords:
 - editors, Code Editor
 - Code Editor, indenting
 - Code Editor, tabs
-ms.assetid: 7e208e1d-5e3a-4bf7-a27b-4417e3e049c7
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Options, Text Editor, All Languages, Tabs
 

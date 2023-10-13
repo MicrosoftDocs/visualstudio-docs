@@ -1,19 +1,16 @@
 ---
 description: "Specifies the type of memory to access."
-title: "MemoryTypeEnum | Microsoft Docs"
+title: "MemoryTypeEnum"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "MemoryTypeEnum enumeration"
-ms.assetid: 8778c047-edeb-4495-8f9f-3f8bbb297099
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # MemoryTypeEnum
 

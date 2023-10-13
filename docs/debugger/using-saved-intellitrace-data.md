@@ -1,5 +1,5 @@
 ---
-title: "Using saved IntelliTrace data | Microsoft Docs"
+title: "Using saved IntelliTrace data"
 description: Use an Intellitrace file (.iTrace) to start debugging at a specific point of execution. The file contains info that Intellitrace recorded from a run of your app.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -10,13 +10,10 @@ helpviewer_keywords:
   - "IntelliTrace, log files"
   - "IntelliTrace log files"
   - ".iTrace files"
-ms.assetid: 9f2cce86-345a-4e22-84ba-91542d81e67a
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Using saved IntelliTrace data (C#, Visual Basic, C++)
 

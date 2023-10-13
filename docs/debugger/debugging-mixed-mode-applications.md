@@ -1,5 +1,5 @@
 ---
-title: "Debugging Mixed-Mode Applications | Microsoft Docs"
+title: "Debugging Mixed-Mode Applications"
 description: Debug a mixed-mode application, which is an app that combines native code with managed code that runs on the common language runtime, in Visual Studio.
 ms.date: "04/15/2022"
 ms.topic: "conceptual"
@@ -16,13 +16,10 @@ helpviewer_keywords:
   - "Call Stack window, mixed-mode debugging"
   - "debugging managed code, mixed code"
   - "mixed-mode debugging, call stack"
-ms.assetid: 60e34477-ae4e-48c7-9093-3e37f72e1bc3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Debugging Mixed-Mode Applications
 

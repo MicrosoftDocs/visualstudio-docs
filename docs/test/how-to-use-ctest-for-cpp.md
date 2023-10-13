@@ -6,8 +6,6 @@ ms.topic: how-to
 ms.author: twhitney
 manager: jmartens
 ms.technology: vs-ide-test
-ms.workload: 
-  - cplusplus
 author: tylermsft
 ---
 # How to use CTest for C++ in Visual Studio 2017 and later

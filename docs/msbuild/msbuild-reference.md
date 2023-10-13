@@ -1,5 +1,5 @@
 ---
-title: MSBuild Reference | Microsoft Docs
+title: MSBuild Reference
 description: Access links to articles that contain reference information for MSBuild, the build system for Visual Studio.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -7,16 +7,12 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, reference
-ms.assetid: 093395e1-70da-4f74-b34d-046c5e2b32e8
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # MSBuild reference
 

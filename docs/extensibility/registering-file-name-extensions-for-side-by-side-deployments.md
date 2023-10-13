@@ -5,13 +5,10 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - file extensions, registering for side-by-side
-ms.assetid: 9ab046a2-147d-4167-aa14-7d661b1eaaa5
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Register file name extensions for side-by-side deployments
 

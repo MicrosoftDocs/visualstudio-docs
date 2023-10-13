@@ -1,5 +1,5 @@
 ---
-title: Signing VSIX Packages | Microsoft Docs
+title: Signing VSIX Packages
 description: Learn about signing extension assemblies. The VSIX installer displays a message that a VSIX is signed and information about the signature itself.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -9,13 +9,10 @@ helpviewer_keywords:
 - authenticode
 - vsix
 - packages
-ms.assetid: e34cfc2c-361c-44f8-9cfe-9f2be229d248
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Signing VSIX Packages
 

@@ -1,5 +1,5 @@
 ---
-title: Organization name change impacts on Visual Studio subscriptions | Microsoft Docs
+title: Organization name change impacts on Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve

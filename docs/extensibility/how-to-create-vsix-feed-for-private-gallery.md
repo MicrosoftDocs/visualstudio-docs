@@ -1,5 +1,5 @@
 ---
-title: How to create vsix feed for Private Gallery | Microsoft Docs
+title: How to create vsix feed for Private Gallery
 description: Learn how to create vsix feed with VSIX Util, and use the feed in private gallery.
 ms.date: 08/19/2021
 ms.topic: conceptual
@@ -10,8 +10,6 @@ author: anva
 ms.author: anva
 manager: tinali
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # How to: Create the ATOM feed (VsixFeed) for Visual Studio Private Galleries using VsixUtil
 

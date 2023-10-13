@@ -1,5 +1,5 @@
 ---
-title: Set a watch on variables | Microsoft Docs
+title: Set a watch on variables
 description: While you debug, see variables and expressions in Watch and QuickWatch. Watch can display several variables, QuickWatch only one, and only while in break.
 ms.date: 04/21/2023
 ms.topic: how-to
@@ -16,8 +16,6 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # Watch variables with Watch windows and QuickWatch
 

@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the System.Runtime.InteropServices.ComTypes.IEnumVARIANT version of the source files enumerator."
-title: "IDiaEnumSourceFiles::get__NewEnum | Microsoft Docs"
+title: "IDiaEnumSourceFiles::get__NewEnum"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumSourceFiles::get__NewEnum method"
-ms.assetid: 8405966c-64b4-4743-9a83-0e27ca2047c7
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaEnumSourceFiles::get__NewEnum
 

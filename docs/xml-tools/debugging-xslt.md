@@ -9,8 +9,6 @@ manager: jmartens
 ms.technology: vs-xml-tools
 dev_langs:
 - CSharp
-ms.workload:
-- multiple
 ---
 # Debugging XSLT
 

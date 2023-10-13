@@ -1,17 +1,14 @@
 ---
-title: "Using Spy++ | Microsoft Docs"
+title: "Using Spy++"
 description: Spy++ (SPYXX.EXE) gives you a graphical view of the system's processes, threads, windows, and window messages. Look here for links to relevant articles.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "Using Spy++"
-ms.assetid: 02769bfa-5679-4ee2-8c6b-27876edb4e8c
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Using Spy++
 

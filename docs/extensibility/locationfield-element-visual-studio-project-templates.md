@@ -9,12 +9,9 @@ f1_keywords:
 - http://schemas.microsoft.com/developer/vstemplate/2005#LocationField
 helpviewer_keywords:
 - LocationField element [Visual Studio project templates]
-ms.assetid: 6aaaa155-6ce0-4f7f-aa50-8d63d7a7c992
 author: maiak
 ms.author: maiak
 manager: jmartens
-ms.workload:
-- vssdk
 ---
 # LocationField element (Visual Studio project templates)
 

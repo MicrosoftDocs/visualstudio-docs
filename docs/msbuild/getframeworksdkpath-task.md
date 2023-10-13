@@ -1,5 +1,5 @@
 ---
-title: GetFrameworkSdkPath Task | Microsoft Docs
+title: GetFrameworkSdkPath Task
 description: Learn about how to use the MSBuild GetFrameworkSdkPath task to retrieve the path to the Windows SDK.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - GetFrameworkSdkPath task [MSBuild]
 - MSBuild, GetFrameworkSdkPath task
-ms.assetid: 2ef82b98-02b6-40cf-a9b5-f0e882fb5064
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # GetFrameworkSdkPath task
 

@@ -1,15 +1,12 @@
 ---
-title: VSIX Color Compiler | Microsoft Docs
+title: VSIX Color Compiler
 description: Learn about the Visual Studio Extension Color Compiler tool, which is a console application that coverts colors in Visual Studio themes to a .pkgdef file.
 ms.date: 11/04/2016
 ms.topic: reference
-ms.assetid: 99395da7-ec34-491d-9baa-0590d23283ce
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # VSIX Color Compiler
 

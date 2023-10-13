@@ -1,6 +1,6 @@
 ---
 description: "Determines whether this pending breakpoint can bind to a code location."
-title: IDebugPendingBreakpoint2::CanBind | Microsoft Docs
+title: IDebugPendingBreakpoint2::CanBind
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - IDebugPendingBreakpoint2::CanBind method
 - CanBind method
-ms.assetid: 84a2b189-ccf1-467e-8fab-0c0da68f0b91
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

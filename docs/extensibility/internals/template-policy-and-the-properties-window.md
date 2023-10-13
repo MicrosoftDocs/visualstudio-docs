@@ -1,17 +1,14 @@
 ---
-title: Template Policy and the Properties Window | Microsoft Docs
+title: Template Policy and the Properties Window
 description: Learn about using template policy to set default values for properties, hide properties, and add properties in the Properties window.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - Properties window, template policy
-ms.assetid: 1d8019d3-5e57-47ba-b358-526b0796a63b
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Template Policy and the Properties Window
 

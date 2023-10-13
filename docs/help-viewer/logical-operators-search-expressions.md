@@ -6,13 +6,10 @@ ms.topic: reference
 helpviewer_keywords:
   - "Help Viewer, logical operators in search"
   - "logical operators in search [Help Viewer]"
-ms.assetid: 0c38ae7d-3e20-4d47-a020-9677cd285916
 author: jasonchlus
 ms.author: jasonchlus
 manager: jmartens
 ms.technology: vs-help-viewer
-ms.workload:
-  - "multiple"
 ---
 # Logical and advanced operators in search expressions
 

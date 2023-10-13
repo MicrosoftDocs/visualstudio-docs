@@ -3,13 +3,10 @@ title: Schema does not match
 description: One or more selected database objects return a schema that does not match the schema of the target class
 ms.date: 11/04/2016
 ms.topic: error-reference
-ms.assetid: 3794e88b-4d3d-4e7a-ade6-8208eabe3eae
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # One or more selected database objects return a schema that does not match the schema of the target class
 

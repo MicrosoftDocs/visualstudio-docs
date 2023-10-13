@@ -1,17 +1,14 @@
 ---
-title: "Spy++ Help | Microsoft Docs"
+title: "Spy++ Help"
 description: View links about using Spy++ and Spy++ views. See reference links that provide details about each available Spy++ menu command and dialog box.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "Spy++ Help contents"
-ms.assetid: 82155004-8d9e-4875-b7db-237a3cffb530
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Spy++ Help
 

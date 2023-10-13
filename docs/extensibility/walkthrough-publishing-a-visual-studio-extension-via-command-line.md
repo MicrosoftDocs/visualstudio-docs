@@ -6,13 +6,10 @@ ms.topic: how-to
 helpviewer_keywords:
 - publishing extensions
 - extension, publishing
-ms.assetid: 6ff9efc4-919d-4071-a80d-6dbdd2ceb2f8
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Walkthrough: Publishing a Visual Studio extension via command line
 

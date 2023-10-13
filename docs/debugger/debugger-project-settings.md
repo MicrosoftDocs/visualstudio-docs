@@ -1,5 +1,5 @@
 ---
-title: "Debugger Project Settings | Microsoft Docs"
+title: "Debugger Project Settings"
 description: There are various project settings that affect debugging. Follow the links in this article to learn how to use the Property Pages dialog box to change settings. 
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -11,13 +11,10 @@ dev_langs:
 helpviewer_keywords:
   - "project settings, debugger"
   - "debugging [Visual Studio], project settings"
-ms.assetid: 5e1b2a30-d2db-49e8-aba3-2d3a190eea80
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Debugger Project Settings
 

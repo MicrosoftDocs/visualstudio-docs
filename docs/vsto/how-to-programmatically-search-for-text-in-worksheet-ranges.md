@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically search for text in worksheet ranges"
+title: "Programmatically search for text in worksheet ranges"
 description: Learn how you can use Visual Studio to programmatically search for text in Microsoft Excel worksheet ranges.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -15,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically search for Text in worksheet ranges
 

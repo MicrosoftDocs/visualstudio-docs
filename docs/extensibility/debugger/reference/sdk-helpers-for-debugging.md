@@ -1,5 +1,5 @@
 ---
-title: SDK Helpers for Debugging | Microsoft Docs
+title: SDK Helpers for Debugging
 description: Learn about functions and declarations that are global helper functions for implementing debug engines, expression evaluators, and symbol providers in C++.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,13 +9,10 @@ helpviewer_keywords:
 - Debugging SDK, registry locations
 - dbgmetric.h
 - metrics [Debugging SDK]
-ms.assetid: 80a52e93-4a04-4ab2-8adc-a7847c2dc20b
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # SDK Helpers for Debugging
 

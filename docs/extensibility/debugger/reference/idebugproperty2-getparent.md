@@ -1,19 +1,16 @@
 ---
 description: "Gets the parent property of a property."
-title: IDebugProperty2::GetParent | Microsoft Docs
+title: IDebugProperty2::GetParent
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProperty2::GetParent
 helpviewer_keywords:
 - IDebugProperty2::GetParent
-ms.assetid: 58780469-fe25-4d84-9187-67940ca0767f
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

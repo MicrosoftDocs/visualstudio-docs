@@ -11,13 +11,10 @@ dev_langs:
 helpviewer_keywords: 
   - multithreaded debugging, tutorial
   - tutorials, multithreaded debugging
-ms.assetid: adfbe002-3d7b-42a9-b42a-5ac0903dfc25
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # Walkthrough: Debug a multithreaded app using the Threads window (C#, Visual Basic, C++)
 

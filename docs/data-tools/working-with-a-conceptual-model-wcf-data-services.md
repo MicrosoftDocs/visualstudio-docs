@@ -7,13 +7,10 @@ helpviewer_keywords:
 - data [Visual Studio], querying a service
 - data [Visual Studio], LINQ to Entities
 - data [Visual Studio], querying an EDM
-ms.assetid: 2cd873cf-b010-49f2-a278-bb1277aaa934
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Work with a Conceptual Model (WCF Data Services)
 

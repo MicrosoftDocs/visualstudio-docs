@@ -1,10 +1,9 @@
 ---
-title: C# Dev Kit for Visual Studio Code | Microsoft Docs
+title: C# Dev Kit for Visual Studio Code
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 945c7032-7ae6-4466-beef-50796c9c2d18
-ms.date: 06/15/2023
+ms.date: 10/12/2023
 ms.topic: how-to
 description:  Learn about C# Dev Kit for Visual Studio Code
 ---
@@ -14,9 +13,6 @@ description:  Learn about C# Dev Kit for Visual Studio Code
 The [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit) is a new Visual Studio Code extension that brings an improved editor-first C# development experience to Linux, macOS, and Windows.
 
 The C# Dev Kit is designed to enhance your C# productivity when you’re working in VS Code. It works together with the [C# extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp), which has been updated to be powered by a new fully open-source Language Server Protocol (LSP) host, creating a performant, extensible, and flexible tooling environment that easily integrates new experiences into C# for VS Code. 
-
-> [!NOTE]
-> The C# Dev Kit is a pre-release version and is not available in all subscriptions. 
 
 ## What is C# Dev Kit?
 

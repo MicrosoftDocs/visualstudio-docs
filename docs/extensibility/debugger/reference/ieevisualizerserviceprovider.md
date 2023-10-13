@@ -1,19 +1,16 @@
 ---
 description: "This interface gives access to a method that can create a visualizer service, which is used to handle type visualizer tasks for the IDE."
-title: IEEVisualizerServiceProvider | Microsoft Docs
+title: IEEVisualizerServiceProvider
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEEVisualizerServiceProvider
 helpviewer_keywords:
 - IEEVisualizerServiceProvider interface
-ms.assetid: 859d1a51-1c65-4c8b-ae74-3b74b181ebcd
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IEEVisualizerServiceProvider
 

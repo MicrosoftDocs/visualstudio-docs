@@ -1,19 +1,16 @@
 ---
 description: "Gets a managed code object representing the value associated with this object."
-title: IDebugObject2::GetICorDebugValue | Microsoft Docs
+title: IDebugObject2::GetICorDebugValue
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugObject2::GetICorDebugValue
 helpviewer_keywords:
 - IDebugObject2::GetICorDebugValue method
-ms.assetid: bcd4355d-3fbe-483f-bb23-a44348323c6a
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

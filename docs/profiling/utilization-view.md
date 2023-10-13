@@ -1,5 +1,5 @@
 ---
-title: "Utilization View | Microsoft Docs"
+title: "Utilization View"
 description: Learn that the Utilization view displays information about the CPU, GPU, and other system resources that are used by the current process.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -15,13 +15,10 @@ f1_keywords:
   - "vs.cv.threads.timeline.gpuother"
 helpviewer_keywords:
   - "Concurrency Visualizer, CPU Utilization View"
-ms.assetid: b4f7ceab-3653-4069-bb74-c309aec62866
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Utilization view
 

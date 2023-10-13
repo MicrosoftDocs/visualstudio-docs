@@ -1,6 +1,6 @@
 ---
 description: "Retrieves the offset of the stack pad from the frame pointer register."
-title: "IDiaSymbol::get_framePadOffset | Microsoft Docs"
+title: "IDiaSymbol::get_framePadOffset"
 ms.date: "04/27/2021"
 ms.topic: "reference"
 dev_langs:
@@ -11,8 +11,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_framePadOffset
 

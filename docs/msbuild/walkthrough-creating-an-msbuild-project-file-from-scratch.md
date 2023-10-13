@@ -5,13 +5,10 @@ ms.date: 09/12/2022
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, tutorial
-ms.assetid: e3acff7c-cb4e-4ae1-8be2-a871bcff847b
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Walkthrough: Create an MSBuild project file from scratch
 

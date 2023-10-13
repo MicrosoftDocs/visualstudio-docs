@@ -1,19 +1,16 @@
 ---
 description: "Describes a reference."
-title: DEBUG_REFERENCE_INFO | Microsoft Docs
+title: DEBUG_REFERENCE_INFO
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - DEBUG_REFERENCE_INFO
 helpviewer_keywords:
 - DEBUG_REFERENCE_INFO structure
-ms.assetid: 24b83d00-d756-42a1-8083-730f998761dc
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

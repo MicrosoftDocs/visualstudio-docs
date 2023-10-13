@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a flag that indicates whether the section is executable as code."
-title: "IDiaSectionContrib::get_execute | Microsoft Docs"
+title: "IDiaSectionContrib::get_execute"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSectionContrib::get_execute method"
-ms.assetid: 66eb38ce-a5e1-467e-b845-b3dc433eda91
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSectionContrib::get_execute
 

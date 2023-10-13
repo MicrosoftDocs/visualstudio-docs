@@ -1,5 +1,5 @@
 ---
-title: "No Source Available | Microsoft Docs"
+title: "No Source Available"
 description: Learn what you can do when your project does not have source code for the code that you want to view.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -12,13 +12,10 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "No Source Code Available for the Current Location dialog box"
-ms.assetid: ed0732bc-4b8c-490f-adb1-af06869a2a6b
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # No Source Available
 

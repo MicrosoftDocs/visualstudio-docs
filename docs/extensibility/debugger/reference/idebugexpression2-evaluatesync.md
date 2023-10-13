@@ -1,19 +1,16 @@
 ---
 description: "This method evaluates the expression synchronously."
-title: IDebugExpression2::EvaluateSync | Microsoft Docs
+title: IDebugExpression2::EvaluateSync
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugExpression2::EvaluateSync
 helpviewer_keywords:
 - IDebugExpression2::EvaluateSync
-ms.assetid: 88964915-dce3-4005-b4f3-9f37415e41e4
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

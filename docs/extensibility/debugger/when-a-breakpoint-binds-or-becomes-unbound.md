@@ -1,18 +1,15 @@
 ---
-title: When a Breakpoint Binds or Becomes Unbound | Microsoft Docs
+title: When a Breakpoint Binds or Becomes Unbound
 description: Learn about unbound breakpoints. When a breakpoint can't be bound at the time a call is made, the bind time and create time of the breakpoint are different.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], breakpoint unbound events
 - breakpoint bound events
-ms.assetid: 61bf00b2-8293-49d3-b919-1efb0dec9151
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # When a breakpoint binds or becomes unbound
 
