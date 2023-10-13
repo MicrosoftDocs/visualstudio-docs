@@ -17,7 +17,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Walkthrough: Save data in a transaction in an ADO.NET application (.NET Framework)
+# Walkthrough: Save data in a transaction in .NET Framework applications
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: Create and configure ADO.NET TableAdapters (.NET Framework)
+title: Create and configure TableAdapters in .NET Framework applications
 description: Review how to create and configure a ADO.NET TableAdapter in .NET Framework applications with Visual Studio. TableAdapters provide communication between your application and a database.
 ms.date: 09/01/2017
 ms.topic: how-to
@@ -14,7 +14,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Create and configure ADO.NET TableAdapters (.NET Framework)
+# Create and configure TableAdapters in .NET Framework applications
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

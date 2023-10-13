@@ -1,5 +1,5 @@
 ---
-title: Save data to a database (multiple tables) in an ADO.NET application (.NET Framework)
+title: Save data to a database (multiple tables) in .NET Framework applications
 description: In this walkthrough, save data from multiple tables to a database using ADO.NET DataSet tools in .NET Framework application development in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -16,7 +16,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Save data to a database (multiple tables) in an ADO.NET application (.NET Frameworkd)
+# Save data to a database (multiple tables) in .NET Framework applications
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: Data bind custom objects with ADO.NET (.NET Framework)
+title: Data bind custom objects in .NET Framework applications
 description: Bind objects as ADO.NET data sources in Visual Studio. Use design-time tools for working with custom objects as the data source in your application.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -16,7 +16,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Bind objects as data sources with ADO.NET in Visual Studio (.NET Framework)
+# Bind objects as data sources in .NET Framework applications using Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

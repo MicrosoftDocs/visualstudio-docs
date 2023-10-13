@@ -19,7 +19,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Filter and sort data in a Windows Forms application (.NET Framework)
+# Filter and sort data in a .NET Framework Windows Forms application
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: Bind controls to data with ADO.NET (.NET Framework)
+title: Bind controls to data in .NET Framework applications using Visual Studio
 description: Bind controls to ADO.NET data in Visual Studio. Create data-bound controls by dragging items from the Data Sources window.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -13,7 +13,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Bind controls to data with ADO.NET in Visual Studio (.NET Framework)
+# Bind controls to data in .NET Framework applications using Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

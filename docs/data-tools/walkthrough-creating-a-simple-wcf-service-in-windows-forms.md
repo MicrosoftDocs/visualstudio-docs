@@ -16,7 +16,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Walkthrough: Create a simple WCF service in Windows Forms (.NET Framework)
+# Walkthrough: Create a simple WCF service in .NET Framework Windows Forms
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

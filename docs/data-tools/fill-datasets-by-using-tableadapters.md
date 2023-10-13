@@ -19,7 +19,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Fill datasets by using ADO.NET TableAdapters (.NET Framework)
+# Fill datasets by using TableAdapters in .NET Framework applications
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: Create parameterized ADO.NET TableAdapter queries (.NET Framework)
+title: Create parameterized TableAdapter queries in .NET Framework applications
 description: Understand how to create parameterized ADO.NET TableAdapter queries in .NET Framework applications with Visual Studio. A parameterized query returns data that meets the conditions of a WHERE clause within the query.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -18,7 +18,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Create parameterized ADO.NET TableAdapter queries (.NET Framework)
+# Create parameterized TableAdapter queries in .NET Framework applications
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

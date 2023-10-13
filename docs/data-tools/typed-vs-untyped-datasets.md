@@ -1,5 +1,5 @@
 ---
-title: Typed vs. untyped ADO.NET datasets (.NET Framework)
+title: Typed vs. untyped datasets in the .NET Framework
 description: Understand the difference between typed and untyped datasets. Contrast data access in typed and untyped datasets when developing .NET Framework applications with Visual Studio.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Typed vs. untyped ADO.NET datasets (.NET Framework)
+# Typed vs. untyped datasets in the .NET Framework
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

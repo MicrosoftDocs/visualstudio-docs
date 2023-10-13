@@ -1,5 +1,5 @@
 ---
-title: Add validation to an n-tier ADO.NET dataset (.NET Framework)
+title: Add validation to an n-tier dataset in .NET Framework applications
 description: Add validation to an n-tier ADO.NET dataset in Visual Studio. Validate changes to individual columns or whole rows.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -15,7 +15,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Add validation to an n-tier ADO.NET dataset (.NET Framework)
+# Add validation to an n-tier dataset in .NET Framework applications
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

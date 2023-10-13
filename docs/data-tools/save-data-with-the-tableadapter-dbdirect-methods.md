@@ -16,7 +16,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Save data with the ADO.NET TableAdapter DBDirect methods (.NET Framework)
+# Save data with the TableAdapter DBDirect methods in .NET Framework applications
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

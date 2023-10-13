@@ -1,5 +1,5 @@
 ---
-title: Save data back to the database using ADO.NET (.NET Framework)
+title: Save data back to the database in .NET Framework applications
 description: In .NET Framework application development with Visual Studio, use ADO.NET DataSet tools to save data back to the database. The dataset is an in-memory copy of data that should be saved back to the database if it's modified.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -20,7 +20,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Save data back to the database using ADO.NET (.NET Framework)
+# Save data back to the database in .NET Framework applications
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

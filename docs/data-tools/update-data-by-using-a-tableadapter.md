@@ -18,7 +18,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Update data by using an ADO.NET TableAdapter (.NET Framework)
+# Update data by using a TableAdapter in .NET Framework applications
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
