@@ -25,7 +25,7 @@ You can use installation configuration files to configure Visual Studio. To do s
 
 You can export an installation configuration file from either a previously installed instance of Visual Studio. 
 
-### Using the Visual Studio Installer UI
+### Use the Visual Studio Installer UI
 
 1. Open the Visual Studio Installer.
 
@@ -45,15 +45,15 @@ You can export an installation configuration file from either a previously insta
 
    ::: moniker-end
 
-### Exporting a configuration file programmatically
+### Export a configuration file programmatically
 
 You can export a configuration programmatically by using the `export` verb as described in the [Install Visual Studio from the command line](use-command-line-parameters-to-install-visual-studio.md) documentation.
 
 ## Import a configuration
 
-Similar to exporting a configuration, you can also import an installation configuration file into either a previously installed instance of Visual Studio, or use it to intialize a new installation of Visual Studio.  
+Similar to exporting a configuration, you can also import an installation configuration file into either a previously installed instance of Visual Studio, or use it to initialize a new installation of Visual Studio.  
 
-### Using the Visual Studio Installer UI
+### Use the Visual Studio Installer UI
 
 When you're ready to import an installation configuration file, follow these steps.
 
