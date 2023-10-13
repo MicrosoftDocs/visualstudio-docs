@@ -1,5 +1,5 @@
 ---
-title: Bind WPF controls to data - Part 1
+title: Bind WPF controls to data with ADO.NET (.NET Framework)
 description: Bind WPF controls to data with ADO.NET. To create these data-bound controls, drag items from the Data Sources window onto the WPF Designer in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -16,7 +16,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Bind WPF controls to data in Visual Studio
+# Bind WPF controls to data in .NET Framework applications
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -1,6 +1,6 @@
 ---
-title: Extend the functionality of a TableAdapter
-description: Using Visual Studio, learn to extend the functionality of a ADO.NET TableAdapter in .NET Framework applications by adding code to the TableAdapter's partial class file.
+title: Extend the functionality of a TableAdapter in .NET Framework applications
+description: Using Visual Studio, learn to extend the functionality of an ADO.NET TableAdapter in .NET Framework applications by adding code to the TableAdapter's partial class file.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -15,7 +15,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Extend the functionality of a TableAdapter
+# Extend the functionality of a TableAdapter in .NET Framework applications
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: Create lookup tables in WPF applications
+title: Create lookup tables in .NET Framework WPF applications
 description: Create lookup tables in WPF .NET Framework apps. A lookup table is a control that shows information from a data table based on a foreign-key field value in another table.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -16,7 +16,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Create lookup tables in WPF applications
+# Create lookup tables in .NET Framework WPF applications
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
