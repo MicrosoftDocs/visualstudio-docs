@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
-ms.date: 03/23/2023
+ms.date: 10/13/2023
 ms.topic: conceptual
 description:  Learn how admins can assign licenses to subscribers
 ---
