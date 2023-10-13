@@ -1,5 +1,5 @@
 ---
-title: "MarkupCompilePass1 Task | Microsoft Docs"
+title: "MarkupCompilePass1 Task"
 description: Learn how MSBuild uses the MarkupCompilePass1 task to convert non-localizable XAML project files to compiled binary format.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,7 +7,6 @@ dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
 helpviewer_keywords:
   - "converting XAML to binary format [WPF MSBuild]"
   - "MarkupCompilePass1 task [WPF MSBuild], parameters"
@@ -17,8 +16,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-  - "multiple"
 ---
 # MarkupCompilePass1 task
 

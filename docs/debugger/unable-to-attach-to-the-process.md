@@ -1,5 +1,5 @@
 ---
-title: "Unable to Attach to the Process | Microsoft Docs"
+title: "Unable to Attach to the Process"
 description: Learn the meaning of "Unable to Attach to the Process", the two scenarios that cause it, and the solutions. 
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -14,8 +14,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Unable to Attach to the Process
 

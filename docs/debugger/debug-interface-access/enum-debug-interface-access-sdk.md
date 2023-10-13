@@ -1,6 +1,6 @@
 ---
 description: "Enumerations are identified by SymTagEnum symbols."
-title: "Enum (Debug Interface Access SDK) | Microsoft Docs"
+title: "Enum (Debug Interface Access SDK)"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
@@ -8,13 +8,10 @@ dev_langs:
 helpviewer_keywords:
   - "enumerated types as symbols"
   - "Enum symbol"
-ms.assetid: c777e2e6-88be-435b-b632-8d43f42b0b49
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Enum (Debug Interface Access SDK)
 

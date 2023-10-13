@@ -1,18 +1,15 @@
 ---
-title: "Logging in a Multi-Processor Environment | Microsoft Docs"
+title: "Logging in a Multi-Processor Environment"
 description: Learn how MSBuild provides a multi-processor-aware logger and enables the creation of custom "forwarding loggers."
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "MSBuild, multi-processor logging"
   - "MSBuild, logging"
-ms.assetid: dd4dae65-ed04-4883-b48d-59bcb891c4dc
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-  - "multiple"
 ---
 # Logging in a multi-processor environment
 

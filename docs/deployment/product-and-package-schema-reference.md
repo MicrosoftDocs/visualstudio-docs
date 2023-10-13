@@ -1,5 +1,5 @@
 ---
-title: "Product and Package Schema Reference | Microsoft Docs"
+title: "Product and Package Schema Reference"
 description: Learn about the product file, an XML manifest that describes the external dependencies required by a ClickOnce application.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -20,13 +20,10 @@ helpviewer_keywords:
   - "product files [Windows Installer]"
   - "package files [ClickOnce]"
   - "Windows Installer, bootstrapper elements"
-ms.assetid: 5a74878f-b896-4cca-b968-98d00fe78fb0
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # Product and package schema reference
 

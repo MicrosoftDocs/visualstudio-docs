@@ -1,19 +1,16 @@
 ---
 description: "Initializes the source data for this object and returns an object containing the initial data."
-title: IPropertyProxyEESide::InitSourceDataProvider | Microsoft Docs
+title: IPropertyProxyEESide::InitSourceDataProvider
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IPropertyProxyEESide::InitSourceDataProvider
 helpviewer_keywords:
 - IPropertyProxyEESide::InitSourceDataProvider
-ms.assetid: 5156f593-5052-4e3a-9d02-081916fb342d
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

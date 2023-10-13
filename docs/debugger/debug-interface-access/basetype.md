@@ -1,5 +1,5 @@
 ---
-title: "BaseType | Microsoft Docs"
+title: "BaseType"
 description: Find reference information about the BaseType symbol type (SymTagBaseType) in the Visual Studio debug interface access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,13 +7,10 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "BaseType symbol [DIA SDK]"
-ms.assetid: 2f9e22e6-8360-496a-ac6b-17a5a56b0c46
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # BaseType
 

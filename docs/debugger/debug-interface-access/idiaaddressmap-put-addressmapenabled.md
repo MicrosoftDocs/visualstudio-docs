@@ -1,19 +1,16 @@
 ---
 description: "Specifies whether the address map should be used to translate symbol addresses."
-title: "IDiaAddressMap::put_addressMapEnabled | Microsoft Docs"
+title: "IDiaAddressMap::put_addressMapEnabled"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaAddressMap::put_addressMapEnabled method"
-ms.assetid: 0f205337-4e59-4383-8059-7b1d207d6dcd
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaAddressMap::put_addressMapEnabled
 

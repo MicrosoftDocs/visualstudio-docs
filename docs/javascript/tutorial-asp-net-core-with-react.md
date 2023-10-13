@@ -10,8 +10,6 @@ manager: jmartens
 ms.technology: vs-javascript
 dev_langs:
   - JavaScript
-ms.workload:
-  - "nodejs"
 monikerRange: '>= vs-2022'
 ---
 # Tutorial: Create an ASP.NET Core app with React in Visual Studio

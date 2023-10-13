@@ -1,19 +1,16 @@
 ---
 description: "Exposes the properties of a stack frame."
-title: "IDiaStackFrame | Microsoft Docs"
+title: "IDiaStackFrame"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackFrame interface"
-ms.assetid: 486d25b8-a590-41c1-bdb5-faff3ae35632
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaStackFrame
 

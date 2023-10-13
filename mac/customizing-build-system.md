@@ -6,7 +6,6 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 09/19/2019
 ms.topic: conceptual
-ms.assetid: 6958B102-8527-4B40-BC65-3505DB63F9D3
 ---
 # Customize the MSBuild system in Visual Studio for Mac
 

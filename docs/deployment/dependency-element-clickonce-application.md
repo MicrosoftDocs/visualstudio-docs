@@ -1,5 +1,5 @@
 ---
-title: "&lt;dependency&gt; Element (ClickOnce Application) | Microsoft Docs"
+title: "&lt;dependency&gt; Element (ClickOnce Application)"
 description: The dependency element identifies a platform or assembly dependency that is required for the application.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -21,13 +21,10 @@ dev_langs:
 helpviewer_keywords:
   - "manifests [ClickOnce], dependency element"
   - "<dependency> element [ClickOnce application manifest]"
-ms.assetid: 09d6a1e0-60f8-4fbd-843b-8e49ee3115a3
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # &lt;dependency&gt; element (ClickOnce application)
 

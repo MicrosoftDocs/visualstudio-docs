@@ -1,6 +1,6 @@
 ---
 title: Bind controls to pictures from a database
-description: Use the Data Sources window to bind an image in a database to a control in your Visual Studio application.
+description: Use the Data Sources window to bind an image in a database to a control in your ADO.NET application with Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
@@ -12,13 +12,10 @@ helpviewer_keywords:
 - Data Sources Window, setting controls to display images
 - PictureBox control [Windows Forms], data binding
 - images [Visual Basic], dragging from Data Sources window
-ms.assetid: 9748815e-3556-49e8-86b1-c6aa593c6163
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Bind controls to pictures from a database
 

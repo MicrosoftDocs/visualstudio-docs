@@ -1,5 +1,5 @@
 ---
-title: "Debugging LINQ | Microsoft Docs"
+title: "Debugging LINQ"
 description: Debug language integrated query (LINQ) in Visual Studio. View LINQ results. Understand behavioral differences when stepping into LINQ code.
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -14,13 +14,10 @@ helpviewer_keywords:
   - "LINQ, debugging"
   - "LINQ, stepping"
   - "LINQ, edit and continue"
-ms.assetid: dbae26cb-ac5f-4312-b474-b9f29714f4c6
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Debugging LINQ
 

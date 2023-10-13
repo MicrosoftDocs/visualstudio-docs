@@ -1,19 +1,16 @@
 ---
 description: "This interface describes an array symbol or type."
-title: IDebugArrayField | Microsoft Docs
+title: IDebugArrayField
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugArrayField
 helpviewer_keywords:
 - IDebugArrayField interface
-ms.assetid: 9667b0a5-4295-46cc-9388-b75c1350be15
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugArrayField
 

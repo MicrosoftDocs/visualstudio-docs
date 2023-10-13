@@ -7,13 +7,10 @@ helpviewer_keywords:
 - projects [Visual Studio SDK], creating with MPF
 - MPF projects
 - managed package framework, creating projects
-ms.assetid: 926de536-eead-415b-9451-f1ddc8c44630
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Using the Managed Package Framework to Implement a Project Type (C#)
 

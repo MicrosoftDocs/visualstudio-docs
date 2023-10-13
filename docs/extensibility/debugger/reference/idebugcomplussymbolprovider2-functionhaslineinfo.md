@@ -1,18 +1,15 @@
 ---
 description: "Determines if the specified method has line information."
-title: IDebugComPlusSymbolProvider2::FunctionHasLineInfo | Microsoft Docs
+title: IDebugComPlusSymbolProvider2::FunctionHasLineInfo
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - FunctionHasLineInfo
 - IDebugComPlusSymbolProvider2::FunctionHasLineInfo
-ms.assetid: e1b508f1-6521-492f-b110-ab957744a037
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

@@ -1,9 +1,8 @@
 ---
-title: Admin portal changes for expired Visual Studio subscription agreements | Microsoft Docs
+title: Admin portal changes for expired Visual Studio subscription agreements
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: f38092ba-051c-4e58-97f5-4255dbe873ba
 ms.date: 03/23/2023
 ms.topic: conceptual
 description: Learn what happens for admins when an agreement expires

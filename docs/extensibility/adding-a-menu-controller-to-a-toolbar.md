@@ -1,5 +1,5 @@
 ---
-title: Adding a Menu Controller to a Toolbar | Microsoft Docs
+title: Adding a Menu Controller to a Toolbar
 description: Learn how to create a menu controller and add it to a tool window toolbar in Visual Studio, then implement the menu controller commands and test it.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - toolbars [Visual Studio], adding menu controllers
 - menus, adding menu controllers to toolbars
 - menu controllers, adding to toolbars
-ms.assetid: 6af9b0b4-037f-404c-bb40-aaa1970768ea
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Add a menu controller to a toolbar
 

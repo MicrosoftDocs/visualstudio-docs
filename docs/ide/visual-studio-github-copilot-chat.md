@@ -3,13 +3,10 @@ title: About the GitHub Copilot Chat extension for Visual Studio
 description: Learn about the fully integrated AI-powered GitHub Copilot Chat extension in Visual Studio, and how you can use the chat interface to ask and receive answers to coding-related questions from right within the IDE.
 ms.date: 09/28/2023
 ms.topic: overview 
-ms.custom: template-overview
 author: anandmeg
 ms.author: meghaanand
 ms.manager: jmartens
 ms.technology: vs-ai-tools
-ms.workload:
-- multiple
 monikerRange: vs-2022
 ---
 # What is the GitHub Copilot Chat extension for Visual Studio?

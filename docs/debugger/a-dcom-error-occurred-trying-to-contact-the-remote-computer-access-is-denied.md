@@ -16,13 +16,10 @@ helpviewer_keywords:
   - "remote debugging, DCOM error"
   - "remote DCOM access denied error"
   - "DCOM, access errors"
-ms.assetid: 9d7dfc1b-9fe0-4f54-9c50-9c0e0f8358c5
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # A DCOM error occurred trying to contact the remote computer. Access is denied.
 

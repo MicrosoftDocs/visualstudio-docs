@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - Project Designer, My Extensions page
 - My Extensions page in Project Designer
-ms.assetid: 2f08494e-84c1-444b-872b-900fbbcf0364
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # My Extensions Page, Project Designer (Visual Basic)
 

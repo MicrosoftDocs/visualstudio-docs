@@ -1,17 +1,14 @@
 ---
-title: Authoring .Vsct Files | Microsoft Docs
+title: Authoring .Vsct Files
 description: Learn how to author .vsct files that add menu items, toolbars, and other UI elements to the Visual Studio integrated development environment (IDE).
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - VSCT files, manual authoring
-ms.assetid: e9f715dc-12b7-439b-bdf3-f3dc75e62f1c
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Author .vsct files
 

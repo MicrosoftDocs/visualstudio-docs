@@ -1,5 +1,5 @@
 ---
-title: "View  data with the Tabular visualizer  | Microsoft Docs"
+title: "View  data with the Tabular visualizer "
 description: Use tabular visualizer in Visual Studio debugger.
 ms.date: "01/19/2023"
 ms.topic: "conceptual"
@@ -15,8 +15,6 @@ ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
 monikerRange: '>= vs-2022'
-ms.workload:
-  - "multiple"
 ---
 
 # Tabular visualizers in Visual Studio

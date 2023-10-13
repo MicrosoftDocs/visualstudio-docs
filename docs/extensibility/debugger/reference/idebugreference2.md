@@ -1,19 +1,16 @@
 ---
 description: "This interface represents a reference to a stack frame property or some other property."
-title: IDebugReference2 | Microsoft Docs
+title: IDebugReference2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugReference2
 helpviewer_keywords:
 - IDebugReference2 interface
-ms.assetid: 3cfed312-f532-4bce-84a5-1677c14567d7
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugReference2
 

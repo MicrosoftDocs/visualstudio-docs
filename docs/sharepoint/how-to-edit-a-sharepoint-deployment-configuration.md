@@ -1,5 +1,5 @@
 ---
-title: "How to: Edit a SharePoint Deployment Configuration | Microsoft Docs"
+title: "Edit a SharePoint Deployment Configuration"
 description: Know how to create a SharePoint deployment configuration or modify an existing deployment configuration.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # How to: Edit a SharePoint deployment configuration
 

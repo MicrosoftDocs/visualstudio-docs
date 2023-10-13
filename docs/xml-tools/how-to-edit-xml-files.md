@@ -1,15 +1,12 @@
 ---
-title: 'How to: Edit XML Files'
+title: 'Edit XML Files'
 ms.date: 11/04/2016
 description: Learn how to use the XML editor in Visual Studio to edit files that contain XML or DTD content.
 ms.topic: how-to
-ms.assetid: 07fa3ecf-6345-4d30-9d85-d5ef5b083319
 author: dzsquared
 ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
-ms.workload:
-- multiple
 ---
 # How to: Edit XML files
 

@@ -1,5 +1,5 @@
 ---
-title: Projects | Microsoft Docs
+title: Projects
 description: Learn about the ways that VSPackages can extend the Visual Studio project system, including project types, project subtypes, and custom tools.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -9,13 +9,10 @@ helpviewer_keywords:
 - project subtypes [Visual Studio SDK]
 - projects [Visual Studio SDK]
 - project types [Visual Studio SDK]
-ms.assetid: 237742e4-a638-4d5b-a9b3-6a69d627763c
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Projects
 

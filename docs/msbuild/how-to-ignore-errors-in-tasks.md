@@ -1,12 +1,11 @@
 ---
-title: 'How to: Ignore Errors in Tasks | Microsoft Docs'
+title: 'Ignore Errors in Tasks'
 description: Learn how to ignore errors in MSBuild tasks, and control whether a build stops or continues when a task failure occurs.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, ignoring errors
 - ContinueOnError attribute [MSBuild]
-ms.assetid: e2f1ca4f-787b-44bd-bc64-81a036025e96
 author: ghogen
 ms.author: ghogen
 manager: jmartens

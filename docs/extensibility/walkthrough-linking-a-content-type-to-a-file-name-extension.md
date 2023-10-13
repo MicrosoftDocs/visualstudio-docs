@@ -5,13 +5,10 @@ ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - link content type to file name extension
-ms.assetid: 21ee64ce-9afe-4b08-94a0-8389cc4dc67c
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Walkthrough: Link a content type to a file name extension
 

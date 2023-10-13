@@ -1,17 +1,14 @@
 ---
-title: COM Constants in Managed Code | Microsoft Docs
+title: COM Constants in Managed Code
 description: Learn about the Managed Package Framework, which makes some standard COM constants available to managed code.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - managed VSPackages, COM constants and macros
-ms.assetid: b6663608-b049-44b0-a75b-080fdc5faafc
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # COM constants in managed code
 

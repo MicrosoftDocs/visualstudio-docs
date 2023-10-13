@@ -10,8 +10,6 @@ author: maddymontaquila
 ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
-ms.workload:
-  - "multiple"
 monikerRange: vs-2022
 ---
 # XAML Live Preview: Capture and edit desktop app UI

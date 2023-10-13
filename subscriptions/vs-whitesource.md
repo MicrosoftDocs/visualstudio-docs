@@ -1,9 +1,8 @@
 ---
-title: WhiteSource Bolt in Visual Studio subscriptions | Microsoft Docs
+title: WhiteSource Bolt in Visual Studio subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: 5e5d3f1a-533d-42eb-960e-01bb6bc7ca16
 ms.date: 06/15/2023
 ms.topic: how-to
 description:  Learn how to activate the WhiteSource Bolt subscription included with your Visual Studio subscription.

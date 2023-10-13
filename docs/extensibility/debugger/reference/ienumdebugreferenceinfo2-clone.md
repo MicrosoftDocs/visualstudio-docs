@@ -1,19 +1,16 @@
 ---
 description: "Returns a copy of the current DEBUG_REFERENCE_INFO enumeration as a separate object."
-title: IEnumDebugReferenceInfo2::Clone | Microsoft Docs
+title: IEnumDebugReferenceInfo2::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugReferenceInfo2::Clone
 helpviewer_keywords:
 - IEnumDebugReferenceInfo2::Clone
-ms.assetid: 49c5a301-a33a-428f-b83b-e734c71af4ef
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

@@ -17,8 +17,6 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # Inspect an exception using the Exception Helper 
 

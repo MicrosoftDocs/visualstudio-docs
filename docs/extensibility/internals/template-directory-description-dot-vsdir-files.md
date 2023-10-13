@@ -1,5 +1,5 @@
 ---
-title: Template Directory Description (.Vsdir) Files | Microsoft Docs
+title: Template Directory Description (.Vsdir) Files
 description: Learn how a template directory description file enables Visual Studio IDE to display folders, .vsz files, and templates that are associated with your project.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - .vsdir files
 - VSDIR files
 - template directory description files
-ms.assetid: 9df51800-190e-4662-b685-fdaafcff1400
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Template Directory Description (.Vsdir) Files
 

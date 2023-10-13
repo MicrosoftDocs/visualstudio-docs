@@ -1,19 +1,16 @@
 ---
 description: "Gets the name of the session that is debugging this process."
-title: IDebugProcess2::GetAttachedSessionName | Microsoft Docs
+title: IDebugProcess2::GetAttachedSessionName
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcess2::GetAttachedSessionName
 helpviewer_keywords:
 - IDebugProcess2::GetAttachedSessionName
-ms.assetid: 7e5e116f-2c0c-4bc8-ad3f-e9fd2318a7e4
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

@@ -1,13 +1,11 @@
 ---
-title: "Workspaces in Visual Studio | Microsoft Docs"
+title: "Workspaces in Visual Studio"
 description: Learn how Visual Studio uses a workspace to represent a collection of files in Open Folder, including workspace providers and services.
 ms.date: "02/21/2018"
 ms.topic: "conceptual"
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"
-ms.workload:
-  - "vssdk"
 ---
 # Workspaces
 

@@ -1,18 +1,15 @@
 ---
-title: Registering an Expression Evaluator | Microsoft Docs
+title: Registering an Expression Evaluator
 description: Learn how the expression evaluator must register itself as a class factory with both the Windows COM environment and Visual Studio.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 - expression evaluators, registering
-ms.assetid: 236be234-e05f-4ad8-9200-24ce51768ecf
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Register an expression evaluator
 

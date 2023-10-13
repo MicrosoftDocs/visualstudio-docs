@@ -1,17 +1,14 @@
 ---
-title: Use the Finder Tool | Microsoft Docs
+title: Use the Finder Tool
 description: Use the Finder Tool in the Spy++ tool's Find Window dialog box to display window properties or messages during a debugging session.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords: 
   - Window Finder Tool
-ms.assetid: 5841926b-08c3-4e43-88bd-4223d04f9aef
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How to: Use the Finder Tool
 

@@ -18,13 +18,10 @@ helpviewer_keywords:
 - Tabbed Document mode
 - debug mode
 - custom layouts
-ms.assetid: 7517ff13-76de-4ecf-9c1b-eb9b7ff4d718
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Customize window layouts and personalize tabs
 

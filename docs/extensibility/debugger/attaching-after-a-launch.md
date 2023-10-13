@@ -1,17 +1,14 @@
 ---
-title: Attaching After a Launch | Microsoft Docs
+title: Attaching After a Launch
 description: When a program launches, the debug session is ready to attach the debug engine to the program. Choose a design approach for communication with the debug engine.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - debug engines, attaching to programs
-ms.assetid: 5a3600a1-dc20-4e55-b2a4-809736a6ae65
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Attach after a launch
 

@@ -1,7 +1,7 @@
 ---
 title: "Create a Windows Forms app with C#"
 description: "Learn how to create a Windows Forms app in Visual Studio with C#, step-by-step."
-ms.custom: "vs-acquisition, get-started"
+ms.custom: vs-acquisition
 ms.date: 1/24/2023
 ms.topic: tutorial
 ms.devlang: CSharp
@@ -11,8 +11,6 @@ manager: jmartens
 ms.technology: vs-ide-general
 dev_langs:
   - CSharp
-ms.workload:
-  - "multiple"
 ---
 # Create a Windows Forms app in Visual Studio with C\#
 

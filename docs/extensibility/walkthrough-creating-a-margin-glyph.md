@@ -1,17 +1,14 @@
 ---
-title: 'Walkthrough: Creating a Margin Glyph | Microsoft Docs'
+title: 'Walkthrough: Creating a Margin Glyph'
 description: Learn how to customize the appearance of editor margins by using custom editor extensions by using this walkthrough.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - margin glyph
-ms.assetid: 814185db-24f9-417f-b3b1-7c5aabb42b45
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Walkthrough: Create a margin glyph
 

@@ -1,5 +1,5 @@
 ---
-title: 'How to: Escape Special Characters in MSBuild | Microsoft Docs'
+title: 'Escape Special Characters in MSBuild'
 description: Learn how to escape special characters so you can use these characters as literals in MSBuild project files.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -8,13 +8,10 @@ helpviewer_keywords:
 - characters, escapes
 - escape characters
 - MSBuild, escaping special characters
-ms.assetid: 1aa3669c-1647-4960-b770-752e2532102f
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # How to: Escape special characters in MSBuild
 

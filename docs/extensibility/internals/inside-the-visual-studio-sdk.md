@@ -1,5 +1,5 @@
 ---
-title: Inside the Visual Studio SDK | Microsoft Docs
+title: Inside the Visual Studio SDK
 description: Learn about the extensions in the Visual Studio SDK, including Visual Studio architecture, components, services, schemas, and utilities. 
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - roadmap, Visual Studio integration SDK
 - Visual Studio integration SDK roadmap
 - integration roadmap, Visual Studio SDK
-ms.assetid: 9118eaa4-0453-4dc5-9e16-c7062d254869
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Inside the Visual Studio SDK
 

@@ -1,19 +1,16 @@
 ---
 description: "Returns the number of elements in the threads enumeration."
-title: IEnumDebugThreads2::GetCount | Microsoft Docs
+title: IEnumDebugThreads2::GetCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugThreads2::GetCount
 helpviewer_keywords:
 - IEnumDebugThreads2::GetCount
-ms.assetid: 81b7f139-d24e-4040-9adc-d664d77563ba
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

@@ -1,5 +1,5 @@
 ---
-title: ResolveNativeReference Task | Microsoft Docs
+title: ResolveNativeReference Task
 description: Learn how MSBuild uses the ResolveNativeReference task to resolve native references by implementing the Microsoft.Build.Tasks.ResolveNativeReference class.
 ms.date: 11/04/2016
 ms.topic: reference
@@ -9,17 +9,13 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 helpviewer_keywords:
 - MSBuild, ResolveNativeReference task
 - ResolveNativeReference task [MSBuild]
-ms.assetid: 56acd101-de77-4eec-92c6-f5c6d2187579
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # ResolveNativeReference task
 

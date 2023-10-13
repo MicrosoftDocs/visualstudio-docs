@@ -1,6 +1,6 @@
 ---
 description: "The Internet Connection Firewall on the remote machine is not set up to allow remote debugging."
-title: "Firewall No Authentication | Microsoft Docs"
+title: "Firewall No Authentication"
 ms.date: "11/04/2016"
 ms.topic: "error-reference"
 f1_keywords:
@@ -14,8 +14,6 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Error: Firewall No Authentication
 

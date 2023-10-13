@@ -1,5 +1,5 @@
 ---
-title: Diagnosing task failures | Microsoft Docs
+title: Diagnosing task failures
 description: Learn how to diagnose MSBuild task failures by identifying the failing task, tool name, and other information.
 ms.date: 03/14/2023
 ms.topic: how-to
@@ -9,13 +9,10 @@ dev_langs:
 - VB
 - CSharp
 - C++
-- jsharp
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Diagnose MSBuild task failures
 

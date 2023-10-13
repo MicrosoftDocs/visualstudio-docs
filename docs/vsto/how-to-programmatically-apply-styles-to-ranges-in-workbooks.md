@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically apply styles to ranges in workbooks"
+title: "Programmatically apply styles to ranges in workbooks"
 description:  Learn how you can apply named styles to regions in workbooks. Excel supplies a number of predefined styles.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -15,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically apply styles to ranges in workbooks
 

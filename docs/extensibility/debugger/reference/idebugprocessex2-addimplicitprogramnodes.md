@@ -1,19 +1,16 @@
 ---
 description: "This method adds a program node for each debug engine (DE) specified."
-title: IDebugProcessEx2::AddImplicitProgramNodes | Microsoft Docs
+title: IDebugProcessEx2::AddImplicitProgramNodes
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcessEx2::AddImplicitProgramNodes
 helpviewer_keywords:
 - IDebugProcessEx2::AddImplicitProgramNodes method
-ms.assetid: 8b491b00-f9e7-45b3-9115-fe58c3464289
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

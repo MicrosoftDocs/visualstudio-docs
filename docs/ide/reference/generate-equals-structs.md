@@ -7,8 +7,6 @@ author: mikadumont
 ms.author: midumont
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- dotnet
 ---
 # Generate IEquatable operators when generating Equals for structs
 

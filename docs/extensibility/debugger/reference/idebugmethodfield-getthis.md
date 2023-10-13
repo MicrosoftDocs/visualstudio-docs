@@ -1,19 +1,16 @@
 ---
 description: "Gets the this (Me in Visual Basic) pointer of the object containing the method."
-title: IDebugMethodField::GetThis | Microsoft Docs
+title: IDebugMethodField::GetThis
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugMethodField::GetThis
 helpviewer_keywords:
 - IDebugMethodField::GetThis method
-ms.assetid: cc235bea-e909-4d8c-ab54-936736c803fc
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

@@ -8,12 +8,9 @@ helpviewer_keywords:
 - network installation, Visual Studio
 - administrator guide, Visual Studio
 - installing Visual Studio, administrator guide
-ms.assetid: 4af353f5-6cfd-4ebe-bcfb-f42306e451a0
 author: anandmeg
 ms.author: meghaanand
 manager: jmartens
-ms.workload:
-- multiple
 ms.prod: visual-studio-windows
 ms.technology: vs-installation
 ---

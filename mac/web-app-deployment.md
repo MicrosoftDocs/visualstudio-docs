@@ -6,7 +6,6 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 01/25/2019
-ms.assetid: d746292d-0570-424a-bf43-e16ab85bbf0d
 ---
 # ASP.NET Core Web App Deployment in Visual Studio for Mac
 

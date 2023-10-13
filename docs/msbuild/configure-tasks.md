@@ -1,15 +1,12 @@
 ---
-title: Configure tasks | Microsoft Docs
+title: Configure tasks
 description: Configure MSBuild tasks to run out-of-process with MSBuild so that you can target contexts that differ from the one you are running on.
 ms.date: 10/19/2021
 ms.topic: conceptual
-ms.assetid: 9aabe67a-1720-4bbf-80d3-822b3ccf75c0
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 ---
 # Configure tasks
 

@@ -7,13 +7,10 @@ f1_keywords:
 - vb.ProjectPropertiesAdvancedServices
 helpviewer_keywords:
 - Advanced Settings for Services dialog box
-ms.assetid: 6dde4a2d-85e1-4275-aa55-24b84111be91
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # Advanced Settings for Services Dialog Box
 

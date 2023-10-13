@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the next symbols in order by address."
-title: "IDiaEnumSymbolsByAddr::Next | Microsoft Docs"
+title: "IDiaEnumSymbolsByAddr::Next"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumSymbolsByAddr::Next method"
-ms.assetid: a1320587-7ce7-401f-9548-2f8bcece5cc3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaEnumSymbolsByAddr::Next
 

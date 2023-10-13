@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting ClickOnce Deployments | Microsoft Docs
+title: Troubleshooting ClickOnce Deployments
 description: Use this article to help you diagnose and resolve the most common issues with ClickOnce deployments.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -13,13 +13,10 @@ helpviewer_keywords:
   - ClickOnce deployment, troubleshooting
   - Windows applications, ClickOnce deployments
   - deploying applications [ClickOnce], troubleshooting
-ms.assetid: 58e90012-f68b-4852-8ae9-58e361cbcc32
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # Troubleshoot ClickOnce deployments
 

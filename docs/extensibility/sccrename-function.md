@@ -1,19 +1,16 @@
 ---
 description: "This function renames a file in the source control system."
-title: SccRename Function | Microsoft Docs
+title: SccRename Function
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - SccRename
 helpviewer_keywords:
 - SccRename function
-ms.assetid: b467ade6-a1db-4c0b-b60f-7850ec4f79eb
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # SccRename Function
 

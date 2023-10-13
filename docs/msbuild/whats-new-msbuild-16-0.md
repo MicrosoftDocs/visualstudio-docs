@@ -1,5 +1,5 @@
 ---
-title: What's New in MSBuild 16.0  | Microsoft Docs
+title: What's New in MSBuild 16.0 
 description: Learn about the changed and updated features and properties for MSBuild 16.0, and link to release notes.
 ms.date: 03/11/2019
 ms.topic: conceptual
@@ -7,8 +7,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-- multiple
 monikerRange: '>=vs-2019'
 ---
 # What's new in MSBuild 16.0

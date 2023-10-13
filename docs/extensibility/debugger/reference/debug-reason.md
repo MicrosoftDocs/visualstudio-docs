@@ -1,19 +1,16 @@
 ---
 description: "Specifies why the process was launched for debugging."
-title: DEBUG_REASON | Microsoft Docs
+title: DEBUG_REASON
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - DEBUG_REASON
 helpviewer_keywords:
 - DEBUG_REASON enumeration
-ms.assetid: ad2ee898-8648-4671-9078-d32873862346
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

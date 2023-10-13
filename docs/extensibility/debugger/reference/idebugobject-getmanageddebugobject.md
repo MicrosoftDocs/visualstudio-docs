@@ -1,19 +1,16 @@
 ---
 description: "Creates a copy of the managed object in the address space of the debug engine."
-title: IDebugObject::GetManagedDebugObject | Microsoft Docs
+title: IDebugObject::GetManagedDebugObject
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugObject::GetManagedDebugObject
 helpviewer_keywords:
 - IDebugObject::GetManagedDebugObject method
-ms.assetid: cb89692e-7657-47ff-846d-311943521951
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

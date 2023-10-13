@@ -4,8 +4,6 @@ description: Learn about how you can connect your apps to Azure services in Visu
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
-ms.custom: vs-azure
-ms.workload: azure-vs
 ms.topic: overview
 ms.date: 09/19/2023
 ms.author: ghogen

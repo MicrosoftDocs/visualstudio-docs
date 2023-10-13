@@ -7,10 +7,6 @@ author: cwebster-99
 ms.author: cowebster
 manager: jmartens
 ms.technology: vs-python
-
-ms.workload:
-  - python
-  - data-science
 ---
 
 # Set up unit testing for Python code

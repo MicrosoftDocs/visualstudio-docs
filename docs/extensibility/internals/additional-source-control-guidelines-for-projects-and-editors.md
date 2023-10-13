@@ -5,13 +5,10 @@ ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - source control [Visual Studio SDK], guidelines for projects and editors
-ms.assetid: 2483cce5-321c-4d3c-9c5c-ee8385263f74
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Additional source control guidelines for projects and editors
 

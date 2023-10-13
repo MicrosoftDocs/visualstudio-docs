@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a specified number of stack frame elements from the enumeration sequence."
-title: "IDiaEnumStackFrames::Next | Microsoft Docs"
+title: "IDiaEnumStackFrames::Next"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumStackFrames::Next method"
-ms.assetid: 09378a21-d5e3-4213-b7e2-10f04d85295f
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaEnumStackFrames::Next
 

@@ -1,17 +1,14 @@
 ---
-title: 'How to: Get a Service | Microsoft Docs'
+title: 'Get a Service'
 description: Learn how to get Visual Studio services to access different features. You can get most services by using a VSPackage.
 ms.date: 3/16/2019
 ms.topic: how-to
 helpviewer_keywords:
 - services, consuming
-ms.assetid: 1f000020-8fb7-4e39-8e1e-2e38c7fec3d4
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # How to: Get a service
 

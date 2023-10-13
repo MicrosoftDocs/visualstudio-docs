@@ -5,7 +5,6 @@ ms.author: amast
 manager: shve
 ms.date: 06/15/2023
 ms.topic: how-to
-ms.custom: devdivchpfy22
 description: Learn about the Pluralsight training benefit that's included with select Visual Studio subscriptions.
 ---
 

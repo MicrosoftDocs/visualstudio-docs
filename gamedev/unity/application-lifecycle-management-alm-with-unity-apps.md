@@ -1,16 +1,13 @@
 ---
-title: "Application Lifecycle Management (ALM) with Unity Apps | Microsoft Docs"
+title: "Application Lifecycle Management (ALM) with Unity Apps"
 description: Understand application lifecycle management (ALM) with Unity Apps. Review Agile tools, model, code, build, test, and improve code quality.
 ms.date: 08/21/2018
 ms.technology: vs-unity-tools
 ms.prod: visual-studio
 ms.topic: "conceptual"
-ms.assetid: 2dc61e63-9ba2-4c16-b1ad-f46249e576b6
 author: "conceptdev"
 ms.author: "crdun"
 manager: crdun
-ms.workload:
-  - "unity"
 ---
 # DevOps with Unity apps
 

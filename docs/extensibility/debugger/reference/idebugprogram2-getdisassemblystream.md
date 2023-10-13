@@ -1,19 +1,16 @@
 ---
 description: "Gets the disassembly stream for this program or a part of this program."
-title: IDebugProgram2::GetDisassemblyStream | Microsoft Docs
+title: IDebugProgram2::GetDisassemblyStream
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgram2::GetDisassemblyStream
 helpviewer_keywords:
 - IDebugProgram2::GetDisassemblyStream
-ms.assetid: beda0da5-267e-4bf3-96c4-b659d29e2254
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

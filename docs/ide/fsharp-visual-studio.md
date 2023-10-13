@@ -11,8 +11,6 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- dotnet
 ---
 # Develop with Visual F# in Visual Studio
 

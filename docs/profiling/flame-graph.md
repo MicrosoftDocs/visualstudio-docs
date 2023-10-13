@@ -3,14 +3,11 @@ title: Identify hot paths with the Flame Graph
 description: Find hot paths in your code with a visualized overview
 ms.date: 09/30/2022
 ms.topic: how-to
-ms.assetid: 7501a20d-04a1-480f-a69c-201524aa709d
 author: MikeJo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 monikerRange: '>= vs-2022'
-ms.workload: 
-  - multiple
 ---
 # Identify hot paths with a visualized call tree
 

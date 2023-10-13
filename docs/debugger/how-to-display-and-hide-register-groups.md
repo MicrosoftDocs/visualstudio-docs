@@ -1,5 +1,5 @@
 ---
-title: Display and Hide Register Groups | Microsoft Docs
+title: Display and Hide Register Groups
 description: The Registers window, which is available if address-level debugging is enabled, organizes registers into groups. Learn how to set which groups appear.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -14,13 +14,10 @@ dev_langs:
 helpviewer_keywords: 
   - Registers window, displaying and hiding register groups
   - register groups, displaying and hiding
-ms.assetid: 6be5dfb4-4cfe-4daf-b538-60405640857d
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How to: Display and Hide Register Groups (C#, C++, Visual Basic, F#)
 

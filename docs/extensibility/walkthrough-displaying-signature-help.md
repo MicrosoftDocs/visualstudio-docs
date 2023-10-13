@@ -1,17 +1,14 @@
 ---
-title: 'Walkthrough: Displaying Signature Help | Microsoft Docs'
+title: 'Walkthrough: Displaying Signature Help'
 description: Learn how to display Signature Help for text content type by using this walkthrough. Signature Help displays the signature of a method in a tooltip.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - signature help/parameter info
-ms.assetid: 4a6a884b-5730-4b54-9264-99684f5b523c
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Walkthrough: Display Signature Help
 

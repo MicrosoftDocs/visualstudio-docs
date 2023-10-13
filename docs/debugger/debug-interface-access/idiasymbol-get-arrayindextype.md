@@ -1,19 +1,16 @@
 ---
 description: "Retrieves the symbol interface of the array index type of the symbol."
-title: "IDiaSymbol::get_arrayIndexType | Microsoft Docs"
+title: "IDiaSymbol::get_arrayIndexType"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_arrayIndexType method"
-ms.assetid: cd63b9ec-9694-406c-b37f-bde6bd5fcbf2
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_arrayIndexType
 

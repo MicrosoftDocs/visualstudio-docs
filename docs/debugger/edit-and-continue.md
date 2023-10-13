@@ -1,7 +1,6 @@
 ---
-title: "Edit code and continue debugging | Microsoft Docs"
+title: "Edit code and continue debugging"
 description: Use the Edit and Continue command while debugging in Visual Studio so that you can make changes to your source code while your program is in break mode.
-
 ms.date: "05/31/2018"
 ms.topic: "conceptual"
 f1_keywords:
@@ -16,13 +15,10 @@ helpviewer_keywords:
   - "debugger, Edit and Continue"
   - "debugging [Visual Studio], Edit and Continue"
   - "debugger, tools for debugging"
-ms.assetid: 2cdd4531-7117-4221-a809-8447812de2a1
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Edit code and continue Debugging in Visual Studio (C#, VB, C++)
 

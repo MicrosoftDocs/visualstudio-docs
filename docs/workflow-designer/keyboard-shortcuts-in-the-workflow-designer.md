@@ -5,13 +5,10 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - WFDKeyboardShortcuts.UI
-ms.assetid: 9be75438-a4a3-4781-94e5-45b7ec082358
 author: jodavis
 ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
 ---
 # Keyboard Shortcuts in the Workflow Designer
 

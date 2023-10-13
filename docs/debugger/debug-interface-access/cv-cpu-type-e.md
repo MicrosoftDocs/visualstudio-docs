@@ -1,5 +1,5 @@
 ---
-title: "CV_CPU_TYPE_e | Microsoft Docs"
+title: "CV_CPU_TYPE_e"
 description: Get reference information about the CV_CPU_TYPE_e enumeration type, which specifies the target processor in the debug interface access SDK.
 ms.date: "11/04/2016"
 ms.topic: "reference"
@@ -7,13 +7,10 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "CV_CPU_TYPE_e enumeration"
-ms.assetid: df470a7e-1d04-448e-b920-c731189514fa
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # CV_CPU_TYPE_e
 

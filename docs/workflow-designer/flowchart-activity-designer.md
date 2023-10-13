@@ -7,13 +7,10 @@ f1_keywords:
 - System.Activities.Statements.Flowchart.UI
 - System.Activities.Statements.FlowStep.UI
 - System.Activities.Core.Presentation.FlowStart.UI
-ms.assetid: d5af2276-5215-4138-880a-cf2b90bbf3a0
 author: jodavis
 ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
-ms.workload:
-- multiple
 ---
 # Flowchart Activity Designer
 

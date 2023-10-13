@@ -5,11 +5,10 @@ author: ghogen
 manager: jillfra
 ms.prod: visual-studio-windows
 ms.technology: vs-azure
-ms.workload: azure-vs
 ms.topic: reference
 ms.date: 12/14/2021
 ms.author: ghogen
-ms.custom: "devx-track-csharp, aaddev, vs-azure"
+ms.custom: devx-track-csharp
 ---
 # What happened to my MVC project (Visual Studio Azure Active Directory connected service)?
 

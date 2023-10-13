@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically refer to worksheet ranges in code"
+title: "Programmatically refer to worksheet ranges in code"
 description: Learn how you can use Visual Studio to programmatically refer to the contents of a NamedRange control or a native Excel range object in a Microsoft Excel worksheet.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -16,8 +16,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically refer to worksheet ranges in code
 

@@ -1,19 +1,16 @@
 ---
 description: "This interface represents a program that can be debugged."
-title: IDebugProgramNode2 | Microsoft Docs
+title: IDebugProgramNode2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgramNode2
 helpviewer_keywords:
 - IDebugProgramNode2 interface
-ms.assetid: 80e511d8-9b40-4a85-aa5d-952fa5ee6ae7
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugProgramNode2
 

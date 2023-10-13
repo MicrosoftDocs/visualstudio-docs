@@ -2,7 +2,6 @@
 title: "&lt;customizations&gt; element (Office development in Visual Studio)"
 description: Learn how the customizations element of the vstov4 namespace contains all the information about installing and loading each Office solution.
 titleSuffix: ""
-
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -16,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # &lt;customizations&gt; element (Office development in Visual Studio)
 

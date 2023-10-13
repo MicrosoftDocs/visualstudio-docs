@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically format text in documents"
+title: "Programmatically format text in documents"
 description: Learn how you can use the Range object to programmatically format text in a Microsoft Word document.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -14,8 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically format text in documents
 

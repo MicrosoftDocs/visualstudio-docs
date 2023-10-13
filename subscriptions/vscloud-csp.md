@@ -3,7 +3,6 @@ title: Visual Studio cloud subscription purchasing for CSPs
 author: evanwindom
 ms.author: amast
 manager: shve
-ms.assetid: d2ab13ed-ef79-4ef0-8736-eccd04bc6020
 ms.date: 03/28/2023
 ms.topic: conceptual
 description:  Information for Cloud Solution Providers on how to buy and manage Visual Studio cloud subscriptions for your customers.

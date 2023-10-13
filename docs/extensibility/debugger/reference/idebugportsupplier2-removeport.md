@@ -1,19 +1,16 @@
 ---
 description: "Removes a port."
-title: IDebugPortSupplier2::RemovePort | Microsoft Docs
+title: IDebugPortSupplier2::RemovePort
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugPortSupplier2::RemovePort
 helpviewer_keywords:
 - IDebugPortSupplier2::RemovePort
-ms.assetid: f5c1fbf2-9084-46f2-a682-7db963928df2
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

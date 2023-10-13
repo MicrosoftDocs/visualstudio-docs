@@ -1,19 +1,16 @@
 ---
 description: "Provides access to the records in a debug data stream."
-title: "IDiaEnumDebugStreamData | Microsoft Docs"
+title: "IDiaEnumDebugStreamData"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumDebugStreamData interface"
-ms.assetid: e2023c32-4c05-4d0c-a0be-f016a230c788
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaEnumDebugStreamData
 

@@ -2,7 +2,6 @@
 title: "Deploy your Visual Studio app to a folder, IIS, Azure, or another destination"
 titleSuffix: ""
 description: Learn more about publishing options for your app using the Publish tool.
-ms.custom: "contperf-fy21q1"
 ms.date: 05/12/2023
 ms.topic: "ui-reference"
 f1_keywords:
@@ -16,8 +15,6 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload:
-  - "multiple"
 ---
 # Deploy your app to a folder, IIS, Azure, or another destination
 

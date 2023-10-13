@@ -3,13 +3,10 @@ title: Extended Design Guidelines Rules rule set for managed code
 ms.date: 11/04/2016
 description: Learn about the Extended Design Guidelines Rules rule set in Visual Studio, which focuses on usability and maintainability. See rule descriptions.
 ms.topic: reference
-ms.assetid: a338caf2-b75d-4f23-a0f9-3024fa0bceac
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-code-analysis
-ms.workload:
-- dotnet
 ---
 # Extended Design Guidelines Rules rule set for managed code
 

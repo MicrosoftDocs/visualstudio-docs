@@ -1,5 +1,5 @@
 ---
-title: 'How to: View Existing Types (Class Designer)'
+title: 'View Existing Types (Class Designer)'
 description: Learn how to see an existing type and its members by adding its shape to a class diagram.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -7,13 +7,10 @@ helpviewer_keywords:
 - types [Visual Studio], visualizing
 - types [Visual Studio], class diagrams
 - class diagrams, types
-ms.assetid: de110a4e-5b51-4a40-9dee-615df4d8f999
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # View types and relationships in Class Designer
 

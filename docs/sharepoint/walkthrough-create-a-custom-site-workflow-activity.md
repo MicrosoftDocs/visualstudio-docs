@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Create a Custom Site Workflow Activity | Microsoft Docs"
+title: "Walkthrough: Create a Custom Site Workflow Activity"
 description: In this walkthrough, see how to create a custom activity for a site-level SharePoint workflow using Visual Studio.
 ms.date: "02/02/2017"
 ms.topic: how-to
@@ -16,8 +16,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Walkthrough: Create a custom site workflow activity
 

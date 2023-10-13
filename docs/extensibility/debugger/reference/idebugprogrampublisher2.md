@@ -1,19 +1,16 @@
 ---
 description: "This interface allows a debug engine (DE) or custom port suppliers to register programs for debugging."
-title: IDebugProgramPublisher2 | Microsoft Docs
+title: IDebugProgramPublisher2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProgramPublisher2
 helpviewer_keywords:
 - IDebugProgramPublisher2 interface
-ms.assetid: b1d17f63-7146-4076-a588-034cfc6858b9
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugProgramPublisher2
 

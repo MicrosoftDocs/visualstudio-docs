@@ -1,18 +1,15 @@
 ---
-title: Subscribing to an Event | Microsoft Docs
+title: Subscribing to an Event
 description: Learn how to create a tool window that responds to events in a running document table in the Visual Studio SDK.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - running document table (RDT), responding to events
 - running document table (RDT), subscribing to events
-ms.assetid: e94a4fea-94df-488e-8560-9538413422bc
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Subscribing to an Event
 

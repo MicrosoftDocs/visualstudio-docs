@@ -1,5 +1,5 @@
 ---
-title: Start and Stop the Message Log Display | Microsoft Docs
+title: Start and Stop the Message Log Display
 description: Understand how to start and stop the message log display when debugging with the Spy++ tool and Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -7,13 +7,10 @@ helpviewer_keywords:
   - message log display, starting
   - logging, starting message log display
   - logs, starting message log display
-ms.assetid: 3036611c-acf3-42b6-b5d7-1a0c653f6af9
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How to: Start and Stop the Message Log Display
 

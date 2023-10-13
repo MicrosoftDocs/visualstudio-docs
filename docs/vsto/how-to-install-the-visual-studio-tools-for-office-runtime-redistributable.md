@@ -1,8 +1,7 @@
 ---
-title: "How to: Install the Visual Studio Tools for Office Runtime Redistributable"
+title: "Install the Visual Studio Tools for Office Runtime Redistributable"
 description: Learn how you can install the Microsoft Visual Studio 2010 Tools for Office Runtime Redistributable.
 titleSuffix: ""
-
 ms.date: "01/25/2022"
 ms.topic: "how-to"
 dev_langs:
@@ -15,9 +14,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
-ms.custom: devdivchpfy22
 ---
 # How to: Install the Visual Studio Tools for Office Runtime Redistributable
 

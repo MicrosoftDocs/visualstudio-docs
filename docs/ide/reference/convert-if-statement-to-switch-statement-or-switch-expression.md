@@ -9,8 +9,6 @@ manager: jmartens
 ms.technology: vs-ide-general
 dev_langs:
   - CSharp
-ms.workload:
-  - "dotnet"
 ---
 # Convert if statement to switch statement or switch expression
 

@@ -1,11 +1,10 @@
 ---
-title: Assign specific GUIDs to Visual Studio subscribers | Microsoft Docs
+title: Assign specific GUIDs to Visual Studio subscribers
 author: evanwindom
 ms.author: amast
 manager: shve
 ms.date: 03/24/2023
 ms.topic: conceptual
-ms.assetid: f9c82d7d-55bd-4e41-a170-6077b28ba5af
 description:  Learn how admins can  assign specific subscription GUID to subscribers
 ---
 

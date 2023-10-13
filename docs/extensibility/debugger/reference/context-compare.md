@@ -1,19 +1,16 @@
 ---
 description: "Specifies the criteria for comparing two memory contexts."
-title: CONTEXT_COMPARE | Microsoft Docs
+title: CONTEXT_COMPARE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - CONTEXT_COMPARE
 helpviewer_keywords:
 - CONTEXT_COMPARE enumeration
-ms.assetid: 701ed61c-a320-4c20-a335-0b840024abc0
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

@@ -2,7 +2,6 @@
 title: "&lt;customHostSpecified&gt; element (Office development in Visual Studio)"
 description: Learn how the customHostSpecified element indicates that this solution is not a stand-alone application.
 titleSuffix: ""
-
 ms.date: "02/02/2017"
 ms.topic: "reference"
 dev_langs:
@@ -16,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # &lt;customHostSpecified&gt; element (Office development in Visual Studio)
 

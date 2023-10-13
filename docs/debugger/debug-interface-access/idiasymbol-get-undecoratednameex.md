@@ -1,19 +1,16 @@
 ---
 description: "Retrieves part or all of an undecorated name for a C++ decorated (linkage) name."
-title: "IDiaSymbol::get_undecoratedNameEx | Microsoft Docs"
+title: "IDiaSymbol::get_undecoratedNameEx"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_undecoratedNameEx method"
-ms.assetid: 579aed0b-c57d-41a1-a94a-3bf665fd4a9d
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaSymbol::get_undecoratedNameEx
 

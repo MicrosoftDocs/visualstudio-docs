@@ -1,6 +1,6 @@
 ---
 title: Add new data sources
-description: Add new data sources in Visual Studio. A data source is a .NET object that connects to a data store and make the data available to a .NET application.
+description: Add new ADO.NET data sources in Visual Studio. A data source is a .NET Framework object that connects to a data store and make the data available to a .NET Framework application.
 ms.date: 06/01/2023
 ms.topic: how-to
 f1_keywords:
@@ -8,13 +8,10 @@ f1_keywords:
 helpviewer_keywords:
 - data [Visual Studio], data sources
 - data sources
-ms.assetid: ed28c625-bb89-4037-bfde-cfa435d182a2
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Add new data sources
 

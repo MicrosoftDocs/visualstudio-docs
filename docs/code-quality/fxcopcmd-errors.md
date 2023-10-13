@@ -5,13 +5,10 @@ description: Learn about the error codes that the FxCopCmd command returns. See 
 ms.topic: reference
 helpviewer_keywords:
   - "FxCopCmd errors"
-ms.assetid: bb614ed0-1b7c-4b56-99ae-da50ef6cfef9
 ms.author: mikejo
 author: mikejo5000
 manager: jmartens
 ms.technology: vs-ide-code-analysis
-ms.workload:
-  - "multiple"
 ---
 # FxCopCmd tool errors
 

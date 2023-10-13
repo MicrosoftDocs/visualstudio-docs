@@ -12,8 +12,6 @@ ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
 monikerRange: '>= vs-2019'
-ms.workload: 
-  - "multiple"
 ---
 # Measure application performance from the command line
 

@@ -1,6 +1,6 @@
 ---
 title: Pass data between forms
-description: In this Windows Forms controls walkthrough, get step-by-step instructions for passing data from one form to another.
+description: In this Windows Forms controls walkthrough, get step-by-step instructions for passing data from one form to another in .NET Framework application development with Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
 dev_langs:
@@ -12,13 +12,10 @@ helpviewer_keywords:
 - data [Visual Studio], passing between forms
 - forms, passing data between
 - Windows Forms, walkthroughs
-ms.assetid: 78bf038b-9296-4fbf-b0e8-d881d1aff0df
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
-ms.workload:
-- data-storage
 ---
 # Pass data between forms
 

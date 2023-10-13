@@ -22,13 +22,10 @@ f1_keywords:
   - "vs.cv.threads.tools.zoom"
 helpviewer_keywords:
   - "Concurrency Visualizer, Threads View (Parallel Performance)"
-ms.assetid: 2e441103-a266-407b-88c3-fb58716257a3
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Threads view in the Concurrency Visualizer
 

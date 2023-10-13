@@ -1,19 +1,16 @@
 ---
 description: "This interface is sent when a process is launched."
-title: IDebugProcessCreateEvent2 | Microsoft Docs
+title: IDebugProcessCreateEvent2
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcessCreateEvent2
 helpviewer_keywords:
 - IDebugProcessCreateEvent2
-ms.assetid: c660439d-8b23-4dbb-923e-ebb5e1d7edf5
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # IDebugProcessCreateEvent2
 

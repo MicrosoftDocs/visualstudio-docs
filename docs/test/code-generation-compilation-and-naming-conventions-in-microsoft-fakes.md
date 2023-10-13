@@ -6,8 +6,6 @@ ms.topic: conceptual
 ms.author: oscalles
 manager: aajohn
 ms.technology: vs-ide-test
-ms.workload:
-- multiple
 author: ocallesp
 ---
 # Code generation, compilation, and naming conventions in Microsoft Fakes

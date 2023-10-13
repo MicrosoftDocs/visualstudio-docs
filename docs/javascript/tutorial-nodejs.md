@@ -12,8 +12,6 @@ ms.technology: vs-javascript
 monikerRange: '>= vs-2022'
 dev_langs:
   - JavaScript
-ms.workload:
-  - "nodejs"
 ---
 # Tutorial: Create a Node.js and Express app in Visual Studio
 

@@ -1,19 +1,16 @@
 ---
 description: "Gets the server that this process is running on."
-title: IDebugProcess2::GetServer | Microsoft Docs
+title: IDebugProcess2::GetServer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcess2::GetServer
 helpviewer_keywords:
 - IDebugProcess2::GetServer
-ms.assetid: 8f73c530-cceb-4f1f-8c63-1cc0ccd4a310
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

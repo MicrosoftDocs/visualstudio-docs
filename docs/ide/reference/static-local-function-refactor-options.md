@@ -11,8 +11,6 @@ f1_keywords:
   - "vs.csharp.refactoring.make.local.function.static"
 dev_langs:
   - CSharp
-ms.workload:
-  - "dotnet"
 ---
 # Static local function refactorings and Quick Actions
 

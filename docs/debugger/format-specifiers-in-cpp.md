@@ -1,5 +1,5 @@
 ---
-title: "Format specifiers in the debugger (C++) | Microsoft Docs"
+title: "Format specifiers in the debugger (C++)"
 description: Use a format specifier to change the format in which a value is displayed in a Watch, Autos, or Locals window. This article provides usage details.
 ms.date: 05/17/2022
 ms.topic: "conceptual"
@@ -17,13 +17,10 @@ helpviewer_keywords:
   - "watch variable symbols"
   - "format specifiers, debugger"
   - "debugger, format specifiers recognized by"
-ms.assetid: 0f6f3b7c-ce2c-4b4d-b14f-7589dbed5444
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "cplusplus"
 ---
 # Format specifiers for C++ in the Visual Studio debugger
 

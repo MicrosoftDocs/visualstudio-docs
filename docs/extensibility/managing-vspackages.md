@@ -1,5 +1,5 @@
 ---
-title: Managing VSPackages | Microsoft Docs
+title: Managing VSPackages
 description: Learn about managing VSPackages, so that you know when you can simply use the default VSPackage management provided by Visual Studio, and how and when to customize it.
 ms.date: 11/04/2016
 ms.topic: conceptual
@@ -8,13 +8,10 @@ helpviewer_keywords:
 - VSPackages, delayed loading
 - delay loading
 - VSPackages, loading
-ms.assetid: 386e0ce5-4107-4164-b0cd-1cf43eb5e7cf
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Manage VSPackages
 

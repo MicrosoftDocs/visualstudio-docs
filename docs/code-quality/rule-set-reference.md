@@ -9,8 +9,6 @@ author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-code-analysis
-ms.workload:
-- multiple
 ---
 # Code analysis rule set reference
 

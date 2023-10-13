@@ -1,19 +1,16 @@
 ---
 description: "Returns the number of elements in the processes enumeration."
-title: IEnumDebugProcesses2::GetCount | Microsoft Docs
+title: IEnumDebugProcesses2::GetCount
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugProcesses2::GetCount
 helpviewer_keywords:
 - IEnumDebugProcesses2::GetCount
-ms.assetid: 5dc3e36c-46e5-4556-bf41-1870aa67d2a0
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

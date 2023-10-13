@@ -7,8 +7,6 @@ author: anandmeg
 ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 monikerRange: vs-2022
 ---
 # Learn about the Spell Checker

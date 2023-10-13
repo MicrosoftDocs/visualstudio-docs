@@ -1,19 +1,16 @@
 ---
 description: "Retrieves a flag that indicates whether C++ exception handling is in effect."
-title: "IDiaFrameData::get_cplusplusExceptionHandling | Microsoft Docs"
+title: "IDiaFrameData::get_cplusplusExceptionHandling"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaFrameData::get_cplusplusExceptionHandling method"
-ms.assetid: 54ee9cde-ce8e-45f1-809c-6fbad800d850
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaFrameData::get_cplusplusExceptionHandling
 

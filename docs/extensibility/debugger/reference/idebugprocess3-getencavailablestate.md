@@ -1,19 +1,16 @@
 ---
 description: "This method gets the current Edit and Continue state of the process."
-title: IDebugProcess3::GetENCAvailableState | Microsoft Docs
+title: IDebugProcess3::GetENCAvailableState
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugProcess3::GetENCAvailableState
 helpviewer_keywords:
 - IDebugProcess3::GetENCAvailableState
-ms.assetid: 98a5d527-8a72-476c-8e92-0bff3d97c195
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

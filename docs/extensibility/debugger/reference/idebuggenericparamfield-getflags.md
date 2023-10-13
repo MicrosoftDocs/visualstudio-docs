@@ -1,18 +1,15 @@
 ---
 description: "Retrieves the flags for this generic parameter."
-title: IDebugGenericParamField::GetFlags | Microsoft Docs
+title: IDebugGenericParamField::GetFlags
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - GetFlags
 - IDebugGenericParamField::GetFlags
-ms.assetid: adcbbca1-8960-4c88-86b0-8b9467056c97
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

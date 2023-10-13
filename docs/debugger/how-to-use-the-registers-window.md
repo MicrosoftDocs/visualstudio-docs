@@ -1,7 +1,6 @@
 ---
-title: View register values in the debugger | Microsoft Docs
+title: View register values in the debugger
 description: View register values in the Registers window in Visual Studio. During debugging, register values change as code executes in your app.
-
 ms.date: 11/19/2018
 ms.topic: how-to
 f1_keywords: 
@@ -19,13 +18,10 @@ helpviewer_keywords:
   - register groups
   - debugging [Visual Studio], Registers window
   - Registers window
-ms.assetid: 2918ffa2-562f-40d6-9053-ef321bbeb767
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # View register values in the Registers window (C#, C++, Visual Basic, F#)
 

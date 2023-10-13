@@ -1,17 +1,14 @@
 ---
-title: Debug Session | Microsoft Docs
+title: Debug Session
 description: Learn about a debug session, which is all processes that have been launched or attached to from a single instance of the IDE.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - debugging [Debugging SDK], sessions
-ms.assetid: 18d82199-b2d4-47a9-924f-ab64faf60ca1
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Debug session
 

@@ -8,13 +8,10 @@ helpviewer_keywords:
 - examples [Visual Studio SDK], brokered services
 - Visual Studio, brokered services
 - brokered services
-ms.assetid: d2b743f2-a06b-4f82-aaef-f207046a299e
 author: aarnott
 ms.author: andarno
 manager: ansonh
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Using and providing brokered services
 

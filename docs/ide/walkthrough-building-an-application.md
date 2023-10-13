@@ -7,8 +7,6 @@ ms.topic: tutorial
 author: ghogen
 ms.author: ghogen
 manager: jmartens
-ms.workload:
-- multiple
 ---
 # Tutorial: Build an application
 

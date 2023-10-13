@@ -8,13 +8,10 @@ f1_keywords:
 - IDebugExpressionEvaluationCompleteEvent2::GetExpression
 helpviewer_keywords:
 - IDebugExpressionEvaluationCompleteEvent2::GetExpression
-ms.assetid: faf6b2dd-2afd-4852-b21c-7e8d3130e141
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

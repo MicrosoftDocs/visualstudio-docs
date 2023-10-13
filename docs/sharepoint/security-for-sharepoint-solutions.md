@@ -1,5 +1,5 @@
 ---
-title: "Security for SharePoint Solutions | Microsoft Docs"
+title: "Security for SharePoint Solutions"
 description: Discover what features Visual Studio incorporates to help enhance the security of SharePoint applications.
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
@@ -15,8 +15,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
-ms.workload:
-  - "office"
 ---
 # Security for SharePoint solutions
 

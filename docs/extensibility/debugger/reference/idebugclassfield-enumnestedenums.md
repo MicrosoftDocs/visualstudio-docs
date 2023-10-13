@@ -1,19 +1,16 @@
 ---
 description: "Creates an enumerator for the nested enumerators of this class."
-title: IDebugClassField::EnumNestedEnums | Microsoft Docs
+title: IDebugClassField::EnumNestedEnums
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IDebugClassField::EnumNestedEnums
 helpviewer_keywords:
 - IDebugClassField::EnumNestedEnums method
-ms.assetid: 90fd0cef-9145-4de6-91d4-6c881df39d6e
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

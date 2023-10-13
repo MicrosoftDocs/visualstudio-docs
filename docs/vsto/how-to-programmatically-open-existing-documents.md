@@ -1,5 +1,5 @@
 ---
-title: "How to: Programmatically open existing documents"
+title: "Programmatically open existing documents"
 description: Learn how to use the Open method to open an existing Microsoft Word document specified by a fully-qualified path and file name.
 ms.date: "02/02/2017"
 ms.topic: "how-to"
@@ -13,8 +13,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Programmatically open existing documents
 

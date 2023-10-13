@@ -1,5 +1,5 @@
 ---
-title: "SignFile Task | Microsoft Docs"
+title: "SignFile Task"
 description: Learn how MSBuild uses the SignFile task to sign the specified file using the specified certificate.
 ms.date: "05/27/2022"
 ms.topic: "reference"
@@ -9,17 +9,13 @@ dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-  - "jsharp"
 helpviewer_keywords:
   - "MSBuild, SignFile task"
   - "SignFile task [MSBuild]"
-ms.assetid: edef1819-ddeb-4e09-95de-fc7063ba9388
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
-ms.workload:
-  - "multiple"
 ---
 # SignFile task
 

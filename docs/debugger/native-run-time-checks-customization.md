@@ -1,5 +1,5 @@
 ---
-title: "Native Run-Time Checks Customization | Microsoft Docs"
+title: "Native Run-Time Checks Customization"
 description: "Learn ways to customize run-time checking, including: specifying a message destination, writing an error reporting function, and querying for error information."
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
@@ -17,13 +17,10 @@ helpviewer_keywords:
   - "/RTC compiler option [C++], native run-time checks"
   - "customizing CRT error checking"
   - "native run-time checks, customizing"
-ms.assetid: 76a365fe-6439-49db-8603-34058b78e5a8
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "cplusplus"
 ---
 # Native Run-Time Checks Customization
 

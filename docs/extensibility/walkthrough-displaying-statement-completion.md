@@ -1,11 +1,10 @@
 ---
-title: 'Walkthrough: Displaying Statement Completion | Microsoft Docs'
+title: 'Walkthrough: Displaying Statement Completion'
 description: Learn how to implement language-based statement completion for plaintext content by using this walkthrough.
 ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - statement completion
-ms.assetid: f3152c4e-7673-4047-a079-2326941d1c83
 author: maiak
 ms.author: maiak
 manager: jmartens
@@ -13,8 +12,6 @@ ms.technology: vs-ide-sdk
 dev_langs:
 - CSharp
 - VB
-ms.workload:
-- vssdk
 ---
 # Walkthrough: Display statement completion
 

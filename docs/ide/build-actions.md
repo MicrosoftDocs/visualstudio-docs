@@ -7,8 +7,6 @@ ms.topic: reference
 author: ghogen
 ms.author: ghogen 
 manager: jmartens
-ms.workload:
-  - "multiple"
 ---
 # Build actions
 

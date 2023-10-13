@@ -1,15 +1,12 @@
 ---
-title: 'Walkthrough: Creating an SDK using C++ | Microsoft Docs'
+title: 'Walkthrough: Creating an SDK using C++'
 description: Learn how to create a native C++ math library SDK, package the SDK as a Visual Studio Extension, and then use it to create an app by using this walkthrough.
 ms.date: 11/04/2016
 ms.topic: how-to
-ms.assetid: 36ea793b-3832-41a1-b906-69e680ad5e1d
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Walkthrough: Create an SDK using C++
 

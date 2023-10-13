@@ -6,8 +6,6 @@ ms.topic: how-to
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-test
-ms.workload: 
-  - dotnet
 author: mikejo5000
 ---
 # How to: Configure unit tests to target an earlier version of the .NET Framework

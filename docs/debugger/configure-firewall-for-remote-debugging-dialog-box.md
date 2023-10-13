@@ -1,5 +1,5 @@
 ---
-title: "Configure Firewall for Remote Debugging Dialog Box | Microsoft Docs"
+title: "Configure Firewall for Remote Debugging Dialog Box"
 description: Read about the Configure Firewall for Remote Debugging dialog box, which appears when the Windows Firewall stops the debugger from receiving data over the network.
 ms.date: "07/08/2022"
 ms.topic: "ui-reference"
@@ -15,13 +15,10 @@ helpviewer_keywords:
   - "Configure Firewall for Remote Debugging dialog box"
   - "remote debugging, configuring firewalls"
   - "firewalls, configuring for remote debugging"
-ms.assetid: 5dff3393-fdeb-4129-a2f6-31f653107a82
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # Configure Firewall for Remote Debugging Dialog Box
 

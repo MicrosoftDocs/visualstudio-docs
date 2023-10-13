@@ -1,19 +1,16 @@
 ---
 description: "Contains information about the state of a breakpoint that is ready to bind to a code location."
-title: PENDING_BP_STATE_INFO | Microsoft Docs
+title: PENDING_BP_STATE_INFO
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - PENDING_BP_STATE_INFO
 helpviewer_keywords:
 - PENDING_BP_STATE_INFO structure
-ms.assetid: 4d73ceff-43f9-4e95-8dba-88e1fab2def3
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

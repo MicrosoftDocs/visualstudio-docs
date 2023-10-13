@@ -1,5 +1,5 @@
 ---
-title: "How to: Add custom XML parts to document-level customizations"
+title: "Add custom XML parts to document-level customizations"
 description: Learn how you can store XML data in a Microsoft Office Excel workbook or Microsoft Office Word document by creating a custom XML part in a document-level customization.
 titleSuffix: ""
 ms.date: "02/02/2017"
@@ -18,8 +18,6 @@ author: John-Hart
 ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
-ms.workload:
-  - "office"
 ---
 # How to: Add custom XML parts to document-level customizations
 

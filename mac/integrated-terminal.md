@@ -6,7 +6,6 @@ ms.author: dominicn
 manager: dominicn
 ms.date: 08/15/2022
 ms.topic: how-to
-ms.assetid: EFD53CE9-8174-4FE4-8863-2984D22FD921
 ---
 # Integrated Terminal in Visual Studio for Mac
 

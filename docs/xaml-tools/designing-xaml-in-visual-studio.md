@@ -4,7 +4,6 @@ titleSuffix: ''
 description: Learn about the capabilities of the visual design tools in Visual Studio and Blend for Visual Studio for building UI and experiences in XAML.
 ms.date: 02/28/2020
 ms.topic: conceptual
-ms.assetid: 288e2415-9fcf-408e-bc35-9848315e14fd
 author: maddymontaquila
 ms.author: maleger
 manager: jmartens

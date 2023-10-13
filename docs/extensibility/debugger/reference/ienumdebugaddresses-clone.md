@@ -1,19 +1,16 @@
 ---
 description: "This method returns a copy of the current addresses enumeration as a separate object."
-title: IEnumDebugAddresses::Clone | Microsoft Docs
+title: IEnumDebugAddresses::Clone
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IEnumDebugAddresses::Clone
 helpviewer_keywords:
 - IEnumDebugAddresses::Clone method
-ms.assetid: 71189a00-34eb-4c71-b96e-8bd6e70c6966
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

@@ -7,13 +7,10 @@ helpviewer_keywords:
 - Devenv, /Diff switch
 - /Diff Devenv switch
 - Diff Devenv switch
-ms.assetid: 5377fedb-632a-4e86-a947-7c11c86451e7
 author: ghogen
 ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
-ms.workload:
-- multiple
 ---
 # /Diff (devenv.exe)
 

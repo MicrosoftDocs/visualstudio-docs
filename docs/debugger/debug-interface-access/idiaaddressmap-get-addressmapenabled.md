@@ -1,19 +1,16 @@
 ---
 description: "Indicates whether an address map has been established for a particular session."
-title: "IDiaAddressMap::get_addressMapEnabled | Microsoft Docs"
+title: "IDiaAddressMap::get_addressMapEnabled"
 ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaAddressMap::get_addressMapEnabled method"
-ms.assetid: 6183dc5e-befa-4e5a-ae5a-f4aa24f3ed9e
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-  - "multiple"
 ---
 # IDiaAddressMap::get_addressMapEnabled
 

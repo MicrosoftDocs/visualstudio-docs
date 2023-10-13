@@ -1,18 +1,15 @@
 ---
-title: Configuration Options Overview | Microsoft Docs
+title: Configuration Options Overview
 description: Learn about the options for project configurations in Visual Studio. A configuration is a build type described with a named set of properties and file locations. 
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - project configurations
 - configuration options, about configuration options
-ms.assetid: f4ad4dd3-b39e-42df-ad89-d403cdf24a2b
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
-ms.workload:
-- vssdk
 ---
 # Configuration options overview
 

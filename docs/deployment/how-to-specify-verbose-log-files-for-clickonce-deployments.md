@@ -10,13 +10,10 @@ dev_langs:
 helpviewer_keywords: 
   - logs, ClickOnce deployment
   - ClickOnce deployment, logging
-ms.assetid: 0807a28d-2e40-4a51-ab10-308d808ded6b
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
-ms.workload: 
-  - multiple
 ---
 # How to: Specify verbose log files for ClickOnce deployments
 

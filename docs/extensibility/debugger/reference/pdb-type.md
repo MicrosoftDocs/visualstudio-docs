@@ -1,19 +1,16 @@
 ---
 description: "This structure specifies information about a field type taken from a PDB symbol."
-title: PDB_TYPE | Microsoft Docs
+title: PDB_TYPE
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - PDB_TYPE
 helpviewer_keywords:
 - PDB_TYPE structure
-ms.assetid: 1c1bb772-77d6-4870-90b2-fd9247d0004e
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

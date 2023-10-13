@@ -5,8 +5,7 @@ author: heiligerdankgesang
 ms.author: dominicn
 manager: dominicn
 ms.date: 08/26/2022
-ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
-ms.custom: video, devdivchpfy22
+ms.custom: video
 no-loc: [Blazor, "Blazor WebAssembly"]
 ms.topic: how-to
 monikerRange: ">=vsmac-2022"

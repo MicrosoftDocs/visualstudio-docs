@@ -1,18 +1,15 @@
 ---
-title: Security Issues | Microsoft Docs
+title: Security Issues
 description: Learn about the permissions needed to debug a program using Visual Studio, including remote debugging and situations that involve other services.
 ms.date: 11/04/2016
 ms.topic: conceptual
 helpviewer_keywords:
 - security [Debugging SDK]
 - debugging [Debugging SDK], security
-ms.assetid: d6ffff0a-afb4-4f38-86d8-476c881c4e4b
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 ---
 # Security issues
 

@@ -1,19 +1,16 @@
 ---
 description: "Retrieves information about the viewer for this property type in order to instantiate that viewer."
-title: IPropertyProxyEESide::GetManagedViewerCreationData | Microsoft Docs
+title: IPropertyProxyEESide::GetManagedViewerCreationData
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - IPropertyProxyEESide::GetManagedViewerCreationData
 helpviewer_keywords:
 - IPropertyProxyEESide::GetManagedViewerCreationData
-ms.assetid: c4eb4d60-8816-4d52-bc8d-dffd4f066499
 author: maiak
 ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload:
-- vssdk
 dev_langs:
 - CPP
 - CSharp

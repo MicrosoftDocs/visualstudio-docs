@@ -1,17 +1,14 @@
 ---
-title: Start Spy++ | Microsoft Docs
+title: Start Spy++
 description: Know how to start the Spy++ tool from Visual Studio or at a command prompt when you want to debug a solution.
 ms.date: 02/22/2023
 ms.topic: how-to
 helpviewer_keywords: 
   - Spy++, starting
-ms.assetid: 1d36813a-dc2a-4fda-9b3d-a38928a62ced
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How to: Start Spy++
 

@@ -1,5 +1,5 @@
 ---
-title: Search for a Message in Messages View | Microsoft Docs
+title: Search for a Message in Messages View
 description: Search for a specific message in the Spy++ tool's Messages view by using its handle, type, or message ID as search criteria when debugging in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -7,13 +7,10 @@ helpviewer_keywords:
   - Message Search dialog box
   - Messages view
   - messages, searching for
-ms.assetid: 732b7ccc-54ea-41db-823b-2b96e3e4083e
 author: mikejo5000
 ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
-ms.workload: 
-  - multiple
 ---
 # How to: Search for a Message in Messages View
 

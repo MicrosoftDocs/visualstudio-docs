@@ -15,8 +15,6 @@ author: mgoertz-msft
 ms.author: mgoertz
 manager: jmartens
 ms.technology: vs-ide-modeling
-ms.workload:
-- multiple
 ---
 # Design-Time Code Generation by using T4 Text Templates
 
