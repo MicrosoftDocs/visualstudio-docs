@@ -4,7 +4,7 @@ author: evanwindom
 ms.author: amast
 manager: shve
 ms.assetid: bda8772c-cc0b-4949-8419-1084331cc54b
-ms.date: 03/21/2023
+ms.date: 10/13/2023
 ms.topic: how-to
 description:  Learn what to do if your email domain changes to ensure uninterrupted access to the admin portal and subscriptions. 
 ---
@@ -36,11 +36,12 @@ Perform these steps **AFTER** the subscribers' email addresses have changed.
 1. Sign in to the admin portal.
 0. Select **Manage subscribers**.
 0. For subscriptions listed individually in the subscriber list, use the [bulk add](assign-license-bulk.md) feature to update all your subscribers easily.  
-0. For subscriptions assigned to members of an Azure Active Directory (AD) group, there are no actions to take in the admin portal.  When their email addresses are updated in the Azure AD group, their subscriptions are automatically updated in the admin portal. 
+0. For subscriptions assigned to members of a Microsoft Entra ID group, there are no actions to take in the admin portal.  When their email addresses are updated in the Entra ID group, their subscriptions are automatically updated in the admin portal. 
 
 ## Resources
 
-[Subscriptions Support](https://aka.ms/vsadminhelp) for admins
++ [Subscriptions Support](https://aka.ms/vsadminhelp) for admins
++ [Microsoft Entra documenation](https://learn.microsoft.com/entra/)
 
 ## Next steps
 
