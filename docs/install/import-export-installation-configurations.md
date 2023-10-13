@@ -107,7 +107,7 @@ You can also generate a .vsconfig file right from Solution Explorer.
 
 ## vsconfig file format
 
-The .vsconfig file is a json file format that contains a components section that contains [workloads and components](/workload-and-component-ids.md).
+The .vsconfig file is a json file format that contains a components section that contains [workloads and components](workload-and-component-ids.md).
 
 ```shell
 {
