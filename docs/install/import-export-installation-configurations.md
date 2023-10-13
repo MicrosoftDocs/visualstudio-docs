@@ -23,7 +23,7 @@ You can use installation configuration files to configure Visual Studio. To do s
 
 ## Export a configuration
 
-You can export an installation configuration file from either a previously installed instance of Visual Studio or one that you're currently installing. 
+You can export an installation configuration file from either a previously installed instance of Visual Studio. 
 
 ### Using the Visual Studio Installer UI
 
@@ -59,7 +59,7 @@ When you're ready to import an installation configuration file, follow these ste
 
 1. Open the Visual Studio Installer.
 
-1. On the product card on either the Installed or the Available tab, choose the **More** button, and then select **Import configuration**.
+1.  On either the **Installed** tab or the **Available** tab, select **More** > **Import configuration** on the product card.
 
 1. Locate the .vsconfig file that you want to import, and then choose **Review details**.
 
@@ -74,7 +74,7 @@ Use `--config` to either initialize or modify an existing installation to add or
 ```
 
 > [!NOTE]
-> To add or remove components to an existing installation by using a config file (*.vsconfig), you'll need to **modify** your installed product and not update. **Update** just updates the components to the latest version; it doesn't add or remove new ones. To learn more, see [Install Visual Studio from the command line](use-command-line-parameters-to-install-visual-studio.md).
+> To add or remove components to an existing installation by using a config file (_*.vsconfig_), you'll need to **modify** your installed product and not update. **Update** just updates the components to the latest version; it doesn't add or remove new ones. To learn more, see [Install Visual Studio from the command line](use-command-line-parameters-to-install-visual-studio.md).
 
 ## Use a configuration file to initialize the contents of a layout
 
