@@ -11,6 +11,9 @@ ms.author: mikejo
 # Testing the performance of a cloud service
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+ [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
+
 ## Overview
 You can test the performance of a cloud service in the following ways:
 
