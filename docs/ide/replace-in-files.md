@@ -65,15 +65,15 @@ To replace instances of the string in the **Find** textbox with another string, 
 
 ## Preserve case
 
-When you do a Replace, you can preserve the original casing of each match in your code. Toggle case preservation with the Preserve case option (Alt+V).
+When you do a Replace, you can preserve the original casing of each match in your code. Toggle case preservation with the Preserve case option (**Alt**+**V**). This option is available in Visual Studio 2022 version 17.8 or later.
 
 To get Pascal case and Camel case, your Replace string must also be in Pascal case or Camel case. Case is also preserved in text that contains hyphens or underscores.
 
 Examples:
 
-– Replacing “begin” with “end” will turn “Begin” into “End” and “BEGIN” into “END”.
+– Replacing "begin" with "end" will turn "Begin" into "End" and "BEGIN" into "END".
 
-– Replacing “onetwothree” with “fourFiveSix” will turn “onetwothree” into “fourfivesix”, “oneTwoThree” into “fourFiveSix”, and “OneTwoThree” into “FourFiveSix”.
+– Replacing "onetwothree" with "fourFiveSix" will turn "onetwothree" into "fourfivesix", "oneTwoThree" into "fourFiveSix", and "OneTwoThree" into "FourFiveSix".
 
 ::: moniker range="vs-2019"
 
