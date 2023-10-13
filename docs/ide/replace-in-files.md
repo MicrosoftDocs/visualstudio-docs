@@ -63,6 +63,18 @@ The **Replace in Files** options are almost identical to the options in the **[F
 
 To replace instances of the string in the **Find** textbox with another string, enter the replacement string in the **Replace** textbox. To delete instances of the string in the **Find** textbox, leave this field blank. Open the list to display the strings you most recently searched for. Choose the adjacent **Expression Builder** button if you want to use one or more regular expressions in your replacement string. For more information, see [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md).
 
+## Preserve case
+
+When you do a Replace, you can preserve the original casing of each match in your code. Toggle case preservation with the Preserve case option (**Alt**+**V**). This option is available in Visual Studio 2022 version 17.8 or later.
+
+To get Pascal case and Camel case, your Replace string must also be in Pascal case or Camel case. Case is also preserved in text that contains hyphens or underscores.
+
+Examples:
+
+– Replacing "begin" with "end" will turn "Begin" into "End" and "BEGIN" into "END".
+
+– Replacing "onetwothree" with "fourFiveSix" will turn "onetwothree" into "fourfivesix", "oneTwoThree" into "fourFiveSix", and "OneTwoThree" into "FourFiveSix".
+
 ::: moniker range="vs-2019"
 
 ## Keep modified files open after Replace All
