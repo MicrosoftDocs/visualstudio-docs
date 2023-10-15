@@ -13,7 +13,7 @@ zone_pivot_groups: platform
 # Visual Studio Tools for Unity
 ![Screenshot of a computer, game controller, and icons for game play.](../media/hero.png)
 
-## Overview
+
 Visual Studio Tools for Unity includes a rich set of features that enhances writing and debugging Unity C# scripts and working with Unity projects.
 
 * Troubleshoot, inspect, and explore code using a debugger that's tuned for Unity projects.

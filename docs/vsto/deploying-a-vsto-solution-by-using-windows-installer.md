@@ -36,7 +36,7 @@ This article was updated by Microsoft with permission from the original authors.
 
 **Applies to:** Visual Studio Tools for Office, Microsoft Office, Microsoft Visual Studio.
 
-## Overview
+
 
 You can develop a VSTO solution and deploy the solution by using a Windows Installer package. This discussion includes steps for deploying a simple Office Add-in.
 

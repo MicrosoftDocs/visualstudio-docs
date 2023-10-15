@@ -14,7 +14,7 @@ ms.author: ghogen
 
  [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
 
-## Overview
+
 When you publish a cloud service, Visual Studio stores configuration information in two kinds of configuration files: service configurations and profiles. Service configurations (.cscfg files) store settings for the deployment environments for an Azure cloud service. Azure uses these configuration files when it manages your cloud services. On the other hand, profiles (.azurePubxml files) store publish settings for cloud services. These settings are a record of what you choose when you use the publish wizard, and are used locally by Visual Studio. This topic explains how to work with both types of configuration files.
 
 ## Service Configurations

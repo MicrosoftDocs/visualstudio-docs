@@ -42,7 +42,7 @@ After hitting the **Create** button, you should end up with a basic VSIX Project
 
 :::image type="content" source="../media/new-project-files.png" alt-text="New project files and folders.":::
 
-## Overview of the files
+## Important files
 Let's go over the most important files.
 
 **InsertGuidPackage.cs** is what is referred to as the Package class. Its `InitializeAsync(...)` method is called by Visual Studio to initialize your extension. It's from here you add event listeners and register commands, tool windows, settings and other things.
