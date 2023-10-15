@@ -163,7 +163,7 @@ ms.technology: vs-ide-sdk
 
 ## Error messages
 
-### Overview
+
  Errors happen. Setting limitations on what the user can do is a sensible first step in preventing avoidable error messages. However, when an error does occur, a well-written error message can go a long way toward mitigating the problem. Error messages are arguably one of the most important types of notification that the user sees, because they are synchronous and indicate a problem that needs to be solved. Poorly written error messages leave users on their own to decide the cause of the errors and any possible solutions.
 
  Users might stop paying attention to overused or confusing error messages, so write only necessary messages that add value to the user experience. If the message is simply a notification, then use an alternative presentation.
@@ -258,7 +258,7 @@ ms.technology: vs-ide-sdk
 
 ## Accessing Help
 
-### Overview
+
  In addition to documentation in MSDN, a Visual Studio user has several access points to assist the user while in the UI. To ensure that these access points are consistently available, feature teams need to take advantage of the Help system offered by the environment. These access points are:
 
 - **Instructional and supplemental text in dialogs.** Static text that gives direction or explanation, either on the UI surface or available on hover over an InfoTip icon.

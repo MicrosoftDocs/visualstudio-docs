@@ -13,7 +13,7 @@ ms.technology: vs-ide-sdk
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_WindowInteractions"></a> Window interactions
 
-### Overview
+
 The two main window types used in Visual Studio are document editors and tool windows. Rare, but possible, are large modeless dialogs. Although these are all modeless in the shell, their patterns are fundamentally different. This section covers the difference between document windows, tool windows, and modeless dialogs. Modal dialog patterns are covered in [Dialogs](../../extensibility/ux-guidelines/application-patterns-for-visual-studio.md#BKMK_Dialogs).
 
 ### Comparing window usage patterns
@@ -35,7 +35,7 @@ Think carefully about which container type you need. Common usage pattern consid
 
 ## <a name="BKMK_ToolWindows"></a> Tool windows
 
-### Overview
+
 Tool windows support the user's work that happens in document windows. They can be used to display a hierarchy that represents a fundamental root object that Visual Studio provides and can manipulate.
 
 When considering a new tool window in the IDE, authors should:
