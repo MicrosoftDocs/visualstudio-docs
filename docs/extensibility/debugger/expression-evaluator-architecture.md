@@ -20,8 +20,6 @@ ms.technology: vs-ide-debug
 
  Integrating a proprietary language into the Visual Studio debug package means you must set up the required expression evaluator (EE) interfaces and call the common language run-time symbol provider (SP) and binder interfaces. The SP and binder objects, together with the current execution address, are the context in which expressions are evaluated. The information that these interfaces produce and consume represents the key concepts in the architecture of an EE.
 
-## Overview
-
 ### Parse the Expression
  When you are debugging a program, expressions are evaluated for a number of reasons but always when the program being debugged has been stopped at a breakpoint (either a breakpoint placed by the user or one caused by an exception). It is at this moment when Visual Studio obtains a stack frame, as represented by the [IDebugStackFrame2](../../extensibility/debugger/reference/idebugstackframe2.md) interface, from the debug engine (DE). Visual Studio then calls [GetExpressionContext](../../extensibility/debugger/reference/idebugstackframe2-getexpressioncontext.md) to get the [IDebugExpressionContext2](../../extensibility/debugger/reference/idebugexpressioncontext2.md) interface. This interface represents a context in which expressions can be evaluated; [ParseText](../../extensibility/debugger/reference/idebugexpressioncontext2-parsetext.md) is the entry point to the evaluation process. Up until this point, all interfaces are implemented by the DE.
 

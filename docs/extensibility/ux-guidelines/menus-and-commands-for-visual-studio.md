@@ -13,7 +13,7 @@ ms.technology: vs-ide-sdk
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## Command usage
 
-### Overview
+
  Unlike Microsoft Office, which is a suite that comprises many separate products, Visual Studio contains many products that each contribute their command sets to the global Visual Studio IDE. The IDE manages the complexity of thousands of commands by filtering the functionality available to the user based on context.
 
  When a user's context changes - such as switching from a design window to a code editing window - functionality unrelated to the new context disappears. At the same time, new functionality surfaces together with related dynamic information, such as Properties and Toolbox options. The user should not notice the swapping of the available command set. If the user is distracted or confused by commands appearing or disappearing, then the UI design needs adjustment. The user's current context is always indicated in one or more ways, such as in the IDE title bar, the Properties window, or the Property Pages dialog box.
@@ -247,7 +247,7 @@ ms.technology: vs-ide-sdk
 
 ## Access and shortcut keys
 
-### Overview
+
  There are two kinds of keyboard key assignments:
 
 - **Access keys** (also known as accelerators) allow keyboard access via the menus for commanding and to each label in dialog UI. Access keys are mostly for accessibility purposes, are assigned to all menus and most dialog box controls, are not meant to be memorized, affect only the current window, and are localized.
