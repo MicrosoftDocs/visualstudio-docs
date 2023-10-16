@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Angular"
 description: In this tutorial, you create an app using ASP.NET Core and Angular
-ms.date: 04/25/2023
+ms.date: 10/16/2023
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -18,7 +18,7 @@ monikerRange: '>= vs-2022'
 
 In this article, you learn how to build an ASP.NET Core project to act as an API backend and an Angular project to act as the UI.
 
-Currently, Visual Studio includes ASP.NET Core Single Page Application (SPA) templates that support Angular and React. The templates provide a built-in Client App folder in your ASP.NET Core projects that contains the base files and folders of each framework.
+Visual Studio includes ASP.NET Core Single Page Application (SPA) templates that support Angular and React. The templates provide a built-in Client App folder in your ASP.NET Core projects that contains the base files and folders of each framework.
 
 You can use the method described in this article to create ASP.NET Core Single Page Applications that:
 
@@ -45,9 +45,9 @@ Make sure to install the following:
 
    :::image type="content" source="media/vs-2022/angular-choose-template.png" alt-text="Screenshot showing choosing a template":::
 
-1. Give your project and solution a name, and choose **Create**.
+1. Name the project **AngularWithASP** and then choose **Create**.
 
-   Once the project is created, Solution Explorer should look like this:
+   Solution Explorer shows the following::
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-angular-solution-explorer.png" alt-text="Screenshot showing Solution Explorer":::
 
@@ -62,30 +62,30 @@ Make sure to install the following:
 
 ## Set the project properties
 
-1. In Solution Explorer, right-click the ASP.NET Core project and choose **Properties**.
+1. In Solution Explorer, right-click the **AngularWithASP.Server** project and choose **Properties**.
 
-   :::image type="content" source="media/vs-2022/asp-net-core-project-properties.png" alt-text="Screenshot showing Open project properties"::: 
+   :::image type="content" source="media/vs-2022/asp-net-core-project-properties-angular.png" alt-text="Screenshot showing Open project properties"::: 
 
-1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option.
+1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for the profile named after the ASP.NET Core project (or https, if present).
 
    :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser.png" alt-text="Screenshot showing Debug launch profiles UI"::: 
 
    This prevents opening the web page with the source weather data.
 
    >[!NOTE]
-   > In Visual Studio, *launch.json* stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, *launch.json* must be located under the *.vscode* folder.
+   > In Visual Studio, *launch.json* stores the startup settings associated with the **Start** button in the Debug toolbar. *launch.json* must be located under the *.vscode* folder.
 
 ## Start the project
 
-To start the project, press **F5** or select the **Start** button at the top of the window. You see two command prompts appear:
+Press **F5** or select the **Start** button at the top of the window to start the app. Two command prompts appear:
 
 - The ASP.NET Core API project running
 - The Angular CLI running the ng start command
 
 >[!NOTE]
-> Check console output for messages, such as a message instructing you to update your version of Node.js.
+> Check console output for messages. For example there might be a message to update Node.js.
 
-You see an Angular app appear, populated using the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
+The Angular app appears and is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
 
 ## Publish the project
 
@@ -94,25 +94,29 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 >[!NOTE]
 > To use publish, create your JavaScript project using Visual Studio 2022 version 17.3 or later.
 
-1. In Solution Explorer, right-click the ASP.NET Core project and choose **Add** > **Project Reference**.
+1. In Solution Explorer, right-click the **angularwithasp.client** project and select **Add** > **Project Reference**.
 
-1. Select the Angular project and choose **OK**.
+   The **angularwithasp.client*** project is selected.
 
-1. Right-click the ASP.NET Core project in Solution Explorer and choose **Unload Project**.
+1. Choose **OK**.
+
+1. Right-click the ASP.NET Core project again and select **Edit Project File**.
 
    This opens the *.csproj* file for the project.
 
+   Notice the `<ReferenceOutputAssembly>` has the value set to `false`.
+
 1. In the *.csproj* file, update the project reference and add `<ReferenceOutputAssembly>` with the value set to `false`.
 
-   When you've updated the reference, it should look like this (substituting your own project folder and project name).
+   When you've updated the reference, it should look like the following.
 
    ```xml
-   <ProjectReference Include="..\angularprojectfolder\angularprojectname.esproj">
-       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-   </ProjectReference>
+    <ProjectReference Include="..\angularwithasp.client\angularwithasp.client.esproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
    ```
 
-1. Right.click the ASP.NET Core project and choose **Reload Project**.
+1. Right-click the ASP.NET Core project and choose **Reload Project**.
 
 1. In *Program.cs*, update the check for `Environment.IsDevelopment` so it looks like the following.
 

@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: In this tutorial, you create an app using ASP.NET Core and Vue
-ms.date: 08/23/2023
+ms.date: 10/16/2023
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -18,7 +18,7 @@ monikerRange: '>= vs-2022'
 
 In this article, you learn how to build an ASP.NET Core project to act as an API backend and a Vue project to act as the UI.
 
-Currently, Visual Studio includes ASP.NET Core Single Page Application (SPA) templates that support Angular, React, and Vue. The templates provide a built-in Client App folder in your ASP.NET Core projects that contains the base files and folders of each framework.
+Visual Studio includes ASP.NET Core Single Page Application (SPA) templates that support Angular, React, and Vue. The templates provide a built-in Client App folder in your ASP.NET Core projects that contains the base files and folders of each framework.
 
 You can use the method described in this article to create ASP.NET Core Single Page Applications that:
 
@@ -46,9 +46,9 @@ Make sure to install the following:
 
    :::image type="content" source="media/vs-2022/vue-choose-template.png" alt-text="Screenshot showing choosing a template":::
 
-1. Give your project and solution a name and then choose **Create**.
+1. Name the project **VueWithASP** and then choose **Create**.
 
-   Once the project is created, Solution Explorer should look like this:
+   Solution Explorer shows the following:
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-vue-solution-explorer.png" alt-text="Screenshot showing Solution Explorer":::
 
@@ -61,9 +61,9 @@ Make sure to install the following:
 
 ## Set the project properties
 
-1. In Solution Explorer, right-click the ASP.NET Core project (webapi) and choose **Properties**.
+1. In Solution Explorer, right-click the **VueWithASP.Server** and choose **Properties**.
 
-   :::image type="content" source="media/vs-2022/asp-net-core-project-properties.png" alt-text="Screenshot showing Open project properties"::: 
+   :::image type="content" source="media/vs-2022/asp-net-core-project-properties-vue.png" alt-text="Screenshot showing Open project properties"::: 
 
 1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Clear the **Launch browser** option.
 
@@ -76,15 +76,15 @@ Make sure to install the following:
 
 ## Start the project
 
-To start the project, press **F5** or select the **Start** button at the top of the window. You see two command prompts appear:
+Press **F5** or select the **Start** button at the top of the window to start the app. Two command prompts appear:
 
 - The ASP.NET Core API project running
 - The Vite CLI showing a message such as `VITE v4.4.9 ready in 780 ms`
 
 >[!NOTE]
-> Check console output for messages, such as a message instructing you to update your version of Node.js.
+> Check console output for messages. For example there might be a message to update Node.js.
 
-The Vue app appears, populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
+The Vue app appears and is populated via the API. If you don't see the app, see [Troubleshooting](#troubleshooting).
 
 ## Publish the project
 
@@ -93,22 +93,26 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 >[!NOTE]
 > To use publish, create your JavaScript project using Visual Studio 2022 version 17.3 or later.
 
-1. In Solution Explorer, right-click the ASP.NET Core project and choose **Add** > **Project Reference**.
+1. In Solution Explorer, right-click the **vuewithasp.client** project and select **Add** > **Project Reference**.
 
-1. Select the Vue project and choose **OK**.
+   The **vuewithasp.client*** project is selected.
 
-1. Right-click the ASP.NET Core project in Solution Explorer and choose **Unload project**.
+1. Choose **OK**.
+
+1. Right-click the ASP.NET Core project again and select **Edit Project File**.
 
    This opens the *.csproj* file for the project.
 
+   Notice the `<ReferenceOutputAssembly>` has the value set to `false`.
+
 1. In the *.csproj* file, update the project reference and add `<ReferenceOutputAssembly>` with the value set to `false`.
 
-   When you've updated the reference, it looks like this (substituting your own project folder and project name).
+   When you've updated the reference, it should look like the following.
 
    ```xml
-   <ProjectReference Include="..\vueprojectfolder\vueprojectname.esproj">
-       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
-   </ProjectReference>
+    <ProjectReference Include="..\vuewithasp.client\vuewithasp.client.esproj">
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
    ```
 
 1. Right-click the ASP.NET Core project and choose **Reload Project**.
@@ -163,7 +167,7 @@ Try deleting the Vue certificates from *%appdata%\local\asp.net\https* or *%appd
 
 If the weather data does not load correctly, you may also need to verify that your ports are correct.
 
-1. Make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core **webapi** project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
+1. Make sure that the port numbers match. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
 
    If there are multiple `applicationUrl` properties, look for one using an `https` endpoint. It should look similar to `https://localhost:7142`.
 
