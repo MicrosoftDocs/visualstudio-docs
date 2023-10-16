@@ -31,7 +31,7 @@ While the VisualStudio.Extensibility model was created primarily to host extensi
 
 ## Prerequisites
 
-* Visual Studio 2022.9 Preview 1 or higher with `.Net desktop development` and `Visual Studio extension development` workload. 
+* Visual Studio 2022.9 Preview 1 or higher with the `Visual Studio extension development` workload. 
 * If you're updating from earlier builds, make sure to uninstall VisualStudio.Extensibility Project System to avoid potential conflicts.
 
 ## Create the extension project
