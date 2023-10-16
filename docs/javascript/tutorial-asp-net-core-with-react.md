@@ -65,9 +65,9 @@ You can use the method described in this article to create ASP.NET Core Single P
 
    :::image type="content" source="media/vs-2022/asp-net-core-project-properties-react.png" alt-text="Screenshot showing Open project properties"::: 
 
-1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for https.
+1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for the profile named after the ASP.NET Core project (or https, if present).
 
-   :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser.png" alt-text="Screenshot showing Debug launch profiles UI"::: 
+   :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser-react.png" alt-text="Screenshot showing Debug launch profiles UI"::: 
 
    This prevents opening the web page with the source weather data.
 
@@ -88,7 +88,7 @@ The React app appears and is populated via the API. If you don't see the app, se
 
 ## Publish the project
 
-1. In Solution Explorer, right-click the **reactwithasp.client** project and select **Add** > **Project Reference**.
+1. In Solution Explorer, right-click the **ReactWithASP.Server** project and select **Add** > **Project Reference**.
 
    The **reactwithasp.client*** project is selected.
 

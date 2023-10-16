@@ -68,7 +68,7 @@ Make sure to install the following:
 
 1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for the profile named after the ASP.NET Core project (or https, if present).
 
-   :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser.png" alt-text="Screenshot showing Debug launch profiles UI"::: 
+   :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser-angular.png" alt-text="Screenshot showing Debug launch profiles UI"::: 
 
    This prevents opening the web page with the source weather data.
 
@@ -94,7 +94,7 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
 >[!NOTE]
 > To use publish, create your JavaScript project using Visual Studio 2022 version 17.3 or later.
 
-1. In Solution Explorer, right-click the **angularwithasp.client** project and select **Add** > **Project Reference**.
+1. In Solution Explorer, right-click the **AngularWithASP.Server** project and select **Add** > **Project Reference**.
 
    The **angularwithasp.client*** project is selected.
 
