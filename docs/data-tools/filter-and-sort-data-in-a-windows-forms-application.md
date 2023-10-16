@@ -1,5 +1,5 @@
 ---
-title: Filter and sort data in a Windows Forms application
+title: Filter and sort data in a Windows Forms application (.NET Framework)
 description: In .NET Framework application development with Visual Studio, filter and sort data in a Windows Forms application. Set the Filter property to a string expression that returns the desired records.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -19,7 +19,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Filter and sort data in a Windows Forms application
+# Filter and sort data in a .NET Framework Windows Forms application
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

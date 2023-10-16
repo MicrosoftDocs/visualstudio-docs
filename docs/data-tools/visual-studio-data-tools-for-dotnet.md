@@ -1,5 +1,5 @@
 ---
-title: Data tools for .NET
+title: Data tools for .NET Framework development
 description: Review Visual Studio data tools for .NET, which provide API and tooling support to connect to databases, model data in memory, and display data in the UI.
 ms.date: 11/04/2016
 ms.topic: overview
@@ -8,7 +8,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Visual Studio data tools for .NET
+# Visual Studio data tools for .NET Framework development
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -14,7 +14,7 @@ ms.technology: vs-ide-sdk
 ## Craftsmanship checklist for Visual Studio
  Use this checklist to evaluate user experience quality for visual and interaction details.
 
-### Overview
+
 
 - Verify that all commands result in feedback that tells users that their commands have been carried out.
 

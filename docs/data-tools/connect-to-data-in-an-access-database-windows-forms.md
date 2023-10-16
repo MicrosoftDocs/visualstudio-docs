@@ -1,5 +1,5 @@
 ---
-title: Connect to data in an Access database
+title: Connect to an Access database in .NET Framework applications
 description: Understand how to connect to data in an Access database (either an .mdb file or an .accdb.file) in .NET Framework applications using ADO.NET in Visual Studio.
 ms.date: 10/07/2022
 ms.topic: how-to
@@ -12,7 +12,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Connect to data in an Access database
+# Connect to an Access database in .NET Framework applications
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

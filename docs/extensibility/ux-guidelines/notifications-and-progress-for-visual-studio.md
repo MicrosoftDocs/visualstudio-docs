@@ -15,7 +15,7 @@ f1_keywords:
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_NotificationSystems"></a> Notification systems
 
-### Overview
+
  There are several ways to inform the user what is happening in Visual Studio regarding their software development tasks.
 
  When implementing any kind of notification:
@@ -126,7 +126,7 @@ f1_keywords:
 
 ## <a name="BKMK_ProgressIndicators"></a> Progress indicators
 
-### Overview
+
  Progress indicators are an important part of a notification system for giving the user feedback. They tell the user when processes and operations will complete. Familiar indicator types include progress bars, spinning cursors, and animated icons. The type and placement of a progress indicator depends on the context, including what is being reported and how long the process or operation will take to complete.
 
 #### Factors
@@ -280,7 +280,7 @@ f1_keywords:
 
 ## <a name="BKMK_Infobars"></a> Infobars
 
-### Overview
+
  Infobars give the user an indicator close to their point of attention and using the shared infobar control ensures consistency in visual appearance and interaction.
 
  ![Infobar](../../extensibility/ux-guidelines/media/0904-01_infobar.png "0904-01_Infobar")

@@ -1,5 +1,5 @@
 ---
-title: Save a dataset as XML
+title: Save an ADO.NET dataset as XML (.NET Framework)
 description: In .NET Framework application development with Visual Studio, save a ADO.NET dataset as XML. Access the XML data in a dataset by calling the available XML methods on the dataset, such as GetXml or WriteXml.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -16,7 +16,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Save a dataset as XML
+# Save a dataset as XML in .NET Framework applications
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
