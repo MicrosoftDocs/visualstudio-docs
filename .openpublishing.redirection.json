@@ -991,6 +991,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/error-mixed-mode-debugging-for-ia64-processes-is-unsupported.md",
+      "redirect_url": "/visualstudio/debugger/mixed-mode-debugging-for-ia64-processes-is-unsupported",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/debugger/how-to-use-edit-and-continue-csharp.md",
       "redirect_url": "/visualstudio/debugger/edit-and-continue-visual-csharp",
       "redirect_document_id": false
