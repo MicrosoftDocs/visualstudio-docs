@@ -11,7 +11,7 @@ ms.author: maleger
 manager: jmartens
 ms.technology: vs-xaml-tools
 ---
-# How to create and apply a resource
+# Create and apply a resource
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

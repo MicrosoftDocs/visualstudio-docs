@@ -21,7 +21,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
 ---
-# How to use a Resource File in a SharePoint project
+# Use a Resource File in a SharePoint project
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

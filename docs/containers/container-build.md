@@ -7,7 +7,7 @@ ms.date: 09/8/2023
 ms.technology: vs-container-tools
 ms.topic: how-to
 ---
-# How to customize Docker containers in Visual Studio
+# Customize Docker containers in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

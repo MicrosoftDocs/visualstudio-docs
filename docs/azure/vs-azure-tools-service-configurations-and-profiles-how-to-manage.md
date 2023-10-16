@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.date: 8/11/2017
 ms.author: ghogen
 ---
-# How to manage service configurations and profiles
+# Manage service configurations and profiles
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

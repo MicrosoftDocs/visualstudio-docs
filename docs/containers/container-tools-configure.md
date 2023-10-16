@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.date: 07/13/2023
 ms.technology: vs-container-tools
 ---
-# How to configure Visual Studio Container Tools
+# Configure Visual Studio Container Tools
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

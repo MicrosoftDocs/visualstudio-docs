@@ -10,7 +10,7 @@ manager: jmartens
 ms.technology: vs-python
 ---
 
-# How to create and manage Python environments in Visual Studio
+# Create and manage Python environments in Visual Studio
 
 [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -15,7 +15,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to trigger suspend, resume, and background events while debugging UWP apps in Visual Studio
+# Trigger suspend, resume, and background events while debugging UWP apps in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
