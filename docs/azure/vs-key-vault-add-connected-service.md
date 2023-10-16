@@ -1,11 +1,10 @@
 ---
-title: Add Key Vault support to your ASP.NET project using Visual Studio - Azure Key Vault | Microsoft Docs
+title: Add Key Vault support to your ASP.NET project using Visual Studio
+titleSuffix: ""
 description: Use this tutorial to help you learn how to add Key Vault support to an ASP.NET or ASP.NET Core web application.
-services: key-vault
 author: ghogen
 manager: jmartens
-ms.service: key-vault
-ms.custom: "vs-azure, devx-track-csharp"
+ms.custom: devx-track-csharp
 ms.topic: how-to
 ms.date: 4/28/2023
 ms.author: ghogen
@@ -29,19 +28,19 @@ Before you begin, make sure that you're signed into Visual Studio. Sign in with 
    The Connected Service page appears with services you can add to your project.
 1. In the menu of available services, choose **Azure Key Vault** and click **Next**.
 
-   ![Choose "Azure Key Vault"](../media/vs-key-vault-add-connected-service/key-vault-connected-service.png)
+   ![Choose "Azure Key Vault"](./media/vs-key-vault-add-connected-service/key-vault-connected-service.png)
 
 1. Select the subscription you want to use, and then if you already have a Key Vault you want to use, select it and click **Next**.
 
-   ![Screenshot Select your subscription](../media/vs-key-vault-add-connected-service/key-vault-connected-service-select-vault.png)
+   ![Screenshot Select your subscription](./media/vs-key-vault-add-connected-service/key-vault-connected-service-select-vault.png)
 
 1. If you don't have an existing Key Vault, click on **Create new Key Vault**. You'll be asked to provide the resource group, location, and SKU.
 
-   ![Screenshot of "Create Azure Key Vault" screen](../media/vs-key-vault-add-connected-service/create-new-key-vault.png)
+   ![Screenshot of "Create Azure Key Vault" screen](./media/vs-key-vault-add-connected-service/create-new-key-vault.png)
 
 1. In the **Configure Key Vault** screen, you can change the name of the environment variable.
 
-   ![Screenshot of Connect to Azure Key Vault screen.](../media/vs-key-vault-add-connected-service/connect-to-azure-key-vault.png)
+   ![Screenshot of Connect to Azure Key Vault screen.](./media/vs-key-vault-add-connected-service/connect-to-azure-key-vault.png)
 
 1. Click **Next** to review a summary of the changes and then **Finish**.
 
