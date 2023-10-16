@@ -149,5 +149,5 @@
     href: how-to-sign-in-with-azure-subscription.md
   - name: Deploy an ASP.NET Core app with Entity Framework to Azure with GitHub Actions
     href: end-to-end-deployment-entity-framework-core-github-actions.md
-  - name: Diagnose errors during Microsoft Entra authentication
+  - name: Diagnose errors during Azure authentication
     href: vs-active-directory-error.md
