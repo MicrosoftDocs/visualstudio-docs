@@ -25,7 +25,7 @@ VisualStudio.Extensibility aims to address many of the problems developers exper
 * Simplified architecture, consistent APIs, and clear documentation
 * Extensions can be installed without restarting Visual Studio
 
-Eventually, you will be able to use the VisualStudio.Extensibility SDK to write any extension you could write using the VS SDK. However, until that time, you might encounter situations where the functionality you need in your extension isn't yet available in VisualStudio.Extensibility. In that case, you can develop an in-process extension by leveraging the new VisualStudio.Extensibility APIs while relying on VS SDK to cover any feature gap. To learn more, see [In-proc extensions](./get-started/in-proc-extensions.md).
+Eventually, you will be able to use the VisualStudio.Extensibility SDK to write any extension you could write using the VS SDK. However, until that time, you might encounter situations where the functionality you need in your extension isn't yet available in VisualStudio.Extensibility. In that case, you can use VisualStudio.Extensibility SDK together with VS SDK running in-process to cover any feature gap. To learn more, see [In-proc extensions](./get-started/in-proc-extensions.md).
 
 The latest information on VisualStudio.Extensibility may be found in the VSExtensibility GitHub repo at [announcements](https://github.com/microsoft/VSExtensibility/blob/main/docs/announcements.md).
 
