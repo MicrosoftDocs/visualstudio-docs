@@ -43,13 +43,13 @@ Make sure to install the following:
 
 1. Search for Angular in the search bar at the top and then select **Angular and ASP.NET Core (Preview)**.
 
-   :::image type="content" source="media/vs-2022/angular-choose-template.png" alt-text="Screenshot showing choosing a template":::
+   :::image type="content" source="media/vs-2022/angular-choose-template.png" alt-text="Screenshot showing choosing a template.":::
 
 1. Name the project **AngularWithASP** and then choose **Create**.
 
    Solution Explorer shows the following::
 
-   :::image type="content" source="media/vs-2022/asp-net-core-with-angular-solution-explorer.png" alt-text="Screenshot showing Solution Explorer":::
+   :::image type="content" source="media/vs-2022/asp-net-core-with-angular-solution-explorer.png" alt-text="Screenshot showing Solution Explorer.":::
 
    Compared to the [standalone Angular template](../javascript/tutorial-create-angular-app.md), you see some new and modified files for integration with ASP.NET Core:
 
@@ -64,11 +64,11 @@ Make sure to install the following:
 
 1. In Solution Explorer, right-click the **AngularWithASP.Server** project and choose **Properties**.
 
-   :::image type="content" source="media/vs-2022/asp-net-core-project-properties-angular.png" alt-text="Screenshot showing Open project properties"::: 
+   :::image type="content" source="media/vs-2022/asp-net-core-project-properties-angular.png" alt-text="Screenshot showing Open project properties."::: 
 
 1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for the profile named after the ASP.NET Core project (or https, if present).
 
-   :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser-angular.png" alt-text="Screenshot showing Debug launch profiles UI"::: 
+   :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser-angular.png" alt-text="Screenshot showing Debug launch profiles UI."::: 
 
    This value prevents opening the web page with the source weather data.
 
