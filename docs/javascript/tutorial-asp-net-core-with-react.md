@@ -36,17 +36,17 @@ You can use the method described in this article to create ASP.NET Core Single P
 
 1. In the Start window, select **Create a new project**. <!-- Avoid parenthetical clauses. https://review.learn.microsoft.com/en-us/help/contribute/localization-mt-guidance?branch=main-->
 
-   :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project":::
+   :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project.":::
 
 1. Search for React in the search bar at the top and then select **React and ASP.NET Core (Preview)**. This template is a JavaScript template.
 
-   :::image type="content" source="media/vs-2022/react-choose-template.png" alt-text="Screenshot showing choosing a template":::
+   :::image type="content" source="media/vs-2022/react-choose-template.png" alt-text="Screenshot showing choosing a template.":::
 
 1. Name the project **ReactWithASP** and then choose **Create**.
 
    Solution Explorer shows the following project information:
 
-   :::image type="content" source="media/vs-2022/asp-net-core-with-react-solution-explorer.png" alt-text="Screenshot showing Solution Explorer":::
+   :::image type="content" source="media/vs-2022/asp-net-core-with-react-solution-explorer.png" alt-text="Screenshot showing Solution Explorer.":::
 
    Compared to the [standalone React template](../javascript/tutorial-create-react-app.md), you see some new and modified files for integration with ASP.NET Core:
 
@@ -63,11 +63,11 @@ You can use the method described in this article to create ASP.NET Core Single P
 
 1. In Solution Explorer, right-click the **ReactWithASP.Server** project and choose **Properties**.
 
-   :::image type="content" source="media/vs-2022/asp-net-core-project-properties-react.png" alt-text="Screenshot showing Open project properties"::: 
+   :::image type="content" source="media/vs-2022/asp-net-core-project-properties-react.png" alt-text="Screenshot showing Open project properties."::: 
 
 1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for the profile named after the ASP.NET Core project (or https, if present).
 
-   :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser-react.png" alt-text="Screenshot showing Debug launch profiles UI"::: 
+   :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser-react.png" alt-text="Screenshot showing Debug launch profiles UI."::: 
 
    This value prevents opening the web page with the source weather data.
 
