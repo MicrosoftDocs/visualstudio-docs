@@ -89,6 +89,8 @@ Data providers are making services available via standard protocols, such as ODa
 
 ASP.NET Core provides a comprehensive solution for simple web sites and complex web applications. Azure services can help address many of the needs and solve many of the challenges that arise in web site and web application development. ASP.NET Core web applications frequently use client-side JavaScript.
 
+:::image type="content" source="./media/overview-azure-integration/scalable-ecommerce-web-app.png" alt-text="Diagram of web application example architecture." lightbox="./media/overview-azure-integration/scalable-ecommerce-web-app-high-res.png" :::
+
 ### Connect to Azure Cache for Redis
 
 Azure Cache for Redis provides an in-memory data store for Azure services, web sites, and web applications. You can use Azure Cache for Redis as a distributed data or content cache, a session store, a message broker, and more. Supported scenarios include:
