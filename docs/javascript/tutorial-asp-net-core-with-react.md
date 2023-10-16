@@ -38,13 +38,13 @@ You can use the method described in this article to create ASP.NET Core Single P
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project":::
 
-1. Search for React in the search bar at the top and then select **React and ASP.NET Core (Preview)**. This is a JavaScript template.
+1. Search for React in the search bar at the top and then select **React and ASP.NET Core (Preview)**. This template is a JavaScript template.
 
    :::image type="content" source="media/vs-2022/react-choose-template.png" alt-text="Screenshot showing choosing a template":::
 
 1. Name the project **ReactWithASP** and then choose **Create**.
 
-   Solution Explorer shows the following:
+   Solution Explorer shows the following project information:
 
    :::image type="content" source="media/vs-2022/asp-net-core-with-react-solution-explorer.png" alt-text="Screenshot showing Solution Explorer":::
 
@@ -69,7 +69,7 @@ You can use the method described in this article to create ASP.NET Core Single P
 
    :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser-react.png" alt-text="Screenshot showing Debug launch profiles UI"::: 
 
-   This prevents opening the web page with the source weather data.
+   This value prevents opening the web page with the source weather data.
 
    >[!NOTE]
    > In Visual Studio, *launch.json* stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, *launch.json* must be located under the *.vscode* folder.
@@ -128,7 +128,7 @@ The React app appears and is populated via the API. If you don't see the app, se
    }
    ```
 
-1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, et al.
+1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, etc.
 
    The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run build` command gets invoked when publishing.
 

@@ -70,7 +70,7 @@ Make sure to install the following:
 
    :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser-angular.png" alt-text="Screenshot showing Debug launch profiles UI"::: 
 
-   This prevents opening the web page with the source weather data.
+   This value prevents opening the web page with the source weather data.
 
    >[!NOTE]
    > In Visual Studio, *launch.json* stores the startup settings associated with the **Start** button in the Debug toolbar. *launch.json* must be located under the *.vscode* folder.
@@ -134,7 +134,7 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
    }
    ```
 
-1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, et al.
+1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, etc.
 
    The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run build` command gets invoked when publishing.
 
@@ -154,7 +154,7 @@ If you see this issue, most likely the frontend started before the backend. Once
 
 ### Verify port
 
-If the weather data does not load correctly, you may also need to verify that your ports are correct.
+If the weather data doesn't load correctly, you may also need to verify that your ports are correct.
 
 1. Go to the *launchSettings.json* file in your ASP.NET Core project (in the *Properties* folder). Get the port number from the `applicationUrl` property.
 
