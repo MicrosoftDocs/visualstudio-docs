@@ -21,7 +21,7 @@ If you expand the **Python Environments** window wide enough, these options are 
 
 ![Python Environments window expanded view](media/environments/environments-expanded-view-2019.png)
 
-## Overview tab
+## Tab: Overview
 
 Provides basic information and commands for the environment:
 

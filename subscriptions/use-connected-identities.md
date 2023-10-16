@@ -9,11 +9,11 @@ robots: "noindex, nofollow"
 description:  Learn how to work with connected Microsoft accounts and Azure Active Directory identities
 ---
 
-# How to use connected identities in Visual Studio subscriptions
+# Use connected identities in Visual Studio subscriptions
 
 If you receive a Visual Studio subscription through your work or school, and you use your Microsoft account (MSA) to sign in, your subscriptions admin may connect your MSA to your identity in your organization's Azure Active Directory (Azure AD).  This connection changes how you access some of the benefits included in your subscription. 
 
-## Overview of connected IDs
+## About connected IDs
 
 Organizations are increasingly moving to Azure AD-based identities to provide improved security and support for automated management of subscriptions.  If your subscription uses an MSA such as an @outlook.com or other personal email address, your admin may change your sign-in email to your Azure AD identity.  Switching  changes how you sign in to the subscriber portal at https://my.visualstudio.com.  It may not change how you access all of your benefits, however.  
 

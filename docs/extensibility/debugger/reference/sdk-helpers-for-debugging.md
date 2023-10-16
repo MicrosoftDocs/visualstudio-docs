@@ -22,7 +22,7 @@ These functions and declarations are global helper functions for implementing de
 > [!NOTE]
 > There are no managed versions of these functions and declarations at this time.
 
-## Overview
+
  In order for debug engines, expression evaluators, and symbol providers to be used by Visual Studio, they must be registered. This is done by setting registry subkeys and entries, otherwise known as "setting metrics." The following global functions are designed to ease the process of updating these metrics. See the section on Registry Locations to find out the layout of each registry subkey that is updated by these functions.
 
 ## General Metric Functions

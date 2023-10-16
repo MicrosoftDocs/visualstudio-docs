@@ -13,7 +13,7 @@ ms.technology: vs-ide-sdk
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 ## <a name="BKMK_CommonControls"></a> Common controls
 
-### Overview
+
 Common controls make up the majority of the user interface in Visual Studio. Most common controls used in the Visual Studio interface should follow the [Windows Desktop interaction guidelines](/windows/desktop/uxguide/controls). This topic is specific to Visual Studio and covers special situations or details that augment those Windows guidelines.
 
 #### Common controls in this topic
@@ -210,7 +210,7 @@ If you want users to have the ability to copy the info, dynamic text should be i
 
 ## <a name="BKMK_ButtonsAndHyperlinks"></a> Buttons and hyperlinks
 
-### Overview
+
 Buttons and link controls (hyperlinks) should follow [basic Windows Desktop guidance on hyperlinks](/windows/desktop/uxguide/ctrl-links) for usage, wording, sizing, and spacing.
 
 ### Choosing between buttons and links

@@ -40,7 +40,7 @@ These sections describe the features of the editor:
 
 - [IntelliSense](../extensibility/inside-the-editor.md#intellisense)
 
-## Overview of the subsystems
+## The subsystems
 
 ### Text model subsystem
 

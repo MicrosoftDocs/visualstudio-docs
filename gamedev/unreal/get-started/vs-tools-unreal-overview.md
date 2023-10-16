@@ -14,7 +14,7 @@ manager: Markl
 
 ![Screenshot of a computer, game controller, and icons for game play.](../../unity/media/hero.png)
 
-## Overview
+
 
 Visual Studio Tools for Unreal Engine makes it easier to write and debug C++ code for Unreal Engine from within Visual Studio, with features such as:
 
