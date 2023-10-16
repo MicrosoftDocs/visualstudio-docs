@@ -18,7 +18,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
 ---
-# How to: Add a parameter to a method
+# Add a parameter to a method
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Use a parameter to pass information into the method or to return information from a method. All methods must have at least one parameter. For more information about how to design a parameter to support the type of method that you want to create, see [Designing a Business Data Connectivity Model](../sharepoint/designing-a-business-data-connectivity-model.md).

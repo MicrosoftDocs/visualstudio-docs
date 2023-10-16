@@ -17,7 +17,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Debug ASP.NET Exceptions
+# Debug ASP.NET Exceptions
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Debugging exceptions is an important part of developing a robust ASP.NET application. General information about how to debug exceptions is at [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md).

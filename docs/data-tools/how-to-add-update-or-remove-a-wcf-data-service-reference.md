@@ -14,7 +14,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# How to: Add, update, or remove a WCF data service reference
+# Add, update, or remove a WCF data service reference
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

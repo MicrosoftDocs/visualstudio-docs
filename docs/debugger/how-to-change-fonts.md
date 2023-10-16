@@ -10,7 +10,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Change Fonts
+# Change Fonts
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can change the font, font style, and font size for Spy++ windows.

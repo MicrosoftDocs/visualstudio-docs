@@ -13,7 +13,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
 ---
-# How to: Escape special characters in MSBuild
+# Escape special characters in MSBuild
 
 Certain characters have special meaning in MSBuild project files. Examples of the characters include semicolons (`;`) and asterisks (`*`). For a complete list of these special characters, see [MSBuild special characters](../msbuild/msbuild-special-characters.md).
 

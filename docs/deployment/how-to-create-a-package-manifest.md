@@ -18,7 +18,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
 ---
-# How to: Create a package manifest
+# Create a package manifest
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 To deploy prerequisites for your application, you can use a bootstrapper package. A bootstrapper package contains a single product manifest file but a package manifest for each locale. Shared functionality across different localized versions should go into the product manifest.

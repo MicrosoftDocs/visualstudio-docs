@@ -17,7 +17,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ---
-# How to: Move around in the Visual Studio IDE
+# Move around in the Visual Studio IDE
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

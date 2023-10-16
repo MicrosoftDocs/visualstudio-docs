@@ -15,7 +15,7 @@ ms.author: jasonchlus
 manager: jmartens
 ms.technology: vs-help-viewer
 ---
-# How to: Find topics in the table of contents
+# Find topics in the table of contents
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

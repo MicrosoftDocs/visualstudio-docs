@@ -24,7 +24,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Enable and disable Edit and Continue (C#, VB, C++)
+# Enable and disable Edit and Continue (C#, VB, C++)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

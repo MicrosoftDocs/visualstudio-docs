@@ -14,7 +14,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically create appointments
+# Programmatically create appointments
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example creates an appointment and adds recipients to the appointment meeting request.

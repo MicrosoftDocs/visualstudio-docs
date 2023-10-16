@@ -11,7 +11,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 ---
-# How to: Use surround-with code snippets
+# Use surround-with code snippets
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

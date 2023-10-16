@@ -12,7 +12,7 @@ ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ---
-# How to: Generate registry information for an installer
+# Generate registry information for an installer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

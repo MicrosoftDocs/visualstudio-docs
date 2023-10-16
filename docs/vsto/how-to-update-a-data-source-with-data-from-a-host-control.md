@@ -17,7 +17,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Update a data source with data from a host control
+# Update a data source with data from a host control
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can bind a host control to a data source and update the data source with the changes that are made to the data in the control. There are two main steps in this process:

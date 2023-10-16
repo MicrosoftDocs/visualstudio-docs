@@ -17,7 +17,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Test and Debug a Visualizer
+# Test and Debug a Visualizer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Once you have written a visualizer, you need to debug and test it.

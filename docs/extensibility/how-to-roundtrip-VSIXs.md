@@ -7,7 +7,7 @@ author: "willbrown"
 ms.author: madsk
 manager: "justinclareburt"
 ---
-# How to: Make extensions compatible with Visual Studio 2019/2017 and Visual Studio 2015
+# Make extensions compatible with Visual Studio 2019/2017 and Visual Studio 2015
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

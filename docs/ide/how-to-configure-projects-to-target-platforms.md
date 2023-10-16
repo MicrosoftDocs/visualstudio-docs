@@ -19,7 +19,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
-# How to: Configure projects to target platforms
+# Configure projects to target platforms
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

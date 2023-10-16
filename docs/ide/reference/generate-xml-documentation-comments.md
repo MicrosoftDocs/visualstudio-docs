@@ -8,7 +8,7 @@ ms.author: midumont
 manager: jmartens
 ms.technology: vs-ide-general
 ---
-# How to: Insert XML comments for documentation generation
+# Insert XML comments for documentation generation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

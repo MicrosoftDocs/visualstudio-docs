@@ -13,7 +13,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically access Outlook contacts
+# Programmatically access Outlook contacts
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example finds all contacts whose last names contain a specified search string.

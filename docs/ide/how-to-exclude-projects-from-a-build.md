@@ -8,7 +8,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
-# How to: Exclude projects from a build
+# Exclude projects from a build
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 11/10/2017
 ms.author: ghogen
 ---
-# How to: Migrate and publish a web application to an Azure Cloud Service from Visual Studio
+# Migrate and publish a web application to an Azure Cloud Service from Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -8,7 +8,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# How to: Create LINQ to SQL classes mapped to tables and views (O/R Designer)
+# Create LINQ to SQL classes mapped to tables and views (O/R Designer)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -13,7 +13,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
 ---
-# How to: Clean a build
+# Clean a build
 
 When you clean a build, all intermediate and output files are deleted, leaving only the project and component files. From the project and component files, new instances of the intermediate and output files can then be built. 
 

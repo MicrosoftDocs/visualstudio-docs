@@ -11,7 +11,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ---
-# How to: Change text case in the editor
+# Change text case in the editor
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

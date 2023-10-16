@@ -19,7 +19,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Display and Hide Register Groups (C#, C++, Visual Basic, F#)
+# Display and Hide Register Groups (C#, C++, Visual Basic, F#)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

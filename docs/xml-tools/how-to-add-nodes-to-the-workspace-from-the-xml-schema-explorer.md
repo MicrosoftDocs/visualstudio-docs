@@ -8,7 +8,7 @@ ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
 ---
-# How to: Add nodes to the workspace from the XML Schema Explorer
+# Add nodes to the workspace from the XML Schema Explorer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -16,7 +16,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically send email
+# Programmatically send email
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example sends an email message to contacts that have the domain name **example.com** in their email addresses.

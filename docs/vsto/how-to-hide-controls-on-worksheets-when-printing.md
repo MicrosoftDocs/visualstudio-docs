@@ -16,7 +16,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Hide controls on worksheets when printing
+# Hide controls on worksheets when printing
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you print a Microsoft Office Excel document that contains Windows Forms controls, the controls are visible on the printed worksheet. You can hide the controls when printing a worksheet.

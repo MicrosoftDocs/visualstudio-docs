@@ -17,7 +17,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically add new worksheets to workbooks
+# Programmatically add new worksheets to workbooks
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can programmatically create a worksheet and then add the worksheet to the collection of worksheets in the workbook.

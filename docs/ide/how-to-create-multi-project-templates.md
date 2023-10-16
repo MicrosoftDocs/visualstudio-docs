@@ -12,7 +12,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ---
-# How to: Create multi-project templates
+# Create multi-project templates
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

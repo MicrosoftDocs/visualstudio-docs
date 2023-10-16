@@ -12,7 +12,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ---
-# How to: Change fonts, colors, and themes in Visual Studio
+# Change fonts, colors, and themes in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

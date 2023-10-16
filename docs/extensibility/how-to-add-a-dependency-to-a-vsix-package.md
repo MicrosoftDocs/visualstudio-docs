@@ -13,7 +13,7 @@ ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ---
-# How to: Add a dependency to a VSIX package
+# Add a dependency to a VSIX package
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

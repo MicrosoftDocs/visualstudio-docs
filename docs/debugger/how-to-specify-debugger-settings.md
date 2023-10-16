@@ -19,7 +19,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Specify Debugger Settings
+# Specify Debugger Settings
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Visual Studio, you can specify various settings for debugger behavior, including how variables are displayed, whether certain warnings are presented, how breakpoints are set, and how breaking affects running programs. You specify debugger settings in the **Options** dialog box.

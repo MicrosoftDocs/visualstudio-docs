@@ -8,7 +8,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# How to: Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)
+# Assign stored procedures to perform updates, inserts, and deletes (O/R Designer)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

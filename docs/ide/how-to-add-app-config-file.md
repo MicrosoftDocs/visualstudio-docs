@@ -12,7 +12,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ---
-# How to: Add an application configuration file to a C# project
+# Add an application configuration file to a C# project
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

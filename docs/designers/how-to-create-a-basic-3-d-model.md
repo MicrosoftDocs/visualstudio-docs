@@ -8,7 +8,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-designers
 ---
-# How to: Create a basic 3D model
+# Create a basic 3D model
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

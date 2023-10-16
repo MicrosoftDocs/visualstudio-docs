@@ -16,7 +16,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
 ---
-# How to: Add and remove features and items to a Package by using the Packaging Explorer
+# Add and remove features and items to a Package by using the Packaging Explorer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   To configure a package to deploy SharePoint items and Features, you can use the Packaging Explorer. You can adjust the SharePoint project items and Features inside your .wsp file.

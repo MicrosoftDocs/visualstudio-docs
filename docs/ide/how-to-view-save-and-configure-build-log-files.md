@@ -8,7 +8,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
-# How to: View, save, and configure build log files
+# View, save, and configure build log files
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

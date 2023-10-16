@@ -20,7 +20,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
 ---
-# How to: Specify a link for Technical Support
+# Specify a link for Technical Support
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When publishing a ClickOnce application, the **Support URL** property identifies a Web page or file share where users can go to get information about the application. This property is optional; if provided, the URL will be displayed in the application's entry **Add or Remove Programs** dialog box.

@@ -16,7 +16,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Step into WCF Services
+# Step into WCF Services
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In Visual Studio 2012, you can step into a WCF service. If the WCF service is in the same Visual Studio solution as the client, you can hit breakpoints inside the WCF Service.

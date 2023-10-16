@@ -17,7 +17,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
 ---
-# How to: Specify a publish page for a ClickOnce application
+# Specify a publish page for a ClickOnce application
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When publishing a ClickOnce application, a default Web page (publish.htm) is generated and published along with the application. This page contains the name of the application, a link to install the application and/or any prerequisites, and a link to a Help topic describing ClickOnce. The **Publish Page** property for your project allows you to specify a name for the Web page for your ClickOnce application.

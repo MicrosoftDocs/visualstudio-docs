@@ -15,7 +15,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
 ---
-# How to: Specify a support URL for individual prerequisites in a ClickOnce deployment
+# Specify a support URL for individual prerequisites in a ClickOnce deployment
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A ClickOnce deployment can test for a number of prerequisites that must be available on the client computer for the ClickOnce application to run. These dependencies include the required minimum version of the .NET Framework, the version of the operating system, and any assemblies that must be preinstalled in the global assembly cache (GAC). ClickOnce, however, cannot install any of these prerequisites itself; if a prerequisite is not found, it simply halts installation and displays a dialog box explaining why the installation failed.
