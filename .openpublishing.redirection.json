@@ -1,6 +1,26 @@
 {
   "redirections": [
     {
+      "source_path": "docs/azure/vs-active-directory-dotnet-getting-started.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-active-directory-dotnet-getting-started?view=vs-2017",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/azure/vs-active-directory-dotnet-what-happened.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-active-directory-dotnet-what-happened?view=vs-2017",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/azure/vs-active-directory-webapi-getting-started.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-active-directory-webapi-getting-started?view=vs-2017",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "docs/azure/vs-active-directory-webapi-what-happened.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-active-directory-webapi-what-happened?view=vs-2017",
+      "redirect_document_id": "false"
+    }, 
+    {
       "source_path": "docs/extensibility/what-s-new-in-the-visual-studio-2017-sdk.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/extensibility/what-s-new-in-the-visual-studio-2017-sdk",
       "redirect_document_id": "false"
