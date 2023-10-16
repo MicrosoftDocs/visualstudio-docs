@@ -311,7 +311,7 @@
       - name: Mixed mode debugging is supported only when using Microsoft .NET Framework 2.0 or greater
         href: error-mixed-mode-debugging-is-supported-only-when-using-microsoft-dotnet-framework-2-0-or-greater.md
       - name: Mixed mode debugging for IA64 processes is unsupported
-        href: error-mixed-mode-debugging-for-ia64-processes-is-unsupported.md
+        href: mixed-mode-debugging-for-ia64-processes-is-unsupported.md
       - name: Mixed-mode debugging for x64 processes is supported only when using Microsoft .NET Framework 4 or greater
         href: error-mixed-mode-debugging-for-x64-processes-is-supported-only-when-using-microsoft-dotnet-framework-4-or-greater.md
       - name: Remote machine does not appear in a Remote Connections dialog
