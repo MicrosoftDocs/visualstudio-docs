@@ -29,18 +29,6 @@ Eventually, you will be able to use the VisualStudio.Extensibility SDK to write 
 
 The latest information on VisualStudio.Extensibility may be found in the VSExtensibility GitHub repo at [announcements](https://github.com/microsoft/VSExtensibility/blob/main/docs/announcements.md).
 
-## Navigate the documentation
-
-| Article | Description|
-|-|-|
-| [Install VisualStudio.Extensibility](#install-visualstudioextensibility) | Download and install the latest preview of VisualStudio.Extensibility. |
-| [Get started](#get-started) | Never developed an extension before? Start with beginner quickstarts and introductory tutorials. |
-| [Concepts](#concepts) | Build your mental model of how the SDK and extensions work. |
-| [Overviews](#overviews) | Learn more by reading overviews of each major area of functionality. |
-| [Samples](#samples-and-tutorials) | Explore sample code demonstrating major features. |
-| [API reference](#api-docs) | Browse the VisualStudio.Extensibility API documentation. |
-| [Advanced topics](#advanced-topics) | Learn implementation details of the VisualStudio.Extensibility SDK. |
-
 ## Install VisualStudio.Extensibility
 
 The current VisualStudio.Extensibility preview works with Visual Studio 2022 version 17.8 Preview 1 or higher with the `.Net desktop development` workload to be installed.
@@ -70,7 +58,6 @@ Visual Studio extensions make their features available to Visual Studio through 
 
 Learn about the [Remote UI](./inside-the-sdk/remote-ui.md) model used in the VisualStudio.Extensibility.
 
-s
 
 Read an overview of the areas of the SDK that you might need for your extension development projects.
 
