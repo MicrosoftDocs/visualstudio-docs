@@ -1,5 +1,5 @@
 ---
-title: Database projects and DAC projects
+title: Database projects and DAC projects (.NET Framework)
 description: Read about database projects and data-tier applications (DACs). Use DB projects to create new databases, create new DACs, and update existing DBs and DACs.
 ms.date: 11/21/2018
 ms.topic: conceptual
@@ -10,7 +10,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# Database projects and data-tier applications
+# Database projects and data-tier applications (.NET Framework)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

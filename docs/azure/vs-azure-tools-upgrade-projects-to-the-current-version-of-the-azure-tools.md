@@ -11,7 +11,10 @@ ms.author: ghogen
 # How to upgrade projects to the current version of the Azure Tools for Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-## Overview
+
+ [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
+
+
 After you install the current release of the Azure Tools (or a previous release that's newer than 1.6), any projects that were created by using a Azure Tools release before 1.6 (November 2011) will be automatically upgraded as soon as you open them. If you created projects by using the 1.6 (November 2011) release of those tools and you still have that release installed, you can open those projects in the older release and decide later whether to upgrade them.
 
 ## How your project changes when you upgrade it

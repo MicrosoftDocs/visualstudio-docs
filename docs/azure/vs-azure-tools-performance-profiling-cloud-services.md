@@ -11,7 +11,10 @@ ms.author: mikejo
 # Testing the performance of a cloud service
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
-## Overview
+
+ [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
+
+
 You can test the performance of a cloud service in the following ways:
 
 * Use Azure Diagnostics to collect information about requests and connections, and to review site statistics that show how the service performs from a customer perspective. To get started with , see [Configuring diagnostics for Azure Cloud Services and Virtual Machines](vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md).

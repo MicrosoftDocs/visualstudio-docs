@@ -13,6 +13,8 @@ monikerRange: "<=vs-2019"
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
+ [!INCLUDE [Cloud Services](./includes/cloud-services-legacy.md)]
+
 > [!Important]
 > Cloud Explorer has been retired in Visual Studio 2022. Instead, you can use the following alternatives:
 > - To debug Azure App Services or Azure Function apps, you can use the Connected Services or the Publish features available on all projects. 
