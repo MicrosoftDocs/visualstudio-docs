@@ -704,7 +704,7 @@
         href: source-server-security-alert.md
       - name: Mixed mode debugging for x64 processes is only supported when using Microsoft.NET Framework 4 or greater
         href: mixed-mode-debugging-for-x64-processes-is-only-supported-when-using-microsoft-dotnet-framework-4-or-greater.md
-      - name: Mixed mode debugging for IA64 processes is unsupported.
+      - name: Mixed mode debugging for IA64 processes is unsupported
         href: mixed-mode-debugging-for-ia64-processes-is-unsupported.md
       - name: Mixed Mode Debugging Is Only Supported when Using Microsoft .NET Framework 2.0 or 3.0
         href: mixed-mode-debugging-is-only-supported-when-using-microsoft-dotnet-framework-2-0-or-3-0.md
