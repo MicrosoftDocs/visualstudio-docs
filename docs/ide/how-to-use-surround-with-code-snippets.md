@@ -1,5 +1,5 @@
 ---
-title: How to use surround-with code snippets
+title: Use surround-with code snippets
 description: Learn how to access surround-with code snippets through a keyboard shortcut, on the Edit menu, or on a right-click or context menu.
 ms.date: 11/15/2021
 ms.topic: how-to

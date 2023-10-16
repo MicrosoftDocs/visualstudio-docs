@@ -1,5 +1,5 @@
 ---
-title: How to use Visual Studio without a product key
+title: Use Visual Studio without a product key
 author: evanwindom
 ms.author: amast
 manager: shve

@@ -1,5 +1,5 @@
 ---
-title: How to use XML snippets
+title: Use XML snippets
 description: Learn how to use commands in the XML editor to insert XML snippets or to wrap an XML snippet around selected text.
 ms.date: 11/04/2016
 ms.topic: how-to
