@@ -8,7 +8,7 @@ ms.author: mgoertz
 manager: jmartens
 ms.technology: vs-ide-modeling
 ---
-# How to: Migrate a Domain-Specific Language to a New Version
+# Migrate a Domain-Specific Language to a New Version
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can migrate projects that define and use domain-specific language to Visual Studio 2010 from the version of Domain-Specific Language Tools that was distributed with Visual Studio 2008.

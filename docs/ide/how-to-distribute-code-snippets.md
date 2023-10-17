@@ -12,7 +12,7 @@ ms.technology: vs-ide-general
 dev_langs:
 - VB
 ---
-# How to: Distribute code snippets
+# Distribute code snippets
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -22,7 +22,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ---
-# How to: Add or remove references by using the Reference Manager
+# Add or remove references by using the Reference Manager
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

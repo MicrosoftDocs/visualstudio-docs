@@ -13,7 +13,7 @@ author: John-Hart
 ms.author: johnhart
 ms.technology: office-development
 ---
-# How to: Programmatically create custom folder items
+# Programmatically create custom folder items
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example creates a new folder in Microsoft Office Outlook. The name of the user who is logged on is used for the folder name.

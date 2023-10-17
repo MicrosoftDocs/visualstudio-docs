@@ -1,5 +1,5 @@
 ---
-title: How to move around in the IDE
+title: Move around in the IDE
 description: Learn how to move around in the Visual Studio IDE from window to window and file to file in several different ways.
 ms.date: 11/04/2016
 ms.topic: how-to
@@ -17,7 +17,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ---
-# How to: Move around in the Visual Studio IDE
+# Move around in the Visual Studio IDE
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

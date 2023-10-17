@@ -8,7 +8,7 @@ ms.topic: conceptual
 description:  Learn how admins can resolve over-allocated subscriptions
 ---
 
-# How to handle over-allocated subscriptions
+# Handle over-allocated subscriptions
 
 Sometimes orders are changed after subscribers have been added, which can result in having more assigned subscriptions than licenses owned by your company, which is called "over-allocation".  
 

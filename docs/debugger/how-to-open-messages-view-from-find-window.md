@@ -11,7 +11,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Open Messages View from Find Window
+# Open Messages View from Find Window
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You might find it convenient to use the **Find Window** dialog box to select a target window, and then open a Messages view of that window.

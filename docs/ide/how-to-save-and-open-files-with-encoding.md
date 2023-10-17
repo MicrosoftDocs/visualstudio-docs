@@ -13,7 +13,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-general
 ---
-# How to: Save and open files with encoding
+# Save and open files with encoding
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

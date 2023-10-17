@@ -12,7 +12,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
 ---
-# How to: Build specific targets in solutions by using MSBuild.exe
+# Build specific targets in solutions by using MSBuild.exe
 
 You can use *MSBuild.exe* to build specific targets of specific projects in a solution.
 

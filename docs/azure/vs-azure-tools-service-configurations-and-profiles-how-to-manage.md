@@ -1,5 +1,5 @@
 ---
-title: How to manage service configurations and profiles
+title: Manage service configurations and profiles
 description: Learn how to work with service configurations and profiles configuration files| which store settings for the deployment environments and publish settings for cloud services.
 author: ghogen
 manager: jmartens
@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.date: 8/11/2017
 ms.author: ghogen
 ---
-# How to manage service configurations and profiles
+# Manage service configurations and profiles
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

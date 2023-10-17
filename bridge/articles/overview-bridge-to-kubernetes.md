@@ -1,7 +1,7 @@
 ---
 title: What is Bridge to Kubernetes?
 ms.technology: bridge
-ms.date: 08/11/2022
+ms.date: 10/17/2023
 ms.topic: overview
 description: "Describes the processes for using Bridge to Kubernetes to connect your development computer to your Kubernetes cluster"
 keywords: "Bridge to Kubernetes, Docker, Kubernetes, Azure, containers"

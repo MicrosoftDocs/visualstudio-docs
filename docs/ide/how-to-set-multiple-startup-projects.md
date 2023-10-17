@@ -10,7 +10,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
-# How to: Set multiple startup projects
+# Set multiple startup projects
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

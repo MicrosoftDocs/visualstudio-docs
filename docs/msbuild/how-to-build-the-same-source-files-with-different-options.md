@@ -13,7 +13,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
 ---
-# How to: Build the same source files with different options
+# Build the same source files with different options
 
 When you build projects, you frequently compile the same components with different build options. For example, you can create a debug build with symbol information or a release build with no symbol information but with optimizations enabled. Or you can build a project to run on a specific platform, such as x86 or x64. In all these cases, most of the build options stay the same; only a few options are changed to control the build configuration. With MSBuild, you use properties and conditions to create the different build configurations.
 
