@@ -8,7 +8,7 @@ ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ---
-# How to: Use Breadcrumb Navigation
+# Use Breadcrumb Navigation
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

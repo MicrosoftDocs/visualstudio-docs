@@ -11,7 +11,7 @@ ms.author: mgoertz
 manager: jmartens
 ms.technology: vs-ide-modeling
 ---
-# How to: Add a command to the shortcut menu
+# Add a command to the shortcut menu
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

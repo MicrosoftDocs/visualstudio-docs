@@ -13,7 +13,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically retrieve a folder by name
+# Programmatically retrieve a folder by name
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example gets a reference to a named custom folder and then displays the contents of the folder.

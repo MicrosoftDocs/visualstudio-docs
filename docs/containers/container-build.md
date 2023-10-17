@@ -1,5 +1,5 @@
 ---
-title: How to customize Docker containers in Visual Studio
+title: Customize Docker containers in Visual Studio
 author: ghogen
 description: Information about the Visual Studio build process for containers, called fast mode, which is necessary to understand how to modify the Dockerfile to customize your container images for both debug and production builds.
 ms.author: ghogen
@@ -7,7 +7,7 @@ ms.date: 09/8/2023
 ms.technology: vs-container-tools
 ms.topic: how-to
 ---
-# How to customize Docker containers in Visual Studio
+# Customize Docker containers in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

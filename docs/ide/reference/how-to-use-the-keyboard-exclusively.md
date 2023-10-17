@@ -15,7 +15,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ---
-# How to use the keyboard exclusively
+# Use the keyboard exclusively
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -6,7 +6,7 @@ ms.topic: include
 ms.assetid: 3247ca7a-474e-4d9e-86fe-161860f20ceb
 author: evanwindom
 ms.author: amast
-ms.date: 08/16/2023
+ms.date: 10/17/2023
 user.type: admin
 tags: manage, agreement, sign in
 subscription.type: vl, cloud, retail, partner
@@ -19,4 +19,4 @@ You’ll receive an email from Visual Studio Subscriptions after the new agreeme
 
 In most cases, you’re likely viewing an older agreement and can find your new one by checking the dropdown on the left side of the screen above your assigned subscriptions. Select on the agreement number to start managing that agreement.
 
-Make sure that you're signing in with your email address that has admin permissions.  If your company uses Azure Active Directory, make sure the correct tenant is selected in the top right corner. 
+Make sure that you're signing in with your email address that has admin permissions.  If your company uses Microsoft Entra ID, make sure the correct tenant is selected in the top right corner. 

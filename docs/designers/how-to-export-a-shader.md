@@ -8,7 +8,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-designers
 ---
-# How to: Export a shader
+# Export a shader
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

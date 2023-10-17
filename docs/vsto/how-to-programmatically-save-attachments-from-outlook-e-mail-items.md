@@ -17,7 +17,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically save attachments from Outlook email items
+# Programmatically save attachments from Outlook email items
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

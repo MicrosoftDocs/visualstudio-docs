@@ -8,7 +8,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# How to: Configure inheritance by using the O/R Designer
+# Configure inheritance by using the O/R Designer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 The **Object Relational Designer** (**O/R Designer**) supports the concept of single-table inheritance as it is often implemented in relational systems. In single-table inheritance, there is a single database table that contains fields for both parent information and child information. With relational data, a discriminator column contains the value that determines which class any record belongs to.

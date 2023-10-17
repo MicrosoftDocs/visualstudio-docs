@@ -14,7 +14,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
-# How to: Specify build events (C#)
+# Specify build events (C#)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

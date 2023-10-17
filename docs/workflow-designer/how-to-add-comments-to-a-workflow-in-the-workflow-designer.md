@@ -11,7 +11,7 @@ ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ---
-# How to: Add comments to a workflow in the Workflow Designer
+# Add comments to a workflow in the Workflow Designer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

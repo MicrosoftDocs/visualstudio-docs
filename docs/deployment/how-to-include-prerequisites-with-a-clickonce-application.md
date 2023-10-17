@@ -8,7 +8,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
 ---
-# How to: Include prerequisites with a ClickOnce application
+# Include prerequisites with a ClickOnce application
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Before you can distribute prerequisite software with a ClickOnce application, you must first download the installer packages for those prerequisites to your development computer. When you publish an application and choose **Download prerequisites from the same location as my application**, an error will occur if the installer packages aren't in the **Packages** folder.

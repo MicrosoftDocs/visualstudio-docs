@@ -15,7 +15,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Flag and Unflag Threads (C#, Visual Basic, C++)
+# Flag and Unflag Threads (C#, Visual Basic, C++)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

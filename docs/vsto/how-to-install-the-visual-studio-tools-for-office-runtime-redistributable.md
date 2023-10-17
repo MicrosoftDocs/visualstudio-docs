@@ -15,7 +15,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Install the Visual Studio Tools for Office Runtime Redistributable
+# Install the Visual Studio Tools for Office Runtime Redistributable
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

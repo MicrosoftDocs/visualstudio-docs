@@ -8,7 +8,7 @@ ms.author: drskwier
 manager: jmartens
 ms.technology: vs-xml-tools
 ---
-# How to: Create an XML document based on an XSD schema
+# Create an XML document based on an XSD schema
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

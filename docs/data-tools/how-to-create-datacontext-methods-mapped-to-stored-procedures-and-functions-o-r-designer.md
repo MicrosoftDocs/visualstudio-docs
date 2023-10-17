@@ -8,7 +8,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-data-tools
 ---
-# How to: Create DataContext methods mapped to stored procedures and functions (O/R Designer)
+# Create DataContext methods mapped to stored procedures and functions (O/R Designer)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

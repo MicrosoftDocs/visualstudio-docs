@@ -16,7 +16,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
 ---
-# How to: Create a SharePoint Web Part by using a designer
+# Create a SharePoint Web Part by using a designer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -8,7 +8,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-code-analysis
 ---
-# How to: Enable and disable binary code analysis for managed code
+# Enable and disable binary code analysis for managed code
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

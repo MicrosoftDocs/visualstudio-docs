@@ -13,7 +13,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically move items in Outlook
+# Programmatically move items in Outlook
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example moves unread e-mail messages from the **Inbox** to a folder named **Test**. The example only moves messages that have the word **Test** in the `Subject` field.

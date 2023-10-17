@@ -16,7 +16,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-deployment
 ---
-# How to: Change the publish language for a ClickOnce application
+# Change the publish language for a ClickOnce application
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

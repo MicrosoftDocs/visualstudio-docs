@@ -19,7 +19,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-code-analysis
 ---
-# How to: Configure legacy analysis for managed code
+# Configure legacy analysis for managed code
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

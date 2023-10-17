@@ -12,7 +12,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-code-analysis
 ---
-# How to: Create or Update Standard Code Analysis Check-in Policies
+# Create or Update Standard Code Analysis Check-in Policies
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -8,7 +8,7 @@ ms.technology: vs-ide-general
 ms.date: 11/19/2019
 ms.topic: conceptual
 ---
-# How to increase the chances of a performance issue being fixed
+# Increase the chances of a performance issue being fixed
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

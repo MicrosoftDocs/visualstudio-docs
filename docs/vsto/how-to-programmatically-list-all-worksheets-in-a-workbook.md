@@ -15,7 +15,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically list all worksheets in a workbook
+# Programmatically list all worksheets in a workbook
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   The <xref:Microsoft.Office.Interop.Excel.Workbook> class provides a <xref:Microsoft.Office.Interop.Excel.Worksheets> object. This object contains a collection of all the <xref:Microsoft.Office.Interop.Excel.Worksheet> objects in the workbook.

@@ -1,5 +1,5 @@
 ---
-title: How to use Visual Studio without a product key
+title: Use Visual Studio without a product key
 author: evanwindom
 ms.author: amast
 manager: shve
@@ -8,7 +8,7 @@ ms.topic: how-to
 description:  Learn how to install and use Visual Studio if you don't have access to downloads
 ---
 
-# How to download and use Visual Studio if you don't have access to downloads
+# Download and use Visual Studio if you don't have access to downloads
 
 If your Visual Studio subscription is provided to you by your work or school, or you're in a special program that provides limited subscriptions, you may not have access to software downloads and product keys in the subscriber portal.  
 

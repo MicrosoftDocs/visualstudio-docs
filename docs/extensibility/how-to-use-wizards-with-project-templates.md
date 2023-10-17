@@ -14,7 +14,7 @@ ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ---
-# How to: Use wizards with project templates
+# Use wizards with project templates
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

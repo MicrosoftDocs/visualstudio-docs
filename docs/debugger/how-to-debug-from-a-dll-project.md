@@ -18,7 +18,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Debug from a DLL project in Visual Studio (C#, C++, Visual Basic, F#)
+# Debug from a DLL project in Visual Studio (C#, C++, Visual Basic, F#)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

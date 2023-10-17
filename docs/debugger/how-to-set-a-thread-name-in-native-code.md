@@ -16,7 +16,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Set a Thread Name in Native Code
+# Set a Thread Name in Native Code
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Thread naming is possible in any edition of Visual Studio. Thread naming is useful for identifying threads of interest in the **Threads** window when debugging a running process. Having recognizably-named threads can also be helpful when performing post-mortem debugging via crash dump inspection and when analyzing performance captures using various tools.

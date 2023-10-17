@@ -8,7 +8,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ---
-# How to: Customize the scroll bar
+# Customize the scroll bar
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

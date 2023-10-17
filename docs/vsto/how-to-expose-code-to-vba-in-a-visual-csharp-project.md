@@ -16,7 +16,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Expose code to VBA in a Visual C# project
+# Expose code to VBA in a Visual C# project
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can expose code in a Visual C# project to Visual Basic for Applications (VBA) code if you want the two types of code to interact with each other.

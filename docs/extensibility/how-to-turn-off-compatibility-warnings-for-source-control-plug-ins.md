@@ -11,7 +11,7 @@ ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ---
-# How to: Turn off compatibility warnings for source control plug-ins
+# Turn off compatibility warnings for source control plug-ins
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

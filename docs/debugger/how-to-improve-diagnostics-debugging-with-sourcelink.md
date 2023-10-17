@@ -13,7 +13,7 @@ ms.author: madownie
 ms.technology: vs-ide-debug
 ---
 
-# How to: Enable debugging and diagnostics with Source Link
+# Enable debugging and diagnostics with Source Link
 
 Source Link is a technology that enables first-class source debugging experiences for binaries. With Source Link-enabled libraries, the debugger can [download the underlying source files](https://devblogs.microsoft.com/dotnet/improving-debug-time-productivity-with-source-link/) as you step in, and you can set breakpoints/tracepoints like you would with any other source. It also enables analysis tools to easily find the correct source code when debugging production environments like Azure.
 

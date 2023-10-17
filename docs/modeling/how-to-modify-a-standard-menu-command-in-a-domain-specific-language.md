@@ -11,7 +11,7 @@ ms.author: mgoertz
 manager: jmartens
 ms.technology: vs-ide-modeling
 ---
-# How to: Modify a Standard Menu Command in a Domain-Specific Language
+# Modify a Standard Menu Command in a Domain-Specific Language
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

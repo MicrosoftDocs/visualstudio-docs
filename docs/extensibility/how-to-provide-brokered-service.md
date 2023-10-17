@@ -11,7 +11,7 @@ ms.author: andarno
 manager: ansonh
 ms.technology: vs-ide-sdk
 ---
-# How to: Provide a brokered service
+# Provide a brokered service
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

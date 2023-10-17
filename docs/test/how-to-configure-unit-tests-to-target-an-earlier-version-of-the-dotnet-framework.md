@@ -8,7 +8,7 @@ manager: jmartens
 ms.technology: vs-ide-test
 author: mikejo5000
 ---
-# How to: Configure unit tests to target an earlier version of the .NET Framework
+# Configure unit tests to target an earlier version of the .NET Framework
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

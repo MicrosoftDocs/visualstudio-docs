@@ -7,7 +7,7 @@ ms.topic: how-to
 author: maiak
 ms.author: maiak
 ---
-# How to: Use rule-based UI Context for Visual Studio extensions
+# Use rule-based UI Context for Visual Studio extensions
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

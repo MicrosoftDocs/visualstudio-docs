@@ -16,7 +16,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
 ---
-# How to: Add a filter descriptor to a Finder method
+# Add a filter descriptor to a Finder method
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Filter descriptors enable consumers of the model to pass values to methods before they execute. For more information, see [Design a business data connectivity model](../sharepoint/designing-a-business-data-connectivity-model.md).

@@ -12,7 +12,7 @@ ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ---
-# How to: Update a Visual Studio extension
+# Update a Visual Studio extension
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can update a Visual Studio extension on your system by using **Extensions and Updates** to install the updated version. If you create an updated version of an extension, you can signify it as updated by incrementing the version number in the VSIX manifest.

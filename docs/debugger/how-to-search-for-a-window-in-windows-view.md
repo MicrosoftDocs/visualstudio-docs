@@ -10,7 +10,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Search for a Window in Windows View
+# Search for a Window in Windows View
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 You can search for a specific window in Windows view by using its handle, caption, class, or a combination of its caption and class as search criteria. You can also specify the initial direction of the search. The fields in the dialog box will show the attributes of the selected window in the window tree.

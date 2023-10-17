@@ -16,7 +16,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically set search options in Word
+# Programmatically set search options in Word
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   There are two ways to set search options for selections in Microsoft Office Word documents:

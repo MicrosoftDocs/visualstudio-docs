@@ -18,7 +18,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
-# How to: Create and edit configurations
+# Create and edit configurations
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

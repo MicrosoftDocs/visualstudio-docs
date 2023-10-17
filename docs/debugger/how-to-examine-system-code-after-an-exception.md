@@ -16,7 +16,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Examine System Code After an Exception
+# Examine System Code After an Exception
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 When an exception occurs, you might have to examine code inside a system call to determine the cause of the exception. The following procedure explains how to do this if you do not have symbols loaded for the system code or if Just My Code is enabled.

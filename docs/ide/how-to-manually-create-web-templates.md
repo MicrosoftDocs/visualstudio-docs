@@ -13,7 +13,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: vs-ide-general
 ---
-# How to: Manually create web templates
+# Manually create web templates
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -15,7 +15,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
 ---
-# How to: Build SharePoint solutions
+# Build SharePoint solutions
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

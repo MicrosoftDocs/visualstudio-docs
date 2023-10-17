@@ -15,7 +15,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-designers
 ---
-# How to: Use 3D assets in your game or app
+# Use 3D assets in your game or app
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

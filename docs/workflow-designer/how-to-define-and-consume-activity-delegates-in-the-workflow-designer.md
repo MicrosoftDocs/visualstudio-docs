@@ -8,7 +8,7 @@ ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ---
-# How to: Define and consume activity delegates in the Workflow Designer
+# Define and consume activity delegates in the Workflow Designer
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

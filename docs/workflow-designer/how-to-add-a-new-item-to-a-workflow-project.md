@@ -8,7 +8,7 @@ ms.author: jodavis
 manager: jmartens
 ms.technology: vs-workflow-designer
 ---
-# How to: Add a new item to a workflow project
+# Add a new item to a workflow project
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
