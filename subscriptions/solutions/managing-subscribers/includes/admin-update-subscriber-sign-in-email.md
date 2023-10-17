@@ -31,8 +31,8 @@ You can update subscriber's sign-in email address individually or by using bulk 
 4. In the fly-out panel, make the necessary edits, and then select **Save**.
 5. Your subscribers receive an email informing them of the change.
 
-## Azure Active Directory (Azure AD) 
-If you assign subscriptions by using Azure AD groups, any email address or name updates are automatically reflected in [manage.visualstudio.com](https://manage.visualstudio.com). After you save the changes, you should see the updates reflected in the admin portal within 24 hours. 
+## Microsoft Entra ID
+If you assign subscriptions by using Entra ID groups, any email address or name updates are automatically reflected in [manage.visualstudio.com](https://manage.visualstudio.com). After you save the changes, you should see the updates reflected in the admin portal within 24 hours. 
 1. Sign into the [Azure portal](https://portal.azure.com).
 2. Make the necessary updates.
 
