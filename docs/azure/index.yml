@@ -39,7 +39,7 @@ landingContent:
           - text: Cosmos DB
             url: azure-cosmosdb-add-connected-service.md
           - text: Key Vault
-            url: /azure/key-vault/vs-key-vault-add-connected-service
+            url: vs-key-vault-add-connected-service.md
           - text: SignalR
             url: azure-signalr-add-connected-service.md
           - text: SQL Database
