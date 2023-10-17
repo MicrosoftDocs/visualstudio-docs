@@ -21,7 +21,7 @@
   - name: CosmosDB
     href: azure-cosmosdb-add-connected-service.md
   - name: Key Vault
-    href: /azure/key-vault/vs-key-vault-add-connected-service
+    href: vs-key-vault-add-connected-service.md
   - name: SignalR
     href: azure-signalr-add-connected-service.md
   - name: SQL Database
@@ -141,18 +141,6 @@
     - name: Access Azure virtual machines from Server Explorer
       href: vs-azure-tools-virtual-machines-access-from-server-explorer.md
   expanded: false
-- name: Work with Azure Active Directory
-  items:
-  - name: Get started with .NET MVC projects
-    href: vs-active-directory-dotnet-getting-started.md
-  - name: What happened to my .NET MVC project?
-    href: vs-active-directory-dotnet-what-happened.md
-  - name: Get started with WebAPI projects
-    href: vs-active-directory-webapi-getting-started.md
-  - name: What happened to my WebAPI project?
-    href: vs-active-directory-webapi-what-happened.md
-  - name: Diagnose errors during authentication
-    href: vs-active-directory-error.md
 - name: How to
   items:
   - name: Get publish profile from Azure App Service
@@ -161,3 +149,5 @@
     href: how-to-sign-in-with-azure-subscription.md
   - name: Deploy an ASP.NET Core app with Entity Framework to Azure with GitHub Actions
     href: end-to-end-deployment-entity-framework-core-github-actions.md
+  - name: Diagnose errors during Azure authentication
+    href: vs-active-directory-error.md
