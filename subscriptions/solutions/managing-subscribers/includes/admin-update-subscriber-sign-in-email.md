@@ -6,7 +6,7 @@ ms.topic: include
 ms.assetid: c1220a33-26b0-4bf9-be97-ab2b3055e351
 author: evanwindom
 ms.author: amast
-ms.date: 08/17/2023
+ms.date: 10/17/2023
 user.type: admin
 tags: email
 subscription.type: vl, cloud, retail, partner
