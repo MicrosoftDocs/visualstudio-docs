@@ -56,7 +56,7 @@ landingContent:
           - text: Publish a web site
             url: ../deployment/quickstart-deploy-to-a-web-site.md
           - text: Access data
-            url: ../data-tools/create-a-simple-data-application-by-using-adonet.md
+            url: ../data-tools/accessing-data-in-visual-studio.md
           - text: Personalize the IDE
             url: ../ide/quickstart-personalize-the-ide.md
           - text: Productivity features
