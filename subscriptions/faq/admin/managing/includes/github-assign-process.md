@@ -6,8 +6,8 @@ ms.faqid: group1_4
 ms.topic: include
 ms.assetid: e45ac76b-3ab1-45cf-a680-488f65e7e84f
 author: evanwindom
-ms.author: v-evanwindom
-ms.date: 08/09/2023
+ms.author: amast
+ms.date: 10/17/2023
 ---
 
 ## What is the GitHub setup process?
