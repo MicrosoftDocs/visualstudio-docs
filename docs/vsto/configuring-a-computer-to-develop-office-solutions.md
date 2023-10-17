@@ -13,7 +13,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# Configure a computer to develop Office solutions
+# Configuration for Office development
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
