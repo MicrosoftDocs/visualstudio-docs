@@ -17,7 +17,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
-# How to: Create and remove project dependencies
+# Create and remove project dependencies
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

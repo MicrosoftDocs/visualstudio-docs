@@ -1,5 +1,5 @@
 ---
-title: How to purchase Visual Studio cloud subscriptions
+title: Purchase Visual Studio cloud subscriptions
 author: evanwindom
 ms.author: amast
 manager: shve

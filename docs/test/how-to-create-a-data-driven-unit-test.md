@@ -15,7 +15,7 @@ manager: jmartens
 ms.technology: vs-ide-test
 author: mikejo5000
 ---
-# How to: Create a data-driven unit test
+# Create a data-driven unit test
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

@@ -10,7 +10,7 @@ ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ---
-# How to: Attach views to document data
+# Attach views to document data
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 If you have a new document view, you may be able to attach it to an existing document data object.

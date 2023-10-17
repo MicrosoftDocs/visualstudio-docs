@@ -15,7 +15,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
 ---
-# How to: Add a project output reference
+# Add a project output reference
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   To deploy non-SharePoint project assemblies (or .xap files in Silverlight projects) to SharePoint, add them as a project output reference.

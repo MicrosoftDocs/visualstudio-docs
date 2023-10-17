@@ -10,7 +10,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-code-analysis
 ---
-# How to: Run legacy code analysis manually for managed code
+# Run legacy code analysis manually for managed code
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

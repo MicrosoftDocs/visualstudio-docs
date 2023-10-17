@@ -10,7 +10,7 @@ ms.technology: vs-xml-tools
 dev_langs:
 - VB
 ---
-# How to: Use the XML Schema Designer with XML literals
+# Use the XML Schema Designer with XML literals
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

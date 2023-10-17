@@ -11,7 +11,7 @@ ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How To: Debug a custom debug engine
+# Debug a custom debug engine
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A project type launches the debug engine (DE) from the <xref:Microsoft.VisualStudio.Shell.Interop.IVsDebuggableProjectCfg.DebugLaunch%2A> method. This means that the DE is launched under the control of the instance of Visual Studio controlling the project type. However, that instance of Visual Studio cannot debug the DE. What follows are the steps that allow you to debug your custom DE.

@@ -17,7 +17,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Write a Run-Time Error Reporting Function (C++)
+# Write a Run-Time Error Reporting Function (C++)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 A custom reporting function for run-time errors must have the same declaration as `_CrtDbgReportW`. It should return a value of 1 to the debugger.

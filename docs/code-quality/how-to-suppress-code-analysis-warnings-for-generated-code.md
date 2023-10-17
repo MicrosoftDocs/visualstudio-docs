@@ -8,7 +8,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-code-analysis
 ---
-# How to: Suppress code analysis warnings for generated code
+# Suppress code analysis warnings for generated code
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

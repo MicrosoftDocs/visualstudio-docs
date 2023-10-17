@@ -10,7 +10,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-code-analysis
 ---
-# How to: Synchronize Code Project Rule Sets with an Azure DevOps Project Check-in Policy
+# Synchronize Code Project Rule Sets with an Azure DevOps Project Check-in Policy
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

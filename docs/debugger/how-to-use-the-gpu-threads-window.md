@@ -17,7 +17,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Use the GPU Threads Window (C++)
+# Use the GPU Threads Window (C++)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 In the GPU Threads window, you can examine and work with threads that are running on the GPU in the application that you are debugging. For more information about applications that run on the GPU, see [C++ AMP Overview](/cpp/parallel/amp/cpp-amp-overview).

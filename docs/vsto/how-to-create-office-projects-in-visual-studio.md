@@ -23,7 +23,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Create Office projects in Visual Studio
+# Create Office projects in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   You can use Visual Studio to create VSTO Add-in and document-level customizations for Microsoft Office applications. For more information about these types of projects, see [Office solutions development overview &#40;VSTO&#41;](../vsto/office-solutions-development-overview-vsto.md).

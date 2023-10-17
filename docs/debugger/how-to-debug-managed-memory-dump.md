@@ -16,7 +16,7 @@ ms.author: madownie
 manager: andster
 monikerRange: '>= vs-2019'
 ---
-# How to debug a managed memory dump with .NET Diagnostic Analyzers
+# Debug a managed memory dump with .NET Diagnostic Analyzers
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

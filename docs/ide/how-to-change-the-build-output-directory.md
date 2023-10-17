@@ -10,7 +10,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
-# How to: Change the build output directory
+# Change the build output directory
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

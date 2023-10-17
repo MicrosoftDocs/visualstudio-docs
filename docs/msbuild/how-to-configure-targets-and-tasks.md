@@ -8,7 +8,7 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
 ---
-# How to: Configure targets and tasks
+# Configure targets and tasks
 
 Selected MSBuild tasks can be set to run in the environment they target, when the development computer supports the target environment. For example, when you use a 64-bit Windows computer to build an application that targets a 32-bit Windows architecture, then selected tasks are run in a 32-bit process.
 

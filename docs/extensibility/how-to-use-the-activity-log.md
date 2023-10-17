@@ -11,7 +11,7 @@ ms.author: maiak
 manager: jmartens
 ms.technology: vs-ide-sdk
 ---
-# How to: Use the activity log
+# Use the activity log
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 VSPackages can write messages to the activity log. This feature is especially useful for debugging VSPackages in retail environments.

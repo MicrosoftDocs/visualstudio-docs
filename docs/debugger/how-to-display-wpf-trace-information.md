@@ -16,7 +16,7 @@ ms.author: mikejo
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Display WPF Trace Information
+# Display WPF Trace Information
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 Visual Studio can receive debug trace information from WPF applications and display that information in the **Output** window. To display debug trace information, WPF tracing must be enabled.

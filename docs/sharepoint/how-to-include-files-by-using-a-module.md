@@ -14,7 +14,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
 ---
-# How to: Include files by using a module
+# Include files by using a module
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   *Modules* (not to be confused with Visual Basic modules) are containers that enable you to deploy files such as ASPX master pages, text files, or images to SharePoint.

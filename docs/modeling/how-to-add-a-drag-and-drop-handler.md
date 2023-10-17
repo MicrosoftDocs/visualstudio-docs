@@ -8,7 +8,7 @@ ms.author: mgoertz
 manager: jmartens
 ms.technology: vs-ide-modeling
 ---
-# How to: Add a Drag-and-Drop Handler
+# Add a Drag-and-Drop Handler
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

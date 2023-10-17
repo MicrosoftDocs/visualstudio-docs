@@ -15,7 +15,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically create a meeting request
+# Programmatically create a meeting request
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example creates a meeting request in Microsoft Office Outlook and sends the request to a required attendee.

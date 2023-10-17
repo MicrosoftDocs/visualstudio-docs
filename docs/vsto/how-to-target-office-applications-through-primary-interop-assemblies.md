@@ -17,7 +17,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Target Office applications through primary interop assemblies
+# Target Office applications through primary interop assemblies
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   When you create a new Office project, Visual Studio automatically adds references to the Microsoft Office primary interop assemblies (PIAs) that are required to build your project. You must add references to other PIAs in the following scenarios:

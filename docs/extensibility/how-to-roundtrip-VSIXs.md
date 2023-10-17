@@ -1,5 +1,5 @@
 ---
-title: How to Roundtrip Extensions
+title: Roundtrip Extensions
 description: Learn how to make Visual Studio extensibility projects round-trip between Visual Studio 2015 and Visual Studio 2019 or Visual Studio 2017.
 ms.date: "06/25/2017"
 ms.topic: how-to
@@ -7,7 +7,7 @@ author: "willbrown"
 ms.author: madsk
 manager: "justinclareburt"
 ---
-# How to: Make extensions compatible with Visual Studio 2019/2017 and Visual Studio 2015
+# Make extensions compatible with Visual Studio 2019/2017 and Visual Studio 2015
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

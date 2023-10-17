@@ -16,7 +16,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: sharepoint-development
 ---
-# How to: Add and remove feature dependencies
+# Add and remove feature dependencies
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   Your SharePoint Feature may depend on other Features for functionality or data. In these cases, you can mark these other Features as dependencies for your Feature. This way, the SharePoint server ensures that dependent Features are activated before your Feature is activated.

@@ -7,7 +7,7 @@ ms.author: twhitney
 manager: markl
 author: tylermsft
 ---
-# How to: Write unit tests for C++ DLLs
+# Write unit tests for C++ DLLs
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

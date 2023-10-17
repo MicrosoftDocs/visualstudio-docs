@@ -18,7 +18,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically insert text into Word documents
+# Programmatically insert text into Word documents
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   There are three primary ways to insert text into Microsoft Office Word documents:

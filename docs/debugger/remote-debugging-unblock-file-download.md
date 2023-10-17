@@ -10,7 +10,7 @@ ms.author: "mikejo"
 manager: jmartens
 ms.technology: vs-ide-debug
 ---
-# How to: Unblock the download of the remote tools on Windows Server
+# Unblock the download of the remote tools on Windows Server
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

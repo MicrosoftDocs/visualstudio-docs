@@ -14,7 +14,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
-# How to: Specify build events (Visual Basic)
+# Specify build events (Visual Basic)
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

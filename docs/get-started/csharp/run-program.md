@@ -13,7 +13,7 @@ manager: jmartens
 dev_langs:
   - CSharp
 ---
-# How to: Run a C# program in Visual Studio
+# Run a C# program in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

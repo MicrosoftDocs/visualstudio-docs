@@ -17,7 +17,7 @@ author: ghogen
 ms.author: ghogen
 manager: jmartens
 ---
-# How to: Sign application and deployment manifests
+# Sign application and deployment manifests
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 

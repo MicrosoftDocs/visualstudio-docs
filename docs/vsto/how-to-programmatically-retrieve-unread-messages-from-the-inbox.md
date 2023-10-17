@@ -16,7 +16,7 @@ ms.author: johnhart
 manager: jmartens
 ms.technology: office-development
 ---
-# How to: Programmatically retrieve unread messages from the Inbox
+# Programmatically retrieve unread messages from the Inbox
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
   This example retrieves unread email messages from the Outlook **Inbox** and displays the number of items.
