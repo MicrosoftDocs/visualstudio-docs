@@ -25,6 +25,7 @@ This overview covers these top scenarios for working with menus and toolbars:
 - [Create a group](#create-a-group)
 - [Place items on a group](#place-items-on-a-group)
 - [Place groups on a menu or toolbar](#place-groups-on-a-menu-or-toolbar)
+- [Placement ordering (Priority)](#placement-ordering-priority)
 
 ## Create a menu
 
@@ -49,7 +50,6 @@ The [`MenuConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.comma
 | TooltipText | String | No | The text to display as the tooltip when the menu is hovered or focused. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md). |
 | Placements | CommandPlacement[] | No | Specifies the existing Groups within Visual Studio that the menu will be parented to. See at [Place a menu in the IDE](#place-a-menu-in-the-ide). |
 | Children | MenuChild[] | No | Describes the set of commands, menus and groups that should be parented to this menu. The order that these items are defined in the array represent the order that they'll appear visually in the IDE. See at [Place items on a menu](#place-items-on-a-menu) |
-| Priority | uint | No | Describes the display order of the menu relative to other manus/commands parented to the same `CommandPlacement.KnownPlacements`. |
 
 ## Place a menu in the IDE
 
@@ -168,7 +168,6 @@ The [`ToolbarConfiguration`](/dotnet/api/microsoft.visualstudio.extensibility.co
 | TooltipText | String | No | The text to display as the tooltip when the toolbar is hovered or focused. Surround this string with the '%' character to enable localizing this string. See at [Localize metadata](localize-metadata.md). |
 | Placements | CommandPlacement[] | No | Specifies the existing Groups within Visual Studio that the toolbar will be parented to. See at [Place a command in the IDE](command.md#place-a-command-in-the-ide). Leaving this property as `null` will place the toolbar on the Standard Toolbar Bar and can be made visible by selecting the toolbar in the `View -> Toolbars` menu |
 | Children | ToolbarChild[] | No | Describes the set of commands, menus and groups that should be parented to this toolbar. The order that these items are defined in the array represent the order that they'll appear visually in the IDE. See at [Place items on a toolbar](#place-items-on-a-toolbar) |
-| Priority | uint | No | Describes the display order of the toolbar relative to other toolbar with the same placement. |
 
 ## Place items on a toolbar
 
@@ -243,7 +242,6 @@ The [`CommandGroupConfiguration`](/dotnet/api/microsoft.visualstudio.extensibili
 | --------- |----- | -------- | ----------- |
 | Placement | GroupPlacement | No | Specifies the existing menu or toolbar within Visual Studio that the group will be parented to. See at [Place a group in the IDE](#place-a-group-in-the-ide). |
 | Children | GroupChild[] | No | Describes the set of commands and menus that should be parented to this group. The order that these items are defined in the array represent the order that they'll appear visually in the IDE. See at [Place items on a group](#place-items-on-a-group) |
-| Priority | uint | No | Describes the display order of the group relative to other groups with the same placement. |
 
 ### Place a group in the IDE
 
@@ -258,7 +256,7 @@ There is a set of well-defined places in Visual Studio where commands can be pla
 public static CommandGroupConfiguration MyGroup1 => new(GroupPlacement.KnownPlacements.ToolsMenu);
 
 [VisualStudioContribution]
-public static CommandGroupConfiguration MyGroup2 => new(GroupPlacement.KnownPlacements.ExtensionsMenu, priority: 100);
+public static CommandGroupConfiguration MyGroup2 => new(GroupPlacement.KnownPlacements.ExtensionsMenu.WithPriority(0x100));
 ```
 
 ## Place items on a group
@@ -340,4 +338,32 @@ public static ToolbarConfiguration MyToolbar => new("%MyToolbar.DisplayName%")
         ToolbarChild.Group(MyGroup),
     },
 };
+```
+
+## Placement ordering (Priority)
+
+Placements are ordered based on the value of their `Priority` property when parented to a control defined in VSCT, relative to other items parented to the same group, menu, or toolbar. The `Priority` property is an `unsigned short`. The default `Priority` value for a `CommandPlacement` and `GroupPlacement` is `0` and can be modified by calling the `CommandPlacement.WithPriority` or `GroupPlacement.WithPriority` methods, passing in the desired `Priority` value. The `Priority` can also be set by using the `CommandPlacement.VsctParent` and `GroupPlacement.VsctParent` methods and passing in the desired `Priority` directly.
+
+The `Priority` property is not involved when parenting items to controls defined via configuration objects using the VisualStudio.Extensibility model (i.e. the group, menu, or toolbar being parented to was defined using `CommandGroupConfiguration`, `MenuConfiguration`, or `ToolbarConfiguration`).
+
+### GroupPlacement
+
+```csharp
+GroupPlacement.KnownPlacements.ToolsMenu.WithPriority(0x0500);
+```
+
+```csharp
+// Parenting a group to the "Help" top level menu
+GroupPlacement.VsctParent(new Guid("{d309f791-903f-11d0-9efc-00a0c911004f}"), id: 0x0088, priority: 0x0500);
+```
+
+### CommandPlacement
+
+```csharp
+CommandPlacement.KnownPlacements.ToolsMenu.WithPriority(0x0500);
+```
+
+```csharp
+// Parenting a command to the "Help -> About" group
+CommandPlacement.VsctParent(new Guid("{d309f791-903f-11d0-9efc-00a0c911004f}"), id: 0x016B, priority: 0x0801);
 ```
