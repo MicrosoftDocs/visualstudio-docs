@@ -21,7 +21,7 @@ manager: jmartens
 ---
 # Configure projects to target platforms
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 :::moniker range=">=vs-2022"
 Visual Studio enables you to set up your application builds to target different platforms (processor architectures), including Arm64 and other platforms. You don't need to be running Visual Studio on a platform in order to build for that target platform. For more information about Arm64 support in Visual Studio, see [Visual Studio on ARM-powered devices](../install/visual-studio-on-arm-devices.md). For 64-bit platform support for .NET development, see [64-bit applications](/dotnet/framework/64-bit-apps).
@@ -41,7 +41,7 @@ Visual Studio enables you to set up your application builds to target different 
 The **Configuration Manager** provides a way for you to quickly add a new platform to target with your project. If you select one of the platforms included with Visual Studio, a configuration is set up to build your project for the selected platform.
 
 :::moniker range=">=vs-2022"
-To target some platforms in a native C++ project, you need to install the build tools for the platform. C++ build tools for x86, and x64 platforms are installed with the default C++ workload. If you're targeting another processor architecture, like Arm64, you'll need to use the Visual Studio Installer to install the build tools for the platform before continuing. See [Modify Visual Studio](../install/modify-visual-studio.md). You don't need to run Visual Studio on an Arm64 device to target Arm64. For Arm64, you can install Arm64 build tools or [ARM64EC](/windows/arm/arm64ec) build tools; see [Arm64 Visual Studio](https://devblogs.microsoft.com/visualstudio/arm64-visual-studio/).
+To target some platforms in a native C++ project, you need to install the build tools for the platform. C++ build tools for x86, and x64 platforms are installed with the default C++ workload. If you're targeting another processor architecture, like Arm64, you need to use the Visual Studio Installer to install the build tools for the platform before continuing. See [Modify Visual Studio](../install/modify-visual-studio.md). You don't need to run Visual Studio on an Arm64 device to target Arm64. For Arm64, you can install Arm64 build tools or [ARM64EC](/windows/arm/arm64ec) build tools; see [Arm64 Visual Studio](https://devblogs.microsoft.com/visualstudio/arm64-visual-studio/).
 
 For .NET development, .NET 6 or later is required to target the Arm64 platform. See [.NET Support for macOS 11 and Windows 11 for Arm64 and x64](https://github.com/dotnet/sdk/issues/22380).
 :::moniker-end
@@ -94,9 +94,9 @@ For .NET development, .NET 6 or later is required to target the Arm64 platform. 
 
 ## Target platforms in the Project Designer or Project Properties UI
 
-The **Project Designer** or **Project Properties** UI also provides a way to target different platforms with your project. If selecting one of the platforms included in the list in the **New Solution Platform** dialog box does not work for your solution, you can create a custom configuration name and modify the settings in **Project Properties** to target the correct platform.
+The **Project Designer** or **Project Properties** UI also provides a way to target different platforms with your project. If selecting one of the platforms included in the list in the **New Solution Platform** dialog box doesn't work for your solution, you can create a custom configuration name and modify the settings in **Project Properties** to target the correct platform.
 
-Performing this task varies based on the programming language you are using. See the following links for more information:
+Performing this task varies based on the programming language you're using. See the following links for more information:
 
 - For Visual Basic projects, see [/platform (Visual Basic)](/dotnet/visual-basic/reference/command-line-compiler/platform).
 
@@ -104,11 +104,11 @@ Performing this task varies based on the programming language you are using. See
 
 ## Manually editing the project file
 
-Sometimes, you need to manually edit the project file for some custom configuration. An example is when you have conditions that can't be specified in the IDE, such as a reference that is different for two different platforms, as in the following example. Manually editing a C++ project file that you're using in Visual Studio is not recommended.
+Sometimes, you need to manually edit the project file for some custom configuration. An example is when you have conditions that can't be specified in the IDE, such as a reference that is different for two different platforms, as in the following example. Manually editing a C++ project file that you're using in Visual Studio isn't recommended.
 
 ### Example: Referencing x86 and x64 assemblies and DLLs
 
-You might have a .NET assembly or DLL that has both x86 and x64 versions. To set up your project to use these references, first add the reference, and then open the project file and edit it to add an `ItemGroup` with a condition that references both the configuration, and the target platform.  For example, suppose the binary you are referencing is ClassLibrary1 and there are different paths for Debug and Release configurations, as well as x86 and x64 versions.  Then, use four `ItemGroup` elements with all combinations of settings, as follows:
+You might have a .NET assembly or DLL that has both x86 and x64 versions. To set up your project to use these references, first add the reference, and then open the project file and edit it to add an `ItemGroup` with a condition that references both the configuration, and the target platform.  For example, suppose the binary you're referencing is ClassLibrary1 and there are different paths for Debug and Release configurations, as well as x86 and x64 versions.  Then, use four `ItemGroup` elements with all combinations of settings, as follows:
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">

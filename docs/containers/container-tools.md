@@ -18,7 +18,7 @@ ms.topic: quickstart
 ::: moniker-end
 ::: moniker range=">=vs-2022"
 
-With Visual Studio, you can easily build, debug, and run containerized .NET, ASP.NET, and ASP.NET Core apps and publish them to Azure Container Registry, Docker Hub, Azure App Service, or your own container registry. In this article, we'll publish an ASP.NET Core app to Azure Container Registry.
+With Visual Studio, you can easily build, debug, and run containerized .NET, ASP.NET, and ASP.NET Core apps and publish them to Azure Container Registry, Docker Hub, Azure App Service, or your own container registry. In this article, you publish an ASP.NET Core app to Azure Container Registry.
 
 ## Prerequisites
 
@@ -32,6 +32,11 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
 ## Add a project to a Docker container
 
+1. Before you create the Visual Studio project, make sure your Docker project is running the type of containers you intend to use in your Visual Studio project.
+
+   > [!WARNING]
+   > If you switch the container type after you create the Visual Studio project, the Docker image files might fail to load.
+
 1. Create a new project using the **ASP.NET Core Web App** template or if you want to use the .NET Framework instead of .NET Core, choose **ASP.NET Web Application (.NET Framework)**.
 
 1. On the **Create new web application** screen, make sure the **Enable Docker Support** checkbox is selected.
@@ -40,42 +45,83 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
    The screenshot shows the latest release with .NET 8.0. If you're using .NET Framework, the dialog looks a bit different.
 
-1. Select the type of container you want (Windows or Linux) and click **Create**.
+1. Select the type of container you want (Windows or Linux) and select **Create**.
 
 ## Dockerfile overview
 
-A *Dockerfile*, the recipe for creating a final Docker image, is created in the project. Refer to [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) for an understanding of the commands within it:
+Visual Studio creates a *Dockerfile* in your project, which provides the recipe for how to create a final Docker image. The Dockerfile contents are specific to the operating system platform. For more information, see the [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) for details about the commands used in the Dockerfile. 
+
+# [Linux](#tab/linux)
 
 ```dockerfile
-#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+#Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
+#For more information, please see https://aka.ms/containercompat
+
+FROM mcr.microsoft.com/dotnet/aspnet:8.0-nanoserver-1809 AS base
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
+EXPOSE 8080
+EXPOSE 8081
 
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:8.0-nanoserver-1809 AS build
+ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["WebApplication3/WebApplication3.csproj", "WebApplication3/"]
-RUN dotnet restore "WebApplication3/WebApplication3.csproj"
+COPY ["WebApplication5/WebApplication5.csproj", "WebApplication5/"]
+RUN dotnet restore "./WebApplication5/./WebApplication5.csproj"
 COPY . .
-WORKDIR "/src/WebApplication3"
-RUN dotnet build "WebApplication3.csproj" -c Release -o /app/build
+WORKDIR "/src/WebApplication5"
+RUN dotnet build "./WebApplication5.csproj" -c %BUILD_CONFIGURATION% -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "WebApplication3.csproj" -c Release -o /app/publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "./WebApplication5.csproj" -c %BUILD_CONFIGURATION% -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "WebApplication3.dll"]
+ENTRYPOINT ["dotnet", "WebApplication5.dll"]
 ```
 
-The preceding *Dockerfile* is based on the [Microsoft Container Registry (MCR)](https://azure.microsoft.com/blog/microsoft-syndicates-container-catalog/) .NET 6 image and includes instructions for modifying the base image by building your project and adding it to the container. If you're using the .NET Framework, the base image will be different. 
+# [Windows](#tab/windows)
+
+```dockerfile
+#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
+
+#Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
+#For more information, please see https://aka.ms/containercompat
+
+FROM mcr.microsoft.com/dotnet/aspnet:8.0-nanoserver-1809 AS base
+WORKDIR /app
+EXPOSE 8080
+EXPOSE 8081
+
+FROM mcr.microsoft.com/dotnet/sdk:8.0-nanoserver-1809 AS build
+ARG BUILD_CONFIGURATION=Release
+WORKDIR /src
+COPY ["WebApplication6/WebApplication6.csproj", "WebApplication6/"]
+RUN dotnet restore "./WebApplication6/./WebApplication6.csproj"
+COPY . .
+WORKDIR "/src/WebApplication6"
+RUN dotnet build "./WebApplication6.csproj" -c %BUILD_CONFIGURATION% -o /app/build
+
+FROM build AS publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "./WebApplication6.csproj" -c %BUILD_CONFIGURATION% -o /app/publish /p:UseAppHost=false
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "WebApplication6.dll"]
+```
+
+---
+
+The preceding *Dockerfile* is based on the [Microsoft Container Registry (MCR)](https://azure.microsoft.com/blog/microsoft-syndicates-container-catalog/) .NET 8 image and includes instructions for modifying the base image by building your project and adding it to the container. If you're using the .NET Framework, the base image is different. 
 
 When the new project dialog's **Configure for HTTPS** check box is checked, the *Dockerfile* exposes two ports. One port is used for HTTP traffic; the other port is used for HTTPS. If the check box isn't checked, a single port (80) is exposed for HTTP traffic.
 
-With Visual Studio 2022 version 17.7 or later, you can target [.NET 8 Preview](https://dotnet.microsoft.com/download/). In that case, you have the benefit of being able to run your app more securely, as a normal user, rather than with elevated permissions. The default Dockerfile generated by Visual Studio for .NET 8 projects is configured to run as a normal user. To enable this on an existing project, add the line `USER app` to the Dockerfile in the base image. Also, because port 80 is restricted for normal users, expose ports 8080 and 8081 instead of 80 and 443. Port 8080 is used for HTTP traffic, and port 8081 is used for HTTPS. To run as a normal user, the container must use a .NET 8 base image, and the app must run as a .NET 8 app. When configured correctly, your Dockerfile should contain code as in the following example:
+With Visual Studio 2022 version 17.7 or later, you can target [.NET 8](https://dotnet.microsoft.com/download/). In that case, you have the benefit of being able to run your app more securely, as a normal user, rather than with elevated permissions. The default Dockerfile generated by Visual Studio for .NET 8 projects is configured to run as a normal user. To enable this behavior on an existing project, add the line `USER app` to the Dockerfile in the base image. Also, because port 80 is restricted for normal users, expose ports 8080 and 8081 instead of 80 and 443. Port 8080 is used for HTTP traffic, and port 8081 is used for HTTPS. To run as a normal user, the container must use a .NET 8 base image, and the app must run as a .NET 8 app. When configured correctly, your Dockerfile should contain code as in the following example:
 
 ```dockerfile
 FROM mcr.microsoft.com/dotnet/aspnet:8.0-preview AS base
@@ -89,16 +135,16 @@ EXPOSE 8081
 
 Select **Docker** from the debug drop-down in the toolbar, and start debugging the app. You might see a message with a prompt about trusting a certificate; choose to trust the certificate to continue.
 
-The **Container Tools** option in the **Output** window shows what actions are taking place. The first time, it might take a while to download the base image, but it's much faster on subsequent runs.
+The **Container Tools** option in the **Output** window shows what actions are taking place. The first time, it might take a while to download the base image, but it's faster on subsequent runs.
 
-After building, the browser comes up and your app's home page is shown. In the browser's address bar, you can see the localhost URL and port number for debugging.
+After the build completes, the browser opens and displays your app's home page. In the browser address bar, you can see the localhost URL and port number for debugging.
 
 >[!NOTE]
 > If you need to change ports for debugging, you can do that in the *launchSettings.json* file. See [Container Launch Settings](container-launch-settings.md).
 
 ## Containers window
 
-You can use the **Containers** window to view running containers on your machine, as well as images that you have available.
+You can use the **Containers** window to view running containers on your machine and other images you have available.
 
 Open the **Containers** window by using the search box in the IDE (press **Ctrl**+**Q** to use it), type in `container`, and choose the **Containers** window from the list.
 
@@ -132,11 +178,11 @@ Once the develop and debug cycle of the app is completed, you can create a produ
     | **Subscription** | Choose your subscription | The Azure subscription to use. |
     | **[Resource Group](/azure/azure-resource-manager/resource-group-overview)** | myResourceGroup |  Name of the resource group in which to create your container registry. Choose **New** to create a new resource group.|
     | **[SKU](/azure/container-registry/container-registry-skus)** | Standard | Service tier of the container registry  |
-    | **Registry Location** | A location close to you | Choose a Location in a [region](https://azure.microsoft.com/regions/) near you or near other services that will use your container registry. |
+    | **Registry Location** | A location close to you | Choose a Location in a [region](https://azure.microsoft.com/regions/) near you or near other services that can use your container registry. |
 
     ![Screenshot of Visual Studio's create Azure Container Registry dialog.](media/container-tools/vs-2022/vs-azure-container-registry-provisioning-dialog.png)
 
-1. Click **Create**. The **Publish** dialog now shows the created registry.
+1. Select **Create**. The **Publish** dialog now shows the created registry.
 
    ![Screenshot of Publish dialog showing Azure Container Registry created.](media/container-tools/vs-2022/created-azure-container-registry.png)
 
