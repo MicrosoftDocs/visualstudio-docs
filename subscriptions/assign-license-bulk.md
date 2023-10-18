@@ -154,7 +154,7 @@ A: No – Separate email addresses for notifications are currently not supported
 + [Azure DevOps documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
-+ [Microsoft Entra documenation](https://learn.microsoft.com/entra/)
++ [Microsoft Entra documentation](https://learn.microsoft.com/entra/)
 
 ## Next steps
 
