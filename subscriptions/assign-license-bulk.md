@@ -94,17 +94,17 @@ Watch this video or read on to learn more about adding subscribers using the Ent
 
 2. To add multiple subscribers at one time, navigate to the **Manage subscribers** tab.
 
-3. Choose the **Add** tab, then select **Entra ID group** in the drop-down.  
+3. Choose the **Add** tab, then select **Microsoft Entra ID group** in the drop-down.  
 
    > [!div class="mx-imgBorder"]
-   > ![Choose bulk add using Entra ID](_img/assign-license-bulk/bulk-add-aad.png "Screenshot of the Manage subscribers page.  The Entra ID group option on the Add menu is highlighted.")
+   > ![Choose bulk add using Entra ID](_img/assign-license-bulk/bulk-add-entra.png "Screenshot of the Manage subscribers page.  The Entra ID group option on the Add menu is highlighted.")
 
 4. A fly-out window appears in the right pane.  Begin to enter the name of the Entra ID group that you'd like to add into the form field. The system searches the available Entra ID groups within your organization for a match. 
 
 5. When you select the group, the field populates with the group name. You're able to view the users in that group before you add them. Next, you can choose the subscription level, download rights, and communication preferences for the group. You can add details into the reference field if you wish. 
 
    > [!div class="mx-imgBorder"]
-   > ![Choose your Entra ID group](_img/assign-license-bulk/bulk-add-aad-details.png "Screenshot of the Add group dialog. Search results are displayed.")
+   > ![Choose your Entra ID group](_img/assign-license-bulk/bulk-add-entra-details.png "Screenshot of the Add group dialog. Search results are displayed.")
 
 6. Select **Add** and then **Confirm**. 
 
