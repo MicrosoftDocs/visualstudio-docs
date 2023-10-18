@@ -14,10 +14,11 @@ The Subscriptions Administration Portal lets you add users one-at-a-time, or in 
 
 To add large groups of users, you can use the bulk add feature, or if your organization is using Microsoft Entra ID Groups **and your organization has a trusted agreement**, you can use Entra ID groups. This article explains the process for both options.  Watch this video or read on to learn more about the bulk add feature. 
 
+## Use Bulk add to assign subscriptions
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vxNq]
 
-## Use Bulk add to assign subscriptions
+## Follow these steps to use the Bulk add feature:
 
 1. Sign into the Visual Studio Subscriptions Administration Portal at <https://manage.visualstudio.com>.
 
@@ -85,7 +86,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
 > + All members of the group must have an email address associated with their Entra ID account.
 > + Separate email addresses for notifications are not supported for subscriptions added using Entra ID groups.  
 
-Watch this video or read on to learn more about adding subscribers using the Entra ID group feature. 
+## Watch this video or read on to learn more about adding subscribers using the Entra ID group feature. 
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4rvvW]
