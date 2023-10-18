@@ -49,9 +49,7 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
 ## Dockerfile overview
 
-Visual Studio creates a *Dockerfile* in your project, which provides the recipe for how to create a final Docker image. The Dockerfile contents are specific to the operating system platform. For more information, see the [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) for details about the commands used in the Dockerfile. 
-
-# [Linux](#tab/linux)
+Visual Studio creates a *Dockerfile* in your project, which provides the recipe for how to create a final Docker image. For more information, see the [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) for details about the commands used in the Dockerfile. 
 
 ```dockerfile
 #See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
@@ -67,57 +65,23 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0-nanoserver-1809 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["WebApplication5/WebApplication5.csproj", "WebApplication5/"]
-RUN dotnet restore "./WebApplication5/./WebApplication5.csproj"
+COPY ["MyWepApp/MyWebApp.csproj", "MyWebApp/"]
+RUN dotnet restore "./MyWebApp/./MyWebApp.csproj"
 COPY . .
-WORKDIR "/src/WebApplication5"
-RUN dotnet build "./WebApplication5.csproj" -c %BUILD_CONFIGURATION% -o /app/build
+WORKDIR "/src/MyWebApp"
+RUN dotnet build "./MyWebApp.csproj" -c %BUILD_CONFIGURATION% -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./WebApplication5.csproj" -c %BUILD_CONFIGURATION% -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./MyWebApp.csproj" -c %BUILD_CONFIGURATION% -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "WebApplication5.dll"]
+ENTRYPOINT ["dotnet", "MyWebApp.dll"]
 ```
 
-# [Windows](#tab/windows)
-
-```dockerfile
-#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
-
-#Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
-#For more information, please see https://aka.ms/containercompat
-
-FROM mcr.microsoft.com/dotnet/aspnet:8.0-nanoserver-1809 AS base
-WORKDIR /app
-EXPOSE 8080
-EXPOSE 8081
-
-FROM mcr.microsoft.com/dotnet/sdk:8.0-nanoserver-1809 AS build
-ARG BUILD_CONFIGURATION=Release
-WORKDIR /src
-COPY ["WebApplication6/WebApplication6.csproj", "WebApplication6/"]
-RUN dotnet restore "./WebApplication6/./WebApplication6.csproj"
-COPY . .
-WORKDIR "/src/WebApplication6"
-RUN dotnet build "./WebApplication6.csproj" -c %BUILD_CONFIGURATION% -o /app/build
-
-FROM build AS publish
-ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./WebApplication6.csproj" -c %BUILD_CONFIGURATION% -o /app/publish /p:UseAppHost=false
-
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "WebApplication6.dll"]
-```
-
----
-
-The preceding *Dockerfile* is based on the [Microsoft Container Registry (MCR)](https://azure.microsoft.com/blog/microsoft-syndicates-container-catalog/) .NET 8 image and includes instructions for modifying the base image by building your project and adding it to the container. If you're using the .NET Framework, the base image is different. 
+The preceding *Dockerfile* is based on the [Microsoft Container Registry (MCR)](https://azure.microsoft.com/blog/microsoft-syndicates-container-catalog/) .NET 8 image and includes instructions for modifying the base image by building the project named `MyWebApp` and adding it to the container. If you're using the .NET Framework, the base image is different. 
 
 When the new project dialog's **Configure for HTTPS** check box is checked, the *Dockerfile* exposes two ports. One port is used for HTTP traffic; the other port is used for HTTPS. If the check box isn't checked, a single port (80) is exposed for HTTP traffic.
 
