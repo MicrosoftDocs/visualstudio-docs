@@ -3,7 +3,7 @@ title: Visual Studio Container Tools with ASP.NET
 author: ghogen
 description: Learn how to use Visual Studio Container Tools and Docker for Windows
 ms.author: ghogen
-ms.date: 10/27/2021
+ms.date: 10/18/2023
 ms.technology: vs-container-tools
 ms.topic: quickstart
 ---
@@ -33,11 +33,12 @@ For Docker installation, first review the information at [Docker Desktop for Win
 ## Add a project to a Docker container
 
 1. Create a new project using the **ASP.NET Core Web App** template or if you want to use the .NET Framework instead of .NET Core, choose **ASP.NET Web Application (.NET Framework)**.
+
 1. On the **Create new web application** screen, make sure the **Enable Docker Support** checkbox is selected.
 
    ![Screenshot of Enable Docker Support check box.](media/container-tools/vs-2022/web-app-additional-information-6-docker.png)
 
-   The screenshot shows .NET 6.0; if you're using .NET Framework, it looks a bit different.
+   The screenshot shows the latest release with .NET 8.0. If you're using .NET Framework, the dialog looks a bit different.
 
 1. Select the type of container you want (Windows or Linux) and click **Create**.
 

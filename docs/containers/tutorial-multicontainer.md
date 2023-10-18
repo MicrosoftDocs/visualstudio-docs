@@ -3,7 +3,7 @@ title: Work with multiple containers using Docker Compose
 author: ghogen
 description: Learn how to use multiple containers with Docker Compose and create a custom launch profile.
 ms.author: ghogen
-ms.date: 9/8/2023
+ms.date: 10/18/2023
 ms.technology: vs-container-tools
 ms.topic: tutorial
 ---
@@ -29,7 +29,7 @@ The completed sample that you'll create in this tutorial may be found on GitHub 
 ::: moniker range=">=vs-2022"
 
 * [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-* [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET cross-platform development** workload installed. This includes .NET Core 3.1 and .NET 6 development tools.
+* [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET cross-platform development** workload installed. This includes .NET Core 3.1 and .NET 8 development tools.
 ::: moniker-end
 
 ## Create a Web Application project

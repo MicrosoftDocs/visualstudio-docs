@@ -1,7 +1,7 @@
 ---
 title: 'Configure projects to target platforms'
 description: Learn how Visual Studio enables you to set up your applications to target different platforms, including the Arm64 platform.
-ms.date: 07/27/2022
+ms.date: 10/18/2023
 ms.technology: vs-ide-compile
 ms.topic: how-to
 helpviewer_keywords:
@@ -43,7 +43,7 @@ The **Configuration Manager** provides a way for you to quickly add a new platfo
 :::moniker range=">=vs-2022"
 To target some platforms in a native C++ project, you need to install the build tools for the platform. C++ build tools for x86, and x64 platforms are installed with the default C++ workload. If you're targeting another processor architecture, like Arm64, you'll need to use the Visual Studio Installer to install the build tools for the platform before continuing. See [Modify Visual Studio](../install/modify-visual-studio.md). You don't need to run Visual Studio on an Arm64 device to target Arm64. For Arm64, you can install Arm64 build tools or [ARM64EC](/windows/arm/arm64ec) build tools; see [Arm64 Visual Studio](https://devblogs.microsoft.com/visualstudio/arm64-visual-studio/).
 
-For .NET development, .NET 6 is required to target the Arm64 platform. See [.NET Support for macOS 11 and Windows 11 for Arm64 and x64](https://github.com/dotnet/sdk/issues/22380).
+For .NET development, .NET 6 or later is required to target the Arm64 platform. See [.NET Support for macOS 11 and Windows 11 for Arm64 and x64](https://github.com/dotnet/sdk/issues/22380).
 :::moniker-end
 
 :::moniker range=">=vs-2022"
