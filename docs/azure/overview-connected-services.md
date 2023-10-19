@@ -9,12 +9,15 @@ ms.date: 08/01/2022
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
-# About Visual Studio Connected Services
+# About the Connected Services consumption experience in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Developers are building apps with an increasing number of services, yet the service technologies are evolving just as fast.  Visual Studio offers a modern service consumption experience, **Connected Services**, that enables each service the ability to tailor their consumption experience, prompting the developer for the relevant questions they need to get started quickly.  Connected Services includes a collection of tools in Visual Studio that help you connect your application to the following:
+Developers are building apps with an increasing number of services, yet the service technologies are evolving just as fast.  
 
+With Visual Studio's **Connected Services**, you get a modern service consumption experience that enables each service the ability to tailor their consumption experience, prompting you for the relevant questions you need to get started quickly.  
+
+Connected Services includes a collection of tools in Visual Studio that help you connect your application to the following:
 * [Azure services](#azure)
 * OpenAPI endpoints
 * gRPC (Remote Procedure Call) endpoints
