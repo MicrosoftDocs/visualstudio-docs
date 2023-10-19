@@ -56,7 +56,7 @@
       href: /azure/app-service/deploy-continuous-deployment
     - name: Azure Pipelines >>
       href: /azure/devops/pipelines/get-started-yaml?view=vsts&preserve-view=true
-- name: Azure Cloud Services development
+- name: 'Extended support for Azure Cloud Services' 
   items:
   - name: Use Cloud Services (extended support)
     href: cloud-services-extended-support.md
