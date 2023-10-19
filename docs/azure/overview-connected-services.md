@@ -9,7 +9,7 @@ ms.date: 08/01/2022
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
-# About Visual Studio Connected Services
+# About the Connected Services consumption experience in Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
