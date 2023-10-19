@@ -5,7 +5,7 @@ author: ghogen
 ms.technology: vs-azure
 ms.author: ghogen
 ms.topic: "include"
-ms.date: 10/18/2023
+ms.date: 10/25/2021
 ---
 
 1. In the Visual Studio start window, select **Create a new project**.
