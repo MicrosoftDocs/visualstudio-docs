@@ -1,6 +1,6 @@
 ---
-title: Connected services
-description: Learn about how you can add connections to Azure services in Visual Studio
+title: Connect to Azure services, gRPC, OpenAPI, and more with Visual Studio
+description: Learn about how you can add connections to services in Visual Studio
 author: ghogen
 manager: jmartens
 ms.technology: vs-azure
@@ -9,7 +9,7 @@ ms.date: 08/01/2022
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
-# About Connected Services in Visual Studio
+# Connect to Azure services, gPRC, OpenAPI, and more with Visual Studio
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
