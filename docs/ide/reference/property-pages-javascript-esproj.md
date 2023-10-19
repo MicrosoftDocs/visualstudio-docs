@@ -57,7 +57,7 @@ Specifies the working directory for the build command. This value is the project
 
 **Startup Command**
 
-Specifies the command to execute when you start the project. For example, an Angular project uses `npm start` by default. This property corresponds to the [StartupCommand](.././javascript/javascript-project-system-msbuild-reference.md) property in the project file.
+Specifies the command to execute when you start the project. For example, an Angular project uses `npm start` by default. This property corresponds to the [StartupCommand](../../javascript/javascript-project-system-msbuild-reference.md) property in the project file.
 
 **Working Directory**
 
