@@ -14,7 +14,7 @@ dev_langs:
 monikerRange: '>= vs-2022'
 ---
 
-# MSBuild reference for the JavaScript Project System (.esproj)
+# MSBuild reference for the JavaScript Project System
 
 This article provides reference information for the MSBuild properties and items that you can use to configure projects based on the JavaScript Project System (JSPS), which use the *.esproj* format.
 
