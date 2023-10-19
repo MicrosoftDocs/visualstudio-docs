@@ -19,7 +19,7 @@ landingContent:
         links:
           - text: Azure development in Visual Studio
             url: overview.md
-      - linkListType: how-to
+      - linkListType: how-to-guide
         links:
           - text: Find & provision Azure resources
             url: overview-azure-integration.md
