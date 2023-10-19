@@ -56,7 +56,17 @@
       href: /azure/app-service/deploy-continuous-deployment
     - name: Azure Pipelines >>
       href: /azure/devops/pipelines/get-started-yaml?view=vsts&preserve-view=true
-- name: Azure Cloud Services development
+- name: How to
+  items:
+  - name: Get publish profile from Azure App Service
+    href: how-to-get-publish-profile-from-azure-app-service.md
+  - name: Sign in with your Azure subscription
+    href: how-to-sign-in-with-azure-subscription.md
+  - name: Deploy an ASP.NET Core app with Entity Framework to Azure with GitHub Actions
+    href: end-to-end-deployment-entity-framework-core-github-actions.md
+  - name: Diagnose errors during Azure authentication
+    href: vs-active-directory-error.md      
+- name: 'Extended support for Azure Cloud Services' 
   items:
   - name: Use Cloud Services (extended support)
     href: cloud-services-extended-support.md
@@ -141,13 +151,3 @@
     - name: Access Azure virtual machines from Server Explorer
       href: vs-azure-tools-virtual-machines-access-from-server-explorer.md
   expanded: false
-- name: How to
-  items:
-  - name: Get publish profile from Azure App Service
-    href: how-to-get-publish-profile-from-azure-app-service.md
-  - name: Sign in with your Azure subscription
-    href: how-to-sign-in-with-azure-subscription.md
-  - name: Deploy an ASP.NET Core app with Entity Framework to Azure with GitHub Actions
-    href: end-to-end-deployment-entity-framework-core-github-actions.md
-  - name: Diagnose errors during Azure authentication
-    href: vs-active-directory-error.md
