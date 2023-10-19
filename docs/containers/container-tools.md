@@ -32,8 +32,10 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
 ## Add a project to a Docker container
 
-1. Before you create the Visual Studio project, make sure your Docker project is running the type of containers you intend to use in your Visual Studio project.
+1. Before you create the Visual Studio project, make sure Docker Desktop is running the type of containers (Windows or Linux) that you intend to use in your Visual Studio project.
 
+   To change the container type used by Docker Desktop, right-click the Docker icon (whale) in the Windows Taskbar and choose either **Switch to Linux containers** or **Switch to Windows containers**.
+      
    > [!WARNING]
    > If you switch the container type after you create the Visual Studio project, the Docker image files might fail to load.
 
