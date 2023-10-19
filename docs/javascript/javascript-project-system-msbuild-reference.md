@@ -40,7 +40,7 @@ The `ShouldRunNpmInstall` property specifies whether to run or not run `npm inst
 
 Two common scenarios where not running `npm install` is desirable are:
 
-1. When a non-npm package manager (such as yarn or pnpm) is used. In this scenario, the best solution is to create a target that will run before `BeforeRestore` to manually run the installation.
+1. When a non-npm package manager (such as yarn or pnpm) is used. In this scenario, the best solution is to create a target that runs before `BeforeRestore` to manually run the installation.
 2. When a global package installation mechanism exists in the solution that makes running individual installations unnecessary.
 
 ### ShouldRunBuildScript
@@ -71,9 +71,9 @@ The following MSBuild properties are described in this section:
 
 ### BuildCommand
 
-The `BuildCommand` property specifies the behavior for the `build` target. By default, if the associated *package.json* contains a `build` or `compile` script, the property will be set to run them.
+The `BuildCommand` property specifies the behavior for the `build` target. If the associated *package.json* contains a `build` or `compile` script, the default `BuildCommand` value is already set to run them.
 
-The command will be run as is. To modify it, `npm run` should be included when using `npm`.
+To modify the command, include `npm run` when using `npm`.
 
 ```xml
 <PropertyGroup>
@@ -83,7 +83,7 @@ The command will be run as is. To modify it, `npm run` should be included when u
 
 ### StartupCommand
 
-The `StartupCommand` property specifies the behavior for the `dotnet run` target. If the associated `package.json` contains a `start`, `server`, or `dev` script, the default `StartupCommand` value will cause these scripts to run.
+The `StartupCommand` property specifies the behavior for the `dotnet run` target. If the associated `package.json` contains a `start`, `server`, or `dev` script, the default `StartupCommand` value is already set to run these scripts.
 
 If you modify the command, include `npm run` when using `npm`.
 
@@ -95,7 +95,7 @@ If you modify the command, include `npm run` when using `npm`.
 
 ### TestCommand
 
-The `TestCommand` property specifies the behavior that the `test` target will have. If the associated `package.json` contains a `test` script, the default `TestCommand` value will cause this script to run.
+The `TestCommand` property specifies the behavior for the `test` target. If the associated `package.json` contains a `test` script, the default `TestCommand` value is already set to run this script.
 
 If you modify the command, include `npm run` when using `npm`.
 
@@ -107,7 +107,7 @@ If you modify the command, include `npm run` when using `npm`.
 
 ### CleanCommand
 
-The `CleanCommand` property specifies the behavior that the `clean` target will have. If the associated `package.json` contains a `clean` script, the default `CleanCommand` value will cause this script to run.
+The `CleanCommand` property specifies the behavior for the `clean` target. If the associated `package.json` contains a `clean` script, the default `CleanCommand` value is already set to run this script.
 
 If you modify the command, include `npm run` when using `npm`.
 
@@ -119,7 +119,7 @@ If you modify the command, include `npm run` when using `npm`.
 
 ### PublishCommand
 
-The `PublishCommand` property specifies the behavior that the `publish` target will have. If the associated `package.json` contains a `publish` script, the default pro`PublishCommand` value will cause this script to run. In npm, it is common to have pre- and post- publish scripts, which will also run.
+The `PublishCommand` property specifies the behavior for the `publish` target. If the associated `package.json` contains a `publish` script, the default pro`PublishCommand` value is already set to run this script. In npm, it is common to have pre- and post- publish scripts, which will also run.
 
 If you modify the command, include `npm run` when using `npm`.
 
