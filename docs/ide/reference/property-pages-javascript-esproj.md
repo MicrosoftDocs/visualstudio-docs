@@ -33,7 +33,7 @@ Under the General tab, the following properties are available.
 
 **Build Command**
 
-Specifies the command to run when you build the project. (**Build > Build Solution**, or when you run the project.) If used, this value is typically an npm command. This property corresponds to the [BuildCommand](../javascript/javascript-project-system-msbuild-reference.md) property in the project file.
+Specifies the command to run when you build the project. (**Build > Build Solution**, or when you run the project.) If used, this value is typically an npm command. This property corresponds to the [BuildCommand](../../javascript/javascript-project-system-msbuild-reference.md) property in the project file.
 
 **Production Build Command**
 
@@ -47,7 +47,7 @@ Specifies the output folder for production build objects. For older projects, us
 
 **Clean Command**
 
-Specifies the command to run when you clean the project. (**Build > Clean Solution**) If used, this value is typically an npm command. This property corresponds to the [CleanCommand](../javascript/javascript-project-system-msbuild-reference.md) property in the project file.
+Specifies the command to run when you clean the project. (**Build > Clean Solution**) If used, this value is typically an npm command. This property corresponds to the [CleanCommand](../../javascript/javascript-project-system-msbuild-reference.md) property in the project file.
 
 **Working Directory**
 
@@ -57,7 +57,7 @@ Specifies the working directory for the build command. This value is the project
 
 **Startup Command**
 
-Specifies the command to execute when you start the project. For example, an Angular project uses `npm start` by default. This property corresponds to the [StartupCommand](../javascript/javascript-project-system-msbuild-reference.md) property in the project file.
+Specifies the command to execute when you start the project. For example, an Angular project uses `npm start` by default. This property corresponds to the [StartupCommand](.././javascript/javascript-project-system-msbuild-reference.md) property in the project file.
 
 **Working Directory**
 
