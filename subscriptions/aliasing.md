@@ -16,7 +16,7 @@ Depending on the account type used to sign in, available subscriptions may not b
 
 The term “aliasing” refers to users having different identities to sign in to Windows (or your Active Directory) and to access email.
 
-Aliasing can be encountered when a company has a Microsoft Online Service for their directory sign-in, like 'JohnD@contoso.com', but users access their email accounts using aliases or friendly names, such as 'John.Doe@contoso.com'. Make sure your users are using the “Sign-in Email Address” as listed in the admin portal at https://manage.visualstudio.com to access their subscriptions. 
+Aliasing can be encountered when a company has a Microsoft Online Service for their directory sign-in, like `JohnD@contoso.com`, but users access their email accounts using aliases or friendly names, such as `John.Doe@contoso.com`. Make sure your users are using the “Sign-in Email Address” as listed in the admin portal at https://manage.visualstudio.com to access their subscriptions. 
 
 ## What are the potential issues?
 
