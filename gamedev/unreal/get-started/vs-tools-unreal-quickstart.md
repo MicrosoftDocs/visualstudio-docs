@@ -76,11 +76,11 @@ You can use the Visual Studio Tools for Unreal Engine to view UE logging within 
 
     :::image type="content" source="../media/vs-unreal-engine-log.png" alt-text="A screenshot of the Unreal Engine Log window showing 'shot fired' events and the Categories dropdown with LogLyra selected.":::
 
-    The events will be at the bottom of the log so you may have to scroll down to see them. You could also choose the **Clear** button to clear the log and then fire again to see the log message.
+    The events are at the bottom of the log so you might have to scroll down to see them. You could also choose the **Clear** button to clear the log and then fire again to see the log message.
 
 If you find the font color hard to read, you can adjust it under **Tools** > **Options** > **Environment** > **Fonts and Colors**. Change the dropdown **Show settings for:** to **Unreal Engine Log**. In **Display items:** select **Log** and change the **Item foreground** color to something easier to see for you.
 
-Having the UE logging window open while you're debugging is very convenient because you don't have to switch to the Unreal Editor to see them.
+Having the UE logging window open while you're debugging is convenient because you don't have to switch to the Unreal Editor to see them.
 
 ## View UE macros in Visual Studio
 
@@ -94,7 +94,7 @@ Long UE macros can be difficult to read. Visual Studio Tools for Unreal Engine e
 1. Choose **Expand Inline**, to expand the macro, and all nested macros, in the code window.
     :::image type="content" source="../media/vs-unreal-engine-macro-expanded-inline.png" alt-text="A screenshot of the expanded contents of the UE_DEFINE_GAMEPLAY_TAG_STATIC macro." lightbox="../media/vs-unreal-engine-macro-expanded-inline.png":::
     You can press `Ctrl+z` to undo the expansion.
-1. Choose **Search online** to open your browser. It will open with a search populated to find the macro. In the previous example, this opens the browser to search for `C++ #define UE_DEFINE_GAMEPLAY_TAG_STATIC(TagName, Tag) static FNativeGameplayTag TagName(UE_PLUGIN_NAME, UE_MODULE_NAME,  …`
+1. Choose **Search online** to open your browser. It opens with a search populated to find the macro. In the previous example, this opens the browser to search for `C++ #define UE_DEFINE_GAMEPLAY_TAG_STATIC(TagName, Tag) static FNativeGameplayTag TagName(UE_PLUGIN_NAME, UE_MODULE_NAME,  …`
 1. Choose **Visualize the expansion** to open the **Macro Expansion** window. You can expand the nested macros that are part of the larger macro one step at a time. Scroll to the end of the expansion to see the macro expansion arrows in the upper-right corner of the window. Choose the right arrow to expand the next nested macro. Choose the left arrow to collapse the last nested macro that was expanded:
 
     :::image type="content" source="../media/vs-unreal-engine-macro-expansion.png" alt-text="A screenshot of the macro expansion window showing the expanded contents of the UE_DEFINE_GAMEPLAY_TAG_STATIC macro.":::
