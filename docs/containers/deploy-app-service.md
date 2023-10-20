@@ -6,7 +6,7 @@ manager: jmartens
 ms.technology: vs-container-tools
 ms.devlang: dotnet
 ms.topic: how-to
-ms.date: 10/28/2021
+ms.date: 10/18/2023
 ms.author: ghogen
 ---
 # Deploy an ASP.NET Core container to Azure App Service using Visual Studio
@@ -38,7 +38,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 1. From the Visual Studio start window, choose **Create a new project**.
 1. Choose **ASP.NET Core Web App**, and choose **Next**.
 1. Give your new application a name (or take the default) and choose **Next**.
-1. Choose the .NET version you want to target. If you're not sure, choose the long-term support (LTS) version.
+1. Choose the .NET version you want to target. If you're not sure, choose the .NET 8.0 version.
 1. Choose whether or not you want SSL support by using the **Configure for HTTPS** checkbox.
 1. Check the **Enable Docker Support** checkbox.
 1. Select the container type, and click **Create**.
