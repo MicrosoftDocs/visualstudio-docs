@@ -19,7 +19,7 @@ This scenario occurs due to sign-in processes that were associated with the lega
 2. The subscriber “activated” the subscription.
 
 During the subscriber activation process:
-A Microsoft Account (MSA) was required to sign-in. If the subscriber didn’t attempt to make their work or school account (example: tasha@contoso.com) an MSA, they could create a new MSA or use an existing one. Using a personal email resulted in their “Sign-in Email Address” being different than their “Assigned to Email Address”.
+A Microsoft Account (MSA) was required to sign-in. If the subscriber didn’t attempt to make their work or school account (example: `tasha@contoso.com`) an MSA, they could create a new MSA or use an existing one. Using a personal email resulted in their “Sign-in Email Address” being different than their “Assigned to Email Address”.
 
 > [!NOTE]
 > The modern subscriber experience on [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs) supports both Work/School and Microsoft Account (MSA) identity types.
