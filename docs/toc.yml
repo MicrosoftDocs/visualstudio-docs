@@ -815,24 +815,6 @@
       href: ide/filtered-solutions.md
     - name: Tips and tricks
       href: ide/visual-studio-performance-tips-and-tricks.md
-- name: Accessibility
-  items:
-  - name: Accessibility tips and tricks
-    href: ide/reference/accessibility-tips-and-tricks.md
-  - name: Accessibility products and services from Microsoft
-    href: ide/reference/accessibility-products-and-services-from-microsoft.md
-- name: Security
-  items:
-  - name: Develop secure applications
-    href: ide/securing-applications.md
-  - name: Run Visual Studio as an administrator
-    href: ide/user-permissions-and-visual-studio.md
-  - name: Windows Information Protection (WIP)
-    href: ide/exempt-visual-studio-from-wip.md
-  - name: Federal Information Processing Standard (FIPS)
-    href: ide/fips-support-visual-studio.md
-  - name: Dotfuscator Community
-    href: ide/dotfuscator/index.md
 - name: Reference
   items:
   - name: Keyboard shortcuts & commands
@@ -1224,6 +1206,18 @@
       href: ide/reference/watch-command.md
   - name: The Visual Studio image library
     href: designers/the-visual-studio-image-library.md
+  - name: Security
+    items:
+    - name: Develop secure applications
+      href: ide/securing-applications.md
+    - name: Run Visual Studio as an administrator
+      href: ide/user-permissions-and-visual-studio.md
+    - name: Windows Information Protection (WIP)
+      href: ide/exempt-visual-studio-from-wip.md
+    - name: Federal Information Processing Standard (FIPS)
+      href: ide/fips-support-visual-studio.md
+    - name: Dotfuscator Community
+      href: ide/dotfuscator/index.md
 - name: Resources
   items:
   - name: "What's new in Docs"
@@ -1240,6 +1234,12 @@
     href: https://visualstudio.microsoft.com/license-terms/
   - name: Support lifecycle and servicing
     href: /visualstudio/productinfo/vs-servicing-vs/
+  - name: Accessibility
+    items:
+    - name: Accessibility tips and tricks
+      href: ide/reference/accessibility-tips-and-tricks.md
+    - name: Accessibility products and services from Microsoft
+      href: ide/reference/accessibility-products-and-services-from-microsoft.md
   - name: Offline help >>
     href: help-viewer/overview.md
 - name: Send feedback
