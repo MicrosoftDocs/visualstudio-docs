@@ -46,6 +46,10 @@ landingContent:
             url: azure-sql-database-add-connected-service.md
           - text: Storage
             url: vs-azure-tools-connected-services-storage.md
+      - linkListType: reference
+        links:
+          - text: Azure SDK for .NET
+            url: /dotnet/azure  
 
   - title: Deploy to Azure
     linkLists:
@@ -72,10 +76,3 @@ landingContent:
             url: azure-deployment-using-github-actions.md
           - text: With Azure Pipelines
             url: /azure/devops/pipelines/get-started-yaml
-
-  - title: Reference
-    linkLists:
-      - linkListType: overview
-        links:
-          - text: Azure SDK for .NET
-            url: /dotnet/azure
