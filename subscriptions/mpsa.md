@@ -14,7 +14,7 @@ If you've purchased Visual Studio Subscriptions through the MPSA program, there 
 
 MPSA customers manage assets purchased through MPSA in a portal called the [Business Center](https://businessaccount.microsoft.com/Customer) (Similar to how the Volume Licensing Service Center (VLSC) is used to manage volume licensing assets). In the Business Center, MPSA customers can view their License Summary, Orders, Downloads, Keys, Users, etc. However, there are some key differences between VLSC and MPSA subscriptions. The Business Center uses work accounts to sign in, instead of Microsoft Accounts (MSA). If you access services like Azure Active Directory or Office 365, your email is already a work account. You can register for access to Business Center with your business email and password combination, like other cloud services - If your organization isn't using cloud services and your email isn't a work account, you may use a different email to register for access to the Business Center and create a password at the time of registration.
 
-The Visual Studio subscriptions [Administration Portal](https://manage.visualstudio.com/) is where you'll assign subscriptions after you become a Visual Studio subscriptions admin. Visual Studio subscriptions purchased through MPSA must be provisioned in the Visual Studio Subscriptions Administration Portal by an admin. To do that, your Purchasing Account must be associated with a tenant (example: contoso.onmicrosoft.com).
+The Visual Studio subscriptions [Administration Portal](https://manage.visualstudio.com/) is where you'll assign subscriptions after you become a Visual Studio subscriptions admin. Visual Studio subscriptions purchased through MPSA must be provisioned in the Visual Studio Subscriptions Administration Portal by an admin. To do that, your Purchasing Account must be associated with a tenant (example: `contoso.onmicrosoft.com`).
 
 There are two types of tenants - managed tenants and unmanaged tenants. A managed tenant refers to a tenant that is already managed by admins within the organization.
 
@@ -36,7 +36,7 @@ To associate your account, you must
    1. Sign in to Business Center.
    2. Select the **Account** tab and choose **Associate Domains**.
    3. Select your **Purchasing Account** (if you have more than one).
-   4. Select your **tenant** (example: contoso.onmicrosoft.com).
+   4. Select your **tenant** (example: `contoso.onmicrosoft.com`).
    5. Select Associate Domain.
 
    For a more detailed explanation of this process, use the Quick Start guides. Download the guide named "Set up and Use Your Online Services".

@@ -54,11 +54,11 @@ admin on the agreement through which the subscriptions were purchased.
    
 0. Your subscriber list downloads as an Excel file.  Locate the file in your downloads folder, and open it.  The file name contains the name of your agreement and the current date.
 0. In a column to the right of the template, paste the email addresses of the subscribers you want to remove.  (In the current template, column "V" is the first one available.  Don't unhide any hidden columns and use them.)  For this example, we are removing these users:
-    + aa-user1@contoso.com
-    + a-user3@contoso.com
-    + a-user5@contoso.com
-    + b-user2@contoso.com
-    + b-user4@contoso.com
+    + `aa-user1@contoso.com`
+    + `a-user3@contoso.com`
+    + `a-user5@contoso.com`
+    + `b-user2@contoso.com`
+    + `b-user4@contoso.com`
 
    > [!div class="mx-imgBorder"]
    > ![Add users to be deleted](_img/delete-license/user-list-added.png "Screenshot of bulk edit template showing the users to be deleted listed in the right-most column. The list of users is highlighted.")
