@@ -18,6 +18,11 @@ monikerRange: '>= vs-2019'
 
 Starting in Visual Studio 2019 version 16.11, you can create new GitHub Actions workflows for .NET projects hosted on GitHub.com.
 
+## Prerequisites
+
+- You must be signed in to your [GitHub account](../ide/work-with-github-accounts.md) in Visual Studio.
+- An Azure subscription. Sign up for a free trail [here](https://azure.microsoft.com/en-us/free/).
+
 ## Deploy a single project to Azure using GitHub Actions
 
 In Solution Explorer, right-click your GitHub.com hosted project and choose **Publish**.
