@@ -31,6 +31,10 @@ Want to see what's new in each updated release from within Visual Studio itself?
 > [!TIP]
 > For more news + how-to's, check out our Visual Studio social media channels on [LinkedIn](https://www.linkedin.com/showcase/microsoft-visual-studio), [YouTube](https://www.youtube.com/visualstudio), [Facebook](https://www.facebook.com/visualstudio), [Twitch](https://www.twitch.tv/visualstudio), [Twitter](https://twitter.com/VisualStudio), & [TikTok](https://www.tiktok.com/@visualstudio). And for the latest info on recent releases, current experiments, and what's in Preview, be sure to visit the Visual Studio [Blog](https://devblogs.microsoft.com/visualstudio/).
 
+## AI-assisted development
+
+With a subscription to GitHub Copilot, you can get answers to questions and consult with an AI while you code. Visual Studio 17.8 includes integration with [GitHub Copilot](../ide/visual-studio-github-copilot-extension.md). For information on Visual Studio's AI assistance features, see [AI-assisted development](../ide/ai-assisted-development-visual-studio.md).
+
 ## Performance improvements
 
 Visual Studio 2022 is faster, more approachable, more lightweight, and is designed for both learners and those building industrial scale solutions. Plus, we continue to focus on performance with each iterative release. To learn more, see the [Visual Studio 2022 – 17.5 Performance Enhancements](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-5-performance-enhancements/) blog post.
