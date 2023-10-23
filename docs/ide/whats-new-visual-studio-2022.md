@@ -33,7 +33,7 @@ Want to see what's new in each updated release from within Visual Studio itself?
 
 ## AI-assisted development
 
-With a subscription to GitHub Copilot, you can get answers to questions and consult with an AI while you code. Visual Studio 17.8 includes integration with [GitHub Copilot](../ide/visual-studio-github-copilot-extension.md). For information on Visual Studio's AI assistance features, see [AI-assisted development](../ide/ai-assisted-development-visual-studio.md).
+With a subscription to GitHub Copilot, you can get answers to questions and consult with an AI while you code. Visual Studio 2022 version 17.4 and later include integration with [GitHub Copilot](../ide/visual-studio-github-copilot-extension.md), and version 17.6 and later also support GitHub Copilot Chat. See [AI-assisted development](../ide/ai-assisted-development-visual-studio.md).
 
 ## Performance improvements
 
