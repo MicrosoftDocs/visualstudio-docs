@@ -87,30 +87,30 @@ Actions in your project query determine what modifcations are made to the projec
 |AddProjectReference| Represents the operation to add a project to project reference to a project.
 |AddProject| Represents the operation to add a project to a solution or a solution folder.
 |AddProjectReferenceByPath| Represents the operation to add a project to project reference to a project's path.
-|AddSolutionConfiguration| Represents the operation to Add a solution configuration.
-|Build| Represents the operation to Build a Solution.
-|Clean| Represents the operation to Clean a Solution.
+|AddSolutionConfiguration| Represents the operation to add a solution configuration.
+|Build| Represents the operation to build a solution.
+|Clean| Represents the operation to clean a solution.
 |ConfigurationDimensionValue| Represents the operation to set a configuration's dimension value.
 |CreateFile| Represents the operation to create a new file in a project.
 |CreateFolder| Represents the operation to create a folder in a project.
 |CreateSolutionFolder| Represents the operation to add a solution folder to a solution or an existing solution folder.
-|Debug| Represents the operation to Debug a Solution.
+|Debug| Represents the operation to debug a solution.
 |DeleteConfigurationDimensionValue| Deletes a value from the configuration dimension (e.g. Configuration or Platform).
-|Delete| Represents the operation to Delete a Project.
+|Delete| Represents the operation to delete a Project.
 |DeleteSolutionConfiguration| Represents the operation to remove a solution configuration.
-|Deploy| Represents the operation to Deploy a Solution.
+|Deploy| Represents the operation to deploy a solution.
 |DuplicateLaunchProfile| Represents the operation to duplicate an existing launch profile.
-|Exclude| Represents the operation to Exclude a Project.
-|Rebuild| Represents the operation to Rebuild a Solution.
+|Exclude| Represents the operation to exclude a project.
+|Rebuild| Represents the operation to rebuild a solution.
 |ReloadProject| Represents the operation to reload a project.
 |RemoveLaunchProfile| Represents the operation to remove a launch profile from a project.
 |RenameFile| Represents the operation to rename a file in a project.
 |RenameFolder| Represents the operation to rename a folder in a project.
 |RenameSolutionFolder| Represents the operation to rename a solution folder.
 |RenameProject| Represents the operation to rename a project.
-|Run| Represents the operation to Run a Solution.
+|Run| Represents the operation to run a solution.
 |RunCustomTool| Represents the operation to run a custom tool.
-|Save| Represents the operation to Save a Project.
+|Save| Represents the operation to save a project.
 |SetPropertyValue| Represents the operation to set a property value.
 |SetCopyToLocal| Represents the operation of setting the value of CopyToLocal for a project reference.
 |SetBuildProperty| Represents the operation of setting the value of a project configuration build property.
