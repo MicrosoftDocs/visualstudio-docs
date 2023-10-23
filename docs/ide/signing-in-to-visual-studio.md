@@ -170,8 +170,4 @@ Select the icon with your profile name in the upper-right corner of the Visual S
 
 :::image type="content" source="../ide/media/vs-2022/visual-studio-profile-sign-out.png" alt-text="Screenshot showing Visual Studio sign out option":::
 
-You can also sign out by using the Account settings dialog. Select **Account settings** and then select **Sign out**. You can also open the Account Settings dialog by going to **File** > **Account Settings...**.
-
-:::image type="content" source="../ide/media/vs-2022/visual-studio-sign-out-vs-2022.png" alt-text="Screenshot showing Visual Studio sign out on Account Settings dialog.":::
-
 ::: moniker-end
