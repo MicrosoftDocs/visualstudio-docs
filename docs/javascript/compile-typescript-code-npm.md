@@ -1,7 +1,7 @@
 ---
 title: Compile and build TypeScript code using npm
 description: Learn how to add TypeScript support to your Visual Studio projects by using the Node Package Manager (npm).
-ms.date: 05/26/2023
+ms.date: 10/23/2023
 ms.topic: conceptual
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -14,11 +14,10 @@ dev_langs:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-You can add TypeScript support to your projects using the TypeScript SDK or by using npm. The TypeScript SDK is available by default in the Visual Studio installer.
+Use the TypeScript npm package to add TypeScript support to projects based on the JavaScript Project System (JSPS), or *.esproj*. Starting in Visual Studio 2019, it is recommended that you use the npm package instead of the TypeScript SDK, which is available by default in the Visual Studio installer. The TypeScript npm package provides greater portability across different platforms and environments.
 
-We encourage you to use the TypeScript npm package for greater portability across different platforms and environments.
-
-For ASP.NET Core projects, it's recommended that you use the [NuGet package](../javascript/compile-typescript-code-nuget.md) instead.
+> [!IMPORTANT]
+> For ASP.NET Core projects, use the [NuGet package](../javascript/compile-typescript-code-nuget.md) instead of npm to add TypeScript support.
 
 ## Add TypeScript support using npm
 
