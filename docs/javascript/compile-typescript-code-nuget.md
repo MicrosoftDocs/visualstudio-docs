@@ -1,7 +1,7 @@
 ---
 title: Compile and build TypeScript code using NuGet
 description: Learn how to add TypeScript support to your Visual Studio projects by using the NuGet package.
-ms.date: 05/26/2023
+ms.date: 10/23/2023
 ms.topic: conceptual
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -14,9 +14,9 @@ dev_langs:
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-Use the TypeScript NuGet package to add TypeScript support to your ASP.NET Core projects. Starting in Visual Studio 2019, it is recommended that you use the NuGet package instead of the TypeScript SDK, which is available by default in the Visual Studio installer. The TypeScript NuGet package provides greater portability across different platforms and environments.
+Use the TypeScript NuGet package to add TypeScript support to your ASP.NET Core projects. Starting in Visual Studio 2019, it is recommended that you use the NuGet package instead of the TypeScript SDK. The TypeScript NuGet package provides greater portability across different platforms and environments.
 
-For ASP.NET Core projects, one common usage for the NuGet package is to compile TypeScript using the .NET Core CLI. Unless you manually edit your project file to import build targets from a TypeScript SDK installation, the NuGet package is the only way to enable TypeScript compilation using .NET Core CLI commands such as `dotnet build` and `dotnet publish`. Also, for [MSBuild integration](https://www.staging-typescript.org/docs/handbook/compiler-options-in-msbuild.html) with ASP.NET Core and TypeScript, choose the NuGet package.
+For ASP.NET Core projects, one common usage for the NuGet package is to compile TypeScript using the .NET Core CLI. In .NET scenarios, the NuGet package is the preferred option, and it's the only way to enable TypeScript compilation using .NET Core CLI commands such as `dotnet build` and `dotnet publish`. Also, for [MSBuild integration](https://www.staging-typescript.org/docs/handbook/compiler-options-in-msbuild.html) with ASP.NET Core and TypeScript, choose the NuGet package.
 
 > [!IMPORTANT]
 > For projects based on the JavaScript Project System (JSPS), or *.esproj* projects, use the [npm package](../javascript/compile-typescript-code-npm.md) instead of NuGet to add TypeScript support.
@@ -29,7 +29,7 @@ If Visual Studio is installed, then the node.exe bundled with it will automatica
 
 1. Open your ASP.NET Core project in Visual Studio.
 
-1. In Solution Explorer (right pane). right-click the project node and choose **Manage NuGet Packages**. In the **Browse** tab, search for **Microsoft.TypeScript.MSBuild**, and then click **Install** on the right to install the package.
+1. In Solution Explorer (right pane). right-click the project node and choose **Manage NuGet Packages**. In the **Browse** tab, search for **Microsoft.TypeScript.MSBuild**, and then click **Install** to install the package.
 
    ![Add NuGet package](../javascript/media/aspnet-core-ts-nuget.png)
 
@@ -70,7 +70,7 @@ If Visual Studio is installed, then the node.exe bundled with it will automatica
 
    In this example:
    - *include* tells the compiler where to find TypeScript (*.ts) files.
-   - *outDir* option specifies the output folder for the plain JavaScript files that are transpiled by the TypeScript compiler.
+   - *outDir* option specifies the output folder for the plain JavaScript files transpiled by the TypeScript compiler.
    - *sourceMap* option indicates whether the compiler generates *sourceMap* files.
 
    The previous configuration provides only a basic introduction to configuring TypeScript. For information on other options, see [tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
@@ -151,9 +151,9 @@ Press **F5** or select the Start button at the top of the window.
         This folder contains `tsc.js`, `tsserver.js` and all dependency files required to run them as node scripts.
 
         > [!NOTE]
-        > If Visual Studio is installed, then the *node.exe* bundled with it will automatically be picked up. Otherwise Node.js must be installed on the machine.
+        > If Visual Studio is installed, then the NuGet package automatically picks up the version of *node.exe* bundled with Visual Studio. Otherwise, Node.js must be installed on the machine.
 
-        Versions prior to 3.1 contained a `tsc.exe` executable to run the compilation. In version 3.1, this was removed in favor of using `node.exe`.
+        Versions prior to 3.1 contained a `tsc.exe` executable to run the compilation. In version 3.1, the executable was removed in favor of using `node.exe`.
 
 ### Remove default imports
 
