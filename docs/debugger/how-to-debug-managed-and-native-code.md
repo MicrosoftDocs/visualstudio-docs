@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Debug C# and C++ code (mixed mode)"
 description: Learn how to debug a native DLL from a .NET Core or .NET Framework app using mixed-mode debugging
-ms.date: 04/15/2022
+ms.date: 10/19/2023
 ms.topic: tutorial
 dev_langs:
   - "CSharp"
@@ -15,7 +15,7 @@ ms.technology: vs-ide-debug
 ---
 # Tutorial: Debug C# and C++ in the same debugging session
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Visual Studio lets you enable more than one debugger type in a debugging session, which is called mixed-mode debugging. In this tutorial, you learn to debug both managed and native code in a single debugging session.
 
@@ -130,7 +130,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
     Then, type a name like **Mixed_Mode_Calling_App** and click **Next** or **Create**, whichever option is available.
 
-    For .NET Core, choose either the recommended target framework or .NET 6, and then choose **Create**.
+    For .NET Core, choose either the recommended target framework or .NET 8, and then choose **Create**.
 
     If you don't see the correct project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the correct .NET workload as described in the prerequisites, and then choose **Modify**.
 
