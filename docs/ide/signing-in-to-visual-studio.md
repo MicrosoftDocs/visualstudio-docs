@@ -1,5 +1,6 @@
 ---
-title: Sign in 
+title: Sign in or switch Visual Studio accounts 
+titleSuffix: ""
 description: Learn why to sign in to Visual Studio, how to sign in, and how to add and switch user accounts.
 ms.date: 05/23/2023
 ms.topic: how-to
@@ -8,7 +9,7 @@ ms.author: meghaanand
 manager: jmartens
 ms.technology: vs-ide-general
 ---
-# Sign in to Visual Studio on Windows 
+# Sign in or switch Visual Studio user accounts 
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
