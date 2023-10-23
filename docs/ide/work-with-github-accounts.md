@@ -1,5 +1,5 @@
 ---
-title: Work with GitHub accounts in Visual Studio
+title: Add GitHub accounts to your keychain
 ms.date: 05/16/2023
 ms.topic: how-to
 description: "Learn how to use Visual Studio with GitHub accounts."
@@ -9,11 +9,11 @@ manager: jmartens
 ms.technology: vs-ide-general
 monikerRange: ">=vs-2019"
 ---
-# Work with GitHub accounts in Visual Studio
+# Add your GitHub accounts to your Visual Studio keychain
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-If you have a public GitHub or GitHub Enterprise account, you can add it to your Visual Studio keychain. After you add your account, you'll be able to take advantage of the platform integration by accessing and creating GitHub repositories, right from Visual Studio.
+In this article, you learn how to add your public GitHub or GitHub Enterprise account to your Visual Studio keychain. After you add your account, you'll be able to [track your code changes in GitHub repositories](\version-control\git-create-repository.md), right from Visual Studio. You can also create and use [GitHub Actions for deployment automation](\azure\azure-deployment-using-github-actions.md).
 
 ## Adding public GitHub accounts
 
