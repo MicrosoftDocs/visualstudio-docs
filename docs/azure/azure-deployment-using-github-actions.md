@@ -21,7 +21,7 @@ Starting in Visual Studio 2019 version 16.11, you can create new GitHub Actions 
 ## Prerequisites
 
 - You must be signed in to your [GitHub account](../ide/work-with-github-accounts.md) in Visual Studio.
-- An Azure subscription. Sign up for a free trail [here](https://azure.microsoft.com/en-us/free/).
+- An Azure subscription. Sign up for a free trail [here](https://azure.microsoft.com/free/).
 
 ## Deploy a single project to Azure using GitHub Actions
 
