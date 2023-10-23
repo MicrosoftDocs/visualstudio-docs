@@ -1,8 +1,8 @@
-- name: Visual Studio version control docs
+- name: Track changes with Git
   href: index.yml
 - name: Overview
   items:
-  - name: Git experience in Visual Studio
+  - name: Git in Visual Studio
     href: git-with-visual-studio.md
   expanded: true
 - name: Get started

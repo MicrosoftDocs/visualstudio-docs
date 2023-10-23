@@ -794,7 +794,7 @@
     href: ide/managing-external-tools.md
   - name: Managing accounts
     items:
-    - name: Sign in to Visual Studio
+    - name: Sign in or switch accounts
       displayName: personalization accounts
       href: ide/signing-in-to-visual-studio.md
     - name: Access multiple user accounts
