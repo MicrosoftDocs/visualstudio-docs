@@ -13,7 +13,7 @@ monikerRange: ">=vs-2019"
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In this article, you learn how to add your public GitHub or GitHub Enterprise account to your Visual Studio keychain. After you add your account, you'll be able to [track your code changes in GitHub repositories](\version-control\git-create-repository.md), right from Visual Studio. You can also create and use [GitHub Actions for deployment automation](\azure\azure-deployment-using-github-actions.md).
+In this article, you learn how to add your public GitHub or GitHub Enterprise account to your Visual Studio keychain. After you add your account, you'll be able to [track your code changes in GitHub repositories](../version-control/git-create-repository.md), right from Visual Studio. You can also create and use [GitHub Actions for deployment automation](../azure/azure-deployment-using-github-actions.md).
 
 ## Adding public GitHub accounts
 
@@ -177,5 +177,7 @@ Verify that HTTP Strict Transport Security (HSTS) is not enabled for localhost o
 > [!NOTE]
 > Please [report a problem](https://developercommunity.visualstudio.com/report?space=8&entry=problem) if you're still experiencing sign in issues.
 
-## See also
+## Related content
 - [Sign in to Visual Studio](signing-in-to-visual-studio.md)
+- [How Visual Studio makes version control easy with Git](../version-control/git-with-visual-studio.md)
+- [Deploy your application to Azure using GitHub Actions workflows](../azure/azure-deployment-using-github-actions.md).
