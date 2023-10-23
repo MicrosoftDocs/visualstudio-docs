@@ -99,7 +99,7 @@ There are several types of accounts you can add:
 |-----------|--------------|
 |Typical accounts|<ol><li>Choose **File** > **Account Settings**.<li>From **All Accounts**, choose an account by using the **+** or the **Add** dropdown. <li>On the **Sign in to your account** page, select the account or choose **Use another account**. Follow the prompts to enter the new account credentials.</ol>|
 |GitHub accounts|Follow instructions in the article, [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md).|
-|Multi-factor authentication account|Follow the instructions in the article, [Work with accounts that require multi-factor authentication (MFA)](work-with-multi-factor-authentication.md).
+|Multifactor authentication account|Follow the instructions in the article, [Work with accounts that require multifactor authentication (MFA)](work-with-multi-factor-authentication.md).
 
 ::: moniker-end
   
@@ -109,7 +109,7 @@ There are several types of accounts you can add:
 |-----------|--------------|
 |Typical accounts|<ol><li>Select the icon with your profile name in the upper-right corner of the Visual Studio environment.<li>Select **Add another account** and then choose an account to sign into.<li>On the **Sign in to your account** page, select the account or choose **Use another account**. Follow the prompts to enter the new account credentials.</ol>|
 |GitHub accounts|Follow instructions in the article, [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md).|
-|Multi-factor authentication account|Follow the instructions in the article, [Work with accounts that require multi-factor authentication (MFA)](work-with-multi-factor-authentication.md).
+|Multifactor authentication account|Follow the instructions in the article, [Work with accounts that require multifactor authentication (MFA)](work-with-multi-factor-authentication.md).
 
 ::: moniker-end
 
