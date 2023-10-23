@@ -1,7 +1,7 @@
 ---
 title: Use MSBuild
 description: Learn the various parts of an MSBuild project file, including items, item metadata, properties, targets, and tasks.
-ms.date: 10/07/2022
+ms.date: 10/17/2023
 ms.topic: conceptual
 helpviewer_keywords:
 - MSBuild, tutorial
@@ -10,9 +10,9 @@ ms.author: ghogen
 manager: jmartens
 ms.technology: msbuild
 ---
-# Walkthrough: Use MSBuild
+# Tutorial: Use MSBuild
 
-MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough introduces you to the building blocks of MSBuild and shows you how to write, manipulate, and debug MSBuild projects. You will learn about:
+MSBuild is the build platform for Microsoft and Visual Studio. This tutorial introduces you to the building blocks of MSBuild and shows you how to write, manipulate, and debug MSBuild projects. You will learn about:
 
 - Creating and manipulating a project file.
 
@@ -20,7 +20,7 @@ MSBuild is the build platform for Microsoft and Visual Studio. This walkthrough 
 
 - How to use build items.
 
-You can run MSBuild from Visual Studio, or from the **Command Window**. In this walkthrough, you create an MSBuild project file using Visual Studio. You edit the project file in Visual Studio, and use the **Command Window** to build the project and examine the results.
+You can run MSBuild from Visual Studio, or from the **Command Window**. In this tutorial, you create an MSBuild project file using Visual Studio. You edit the project file in Visual Studio, and use the **Command Window** to build the project and examine the results.
 
 ## Install MSBuild
 
@@ -46,7 +46,7 @@ To install MSBuild on a system that doesn't have Visual Studio, go to Build Tool
 
 ## Create an MSBuild project
 
- The Visual Studio project system is based on MSBuild. This makes it easy to create a new project file using Visual Studio. In this section, you create a C# project file. You can choose to create a Visual Basic project file instead. In the context of this walkthrough, the difference between the two project files is minor.
+ The Visual Studio project system is based on MSBuild. This makes it easy to create a new project file using Visual Studio. In this section, you create a C# project file. You can choose to create a Visual Basic project file instead. In the context of this tutorial, the difference between the two project files is minor.
 
 **To create a project file**
 
@@ -618,7 +618,7 @@ Notice that metadata expressed in this syntax does not cause batching.
 
 ## Next steps
 
- To learn how to create a simple project file one step at a time, on Windows, try out the [Walkthrough: Creating an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md).
+ To learn how to create a simple project file one step at a time, on Windows, try out [Create an MSBuild project file from scratch](../msbuild/walkthrough-creating-an-msbuild-project-file-from-scratch.md).
 
 If you're primarily using the .NET SDK, you may wish to continue reading at [MSBuild Reference for .NET SDK Projects](/dotnet/core/project-sdk/msbuild-props).
 
