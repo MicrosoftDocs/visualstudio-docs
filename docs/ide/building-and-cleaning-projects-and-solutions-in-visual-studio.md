@@ -1,7 +1,7 @@
 ---
-title: Building and Cleaning Projects and Solutions
+title: Build and clean projects and solutions
 description: Learn how you can build, rebuild, or clean all or some of the projects or project items in a solution.
-ms.date: 10/07/2022
+ms.date: 10/17/2023
 ms.technology: vs-ide-compile
 ms.topic: conceptual
 f1_keywords:

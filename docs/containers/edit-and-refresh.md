@@ -5,7 +5,7 @@ ms.author: ghogen
 author: ghogen
 manager: jmartens
 ms.topic: how-to
-ms.date: 10/07/2022
+ms.date: 10/17/2023
 ms.technology: vs-container-tools
 ---
 # Debug apps in a local Docker container

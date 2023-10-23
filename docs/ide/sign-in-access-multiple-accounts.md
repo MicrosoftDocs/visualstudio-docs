@@ -12,9 +12,7 @@ ms.technology: vs-ide-general
 
  [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
-In this article, you'll learn how to access multiple user accounts.
-
-After you sign in to Visual Studio with a Microsoft or an organizational account, you can see the resources accessible from your accounts in places such as the **Add Connected Service** dialog, **Server Explorer**, and **Team Explorer**.
+In this article, you'll learn how to access multiple user accounts in Visual Studio.  After you sign in to Visual Studio with a Microsoft or an organizational account, you can see the resources accessible from your accounts in places such as the **Add Connected Service** dialog, **Server Explorer**, and **Team Explorer**.
 
 Azure, Application Insights, Azure DevOps, and Microsoft 365 services all support the streamlined sign-in experience.
 
