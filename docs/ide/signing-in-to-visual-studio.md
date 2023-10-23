@@ -94,11 +94,12 @@ After you add multiple accounts on one machine, that group of accounts roams wit
 > [!NOTE]
 > Although the account names roam, the credentials do not. You'll be prompted to enter credentials for those other accounts the first time you attempt to use their resources on a new machine.
 
-+ **Add an additional account to Visual Studio**:
+
+There are several types of accounts you can add: 
+
++ **An additional account**. Add one by:
   
   ::: moniker range="<=vs-2019"
-  
-  To add an additional account to Visual Studio:
   
   1. Choose **File** > **Account Settings**.
   1. From **All Accounts**, choose an account by using the **+** or the **Add** dropdown.
@@ -110,17 +111,15 @@ After you add multiple accounts on one machine, that group of accounts roams wit
   
   ::: moniker range="vs-2022"
   
-  To add an additional account to Visual Studio:
-  
   1. Select the icon with your profile name in the upper-right corner of the Visual Studio environment.
   1. Select **Add another account** and then choose an account to sign into.
   1. On the **Sign in to your account** page, select the account or choose **Use another account**. Follow the prompts to enter the new account credentials.
   
   ::: moniker-end
 
-+ **Add a GitHub account** to Visual Studio by following the instructions in the article, [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md).
++ **GitHub accounts**: Add one by following the instructions in the article, [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md).
 
-+ **Add a multi-factor authentication enabled account** to Visual Studio by following the instructions in the article, [Work with accounts that require multi-factor authentication (MFA)](work-with-multi-factor-authentication.md).
++ **Multi-factor authentication-enabled account**: Add one to Visual Studio by following the instructions in the article, [Work with accounts that require multi-factor authentication (MFA)](work-with-multi-factor-authentication.md).
 
 ## Sign out of your account
 
