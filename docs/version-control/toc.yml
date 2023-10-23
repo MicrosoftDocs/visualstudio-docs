@@ -1,4 +1,4 @@
-- name: Track changes with Git in Visual Studio
+- name: Track changes with Git
   href: index.yml
 - name: Overview
   items:
