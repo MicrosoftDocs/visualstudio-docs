@@ -1,7 +1,7 @@
 ---
 title: Debug a multithreaded app
 description: Debug using the Threads window and the Debug Location toolbar in Visual Studio
-ms.date: 07/13/2023
+ms.date: 10/19/2023
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -18,7 +18,7 @@ ms.technology: vs-ide-debug
 ---
 # Walkthrough: Debug a multithreaded app using the Threads window (C#, Visual Basic, C++)
 
- [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+[!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
 
 Several Visual Studio user interface elements help you debug multithreaded apps. This article introduces multithreaded debugging features in the code editor window, **Debug Location** toolbar, and **Threads** window. For information about other tools for debugging multithreaded apps, see [Get started debugging multithreaded apps](../debugger/get-started-debugging-multithreaded-apps.md).
 
@@ -48,7 +48,7 @@ Create the following multithreaded app project to use in this tutorial:
 
    In the **Configure your new project** window, type a name or use the default name in the **Project name** box. Then, choose **Next** or **Create**, whichever option is available.
 
-   For .NET Core or .NET 5+, choose either the recommended target framework or .NET 6, and then choose **Create**.
+   For .NET Core or .NET 5+, choose either the recommended target framework or .NET 8, and then choose **Create**.
 
    A new console project appears. After the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called *Program.cs* or *MyThreadWalkthroughApp.cpp*.
 
