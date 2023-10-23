@@ -89,37 +89,29 @@ While you don't have to sign in, there are many advantages to doing so.
 
 If you have multiple Microsoft accounts and/or work or school accounts, you can add them all to Visual Studio so that you can access the resources from any account without having to sign in to it separately.
 
-After you add multiple accounts on one machine, that group of accounts roams with you if you sign in to Visual Studio on another machine.
-
-> [!NOTE]
-> Although the account names roam, the credentials do not. You'll be prompted to enter credentials for those other accounts the first time you attempt to use their resources on a new machine.
-
+After you add multiple accounts on one machine, that group of accounts roams with you if you sign in to Visual Studio on another machine.  However, your account credentials do not roam therefore you'll be prompted to enter credentials for those other accounts the first time you attempt to use their resources on a new machine.
 
 There are several types of accounts you can add: 
 
-+ **An additional account**. Add one by:
+::: moniker range="<=vs-2019"
   
-  ::: moniker range="<=vs-2019"
-  
-  1. Choose **File** > **Account Settings**.
-  1. From **All Accounts**, choose an account by using the **+** or the **Add** dropdown.
-  1. On the **Sign in to your account** page, select the account or choose **Use another account**. Follow the prompts to enter the new account credentials.
-  
-  (Optional) Now you use the Add Connected Service dialog and see the Azure services associated with the account you just added. You should see all the services associated with the specified subscription. Even though you're not currently signed into Visual Studio with the second account, you are signed in to that account's services and resources. [Learn more about accessing the resources associated with accounts in Visual Studio](./sign-in-access-multiple-accounts.md).
-  
-  ::: moniker-end
-  
-  ::: moniker range="vs-2022"
-  
-  1. Select the icon with your profile name in the upper-right corner of the Visual Studio environment.
-  1. Select **Add another account** and then choose an account to sign into.
-  1. On the **Sign in to your account** page, select the account or choose **Use another account**. Follow the prompts to enter the new account credentials.
-  
-  ::: moniker-end
+| Account types | How to add one |
+|-----------|--------------|
+|Typical accounts|<ol><li>Choose **File** > **Account Settings**.<li>From **All Accounts**, choose an account by using the **+** or the **Add** dropdown. <li>On the **Sign in to your account** page, select the account or choose **Use another account**. Follow the prompts to enter the new account credentials.</ol>|
+|GitHub accounts|Follow instructions in the article, [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md).|
+|Multi-factor authentication account|Follow the instructions in the article, [Work with accounts that require multi-factor authentication (MFA)](work-with-multi-factor-authentication.md).
 
-+ **GitHub accounts**: Add one by following the instructions in the article, [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md).
+::: moniker-end
+  
+::: moniker range="vs-2022"
 
-+ **Multi-factor authentication-enabled account**: Add one to Visual Studio by following the instructions in the article, [Work with accounts that require multi-factor authentication (MFA)](work-with-multi-factor-authentication.md).
+| Account types | How to add one |
+|-----------|--------------|
+|Typical accounts|<ol><li>Select the icon with your profile name in the upper-right corner of the Visual Studio environment.<li>Select **Add another account** and then choose an account to sign into.<li>On the **Sign in to your account** page, select the account or choose **Use another account**. Follow the prompts to enter the new account credentials.</ol>|
+|GitHub accounts|Follow instructions in the article, [Work with GitHub accounts in Visual Studio](work-with-github-accounts.md).|
+|Multi-factor authentication account|Follow the instructions in the article, [Work with accounts that require multi-factor authentication (MFA)](work-with-multi-factor-authentication.md).
+
+::: moniker-end
 
 ## Sign out of your account
 
