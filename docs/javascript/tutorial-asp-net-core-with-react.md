@@ -173,3 +173,5 @@ Try deleting the React certificates from *%appdata%\local\asp.net\https* or *%ap
 ## Next steps
 
 For more information about SPA applications in ASP.NET Core, see the React section under [Developing Single Page Apps](/aspnet/core/client-side/spa/intro#developing-single-page-apps). The linked article provides additional context for project files such as *aspnetcore-https.js*, although details of the implementation are different based on the template differences. For example, instead of a ClientApp folder, the React files are contained in a separate project.
+
+For MSBuild information specific to the client project, see [MSBuild properties for JSPS](../javascript/javascript-project-system-msbuild-reference.md).
